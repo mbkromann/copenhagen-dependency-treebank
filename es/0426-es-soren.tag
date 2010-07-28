@@ -1,80 +1,80 @@
-<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="1:numm">CapÃ­tulo</W>
-<W lemma="I" msd="AC" tag="CARD" in="-1:numm" out="">I</W>
+<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="1:nobj">CapÃ­tulo</W>
+<W lemma="I" msd="AC" tag="CARD" in="-1:nobj" out="">I</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="2:man" out="">Â¿CÃ³mo</W>
 <W lemma="se" msd="PC" tag="SE" in="1:dobj" out="">se</W>
-<W lemma="desarrollar" morph="desarrollar" msd="VAD" tag="VLfin" in="" out="-2:man|-1:dobj|1:subj|3:pobj|6:pnct">desarrolla</W>
+<W lemma="desarrollar" morph="desarrollar" msd="VAD" tag="VLfin" in="" out="-2:man|-1:dobj|1:subj|6:pnct|3:other">desarrolla</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">niÃ±o</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-3:pobj" out="1:nobj">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-3:other" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="lengua" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">lengua</W>
 <W lemma="?" msd="XP" tag="FS" in="-6:pnct" out="">?</W>
-<W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="1:loc" out="">Â¿DÃ³nde</W>
-<W lemma="&lt;unknown&gt;" morph="estar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="-1:loc|1:subj|6:pnct">estÃ¡</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="1:@loc" out="">Â¿DÃ³nde</W>
+<W lemma="&lt;unknown&gt;" morph="estar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="1:subj|6:pnct|-1:@loc">estÃ¡</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:ref|3:relr">niÃ±o</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|2:preds" out="">que</W>
 <W lemma="yo" msd="PP" tag="PPX" in="1:subj" out="">yo</W>
 <W lemma="ir&7c;ser" morph="ser" msd="VAD" tag="VLfin" in="-3:relr" out="-1:subj|-2:preds">fui</W>
 <W lemma="?" msd="XP" tag="FS" in="-6:pnct" out="">?</W>
-<W lemma="&lt;unknown&gt;" morph="seguir" msd="VAD" tag="VLfin" in="" out="1:loc|2:pobj|4:coord|6:vobj|7:pnct">Â¿sigue</W>
-<W lemma="adentro" msd="RG" tag="ADV" in="-1:loc" out="">adentro</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-2:pobj" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" morph="seguir" msd="VAD" tag="VLfin" in="" out="1:loc|7:pnct|6:conj">Â¿sigue</W>
+<W lemma="adentro" msd="RG" tag="ADV" in="-1:loc" out="1:pobj">adentro</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj" out="">mÃ­</W>
-<W lemma="o" msd="CC" tag="CC" in="-4:coord" out="">o</W>
+<W lemma="o" msd="CC" tag="CC" in="2:coord" out="">o</W>
 <W lemma="se" msd="PC" tag="SE" in="1:subj" out="">se</W>
-<W lemma="ir" morph="ir" msd="VAD" tag="VLfin" in="-6:vobj" out="-1:subj">fue</W>
+<W lemma="ir" morph="ir" msd="VAD" tag="VLfin" in="-6:conj" out="-1:subj|-2:coord">fue</W>
 <W lemma="?" msd="XP" tag="FS" in="-7:pnct" out="">?</W>
-<W lemma="Pablo" msd="NP" tag="NP" in="" out="1:namef|2:pnct|3:time">Pablo</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:namef" out="">Neruda</W>
-<W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
-<W lemma="@card@" msd="AC" tag="CARD" in="-3:time" out="">1978</W>
+<W lemma="Pablo" msd="NP" tag="NP" in="1:namef" out="">Pablo</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="-1:namef|1:pnct|2:other">Neruda</W>
+<W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="-2:other" out="">1978</W>
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:nobj">Los</W>
 <W lemma="&lt;unknown&gt;" morph="bebé" msd="NP" tag="NP" in="-1:nobj" out="">bebÃ©s</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|1:preds|10:pnct">son</W>
 <W lemma="capaz" morph="capaz" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">capaces</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="">de</W>
-<W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="" out="">mÃ¡s</W>
-<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
-<W lemma="el" msd="PD" tag="ART" in="4:dobj" out="">lo</W>
-<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
-<W lemma="suyo" msd="PP" tag="PPO" in="2:subj" out="1:nobj">sus</W>
-<W lemma="padre" morph="padre" msd="NC" tag="NC" in="-1:nobj" out="">padres</W>
-<W lemma="saber" morph="saber" msd="VAD" tag="VLfin" in="" out="-2:subj|-4:dobj">saben</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">mÃ¡s</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:ref|4:relr">lo</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-1:ref|3:dobj" out="">que</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="2:subj|1:{arg}" out="1:possd">sus</W>
+<W lemma="padre" morph="padre" msd="NC" tag="NC" in="-1:possd" out="-1:{arg}">padres</W>
+<W lemma="saber" morph="saber" msd="VAD" tag="VLfin" in="-4:relr" out="-2:subj|-3:dobj">saben</W>
 <W lemma="." msd="XP" tag="FS" in="-10:pnct" out="">.</W>
-<W lemma="o" msd="CC" tag="CC" in="10:coord" out="">O</W>
-<W lemma="," msd="XP" tag="CM" in="9:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" morph="" msd="AN" tag="ADJ" in="8:prg" out="">mÃ¡s</W>
-<W lemma="bien" msd="RG" tag="ADV" in="" out="">bien</W>
-<W lemma="," msd="XP" tag="CM" in="6:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="" out="">mÃ¡s</W>
-<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
-<W lemma="el" msd="PD" tag="ART" in="3:dobj" out="">lo</W>
-<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
-<W lemma="él" msd="PP" tag="PPX" in="1:subj" out="">ellos</W>
-<W lemma="suponer" morph="suponer" msd="VAD" tag="VLfin" in="" out="-1:subj|-10:coord|-9:pnct|-6:pnct|-8:prg|-3:dobj|1:pnct|2:cause|6:vobj|15:vobj|17:pnct">suponen</W>
+<W lemma="o" msd="CC" tag="CC" in="5:coord" out="1:pnct">O</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="ya~que" msd="CS" tag="CSUBF" in="-2:cause" out="">ya que</W>
-<W lemma="el" msd="PD" tag="ART" in="3:subj|4:[subj]" out="1:nobj">el</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="AN" tag="ADJ" in="1:quant" out="">mÃ¡s</W>
+<W lemma="bien" msd="RG" tag="ADV" in="2:eval" out="-1:quant|1:pnct">bien</W>
+<W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="" out="-5:coord|-2:eval|1:pobj|6:pnct|7:cause|22:pnct">mÃ¡s</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:ref|3:relr">lo</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-1:ref|2:dobj" out="">que</W>
+<W lemma="él" msd="PP" tag="PPX" in="1:subj" out="">ellos</W>
+<W lemma="suponer" morph="suponer" msd="VAD" tag="VLfin" in="-3:relr" out="-1:subj|-2:dobj">suponen</W>
+<W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
+<W lemma="ya~que" msd="CS" tag="CSUBF" in="-7:cause" out="4:vobj">ya que</W>
+<W lemma="el" msd="PD" tag="ART" in="3:subj|4:[subj]|12:[subj]|13:[subj]" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj" out="">bebÃ©</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
-<W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="-6:vobj" out="-1:neg|-3:subj|1:vobj">puede</W>
-<W lemma="explicar" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-4:[subj]|1:dobj|4:pnct|5:contr">explicar</W>
+<W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="-4:vobj" out="-1:neg|-3:subj|1:vobj|5:pnct">puede</W>
+<W lemma="explicar" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-4:[subj]|1:dobj|5:contr">explicar</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:ref|2:relr">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|1:subj" out="">que</W>
 <W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="-2:relr" out="-1:subj">puede</W>
-<W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
-<W lemma="sino" msd="CC" tag="CCAD" in="-5:contr" out="">sino</W>
-<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
-<W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="2:quant" out="">sÃ³lo</W>
-<W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="-15:vobj" out="1:vobj">puede</W>
-<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-2:quant">mostrarlo</W>
-<W lemma="." msd="XP" tag="FS" in="-17:pnct" out="">.</W>
-<W lemma="el" msd="PD" tag="ART" in="4:dobj" out="">Lo</W>
+<W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
+<W lemma="sino" msd="CC" tag="CCAD" in="-5:contr" out="1:nobj#">sino</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-1:nobj#" out="2:vobj">que</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="1:other" out="">sÃ³lo</W>
+<W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="-2:vobj" out="1:vobj|-1:other|-12:[subj]">puede</W>
+<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-13:[subj]">mostrarlo</W>
+<W lemma="." msd="XP" tag="FS" in="-22:pnct" out="">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">Lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj" out="">bebÃ©</W>
-<W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="8:vobj" out="-2:subj|-4:dobj|1:vobj">puede</W>
+<W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="" out="-2:subj|1:vobj">puede</W>
 <W lemma="hacer" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="">hacer</W>
 <W lemma="aparte" msd="RG" tag="ADV" in="" out="">aparte</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
@@ -82,7 +82,7 @@
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="nota" morph="notar" msd="NC" tag="NC" in="" out="">nota</W>
 <W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>
-<W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-8:vobj|-1:pnct|3:preds|4:pnct">es</W>
+<W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-1:pnct|3:preds|4:pnct">es</W>
 <W lemma="algo" morph="unknown&gt;" msd="AN" tag="QU" in="" out="">algo</W>
 <W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-3:preds" out="-1:quant">difÃ­cil</W>

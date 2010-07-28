@@ -19,8 +19,9 @@
 [*] da/0376-da.tag
 [*] en/0376-en.tag
 [*] es/0376-es-jonas.tag
-[ ] da/0426-da.tag
-[ ] en/0426-en.tag
+[*] da/0426-da.tag
+[*] en/0426-en.tag
+[ ] es/0426-es-soren.tag
 [ ] da/0428-da.tag
 [ ] en/0428-en.tag
 [ ] da/0596-da.tag
@@ -94,7 +95,7 @@
 
 
 
-[*] es/0426-es-soren.tag
+
 [*] es/0428-es-jonas.tag
 [*] es/0596-es-soren.tag
 [*] es/0607-es-lotte.tag
