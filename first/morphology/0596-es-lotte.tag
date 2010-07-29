@@ -7,12 +7,12 @@
 <W lemma="como" msd="CS" tag="CSUBX" in="-1:prg" out="1:nobj">como</W>
 <W lemma="punto" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">punto</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
-<W lemma="partida" morph="partir !! +ida/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">partida</W>
+<W lemma="partida" morph="partir ! +da/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">partida</W>
 <W lemma="el" msd="PD" tag="ART" in="-6:dobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" morph="depósito" msd="NC" tag="NC" in="-1:nobj" out="1:attr">depósitos</W>
 <W lemma="existente" morph="existir !!e +nte/DERva&3a;act ~s" msd="AN" tag="ADJ" in="-1:attr" out="1:pobj.pobj|1:{location}#">existentes</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
-<W lemma="medicamento" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">medicamentos</W>
+<W lemma="de" morph="" msd="SP" tag="SCENE" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
+<W lemma="medicamento" morph="medicamento" msd="NC" tag="NC" in="-1:nobj" out="">medicamentos</W>
 <W lemma="y" msd="CC" tag="CC" in="-11:coord" out="">y</W>
 <W lemma="el" msd="PD" tag="ART" in="-12:dobj" out="1:nobj">las</W>
 <W lemma="&lt;unknown&gt;" morph="vía" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">vías</W>
@@ -23,9 +23,9 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
 <W lemma="paz" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">paz</W>
 <W lemma="," msd="XP" tag="CM" in="-20:pnct" out="">,</W>
-<W lemma="incluir" morph="incluir !! +ido/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="" out="">incluido</W>
+<W lemma="incluir" morph="incluir ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="" out="">incluido</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="1:nobj">el</W>
-<W lemma="estado" morph="estar !! +ado/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">estado</W>
+<W lemma="estado" morph="estar ! +do/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">estado</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" morph="preparar ! +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">preparación</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
@@ -35,7 +35,7 @@
 <W lemma="defensa" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">defensa</W>
 <W lemma="." msd="XP" tag="FS" in="-31:pnct" out="">.</W>
 <W lemma="esto" msd="" tag="DM" in="4:subj" out="1:nobj">Este</W>
-<W lemma="estado" morph="estar !! +ado/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">estado</W>
+<W lemma="estado" morph="estar ! +do/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">estado</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" morph="preparar ! +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">preparación</W>
 <W lemma="deber" morph="deber" msd="VAD" tag="VMfin" in="" out="-4:subj|1:vobj">debe</W>
@@ -61,11 +61,11 @@
 <W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="-3:relelab" out="-2:loc|1:vobj|4:time">pueda</W>
 <W lemma="cubrir" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj|13:pnct|14:loc|19:pnct|20:time|24:pnct|31:pnct">cubrir</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">las</W>
-<W lemma="necesidad" morph="necesitar !!! +dad/DERNV&3a;core ~es" msd="NC" tag="NC" in="-1:nobj" out="">necesidades</W>
+<W lemma="necesidad" morph="necesitar !!!! +idad/DERvn&3a;core ~es" msd="NC" tag="NC" in="-1:nobj" out="">necesidades</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-4:time" out="1:nobj|23:conj">en</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="breve" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">breve</W>
-<W lemma="estado" morph="estar !! +ado/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:attr">estado</W>
+<W lemma="estado" morph="estar ! +do/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:attr">estado</W>
 <W lemma="inicial" morph="inicio ! +al/DERna&3a;rel" msd="AN" tag="ADJ" in="-1:attr" out="1:pobj|1:{arg}">inicial</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="4:nobj">de</W>
 <W lemma="un" msd="PD" tag="ART" in="3:numm" out="2:conj">una</W>
@@ -112,7 +112,7 @@
 <W lemma="formar" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj|10:pnct|11:coord|17:vobj">formar</W>
 <W lemma="parte" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:dobj" out="1:pobj|1:{arg}">parte</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
-<W lemma="estado" morph="estar !! +ado/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">estado</W>
+<W lemma="estado" morph="estar ! +do/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">estado</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" morph="preparar ! +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">preparación</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
@@ -120,9 +120,9 @@
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" morph="catástrofe" msd="NC" tag="NC" in="-2:conj" out="-1:coord">catástrofes</W>
 <W lemma="," msd="XP" tag="CM" in="-10:pnct" out="">,</W>
-<W lemma="incluir" morph="incluir !! +ido/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-11:coord" out="1:loc">incluido</W>
+<W lemma="incluir" morph="incluir ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-11:coord" out="1:loc">incluido</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
-<W lemma="sentido" morph="sentir !! +ido/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:attr">sentido</W>
+<W lemma="sentido" morph="sentir ! +do/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:attr">sentido</W>
 <W lemma="&lt;unknown&gt;" morph="geografía !!!!áf +ico/DERna&3a;rel" msd="AN" tag="ADJ" in="-1:attr" out="">geográfico</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="2:coord" out="">además</W>
 <W lemma="de" msd="CS" tag="CSUBI" in="" out="">de</W>
@@ -217,7 +217,7 @@
 <W lemma="interior" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">Interior</W>
 <W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="-5:conj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" morph="dirigir !!!c +cióm/DERvn&3a;agent" msd="NP" tag="NP" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">Dirección</W>
+<W lemma="&lt;unknown&gt;" morph="dirigir !!!!ec +ción/DERvn&3a;agent" msd="NP" tag="NP" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">Dirección</W>
 <W lemma="general" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:aobj.dobj|-1:{patient}#" out="1:pobj|1:{arg}">General</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
@@ -225,7 +225,7 @@
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:aobj.dobj|-1:{patient}#" out="">Civil</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="el" msd="PD" tag="ART" in="-13:conj" out="-1:coord|1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" morph="dirigir !!!c +ción/DERvn&3a;agent" msd="NP" tag="NP" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">Dirección</W>
+<W lemma="&lt;unknown&gt;" morph="dirigir !!!!ec +ción/DERvn&3a;agent" msd="NP" tag="NP" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">Dirección</W>
 <W lemma="general" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:aobj.dobj|-1:{patient}#" out="1:pobj|1:{arg}">General</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" morph="sano ! +idad/DERan&3a;qual" msd="NP" tag="NP" in="-1:nobj" out="">Sanidad</W>
@@ -240,7 +240,7 @@
 <W lemma="a~fin~de" msd="CS" tag="CSUBI" in="-1:goal" out="2:dobj">a fin de</W>
 <W lemma="construir" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-2:vobj" out="">construir</W>
 <W lemma="un" msd="PD" tag="ART" in="-2:dobj" out="1:nobj">un</W>
-<W lemma="estado" morph="estar !! +ado/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#|5:ref|10:relr">estado</W>
+<W lemma="estado" morph="estar ! +do/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#|5:ref|10:relr">estado</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" morph="preparar ! +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">preparación</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
@@ -256,5 +256,5 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="condicin" morph="condición" msd="NC" tag="NC" in="-1:nobj" out="1:attr">condiciones</W>
-<W lemma="mencionar" morph="mencionar !! +ada/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="">mencionadas</W>
+<W lemma="mencionar" morph="mencionar ! +da/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="">mencionadas</W>
 <W lemma="." msd="XP" tag="FS" in="-28:pnct" out="">.</W>

@@ -11,13 +11,13 @@
 <W lemma="consistente" morph="consistir !!e +nte/DERva&3a;act" msd="AN" tag="ADJ" in="-2:attr" out="1:pobj">consistente</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr|7:coref-var|7:coref-iden|9:+CONJ&3a;elab/(y)">pemmican</W>
-<W lemma="preparar" morph="preparar !! ?ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="1:pobj">preparado</W>
+<W lemma="preparar" morph="preparar ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="1:pobj">preparado</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="ciento" msd="AC" tag="CARD" in="-1:nobj" out="2:nobj">cien</W>
 <W lemma="diferente" morph="diferir !!e +nte/DERva&3a;act ~s" msd="AN" tag="ADJ" in="1:attr" out="">diferentes</W>
 <W lemma="manera" morph="manera" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">maneras</W>
 <W lemma="." msd="XP" tag="FS" in="-15:pnct" out="">.</W>
-<W lemma="el" msd="PD" tag="ART" in="-7:coref-var|2:subj|-7:coref-iden" out="1:nobj">El</W>
+<W lemma="el" msd="PD" tag="ART" in="-7:coref-var|-7:coref-iden|2:subj" out="1:nobj">El</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">pemmican</W>
 <W lemma="consistir" morph="consistir" msd="VAD" tag="VLfin" in="-9:+CONJ&3a;elab/(y)" out="-2:subj|1:pobj">consiste</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">en</W>
@@ -31,7 +31,7 @@
 <W lemma="," msd="XP" tag="CM" in="-7:pnct" out="">,</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-8:ref|1:subj|16:[subj]" out="">que</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="-9:relr" out="-1:subj|1:preds|13:pnct|15:conj">son</W>
-<W lemma="apropiado" morph="apropiar !! +ado/DERva&3a;pas.part" msd="AN" tag="ADJ" in="-1:preds" out="2:pobj|6:loc">apropiadas</W>
+<W lemma="apropiado" morph="apropiar ! +da/DERva&3a;pas.part ~s" msd="AN" tag="ADJ" in="-1:preds" out="2:pobj|6:loc">apropiadas</W>
 <W lemma="tanto" msd="RG" tag="ADV" in="3:correl" out="">tanto</W>
 <W lemma="para" msd="SP" tag="SCENE" in="-2:pobj" out="1:nobj">para</W>
 <W lemma="perro" morph="perro" msd="NC" tag="NC" in="-1:nobj" out="2:conj">perros</W>
@@ -45,24 +45,24 @@
 <W lemma="polar" morph="polo ! +ar/DERna&3a;rel" msd="AN" tag="ADJ" in="-1:attr#" out="">polar</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="-13:pnct" out="">–</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
-<W lemma="saber" morph="saber" msd="VAD" tag="VLfin" in="-15:conj" out="-1:coord|1:quant|2:pobj|-16:[subj]">saben</W>
+<W lemma="saber" morph="saber" msd="VAD" tag="VLfin" in="-15:conj" out="-1:coord|-16:[subj]|1:quant|2:pobj">saben</W>
 <W lemma="exactamente" msd="RG" tag="ADV" in="-1:quant" out="">exactamente</W>
 <W lemma="al" msd="SP" tag="PAL" in="-2:pobj" out="1:nobj">al</W>
 <W lemma="sabor" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:ref|4:relr">sabor</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|3:dobj" out="">que</W>
 <W lemma="se" msd="PC" tag="SE" in="2:subj" out="">se</W>
-<W lemma="l" msd="PP" tag="PPC" in="1:iobj|-30:coref" out="">les</W>
+<W lemma="l" msd="PP" tag="PPC" in="-30:coref|1:iobj" out="">les</W>
 <W lemma="agregar" morph="agregar" msd="VAD" tag="VLfin" in="-4:relr" out="-1:iobj|-2:subj|-3:dobj|1:pnct">agrega</W>
 <W lemma="." msd="XP" tag="FS" in="-1:pnct" out="">.</W>
-<W lemma="por~lo~tanto" msd="CS" tag="CSUBF" in="2:cause|-53:coref-res" out="">Por lo tanto</W>
+<W lemma="por~lo~tanto" msd="CS" tag="CSUBF" in="-53:coref-res|2:cause" out="">Por lo tanto</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
 <W lemma="&lt;unknown&gt;" morph="extrañar" msd="VAD" tag="VLfin" in="-55:+TELIC&3a;cons.sbj/por_lo_tanto" out="-1:neg|-2:cause|1:subj|41:pnct">extraña</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:subj" out="6:vobj|41:CONJ&3a;elab/(y)">que</W>
 <W lemma="incluso" msd="RG" tag="ADV" in="1:focal" out="">incluso</W>
-<W lemma="cuatro" msd="AC" tag="CARD" in="4:subj|17:[subj]|18:[subj]|27:[subj]" out="-1:focal|1:nobj|-59:coref|20:coref|39:*coref|75:assoc-const|104:assoc-const|107:assoc-const|113:assoc-const">cuatro</W>
+<W lemma="cuatro" msd="AC" tag="CARD" in="4:subj|17:[subj]|18:[subj]|27:[subj]" out="-1:focal|-59:coref|1:nobj|20:coref|39:*coref|75:assoc-const|104:assoc-const|107:assoc-const|113:assoc-const">cuatro</W>
 <W lemma="deportista" morph="deporte ! +ista/DERnn&3a;agent ~s" msd="NC" tag="NC" in="-1:nobj" out="2:attr">deportistas</W>
 <W lemma="bien" msd="RG" tag="ADV" in="1:man" out="">bien</W>
-<W lemma="entrenar" morph="entrenar !! +ado/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-2:attr" out="-1:man">entrenados</W>
+<W lemma="entrenar" morph="entrenar ! +do/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-2:attr" out="-1:man">entrenados</W>
 <W lemma="aprovechar" morph="aprovechar" msd="VAD" tag="VLfin" in="-6:vobj" out="-4:subj|1:dobj|22:goal">aprovecharon</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:vobj|7:pnct|8:appa|8:coref-var|45:assoc-time">el</W>
 <W lemma="jueves" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:vobj" out="1:attr|1:{time}|4:attr|4:{loc}">jueves</W>
@@ -93,24 +93,24 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{loc}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj|-21:coref-var" out="1:nobj|62:coref-var">la</W>
 <W lemma="ciudad" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">ciudad</W>
-<W lemma="&lt;unknown&gt;" morph="acompañar !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-7:fpredo" out="1:pobj">acompañado</W>
+<W lemma="&lt;unknown&gt;" morph="acompañar ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-7:fpredo" out="1:pobj">acompañado</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="vino" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr#">vino</W>
 <W lemma="tinto" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr#" out="">tinto</W>
 <W lemma="." msd="XP" tag="FS" in="-41:pnct" out="">.</W>
-<W lemma="poner" morph="poner" msd="VAD" tag="VLfin" in="-39:*coref|7:*[subj]*|-41:CONJ&3a;elab/(y)" out="1:dobj|2:@loc|7:conj|7:coref|3:*assoc-const*|6:*coref*|12:+TIME&3a;post/enseguida&amp;CONJ&3a;add/(y)">Pusieron</W>
+<W lemma="poner" morph="poner" msd="VAD" tag="VLfin" in="-39:*coref|-41:CONJ&3a;elab/(y)|7:*[subj]*" out="1:dobj|2:@loc|3:*assoc-const*|6:*coref*|7:conj|7:coref|12:+TIME&3a;post/enseguida&amp;CONJ&3a;add/(y)">Pusieron</W>
 <W lemma="&lt;unknown&gt;" morph="color +ete/DERnn&3a;other" msd="NC" tag="NC" in="-1:dobj" out="">colorete</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-2:@loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj|-3:*assoc-const*" out="1:nobj">las</W>
 <W lemma="mejilla" morph="mejilla" msd="NC" tag="NC" in="-1:nobj" out="">mejillas</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
-<W lemma="se" msd="PC" tag="SE" in="1:dobj|-6:*coref*" out="">se</W>
-<W lemma="vestir" morph="vestir" msd="VAD" tag="VLfin" in="-7:conj|-7:coref" out="-2:coord|1:man|3:pnct|-1:dobj|-7:*[subj]*|5:*coref*">vistieron</W>
+<W lemma="se" msd="PC" tag="SE" in="-6:*coref*|1:dobj" out="">se</W>
+<W lemma="vestir" morph="vestir" msd="VAD" tag="VLfin" in="-7:conj|-7:coref" out="-2:coord|-1:dobj|-7:*[subj]*|1:man|3:pnct|5:*coref*">vistieron</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:man" out="1:nobj">de</W>
 <W lemma="fiesta" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">fiesta</W>
 <W lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>
-<W lemma="enseguida" msd="RG" tag="ADV" in="1:time|-45:assoc-time" out="">Enseguida</W>
-<W lemma="cortar" morph="cortar" msd="VAD" tag="VLfin" in="-5:*coref*|-12:+TIME&3a;post/enseguida&amp;CONJ&3a;add/(y)" out="-1:time|1:dobj|4:pnct|1:*assoc-const*|65:*coref*|7:CONJ&3a;add/(y)">cortaron</W>
+<W lemma="enseguida" msd="RG" tag="ADV" in="-45:assoc-time|1:time" out="">Enseguida</W>
+<W lemma="cortar" morph="cortar" msd="VAD" tag="VLfin" in="-5:*coref*|-12:+TIME&3a;post/enseguida&amp;CONJ&3a;add/(y)" out="-1:time|1:dobj|1:*assoc-const*|4:pnct|7:CONJ&3a;add/(y)|65:*coref*">cortaron</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj|-1:*assoc-const*" out="1:nobj">las</W>
 <W lemma="&lt;unknown&gt;" morph="uña" msd="NC" tag="NC" in="-1:nobj" out="1:attr">uñas</W>
 <W lemma="largo" morph="larga" msd="AN" tag="ADJ" in="-1:attr" out="">largas</W>
@@ -134,8 +134,8 @@
 <W lemma="espera" morph="esperar !! +a/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">espera</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Karo</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj|2:[subj]|5:[subj]|-75:assoc-const" out="-1:namef|35:coref-iden|35:coref-iden">Thomsen</W>
-<W lemma="&lt;unknown&gt;" morph="haber" msd="VAD" tag="VLfin" in="" out="-6:time|-1:subj|1:vobj|7:pnct|-10:+DISCOTHER|38:CONJ&3a;add/(y)">había</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-75:assoc-const|1:subj|2:[subj]|5:[subj]" out="-1:namef|35:coref-iden|35:coref-iden">Thomsen</W>
+<W lemma="&lt;unknown&gt;" morph="haber" msd="VAD" tag="VLfin" in="" out="-6:time|-1:subj|-10:+DISCOTHER|1:vobj|7:pnct|38:CONJ&3a;add/(y)">había</W>
 <W lemma="tener" morph="tener" msd="VAF" tag="VLadj" in="-1:vobj" out="-2:[subj]|1:dobj">tenido</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:dobj" out="1:pobj|1:{arg}">ocasión</W>
 <W lemma="de" msd="CS" tag="CSUBI" in="-1:pobj|-1:{arg}" out="1:vobj">de</W>
@@ -163,7 +163,7 @@
 <W lemma="tienda" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">tienda</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAF" tag="VLadj" in="-2:pnct" out="">–</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Mie</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="10:subj|11:[subj]|-104:assoc-const" out="-1:namef|1:pnct|3:conj|4:pnct|6:conj|9:conj">Graversen</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-104:assoc-const|10:subj|11:[subj]" out="-1:namef|1:pnct|3:conj|4:pnct|6:conj|9:conj">Graversen</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="Olga" msd="NP" tag="NP" in="1:namef" out="">Olga</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-3:conj|-107:assoc-const" out="-1:namef">Osetrova</W>

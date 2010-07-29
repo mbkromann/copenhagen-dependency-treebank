@@ -8,7 +8,7 @@
 <W lemma="cadena" morph="cadena" msd="NC" tag="NC" in="-1:nobj" out="1:pobj&3a;other#">cadenas</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj&3a;other#" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
-<W lemma="barrera" morph="barra ! +era/DERnn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="">barreras</W>
+<W lemma="barrera" morph="barra ! +era/DERnn&3a;other ~s" msd="NC" tag="NC" in="-1:nobj" out="">barreras</W>
 <W lemma="temblar" morph="temblar" msd="VAD" tag="VLfin" in="-6:vobj" out="-5:subj">temblaban</W>
 <W lemma="." msd="XP" tag="FS" in="-10:pnct" out="">.</W>
 <W lemma="grande" morph="grande" msd="AN" tag="ADJ" in="1:attr" out="">Grandes</W>

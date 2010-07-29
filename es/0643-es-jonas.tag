@@ -64,9 +64,9 @@
 <W lemma="mujer" msd="NP" tag="NP" in="" out="1:attr|3:fpreds|10:pnct">Mujer</W>
 <W lemma="fatal" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">fatal</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
-<W lemma="observar" morph="observar !! +ada/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-3:fpreds" out="2:conj|3:attr|3:{agent}">observada</W>
+<W lemma="observar" morph="observar ! +da/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-3:fpreds" out="2:conj|3:attr|3:{agent}">observada</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
-<W lemma="&lt;unknown&gt;" morph="admirar !! +ada/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-2:conj" out="-1:coord">admirada</W>
+<W lemma="&lt;unknown&gt;" morph="admirar ! +da/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-2:conj" out="-1:coord">admirada</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-3:attr|-3:{agent}" out="1:nobj">por</W>
 <W lemma="todo" morph="todo" msd="AN" tag="QU" in="-1:nobj" out="1:nobj">todos</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
@@ -98,7 +98,7 @@
 <W lemma="mucho" morph="mucha" msd="AN" tag="QU" in="-1:preds" out="1:nobj">muchas</W>
 <W lemma="cosa" morph="cosa" msd="NC" tag="NC" in="-1:nobj" out="">cosas</W>
 <W lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" morph="frecuentar" msd="VAD" tag="VLfin" in="" out="1:dobj|7:pnct">Frecuenta</W>
+<W lemma="&lt;unknown&gt;" morph="frecuente ! +ar/DERav" msd="VAD" tag="VLfin" in="" out="1:dobj|7:pnct">Frecuenta</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">los</W>
 <W lemma="hotel" morph="hotel" msd="NC" tag="NC" in="-1:nobj" out="2:conj">hoteles</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
@@ -148,7 +148,7 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="hombre" morph="hombre" msd="NC" tag="NC" in="-1:nobj" out="1:attr|3:ref|5:relpa">hombres</W>
-<W lemma="casar" morph="casar !! +ado/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="">casados</W>
+<W lemma="casar" morph="casar ! +do/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="">casados</W>
 <W lemma="," msd="XP" tag="CM" in="3:pnct" out="">,</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-3:ref|2:subj" out="">que</W>
 <W lemma="por~ejemplo" msd="RG" tag="ADV" in="1:time" out="">por ejemplo</W>

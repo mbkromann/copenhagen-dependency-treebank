@@ -1,5 +1,5 @@
 <W lemma="@card@" msd="XS" tag="CODE" in="1:numm" out="">11</W>
-<W lemma="muerto" morph="morir !!!!uert +o/DERva&3a;pas.part ~s" msd="AN" tag="ADJ" in="" out="-1:numm|1:pobj|6:pnct">muertos</W>
+<W lemma="muerto" morph="morir !!!!uer +to/DERva&3a;pas.part ~s" msd="AN" tag="ADJ" in="" out="-1:numm|1:pobj|6:pnct">muertos</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">por</W>
 <W lemma="consumo" morph="consumir !! +o/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">consumo</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
@@ -11,7 +11,7 @@
 <W lemma="morir" morph="morir" msd="VAD" tag="VLfin" in="" out="-1:subj|1:time|4:loc|11:pobj|17:pnct">murieron</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:time" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">año</W>
-<W lemma="pasar" morph="pasar !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">pasado</W>
+<W lemma="pasar" morph="pasar ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">pasado</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-4:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="distrito" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">distrito</W>
@@ -60,7 +60,7 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="cantidad" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">cantidad</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="muerto" morph="morir !!!!uert +o/DERva&3a;pas.part ~s" msd="AN" tag="ADJ" in="-1:nobj" out="1:pobj">muertos</W>
+<W lemma="muerto" morph="morir !!!!uer +to/DERva&3a;pas.part ~s" msd="AN" tag="ADJ" in="-1:nobj" out="1:pobj">muertos</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">por</W>
 <W lemma="consumo" morph="consumir !! +o/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">consumo</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
@@ -76,10 +76,10 @@
 <W lemma="&lt;unknown&gt;" morph="conectar !!!!x +ión/DERvn&3a;core" msd="NC" tag="NC" in="-2:dobj" out="1:pobj">conexión</W>
 <W lemma="entre" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">entre</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|3:conj">los</W>
-<W lemma="muerto" morph="morir !!!!uert +o/DERva&3a;pas.part ~s" msd="AN" tag="ADJ" in="-1:nobj" out="">muertos</W>
+<W lemma="muerto" morph="morir !!!!uer +to/DERva&3a;pas.part ~s" msd="AN" tag="ADJ" in="-1:nobj" out="">muertos</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="el" msd="PD" tag="ART" in="-3:conj" out="-1:coord|1:cons">el</W>
-<W lemma="hecho" morph="hacer !!!!ech +o/DERna&3a;pas.part" msd="NC" tag="NC" in="-1:cons" out="">hecho</W>
+<W lemma="hecho" morph="hacer !!!!e +cho/DERvn&3a;patient" msd="NC" tag="NC" in="-1:cons" out="">hecho</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="todo" morph="toda" msd="AN" tag="QU" in="" out="">todas</W>
@@ -90,7 +90,7 @@
 <W lemma="consumidor" morph="consumir ! +dor/DERvn&3a;agent ~es" msd="NC" tag="NC" in="-1:preds" out="1:pobj.dobj|1:{patient}|4:time">consumidores</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="drogar" morph="droga" msd="VAD" tag="VLfin" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">drogas</W>
-<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:aobj.dobj|-1:{patient}#" out="">euforizantes</W>
+<W lemma="&lt;unknown&gt;" morph="euforia !za +nte/DERna&3a;telic ~s" msd="NC" tag="NC" in="-1:aobj.dobj|-1:{patient}#" out="">euforizantes</W>
 <W lemma="durante" msd="SP" tag="SCENE" in="-4:time" out="1:nobj">durante</W>
 <W lemma="&lt;unknown&gt;" morph="año" msd="NC" tag="NC" in="-1:nobj" out="">años</W>
 <W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>

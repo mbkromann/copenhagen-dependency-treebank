@@ -7,7 +7,7 @@
 <W lemma="realizar" morph="real +izar/DERav" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">realizar</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">las</W>
 <W lemma="medición" morph="medir ! +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:attr">mediciones</W>
-<W lemma="exigir" morph="exigir !! +ida/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="">exigidas</W>
+<W lemma="exigir" morph="exigir ! +da/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="">exigidas</W>
 <W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" morph="deber" msd="VAD" tag="VLfin" in="" out="-11:cond|1:vobj|11:pnct">deberÃ¡</W>
 <W lemma="buscar" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:man|4:dobj">buscar</W>
@@ -17,7 +17,7 @@
 <W lemma="asistencia" morph="asistir !!e +ncia/DERvn&3a;core" msd="NC" tag="NC" in="-4:dobj" out="1:loc">asistencia</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="laboratorio" morph="laborar ! +torio/DERvn&3a;loc ~s" msd="NC" tag="NC" in="-1:nobj" out="1:attr">laboratorios</W>
-<W lemma="privado" morph="privar !! +ado/DERva&3a;other ~s" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">privados</W>
+<W lemma="privado" morph="privar ! +do/DERva&3a;other ~s" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">privados</W>
 <W lemma="o" msd="CC" tag="CC" in="1:coord" out="">o</W>
 <W lemma="&lt;unknown&gt;" morph="pueblo !!!!úbl +ico/DERna&3a;rel ~s" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">pÃºblicos</W>
 <W lemma="." msd="XP" tag="FS" in="-11:pnct" out="">.</W>
@@ -33,7 +33,7 @@
 <W lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="7:vobj">que</W>
 <W lemma="el" msd="PD" tag="ART" in="6:subj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">anÃ¡lisis</W>
-<W lemma="relacionar" morph="relación !!on +ar/DERnv !! +ado/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="1:pobj">relacionados</W>
+<W lemma="relacionar" morph="relación !!on +ar/DERnv ! +do/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="1:pobj">relacionados</W>
 <W lemma="al" msd="SP" tag="PAL" in="-1:pobj" out="1:nobj">al</W>
 <W lemma="&lt;unknown&gt;" morph="control -auto/AGENT" msd="NC" tag="NC" in="-1:nobj" out="">autocontrol</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
@@ -44,7 +44,7 @@
 <W lemma="por" msd="SP" tag="SCENE" in="-4:pobj|-4:{arg}" out="1:nobj">por</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="laboratorio" morph="laborar ! +torio/DERvn&3a;loc" msd="NC" tag="NC" in="-1:nobj" out="1:attr">laboratorio</W>
-<W lemma="independiente" morph="depender !!in +nte/DERva&3a;act -in/NEG&3a;contr" msd="AN" tag="ADJ" in="-1:attr" out="">independiente</W>
+<W lemma="independiente" morph="depender !!ie +nte/DERva&3a;act -in/NEG&3a;contr" msd="AN" tag="ADJ" in="-1:attr" out="">independiente</W>
 <W lemma="si" msd="CS" tag="CSUBX" in="-8:cond" out="1:vobj">si</W>
 <W lemma="surgir" morph="surgir" msd="VAD" tag="VLfin" in="-1:vobj" out="1:subj">surgen</W>
 <W lemma="duda" morph="dudar !! +a/DERvn&3a;core" msd="NC" tag="NC" in="-1:subj" out="1:pobj">dudas</W>
@@ -53,7 +53,7 @@
 <W lemma="control" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">control</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="el" msd="PD" tag="ART" in="-3:conj" out="-1:coord|1:nobj">los</W>
-<W lemma="resultado" morph="resulta ! +ar/DERnv !! +ado/DERva&3a;pas.part ~s" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">resultados</W>
+<W lemma="resultado" morph="resulta ! +ar/DERnv ! +do/DERvn&3a;patient ~s" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">resultados</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">anÃ¡lisis</W>
@@ -61,7 +61,7 @@
 <W lemma="&lt;unknown&gt;" morph="ver" msd="VAD" tag="VLfin" in="" out="1:scene|2:dobj|21:pnct">VÃ©ase</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:scene" out="">ademÃ¡s</W>
 <W lemma="el" msd="PD" tag="ART" in="-2:dobj" out="1:nobj|9:conj">el</W>
-<W lemma="apartado" morph="parte ! -+[a][ar]/DERnv -a/AGENT !! +ado/DERva&3a;pas.part" msd="NC" tag="NC" in="-1:nobj" out="1:tobj|2:pobj">apartado</W>
+<W lemma="apartado" morph="parte -+[a][ar]/DERnv -a/AGENT ! +do/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="1:tobj|2:pobj">apartado</W>
 <W lemma="@card@" msd="XS" tag="CODE" in="-1:tobj" out="">5.3</W>
 <W lemma="sobre" msd="SP" tag="SCENE" in="-2:pobj" out="1:nobj">sobre</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
@@ -70,7 +70,7 @@
 <W lemma="muestreo" morph="mostrar !!!!!!uestr +eo/DERvn&3a;inst" msd="NC" tag="NC" in="-1:nobj" out="">muestreo</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="el" msd="PD" tag="ART" in="-9:conj" out="-1:coord|1:nobj">el</W>
-<W lemma="apartado" morph="parte ! -+[a][ar]/DERnv -a/AGENT !! +ado/DERva&3a;pas.part" msd="NC" tag="NC" in="-1:nobj" out="1:tobj|2:pobj">apartado</W>
+<W lemma="apartado" morph="parte -+[a][ar]/DERnv -a/AGENT ! +do/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="1:tobj|2:pobj">apartado</W>
 <W lemma="@card@" msd="XS" tag="CODE" in="-1:tobj" out="">5.6</W>
 <W lemma="sobre" msd="SP" tag="SCENE" in="-2:pobj" out="1:nobj">sobre</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
@@ -85,7 +85,7 @@
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" morph="control -auto/AGENT" msd="NC" tag="NC" in="-1:nobj" out="">autocontrol</W>
 <W lemma="el" msd="PD" tag="ART" in="4:subj|5:[subj]|7:[subj]" out="1:nobj">Los</W>
-<W lemma="resultado" morph="resulta ! +ar/DERnv !! +ado/DERva&3a;pas.part ~s" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">resultados</W>
+<W lemma="resultado" morph="resulta ! +ar/DERnv ! +do/DERvn&3a;patient ~s" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">resultados</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" morph="control -auto/AGENT" msd="NC" tag="NC" in="-1:nobj" out="">autocontrol</W>
 <W lemma="deber" morph="deber" msd="VAD" tag="VMfin" in="" out="-4:subj|1:vobj|8:pnct|41:pnct">deben</W>
@@ -113,7 +113,7 @@
 <W lemma="cantidad" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}|3:attr">cantidad</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" morph="año" msd="NC" tag="NC" in="-1:nobj" out="">aÃ±os</W>
-<W lemma="determinar" morph="determinar !! +ada/DERva.pas.part" msd="VAF" tag="VLadj" in="-3:attr" out="1:pobj|1:{arg}">determinada</W>
+<W lemma="determinar" morph="determinar ! +da/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-3:attr" out="1:pobj|1:{arg}">determinada</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">por</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="autoridad" morph="autoridad" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">autoridades</W>
@@ -139,7 +139,7 @@
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-2:scene" out="">ademÃ¡s</W>
 <W lemma="todo" morph="toda" msd="AN" tag="QU" in="-3:subj|-2:[subj]" out="1:nobj">todas</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
-<W lemma="irregularidad" morph="irregular +idad/DERan&3a;qual ~es" msd="NC" tag="NC" in="-1:nobj" out="1:loc">irregularidades</W>
+<W lemma="irregularidad" morph="regular -ir/NEG&3a;contr +idad/DERan&3a;qual ~es" msd="NC" tag="NC" in="-1:nobj" out="1:loc">irregularidades</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj|4:conj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="funcionamiento" morph="función !!on +ar/DERnv ! +miento/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">funcionamiento</W>
@@ -149,7 +149,7 @@
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" morph="solución" msd="NC" tag="NC" in="-2:conj" out="-1:coord">soluciones.Todos</W>
 <W lemma="el" msd="PD" tag="ART" in="5:subj|6:[subj]" out="1:nobj">los</W>
-<W lemma="resultado" morph="resulta ! +ar/DERnv !! +ado/DERva&3a;pas.part ~s" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">resultados</W>
+<W lemma="resultado" morph="resulta ! +ar/DERnv ! +do/DERvn&3a;patient ~s" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">resultados</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">anÃ¡lisis</W>
@@ -179,7 +179,7 @@
 <W lemma="." msd="XP" tag="FS" in="-23:pnct" out="">.</W>
 <W lemma="en~todo~caso" msd="RG" tag="ADV" in="32:cond" out="1:pobj">En todo caso</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="irregularidad" morph="irregular +idad/DERan&3a;qual" msd="NC" tag="NC" in="-1:nobj" out="1:loc">irregularidad</W>
+<W lemma="irregularidad" morph="regular -ir/NEG&3a;contr +idad/DERan&3a;qual" msd="NC" tag="NC" in="-1:nobj" out="1:loc">irregularidad</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="funcionamiento" morph="función !!on +ar/DERnv ! +miento/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:ref|2:relr|18:ref">funcionamiento</W>
@@ -187,7 +187,7 @@
 <W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="-2:relr" out="-1:subj|1:vobj|8:pnct|14:pnct|18:conj">pueda</W>
 <W lemma="implicar" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-2:[subj]|1:dobj">implicar</W>
 <W lemma="emisión" morph="emitir !!! +sión/DER&3a;core ~!!ones" msd="NC" tag="NC" in="-1:dobj" out="1:attr|2:pobj">emisiones</W>
-<W lemma="perjudicial" morph="perjudicar !! +ial/DERva&3a;act.epi ~es" msd="AN" tag="ADJ" in="-1:attr" out="">perjudiciales</W>
+<W lemma="perjudicial" morph="perjudicar !!i +al/DERva&3a;act.epi ~es" msd="AN" tag="ADJ" in="-1:attr" out="">perjudiciales</W>
 <W lemma="para" msd="SP" tag="SCENE" in="-2:pobj" out="1:nobj">para</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|4:conj">el</W>
 <W lemma="medio" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">medio</W>

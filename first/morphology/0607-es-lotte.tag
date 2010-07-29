@@ -3,9 +3,9 @@
 <W lemma="&lt;unknown&gt;" morph="vomitar !!!!!!ómit +o/DERvn&3a;patient ~s" msd="NC" tag="NC" in="-1:dobj" out="1:attr">vómitos</W>
 <W lemma="sangriento" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">sangrientos</W>
 <W lemma="o" msd="CC" tag="CC" in="1:coord" out="">o</W>
-<W lemma="parecer" morph="parecer !! +ido/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-2:conj" out="-1:coord|1:pobj">parecidos</W>
+<W lemma="parecer" morph="parecer !!i +do/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-2:conj" out="-1:coord|1:pobj">parecidos</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">a</W>
-<W lemma="&lt;unknown&gt;" morph="posar !! ?o/DERvn&3a;patient ~s" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#">posos</W>
+<W lemma="&lt;unknown&gt;" morph="posar !! +o/DERvn&3a;patient ~s" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#">posos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">café</W>
 <W lemma="," msd="XP" tag="CM" in="-9:pnct" out="">,</W>
@@ -93,7 +93,7 @@
 <W lemma="costumbre" morph="costumbre" msd="NC" tag="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">costumbres</W>
 <W lemma="alimenticio" morph="alimentar !! +icia/DERva&3a;act ~s" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">alimenticias</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
-<W lemma="saludable" morph="salud +able/DERnn&3a;tellic ~s" msd="AN" tag="ADJ" in="-4:attr" out="-1:neg">saludables</W>
+<W lemma="saludable" morph="salud ^a +ble/DERna&3a;epi" msd="AN" tag="ADJ" in="-4:attr" out="-1:neg">saludables</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-5:ref|1:subj" out="">que</W>
 <W lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="-6:relr" out="-1:subj|1:vobj">han</W>
 <W lemma="causar" morph="causa ! +ar/DERnv" msd="VAF" tag="VLadj" in="-1:vobj" out="1:dobj">causado</W>
@@ -109,7 +109,7 @@
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj|-48:coref" out="1:nobj|39:coref">sus</W>
 <W lemma="costumbre" morph="costumbre" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#">costumbres</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" morph="alimentar ! +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">alimentación</W>
+<W lemma="&lt;unknown&gt;" morph="alimento ! +ar/DERnv ! +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">alimentación</W>
 <W lemma="o" msd="CC" tag="CC" in="1:coord" out="">o</W>
 <W lemma="buscar" morph="buscar" msd="VAF" tag="VLadj" in="-6:conj" out="-1:coord|-11:[subj]|2:man|11:dobj|24:conj">buscando</W>
 <W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>
@@ -123,7 +123,7 @@
 <W lemma="&lt;unknown&gt;" morph="caloría" msd="NC" tag="NC" in="-1:nobj" out="">calorías</W>
 <W lemma="," msd="XP" tag="CM" in="-8:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="-11:dobj" out="1:nobj|2:ref|3:relr">los</W>
-<W lemma="alimento" morph="alimentar !! +o/DERvn&3a;agent ~s" msd="NC" tag="NC" in="-1:nobj" out="">alimentos</W>
+<W lemma="alimento" morph="alimento" msd="NC" tag="NC" in="-1:nobj" out="">alimentos</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-2:ref|1:subj" out="">que</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="-3:relr" out="-1:subj|2:preds|5:pnct">son</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="1:quant" out="">más</W>
@@ -148,7 +148,7 @@
 <W lemma="l" msd="PP" tag="PPC" in="-39:coref|1:iobj" out="">le</W>
 <W lemma="&lt;unknown&gt;" morph="dar" msd="VAD" tag="VLfin" in="" out="-9:subj|-1:iobj|1:dobj|9:pnct">dará</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj|4:attr">una</W>
-<W lemma="&lt;unknown&gt;" morph="perder !!!!!érd +ida/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#|4:other">pérdida</W>
+<W lemma="&lt;unknown&gt;" morph="perder !!!!!érdi +da/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#|4:other">pérdida</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="peso" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">peso</W>
 <W lemma="mensual" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-4:attr" out="">mensual</W>
@@ -181,7 +181,7 @@
 <W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="1:man" out="">así</W>
 <W lemma="lograr" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-15:conj" out="-1:man|-2:coord|1:dobj">lograr</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" morph="perder !!!!!érd +ida/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#|9:time">pérdida</W>
+<W lemma="&lt;unknown&gt;" morph="perder !!!!!érdi +da/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#|9:time">pérdida</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="peso" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">peso</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:pobj">de</W>
@@ -193,17 +193,17 @@
 <W lemma="al" msd="SP" tag="PAL" in="-9:time" out="1:nobj">al</W>
 <W lemma="mes" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">mes</W>
 <W lemma="." msd="XP" tag="FS" in="-30:pnct" out="">.</W>
-<W lemma="combinar" morph="combinar !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="5:man" out="1:pobj">Combinado</W>
+<W lemma="combinar" morph="combinar ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="5:man" out="1:pobj">Combinado</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="ejercicio" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">ejercicio</W>
-<W lemma="adecuado" morph="adecuar !! +ado/DERva&3a;pas.part" msd="AN" tag="ADJ" in="-1:attr" out="">adecuado</W>
+<W lemma="adecuado" morph="adecuar ! +do/DERva&3a;pas.part" msd="AN" tag="ADJ" in="-1:attr" out="">adecuado</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="" out="-1:robj|-5:man|1:vobj|6:pnct|7:ref|9:relelab|23:pnct">puede</W>
 <W lemma="obtener" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">obtener</W>
-<W lemma="&lt;unknown&gt;" morph="perder !!!!!érd +ida/DERvn&3a;patient" msd="VAF" tag="VLadj" in="-1:dobj" out="1:pobj|1:{arg}#|3:attr">pérdida</W>
+<W lemma="&lt;unknown&gt;" morph="perder !!!!!érdi +da/DERvn&3a;core" msd="VAF" tag="VLadj" in="-1:dobj" out="1:pobj|1:{arg}#|3:attr">pérdida</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="peso" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">peso</W>
-<W lemma="razonable" morph="razón !!on +able/DERna&3a;poss" msd="AN" tag="ADJ" in="-3:attr" out="">razonable</W>
+<W lemma="razonable" morph="razón !!ona +ble/DERna&3a;epi" msd="AN" tag="ADJ" in="-3:attr" out="">razonable</W>
 <W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="-7:ref|2:subj" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>

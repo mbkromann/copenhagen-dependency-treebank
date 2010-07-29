@@ -1,3 +1,33 @@
+[ ] es/0705-es-lotte.tag
+[ ] es/0729-es-lotte.tag
+[ ] es/0780-es-soren.tag
+[ ] es/0783-es-lotte.tag
+[ ] es/0800-es-soren.tag
+[ ] es/0805-es-lotte.tag
+[ ] es/0848-es-lotte.tag
+[ ] es/0866-es-jonas.tag
+[ ] es/0876-es-lotte.tag
+[ ] es/0881-es-lotte.tag
+[ ] es/0915-es-soren.tag
+[ ] es/0939-es-lotte.tag
+[ ] es/0960-es-soren.tag
+[ ] es/0998-es-jonas.tag
+[ ] es/1043-es-lotte.tag
+[ ] es/1054-es-soren.tag
+[ ] es/1057-es-jonas.tag
+[ ] es/1077-es-lotte.tag
+[ ] es/1090-es-lotte.tag
+[ ] es/1127-es-soren.tag
+[ ] es/1144-es-jonas.tag
+[ ] es/1227-es-lotte.tag
+[ ] es/1250-es-jonas.tag
+[ ] es/1337-es-lotte.tag
+[ ] es/1398-es-soren.tag
+[ ] es/1420-es-lotte.tag
+[ ] es/1497-es-jonas.tag
+[ ] es/1536-es-lotte.tag
+Korpus 2: morf.-annoteret efter de ny regler incl. ~pl: dog tjek ado/ido (-da/-do)
+
 [*] da/0152-da-lotte.tag
 [*] en/0152-en-lotte.tag
 [*] es/0152-es-lotte.tag
@@ -21,19 +51,25 @@
 [*] es/0376-es-jonas.tag
 [*] da/0426-da.tag
 [*] en/0426-en.tag
-[ ] es/0426-es-soren.tag
+[*] es/0426-es-soren.tag
 [ ] da/0428-da.tag
+[ ] es/0428-es-jonas.tag
 [ ] en/0428-en.tag
 [ ] da/0596-da.tag
 [ ] en/0596-en-auto.tag
+[ ] es/0596-es-soren.tag
 [ ] da/0607-da.tag
 [ ] en/0607-en.tag
+[ ] es/0607-es-lotte.tag
 [ ] da/0643-da.tag
 [ ] en/0643-en.tag
-[*] en/0647-en.tag
-[*] da/0647-da.tag
+[ ] es/0643-es-jonas.tag
+[ ] en/0647-en.tag
+[ ] da/0647-da.tag
+[ ] es/0647-es-lotte.tag
 [ ] da/0685-da.tag
 [ ] en/0685-en.tag
+[ ] es/0685-es-soren.tag
 [ ] da/0705-da.tag
 [ ] en/0705-en.tag
 [ ] da/0729-da.tag
@@ -96,37 +132,7 @@
 
 
 
-[*] es/0428-es-jonas.tag
-[*] es/0596-es-soren.tag
-[*] es/0607-es-lotte.tag
-[*] es/0643-es-jonas.tag
-[*] es/0685-es-soren.tag
-[*] es/0705-es-lotte.tag
-[*] es/0729-es-lotte.tag
-[*] es/0780-es-soren.tag
-[*] es/0783-es-lotte.tag
-[*] es/0800-es-soren.tag
-[*] es/0805-es-lotte.tag
-[*] es/0848-es-lotte.tag
-[*] es/0866-es-jonas.tag
-[*] es/0881-es-lotte.tag
-[*] es/0915-es-soren.tag
-[*] es/0939-es-lotte.tag
-[*] es/0960-es-soren.tag
-[*] es/0998-es-jonas.tag
-[*] es/1043-es-lotte.tag
-[*] es/1054-es-soren.tag
-[*] es/1057-es-jonas.tag
-[*] es/1090-es-lotte.tag
-[*] es/1127-es-soren.tag
-[*] es/1144-es-jonas.tag
-[*] es/1227-es-lotte.tag
-[*] es/1250-es-jonas.tag
-[*] es/1337-es-lotte.tag
-[*] es/1398-es-soren.tag
-[*] es/1497-es-jonas.tag
-[*] es/1536-es-lotte.tag
-Korpus 2: morf.-annoteret efter de ny regler incl. ~pl: dog tjek ado/ido (-da/-do)
+
 
 Korpus 1
 [ ] en/0104-en.tag
@@ -208,13 +214,11 @@ Korpus 1
 [*] es/0620-es-soren.tag
 [*] es/1252-es-lotte.tag
 
-[*] es/0647-es-lotte.tag
-[*] es/0876-es-lotte.tag
-[*] es/1077-es-lotte.tag
-[*] es/1420-es-lotte.tag
-Morfologi - annoteret efter gl. system. skal rettes
-Er rettede:
-(sidste fire skal flyttes i korpus 2)
+
+
+
+
+
 
 
 [*] es/0675-es-lotte.tag

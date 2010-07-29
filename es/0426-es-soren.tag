@@ -2,7 +2,7 @@
 <W lemma="I" msd="AC" tag="CARD" in="-1:nobj" out="">I</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="2:man" out="">Â¿CÃ³mo</W>
 <W lemma="se" msd="PC" tag="SE" in="1:dobj" out="">se</W>
-<W lemma="desarrollar" morph="desarrollar" msd="VAD" tag="VLfin" in="" out="-2:man|-1:dobj|1:subj|6:pnct|3:other">desarrolla</W>
+<W lemma="desarrollar" morph="desarrollar" msd="VAD" tag="VLfin" in="" out="-2:man|-1:dobj|1:subj|3:other|6:pnct">desarrolla</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">niÃ±o</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-3:other" out="1:nobj">en</W>
@@ -10,14 +10,14 @@
 <W lemma="lengua" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">lengua</W>
 <W lemma="?" msd="XP" tag="FS" in="-6:pnct" out="">?</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="1:@loc" out="">Â¿DÃ³nde</W>
-<W lemma="&lt;unknown&gt;" morph="estar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="1:subj|6:pnct|-1:@loc">estÃ¡</W>
+<W lemma="&lt;unknown&gt;" morph="estar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="-1:@loc|1:subj|6:pnct">estÃ¡</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:ref|3:relr">niÃ±o</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|2:preds" out="">que</W>
 <W lemma="yo" msd="PP" tag="PPX" in="1:subj" out="">yo</W>
 <W lemma="ir&7c;ser" morph="ser" msd="VAD" tag="VLfin" in="-3:relr" out="-1:subj|-2:preds">fui</W>
 <W lemma="?" msd="XP" tag="FS" in="-6:pnct" out="">?</W>
-<W lemma="&lt;unknown&gt;" morph="seguir" msd="VAD" tag="VLfin" in="" out="1:loc|7:pnct|6:conj">Â¿sigue</W>
+<W lemma="&lt;unknown&gt;" morph="seguir" msd="VAD" tag="VLfin" in="" out="1:loc|6:conj|7:pnct">Â¿sigue</W>
 <W lemma="adentro" msd="RG" tag="ADV" in="-1:loc" out="1:pobj">adentro</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj" out="">mÃ­</W>
@@ -38,7 +38,7 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:ref|4:relr">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|3:dobj" out="">que</W>
-<W lemma="suyo" msd="PP" tag="PPO" in="2:subj|1:{arg}" out="1:possd">sus</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="1:{arg}|2:subj" out="1:possd">sus</W>
 <W lemma="padre" morph="padre" msd="NC" tag="NC" in="-1:possd" out="-1:{arg}">padres</W>
 <W lemma="saber" morph="saber" msd="VAD" tag="VLfin" in="-4:relr" out="-2:subj|-3:dobj">saben</W>
 <W lemma="." msd="XP" tag="FS" in="-10:pnct" out="">.</W>
@@ -67,7 +67,7 @@
 <W lemma="sino" msd="CC" tag="CCAD" in="-5:contr" out="1:nobj#">sino</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:nobj#" out="2:vobj">que</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="1:other" out="">sÃ³lo</W>
-<W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="-2:vobj" out="1:vobj|-1:other|-12:[subj]">puede</W>
+<W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="-2:vobj" out="-1:other|-12:[subj]|1:vobj">puede</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-13:[subj]">mostrarlo</W>
 <W lemma="." msd="XP" tag="FS" in="-22:pnct" out="">.</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">Lo</W>
@@ -101,7 +101,7 @@
 <W lemma="poder" morph="&lt;unknown&gt;" msd="VAF" tag="VMinf" in="-1:vobj" out="1:vobj">poder</W>
 <W lemma="hacerlo" morph="&lt;unknown&gt;" msd="VA" tag="VCLI" in="-1:vobj" out="1:time">hacerlo</W>
 <W lemma="ese" msd="" tag="DM" in="-1:time" out="2:nobj">esa</W>
-<W lemma="&lt;unknown&gt;" morph="uno !!ún +ico/DERna&3a;rel" msd="AN" tag="ADJ" in="1:attr" out="">Ãºnica</W>
+<W lemma="&lt;unknown&gt;" morph="uno !!!ún +ica/DERna&3a;rel" msd="AN" tag="ADJ" in="1:attr" out="">Ãºnica</W>
 <W lemma="vez" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">vez</W>
 <W lemma="&3a;" msd="XP" tag="COLON" in="-7:pnct" out="">:</W>
 <W lemma="conocer" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="" out="1:dobj|3:pobj|5:vobj|11:loc|12:vobj|13:pnct">conocer</W>
@@ -155,7 +155,7 @@
 <W lemma="&lt;unknown&gt;" morph="bebé" msd="NC" tag="NC" in="-1:nobj" out="1:attr">bebÃ©s</W>
 <W lemma="normal" morph="normal" msd="AN" tag="ADJ" in="-1:attr" out="">normales</W>
 <W lemma="&lt;unknown&gt;" morph="estar" msd="RG" tag="ADV" in="-8:vobj" out="-4:subj|1:preds|3:vobj">estÃ¡n</W>
-<W lemma="disponer" morph="disponer !!!!uest +o/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:preds" out="">dispuestos</W>
+<W lemma="disponer" morph="disponer !!!!ues +to/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:preds" out="">dispuestos</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="aprender" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-3:vobj" out="1:dobj">aprender</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">la</W>
