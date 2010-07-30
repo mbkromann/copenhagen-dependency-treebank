@@ -1,12 +1,3 @@
-[ ] es/0705-es-lotte.tag
-[ ] es/0729-es-lotte.tag
-[ ] es/0780-es-soren.tag
-[ ] es/0783-es-lotte.tag
-[ ] es/0800-es-soren.tag
-[ ] es/0805-es-lotte.tag
-[ ] es/0848-es-lotte.tag
-[ ] es/0866-es-jonas.tag
-[ ] es/0876-es-lotte.tag
 [ ] es/0881-es-lotte.tag
 [ ] es/0915-es-soren.tag
 [ ] es/0939-es-lotte.tag
@@ -72,22 +63,31 @@ Korpus 2: morf.-annoteret efter de ny regler incl. ~pl: dog tjek ado/ido (-da/-d
 [ ] es/0685-es-soren.tag
 [ ] da/0705-da.tag
 [ ] en/0705-en.tag
+[ ] es/0705-es-lotte.tag
 [ ] da/0729-da.tag
 [ ] en/0729-en.tag
+[ ] es/0729-es-lotte.tag
 [ ] da/0780-da.tag
 [ ] en/0780-en.tag
+[ ] es/0780-es-soren.tag
 [ ] da/0783-da.tag
 [ ] en/0783-en.tag
+[ ] es/0783-es-lotte.tag
 [ ] da/0800-da.tag
 [ ] en/0800-en.tag
+[ ] es/0800-es-soren.tag
 [ ] da/0805-da.tag
 [ ] en/0805-en.tag
+[ ] es/0805-es-lotte.tag
 [ ] da/0848-da.tag
 [ ] en/0848-en-auto.tag
+[ ] es/0848-es-lotte.tag
 [ ] da/0866-da.tag
 [ ] en/0866-en.tag
-[*] da/0876-da.tag
-[*] en/0876-en.tag
+[ ] es/0866-es-jonas.tag
+[ ] da/0876-da.tag
+[ ] en/0876-en.tag
+[ ] es/0876-es-lotte.tag
 [ ] da/0881-da.tag
 [ ] en/0881-en.tag
 [ ] da/0915-da.tag

@@ -4,7 +4,7 @@
 <W lemma="un" msd="PD" tag="ART" in="-1:subj" out="1:nobj">una</W>
 <W lemma="cara" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:prg">cara</W>
 <W lemma="bien" msd="RG" tag="ADV" in="-1:prg" out="1:prg">bien</W>
-<W lemma="ver" morph="ver !!ist +a/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:prg" out="1:pobj">vista</W>
+<W lemma="ver" morph="ver !!is +ta/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:prg" out="1:pobj">vista</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:pobj" out="1:pobj">detrás</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj" out="1:nobj">del</W>
 <W lemma="mostrador" morph="mostrar ! +dor/DERvn&3a;loc" msd="NC" tag="NC" in="-1:nobj" out="">mostrador</W>
@@ -30,7 +30,7 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="todo" morph="toda" msd="AN" tag="QU" in="-1:nobj" out="1:nobj">todas</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">las</W>
-<W lemma="abundante" morph="abundar ! +nte/DERna-act ~s" msd="AN" tag="ADJ" in="1:attr" out="">abundantes</W>
+<W lemma="abundante" morph="abundar ! +nte/DERna&3a;act ~s" msd="AN" tag="ADJ" in="1:attr" out="">abundantes</W>
 <W lemma="&lt;unknown&gt;" morph="exquisito ! +ez/DERan&3a;qual ~!!eces" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:space">exquisiteces</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:space" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
@@ -133,12 +133,12 @@
 <W lemma="que" msd="CS" tag="CQUE" in="-3:dobj" out="1:vobj">que</W>
 <W lemma="&lt;unknown&gt;" morph="ofrecer" msd="VAD" tag="VLfin" in="-1:vobj" out="1:dobj|4:iobj">ofreció</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">un</W>
-<W lemma="puesto" morph="poner !!!!uest +o/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">puesto</W>
+<W lemma="puesto" morph="poner !!!!ues +to/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">puesto</W>
 <W lemma="fijo" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attrr#" out="">fijo</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-4:iobj" out="1:nobj">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">la</W>
 <W lemma="antiguo" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attr" out="">antigua</W>
-<W lemma="desempleado" morph="emplear !! +ada/DERna&3a;pas.part -des/NEG&3a;priv" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">desempleada</W>
+<W lemma="desempleado" morph="emplear ! +da/DERvn&3a;patient -des/NEG&3a;priv" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">desempleada</W>
 <W lemma="." msd="XP" tag="FS" in="-12:pnct" out="">.</W>
 <W lemma="este" msd="" tag="DM" in="1:subj" out="">Esto</W>
 <W lemma="&lt;unknown&gt;" morph="suceder" msd="VAD" tag="VLfin" in="" out="-1:subj|1:time">sucedió</W>

@@ -3,7 +3,7 @@
 <W lemma="prevenir" morph="prevenir" msd="VAD" tag="VLfin" in="" out="-1:subj|1:dobj&3a;mærke|4:pobj|33:pnct">previno</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:dobj&3a;mærke" out="1:nobj">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="delegar" morph="delegar !! +ado/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:nobj" out="">delegados</W>
+<W lemma="delegar" morph="delegar ! +do/DERvn&3a;patient ~s" msd="VAF" tag="VLadj" in="-1:nobj" out="">delegados</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-4:pobj" out="1:dobj">de</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="6:vobj">que</W>
 <W lemma="el" msd="PD" tag="ART" in="5:subj" out="1:nobj">los</W>
@@ -37,7 +37,7 @@
 <W lemma="&lt;unknown&gt;" morph="tener" msd="VAD" tag="VLfin" in="" out="1:dobj|12:conj|16:pnct">“Tenemos</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">los</W>
 <W lemma="argumento" morph="argumento" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:pobj">argumentos</W>
-<W lemma="adecuar" morph="adecuar !! +ado/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="">adecuados</W>
+<W lemma="adecuar" morph="adecuar ! +do/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="">adecuados</W>
 <W lemma="contra" msd="SP" tag="SCENE" in="-2:pobj" out="1:nobj">contra</W>
 <W lemma="ese" msd="" tag="DM" in="-1:nobj" out="">eso</W>
 <W lemma="y" msd="CC" tag="CC" in="6:coord" out="">y</W>
@@ -61,7 +61,7 @@
 <W lemma="ya" msd="RG" tag="ADV" in="1:time" out="">ya</W>
 <W lemma="&lt;unknown&gt;" morph="estar" msd="AN" tag="ADJ" in="-4:vobj" out="-3:subj|-1:time|2:preds">esté</W>
 <W lemma="totalmente" msd="RG" tag="ADV" in="1:quant" out="">totalmente</W>
-<W lemma="&lt;unknown&gt;" morph="vaca ! +una/DERna&3a;rel ! +ar/DERav !! +ada/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-2:preds" out="-1:quant|1:pobj">“vacunada”</W>
+<W lemma="&lt;unknown&gt;" morph="vaca ! +una/DERna&3a;rel ! +ar/DERav" msd="VAF" tag="VLadj" in="-2:preds" out="-1:quant|1:pobj">“vacunada”</W>
 <W lemma="contra" msd="SP" tag="SCENE" in="-1:pobj" out="2:nobj">contra</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Uffe</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:nobj" out="-1:namef|3:conj">Ellemann</W>
@@ -113,7 +113,7 @@
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:nobj">“el</W>
 <W lemma="gobernar" morph="gobernar !!!!!iern +o/DERvn&3a;agent" msd="VAD" tag="VLfin" in="-1:nobj" out="2:attr|3:time">gobierno</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="1:quant" out="">más</W>
-<W lemma="&lt;unknown&gt;" morph="hilacha ! -+[des][ar]/DERnv -des/NEG&3a;priv !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-2:attr" out="-1:quant">deshilachado</W>
+<W lemma="&lt;unknown&gt;" morph="hilacha ! -+[des][ar]/DERnv -des/NEG&3a;priv ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-2:attr" out="-1:quant">deshilachado</W>
 <W lemma="desde" msd="SP" tag="SCENE" in="-3:time" out="1:nobj">desde</W>
 <W lemma="tiempo" morph="tiempo" msd="NC" tag="NC" in="-1:nobj" out="1:attr">tiempos</W>
 <W lemma="&lt;unknown&gt;" morph="memoria ! +al/DERna&3a;rel -in/NEG&3a;contr ~es" msd="AN" tag="ADJ" in="-1:attr" out="">inmemoriales”</W>
@@ -134,7 +134,7 @@
 <W lemma="a" msd="SP" tag="SCENE" in="-2:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="cambio" morph="cambiar !! +o/DERvn&3a;core ~s" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:pobj">cambios</W>
-<W lemma="ocurrir" morph="ocurrir !! +ido/DERva&3a;par.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="">ocurridos</W>
+<W lemma="ocurrir" morph="ocurrir ! +do/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:attr" out="">ocurridos</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-2:pobj" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="comportamiento" morph="comportar ! +miento/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:attr">comportamiento</W>
@@ -146,7 +146,7 @@
 <W lemma="entonces" msd="RG" tag="ADV" in="1:other|11:dobj" out="-25:cond">entonces</W>
 <W lemma="el" msd="PD" tag="ART" in="3:subj" out="-1:other|1:nobj">los</W>
 <W lemma="tres" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">tres</W>
-<W lemma="partido" morph="partir !! +ido/DERvn&3a;other ~s" msd="NC" tag="NC" in="-1:nobj" out="">partidos</W>
+<W lemma="partido" morph="partir ! +do/DERvn&3a;other ~s" msd="NC" tag="NC" in="-1:nobj" out="">partidos</W>
 <W lemma="&lt;unknown&gt;" morph="asumir" msd="VAD" tag="VLfin" in="" out="-3:subj|1:dobj|4:pobj">asumirán</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" morph="responder -cor/MOD&3a;qual !!!sa +ble/DERva&3a;pas.deon !!il +idad/DERan&3a;qual " msd="NC" tag="NC" in="-1:nobj" out="1:attr">corresponsabilidad</W>

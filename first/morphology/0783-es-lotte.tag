@@ -201,7 +201,7 @@
 <W lemma="&lt;unknown&gt;" morph="concurso +al/DERna&3a;rel" msd="NC" tag="NC" in="-1:attr" out="">concursal</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="-4:appa" out="1:nobj|3:appr">el</W>
-<W lemma="abogado" morph="abogar !! +ado/DERvn/agent" msd="NC" tag="NC" in="-1:nobj" out="">abogado</W>
+<W lemma="abogado" morph="abogar ! +do/DERvn&3a;agent" msd="NC" tag="NC" in="-1:nobj" out="">abogado</W>
 <W lemma="Michael" msd="NP" tag="NP" in="1:namef" out="">Michael</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-3:appr" out="-1:namef">Rostock</W>
 <W lemma="." msd="XP" tag="FS" in="-25:pnct" out="">.</W>

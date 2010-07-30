@@ -75,7 +75,7 @@
 <W lemma="director" morph="dirigir !!!!ec +tor/DERvn&3a;agent" msd="NC" tag="NC" in="-1:nobj" out="">director</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="-3:conj" out="1:nobj|2:pnct">el</W>
-<W lemma="abogado" morph="abogar !! +ado/DERvn/agent" msd="NC" tag="NC" in="-1:nobj" out="">abogado</W>
+<W lemma="abogado" morph="abogar !  +do/DERvn&3a;agent" msd="NC" tag="NC" in="-1:nobj" out="">abogado</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="-6:conj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="trabajar ! +dor/DERvn&3a;agent" msd="NC" tag="NC" in="-1:nobj" out="">trabajador...”</W>
@@ -106,7 +106,7 @@
 <W lemma="?" msd="XP" tag="FS" in="-3:pnct" out="">?</W>
 <W lemma="&lt;unknown&gt;" morph="músculo" msd="NC" tag="NC" in="" out="2:attr|3:pnct">¿Músculos</W>
 <W lemma="bien" msd="RG" tag="ADV" in="1:man" out="9:robj">bien</W>
-<W lemma="entrenar" morph="entrenar !! +ado/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-2:attr" out="-1:man">entrenados</W>
+<W lemma="entrenar" morph="entrenar ! +do/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-2:attr" out="-1:man">entrenados</W>
 <W lemma="?" msd="XP" tag="FS" in="-3:pnct" out="">?</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="" out="2:conj|3:pnct">Sí</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>

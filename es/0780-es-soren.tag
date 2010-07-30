@@ -89,7 +89,7 @@
 <W lemma="socio" morph="socio" msd="NC" tag="NC" in="-2:nobj" out="-1:numm|1:space">socios</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:space" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="mercado" morph="mercar !! +ado/DERvn&3a;loc" msd="NC" tag="NC" in="-1:nobj" out="1:attr">mercado</W>
+<W lemma="mercado" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">mercado</W>
 <W lemma="&lt;unknown&gt;" morph="inglaterra !!!!!! +és/DERna&3a;deono.place" msd="AN" tag="ADJ" in="-1:attr" out="">inglés</W>
 <W lemma="." msd="XP" tag="FS" in="-38:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="8:qobj" out="1:space|3:pnct">¿Y</W>
@@ -105,7 +105,7 @@
 <W lemma="adaptarse" morph="&lt;unknown&gt;" msd="VA" tag="VCLI" in="-1:subj" out="1:pobj">adaptarse</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">la</W>
-<W lemma="anunciar" morph="anunciar !! +ada/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="1:attr" out="">anunciada</W>
+<W lemma="anunciar" morph="anunciar ! +da/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="1:attr" out="">anunciada</W>
 <W lemma="&lt;unknown&gt;" morph="razón !!!cion +al/DERna&3a;rel +izar/DERav ! +ción/DERvn&3a;core" msd="RG" tag="ADV" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}#">racionalización</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">las</W>
@@ -133,7 +133,7 @@
 <W lemma="corona" morph="corona" msd="NC" tag="NC" in="-1:nobj" out="">coronas</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-8:pobj" out="1:nobj">en</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" morph="fundir !!!! +sión/DErvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|10:dir">fusión</W>
+<W lemma="&lt;unknown&gt;" morph="fundir !!!! +sión/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|10:dir">fusión</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">las</W>
 <W lemma="dos" msd="AC" tag="CARD" in="1:numm" out="">dos</W>
@@ -146,14 +146,14 @@
 <W lemma="en" msd="SP" tag="SCENE" in="-10:dir" out="1:nobj">en</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">una</W>
 <W lemma="&lt;unknown&gt;" morph="uno !!!ún +ica/DERna&3a;rel" msd="NC" tag="NC" in="1:attr" out="">única</W>
-<W lemma="&lt;unknown&gt;" morph="cerveza !!c +ero/DERnn&3a;agent ! +ía/DERnn.loc" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr|1:pobj">cervecería</W>
+<W lemma="&lt;unknown&gt;" morph="cerveza !!c +ero/DERnn&3a;agent ! +ía/DERnn&3a;loc" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr|1:pobj">cervecería</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:nobj" out="">común</W>
 <W lemma="." msd="XP" tag="FS" in="-27:pnct" out="">.</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">Se</W>
 <W lemma="eliminar" morph="eliminar" msd="VAD" tag="VLfin" in="" out="-1:robj|2:subj">eliminan</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="1:numm" out="">800</W>
-<W lemma="puesto" morph="poner !!!!uest +o/DERvn&3a;patient ~s" msd="NC" tag="NC" in="-2:subj" out="-1:numm|1:const|2:nobj">puestos</W>
+<W lemma="puesto" morph="poner !!!!ues +to/DERvn&3a;patient ~s" msd="NC" tag="NC" in="-2:subj" out="-1:numm|1:const|2:nobj">puestos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:const" out="">de</W>
 <W lemma="trabajo" morph="trabajar !! +o/DERvn&3a;core" msd="NC" tag="NC" in="-2:nobj" out="">trabajo</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:prg" out="">Sólo</W>
@@ -165,7 +165,7 @@
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="-5:relr" out="-1:subj|1:cond|13:relr">es</W>
 <W lemma="si" msd="CS" tag="CSUBX" in="-1:cond" out="3:vobj">si</W>
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" morph="dirigir !!!c +ción/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="">dirección</W>
+<W lemma="&lt;unknown&gt;" morph="dirigir !!!!ec +ción/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="">dirección</W>
 <W lemma="&lt;unknown&gt;" morph="ser" msd="AN" tag="ADJ" in="-3:vobj" out="-2:subj|1:space">será</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:space" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Valby</W>

@@ -109,7 +109,7 @@
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj" out="">DSB</W>
 <W lemma="buscar" morph="buscar" msd="VAD" tag="VLfin" in="" out="-5:subj|3:loc|10:pnct|11:cause|23:pnct">busca</W>
 <W lemma="nuevo" morph="nuevo" msd="AN" tag="ADJ" in="1:attr" out="1:dobj">nuevos</W>
-<W lemma="mercar" morph="mercar !! +ado/DErvn&3a;loc ~s" msd="VAF" tag="VLadj" in="-1:dobj" out="-1:attr">mercados</W>
+<W lemma="mercar" morph="mercado" msd="VAF" tag="VLadj" in="-1:dobj" out="-1:attr">mercados</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-3:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|2:attr">la</W>
 <W lemma="parte" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="2:pobj|2:{arg}">parte</W>
@@ -145,7 +145,7 @@
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="aunque" msd="CS" tag="CSUBX" in="" out="">aunque</W>
 <W lemma="muy" msd="RG" tag="ADV" in="" out="">muy</W>
-<W lemma="reducir" morph="reducir !! +ida/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="" out="">reducida</W>
+<W lemma="reducir" morph="reducir ! +da/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="" out="">reducida</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="finalmente" msd="RG" tag="ADV" in="" out="">finalmente</W>

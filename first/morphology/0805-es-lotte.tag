@@ -27,7 +27,7 @@
 <W lemma="sin~embargo" msd="RG" tag="ADV" in="" out="">Sin embargo</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:nobj">el</W>
-<W lemma="resultado" morph="resulta ! ar/DERnv !! +ado/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="">resultado</W>
+<W lemma="resultado" morph="resulta ! +ar/DERnv ! +do/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="">resultado</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|1:preds|5:pnct">es</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="libro" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="2:attr|4:ref|6:relr">libro</W>
@@ -79,7 +79,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Günter</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Grass</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
-<W lemma="salpicar" morph="picar -sal/OTHER !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="" out="">Salpicado</W>
+<W lemma="salpicar" morph="picar -sal/OTHER ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="" out="">Salpicado</W>
 <W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="comentario" morph="comentario" msd="NC" tag="NC" in="" out="">comentarios</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
@@ -88,7 +88,7 @@
 <W lemma="sobre" msd="SP" tag="SCENE" in="" out="">sobre</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="&lt;unknown&gt;" morph="situar ! +ción/DERvn&3a;patient" msd="NC" tag="NC" in="" out="">situación</W>
-<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">política</W>
+<W lemma="&lt;unknown&gt;" morph="política ! +a/DERna&3a;rel" msd="AN" tag="ADJ" in="" out="">política</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">sus</W>
 <W lemma="&lt;unknown&gt;" morph="país" msd="NC" tag="NC" in="" out="">países</W>
@@ -118,7 +118,7 @@
 <W lemma="pensar" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">pensar</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
-<W lemma="&lt;unknown&gt;" morph="presumir !! +ido/DERva&3a;pas.part ~s" msd="NC" tag="NC" in="" out="">presumidos</W>
+<W lemma="&lt;unknown&gt;" morph="presumir ! +do/DERvn&3a;agent ~s" msd="NC" tag="NC" in="" out="">presumidos</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="">Rushdie</W>
 <W lemma="formar" morph="forma ! +ar/DERnv" msd="VAD" tag="VLfin" in="" out="-1:subj">forma</W>
@@ -156,7 +156,7 @@
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="disputa" morph="disputar !! +a/DERvn&3a;core" msd="NC" tag="NC" in="" out="">disputa</W>
 <W lemma="completamente" msd="RG" tag="ADV" in="" out="">completamente</W>
-<W lemma="&lt;unknown&gt;" morph="entender -mal/MOD&3a;eval !! +ida/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="" out="">malentendida</W>
+<W lemma="&lt;unknown&gt;" morph="entender -mal/MOD&3a;eval !!i +da/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="" out="">malentendida</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">La</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="1:cause|14:pnct">es</W>

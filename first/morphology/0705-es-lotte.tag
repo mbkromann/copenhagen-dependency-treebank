@@ -16,7 +16,7 @@
 <W lemma="&lt;unknown&gt;" morph="ocurrir" msd="VAD" tag="VLfin" in="" out="-2:subj|1:time|4:time">ocurrió</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:time" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">año</W>
-<W lemma="pasar" morph="pasar !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">pasado</W>
+<W lemma="pasar" morph="pasar ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">pasado</W>
 <W lemma="cuando" msd="CS" tag="CSUBX" in="-4:time" out="3:vobj">cuando</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Jørgen</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="-1:namef">Thorsgaard</W>
@@ -47,7 +47,7 @@
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj" out="">su</W>
 <W lemma="club" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">club</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
-<W lemma="lector" morph="leer !!c +tor/DERvn&3a;agent" msd="NC" tag="NC" in="" out="">lectores</W>
+<W lemma="lector" morph="leer !!c +tor/DERvn&3a;agent ~es" msd="NC" tag="NC" in="" out="">lectores</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">poesía</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
@@ -87,7 +87,7 @@
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="comparar" morph="comparar" msd="VAD" tag="VLfin" in="-2:vobj" out="-1:robj|-3:eval|1:subj">compara</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">la</W>
-<W lemma="tirar" morph="tirar !! +ada/DERvn&3a;patient" msd="VAF" tag="VLadj" in="-1:nobj" out="">tirada</W>
+<W lemma="tirar" morph="tirar ! +da/DERvn&3a;patient" msd="VAF" tag="VLadj" in="-1:nobj" out="">tirada</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 <W lemma="el" msd="PD" tag="ART" in="9:subj" out="1:nobj">El</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">número</W>
@@ -133,7 +133,7 @@
 <W lemma="&lt;unknown&gt;" morph="participar ! +ción/DERvn&3a;core" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">participación</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
-<W lemma="hecho" morph="hacer !!!!ech +o/DERna&3a;pas.part" msd="NC" tag="NC" in="" out="">hecho</W>
+<W lemma="hecho" morph="hacer !!!!e +cho/DERvn&3a;patient" msd="NC" tag="NC" in="" out="">hecho</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:nobj">la</W>
@@ -203,7 +203,7 @@
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="" out="-3:cause|-1:robj|1:vobj">ha</W>
 <W lemma="sentido" morph="sentir" msd="NC" tag="NC" in="-1:vobj" out="">sentido</W>
-<W lemma="motivar" morph="motivo ! +ar/DERnv !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="" out="">motivado</W>
+<W lemma="motivar" morph="motivo ! +ar/DERnv" msd="VAF" tag="VLadj" in="" out="">motivado</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="&lt;unknown&gt;" morph="imprimir -re/ITER" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">reimprimirlo</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAF" tag="VLadj" in="" out="">–</W>
