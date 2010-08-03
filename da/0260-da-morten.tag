@@ -63,7 +63,7 @@
 </p>
 <p>
 <s>
-<W gloss="A" lemma="en" msd="PI-CSU--U" tag="DT" in="" out="1:attr|2:nobj|3:attr|20:pnct|-9:+SCENE|33:+CONST&3a;exem/(fx)|60:CONSOL&3a;source">En</W>
+<W gloss="A" lemma="en" msd="PI-CSU--U" tag="DT" in="" out="-9:+SCENE|1:attr|2:nobj|3:attr|20:pnct|33:+CONST&3a;exem/(fx)|60:CONSOL&3a;source">En</W>
 <W gloss="true" lemma="sandfærdig" morph="færdig -[sand@ADJ]/about" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">sandfærdig</W>
 <W gloss="account" lemma="beretning" morph="berette +ning/DERvn&3a;core" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:{about}">beretning</W>
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-3:attr|-1:{about}" out="1:pnct|2:nobj">om</W>
@@ -241,14 +241,14 @@
 <W gloss="As" lemma="som" msd="U=" tag="WDT" in="5:man" out="1:nobj">Som</W>
 <W gloss="member" lemma="medlem" morph="medlem" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">medlem</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">af</W>
-<W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
+<W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|7:assoc-telic">en</W>
 <W gloss="unemployment_insurance_fund" lemma="a-kasse" morph="kasse -a_/func" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">a-kasse</W>
 <W gloss="should" lemma="skulle" morph="skulle" msd="VADA=----A-" tag="VBD" in="-31:+CONJ&3a;add" out="-5:man|1:subj|2:eval|3:vobj|6:pnct|9:conj|22:pnct">skulle</W>
 <W gloss="this_sideline_job" lemma="bi-job" morph="job -bi_/eval" msd="NCNSU==D" tag="NN" in="-1:subj|-31:coref-var|2:[subj]" out="20:coref">bi-jobbet</W>
 <W gloss="of_course" lemma="selvfølgelig" msd="RGU" tag="RP" in="-2:eval" out="">selvfølgelig</W>
 <W gloss="abandons" lemma="opgive" morph="give -op/TELIC" msd="VAF-=----P-" tag="VB" in="-3:vobj" out="-2:[subj]|1:@loc">opgives</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
-<W gloss="unemployment_benefits_card" lemma="dagpengekort" morph="kort -dagpenge/func -[penge -dag]/time" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">dagpengekortet</W>
+<W gloss="unemployment_benefits_card" lemma="dagpengekort" morph="kort -dagpenge/func -[penge -dag]/time" msd="NCNSU==D" tag="NN" in="-1:nobj|-7:assoc-telic" out="">dagpengekortet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-24:coref|1:subj|5:[subj]" out="9:coref">jeg</W>
@@ -261,7 +261,7 @@
 <W gloss="how" lemma="hvor" msd="RGU" tag="RP" in="1:quant" out="">hvor</W>
 <W gloss="much" lemma="meget" morph="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-3:dobj|2:[dobj]" out="-1:quant|2:relr">meget</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-9:coref|1:subj" out="">jeg</W>
-<W gloss="would_get" lemma="få" morph="få" msd="VADA=----A-" tag="VBD" in="-2:relr" out="-1:subj|-2:[dobj]|1:avobj|9:coref-var|8:CONJ&3a;elab">fik</W>
+<W gloss="would_get" lemma="få" morph="få" msd="VADA=----A-" tag="VBD" in="-2:relr" out="-1:subj|-2:[dobj]|1:avobj|8:CONJ&3a;elab|9:coref-var">fik</W>
 <W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">ud</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:nobj|-20:coref" out="">det</W>
