@@ -18,7 +18,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="2:loc" out="1:nobj">Nel</W>
 <W lemma="taxi" msd="NC" tag="NOM" in="-1:nobj" out="">taxi</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-2:loc|1:dobj|14:conj|4:@dir">appoggiò</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-2:loc|1:dobj|4:@dir|14:conj">appoggiò</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-1:nobj|1:{const}" out="1:possd">suo</W>
 <W lemma="capo" msd="NC" tag="NOM" in="-1:possd" out="-1:{const}">capo</W>
@@ -32,7 +32,7 @@
 <W lemma="scala" msd="NC" tag="NOM" in="-1:nobj" out="">scale</W>
 <W lemma="di" msd="SP" tag="PRE" in="-3:time" out="1:nobj">di</W>
 <W lemma="nuovo" msd="AN" tag="ADJ" in="-1:nobj" out="">nuovo</W>
-<W lemma="dire" msd="VADA" tag="VER&3a;remo" in="-14:conj" out="-7:coord|1:dobj|7:pnct|-6:time">disse</W>
+<W lemma="dire" msd="VADA" tag="VER&3a;remo" in="-14:conj" out="-7:coord|-6:time|1:dobj|7:pnct">disse</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="4:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="1:nobj">le</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="">cose</W>
@@ -66,7 +66,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-23:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:cause" out="">Perché</W>
 <W lemma="lo" msd="PP" tag="PRO&3a;pers" in="1:dobj" out="">lo</W>
-<W lemma="fare" msd="VADR" tag="VER&3a;cpre" in="" out="-1:dobj|1:pnct|-2:cause">facciamo</W>
+<W lemma="fare" msd="VADR" tag="VER&3a;cpre" in="" out="-1:dobj|-2:cause|1:pnct">facciamo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:pnct" out="">?”</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:dobj" out="">“Lo</W>
 <W lemma="fare" msd="VADR" tag="VER&3a;cpre" in="2:qobj" out="-1:dobj|1:pnct">facciamo</W>
@@ -104,7 +104,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:pobj" out="">all’altro”</W>
 <W lemma="dire" msd="VADA" tag="VER&3a;remo" in="" out="-5:qobj|1:pnct|17:pnct">disse</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-7:conj" out="2:dobj|3:loc|5:time|1:iter">“avevo</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-7:conj" out="1:iter|2:dobj|3:loc|5:time">“avevo</W>
 <W lemma="sempre" msd="RG" tag="ADV" in="-1:iter" out="">sempre</W>
 <W lemma="qualcuno" msd="PI" tag="PRO&3a;indef" in="-2:dobj" out="">qualcuno</W>
 <W lemma="in" msd="SP" tag="PRE" in="-3:loc" out="1:nobj">in</W>
