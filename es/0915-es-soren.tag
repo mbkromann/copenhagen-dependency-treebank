@@ -64,7 +64,7 @@
 <W lemma="hospital" morph="hospital" msd="NC" tag="NC" in="-1:nobj" out="1:attr">hospitales</W>
 <W lemma="&lt;unknown&gt;" morph="psiquiatría !!!!!átr +ico/DERna&3a;rel ~s" msd="NC" tag="NC" in="-1:attr" out="">psiquiÃ¡tricos</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="-4:vobj" out="-3:subj|1:preds|2:pnct">sean</W>
-<W lemma="innecesario" morph="necesario -in/NEG&3a;contr" msd="AN" tag="ADJ" in="-1:preds" out="">innecesarios</W>
+<W lemma="innecesario" morph="necesario -in/NEG&3a;contr ~s" msd="AN" tag="ADJ" in="-1:preds" out="">innecesarios</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
 <W lemma="un" msd="PD" tag="ART" in="-7:conj" out="2:nobj">un</W>
 <W lemma="bueno" morph="bueno" msd="AN" tag="ADJ" in="1:attr" out="">mejor</W>
@@ -99,7 +99,7 @@
 <W lemma="pero" msd="CC" tag="CCAD" in="1:other" out="">Pero</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-1:other|1:preds|3:subj">es</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:preds" out="1:nobj">un</W>
-<W lemma="hecho" morph="hacer !!!!ech +o/DERna&3a;pas.part" msd="NC" tag="NC" in="-1:nobj" out="">hecho</W>
+<W lemma="hecho" morph="hacer !!!!e +cho/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="">hecho</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-3:subj" out="4:vobj">que</W>
 <W lemma="nuevo" morph="nuevo" msd="AN" tag="ADJ" in="1:attr" out="">nuevos</W>
 <W lemma="medicamento" morph="medicamento" msd="NC" tag="NC" in="2:subj" out="-1:attr|1:attr">medicamentos</W>
@@ -108,7 +108,7 @@
 <W lemma="a" msd="SP" tag="SCENE" in="-1:cons" out="1:vobj">a</W>
 <W lemma="minimizar" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj|7:pnct">minimizar</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">los</W>
-<W lemma="gasto" morph="gastar !! +o/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">gastos</W>
+<W lemma="gasto" morph="gastar !! +o/DERvn&3a;core ~s" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">gastos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="salud" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">salud</W>

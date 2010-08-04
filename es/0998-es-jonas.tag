@@ -35,7 +35,7 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:pobj|1:{arg}">la</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">año</W>
-<W lemma="pasar" morph="pasar !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">pasado</W>
+<W lemma="pasar" morph="pasar ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">pasado</W>
 <W lemma="," msd="XP" tag="CM" in="-11:pnct" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="15:coord" out="">y</W>
 <W lemma="aunque" msd="CS" tag="CSUBX" in="14:conc" out="2:vobj">aunque</W>
@@ -66,11 +66,11 @@
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj&3a;formål#|3:attrr/vobj">período</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj&3a;formål#" out="1:nobj">de</W>
 <W lemma="rebaja" morph="bajo ! -+[re][ar]/DERav -re/PRE&3a;other !! +a/DERvn&3a;core ~s" msd="NC" tag="NC" in="-1:nobj" out="">rebajas</W>
-<W lemma="comparar" morph="comparar !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-3:attrr/vobj" out="1:pobj">comparado</W>
+<W lemma="comparar" morph="comparar ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-3:attrr/vobj" out="1:pobj">comparado</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="1:attr">año</W>
-<W lemma="&lt;unknown&gt;" morph="pasar !! +ado/DERva&3a;pas.part" msd="NC" tag="NC" in="-1:attr" out="">pasado.”</W>
+<W lemma="&lt;unknown&gt;" morph="pasar ! +do/DERva&3a;pas.part" msd="NC" tag="NC" in="-1:attr" out="">pasado.”</W>
 <W lemma="&lt;unknown&gt;" morph="satisfacer !! +torio/DERva&3a;act" msd="AN" tag="ADJ" in="-17:coref-res.prg|10:preds" out="1:pnct|2:conc">“Satisfactorio</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="aunque" msd="CS" tag="CSUBX" in="-2:conc" out="">aunque</W>
@@ -80,7 +80,7 @@
 <W lemma="como" msd="CS" tag="CSUBX" in="-1:resem" out="1:nobj">como</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:bobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:bobj" out="1:attr">año</W>
-<W lemma="&lt;unknown&gt;" morph="pasar !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">pasado,”</W>
+<W lemma="&lt;unknown&gt;" morph="pasar ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">pasado,”</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-10:preds|1:subj|32:pnct">es</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="comentario" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">comentario</W>
@@ -156,7 +156,7 @@
 <W lemma="tener" morph="tener" msd="VAD" tag="VLfin" in="24:dobj" out="1:dobj|4:conc|14:pnct|16:conj">Tuvimos</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="2:nobj">un</W>
 <W lemma="bueno" morph="bueno" msd="AN" tag="ADJ" in="1:attr" out="">buen</W>
-<W lemma="resultado" morph="resulta ! ar/DERnv !! +ado/DERvn&3a;patient" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">resultado</W>
+<W lemma="resultado" morph="resulta !+ar/DERnv ! +do/DERvn&3a;patient" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">resultado</W>
 <W lemma="aunque" msd="CS" tag="CSUBX" in="-4:conc" out="1:vobj">aunque</W>
 <W lemma="estar" morph="estar" msd="VAD" tag="VLfin" in="-1:vobj" out="3:loc">estamos</W>
 <W lemma="un" msd="PD" tag="ART" in="2:quant" out="1:nobj">un</W>
@@ -166,7 +166,7 @@
 <W lemma="cifra" morph="cifra" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">cifras</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">año</W>
-<W lemma="pasar" morph="pasar !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">pasado</W>
+<W lemma="pasar" morph="pasar ! +do/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">pasado</W>
 <W lemma="," msd="XP" tag="CM" in="-14:pnct" out="">,</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="1:coord" out="">pero</W>
 <W lemma="haber~que" morph="haber~que" msd="VAD" tag="VMfin" in="-16:conj" out="-1:coord|1:vobj">hay que</W>

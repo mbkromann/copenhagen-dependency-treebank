@@ -18,7 +18,7 @@
 <W lemma="estar" morph="estar" msd="VAD" tag="VLfin" in="-6:conj" out="-2:subj|-1:neg|1:quant|3:preds|4:pnct|8:conj">estaba</W>
 <W lemma="para" msd="SP" tag="SCENE" in="-1:quant" out="1:nobj">para</W>
 <W lemma="nada" morph="&lt;unknown&gt;" msd="AN" tag="QU" in="-1:nobj" out="">nada</W>
-<W lemma="interesado" morph="interés !!es +ar/DERnv !! +ado/DERva&3a;pas.part" msd="AN" tag="ADJ" in="-3:preds" out="">interesado</W>
+<W lemma="interesado" morph="interés !!es +ar/DERnv ! +do/DERva&3a;pas.part" msd="AN" tag="ADJ" in="-3:preds" out="">interesado</W>
 <W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="3:coord" out="">y</W>
 <W lemma="otro" morph="&lt;unknown&gt;" msd="AN" tag="QU" in="2:subj|5:[subj]" out="">otro</W>
@@ -70,7 +70,7 @@
 <W lemma="evangelista" morph="evangelista" msd="NC" tag="NC" in="-1:nobj" out="">evangelistas</W>
 <W lemma="&3a;" msd="XP" tag="COLON" in="" out="">:</W>
 <W lemma="&lt;unknown&gt;" morph="tener" msd="VAD" tag="VLfin" in="" out="1:dobj|3:conj|6:contr|10:coref|14:pnct">“Teníamos</W>
-<W lemma="invitar" morph="invitar !! +ado/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:dobj" out="">invitados</W>
+<W lemma="invitar" morph="invitar ! +do/DERva&3a;pas.part ~s" msd="VAF" tag="VLadj" in="-1:dobj" out="">invitados</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" morph="estar" msd="VAD" tag="VLfin" in="-3:conj" out="-1:coord|1:vobj">estábamos</W>
 <W lemma="comer" morph="comer" msd="VAF" tag="VLadj" in="-1:vobj" out="">comiendo</W>

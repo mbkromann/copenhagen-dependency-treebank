@@ -35,7 +35,7 @@
 <W lemma="&lt;unknown&gt;" morph="mayor +ía/DERan&3a;qual" msd="AN" tag="ADJ" in="-1:nobj" out="1:pobj|1:{arg}">mayoría</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="elector" morph="eligir !!!!ec +tor/DERvn&3a;agent ~es" msd="NC" tag="NC" in="-1:nobj" out="6:appa">electores</W>
+<W lemma="elector" morph="elegir !!!c +tor/DERvn&3a;agent ~es" msd="NC" tag="NC" in="-1:nobj" out="6:appa">electores</W>
 <W lemma="-" msd="XP" tag="DASH" in="5:pnct" out="">-</W>
 <W lemma="con" msd="SP" tag="SCENE" in="4:prg" out="1:nobj">con</W>
 <W lemma="&lt;unknown&gt;" morph="excepto !u +ar/DERav !!!! +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">excepción</W>
@@ -71,7 +71,7 @@
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="1:subj" out="">¿quién</W>
 <W lemma="comprender" morph="comprender" msd="VAD" tag="VLfin" in="" out="-1:subj|-2:cause|1:dobj|10:conj">comprende</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">el</W>
-<W lemma="significado" morph="significar !! +ado/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:about">significado</W>
+<W lemma="significado" morph="significar ! +do/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:about">significado</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:about" out="1:nobj">del</W>
 <W lemma="tratar" morph="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-1:nobj" out="">tratado</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
@@ -133,13 +133,13 @@
 <W lemma="implicar" morph="implicar" msd="VAD" tag="VLfin" in="" out="-3:subj|1:dobj|16:pnct">implica</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="6:vobj">que</W>
 <W lemma="el" msd="PD" tag="ART" in="5:subj" out="1:nobj">los</W>
-<W lemma="elector" morph="eligir !!!!ec +tor/DERvn&3a;agent ~es" msd="NC" tag="NC" in="-1:nobj" out="">electores</W>
+<W lemma="elector" morph="elegir !!!c +tor/DERvn&3a;agent ~es" msd="NC" tag="NC" in="-1:nobj" out="">electores</W>
 <W lemma="de" msd="SP" tag="SCENE" in="3:prg" out="1:nobj">de</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="vez" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">vez</W>
 <W lemma="dirigir" morph="dirigir" msd="VAD" tag="VLfin" in="-6:vobj" out="-5:subj|-3:prg|1:dobj">dirijan</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">el</W>
-<W lemma="sentido" morph="sentir !! +ido/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">sentido</W>
+<W lemma="sentido" morph="sentir ! +do/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">sentido</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj.dobj|-1:{patient}" out="1:nobj|3:conj">del</W>
 <W lemma="desarrollo" morph="desarrollar !! +o/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">desarrollo</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>

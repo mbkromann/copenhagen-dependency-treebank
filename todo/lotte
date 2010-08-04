@@ -1,9 +1,3 @@
-[*] es/0881-es-lotte.tag
-[ ] es/0915-es-soren.tag
-[ ] es/0939-es-lotte.tag
-[ ] es/0960-es-soren.tag
-[ ] es/0998-es-jonas.tag
-[ ] es/1043-es-lotte.tag
 [ ] es/1054-es-soren.tag
 [ ] es/1057-es-jonas.tag
 [ ] es/1077-es-lotte.tag
@@ -17,6 +11,7 @@
 [ ] es/1420-es-lotte.tag
 [ ] es/1497-es-jonas.tag
 [ ] es/1536-es-lotte.tag
+[ ] es/0939-es-lotte.tag (aeropuerto)
 Korpus 2: morf.-annoteret efter de ny regler incl. ~pl: dog tjek ado/ido (-da/-do)
 
 [*] da/0152-da-lotte.tag
@@ -42,7 +37,7 @@ Korpus 2: morf.-annoteret efter de ny regler incl. ~pl: dog tjek ado/ido (-da/-d
 [*] es/0376-es-jonas.tag
 [*] da/0426-da.tag
 [*] en/0426-en.tag
-[*] es/0426-es-soren.tag
+[ ] es/0426-es-soren.tag
 [ ] da/0428-da.tag
 [ ] es/0428-es-jonas.tag
 [ ] en/0428-en.tag
@@ -90,16 +85,22 @@ Korpus 2: morf.-annoteret efter de ny regler incl. ~pl: dog tjek ado/ido (-da/-d
 [ ] es/0876-es-lotte.tag
 [ ] da/0881-da.tag
 [ ] en/0881-en.tag
+[ ] es/0881-es-lotte.tag
 [ ] da/0915-da.tag
 [ ] en/0915-en.tag
+[ ] es/0915-es-soren.tag
 [ ] da/0939-da.tag
 [ ] en/0939-en.tag
+
 [ ] da/0960-da.tag
 [ ] en/0960-en.tag
+[ ] es/0960-es-soren.tag
 [ ] da/0998-da.tag
 [ ] en/0998-en.tag
+[ ] es/0998-es-jonas.tag
 [ ] da/1043-da.tag
 [ ] en/1043-en.tag
+[ ] es/1043-es-lotte.tag
 [ ] da/1054-da.tag
 [ ] en/1054-en.tag
 [ ] da/1057-da.tag

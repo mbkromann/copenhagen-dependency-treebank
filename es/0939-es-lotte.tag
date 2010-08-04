@@ -32,7 +32,7 @@
 <W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">petróleo</W>
 <W lemma="bruto" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">bruto</W>
-<W lemma="&lt;unknown&gt;" morph="iraq !!!!iraqu +í/DERna&3a;deono.place" msd="AN" tag="ADJ" in="" out="">iraquí</W>
+<W lemma="&lt;unknown&gt;" morph="iraq ^u +í/DERna&3a;deono.loc" msd="AN" tag="ADJ" in="" out="">iraquí</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="largo" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">largo</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">plazo.”</W>
@@ -50,7 +50,7 @@
 <W lemma="a" msd="SP" tag="SCENE" in="-5:iobj" out="1:nobj">a</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj" out="">sus</W>
 <W lemma="socio" morph="socio" msd="NC" tag="NC" in="" out="">socios</W>
-<W lemma="&lt;unknown&gt;" morph="iraq !!!!iraqu +í/DERna&3a;deono.place ~es" msd="AN" tag="ADJ" in="" out="">iraquíes</W>
+<W lemma="&lt;unknown&gt;" morph="iraq ^u +í/DERna&3a;deono.loc ~es" msd="AN" tag="ADJ" in="" out="">iraquíes</W>
 <W lemma="." msd="XP" tag="FS" in="-13:pnct" out="">.</W>
 <W lemma="poco" msd="RG" tag="ADV" in="1:quant" out="">Poco</W>
 <W lemma="antes" msd="RG" tag="ADV" in="4:time" out="-1:quant">antes</W>
@@ -61,11 +61,11 @@
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="pistola" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:attr">pistola</W>
 <W lemma="suizo" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">suiza</W>
-<W lemma="grabar" morph="grabar !! +ada/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-2:attr" out="1:inst">grabada</W>
+<W lemma="grabar" morph="grabar ! +da/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-2:attr" out="1:inst">grabada</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:inst" out="1:nobj">en</W>
 <W lemma="oro" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">oro</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
-<W lemma="valuar" morph="valuar !! +ada/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="" out="">valuada</W>
+<W lemma="valuar" morph="valuar ! +da/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="" out="">valuada</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">7.000</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="" out="">£</W>
@@ -173,7 +173,7 @@
 <W lemma="ministro" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="-1:attr|3:attr">Ministro</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="gobierno" morph="gobernar !!!!!iern +o/DERvn&3a;agent" msd="NC" tag="NC" in="" out="">Gobierno</W>
-<W lemma="&lt;unknown&gt;" morph="iraq !!!!iraqu +í/DERna&3a;deono.place" msd="AN" tag="ADJ" in="-3:attr" out="">iraquí</W>
+<W lemma="&lt;unknown&gt;" morph="iraq ^u +í/DERna&3a;deono.loc" msd="AN" tag="ADJ" in="-3:attr" out="">iraquí</W>
 <W lemma="." msd="XP" tag="FS" in="-9:pnct" out="">.</W>
 <W lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="" out="1:vobj|7:conj">Ha</W>
 <W lemma="vivir" morph="vivir" msd="VAF" tag="VLadj" in="-1:vobj" out="1:time|3:loc">vivido</W>
@@ -189,7 +189,7 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="emirato" morph="emir +ato/DERnn&3a;assoc ~s" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:attr">Emiratos</W>
 <W lemma="&lt;unknown&gt;" morph="arabia !!!!!!árab +e/DERna&3a;deono.place ~s" msd="AN" tag="ADJ" in="-1:attr" out="">Árabes</W>
-<W lemma="Unidos" morph="unir !! +ido/DERva&3a;pas.part ~s" msd="NP" tag="NP" in="-2:attr" out="">Unidos</W>
+<W lemma="Unidos" morph="unir ! +do/DERva&3a;pas.part ~s" msd="NP" tag="NP" in="-2:attr" out="">Unidos</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-8:time" out="">en</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-11:nobj" out="">1986</W>
 <W lemma="," msd="XP" tag="CM" in="-10:pnct" out="">,</W>
@@ -209,5 +209,5 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="emirato" morph="emir +ato/DERnn&3a;assoc ~s" msd="NC" tag="NC" in="" out="">Emiratos</W>
 <W lemma="&lt;unknown&gt;" morph="arabia !!!!!!árab +e/DERna&3a;deono.place ~s" msd="AN" tag="ADJ" in="" out="">Árabes</W>
-<W lemma="Unidos" morph="unir !! +ido/DERva&3a;pas.part ~s" msd="NP" tag="NP" in="" out="">Unidos</W>
+<W lemma="Unidos" morph="unir ! +do/DERva&3a;pas.part ~s" msd="NP" tag="NP" in="" out="">Unidos</W>
 <W lemma="." msd="XP" tag="FS" in="-14:pnct" out="">.</W>
