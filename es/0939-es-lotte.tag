@@ -126,7 +126,7 @@
 <W lemma="encontrar" morph="encontrar" msd="VAD" tag="VLfin" in="" out="-7:time|-2:time|-1:robj|1:loc">encontraba</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="aeropuerto" morph="puerto -aero/OTHER" msd="NC" tag="NC" in="-1:nobj" out="">aeropuerto</W>
+<W lemma="aeropuerto" morph="puerto -aero/FUNC" msd="NC" tag="NC" in="-1:nobj" out="">aeropuerto</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="Bagdad" msd="NP" tag="NP" in="" out="">Bagdad</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
