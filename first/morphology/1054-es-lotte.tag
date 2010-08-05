@@ -130,7 +130,7 @@
 <W lemma="prestigiar" morph="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj" out="1:ref|2:relr">prestigio</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|1:dobj" out="">que</W>
 <W lemma="llevar" morph="llevar" msd="VAD" tag="VLfin" in="-2:relr" out="-1:dobj|1:fpreds|2:subj">lleva</W>
-<W lemma="incorporar" morph="incorporar !! +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:fpreds" out="">incorporado</W>
+<W lemma="incorporar" morph="incorporar" msd="VAF" tag="VLadj" in="-1:fpreds" out="">incorporado</W>
 <W lemma="ese" msd="" tag="DM" in="-2:subj" out="1:nobj">ese</W>
 <W lemma="cargo" morph="cargar !! +o/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">cargo</W>
 <W lemma="&lt;unknown&gt;" morph="estar" msd="VAD" tag="VLfin" in="" out="1:loc">estará</W>
@@ -147,7 +147,7 @@
 <W lemma="nivel" morph="nivel" msd="NC" tag="NC" in="-1:nobj" out="1:attr">niveles</W>
 <W lemma="local" morph="local" msd="AN" tag="ADJ" in="-1:attr" out="1:const">locales</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:const" out="1:nobj">del</W>
-<W lemma="partido" morph="partir !! +ido/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="">partido</W>
+<W lemma="partido" morph="partir ! +do/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="">partido</W>
 <W lemma="." msd="XP" tag="FS" in="-7:pnct" out="">.</W>
 <W lemma="en" msd="SP" tag="SCENE" in="3:cond" out="1:nobj">En</W>
 <W lemma="tal" morph="&lt;unknown&gt;" msd="AN" tag="QU" in="-1:nobj" out="1:nobj">tal</W>
@@ -187,7 +187,7 @@
 <W lemma="el" msd="PD" tag="ART" in="-25:conj" out="-2:coord|-1:prg|1:nobj">el</W>
 <W lemma="ministro" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#">Ministro</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
-<W lemma="defensa" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="2:appr">Defensa</W>
+<W lemma="defensa" morph="defender !!!sa/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="2:appr">Defensa</W>
 <W lemma="Colin" msd="NP" tag="NP" in="1:namef" out="">Colin</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:appr" out="-1:namef">Powell</W>
 <W lemma="." msd="XP" tag="FS" in="-38:pnct" out="">.</W>

@@ -59,7 +59,7 @@
 <W lemma="&lt;unknown&gt;" morph="niño" msd="NC" tag="NC" in="" out="">niños</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
-<W lemma="ser" morph="ser" msd="NC" tag="NC" in="" out="">seres</W>
+<W lemma="ser" morph="ser /DERvn&3a;agent ~es" msd="NC" tag="NC" in="" out="">seres</W>
 <W lemma="humano" morph="humano" msd="AN" tag="ADJ" in="" out="">humanos</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="">son</W>
 <W lemma="muy" msd="RG" tag="ADV" in="" out="">muy</W>
@@ -174,7 +174,7 @@
 <W lemma="igual" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">igual</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
-<W lemma="entretenimiento" morph="entretener !!i +miento/DErvn&3a;core" msd="NC" tag="NC" in="" out="">entretenimiento</W>
+<W lemma="entretenimiento" morph="entretener !!i +miento/DERvn&3a;core" msd="NC" tag="NC" in="" out="">entretenimiento</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="">sea</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
