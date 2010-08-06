@@ -55,8 +55,8 @@
 <W lemma="fra" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">fra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj|-49:coref-var" out="2:nobj">i</W>
 <W lemma="rispettivo" msd="AN" tag="ADJ" in="1:attr" out="">rispettivi</W>
-<W lemma="gruppo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr|1:{func}#">gruppi</W>
-<W lemma="parlamentare" msd="AN" tag="ADJ" in="-1:attr|-1:{func}#" out="">parlamentari</W>
+<W lemma="gruppo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr|1:{goal}#">gruppi</W>
+<W lemma="parlamentare" msd="AN" tag="ADJ" in="-1:attr|-1:{goal}#" out="">parlamentari</W>
 <W lemma="e" msd="CS" tag="CON" in="18:coord" out="">e</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="17:time" out="1:nobj|36:coref-res">nel</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">1965</W>
