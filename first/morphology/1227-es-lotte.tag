@@ -180,7 +180,7 @@
 <W lemma="," msd="XP" tag="CM" in="-9:pnct" out="">,</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="10:coord" out="">pero</W>
 <W lemma="el" msd="PD" tag="ART" in="9:subj|10:[subj]" out="1:attr|2:nobj">los</W>
-<W lemma="decidido" morph="decidir !! +ido/DERva&3a;pas.part ~s" msd="AN" tag="ADJ" in="-1:attr" out="">decididos</W>
+<W lemma="decidido" morph="decidir ! +do/DERva&3a;pas.part ~s" msd="AN" tag="ADJ" in="-1:attr" out="">decididos</W>
 <W lemma="libro" morph="libro" msd="NC" tag="NC" in="-2:nobj" out="1:about#">libros</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:about#" out="">de</W>
 <W lemma="&lt;unknown&gt;" morph="enseñar ! +nza/DERvn&3a;core" msd="NC" tag="NC" in="-11:nobj" out="1:other">enseñanza</W>

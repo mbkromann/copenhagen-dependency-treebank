@@ -38,7 +38,7 @@
 <W lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="" out="-1:robj|-2:scene|1:vobj|2:subj|4:loc|22:pnct">han</W>
 <W lemma="realizar" morph="real +izar/DERav" msd="VAF" tag="VLadj" in="-1:vobj" out="1:[subj]">realizado</W>
 <W lemma="otro" morph="otro" msd="AN" tag="QU" in="-2:subj|-1:[subj]" out="1:nobj">otros</W>
-<W lemma="descubrimiento" morph="cubrir ! +miento/DErvn&3a;core -des/NEG&3a;priv ~s" msd="NC" tag="NC" in="-1:nobj" out="">descubrimientos</W>
+<W lemma="descubrimiento" morph="cubrir -des/NEG&3a;priv ! +miento/DERvn&3a;core ~s" msd="NC" tag="NC" in="-1:nobj" out="">descubrimientos</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-4:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj|-13:coref-var" out="1:nobj">el</W>
 <W lemma="lugar" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pnct">lugar</W>
@@ -75,7 +75,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Susanne</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="10:subj|11:[subj]" out="-1:namef|1:pnct|2:appa">Melchiorsen</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="jefe" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:appa" out="1:pobj|1:{arg}|7:pnct|11:attr">jefa</W>
+<W lemma="jefe" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:appa" out="1:pobj|1:{arg}|7:pnct">jefa</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|2:attr|3:loc">la</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Escuela</W>
@@ -85,8 +85,8 @@
 <W lemma="," msd="XP" tag="CM" in="-7:pnct" out="">,</W>
 <W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="" out="-12:time|-10:subj|1:vobj|5:pnct|21:pnct">pudo</W>
 <W lemma="festejar" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-11:[subj]|1:dobj">festejar</W>
-<W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="2:nobj|4:ref|5:relpa">su</W>
-<W lemma="&lt;unknown&gt;" morph="diez !!!éc +imo/DENUM" msd="NC" tag="NC" in="-11:attr" out="">décimo</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="2:nobj|4:ref|5:relpa|1:attr">su</W>
+<W lemma="&lt;unknown&gt;" morph="diez !!!éc +imo/DENUM" msd="NC" tag="NC" in="-1:attr" out="">décimo</W>
 <W lemma="aniversario" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="">aniversario</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-4:ref|1:subj" out="">que</W>
@@ -101,7 +101,7 @@
 <W lemma="diez" msd="AC" tag="CARD" in="-1:nobj" out="1:attr|3:attr">diez</W>
 <W lemma="primero" morph="primero" msd="AO" tag="ORD" in="-1:attr" out="1:nobj">primeros</W>
 <W lemma="&lt;unknown&gt;" morph="cosmetólogo" msd="NC" tag="NC" in="-1:nobj" out="">cosmetólogos</W>
-<W lemma="alternativo" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-3:attr" out="">alternativos</W>
+<W lemma="alternativo" morph="alternativo" msd="AN" tag="ADJ" in="-3:attr" out="">alternativos</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-34:loc" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">país</W>
 <W lemma="." msd="XP" tag="FS" in="-21:pnct" out="">.</W>
@@ -169,7 +169,7 @@
 <W lemma="si" msd="CS" tag="CSUBX" in="7:cond" out="5:vobj">Si</W>
 <W lemma="todo" morph="" msd="AN" tag="QU" in="4:subj" out="1:nobj">todas</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj|-35:assoc-scope" out="1:nobj">las</W>
-<W lemma="entrada" morph="entrar !! +ada/DERvn&3a;inst ~s" msd="NC" tag="NC" in="-1:nobj" out="">entradas</W>
+<W lemma="entrada" morph="entrar !! +da/DERvn&3a;inst ~s" msd="NC" tag="NC" in="-1:nobj" out="">entradas</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="vendar&7c;vender" morph="vender" msd="VAD" tag="VLfin" in="-5:vobj" out="-4:subj|-1:robj|1:pnct">venden</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>

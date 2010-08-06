@@ -74,7 +74,7 @@
 <W lemma="millones" msd="AC" tag="CARD" in="-1:nobj" out="">millones</W>
 <W lemma="como" msd="RG" tag="ADV" in="-4:man" out="1:nobj|5:conj">como</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" morph="perder !!!!!érd +ida/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">pérdida</W>
+<W lemma="&lt;unknown&gt;" morph="perder !!!!!érdi +da/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">pérdida</W>
 <W lemma="," msd="XP" tag="CM" in="-7:pnct" out="">,</W>
 <W lemma="sino" msd="CC" tag="CCAD" in="1:coord" out="">sino</W>
 <W lemma="como" msd="CS" tag="CSUBX" in="-5:conj" out="-1:coord|1:nobj">como</W>

@@ -1,12 +1,12 @@
 <W lemma="pero" msd="CC" tag="CCAD" in="5:discmark" out="">Pero</W>
-<W lemma="suyo" msd="PP" tag="PPO" in="4:subj" out="1:nobj">su</W>
-<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">relación</W>
+<W lemma="suyo" morph="" msd="PP" tag="PPO" in="4:subj" out="1:nobj">su</W>
+<W lemma="&lt;unknown&gt;" morph="relatar !!! +ción/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="1:attr">relación</W>
 <W lemma="mutuo" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">mutua</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="complicar" morph="complicar" msd="VAD" tag="VLfin" in="" out="-5:discmark|-1:robj|-4:subj|1:cause|11:pnct">complica</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:cause" out="1:nobj|5:vobj">por</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="hecho" morph="hacer !!!!ech +o/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">hecho</W>
+<W lemma="hecho" morph="hacer !!!!e +cho/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">hecho</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:nobj" out="">que</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-5:vobj" out="1:preds">están</W>
@@ -83,7 +83,7 @@
 <W lemma="." msd="XP" tag="FS" in="-12:pnct" out="">.</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="10:discmark" out="">Pero</W>
 <W lemma="el" msd="PD" tag="ART" in="30:cause" out="1:nobj|9:vobj">el</W>
-<W lemma="hecho" morph="hacer !!!!ech +o/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">hecho</W>
+<W lemma="hecho" morph="hacer !!!!e +cho/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">hecho</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:nobj" out="">que</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="5:subj|6:[subj]" out="1:nobj">“La</W>
@@ -118,7 +118,7 @@
 <W lemma="a" msd="SP" tag="SCENE" in="-3:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="superioridad" morph="superior +idad/DERan&3a;qual" msd="NC" tag="NC" in="-1:nobj" out="1:attr|4:pobj">superioridad</W>
-<W lemma="&lt;unknown&gt;" morph="perturbar ! +ble/DERva&3a;pas.epi -in !m/NEG&3a;contr" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">imperturbable</W>
+<W lemma="&lt;unknown&gt;" morph="pertubar ! +ble/DERva&3a;pas.epi -im/NEG&3a;contr" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">imperturbable</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="apasionar" morph="pasión !!on -+[a][ar]/DERnv -a/AGENT ! +da/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-2:conj" out="-1:coord">apasionada</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-4:pobj" out="1:nobj">con</W>
@@ -196,7 +196,7 @@
 <W lemma="&lt;unknown&gt;" morph="buscar !!!!!úsqued +a/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">búsqueda</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">lo</W>
-<W lemma="imposible" morph="posible -in !m/NEG&3a;contr" msd="AN" tag="ADJ" in="-1:nobj" out="">imposible</W>
+<W lemma="imposible" morph="posible -im/NEG&3a;contr" msd="AN" tag="ADJ" in="-1:nobj" out="">imposible</W>
 <W lemma="," msd="XP" tag="CM" in="-18:pnct" out="">,</W>
 <W lemma="sobre" msd="SP" tag="SCENE" in="-15:conj" out="1:vobj">sobre</W>
 <W lemma="pasar" morph="paso ! +ar/DERnv" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">pasar</W>
