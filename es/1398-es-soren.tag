@@ -3,8 +3,8 @@
 <W lemma="preocupante" morph="perocupar ! +nte/DERva&3a;act" msd="AN" tag="ADJ" in="-1:nobj" out="">preocupante</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-3:preds|1:subj|4:pnct|22:pnct">es</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">la</W>
-<W lemma="emboscar" morph="bosque !!!c -+[en][ar]/DERnv -en !m/SPACE&3a;loc ! +da/DERvn&3a;core" msd="VAF" tag="VLadj" in="-1:nobj" out="1:attr|3:loc">emboscada</W>
-<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:attr" out="">bosnia</W>
+<W lemma="emboscar" morph="bosque !!!c -+[em][ar]/DERnv -em/SPACE&3a;loc ! +da/DERvn&3a;core" msd="VAF" tag="VLadj" in="-1:nobj" out="1:attr|3:loc">emboscada</W>
+<W lemma="&lt;unknown&gt;" morph="bosnia ! +a/DERna&3a;deono.loc" msd="VAD" tag="VLfin" in="-1:attr" out="">bosnia</W>
 <W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-3:loc" out="1:nobj">en</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:nobj" out="13:vobj">que</W>
@@ -15,7 +15,7 @@
 <W lemma="serbio" morph="serbia ! +o/DERna&3a;deono.place ~s" msd="AN" tag="ADJ" in="-1:attr" out="">serbios</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-2:ref|1:subj" out="">que</W>
 <W lemma="&lt;unknown&gt;" morph="deber" msd="VAD" tag="VLfin" in="-3:relr" out="-1:subj|1:vobj|5:pnct">debían</W>
-<W lemma="intercambiarse" morph="cambiar -inter/PRE&3a;other" msd="VA" tag="VCLI" in="-1:vobj" out="-5:[subj]|1:pobj">intercambiarse</W>
+<W lemma="intercambiarse" morph=" cambiar -inter/MOD&3a;qual" msd="VA" tag="VCLI" in="-1:vobj" out="-5:[subj]|1:pobj">intercambiarse</W>
 <W lemma="para" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">para</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="presidente" morph="presidir !!e +nte/DERva&3a;act" msd="NC" tag="NC" in="-1:nobj" out="">presidente</W>

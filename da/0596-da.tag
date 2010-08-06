@@ -43,13 +43,13 @@
 <W gloss="The_working_group" lemma="arbejdsgruppe" morph="gruppe -[arbejd]s/func" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">Arbejdsgruppen</W>
 <W gloss="is_to" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|18:pnct">skal</W>
 <W gloss="take" lemma="tage" morph="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">tage</W>
-<W gloss="its" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:dobj" out="1:possd">sit</W>
-<W gloss="starting_point" lemma="udgangspunkt" morph="punkt -[udgang]s/func" msd="NCNSU==I" tag="NN" in="-1:possd" out="1:pobj">udgangspunkt</W>
+<W gloss="its" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:dobj|1:[other]" out="1:possd">sit</W>
+<W gloss="starting_point" lemma="udgangspunkt" morph="punkt -[udgang]s/func" msd="NCNSU==I" tag="NN" in="-1:possd" out="1:pobj|-1:[other]">udgangspunkt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|6:conj|9:pnct|10:ex">de</W>
 <W gloss="existing" lemma="bestå" morph="bestå" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">bestående</W>
-<W gloss="stores" lemma="lager" morph="lager" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="1:pobj">lagre</W>
-<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
+<W gloss="stores" lemma="lager" morph="lager" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="1:pobj|1:{arg}">lagre</W>
+<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">af</W>
 <W gloss="drugs" lemma="lægemiddel" morph="middel -læge/goal" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">lægemidler</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="supply_lines" lemma="forsyningsvej" morph="vej -[forsyne +!ning/DERvn&3a;core]s/goal" msd="NCCPU==D" tag="NNP" in="-6:conj" out="-1:coord|1:time">forsyningsvejene</W>

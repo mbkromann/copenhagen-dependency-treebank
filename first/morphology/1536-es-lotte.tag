@@ -11,10 +11,10 @@
 <W lemma="que" msd="CS" tag="CQUE" in="-1:nobj" out="1:vobj">que</W>
 <W lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="-1:vobj" out="">haya</W>
 <W lemma="mucho" morph="mucho" msd="AN" tag="QU" in="1:attr" out="1:dobj">muchos</W>
-<W lemma="&lt;unknown&gt;" morph=" morir !!!!uert +o/DERva&3a;pas.part ~s" msd="NC" tag="NC" in="-1:dobj" out="-1:attr">muertos,”</W>
+<W lemma="&lt;unknown&gt;" morph="morir !!!!uer +to/DERva&3a;pas.part ~s" msd="NC" tag="NC" in="-1:dobj" out="-1:attr">muertos,”</W>
 <W lemma="decir" morph="decir" msd="VAD" tag="VLfin" in="" out="-14:qobj|-7:qobj|1:subj|9:pnct">dijo</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:subj|-8:coref" out="1:nobj|7:appr">un</W>
-<W lemma="portavoz" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">portavoz</W>
+<W lemma="portavoz" morph="portar ! +voz/DOBJ.patient" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">portavoz</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">policía</W>

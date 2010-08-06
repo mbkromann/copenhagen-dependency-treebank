@@ -47,7 +47,7 @@
 <W lemma="por~parte~de" msd="SP" tag="SCENE" in="-2:pobj" out="1:nobj">por parte de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" morph="líder" msd="NC" tag="NC" in="-1:nobj" out="1:attr">líderes</W>
-<W lemma="&lt;unknown&gt;" morph="política ! +o/DER&3a;na/rel ~s" msd="AN" tag="ADJ" in="-1:attr" out="">políticos</W>
+<W lemma="&lt;unknown&gt;" morph="política ! +o/DERna&3a;rel ~s" msd="AN" tag="ADJ" in="-1:attr" out="">políticos</W>
 <W lemma="." msd="XP" tag="FS" in="-11:pnct" out="">.</W>
 <W lemma="el" msd="PD" tag="ART" in="8:subj" out="1:nobj">EL</W>
 <W lemma="&lt;unknown&gt;" morph="gobernar !!!!!iern +o/DERvn&3a;agent" msd="NP" tag="NP" in="-1:nobj" out="1:attr|1:{resem}">GOBIERNO</W>
@@ -158,7 +158,7 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="3:vobj">que</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="2:subj" out="1:nobj">sus</W>
-<W lemma="opositor" morph="oponer !!!si +ción/DERvn&3a;core !!!! +tor/DERnn/agent ~es" msd="NC" tag="NC" in="-1:nobj" out="">opositores</W>
+<W lemma="opositor" morph="oponer !!!si +ción/DERvn&3a;core !!!! +tor/DERnn&3a;agent ~es" msd="NC" tag="NC" in="-1:nobj" out="">opositores</W>
 <W lemma="haber" morph="haber" msd="VAD" tag="VLfin" in="-3:vobj" out="-2:subj|1:vobj|3:pnct">hubieran</W>
 <W lemma="&lt;unknown&gt;" morph="creer" msd="NC" tag="NC" in="-1:vobj" out="">creído</W>
 <W lemma="posible" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-61:fpredo" out="">posible</W>
@@ -192,7 +192,7 @@
 <W lemma="en" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="juego" morph="jugar !!!eg +o/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">juego</W>
 <W lemma="un" msd="PD" tag="ART" in="-3:dobj" out="1:nobj">unas</W>
-<W lemma="propuesta" morph="proponer !!!!uest +a/DERvn&3a;core ~s" msd="NC" tag="NC" in="-1:nobj" out="2:attr|3:ref|4:relr">propuestas</W>
+<W lemma="propuesta" morph="proponer !!!!ues +ta/DERvn&3a;core ~s" msd="NC" tag="NC" in="-1:nobj" out="2:attr|3:ref|4:relr">propuestas</W>
 <W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
 <W lemma="radical" morph="radical" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">radicales</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-3:ref|1:subj" out="">que</W>

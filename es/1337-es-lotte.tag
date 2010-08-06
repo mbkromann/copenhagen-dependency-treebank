@@ -32,7 +32,7 @@
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-13:man" out="1:nobj">con</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="sentido" morph="sentir !! +ido/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:pobj|2:{arg}">sentido</W>
+<W lemma="sentido" morph="sentir ! +do/DERvn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:pobj|2:{arg}">sentido</W>
 <W lemma="negro" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">negro</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-2:pobj|-2:{arg}" out="1:nobj">de</W>
 <W lemma="humor" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">humor</W>
@@ -86,7 +86,7 @@
 <W lemma="fuera" msd="RG" tag="ADV" in="-1:preds" out="">fuera</W>
 <W lemma="." msd="XP" tag="FS" in="-12:pnct" out="">.</W>
 <W lemma="con" msd="SP" tag="SCENE" in="10:man" out="2:nobj|5:pnct">Con</W>
-<W lemma="&lt;unknown&gt;" morph="jugo ! +oso/DERna&3a;poss" msd="AN" tag="ADJ" in="1:attr" out="">jugosos</W>
+<W lemma="&lt;unknown&gt;" morph="jugo ! +oso/DERna&3a;poss ~s" msd="AN" tag="ADJ" in="1:attr" out="">jugosos</W>
 <W lemma="trozo" morph="trozo" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">trozos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="carne" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">carne</W>
@@ -94,7 +94,7 @@
 <W lemma="el" msd="PD" tag="ART" in="-92:coref-var|4:subj" out="1:nobj">los</W>
 <W lemma="perro" morph="perro" msd="NC" tag="NC" in="-1:nobj" out="">perros</W>
 <W lemma="de" msd="SP" tag="SCENE" in="1:goal#" out="1:nobj">de</W>
-<W lemma="guardia" morph="guardar !!i +a/DERVn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="-1:goal#">guardia</W>
+<W lemma="guardia" morph="guardar !!i +a/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="-1:goal#">guardia</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-10:man|-4:subj|1:preds|2:pnct|3:cons|22:pnct">fueron</W>
 <W lemma="&lt;unknown&gt;" morph="tranquilo ! +izar/DERav" msd="VAF" tag="VLadj" in="-1:preds" out="">tranquilizados</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
