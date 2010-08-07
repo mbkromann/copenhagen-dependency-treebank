@@ -275,16 +275,16 @@
 [*] it/1429-it-morten.tag
 [*] da/0152-da.tag
 [*] de/0152-de-morten.tag
-[ ] it/0152-it-morten.tag
+[*] it/0152-it-morten.tag
 [*] da/0212-da.tag
 [*] de/0212-de-morten.tag
-[ ] it/0212-it-morten.tag
+[*] it/0212-it-morten.tag
 [*] da/0235-da.tag
 [*] de/0235-de-morten.tag
-[ ] it/0235-it-lisa.tag
+[*] it/0235-it-lisa.tag
 [*] da/0260-da.tag
 [*] de/0260-de-morten.tag
-[ ] it/0260-it-morten.tag
+[*] it/0260-it-morten.tag
 [*] da/0339-da.tag
 [*] de/0339-de-morten.tag
 [ ] it/0339-it-lisa.tag
@@ -5475,8 +5475,8 @@ Flere italienske tekster:
 [*] it/1429-it-morten.tag
 
 [ ] da-it/0152-da-it-morten.atag
-[ ] it/0152-it-morten.tag
-[ ] it/0212-it-morten.tag
+[*] it/0152-it-morten.tag
+[*] it/0212-it-morten.tag
 [ ] it/0235-it-morten.tag
 [*] it/0260-it-morten.tag
 [ ] it/0339-it-morten.tag
@@ -5524,9 +5524,9 @@ Flere italienske tekster:
 
 # New tasks replacing wrongly assigned tasks
 [ ] da-it/0152-da-it-morten.atag
-[ ] it/0152-it-morten.tag
+[*] it/0152-it-morten.tag
 [ ] da-it/0212-da-it-morten.atag
-[ ] it/0212-it-morten.tag
+[*] it/0212-it-morten.tag
 [ ] da-it/0260-da-it-morten.atag
 [*] it/0260-it-morten.tag
 [ ] da-it/0351-da-it-morten.atag
@@ -5575,7 +5575,7 @@ Flere italienske tekster:
 # Tasks that should be revised because of revised translation
 
 [ ] da-it/0212-da-it-morten.atag
-[ ] it/0212-it-morten.tag
+[*] it/0212-it-morten.tag
 [ ] da-it/0426-da-it-morten.atag
 [*] it/0426-it-morten.tag
 [ ] da-it/0800-da-it-morten.atag
