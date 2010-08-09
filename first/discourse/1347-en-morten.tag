@@ -36,7 +36,7 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="VADA" tag="VBD" in="-6:vobj" out="-8:[subj]|1:pobj">resulted</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="3:nobj|4:pnct|5:ref|6:rel|30:coref-var|36:CONST&3a;exem/for_example">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="3:nobj|4:pnct|5:ref|6:rel|36:CONST&3a;exem/for_example|30:coref-var">the</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">EC</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Asylum</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod|-2:mod">Convention</W>
@@ -72,7 +72,7 @@
 <W msd="ANP" tag="JJ" in="-1:preds" out="">effective</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|6:[subj]" out="">one</W>
-<W msd="VA" tag="MD" in="-36:CONST&3a;exem/for_example" out="-7:mod|-1:subj|1:pnct|2:mod|5:vobj|21:pnct|22:mod|32:pnct|35:coref-res|78:coref-res|111:coref-res|174:coref-res|36:TELIC&3a;cons.dir/(therefore)|79:+TELIC&3a;cons.dir/(therefore)|112:+CONTR&3a;sbj/but">will</W>
+<W msd="VA" tag="MD" in="-36:CONST&3a;exem/for_example" out="-7:mod|-1:subj|1:pnct|2:mod|5:vobj|21:pnct|22:mod|32:pnct|78:coref-res|35:coref-res|111:coref-res|36:TELIC&3a;cons.dir/(therefore)|112:+CONTR&3a;sbj/but|79:+TELIC&3a;cons.dir/(therefore)">will</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
@@ -110,14 +110,14 @@
 <W msd="PD" tag="DT" in="1:subj|-35:coref-res" out="">This</W>
 <W msd="VADR" tag="VBZ" in="-36:TELIC&3a;cons.dir/(therefore)" out="-1:subj|1:dobj|39:pnct">means</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="19:vobj">that</W>
-<W msd="PI" tag="DT" in="18:subj|25:[subj]|27:[subj]|31:[subj]" out="1:nobj|2:pnct|3:ref|4:rel">an</W>
+<W msd="PI" tag="DT" in="18:subj|25:[subj]|27:[subj]|31:[subj]" out="1:nobj|2:pnct|3:ref|4:rel|7:coref">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">asylum-seeker</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="PT" tag="WP" in="-3:ref|1:subj|3:[subj]" out="4:coref">who</W>
+<W msd="PT" tag="WP" in="-3:ref|1:subj|3:[subj]" out="">who</W>
 <W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:mod|2:vobj|13:pnct">has</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">first</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|3:pobj">submitted</W>
-<W msd="PO" tag="PRP$" in="-1:dobj|-4:coref" out="1:possd">his</W>
+<W msd="PO" tag="PRP$" in="-1:dobj|-7:coref" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">application</W>
 <W msd="U=" tag="TO" in="-3:pobj" out="1:pnct|5:nobj">to</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -189,7 +189,7 @@
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pobj">do</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
-<W msd="PD" tag="DT" in="-1:nobj|-29:assoc-telic" out="2:nobj|10:coref-iden|13:CONJ&3a;elab">the</W>
+<W msd="PD" tag="DT" in="-1:nobj|-29:assoc-telic" out="2:nobj|13:CONJ&3a;elab|10:coref-iden">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Union</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Treaty</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
@@ -246,7 +246,7 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:dobj">desire</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:mod|6:mod">include</W>
-<W msd="PD" tag="DT" in="-1:dobj|-174:coref-res" out="1:nobj">this</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">issue</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj|-27:coref-iden" out="1:nobj">the</W>

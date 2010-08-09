@@ -1,4 +1,29 @@
 # Indsæt "*" når annotationen er afsluttet
+[*] en/0134-en-morten.tag
+[*] en/0531-en-morten.tag
+[*] en/1252-en-morten.tag
+[*] en/0086-en-morten.tag
+[*] en/0138-en-morten.tag
+[*] en/0593-en-morten.tag
+[*] en/1347-en-morten.tag
+[*] en/0090-en-morten.tag
+[ ] en/0140-en-morten.tag
+[ ] en/0602-en-morten.tag
+[ ] en/1383-en-morten.tag
+[ ] en/0091-en-morten.tag
+[ ] en/0141-en-morten.tag
+[ ] en/0620-en-morten.tag
+[ ] en/1390-en-morten.tag
+[ ] en/0093-en-morten.tag
+[ ] en/0143-en-morten.tag
+[ ] en/0647-en-morten.tag
+[ ] en/1408-en-morten.tag
+[ ] en/0097-en-morten.tag
+[ ] en/0144-en-morten.tag
+[ ] en/0675-en-morten.tag
+[ ] en/1420-en-morten.tag
+[ ] en/0101-en-morten.tag
+[ ] en/0148-en-morten.tag
 [*] en/1347-en-morten.tag
 [*] da/0001-da-morten.tag
 [*] it/0001-it-morten.tag
@@ -287,7 +312,7 @@
 [*] it/0260-it-morten.tag
 [*] da/0339-da.tag
 [*] de/0339-de-morten.tag
-[ ] it/0339-it-lisa.tag
+[*] it/0339-it-lisa.tag
 [*] da/0351-da.tag
 [*] de/0351-de-morten.tag
 [ ] it/0351-it-morten.tag
