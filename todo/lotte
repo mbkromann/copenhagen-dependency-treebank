@@ -1,3 +1,29 @@
+[*] en/0134-en-lotte.tag
+[*] en/0531-en-lotte.tag
+[*] en/1252-en-lotte.tag
+[*] en/0086-en-lotte.tag
+[*] en/0138-en-lotte.tag
+[ ] en/0593-en-lotte.tag
+[ ] en/1347-en-lotte.tag
+[ ] en/0090-en-lotte.tag
+[ ] en/0140-en-lotte.tag
+[ ] en/0602-en-lotte.tag
+[ ] en/1383-en-lotte.tag
+[ ] en/0091-en-lotte.tag
+[ ] en/0141-en-lotte.tag
+[ ] en/0620-en-lotte.tag
+[ ] en/1390-en-lotte.tag
+[ ] en/0093-en-lotte.tag
+[ ] en/0143-en-lotte.tag
+[ ] en/0647-en-lotte.tag
+[ ] en/1408-en-lotte.tag
+[ ] en/0097-en-lotte.tag
+[ ] en/0144-en-lotte.tag
+[ ] en/0675-en-lotte.tag
+[ ] en/1420-en-lotte.tag
+[ ] en/0101-en-lotte.tag
+[ ] en/0148-en-lotte.tag
+
 [*] da/0152-da-lotte.tag
 [*] en/0152-en-lotte.tag
 [*] es/0152-es-lotte.tag
@@ -192,7 +218,7 @@ Korpus 1
 [ ] en/1428-en.tag
 [ ] da/1429-da.tag
 [ ] en/1429-en.tag
-[ ] en/1536-en-lotte.tag
+
 
 [*] es/0104-es-lotte.tag
 [*] es/0184-es-soren.tag
@@ -269,7 +295,7 @@ Tekster fra korpus 1 & 2 (der her er syntaks-, diskurs- og anaforannoterede er k
 [*] da/0502-da-lotte.tag
 [*] en/1241-en-lotte.tag
 [*] da/0065-da-lotte.tag
-
+[*] en/1536-en-lotte.tag
 
 10 Tekster til diskursannotation/agreement
 [*] da/0327-da-disc-lotte.tag
