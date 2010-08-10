@@ -3,15 +3,15 @@
 [*] en/1252-en-lotte.tag
 [*] en/0086-en-lotte.tag
 [*] en/0138-en-lotte.tag
-[ ] en/0593-en-lotte.tag
-[ ] en/1347-en-lotte.tag
-[ ] en/0090-en-lotte.tag
-[ ] en/0140-en-lotte.tag
-[ ] en/0602-en-lotte.tag
-[ ] en/1383-en-lotte.tag
+[*] en/0593-en-lotte.tag
+[*] en/1347-en-lotte.tag
+[*] en/0090-en-lotte.tag
+[*] en/0140-en-lotte.tag
+[*] en/0781-en-lotte.tag
+[*] en/1383-en-lotte.tag
 [ ] en/0091-en-lotte.tag
 [ ] en/0141-en-lotte.tag
-[ ] en/0620-en-lotte.tag
+[ ] en/1428-en-lotte.tag
 [ ] en/1390-en-lotte.tag
 [ ] en/0093-en-lotte.tag
 [ ] en/0143-en-lotte.tag
@@ -23,6 +23,8 @@
 [ ] en/1420-en-lotte.tag
 [ ] en/0101-en-lotte.tag
 [ ] en/0148-en-lotte.tag
+
+
 
 [*] da/0152-da-lotte.tag
 [*] en/0152-en-lotte.tag
