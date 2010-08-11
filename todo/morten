@@ -13,10 +13,10 @@
 [*] en/0091-en-morten.tag
 [*] en/0141-en-morten.tag
 [*] en/1428-en-morten.tag
-[ ] en/1390-en-morten.tag
-[ ] en/0093-en-morten.tag
-[ ] en/0143-en-morten.tag
-[ ] en/0647-en-morten.tag
+[*] en/1390-en-morten.tag
+[*] en/0093-en-morten.tag
+[*] en/0143-en-morten.tag
+[*] en/0647-en-morten.tag
 [*] en/1408-en-morten.tag
 [*] en/0097-en-morten.tag
 [*] en/0144-en-morten.tag
@@ -330,7 +330,7 @@
 [*] it/0596-it-morten.tag
 [*] da/0607-da.tag
 [*] de/0607-de-morten.tag
-[ ] it/0607-it-morten.tag
+[*] it/0607-it-morten.tag
 [*] da/0643-da.tag
 [*] de/0643-de-morten.tag
 [ ] it/0643-it-lisa.tag
