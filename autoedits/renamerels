@@ -1,0 +1,21 @@
+#!/bin/bash
+
+tab=$1
+sed=/tmp/renamerels.sed
+
+if [ -z "$tab" -o ! -f "$tab" ] ; then
+	echo "Usage: renamerels <tabfile>"
+	echo "Tabfile is a tab-separated file with oldrelname-newrelname pairs"
+	exit 1
+fi
+
+# Convert tab file to sed script
+cat $tab | ./tab2sed > $sed
+for d in `echo first da de en es it` ; do
+	for f in `find ~/cdt/$d -name '[0-9]*.tag'` ; do 
+		cat $f | sed -f $sed > /tmp/renamerels.tag
+		echo mv /tmp/renamerels.tag $f
+		mv /tmp/renamerels.tag $f
+	done
+done
+

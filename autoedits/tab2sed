@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Create sed script from stdin
+sed -e 's/:/\\\&3a;/g' | awk -F"\t" '{ print "s/\\([^<>[:alnum:]]\\)" $1 "\\([^<>[:alnum:]]\\)/\\1" $2 "\\2/g" }' 
+

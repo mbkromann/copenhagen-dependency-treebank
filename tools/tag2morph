@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+
+my $lineno = 0;
+while (my $line = <>) {
+	$lineno++;
+	chomp($line);
+	print "=== $lineno ===\n";
+	$line =~ s/\&3a;/:/g;
+	if ($line =~ /^.* morph="([^"]*)".*$/) {
+		foreach my $morph (split(/\s+/, $1)) {
+			if ($morph =~ /^.*\/(.*)$/) {
+				print $1 . "\n";
+			} 
+		}
+	} 
+}
