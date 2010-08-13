@@ -67,11 +67,11 @@ while ((my $res = getNextSen($conllFile, \@conllSentence)) == 1) {
 	    my $relPos = $headLn - $ln;
 	    
 	    # deprel
-	    my $delRel = $tokens[7];
+	    my $depRel = $tokens[7];
 	    
 	    # Create new tagline
 	    if (!($depRel eq "<PRUNED>")) {
-		$in = "$relPos:$delRel";
+		$in = "$relPos:$depRel";
 	    }
 	}
 	my $newLine = $before."in=\"$in\"".$after;

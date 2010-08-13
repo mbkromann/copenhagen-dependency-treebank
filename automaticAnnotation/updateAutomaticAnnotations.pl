@@ -14,12 +14,15 @@ my $sessionID = <SID>;
 chomp $sessionID;
 close(SID);
 
+
 $sessionID++;
 open(SID, ">lastSessionID");
 print SID "$sessionID\n";
 close(SID);
 
+
 my $ID = "$sessionID-$language";
+
 
 # Find files to use for training and files to be parser
 print "findFiles.pl\n";
@@ -90,6 +93,8 @@ $cmd = $cmd."./R$ID.parse-trainingdata.sh";
 print "$cmd\n";
 system($cmd);
 
+
+
 # Create statistics
 print "createStats.pl\n";
 system("perl createStats.pl $ID.train.conll $ID.training.out.conll > $ID.stats");
@@ -97,6 +102,7 @@ system("perl createStats.pl $ID.train.conll $ID.training.out.conll > $ID.stats")
 # Prune output from parser
 print "prune.pl\n";
 system("perl prune.pl $ID.stats $ID.out.conll $pruneAccuracy > $ID.out.conll.pruned");
+
 
 
 # Split parsed file into original texts
@@ -117,9 +123,15 @@ system("perl updateAllTag.pl $sessionID $language > $ID.updateAllTag.out 2> $ID.
 
 # Copy tag-files to original folder
 # print "copyTagFiles.pl.pl\n";
-# system("perl copyTagFiles.pl $sessionID $language > $ID.copyTagFiles.out 2> $ID.copyTagFiles.err");
+system("perl copyTagFiles.pl $sessionID $language > $ID.copyTagFiles.out 2> $ID.copyTagFiles.err");
 
 
 # Update svn
+
+system("cd ../$language");
+system("svn update");
+system("svn add *auto*.tag");
+system("svn commit -m 'Automatic annotations, $ID'");
+
 
 # 
