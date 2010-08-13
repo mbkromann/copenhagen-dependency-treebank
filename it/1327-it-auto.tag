@@ -1,0 +1,252 @@
+<p>
+<s>
+<W lemma="&quot;" msd="XP" tag="PON" in="4:pnct" out="">"</W>
+<W lemma="il" msd="PD" tag="DET:def" in="3:subj" out="1:nobj">La</W>
+<W lemma="mattina|mattino" msd="NC" tag="NOM" in="-1:nobj" out="">mattina</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
+<W lemma="tendere" msd="VADR" tag="VER:pres" in="26:qobj" out="-4:pnct|-3:subj|-1:robj|1:pobj|6:pnct|11:conj">tende</W>
+<W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">ad</W>
+<W lemma="avere|riavere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">avere</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
+<W lemma="sonno" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">sonno</W>
+<W lemma="pesante" msd="AN" tag="ADJ" in="-1:attr" out="">pesante</W>
+<W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
+<W lemma="ma" msd="CS" tag="CON" in="4:coord" out="">ma</W>
+<W lemma="il" msd="PD" tag="DET:def" in="3:subj" out="1:nobj">il</W>
+<W lemma="botto" msd="NC" tag="NOM" in="-1:nobj" out="">botto</W>
+<W lemma="mi" msd="PP" tag="PRO:pers" in="2:dobj" out="">mi</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-11:conj" out="-4:coord|-3:subj|1:vobj|2:pnct|6:conj">ha</W>
+<W lemma="svegliare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:dobj">svegliato</W>
+<W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
+<W lemma="e" msd="CS" tag="CON" in="3:coord" out="">e</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="2:time" out="1:nobj">all'</W>
+<W lemma="improvviso" msd="NC" tag="NOM" in="-1:nobj" out="">improvviso</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-6:conj" out="-3:coord|-2:time|1:vobj|7:pnct|8:pnct">ho</W>
+<W lemma="sentire" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:dobj">sentito</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:dobj" out="1:nobj">degli</W>
+<W lemma="scricchiolio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">scricchiolii</W>
+<W lemma="sopra" msd="AN" tag="ADJ" in="-1:attr" out="1:pobj">sopra</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
+<W lemma="me" msd="PP" tag="PRO:pers" in="-1:nobj" out="">me</W>
+<W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
+<W lemma="&quot;" msd="XP" tag="PON" in="-8:pnct" out="">"</W>
+<W lemma="raccontare" msd="VADR" tag="VER:pres" in="" out="-26:qobj|2:subj|3:goal|18:conj|23:pnct|34:conj|36:pnct">racconta</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attr" out="">Ib</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:attr">Oustrup</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-3:goal" out="1:nobj|7:appr">al</W>
+<W lemma="quotidiano" msd="NC" tag="NOM" in="-1:nobj" out="">quotidiano</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="5:subj" out="">B.T.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-7:appr" out="-5:subj|1:vobj">È</W>
+<W lemma="uscire" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:agent|3:resem">uscito</W>
+<W lemma="dal" msd="SP+P" tag="PRE:det" in="-1:agent" out="1:nobj">dal</W>
+<W lemma="letto" msd="NC" tag="NOM" in="-1:nobj" out="">letto</W>
+<W lemma="come" msd="SP" tag="PRE" in="-3:resem" out="1:nobj">come</W>
+<W lemma="un" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">un</W>
+<W lemma="fulmine" msd="NC" tag="NOM" in="-1:nobj" out="">fulmine</W>
+<W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="-18:conj" out="-1:coord|1:preds">è</W>
+<W lemma="salire" msd="VAP" tag="VER:pper" in="-1:preds" out="1:quant">salito</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-1:quant" out="2:nobj">al</W>
+<W lemma="primo" msd="AN" tag="ADJ" in="1:attr" out="">primo</W>
+<W lemma="piano" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">piano</W>
+<W lemma="," msd="XP" tag="PON" in="-23:pnct" out="">,</W>
+<W lemma="dove" msd="RG" tag="ADV" in="10:loc" out="">dove</W>
+<W lemma="il" msd="PD" tag="DET:def" in="9:subj" out="1:nobj">i</W>
+<W lemma="quattro" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">quattro</W>
+<W lemma="figlio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">figli</W>
+<W lemma="maschio" msd="AN" tag="ADJ" in="-1:attr" out="">maschi</W>
+<W lemma="dal" msd="SP+P" tag="PRE:det" in="5:time" out="1:nobj|2:pobj">dai</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">7</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-2:pobj" out="1:nobj">ai</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">17</W>
+<W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
+<W lemma="stare" msd="VADA" tag="VER:impf" in="-34:conj" out="-10:loc|-9:subj|-5:time|1:vobj">stavano</W>
+<W lemma="dormire" msd="VAG" tag="VER:geru" in="-1:vobj" out="">dormendo</W>
+<W lemma="." msd="XP" tag="SENT" in="-36:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="34:qobj" out="-1:pnct|1:vobj|6:pnct|9:conj|18:conj|32:pnct">Ho</W>
+<W lemma="gridare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:goal">gridato</W>
+<W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:vobj">per</W>
+<W lemma="svegliare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">svegliare</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">i</W>
+<W lemma="ragazzo" msd="NC" tag="NOM" in="-1:nobj" out="">ragazzi</W>
+<W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
+<W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
+<W lemma="quando" msd="RG" tag="ADV" in="1:time" out="">quando</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="-9:conj" out="-2:coord|-1:time|1:preds|24:pnct">sono</W>
+<W lemma="arrivare" msd="VAP" tag="VER:pper" in="-1:preds" out="1:@loc">arrivato</W>
+<W lemma="su" msd="SP" tag="PRE" in="-1:@loc" out="1:nobj">su</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="2:nobj">il</W>
+<W lemma="maggiore" msd="AN" tag="ADJ" in="1:attr" out="">maggiore</W>
+<W lemma="era" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|2:preds">era</W>
+<W lemma="già" msd="RG" tag="ADV" in="1:focal" out="">già</W>
+<W lemma="sveglio" msd="AN" tag="ADJ" in="-2:preds" out="-1:focal">sveglio</W>
+<W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="-18:conj" out="-1:coord|1:preds">sono</W>
+<W lemma="riuscire" msd="VAP" tag="VER:pper" in="-1:preds" out="1:pobj">riuscito</W>
+<W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">a</W>
+<W lemma="fare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:vobj">far</W>
+<W lemma="scendere|scernere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj|4:man">scendere</W>
+<W lemma="tutto" msd="AN" tag="ADJ" in="-1:dobj" out="1:nobj">tutti</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">i</W>
+<W lemma="ragazzo" msd="NC" tag="NOM" in="-1:nobj" out="">ragazzi</W>
+<W lemma="giù" msd="RG" tag="ADV" in="-4:man" out="1:attr">giù</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">in</W>
+<W lemma="salotto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">salotto</W>
+<W lemma="sano" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">sani</W>
+<W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
+<W lemma="salvo" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">salvi</W>
+<W lemma="," msd="XP" tag="PON" in="-32:pnct" out="">,</W>
+<W lemma="&quot;" msd="XP" tag="PON" in="-24:pnct" out="">"</W>
+<W lemma="raccontare" msd="VADR" tag="VER:pres" in="" out="-34:qobj|2:subj|3:man|11:conj|28:pnct|45:conj|63:pnct">racconta</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attr" out="">Ib</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:attr">Oustrup</W>
+<W lemma="a" msd="SP" tag="PRE" in="-3:man" out="1:nobj">a</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">B.T.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">Il</W>
+<W lemma="fuoco" msd="NC" tag="NOM" in="-1:nobj" out="">fuoco</W>
+<W lemma="essere" msd="VADA" tag="VER:impf" in="-11:conj" out="-2:subj|1:preds|33:pnct">era</W>
+<W lemma="divampare" msd="VAP" tag="VER:pper" in="-1:preds" out="1:man|2:time¹">divampato</W>
+<W lemma="attorno" msd="RG" tag="ADV" in="-1:man" out="">attorno</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-2:time¹" out="1:nobj">alle</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="2:conj|3:pobj">5</W>
+<W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-2:conj" out="-1:coord">30</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-3:pobj" out="1:nobj">all'</W>
+<W lemma="alba" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">alba</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
+<W lemma="domenica" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">domenica</W>
+<W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">nella</W>
+<W lemma="casa" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">casa</W>
+<W lemma="sul" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">sull'</W>
+<W lemma="isola" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">isola</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Møn</W>
+<W lemma="," msd="XP" tag="PON" in="-28:pnct" out="">,</W>
+<W lemma="e" msd="CS" tag="CON" in="16:coord" out="">e</W>
+<W lemma="il" msd="PD" tag="DET:def" in="15:subj" out="1:nobj|4:pnct|5:appr">la</W>
+<W lemma="madre" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">madre</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">dei</W>
+<W lemma="ragazzo" msd="NC" tag="NOM" in="-1:nobj" out="">ragazzi</W>
+<W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-5:appr" out="1:nobj|2:pnct|3:appa">Annette</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Laigaard</W>
+<W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
+<W lemma="capo" msd="NC" tag="NOM" in="-3:appa" out="1:pobj">capo</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">dei</W>
+<W lemma="servizio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">servizi</W>
+<W lemma="sociale" msd="AN" tag="ADJ" in="-1:attr" out="">sociali</W>
+<W lemma="su" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">su</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Møn</W>
+<W lemma="," msd="XP" tag="PON" in="-33:pnct" out="">,</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-45:conj" out="-16:coord|-15:subj|1:vobj|8:pnct|9:time">ha</W>
+<W lemma="dovere" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:pobj|3:vobj">dovuto</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">all'</W>
+<W lemma="inizio" msd="NC" tag="NOM" in="-1:nobj" out="">inizio</W>
+<W lemma="cercare" msd="VAF" tag="VER:infi" in="-3:vobj" out="1:dobj">cercare</W>
+<W lemma="riparo" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj">riparo</W>
+<W lemma="dal" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">dai</W>
+<W lemma="vicino" msd="NC" tag="NOM" in="-1:nobj" out="">vicini</W>
+<W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
+<W lemma="mentre" msd="CS" tag="CON" in="-9:time" out="3:vobj">mentre</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Ib</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="-1:namef">Oustrup</W>
+<W lemma="salire" msd="VADA" tag="VER:impf" in="-3:vobj" out="-1:subj|1:pobj|3:time">saliva</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:aobj">di</W>
+<W lemma="nuovo" msd="AN" tag="ADJ" in="-1:aobj" out="">nuovo</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-3:time" out="2:nobj">al</W>
+<W lemma="primo" msd="AN" tag="ADJ" in="1:attr" out="">primo</W>
+<W lemma="piano" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">piano</W>
+<W lemma="." msd="XP" tag="SENT" in="-63:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="24:qobj" out="-1:pnct|1:vobj|8:conj|17:pnct|19:conj|22:pnct|23:pnct">Ho</W>
+<W lemma="cercare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:pobj">cercato</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
+<W lemma="mettere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:focal">mettere</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:focal" out="1:nobj">in</W>
+<W lemma="salvo" msd="SP" tag="PRE" in="-1:nobj" out="1:nobj">salvo</W>
+<W lemma="ciò" msd="PD" tag="PRO:demo" in="-1:nobj" out="">ciò</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="3:dobj" out="">che</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-8:conj" out="1:vobj">ho</W>
+<W lemma="potere" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:vobj">potuto</W>
+<W lemma="salvare" msd="VAF" tag="VER:infi" in="-1:vobj" out="-3:dobj|1:@dir">salvare</W>
+<W lemma="tra" msd="SP" tag="PRE" in="-1:@dir" out="1:nobj">tra</W>
+<W lemma="titolo" msd="NC" tag="NOM" in="-1:nobj" out="2:conj">titoli</W>
+<W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
+<W lemma="altri|altro" msd="PI" tag="PRO:indef" in="-2:conj" out="-1:coord|1:nobj">altri</W>
+<W lemma="documento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">documenti</W>
+<W lemma="simile" msd="AN" tag="ADJ" in="-1:attr" out="">simili</W>
+<W lemma="," msd="XP" tag="PON" in="-17:pnct" out="">,</W>
+<W lemma="ma" msd="CS" tag="CON" in="1:coord" out="">ma</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-19:conj" out="-1:coord|1:vobj">ho</W>
+<W lemma="dovere" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:vobj">dovuto</W>
+<W lemma="rinunciare" msd="VAF" tag="VER:infi" in="-1:vobj" out="">rinunciare</W>
+<W lemma="," msd="XP" tag="PON" in="-22:pnct" out="">,</W>
+<W lemma="&quot;" msd="XP" tag="PON" in="-23:pnct" out="">"</W>
+<W lemma="dire" msd="VADR" tag="VER:pres" in="" out="-24:qobj|2:subj|3:pnct|6:conj|17:pnct">dice</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Ib</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef">Oustrup</W>
+<W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="2:subj" out="">che</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="-6:conj" out="-2:subj|-1:robj|1:vobj">è</W>
+<W lemma="procurare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:dobj">procurato</W>
+<W lemma="ustione" msd="NC" tag="NOM" in="-1:dobj" out="1:attr">ustioni</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="2:nobj">di</W>
+<W lemma="secondo" msd="AN" tag="ADJ" in="1:attr" out="">secondo</W>
+<W lemma="grado" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">grado</W>
+<W lemma="sul" msd="SP+P" tag="PRE:det" in="" out="1:nobj|3:conj">sulle</W>
+<W lemma="spalla" msd="NC" tag="NOM" in="-1:nobj" out="">spalle</W>
+<W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
+<W lemma="sul" msd="SP+P" tag="PRE:det" in="-3:conj" out="-1:coord|1:nobj">sul</W>
+<W lemma="volto" msd="NC" tag="NOM" in="-1:nobj" out="">volto</W>
+<W lemma="." msd="XP" tag="SENT" in="-17:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="&quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
+<W lemma="invece" msd="RG" tag="ADV" in="2:contr" out="">Invece</W>
+<W lemma="ci" msd="PR" tag="PRO:refl" in="3:dobj" out="">ci</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-3:pnct|-2:contr|1:vobj|13:conj|23:pnct">è</W>
+<W lemma="toccare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:vobj">toccato</W>
+<W lemma="assistere" msd="VAF" tag="VER:infi" in="-1:vobj" out="-3:dobj|1:pobj">assistere</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">all'</W>
+<W lemma="effetto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">effetto</W>
+<W lemma="rovinoso" msd="AN" tag="ADJ" in="-1:attr" out="">rovinoso</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-2:attr" out="1:nobj">delle</W>
+<W lemma="fiamma" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">fiamme</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-1:attr" out="2:nobj">al</W>
+<W lemma="primo" msd="AN" tag="ADJ" in="1:attr" out="">primo</W>
+<W lemma="piano" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">piano</W>
+<W lemma="finché" msd="CS" tag="CON" in="2:coord" out="">finché</W>
+<W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="-13:conj" out="-2:coord|-1:neg|1:vobj|2:subj">sono</W>
+<W lemma="arrivare" msd="VAP" tag="VER:pper" in="-1:vobj" out="5:time">arrivati</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-2:subj" out="1:nobj">i</W>
+<W lemma="vigile" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">vigili</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">del</W>
+<W lemma="fuoco" msd="NC" tag="NOM" in="-1:nobj" out="">fuoco</W>
+<W lemma="dopo" msd="SP" tag="PRE" in="-5:time" out="1:nobj">dopo</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">20</W>
+<W lemma="minuto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">minuti</W>
+<W lemma="scarso" msd="AN" tag="ADJ" in="-1:attr" out="">scarsi</W>
+<W lemma="." msd="XP" tag="SENT" in="-23:pnct" out="">.</W>
+</s>
+</p>
