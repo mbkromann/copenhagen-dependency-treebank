@@ -1,143 +1,127 @@
-[*] en/0134-en-lotte.tag
-[*] en/0531-en-lotte.tag
-[*] en/1252-en-lotte.tag
-[*] en/0086-en-lotte.tag
-[*] en/0138-en-lotte.tag
-[*] en/0593-en-lotte.tag
-[*] en/1347-en-lotte.tag
-[*] en/0090-en-lotte.tag
-[*] en/0140-en-lotte.tag
-[*] en/0781-en-lotte.tag
-[*] en/1383-en-lotte.tag
-[*] en/0091-en-lotte.tag
-[*] en/0141-en-lotte.tag
-[*] en/1428-en-lotte.tag
-
-
 [*] da/0152-da-lotte.tag
 [*] en/0152-en-lotte.tag
 [*] es/0152-es-lotte.tag
 [*] da/0212-da-lotte.tag
 [*] en/0212-en-lotte.tag
 [*] es/0212-es-soren.tag
-[*] da/0235-da.tag
-[*] en/0235-en.tag
+[*] da/0235-da-lotte.tag
+[*] en/0235-en-lotte.tag
 [*] es/0235-es-lotte.tag
 [*] da/0260-da-lotte.tag
-[*] en/0260-en.tag
+[*] en/0260-en-lotte.tag
 [*] es/0260-es-soren.tag
 [*] da/0339-da-lotte.tag
-[*] en/0339-en.tag
+[*] en/0339-en-lotte.tag
 [*] es/0339-es-lotte.tag
-[*] da/0351-da.tag
-[*] en/0351-en-auto.tag
+[*] da/0351-da-lotte.tag
+[*] en/0351-en-lotte.tag
 [*] es/0351-es-soren.tag
-[*] da/0376-da.tag
-[*] en/0376-en.tag
+[*] da/0376-da-lotte.tag
+[*] en/0376-en-lotte.tag
 [*] es/0376-es-jonas.tag
-[*] da/0426-da.tag
-[*] en/0426-en.tag
+[*] da/0426-da-lotte.tag
+[*] en/0426-en-lotte.tag
 [*] es/0426-es-soren.tag
-[*] da/0428-da.tag
+[*] da/0428-da-lotte.tag
 [*] es/0428-es-jonas.tag
-[*] en/0428-en.tag
-[ ] da/0596-da.tag
-[ ] en/0596-en-auto.tag
-[ ] es/0596-es-soren.tag
-[ ] da/0607-da.tag
-[ ] en/0607-en.tag
+[*] en/0428-en-lotte.tag
+[*] da/0596-da-lotte.tag
+[*] en/0596-en-lotte.tag
+[*] es/0596-es-soren.tag
+[*] da/0607-da-lotte.tag
+[*] en/0607-en-lotte.tag
 [ ] es/0607-es-lotte.tag
-[ ] da/0643-da.tag
-[ ] en/0643-en.tag
+[ ] da/0643-da-lotte.tag
+[ ] en/0643-en-lotte.tag
 [ ] es/0643-es-jonas.tag
-[ ] en/0647-en.tag
-[ ] da/0647-da.tag
+[ ] en/0647-en-lotte.tag
+[ ] da/0647-da-lotte.tag
 [ ] es/0647-es-lotte.tag
-[ ] da/0685-da.tag
-[ ] en/0685-en.tag
+[ ] da/0685-da-lotte.tag
+[ ] en/0685-en-lotte.tag
 [ ] es/0685-es-soren.tag
-[ ] da/0705-da.tag
-[ ] en/0705-en.tag
+[ ] da/0705-da-lotte.tag
+[ ] en/0705-en-lotte.tag
 [ ] es/0705-es-lotte.tag
-[ ] da/0729-da.tag
-[ ] en/0729-en.tag
+[ ] da/0729-da-lotte.tag
+[ ] en/0729-en-lotte.tag
 [ ] es/0729-es-lotte.tag
-[ ] da/0780-da.tag
-[ ] en/0780-en.tag
+[ ] da/0780-da-lotte.tag
+[ ] en/0780-en-lotte.tag
 [ ] es/0780-es-soren.tag
-[ ] da/0783-da.tag
-[ ] en/0783-en.tag
+[ ] da/0783-da-lotte.tag
+[ ] en/0783-en-lotte.tag
 [ ] es/0783-es-lotte.tag
-[ ] da/0800-da.tag
-[ ] en/0800-en.tag
+[ ] da/0800-da-lotte.tag
+[ ] en/0800-en-lotte.tag
 [ ] es/0800-es-soren.tag
-[ ] da/0805-da.tag
-[ ] en/0805-en.tag
+[ ] da/0805-da-lotte.tag
+[ ] en/0805-en-lotte.tag
 [ ] es/0805-es-lotte.tag
-[ ] da/0848-da.tag
-[ ] en/0848-en-auto.tag
+[ ] da/0848-da-lotte.tag
+[ ] en/0848-en-lotte.tag
 [ ] es/0848-es-lotte.tag
-[ ] da/0866-da.tag
-[ ] en/0866-en.tag
+[ ] da/0866-da-lotte.tag
+[ ] en/0866-en-lotte.tag
 [ ] es/0866-es-jonas.tag
-[ ] da/0876-da.tag
-[ ] en/0876-en.tag
+[ ] da/0876-da-lotte.tag
+[ ] en/0876-en-lotte.tag
 [ ] es/0876-es-lotte.tag
-[ ] da/0881-da.tag
-[ ] en/0881-en.tag
+[ ] da/0881-da-lotte.tag
+[ ] en/0881-en-lotte.tag
 [ ] es/0881-es-lotte.tag
-[ ] da/0915-da.tag
-[ ] en/0915-en.tag
+[ ] da/0915-da-lotte.tag
+[ ] en/0915-en-lotte.tag
 [ ] es/0915-es-soren.tag
-[ ] da/0939-da.tag
-[ ] en/0939-en.tag
+[ ] da/0939-da-lotte.tag
+[ ] en/0939-en-lotte.tag
 [ ] es/0939-es-lotte.tag
-[ ] da/0960-da.tag
-[ ] en/0960-en.tag
+[ ] da/0960-da-lotte.tag
+[ ] en/0960-en-lotte.tag
 [ ] es/0960-es-soren.tag
-[ ] da/0998-da.tag
-[ ] en/0998-en.tag
+[ ] da/0998-da-lotte.tag
+[ ] en/0998-en-lotte.tag
 [ ] es/0998-es-jonas.tag
-[ ] da/1043-da.tag
-[ ] en/1043-en.tag
+[ ] da/1043-da-lotte.tag
+[ ] en/1043-en-lotte.tag
 [ ] es/1043-es-lotte.tag
-[ ] da/1054-da.tag
-[ ] en/1054-en.tag
+[ ] da/1054-da-lotte.tag
+[ ] en/1054-en-lotte.tag
 [ ] es/1054-es-soren.tag
-[ ] da/1057-da.tag
-[ ] en/1057-en-auto.tag
+[ ] da/1057-da-lotte.tag
+[ ] en/1057-en-lotte.tag
 [ ] es/1057-es-jonas.tag
-[*] da/1077-da.tag
+[*] da/1077-da-lotte.tag
 [*] en/1077-en-lotte.tag
 [*] es/1077-es-lotte.tag
-[ ] da/1090-da.tag
-[ ] en/1090-en.tag
+[ ] da/1090-da-lotte.tag
+[ ] en/1090-en-lotte.tag
 [ ] es/1090-es-lotte.tag
-[ ] da/1127-da.tag
-[ ] en/1127-en.tag
+[ ] da/1127-da-lotte.tag
+[ ] en/1127-en-lotte.tag
 [ ] es/1127-es-soren.tag
-[ ] da/1144-da.tag
-[ ] en/1144-en.tag
+[ ] da/1144-da-lotte.tag
+[ ] en/1144-en-lotte.tag
 [ ] es/1144-es-jonas.tag
-[ ] da/1227-da.tag
-[ ] en/1227-en.tag
+[ ] da/1227-da-lotte.tag
+[ ] en/1227-en-lotte.tag
 [ ] es/1227-es-lotte.tag
-[ ] da/1250-da.tag
-[ ] en/1250-en.tag
+[ ] da/1250-da-lotte.tag
+[ ] en/1250-en-lotte.tag
 [ ] es/1250-es-jonas.tag
-[ ] da/1337-da.tag
+[ ] da/1337-da-lotte.tag
 [ ] en/1337-en-auto.tag
 [ ] es/1337-es-lotte.tag
-[ ] da/1398-da.tag
-[ ] en/1398-en.tag
+[ ] da/1398-da-lotte.tag
+[ ] en/1398-en-lotte.tag
 [ ] es/1398-es-soren.tag
-[*] en/1420-en.tag
-[*] da/1420-da.tag
+[*] en/1420-en-lotte.tag
+[*] da/1420-da-lotte.tag
 [ ] es/1420-es-lotte.tag
-[ ] da/1497-da.tag
-[ ] en/1497-en-auto.tag
+[ ] da/1497-da-lotte.tag
+[ ] en/1497-en-lotte.tag
 [*] es/1497-es-jonas.tag
-[ ] da/1536-da.tag
+[ ] da/1536-da-lotte.tag
 [ ] en/1536-en-lotte.tag
 [ ] es/1536-es-lotte.tag
 
@@ -286,6 +270,22 @@ Tekster fra korpus 1 & 2 (der her er syntaks-, diskurs- og anaforannoterede er k
 [*] en/1241-en-lotte.tag
 [*] da/0065-da-lotte.tag
 [*] en/1536-en-lotte.tag
+
+Diskurs- og anaforannoterede:
+[*] en/0134-en-lotte.tag
+[*] en/0531-en-lotte.tag
+[*] en/1252-en-lotte.tag
+[*] en/0086-en-lotte.tag
+[*] en/0138-en-lotte.tag
+[*] en/0593-en-lotte.tag
+[*] en/1347-en-lotte.tag
+[*] en/0090-en-lotte.tag
+[*] en/0140-en-lotte.tag
+[*] en/0781-en-lotte.tag
+[*] en/1383-en-lotte.tag
+[*] en/0091-en-lotte.tag
+[*] en/0141-en-lotte.tag
+[*] en/1428-en-lotte.tag
 
 10 Tekster til diskursannotation/agreement
 [*] da/0327-da-disc-lotte.tag
