@@ -13,8 +13,8 @@ my $dtag = <DTAG>;
 chomp $dtag;
 close(DTAG);
 
-$sessionID = 0;
-$language = "it";
+# $sessionID = 0;
+# $language = "it";
 
 
 my $dtagCommand = "$dtag -e '";

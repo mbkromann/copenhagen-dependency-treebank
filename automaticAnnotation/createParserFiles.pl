@@ -8,8 +8,8 @@ my $sessionID = $ARGV[0];
 my $language = $ARGV[1];
 
 
-$sessionID = 0;
-$language = "it";
+# $sessionID = 0;
+# $language = "it";
 
 open (TRAIN, ">$sessionID-$language.train.conll");
 open (FILES, "$sessionID-$language.trainingFiles.lst");

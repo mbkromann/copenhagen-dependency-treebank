@@ -8,10 +8,10 @@ my $sessionID = $ARGV[0];
 my $language = $ARGV[1];
 
 
-$sessionID = 0;
-$language = "it";
+# $sessionID = 0;
+# $language = "it";
 
-open (PARSE, "$sessionID-$language.out.conll");
+open (PARSE, "$sessionID-$language.out.conll.pruned");
 open (FILES, "$sessionID-$language.toParseFiles.lst");
 
 while (my $line = <FILES>) {

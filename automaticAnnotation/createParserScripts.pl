@@ -14,8 +14,8 @@ my $mstDecodeType= "non-proj";
 
 
 
-$sessionID = 0;
-$language = "it";
+# $sessionID = 0;
+# $language = "it";
 
 my $trainFile = "$sessionID-$language.train.conll";
 
@@ -45,6 +45,19 @@ print TRAINSCRIPT "java -classpath \"$mstLocation:$mstLocation/lib/trove.jar\" -
 close(TRAINSCRIPT);
 
 
-system("chmod u+x $sessionID-$language.train.sh");
-system("chmod u+x $sessionID-$language.parse.sh");
+open(TRAINSCRIPT, ">R$sessionID-$language.parse-trainingdata.sh");
+
+print TRAINSCRIPT "#!/bin/bash\n\n";
+
+# If script is run with sge this is needed
+print TRAINSCRIPT "#\$ -S /bin/bash\n\n";
+
+print TRAINSCRIPT "java -classpath \"$mstLocation:$mstLocation/lib/trove.jar\" -Xmx$heapSize mstparser.DependencyParser test test-file:$trainFile order:$mstOrder decode-type:$mstDecodeType model-name:$sessionID-$language.model output-file:$sessionID-$language.training.out.conll 2> $sessionID-$language.parse.err > $sessionID-$language.parse.out\n";
+
+close(TRAINSCRIPT);
+
+
+system("chmod u+x R$sessionID-$language.train.sh");
+system("chmod u+x R$sessionID-$language.parse.sh");
+system("chmod u+x R$sessionID-$language.parse-trainingdata.sh");
 

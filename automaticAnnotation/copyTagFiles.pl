@@ -8,8 +8,8 @@ my $sessionID = $ARGV[0];
 my $language = $ARGV[1];
 
 
-$sessionID = 0;
-$language = "it";
+# $sessionID = 0;
+# $language = "it";
 
 
 open (FILES, "$sessionID-$language.toParseFiles.lst");
@@ -26,8 +26,8 @@ while (my $line = <FILES>) {
     my $tag = "$sessionID-$language.$1";
 
     $line =~ s/tagged/auto/;    
-    print("cp $tag $line");
-    print("\n");
+    system("cp $tag $line");
+
     
 
 

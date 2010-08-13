@@ -31,20 +31,20 @@ while ((my $res = getNextSen($conllFile, \@conllSentence)) == 1) {
 
 
     for my $s (@conllSentence) {
-
-
+	
+	
 	my $in = "";
-
+	
 	# Get tag-line number
 	my @tokens = split("\t", $s);
 	my $featToken = $tokens[5];
-
+	
 	$featToken =~ /.*line=(\d+).*/;
 	my $ln = $1;
-
+	
 	# Get corresponding tag-line
 	my $tagLine = $tagLines[$ln];
-
+	
 	# Split tag-line into before, after and inside 'in="   "'
 #	print "$tagLine\n";
 	$tagLine =~ /(.*)in=\".*?\"(.*)/;
@@ -52,31 +52,33 @@ while ((my $res = getNextSen($conllFile, \@conllSentence)) == 1) {
 	my $after = $2;
 #	print "\t$before\n";
 #	print "\t$after\n";
-
+	
 	# Get tag-line number of head
 	my $head = $tokens[6];
 	if ($head != 0) {
-	my $headLine = $conllSentence[$head-1];
-	
-	my @headTokens = split("\t", $headLine);
-	my $headFeatToken = $headTokens[5];
-	$headFeatToken =~ /.*line=(\d+).*/;
-	my $headLn = $1;
-
-	# Relative posistion
-	my $relPos = $headLn - $ln;
-
-	# deprel
-	my $delRel = $tokens[7];
-
-	# Create new tagline
-	$in = "$relPos:$delRel";
+	    my $headLine = $conllSentence[$head-1];
+	    
+	    my @headTokens = split("\t", $headLine);
+	    my $headFeatToken = $headTokens[5];
+	    $headFeatToken =~ /.*line=(\d+).*/;
+	    my $headLn = $1;
+	    
+	    # Relative posistion
+	    my $relPos = $headLn - $ln;
+	    
+	    # deprel
+	    my $delRel = $tokens[7];
+	    
+	    # Create new tagline
+	    if (!($depRel eq "<PRUNED>")) {
+		$in = "$relPos:$delRel";
+	    }
 	}
 	my $newLine = $before."in=\"$in\"".$after;
-
+	
 	# Update line
 	$tagLines[$ln] = $newLine;
-
+	
 
     }
     @conllSentence = ();

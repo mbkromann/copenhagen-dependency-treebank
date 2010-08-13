@@ -9,8 +9,8 @@ use strict;
 my $sessionID = $ARGV[0];
 my $language = $ARGV[1];
 
-$sessionID = 0;
-$language = "it";
+# $sessionID = 0;
+# $language = "it";
 
 my @allFilesInfo = `svn pg syntax ../$language/*`;
 
