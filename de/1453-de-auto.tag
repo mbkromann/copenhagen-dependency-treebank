@@ -1,0 +1,217 @@
+<p>
+<s>
+<W lemma="aber" msd="CC" tag="KON" in="7:coord" out="">Aber</W>
+<W lemma="nicht" msd="RG" tag="PTKNEG" in="1:neg" out="">nicht</W>
+<W lemma="nur" msd="RG" tag="ADV" in="1:focal" out="-1:neg">nur</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="-1:focal|1:nobj">die</W>
+<W lemma="Eigentümer" msd="NC" tag="NN" in="-1:nobj" out="">Eigentümer</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj">der</W>
+<W lemma="Sonnenstudio" msd="NC" tag="NN" in="-1:nobj" out="">Sonnenstudios</W>
+<W lemma="fummeln" msd="VA" tag="VVFIN" in="" out="-7:coord|-4:subj|4:part|5:pnct">fummeln</W>
+<W lemma="an" msd="SP" tag="APPR" in="3:pobj" out="1:nobj">an</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
+<W lemma="Solarie" msd="NC" tag="NN" in="-1:nobj" out="">Solarien</W>
+<W lemma="herum" msd="RG" tag="PTKVZ" in="-4:part" out="-3:pobj">herum</W>
+<W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="Lieferant" msd="NC" tag="NN" in="1:dobj" out="">Lieferanten</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-2:pnct|-1:dobj|1:subj|4:vobj|5:pnct|6:dobj|21:pnct">haben</W>
+<W lemma="wir" msd="PP" tag="PPER" in="-1:subj" out="">wir</W>
+<W lemma="häufig" msd="AN" tag="ADJD" in="1:aobj" out="">häufig</W>
+<W lemma="einschärfen" msd="VAF" tag="VVINF" in="1:vobj" out="-1:aobj">einschärfen</W>
+<W lemma="müssen" msd="VAF" tag="VMINF" in="-4:vobj" out="-1:vobj">müssen</W>
+<W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="-6:dobj" out="14:vobj">dass</W>
+<W lemma="," msd="XP" tag="$," in="13:pnct" out="">,</W>
+<W lemma="wenn" msd="CS" tag="KOUS" in="12:time" out="7:vobj">wenn</W>
+<W lemma="wir" msd="PP" tag="PPER" in="6:subj" out="">wir</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="5:subj" out="1:nobj">ein</W>
+<W lemma="Gerät" msd="NC" tag="NN" in="-1:nobj" out="">Gerät</W>
+<W lemma="mit" msd="SP" tag="APPR" in="2:inst" out="1:nobj">mit</W>
+<W lemma="Filter" msd="NC" tag="NN" in="-1:nobj" out="">Filter</W>
+<W lemma="zulassen" msd="VAP" tag="VVPP" in="1:vobj" out="-2:inst">zugelassen</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="-7:vobj" out="-6:subj|-5:subj|-1:vobj">haben</W>
+<W lemma="," msd="XP" tag="$," in="4:pnct" out="">,</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="3:subj" out="1:nobj">der</W>
+<W lemma="Filter" msd="NC" tag="NN" in="-1:nobj" out="">Filter</W>
+<W lemma="beibehalten" msd="VAF" tag="VVIZU" in="1:vobj" out="">beizubehalten</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-14:vobj" out="-13:pnct|-12:time|-4:pnct|-3:subj|-1:vobj">ist</W>
+<W lemma="." msd="XP" tag="$." in="-21:pnct" out="">.</W>
+<W lemma="wir" msd="PP" tag="PPER" in="1:subj" out="">Wir</W>
+<W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-1:subj|1:robj|2:eval|8:vobj|9:pnct">müssen</W>
+<W lemma="wir" msd="PP" tag="PPER" in="-1:robj" out="">uns</W>
+<W lemma="viel" msd="RG" tag="ADV" in="-2:eval" out="">viel</W>
+<W lemma="zu" msd="RG" tag="PTKA" in="1:quant" out="">zu</W>
+<W lemma="häufig" msd="AN" tag="ADJD" in="4:man" out="-1:quant">häufig</W>
+<W lemma="mit" msd="SP" tag="APPR" in="3:pobj" out="2:nobj">mit</W>
+<W lemma="derartig" msd="AN" tag="ADJA" in="1:attr" out="">derartigen</W>
+<W lemma="Ding&7c;Dingen" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Dingen</W>
+<W lemma="beschäftigen" msd="VAF" tag="VVINF" in="-8:vobj" out="-4:man|-3:pobj">beschäftigen</W>
+<W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="bestimmen" msd="VAM" tag="VVIMP" in="11:cond" out="1:preds|2:pnct|9:vobj">Bestimmt</W>
+<W lemma="Sonnenstudio" msd="NC" tag="NN" in="-1:preds" out="">Sonnenstudios</W>
+<W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="d" msd="PT" tag="PRELS" in="-1:nobj" out="">denen</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="1:nobj">die</W>
+<W lemma="Sicherheit" msd="NC" tag="NN" in="-1:nobj" out="">Sicherheit</W>
+<W lemma="nicht" msd="RG" tag="PTKNEG" in="2:neg" out="">nicht</W>
+<W lemma="geben" msd="VAP" tag="VVPP" in="1:vobj" out="">gegeben</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-9:vobj" out="-4:subj|-2:neg|-1:vobj|1:pnct">ist</W>
+<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="suchen" msd="VA" tag="VVFIN" in="" out="-11:cond|1:subj|2:time|3:time|4:part|5:pnct">suchen</W>
+<W lemma="wir" msd="PP" tag="PPER" in="-1:subj" out="">wir</W>
+<W lemma="immer" msd="RG" tag="ADV" in="-2:time" out="">immer</W>
+<W lemma="wieder" msd="RG" tag="ADV" in="-3:time" out="">wieder</W>
+<W lemma="auf" msd="RG" tag="PTKVZ" in="-4:part" out="">auf</W>
+<W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
+<W lemma="wir" msd="PP" tag="PPER" in="1:subj" out="">Wir</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|1:time|3:vobj|13:pnct">haben</W>
+<W lemma="schon" msd="RG" tag="ADV" in="-1:time" out="">schon</W>
+<W lemma="Sonnenstudio" msd="NC" tag="NN" in="1:dobj" out="10:relr">Sonnenstudios</W>
+<W lemma="erleben" msd="VA" tag="VVFIN" in="-3:vobj" out="-1:dobj|1:pnct">erlebt</W>
+<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="d" msd="PT" tag="PRELS" in="-1:nobj" out="">denen</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="5:subj" out="1:nobj">die</W>
+<W lemma="Gefahr" msd="NC" tag="NN" in="-1:nobj" out="">Gefahr</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="" out="1:attr|2:nobj">eines</W>
+<W lemma="elektrisch" msd="AN" tag="ADJA" in="-1:attr" out="">elektrischen</W>
+<W lemma="Schlag" msd="NC" tag="NN" in="-2:nobj" out="">Schlags</W>
+<W lemma="bestehen" msd="VA" tag="VVFIN" in="-10:relr" out="-5:subj">bestand</W>
+<W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
+<W lemma="wir" msd="PP" tag="PPER" in="1:subj" out="">Wir</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|1:vobj|2:pnct|3:dobj|11:pnct">haben</W>
+<W lemma="erleben" msd="VAP" tag="VVPP" in="-1:vobj" out="">erlebt</W>
+<W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="-3:dobj" out="7:vobj">dass</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="6:subj" out="1:attr|2:nobj">der</W>
+<W lemma="ober" msd="AN" tag="ADJA" in="-1:attr" out="">obere</W>
+<W lemma="Teil" msd="NC" tag="NN" in="-2:nobj" out="">Teil</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj">des</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Solariums</W>
+<W lemma="brennen" msd="VAP" tag="VVPP" in="1:vobj" out="">gebrannt</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="-7:vobj" out="-6:subj|-1:vobj">hat</W>
+<W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
+<W lemma="und" msd="CC" tag="KON" in="2:coord" out="">Und</W>
+<W lemma="wir" msd="PP" tag="PPER" in="1:subj" out="">wir</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-2:coord|-1:subj|2:vobj|3:pnct|9:vobj|10:pnct">haben</W>
+<W lemma="Solarie" msd="NC" tag="NN" in="1:dobj" out="">Solarien</W>
+<W lemma="sehen" msd="VAP" tag="VVPP" in="-2:vobj" out="-1:dobj">gesehen</W>
+<W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
+<W lemma="in" msd="SP" tag="APPR" in="5:preds" out="1:nobj">in</W>
+<W lemma="d" msd="PT" tag="PRELS" in="-1:nobj" out="">denen</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="3:subj" out="1:nobj">die</W>
+<W lemma="Automatik" msd="NC" tag="NN" in="-1:nobj" out="">Automatik</W>
+<W lemma="defekt" msd="AN" tag="ADJD" in="1:preds" out="">defekt</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-9:vobj" out="-5:preds|-3:subj|-1:preds">war</W>
+<W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
+<W lemma="in" msd="SP" tag="APPR" in="14:qobj" out="1:nobj">In</W>
+<W lemma="d" msd="PP" tag="PDS" in="-1:nobj" out="10:relr">denen</W>
+<W lemma="beispielsweise" msd="AN" tag="ADJD" in="1:exem" out="">beispielsweise</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="8:subj" out="-1:exem|1:attr|2:nobj">der</W>
+<W lemma="ober" msd="AN" tag="ADJA" in="-1:attr" out="">obere</W>
+<W lemma="Teil" msd="NC" tag="NN" in="-2:nobj" out="">Teil</W>
+<W lemma="nicht" msd="RG" tag="PTKNEG" in="5:neg" out="">nicht</W>
+<W lemma="nach" msd="RG" tag="ADV" in="2:time" out="1:avobj">nach</W>
+<W lemma="oben" msd="RG" tag="ADV" in="-1:avobj" out="">oben</W>
+<W lemma="ziehen" msd="VAP" tag="VVPP" in="1:vobj" out="-2:time">gezogen</W>
+<W lemma="werden" msd="VAF" tag="VAINF" in="1:vobj" out="-1:vobj">werden</W>
+<W lemma="können" msd="VA" tag="VMFIN" in="-10:relr" out="-8:subj|-5:neg|-1:vobj|1:pnct|2:pnct">konnte</W>
+<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="&amp;quot;" msd="XP" tag="$(" in="-2:pnct" out="">"</W>
+<W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-14:qobj|2:subj|4:pnct">sagt</W>
+<W lemma="Finn" msd="NP" tag="NE" in="1:namef" out="">Finn</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:subj" out="-1:namef">Rønlov</W>
+<W lemma="Andersen" msd="NP" tag="NE" in="" out="">Andersen</W>
+<W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="Signe" msd="NP" tag="NE" in="1:namef" out="">Signe</W>
+<W lemma="Sylvest" msd="NP" tag="NE" in="10:qobj" out="-1:namef|1:pnct|8:relpa">Sylvest</W>
+<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="d" msd="PT" tag="PRELS" in="6:subj" out="">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="5:dobj" out="2:nobj">das</W>
+<W lemma="Rivera" msd="NP" tag="NE" in="1:namef" out="">Rivera</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="-1:namef|1:attr">Solcenter</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">in</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">Århus</W>
+<W lemma="betreiben" msd="VA" tag="VVFIN" in="-8:relpa" out="-6:subj|-5:dobj|1:pnct">betreibt</W>
+<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="nennen" msd="VA" tag="VVFIN" in="" out="-10:qobj|1:subj|2:pnct|3:cond|15:pnct">nennt</W>
+<W lemma="Dänemark" msd="NP" tag="NE" in="-1:subj" out="">Dänemark</W>
+<W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
+<W lemma="wenn" msd="CS" tag="KOUS" in="-3:cond" out="8:vobj">wenn</W>
+<W lemma="es" msd="PP" tag="PPER" in="7:subj" out="">es</W>
+<W lemma="um" msd="SP" tag="APPR" in="6:pobj" out="1:nobj">um</W>
+<W lemma="Regel&7c;Regeln" msd="NC" tag="NN" in="-1:nobj" out="2:conj|7:conj">Regeln</W>
+<W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
+<W lemma="Aufsicht" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Aufsicht</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj">der</W>
+<W lemma="Sonnenstudio" msd="NC" tag="NN" in="-1:nobj" out="">Sonnenstudios</W>
+<W lemma="gehen" msd="VA" tag="VVFIN" in="-8:vobj" out="-7:subj|-6:pobj|1:pnct">geht</W>
+<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-7:conj" out="1:nobj">eine</W>
+<W lemma="Bananenrepublik" msd="NC" tag="NN" in="-1:nobj" out="">Bananenrepublik</W>
+<W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="es" msd="PP" tag="PPER" in="1:expl" out="">Es</W>
+<W lemma="sollen" msd="VA" tag="VMFIN" in="" out="-2:pnct|-1:expl|11:vobj|12:pnct">sollte</W>
+<W lemma="Mindestanforderung" msd="NC" tag="NN" in="10:dobj" out="1:pobj">Mindestanforderungen</W>
+<W lemma="für" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">für</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>
+<W lemma="Einrichtung" msd="NC" tag="NN" in="-1:nobj" out="">Einrichtung</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="" out="1:nobj">eines</W>
+<W lemma="Sonnenstudio" msd="NC" tag="NN" in="-1:nobj" out="4:conj">Sonnenstudios</W>
+<W lemma="und" msd="CC" tag="KON" in="3:coord" out="">und</W>
+<W lemma="anschließend" msd="AN" tag="ADJD" in="2:attr" out="">anschließend</W>
+<W lemma="regelmäßig" msd="AN" tag="ADJA" in="1:attr" out="">regelmäßige</W>
+<W lemma="Kontrolle" msd="NC" tag="NN" in="-4:conj" out="-3:coord|-2:attr|-1:attr">Kontrollen</W>
+<W lemma="geben" msd="VAF" tag="VVINF" in="-11:vobj" out="-10:dobj">geben</W>
+<W lemma="." msd="XP" tag="$." in="-12:pnct" out="">.</W>
+<W lemma="so" msd="RG" tag="ADV" in="5:preds" out="1:pnct">So</W>
+<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="wie" msd="CS" tag="KOUS" in="3:dobj" out="">wie</W>
+<W lemma="es" msd="PP" tag="PPER" in="2:subj" out="">es</W>
+<W lemma="heute" msd="RG" tag="ADV" in="1:time" out="">heute</W>
+<W lemma="aussehen" msd="VA" tag="VVFIN" in="2:qobj" out="-5:preds|-3:dobj|-2:subj|-1:time|1:pnct">aussieht</W>
+<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="können" msd="VA" tag="VMFIN" in="" out="-2:qobj|1:subj|4:vobj|5:pnct">können</W>
+<W lemma="alle" msd="PP" tag="PIS" in="-1:subj" out="">alle</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj">ein</W>
+<W lemma="Studio" msd="NC" tag="NN" in="-1:nobj" out="">Studio</W>
+<W lemma="aufmachen" msd="VAF" tag="VVINF" in="-4:vobj" out="-2:dobj">aufmachen</W>
+<W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
+<W lemma="ich" msd="PP" tag="PPER" in="1:subj" out="">Ich</W>
+<W lemma="wissen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:pobj|15:pnct">weiß</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">von</W>
+<W lemma="Beispiel" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Beispielen</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">von</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="2:conj|3:pnct|10:relr">Grillbars</W>
+<W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
+<W lemma="Blumengeschäft" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Blumengeschäften</W>
+<W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
+<W lemma="d" msd="PT" tag="PRELS" in="6:subj" out="">die</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="5:subj" out="1:nobj">ein</W>
+<W lemma="paar" msd="PI" tag="PIDAT" in="-1:nobj" out="1:nobj">paar</W>
+<W lemma="Sonnenbank" msd="NC" tag="NN" in="-1:nobj" out="">Sonnenbänke</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="2:time" out="1:nobj">im</W>
+<W lemma="Hinterzimmer" msd="NC" tag="NN" in="-1:nobj" out="">Hinterzimmer</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="-10:relr" out="-6:subj|-5:subj|-2:time">haben</W>
+<W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
+</s>
+</p>

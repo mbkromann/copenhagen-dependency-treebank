@@ -1,0 +1,179 @@
+<p>
+<s>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj|2:pnct|16:relr">Die</W>
+<W lemma="Zeit" msd="NC" tag="NN" in="-1:nobj" out="">Zeit</W>
+<W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="d" msd="PT" tag="PRELS" in="-1:nobj" out="">der</W>
+<W lemma="er" msd="PP" tag="PPER" in="11:subj" out="">er</W>
+<W lemma="nach" msd="SP" tag="APPR" in="10:time" out="2:nobj">nach</W>
+<W lemma="eigen" msd="AN" tag="ADJA" in="1:attr" out="">eigenen</W>
+<W lemma="Aussage" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Aussagen</W>
+<W lemma="mehr" msd="RG" tag="ADV" in="7:dobj" out="1:pobj">mehr</W>
+<W lemma="als" msd="CS" tag="KOKOM" in="-1:pobj" out="1:nobj">als</W>
+<W lemma="fünf" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj|6:pnct">fünf</W>
+<W lemma="Flasche" msd="NC" tag="NN" in="-1:nobj" out="1:nobj">Flaschen</W>
+<W lemma="Whisky" msd="NC" tag="NN" in="-1:nobj" out="1:attr">Whisky</W>
+<W lemma="pro" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">pro</W>
+<W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="">Tag</W>
+<W lemma="trinken" msd="VA" tag="VVFIN" in="-16:relr" out="-11:subj|-10:time|-7:dobj">trank</W>
+<W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="11:subj" out="1:nobj|2:pnct">Die</W>
+<W lemma="Zeit" msd="NC" tag="NN" in="-1:nobj" out="">Zeiten</W>
+<W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="d" msd="PT" tag="PRELS" in="-1:nobj" out="">denen</W>
+<W lemma="er" msd="PP" tag="PPER" in="6:subj" out="1:conj|7:pnct">er</W>
+<W lemma="regelmäßig" msd="AN" tag="ADJD" in="-1:conj" out="">regelmäßig</W>
+<W lemma="von" msd="SP" tag="APPR" in="3:agent" out="1:nobj">von</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
+<W lemma="Polizei" msd="NC" tag="NN" in="-1:nobj" out="">Polizei</W>
+<W lemma="verhaften" msd="VAP" tag="VVPP" in="1:vobj" out="-3:agent">verhaftet</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-11:subj|-6:subj|-1:vobj">wurde</W>
+<W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
+<W lemma="alleine" msd="RG" tag="ADV" in="1:quant" out="">Alleine</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="" out="-1:quant|1:pnct|2:cause">40mal</W>
+<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="weil" msd="CS" tag="KOUS" in="-2:cause" out="5:vobj">weil</W>
+<W lemma="er" msd="PP" tag="PPER" in="4:subj" out="">er</W>
+<W lemma="ohne" msd="SP" tag="APPR" in="2:man" out="1:nobj">ohne</W>
+<W lemma="Führerschein" msd="NC" tag="NN" in="-1:nobj" out="">Führerschein</W>
+<W lemma="fahren" msd="VAP" tag="VVPP" in="1:vobj" out="-2:man">gefahren</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|-1:vobj|1:pnct|2:conc|16:pnct">ist</W>
+<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="obwohl" msd="CS" tag="KOUS" in="-2:conc" out="13:vobj">obwohl</W>
+<W lemma="er" msd="PP" tag="PPER" in="12:subj" out="">er</W>
+<W lemma="wegen" msd="SP" tag="APPR" in="9:pobj" out="1:nobj">wegen</W>
+<W lemma="Trunkenheit" msd="NC" tag="NN" in="-1:nobj" out="">Trunkenheit</W>
+<W lemma="am" msd="SP+P" tag="APPRART" in="7:time" out="1:nobj">am</W>
+<W lemma="Steuer" msd="NC" tag="NN" in="-1:nobj" out="">Steuer</W>
+<W lemma="zu" msd="SP" tag="APPR" in="5:pobj" out="1:nobj">zu</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">einem</W>
+<W lemma="Fahrverbot" msd="NC" tag="NN" in="-1:nobj" out="">Fahrverbot</W>
+<W lemma="bis" msd="SP" tag="APPR" in="2:time" out="1:nobj">bis</W>
+<W lemma="1999" msd="AC" tag="CARD" in="-1:nobj" out="">1999</W>
+<W lemma="verurteilen" msd="VAP" tag="VVPP" in="1:vobj" out="-9:pobj|-7:time|-5:pobj|-2:time">verurteilt</W>
+<W lemma="werden" msd="VAP" tag="VAPP" in="1:vobj" out="-1:vobj">worden</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-13:vobj" out="-12:subj|-1:vobj">war</W>
+<W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
+<W lemma="aber" msd="CC" tag="KON" in="3:coord" out="">Aber</W>
+<W lemma="auch" msd="RG" tag="ADV" in="1:add" out="">auch</W>
+<W lemma="damals" msd="RG" tag="ADV" in="1:time" out="-1:add">damals</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-3:coord|-1:time|1:subj|6:vobj|7:pnct|8:cause|22:pnct">wurde</W>
+<W lemma="er" msd="PP" tag="PPER" in="-1:subj" out="">er</W>
+<W lemma="zu" msd="SP" tag="APPR" in="4:pobj" out="1:nobj">zu</W>
+<W lemma="sechs" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">sechs</W>
+<W lemma="Monat" msd="NC" tag="NN" in="-1:nobj" out="1:nobj">Monaten</W>
+<W lemma="Haft" msd="NC" tag="NN" in="-1:nobj" out="">Haft</W>
+<W lemma="verurteilen" msd="VAP" tag="VVPP" in="-6:vobj" out="-4:pobj">verurteilt</W>
+<W lemma="," msd="XP" tag="$," in="-7:pnct" out="">,</W>
+<W lemma="weil" msd="CS" tag="KOUS" in="-8:cause" out="13:vobj">weil</W>
+<W lemma="er" msd="PP" tag="PPER" in="12:subj" out="1:conj">er</W>
+<W lemma="zwei" msd="AC" tag="CARD" in="-1:conj" out="1:nobj">zwei</W>
+<W lemma="Bedienstete" msd="NC" tag="NN" in="-1:nobj" out="">Bedienstete</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">einer</W>
+<W lemma="Villenstraße" msd="NC" tag="NN" in="-1:nobj" out="">Villenstraße</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">Næstved</W>
+<W lemma="mit" msd="SP" tag="APPR" in="3:man" out="1:nobj">mit</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">einem</W>
+<W lemma="Gewehrlauf" msd="NC" tag="NN" in="-1:nobj" out="">Gewehrlauf</W>
+<W lemma="bedrohen" msd="VAP" tag="VVPP" in="1:vobj" out="-3:man">bedroht</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="-13:vobj" out="-12:subj|-1:vobj">hatte</W>
+<W lemma="." msd="XP" tag="$." in="-22:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="ein" msd="P[ID]" tag="ART" in="" out="1:nobj|2:pnct|8:relr">Ein</W>
+<W lemma="Urteil" msd="NC" tag="NN" in="-1:nobj" out="">Urteil</W>
+<W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
+<W lemma="d" msd="PT" tag="PRELS" in="5:subj" out="">das</W>
+<W lemma="er" msd="PP" tag="PPER" in="4:subj" out="">er</W>
+<W lemma="jedoch" msd="RG" tag="ADV" in="3:eval" out="">jedoch</W>
+<W lemma="nie" msd="RG" tag="ADV" in="1:pobj" out="">nie</W>
+<W lemma="absitzen" msd="VAP" tag="VVPP" in="1:vobj" out="-1:pobj">abgesessen</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="-8:relr" out="-5:subj|-4:subj|-3:eval|-1:vobj|1:pnct">hat</W>
+<W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
+<W lemma="zuvor" msd="RG" tag="ADV" in="1:time" out="">Zuvor</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:time|1:subj|3:dobj|4:@dir|8:neg|10:vobj|11:pnct">hatte</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">das</W>
+<W lemma="Justizministerien" msd="NC" tag="NN" in="-1:nobj" out="">Justizministerium</W>
+<W lemma="er" msd="PP" tag="PPER" in="-3:dobj" out="">ihn</W>
+<W lemma="aufgrund" msd="SP" tag="APPR" in="-4:@dir" out="1:nobj">aufgrund</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">des</W>
+<W lemma="Verfolgungswahn" msd="NC" tag="NN" in="-1:nobj" out="">Verfolgungswahns</W>
+<W lemma="für" msd="SP" tag="APPR" in="3:goal" out="">für</W>
+<W lemma="nicht" msd="RG" tag="PTKNEG" in="-8:neg" out="">nicht</W>
+<W lemma="straffähig" msd="AN" tag="ADJD" in="1:man" out="">straffähig</W>
+<W lemma="erklären" msd="VAP" tag="VVPP" in="-10:vobj" out="-3:goal|-1:man">erklärt</W>
+<W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">In</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">den</W>
+<W lemma="letzt" msd="AN" tag="ADJA" in="-1:attr" out="">letzten</W>
+<W lemma="Jahr" msd="NC" tag="NN" in="-2:nobj" out="">Jahren</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="1:subj|2:conj|11:pnct">hat</W>
+<W lemma="er" msd="PP" tag="PPER" in="-1:subj" out="">er</W>
+<W lemma="zurückziehen" msd="VAP" tag="VVPP" in="-2:conj" out="8:vobj">zurückgezogen</W>
+<W lemma="in" msd="SP" tag="APPR" in="7:pobj" out="1:nobj">in</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|2:nobj">einer</W>
+<W lemma="4" msd="AC" tag="CARD" in="-1:nobj" out="">4</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="1:nobj">½-Zimmer</W>
+<W lemma="Wohnung" msd="NC" tag="NN" in="-1:nobj" out="1:attr">Wohnung</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">in</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Frederikberg</W>
+<W lemma="leben" msd="VAP" tag="VVPP" in="-8:vobj" out="-7:pobj">gelebt</W>
+<W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="5:subj" out="1:nobj">Der</W>
+<W lemma="Hof" msd="NC" tag="NN" in="-1:nobj" out="">Hof</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Fodbygård</W>
+<W lemma="bei" msd="SP" tag="APPR" in="" out="1:nobj">bei</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">Næstved</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-5:subj|1:preds|6:vobj|7:pnct">wurde</W>
+<W lemma="zwangsenteignet" msd="AN" tag="ADJD" in="-1:preds" out="">zwangsenteignet</W>
+<W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
+<W lemma="von" msd="SP" tag="APPR" in="3:agent" out="-1:coord|1:nobj">von</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
+<W lemma="Konkursverwalter" msd="NC" tag="NN" in="-1:nobj" out="">Konkursverwaltern</W>
+<W lemma="verkaufen" msd="VAP" tag="VVPP" in="-6:vobj" out="-3:agent">verkauft</W>
+<W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="heute" msd="RG" tag="ADV" in="1:time" out="">Heute</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:time|2:subj|10:vobj|11:pnct">ist</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:namef" out="">Bøje</W>
+<W lemma="Nielsen" msd="NP" tag="NE" in="-2:subj" out="-1:namef">Nielsen</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="2:nobj">in</W>
+<W lemma="zweit" msd="AN" tag="ADJA" in="1:attr" out="">zweiter</W>
+<W lemma="Ehe" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|1:pobj">Ehe</W>
+<W lemma="mit" msd="SP" tag="APPR" in="-1:pobj" out="3:nobj">mit</W>
+<W lemma="Hanne" msd="NP" tag="NE" in="2:namef" out="">Hanne</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:namel" out="">Taarup</W>
+<W lemma="Nielsen" msd="NP" tag="NE" in="-3:nobj" out="-2:namef|-1:namel">Nielsen</W>
+<W lemma="verheiraten" msd="VAP" tag="VVPP" in="-10:vobj" out="">verheiratet</W>
+<W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
+<W lemma="er" msd="PP" tag="PPER" in="1:subj" out="">Er</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|1:dobj|3:pnct|4:conj">hat</W>
+<W lemma="kein" msd="PI" tag="PIAT" in="-1:dobj" out="1:nobj">keine</W>
+<W lemma="Arbeit" msd="NC" tag="NN" in="-1:nobj" out="">Arbeit</W>
+<W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
+<W lemma="erhalten" msd="VA" tag="VVFIN" in="-4:conj" out="1:eval|10:pnct">erhält</W>
+<W lemma="monatlich" msd="AN" tag="ADJD" in="-1:eval" out="2:attr">monatlich</W>
+<W lemma="jedoch" msd="RG" tag="ADV" in="1:quant" out="">jedoch</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="-2:attr" out="-1:quant|1:nobj">20 000</W>
+<W lemma="Krone" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Kronen</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">von</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
+<W lemma="Gegner" msd="NC" tag="NN" in="-1:nobj" out="">Gegner</W>
+<W lemma="Axel" msd="NP" tag="NE" in="1:namef" out="">Axel</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="-1:namef">Juhl-Jørgensen</W>
+<W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
+</s>
+</p>
