@@ -12,7 +12,7 @@
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PD" tag="DT" in="4:subj|5:[subj]|11:[subj]|-13:assoc-telic" out="1:attr|3:nobj|19:coref-var">The</W>
+<W msd="PD" tag="DT" in="-13:assoc-telic|4:subj|5:[subj]|11:[subj]" out="1:attr|3:nobj|19:coref-var">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">division</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">players</W>
@@ -31,7 +31,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="5:time" out="1:pnct">yesterday</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="PD" tag="DT" in="3:subj|5:[subj]|-19:coref-var" out="2:nobj|25:coref|84:coref-var">the</W>
+<W msd="PD" tag="DT" in="-19:coref-var|3:subj|5:[subj]" out="2:nobj|25:coref|84:coref-var">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">football</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">players</W>
 <W msd="VADA" tag="VBD" in="-18:conj" out="-3:subj|-7:coord|-5:time|1:dobj">decided</W>
@@ -56,7 +56,7 @@
 <s>
 <W msd="ANP" tag="RB" in="4:time" out="1:pnct">Now</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="PD" tag="DT" in="2:subj|3:[subj]|-25:coref|-37:coref" out="1:nobj|32:coref">the</W>
+<W msd="PD" tag="DT" in="-25:coref|-37:coref|2:subj|3:[subj]" out="1:nobj|32:coref">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">parties</W>
 <W msd="VADR" tag="VBP" in="-42:+CONJ&3a;add/(and)&7c;TELIC&3a;cons.dir/(therefore)" out="-2:subj|-4:time|1:vobj|21:pnct|31:+CONJ&3a;add/and&amp;TELIC&3a;goal">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:dobj">appointing</W>
@@ -88,8 +88,8 @@
 <W msd="CS" tag="IN" in="4:time" out="1:nobj|2:pnct#">before</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr">May</W>
 <W msd="AC" tag="CD" in="-2:pnct#|-1:attr" out="">3,</W>
-<W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]|-32:coref" out="">they</W>
-<W msd="VA" tag="MD" in="-7:conj|-31:+CONJ&3a;add/and&amp;TELIC&3a;goal" out="-1:subj|-6:mod|-4:time|1:vobj|42:assoc-telic|65:assoc-telic|49:+CONJ&3a;add/(and)">must</W>
+<W msd="PP" tag="PRP" in="-32:coref|1:subj|2:[subj]|3:[subj]" out="">they</W>
+<W msd="VA" tag="MD" in="-7:conj|-31:+CONJ&3a;add/and&amp;TELIC&3a;goal" out="-1:subj|-6:mod|-4:time|1:vobj|42:assoc-telic|49:+CONJ&3a;add/(and)|65:assoc-telic">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:part|2:dobj">worked</W>
 <W msd="RG" tag="RP" in="-1:part" out="">out</W>
@@ -115,7 +115,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">delegates</W>
 <W msd="CC" tag="CC" in="4:coord" out="">and</W>
 <W msd="PT" tag="WDT" in="4:subj|4:[subj]" out="">which</W>
-<W msd="PD" tag="DT" in="2:subj|-84:coref-var" out="1:nobj|4:coref|55:coref">the</W>
+<W msd="PD" tag="DT" in="-84:coref-var|2:subj" out="1:nobj|4:coref|55:coref-var">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">players</W>
 <W msd="VADR" tag="VBP" in="-13:conj" out="-2:subj|-4:coord|1:vobj">believe</W>
 <W msd="VADR" tag="VBZ" in="-1:vobj" out="-4:subj|-4:[subj]|1:iobj|3:dobj">provides</W>
@@ -135,7 +135,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">negotiation</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">climate</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="PD" tag="DT" in="3:subj|4:[subj]|-116:coref-iden" out="2:nobj|35:coref">the</W>
+<W msd="PD" tag="DT" in="-116:coref-iden|3:subj|4:[subj]" out="2:nobj|35:coref-var">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Division</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Association</W>
 <W msd="VADR" tag="VBZ" in="-49:+CONJ&3a;add/(and)" out="-11:mod|-3:subj|1:vobj|12:pnct|20:pnct|42:CONJ&3a;add/(and)">is</W>
@@ -154,7 +154,7 @@
 <W msd="ANP" tag="RB" in="-9:mod" out="1:mod|2:pobj">as</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">long</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="3:rel">as</W>
-<W msd="PD" tag="DT" in="2:subj|-65:assoc-telic" out="1:nobj">the</W>
+<W msd="PD" tag="DT" in="-65:assoc-telic|2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">negotiations</W>
 <W msd="VADR" tag="VBP" in="-3:rel" out="-2:subj|1:preds">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">ongoing</W>
@@ -170,14 +170,14 @@
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="-4:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="4:vobj">though</W>
-<W msd="PD" tag="DT" in="3:subj|-35:coref|-55:coref" out="1:nobj|7:coref-var">both</W>
+<W msd="PD" tag="DT" in="3:subj|-55:coref-var|-35:coref-var" out="1:nobj|7:coref-var">both</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">associations</W>
 <W msd="ANP" tag="RB" in="1:add" out="">also</W>
 <W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|-1:add|1:dobj|2:pnct">urge</W>
 <W msd="VAG" tag="VBG" in="-1:dobj" out="">waiting</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="-15:ref|4:mod" out="">then</W>
-<W msd="PD" tag="DT" in="3:subj|-7:coref-var" out="1:nobj">the</W>
+<W msd="PD" tag="DT" in="-7:coref-var|3:subj" out="1:nobj">the</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">parties</W>
 <W msd="VADR" tag="VBP" in="-42:CONJ&3a;add/(and)" out="-4:mod|-3:subj|-19:xtop|1:mod|5:dobj|16:pnct">recommend</W>
@@ -186,7 +186,7 @@
 <W msd="ANS" tag="JJS" in="-1:attr" out="">strongest</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">terms</W>
 <W msd="SP" tag="IN" in="-5:dobj" out="9:vobj">that</W>
-<W msd="PD" tag="DT" in="8:subj|9:[subj]|-88:coref-var" out="1:attr|3:nobj|4:mod">the</W>
+<W msd="PD" tag="DT" in="-88:coref-var|8:subj|9:[subj]" out="1:attr|3:nobj|4:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">old</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">transfer</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">provisions</W>
