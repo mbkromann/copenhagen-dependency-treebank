@@ -38,12 +38,8 @@ layout -stream $n->svar('speaker')
 
 # How to compute the style associated with a node or label
 layout -nstyles ["default", \
-	($n->svar("msd") =~ /^V/ && scalar(grep {$_->type() =~ /vobj/} @{$n->in()}) && ! scalar(grep {$_->type() =~ /(subj|expl)/} @{$n->out()}) && ($n->svar("_noerror") || "") !~ /:nosubj:/ ? "nosubjerror" : ""),\
+	(map {"error:" . $_} map {$_->[0]} @{$G->errors_node($n)}),\
 	(scalar(grep {$_->type() =~ /[A-Z]/} @{$n->in()}) ? "discourse" : ""),\
-	(scalar(grep {$G->is_dependent($_)} @{$n->in()}) == 0 \
-		?  "nogoverror" : ""),\
-	(scalar(grep {$G->is_dependent($_) && $_->in() != $_->out() && $_->svar("diff")} @{$n->in()}) > 1 \
-		?  "manygoverror" : ""),\
 	($l =~ /^stream:.*$/) ? 'speaker:' .  ($n->svar('speaker') || 0): 0,\
 	map {my $s = $_; $s =~ s/^$l://g; $s} split('\|', $n->svar('styles') || ""), \
 	split('\|', $n->svar('styles') || ""), \
@@ -62,9 +58,7 @@ layout -estyles \
 	[	"default", \
 		'speaker:' . ($G->node($e->in())->svar('speaker') || 0),\
 		$discourse, \
-		($G->is_known_edge($e) ? "" : "unknownetypeerror"),\
-		(scalar(grep {$G->is_dependent($_) && $_->in() != $_->out()} @{$G->node($e->in())->in()}) > 1 \
-			?  "edgeconflict" : ""),\
+		(map {"error:" . $_} map {$_->[0]} @{$G->errors_edge($e)}),\
 		split('\|', $G->node($e->in())->svar('styles') || ""),\
 		map {split(':', $_)} \
 			(grep {$_ =~ /^[^:]*:(.*)$/; $etype =~ /\Q$1\E/} \
@@ -97,11 +91,6 @@ style dying -arclabel -ps "1 0.2 0.2 setrgbcolor" -arc -ps "1 0.2 0.2 setrgbcolo
 style dead -arclabel -ps "1 0.2 0.2 setrgbcolor" -arc -ps "1 0.2 0.2 setrgbcolor [1 2] 0 setdash" 
 style secondary -arc -ps "[1 4] 0 setdash"
 style error -label -color red
-style nogoverror -label -color red -fonttype bold
-style manygoverror -label -color red -fonttype bold
-style nosubjerror -label -color lightred -fonttype bold
-style unknownetypeerror  -arclabel -color red -fonttype bold -arc -ps "0 0 0 setrgbcolor"
-style edgeconflict -arclabel -color red -fonttype bold
 #style discourse -label -color green -arc -color green -arclabel -color green
 #style default -label -color gray -arc -color yellow -arclabel -color cyan
 style default -label -color black -arc -color black -arclabel -color black
@@ -109,7 +98,7 @@ style discourse -arc -color darkgreen -ps "[5 2] 0 setdash 2 setlinewidth" -arcl
 style small -label -ps "7 setfontsize setupfont"
 style tiny -label -ps "5 setfontsize setupfont"
 
-macro noerrors style error ;; style nogoverror ;; style manygoverror ;; style unknownetypeerror ;; style edgeconflict
+macro noerrors style error ;; style error:nogov ;; style error:manygov ;; style error:unknownetype ;; style error:edgeconflict
 
 macro cdtmanualsetup style nogoverror ;; nonumbernodes
 
@@ -164,7 +153,7 @@ macro nonumbernodes layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss
 macro reset script -q ~/cdt/dtag/.dtagrc
 macro autotagm find $X[msd] =~ /^(NC|V|AN)/ ;; autotag morph -matches -default *.tag
 macro ptb layout -pos 0 ;; layout -vars cat|/stream:.*/|pos ;; layout -nstyles 0 ;; layout -estyles 0
-macro hostname !echo "$USER@"`ifconfig eth0 | grep "inet addr" | awk -F":" '{ print $2}' | awk '{ print $1}'`" ("`hostname`")"
+macro hostname !echo "$USER@"`ifconfig | grep "inet addr" |grep -v 127.0.0.1 | awk -F":" '{ print $2}' | awk '{ print $1}'`" ("`hostname`")"
 macro commit !~/cdt/tools/dtag-commit {ARGS}
 
 # TransLog stuff
@@ -174,7 +163,7 @@ macro cdtmanual !~/cdt/tools/dtag-cdtmanual &
 macro rmcdtmanual !rm ~/cdt/docs/cdt-manual.pdf 
 
 # Options
-option viewer gv -geometry 1020x600-0+0 -spartan -nocenter -scale=2 -quiet -watch $file &
+option viewer gv -geometry 1020x600-0+0 --spartan --nocenter --scale=2 --quiet --watch $file &
 option iconv iconv -c -f UTF-8 -t ISO_8859-1//TRANSLIT
 #option post-start
 #option post-save
@@ -227,10 +216,35 @@ macro _viewex perl print dumper($I->var("relsets")->{"cdt"}{"{ARGS}"}[7])
 # etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
 # etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
 #etypes -land land xland \n\n
+etypes -fill gap src
 
 confusion cdt ~/cdt/confusion/confusion-discourse.csv ~/cdt/confusion/confusion-syntax.csv ~/cdt/confusion/confusion-morphology.csv ~/cdt/confusion/confusion-alignment.csv ~/cdt/confusion/confusion-anaphora.csv ~/cdt/confusion/confusion-semantics.csv
+
+# Error marking: nodes
+errordef -node nogov ! defined($egov)
+errordef -node manygovs scalar(grep {$G->is_dependent($_) && $_->in() != $_->out() && $_->svar("diff")} @{$n->in()}) > 1
+errordef -node nosubj my $msd = $n->svar("msd"); $msd =~ /^V/ && scalar(grep {$_->type() =~ /(subj|expl)/} @{$n->out()}) == 0
+errordef -node nonobj my $msd = $n->svar("msd"); $msd =~ /^SP/ && scalar(grep {$_->type() =~ /nobj/} @{$n->out()}) == 0
+errordef -node noante my $msd = $n->svar("msd"); my $govmsd = $gov ? $gov->svar("msd") : ""; $msd =~ /^[NP]/ && ! ($msd =~ /^(NP|PI|NC.*I)/ || $G->has_inedge($n, "ANA", "possd") || ($G->has_inedge($n, "nobj") && $govmsd =~ /^(N|P|A)/))
+
+# Error marking: edges
+errordef -edge badtype ! $G->is_known_edge($e->type())
+errordef -edge manygovs scalar(grep {$G->is_dependent($_) && $_->in() != $_->out()} @{$G->node($e->in())->in()}) > 1
+
+# Error styles
+style error:nogov -label -color red -fonttype bold
+style error:manygovs -label -color red -fonttype bold -arclabel -color red -fonttype bold -arc -color red
+style error:noante -label -color lightred -fonttype bold
+style error:nosubj -label -color lightred -fonttype bold
+style error:nonobj -label -color lightred -fonttype bold
+style error:badtype -arclabel -color red -fonttype bold -arc -ps "0 0 0 setrgbcolor"
 
 # Command log
 user -f /home/cdt/.cdtname
 cmdlog /home/cdt/cdt/logs/{USER}
+
+# Turn autodelete on (automatically delete existing primary edges when
+# adding a new)
+option autodelete=on
+
 

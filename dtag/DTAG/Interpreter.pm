@@ -2708,6 +2708,24 @@ sub compare_graphs {
 #
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_display.pl
+## ------------------------------------------------------------
+
+sub cmd_display {
+	my $self = shift;
+	my $graph = shift || $self->graph();
+	my $followfile = $graph->fpsfile() || $self->fpsfile();
+	my $displayfile = shift || $followfile;
+
+	if ( -r $displayfile ) {
+		system("cp $displayfile $followfile");
+	} else {
+		error("Cannot read file: $displayfile\n");
+	}
+	return 1;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_echo.pl
 ## ------------------------------------------------------------
 
@@ -2785,6 +2803,22 @@ sub cmd_edge {
 		#print "edgesplit: $edgesplit etype1=$etype ";
 		eval("\$etype =~ $edgesplit");
 		#print "etype2=$etype\n";
+	}
+
+	# Test whether edge is primary, and delete old incoming primary
+	# edges first, if requested
+	if (($self->option("autodelete") || "") eq "on" || ($graph->var("autodelete") || "") eq "on") {
+		if ($graph->is_dependent($etype)) {
+			my $node = $graph->node($nodein);
+			my $edges = [];
+			push @$edges, @{$node->in()} if ($node);
+			foreach my $e (@$edges) {
+				if ($graph->is_dependent($e->type())) {
+					inform("Autodeleting primary edge: " .  $e->as_string());
+					$graph->edge_del($e);
+				} 
+			}
+		}
 	}
 
 	# Add edge(s) and mark graph as modified
@@ -3014,6 +3048,131 @@ sub efilter_edge {
 	
 
 
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_errordef.pl
+## ------------------------------------------------------------
+
+sub cmd_errordef {
+	my ($self, $graph, $type, $error, $sub) = @_;
+
+	# Determine error type: -node or -edge
+	$type = (($type || "") eq "-edge") ? "edge" : "node";
+
+	# Ensure error definitions exist in both graph and interpreter
+	my $gerrordefs = $graph->errordefs();
+	my $ierrordefs = $self->{'errordefs'};
+
+	# Create subroutine object
+	my $substr = $type eq "node"
+		? "sub { my \$I = shift; my \$G = shift; my \$n = shift; "
+			. " my \$egov = \$G->govedge(\$n); "
+			. " my \$gov = \$G->node(\$egov ? \$egov->out() : undef); "
+			. $sub . " }"
+		: "sub { my \$I = shift; my \$G = shift; my \$e = shift; "
+			. " my \$etype = \$e->type(); "
+			. " my \$eout = \$G->node(\$e->out()); "
+			. " my \$ein = \$G->node(\$e->in()); "
+			. $sub . " }";
+	my $subobj = eval($substr);
+	error("Perl errors in $type-errordef \"$error\": $sub\n$@") if ($@);
+
+	# Clear from error definitions if subroutine empty
+	if ($sub =~ /^\s*$/ || ! $subobj) {
+		print "Deleting $type-error definition \"$error\"\n";
+		delete $ierrordefs->{$type}{$error};
+		delete $gerrordefs->{$type}{$error};
+	} else {
+		# Save subroutine object in error list
+		my $errorlevel = $self->{'errordefid'}++;
+		$ierrordefs->{$type}{$error} = [$errorlevel, $subobj, $sub];
+		$gerrordefs->{$type}{$error} = [$errorlevel, $subobj, $sub];
+	}
+
+	# Sort subroutines
+	$ierrordefs->{'@' . $type} = sort_errordefs($ierrordefs->{$type});
+	$gerrordefs->{'@' . $type} = sort_errordefs($gerrordefs->{$type});
+
+	# Return
+	return 1;
+}
+
+sub sort_errordefs {
+	# Sort numerically according to increasing error level, then alphabetically
+	my $hash = shift;
+	return [sort {
+			($hash->{$a}[0] <=> $hash->{$b}[0])
+			|| $a cmp $b
+		} (keys(%$hash))];
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_errordefs.pl
+## ------------------------------------------------------------
+
+sub cmd_errordefs {
+	my ($self, $graph, $errorspec) = @_;
+	
+	my $errordefs = $graph->errordefs();
+	foreach my $type ("node", "edge") {
+		# Find matching errors
+		my @matches = ();
+		foreach my $e (@{$errordefs->{'@' . $type}}) {
+			push @matches, $e
+				if ((! $errorspec) || $e =~ /^$errorspec$/);
+		}
+
+		# Print matching errors
+		if (@matches) {
+			print "Error definitions: $type\n";
+			foreach my $e (@matches) {
+				print "    $e: " . $errordefs->{$type}{$e}[2] . "\n";
+			}
+			print "\n";
+		}
+	}
+
+	# Return
+	return 1;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_errors.pl
+## ------------------------------------------------------------
+
+sub cmd_errors {
+	my ($self, $graph, $from, $to) = @_;
+	$from = 0 if (! defined($from));
+	$to = $graph->size() - 1 if (! defined($to));
+
+	# Print error definitions
+	for (my $i = $from; $i <= $to; ++$i) {
+		# Skip comment nodes
+		my $node = $graph->node($i);
+		next if ($node->comment());
+
+		# Test in-edge errors
+		my @edgeerrors = ();
+		if ($node) {
+			foreach my $e (sort {$a->out() <=> $b->out()} @{$node->in()}) {
+				my @errorlist = @{$graph->errors_edge($e)};
+				push @edgeerrors, "    " . $e->as_string() . ": " 
+						. join(" ", map {$_->[0]} @errorlist) . "\n"
+					if (@errorlist);
+			}
+		}
+
+		# Test node errors
+		my @nodeerrors = @{$graph->errors_node($node)};
+		if (@nodeerrors || @edgeerrors) {
+			print "$i: " . join(" ", map {$_->[0]} @nodeerrors) . "\n";
+			print @edgeerrors;
+		}
+	}
+
+	# Return
+	return 1;
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_etypes.pl
@@ -5751,11 +5910,13 @@ sub cmd_option {
 
 	if (defined($value)) {
 		# Set option (if value given)
-		$self->{'options'}{$option} = $value;
-	} else {
+		$self->option($option, $value);
+	}#} else {
 		# Print option
-		print "option $option=", ($self->{'options'}{$option} || 'undef'), "\n";
-	}
+		$value = $self->option($option);
+		$value = 'undef' if (! defined($value));
+		print "option $option=", $value, "\n";
+	#}
 
 	# Exit
 	return 1;
@@ -7077,6 +7238,7 @@ sub cmd_replace {
 
 sub cmd_resume {
 	my $self = shift;
+	my $graph = shift;
 	my $ntodo = shift;
 	my $history = shift;
 
@@ -7090,13 +7252,15 @@ sub cmd_resume {
 		my $line = shift(@$todo);
 		$self->var('ntodo', $self->var('ntodo') - 1)
 			if (! ($line =~ /^\s*#.*$/));
-		print "> $line" if (! ($self->quiet() || $line =~ /\\\s*/));
+		print "> $line" if (! ($self->quiet() || $line =~ /\\\s*/ || $line =~ /^\s*echo\s+/));
 		$self->do($line, $history);
 
 		# Abort if requested
 		$self->var('ntodo', 0) if ($self->abort());
 	}
-	$self->cmd_return();
+	if (! $self->var("noupdate")) {
+		$self->cmd_return() 
+	}
 
 	# Return
 	return 1;
@@ -8142,7 +8306,7 @@ sub cmd_script {
 
 	# Close file, call resume, and return
 	close("SCRIPT");
-	$self->cmd_resume(undef, 1);
+	$self->cmd_resume($graph, 0);
 
 	# Return
 	return 1;
@@ -8877,7 +9041,7 @@ sub cmd_webmap {
 	$termexcount = 10 if (! defined($termexcount ));
 	$excount = $termexcount if (! defined($excount));
 	$mincount = 2 if (! defined($mincount));
-	$url = "" if (! defined($url));
+	$url = ".." if (! defined($url));
 
 	# Debug
 	print 'usage: webmap $tagvar $wikidir $exampledir $terminalExampleCount $ExampleCount $MinimalCount'; 
@@ -9297,6 +9461,10 @@ sub do {
 		$success = $self->cmd_diff($graph, $2)
 			if ($cmd =~ /^\s*diff\s*(\s(\S*))?\s*$/);
 
+		# Display: display $psfile
+		$success = $self->cmd_display($graph, $1)
+			if ($cmd =~ /^\s*display\s+(\S+)\s*$/);
+
 		# Delete incoming edges at node: edel $node
 		$success = $self->cmd_edel($graph, $1) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Graph') && 
@@ -9332,6 +9500,18 @@ sub do {
 		#	"edit 12 in=12:subj|13:land"
 		$success = $self->cmd_edit($graph, $1, $2) 
 			if ($cmd =~ /^\s*edit\s+([+-]?[0-9]+)\s*(.*)\s*$/);
+
+		# Errordef: errordef [-node|-edge] $name $code
+		$success = $self->cmd_errordef($graph, $2, $3, defined($5) ? $5 : "") 
+			if ($cmd =~ /^\s*errordef(\s+(-node|-edge))?\s+(\S+)(\s+(.*))?$/);
+
+		# Errordefs: errordefs $name
+		$success = $self->cmd_errordefs($graph, $1) 
+			if ($cmd =~ /^\s*errordefs(\s+(\S+))?\s*$/);
+
+		# Errors: errors [$node[-$node]]
+		$success = $self->cmd_errors($graph, $2, defined($4) ? $5 : $2) 
+			if ($cmd =~ /^\s*errors(\s+([+-]?[0-9]+)(\s*(-)\s*([-+]?[0-9]+))?)?\s*$/);
 
 		# Gedit: gedit $lineno
 		$success = $self->cmd_gedit($graph, $2) 
@@ -9491,6 +9671,7 @@ sub do {
 		# Option: option $option=$value
 		$success = $self->cmd_option($1, $2)
 			if (($cmd =~ /^\s*option\s*([A-Za-z-]+)\s+(\S.*)$/)
+				|| ($cmd =~ /^\s*option\s*([A-Za-z-]+)\s*=\s*(\S.*)$/)
 				|| ($cmd =~ /^\s*option\s*([A-za-z-]+)\s*$/));
 
 		# Offset and show: oshow $offset
@@ -9555,7 +9736,7 @@ sub do {
 			if ($cmd =~ /^\s*relset2latex(\s+-file=(\S+))?\s+(.*)$/);
 
 		# Resume: resume
-		$success = $self->cmd_resume($2)
+		$success = $self->cmd_resume($graph, $2)
 			if ($cmd =~ /^\s*resume(\s+([0-9]+))?\s*$/);
 
 		# Save: save [$file]
@@ -9608,7 +9789,7 @@ sub do {
 			if ($cmd =~ /^\s*sleep\s+([0-9]*(\.[0-9]*)?)\s*$/);
 
 		# Step: step
-		$success = $self->cmd_resume(1)
+		$success = $self->cmd_resume($graph, 1)
 			if ($cmd =~ /^\s*step\s*$/);
 
 		# Style: style $id $options
@@ -9825,6 +10006,27 @@ sub edge_setdiff {
 sub error {
 	print "\aERROR! " . join("", @_) . "\n";
 	return 0;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/errordefs.pl
+## ------------------------------------------------------------
+
+# Return error definitions sorted by increasing priority
+sub errordefs {
+	my $self = shift;
+
+	# Ensure error definitions exist
+	my $errordefs = $self->{'errordefs'};
+	if (! defined($errordefs)) {
+		$self->{'errordefs'} = $errordefs = {
+			'@node' => [], '@edge' => [],
+			'node' => {}, 'edge' => {}
+		};
+	}
+
+	# Return error definitions
+	return $errordefs;
 }
 
 ## ------------------------------------------------------------
@@ -10235,6 +10437,25 @@ sub nice_string {
                chr($_)                     # else as themselves
          } unpack("U*", $_[0]));           # unpack Unicode characters
    }
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/option.pl
+## ------------------------------------------------------------
+
+sub option {
+	my $self = shift;
+	my $var = shift;
+	my $value = shift;
+	my $options = $self->{'options'};
+
+	# Set value
+	if (defined($value) && defined($var)) {
+		$options->{$var} = $value;
+	}
+
+	# Return value
+	return $options->{$var};
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/print.pl

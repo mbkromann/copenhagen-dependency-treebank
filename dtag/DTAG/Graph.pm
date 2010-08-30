@@ -136,6 +136,20 @@ sub abbr2var {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/augment_yields.pl
+## ------------------------------------------------------------
+
+sub augment_yields {
+	my $self = shift;
+	my $var = shift || "_yield";
+	my $yields = $self->yields();
+	for (my $i = 0; $i < $self->size(); ++$i) {
+		my $node = $self->node($i);
+		my $yield = $yields->{$node};
+	}
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/bindgraph.pl
 ## ------------------------------------------------------------
 
@@ -651,6 +665,85 @@ sub encoding {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/errordefs.pl
+## ------------------------------------------------------------
+
+# Return error definitions sorted by increasing priority
+sub errordefs {
+	my $self = shift;
+
+	# Ensure error definitions exist
+	my $errordefs = $self->{'errordefs'};
+	$errordefs = $self->{'errordefs'} = $self->interpreter()->errordefs() 
+		if (! defined($errordefs));
+
+	# Return error definitions
+	return $errordefs;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/errors_edge.pl
+## ------------------------------------------------------------
+
+# Compute the errors for an edge in a graph, using the code supplied
+# by the edge error definitions associated with the graph.
+
+sub errors_edge {
+	my ($self, $e) = @_;
+
+	# Retrieve errordefs and sort them according to priority (array index 2)
+	my $errordefs = $self->errordefs()->{"edge"};
+	my $errornames = $self->errordefs()->{'@edge'};
+
+	# Process nodes
+	my $results = [];
+	foreach my $error (@$errornames) {
+		# Call error definition subroutine
+		my $sub = $errordefs->{$error}[1];
+        if ($sub) {
+			my $result = &$sub($self->interpreter(), $self, $e);
+			if ($result) {
+				push @$results, [$error, $result];
+			}
+		}
+	}
+
+	# Return errors
+	return $results;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/errors_node.pl
+## ------------------------------------------------------------
+
+# Compute the errors for a node in a graph, using the code supplied by
+# the error definitions associated with the graph.
+
+sub errors_node {
+	my ($self, $n) = @_;
+
+	# Retrieve errordefs and sort them according to priority (array index 2)
+	my $errordefs = $self->errordefs()->{"node"};
+	my $errornames = $self->errordefs()->{'@node'};
+
+	# Process nodes
+	my $results = [];
+	foreach my $error (@$errornames) {
+		# Call error definition subroutine
+		my $sub = $errordefs->{$error}[1];
+        if ($sub) {
+			my $result = &$sub($self->interpreter(), $self, $n);
+			if ($result) {
+				push @$results, [$error, $result];
+			}
+		}
+	}
+
+	# Return errors
+	return $results;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/etypes.pl
 ## ------------------------------------------------------------
 
@@ -708,6 +801,29 @@ sub exclude {
 	return $self->{'_exclude'};
 }
 	
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/extraction_path.pl
+## ------------------------------------------------------------
+
+sub extraction_path {
+	my $self = shift;
+	my $node = shift;
+	my $enode = shift;
+	my $list = shift || [];
+
+	if (! defined($enode)) {
+	}
+
+}
+
+
+
+sub spans {
+	my $self = shift;
+	my $lsite = shift;
+	my $node = shift;
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Graph/file.pl
@@ -830,6 +946,33 @@ sub fpsfile {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/govedge.pl
+## ------------------------------------------------------------
+
+=item $graph->govedge($node) = $gov
+
+Return governor edge for node $node.
+
+=cut
+
+sub govedge {
+	my $self = shift;
+	my $node = shift;
+
+	# Find governor edge
+	foreach my $e (@{$node->in()}) {
+		if ($self->is_dependent($e)) {
+			return $e;
+		}
+	}
+
+	# No governor found
+	return undef;
+}
+
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/governor.pl
 ## ------------------------------------------------------------
 
@@ -855,6 +998,8 @@ sub governor {
 	return undef;
 }
 
+
+
 ## ------------------------------------------------------------
 ##  auto-inserted from: Graph/graph.pl
 ## ------------------------------------------------------------
@@ -864,6 +1009,50 @@ sub graph {
 	my $key = shift;
 	$key = "" if (! defined($key));
 	return ($key eq "") ? $self : undef;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/has_inedge.pl
+## ------------------------------------------------------------
+
+sub has_inedge {
+	my ($self, $node) = (shift, shift);
+
+	# False if node is undefined
+	return 0 if (! defined($node));
+
+	# Run through edges to find match
+	foreach my $edge (@{$node->in()}) {
+		foreach my $type (@_) {
+			return 1 if ($self->interpreter()->is_relset_etype($edge->type(),
+				$type, $self->relset()));
+		}
+	}
+
+	# Nothing found
+	return 0;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/has_outedge.pl
+## ------------------------------------------------------------
+
+sub has_outedge {
+	my ($self, $node) = @_;
+
+	# False if node is undefined
+	return 0 if (! defined($node));
+
+	# Run through edges to find match
+	foreach my $edge (@{$node->out()}) {
+		foreach my $type (@_) {
+			return 1 if ($self->interpreter()->is_relset_etype($edge,
+				$type, $self->relset()));
+		}
+	}
+
+	# Nothing found
+	return 0;
 }
 
 ## ------------------------------------------------------------
@@ -955,11 +1144,18 @@ sub is_adjunct {
 		return 1;
 	} elsif (grep {lc($type) eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
 		return 1;
+    } elsif ($type =~ /^<(.*)@(.*):[0-9]+>$/) {
+        my ($head, $tail) = ($1 || "", $2);
+        my $return = 1;
+        map {$self->is_known_edge($_) || ($return = 0)} split(/:/, $head);
+        map {$self->is_dependent($_) || ($return = 0)} split(/:/, $tail);
+        return $return;
     } elsif ($type =~ /^<(.*:)?([^:]*):[0-9]+>$/) {
         my ($head, $tail) = ($1 || "", $2);
         my $return = 1;
         map {$self->is_dependent($_) || ($return = 0)} split(/:/, $head);
-        return $self->is_dependent($tail) && $return;
+        map {$self->is_dependent($_) || ($return = 0)} split(/:/, $tail);
+        return $return;
 	} elsif ($type =~ /^<([^:]*)(:(.*))?:[0-9]+>$/) {
 		my ($head, $tail) = ($1, $3 || "");
 		my $return = 1;
@@ -2629,7 +2825,7 @@ sub relset {
 	my $self = shift;
 	my $interpreter = $self->interpreter();
 	return $interpreter->var("relsets")->{
-		$self->relsetname(shift)} || {};
+		$self->relsetname(shift) || ""} || {};
 }
 
 ## ------------------------------------------------------------
@@ -3082,6 +3278,8 @@ sub vars {
 ##  auto-inserted from: Graph/wikidoc.pl
 ## ------------------------------------------------------------
 
+my $WIKIDOC_SUBDIRS = 500;
+
 sub wikidoc {
 	my $self = shift;
 	my $tagvar = shift || 'msd';
@@ -3090,7 +3288,7 @@ sub wikidoc {
 	my $termexcount = shift || 10;
 	my $excount = shift || $termexcount;
 	my $mincount = shift || 5;
-	my $url = shift || "";
+	my $url = shift || "..";
 
 	# Set parameters for wiki files
 	my $mapdep = "MapDep";
@@ -3100,6 +3298,12 @@ sub wikidoc {
 	# Initialize class index
 	my $instancelist = [];
 	my $counts = {};
+
+	# Create directories
+	for (my $i = 0; $i < $WIKIDOC_SUBDIRS; ++$i) {
+		my $subdir = sprintf("%03i", $i);
+		`mkdir -p $exdir/$subdir $wikidir/$subdir`;
+	}
 
 	# Index edges in graph
 	my $words = 0;
@@ -3319,8 +3523,9 @@ sub wikidoc {
 			# Use example if it hasn't been used before
 			if (! $examples_hash->{$tclass . ":" . $text}) {
 				# Generate file name and record example
-				my $file = $exprefix . sprintf("%04d", ++$excounter) 
-					. "-" .  classname($tclass);
+				my $file = cdtfile("", $exprefix . sprintf("%04d", $excounter) 
+					. "-" .  classname($tclass));
+				++$excounter;
 				my $example = [$tclass, $file, $source, $text];
 				push @{$examples->{$tclass}}, $example;
 				$examples_hash->{$tclass . ":" . $text} = $example;
@@ -3438,7 +3643,7 @@ sub wikidoc {
 		my $list = shift;
 		my $dim = shift;
 		return join(" ", sort(map { 
-			wiki_url($url . $mapdep . classname($_) . ".html", dimension($_, $dim) || "ANY") }
+			wiki_url(cdtfile($url, $mapdep . classname($_) . ".html"), dimension($_, $dim) || "ANY") }
 				@$list));	
 	}
 
@@ -3450,7 +3655,8 @@ sub wikidoc {
 		my $list = shift;
 		my $dim = shift;
 		return join(" ", map {
-			wiki_url($url . $mapdep . classname($_) . ".html", dimension($_, $dim)) 
+			wiki_url(cdtfile($url, $mapdep . classname($_) . ".html"), 
+				dimension($_, $dim)) 
 				. sprintf("<sub>%d%%</sub>", scalar(@{$instances->{$_}}) /
 					scalar(@{$instances->{$class}}) * 100)
 			} sort {scalar(@{$instances->{$b}}) <=>
@@ -3508,7 +3714,9 @@ sub wikidoc {
 		}
 		
 		# Print wiki
-		open(WIKI, "> $wikidir/$mapdep" . classname($class) . ".html");
+		my $mapdepfile = cdtfile("$wikidir", $mapdep .  classname($class) . ".html");
+
+		open(WIKI, "> $mapdepfile");
 		print WIKI "<html>\n"
 			. "<head>\n"
 			. "<META http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\">\n"
@@ -3621,7 +3829,17 @@ sub wikidoc_superw {
 	return substr($tag, 0, 1);
 }
 
+sub cdtfile {
+	# Compute file hash
+	my ($dir, $file) = @_;
+	my $hash = 0;
+	foreach (split //, $file) {
+		$hash = $hash*33 + ord($_);
+	}
 
+	# Compute file name
+	return sprintf("%s/%03d/%s", $dir, $hash % $WIKIDOC_SUBDIRS, $file);
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Graph/words.pl
@@ -3895,6 +4113,15 @@ package Edge;
 use strict;
 
 
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/Edge/as_string.pl
+## ------------------------------------------------------------
+
+sub as_string {
+	my $self = shift;
+	return $self->in() . " " . $self->type() . " " . $self->out();
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Graph/Edge/clone.pl
