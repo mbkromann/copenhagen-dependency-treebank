@@ -1,4 +1,5 @@
 # Indsæt "*" når annotationen er afsluttet
+[*] it/0531-it-iorn.tag
 [*] en/0134-en-morten.tag
 [*] en/0531-en-morten.tag
 [*] en/1252-en-morten.tag
@@ -342,7 +343,7 @@
 [*] it/0705-it-morten.tag
 [*] da/0729-da.tag
 [*] de/0729-de-morten.tag
-[ ] it/0729-it-lisa.tag
+[*] it/0729-it-lisa.tag
 [*] da/0780-da.tag
 [*] de/0780-de-morten.tag
 [ ] it/0780-it-morten.tag
