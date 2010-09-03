@@ -98,7 +98,6 @@ style discourse -arc -color darkgreen -ps "[5 2] 0 setdash 2 setlinewidth" -arcl
 style small -label -ps "7 setfontsize setupfont"
 style tiny -label -ps "5 setfontsize setupfont"
 
-macro noerrors style error ;; style error:nogov ;; style error:manygov ;; style error:unknownetype ;; style error:edgeconflict
 
 macro cdtmanualsetup style nogoverror ;; nonumbernodes
 
@@ -238,6 +237,7 @@ style error:noante -label -color lightred -fonttype bold
 style error:nosubj -label -color lightred -fonttype bold
 style error:nonobj -label -color lightred -fonttype bold
 style error:badtype -arclabel -color red -fonttype bold -arc -ps "0 0 0 setrgbcolor"
+macro noerrors style error ;; style error:nogov ;; style error:manygovs ;; style error:noante ;; style error:nosubj ;; style error:nonobj ;; error:badtype ;; style error:edgeconflict
 
 # Command log
 user -f /home/cdt/.cdtname
