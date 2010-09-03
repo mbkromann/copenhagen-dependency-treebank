@@ -7612,6 +7612,10 @@ sub cmd_save_conll {
 	open("CONLL", "> $file") 
 		|| return error("cannot open file for writing: $file");
 
+	# Select variable for POSTAG/CPOSTAG
+	my $tag = $self->option('conll_postag') || "tag";
+	my $ctag = $self->option('conll_cpostag') || "tag";
+
 	# Write CONLL file line by line
 	my $prevblank = 1;
 	foreach (my $i = 0; $i < $graph->size(); ++$i) {
@@ -7632,21 +7636,31 @@ sub cmd_save_conll {
 			my $LEMMA = $node->var('lemma') || "_";
 
 			# CPOSTAG and POSTAG
-			my $msd = $node->var($self->var('malt_feature_tag') || "msd") 
-				|| "??";
-			my $POSTAG = "$msd";
-			$POSTAG =~ s/^(..).*$/$1/;
-			$POSTAG = "I" if ($POSTAG =~ /^I/);
-			$POSTAG = "U" if ($POSTAG =~ /^U/);
-			my $CPOSTAG = "$POSTAG";
-			$CPOSTAG =~ s/^(.).*/$1/g;
-			$CPOSTAG = "SP" if ($CPOSTAG eq "S");
-			$CPOSTAG = "RG" if ($CPOSTAG eq "R");
+			my $msd = $node->var($tag) || "??";
+			my $msd = $node->var($tag) || "??";
+			my $POSTAG = $node->var($tag) || "??";
+			my $CPOSTAG = $node->var($ctag) || "??";
+			my $FEATS = "";
 
-			# FEATS
-			my $FEATS = conll_msd2features($CPOSTAG, 
-				substr($msd, min(length($msd), 2)));
-			$FEATS = (($FEATS =~ /^_$/) ? "" : "$FEATS|") . "line=$i"; 
+			# Special Parole tag filtering
+			if ($tag eq "msd") {
+				my $msd = $POSTAG = $CPOSTAG = $node->var($tag);
+
+				# Compute cpostag
+				$CPOSTAG =~ s/^(.).*/$1/g;
+				$CPOSTAG = "SP" if ($CPOSTAG eq "S");
+				$CPOSTAG = "RG" if ($CPOSTAG eq "R");
+
+				# Compute postag
+				$POSTAG =~ s/^(..).*$/$1/;
+				$POSTAG = "I" if ($POSTAG =~ /^I/);
+				$POSTAG = "U" if ($POSTAG =~ /^U/);
+
+				# FEATS
+				$FEATS = conll_msd2features($CPOSTAG, 
+					substr($msd, min(length($msd), 2)));
+				$FEATS = (($FEATS =~ /^_$/) ? "" : "$FEATS|") . "line=$i"; 
+			}
 
 			# HEAD AND DEPREL
 			my $edges = [grep {! &$pos($graph, $_)} @{$node->in()}];
@@ -9670,9 +9684,9 @@ sub do {
 
 		# Option: option $option=$value
 		$success = $self->cmd_option($1, $2)
-			if (($cmd =~ /^\s*option\s*([A-Za-z-]+)\s+(\S.*)$/)
-				|| ($cmd =~ /^\s*option\s*([A-Za-z-]+)\s*=\s*(\S.*)$/)
-				|| ($cmd =~ /^\s*option\s*([A-za-z-]+)\s*$/));
+			if ($cmd =~ /^\s*option\s*(\S+)\s*=\s*(\S.*)$/
+				|| $cmd =~ /^\s*option\s*(\S+)\s+(\S.*)$/
+				|| $cmd =~ /^\s*option\s*(\S+)\s*$/);
 
 		# Offset and show: oshow $offset
 		if (UNIVERSAL::isa($graph, 'DTAG::Graph') 
