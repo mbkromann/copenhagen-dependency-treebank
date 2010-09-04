@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="credere" msd="VADR" tag="VER:pres" in="" out="">Crediamo</W>
 <W lemma="infatti" msd="RG" tag="ADV" in="" out="">infatti</W>

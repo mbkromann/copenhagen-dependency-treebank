@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">L'</W>
 <W lemma="attuale" msd="AN" tag="ADJ" in="" out="">attuale</W>

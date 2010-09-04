@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="più" msd="RG" tag="ADV" in="" out="">Più</W>
 <W lemma="armonia" msd="NC" tag="NOM" in="" out="">armonia</W>

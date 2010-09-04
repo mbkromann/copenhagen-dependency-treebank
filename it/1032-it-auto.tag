@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">È</W>
 <W lemma="dimostrare" msd="VAP" tag="VER:pper" in="" out="">dimostrato</W>

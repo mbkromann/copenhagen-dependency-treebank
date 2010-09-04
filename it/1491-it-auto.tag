@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="quindi" msd="RG" tag="ADV" in="" out="">Quindi</W>
 <W lemma="molto" msd="PI" tag="PRO:indef" in="" out="">molte</W>

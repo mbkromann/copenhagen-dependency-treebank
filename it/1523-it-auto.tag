@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="diverso" msd="AN" tag="ADJ" in="" out="">Diversi</W>
 <W lemma="parente" msd="NC" tag="NOM" in="" out="">parenti</W>

@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="compilare" msd="VAF" tag="VER:infi" in="" out="">Compilare</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>

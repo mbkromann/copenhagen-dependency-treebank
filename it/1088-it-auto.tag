@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Kamphaeng</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Phet</W>

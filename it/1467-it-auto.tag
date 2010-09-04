@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="cercare" msd="VAM" tag="VER:impe" in="" out="">Cercasi</W>
 <W lemma="fiducia" msd="NC" tag="NOM" in="" out="">fiducia</W>

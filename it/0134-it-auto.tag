@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="un" msd="PI" tag="DET:indef" in="" out="">Un</W>
 <W lemma="incontro" msd="NC" tag="NOM" in="" out="">incontro</W>

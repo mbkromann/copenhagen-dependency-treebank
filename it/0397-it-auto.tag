@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="dire" msd="VADA" tag="VER:remo" in="" out="">Dissi</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>

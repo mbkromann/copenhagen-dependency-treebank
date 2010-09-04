@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="una" msd="PI" tag="DET:indef" in="" out="">Una</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">delle</W>

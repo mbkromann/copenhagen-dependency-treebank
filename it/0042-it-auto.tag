@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">Il</W>
 <W lemma="ministro" msd="NC" tag="NOM" in="" out="">Ministro</W>

@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 </s>

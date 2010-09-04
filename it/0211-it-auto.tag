@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="*" msd="XS" tag="SYM" in="" out="">*</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Gli</W>

@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="mi" msd="PP" tag="PRO:pers" in="" out="">Mi</W>
 <W lemma="pulire" msd="VADR" tag="VER:pres" in="" out="">pulisco</W>

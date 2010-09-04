@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">Le</W>
 <W lemma="condizione" msd="NC" tag="NOM" in="" out="">condizioni</W>

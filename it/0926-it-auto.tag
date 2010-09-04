@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">All'</W>

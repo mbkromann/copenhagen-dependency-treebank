@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="ora" msd="RG" tag="ADV" in="" out="">Ora</W>
 <W lemma="dovere" msd="VADR" tag="VER:futu" in="" out="">dovrà</W>

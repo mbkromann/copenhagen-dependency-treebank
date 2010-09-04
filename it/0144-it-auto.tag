@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="giorno" msd="NC" tag="NOM" in="" out="">Giorno</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>

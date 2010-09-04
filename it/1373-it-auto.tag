@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="due" msd="AN" tag="ADJ" in="" out="">Due</W>
 <W lemma="modello" msd="NC" tag="NOM" in="" out="">modelli</W>

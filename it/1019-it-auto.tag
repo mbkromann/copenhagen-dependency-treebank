@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">La</W>
 <W lemma="tuo" msd="PO" tag="PRO:poss" in="" out="">tua</W>

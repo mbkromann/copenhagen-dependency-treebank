@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="scrivere" msd="VADR" tag="VER:pres" in="" out="">Scrivo</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>

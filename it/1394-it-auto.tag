@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">A</W>
 <W lemma="cinquecento" msd="AN" tag="ADJ" in="" out="">cinquecento</W>

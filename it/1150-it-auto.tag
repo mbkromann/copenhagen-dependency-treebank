@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="preannunciare" msd="VAG" tag="VER:geru" in="" out="">Preannunciando</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="" out="">un</W>

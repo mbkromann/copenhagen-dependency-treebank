@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="">Nel</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">1967</W>

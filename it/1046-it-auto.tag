@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="fonte" msd="NC" tag="NOM" in="" out="">Fonti</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">dell'</W>

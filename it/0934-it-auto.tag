@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">Al</W>
 <W lemma="presidente" msd="NC" tag="NOM" in="" out="">presidente</W>

@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="sabato" msd="NC" tag="NOM" in="" out="">Sabato</W>
 <W lemma="venire" msd="VADR" tag="VER:futu" in="" out="">verrà</W>

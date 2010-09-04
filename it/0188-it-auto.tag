@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="indicatore" msd="NC" tag="NOM" in="" out="">Indicatore</W>
 <W lemma="percorso" msd="AN" tag="ADJ" in="" out="">percorsi</W>

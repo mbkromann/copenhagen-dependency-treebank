@@ -1,4 +1,4 @@
-<p>
+in=""
 <s>
 <W lemma="sostegno" msd="NC" tag="NOM" in="" out="">Sostegno</W>
 <W lemma="popolare" msd="AN" tag="ADJ" in="" out="">popolare</W>
