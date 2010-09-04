@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="li" msd="PP" tag="PRO:pers" in="" out="">Li</W>
 <W lemma="raccogliere" msd="VADR" tag="VER:cpre" in="" out="">raccogliamo</W>

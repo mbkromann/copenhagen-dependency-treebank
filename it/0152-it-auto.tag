@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="settimana" msd="NC" tag="NOM" in="" out="">Settimane</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>

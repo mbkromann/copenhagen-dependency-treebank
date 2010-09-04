@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="tagliare" msd="VAF" tag="VER:infi" in="" out="">Tagliare</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">la</W>

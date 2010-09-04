@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="molto" msd="RG" tag="ADV" in="" out="">Molto</W>
 <W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>

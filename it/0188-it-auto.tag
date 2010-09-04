@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="indicatore" msd="NC" tag="NOM" in="" out="">Indicatore</W>
 <W lemma="percorso" msd="AN" tag="ADJ" in="" out="">percorsi</W>

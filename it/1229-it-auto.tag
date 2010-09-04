@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="Karadzic" msd="NP" tag="NPR" in="" out="">Karadzic</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">ha</W>

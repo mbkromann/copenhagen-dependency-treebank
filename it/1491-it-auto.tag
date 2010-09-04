@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="quindi" msd="RG" tag="ADV" in="" out="">Quindi</W>
 <W lemma="molto" msd="PI" tag="PRO:indef" in="" out="">molte</W>

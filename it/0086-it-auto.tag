@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="stare" msd="VADA" tag="VER:impf" in="" out="">Stava</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>

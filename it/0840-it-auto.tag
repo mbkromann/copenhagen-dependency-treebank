@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="appello" msd="NC" tag="NOM" in="" out="">Appello</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">del</W>

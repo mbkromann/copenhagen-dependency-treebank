@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="quasi" msd="RG" tag="ADV" in="" out="">Quasi</W>
 <W lemma="contemporaneamente" msd="RG" tag="ADV" in="" out="">contemporaneamente</W>

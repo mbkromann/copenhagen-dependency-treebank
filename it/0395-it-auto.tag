@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Ellen</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="" out="">si</W>

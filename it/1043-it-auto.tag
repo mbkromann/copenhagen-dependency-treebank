@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="essere" msd="VAG" tag="VER:geru" in="" out="">Essendo</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>

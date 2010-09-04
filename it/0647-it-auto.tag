@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="se" msd="CS" tag="CON" in="" out="">Se</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="">nel</W>

@@ -1,4 +1,4 @@
-in=""
+0:vobjout="0:vobj"
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">La</W>
 <W lemma="festa" msd="NC" tag="NOM" in="" out="">festa</W>

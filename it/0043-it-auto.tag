@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="incontro" msd="NC" tag="NOM" in="" out="">INCONTRO</W>
 <W lemma="doppio" msd="AN" tag="ADJ" in="" out="">DOPPIO</W>

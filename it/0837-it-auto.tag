@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="diverso" msd="AN" tag="ADJ" in="" out="">Diversi</W>
 <W lemma="dipendente" msd="NC" tag="NOM" in="" out="">dipendenti</W>

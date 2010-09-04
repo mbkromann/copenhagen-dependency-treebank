@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="se" msd="PR" tag="PRO:refl" in="" out="">Se</W>
 <W lemma="avere" msd="VADR" tag="VER:pres" in="" out="">avete</W>

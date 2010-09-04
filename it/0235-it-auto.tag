@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">Abbiamo</W>
 <W lemma="appetire" msd="VAP" tag="VER:pper" in="" out="">appetito</W>

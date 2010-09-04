@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Rudbjerg</W>
 <W lemma="volere" msd="VADR" tag="VER:pres" in="" out="">vuole</W>

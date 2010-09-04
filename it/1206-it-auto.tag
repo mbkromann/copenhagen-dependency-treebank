@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Eddie</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Carbone</W>

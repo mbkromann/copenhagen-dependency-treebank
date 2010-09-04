@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="H." msd="XS" tag="LS" in="" out="">H</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>

@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="dopo" msd="RG" tag="ADV" in="" out="">Dopo</W>
 <W lemma="oltre" msd="RG" tag="ADV" in="" out="">oltre</W>

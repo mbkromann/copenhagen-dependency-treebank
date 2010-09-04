@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="salire" msd="VAP" tag="VER:pper" in="" out="">Salito</W>
 <W lemma="su" msd="SP" tag="PRE" in="" out="">su</W>

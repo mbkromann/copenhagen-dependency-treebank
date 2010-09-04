@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="essere" msd="VADA" tag="VER:impf" in="" out="">Era</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="" out="">un</W>

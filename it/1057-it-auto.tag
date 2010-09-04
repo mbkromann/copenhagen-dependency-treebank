@@ -1,4 +1,4 @@
-in=""
+0:nobjout="0:nobj"
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">E'</W>
 <W lemma="facile" msd="AN" tag="ADJ" in="" out="">facile</W>

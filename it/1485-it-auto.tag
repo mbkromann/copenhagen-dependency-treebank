@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">Hanno</W>
 <W lemma="sviluppare" msd="VAP" tag="VER:pper" in="" out="">sviluppato</W>

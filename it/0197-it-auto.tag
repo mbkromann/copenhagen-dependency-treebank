@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="">Sono</W>
 <W lemma="notizia" msd="NC" tag="NOM" in="" out="">notizie</W>

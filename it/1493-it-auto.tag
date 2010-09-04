@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">La</W>
 <W lemma="terrorizzare" msd="VAP" tag="VER:pper" in="" out="">terrorizzata</W>

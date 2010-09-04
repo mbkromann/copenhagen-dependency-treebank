@@ -1,4 +1,4 @@
-in=""
+0:pnctout="0:pnct"
 <s>
 <W lemma="perché" msd="CS" tag="CON" in="" out="">Perché</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
