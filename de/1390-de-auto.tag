@@ -1,9 +1,9 @@
 <p>
 <s>
-<W lemma="Ziel" msd="NC" tag="NN" in="1:subj" out="">Ziel</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:pnct|2:nobj|43:pnct">ist</W>
+<W lemma="Ziel" msd="NC" tag="NN" in="1:preds" out="">Ziel</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:preds|1:pnct|2:subj|43:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="dass" msd="CS" tag="KOUS" in="-2:nobj" out="18:vobj">dass</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="-2:subj" out="18:vobj">dass</W>
 <W lemma="sie" msd="PP" tag="PPER" in="17:subj" out="">sie</W>
 <W lemma="," msd="XP" tag="$," in="1:pnct" out="">,</W>
 <W lemma="außer" msd="SP" tag="APPR" in="15:add" out="-1:pnct|7:nobj|9:pnct">außer</W>
@@ -53,7 +53,7 @@
 <W lemma="," msd="XP" tag="$," in="3:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Das</W>
 <W lemma="Ziel" msd="NC" tag="NN" in="-1:nobj" out="">Ziel</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-4:pnct|-3:pnct|-2:subj|1:eval|2:pnct|16:vobj|17:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-4:pnct|-3:pnct|-2:subj|1:eval|2:pnct|16:preds|17:pnct">ist</W>
 <W lemma="ja" msd="RG" tag="PTKANT" in="-1:eval" out="">ja</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="13:iobj" out="1:attr|2:nobj">den</W>
@@ -69,7 +69,7 @@
 <W lemma="Jahr" msd="NC" tag="NN" in="-2:nobj" out="">Jahren</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="1:attr" out="">neue</W>
 <W lemma="Talent" msd="NC" tag="NN" in="1:dobj" out="-1:attr">Talente</W>
-<W lemma="zuführen" msd="VAF" tag="VVIZU" in="-16:vobj" out="-13:iobj|-6:time|-1:dobj">zuzuführen</W>
+<W lemma="zuführen" msd="VAF" tag="VVIZU" in="-16:preds" out="-13:iobj|-6:time|-1:dobj">zuzuführen</W>
 <W lemma="." msd="XP" tag="$." in="-17:pnct" out="">.</W>
 <W lemma="und" msd="CC" tag="KON" in="2:discmark" out="">Und</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">das</W>
@@ -100,8 +100,8 @@
 <W lemma="selbst" msd="RG" tag="ADV" in="-1:focal" out="">selbst</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:accom|8:preds|24:pnct">bin</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-1:accom" out="1:nobj">mit</W>
-<W lemma="Hilfe" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Hilfe</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">von</W>
+<W lemma="Hilfe" msd="NC" tag="NN" in="-1:nobj" out="1:attr">Hilfe</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">von</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="2:conj">Yamaha</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:conj" out="-1:coord|1:nobj">Enghave</W>
@@ -118,9 +118,9 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="-2:nobj" out="1:pnct">,Lehrlingen</W>
 <W lemma="'" msd="XP" tag="$(" in="-1:pnct" out="">'</W>
 <W lemma="Ausrüstung" msd="NC" tag="NN" in="3:dobj" out="">Ausrüstung</W>
-<W lemma="zur" msd="SP+P" tag="APPRART" in="2:pobj" out="1:nobj">zur</W>
+<W lemma="zur" msd="SP+P" tag="APPRART" in="2:man" out="1:nobj">zur</W>
 <W lemma="Verfügung" msd="NC" tag="NN" in="-1:nobj" out="">Verfügung</W>
-<W lemma="stellen" msd="VAF" tag="VVINF" in="1:vobj" out="-7:iobj|-3:dobj|-2:pobj">stellen</W>
+<W lemma="stellen" msd="VAF" tag="VVINF" in="1:vobj" out="-7:iobj|-3:dobj|-2:man">stellen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="-10:vobj" out="-9:subj|-1:vobj">kann</W>
 <W lemma="." msd="XP" tag="$." in="-24:pnct" out="">.</W>
 <W lemma="beide" msd="PP" tag="PIS" in="1:subj" out="">Beide</W>
@@ -141,8 +141,8 @@
 <W lemma="Garantie" msd="NC" tag="NN" in="-1:nobj" out="1:attr">Garantie</W>
 <W lemma="für" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
-<W lemma="Erfolg" msd="NC" tag="NN" in="-1:nobj" out="">Erfolg</W>
-<W lemma="auf" msd="SP" tag="APPR" in="" out="1:nobj">auf</W>
+<W lemma="Erfolg" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Erfolg</W>
+<W lemma="auf" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W lemma="beide" msd="PI" tag="PIDAT" in="-1:attr" out="">beiden</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="">80-Kubik-Maschinen</W>

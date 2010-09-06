@@ -3,9 +3,9 @@
 <W lemma="was" msd="PT" tag="PWS" in="11:subj" out="9:relr">Was</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="8:subj" out="1:nobj">die</W>
 <W lemma="Sozialdemokrat" msd="NC" tag="NN" in="-1:nobj" out="">Sozialdemokraten</W>
-<W lemma="zum" msd="SP+P" tag="APPRART" in="6:pobj" out="1:nobj">zum</W>
+<W lemma="zum" msd="SP+P" tag="APPRART" in="6:pobj" out="1:nobj|2:appr">zum</W>
 <W lemma="Thema" msd="NC" tag="NN" in="-1:nobj" out="">Thema</W>
-<W lemma="Dänemark" msd="NP" tag="NE" in="" out="">Dänemark</W>
+<W lemma="Dänemark" msd="NP" tag="NE" in="-2:appr" out="">Dänemark</W>
 <W lemma="nach" msd="SP" tag="APPR" in="3:time" out="1:nobj">nach</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">EF-Nein</W>
@@ -28,16 +28,16 @@
 <W lemma="interessant" msd="AN" tag="ADJA" in="-1:attr" out="">interessante</W>
 <W lemma="Meinung" msd="NC" tag="NN" in="-2:nobj" out="">Meinungen</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">In</W>
+<W lemma="in" msd="SP" tag="APPR" in="2:loc" out="1:nobj">In</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">Christiansborg</W>
-<W lemma="schließen" msd="VA" tag="VVFIN" in="" out="1:robj|2:subj|8:dobj|11:part|34:pnct">schließt</W>
+<W lemma="schließen" msd="VA" tag="VVFIN" in="" out="-2:loc|1:robj|2:subj|8:dobj|11:part|34:pnct">schließt</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-2:subj" out="1:attr|2:nobj">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-2:subj" out="1:attr|2:nobj|5:appr">der</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="-1:attr" out="">neue</W>
 <W lemma="Vorsitzende" msd="NC" tag="NN" in="-2:nobj" out="">Vorsitzende</W>
 <W lemma="Poul" msd="NP" tag="NE" in="2:namef" out="">Poul</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:namel" out="">Nyrup</W>
-<W lemma="Rasmussen" msd="NP" tag="NE" in="" out="-2:namef|-1:namel">Rasmussen</W>
+<W lemma="Rasmussen" msd="NP" tag="NE" in="-5:appr" out="-2:namef|-1:namel">Rasmussen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-8:dobj" out="1:attr|2:nobj">dem</W>
 <W lemma="offiziell" msd="AN" tag="ADJA" in="-1:attr" out="">offiziellen</W>
 <W lemma="Standpunkt" msd="NC" tag="NN" in="-2:nobj" out="2:pnct|3:nobj">Standpunkt</W>
@@ -70,19 +70,19 @@
 <W lemma="Standpunkt" msd="NC" tag="NN" in="-2:nobj" out="">Standpunkt</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="3:dobj" out="">den</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">die</W>
 <W lemma="Regierungspartei" msd="NC" tag="NN" in="-1:nobj" out="">Regierungsparteien</W>
-<W lemma="teilen" msd="VA" tag="VVFIN" in="-7:relr" out="-3:dobj|-2:dobj">teilen</W>
+<W lemma="teilen" msd="VA" tag="VVFIN" in="-7:relr" out="-3:dobj|-2:subj">teilen</W>
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">In</W>
+<W lemma="in" msd="SP" tag="APPR" in="4:loc" out="1:nobj">In</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="-1:nobj" out="1:attr|2:name">Det</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:attr" out="">Fri</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:name" out="">Aktuelt</W>
-<W lemma="fordern" msd="VA" tag="VVFIN" in="" out="2:subj|3:part|4:pobj|15:pnct">fordert</W>
+<W lemma="fordern" msd="VA" tag="VVFIN" in="" out="-4:loc|2:subj|3:part|4:pobj|15:pnct">fordert</W>
 <W lemma="Ritt" msd="NC" tag="NN" in="1:namef" out="">Ritt</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:subj" out="-1:namef">Bjerregaard</W>
 <W lemma="auf" msd="SP" tag="APPR" in="-3:part" out="">auf</W>
@@ -137,20 +137,20 @@
 <W lemma="Sozialdemokrat" msd="NC" tag="NN" in="-3:nobj" out="">Sozialdemokrat</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="nämlich" msd="AN" tag="ADJD" in="1:focal" out="">nämlich</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-6:appa" out="-1:focal|1:attr|2:nobj">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-6:appa" out="-1:focal|1:attr|2:nobj|4:appr|5:pnct">der</W>
 <W lemma="entthront" msd="AN" tag="ADJA" in="-1:attr" out="">entthronte</W>
 <W lemma="Vorsitzende" msd="NC" tag="NN" in="-2:nobj" out="">Vorsitzende</W>
 <W lemma="Svend" msd="NP" tag="NE" in="1:namef" out="">Svend</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="-1:namef|1:pnct">Auken</W>
-<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="verbreitet" msd="AN" tag="ADJD" in="" out="-12:subj|11:dobj|14:pnct">verbreitet</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="" out="2:nobj|3:pnct|4:appa">im</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-4:appr" out="-1:namef">Auken</W>
+<W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
+<W lemma="verbreitet" msd="AN" tag="ADJD" in="" out="-12:subj|1:loc|11:dobj|14:pnct">verbreitet</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-1:loc" out="2:nobj|3:pnct|4:appa">im</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:attr" out="">Parlamentary</W>
 <W lemma="Brief" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Brief</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-4:appa" out="1:nobj|5:pnct">dem</W>
-<W lemma="Blatt" msd="NC" tag="NN" in="-1:nobj" out="1:attrg">Blatt</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:attrg" out="1:attr|2:nobj">des</W>
+<W lemma="Blatt" msd="NC" tag="NN" in="-1:nobj" out="">Blatt</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:attr|2:nobj">des</W>
 <W lemma="englisch" msd="AN" tag="ADJA" in="-1:attr" out="">englischen</W>
 <W lemma="Parlament" msd="NC" tag="NN" in="-2:nobj" out="">Parlaments</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
@@ -163,8 +163,8 @@
 <p>
 <s>
 <W lemma="er" msd="PP" tag="PPER" in="1:subj" out="">Er</W>
-<W lemma="bezeichnen" msd="VA" tag="VVFIN" in="" out="-1:subj|2:dobj|8:resem|11:pnct">bezeichnet</W>
-<W lemma="hier" msd="RG" tag="ADV" in="" out="">hier</W>
+<W lemma="bezeichnen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:loc|2:dobj|8:resem|11:pnct">bezeichnet</W>
+<W lemma="hier" msd="RG" tag="ADV" in="-1:loc" out="">hier</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="-2:dobj" out="1:nobj">alle</W>
 <W lemma="Spekulation" msd="NC" tag="NN" in="-1:nobj" out="1:attr">Spekulationen</W>
 <W lemma="über" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">über</W>
@@ -181,8 +181,8 @@
 <W lemma="dänisch" msd="AN" tag="ADJA" in="-1:attr" out="">dänische</W>
 <W lemma="Volksabstimmung" msd="NC" tag="NN" in="-2:nobj" out="">Volksabstimmung</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-5:xpl" out="-3:subj|2:preds|5:conj|14:pnct">ist</W>
-<W lemma="juristisch" msd="AN" tag="ADJD" in="1:attr" out="">juristisch</W>
-<W lemma="bindend" msd="AN" tag="ADJD" in="-2:preds" out="-1:attr">bindend</W>
+<W lemma="juristisch" msd="AN" tag="ADJD" in="1:quant" out="">juristisch</W>
+<W lemma="bindend" msd="AN" tag="ADJD" in="-2:preds" out="-1:quant">bindend</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="deshalb" msd="RG" tag="PAV" in="1:cause" out="">deshalb</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-5:conj" out="-2:coord|-1:cause|1:subj|2:preds">ist</W>

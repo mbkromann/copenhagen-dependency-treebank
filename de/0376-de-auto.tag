@@ -12,15 +12,15 @@
 <W lemma="heilig" msd="AN" tag="ADJD" in="1:attr#" out="">Heilig</W>
 <W lemma="Abend" msd="NC" tag="NN" in="10:dobj" out="-1:attr#|1:attr">Abend</W>
 <W lemma="1987" msd="AC" tag="CARD" in="-1:attr" out="">1987</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="8:@loc" out="1:nobj">in</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="-1:nobj" out="1:attr|2:possd|3:attr">ihrer</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="-1:attr" out="">neuen</W>
 <W lemma="Genossenschaftswohnung" msd="NC" tag="NN" in="-2:possd" out="">Genossenschaftswohnung</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="-3:attr" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-3:attr" out="1:nobj|2:loc">im</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Stokkebjergvej</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="-2:loc" out="1:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Jydreup</W>
-<W lemma="feiern" msd="VAF" tag="VVINF" in="-14:vobj" out="-10:dobj">feiern</W>
+<W lemma="feiern" msd="VAF" tag="VVINF" in="-14:vobj" out="-10:dobj|-8:@loc">feiern</W>
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 </s>
 </p>
@@ -37,14 +37,14 @@
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-8:time|1:subj|3:vobj|12:pnct">haben</W>
 <W lemma="15" msd="AC" tag="CARD" in="-1:subj" out="1:nobj">15</W>
 <W lemma="Familie" msd="NC" tag="NN" in="-1:nobj" out="">Familien</W>
-<W lemma="unterschreiben" msd="VAP" tag="VVPP" in="-3:vobj" out="1:pnct|2:dobj">unterschrieben</W>
+<W lemma="unterschreiben" msd="VAP" tag="VVPP" in="-3:vobj" out="1:pnct|2:nobj">unterschrieben</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="dass" msd="CS" tag="KOUS" in="-2:dobj" out="6:vobj">dass</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="-2:nobj" out="6:vobj">dass</W>
 <W lemma="sie" msd="PP" tag="PPER" in="5:subj" out="">sie</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="3:@loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>
 <W lemma="Wohngemeinschaft" msd="NC" tag="NN" in="-1:nobj" out="">Wohngemeinschaft</W>
-<W lemma="ziehen" msd="VAF" tag="VVINF" in="1:vobj" out="">ziehen</W>
+<W lemma="ziehen" msd="VAF" tag="VVINF" in="1:vobj" out="-3:@loc">ziehen</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="-6:vobj" out="-5:subj|-1:vobj">wollen</W>
 <W lemma="." msd="XP" tag="$." in="-12:pnct" out="">.</W>
 </s>
@@ -83,10 +83,10 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:nobj">der</W>
 <W lemma="Initiator" msd="NC" tag="NN" in="-1:nobj" out="">Initiatoren</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-4:appa" out="1:nobj">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-4:appa" out="1:nobj|3:appr">der</W>
 <W lemma="Architekt" msd="NC" tag="NN" in="-1:nobj" out="">Architekt</W>
 <W lemma="Flemming" msd="NP" tag="NE" in="1:namef" out="">Flemming</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="-1:namef|1:attr">Østergaard</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:appr" out="-1:namef|1:attr">Østergaard</W>
 <W lemma="aus" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">aus</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">Jyderup</W>
 <W lemma="erzählen" msd="VA" tag="VVFIN" in="" out="-10:subj|1:pnct|2:dobj|19:pnct">erzählt</W>
@@ -119,9 +119,9 @@
 <W lemma="wir" msd="PP" tag="PPER" in="-1:nobj" out="">uns</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-4:pnct|-3:subj|1:time|7:preds|8:pnct">sind</W>
 <W lemma="seit" msd="SP" tag="APPR" in="-1:time" out="1:nobj">seit</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|2:attr">den</W>
-<W lemma="Anfang" msd="NC" tag="NN" in="-1:nobj" out="">Anfängen</W>
-<W lemma="vor" msd="SP" tag="APPR" in="-2:attr" out="1:nobj">vor</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
+<W lemma="Anfang" msd="NC" tag="NN" in="-1:nobj" out="1:time">Anfängen</W>
+<W lemma="vor" msd="SP" tag="APPR" in="-1:time" out="1:nobj">vor</W>
 <W lemma="2" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">2</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahren</W>
 <W lemma="dabei" msd="RG" tag="PTKVZ" in="-7:preds" out="">dabei</W>
@@ -140,17 +140,17 @@
 <W lemma="für" msd="SP" tag="APPR" in="" out="1:nobj">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>
 <W lemma="Genossenschaftswohnung" msd="NC" tag="NN" in="-1:nobj" out="">Genossenschaftswohnung</W>
-<W lemma="stehen" msd="VA" tag="VVFIN" in="" out="-5:subj|1:prg|2:time|12:pnct|16:conj|33:pnct">steht</W>
+<W lemma="stehen" msd="VA" tag="VVFIN" in="" out="-5:subj|1:prg|2:time|5:@loc|12:pnct|16:conj|33:pnct">steht</W>
 <W lemma="bereits" msd="RG" tag="ADV" in="-1:prg" out="">bereits</W>
 <W lemma="1" msd="AC" tag="CARD" in="-2:time" out="1:numa|2:nobj">1</W>
 <W lemma="½" msd="XS" tag="XY" in="-1:numa" out="">½</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-2:nobj" out="">Jahre</W>
-<W lemma="auf" msd="SP" tag="APPR" in="" out="1:nobj">auf</W>
+<W lemma="auf" msd="SP" tag="APPR" in="-5:@loc" out="1:nobj">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Warteliste" msd="NC" tag="NN" in="-1:nobj" out="">Warteliste</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj">des</W>
-<W lemma="Ministerium" msd="NC" tag="NN" in="-1:nobj" out="1:goal">Ministeriums</W>
-<W lemma="für" msd="SP" tag="APPR" in="-1:goal" out="1:nobj">für</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj|2:attr">des</W>
+<W lemma="Ministerium" msd="NC" tag="NN" in="-1:nobj" out="">Ministeriums</W>
+<W lemma="für" msd="SP" tag="APPR" in="-2:attr" out="1:nobj">für</W>
 <W lemma="Wohnungswesen" msd="NC" tag="NN" in="-1:nobj" out="">Wohnungswesen</W>
 <W lemma="," msd="XP" tag="$," in="-12:pnct" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="3:coord" out="">aber</W>
@@ -160,7 +160,7 @@
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="erwarten" msd="VA" tag="VVFIN" in="-2:conj" out="-1:coord|1:pnct">erwartet</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="spätestens" msd="RG" tag="ADV" in="12:dobj" out="1:nobj">spätestens</W>
+<W lemma="spätestens" msd="RG" tag="ADV" in="12:time" out="1:nobj">spätestens</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="-1:nobj" out="2:nobj">im</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:nobj" out="">April-Quartal</W>
 <W lemma="1987" msd="AC" tag="CARD" in="-2:nobj" out="-1:nobj">1987</W>
@@ -168,11 +168,11 @@
 <W lemma="Zuschlag" msd="NC" tag="NN" in="-1:nobj" out="">Zuschlag</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="1:nobj">für</W>
 <W lemma="20" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">20</W>
-<W lemma="Genossenschaftswohnung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Genossenschaftswohnungen</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">in</W>
+<W lemma="Genossenschaftswohnung" msd="NC" tag="NN" in="-1:nobj" out="1:loc">Genossenschaftswohnungen</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">Jyderup</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-15:dobj" out="1:vobj">zu</W>
-<W lemma="bekommen" msd="VAF" tag="VVINF" in="-1:vobj" out="-12:dobj|-8:dobj">bekommen</W>
+<W lemma="bekommen" msd="VAF" tag="VVINF" in="-1:vobj" out="-12:time|-8:dobj">bekommen</W>
 <W lemma="." msd="XP" tag="$." in="-33:pnct" out="">.</W>
 </s>
 </p>
@@ -186,10 +186,10 @@
 <W lemma="Hand" msd="NC" tag="NN" in="-1:nobj" out="">Hände</W>
 <W lemma="aber" msd="RG" tag="ADV" in="-3:conc" out="">aber</W>
 <W lemma="keinesfalls" msd="RG" tag="ADV" in="-4:neg" out="">keinesfalls</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="3:@loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
 <W lemma="Schoß" msd="NC" tag="NN" in="-1:nobj" out="">Schoß</W>
-<W lemma="legen" msd="VAP" tag="VVPP" in="-8:vobj" out="">gelegt</W>
+<W lemma="legen" msd="VAP" tag="VVPP" in="-8:vobj" out="-3:@loc">gelegt</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:expl" out="">Es</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="-1:expl|1:dobj|14:pnct">gibt</W>
@@ -200,8 +200,8 @@
 <W lemma="Genossenschaftswohnung" msd="NC" tag="NN" in="-1:nobj" out="">Genossenschaftswohnungen</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-6:conj" out="-1:coord|1:nobj">eine</W>
-<W lemma="Reihe" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Reihe</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">von</W>
+<W lemma="Reihe" msd="NC" tag="NN" in="-1:nobj" out="1:attr">Reihe</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">von</W>
 <W lemma="Beschluß" msd="NC" tag="NN" in="-1:nobj" out="1:attr">Beschlüssen</W>
 <W lemma="für" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>

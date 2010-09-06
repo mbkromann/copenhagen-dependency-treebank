@@ -5,9 +5,9 @@
 <W lemma="Zeitpunkt" msd="NC" tag="NN" in="-1:nobj" out="">Zeitpunkt</W>
 <W lemma="machen" msd="VA" tag="VVFIN" in="" out="-3:time|1:robj|2:subj|8:dobj|9:pnct">machten</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-2:subj" out="1:nobj|2:attrg">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-2:subj" out="1:nobj">die</W>
 <W lemma="Eltern" msd="NC" tag="NN" in="-1:nobj" out="">Eltern</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-2:attrg" out="1:attr|2:nobj">des</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:attr|2:nobj">des</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="-1:attr" out="">kleinen</W>
 <W lemma="Kind" msd="NC" tag="NN" in="-2:nobj" out="">Kindes</W>
 <W lemma="ernst" msd="AN" tag="ADJA" in="1:attr" out="">ernste</W>
@@ -28,11 +28,11 @@
 <W lemma="Sohn" msd="NC" tag="NN" in="-1:nobj" out="">Sohn</W>
 <W lemma="verkrustet" msd="AN" tag="ADJA" in="1:attr" out="">verkrustetes</W>
 <W lemma="Blut" msd="NC" tag="NN" in="5:dobj" out="-1:attr">Blut</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="4:loc" out="1:nobj">in</W>
 <W lemma="Nase" msd="NC" tag="NN" in="-1:nobj" out="2:conj">Nase</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Mund" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Mund</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="-9:vobj" out="-8:subj|-5:dobj">hatte</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="-9:vobj" out="-8:subj|-5:dobj|-4:loc">hatte</W>
 <W lemma="." msd="XP" tag="$." in="-17:pnct" out="">.</W>
 </s>
 </p>
@@ -46,8 +46,8 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="mit" msd="SP" tag="APPR" in="4:pobj" out="1:nobj">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|5:pnct|13:relpa">der</W>
-<W lemma="Gemeinde" msd="NC" tag="NN" in="-1:nobj" out="">Gemeinde</W>
-<W lemma="Kopenhagen" msd="NP" tag="NE" in="" out="">Kopenhagen</W>
+<W lemma="Gemeinde" msd="NC" tag="NN" in="-1:nobj" out="1:nobj">Gemeinde</W>
+<W lemma="Kopenhagen" msd="NP" tag="NE" in="-1:nobj" out="">Kopenhagen</W>
 <W lemma="Kontakt" msd="NC" tag="NN" in="1:dobj" out="-4:pobj">Kontakt</W>
 <W lemma="aufnehmen" msd="VAF" tag="VVIZU" in="-7:vobj" out="-1:dobj|11:goal">aufzunehmen</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
@@ -81,17 +81,17 @@
 <W lemma="am" msd="SP+P" tag="APPRART" in="" out="1:nobj">Am</W>
 <W lemma="@ord@" msd="AN" tag="ADJA" in="-1:nobj" out="">8.</W>
 <W lemma="November" msd="NC" tag="NN" in="1:subj" out="">November</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:subj|6:vobj|7:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:subj|6:vobj">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">der</W>
 <W lemma="Tagesväter" msd="NC" tag="NN" in="-1:nobj" out="">Tagesvater</W>
 <W lemma="laut" msd="SP" tag="APPR" in="3:source" out="1:nobj">laut</W>
 <W lemma="Anklage" msd="NC" tag="NN" in="-1:nobj" out="">Anklage</W>
 <W lemma="Amok" msd="NC" tag="NN" in="1:aobj" out="">Amok</W>
-<W lemma="laufen" msd="VAP" tag="VVPP" in="-6:vobj" out="-3:source|-1:aobj">gelaufen</W>
-<W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
+<W lemma="laufen" msd="VAP" tag="VVPP" in="-6:vobj" out="-3:source|-1:aobj|1:pnct">gelaufen</W>
+<W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
 <W lemma="Hs." msd="NC" tag="NN" in="" out="">Hs.</W>
-<W lemma="Aussage" msd="NC" tag="NN" in="" out="6:pnct|13:relr">Aussage</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="Aussage" msd="NC" tag="NN" in="" out="1:loc|6:pnct|13:relr">Aussage</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:attr|3:nobj">der</W>
 <W lemma="erst" msd="AN" tag="ADJA" in="-1:attr" out="">ersten</W>
 <W lemma="richterlich" msd="AN" tag="ADJA" in="-2:attr" out="">richterlichen</W>

@@ -40,13 +40,13 @@
 <p>
 <s>
 <W lemma="außerdem" msd="RG" tag="ADV" in="1:add" out="">Außerdem</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:add|1:subj|10:pnct">sind</W>
-<W lemma="sie" msd="PP" tag="PPER" in="-1:subj" out="1:nobj">sie</W>
-<W lemma="zwei" msd="AC" tag="CARD" in="-1:nobj" out="1:pobj">zwei</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:add|1:subj|2:preds|10:pnct">sind</W>
+<W lemma="sie" msd="PP" tag="PPER" in="-1:subj" out="">sie</W>
+<W lemma="zwei" msd="AC" tag="CARD" in="-2:preds" out="1:pobj">zwei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:attr|2:nobj">der</W>
 <W lemma="talentiert" msd="AN" tag="ADJA" in="-1:attr" out="">talentiertesten</W>
-<W lemma="Schauspieler" msd="NC" tag="NN" in="-2:nobj" out="1:attr">Schauspieler</W>
-<W lemma="am" msd="SP+P" tag="APPRART" in="-1:attr" out="1:nobj">am</W>
+<W lemma="Schauspieler" msd="NC" tag="NN" in="-2:nobj" out="1:loc">Schauspieler</W>
+<W lemma="am" msd="SP+P" tag="APPRART" in="-1:loc" out="1:nobj">am</W>
 <W lemma="Theater" msd="NC" tag="NN" in="-1:nobj" out="1:attr">Theater</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="-1:nobj" out="">Odense</W>
@@ -54,7 +54,7 @@
 <W lemma="jetzt" msd="RG" tag="ADV" in="1:time" out="">Jetzt</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="-1:time|1:subj|17:vobj|18:pnct">sollen</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-1:subj" out="">sie</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="15:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Theaterfassung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Theaterfassung</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:nobj|2:nobj|6:agent">des</W>
@@ -69,7 +69,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="3:dobj" out="2:conj">Tvebak</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Jonathan" msd="NP" tag="NE" in="-2:conj" out="-1:coord">Jonathan</W>
-<W lemma="spielen" msd="VAF" tag="VVINF" in="-17:vobj" out="-3:dobj">spielen</W>
+<W lemma="spielen" msd="VAF" tag="VVINF" in="-17:vobj" out="-15:loc|-3:dobj">spielen</W>
 <W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
 </s>
 </p>
@@ -80,10 +80,10 @@
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="Henrik" msd="NP" tag="NE" in="1:namef" out="">Henrik</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-3:conj" out="-2:coord|-1:namef">Prip</W>
-<W lemma="bemühen" msd="VA" tag="VVFIN" in="" out="-4:subj|1:dobj|10:pnct">bemühen</W>
+<W lemma="bemühen" msd="VA" tag="VVFIN" in="" out="-4:subj|1:dobj|3:pnct|10:pnct">bemühen</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:dobj" out="1:pobj">sich</W>
-<W lemma="derzeit" msd="RG" tag="ADV" in="-1:pobj" out="1:pnct|6:nobj">derzeit</W>
-<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="derzeit" msd="RG" tag="ADV" in="-1:pobj" out="6:nobj">derzeit</W>
+<W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="5:dobj" out="1:attr|2:possd">ihre</W>
 <W lemma="kindlich" msd="AN" tag="ADJA" in="-1:attr" out="">kindliche</W>
 <W lemma="Gesinnung" msd="NC" tag="NN" in="-2:possd" out="">Gesinnung</W>
@@ -94,20 +94,20 @@
 <W lemma="man" msd="PP" tag="PIS" in="1:subj" out="">Man</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|2:vobj|22:pnct">hat</W>
 <W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="1:dobj" out="">Ihnen</W>
-<W lemma="befehlen" msd="VAP" tag="VVPP" in="-2:vobj" out="-1:dobj|1:pnct|4:dobj">befohlen</W>
+<W lemma="befehlen" msd="VAP" tag="VVPP" in="-2:vobj" out="-1:dobj|1:pnct|4:nobj">befohlen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="3:dobj" out="1:possd">ihr</W>
 <W lemma="Gedächtnis" msd="NC" tag="NN" in="-1:possd" out="">Gedächtnis</W>
-<W lemma="zu" msd="U=" tag="PTKZU" in="-4:dobj" out="1:vobj|3:conj">zu</W>
+<W lemma="zu" msd="U=" tag="PTKZU" in="-4:nobj" out="1:vobj|3:conj">zu</W>
 <W lemma="durchforschen" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:dobj">durchforschen</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-3:conj" out="-1:coord|1:vobj">zu</W>
 <W lemma="versuchen" msd="VAF" tag="VVINF" in="-1:vobj" out="1:pnct|4:dobj">versuchen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:robj" out="">sich</W>
-<W lemma="daran" msd="RG" tag="PAV" in="2:pobj" out="4:nobj">daran</W>
+<W lemma="daran" msd="RG" tag="PAV" in="2:avobj" out="4:nobj">daran</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-4:dobj" out="1:vobj">zu</W>
-<W lemma="erinnern" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:robj|-2:pobj|1:pnct">erinnern</W>
+<W lemma="erinnern" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:robj|-2:avobj|1:pnct">erinnern</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="wie" msd="CS" tag="KOUS" in="-4:nobj" out="4:relr">wie</W>
 <W lemma="sie" msd="PP" tag="PPER" in="3:subj" out="">sie</W>
@@ -163,13 +163,13 @@
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="damals" msd="RG" tag="ADV" in="1:time" out="">Damals</W>
-<W lemma="kommen" msd="VA" tag="VVFIN" in="" out="-2:pnct|-1:time|1:subj|9:pnct">kamen</W>
+<W lemma="kommen" msd="VA" tag="VVFIN" in="" out="-2:pnct|-1:time|1:subj|2:time|9:pnct">kamen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj" out="">wir</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">das</W>
+<W lemma="in" msd="SP" tag="APPR" in="-2:time" out="1:nobj">in</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj|3:loc">das</W>
 <W lemma="gleich" msd="AN" tag="ADJA" in="-1:attr" out="">gleiche</W>
 <W lemma="Fußballteam" msd="NC" tag="NN" in="-2:nobj" out="">Fußballteam</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="-3:loc" out="1:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="1:nobj">Vedbæk</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Boldklub</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
@@ -178,10 +178,10 @@
 <W lemma="viel" msd="PI" tag="PIDAT" in="1:quant" out="">viele</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-2:time" out="-1:quant">Jahre</W>
 <W lemma="gemeinsam" msd="AN" tag="ADJD" in="4:man" out="">gemeinsam</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="3:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
 <W lemma="Team" msd="NC" tag="NN" in="-1:nobj" out="">Team</W>
-<W lemma="spielen" msd="VAP" tag="VVPP" in="-7:vobj" out="-4:man">gespielt</W>
+<W lemma="spielen" msd="VAP" tag="VVPP" in="-7:vobj" out="-4:man|-3:loc">gespielt</W>
 <W lemma="," msd="XP" tag="$," in="-8:pnct" out="">,</W>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="-9:pnct" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-10:qobj|2:subj|3:pnct">sagt</W>
@@ -216,8 +216,8 @@
 <W lemma="Kim" msd="NP" tag="NE" in="-1:subj" out="">Kim</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-2:iobj" out="">sich</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="schlagen" msd="VA" tag="VVFIN" in="-4:conj" out="-1:coord|4:pnct|8:conc|11:pnct">schlägt</W>
-<W lemma="auf" msd="SP" tag="APPR" in="" out="1:nobj">auf</W>
+<W lemma="schlagen" msd="VA" tag="VVFIN" in="-4:conj" out="-1:coord|1:@loc|4:pnct|8:conc|11:pnct">schlägt</W>
+<W lemma="auf" msd="SP" tag="APPR" in="-1:@loc" out="1:nobj">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>
 <W lemma="Pfeife" msd="NC" tag="NN" in="-1:nobj" out="">Pfeife</W>
 <W lemma="-" msd="XP" tag="$(" in="-4:pnct" out="">-</W>
@@ -225,8 +225,8 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="2:vobj" out="-1:subj|1:eval|4:vobj">sind</W>
 <W lemma="wohl" msd="RG" tag="ADV" in="-1:eval" out="">wohl</W>
 <W lemma="doch" msd="RG" tag="ADV" in="-8:conc" out="-2:vobj">doch</W>
-<W lemma="erwachsen" msd="VAP" tag="VVPP" in="1:vobj" out="">erwachsen</W>
-<W lemma="werden" msd="VAP" tag="VAPP" in="-4:vobj" out="-1:vobj">geworden</W>
+<W lemma="erwachsen" msd="VAP" tag="VVPP" in="1:preds" out="">erwachsen</W>
+<W lemma="werden" msd="VAP" tag="VAPP" in="-4:vobj" out="-1:preds">geworden</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
 </s>
 </p>

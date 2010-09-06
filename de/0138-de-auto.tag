@@ -39,8 +39,8 @@
 <W lemma="Ding" msd="NC" tag="NN" in="-1:nobj" out="">Dinge</W>
 <W lemma="&3a;" msd="XP" tag="$." in="-2:pnct" out="">:</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:conj" out="1:nobj|4:attr|7:pnct|8:nobj|16:conj">das</W>
-<W lemma="Benehmen" msd="NC" tag="NN" in="-1:nobj" out="1:possr">Benehmen</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:possr" out="1:nobj">des</W>
+<W lemma="Benehmen" msd="NC" tag="NN" in="-1:nobj" out="">Benehmen</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj">des</W>
 <W lemma="Angeklagte" msd="NC" tag="NN" in="-1:nobj" out="">Angeklagten</W>
 <W lemma="vor" msd="SP" tag="APPR" in="-4:attr" out="1:nobj">vor</W>
 <W lemma="Gericht" msd="NC" tag="NN" in="-1:nobj" out="">Gericht</W>
@@ -58,7 +58,7 @@
 <W lemma="Tatsache" msd="NC" tag="NN" in="-1:nobj" out="">Tatsache</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="15:vobj">dass</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="2:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="14:iter" out="2:nobj">in</W>
 <W lemma="jed" msd="PI" tag="PIDAT" in="1:attr" out="">jeder</W>
 <W lemma="Pause" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Pause</W>
 <W lemma="Zeuge" msd="NC" tag="NN" in="11:subj" out="1:pnct|2:conj|4:conj">Zeugen</W>
@@ -66,13 +66,13 @@
 <W lemma="Zuhörer" msd="NC" tag="NN" in="-2:conj" out="">Zuhörer</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Angeklagte" msd="NC" tag="NN" in="-4:conj" out="-1:coord">Angeklagte</W>
-<W lemma="zusammen" msd="RG" tag="ADV" in="6:time" out="">zusammen</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="" out="1:nobj">im</W>
-<W lemma="Warteraum" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.subj">Warteraum</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.subj" out="1:nobj">des</W>
+<W lemma="zusammen" msd="RG" tag="ADV" in="6:man" out="">zusammen</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="5:time" out="1:nobj">im</W>
+<W lemma="Warteraum" msd="NC" tag="NN" in="-1:nobj" out="">Warteraum</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj">des</W>
 <W lemma="Gericht" msd="NC" tag="NN" in="-1:nobj" out="">Gerichtes</W>
 <W lemma="versammeln" msd="VAP" tag="VVPP" in="1:vobj" out="">versammelt</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-15:vobj" out="-11:subj|-6:time|-1:vobj">waren</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-15:vobj" out="-14:iter|-11:subj|-6:man|-5:time|-1:vobj">waren</W>
 <W lemma="." msd="XP" tag="$." in="-40:pnct" out="">.</W>
 </s>
 </p>
@@ -111,8 +111,8 @@
 <W lemma="jetzt" msd="RG" tag="ADV" in="9:time" out="">Jetzt</W>
 <W lemma="," msd="XP" tag="$," in="1:pnct" out="">,</W>
 <W lemma="fünf" msd="AC" tag="CARD" in="7:time" out="-1:pnct|1:nobj|6:pnct">fünf</W>
-<W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Tage</W>
-<W lemma="nach" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">nach</W>
+<W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="1:avobj">Tage</W>
+<W lemma="nach" msd="SP" tag="APPR" in="-1:avobj" out="1:nobj">nach</W>
 <W lemma="Abschluß" msd="NC" tag="NN" in="-1:nobj" out="">Abschluss</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj">der</W>
 <W lemma="Verhandlung" msd="NC" tag="NN" in="-1:nobj" out="">Verhandlung</W>
@@ -125,9 +125,9 @@
 <W lemma="man" msd="PP" tag="PIS" in="1:subj" out="">Man</W>
 <W lemma="bezahlen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:iobj|2:dobj|5:pobj|15:pnct">bezahlt</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-1:iobj" out="">mit</W>
-<W lemma="30" msd="AC" tag="CARD" in="-2:dobj" out="1:nobj|2:possd">30</W>
+<W lemma="30" msd="AC" tag="CARD" in="-2:dobj" out="1:nobj|2:nobj">30</W>
 <W lemma="km" msd="NC" tag="NN" in="-1:nobj" out="">km</W>
-<W lemma="Fahrt" msd="NC" tag="NN" in="-2:possd" out="">Fahrt</W>
+<W lemma="Fahrt" msd="NC" tag="NN" in="-2:nobj" out="">Fahrt</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="-5:pobj" out="2:nobj|5:pnct|6:appa">zum</W>
 <W lemma="niedrig" msd="AN" tag="ADJA" in="1:attr" out="">niedrigsten</W>
 <W lemma="Satz" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Satz</W>
@@ -148,17 +148,17 @@
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
 <W lemma="ich" msd="PP" tag="PPER" in="1:subj" out="">Ich</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|12:vobj|13:pnct">hätte</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="10:dobj" out="2:nobj|5:pnct|6:nobj">den</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="10:dobj" out="2:nobj|5:pnct|6:appa">den</W>
 <W lemma="hoch" msd="AN" tag="ADJA" in="1:attr" out="">höchsten</W>
 <W lemma="Satz" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Satz</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="7:dobj" out="1:nobj">des</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj">des</W>
 <W lemma="Staat" msd="NC" tag="NN" in="-1:nobj" out="">Staates</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
-<W lemma="@card@" msd="AC" tag="CARD" in="-6:nobj" out="1:nobj">2,13</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="-6:appa" out="1:nobj">2,13</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">kr</W>
 <W lemma="pro" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">pro</W>
 <W lemma="km" msd="NC" tag="NN" in="-1:nobj" out="">km</W>
-<W lemma="bekommen" msd="VAF" tag="VVINF" in="1:vobj" out="-10:dobj|-7:dobj">bekommen</W>
+<W lemma="bekommen" msd="VAF" tag="VVINF" in="1:vobj" out="-10:dobj">bekommen</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="-12:vobj" out="-1:vobj">sollen</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 <W lemma="dabei" msd="RG" tag="PAV" in="1:add" out="">Dabei</W>
@@ -200,8 +200,8 @@
 <p>
 <s>
 <W lemma="verlieren" msd="VA" tag="VVFIN" in="" out="-5:pnct|1:dobj|7:¹pnct">VERLIERT</W>
-<W lemma="2" msd="AC" tag="CARD" in="-1:dobj" out="">2</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">000KR</W>
+<W lemma="2" msd="AC" tag="CARD" in="-1:dobj" out="1:nobj">2</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">000KR</W>
 </s>
 </p>
 <p>
@@ -226,9 +226,9 @@
 <W lemma="ungerecht" msd="AN" tag="ADJD" in="-2:preds" out="-1:quant">ungerecht</W>
 <W lemma="&3a;" msd="XP" tag="$." in="-3:pnct" out="">:</W>
 <W lemma="an" msd="SP" tag="APPR" in="4:time" out="1:nobj">an</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="2:nobj">einem</W>
-<W lemma="derartig" msd="AN" tag="ADJA" in="1:attr" out="">derartigen</W>
-<W lemma="Tag" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Tag</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">einem</W>
+<W lemma="derartig" msd="AN" tag="ADJA" in="-1:attr" out="">derartigen</W>
+<W lemma="Tag" msd="NC" tag="NN" in="-2:nobj" out="">Tag</W>
 <W lemma="zahlen" msd="VA" tag="VVFIN" in="-8:xpl" out="-4:time|1:subj|2:dobj|5:avobj|6:pnct">zahle</W>
 <W lemma="ich" msd="PP" tag="PPER" in="-1:subj" out="">ich</W>
 <W lemma="2" msd="AC" tag="CARD" in="-2:dobj" out="1:+">2</W>

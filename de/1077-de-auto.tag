@@ -49,7 +49,7 @@
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-6:nobj" out="18:vobj">dass</W>
 <W lemma="es" msd="PP" tag="PPER" in="17:expl" out="">es</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="2:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="16:loc" out="2:nobj">in</W>
 <W lemma="privat" msd="AN" tag="ADJA" in="1:attr" out="">privaten</W>
 <W lemma="Wald" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|2:conj">Wäldern</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
@@ -65,7 +65,7 @@
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="privat" msd="AN" tag="ADJA" in="1:attr" out="">privaten</W>
 <W lemma="Jäger" msd="NC" tag="NN" in="-3:conj" out="-2:coord|-1:attr">Jägern</W>
-<W lemma="geben" msd="VA" tag="VVFIN" in="-18:vobj" out="-17:expl|-11:dobj">gibt</W>
+<W lemma="geben" msd="VA" tag="VVFIN" in="-18:vobj" out="-17:expl|-16:loc|-11:dobj">gibt</W>
 <W lemma="." msd="XP" tag="$." in="-24:pnct" out="">.</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="2:subj" out="1:nobj">Alle</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Wildstatistiken</W>
@@ -87,35 +87,35 @@
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="1:dobj" out="">ihrer</W>
 <W lemma="annehmen" msd="VA" tag="VVFIN" in="-5:vobj" out="-3:subj|-2:robj|-1:dobj">annehmen</W>
 <W lemma="." msd="XP" tag="$." in="-17:pnct" out="">.</W>
-<W lemma="mehr" msd="PI" tag="PIAT" in="" out="1:nobj|2:pnct|4:conj|5:pnct|7:pnct|10:conj|11:pnct">Mehr</W>
+<W lemma="mehr" msd="PI" tag="PIAT" in="" out="1:nobj|2:pnct|4:nobj|5:pnct|7:nobj|10:nobj|11:pnct">Mehr</W>
 <W lemma="Wild" msd="NC" tag="NN" in="-1:nobj" out="">Wild</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="gut" msd="AN" tag="ADJA" in="1:attr" out="">besseres</W>
-<W lemma="Futter" msd="NC" tag="NN" in="-4:conj" out="-1:attr">Futter</W>
+<W lemma="Futter" msd="NC" tag="NN" in="-4:nobj" out="-1:attr">Futter</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="gut" msd="AN" tag="ADJA" in="1:attr" out="">besseres</W>
-<W lemma="Wild" msd="NC" tag="NN" in="-7:pnct" out="-1:attr">Wild</W>
+<W lemma="Wild" msd="NC" tag="NN" in="-7:nobj" out="-1:attr">Wild</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="gut" msd="AN" tag="ADJA" in="1:attr" out="">bessere</W>
-<W lemma="Landschaftspflege" msd="NC" tag="NN" in="-10:conj" out="-2:coord|-1:attr">Landschaftspflege</W>
+<W lemma="Landschaftspflege" msd="NC" tag="NN" in="-10:nobj" out="-2:coord|-1:attr">Landschaftspflege</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj|2:exem">In</W>
+<W lemma="in" msd="SP" tag="APPR" in="12:loc" out="1:nobj|2:exem">In</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="2:pnct|9:relpa">Südseeland</W>
 <W lemma="beispielsweise" msd="AN" tag="ADJD" in="-2:exem" out="">beispielsweise</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
-<W lemma="wo" msd="PT" tag="PWAV" in="" out="">wo</W>
+<W lemma="wo" msd="PT" tag="PWAV" in="6:loc" out="">wo</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="5:subj" out="1:attr|2:nobj">die</W>
 <W lemma="meist" msd="PI" tag="PIDAT" in="-1:attr" out="">meisten</W>
 <W lemma="Jagdgebiet" msd="NC" tag="NN" in="-2:nobj" out="">Jagdgebiet</W>
 <W lemma="privat" msd="AN" tag="ADJD" in="1:man" out="">privat</W>
 <W lemma="verpachten" msd="VAP" tag="VVPP" in="1:vobj" out="-1:man">verpachtet</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="-9:relpa" out="-5:subj|-1:vobj|1:pnct">werden</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="-9:relpa" out="-6:loc|-5:subj|-1:vobj|1:pnct">werden</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="geben" msd="VA" tag="VVFIN" in="" out="1:expl|3:dobj|7:conj|28:pnct">gibt</W>
+<W lemma="geben" msd="VA" tag="VVFIN" in="" out="-12:loc|1:expl|3:dobj|7:conj|28:pnct">gibt</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:expl" out="">es</W>
 <W lemma="wesentlich" msd="AN" tag="ADJD" in="1:quant" out="">wesentlich</W>
 <W lemma="mehr" msd="PI" tag="PIAT" in="-3:dobj" out="-1:quant|1:nobj">mehr</W>
@@ -125,8 +125,8 @@
 <W lemma="bestehen" msd="VA" tag="VVFIN" in="-7:conj" out="-2:coord|-1:time|1:subj|10:pnct|11:cause">besteht</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:subj" out="1:attr|2:nobj">ein</W>
 <W lemma="natürlich" msd="AN" tag="ADJA" in="-1:attr" out="">natürlicheres</W>
-<W lemma="Verhältnis" msd="NC" tag="NN" in="-2:nobj" out="1:pobj.subj">Verhältnis</W>
-<W lemma="zwischen" msd="SP" tag="APPR" in="-1:pobj.subj" out="1:nobj">zwischen</W>
+<W lemma="Verhältnis" msd="NC" tag="NN" in="-2:nobj" out="">Verhältnis</W>
+<W lemma="zwischen" msd="SP" tag="APPR" in="" out="1:nobj">zwischen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|3:conj">der</W>
 <W lemma="Jagd" msd="NC" tag="NN" in="-1:nobj" out="">Jagd</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
@@ -144,8 +144,8 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="-5:nobj" out="1:vobj">zu</W>
 <W lemma="sehen" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:dobj">sehen</W>
 <W lemma="." msd="XP" tag="$." in="-28:pnct" out="">.</W>
-<W lemma="es" msd="PP" tag="PPER" in="1:subj" out="">Es</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:subj|3:vobj|6:conj|13:pnct">wird</W>
+<W lemma="es" msd="PP" tag="PPER" in="1:expl" out="">Es</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:expl|3:vobj|6:conj|13:pnct">wird</W>
 <W lemma="mehr" msd="PI" tag="PIAT" in="2:dobj" out="1:nobj">mehr</W>
 <W lemma="Wild" msd="NC" tag="NN" in="-1:nobj" out="">Wild</W>
 <W lemma="verzehren" msd="VAP" tag="VVPP" in="-3:vobj" out="-2:dobj">verzehrt</W>
@@ -163,8 +163,8 @@
 <W lemma="Gegensatz" msd="NC" tag="NN" in="-1:nobj" out="">Gegensatz</W>
 <W lemma="dazu" msd="RG" tag="PAV" in="1:pobj" out="">dazu</W>
 <W lemma="gehen" msd="VA" tag="VVFIN" in="" out="-3:contr|-1:pobj|1:subj|4:iter|7:pnct|8:time|12:man|13:@dir|16:pnct">gehen</W>
-<W lemma="Staatsangestellte" msd="NC" tag="NN" in="-1:subj" out="">Staatsangestellte</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="Staatsangestellte" msd="NC" tag="NN" in="-1:subj" out="1:loc">Staatsangestellte</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Nordseeland</W>
 <W lemma="an" msd="SP" tag="APPR" in="-4:iter" out="1:nobj">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
@@ -181,19 +181,19 @@
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Das</W>
 <W lemma="Wild" msd="NC" tag="NN" in="-1:nobj" out="">Wild</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-2:subj|8:vobj|12:conj">wird</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-2:subj|8:vobj|12:conj|23:pnct">wird</W>
 <W lemma="zu" msd="SP" tag="APPR" in="7:goal" out="1:nobj">zu</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="1:pobj.iobj">Gunsten</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.iobj" out="1:nobj">der</W>
 <W lemma="Staatskasse" msd="NC" tag="NN" in="-1:nobj" out="">Staatskasse</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="3:dobj" out="2:nobj">einem</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="3:iobj" out="2:nobj">einem</W>
 <W lemma="geschlossen" msd="AN" tag="ADJA" in="1:attr" out="">geschlossenen</W>
 <W lemma="Kreis" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Kreis</W>
-<W lemma="verkaufen" msd="VAP" tag="VVPP" in="-8:vobj" out="-7:goal|-3:dobj">verkauft</W>
+<W lemma="verkaufen" msd="VAP" tag="VVPP" in="-8:vobj" out="-7:goal|-3:iobj">verkauft</W>
 <W lemma="und" msd="CC" tag="KON" in="3:coord" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">die</W>
 <W lemma="Mensch" msd="NC" tag="NN" in="-1:nobj" out="">Menschen</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="-12:conj" out="-3:coord|-2:subj|10:vobj|11:pnct">werden</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="-12:conj" out="-3:coord|-2:subj|10:vobj">werden</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="9:dobj" out="1:nobj|2:pnct|7:relr">der</W>
 <W lemma="Jagd" msd="NC" tag="NN" in="-1:nobj" out="">Jagd</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
@@ -204,6 +204,6 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="-7:relr" out="-4:subj|-3:eval|-1:preds|1:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="entfremden" msd="VAP" tag="VVPP" in="-10:vobj" out="-9:dobj">entfremdet</W>
-<W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
+<W lemma="." msd="XP" tag="$." in="-23:pnct" out="">.</W>
 </s>
 </p>

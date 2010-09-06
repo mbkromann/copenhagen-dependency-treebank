@@ -38,14 +38,14 @@
 </p>
 <p>
 <s>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">In</W>
+<W lemma="in" msd="SP" tag="APPR" in="3:loc" out="1:nobj">In</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Debatte" msd="NC" tag="NN" in="-1:nobj" out="">Debatte</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="" out="7:vobj|8:pnct">wird</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-3:loc|7:vobj|8:pnct">wird</W>
 <W lemma="gegen" msd="SP" tag="APPR" in="6:pobj" out="1:nobj">gegen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">das</W>
-<W lemma="Repertoire" msd="NC" tag="NN" in="-1:nobj" out="">Repertoire</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:attr|2:nobj">des</W>
+<W lemma="Repertoire" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Repertoire</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:attr|2:nobj">des</W>
 <W lemma="königlich" msd="AN" tag="ADJA" in="-1:attr" out="">königlichen</W>
 <W lemma="Theater" msd="NC" tag="NN" in="-2:nobj" out="">Theaters</W>
 <W lemma="wettern" msd="VAP" tag="VVPP" in="-7:vobj" out="-6:pobj">gewettert</W>
@@ -67,7 +67,7 @@
 <W lemma="abreißen" msd="VA" tag="VVFIN" in="-7:vobj" out="-6:subj|-4:iobj|-2:dobj">abreißen</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 <W lemma="gleichzeitig" msd="AN" tag="ADJD" in="1:time" out="">Gleichzeitig</W>
-<W lemma="scheuen" msd="VA" tag="VVFIN" in="" out="-1:time|1:subj|2:dobj|3:pobj|4:pnct|10:pnct|25:pnct">scheuen</W>
+<W lemma="scheuen" msd="VA" tag="VVFIN" in="" out="-1:time|1:subj|2:dobj|3:pobj|4:pnct|25:pnct">scheuen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj" out="">wir</W>
 <W lemma="wir" msd="PR" tag="PRF" in="-2:dobj" out="">uns</W>
 <W lemma="davor" msd="RG" tag="PAV" in="-3:pobj" out="5:nobj">davor</W>
@@ -76,12 +76,12 @@
 <W lemma="teuer" msd="AN" tag="ADJA" in="1:attr" out="-1:quant">teure</W>
 <W lemma="Buch" msd="NC" tag="NN" in="2:dobj" out="-1:attr">Bücher</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-5:nobj" out="1:vobj">zu</W>
-<W lemma="kaufen" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:dobj|2:conj|8:conj">kaufen</W>
-<W lemma="," msd="XP" tag="$," in="-10:pnct" out="">,</W>
-<W lemma="lassen" msd="VA" tag="VVFIN" in="-2:conj" out="1:subj">lassen</W>
+<W lemma="kaufen" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:dobj|1:pnct|2:conj|8:conj">kaufen</W>
+<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
+<W lemma="lassen" msd="VA" tag="VVFIN" in="-2:conj" out="1:subj|3:dobj">lassen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">die</W>
 <W lemma="Kino" msd="NC" tag="NN" in="-1:nobj" out="">Kinos</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-3:dobj" out="1:nobj">im</W>
 <W lemma="Stich" msd="NC" tag="NN" in="-1:nobj" out="">Stich</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="sehen" msd="VA" tag="VVFIN" in="-8:conj" out="-1:coord|1:dobj|2:pnct|3:contr">sehen</W>
@@ -111,8 +111,8 @@
 <W lemma="nach" msd="RG" tag="PTKVZ" in="-3:time" out="2:conj">nach</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="nach" msd="SP" tag="APPR" in="-2:conj" out="-1:coord">nach</W>
-<W lemma="mehr" msd="RG" tag="ADV" in="1:focal" out="">mehr</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-7:dobj" out="-1:focal|1:nobj|5:resem">den</W>
+<W lemma="mehr" msd="RG" tag="ADV" in="1:quant" out="">mehr</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-7:dobj" out="-1:quant|1:nobj|5:resem">den</W>
 <W lemma="Charakter" msd="NC" tag="NN" in="-1:nobj" out="">Charakter</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="1:nobj">eines</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Pintengags</W>
@@ -129,11 +129,11 @@
 </p>
 <p>
 <s>
-<W lemma="es" msd="PP" tag="PPER" in="1:subj" out="4:nobj">Es</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|2:pnct|32:pnct">ist</W>
+<W lemma="es" msd="PP" tag="PPER" in="1:subj" out="">Es</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|2:pnct|3:nobj|32:pnct">ist</W>
 <W lemma="klar" msd="AN" tag="ADJD" in="-1:preds" out="">klar</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
-<W lemma="dass" msd="CS" tag="KOUS" in="-4:nobj" out="15:vobj">dass</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="15:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="14:subj" out="2:attr|3:attr|4:nobj|8:attr">die</W>
 <W lemma="etwas" msd="PP" tag="PIS" in="1:quant" out="">etwas</W>
 <W lemma="eigenartig" msd="AN" tag="ADJD" in="-2:attr" out="-1:quant">eigenartig</W>
@@ -153,7 +153,7 @@
 <W lemma="Klatsch" msd="NC" tag="NN" in="11:subj" out="2:conj">Klatsch</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Tratsch" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Tratsch</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="8:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Provinz" msd="NC" tag="NN" in="-1:nobj" out="">Provinz</W>
 <W lemma="ja" msd="RG" tag="ADV" in="5:eval" out="">ja</W>
@@ -161,7 +161,7 @@
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="3:neg" out="-1:add">nicht</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="2:preds" out="1:vobj">zu</W>
 <W lemma="verachten" msd="VAF" tag="VVINF" in="-1:vobj" out="">verachten</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-13:conj" out="-12:coord|-11:subj|-5:eval|-3:neg|-2:preds">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-13:conj" out="-12:coord|-11:subj|-8:loc|-5:eval|-3:neg|-2:preds">sind</W>
 <W lemma="." msd="XP" tag="$." in="-32:pnct" out="">.</W>
 </s>
 </p>
@@ -198,10 +198,10 @@
 </p>
 <p>
 <s>
-<W lemma="unter" msd="SP" tag="APPR" in="" out="1:nobj">Unter</W>
+<W lemma="unter" msd="SP" tag="APPR" in="3:loc" out="1:nobj">Unter</W>
 <W lemma="wir" msd="PR" tag="PRF" in="-1:nobj" out="1:nobj">uns</W>
 <W lemma="Kulturvermittler" msd="NC" tag="NN" in="-1:nobj" out="">Kulturvermittlern</W>
-<W lemma="gehören" msd="VA" tag="VVFIN" in="" out="1:subj|2:neg|3:pobj|6:nobj|16:pnct">gehört</W>
+<W lemma="gehören" msd="VA" tag="VVFIN" in="" out="-3:loc|1:subj|2:neg|3:pobj|6:nobj|16:pnct">gehört</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="">es</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-2:neg" out="">nicht</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="-3:pobj" out="1:attr|2:nobj">zum</W>

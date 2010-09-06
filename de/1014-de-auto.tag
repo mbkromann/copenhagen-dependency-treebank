@@ -54,13 +54,13 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Die</W>
 <W lemma="Kommune" msd="NC" tag="NN" in="-1:nobj" out="">Kommunen</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="29:qobj" out="-2:subj|7:vobj|8:pnct|16:conj|27:pnct|28:pnct">müssen</W>
-<W lemma="in" msd="SP" tag="APPR" in="6:pobj" out="2:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="6:man" out="2:nobj">in</W>
 <W lemma="hinreichend" msd="AN" tag="ADJA" in="1:attr" out="">hinreichendem</W>
 <W lemma="Maß" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Maße</W>
 <W lemma="für" msd="SP" tag="APPR" in="3:pobj" out="1:nobj">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>
 <W lemma="Ältere" msd="NC" tag="NN" in="-1:nobj" out="">Älteren</W>
-<W lemma="sorgen" msd="VAF" tag="VVINF" in="-7:vobj" out="-6:pobj|-3:pobj">sorgen</W>
+<W lemma="sorgen" msd="VAF" tag="VVINF" in="-7:vobj" out="-6:man|-3:pobj">sorgen</W>
 <W lemma="," msd="XP" tag="$," in="-8:pnct" out="">,</W>
 <W lemma="und" msd="CC" tag="KON" in="5:coord" out="">und</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="6:cond" out="4:vobj">wenn</W>
@@ -69,11 +69,11 @@
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="1:neg" out="">nicht</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="-4:vobj" out="-5:coord|-3:subj|-2:dobj|-1:neg|1:pnct">können</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="müssen" msd="VA" tag="VMFIN" in="-16:conj" out="-6:cond|1:subj|3:vobj|4:pnct">müssen</W>
+<W lemma="müssen" msd="VA" tag="VMFIN" in="-16:conj" out="-6:cond|1:subj|3:vobj">müssen</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-1:subj" out="">sie</W>
-<W lemma="dafür" msd="RG" tag="PAV" in="1:pobj" out="3:nobj">dafür</W>
+<W lemma="dafür" msd="RG" tag="PAV" in="1:pobj" out="2:pnct|3:nobj">dafür</W>
 <W lemma="bezahlen" msd="VAF" tag="VVINF" in="-3:vobj" out="-1:pobj">bezahlen</W>
-<W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
+<W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="5:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="1:nobj">die</W>
 <W lemma="Ältere" msd="NC" tag="NN" in="-1:nobj" out="">Älteren</W>
@@ -90,18 +90,18 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="1:man" out="">,,So</W>
-<W lemma="interpretieren" msd="VA" tag="VVFIN" in="" out="-1:man|1:subj|2:dobj|7:conj|14:pnct">interpretiere</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="1:time" out="">,,So</W>
+<W lemma="interpretieren" msd="VA" tag="VVFIN" in="" out="-1:time|1:subj|2:dobj|7:conj|14:pnct">interpretiere</W>
 <W lemma="ich" msd="PP" tag="PPER" in="-1:subj" out="">ich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:dobj" out="1:nobj">das</W>
 <W lemma="Sozialhilfegesetz" msd="NC" tag="NN" in="-1:nobj" out="">Sozialhilfegesetz</W>
 <W lemma="und" msd="CC" tag="KON" in="3:coord" out="">und</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="2:dobj" out="1:nobj">diese</W>
 <W lemma="Auslegung" msd="NC" tag="NN" in="-1:nobj" out="">Auslegung</W>
-<W lemma="gedenken" msd="VA" tag="VVFIN" in="-7:conj" out="-3:coord|-2:dobj|1:subj|5:dobj">gedenke</W>
+<W lemma="gedenken" msd="VA" tag="VVFIN" in="-7:conj" out="-3:coord|-2:dobj|1:subj|3:loc|5:dobj">gedenke</W>
 <W lemma="ich" msd="PP" tag="PPER" in="-1:subj" out="">ich</W>
 <W lemma="hier" msd="RG" tag="ADV" in="1:focal" out="">hier</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="-1:focal|1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="-3:loc" out="-1:focal|1:nobj">in</W>
 <W lemma="Silkeborg" msd="NC" tag="NN" in="-1:nobj" out="">Silkeborg</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-5:dobj" out="1:vobj">zu</W>
 <W lemma="verbreiten" msd="VAF" tag="VVINF" in="-1:vobj" out="">verbreiten</W>
@@ -138,18 +138,18 @@
 <W lemma="Hilfe" msd="NC" tag="NN" in="-1:nobj" out="">Hilfe</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|-2:dobj|1:pnct">haben</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="kommen" msd="VA" tag="VVFIN" in="-8:vobj" out="-7:time|1:subj|4:pnct">kommen</W>
+<W lemma="kommen" msd="VA" tag="VVFIN" in="-8:vobj" out="-7:time|1:subj|2:@loc|4:pnct">kommen</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-1:subj" out="">sie</W>
-<W lemma="ins" msd="SP+P" tag="APPRART" in="" out="1:nobj">ins</W>
+<W lemma="ins" msd="SP+P" tag="APPRART" in="-2:@loc" out="1:nobj">ins</W>
 <W lemma="Krankenhaus" msd="NC" tag="NN" in="-1:nobj" out="">Krankenhaus</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
 <W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="-1:subj|1:neg|5:vobj|6:pnct|7:cause|21:pnct">können</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
 <W lemma="wieder" msd="RG" tag="ADV" in="3:time" out="">wieder</W>
-<W lemma="nach" msd="SP" tag="APPR" in="2:pobj" out="1:nobj">nach</W>
+<W lemma="nach" msd="SP" tag="APPR" in="2:@loc" out="1:nobj">nach</W>
 <W lemma="Haus" msd="NC" tag="NN" in="-1:nobj" out="">Hause</W>
-<W lemma="kommen" msd="VAF" tag="VVINF" in="-5:vobj" out="-3:time|-2:pobj">kommen</W>
+<W lemma="kommen" msd="VAF" tag="VVINF" in="-5:vobj" out="-3:time|-2:@loc">kommen</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
 <W lemma="weil" msd="CS" tag="KOUS" in="-7:cause" out="3:vobj">weil</W>
 <W lemma="es" msd="PP" tag="PPER" in="2:expl" out="">es</W>
@@ -191,12 +191,12 @@
 <W lemma="Warteposition" msd="NC" tag="NN" in="-1:nobj" out="1:attr">Warteposition</W>
 <W lemma="für" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">für</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">1.500</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="5:dobj" out="1:pobj|6:pnct">Kr</W>
-<W lemma="pro" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">pro</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="5:subj" out="1:attr|6:pnct">Kr</W>
+<W lemma="pro" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">pro</W>
 <W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="">Tag</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="2:loc" out="1:nobj">im</W>
 <W lemma="Krankenhaus" msd="NC" tag="NN" in="-1:nobj" out="">Krankenhaus</W>
-<W lemma="landen" msd="VA" tag="VVFIN" in="" out="-5:dobj">landen</W>
+<W lemma="landen" msd="VA" tag="VVFIN" in="" out="-5:subj|-2:loc">landen</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 </s>
 </p>

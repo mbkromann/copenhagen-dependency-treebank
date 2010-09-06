@@ -18,13 +18,13 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="6:qobj" out="-6:cond|1:subj|4:vobj|5:pnct">wird</W>
 <W lemma="man" msd="PP" tag="PIS" in="-1:subj" out="">man</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
-<W lemma="danach" msd="RG" tag="PAV" in="" out="">danach</W>
-<W lemma="zurücksehnen" msd="VAF" tag="VVINF" in="-4:vobj" out="-2:robj">zurücksehnen</W>
+<W lemma="danach" msd="RG" tag="PAV" in="1:@loc" out="">danach</W>
+<W lemma="zurücksehnen" msd="VAF" tag="VVINF" in="-4:vobj" out="-2:robj|-1:@loc">zurücksehnen</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-6:qobj|1:subj|8:pnct">sagte</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj|2:appr">der</W>
 <W lemma="Ägypter" msd="NC" tag="NN" in="-1:nobj" out="">Ägypter</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="1:pnct|2:appa">Sinuhe</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:appr" out="1:pnct|2:appa">Sinuhe</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:appa" out="1:attr|2:nobj">der</W>
 <W lemma="einsam" msd="AN" tag="ADJA" in="-1:attr" out="">einsame</W>
@@ -46,22 +46,22 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-4:nobj" out="2:vobj">dass</W>
 <W lemma="man" msd="PP" tag="PIS" in="1:subj" out="">man</W>
-<W lemma="riskieren" msd="VAP" tag="VVPP" in="-2:vobj" out="-1:subj|1:pnct|5:vobj|7:time">riskiert</W>
+<W lemma="riskieren" msd="VAP" tag="VVPP" in="-2:vobj" out="-1:subj|1:pnct|5:nobj|7:time">riskiert</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:robj" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj">einen</W>
 <W lemma="Parasit" msd="NC" tag="NN" in="-1:nobj" out="">Parasiten</W>
-<W lemma="einfangen" msd="VAF" tag="VVIZU" in="-5:vobj" out="-3:robj|-2:dobj|1:pnct">einzufangen</W>
+<W lemma="einfangen" msd="VAF" tag="VVIZU" in="-5:nobj" out="-3:robj|-2:dobj|1:pnct">einzufangen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-7:time" out="8:vobj">wenn</W>
 <W lemma="man" msd="PP" tag="PIS" in="7:subj" out="">man</W>
 <W lemma="nur" msd="RG" tag="ADV" in="1:quant" out="">nur</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="5:dobj" out="-1:quant|1:possd">seinen</W>
 <W lemma="Finger" msd="NC" tag="NN" in="-1:possd" out="">Finger</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="3:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
 <W lemma="Fluß" msd="NC" tag="NN" in="-1:nobj" out="">Fluss</W>
-<W lemma="halten" msd="VA" tag="VVFIN" in="-8:vobj" out="-7:subj|-5:dobj">hält</W>
+<W lemma="halten" msd="VA" tag="VVFIN" in="-8:vobj" out="-7:subj|-5:dobj|-3:loc">hält</W>
 <W lemma="." msd="XP" tag="$." in="-31:pnct" out="">.</W>
 </s>
 </p>
@@ -153,9 +153,9 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="9:subj" out="1:possd|4:title">Pharaos</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="9:subj" out="1:possd|2:appr|4:title">Pharaos</W>
 <W lemma="Schutzgott" msd="NC" tag="NN" in="-1:possd" out="">Schutzgott</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Horus</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:appr" out="">Horus</W>
 <W lemma="-" msd="XP" tag="$(" in="1:pnct" out="">-</W>
 <W lemma="König" msd="NC" tag="NN" in="-4:title" out="-1:pnct|4:pnct">König</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="2:nobj">der</W>
@@ -174,8 +174,8 @@
 </p>
 <p>
 <s>
-<W lemma="Wache" msd="NC" tag="NN" in="" out="4:pnct">Wache</W>
-<W lemma="vor" msd="SP" tag="APPR" in="" out="1:nobj">vor</W>
+<W lemma="Wache" msd="NC" tag="NN" in="" out="1:loc|4:pnct">Wache</W>
+<W lemma="vor" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Cheops-Pyramide" msd="NC" tag="NN" in="-1:nobj" out="">Cheops-Pyramide</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
@@ -183,8 +183,8 @@
 </p>
 <p>
 <s>
-<W lemma="Reiseschriftsteller" msd="NC" tag="NN" in="" out="4:pnct">Reiseschriftsteller</W>
-<W lemma="am" msd="SP+P" tag="APPRART" in="" out="2:nobj">am</W>
+<W lemma="Reiseschriftsteller" msd="NC" tag="NN" in="" out="1:loc|4:pnct">Reiseschriftsteller</W>
+<W lemma="am" msd="SP+P" tag="APPRART" in="-1:loc" out="2:nobj">am</W>
 <W lemma="Rote" msd="NC" tag="NN" in="1:attr" out="">Roten</W>
 <W lemma="Meer" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Meer</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
@@ -192,12 +192,12 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="3:pnct">Sheraton</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="1:loc|3:pnct">Sheraton</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Luxor</W>
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
-<W lemma="Aussicht" msd="NC" tag="NN" in="" out="1:pobj">Aussicht</W>
-<W lemma="über" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj|6:@dir">über</W>
+<W lemma="Aussicht" msd="NC" tag="NN" in="" out="1:@loc">Aussicht</W>
+<W lemma="über" msd="SP" tag="APPR" in="-1:@loc" out="1:nobj|6:@dir">über</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|3:conj">den</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Swimmingpool</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
