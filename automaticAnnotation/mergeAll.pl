@@ -23,6 +23,7 @@ while (my $line = <FILES>) {
     my $outConll = "$sessionID-$language.$1.conll.segmented.cleaned.out";
     
     system("perl ./merge.pl $origConll $outConll > $outConll.lines");
+#    print("\n");
 
 }
 

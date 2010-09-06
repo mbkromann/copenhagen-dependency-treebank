@@ -52,7 +52,7 @@ print TRAINSCRIPT "#!/bin/bash\n\n";
 # If script is run with sge this is needed
 print TRAINSCRIPT "#\$ -S /bin/bash\n\n";
 
-print TRAINSCRIPT "java -classpath \"$mstLocation:$mstLocation/lib/trove.jar\" -Xmx$heapSize mstparser.DependencyParser test test-file:$trainFile order:$mstOrder decode-type:$mstDecodeType model-name:$sessionID-$language.model output-file:$sessionID-$language.training.out.conll 2> $sessionID-$language.parse.err > $sessionID-$language.parse.out\n";
+print TRAINSCRIPT "java -classpath \"$mstLocation:$mstLocation/lib/trove.jar\" -Xmx$heapSize mstparser.DependencyParser test test-file:$trainFile order:$mstOrder decode-type:$mstDecodeType model-name:$sessionID-$language.model output-file:$sessionID-$language.training.out.conll 2> $sessionID-$language.parse-trainingdata.err > $sessionID-$language.parse-trainingdata.out\n";
 
 close(TRAINSCRIPT);
 

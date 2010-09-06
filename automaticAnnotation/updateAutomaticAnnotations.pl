@@ -3,6 +3,9 @@
 use strict;
 use Cwd;
 
+# Necesary for cron-stuff
+system("export PERL5LIB=/srv/tools/SVMTool-1.3.1/lib:\$PERL5LIB");
+system(". /srv/sge6-2/sge_login/common/settings.sh");
 
 
 my $language = $ARGV[0];
@@ -10,7 +13,8 @@ my $language = $ARGV[0];
 # If 0 all commands are only printed - not executed. Used for debugging.
 my $execute = 1;
 
-my $useSGE = 1;
+# Does not work with cron because sge-settings are not applied properly
+my $useSGE = 0;
 
 my $pruneAccuracy = 0.8;
 

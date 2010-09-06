@@ -1,12 +1,14 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -w
+
+use strict;
 
 open(GOLD, $ARGV[0]);
 open(SYS, $ARGV[1]);
 
-while ($gold = <GOLD>) {
+while (my $gold = <GOLD>) {
     
     chomp $gold;
-    $sys = <SYS>;
+    my $sys = <SYS>;
     chomp $sys;
     
     
@@ -15,14 +17,14 @@ while ($gold = <GOLD>) {
     }
     else {
 	
-	@golda = split("\t", $gold);
-	@sysa = split("\t", $sys);
+	my @golda = split("\t", $gold);
+	my @sysa = split("\t", $sys);
 	
 	$golda[6] = $sysa[6];
         $golda[7] = $sysa[7];
 	
 	
-	$newLine = join("\t", @golda);
+	my $newLine = join("\t", @golda);
 	
 	print "$newLine\n";
     }
