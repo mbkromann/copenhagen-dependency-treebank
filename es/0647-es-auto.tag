@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="si" msd="CS" tag="CSUBX" in="" out="">Si</W>
 <W lemma="a~lo~largo~de" msd="SP" tag="SCENE" in="" out="">a lo largo de</W>

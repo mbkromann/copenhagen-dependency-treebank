@@ -1,4 +1,4 @@
-in=""
+<p>
 <s>
 <W lemma="al" msd="CS" tag="CSUBI" in="" out="">Al</W>
 <W lemma="descubrir" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">descubrir</W>

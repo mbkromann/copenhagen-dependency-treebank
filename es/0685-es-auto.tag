@@ -1,4 +1,4 @@
-in=""
+<p>
 <s>
 <W lemma="@card@" msd="XS" tag="CODE" in="" out="">11</W>
 <W lemma="muerto" msd="AN" tag="ADJ" in="" out="">muertos</W>

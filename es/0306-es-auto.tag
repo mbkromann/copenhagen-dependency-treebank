@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="si" msd="CS" tag="CSUBX" in="" out="">Si</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">hay</W>

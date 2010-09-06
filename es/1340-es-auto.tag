@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="reservar" msd="VAF" tag="VLadj" in="" out="">RESERVADO</W>
 </s>

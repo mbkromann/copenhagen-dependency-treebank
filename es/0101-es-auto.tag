@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="según" msd="CS" tag="CSUBF" in="" out="">Según</W>
 <W lemma="avanzar" msd="VAD" tag="VLfin" in="" out="">avanzaba</W>

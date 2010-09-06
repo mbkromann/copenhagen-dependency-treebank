@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="llegar" msd="VAD" tag="VLfin" in="" out="">Llegó</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>

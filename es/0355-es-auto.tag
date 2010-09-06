@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="ahora" msd="RG" tag="ADV" in="" out="">Ahora</W>
 <W lemma="reír" msd="VAD" tag="VLfin" in="" out="">ríe</W>

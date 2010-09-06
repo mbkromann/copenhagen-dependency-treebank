@@ -1,4 +1,4 @@
-0:nobjout="0:nobj"
+<p>
 <s>
 <W lemma="ya" msd="RG" tag="ADV" in="" out="">Ya</W>
 <W lemma="casi" msd="RG" tag="ADV" in="" out="">casi</W>

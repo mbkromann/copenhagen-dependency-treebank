@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="cuando" msd="CS" tag="CSUBX" in="" out="">Cuando</W>
 <W lemma="vivir" msd="VAD" tag="VLfin" in="" out="">vivimos</W>

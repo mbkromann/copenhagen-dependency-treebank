@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="@card@" msd="XS" tag="CODE" in="" out="">11</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Inducción</W>

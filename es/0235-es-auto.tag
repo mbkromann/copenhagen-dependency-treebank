@@ -1,4 +1,4 @@
-0:nobjout="0:nobj"
+<p>
 <s>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="">Tenemos</W>
 <W lemma="hambre" msd="NC" tag="NC" in="" out="">hambre</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="igual" msd="AN" tag="ADJ" in="" out="">Igual</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>

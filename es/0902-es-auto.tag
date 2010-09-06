@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="cortar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">Cortar</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>

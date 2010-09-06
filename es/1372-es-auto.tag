@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="llevar" msd="VAD" tag="VLfin" in="" out="">Llevan</W>
 <W lemma="cuatro" msd="AC" tag="CARD" in="" out="">cuatro</W>

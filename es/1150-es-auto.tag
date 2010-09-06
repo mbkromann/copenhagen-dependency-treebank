@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="anunciar" msd="VAF" tag="VLadj" in="" out="">Anunciando</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="aumento" msd="NC" tag="NC" in="" out="">Aumento</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="según" msd="CS" tag="CSUBF" in="" out="">Según</W>
 <W lemma="H." msd="NP" tag="NP" in="" out="">H.</W>

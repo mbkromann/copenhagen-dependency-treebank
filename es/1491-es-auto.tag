@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="mucho" msd="AN" tag="QU" in="" out="">Muchos</W>
 <W lemma="mil" msd="AC" tag="CARD" in="" out="">miles</W>

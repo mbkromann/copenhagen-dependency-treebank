@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">ODENSE</W>
 <W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>

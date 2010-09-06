@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">EE.UU.</W>
 <W lemma="considerar" msd="VAD" tag="VLfin" in="" out="">considera</W>

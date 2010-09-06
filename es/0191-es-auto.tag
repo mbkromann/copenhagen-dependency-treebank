@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="tampoco" msd="RG" tag="ADV" in="" out="">Tampoco</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="para" msd="CS" tag="CSUBI" in="" out="">Para</W>
 <W lemma="ser" msd="VAF" tag="VSinf" in="" out="">ser</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="nunca" msd="RG" tag="ADV" in="" out="">Nunca</W>
 <W lemma="ver" msd="VAD" tag="VLfin" in="" out="">vio</W>

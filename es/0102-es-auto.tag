@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="durante" msd="SP" tag="SCENE" in="" out="">Durante</W>
 <W lemma="generación" msd="NC" tag="NC" in="" out="">generaciones</W>

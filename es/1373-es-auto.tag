@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="dos" msd="AC" tag="CARD" in="" out="">Dos</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">RSs</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="*" msd="XS" tag="SYM" in="" out="">*</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">Los</W>

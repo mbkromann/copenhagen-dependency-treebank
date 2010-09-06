@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">Son</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">las</W>

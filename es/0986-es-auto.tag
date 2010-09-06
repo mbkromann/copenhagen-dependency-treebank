@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="Londres" msd="NP" tag="NP" in="" out="">LONDRES</W>
 </s>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="por~ejemplo" msd="RG" tag="ADV" in="" out="">Por ejemplo</W>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="no~obstante" msd="RG" tag="ADV" in="" out="">No obstante</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="cumplir" msd="VAD" tag="VLfin" in="" out="">Cumpliría</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">72</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="erupción" msd="NC" tag="NC" in="" out="">Erupciones</W>
 <W lemma="familiar" msd="AN" tag="ADJ" in="" out="">familiares</W>

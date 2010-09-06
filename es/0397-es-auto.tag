@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="decir" msd="VAD" tag="VLfin" in="" out="">Dije</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>

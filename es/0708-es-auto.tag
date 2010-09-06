@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Gøngehøvdingen</W>
 <W lemma="avanzar" msd="VAD" tag="VLfin" in="" out="">avanzó</W>

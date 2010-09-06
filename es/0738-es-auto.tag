@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="le" msd="SP" tag="PE" in="" out="">Le</W>
 <W lemma="operar" msd="VAD" tag="VLfin" in="" out="">operaron</W>

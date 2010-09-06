@@ -1,4 +1,4 @@
-0:nobjout="0:nobj"
+<p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Barquillos</W>
 <W lemma="caliente" msd="AN" tag="ADJ" in="" out="">calientes</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="seguir" msd="VAD" tag="VLfin" in="" out="">Siguieron</W>
 <W lemma="callar" msd="VAF" tag="VLadj" in="" out="">callados</W>

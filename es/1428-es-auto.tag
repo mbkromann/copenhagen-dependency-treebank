@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="¿" msd="XP" tag="FS" in="" out="">¿</W>
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="">Puede</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="haber" msd="VAD" tag="VLfin" in="" out="">Hubo</W>
 <W lemma="año" msd="NC" tag="NC" in="" out="">años</W>

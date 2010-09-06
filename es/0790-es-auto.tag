@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Birlik</W>
 <W lemma="mismo" msd="AN" tag="ADJ" in="" out="">mismo</W>

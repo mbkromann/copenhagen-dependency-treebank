@@ -1,4 +1,4 @@
-0:attrout="0:attr"
+<p>
 <s>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">Son</W>
 <W lemma="información" msd="NC" tag="NC" in="" out="">informaciones</W>

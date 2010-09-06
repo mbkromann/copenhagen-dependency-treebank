@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="novedad" msd="NC" tag="NC" in="" out="">Novedades</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>

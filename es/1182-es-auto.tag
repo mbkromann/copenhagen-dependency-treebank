@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">Ha</W>
 <W lemma="cumplir" msd="VAF" tag="VLadj" in="" out="">cumplido</W>

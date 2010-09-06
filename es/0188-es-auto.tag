@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="guía" msd="NC" tag="NC" in="" out="">Guía</W>
 <W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>

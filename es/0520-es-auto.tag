@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="yo" msd="PP" tag="PPX" in="" out="">Me</W>
 <W lemma="quitar" msd="VAD" tag="VLfin" in="" out="">quito</W>

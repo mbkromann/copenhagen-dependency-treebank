@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="se" msd="PC" tag="SE" in="" out="">Se</W>
 <W lemma="buscar" msd="VAD" tag="VLfin" in="" out="">busca</W>

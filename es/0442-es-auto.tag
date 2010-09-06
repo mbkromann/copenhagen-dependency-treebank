@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="SID" msd="NP" tag="NP" in="" out="">SID</W>
 <W lemma="invitar" msd="VAD" tag="VLfin" in="" out="">invitará</W>

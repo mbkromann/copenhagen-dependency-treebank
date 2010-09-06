@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="querido" msd="NC" tag="NC" in="" out="">Queridos</W>
 <W lemma="profundo" msd="RG" tag="ADV" in="" out="">profundamente</W>

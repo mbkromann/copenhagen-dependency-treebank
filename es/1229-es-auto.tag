@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Karadzic</W>
 <W lemma="explicar" msd="VAD" tag="VLfin" in="" out="">explicó</W>

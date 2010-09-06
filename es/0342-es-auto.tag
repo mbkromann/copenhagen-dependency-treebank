@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">No</W>
 <W lemma="quedar" msd="VAD" tag="VLfin" in="" out="">queda</W>

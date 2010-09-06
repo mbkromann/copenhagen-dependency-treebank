@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="hoy~día" msd="RG" tag="ADV" in="" out="">Hoy día</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>

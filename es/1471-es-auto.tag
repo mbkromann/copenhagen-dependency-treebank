@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="ni" msd="CC" tag="CCNEG" in="" out="">Ni</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>

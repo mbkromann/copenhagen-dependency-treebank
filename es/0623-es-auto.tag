@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Kitt</W>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>

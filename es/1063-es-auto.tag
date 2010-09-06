@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="como" msd="CS" tag="CSUBX" in="" out="">Como</W>
 <W lemma="director" msd="NC" tag="NC" in="" out="">director</W>
