@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="beh" msd="I=" tag="INT" in="" out="">Beh</W>

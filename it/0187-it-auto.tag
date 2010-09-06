@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="uno" msd="PI" tag="DET:indef" in="" out="">Uno</W>
 <W lemma="choc" msd="NC" tag="NOM" in="" out="">choc</W>

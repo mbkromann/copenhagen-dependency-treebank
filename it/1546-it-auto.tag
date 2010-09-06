@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="raccontare" msd="VADR" tag="VER:pres" in="" out="">Racconta</W>
 <W lemma="anche" msd="RG" tag="ADV" in="" out="">anche</W>

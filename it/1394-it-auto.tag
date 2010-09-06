@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">A</W>
 <W lemma="cinquecento" msd="AN" tag="ADJ" in="" out="">cinquecento</W>

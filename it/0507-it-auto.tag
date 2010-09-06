@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">Alla</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Biblioteca</W>

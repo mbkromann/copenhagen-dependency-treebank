@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="sembrare" msd="VADR" tag="VER:pres" in="" out="">Sembra</W>
 <W lemma="promettente" msd="AN" tag="ADJ" in="" out="">promettente</W>

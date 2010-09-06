@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="ci" msd="PR" tag="PRO:refl" in="" out="">Ci</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>

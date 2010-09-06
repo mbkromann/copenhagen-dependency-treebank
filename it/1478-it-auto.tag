@@ -1,4 +1,4 @@
-0:attrout="0:attr"
+<p>
 <s>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">Con</W>
 <W lemma="modestia" msd="NC" tag="NOM" in="" out="">modestia</W>

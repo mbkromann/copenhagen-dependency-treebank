@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="si" msd="PP" tag="PRO:pers" in="" out="">Si</W>
 <W lemma="stare" msd="VADR" tag="VER:pres" in="" out="">sta</W>

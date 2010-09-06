@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="dovere" msd="VADR" tag="VER:pres" in="" out="">Devo</W>
 <W lemma="proprio" msd="RG" tag="ADV" in="" out="">proprio</W>

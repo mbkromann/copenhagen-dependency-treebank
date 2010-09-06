@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="immaginare" msd="VADR" tag="VER:pres" in="" out="">Immaginiamo</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>

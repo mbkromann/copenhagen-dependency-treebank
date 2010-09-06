@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="" out="">Questo</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="">è</W>

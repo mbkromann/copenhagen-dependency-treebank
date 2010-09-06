@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">Hanno</W>

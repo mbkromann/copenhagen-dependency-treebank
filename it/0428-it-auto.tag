@@ -1,4 +1,4 @@
-in=""
+<p>
 <s>
 <W lemma="alcuno" msd="PI" tag="PRO:indef" in="" out="">Alcuni</W>
 <W lemma="aereo" msd="AN" tag="ADJ" in="" out="">aerei</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="">Negli</W>
 <W lemma="ultimo" msd="AN" tag="ADJ" in="" out="">ultimi</W>

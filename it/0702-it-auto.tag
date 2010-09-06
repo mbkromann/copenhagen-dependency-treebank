@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="l'" msd="PP" tag="PRO:pers" in="" out="">L'</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">ho</W>

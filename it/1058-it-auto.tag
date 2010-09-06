@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="tutto" msd="PI" tag="PRO:indef" in="" out="">Tutti</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">gli</W>

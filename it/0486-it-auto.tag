@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="diffusione" msd="NC" tag="NOM" in="" out="">Diffusione</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>

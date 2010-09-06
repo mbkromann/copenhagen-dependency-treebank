@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">A</W>
 <W lemma="Kirovabad" msd="NP" tag="NPR" in="" out="">Kirovabad</W>

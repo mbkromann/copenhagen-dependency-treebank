@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="fino" msd="SP" tag="PRE" in="" out="">Fino</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">al</W>

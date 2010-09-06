@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Larsen</W>
 <W lemma="resistere" msd="VADR" tag="VER:pres" in="" out="">resiste</W>

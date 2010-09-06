@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="squadra" msd="NC" tag="NOM" in="" out="">SQUADRA</W>
 <W lemma="abbottonato" msd="AN" tag="ADJ" in="" out="">ABBOTTONATA</W>

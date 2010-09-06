@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">L'</W>
 <W lemma="unione" msd="NC" tag="NOM" in="" out="">Unione</W>

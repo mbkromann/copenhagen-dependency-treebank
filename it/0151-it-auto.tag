@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="due" msd="AN" tag="ADJ" in="" out="">Due</W>
 <W lemma="calamita" msd="NC" tag="NOM" in="" out="">calamite</W>

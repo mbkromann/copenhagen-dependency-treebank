@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">In</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="" out="">tutta</W>

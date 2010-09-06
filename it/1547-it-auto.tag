@@ -1,4 +1,4 @@
-in=""
+<p>
 <s>
 <W lemma="interpretare" msd="VADR" tag="VER:pres" in="" out="">Interpreta</W>
 <W lemma="cinque" msd="AN" tag="ADJ" in="" out="">cinque</W>

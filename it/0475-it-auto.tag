@@ -1,4 +1,4 @@
-0:nobjout="0:nobj"
+<p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">È</W>
 <W lemma="quasi" msd="RG" tag="ADV" in="" out="">quasi</W>

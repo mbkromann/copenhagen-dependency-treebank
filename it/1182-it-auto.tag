@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">Ha</W>
 <W lemma="svolgere" msd="VAP" tag="VER:pper" in="" out="">svolto</W>

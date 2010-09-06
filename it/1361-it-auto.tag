@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="pensare" msd="VADR" tag="VER:pres" in="" out="">Penso</W>
 <W lemma="sia" msd="CS" tag="CON" in="" out="">sia</W>

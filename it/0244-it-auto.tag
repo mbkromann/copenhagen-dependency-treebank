@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="e" msd="CS" tag="CON" in="" out="">E</W>
 <W lemma="poi" msd="RG" tag="ADV" in="" out="">poi</W>

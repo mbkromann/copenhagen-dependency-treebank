@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="secondo" msd="SP" tag="PRE" in="" out="">Secondo</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>

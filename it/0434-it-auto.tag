@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">Non</W>
 <W lemma="dovere" msd="VADR" tag="VER:pres" in="" out="">devi</W>

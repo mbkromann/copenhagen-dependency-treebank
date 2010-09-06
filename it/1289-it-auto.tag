@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="(" msd="XP" tag="PON" in="" out="">(</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">3</W>

@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">Alle</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">00</W>

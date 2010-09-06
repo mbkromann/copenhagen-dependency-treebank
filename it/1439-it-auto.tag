@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="iniziare" msd="VADA" tag="VER:remo" in="" out="">INIZIÒ</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">CON</W>

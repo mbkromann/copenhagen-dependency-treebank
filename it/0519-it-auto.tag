@@ -1,4 +1,4 @@
-in=""
+<p>
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="no" msd="RG" tag="ADV" in="" out="">No</W>

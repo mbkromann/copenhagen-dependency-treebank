@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="priorità" msd="NC" tag="NOM" in="" out="">Priorità</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>

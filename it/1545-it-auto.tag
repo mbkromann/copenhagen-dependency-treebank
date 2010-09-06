@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="parallelamente" msd="RG" tag="ADV" in="" out="">Parallelamente</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">ai</W>

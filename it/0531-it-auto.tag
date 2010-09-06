@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">COLLABORAT</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>

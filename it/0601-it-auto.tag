@@ -1,4 +1,4 @@
-0:pnctout="0:pnct"
+<p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Odd-Catla</W>
 <W lemma="lo" msd="PP" tag="PRO:pers" in="" out="">lo</W>
