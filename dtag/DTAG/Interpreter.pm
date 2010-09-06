@@ -7659,8 +7659,9 @@ sub cmd_save_conll {
 				# FEATS
 				$FEATS = conll_msd2features($CPOSTAG, 
 					substr($msd, min(length($msd), 2)));
-				$FEATS = (($FEATS =~ /^_$/) ? "" : "$FEATS|") . "line=$i"; 
+				$FEATS = ($FEATS =~ /^_$/) ? "" : "$FEATS";
 			}
+			$FEATS = ($FEATS ne "" ? "$FEATS|" : "") . "line=$i"; 
 
 			# HEAD AND DEPREL
 			my $edges = [grep {! &$pos($graph, $_)} @{$node->in()}];
