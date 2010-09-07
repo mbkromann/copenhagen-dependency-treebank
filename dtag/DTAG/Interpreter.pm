@@ -5907,6 +5907,7 @@ sub cmd_option {
 	my $self = shift;
 	my $option = shift;
 	my $value = shift;
+	$value =~ s/\s*$//;
 
 	if (defined($value)) {
 		# Set option (if value given)
@@ -9685,8 +9686,8 @@ sub do {
 
 		# Option: option $option=$value
 		$success = $self->cmd_option($1, $2)
-			if ($cmd =~ /^\s*option\s*(\S+)\s*=\s*(\S.*)$/
-				|| $cmd =~ /^\s*option\s*(\S+)\s+(\S.*)$/
+			if ($cmd =~ /^\s*option\s*(\S+)\s*=\s*(\S.*)\s*$/
+				|| $cmd =~ /^\s*option\s*(\S+)\s+(\S.*)\s*$/
 				|| $cmd =~ /^\s*option\s*(\S+)\s*$/);
 
 		# Offset and show: oshow $offset

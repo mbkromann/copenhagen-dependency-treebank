@@ -247,4 +247,6 @@ cmdlog /home/cdt/cdt/logs/{USER}
 # adding a new)
 option autodelete=on
 
+macro autodelete option autodelete=on
+macro noautodelete option autodelete=off
 
