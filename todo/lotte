@@ -1,14 +1,4 @@
-[*] en/1390-en-lotte.tag
-[*] en/0093-en-lotte.tag
-[*] en/0143-en-lotte.tag
-[*] en/0647-en-lotte.tag
-[*] en/1408-en-lotte.tag
-[*] en/0097-en-lotte.tag
-[*] en/0144-en-lotte.tag
-[*] en/0675-en-lotte.tag
-[*] en/1420-en-lotte.tag
-[ ] en/0101-en-lotte.tag
-[ ] en/0148-en-lotte.tag
+
 
 [*] da/0152-da-lotte.tag
 [*] en/0152-en-lotte.tag
@@ -283,7 +273,7 @@ Tekster fra korpus 1 & 2 (der her er syntaks-, diskurs- og anaforannoterede er k
 [*] da/0065-da-lotte.tag
 [*] en/1536-en-lotte.tag
 
-Diskurs- og anaforannoterede:
+Diskurs- og anaforannoterede (til ny måling, jf. mail sendt 7/9):
 [*] en/0134-en-lotte.tag
 [*] en/0531-en-lotte.tag
 [*] en/1252-en-lotte.tag
@@ -298,6 +288,17 @@ Diskurs- og anaforannoterede:
 [*] en/0091-en-lotte.tag
 [*] en/0141-en-lotte.tag
 [*] en/1428-en-lotte.tag
+[*] en/1390-en-lotte.tag
+[*] en/0093-en-lotte.tag
+[*] en/0143-en-lotte.tag
+[*] en/0647-en-lotte.tag
+[*] en/1408-en-lotte.tag
+[*] en/0097-en-lotte.tag
+[*] en/0144-en-lotte.tag
+[*] en/0675-en-lotte.tag
+[*] en/1420-en-lotte.tag
+[*] en/0101-en-lotte.tag
+[*] en/0148-en-lotte.tag
 
 10 Tekster til diskursannotation/agreement
 [*] da/0327-da-disc-lotte.tag
