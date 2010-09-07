@@ -121,7 +121,7 @@
 <W lemma="&lt;unknown&gt;" morph="presumir ! +do/DERvn&3a;agent ~s" msd="NC" tag="NC" in="-1:attr" out="">presumidos</W>
 <W lemma="." msd="XP" tag="FS" in="-40:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="">Rushdie</W>
-<W lemma="formar" morph="forma ! +ar/DERnv" msd="VAD" tag="VLfin" in="" out="-1:subj|1:dobj|10:pnct|36:pnct|11:¹concom">forma</W>
+<W lemma="formar" morph="forma ! +ar/DERnv" msd="VAD" tag="VLfin" in="" out="-1:subj|1:dobj|10:pnct|11:¹concom|36:pnct">forma</W>
 <W lemma="parte" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:dobj" out="1:pobj|1:{arg}">parte</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">una</W>
@@ -132,7 +132,7 @@
 <W lemma="periodismo" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">periodismo</W>
 <W lemma="inteligente" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">inteligente</W>
 <W lemma="," msd="XP" tag="CM" in="-10:pnct" out="">,</W>
-<W compound="¹refiriéndo²se" lemma="&lt;unknown&gt;" morph="referir" msd="VAF" tag="VLadj" in="-11:¹concom|0:²robj¹" out="2:loc|7:man|8:pobj|20:other|0:²robj¹|1:focal">refiriéndose</W>
+<W compound="¹refiriéndo²se" lemma="&lt;unknown&gt;" morph="referir" msd="VAF" tag="VLadj" in="-11:¹concom|0:²robj¹" out="1:focal|2:loc|7:man|8:pobj|20:other|0:²robj¹">refiriéndose</W>
 <W lemma="incluso" msd="RG" tag="ADV" in="-1:focal" out="">incluso</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-2:loc" out="1:nobj">en</W>
 <W lemma="uno" msd="AC" tag="CARD" in="-1:nobj" out="1:pobj">uno</W>
@@ -182,7 +182,7 @@
 <W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:attr">los</W>
 <W lemma="&lt;unknown&gt;" morph="britania !!!!án +ico/DERna&3a;deono.place ~s" msd="NC" tag="NC" in="-1:attr" out="">británicos</W>
-<W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|1:preds|-8:discmark|4:pnct">son</W>
+<W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|-8:discmark|1:preds|4:pnct">son</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:preds" out="2:attr">los</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="1:quant" out="">más</W>
 <W lemma="&lt;unknown&gt;" morph="remediar ! +ble/DERva&3a;pas.epi -ir/NEG&3a;contr" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant|-10:pobj">irremediables</W>
