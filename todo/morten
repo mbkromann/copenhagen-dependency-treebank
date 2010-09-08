@@ -1,6 +1,10 @@
 # Indsæt "*" når annotationen er afsluttet
+[*] iørn-firenze
+[*] en/0008-en-morten.tag
+[*] en/0204-en-lisa.tag
 [*] en/0204-en-morten.tag
-[*] it/0531-it-iorn.tag
+[ ] it/0531-it-lisa.tag
+[ ] it/0531-it-morten.tag
 [*] en/0134-en-morten.tag
 [*] en/0531-en-morten.tag
 [*] en/1252-en-morten.tag
