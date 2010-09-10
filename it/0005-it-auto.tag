@@ -44,8 +44,8 @@
 <W lemma="quanto" msd="RG" tag="ADV" in="-1:preds" out="1:relr">quanto</W>
 <W lemma="sostenere" msd="VADR" tag="VER:pres" in="-1:relr" out="1:subj|9:pnct|10:concom">sostiene</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:subj" out="2:nobj|7:appr">la</W>
-<W lemma="vice" msd="NC" tag="NOM" in="1:attr#" out="">vice</W>
-<W lemma="presidente" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr#">presidente</W>
+<W lemma="vice" msd="NC" tag="NOM" in="1:attr" out="">vice</W>
+<W lemma="presidente" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">presidente</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
 <W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">partito</W>
 <W lemma="socialdemocratico" msd="AN" tag="ADJ" in="-1:attr" out="">Socialdemocratico</W>
@@ -127,9 +127,9 @@
 <W lemma="addetto" msd="AN" tag="ADJ" in="-1:nobj" out="1:attr">addetto</W>
 <W lemma="stampa" msd="NC" tag="NOM" in="-1:attr" out="">stampa</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="2:nobj">dei</W>
-<W lemma="giovane" msd="NC" tag="NOM" in="1:attr#" out="2:attr">Giovani</W>
-<W lemma="socialdemocratico" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr#">Socialdemocratici</W>
-<W lemma="danese" msd="AN" tag="ADJ" in="-2:attr" out="">Danesi</W>
+<W lemma="giovane" msd="NC" tag="NOM" in="1:attr#" out="">Giovani</W>
+<W lemma="socialdemocratico" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr#|1:attr">Socialdemocratici</W>
+<W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">Danesi</W>
 <W lemma="(" msd="XP" tag="PON" in="1:pnct" out="">(</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|1:attr|2:possd|3:pnct|5:pnct">Danmarks</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">Socialdemokratiske</W>
@@ -209,19 +209,19 @@
 <W lemma="posizione" msd="NC" tag="NOM" in="-1:nobj" out="">posizione</W>
 <W lemma=":" msd="XP" tag="PON" in="-2:pnct" out="">:</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
-<W lemma="chi" msd="PT" tag="PRO:rela" in="1:subj" out="">Chi</W>
-<W lemma="sostenere" msd="VADR" tag="VER:pres" in="-5:relr" out="-2:pnct|-1:subj">sostieni</W>
+<W lemma="chi" msd="PT" tag="PRO:rela" in="1:dobj" out="">Chi</W>
+<W lemma="sostenere" msd="VADR" tag="VER:pres" in="-5:relr" out="-2:pnct|-1:dobj">sostieni</W>
 <W lemma="?" msd="XP" tag="SENT" in="-32:pnct" out="">?</W>
 </s>
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-2:pnct|-1:pnct|1:preds|14:pnct">è</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-1:preds" out="1:nobj|3:relr">il</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-2:pnct|-1:pnct|1:subj|14:pnct">è</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:subj" out="1:nobj|3:relr">il</W>
 <W lemma="testo" msd="NC" tag="NOM" in="-1:nobj" out="">testo</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="1:subj" out="">che</W>
-<W lemma="campeggiare" msd="VADR" tag="VER:pres" in="-3:relr" out="-1:subj">campeggia</W>
-<W lemma="sul" msd="SP+P" tag="PRE:det" in="" out="1:nobj">sulle</W>
+<W lemma="campeggiare" msd="VADR" tag="VER:pres" in="-3:relr" out="-1:subj|1:loc">campeggia</W>
+<W lemma="sul" msd="SP+P" tag="PRE:det" in="-1:loc" out="1:nobj">sulle</W>
 <W lemma="immagine" msd="NC" tag="NOM" in="-1:nobj" out="">immagini</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="2:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Mogens</W>
@@ -243,10 +243,10 @@
 <W lemma="che" msd="PT" tag="PRO:rela" in="-4:subj" out="1:vobj">che</W>
 <W lemma="sentire" msd="VADR" tag="VER:pres" in="-1:vobj" out="1:dobj">sento</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:dobj" out="1:nobj">un</W>
-<W lemma="messaggio" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|3:pobj.subj">messaggio</W>
+<W lemma="messaggio" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|3:attr">messaggio</W>
 <W lemma="così" msd="RG" tag="ADV" in="1:quant" out="">così</W>
 <W lemma="chiaro" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">chiaro</W>
-<W lemma="dal" msd="SP+P" tag="PRE:det" in="-3:pobj.subj" out="1:nobj">dai</W>
+<W lemma="dal" msd="SP+P" tag="PRE:det" in="-3:attr" out="1:nobj">dai</W>
 <W lemma="socialdemocratico" msd="NC" tag="NOM" in="-1:nobj" out="">Socialdemocratici</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-12:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-13:pnct" out="">,</W>

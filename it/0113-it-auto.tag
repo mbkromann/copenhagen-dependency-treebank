@@ -97,14 +97,14 @@
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="negativo" msd="NC" tag="NOM" in="-7:preds" out="2:conj">negativo</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="carico" msd="NC" tag="NOM" in="-2:conj" out="-1:coord">carico</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="carico" msd="NC" tag="NOM" in="-2:conj" out="-1:coord|1:attr">carico</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="odio" msd="NC" tag="NOM" in="-1:nobj" out="">odio</W>
 <W lemma="." msd="XP" tag="SENT" in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="come" msd="CS" tag="CON" in="1:dobj" out="">Come</W>
-<W lemma="scrivere" msd="VADR" tag="VER:pres" in="" out="-1:dobj|1:dobj|3:@loc|5:pnct|11:xpl">scrive</W>
+<W lemma="come" msd="CS" tag="CON" in="1:man" out="">Come</W>
+<W lemma="scrivere" msd="VADR" tag="VER:pres" in="" out="-1:man|1:dobj|3:@loc|5:pnct|11:xpl">scrive</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">l'</W>
 <W lemma="autore" msd="NC" tag="NOM" in="-1:nobj" out="">autore</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-3:@loc" out="1:nobj">nella</W>
@@ -124,9 +124,9 @@
 <W lemma="il" msd="PD" tag="DET:def" in="6:subj" out="1:nobj">l'</W>
 <W lemma="intolleranza" msd="NC" tag="NOM" in="-1:nobj" out="">intolleranza</W>
 <W lemma="solo" msd="AN" tag="ADJ" in="1:quant" out="">solo</W>
-<W lemma="in" msd="SP" tag="PRE" in="3:time" out="-1:quant|1:nobj">in</W>
-<W lemma="certo" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">certi</W>
-<W lemma="periodo" msd="NC" tag="NOM" in="-1:nobj" out="">periodi</W>
+<W lemma="in" msd="SP" tag="PRE" in="3:time" out="-1:quant|2:nobj">in</W>
+<W lemma="certo" msd="AN" tag="ADJ" in="1:attr" out="">certi</W>
+<W lemma="periodo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">periodi</W>
 <W lemma="sia" msd="CS" tag="CON" in="-7:vobj" out="-6:subj|-3:time|1:preds|10:pnct|13:conj">sia</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="">grado</W>

@@ -12,18 +12,18 @@
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-9:time|-1:subj|1:vobj|9:pnct">ha</W>
 <W lemma="perdere" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:dobj">perso</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">le</W>
-<W lemma="elezione" msd="NC" tag="NOM" in="-1:nobj" out="">elezioni</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
-<W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj|2:attr">Consiglio</W>
-<W lemma="parrocchiale" msd="AN" tag="ADJ" in="-1:aobj" out="">parrocchiale</W>
+<W lemma="elezione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">elezioni</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">del</W>
+<W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">Consiglio</W>
+<W lemma="parrocchiale" msd="AN" tag="ADJ" in="-1:attr" out="">parrocchiale</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Skjern</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 </s>
 <s>
 <W lemma="ora" msd="RG" tag="ADV" in="1:time" out="">Ora</W>
-<W lemma="subentrare" msd="VADR" tag="VER:pres" in="" out="-1:time|1:dobj|23:pnct">subentrano</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj|17:relr">i</W>
+<W lemma="subentrare" msd="VADR" tag="VER:pres" in="" out="-1:time|1:dobj|18:conj|23:pnct">subentrano</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="5:attr">social-grundtvigiani</W>
 </s>
 </p>
@@ -40,7 +40,7 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">1972</W>
 <W lemma="a" msd="SP" tag="PRE" in="2:loc" out="1:nobj">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Skjern</W>
-<W lemma="essere" msd="VADA" tag="VER:remo" in="-17:relr" out="-4:time|-2:loc|1:vobj|2:subj">fu</W>
+<W lemma="essere" msd="VADA" tag="VER:remo" in="-18:conj" out="-4:time|-2:loc|1:vobj|2:subj">fu</W>
 <W lemma="aprire" msd="VAP" tag="VER:pper" in="-1:vobj" out="">aperto</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-2:subj" out="2:nobj">il</W>
 <W lemma="primo" msd="AN" tag="ADJ" in="1:attr" out="">primo</W>
@@ -119,19 +119,19 @@
 </p>
 <p>
 <s>
-<W lemma="vent'" msd="AN" tag="ADJ" in="3:quant" out="1:nobj">Vent'</W>
+<W lemma="vent'" msd="AN" tag="ADJ" in="3:@time" out="1:nobj">Vent'</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma="più" msd="RG" tag="ADV" in="1:quant" out="">più</W>
-<W lemma="tardo" msd="AN" tag="ADJ" in="4:time" out="-3:quant|-1:quant|1:pnct">tardi</W>
+<W lemma="tardo" msd="AN" tag="ADJ" in="4:time" out="-3:@time|-1:quant|1:pnct">tardi</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attr#" out="">Indre</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="-1:attr#">Mission</W>
 <W lemma="perdere" msd="VADR" tag="VER:pres" in="" out="-4:time|-1:subj|1:dobj|8:pnct">perde</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">le</W>
-<W lemma="elezione" msd="NC" tag="NOM" in="-1:nobj" out="">elezioni</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
-<W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj|2:attr">Consiglio</W>
-<W lemma="parrocchiale" msd="AN" tag="ADJ" in="-1:aobj" out="">parrocchiale</W>
+<W lemma="elezione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">elezioni</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">del</W>
+<W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">Consiglio</W>
+<W lemma="parrocchiale" msd="AN" tag="ADJ" in="-1:attr" out="">parrocchiale</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Skjern</W>
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
@@ -172,9 +172,9 @@
 <p>
 <s>
 <W lemma="infatti" msd="RG" tag="ADV" in="1:eval" out="">Infatti</W>
-<W lemma="essere" msd="VADA" tag="VER:impf" in="" out="-1:eval|1:preds|2:pnct|24:pnct">era</W>
-<W lemma="candidato" msd="NC" tag="NOM" in="-1:preds" out="3:conj">candidato</W>
-<W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
+<W lemma="essere" msd="VADA" tag="VER:impf" in="" out="-1:eval|1:preds|24:pnct">era</W>
+<W lemma="candidato" msd="NC" tag="NOM" in="-1:preds" out="1:pnct|3:conj">candidato</W>
+<W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="uno" msd="PI" tag="DET:indef" in="-3:conj" out="-1:coord">uno</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dei</W>
@@ -192,8 +192,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="maggioranza" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">maggioranza</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">nel</W>
-<W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj|2:attr">Consiglio</W>
-<W lemma="parrocchiale" msd="AN" tag="ADJ" in="-1:aobj" out="">parrocchiale</W>
+<W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">Consiglio</W>
+<W lemma="parrocchiale" msd="AN" tag="ADJ" in="-1:attr" out="">parrocchiale</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Skjern</W>
 <W lemma="." msd="XP" tag="SENT" in="-24:pnct" out="">.</W>
@@ -215,8 +215,8 @@
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:nobj">all'</W>
 <W lemma="elezione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|4:attr">elezione</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">del</W>
-<W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj">Consiglio</W>
-<W lemma="parrocchiale" msd="AN" tag="ADJ" in="-1:aobj" out="">parrocchiale</W>
+<W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Consiglio</W>
+<W lemma="parrocchiale" msd="AN" tag="ADJ" in="-1:attr" out="">parrocchiale</W>
 <W lemma="di" msd="SP" tag="PRE" in="-4:attr" out="1:nobj">di</W>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="-1:nobj" out="1:nobj">questa</W>
 <W lemma="settimana" msd="NC" tag="NOM" in="-1:nobj" out="">settimana</W>
@@ -232,10 +232,10 @@
 </s>
 <s>
 <W lemma="ovviamente" msd="RG" tag="ADV" in="1:eval" out="">Ovviamente</W>
-<W lemma="a" msd="SP" tag="PRE" in="" out="-1:eval|1:nobj|4:nobj">a</W>
+<W lemma="a" msd="SP" tag="PRE" in="" out="-1:eval|1:nobj|4:pnct">a</W>
 <W lemma="sfavore" msd="NC" tag="NOM" in="-1:nobj" out="">sfavore</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dei</W>
 <W lemma="prete" msd="NC" tag="NOM" in="-1:nobj" out="">preti</W>
-<W lemma="." msd="XP" tag="SENT" in="-4:nobj" out="">.</W>
+<W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
 </s>
 </p>

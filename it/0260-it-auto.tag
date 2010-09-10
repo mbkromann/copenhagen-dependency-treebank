@@ -1,7 +1,7 @@
 <p>
 <s>
-<W lemma="box" msd="NC" tag="NOM" in="" out="1:dobj|6:nobj|7:pnct|13:nobj">Box</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:dobj" out="">64</W>
+<W lemma="box" msd="NC" tag="NOM" in="" out="1:nobj|6:nobj|7:pnct|13:nobj">Box</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">64</W>
 </s>
 </p>
 <p>
@@ -91,8 +91,8 @@
 <W lemma="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="">lavoro</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="mi" msd="PP" tag="PRO:pers" in="2:dobj" out="">mi</W>
-<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="-7:time|1:vobj|7:conj|17:pnct">sono</W>
-<W lemma="iscrivere" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:dobj">iscritta</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="-7:time|1:preds|7:conj|17:pnct">sono</W>
+<W lemma="iscrivere" msd="VAP" tag="VER:pper" in="-1:preds" out="-2:dobj">iscritta</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="2:nobj">a</W>
 <W lemma="vario|varo" msd="AN" tag="ADJ" in="1:attr" out="">vari</W>
 <W lemma="corso" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">corsi</W>

@@ -35,8 +35,8 @@
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="senza" msd="SP" tag="PRE" in="-9:man" out="1:vobj">senza</W>
 <W lemma="ricercare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">ricercare</W>
-<W lemma="forma" msd="NC" tag="NOM" in="-1:dobj" out="1:attr|3:attr|6:pnct|11:relr">forme</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
+<W lemma="forma" msd="NC" tag="NOM" in="-1:dobj" out="3:attr|6:pnct|11:relr">forme</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
 <W lemma="risparmio" msd="NC" tag="NOM" in="-1:nobj" out="">risparmio</W>
 <W lemma="provocatorio" msd="AN" tag="ADJ" in="-3:attr" out="2:conj">provocatorie</W>
 <W lemma="o" msd="CS" tag="CON" in="1:coord" out="">o</W>
@@ -71,8 +71,8 @@
 <W lemma="danese" msd="AN" tag="ADJ" in="-2:attr" out="">danese</W>
 <W lemma="tornare" msd="VAM" tag="VER:impe" in="" out="-7:conc|-6:subj|8:pnct|20:conj">torna</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="1:vobj">ad</W>
-<W lemma="essere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:preds">essere</W>
-<W lemma="una" msd="PI" tag="DET:indef" in="-1:preds" out="1:nobj">una</W>
+<W lemma="essere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">essere</W>
+<W lemma="una" msd="PI" tag="DET:indef" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="questione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">questione</W>
 <W lemma="ideologia" msd="NC" tag="NOM" in="-1:attr" out="2:conj">ideologia</W>
 <W lemma="o" msd="CS" tag="CON" in="1:coord" out="">o</W>
@@ -105,8 +105,8 @@
 </s>
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="7:subj" out="1:nobj">Le</W>
-<W lemma="differenza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj">differenze</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj" out="1:nobj">di</W>
+<W lemma="differenza" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">differenze</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="tipo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">tipo</W>
 <W lemma="ideologico" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">ideologico</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>

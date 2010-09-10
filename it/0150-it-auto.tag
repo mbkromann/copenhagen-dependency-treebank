@@ -1,18 +1,18 @@
 <p>
 <s>
 <W lemma="(" msd="XP" tag="PON" in="8:pnct" out="1:attr">(</W>
-<W lemma="secondo" msd="AN" tag="ADJ" in="-1:attr" out="">Seconda</W>
-<W lemma="edizione" msd="NC" tag="NOM" in="6:subj" out="">edizione</W>
+<W lemma="secondo" msd="AN" tag="ADJ" in="-1:attr" out="1:nobj">Seconda</W>
+<W lemma="edizione" msd="NC" tag="NOM" in="-1:nobj" out="">edizione</W>
 <W lemma=")" msd="XP" tag="PON" in="5:pnct" out="">)</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="4:subj" out="1:nobj|3:appr">L'</W>
 <W lemma="agenzia" msd="NC" tag="NOM" in="-1:nobj" out="">agenzia</W>
 <W lemma="immobiliare" msd="AN" tag="ADJ" in="" out="">immobiliare</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:appr" out="">Norden</W>
-<W lemma="desiderare" msd="VADR" tag="VER:pres" in="" out="-8:pnct|-6:subj|-5:pnct|-4:subj|1:vobj|4:conj|23:pnct">desidera</W>
+<W lemma="desiderare" msd="VADR" tag="VER:pres" in="" out="-8:pnct|-5:pnct|-4:subj|1:vobj|4:conj">desidera</W>
 <W lemma="crescere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:quant">crescere</W>
 <W lemma="ulteriormente" msd="RG" tag="ADV" in="-1:quant" out="">ulteriormente</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="realizzare" msd="VAM" tag="VER:impe" in="-4:conj" out="-1:coord|2:nobj|6:time">realizza</W>
+<W lemma="realizzare" msd="VAM" tag="VER:impe" in="-4:conj" out="-1:coord|2:nobj|6:time|19:pnct">realizza</W>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="1:attr" out="">questo</W>
 <W lemma="obiettivo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:man">obiettivo</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:man" out="1:nobj">con</W>
@@ -23,26 +23,26 @@
 <W lemma="aprile" msd="NC" tag="NOM" in="1:nobj" out="-1:nobj">aprile</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-3:nobj" out="-1:nobj">1980</W>
 <W lemma="con" msd="SP" tag="PRE" in="-5:man" out="1:nobj">con</W>
-<W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj|5:pnct|6:elab">una</W>
+<W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj|5:pnct">una</W>
 <W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">società</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj|2:appr">del</W>
 <W lemma="gruppo" msd="NC" tag="NOM" in="-1:nobj" out="">gruppo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appr" out="">Hafnia</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-6:elab" out="1:nobj">la</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Aktieselskabet</W>
-<W lemma="." msd="XP" tag="SENT" in="-23:pnct" out="">.</W>
+<W lemma="." msd="XP" tag="SENT" in="-19:pnct" out="">.</W>
 </s>
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="5:subj" out="2:nobj">Le</W>
 <W lemma="primo" msd="AN" tag="ADJ" in="1:attr" out="">prime</W>
 <W lemma="società" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">società</W>
 <W lemma="interessato" msd="AN" tag="ADJ" in="-1:attr" out="">interessate</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="-5:subj|-1:robj|1:time|2:preds|15:pnct">sono</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="3:robj" out="">si</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="-5:subj|1:time|2:preds|15:pnct">sono</W>
 <W lemma="già" msd="RG" tag="ADV" in="-1:time" out="">già</W>
-<W lemma="fare" msd="VAP" tag="VER:pper" in="-2:preds" out="1:dir">fatte</W>
-<W lemma="avanti" msd="RG" tag="ADV" in="-1:dir" out="1:time">avanti</W>
+<W lemma="fare" msd="VAP" tag="VER:pper" in="-2:preds" out="-3:robj">fatte</W>
+<W lemma="avanti" msd="RG" tag="ADV" in="" out="1:time">avanti</W>
 <W lemma="dopo" msd="SP" tag="PRE" in="-1:time" out="1:nobj">dopo</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:nobj" out="2:vobj">che</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="">Norden</W>
@@ -65,8 +65,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Hafnia</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="-8:vobj" out="-7:subj|1:preds">è</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
-<W lemma="corso" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">corso</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
+<W lemma="corso" msd="NC" tag="NOM" in="-1:nobj" out="">corso</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
 <W lemma="negoziazione" msd="NC" tag="NOM" in="-1:nobj" out="">negoziazione</W>
 <W lemma="." msd="XP" tag="SENT" in="-22:pnct" out="">.</W>
 </s>
@@ -88,9 +88,9 @@
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="dire" msd="VADR" tag="VER:pres" in="" out="-9:qobj|2:subj|15:pnct">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Preben</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|1:pnct">Nygaard</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|1:pnct|2:title">Nygaard</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="direttore" msd="NC" tag="NOM" in="" out="">direttore</W>
+<W lemma="direttore" msd="NC" tag="NOM" in="-2:title" out="">direttore</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj|5:pnct">della</W>
 <W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">società</W>
 <W lemma="madre" msd="NC" tag="NOM" in="-1:attr" out="">madre</W>
@@ -134,11 +134,11 @@
 </p>
 <p>
 <s>
-<W lemma="ma" msd="CS" tag="CON" in="3:discmark" out="">Ma</W>
+<W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">Ma</W>
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">l'</W>
 <W lemma="intenzione" msd="NC" tag="NOM" in="-1:nobj" out="">intenzione</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-3:discmark|-2:subj|1:preds|24:pnct">è</W>
-<W lemma="che" msd="PT" tag="PRO:rela" in="-1:preds" out="6:vobj">che</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-3:coord|-2:subj|1:dobj|24:pnct">è</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="6:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET:def" in="5:subj" out="1:nobj">il</W>
 <W lemma="pacchetto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">pacchetto</W>
 <W lemma="azionario" msd="AN" tag="ADJ" in="-1:attr" out="">azionario</W>
@@ -152,9 +152,9 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">25</W>
 <W lemma="percento" msd="NC" tag="NOM" in="-1:nobj" out="">percento</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
-<W lemma="a" msd="SP" tag="PRE" in="-6:man" out="1:nobj">a</W>
-<W lemma="mano" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">mano</W>
-<W lemma="a" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">a</W>
+<W lemma="a" msd="SP" tag="PRE" in="-6:man" out="1:nobj|2:nobj">a</W>
+<W lemma="mano" msd="NC" tag="NOM" in="-1:nobj" out="">mano</W>
+<W lemma="a" msd="SP" tag="PRE" in="-2:nobj" out="1:nobj">a</W>
 <W lemma="mano" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">mano</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:nobj" out="2:vobj">che</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>

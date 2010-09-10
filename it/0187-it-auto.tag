@@ -20,8 +20,8 @@
 <p>
 <s>
 <W lemma="ma" msd="CS" tag="CON" in="13:discmark" out="">Ma</W>
-<W lemma="anche" msd="RG" tag="ADV" in="12:conc" out="1:nobj#">anche</W>
-<W lemma="se" msd="CS" tag="CON" in="-1:nobj#" out="5:vobj">se</W>
+<W lemma="anche" msd="RG" tag="ADV" in="12:conc" out="">anche</W>
+<W lemma="se" msd="CS" tag="CON" in="" out="5:vobj">se</W>
 <W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="1:nobj">il</W>
 <W lemma="totale" msd="NC" tag="NOM" in="-1:nobj" out="">totale</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">degli</W>
@@ -55,15 +55,15 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">le</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">workstation</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="per" msd="SP" tag="PRE" in="-9:conj" out="-1:coord|4:nobj">per</W>
-<W lemma="piccolo" msd="NC" tag="NOM" in="3:attr" out="2:conj">piccoli</W>
+<W lemma="per" msd="SP" tag="PRE" in="-9:conj" out="-1:coord|1:nobj">per</W>
+<W lemma="piccolo" msd="NC" tag="NOM" in="-1:nobj" out="2:conj">piccoli</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:conj" out="-1:coord">medio-grandi</W>
-<W lemma="sistema" msd="NC" tag="NOM" in="-4:nobj" out="-3:attr|1:attr|3:pnct|4:conj">sistemi</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:conj" out="-1:coord|1:attr">medio-grandi</W>
+<W lemma="sistema" msd="NC" tag="NOM" in="-1:attr" out="1:attr|3:pnct">sistemi</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">multiutenti</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-4:conj" out="1:nobj">il</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="1:nobj">il</W>
 <W lemma="tutto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">tutto</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">in</W>
 <W lemma="relazione" msd="NC" tag="NOM" in="-1:nobj" out="">relazione</W>
@@ -120,12 +120,12 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">1996</W>
 <W lemma="Unix" msd="NP" tag="NPR" in="1:subj" out="">Unix</W>
 <W lemma="raggiungere" msd="VADR" tag="VER:futu" in="7:qobj" out="-3:time|-1:subj|1:dobj">raggiungerà</W>
-<W lemma="una" msd="PI" tag="DET:indef" in="-1:dobj" out="1:nobj">una</W>
+<W lemma="una" msd="PI" tag="DET:indef" in="-1:dobj" out="1:nobj|5:pnct">una</W>
 <W lemma="vendita" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">vendita</W>
-<W lemma="pari|pario" msd="AN" tag="ADJ" in="-1:attr" out="1:attr">pari</W>
-<W lemma="al" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">al</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:pnct">70-80%</W>
-<W lemma="&gt;&gt;" msd="XP" tag="PON" in="-1:pnct" out="">&gt;&gt;</W>
+<W lemma="pari|pario" msd="AN" tag="ADJ" in="-1:attr" out="1:time">pari</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-1:time" out="1:nobj">al</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">70-80%</W>
+<W lemma="&gt;&gt;" msd="XP" tag="PON" in="-5:pnct" out="">&gt;&gt;</W>
 <W lemma="prevedere" msd="VADR" tag="VER:pres" in="" out="-7:qobj|2:subj|15:pnct">prevede</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|1:attr">Andersen</W>
@@ -174,8 +174,8 @@
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-3:subj|-2:add|-1:neg|1:preds|10:pnct">è</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:preds" out="1:nobj|5:pnct|7:conj">un</W>
-<W lemma="sostituto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">sostituto</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="2:nobj">di</W>
+<W lemma="sostituto" msd="NC" tag="NOM" in="-1:nobj" out="">sostituto</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="2:nobj">di</W>
 <W lemma="precedente" msd="AN" tag="ADJ" in="1:attr" out="">precedenti</W>
 <W lemma="sistema" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">sistemi</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
@@ -188,8 +188,8 @@
 <W lemma="nemmeno" msd="RG" tag="ADV" in="3:neg" out="">Nemmeno</W>
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">il</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">PC</W>
-<W lemma="ucciso" msd="AN" tag="ADJ" in="" out="-3:neg|-2:subj|1:nobj|3:pnct|5:conj|18:pnct">uccise</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">il</W>
+<W lemma="ucciso" msd="AN" tag="ADJ" in="" out="-3:neg|-2:subj|1:dobj|3:pnct|5:conj|18:pnct">uccise</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">mainframe</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="1:coord" out="">ma</W>

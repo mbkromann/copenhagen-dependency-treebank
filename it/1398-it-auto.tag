@@ -3,11 +3,11 @@
 <W lemma="molto" msd="RG" tag="ADV" in="1:quant" out="">Molto</W>
 <W lemma="più" msd="RG" tag="ADV" in="1:quant" out="-1:quant">più</W>
 <W lemma="preoccupante" msd="AN" tag="ADJ" in="1:preds" out="-1:quant">preoccupante</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-1:preds|1:preds|4:pnct|21:pnct">è</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-1:preds" out="1:nobj">l'</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-1:preds|1:preds|21:pnct">è</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:preds" out="1:nobj|3:pnct">l'</W>
 <W lemma="agguato" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|3:attr">agguato</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">bosniaco</W>
-<W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
+<W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="costatare" msd="VADR" tag="VER:pres" in="-3:attr" out="1:subj">costato</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:subj" out="1:nobj">la</W>
 <W lemma="vita" msd="NC" tag="NOM" in="-1:nobj" out="">vita</W>
@@ -76,8 +76,8 @@
 <W lemma="con" msd="SP" tag="PRE" in="-3:man" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="2:nobj">il</W>
 <W lemma="paradossale" msd="AN" tag="ADJ" in="1:attr" out="">paradossale</W>
-<W lemma="arresto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|4:attr">arresto</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
+<W lemma="arresto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr|4:attr">arresto</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">del</W>
 <W lemma="presidente" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">presidente</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">bosniaco</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="-4:attr" out="1:nobj">al</W>
@@ -109,8 +109,8 @@
 <s>
 <W lemma="ma" msd="CS" tag="CON" in="9:coord" out="">Ma</W>
 <W lemma="a" msd="SP" tag="PRE" in="8:epi" out="1:nobj|3:pnct">a</W>
-<W lemma="quanto" msd="RG" tag="ADV" in="-1:nobj" out="1:vobj">quanto</W>
-<W lemma="parere" msd="VADR" tag="VER:pres" in="-1:vobj" out="">pare</W>
+<W lemma="quanto" msd="RG" tag="ADV" in="-1:nobj" out="1:relr">quanto</W>
+<W lemma="parere" msd="VADR" tag="VER:pres" in="-1:relr" out="">pare</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="2:nobj">lo</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="1:attr" out="">stesso</W>
@@ -159,8 +159,8 @@
 <p>
 <s>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="4:subj" out="1:nobj">Questo</W>
-<W lemma="punto" msd="NC" tag="NOM" in="-1:nobj" out="">punto</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="punto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">punto</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="vista" msd="NC" tag="NOM" in="-1:nobj" out="">vista</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-4:subj|2:eval|5:preds|38:pnct">è</W>
 <W lemma="-" msd="XP" tag="PON" in="1:pnct" out="">-</W>

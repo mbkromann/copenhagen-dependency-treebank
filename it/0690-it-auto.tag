@@ -58,14 +58,14 @@
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="32:pnct" out="">"</W>
 <W lemma="se" msd="CS" tag="CON" in="31:cond" out="8:vobj">Se</W>
-<W lemma="da" msd="SP" tag="PRE" in="7:scene" out="1:nobj">da</W>
+<W lemma="da" msd="SP" tag="PRE" in="7:time" out="1:nobj">da</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="lato" msd="NC" tag="NOM" in="-1:nobj" out="">lato</W>
-<W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="2:nobj">i</W>
-<W lemma="danese" msd="AN" tag="ADJ" in="1:attr" out="">danesi</W>
-<W lemma="bene" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">bene</W>
-<W lemma="intenzionato" msd="AN" tag="ADJ" in="-1:attr" out="">intenzionati</W>
-<W lemma="continuare" msd="VADR" tag="VER:pres" in="-8:vobj" out="-7:scene|-4:subj">continuano</W>
+<W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="1:nobj">i</W>
+<W lemma="danese" msd="AN" tag="ADJ" in="-1:nobj" out="2:attr">danesi</W>
+<W lemma="bene" msd="NC" tag="NOM" in="1:man" out="">bene</W>
+<W lemma="intenzionato" msd="AN" tag="ADJ" in="-2:attr" out="-1:man">intenzionati</W>
+<W lemma="continuare" msd="VADR" tag="VER:pres" in="-8:vobj" out="-7:time|-4:subj">continuano</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="1:vobj">a</W>
 <W lemma="dare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:goal|3:dobj">dare</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="-1:goal" out="1:nobj">ai</W>
@@ -79,11 +79,11 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-3:conj" out="-1:coord|1:nobj">i</W>
 <W lemma="rifugiato" msd="NC" tag="NOM" in="-1:nobj" out="">rifugiati</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="potere" msd="VADR" tag="VER:cpre" in="-7:vobj" out="-6:subj|-1:neg|1:¹vobj|7:pnct">possano</W>
-<W lemma="cavare" msd="VAF" tag="VER:infi" in="-1:¹vobj" out="1:man¹|3:loc¹">cavarsela</W>
+<W lemma="potere" msd="VADR" tag="VER:cpre" in="-7:vobj" out="-6:subj|-1:neg|1:vobj|7:pnct">possano</W>
+<W lemma="cavare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:man¹">cavarsela</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:man¹" out="1:nobj">da</W>
 <W lemma="sole|solo" msd="NC" tag="NOM" in="-1:nobj" out="">soli</W>
-<W lemma="nel" msd="SP+P" tag="PRE:det" in="-3:loc¹" out="1:nobj">nella</W>
+<W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="1:nobj">nella</W>
 <W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">società</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">danese</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
@@ -116,8 +116,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj|3:relr">gli</W>
 <W lemma="allievo" msd="NC" tag="NOM" in="-1:nobj" out="">allievi</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="1:subj" out="">che</W>
-<W lemma="uscire" msd="VADR" tag="VER:pres" in="-3:relr" out="-1:subj|1:loc">escono</W>
-<W lemma="dal" msd="SP+P" tag="PRE:det" in="-1:loc" out="1:nobj">dalle</W>
+<W lemma="uscire" msd="VADR" tag="VER:pres" in="-3:relr" out="-1:subj">escono</W>
+<W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dalle</W>
 <W lemma="scuola" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">scuole</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">dell'</W>
 <W lemma="obbligo" msd="NC" tag="NOM" in="-1:nobj" out="">obbligo</W>
@@ -149,9 +149,9 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="2:nobj">di</W>
 <W lemma="secondo" msd="AN" tag="ADJ" in="1:attr" out="">seconda</W>
 <W lemma="generazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">generazione</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-11:<pobj:2>" out="2:nobj">il</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="1:nobj" out="">15</W>
-<W lemma="percento" msd="NC" tag="NOM" in="-2:nobj" out="-1:nobj">percento</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-11:<pobj:2>" out="1:nobj">il</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">15</W>
+<W lemma="percento" msd="NC" tag="NOM" in="-1:nobj" out="">percento</W>
 <W lemma="." msd="XP" tag="SENT" in="-14:pnct" out="">.</W>
 </s>
 <s>
@@ -165,16 +165,16 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">delle</W>
 <W lemma="scuola" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">scuole</W>
 <W lemma="medio" msd="AN" tag="ADJ" in="-1:attr" out="">medie</W>
-<W lemma="continuare" msd="VADR" tag="VER:pres" in="" out="-10:subj|4:pnct|5:<coord|6:conj|11:pnct">continua</W>
+<W lemma="continuare" msd="VADR" tag="VER:pres" in="" out="-10:subj|4:pnct|5:<coord|6:<subj|9:<pobj|11:pnct">continua</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">il</W>
 <W lemma="liceo" msd="NC" tag="NOM" in="-1:nobj" out="">liceo</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="-5:<coord:2>" out="">e</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-6:conj" out="1:nobj">il</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-6:<subj:2>" out="1:nobj">il</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">42</W>
 <W lemma="percento" msd="NC" tag="NOM" in="-1:nobj" out="">percento</W>
-<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:nobj">all'</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-9:<pobj:2>" out="1:nobj">all'</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">EFG</W>
 <W lemma="." msd="XP" tag="SENT" in="-11:pnct" out="">.</W>
 </s>
@@ -214,10 +214,10 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj|8:relr">degli</W>
 <W lemma="immigrato" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">immigrati</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
-<W lemma="primo" msd="AN" tag="ADJ" in="-1:nobj" out="3:nobj">prima</W>
+<W lemma="primo" msd="AN" tag="ADJ" in="-1:nobj" out="3:conj">prima</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="secondo" msd="AN" tag="ADJ" in="1:attr" out="">seconda</W>
-<W lemma="generazione" msd="NC" tag="NOM" in="-3:nobj" out="-2:coord|-1:attr">generazione</W>
+<W lemma="generazione" msd="NC" tag="NOM" in="-3:conj" out="-2:coord|-1:attr">generazione</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="1:subj" out="">che</W>
 <W lemma="proseguire" msd="VADR" tag="VER:pres" in="-8:relr" out="-1:subj|1:dobj">proseguono</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">gli</W>

@@ -19,14 +19,14 @@
 <W lemma="marzo" msd="NC" tag="NOM" in="-2:nobj" out="-1:nobj">marzo</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="con" msd="SP" tag="PRE" in="-8:man" out="1:nobj">con</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj|6:pnct|7:appr">l'</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj|6:pnct|7:conj">l'</W>
 <W lemma="accordo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj">accordo</W>
 <W lemma="tra" msd="SP" tag="PRE" in="-1:pobj.subj" out="1:nobj">tra</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="2:conj">AGF</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:conj" out="-1:coord">Brøndby</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
-<W lemma="seguire" msd="VAP" tag="VER:pper" in="-7:appr" out="1:dobj">seguita</W>
+<W lemma="seguire" msd="VAP" tag="VER:pper" in="-7:conj" out="1:dobj">seguita</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="giorno" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">giorno</W>
 <W lemma="successivo" msd="AN" tag="ADJ" in="-1:attr" out="">successivo</W>
@@ -47,8 +47,8 @@
 <p>
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="1:nobj">I</W>
-<W lemma="dieci" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj">dieci</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.subj" out="1:nobj">della</W>
+<W lemma="dieci" msd="NC" tag="NOM" in="-1:nobj" out="">dieci</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Superliga</W>
 <W lemma="dovere" msd="VADR" tag="VER:pres" in="" out="-4:subj|1:vobj|20:pnct|21:cons|42:pnct">devono</W>
 <W lemma="incontrare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:@time">incontrarsi</W>
@@ -177,13 +177,13 @@
 <W lemma="una" msd="PI" tag="DET:indef" in="" out="1:nobj|3:relr|22:pnct">Una</W>
 <W lemma="nomina" msd="NC" tag="NOM" in="-1:nobj" out="">nomina</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="1:subj" out="">che</W>
-<W lemma="portare" msd="VADR" tag="VER:futu" in="-3:relr" out="-1:subj|1:dobj|5:pnct|6:time">porterà</W>
+<W lemma="portare" msd="VADR" tag="VER:futu" in="-3:relr" out="-1:subj|1:dobj|5:pnct|6:cause">porterà</W>
 <W lemma="più" msd="RG" tag="ADV" in="-1:dobj" out="">più</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="" out="1:nobj">che</W>
 <W lemma="altro" msd="PI" tag="PRO:indef" in="-1:nobj" out="1:nobj">altro</W>
 <W lemma="prestigio" msd="NC" tag="NOM" in="-1:nobj" out="">prestigio</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="in" msd="SP" tag="PRE" in="-6:time" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="PRE" in="-6:cause" out="1:nobj">in</W>
 <W lemma="quanto" msd="RG" tag="ADV" in="-1:nobj" out="5:vobj">quanto</W>
 <W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="1:nobj">i</W>
 <W lemma="campione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">campioni</W>
@@ -240,12 +240,12 @@
 <W lemma="piazzamento" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">piazzamento</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">dall'</W>
 <W lemma="autunno" msd="NC" tag="NOM" in="-1:nobj" out="">autunno</W>
-<W lemma="giocare" msd="VA" tag="VER:cond" in="" out="-11:cause|-9:subj|1:goal|5:man|9:man|12:pnct">giocherebbero</W>
+<W lemma="giocare" msd="VA" tag="VER:cond" in="" out="-11:cause|-9:subj|1:goal|5:loc|9:man|12:pnct">giocherebbero</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">Coppa</W>
 <W lemma="campione" msd="NC" tag="NOM" in="-1:nobj" out="">campioni</W>
-<W lemma="in" msd="SP" tag="PRE" in="-5:man" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="PRE" in="-5:loc" out="1:nobj">in</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="partita" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">partita</W>
 <W lemma="finale" msd="AN" tag="ADJ" in="-1:attr" out="">finale</W>

@@ -44,8 +44,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:conj" out="-1:coord">roll</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="-8:vobj" out="-7:subj|5:preds">è</W>
 <W lemma="goal" msd="RG" tag="ADV" in="1:quant" out="">ben</W>
-<W lemma="lungi" msd="RG" tag="ADV" in="3:neg" out="-1:quant|1:pobj#">lungi</W>
-<W lemma="dal" msd="SP+P" tag="PRE:det" in="-1:pobj#" out="1:vobj">dall'</W>
+<W lemma="lungi" msd="RG" tag="ADV" in="3:neg" out="-1:quant">lungi</W>
+<W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="1:vobj">dall'</W>
 <W lemma="essere" msd="VAF" tag="VER:infi" in="-1:vobj" out="">essere</W>
 <W lemma="esaurire" msd="VAP" tag="VER:pper" in="-5:preds" out="-3:neg">esaurito</W>
 <W lemma="." msd="XP" tag="SENT" in="-31:pnct" out="">.</W>
@@ -56,8 +56,8 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="mi" msd="PP" tag="PRO:pers" in="3:dobj" out="">Mi</W>
 <W lemma="ci" msd="PD" tag="PRO:demo" in="2:robj" out="">ci</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-3:pnct|1:attr|2:subj|4:goal|10:time|22:pnct">son</W>
-<W lemma="volere" msd="VAP" tag="VER:pper" in="-1:attr" out="-3:dobj|-2:robj">voluti</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-3:pnct|1:preds|2:subj|4:goal|10:time|22:pnct">son</W>
+<W lemma="volere" msd="VAP" tag="VER:pper" in="-1:preds" out="-3:dobj|-2:robj">voluti</W>
 <W lemma="sette" msd="AN" tag="ADJ" in="-2:subj" out="1:nobj">sette</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma="per" msd="SP" tag="PRE" in="-4:goal" out="1:vobj">per</W>
@@ -105,8 +105,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="nostro" msd="PO" tag="PRO:poss" in="-1:nobj" out="2:possd">nostra</W>
 <W lemma="giusto" msd="AN" tag="ADJ" in="1:attr" out="">giusta</W>
-<W lemma="collocazione" msd="NC" tag="NOM" in="-2:possd" out="-1:attr|1:attr">collocazione</W>
-<W lemma="musicale" msd="AN" tag="ADJ" in="-1:attr" out="">musicale</W>
+<W lemma="collocazione" msd="NC" tag="NOM" in="-2:possd" out="-1:attr|1:aobj.dobj">collocazione</W>
+<W lemma="musicale" msd="AN" tag="ADJ" in="-1:aobj.dobj" out="">musicale</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-22:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-23:pnct" out="">,</W>
 <W lemma="dire" msd="VADR" tag="VER:pres" in="" out="-24:qobj|2:subj|3:pnct">dice</W>
@@ -118,8 +118,8 @@
 <p>
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="andare|riandare" msd="VADR" tag="VER:pres" in="" out="-1:pnct|1:aobj|2:subj|6:pnct|7:cause|24:pnct">Va</W>
-<W lemma="benissimo" msd="RG" tag="ADV" in="-1:aobj" out="">benissimo</W>
+<W lemma="andare|riandare" msd="VADR" tag="VER:pres" in="" out="-1:pnct|2:subj|6:pnct|7:cause|24:pnct">Va</W>
+<W lemma="benissimo" msd="RG" tag="ADV" in="" out="">benissimo</W>
 <W lemma="suonare" msd="VAF" tag="VER:infi" in="-2:subj" out="1:@loc">suonare</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:@loc" out="1:nobj">nei</W>
 <W lemma="locale" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">locali</W>

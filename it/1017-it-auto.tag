@@ -11,12 +11,12 @@
 <W lemma="governo" msd="NC" tag="NOM" in="-1:nobj" out="">governo</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="1:nobj">il</W>
-<W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">partito</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">dei</W>
+<W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="">partito</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dei</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">CD</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-13:time|-4:subj|1:vobj|50:pnct">ha</W>
-<W lemma="proporre" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:dobj">proposto</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="1:vobj">di</W>
+<W lemma="proporre" msd="VAP" tag="VER:pper" in="-1:vobj" out="">proposto</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="1:vobj">di</W>
 <W lemma="prevedere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">prevedere</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:dobj" out="1:nobj|7:pnct|10:vobj">una</W>
 <W lemma="consulenza" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">consulenza</W>
@@ -130,8 +130,8 @@
 <W lemma="senza" msd="SP" tag="PRE" in="-18:<man:2>" out="1:nobj">senza</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:nobj" out="5:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="1:nobj">il</W>
-<W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">partito</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">dei</W>
+<W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="">partito</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dei</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">CD</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:cpre" in="-5:vobj" out="-4:subj|1:conc|2:vobj">abbia</W>
 <W lemma="tuttavia" msd="RG" tag="ADV" in="-1:conc" out="">tuttavia</W>
@@ -145,21 +145,21 @@
 <W lemma="." msd="XP" tag="SENT" in="-33:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="presentare" msd="VADA" tag="VER:impf" in="" out="8:dobj|28:pnct">Presentava</W>
+<W lemma="presentare" msd="VADA" tag="VER:impf" in="" out="3:source|8:dobj|28:pnct">Presentava</W>
 <W lemma="infatti" msd="RG" tag="ADV" in="" out="">infatti</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
-<W lemma="a" msd="SP" tag="PRE" in="" out="-1:pnct|1:nobj|4:pnct">a</W>
+<W lemma="a" msd="SP" tag="PRE" in="-3:source" out="-1:pnct|1:nobj|4:pnct">a</W>
 <W lemma="giudizio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj">giudizio</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.subj" out="1:nobj">dei</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">CD</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
-<W lemma="errore" msd="NC" tag="NOM" in="-8:dobj" out="2:conj|3:pnct|6:relr">errori</W>
+<W lemma="errore" msd="NC" tag="NOM" in="-8:dobj" out="2:conj|3:pnct|6:conj">errori</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="mancanza" msd="NC" tag="NOM" in="-2:conj" out="-1:coord">mancanze</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="2:subj" out="">che</W>
 <W lemma="ci" msd="PR" tag="PRO:refl" in="3:dobj" out="">ci</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-6:relr" out="-2:subj|1:vobj">hanno</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-6:conj" out="-2:subj|1:vobj">hanno</W>
 <W lemma="fare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:vobj">fatto</W>
 <W lemma="considerare" msd="VAF" tag="VER:infi" in="-1:vobj" out="-3:dobj|1:preds">considerare</W>
 <W lemma="come" msd="PT" tag="PRO:inter" in="-1:preds" out="1:attr|2:nobj">come</W>

@@ -52,8 +52,8 @@
 <W lemma="preliminare" msd="AN" tag="ADJ" in="-1:attr" out="">preliminare</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:attr" out="2:nobj">di</W>
 <W lemma="circa" msd="RG" tag="ADV" in="1:quant" out="">circa</W>
-<W lemma="una" msd="PI" tag="DET:indef" in="-2:nobj" out="-1:quant|1:nobj|2:nobj">una</W>
-<W lemma="due" msd="AN" tag="ADJ" in="-1:nobj" out="">due</W>
+<W lemma="una" msd="PI" tag="DET:indef" in="-2:nobj" out="-1:quant|1:conj|2:nobj">una</W>
+<W lemma="due" msd="AN" tag="ADJ" in="-1:conj" out="">due</W>
 <W lemma="settimana" msd="NC" tag="NOM" in="-2:nobj" out="1:time">settimane</W>
 <W lemma="oltre" msd="CS" tag="CON" in="-1:time" out="">oltre</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="2:nobj">a</W>
@@ -176,8 +176,8 @@
 <p>
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="1:nobj">Il</W>
-<W lemma="ministero" msd="NC" tag="NOM" in="-1:nobj" out="">Ministero</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">degli</W>
+<W lemma="ministero" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Ministero</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">degli</W>
 <W lemma="interno" msd="NC" tag="NOM" in="-1:nobj" out="">Interni</W>
 <W lemma="prevedere" msd="VADR" tag="VER:pres" in="" out="-4:subj|1:dobj|17:pnct">prevede</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="10:vobj">che</W>

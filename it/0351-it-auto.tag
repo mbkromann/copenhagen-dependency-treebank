@@ -27,14 +27,14 @@
 <W lemma="Berlino" msd="NP" tag="NPR" in="" out="1:pnct">Berlino</W>
 <W lemma="..." msd="XP" tag="PON" in="-1:pnct" out="">...</W>
 <W lemma="-" msd="XP" tag="PON" in="1:pnct" out="">-</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|7:qobj">dice-</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct">dice-</W>
 <W lemma="oh" msd="I=" tag="INT" in="" out="">oh</W>
 <W lemma="," msd="XP" tag="PON" in="2:pnct" out="">,</W>
 <W lemma="santo" msd="AN" tag="ADJ" in="1:attr" out="">santo</W>
 <W lemma="cielo" msd="NC" tag="NOM" in="3:voc" out="-2:pnct|-1:attr|1:pnct">cielo</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="credere" msd="VADA" tag="VER:impf" in="-7:qobj" out="-3:voc|-1:neg|1:dobj|2:pnct">credevo</W>
+<W lemma="credere" msd="VADA" tag="VER:impf" in="" out="-3:voc|-1:neg|1:dobj|2:pnct">credevo</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="">che</W>
 <W lemma="..." msd="XP" tag="PON" in="-2:pnct" out="">...</W>
 </s>
@@ -94,16 +94,16 @@
 <s>
 <W lemma="sì" msd="RG" tag="ADV" in="2:qobj" out="1:pnct">Sì</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-2:qobj|1:vobj|9:pnct|25:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-2:qobj|1:vobj|25:pnct">è</W>
 <W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:preds|3:loc|5:accom|10:loc">stato</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="vacanza" msd="NC" tag="NOM" in="-1:nobj" out="">vacanza</W>
 <W lemma="a" msd="SP" tag="PRE" in="-3:loc" out="1:nobj">a</W>
 <W lemma="Berlino" msd="NP" tag="NPR" in="-1:nobj" out="">Berlino</W>
-<W lemma="con" msd="SP" tag="PRE" in="-5:accom" out="1:nobj">con</W>
+<W lemma="con" msd="SP" tag="PRE" in="-5:accom" out="1:nobj|3:pnct">con</W>
 <W lemma="suo" msd="PO" tag="PRO:poss" in="-1:nobj" out="1:possd">suo</W>
 <W lemma="padre" msd="NC" tag="NOM" in="-1:possd" out="">padre</W>
-<W lemma="," msd="XP" tag="PON" in="-9:pnct" out="">,</W>
+<W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="proprio" msd="RG" tag="ADV" in="1:focal" out="">proprio</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-10:loc" out="-1:focal|2:nobj|3:pnct|4:time">nel</W>
 <W lemma="novembre" msd="NC" tag="NOM" in="1:nobj" out="">novembre</W>
@@ -115,8 +115,8 @@
 <W lemma="osare" msd="VADA" tag="VER:impf" in="-3:vobj" out="-2:subj|1:¹vobj|2:pnct|3:cause">osava</W>
 <W lemma="andare" msd="VAF" tag="VER:infi" in="-1:¹vobj" out="">andarci</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="dare" msd="VAP" tag="VER:pper" in="-3:cause" out="1:dobj">dato</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
+<W lemma="dare" msd="VAP" tag="VER:pper" in="-3:cause" out="1:nobj">dato</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">il</W>
 <W lemma="disordine" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">disordine</W>
 <W lemma="generale" msd="AN" tag="ADJ" in="-1:attr" out="">generale</W>
 <W lemma="." msd="XP" tag="SENT" in="-25:pnct" out="">.</W>

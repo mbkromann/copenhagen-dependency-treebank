@@ -48,16 +48,16 @@
 <p>
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="10:pnct" out="">"</W>
-<W lemma="secondo" msd="SP" tag="PRE" in="" out="1:nobj">Secondo</W>
+<W lemma="secondo" msd="SP" tag="PRE" in="9:source" out="1:nobj|7:pnct">Secondo</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="legge" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">legge</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:attr" out="">56</W>
-<W lemma="sul" msd="SP+P" tag="PRE:det" in="-2:attr" out="1:nobj|3:pnct">sulla</W>
+<W lemma="legge" msd="NC" tag="NOM" in="-1:nobj" out="1:name|2:attr">legge</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:name" out="">56</W>
+<W lemma="sul" msd="SP+P" tag="PRE:det" in="-2:attr" out="1:nobj">sulla</W>
 <W lemma="previdenza" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">previdenza</W>
 <W lemma="sociale" msd="AN" tag="ADJ" in="-1:attr" out="">sociale</W>
-<W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
+<W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="tutto" msd="PI" tag="PRO:indef" in="1:subj" out="">tutti</W>
-<W lemma="potere" msd="VADR" tag="VER:pres" in="" out="-10:pnct|-1:subj|1:vobj|9:pnct">possono</W>
+<W lemma="potere" msd="VADR" tag="VER:pres" in="" out="-10:pnct|-9:source|-1:subj|1:vobj|9:pnct">possono</W>
 <W lemma="ricevere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">ricevere</W>
 <W lemma="contributo" msd="NC" tag="NOM" in="-1:dobj" out="1:attr">contributi</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:attr" out="1:vobj">per</W>
@@ -147,8 +147,8 @@
 <W lemma="anziano" msd="NC" tag="NOM" in="-1:nobj" out="">anziani</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="lo" msd="PP" tag="PRO:pers" in="1:dobj" out="">lo</W>
-<W lemma="fare" msd="VADR" tag="VER:pres" in="-11:conj" out="-2:coord|-1:dobj|1:vobj">fanno</W>
-<W lemma="considerare" msd="VAG" tag="VER:geru" in="-1:vobj" out="1:dobj">considerando</W>
+<W lemma="fare" msd="VADR" tag="VER:pres" in="-11:conj" out="-2:coord|-1:dobj|1:man">fanno</W>
+<W lemma="considerare" msd="VAG" tag="VER:geru" in="-1:man" out="1:dobj">considerando</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="costo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">costi</W>
 <W lemma="economico" msd="AN" tag="ADJ" in="-1:attr" out="">economici</W>
@@ -187,7 +187,7 @@
 <W lemma="perché" msd="CS" tag="CON" in="-6:cause" out="3:vobj">perché</W>
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">non</W>
 <W lemma="c'" msd="PD" tag="PRO:demo" in="1:expl" out="">c'</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="-3:vobj" out="-2:neg|-1:expl|1:dobj|15:conj">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="-3:vobj" out="-2:neg|-1:expl|1:dobj|15:vobj">è</W>
 <W lemma="nessuno" msd="AN" tag="ADJ" in="-1:dobj" out="3:relr">nessuno</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="2:subj" out="">che</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
@@ -196,13 +196,13 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
 <W lemma="loro" msd="PP" tag="PRO:pers" in="-1:nobj" out="">loro</W>
 <W lemma="ed" msd="CS" tag="CON" in="7:coord" out="">ed</W>
-<W lemma="in" msd="SP" tag="PRE" in="6:loc" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="PRE" in="6:epi" out="1:nobj">in</W>
 <W lemma="più" msd="RG" tag="ADV" in="-1:nobj" out="">più</W>
 <W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="1:nobj">le</W>
 <W lemma="casa" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">case</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="riposo" msd="NC" tag="NOM" in="-1:nobj" out="">riposo</W>
-<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="-15:conj" out="-7:coord|-6:loc|-4:subj|1:preds">sono</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="-15:vobj" out="-7:coord|-6:epi|-4:subj|1:preds">sono</W>
 <W lemma="strapieno" msd="AN" tag="ADJ" in="-1:preds" out="">strapiene</W>
 <W lemma="." msd="XP" tag="SENT" in="-36:pnct" out="">.</W>
 </s>

@@ -73,8 +73,8 @@
 <s>
 <W lemma="egli" msd="PP" tag="PRO:pers" in="1:subj" out="">Egli</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-1:subj|2:preds|33:pnct">è</W>
-<W lemma="goal" msd="RG" tag="ADV" in="1:quant" out="">ben</W>
-<W lemma="consapevole" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant|1:nobj">consapevole</W>
+<W lemma="goal" msd="RG" tag="ADV" in="1:man" out="">ben</W>
+<W lemma="consapevole" msd="AN" tag="ADJ" in="-2:preds" out="-1:man|1:nobj">consapevole</W>
 <W lemma="che" msd="CS" tag="CON" in="-1:nobj" out="11:vobj">che</W>
 <W lemma="qualsiasi" msd="AN" tag="ADJ" in="10:subj" out="1:nobj">qualsiasi</W>
 <W lemma="mossa" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|7:conj">mossa</W>
@@ -91,8 +91,8 @@
 <W lemma="con" msd="SP" tag="PRE" in="-1:man" out="1:nobj">con</W>
 <W lemma="attenzione" msd="NC" tag="NOM" in="-1:nobj" out="">attenzione</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dal</W>
-<W lemma="mercato" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj|2:attr">mercato</W>
-<W lemma="azionario" msd="AN" tag="ADJ" in="-1:aobj" out="">azionario</W>
+<W lemma="mercato" msd="NC" tag="NOM" in="-1:nobj" out="2:attr">mercato</W>
+<W lemma="azionario" msd="AN" tag="ADJ" in="" out="">azionario</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-2:attr" out="">danese</W>
 <W lemma="proprio" msd="RG" tag="ADV" in="1:focal" out="">proprio</W>
 <W lemma="per" msd="SP" tag="PRE" in="-9:cause" out="-1:focal|1:nobj">per</W>
@@ -187,16 +187,16 @@
 <W lemma="naturale" msd="AN" tag="ADJ" in="-1:attr" out="">naturale</W>
 <W lemma="per" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">per</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="mercato" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj|2:attr">mercato</W>
-<W lemma="capitalistico" msd="AN" tag="ADJ" in="-1:aobj" out="">capitalistico</W>
+<W lemma="mercato" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">mercato</W>
+<W lemma="capitalistico" msd="AN" tag="ADJ" in="-1:attr" out="">capitalistico</W>
 <W lemma="orientare" msd="VAP" tag="VER:pper" in="-2:attr" out="">orientato</W>
 <W lemma="sempre" msd="RG" tag="ADV" in="2:quant" out="1:avobj">sempre</W>
 <W lemma="più" msd="RG" tag="ADV" in="-1:avobj" out="">più</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="-2:quant|1:vobj">ad</W>
 <W lemma="eliminare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">eliminare</W>
 <W lemma="qualsiasi" msd="AN" tag="ADJ" in="-1:dobj" out="1:nobj">qualsiasi</W>
-<W lemma="forma" msd="NC" tag="NOM" in="-1:nobj" out="">forma</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="forma" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">forma</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="limitazione" msd="NC" tag="NOM" in="-1:nobj" out="">limitazione</W>
 <W lemma="tra" msd="SP" tag="PRE" in="" out="1:nobj">tra</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">i</W>

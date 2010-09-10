@@ -2,8 +2,8 @@
 <s>
 <W lemma="se" msd="CS" tag="CON" in="9:cond" out="2:vobj">Se</W>
 <W lemma="tutto" msd="RG" tag="ADV" in="1:subj" out="">tutto</W>
-<W lemma="procedere" msd="VADR" tag="VER:pres" in="-2:vobj" out="-1:subj|4:pnct">procede</W>
-<W lemma="secondo" msd="SP" tag="PRE" in="" out="1:nobj">secondo</W>
+<W lemma="procedere" msd="VADR" tag="VER:pres" in="-2:vobj" out="-1:subj|1:source|4:pnct">procede</W>
+<W lemma="secondo" msd="SP" tag="PRE" in="-1:source" out="1:nobj">secondo</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">le</W>
 <W lemma="previsione" msd="NC" tag="NOM" in="-1:nobj" out="">previsioni</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
@@ -58,8 +58,8 @@
 <W lemma="adesso" msd="RG" tag="ADV" in="8:time" out="1:pnct">Adesso</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET:def" in="6:subj" out="1:nobj">i</W>
-<W lemma="componente" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">componenti</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="2:nobj">di</W>
+<W lemma="componente" msd="NC" tag="NOM" in="-1:nobj" out="">componenti</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="2:nobj">di</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:pnct|1:pnct">Stokken</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
@@ -184,8 +184,8 @@
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
 <W lemma="aspettare" msd="VADR" tag="VER:pres" in="-5:conj" out="-4:coord|-3:time|-1:robj|1:dobj|13:time">aspetta</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
-<W lemma="via" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">via</W>
-<W lemma="per" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">per</W>
+<W lemma="via" msd="NC" tag="NOM" in="-1:nobj" out="">via</W>
+<W lemma="per" msd="SP" tag="PRE" in="" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">le</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">20</W>
 <W lemma="unità" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">unità</W>

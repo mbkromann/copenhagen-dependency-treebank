@@ -200,8 +200,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="-1:nobj" out="">tempo</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
-<W lemma="anche" msd="RG" tag="ADV" in="1:focal" out="">anche</W>
-<W lemma="se" msd="CS" tag="CON" in="-8:conc" out="-1:focal|4:vobj">se</W>
+<W lemma="anche" msd="RG" tag="ADV" in="1:add" out="">anche</W>
+<W lemma="se" msd="CS" tag="CON" in="-8:conc" out="-1:add|4:vobj">se</W>
 <W lemma="naturalmente" msd="RG" tag="ADV" in="3:eval" out="">naturalmente</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="2:iobj" out="1:nobj">ai</W>
 <W lemma="critico" msd="NC" tag="NOM" in="-1:nobj" out="">critici</W>

@@ -12,7 +12,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:possd" out="">pisello</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-6:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-8:qobj|1:vobj|2:subj|8:pnct|11:relelab|23:pnct">ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-8:qobj|1:vobj|2:subj|8:pnct|23:pnct">ha</W>
 <W lemma="raccontare" msd="VAP" tag="VER:pper" in="-1:vobj" out="">raccontato</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-2:subj" out="1:nobj">il</W>
 <W lemma="bambino" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">bambino</W>
@@ -21,10 +21,10 @@
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="lavagna" msd="NC" tag="NOM" in="-1:nobj" out="">lavagna</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
-<W lemma="cosa" msd="NC" tag="NOM" in="1:dobj" out="">cosa</W>
-<W lemma="che" msd="PT" tag="PRO:rela" in="1:subj" out="-1:dobj">che</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-11:relelab" out="-1:subj|1:vobj">ha</W>
-<W lemma="portare" msd="VAP" tag="VER:pper" in="-1:vobj" out="">portato</W>
+<W lemma="cosa" msd="NC" tag="NOM" in="1:nobj" out="">cosa</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="2:dobj" out="-1:nobj">che</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="1:vobj">ha</W>
+<W lemma="portare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:dobj">portato</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="1:nobj">ad</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj|4:scene">una</W>
 <W lemma="denuncia" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">denuncia</W>
@@ -63,8 +63,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="7:subj" out="1:nobj">Il</W>
 <W lemma="rapporto" msd="NC" tag="NOM" in="-1:nobj" out="2:attr">rapporto</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
-<W lemma="costato" msd="NC" tag="NOM" in="-2:attr" out="-1:pnct|1:dobj|3:pnct">costato</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:dobj" out="1:nobj">800.000</W>
+<W lemma="costato" msd="NC" tag="NOM" in="-2:attr" out="-1:pnct|1:nobj|3:pnct">costato</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">800.000</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-7:subj|1:vobj|8:time|37:pnct">è</W>
@@ -109,7 +109,7 @@
 </p>
 <p>
 <s>
-<W lemma="seguire" msd="VAG" tag="VER:geru" in="11:cond" out="1:dobj">SEGUENDO</W>
+<W lemma="seguire" msd="VAG" tag="VER:geru" in="11:subj" out="1:dobj">SEGUENDO</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:dobj" out="1:nobj">LA</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">MANO</W>
 </s>
@@ -117,10 +117,10 @@
 <p>
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="1:nobj">L'</W>
-<W lemma="utilizzo" msd="NC" tag="NOM" in="-1:nobj" out="">utilizzo</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="utilizzo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">utilizzo</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">lavagnette</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-11:cond|-4:subj|1:vobj|27:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-11:subj|-4:subj|1:vobj|21:conj|27:pnct">è</W>
 <W lemma="iniziare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:loc">iniziato</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:loc" out="1:nobj|2:appr">nel</W>
 <W lemma="padiglione" msd="NC" tag="NOM" in="-1:nobj" out="2:attr">padiglione</W>
@@ -137,11 +137,11 @@
 <W lemma="disabile" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">disabili</W>
 <W lemma="plurimo" msd="AN" tag="ADJ" in="-1:attr" out="">plurimi</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="1:pnct|4:conj">Vangedehuse</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="1:pnct">Vangedehuse</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="2:robj" out="">si</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="-4:conj" out="-2:coord|1:vobj">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="-21:conj" out="-2:coord|1:vobj">è</W>
 <W lemma="estendere" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:robj|1:man">esteso</W>
 <W lemma="lentamente" msd="RG" tag="ADV" in="-1:man" out="">lentamente</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="1:nobj">ad</W>
@@ -193,8 +193,8 @@
 <W lemma="," msd="XP" tag="PON" in="-10:pnct" out="">,</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="1:subj" out="">che</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="-3:relpa" out="-1:subj|1:vobj">è</W>
-<W lemma="comporre" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:@dir">composta</W>
-<W lemma="dal" msd="SP+P" tag="PRE:det" in="-1:@dir" out="1:nobj|3:conj">dall'</W>
+<W lemma="comporre" msd="VAP" tag="VER:pper" in="-1:vobj" out="">composta</W>
+<W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="1:nobj|3:conj">dall'</W>
 <W lemma="alfabeto" msd="NC" tag="NOM" in="-1:nobj" out="">alfabeto</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="alcuno" msd="PI" tag="PRO:indef" in="-3:conj" out="-1:coord|1:nobj">alcuni</W>

@@ -70,8 +70,8 @@
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="aprire" msd="VADR" tag="VER:pres" in="-2:coord" out="-1:coord|1:dobj">apre</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="porta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj">porta</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.subj" out="1:nobj">della</W>
+<W lemma="porta" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">porta</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">della</W>
 <W lemma="stanza" msd="NC" tag="NOM" in="-1:nobj" out="">stanza</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 </s>
@@ -80,9 +80,9 @@
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="potere" msd="VADR" tag="VER:pres" in="" out="-1:pnct|1:¹vobj|5:pnct">Possiamo</W>
-<W lemma="incontrare" msd="VAF" tag="VER:infi" in="-1:¹vobj" out="1:¹@loc">incontrarci</W>
+<W lemma="incontrare" msd="VAF" tag="VER:infi" in="-1:¹vobj" out="1:¹@loc|2:time¹">incontrarci</W>
 <W lemma="là" msd="RG" tag="ADV" in="-1:¹@loc" out="">là</W>
-<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:nobj">alle</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-2:time¹" out="1:nobj">alle</W>
 <W lemma="diciannove" msd="NC" tag="NOM" in="-1:nobj" out="">diciannove</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 </s>
@@ -187,8 +187,8 @@
 <p>
 <s>
 <W lemma="si" msd="PP" tag="PRO:pers" in="1:subj" out="">Si</W>
-<W lemma="guardare" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:time|2:loc|9:conj|13:pnct">guarda</W>
-<W lemma="attorno" msd="RG" tag="ADV" in="-1:time" out="">attorno</W>
+<W lemma="guardare" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:@dir|2:loc|9:conj|13:pnct">guarda</W>
+<W lemma="attorno" msd="RG" tag="ADV" in="-1:@dir" out="">attorno</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-2:loc" out="1:nobj">nella</W>
 <W lemma="suo" msd="PO" tag="PRO:poss" in="-1:nobj" out="2:possd">sua</W>
 <W lemma="accogliente" msd="AN" tag="ADJ" in="1:attr" out="">accogliente</W>
@@ -222,8 +222,8 @@
 <W lemma="addio" msd="NC" tag="NOM" in="-3:qobj" out="-1:pnct|1:eval|2:pnct|4:conj">Addio</W>
 <W lemma="allora" msd="RG" tag="ADV" in="-1:eval" out="">allora</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="ci" msd="PR" tag="PRO:refl" in="1:expl" out="">ci</W>
-<W lemma="vedere" msd="VADR" tag="VER:pres" in="-4:conj" out="-1:expl|1:time">vediamo</W>
+<W lemma="ci" msd="PR" tag="PRO:refl" in="1:iobj" out="">ci</W>
+<W lemma="vedere" msd="VADR" tag="VER:pres" in="-4:conj" out="-1:iobj|1:time">vediamo</W>
 <W lemma="venerdì" msd="NC" tag="NOM" in="-1:time" out="">venerdì</W>
 <W lemma="." msd="XP" tag="SENT" in="-21:pnct" out="">.</W>
 </s>

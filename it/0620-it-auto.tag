@@ -38,8 +38,8 @@
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="ma" msd="CS" tag="CON" in="2:discmark" out="">Ma</W>
-<W lemma="dove" msd="RG" tag="ADV" in="" out="1:conj">dove</W>
-<W lemma="andare" msd="VADR" tag="VER:futu" in="-1:conj" out="-3:pnct|-2:discmark|1:pnct">andrà</W>
+<W lemma="dove" msd="RG" tag="ADV" in="" out="1:vobj">dove</W>
+<W lemma="andare" msd="VADR" tag="VER:futu" in="-1:vobj" out="-3:pnct|-2:discmark|1:pnct">andrà</W>
 <W lemma="?" msd="XP" tag="SENT" in="-1:pnct" out="">?</W>
 </s>
 <s>
@@ -83,8 +83,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="dimenticare" msd="VAM" tag="VER:impe" in="" out="">Dimentichiamolo</W>
-<W lemma="adesso" msd="RG" tag="ADV" in="" out="">adesso</W>
+<W lemma="dimenticare" msd="VAM" tag="VER:impe" in="" out="1:time¹">Dimentichiamolo</W>
+<W lemma="adesso" msd="RG" tag="ADV" in="-1:time¹" out="">adesso</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
@@ -167,11 +167,11 @@
 <W lemma="sorriso" msd="NC" tag="NOM" in="-1:nobj" out="">sorriso</W>
 <W lemma="lui" msd="PP" tag="PRO:pers" in="2:subj" out="">lui</W>
 <W lemma="la" msd="PP" tag="PRO:pers" in="1:dobj" out="">la</W>
-<W lemma="trarre" msd="VADA" tag="VER:remo" in="" out="-6:coord|-5:man|-2:subj|-1:dobj|1:dir|2:pnct|4:dir|7:pnct">trasse</W>
-<W lemma="vicino" msd="AN" tag="ADJ" in="-1:dir" out="">vicino</W>
+<W lemma="trarre" msd="VADA" tag="VER:remo" in="" out="-6:coord|-5:man|-2:subj|-1:dobj|2:pnct|7:pnct">trasse</W>
+<W lemma="vicino" msd="AN" tag="ADJ" in="" out="">vicino</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="molto" msd="RG" tag="ADV" in="1:quant" out="">molto</W>
-<W lemma="vicino" msd="AN" tag="ADJ" in="-4:dir" out="-1:quant">vicino</W>
+<W lemma="vicino" msd="AN" tag="ADJ" in="" out="-1:quant">vicino</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="1:nobj">a</W>
 <W lemma="sé" msd="NC" tag="NOM" in="-1:nobj" out="">sé</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>

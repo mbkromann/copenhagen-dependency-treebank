@@ -28,8 +28,8 @@
 <W lemma="sperare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">sperare</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="1:vobj">che</W>
 <W lemma="riuscire" msd="VADA" tag="VER:cimp" in="-1:vobj" out="1:iter">riuscissero</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:iter" out="1:aobj">di</W>
-<W lemma="nuovo" msd="AN" tag="ADJ" in="-1:aobj" out="">nuovo</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:iter" out="">di</W>
+<W lemma="nuovo" msd="AN" tag="ADJ" in="" out="">nuovo</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="1:vobj">a</W>
 <W lemma="tornare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:@dir">tornare</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:@dir" out="1:nobj">in</W>
@@ -55,8 +55,8 @@
 <W lemma="che" msd="PT" tag="PRO:rela" in="1:subj" out="">che</W>
 <W lemma="dirigere" msd="VADA" tag="VER:impf" in="-3:relr" out="-1:subj|1:dobj">dirigeva</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj|4:conj">la</W>
-<W lemma="difesa" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj.dobj">difesa</W>
-<W lemma="civile" msd="AN" tag="ADJ" in="-1:aobj.dobj" out="">civile</W>
+<W lemma="difesa" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">difesa</W>
+<W lemma="civile" msd="AN" tag="ADJ" in="-1:attr" out="">civile</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-4:conj" out="-1:coord|1:nobj">i</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">CB</W>
@@ -195,8 +195,8 @@
 <W lemma="un" msd="PI" tag="DET:indef" in="3:subj" out="1:nobj">Un</W>
 <W lemma="tipo" msd="NC" tag="NOM" in="-1:nobj" out="1:focal">tipo</W>
 <W lemma="così" msd="RG" tag="ADV" in="-1:focal" out="">così</W>
-<W lemma="sapere" msd="VADR" tag="VER:pres" in="" out="-3:subj|1:man|2:dobj|5:pnct">sa</W>
-<W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
+<W lemma="sapere" msd="VADR" tag="VER:pres" in="" out="-3:subj|1:avobj|2:dobj|5:pnct">sa</W>
+<W lemma="bene" msd="RG" tag="ADV" in="-1:avobj" out="">bene</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-2:dobj" out="2:nobj">il</W>
 <W lemma="fatto" msd="NC" tag="NOM" in="1:possd" out="">fatto</W>
 <W lemma="suo" msd="PO" tag="PRO:poss" in="-2:nobj" out="-1:possd">suo</W>

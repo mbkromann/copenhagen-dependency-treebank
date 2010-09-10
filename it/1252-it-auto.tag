@@ -25,8 +25,8 @@
 <W lemma="verso" msd="SP" tag="PRE" in="" out="1:nobj">verso</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="Cina" msd="NP" tag="NPR" in="-1:nobj" out="">Cina</W>
-<W lemma="si" msd="PP" tag="PRO:pers" in="1:robj" out="">si</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-26:time|-9:subj|-1:robj|1:vobj|4:pnct">è</W>
+<W lemma="si" msd="PP" tag="PRO:pers" in="1:subj" out="">si</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-26:time|-9:subj|-1:subj|1:vobj|4:pnct">è</W>
 <W lemma="ridurre" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:quant">ridotto</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="-1:quant" out="1:nobj">al</W>
 <W lemma="minimo" msd="NC" tag="NOM" in="-1:nobj" out="">minimo</W>
@@ -83,8 +83,8 @@
 <W lemma="investitore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">investitori</W>
 <W lemma="straniero" msd="AN" tag="ADJ" in="-1:attr" out="">stranieri</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="1:vobj">ad</W>
-<W lemma="operare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:loc">operare</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">in</W>
+<W lemma="operare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:@loc">operare</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:@loc" out="1:nobj">in</W>
 <W lemma="Cina" msd="NP" tag="NPR" in="-1:nobj" out="">Cina</W>
 <W lemma="," msd="XP" tag="PON" in="-10:pnct" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="2:coord" out="">ma</W>
@@ -193,8 +193,8 @@
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-9:conj" out="-1:coord|1:vobj">ha</W>
 <W lemma="aprire" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:dobj|5:loc">aperto</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:dobj" out="1:nobj">20-30</W>
-<W lemma="fabbrica" msd="NC" tag="NOM" in="-1:nobj" out="">fabbriche</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="fabbrica" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">fabbriche</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="cemento" msd="NC" tag="NOM" in="-1:nobj" out="">cemento</W>
 <W lemma="in" msd="SP" tag="PRE" in="-5:loc" out="2:nobj">in</W>
 <W lemma="vario" msd="AN" tag="ADJ" in="1:attr" out="">varie</W>

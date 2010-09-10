@@ -138,12 +138,12 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|1:pnct">CCG</W>
 <W lemma=")" msd="XP" tag="PON" in="-1:pnct" out="">)</W>
 <W lemma="," msd="XP" tag="PON" in="-13:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="1:pnct|2:conj|4:conj|5:pnct">Bahrain</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="1:pnct|2:conj|4:conj">Bahrain</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:conj" out="">Quatar</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="Oman" msd="NP" tag="NPR" in="-4:conj" out="-1:coord">Oman</W>
-<W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
+<W lemma="Oman" msd="NP" tag="NPR" in="-4:conj" out="-1:coord|1:pnct">Oman</W>
+<W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="prima" msd="RG" tag="ADV" in="-21:time" out="">prima</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
 <W lemma="ritorno" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">ritorno</W>
@@ -169,8 +169,8 @@
 <W lemma="Iraq" msd="NP" tag="NPR" in="-1:nobj" out="">Iraq</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-3:time" out="1:nobj">nell'</W>
 <W lemma="agosto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">agosto</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:attr">del</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:attr" out="">1990</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">del</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">1990</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
 <W lemma="unire" msd="VADA" tag="VER:remo" in="-10:conj" out="-2:coord|-1:robj">unì</W>
@@ -217,8 +217,8 @@
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="-3:conj" out="-1:coord|1:nobj">agli</W>
 <W lemma="altro" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">altri</W>
-<W lemma="paese" msd="NC" tag="NOM" in="-1:nobj" out="">paesi</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
+<W lemma="paese" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">paesi</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">CCG</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:vobj">di</W>
 <W lemma="sostenere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj|3:cond">sostenere</W>

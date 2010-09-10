@@ -95,8 +95,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="possibilità" msd="NC" tag="NOM" in="-1:nobj" out="">possibilità</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
-<W lemma="leggero" msd="AN" tag="ADJ" in="-1:nobj" out="1:dobj">leggere</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="2:nobj">la</W>
+<W lemma="leggero" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">leggere</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="2:nobj">la</W>
 <W lemma="proprio" msd="AN" tag="ADJ" in="1:attr" out="">propria</W>
 <W lemma="dichiarazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">dichiarazione</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">per</W>
@@ -107,14 +107,14 @@
 <W lemma="." msd="XP" tag="SENT" in="-44:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="in" msd="SP" tag="PRE" in="7:loc" out="1:nobj">In</W>
+<W lemma="in" msd="SP" tag="PRE" in="7:subj" out="1:nobj">In</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="rapporto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">rapporto</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">alla</W>
 <W lemma="commissione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Commissione</W>
 <W lemma="giuridico" msd="AN" tag="ADJ" in="-1:attr" out="">giuridica</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj" out="">DR</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-7:loc|-1:subj|1:time|2:vobj|18:pnct">ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-7:subj|-1:subj|1:time|2:vobj|18:pnct">ha</W>
 <W lemma="poi" msd="RG" tag="ADV" in="-1:time" out="">poi</W>
 <W lemma="dirigere" msd="VAP" tag="VER:pper" in="-2:vobj" out="1:dobj">diretto</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:dobj" out="1:nobj">una</W>
@@ -173,8 +173,8 @@
 <W lemma="presentare" msd="VAP" tag="VER:pper" in="-1:attr" out="">presentati</W>
 <W lemma="contro" msd="SP" tag="PRE" in="" out="1:nobj">contro</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">i</W>
-<W lemma="metodo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr#">metodi</W>
-<W lemma="lavorativo" msd="AN" tag="ADJ" in="-1:attr#" out="">lavorativi</W>
+<W lemma="metodo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">metodi</W>
+<W lemma="lavorativo" msd="AN" tag="ADJ" in="-1:attr" out="">lavorativi</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">della</W>
 <W lemma="polizia" msd="NC" tag="NOM" in="-1:nobj" out="">polizia</W>
 <W lemma="." msd="XP" tag="SENT" in="-22:pnct" out="">.</W>

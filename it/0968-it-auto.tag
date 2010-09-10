@@ -6,8 +6,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
 <W lemma="atteggiamento" msd="NC" tag="NOM" in="-1:nobj" out="">atteggiamento</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-6:subj|-1:neg|1:vobj|29:pnct">è</W>
-<W lemma="dovere" msd="VAP" tag="VER:pper" in="-1:vobj" out="">dovuto</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-6:subj|-1:neg|1:preds|29:pnct">è</W>
+<W lemma="dovere" msd="VAP" tag="VER:pper" in="-1:preds" out="">dovuto</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:nobj|6:pnct|8:conj">all'</W>
 <W lemma="insediamento" msd="NC" tag="NOM" in="-1:nobj" out="">insediamento</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
@@ -73,10 +73,10 @@
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="1:subj" out="">che</W>
 <W lemma="dovere" msd="VADR" tag="VER:futu" in="-9:relr" out="-1:subj|1:vobj">dovrà</W>
-<W lemma="trasformare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj|3:@dir">trasformare</W>
+<W lemma="trasformare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">trasformare</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="Cambogia" msd="NP" tag="NPR" in="-1:nobj" out="">Cambogia</W>
-<W lemma="da" msd="SP" tag="PRE" in="-3:@dir" out="1:nobj|9:pnct">da</W>
+<W lemma="da" msd="SP" tag="PRE" in="" out="1:nobj|9:pnct">da</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="paese" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">paese</W>
 <W lemma="sottosviluppato" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">sottosviluppato</W>
@@ -111,8 +111,8 @@
 <W lemma="motivazione" msd="NC" tag="NOM" in="-1:nobj" out="">motivazione</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="firma" msd="NC" tag="NOM" in="-1:nobj" out="">firma</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dell'</W>
+<W lemma="firma" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj">firma</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.subj" out="1:nobj">dell'</W>
 <W lemma="accordo" msd="NC" tag="NOM" in="-1:nobj" out="">accordo</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="essere" msd="VADA" tag="VER:impf" in="" out="-8:subj|-1:neg|1:preds|4:pnct">era</W>
@@ -167,10 +167,10 @@
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">anno</W>
 <W lemma="prossimo" msd="AN" tag="ADJ" in="-1:attr" out="">prossimo</W>
 <W lemma="per" msd="SP" tag="PRE" in="-8:goal" out="1:vobj">per</W>
-<W lemma="portare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj|3:man">portare</W>
+<W lemma="portare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj|3:@dir">portare</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="paese" msd="NC" tag="NOM" in="-1:nobj" out="">paese</W>
-<W lemma="a" msd="SP" tag="PRE" in="-3:man" out="2:nobj">a</W>
+<W lemma="a" msd="SP" tag="PRE" in="-3:@dir" out="2:nobj">a</W>
 <W lemma="libero" msd="AN" tag="ADJ" in="1:attr" out="">libere</W>
 <W lemma="elezione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">elezioni</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">nella</W>
@@ -221,7 +221,7 @@
 </p>
 <p>
 <s>
-<W lemma="mentre" msd="CS" tag="CON" in="28:scene" out="7:vobj">Mentre</W>
+<W lemma="mentre" msd="CS" tag="CON" in="28:time" out="7:vobj">Mentre</W>
 <W lemma="il" msd="PD" tag="DET:def" in="6:subj" out="1:nobj">le</W>
 <W lemma="molto" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">molte</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">corone</W>
@@ -249,7 +249,7 @@
 <W lemma="il" msd="PD" tag="DET:def" in="3:subj" out="1:nobj">le</W>
 <W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">società</W>
 <W lemma="occidentale" msd="AN" tag="ADJ" in="-1:attr" out="">occidentali</W>
-<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="8:qobj" out="-28:scene|-3:subj|1:vobj|7:pnct">sono</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="8:qobj" out="-28:time|-3:subj|1:vobj|7:pnct">sono</W>
 <W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:vobj" out="2:preds">state</W>
 <W lemma="più" msd="RG" tag="ADV" in="1:quant" out="">più</W>
 <W lemma="prudente" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">prudenti</W>

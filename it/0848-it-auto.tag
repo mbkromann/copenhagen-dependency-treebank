@@ -49,8 +49,8 @@
 <W lemma="," msd="XP" tag="PON" in="-9:pnct" out="">,</W>
 <W lemma="con" msd="SP" tag="PRE" in="-9:man" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">l'</W>
-<W lemma="inaugurazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|6:attr">inaugurazione</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">del</W>
+<W lemma="inaugurazione" msd="NC" tag="NOM" in="-1:nobj" out="6:attr">inaugurazione</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
 <W lemma="ponte" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">ponte</W>
 <W lemma="sul" msd="SP+P" tag="PRE:det" in="-1:attr" out="2:nobj">sul</W>
 <W lemma="piccolo" msd="NC" tag="NOM" in="1:attr" out="">Piccolo</W>
@@ -86,8 +86,8 @@
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="quando" msd="CS" tag="CON" in="-6:time" out="6:vobj">quando</W>
 <W lemma="il" msd="PD" tag="DET:def" in="5:subj" out="1:nobj">il</W>
-<W lemma="collegamento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Collegamento</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="2:nobj">del</W>
+<W lemma="collegamento" msd="NC" tag="NOM" in="-1:nobj" out="">Collegamento</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="2:nobj">del</W>
 <W lemma="grande" msd="NC" tag="NOM" in="1:attr" out="">Grande</W>
 <W lemma="Belt" msd="NP" tag="NPR" in="-2:nobj" out="-1:attr">Belt</W>
 <W lemma="diventare" msd="VADR" tag="VER:futu" in="-6:vobj" out="-5:subj|1:preds|3:pnct|7:conj">diventerà</W>
@@ -147,7 +147,7 @@
 <W lemma="in" msd="SP" tag="PRE" in="-1:man" out="1:nobj">in</W>
 <W lemma="funzione" msd="NC" tag="NOM" in="-1:nobj" out="">funzione</W>
 <W lemma="solo" msd="RG" tag="ADV" in="1:quant" out="">solo</W>
-<W lemma="cinque" msd="AN" tag="ADJ" in="-4:subj" out="-1:quant|6:pnct|8:elab">cinque</W>
+<W lemma="cinque" msd="AN" tag="ADJ" in="-4:subj" out="-1:quant|6:pnct">cinque</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="2:nobj">delle</W>
 <W lemma="attuale" msd="AN" tag="ADJ" in="1:attr" out="">attuali</W>
 <W lemma="dieci" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr|1:nobj">dieci</W>
@@ -155,10 +155,10 @@
 <W lemma="marittimo" msd="AN" tag="ADJ" in="-1:attr" out="">marittime</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="cioè" msd="RG" tag="ADV" in="-8:elab" out="-1:coord|1:nobj">cioè</W>
+<W lemma="cioè" msd="RG" tag="ADV" in="" out="-1:coord|1:nobj">cioè</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj|2:appr">le</W>
 <W lemma="linea" msd="NC" tag="NOM" in="-1:nobj" out="">linee</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appr" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|16:conj">Esbjerg-Fanø</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appr" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|16:attr">Esbjerg-Fanø</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:conj" out="">Bøjden-Fynshav</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -167,14 +167,14 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-6:conj" out="1:nobj|2:pnct|5:man">Helsingør</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Helsingborg</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="anche" msd="RG" tag="ADV" in="2:conc" out="1:nobj#">anche</W>
-<W lemma="se" msd="CS" tag="CON" in="-1:nobj#" out="">se</W>
+<W lemma="anche" msd="RG" tag="ADV" in="2:conc" out="">anche</W>
+<W lemma="se" msd="CS" tag="CON" in="" out="">se</W>
 <W lemma="con" msd="SP" tag="PRE" in="-5:man" out="-2:conc|2:nobj">con</W>
 <W lemma="forte" msd="AN" tag="ADJ" in="1:attr" out="">forti</W>
 <W lemma="riduzione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">riduzioni</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
-<W lemma="infine" msd="RG" tag="ADV" in="1:add" out="">infine</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-16:conj" out="-2:coord|-1:add">Gedser-Warnemünde</W>
+<W lemma="infine" msd="RG" tag="ADV" in="1:quant" out="">infine</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-16:attr" out="-2:coord|-1:quant">Gedser-Warnemünde</W>
 <W lemma="." msd="XP" tag="SENT" in="-48:pnct" out="">.</W>
 </s>
 <s>
@@ -183,9 +183,9 @@
 <W lemma="questo" msd="PD" tag="PRO:demo" in="3:subj" out="1:nobj">Questa</W>
 <W lemma="prognosi" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">prognosi</W>
 <W lemma="fosco" msd="AN" tag="ADJ" in="-1:attr" out="">fosca</W>
-<W lemma="deriva" msd="NC" tag="NOM" in="" out="-3:subj|38:pnct">deriva</W>
+<W lemma="deriva" msd="NC" tag="NOM" in="" out="-3:subj">deriva</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dall'</W>
-<W lemma="attivazione" msd="NC" tag="NOM" in="-1:nobj" out="20:attr|29:attr|34:attr">attivazione</W>
+<W lemma="attivazione" msd="NC" tag="NOM" in="-1:nobj" out="">attivazione</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="2:nobj">delle</W>
 <W lemma="nuovo" msd="AN" tag="ADJ" in="1:attr" out="">nuove</W>
 <W lemma="via" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr|3:attr">vie</W>
@@ -193,7 +193,7 @@
 <W lemma="comunicazione" msd="NC" tag="NOM" in="-1:nobj" out="">comunicazione</W>
 <W lemma="sul" msd="SP+P" tag="PRE:det" in="-3:attr" out="2:nobj|7:pnct|20:pnct|21:<loc|26:conj">sul</W>
 <W lemma="grande" msd="NC" tag="NOM" in="1:attr" out="">Grande</W>
-<W lemma="Belt" msd="NP" tag="NPR" in="-2:nobj" out="-1:attr|1:pnct|2:conj|4:conj">Belt</W>
+<W lemma="Belt" msd="NP" tag="NPR" in="-2:nobj" out="-1:attr|1:pnct|2:conj|4:conj|28:pnct">Belt</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="Øresund" msd="NP" tag="NPR" in="-2:conj" out="">Øresund</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -205,23 +205,23 @@
 <W lemma="sul" msd="SP+P" tag="PRE:det" in="" out="-3:coord|-2:focal|2:nobj">sul</W>
 <W lemma="grande" msd="NC" tag="NOM" in="1:attr" out="">Grande</W>
 <W lemma="Belt" msd="NP" tag="NPR" in="-2:nobj" out="-1:attr">Belt</W>
-<W lemma="nel" msd="SP+P" tag="PRE:det" in="-20:attr" out="1:nobj">nel</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:pnct|2:conj|4:nobj">1996</W>
+<W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="1:nobj">nel</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:pnct|2:conj|4:conj">1996</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-2:conj" out="">1997</W>
 <W lemma="o" msd="CS" tag="CON" in="1:coord" out="">o</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-4:nobj" out="-1:coord">1998</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-4:conj" out="-1:coord">1998</W>
 <W lemma="," msd="XP" tag="PON" in="-20:pnct" out="">,</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-21:<loc:1>" out="1:nobj">nell'</W>
 <W lemma="Øresund" msd="NP" tag="NPR" in="-1:nobj" out="">Øresund</W>
-<W lemma="nel" msd="SP+P" tag="PRE:det" in="-29:attr" out="1:nobj">nel</W>
+<W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="1:nobj">nel</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">2000</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="sul" msd="SP+P" tag="PRE:det" in="-26:conj" out="-1:coord|1:nobj">sul</W>
 <W lemma="Baltico" msd="NP" tag="NPR" in="-1:nobj" out="">Baltico</W>
-<W lemma="nel" msd="SP+P" tag="PRE:det" in="-34:attr" out="1:nobj">nel</W>
+<W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="1:nobj">nel</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">2005</W>
-<W lemma="." msd="XP" tag="SENT" in="-38:pnct" out="">.</W>
+<W lemma="." msd="XP" tag="SENT" in="-28:pnct" out="">.</W>
 </s>
 <s>
 <W lemma="quindi" msd="RG" tag="ADV" in="8:cons" out="">Quindi</W>

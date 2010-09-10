@@ -11,8 +11,8 @@
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">Non</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:subj" out="">si</W>
 <W lemma="potere" msd="VADR" tag="VER:pres" in="" out="-2:neg|-1:subj|1:¹vobj|5:pnct">può</W>
-<W lemma="chiamare" msd="VAF" tag="VER:infi" in="-1:¹vobj" out="">chiamarlo</W>
-<W lemma="come" msd="PT" tag="PRO:inter" in="" out="2:vobj">come</W>
+<W lemma="chiamare" msd="VAF" tag="VER:infi" in="-1:¹vobj" out="1:predo¹">chiamarlo</W>
+<W lemma="come" msd="PT" tag="PRO:inter" in="-1:predo¹" out="2:vobj">come</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="1:subj" out="">si</W>
 <W lemma="volere" msd="VADR" tag="VER:pres" in="-2:vobj" out="-1:subj">vuole</W>
 <W lemma="!" msd="XP" tag="SENT" in="-5:pnct" out="">!</W>
@@ -88,10 +88,10 @@
 <W lemma="fare" msd="VAF" tag="VER:infi" in="-2:vobj" out="-1:dobj">fare</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">l'</W>
-<W lemma="avventurare" msd="VAF" tag="VER:infi" in="-1:nobj" out="1:pnct|3:conj">avventurarsi</W>
+<W lemma="avventurare" msd="VAF" tag="VER:infi" in="-1:nobj" out="1:pnct|3:vobj">avventurarsi</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="osare" msd="VAF" tag="VER:infi" in="-3:conj" out="-1:pnct|1:pnct">osare</W>
+<W lemma="osare" msd="VAF" tag="VER:infi" in="-3:vobj" out="-1:pnct|1:pnct">osare</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="SENT" in="-33:pnct" out="">.</W>
 </s>
@@ -205,9 +205,9 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">della</W>
 <W lemma="mio" msd="PO" tag="PRO:poss" in="-1:nobj" out="1:possd">mia</W>
 <W lemma="reticenza" msd="NC" tag="NOM" in="-1:possd" out="">reticenza</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-6:subj|1:vobj|2:pnct">è</W>
-<W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:vobj" out="3:preds">stata</W>
-<W lemma=":" msd="XP" tag="PON" in="-2:pnct" out="">:</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-6:subj|1:vobj">è</W>
+<W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:pnct|3:preds">stata</W>
+<W lemma=":" msd="XP" tag="PON" in="-1:pnct" out="">:</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="potere" msd="VADR" tag="VER:futu" in="-3:preds" out="-1:pnct|2:cond|8:pnct">Potrai</W>
 <W lemma="fare" msd="VAF" tag="VER:infi" in="" out="">farcela</W>

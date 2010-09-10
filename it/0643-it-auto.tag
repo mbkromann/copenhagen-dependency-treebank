@@ -34,8 +34,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="3:subj" out="1:nobj">Il</W>
 <W lemma="venerdì" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">venerdì</W>
 <W lemma="sera" msd="NC" tag="NOM" in="-1:nobj" out="">sera</W>
-<W lemma="prendere" msd="VADA" tag="VER:impf" in="" out="-3:subj|1:dobj|3:pnct|8:conj|34:pnct">prendevo</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">l'</W>
+<W lemma="prendere" msd="VADA" tag="VER:impf" in="" out="-3:subj|1:preds|3:pnct|8:conj|34:pnct">prendevo</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:preds" out="1:nobj">l'</W>
 <W lemma="aereo" msd="AN" tag="ADJ" in="-1:nobj" out="">aereo</W>
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>
 <W lemma="quando" msd="PT" tag="PRO:inter" in="4:time" out="2:vobj">quando</W>
@@ -101,8 +101,8 @@
 <W lemma="prostituta" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">prostituta</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="lusso" msd="NC" tag="NOM" in="-1:nobj" out="">lusso</W>
-<W lemma="significare" msd="VADR" tag="VER:pres" in="" out="-5:subj|1:dobj|3:pnct|5:conj|39:pnct">significa</W>
-<W lemma="molto" msd="PI" tag="PRO:indef" in="-1:dobj" out="1:nobj">molte</W>
+<W lemma="significare" msd="VADR" tag="VER:pres" in="" out="-5:subj|1:subj|3:pnct|5:conj|39:pnct">significa</W>
+<W lemma="molto" msd="PI" tag="PRO:indef" in="-1:subj" out="1:nobj">molte</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="">cose</W>
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="1:subj" out="">si</W>
@@ -153,8 +153,8 @@
 <W lemma="sapere" msd="VADR" tag="VER:pres" in="" out="-2:subj|1:man|2:dobj|8:pnct">sa</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-2:dobj" out="2:vobj">che</W>
-<W lemma="si" msd="PP" tag="PRO:pers" in="1:robj" out="">si</W>
-<W lemma="trattare" msd="VADR" tag="VER:pres" in="-2:vobj" out="-1:robj">tratta</W>
+<W lemma="si" msd="PP" tag="PRO:pers" in="1:subj" out="">si</W>
+<W lemma="trattare" msd="VADR" tag="VER:pres" in="-2:vobj" out="-1:subj">tratta</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="prostituta" msd="NC" tag="NOM" in="-1:nobj" out="">prostituta</W>

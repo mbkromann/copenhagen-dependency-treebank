@@ -136,8 +136,8 @@
 <W lemma="piastra" msd="NC" tag="NOM" in="-1:nobj" out="">piastra</W>
 <W lemma="dovere" msd="VADR" tag="VER:pres" in="" out="-2:subj|1:vobj|4:pnct|11:conj">deve</W>
 <W lemma="essere" msd="VAF" tag="VER:infi" in="-1:vobj" out="2:preds">essere</W>
-<W lemma="goal" msd="RG" tag="ADV" in="1:quant" out="">ben</W>
-<W lemma="caldo" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">calda</W>
+<W lemma="goal" msd="RG" tag="ADV" in="1:man" out="">ben</W>
+<W lemma="caldo" msd="AN" tag="ADJ" in="-2:preds" out="-1:man">calda</W>
 <W lemma=";" msd="XP" tag="PON" in="-4:pnct" out="">;</W>
 <W lemma="se" msd="CS" tag="CON" in="6:cond" out="1:vobj">se</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="-1:vobj" out="1:preds|3:pnct">è</W>

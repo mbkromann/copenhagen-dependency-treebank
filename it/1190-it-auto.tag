@@ -1,13 +1,13 @@
 <p>
 <s>
-<W lemma="il" msd="PD" tag="DET:def" in="9:subj" out="1:nobj|5:pnct|7:appr">Il</W>
+<W lemma="il" msd="PD" tag="DET:def" in="9:subj" out="1:nobj|5:pnct">Il</W>
 <W lemma="direttore" msd="NC" tag="NOM" in="-1:nobj" out="">direttore</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">della</W>
 <W lemma="federazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr#">federazione</W>
 <W lemma="finanziario" msd="AN" tag="ADJ" in="-1:attr#" out="">finanziaria</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Søren</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-7:appr" out="-1:namef|1:pnct">Dalmark</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:namef|1:pnct">Dalmark</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="essere" msd="VADA" tag="VER:impf" in="" out="-9:subj|2:preds|17:pnct">era</W>
 <W lemma="perfettamente" msd="RG" tag="ADV" in="1:quant" out="">perfettamente</W>

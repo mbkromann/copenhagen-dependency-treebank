@@ -122,8 +122,8 @@
 </p>
 <p>
 <s>
-<W lemma="valutazione" msd="NC" tag="NOM" in="3:subj" out="1:nobj|2:attr">Valutazioni</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">economico-</W>
+<W lemma="valutazione" msd="NC" tag="NOM" in="3:subj" out="1:attr|2:attr">Valutazioni</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:attr" out="">economico-</W>
 <W lemma="finanziario" msd="AN" tag="ADJ" in="-2:attr" out="">finanziarie</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-3:subj|1:vobj|23:pnct">hanno</W>
 <W lemma="stabilire" msd="VAP" tag="VER:pper" in="-1:vobj" out="3:dobj">stabilito</W>

@@ -14,8 +14,8 @@
 <W lemma="mano" msd="NC" tag="NOM" in="-1:nobj" out="">mano</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="1:robj" out="">si</W>
 <W lemma="aggrappare" msd="VADA" tag="VER:remo" in="-9:conj" out="-4:coord|-3:subj|-1:robj|1:resem">aggrappò</W>
-<W lemma="come" msd="PT" tag="PRO:inter" in="-1:resem" out="1:cond">come</W>
-<W lemma="se" msd="CS" tag="CON" in="-1:cond" out="1:vobj">se</W>
+<W lemma="come" msd="PT" tag="PRO:inter" in="-1:resem" out="1:avobj#">come</W>
+<W lemma="se" msd="CS" tag="CON" in="-1:avobj#" out="1:vobj">se</W>
 <W lemma="avere" msd="VADA" tag="VER:cimp" in="-1:vobj" out="1:dobj">avesse</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">gli</W>
 <W lemma="artiglio" msd="NC" tag="NOM" in="-1:nobj" out="">artigli</W>
@@ -55,8 +55,8 @@
 <W lemma="sbuffare" msd="VADA" tag="VER:remo" in="-3:conj" out="-1:coord">sbuffò</W>
 <W lemma="finché" msd="CS" tag="CON" in="-4:time" out="1:vobj">finché</W>
 <W lemma="tornare" msd="VADA" tag="VER:remo" in="-1:vobj" out="1:iter|3:@loc">tornò</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:iter" out="1:aobj">di</W>
-<W lemma="nuovo" msd="AN" tag="ADJ" in="-1:aobj" out="">nuovo</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:iter" out="">di</W>
+<W lemma="nuovo" msd="AN" tag="ADJ" in="" out="">nuovo</W>
 <W lemma="in" msd="SP" tag="PRE" in="-3:@loc" out="1:nobj">in</W>
 <W lemma="superficie" msd="NC" tag="NOM" in="-1:nobj" out="">superficie</W>
 <W lemma="." msd="XP" tag="SENT" in="-10:pnct" out="">.</W>
@@ -93,8 +93,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="fare" msd="VADA" tag="VER:impf" in="" out="1:aobj|3:pnct">Faceva</W>
-<W lemma="male" msd="RG" tag="ADV" in="-1:aobj" out="1:vobj">male</W>
+<W lemma="fare" msd="VADA" tag="VER:impf" in="" out="3:pnct">Faceva</W>
+<W lemma="male" msd="RG" tag="ADV" in="" out="1:vobj">male</W>
 <W lemma="vedere" msd="VAF" tag="VER:infi" in="-1:vobj" out="">vederlo</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 </s>

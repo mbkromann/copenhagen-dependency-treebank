@@ -57,8 +57,8 @@
 <W lemma="perché" msd="CS" tag="CON" in="-1:dobj" out="1:vobj">perché</W>
 <W lemma="volere" msd="VADA" tag="VER:cimp" in="-1:vobj" out="1:iter|2:vobj|6:cause">volessi</W>
 <W lemma="ancorare" msd="VADR" tag="VER:pres" in="-1:iter" out="">ancora</W>
-<W lemma="rimanere" msd="VAF" tag="VER:infi" in="-2:vobj" out="1:time">rimanere</W>
-<W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:time" out="1:nobj">nell'</W>
+<W lemma="rimanere" msd="VAF" tag="VER:infi" in="-2:vobj" out="1:@loc">rimanere</W>
+<W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:@loc" out="1:nobj">nell'</W>
 <W lemma="unione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr#">Unione</W>
 <W lemma="sovietico" msd="AN" tag="ADJ" in="-1:attr#" out="">sovietica</W>
 <W lemma="quando" msd="RG" tag="ADV" in="-6:cause" out="1:vobj">quando</W>
@@ -99,8 +99,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="matrimonio" msd="NC" tag="NOM" in="-1:nobj" out="">matrimonio</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
-<W lemma="ci" msd="PR" tag="PRO:refl" in="1:dobj" out="">ci</W>
-<W lemma="sposare" msd="VADA" tag="VER:remo" in="-9:conj" out="-2:coord|-1:dobj|1:time">sposammo</W>
+<W lemma="ci" msd="PR" tag="PRO:refl" in="1:expl" out="">ci</W>
+<W lemma="sposare" msd="VADA" tag="VER:remo" in="-9:conj" out="-2:coord|-1:expl|1:time">sposammo</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:time" out="1:nobj">nell'</W>
 <W lemma="agosto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">agosto</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">del</W>
@@ -145,8 +145,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="liso" msd="AN" tag="ADJ" in="1:namef" out="">Lise</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="-1:namef">Pedersen</W>
+<W lemma="liso" msd="AN" tag="ADJ" in="1:attr" out="">Lise</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="-1:attr">Pedersen</W>
 <W lemma="rimanere" msd="VADA" tag="VER:remo" in="" out="-1:subj|1:preds|3:conj|6:pnct|7:time|16:pnct">rimase</W>
 <W lemma="incinta" msd="AN" tag="ADJ" in="-1:preds" out="3:@dir">incinta</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>

@@ -80,14 +80,14 @@
 <s>
 <W lemma="chiacchiera" msd="NC" tag="NOM" in="9:subj" out="1:man">CHIACCHIERE</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:man" out="1:nobj">A</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="5:eval">VANVERA</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">VANVERA</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="naturalmente" msd="RG" tag="ADV" in="-5:eval" out="">Naturalmente</W>
+<W lemma="naturalmente" msd="RG" tag="ADV" in="2:eval" out="">Naturalmente</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="trattare" msd="VADR" tag="VER:pres" in="" out="-9:subj|-1:robj|5:pnct">tratta</W>
+<W lemma="trattare" msd="VADR" tag="VER:pres" in="" out="-9:subj|-2:eval|-1:robj|5:pnct">tratta</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
 <W lemma="chiacchiera" msd="NC" tag="NOM" in="-1:nobj" out="1:man">chiacchiere</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:man" out="1:nobj">a</W>
@@ -98,9 +98,9 @@
 <p>
 <s>
 <W lemma="non" msd="RG" tag="ADV" in="3:neg" out="">Non</W>
-<W lemma="ce" msd="PP" tag="PRO:pers" in="2:expl" out="">ce</W>
+<W lemma="ce" msd="PP" tag="PRO:pers" in="2:subj" out="">ce</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">n'</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-3:neg|-2:expl|1:preds|13:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-3:neg|-2:subj|1:preds|13:pnct">è</W>
 <W lemma="uno" msd="AN" tag="ADJ" in="-1:preds" out="1:attr|6:relr">uno</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">nell'</W>
 <W lemma="entourage" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">entourage</W>
@@ -119,8 +119,8 @@
 <p>
 <s>
 <W lemma="c'" msd="PD" tag="PRO:demo" in="1:expl" out="">C'</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-1:expl|2:preds|50:pnct">è</W>
-<W lemma="naturalmente" msd="RG" tag="ADV" in="" out="">naturalmente</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-1:expl|1:eval|2:preds|50:pnct">è</W>
+<W lemma="naturalmente" msd="RG" tag="ADV" in="-1:eval" out="">naturalmente</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-2:preds" out="1:nobj">il</W>
 <W lemma="rischio" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">rischio</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:nobj" out="22:vobj">che</W>
@@ -158,9 +158,9 @@
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="pagare" msd="VAF" tag="VER:infi" in="-3:conj" out="-1:coord|1:dobj">pagare</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:dobj" out="1:nobj">un</W>
-<W lemma="prezzo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">prezzo</W>
+<W lemma="prezzo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">prezzo</W>
 <W lemma="maggiore" msd="AN" tag="ADJ" in="-1:attr" out="">maggiore</W>
-<W lemma="per" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">per</W>
+<W lemma="per" msd="SP" tag="PRE" in="" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">l'</W>
 <W lemma="errore" msd="NC" tag="NOM" in="-1:nobj" out="">errore</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
@@ -189,8 +189,8 @@
 <W lemma="italiano" msd="NC" tag="NOM" in="-1:nobj" out="">Italiani</W>
 <W lemma="conoscere" msd="VADR" tag="VER:pres" in="" out="-2:subj|1:dobj|11:conj|35:pnct">conoscono</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
-<W lemma="significato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|2:nobj">significato</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.subj" out="">della</W>
+<W lemma="significato" msd="NC" tag="NOM" in="-1:nobj" out="2:nobj">significato</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">della</W>
 <W lemma="sfida" msd="NC" tag="NOM" in="-2:nobj" out="1:attr">sfida</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">nello</W>
 <W lemma="stadio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">stadio</W>

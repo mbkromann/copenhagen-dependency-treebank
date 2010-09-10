@@ -35,22 +35,22 @@
 </p>
 <p>
 <s>
-<W lemma="dispositivo" msd="NC" tag="NOM" in="" out="5:nobj">Dispositivi</W>
+<W lemma="dispositivo" msd="NC" tag="NOM" in="" out="5:nobj|8:attr">Dispositivi</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="alimentazione" msd="NC" tag="NOM" in="-5:nobj" out="1:attr">Alimentazione</W>
-<W lemma="elettrico" msd="AN" tag="ADJ" in="-1:attr" out="2:attr">elettrica</W>
+<W lemma="elettrico" msd="AN" tag="ADJ" in="-1:attr" out="">elettrica</W>
 <W lemma="(" msd="XP" tag="PON" in="1:pnct" out="">(</W>
-<W lemma="diretto" msd="AN" tag="ADJ" in="-2:attr" out="-1:pnct|2:conj|3:pnct|4:pnct|5:conj">diretta</W>
+<W lemma="diretto" msd="AN" tag="ADJ" in="-8:attr" out="-1:pnct|2:conj|3:pnct|4:pnct|5:conj">diretta</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="alternato" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">alternata</W>
 <W lemma=")" msd="XP" tag="PON" in="-3:pnct" out="">)</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
-<W lemma="cavo" msd="AN" tag="ADJ" in="-5:conj" out="1:pnct">cavi</W>
+<W lemma="cavo" msd="AN" tag="ADJ" in="-5:conj" out="1:pnct|2:conj">cavi</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="ago" msd="NC" tag="NOM" in="" out="3:pnct">ago</W>
+<W lemma="ago" msd="NC" tag="NOM" in="-2:conj" out="3:pnct">ago</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">della</W>
 <W lemma="bussola" msd="NC" tag="NOM" in="-1:nobj" out="">bussola</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -110,11 +110,11 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="realizzazione" msd="NC" tag="NOM" in="-1:nobj" out="">realizzazione</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">della</W>
-<W lemma="figura" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">figura</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:attr" out="">11.1.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Il</W>
-<W lemma="magnete" msd="NC" tag="NOM" in="1:subj" out="-1:namef">magnete</W>
-<W lemma="dovere" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:vobj|9:pnct">deve</W>
+<W lemma="figura" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">figura</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">11.1.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:subj" out="1:nobj">Il</W>
+<W lemma="magnete" msd="NC" tag="NOM" in="-1:nobj" out="">magnete</W>
+<W lemma="dovere" msd="VADR" tag="VER:pres" in="" out="-2:subj|1:vobj|9:pnct">deve</W>
 <W lemma="trovare" msd="VAF" tag="VER:infi" in="-1:vobj" out="">trovarsi</W>
 <W lemma="lungo" msd="SP" tag="PRE" in="" out="1:nobj">lungo</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">il</W>
@@ -131,8 +131,8 @@
 <W lemma="alimentazione" msd="NC" tag="NOM" in="-1:nobj" out="">alimentazione</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="osservare" msd="VAF" tag="VER:infi" in="-4:conj" out="-1:coord|1:dobj">osservare</W>
-<W lemma="quanto" msd="PI" tag="PRO:indef" in="-1:dobj" out="1:relr">quanto</W>
-<W lemma="succedere" msd="VADR" tag="VER:pres" in="-1:relr" out="1:pnct">succede</W>
+<W lemma="quanto" msd="PI" tag="PRO:indef" in="-1:dobj" out="1:vobj">quanto</W>
+<W lemma="succedere" msd="VADR" tag="VER:pres" in="-1:vobj" out="1:pnct">succede</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:pnct" out="">.</W>
 </s>
 <s>
@@ -173,11 +173,11 @@
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="peso" msd="NC" tag="NOM" in="" out="1:attr">pesi</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
-<W lemma="ferro" msd="NC" tag="NOM" in="-1:nobj" out="2:conj">ferro</W>
+<W lemma="ferro" msd="NC" tag="NOM" in="-1:nobj" out="2:conj|4:conj">ferro</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="peso" msd="NC" tag="NOM" in="-2:conj" out="-1:coord">pesi</W>
 <W lemma="(" msd="XP" tag="PON" in="1:pnct" out="">(</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct">fig</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:conj" out="-1:pnct">fig</W>
 <W lemma="." msd="XP" tag="SENT" in="-10:pnct" out="">.</W>
 </s>
 <s>
@@ -201,8 +201,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="realizzazione" msd="NC" tag="NOM" in="-1:nobj" out="">realizzazione</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">della</W>
-<W lemma="figura" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">figura</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:attr" out="">11.3.</W>
+<W lemma="figura" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">figura</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">11.3.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:time" out="">Muovere</W>
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="-1:time|1:nobj">il</W>
 <W lemma="magnete" msd="NC" tag="NOM" in="-1:nobj" out="">magnete</W>
@@ -240,19 +240,19 @@
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="usare" msd="VAF" tag="VER:infi" in="" out="1:dobj|3:pnct|4:conj|9:@dir">Usare</W>
+<W lemma="usare" msd="VAF" tag="VER:infi" in="" out="1:dobj|3:pnct|4:dobj|9:@dir">Usare</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">le</W>
 <W lemma="bobina" msd="NC" tag="NOM" in="-1:nobj" out="">bobine</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-4:conj" out="1:nobj|3:conj">il</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-4:dobj" out="1:nobj|3:conj">il</W>
 <W lemma="voltmetro" msd="NC" tag="NOM" in="-1:nobj" out="">voltmetro</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-3:conj" out="-1:coord|1:nobj">i</W>
 <W lemma="magnete" msd="NC" tag="NOM" in="-1:nobj" out="">magneti</W>
 <W lemma="come" msd="CS" tag="CON" in="-9:@dir" out="">come</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:nobj">alla</W>
-<W lemma="figura" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">figura</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:attr" out="">11.4.</W>
+<W lemma="figura" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">figura</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">11.4.</W>
 </s>
 </p>
 <p>
@@ -262,20 +262,20 @@
 </p>
 <p>
 <s>
-<W lemma="campo" msd="NC" tag="NOM" in="-5:nobj" out="1:attr|2:pnct">Campi</W>
+<W lemma="campo" msd="NC" tag="NOM" in="-5:nobj" out="1:attr|2:pnct|7:vobj">Campi</W>
 <W lemma="magnetico" msd="AN" tag="ADJ" in="-1:attr" out="">magnetici</W>
-<W lemma=":" msd="XP" tag="PON" in="-2:pnct" out="5:vobj">:</W>
+<W lemma=":" msd="XP" tag="PON" in="-2:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="descrivere" msd="VAF" tag="VER:infi" in="-5:vobj" out="1:dobj">Descrivere</W>
+<W lemma="descrivere" msd="VAF" tag="VER:infi" in="-7:vobj" out="1:dobj">Descrivere</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="campo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">campo</W>
 <W lemma="magnetico" msd="AN" tag="ADJ" in="-1:attr" out="1:eval">magnetico</W>
 <W lemma="attorno" msd="RG" tag="ADV" in="-1:eval" out="">attorno</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="1:nobj">ad</W>
-<W lemma="un" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj|5:pnct|10:vobj">un</W>
+<W lemma="un" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj|5:pnct|10:conj">un</W>
 <W lemma="cavo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">cavo</W>
 <W lemma="alimentare" msd="VAP" tag="VER:pper" in="-1:attr" out="">alimentato</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
@@ -285,7 +285,7 @@
 </p>
 <p>
 <s>
-<W lemma="descrivere" msd="VAF" tag="VER:infi" in="-10:vobj" out="1:dobj">Descrivere</W>
+<W lemma="descrivere" msd="VAF" tag="VER:infi" in="-10:conj" out="1:dobj">Descrivere</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="procedura" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">procedura</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
@@ -296,8 +296,8 @@
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="1:relr">cosa</W>
 <W lemma="influire" msd="VADR" tag="VER:pres" in="-1:relr" out="7:pnct">influisce</W>
 <W lemma="sul" msd="SP+P" tag="PRE:det" in="" out="1:nobj">sulla</W>
-<W lemma="forza" msd="NC" tag="NOM" in="-1:nobj" out="">forza</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="forza" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">forza</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="campo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">campo</W>
 <W lemma="magnetico" msd="AN" tag="ADJ" in="-1:attr" out="">magnetico</W>

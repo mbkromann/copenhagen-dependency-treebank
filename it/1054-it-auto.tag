@@ -73,8 +73,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:vobj">di</W>
 <W lemma="mettere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:@loc">mettersi</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:@loc" out="1:nobj">in</W>
-<W lemma="prossimità" msd="NC" tag="NOM" in="-1:nobj" out="">prossimità</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="prossimità" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">prossimità</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="Bush" msd="NP" tag="NPR" in="-1:nobj" out="">Bush</W>
 <W lemma=";" msd="XP" tag="PON" in="-12:pnct" out="">;</W>
 <W lemma="infatti" msd="RG" tag="ADV" in="2:eval" out="1:pnct">infatti</W>
@@ -213,9 +213,9 @@
 <W lemma="Texas" msd="NP" tag="NPR" in="-1:nobj" out="">Texas</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Phil</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-5:appr" out="-1:namef">Gramm</W>
-<W lemma="e" msd="CS" tag="CON" in="2:coord" out="1:epi">e</W>
-<W lemma="forse" msd="RG" tag="ADV" in="-1:epi" out="">forse</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-31:conj" out="-2:coord|1:nobj|5:appr">il</W>
+<W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
+<W lemma="forse" msd="RG" tag="ADV" in="1:add" out="">forse</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-31:conj" out="-2:coord|-1:add|1:nobj|5:appr">il</W>
 <W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="">ministro</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">della</W>
 <W lemma="difesa" msd="NC" tag="NOM" in="-1:nobj" out="">difesa</W>

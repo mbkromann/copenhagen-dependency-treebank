@@ -9,8 +9,8 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dei</W>
 <W lemma="membro" msd="NC" tag="NOM" in="-1:nobj" out="">membri</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
-<W lemma="comitato" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Comitato</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">del</W>
+<W lemma="comitato" msd="NC" tag="NOM" in="-1:nobj" out="">Comitato</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
 <W lemma="mercato" msd="NC" tag="NOM" in="-1:nobj" out="">mercato</W>
 <W lemma="potere" msd="VADR" tag="VER:cpre" in="-8:vobj" out="-7:subj|1:vobj">possa</W>
 <W lemma="tenere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:@loc|3:dobj">tenere</W>
@@ -88,12 +88,12 @@
 <W lemma="macello" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">macelli</W>
 <W lemma="privato" msd="AN" tag="ADJ" in="-1:attr" out="">privati</W>
 <W lemma="di" msd="SP" tag="PRE" in="-4:dobj" out="1:vobj">di</W>
-<W lemma="macellare" msd="VAF" tag="VER:infi" in="-1:vobj" out="3:dobj|5:time">macellare</W>
+<W lemma="macellare" msd="VAF" tag="VER:infi" in="-1:vobj" out="3:dobj">macellare</W>
 <W lemma="più" msd="RG" tag="ADV" in="2:quant" out="">più</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-3:dobj" out="-2:quant|1:nobj">12</W>
 <W lemma="animale" msd="NC" tag="NOM" in="-1:nobj" out="">animali</W>
-<W lemma="al" msd="SP+P" tag="PRE:det" in="-5:time" out="1:nobj">alla</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:nobj">alla</W>
 <W lemma="settimana" msd="NC" tag="NOM" in="-1:nobj" out="">settimana</W>
 <W lemma="." msd="XP" tag="SENT" in="-35:pnct" out="">.</W>
 </s>
@@ -106,11 +106,11 @@
 <W lemma="alcuno" msd="PI" tag="PRO:indef" in="-1:dobj" out="1:nobj">alcun</W>
 <W lemma="pericolo" msd="NC" tag="NOM" in="-1:nobj" out="">pericolo</W>
 <W lemma="se" msd="PR" tag="PRO:refl" in="-3:cond" out="1:vobj">se</W>
-<W lemma="venire" msd="VADR" tag="VER:pres" in="-1:vobj" out="1:vobj|4:subj">vengono</W>
+<W lemma="venire" msd="VADR" tag="VER:pres" in="-1:vobj" out="1:vobj|4:dobj">vengono</W>
 <W lemma="macellare" msd="VAP" tag="VER:pper" in="-1:vobj" out="">macellati</W>
 <W lemma="meno" msd="RG" tag="ADV" in="2:quant" out="">meno</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-4:subj" out="-2:quant|1:nobj">12</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-4:dobj" out="-2:quant|1:nobj">12</W>
 <W lemma="animale" msd="NC" tag="NOM" in="-1:nobj" out="">animali</W>
 <W lemma="," msd="XP" tag="PON" in="-10:pnct" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="9:coord" out="">ma</W>
@@ -194,8 +194,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="suo" msd="PO" tag="PRO:poss" in="-1:nobj" out="2:possd">suo</W>
 <W lemma="controverso" msd="AN" tag="ADJ" in="1:attr" out="">controverso</W>
-<W lemma="punto" msd="NC" tag="NOM" in="-2:possd" out="-1:attr">punto</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="punto" msd="NC" tag="NOM" in="-2:possd" out="-1:attr|1:attr">punto</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="vista" msd="NC" tag="NOM" in="-1:nobj" out="">vista</W>
 <W lemma="in" msd="SP" tag="PRE" in="-7:loc" out="1:nobj">in</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:nobj" out="2:nobj|8:relr">un</W>

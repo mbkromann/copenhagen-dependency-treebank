@@ -13,9 +13,9 @@
 </s>
 <s>
 <W lemma="una" msd="PI" tag="DET:indef" in="5:subj" out="1:nobj">Una</W>
-<W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">società</W>
+<W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">società</W>
 <W lemma="biotecnologico" msd="AN" tag="ADJ" in="-1:attr" out="">biotecnologica</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">della</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-2:attr" out="1:nobj">della</W>
 <W lemma="California" msd="NP" tag="NPR" in="-1:nobj" out="">California</W>
 <W lemma="stare" msd="VADR" tag="VER:pres" in="" out="-5:subj|1:vobj|15:pnct">sta</W>
 <W lemma="effettuare" msd="VAG" tag="VER:geru" in="-1:vobj" out="1:dobj">effettuando</W>
@@ -115,16 +115,16 @@
 <s>
 <W lemma="*" msd="XS" tag="SYM" in="5:pnct" out="">*</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="4:subj" out="1:nobj|3:appr">La</W>
-<W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="">società</W>
-<W lemma="americano" msd="AN" tag="ADJ" in="" out="">americana</W>
+<W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">società</W>
+<W lemma="americano" msd="AN" tag="ADJ" in="-1:attr" out="">americana</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:appr" out="">Lubrizol</W>
 <W lemma="stare" msd="VADR" tag="VER:pres" in="" out="-5:pnct|-4:subj|1:vobj|25:pnct">sta</W>
 <W lemma="effettuare" msd="VAG" tag="VER:geru" in="-1:vobj" out="1:dobj">effettuando</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:dobj" out="1:nobj">degli</W>
 <W lemma="esperimento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">esperimenti</W>
 <W lemma="su" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">su</W>
-<W lemma="seme" msd="NC" tag="NOM" in="-1:nobj" out="10:relr">semi</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="seme" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|10:relr">semi</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="girasole" msd="NC" tag="NOM" in="-1:nobj" out="">girasole</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="7:subj" out="">che</W>
 <W lemma="con" msd="SP" tag="PRE" in="6:man" out="1:nobj">con</W>
@@ -164,10 +164,10 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">i</W>
 <W lemma="supermercato" msd="NC" tag="NOM" in="-1:nobj" out="">supermercati</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
-<W lemma="da" msd="SP" tag="PRE" in="3:time" out="2:nobj">da</W>
+<W lemma="da" msd="SP" tag="PRE" in="3:eval" out="2:nobj">da</W>
 <W lemma="molto" msd="AN" tag="ADJ" in="1:attr" out="">molto</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">tempo</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-19:pnct|-18:subj|-3:time|1:preds|6:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-19:pnct|-18:subj|-3:eval|1:preds|6:pnct">è</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="priorità" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">priorità</W>
 <W lemma="tra" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">tra</W>
@@ -177,9 +177,9 @@
 </s>
 <s>
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">Ma</W>
-<W lemma="in" msd="SP" tag="PRE" in="2:loc" out="1:nobj">in</W>
-<W lemma="uso" msd="AN" tag="ADJ" in="-1:nobj" out="">USA</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-3:coord|-2:loc|1:man|3:vobj|11:pnct">hanno</W>
+<W lemma="in" msd="SP" tag="PRE" in="2:loc" out="">in</W>
+<W lemma="uso" msd="AN" tag="ADJ" in="1:nobj" out="">USA</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-3:coord|-2:loc|-1:nobj|1:man|3:vobj|11:pnct">hanno</W>
 <W lemma="effettivamente" msd="RG" tag="ADV" in="-1:man" out="">effettivamente</W>
 <W lemma="già" msd="RG" tag="ADV" in="1:time" out="">già</W>
 <W lemma="iniziare" msd="VAP" tag="VER:pper" in="-3:vobj" out="-1:time">iniziato</W>
