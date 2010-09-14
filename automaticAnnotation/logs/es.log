@@ -2585,3 +2585,872 @@ Sending        es/1547-es-auto.tag
 Transmitting file data .............................................................................................................................................................................................................................................................................................................................................................................................................................
 Committed revision 1302.
 -------------------------------------------
+Sat Sep 11 23:55:01 CEST 2010
+cd ../es
+svn update
+UU   0876-es-lotte.tag
+UU   0998-es-jonas.tag
+UU   0848-es-lotte.tag
+UU   0915-es-soren.tag
+UU   0939-es-lotte.tag
+UU   0881-es-lotte.tag
+UU   0805-es-lotte.tag
+UU   0866-es-jonas.tag
+UU   0960-es-soren.tag
+Updated to revision 1318.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 39 es > 39-es.findFiles.out 2> 39-es.findFiles.err
+perl convertToConll.pl 39 es > 39-es.convertToConnl.out 2> 39-es.convertToConnl.err
+perl createSegmenterFileLists.pl 39 es 2> 39-es.createSegmenterFileLists.err > 39-es.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 39-es.toParseFiles.lst.abs 2> 39-es.createtoSegmentFiles.err > 39-es.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 39-es.toParseFiles.lst.abs it 2> 39-es.segmentFiles.err > 39-es.segmentFiles.out
+perl segmentConllFiles.pl 39 es > 39-es.segmentConllFiles.out 2> 39-es.segmentConllFiles.err
+perl cleanupConll.pl 39 es > 39-es.cleanupConll.out 2> 39-es.cleanupConll.err
+perl createParserFiles.pl 39 es > 39-es.createParserFiles.out 2> 39-es.createParserFiles.err
+perl createParserScripts.pl 39 es > 39-es.createParserScripts.out 2> 39-es.createParserScripts.err
+./R39-es.train.sh
+./R39-es.parse.sh
+./R39-es.parse-trainingdata.sh
+perl createStats.pl 39-es.train.conll 39-es.training.out.conll > 39-es.stats
+perl prune.pl 39-es.stats 39-es.out.conll 0.8 > 39-es.out.conll.pruned
+Use of uninitialized value $acc in numeric lt (<) at prune.pl line 36, <CONLL> line 22528.
+Use of uninitialized value $acc in numeric lt (<) at prune.pl line 36, <CONLL> line 85496.
+perl splitParsedFiles.pl 39 es > 39-es.splitParsedFiles.out 2> 39-es.splitParsedFiles.err
+perl mergeAll.pl 39 es > 39-es.mergeAll.out 2> 39-es.mergeAll.err
+perl mergeAllTag.pl 39 es > 39-es.mergeAllTag.out 2> 39-es.mergeAllTag.err
+perl updateAllTag.pl 39 es > 39-es.updateAllTag.out 2> 39-es.updateAllTag.err
+perl copyTagFiles.pl 39 es > 39-es.copyTagFiles.out 2> 39-es.copyTagFiles.err
+cd ../es
+svn update
+At revision 1318.
+svn add *auto*.tag
+svn: warning: '0001-es-auto.tag' is already under version control
+svn: warning: '0005-es-auto.tag' is already under version control
+svn: warning: '0008-es-auto.tag' is already under version control
+svn: warning: '0029-es-auto.tag' is already under version control
+svn: warning: '0042-es-auto.tag' is already under version control
+svn: warning: '0043-es-auto.tag' is already under version control
+svn: warning: '0061-es-auto.tag' is already under version control
+svn: warning: '0065-es-auto.tag' is already under version control
+svn: warning: '0079-es-auto.tag' is already under version control
+svn: warning: '0086-es-auto.tag' is already under version control
+svn: warning: '0090-es-auto.tag' is already under version control
+svn: warning: '0091-es-auto.tag' is already under version control
+svn: warning: '0093-es-auto.tag' is already under version control
+svn: warning: '0096-es-auto.tag' is already under version control
+svn: warning: '0097-es-auto.tag' is already under version control
+svn: warning: '0101-es-auto.tag' is already under version control
+svn: warning: '0102-es-auto.tag' is already under version control
+svn: warning: '0103-es-auto.tag' is already under version control
+svn: warning: '0104-es-auto.tag' is already under version control
+svn: warning: '0107-es-auto.tag' is already under version control
+svn: warning: '0112-es-auto.tag' is already under version control
+svn: warning: '0113-es-auto.tag' is already under version control
+svn: warning: '0114-es-auto.tag' is already under version control
+svn: warning: '0119-es-auto.tag' is already under version control
+svn: warning: '0133-es-auto.tag' is already under version control
+svn: warning: '0134-es-auto.tag' is already under version control
+svn: warning: '0138-es-auto.tag' is already under version control
+svn: warning: '0140-es-auto.tag' is already under version control
+svn: warning: '0141-es-auto.tag' is already under version control
+svn: warning: '0143-es-auto.tag' is already under version control
+svn: warning: '0144-es-auto.tag' is already under version control
+svn: warning: '0148-es-auto.tag' is already under version control
+svn: warning: '0150-es-auto.tag' is already under version control
+svn: warning: '0151-es-auto.tag' is already under version control
+svn: warning: '0152-es-auto.tag' is already under version control
+svn: warning: '0159-es-auto.tag' is already under version control
+svn: warning: '0169-es-auto.tag' is already under version control
+svn: warning: '0174-es-auto.tag' is already under version control
+svn: warning: '0176-es-auto.tag' is already under version control
+svn: warning: '0178-es-auto.tag' is already under version control
+svn: warning: '0182-es-auto.tag' is already under version control
+svn: warning: '0184-es-auto.tag' is already under version control
+svn: warning: '0187-es-auto.tag' is already under version control
+svn: warning: '0188-es-auto.tag' is already under version control
+svn: warning: '0190-es-auto.tag' is already under version control
+svn: warning: '0191-es-auto.tag' is already under version control
+svn: warning: '0197-es-auto.tag' is already under version control
+svn: warning: '0204-es-auto.tag' is already under version control
+svn: warning: '0211-es-auto.tag' is already under version control
+svn: warning: '0212-es-auto.tag' is already under version control
+svn: warning: '0215-es-auto.tag' is already under version control
+svn: warning: '0229-es-auto.tag' is already under version control
+svn: warning: '0235-es-auto.tag' is already under version control
+svn: warning: '0237-es-auto.tag' is already under version control
+svn: warning: '0244-es-auto.tag' is already under version control
+svn: warning: '0245-es-auto.tag' is already under version control
+svn: warning: '0257-es-auto.tag' is already under version control
+svn: warning: '0258-es-auto.tag' is already under version control
+svn: warning: '0259-es-auto.tag' is already under version control
+svn: warning: '0260-es-auto.tag' is already under version control
+svn: warning: '0262-es-auto.tag' is already under version control
+svn: warning: '0264-es-auto.tag' is already under version control
+svn: warning: '0265-es-auto.tag' is already under version control
+svn: warning: '0268-es-auto.tag' is already under version control
+svn: warning: '0269-es-auto.tag' is already under version control
+svn: warning: '0272-es-auto.tag' is already under version control
+svn: warning: '0273-es-auto.tag' is already under version control
+svn: warning: '0278-es-auto.tag' is already under version control
+svn: warning: '0285-es-auto.tag' is already under version control
+svn: warning: '0294-es-auto.tag' is already under version control
+svn: warning: '0298-es-auto.tag' is already under version control
+svn: warning: '0300-es-auto.tag' is already under version control
+svn: warning: '0303-es-auto.tag' is already under version control
+svn: warning: '0306-es-auto.tag' is already under version control
+svn: warning: '0307-es-auto.tag' is already under version control
+svn: warning: '0309-es-auto.tag' is already under version control
+svn: warning: '0312-es-auto.tag' is already under version control
+svn: warning: '0318-es-auto.tag' is already under version control
+svn: warning: '0320-es-auto.tag' is already under version control
+svn: warning: '0326-es-auto.tag' is already under version control
+svn: warning: '0327-es-auto.tag' is already under version control
+svn: warning: '0328-es-auto.tag' is already under version control
+svn: warning: '0333-es-auto.tag' is already under version control
+svn: warning: '0339-es-auto.tag' is already under version control
+svn: warning: '0342-es-auto.tag' is already under version control
+svn: warning: '0345-es-auto.tag' is already under version control
+svn: warning: '0351-es-auto.tag' is already under version control
+svn: warning: '0353-es-auto.tag' is already under version control
+svn: warning: '0354-es-auto.tag' is already under version control
+svn: warning: '0355-es-auto.tag' is already under version control
+svn: warning: '0361-es-auto.tag' is already under version control
+svn: warning: '0366-es-auto.tag' is already under version control
+svn: warning: '0375-es-auto.tag' is already under version control
+svn: warning: '0376-es-auto.tag' is already under version control
+svn: warning: '0378-es-auto.tag' is already under version control
+svn: warning: '0386-es-auto.tag' is already under version control
+svn: warning: '0388-es-auto.tag' is already under version control
+svn: warning: '0391-es-auto.tag' is already under version control
+svn: warning: '0395-es-auto.tag' is already under version control
+svn: warning: '0397-es-auto.tag' is already under version control
+svn: warning: '0401-es-auto.tag' is already under version control
+svn: warning: '0411-es-auto.tag' is already under version control
+svn: warning: '0416-es-auto.tag' is already under version control
+svn: warning: '0421-es-auto.tag' is already under version control
+svn: warning: '0422-es-auto.tag' is already under version control
+svn: warning: '0426-es-auto.tag' is already under version control
+svn: warning: '0428-es-auto.tag' is already under version control
+svn: warning: '0431-es-auto.tag' is already under version control
+svn: warning: '0434-es-auto.tag' is already under version control
+svn: warning: '0438-es-auto.tag' is already under version control
+svn: warning: '0442-es-auto.tag' is already under version control
+svn: warning: '0446-es-auto.tag' is already under version control
+svn: warning: '0448-es-auto.tag' is already under version control
+svn: warning: '0449-es-auto.tag' is already under version control
+svn: warning: '0452-es-auto.tag' is already under version control
+svn: warning: '0465-es-auto.tag' is already under version control
+svn: warning: '0468-es-auto.tag' is already under version control
+svn: warning: '0470-es-auto.tag' is already under version control
+svn: warning: '0472-es-auto.tag' is already under version control
+svn: warning: '0473-es-auto.tag' is already under version control
+svn: warning: '0475-es-auto.tag' is already under version control
+svn: warning: '0479-es-auto.tag' is already under version control
+svn: warning: '0483-es-auto.tag' is already under version control
+svn: warning: '0486-es-auto.tag' is already under version control
+svn: warning: '0488-es-auto.tag' is already under version control
+svn: warning: '0500-es-auto.tag' is already under version control
+svn: warning: '0502-es-auto.tag' is already under version control
+svn: warning: '0507-es-auto.tag' is already under version control
+svn: warning: '0510-es-auto.tag' is already under version control
+svn: warning: '0511-es-auto.tag' is already under version control
+svn: warning: '0519-es-auto.tag' is already under version control
+svn: warning: '0520-es-auto.tag' is already under version control
+svn: warning: '0531-es-auto.tag' is already under version control
+svn: warning: '0538-es-auto.tag' is already under version control
+svn: warning: '0540-es-auto.tag' is already under version control
+svn: warning: '0545-es-auto.tag' is already under version control
+svn: warning: '0546-es-auto.tag' is already under version control
+svn: warning: '0547-es-auto.tag' is already under version control
+svn: warning: '0567-es-auto.tag' is already under version control
+svn: warning: '0573-es-auto.tag' is already under version control
+svn: warning: '0576-es-auto.tag' is already under version control
+svn: warning: '0577-es-auto.tag' is already under version control
+svn: warning: '0581-es-auto.tag' is already under version control
+svn: warning: '0588-es-auto.tag' is already under version control
+svn: warning: '0593-es-auto.tag' is already under version control
+svn: warning: '0596-es-auto.tag' is already under version control
+svn: warning: '0601-es-auto.tag' is already under version control
+svn: warning: '0602-es-auto.tag' is already under version control
+svn: warning: '0607-es-auto.tag' is already under version control
+svn: warning: '0613-es-auto.tag' is already under version control
+svn: warning: '0618-es-auto.tag' is already under version control
+svn: warning: '0620-es-auto.tag' is already under version control
+svn: warning: '0623-es-auto.tag' is already under version control
+svn: warning: '0624-es-auto.tag' is already under version control
+svn: warning: '0626-es-auto.tag' is already under version control
+svn: warning: '0643-es-auto.tag' is already under version control
+svn: warning: '0644-es-auto.tag' is already under version control
+svn: warning: '0645-es-auto.tag' is already under version control
+svn: warning: '0646-es-auto.tag' is already under version control
+svn: warning: '0647-es-auto.tag' is already under version control
+svn: warning: '0652-es-auto.tag' is already under version control
+svn: warning: '0654-es-auto.tag' is already under version control
+svn: warning: '0666-es-auto.tag' is already under version control
+svn: warning: '0667-es-auto.tag' is already under version control
+svn: warning: '0670-es-auto.tag' is already under version control
+svn: warning: '0671-es-auto.tag' is already under version control
+svn: warning: '0675-es-auto.tag' is already under version control
+svn: warning: '0680-es-auto.tag' is already under version control
+svn: warning: '0683-es-auto.tag' is already under version control
+svn: warning: '0685-es-auto.tag' is already under version control
+svn: warning: '0688-es-auto.tag' is already under version control
+svn: warning: '0689-es-auto.tag' is already under version control
+svn: warning: '0690-es-auto.tag' is already under version control
+svn: warning: '0700-es-auto.tag' is already under version control
+svn: warning: '0702-es-auto.tag' is already under version control
+svn: warning: '0705-es-auto.tag' is already under version control
+svn: warning: '0708-es-auto.tag' is already under version control
+svn: warning: '0713-es-auto.tag' is already under version control
+svn: warning: '0720-es-auto.tag' is already under version control
+svn: warning: '0725-es-auto.tag' is already under version control
+svn: warning: '0729-es-auto.tag' is already under version control
+svn: warning: '0735-es-auto.tag' is already under version control
+svn: warning: '0736-es-auto.tag' is already under version control
+svn: warning: '0738-es-auto.tag' is already under version control
+svn: warning: '0741-es-auto.tag' is already under version control
+svn: warning: '0742-es-auto.tag' is already under version control
+svn: warning: '0747-es-auto.tag' is already under version control
+svn: warning: '0754-es-auto.tag' is already under version control
+svn: warning: '0759-es-auto.tag' is already under version control
+svn: warning: '0770-es-auto.tag' is already under version control
+svn: warning: '0780-es-auto.tag' is already under version control
+svn: warning: '0781-es-auto.tag' is already under version control
+svn: warning: '0783-es-auto.tag' is already under version control
+svn: warning: '0790-es-auto.tag' is already under version control
+svn: warning: '0793-es-auto.tag' is already under version control
+svn: warning: '0794-es-auto.tag' is already under version control
+svn: warning: '0795-es-auto.tag' is already under version control
+svn: warning: '0800-es-auto.tag' is already under version control
+svn: warning: '0805-es-auto.tag' is already under version control
+svn: warning: '0809-es-auto.tag' is already under version control
+svn: warning: '0817-es-auto.tag' is already under version control
+svn: warning: '0821-es-auto.tag' is already under version control
+svn: warning: '0822-es-auto.tag' is already under version control
+svn: warning: '0837-es-auto.tag' is already under version control
+svn: warning: '0840-es-auto.tag' is already under version control
+svn: warning: '0843-es-auto.tag' is already under version control
+svn: warning: '0848-es-auto.tag' is already under version control
+svn: warning: '0850-es-auto.tag' is already under version control
+svn: warning: '0851-es-auto.tag' is already under version control
+svn: warning: '0853-es-auto.tag' is already under version control
+svn: warning: '0856-es-auto.tag' is already under version control
+svn: warning: '0863-es-auto.tag' is already under version control
+svn: warning: '0864-es-auto.tag' is already under version control
+svn: warning: '0866-es-auto.tag' is already under version control
+svn: warning: '0870-es-auto.tag' is already under version control
+svn: warning: '0873-es-auto.tag' is already under version control
+svn: warning: '0874-es-auto.tag' is already under version control
+svn: warning: '0876-es-auto.tag' is already under version control
+svn: warning: '0879-es-auto.tag' is already under version control
+svn: warning: '0881-es-auto.tag' is already under version control
+svn: warning: '0883-es-auto.tag' is already under version control
+svn: warning: '0888-es-auto.tag' is already under version control
+svn: warning: '0889-es-auto.tag' is already under version control
+svn: warning: '0893-es-auto.tag' is already under version control
+svn: warning: '0902-es-auto.tag' is already under version control
+svn: warning: '0904-es-auto.tag' is already under version control
+svn: warning: '0905-es-auto.tag' is already under version control
+svn: warning: '0915-es-auto.tag' is already under version control
+svn: warning: '0917-es-auto.tag' is already under version control
+svn: warning: '0919-es-auto.tag' is already under version control
+svn: warning: '0925-es-auto.tag' is already under version control
+svn: warning: '0926-es-auto.tag' is already under version control
+svn: warning: '0927-es-auto.tag' is already under version control
+svn: warning: '0932-es-auto.tag' is already under version control
+svn: warning: '0934-es-auto.tag' is already under version control
+svn: warning: '0935-es-auto.tag' is already under version control
+svn: warning: '0939-es-auto.tag' is already under version control
+svn: warning: '0940-es-auto.tag' is already under version control
+svn: warning: '0947-es-auto.tag' is already under version control
+svn: warning: '0949-es-auto.tag' is already under version control
+svn: warning: '0951-es-auto.tag' is already under version control
+svn: warning: '0955-es-auto.tag' is already under version control
+svn: warning: '0956-es-auto.tag' is already under version control
+svn: warning: '0958-es-auto.tag' is already under version control
+svn: warning: '0960-es-auto.tag' is already under version control
+svn: warning: '0968-es-auto.tag' is already under version control
+svn: warning: '0970-es-auto.tag' is already under version control
+svn: warning: '0975-es-auto.tag' is already under version control
+svn: warning: '0978-es-auto.tag' is already under version control
+svn: warning: '0986-es-auto.tag' is already under version control
+svn: warning: '0988-es-auto.tag' is already under version control
+svn: warning: '0989-es-auto.tag' is already under version control
+svn: warning: '0992-es-auto.tag' is already under version control
+svn: warning: '0998-es-auto.tag' is already under version control
+svn: warning: '1001-es-auto.tag' is already under version control
+svn: warning: '1007-es-auto.tag' is already under version control
+svn: warning: '1008-es-auto.tag' is already under version control
+svn: warning: '1010-es-auto.tag' is already under version control
+svn: warning: '1011-es-auto.tag' is already under version control
+svn: warning: '1014-es-auto.tag' is already under version control
+svn: warning: '1017-es-auto.tag' is already under version control
+svn: warning: '1019-es-auto.tag' is already under version control
+svn: warning: '1021-es-auto.tag' is already under version control
+svn: warning: '1030-es-auto.tag' is already under version control
+svn: warning: '1031-es-auto.tag' is already under version control
+svn: warning: '1032-es-auto.tag' is already under version control
+svn: warning: '1035-es-auto.tag' is already under version control
+svn: warning: '1038-es-auto.tag' is already under version control
+svn: warning: '1039-es-auto.tag' is already under version control
+svn: warning: '1041-es-auto.tag' is already under version control
+svn: warning: '1042-es-auto.tag' is already under version control
+svn: warning: '1043-es-auto.tag' is already under version control
+svn: warning: '1046-es-auto.tag' is already under version control
+svn: warning: '1047-es-auto.tag' is already under version control
+svn: warning: '1048-es-auto.tag' is already under version control
+svn: warning: '1053-es-auto.tag' is already under version control
+svn: warning: '1054-es-auto.tag' is already under version control
+svn: warning: '1055-es-auto.tag' is already under version control
+svn: warning: '1056-es-auto.tag' is already under version control
+svn: warning: '1057-es-auto.tag' is already under version control
+svn: warning: '1058-es-auto.tag' is already under version control
+svn: warning: '1061-es-auto.tag' is already under version control
+svn: warning: '1062-es-auto.tag' is already under version control
+svn: warning: '1063-es-auto.tag' is already under version control
+svn: warning: '1067-es-auto.tag' is already under version control
+svn: warning: '1075-es-auto.tag' is already under version control
+svn: warning: '1077-es-auto.tag' is already under version control
+svn: warning: '1088-es-auto.tag' is already under version control
+svn: warning: '1090-es-auto.tag' is already under version control
+svn: warning: '1095-es-auto.tag' is already under version control
+svn: warning: '1104-es-auto.tag' is already under version control
+svn: warning: '1117-es-auto.tag' is already under version control
+svn: warning: '1125-es-auto.tag' is already under version control
+svn: warning: '1127-es-auto.tag' is already under version control
+svn: warning: '1129-es-auto.tag' is already under version control
+svn: warning: '1130-es-auto.tag' is already under version control
+svn: warning: '1138-es-auto.tag' is already under version control
+svn: warning: '1144-es-auto.tag' is already under version control
+svn: warning: '1150-es-auto.tag' is already under version control
+svn: warning: '1154-es-auto.tag' is already under version control
+svn: warning: '1162-es-auto.tag' is already under version control
+svn: warning: '1166-es-auto.tag' is already under version control
+svn: warning: '1168-es-auto.tag' is already under version control
+svn: warning: '1169-es-auto.tag' is already under version control
+svn: warning: '1173-es-auto.tag' is already under version control
+svn: warning: '1174-es-auto.tag' is already under version control
+svn: warning: '1175-es-auto.tag' is already under version control
+svn: warning: '1181-es-auto.tag' is already under version control
+svn: warning: '1182-es-auto.tag' is already under version control
+svn: warning: '1183-es-auto.tag' is already under version control
+svn: warning: '1190-es-auto.tag' is already under version control
+svn: warning: '1206-es-auto.tag' is already under version control
+svn: warning: '1214-es-auto.tag' is already under version control
+svn: warning: '1217-es-auto.tag' is already under version control
+svn: warning: '1224-es-auto.tag' is already under version control
+svn: warning: '1227-es-auto.tag' is already under version control
+svn: warning: '1228-es-auto.tag' is already under version control
+svn: warning: '1229-es-auto.tag' is already under version control
+svn: warning: '1241-es-auto.tag' is already under version control
+svn: warning: '1250-es-auto.tag' is already under version control
+svn: warning: '1251-es-auto.tag' is already under version control
+svn: warning: '1252-es-auto.tag' is already under version control
+svn: warning: '1253-es-auto.tag' is already under version control
+svn: warning: '1255-es-auto.tag' is already under version control
+svn: warning: '1259-es-auto.tag' is already under version control
+svn: warning: '1265-es-auto.tag' is already under version control
+svn: warning: '1270-es-auto.tag' is already under version control
+svn: warning: '1276-es-auto.tag' is already under version control
+svn: warning: '1277-es-auto.tag' is already under version control
+svn: warning: '1284-es-auto.tag' is already under version control
+svn: warning: '1289-es-auto.tag' is already under version control
+svn: warning: '1292-es-auto.tag' is already under version control
+svn: warning: '1300-es-auto.tag' is already under version control
+svn: warning: '1302-es-auto.tag' is already under version control
+svn: warning: '1306-es-auto.tag' is already under version control
+svn: warning: '1307-es-auto.tag' is already under version control
+svn: warning: '1319-es-auto.tag' is already under version control
+svn: warning: '1321-es-auto.tag' is already under version control
+svn: warning: '1325-es-auto.tag' is already under version control
+svn: warning: '1327-es-auto.tag' is already under version control
+svn: warning: '1328-es-auto.tag' is already under version control
+svn: warning: '1332-es-auto.tag' is already under version control
+svn: warning: '1333-es-auto.tag' is already under version control
+svn: warning: '1336-es-auto.tag' is already under version control
+svn: warning: '1337-es-auto.tag' is already under version control
+svn: warning: '1338-es-auto.tag' is already under version control
+svn: warning: '1339-es-auto.tag' is already under version control
+svn: warning: '1340-es-auto.tag' is already under version control
+svn: warning: '1347-es-auto.tag' is already under version control
+svn: warning: '1350-es-auto.tag' is already under version control
+svn: warning: '1361-es-auto.tag' is already under version control
+svn: warning: '1364-es-auto.tag' is already under version control
+svn: warning: '1365-es-auto.tag' is already under version control
+svn: warning: '1368-es-auto.tag' is already under version control
+svn: warning: '1371-es-auto.tag' is already under version control
+svn: warning: '1372-es-auto.tag' is already under version control
+svn: warning: '1373-es-auto.tag' is already under version control
+svn: warning: '1375-es-auto.tag' is already under version control
+svn: warning: '1377-es-auto.tag' is already under version control
+svn: warning: '1378-es-auto.tag' is already under version control
+svn: warning: '1379-es-auto.tag' is already under version control
+svn: warning: '1381-es-auto.tag' is already under version control
+svn: warning: '1383-es-auto.tag' is already under version control
+svn: warning: '1385-es-auto.tag' is already under version control
+svn: warning: '1390-es-auto.tag' is already under version control
+svn: warning: '1394-es-auto.tag' is already under version control
+svn: warning: '1398-es-auto.tag' is already under version control
+svn: warning: '1399-es-auto.tag' is already under version control
+svn: warning: '1400-es-auto.tag' is already under version control
+svn: warning: '1401-es-auto.tag' is already under version control
+svn: warning: '1405-es-auto.tag' is already under version control
+svn: warning: '1406-es-auto.tag' is already under version control
+svn: warning: '1407-es-auto.tag' is already under version control
+svn: warning: '1408-es-auto.tag' is already under version control
+svn: warning: '1410-es-auto.tag' is already under version control
+svn: warning: '1414-es-auto.tag' is already under version control
+svn: warning: '1416-es-auto.tag' is already under version control
+svn: warning: '1420-es-auto.tag' is already under version control
+svn: warning: '1426-es-auto.tag' is already under version control
+svn: warning: '1428-es-auto.tag' is already under version control
+svn: warning: '1429-es-auto.tag' is already under version control
+svn: warning: '1433-es-auto.tag' is already under version control
+svn: warning: '1435-es-auto.tag' is already under version control
+svn: warning: '1439-es-auto.tag' is already under version control
+svn: warning: '1449-es-auto.tag' is already under version control
+svn: warning: '1453-es-auto.tag' is already under version control
+svn: warning: '1457-es-auto.tag' is already under version control
+svn: warning: '1465-es-auto.tag' is already under version control
+svn: warning: '1467-es-auto.tag' is already under version control
+svn: warning: '1471-es-auto.tag' is already under version control
+svn: warning: '1472-es-auto.tag' is already under version control
+svn: warning: '1478-es-auto.tag' is already under version control
+svn: warning: '1485-es-auto.tag' is already under version control
+svn: warning: '1488-es-auto.tag' is already under version control
+svn: warning: '1490-es-auto.tag' is already under version control
+svn: warning: '1491-es-auto.tag' is already under version control
+svn: warning: '1493-es-auto.tag' is already under version control
+svn: warning: '1494-es-auto.tag' is already under version control
+svn: warning: '1495-es-auto.tag' is already under version control
+svn: warning: '1497-es-auto.tag' is already under version control
+svn: warning: '1498-es-auto.tag' is already under version control
+svn: warning: '1506-es-auto.tag' is already under version control
+svn: warning: '1508-es-auto.tag' is already under version control
+svn: warning: '1514-es-auto.tag' is already under version control
+svn: warning: '1519-es-auto.tag' is already under version control
+svn: warning: '1522-es-auto.tag' is already under version control
+svn: warning: '1523-es-auto.tag' is already under version control
+svn: warning: '1524-es-auto.tag' is already under version control
+svn: warning: '1527-es-auto.tag' is already under version control
+svn: warning: '1536-es-auto.tag' is already under version control
+svn: warning: '1545-es-auto.tag' is already under version control
+svn: warning: '1546-es-auto.tag' is already under version control
+svn: warning: '1547-es-auto.tag' is already under version control
+svn commit -m 'Automatic annotations, 39-es'
+Sending        es/0001-es-auto.tag
+Sending        es/0005-es-auto.tag
+Sending        es/0008-es-auto.tag
+Sending        es/0029-es-auto.tag
+Sending        es/0042-es-auto.tag
+Sending        es/0043-es-auto.tag
+Sending        es/0061-es-auto.tag
+Sending        es/0065-es-auto.tag
+Sending        es/0079-es-auto.tag
+Sending        es/0086-es-auto.tag
+Sending        es/0090-es-auto.tag
+Sending        es/0091-es-auto.tag
+Sending        es/0093-es-auto.tag
+Sending        es/0096-es-auto.tag
+Sending        es/0097-es-auto.tag
+Sending        es/0101-es-auto.tag
+Sending        es/0102-es-auto.tag
+Sending        es/0103-es-auto.tag
+Sending        es/0104-es-auto.tag
+Sending        es/0107-es-auto.tag
+Sending        es/0112-es-auto.tag
+Sending        es/0113-es-auto.tag
+Sending        es/0114-es-auto.tag
+Sending        es/0119-es-auto.tag
+Sending        es/0133-es-auto.tag
+Sending        es/0134-es-auto.tag
+Sending        es/0138-es-auto.tag
+Sending        es/0140-es-auto.tag
+Sending        es/0141-es-auto.tag
+Sending        es/0143-es-auto.tag
+Sending        es/0144-es-auto.tag
+Sending        es/0148-es-auto.tag
+Sending        es/0150-es-auto.tag
+Sending        es/0151-es-auto.tag
+Sending        es/0152-es-auto.tag
+Sending        es/0159-es-auto.tag
+Sending        es/0169-es-auto.tag
+Sending        es/0174-es-auto.tag
+Sending        es/0176-es-auto.tag
+Sending        es/0178-es-auto.tag
+Sending        es/0182-es-auto.tag
+Sending        es/0184-es-auto.tag
+Sending        es/0187-es-auto.tag
+Sending        es/0188-es-auto.tag
+Sending        es/0190-es-auto.tag
+Sending        es/0191-es-auto.tag
+Sending        es/0197-es-auto.tag
+Sending        es/0204-es-auto.tag
+Sending        es/0211-es-auto.tag
+Sending        es/0212-es-auto.tag
+Sending        es/0215-es-auto.tag
+Sending        es/0229-es-auto.tag
+Sending        es/0235-es-auto.tag
+Sending        es/0237-es-auto.tag
+Sending        es/0244-es-auto.tag
+Sending        es/0245-es-auto.tag
+Sending        es/0257-es-auto.tag
+Sending        es/0258-es-auto.tag
+Sending        es/0259-es-auto.tag
+Sending        es/0260-es-auto.tag
+Sending        es/0262-es-auto.tag
+Sending        es/0264-es-auto.tag
+Sending        es/0265-es-auto.tag
+Sending        es/0268-es-auto.tag
+Sending        es/0269-es-auto.tag
+Sending        es/0272-es-auto.tag
+Sending        es/0273-es-auto.tag
+Sending        es/0278-es-auto.tag
+Sending        es/0285-es-auto.tag
+Sending        es/0294-es-auto.tag
+Sending        es/0298-es-auto.tag
+Sending        es/0300-es-auto.tag
+Sending        es/0303-es-auto.tag
+Sending        es/0306-es-auto.tag
+Sending        es/0307-es-auto.tag
+Sending        es/0309-es-auto.tag
+Sending        es/0312-es-auto.tag
+Sending        es/0318-es-auto.tag
+Sending        es/0320-es-auto.tag
+Sending        es/0326-es-auto.tag
+Sending        es/0327-es-auto.tag
+Sending        es/0328-es-auto.tag
+Sending        es/0333-es-auto.tag
+Sending        es/0339-es-auto.tag
+Sending        es/0342-es-auto.tag
+Sending        es/0345-es-auto.tag
+Sending        es/0351-es-auto.tag
+Sending        es/0353-es-auto.tag
+Sending        es/0354-es-auto.tag
+Sending        es/0355-es-auto.tag
+Sending        es/0361-es-auto.tag
+Sending        es/0366-es-auto.tag
+Sending        es/0375-es-auto.tag
+Sending        es/0376-es-auto.tag
+Sending        es/0378-es-auto.tag
+Sending        es/0386-es-auto.tag
+Sending        es/0388-es-auto.tag
+Sending        es/0391-es-auto.tag
+Sending        es/0395-es-auto.tag
+Sending        es/0397-es-auto.tag
+Sending        es/0401-es-auto.tag
+Sending        es/0411-es-auto.tag
+Sending        es/0416-es-auto.tag
+Sending        es/0421-es-auto.tag
+Sending        es/0422-es-auto.tag
+Sending        es/0426-es-auto.tag
+Sending        es/0428-es-auto.tag
+Sending        es/0431-es-auto.tag
+Sending        es/0434-es-auto.tag
+Sending        es/0438-es-auto.tag
+Sending        es/0442-es-auto.tag
+Sending        es/0446-es-auto.tag
+Sending        es/0448-es-auto.tag
+Sending        es/0449-es-auto.tag
+Sending        es/0452-es-auto.tag
+Sending        es/0465-es-auto.tag
+Sending        es/0468-es-auto.tag
+Sending        es/0470-es-auto.tag
+Sending        es/0472-es-auto.tag
+Sending        es/0473-es-auto.tag
+Sending        es/0475-es-auto.tag
+Sending        es/0479-es-auto.tag
+Sending        es/0483-es-auto.tag
+Sending        es/0486-es-auto.tag
+Sending        es/0488-es-auto.tag
+Sending        es/0500-es-auto.tag
+Sending        es/0502-es-auto.tag
+Sending        es/0507-es-auto.tag
+Sending        es/0510-es-auto.tag
+Sending        es/0511-es-auto.tag
+Sending        es/0519-es-auto.tag
+Sending        es/0520-es-auto.tag
+Sending        es/0531-es-auto.tag
+Sending        es/0538-es-auto.tag
+Sending        es/0540-es-auto.tag
+Sending        es/0545-es-auto.tag
+Sending        es/0546-es-auto.tag
+Sending        es/0547-es-auto.tag
+Sending        es/0567-es-auto.tag
+Sending        es/0573-es-auto.tag
+Sending        es/0576-es-auto.tag
+Sending        es/0577-es-auto.tag
+Sending        es/0581-es-auto.tag
+Sending        es/0588-es-auto.tag
+Sending        es/0593-es-auto.tag
+Sending        es/0596-es-auto.tag
+Sending        es/0601-es-auto.tag
+Sending        es/0602-es-auto.tag
+Sending        es/0607-es-auto.tag
+Sending        es/0613-es-auto.tag
+Sending        es/0618-es-auto.tag
+Sending        es/0620-es-auto.tag
+Sending        es/0623-es-auto.tag
+Sending        es/0624-es-auto.tag
+Sending        es/0626-es-auto.tag
+Sending        es/0643-es-auto.tag
+Sending        es/0644-es-auto.tag
+Sending        es/0645-es-auto.tag
+Sending        es/0646-es-auto.tag
+Sending        es/0647-es-auto.tag
+Sending        es/0652-es-auto.tag
+Sending        es/0654-es-auto.tag
+Sending        es/0666-es-auto.tag
+Sending        es/0667-es-auto.tag
+Sending        es/0670-es-auto.tag
+Sending        es/0671-es-auto.tag
+Sending        es/0675-es-auto.tag
+Sending        es/0680-es-auto.tag
+Sending        es/0683-es-auto.tag
+Sending        es/0685-es-auto.tag
+Sending        es/0688-es-auto.tag
+Sending        es/0689-es-auto.tag
+Sending        es/0690-es-auto.tag
+Sending        es/0700-es-auto.tag
+Sending        es/0702-es-auto.tag
+Sending        es/0705-es-auto.tag
+Sending        es/0708-es-auto.tag
+Sending        es/0713-es-auto.tag
+Sending        es/0720-es-auto.tag
+Sending        es/0725-es-auto.tag
+Sending        es/0729-es-auto.tag
+Sending        es/0735-es-auto.tag
+Sending        es/0736-es-auto.tag
+Sending        es/0738-es-auto.tag
+Sending        es/0741-es-auto.tag
+Sending        es/0742-es-auto.tag
+Sending        es/0747-es-auto.tag
+Sending        es/0754-es-auto.tag
+Sending        es/0759-es-auto.tag
+Sending        es/0770-es-auto.tag
+Sending        es/0780-es-auto.tag
+Sending        es/0781-es-auto.tag
+Sending        es/0783-es-auto.tag
+Sending        es/0790-es-auto.tag
+Sending        es/0793-es-auto.tag
+Sending        es/0794-es-auto.tag
+Sending        es/0795-es-auto.tag
+Sending        es/0800-es-auto.tag
+Sending        es/0805-es-auto.tag
+Sending        es/0809-es-auto.tag
+Sending        es/0817-es-auto.tag
+Sending        es/0821-es-auto.tag
+Sending        es/0822-es-auto.tag
+Sending        es/0837-es-auto.tag
+Sending        es/0840-es-auto.tag
+Sending        es/0843-es-auto.tag
+Sending        es/0848-es-auto.tag
+Sending        es/0850-es-auto.tag
+Sending        es/0851-es-auto.tag
+Sending        es/0853-es-auto.tag
+Sending        es/0856-es-auto.tag
+Sending        es/0863-es-auto.tag
+Sending        es/0864-es-auto.tag
+Sending        es/0866-es-auto.tag
+Sending        es/0870-es-auto.tag
+Sending        es/0873-es-auto.tag
+Sending        es/0874-es-auto.tag
+Sending        es/0876-es-auto.tag
+Sending        es/0879-es-auto.tag
+Sending        es/0881-es-auto.tag
+Sending        es/0883-es-auto.tag
+Sending        es/0888-es-auto.tag
+Sending        es/0889-es-auto.tag
+Sending        es/0893-es-auto.tag
+Sending        es/0902-es-auto.tag
+Sending        es/0904-es-auto.tag
+Sending        es/0905-es-auto.tag
+Sending        es/0915-es-auto.tag
+Sending        es/0917-es-auto.tag
+Sending        es/0919-es-auto.tag
+Sending        es/0925-es-auto.tag
+Sending        es/0926-es-auto.tag
+Sending        es/0927-es-auto.tag
+Sending        es/0932-es-auto.tag
+Sending        es/0934-es-auto.tag
+Sending        es/0935-es-auto.tag
+Sending        es/0939-es-auto.tag
+Sending        es/0940-es-auto.tag
+Sending        es/0947-es-auto.tag
+Sending        es/0949-es-auto.tag
+Sending        es/0951-es-auto.tag
+Sending        es/0955-es-auto.tag
+Sending        es/0956-es-auto.tag
+Sending        es/0958-es-auto.tag
+Sending        es/0960-es-auto.tag
+Sending        es/0968-es-auto.tag
+Sending        es/0970-es-auto.tag
+Sending        es/0975-es-auto.tag
+Sending        es/0978-es-auto.tag
+Sending        es/0986-es-auto.tag
+Sending        es/0988-es-auto.tag
+Sending        es/0989-es-auto.tag
+Sending        es/0992-es-auto.tag
+Sending        es/0998-es-auto.tag
+Sending        es/1001-es-auto.tag
+Sending        es/1007-es-auto.tag
+Sending        es/1008-es-auto.tag
+Sending        es/1010-es-auto.tag
+Sending        es/1011-es-auto.tag
+Sending        es/1014-es-auto.tag
+Sending        es/1017-es-auto.tag
+Sending        es/1019-es-auto.tag
+Sending        es/1021-es-auto.tag
+Sending        es/1030-es-auto.tag
+Sending        es/1031-es-auto.tag
+Sending        es/1032-es-auto.tag
+Sending        es/1035-es-auto.tag
+Sending        es/1038-es-auto.tag
+Sending        es/1039-es-auto.tag
+Sending        es/1041-es-auto.tag
+Sending        es/1042-es-auto.tag
+Sending        es/1043-es-auto.tag
+Sending        es/1046-es-auto.tag
+Sending        es/1047-es-auto.tag
+Sending        es/1048-es-auto.tag
+Sending        es/1053-es-auto.tag
+Sending        es/1054-es-auto.tag
+Sending        es/1055-es-auto.tag
+Sending        es/1056-es-auto.tag
+Sending        es/1057-es-auto.tag
+Sending        es/1058-es-auto.tag
+Sending        es/1061-es-auto.tag
+Sending        es/1062-es-auto.tag
+Sending        es/1063-es-auto.tag
+Sending        es/1067-es-auto.tag
+Sending        es/1075-es-auto.tag
+Sending        es/1077-es-auto.tag
+Sending        es/1088-es-auto.tag
+Sending        es/1090-es-auto.tag
+Sending        es/1095-es-auto.tag
+Sending        es/1104-es-auto.tag
+Sending        es/1117-es-auto.tag
+Sending        es/1125-es-auto.tag
+Sending        es/1127-es-auto.tag
+Sending        es/1129-es-auto.tag
+Sending        es/1130-es-auto.tag
+Sending        es/1138-es-auto.tag
+Sending        es/1144-es-auto.tag
+Sending        es/1150-es-auto.tag
+Sending        es/1154-es-auto.tag
+Sending        es/1162-es-auto.tag
+Sending        es/1166-es-auto.tag
+Sending        es/1168-es-auto.tag
+Sending        es/1169-es-auto.tag
+Sending        es/1173-es-auto.tag
+Sending        es/1174-es-auto.tag
+Sending        es/1175-es-auto.tag
+Sending        es/1181-es-auto.tag
+Sending        es/1182-es-auto.tag
+Sending        es/1183-es-auto.tag
+Sending        es/1190-es-auto.tag
+Sending        es/1206-es-auto.tag
+Sending        es/1214-es-auto.tag
+Sending        es/1217-es-auto.tag
+Sending        es/1224-es-auto.tag
+Sending        es/1227-es-auto.tag
+Sending        es/1228-es-auto.tag
+Sending        es/1229-es-auto.tag
+Sending        es/1241-es-auto.tag
+Sending        es/1250-es-auto.tag
+Sending        es/1251-es-auto.tag
+Sending        es/1252-es-auto.tag
+Sending        es/1253-es-auto.tag
+Sending        es/1255-es-auto.tag
+Sending        es/1259-es-auto.tag
+Sending        es/1265-es-auto.tag
+Sending        es/1270-es-auto.tag
+Sending        es/1276-es-auto.tag
+Sending        es/1277-es-auto.tag
+Sending        es/1284-es-auto.tag
+Sending        es/1289-es-auto.tag
+Sending        es/1292-es-auto.tag
+Sending        es/1300-es-auto.tag
+Sending        es/1302-es-auto.tag
+Sending        es/1306-es-auto.tag
+Sending        es/1307-es-auto.tag
+Sending        es/1319-es-auto.tag
+Sending        es/1321-es-auto.tag
+Sending        es/1325-es-auto.tag
+Sending        es/1327-es-auto.tag
+Sending        es/1328-es-auto.tag
+Sending        es/1332-es-auto.tag
+Sending        es/1333-es-auto.tag
+Sending        es/1336-es-auto.tag
+Sending        es/1337-es-auto.tag
+Sending        es/1338-es-auto.tag
+Sending        es/1339-es-auto.tag
+Sending        es/1340-es-auto.tag
+Sending        es/1347-es-auto.tag
+Sending        es/1350-es-auto.tag
+Sending        es/1361-es-auto.tag
+Sending        es/1364-es-auto.tag
+Sending        es/1365-es-auto.tag
+Sending        es/1368-es-auto.tag
+Sending        es/1371-es-auto.tag
+Sending        es/1372-es-auto.tag
+Sending        es/1373-es-auto.tag
+Sending        es/1375-es-auto.tag
+Sending        es/1377-es-auto.tag
+Sending        es/1378-es-auto.tag
+Sending        es/1379-es-auto.tag
+Sending        es/1381-es-auto.tag
+Sending        es/1383-es-auto.tag
+Sending        es/1385-es-auto.tag
+Sending        es/1390-es-auto.tag
+Sending        es/1394-es-auto.tag
+Sending        es/1398-es-auto.tag
+Sending        es/1399-es-auto.tag
+Sending        es/1400-es-auto.tag
+Sending        es/1401-es-auto.tag
+Sending        es/1405-es-auto.tag
+Sending        es/1406-es-auto.tag
+Sending        es/1407-es-auto.tag
+Sending        es/1408-es-auto.tag
+Sending        es/1410-es-auto.tag
+Sending        es/1414-es-auto.tag
+Sending        es/1416-es-auto.tag
+Sending        es/1420-es-auto.tag
+Sending        es/1426-es-auto.tag
+Sending        es/1428-es-auto.tag
+Sending        es/1429-es-auto.tag
+Sending        es/1433-es-auto.tag
+Sending        es/1435-es-auto.tag
+Sending        es/1439-es-auto.tag
+Sending        es/1449-es-auto.tag
+Sending        es/1453-es-auto.tag
+Sending        es/1457-es-auto.tag
+Sending        es/1465-es-auto.tag
+Sending        es/1467-es-auto.tag
+Sending        es/1471-es-auto.tag
+Sending        es/1472-es-auto.tag
+Sending        es/1478-es-auto.tag
+Sending        es/1485-es-auto.tag
+Sending        es/1488-es-auto.tag
+Sending        es/1490-es-auto.tag
+Sending        es/1491-es-auto.tag
+Sending        es/1493-es-auto.tag
+Sending        es/1494-es-auto.tag
+Sending        es/1495-es-auto.tag
+Sending        es/1497-es-auto.tag
+Sending        es/1498-es-auto.tag
+Sending        es/1506-es-auto.tag
+Sending        es/1508-es-auto.tag
+Sending        es/1514-es-auto.tag
+Sending        es/1519-es-auto.tag
+Sending        es/1522-es-auto.tag
+Sending        es/1523-es-auto.tag
+Sending        es/1524-es-auto.tag
+Sending        es/1527-es-auto.tag
+Sending        es/1536-es-auto.tag
+Sending        es/1545-es-auto.tag
+Sending        es/1546-es-auto.tag
+Sending        es/1547-es-auto.tag
+Transmitting file data .............................................................................................................................................................................................................................................................................................................................................................................................................................
+Committed revision 1319.
+-------------------------------------------

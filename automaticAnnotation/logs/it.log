@@ -5748,3 +5748,864 @@ Sending        it/1547-it-auto.tag
 Transmitting file data .............................................................................................................................................................................................................................................................................................................................................................................................................................
 Committed revision 1299.
 -------------------------------------------
+Thu Sep  9 23:55:01 CEST 2010
+cd ../it
+svn update
+U    0531-it-lisa.tag
+Updated to revision 1317.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 38 it > 38-it.findFiles.out 2> 38-it.findFiles.err
+perl convertToConll.pl 38 it > 38-it.convertToConnl.out 2> 38-it.convertToConnl.err
+perl createSegmenterFileLists.pl 38 it 2> 38-it.createSegmenterFileLists.err > 38-it.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 38-it.toParseFiles.lst.abs 2> 38-it.createtoSegmentFiles.err > 38-it.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 38-it.toParseFiles.lst.abs it 2> 38-it.segmentFiles.err > 38-it.segmentFiles.out
+perl segmentConllFiles.pl 38 it > 38-it.segmentConllFiles.out 2> 38-it.segmentConllFiles.err
+perl cleanupConll.pl 38 it > 38-it.cleanupConll.out 2> 38-it.cleanupConll.err
+perl createParserFiles.pl 38 it > 38-it.createParserFiles.out 2> 38-it.createParserFiles.err
+perl createParserScripts.pl 38 it > 38-it.createParserScripts.out 2> 38-it.createParserScripts.err
+./R38-it.train.sh
+./R38-it.parse.sh
+./R38-it.parse-trainingdata.sh
+perl createStats.pl 38-it.train.conll 38-it.training.out.conll > 38-it.stats
+Use of uninitialized value $c in division (/) at createStats.pl line 57.
+perl prune.pl 38-it.stats 38-it.out.conll 0.8 > 38-it.out.conll.pruned
+Use of uninitialized value $acc in numeric lt (<) at prune.pl line 36, <CONLL> line 69138.
+perl splitParsedFiles.pl 38 it > 38-it.splitParsedFiles.out 2> 38-it.splitParsedFiles.err
+perl mergeAll.pl 38 it > 38-it.mergeAll.out 2> 38-it.mergeAll.err
+perl mergeAllTag.pl 38 it > 38-it.mergeAllTag.out 2> 38-it.mergeAllTag.err
+perl updateAllTag.pl 38 it > 38-it.updateAllTag.out 2> 38-it.updateAllTag.err
+perl copyTagFiles.pl 38 it > 38-it.copyTagFiles.out 2> 38-it.copyTagFiles.err
+cd ../it
+svn update
+At revision 1317.
+svn add *auto*.tag
+svn: warning: '0001-it-auto.tag' is already under version control
+svn: warning: '0005-it-auto.tag' is already under version control
+svn: warning: '0008-it-auto.tag' is already under version control
+svn: warning: '0029-it-auto.tag' is already under version control
+svn: warning: '0042-it-auto.tag' is already under version control
+svn: warning: '0043-it-auto.tag' is already under version control
+svn: warning: '0061-it-auto.tag' is already under version control
+svn: warning: '0065-it-auto.tag' is already under version control
+svn: warning: '0079-it-auto.tag' is already under version control
+svn: warning: '0086-it-auto.tag' is already under version control
+svn: warning: '0090-it-auto.tag' is already under version control
+svn: warning: '0091-it-auto.tag' is already under version control
+svn: warning: '0093-it-auto.tag' is already under version control
+svn: warning: '0096-it-auto.tag' is already under version control
+svn: warning: '0097-it-auto.tag' is already under version control
+svn: warning: '0101-it-auto.tag' is already under version control
+svn: warning: '0102-it-auto.tag' is already under version control
+svn: warning: '0103-it-auto.tag' is already under version control
+svn: warning: '0104-it-auto.tag' is already under version control
+svn: warning: '0107-it-auto.tag' is already under version control
+svn: warning: '0112-it-auto.tag' is already under version control
+svn: warning: '0113-it-auto.tag' is already under version control
+svn: warning: '0114-it-auto.tag' is already under version control
+svn: warning: '0119-it-auto.tag' is already under version control
+svn: warning: '0133-it-auto.tag' is already under version control
+svn: warning: '0134-it-auto.tag' is already under version control
+svn: warning: '0138-it-auto.tag' is already under version control
+svn: warning: '0140-it-auto.tag' is already under version control
+svn: warning: '0141-it-auto.tag' is already under version control
+svn: warning: '0143-it-auto.tag' is already under version control
+svn: warning: '0144-it-auto.tag' is already under version control
+svn: warning: '0148-it-auto.tag' is already under version control
+svn: warning: '0150-it-auto.tag' is already under version control
+svn: warning: '0151-it-auto.tag' is already under version control
+svn: warning: '0152-it-auto.tag' is already under version control
+svn: warning: '0159-it-auto.tag' is already under version control
+svn: warning: '0169-it-auto.tag' is already under version control
+svn: warning: '0174-it-auto.tag' is already under version control
+svn: warning: '0176-it-auto.tag' is already under version control
+svn: warning: '0178-it-auto.tag' is already under version control
+svn: warning: '0182-it-auto.tag' is already under version control
+svn: warning: '0184-it-auto.tag' is already under version control
+svn: warning: '0187-it-auto.tag' is already under version control
+svn: warning: '0188-it-auto.tag' is already under version control
+svn: warning: '0190-it-auto.tag' is already under version control
+svn: warning: '0191-it-auto.tag' is already under version control
+svn: warning: '0197-it-auto.tag' is already under version control
+svn: warning: '0204-it-auto.tag' is already under version control
+svn: warning: '0211-it-auto.tag' is already under version control
+svn: warning: '0212-it-auto.tag' is already under version control
+svn: warning: '0215-it-auto.tag' is already under version control
+svn: warning: '0229-it-auto.tag' is already under version control
+svn: warning: '0235-it-auto.tag' is already under version control
+svn: warning: '0237-it-auto.tag' is already under version control
+svn: warning: '0244-it-auto.tag' is already under version control
+svn: warning: '0245-it-auto.tag' is already under version control
+svn: warning: '0257-it-auto.tag' is already under version control
+svn: warning: '0258-it-auto.tag' is already under version control
+svn: warning: '0259-it-auto.tag' is already under version control
+svn: warning: '0260-it-auto.tag' is already under version control
+svn: warning: '0262-it-auto.tag' is already under version control
+svn: warning: '0264-it-auto.tag' is already under version control
+svn: warning: '0265-it-auto.tag' is already under version control
+svn: warning: '0268-it-auto.tag' is already under version control
+svn: warning: '0269-it-auto.tag' is already under version control
+svn: warning: '0272-it-auto.tag' is already under version control
+svn: warning: '0273-it-auto.tag' is already under version control
+svn: warning: '0278-it-auto.tag' is already under version control
+svn: warning: '0285-it-auto.tag' is already under version control
+svn: warning: '0294-it-auto.tag' is already under version control
+svn: warning: '0298-it-auto.tag' is already under version control
+svn: warning: '0300-it-auto.tag' is already under version control
+svn: warning: '0303-it-auto.tag' is already under version control
+svn: warning: '0306-it-auto.tag' is already under version control
+svn: warning: '0307-it-auto.tag' is already under version control
+svn: warning: '0309-it-auto.tag' is already under version control
+svn: warning: '0312-it-auto.tag' is already under version control
+svn: warning: '0318-it-auto.tag' is already under version control
+svn: warning: '0320-it-auto.tag' is already under version control
+svn: warning: '0326-it-auto.tag' is already under version control
+svn: warning: '0327-it-auto.tag' is already under version control
+svn: warning: '0328-it-auto.tag' is already under version control
+svn: warning: '0333-it-auto.tag' is already under version control
+svn: warning: '0339-it-auto.tag' is already under version control
+svn: warning: '0342-it-auto.tag' is already under version control
+svn: warning: '0345-it-auto.tag' is already under version control
+svn: warning: '0351-it-auto.tag' is already under version control
+svn: warning: '0353-it-auto.tag' is already under version control
+svn: warning: '0354-it-auto.tag' is already under version control
+svn: warning: '0355-it-auto.tag' is already under version control
+svn: warning: '0361-it-auto.tag' is already under version control
+svn: warning: '0366-it-auto.tag' is already under version control
+svn: warning: '0375-it-auto.tag' is already under version control
+svn: warning: '0376-it-auto.tag' is already under version control
+svn: warning: '0378-it-auto.tag' is already under version control
+svn: warning: '0386-it-auto.tag' is already under version control
+svn: warning: '0388-it-auto.tag' is already under version control
+svn: warning: '0391-it-auto.tag' is already under version control
+svn: warning: '0395-it-auto.tag' is already under version control
+svn: warning: '0397-it-auto.tag' is already under version control
+svn: warning: '0401-it-auto.tag' is already under version control
+svn: warning: '0411-it-auto.tag' is already under version control
+svn: warning: '0416-it-auto.tag' is already under version control
+svn: warning: '0421-it-auto.tag' is already under version control
+svn: warning: '0422-it-auto.tag' is already under version control
+svn: warning: '0426-it-auto.tag' is already under version control
+svn: warning: '0428-it-auto.tag' is already under version control
+svn: warning: '0431-it-auto.tag' is already under version control
+svn: warning: '0434-it-auto.tag' is already under version control
+svn: warning: '0438-it-auto.tag' is already under version control
+svn: warning: '0442-it-auto.tag' is already under version control
+svn: warning: '0446-it-auto.tag' is already under version control
+svn: warning: '0448-it-auto.tag' is already under version control
+svn: warning: '0449-it-auto.tag' is already under version control
+svn: warning: '0452-it-auto.tag' is already under version control
+svn: warning: '0465-it-auto.tag' is already under version control
+svn: warning: '0468-it-auto.tag' is already under version control
+svn: warning: '0470-it-auto.tag' is already under version control
+svn: warning: '0472-it-auto.tag' is already under version control
+svn: warning: '0473-it-auto.tag' is already under version control
+svn: warning: '0475-it-auto.tag' is already under version control
+svn: warning: '0479-it-auto.tag' is already under version control
+svn: warning: '0483-it-auto.tag' is already under version control
+svn: warning: '0486-it-auto.tag' is already under version control
+svn: warning: '0488-it-auto.tag' is already under version control
+svn: warning: '0500-it-auto.tag' is already under version control
+svn: warning: '0502-it-auto.tag' is already under version control
+svn: warning: '0507-it-auto.tag' is already under version control
+svn: warning: '0510-it-auto.tag' is already under version control
+svn: warning: '0511-it-auto.tag' is already under version control
+svn: warning: '0519-it-auto.tag' is already under version control
+svn: warning: '0520-it-auto.tag' is already under version control
+svn: warning: '0531-it-auto.tag' is already under version control
+svn: warning: '0538-it-auto.tag' is already under version control
+svn: warning: '0540-it-auto.tag' is already under version control
+svn: warning: '0545-it-auto.tag' is already under version control
+svn: warning: '0546-it-auto.tag' is already under version control
+svn: warning: '0547-it-auto.tag' is already under version control
+svn: warning: '0567-it-auto.tag' is already under version control
+svn: warning: '0573-it-auto.tag' is already under version control
+svn: warning: '0576-it-auto.tag' is already under version control
+svn: warning: '0577-it-auto.tag' is already under version control
+svn: warning: '0581-it-auto.tag' is already under version control
+svn: warning: '0588-it-auto.tag' is already under version control
+svn: warning: '0593-it-auto.tag' is already under version control
+svn: warning: '0596-it-auto.tag' is already under version control
+svn: warning: '0601-it-auto.tag' is already under version control
+svn: warning: '0602-it-auto.tag' is already under version control
+svn: warning: '0607-it-auto.tag' is already under version control
+svn: warning: '0613-it-auto.tag' is already under version control
+svn: warning: '0618-it-auto.tag' is already under version control
+svn: warning: '0620-it-auto.tag' is already under version control
+svn: warning: '0623-it-auto.tag' is already under version control
+svn: warning: '0624-it-auto.tag' is already under version control
+svn: warning: '0626-it-auto.tag' is already under version control
+svn: warning: '0643-it-auto.tag' is already under version control
+svn: warning: '0644-it-auto.tag' is already under version control
+svn: warning: '0645-it-auto.tag' is already under version control
+svn: warning: '0646-it-auto.tag' is already under version control
+svn: warning: '0647-it-auto.tag' is already under version control
+svn: warning: '0652-it-auto.tag' is already under version control
+svn: warning: '0654-it-auto.tag' is already under version control
+svn: warning: '0666-it-auto.tag' is already under version control
+svn: warning: '0667-it-auto.tag' is already under version control
+svn: warning: '0670-it-auto.tag' is already under version control
+svn: warning: '0671-it-auto.tag' is already under version control
+svn: warning: '0675-it-auto.tag' is already under version control
+svn: warning: '0680-it-auto.tag' is already under version control
+svn: warning: '0683-it-auto.tag' is already under version control
+svn: warning: '0685-it-auto.tag' is already under version control
+svn: warning: '0688-it-auto.tag' is already under version control
+svn: warning: '0689-it-auto.tag' is already under version control
+svn: warning: '0690-it-auto.tag' is already under version control
+svn: warning: '0700-it-auto.tag' is already under version control
+svn: warning: '0702-it-auto.tag' is already under version control
+svn: warning: '0705-it-auto.tag' is already under version control
+svn: warning: '0708-it-auto.tag' is already under version control
+svn: warning: '0713-it-auto.tag' is already under version control
+svn: warning: '0720-it-auto.tag' is already under version control
+svn: warning: '0725-it-auto.tag' is already under version control
+svn: warning: '0729-it-auto.tag' is already under version control
+svn: warning: '0735-it-auto.tag' is already under version control
+svn: warning: '0736-it-auto.tag' is already under version control
+svn: warning: '0738-it-auto.tag' is already under version control
+svn: warning: '0741-it-auto.tag' is already under version control
+svn: warning: '0742-it-auto.tag' is already under version control
+svn: warning: '0747-it-auto.tag' is already under version control
+svn: warning: '0754-it-auto.tag' is already under version control
+svn: warning: '0759-it-auto.tag' is already under version control
+svn: warning: '0770-it-auto.tag' is already under version control
+svn: warning: '0780-it-auto.tag' is already under version control
+svn: warning: '0781-it-auto.tag' is already under version control
+svn: warning: '0783-it-auto.tag' is already under version control
+svn: warning: '0790-it-auto.tag' is already under version control
+svn: warning: '0793-it-auto.tag' is already under version control
+svn: warning: '0794-it-auto.tag' is already under version control
+svn: warning: '0795-it-auto.tag' is already under version control
+svn: warning: '0800-it-auto.tag' is already under version control
+svn: warning: '0805-it-auto.tag' is already under version control
+svn: warning: '0809-it-auto.tag' is already under version control
+svn: warning: '0817-it-auto.tag' is already under version control
+svn: warning: '0821-it-auto.tag' is already under version control
+svn: warning: '0822-it-auto.tag' is already under version control
+svn: warning: '0837-it-auto.tag' is already under version control
+svn: warning: '0840-it-auto.tag' is already under version control
+svn: warning: '0843-it-auto.tag' is already under version control
+svn: warning: '0848-it-auto.tag' is already under version control
+svn: warning: '0850-it-auto.tag' is already under version control
+svn: warning: '0851-it-auto.tag' is already under version control
+svn: warning: '0853-it-auto.tag' is already under version control
+svn: warning: '0856-it-auto.tag' is already under version control
+svn: warning: '0863-it-auto.tag' is already under version control
+svn: warning: '0864-it-auto.tag' is already under version control
+svn: warning: '0866-it-auto.tag' is already under version control
+svn: warning: '0870-it-auto.tag' is already under version control
+svn: warning: '0873-it-auto.tag' is already under version control
+svn: warning: '0874-it-auto.tag' is already under version control
+svn: warning: '0876-it-auto.tag' is already under version control
+svn: warning: '0879-it-auto.tag' is already under version control
+svn: warning: '0881-it-auto.tag' is already under version control
+svn: warning: '0883-it-auto.tag' is already under version control
+svn: warning: '0888-it-auto.tag' is already under version control
+svn: warning: '0889-it-auto.tag' is already under version control
+svn: warning: '0893-it-auto.tag' is already under version control
+svn: warning: '0902-it-auto.tag' is already under version control
+svn: warning: '0904-it-auto.tag' is already under version control
+svn: warning: '0905-it-auto.tag' is already under version control
+svn: warning: '0915-it-auto.tag' is already under version control
+svn: warning: '0917-it-auto.tag' is already under version control
+svn: warning: '0919-it-auto.tag' is already under version control
+svn: warning: '0925-it-auto.tag' is already under version control
+svn: warning: '0926-it-auto.tag' is already under version control
+svn: warning: '0927-it-auto.tag' is already under version control
+svn: warning: '0932-it-auto.tag' is already under version control
+svn: warning: '0934-it-auto.tag' is already under version control
+svn: warning: '0935-it-auto.tag' is already under version control
+svn: warning: '0939-it-auto.tag' is already under version control
+svn: warning: '0940-it-auto.tag' is already under version control
+svn: warning: '0947-it-auto.tag' is already under version control
+svn: warning: '0949-it-auto.tag' is already under version control
+svn: warning: '0951-it-auto.tag' is already under version control
+svn: warning: '0955-it-auto.tag' is already under version control
+svn: warning: '0956-it-auto.tag' is already under version control
+svn: warning: '0958-it-auto.tag' is already under version control
+svn: warning: '0960-it-auto.tag' is already under version control
+svn: warning: '0968-it-auto.tag' is already under version control
+svn: warning: '0970-it-auto.tag' is already under version control
+svn: warning: '0975-it-auto.tag' is already under version control
+svn: warning: '0978-it-auto.tag' is already under version control
+svn: warning: '0986-it-auto.tag' is already under version control
+svn: warning: '0988-it-auto.tag' is already under version control
+svn: warning: '0989-it-auto.tag' is already under version control
+svn: warning: '0992-it-auto.tag' is already under version control
+svn: warning: '0998-it-auto.tag' is already under version control
+svn: warning: '1001-it-auto.tag' is already under version control
+svn: warning: '1007-it-auto.tag' is already under version control
+svn: warning: '1008-it-auto.tag' is already under version control
+svn: warning: '1010-it-auto.tag' is already under version control
+svn: warning: '1011-it-auto.tag' is already under version control
+svn: warning: '1014-it-auto.tag' is already under version control
+svn: warning: '1017-it-auto.tag' is already under version control
+svn: warning: '1019-it-auto.tag' is already under version control
+svn: warning: '1021-it-auto.tag' is already under version control
+svn: warning: '1030-it-auto.tag' is already under version control
+svn: warning: '1031-it-auto.tag' is already under version control
+svn: warning: '1032-it-auto.tag' is already under version control
+svn: warning: '1035-it-auto.tag' is already under version control
+svn: warning: '1038-it-auto.tag' is already under version control
+svn: warning: '1039-it-auto.tag' is already under version control
+svn: warning: '1041-it-auto.tag' is already under version control
+svn: warning: '1042-it-auto.tag' is already under version control
+svn: warning: '1043-it-auto.tag' is already under version control
+svn: warning: '1046-it-auto.tag' is already under version control
+svn: warning: '1047-it-auto.tag' is already under version control
+svn: warning: '1048-it-auto.tag' is already under version control
+svn: warning: '1053-it-auto.tag' is already under version control
+svn: warning: '1054-it-auto.tag' is already under version control
+svn: warning: '1055-it-auto.tag' is already under version control
+svn: warning: '1056-it-auto.tag' is already under version control
+svn: warning: '1057-it-auto.tag' is already under version control
+svn: warning: '1058-it-auto.tag' is already under version control
+svn: warning: '1061-it-auto.tag' is already under version control
+svn: warning: '1062-it-auto.tag' is already under version control
+svn: warning: '1063-it-auto.tag' is already under version control
+svn: warning: '1067-it-auto.tag' is already under version control
+svn: warning: '1075-it-auto.tag' is already under version control
+svn: warning: '1077-it-auto.tag' is already under version control
+svn: warning: '1088-it-auto.tag' is already under version control
+svn: warning: '1090-it-auto.tag' is already under version control
+svn: warning: '1095-it-auto.tag' is already under version control
+svn: warning: '1104-it-auto.tag' is already under version control
+svn: warning: '1117-it-auto.tag' is already under version control
+svn: warning: '1125-it-auto.tag' is already under version control
+svn: warning: '1127-it-auto.tag' is already under version control
+svn: warning: '1129-it-auto.tag' is already under version control
+svn: warning: '1130-it-auto.tag' is already under version control
+svn: warning: '1138-it-auto.tag' is already under version control
+svn: warning: '1144-it-auto.tag' is already under version control
+svn: warning: '1150-it-auto.tag' is already under version control
+svn: warning: '1154-it-auto.tag' is already under version control
+svn: warning: '1162-it-auto.tag' is already under version control
+svn: warning: '1166-it-auto.tag' is already under version control
+svn: warning: '1168-it-auto.tag' is already under version control
+svn: warning: '1169-it-auto.tag' is already under version control
+svn: warning: '1173-it-auto.tag' is already under version control
+svn: warning: '1174-it-auto.tag' is already under version control
+svn: warning: '1175-it-auto.tag' is already under version control
+svn: warning: '1181-it-auto.tag' is already under version control
+svn: warning: '1182-it-auto.tag' is already under version control
+svn: warning: '1183-it-auto.tag' is already under version control
+svn: warning: '1190-it-auto.tag' is already under version control
+svn: warning: '1206-it-auto.tag' is already under version control
+svn: warning: '1214-it-auto.tag' is already under version control
+svn: warning: '1217-it-auto.tag' is already under version control
+svn: warning: '1224-it-auto.tag' is already under version control
+svn: warning: '1227-it-auto.tag' is already under version control
+svn: warning: '1228-it-auto.tag' is already under version control
+svn: warning: '1229-it-auto.tag' is already under version control
+svn: warning: '1241-it-auto.tag' is already under version control
+svn: warning: '1250-it-auto.tag' is already under version control
+svn: warning: '1251-it-auto.tag' is already under version control
+svn: warning: '1252-it-auto.tag' is already under version control
+svn: warning: '1253-it-auto.tag' is already under version control
+svn: warning: '1255-it-auto.tag' is already under version control
+svn: warning: '1259-it-auto.tag' is already under version control
+svn: warning: '1265-it-auto.tag' is already under version control
+svn: warning: '1270-it-auto.tag' is already under version control
+svn: warning: '1276-it-auto.tag' is already under version control
+svn: warning: '1277-it-auto.tag' is already under version control
+svn: warning: '1284-it-auto.tag' is already under version control
+svn: warning: '1289-it-auto.tag' is already under version control
+svn: warning: '1292-it-auto.tag' is already under version control
+svn: warning: '1300-it-auto.tag' is already under version control
+svn: warning: '1302-it-auto.tag' is already under version control
+svn: warning: '1306-it-auto.tag' is already under version control
+svn: warning: '1307-it-auto.tag' is already under version control
+svn: warning: '1319-it-auto.tag' is already under version control
+svn: warning: '1321-it-auto.tag' is already under version control
+svn: warning: '1325-it-auto.tag' is already under version control
+svn: warning: '1327-it-auto.tag' is already under version control
+svn: warning: '1328-it-auto.tag' is already under version control
+svn: warning: '1332-it-auto.tag' is already under version control
+svn: warning: '1333-it-auto.tag' is already under version control
+svn: warning: '1336-it-auto.tag' is already under version control
+svn: warning: '1337-it-auto.tag' is already under version control
+svn: warning: '1338-it-auto.tag' is already under version control
+svn: warning: '1339-it-auto.tag' is already under version control
+svn: warning: '1340-it-auto.tag' is already under version control
+svn: warning: '1347-it-auto.tag' is already under version control
+svn: warning: '1350-it-auto.tag' is already under version control
+svn: warning: '1361-it-auto.tag' is already under version control
+svn: warning: '1364-it-auto.tag' is already under version control
+svn: warning: '1365-it-auto.tag' is already under version control
+svn: warning: '1368-it-auto.tag' is already under version control
+svn: warning: '1371-it-auto.tag' is already under version control
+svn: warning: '1372-it-auto.tag' is already under version control
+svn: warning: '1373-it-auto.tag' is already under version control
+svn: warning: '1375-it-auto.tag' is already under version control
+svn: warning: '1377-it-auto.tag' is already under version control
+svn: warning: '1378-it-auto.tag' is already under version control
+svn: warning: '1379-it-auto.tag' is already under version control
+svn: warning: '1381-it-auto.tag' is already under version control
+svn: warning: '1383-it-auto.tag' is already under version control
+svn: warning: '1385-it-auto.tag' is already under version control
+svn: warning: '1390-it-auto.tag' is already under version control
+svn: warning: '1394-it-auto.tag' is already under version control
+svn: warning: '1398-it-auto.tag' is already under version control
+svn: warning: '1399-it-auto.tag' is already under version control
+svn: warning: '1400-it-auto.tag' is already under version control
+svn: warning: '1401-it-auto.tag' is already under version control
+svn: warning: '1405-it-auto.tag' is already under version control
+svn: warning: '1406-it-auto.tag' is already under version control
+svn: warning: '1407-it-auto.tag' is already under version control
+svn: warning: '1408-it-auto.tag' is already under version control
+svn: warning: '1410-it-auto.tag' is already under version control
+svn: warning: '1414-it-auto.tag' is already under version control
+svn: warning: '1416-it-auto.tag' is already under version control
+svn: warning: '1420-it-auto.tag' is already under version control
+svn: warning: '1426-it-auto.tag' is already under version control
+svn: warning: '1428-it-auto.tag' is already under version control
+svn: warning: '1429-it-auto.tag' is already under version control
+svn: warning: '1433-it-auto.tag' is already under version control
+svn: warning: '1435-it-auto.tag' is already under version control
+svn: warning: '1439-it-auto.tag' is already under version control
+svn: warning: '1449-it-auto.tag' is already under version control
+svn: warning: '1453-it-auto.tag' is already under version control
+svn: warning: '1457-it-auto.tag' is already under version control
+svn: warning: '1465-it-auto.tag' is already under version control
+svn: warning: '1467-it-auto.tag' is already under version control
+svn: warning: '1471-it-auto.tag' is already under version control
+svn: warning: '1472-it-auto.tag' is already under version control
+svn: warning: '1478-it-auto.tag' is already under version control
+svn: warning: '1485-it-auto.tag' is already under version control
+svn: warning: '1488-it-auto.tag' is already under version control
+svn: warning: '1490-it-auto.tag' is already under version control
+svn: warning: '1491-it-auto.tag' is already under version control
+svn: warning: '1493-it-auto.tag' is already under version control
+svn: warning: '1494-it-auto.tag' is already under version control
+svn: warning: '1495-it-auto.tag' is already under version control
+svn: warning: '1497-it-auto.tag' is already under version control
+svn: warning: '1498-it-auto.tag' is already under version control
+svn: warning: '1506-it-auto.tag' is already under version control
+svn: warning: '1508-it-auto.tag' is already under version control
+svn: warning: '1514-it-auto.tag' is already under version control
+svn: warning: '1519-it-auto.tag' is already under version control
+svn: warning: '1522-it-auto.tag' is already under version control
+svn: warning: '1523-it-auto.tag' is already under version control
+svn: warning: '1524-it-auto.tag' is already under version control
+svn: warning: '1527-it-auto.tag' is already under version control
+svn: warning: '1536-it-auto.tag' is already under version control
+svn: warning: '1545-it-auto.tag' is already under version control
+svn: warning: '1546-it-auto.tag' is already under version control
+svn: warning: '1547-it-auto.tag' is already under version control
+svn commit -m 'Automatic annotations, 38-it'
+Sending        it/0001-it-auto.tag
+Sending        it/0005-it-auto.tag
+Sending        it/0008-it-auto.tag
+Sending        it/0029-it-auto.tag
+Sending        it/0042-it-auto.tag
+Sending        it/0043-it-auto.tag
+Sending        it/0061-it-auto.tag
+Sending        it/0065-it-auto.tag
+Sending        it/0079-it-auto.tag
+Sending        it/0086-it-auto.tag
+Sending        it/0090-it-auto.tag
+Sending        it/0091-it-auto.tag
+Sending        it/0093-it-auto.tag
+Sending        it/0096-it-auto.tag
+Sending        it/0097-it-auto.tag
+Sending        it/0101-it-auto.tag
+Sending        it/0102-it-auto.tag
+Sending        it/0103-it-auto.tag
+Sending        it/0104-it-auto.tag
+Sending        it/0107-it-auto.tag
+Sending        it/0112-it-auto.tag
+Sending        it/0113-it-auto.tag
+Sending        it/0114-it-auto.tag
+Sending        it/0119-it-auto.tag
+Sending        it/0133-it-auto.tag
+Sending        it/0134-it-auto.tag
+Sending        it/0138-it-auto.tag
+Sending        it/0140-it-auto.tag
+Sending        it/0141-it-auto.tag
+Sending        it/0143-it-auto.tag
+Sending        it/0144-it-auto.tag
+Sending        it/0148-it-auto.tag
+Sending        it/0150-it-auto.tag
+Sending        it/0151-it-auto.tag
+Sending        it/0152-it-auto.tag
+Sending        it/0159-it-auto.tag
+Sending        it/0169-it-auto.tag
+Sending        it/0174-it-auto.tag
+Sending        it/0176-it-auto.tag
+Sending        it/0178-it-auto.tag
+Sending        it/0182-it-auto.tag
+Sending        it/0184-it-auto.tag
+Sending        it/0187-it-auto.tag
+Sending        it/0188-it-auto.tag
+Sending        it/0190-it-auto.tag
+Sending        it/0191-it-auto.tag
+Sending        it/0197-it-auto.tag
+Sending        it/0204-it-auto.tag
+Sending        it/0211-it-auto.tag
+Sending        it/0212-it-auto.tag
+Sending        it/0215-it-auto.tag
+Sending        it/0229-it-auto.tag
+Sending        it/0235-it-auto.tag
+Sending        it/0237-it-auto.tag
+Sending        it/0244-it-auto.tag
+Sending        it/0245-it-auto.tag
+Sending        it/0257-it-auto.tag
+Sending        it/0258-it-auto.tag
+Sending        it/0259-it-auto.tag
+Sending        it/0260-it-auto.tag
+Sending        it/0262-it-auto.tag
+Sending        it/0264-it-auto.tag
+Sending        it/0265-it-auto.tag
+Sending        it/0268-it-auto.tag
+Sending        it/0269-it-auto.tag
+Sending        it/0272-it-auto.tag
+Sending        it/0273-it-auto.tag
+Sending        it/0278-it-auto.tag
+Sending        it/0285-it-auto.tag
+Sending        it/0294-it-auto.tag
+Sending        it/0298-it-auto.tag
+Sending        it/0300-it-auto.tag
+Sending        it/0303-it-auto.tag
+Sending        it/0306-it-auto.tag
+Sending        it/0307-it-auto.tag
+Sending        it/0309-it-auto.tag
+Sending        it/0312-it-auto.tag
+Sending        it/0318-it-auto.tag
+Sending        it/0320-it-auto.tag
+Sending        it/0326-it-auto.tag
+Sending        it/0327-it-auto.tag
+Sending        it/0328-it-auto.tag
+Sending        it/0333-it-auto.tag
+Sending        it/0339-it-auto.tag
+Sending        it/0342-it-auto.tag
+Sending        it/0345-it-auto.tag
+Sending        it/0351-it-auto.tag
+Sending        it/0353-it-auto.tag
+Sending        it/0354-it-auto.tag
+Sending        it/0355-it-auto.tag
+Sending        it/0361-it-auto.tag
+Sending        it/0366-it-auto.tag
+Sending        it/0375-it-auto.tag
+Sending        it/0376-it-auto.tag
+Sending        it/0378-it-auto.tag
+Sending        it/0386-it-auto.tag
+Sending        it/0388-it-auto.tag
+Sending        it/0391-it-auto.tag
+Sending        it/0395-it-auto.tag
+Sending        it/0397-it-auto.tag
+Sending        it/0401-it-auto.tag
+Sending        it/0411-it-auto.tag
+Sending        it/0416-it-auto.tag
+Sending        it/0421-it-auto.tag
+Sending        it/0422-it-auto.tag
+Sending        it/0426-it-auto.tag
+Sending        it/0428-it-auto.tag
+Sending        it/0431-it-auto.tag
+Sending        it/0434-it-auto.tag
+Sending        it/0438-it-auto.tag
+Sending        it/0442-it-auto.tag
+Sending        it/0446-it-auto.tag
+Sending        it/0448-it-auto.tag
+Sending        it/0449-it-auto.tag
+Sending        it/0452-it-auto.tag
+Sending        it/0465-it-auto.tag
+Sending        it/0468-it-auto.tag
+Sending        it/0470-it-auto.tag
+Sending        it/0472-it-auto.tag
+Sending        it/0473-it-auto.tag
+Sending        it/0475-it-auto.tag
+Sending        it/0479-it-auto.tag
+Sending        it/0483-it-auto.tag
+Sending        it/0486-it-auto.tag
+Sending        it/0488-it-auto.tag
+Sending        it/0500-it-auto.tag
+Sending        it/0502-it-auto.tag
+Sending        it/0507-it-auto.tag
+Sending        it/0510-it-auto.tag
+Sending        it/0511-it-auto.tag
+Sending        it/0519-it-auto.tag
+Sending        it/0520-it-auto.tag
+Sending        it/0531-it-auto.tag
+Sending        it/0538-it-auto.tag
+Sending        it/0540-it-auto.tag
+Sending        it/0545-it-auto.tag
+Sending        it/0546-it-auto.tag
+Sending        it/0547-it-auto.tag
+Sending        it/0567-it-auto.tag
+Sending        it/0573-it-auto.tag
+Sending        it/0576-it-auto.tag
+Sending        it/0577-it-auto.tag
+Sending        it/0581-it-auto.tag
+Sending        it/0588-it-auto.tag
+Sending        it/0593-it-auto.tag
+Sending        it/0596-it-auto.tag
+Sending        it/0601-it-auto.tag
+Sending        it/0602-it-auto.tag
+Sending        it/0607-it-auto.tag
+Sending        it/0613-it-auto.tag
+Sending        it/0618-it-auto.tag
+Sending        it/0620-it-auto.tag
+Sending        it/0623-it-auto.tag
+Sending        it/0624-it-auto.tag
+Sending        it/0626-it-auto.tag
+Sending        it/0643-it-auto.tag
+Sending        it/0644-it-auto.tag
+Sending        it/0645-it-auto.tag
+Sending        it/0646-it-auto.tag
+Sending        it/0647-it-auto.tag
+Sending        it/0652-it-auto.tag
+Sending        it/0654-it-auto.tag
+Sending        it/0666-it-auto.tag
+Sending        it/0667-it-auto.tag
+Sending        it/0670-it-auto.tag
+Sending        it/0671-it-auto.tag
+Sending        it/0675-it-auto.tag
+Sending        it/0680-it-auto.tag
+Sending        it/0683-it-auto.tag
+Sending        it/0685-it-auto.tag
+Sending        it/0688-it-auto.tag
+Sending        it/0689-it-auto.tag
+Sending        it/0690-it-auto.tag
+Sending        it/0700-it-auto.tag
+Sending        it/0702-it-auto.tag
+Sending        it/0705-it-auto.tag
+Sending        it/0708-it-auto.tag
+Sending        it/0713-it-auto.tag
+Sending        it/0720-it-auto.tag
+Sending        it/0725-it-auto.tag
+Sending        it/0729-it-auto.tag
+Sending        it/0735-it-auto.tag
+Sending        it/0736-it-auto.tag
+Sending        it/0738-it-auto.tag
+Sending        it/0741-it-auto.tag
+Sending        it/0742-it-auto.tag
+Sending        it/0747-it-auto.tag
+Sending        it/0754-it-auto.tag
+Sending        it/0759-it-auto.tag
+Sending        it/0770-it-auto.tag
+Sending        it/0780-it-auto.tag
+Sending        it/0781-it-auto.tag
+Sending        it/0783-it-auto.tag
+Sending        it/0790-it-auto.tag
+Sending        it/0793-it-auto.tag
+Sending        it/0794-it-auto.tag
+Sending        it/0795-it-auto.tag
+Sending        it/0800-it-auto.tag
+Sending        it/0805-it-auto.tag
+Sending        it/0809-it-auto.tag
+Sending        it/0817-it-auto.tag
+Sending        it/0821-it-auto.tag
+Sending        it/0822-it-auto.tag
+Sending        it/0837-it-auto.tag
+Sending        it/0840-it-auto.tag
+Sending        it/0843-it-auto.tag
+Sending        it/0848-it-auto.tag
+Sending        it/0850-it-auto.tag
+Sending        it/0851-it-auto.tag
+Sending        it/0853-it-auto.tag
+Sending        it/0856-it-auto.tag
+Sending        it/0863-it-auto.tag
+Sending        it/0864-it-auto.tag
+Sending        it/0866-it-auto.tag
+Sending        it/0870-it-auto.tag
+Sending        it/0873-it-auto.tag
+Sending        it/0874-it-auto.tag
+Sending        it/0876-it-auto.tag
+Sending        it/0879-it-auto.tag
+Sending        it/0881-it-auto.tag
+Sending        it/0883-it-auto.tag
+Sending        it/0888-it-auto.tag
+Sending        it/0889-it-auto.tag
+Sending        it/0893-it-auto.tag
+Sending        it/0902-it-auto.tag
+Sending        it/0904-it-auto.tag
+Sending        it/0905-it-auto.tag
+Sending        it/0915-it-auto.tag
+Sending        it/0917-it-auto.tag
+Sending        it/0919-it-auto.tag
+Sending        it/0925-it-auto.tag
+Sending        it/0926-it-auto.tag
+Sending        it/0927-it-auto.tag
+Sending        it/0932-it-auto.tag
+Sending        it/0934-it-auto.tag
+Sending        it/0935-it-auto.tag
+Sending        it/0939-it-auto.tag
+Sending        it/0940-it-auto.tag
+Sending        it/0947-it-auto.tag
+Sending        it/0949-it-auto.tag
+Sending        it/0951-it-auto.tag
+Sending        it/0955-it-auto.tag
+Sending        it/0956-it-auto.tag
+Sending        it/0958-it-auto.tag
+Sending        it/0960-it-auto.tag
+Sending        it/0968-it-auto.tag
+Sending        it/0970-it-auto.tag
+Sending        it/0975-it-auto.tag
+Sending        it/0978-it-auto.tag
+Sending        it/0986-it-auto.tag
+Sending        it/0988-it-auto.tag
+Sending        it/0989-it-auto.tag
+Sending        it/0992-it-auto.tag
+Sending        it/0998-it-auto.tag
+Sending        it/1001-it-auto.tag
+Sending        it/1007-it-auto.tag
+Sending        it/1008-it-auto.tag
+Sending        it/1010-it-auto.tag
+Sending        it/1011-it-auto.tag
+Sending        it/1014-it-auto.tag
+Sending        it/1017-it-auto.tag
+Sending        it/1019-it-auto.tag
+Sending        it/1021-it-auto.tag
+Sending        it/1030-it-auto.tag
+Sending        it/1031-it-auto.tag
+Sending        it/1032-it-auto.tag
+Sending        it/1035-it-auto.tag
+Sending        it/1038-it-auto.tag
+Sending        it/1039-it-auto.tag
+Sending        it/1041-it-auto.tag
+Sending        it/1042-it-auto.tag
+Sending        it/1043-it-auto.tag
+Sending        it/1046-it-auto.tag
+Sending        it/1047-it-auto.tag
+Sending        it/1048-it-auto.tag
+Sending        it/1053-it-auto.tag
+Sending        it/1054-it-auto.tag
+Sending        it/1055-it-auto.tag
+Sending        it/1056-it-auto.tag
+Sending        it/1057-it-auto.tag
+Sending        it/1058-it-auto.tag
+Sending        it/1061-it-auto.tag
+Sending        it/1062-it-auto.tag
+Sending        it/1063-it-auto.tag
+Sending        it/1067-it-auto.tag
+Sending        it/1075-it-auto.tag
+Sending        it/1077-it-auto.tag
+Sending        it/1088-it-auto.tag
+Sending        it/1090-it-auto.tag
+Sending        it/1095-it-auto.tag
+Sending        it/1104-it-auto.tag
+Sending        it/1117-it-auto.tag
+Sending        it/1125-it-auto.tag
+Sending        it/1127-it-auto.tag
+Sending        it/1129-it-auto.tag
+Sending        it/1130-it-auto.tag
+Sending        it/1138-it-auto.tag
+Sending        it/1144-it-auto.tag
+Sending        it/1150-it-auto.tag
+Sending        it/1154-it-auto.tag
+Sending        it/1162-it-auto.tag
+Sending        it/1166-it-auto.tag
+Sending        it/1168-it-auto.tag
+Sending        it/1169-it-auto.tag
+Sending        it/1173-it-auto.tag
+Sending        it/1174-it-auto.tag
+Sending        it/1175-it-auto.tag
+Sending        it/1181-it-auto.tag
+Sending        it/1182-it-auto.tag
+Sending        it/1183-it-auto.tag
+Sending        it/1190-it-auto.tag
+Sending        it/1206-it-auto.tag
+Sending        it/1214-it-auto.tag
+Sending        it/1217-it-auto.tag
+Sending        it/1224-it-auto.tag
+Sending        it/1227-it-auto.tag
+Sending        it/1228-it-auto.tag
+Sending        it/1229-it-auto.tag
+Sending        it/1241-it-auto.tag
+Sending        it/1250-it-auto.tag
+Sending        it/1251-it-auto.tag
+Sending        it/1252-it-auto.tag
+Sending        it/1253-it-auto.tag
+Sending        it/1255-it-auto.tag
+Sending        it/1259-it-auto.tag
+Sending        it/1265-it-auto.tag
+Sending        it/1270-it-auto.tag
+Sending        it/1276-it-auto.tag
+Sending        it/1277-it-auto.tag
+Sending        it/1284-it-auto.tag
+Sending        it/1289-it-auto.tag
+Sending        it/1292-it-auto.tag
+Sending        it/1300-it-auto.tag
+Sending        it/1302-it-auto.tag
+Sending        it/1306-it-auto.tag
+Sending        it/1307-it-auto.tag
+Sending        it/1319-it-auto.tag
+Sending        it/1321-it-auto.tag
+Sending        it/1325-it-auto.tag
+Sending        it/1327-it-auto.tag
+Sending        it/1328-it-auto.tag
+Sending        it/1332-it-auto.tag
+Sending        it/1333-it-auto.tag
+Sending        it/1336-it-auto.tag
+Sending        it/1337-it-auto.tag
+Sending        it/1338-it-auto.tag
+Sending        it/1339-it-auto.tag
+Sending        it/1340-it-auto.tag
+Sending        it/1347-it-auto.tag
+Sending        it/1350-it-auto.tag
+Sending        it/1361-it-auto.tag
+Sending        it/1364-it-auto.tag
+Sending        it/1365-it-auto.tag
+Sending        it/1368-it-auto.tag
+Sending        it/1371-it-auto.tag
+Sending        it/1372-it-auto.tag
+Sending        it/1373-it-auto.tag
+Sending        it/1375-it-auto.tag
+Sending        it/1377-it-auto.tag
+Sending        it/1378-it-auto.tag
+Sending        it/1379-it-auto.tag
+Sending        it/1381-it-auto.tag
+Sending        it/1383-it-auto.tag
+Sending        it/1385-it-auto.tag
+Sending        it/1390-it-auto.tag
+Sending        it/1394-it-auto.tag
+Sending        it/1398-it-auto.tag
+Sending        it/1399-it-auto.tag
+Sending        it/1400-it-auto.tag
+Sending        it/1401-it-auto.tag
+Sending        it/1405-it-auto.tag
+Sending        it/1406-it-auto.tag
+Sending        it/1407-it-auto.tag
+Sending        it/1408-it-auto.tag
+Sending        it/1410-it-auto.tag
+Sending        it/1414-it-auto.tag
+Sending        it/1416-it-auto.tag
+Sending        it/1420-it-auto.tag
+Sending        it/1426-it-auto.tag
+Sending        it/1428-it-auto.tag
+Sending        it/1429-it-auto.tag
+Sending        it/1433-it-auto.tag
+Sending        it/1435-it-auto.tag
+Sending        it/1439-it-auto.tag
+Sending        it/1449-it-auto.tag
+Sending        it/1453-it-auto.tag
+Sending        it/1457-it-auto.tag
+Sending        it/1465-it-auto.tag
+Sending        it/1467-it-auto.tag
+Sending        it/1471-it-auto.tag
+Sending        it/1472-it-auto.tag
+Sending        it/1478-it-auto.tag
+Sending        it/1485-it-auto.tag
+Sending        it/1488-it-auto.tag
+Sending        it/1490-it-auto.tag
+Sending        it/1491-it-auto.tag
+Sending        it/1493-it-auto.tag
+Sending        it/1494-it-auto.tag
+Sending        it/1495-it-auto.tag
+Sending        it/1497-it-auto.tag
+Sending        it/1498-it-auto.tag
+Sending        it/1506-it-auto.tag
+Sending        it/1508-it-auto.tag
+Sending        it/1514-it-auto.tag
+Sending        it/1519-it-auto.tag
+Sending        it/1522-it-auto.tag
+Sending        it/1523-it-auto.tag
+Sending        it/1524-it-auto.tag
+Sending        it/1527-it-auto.tag
+Sending        it/1536-it-auto.tag
+Sending        it/1545-it-auto.tag
+Sending        it/1546-it-auto.tag
+Sending        it/1547-it-auto.tag
+Transmitting file data .............................................................................................................................................................................................................................................................................................................................................................................................................................
+Committed revision 1318.
+-------------------------------------------

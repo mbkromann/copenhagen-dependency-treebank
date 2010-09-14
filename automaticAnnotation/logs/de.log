@@ -4,3 +4,1308 @@ Thu Sep  2 20:14:32 CEST 2010
 
 
 
+Mon Sep  6 23:55:01 CEST 2010
+cd ../de
+svn update
+At revision 1303.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 37 de > 37-de.findFiles.out 2> 37-de.findFiles.err
+perl convertToConll.pl 37 de > 37-de.convertToConnl.out 2> 37-de.convertToConnl.err
+perl createSegmenterFileLists.pl 37 de 2> 37-de.createSegmenterFileLists.err > 37-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 37-de.toParseFiles.lst.abs 2> 37-de.createtoSegmentFiles.err > 37-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 37-de.toParseFiles.lst.abs it 2> 37-de.segmentFiles.err > 37-de.segmentFiles.out
+perl segmentConllFiles.pl 37 de > 37-de.segmentConllFiles.out 2> 37-de.segmentConllFiles.err
+perl cleanupConll.pl 37 de > 37-de.cleanupConll.out 2> 37-de.cleanupConll.err
+perl createParserFiles.pl 37 de > 37-de.createParserFiles.out 2> 37-de.createParserFiles.err
+perl createParserScripts.pl 37 de > 37-de.createParserScripts.out 2> 37-de.createParserScripts.err
+./R37-de.train.sh
+./R37-de.parse.sh
+./R37-de.parse-trainingdata.sh
+perl createStats.pl 37-de.train.conll 37-de.training.out.conll > 37-de.stats
+Use of uninitialized value $c in division (/) at createStats.pl line 57.
+perl prune.pl 37-de.stats 37-de.out.conll 0.8 > 37-de.out.conll.pruned
+Use of uninitialized value $acc in numeric lt (<) at prune.pl line 36, <CONLL> line 51770.
+perl splitParsedFiles.pl 37 de > 37-de.splitParsedFiles.out 2> 37-de.splitParsedFiles.err
+perl mergeAll.pl 37 de > 37-de.mergeAll.out 2> 37-de.mergeAll.err
+perl mergeAllTag.pl 37 de > 37-de.mergeAllTag.out 2> 37-de.mergeAllTag.err
+perl updateAllTag.pl 37 de > 37-de.updateAllTag.out 2> 37-de.updateAllTag.err
+perl copyTagFiles.pl 37 de > 37-de.copyTagFiles.out 2> 37-de.copyTagFiles.err
+cd ../de
+svn update
+At revision 1303.
+svn add *auto*.tag
+svn: warning: '0001-de-auto.tag' is already under version control
+svn: warning: '0005-de-auto.tag' is already under version control
+svn: warning: '0008-de-auto.tag' is already under version control
+svn: warning: '0029-de-auto.tag' is already under version control
+svn: warning: '0042-de-auto.tag' is already under version control
+svn: warning: '0043-de-auto.tag' is already under version control
+svn: warning: '0061-de-auto.tag' is already under version control
+svn: warning: '0065-de-auto.tag' is already under version control
+svn: warning: '0079-de-auto.tag' is already under version control
+svn: warning: '0086-de-auto.tag' is already under version control
+svn: warning: '0090-de-auto.tag' is already under version control
+svn: warning: '0091-de-auto.tag' is already under version control
+svn: warning: '0093-de-auto.tag' is already under version control
+svn: warning: '0096-de-auto.tag' is already under version control
+svn: warning: '0097-de-auto.tag' is already under version control
+svn: warning: '0101-de-auto.tag' is already under version control
+svn: warning: '0102-de-auto.tag' is already under version control
+svn: warning: '0103-de-auto.tag' is already under version control
+svn: warning: '0104-de-auto.tag' is already under version control
+svn: warning: '0107-de-auto.tag' is already under version control
+svn: warning: '0112-de-auto.tag' is already under version control
+svn: warning: '0113-de-auto.tag' is already under version control
+svn: warning: '0114-de-auto.tag' is already under version control
+svn: warning: '0119-de-auto.tag' is already under version control
+svn: warning: '0133-de-auto.tag' is already under version control
+svn: warning: '0134-de-auto.tag' is already under version control
+svn: warning: '0138-de-auto.tag' is already under version control
+svn: warning: '0140-de-auto.tag' is already under version control
+svn: warning: '0141-de-auto.tag' is already under version control
+svn: warning: '0143-de-auto.tag' is already under version control
+svn: warning: '0144-de-auto.tag' is already under version control
+svn: warning: '0148-de-auto.tag' is already under version control
+svn: warning: '0150-de-auto.tag' is already under version control
+svn: warning: '0151-de-auto.tag' is already under version control
+svn: warning: '0152-de-auto.tag' is already under version control
+svn: warning: '0159-de-auto.tag' is already under version control
+svn: warning: '0169-de-auto.tag' is already under version control
+svn: warning: '0174-de-auto.tag' is already under version control
+svn: warning: '0176-de-auto.tag' is already under version control
+svn: warning: '0178-de-auto.tag' is already under version control
+svn: warning: '0182-de-auto.tag' is already under version control
+svn: warning: '0184-de-auto.tag' is already under version control
+svn: warning: '0187-de-auto.tag' is already under version control
+svn: warning: '0188-de-auto.tag' is already under version control
+svn: warning: '0190-de-auto.tag' is already under version control
+svn: warning: '0191-de-auto.tag' is already under version control
+svn: warning: '0197-de-auto.tag' is already under version control
+svn: warning: '0204-de-auto.tag' is already under version control
+svn: warning: '0211-de-auto.tag' is already under version control
+svn: warning: '0212-de-auto.tag' is already under version control
+svn: warning: '0215-de-auto.tag' is already under version control
+svn: warning: '0229-de-auto.tag' is already under version control
+svn: warning: '0235-de-auto.tag' is already under version control
+svn: warning: '0237-de-auto.tag' is already under version control
+svn: warning: '0244-de-auto.tag' is already under version control
+svn: warning: '0245-de-auto.tag' is already under version control
+svn: warning: '0257-de-auto.tag' is already under version control
+svn: warning: '0258-de-auto.tag' is already under version control
+svn: warning: '0259-de-auto.tag' is already under version control
+svn: warning: '0260-de-auto.tag' is already under version control
+svn: warning: '0262-de-auto.tag' is already under version control
+svn: warning: '0264-de-auto.tag' is already under version control
+svn: warning: '0265-de-auto.tag' is already under version control
+svn: warning: '0268-de-auto.tag' is already under version control
+svn: warning: '0269-de-auto.tag' is already under version control
+svn: warning: '0272-de-auto.tag' is already under version control
+svn: warning: '0273-de-auto.tag' is already under version control
+svn: warning: '0278-de-auto.tag' is already under version control
+svn: warning: '0285-de-auto.tag' is already under version control
+svn: warning: '0294-de-auto.tag' is already under version control
+svn: warning: '0298-de-auto.tag' is already under version control
+svn: warning: '0300-de-auto.tag' is already under version control
+svn: warning: '0303-de-auto.tag' is already under version control
+svn: warning: '0306-de-auto.tag' is already under version control
+svn: warning: '0307-de-auto.tag' is already under version control
+svn: warning: '0309-de-auto.tag' is already under version control
+svn: warning: '0312-de-auto.tag' is already under version control
+svn: warning: '0318-de-auto.tag' is already under version control
+svn: warning: '0320-de-auto.tag' is already under version control
+svn: warning: '0326-de-auto.tag' is already under version control
+svn: warning: '0327-de-auto.tag' is already under version control
+svn: warning: '0328-de-auto.tag' is already under version control
+svn: warning: '0333-de-auto.tag' is already under version control
+svn: warning: '0339-de-auto.tag' is already under version control
+svn: warning: '0342-de-auto.tag' is already under version control
+svn: warning: '0345-de-auto.tag' is already under version control
+svn: warning: '0351-de-auto.tag' is already under version control
+svn: warning: '0353-de-auto.tag' is already under version control
+svn: warning: '0354-de-auto.tag' is already under version control
+svn: warning: '0355-de-auto.tag' is already under version control
+svn: warning: '0361-de-auto.tag' is already under version control
+svn: warning: '0366-de-auto.tag' is already under version control
+svn: warning: '0375-de-auto.tag' is already under version control
+svn: warning: '0376-de-auto.tag' is already under version control
+svn: warning: '0378-de-auto.tag' is already under version control
+svn: warning: '0386-de-auto.tag' is already under version control
+svn: warning: '0388-de-auto.tag' is already under version control
+svn: warning: '0391-de-auto.tag' is already under version control
+svn: warning: '0395-de-auto.tag' is already under version control
+svn: warning: '0397-de-auto.tag' is already under version control
+svn: warning: '0401-de-auto.tag' is already under version control
+svn: warning: '0411-de-auto.tag' is already under version control
+svn: warning: '0416-de-auto.tag' is already under version control
+svn: warning: '0421-de-auto.tag' is already under version control
+svn: warning: '0422-de-auto.tag' is already under version control
+svn: warning: '0426-de-auto.tag' is already under version control
+svn: warning: '0428-de-auto.tag' is already under version control
+svn: warning: '0431-de-auto.tag' is already under version control
+svn: warning: '0434-de-auto.tag' is already under version control
+svn: warning: '0438-de-auto.tag' is already under version control
+svn: warning: '0442-de-auto.tag' is already under version control
+svn: warning: '0446-de-auto.tag' is already under version control
+svn: warning: '0448-de-auto.tag' is already under version control
+svn: warning: '0449-de-auto.tag' is already under version control
+svn: warning: '0452-de-auto.tag' is already under version control
+svn: warning: '0465-de-auto.tag' is already under version control
+svn: warning: '0468-de-auto.tag' is already under version control
+svn: warning: '0470-de-auto.tag' is already under version control
+svn: warning: '0472-de-auto.tag' is already under version control
+svn: warning: '0473-de-auto.tag' is already under version control
+svn: warning: '0475-de-auto.tag' is already under version control
+svn: warning: '0479-de-auto.tag' is already under version control
+svn: warning: '0483-de-auto.tag' is already under version control
+svn: warning: '0486-de-auto.tag' is already under version control
+svn: warning: '0488-de-auto.tag' is already under version control
+svn: warning: '0500-de-auto.tag' is already under version control
+svn: warning: '0502-de-auto.tag' is already under version control
+svn: warning: '0507-de-auto.tag' is already under version control
+svn: warning: '0510-de-auto.tag' is already under version control
+svn: warning: '0511-de-auto.tag' is already under version control
+svn: warning: '0519-de-auto.tag' is already under version control
+svn: warning: '0520-de-auto.tag' is already under version control
+svn: warning: '0531-de-auto.tag' is already under version control
+svn: warning: '0538-de-auto.tag' is already under version control
+svn: warning: '0540-de-auto.tag' is already under version control
+svn: warning: '0545-de-auto.tag' is already under version control
+svn: warning: '0546-de-auto.tag' is already under version control
+svn: warning: '0547-de-auto.tag' is already under version control
+svn: warning: '0567-de-auto.tag' is already under version control
+svn: warning: '0573-de-auto.tag' is already under version control
+svn: warning: '0576-de-auto.tag' is already under version control
+svn: warning: '0577-de-auto.tag' is already under version control
+svn: warning: '0581-de-auto.tag' is already under version control
+svn: warning: '0588-de-auto.tag' is already under version control
+svn: warning: '0593-de-auto.tag' is already under version control
+svn: warning: '0596-de-auto.tag' is already under version control
+svn: warning: '0601-de-auto.tag' is already under version control
+svn: warning: '0602-de-auto.tag' is already under version control
+svn: warning: '0607-de-auto.tag' is already under version control
+svn: warning: '0613-de-auto.tag' is already under version control
+svn: warning: '0618-de-auto.tag' is already under version control
+svn: warning: '0620-de-auto.tag' is already under version control
+svn: warning: '0623-de-auto.tag' is already under version control
+svn: warning: '0624-de-auto.tag' is already under version control
+svn: warning: '0626-de-auto.tag' is already under version control
+svn: warning: '0643-de-auto.tag' is already under version control
+svn: warning: '0644-de-auto.tag' is already under version control
+svn: warning: '0645-de-auto.tag' is already under version control
+svn: warning: '0646-de-auto.tag' is already under version control
+svn: warning: '0647-de-auto.tag' is already under version control
+svn: warning: '0652-de-auto.tag' is already under version control
+svn: warning: '0654-de-auto.tag' is already under version control
+svn: warning: '0666-de-auto.tag' is already under version control
+svn: warning: '0667-de-auto.tag' is already under version control
+svn: warning: '0670-de-auto.tag' is already under version control
+svn: warning: '0671-de-auto.tag' is already under version control
+svn: warning: '0675-de-auto.tag' is already under version control
+svn: warning: '0680-de-auto.tag' is already under version control
+svn: warning: '0683-de-auto.tag' is already under version control
+svn: warning: '0685-de-auto.tag' is already under version control
+svn: warning: '0688-de-auto.tag' is already under version control
+svn: warning: '0689-de-auto.tag' is already under version control
+svn: warning: '0690-de-auto.tag' is already under version control
+svn: warning: '0700-de-auto.tag' is already under version control
+svn: warning: '0702-de-auto.tag' is already under version control
+svn: warning: '0705-de-auto.tag' is already under version control
+svn: warning: '0708-de-auto.tag' is already under version control
+svn: warning: '0713-de-auto.tag' is already under version control
+svn: warning: '0720-de-auto.tag' is already under version control
+svn: warning: '0725-de-auto.tag' is already under version control
+svn: warning: '0729-de-auto.tag' is already under version control
+svn: warning: '0735-de-auto.tag' is already under version control
+svn: warning: '0736-de-auto.tag' is already under version control
+svn: warning: '0738-de-auto.tag' is already under version control
+svn: warning: '0741-de-auto.tag' is already under version control
+svn: warning: '0742-de-auto.tag' is already under version control
+svn: warning: '0747-de-auto.tag' is already under version control
+svn: warning: '0754-de-auto.tag' is already under version control
+svn: warning: '0759-de-auto.tag' is already under version control
+svn: warning: '0770-de-auto.tag' is already under version control
+svn: warning: '0780-de-auto.tag' is already under version control
+svn: warning: '0781-de-auto.tag' is already under version control
+svn: warning: '0783-de-auto.tag' is already under version control
+svn: warning: '0790-de-auto.tag' is already under version control
+svn: warning: '0793-de-auto.tag' is already under version control
+svn: warning: '0794-de-auto.tag' is already under version control
+svn: warning: '0795-de-auto.tag' is already under version control
+svn: warning: '0800-de-auto.tag' is already under version control
+svn: warning: '0805-de-auto.tag' is already under version control
+svn: warning: '0809-de-auto.tag' is already under version control
+svn: warning: '0817-de-auto.tag' is already under version control
+svn: warning: '0821-de-auto.tag' is already under version control
+svn: warning: '0822-de-auto.tag' is already under version control
+svn: warning: '0837-de-auto.tag' is already under version control
+svn: warning: '0840-de-auto.tag' is already under version control
+svn: warning: '0843-de-auto.tag' is already under version control
+svn: warning: '0848-de-auto.tag' is already under version control
+svn: warning: '0850-de-auto.tag' is already under version control
+svn: warning: '0851-de-auto.tag' is already under version control
+svn: warning: '0853-de-auto.tag' is already under version control
+svn: warning: '0856-de-auto.tag' is already under version control
+svn: warning: '0863-de-auto.tag' is already under version control
+svn: warning: '0864-de-auto.tag' is already under version control
+svn: warning: '0866-de-auto.tag' is already under version control
+svn: warning: '0870-de-auto.tag' is already under version control
+svn: warning: '0873-de-auto.tag' is already under version control
+svn: warning: '0874-de-auto.tag' is already under version control
+svn: warning: '0876-de-auto.tag' is already under version control
+svn: warning: '0879-de-auto.tag' is already under version control
+svn: warning: '0881-de-auto.tag' is already under version control
+svn: warning: '0883-de-auto.tag' is already under version control
+svn: warning: '0888-de-auto.tag' is already under version control
+svn: warning: '0889-de-auto.tag' is already under version control
+svn: warning: '0893-de-auto.tag' is already under version control
+svn: warning: '0902-de-auto.tag' is already under version control
+svn: warning: '0904-de-auto.tag' is already under version control
+svn: warning: '0905-de-auto.tag' is already under version control
+svn: warning: '0915-de-auto.tag' is already under version control
+svn: warning: '0917-de-auto.tag' is already under version control
+svn: warning: '0919-de-auto.tag' is already under version control
+svn: warning: '0925-de-auto.tag' is already under version control
+svn: warning: '0926-de-auto.tag' is already under version control
+svn: warning: '0927-de-auto.tag' is already under version control
+svn: warning: '0932-de-auto.tag' is already under version control
+svn: warning: '0934-de-auto.tag' is already under version control
+svn: warning: '0935-de-auto.tag' is already under version control
+svn: warning: '0939-de-auto.tag' is already under version control
+svn: warning: '0940-de-auto.tag' is already under version control
+svn: warning: '0947-de-auto.tag' is already under version control
+svn: warning: '0949-de-auto.tag' is already under version control
+svn: warning: '0951-de-auto.tag' is already under version control
+svn: warning: '0955-de-auto.tag' is already under version control
+svn: warning: '0956-de-auto.tag' is already under version control
+svn: warning: '0958-de-auto.tag' is already under version control
+svn: warning: '0960-de-auto.tag' is already under version control
+svn: warning: '0968-de-auto.tag' is already under version control
+svn: warning: '0970-de-auto.tag' is already under version control
+svn: warning: '0975-de-auto.tag' is already under version control
+svn: warning: '0978-de-auto.tag' is already under version control
+svn: warning: '0986-de-auto.tag' is already under version control
+svn: warning: '0988-de-auto.tag' is already under version control
+svn: warning: '0989-de-auto.tag' is already under version control
+svn: warning: '0992-de-auto.tag' is already under version control
+svn: warning: '0998-de-auto.tag' is already under version control
+svn: warning: '1001-de-auto.tag' is already under version control
+svn: warning: '1007-de-auto.tag' is already under version control
+svn: warning: '1008-de-auto.tag' is already under version control
+svn: warning: '1010-de-auto.tag' is already under version control
+svn: warning: '1011-de-auto.tag' is already under version control
+svn: warning: '1014-de-auto.tag' is already under version control
+svn: warning: '1017-de-auto.tag' is already under version control
+svn: warning: '1019-de-auto.tag' is already under version control
+svn: warning: '1021-de-auto.tag' is already under version control
+svn: warning: '1030-de-auto.tag' is already under version control
+svn: warning: '1031-de-auto.tag' is already under version control
+svn: warning: '1032-de-auto.tag' is already under version control
+svn: warning: '1035-de-auto.tag' is already under version control
+svn: warning: '1038-de-auto.tag' is already under version control
+svn: warning: '1039-de-auto.tag' is already under version control
+svn: warning: '1041-de-auto.tag' is already under version control
+svn: warning: '1042-de-auto.tag' is already under version control
+svn: warning: '1043-de-auto.tag' is already under version control
+svn: warning: '1046-de-auto.tag' is already under version control
+svn: warning: '1047-de-auto.tag' is already under version control
+svn: warning: '1048-de-auto.tag' is already under version control
+svn: warning: '1053-de-auto.tag' is already under version control
+svn: warning: '1054-de-auto.tag' is already under version control
+svn: warning: '1055-de-auto.tag' is already under version control
+svn: warning: '1056-de-auto.tag' is already under version control
+svn: warning: '1057-de-auto.tag' is already under version control
+svn: warning: '1058-de-auto.tag' is already under version control
+svn: warning: '1061-de-auto.tag' is already under version control
+svn: warning: '1062-de-auto.tag' is already under version control
+svn: warning: '1063-de-auto.tag' is already under version control
+svn: warning: '1067-de-auto.tag' is already under version control
+svn: warning: '1075-de-auto.tag' is already under version control
+svn: warning: '1077-de-auto.tag' is already under version control
+svn: warning: '1088-de-auto.tag' is already under version control
+svn: warning: '1090-de-auto.tag' is already under version control
+svn: warning: '1095-de-auto.tag' is already under version control
+svn: warning: '1104-de-auto.tag' is already under version control
+svn: warning: '1117-de-auto.tag' is already under version control
+svn: warning: '1125-de-auto.tag' is already under version control
+svn: warning: '1127-de-auto.tag' is already under version control
+svn: warning: '1129-de-auto.tag' is already under version control
+svn: warning: '1130-de-auto.tag' is already under version control
+svn: warning: '1138-de-auto.tag' is already under version control
+svn: warning: '1144-de-auto.tag' is already under version control
+svn: warning: '1150-de-auto.tag' is already under version control
+svn: warning: '1154-de-auto.tag' is already under version control
+svn: warning: '1162-de-auto.tag' is already under version control
+svn: warning: '1166-de-auto.tag' is already under version control
+svn: warning: '1168-de-auto.tag' is already under version control
+svn: warning: '1169-de-auto.tag' is already under version control
+svn: warning: '1173-de-auto.tag' is already under version control
+svn: warning: '1174-de-auto.tag' is already under version control
+svn: warning: '1175-de-auto.tag' is already under version control
+svn: warning: '1181-de-auto.tag' is already under version control
+svn: warning: '1182-de-auto.tag' is already under version control
+svn: warning: '1183-de-auto.tag' is already under version control
+svn: warning: '1190-de-auto.tag' is already under version control
+svn: warning: '1206-de-auto.tag' is already under version control
+svn: warning: '1214-de-auto.tag' is already under version control
+svn: warning: '1217-de-auto.tag' is already under version control
+svn: warning: '1224-de-auto.tag' is already under version control
+svn: warning: '1227-de-auto.tag' is already under version control
+svn: warning: '1228-de-auto.tag' is already under version control
+svn: warning: '1229-de-auto.tag' is already under version control
+svn: warning: '1241-de-auto.tag' is already under version control
+svn: warning: '1250-de-auto.tag' is already under version control
+svn: warning: '1251-de-auto.tag' is already under version control
+svn: warning: '1252-de-auto.tag' is already under version control
+svn: warning: '1253-de-auto.tag' is already under version control
+svn: warning: '1255-de-auto.tag' is already under version control
+svn: warning: '1259-de-auto.tag' is already under version control
+svn: warning: '1265-de-auto.tag' is already under version control
+svn: warning: '1270-de-auto.tag' is already under version control
+svn: warning: '1276-de-auto.tag' is already under version control
+svn: warning: '1277-de-auto.tag' is already under version control
+svn: warning: '1284-de-auto.tag' is already under version control
+svn: warning: '1289-de-auto.tag' is already under version control
+svn: warning: '1292-de-auto.tag' is already under version control
+svn: warning: '1300-de-auto.tag' is already under version control
+svn: warning: '1302-de-auto.tag' is already under version control
+svn: warning: '1306-de-auto.tag' is already under version control
+svn: warning: '1307-de-auto.tag' is already under version control
+svn: warning: '1319-de-auto.tag' is already under version control
+svn: warning: '1321-de-auto.tag' is already under version control
+svn: warning: '1325-de-auto.tag' is already under version control
+svn: warning: '1327-de-auto.tag' is already under version control
+svn: warning: '1328-de-auto.tag' is already under version control
+svn: warning: '1332-de-auto.tag' is already under version control
+svn: warning: '1333-de-auto.tag' is already under version control
+svn: warning: '1336-de-auto.tag' is already under version control
+svn: warning: '1337-de-auto.tag' is already under version control
+svn: warning: '1338-de-auto.tag' is already under version control
+svn: warning: '1339-de-auto.tag' is already under version control
+svn: warning: '1340-de-auto.tag' is already under version control
+svn: warning: '1347-de-auto.tag' is already under version control
+svn: warning: '1350-de-auto.tag' is already under version control
+svn: warning: '1361-de-auto.tag' is already under version control
+svn: warning: '1364-de-auto.tag' is already under version control
+svn: warning: '1365-de-auto.tag' is already under version control
+svn: warning: '1368-de-auto.tag' is already under version control
+svn: warning: '1371-de-auto.tag' is already under version control
+svn: warning: '1372-de-auto.tag' is already under version control
+svn: warning: '1373-de-auto.tag' is already under version control
+svn: warning: '1375-de-auto.tag' is already under version control
+svn: warning: '1377-de-auto.tag' is already under version control
+svn: warning: '1378-de-auto.tag' is already under version control
+svn: warning: '1379-de-auto.tag' is already under version control
+svn: warning: '1381-de-auto.tag' is already under version control
+svn: warning: '1383-de-auto.tag' is already under version control
+svn: warning: '1385-de-auto.tag' is already under version control
+svn: warning: '1390-de-auto.tag' is already under version control
+svn: warning: '1394-de-auto.tag' is already under version control
+svn: warning: '1398-de-auto.tag' is already under version control
+svn: warning: '1399-de-auto.tag' is already under version control
+svn: warning: '1400-de-auto.tag' is already under version control
+svn: warning: '1401-de-auto.tag' is already under version control
+svn: warning: '1405-de-auto.tag' is already under version control
+svn: warning: '1406-de-auto.tag' is already under version control
+svn: warning: '1407-de-auto.tag' is already under version control
+svn: warning: '1408-de-auto.tag' is already under version control
+svn: warning: '1410-de-auto.tag' is already under version control
+svn: warning: '1414-de-auto.tag' is already under version control
+svn: warning: '1416-de-auto.tag' is already under version control
+svn: warning: '1420-de-auto.tag' is already under version control
+svn: warning: '1426-de-auto.tag' is already under version control
+svn: warning: '1428-de-auto.tag' is already under version control
+svn: warning: '1429-de-auto.tag' is already under version control
+svn: warning: '1433-de-auto.tag' is already under version control
+svn: warning: '1435-de-auto.tag' is already under version control
+svn: warning: '1439-de-auto.tag' is already under version control
+svn: warning: '1449-de-auto.tag' is already under version control
+svn: warning: '1453-de-auto.tag' is already under version control
+svn: warning: '1457-de-auto.tag' is already under version control
+svn: warning: '1465-de-auto.tag' is already under version control
+svn: warning: '1467-de-auto.tag' is already under version control
+svn: warning: '1471-de-auto.tag' is already under version control
+svn: warning: '1472-de-auto.tag' is already under version control
+svn: warning: '1478-de-auto.tag' is already under version control
+svn: warning: '1485-de-auto.tag' is already under version control
+svn: warning: '1488-de-auto.tag' is already under version control
+svn: warning: '1490-de-auto.tag' is already under version control
+svn: warning: '1491-de-auto.tag' is already under version control
+svn: warning: '1493-de-auto.tag' is already under version control
+svn: warning: '1494-de-auto.tag' is already under version control
+svn: warning: '1495-de-auto.tag' is already under version control
+svn: warning: '1497-de-auto.tag' is already under version control
+svn: warning: '1498-de-auto.tag' is already under version control
+svn: warning: '1506-de-auto.tag' is already under version control
+svn: warning: '1508-de-auto.tag' is already under version control
+svn: warning: '1514-de-auto.tag' is already under version control
+svn: warning: '1519-de-auto.tag' is already under version control
+svn: warning: '1522-de-auto.tag' is already under version control
+svn: warning: '1523-de-auto.tag' is already under version control
+svn: warning: '1524-de-auto.tag' is already under version control
+svn: warning: '1527-de-auto.tag' is already under version control
+svn: warning: '1536-de-auto.tag' is already under version control
+svn: warning: '1545-de-auto.tag' is already under version control
+svn: warning: '1546-de-auto.tag' is already under version control
+svn: warning: '1547-de-auto.tag' is already under version control
+svn commit -m 'Automatic annotations, 37-de'
+Sending        de/0001-de-auto.tag
+Sending        de/0005-de-auto.tag
+Sending        de/0008-de-auto.tag
+Sending        de/0029-de-auto.tag
+Sending        de/0042-de-auto.tag
+Sending        de/0043-de-auto.tag
+Sending        de/0061-de-auto.tag
+Sending        de/0065-de-auto.tag
+Sending        de/0079-de-auto.tag
+Sending        de/0086-de-auto.tag
+Sending        de/0090-de-auto.tag
+Sending        de/0091-de-auto.tag
+Sending        de/0093-de-auto.tag
+Sending        de/0096-de-auto.tag
+Sending        de/0097-de-auto.tag
+Sending        de/0101-de-auto.tag
+Sending        de/0102-de-auto.tag
+Sending        de/0103-de-auto.tag
+Sending        de/0104-de-auto.tag
+Sending        de/0107-de-auto.tag
+Sending        de/0112-de-auto.tag
+Sending        de/0113-de-auto.tag
+Sending        de/0114-de-auto.tag
+Sending        de/0119-de-auto.tag
+Sending        de/0133-de-auto.tag
+Sending        de/0134-de-auto.tag
+Sending        de/0138-de-auto.tag
+Sending        de/0140-de-auto.tag
+Sending        de/0141-de-auto.tag
+Sending        de/0143-de-auto.tag
+Sending        de/0144-de-auto.tag
+Sending        de/0148-de-auto.tag
+Sending        de/0150-de-auto.tag
+Sending        de/0151-de-auto.tag
+Sending        de/0152-de-auto.tag
+Sending        de/0159-de-auto.tag
+Sending        de/0169-de-auto.tag
+Sending        de/0174-de-auto.tag
+Sending        de/0176-de-auto.tag
+Sending        de/0178-de-auto.tag
+Sending        de/0182-de-auto.tag
+Sending        de/0184-de-auto.tag
+Sending        de/0187-de-auto.tag
+Sending        de/0188-de-auto.tag
+Sending        de/0190-de-auto.tag
+Sending        de/0191-de-auto.tag
+Sending        de/0197-de-auto.tag
+Sending        de/0204-de-auto.tag
+Sending        de/0211-de-auto.tag
+Sending        de/0212-de-auto.tag
+Sending        de/0215-de-auto.tag
+Sending        de/0229-de-auto.tag
+Sending        de/0235-de-auto.tag
+Sending        de/0237-de-auto.tag
+Sending        de/0244-de-auto.tag
+Sending        de/0245-de-auto.tag
+Sending        de/0257-de-auto.tag
+Sending        de/0258-de-auto.tag
+Sending        de/0259-de-auto.tag
+Sending        de/0260-de-auto.tag
+Sending        de/0262-de-auto.tag
+Sending        de/0264-de-auto.tag
+Sending        de/0265-de-auto.tag
+Sending        de/0268-de-auto.tag
+Sending        de/0269-de-auto.tag
+Sending        de/0272-de-auto.tag
+Sending        de/0273-de-auto.tag
+Sending        de/0278-de-auto.tag
+Sending        de/0285-de-auto.tag
+Sending        de/0294-de-auto.tag
+Sending        de/0298-de-auto.tag
+Sending        de/0300-de-auto.tag
+Sending        de/0303-de-auto.tag
+Sending        de/0306-de-auto.tag
+Sending        de/0307-de-auto.tag
+Sending        de/0309-de-auto.tag
+Sending        de/0312-de-auto.tag
+Sending        de/0318-de-auto.tag
+Sending        de/0320-de-auto.tag
+Sending        de/0326-de-auto.tag
+Sending        de/0327-de-auto.tag
+Sending        de/0328-de-auto.tag
+Sending        de/0333-de-auto.tag
+Sending        de/0339-de-auto.tag
+Sending        de/0342-de-auto.tag
+Sending        de/0345-de-auto.tag
+Sending        de/0351-de-auto.tag
+Sending        de/0353-de-auto.tag
+Sending        de/0354-de-auto.tag
+Sending        de/0355-de-auto.tag
+Sending        de/0361-de-auto.tag
+Sending        de/0366-de-auto.tag
+Sending        de/0375-de-auto.tag
+Sending        de/0376-de-auto.tag
+Sending        de/0378-de-auto.tag
+Sending        de/0386-de-auto.tag
+Sending        de/0388-de-auto.tag
+Sending        de/0391-de-auto.tag
+Sending        de/0395-de-auto.tag
+Sending        de/0397-de-auto.tag
+Sending        de/0401-de-auto.tag
+Sending        de/0411-de-auto.tag
+Sending        de/0416-de-auto.tag
+Sending        de/0421-de-auto.tag
+Sending        de/0422-de-auto.tag
+Sending        de/0426-de-auto.tag
+Sending        de/0428-de-auto.tag
+Sending        de/0431-de-auto.tag
+Sending        de/0434-de-auto.tag
+Sending        de/0438-de-auto.tag
+Sending        de/0442-de-auto.tag
+Sending        de/0446-de-auto.tag
+Sending        de/0448-de-auto.tag
+Sending        de/0449-de-auto.tag
+Sending        de/0452-de-auto.tag
+Sending        de/0465-de-auto.tag
+Sending        de/0468-de-auto.tag
+Sending        de/0470-de-auto.tag
+Sending        de/0472-de-auto.tag
+Sending        de/0473-de-auto.tag
+Sending        de/0475-de-auto.tag
+Sending        de/0479-de-auto.tag
+Sending        de/0483-de-auto.tag
+Sending        de/0486-de-auto.tag
+Sending        de/0488-de-auto.tag
+Sending        de/0500-de-auto.tag
+Sending        de/0502-de-auto.tag
+Sending        de/0507-de-auto.tag
+Sending        de/0510-de-auto.tag
+Sending        de/0511-de-auto.tag
+Sending        de/0519-de-auto.tag
+Sending        de/0520-de-auto.tag
+Sending        de/0531-de-auto.tag
+Sending        de/0538-de-auto.tag
+Sending        de/0540-de-auto.tag
+Sending        de/0545-de-auto.tag
+Sending        de/0546-de-auto.tag
+Sending        de/0547-de-auto.tag
+Sending        de/0567-de-auto.tag
+Sending        de/0573-de-auto.tag
+Sending        de/0576-de-auto.tag
+Sending        de/0577-de-auto.tag
+Sending        de/0581-de-auto.tag
+Sending        de/0588-de-auto.tag
+Sending        de/0593-de-auto.tag
+Sending        de/0596-de-auto.tag
+Sending        de/0601-de-auto.tag
+Sending        de/0602-de-auto.tag
+Sending        de/0607-de-auto.tag
+Sending        de/0613-de-auto.tag
+Sending        de/0618-de-auto.tag
+Sending        de/0620-de-auto.tag
+Sending        de/0623-de-auto.tag
+Sending        de/0624-de-auto.tag
+Sending        de/0626-de-auto.tag
+Sending        de/0643-de-auto.tag
+Sending        de/0644-de-auto.tag
+Sending        de/0645-de-auto.tag
+Sending        de/0646-de-auto.tag
+Sending        de/0647-de-auto.tag
+Sending        de/0652-de-auto.tag
+Sending        de/0654-de-auto.tag
+Sending        de/0666-de-auto.tag
+Sending        de/0667-de-auto.tag
+Sending        de/0670-de-auto.tag
+Sending        de/0671-de-auto.tag
+Sending        de/0675-de-auto.tag
+Sending        de/0680-de-auto.tag
+Sending        de/0683-de-auto.tag
+Sending        de/0685-de-auto.tag
+Sending        de/0688-de-auto.tag
+Sending        de/0689-de-auto.tag
+Sending        de/0690-de-auto.tag
+Sending        de/0700-de-auto.tag
+Sending        de/0702-de-auto.tag
+Sending        de/0705-de-auto.tag
+Sending        de/0708-de-auto.tag
+Sending        de/0713-de-auto.tag
+Sending        de/0720-de-auto.tag
+Sending        de/0725-de-auto.tag
+Sending        de/0729-de-auto.tag
+Sending        de/0735-de-auto.tag
+Sending        de/0736-de-auto.tag
+Sending        de/0738-de-auto.tag
+Sending        de/0741-de-auto.tag
+Sending        de/0742-de-auto.tag
+Sending        de/0747-de-auto.tag
+Sending        de/0754-de-auto.tag
+Sending        de/0759-de-auto.tag
+Sending        de/0770-de-auto.tag
+Sending        de/0780-de-auto.tag
+Sending        de/0781-de-auto.tag
+Sending        de/0783-de-auto.tag
+Sending        de/0790-de-auto.tag
+Sending        de/0793-de-auto.tag
+Sending        de/0794-de-auto.tag
+Sending        de/0795-de-auto.tag
+Sending        de/0800-de-auto.tag
+Sending        de/0805-de-auto.tag
+Sending        de/0809-de-auto.tag
+Sending        de/0817-de-auto.tag
+Sending        de/0821-de-auto.tag
+Sending        de/0822-de-auto.tag
+Sending        de/0837-de-auto.tag
+Sending        de/0840-de-auto.tag
+Sending        de/0843-de-auto.tag
+Sending        de/0848-de-auto.tag
+Sending        de/0850-de-auto.tag
+Sending        de/0851-de-auto.tag
+Sending        de/0853-de-auto.tag
+Sending        de/0856-de-auto.tag
+Sending        de/0863-de-auto.tag
+Sending        de/0864-de-auto.tag
+Sending        de/0866-de-auto.tag
+Sending        de/0870-de-auto.tag
+Sending        de/0873-de-auto.tag
+Sending        de/0874-de-auto.tag
+Sending        de/0876-de-auto.tag
+Sending        de/0879-de-auto.tag
+Sending        de/0881-de-auto.tag
+Sending        de/0883-de-auto.tag
+Sending        de/0888-de-auto.tag
+Sending        de/0889-de-auto.tag
+Sending        de/0893-de-auto.tag
+Sending        de/0902-de-auto.tag
+Sending        de/0904-de-auto.tag
+Sending        de/0905-de-auto.tag
+Sending        de/0915-de-auto.tag
+Sending        de/0917-de-auto.tag
+Sending        de/0919-de-auto.tag
+Sending        de/0925-de-auto.tag
+Sending        de/0926-de-auto.tag
+Sending        de/0927-de-auto.tag
+Sending        de/0932-de-auto.tag
+Sending        de/0934-de-auto.tag
+Sending        de/0935-de-auto.tag
+Sending        de/0939-de-auto.tag
+Sending        de/0940-de-auto.tag
+Sending        de/0947-de-auto.tag
+Sending        de/0949-de-auto.tag
+Sending        de/0951-de-auto.tag
+Sending        de/0955-de-auto.tag
+Sending        de/0956-de-auto.tag
+Sending        de/0958-de-auto.tag
+Sending        de/0960-de-auto.tag
+Sending        de/0968-de-auto.tag
+Sending        de/0970-de-auto.tag
+Sending        de/0975-de-auto.tag
+Sending        de/0978-de-auto.tag
+Sending        de/0986-de-auto.tag
+Sending        de/0988-de-auto.tag
+Sending        de/0989-de-auto.tag
+Sending        de/0992-de-auto.tag
+Sending        de/0998-de-auto.tag
+Sending        de/1001-de-auto.tag
+Sending        de/1007-de-auto.tag
+Sending        de/1008-de-auto.tag
+Sending        de/1010-de-auto.tag
+Sending        de/1011-de-auto.tag
+Sending        de/1014-de-auto.tag
+Sending        de/1017-de-auto.tag
+Sending        de/1019-de-auto.tag
+Sending        de/1021-de-auto.tag
+Sending        de/1030-de-auto.tag
+Sending        de/1031-de-auto.tag
+Sending        de/1032-de-auto.tag
+Sending        de/1035-de-auto.tag
+Sending        de/1038-de-auto.tag
+Sending        de/1039-de-auto.tag
+Sending        de/1041-de-auto.tag
+Sending        de/1042-de-auto.tag
+Sending        de/1043-de-auto.tag
+Sending        de/1046-de-auto.tag
+Sending        de/1047-de-auto.tag
+Sending        de/1048-de-auto.tag
+Sending        de/1053-de-auto.tag
+Sending        de/1054-de-auto.tag
+Sending        de/1055-de-auto.tag
+Sending        de/1056-de-auto.tag
+Sending        de/1057-de-auto.tag
+Sending        de/1058-de-auto.tag
+Sending        de/1061-de-auto.tag
+Sending        de/1062-de-auto.tag
+Sending        de/1063-de-auto.tag
+Sending        de/1067-de-auto.tag
+Sending        de/1075-de-auto.tag
+Sending        de/1077-de-auto.tag
+Sending        de/1088-de-auto.tag
+Sending        de/1090-de-auto.tag
+Sending        de/1095-de-auto.tag
+Sending        de/1104-de-auto.tag
+Sending        de/1117-de-auto.tag
+Sending        de/1125-de-auto.tag
+Sending        de/1127-de-auto.tag
+Sending        de/1129-de-auto.tag
+Sending        de/1130-de-auto.tag
+Sending        de/1138-de-auto.tag
+Sending        de/1144-de-auto.tag
+Sending        de/1150-de-auto.tag
+Sending        de/1154-de-auto.tag
+Sending        de/1162-de-auto.tag
+Sending        de/1166-de-auto.tag
+Sending        de/1168-de-auto.tag
+Sending        de/1169-de-auto.tag
+Sending        de/1173-de-auto.tag
+Sending        de/1174-de-auto.tag
+Sending        de/1175-de-auto.tag
+Sending        de/1181-de-auto.tag
+Sending        de/1182-de-auto.tag
+Sending        de/1183-de-auto.tag
+Sending        de/1190-de-auto.tag
+Sending        de/1206-de-auto.tag
+Sending        de/1214-de-auto.tag
+Sending        de/1217-de-auto.tag
+Sending        de/1224-de-auto.tag
+Sending        de/1227-de-auto.tag
+Sending        de/1228-de-auto.tag
+Sending        de/1229-de-auto.tag
+Sending        de/1241-de-auto.tag
+Sending        de/1250-de-auto.tag
+Sending        de/1251-de-auto.tag
+Sending        de/1252-de-auto.tag
+Sending        de/1253-de-auto.tag
+Sending        de/1255-de-auto.tag
+Sending        de/1259-de-auto.tag
+Sending        de/1265-de-auto.tag
+Sending        de/1270-de-auto.tag
+Sending        de/1276-de-auto.tag
+Sending        de/1277-de-auto.tag
+Sending        de/1284-de-auto.tag
+Sending        de/1289-de-auto.tag
+Sending        de/1292-de-auto.tag
+Sending        de/1300-de-auto.tag
+Sending        de/1302-de-auto.tag
+Sending        de/1306-de-auto.tag
+Sending        de/1307-de-auto.tag
+Sending        de/1319-de-auto.tag
+Sending        de/1321-de-auto.tag
+Sending        de/1325-de-auto.tag
+Sending        de/1327-de-auto.tag
+Sending        de/1328-de-auto.tag
+Sending        de/1332-de-auto.tag
+Sending        de/1333-de-auto.tag
+Sending        de/1336-de-auto.tag
+Sending        de/1337-de-auto.tag
+Sending        de/1338-de-auto.tag
+Sending        de/1339-de-auto.tag
+Sending        de/1340-de-auto.tag
+Sending        de/1347-de-auto.tag
+Sending        de/1350-de-auto.tag
+Sending        de/1361-de-auto.tag
+Sending        de/1364-de-auto.tag
+Sending        de/1365-de-auto.tag
+Sending        de/1368-de-auto.tag
+Sending        de/1371-de-auto.tag
+Sending        de/1372-de-auto.tag
+Sending        de/1373-de-auto.tag
+Sending        de/1375-de-auto.tag
+Sending        de/1377-de-auto.tag
+Sending        de/1378-de-auto.tag
+Sending        de/1379-de-auto.tag
+Sending        de/1381-de-auto.tag
+Sending        de/1383-de-auto.tag
+Sending        de/1385-de-auto.tag
+Sending        de/1390-de-auto.tag
+Sending        de/1394-de-auto.tag
+Sending        de/1398-de-auto.tag
+Sending        de/1399-de-auto.tag
+Sending        de/1400-de-auto.tag
+Sending        de/1401-de-auto.tag
+Sending        de/1405-de-auto.tag
+Sending        de/1406-de-auto.tag
+Sending        de/1407-de-auto.tag
+Sending        de/1408-de-auto.tag
+Sending        de/1410-de-auto.tag
+Sending        de/1414-de-auto.tag
+Sending        de/1416-de-auto.tag
+Sending        de/1420-de-auto.tag
+Sending        de/1426-de-auto.tag
+Sending        de/1428-de-auto.tag
+Sending        de/1429-de-auto.tag
+Sending        de/1433-de-auto.tag
+Sending        de/1435-de-auto.tag
+Sending        de/1439-de-auto.tag
+Sending        de/1449-de-auto.tag
+Sending        de/1453-de-auto.tag
+Sending        de/1457-de-auto.tag
+Sending        de/1465-de-auto.tag
+Sending        de/1467-de-auto.tag
+Sending        de/1471-de-auto.tag
+Sending        de/1472-de-auto.tag
+Sending        de/1478-de-auto.tag
+Sending        de/1485-de-auto.tag
+Sending        de/1488-de-auto.tag
+Sending        de/1490-de-auto.tag
+Sending        de/1491-de-auto.tag
+Sending        de/1493-de-auto.tag
+Sending        de/1494-de-auto.tag
+Sending        de/1495-de-auto.tag
+Sending        de/1497-de-auto.tag
+Sending        de/1498-de-auto.tag
+Sending        de/1506-de-auto.tag
+Sending        de/1508-de-auto.tag
+Sending        de/1514-de-auto.tag
+Sending        de/1519-de-auto.tag
+Sending        de/1522-de-auto.tag
+Sending        de/1523-de-auto.tag
+Sending        de/1524-de-auto.tag
+Sending        de/1527-de-auto.tag
+Sending        de/1536-de-auto.tag
+Sending        de/1545-de-auto.tag
+Sending        de/1546-de-auto.tag
+Sending        de/1547-de-auto.tag
+Transmitting file data .............................................................................................................................................................................................................................................................................................................................................................................................................................
+Committed revision 1304.
+-------------------------------------------
+Mon Sep 13 23:55:01 CEST 2010
+cd ../de
+svn update
+At revision 1319.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 40 de > 40-de.findFiles.out 2> 40-de.findFiles.err
+perl convertToConll.pl 40 de > 40-de.convertToConnl.out 2> 40-de.convertToConnl.err
+perl createSegmenterFileLists.pl 40 de 2> 40-de.createSegmenterFileLists.err > 40-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 40-de.toParseFiles.lst.abs 2> 40-de.createtoSegmentFiles.err > 40-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 40-de.toParseFiles.lst.abs it 2> 40-de.segmentFiles.err > 40-de.segmentFiles.out
+perl segmentConllFiles.pl 40 de > 40-de.segmentConllFiles.out 2> 40-de.segmentConllFiles.err
+perl cleanupConll.pl 40 de > 40-de.cleanupConll.out 2> 40-de.cleanupConll.err
+perl createParserFiles.pl 40 de > 40-de.createParserFiles.out 2> 40-de.createParserFiles.err
+perl createParserScripts.pl 40 de > 40-de.createParserScripts.out 2> 40-de.createParserScripts.err
+./R40-de.train.sh
+./R40-de.parse.sh
+./R40-de.parse-trainingdata.sh
+perl createStats.pl 40-de.train.conll 40-de.training.out.conll > 40-de.stats
+Use of uninitialized value $c in division (/) at createStats.pl line 57.
+perl prune.pl 40-de.stats 40-de.out.conll 0.8 > 40-de.out.conll.pruned
+Use of uninitialized value $acc in numeric lt (<) at prune.pl line 36, <CONLL> line 51770.
+perl splitParsedFiles.pl 40 de > 40-de.splitParsedFiles.out 2> 40-de.splitParsedFiles.err
+perl mergeAll.pl 40 de > 40-de.mergeAll.out 2> 40-de.mergeAll.err
+perl mergeAllTag.pl 40 de > 40-de.mergeAllTag.out 2> 40-de.mergeAllTag.err
+perl updateAllTag.pl 40 de > 40-de.updateAllTag.out 2> 40-de.updateAllTag.err
+perl copyTagFiles.pl 40 de > 40-de.copyTagFiles.out 2> 40-de.copyTagFiles.err
+cd ../de
+svn update
+At revision 1319.
+svn add *auto*.tag
+svn: warning: '0001-de-auto.tag' is already under version control
+svn: warning: '0005-de-auto.tag' is already under version control
+svn: warning: '0008-de-auto.tag' is already under version control
+svn: warning: '0029-de-auto.tag' is already under version control
+svn: warning: '0042-de-auto.tag' is already under version control
+svn: warning: '0043-de-auto.tag' is already under version control
+svn: warning: '0061-de-auto.tag' is already under version control
+svn: warning: '0065-de-auto.tag' is already under version control
+svn: warning: '0079-de-auto.tag' is already under version control
+svn: warning: '0086-de-auto.tag' is already under version control
+svn: warning: '0090-de-auto.tag' is already under version control
+svn: warning: '0091-de-auto.tag' is already under version control
+svn: warning: '0093-de-auto.tag' is already under version control
+svn: warning: '0096-de-auto.tag' is already under version control
+svn: warning: '0097-de-auto.tag' is already under version control
+svn: warning: '0101-de-auto.tag' is already under version control
+svn: warning: '0102-de-auto.tag' is already under version control
+svn: warning: '0103-de-auto.tag' is already under version control
+svn: warning: '0104-de-auto.tag' is already under version control
+svn: warning: '0107-de-auto.tag' is already under version control
+svn: warning: '0112-de-auto.tag' is already under version control
+svn: warning: '0113-de-auto.tag' is already under version control
+svn: warning: '0114-de-auto.tag' is already under version control
+svn: warning: '0119-de-auto.tag' is already under version control
+svn: warning: '0133-de-auto.tag' is already under version control
+svn: warning: '0134-de-auto.tag' is already under version control
+svn: warning: '0138-de-auto.tag' is already under version control
+svn: warning: '0140-de-auto.tag' is already under version control
+svn: warning: '0141-de-auto.tag' is already under version control
+svn: warning: '0143-de-auto.tag' is already under version control
+svn: warning: '0144-de-auto.tag' is already under version control
+svn: warning: '0148-de-auto.tag' is already under version control
+svn: warning: '0150-de-auto.tag' is already under version control
+svn: warning: '0151-de-auto.tag' is already under version control
+svn: warning: '0152-de-auto.tag' is already under version control
+svn: warning: '0159-de-auto.tag' is already under version control
+svn: warning: '0169-de-auto.tag' is already under version control
+svn: warning: '0174-de-auto.tag' is already under version control
+svn: warning: '0176-de-auto.tag' is already under version control
+svn: warning: '0178-de-auto.tag' is already under version control
+svn: warning: '0182-de-auto.tag' is already under version control
+svn: warning: '0184-de-auto.tag' is already under version control
+svn: warning: '0187-de-auto.tag' is already under version control
+svn: warning: '0188-de-auto.tag' is already under version control
+svn: warning: '0190-de-auto.tag' is already under version control
+svn: warning: '0191-de-auto.tag' is already under version control
+svn: warning: '0197-de-auto.tag' is already under version control
+svn: warning: '0204-de-auto.tag' is already under version control
+svn: warning: '0211-de-auto.tag' is already under version control
+svn: warning: '0212-de-auto.tag' is already under version control
+svn: warning: '0215-de-auto.tag' is already under version control
+svn: warning: '0229-de-auto.tag' is already under version control
+svn: warning: '0235-de-auto.tag' is already under version control
+svn: warning: '0237-de-auto.tag' is already under version control
+svn: warning: '0244-de-auto.tag' is already under version control
+svn: warning: '0245-de-auto.tag' is already under version control
+svn: warning: '0257-de-auto.tag' is already under version control
+svn: warning: '0258-de-auto.tag' is already under version control
+svn: warning: '0259-de-auto.tag' is already under version control
+svn: warning: '0260-de-auto.tag' is already under version control
+svn: warning: '0262-de-auto.tag' is already under version control
+svn: warning: '0264-de-auto.tag' is already under version control
+svn: warning: '0265-de-auto.tag' is already under version control
+svn: warning: '0268-de-auto.tag' is already under version control
+svn: warning: '0269-de-auto.tag' is already under version control
+svn: warning: '0272-de-auto.tag' is already under version control
+svn: warning: '0273-de-auto.tag' is already under version control
+svn: warning: '0278-de-auto.tag' is already under version control
+svn: warning: '0285-de-auto.tag' is already under version control
+svn: warning: '0294-de-auto.tag' is already under version control
+svn: warning: '0298-de-auto.tag' is already under version control
+svn: warning: '0300-de-auto.tag' is already under version control
+svn: warning: '0303-de-auto.tag' is already under version control
+svn: warning: '0306-de-auto.tag' is already under version control
+svn: warning: '0307-de-auto.tag' is already under version control
+svn: warning: '0309-de-auto.tag' is already under version control
+svn: warning: '0312-de-auto.tag' is already under version control
+svn: warning: '0318-de-auto.tag' is already under version control
+svn: warning: '0320-de-auto.tag' is already under version control
+svn: warning: '0326-de-auto.tag' is already under version control
+svn: warning: '0327-de-auto.tag' is already under version control
+svn: warning: '0328-de-auto.tag' is already under version control
+svn: warning: '0333-de-auto.tag' is already under version control
+svn: warning: '0339-de-auto.tag' is already under version control
+svn: warning: '0342-de-auto.tag' is already under version control
+svn: warning: '0345-de-auto.tag' is already under version control
+svn: warning: '0351-de-auto.tag' is already under version control
+svn: warning: '0353-de-auto.tag' is already under version control
+svn: warning: '0354-de-auto.tag' is already under version control
+svn: warning: '0355-de-auto.tag' is already under version control
+svn: warning: '0361-de-auto.tag' is already under version control
+svn: warning: '0366-de-auto.tag' is already under version control
+svn: warning: '0375-de-auto.tag' is already under version control
+svn: warning: '0376-de-auto.tag' is already under version control
+svn: warning: '0378-de-auto.tag' is already under version control
+svn: warning: '0386-de-auto.tag' is already under version control
+svn: warning: '0388-de-auto.tag' is already under version control
+svn: warning: '0391-de-auto.tag' is already under version control
+svn: warning: '0395-de-auto.tag' is already under version control
+svn: warning: '0397-de-auto.tag' is already under version control
+svn: warning: '0401-de-auto.tag' is already under version control
+svn: warning: '0411-de-auto.tag' is already under version control
+svn: warning: '0416-de-auto.tag' is already under version control
+svn: warning: '0421-de-auto.tag' is already under version control
+svn: warning: '0422-de-auto.tag' is already under version control
+svn: warning: '0426-de-auto.tag' is already under version control
+svn: warning: '0428-de-auto.tag' is already under version control
+svn: warning: '0431-de-auto.tag' is already under version control
+svn: warning: '0434-de-auto.tag' is already under version control
+svn: warning: '0438-de-auto.tag' is already under version control
+svn: warning: '0442-de-auto.tag' is already under version control
+svn: warning: '0446-de-auto.tag' is already under version control
+svn: warning: '0448-de-auto.tag' is already under version control
+svn: warning: '0449-de-auto.tag' is already under version control
+svn: warning: '0452-de-auto.tag' is already under version control
+svn: warning: '0465-de-auto.tag' is already under version control
+svn: warning: '0468-de-auto.tag' is already under version control
+svn: warning: '0470-de-auto.tag' is already under version control
+svn: warning: '0472-de-auto.tag' is already under version control
+svn: warning: '0473-de-auto.tag' is already under version control
+svn: warning: '0475-de-auto.tag' is already under version control
+svn: warning: '0479-de-auto.tag' is already under version control
+svn: warning: '0483-de-auto.tag' is already under version control
+svn: warning: '0486-de-auto.tag' is already under version control
+svn: warning: '0488-de-auto.tag' is already under version control
+svn: warning: '0500-de-auto.tag' is already under version control
+svn: warning: '0502-de-auto.tag' is already under version control
+svn: warning: '0507-de-auto.tag' is already under version control
+svn: warning: '0510-de-auto.tag' is already under version control
+svn: warning: '0511-de-auto.tag' is already under version control
+svn: warning: '0519-de-auto.tag' is already under version control
+svn: warning: '0520-de-auto.tag' is already under version control
+svn: warning: '0531-de-auto.tag' is already under version control
+svn: warning: '0538-de-auto.tag' is already under version control
+svn: warning: '0540-de-auto.tag' is already under version control
+svn: warning: '0545-de-auto.tag' is already under version control
+svn: warning: '0546-de-auto.tag' is already under version control
+svn: warning: '0547-de-auto.tag' is already under version control
+svn: warning: '0567-de-auto.tag' is already under version control
+svn: warning: '0573-de-auto.tag' is already under version control
+svn: warning: '0576-de-auto.tag' is already under version control
+svn: warning: '0577-de-auto.tag' is already under version control
+svn: warning: '0581-de-auto.tag' is already under version control
+svn: warning: '0588-de-auto.tag' is already under version control
+svn: warning: '0593-de-auto.tag' is already under version control
+svn: warning: '0596-de-auto.tag' is already under version control
+svn: warning: '0601-de-auto.tag' is already under version control
+svn: warning: '0602-de-auto.tag' is already under version control
+svn: warning: '0607-de-auto.tag' is already under version control
+svn: warning: '0613-de-auto.tag' is already under version control
+svn: warning: '0618-de-auto.tag' is already under version control
+svn: warning: '0620-de-auto.tag' is already under version control
+svn: warning: '0623-de-auto.tag' is already under version control
+svn: warning: '0624-de-auto.tag' is already under version control
+svn: warning: '0626-de-auto.tag' is already under version control
+svn: warning: '0643-de-auto.tag' is already under version control
+svn: warning: '0644-de-auto.tag' is already under version control
+svn: warning: '0645-de-auto.tag' is already under version control
+svn: warning: '0646-de-auto.tag' is already under version control
+svn: warning: '0647-de-auto.tag' is already under version control
+svn: warning: '0652-de-auto.tag' is already under version control
+svn: warning: '0654-de-auto.tag' is already under version control
+svn: warning: '0666-de-auto.tag' is already under version control
+svn: warning: '0667-de-auto.tag' is already under version control
+svn: warning: '0670-de-auto.tag' is already under version control
+svn: warning: '0671-de-auto.tag' is already under version control
+svn: warning: '0675-de-auto.tag' is already under version control
+svn: warning: '0680-de-auto.tag' is already under version control
+svn: warning: '0683-de-auto.tag' is already under version control
+svn: warning: '0685-de-auto.tag' is already under version control
+svn: warning: '0688-de-auto.tag' is already under version control
+svn: warning: '0689-de-auto.tag' is already under version control
+svn: warning: '0690-de-auto.tag' is already under version control
+svn: warning: '0700-de-auto.tag' is already under version control
+svn: warning: '0702-de-auto.tag' is already under version control
+svn: warning: '0705-de-auto.tag' is already under version control
+svn: warning: '0708-de-auto.tag' is already under version control
+svn: warning: '0713-de-auto.tag' is already under version control
+svn: warning: '0720-de-auto.tag' is already under version control
+svn: warning: '0725-de-auto.tag' is already under version control
+svn: warning: '0729-de-auto.tag' is already under version control
+svn: warning: '0735-de-auto.tag' is already under version control
+svn: warning: '0736-de-auto.tag' is already under version control
+svn: warning: '0738-de-auto.tag' is already under version control
+svn: warning: '0741-de-auto.tag' is already under version control
+svn: warning: '0742-de-auto.tag' is already under version control
+svn: warning: '0747-de-auto.tag' is already under version control
+svn: warning: '0754-de-auto.tag' is already under version control
+svn: warning: '0759-de-auto.tag' is already under version control
+svn: warning: '0770-de-auto.tag' is already under version control
+svn: warning: '0780-de-auto.tag' is already under version control
+svn: warning: '0781-de-auto.tag' is already under version control
+svn: warning: '0783-de-auto.tag' is already under version control
+svn: warning: '0790-de-auto.tag' is already under version control
+svn: warning: '0793-de-auto.tag' is already under version control
+svn: warning: '0794-de-auto.tag' is already under version control
+svn: warning: '0795-de-auto.tag' is already under version control
+svn: warning: '0800-de-auto.tag' is already under version control
+svn: warning: '0805-de-auto.tag' is already under version control
+svn: warning: '0809-de-auto.tag' is already under version control
+svn: warning: '0817-de-auto.tag' is already under version control
+svn: warning: '0821-de-auto.tag' is already under version control
+svn: warning: '0822-de-auto.tag' is already under version control
+svn: warning: '0837-de-auto.tag' is already under version control
+svn: warning: '0840-de-auto.tag' is already under version control
+svn: warning: '0843-de-auto.tag' is already under version control
+svn: warning: '0848-de-auto.tag' is already under version control
+svn: warning: '0850-de-auto.tag' is already under version control
+svn: warning: '0851-de-auto.tag' is already under version control
+svn: warning: '0853-de-auto.tag' is already under version control
+svn: warning: '0856-de-auto.tag' is already under version control
+svn: warning: '0863-de-auto.tag' is already under version control
+svn: warning: '0864-de-auto.tag' is already under version control
+svn: warning: '0866-de-auto.tag' is already under version control
+svn: warning: '0870-de-auto.tag' is already under version control
+svn: warning: '0873-de-auto.tag' is already under version control
+svn: warning: '0874-de-auto.tag' is already under version control
+svn: warning: '0876-de-auto.tag' is already under version control
+svn: warning: '0879-de-auto.tag' is already under version control
+svn: warning: '0881-de-auto.tag' is already under version control
+svn: warning: '0883-de-auto.tag' is already under version control
+svn: warning: '0888-de-auto.tag' is already under version control
+svn: warning: '0889-de-auto.tag' is already under version control
+svn: warning: '0893-de-auto.tag' is already under version control
+svn: warning: '0902-de-auto.tag' is already under version control
+svn: warning: '0904-de-auto.tag' is already under version control
+svn: warning: '0905-de-auto.tag' is already under version control
+svn: warning: '0915-de-auto.tag' is already under version control
+svn: warning: '0917-de-auto.tag' is already under version control
+svn: warning: '0919-de-auto.tag' is already under version control
+svn: warning: '0925-de-auto.tag' is already under version control
+svn: warning: '0926-de-auto.tag' is already under version control
+svn: warning: '0927-de-auto.tag' is already under version control
+svn: warning: '0932-de-auto.tag' is already under version control
+svn: warning: '0934-de-auto.tag' is already under version control
+svn: warning: '0935-de-auto.tag' is already under version control
+svn: warning: '0939-de-auto.tag' is already under version control
+svn: warning: '0940-de-auto.tag' is already under version control
+svn: warning: '0947-de-auto.tag' is already under version control
+svn: warning: '0949-de-auto.tag' is already under version control
+svn: warning: '0951-de-auto.tag' is already under version control
+svn: warning: '0955-de-auto.tag' is already under version control
+svn: warning: '0956-de-auto.tag' is already under version control
+svn: warning: '0958-de-auto.tag' is already under version control
+svn: warning: '0960-de-auto.tag' is already under version control
+svn: warning: '0968-de-auto.tag' is already under version control
+svn: warning: '0970-de-auto.tag' is already under version control
+svn: warning: '0975-de-auto.tag' is already under version control
+svn: warning: '0978-de-auto.tag' is already under version control
+svn: warning: '0986-de-auto.tag' is already under version control
+svn: warning: '0988-de-auto.tag' is already under version control
+svn: warning: '0989-de-auto.tag' is already under version control
+svn: warning: '0992-de-auto.tag' is already under version control
+svn: warning: '0998-de-auto.tag' is already under version control
+svn: warning: '1001-de-auto.tag' is already under version control
+svn: warning: '1007-de-auto.tag' is already under version control
+svn: warning: '1008-de-auto.tag' is already under version control
+svn: warning: '1010-de-auto.tag' is already under version control
+svn: warning: '1011-de-auto.tag' is already under version control
+svn: warning: '1014-de-auto.tag' is already under version control
+svn: warning: '1017-de-auto.tag' is already under version control
+svn: warning: '1019-de-auto.tag' is already under version control
+svn: warning: '1021-de-auto.tag' is already under version control
+svn: warning: '1030-de-auto.tag' is already under version control
+svn: warning: '1031-de-auto.tag' is already under version control
+svn: warning: '1032-de-auto.tag' is already under version control
+svn: warning: '1035-de-auto.tag' is already under version control
+svn: warning: '1038-de-auto.tag' is already under version control
+svn: warning: '1039-de-auto.tag' is already under version control
+svn: warning: '1041-de-auto.tag' is already under version control
+svn: warning: '1042-de-auto.tag' is already under version control
+svn: warning: '1043-de-auto.tag' is already under version control
+svn: warning: '1046-de-auto.tag' is already under version control
+svn: warning: '1047-de-auto.tag' is already under version control
+svn: warning: '1048-de-auto.tag' is already under version control
+svn: warning: '1053-de-auto.tag' is already under version control
+svn: warning: '1054-de-auto.tag' is already under version control
+svn: warning: '1055-de-auto.tag' is already under version control
+svn: warning: '1056-de-auto.tag' is already under version control
+svn: warning: '1057-de-auto.tag' is already under version control
+svn: warning: '1058-de-auto.tag' is already under version control
+svn: warning: '1061-de-auto.tag' is already under version control
+svn: warning: '1062-de-auto.tag' is already under version control
+svn: warning: '1063-de-auto.tag' is already under version control
+svn: warning: '1067-de-auto.tag' is already under version control
+svn: warning: '1075-de-auto.tag' is already under version control
+svn: warning: '1077-de-auto.tag' is already under version control
+svn: warning: '1088-de-auto.tag' is already under version control
+svn: warning: '1090-de-auto.tag' is already under version control
+svn: warning: '1095-de-auto.tag' is already under version control
+svn: warning: '1104-de-auto.tag' is already under version control
+svn: warning: '1117-de-auto.tag' is already under version control
+svn: warning: '1125-de-auto.tag' is already under version control
+svn: warning: '1127-de-auto.tag' is already under version control
+svn: warning: '1129-de-auto.tag' is already under version control
+svn: warning: '1130-de-auto.tag' is already under version control
+svn: warning: '1138-de-auto.tag' is already under version control
+svn: warning: '1144-de-auto.tag' is already under version control
+svn: warning: '1150-de-auto.tag' is already under version control
+svn: warning: '1154-de-auto.tag' is already under version control
+svn: warning: '1162-de-auto.tag' is already under version control
+svn: warning: '1166-de-auto.tag' is already under version control
+svn: warning: '1168-de-auto.tag' is already under version control
+svn: warning: '1169-de-auto.tag' is already under version control
+svn: warning: '1173-de-auto.tag' is already under version control
+svn: warning: '1174-de-auto.tag' is already under version control
+svn: warning: '1175-de-auto.tag' is already under version control
+svn: warning: '1181-de-auto.tag' is already under version control
+svn: warning: '1182-de-auto.tag' is already under version control
+svn: warning: '1183-de-auto.tag' is already under version control
+svn: warning: '1190-de-auto.tag' is already under version control
+svn: warning: '1206-de-auto.tag' is already under version control
+svn: warning: '1214-de-auto.tag' is already under version control
+svn: warning: '1217-de-auto.tag' is already under version control
+svn: warning: '1224-de-auto.tag' is already under version control
+svn: warning: '1227-de-auto.tag' is already under version control
+svn: warning: '1228-de-auto.tag' is already under version control
+svn: warning: '1229-de-auto.tag' is already under version control
+svn: warning: '1241-de-auto.tag' is already under version control
+svn: warning: '1250-de-auto.tag' is already under version control
+svn: warning: '1251-de-auto.tag' is already under version control
+svn: warning: '1252-de-auto.tag' is already under version control
+svn: warning: '1253-de-auto.tag' is already under version control
+svn: warning: '1255-de-auto.tag' is already under version control
+svn: warning: '1259-de-auto.tag' is already under version control
+svn: warning: '1265-de-auto.tag' is already under version control
+svn: warning: '1270-de-auto.tag' is already under version control
+svn: warning: '1276-de-auto.tag' is already under version control
+svn: warning: '1277-de-auto.tag' is already under version control
+svn: warning: '1284-de-auto.tag' is already under version control
+svn: warning: '1289-de-auto.tag' is already under version control
+svn: warning: '1292-de-auto.tag' is already under version control
+svn: warning: '1300-de-auto.tag' is already under version control
+svn: warning: '1302-de-auto.tag' is already under version control
+svn: warning: '1306-de-auto.tag' is already under version control
+svn: warning: '1307-de-auto.tag' is already under version control
+svn: warning: '1319-de-auto.tag' is already under version control
+svn: warning: '1321-de-auto.tag' is already under version control
+svn: warning: '1325-de-auto.tag' is already under version control
+svn: warning: '1327-de-auto.tag' is already under version control
+svn: warning: '1328-de-auto.tag' is already under version control
+svn: warning: '1332-de-auto.tag' is already under version control
+svn: warning: '1333-de-auto.tag' is already under version control
+svn: warning: '1336-de-auto.tag' is already under version control
+svn: warning: '1337-de-auto.tag' is already under version control
+svn: warning: '1338-de-auto.tag' is already under version control
+svn: warning: '1339-de-auto.tag' is already under version control
+svn: warning: '1340-de-auto.tag' is already under version control
+svn: warning: '1347-de-auto.tag' is already under version control
+svn: warning: '1350-de-auto.tag' is already under version control
+svn: warning: '1361-de-auto.tag' is already under version control
+svn: warning: '1364-de-auto.tag' is already under version control
+svn: warning: '1365-de-auto.tag' is already under version control
+svn: warning: '1368-de-auto.tag' is already under version control
+svn: warning: '1371-de-auto.tag' is already under version control
+svn: warning: '1372-de-auto.tag' is already under version control
+svn: warning: '1373-de-auto.tag' is already under version control
+svn: warning: '1375-de-auto.tag' is already under version control
+svn: warning: '1377-de-auto.tag' is already under version control
+svn: warning: '1378-de-auto.tag' is already under version control
+svn: warning: '1379-de-auto.tag' is already under version control
+svn: warning: '1381-de-auto.tag' is already under version control
+svn: warning: '1383-de-auto.tag' is already under version control
+svn: warning: '1385-de-auto.tag' is already under version control
+svn: warning: '1390-de-auto.tag' is already under version control
+svn: warning: '1394-de-auto.tag' is already under version control
+svn: warning: '1398-de-auto.tag' is already under version control
+svn: warning: '1399-de-auto.tag' is already under version control
+svn: warning: '1400-de-auto.tag' is already under version control
+svn: warning: '1401-de-auto.tag' is already under version control
+svn: warning: '1405-de-auto.tag' is already under version control
+svn: warning: '1406-de-auto.tag' is already under version control
+svn: warning: '1407-de-auto.tag' is already under version control
+svn: warning: '1408-de-auto.tag' is already under version control
+svn: warning: '1410-de-auto.tag' is already under version control
+svn: warning: '1414-de-auto.tag' is already under version control
+svn: warning: '1416-de-auto.tag' is already under version control
+svn: warning: '1420-de-auto.tag' is already under version control
+svn: warning: '1426-de-auto.tag' is already under version control
+svn: warning: '1428-de-auto.tag' is already under version control
+svn: warning: '1429-de-auto.tag' is already under version control
+svn: warning: '1433-de-auto.tag' is already under version control
+svn: warning: '1435-de-auto.tag' is already under version control
+svn: warning: '1439-de-auto.tag' is already under version control
+svn: warning: '1449-de-auto.tag' is already under version control
+svn: warning: '1453-de-auto.tag' is already under version control
+svn: warning: '1457-de-auto.tag' is already under version control
+svn: warning: '1465-de-auto.tag' is already under version control
+svn: warning: '1467-de-auto.tag' is already under version control
+svn: warning: '1471-de-auto.tag' is already under version control
+svn: warning: '1472-de-auto.tag' is already under version control
+svn: warning: '1478-de-auto.tag' is already under version control
+svn: warning: '1485-de-auto.tag' is already under version control
+svn: warning: '1488-de-auto.tag' is already under version control
+svn: warning: '1490-de-auto.tag' is already under version control
+svn: warning: '1491-de-auto.tag' is already under version control
+svn: warning: '1493-de-auto.tag' is already under version control
+svn: warning: '1494-de-auto.tag' is already under version control
+svn: warning: '1495-de-auto.tag' is already under version control
+svn: warning: '1497-de-auto.tag' is already under version control
+svn: warning: '1498-de-auto.tag' is already under version control
+svn: warning: '1506-de-auto.tag' is already under version control
+svn: warning: '1508-de-auto.tag' is already under version control
+svn: warning: '1514-de-auto.tag' is already under version control
+svn: warning: '1519-de-auto.tag' is already under version control
+svn: warning: '1522-de-auto.tag' is already under version control
+svn: warning: '1523-de-auto.tag' is already under version control
+svn: warning: '1524-de-auto.tag' is already under version control
+svn: warning: '1527-de-auto.tag' is already under version control
+svn: warning: '1536-de-auto.tag' is already under version control
+svn: warning: '1545-de-auto.tag' is already under version control
+svn: warning: '1546-de-auto.tag' is already under version control
+svn: warning: '1547-de-auto.tag' is already under version control
+svn commit -m 'Automatic annotations, 40-de'
+-------------------------------------------
