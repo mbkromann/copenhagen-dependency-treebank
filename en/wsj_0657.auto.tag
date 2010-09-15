@@ -1,0 +1,223 @@
+<s>
+<W msd="NP=S" tag="NNP" in="" out="">Nikon</W>
+<W msd="NP=S" tag="NNP" in="" out="">Corp.</W>
+<W msd="VADA" tag="VBD" in="" out="">said</W>
+<W msd="ANP" tag="JJ" in="" out="">unconsolidated</W>
+<W msd="ANP" tag="JJ" in="" out="">pretax</W>
+<W msd="NC=S" tag="NN" in="" out="">profit</W>
+<W msd="VADA" tag="VBD" in="" out="">increased</W>
+<W msd="AC" tag="CD" in="" out="">70</W>
+<W msd="NC=S" tag="NN" in="" out="">%</W>
+<W msd="U=" tag="TO" in="" out="">to</W>
+<W msd="AC" tag="CD" in="" out="">12.12</W>
+<W msd="AC" tag="CD" in="" out="">billion</W>
+<W msd="NC=P" tag="NNS" in="" out="">yen</W>
+<W msd="XP" tag="(" in="" out="">(</W>
+<W tag="$" in="" out="">$</W>
+<W msd="AC" tag="CD" in="" out="">85.3</W>
+<W msd="AC" tag="CD" in="" out="">million</W>
+<W msd="XP" tag=")" in="" out="">)</W>
+<W msd="SP" tag="IN" in="" out="">in</W>
+<W msd="PD" tag="DT" in="" out="">the</W>
+<W msd="ANP" tag="JJ" in="" out="">first</W>
+<W msd="NC=S" tag="NN" in="" out="">half</W>
+<W msd="VAP" tag="VBN" in="" out="">ended</W>
+<W msd="NP=S" tag="NNP" in="" out="">Sept.</W>
+<W msd="AC" tag="CD" in="" out="">30</W>
+<W msd="XP" tag="," in="" out="">,</W>
+<W msd="SP" tag="IN" in="" out="">from</W>
+<W msd="AC" tag="CD" in="" out="">7.12</W>
+<W msd="AC" tag="CD" in="" out="">billion</W>
+<W msd="NC=P" tag="NNS" in="" out="">yen</W>
+<W msd="PI" tag="DT" in="" out="">a</W>
+<W msd="NC=S" tag="NN" in="" out="">year</W>
+<W msd="ANP" tag="RB" in="" out="">ago</W>
+<W msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W msd="PD" tag="DT" in="" out="">The</W>
+<W msd="NP=S" tag="NNP" in="" out="">Tokyo</W>
+<W msd="NC=S" tag="NN" in="" out="">camera</W>
+<W msd="NC=S" tag="NN" in="" out="">maker</W>
+<W msd="VADA" tag="VBD" in="" out="">said</W>
+<W msd="ANP" tag="JJ" in="" out="">net</W>
+<W msd="NC=S" tag="NN" in="" out="">income</W>
+<W msd="ANC" tag="RBR" in="" out="">more</W>
+<W msd="SP" tag="IN" in="" out="">than</W>
+<W msd="VADA" tag="VBD" in="" out="">doubled</W>
+<W msd="U=" tag="TO" in="" out="">to</W>
+<W msd="AC" tag="CD" in="" out="">5.85</W>
+<W msd="AC" tag="CD" in="" out="">billion</W>
+<W msd="NC=P" tag="NNS" in="" out="">yen</W>
+<W msd="XP" tag="," in="" out="">,</W>
+<W msd="CC" tag="CC" in="" out="">or</W>
+<W msd="AC" tag="CD" in="" out="">16.08</W>
+<W msd="PI" tag="DT" in="" out="">a</W>
+<W msd="NC=S" tag="NN" in="" out="">share</W>
+<W msd="XP" tag="," in="" out="">,</W>
+<W msd="SP" tag="IN" in="" out="">from</W>
+<W msd="AC" tag="CD" in="" out="">2.63</W>
+<W msd="AC" tag="CD" in="" out="">billion</W>
+<W msd="NC=P" tag="NNS" in="" out="">yen</W>
+<W msd="XP" tag="," in="" out="">,</W>
+<W msd="CC" tag="CC" in="" out="">or</W>
+<W msd="AC" tag="CD" in="" out="">7.24</W>
+<W msd="NC=P" tag="NNS" in="" out="">yen</W>
+<W msd="PI" tag="DT" in="" out="">a</W>
+<W msd="NC=S" tag="NN" in="" out="">share</W>
+<W msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W msd="NP=S" tag="NNP" in="" out="">Nikon</W>
+<W msd="VADA" tag="VBD" in="" out="">said</W>
+<W msd="NC=P" tag="NNS" in="" out="">sales</W>
+<W msd="VADA" tag="VBD" in="" out="">rose</W>
+<W msd="SP" tag="IN" in="" out="">despite</W>
+<W msd="PD" tag="DT" in="" out="">the</W>
+<W msd="ANP" tag="JJ" in="" out="">adverse</W>
+<W msd="NC=S" tag="NN" in="" out="">effect</W>
+<W msd="SP" tag="IN" in="" out="">of</W>
+<W msd="NP=S" tag="NNP" in="" out="">Japan</W>
+<W msd="U=" tag="POS" in="" out="">'s</W>
+<W msd="ANP" tag="JJ" in="" out="">unpopular</W>
+<W msd="NC=S" tag="NN" in="" out="">consumption</W>
+<W msd="NC=S" tag="NN" in="" out="">tax</W>
+<W msd="XP" tag="," in="" out="">,</W>
+<W msd="VAP" tag="VBN" in="" out="">introduced</W>
+<W msd="SP" tag="IN" in="" out="">in</W>
+<W msd="NP=S" tag="NNP" in="" out="">April</W>
+<W msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W msd="VAG" tag="VBG" in="" out="">Increasing</W>
+<W msd="ANP" tag="JJ" in="" out="">personal</W>
+<W msd="NC=S" tag="NN" in="" out="">spending</W>
+<W msd="CC" tag="CC" in="" out="">and</W>
+<W msd="NC=S" tag="NN" in="" out="">capital</W>
+<W msd="NC=S" tag="NN" in="" out="">investment</W>
+<W msd="VADR" tag="VBP" in="" out="">are</W>
+<W msd="VAG" tag="VBG" in="" out="">fueling</W>
+<W msd="NC=S" tag="NN" in="" out="">growth</W>
+<W msd="XP" tag="," in="" out="">,</W>
+<W msd="PD" tag="DT" in="" out="">the</W>
+<W msd="NC=S" tag="NN" in="" out="">company</W>
+<W msd="VADA" tag="VBD" in="" out="">said</W>
+<W msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W msd="VAG" tag="VBG" in="" out="">Rising</W>
+<W msd="NC=S" tag="NN" in="" out="">export</W>
+<W msd="NC=P" tag="NNS" in="" out="">sales</W>
+<W msd="ANP" tag="RB" in="" out="">also</W>
+<W msd="VADA" tag="VBD" in="" out="">contributed</W>
+<W msd="U=" tag="TO" in="" out="">to</W>
+<W msd="ANP" tag="JJ" in="" out="">strong</W>
+<W msd="NC=S" tag="NN" in="" out="">growth</W>
+<W msd="XP" tag="," in="" out="">,</W>
+<W msd="NP=S" tag="NNP" in="" out="">Nikon</W>
+<W msd="VADA" tag="VBD" in="" out="">added</W>
+<W msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W msd="ANP" tag="JJ" in="" out="">Total</W>
+<W msd="NC=P" tag="NNS" in="" out="">sales</W>
+<W msd="VADA" tag="VBD" in="" out="">gained</W>
+<W msd="AC" tag="CD" in="" out="">20</W>
+<W msd="NC=S" tag="NN" in="" out="">%</W>
+<W msd="U=" tag="TO" in="" out="">to</W>
+<W msd="AC" tag="CD" in="" out="">122.36</W>
+<W msd="AC" tag="CD" in="" out="">billion</W>
+<W msd="NC=P" tag="NNS" in="" out="">yen</W>
+<W msd="SP" tag="IN" in="" out="">from</W>
+<W msd="AC" tag="CD" in="" out="">102.01</W>
+<W msd="AC" tag="CD" in="" out="">billion</W>
+<W msd="NC=P" tag="NNS" in="" out="">yen</W>
+<W msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W msd="NC=P" tag="NNS" in="" out="">Exports</W>
+<W msd="VADA" tag="VBD" in="" out="">made</W>
+<W msd="RG" tag="RP" in="" out="">up</W>
+<W msd="AC" tag="CD" in="" out="">46.2</W>
+<W msd="NC=S" tag="NN" in="" out="">%</W>
+<W msd="SP" tag="IN" in="" out="">of</W>
+<W msd="PD" tag="DT" in="" out="">the</W>
+<W msd="ANS" tag="JJS" in="" out="">latest</W>
+<W msd="NC=S" tag="NN" in="" out="">year</W>
+<W msd="U=" tag="POS" in="" out="">'s</W>
+<W msd="NC=S" tag="NN" in="" out="">total</W>
+<W msd="XP" tag="," in="" out="">,</W>
+<W msd="ANP" tag="RB" in="" out="">up</W>
+<W msd="SP" tag="IN" in="" out="">from</W>
+<W msd="AC" tag="CD" in="" out="">39.8</W>
+<W msd="NC=S" tag="NN" in="" out="">%</W>
+<W msd="PI" tag="DT" in="" out="">a</W>
+<W msd="NC=S" tag="NN" in="" out="">year</W>
+<W msd="ANP" tag="RB" in="" out="">ago</W>
+<W msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W msd="NC=S" tag="NN" in="" out="">Camera</W>
+<W msd="NC=P" tag="NNS" in="" out="">sales</W>
+<W msd="VADA" tag="VBD" in="" out="">showed</W>
+<W msd="PD" tag="DT" in="" out="">the</W>
+<W msd="ANS" tag="JJS" in="" out="">strongest</W>
+<W msd="NC=P" tag="NNS" in="" out="">gains</W>
+<W msd="XP" tag="," in="" out="">,</W>
+<W msd="VAG" tag="VBG" in="" out="">rising</W>
+<W msd="AC" tag="CD" in="" out="">37</W>
+<W msd="NC=S" tag="NN" in="" out="">%</W>
+<W msd="U=" tag="TO" in="" out="">to</W>
+<W msd="AC" tag="CD" in="" out="">50.59</W>
+<W msd="AC" tag="CD" in="" out="">billion</W>
+<W msd="NC=P" tag="NNS" in="" out="">yen</W>
+<W msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W msd="NP=S" tag="NNP" in="" out="">Nikon</W>
+<W msd="NC=S" tag="NN" in="" out="">forecast</W>
+<W msd="NC=P" tag="NNS" in="" out="">sales</W>
+<W msd="SP" tag="IN" in="" out="">for</W>
+<W msd="PD" tag="DT" in="" out="">the</W>
+<W msd="NC=S" tag="NN" in="" out="">year</W>
+<W msd="VAG" tag="VBG" in="" out="">ending</W>
+<W msd="NP=S" tag="NNP" in="" out="">March</W>
+<W msd="AC" tag="CD" in="" out="">31</W>
+<W msd="VA" tag="MD" in="" out="">will</W>
+<W msd="VAF" tag="VB" in="" out="">rise</W>
+<W msd="AC" tag="CD" in="" out="">9.6</W>
+<W msd="NC=S" tag="NN" in="" out="">%</W>
+<W msd="U=" tag="TO" in="" out="">to</W>
+<W msd="AC" tag="CD" in="" out="">240</W>
+<W msd="AC" tag="CD" in="" out="">billion</W>
+<W msd="NC=P" tag="NNS" in="" out="">yen</W>
+<W msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W msd="ANP" tag="JJ" in="" out="">Pretax</W>
+<W msd="NC=S" tag="NN" in="" out="">profit</W>
+<W msd="VADR" tag="VBZ" in="" out="">is</W>
+<W msd="VAP" tag="VBN" in="" out="">expected</W>
+<W msd="U=" tag="TO" in="" out="">to</W>
+<W msd="VAF" tag="VB" in="" out="">increase</W>
+<W msd="AC" tag="CD" in="" out="">18</W>
+<W msd="NC=S" tag="NN" in="" out="">%</W>
+<W msd="U=" tag="TO" in="" out="">to</W>
+<W msd="AC" tag="CD" in="" out="">22</W>
+<W msd="AC" tag="CD" in="" out="">billion</W>
+<W msd="NC=P" tag="NNS" in="" out="">yen</W>
+<W msd="CC" tag="CC" in="" out="">and</W>
+<W msd="ANP" tag="JJ" in="" out="">net</W>
+<W msd="NC=S" tag="NN" in="" out="">income</W>
+<W msd="VADR" tag="VBZ" in="" out="">is</W>
+<W msd="VAP" tag="VBN" in="" out="">expected</W>
+<W msd="U=" tag="TO" in="" out="">to</W>
+<W msd="VAF" tag="VB" in="" out="">rise</W>
+<W msd="AC" tag="CD" in="" out="">53</W>
+<W msd="NC=S" tag="NN" in="" out="">%</W>
+<W msd="U=" tag="TO" in="" out="">to</W>
+<W msd="AC" tag="CD" in="" out="">10.5</W>
+<W msd="AC" tag="CD" in="" out="">billion</W>
+<W msd="NC=P" tag="NNS" in="" out="">yen</W>
+<W msd="XP" tag="." in="" out="">.</W>
+</s>
