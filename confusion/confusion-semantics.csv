@@ -1,24 +1,24 @@
 {about}	27	37%={patient}	29.6%={about}	22.2%={arg}	7.4%={func}	3.7%={loc}
-{agent}	49	49%={agent}	30.6%={arg}	8.2%={experiencer}	6.1%={patient}	2%={loc}	2%={goal}	2%={source}
-{apart}	17	52.9%={quant}	35.3%={apart}	5.9%={loc}	5.9%={const}
-{arg}	145	46.9%={arg}	10.3%={agent}	6.2%={patient}	5.5%={const}	5.5%={func}	5.5%={goal}	4.8%={loc}	4.8%={source}	4.1%={about}	3.4%={poss}	2.1%={other}	0.7%={time}
+{agent}	55	52.7%={agent}	29.1%={arg}	7.3%={experiencer}	5.5%={patient}	1.8%={loc}	1.8%={goal}	1.8%={source}
+{apart}	19	47.4%={quant}	42.1%={apart}	5.3%={loc}	5.3%={const}
+{arg}	147	46.9%={arg}	10.9%={agent}	6.1%={patient}	5.4%={const}	5.4%={func}	5.4%={goal}	4.8%={loc}	4.8%={source}	4.1%={about}	3.4%={poss}	2%={other}	0.7%={time}
 {cause}	1	100%={goal}
 {class}	3	66.7%={other}	33.3%={const}
-{const}	42	57.1%={const}	19%={arg}	4.8%={form}	4.8%={poss}	2.4%={loc}	2.4%={func}	2.4%={apart}	2.4%={class}	2.4%={goal}	2.4%={source}
+{const}	44	59.1%={const}	18.2%={arg}	4.5%={form}	4.5%={poss}	2.3%={loc}	2.3%={func}	2.3%={apart}	2.3%={class}	2.3%={goal}	2.3%={source}
 {elab}	5	80%={elab}	20%={loc}
 {eval}	1	100%={eval}
 {experiencer}	5	80%={agent}	20%={patient}
 {form}	5	40%={const}	40%={form}	20%={loc}
-{func}	37	48.6%={func}	21.6%={arg}	8.1%={loc}	5.4%={about}	5.4%={goal}	2.7%={const}	2.7%={patient}	2.7%={iden}	2.7%={other}
+{func}	42	54.8%={func}	19%={arg}	7.1%={loc}	4.8%={about}	4.8%={goal}	2.4%={const}	2.4%={patient}	2.4%={iden}	2.4%={other}
 {goal}	42	54.8%={goal}	19%={arg}	4.8%={loc}	4.8%={func}	2.4%={cause}	2.4%={resem}	2.4%={const}	2.4%={agent}	2.4%={recipient}	2.4%={patient}	2.4%={other}
 {iden}	1	100%={func}
 {location}	2	50%={loc}	50%={location}
-{loc}	72	56.9%={loc}	9.7%={arg}	6.9%={source}	4.2%={func}	2.8%={goal}	2.8%={patient}	2.8%={poss}	2.8%={other}	1.4%={const}	1.4%={agent}	1.4%={form}	1.4%={location}	1.4%={elab}	1.4%={apart}	1.4%={recipient}	1.4%={about}
-{other}	15	20%={arg}	20%={poss}	13.3%={loc}	13.3%={class}	6.7%={quant}	6.7%={time}	6.7%={goal}	6.7%={func}	6.7%={other}
-{patient}	55	49.1%={patient}	18.2%={about}	16.4%={arg}	5.5%={agent}	3.6%={loc}	1.8%={func}	1.8%={experiencer}	1.8%={goal}	1.8%={poss}
+{loc}	73	57.5%={loc}	9.6%={arg}	6.8%={source}	4.1%={func}	2.7%={goal}	2.7%={patient}	2.7%={poss}	2.7%={other}	1.4%={const}	1.4%={agent}	1.4%={form}	1.4%={location}	1.4%={elab}	1.4%={apart}	1.4%={recipient}	1.4%={about}
+{other}	16	18.8%={arg}	18.8%={poss}	12.5%={loc}	12.5%={class}	12.5%={other}	6.3%={quant}	6.3%={time}	6.3%={goal}	6.3%={func}
+{patient}	63	55.6%={patient}	15.9%={about}	14.3%={arg}	4.8%={agent}	3.2%={loc}	1.6%={func}	1.6%={experiencer}	1.6%={goal}	1.6%={poss}
 {poss}	23	39.1%={poss}	21.7%={arg}	13%={other}	8.7%={loc}	8.7%={const}	4.3%={patient}	4.3%={source}
 {quant}	16	56.3%={apart}	37.5%={quant}	6.3%={other}
 {recipient}	2	50%={loc}	50%={goal}
 {resem}	2	50%={resem}	50%={goal}
 {source}	35	48.6%={source}	20%={arg}	14.3%={loc}	8.6%={time}	2.9%={const}	2.9%={agent}	2.9%={poss}
-{time}	22	77.3%={time}	13.6%={source}	4.5%={arg}	4.5%={other}
+{time}	25	80%={time}	12%={source}	4%={arg}	4%={other}

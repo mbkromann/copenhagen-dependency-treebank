@@ -1,17 +1,15 @@
-assoc	4	62.5%=assoc	25%=assoc-telic	12.5%=coref
-assoc-agentive	5	40%=assoc-telic	20%=assoc-const	20%=coref	20%=assoc-agentive
-assoc-const	34	61.8%=assoc-const	14.7%=assoc-telic	8.8%=coref	5.9%=assoc-loc	2.9%=coref-iden	2.9%=coref-var	2.9%=assoc-agentive
-assoc-event	3	66.7%=assoc-event	33.3%=coref-res.prg
-assoc-inst	1	100%=coref-iden
-assoc-loc	11	81.8%=assoc-loc	18.2%=assoc-const
-assoc-patient	1	100%=coref-var
-assoc-telic	43	74.4%=assoc-telic	11.6%=assoc-const	4.7%=coref-var	4.7%=assoc-agentive	2.3%=coref-res	2.3%=assoc
-assoc-time	1	100%=assoc-time
-coref	289	84.1%=coref	7.3%=coref-var	3.5%=coref-iden	2.9%=coref-res	0.9%=assoc-const	0.3%=coref assoc-telic	0.3%=coref-res.prg	0.3%=assoc-agentive	0.3%=assoc
-coref assoc-telic	1	100%=coref
+assoc	9	44.4%=assoc-const	38.9%=assoc	11.1%=coref-var	5.6%=coref
+assoc-agentive	4	50%=assoc-agentive	25%=assoc-telic	25%=assoc-const
+assoc-const	39	66.7%=assoc-const	10.3%=coref-var	10.3%=assoc	5.1%=assoc-telic	2.6%=coref-iden	2.6%=coref	2.6%=assoc-agentive
+assoc-event	3	100%=assoc-event
+assoc-formal	1	100%=assoc-formal
+assoc-loc	5	100%=assoc-loc
+assoc-telic	24	83.3%=assoc-telic	8.3%=assoc-const	4.2%=coref-res	4.2%=assoc-agentive
+coref	141	92.2%=coref	4.4%=coref-var	1.7%=coref-iden	0.7%=coref-res	0.7%=assoc	0.4%=assoc-const
 coref coref-iden	1	100%=coref-iden
-coref-iden	85	65.9%=coref-iden	20%=coref-var	10.6%=coref	1.2%=assoc-const	1.2%=coref coref-iden	1.2%=assoc-inst
-coref-res	41	65.9%=coref-res	24.4%=coref	4.9%=coref-res.prg	2.4%=assoc-telic	2.4%=coref-var
-coref-res.prg	6	33.3%=coref	33.3%=coref-res	16.7%=coref-var	16.7%=assoc-event
-coref-var	116	62.5%=coref-var	17.7%=coref	14.7%=coref-iden	1.7%=assoc-telic	0.9%=assoc-const	0.9%=coref-res	0.9%=coref-res.prg	0.9%=assoc-patient
-ref	64	100%=ref
+coref-evol	1	100%=coref-var
+coref-iden	52	80.8%=coref-iden	10.3%=coref-var	3.2%=coref	1.9%=assoc-const	1.9%=coref-res	1.9%=coref coref-iden
+coref-res	25	72%=coref-res	12%=coref-var	4%=assoc-telic	4%=coref-iden	4%=coref	4%=coref-res.prg
+coref-res.prg	1	100%=coref-res
+coref-var	97	79%=coref-var	6.2%=coref	5.5%=coref-iden	4.1%=assoc-const	3.1%=coref-res	1%=coref-evol	1%=assoc
+ref	42	100%=ref
