@@ -27,8 +27,8 @@
 <s>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="1:pnct">Por el contrario</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
-<W lemma="deber" msd="VAD" tag="VMfin" in="" out="1:vobj|2:subj|23:pnct">debe</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="" out="-1:robj|1:vobj|2:subj|23:pnct">debe</W>
 <W lemma="respetar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="">respetar</W>
 <W lemma="el" msd="PD" tag="ART" in="-2:subj" out="1:nobj">la</W>
 <W lemma="naturaleza" msd="NC" tag="NC" in="-1:nobj" out="">naturaleza</W>
@@ -75,8 +75,8 @@
 <s>
 <p>
 <s>
-<W lemma="se" msd="PC" tag="SE" in="" out="">Se</W>
-<W lemma="tratar" msd="VAD" tag="VLfin" in="" out="7:conj|17:pnct">trata</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">Se</W>
+<W lemma="tratar" msd="VAD" tag="VLfin" in="" out="-1:robj|7:conj|17:pnct">trata</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">240</W>
 <W lemma="hectárea" msd="NC" tag="NC" in="-1:nobj" out="">hectáreas</W>
@@ -210,8 +210,8 @@
 <W lemma="." msd="XP" tag="FS" in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="se" msd="PC" tag="SE" in="" out="">Se</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="1:subj|3:pnct">construirándos</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">Se</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-1:robj|1:subj|3:pnct">construirándos</W>
 <W lemma="dos" msd="AC" tag="CARD" in="-1:subj" out="1:nobj">dos</W>
 <W lemma="vía" msd="NC" tag="NC" in="-1:nobj" out="">vías</W>
 <W lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>

@@ -14,8 +14,8 @@
 <s>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="1:nobj">En</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="calle" msd="NC" tag="NC" in="-1:nobj" out="1:attr#">calle</W>
-<W lemma="lateral" msd="AN" tag="ADJ" in="-1:attr#" out="">lateral</W>
+<W lemma="calle" msd="NC" tag="NC" in="-1:nobj" out="">calle</W>
+<W lemma="lateral" msd="AN" tag="ADJ" in="" out="">lateral</W>
 <W lemma="un" msd="PD" tag="ART" in="2:subj" out="1:nobj">una</W>
 <W lemma="fachada" msd="NC" tag="NC" in="-1:nobj" out="">fachada</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-2:subj|5:pnct">destella</W>
@@ -63,8 +63,8 @@
 <W lemma="con" msd="SP" tag="SCENE" in="" out="1:nobj">con</W>
 <W lemma="vestido" msd="NC" tag="NC" in="-1:nobj" out="">vestidos</W>
 <W lemma="ajustar" msd="VAF" tag="VLadj" in="" out="">ajustados</W>
-<W lemma="circular" msd="VAD" tag="VLfin" in="" out="-4:subj|1:@loc|8:pnct">circulan</W>
-<W lemma="a~lo~largo~de" msd="SP" tag="SCENE" in="-1:@loc" out="1:nobj">a lo largo de</W>
+<W lemma="circular" msd="VAD" tag="VLfin" in="" out="-4:subj|8:pnct">circulan</W>
+<W lemma="a~lo~largo~de" msd="SP" tag="SCENE" in="" out="1:nobj">a lo largo de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="fila" msd="NC" tag="NC" in="-1:nobj" out="">fila</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
@@ -108,8 +108,8 @@
 <W lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="4:vobj">que</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="1:nobj">en</W>
 <W lemma="Checoslovaquia" msd="NP" tag="NP" in="-1:nobj" out="">Checoslovaquia</W>
-<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
-<W lemma="poder" msd="VAD" tag="VLfin" in="-4:vobj" out="1:vobj">podía</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
+<W lemma="poder" msd="VAD" tag="VLfin" in="-4:vobj" out="-1:robj|1:vobj">podía</W>
 <W lemma="comprar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">comprar</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="prostituta" msd="NC" tag="NC" in="-1:nobj" out="">prostituta</W>

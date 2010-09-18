@@ -5,9 +5,9 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|3:relr">las</W>
 <W lemma="medicina" msd="NC" tag="NC" in="-1:nobj" out="">medicinas</W>
 <W lemma="que" msd="CS" tag="CQUE" in="1:subj" out="">que</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="-3:relr" out="-1:subj|1:preds|2:time">fueron</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="-3:relr" out="-1:subj|1:preds">fueron</W>
 <W lemma="introducir" msd="VAF" tag="VLadj" in="-1:preds" out="">introducidas</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-2:time" out="1:nobj">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">80</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="-10:subj|1:vobj|14:pnct">han</W>
@@ -30,7 +30,7 @@
 <W lemma="o" msd="CC" tag="CC" in="1:coord" out="">O</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="-1:coord|1:vobj">han</W>
 <W lemma="dar" msd="VAF" tag="VLadj" in="-1:vobj" out="1:dobj">dado</W>
-<W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="2:nobj|8:pnct|9:conj|22:pnct|23:conj|43:pnct|44:conj|51:nobj">un</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="2:nobj|8:pnct|9:conj|22:pnct|23:conj|31:pnct|51:nobj">un</W>
 <W lemma="bueno" msd="AN" tag="ADJ" in="" out="">mejor</W>
 <W lemma="tratamiento" msd="NC" tag="NC" in="-2:nobj" out="">tratamiento</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
@@ -41,9 +41,9 @@
 <W lemma="," msd="XP" tag="CM" in="-8:pnct" out="">,</W>
 <W lemma="un" msd="PD" tag="ART" in="-9:conj" out="1:nobj">un</W>
 <W lemma="tratamiento" msd="NC" tag="NC" in="-1:nobj" out="">tratamiento</W>
-<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj|2:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">úlcera</W>
-<W lemma="sin" msd="SP" tag="SCENE" in="" out="1:nobj">sin</W>
+<W lemma="sin" msd="SP" tag="SCENE" in="-2:nobj" out="1:nobj">sin</W>
 <W lemma="intervención" msd="NC" tag="NC" in="-1:nobj" out="3:conj">intervención</W>
 <W lemma="quirúrgico" msd="AN" tag="ADJ" in="" out="">quirúrgica</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
@@ -53,7 +53,7 @@
 <s>
 <W lemma="enfermedad" msd="NC" tag="NC" in="-3:nobj" out="">enfermedad</W>
 <W lemma="," msd="XP" tag="CM" in="-22:pnct" out="">,</W>
-<W lemma="un" msd="PD" tag="ART" in="-23:conj" out="1:nobj|8:pnct|11:relr">un</W>
+<W lemma="un" msd="PD" tag="ART" in="-23:conj" out="1:nobj|11:relr">un</W>
 <W lemma="tratamiento" msd="NC" tag="NC" in="-1:nobj" out="">tratamiento</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">medicinal</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="3:nobj">de</W>
@@ -61,7 +61,7 @@
 <W lemma="patología" msd="NC" tag="NC" in="-1:nobj" out="">patologías</W>
 <W lemma="enfermedad" msd="NC" tag="NC" in="-3:nobj" out="">enfermedades</W>
 <W lemma="mental" msd="AN" tag="ADJ" in="" out="">mentales</W>
-<W lemma="," msd="XP" tag="CM" in="-8:pnct" out="">,</W>
+<W lemma="," msd="XP" tag="CM" in="-31:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="implicar" msd="VAD" tag="VLfin" in="-11:relr" out="-2:subj|3:dobj">implica</W>
@@ -71,10 +71,10 @@
 <W lemma="alguno" msd="AN" tag="QU" in="3:subj" out="1:nobj">algunos</W>
 <W lemma="hospital" msd="NC" tag="NC" in="-1:nobj" out="">hospitales</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">psiquiátricos</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="-4:vobj" out="-3:subj|1:preds|9:pnct">sean</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="-4:vobj" out="-3:subj|1:preds|2:pnct|3:preds|9:pnct">sean</W>
 <W lemma="innecesario" msd="AN" tag="ADJ" in="-1:preds" out="">innecesarios</W>
-<W lemma="," msd="XP" tag="CM" in="-43:pnct" out="">,</W>
-<W lemma="un" msd="PD" tag="ART" in="-44:conj" out="2:nobj">un</W>
+<W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
+<W lemma="un" msd="PD" tag="ART" in="-3:preds" out="2:nobj">un</W>
 <W lemma="bueno" msd="AN" tag="ADJ" in="" out="">mejor</W>
 <W lemma="tratamiento" msd="NC" tag="NC" in="-2:nobj" out="">tratamiento</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
@@ -87,8 +87,8 @@
 <p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="17:subj" out="1:nobj|4:relr|12:pnct">Los</W>
-<W lemma="ahorro" msd="NC" tag="NC" in="-1:nobj" out="1:aobj.dobj">ahorros</W>
-<W lemma="social" msd="AN" tag="ADJ" in="-1:aobj.dobj" out="">sociales</W>
+<W lemma="ahorro" msd="NC" tag="NC" in="-1:nobj" out="">ahorros</W>
+<W lemma="social" msd="AN" tag="ADJ" in="" out="">sociales</W>
 <W lemma="que" msd="CS" tag="CQUE" in="1:subj" out="">que</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="-4:relr" out="-1:subj|1:preds">son</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:preds" out="1:nobj">una</W>
@@ -100,10 +100,10 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">terapéutico</W>
 <W lemma="," msd="XP" tag="CM" in="-12:pnct" out="">,</W>
 <W lemma="no" msd="U=" tag="NEG" in="4:neg" out="">no</W>
-<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="se" msd="PC" tag="SE" in="3:robj" out="">se</W>
 <p>
 <s>
-<W lemma="evidenciar" msd="VAD" tag="VLfin" in="" out="-17:subj|-4:neg|1:man|6:pnct">evidencian</W>
+<W lemma="evidenciar" msd="VAD" tag="VLfin" in="" out="-17:subj|-4:neg|-3:robj|1:man|6:pnct">evidencian</W>
 <W lemma="directamente" msd="RG" tag="ADV" in="-1:man" out="">directamente</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
@@ -204,8 +204,8 @@
 <s>
 <W lemma="con" msd="SP" tag="SCENE" in="" out="1:nobj|8:pnct">Con</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="uso" msd="NC" tag="NC" in="-1:nobj" out="">uso</W>
-<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
+<W lemma="uso" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.subj">uso</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.subj" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="medicamento" msd="NC" tag="NC" in="-1:nobj" out="">medicamentos</W>
 <W lemma="para" msd="SP" tag="SCENE" in="" out="1:nobj">para</W>
@@ -222,8 +222,8 @@
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj|2:pnct|3:modp">220</W>
 <W lemma="dólar" msd="NC" tag="NC" in="-1:nobj" out="">dólares</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
-<W lemma="es~decir" msd="RG" tag="ADV" in="-3:modp" out="1:dobj">es decir</W>
-<W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
+<W lemma="es~decir" msd="RG" tag="ADV" in="-3:modp" out="1:nobj">es decir</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="diferencia" msd="NC" tag="NC" in="-1:nobj" out="">diferencia</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">500</W>

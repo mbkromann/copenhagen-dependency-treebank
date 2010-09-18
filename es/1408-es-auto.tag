@@ -40,20 +40,20 @@
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="9:subj" out="2:nobj|7:nobj">el</W>
 <W lemma="nuevo" msd="AN" tag="ADJ" in="" out="">nuevo</W>
-<W lemma="presidente" msd="NC" tag="NC" in="-2:nobj" out="1:pobj.dobj">presidente</W>
-<W lemma="del" msd="SP" tag="PDEL" in="-1:pobj.dobj" out="1:nobj">del</W>
+<W lemma="presidente" msd="NC" tag="NC" in="-2:nobj" out="">presidente</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="1:nobj">del</W>
 <W lemma="partido" msd="NC" tag="NC" in="-1:nobj" out="">partido</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="2:namef" out="">Poul</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namel" out="">Nyrup</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-7:nobj" out="-2:namef|-1:namel">Rasmussen</W>
-<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
-<W lemma="unir" msd="VAD" tag="VLfin" in="" out="-9:subj|7:pnct|8:vobj|29:pnct">une</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
+<W lemma="unir" msd="VAD" tag="VLfin" in="" out="-9:subj|-1:robj|7:pnct|8:vobj|29:pnct">une</W>
 <W lemma="al" msd="SP" tag="PAL" in="" out="1:nobj">al</W>
 <W lemma="punto" msd="NC" tag="NC" in="-1:nobj" out="">punto</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="vista" msd="NC" tag="NC" in="-1:nobj" out="">vista</W>
-<W lemma="&quot;" msd="XP" tag="QT" in="1:pnct¹" out="">"</W>
-<W lemma="oficial" msd="AN" tag="ADJ" in="" out="-1:pnct¹">oficial</W>
+<W lemma="&quot;" msd="XP" tag="QT" in="1:pnct" out="">"</W>
+<W lemma="oficial" msd="AN" tag="ADJ" in="" out="-1:pnct">oficial</W>
 <W lemma="&quot;" msd="XP" tag="QT" in="-7:pnct" out="">"</W>
 <W lemma="decir" msd="VAF" tag="VLadj" in="-8:vobj" out="1:dobj">diciendo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="2:vobj">que</W>
@@ -100,13 +100,13 @@
 <p>
 <s>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="1:nobj">En</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:nobj">Det</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Fri</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Det</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Fri</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="2:namef" out="">Aktuelt</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Ritt</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="-2:namef|-1:namef">Bjerregaard</W>
-<W lemma="exhortar" msd="VAD" tag="VLfin" in="" out="-1:subj">exhorta</W>
-<W lemma="a" msd="SP" tag="SCENE" in="" out="1:nobj">a</W>
+<W lemma="exhortar" msd="VAD" tag="VLfin" in="" out="-1:subj|1:dobj">exhorta</W>
+<W lemma="a" msd="SP" tag="SCENE" in="-1:dobj" out="1:nobj">a</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">un</W>
 <W lemma="nuevo" msd="AN" tag="ADJ" in="" out="">nuevo</W>
 <W lemma="referéndum" msd="NC" tag="NC" in="-2:nobj" out="">referéndum</W>
@@ -170,14 +170,14 @@
 <W lemma="el" msd="PD" tag="ART" in="-5:appa" out="3:nobj|7:appr">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">destronado</W>
 <W lemma="ex" msd="AN" tag="ADJ" in="" out="">ex</W>
-<W lemma="presidente" msd="NC" tag="NC" in="-3:nobj" out="1:pobj.dobj">presidente</W>
-<W lemma="del" msd="SP" tag="PDEL" in="-1:pobj.dobj" out="1:nobj">del</W>
+<W lemma="presidente" msd="NC" tag="NC" in="-3:nobj" out="">presidente</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="1:nobj">del</W>
 <W lemma="partido" msd="NC" tag="NC" in="-1:nobj" out="">partido</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Svend</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-7:appr" out="-1:namef">Auken</W>
 <W lemma="," msd="XP" tag="CM" in="-13:pnct" out="">,</W>
-<W lemma="contribuir" msd="VAD" tag="VLfin" in="" out="-14:subj|1:accom|15:pnct">contribuye</W>
-<W lemma="con" msd="SP" tag="SCENE" in="-1:accom" out="1:nobj">con</W>
+<W lemma="contribuir" msd="VAD" tag="VLfin" in="" out="-14:subj|15:pnct">contribuye</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="1:nobj">con</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="tercero" msd="AO" tag="ORD" in="-1:nobj" out="1:nobj">tercer</W>
 <W lemma="punto" msd="NC" tag="NC" in="-1:nobj" out="">punto</W>
@@ -215,21 +215,21 @@
 <W lemma="." msd="XP" tag="FS" in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="porque" msd="CS" tag="CSUBX" in="5:cause" out="">Porque</W>
-<W lemma=":" msd="XP" tag="COLON" in="4:pnct" out="">:</W>
+<W lemma="porque" msd="CS" tag="CSUBX" in="5:cause" out="1:pnct">Porque</W>
+<W lemma=":" msd="XP" tag="COLON" in="-1:pnct" out="">:</W>
 <W lemma="el" msd="PD" tag="ART" in="3:subj" out="1:nobj">el</W>
 <W lemma="referéndum" msd="NC" tag="NC" in="-1:nobj" out="">referéndum</W>
 <W lemma="danés" msd="AN" tag="ADJ" in="" out="">danés</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-5:cause|-4:pnct|-3:subj|2:preds|18:pnct">es</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-5:cause|-3:subj|2:preds|18:pnct">es</W>
 <W lemma="jurídico" msd="RG" tag="ADV" in="1:man" out="">jurídicamente</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-2:preds" out="-1:man|7:conj">vinculante</W>
-<W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
+<W lemma="y" msd="CC" tag="CC" in="6:coord" out="">y</W>
 <W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>
-<W lemma="en~consecuencia" msd="RG" tag="ADV" in="4:cause" out="-2:coord|-1:pnct|1:pnct">en consecuencia</W>
+<W lemma="en~consecuencia" msd="RG" tag="ADV" in="4:cause" out="-1:pnct|1:pnct">en consecuencia</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="Dinamarca" msd="NP" tag="NP" in="2:subj" out="">Dinamarca</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
-<W lemma="estar" msd="VAD" tag="VEfin" in="-7:conj" out="-4:cause|-2:subj|-1:neg|1:preds">está</W>
+<W lemma="estar" msd="VAD" tag="VEfin" in="-7:conj" out="-6:coord|-4:cause|-2:subj|-1:neg|1:preds">está</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:preds" out="1:nobj">en</W>
 <W lemma="condición" msd="NC" tag="NC" in="-1:nobj" out="">condiciones</W>
 <W lemma="de" msd="CS" tag="CSUBI" in="" out="1:vobj">de</W>

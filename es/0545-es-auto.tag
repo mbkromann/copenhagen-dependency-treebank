@@ -54,34 +54,34 @@
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
 <W lemma="cable" msd="NC" tag="NC" in="-6:conj" out="1:pnct|2:conj">cables</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="aguja" msd="NC" tag="NC" in="-2:conj" out="3:pnct|4:conj|6:pnct">aguja</W>
+<W lemma="aguja" msd="NC" tag="NC" in="-2:conj" out="3:pnct|4:conj">aguja</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="brújula" msd="NC" tag="NC" in="-1:nobj" out="">brújula</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
-<W lemma="barra" msd="NC" tag="NC" in="-4:conj" out="3:conj|6:pnct|7:conj|17:pnct|18:pnct|19:conj">barra</W>
+<W lemma="barra" msd="NC" tag="NC" in="-4:conj" out="2:pnct|3:conj|6:pnct|7:conj">barra</W>
 <W lemma="magnético" msd="AN" tag="ADJ" in="" out="">magnética</W>
-<W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
+<W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
 <W lemma="un" msd="PD" tag="ART" in="-3:conj" out="1:nobj">un</W>
-<W lemma="voltímetro" msd="NC" tag="NMEA" in="-1:nobj" out="">voltímetro</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">sensitivo</W>
+<W lemma="voltímetro" msd="NC" tag="NMEA" in="-1:nobj" out="1:nobj">voltímetro</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">sensitivo</W>
 <W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
 <W lemma="bobina" msd="NC" tag="NC" in="-7:conj" out="1:pnct">bobinas</W>
 <W lemma="(" msd="XP" tag="LP" in="-1:pnct" out="1:nobj">(</W>
 <W lemma="@card@" msd="XS" tag="CODE" in="-1:nobj" out="1:nobj|2:pnct|3:nobj">200</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">espiras</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
-<W lemma="@card@" msd="XS" tag="CODE" in="-3:nobj" out="1:conj">400</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:conj" out="2:conj">espiras</W>
+<W lemma="@card@" msd="XS" tag="CODE" in="-3:nobj" out="1:nobj|6:pnct|7:conj|10:pnct">400</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="2:conj">espiras</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-2:conj" out="-1:coord|1:nobj">1600</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">espiras</W>
-<W lemma=")" msd="XP" tag="RP" in="-17:pnct" out="">)</W>
-<W lemma="," msd="XP" tag="CM" in="-18:pnct" out="">,</W>
-<W lemma="núcleo" msd="NC" tag="NC" in="-19:conj" out="3:pnct|4:conj|9:pnct">núcleo</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="1:pnct">espiras</W>
+<W lemma=")" msd="XP" tag="RP" in="-1:pnct" out="">)</W>
+<W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
+<W lemma="núcleo" msd="NC" tag="NC" in="-7:conj" out="9:pnct">núcleo</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="hierro" msd="NC" tag="NC" in="-1:nobj" out="">hierro</W>
-<W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
-<W lemma="pesa" msd="NC" tag="NC" in="-4:conj" out="">pesa</W>
+<W lemma="hierro" msd="NC" tag="NC" in="-1:nobj" out="2:conj">hierro</W>
+<W lemma="," msd="XP" tag="CM" in="-10:pnct" out="">,</W>
+<W lemma="pesa" msd="NC" tag="NC" in="-2:conj" out="">pesa</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="hierro" msd="NC" tag="NC" in="-1:nobj" out="2:conj">hierro</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
@@ -106,12 +106,12 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="campo" msd="NC" tag="NC" in="-1:nobj" out="">campos</W>
 <W lemma="magnético" msd="AN" tag="ADJ" in="" out="1:pnct">magnéticos</W>
-<W lemma=":" msd="XP" tag="COLON" in="-1:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="COLON" in="-1:pnct" out="5:xpl">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="utilizar" msd="VAD" tag="VLfin" in="" out="1:dobj|6:pnct">Utilice</W>
+<W lemma="utilizar" msd="VAD" tag="VLfin" in="-5:xpl" out="1:dobj|6:pnct">Utilice</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">el</W>
 <W lemma="montaje" msd="NC" tag="NC" in="-1:nobj" out="">montaje</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
@@ -129,11 +129,11 @@
 <W lemma="deber" msd="VAD" tag="VMfin" in="" out="-2:subj|1:vobj|12:pnct">deberá</W>
 <W lemma="colocarse" msd="VA" tag="VCLI" in="-1:vobj" out="1:time">colocarse</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:time" out="1:nobj">en</W>
-<W lemma="línea" msd="NC" tag="NC" in="-1:nobj" out="">línea</W>
+<W lemma="línea" msd="NC" tag="NC" in="-1:nobj" out="4:time">línea</W>
 <W lemma="con" msd="SP" tag="SCENE" in="" out="1:nobj">con</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="cable" msd="NC" tag="NC" in="-1:nobj" out="">cable</W>
-<W lemma="antes" msd="RG" tag="ADV" in="" out="">antes</W>
+<W lemma="antes" msd="RG" tag="ADV" in="-4:time" out="">antes</W>
 <W lemma="de" msd="CS" tag="CSUBI" in="" out="1:vobj">de</W>
 <W lemma="conectar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">conectar</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">la</W>
@@ -147,8 +147,8 @@
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="observar" msd="VAF lexical verb infinite" tag="VLinf" in="-4:conj" out="-1:coord|1:dobj">observar</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="2:relr">lo</W>
-<W lemma="que" msd="CS" tag="CQUE" in="1:dobj" out="">que</W>
-<W lemma="ocurrir" msd="VAD" tag="VLfin" in="-2:relr" out="-1:dobj">ocurre</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="ocurrir" msd="VAD" tag="VLfin" in="-2:relr" out="">ocurre</W>
 <W lemma="." msd="XP" tag="FS" in="-8:pnct" out="">.</W>
 </s>
 <s>
@@ -186,8 +186,8 @@
 <W lemma="." msd="XP" tag="FS" in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="utilizar" msd="VAD" tag="VLfin" in="" out="1:subj|3:pnct|13:pnct">Utilice</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj|3:appa|8:conj">las</W>
+<W lemma="utilizar" msd="VAD" tag="VLfin" in="" out="1:dobj|3:pnct|13:pnct">Utilice</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj|3:appa|8:conj">las</W>
 <W lemma="bobina" msd="NC" tag="NC" in="-1:nobj" out="">bobinas</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="-3:appa" out="1:nobj">la</W>
@@ -208,17 +208,17 @@
 </p>
 <p>
 <s>
-<W lemma="inducción" msd="NC" tag="NC" in="10:subj" out="">Inducción</W>
+<W lemma="inducción" msd="NC" tag="NC" in="" out="">Inducción</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="campo" msd="NC" tag="NC" in="-1:nobj" out="">campos</W>
-<W lemma="eléctrico" msd="AN" tag="ADJ" in="" out="">eléctricos</W>
-<W lemma=":" msd="XP" tag="COLON" in="5:pnct" out="">:</W>
+<W lemma="eléctrico" msd="AN" tag="ADJ" in="" out="1:pnct">eléctricos</W>
+<W lemma=":" msd="XP" tag="COLON" in="-1:pnct" out="5:xpl">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="utilizar" msd="VAD" tag="VLfin" in="" out="-10:subj|-5:pnct|1:dobj|6:pnct">Utilice</W>
+<W lemma="utilizar" msd="VAD" tag="VLfin" in="-5:xpl" out="1:dobj|6:pnct">Utilice</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">el</W>
 <W lemma="montaje" msd="NC" tag="NC" in="-1:nobj" out="">montaje</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
@@ -272,18 +272,18 @@
 <W lemma="." msd="XP" tag="FS" in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="utilizar" msd="VAD" tag="VLfin" in="" out="1:subj|3:pnct|11:conj|15:pnct">Utilice</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj|3:appa|6:conj">las</W>
+<W lemma="utilizar" msd="VAD" tag="VLfin" in="" out="1:dobj|3:pnct|4:conj|15:pnct">Utilice</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">las</W>
 <W lemma="bobina" msd="NC" tag="NC" in="-1:nobj" out="">bobinas</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
-<W lemma="el" msd="PD" tag="ART" in="-3:appa" out="1:nobj">el</W>
+<W lemma="el" msd="PD" tag="ART" in="-4:conj" out="1:nobj|3:conj">el</W>
 <W lemma="voltímetro" msd="NC" tag="NMEA" in="-1:nobj" out="">voltímetro</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
-<W lemma="el" msd="PD" tag="ART" in="-6:conj" out="-1:coord|1:nobj">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-3:conj" out="-1:coord|1:nobj">los</W>
 <W lemma="imán" msd="NC" tag="NC" in="-1:nobj" out="">imanes</W>
-<W lemma="como" msd="CS" tag="CSUBX" in="" out="">como</W>
-<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
-<W lemma="ilustrar" msd="VAD" tag="VLfin" in="-11:conj" out="">ilustra</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="" out="2:vobj">como</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
+<W lemma="ilustrar" msd="VAD" tag="VLfin" in="-2:vobj" out="-1:robj">ilustra</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">fig</W>
@@ -318,23 +318,23 @@
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="hilo" msd="NC" tag="NC" in="-1:nobj" out="">hilo</W>
 <W lemma="conductor" msd="NC" tag="NC" in="" out="">conductor</W>
-<W lemma=":" msd="XP" tag="COLON" in="-10:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="COLON" in="-10:pnct" out="5:xpl">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="describir" msd="VAD" tag="VLfin" in="" out="1:dobj">Describa</W>
+<W lemma="describir" msd="VAD" tag="VLfin" in="-5:xpl" out="1:dobj">Describa</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">el</W>
 <W lemma="proceso" msd="NC" tag="NC" in="-1:nobj" out="">proceso</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="1:nobj">del</W>
 <W lemma="experimento" msd="NC" tag="NC" in="-1:nobj" out="">experimento</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="1:nobj">en</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|5:relr">el</W>
 <W lemma="estudio" msd="NC" tag="NC" in="-1:nobj" out="">estudio</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:relr">lo</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
-<W lemma="determinar" msd="VAD" tag="VLfin" in="-2:relr" out="1:dobj">determina</W>
+<W lemma="determinar" msd="VAD" tag="VLfin" in="-5:relr" out="1:dobj">determina</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="fuerza" msd="NC" tag="NC" in="-1:nobj" out="">fuerza</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="1:nobj">del</W>

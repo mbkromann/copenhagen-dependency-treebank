@@ -1,6 +1,6 @@
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="3:conj">Barquillos</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="14:subj" out="3:conj">Barquillos</W>
 <W lemma="caliente" msd="AN" tag="ADJ" in="" out="">calientes</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="fresa" msd="NC" tag="NC" in="-3:conj" out="-1:coord">fresas</W>
@@ -11,10 +11,10 @@
 <s>
 <W lemma="para" msd="CS" tag="CSUBI" in="" out="1:vobj">Para</W>
 <W lemma="hacer" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">hacer</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj|3:relr">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">barquillos</W>
-<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-3:relr" out="1:subj|23:pnct">baten</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-14:subj|-1:robj|1:subj|23:pnct">baten</W>
 <W lemma="2" msd="AC" tag="CARD" in="-1:subj" out="1:nobj">2</W>
 <W lemma="yema" msd="NC" tag="NC" in="-1:nobj" out="">yemas</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="" out="">grandes</W>
@@ -81,8 +81,8 @@
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="huevo" msd="NC" tag="NC" in="-1:nobj" out="">huevo</W>
 <W lemma="," msd="XP" tag="CM" in="-7:pnct" out="">,</W>
-<W lemma="hasta" msd="SP" tag="SCENE" in="-8:time" out="1:nobj">hasta</W>
-<W lemma="que" msd="CS" tag="CQUE" in="-1:nobj" out="2:vobj">que</W>
+<W lemma="hasta" msd="SP" tag="SCENE" in="-8:time" out="1:vobj">hasta</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-1:vobj" out="2:vobj">que</W>
 <W lemma="todo" msd="AN" tag="QU" in="1:subj" out="">todo</W>
 <W lemma="estar" msd="VAD" tag="VEfin" in="-2:vobj" out="-1:subj|2:preds">esté</W>
 <W lemma="bien" msd="RG" tag="ADV" in="1:quant" out="">bien</W>
@@ -144,13 +144,13 @@
 <p>
 <s>
 <W lemma="masar" msd="VAD" tag="VLfin" in="-3:nobj" out="">masa</W>
-<W lemma="antes" msd="RG" tag="ADV" in="-6:time" out="6:vobj">antes</W>
-<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="que" msd="CS" tag="CQUE" in="-1:nobj" out="">que</W>
+<W lemma="antes" msd="RG" tag="ADV" in="-6:time" out="">antes</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="4:vobj">que</W>
 <W lemma="el" msd="PD" tag="ART" in="3:subj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">barquillos</W>
-<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-6:vobj" out="-3:subj">horneen</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-4:vobj" out="-3:subj|-1:robj">horneen</W>
 <W lemma="." msd="XP" tag="FS" in="-13:pnct" out="">.</W>
 </s>
 <s>
@@ -176,9 +176,9 @@
 <W lemma="con" msd="SP" tag="SCENE" in="-1:man" out="1:nobj">con</W>
 <W lemma="grasa" msd="NC" tag="NC" in="-1:nobj" out="">grasa</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
-<W lemma="aparte" msd="RG" tag="ADV" in="" out="1:prg|2:nobj">aparte</W>
+<W lemma="aparte" msd="RG" tag="ADV" in="" out="1:prg">aparte</W>
 <W lemma="quizá" msd="RG" tag="ADV" in="-1:prg" out="">quizá</W>
-<W lemma="del" msd="SP" tag="PDEL" in="-2:nobj" out="2:nobj">del</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="2:nobj">del</W>
 <W lemma="primero" msd="AO" tag="ORD" in="" out="">primer</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="">barquillo</W>
 <W lemma="." msd="XP" tag="FS" in="-11:pnct" out="">.</W>
@@ -186,8 +186,8 @@
 <s>
 <p>
 <s>
-<W lemma="se" msd="PC" tag="SE" in="" out="">Se</W>
-<W lemma="usar" msd="VAD" tag="VLfin" in="" out="1:quant|2:subj|9:pnct|12:conj|19:pnct">usa</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">Se</W>
+<W lemma="usar" msd="VAD" tag="VLfin" in="" out="-1:robj|1:quant|2:subj|9:pnct|12:conj|19:pnct">usa</W>
 <W lemma="aproximadamente" msd="RG" tag="ADV" in="-1:quant" out="">aproximadamente</W>
 <W lemma="1" msd="AC" tag="CARD" in="-2:subj" out="1:nobj">1</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">dl</W>
@@ -198,8 +198,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">barquillo</W>
 <W lemma="," msd="XP" tag="CM" in="-9:pnct" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
-<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
-<W lemma="servir" msd="VAD" tag="VLfin" in="-12:conj" out="-2:coord|4:pnct">sirven</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
+<W lemma="servir" msd="VAD" tag="VLfin" in="-12:conj" out="-2:coord|-1:robj|4:pnct">sirven</W>
 <W lemma="dorado" msd="AN" tag="ADJ" in="" out="2:conj">dorados</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">crujientes</W>

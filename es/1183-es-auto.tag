@@ -1,8 +1,8 @@
 <p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="10:subj" out="1:nobj">El</W>
-<W lemma="consumo" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj">consumo</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj" out="1:nobj">de</W>
+<W lemma="consumo" msd="NC" tag="NC" in="-1:nobj" out="">consumo</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="danés" msd="NC" tag="NC" in="-1:nobj" out="">daneses</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
@@ -15,12 +15,12 @@
 <W lemma="alarmante" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">alarmante</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-3:subj" out="3:vobj">que</W>
 <W lemma="para" msd="SP" tag="SCENE" in="2:prg" out="1:nobj">para</W>
-<W lemma="mucho" msd="AN" tag="QU" in="-1:nobj" out="">muchos</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="-3:vobj" out="-9:neg|-2:prg|1:preds|2:preds|3:pnct|4:ROOT">es</W>
+<W lemma="mucho" msd="AN" tag="QU" in="-1:nobj" out="3:nobj">muchos</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="-3:vobj" out="-9:neg|-2:prg|1:preds|3:pnct">es</W>
 <W lemma="puro" msd="AN" tag="ADJ" in="-1:preds" out="">pura</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:preds" out="">adicción</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-3:nobj" out="">adicción</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
-<W lemma="opinar" msd="VAD" tag="VLfin" in="-4:ROOT" out="2:subj|3:pnct">opina</W>
+<W lemma="opinar" msd="VAD" tag="VLfin" in="" out="2:subj|3:pnct">opina</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Niels</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:subj" out="-1:namef|2:conj">Agdal</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
@@ -34,36 +34,36 @@
 <p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="16:subj" out="1:nobj">El</W>
-<W lemma="consumo" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj">consumo</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj" out="1:nobj">de</W>
+<W lemma="consumo" msd="NC" tag="NC" in="-1:nobj" out="">consumo</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="medicamento" msd="NC" tag="NC" in="-1:nobj" out="">medicamentos</W>
 <W lemma="como" msd="CS" tag="CSUBX" in="" out="1:nobj">como</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:pnct|2:conj">Kodimagnyl</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj">Kodimagnyl</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:conj" out="1:pnct|2:conj">Treo</W>
-<W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:conj" out="">Panodil</W>
-<W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="">Pamol</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-2:coord|-1:subj|2:preds|3:subj|19:pnct">es</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:conj" out="">Treo</W>
+<W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-4:conj" out="2:conj">Panodil</W>
+<W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:conj" out="-1:coord">Pamol</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="2:preds|19:pnct">es</W>
 <W lemma="tan" msd="RG" tag="ADV" in="1:quant" out="">tan</W>
 <W lemma="alto" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">alto</W>
-<W lemma="que" msd="CS" tag="CQUE" in="-3:subj" out="1:vobj">que</W>
-<W lemma="equivaler" msd="VAD" tag="VLfin" in="-1:vobj" out="-16:subj">equivale</W>
+<W lemma="que" msd="CS" tag="CQUE" in="1:subj" out="">que</W>
+<W lemma="equivaler" msd="VAD" tag="VLfin" in="" out="-16:subj|-1:subj">equivale</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="1:nobj">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">ingestión</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">160</W>
-<W lemma="pasta|pastilla" msd="NC" tag="NC" in="-1:nobj" out="">pastillas</W>
+<W lemma="pasta|pastilla" msd="NC" tag="NC" in="-1:nobj" out="5:time">pastillas</W>
 <W lemma="por" msd="SP" tag="SCENE" in="" out="1:nobj">por</W>
 <W lemma="danés" msd="NC" tag="NC" in="-1:nobj" out="">danés</W>
 <W lemma="al" msd="SP" tag="PAL" in="" out="1:nobj">al</W>
-<W lemma="año" msd="NC" tag="NC" in="-1:nobj" out="1:time">año</W>
-<W lemma="durante" msd="SP" tag="SCENE" in="-1:time" out="1:time">durante</W>
+<W lemma="año" msd="NC" tag="NC" in="-1:nobj" out="">año</W>
+<W lemma="durante" msd="SP" tag="SCENE" in="-5:time" out="1:time">durante</W>
 <W lemma="todo" msd="AN" tag="QU" in="-1:time" out="1:nobj">toda</W>
-<W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj" out="1:possd">su</W>
-<W lemma="vida" msd="NC" tag="NC" in="-1:possd" out="">vida</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj" out="">su</W>
+<W lemma="vida" msd="NC" tag="NC" in="" out="">vida</W>
 <W lemma="." msd="XP" tag="FS" in="-19:pnct" out="">.</W>
 </s>
 </p>
@@ -75,11 +75,11 @@
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="-3:time|-2:subj|1:vobj|16:pnct">ha</W>
 <W lemma="acabar" msd="VAF" tag="VLadj" in="-1:vobj" out="">acabado</W>
 <W lemma="por" msd="SP" tag="SCENE" in="" out="1:vobj">por</W>
-<W lemma="tomar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj|2:resem">tomar</W>
+<W lemma="tomar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj|2:man">tomar</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:dobj" out="">analgésicos</W>
-<W lemma="como" msd="RG" tag="ADV" in="-2:resem" out="1:cond">como</W>
-<W lemma="si" msd="CS" tag="CSUBX" in="-1:cond" out="1:vobj">si</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="-1:vobj" out="1:preds">fueran</W>
+<W lemma="como" msd="RG" tag="ADV" in="-2:man" out="1:other#|2:vobj">como</W>
+<W lemma="si" msd="CS" tag="CSUBX" in="-1:other#" out="">si</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="-2:vobj" out="1:preds">fueran</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:preds" out="">gominolas</W>
 <W lemma="o" msd="CC" tag="CC" in="1:coord" out="">o</W>
 <W lemma="como" msd="CS" tag="CSUBX" in="" out="-1:coord|1:nobj">como</W>
@@ -92,7 +92,7 @@
 </s>
 <s>
 <W lemma="y" msd="CC" tag="CC" in="11:coord" out="">Y</W>
-<W lemma="esto~es" msd="RG" tag="ADV" in="10:prg" out="1:nobj|2:pnct|3:cause">esto es</W>
+<W lemma="esto~es" msd="RG" tag="ADV" in="10:time" out="1:nobj|2:pnct|3:cause">esto es</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">inquietante</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
 <W lemma="porque" msd="CS" tag="CSUBX" in="-3:cause" out="">porque</W>
@@ -101,18 +101,18 @@
 <W lemma="sin" msd="SP" tag="SCENE" in="" out="1:nobj">sin</W>
 <W lemma="prescripción" msd="NC" tag="NC" in="-1:nobj" out="">prescripción</W>
 <W lemma="ni" msd="CC" tag="CCNEG" in="2:coord" out="">ni</W>
-<W lemma="siquiera" msd="RG" tag="ADV" in="1:prg" out="">siquiera</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-11:coord|-10:prg|-6:subj|-2:coord|-1:prg|1:preds|2:pnct|3:pnct|4:conj">son</W>
+<W lemma="siquiera" msd="RG" tag="ADV" in="" out="">siquiera</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="4:qobj" out="-11:coord|-10:time|-6:subj|-2:coord|1:preds|2:pnct|3:pnct">son</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:preds" out="">inofensivos</W>
 <W lemma="&quot;" msd="XP" tag="QT" in="-2:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
-<W lemma="explicar" msd="VAD" tag="VLfin" in="-4:conj" out="2:subj|3:pnct|6:relr">explica</W>
+<W lemma="explicar" msd="VAD" tag="VLfin" in="" out="-4:qobj|2:subj|3:pnct">explica</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Niels</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:subj" out="-1:namef">Agdal</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:subj" out="-1:namef|4:relr">Agdal</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
-<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
-<W lemma="referir" msd="VAD" tag="VLfin" in="-6:relr" out="-2:coord">refiere</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
+<W lemma="referir" msd="VAD" tag="VLfin" in="-4:relr" out="-2:coord|-1:robj">refiere</W>
 <W lemma="al" msd="SP" tag="PAL" in="" out="1:nobj">al</W>
 <W lemma="hecho" msd="NC" tag="NC" in="-1:nobj" out="">hecho</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
@@ -139,10 +139,10 @@
 <W lemma="." msd="XP" tag="FS" in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="aproximadamente" msd="RG" tag="ADV" in="3:time" out="">Aproximadamente</W>
+<W lemma="aproximadamente" msd="RG" tag="ADV" in="3:man" out="">Aproximadamente</W>
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:nobj">la</W>
 <W lemma="mitad" msd="NC" tag="NC" in="-1:nobj" out="">mitad</W>
-<W lemma="erar|ser" msd="VAD" tag="VLfin" in="" out="-3:time|-2:subj|1:dobj|4:pnct">eran</W>
+<W lemma="erar|ser" msd="VAD" tag="VLfin" in="" out="-3:man|-2:subj|1:dobj|4:pnct">eran</W>
 <W lemma="caso" msd="NC" tag="NC" in="-1:dobj" out="">casos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="suicidio" msd="NC" tag="NC" in="-1:nobj" out="">suicidio</W>
@@ -153,31 +153,31 @@
 <s>
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:nobj">Los</W>
 <W lemma="danés" msd="NC" tag="NC" in="-1:nobj" out="">daneses</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-2:subj|2:dobj|23:pnct">ingieren</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="24:qobj" out="-2:subj|2:dobj|22:pnct|23:pnct">ingieren</W>
 <W lemma="anual" msd="RG" tag="ADV" in="1:quant" out="">anualmente</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-2:dobj" out="-1:quant|1:nobj">400</W>
 <W lemma="tonelada" msd="NC" tag="NC" in="-1:nobj" out="">toneladas</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="sustancia" msd="NC" tag="NC" in="-1:nobj" out="">sustancias</W>
+<W lemma="sustancia" msd="NC" tag="NC" in="-1:nobj" out="4:nobj">sustancias</W>
 <W lemma="activo" msd="AN" tag="ADJ" in="" out="">activas</W>
-<W lemma="-" msd="XP" tag="DASH" in="1:pnct" out="">-</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="-1:pnct|1:nobj">Ácido</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="2:conj">acetilsalicílico</W>
+<W lemma="-" msd="XP" tag="DASH" in="2:pnct" out="">-</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Ácido</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-4:nobj" out="-2:pnct|-1:namef|2:conj|3:pnct">acetilsalicílico</W>
 <W lemma="o" msd="CC" tag="CC" in="1:coord" out="">o</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:conj" out="-1:coord">paracetamol-</W>
-<W lemma="&quot;" msd="XP" tag="QT" in="5:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="QT" in="-3:pnct" out="5:pnct">"</W>
 <W lemma="y" msd="CC" tag="CC" in="4:coord" out="">y</W>
 <W lemma="este" msd="" tag="DM" in="3:subj" out="1:nobj">esta</W>
 <W lemma="cantidad" msd="NC" tag="NC" in="-1:nobj" out="">cantidad</W>
 <W lemma="se" msd="PC" tag="SE" in="1:subj" out="">se</W>
-<W lemma="poder" msd="VAD" tag="VMfin" in="7:qobj" out="-5:pnct|-4:coord|-3:subj|-1:subj|1:vobj">puede</W>
+<W lemma="poder" msd="VAD" tag="VMfin" in="-5:pnct" out="-4:coord|-3:subj|-1:subj|1:vobj">puede</W>
 <W lemma="considerarse" msd="VA" tag="VCLI" in="-1:vobj" out="1:nobj">considerarse</W>
 <W lemma="síntoma" msd="NC" tag="NC" in="-1:nobj" out="">síntoma</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="abuso" msd="NC" tag="NC" in="-1:nobj" out="">abuso</W>
-<W lemma="&quot;" msd="XP" tag="QT" in="2:qobj" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="QT" in="-22:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="CM" in="-23:pnct" out="">,</W>
-<W lemma="afirmar" msd="VAD" tag="VLfin" in="" out="-7:qobj|-2:qobj|2:subj|3:pnct">afirma</W>
+<W lemma="afirmar" msd="VAD" tag="VLfin" in="" out="-24:qobj|2:subj|3:pnct">afirma</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Niels</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:subj" out="-1:namef">Agdal</W>
 <W lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>
@@ -185,27 +185,27 @@
 </p>
 <p>
 <s>
-<W lemma="un" msd="PD" tag="ART" in="7:subj" out="1:nobj|2:nobj">Un</W>
+<W lemma="un" msd="PD" tag="ART" in="7:subj" out="1:nobj">Un</W>
 <W lemma="viernes" msd="NC" tag="NC" in="-1:nobj" out="">viernes</W>
-<W lemma="cualquier" msd="AN" tag="QU" in="-2:nobj" out="1:nobj">cualquiera</W>
-<W lemma="del" msd="SP" tag="PDEL" in="-1:nobj" out="1:nobj">del</W>
+<W lemma="cualquier" msd="AN" tag="QU" in="" out="">cualquiera</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="1:nobj">del</W>
 <W lemma="mes" msd="NC" tag="NC" in="-1:nobj" out="">mes</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="septiembre" msd="NC" tag="NC" in="-1:nobj" out="">septiembre</W>
-<W lemma="pedir" msd="VAD" tag="VLfin" in="" out="-7:subj|11:pnct|19:pnct">pidió</W>
-<W lemma="a" msd="SP" tag="SCENE" in="" out="1:nobj|6:pnct">a</W>
+<W lemma="pedir" msd="VAD" tag="VLfin" in="" out="-7:subj|7:pnct|19:pnct">pidió</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="1:nobj">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="cinco" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">cinco</W>
 <W lemma="farmacia" msd="NC" tag="NC" in="-1:nobj" out="">farmacias</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Randers</W>
-<W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
+<W lemma="," msd="XP" tag="CM" in="-7:pnct" out="">,</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">65.000</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj|2:pnct|4:relr">65.000</W>
 <W lemma="habitante" msd="NC" tag="NC" in="-1:nobj" out="">habitantes</W>
-<W lemma="," msd="XP" tag="CM" in="-11:pnct" out="">,</W>
+<W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
 <W lemma="que" msd="CS" tag="CQUE" in="1:subj" out="">que</W>
-<W lemma="registrar" msd="VAD" tag="VLfin" in="" out="-1:subj|1:dobj">registraran</W>
+<W lemma="registrar" msd="VAD" tag="VLfin" in="-4:relr" out="-1:subj|1:dobj">registraran</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">las</W>
 <W lemma="venta" msd="NC" tag="NC" in="-1:nobj" out="">ventas</W>
 <W lemma="total" msd="AN" tag="ADJ" in="" out="">totales</W>
@@ -214,8 +214,8 @@
 <W lemma="." msd="XP" tag="FS" in="-19:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="se" msd="PC" tag="SE" in="" out="">Se</W>
-<W lemma="vender" msd="VAD" tag="VLfin" in="" out="1:subj|3:pnct|7:conj">vendieron</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">Se</W>
+<W lemma="vender" msd="VAD" tag="VLfin" in="" out="-1:robj|1:subj|3:pnct|7:conj">vendieron</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:subj" out="1:nobj">31.632</W>
 <W lemma="comprimir" msd="VAF" tag="VLadj" in="-1:nobj" out="">comprimidos</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>

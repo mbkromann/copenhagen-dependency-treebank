@@ -1,16 +1,16 @@
 <p>
 <s>
-<W lemma="@card@" msd="XS" tag="CODE" in="" out="1:nobj|10:conj">11</W>
+<W lemma="@card@" msd="XS" tag="CODE" in="" out="1:nobj">11</W>
 <W lemma="muerto" msd="AN" tag="ADJ" in="-1:nobj" out="6:pnct">muertos</W>
 <W lemma="por" msd="SP" tag="SCENE" in="" out="1:nobj">por</W>
-<W lemma="consumo" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj">consumo</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj" out="1:nobj">de</W>
+<W lemma="consumo" msd="NC" tag="NC" in="-1:nobj" out="">consumo</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="drogar" msd="VAD" tag="VLfin" in="-1:nobj" out="">drogas</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">ODENSE</W>
 <W lemma=":" msd="XP" tag="COLON" in="-6:pnct" out="">:</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="2:subj" out="1:nobj">11</W>
 <W lemma="persona" msd="NC" tag="NC" in="-1:nobj" out="">personas</W>
-<W lemma="morir" msd="VAD" tag="VLfin" in="-10:conj" out="-2:subj|1:dobj|11:cause|17:pnct">murieron</W>
+<W lemma="morir" msd="VAD" tag="VLfin" in="" out="-2:subj|1:dobj|11:cause|17:pnct">murieron</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">el</W>
 <W lemma="año" msd="NC" tag="NC" in="-1:nobj" out="">año</W>
 <W lemma="pasar" msd="VAF" tag="VLadj" in="" out="">pasado</W>
@@ -24,8 +24,8 @@
 <W lemma="como" msd="CS" tag="CSUBX" in="-11:cause" out="1:nobj">como</W>
 <W lemma="consecuencia" msd="NC" tag="NC" in="-1:nobj" out="">consecuencia</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="consumo" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj">consumo</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj" out="1:nobj">de</W>
+<W lemma="consumo" msd="NC" tag="NC" in="-1:nobj" out="">consumo</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="drogar" msd="VAD" tag="VLfin" in="-1:nobj" out="">drogas</W>
 <W lemma="." msd="XP" tag="FS" in="-17:pnct" out="">.</W>
 </s>
@@ -68,8 +68,8 @@
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="muerto" msd="AN" tag="ADJ" in="-1:nobj" out="">muertos</W>
 <W lemma="por" msd="SP" tag="SCENE" in="" out="1:nobj">por</W>
-<W lemma="consumo" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj">consumo</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj" out="1:nobj">de</W>
+<W lemma="consumo" msd="NC" tag="NC" in="-1:nobj" out="">consumo</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="drogar" msd="VAD" tag="VLfin" in="-1:nobj" out="">drogas</W>
 <W lemma="," msd="XP" tag="CM" in="-14:pnct" out="">,</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="2:coord" out="">pero</W>
@@ -108,12 +108,12 @@
 <s>
 <W lemma="(" msd="XP" tag="LP" in="1:pnct" out="">(</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="-1:pnct|1:pnct">RB</W>
-<W lemma=")" msd="XP" tag="RP" in="-1:pnct" out="">)</W>
+<W lemma=")" msd="XP" tag="RP" in="-1:pnct" out="5:conj">)</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="cerrar" msd="VAD" tag="VLfin" in="" out="1:subj|6:pnct">Cierran</W>
+<W lemma="cerrar" msd="VAD" tag="VLfin" in="-5:conj" out="1:subj|6:pnct">Cierran</W>
 <W lemma="dos" msd="AC" tag="CARD" in="-1:subj" out="1:nobj">dos</W>
 <W lemma="escuela" msd="NC" tag="NC" in="-1:nobj" out="">escuelas</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
@@ -161,14 +161,14 @@
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-6:dobj" out="-2:quant|1:nobj">800.000</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">coronas.</W>
-<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">awb</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="7:coord" out="">awb</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="más" msd="RG" tag="ADV" in="" out="1:nobj">Más</W>
 <W lemma="hospital" msd="NC" tag="NC" in="-1:nobj" out="6:pnct">hospitales</W>
-<W lemma="a" msd="SP" tag="SCENE" in="" out="1:nobj">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="-7:coord|1:nobj">a</W>
 <W lemma="Europa" msd="NP" tag="NP" in="-1:nobj" out="">Europa</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="1:nobj">del</W>
 <W lemma="esto" msd="" tag="DM" in="-1:nobj" out="">Este</W>
@@ -179,10 +179,10 @@
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj|3:nobj">de</W>
 <W lemma="emergencia" msd="NC" tag="NC" in="-1:nobj" out="">emergencia</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">exhaustos</W>
-<W lemma="haber" msd="VAD" tag="VHfin" in="-3:nobj" out="1:vobj|3:conj|9:pnct|12:conj">han</W>
-<W lemma="partido" msd="NC" tag="NC" in="-1:vobj" out="1:time">partido</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="-3:nobj" out="1:vobj|9:pnct|12:conj">han</W>
+<W lemma="partido" msd="NC" tag="NC" in="-1:vobj" out="1:time|2:modp">partido</W>
 <W lemma="últimamente" msd="RG" tag="ADV" in="-1:time" out="">últimamente</W>
-<W lemma="desde" msd="SP" tag="SCENE" in="-3:conj" out="1:nobj">desde</W>
+<W lemma="desde" msd="SP" tag="SCENE" in="-2:modp" out="1:nobj">desde</W>
 <W lemma="Dinamarca" msd="NP" tag="NP" in="-1:nobj" out="">Dinamarca</W>
 <W lemma="hacia" msd="SP" tag="SCENE" in="" out="1:nobj">hacia</W>
 <W lemma="Europa" msd="NP" tag="NP" in="-1:nobj" out="">Europa</W>
@@ -192,8 +192,8 @@
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
 <W lemma="ahora" msd="RG" tag="ADV" in="1:time" out="">ahora</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="-12:conj" out="-2:coord|-1:time|1:dobj|5:pnct">hay</W>
-<W lemma="dos" msd="AC" tag="CARD" in="-1:dobj" out="1:quant">dos</W>
-<W lemma="más" msd="RG" tag="ADV" in="-1:quant" out="">más</W>
+<W lemma="dos" msd="AC" tag="CARD" in="-1:dobj" out="1:nobj">dos</W>
+<W lemma="más" msd="RG" tag="ADV" in="-1:nobj" out="">más</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="1:nobj">en</W>
 <W lemma="camino" msd="NC" tag="NC" in="-1:nobj" out="">camino</W>
 <W lemma="." msd="XP" tag="FS" in="-5:pnct" out="">.</W>

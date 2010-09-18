@@ -38,11 +38,11 @@
 <W lemma="ejército" msd="NC" tag="NC" in="-1:nobj" out="">Ejército</W>
 <W lemma="," msd="XP" tag="CM" in="-10:pnct" out="">,</W>
 <W lemma="continuar" msd="VAD" tag="VLfin" in="" out="-13:time|1:dobj">continuó</W>
-<W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="1:nobj|4:conj">sus</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="1:nobj|4:vobj">sus</W>
 <W lemma="estudio" msd="NC" tag="NC" in="-1:nobj" out="">estudios</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
-<W lemma="se" msd="PC" tag="SE" in="1:dobj" out="">se</W>
-<W lemma="graduar" msd="VAD" tag="VLfin" in="-4:conj" out="-2:coord|-1:dobj|1:predo|4:pnct|11:pnct">graduó</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
+<W lemma="graduar" msd="VAD" tag="VLfin" in="-4:vobj" out="-2:coord|-1:robj|1:predo|4:pnct|11:pnct">graduó</W>
 <W lemma="como" msd="CS" tag="CSUBX" in="-1:predo" out="1:nobj">como</W>
 <W lemma="ingeniero" msd="NC" tag="NC" in="-1:nobj" out="3:conj">ingeniero</W>
 <W lemma="electrónico" msd="AN" tag="ADJ" in="" out="">electrónico</W>
@@ -56,11 +56,11 @@
 <W lemma="." msd="XP" tag="FS" in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="finalizar" msd="VAD" tag="VLfin" in="" out="1:dobj|17:pnct|19:conj|30:pnct">Finalizó</W>
-<W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="1:possd">su</W>
-<W lemma="carrera" msd="NC" tag="NC" in="-1:possd" out="">carrera</W>
+<W lemma="finalizar" msd="VAD" tag="VLfin" in="" out="1:dobj|4:predo|17:pnct|19:conj|30:pnct">Finalizó</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="">su</W>
+<W lemma="carrera" msd="NC" tag="NC" in="" out="">carrera</W>
 <W lemma="militar" msd="AN" tag="ADJ" in="" out="">militar</W>
-<W lemma="como" msd="CS" tag="CSUBX" in="" out="1:nobj">como</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="-4:predo" out="1:nobj">como</W>
 <W lemma="coronel" msd="NC" tag="NC" in="-1:nobj" out="2:conj">coronel</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="jefe" msd="NC" tag="NC" in="-2:conj" out="-1:coord">jefe</W>
@@ -113,8 +113,8 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|4:relr">la</W>
 <W lemma="unión" msd="NC" tag="NC" in="-1:nobj" out="">unión</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
-<W lemma="actualmente" msd="RG" tag="ADV" in="1:prg" out="">actualmente</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="-4:relr" out="-2:coord|-1:prg|1:preds">es</W>
+<W lemma="actualmente" msd="RG" tag="ADV" in="1:time" out="">actualmente</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="-4:relr" out="-2:coord|-1:time|1:preds">es</W>
 <W lemma="miembro" msd="NC" tag="NC" in="-1:preds" out="">miembro</W>
 <W lemma="honorario" msd="NC" tag="NC" in="" out="">honorario</W>
 <W lemma="." msd="XP" tag="FS" in="-12:pnct" out="">.</W>
@@ -136,9 +136,9 @@
 <W lemma="." msd="XP" tag="FS" in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="haber" msd="VAD" tag="VHfin" in="" out="1:vobj">Ha</W>
-<W lemma="ser" msd="VAF" tag="VS" in="-1:vobj" out="1:nobj">sido</W>
-<W lemma="presidente" msd="NC" tag="NC" in="-1:nobj" out="4:pnct|5:nobj">presidente</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="1:vobj|40:pnct">Ha</W>
+<W lemma="ser" msd="VAF" tag="VS" in="-1:vobj" out="1:preds">sido</W>
+<W lemma="presidente" msd="NC" tag="NC" in="-1:preds" out="4:pnct|5:nobj">presidente</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:nobj">Erhvervsflyvningens</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Sammenslutning</W>
@@ -149,22 +149,22 @@
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="administración" msd="NC" tag="NC" in="-1:nobj" out="21:conj">administración</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="2:nobj">Dansk</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Elektronisk</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:nobj" out="-1:namef|1:pnct">Komité</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:nobj">Dansk</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:namel">Elektronisk</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:namel" out="1:pnct">Komité</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj|8:pnct">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="junta" msd="NC" tag="NC" in="-1:nobj" out="">junta</W>
 <W lemma="directivo" msd="AN" tag="ADJ" in="" out="">directiva</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="2:nobj">Skolen</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="2:name">Skolen</W>
 <W lemma="for" msd="SP" tag="PE" in="" out="">for</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:nobj" out="">Luftfartsuddannelserne</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:name" out="">Luftfartsuddannelserne</W>
 <W lemma="," msd="XP" tag="CM" in="-8:pnct" out="">,</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="1:nobj">del</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:nobj|3:nobj">Rådet</W>
-<W lemma="for" msd="SP" tag="PE" in="-1:nobj" out="">for</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="3:nobj">Rådet</W>
+<W lemma="for" msd="SP" tag="PE" in="" out="">for</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:namef" out="">større</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-3:nobj" out="-1:namef">Flysikkerhed</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
@@ -175,8 +175,8 @@
 <W lemma="representativo" msd="AN" tag="ADJ" in="" out="">representativa</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:nobj">Danmarks</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pnct">Flyvemuseum</W>
-<W lemma="." msd="XP" tag="FS" in="-1:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">Flyvemuseum</W>
+<W lemma="." msd="XP" tag="FS" in="-40:pnct" out="">.</W>
 </s>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Otto</W>
@@ -186,16 +186,16 @@
 <W lemma="ser" msd="VAF" tag="VS" in="-1:vobj" out="1:preds">sido</W>
 <W lemma="director" msd="NC" tag="NC" in="-1:preds" out="">director</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|22:nobj">la</W>
-<W lemma="compañía" msd="NC" tag="NC" in="-1:nobj" out="">compañía</W>
-<W lemma="aéreo" msd="AN" tag="ADJ" in="" out="2:conj">aérea</W>
-<W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-2:conj" out="-1:coord|1:nobj|6:pnct|8:conj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
+<W lemma="compañía" msd="NC" tag="NC" in="-1:nobj" out="3:conj">compañía</W>
+<W lemma="aéreo" msd="AN" tag="ADJ" in="" out="">aérea</W>
+<W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-3:conj" out="-1:coord|1:nobj|6:pnct|8:conj">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|4:nobj">la</W>
 <W lemma="empresa" msd="NC" tag="NC" in="-1:nobj" out="">empresa</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="asesoría" msd="NC" tag="NC" in="-1:nobj" out="1:name">asesoría</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:name" out="">Danop</W>
+<W lemma="asesoría" msd="NC" tag="NC" in="-1:nobj" out="">asesoría</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-4:nobj" out="">Danop</W>
 <W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="durante" msd="SP" tag="SCENE" in="-8:conj" out="-1:coord|1:nobj|4:time">durante</W>
@@ -208,7 +208,7 @@
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:nobj|3:nobj">Dansk</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Pool</W>
-<W lemma="for" msd="SP" tag="PE" in="-22:nobj" out="">for</W>
+<W lemma="for" msd="SP" tag="PE" in="" out="">for</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-3:nobj" out="">Luftfartsforsikring</W>
 <W lemma="." msd="XP" tag="FS" in="-28:pnct" out="">.</W>
 </s>
