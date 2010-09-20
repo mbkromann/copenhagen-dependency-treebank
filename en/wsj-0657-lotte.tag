@@ -1,0 +1,223 @@
+<s>
+<W msd="NP=S" tag="NNP" in="2:subj" out="1:nobj">Nikon</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="">Corp.</W>
+<W msd="VADA" tag="VBD" in="" out="31:pnct|-2:subj|4:vobj">said</W>
+<W msd="ANP" tag="JJ" in="2:attr" out="">unconsolidated</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">pretax</W>
+<W msd="NC=S" tag="NN" in="1:subj" out="-2:attr|-1:attr">profit</W>
+<W msd="VADA" tag="VBD" in="-4:vobj" out="1:dobj|-1:subj|3:pobj|12:time">increased</W>
+<W msd="AC" tag="CD" in="-1:dobj" out="1:nobj">70</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">%</W>
+<W msd="U=" tag="TO" in="-3:pobj" out="2:nobj|17:pobj">to</W>
+<W msd="AC" tag="CD" in="1:numm" out="">12.12</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:numm|1:nobj">billion</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">yen</W>
+<W msd="XP" tag="(" in="3:pnct" out="">(</W>
+<W tag="$" in="2:nobj" out="">$</W>
+<W msd="AC" tag="CD" in="1:numm" out="">85.3</W>
+<W msd="AC" tag="CD" in="" out="-3:pnct|-1:numm|1:pnct|-2:nobj">million</W>
+<W msd="XP" tag=")" in="-1:pnct" out="">)</W>
+<W msd="SP" tag="IN" in="-12:time" out="1:nobj">in</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:attr">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="">half</W>
+<W msd="VAP" tag="VBN" in="-3:attr" out="3:pnct|1:time">ended</W>
+<W msd="NP=S" tag="NNP" in="-1:time" out="1:nobj">Sept.</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="">30</W>
+<W msd="XP" tag="," in="-3:pnct" out="">,</W>
+<W msd="SP" tag="IN" in="-17:pobj" out="2:nobj|6:time">from</W>
+<W msd="AC" tag="CD" in="1:numm" out="">7.12</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:numm|1:nobj">billion</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">yen</W>
+<W msd="PI" tag="DT" in="2:nobj" out="1:nobj">a</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">year</W>
+<W msd="ANP" tag="RB" in="-6:time" out="-2:nobj">ago</W>
+<W msd="XP" tag="." in="-31:pnct" out="">.</W>
+</s>
+<s>
+<W msd="PD" tag="DT" in="4:subj" out="3:nobj|1:attr">The</W>
+<W msd="NP=S" tag="NNP" in="-1:attr|2:{source}" out="">Tokyo</W>
+<W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">camera</W>
+<W msd="NC=S" tag="NN" in="-3:nobj" out="-2:{source}|-1:nobj.dobj|-1:{patient}#">maker</W>
+<W msd="VADA" tag="VBD" in="" out="-4:subj|26:pnct|5:vobj">said</W>
+<W msd="ANP" tag="JJ" in="1:attr#" out="">net</W>
+<W msd="NC=S" tag="NN" in="3:subj" out="-1:attr#">income</W>
+<W msd="ANC" tag="RBR" in="2:quant" out="1:pobj">more</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="">than</W>
+<W msd="VADA" tag="VBD" in="-5:vobj" out="-3:subj|1:pobj|-2:quant">doubled</W>
+<W msd="U=" tag="TO" in="-1:pobj" out="2:nobj|10:pobj">to</W>
+<W msd="AC" tag="CD" in="1:numm" out="">5.85</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:numm|1:nobj|2:pnct|4:conj">billion</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">yen</W>
+<W msd="XP" tag="," in="-2:pnct" out="">,</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="AC" tag="CD" in="-4:conj" out="-1:coord|1:attr|1:{other}">16.08</W>
+<W msd="PI" tag="DT" in="-1:attr|-1:{other}" out="1:nobj|2:pnct">a</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">share</W>
+<W msd="XP" tag="," in="-2:pnct" out="">,</W>
+<W msd="SP" tag="IN" in="-10:pobj" out="2:nobj">from</W>
+<W msd="AC" tag="CD" in="1:numm" out="">2.63</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:numm|1:nobj|2:pnct|4:conj">billion</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">yen</W>
+<W msd="XP" tag="," in="-2:pnct" out="">,</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="AC" tag="CD" in="-4:conj" out="-1:coord|1:nobj">7.24</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:attr|1:{other}">yen</W>
+<W msd="PI" tag="DT" in="-1:attr|-1:{other}" out="1:nobj">a</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">share</W>
+<W msd="XP" tag="." in="-26:pnct" out="">.</W>
+</s>
+<s>
+<W msd="NP=S" tag="NNP" in="1:subj" out="">Nikon</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|17:pnct|2:vobj">said</W>
+<W msd="NC=P" tag="NNS" in="1:subj" out="">sales</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:scene">rose</W>
+<W msd="SP" tag="IN" in="-1:scene" out="1:nobj">despite</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
+<W msd="ANP" tag="JJ" in="1:attr#" out="">adverse</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr#|1:pobj|1:{arg}">effect</W>
+<W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="2:nobj">of</W>
+<W msd="NP=S" tag="NNP" in="1:possr" out="">Japan</W>
+<W msd="U=" tag="POS" in="-2:nobj" out="-1:possr|3:possd|4:pnct|5:attr">'s</W>
+<W msd="ANP" tag="JJ" in="2:attr" out="">unpopular</W>
+<W msd="NC=S" tag="NN" in="1:nobj|1:{arg}" out="">consumption</W>
+<W msd="NC=S" tag="NN" in="-3:possd" out="-2:attr|-1:nobj|-1:{arg}">tax</W>
+<W msd="XP" tag="," in="-4:pnct" out="">,</W>
+<W msd="VAP" tag="VBN" in="-5:attr" out="1:time">introduced</W>
+<W msd="SP" tag="IN" in="-1:time" out="1:nobj">in</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="">April</W>
+<W msd="XP" tag="." in="-17:pnct" out="">.</W>
+</s>
+<s>
+<W msd="VAG" tag="VBG" in="2:attr" out="">Increasing</W>
+<W msd="ANP" tag="JJ" in="1:attr#" out="">personal</W>
+<W msd="NC=S" tag="NN" in="4:subj|5:[subj]" out="3:conj|-2:attr|-1:attr#">spending</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">capital</W>
+<W msd="NC=S" tag="NN" in="-3:conj" out="-2:coord|-1:nobj.dobj|-1:{patient}#">investment</W>
+<W msd="VADR" tag="VBP" in="6:qobj" out="1:vobj|3:pnct|-4:subj">are</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="1:dobj|-5:[subj]">fueling</W>
+<W msd="NC=S" tag="NN" in="-1:dobj" out="">growth</W>
+<W msd="XP" tag="," in="-3:pnct" out="">,</W>
+<W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">company</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:pnct|-6:qobj">said</W>
+<W msd="XP" tag="." in="-1:pnct" out="">.</W>
+</s>
+<s>
+<W msd="VAG" tag="VBG" in="2:attr" out="">Rising</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="">export</W>
+<W msd="NC=P" tag="NNS" in="2:subj" out="-1:attr|-1:{goal}#|-2:attr">sales</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADA" tag="VBD" in="6:qobj" out="-2:subj|-1:add|4:pnct|1:pobj">contributed</W>
+<W msd="U=" tag="TO" in="-1:pobj" out="2:nobj">to</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">strong</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">growth</W>
+<W msd="XP" tag="," in="-4:pnct" out="">,</W>
+<W msd="NP=S" tag="NNP" in="1:subj" out="">Nikon</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-6:qobj|1:pnct">added</W>
+<W msd="XP" tag="." in="-1:pnct" out="">.</W>
+</s>
+<s>
+<W msd="ANP" tag="JJ" in="1:attr" out="">Total</W>
+<W msd="NC=P" tag="NNS" in="1:subj" out="-1:attr">sales</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|11:pnct|3:other">gained</W>
+<W msd="AC" tag="CD" in="-1:dobj" out="1:nobj">20</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">%</W>
+<W msd="U=" tag="TO" in="-3:other" out="2:nobj|4:pobj">to</W>
+<W msd="AC" tag="CD" in="1:numm" out="">122.36</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:numm|1:nobj">billion</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">yen</W>
+<W msd="SP" tag="IN" in="-4:pobj" out="2:nobj">from</W>
+<W msd="AC" tag="CD" in="1:numm" out="">102.01</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:numm|1:nobj">billion</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">yen</W>
+<W msd="XP" tag="." in="-11:pnct" out="">.</W>
+</s>
+<s>
+<W msd="NC=P" tag="NNS" in="1:subj" out="">Exports</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:part|10:pnct|18:pnct|2:dobj|11:other">made</W>
+<W msd="RG" tag="RP" in="-1:part" out="">up</W>
+<W msd="AC" tag="CD" in="-2:dobj" out="1:nobj">46.2</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">%</W>
+<W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj">the</W>
+<W msd="ANS" tag="JJS" in="-1:attr" out="">latest</W>
+<W msd="NC=S" tag="NN" in="1:possr|2:{time}" out="">year</W>
+<W msd="U=" tag="POS" in="-3:nobj" out="-1:possr|1:possd">'s</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="-2:{time}">total</W>
+<W msd="XP" tag="," in="-10:pnct" out="">,</W>
+<W msd="ANP" tag="RB" in="-11:other" out="1:pobj">up</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|5:time">from</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">39.8</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">%</W>
+<W msd="PI" tag="DT" in="2:nobj" out="1:nobj">a</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">year</W>
+<W msd="ANP" tag="RB" in="-5:time" out="-2:nobj">ago</W>
+<W msd="XP" tag="." in="-18:pnct" out="">.</W>
+</s>
+<s>
+<W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">Camera</W>
+<W msd="NC=P" tag="NNS" in="1:subj" out="-1:nobj.dobj|-1:{patient}#">sales</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|4:pnct|12:pnct|5:concom">showed</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj">the</W>
+<W msd="ANS" tag="JJS" in="-1:attr" out="">strongest</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="">gains</W>
+<W msd="XP" tag="," in="-4:pnct" out="">,</W>
+<W msd="VAG" tag="VBG" in="-5:concom" out="1:dobj|3:pobj">rising</W>
+<W msd="AC" tag="CD" in="-1:dobj" out="1:nobj">37</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">%</W>
+<W msd="U=" tag="TO" in="-3:pobj" out="2:nobj">to</W>
+<W msd="AC" tag="CD" in="1:numm" out="">50.59</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:numm|1:nobj">billion</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">yen</W>
+<W msd="XP" tag="." in="-12:pnct" out="">.</W>
+</s>
+<s>
+<W msd="NP=S" tag="NNP" in="2:nobj.subj|2:{agent}" out="">Nikon</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{other}#" out="">forecast</W>
+<W msd="NC=P" tag="NNS" in="7:subj|8:[subj]" out="-2:nobj.subj|-2:{agent}|-1:attr|-1:{other}#|1:pobj|1:{arg}">sales</W>
+<W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:attr">the</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">year</W>
+<W msd="VAG" tag="VBG" in="-2:attr" out="1:time">ending</W>
+<W msd="NP=S" tag="NNP" in="-1:time" out="1:nobj">March</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="">31</W>
+<W msd="VA" tag="MD" in="" out="-7:subj|1:vobj|8:pnct">will</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|-8:[subj]|3:pobj">rise</W>
+<W msd="AC" tag="CD" in="-1:dobj" out="1:nobj">9.6</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">%</W>
+<W msd="U=" tag="TO" in="-3:pobj" out="2:nobj">to</W>
+<W msd="AC" tag="CD" in="1:numm" out="">240</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:numm|1:nobj">billion</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">yen</W>
+<W msd="XP" tag="." in="-8:pnct" out="">.</W>
+</s>
+<s>
+<W msd="ANP" tag="JJ" in="1:attr#" out="">Pretax</W>
+<W msd="NC=S" tag="NN" in="1:subj|4:[subj]" out="-1:attr#">profit</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|13:conj|23:pnct|1:preds">is</W>
+<W msd="VAP" tag="VBN" in="-1:preds" out="1:nobj">expected</W>
+<W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|-4:[subj]|3:pobj">increase</W>
+<W msd="AC" tag="CD" in="-1:dobj" out="1:nobj">18</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">%</W>
+<W msd="U=" tag="TO" in="-3:pobj" out="2:nobj">to</W>
+<W msd="AC" tag="CD" in="1:numm" out="">22</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:numm|1:nobj">billion</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">yen</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
+<W msd="ANP" tag="JJ" in="1:attr#" out="">net</W>
+<W msd="NC=S" tag="NN" in="1:subj|4:[subj]" out="-1:attr#">income</W>
+<W msd="VADR" tag="VBZ" in="-13:conj" out="-3:coord|-1:subj|1:preds">is</W>
+<W msd="VAP" tag="VBN" in="-1:preds" out="1:nobj">expected</W>
+<W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|-4:[subj]|3:pobj">rise</W>
+<W msd="AC" tag="CD" in="-1:dobj" out="1:nobj">53</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">%</W>
+<W msd="U=" tag="TO" in="-3:pobj" out="1:nobj|2:nobj">to</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="">10.5</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="1:nobj">billion</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">yen</W>
+<W msd="XP" tag="." in="-23:pnct" out="">.</W>
+</s>
