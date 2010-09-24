@@ -1,41 +1,41 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Kirsten</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="4:subj|5:[subj]" out="-1:namef|1:pnct|2:appa">Christensen</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="4:subj|5:[subj]" out="-1:namef|1:pnct|2:title">Christensen</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" morph="arqueología !!!!!!ólog +a/DERnn&3a;agent" msd="AN" tag="ADJ" in="-2:appa" out="1:pnct">arqueóloga</W>
+<W lemma="&lt;unknown&gt;" morph="arqueología !!!!!!ólog +a/DERnn&3a;agent" msd="AN" tag="ADJ" in="-2:title" out="1:pnct">arqueóloga</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="" out="-4:subj|1:vobj|3:man|14:dobj|23:loc|29:pnct">ha</W>
+<W lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="" out="-4:subj|1:vobj|14:dobj|23:loc|29:pnct|3:accom|2:pnct">ha</W>
 <W lemma="excavar" morph="excavar" msd="VAF" tag="VLadj" in="-1:vobj" out="-5:[subj]">excavado</W>
-<W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>
-<W lemma="junto~con" msd="SP" tag="SCENE" in="-3:man" out="-1:pnct|1:nobj|10:pnct">junto con</W>
+<W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
+<W lemma="junto~con" msd="SP" tag="SCENE" in="-3:accom" out="1:nobj|10:pnct">junto con</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="colega" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="2:appr">colega</W>
+<W lemma="colega" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="2:appr|3:attr|3:{source}">colega</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Henning</W>
-<W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="-2:appr" out="-1:namef|1:other">Nielsen</W>
-<W lemma="del" msd="SP" tag="PDEL" in="-1:other" out="1:nobj">del</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:attr|2:loc">Museo</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="-2:appr" out="-1:namef">Nielsen</W>
+<W lemma="del" msd="SP" tag="PDEL" in="-3:attr|-3:{source}" out="1:nobj">del</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:attr|2:attr|2:{loc}">Museo</W>
 <W lemma="&lt;unknown&gt;" morph="arqueología !!!!óg +ico/DERna&3a;rel" msd="AN" tag="ADJ" in="-1:attr" out="">arqueológico</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-2:loc" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-2:attr|-2:{loc}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Korsør</W>
 <W lemma="," msd="XP" tag="CM" in="-10:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="-14:dobj" out="1:nobj">los</W>
 <W lemma="resto" morph="resto" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">restos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|2:time">una</W>
-<W lemma="granja" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">granja</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-2:time" out="1:nobj">de</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
+<W lemma="granja" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{source}">granja</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{source}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" morph="año" msd="NC" tag="NC" in="-1:nobj" out="1:nobj">años</W>
 <W lemma="@card@" msd="XS" tag="CODE" in="-1:nobj" out="">1600</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-23:loc" out="1:nobj">en</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:+|2:name|3:loc|13:coref-var">Gl</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-23:loc" out="3:nobj">en</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="2:attr" out="1:+|13:coref-var">Gl</W>
 <W lemma="." msd="XP" tag="FS" in="-1:+" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:name" out="">Forlev</W>
-<W lemma="cerca" msd="RG" tag="ADV" in="-3:loc" out="1:nobj">cerca</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-3:nobj" out="-2:attr|1:attr|1:{loc}">Forlev</W>
+<W lemma="cerca" msd="RG" tag="ADV" in="-1:attr|-1:{loc}" out="1:nobj">cerca</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj" out="">deTrelleborg</W>
 <W lemma="." msd="XP" tag="FS" in="-29:pnct" out="">.</W>
-<W lemma="al~mismo~tiempo" msd="RG" tag="ADV" in="2:scene" out="">Al mismo tiempo</W>
+<W lemma="al~mismo~tiempo" msd="RG" tag="ADV" in="2:time" out="">Al mismo tiempo</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
-<W lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="" out="-1:robj|-2:scene|1:vobj|2:subj|4:loc|22:pnct">han</W>
+<W lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="" out="-1:robj|1:vobj|2:subj|4:loc|22:pnct|-2:time">han</W>
 <W lemma="realizar" morph="real +izar/DERav" msd="VAF" tag="VLadj" in="-1:vobj" out="1:[subj]">realizado</W>
 <W lemma="otro" morph="otro" msd="AN" tag="QU" in="-2:subj|-1:[subj]" out="1:nobj">otros</W>
 <W lemma="descubrimiento" morph="cubrir -des/NEG&3a;priv ! +miento/DERvn&3a;core ~s" msd="NC" tag="NC" in="-1:nobj" out="">descubrimientos</W>
@@ -85,7 +85,7 @@
 <W lemma="," msd="XP" tag="CM" in="-7:pnct" out="">,</W>
 <W lemma="poder" morph="poder" msd="VAD" tag="VMfin" in="" out="-12:time|-10:subj|1:vobj|5:pnct|21:pnct">pudo</W>
 <W lemma="festejar" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-11:[subj]|1:dobj">festejar</W>
-<W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="2:nobj|4:ref|5:relpa|1:attr">su</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="1:attr|2:nobj|4:ref|5:relpa">su</W>
 <W lemma="&lt;unknown&gt;" morph="diez !!!éc +imo/DENUM" msd="NC" tag="NC" in="-1:attr" out="">décimo</W>
 <W lemma="aniversario" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="">aniversario</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
