@@ -144,136 +144,136 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">These</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|37:pnct">include</W>
-<W msd="NC=P" tag="NNS" in="-1:dobj" out="1:attr|13:pnct|17:conj|22:pnct|23:conj|32:pnct|35:conj">provisions</W>
-<W msd="VAG" tag="VBG" in="-1:attr" out="1:pobj">relating</W>
+<W morph="include" msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|37:pnct">include</W>
+<W morph="&lt;unknown&gt;" msd="NC=P" tag="NNS" in="-1:dobj" out="1:attr|13:pnct|17:conj|22:pnct|23:conj|32:pnct|35:conj">provisions</W>
+<W morph="relate ! +ing/DERva&3a;act" msd="VAG" tag="VBG" in="-1:attr" out="1:pobj">relating</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|4:ref|5:relr">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">technology</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">technology</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">systems</W>
+<W morph="system" msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">systems</W>
 <W msd="PT" tag="WDT" in="-4:ref|1:subj|2:[subj]" out="">that</W>
-<W msd="VA" tag="MD" in="-5:relr" out="-1:subj|1:vobj">must</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|2:inst">be</W>
-<W msd="VAP" tag="VBN" in="-1:preds" out="">employed</W>
+<W morph="&lt;unknown&gt;" msd="VA" tag="MD" in="-5:relr" out="-1:subj|1:vobj">must</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|2:inst">be</W>
+<W morph="employ" msd="VAP" tag="VBN" in="-1:preds" out="">employed</W>
 <W msd="SP" tag="IN" in="-2:inst" out="1:nobj">by</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="">exchanges</W>
+<W morph="exchange" msd="NC=P" tag="NNS" in="-1:nobj" out="">exchanges</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W msd="NC=S" tag="NN" in="3:nobj|3:{arg}" out="2:conj">oversight</W>
+<W morph="see -over/SPACE !!ight/DERvn&3a;core" msd="NC=S" tag="NN" in="3:nobj|3:{arg}" out="2:conj">oversight</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">disciplinary</W>
-<W msd="NC=P" tag="NNS" in="-17:conj" out="-3:nobj|-3:{arg}|1:attr|1:{goal}">procedures</W>
+<W morph="discipline ! +ary/DERna&3a;rel" msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">disciplinary</W>
+<W morph="procedure" msd="NC=P" tag="NNS" in="-17:conj" out="-3:nobj|-3:{arg}|1:attr|1:{goal}">procedures</W>
 <W msd="SP" tag="IN" in="-1:attr|-1:{goal}" out="3:nobj">for</W>
-<W msd="NC=S" tag="NN" in="2:attr|2:{goal}" out="">exchange</W>
-<W msd="NC=S" tag="NN" in="1:nobj|1:{arg}#" out="">trading</W>
-<W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:nobj|-1:{arg}#|-2:attr|-2:{goal}">practices</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="2:attr|2:{goal}" out="">exchange</W>
+<W morph="trade@V ! +ing/DERvn&3a;core" msd="NC=S" tag="NN" in="1:nobj|1:{arg}#" out="">trading</W>
+<W morph="practice@N" msd="NC=P" tag="NNS" in="-3:nobj" out="-1:nobj|-1:{arg}#|-2:attr|-2:{goal}">practices</W>
 <W msd="XP" tag="," in="-22:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="-23:conj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">relationship</W>
+<W morph="relation +ship/DERnn&3a;assoc" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">relationship</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="3:nobj">between</W>
-<W msd="NC=S" tag="NN" in="1:nobj|1:{about}#" out="">commodity</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="-1:nobj|-1:{about}#">brokerage</W>
-<W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr|-1:{goal}#|3:conj">firms</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:nobj|1:{about}#" out="">commodity</W>
+<W morph="broker +age/DERnn&3a;assoc" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="-1:nobj|-1:{about}#">brokerage</W>
+<W morph="firm" msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr|-1:{goal}#|3:conj">firms</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{other}#" out="">floor</W>
-<W msd="NC=P" tag="NNS" in="-3:conj" out="-2:coord|-1:attr|-1:{other}#">traders</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:attr|1:{other}#" out="">floor</W>
+<W morph="trade@V ! +er/DERvn&3a;agent ~s" msd="NC=P" tag="NNS" in="-3:conj" out="-2:coord|-1:attr|-1:{other}#">traders</W>
 <W msd="XP" tag="," in="-32:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">exchange</W>
-<W msd="NC=S" tag="NN" in="-35:conj" out="-2:coord|-1:nobj.dobj|-1:{patient}#">governance</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">exchange</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-35:conj" out="-2:coord|-1:nobj.dobj|-1:{patient}#">governance</W>
 <W msd="XP" tag="." in="-37:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">The</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">bill</W>
-<W msd="ANP" tag="RB" in="1:add" out="">also</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|-1:add|4:dobj|5:pobj|8:conj|26:pnct">elevates</W>
-<W msd="ANP" tag="RB" in="1:focal" out="">even</W>
-<W msd="ANP" tag="JJ" in="2:attr" out="-1:focal">minor</W>
-<W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">rule</W>
-<W msd="NC=P" tag="NNS" in="-4:dobj" out="-2:attr|-1:nobj.dobj|-1:{patient}#">infractions</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">bill</W>
+<W morph="" msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W morph="elevate" msd="VADR" tag="VBZ" in="" out="-3:subj|-1:add|4:dobj|5:pobj|8:conj|26:pnct">elevates</W>
+<W morph="" msd="ANP" tag="RB" in="1:focal" out="">even</W>
+<W morph="" msd="ANP" tag="JJ" in="2:attr" out="-1:focal">minor</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">rule</W>
+<W morph="infraction" msd="NC=P" tag="NNS" in="-4:dobj" out="-2:attr|-1:nobj.dobj|-1:{patient}#">infractions</W>
 <W msd="U=" tag="TO" in="-5:pobj" out="1:nobj">to</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="">felonies</W>
+<W morph="&lt;unknown&gt;" msd="NC=P" tag="NNS" in="-1:nobj" out="">felonies</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBZ" in="-8:conj" out="-1:coord|1:pobj">provides</W>
+<W morph="provide" msd="VADR" tag="VBZ" in="-8:conj" out="-1:coord|1:pobj">provides</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|4:attr|4:{event}">recovery</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|4:attr|4:{event}">recovery</W>
 <W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">of</W>
-<W msd="ANP" tag="JJ" in="1:attr#" out="">punitive</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr#">damages</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr#" out="">punitive</W>
+<W morph="damage@N" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr#">damages</W>
 <W msd="SP" tag="IN" in="-4:attr|-4:{event}" out="2:nobj">in</W>
-<W msd="ANP" tag="JJ" in="1:attr#" out="">civil</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr#|3:conj">lawsuits</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr#" out="">civil</W>
+<W morph="suit -law/OTHER ~s" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr#|3:conj">lawsuits</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="NC=S" tag="NN" in="1:nobj|1:{about}#" out="">arbitration</W>
-<W msd="NC=P" tag="NNS" in="-3:conj" out="-2:coord|-1:nobj|-1:{about}#|1:attr|1:{other}">cases</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:nobj|1:{about}#" out="">arbitration</W>
+<W morph="case" msd="NC=P" tag="NNS" in="-3:conj" out="-2:coord|-1:nobj|-1:{about}#|1:attr|1:{other}">cases</W>
 <W msd="SP" tag="IN" in="-1:attr|-1:{other}" out="1:nobj">without</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">any</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">showing</W>
+<W morph="show@V +ing/DERvn&3a;core" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">showing</W>
 <W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">of</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">willful</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">misconduct</W>
+<W morph="will +ful/DERna&3a;rel" msd="ANP" tag="JJ" in="1:attr" out="">willful</W>
+<W morph="conduct -mis/MOD&3a;eval" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">misconduct</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="JJ" in="1:attr" out="">Many</W>
-<W msd="NC=P" tag="NNS" in="4:subj" out="-1:attr|1:pobj|1:{arg}">aspects</W>
+<W morph="" msd="ANP" tag="JJ" in="1:attr" out="">Many</W>
+<W morph="aspect" msd="NC=P" tag="NNS" in="4:subj" out="-1:attr|1:pobj|1:{arg}">aspects</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">bill</W>
-<W msd="VADR" tag="VBP" in="" out="-4:subj|1:preds|2:pnct|3:concom|16:pnct">are</W>
-<W msd="ANP" tag="JJ" in="-1:preds" out="">salutary</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">bill</W>
+<W morph="be" msd="VADR" tag="VBP" in="" out="-4:subj|1:preds|2:pnct|3:concom|16:pnct">are</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-1:preds" out="">salutary</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-3:concom" out="3:dobj">providing</W>
-<W msd="ANP" tag="JJ" in="2:attr" out="">appropriate</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">public</W>
-<W msd="NC=P" tag="NNS" in="-3:dobj" out="-2:attr|-1:attr|1:ref|2:relr">safeguards</W>
+<W morph="provide ! +ing/DERva&3a;act" msd="VAG" tag="VBG" in="-3:concom" out="3:dobj">providing</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="2:attr" out="">appropriate</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr" out="">public</W>
+<W morph="&lt;unknown&gt;" msd="NC=P" tag="NNS" in="-3:dobj" out="-2:attr|-1:attr|1:ref|2:relr">safeguards</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj|4:[subj]" out="">that</W>
-<W msd="VA" tag="MD" in="-2:relr" out="-1:subj|2:conj|5:loc">can</W>
+<W morph="can" msd="VA" tag="MD" in="-2:relr" out="-1:subj|2:conj|5:loc">can</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VA" tag="MD" in="-2:conj" out="-1:coord|1:vobj">should</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds">be</W>
-<W msd="VAP" tag="VBN" in="-1:preds" out="">instituted</W>
+<W morph="shall" msd="VA" tag="MD" in="-2:conj" out="-1:coord|1:vobj">should</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds">be</W>
+<W morph="institute" msd="VAP" tag="VBN" in="-1:preds" out="">instituted</W>
 <W msd="SP" tag="IN" in="-5:loc" out="1:nobj">throughout</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">industry</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">industry</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="29:eval" out="1:pnct">Indeed</W>
+<W morph="" msd="ANP" tag="RB" in="29:eval" out="1:pnct">Indeed</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="27:subj" out="1:pobj|7:modp|7:{elab}|25:pnct">some</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
-<W msd="NC=S" tag="NN" in="1:possr|2:[subj]|2:{agent}" out="">bill</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:possr|2:[subj]|2:{agent}" out="">bill</W>
 <W msd="U=" tag="POS" in="-2:nobj" out="-1:possr|1:possd">'s</W>
-<W msd="NC=P" tag="NNS" in="-1:possd" out="-2:[subj]|-2:{agent}|1:pnct">requirements</W>
+<W morph="require +ment/DERvn&3a;core ~s" msd="NC=P" tag="NNS" in="-1:possd" out="-2:[subj]|-2:{agent}|1:pnct">requirements</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-7:modp|-7:{elab}" out="2:dobj">including</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">broad</W>
-<W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr|1:attr|1:{loc}|10:conj">representation</W>
+<W morph="include" msd="VAG" tag="VBG" in="-7:modp|-7:{elab}" out="2:dobj">including</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr" out="">broad</W>
+<W morph="represent +ation/DERvn&3a;core" msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr|1:attr|1:{loc}|10:conj">representation</W>
 <W msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
-<W msd="NC=P" tag="NNS" in="1:possr|2:{arg}" out="">exchanges</W>
+<W morph="exchange" msd="NC=P" tag="NNS" in="1:possr|2:{arg}" out="">exchanges</W>
 <W msd="U=" tag="POS" in="-2:nobj" out="-1:possr|1:possd">'</W>
-<W msd="NC=P" tag="NNS" in="-1:possd" out="-2:{arg}|1:attr|1:{const}#">boards</W>
+<W morph="board" msd="NC=P" tag="NNS" in="-1:possd" out="-2:{arg}|1:attr|1:{const}#">boards</W>
 <W msd="SP" tag="IN" in="-1:attr|-1:{const}#" out="1:nobj">of</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="">directors</W>
+<W morph="director" msd="NC=P" tag="NNS" in="-1:nobj" out="">directors</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">strong</W>
-<W msd="NC=P" tag="NNS" in="-10:conj" out="-2:coord|-1:attr|1:pobj|1:{arg}">measures</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr" out="">strong</W>
+<W morph="measure@N" msd="NC=P" tag="NNS" in="-10:conj" out="-2:coord|-1:attr|1:pobj|1:{arg}">measures</W>
 <W msd="U=" tag="TO" in="-1:pobj|-1:{arg}" out="1:vobj">to</W>
-<W _noerror="&3a;nosubj&3a;" msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">prevent</W>
-<W msd="NC=P" tag="NNS" in="-1:dobj" out="1:pobj|1:{about}#">conflicts</W>
+<W _noerror="&3a;nosubj&3a;" morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">prevent</W>
+<W morph="conflict" msd="NC=P" tag="NNS" in="-1:dobj" out="1:pobj|1:{about}#">conflicts</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{about}#" out="1:nobj">of</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">interest</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">interest</W>
 <W msd="XP" tag="," in="-25:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:time|2:[subj]" out="">already</W>
-<W msd="VADR" tag="VBP" in="" out="-27:subj|-29:eval|-1:time|1:vobj|17:pnct">have</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|4:agent">been</W>
-<W msd="VAP" tag="VBN" in="-1:preds" out="1:@loc">put</W>
+<W morph="" msd="ANP" tag="RB" in="1:time|2:[subj]" out="">already</W>
+<W morph="&lt;unknown&gt;" msd="VADR" tag="VBP" in="" out="-27:subj|-29:eval|-1:time|1:vobj|17:pnct">have</W>
+<W morph="be" msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|4:agent">been</W>
+<W morph="put" msd="VAP" tag="VBN" in="-1:preds" out="1:@loc">put</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">in</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">place</W>
+<W morph="unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">place</W>
 <W msd="SP" tag="IN" in="-4:agent" out="1:nobj">by</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="6:nobj|8:conj">the</W>
 <W msd="NP=S" tag="NNP" in="5:nobj.dobj|5:{patient}" out="1:pnct|2:conj|4:conj">Coffee</W>
@@ -283,288 +283,288 @@
 <W msd="NP=S" tag="NNP" in="-4:conj" out="-1:coord">Cocoa</W>
 <W msd="NP=S" tag="NNP" in="-6:nobj" out="-5:nobj.dobj|-5:{patient}">Exchange</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="ANP" tag="JJ" in="-8:conj" out="-1:coord|2:nobj">other</W>
-<W msd="NC=P" tag="NNS" in="1:nobj.dobj|1:{patient}#" out="">futures</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:nobj.dobj|-1:{patient}#">exchanges</W>
+<W morph="" msd="ANP" tag="JJ" in="-8:conj" out="-1:coord|2:nobj">other</W>
+<W morph="future@ADJ ~s/DERan&3a;qual" msd="NC=P" tag="NNS" in="1:nobj.dobj|1:{patient}#" out="">futures</W>
+<W morph="exchange" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:nobj.dobj|-1:{patient}#">exchanges</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="JJ" in="8:subj" out="1:nobj|5:pnct">Other</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj|1:{arg}">aspects</W>
+<W morph="" msd="ANP" tag="JJ" in="8:subj" out="1:nobj|5:pnct">Other</W>
+<W morph="aspect" msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj|1:{arg}">aspects</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">bill</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">bill</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:conc" out="1:pnct">however</W>
+<W morph="" msd="ANP" tag="RB" in="2:conc" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBP" in="" out="-2:conc|-8:subj|2:vobj|3:man|14:conj|27:pnct">are</W>
-<W msd="ANP" tag="RB" in="11:correl" out="">either</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="">structured</W>
+<W morph="" msd="VADR" tag="VBP" in="" out="-2:conc|-8:subj|2:vobj|3:man|14:conj|27:pnct">are</W>
+<W morph="" msd="ANP" tag="RB" in="11:correl" out="">either</W>
+<W morph="structure@V" msd="VAP" tag="VBN" in="-2:vobj" out="">structured</W>
 <W msd="SP" tag="IN" in="-3:man" out="1:nobj">in</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:ref|2:relr">ways</W>
+<W morph="way" msd="NC=P" tag="NNS" in="-1:nobj" out="1:ref|2:relr">ways</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj" out="">that</W>
-<W msd="VADR" tag="VBP" in="-2:relr" out="-1:subj|2:dobj|3:scene">create</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">unnecessary</W>
-<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">burdens</W>
+<W morph="&lt;unknown&gt;" msd="VADR" tag="VBP" in="-2:relr" out="-1:subj|2:dobj|3:scene">create</W>
+<W morph="necessary -un/NEG&3a;contr" msd="ANP" tag="JJ" in="1:attr" out="">unnecessary</W>
+<W morph="burden" msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">burdens</W>
 <W msd="SP" tag="IN" in="-3:scene" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">industry</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">industry</W>
 <W msd="CC" tag="CC" in="2:coord" out="-11:correl">or</W>
-<W msd="ANP" tag="RB" in="1:prg" out="">actually</W>
-<W msd="VADR" tag="VBP" in="-14:conj" out="-2:coord|-1:prg|1:preds">are</W>
-<W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">harmful</W>
+<W morph="" msd="ANP" tag="RB" in="1:prg" out="">actually</W>
+<W morph="be" msd="VADR" tag="VBP" in="-14:conj" out="-2:coord|-1:prg|1:preds">are</W>
+<W morph="harm@N +ful/DERna&3a;telic" msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">harmful</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:conj|7:appr">the</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="">exchanges</W>
+<W morph="exchange" msd="NC=P" tag="NNS" in="-1:nobj" out="">exchanges</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="-3:conj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">industry</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">industry</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:scene" out="">ultimately</W>
+<W morph="" msd="ANP" tag="RB" in="1:scene" out="">ultimately</W>
 <W msd="PD" tag="DT" in="-7:appr" out="-2:coord|-1:scene|1:attr|2:nobj">the</W>
-<W msd="ANP" tag="JJ" in="-1:attr" out="">general</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="">public</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-1:attr" out="">general</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:nobj" out="">public</W>
 <W msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 <s>
 <W msd="AC" tag="CD" in="6:subj" out="1:pobj">One</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|3:nobj">the</W>
-<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">prominent</W>
-<W msd="NC=P" tag="NNS" in="-3:nobj" out="">features</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:subj|1:preds|26:pnct">is</W>
+<W morph="" msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">prominent</W>
+<W morph="feature" msd="NC=P" tag="NNS" in="-3:nobj" out="">features</W>
+<W morph="be" msd="VADR" tag="VBZ" in="" out="-6:subj|1:preds|26:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj|2:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">requirement</W>
+<W morph="require +ment/DERvn&3a;core" msd="NC=S" tag="NN" in="-1:nobj" out="">requirement</W>
 <W msd="SP" tag="IN" in="-2:nobj" out="6:vobj">that</W>
 <W msd="SP" tag="IN" in="5:time" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">three</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
+<W morph="year" msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">all</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="">exchanges</W>
-<W msd="VADR" tag="VBP" in="-6:vobj" out="-2:subj|-5:time|1:predo|3:dobj">have</W>
+<W morph="exchange" msd="NC=P" tag="NNS" in="-1:nobj" out="">exchanges</W>
+<W morph="&lt;unknown&gt;" msd="VADR" tag="VBP" in="-6:vobj" out="-2:subj|-5:time|1:predo|3:dobj">have</W>
 <W msd="SP" tag="IN" in="-1:predo" out="1:nobj">in</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">place</W>
+<W morph="unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">place</W>
 <W msd="PI" tag="DT" in="-3:dobj" out="1:nobj|2:ref|3:relr">a</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">system</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">system</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-3:relr" out="-1:subj|1:dobj|3:man">records</W>
+<W morph="record@V" msd="VADR" tag="VBZ" in="-3:relr" out="-1:subj|1:dobj|3:man">records</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">all</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="">trades</W>
+<W morph="trade@N" msd="NC=P" tag="NNS" in="-1:nobj" out="">trades</W>
 <W msd="SP" tag="IN" in="-3:man" out="1:nobj">by</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:attr">a</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">source</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="1:pobj">independent</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">source</W>
+<W morph="dependent -in/NEG&3a;contr" msd="ANP" tag="JJ" in="-2:attr" out="1:pobj">independent</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
-<W msd="VAG" tag="VBG" in="-1:attr" out="">executing</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="">broker</W>
+<W morph="execute ! +ing/DERva&3a;act" msd="VAG" tag="VBG" in="-1:attr" out="">executing</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:nobj" out="">broker</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="5:subj|6:[subj]|7:[subj]|10:[subj]" out="4:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="3:attr|3:{source}" out="1:name">New</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="">York</W>
-<W msd="NC=P" tag="NNS" in="1:nobj.dobj|1:{patient}#" out="">futures</W>
-<W msd="NC=P" tag="NNS" in="-4:nobj" out="-3:attr|-3:{source}|-1:nobj.dobj|-1:{patient}#">exchanges</W>
-<W msd="VADR" tag="VBP" in="" out="-5:subj|1:vobj|4:goal|19:pnct">have</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:vobj">been</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-7:[subj]|1:accom">working</W>
-<W msd="ANP" tag="RB" in="-1:accom" out="">together</W>
+<W morph="future@ADJ ~s/DERan&3a;qual" msd="NC=P" tag="NNS" in="1:nobj.dobj|1:{patient}#" out="">futures</W>
+<W morph="exchange" msd="NC=P" tag="NNS" in="-4:nobj" out="-3:attr|-3:{source}|-1:nobj.dobj|-1:{patient}#">exchanges</W>
+<W morph="&lt;unknown&gt;" msd="VADR" tag="VBP" in="" out="-5:subj|1:vobj|4:goal|19:pnct">have</W>
+<W morph="be" msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:vobj">been</W>
+<W morph="work" msd="VAG" tag="VBG" in="-1:vobj" out="-7:[subj]|1:accom">working</W>
+<W morph="" msd="ANP" tag="RB" in="-1:accom" out="">together</W>
 <W msd="U=" tag="TO" in="-4:goal" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:dobj">develop</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:dobj">develop</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="3:nobj|5:resem">a</W>
-<W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}" out="">trade</W>
-<W msd="VAG" tag="VBG" in="1:attr|1:{goal}#" out="-1:nobj.dobj|-1:{patient}">recording</W>
-<W msd="NC=S" tag="NN" in="-3:nobj" out="-1:attr|-1:{goal}#">system</W>
-<W msd="ANP" tag="JJ" in="1:quant" out="">much</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}" out="">trade</W>
+<W morph="record@V +ing/DERva&3a;act" msd="VAG" tag="VBG" in="1:attr|1:{goal}#" out="-1:nobj.dobj|-1:{patient}">recording</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-3:nobj" out="-1:attr|-1:{goal}#">system</W>
+<W morph="" msd="ANP" tag="JJ" in="1:quant" out="">much</W>
 <W msd="SP" tag="IN" in="-5:resem" out="-1:quant|1:nobj">like</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:attr">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">one</W>
-<W msd="VAP" tag="VBN" in="-2:attr" out="1:part|2:pobj">called</W>
-<W msd="ANP" tag="RB" in="-1:part" out="">for</W>
+<W morph="" msd="NC=S" tag="NN" in="-1:nobj" out="">one</W>
+<W morph="call +ed/DERva&3a;pas.part" msd="VAP" tag="VBN" in="-2:attr" out="1:part|2:pobj">called</W>
+<W morph="" msd="ANP" tag="RB" in="-1:part" out="">for</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">bill</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">bill</W>
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">We</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|11:pnct">would</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
-<W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">delighted</W>
+<W morph="will" msd="VA" tag="MD" in="" out="-1:subj|1:vobj|11:pnct">would</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
+<W morph="delight +ed/DERna&3a;rel" msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">delighted</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:predo|6:time">have</W>
-<W msd="ANP" tag="JJ" in="-1:dobj" out="1:nobj">such</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:predo|6:time">have</W>
+<W morph="" msd="ANP" tag="JJ" in="-1:dobj" out="1:nobj">such</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">system</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">system</W>
 <W msd="SP" tag="IN" in="-4:predo" out="1:nobj">in</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">place</W>
-<W msd="NC=S" tag="NN" in="-6:time" out="">today</W>
+<W morph="unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">place</W>
+<W morph="" msd="NC=S" tag="NN" in="-6:time" out="">today</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
 <W msd="CC" tag="CC" in="1:coord" out="">But</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:coord|1:subj|2:preds|3:scene|22:pnct">is</W>
+<W morph="be" msd="VADR" tag="VBZ" in="" out="-1:coord|1:subj|2:preds|3:scene|22:pnct">is</W>
 <W msd="PP" tag="PRP" in="-1:subj" out="4:nobj">it</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="">realistic</W>
+<W morph="real +istic/DERaa" msd="ANP" tag="JJ" in="-2:preds" out="">realistic</W>
 <W msd="SP" tag="IN" in="-3:scene" out="1:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Congress</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:man|5:dobj">mandate</W>
+<W morph="mandate /DERnv" msd="VAF" tag="VB" in="-1:vobj" out="1:man|5:dobj">mandate</W>
 <W msd="SP" tag="IN" in="-1:man" out="1:nobj">by</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:attr" out="">rigid</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="">deadline</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-1:attr" out="">rigid</W>
+<W morph="line -dead/OTHER" msd="NC=S" tag="NN" in="-2:nobj" out="">deadline</W>
 <W msd="PI" tag="DT" in="-5:dobj" out="1:nobj|2:ref|3:relr">a</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">system</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">system</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|4:[subj]" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-3:relr" out="-1:subj|1:neg|2:time|3:vobj">has</W>
-<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:time" out="">yet</W>
-<W msd="VAP" tag="VBN" in="-3:vobj" out="-4:[subj]|1:preds">been</W>
-<W msd="VAP" tag="VBN" in="-1:preds" out="1:pobj">subjected</W>
+<W morph="have" msd="VADR" tag="VBZ" in="-3:relr" out="-1:subj|1:neg|2:time|3:vobj">has</W>
+<W morph="" msd="ANP" tag="RB" in="-1:neg" out="">not</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="RB" in="-2:time" out="">yet</W>
+<W morph="be" msd="VAP" tag="VBN" in="-3:vobj" out="-4:[subj]|1:preds">been</W>
+<W morph="subject@V" msd="VAP" tag="VBN" in="-1:preds" out="1:pobj">subjected</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="2:nobj">to</W>
-<W msd="NC=S" tag="NN" in="1:pobj.dobj|1:{patient}#" out="">feasibility</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:pobj.dobj|-1:{patient}#">studies</W>
+<W morph="feasible !!il +ity/DERan&3a;qual" msd="NC=S" tag="NN" in="1:pobj.dobj|1:{patient}#" out="">feasibility</W>
+<W morph="study@N" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:pobj.dobj|-1:{patient}#">studies</W>
 <W msd="XP" tag="." in="-22:pnct" out="">?</W>
 </s>
 <s>
 <W msd="PT" tag="WP" in="" out="1:cond|7:pnct">What</W>
 <W msd="CS" tag="IN" in="-1:cond" out="3:vobj">if</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">system</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:neg|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:neg" out="">n't</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]">work</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">system</W>
+<W morph="do" msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:neg|2:vobj">does</W>
+<W morph="" msd="ANP" tag="RB" in="-1:neg" out="">n't</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]">work</W>
 <W msd="XP" tag="." in="-7:pnct" out="">?</W>
 </s>
 <s>
 <W msd="PT" tag="WP" in="" out="1:cond|23:pnct">What</W>
 <W msd="CS" tag="IN" in="-1:cond" out="7:vobj">if</W>
 <W msd="PD" tag="DT" in="6:subj" out="1:attr|2:nobj|3:ref|4:relr">the</W>
-<W msd="ANP" tag="JJ" in="-1:attr" out="">only</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="">system</W>
+<W morph="" msd="ANP" tag="JJ" in="-1:attr" out="">only</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:nobj" out="">system</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj|2:[subj]" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-4:relr" out="-1:subj|1:vobj">does</W>
-<W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]">work</W>
-<W msd="VADR" tag="VBZ" in="-7:vobj" out="-6:subj|2:preds">is</W>
-<W msd="ANP" tag="RB" in="1:quant" out="2:nobj">so</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">expensive</W>
+<W morph="do" msd="VADR" tag="VBZ" in="-4:relr" out="-1:subj|1:vobj">does</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]">work</W>
+<W morph="be" msd="VADR" tag="VBZ" in="-7:vobj" out="-6:subj|2:preds">is</W>
+<W morph="" msd="ANP" tag="RB" in="1:quant" out="2:nobj">so</W>
+<W morph="expense +ive/DERna&3a;telic" msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">expensive</W>
 <W msd="SP" tag="IN" in="-2:nobj" out="1:pnct|9:vobj">that</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="7:eval" out="1:attr|2:pnct">at</W>
-<W msd="ANS" tag="RBS" in="-1:attr" out="">best</W>
+<W morph="&lt;unknown&gt;" msd="ANS" tag="RBS" in="-1:attr" out="">best</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:other" out="">only</W>
+<W morph="" msd="ANP" tag="RB" in="1:other" out="">only</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="-1:other|1:attr|2:nobj">the</W>
-<W msd="ANS" tag="JJS" in="-1:attr" out="">largest</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="">exchanges</W>
-<W msd="VA" tag="MD" in="-9:vobj" out="-3:subj|-7:eval|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">afford</W>
+<W morph="large" msd="ANS" tag="JJS" in="-1:attr" out="">largest</W>
+<W morph="exchange" msd="NC=P" tag="NNS" in="-2:nobj" out="">exchanges</W>
+<W morph="&lt;unknown&gt;" msd="VA" tag="MD" in="-9:vobj" out="-3:subj|-7:eval|1:vobj">can</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">afford</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="XP" tag="." in="-23:pnct" out="">?</W>
 </s>
 <s>
-<W msd="NC=S" tag="NN" in="1:subj" out="">Cost</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|4:cause|13:pnct">is</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:subj" out="">Cost</W>
+<W morph="be" msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|4:cause|13:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="1:attr|1:{goal}#" out="">key</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{goal}#">consideration</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr|1:{goal}#" out="">key</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{goal}#">consideration</W>
 <W msd="CS" tag="IN" in="-4:cause" out="1:pobj#">because</W>
 <W msd="SP" tag="IN" in="-1:pobj#" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
-<W msd="ANP" tag="JJ" in="-1:attr" out="">global</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj.dobj|1:{patient}">sweep</W>
+<W morph="globe ! +al/DERna&3a;rel" msd="ANP" tag="JJ" in="-1:attr" out="">global</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj.dobj|1:{patient}">sweep</W>
 <W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
-<W msd="ANP" tag="JJ" in="1:aobj|1:{arg}#" out="">financial</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:aobj|-1:{arg}#">markets</W>
+<W morph="finance !+ial/DERna&3a;rel" msd="ANP" tag="JJ" in="1:aobj|1:{arg}#" out="">financial</W>
+<W morph="market" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:aobj|-1:{arg}#">markets</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="4:subj" out="1:attr|3:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:attr|2:{source}" out="">U.S.</W>
-<W msd="NC=P" tag="NNS" in="1:nobj.dobj|1:{patient}#" out="">futures</W>
-<W msd="NC=P" tag="NNS" in="-3:nobj" out="-2:{source}|-1:nobj.dobj|-1:{patient}#">exchanges</W>
-<W msd="VADR" tag="VBP" in="" out="-4:subj|1:loc|2:man|5:pnct">compete</W>
-<W msd="ANP" tag="RB" in="-1:loc" out="">world-wide</W>
-<W msd="ANP" tag="RB" in="-2:man" out="2:aobj">as</W>
-<W msd="ANP" tag="RB" in="1:neg" out="">never</W>
-<W msd="ANP" tag="RB" in="-2:aobj" out="-1:neg">before</W>
+<W morph="future@ADJ ~s/DERan&3a;qual" msd="NC=P" tag="NNS" in="1:nobj.dobj|1:{patient}#" out="">futures</W>
+<W morph="exchange" msd="NC=P" tag="NNS" in="-3:nobj" out="-2:{source}|-1:nobj.dobj|-1:{patient}#">exchanges</W>
+<W morph="&lt;unknown&gt;" msd="VADR" tag="VBP" in="" out="-4:subj|1:loc|2:man|5:pnct">compete</W>
+<W morph="world +wide/OTHER" msd="ANP" tag="RB" in="-1:loc" out="">world-wide</W>
+<W morph="" msd="ANP" tag="RB" in="-2:man" out="2:aobj">as</W>
+<W morph="" msd="ANP" tag="RB" in="1:neg" out="">never</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="RB" in="-2:aobj" out="-1:neg">before</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NC=S" tag="NN" in="7:time" out="1:pnct">Today</W>
+<W morph="" msd="NC=S" tag="NN" in="7:time" out="1:pnct">Today</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="NC=S" tag="NN" in="5:subj|6:[subj]" out="1:pobj.pobj|1:{patient}">trading</W>
+<W morph="trade@V ! +ing/DERvn&3a;core" msd="NC=S" tag="NN" in="5:subj|6:[subj]" out="1:pobj.pobj|1:{patient}">trading</W>
 <W msd="SP" tag="IN" in="-1:pobj.pobj|-1:{patient}" out="2:nobj">in</W>
-<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W morph="" msd="ANP" tag="RB" in="1:quant" out="">almost</W>
 <W msd="PD" tag="DT" in="-2:nobj" out="-1:quant|1:nobj">any</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">commodity</W>
-<W msd="VA" tag="MD" in="" out="-5:subj|-7:time|1:vobj|6:inst|14:pnct">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:preds">be</W>
-<W msd="VAP" tag="VBN" in="-1:preds" out="1:pobj">diverted</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">commodity</W>
+<W morph="&lt;unknown&gt;" msd="VA" tag="MD" in="" out="-5:subj|-7:time|1:vobj|6:inst|14:pnct">can</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:preds">be</W>
+<W morph="&lt;unknown&gt;" msd="VAP" tag="VBN" in="-1:preds" out="1:pobj">diverted</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{loc}" out="">U.S.</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{loc}">markets</W>
+<W morph="market" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{loc}">markets</W>
 <W msd="SP" tag="IN" in="-6:inst" out="2:nobj">with</W>
-<W msd="ANP" tag="RB" in="1:attr" out="">just</W>
+<W morph="" msd="ANP" tag="RB" in="1:attr" out="">just</W>
 <W msd="PI" tag="DT" in="-2:nobj" out="-1:attr|1:attr|2:nobj|3:attr">a</W>
-<W msd="ANP" tag="JJ" in="-1:attr" out="">few</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="1:{func}">strokes</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-1:attr" out="">few</W>
+<W morph="stroke" msd="NC=P" tag="NNS" in="-2:nobj" out="1:{func}">strokes</W>
 <W msd="SP" tag="IN" in="-3:attr|-1:{func}" out="1:nobj">of</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">keyboard</W>
+<W morph="board -key/CONST" msd="NC=S" tag="NN" in="-1:nobj" out="">keyboard</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">All</W>
-<W msd="ANP" tag="JJ" in="-1:attr|1:{source}" out="">foreign</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:{source}">markets</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|2:vobj|5:pnct">are</W>
-<W msd="ANP" tag="RB" in="1:man" out="">aggressively</W>
-<W msd="VAG" tag="VBG" in="-2:vobj" out="-1:man|2:dobj">courting</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-1:attr|1:{source}" out="">foreign</W>
+<W morph="market" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:{source}">markets</W>
+<W morph="be" msd="VADR" tag="VBP" in="" out="-3:subj|2:vobj|5:pnct">are</W>
+<W morph="" msd="ANP" tag="RB" in="1:man" out="">aggressively</W>
+<W morph="court@V" msd="VAG" tag="VBG" in="-2:vobj" out="-1:man|2:dobj">courting</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{source}" out="">U.S.</W>
-<W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr|-1:{source}">business</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr|-1:{source}">business</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
 <W msd="SP" tag="IN" in="7:epi" out="1:nobj|2:pnct">In</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">fact</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">fact</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="ANP" tag="JJ" in="4:subj" out="1:attr|2:nobj">several</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="4:subj" out="1:attr|2:nobj">several</W>
 <W msd="NP=S" tag="NNP" in="-1:attr|1:{source}" out="">London</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:{source}|1:time">markets</W>
-<W msd="ANP" tag="RB" in="-1:time" out="">already</W>
-<W msd="VADR" tag="VBP" in="" out="-7:epi|-4:subj|1:dobj|12:pnct">offer</W>
-<W msd="ANC" tag="JJR" in="-1:dobj" out="1:nobj">lower</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj|1:{arg}">costs</W>
+<W morph="market" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:{source}|1:time">markets</W>
+<W morph="" msd="ANP" tag="RB" in="-1:time" out="">already</W>
+<W morph="&lt;unknown&gt;" msd="VADR" tag="VBP" in="" out="-7:epi|-4:subj|1:dobj|12:pnct">offer</W>
+<W morph="low" msd="ANC" tag="JJR" in="-1:dobj" out="1:nobj">lower</W>
+<W morph="cost" msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj|1:{arg}">costs</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="1:pobj.pobj|1:{patient}">trading</W>
+<W morph="trade@V ! +ing/DERvn&3a;core" msd="VAG" tag="VBG" in="-1:nobj" out="1:pobj.pobj|1:{patient}">trading</W>
 <W msd="SP" tag="IN" in="-1:pobj.pobj|-1:{patient}" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|5:nobj">the</W>
-<W msd="ANP" tag="JJ" in="-1:attr" out="3:conj">same</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-1:attr" out="3:conj">same</W>
 <W msd="CC" tag="CC" in="2:coord" out="">or</W>
-<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
-<W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:quant">similar</W>
-<W msd="NC=P" tag="NNS" in="-5:nobj" out="">contracts</W>
+<W morph="" msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:quant">similar</W>
+<W morph="contract" msd="NC=P" tag="NNS" in="-5:nobj" out="">contracts</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{source}#" out="">U.S.</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{source}#">exchanges</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|1:dobj|6:pnct|9:xpl|12:pnct">need</W>
+<W morph="exchange" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{source}#">exchanges</W>
+<W morph="&lt;unknown&gt;" msd="VADR" tag="VBP" in="" out="-3:subj|1:dobj|6:pnct|9:xpl|12:pnct">need</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:nobj">both</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="">market</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{goal}#|2:conj">integrity</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="">market</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{goal}#|2:conj">integrity</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">cost-efficiency</W>
+<W morph="efficient -cost-/ABOUT !!! +ency/DERan&3a;qual" msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">cost-efficiency</W>
 <W msd="XP" tag="&3a;" in="-6:pnct" out="">;</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">long-term</W>
-<W msd="NC=S" tag="NN" in="1:subj" out="-1:attr">growth</W>
-<W msd="VADR" tag="VBZ" in="-9:xpl" out="-1:subj|1:pobj">depends</W>
+<W morph="term -long-/TIME" msd="ANP" tag="JJ" in="1:attr" out="">long-term</W>
+<W morph="grow +th/DERvn&3a;core" msd="NC=S" tag="NN" in="1:subj" out="-1:attr">growth</W>
+<W morph="depend" msd="VADR" tag="VBZ" in="-9:xpl" out="-1:subj|1:pobj">depends</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">it</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
@@ -572,205 +572,205 @@
 <s>
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:attr|1:{agent}" out="">Senate</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:{agent}">bill</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:dobj|10:pnct">contains</W>
-<W msd="ANP" tag="JJ" in="-1:dobj" out="1:nobj|2:ref|3:relr">many</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="">provisions</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:nobj" out="-1:{agent}">bill</W>
+<W morph="contain" msd="VADR" tag="VBZ" in="" out="-3:subj|1:dobj|10:pnct">contains</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-1:dobj" out="1:nobj|2:ref|3:relr">many</W>
+<W morph="provision" msd="NC=P" tag="NNS" in="-1:nobj" out="">provisions</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">that</W>
-<W msd="VA" tag="MD" in="-3:relr" out="-1:subj|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">increase</W>
+<W morph="will@V" msd="VA" tag="MD" in="-3:relr" out="-1:subj|1:vobj">will</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">increase</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj.subj|1:{agent}">costs</W>
+<W morph="cost" msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj.subj|1:{agent}">costs</W>
 <W msd="SP" tag="IN" in="-1:pobj.subj|-1:{agent}" out="1:nobj">of</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">trading</W>
+<W morph="trade@V ! +ing/DERvn&3a;core" msd="NC=S" tag="NN" in="-1:nobj" out="">trading</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="5:subj" out="2:attr">The</W>
-<W msd="ANS" tag="RBS" in="1:quant" out="2:pobj">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">arbitrary</W>
+<W morph="" msd="ANS" tag="RBS" in="1:quant" out="2:pobj">most</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">arbitrary</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">these</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:preds|21:pnct">is</W>
+<W morph="be" msd="VADR" tag="VBZ" in="" out="-5:subj|1:preds|21:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">imposition</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">imposition</W>
 <W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="3:nobj">of</W>
 <W tag="" in="2:pnct" out="">``</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="">service</W>
-<W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr|-1:{goal}#|-2:pnct|1:pnct|2:pnct|3:ref|4:relr">fees</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="">service</W>
+<W morph="fee" msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr|-1:{goal}#|-2:pnct|1:pnct|2:pnct|3:ref|4:relr">fees</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="XP" tag="''" in="-2:pnct" out="">''</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj|3:[subj]" out="">which</W>
-<W msd="VA" tag="MD" in="-4:relr" out="-1:subj|1:man|2:vobj">will</W>
-<W msd="ANP" tag="RB" in="-1:man" out="">directly</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">widen</W>
+<W morph="will@V" msd="VA" tag="MD" in="-4:relr" out="-1:subj|1:man|2:vobj">will</W>
+<W morph="" msd="ANP" tag="RB" in="-1:man" out="">directly</W>
+<W morph="wide ^n/DERav" msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">widen</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:attr">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">cost</W>
-<W msd="NC=S" tag="NN" in="-2:attr" out="1:pobj">spread</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">cost</W>
+<W morph="spread /DERva&3a;pas.part" msd="NC=S" tag="NN" in="-2:attr" out="1:pobj">spread</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="4:nobj">between</W>
 <W msd="NP=S" tag="NNP" in="3:attr|3:{source}" out="2:conj">U.S.</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">foreign</W>
-<W msd="NC=P" tag="NNS" in="-4:nobj" out="-3:attr|-3:{source}">markets</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">foreign</W>
+<W morph="market" msd="NC=P" tag="NNS" in="-4:nobj" out="-3:attr|-3:{source}">markets</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="JJ" in="2:subj" out="1:nobj">Other</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="">provisions</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|1:dobj|18:pnct">have</W>
+<W morph="" msd="ANP" tag="JJ" in="2:subj" out="1:nobj">Other</W>
+<W morph="provision" msd="NC=P" tag="NNS" in="-1:nobj" out="">provisions</W>
+<W morph="&lt;unknown&gt;" msd="VADR" tag="VBP" in="" out="-2:subj|1:dobj|18:pnct">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:attr|9:nobj">a</W>
-<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant|1:pnct|4:conj">subtle</W>
+<W morph="" msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-2:attr" out="-1:quant|1:pnct|4:conj">subtle</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
-<W msd="ANP" tag="RB" in="1:prg" out="">nonetheless</W>
-<W msd="ANP" tag="JJ" in="-4:conj" out="-2:coord|-1:prg|2:conj">real</W>
+<W morph="" msd="ANP" tag="RB" in="1:prg" out="">nonetheless</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-4:conj" out="-2:coord|-1:prg|2:conj">real</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">detrimental</W>
-<W msd="NC=S" tag="NN" in="-9:nobj" out="1:pobj|1:{arg}">effect</W>
+<W morph="detriment +al/DERnn&3a;telic" msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">detrimental</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-9:nobj" out="1:pobj|1:{arg}">effect</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
-<W msd="ANP" tag="JJ" in="-1:attr" out="">international</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj|1:{arg}">position</W>
+<W morph="nation +al/DERna&3a;rel -inter/MOD&3a;qual" msd="ANP" tag="JJ" in="-1:attr" out="">international</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj|1:{arg}">position</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="2:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{source}" out="">U.S.</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{source}">exchanges</W>
+<W morph="exchange" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{source}">exchanges</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">These</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|22:pnct">include</W>
+<W morph="&lt;unknown&gt;" msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|22:pnct">include</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|13:conj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:pobj">extension</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:pobj">extension</W>
 <W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">of</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">liability</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">liability</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="1:nobj">into</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:attr">areas</W>
+<W morph="area" msd="NC=P" tag="NNS" in="-1:nobj" out="1:attr">areas</W>
 <W msd="SP" tag="IN" in="-1:attr" out="1:nobj">beyond</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr">those</W>
-<W msd="VAP" tag="VBN" in="-1:attr" out="1:pobj">established</W>
+<W morph="establish +ed/DERva&3a;pas.part" msd="VAP" tag="VBN" in="-1:attr" out="1:pobj">established</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">by</W>
-<W msd="ANP" tag="JJ" in="1:attr#" out="">judicial</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr#">precedent</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr#" out="">judicial</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr#">precedent</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PD" tag="DT" in="-13:conj" out="-1:coord|1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:attr|3:{goal}">expansion</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:attr|3:{goal}">expansion</W>
 <W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">of</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">liability</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">liability</W>
 <W msd="U=" tag="TO" in="-3:attr|-3:{goal}" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj">include</W>
-<W msd="ANP" tag="JJ" in="1:attr#" out="">punitive</W>
-<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr#">damages</W>
+<W morph="include" msd="VAF" tag="VB" in="-1:vobj" out="2:dobj">include</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr#" out="">punitive</W>
+<W morph="damage@N" msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr#">damages</W>
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
 <W msd="SP" tag="IN" in="17:add" out="1:nobj#|14:pnct">In</W>
-<W msd="NC=S" tag="NN" in="-1:nobj#" out="1:pobj#">addition</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj#" out="1:pobj#">addition</W>
 <W msd="U=" tag="TO" in="-1:pobj#" out="2:nobj">to</W>
-<W msd="VAG" tag="VBG" in="1:attr" out="">increasing</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|1:attr|1:{cause}|8:pobj.pobj|8:{patient}">costs</W>
+<W morph="increase ! +ing/DERva&3a;act" msd="VAG" tag="VBG" in="1:attr" out="">increasing</W>
+<W morph="cost" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|1:attr|1:{cause}|8:pobj.pobj|8:{patient}">costs</W>
 <W msd="CS" tag="IN" in="-1:attr|-1:{cause}" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">result</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">result</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="3:nobj">of</W>
-<W msd="ANC" tag="JJR" in="2:attr" out="">greater</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">financial</W>
-<W msd="NC=S" tag="NN" in="-3:nobj" out="-2:attr|-1:attr">exposure</W>
+<W morph="great" msd="ANC" tag="JJR" in="2:attr" out="">greater</W>
+<W morph="finance !+ial/DERna&3a;rel" msd="ANP" tag="JJ" in="1:attr" out="">financial</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-3:nobj" out="-2:attr|-1:attr">exposure</W>
 <W msd="SP" tag="IN" in="-8:pobj.pobj|-8:{patient}" out="1:nobj">for</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="">members</W>
+<W morph="member" msd="NC=P" tag="NNS" in="-1:nobj" out="">members</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">these</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="">measures</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|-17:add|1:vobj|6:pnct">could</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">have</W>
-<W msd="ANP" tag="JJ" in="-1:dobj" out="1:pnct|3:nobj">other</W>
+<W morph="measure@N" msd="NC=P" tag="NNS" in="-1:nobj" out="">measures</W>
+<W morph="can" msd="VA" tag="MD" in="" out="-2:subj|-17:add|1:vobj|6:pnct">could</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">have</W>
+<W morph="" msd="ANP" tag="JJ" in="-1:dobj" out="1:pnct|3:nobj">other</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">far-reaching</W>
-<W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr">repercussions</W>
+<W morph="reach@V +ing/DERva&3a;act -far-/SPACE" msd="ANP" tag="JJ" in="1:attr" out="">far-reaching</W>
+<W morph="repercussion" msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr">repercussions</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
 <W msd="AC" tag="CD" in="5:subj|6:[subj]" out="1:nobj">One</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">section</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">section</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">bill</W>
-<W msd="VA" tag="MD" in="" out="-5:subj|1:vobj|15:pnct">would</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:dobj|8:predo">make</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">bill</W>
+<W morph="will" msd="VA" tag="MD" in="" out="-5:subj|1:vobj|15:pnct">would</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:dobj|8:predo">make</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="3:nobj">all</W>
-<W msd="NC=S" tag="NN" in="1:nobj|1:{about}#" out="">commodity</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="-1:nobj|-1:{about}#">brokerage</W>
-<W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr|-1:{goal}#|3:conj">firms</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:nobj|1:{about}#" out="">commodity</W>
+<W morph="broker +age/DERnn&3a;assoc" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="-1:nobj|-1:{about}#">brokerage</W>
+<W morph="firm" msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr|-1:{goal}#|3:conj">firms</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{other}#" out="">floor</W>
-<W msd="NC=P" tag="NNS" in="-3:conj" out="-2:coord|-1:attr|-1:{other}#">brokers</W>
-<W msd="ANP" tag="JJ" in="-8:predo" out="1:pobj">liable</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:attr|1:{other}#" out="">floor</W>
+<W morph="broker" msd="NC=P" tag="NNS" in="-3:conj" out="-2:coord|-1:attr|-1:{other}#">brokers</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="-8:predo" out="1:pobj">liable</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:attr|1:{other}">damages</W>
+<W morph="damage@N" msd="NC=P" tag="NNS" in="-1:nobj" out="1:attr|1:{other}">damages</W>
 <W msd="SP" tag="IN" in="-1:attr|-1:{other}" out="2:nobj">without</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">willful</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">misconduct</W>
+<W morph="will +ful/DERna&3a;rel" msd="ANP" tag="JJ" in="1:attr" out="">willful</W>
+<W morph="conduct -mis/MOD&3a;eval" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">misconduct</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="6:loc" out="1:other">Nowhere</W>
+<W morph="" msd="ANP" tag="RB" in="6:loc" out="1:other">Nowhere</W>
 <W msd="SP" tag="IN" in="-1:other" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="3:nobj">the</W>
-<W msd="ANP" tag="JJ" in="1:attr|1:{goal}#" out="">federal</W>
-<W msd="NC=P" tag="NNS" in="1:nobj|1:{about}#" out="-1:attr|-1:{goal}#">securities</W>
-<W msd="NC=S" tag="NN" in="-3:nobj" out="-1:nobj|-1:{about}#">law</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:loc|2:subj|6:preds|10:scene|13:pnct">is</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">simple</W>
-<W msd="NC=S" tag="NN" in="-2:subj" out="-1:attr|3:conj">negligence</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr|1:{goal}#" out="">federal</W>
+<W morph="secure ! +ity/DERan&3a;qual ~!ies" msd="NC=P" tag="NNS" in="1:nobj|1:{about}#" out="-1:attr|-1:{goal}#">securities</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-3:nobj" out="-1:nobj|-1:{about}#">law</W>
+<W morph="be" msd="VADR" tag="VBZ" in="" out="-6:loc|2:subj|6:preds|10:scene|13:pnct">is</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr" out="">simple</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:subj" out="-1:attr|3:conj">negligence</W>
 <W msd="CC" tag="CC" in="2:coord" out="">or</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">inadvertent</W>
-<W msd="NC=S" tag="NN" in="-3:conj" out="-2:coord|-1:attr">action</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr" out="">inadvertent</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-3:conj" out="-2:coord|-1:attr">action</W>
 <W msd="PI" tag="DT" in="-6:preds" out="1:nobj">a</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">source</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">source</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">liability</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">liability</W>
 <W msd="SP" tag="IN" in="-10:scene" out="2:nobj">under</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="">similar</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">circumstances</W>
+<W morph="&lt;unknown&gt;" msd="ANP" tag="JJ" in="1:attr" out="">similar</W>
+<W morph="circumstance" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">circumstances</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:eval|2:preds|16:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:eval" out="">only</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="">logical</W>
+<W morph="be" msd="VADR" tag="VBZ" in="" out="-1:subj|1:eval|2:preds|16:pnct">is</W>
+<W morph="" msd="ANP" tag="RB" in="-1:eval" out="">only</W>
+<W morph="logic +al/DERna&3a;rel" msd="ANP" tag="JJ" in="-2:preds" out="">logical</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>
-<W _noerror="&3a;nosubj&3a;" msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">assume</W>
+<W _noerror="&3a;nosubj&3a;" morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">assume</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="6:vobj">that</W>
 <W msd="PD" tag="DT" in="5:subj|6:[subj]" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">enactment</W>
+<W morph="enact +ment/DERvn&3a;core" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">enactment</W>
 <W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">this</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">provision</W>
-<W msd="VA" tag="MD" in="-6:vobj" out="-5:subj|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:@dir">lead</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="">provision</W>
+<W morph="will@V" msd="VA" tag="MD" in="-6:vobj" out="-5:subj|1:vobj">will</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:@dir">lead</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="2:nobj">to</W>
-<W msd="VAP" tag="VBN" in="1:attr" out="">increased</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">litigation</W>
+<W morph="increase ! +ed/DERva&3a;pas.part" msd="VAP" tag="VBN" in="1:attr" out="">increased</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">litigation</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
 <W msd="SP" tag="IN" in="9:loc" out="1:nobj|5:pnct">In</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="3:nobj">an</W>
-<W msd="ANP" tag="RB" in="1:time" out="">already</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{other}#" out="-1:time">low-profitmargin</W>
-<W msd="NC=S" tag="NN" in="-3:nobj" out="-1:attr|-1:{other}#">business</W>
+<W morph="" msd="ANP" tag="RB" in="1:time" out="">already</W>
+<W morph="margin -profit/ABOUT -low-/MOD&3a;qual" msd="NC=S" tag="NN" in="1:attr|1:{other}#" out="-1:time">low-profitmargin</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-3:nobj" out="-1:attr|-1:{other}#">business</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="NC=S" tag="NN" in="1:nobj|1:{about}#" out="">commodity</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="-1:nobj|-1:{about}#">brokerage</W>
-<W msd="NC=P" tag="NNS" in="1:subj|3:[subj]|5:[subj]|11:[subj]" out="-1:attr|-1:{goal}#">firms</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|-9:loc|1:epi|2:vobj|15:pnct|16:concom|25:pnct">may</W>
-<W msd="ANP" tag="RB" in="-1:epi" out="">well</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">decide</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="1:nobj|1:{about}#" out="">commodity</W>
+<W morph="broker +age/DERnn&3a;assoc" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="-1:nobj|-1:{about}#">brokerage</W>
+<W morph="firm" msd="NC=P" tag="NNS" in="1:subj|3:[subj]|5:[subj]|11:[subj]" out="-1:attr|-1:{goal}#">firms</W>
+<W morph="may" msd="VA" tag="MD" in="" out="-1:subj|-9:loc|1:epi|2:vobj|15:pnct|16:concom|25:pnct">may</W>
+<W morph="" msd="ANP" tag="RB" in="-1:epi" out="">well</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">decide</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj">eliminate</W>
+<W morph="&lt;unknown&gt;" msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj">eliminate</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj|3:pobj|3:{arg}">risk</W>
+<W morph="&lt;unknown&gt;" msd="NC=S" tag="NN" in="-1:nobj" out="2:conj|3:pobj|3:{arg}">risk</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">expense</W>
 <W msd="SP" tag="IN" in="-3:pobj|-3:{arg}" out="1:nobj">of</W>

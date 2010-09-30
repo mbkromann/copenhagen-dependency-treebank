@@ -1,70 +1,72 @@
-accom	11	45.5%=man	45.5%=accom	9.1%=pobj
-add	32	75%=add	12.5%=other	6.3%=discmark	3.1%=prg	3.1%=scene
-agent	5	80%=agent	20%=attr
-aobj	25	32%=aobj	28%=nobj	24%=attr	8%=preds	4%=man	4%=avobj
-appa	16	93.8%=appa	6.3%=attr
-appr	15	73.3%=appr	10%=nobj	6.7%=title	6.7%=subj	3.3%=pnct
-attr	620	77.7%=attr	6.5%=pobj	5.3%=nobj	1.8%=time	1.6%=loc	1%=aobj	1%=mod	0.8%=other	0.6%=focal	0.5%=conj	0.3%=cause	0.3%=goal	0.3%=man	0.2%=source	0.2%=relr	0.2%=predo	0.2%=dir	0.2%=pnct	0.2%=quant	0.2%=conc	0.2%=name	0.2%=possd	0.2%=subj	0.2%=inst	0.2%=agent	0.2%=modp	0.2%=appa
-avobj	20	50%=avobj	15%=part	10%=other	10%=quant	5%=aobj	5%=loc	5%=pobj
-cause	25	76%=cause	8%=attr	4%=conj	4%=time	4%=pobj	4%=cons
-conc	8	37.5%=conc	25%=contr	25%=prg	12.5%=attr
-concom	3	33.3%=source	33.3%=man	33.3%=inst
-cond	17	88.2%=cond	5.9%=man	5.9%=nobj
-conj	254	91.1%=conj	2.4%=CONJ:add	1.2%=nobj	1.2%=attr	0.8%=CONTR:sbj	0.8%=CONTR:dir	0.4%=CONST:rest	0.4%=TELIC:cons.dir	0.4%=coord	0.4%=qobj	0.4%=cause	0.4%=vobj	0.2%=pnct
+accom	22	22.7%=man	22.7%=accom	14.3%=nobj	11.7%=attr	5.6%=pnct	5.6%=coord	4.5%=pobj	2.8%=vobj	2.7%=subj	2.3%=goal	1.5%=quant	1.5%=neg	1.1%=preds	1%=conj
+add	40	62.5%=add	10%=other	5%=discmark	3.3%=subj	2.5%=prg	2.5%=quant	2.5%=scene	1.9%=dobj	1.6%=pobj	1.6%=vobj	1.5%=pnct	1.4%=nobj	1.1%=attr	0.9%=preds	0.4%=possd	0.3%=coord	0.3%=neg	0.3%=appr	0.3%=conj	0.3%=time
+agent	12	41.7%=agent	19.4%=nobj	9.4%=attr	8.3%=pnct	5.2%=subj	3.9%=dobj	3%=conj	2.1%=scene	2.1%=preds	2.1%=numm	0.9%=title	0.9%=neg	0.9%=vobj
+aobj	33	29.7%=nobj	24.2%=aobj	19.6%=attr	6.1%=preds	4.5%=vobj	3%=avobj	3%=man	2%=pnct	1.5%=concom	1.5%=possd	1.5%=modp	1%=dobj	1%=possr	0.4%=conj	0.4%=focal	0.4%=name
+appa	40	40%=appa	13.5%=nobj	8.2%=attr	6.9%=pnct	5.9%=subj	5.4%=dobj	4.7%=vobj	2.5%=pobj	1.6%=conj	1.5%=coord	1.4%=appr	1.1%=time	1%=namef	0.8%=predo	0.7%=inst	0.6%=relr	0.6%=avobj	0.6%=man	0.5%=numm	0.4%=possr	0.4%=quant	0.4%=name	0.4%=other	0.3%=correl	0.3%=preds	0.3%=possd
+appr	29	37.9%=appr	15.5%=nobj	7.4%=subj	6.7%=pnct	5.9%=attr	5%=pobj	4.4%=dobj	3.4%=title	2.7%=vobj	2%=coord	1.9%=appa	0.9%=focal	0.9%=neg	0.7%=conc	0.7%=numm	0.6%=name	0.4%=add	0.4%=conj	0.4%=quant	0.4%=iter	0.3%=time	0.3%=possr	0.3%=correl	0.3%=preds	0.3%=possd
+attr	973	54.5%=attr	12.9%=nobj	5.4%=pobj	4.1%=pnct	3%=subj	2.3%=dobj	2%=vobj	1.8%=conj	1.8%=time	1.2%=loc	1.2%=coord	0.9%=other	0.8%=preds	0.8%=possd	0.7%=aobj	0.6%=mod	0.5%=focal	0.5%=relr	0.4%=scene	0.3%=numm	0.3%=goal	0.3%=quant	0.3%=appa	0.3%=cause	0.3%=name	0.3%=modp	0.3%=man	0.2%=neg	0.2%=accom	0.2%=predo	0.2%=appr	0.2%=namef	0.1%=source	0.1%=conc	0.1%=inst	0.1%=agent	0.1%=possr	0.1%=dir	0.1%=part	0.1%=title	0.1%=eval	0%=exem	0%=add	0%=concom	0%=prg	0%=fpredo	0%=resem	0%=contr	0%=numa	0%=cond	0%=epi	0%=iobj	0%=qobj	0%=avobj	0%=event
+avobj	25	44%=avobj	12%=part	8%=other	8%=quant	4.4%=subj	4%=conj	4%=aobj	4%=loc	4%=pobj	1.8%=nobj	1.4%=pnct	1%=namef	1%=man	1%=appa	0.4%=attr	0.4%=numm	0.4%=coord
+cause	30	66.7%=cause	10%=attr	3.3%=conj	3.3%=time	3.3%=cons	3.3%=pobj	1.7%=subj	1.7%=dobj	1.7%=other	1.7%=pnct	0.8%=iter	0.8%=nobj	0.8%=name	0.8%=vobj
+comp	1	40%=conj	40%=nobj	20%=subj
+conc	15	20%=conc	13.3%=prg	13.3%=contr	9.5%=pobj	9.3%=nobj	8.3%=conj	8.3%=attr	6.7%=pnct	3.9%=dobj	3%=subj	1.9%=possd	1.3%=appr	1.1%=coord
+concom	14	27.1%=nobj	11.5%=subj	7.1%=source	7.1%=man	7.1%=inst	6.6%=conj	5.2%=attr	4.4%=pnct	4.3%=coord	3.8%=vobj	3.6%=aobj	2%=relr	2%=numm	1.7%=namef	1.4%=dobj	1.4%=possr	0.8%=eval	0.8%=pobj	0.7%=time	0.7%=preds	0.6%=possd
+cond	23	65.2%=cond	11.2%=nobj	5.8%=subj	4.3%=man	3%=time	1.4%=preds	1.4%=dobj	1.1%=conj	1.1%=possd	1.1%=numm	1.1%=vobj	0.9%=attr	0.9%=fpredo	0.7%=other	0.7%=pnct
+conj	412	61.6%=conj	9.1%=nobj	5.2%=attr	5%=pnct	2.6%=subj	1.8%=vobj	1.7%=coord	1.5%=pobj	1.5%=CONJ:add	1.2%=dobj	0.5%=possd	0.5%=preds	0.5%=time	0.5%=CONTR:sbj	0.5%=CONTR:dir	0.4%=numm	0.3%=loc	0.3%=part	0.3%=conc	0.3%=qobj	0.3%=scene	0.3%=name	0.3%=other	0.2%=relr	0.2%=cause	0.2%=inst	0.2%=avobj	0.2%=CONST:rest	0.2%=TELIC:cons.dir	0.2%=concom	0.2%=possr	0.2%=quant	0.2%=namef	0.1%=modp	0.1%=exem	0.1%=neg	0.1%=title	0.1%=appa	0.1%=goal	0.1%=predo	0.1%=agent	0.1%=focal	0.1%=cond	0.1%=correl	0.1%=eval	0.1%=prg	0%=comp	0%=event	0%=fpredo	0%=aobj	0%=man	0%=appr	0%=accom	0%=xpl	0%=add
 cons	13	61.5%=cons	23.1%=time	7.7%=inst	7.7%=cause
-contr	16	31.3%=contr	25%=discmark	12.5%=conc	12.5%=coord	6.3%=prg	6.3%=other	6.3%=scene
-coord	193	87.6%=coord	9.3%=discmark	1%=contr	1%=qobj	0.5%=conj	0.5%=neg
-correl	5	60%=correl	20%=focal	20%=subj
+contr	21	28.6%=contr	19%=discmark	9.5%=conc	9.5%=coord	7.1%=nobj	6%=pnct	4.8%=prg	4.8%=scene	4.8%=other	2.4%=dobj	1.2%=relr	1.2%=attr	1.2%=subj
+coord	327	54.9%=coord	10.4%=nobj	5.5%=discmark	5.3%=pnct	3.9%=attr	2.9%=subj	2.4%=pobj	2.4%=dobj	2.1%=conj	1.9%=vobj	1.1%=time	0.8%=preds	0.8%=possd	0.6%=qobj	0.6%=contr	0.5%=scene	0.5%=neg	0.4%=loc	0.3%=accom	0.3%=part	0.3%=numm	0.2%=appa	0.2%=appr	0.2%=other	0.2%=quant	0.2%=goal	0.1%=possr	0.1%=concom	0.1%=namef	0.1%=title	0.1%=fpredo	0.1%=inst	0.1%=eval	0.1%=relr	0.1%=conc	0%=focal	0%=modp	0%=add	0%=iter	0%=avobj	0%=predo	0%=prg	0%=source
+correl	7	42.9%=correl	15.7%=subj	14.3%=focal	7.9%=nobj	7.1%=pnct	4.3%=dobj	3.6%=conj	1.4%=appr	1.4%=appa	1.4%=pobj
 degr	2	100%=quant
-dir	39	51.3%=loc	23.1%=dir	17.9%=pobj	2.6%=part	2.6%=attr	2.6%=dobj
-discmark	28	64.3%=coord	14.3%=contr	10.7%=discmark	7.1%=add	3.6%=qobj
-dobj	348	89.5%=dobj	3.4%=nobj	2%=pobj	1.1%=robj	1.1%=iobj	0.6%=preds	0.6%=goal	0.5%=pnct	0.3%=predo	0.3%=dir	0.3%=quant	0.3%=vobj
+dir	40	50%=loc	22.5%=dir	17.5%=pobj	2.5%=part	2.5%=pnct	2.5%=attr	2.5%=dobj
+discmark	29	62.1%=coord	13.8%=contr	13.8%=discmark	6.9%=add	3.4%=qobj
+dobj	535	61.3%=dobj	10.4%=nobj	4.4%=attr	4.3%=pnct	3.3%=pobj	2.3%=subj	2.2%=vobj	1.3%=coord	1.3%=preds	0.9%=time	0.8%=conj	0.7%=iobj	0.7%=robj	0.6%=possd	0.5%=neg	0.4%=quant	0.4%=goal	0.3%=other	0.3%=loc	0.3%=numm	0.3%=appa	0.3%=predo	0.2%=relr	0.2%=modp	0.2%=name	0.2%=appr	0.2%=dir	0.2%=possr	0.2%=title	0.2%=scene	0.1%=qobj	0.1%=namef	0.1%=cause	0.1%=resem	0.1%=add	0.1%=focal	0.1%=conc	0.1%=iter	0.1%=agent	0.1%=aobj	0.1%=man	0%=contr	0%=numa	0%=concom	0%=cond	0%=part	0%=exem	0%=source	0%=correl	0%=inst
 elab	4	50%=elab	25%=prg	25%=quant
-epi	8	50%=epi	25%=man	25%=eval
-eval	32	46.9%=eval	25%=prg	9.4%=quant	6.3%=epi	3.1%=man	3.1%=other	3.1%=focal	3.1%=neg
-event	1	100%=loc
-exem	7	100%=exem
-expl	20	95%=expl	5%=subj
-focal	18	33.3%=focal	22.2%=attr	11.1%=other	11.1%=loc	11.1%=quant	5.6%=correl	5.6%=eval
-fpredo	6	33.3%=loc	16.7%=goal	16.7%=man	16.7%=preds	16.7%=predo
-fpreds	2	50%=man	50%=vobj
-goal	36	44.4%=goal	33.3%=pobj	5.6%=scene	5.6%=attr	5.6%=dobj	2.8%=man	2.8%=fpredo
-inst	17	35.3%=inst	11.8%=predo	11.8%=pobj	5.9%=concom	5.9%=scene	5.9%=preds	5.9%=attr	5.9%=cons	5.9%=man	5.9%=loc
-iobj	10	50%=iobj	40%=dobj	10%=robj
-iter	15	66.7%=time	26.7%=iter	6.7%=other
-loc	149	59.7%=loc	13.4%=dir	6.7%=attr	5.4%=preds	5.4%=other	2.7%=pobj	1.3%=nobj	1.3%=focal	1.3%=fpredo	0.7%=avobj	0.7%=event	0.7%=man	0.7%=inst
-man	76	56.6%=man	6.6%=accom	5.3%=other	3.9%=quant	2.6%=epi	2.6%=time	2.6%=attr	1.3%=source	1.3%=prg	1.3%=fpreds	1.3%=aobj	1.3%=eval	1.3%=cond	1.3%=concom	1.3%=scene	1.3%=fpredo	1.3%=goal	1.3%=loc	1.3%=inst	1.3%=resem	1.3%=mod	1.3%=pobj
+epi	15	26.7%=epi	21.1%=nobj	15%=man	13.3%=eval	7.8%=pnct	6.1%=subj	2.2%=relr	1.7%=part	1.7%=pobj	1.1%=attr	1.1%=quant	1.1%=modp	1.1%=vobj
+eval	38	39.5%=eval	21.1%=prg	8%=nobj	7.9%=quant	5.3%=epi	2.6%=focal	2.6%=neg	2.6%=man	2.6%=other	2%=attr	1.2%=pnct	1%=pobj	0.7%=coord	0.6%=conj	0.6%=time	0.6%=vobj	0.3%=relr	0.3%=namef	0.3%=concom	0.3%=numm
+event	3	33.3%=loc	30%=nobj	10%=attr	5.6%=conj	5.6%=scene	5.6%=possd	3.3%=subj	3.3%=pnct	3.3%=quant
+exem	11	72.7%=exem	5.8%=subj	4.5%=conj	4.5%=other	3.6%=attr	2.3%=source	1.3%=namef	1.3%=nobj	1.3%=dobj	1.3%=goal	1.3%=pobj
+expl	25	88%=expl	5.3%=subj	4%=preds	1.3%=time	1.3%=pobj
+focal	27	22.2%=focal	19.5%=attr	8.8%=pnct	8%=other	7.4%=quant	7.4%=loc	5.4%=nobj	3.7%=correl	3.7%=eval	3.4%=pobj	1.9%=subj	1.5%=dobj	1.4%=vobj	1.1%=conj	1.1%=numm	0.9%=possd	0.9%=appr	0.5%=aobj	0.5%=name	0.5%=coord
+fpredo	11	18.2%=loc	11.4%=preds	11.4%=goal	9.9%=nobj	9.1%=predo	9.1%=man	8.1%=pnct	5.4%=subj	4.1%=time	3.6%=attr	3.5%=pobj	2.3%=coord	1.8%=cond	1.3%=conj	0.9%=vobj
+fpreds	3	33.3%=man	33.3%=nobj	33.3%=vobj
+goal	56	30.4%=goal	23.6%=pobj	9.6%=nobj	5.9%=attr	5.3%=subj	4%=dobj	3.6%=scene	3.6%=man	2.3%=pnct	2.2%=fpredo	2%=other	1.7%=vobj	1.3%=preds	0.9%=time	0.9%=coord	0.9%=accom	0.8%=conj	0.5%=numm	0.3%=namef	0.3%=exem
+inst	24	29.2%=inst	9.5%=pobj	8.3%=predo	5.7%=possd	5.5%=attr	4.7%=pnct	4.2%=conj	4.2%=concom	4.2%=preds	4.2%=scene	4.2%=cons	4.2%=man	4.2%=loc	3%=nobj	2.1%=coord	1.2%=appa	0.8%=time	0.5%=subj	0.4%=dobj
+iobj	11	45.5%=iobj	36.4%=dobj	9.1%=robj	3%=pnct	2%=subj	1%=nobj	1%=attr	1%=possd	1%=modp
+iter	19	52.6%=time	21.1%=iter	7.9%=vobj	5.3%=other	2.5%=nobj	1.9%=dobj	1.3%=relr	1.3%=name	1.3%=scene	1.3%=cause	1.2%=pobj	0.6%=subj	0.6%=appr	0.6%=coord	0.6%=quant
+loc	182	51.6%=loc	11%=dir	7%=nobj	6.7%=attr	5%=preds	4.5%=other	2.6%=pobj	1.5%=subj	1.2%=vobj	1.1%=focal	1.1%=fpredo	1%=dobj	0.8%=pnct	0.8%=conj	0.7%=coord	0.5%=avobj	0.5%=event	0.5%=man	0.5%=inst	0.3%=possd	0.2%=time	0.2%=possr	0.2%=numm	0.1%=qobj	0.1%=name	0.1%=relr
+man	98	46.9%=man	6.4%=nobj	5.1%=accom	4.1%=other	3.7%=pnct	3.5%=attr	3.1%=time	3.1%=quant	2.3%=epi	2%=goal	1.8%=vobj	1.6%=pobj	1.2%=subj	1%=prg	1%=fpreds	1%=cond	1%=concom	1%=fpredo	1%=loc	1%=inst	1%=resem	1%=source	1%=aobj	1%=eval	1%=scene	1%=mod	0.3%=dobj	0.3%=namef	0.3%=appa	0.3%=avobj	0.3%=part	0.3%=numm	0.1%=conj	0.1%=preds	0.1%=modp	0.1%=possr
 mod	10	60%=attr	10%=nobj	10%=man	10%=time	10%=other
-modp	7	57.1%=modp	14.3%=nobj	14.3%=quant	14.3%=attr
-name	20	60%=name	35%=nobj	5%=attr
-namef	68	100%=namef
+modp	22	18.2%=modp	17.1%=nobj	14.3%=attr	13.3%=pnct	7.2%=subj	5.3%=quant	5.2%=dobj	3.7%=possd	3.1%=pobj	3%=conj	2.3%=aobj	1.5%=predo	1.3%=vobj	1.1%=coord	0.9%=relr	0.8%=epi	0.6%=man	0.5%=iobj	0.5%=prg
+name	39	32%=nobj	30.8%=name	10%=attr	4.6%=vobj	4.5%=subj	3.2%=dobj	2.8%=conj	2.2%=pnct	1.7%=pobj	1%=numm	0.8%=possr	0.6%=cause	0.6%=iter	0.6%=title	0.6%=other	0.4%=quant	0.4%=preds	0.4%=appr	0.4%=relr	0.4%=focal	0.4%=aobj	0.4%=loc	0.4%=appa	0.3%=time	0.3%=part	0.2%=possd
+namef	90	75.7%=namef	6.2%=nobj	3.7%=pnct	3.1%=subj	3%=attr	1.1%=pobj	0.9%=vobj	0.7%=conj	0.6%=numm	0.6%=dobj	0.5%=time	0.5%=appa	0.5%=possd	0.4%=coord	0.3%=relr	0.3%=scene	0.3%=possr	0.3%=avobj	0.3%=man	0.3%=concom	0.2%=part	0.2%=exem	0.2%=goal	0.1%=eval	0.1%=quant
 namel	4	100%=namel
-neg	45	95.6%=neg	2.2%=coord	2.2%=eval
-nobj	1436	92.3%=nobj	2.3%=attr	0.8%=dobj	0.5%=aobj	0.5%=name	0.4%=preds	0.4%=vobj	0.3%=time	0.3%=subj	0.3%=pobj	0.3%=pnct	0.2%=conj	0.2%=possd	0.2%=title	0.1%=loc	0.1%=other	0.1%=appr	0.1%=numa	0.1%=quant	0.1%=cond	0.1%=modp	0.1%=mod
-numa	1	100%=nobj
-numm	2	100%=numm
-other	52	17.3%=other	17.3%=pobj	15.4%=loc	9.6%=attr	7.7%=add	7.7%=man	3.8%=nobj	3.8%=avobj	3.8%=focal	1.9%=source	1.9%=time	1.9%=contr	1.9%=eval	1.9%=iter	1.9%=xpl	1.9%=mod
-part	11	63.6%=part	27.3%=avobj	9.1%=dir
-pnct	907	98.5%=pnct	0.6%=nobj	0.3%=vobj	0.2%=dobj	0.1%=conj	0.1%=attr	0.1%=possd	0.1%=appr
-pobj	288	67.4%=pobj	13.9%=attr	4.2%=goal	3.1%=other	2.4%=dobj	2.4%=dir	1.7%=nobj	1.4%=loc	1%=source	0.7%=inst	0.3%=preds	0.3%=avobj	0.3%=man	0.3%=cause	0.3%=accom
-possd	109	95.9%=possd	2.8%=nobj	0.9%=attr	0.5%=pnct
-predo	10	30%=preds	20%=inst	10%=attr	10%=fpredo	10%=predo	10%=dobj	10%=vobj
-preds	215	79.5%=preds	7%=vobj	3.7%=loc	2.8%=nobj	1.4%=predo	0.9%=time	0.9%=subj	0.9%=dobj	0.9%=aobj	0.5%=fpredo	0.5%=inst	0.5%=resem	0.5%=pobj
-prg	20	40%=eval	20%=prg	10%=conc	10%=quant	5%=man	5%=contr	5%=add	5%=elab
-qobj	33	86.4%=qobj	6.1%=coord	3%=conj	3%=discmark	1.5%=CONJ:add
-quant	91	75.8%=quant	3.3%=time	3.3%=man	3.3%=eval	2.2%=prg	2.2%=avobj	2.2%=focal	2.2%=degr	1.1%=nobj	1.1%=elab	1.1%=attr	1.1%=dobj	1.1%=modp
+neg	70	61.6%=neg	9.4%=nobj	4.7%=subj	4.1%=pnct	3.7%=dobj	3.6%=attr	2.4%=pobj	2.3%=coord	1.6%=vobj	1.4%=eval	0.8%=preds	0.6%=scene	0.6%=relr	0.5%=conj	0.5%=possr	0.5%=accom	0.4%=possd	0.4%=appr	0.3%=time	0.2%=add	0.2%=other	0.2%=agent	0.2%=title
+nobj	2094	70.1%=nobj	5.2%=attr	3.9%=pnct	2.8%=subj	2.4%=vobj	2.2%=pobj	2.1%=dobj	1.3%=conj	1.2%=preds	1.2%=coord	0.9%=time	0.6%=possd	0.5%=quant	0.5%=relr	0.5%=name	0.5%=loc	0.4%=aobj	0.4%=numm	0.2%=goal	0.2%=other	0.2%=neg	0.2%=namef	0.2%=man	0.2%=appa	0.2%=possr	0.2%=title	0.2%=appr	0.2%=epi	0.2%=modp	0.1%=concom	0.1%=accom	0.1%=eval	0.1%=cond	0.1%=agent	0.1%=scene	0.1%=contr	0.1%=numa	0.1%=prg	0%=fpreds	0%=mod	0%=conc	0%=part	0%=predo	0%=focal	0%=fpredo	0%=qobj	0%=resem	0%=inst	0%=add	0%=iter	0%=correl	0%=event	0%=cause	0%=comp	0%=xpl	0%=exem	0%=iobj	0%=avobj	0%=source
+numa	2	62.5%=nobj	12.5%=attr	12.5%=dobj	12.5%=possd
+numm	49	31.1%=nobj	10.6%=pnct	9.8%=attr	6.2%=subj	5.6%=vobj	4.6%=numm	3.9%=dobj	3.9%=conj	3.6%=pobj	2.3%=resem	2.3%=preds	2.3%=coord	2%=possd	1.3%=time	1.2%=namef	0.8%=name	0.8%=quant	0.6%=focal	0.6%=part	0.6%=loc	0.6%=concom	0.5%=goal	0.5%=cond	0.5%=man	0.5%=agent	0.5%=possr	0.5%=other	0.4%=appr	0.4%=appa	0.3%=qobj	0.3%=relr	0.2%=prg	0.2%=avobj	0.2%=eval	0.2%=title	0.2%=predo
+other	78	12.6%=attr	12.4%=pobj	11.5%=other	10.4%=loc	8.1%=nobj	5.1%=add	5.1%=man	3.7%=pnct	3.1%=time	2.8%=focal	2.6%=avobj	2.3%=dobj	2%=subj	1.5%=preds	1.5%=goal	1.4%=conj	1.3%=iter	1.3%=resem	1.3%=xpl	1.3%=source	1.3%=contr	1.3%=eval	1.3%=mod	0.7%=coord	0.7%=vobj	0.6%=possd	0.6%=cause	0.6%=exem	0.3%=name	0.3%=numm	0.2%=cond	0.2%=qobj	0.2%=appa	0.2%=part	0.2%=neg
+part	24	29.2%=part	12.5%=avobj	8.1%=nobj	6.6%=pobj	5.8%=conj	5.5%=pnct	4.7%=attr	4.4%=coord	4.2%=dir	4.2%=scene	3.7%=vobj	2.6%=preds	2%=subj	1.2%=numm	1%=epi	1%=man	1%=time	0.7%=namef	0.6%=dobj	0.6%=other	0.5%=name
+pnct	1278	74.1%=pnct	7.9%=nobj	3%=attr	2.2%=subj	1.9%=vobj	1.6%=dobj	1.4%=conj	1.2%=pobj	1.1%=coord	0.7%=time	0.5%=possd	0.5%=preds	0.4%=relr	0.3%=numm	0.3%=man	0.2%=possr	0.2%=namef	0.2%=modp	0.2%=neg	0.2%=appa	0.2%=quant	0.1%=focal	0.1%=other	0.1%=appr	0.1%=loc	0.1%=scene	0.1%=contr	0.1%=epi	0.1%=resem	0.1%=accom	0.1%=dir	0.1%=part	0.1%=goal	0.1%=predo	0.1%=title	0.1%=name	0.1%=aobj	0.1%=inst	0%=conc	0%=prg	0%=qobj	0%=cause	0%=fpredo	0%=eval	0%=add	0%=concom	0%=agent	0%=avobj	0%=correl	0%=cond	0%=iobj	0%=event	0%=xpl	0%=source
+pobj	477	43%=pobj	12.2%=nobj	11.7%=attr	3.9%=pnct	3.9%=dobj	3.8%=subj	2.8%=goal	2.7%=vobj	2%=other	1.5%=coord	1.5%=dir	1.3%=conj	1%=loc	0.8%=time	0.7%=possd	0.7%=preds	0.6%=source	0.6%=quant	0.5%=relr	0.5%=inst	0.4%=neg	0.3%=numm	0.3%=man	0.3%=conc	0.3%=xpl	0.2%=possr	0.2%=namef	0.2%=part	0.2%=appr	0.2%=appa	0.2%=cause	0.2%=avobj	0.2%=accom	0.1%=focal	0.1%=name	0.1%=prg	0.1%=add	0.1%=modp	0.1%=scene	0.1%=eval	0.1%=expl	0.1%=epi	0.1%=fpredo	0%=qobj	0%=exem	0%=iter	0%=concom	0%=predo	0%=title	0%=correl
+possd	177	59.9%=possd	11.3%=nobj	5.2%=attr	4.3%=pnct	2.4%=vobj	2.1%=dobj	2.1%=pobj	1.7%=coord	1.4%=subj	1.3%=conj	1.2%=time	1.1%=relr	0.9%=quant	0.8%=inst	0.6%=numm	0.5%=modp	0.4%=scene	0.3%=loc	0.3%=preds	0.3%=other	0.3%=aobj	0.2%=possr	0.2%=namef	0.2%=conc	0.2%=neg	0.1%=focal	0.1%=cond	0.1%=numa	0.1%=event	0.1%=add	0.1%=iobj	0.1%=title	0.1%=appr	0.1%=appa	0.1%=concom	0.1%=name
+possr	25	28.2%=nobj	13.9%=subj	13.9%=pnct	5.7%=attr	4.7%=pobj	4%=possr	3.9%=dobj	2.7%=conj	2.4%=time	2.4%=vobj	2.2%=preds	1.9%=coord	1.8%=possd	1.4%=relr	1.3%=aobj	1.3%=neg	1.3%=resem	1.2%=name	1.2%=loc	1.1%=namef	1%=numm	0.8%=concom	0.7%=appa	0.6%=man	0.4%=appr
+predo	18	17.2%=preds	12.3%=vobj	11.1%=inst	10.6%=nobj	9.4%=attr	8.1%=dobj	6.1%=pnct	5.6%=relr	5.6%=predo	5.6%=fpredo	2.4%=conj	1.9%=modp	1.9%=appa	0.6%=coord	0.6%=pobj	0.6%=subj	0.6%=numm
+preds	307	58.1%=preds	9.6%=nobj	7.5%=vobj	3.4%=attr	3%=subj	3%=loc	2.5%=dobj	2.4%=pnct	1.5%=time	1.1%=pobj	1%=predo	0.9%=coord	0.7%=aobj	0.6%=conj	0.4%=scene	0.4%=fpredo	0.4%=other	0.3%=numm	0.3%=inst	0.3%=resem	0.3%=expl	0.2%=goal	0.2%=neg	0.2%=part	0.2%=prg	0.2%=possd	0.2%=possr	0.1%=relr	0.1%=title	0.1%=add	0.1%=cond	0.1%=agent	0.1%=accom	0.1%=name	0.1%=quant	0%=man	0%=concom	0%=appr	0%=appa	0%=xpl
+prg	27	29.6%=eval	14.8%=prg	7.4%=quant	7.4%=conc	5.7%=nobj	4.5%=subj	3.7%=add	3.7%=contr	3.7%=elab	3.7%=man	2.7%=pnct	2.7%=preds	2.5%=vobj	2.4%=pobj	1.6%=attr	1.2%=relr	1.2%=conj	0.7%=coord	0.4%=numm	0.4%=modp
+qobj	38	75%=qobj	5.6%=coord	3.3%=conj	2.8%=nobj	2.6%=discmark	2.5%=dobj	2%=pnct	1.3%=CONJ:add	1.1%=subj	1%=time	0.7%=vobj	0.4%=numm	0.4%=other	0.4%=loc	0.4%=resem	0.4%=pobj	0.3%=attr
+quant	131	58.8%=quant	10.1%=nobj	2.7%=attr	2.5%=pobj	2.5%=time	2.3%=eval	2.3%=man	1.8%=dobj	1.7%=pnct	1.5%=prg	1.5%=focal	1.5%=vobj	1.5%=avobj	1.5%=degr	1.2%=possd	0.9%=modp	0.8%=relr	0.8%=add	0.8%=elab	0.7%=subj	0.5%=conj	0.5%=numm	0.4%=coord	0.3%=accom	0.1%=preds	0.1%=name	0.1%=appa	0.1%=epi	0.1%=iter	0.1%=appr	0.1%=namef	0.1%=event
 rel	3	100%=relr
 relelab	2	100%=relr
-relpa	15	73.3%=relr	26.7%=relpa
-relr	75	74.7%=relr	14.7%=relpa	4%=rel	2.7%=relelab	2.7%=vobj	1.3%=attr
-resem	4	50%=resem	25%=man	25%=preds
+relpa	16	68.8%=relr	31.3%=relpa
+relr	119	48%=relr	11.1%=nobj	9.2%=relpa	4.8%=attr	4.7%=pnct	3.7%=vobj	2.6%=subj	2.5%=rel	1.9%=pobj	1.7%=relelab	1.5%=possd	1%=dobj	1%=conj	0.8%=predo	0.8%=quant	0.7%=time	0.5%=neg	0.4%=scene	0.4%=preds	0.3%=coord	0.3%=prg	0.3%=epi	0.2%=namef	0.2%=appa	0.2%=possr	0.2%=iter	0.2%=contr	0.2%=modp	0.2%=concom	0.1%=name	0.1%=numm	0.1%=eval	0.1%=loc
+resem	11	18.2%=resem	11.7%=pnct	10.4%=numm	9.1%=preds	9.1%=man	9.1%=other	7.5%=nobj	5.6%=dobj	5.6%=subj	4.5%=attr	3.6%=vobj	3%=possr	1.3%=time	1.3%=qobj
 robj	6	66.7%=dobj	16.7%=robj	16.7%=iobj
-scene	18	61.1%=scene	11.1%=goal	5.6%=contr	5.6%=man	5.6%=add	5.6%=time	5.6%=inst
-source	10	30%=source	30%=pobj	10%=concom	10%=man	10%=other	10%=attr
-subj	592	98%=subj	0.8%=nobj	0.3%=preds	0.2%=CONJ:elab	0.2%=appr	0.2%=correl	0.2%=attr	0.2%=expl
-time	163	75.5%=time	6.7%=attr	6.1%=iter	3.1%=nobj	1.8%=cons	1.8%=quant	1.2%=preds	1.2%=man	0.6%=scene	0.6%=other	0.6%=cause	0.6%=mod
-title	15	73.3%=title	20%=nobj	6.7%=appr
-vobj	439	93.2%=vobj	3.4%=preds	1.4%=nobj	0.7%=pnct	0.5%=relr	0.2%=conj	0.2%=dobj	0.2%=predo	0.2%=fpreds
+scene	42	28.8%=scene	9.1%=subj	9.1%=attr	6.6%=nobj	4.8%=goal	4.2%=coord	4.1%=pnct	4%=vobj	3.2%=preds	3%=time	2.6%=conj	2.4%=add	2.4%=contr	2.4%=part	2.4%=man	2.4%=inst	2%=dobj	1.5%=possd	1.1%=namef	1%=neg	0.8%=relr	0.6%=pobj	0.6%=iter	0.6%=agent	0.4%=event
+source	13	23.8%=pobj	23.1%=source	12.7%=attr	11.5%=subj	7.7%=concom	7.7%=man	7.7%=other	1.9%=exem	1.5%=pnct	0.8%=nobj	0.8%=dobj	0.8%=coord
+subj	871	70.1%=subj	8.3%=nobj	3.6%=pnct	3.5%=attr	1.9%=pobj	1.6%=vobj	1.4%=dobj	1.1%=conj	1.1%=coord	1%=preds	0.4%=time	0.4%=scene	0.4%=neg	0.3%=numm	0.3%=goal	0.3%=loc	0.3%=relr	0.2%=possr	0.2%=possd	0.2%=appa	0.2%=appr	0.2%=namef	0.2%=other	0.2%=name	0.2%=modp	0.2%=cond	0.2%=expl	0.1%=source	0.1%=prg	0.1%=avobj	0.1%=add	0.1%=correl	0.1%=CONJ:elab	0.1%=title	0.1%=man	0.1%=quant	0.1%=agent	0.1%=resem	0.1%=epi	0.1%=accom	0.1%=concom	0.1%=cause	0.1%=fpredo	0.1%=part	0.1%=conc	0%=focal	0%=exem	0%=qobj	0%=contr	0%=comp	0%=iobj	0%=iter	0%=inst	0%=event	0%=xpl	0%=predo
+time	242	52.3%=time	10.4%=nobj	7.6%=attr	4.3%=pnct	4.1%=iter	2.2%=dobj	2%=preds	1.8%=subj	1.8%=coord	1.7%=pobj	1.4%=quant	1.2%=cons	1.2%=man	1%=conj	1%=other	0.9%=possd	0.8%=vobj	0.5%=scene	0.4%=cause	0.4%=mod	0.3%=cond	0.3%=numm	0.2%=relr	0.2%=possr	0.2%=goal	0.2%=fpredo	0.2%=appa	0.2%=loc	0.2%=qobj	0.1%=neg	0.1%=expl	0.1%=namef	0.1%=part	0.1%=inst	0.1%=resem	0%=name	0%=eval	0%=concom	0%=appr	0%=add
+title	24	45.8%=title	21.8%=nobj	5.6%=subj	4.2%=appr	4.1%=dobj	3.7%=pnct	3.2%=attr	2.8%=conj	2.4%=vobj	1.6%=preds	1.2%=coord	1%=name	0.5%=neg	0.5%=possd	0.5%=agent	0.4%=numm	0.4%=pobj	0.4%=xpl
+vobj	652	65.4%=vobj	9.6%=nobj	4.1%=pnct	3.6%=attr	3.5%=preds	2.2%=subj	1.8%=dobj	1.8%=pobj	1.2%=conj	0.9%=coord	0.6%=relr	0.6%=possd	0.4%=numm	0.3%=time	0.3%=quant	0.3%=loc	0.3%=appa	0.3%=scene	0.2%=predo	0.2%=man	0.2%=iter	0.2%=aobj	0.2%=name	0.2%=fpreds	0.1%=part	0.1%=goal	0.1%=namef	0.1%=neg	0.1%=prg	0.1%=accom	0.1%=title	0.1%=other	0.1%=concom	0.1%=appr	0.1%=resem	0.1%=focal	0.1%=add	0%=possr	0%=modp	0%=qobj	0%=cause	0%=cond	0%=eval	0%=xpl	0%=epi	0%=agent	0%=fpredo
 voc	1	100%=voc
-xpl	9	88.9%=xpl	11.1%=other
+xpl	13	69.2%=xpl	9.2%=pobj	7.7%=other	6.2%=nobj	2.3%=conj	1.5%=subj	1.5%=vobj	0.8%=preds	0.8%=pnct	0.8%=title
 xtop	2	100%=xtop
