@@ -1,0 +1,18 @@
+11 Inducción Objetivo Describir el campo magnético en torno a una corriente eléctrica y el campo eléctrico en torno a un imán en movimiento .
+Equipo Fuente de tensión ( corriente continua y alterna ) , cables , aguja de brújula , barra magnética , un voltímetro sensitivo , bobinas ( 200 espiras , 400 espiras y 1600 espiras ) , núcleo de hierro , pesa de hierro y pesas .
+Montaje Procedimiento Inducción de los campos magnéticos : Utilice el montaje de la fig .
+11.1 .
+El imán deberá colocarse en línea con el cable antes de conectar la corriente .
+Conectar la corriente y observar lo que ocurre .
+Cambia el sentido de la corriente y observe .
+A continuación realice una serie de pruebas que revele aquello que influye sobre la fuerza del campo magnético .
+Utilice las bobinas , la pesa de hierro y las pesas ( fig .
+11.2 ).
+Inducción de los campos eléctricos : Utilice el montaje de la fig .
+11.3 .
+Mueva el imán en relación al cable y observe lo que ocurre en el voltímetro .
+A continuación realice una serie de pruebas que revele aquello que influye sobre la fuerza del campo eléctrico .
+Utilice las bobinas , el voltímetro y los imanes como se ilustra en la fig .
+11.4 .
+Resultados Campos magnéticos : Describa el campo magnético en torno a un hilo conductor : Describa el proceso del experimento en el estudio de lo que determina la fuerza del campo magnético : 
+

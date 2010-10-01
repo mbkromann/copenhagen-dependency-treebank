@@ -1,0 +1,12 @@
+Ein Schock in einer Welt , die an Wachstumssteigerung gewöhnt war - und in der Regel an beträchtliche Wachstumssteigerung .
+Aber obwohl die totalen Investitionen zurückgegangen sind , sind sie doch deutlich bei gewissen Typen Hardware gestiegen , nämlich PCs , Workstationen und kleinen und mittelgroßen Systemen für mehrere Benutzer - insofern es sich bei all diesen um Geräte mit Unix-Betriebssystem handelt .
+Hier stiegen die Investitionen durchschnittlich um 12 %. ,,Der Anteil an kleineren Mehrbenutzersystemen erreichte 1990 ca die Hälfte des Absatzes .
+1996 wird der Unix-Anteil 70-80 % betragen " , sagt Per Andersen von der Analysefirma IDC Scandinavia voraus .
+Er ist verantwortlich für die Analyse des Unix-Markts .
+,,Unix wird nicht die DOS-Dominanz auf dem Schreibtisch übernehmen .
+Unix ' Rolle liegt beim Server .
+Und Unix ist nicht der Ersatz für ältere Systeme , sondern soll ein Supplement sein .
+Der PC machte ja auch nicht den Mainframe kaputt , sondern revolutionierte vor allem Textverarbeitung und andere einfache Anwendungen " .
+Hardware ist uninteressant .
+Auf diesem Markt - Unix und die offenen Systeme , die letzten Endes ermöglichen sollen , Anwendungen zwischen verschiedenen Mehrbenutzersystemen zu übertragen - herrscht im Augenblick scharfe Konkurrenz .
+

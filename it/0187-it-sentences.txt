@@ -1,0 +1,11 @@
+Uno choc in un mondo abituato alla crescita e di norma una forte crescita .
+Ma anche se il totale degli investimenti ha segnato una caduta , c' è stata tuttavia una loro crescita significativa per certi tipi di hardware , come per i personal computer , per le workstation e per piccoli e medio-grandi sistemi per multiutenti , il tutto in relazione ad apparati forniti di sistema Unix .
+Qui gli investimenti , in media , sono aumentati del 12% .
+&lt;&lt; Negli anni ' 90 , la parte di mercato relativa a sistemi multiutenti coperta da Unix ha raggiunto il 50% .
+Nel 1996 Unix raggiungerà una vendita pari al 70-80% &gt;&gt; prevede Per Andersen della IDC Scandinavia e responsabile delle analisi di mercato relative ad Unix .
+&lt;&lt; Unix non soppianterà il dominio di DOS sulle scrivanie .
+Il ruolo di Unix è nel server .
+Unix inoltre non è un sostituto di precedenti sistemi , ma un supplemento .
+Nemmeno il PC uccise il mainframe , ma rivoluzionò innanzitutto il modo di trattare elettronicamente i testi e altre semplici applicazioni .
+&gt;&gt; In questo tipo di mercato - nel mercato di Unix e di quei sistemi aperti che , in ultima istanza , devono render possibile il trasferimento di applicazioni fra differenti sistemi multiutenti , c' è oggi una concorrenza spietata .
+

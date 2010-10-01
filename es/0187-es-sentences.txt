@@ -1,0 +1,11 @@
+Un susto en un mundo que ha estado acostumbrado al crecimiento - y engeneral a un fuerte crecimiento .
+Pero aunque el total de las inversiones descendió , ha subido considerablemente en algunos tipos de equipos de computación , esdecir los ordenadores , workstations y pequeños o medianos sistemas para varios usuarios - en cuanto que se se trate del sistema operativo Unix .
+En este ámbito se elevaron las inversiones en un promedio del 12 %.
+" En los años 90 , los sistemas menores con Unix para varios usuarios alcanzaron aproximadamente la mitad de las ventas .
+En 1996 la parte de Unix será de un 70-80 % , " pronostica Per Andersen de la empresa de estudios de mercado IDC Scandinavia , responsable del estudio del mercado de Unix .
+" Unix no va a reemplazar el sistema DOS en el escritorio .
+El rol de Unix es el de servidor .
+Y Unix no es un reemplazo de sistemas anteriores , sino que tieneque ser un suplemento .
+La computadora personal tampoco no mató a la computadora central , sino que revolucionó ante todo el uso del procesamiento de textos y otras aplicaciones simples .
+" Hardware sin interés en este mercado - el de Unix y los sistemas abiertos , que en la última instancia harán posible la transferencia de aplicaciones entre diferentes sistemas de varios usuarios - hay una durísima competencia en estos tiempos .
+

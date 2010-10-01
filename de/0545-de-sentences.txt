@@ -1,0 +1,15 @@
+11 Induktion Zweck Die Beschreibung des Magnetfeldes um einen elektrischen Strom und des elektrischen Feldes um einen sich bewegenden Magneten .
+Apparatur Stromquelle ( Gleich- und Wechselstrom ) , Leitungen , Kompassnadel , Stabmagnet , empfindliches Volt-Meter , Spulen ( 200 Windungen , 400 Windungen und 1600 Windungen ) , Eisenkern , Eisenlot und Lotgewichte .
+Aufbau Arbeitsgang Magnetfeldinduktion : Aufbau aus Abb. 11.1 verwenden .
+Der Magnet muss entlang der Leitung angeordnet sein , bevor der Strom eingeschaltet wird .
+Strom einschalten und beobachten , was passiert .
+Stromrichtung umkehren und beobachten .
+Anschließend eine Versuchsreihe aufbauen , die zeigen kann , was die Stärke des Magnetfelds beeinflusst .
+Spulen , Eisenlot und Lotgewichte verwenden ( Abb .
+11.2 ).
+Elektrofeld Induktion : Aufbau aus Abb. 11.3 verwenden .
+Magneten im Verhältnis zur Leitung bewegen und am Voltmeter beobachten , was passiert .
+Anschließend eine Versuchsreihe aufbauen , die zeigen kann , was die Stärke des Elektrofelds beeinflusst .
+Spulen , Voltmesser und Magnete wie in Abb. 11.4 abgebildet verwenden .
+Ergebnisse Magnetfelder : Magnetfeld um eine stromführende Leitung beschreiben : Den Ablauf des Versuchs in der Untersuchung dessen beschreiben , was die Stärke eines Magnetfeldes bedingt .
+

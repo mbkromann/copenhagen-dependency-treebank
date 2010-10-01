@@ -1,0 +1,11 @@
+Guía : HAY movimiento en el desarrollo danés de programas de computación .
+Con retraso , hay un programa listo para ayudar a clientes a orientarse en museos , supermercados , ayuntamientos - y MikroData en Bella Center .
+Los europeos deberían ser suficientemente inteligentes .
+Es la opinión de los hombres detrás de la idea del programa Scout , que en la entrada de la feria de MikroData muestra el camino en la jungla de expositores .
+Y con las elogiosas declaraciones se refieren a que se atreven a confiar en nosotros para que escribamos nosotros mismos atravésdel teclado .
+Con Scout de todos modos no hay posibilidad de equivocarse : escriba el nombre de la empresa o una palabra clave , y la pantalla muestra muy pedagógicamente el camino más próximo hacia el o los puestos encuestión .
+Un antecesor ayudó a los visitantes de la última MikroData hace dos años .
+" Hemos programado todo desde cero en Turbo Pascal , y eso nos ha defraudado un poco conrespectoal tiempo , " comenta John Marrot , de la empresa Scansoft , responsable de la programación .
+Originalmente un conocido de él , Steen Olsen , que trabaja en una empresa de artículos de oficina en Copenhague , había encargado el programa a un precio de 100 horas de programador .
+Las 100 horas se transformaron encambio en 5.000 horas .
+
