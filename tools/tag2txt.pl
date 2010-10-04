@@ -35,7 +35,7 @@ sub tag2txt {
 				# Print word to files
 				print OTXT "$word\n";
 				print OREF "$fid:$linepos:$word\n";
-			}
+			} 
 		}
 
 		# Close TAG file

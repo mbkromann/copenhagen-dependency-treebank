@@ -1,0 +1,179 @@
+1	SPØRG	spørge	VA	VAM-=------	mood=imper|id=43	0	ROOT	_	_
+2	OS	vi	PP	PP1CPU-[YN]U	person=1|gender=common|number=plur|case=unmarked|reflexive=yes/no|register=unmarked|id=44	1	dobj	_	_
+
+1	Hvor	hvor	RG	RGU	degree=unmarked|id=49	4	nobj	_	_
+2	kommer	komme	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=50	0	ROOT	_	_
+3	julemanden	julemand	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=51	2	subj	_	_
+4	fra	fra	SP	SP	id=52	2	@dir	_	_
+5	?	?	XP	XP	id=53	2	pnct	_	_
+
+1	Dette	denne	PD	PD-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=56	6	dobj	_	_
+2	og	og	CC	CC	id=57	3	coord	_	_
+3	mange	mange	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=58	1	conj	_	_
+4	andre	anden	PI	PI-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=59	3	nobj	_	_
+5	spørgsmål	spørgsmål	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=60	1	nobj	_	_
+6	besvarer	besvare	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=61	0	ROOT	_	_
+7	Illustreret	illustrere	VA	VAPA=S[CN]IA-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject|case=unmarked|id=62	8	attr	_	_
+8	Videnskabs	videnskab	NC	NCCSG==I	gender=common|number=sing|case=gen|def=indef|id=63	6	subj	_	_
+9	eksperter	ekspert	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=64	8	possd	_	_
+
+1	BAMBUS	bambus	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=71	0	ROOT	_	_
+
+1	I	i	SP	SP	id=76	3	loc	_	_
+2	Sydøstasien	Sydøstasien	NP	NP--U==-	case=unmarked|id=77	1	nobj	_	_
+3	har	have	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=78	0	ROOT	_	_
+4	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=79	3	subj	_	_
+5	tårnhøje	tårnhøj	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=80	4	attr	_	_
+6	græsart	græsart	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=81	4	nobj	_	_
+7	gennem	gennem	SP	SP	id=82	3	time	_	_
+8	årtusinder	årtusinde	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=83	7	nobj	_	_
+9	leveret	levere	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=84	3	vobj	_	_
+10	råmaterialer	råmateriale	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=85	9	dobj	_	_
+11	til	til	SP	SP	id=86	9	pobj	_	_
+12	alt	al	AN	ANPNSU=[DI]U	degree=pos|gender=neuter|number=sing|case=unmarked|def=def/indef|transcat=unmarked|id=87	11	nobj	_	_
+13	fra	fra	SP	SP	id=88	12	other	_	_
+14	huse	hus	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=89	13	nobj	_	_
+15	til	til	SP	SP	id=90	13	pobj	_	_
+16	spisepinde	spisepind	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=91	15	nobj	_	_
+
+1	NY	ny	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=98	2	attr	_	_
+2	VIDEN	viden	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=99	0	ROOT	_	_
+
+1	Speciel	speciel	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=104	2	attr	_	_
+2	sektion	sektion	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=105	0	ROOT	_	_
+3	med	med	SP	SP	id=106	2	other	_	_
+4	spændende	spændende	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=107	5	attr	_	_
+5	opdagelser	opdagelse	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=108	3	nobj	_	_
+6	og	og	CC	CC	id=109	7	coord	_	_
+7	forskningsresultater	forskningsresultat	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=110	5	conj	_	_
+8	inden	inden	RG	RGU	degree=unmarked|id=111	3	preds	_	_
+9	for	for	SP	SP	id=112	8	pobj	_	_
+10	medicin	medicin	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=113	9	nobj	_	_
+11	,	,	XP	XP	id=114	10	pnct	_	_
+12	teknik	teknik	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=115	10	conj	_	_
+13	og	og	CC	CC	id=116	14	coord	_	_
+14	naturvidenskab	naturvidenskab	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=117	10	conj	_	_
+
+1	HULEMALERIER	hulemaleri	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=124	0	ROOT	_	_
+
+1	Med	med	SP	SP	id=129	3	inst	_	_
+2	jordfarver	jordfarve	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=130	1	nobj	_	_
+3	har	have	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=131	0	ROOT	_	_
+4	fortidsmennesker	fortidsmenneske	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=132	3	subj	_	_
+5	fastholdt	fastholde	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=133	3	vobj	_	_
+6	jagtens	jagt	NC	NCCSG==D	gender=common|number=sing|case=gen|def=def|id=134	5	dobj	_	_
+7	svære	svær	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=135	6	attr	_	_
+8	kunst	kunst	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=136	6	possd	_	_
+9	til	til	SP	SP	id=137	5	goal	_	_
+10	ære	ære	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=138	9	nobj	_	_
+11	for	for	SP	SP	id=139	10	pobj	_	_
+12	guderne	gud	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=140	11	nobj	_	_
+13	og	og	CC	CC	id=141	14	coord	_	_
+14	som	som	U	U=	id=142	9	conj	_	_
+15	hjælp	hjælp	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=143	14	nobj	_	_
+16	for	for	SP	SP	id=144	15	goal	_	_
+17	unge	ung	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=145	18	attr	_	_
+18	jægere	jæger	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=146	16	nobj	_	_
+
+1	TRÆFRØ	træfrø	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=153	0	ROOT	_	_
+
+1	De	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=158	4	subj	_	_
+2	grå	grå	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=159	1	attr	_	_
+3	træfrøer	træfrø	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=160	1	nobj	_	_
+4	har	have	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=161	0	ROOT	_	_
+5	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=162	4	dobj	_	_
+6	forrygende	forrygende	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=163	5	attr	_	_
+7	parringsritual	parringsritual	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=164	5	nobj	_	_
+8	.	.	XP	XP	id=165	4	pnct	_	_
+
+1	Sammen	sammen	RG	RGU	degree=unmarked|id=168	0	ROOT	_	_
+
+1	pisker	piske	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=169	0	ROOT	_	_
+2	de	de	PP	PP3[CN]PN-NU	person=3|gender=common/neuter|number=plur|case=nom|reflexive=no|register=unmarked|id=170	1	subj	_	_
+3	skumreder	skumrede	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=171	1	dobj	_	_
+4	til	til	SP	SP	id=172	3	goal	_	_
+5	deres	deres	PO	PO3[CN][SP]UPNU	person=3|gender=common/neuter|number=sing/plur|case=unmarked|possessor=plur|reflexive=no|register=unmarked|id=173	4	nobj	_	_
+6	fælles	fælles	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=174	5	attr	_	_
+7	afkom	afkom	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=175	5	possd	_	_
+
+1	GENBRUG	genbrug	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=182	0	ROOT	_	_
+
+1	Affald	affald	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=187	2	subj	_	_
+2	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=188	0	ROOT	_	_
+3	fremtidens	fremtid	NC	NCCSG==D	gender=common|number=sing|case=gen|def=def|id=189	2	preds	_	_
+4	råvare	råvare	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=190	3	possd	_	_
+5	,	,	XP	XP	id=191	2	pnct	_	_
+6	for	for	CC	CC	id=192	2	cause	_	_
+7	virksomhederne	virksomhed	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=193	8	subj	_	_
+8	får	få	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=194	6	vobj	_	_
+9	pligt	pligt	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=195	8	dobj	_	_
+10	til	til	SP	SP	id=196	9	pobj	_	_
+11	at	at	U	U=	id=197	10	nobj	_	_
+12	genbruge	genbruge	VA	VAF-=----A-	mood=infin|voice=active|id=198	11	vobj	_	_
+13	deres	deres	PO	PO3[CN][SP]UPNU	person=3|gender=common/neuter|number=sing/plur|case=unmarked|possessor=plur|reflexive=no|register=unmarked|id=199	12	dobj	_	_
+14	produkter	produkt	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=200	13	possd	_	_
+
+1	METEOR	meteor	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=207	0	ROOT	_	_
+
+1	11	11	AC	AC---U=--	case=unmarked|id=212	5	subj	_	_
+2	kratere	krater	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=213	1	nobj	_	_
+3	i	i	SP	SP	id=214	1	loc	_	_
+4	Argentina	Argentina	NP	NP--U==-	case=unmarked|id=215	3	nobj	_	_
+5	tyder	tyde	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=216	0	ROOT	_	_
+6	på	på	SP	SP	id=217	5	pobj	_	_
+7	,	,	XP	XP	id=218	6	pnct	_	_
+8	at	at	CS	CS	id=219	6	nobj	_	_
+9	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=220	16	subj	_	_
+10	stor	stor	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=221	9	attr	_	_
+11	meteor	meteor	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=222	9	nobj	_	_
+12	for	for	SP	SP	id=223	16	time	_	_
+13	10.000	10.000	AC	AC---U=--	case=unmarked|id=224	12	nobj	_	_
+14	år	år	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=225	13	nobj	_	_
+15	siden	siden	RG	RGU	degree=unmarked|id=226	12	part	_	_
+16	hoppede	hoppe	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=227	8	vobj	_	_
+17	hen	hen	RG	RGU	degree=unmarked|id=228	16	@dir	_	_
+18	over	over	SP	SP	id=229	17	other	_	_
+19	Jorden	Jorden	NC	NC[CN][SP]U==[DI]	gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|id=230	18	nobj	_	_
+
+1	ZOOLOGI	zoologi	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=237	0	ROOT	_	_
+
+1	Biologer	biolog	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=242	2	subj	_	_
+2	udstyrer	udstyre	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=243	0	ROOT	_	_
+3	truede	true	VA	VAPA=P[CN][DI]A-U	mood=partic|tense=past|number=plur|gender=common/neuter|definiteness=def/indef|transcat=adject|case=unmarked|id=244	4	attr	_	_
+4	dyr	dyr	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=245	2	dobj	_	_
+5	med	med	SP	SP	id=246	2	pobj	_	_
+6	radiosendere	radiosender	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=247	5	nobj	_	_
+7	,	,	XP	XP	id=248	2	pnct	_	_
+8	så	så	CS	CS	id=249	2	goal	_	_
+9	de	de	PP	PP3[CN]PN-NU	person=3|gender=common/neuter|number=plur|case=nom|reflexive=no|register=unmarked|id=250	10	subj	_	_
+10	kan	kunne	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=251	8	vobj	_	_
+11	følge	følge	VA	VAF-=----A-	mood=infin|voice=active|id=252	10	vobj	_	_
+12	dem	de	PP	PP3[CN]PU-NU	person=3|gender=common/neuter|number=plur|case=unmarked|reflexive=no|register=unmarked|id=253	11	dobj	_	_
+13	konstant	konstant	AN	ANP---=-R	degree=pos|transcat=adverbial|id=254	11	man	_	_
+14	og	og	CC	CC	id=255	15	coord	_	_
+15	få	få	VA	VAF-=----A-	mood=infin|voice=active|id=256	11	conj	_	_
+16	viden	viden	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=257	15	dobj	_	_
+17	,	,	XP	XP	id=258	16	pnct	_	_
+18	der	der	U	U=	id=259	19	subj	_	_
+19	kan	kunne	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=260	16	rel	_	_
+20	redde	redde	VA	VAF-=----A-	mood=infin|voice=active|id=261	19	vobj	_	_
+21	dyrene	dyr	NC	NCNPU==D	gender=neuter|number=plur|case=unmarked|def=def|id=262	20	dobj	_	_
+
+1	GEOLOGI	geologi	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=269	0	ROOT	_	_
+
+1	Devil's	Devil	NP	NP--G==-	case=gen|id=274	5	subj	_	_
+2	Marbles	Marbles	NP	NP--U==-	case=unmarked|id=275	1	possd	_	_
+3	i	i	SP	SP	id=276	1	loc	_	_
+4	Australien	Australien	NP	NP--U==-	case=unmarked|id=277	3	nobj	_	_
+5	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=278	0	ROOT	_	_
+6	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=279	5	preds	_	_
+7	landskab	landskab	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=280	6	nobj	_	_
+8	af	af	SP	SP	id=281	6	other	_	_
+9	store	stor	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=282	10	attr	_	_
+10	stenkugler	stenkugle	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=283	8	nobj	_	_
+11	skabt	skabe	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=284	10	fpredo	_	_
+12	gennem	gennem	SP	SP	id=285	11	time	_	_
+13	halvanden	halvanden	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=286	14	numm	_	_
+14	milliard	milliard	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=287	12	nobj	_	_
+15	år	år	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=288	14	nobj	_	_
+

@@ -1,0 +1,194 @@
+1	Det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=43	2	subj	_	_
+2	vil	ville	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=44	0	ROOT	_	_
+3	næppe	næppe	RG	RGU	degree=unmarked|id=45	2	neg	_	_
+4	volde	volde	VA	VAF-=----A-	mood=infin|voice=active|id=46	2	vobj	_	_
+5	rivalerne	rival	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=47	4	iobj	_	_
+6	i	i	SP	SP	id=48	5	loc	_	_
+7	Dansk	dansk	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=49	8	attr	_	_
+8	Supermarked	supermarked	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=50	6	nobj	_	_
+9	og	og	CC	CC	id=51	10	coord	_	_
+10	Aldi	Aldi	NP	NP--U==-	case=unmarked|id=52	8	conj	_	_
+11	finansielle	finansiel	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=53	12	attr	_	_
+12	problemer	problem	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=54	4	dobj	_	_
+13	at	at	U	U=	id=55	1	nobj	_	_
+14	komme	komme	VA	VAF-=----A-	mood=infin|voice=active|id=56	13	vobj	_	_
+15	med	med	SP	SP	id=57	14	pobj	_	_
+16	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=58	15	nobj	_	_
+17	modspil	modspil	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=59	16	nobj	_	_
+18	i	i	SP	SP	id=60	16	other	_	_
+19	samme	samme	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=61	18	nobj	_	_
+20	størrelsesorden	størrelsesorden	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=62	19	nobj	_	_
+21	.	.	XP	XP	id=63	2	pnct	_	_
+
+1	Det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=66	2	subj	_	_
+2	kan	kunne	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=67	6	qobj	_	_
+3	betyde	betyde	VA	VAF-=----A-	mood=infin|voice=active|id=68	2	vobj	_	_
+4	priskrig	priskrig	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=69	3	dobj	_	_
+5	,	,	XP	XP	id=70	2	pnct	_	_
+6	bekræfter	bekræfte	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=71	0	ROOT	_	_
+7	P.	P.	NP	NP--U==-	case=unmarked|id=72	9	namef	_	_
+8	E.	E.	NP	NP--U==-	case=unmarked|id=73	7	namef	_	_
+9	Pedersen	Pedersen	NP	NP--U==-	case=unmarked|id=74	6	subj	_	_
+10	.	.	XP	XP	id=75	6	pnct	_	_
+
+1	"	&quot;	XP	XP	id=80	3	pnct	_	_
+2	Kunderne	kunde	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=81	3	subj	_	_
+3	skal	skulle	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=82	0	ROOT	_	_
+4	være	være	VA	VAF-=----A-	mood=infin|voice=active|id=83	3	vobj	_	_
+5	sikre	sikker	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=84	4	preds	_	_
+6	på	på	SP	SP	id=85	5	pobj	_	_
+7	,	,	XP	XP	id=86	6	pnct	_	_
+8	at	at	CS	CS	id=87	6	nobj	_	_
+9	de	de	PP	PP3[CN]PN-NU	person=3|gender=common/neuter|number=plur|case=nom|reflexive=no|register=unmarked|id=88	11	subj	_	_
+10	ikke	ikke	RG	RGU	degree=unmarked|id=89	11	neg	_	_
+11	kan	kunne	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=90	8	vobj	_	_
+12	købe	købe	VA	VAF-=----A-	mood=infin|voice=active|id=91	11	vobj	_	_
+13	basis-varer	basis-vare	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=92	12	dobj	_	_
+14	billigere	billig	AN	ANC---=-R	degree=comp|transcat=adverbial|id=93	12	man	_	_
+15	andre	anden	PI	PI-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=94	12	loc	_	_
+16	steder	sted	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=95	15	nobj	_	_
+17	.	.	XP	XP	id=96	3	pnct	_	_
+
+1	Går	gå	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=99	7	cond	_	_
+2	konkurrenterne	konkurrent	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=100	1	subj	_	_
+3	ned	ned	RG	RGU	degree=unmarked|id=101	1	@dir	_	_
+4	i	i	SP	SP	id=102	3	other	_	_
+5	pris	pris	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=103	4	nobj	_	_
+6	,	,	XP	XP	id=104	1	pnct	_	_
+7	følger	følge	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=105	12	qobj	_	_
+8	vi	vi	PP	PP1CPN-NU	person=1|gender=common|number=plur|case=nom|reflexive=no|register=unmarked|id=106	7	subj	_	_
+9	med	med	RG	RGU	degree=unmarked|id=107	7	pobj	_	_
+10	,	,	XP	XP	id=108	7	pnct	_	_
+11	"	&quot;	XP	XP	id=109	7	pnct	_	_
+12	siger	sige	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=110	0	ROOT	_	_
+13	FDBchefen	FDBchef	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=111	12	subj	_	_
+14	.	.	XP	XP	id=112	12	pnct	_	_
+
+1	De	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=117	4	subj	_	_
+2	nye	ny	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=118	1	attr	_	_
+3	super-butikker	super-butik	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=119	1	nobj	_	_
+4	har	have	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=120	0	ROOT	_	_
+5	også	også	RG	RGU	degree=unmarked|id=121	4	other	_	_
+6	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=122	4	dobj	_	_
+7	anden	anden	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=123	6	nobj	_	_
+8	kedelig	kedelig	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=124	7	attr	_	_
+9	følge	følge	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=125	7	nobj	_	_
+10	,	,	XP	XP	id=126	4	pnct	_	_
+11	set	se	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=127	4	other	_	_
+12	med	med	SP	SP	id=128	11	inst	_	_
+13	brancheøjne	brancheøje	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=129	12	nobj	_	_
+14	.	.	XP	XP	id=130	4	pnct	_	_
+
+1	De	de	PP	PP3[CN]PN-NU	person=3|gender=common/neuter|number=plur|case=nom|reflexive=no|register=unmarked|id=133	2	subj	_	_
+2	øger	øge	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=134	0	ROOT	_	_
+3	butiksdøden	butiksdød	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=135	2	dobj	_	_
+4	.	.	XP	XP	id=136	2	pnct	_	_
+
+1	Også	også	RG	RGU	degree=unmarked|id=139	2	add	_	_
+2	i	i	SP	SP	id=140	0	ROOT	_	_
+3	FDB's	FDB	NP	NP--G==-	case=gen|id=141	2	nobj	_	_
+4	egne	egen	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=142	3	attr	_	_
+5	rækker	række	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=143	3	possd	_	_
+6	.	.	XP	XP	id=144	2	pnct	_	_
+
+1	600	600	AC	AC---U=--	case=unmarked|id=149	2	subj	_	_
+2	FÅR	få	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=150	0	ROOT	_	_
+3	IKKE	ikke	RG	RGU	degree=unmarked|id=151	2	neg	_	_
+4	LOV	lov	NC	NC[CN][SP]U==[DI]	gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|id=152	2	dobj	_	_
+
+1	600	600	AC	AC---U=--	case=unmarked|id=157	3	subj	_	_
+2	Brugser	brugs	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=158	1	nobj	_	_
+3	har	have	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=159	0	ROOT	_	_
+4	ikke	ikke	RG	RGU	degree=unmarked|id=160	3	neg	_	_
+5	fået	få	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=161	3	vobj	_	_
+6	lov	lov	NC	NC[CN][SP]U==[DI]	gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|id=162	5	dobj	_	_
+7	at	at	U	U=	id=163	6	nobj	_	_
+8	blive	blive	VA	VAF-=----A-	mood=infin|voice=active|id=164	7	vobj	_	_
+9	Super-Brugser	Super-Brugs	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=165	8	preds	_	_
+10	.	.	XP	XP	id=166	3	pnct	_	_
+
+1	De	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=169	3	subj	_	_
+2	fleste	mange	AN	ANS[CN]PU=DU	degree=sup|gender=common/neuter|number=plur|case=unmarked|def=def|transcat=unmarked|id=170	1	nobj	_	_
+3	må	måtte	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=171	6	qobj	_	_
+4	lukke	lukke	VA	VAF-=----A-	mood=infin|voice=active|id=172	3	vobj	_	_
+5	,	,	XP	XP	id=173	3	pnct	_	_
+6	mener	mene	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=174	0	ROOT	_	_
+7	eksperterne	ekspert	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=175	6	subj	_	_
+8	.	.	XP	XP	id=176	6	pnct	_	_
+
+1	Desuden	desuden	RG	RGU	degree=unmarked|id=179	2	add	_	_
+2	forudser	forudse	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=180	0	ROOT	_	_
+3	FDB	FDB	NP	NP--U==-	case=unmarked|id=181	2	subj	_	_
+4	,	,	XP	XP	id=182	2	pnct	_	_
+5	at	at	CS	CS	id=183	2	dobj	_	_
+6	200	200	AC	AC---U=--	case=unmarked|id=184	10	subj	_	_
+7	job	job	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=185	6	nobj	_	_
+8	af	af	SP	SP	id=186	10	cause	_	_
+9	sparehensyn	sparehensyn	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=187	8	nobj	_	_
+10	skæres	skære	VA	VADR=----P-	mood=indic|tense=present|voice=passive|id=188	5	vobj	_	_
+11	bort	bort	RG	RGU	degree=unmarked|id=189	10	avobj	_	_
+12	i	i	SP	SP	id=190	10	loc	_	_
+13	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=191	12	nobj	_	_
+14	nye	ny	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=192	13	attr	_	_
+15	Super-Brugser	Super-Brugs	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=193	13	nobj	_	_
+16	.	.	XP	XP	id=194	2	pnct	_	_
+
+1	Tidligere	tidlig	AN	ANC---=-R	degree=comp|transcat=adverbial|id=199	2	time	_	_
+2	havde	have	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=200	0	ROOT	_	_
+3	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=201	2	subj	_	_
+4	store	stor	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=202	3	attr	_	_
+5	Brugser	brugs	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=203	3	nobj	_	_
+6	20.000	20.000	AC	AC---U=--	case=unmarked|id=204	2	dobj	_	_
+7	forskellige	forskellig	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=205	6	attr	_	_
+8	varer	vare	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=206	6	nobj	_	_
+9	på	på	SP	SP	id=207	2	loc	_	_
+10	hylderne	hylde	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=208	9	nobj	_	_
+11	.	.	XP	XP	id=209	2	pnct	_	_
+
+1	For	for	SP	SP	id=212	4	goal	_	_
+2	at	at	U	U=	id=213	1	nobj	_	_
+3	spare	spare	VA	VAF-=----A-	mood=infin|voice=active|id=214	2	vobj	_	_
+4	skæres	skære	VA	VADR=----P-	mood=indic|tense=present|voice=passive|id=215	0	ROOT	_	_
+5	antallet	antal	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=216	4	subj	_	_
+6	ned	ned	RG	RGU	degree=unmarked|id=217	4	avobj	_	_
+7	til	til	SP	SP	id=218	6	other	_	_
+8	8.000	8.000	AC	AC---U=--	case=unmarked|id=219	7	nobj	_	_
+9	.	.	XP	XP	id=220	4	pnct	_	_
+
+1	Det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=223	2	subj	_	_
+2	finansierer	finansiere	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=224	0	ROOT	_	_
+3	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=225	2	dobj	_	_
+4	del	del	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=226	3	nobj	_	_
+5	af	af	SP	SP	id=227	4	pobj	_	_
+6	prisnedsættelserne	prisnedsættelse	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=228	5	nobj	_	_
+7	.	.	XP	XP	id=229	2	pnct	_	_
+
+1	Resten	rest	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=232	2	subj	_	_
+2	skal	skulle	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=233	0	ROOT	_	_
+3	komme	komme	VA	VAF-=----A-	mood=infin|voice=active|id=234	2	vobj	_	_
+4	fra	fra	SP	SP	id=235	3	@dir	_	_
+5	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=236	4	nobj	_	_
+6	forventet	forvente	VA	VAPA=S[CN]IA-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject|case=unmarked|id=237	5	attr	_	_
+7	mersalg	mersalg	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=238	5	nobj	_	_
+8	.	.	XP	XP	id=239	2	pnct	_	_
+
+1	Hans	Hans	NP	NP--U==-	case=unmarked|id=246	3	namef	_	_
+2	Uffe	Uffe	NP	NP--U==-	case=unmarked|id=247	1	namef	_	_
+3	Christensen	Christensen	NP	NP--U==-	case=unmarked|id=248	0	ROOT	_	_
+
+1	En	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=255	5	subj	_	_
+2	ny	ny	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=256	1	attr	_	_
+3	aggressiv	aggressiv	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=257	1	loc	_	_
+4	linje	linje	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=258	1	nobj	_	_
+5	præger	præge	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=259	0	ROOT	_	_
+6	Super-Brugsen	Super-Brugsen	NP	NP--U==-	case=unmarked|id=260	5	dobj	_	_
+7	.	.	XP	XP	id=261	5	pnct	_	_
+
+1	Her	her	RG	RGU	degree=unmarked|id=264	2	loc	_	_
+2	morer	more	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=265	0	ROOT	_	_
+3	Super-Pedersen	Super-Pedersen	NP	NP--U==-	case=unmarked|id=266	2	subj	_	_
+4	sig	sig	PP	PP3[CN][SP]U-YU	person=3|gender=common/neuter|number=sing/plur|case=unmarked|reflexive=yes|register=unmarked|id=267	2	dobj	_	_
+5	over	over	SP	SP	id=268	2	pobj	_	_
+6	Nettos	Netto	NP	NP--G==-	case=gen|id=269	5	nobj	_	_
+7	priser	pris	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=270	6	possd	_	_
+

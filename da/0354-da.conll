@@ -1,0 +1,211 @@
+1	-	-	XP	XP	id=41	4	pnct	_	_
+2	Om	om	SP	SP	id=42	4	time	_	_
+3	lidt	lidt	AN	ANP---=-R	degree=pos|transcat=adverbial|id=43	0	ROOT	_	_
+4	ringer	ringe	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=44	8	qobj	_	_
+5	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=45	4	subj	_	_
+6	telefon	telefon	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=46	5	nobj	_	_
+7	,	,	XP	XP	id=47	4	pnct	_	_
+8	sagde	sige	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=48	0	ROOT	_	_
+9	jeg	jeg	PP	PP1CSN-NU	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=49	8	subj	_	_
+10	.	.	XP	XP	id=50	8	pnct	_	_
+
+1	-	-	XP	XP	id=53	3	pnct	_	_
+2	Så	så	RG	RGU	degree=unmarked|id=54	3	time	_	_
+3	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=55	0	ROOT	_	_
+4	det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=56	3	subj	_	_
+5	til	til	SP	SP	id=57	3	preds	_	_
+6	dig	du	PP	PP2CSU-[YN]U	person=2|gender=common|number=sing|case=unmarked|reflexive=yes/no|register=unmarked|id=58	5	nobj	_	_
+7	.	.	XP	XP	id=59	3	pnct	_	_
+
+1	Han	han	PP	PP3CSN-NU	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=66	2	subj	_	_
+2	kiggede	kigge	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=67	0	ROOT	_	_
+3	nysgerrigt	nysgerrig	AN	ANP---=-R	degree=pos|transcat=adverbial|id=68	2	man	_	_
+4	på	på	SP	SP	id=69	2	pobj	_	_
+5	mig	jeg	PP	PP1CSU-[YN]U	person=1|gender=common|number=sing|case=unmarked|reflexive=yes/no|register=unmarked|id=70	4	nobj	_	_
+6	.	.	XP	XP	id=71	2	pnct	_	_
+
+1	Da	da	CS	CS	id=74	5	time	_	_
+2	den	den	PP	PP3CSU-NU	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|id=75	3	subj	_	_
+3	ringede	ringe	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=76	1	vobj	_	_
+4	,	,	XP	XP	id=77	3	pnct	_	_
+5	gik	gå	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=78	0	ROOT	_	_
+6	han	han	PP	PP3CSN-NU	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=79	5	subj	_	_
+7	straks	straks	RG	RGU	degree=unmarked|id=80	5	time	_	_
+8	derover	derover	RG	RGU	degree=unmarked|id=81	0	ROOT	_	_
+9	.	.	XP	XP	id=82	5	pnct	_	_
+
+1	Jeg	jeg	PP	PP1CSN-NU	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=85	2	subj	_	_
+2	holdt	holde	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=86	0	ROOT	_	_
+3	den	den	PP	PP3CSU-NU	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|id=87	2	dobj	_	_
+4	gående	gå	VA	VAPR=[SP][CN][DI][ARU]-U	mood=partic|tense=present|number=sing/plur|gender=common/neuter|definiteness=def/indef|transcat=adject/adverb/unmarked|case=unmarked|id=88	2	preds	_	_
+5	med	med	SP	SP	id=89	0	ROOT	_	_
+6	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=90	5	nobj	_	_
+7	cigaret	cigaret	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=91	6	nobj	_	_
+8	.	.	XP	XP	id=92	2	pnct	_	_
+
+1	Måtten	måtte	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=95	2	subj	_	_
+2	kom	komme	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=96	0	ROOT	_	_
+3	tilbage	tilbage	RG	RGU	degree=unmarked|id=97	2	@dir	_	_
+4	.	.	XP	XP	id=98	2	pnct	_	_
+
+1	-	-	XP	XP	id=105	3	pnct	_	_
+2	Fin	fin	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=106	3	attr	_	_
+3	biskop	biskop	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=107	0	ROOT	_	_
+4	,	,	XP	XP	id=108	3	pnct	_	_
+5	du	du	PP	PP2CSN-NU	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=109	6	subj	_	_
+6	har	have	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=110	3	rel	_	_
+7	!	!	XP	XP	id=111	3	pnct	_	_
+
+1	Han	han	PP	PP3CSN-NU	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=114	2	subj	_	_
+2	lukkede	lukke	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=115	0	ROOT	_	_
+3	notesblokken	notesblok	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=116	2	dobj	_	_
+4	.	.	XP	XP	id=117	2	pnct	_	_
+
+1	Den	den	PP	PP3CSU-NU	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|id=120	4	subj	_	_
+2	og	og	CC	CC	id=121	3	coord	_	_
+3	pennen	pen	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=122	1	conj	_	_
+4	forsvandt	forsvinde	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=123	0	ROOT	_	_
+5	i	i	SP	SP	id=124	4	dir	_	_
+6	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=125	5	nobj	_	_
+7	lomme	lomme	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=126	6	nobj	_	_
+8	.	.	XP	XP	id=127	4	pnct	_	_
+
+1	-	-	XP	XP	id=130	3	pnct	_	_
+2	Han	han	PP	PP3CSN-NU	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=131	3	subj	_	_
+3	bad	bede	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=132	0	ROOT	_	_
+4	mig	jeg	PP	PP1CSU-[YN]U	person=1|gender=common|number=sing|case=unmarked|reflexive=yes/no|register=unmarked|id=133	3	dobj	_	_
+5	om	om	SP	SP	id=134	3	pobj	_	_
+6	ikke	ikke	RG	RGU	degree=unmarked|id=135	7	neg	_	_
+7	at	at	U	U=	id=136	5	nobj	_	_
+8	skandalisere	skandalisere	VA	VAF-=----A-	mood=infin|voice=active|id=137	7	vobj	_	_
+9	dig	du	PP	PP2CSU-[YN]U	person=2|gender=common|number=sing|case=unmarked|reflexive=yes/no|register=unmarked|id=138	8	dobj	_	_
+10	.	.	XP	XP	id=139	3	pnct	_	_
+
+1	Jeg	jeg	PP	PP1CSN-NU	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=146	2	subj	_	_
+2	nikkede	nikke	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=147	0	ROOT	_	_
+3	,	,	XP	XP	id=148	2	pnct	_	_
+4	som_om	som_om	CS	CS	id=149	2	resem	_	_
+5	der	der	U	U=	id=150	7	expl	_	_
+6	ikke	ikke	RG	RGU	degree=unmarked|id=151	7	neg	_	_
+7	var	være	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=152	4	vobj	_	_
+8	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=153	7	dobj	_	_
+9	ting	ting	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=154	8	nobj	_	_
+10	,	,	XP	XP	id=155	8	pnct	_	_
+11	jeg	jeg	PP	PP1CSN-NU	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=156	13	subj	_	_
+12	ikke	ikke	RG	RGU	degree=unmarked|id=157	13	neg	_	_
+13	var	være	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=158	8	rel	_	_
+14	inde	inde	RG	RGU	degree=unmarked|id=159	13	preds	_	_
+15	i	i	SP	SP	id=160	14	pobj	_	_
+16	og	og	CC	CC	id=161	17	coord	_	_
+17	beherskede	beherske	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=162	13	conj	_	_
+18	.	.	XP	XP	id=163	2	pnct	_	_
+
+1	Storsnudethed	storsnudethed	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=166	2	subj	_	_
+2	virker	virke	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=167	0	ROOT	_	_
+3	afrusende	afrusende	XX	XX	id=168	2	preds	_	_
+4	.	.	XP	XP	id=169	2	pnct	_	_
+
+1	-	-	XP	XP	id=172	2	pnct	_	_
+2	Og	og	CC	CC	id=173	0	ROOT	_	_
+3	du	du	PP	PP2CSN-NU	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=174	4	subj	_	_
+4	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=175	2	vobj	_	_
+5	bare	bare	RG	RGU	degree=unmarked|id=176	4	other	_	_
+6	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=177	4	preds	_	_
+7	flink	flink	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=178	6	attr	_	_
+8	fyr	fyr	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=179	6	nobj	_	_
+9	,	,	XP	XP	id=180	6	pnct	_	_
+10	der	der	U	U=	id=181	11	subj	_	_
+11	gør	gøre	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=182	6	rel	_	_
+12	,	,	XP	XP	id=183	11	pnct	_	_
+13	hvad	hvad	PT	PT-[CN]SU--U	gender=common/neuter|number=sing|case=unmarked|register=unmarked|id=184	11	dobj	_	_
+14	der	der	U	U=	id=185	15	subj	_	_
+15	bliver	blive	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=186	13	rel	_	_
+16	sagt	sige	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=187	15	vobj	_	_
+17	?	?	XP	XP	id=188	2	pnct	_	_
+
+1	-	-	XP	XP	id=195	2	pnct	_	_
+2	I_hvert_fald	i_hvert_fald	RG	RGU	degree=unmarked|id=196	5	qobj	_	_
+3	ikke	ikke	RG	RGU	degree=unmarked|id=197	0	ROOT	_	_
+4	,	,	XP	XP	id=198	2	pnct	_	_
+5	sagde	sige	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=199	0	ROOT	_	_
+6	han	han	PP	PP3CSN-NU	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=200	5	subj	_	_
+7	krænket	krænke	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=201	5	man	_	_
+8	,	,	XP	XP	id=202	5	pnct	_	_
+9	som	som	U	U=	id=203	5	resem	_	_
+10	havde	have	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=204	9	vobj	_	_
+11	jeg	jeg	PP	PP1CSN-NU	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=205	10	subj	_	_
+12	udsat	udsætte	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=206	10	vobj	_	_
+13	hans	hans	PO	PO3[CN][SP]USNU	person=3|gender=common/neuter|number=sing/plur|case=unmarked|possessor=sing|reflexive=no|register=unmarked|id=207	12	dobj	_	_
+14	ære	ære	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=208	13	possd	_	_
+15	for	for	SP	SP	id=209	12	pobj	_	_
+16	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=210	15	nobj	_	_
+17	miskreditering	miskreditering	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=211	16	nobj	_	_
+18	.	.	XP	XP	id=212	5	pnct	_	_
+
+1	-	-	XP	XP	id=215	3	pnct	_	_
+2	Det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=216	3	subj	_	_
+3	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=217	0	ROOT	_	_
+4	noget	nogen	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=218	3	preds	_	_
+5	med	med	SP	SP	id=219	4	pobj	_	_
+6	biskoppens	biskop	NC	NCCSG==D	gender=common|number=sing|case=gen|def=def|id=220	5	nobj	_	_
+7	kones	kone	NC	NCCSG==I	gender=common|number=sing|case=gen|def=indef|id=221	6	possd	_	_
+8	onkels	onkel	NC	NCCSG==I	gender=common|number=sing|case=gen|def=indef|id=222	7	possd	_	_
+9	første	første	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=223	8	attr	_	_
+10	kone	kone	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=224	8	possd	_	_
+11	,	,	XP	XP	id=225	6	pnct	_	_
+12	der	der	U	U=	id=226	14	subj	_	_
+13	nu	nu	RG	RGU	degree=unmarked|id=227	14	time	_	_
+14	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=228	6	rel	_	_
+15	gift	gift	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=229	14	preds	_	_
+16	anden	anden	AO	AO---U=--	case=unmarked|id=230	17	attr	_	_
+17	gang	gang	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=231	15	other	_	_
+18	,	,	XP	XP	id=232	15	pnct	_	_
+19	med	med	SP	SP	id=233	15	pobj	_	_
+20	vores	vores	PO	PO1[CN][SP]UPNU	person=1|gender=common/neuter|number=sing/plur|case=unmarked|possessor=plur|reflexive=no|register=unmarked|id=234	19	nobj	_	_
+21	administrerende	administrere	VA	VAPR=[SP][CN][DI]A-U	mood=partic|tense=present|number=sing/plur|gender=common/neuter|definiteness=def/indef|transcat=adject|case=unmarked|id=235	20	attr	_	_
+22	chefredaktør	chefredaktør	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=236	20	possd	_	_
+23	.	.	XP	XP	id=237	3	pnct	_	_
+
+1	Fik	få	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=240	0	ROOT	_	_
+2	du	du	PP	PP2CSN-NU	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=241	1	subj	_	_
+3	den	den	PP	PP3CSU-NU	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|id=242	1	dobj	_	_
+4	?	?	XP	XP	id=243	1	pnct	_	_
+
+1	-	-	XP	XP	id=250	2	pnct	_	_
+2	Nej	nej	I	I=	id=251	0	ROOT	_	_
+3	.	.	XP	XP	id=252	2	pnct	_	_
+
+1	-	-	XP	XP	id=259	3	pnct	_	_
+2	Det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=260	3	subj	_	_
+3	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=261	0	ROOT	_	_
+4	også	også	RG	RGU	degree=unmarked|id=262	3	other	_	_
+5	ligemeget	ligemegen	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=263	3	preds	_	_
+6	.	.	XP	XP	id=264	3	pnct	_	_
+
+1	Han	han	PP	PP3CSN-NU	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=267	2	subj	_	_
+2	udsendte	udsende	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=268	0	ROOT	_	_
+3	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=269	2	dobj	_	_
+4	par	par	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=270	3	nobj	_	_
+5	truende	true	VA	VAPR=[SP][CN][DI]A-U	mood=partic|tense=present|number=sing/plur|gender=common/neuter|definiteness=def/indef|transcat=adject|case=unmarked|id=271	4	attr	_	_
+6	signaler	signal	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=272	4	nobj	_	_
+7	,	,	XP	XP	id=273	2	pnct	_	_
+8	hvis	hvis	CS	CS	id=274	2	cond	_	_
+9	jeg	jeg	PP	PP1CSN-NU	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=275	10	subj	_	_
+10	fortalte	fortælle	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=276	8	vobj	_	_
+11	mine	min	PO	PO1[CN]PUSNU	person=1|gender=common/neuter|number=plur|case=unmarked|possessor=sing|reflexive=no|register=unmarked|id=277	10	dobj	_	_
+12	læsere	læser	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=278	11	possd	_	_
+13	om	om	SP	SP	id=279	10	pobj	_	_
+14	mit	min	PO	PO1NSUSNU	person=1|gender=neuter|number=sing|case=unmarked|possessor=sing|reflexive=no|register=unmarked|id=280	13	nobj	_	_
+15	fund	fund	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=281	14	possd	_	_
+16	.	.	XP	XP	id=282	2	pnct	_	_
+
+1	Som_om	som_om	CS	CS	id=285	0	ROOT	_	_
+2	jeg	jeg	PP	PP1CSN-NU	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=286	3	subj	_	_
+3	kunne	kunne	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=287	1	vobj	_	_
+4	komme	komme	VA	VAF-=----A-	mood=infin|voice=active|id=288	3	vobj	_	_
+5	i	i	SP	SP	id=289	4	pobj	_	_
+6	tanke	tanke	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=290	5	nobj	_	_
+7	om	om	SP	SP	id=291	6	pobj	_	_
+8	det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=292	7	nobj	_	_
+9	!	!	XP	XP	id=293	1	pnct	_	_
+

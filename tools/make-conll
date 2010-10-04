@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Temporary file
+tmp=/tmp/make-conll.$$
+echo > $tmp
+
+# Create script that creates CONLL versions of all .tag files
+cd ~/cdt
+for lang in `echo da de en es it` ; do 
+	# Set conll conversion options
+	if [ "$lang" = "da" ] ; then 
+		echo "option conll_postag=msd" >> $tmp
+	else 
+		echo "option conll_postag=tag" >> $tmp
+		echo "option conll_cpostag=tag" >> $tmp
+	fi
+
+	# Convert files
+	for f in `ls $lang/*.tag | egrep '^(da|de|en|es|it)' | egrep -v '(tagged|auto)' | sed -e 's/.tag//g'` ; do 
+		echo "load $f.tag" >> $tmp ; 	
+		echo "save -conll $f.conll" >> $tmp ;
+	done
+done
+
+# Execute script
+dtag -e "script $tmp" -e 'quit'
+
+# Remove script
+rm $tmp
+
