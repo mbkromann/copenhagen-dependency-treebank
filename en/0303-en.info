@@ -1,0 +1,5 @@
+en/0303-en.tag:
+  morphology: none
+  discourse: none
+  syntax: outdated-final
+  postag: auto

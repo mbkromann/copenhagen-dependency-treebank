@@ -1,0 +1,396 @@
+1	“Non	<unknown>	NOM	NOM	id=0	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=1	0	ROOT	_	_
+
+1	tutte	tutto	ADJ	ADJ	id=2	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=3	0	ROOT	_	_
+
+1	Tua	tuo	PRO:poss	PRO:poss	id=4	0	ROOT	_	_
+
+1	madre	madre	NOM	NOM	id=5	0	ROOT	_	_
+
+1	era	essere	VER:impf	VER:impf	id=6	0	ROOT	_	_
+
+1	molto	molto	ADV	ADV	id=7	0	ROOT	_	_
+
+1	snella	snello	ADJ	ADJ	id=8	0	ROOT	_	_
+
+1	,	,	PON	PON	id=9	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=10	0	ROOT	_	_
+
+1	tipo	tipo	NOM	NOM	id=11	0	ROOT	_	_
+
+1	atletico	atletico	ADJ	ADJ	id=12	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=13	0	ROOT	_	_
+
+1	Quando	quando	CON	CON	id=14	0	ROOT	_	_
+
+1	era	essere	VER:impf	VER:impf	id=15	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=16	0	ROOT	_	_
+
+1	attesa	attesa	NOM	NOM	id=17	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=18	0	ROOT	_	_
+
+1	nostra	nostro	PRO:poss	PRO:poss	id=19	0	ROOT	_	_
+
+1	figlia	figlio	NOM	NOM	id=20	0	ROOT	_	_
+
+1	,	,	PON	PON	id=21	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=22	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=23	0	ROOT	_	_
+
+1	notò	<unknown>	NOM	NOM	id=24	0	ROOT	_	_
+
+1	quasi	quasi	ADV	ADV	id=25	0	ROOT	_	_
+
+1	nulla	nulla	ADV	ADV	id=26	0	ROOT	_	_
+
+1	prima	primo	ADJ	ADJ	id=27	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=28	0	ROOT	_	_
+
+1	settimo	settimo	ADJ	ADJ	id=29	0	ROOT	_	_
+
+1	mese	mesa|mese	NOM	NOM	id=30	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=31	0	ROOT	_	_
+
+1	La	la	PRO:pers	PRO:pers	id=32	0	ROOT	_	_
+
+1	portava	portare	VER:impf	VER:impf	id=33	0	ROOT	_	_
+
+1	bene	bene	INT	INT	id=34	0	ROOT	_	_
+
+1	,	,	PON	PON	id=35	0	ROOT	_	_
+
+1	come	come	CON	CON	id=36	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=37	0	ROOT	_	_
+
+1	usa	usare	VER:pres	VER:pres	id=38	0	ROOT	_	_
+
+1	dire	dire	VER:infi	VER:infi	id=39	0	ROOT	_	_
+
+1	dalle	dal	PRE:det	PRE:det	id=40	0	ROOT	_	_
+
+1	mie	mio	PRO:poss	PRO:poss	id=41	0	ROOT	_	_
+
+1	parti	parte|parto	NOM	NOM	id=42	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=43	0	ROOT	_	_
+
+1	Danimarca.”	<unknown>	NOM	NOM	id=44	0	ROOT	_	_
+
+1	“Ci	<unknown>	ADJ	ADJ	id=45	0	ROOT	_	_
+
+1	deve	dovere	VER:pres	VER:pres	id=46	0	ROOT	_	_
+
+1	esser	essere	VER:infi	VER:infi	id=47	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=48	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=49	0	ROOT	_	_
+
+1	altro	altro	ADJ	ADJ	id=50	0	ROOT	_	_
+
+1	uomo”	<unknown>	NOM	NOM	id=51	0	ROOT	_	_
+
+1	,	,	PON	PON	id=52	0	ROOT	_	_
+
+1	constatò	<unknown>	NOM	NOM	id=53	0	ROOT	_	_
+
+1	Loulou	<unknown>	NOM	NOM	id=54	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=55	0	ROOT	_	_
+
+1	tono	tono	NOM	NOM	id=56	0	ROOT	_	_
+
+1	imparziale	imparziale	ADJ	ADJ	id=57	0	ROOT	_	_
+
+1	,	,	PON	PON	id=58	0	ROOT	_	_
+
+1	“non	<unknown>	NOM	NOM	id=59	0	ROOT	_	_
+
+1	avevi	avere	VER:impf	VER:impf	id=60	0	ROOT	_	_
+
+1	notato	notare	VER:pper	VER:pper	id=61	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=62	0	ROOT	_	_
+
+1	c’era	<unknown>	VER:pres	VER:pres	id=63	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=64	0	ROOT	_	_
+
+1	altro	altro	ADJ	ADJ	id=65	0	ROOT	_	_
+
+1	?”	<unknown>	NOM	NOM	id=66	0	ROOT	_	_
+
+1	Bernie	<unknown>	ADJ	ADJ	id=67	0	ROOT	_	_
+
+1	stette	stare	VER:remo	VER:remo	id=68	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=69	0	ROOT	_	_
+
+1	lungo	lungo	ADJ	ADJ	id=70	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=71	0	ROOT	_	_
+
+1	silenzio	silenzio	NOM	NOM	id=72	0	ROOT	_	_
+
+1	,	,	PON	PON	id=73	0	ROOT	_	_
+
+1	poi	poi	ADV	ADV	id=74	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=75	0	ROOT	_	_
+
+1	piegò	<unknown>	NOM	NOM	id=76	0	ROOT	_	_
+
+1	verso	verso	PRE	PRE	id=77	0	ROOT	_	_
+
+1	l’altro	<unknown>	NOM	NOM	id=78	0	ROOT	_	_
+
+1	guardandola	guardare	VER:geru	VER:geru	id=79	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=80	0	ROOT	_	_
+
+1	occhi	occhio	NOM	NOM	id=81	0	ROOT	_	_
+
+1	penetranti	penetrante	ADJ	ADJ	id=82	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=83	0	ROOT	_	_
+
+1	“Tua	<unknown>	ADJ	ADJ	id=84	0	ROOT	_	_
+
+1	madre	madre	NOM	NOM	id=85	0	ROOT	_	_
+
+1	ed	ed	CON	CON	id=86	0	ROOT	_	_
+
+1	io	io	PRO:pers	PRO:pers	id=87	0	ROOT	_	_
+
+1	ci	ci	PRO:refl	PRO:refl	id=88	0	ROOT	_	_
+
+1	amavamo	amare	VER:impf	VER:impf	id=89	0	ROOT	_	_
+
+1	,	,	PON	PON	id=90	0	ROOT	_	_
+
+1	lo	lo	PRO:pers	PRO:pers	id=91	0	ROOT	_	_
+
+1	capisci	capire	VER:pres	VER:pres	id=92	0	ROOT	_	_
+
+1	?	?	SENT	SENT	id=93	0	ROOT	_	_
+
+1	!	!	SENT	SENT	id=94	0	ROOT	_	_
+
+1	!	!	SENT	SENT	id=95	0	ROOT	_	_
+
+1	Ci	ci	PRO:pers	PRO:pers	id=96	0	ROOT	_	_
+
+1	incontrammo	incontrare	VER:remo	VER:remo	id=97	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=98	0	ROOT	_	_
+
+1	Parigi	Parigi	NPR	NPR	id=99	0	ROOT	_	_
+
+1	e	e	CON	CON	id=100	0	ROOT	_	_
+
+1	fu	essere	VER:remo	VER:remo	id=101	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=102	0	ROOT	_	_
+
+1	vero	vero	ADJ	ADJ	id=103	0	ROOT	_	_
+
+1	colpo	colpo	NOM	NOM	id=104	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=105	0	ROOT	_	_
+
+1	fulmine	fulmine	NOM	NOM	id=106	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=107	0	ROOT	_	_
+
+1	Non	non	ADV	ADV	id=108	0	ROOT	_	_
+
+1	era	essere	VER:impf	VER:impf	id=109	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=110	0	ROOT	_	_
+
+1	tipo	tipo	NOM	NOM	id=111	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=112	0	ROOT	_	_
+
+1	donna	donna	NOM	NOM	id=113	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=114	0	ROOT	_	_
+
+1	tresche	tresca	NOM	NOM	id=115	0	ROOT	_	_
+
+1	amorose	amoroso	ADJ	ADJ	id=116	0	ROOT	_	_
+
+1	,	,	PON	PON	id=117	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=118	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=119	0	ROOT	_	_
+
+1	mai	mai	ADV	ADV	id=120	0	ROOT	_	_
+
+1	mentito.”	<unknown>	VER:pper	VER:pper	id=121	0	ROOT	_	_
+
+1	“Lei	<unknown>	NOM	NOM	id=122	0	ROOT	_	_
+
+1	mi	mi	PRO:pers	PRO:pers	id=123	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=124	0	ROOT	_	_
+
+1	mentito	mentire	VER:pper	VER:pper	id=125	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=126	0	ROOT	_	_
+
+1	Mi	mi	PRO:pers	PRO:pers	id=127	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=128	0	ROOT	_	_
+
+1	fatto	fare	VER:pper	VER:pper	id=129	0	ROOT	_	_
+
+1	credere	credere	VER:infi	VER:infi	id=130	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=131	0	ROOT	_	_
+
+1	tu	tu	PRO:pers	PRO:pers	id=132	0	ROOT	_	_
+
+1	fossi	essere	VER:cimp	VER:cimp	id=133	0	ROOT	_	_
+
+1	mio	mio	PRO:poss	PRO:poss	id=134	0	ROOT	_	_
+
+1	padre.”	<unknown>	NOM	NOM	id=135	0	ROOT	_	_
+
+1	“Probabilmente	<unknown>	ADJ	ADJ	id=136	0	ROOT	_	_
+
+1	avrà	<unknown>	VER:futu	VER:futu	id=137	0	ROOT	_	_
+
+1	avuto	avere	VER:pper	VER:pper	id=138	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=139	0	ROOT	_	_
+
+1	suoi	suo	PRO:poss	PRO:poss	id=140	0	ROOT	_	_
+
+1	motivi	motivo	NOM	NOM	id=141	0	ROOT	_	_
+
+1	,	,	PON	PON	id=142	0	ROOT	_	_
+
+1	Loulou	<unknown>	NOM	NOM	id=143	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=144	0	ROOT	_	_
+
+1	Non	non	ADV	ADV	id=145	0	ROOT	_	_
+
+1	deve	dovere	VER:pres	VER:pres	id=146	0	ROOT	_	_
+
+1	esser	essere	VER:infi	VER:infi	id=147	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=148	0	ROOT	_	_
+
+1	facile	facile	ADJ	ADJ	id=149	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=150	0	ROOT	_	_
+
+1	lei	lei	PRO:pers	PRO:pers	id=151	0	ROOT	_	_
+
+1	tornare	tornare	VER:infi	VER:infi	id=152	0	ROOT	_	_
+
+1	dai	dal	PRE:det	PRE:det	id=153	0	ROOT	_	_
+
+1	suoi	suo	PRO:poss	PRO:poss	id=154	0	ROOT	_	_
+
+1	genitori	genitore	NOM	NOM	id=155	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=156	0	ROOT	_	_
+
+1	quello	quello	PRO:demo	PRO:demo	id=157	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=158	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=159	0	ROOT	_	_
+
+1	Forse	forse	ADV	ADV	id=160	0	ROOT	_	_
+
+1	è	<unknown>	NOM	NOM	id=161	0	ROOT	_	_
+
+1	stata	essere|stare	VER:pper	VER:pper	id=162	0	ROOT	_	_
+
+1	costretta	costringere	VER:pper	VER:pper	id=163	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=164	0	ROOT	_	_
+
+1	nascondere	nascondere	VER:infi	VER:infi	id=165	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=166	0	ROOT	_	_
+
+1	verità	<unknown>	NOM	NOM	id=167	0	ROOT	_	_
+
+1	e	e	CON	CON	id=168	0	ROOT	_	_
+
+1	col	col	PRE:det	PRE:det	id=169	0	ROOT	_	_
+
+1	passar	passare	VER:infi	VER:infi	id=170	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=171	0	ROOT	_	_
+
+1	tempo	tempo	NOM	NOM	id=172	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=173	0	ROOT	_	_
+
+1	rimossa	rimuovere	VER:pper	VER:pper	id=174	0	ROOT	_	_
+
+1	completamente	completamente	ADV	ADV	id=175	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=176	0	ROOT	_	_
+
+1	Era	era	NOM	NOM	id=177	0	ROOT	_	_
+
+1	più	<unknown>	NOM	NOM	id=178	0	ROOT	_	_
+
+1	semplice	semplice	ADJ	ADJ	id=179	0	ROOT	_	_
+
+1	così	<unknown>	NOM	NOM	id=180	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=181	0	ROOT	_	_
+
+1	lei	lei	PRO:pers	PRO:pers	id=182	0	ROOT	_	_
+
+1	...	...	PON	PON	id=183	0	ROOT	_	_
+
+1	e	e	CON	CON	id=184	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=185	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=186	0	ROOT	_	_
+
+1	te	te	PRO:pers	PRO:pers	id=187	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=188	0	ROOT	_	_
+
+1	Sicuramente	sicuramente	ADV	ADV	id=189	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=190	0	ROOT	_	_
+
+1	agito	agire	VER:pper	VER:pper	id=191	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=192	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=193	0	ROOT	_	_
+
+1	modo	modo	NOM	NOM	id=194	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=195	0	ROOT	_	_
+
+1	amor	amor	NOM	NOM	id=196	0	ROOT	_	_
+
+1	tuo.”	<unknown>	NOM	NOM	id=197	0	ROOT	_	_
+

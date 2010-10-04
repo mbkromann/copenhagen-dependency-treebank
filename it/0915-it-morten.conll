@@ -1,0 +1,420 @@
+1	Gran	gran	ADJ	ADJ	id=0	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=1	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=2	0	ROOT	_	_
+
+1	medicina	medicina	NOM	NOM	id=3	0	ROOT	_	_
+
+1	introdotta	introdurre	VER:pper	VER:pper	id=4	0	ROOT	_	_
+
+1	negli	nel	PRE:det	PRE:det	id=5	0	ROOT	_	_
+
+1	anni	anno	NOM	NOM	id=6	0	ROOT	_	_
+
+1	Ottanta	ottanta	ADJ	ADJ	id=7	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=8	0	ROOT	_	_
+
+1	reso	rendere	VER:pper	VER:pper	id=9	0	ROOT	_	_
+
+1	possibile	possibile	ADJ	ADJ	id=10	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=11	0	ROOT	_	_
+
+1	cura	cura	NOM	NOM	id=12	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=13	0	ROOT	_	_
+
+1	malattie	malattia	NOM	NOM	id=14	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=15	0	ROOT	_	_
+
+1	trattabili	trattabile	ADJ	ADJ	id=16	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=17	0	ROOT	_	_
+
+1	passato	passato	NOM	NOM	id=18	0	ROOT	_	_
+
+1	,	,	PON	PON	id=19	0	ROOT	_	_
+
+1	oppure	oppure	CON	CON	id=20	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=21	0	ROOT	_	_
+
+1	permesso	permesso	ADJ	ADJ	id=22	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=23	0	ROOT	_	_
+
+1	terapie	terapia	NOM	NOM	id=24	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=25	0	ROOT	_	_
+
+1	efficaci	efficace	ADJ	ADJ	id=26	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=27	0	ROOT	_	_
+
+1	alcuni	alcuno	PRO:indef	PRO:indef	id=28	0	ROOT	_	_
+
+1	tipi	tipo	NOM	NOM	id=29	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=30	0	ROOT	_	_
+
+1	tumore	tumore	NOM	NOM	id=31	0	ROOT	_	_
+
+1	e	e	CON	CON	id=32	0	ROOT	_	_
+
+1	cure	cura	NOM	NOM	id=33	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=34	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=35	0	ROOT	_	_
+
+1	ulcera	ulcera	NOM	NOM	id=36	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=37	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=38	0	ROOT	_	_
+
+1	richiedono	richiedere	VER:pres	VER:pres	id=39	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=40	0	ROOT	_	_
+
+1	intervento	intervento	NOM	NOM	id=41	0	ROOT	_	_
+
+1	chirurgico	chirurgico	ADJ	ADJ	id=42	0	ROOT	_	_
+
+1	né	né	CON	CON	id=43	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=44	0	ROOT	_	_
+
+1	assenze	assenza	NOM	NOM	id=45	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=46	0	ROOT	_	_
+
+1	lavoro	lavoro	NOM	NOM	id=47	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=48	0	ROOT	_	_
+
+1	malattia	malattia	NOM	NOM	id=49	0	ROOT	_	_
+
+1	e	e	CON	CON	id=50	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=51	0	ROOT	_	_
+
+1	trattamento	trattamento	NOM	NOM	id=52	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=53	0	ROOT	_	_
+
+1	alcuni	alcuno	PRO:indef	PRO:indef	id=54	0	ROOT	_	_
+
+1	problemi	problema	NOM	NOM	id=55	0	ROOT	_	_
+
+1	psichici	psichico	ADJ	ADJ	id=56	0	ROOT	_	_
+
+1	,	,	PON	PON	id=57	0	ROOT	_	_
+
+1	sminuendo	sminuire	VER:geru	VER:geru	id=58	0	ROOT	_	_
+
+1	quindi	quindi	ADV	ADV	id=59	0	ROOT	_	_
+
+1	considerevolmente	considerevolmente	ADV	ADV	id=60	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=61	0	ROOT	_	_
+
+1	ruolo	ruolo	NOM	NOM	id=62	0	ROOT	_	_
+
+1	degli	del	PRE:det	PRE:det	id=63	0	ROOT	_	_
+
+1	ospedali	ospedale	NOM	NOM	id=64	0	ROOT	_	_
+
+1	psichiatrici	psichiatrico	ADJ	ADJ	id=65	0	ROOT	_	_
+
+1	,	,	PON	PON	id=66	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=67	0	ROOT	_	_
+
+1	migliorato	migliorare	VER:pper	VER:pper	id=68	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=69	0	ROOT	_	_
+
+1	terapia	terapia	NOM	NOM	id=70	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=71	0	ROOT	_	_
+
+1	diabete	diabete	NOM	NOM	id=72	0	ROOT	_	_
+
+1	etc	<unknown>	NOM	NOM	id=73	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=74	0	ROOT	_	_
+
+1	I	il	DET:def	DET:def	id=75	0	ROOT	_	_
+
+1	risparmi	risparmio	NOM	NOM	id=76	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=77	0	ROOT	_	_
+
+1	collettività	collettività	NOM	NOM	id=78	0	ROOT	_	_
+
+1	,	,	PON	PON	id=79	0	ROOT	_	_
+
+1	conseguenza	conseguenza	NOM	NOM	id=80	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=81	0	ROOT	_	_
+
+1	questi	questo	PRO:demo	PRO:demo	id=82	0	ROOT	_	_
+
+1	progressi	progresso	NOM	NOM	id=83	0	ROOT	_	_
+
+1	terapeutici	terapeutico	ADJ	ADJ	id=84	0	ROOT	_	_
+
+1	,	,	PON	PON	id=85	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=86	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=87	0	ROOT	_	_
+
+1	immediatamente	immediatamente	ADV	ADV	id=88	0	ROOT	_	_
+
+1	visibili	visibile	ADJ	ADJ	id=89	0	ROOT	_	_
+
+1	nei	nel	PRE:det	PRE:det	id=90	0	ROOT	_	_
+
+1	bilanci	bilancio	NOM	NOM	id=91	0	ROOT	_	_
+
+1	nazionali	nazionale	ADJ	ADJ	id=92	0	ROOT	_	_
+
+1	,	,	PON	PON	id=93	0	ROOT	_	_
+
+1	tuttavia	tuttavia	ADV	ADV	id=94	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=95	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=96	0	ROOT	_	_
+
+1	dato	dato	NOM	NOM	id=97	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=98	0	ROOT	_	_
+
+1	fatto	fatto	NOM	NOM	id=99	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=100	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=101	0	ROOT	_	_
+
+1	nuovi	nuovo	ADJ	ADJ	id=102	0	ROOT	_	_
+
+1	medicinali	medicinale	NOM	NOM	id=103	0	ROOT	_	_
+
+1	innovativi	innovativo	ADJ	ADJ	id=104	0	ROOT	_	_
+
+1	contribuiscono	contribuire	VER:pres	VER:pres	id=105	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=106	0	ROOT	_	_
+
+1	ridurre	ridurre	VER:infi	VER:infi	id=107	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=108	0	ROOT	_	_
+
+1	spese	spesa	NOM	NOM	id=109	0	ROOT	_	_
+
+1	complessive	complessivo	ADJ	ADJ	id=110	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=111	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=112	0	ROOT	_	_
+
+1	sanità	sanità	NOM	NOM	id=113	0	ROOT	_	_
+
+1	,	,	PON	PON	id=114	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=115	0	ROOT	_	_
+
+1	se	se	CON	CON	id=116	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=117	0	ROOT	_	_
+
+1	futuro	futuro	NOM	NOM	id=118	0	ROOT	_	_
+
+1	sarà	essere	VER:futu	VER:futu	id=119	0	ROOT	_	_
+
+1	ancora	ancora	ADV	ADV	id=120	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=121	0	ROOT	_	_
+
+1	costoso	costoso	ADJ	ADJ	id=122	0	ROOT	_	_
+
+1	svilupparli	sviluppare	VER:infi	VER:infi	id=123	0	ROOT	_	_
+
+1	,	,	PON	PON	id=124	0	ROOT	_	_
+
+1	promuoverli	promuovere	VER:infi	VER:infi	id=125	0	ROOT	_	_
+
+1	e	e	CON	CON	id=126	0	ROOT	_	_
+
+1	quindi	quindi	ADV	ADV	id=127	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=128	0	ROOT	_	_
+
+1	acquistarli	acquistare	VER:infi	VER:infi	id=129	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=130	0	ROOT	_	_
+
+1	Un	un	DET:indef	DET:indef	id=131	0	ROOT	_	_
+
+1	buon	buon	ADJ	ADJ	id=132	0	ROOT	_	_
+
+1	esempio	esempio	NOM	NOM	id=133	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=134	0	ROOT	_	_
+
+1	costituito	costituire	VER:pper	VER:pper	id=135	0	ROOT	_	_
+
+1	dai	dal	PRE:det	PRE:det	id=136	0	ROOT	_	_
+
+1	trattamenti	trattamento	NOM	NOM	id=137	0	ROOT	_	_
+
+1	contro	contro	PRE	PRE	id=138	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=139	0	ROOT	_	_
+
+1	ulcera	ulcera	NOM	NOM	id=140	0	ROOT	_	_
+
+1	:	:	PON	PON	id=141	0	ROOT	_	_
+
+1	prima	prima	ADV	ADV	id=142	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=143	0	ROOT	_	_
+
+1	essi	essi	PRO:pers	PRO:pers	id=144	0	ROOT	_	_
+
+1	venissero	venire	VER:cimp	VER:cimp	id=145	0	ROOT	_	_
+
+1	introdotti	introdurre	VER:pper	VER:pper	id=146	0	ROOT	_	_
+
+1	sul	sul	PRE:det	PRE:det	id=147	0	ROOT	_	_
+
+1	mercato	mercato	NOM	NOM	id=148	0	ROOT	_	_
+
+1	,	,	PON	PON	id=149	0	ROOT	_	_
+
+1	negli	nel	PRE:det	PRE:det	id=150	0	ROOT	_	_
+
+1	Stati	stato	NOM	NOM	id=151	0	ROOT	_	_
+
+1	Uniti	unire	VER:pper	VER:pper	id=152	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=153	0	ROOT	_	_
+
+1	cura	cura	NOM	NOM	id=154	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=155	0	ROOT	_	_
+
+1	ulcera	ulcera	NOM	NOM	id=156	0	ROOT	_	_
+
+1	costava	costare	VER:impf	VER:impf	id=157	0	ROOT	_	_
+
+1	720	@card@	NUM	NUM	id=158	0	ROOT	_	_
+
+1	dollari	dollaro	NOM	NOM	id=159	0	ROOT	_	_
+
+1	,	,	PON	PON	id=160	0	ROOT	_	_
+
+1	considerando	considerare	VER:geru	VER:geru	id=161	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=162	0	ROOT	_	_
+
+1	spese	spesa	NOM	NOM	id=163	0	ROOT	_	_
+
+1	farmacologiche	farmacologico	ADJ	ADJ	id=164	0	ROOT	_	_
+
+1	e	e	CON	CON	id=165	0	ROOT	_	_
+
+1	ospedaliere	ospedaliero	ADJ	ADJ	id=166	0	ROOT	_	_
+
+1	;	;	PON	PON	id=167	0	ROOT	_	_
+
+1	quando	quando	CON	CON	id=168	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=169	0	ROOT	_	_
+
+1	entrati	entrare	VER:pper	VER:pper	id=170	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=171	0	ROOT	_	_
+
+1	uso	uso	NOM	NOM	id=172	0	ROOT	_	_
+
+1	,	,	PON	PON	id=173	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=174	0	ROOT	_	_
+
+1	costo	costo	NOM	NOM	id=175	0	ROOT	_	_
+
+1	complessivo	complessivo	ADJ	ADJ	id=176	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=177	0	ROOT	_	_
+
+1	trattamento	trattamento	NOM	NOM	id=178	0	ROOT	_	_
+
+1	terapeutico	terapeutico	ADJ	ADJ	id=179	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=180	0	ROOT	_	_
+
+1	sceso	scendere|scernere	VER:pper	VER:pper	id=181	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=182	0	ROOT	_	_
+
+1	220	@card@	NUM	NUM	id=183	0	ROOT	_	_
+
+1	dollari	dollaro	NOM	NOM	id=184	0	ROOT	_	_
+
+1	,	,	PON	PON	id=185	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=186	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=187	0	ROOT	_	_
+
+1	conseguente	conseguente	ADJ	ADJ	id=188	0	ROOT	_	_
+
+1	calo	calo	NOM	NOM	id=189	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=190	0	ROOT	_	_
+
+1	500	@card@	NUM	NUM	id=191	0	ROOT	_	_
+
+1	dollari	dollaro	NOM	NOM	id=192	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=193	0	ROOT	_	_
+
+1	A	a	PRE	PRE	id=194	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=195	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=196	0	ROOT	_	_
+
+1	aggiungono	aggiungere	VER:pres	VER:pres	id=197	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=198	0	ROOT	_	_
+
+1	risparmi	risparmio	NOM	NOM	id=199	0	ROOT	_	_
+
+1	dovuti	dovere	VER:pper	VER:pper	id=200	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=201	0	ROOT	_	_
+
+1	esempio	esempio	NOM	NOM	id=202	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=203	0	ROOT	_	_
+
+1	riduzione	riduzione	NOM	NOM	id=204	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=205	0	ROOT	_	_
+
+1	assenze	assenza	NOM	NOM	id=206	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=207	0	ROOT	_	_
+
+1	lavoro	lavoro	NOM	NOM	id=208	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=209	0	ROOT	_	_
+

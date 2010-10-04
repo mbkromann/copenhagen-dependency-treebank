@@ -1,0 +1,372 @@
+1	Con	con	PRE	PRE	id=2	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=3	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=4	0	ROOT	_	_
+
+1	esistenza	esistenza	NOM	NOM	id=5	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=6	0	ROOT	_	_
+
+1	neutrone	neutrone	NOM	NOM	id=7	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=8	0	ROOT	_	_
+
+1	stata	essere|stare	VER:pper	VER:pper	id=9	0	ROOT	_	_
+
+1	dimostrata	dimostrare	VER:pper	VER:pper	id=10	0	ROOT	_	_
+
+1	!	!	SENT	SENT	id=11	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=16	0	ROOT	_	_
+
+1	fisica	fisica|fisico	NOM	NOM	id=17	0	ROOT	_	_
+
+1	nucleare	nucleare	ADJ	ADJ	id=18	0	ROOT	_	_
+
+1	dopo	dopo	PRE	PRE	id=19	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=20	0	ROOT	_	_
+
+1	scoperta	scoprire	VER:pper	VER:pper	id=21	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=22	0	ROOT	_	_
+
+1	neutrone	neutrone	NOM	NOM	id=23	0	ROOT	_	_
+
+1	Dopo	dopo	PRE	PRE	id=28	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=29	0	ROOT	_	_
+
+1	Chadwick	<unknown>	NOM	NOM	id=30	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=31	0	ROOT	_	_
+
+1	dimostrato	dimostrare	VER:pper	VER:pper	id=32	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=33	0	ROOT	_	_
+
+1	neutrone	neutrone	NOM	NOM	id=34	0	ROOT	_	_
+
+1	,	,	PON	PON	id=35	0	ROOT	_	_
+
+1	nessuno	nessuno	ADJ	ADJ	id=36	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=37	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=38	0	ROOT	_	_
+
+1	dubitato	dubitare	VER:pper	VER:pper	id=39	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=40	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=41	0	ROOT	_	_
+
+1	nucleo	nucleo	NOM	NOM	id=42	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=43	0	ROOT	_	_
+
+1	atomo	atomo	NOM	NOM	id=44	0	ROOT	_	_
+
+1	era	essere	VER:impf	VER:impf	id=45	0	ROOT	_	_
+
+1	veramente	veramente	ADV	ADV	id=46	0	ROOT	_	_
+
+1	composto	comporre	VER:pper	VER:pper	id=47	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=48	0	ROOT	_	_
+
+1	protoni	protone	NOM	NOM	id=49	0	ROOT	_	_
+
+1	e	e	CON	CON	id=50	0	ROOT	_	_
+
+1	neutroni	neutrone	NOM	NOM	id=51	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=52	0	ROOT	_	_
+
+1	Si	si	PRO:pers	PRO:pers	id=57	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=58	0	ROOT	_	_
+
+1	iniziato	iniziare	VER:pper	VER:pper	id=59	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=60	0	ROOT	_	_
+
+1	studiare	studiare	VER:infi	VER:infi	id=61	0	ROOT	_	_
+
+1	come	come	PRE	PRE	id=62	0	ROOT	_	_
+
+1	questi	questo	PRO:demo	PRO:demo	id=63	0	ROOT	_	_
+
+1	protoni	protone	NOM	NOM	id=64	0	ROOT	_	_
+
+1	e	e	CON	CON	id=65	0	ROOT	_	_
+
+1	neutroni	neutrone	NOM	NOM	id=66	0	ROOT	_	_
+
+1	fossero	essere	VER:cimp	VER:cimp	id=67	0	ROOT	_	_
+
+1	tenuti	tenere	VER:pper	VER:pper	id=68	0	ROOT	_	_
+
+1	assieme	assieme	ADV	ADV	id=69	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=70	0	ROOT	_	_
+
+1	nucleo	nucleo	NOM	NOM	id=71	0	ROOT	_	_
+
+1	,	,	PON	PON	id=72	0	ROOT	_	_
+
+1	e	e	CON	CON	id=73	0	ROOT	_	_
+
+1	se	se	CON	CON	id=74	0	ROOT	_	_
+
+1	ruotavano	ruotare	VER:impf	VER:impf	id=75	0	ROOT	_	_
+
+1	uno	uno	ADJ	ADJ	id=76	0	ROOT	_	_
+
+1	attorno	attorno	ADV	ADV	id=77	0	ROOT	_	_
+
+1	all'	al	PRE:det	PRE:det	id=78	0	ROOT	_	_
+
+1	altro	altro	ADJ	ADJ	id=79	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=80	0	ROOT	_	_
+
+1	A	a	PRE	PRE	id=85	0	ROOT	_	_
+
+1	moltissime	moltissimo	ADJ	ADJ	id=86	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=87	0	ROOT	_	_
+
+1	queste	questo	PRO:demo	PRO:demo	id=88	0	ROOT	_	_
+
+1	domande	domanda	NOM	NOM	id=89	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=90	0	ROOT	_	_
+
+1	abbiamo	avere|riavere	VER:pres	VER:pres	id=91	0	ROOT	_	_
+
+1	ancora	ancora	ADV	ADV	id=92	0	ROOT	_	_
+
+1	potuto	potere	VER:pper	VER:pper	id=93	0	ROOT	_	_
+
+1	dare	dare	VER:infi	VER:infi	id=94	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=95	0	ROOT	_	_
+
+1	risposta	risposta	NOM	NOM	id=96	0	ROOT	_	_
+
+1	certa	certo	ADJ	ADJ	id=97	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=98	0	ROOT	_	_
+
+1	Ma	ma	CON	CON	id=101	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=102	0	ROOT	_	_
+
+1	stati	essere|stare	VER:pper	VER:pper	id=103	0	ROOT	_	_
+
+1	realizzati	realizzare	VER:pper	VER:pper	id=104	0	ROOT	_	_
+
+1	diversi	diverso	ADJ	ADJ	id=105	0	ROOT	_	_
+
+1	modelli	modello	NOM	NOM	id=106	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=107	0	ROOT	_	_
+
+1	nucleo	nucleo	NOM	NOM	id=108	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=109	0	ROOT	_	_
+
+1	possono	potere	VER:pres	VER:pres	id=110	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=111	0	ROOT	_	_
+
+1	efficacemente	efficacemente	ADV	ADV	id=112	0	ROOT	_	_
+
+1	usati	usare	VER:pper	VER:pper	id=113	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=114	0	ROOT	_	_
+
+1	diverse	diverso	ADJ	ADJ	id=115	0	ROOT	_	_
+
+1	osservazioni	osservazione	NOM	NOM	id=116	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=117	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=118	0	ROOT	_	_
+
+1	già	già	ADV	ADV	id=119	0	ROOT	_	_
+
+1	state	essere|stare	VER:pper	VER:pper	id=120	0	ROOT	_	_
+
+1	effettuate	effettuare	VER:pper	VER:pper	id=121	0	ROOT	_	_
+
+1	,	,	PON	PON	id=122	0	ROOT	_	_
+
+1	ma	ma	CON	CON	id=123	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=124	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=125	0	ROOT	_	_
+
+1	tutte	tutto	ADJ	ADJ	id=126	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=127	0	ROOT	_	_
+
+1	Sono	essere|sonare	VER:pres	VER:pres	id=132	0	ROOT	_	_
+
+1	state	essere|stare	VER:pper	VER:pper	id=133	0	ROOT	_	_
+
+1	stanziate	stanziare	VER:pper	VER:pper	id=134	0	ROOT	_	_
+
+1	ingenti	ingente	ADJ	ADJ	id=135	0	ROOT	_	_
+
+1	somme	somma	NOM	NOM	id=136	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=137	0	ROOT	_	_
+
+1	denaro	denaro	NOM	NOM	id=138	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=139	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=140	0	ROOT	_	_
+
+1	costruzione	costruzione	NOM	NOM	id=141	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=142	0	ROOT	_	_
+
+1	apparecchi	apparecchio	NOM	NOM	id=143	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=144	0	ROOT	_	_
+
+1	grado	grado	NOM	NOM	id=145	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=146	0	ROOT	_	_
+
+1	accelerare	accelerare	VER:infi	VER:infi	id=147	0	ROOT	_	_
+
+1	particelle	particella	NOM	NOM	id=148	0	ROOT	_	_
+
+1	cariche	carico	ADJ	ADJ	id=149	0	ROOT	_	_
+
+1	fino	fino	CON	CON	id=150	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=151	0	ROOT	_	_
+
+1	velocità	velocità	NOM	NOM	id=152	0	ROOT	_	_
+
+1	impensabili	impensabile	ADJ	ADJ	id=153	0	ROOT	_	_
+
+1	,	,	PON	PON	id=154	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=155	0	ROOT	_	_
+
+1	modo	modo	NOM	NOM	id=156	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=157	0	ROOT	_	_
+
+1	usarle	usare	VER:infi	VER:infi	id=158	0	ROOT	_	_
+
+1	come	come	PRE	PRE	id=159	0	ROOT	_	_
+
+1	proiettili	proiettile	NOM	NOM	id=160	0	ROOT	_	_
+
+1	sparati	sparato	ADJ	ADJ	id=161	0	ROOT	_	_
+
+1	contro	contro	PRE	PRE	id=162	0	ROOT	_	_
+
+1	diversi	diverso	ADJ	ADJ	id=163	0	ROOT	_	_
+
+1	nuclei	nucleo	NOM	NOM	id=164	0	ROOT	_	_
+
+1	atomici	atomico	ADJ	ADJ	id=165	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=166	0	ROOT	_	_
+
+1	In	in	PRE	PRE	id=171	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=172	0	ROOT	_	_
+
+1	modo	modo	NOM	NOM	id=173	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=174	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=175	0	ROOT	_	_
+
+1	possibile	possibile	ADJ	ADJ	id=176	0	ROOT	_	_
+
+1	scoprire	scoprire	VER:infi	VER:infi	id=177	0	ROOT	_	_
+
+1	moltissime	moltissimo	ADJ	ADJ	id=178	0	ROOT	_	_
+
+1	nuove	nuovo	ADJ	ADJ	id=179	0	ROOT	_	_
+
+1	particelle	particella	NOM	NOM	id=180	0	ROOT	_	_
+
+1	,	,	PON	PON	id=181	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=182	0	ROOT	_	_
+
+1	tuttavia	tuttavia	ADV	ADV	id=183	0	ROOT	_	_
+
+1	esistono	esistere	VER:pres	VER:pres	id=184	0	ROOT	_	_
+
+1	solamente	solamente	ADV	ADV	id=185	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=186	0	ROOT	_	_
+
+1	periodi	periodo	NOM	NOM	id=187	0	ROOT	_	_
+
+1	brevissimi	<unknown>	ADJ	ADJ	id=188	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=189	0	ROOT	_	_
+
+1	Queste	questo	PRO:demo	PRO:demo	id=192	0	ROOT	_	_
+
+1	particelle	particella	NOM	NOM	id=193	0	ROOT	_	_
+
+1	svolgono	svolgere	VER:pres	VER:pres	id=194	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=195	0	ROOT	_	_
+
+1	ruolo	ruolo	NOM	NOM	id=196	0	ROOT	_	_
+
+1	decisivo	decisivo	ADJ	ADJ	id=197	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=198	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=199	0	ROOT	_	_
+
+1	comprensione	comprensione	NOM	NOM	id=200	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=201	0	ROOT	_	_
+
+1	tipo	tipo	NOM	NOM	id=202	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=203	0	ROOT	_	_
+
+1	forza	forza	NOM	NOM	id=204	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=205	0	ROOT	_	_
+
+1	tiene	tenere	VER:pres	VER:pres	id=206	0	ROOT	_	_
+
+1	assieme	assieme	ADV	ADV	id=207	0	ROOT	_	_
+
+1	neutroni	neutrone	NOM	NOM	id=208	0	ROOT	_	_
+
+1	e	e	CON	CON	id=209	0	ROOT	_	_
+
+1	protoni	protone	NOM	NOM	id=210	0	ROOT	_	_
+
+1	all'	al	PRE:det	PRE:det	id=211	0	ROOT	_	_
+
+1	interno	interno	NOM	NOM	id=212	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=213	0	ROOT	_	_
+
+1	nucleo	nucleo	NOM	NOM	id=214	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=215	0	ROOT	_	_
+

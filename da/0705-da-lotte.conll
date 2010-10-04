@@ -49,7 +49,7 @@
 8	lyrik-bogklub	lyrik-bogklub	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=94	7	possd	_	_
 9	med	med	SP	SP	id=95	4	fpredo	_	_
 10	udsendelse	udsendelse	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=96	9	nobj	_	_
-11	af	af	SP	SP	id=97	10	pobj.dobj	_	_
+11	af	af	SP	SP	id=97	0	ROOT	_	_
 12	tre	tre	AC	AC---U=--	case=unmarked|id=98	11	nobj	_	_
 13	nye	ny	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=99	12	attr	_	_
 14	digtsamlinger	digtsamling	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=100	12	nobj	_	_
@@ -155,7 +155,7 @@
 8	abonnenterne	abonnent	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=208	7	nobj	_	_
 9	,	,	XP	XP	id=209	2	pnct	_	_
 10	kun	kun	RG	RGU	degree=unmarked|id=210	11	quant	_	_
-11	enkeltpersoner	enkeltperson	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=211	2	<dobj:2>	_	_
+11	enkeltpersoner	enkeltperson	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=211	0	ROOT	_	_
 12	.	.	XP	XP	id=212	2	pnct	_	_
 
 1	Og	og	CC	CC	id=215	3	coord	_	_

@@ -1,0 +1,189 @@
+1	¿Qué	<unknown>	NC	NC	id=0	2	dobj	_	_
+2	hacías	<unknown>	VLfin	VLfin	id=1	0	ROOT	_	_
+3	antes	antes	ADV	ADV	id=2	2	time	_	_
+4	de	de	CSUBI	CSUBI	id=3	3	pobj	_	_
+5	comenzar	comenzar	VLinf	VLinf	id=4	4	vobj	_	_
+6	a	a	SCENE	SCENE	id=5	5	pobj	_	_
+7	buscar	buscar	VLinf	VLinf	id=6	6	vobj	_	_
+8	un	un	ART	ART	id=7	7	dobj	_	_
+9	contrato	contrato	NC	NC	id=8	8	nobj	_	_
+10	?	?	FS	FS	id=9	2	pnct	_	_
+
+1	“Entonces	<unknown>	NC	NC	id=10	2	time	_	_
+2	trabajaba	trabajar	VLfin	VLfin	id=11	0	ROOT	_	_
+3	con	con	SCENE	SCENE	id=12	2	pobj	_	_
+4	el	el	ART	ART	id=13	3	nobj	_	_
+5	control	control	NC	NC	id=14	4	nobj	_	_
+6	de	de	SCENE	SCENE	id=15	0	ROOT	_	_
+7	calidad	calidad	NC	NC	id=16	6	nobj	_	_
+8	en	en	SCENE	SCENE	id=17	2	loc	_	_
+9	una	un	ART	ART	id=18	8	nobj	_	_
+10	empresa	empresa	NC	NC	id=19	9	nobj	_	_
+11	de	de	SCENE	SCENE	id=20	10	attr	_	_
+12	circuitos	circuito	NC	NC	id=21	11	nobj	_	_
+13	integrados	integrar	VLadj	VLadj	id=22	12	attr	_	_
+14	.	.	FS	FS	id=23	2	pnct	_	_
+
+1	Pero	pero	CCAD	CCAD	id=24	0	ROOT	_	_
+
+1	usaba	usar	VLfin	VLfin	id=25	0	ROOT	_	_
+2	demasiado	demasiado	QU	QU	id=26	0	ROOT	_	_
+3	tiempo	tiempo	NC	NC	id=27	1	dobj	_	_
+4	en	en	SCENE	SCENE	id=28	1	pobj	_	_
+5	ello.”	<unknown>	NC	NC	id=29	4	nobj	_	_
+
+1	¿Entonces	<unknown>	ADJ	ADJ	id=30	2	prg	_	_
+2	dejaste	dejar	VLfin	VLfin	id=31	0	ROOT	_	_
+3	el	el	ART	ART	id=32	2	dobj	_	_
+4	trabajo	trabajo	NC	NC	id=33	3	nobj	_	_
+5	?	?	FS	FS	id=34	2	pnct	_	_
+
+1	“No	<unknown>	NC	NC	id=35	0	ROOT	_	_
+
+1	,	,	CM	CM	id=36	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=37	2	neg	_	_
+2	diría	<unknown>	VLfin	VLfin	id=38	0	ROOT	_	_
+3	eso	ese	DM	DM	id=39	2	dobj	_	_
+4	.	.	FS	FS	id=40	2	pnct	_	_
+
+1	Eso	ese	DM	DM	id=41	3	dobj	_	_
+2	lo	l	PPO	PPO	id=42	3	dobj	_	_
+3	dicen	decir	VLfin	VLfin	id=43	0	ROOT	_	_
+4	siempre	siempre	ADV	ADV	id=44	3	time	_	_
+5	.	.	FS	FS	id=45	3	pnct	_	_
+
+1	Tomé	<unknown>	VLfin	VLfin	id=46	0	ROOT	_	_
+2	una	un	ART	ART	id=47	1	dobj	_	_
+3	decisión	<unknown>	NC	NC	id=48	2	nobj	_	_
+4	de	de	CSUBI	CSUBI	id=49	3	attr	_	_
+5	averiguar	averiguar	VLinf	VLinf	id=50	4	vobj	_	_
+6	si	si	CSUBX	CSUBX	id=51	5	dobj	_	_
+7	había	<unknown>	VLfin	VLfin	id=52	6	vobj	_	_
+8	un	un	ART	ART	id=53	7	dobj	_	_
+9	lugar	lugar	NC	NC	id=54	8	nobj	_	_
+10	para	para	CSUBI	CSUBI	id=55	9	pobj	_	_
+11	mí	<unknown>	VLinf	VLinf	id=56	10	nobj	_	_
+12	en	en	SCENE	SCENE	id=57	7	loc	_	_
+13	la	el	ART	ART	id=58	12	nobj	_	_
+14	industria	industriar	VLfin	VLfin	id=59	13	nobj	_	_
+15	musical.”	<unknown>	NC	NC	id=60	14	attrr#	_	_
+
+1	Débiles	<unknown>	ADJ	ADJ	id=61	2	attr	_	_
+2	huellas	hollar	VLfin	VLfin	id=62	0	ROOT	_	_
+3	de	de	SCENE	SCENE	id=63	2	attr	_	_
+4	dolor	dolor	NC	NC	id=64	3	nobj	_	_
+5	.	.	FS	FS	id=65	2	pnct	_	_
+
+1	Dehecho	de~hecho	ADV	ADV	id=66	6	prg	_	_
+2	,	,	CM	CM	id=67	1	pnct	_	_
+3	Ester	<unknown>	NP	NP	id=68	4	namef	_	_
+4	Brohus	<unknown>	NP	NP	id=69	6	subj	_	_
+5	no	no	NEG	NEG	id=70	6	neg	_	_
+6	es	ser	VSfin	VSfin	id=71	0	ROOT	_	_
+7	del	del	PDEL	PDEL	id=72	5	quant	_	_
+8	todo	todo	QU	QU	id=73	0	ROOT	_	_
+9	desconocida	desconocida	NC	NC	id=74	6	preds	_	_
+10	.	.	FS	FS	id=75	6	pnct	_	_
+
+1	Muchos	mucho	QU	QU	id=76	4	subj	_	_
+2	daneses	dans	ADJ	ADJ	id=77	1	nobj	_	_
+3	la	l	PPO	PPO	id=78	5	dobj	_	_
+4	han	haber	VHfin	VHfin	id=79	0	ROOT	_	_
+5	escuchado	escuchar	VLadj	VLadj	id=80	4	vobj	_	_
+6	cantar	cantar	VLinf	VLinf	id=81	5	predo	_	_
+7	hace	hacer	VLfin	VLfin	id=82	4	time	_	_
+8	tiempo	tiempo	NC	NC	id=83	7	nobj	_	_
+9	.	.	FS	FS	id=84	4	pnct	_	_
+
+1	Desde	desde	SCENE	SCENE	id=85	10	time	_	_
+2	que	que	CQUE	CQUE	id=86	0	ROOT	_	_
+3	tenía	<unknown>	VLfin	VLfin	id=87	2	vobj	_	_
+4	12	@card@	CARD	CARD	id=88	3	dobj	_	_
+5	años	<unknown>	NC	NC	id=89	4	nobj	_	_
+6	hasta	hasta	SCENE	SCENE	id=90	8	time	_	_
+7	que	que	CQUE	CQUE	id=91	0	ROOT	_	_
+8	cumplió	<unknown>	VLfin	VLfin	id=92	8	vobj	_	_
+9	25	@card@	CARD	CARD	id=93	8	dobj	_	_
+10	recurría	<unknown>	VLfin	VLfin	id=94	0	ROOT	_	_
+11	todo	todo	QU	QU	id=95	0	ROOT	_	_
+12	el	el	ART	ART	id=96	10	dobj	_	_
+13	país	<unknown>	NC	NC	id=97	12	nobj	_	_
+14	juntocon	junto~con	SCENE	SCENE	id=98	10	pobj	_	_
+15	dos	dos	CARD	CARD	id=99	14	nobj	_	_
+16	hermanas	hermano	NC	NC	id=100	15	nobj	_	_
+17	,	,	CM	CM	id=101	15	pnct	_	_
+18	un	un	ART	ART	id=102	15	conj	_	_
+19	hermano	hermano	NC	NC	id=103	18	nobj	_	_
+20	y	y	CC	CC	id=104	21	coord	_	_
+21	los	el	ART	ART	id=105	18	conj	_	_
+22	padres	padre	NC	NC	id=106	21	nobj	_	_
+23	.	.	FS	FS	id=107	10	pnct	_	_
+
+1	La	el	ART	ART	id=108	3	subj	_	_
+2	familia	familia	NC	NC	id=109	1	nobj	_	_
+3	aprovechaba	<unknown>	VLfin	VLfin	id=110	0	ROOT	_	_
+4	los	el	ART	ART	id=111	3	dobj	_	_
+5	fines	fin	NC	NC	id=112	4	nobj	_	_
+6	de	de	SCENE	SCENE	id=113	5	pobj	_	_
+7	semana	semana	NC	NC	id=114	6	nobj	_	_
+8	y	y	CC	CC	id=115	9	coord	_	_
+9	las	el	ART	ART	id=116	4	conj	_	_
+10	vacaciones	vacacin	NC	NC	id=117	9	nobj	_	_
+11	para	para	CSUBI	CSUBI	id=118	3	pobj	_	_
+12	tocar	tocar	VLinf	VLinf	id=119	11	vobj	_	_
+13	y	y	CC	CC	id=120	14	coord	_	_
+14	cantar	cantar	VLinf	VLinf	id=121	12	conj	_	_
+15	gospels	<unknown>	NC	NC	id=122	12	dobj	_	_
+16	cristianos	cristiano	ADJ	ADJ	id=123	15	attr	_	_
+17	en	en	SCENE	SCENE	id=124	14	loc	_	_
+18	romerías	<unknown>	NC	NC	id=125	17	nobj	_	_
+19	,	,	CM	CM	id=126	18	pnct	_	_
+20	cárceles	<unknown>	NC	NC	id=127	18	conj	_	_
+21	y	y	CC	CC	id=128	22	coord	_	_
+22	centros	centro	NC	NC	id=129	20	conj	_	_
+23	de	de	SCENE	SCENE	id=130	22	attr	_	_
+24	reuniones	reunin	NC	NC	id=131	23	nobj	_	_
+25	,	,	CM	CM	id=132	3	pnct	_	_
+26	cuenta	cuenta	NC	NC	id=133	0	ROOT	_	_
+27	ella	l	PPX	PPX	id=134	26	subj	_	_
+28	.	.	FS	FS	id=135	26	pnct	_	_
+
+1	“Mucha	<unknown>	NC	NC	id=136	3	subj	_	_
+2	gente	gente	NC	NC	id=137	1	nobj	_	_
+3	pensaba	pensar	VLfin	VLfin	id=138	0	ROOT	_	_
+4	que	que	CQUE	CQUE	id=139	3	dobj	_	_
+5	era	era	VEfin	VEfin	id=140	4	vobj	_	_
+6	raro	raro	ADJ	ADJ	id=141	5	preds	_	_
+7	que	que	CQUE	CQUE	id=142	6	subj	_	_
+8	continuara	continuar	VLfin	VLfin	id=143	7	vobj	_	_
+9	andando	andar	VLadj	VLadj	id=144	8	vobj	_	_
+10	con	con	SCENE	SCENE	id=145	9	pobj	_	_
+11	mi	mo	PPO	PPO	id=146	10	nobj	_	_
+12	familia	familia	NC	NC	id=147	11	nobj	_	_
+13	hasta	hasta	SCENE	SCENE	id=148	8	time	_	_
+14	que	que	CQUE	CQUE	id=149	0	ROOT	_	_
+15	tenía	<unknown>	VLfin	VLfin	id=150	14	vobj	_	_
+16	25	@card@	CARD	CARD	id=151	15	dobj	_	_
+17	años	<unknown>	NC	NC	id=152	16	nobj	_	_
+18	.	.	FS	FS	id=153	3	pnct	_	_
+
+1	Pero	pero	CCAD	CCAD	id=154	0	ROOT	_	_
+
+1	estamos	estar	VLfin	VLfin	id=155	0	ROOT	_	_
+2	muy	muy	ADV	ADV	id=156	3	time	_	_
+3	unidos	unir	VLadj	VLadj	id=157	1	preds	_	_
+4	.	.	FS	FS	id=158	1	pnct	_	_
+
+1	Mi	mo	PPO	PPO	id=159	5	subj	_	_
+2	marido	maridar	VLfin	VLfin	id=160	1	nobj	_	_
+3	y	y	CC	CC	id=161	4	coord	_	_
+4	yo	yo	PPX	PPX	id=162	1	conj	_	_
+5	vivimos	vivir	VLfin	VLfin	id=163	0	ROOT	_	_
+6	aún	<unknown>	ADV	ADV	id=164	5	other	_	_
+7	muy	muy	ADV	ADV	id=165	8	time	_	_
+8	cerca	cerca	ADV	ADV	id=166	5	loc	_	_
+9	de	de	SCENE	SCENE	id=167	8	pobj	_	_
+10	mis	yo	PPO	PPO	id=168	9	nobj	_	_
+11	padres.”	<unknown>	NC	NC	id=169	10	nobj	_	_
+

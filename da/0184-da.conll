@@ -68,7 +68,7 @@
 5	eneste	eneste	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=117	4	attr	_	_
 6	danske	dansk	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=118	4	attr	_	_
 7	producent	producent	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=119	4	nobj	_	_
-8	af	af	SP	SP	id=120	7	pobj.dobj	_	_
+8	af	af	SP	SP	id=120	0	ROOT	_	_
 9	frisk	frisk	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=121	10	attr	_	_
 10	pasta	pasta	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=122	8	nobj	_	_
 11	,	,	XP	XP	id=123	3	pnct	_	_
@@ -160,7 +160,7 @@
 4	allerede	allerede	RG	RGU	degree=unmarked|id=222	2	time	_	_
 5	eksport	eksport	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=223	2	dobj	_	_
 6	i_gang	i_gang	RG	RGU	degree=unmarked|id=224	2	pobj	_	_
-7	til	til	SP	SP	id=225	5	pobj.pobj	_	_
+7	til	til	SP	SP	id=225	0	ROOT	_	_
 8	Norge	Norge	NP	NP--U==-	case=unmarked|id=226	7	nobj	_	_
 9	,	,	XP	XP	id=227	8	pnct	_	_
 10	Sverige	Sverige	NP	NP--U==-	case=unmarked|id=228	8	conj	_	_

@@ -1,0 +1,5 @@
+en/0956-en-morten.tag:
+  morphology: none
+  discourse: first
+  syntax: first
+  postag: auto

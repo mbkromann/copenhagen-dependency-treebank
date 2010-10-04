@@ -1,0 +1,5 @@
+en/1252-en-lotte.tag:
+  morphology: none
+  discourse: first
+  syntax: discussed
+  postag: auto

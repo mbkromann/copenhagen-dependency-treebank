@@ -23,7 +23,7 @@
 10	første	første	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=68	9	attr	_	_
 11	alvorlige	alvorlig	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=69	9	attr	_	_
 12	angreb	angreb	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=70	9	nobj	_	_
-13	mod	mod	SP	SP	id=71	12	pobj.dobj	_	_
+13	mod	mod	SP	SP	id=71	0	ROOT	_	_
 14	færgefartens	færgefart	NC	NCCSG==D	gender=common|number=sing|case=gen|def=def|id=72	13	nobj	_	_
 15	dominans	dominans	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=73	14	possd	_	_
 16	i	i	SP	SP	id=74	14	attr	_	_

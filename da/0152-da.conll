@@ -177,6 +177,7 @@
 28	nu	nu	RG	RGU	degree=unmarked|id=239	16	time	_	_
 29	begyndt	begynde	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=240	16	vobj	_	_
 30	marchen	march	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=241	29	dobj	_	_
-31	over	over	SP	SP	id=242	30	pobj.pobj	_	_
-32	Grønland	Grønland	NP	NP--U==-	case=unmarked|id=243	31	nobj	_	_
+
+1	over	over	SP	SP	id=242	0	ROOT	_	_
+2	Grønland	Grønland	NP	NP--U==-	case=unmarked|id=243	1	nobj	_	_
 

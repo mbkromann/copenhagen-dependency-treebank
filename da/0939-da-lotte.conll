@@ -17,8 +17,8 @@
 17	og	og	CC	CC	id=59	18	coord	_	_
 18	at	at	U	U=	id=60	6	conj	_	_
 19	"	&quot;	XP	XP	id=61	20	pnct	_	_
-20	diskutere...betingelserne	diskutere...betingelserne	XX	XX	id=62	18	¹vobj	_	_
-21	for	for	SP	SP	id=63	20	³pobj	_	_
+20	diskutere...betingelserne	diskutere...betingelserne	XX	XX	id=62	0	ROOT	_	_
+21	for	for	SP	SP	id=63	0	ROOT	_	_
 22	tilvejebringelsen	tilvejebringelse	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=64	21	nobj	_	_
 23	af	af	SP	SP	id=65	22	pobj	_	_
 24	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=66	23	nobj	_	_

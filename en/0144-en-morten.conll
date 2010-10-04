@@ -1,0 +1,45 @@
+1	Day	_	NNP	NNP	id=1	4	subj	_	_
+2	and	_	CC	CC	id=2	3	coord	_	_
+3	night	_	NN	NN	id=3	1	conj	_	_
+4	have	_	VBP	VBP	id=4	0	ROOT	_	_
+5	been	_	VBN	VBN	id=5	4	vobj	_	_
+6	abolished	_	VBN	VBN	id=6	5	vobj	_	_
+7	here	_	RB	RB	id=7	6	mod	_	_
+8	.	_	.	.	id=8	4	pnct	_	_
+
+1	Twenty-four	_	CD	CD	id=11	8	time	_	_
+2	hours	_	VBZ	VBZ	id=12	1	nobj	_	_
+3	a	_	DT	DT	id=13	1	iter	_	_
+4	day	_	NN	NN	id=14	3	nobj	_	_
+5	,	_	,	,	id=15	1	pnct	_	_
+6	the	_	DT	DT	id=16	8	subj	_	_
+7	refugees	_	NNS	NNS	id=17	6	nobj	_	_
+8	are	_	VBP	VBP	id=18	0	ROOT	_	_
+9	desperately	_	RB	RB	id=19	8	man	_	_
+10	fighting	_	VBG	VBG	id=20	8	preds	_	_
+11	for	_	IN	IN	id=21	10	pobj	_	_
+12	one	_	CD	CD	id=22	11	nobj	_	_
+13	thing	_	NN	NN	id=23	12	nobj	_	_
+14	:	_	:	:	id=24	12	pnct	_	_
+15	Survival	_	NNP	NNP	id=25	12	xpl	_	_
+16	.	_	.	.	id=26	8	pnct	_	_
+
+1	The	_	DT	DT	id=29	3	subj	_	_
+2	strongest	_	JJS	JJS	id=30	1	attr	_	_
+3	are	_	VBP	VBP	id=31	0	ROOT	_	_
+4	out	_	RP	RP	id=32	3	preds	_	_
+5	getting	_	VBG	VBG	id=33	4	nobj	_	_
+6	provisions	_	NNS	NNS	id=34	5	dobj	_	_
+7	.	_	.	.	id=35	3	pnct	_	_
+
+1	The	_	DT	DT	id=38	6	subj	_	_
+2	weak	_	JJ	JJ	id=39	1	attr	_	_
+3	and	_	CC	CC	id=40	4	coord	_	_
+4	the	_	DT	DT	id=41	1	conj	_	_
+5	sick	_	JJ	JJ	id=42	4	attr	_	_
+6	lie	_	NN	NN	id=43	0	ROOT	_	_
+7	in	_	IN	IN	id=44	6	@loc	_	_
+8	their	_	PRP$	PRP$	id=45	7	nobj	_	_
+9	tents	_	NNS	NNS	id=46	8	possd	_	_
+10	.	_	.	.	id=47	6	pnct	_	_
+

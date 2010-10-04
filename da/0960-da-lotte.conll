@@ -156,7 +156,7 @@
 9	det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=207	8	subj	_	_
 10	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=208	8	preds	_	_
 11	følelse	følelse	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=209	10	nobj	_	_
-12	af	af	SP	SP	id=210	11	pobj.dobj	_	_
+12	af	af	SP	SP	id=210	0	ROOT	_	_
 13	,	,	XP	XP	id=211	12	pnct	_	_
 14	at	at	CS	CS	id=212	12	nobj	_	_
 15	det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=213	16	subj	_	_
@@ -183,12 +183,12 @@
 36	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=234	33	vobj	_	_
 37	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=235	36	preds	_	_
 38	reaktion	reaktion	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=236	37	nobj	_	_
-39	på	på	SP	SP	id=237	38	pobj.pobj	_	_
+39	på	på	SP	SP	id=237	0	ROOT	_	_
 40	noget	nogen	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=238	39	nobj	_	_
 41	end	end	CS	CS	id=239	35	pobj	_	_
 42	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=240	41	nobj	_	_
 43	beslutning	beslutning	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=241	42	nobj	_	_
-44	om	om	SP	SP	id=242	43	pobj.dobj	_	_
+44	om	om	SP	SP	id=242	0	ROOT	_	_
 45	noget	nogen	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=243	44	nobj	_	_
 46	.	.	XP	XP	id=244	8	pnct	_	_
 

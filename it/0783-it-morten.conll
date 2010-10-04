@@ -1,0 +1,436 @@
+1	I	il	DET:def	DET:def	id=0	0	ROOT	_	_
+
+1	due	due	ADJ	ADJ	id=1	0	ROOT	_	_
+
+1	quotidiani	quotidiano	NOM	NOM	id=2	0	ROOT	_	_
+
+1	locali	locale	ADJ	ADJ	id=3	0	ROOT	_	_
+
+1	,	,	PON	PON	id=4	0	ROOT	_	_
+
+1	Aalborg	<unknown>	ADJ	ADJ	id=5	0	ROOT	_	_
+
+1	Stiftstidende	<unknown>	NOM	NOM	id=6	0	ROOT	_	_
+
+1	e	e	CON	CON	id=7	0	ROOT	_	_
+
+1	Fyens	<unknown>	NOM	NOM	id=8	0	ROOT	_	_
+
+1	Stiftstidende	<unknown>	NOM	NOM	id=9	0	ROOT	_	_
+
+1	,	,	PON	PON	id=10	0	ROOT	_	_
+
+1	istituiranno	istituire	VER:futu	VER:futu	id=11	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=12	0	ROOT	_	_
+
+1	redazione	redazione	NOM	NOM	id=13	0	ROOT	_	_
+
+1	comune	comune	ADJ	ADJ	id=14	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=15	0	ROOT	_	_
+
+1	Copenaghen	<unknown>	NOM	NOM	id=16	0	ROOT	_	_
+
+1	,	,	PON	PON	id=17	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=18	0	ROOT	_	_
+
+1	dovrà	dovere	VER:futu	VER:futu	id=19	0	ROOT	_	_
+
+1	produrre	produrre	VER:infi	VER:infi	id=20	0	ROOT	_	_
+
+1	materiali	materiale	ADJ	ADJ	id=21	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=22	0	ROOT	_	_
+
+1	entrambe	entrambi	ADJ	ADJ	id=23	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=24	0	ROOT	_	_
+
+1	pubblicazioni	pubblicazione	NOM	NOM	id=25	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=26	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=27	0	ROOT	_	_
+
+1	Ci	ci	PRO:refl	PRO:refl	id=28	0	ROOT	_	_
+
+1	siamo	essere	VER:pres	VER:pres	id=29	0	ROOT	_	_
+
+1	resi	rendere	VER:pper	VER:pper	id=30	0	ROOT	_	_
+
+1	conto	conto	NOM	NOM	id=31	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=32	0	ROOT	_	_
+
+1	,	,	PON	PON	id=33	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=34	0	ROOT	_	_
+
+1	migliorare	migliorare	VER:infi	VER:infi	id=35	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=36	0	ROOT	_	_
+
+1	qualità	qualità	NOM	NOM	id=37	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=38	0	ROOT	_	_
+
+1	informazioni	informazione	NOM	NOM	id=39	0	ROOT	_	_
+
+1	generali	generale	ADJ	ADJ	id=40	0	ROOT	_	_
+
+1	,	,	PON	PON	id=41	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=42	0	ROOT	_	_
+
+1	due	due	ADJ	ADJ	id=43	0	ROOT	_	_
+
+1	giornali	giornale	NOM	NOM	id=44	0	ROOT	_	_
+
+1	devono	dovere	VER:pres	VER:pres	id=45	0	ROOT	_	_
+
+1	collaborare	collaborare	VER:infi	VER:infi	id=46	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=47	0	ROOT	_	_
+
+1	afferma	affermare	VER:pres	VER:pres	id=48	0	ROOT	_	_
+
+1	Erling	<unknown>	ADJ	ADJ	id=49	0	ROOT	_	_
+
+1	Brøndum	<unknown>	NOM	NOM	id=50	0	ROOT	_	_
+
+1	,	,	PON	PON	id=51	0	ROOT	_	_
+
+1	caporedattore	caporedattore	NOM	NOM	id=52	0	ROOT	_	_
+
+1	e	e	CON	CON	id=53	0	ROOT	_	_
+
+1	direttore	direttore	NOM	NOM	id=54	0	ROOT	_	_
+
+1	amministrativo	amministrativo	ADJ	ADJ	id=55	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=56	0	ROOT	_	_
+
+1	Aalborg	<unknown>	ADJ	ADJ	id=57	0	ROOT	_	_
+
+1	Stiftstidende	<unknown>	NOM	NOM	id=58	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=59	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=60	0	ROOT	_	_
+
+1	Siamo	essere	VER:pres	VER:pres	id=61	0	ROOT	_	_
+
+1	interessati	interessare	VER:pper	VER:pper	id=62	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=63	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=64	0	ROOT	_	_
+
+1	incremento	incremento	NOM	NOM	id=65	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=66	0	ROOT	_	_
+
+1	materiale	materiale	NOM	NOM	id=67	0	ROOT	_	_
+
+1	informativo	informativo	ADJ	ADJ	id=68	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=69	0	ROOT	_	_
+
+1	qualità	qualità	NOM	NOM	id=70	0	ROOT	_	_
+
+1	nei	nel	PRE:det	PRE:det	id=71	0	ROOT	_	_
+
+1	settori	settore	NOM	NOM	id=72	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=73	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=74	0	ROOT	_	_
+
+1	difficile	difficile	ADJ	ADJ	id=75	0	ROOT	_	_
+
+1	coprire	coprire	VER:infi	VER:infi	id=76	0	ROOT	_	_
+
+1	solo	solo	ADV	ADV	id=77	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=78	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=79	0	ROOT	_	_
+
+1	nostre	nostro	PRO:poss	PRO:poss	id=80	0	ROOT	_	_
+
+1	forze	forza	NOM	NOM	id=81	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=82	0	ROOT	_	_
+
+1	dice	dire	VER:pres	VER:pres	id=83	0	ROOT	_	_
+
+1	,	,	PON	PON	id=84	0	ROOT	_	_
+
+1	indicando	indicare	VER:geru	VER:geru	id=85	0	ROOT	_	_
+
+1	tra	tra	PRE	PRE	id=86	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=87	0	ROOT	_	_
+
+1	altro	altro	PRO:indef	PRO:indef	id=88	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=89	0	ROOT	_	_
+
+1	politica	politica|politico	NOM	NOM	id=90	0	ROOT	_	_
+
+1	estera	estero	ADJ	ADJ	id=91	0	ROOT	_	_
+
+1	e	e	CON	CON	id=92	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=93	0	ROOT	_	_
+
+1	stili	stile|stilo	NOM	NOM	id=94	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=95	0	ROOT	_	_
+
+1	vita	vita	NOM	NOM	id=96	0	ROOT	_	_
+
+1	come	come	CON	CON	id=97	0	ROOT	_	_
+
+1	:	:	PON	PON	id=98	0	ROOT	_	_
+
+1	casa	casa	NOM	NOM	id=99	0	ROOT	_	_
+
+1	,	,	PON	PON	id=100	0	ROOT	_	_
+
+1	giardino	giardino	NOM	NOM	id=101	0	ROOT	_	_
+
+1	,	,	PON	PON	id=102	0	ROOT	_	_
+
+1	nautica	nautica	NOM	NOM	id=103	0	ROOT	_	_
+
+1	e	e	CON	CON	id=104	0	ROOT	_	_
+
+1	auto	auto	NOM	NOM	id=105	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=106	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=107	0	ROOT	_	_
+
+1	terzo	terzo	ADJ	ADJ	id=108	0	ROOT	_	_
+
+1	quotidiano	quotidiano	NOM	NOM	id=109	0	ROOT	_	_
+
+1	locale	locale	ADJ	ADJ	id=110	0	ROOT	_	_
+
+1	nazionale	nazionale	ADJ	ADJ	id=111	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=112	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=113	0	ROOT	_	_
+
+1	ancora	ancora	ADV	ADV	id=114	0	ROOT	_	_
+
+1	aderito	aderire	VER:pper	VER:pper	id=115	0	ROOT	_	_
+
+1	all'	al	PRE:det	PRE:det	id=116	0	ROOT	_	_
+
+1	accordo	accordo	NOM	NOM	id=117	0	ROOT	_	_
+
+1	essendo	essere	VER:geru	VER:geru	id=118	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=119	0	ROOT	_	_
+
+1	momento	momento	NOM	NOM	id=120	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=121	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=122	0	ROOT	_	_
+
+1	fase	fase	NOM	NOM	id=123	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=124	0	ROOT	_	_
+
+1	riduzione	riduzione	NOM	NOM	id=125	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=126	0	ROOT	_	_
+
+1	costi	costo	NOM	NOM	id=127	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=128	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=129	0	ROOT	_	_
+
+1	In	in	PRE	PRE	id=130	0	ROOT	_	_
+
+1	primo	primo	ADJ	ADJ	id=131	0	ROOT	_	_
+
+1	luogo	luogo	NOM	NOM	id=132	0	ROOT	_	_
+
+1	,	,	PON	PON	id=133	0	ROOT	_	_
+
+1	deve	dovere	VER:pres	VER:pres	id=134	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=135	0	ROOT	_	_
+
+1	completamente	completamente	ADV	ADV	id=136	0	ROOT	_	_
+
+1	chiaro	chiaro	ADJ	ADJ	id=137	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=138	0	ROOT	_	_
+
+1	quadro	quadro	NOM	NOM	id=139	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=140	0	ROOT	_	_
+
+1	nostra	nostro	PRO:poss	PRO:poss	id=141	0	ROOT	_	_
+
+1	attuale	attuale	ADJ	ADJ	id=142	0	ROOT	_	_
+
+1	economia	economia	NOM	NOM	id=143	0	ROOT	_	_
+
+1	;	;	PON	PON	id=144	0	ROOT	_	_
+
+1	dopo	dopo	ADV	ADV	id=145	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=146	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=147	0	ROOT	_	_
+
+1	,	,	PON	PON	id=148	0	ROOT	_	_
+
+1	prevedo	prevedere	VER:pres	VER:pres	id=149	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=150	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=151	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=152	0	ROOT	_	_
+
+1	prossimo	prossimo	ADJ	ADJ	id=153	0	ROOT	_	_
+
+1	futuro	futuro	NOM	NOM	id=154	0	ROOT	_	_
+
+1	parteciperemo	partecipare	VER:futu	VER:futu	id=155	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=156	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=157	0	ROOT	_	_
+
+1	afferma	affermare	VER:pres	VER:pres	id=158	0	ROOT	_	_
+
+1	Erling	<unknown>	NOM	NOM	id=159	0	ROOT	_	_
+
+1	Zanchetta	<unknown>	ADJ	ADJ	id=160	0	ROOT	_	_
+
+1	,	,	PON	PON	id=161	0	ROOT	_	_
+
+1	direttore	direttore	NOM	NOM	id=162	0	ROOT	_	_
+
+1	amministrativo	amministrativo	ADJ	ADJ	id=163	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=164	0	ROOT	_	_
+
+1	Århus	<unknown>	NOM	NOM	id=165	0	ROOT	_	_
+
+1	Stiftstidende	<unknown>	NOM	NOM	id=166	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=167	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=168	0	ROOT	_	_
+
+1	redazione	redazione	NOM	NOM	id=169	0	ROOT	_	_
+
+1	comune	comune	ADJ	ADJ	id=170	0	ROOT	_	_
+
+1	sorgerà	sorgere	VER:futu	VER:futu	id=171	0	ROOT	_	_
+
+1	utilizzando	utilizzare	VER:geru	VER:geru	id=172	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=173	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=174	0	ROOT	_	_
+
+1	strutture	struttura	NOM	NOM	id=175	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=176	0	ROOT	_	_
+
+1	Den	<unknown>	NOM	NOM	id=177	0	ROOT	_	_
+
+1	Bergske	<unknown>	ADJ	ADJ	id=178	0	ROOT	_	_
+
+1	Nyhedstjeneste	<unknown>	NOM	NOM	id=179	0	ROOT	_	_
+
+1	;	;	PON	PON	id=180	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=181	0	ROOT	_	_
+
+1	giornata	giornata	NOM	NOM	id=182	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=183	0	ROOT	_	_
+
+1	ieri	ieri	ADV	ADV	id=184	0	ROOT	_	_
+
+1	,	,	PON	PON	id=185	0	ROOT	_	_
+
+1	infatti	infatti	ADV	ADV	id=186	0	ROOT	_	_
+
+1	,	,	PON	PON	id=187	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=188	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=189	0	ROOT	_	_
+
+1	dichiarato	dichiarare	VER:pper	VER:pper	id=190	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=191	0	ROOT	_	_
+
+1	fallimento	fallimento	NOM	NOM	id=192	0	ROOT	_	_
+
+1	sia	sia	CON	CON	id=193	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=194	0	ROOT	_	_
+
+1	giornale	giornale	NOM	NOM	id=195	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=196	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=197	0	ROOT	_	_
+
+1	suo	suo	PRO:poss	PRO:poss	id=198	0	ROOT	_	_
+
+1	proprietario	proprietario	NOM	NOM	id=199	0	ROOT	_	_
+
+1	Klaus	Klaus	NPR	NPR	id=200	0	ROOT	_	_
+
+1	Riskær	<unknown>	ADJ	ADJ	id=201	0	ROOT	_	_
+
+1	Pedersen	<unknown>	NOM	NOM	id=202	0	ROOT	_	_
+
+1	,	,	PON	PON	id=203	0	ROOT	_	_
+
+1	,	,	PON	PON	id=204	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=205	0	ROOT	_	_
+
+1	base	base	NOM	NOM	id=206	0	ROOT	_	_
+
+1	all'	al	PRE:det	PRE:det	id=207	0	ROOT	_	_
+
+1	istanza	istanza	NOM	NOM	id=208	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=209	0	ROOT	_	_
+
+1	amministratore	amministratore	NOM	NOM	id=210	0	ROOT	_	_
+
+1	giudiziario	giudiziario	ADJ	ADJ	id=211	0	ROOT	_	_
+
+1	,	,	PON	PON	id=212	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=213	0	ROOT	_	_
+
+1	avvocato	avvocato	NOM	NOM	id=214	0	ROOT	_	_
+
+1	Michael	Michael	NPR	NPR	id=215	0	ROOT	_	_
+
+1	Rostock	<unknown>	NOM	NOM	id=216	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=217	0	ROOT	_	_
+

@@ -17,8 +17,10 @@ for lang in `echo da de en es it` ; do
 
 	# Convert files
 	for f in `ls $lang/*.tag | egrep '^(da|de|en|es|it)' | egrep -v '(tagged|auto)' | sed -e 's/.tag//g'` ; do 
+		echo "$f";
 		echo "load $f.tag" >> $tmp ; 	
 		echo "save -conll $f.conll" >> $tmp ;
+		./tools/dtag-status $f.tag > $f.info
 	done
 done
 

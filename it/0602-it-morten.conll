@@ -1,0 +1,286 @@
+1	“Nemmeno	<unknown>	ADJ	ADJ	id=0	0	ROOT	_	_
+
+1	io	io	PRO:pers	PRO:pers	id=1	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=2	0	ROOT	_	_
+
+1	Andiamo	andare	VER:pres	VER:pres	id=3	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=4	0	ROOT	_	_
+
+1	casa	casa	NOM	NOM	id=5	0	ROOT	_	_
+
+1	tua”	<unknown>	NOM	NOM	id=6	0	ROOT	_	_
+
+1	disse	dire	VER:remo	VER:remo	id=7	0	ROOT	_	_
+
+1	lei	lei	PRO:pers	PRO:pers	id=8	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=9	0	ROOT	_	_
+
+1	Era	era	NOM	NOM	id=10	0	ROOT	_	_
+
+1	diversa	diverso	ADJ	ADJ	id=11	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=12	0	ROOT	_	_
+
+1	come	come	PRE	PRE	id=13	0	ROOT	_	_
+
+1	me	me	PRO:pers	PRO:pers	id=14	0	ROOT	_	_
+
+1	l’ero	<unknown>	NOM	NOM	id=15	0	ROOT	_	_
+
+1	immaginata	immaginare	VER:pper	VER:pper	id=16	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=17	0	ROOT	_	_
+
+1	Nel	nel	PRE:det	PRE:det	id=18	0	ROOT	_	_
+
+1	taxi	taxi	NOM	NOM	id=19	0	ROOT	_	_
+
+1	appoggiò	<unknown>	NOM	NOM	id=20	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=21	0	ROOT	_	_
+
+1	suo	suo	PRO:poss	PRO:poss	id=22	0	ROOT	_	_
+
+1	capo	capo	NOM	NOM	id=23	0	ROOT	_	_
+
+1	sulla	sul	PRE:det	PRE:det	id=24	0	ROOT	_	_
+
+1	mia	mio	PRO:poss	PRO:poss	id=25	0	ROOT	_	_
+
+1	spalla	spalla	NOM	NOM	id=26	0	ROOT	_	_
+
+1	e	e	CON	CON	id=27	0	ROOT	_	_
+
+1	mentre	mentre	CON	CON	id=28	0	ROOT	_	_
+
+1	salivamo	salire	VER:impf	VER:impf	id=29	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=30	0	ROOT	_	_
+
+1	scale	scala	NOM	NOM	id=31	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=32	0	ROOT	_	_
+
+1	nuovo	nuovo	ADJ	ADJ	id=33	0	ROOT	_	_
+
+1	disse	dire	VER:remo	VER:remo	id=34	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=35	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=36	0	ROOT	_	_
+
+1	cose	cosa	NOM	NOM	id=37	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=38	0	ROOT	_	_
+
+1	stavano	stare	VER:impf	VER:impf	id=39	0	ROOT	_	_
+
+1	così	<unknown>	NOM	NOM	id=40	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=41	0	ROOT	_	_
+
+1	“Siamo	<unknown>	NOM	NOM	id=42	0	ROOT	_	_
+
+1	due	due	ADJ	ADJ	id=43	0	ROOT	_	_
+
+1	persone	persona	NOM	NOM	id=44	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=45	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=46	0	ROOT	_	_
+
+1	pieno	pieno	NOM	NOM	id=47	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=48	0	ROOT	_	_
+
+1	notte	notte	NOM	NOM	id=49	0	ROOT	_	_
+
+1	camminano	camminare	VER:pres	VER:pres	id=50	0	ROOT	_	_
+
+1	scusandosi	scusare	VER:geru	VER:geru	id=51	0	ROOT	_	_
+
+1	ripetutamente	ripetutamente	ADV	ADV	id=52	0	ROOT	_	_
+
+1	come	come	CON	CON	id=53	0	ROOT	_	_
+
+1	se	se	CON	CON	id=54	0	ROOT	_	_
+
+1	quello	quello	PRO:demo	PRO:demo	id=55	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=56	0	ROOT	_	_
+
+1	stessimo	stare	VER:cimp	VER:cimp	id=57	0	ROOT	_	_
+
+1	facendo	fare	VER:geru	VER:geru	id=58	0	ROOT	_	_
+
+1	fosse	essere	VER:cimp	VER:cimp	id=59	0	ROOT	_	_
+
+1	qualcosa	qualcosa	PRO:indef	PRO:indef	id=60	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=61	0	ROOT	_	_
+
+1	segreto	segreto	NOM	NOM	id=62	0	ROOT	_	_
+
+1	e	e	CON	CON	id=63	0	ROOT	_	_
+
+1	proibito	proibito	ADJ	ADJ	id=64	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=65	0	ROOT	_	_
+
+1	Perché	<unknown>	NOM	NOM	id=66	0	ROOT	_	_
+
+1	lo	lo	PRO:pers	PRO:pers	id=67	0	ROOT	_	_
+
+1	facciamo	fare	VER:cpre	VER:cpre	id=68	0	ROOT	_	_
+
+1	?”	<unknown>	NOM	NOM	id=69	0	ROOT	_	_
+
+1	“Lo	<unknown>	ADJ	ADJ	id=70	0	ROOT	_	_
+
+1	facciamo	fare	VER:cpre	VER:cpre	id=71	0	ROOT	_	_
+
+1	?”	<unknown>	NOM	NOM	id=72	0	ROOT	_	_
+
+1	domandò	<unknown>	NOM	NOM	id=73	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=74	0	ROOT	_	_
+
+1	A	a	PRE	PRE	id=75	0	ROOT	_	_
+
+1	letto	letto	NOM	NOM	id=76	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=77	0	ROOT	_	_
+
+1	accadde	accadere	VER:remo	VER:remo	id=78	0	ROOT	_	_
+
+1	nulla	nullo	ADJ	ADJ	id=79	0	ROOT	_	_
+
+1	,	,	PON	PON	id=80	0	ROOT	_	_
+
+1	ma	ma	CON	CON	id=81	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=82	0	ROOT	_	_
+
+1	importava	importare	VER:impf	VER:impf	id=83	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=84	0	ROOT	_	_
+
+1	Nudi	nudo	ADJ	ADJ	id=85	0	ROOT	_	_
+
+1	,	,	PON	PON	id=86	0	ROOT	_	_
+
+1	uno	uno	DET:indef	DET:indef	id=87	0	ROOT	_	_
+
+1	vicino	vicino	ADJ	ADJ	id=88	0	ROOT	_	_
+
+1	all’altra	<unknown>	NOM	NOM	id=89	0	ROOT	_	_
+
+1	,	,	PON	PON	id=90	0	ROOT	_	_
+
+1	chiacchieravamo	chiacchierare	VER:impf	VER:impf	id=91	0	ROOT	_	_
+
+1	e	e	CON	CON	id=92	0	ROOT	_	_
+
+1	bevevamo	bere	VER:impf	VER:impf	id=93	0	ROOT	_	_
+
+1	te	te	PRO:pers	PRO:pers	id=94	0	ROOT	_	_
+
+1	e	e	CON	CON	id=95	0	ROOT	_	_
+
+1	porto	porto	NOM	NOM	id=96	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=97	0	ROOT	_	_
+
+1	“Prima	<unknown>	ADJ	ADJ	id=98	0	ROOT	_	_
+
+1	passavo	passare	VER:impf	VER:impf	id=99	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=100	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=101	0	ROOT	_	_
+
+1	uomo	uomo	NOM	NOM	id=102	0	ROOT	_	_
+
+1	all’altro”	<unknown>	NOM	NOM	id=103	0	ROOT	_	_
+
+1	disse	dire	VER:remo	VER:remo	id=104	0	ROOT	_	_
+
+1	,	,	PON	PON	id=105	0	ROOT	_	_
+
+1	“avevo	<unknown>	ADJ	ADJ	id=106	0	ROOT	_	_
+
+1	sempre	sempre	ADV	ADV	id=107	0	ROOT	_	_
+
+1	qualcuno	qualcuno	PRO:indef	PRO:indef	id=108	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=109	0	ROOT	_	_
+
+1	mente	menta|mente	NOM	NOM	id=110	0	ROOT	_	_
+
+1	fino	fino	CON	CON	id=111	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=112	0	ROOT	_	_
+
+1	quando	quando	PRO:inter	PRO:inter	id=113	0	ROOT	_	_
+
+1	capii	capire	VER:remo	VER:remo	id=114	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=115	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=116	0	ROOT	_	_
+
+1	era	essere	VER:impf	VER:impf	id=117	0	ROOT	_	_
+
+1	quello	quello	PRO:demo	PRO:demo	id=118	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=119	0	ROOT	_	_
+
+1	punto	punto	NOM	NOM	id=120	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=121	0	ROOT	_	_
+
+1	Credevo	credere	VER:impf	VER:impf	id=122	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=123	0	ROOT	_	_
+
+1	se	se	CON	CON	id=124	0	ROOT	_	_
+
+1	fossi	essere	VER:cimp	VER:cimp	id=125	0	ROOT	_	_
+
+1	riuscita	riuscire	VER:pper	VER:pper	id=126	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=127	0	ROOT	_	_
+
+1	far	fare	VER:infi	VER:infi	id=128	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=129	0	ROOT	_	_
+
+1	modo	modo	NOM	NOM	id=130	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=131	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=132	0	ROOT	_	_
+
+1	uomo	uomo	NOM	NOM	id=133	0	ROOT	_	_
+
+1	stesse	stesso	ADJ	ADJ	id=134	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=135	0	ROOT	_	_
+
+1	me	me	PRO:pers	PRO:pers	id=136	0	ROOT	_	_
+
+1	,	,	PON	PON	id=137	0	ROOT	_	_
+
+1	allora	allora	ADV	ADV	id=138	0	ROOT	_	_
+
+1	tutto	tutto	PRO:indef	PRO:indef	id=139	0	ROOT	_	_
+
+1	sarebbe	essere	VER:cond	VER:cond	id=140	0	ROOT	_	_
+
+1	andato	andare	VER:pper	VER:pper	id=141	0	ROOT	_	_
+
+1	bene.”	<unknown>	NOM	NOM	id=142	0	ROOT	_	_
+

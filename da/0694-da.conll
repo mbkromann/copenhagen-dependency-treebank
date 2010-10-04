@@ -106,7 +106,7 @@
 7	at	at	U	U=	id=155	6	nobj	_	_
 8	se	se	VA	VAF-=----A-	mood=infin|voice=active|id=156	7	vobj	_	_
 9	ham	han	PP	PP3CSU-NU	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|id=157	8	dobj	_	_
-10	i	i	SP	SP	id=158	8	modo	_	_
+10	i	i	SP	SP	id=158	0	ROOT	_	_
 11	ulveham	ulveham	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=159	10	nobj	_	_
 12	,	,	XP	XP	id=160	2	pnct	_	_
 13	men	men	CC	CC	id=161	16	coord	_	_

@@ -1,0 +1,223 @@
+1	-	_	:	:	id=1	2	pnct	_	_
+2	Are	_	VBP	VBP	id=2	12	qobj	_	_
+3	you	_	PRP	PRP	id=3	2	subj	_	_
+4	going	_	VBG	VBG	id=4	2	vobj	_	_
+5	in	_	IN	IN	id=5	0	ROOT	_	_
+6	to	_	TO	TO	id=6	4	dobj	_	_
+7	visit	_	VB	VB	id=7	6	vobj	_	_
+8	Magnild	_	NNP	NNP	id=8	7	dobj	_	_
+9	from	_	IN	IN	id=9	8	mod	_	_
+10	Chatline	_	NNP	NNP	id=10	9	nobj	_	_
+11	,	_	,	,	id=11	2	pnct	_	_
+12	asks	_	VBZ	VBZ	id=12	0	ROOT	_	_
+13	Birthe	_	NNP	NNP	id=13	12	subj	_	_
+14	.	_	.	.	id=14	12	pnct	_	_
+
+1	-	_	:	:	id=17	3	pnct	_	_
+2	He	_	PRP	PRP	id=18	3	subj	_	_
+3	has	_	VBZ	VBZ	id=19	10	qobj	_	_
+4	an	_	DT	DT	id=20	3	dobj	_	_
+5	incredibly	_	RB	RB	id=21	6	mod	_	_
+6	sexy	_	JJ	JJ	id=22	4	attr	_	_
+7	voice	_	NN	NN	id=23	4	nobj	_	_
+8	,	_	,	,	id=24	3	pnct	_	_
+9	Maja	_	NNP	NNP	id=25	10	subj	_	_
+10	adds	_	VBZ	VBZ	id=26	0	ROOT	_	_
+11	.	_	.	.	id=27	10	pnct	_	_
+
+1	-	_	:	:	id=30	2	pnct	_	_
+2	Yes	_	UH	UH	id=31	0	ROOT	_	_
+3	,	_	,	,	id=32	2	pnct	_	_
+4	and	_	CC	CC	id=33	5	coord	_	_
+5	a	_	DT	DT	id=34	2	conj	_	_
+6	heated	_	JJ	JJ	id=35	5	attr	_	_
+7	pool	_	NN	NN	id=36	5	nobj	_	_
+8	and	_	CC	CC	id=37	9	coord	_	_
+9	a	_	DT	DT	id=38	7	conj	_	_
+10	Volvo	_	NNP	NNP	id=39	9	nobj	_	_
+11	.	_	.	.	id=40	2	pnct	_	_
+
+1	Sonja's	_	JJ	JJ	id=43	3	subj	_	_
+2	eyes	_	NNS	NNS	id=44	1	possd	_	_
+3	brighten	_	VB	VB	id=45	0	ROOT	_	_
+4	at	_	IN	IN	id=46	3	mod	_	_
+5	the	_	DT	DT	id=47	4	nobj	_	_
+6	thought	_	VBN	VBN	id=48	5	nobj	_	_
+7	.	_	.	.	id=49	3	pnct	_	_
+
+1	-	_	:	:	id=52	2	pnct	_	_
+2	It's	_	NNP	NNP	id=53	15	qobj	_	_
+3	probably	_	RB	RB	id=54	2	attr	_	_
+4	for	_	IN	IN	id=55	2	preds	_	_
+5	a	_	DT	DT	id=56	4	nobj	_	_
+6	disabled	_	JJ	JJ	id=57	5	attr	_	_
+7	driver	_	NN	NN	id=58	5	nobj	_	_
+8	,	_	,	,	id=59	2	pnct	_	_
+9	just	_	RB	RB	id=60	2	attr	_	_
+10	like	_	IN	IN	id=61	9	pobj	_	_
+11	the	_	DT	DT	id=62	10	nobj	_	_
+12	last	_	JJ	JJ	id=63	11	attr	_	_
+13	one	_	CD	CD	id=64	11	nobj	_	_
+14	,	_	,	,	id=65	2	pnct	_	_
+15	laughs	_	VBZ	VBZ	id=66	0	ROOT	_	_
+16	Sally	_	NNP	NNP	id=67	15	subj	_	_
+17	,	_	,	,	id=68	16	pnct	_	_
+18	taking	_	VBG	VBG	id=69	16	mod	_	_
+19	out	_	RP	RP	id=70	18	@loc	_	_
+20	her	_	PRP$	PRP$	id=71	18	dobj	_	_
+21	cigarettes	_	NNS	NNS	id=72	20	possd	_	_
+22	.	_	.	.	id=73	15	pnct	_	_
+
+1	-	_	:	:	id=76	5	pnct	_	_
+2	Anyway	_	RB	RB	id=77	5	mod	_	_
+3	,	_	,	,	id=78	2	pnct	_	_
+4	I	_	PRP	PRP	id=79	5	subj	_	_
+5	have	_	VBP	VBP	id=80	0	ROOT	_	_
+6	to	_	TO	TO	id=81	5	dobj	_	_
+7	look	_	VB	VB	id=82	6	vobj	_	_
+8	out	_	IN	IN	id=83	7	avobj	_	_
+9	for	_	IN	IN	id=84	8	mod	_	_
+10	my	_	PRP$	PRP$	id=85	9	nobj	_	_
+11	bizniz	_	NN	NN	id=86	10	possd	_	_
+12	.	_	.	.	id=87	5	pnct	_	_
+
+1	She	_	PRP	PRP	id=90	2	subj	_	_
+2	opens	_	VBZ	VBZ	id=91	0	ROOT	_	_
+3	her	_	PRP$	PRP$	id=92	2	dobj	_	_
+4	cigarette	_	NN	NN	id=93	5	mod	_	_
+5	case	_	NN	NN	id=94	3	possd	_	_
+6	.	_	.	.	id=95	2	pnct	_	_
+
+1	There	_	EX	EX	id=98	2	expl	_	_
+2	are	_	VBP	VBP	id=99	0	ROOT	_	_
+3	four	_	CD	CD	id=100	2	dobj	_	_
+4	butts	_	NNS	NNS	id=101	3	nobj	_	_
+5	plus	_	CC	CC	id=102	6	coord	_	_
+6	a	_	DT	DT	id=103	3	conj	_	_
+7	whole	_	JJ	JJ	id=104	6	attr	_	_
+8	Camel	_	NNP	NNP	id=105	6	nobj	_	_
+9	.	_	.	.	id=106	2	pnct	_	_
+
+1	-	_	:	:	id=109	4	pnct	_	_
+2	You	_	PRP	PRP	id=110	4	subj	_	_
+3	never	_	RB	RB	id=111	4	neg	_	_
+4	have	_	VBP	VBP	id=112	0	ROOT	_	_
+5	anything	_	NN	NN	id=113	4	dobj	_	_
+6	but	_	CC	CC	id=114	5	pobj	_	_
+7	bizniz	_	NN	NN	id=115	6	nobj	_	_
+8	in	_	IN	IN	id=116	0	ROOT	_	_
+9	your	_	PRP$	PRP$	id=117	8	nobj	_	_
+10	head	_	NN	NN	id=118	9	possd	_	_
+11	.	_	.	.	id=119	4	pnct	_	_
+
+1	Maja	_	NNP	NNP	id=122	3	subj	_	_
+2	momentarily	_	RB	RB	id=123	3	mod	_	_
+3	lifts	_	VBZ	VBZ	id=124	0	ROOT	_	_
+4	her	_	PRP$	PRP$	id=125	3	dobj	_	_
+5	gaze	_	NN	NN	id=126	4	possd	_	_
+6	.	_	.	.	id=127	3	pnct	_	_
+
+1	- 75	_	JJ	JJ	id=130	6	qobj	_	_
+2	øre	_	VBG	VBG	id=131	1	nobj	_	_
+3	a	_	DT	DT	id=132	1	mod	_	_
+4	piece	_	NN	NN	id=133	3	nobj	_	_
+5	,	_	,	,	id=134	1	pnct	_	_
+6	says	_	VBZ	VBZ	id=135	0	ROOT	_	_
+7	Sally	_	NNP	NNP	id=136	6	subj	_	_
+8	,	_	,	,	id=137	7	pnct	_	_
+9	looking	_	VBG	VBG	id=138	7	mod	_	_
+10	out	_	IN	IN	id=139	9	@loc	_	_
+11	into	_	IN	IN	id=140	10	mod	_	_
+12	the	_	DT	DT	id=141	11	nobj	_	_
+13	air	_	NN	NN	id=142	12	nobj	_	_
+14	.	_	.	.	id=143	6	pnct	_	_
+
+1	-	_	:	:	id=146	2	pnct	_	_
+2	75	_	CD	CD	id=147	0	ROOT	_	_
+3	øre	_	NN	NN	id=148	2	nobj	_	_
+4	.	_	.	.	id=149	2	pnct	_	_
+
+1	Man	_	NN	NN	id=152	0	ROOT	_	_
+2	,	_	,	,	id=153	1	pnct	_	_
+3	you're	_	NN	NN	id=154	1	conj	_	_
+4	rough	_	JJ	JJ	id=155	3	preds	_	_
+5	.	_	.	.	id=156	1	pnct	_	_
+
+1	You	_	PRP	PRP	id=159	2	subj	_	_
+2	don't	_	VBP	VBP	id=160	0	ROOT	_	_
+3	pay	_	NN	NN	id=161	2	vobj	_	_
+4	an	_	DT	DT	id=162	3	dobj	_	_
+5	øre	_	NN	NN	id=163	4	nobj	_	_
+6	for	_	IN	IN	id=164	3	pobj	_	_
+7	them	_	PRP	PRP	id=165	6	nobj	_	_
+8	.	_	.	.	id=166	2	pnct	_	_
+
+1	Sonja	_	NNP	NNP	id=169	2	subj	_	_
+2	is	_	VBZ	VBZ	id=170	0	ROOT	_	_
+3	deeply	_	RB	RB	id=171	4	mod	_	_
+4	offended	_	VBN	VBN	id=172	2	vobj	_	_
+5	.	_	.	.	id=173	2	pnct	_	_
+
+1	Birthe	_	NNP	NNP	id=176	3	subj	_	_
+2	already	_	RB	RB	id=177	3	mod	_	_
+3	has	_	VBZ	VBZ	id=178	0	ROOT	_	_
+4	a	_	DT	DT	id=179	3	dobj	_	_
+5	butt	_	NN	NN	id=180	4	nobj	_	_
+6	between	_	IN	IN	id=181	0	ROOT	_	_
+7	her	_	PRP$	PRP$	id=182	6	nobj	_	_
+8	lips	_	NNS	NNS	id=183	7	possd	_	_
+9	.	_	.	.	id=184	3	pnct	_	_
+
+1	-	_	:	:	id=187	2	pnct	_	_
+2	Okay	_	UH	UH	id=188	0	ROOT	_	_
+3	,	_	,	,	id=189	2	pnct	_	_
+4	bulk	_	NN	NN	id=190	5	mod	_	_
+5	discount	_	NN	NN	id=191	2	conj	_	_
+6	.	_	.	.	id=192	2	pnct	_	_
+
+1	Take	_	VB	VB	id=195	0	ROOT	_	_
+2	one	_	CD	CD	id=196	1	dobj	_	_
+3	each	_	DT	DT	id=197	1	mod	_	_
+4	.	_	.	.	id=198	1	pnct	_	_
+
+1	Give	_	VB	VB	id=201	0	ROOT	_	_
+2	me	_	PRP	PRP	id=202	1	iobj	_	_
+3	2	_	CD	CD	id=203	1	dobj	_	_
+4	crowns	_	NNS	NNS	id=204	3	nobj	_	_
+5	altogether	_	RB	RB	id=205	1	mod	_	_
+6	.	_	.	.	id=206	1	pnct	_	_
+
+1	-	_	:	:	id=209	2	pnct	_	_
+2	With	_	IN	IN	id=210	5	qobj	_	_
+3	matches	_	VBZ	VBZ	id=211	2	nobj	_	_
+4	?	_	.	.	id=212	2	pnct	_	_
+5	asks	_	VBZ	VBZ	id=215	0	ROOT	_	_
+6	Sonja	_	NNP	NNP	id=216	5	subj	_	_
+7	.	_	.	.	id=217	5	pnct	_	_
+
+1	-	_	:	:	id=220	2	pnct	_	_
+2	Of	_	IN	IN	id=221	5	qobj	_	_
+3	course	_	NN	NN	id=222	2	nobj	_	_
+4	,	_	,	,	id=223	2	pnct	_	_
+5	says	_	VBZ	VBZ	id=224	0	ROOT	_	_
+6	Sally	_	NNP	NNP	id=225	5	subj	_	_
+7	.	_	.	.	id=226	5	pnct	_	_
+
+1	-	_	:	:	id=229	2	pnct	_	_
+2	and	_	CC	CC	id=230	0	ROOT	_	_
+3	the	_	DT	DT	id=231	6	subj	_	_
+4	whole	_	JJ	JJ	id=232	3	attr	_	_
+5	Camel	_	NNP	NNP	id=233	3	nobj	_	_
+6	doesn't	_	NN	NN	id=234	2	vobj	_	_
+7	cost	_	NN	NN	id=235	6	vobj	_	_
+8	extra	_	JJ	JJ	id=236	7	dobj	_	_
+9	.	_	.	.	id=237	2	pnct	_	_
+
+1	She	_	PRP	PRP	id=240	2	subj	_	_
+2	gestures	_	VBZ	VBZ	id=241	0	ROOT	_	_
+3	largely	_	RB	RB	id=242	2	mod	_	_
+4	with	_	IN	IN	id=243	2	mod	_	_
+5	her	_	PRP$	PRP$	id=244	4	nobj	_	_
+6	hand	_	NN	NN	id=245	5	possd	_	_
+7	.	_	.	.	id=246	2	pnct	_	_
+

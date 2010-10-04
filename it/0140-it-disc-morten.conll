@@ -1,0 +1,392 @@
+1	Nonostante	nonostante	PRE	PRE	id=2	0	ROOT	_	_
+
+1	tutto	tutto	PRO:indef	PRO:indef	id=3	0	ROOT	_	_
+
+1	,	,	PON	PON	id=4	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=5	0	ROOT	_	_
+
+1	generale	generale	ADJ	ADJ	id=6	0	ROOT	_	_
+
+1	Augusto	augusto	ADJ	ADJ	id=7	0	ROOT	_	_
+
+1	Pinochet	<unknown>	NOM	NOM	id=8	0	ROOT	_	_
+
+1	pochi	poco	ADJ	ADJ	id=9	0	ROOT	_	_
+
+1	anni	anno	NOM	NOM	id=10	0	ROOT	_	_
+
+1	prima	prima	ADV	ADV	id=11	0	ROOT	_	_
+
+1	aveva	avere	VER:impf	VER:impf	id=12	0	ROOT	_	_
+
+1	grandi	grande	ADJ	ADJ	id=13	0	ROOT	_	_
+
+1	piani	piano	NOM	NOM	id=14	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=15	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=16	0	ROOT	_	_
+
+1	isola	isola	NOM	NOM	id=17	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=18	0	ROOT	_	_
+
+1	Avrebbe	avere	VER:cond	VER:cond	id=21	0	ROOT	_	_
+
+1	aperto	aprire	VER:pper	VER:pper	id=22	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=23	0	ROOT	_	_
+
+1	casinò	casinò	NOM	NOM	id=24	0	ROOT	_	_
+
+1	internazionale	internazionale	ADJ	ADJ	id=25	0	ROOT	_	_
+
+1	e	e	CON	CON	id=26	0	ROOT	_	_
+
+1	avrebbe	avere	VER:cond	VER:cond	id=27	0	ROOT	_	_
+
+1	dichiarato	dichiarare	VER:pper	VER:pper	id=28	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=29	0	ROOT	_	_
+
+1	isola	isola	NOM	NOM	id=30	0	ROOT	_	_
+
+1	zona	zona	NOM	NOM	id=31	0	ROOT	_	_
+
+1	franca	franco	ADJ	ADJ	id=32	0	ROOT	_	_
+
+1	,	,	PON	PON	id=33	0	ROOT	_	_
+
+1	così	così	ADV	ADV	id=34	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=35	0	ROOT	_	_
+
+1	fare	fare	VER:infi	VER:infi	id=36	0	ROOT	_	_
+
+1	concorrenza	concorrenza	NOM	NOM	id=37	0	ROOT	_	_
+
+1	alle	al	PRE:det	PRE:det	id=38	0	ROOT	_	_
+
+1	Isole	<unknown>	ADJ	ADJ	id=39	0	ROOT	_	_
+
+1	Cayman	<unknown>	NOM	NOM	id=40	0	ROOT	_	_
+
+1	e	e	CON	CON	id=41	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=42	0	ROOT	_	_
+
+1	altri	altri|altro	PRO:indef	PRO:indef	id=43	0	ROOT	_	_
+
+1	paradisi	paradiso	NOM	NOM	id=44	0	ROOT	_	_
+
+1	fiscali	fiscale	ADJ	ADJ	id=45	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=46	0	ROOT	_	_
+
+1	Ma	ma	CON	CON	id=51	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=52	0	ROOT	_	_
+
+1	uccellino	uccellino	NOM	NOM	id=53	0	ROOT	_	_
+
+1	deve	dovere	VER:pres	VER:pres	id=54	0	ROOT	_	_
+
+1	avere	avere|riavere	VER:infi	VER:infi	id=55	0	ROOT	_	_
+
+1	detto	dire	VER:pper	VER:pper	id=56	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=57	0	ROOT	_	_
+
+1	generale	generale	NOM	NOM	id=58	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=59	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=60	0	ROOT	_	_
+
+1	suoi	suo	PRO:poss	PRO:poss	id=61	0	ROOT	_	_
+
+1	piani	piano	NOM	NOM	id=62	0	ROOT	_	_
+
+1	avrebbero	avere	VER:cond	VER:cond	id=63	0	ROOT	_	_
+
+1	causato	causare	VER:pper	VER:pper	id=64	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=65	0	ROOT	_	_
+
+1	catastrofe	catastrofe	NOM	NOM	id=66	0	ROOT	_	_
+
+1	ecologica	ecologico	ADJ	ADJ	id=67	0	ROOT	_	_
+
+1	e	e	CON	CON	id=68	0	ROOT	_	_
+
+1	avrebbero	avere	VER:cond	VER:cond	id=69	0	ROOT	_	_
+
+1	fatto	fatto	NOM	NOM	id=70	0	ROOT	_	_
+
+1	grande	grande	ADJ	ADJ	id=71	0	ROOT	_	_
+
+1	scalpore	scalpore	NOM	NOM	id=72	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=73	0	ROOT	_	_
+
+1	livello	livello	NOM	NOM	id=74	0	ROOT	_	_
+
+1	globale	globale	ADJ	ADJ	id=75	0	ROOT	_	_
+
+1	,	,	PON	PON	id=76	0	ROOT	_	_
+
+1	perché	perché	CON	CON	id=77	0	ROOT	_	_
+
+1	improvvisamente	improvvisamente	ADV	ADV	id=78	0	ROOT	_	_
+
+1	nessuno	nessuno	ADJ	ADJ	id=79	0	ROOT	_	_
+
+1	ne	ne	ADV	ADV	id=80	0	ROOT	_	_
+
+1	sentì	sentire	VER:remo	VER:remo	id=81	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=82	0	ROOT	_	_
+
+1	parlare	parlare	VER:infi	VER:infi	id=83	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=84	0	ROOT	_	_
+
+1	Oltre	oltre	ADV	ADV	id=89	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=90	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=91	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=92	0	ROOT	_	_
+
+1	meta	meta	NOM	NOM	id=93	0	ROOT	_	_
+
+1	preferita	preferire	VER:pper	VER:pper	id=94	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=95	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=96	0	ROOT	_	_
+
+1	turisti	turista	NOM	NOM	id=97	0	ROOT	_	_
+
+1	verdi	verde	ADJ	ADJ	id=98	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=99	0	ROOT	_	_
+
+1	,	,	PON	PON	id=100	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=101	0	ROOT	_	_
+
+1	isola	isola	NOM	NOM	id=102	0	ROOT	_	_
+
+1	Robinson	Robinson	NPR	NPR	id=103	0	ROOT	_	_
+
+1	Crusoe	<unknown>	NOM	NOM	id=104	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=105	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=106	0	ROOT	_	_
+
+1	paradiso	paradiso	NOM	NOM	id=107	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=108	0	ROOT	_	_
+
+1	chi	chi	PRO:rela	PRO:rela	id=109	0	ROOT	_	_
+
+1	ama	amare	VER:pres	VER:pres	id=110	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=111	0	ROOT	_	_
+
+1	aragoste	aragosta	NOM	NOM	id=112	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=113	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=116	0	ROOT	_	_
+
+1	principale	principale	ADJ	ADJ	id=117	0	ROOT	_	_
+
+1	fonte	fonte	NOM	NOM	id=118	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=119	0	ROOT	_	_
+
+1	sostentamento	sostentamento	NOM	NOM	id=120	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=121	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=122	0	ROOT	_	_
+
+1	pesca	pesca	NOM	NOM	id=123	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=124	0	ROOT	_	_
+
+1	aragosta	aragosta	NOM	NOM	id=125	0	ROOT	_	_
+
+1	senza	senza	PRE	PRE	id=126	0	ROOT	_	_
+
+1	chele	chela	NOM	NOM	id=127	0	ROOT	_	_
+
+1	,	,	PON	PON	id=128	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=129	0	ROOT	_	_
+
+1	vive	vivo	NOM	NOM	id=130	0	ROOT	_	_
+
+1	nelle	nel	PRE:det	PRE:det	id=131	0	ROOT	_	_
+
+1	calde	caldo	ADJ	ADJ	id=132	0	ROOT	_	_
+
+1	acque	acqua	NOM	NOM	id=133	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=134	0	ROOT	_	_
+
+1	circondano	circondare	VER:pres	VER:pres	id=135	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=136	0	ROOT	_	_
+
+1	isola	isola	NOM	NOM	id=137	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=138	0	ROOT	_	_
+
+1	Selkirk	<unknown>	NOM	NOM	id=143	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=144	0	ROOT	_	_
+
+1	corsaro	corsaro	NOM	NOM	id=145	0	ROOT	_	_
+
+1	Se	se	CON	CON	id=150	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=151	0	ROOT	_	_
+
+1	assume	assumere	VER:pres	VER:pres	id=152	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=153	0	ROOT	_	_
+
+1	marinaio	marinaio	NOM	NOM	id=154	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=155	0	ROOT	_	_
+
+1	guidare	guidare	VER:infi	VER:infi	id=156	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=157	0	ROOT	_	_
+
+1	Volvo	<unknown>	NOM	NOM	id=158	0	ROOT	_	_
+
+1	e	e	CON	CON	id=159	0	ROOT	_	_
+
+1	farsi	fare	VER:infi	VER:infi	id=160	0	ROOT	_	_
+
+1	portare	portare	VER:infi	VER:infi	id=161	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=162	0	ROOT	_	_
+
+1	giro	giro	NOM	NOM	id=163	0	ROOT	_	_
+
+1	nell'	nel	PRE:det	PRE:det	id=164	0	ROOT	_	_
+
+1	oceano	oceano	NOM	NOM	id=165	0	ROOT	_	_
+
+1	costeggiando	costeggiare	VER:geru	VER:geru	id=166	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=167	0	ROOT	_	_
+
+1	isola	isola	NOM	NOM	id=168	0	ROOT	_	_
+
+1	,	,	PON	PON	id=169	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=170	0	ROOT	_	_
+
+1	arriva	arrivare	VER:pres	VER:pres	id=171	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=172	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=173	0	ROOT	_	_
+
+1	pittoresca	pittoresco	ADJ	ADJ	id=174	0	ROOT	_	_
+
+1	attrazione	attrazione	NOM	NOM	id=175	0	ROOT	_	_
+
+1	turistica	turistico	ADJ	ADJ	id=176	0	ROOT	_	_
+
+1	,	,	PON	PON	id=177	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=178	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=179	0	ROOT	_	_
+
+1	caverna	caverna	NOM	NOM	id=180	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=181	0	ROOT	_	_
+
+1	Robinson	Robinson	NPR	NPR	id=182	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=183	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=184	0	ROOT	_	_
+
+1	Si	si	PRO:pers	PRO:pers	id=189	0	ROOT	_	_
+
+1	trova	trovare	VER:pres	VER:pres	id=190	0	ROOT	_	_
+
+1	direttamente	direttamente	ADV	ADV	id=191	0	ROOT	_	_
+
+1	su	su	PRE	PRE	id=192	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=193	0	ROOT	_	_
+
+1	spiaggia	spiaggia	NOM	NOM	id=194	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=195	0	ROOT	_	_
+
+1	rocce	roccia	NOM	NOM	id=196	0	ROOT	_	_
+
+1	ed	ed	CON	CON	id=197	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=198	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=199	0	ROOT	_	_
+
+1	caverna	caverna	NOM	NOM	id=200	0	ROOT	_	_
+
+1	profonda	profondo	ADJ	ADJ	id=201	0	ROOT	_	_
+
+1	cinque	cinque	ADJ	ADJ	id=202	0	ROOT	_	_
+
+1	metri	metro	NOM	NOM	id=203	0	ROOT	_	_
+
+1	,	,	PON	PON	id=204	0	ROOT	_	_
+
+1	dove	dove	PRO:rela	PRO:rela	id=205	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=206	0	ROOT	_	_
+
+1	scavate	scavare	VER:pper	VER:pper	id=207	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=208	0	ROOT	_	_
+
+1	nicchie	nicchia	NOM	NOM	id=209	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=210	0	ROOT	_	_
+
+1	secondo	secondo	PRE	PRE	id=211	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=212	0	ROOT	_	_
+
+1	pescatori	pescatore	NOM	NOM	id=213	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=214	0	ROOT	_	_
+
+1	aragoste	aragosta	NOM	NOM	id=215	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=216	0	ROOT	_	_
+
+1	opera	opera	NOM	NOM	id=217	0	ROOT	_	_
+
+1	dello	del	PRE:det	PRE:det	id=218	0	ROOT	_	_
+
+1	stesso	stesso	ADJ	ADJ	id=219	0	ROOT	_	_
+
+1	Robinson	Robinson	NPR	NPR	id=220	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=221	0	ROOT	_	_
+

@@ -19,7 +19,7 @@
 19	fik	få	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=60	3	conj	_	_
 20	jeg	jeg	PP	PP1CSN-NU	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=61	19	subj	_	_
 21	fat	fat	RG	RGU	degree=unmarked|id=62	19	dobj	_	_
-22	i	i	SP	SP	id=63	21	pobj.dobj	_	_
+22	i	i	SP	SP	id=63	0	ROOT	_	_
 23	portneren	portner	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=64	22	nobj	_	_
 24	,	,	XP	XP	id=65	23	pnct	_	_
 25	som	som	U	U=	id=66	28	subj	_	_

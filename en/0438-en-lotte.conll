@@ -1,0 +1,230 @@
+1	"	_	&quot;	&quot;	id=1	3	pnct	_	_
+2	I	_	PRP	PRP	id=2	3	subj	_	_
+3	think	_	VBP	VBP	id=3	0	ROOT	_	_
+4	we	_	PRP	PRP	id=4	5	subj	_	_
+5	had	_	VBD	VBD	id=5	3	vobj	_	_
+6	a	_	DT	DT	id=6	5	dobj	_	_
+7	great	_	JJ	JJ	id=7	6	attr	_	_
+8	time	_	NN	NN	id=8	6	nobj	_	_
+9	,	_	,	,	id=9	3	pnct	_	_
+10	didn't	_	NN	NN	id=10	3	conj	_	_
+11	we	_	PRP	PRP	id=11	10	subj	_	_
+12	?	_	.	.	id=12	10	pnct	_	_
+
+1	But	_	CC	CC	id=15	3	contr	_	_
+2	you	_	PRP	PRP	id=16	3	subj	_	_
+3	mustn't	_	VBP	VBP	id=17	0	ROOT	_	_
+4	read	_	NN	NN	id=18	3	vobj	_	_
+5	anything	_	NN	NN	id=19	4	dobj	_	_
+6	into	_	IN	IN	id=20	4	pobj	_	_
+7	that	_	DT	DT	id=21	6	nobj	_	_
+8	,	_	,	,	id=22	3	pnct	_	_
+9	right	_	NN	NN	id=23	3	other	_	_
+10	?	_	.	.	id=24	9	pnct	_	_
+11	"	_	&quot;	&quot;	id=25	3	pnct	_	_
+
+1	She	_	PRP	PRP	id=28	2	subj	_	_
+2	gathers	_	VBZ	VBZ	id=29	0	ROOT	_	_
+3	the	_	DT	DT	id=30	2	dobj	_	_
+4	robe	_	NN	NN	id=31	3	nobj	_	_
+5	tighter	_	JJR	JJR	id=32	2	man	_	_
+6	around	_	IN	IN	id=33	5	pobj	_	_
+7	her	_	PRP$	PRP$	id=34	6	nobj	_	_
+8	.	_	.	.	id=35	2	pnct	_	_
+
+1	"	_	&quot;	&quot;	id=38	3	pnct	_	_
+2	I	_	PRP	PRP	id=39	3	subj	_	_
+3	like	_	IN	IN	id=40	0	ROOT	_	_
+4	you	_	PRP	PRP	id=41	3	dobj	_	_
+5	.	_	.	.	id=42	3	pnct	_	_
+
+1	I	_	PRP	PRP	id=45	3	subj	_	_
+2	also	_	RB	RB	id=46	3	add	_	_
+3	think	_	VBP	VBP	id=47	0	ROOT	_	_
+4	you're	_	VBG	VBG	id=48	0	ROOT	_	_
+5	sweet	_	JJ	JJ	id=49	4	preds	_	_
+6	.	_	.	.	id=50	3	pnct	_	_
+
+1	But	_	CC	CC	id=53	3	contr	_	_
+2	it	_	PRP	PRP	id=54	3	subj	_	_
+3	is	_	VBZ	VBZ	id=55	0	ROOT	_	_
+4	in	_	IN	IN	id=56	3	preds	_	_
+5	more	_	JJR	JJR	id=57	8	quant	_	_
+6	like	_	IN	IN	id=58	4	nobj	_	_
+7	a	_	DT	DT	id=59	6	nobj	_	_
+8	friendly	_	JJ	JJ	id=60	7	attr	_	_
+9	way	_	NN	NN	id=61	7	nobj	_	_
+10	.	_	.	.	id=62	3	pnct	_	_
+
+1	The	_	DT	DT	id=65	4	man	_	_
+2	way	_	NN	NN	id=66	1	nobj	_	_
+3	I	_	PRP	PRP	id=67	4	subj	_	_
+4	like	_	IN	IN	id=68	0	ROOT	_	_
+5	Karin	_	NNP	NNP	id=69	4	dobj	_	_
+6	.	_	.	.	id=70	4	pnct	_	_
+
+1	I	_	PRP	PRP	id=73	2	subj	_	_
+2	think	_	VBP	VBP	id=74	0	ROOT	_	_
+3	you	_	PRP	PRP	id=75	4	subj	_	_
+4	understand	_	VBP	VBP	id=76	2	vobj	_	_
+5	what	_	WP	WP	id=77	4	dobj	_	_
+6	I	_	PRP	PRP	id=78	7	subj	_	_
+7	mean	_	VBP	VBP	id=79	5	relr	_	_
+8	,	_	,	,	id=80	2	pnct	_	_
+9	don't	_	NN	NN	id=81	0	ROOT	_	_
+10	you	_	PRP	PRP	id=82	9	subj	_	_
+11	?	_	.	.	id=83	9	pnct	_	_
+12	"	_	&quot;	&quot;	id=84	2	pnct	_	_
+
+1	Maja	_	JJ	JJ	id=87	2	subj	_	_
+2	forces	_	NNS	NNS	id=88	0	ROOT	_	_
+3	herself	_	PRP	PRP	id=89	2	dobj	_	_
+4	to	_	TO	TO	id=90	2	pobj	_	_
+5	nod	_	VB	VB	id=91	4	vobj	_	_
+6	.	_	.	.	id=92	2	pnct	_	_
+
+1	"	_	&quot;	&quot;	id=95	3	pnct	_	_
+2	I	_	PRP	PRP	id=96	3	subj	_	_
+3	thought	_	VBD	VBD	id=97	0	ROOT	_	_
+4	so	_	RB	RB	id=98	3	man	_	_
+5	.	_	.	.	id=99	3	pnct	_	_
+
+1	I'm	_	NNP	NNP	id=102	0	ROOT	_	_
+2	also	_	RB	RB	id=103	1	add	_	_
+3	just	_	RB	RB	id=104	1	eval	_	_
+4	saying	_	VBG	VBG	id=105	1	vobj	_	_
+5	it	_	PRP	PRP	id=106	4	dobj	_	_
+6	to	_	TO	TO	id=107	4	goal	_	_
+7	make	_	VB	VB	id=108	6	vobj	_	_
+8	sure	_	JJ	JJ	id=109	7	aobj	_	_
+9	.	_	.	.	id=110	1	pnct	_	_
+
+1	There	_	EX	EX	id=113	2	expl	_	_
+2	are	_	VBP	VBP	id=114	0	ROOT	_	_
+3	some	_	DT	DT	id=115	2	dobj	_	_
+4	girls	_	NNS	NNS	id=116	3	nobj	_	_
+5	who	_	WP	WP	id=117	6	subj	_	_
+6	jump	_	VBP	VBP	id=118	3	relr	_	_
+7	to	_	TO	TO	id=119	6	pobj	_	_
+8	a	_	DT	DT	id=120	7	nobj	_	_
+9	lot	_	NN	NN	id=121	8	nobj	_	_
+10	of	_	IN	IN	id=122	9	pobj	_	_
+11	conclusions.	_	CD	CD	id=123	0	ROOT	_	_
+12	"	_	&quot;	&quot;	id=124	2	pnct	_	_
+
+1	He	_	PRP	PRP	id=127	2	subj	_	_
+2	seems	_	VBZ	VBZ	id=128	0	ROOT	_	_
+3	relieved	_	VBN	VBN	id=129	2	preds	_	_
+4	.	_	.	.	id=130	2	pnct	_	_
+
+1	Maja	_	NNP	NNP	id=133	2	subj	_	_
+2	does	_	VBZ	VBZ	id=134	0	ROOT	_	_
+3	not	_	RB	RB	id=135	2	neg	_	_
+4	dare	_	VB	VB	id=136	2	vobj	_	_
+5	look	_	NN	NN	id=137	4	vobj	_	_
+6	at	_	IN	IN	id=138	5	pobj	_	_
+7	him	_	PRP	PRP	id=139	6	nobj	_	_
+8	.	_	.	.	id=140	2	pnct	_	_
+
+1	Then	_	RB	RB	id=143	4	cons	_	_
+2	,	_	,	,	id=144	1	pnct	_	_
+3	he	_	PRP	PRP	id=145	4	subj	_	_
+4	would	_	MD	MD	id=146	0	ROOT	_	_
+5	be	_	VB	VB	id=147	4	vobj	_	_
+6	able	_	JJ	JJ	id=148	5	preds	_	_
+7	to	_	TO	TO	id=149	6	pobj	_	_
+8	see	_	VB	VB	id=150	7	vobj	_	_
+9	that	_	IN	IN	id=151	8	dobj	_	_
+10	she	_	PRP	PRP	id=152	11	subj	_	_
+11	has	_	VBZ	VBZ	id=153	9	vobj	_	_
+12	tears	_	NNS	NNS	id=154	11	dobj	_	_
+13	in	_	IN	IN	id=155	11	@loc	_	_
+14	her	_	PRP$	PRP$	id=156	13	nobj	_	_
+15	eyes	_	NNS	NNS	id=157	14	possd	_	_
+16	.	_	.	.	id=158	4	pnct	_	_
+
+1	"	_	&quot;	&quot;	id=161	3	pnct	_	_
+2	You	_	PRP	PRP	id=162	3	subj	_	_
+3	mustn't	_	VBP	VBP	id=163	0	ROOT	_	_
+4	cry	_	NN	NN	id=164	3	vobj	_	_
+5	!	_	.	.	id=165	3	pnct	_	_
+
+1	You	_	PRP	PRP	id=168	2	subj	_	_
+2	musn't	_	VBP	VBP	id=169	0	ROOT	_	_
+3	cry	_	NN	NN	id=170	2	vobj	_	_
+4	!	_	.	.	id=171	2	pnct	_	_
+
+1	You	_	PRP	PRP	id=174	2	subj	_	_
+2	mustn't	_	VBP	VBP	id=175	7	qobj	_	_
+3	cry	_	NN	NN	id=176	2	vobj	_	_
+4	!	_	.	.	id=177	2	pnct	_	_
+5	"	_	&quot;	&quot;	id=178	2	pnct	_	_
+6	it	_	PRP	PRP	id=181	7	subj	_	_
+7	resounds	_	VBZ	VBZ	id=182	0	ROOT	_	_
+8	within	_	IN	IN	id=183	7	loc	_	_
+9	her	_	PRP$	PRP$	id=184	8	nobj	_	_
+10	the	_	DT	DT	id=185	7	time	_	_
+11	whole	_	JJ	JJ	id=186	10	attr	_	_
+12	time	_	NN	NN	id=187	10	nobj	_	_
+13	.	_	.	.	id=188	7	pnct	_	_
+
+1	She	_	PRP	PRP	id=191	2	subj	_	_
+2	wishes	_	VBZ	VBZ	id=192	0	ROOT	_	_
+3	he	_	PRP	PRP	id=193	4	subj	_	_
+4	would	_	MD	MD	id=194	2	vobj	_	_
+5	go	_	VB	VB	id=195	4	vobj	_	_
+6	now	_	RB	RB	id=196	5	time	_	_
+7	.	_	.	.	id=197	2	pnct	_	_
+
+1	She	_	PRP	PRP	id=200	2	subj	_	_
+2	cannot	_	VBP	VBP	id=201	0	ROOT	_	_
+3	take	_	NN	NN	id=202	2	vobj	_	_
+4	it	_	PRP	PRP	id=203	3	dobj	_	_
+5	very	_	RB	RB	id=204	6	quant	_	_
+6	much	_	RB	RB	id=205	7	quant	_	_
+7	longer	_	RB	RB	id=206	3	time	_	_
+8	.	_	.	.	id=207	2	pnct	_	_
+
+1	"	_	&quot;	&quot;	id=210	2	pnct	_	_
+2	Are	_	VBP	VBP	id=211	8	qobj	_	_
+3	you	_	PRP	PRP	id=212	2	subj	_	_
+4	mad	_	JJ	JJ	id=213	2	preds	_	_
+5	?	_	.	.	id=214	2	pnct	_	_
+6	"	_	&quot;	&quot;	id=215	2	pnct	_	_
+7	he	_	PRP	PRP	id=216	8	subj	_	_
+8	asks	_	VBZ	VBZ	id=217	0	ROOT	_	_
+9	suddenly	_	RB	RB	id=218	8	man	_	_
+10	.	_	.	.	id=219	8	pnct	_	_
+
+1	Maja	_	NNP	NNP	id=222	2	subj	_	_
+2	shakes	_	VBZ	VBZ	id=223	0	ROOT	_	_
+3	her	_	PRP$	PRP$	id=224	2	dobj	_	_
+4	head	_	NN	NN	id=225	3	possd	_	_
+5	.	_	.	.	id=226	2	pnct	_	_
+
+1	No	_	DT	DT	id=229	0	ROOT	_	_
+2	,	_	,	,	id=230	1	pnct	_	_
+3	she	_	PRP	PRP	id=231	4	subj	_	_
+4	is	_	VBZ	VBZ	id=232	1	conj	_	_
+5	not	_	RB	RB	id=233	4	neg	_	_
+6	mad	_	JJ	JJ	id=234	4	preds	_	_
+7	.	_	.	.	id=235	1	pnct	_	_
+
+1	She	_	PRP	PRP	id=238	2	subj	_	_
+2	is	_	VBZ	VBZ	id=239	0	ROOT	_	_
+3	utterly	_	RB	RB	id=240	4	quant	_	_
+4	miserable	_	JJ	JJ	id=241	2	preds	_	_
+5	.	_	.	.	id=242	2	pnct	_	_
+
+1	But	_	CC	CC	id=245	3	contr	_	_
+2	he	_	PRP	PRP	id=246	3	subj	_	_
+3	cannot	_	VBP	VBP	id=247	0	ROOT	_	_
+4	know	_	VB	VB	id=248	3	vobj	_	_
+5	that	_	DT	DT	id=249	4	dobj	_	_
+6	.	_	.	.	id=250	3	pnct	_	_
+
+1	Nor	_	CC	CC	id=253	2	neg	_	_
+2	will	_	MD	MD	id=254	0	ROOT	_	_
+3	he	_	PRP	PRP	id=255	2	subj	_	_
+4	!	_	.	.	id=256	2	pnct	_	_
+

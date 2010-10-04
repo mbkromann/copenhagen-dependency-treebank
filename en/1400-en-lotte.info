@@ -1,0 +1,5 @@
+en/1400-en-lotte.tag:
+  morphology: none
+  discourse: none
+  syntax: first
+  postag: auto

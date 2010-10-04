@@ -1,0 +1,430 @@
+1	Una	un	ART	ART	id=2	0	ROOT	_	_
+
+1	reunión	reunión	NC	NC	id=3	0	ROOT	_	_
+
+1	celebrada	celebrar	VLadj	VLadj	id=4	0	ROOT	_	_
+
+1	ayer	ayer	ADV	ADV	id=5	0	ROOT	_	_
+
+1	entre	entre	SCENE	SCENE	id=6	0	ROOT	_	_
+
+1	Frank	Frank	NP	NP	id=7	0	ROOT	_	_
+
+1	Mathiesen	<unknown>	NP	NP	id=8	0	ROOT	_	_
+
+1	y	y	CC	CC	id=9	0	ROOT	_	_
+
+1	el	el	ART	ART	id=10	0	ROOT	_	_
+
+1	equipo	equipo	NC	NC	id=11	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=12	0	ROOT	_	_
+
+1	consiguió	conseguir	VLfin	VLfin	id=13	0	ROOT	_	_
+
+1	acercar	acercar	VLinf	VLinf	id=14	0	ROOT	_	_
+
+1	los	el	ART	ART	id=15	0	ROOT	_	_
+
+1	dos	dos	CARD	CARD	id=16	0	ROOT	_	_
+
+1	frentes	frente	NC	NC	id=17	0	ROOT	_	_
+
+1	.	.	FS	FS	id=18	0	ROOT	_	_
+
+1	Frank	Frank	NP	NP	id=23	0	ROOT	_	_
+
+1	Mathiesen	<unknown>	NP	NP	id=24	0	ROOT	_	_
+
+1	mantuvo	mantener	VLfin	VLfin	id=25	0	ROOT	_	_
+
+1	lo	el	ART	ART	id=26	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=27	0	ROOT	_	_
+
+1	declaró	declarar	VLfin	VLfin	id=28	0	ROOT	_	_
+
+1	el	el	ART	ART	id=29	0	ROOT	_	_
+
+1	otro	otro	QU	QU	id=30	0	ROOT	_	_
+
+1	día	día	NC	NC	id=31	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=32	0	ROOT	_	_
+
+1	B.T	<unknown>	NP	NP	id=33	0	ROOT	_	_
+
+1	.	.	FS	FS	id=34	0	ROOT	_	_
+
+1	:	:	COLON	COLON	id=37	0	ROOT	_	_
+
+1	"	&quot;	QT	QT	id=42	0	ROOT	_	_
+
+1	Los	el	ART	ART	id=43	0	ROOT	_	_
+
+1	jugadores	jugador	NC	NC	id=44	0	ROOT	_	_
+
+1	reciben	recibir	VLfin	VLfin	id=45	0	ROOT	_	_
+
+1	una	un	ART	ART	id=46	0	ROOT	_	_
+
+1	prima	primo	NC	NC	id=47	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=48	0	ROOT	_	_
+
+1	20.000	@card@	CARD	CARD	id=49	0	ROOT	_	_
+
+1	coronas	corona	NC	NC	id=50	0	ROOT	_	_
+
+1	por	por	SCENE	SCENE	id=51	0	ROOT	_	_
+
+1	persona	persona	NC	NC	id=52	0	ROOT	_	_
+
+1	,	,	CM	CM	id=53	0	ROOT	_	_
+
+1	pero	pero	CCAD	CCAD	id=54	0	ROOT	_	_
+
+1	sólo	sólo	ADV	ADV	id=55	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=56	0	ROOT	_	_
+
+1	caso	caso	NC	NC	id=57	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=58	0	ROOT	_	_
+
+1	una	un	ART	ART	id=59	0	ROOT	_	_
+
+1	victoria	victoria	NC	NC	id=60	0	ROOT	_	_
+
+1	ante	ante	SCENE	SCENE	id=61	0	ROOT	_	_
+
+1	el	el	ART	ART	id=62	0	ROOT	_	_
+
+1	Trabzonspor	<unknown>	NP	NP	id=63	0	ROOT	_	_
+
+1	.	.	FS	FS	id=64	0	ROOT	_	_
+
+1	Por	por	SCENE	SCENE	id=69	0	ROOT	_	_
+
+1	principios	principio	NC	NC	id=70	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=71	0	ROOT	_	_
+
+1	podemos	podar|poder	VLfin	VLfin	id=72	0	ROOT	_	_
+
+1	aceptar	aceptar	VLinf	VLinf	id=73	0	ROOT	_	_
+
+1	el	el	ART	ART	id=74	0	ROOT	_	_
+
+1	concepto	concepto	NC	NC	id=75	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=76	0	ROOT	_	_
+
+1	prepago	<unknown>	NC	NC	id=77	0	ROOT	_	_
+
+1	.	.	FS	FS	id=78	0	ROOT	_	_
+
+1	Si	si	CSUBX	CSUBX	id=83	0	ROOT	_	_
+
+1	quedamos	quedar	VLfin	VLfin	id=84	0	ROOT	_	_
+
+1	desclasificados	<unknown>	VLadj	VLadj	id=85	0	ROOT	_	_
+
+1	tras	tras	SCENE	SCENE	id=86	0	ROOT	_	_
+
+1	el	el	ART	ART	id=87	0	ROOT	_	_
+
+1	partido	partido	NC	NC	id=88	0	ROOT	_	_
+
+1	contra	contra	SCENE	SCENE	id=89	0	ROOT	_	_
+
+1	Trabzonspor	<unknown>	NP	NP	id=90	0	ROOT	_	_
+
+1	-	-	DASH	DASH	id=91	0	ROOT	_	_
+
+1	pesea	<unknown>	NP	NP	id=92	0	ROOT	_	_
+
+1	un	un	ART	ART	id=93	0	ROOT	_	_
+
+1	rendimiento	rendimiento	NC	NC	id=94	0	ROOT	_	_
+
+1	satisfactorio	satisfactorio	ADJ	ADJ	id=95	0	ROOT	_	_
+
+1	porpartede	por~parte~de	SCENE	SCENE	id=96	0	ROOT	_	_
+
+1	los	el	ART	ART	id=97	0	ROOT	_	_
+
+1	jugadores	jugador	NC	NC	id=98	0	ROOT	_	_
+
+1	,	,	CM	CM	id=99	0	ROOT	_	_
+
+1	quizás	quizás	ADV	ADV	id=100	0	ROOT	_	_
+
+1	podamos	podar|poder	VLfin	VLfin	id=101	0	ROOT	_	_
+
+1	llegar	llegar	VLinf	VLinf	id=102	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=103	0	ROOT	_	_
+
+1	un	un	ART	ART	id=104	0	ROOT	_	_
+
+1	acuerdo	acuerdo	NC	NC	id=105	0	ROOT	_	_
+
+1	sobre	sobre	SCENE	SCENE	id=106	0	ROOT	_	_
+
+1	el	el	ART	ART	id=107	0	ROOT	_	_
+
+1	pago	pago	NC	NC	id=108	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=109	0	ROOT	_	_
+
+1	una	un	ART	ART	id=110	0	ROOT	_	_
+
+1	prima	primo	NC	NC	id=111	0	ROOT	_	_
+
+1	extraordinaria	extraordinario	ADJ	ADJ	id=112	0	ROOT	_	_
+
+1	.	.	FS	FS	id=113	0	ROOT	_	_
+
+1	Prepago	<unknown>	NP	NP	id=116	0	ROOT	_	_
+
+1	o	o	CC	CC	id=117	0	ROOT	_	_
+
+1	como	como	CSUBX	CSUBX	id=118	0	ROOT	_	_
+
+1	se	se	SE	SE	id=119	0	ROOT	_	_
+
+1	llame	llamar	VLfin	VLfin	id=120	0	ROOT	_	_
+
+1	"	&quot;	QT	QT	id=121	0	ROOT	_	_
+
+1	.	.	FS	FS	id=122	0	ROOT	_	_
+
+1	El	el	ART	ART	id=127	0	ROOT	_	_
+
+1	capitán	capitán	NC	NC	id=128	0	ROOT	_	_
+
+1	del	del	PDEL	PDEL	id=129	0	ROOT	_	_
+
+1	equipo	equipo	NC	NC	id=130	0	ROOT	_	_
+
+1	,	,	CM	CM	id=131	0	ROOT	_	_
+
+1	Pierre	Pierre	NP	NP	id=132	0	ROOT	_	_
+
+1	Larsen	<unknown>	NP	NP	id=133	0	ROOT	_	_
+
+1	declaró	declarar	VLfin	VLfin	id=134	0	ROOT	_	_
+
+1	tras	tras	SCENE	SCENE	id=135	0	ROOT	_	_
+
+1	la	el	ART	ART	id=136	0	ROOT	_	_
+
+1	infructuosa	infructuoso	ADJ	ADJ	id=137	0	ROOT	_	_
+
+1	reunión	reunión	NC	NC	id=138	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=139	0	ROOT	_	_
+
+1	ayer	ayer	ADV	ADV	id=140	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=141	0	ROOT	_	_
+
+1	el	el	ART	ART	id=142	0	ROOT	_	_
+
+1	equipo	equipo	NC	NC	id=143	0	ROOT	_	_
+
+1	está	estar	VEfin	VEfin	id=144	0	ROOT	_	_
+
+1	considerando	considerar	VLger	VLger	id=145	0	ROOT	_	_
+
+1	la	el	ART	ART	id=146	0	ROOT	_	_
+
+1	decisión	decisión	NC	NC	id=147	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=148	0	ROOT	_	_
+
+1	la	el	ART	ART	id=149	0	ROOT	_	_
+
+1	dirección	dirección	NC	NC	id=150	0	ROOT	_	_
+
+1	.	.	FS	FS	id=151	0	ROOT	_	_
+
+1	"	&quot;	QT	QT	id=156	0	ROOT	_	_
+
+1	Esperábamos	esperar	VLfin	VLfin	id=157	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=158	0	ROOT	_	_
+
+1	la	el	ART	ART	id=159	0	ROOT	_	_
+
+1	dirección	dirección	NC	NC	id=160	0	ROOT	_	_
+
+1	iniciara	iniciar	VLfin	VLfin	id=161	0	ROOT	_	_
+
+1	nuevas	nuevo	ADJ	ADJ	id=162	0	ROOT	_	_
+
+1	negociaciones	negociación	NC	NC	id=163	0	ROOT	_	_
+
+1	y	y	CC	CC	id=164	0	ROOT	_	_
+
+1	un	un	ART	ART	id=165	0	ROOT	_	_
+
+1	diálogo	diálogo	NC	NC	id=166	0	ROOT	_	_
+
+1	constructivo	constructivo	ADJ	ADJ	id=167	0	ROOT	_	_
+
+1	.	.	FS	FS	id=168	0	ROOT	_	_
+
+1	Noobstante	no~obstante	ADV	ADV	id=173	0	ROOT	_	_
+
+1	este	este	DM	DM	id=174	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=175	0	ROOT	_	_
+
+1	ha	haber	VHfin	VHfin	id=176	0	ROOT	_	_
+
+1	sido	ser	VS	VS	id=177	0	ROOT	_	_
+
+1	el	el	ART	ART	id=178	0	ROOT	_	_
+
+1	caso	caso	NC	NC	id=179	0	ROOT	_	_
+
+1	.	.	FS	FS	id=180	0	ROOT	_	_
+
+1	Ahora	ahora	ADV	ADV	id=183	0	ROOT	_	_
+
+1	tenemos	tener	VLfin	VLfin	id=184	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=185	0	ROOT	_	_
+
+1	pensar	pensar	VLinf	VLinf	id=186	0	ROOT	_	_
+
+1	bien	bien	ADV	ADV	id=187	0	ROOT	_	_
+
+1	las	el	ART	ART	id=188	0	ROOT	_	_
+
+1	cosas	cosa	NC	NC	id=189	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=190	0	ROOT	_	_
+
+1	el	el	ART	ART	id=191	0	ROOT	_	_
+
+1	fin	fin	NC	NC	id=192	0	ROOT	_	_
+
+1	de	de	CSUBI	CSUBI	id=193	0	ROOT	_	_
+
+1	cambiar	cambiar	VLinf	VLinf	id=194	0	ROOT	_	_
+
+1	los	el	ART	ART	id=195	0	ROOT	_	_
+
+1	contratos	contrato	NC	NC	id=196	0	ROOT	_	_
+
+1	suplementarios	suplementario	ADJ	ADJ	id=197	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=198	0	ROOT	_	_
+
+1	casi	casi	ADV	ADV	id=199	0	ROOT	_	_
+
+1	ocho	ocho	CARD	CARD	id=200	0	ROOT	_	_
+
+1	años	año	NC	NC	id=201	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=202	0	ROOT	_	_
+
+1	permiten	permitir	VLfin	VLfin	id=203	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=204	0	ROOT	_	_
+
+1	la	el	ART	ART	id=205	0	ROOT	_	_
+
+1	dirección	dirección	NC	NC	id=206	0	ROOT	_	_
+
+1	actuar	actuar	VLinf	VLinf	id=207	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=208	0	ROOT	_	_
+
+1	la	el	ART	ART	id=209	0	ROOT	_	_
+
+1	forma	forma	NC	NC	id=210	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=211	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=212	0	ROOT	_	_
+
+1	lo	él	PPO	PPO	id=213	0	ROOT	_	_
+
+1	han	haber	VHfin	VHfin	id=214	0	ROOT	_	_
+
+1	hecho	hecho	NC	NC	id=215	0	ROOT	_	_
+
+1	"	&quot;	QT	QT	id=216	0	ROOT	_	_
+
+1	.	.	FS	FS	id=217	0	ROOT	_	_
+
+1	CUESTIÓN	cuestión	NC	NC	id=222	0	ROOT	_	_
+
+1	DE	<unknown>	NC	NC	id=223	0	ROOT	_	_
+
+1	PRINCIPIOS	<unknown>	ADJ	ADJ	id=224	0	ROOT	_	_
+
+1	Ivan	<unknown>	NP	NP	id=229	0	ROOT	_	_
+
+1	Nielsen	<unknown>	NP	NP	id=230	0	ROOT	_	_
+
+1	,	,	CM	CM	id=231	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=232	0	ROOT	_	_
+
+1	gran	grande	ADJ	ADJ	id=233	0	ROOT	_	_
+
+1	experiencia	experiencia	NC	NC	id=234	0	ROOT	_	_
+
+1	y	y	CC	CC	id=235	0	ROOT	_	_
+
+1	uno	uno	CARD	CARD	id=236	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=237	0	ROOT	_	_
+
+1	los	el	ART	ART	id=238	0	ROOT	_	_
+
+1	rebeldes	rebelde	NC	NC	id=239	0	ROOT	_	_
+
+1	más	más	ADV	ADV	id=240	0	ROOT	_	_
+
+1	proactivos	<unknown>	ADJ	ADJ	id=241	0	ROOT	_	_
+
+1	y	y	CC	CC	id=242	0	ROOT	_	_
+
+1	partidarios	partidario	NC	NC	id=243	0	ROOT	_	_
+
+1	de	de	CSUBI	CSUBI	id=244	0	ROOT	_	_
+
+1	cambiar	cambiar	VLinf	VLinf	id=245	0	ROOT	_	_
+
+1	los	el	ART	ART	id=246	0	ROOT	_	_
+
+1	famosos	famoso	ADJ	ADJ	id=247	0	ROOT	_	_
+
+1	contratos	contrato	NC	NC	id=248	0	ROOT	_	_
+
+1	suplementarios	suplementario	ADJ	ADJ	id=249	0	ROOT	_	_
+
+1	vigentes	vigente	ADJ	ADJ	id=250	0	ROOT	_	_
+
+1	,	,	CM	CM	id=251	0	ROOT	_	_
+
+1	se	se	SE	SE	id=252	0	ROOT	_	_
+
+1	muestra	mostrar	VLfin	VLfin	id=253	0	ROOT	_	_
+
+1	completamente	completamente	ADV	ADV	id=254	0	ROOT	_	_
+
+1	deacuerdocon	de~acuerdo~con	SCENE	SCENE	id=255	0	ROOT	_	_
+
+1	el	el	ART	ART	id=256	0	ROOT	_	_
+
+1	capitán	capitán	NC	NC	id=257	0	ROOT	_	_
+
+1	.	.	FS	FS	id=258	0	ROOT	_	_
+

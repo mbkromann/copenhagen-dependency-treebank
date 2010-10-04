@@ -1,0 +1,364 @@
+1	E	e	CON	CON	id=0	0	ROOT	_	_
+
+1	poi	poi	ADV	ADV	id=1	0	ROOT	_	_
+
+1	c'	c'	PRO:demo	PRO:demo	id=2	0	ROOT	_	_
+
+1	era	essere	VER:impf	VER:impf	id=3	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=4	0	ROOT	_	_
+
+1	storia	storia	NOM	NOM	id=5	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=6	0	ROOT	_	_
+
+1	liste	lista	NOM	NOM	id=7	0	ROOT	_	_
+
+1	d'	d'	PRE	PRE	id=8	0	ROOT	_	_
+
+1	attesa	attesa	NOM	NOM	id=9	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=10	0	ROOT	_	_
+
+1	dovevano	dovere	VER:impf	VER:impf	id=11	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=12	0	ROOT	_	_
+
+1	eliminate	eliminare	VER:pper	VER:pper	id=13	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=14	0	ROOT	_	_
+
+1	Nel	nel	PRE:det	PRE:det	id=15	0	ROOT	_	_
+
+1	caso	caso	NOM	NOM	id=16	0	ROOT	_	_
+
+1	TEBA	<unknown>	ADJ	ADJ	id=17	0	ROOT	_	_
+
+1	,	,	PON	PON	id=18	0	ROOT	_	_
+
+1	John	John	NPR	NPR	id=19	0	ROOT	_	_
+
+1	Winther	<unknown>	NOM	NOM	id=20	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=21	0	ROOT	_	_
+
+1	risolto	risolvere	VER:pper	VER:pper	id=22	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=23	0	ROOT	_	_
+
+1	problema	problema	NOM	NOM	id=24	0	ROOT	_	_
+
+1	inserendo	inserire	VER:geru	VER:geru	id=25	0	ROOT	_	_
+
+1	semplicemente	semplicemente	ADV	ADV	id=26	0	ROOT	_	_
+
+1	tutti	tutto	ADJ	ADJ	id=27	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=28	0	ROOT	_	_
+
+1	bambini	bambino	NOM	NOM	id=29	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=30	0	ROOT	_	_
+
+1	erano	essere	VER:impf	VER:impf	id=31	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=32	0	ROOT	_	_
+
+1	lista	lista	NOM	NOM	id=33	0	ROOT	_	_
+
+1	d'	d'	PRE	PRE	id=34	0	ROOT	_	_
+
+1	attesa	attesa	NOM	NOM	id=35	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=36	0	ROOT	_	_
+
+1	Per	per	PRE	PRE	id=37	0	ROOT	_	_
+
+1	quanto	quanto	ADV	ADV	id=38	0	ROOT	_	_
+
+1	riguarda	riguardare	VER:pres	VER:pres	id=39	0	ROOT	_	_
+
+1	TEBA	<unknown>	ADJ	ADJ	id=40	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=41	0	ROOT	_	_
+
+1	significa	significare	VER:pres	VER:pres	id=42	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=43	0	ROOT	_	_
+
+1	dai	dal	PRE:det	PRE:det	id=44	0	ROOT	_	_
+
+1	45	@card@	NUM	NUM	id=45	0	ROOT	_	_
+
+1	bambini	bambino	NOM	NOM	id=46	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=47	0	ROOT	_	_
+
+1	1991	@card@	NUM	NUM	id=48	0	ROOT	_	_
+
+1	,	,	PON	PON	id=49	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=50	0	ROOT	_	_
+
+1	passerà	passare	VER:futu	VER:futu	id=51	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=52	0	ROOT	_	_
+
+1	55	@card@	NUM	NUM	id=53	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=54	0	ROOT	_	_
+
+1	1992	@card@	NUM	NUM	id=55	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=56	0	ROOT	_	_
+
+1	Parliamo	parlare	VER:pres	VER:pres	id=57	0	ROOT	_	_
+
+1	insomma	insomma	ADV	ADV	id=58	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=59	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=60	0	ROOT	_	_
+
+1	aumento	aumento	NOM	NOM	id=61	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=62	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=63	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=64	0	ROOT	_	_
+
+1	10%	@card@	NUM	NUM	id=65	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=66	0	ROOT	_	_
+
+1	Va	andare|riandare	VER:pres	VER:pres	id=67	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=68	0	ROOT	_	_
+
+1	sé	sé	NOM	NOM	id=69	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=70	0	ROOT	_	_
+
+1	lo	il	DET:def	DET:def	id=71	0	ROOT	_	_
+
+1	spazio	spazio	NOM	NOM	id=72	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=73	0	ROOT	_	_
+
+1	TEBA	<unknown>	NOM	NOM	id=74	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=75	0	ROOT	_	_
+
+1	sarà	essere	VER:futu	VER:futu	id=76	0	ROOT	_	_
+
+1	ampliato	ampliare	VER:pper	VER:pper	id=77	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=78	0	ROOT	_	_
+
+1	questa	questo	PRO:demo	PRO:demo	id=79	0	ROOT	_	_
+
+1	ragione	ragione	NOM	NOM	id=80	0	ROOT	_	_
+
+1	,	,	PON	PON	id=81	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=82	0	ROOT	_	_
+
+1	momento	momento	NOM	NOM	id=83	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=84	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=85	0	ROOT	_	_
+
+1	c'	c'	PRO:demo	PRO:demo	id=86	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=87	0	ROOT	_	_
+
+1	alcuna	alcuno	PRO:indef	PRO:indef	id=88	0	ROOT	_	_
+
+1	intenzione	intenzione	NOM	NOM	id=89	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=90	0	ROOT	_	_
+
+1	investire	investire	VER:infi	VER:infi	id=91	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=92	0	ROOT	_	_
+
+1	risparmi	risparmio	NOM	NOM	id=93	0	ROOT	_	_
+
+1	ottenuti	ottenere	VER:pper	VER:pper	id=94	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=95	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=96	0	ROOT	_	_
+
+1	lato	lato	NOM	NOM	id=97	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=98	0	ROOT	_	_
+
+1	miglioramenti	miglioramento	NOM	NOM	id=99	0	ROOT	_	_
+
+1	strutturali	strutturale	ADJ	ADJ	id=100	0	ROOT	_	_
+
+1	dall'	dal	PRE:det	PRE:det	id=101	0	ROOT	_	_
+
+1	altro	altro	ADJ	ADJ	id=102	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=103	0	ROOT	_	_
+
+1	A	a	PRE	PRE	id=104	0	ROOT	_	_
+
+1	partire	partire	VER:infi	VER:infi	id=105	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=106	0	ROOT	_	_
+
+1	1992	@card@	NUM	NUM	id=107	0	ROOT	_	_
+
+1	ogni	ogni	ADJ	ADJ	id=108	0	ROOT	_	_
+
+1	bambino	bambino	NOM	NOM	id=109	0	ROOT	_	_
+
+1	avrà	avere	VER:futu	VER:futu	id=110	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=111	0	ROOT	_	_
+
+1	disposizione	disposizione	NOM	NOM	id=112	0	ROOT	_	_
+
+1	2	@card@	NUM	NUM	id=113	0	ROOT	_	_
+
+1	metri	metro	NOM	NOM	id=114	0	ROOT	_	_
+
+1	quadrati	quadrato	ADJ	ADJ	id=115	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=116	0	ROOT	_	_
+
+1	E	e	CON	CON	id=117	0	ROOT	_	_
+
+1	qui	qui	ADV	ADV	id=118	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=119	0	ROOT	_	_
+
+1	fa	fare	VER:pres	VER:pres	id=120	0	ROOT	_	_
+
+1	come	come	CON	CON	id=121	0	ROOT	_	_
+
+1	quando	quando	PRO:inter	PRO:inter	id=122	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=123	0	ROOT	_	_
+
+1	calcola	calcolare	VER:pres	VER:pres	id=124	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=125	0	ROOT	_	_
+
+1	affitto	affitto	NOM	NOM	id=126	0	ROOT	_	_
+
+1	,	,	PON	PON	id=127	0	ROOT	_	_
+
+1	cioè	cioè	ADV	ADV	id=128	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=129	0	ROOT	_	_
+
+1	considera	considerare	VER:pres	VER:pres	id=130	0	ROOT	_	_
+
+1	tutto	tutto	ADJ	ADJ	id=131	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=132	0	ROOT	_	_
+
+1	Bagni	bagno	NOM	NOM	id=133	0	ROOT	_	_
+
+1	,	,	PON	PON	id=134	0	ROOT	_	_
+
+1	corridoi	corridoio	NOM	NOM	id=135	0	ROOT	_	_
+
+1	,	,	PON	PON	id=136	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=137	0	ROOT	_	_
+
+1	cucina	cucina	NOM	NOM	id=138	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=139	0	ROOT	_	_
+
+1	personale	personale	NOM	NOM	id=140	0	ROOT	_	_
+
+1	educativo	educativo	ADJ	ADJ	id=141	0	ROOT	_	_
+
+1	,	,	PON	PON	id=142	0	ROOT	_	_
+
+1	ecc	ecc	ADV	ADV	id=143	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=144	0	ROOT	_	_
+
+1	Un	un	DET:indef	DET:indef	id=145	0	ROOT	_	_
+
+1	bambino	bambino	NOM	NOM	id=146	0	ROOT	_	_
+
+1	ben	goal	ADV	ADV	id=147	0	ROOT	_	_
+
+1	cresciuto	crescere	VER:pper	VER:pper	id=148	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=149	0	ROOT	_	_
+
+1	5	@card@	NUM	NUM	id=150	0	ROOT	_	_
+
+1	anni	anno	NOM	NOM	id=151	0	ROOT	_	_
+
+1	pesa	pesare	VER:impe	VER:impe	id=152	0	ROOT	_	_
+
+1	circa	circa	ADV	ADV	id=153	0	ROOT	_	_
+
+1	19	@card@	NUM	NUM	id=154	0	ROOT	_	_
+
+1	chili	chilo	NOM	NOM	id=155	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=156	0	ROOT	_	_
+
+1	vengono	venire	VER:pres	VER:pres	id=157	0	ROOT	_	_
+
+1	distribuiti	distribuire	VER:pper	VER:pper	id=158	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=159	0	ROOT	_	_
+
+1	2	@card@	NUM	NUM	id=160	0	ROOT	_	_
+
+1	metri	metro	NOM	NOM	id=161	0	ROOT	_	_
+
+1	quadrati	quadrato	ADJ	ADJ	id=162	0	ROOT	_	_
+
+1	e	e	CON	CON	id=163	0	ROOT	_	_
+
+1	cioè	cioè	ADV	ADV	id=164	0	ROOT	_	_
+
+1	9,5	@card@	NUM	NUM	id=165	0	ROOT	_	_
+
+1	chili	chilo	NOM	NOM	id=166	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=167	0	ROOT	_	_
+
+1	metro	metro	NOM	NOM	id=168	0	ROOT	_	_
+
+1	quadrato	quadrare	VER:pper	VER:pper	id=169	0	ROOT	_	_
+
+1	o	o	CON	CON	id=170	0	ROOT	_	_
+
+1	,	,	PON	PON	id=171	0	ROOT	_	_
+
+1	detto	dire	VER:pper	VER:pper	id=172	0	ROOT	_	_
+
+1	altrimenti	altrimenti	ADV	ADV	id=173	0	ROOT	_	_
+
+1	,	,	PON	PON	id=174	0	ROOT	_	_
+
+1	circa	circa	ADV	ADV	id=175	0	ROOT	_	_
+
+1	1050	@card@	NUM	NUM	id=176	0	ROOT	_	_
+
+1	centimetri	centimetro	NOM	NOM	id=177	0	ROOT	_	_
+
+1	quadrati	quadrato	ADJ	ADJ	id=178	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=179	0	ROOT	_	_
+
+1	chilo-bambini	<unknown>	NOM	NOM	id=180	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=181	0	ROOT	_	_
+

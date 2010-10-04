@@ -87,7 +87,7 @@
 39	fra	fra	SP	SP	id=136	38	other	_	_
 40	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=137	39	nobj	_	_
 41	ophold	ophold	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=138	40	nobj	_	_
-42	på	på	SP	SP	id=139	41	pobj.pobj	_	_
+42	på	på	SP	SP	id=139	0	ROOT	_	_
 43	idrætshøjskole	idrætshøjskole	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=140	42	nobj	_	_
 44	.	.	XP	XP	id=141	5	pnct	_	_
 
@@ -156,7 +156,7 @@
 14	stoppede	stoppe	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=214	4	vobj	_	_
 15	med	med	SP	SP	id=215	14	time	_	_
 16	udløbet	udløb	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=216	15	nobj	_	_
-17	af	af	SP	SP	id=217	16	pobj.subj	_	_
+17	af	af	SP	SP	id=217	0	ROOT	_	_
 18	Eva	Eva	NP	NP--U==-	case=unmarked|id=218	19	namef	_	_
 19	Rothmanns	Rothmann	NP	NP--G==-	case=gen|id=219	17	nobj	_	_
 20	seks	seks	AC	AC---U=--	case=unmarked|id=220	22	attr	_	_

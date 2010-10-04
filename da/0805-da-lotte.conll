@@ -1,5 +1,5 @@
 1	Samlingen	samling	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=43	12	subj	_	_
-2	af	af	SP	SP	id=44	1	pobj.dobj	_	_
+2	af	af	SP	SP	id=44	0	ROOT	_	_
 3	hans	hans	PO	PO3[CN][SP]USNU	person=3|gender=common/neuter|number=sing/plur|case=unmarked|possessor=sing|reflexive=no|register=unmarked|id=45	2	nobj	_	_
 4	artikler	artikel	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=46	3	possd	_	_
 5	og	og	CC	CC	id=47	6	coord	_	_
@@ -39,7 +39,7 @@
 16	læser	læser	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=82	14	nobj	_	_
 17	og	og	CC	CC	id=83	18	coord	_	_
 18	fortolker	fortolker	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=84	16	conj	_	_
-19	af	af	SP	SP	id=85	16	pobj.dobj	_	_
+19	af	af	SP	SP	id=85	0	ROOT	_	_
 20	især	især	RG	RGU	degree=unmarked|id=86	21	eval	_	_
 21	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=87	19	nobj	_	_
 22	fantastiske	fantastisk	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=88	21	attr	_	_
@@ -75,7 +75,7 @@
 1	Isprængt	Isprængt	XX	XX	id=121	0	ROOT	_	_
 2	oplevelsesstærke	oplevelsesstærk	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=122	3	attr	_	_
 3	kommentarer	kommentar	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=123	1	nobj	_	_
-4	til	til	SP	SP	id=124	3	pobj.dobj	_	_
+4	til	til	SP	SP	id=124	0	ROOT	_	_
 5	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=125	4	nobj	_	_
 6	politiske	politisk	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=126	5	attr	_	_
 7	situation	situation	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=127	5	nobj	_	_
@@ -127,7 +127,7 @@
 18	med	med	SP	SP	id=176	0	ROOT	_	_
 19	direkte	direkte	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=177	20	attr	_	_
 20	henvisning	henvisning	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=178	18	nobj	_	_
-21	til	til	SP	SP	id=179	20	pobj.dobj	_	_
+21	til	til	SP	SP	id=179	0	ROOT	_	_
 22	denne	denne	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=180	21	nobj	_	_
 23	genres	genre	NC	NCCSG==I	gender=common|number=sing|case=gen|def=indef|id=181	22	nobj	_	_
 24	moderne	moderne	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=182	22	attr	_	_

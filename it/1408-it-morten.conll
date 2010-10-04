@@ -1,0 +1,484 @@
+1	Che	che	PRO:rela	PRO:rela	id=0	0	ROOT	_	_
+
+1	cosa	cosa	NOM	NOM	id=1	0	ROOT	_	_
+
+1	pensi	pensare	VER:pres	VER:pres	id=2	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=3	0	ROOT	_	_
+
+1	Partito	partito	NOM	NOM	id=4	0	ROOT	_	_
+
+1	Socialdemocratico	socialdemocratico	ADJ	ADJ	id=5	0	ROOT	_	_
+
+1	danese	danese	ADJ	ADJ	id=6	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=7	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=8	0	ROOT	_	_
+
+1	cosa	cosa	NOM	NOM	id=9	0	ROOT	_	_
+
+1	farà	<unknown>	NOM	NOM	id=10	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=11	0	ROOT	_	_
+
+1	Danimarca	Danimarca	NPR	NPR	id=12	0	ROOT	_	_
+
+1	dopo	dopo	CON	CON	id=13	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=14	0	ROOT	_	_
+
+1	no	no	ADV	ADV	id=15	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=16	0	ROOT	_	_
+
+1	referendum	referendum	NOM	NOM	id=17	0	ROOT	_	_
+
+1	sul	sul	PRE:det	PRE:det	id=18	0	ROOT	_	_
+
+1	Trattato	trattato	NOM	NOM	id=19	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=20	0	ROOT	_	_
+
+1	Maastricht	Maastricht	NPR	NPR	id=21	0	ROOT	_	_
+
+1	dipende	dipendere	VER:pres	VER:pres	id=22	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=23	0	ROOT	_	_
+
+1	chi	chi	PRO:rela	PRO:rela	id=24	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=25	0	ROOT	_	_
+
+1	pone	porre	VER:pres	VER:pres	id=26	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=27	0	ROOT	_	_
+
+1	domanda	domanda	NOM	NOM	id=28	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=29	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=30	0	ROOT	_	_
+
+1	partito	partito	NOM	NOM	id=31	0	ROOT	_	_
+
+1	è	<unknown>	NOM	NOM	id=32	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=33	0	ROOT	_	_
+
+1	fucina	fucina	NOM	NOM	id=34	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=35	0	ROOT	_	_
+
+1	molti	molto	PRO:indef	PRO:indef	id=36	0	ROOT	_	_
+
+1	punti	punto	NOM	NOM	id=37	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=38	0	ROOT	_	_
+
+1	vista	vista	NOM	NOM	id=39	0	ROOT	_	_
+
+1	interessanti	interessante	ADJ	ADJ	id=40	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=41	0	ROOT	_	_
+
+1	A	a	PRE	PRE	id=42	0	ROOT	_	_
+
+1	Christiansborg	<unknown>	NOM	NOM	id=43	0	ROOT	_	_
+
+1	,	,	PON	PON	id=44	0	ROOT	_	_
+
+1	sede	sede	NOM	NOM	id=45	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=46	0	ROOT	_	_
+
+1	parlamento	parlamento	NOM	NOM	id=47	0	ROOT	_	_
+
+1	danese	danese	ADJ	ADJ	id=48	0	ROOT	_	_
+
+1	,	,	PON	PON	id=49	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=50	0	ROOT	_	_
+
+1	nuovo	nuovo	ADJ	ADJ	id=51	0	ROOT	_	_
+
+1	capo	capo	NOM	NOM	id=52	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=53	0	ROOT	_	_
+
+1	partito	partito	NOM	NOM	id=54	0	ROOT	_	_
+
+1	Poul	<unknown>	NOM	NOM	id=55	0	ROOT	_	_
+
+1	Nyrup	<unknown>	NOM	NOM	id=56	0	ROOT	_	_
+
+1	Rasmussen	<unknown>	NOM	NOM	id=57	0	ROOT	_	_
+
+1	appoggia	appoggiare	VER:pres	VER:pres	id=58	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=59	0	ROOT	_	_
+
+1	posizione	posizione	NOM	NOM	id=60	0	ROOT	_	_
+
+1	ufficiale	ufficiale	ADJ	ADJ	id=61	0	ROOT	_	_
+
+1	,	,	PON	PON	id=62	0	ROOT	_	_
+
+1	secondo	secondo	PRE	PRE	id=63	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=64	0	ROOT	_	_
+
+1	quale	quale	PRO:rela	PRO:rela	id=65	0	ROOT	_	_
+
+1	sarebbe	essere	VER:cond	VER:cond	id=66	0	ROOT	_	_
+
+1	prematuro	prematuro	ADJ	ADJ	id=67	0	ROOT	_	_
+
+1	avanzare	avanzare	VER:infi	VER:infi	id=68	0	ROOT	_	_
+
+1	proposte	proposta	NOM	NOM	id=69	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=70	0	ROOT	_	_
+
+1	risolvere	risolvere	VER:infi	VER:infi	id=71	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=72	0	ROOT	_	_
+
+1	questione	questione	NOM	NOM	id=73	0	ROOT	_	_
+
+1	prima	primo	ADJ	ADJ	id=74	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=75	0	ROOT	_	_
+
+1	referendum	referendum	NOM	NOM	id=76	0	ROOT	_	_
+
+1	francese	francese	ADJ	ADJ	id=77	0	ROOT	_	_
+
+1	ed	ed	CON	CON	id=78	0	ROOT	_	_
+
+1	inglese	inglese	ADJ	ADJ	id=79	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=80	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=81	0	ROOT	_	_
+
+1	ratificazione	ratificazione	NOM	NOM	id=82	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=83	0	ROOT	_	_
+
+1	Trattato	trattato	NOM	NOM	id=84	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=85	0	ROOT	_	_
+
+1	Maastricht	Maastricht	NPR	NPR	id=86	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=87	0	ROOT	_	_
+
+1	Una	una	DET:indef	DET:indef	id=88	0	ROOT	_	_
+
+1	posizione	posizione	NOM	NOM	id=89	0	ROOT	_	_
+
+1	tattica	tattico	ADJ	ADJ	id=90	0	ROOT	_	_
+
+1	condivisa	condividere	VER:pper	VER:pper	id=91	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=92	0	ROOT	_	_
+
+1	dagli	dal	PRE:det	PRE:det	id=93	0	ROOT	_	_
+
+1	altri	altro	ADJ	ADJ	id=94	0	ROOT	_	_
+
+1	partiti	partito	NOM	NOM	id=95	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=96	0	ROOT	_	_
+
+1	coalizione	coalizione	NOM	NOM	id=97	0	ROOT	_	_
+
+1	governativa	governativo	ADJ	ADJ	id=98	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=99	0	ROOT	_	_
+
+1	Nel	nel	PRE:det	PRE:det	id=100	0	ROOT	_	_
+
+1	giornale	giornale	NOM	NOM	id=101	0	ROOT	_	_
+
+1	Det	<unknown>	ADJ	ADJ	id=102	0	ROOT	_	_
+
+1	Fri	<unknown>	ADJ	ADJ	id=103	0	ROOT	_	_
+
+1	Aktuelt	<unknown>	NOM	NOM	id=104	0	ROOT	_	_
+
+1	,	,	PON	PON	id=105	0	ROOT	_	_
+
+1	vicino	vicino	ADJ	ADJ	id=106	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=107	0	ROOT	_	_
+
+1	Partito	partito	NOM	NOM	id=108	0	ROOT	_	_
+
+1	Socialdemocratico	socialdemocratico	ADJ	ADJ	id=109	0	ROOT	_	_
+
+1	,	,	PON	PON	id=110	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=111	0	ROOT	_	_
+
+1	nota	nota	NOM	NOM	id=112	0	ROOT	_	_
+
+1	parlamentare	parlamentare	ADJ	ADJ	id=113	0	ROOT	_	_
+
+1	socialdemocratica	socialdemocratico	ADJ	ADJ	id=114	0	ROOT	_	_
+
+1	Ritt	Ritt	NPR	NPR	id=115	0	ROOT	_	_
+
+1	Bjerregaard	Bjerregaard	NPR	NPR	id=116	0	ROOT	_	_
+
+1	sollecita	sollecitare	VER:pres	VER:pres	id=117	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=118	0	ROOT	_	_
+
+1	nuovo	nuovo	ADJ	ADJ	id=119	0	ROOT	_	_
+
+1	referendum	referendum	NOM	NOM	id=120	0	ROOT	_	_
+
+1	avente	avere	VER:ppre	VER:ppre	id=121	0	ROOT	_	_
+
+1	come	come	PRE	PRE	id=122	0	ROOT	_	_
+
+1	materia	materia	NOM	NOM	id=123	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=124	0	ROOT	_	_
+
+1	proposta	proposta	NOM	NOM	id=125	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=126	0	ROOT	_	_
+
+1	assomiglia	assomigliare	VER:pres	VER:pres	id=127	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=128	0	ROOT	_	_
+
+1	Trattato	trattato	NOM	NOM	id=129	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=130	0	ROOT	_	_
+
+1	Maastricht	Maastricht	NPR	NPR	id=131	0	ROOT	_	_
+
+1	già	<unknown>	NOM	NOM	id=132	0	ROOT	_	_
+
+1	bocciato	bocciare	VER:pper	VER:pper	id=133	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=134	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=135	0	ROOT	_	_
+
+1	Bjerregaard	Bjerregaard	NPR	NPR	id=136	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=137	0	ROOT	_	_
+
+1	intende	intendere	VER:pres	VER:pres	id=138	0	ROOT	_	_
+
+1	adeguarsi	adeguare	VER:infi	VER:infi	id=139	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=140	0	ROOT	_	_
+
+1	risultato	risultato	NOM	NOM	id=141	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=142	0	ROOT	_	_
+
+1	referendum	referendum	NOM	NOM	id=143	0	ROOT	_	_
+
+1	svoltosi	svolgere	VER:pper	VER:pper	id=144	0	ROOT	_	_
+
+1	perché	<unknown>	NOM	NOM	id=145	0	ROOT	_	_
+
+1	,	,	PON	PON	id=146	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=147	0	ROOT	_	_
+
+1	suo	suo	PRO:poss	PRO:poss	id=148	0	ROOT	_	_
+
+1	avviso	avviso	NOM	NOM	id=149	0	ROOT	_	_
+
+1	,	,	PON	PON	id=150	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=151	0	ROOT	_	_
+
+1	esistono	esistere	VER:pres	VER:pres	id=152	0	ROOT	_	_
+
+1	soluzioni	soluzione	NOM	NOM	id=153	0	ROOT	_	_
+
+1	intermedie	intermedio	ADJ	ADJ	id=154	0	ROOT	_	_
+
+1	:	:	PON	PON	id=155	0	ROOT	_	_
+
+1	o	o	CON	CON	id=156	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=157	0	ROOT	_	_
+
+1	è	<unknown>	NOM	NOM	id=158	0	ROOT	_	_
+
+1	dentro	dentro	ADV	ADV	id=159	0	ROOT	_	_
+
+1	o	o	CON	CON	id=160	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=161	0	ROOT	_	_
+
+1	è	<unknown>	NOM	NOM	id=162	0	ROOT	_	_
+
+1	fuori	fuori	ADV	ADV	id=163	0	ROOT	_	_
+
+1	dalla	dal	PRE:det	PRE:det	id=164	0	ROOT	_	_
+
+1	futura	futuro	ADJ	ADJ	id=165	0	ROOT	_	_
+
+1	Unione	unione	NOM	NOM	id=166	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=167	0	ROOT	_	_
+
+1	Un	un	DET:indef	DET:indef	id=168	0	ROOT	_	_
+
+1	terzo	terzo	ADJ	ADJ	id=169	0	ROOT	_	_
+
+1	politico	politico	ADJ	ADJ	id=170	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=171	0	ROOT	_	_
+
+1	spicco	spicco	NOM	NOM	id=172	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=173	0	ROOT	_	_
+
+1	Socialdemocrazia	socialdemocrazia	NOM	NOM	id=174	0	ROOT	_	_
+
+1	danese	danese	ADJ	ADJ	id=175	0	ROOT	_	_
+
+1	,	,	PON	PON	id=176	0	ROOT	_	_
+
+1	l’ex	<unknown>	NOM	NOM	id=177	0	ROOT	_	_
+
+1	capo	capo	NOM	NOM	id=178	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=179	0	ROOT	_	_
+
+1	partito	partito	NOM	NOM	id=180	0	ROOT	_	_
+
+1	Svend	<unknown>	NOM	NOM	id=181	0	ROOT	_	_
+
+1	Auken	<unknown>	NOM	NOM	id=182	0	ROOT	_	_
+
+1	,	,	PON	PON	id=183	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=184	0	ROOT	_	_
+
+1	fa	fare	VER:pres	VER:pres	id=185	0	ROOT	_	_
+
+1	promotore	promotore	ADJ	ADJ	id=186	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=187	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=188	0	ROOT	_	_
+
+1	altro	altro	ADJ	ADJ	id=189	0	ROOT	_	_
+
+1	e	e	CON	CON	id=190	0	ROOT	_	_
+
+1	differente	differente	ADJ	ADJ	id=191	0	ROOT	_	_
+
+1	punto	punto	NOM	NOM	id=192	0	ROOT	_	_
+
+1	vista	vistare	VER:pres	VER:pres	id=193	0	ROOT	_	_
+
+1	riportato	riportare	VER:pper	VER:pper	id=194	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=195	0	ROOT	_	_
+
+1	giornale	giornale	NOM	NOM	id=196	0	ROOT	_	_
+
+1	parlamentare	parlamentare	ADJ	ADJ	id=197	0	ROOT	_	_
+
+1	inglese	inglese	ADJ	ADJ	id=198	0	ROOT	_	_
+
+1	Parliamentary	<unknown>	NOM	NOM	id=199	0	ROOT	_	_
+
+1	Brief	<unknown>	NOM	NOM	id=200	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=201	0	ROOT	_	_
+
+1	In	in	PRE	PRE	id=202	0	ROOT	_	_
+
+1	quella	quello	PRO:demo	PRO:demo	id=203	0	ROOT	_	_
+
+1	sede	sede	NOM	NOM	id=204	0	ROOT	_	_
+
+1	Auken	<unknown>	NOM	NOM	id=205	0	ROOT	_	_
+
+1	definisce	definire	VER:pres	VER:pres	id=206	0	ROOT	_	_
+
+1	l’idea	<unknown>	ADJ	ADJ	id=207	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=208	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=209	0	ROOT	_	_
+
+1	nuovo	nuovo	ADJ	ADJ	id=210	0	ROOT	_	_
+
+1	referendum	referendum	NOM	NOM	id=211	0	ROOT	_	_
+
+1	come	come	PRE	PRE	id=212	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=213	0	ROOT	_	_
+
+1	desiderio	desiderio	NOM	NOM	id=214	0	ROOT	_	_
+
+1	inconsistente	inconsistente	ADJ	ADJ	id=215	0	ROOT	_	_
+
+1	,	,	PON	PON	id=216	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=217	0	ROOT	_	_
+
+1	momento	momento	NOM	NOM	id=218	0	ROOT	_	_
+
+1	che	che	CON	CON	id=219	0	ROOT	_	_
+
+1	l’esito	<unknown>	NOM	NOM	id=220	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=221	0	ROOT	_	_
+
+1	voto	voto	NOM	NOM	id=222	0	ROOT	_	_
+
+1	danese	danese	ADJ	ADJ	id=223	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=224	0	ROOT	_	_
+
+1	validità	<unknown>	NOM	NOM	id=225	0	ROOT	_	_
+
+1	giuridica	giuridico	ADJ	ADJ	id=226	0	ROOT	_	_
+
+1	e	e	CON	CON	id=227	0	ROOT	_	_
+
+1	perciò	<unknown>	NOM	NOM	id=228	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=229	0	ROOT	_	_
+
+1	Danimarca	Danimarca	NPR	NPR	id=230	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=231	0	ROOT	_	_
+
+1	è	<unknown>	NOM	NOM	id=232	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=233	0	ROOT	_	_
+
+1	grado	grado	NOM	NOM	id=234	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=235	0	ROOT	_	_
+
+1	ratificare	ratificare	VER:infi	VER:infi	id=236	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=237	0	ROOT	_	_
+
+1	Trattato	trattato	NOM	NOM	id=238	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=239	0	ROOT	_	_
+
+1	Maastricht	Maastricht	NPR	NPR	id=240	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=241	0	ROOT	_	_
+

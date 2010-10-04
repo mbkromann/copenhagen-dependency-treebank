@@ -1,0 +1,350 @@
+1	Come	come	PRE	PRE	id=2	0	ROOT	_	_
+
+1	ringraziamento	ringraziamento	NOM	NOM	id=3	0	ROOT	_	_
+
+1	alle	al	PRE:det	PRE:det	id=4	0	ROOT	_	_
+
+1	giovani	giovane	ADJ	ADJ	id=5	0	ROOT	_	_
+
+1	donne	donna	NOM	NOM	id=6	0	ROOT	_	_
+
+1	arrivano	arrivare	VER:pres	VER:pres	id=7	0	ROOT	_	_
+
+1	umidi	umido	ADJ	ADJ	id=8	0	ROOT	_	_
+
+1	baci	bacio	NOM	NOM	id=9	0	ROOT	_	_
+
+1	sulla	sul	PRE:det	PRE:det	id=10	0	ROOT	_	_
+
+1	guancia	guancia	NOM	NOM	id=11	0	ROOT	_	_
+
+1	o	o	CON	CON	id=12	0	ROOT	_	_
+
+1	abbracci	abbraccio	NOM	NOM	id=13	0	ROOT	_	_
+
+1	sudati	sudato	ADJ	ADJ	id=14	0	ROOT	_	_
+
+1	mentre	mentre	CON	CON	id=15	0	ROOT	_	_
+
+1	ai	al	PRE:det	PRE:det	id=16	0	ROOT	_	_
+
+1	bambini	bambino	NOM	NOM	id=17	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=18	0	ROOT	_	_
+
+1	destinate	destinare	VER:pper	VER:pper	id=19	0	ROOT	_	_
+
+1	pacche	<unknown>	ADJ	ADJ	id=20	0	ROOT	_	_
+
+1	sulle	sul	PRE:det	PRE:det	id=21	0	ROOT	_	_
+
+1	piccole	piccolo	ADJ	ADJ	id=22	0	ROOT	_	_
+
+1	mani	mani|mano	NOM	NOM	id=23	0	ROOT	_	_
+
+1	,	,	PON	PON	id=24	0	ROOT	_	_
+
+1	tese	tesa	NOM	NOM	id=25	0	ROOT	_	_
+
+1	proprio	proprio	ADJ	ADJ	id=26	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=27	0	ROOT	_	_
+
+1	quello	quello	PRO:demo	PRO:demo	id=28	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=29	0	ROOT	_	_
+
+1	I	il	DET:def	DET:def	id=34	0	ROOT	_	_
+
+1	700	@card@	NUM	NUM	id=35	0	ROOT	_	_
+
+1	poliziotti	poliziotto	NOM	NOM	id=36	0	ROOT	_	_
+
+1	schierati	schierare	VER:pper	VER:pper	id=37	0	ROOT	_	_
+
+1	partecipano	partecipare	VER:pres	VER:pres	id=38	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=39	0	ROOT	_	_
+
+1	entusiasmo	entusiasmo	NOM	NOM	id=40	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=41	0	ROOT	_	_
+
+1	festa	festa	NOM	NOM	id=42	0	ROOT	_	_
+
+1	e	e	CON	CON	id=43	0	ROOT	_	_
+
+1	urlano	urlare	VER:pres	VER:pres	id=44	0	ROOT	_	_
+
+1	consigli	consiglio	NOM	NOM	id=45	0	ROOT	_	_
+
+1	e	e	CON	CON	id=46	0	ROOT	_	_
+
+1	incitazioni	<unknown>	NOM	NOM	id=47	0	ROOT	_	_
+
+1	ai	al	PRE:det	PRE:det	id=48	0	ROOT	_	_
+
+1	corridori	corridore	NOM	NOM	id=49	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=50	0	ROOT	_	_
+
+1	gara	gara	NOM	NOM	id=51	0	ROOT	_	_
+
+1	,	,	PON	PON	id=52	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=53	0	ROOT	_	_
+
+1	nonostante	nonostante	PRE	PRE	id=54	0	ROOT	_	_
+
+1	dolori	dolore	NOM	NOM	id=55	0	ROOT	_	_
+
+1	,	,	PON	PON	id=56	0	ROOT	_	_
+
+1	spossatezza	spossatezza	NOM	NOM	id=57	0	ROOT	_	_
+
+1	e	e	CON	CON	id=58	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=59	0	ROOT	_	_
+
+1	intralcio	intralcio	NOM	NOM	id=60	0	ROOT	_	_
+
+1	costituito	costituire	VER:pper	VER:pper	id=61	0	ROOT	_	_
+
+1	dai	dal	PRE:det	PRE:det	id=62	0	ROOT	_	_
+
+1	bicchieri	bicchiere	NOM	NOM	id=63	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=64	0	ROOT	_	_
+
+1	plastica	plastica	NOM	NOM	id=65	0	ROOT	_	_
+
+1	,	,	PON	PON	id=66	0	ROOT	_	_
+
+1	osservano	osservare	VER:pres	VER:pres	id=67	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=68	0	ROOT	_	_
+
+1	disciplina	disciplina	NOM	NOM	id=69	0	ROOT	_	_
+
+1	veramente	veramente	ADV	ADV	id=70	0	ROOT	_	_
+
+1	incredibile	incredibile	ADJ	ADJ	id=71	0	ROOT	_	_
+
+1	,	,	PON	PON	id=72	0	ROOT	_	_
+
+1	mantenendo	mantenere	VER:geru	VER:geru	id=73	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=74	0	ROOT	_	_
+
+1	massimo	massimo	ADJ	ADJ	id=75	0	ROOT	_	_
+
+1	rispetto	rispetto	NOM	NOM	id=76	0	ROOT	_	_
+
+1	verso	verso	PRE	PRE	id=77	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=78	0	ROOT	_	_
+
+1	altri	altro	ADJ	ADJ	id=79	0	ROOT	_	_
+
+1	corridori	corridore	NOM	NOM	id=80	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=81	0	ROOT	_	_
+
+1	Ad	ad	PRE	PRE	id=86	0	ROOT	_	_
+
+1	ogni	ogni	ADJ	ADJ	id=87	0	ROOT	_	_
+
+1	miglio	miglio	NOM	NOM	id=88	0	ROOT	_	_
+
+1	inglese	inglese	ADJ	ADJ	id=89	0	ROOT	_	_
+
+1	e	e	CON	CON	id=90	0	ROOT	_	_
+
+1	ogni	ogni	ADJ	ADJ	id=91	0	ROOT	_	_
+
+1	cinque	cinque	ADJ	ADJ	id=92	0	ROOT	_	_
+
+1	chilometri	chilometro	NOM	NOM	id=93	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=94	0	ROOT	_	_
+
+1	installato	installare	VER:pper	VER:pper	id=95	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=96	0	ROOT	_	_
+
+1	orologio	orologio	NOM	NOM	id=97	0	ROOT	_	_
+
+1	così	così	CON	CON	id=98	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=99	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=100	0	ROOT	_	_
+
+1	corridori	corridore	NOM	NOM	id=101	0	ROOT	_	_
+
+1	possano	potere	VER:cpre	VER:cpre	id=102	0	ROOT	_	_
+
+1	calcolare	calcolare	VER:infi	VER:infi	id=103	0	ROOT	_	_
+
+1	se	se	PRO:refl	PRO:refl	id=104	0	ROOT	_	_
+
+1	stanno	stare	VER:pres	VER:pres	id=105	0	ROOT	_	_
+
+1	mantenendo	mantenere	VER:geru	VER:geru	id=106	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=107	0	ROOT	_	_
+
+1	loro	loro	PRO:poss	PRO:poss	id=108	0	ROOT	_	_
+
+1	tempi	tempo	NOM	NOM	id=109	0	ROOT	_	_
+
+1	personali	personale	ADJ	ADJ	id=110	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=111	0	ROOT	_	_
+
+1	Lungo	lungo	PRE	PRE	id=114	0	ROOT	_	_
+
+1	tutto	tutto	ADJ	ADJ	id=115	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=116	0	ROOT	_	_
+
+1	percorso	percorso	NOM	NOM	id=117	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=118	0	ROOT	_	_
+
+1	trovano	trovare	VER:pres	VER:pres	id=119	0	ROOT	_	_
+
+1	banchetti	banchetto	NOM	NOM	id=120	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=121	0	ROOT	_	_
+
+1	bevande	bevanda	NOM	NOM	id=122	0	ROOT	_	_
+
+1	,	,	PON	PON	id=123	0	ROOT	_	_
+
+1	dove	dove	ADV	ADV	id=124	0	ROOT	_	_
+
+1	entusiasti	entusiasta	NOM	NOM	id=125	0	ROOT	_	_
+
+1	volontari	volontario	ADJ	ADJ	id=126	0	ROOT	_	_
+
+1	sfilano	sfilare	VER:pres	VER:pres	id=127	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=128	0	ROOT	_	_
+
+1	tazze	tazza	NOM	NOM	id=129	0	ROOT	_	_
+
+1	e	e	CON	CON	id=130	0	ROOT	_	_
+
+1	bicchieri	bicchiere	NOM	NOM	id=131	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=132	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=133	0	ROOT	_	_
+
+1	partecipanti	partecipante	NOM	NOM	id=134	0	ROOT	_	_
+
+1	possono	potere	VER:pres	VER:pres	id=135	0	ROOT	_	_
+
+1	afferrare	afferrare	VER:infi	VER:infi	id=136	0	ROOT	_	_
+
+1	durante	durante	PRE	PRE	id=137	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=138	0	ROOT	_	_
+
+1	corsa	corsa|corso	NOM	NOM	id=139	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=140	0	ROOT	_	_
+
+1	Tutti	tutto	PRO:indef	PRO:indef	id=145	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=146	0	ROOT	_	_
+
+1	possibili	possibile	ADJ	ADJ	id=147	0	ROOT	_	_
+
+1	steccati	steccato	NOM	NOM	id=148	0	ROOT	_	_
+
+1	vengono	venire	VER:pres	VER:pres	id=149	0	ROOT	_	_
+
+1	usati	usare	VER:pper	VER:pper	id=150	0	ROOT	_	_
+
+1	come	come	PRE	PRE	id=151	0	ROOT	_	_
+
+1	vespasiano	vespasiano	NOM	NOM	id=152	0	ROOT	_	_
+
+1	dai	dal	PRE:det	PRE:det	id=153	0	ROOT	_	_
+
+1	corridori	corridore	NOM	NOM	id=154	0	ROOT	_	_
+
+1	maschi	maschio	ADJ	ADJ	id=155	0	ROOT	_	_
+
+1	,	,	PON	PON	id=156	0	ROOT	_	_
+
+1	mentre	mentre	CON	CON	id=157	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=158	0	ROOT	_	_
+
+1	povere	povero	ADJ	ADJ	id=159	0	ROOT	_	_
+
+1	donne	donna	NOM	NOM	id=160	0	ROOT	_	_
+
+1	devono	dovere	VER:pres	VER:pres	id=161	0	ROOT	_	_
+
+1	perdere	perdere	VER:infi	VER:infi	id=162	0	ROOT	_	_
+
+1	minuti	minuto	NOM	NOM	id=163	0	ROOT	_	_
+
+1	preziosi	prezioso	ADJ	ADJ	id=164	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=165	0	ROOT	_	_
+
+1	coda	coda	NOM	NOM	id=166	0	ROOT	_	_
+
+1	davanti	davanti	ADJ	ADJ	id=167	0	ROOT	_	_
+
+1	alle	al	PRE:det	PRE:det	id=168	0	ROOT	_	_
+
+1	toilette	toilette	NOM	NOM	id=169	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=170	0	ROOT	_	_
+
+1	Gli	il	DET:def	DET:def	id=173	0	ROOT	_	_
+
+1	infermieri	infermiere	NOM	NOM	id=174	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=175	0	ROOT	_	_
+
+1	pronto	pronto	ADJ	ADJ	id=176	0	ROOT	_	_
+
+1	soccorso	soccorso	NOM	NOM	id=177	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=178	0	ROOT	_	_
+
+1	prodigano	prodigare	VER:pres	VER:pres	id=179	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=180	0	ROOT	_	_
+
+1	applicare	applicare	VER:infi	VER:infi	id=181	0	ROOT	_	_
+
+1	cerotti	cerotto	NOM	NOM	id=182	0	ROOT	_	_
+
+1	,	,	PON	PON	id=183	0	ROOT	_	_
+
+1	curare	curare	VER:infi	VER:infi	id=184	0	ROOT	_	_
+
+1	ustioni	ustione	NOM	NOM	id=185	0	ROOT	_	_
+
+1	e	e	CON	CON	id=186	0	ROOT	_	_
+
+1	alleviare	alleviare	VER:infi	VER:infi	id=187	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=188	0	ROOT	_	_
+
+1	crampi	crampo	NOM	NOM	id=189	0	ROOT	_	_
+
+1	ai	al	PRE:det	PRE:det	id=190	0	ROOT	_	_
+
+1	muscoli	muscolo	NOM	NOM	id=191	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=192	0	ROOT	_	_
+

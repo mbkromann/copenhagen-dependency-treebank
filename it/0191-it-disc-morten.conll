@@ -1,0 +1,496 @@
+1	Non	non	ADV	ADV	id=2	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=3	0	ROOT	_	_
+
+1	stata	essere|stare	VER:pper	VER:pper	id=4	0	ROOT	_	_
+
+1	commentata	commentare	VER:pper	VER:pper	id=5	0	ROOT	_	_
+
+1	nemmeno	nemmeno	ADV	ADV	id=6	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=7	0	ROOT	_	_
+
+1	critica	critica	NOM	NOM	id=8	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=9	0	ROOT	_	_
+
+1	membro	membro	NOM	NOM	id=10	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=11	0	ROOT	_	_
+
+1	Folketing	<unknown>	NOM	NOM	id=12	0	ROOT	_	_
+
+1	Arne	<unknown>	ADJ	ADJ	id=13	0	ROOT	_	_
+
+1	Melchior	Melchior	NPR	NPR	id=14	0	ROOT	_	_
+
+1	,	,	PON	PON	id=15	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=16	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=17	0	ROOT	_	_
+
+1	presentato	presentare	VER:pper	VER:pper	id=18	0	ROOT	_	_
+
+1	lo	il	DET:def	DET:def	id=19	0	ROOT	_	_
+
+1	stesso	stesso	ADJ	ADJ	id=20	0	ROOT	_	_
+
+1	dato	dato	NOM	NOM	id=21	0	ROOT	_	_
+
+1	e	e	CON	CON	id=22	0	ROOT	_	_
+
+1	cioè	cioè	ADV	ADV	id=23	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=24	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=25	0	ROOT	_	_
+
+1	direzione	direzione	NOM	NOM	id=26	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=27	0	ROOT	_	_
+
+1	Kræftens	<unknown>	NOM	NOM	id=28	0	ROOT	_	_
+
+1	Bekæmpelse	<unknown>	ADJ	ADJ	id=29	0	ROOT	_	_
+
+1	(	(	PON	PON	id=30	0	ROOT	_	_
+
+1	Lotta	<unknown>	VER:pper	VER:pper	id=31	0	ROOT	_	_
+
+1	contro	contro	PRE	PRE	id=32	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=33	0	ROOT	_	_
+
+1	tumori	tumore	NOM	NOM	id=34	0	ROOT	_	_
+
+1	)	)	PON	PON	id=35	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=36	0	ROOT	_	_
+
+1	siede	sedere	VER:pres	VER:pres	id=37	0	ROOT	_	_
+
+1	neanche	neanche	ADV	ADV	id=38	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=39	0	ROOT	_	_
+
+1	ricercatore	ricercatore	NOM	NOM	id=40	0	ROOT	_	_
+
+1	attivo	attivo	ADJ	ADJ	id=41	0	ROOT	_	_
+
+1	sul	sul	PRE:det	PRE:det	id=42	0	ROOT	_	_
+
+1	cancro	cancro	NOM	NOM	id=43	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=44	0	ROOT	_	_
+
+1	Lo	il	DET:def	DET:def	id=49	0	ROOT	_	_
+
+1	stesso	stesso	ADJ	ADJ	id=50	0	ROOT	_	_
+
+1	destino	destino	NOM	NOM	id=51	0	ROOT	_	_
+
+1	tocca	tocco	ADJ	ADJ	id=52	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=53	0	ROOT	_	_
+
+1	domanda	domanda	NOM	NOM	id=54	0	ROOT	_	_
+
+1	principale	principale	ADJ	ADJ	id=55	0	ROOT	_	_
+
+1	presentata	presentare	VER:pper	VER:pper	id=56	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=57	0	ROOT	_	_
+
+1	Ole	Ole	NPR	NPR	id=58	0	ROOT	_	_
+
+1	Bang	bang	NOM	NOM	id=59	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=60	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=61	0	ROOT	_	_
+
+1	allegato	allegare	VER:pper	VER:pper	id=62	0	ROOT	_	_
+
+1	inviato	inviare	VER:pper	VER:pper	id=63	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=64	0	ROOT	_	_
+
+1	me	me	PRO:pers	PRO:pers	id=65	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=66	0	ROOT	_	_
+
+1	13	@card@	NUM	NUM	id=67	0	ROOT	_	_
+
+1	ottobre	ottobre	NOM	NOM	id=68	0	ROOT	_	_
+
+1	,	,	PON	PON	id=69	0	ROOT	_	_
+
+1	sulla	sul	PRE:det	PRE:det	id=70	0	ROOT	_	_
+
+1	questione	questione	NOM	NOM	id=71	0	ROOT	_	_
+
+1	se	se	CON	CON	id=72	0	ROOT	_	_
+
+1	Kræftens	<unknown>	NOM	NOM	id=73	0	ROOT	_	_
+
+1	Bekæmpelse	<unknown>	ADJ	ADJ	id=74	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=75	0	ROOT	_	_
+
+1	consideri	considerare	VER:pres	VER:pres	id=76	0	ROOT	_	_
+
+1	un'	un'	DET:indef	DET:indef	id=77	0	ROOT	_	_
+
+1	attività	attività	NOM	NOM	id=78	0	ROOT	_	_
+
+1	orientata	orientare	VER:pper	VER:pper	id=79	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=80	0	ROOT	_	_
+
+1	profitto	profitto	NOM	NOM	id=81	0	ROOT	_	_
+
+1	oppure	oppure	CON	CON	id=82	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=83	0	ROOT	_	_
+
+1	mediatore	mediatore	NOM	NOM	id=84	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=85	0	ROOT	_	_
+
+1	sussidi	sussidio	NOM	NOM	id=86	0	ROOT	_	_
+
+1	dalla	dal	PRE:det	PRE:det	id=87	0	ROOT	_	_
+
+1	popolazione	popolazione	NOM	NOM	id=88	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=89	0	ROOT	_	_
+
+1	ricerca	ricerca	NOM	NOM	id=90	0	ROOT	_	_
+
+1	sul	sul	PRE:det	PRE:det	id=91	0	ROOT	_	_
+
+1	cancro	cancro	NOM	NOM	id=92	0	ROOT	_	_
+
+1	e	e	CON	CON	id=93	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=94	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=95	0	ROOT	_	_
+
+1	assistenza	assistenza	NOM	NOM	id=96	0	ROOT	_	_
+
+1	ai	al	PRE:det	PRE:det	id=97	0	ROOT	_	_
+
+1	pazienti	paziente	NOM	NOM	id=98	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=99	0	ROOT	_	_
+
+1	Indirettamente	indirettamente	ADV	ADV	id=104	0	ROOT	_	_
+
+1	mi	mi	PRO:pers	PRO:pers	id=105	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=106	0	ROOT	_	_
+
+1	tuttavia	tuttavia	ADV	ADV	id=107	0	ROOT	_	_
+
+1	arrivata	arrivare	VER:pper	VER:pper	id=108	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=109	0	ROOT	_	_
+
+1	risposta	risposta	NOM	NOM	id=110	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=111	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=112	0	ROOT	_	_
+
+1	solita	solito	ADJ	ADJ	id=113	0	ROOT	_	_
+
+1	abitudine	abitudine	NOM	NOM	id=114	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=115	0	ROOT	_	_
+
+1	direttore	direttore	NOM	NOM	id=116	0	ROOT	_	_
+
+1	economico	economico	ADJ	ADJ	id=117	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=118	0	ROOT	_	_
+
+1	argomentare	argomentare	VER:infi	VER:infi	id=119	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=120	0	ROOT	_	_
+
+1	modo	modo	NOM	NOM	id=121	0	ROOT	_	_
+
+1	puramente	puramente	ADV	ADV	id=122	0	ROOT	_	_
+
+1	economico	economico	ADJ	ADJ	id=123	0	ROOT	_	_
+
+1	,	,	PON	PON	id=124	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=125	0	ROOT	_	_
+
+1	esempio	esempio	NOM	NOM	id=126	0	ROOT	_	_
+
+1	sull'	sul	PRE:det	PRE:det	id=127	0	ROOT	_	_
+
+1	attività	attività	NOM	NOM	id=128	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=129	0	ROOT	_	_
+
+1	raccolta	raccolta	NOM	NOM	id=130	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=131	0	ROOT	_	_
+
+1	fondi	fondo	NOM	NOM	id=132	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=133	0	ROOT	_	_
+
+1	Kræftens	<unknown>	NOM	NOM	id=138	0	ROOT	_	_
+
+1	Bekæmpelse	<unknown>	ADJ	ADJ	id=139	0	ROOT	_	_
+
+1	sembra	sembrare	VER:pres	VER:pres	id=140	0	ROOT	_	_
+
+1	concepire	concepire	VER:infi	VER:infi	id=141	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=142	0	ROOT	_	_
+
+1	contribuenti	contribuente	NOM	NOM	id=143	0	ROOT	_	_
+
+1	allo	al	PRE:det	PRE:det	id=144	0	ROOT	_	_
+
+1	stesso	stesso	ADJ	ADJ	id=145	0	ROOT	_	_
+
+1	modo	modo	NOM	NOM	id=146	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=147	0	ROOT	_	_
+
+1	cui	cui	PRO:rela	PRO:rela	id=148	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=149	0	ROOT	_	_
+
+1	Coca-Cola	<unknown>	NOM	NOM	id=150	0	ROOT	_	_
+
+1	tratta	trattare	VER:pres	VER:pres	id=151	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=152	0	ROOT	_	_
+
+1	consumatori	consumatore	NOM	NOM	id=153	0	ROOT	_	_
+
+1	,	,	PON	PON	id=154	0	ROOT	_	_
+
+1	cioè	cioè	ADV	ADV	id=155	0	ROOT	_	_
+
+1	come	come	PRE	PRE	id=156	0	ROOT	_	_
+
+1	oggetti	oggetto	NOM	NOM	id=157	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=158	0	ROOT	_	_
+
+1	,	,	PON	PON	id=159	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=160	0	ROOT	_	_
+
+1	moderni	moderno	ADJ	ADJ	id=161	0	ROOT	_	_
+
+1	metodi	metodo	NOM	NOM	id=162	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=163	0	ROOT	_	_
+
+1	marketing	marketing	NOM	NOM	id=164	0	ROOT	_	_
+
+1	,	,	PON	PON	id=165	0	ROOT	_	_
+
+1	devono	dovere	VER:pres	VER:pres	id=166	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=167	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=168	0	ROOT	_	_
+
+1	motivati	motivare	VER:pper	VER:pper	id=169	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=170	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=171	0	ROOT	_	_
+
+1	acquistare/a	<unknown>	VER:infi	VER:infi	id=172	0	ROOT	_	_
+
+1	contribuire	contribuire	VER:infi	VER:infi	id=173	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=174	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=175	0	ROOT	_	_
+
+1	possibile	possibile	ADJ	ADJ	id=176	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=177	0	ROOT	_	_
+
+1	Posso	potere	VER:pres	VER:pres	id=180	0	ROOT	_	_
+
+1	ben	goal	ADV	ADV	id=181	0	ROOT	_	_
+
+1	capire	capire	VER:infi	VER:infi	id=182	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=183	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=184	0	ROOT	_	_
+
+1	costi	costo	NOM	NOM	id=185	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=186	0	ROOT	_	_
+
+1	marketing	marketing	NOM	NOM	id=187	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=188	0	ROOT	_	_
+
+1	Kræftens	<unknown>	NOM	NOM	id=189	0	ROOT	_	_
+
+1	Bekæmpelse	<unknown>	ADJ	ADJ	id=190	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=191	0	ROOT	_	_
+
+1	punto	punto	NOM	NOM	id=192	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=193	0	ROOT	_	_
+
+1	vista	vista	NOM	NOM	id=194	0	ROOT	_	_
+
+1	puramente	puramente	ADV	ADV	id=195	0	ROOT	_	_
+
+1	economico	economico	ADJ	ADJ	id=196	0	ROOT	_	_
+
+1	possono	potere	VER:pres	VER:pres	id=197	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=198	0	ROOT	_	_
+
+1	ammontare	ammontare	VER:infi	VER:infi	id=199	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=200	0	ROOT	_	_
+
+1	circa	circa	ADV	ADV	id=201	0	ROOT	_	_
+
+1	1/3	@card@	NUM	NUM	id=202	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=203	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=204	0	ROOT	_	_
+
+1	vendite	vendita	NOM	NOM	id=205	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=206	0	ROOT	_	_
+
+1	;	;	PON	PON	id=207	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=208	0	ROOT	_	_
+
+1	surplus	surplus	NOM	NOM	id=209	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=210	0	ROOT	_	_
+
+1	contributi	contributo	NOM	NOM	id=211	0	ROOT	_	_
+
+1	(	(	PON	PON	id=212	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=213	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=214	0	ROOT	_	_
+
+1	manna	manna	NOM	NOM	id=215	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=216	0	ROOT	_	_
+
+1	cielo	cielo	NOM	NOM	id=217	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=218	0	ROOT	_	_
+
+1	l'	l'	PRO:pers	PRO:pers	id=219	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=220	0	ROOT	_	_
+
+1	chiamato	chiamare	VER:pper	VER:pper	id=221	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=222	0	ROOT	_	_
+
+1	direttore	direttore	NOM	NOM	id=223	0	ROOT	_	_
+
+1	economico	economico	ADJ	ADJ	id=224	0	ROOT	_	_
+
+1	)	)	PON	PON	id=225	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=226	0	ROOT	_	_
+
+1	attestano	attestare	VER:pres	VER:pres	id=227	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=228	0	ROOT	_	_
+
+1	10	@card@	NUM	NUM	id=229	0	ROOT	_	_
+
+1	percento	percento	NOM	NOM	id=230	0	ROOT	_	_
+
+1	,	,	PON	PON	id=231	0	ROOT	_	_
+
+1	quindi	quindi	ADV	ADV	id=232	0	ROOT	_	_
+
+1	c'	c'	PRO:demo	PRO:demo	id=233	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=234	0	ROOT	_	_
+
+1	sempre	sempre	ADV	ADV	id=235	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=236	0	ROOT	_	_
+
+1	surplus	surplus	NOM	NOM	id=237	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=238	0	ROOT	_	_
+
+1	In	in	PRE	PRE	id=243	0	ROOT	_	_
+
+1	ogni	ogni	ADJ	ADJ	id=244	0	ROOT	_	_
+
+1	caso	caso	NOM	NOM	id=245	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=246	0	ROOT	_	_
+
+1	convinto	convincere	VER:pper	VER:pper	id=247	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=248	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=249	0	ROOT	_	_
+
+1	contribuenti	contribuente	NOM	NOM	id=250	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=251	0	ROOT	_	_
+
+1	trovino	trovare	VER:cpre	VER:cpre	id=252	0	ROOT	_	_
+
+1	giusto	giusto	ADJ	ADJ	id=253	0	ROOT	_	_
+
+1	che	che	CON	CON	id=254	0	ROOT	_	_
+
+1	circa	circa	ADV	ADV	id=255	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=256	0	ROOT	_	_
+
+1	terzo	terzo	NOM	NOM	id=257	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=258	0	ROOT	_	_
+
+1	quanto	quanto	PRO:indef	PRO:indef	id=259	0	ROOT	_	_
+
+1	essi	essi	PRO:pers	PRO:pers	id=260	0	ROOT	_	_
+
+1	elargiscono	elargire	VER:pres	VER:pres	id=261	0	ROOT	_	_
+
+1	venga	venire	VER:cpre	VER:cpre	id=262	0	ROOT	_	_
+
+1	usato	usare	VER:pper	VER:pper	id=263	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=264	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=265	0	ROOT	_	_
+
+1	pubblicità	pubblicità	NOM	NOM	id=266	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=267	0	ROOT	_	_
+

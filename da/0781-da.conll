@@ -6,7 +6,7 @@
 6	,	,	XP	XP	id=48	3	pnct	_	_
 7	at	at	CS	CS	id=49	2	nobj	_	_
 8	investeringerne	investering	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=50	11	subj	_	_
-9	i	i	SP	SP	id=51	8	pobj.pobj	_	_
+9	i	i	SP	SP	id=51	0	ROOT	_	_
 10	udlandet	udland	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=52	9	nobj	_	_
 11	vil	ville	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=53	7	vobj	_	_
 12	stige	stige	VA	VAF-=----A-	mood=infin|voice=active|id=54	11	vobj	_	_
@@ -40,7 +40,7 @@
 20	tale	tale	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=83	19	preds	_	_
 21	om	om	SP	SP	id=84	20	pobj	_	_
 22	køb	køb	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=85	21	nobj	_	_
-23	af	af	SP	SP	id=86	22	pobj.dobj	_	_
+23	af	af	SP	SP	id=86	0	ROOT	_	_
 24	aktier	aktie	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=87	23	nobj	_	_
 25	i	i	SP	SP	id=88	24	attr	_	_
 26	udenlandske	udenlandsk	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=89	27	attr	_	_
@@ -80,7 +80,7 @@
 7	enhver	enhver	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=127	12	subj	_	_
 8	lille	lille	AN	ANP[CN]SU=[DI]U	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def/indef|transcat=unmarked|id=128	7	attr	_	_
 9	bevægelse	bevægelse	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=129	7	nobj	_	_
-10	fra	fra	SP	SP	id=130	9	pobj.subj	_	_
+10	fra	fra	SP	SP	id=130	0	ROOT	_	_
 11	ATP	ATP	NP	NP--U==-	case=unmarked|id=131	10	nobj	_	_
 12	vil	ville	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=132	6	vobj	_	_
 13	blive	blive	VA	VAF-=----A-	mood=infin|voice=active|id=133	12	vobj	_	_
@@ -95,7 +95,7 @@
 22	meget	meget	AN	ANP---=-R	degree=pos|transcat=adverbial|id=142	23	quant	_	_
 23	store	stor	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=143	21	attr	_	_
 24	betydning	betydning	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=144	21	possd	_	_
-25	for	for	SP	SP	id=145	24	pobj.pobj	_	_
+25	for	for	SP	SP	id=145	0	ROOT	_	_
 26	aktiemarkedet	aktiemarked	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=146	25	nobj	_	_
 27	.	.	XP	XP	id=147	2	pnct	_	_
 
@@ -108,7 +108,7 @@
 7	foreløbig	foreløbig	AN	ANP---=-R	degree=pos|transcat=adverbial|id=158	8	time	_	_
 8	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=159	5	vobj	_	_
 9	bestyrelsesbeslutning	bestyrelsesbeslutning	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=160	8	dobj	_	_
-10	om	om	SP	SP	id=161	9	pobj.dobj	_	_
+10	om	om	SP	SP	id=161	0	ROOT	_	_
 11	at	at	U	U=	id=162	10	nobj	_	_
 12	købe	købe	VA	VAF-=----A-	mood=infin|voice=active|id=163	11	vobj	_	_
 13	udenlandske	udenlandsk	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=164	14	attr	_	_

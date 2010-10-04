@@ -33,12 +33,12 @@
 4	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=76	3	dobj	_	_
 5	bedre	god	AN	ANC[CN][SP]U=[DI]U	degree=comp|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=77	4	attr	_	_
 6	behandling	behandling	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=78	4	nobj	_	_
-7	af	af	SP	SP	id=79	6	pobj.dobj	_	_
+7	af	af	SP	SP	id=79	0	ROOT	_	_
 8	visse	vis	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=80	9	attr	_	_
 9	cancertyper	cancertype	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=81	7	nobj	_	_
 10	,	,	XP	XP	id=82	4	pnct	_	_
 11	behandling	behandling	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=83	4	conj	_	_
-12	af	af	SP	SP	id=84	11	pobj.dobj	_	_
+12	af	af	SP	SP	id=84	0	ROOT	_	_
 13	mavesår	mavesår	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=85	12	nobj	_	_
 14	uden	uden	SP	SP	id=86	11	man	_	_
 15	kirurgisk	kirurgisk	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=87	16	attr	_	_
@@ -48,20 +48,20 @@
 19	,	,	XP	XP	id=91	4	pnct	_	_
 20	medicinsk	medicinsk	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=92	21	attr	_	_
 21	behandling	behandling	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=93	4	conj	_	_
-22	af	af	SP	SP	id=94	21	pobj.dobj	_	_
+22	af	af	SP	SP	id=94	0	ROOT	_	_
 23	psykiske	psykisk	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=95	24	aobj	_	_
 24	lidelser	lidelse	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=96	22	nobj	_	_
 25	og	og	CC	CC	id=97	28	coord	_	_
 26	dermed	dermed	RG	RGU	degree=unmarked|id=98	25	inst	_	_
 27	omfattende	omfattende	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=99	28	attr	_	_
 28	overflødiggørelse	overflødiggørelse	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=100	21	conj	_	_
-29	af	af	SP	SP	id=101	28	pobj.dobj	_	_
+29	af	af	SP	SP	id=101	0	ROOT	_	_
 30	psykiatriske	psykiatrisk	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=102	31	attr	_	_
 31	hospitaler	hospital	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=103	29	nobj	_	_
 32	,	,	XP	XP	id=104	4	pnct	_	_
 33	bedre	god	AN	ANC[CN][SP]U=[DI]U	degree=comp|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=105	34	attr	_	_
 34	behandling	behandling	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=106	4	conj	_	_
-35	af	af	SP	SP	id=107	34	pobj.dobj	_	_
+35	af	af	SP	SP	id=107	0	ROOT	_	_
 36	diabetes	diabetes	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=108	35	nobj	_	_
 37	o.s.v.	og_så_videre	RG	RGU	degree=unmarked|id=109	4	other	_	_
 38	.	.	XP	XP	id=110	2	pnct	_	_
@@ -138,7 +138,7 @@
 4	herpå	herpå	RG	RGU	degree=unmarked|id=188	3	pobj	_	_
 5	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=189	0	ROOT	_	_
 6	markedsføring	markedsføring	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=190	5	preds	_	_
-7	af	af	SP	SP	id=191	6	pobj.dobj	_	_
+7	af	af	SP	SP	id=191	0	ROOT	_	_
 8	lægemidler	lægemiddel	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=192	7	nobj	_	_
 9	mod	mod	SP	SP	id=193	8	pobj	_	_
 10	mavesår	mavesår	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=194	9	nobj	_	_
@@ -152,7 +152,7 @@
 6	,	,	XP	XP	id=203	4	pnct	_	_
 7	kostede	koste	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=204	0	ROOT	_	_
 8	behandling	behandling	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=205	7	subj	_	_
-9	af	af	SP	SP	id=206	8	pobj.dobj	_	_
+9	af	af	SP	SP	id=206	0	ROOT	_	_
 10	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=207	9	nobj	_	_
 11	mavesår	mavesår	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=208	10	nobj	_	_
 12	i	i	SP	SP	id=209	7	loc	_	_
@@ -171,7 +171,7 @@
 
 1	Ved	ved	SP	SP	id=224	5	inst	_	_
 2	anvendelse	anvendelse	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=225	1	nobj	_	_
-3	af	af	SP	SP	id=226	2	pobj.dobj	_	_
+3	af	af	SP	SP	id=226	0	ROOT	_	_
 4	mavesårsmidlerne	mavesårsmiddel	NC	NCNPU==D	gender=neuter|number=plur|case=unmarked|def=def|id=227	3	nobj	_	_
 5	blev	blive	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=228	0	ROOT	_	_
 6	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=229	5	subj	_	_
@@ -184,7 +184,7 @@
 13	,	,	XP	XP	id=236	11	pnct	_	_
 14	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=237	11	modp	_	_
 15	fald	fald	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=238	14	nobj	_	_
-16	på	på	SP	SP	id=239	15	pobj.dobj	_	_
+16	på	på	SP	SP	id=239	0	ROOT	_	_
 17	500	500	AC	AC---U=--	case=unmarked|id=240	16	nobj	_	_
 18	dollar	dollar	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=241	17	nobj	_	_
 19	.	.	XP	XP	id=242	5	pnct	_	_
@@ -194,7 +194,7 @@
 3	besparelser	besparelse	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=247	2	subj	_	_
 4	som	som	U	U=	id=248	2	cons	_	_
 5	følge	følge	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=249	4	nobj	_	_
-6	af	af	SP	SP	id=250	5	pobj.pobj	_	_
+6	af	af	SP	SP	id=250	0	ROOT	_	_
 7	reduceret	reducere	VA	VAPA=S[CN]IA-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject|case=unmarked|id=251	8	attr	_	_
 8	fravær	fravær	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=252	6	nobj	_	_
 9	på	på	SP	SP	id=253	8	attr	_	_

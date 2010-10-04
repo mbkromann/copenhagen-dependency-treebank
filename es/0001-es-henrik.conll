@@ -1,0 +1,406 @@
+1	En	en	SCENE	SCENE	id=2	0	ROOT	_	_
+
+1	opinión	opinión	NC	NC	id=3	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=4	0	ROOT	_	_
+
+1	dos	dos	CARD	CARD	id=5	0	ROOT	_	_
+
+1	conocidos	conocer	VLadj	VLadj	id=6	0	ROOT	_	_
+
+1	historiadores	historiador	NC	NC	id=7	0	ROOT	_	_
+
+1	rusos	ruso	ADJ	ADJ	id=8	0	ROOT	_	_
+
+1	,	,	CM	CM	id=9	0	ROOT	_	_
+
+1	Andronik	<unknown>	NP	NP	id=10	0	ROOT	_	_
+
+1	Mirganjan	<unknown>	NP	NP	id=11	0	ROOT	_	_
+
+1	e	y	CC	CC	id=12	0	ROOT	_	_
+
+1	Igor	<unknown>	NP	NP	id=13	0	ROOT	_	_
+
+1	Klamkin	<unknown>	NP	NP	id=14	0	ROOT	_	_
+
+1	,	,	CM	CM	id=15	0	ROOT	_	_
+
+1	Rusia	Rusia	NP	NP	id=16	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=17	0	ROOT	_	_
+
+1	puede	poder	VMfin	VMfin	id=18	0	ROOT	_	_
+
+1	avanzar	avanzar	VLinf	VLinf	id=19	0	ROOT	_	_
+
+1	sin	sin	SCENE	SCENE	id=20	0	ROOT	_	_
+
+1	una	un	ART	ART	id=21	0	ROOT	_	_
+
+1	"	&quot;	QT	QT	id=22	0	ROOT	_	_
+
+1	mano	mano	NC	NC	id=23	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=24	0	ROOT	_	_
+
+1	hierro	hierro	NC	NC	id=25	0	ROOT	_	_
+
+1	"	&quot;	QT	QT	id=26	0	ROOT	_	_
+
+1	.	.	FS	FS	id=27	0	ROOT	_	_
+
+1	Afirman	afirmar	VLfin	VLfin	id=30	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=31	0	ROOT	_	_
+
+1	el	el	ART	ART	id=32	0	ROOT	_	_
+
+1	camino	camino	NC	NC	id=33	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=34	0	ROOT	_	_
+
+1	Rusia	Rusia	NP	NP	id=35	0	ROOT	_	_
+
+1	hacia	hacia	SCENE	SCENE	id=36	0	ROOT	_	_
+
+1	la	el	ART	ART	id=37	0	ROOT	_	_
+
+1	democracia	democracia	NC	NC	id=38	0	ROOT	_	_
+
+1	pasa	pasar	VLfin	VLfin	id=39	0	ROOT	_	_
+
+1	por	por	SCENE	SCENE	id=40	0	ROOT	_	_
+
+1	la	el	ART	ART	id=41	0	ROOT	_	_
+
+1	dictadura	dictadura	NC	NC	id=42	0	ROOT	_	_
+
+1	.	.	FS	FS	id=43	0	ROOT	_	_
+
+1	Uno	uno	CARD	CARD	id=46	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=47	0	ROOT	_	_
+
+1	sus	suyo	PPO	PPO	id=48	0	ROOT	_	_
+
+1	artículos	artículo	NC	NC	id=49	0	ROOT	_	_
+
+1	reza	rezar	VLfin	VLfin	id=50	0	ROOT	_	_
+
+1	:	:	COLON	COLON	id=51	0	ROOT	_	_
+
+1	"	&quot;	QT	QT	id=52	0	ROOT	_	_
+
+1	En	en	SCENE	SCENE	id=53	0	ROOT	_	_
+
+1	un	un	ART	ART	id=54	0	ROOT	_	_
+
+1	régimen	régimen	NC	NC	id=55	0	ROOT	_	_
+
+1	autoritario	autoritario	ADJ	ADJ	id=56	0	ROOT	_	_
+
+1	,	,	CM	CM	id=57	0	ROOT	_	_
+
+1	la	el	ART	ART	id=58	0	ROOT	_	_
+
+1	sociedad	sociedad	NC	NC	id=59	0	ROOT	_	_
+
+1	se	se	SE	SE	id=60	0	ROOT	_	_
+
+1	estratifica	<unknown>	VLfin	VLfin	id=61	0	ROOT	_	_
+
+1	y	y	CC	CC	id=62	0	ROOT	_	_
+
+1	maduran	<unknown>	VLfin	VLfin	id=63	0	ROOT	_	_
+
+1	los	el	ART	ART	id=64	0	ROOT	_	_
+
+1	distintos	distinto	ADJ	ADJ	id=65	0	ROOT	_	_
+
+1	intereses	interés	NC	NC	id=66	0	ROOT	_	_
+
+1	.	.	FS	FS	id=67	0	ROOT	_	_
+
+1	Y	y	CC	CC	id=70	0	ROOT	_	_
+
+1	cuando	cuando	CSUBX	CSUBX	id=71	0	ROOT	_	_
+
+1	sus	suyo	PPO	PPO	id=72	0	ROOT	_	_
+
+1	representantes	representante	NC	NC	id=73	0	ROOT	_	_
+
+1	están	estar	VEfin	VEfin	id=74	0	ROOT	_	_
+
+1	apuntode	a~punto~de	SCENE	SCENE	id=75	0	ROOT	_	_
+
+1	echarse	echar	VLinf	VLinf	id=76	0	ROOT	_	_
+
+1	al	al	PAL	PAL	id=77	0	ROOT	_	_
+
+1	cuello	cuello	NC	NC	id=78	0	ROOT	_	_
+
+1	del	del	PDEL	PDEL	id=79	0	ROOT	_	_
+
+1	contrario	contrario	NC	NC	id=80	0	ROOT	_	_
+
+1	,	,	CM	CM	id=81	0	ROOT	_	_
+
+1	la	el	ART	ART	id=82	0	ROOT	_	_
+
+1	mano	mano	NC	NC	id=83	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=84	0	ROOT	_	_
+
+1	hierro	hierro	NC	NC	id=85	0	ROOT	_	_
+
+1	es	ser	VSfin	VSfin	id=86	0	ROOT	_	_
+
+1	lo	el	ART	ART	id=87	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=88	0	ROOT	_	_
+
+1	le	él	PPC	PPC	id=89	0	ROOT	_	_
+
+1	pone	poner	VLfin	VLfin	id=90	0	ROOT	_	_
+
+1	fin	fin	PE	PE	id=91	0	ROOT	_	_
+
+1	"	&quot;	QT	QT	id=92	0	ROOT	_	_
+
+1	.	.	FS	FS	id=93	0	ROOT	_	_
+
+1	De	de	SCENE	SCENE	id=96	0	ROOT	_	_
+
+1	este	este	DM	DM	id=97	0	ROOT	_	_
+
+1	modo	modo	NC	NC	id=98	0	ROOT	_	_
+
+1	se	se	SE	SE	id=99	0	ROOT	_	_
+
+1	crean	crear|creer	VLfin	VLfin	id=100	0	ROOT	_	_
+
+1	constantemente	constante	ADV	ADV	id=101	0	ROOT	_	_
+
+1	las	el	ART	ART	id=102	0	ROOT	_	_
+
+1	condiciones	condición	NC	NC	id=103	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=104	0	ROOT	_	_
+
+1	una	un	ART	ART	id=105	0	ROOT	_	_
+
+1	armonización	armonización	NC	NC	id=106	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=107	0	ROOT	_	_
+
+1	intereses	interés	NC	NC	id=108	0	ROOT	_	_
+
+1	y	y	CC	CC	id=109	0	ROOT	_	_
+
+1	subsiguientemente	<unknown>	ADV	ADV	id=110	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=111	0	ROOT	_	_
+
+1	las	el	ART	ART	id=112	0	ROOT	_	_
+
+1	reformas	reforma	NC	NC	id=113	0	ROOT	_	_
+
+1	democráticas	democrático	ADJ	ADJ	id=114	0	ROOT	_	_
+
+1	"	&quot;	QT	QT	id=115	0	ROOT	_	_
+
+1	.	.	FS	FS	id=116	0	ROOT	_	_
+
+1	Y	y	CC	CC	id=121	0	ROOT	_	_
+
+1	añaden	añadir	VLfin	VLfin	id=122	0	ROOT	_	_
+
+1	:	:	COLON	COLON	id=123	0	ROOT	_	_
+
+1	"	&quot;	QT	QT	id=124	0	ROOT	_	_
+
+1	Precisamente	precisamente	ADV	ADV	id=125	0	ROOT	_	_
+
+1	porque	porque	CSUBX	CSUBX	id=126	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=127	0	ROOT	_	_
+
+1	tenemos	tener	VLfin	VLfin	id=128	0	ROOT	_	_
+
+1	orígenes	origen	NC	NC	id=129	0	ROOT	_	_
+
+1	como	como	CSUBX	CSUBX	id=130	0	ROOT	_	_
+
+1	sociedad	sociedad	NC	NC	id=131	0	ROOT	_	_
+
+1	civil	civil	ADJ	ADJ	id=132	0	ROOT	_	_
+
+1	nos	nosotros	PPX	PPX	id=133	0	ROOT	_	_
+
+1	opusimos	<unknown>	ADJ	ADJ	id=134	0	ROOT	_	_
+
+1	al	al	PAL	PAL	id=135	0	ROOT	_	_
+
+1	Congreso	congreso	NC	NC	id=136	0	ROOT	_	_
+
+1	Popular	popular	ADJ	ADJ	id=137	0	ROOT	_	_
+
+1	.	.	FS	FS	id=138	0	ROOT	_	_
+
+1	Y	Y	ALFS	ALFS	id=141	0	ROOT	_	_
+
+1	es	ser	VSfin	VSfin	id=142	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=143	0	ROOT	_	_
+
+1	aparte	aparte	ADV	ADV	id=144	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=145	0	ROOT	_	_
+
+1	la	el	ART	ART	id=146	0	ROOT	_	_
+
+1	ilusión	ilusión	NC	NC	id=147	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=148	0	ROOT	_	_
+
+1	una	un	ART	ART	id=149	0	ROOT	_	_
+
+1	democracia	democracia	NC	NC	id=150	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=151	0	ROOT	_	_
+
+1	aportaba	<unknown>	VLfin	VLfin	id=152	0	ROOT	_	_
+
+1	nada	nada	QU	QU	id=153	0	ROOT	_	_
+
+1	real	real	ADJ	ADJ	id=154	0	ROOT	_	_
+
+1	,	,	CM	CM	id=155	0	ROOT	_	_
+
+1	yaque	ya~que	CSUBF	CSUBF	id=156	0	ROOT	_	_
+
+1	objetivamente	objetivo	ADV	ADV	id=157	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=158	0	ROOT	_	_
+
+1	podía	poder	VLfin	VLfin	id=159	0	ROOT	_	_
+
+1	.	.	FS	FS	id=160	0	ROOT	_	_
+
+1	Y	y	CC	CC	id=163	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=164	0	ROOT	_	_
+
+1	se	se	SE	SE	id=165	0	ROOT	_	_
+
+1	debía	deber	VLfin	VLfin	id=166	0	ROOT	_	_
+
+1	enabsoluto	en~absoluto	ADV	ADV	id=167	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=168	0	ROOT	_	_
+
+1	las	el	ART	ART	id=169	0	ROOT	_	_
+
+1	cadenas	cadena	NC	NC	id=170	0	ROOT	_	_
+
+1	del	del	PDEL	PDEL	id=171	0	ROOT	_	_
+
+1	sistema	sistema	NC	NC	id=172	0	ROOT	_	_
+
+1	.	.	FS	FS	id=173	0	ROOT	_	_
+
+1	Las	el	ART	ART	id=176	0	ROOT	_	_
+
+1	ilusiones	ilusión	NC	NC	id=177	0	ROOT	_	_
+
+1	son	ser	VSfin	VSfin	id=178	0	ROOT	_	_
+
+1	peligrosas	peligroso	ADJ	ADJ	id=179	0	ROOT	_	_
+
+1	.	.	FS	FS	id=180	0	ROOT	_	_
+
+1	Son	ser	VSfin	VSfin	id=183	0	ROOT	_	_
+
+1	fuente	fuente	NC	NC	id=184	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=185	0	ROOT	_	_
+
+1	desengaños	<unknown>	NC	NC	id=186	0	ROOT	_	_
+
+1	y	y	CC	CC	id=187	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=188	0	ROOT	_	_
+
+1	última	último	ADJ	ADJ	id=189	0	ROOT	_	_
+
+1	instancia	instancia	NC	NC	id=190	0	ROOT	_	_
+
+1	provocan	provocar	VLfin	VLfin	id=191	0	ROOT	_	_
+
+1	una	un	ART	ART	id=192	0	ROOT	_	_
+
+1	desestabilización	desestabilización	NC	NC	id=193	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=194	0	ROOT	_	_
+
+1	la	el	ART	ART	id=195	0	ROOT	_	_
+
+1	sociedad	sociedad	NC	NC	id=196	0	ROOT	_	_
+
+1	,	,	CM	CM	id=197	0	ROOT	_	_
+
+1	algo	algo	QU	QU	id=198	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=199	0	ROOT	_	_
+
+1	desafortunadamente	desafortunado	ADV	ADV	id=200	0	ROOT	_	_
+
+1	ya	ya	ADV	ADV	id=201	0	ROOT	_	_
+
+1	hemos	haber	VLfin	VLfin	id=202	0	ROOT	_	_
+
+1	visto	ver	VLadj	VLadj	id=203	0	ROOT	_	_
+
+1	y	y	CC	CC	id=204	0	ROOT	_	_
+
+1	seguiremos	seguir	VLfin	VLfin	id=205	0	ROOT	_	_
+
+1	viendo	ver	VLadj	VLadj	id=206	0	ROOT	_	_
+
+1	"	&quot;	QT	QT	id=207	0	ROOT	_	_
+
+1	.	.	FS	FS	id=208	0	ROOT	_	_
+
+1	Son	ser	VSfin	VSfin	id=211	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=212	0	ROOT	_	_
+
+1	la	el	ART	ART	id=213	0	ROOT	_	_
+
+1	opinión	opinión	NC	NC	id=214	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=215	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=216	0	ROOT	_	_
+
+1	el	el	ART	ART	id=217	0	ROOT	_	_
+
+1	Congreso	congreso	NC	NC	id=218	0	ROOT	_	_
+
+1	Popular	popular	ADJ	ADJ	id=219	0	ROOT	_	_
+
+1	debiera	deber	VMfin	VMfin	id=220	0	ROOT	_	_
+
+1	conceder	conceder	VLinf	VLinf	id=221	0	ROOT	_	_
+
+1	al	al	PAL	PAL	id=222	0	ROOT	_	_
+
+1	presidente	presidente	NC	NC	id=223	0	ROOT	_	_
+
+1	facultades	facultad	NC	NC	id=224	0	ROOT	_	_
+
+1	dictatoriales	dictatorial	ADJ	ADJ	id=225	0	ROOT	_	_
+
+1	.	.	FS	FS	id=226	0	ROOT	_	_
+

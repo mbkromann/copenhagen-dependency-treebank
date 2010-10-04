@@ -175,7 +175,7 @@
 37	bedste	god	AN	ANS[CN][SP]U=DU	degree=sup|gender=common/neuter|number=sing/plur|case=unmarked|def=def|transcat=unmarked|id=225	35	attr	_	_
 38	konstellation	konstellation	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=226	35	possd	_	_
 39	Thomas	Thomas	NP	NP--U==-	case=unmarked|id=227	40	namef	_	_
-40	Lund/Pernille	Lund/Pernille	XX	XX	id=228	35	¹appr	_	_
+40	Lund/Pernille	Lund/Pernille	XX	XX	id=228	0	ROOT	_	_
 41	Dupont	Dupont	NP	NP--U==-	case=unmarked|id=229	40	conj	_	_
 42	.	.	XP	XP	id=230	6	pnct	_	_
 

@@ -37,7 +37,7 @@
 10	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=82	6	conj	_	_
 11	aktive	aktiv	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=83	10	attr	_	_
 12	nej-folk	nej-folk	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=84	10	nobj	_	_
-13	her	her	RG	RGU	degree=unmarked|id=85	4	<fpredo:2>	_	_
+13	her	her	RG	RGU	degree=unmarked|id=85	0	ROOT	_	_
 14	,	,	XP	XP	id=86	13	pnct	_	_
 15	der	der	RG	RGU	degree=unmarked|id=87	13	conj	_	_
 16	og	og	CC	CC	id=88	17	coord	_	_

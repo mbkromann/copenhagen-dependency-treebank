@@ -1,0 +1,408 @@
+1	Arrivati	arrivare	VER:pper	VER:pper	id=2	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=3	0	ROOT	_	_
+
+1	quel	quel	PRO:demo	PRO:demo	id=4	0	ROOT	_	_
+
+1	punto	punto	NOM	NOM	id=5	0	ROOT	_	_
+
+1	,	,	PON	PON	id=6	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=7	0	ROOT	_	_
+
+1	genitori	genitore	NOM	NOM	id=8	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=9	0	ROOT	_	_
+
+1	bambino	bambino	NOM	NOM	id=10	0	ROOT	_	_
+
+1	erano	essere	VER:impf	VER:impf	id=11	0	ROOT	_	_
+
+1	abituati	abituare	VER:pper	VER:pper	id=12	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=13	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=14	0	ROOT	_	_
+
+1	preoccupati	preoccupare	VER:pper	VER:pper	id=15	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=16	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=19	0	ROOT	_	_
+
+1	giovane	giovane	ADJ	ADJ	id=20	0	ROOT	_	_
+
+1	madre	madre	NOM	NOM	id=21	0	ROOT	_	_
+
+1	aveva	avere	VER:impf	VER:impf	id=22	0	ROOT	_	_
+
+1	constatato	constatare	VER:pper	VER:pper	id=23	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=24	0	ROOT	_	_
+
+1	paio	paio	NOM	NOM	id=25	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=26	0	ROOT	_	_
+
+1	mesi	mese	NOM	NOM	id=27	0	ROOT	_	_
+
+1	prima	primo	ADJ	ADJ	id=28	0	ROOT	_	_
+
+1	,	,	PON	PON	id=29	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=30	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=31	0	ROOT	_	_
+
+1	figlio	figlio	NOM	NOM	id=32	0	ROOT	_	_
+
+1	aveva	avere	VER:impf	VER:impf	id=33	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=34	0	ROOT	_	_
+
+1	croste	crosta	NOM	NOM	id=35	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=36	0	ROOT	_	_
+
+1	sangue	sangue	NOM	NOM	id=37	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=38	0	ROOT	_	_
+
+1	naso	naso	NOM	NOM	id=39	0	ROOT	_	_
+
+1	e	e	CON	CON	id=40	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=41	0	ROOT	_	_
+
+1	bocca	bocca	NOM	NOM	id=42	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=43	0	ROOT	_	_
+
+1	Aveva	avere	VER:impf	VER:impf	id=48	0	ROOT	_	_
+
+1	pregato	pregare	VER:pper	VER:pper	id=49	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=50	0	ROOT	_	_
+
+1	marito	marito	NOM	NOM	id=51	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=52	0	ROOT	_	_
+
+1	contattare	contattare	VER:infi	VER:infi	id=53	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=54	0	ROOT	_	_
+
+1	Comune	comune	NOM	NOM	id=55	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=56	0	ROOT	_	_
+
+1	Copenhagen	Copenhagen	NPR	NPR	id=57	0	ROOT	_	_
+
+1	,	,	PON	PON	id=58	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=59	0	ROOT	_	_
+
+1	aveva	avere	VER:impf	VER:impf	id=60	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=61	0	ROOT	_	_
+
+1	precedenza	precedenza	NOM	NOM	id=62	0	ROOT	_	_
+
+1	assegnato	assegnare	VER:pper	VER:pper	id=63	0	ROOT	_	_
+
+1	all'	al	PRE:det	PRE:det	id=64	0	ROOT	_	_
+
+1	imputato	imputato	NOM	NOM	id=65	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=66	0	ROOT	_	_
+
+1	incarico	incarico	NOM	NOM	id=67	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=68	0	ROOT	_	_
+
+1	assistente	assistente	NOM	NOM	id=69	0	ROOT	_	_
+
+1	infantile	infantile	ADJ	ADJ	id=70	0	ROOT	_	_
+
+1	,	,	PON	PON	id=71	0	ROOT	_	_
+
+1	affinché	affinché	CON	CON	id=72	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=73	0	ROOT	_	_
+
+1	figlio	figlio	NOM	NOM	id=74	0	ROOT	_	_
+
+1	fosse	essere	VER:cimp	VER:cimp	id=75	0	ROOT	_	_
+
+1	spostato	spostato	ADJ	ADJ	id=76	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=77	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=78	0	ROOT	_	_
+
+1	struttura	struttura	NOM	NOM	id=79	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=80	0	ROOT	_	_
+
+1	sicura	sicuro	ADJ	ADJ	id=81	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=82	0	ROOT	_	_
+
+1	Ma	ma	CON	CON	id=85	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=86	0	ROOT	_	_
+
+1	fu	essere	VER:remo	VER:remo	id=87	0	ROOT	_	_
+
+1	possibile	possibile	ADJ	ADJ	id=88	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=89	0	ROOT	_	_
+
+1	L'	il	DET:def	DET:def	id=94	0	ROOT	_	_
+
+1	otto	otto	ADJ	ADJ	id=95	0	ROOT	_	_
+
+1	novembre	novembre	NOM	NOM	id=96	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=97	0	ROOT	_	_
+
+1	assistente	assistente	NOM	NOM	id=98	0	ROOT	_	_
+
+1	infantile	infantile	ADJ	ADJ	id=99	0	ROOT	_	_
+
+1	,	,	PON	PON	id=100	0	ROOT	_	_
+
+1	secondo	secondo	PRE	PRE	id=101	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=102	0	ROOT	_	_
+
+1	accusa	accusa	NOM	NOM	id=103	0	ROOT	_	_
+
+1	,	,	PON	PON	id=104	0	ROOT	_	_
+
+1	fu	essere	VER:remo	VER:remo	id=105	0	ROOT	_	_
+
+1	preso	prendere	VER:pper	VER:pper	id=106	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=107	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=108	0	ROOT	_	_
+
+1	raptus	raptus	NOM	NOM	id=109	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=110	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=113	0	ROOT	_	_
+
+1	spiegazione	spiegazione	NOM	NOM	id=114	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=115	0	ROOT	_	_
+
+1	H	H.	NPR	NPR	id=116	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=117	0	ROOT	_	_
+
+1	durante	durante	PRE	PRE	id=120	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=121	0	ROOT	_	_
+
+1	interrogatorio	interrogatorio	NOM	NOM	id=122	0	ROOT	_	_
+
+1	preliminare	preliminare	ADJ	ADJ	id=123	0	ROOT	_	_
+
+1	:	:	PON	PON	id=124	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=129	0	ROOT	_	_
+
+1	Anders	<unknown>	NOM	NOM	id=130	0	ROOT	_	_
+
+1	era	essere	VER:impf	VER:impf	id=131	0	ROOT	_	_
+
+1	completamente	completamente	ADV	ADV	id=132	0	ROOT	_	_
+
+1	diverso	diverso	ADJ	ADJ	id=133	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=134	0	ROOT	_	_
+
+1	mio	mio	PRO:poss	PRO:poss	id=135	0	ROOT	_	_
+
+1	figlio	figlio	NOM	NOM	id=136	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=137	0	ROOT	_	_
+
+1	Mi	mi	PRO:pers	PRO:pers	id=140	0	ROOT	_	_
+
+1	irritava	irritare	VER:impf	VER:impf	id=141	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=142	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=143	0	ROOT	_	_
+
+1	piccolo	piccolo	ADJ	ADJ	id=144	0	ROOT	_	_
+
+1	urlasse	urlare	VER:cimp	VER:cimp	id=145	0	ROOT	_	_
+
+1	così	così	ADV	ADV	id=146	0	ROOT	_	_
+
+1	tanto	tanto	ADV	ADV	id=147	0	ROOT	_	_
+
+1	,	,	PON	PON	id=148	0	ROOT	_	_
+
+1	mi	mi	PRO:pers	PRO:pers	id=149	0	ROOT	_	_
+
+1	veniva	venire	VER:impf	VER:impf	id=150	0	ROOT	_	_
+
+1	voglia	volere	VER:cpre	VER:cpre	id=151	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=152	0	ROOT	_	_
+
+1	dargli	dare	VER:infi	VER:infi	id=153	0	ROOT	_	_
+
+1	uno	uno	DET:indef	DET:indef	id=154	0	ROOT	_	_
+
+1	schiaffo	schiaffo	NOM	NOM	id=155	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=156	0	ROOT	_	_
+
+1	Devo	dovere	VER:pres	VER:pres	id=159	0	ROOT	_	_
+
+1	averlo	avere	VER:infi	VER:infi	id=160	0	ROOT	_	_
+
+1	colpito	colpire	VER:pper	VER:pper	id=161	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=162	0	ROOT	_	_
+
+1	forte	forte	ADJ	ADJ	id=163	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=164	0	ROOT	_	_
+
+1	quanto	quanto	PRO:indef	PRO:indef	id=165	0	ROOT	_	_
+
+1	credessi	credere	VER:cimp	VER:cimp	id=166	0	ROOT	_	_
+
+1	,	,	PON	PON	id=167	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=168	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=169	0	ROOT	_	_
+
+1	sfortunato	sfortunato	ADJ	ADJ	id=170	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=171	0	ROOT	_	_
+
+1	Ha	avere|riavere	VER:pres	VER:pres	id=174	0	ROOT	_	_
+
+1	cominciato	cominciare	VER:pper	VER:pper	id=175	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=176	0	ROOT	_	_
+
+1	roteare	roteare	VER:infi	VER:infi	id=177	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=178	0	ROOT	_	_
+
+1	occhi	occhio	NOM	NOM	id=179	0	ROOT	_	_
+
+1	e	e	CON	CON	id=180	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=181	0	ROOT	_	_
+
+1	teneva	tenere	VER:impf	VER:impf	id=182	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=183	0	ROOT	_	_
+
+1	su	su	PRE	PRE	id=184	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=185	0	ROOT	_	_
+
+1	testa	testa	NOM	NOM	id=186	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=187	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=190	0	ROOT	_	_
+
+1	È	<unknown>	NOM	NOM	id=195	0	ROOT	_	_
+
+1	diventato	diventare	VER:pper	VER:pper	id=196	0	ROOT	_	_
+
+1	nervoso	nervoso	NOM	NOM	id=197	0	ROOT	_	_
+
+1	quando	quando	CON	CON	id=198	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=199	0	ROOT	_	_
+
+1	bambino	bambino	NOM	NOM	id=200	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=201	0	ROOT	_	_
+
+1	iniziato	iniziare	VER:pper	VER:pper	id=202	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=203	0	ROOT	_	_
+
+1	respirare	respirare	VER:infi	VER:infi	id=204	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=205	0	ROOT	_	_
+
+1	molta	molto	ADJ	ADJ	id=206	0	ROOT	_	_
+
+1	fatica	fatica	NOM	NOM	id=207	0	ROOT	_	_
+
+1	e	e	CON	CON	id=208	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=209	0	ROOT	_	_
+
+1	quindi	quindi	ADV	ADV	id=210	0	ROOT	_	_
+
+1	chiamato	chiamare	VER:pper	VER:pper	id=211	0	ROOT	_	_
+
+1	un'	un'	DET:indef	DET:indef	id=212	0	ROOT	_	_
+
+1	ambulanza	ambulanza	NOM	NOM	id=213	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=214	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=219	0	ROOT	_	_
+
+1	Ho	avere|riavere	VER:pres	VER:pres	id=220	0	ROOT	_	_
+
+1	telefonato	telefonare	VER:pper	VER:pper	id=221	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=222	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=223	0	ROOT	_	_
+
+1	suo	suo	PRO:poss	PRO:poss	id=224	0	ROOT	_	_
+
+1	padre	padre	NOM	NOM	id=225	0	ROOT	_	_
+
+1	e	e	CON	CON	id=226	0	ROOT	_	_
+
+1	gli	gli	PRO:pers	PRO:pers	id=227	0	ROOT	_	_
+
+1	ho	avere|riavere	VER:pres	VER:pres	id=228	0	ROOT	_	_
+
+1	detto	dire	VER:pper	VER:pper	id=229	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=230	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=231	0	ROOT	_	_
+
+1	bambino	bambino	NOM	NOM	id=232	0	ROOT	_	_
+
+1	stava	stare	VER:impf	VER:impf	id=233	0	ROOT	_	_
+
+1	molto	molto	ADV	ADV	id=234	0	ROOT	_	_
+
+1	male	mala|male	NOM	NOM	id=235	0	ROOT	_	_
+
+1	,	,	PON	PON	id=236	0	ROOT	_	_
+
+1	aveva	avere	VER:impf	VER:impf	id=237	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=238	0	ROOT	_	_
+
+1	crampi	crampo	NOM	NOM	id=239	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=240	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=243	0	ROOT	_	_
+

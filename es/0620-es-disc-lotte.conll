@@ -1,0 +1,336 @@
+1	-	-	DASH	DASH	id=0	0	ROOT	_	_
+
+1	SentÃ­	<unknown>	NC	NC	id=1	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=2	0	ROOT	_	_
+
+1	nada	nada	QU	QU	id=3	0	ROOT	_	_
+
+1	era	era	VEfin	VEfin	id=4	0	ROOT	_	_
+
+1	como	como	ADV	ADV	id=5	0	ROOT	_	_
+
+1	debÃ­a	<unknown>	VLfin	VLfin	id=6	0	ROOT	_	_
+
+1	ser	ser	VSinf	VSinf	id=7	0	ROOT	_	_
+
+1	,	,	CM	CM	id=8	0	ROOT	_	_
+
+1	continuÃ³	<unknown>	VLfin	VLfin	id=9	0	ROOT	_	_
+
+1	Ã©l	<unknown>	VLadj	VLadj	id=10	0	ROOT	_	_
+
+1	,	,	CM	CM	id=11	0	ROOT	_	_
+
+1	-	-	DASH	DASH	id=12	0	ROOT	_	_
+
+1	esa	ese	DM	DM	id=13	0	ROOT	_	_
+
+1	es	ser	VSfin	VSfin	id=14	0	ROOT	_	_
+
+1	la	el	ART	ART	id=15	0	ROOT	_	_
+
+1	razÃ³n	<unknown>	NC	NC	id=16	0	ROOT	_	_
+
+1	por	por	SCENE	SCENE	id=17	0	ROOT	_	_
+
+1	la	el	ART	ART	id=18	0	ROOT	_	_
+
+1	cual	cual	REL	REL	id=19	0	ROOT	_	_
+
+1	acudÃ­	<unknown>	VLfin	VLfin	id=20	0	ROOT	_	_
+
+1	al	al	PAL	PAL	id=21	0	ROOT	_	_
+
+1	portero	portero	NC	NC	id=22	0	ROOT	_	_
+
+1	,	,	CM	CM	id=23	0	ROOT	_	_
+
+1	quien	quien	REL	REL	id=24	0	ROOT	_	_
+
+1	efectivamente	efectivamente	ADV	ADV	id=25	0	ROOT	_	_
+
+1	habÃ­a	<unknown>	VLfin	VLfin	id=26	0	ROOT	_	_
+
+1	visto	ver	VLadj	VLadj	id=27	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=28	0	ROOT	_	_
+
+1	un	un	ART	ART	id=29	0	ROOT	_	_
+
+1	hombre	hombre	NC	NC	id=30	0	ROOT	_	_
+
+1	entrar	entrar	VLinf	VLinf	id=31	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=32	0	ROOT	_	_
+
+1	este	este	DM	DM	id=33	0	ROOT	_	_
+
+1	piso	piso	NC	NC	id=34	0	ROOT	_	_
+
+1	.	.	FS	FS	id=35	0	ROOT	_	_
+
+1	-	-	DASH	DASH	id=36	0	ROOT	_	_
+
+1	AdÃ³nde	<unknown>	NP	NP	id=37	0	ROOT	_	_
+
+1	irÃ¡	<unknown>	NC	NC	id=38	0	ROOT	_	_
+
+1	?	?	FS	FS	id=39	0	ROOT	_	_
+
+1	preguntÃ³	<unknown>	VLinf	VLinf	id=40	0	ROOT	_	_
+
+1	ella	él	PPX	PPX	id=41	0	ROOT	_	_
+
+1	pensativa	<unknown>	NC	NC	id=42	0	ROOT	_	_
+
+1	.	.	FS	FS	id=43	0	ROOT	_	_
+
+1	Flemming	<unknown>	NP	NP	id=44	0	ROOT	_	_
+
+1	se	se	SE	SE	id=45	0	ROOT	_	_
+
+1	encogiÃ³	<unknown>	VLfin	VLfin	id=46	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=47	0	ROOT	_	_
+
+1	hombros	hombro	NC	NC	id=48	0	ROOT	_	_
+
+1	.	.	FS	FS	id=49	0	ROOT	_	_
+
+1	-	-	DASH	DASH	id=50	0	ROOT	_	_
+
+1	Pronto	pronto	ADV	ADV	id=51	0	ROOT	_	_
+
+1	serÃ¡	<unknown>	VLfin	VLfin	id=52	0	ROOT	_	_
+
+1	detenido	detener	VLadj	VLadj	id=53	0	ROOT	_	_
+
+1	,	,	CM	CM	id=54	0	ROOT	_	_
+
+1	dijo	decir	VLfin	VLfin	id=55	0	ROOT	_	_
+
+1	Ã©l	<unknown>	NC	NC	id=56	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=57	0	ROOT	_	_
+
+1	convencimiento	convencimiento	NC	NC	id=58	0	ROOT	_	_
+
+1	,	,	CM	CM	id=59	0	ROOT	_	_
+
+1	-	-	DASH	DASH	id=60	0	ROOT	_	_
+
+1	y	y	CC	CC	id=61	0	ROOT	_	_
+
+1	eso	ese	DM	DM	id=62	0	ROOT	_	_
+
+1	serÃ¡	<unknown>	VLfin	VLfin	id=63	0	ROOT	_	_
+
+1	porcierto	por~cierto	ADV	ADV	id=64	0	ROOT	_	_
+
+1	lo	él	PPO	PPO	id=65	0	ROOT	_	_
+
+1	mejor	bueno	ADJ	ADJ	id=66	0	ROOT	_	_
+
+1	para	para	SCENE	SCENE	id=67	0	ROOT	_	_
+
+1	Ã©l	<unknown>	NC	NC	id=68	0	ROOT	_	_
+
+1	mismo	mismo	ADJ	ADJ	id=69	0	ROOT	_	_
+
+1	.	.	FS	FS	id=70	0	ROOT	_	_
+
+1	Pero	pero	CCAD	CCAD	id=71	0	ROOT	_	_
+
+1	ahora	ahora	ADV	ADV	id=72	0	ROOT	_	_
+
+1	olvidÃ©monos	<unknown>	VLfin	VLfin	id=73	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=74	0	ROOT	_	_
+
+1	Ã©l	<unknown>	NC	NC	id=75	0	ROOT	_	_
+
+1	.	.	FS	FS	id=76	0	ROOT	_	_
+
+1	Hay	haber	VHfin	VHfin	id=77	0	ROOT	_	_
+
+1	algo	algo	QU	QU	id=78	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=79	0	ROOT	_	_
+
+1	quisiera	querer	VLfin	VLfin	id=80	0	ROOT	_	_
+
+1	preguntarte	preguntar	VLinf	VLinf	id=81	0	ROOT	_	_
+
+1	.	.	FS	FS	id=82	0	ROOT	_	_
+
+1	-	-	DASH	DASH	id=83	0	ROOT	_	_
+
+1	Â¿SÃ­	<unknown>	NC	NC	id=84	0	ROOT	_	_
+
+1	?	?	FS	FS	id=85	0	ROOT	_	_
+
+1	-	-	DASH	DASH	id=86	0	ROOT	_	_
+
+1	SÃ©	<unknown>	NP	NP	id=87	0	ROOT	_	_
+
+1	perfectamente	perfectamente	ADV	ADV	id=88	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=89	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=90	0	ROOT	_	_
+
+1	hace	hacer	VLfin	VLfin	id=91	0	ROOT	_	_
+
+1	mucho	mucho	QU	QU	id=92	0	ROOT	_	_
+
+1	tiempo	tiempo	NC	NC	id=93	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=94	0	ROOT	_	_
+
+1	nos	nosotros	PPX	PPX	id=95	0	ROOT	_	_
+
+1	conocemos	conocer	VLfin	VLfin	id=96	0	ROOT	_	_
+
+1	,	,	CM	CM	id=97	0	ROOT	_	_
+
+1	pero	pero	CCAD	CCAD	id=98	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=99	0	ROOT	_	_
+
+1	es	ser	VSfin	VSfin	id=100	0	ROOT	_	_
+
+1	siempre	siempre	ADV	ADV	id=101	0	ROOT	_	_
+
+1	eso	ese	DM	DM	id=102	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=103	0	ROOT	_	_
+
+1	lo	el	ART	ART	id=104	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=105	0	ROOT	_	_
+
+1	se	se	SE	SE	id=106	0	ROOT	_	_
+
+1	trata	tratar	VLfin	VLfin	id=107	0	ROOT	_	_
+
+1	.	.	FS	FS	id=108	0	ROOT	_	_
+
+1	Â¿Quieres...	<unknown>	NC	NC	id=109	0	ROOT	_	_
+
+1	quieres	querer	VLfin	VLfin	id=110	0	ROOT	_	_
+
+1	casarte	casar	VLinf	VLinf	id=111	0	ROOT	_	_
+
+1	conmigo	<unknown>	NC	NC	id=112	0	ROOT	_	_
+
+1	,	,	CM	CM	id=113	0	ROOT	_	_
+
+1	Trine	<unknown>	NP	NP	id=114	0	ROOT	_	_
+
+1	?	?	FS	FS	id=115	0	ROOT	_	_
+
+1	-	-	DASH	DASH	id=116	0	ROOT	_	_
+
+1	SÃ­	<unknown>	NP	NP	id=117	0	ROOT	_	_
+
+1	,	,	CM	CM	id=118	0	ROOT	_	_
+
+1	respondiÃ³	<unknown>	VLinf	VLinf	id=119	0	ROOT	_	_
+
+1	ella	él	PPX	PPX	id=120	0	ROOT	_	_
+
+1	sin	sin	SCENE	SCENE	id=121	0	ROOT	_	_
+
+1	dudarlo	<unknown>	VLinf	VLinf	id=122	0	ROOT	_	_
+
+1	.	.	FS	FS	id=123	0	ROOT	_	_
+
+1	Y	y	CC	CC	id=124	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=125	0	ROOT	_	_
+
+1	una	un	ART	ART	id=126	0	ROOT	_	_
+
+1	suave	suave	ADJ	ADJ	id=127	0	ROOT	_	_
+
+1	sonrisa	sonrisa	NC	NC	id=128	0	ROOT	_	_
+
+1	la	el	ART	ART	id=129	0	ROOT	_	_
+
+1	atrajo	atraer	VLfin	VLfin	id=130	0	ROOT	_	_
+
+1	bien	bien	ADV	ADV	id=131	0	ROOT	_	_
+
+1	junto	junto	ADJ	ADJ	id=132	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=133	0	ROOT	_	_
+
+1	Ã©l	<unknown>	NC	NC	id=134	0	ROOT	_	_
+
+1	.	.	FS	FS	id=135	0	ROOT	_	_
+
+1	-	-	DASH	DASH	id=136	0	ROOT	_	_
+
+1	Una	un	ART	ART	id=137	0	ROOT	_	_
+
+1	boda	boda	NC	NC	id=138	0	ROOT	_	_
+
+1	navideÃ±a	<unknown>	ADJ	ADJ	id=139	0	ROOT	_	_
+
+1	realmente	realmente	ADV	ADV	id=140	0	ROOT	_	_
+
+1	romÃ¡ntica	<unknown>	ADJ	ADJ	id=141	0	ROOT	_	_
+
+1	?	?	FS	FS	id=142	0	ROOT	_	_
+
+1	continuÃ³	<unknown>	VLfin	VLfin	id=143	0	ROOT	_	_
+
+1	Ã©l	<unknown>	NC	NC	id=144	0	ROOT	_	_
+
+1	interrogante	interrogante	ADJ	ADJ	id=145	0	ROOT	_	_
+
+1	.	.	FS	FS	id=146	0	ROOT	_	_
+
+1	-	-	DASH	DASH	id=147	0	ROOT	_	_
+
+1	Hmm	<unknown>	NP	NP	id=148	0	ROOT	_	_
+
+1	,	,	CM	CM	id=149	0	ROOT	_	_
+
+1	ella	él	PPX	PPX	id=150	0	ROOT	_	_
+
+1	escondiÃ³	<unknown>	VLfin	VLfin	id=151	0	ROOT	_	_
+
+1	su	suyo	PPO	PPO	id=152	0	ROOT	_	_
+
+1	rostro	rostro	NC	NC	id=153	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=154	0	ROOT	_	_
+
+1	el	el	ART	ART	id=155	0	ROOT	_	_
+
+1	pecho	pecho	NC	NC	id=156	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=157	0	ROOT	_	_
+
+1	Ã©l	<unknown>	NC	NC	id=158	0	ROOT	_	_
+
+1	,	,	CM	CM	id=159	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=160	0	ROOT	_	_
+
+1	un	un	ART	ART	id=161	0	ROOT	_	_
+
+1	leve	leve	ADJ	ADJ	id=162	0	ROOT	_	_
+
+1	enrojecimiento	<unknown>	VLfin	VLfin	id=163	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=164	0	ROOT	_	_
+
+1	sus	suyo	PPO	PPO	id=165	0	ROOT	_	_
+
+1	mejillas	mejilla	NC	NC	id=166	0	ROOT	_	_
+
+1	.	.	FS	FS	id=167	0	ROOT	_	_
+

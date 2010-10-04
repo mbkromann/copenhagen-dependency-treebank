@@ -1,0 +1,410 @@
+1	Quando	quando	CON	CON	id=0	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=1	0	ROOT	_	_
+
+1	Partito	partito	NOM	NOM	id=2	0	ROOT	_	_
+
+1	socialdemocratico	socialdemocratico	ADJ	ADJ	id=3	0	ROOT	_	_
+
+1	,	,	PON	PON	id=4	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=5	0	ROOT	_	_
+
+1	settembre	settembre	NOM	NOM	id=6	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=7	0	ROOT	_	_
+
+1	1982	@card@	NUM	NUM	id=8	0	ROOT	_	_
+
+1	,	,	PON	PON	id=9	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=10	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=11	0	ROOT	_	_
+
+1	tirato	tirare	VER:pper	VER:pper	id=12	0	ROOT	_	_
+
+1	indietro	indietro	ADV	ADV	id=13	0	ROOT	_	_
+
+1	,	,	PON	PON	id=14	0	ROOT	_	_
+
+1	lo	lo	PRO:pers	PRO:pers	id=15	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=16	0	ROOT	_	_
+
+1	fatto	fare	VER:pper	VER:pper	id=17	0	ROOT	_	_
+
+1	soprattutto	soprattutto	ADV	ADV	id=18	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=19	0	ROOT	_	_
+
+1	motivi	motivo	NOM	NOM	id=20	0	ROOT	_	_
+
+1	strategici	strategico	ADJ	ADJ	id=21	0	ROOT	_	_
+
+1	,	,	PON	PON	id=22	0	ROOT	_	_
+
+1	sperando	sperare	VER:geru	VER:geru	id=23	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=24	0	ROOT	_	_
+
+1	tornare	tornare	VER:infi	VER:infi	id=25	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=26	0	ROOT	_	_
+
+1	governo	governo	NOM	NOM	id=27	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=28	0	ROOT	_	_
+
+1	prima	primo	ADJ	ADJ	id=29	0	ROOT	_	_
+
+1	crisi	crisi	NOM	NOM	id=30	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=31	0	ROOT	_	_
+
+1	coalizione	coalizione	NOM	NOM	id=32	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=33	0	ROOT	_	_
+
+1	centro-destra	<unknown>	NOM	NOM	id=34	0	ROOT	_	_
+
+1	,	,	PON	PON	id=35	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=36	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=37	0	ROOT	_	_
+
+1	Quadrifoglio	quadrifoglio	NOM	NOM	id=38	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=39	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=40	0	ROOT	_	_
+
+1	Ma	ma	CON	CON	id=41	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=42	0	ROOT	_	_
+
+1	trattava	trattare	VER:impf	VER:impf	id=43	0	ROOT	_	_
+
+1	,	,	PON	PON	id=44	0	ROOT	_	_
+
+1	ancora	ancora	ADV	ADV	id=45	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=46	0	ROOT	_	_
+
+1	volta	volta	NOM	NOM	id=47	0	ROOT	_	_
+
+1	,	,	PON	PON	id=48	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=49	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=50	0	ROOT	_	_
+
+1	valutazione	valutazione	NOM	NOM	id=51	0	ROOT	_	_
+
+1	fatalmente	fatalmente	ADV	ADV	id=52	0	ROOT	_	_
+
+1	erronea	erroneo	ADJ	ADJ	id=53	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=54	0	ROOT	_	_
+
+1	direzione	direzione	NOM	NOM	id=55	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=56	0	ROOT	_	_
+
+1	partito	partito	NOM	NOM	id=57	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=58	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=59	0	ROOT	_	_
+
+1	governo	governo	NOM	NOM	id=60	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=61	0	ROOT	_	_
+
+1	Quadrifoglio	quadrifoglio	NOM	NOM	id=62	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=63	0	ROOT	_	_
+
+1	era	essere	VER:impf	VER:impf	id=64	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=65	0	ROOT	_	_
+
+1	fatto	fatto	NOM	NOM	id=66	0	ROOT	_	_
+
+1	temporaneo	temporaneo	ADJ	ADJ	id=67	0	ROOT	_	_
+
+1	(	(	PON	PON	id=68	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=69	0	ROOT	_	_
+
+1	era	essere	VER:impf	VER:impf	id=70	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=71	0	ROOT	_	_
+
+1	falena	falena	NOM	NOM	id=72	0	ROOT	_	_
+
+1	)	)	PON	PON	id=73	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=74	0	ROOT	_	_
+
+1	In	in	PRE	PRE	id=75	0	ROOT	_	_
+
+1	certe	certo	ADJ	ADJ	id=76	0	ROOT	_	_
+
+1	circostanze	circostanza	NOM	NOM	id=77	0	ROOT	_	_
+
+1	,	,	PON	PON	id=78	0	ROOT	_	_
+
+1	avrebbe	avere	VER:cond	VER:cond	id=79	0	ROOT	_	_
+
+1	potuto	potere	VER:pper	VER:pper	id=80	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=81	0	ROOT	_	_
+
+1	resistere	resistere	VER:infi	VER:infi	id=82	0	ROOT	_	_
+
+1	fino	fino	PRE	PRE	id=83	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=84	0	ROOT	_	_
+
+1	oggi	oggi	ADV	ADV	id=85	0	ROOT	_	_
+
+1	,	,	PON	PON	id=86	0	ROOT	_	_
+
+1	e	e	CON	CON	id=87	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=88	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=89	0	ROOT	_	_
+
+1	escluso	escludere	VER:pper	VER:pper	id=90	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=91	0	ROOT	_	_
+
+1	possa	potere	VER:cpre	VER:cpre	id=92	0	ROOT	_	_
+
+1	ripresentarsi	ripresentare	VER:infi	VER:infi	id=93	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=94	0	ROOT	_	_
+
+1	Chi	chi	PRO:rela	PRO:rela	id=95	0	ROOT	_	_
+
+1	può	potere	VER:pres	VER:pres	id=96	0	ROOT	_	_
+
+1	negarlo	negare	VER:infi	VER:infi	id=97	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=98	0	ROOT	_	_
+
+1	In	in	PRE	PRE	id=99	0	ROOT	_	_
+
+1	ogni	ogni	ADJ	ADJ	id=100	0	ROOT	_	_
+
+1	caso	caso	NOM	NOM	id=101	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=102	0	ROOT	_	_
+
+1	suo	suo	PRO:poss	PRO:poss	id=103	0	ROOT	_	_
+
+1	costituirsi	costituire	VER:infi	VER:infi	id=104	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=105	0	ROOT	_	_
+
+1	segnato	segnare	VER:pper	VER:pper	id=106	0	ROOT	_	_
+
+1	indubbiamente	indubbiamente	ADV	ADV	id=107	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=108	0	ROOT	_	_
+
+1	inizio	inizio	NOM	NOM	id=109	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=110	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=111	0	ROOT	_	_
+
+1	nuova	nuovo	ADJ	ADJ	id=112	0	ROOT	_	_
+
+1	fase	fase	NOM	NOM	id=113	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=114	0	ROOT	_	_
+
+1	quadro	quadro	NOM	NOM	id=115	0	ROOT	_	_
+
+1	politico	politico	ADJ	ADJ	id=116	0	ROOT	_	_
+
+1	danese	danese	ADJ	ADJ	id=117	0	ROOT	_	_
+
+1	,	,	PON	PON	id=118	0	ROOT	_	_
+
+1	dopo	dopo	PRE	PRE	id=119	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=120	0	ROOT	_	_
+
+1	seconda	secondo	ADJ	ADJ	id=121	0	ROOT	_	_
+
+1	guerra	guerra	NOM	NOM	id=122	0	ROOT	_	_
+
+1	mondiale	mondiale	ADJ	ADJ	id=123	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=124	0	ROOT	_	_
+
+1	Gran	gran	ADJ	ADJ	id=125	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=126	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=127	0	ROOT	_	_
+
+1	merito	merito	NOM	NOM	id=128	0	ROOT	_	_
+
+1	va	andare|riandare	VER:pres	VER:pres	id=129	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=130	0	ROOT	_	_
+
+1	Primo	primo	ADJ	ADJ	id=131	0	ROOT	_	_
+
+1	Ministro	ministro	NOM	NOM	id=132	0	ROOT	_	_
+
+1	,	,	PON	PON	id=133	0	ROOT	_	_
+
+1	tuttavia	tuttavia	ADV	ADV	id=134	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=135	0	ROOT	_	_
+
+1	bisogna	bisognare	VER:pres	VER:pres	id=136	0	ROOT	_	_
+
+1	tralasciare	tralasciare	VER:infi	VER:infi	id=137	0	ROOT	_	_
+
+1	alcuni	alcuno	PRO:indef	PRO:indef	id=138	0	ROOT	_	_
+
+1	altri	altri|altro	PRO:indef	PRO:indef	id=139	0	ROOT	_	_
+
+1	fattori	fattore	NOM	NOM	id=140	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=141	0	ROOT	_	_
+
+1	Quando	quando	PRO:inter	PRO:inter	id=142	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=143	0	ROOT	_	_
+
+1	sorto	sorgere	VER:pper	VER:pper	id=144	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=145	0	ROOT	_	_
+
+1	governo	governo	NOM	NOM	id=146	0	ROOT	_	_
+
+1	,	,	PON	PON	id=147	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=148	0	ROOT	_	_
+
+1	quattro	quattro	ADJ	ADJ	id=149	0	ROOT	_	_
+
+1	partiti	partito	NOM	NOM	id=150	0	ROOT	_	_
+
+1	erano	essere	VER:impf	VER:impf	id=151	0	ROOT	_	_
+
+1	concordi	concordare	VER:impe	VER:impe	id=152	0	ROOT	_	_
+
+1	su	su	PRE	PRE	id=153	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=154	0	ROOT	_	_
+
+1	grande	grande	ADJ	ADJ	id=155	0	ROOT	_	_
+
+1	numero	numero	NOM	NOM	id=156	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=157	0	ROOT	_	_
+
+1	argomenti	argomento	NOM	NOM	id=158	0	ROOT	_	_
+
+1	,	,	PON	PON	id=159	0	ROOT	_	_
+
+1	molto	molto	ADV	ADV	id=160	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=161	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=162	0	ROOT	_	_
+
+1	quanto	quanto	PRO:indef	PRO:indef	id=163	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=164	0	ROOT	_	_
+
+1	prevedessero	prevedere	VER:cimp	VER:cimp	id=165	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=166	0	ROOT	_	_
+
+1	oppositori	oppositore	NOM	NOM	id=167	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=168	0	ROOT	_	_
+
+1	Una	una	DET:indef	DET:indef	id=169	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=170	0	ROOT	_	_
+
+1	ragioni	ragione	NOM	NOM	id=171	0	ROOT	_	_
+
+1	principali	principale	ADJ	ADJ	id=172	0	ROOT	_	_
+
+1	era	essere	VER:impf	VER:impf	id=173	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=174	0	ROOT	_	_
+
+1	intuivamo	intuire	VER:impf	VER:impf	id=175	0	ROOT	_	_
+
+1	tutti	tutto	ADJ	ADJ	id=176	0	ROOT	_	_
+
+1	che	che	CON	CON	id=177	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=178	0	ROOT	_	_
+
+1	rimanere	rimanere	VER:infi	VER:infi	id=179	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=180	0	ROOT	_	_
+
+1	potere	potere	NOM	NOM	id=181	0	ROOT	_	_
+
+1	dovevamo	dovere	VER:impf	VER:impf	id=182	0	ROOT	_	_
+
+1	avere	avere|riavere	VER:infi	VER:infi	id=183	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=184	0	ROOT	_	_
+
+1	coraggio	coraggio	NOM	NOM	id=185	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=186	0	ROOT	_	_
+
+1	fare	fare	VER:infi	VER:infi	id=187	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=188	0	ROOT	_	_
+
+1	proposte	proposta	NOM	NOM	id=189	0	ROOT	_	_
+
+1	radicali	radicale	ADJ	ADJ	id=190	0	ROOT	_	_
+
+1	,	,	PON	PON	id=191	0	ROOT	_	_
+
+1	mirate	mirare	VER:pper	VER:pper	id=192	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=193	0	ROOT	_	_
+
+1	modificare	modificare	VER:infi	VER:infi	id=194	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=195	0	ROOT	_	_
+
+1	aspettative	aspettativa	NOM	NOM	id=196	0	ROOT	_	_
+
+1	degli	del	PRE:det	PRE:det	id=197	0	ROOT	_	_
+
+1	elettori	elettore	NOM	NOM	id=198	0	ROOT	_	_
+
+1	e	e	CON	CON	id=199	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=200	0	ROOT	_	_
+
+1	mondo	mondo	NOM	NOM	id=201	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=202	0	ROOT	_	_
+
+1	lavoro	lavoro	NOM	NOM	id=203	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=204	0	ROOT	_	_
+

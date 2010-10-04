@@ -46,7 +46,7 @@
 1	...	...	XP	XP	id=98	2	pnct	_	_
 2	ved	ved	SP	SP	id=99	0	ROOT	_	_
 3	følelse	følelse	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=100	2	nobj	_	_
-4	af	af	SP	SP	id=101	3	pobj.dobj	_	_
+4	af	af	SP	SP	id=101	0	ROOT	_	_
 5	at	at	CS	CS	id=102	4	nobj	_	_
 6	tarmen	tarm	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=103	8	subj	_	_
 7	ikke	ikke	RG	RGU	degree=unmarked|id=104	8	neg	_	_
@@ -72,7 +72,7 @@
 6	foretage	foretage	VA	VAF-=----A-	mood=infin|voice=active|id=134	5	vobj	_	_
 7	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=135	6	dobj	_	_
 8	omlægning	omlægning	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=136	7	nobj	_	_
-9	af	af	SP	SP	id=137	8	pobj.dobj	_	_
+9	af	af	SP	SP	id=137	0	ROOT	_	_
 10	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=138	9	nobj	_	_
 11	usunde	usund	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=139	10	attr	_	_
 12	kostvaner	kostvane	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=140	10	nobj	_	_
@@ -95,7 +95,7 @@
 10	og	og	CC	CC	id=158	16	coord	_	_
 11	ved	ved	SP	SP	id=159	16	inst	_	_
 12	hjælp	hjælp	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=160	11	nobj	_	_
-13	af	af	SP	SP	id=161	12	pobj.subj	_	_
+13	af	af	SP	SP	id=161	0	ROOT	_	_
 14	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=162	13	nobj	_	_
 15	kalorietabel	kalorietabel	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=163	14	nobj	_	_
 16	finde	finde	VA	VAF-=----A-	mood=infin|voice=active|id=164	7	conj	_	_

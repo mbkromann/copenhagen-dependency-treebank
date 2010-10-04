@@ -79,7 +79,7 @@
 11	foreslår	foreslå	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=127	7	conj	_	_
 12	den	den	PP	PP3CSU-NU	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|id=128	11	dobj	_	_
 13	serveret	servere	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=129	11	vobj	_	_
-14	stegt	stege	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=130	13	modo	_	_
+14	stegt	stege	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=130	0	ROOT	_	_
 15	med	med	SP	SP	id=131	0	ROOT	_	_
 16	dynger	dynge	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=132	15	nobj	_	_
 17	af	af	SP	SP	id=133	16	pobj	_	_

@@ -38,7 +38,7 @@
 8	fund	fund	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=81	7	nobj	_	_
 9	,	,	XP	XP	id=82	8	pnct	_	_
 10	blandt_andet	blandt_andet	RG	RGU	degree=unmarked|id=83	11	exem	_	_
-11	af	af	SP	SP	id=84	8	pobj.dobj	_	_
+11	af	af	SP	SP	id=84	0	ROOT	_	_
 12	husgeråd	husgeråd	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=85	11	nobj	_	_
 13	fra	fra	SP	SP	id=86	12	attr	_	_
 14	flere	mange	AN	ANC[CN]PU=[DI]U	degree=comp|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=87	16	@time	_	_

@@ -84,7 +84,7 @@
 7	over	over	RG	RGU	degree=unmarked|id=132	6	avobj	_	_
 8	for	for	SP	SP	id=133	7	pobj	_	_
 9	skader	skade	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=134	8	nobj	_	_
-10	på	på	SP	SP	id=135	9	pobj.dobj	_	_
+10	på	på	SP	SP	id=135	0	ROOT	_	_
 11	vand-	vand-	XX	XX	id=136	10	nobj	_	_
 12	,	,	XP	XP	id=137	11	pnct	_	_
 13	afløbsgas-	afløbsgas-	XX	XX	id=138	11	conj	_	_
@@ -94,9 +94,9 @@
 17	dog	dog	RG	RGU	degree=unmarked|id=142	18	conc	_	_
 18	bekostes	bekoste	VA	VADR=----P-	mood=indic|tense=present|voice=passive|id=143	2	conj	_	_
 19	udbedring	udbedring	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=144	18	subj	_	_
-20	af	af	SP	SP	id=145	19	pobj.dobj	_	_
+20	af	af	SP	SP	id=145	0	ROOT	_	_
 21	skader	skade	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=146	20	nobj	_	_
-22	på	på	SP	SP	id=147	21	pobj.dobj	_	_
+22	på	på	SP	SP	id=147	0	ROOT	_	_
 23	ledninger	ledning	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=148	22	nobj	_	_
 24	,	,	XP	XP	id=149	18	pnct	_	_
 25	hvis	hvis	CS	CS	id=150	18	cond	_	_
@@ -109,7 +109,7 @@
 32	forhold	forhold	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=157	31	nobj	_	_
 33	til	til	SP	SP	id=158	32	pobj	_	_
 34	placeringen	placering	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=159	33	nobj	_	_
-35	på	på	SP	SP	id=160	34	pobj.pobj	_	_
+35	på	på	SP	SP	id=160	0	ROOT	_	_
 36	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=161	35	nobj	_	_
 37	udleverede	udlevere	VA	VAPA=P[CN][DI]A-U	mood=partic|tense=past|number=plur|gender=common/neuter|definiteness=def/indef|transcat=adject|case=unmarked|id=162	36	attr	_	_
 38	bygningstegninger	bygningstegning	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=163	36	nobj	_	_

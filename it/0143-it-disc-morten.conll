@@ -1,0 +1,386 @@
+1	Le	il	DET:def	DET:def	id=2	0	ROOT	_	_
+
+1	partite	partita	NOM	NOM	id=3	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=4	0	ROOT	_	_
+
+1	calcio	calcio	NOM	NOM	id=5	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=6	0	ROOT	_	_
+
+1	divisione	divisione	NOM	NOM	id=7	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=8	0	ROOT	_	_
+
+1	weekend	<unknown>	NOM	NOM	id=9	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=10	0	ROOT	_	_
+
+1	state	essere|stare	VER:pper	VER:pper	id=11	0	ROOT	_	_
+
+1	salvate	salvare	VER:pper	VER:pper	id=12	0	ROOT	_	_
+
+1	all'	al	PRE:det	PRE:det	id=13	0	ROOT	_	_
+
+1	ultimo	ultimo	ADJ	ADJ	id=14	0	ROOT	_	_
+
+1	istante	istante	NOM	NOM	id=15	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=16	0	ROOT	_	_
+
+1	I	il	DET:def	DET:def	id=21	0	ROOT	_	_
+
+1	giocatori	giocatore	NOM	NOM	id=22	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=23	0	ROOT	_	_
+
+1	divisione	divisione	NOM	NOM	id=24	0	ROOT	_	_
+
+1	danese	danese	ADJ	ADJ	id=25	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=26	0	ROOT	_	_
+
+1	tutti	tutto	ADJ	ADJ	id=27	0	ROOT	_	_
+
+1	d'	d'	PRE	PRE	id=28	0	ROOT	_	_
+
+1	accordo	accordo	NOM	NOM	id=29	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=30	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=31	0	ROOT	_	_
+
+1	Associazione	associazione	NOM	NOM	id=32	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=33	0	ROOT	_	_
+
+1	divisione	divisione	NOM	NOM	id=34	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=35	0	ROOT	_	_
+
+1	negoziare	negoziare	VER:infi	VER:infi	id=36	0	ROOT	_	_
+
+1	anziché	anziché	CON	CON	id=37	0	ROOT	_	_
+
+1	scioperare	scioperare	VER:infi	VER:infi	id=38	0	ROOT	_	_
+
+1	,	,	PON	PON	id=39	0	ROOT	_	_
+
+1	e	e	CON	CON	id=40	0	ROOT	_	_
+
+1	ieri	ieri	ADV	ADV	id=41	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=42	0	ROOT	_	_
+
+1	calciatori	calciatore	NOM	NOM	id=43	0	ROOT	_	_
+
+1	hanno	avere|riavere	VER:pres	VER:pres	id=44	0	ROOT	_	_
+
+1	deciso	decidere	VER:pper	VER:pper	id=45	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=46	0	ROOT	_	_
+
+1	rinunciare	rinunciare	VER:infi	VER:infi	id=47	0	ROOT	_	_
+
+1	alle	al	PRE:det	PRE:det	id=48	0	ROOT	_	_
+
+1	azioni	azione	NOM	NOM	id=49	0	ROOT	_	_
+
+1	dimostrative	dimostrativo	ADJ	ADJ	id=50	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=51	0	ROOT	_	_
+
+1	volevano	volere	VER:impf	VER:impf	id=52	0	ROOT	_	_
+
+1	fermare	fermare	VER:infi	VER:infi	id=53	0	ROOT	_	_
+
+1	tutte	tutto	ADJ	ADJ	id=54	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=55	0	ROOT	_	_
+
+1	manifestazioni	manifestazione	NOM	NOM	id=56	0	ROOT	_	_
+
+1	calcistiche	calcistico	ADJ	ADJ	id=57	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=58	0	ROOT	_	_
+
+1	weekend	<unknown>	NOM	NOM	id=59	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=60	0	ROOT	_	_
+
+1	Ora	ora	ADV	ADV	id=65	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=66	0	ROOT	_	_
+
+1	parti	parte|parto	NOM	NOM	id=67	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=68	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=69	0	ROOT	_	_
+
+1	accordate	accordare	VER:pper	VER:pper	id=70	0	ROOT	_	_
+
+1	sul	sul	PRE:det	PRE:det	id=71	0	ROOT	_	_
+
+1	fatto	fatto	NOM	NOM	id=72	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=73	0	ROOT	_	_
+
+1	se	se	PRO:refl	PRO:refl	id=74	0	ROOT	_	_
+
+1	ciascuna	ciascuna	PRO:indef	PRO:indef	id=75	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=76	0	ROOT	_	_
+
+1	viene	venire	VER:pres	VER:pres	id=77	0	ROOT	_	_
+
+1	rappresentata	rappresentare	VER:pper	VER:pper	id=78	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=79	0	ROOT	_	_
+
+1	tre	tre	ADJ	ADJ	id=80	0	ROOT	_	_
+
+1	uomini	uomo	NOM	NOM	id=81	0	ROOT	_	_
+
+1	,	,	PON	PON	id=82	0	ROOT	_	_
+
+1	uno	uno	ADJ	ADJ	id=83	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=84	0	ROOT	_	_
+
+1	essi	essi	PRO:pers	PRO:pers	id=85	0	ROOT	_	_
+
+1	dovrà	dovere	VER:futu	VER:futu	id=86	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=87	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=88	0	ROOT	_	_
+
+1	avvocato	avvocato	NOM	NOM	id=89	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=90	0	ROOT	_	_
+
+1	Inoltre	inoltre	ADV	ADV	id=95	0	ROOT	_	_
+
+1	,	,	PON	PON	id=96	0	ROOT	_	_
+
+1	entro	entro	PRE	PRE	id=97	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=98	0	ROOT	_	_
+
+1	3	@card@	NUM	NUM	id=99	0	ROOT	_	_
+
+1	maggio	maggio	NOM	NOM	id=100	0	ROOT	_	_
+
+1	dovranno	dovere	VER:futu	VER:futu	id=101	0	ROOT	_	_
+
+1	aver	avere	VER:infi	VER:infi	id=102	0	ROOT	_	_
+
+1	elaborato	elaborare	VER:pper	VER:pper	id=103	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=104	0	ROOT	_	_
+
+1	nuovo	nuovo	ADJ	ADJ	id=105	0	ROOT	_	_
+
+1	contratto	contratto	NOM	NOM	id=106	0	ROOT	_	_
+
+1	standard	standard	ADJ	ADJ	id=107	0	ROOT	_	_
+
+1	e	e	CON	CON	id=108	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=109	0	ROOT	_	_
+
+1	altro	altro	ADJ	ADJ	id=110	0	ROOT	_	_
+
+1	sistema	sistema	NOM	NOM	id=111	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=112	0	ROOT	_	_
+
+1	trasferimento	trasferimento	NOM	NOM	id=113	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=114	0	ROOT	_	_
+
+1	sostituzione	sostituzione	NOM	NOM	id=115	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=116	0	ROOT	_	_
+
+1	quanto	quanto	PRO:indef	PRO:indef	id=117	0	ROOT	_	_
+
+1	approvato	approvare	VER:pper	VER:pper	id=118	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=119	0	ROOT	_	_
+
+1	riunione	riunione	NOM	NOM	id=120	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=121	0	ROOT	_	_
+
+1	rappresentanti	rappresentante	NOM	NOM	id=122	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=123	0	ROOT	_	_
+
+1	DBU	<unknown>	NOM	NOM	id=124	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=125	0	ROOT	_	_
+
+1	,	,	PON	PON	id=126	0	ROOT	_	_
+
+1	sostengono	sostenere	VER:pres	VER:pres	id=127	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=128	0	ROOT	_	_
+
+1	giocatori	giocatore	NOM	NOM	id=129	0	ROOT	_	_
+
+1	,	,	PON	PON	id=130	0	ROOT	_	_
+
+1	impone	imporre	VER:pres	VER:pres	id=131	0	ROOT	_	_
+
+1	condizioni	condizione	NOM	NOM	id=132	0	ROOT	_	_
+
+1	irragionevoli	irragionevole	ADJ	ADJ	id=133	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=134	0	ROOT	_	_
+
+1	A	a	PRE	PRE	id=139	0	ROOT	_	_
+
+1	causa	causa	NOM	NOM	id=140	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=141	0	ROOT	_	_
+
+1	clima	clima	NOM	NOM	id=142	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=143	0	ROOT	_	_
+
+1	negoziazioni	negoziazione	NOM	NOM	id=144	0	ROOT	_	_
+
+1	,	,	PON	PON	id=145	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=146	0	ROOT	_	_
+
+1	Associazione	associazione	NOM	NOM	id=147	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=148	0	ROOT	_	_
+
+1	divisione	divisione	NOM	NOM	id=149	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=150	0	ROOT	_	_
+
+1	invitato	invitare	VER:pper	VER:pper	id=151	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=152	0	ROOT	_	_
+
+1	club	club	NOM	NOM	id=153	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=154	0	ROOT	_	_
+
+1	rinunciare	rinunciare	VER:infi	VER:infi	id=155	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=156	0	ROOT	_	_
+
+1	diritto	diritto	NOM	NOM	id=157	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=158	0	ROOT	_	_
+
+1	firmare	firmare	VER:infi	VER:infi	id=159	0	ROOT	_	_
+
+1	nuovi	nuovo	ADJ	ADJ	id=160	0	ROOT	_	_
+
+1	contratti	contratto	NOM	NOM	id=161	0	ROOT	_	_
+
+1	finché	finché	CON	CON	id=162	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=163	0	ROOT	_	_
+
+1	negoziazione	negoziazione	NOM	NOM	id=164	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=165	0	ROOT	_	_
+
+1	aperta	aperto	ADJ	ADJ	id=166	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=167	0	ROOT	_	_
+
+1	Se	se	CON	CON	id=170	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=171	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=172	0	ROOT	_	_
+
+1	possibile	possibile	ADJ	ADJ	id=173	0	ROOT	_	_
+
+1	evitare	evitare	VER:infi	VER:infi	id=174	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=175	0	ROOT	_	_
+
+1	firma	firma	NOM	NOM	id=176	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=177	0	ROOT	_	_
+
+1	nuovi	nuovo	ADJ	ADJ	id=178	0	ROOT	_	_
+
+1	contratti	contratto	NOM	NOM	id=179	0	ROOT	_	_
+
+1	,	,	PON	PON	id=180	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=181	0	ROOT	_	_
+
+1	se	se	CON	CON	id=182	0	ROOT	_	_
+
+1	entrambe	entrambi	ADJ	ADJ	id=183	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=184	0	ROOT	_	_
+
+1	società	società	NOM	NOM	id=185	0	ROOT	_	_
+
+1	invitano	invitare	VER:pres	VER:pres	id=186	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=187	0	ROOT	_	_
+
+1	attendere	attendere	VER:infi	VER:infi	id=188	0	ROOT	_	_
+
+1	,	,	PON	PON	id=189	0	ROOT	_	_
+
+1	sta	stare	VER:pres	VER:pres	id=190	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=191	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=192	0	ROOT	_	_
+
+1	forte	forte	ADJ	ADJ	id=193	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=194	0	ROOT	_	_
+
+1	due	due	ADJ	ADJ	id=195	0	ROOT	_	_
+
+1	contraenti	contraente	NOM	NOM	id=196	0	ROOT	_	_
+
+1	decidere	decidere	VER:infi	VER:infi	id=197	0	ROOT	_	_
+
+1	se	se	CON	CON	id=198	0	ROOT	_	_
+
+1	usare	usare	VER:infi	VER:infi	id=199	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=200	0	ROOT	_	_
+
+1	vecchie	vecchio	ADJ	ADJ	id=201	0	ROOT	_	_
+
+1	disposizioni	disposizione	NOM	NOM	id=202	0	ROOT	_	_
+
+1	sui	sul	PRE:det	PRE:det	id=203	0	ROOT	_	_
+
+1	trasferimenti	trasferimento	NOM	NOM	id=204	0	ROOT	_	_
+
+1	,	,	PON	PON	id=205	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=206	0	ROOT	_	_
+
+1	vigore	vigore	NOM	NOM	id=207	0	ROOT	_	_
+
+1	prima	primo	ADJ	ADJ	id=208	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=209	0	ROOT	_	_
+
+1	9	@card@	NUM	NUM	id=210	0	ROOT	_	_
+
+1	marzo	marzo	NOM	NOM	id=211	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=212	0	ROOT	_	_
+

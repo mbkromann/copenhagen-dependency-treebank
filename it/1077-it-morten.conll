@@ -1,0 +1,536 @@
+1	Gli	il	DET:def	DET:def	id=0	0	ROOT	_	_
+
+1	argomenti	argomento	NOM	NOM	id=1	0	ROOT	_	_
+
+1	comunque	comunque	ADV	ADV	id=2	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=3	0	ROOT	_	_
+
+1	chiari	chiaro	ADJ	ADJ	id=4	0	ROOT	_	_
+
+1	:	:	PON	PON	id=5	0	ROOT	_	_
+
+1	lo	il	DET:def	DET:def	id=6	0	ROOT	_	_
+
+1	stato	stato	NOM	NOM	id=7	0	ROOT	_	_
+
+1	deve	dovere	VER:pres	VER:pres	id=8	0	ROOT	_	_
+
+1	preservare	preservare	VER:infi	VER:infi	id=9	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=10	0	ROOT	_	_
+
+1	valori	valore	NOM	NOM	id=11	0	ROOT	_	_
+
+1	culturali	culturale	ADJ	ADJ	id=12	0	ROOT	_	_
+
+1	,	,	PON	PON	id=13	0	ROOT	_	_
+
+1	ci	ci	PRO:refl	PRO:refl	id=14	0	ROOT	_	_
+
+1	devono	dovere	VER:pres	VER:pres	id=15	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=16	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=17	0	ROOT	_	_
+
+1	sentieri	sentiero	NOM	NOM	id=18	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=19	0	ROOT	_	_
+
+1	fare	fare	VER:infi	VER:infi	id=20	0	ROOT	_	_
+
+1	allenamento	allenamento	NOM	NOM	id=21	0	ROOT	_	_
+
+1	,	,	PON	PON	id=22	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=23	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=24	0	ROOT	_	_
+
+1	jogging	jogging	NOM	NOM	id=25	0	ROOT	_	_
+
+1	E	<unknown>	ADJ	ADJ	id=26	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=27	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=28	0	ROOT	_	_
+
+1	gare	gara	NOM	NOM	id=29	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=30	0	ROOT	_	_
+
+1	orientamento	orientamento	NOM	NOM	id=31	0	ROOT	_	_
+
+1	,	,	PON	PON	id=32	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=33	0	ROOT	_	_
+
+1	sentieri	sentiero	NOM	NOM	id=34	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=35	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=36	0	ROOT	_	_
+
+1	cavalli	cavallo	NOM	NOM	id=37	0	ROOT	_	_
+
+1	,	,	PON	PON	id=38	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=39	0	ROOT	_	_
+
+1	accessi	accesso	NOM	NOM	id=40	0	ROOT	_	_
+
+1	pubblici	pubblico	ADJ	ADJ	id=41	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=42	0	ROOT	_	_
+
+1	generale	generale	ADJ	ADJ	id=43	0	ROOT	_	_
+
+1	,	,	PON	PON	id=44	0	ROOT	_	_
+
+1	e	e	CON	CON	id=45	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=46	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=47	0	ROOT	_	_
+
+1	singoli	singolo	ADJ	ADJ	id=48	0	ROOT	_	_
+
+1	cacciatori	cacciatore	NOM	NOM	id=49	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=50	0	ROOT	_	_
+
+1	lo	lo	PRO:pers	PRO:pers	id=51	0	ROOT	_	_
+
+1	possono	potere	VER:pres	VER:pres	id=52	0	ROOT	_	_
+
+1	assicurare	assicurare	VER:infi	VER:infi	id=53	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=54	0	ROOT	_	_
+
+1	Riguardo	riguardo	NOM	NOM	id=55	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=56	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=57	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=58	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=59	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=60	0	ROOT	_	_
+
+1	tutto	tutto	NOM	NOM	id=61	0	ROOT	_	_
+
+1	evidente	evidente	ADJ	ADJ	id=62	0	ROOT	_	_
+
+1	,	,	PON	PON	id=63	0	ROOT	_	_
+
+1	tuttavia	tuttavia	ADV	ADV	id=64	0	ROOT	_	_
+
+1	,	,	PON	PON	id=65	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=66	0	ROOT	_	_
+
+1	nei	nel	PRE:det	PRE:det	id=67	0	ROOT	_	_
+
+1	boschi	bosco	NOM	NOM	id=68	0	ROOT	_	_
+
+1	e	e	CON	CON	id=69	0	ROOT	_	_
+
+1	nei	nel	PRE:det	PRE:det	id=70	0	ROOT	_	_
+
+1	terreni	terreno	ADJ	ADJ	id=71	0	ROOT	_	_
+
+1	privati	privato	NOM	NOM	id=72	0	ROOT	_	_
+
+1	coesistono	coesistere	VER:pres	VER:pres	id=73	0	ROOT	_	_
+
+1	senza	senza	PRE	PRE	id=74	0	ROOT	_	_
+
+1	difficoltà	difficoltà	NOM	NOM	id=75	0	ROOT	_	_
+
+1	sia	sia	CON	CON	id=76	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=77	0	ROOT	_	_
+
+1	accessi	accesso	NOM	NOM	id=78	0	ROOT	_	_
+
+1	pubblici	pubblico	ADJ	ADJ	id=79	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=80	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=81	0	ROOT	_	_
+
+1	cacciatori	cacciatore	NOM	NOM	id=82	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=83	0	ROOT	_	_
+
+1	Le	il	DET:def	DET:def	id=84	0	ROOT	_	_
+
+1	statistiche	statistica|statistico	NOM	NOM	id=85	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=86	0	ROOT	_	_
+
+1	settore	settore	NOM	NOM	id=87	0	ROOT	_	_
+
+1	dimostrano	dimostrare	VER:pres	VER:pres	id=88	0	ROOT	_	_
+
+1	,	,	PON	PON	id=89	0	ROOT	_	_
+
+1	inoltre	inoltre	ADV	ADV	id=90	0	ROOT	_	_
+
+1	,	,	PON	PON	id=91	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=92	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=93	0	ROOT	_	_
+
+1	caccia	caccia	NOM	NOM	id=94	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=95	0	ROOT	_	_
+
+1	realtà	realtà	NOM	NOM	id=96	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=97	0	ROOT	_	_
+
+1	avvantaggia	avvantaggiare	VER:pres	VER:pres	id=98	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=99	0	ROOT	_	_
+
+1	fatto	fare	VER:pper	VER:pper	id=100	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=101	0	ROOT	_	_
+
+1	se	se	CON	CON	id=102	0	ROOT	_	_
+
+1	ne	ne	ADV	ADV	id=103	0	ROOT	_	_
+
+1	occupino	occupare	VER:cpre	VER:cpre	id=104	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=105	0	ROOT	_	_
+
+1	cacciatori	cacciatore	NOM	NOM	id=106	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=107	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=108	0	ROOT	_	_
+
+1	selvaggina	selvaggina	NOM	NOM	id=109	0	ROOT	_	_
+
+1	aumenta	aumentare	VER:pres	VER:pres	id=110	0	ROOT	_	_
+
+1	,	,	PON	PON	id=111	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=112	0	ROOT	_	_
+
+1	alimentazione	alimentazione	NOM	NOM	id=113	0	ROOT	_	_
+
+1	migliora	migliorare	VER:pres	VER:pres	id=114	0	ROOT	_	_
+
+1	e	e	CON	CON	id=115	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=116	0	ROOT	_	_
+
+1	presta	prestare	VER:pres	VER:pres	id=117	0	ROOT	_	_
+
+1	maggiore	maggiore	ADJ	ADJ	id=118	0	ROOT	_	_
+
+1	attenzione	attenzione	NOM	NOM	id=119	0	ROOT	_	_
+
+1	sia	sia	CON	CON	id=120	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=121	0	ROOT	_	_
+
+1	selvaggina	selvaggina	NOM	NOM	id=122	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=123	0	ROOT	_	_
+
+1	alle	al	PRE:det	PRE:det	id=124	0	ROOT	_	_
+
+1	zone	zona	NOM	NOM	id=125	0	ROOT	_	_
+
+1	naturali	naturale	ADJ	ADJ	id=126	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=127	0	ROOT	_	_
+
+1	Nel	nel	PRE:det	PRE:det	id=128	0	ROOT	_	_
+
+1	sud	sud	NOM	NOM	id=129	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=130	0	ROOT	_	_
+
+1	Selandia	<unknown>	NOM	NOM	id=131	0	ROOT	_	_
+
+1	,	,	PON	PON	id=132	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=133	0	ROOT	_	_
+
+1	esempio	esempio	NOM	NOM	id=134	0	ROOT	_	_
+
+1	,	,	PON	PON	id=135	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=136	0	ROOT	_	_
+
+1	cui	cui	PRO:rela	PRO:rela	id=137	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=138	0	ROOT	_	_
+
+1	gran	gran	ADJ	ADJ	id=139	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=140	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=141	0	ROOT	_	_
+
+1	terreni	terreno	NOM	NOM	id=142	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=143	0	ROOT	_	_
+
+1	affittata	affittare	VER:pper	VER:pper	id=144	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=145	0	ROOT	_	_
+
+1	privati	privato	NOM	NOM	id=146	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=147	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=148	0	ROOT	_	_
+
+1	caccia	caccia	NOM	NOM	id=149	0	ROOT	_	_
+
+1	,	,	PON	PON	id=150	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=151	0	ROOT	_	_
+
+1	selvaggina	selvaggina	NOM	NOM	id=152	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=153	0	ROOT	_	_
+
+1	molto	molto	ADV	ADV	id=154	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=155	0	ROOT	_	_
+
+1	abbondante	abbondante	ADJ	ADJ	id=156	0	ROOT	_	_
+
+1	e	e	CON	CON	id=157	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=158	0	ROOT	_	_
+
+1	contempo	contempo	NOM	NOM	id=159	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=160	0	ROOT	_	_
+
+1	caccia	caccia	NOM	NOM	id=161	0	ROOT	_	_
+
+1	conosce	conoscere	VER:pres	VER:pres	id=162	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=163	0	ROOT	_	_
+
+1	rapporto	rapporto	NOM	NOM	id=164	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=165	0	ROOT	_	_
+
+1	naturale	naturale	ADJ	ADJ	id=166	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=167	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=168	0	ROOT	_	_
+
+1	popolazione	popolazione	NOM	NOM	id=169	0	ROOT	_	_
+
+1	locale	locale	ADJ	ADJ	id=170	0	ROOT	_	_
+
+1	,	,	PON	PON	id=171	0	ROOT	_	_
+
+1	visto	visto	CON	CON	id=172	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=173	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=174	0	ROOT	_	_
+
+1	gente	gente	NOM	NOM	id=175	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=176	0	ROOT	_	_
+
+1	abituata	abituare	VER:pper	VER:pper	id=177	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=178	0	ROOT	_	_
+
+1	vedere	vedere	VER:infi	VER:infi	id=179	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=180	0	ROOT	_	_
+
+1	cacciatori	cacciatore	NOM	NOM	id=181	0	ROOT	_	_
+
+1	,	,	PON	PON	id=182	0	ROOT	_	_
+
+1	ci	ci	PRO:refl	PRO:refl	id=183	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=184	0	ROOT	_	_
+
+1	nutre	nutrire	VER:pres	VER:pres	id=185	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=186	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=187	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=188	0	ROOT	_	_
+
+1	selvaggina	selvaggina	NOM	NOM	id=189	0	ROOT	_	_
+
+1	e	e	CON	CON	id=190	0	ROOT	_	_
+
+1	quindi	quindi	ADV	ADV	id=191	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=192	0	ROOT	_	_
+
+1	gode	godere	VER:pres	VER:pres	id=193	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=194	0	ROOT	_	_
+
+1	natura	natura	NOM	NOM	id=195	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=196	0	ROOT	_	_
+
+1	maniera	maniera	NOM	NOM	id=197	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=198	0	ROOT	_	_
+
+1	piena	pieno	ADJ	ADJ	id=199	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=200	0	ROOT	_	_
+
+1	Nel	nel	PRE:det	PRE:det	id=201	0	ROOT	_	_
+
+1	nord	nord	NOM	NOM	id=202	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=203	0	ROOT	_	_
+
+1	Selandia	<unknown>	NOM	NOM	id=204	0	ROOT	_	_
+
+1	,	,	PON	PON	id=205	0	ROOT	_	_
+
+1	invece	invece	ADV	ADV	id=206	0	ROOT	_	_
+
+1	,	,	PON	PON	id=207	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=208	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=209	0	ROOT	_	_
+
+1	dipendenti	dipendente	NOM	NOM	id=210	0	ROOT	_	_
+
+1	statali	statale	ADJ	ADJ	id=211	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=212	0	ROOT	_	_
+
+1	andare	andare	VER:infi	VER:infi	id=213	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=214	0	ROOT	_	_
+
+1	caccia	caccia	NOM	NOM	id=215	0	ROOT	_	_
+
+1	,	,	PON	PON	id=216	0	ROOT	_	_
+
+1	discretamente	discretamente	ADV	ADV	id=217	0	ROOT	_	_
+
+1	,	,	PON	PON	id=218	0	ROOT	_	_
+
+1	nei	nel	PRE:det	PRE:det	id=219	0	ROOT	_	_
+
+1	giorni	giorno	NOM	NOM	id=220	0	ROOT	_	_
+
+1	feriali	feriale	ADJ	ADJ	id=221	0	ROOT	_	_
+
+1	,	,	PON	PON	id=222	0	ROOT	_	_
+
+1	quando	quando	CON	CON	id=223	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=224	0	ROOT	_	_
+
+1	altri	altro	ADJ	ADJ	id=225	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=226	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=227	0	ROOT	_	_
+
+1	lavoro	lavoro	NOM	NOM	id=228	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=229	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=230	0	ROOT	_	_
+
+1	selvaggina	selvaggina	NOM	NOM	id=231	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=232	0	ROOT	_	_
+
+1	vende	vendere	VER:pres	VER:pres	id=233	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=234	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=235	0	ROOT	_	_
+
+1	cerchia	cerchia	NOM	NOM	id=236	0	ROOT	_	_
+
+1	ristretta	restringere|ristringere	VER:pper	VER:pper	id=237	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=238	0	ROOT	_	_
+
+1	persone	persona	NOM	NOM	id=239	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=240	0	ROOT	_	_
+
+1	vantaggio	vantaggio	NOM	NOM	id=241	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=242	0	ROOT	_	_
+
+1	casse	cassa	NOM	NOM	id=243	0	ROOT	_	_
+
+1	statali	statale	ADJ	ADJ	id=244	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=245	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=246	0	ROOT	_	_
+
+1	cerchia	cerchia	NOM	NOM	id=247	0	ROOT	_	_
+
+1	ristretta	restringere|ristringere	VER:pper	VER:pper	id=248	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=249	0	ROOT	_	_
+
+1	persone	persona	NOM	NOM	id=250	0	ROOT	_	_
+
+1	;	;	PON	PON	id=251	0	ROOT	_	_
+
+1	tutto	tutto	ADV	ADV	id=252	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=253	0	ROOT	_	_
+
+1	e	e	CON	CON	id=254	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=255	0	ROOT	_	_
+
+1	allontana	allontanare	VER:pres	VER:pres	id=256	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=257	0	ROOT	_	_
+
+1	gente	gente	NOM	NOM	id=258	0	ROOT	_	_
+
+1	dall'	dal	PRE:det	PRE:det	id=259	0	ROOT	_	_
+
+1	attività	attività	NOM	NOM	id=260	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=261	0	ROOT	_	_
+
+1	naturale	naturale	ADJ	ADJ	id=262	0	ROOT	_	_
+
+1	,	,	PON	PON	id=263	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=264	0	ROOT	_	_
+
+1	caccia	caccia	NOM	NOM	id=265	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=266	0	ROOT	_	_
+
+1	I	il	DET:def	DET:def	id=267	0	ROOT	_	_
+

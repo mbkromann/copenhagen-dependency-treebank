@@ -8,7 +8,7 @@
 8	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=50	2	conj	_	_
 9	der	der	U	U=	id=51	8	expl	_	_
 10	tale	tale	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=52	8	dobj	_	_
-11	om	om	SP	SP	id=53	10	pobj.pobj	_	_
+11	om	om	SP	SP	id=53	0	ROOT	_	_
 12	småpenge	småpenge	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=54	11	nobj	_	_
 13	,	,	XP	XP	id=55	8	pnct	_	_
 14	når	når	CS	CS	id=56	8	cond	_	_
@@ -34,7 +34,7 @@
 12	år	år	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=77	11	nobj	_	_
 13	gennemført	gennemføre	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=78	6	vobj	_	_
 14	investeringer	investering	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=79	13	dobj	_	_
-15	på	på	SP	SP	id=80	14	pobj.dobj	_	_
+15	på	på	SP	SP	id=80	0	ROOT	_	_
 16	sammenlagt	sammenlægge	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=81	17	attr	_	_
 17	1,2	1,2	AC	AC---U=--	case=unmarked|id=82	18	numm	_	_
 18	mia.	milliard	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=83	15	nobj	_	_
@@ -70,13 +70,13 @@
 48	,	,	XP	XP	id=113	36	pnct	_	_
 49	som	som	U	U=	id=114	36	fpredo	_	_
 50	betaling	betaling	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=115	49	nobj	_	_
-51	for	for	SP	SP	id=116	50	pobj.pobj	_	_
+51	for	for	SP	SP	id=116	0	ROOT	_	_
 52	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=117	51	nobj	_	_
 53	to	to	AC	AC---U=--	case=unmarked|id=118	52	nobj	_	_
 54	partneres	partner	NC	NCCPG==I	gender=common|number=plur|case=gen|def=indef|id=119	53	nobj	_	_
 55	kommende	komme	VA	VAPR=[SP][CN][DI]A-U	mood=partic|tense=present|number=sing/plur|gender=common/neuter|definiteness=def/indef|transcat=adject|case=unmarked|id=120	52	attr	_	_
 56	samarbejde	samarbejde	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=121	52	possd	_	_
-57	om	om	SP	SP	id=122	56	pobj.pobj	_	_
+57	om	om	SP	SP	id=122	0	ROOT	_	_
 58	det	den	PD	PD-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=123	57	nobj	_	_
 59	engelske	engelsk	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=124	58	attr	_	_
 60	marked	marked	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=125	58	nobj	_	_
@@ -96,7 +96,7 @@
 12	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=142	11	nobj	_	_
 13	bebudede	bebude	VA	VAPA=S[CN]DA-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=def|transcat=adject|case=unmarked|id=143	12	attr	_	_
 14	rationalisering	rationalisering	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=144	12	nobj	_	_
-15	af	af	SP	SP	id=145	14	pobj.dobj	_	_
+15	af	af	SP	SP	id=145	0	ROOT	_	_
 16	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=146	15	nobj	_	_
 17	to	to	AC	AC---U=--	case=unmarked|id=147	16	nobj	_	_
 18	københavnske	københavnsk	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=148	17	attr	_	_
@@ -122,7 +122,7 @@
 17	i	i	SP	SP	id=171	11	pobj	_	_
 18	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=172	17	nobj	_	_
 19	sammenlægning	sammenlægning	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=173	18	nobj	_	_
-20	af	af	SP	SP	id=174	19	pobj.dobj	_	_
+20	af	af	SP	SP	id=174	0	ROOT	_	_
 21	Carlsberg	Carlsberg	NP	NP--U==-	case=unmarked|id=175	20	nobj	_	_
 22	og	og	CC	CC	id=176	23	coord	_	_
 23	Tuborgs	Tuborg	NP	NP--G==-	case=gen|id=177	21	conj	_	_

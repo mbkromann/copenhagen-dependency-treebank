@@ -1,0 +1,488 @@
+1	Indicatore	indicatore	NOM	NOM	id=0	0	ROOT	_	_
+
+1	percorsi	percorso	ADJ	ADJ	id=1	0	ROOT	_	_
+
+1	:	:	PON	PON	id=2	0	ROOT	_	_
+
+1	c'	c'	PRO:demo	PRO:demo	id=3	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=4	0	ROOT	_	_
+
+1	fervore	fervore	NOM	NOM	id=5	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=6	0	ROOT	_	_
+
+1	settore	settore	NOM	NOM	id=7	0	ROOT	_	_
+
+1	danese	danese	ADJ	ADJ	id=8	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=9	0	ROOT	_	_
+
+1	progettazione	progettazione	NOM	NOM	id=10	0	ROOT	_	_
+
+1	e	e	CON	CON	id=11	0	ROOT	_	_
+
+1	sviluppo	sviluppo	NOM	NOM	id=12	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=13	0	ROOT	_	_
+
+1	software	software	NOM	NOM	id=14	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=15	0	ROOT	_	_
+
+1	Un	un	DET:indef	DET:indef	id=16	0	ROOT	_	_
+
+1	po'	po'	ADV	ADV	id=17	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=18	0	ROOT	_	_
+
+1	ritardo	ritardo	NOM	NOM	id=19	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=20	0	ROOT	_	_
+
+1	ora	ora	ADV	ADV	id=21	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=22	0	ROOT	_	_
+
+1	disposizione	disposizione	NOM	NOM	id=23	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=24	0	ROOT	_	_
+
+1	programma	programma	NOM	NOM	id=25	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=26	0	ROOT	_	_
+
+1	aiutare	aiutare	VER:infi	VER:infi	id=27	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=28	0	ROOT	_	_
+
+1	visitatori	visitatore	NOM	NOM	id=29	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=30	0	ROOT	_	_
+
+1	muoversi	muovere	VER:infi	VER:infi	id=31	0	ROOT	_	_
+
+1	nei	nel	PRE:det	PRE:det	id=32	0	ROOT	_	_
+
+1	musei	museo	NOM	NOM	id=33	0	ROOT	_	_
+
+1	,	,	PON	PON	id=34	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=35	0	ROOT	_	_
+
+1	clienti	cliente	NOM	NOM	id=36	0	ROOT	_	_
+
+1	nei	nel	PRE:det	PRE:det	id=37	0	ROOT	_	_
+
+1	supermercati	supermercato	NOM	NOM	id=38	0	ROOT	_	_
+
+1	,	,	PON	PON	id=39	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=40	0	ROOT	_	_
+
+1	cittadini	cittadino	NOM	NOM	id=41	0	ROOT	_	_
+
+1	nelle	nel	PRE:det	PRE:det	id=42	0	ROOT	_	_
+
+1	sedi	sede	NOM	NOM	id=43	0	ROOT	_	_
+
+1	municipali	municipale	ADJ	ADJ	id=44	0	ROOT	_	_
+
+1	e	e	CON	CON	id=45	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=46	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=47	0	ROOT	_	_
+
+1	MikroData	<unknown>	NOM	NOM	id=48	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=49	0	ROOT	_	_
+
+1	centro	centro	NOM	NOM	id=50	0	ROOT	_	_
+
+1	fieristico	fieristico	ADJ	ADJ	id=51	0	ROOT	_	_
+
+1	Bella	bella|bello	NOM	NOM	id=52	0	ROOT	_	_
+
+1	Center	Center	NPR	NPR	id=53	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=54	0	ROOT	_	_
+
+1	Gli	il	DET:def	DET:def	id=55	0	ROOT	_	_
+
+1	europei	europeo	ADJ	ADJ	id=56	0	ROOT	_	_
+
+1	dovrebbero	dovere	VER:cond	VER:cond	id=57	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=58	0	ROOT	_	_
+
+1	intelligenti	intelligente	ADJ	ADJ	id=59	0	ROOT	_	_
+
+1	abbastanza	abbastanza	ADV	ADV	id=60	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=61	0	ROOT	_	_
+
+1	Questo	questo	PRO:demo	PRO:demo	id=62	0	ROOT	_	_
+
+1	almeno	almeno	ADV	ADV	id=63	0	ROOT	_	_
+
+1	lo	lo	PRO:pers	PRO:pers	id=64	0	ROOT	_	_
+
+1	pensano	pensare	VER:pres	VER:pres	id=65	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=66	0	ROOT	_	_
+
+1	ideatori	ideatore	NOM	NOM	id=67	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=68	0	ROOT	_	_
+
+1	programma	programma	NOM	NOM	id=69	0	ROOT	_	_
+
+1	Scout	scout	NOM	NOM	id=70	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=71	0	ROOT	_	_
+
+1	,	,	PON	PON	id=72	0	ROOT	_	_
+
+1	all'	al	PRE:det	PRE:det	id=73	0	ROOT	_	_
+
+1	entrata	entrata	NOM	NOM	id=74	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=75	0	ROOT	_	_
+
+1	fiera	fiera	NOM	NOM	id=76	0	ROOT	_	_
+
+1	campionaria	campionario	ADJ	ADJ	id=77	0	ROOT	_	_
+
+1	MikroData	<unknown>	ADJ	ADJ	id=78	0	ROOT	_	_
+
+1	,	,	PON	PON	id=79	0	ROOT	_	_
+
+1	mostra	mostra	NOM	NOM	id=80	0	ROOT	_	_
+
+1	vari	vario|varo	ADJ	ADJ	id=81	0	ROOT	_	_
+
+1	percorsi	percorso	NOM	NOM	id=82	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=83	0	ROOT	_	_
+
+1	districarsi	districare	VER:infi	VER:infi	id=84	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=85	0	ROOT	_	_
+
+1	giungla	giungla	NOM	NOM	id=86	0	ROOT	_	_
+
+1	degli	del	PRE:det	PRE:det	id=87	0	ROOT	_	_
+
+1	espositori	espositore	NOM	NOM	id=88	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=89	0	ROOT	_	_
+
+1	E	e	CON	CON	id=90	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=91	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=92	0	ROOT	_	_
+
+1	complimento	complimento	NOM	NOM	id=93	0	ROOT	_	_
+
+1	ci	ci	PRO:refl	PRO:refl	id=94	0	ROOT	_	_
+
+1	indicano	indicare	VER:pres	VER:pres	id=95	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=96	0	ROOT	_	_
+
+1	tastatura	<unknown>	NOM	NOM	id=97	0	ROOT	_	_
+
+1	dove	dove	PRO:rela	PRO:rela	id=98	0	ROOT	_	_
+
+1	noi	noi	PRO:pers	PRO:pers	id=99	0	ROOT	_	_
+
+1	stessi	stesso	ADJ	ADJ	id=100	0	ROOT	_	_
+
+1	possiamo	potere	VER:pres	VER:pres	id=101	0	ROOT	_	_
+
+1	digitare	digitare	VER:infi	VER:infi	id=102	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=103	0	ROOT	_	_
+
+1	Con	con	PRE	PRE	id=104	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=105	0	ROOT	_	_
+
+1	programma	programma	NOM	NOM	id=106	0	ROOT	_	_
+
+1	Scout	scout	NOM	NOM	id=107	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=108	0	ROOT	_	_
+
+1	ci	ci	PRO:pers	PRO:pers	id=109	0	ROOT	_	_
+
+1	dovrebbero	dovere	VER:cond	VER:cond	id=110	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=111	0	ROOT	_	_
+
+1	problemi	problema	NOM	NOM	id=112	0	ROOT	_	_
+
+1	:	:	PON	PON	id=113	0	ROOT	_	_
+
+1	digita	digitare	VER:pres	VER:pres	id=114	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=115	0	ROOT	_	_
+
+1	nome	nome	NOM	NOM	id=116	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=117	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=118	0	ROOT	_	_
+
+1	ditta	ditta	NOM	NOM	id=119	0	ROOT	_	_
+
+1	oppure	oppure	CON	CON	id=120	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=121	0	ROOT	_	_
+
+1	parola	parola	NOM	NOM	id=122	0	ROOT	_	_
+
+1	chiave	chiave	NOM	NOM	id=123	0	ROOT	_	_
+
+1	e	e	CON	CON	id=124	0	ROOT	_	_
+
+1	,	,	PON	PON	id=125	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=126	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=127	0	ROOT	_	_
+
+1	modalità	modalità	NOM	NOM	id=128	0	ROOT	_	_
+
+1	decisamente	decisamente	ADV	ADV	id=129	0	ROOT	_	_
+
+1	pedagogica	pedagogico	ADJ	ADJ	id=130	0	ROOT	_	_
+
+1	,	,	PON	PON	id=131	0	ROOT	_	_
+
+1	lo	il	DET:def	DET:def	id=132	0	ROOT	_	_
+
+1	schermo	schermo	NOM	NOM	id=133	0	ROOT	_	_
+
+1	ti	ti	PRO:refl	PRO:refl	id=134	0	ROOT	_	_
+
+1	mostra	mostrare	VER:pres	VER:pres	id=135	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=136	0	ROOT	_	_
+
+1	via	via	NOM	NOM	id=137	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=138	0	ROOT	_	_
+
+1	vicina	vicino	ADJ	ADJ	id=139	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=140	0	ROOT	_	_
+
+1	raggiungere	raggiungere	VER:infi	VER:infi	id=141	0	ROOT	_	_
+
+1	lo	il	DET:def	DET:def	id=142	0	ROOT	_	_
+
+1	o	o	CON	CON	id=143	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=144	0	ROOT	_	_
+
+1	stand	stand	NOM	NOM	id=145	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=146	0	ROOT	_	_
+
+1	ti	ti	PRO:pers	PRO:pers	id=147	0	ROOT	_	_
+
+1	interessano	interessare	VER:pres	VER:pres	id=148	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=149	0	ROOT	_	_
+
+1	Alla	al	PRE:det	PRE:det	id=150	0	ROOT	_	_
+
+1	fiera	fiera	NOM	NOM	id=151	0	ROOT	_	_
+
+1	campionaria	campionario	ADJ	ADJ	id=152	0	ROOT	_	_
+
+1	MikroData	<unknown>	ADJ	ADJ	id=153	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=154	0	ROOT	_	_
+
+1	due	due	ADJ	ADJ	id=155	0	ROOT	_	_
+
+1	anni	anno	NOM	NOM	id=156	0	ROOT	_	_
+
+1	fa	fare	VER:pres	VER:pres	id=157	0	ROOT	_	_
+
+1	,	,	PON	PON	id=158	0	ROOT	_	_
+
+1	c'	c'	PRO:demo	PRO:demo	id=159	0	ROOT	_	_
+
+1	era	essere	VER:impf	VER:impf	id=160	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=161	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=162	0	ROOT	_	_
+
+1	precursore	precursore	ADJ	ADJ	id=163	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=164	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=165	0	ROOT	_	_
+
+1	aiutare	aiutare	VER:infi	VER:infi	id=166	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=167	0	ROOT	_	_
+
+1	visitatori	visitatore	NOM	NOM	id=168	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=169	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=170	0	ROOT	_	_
+
+1	Abbiamo	avere|riavere	VER:pres	VER:pres	id=171	0	ROOT	_	_
+
+1	programmato	programmare	VER:pper	VER:pper	id=172	0	ROOT	_	_
+
+1	tutto	tutto	ADV	ADV	id=173	0	ROOT	_	_
+
+1	quanto	quanto	ADV	ADV	id=174	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=175	0	ROOT	_	_
+
+1	linguaggio	linguaggio	NOM	NOM	id=176	0	ROOT	_	_
+
+1	Turbo	turbo	ADJ	ADJ	id=177	0	ROOT	_	_
+
+1	Pascal	pascal	NOM	NOM	id=178	0	ROOT	_	_
+
+1	e	e	CON	CON	id=179	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=180	0	ROOT	_	_
+
+1	ci	ci	PRO:refl	PRO:refl	id=181	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=182	0	ROOT	_	_
+
+1	ritardato	ritardare	VER:pper	VER:pper	id=183	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=184	0	ROOT	_	_
+
+1	po'	po'	ADV	ADV	id=185	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=186	0	ROOT	_	_
+
+1	lavori	lavorio|lavoro	NOM	NOM	id=187	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=188	0	ROOT	_	_
+
+1	,	,	PON	PON	id=189	0	ROOT	_	_
+
+1	dice	dire	VER:pres	VER:pres	id=190	0	ROOT	_	_
+
+1	John	John	NPR	NPR	id=191	0	ROOT	_	_
+
+1	Marrot	<unknown>	NOM	NOM	id=192	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=193	0	ROOT	_	_
+
+1	ditta	ditta	NOM	NOM	id=194	0	ROOT	_	_
+
+1	Scansoft	<unknown>	ADJ	ADJ	id=195	0	ROOT	_	_
+
+1	,	,	PON	PON	id=196	0	ROOT	_	_
+
+1	responsabile	responsabile	ADJ	ADJ	id=197	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=198	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=199	0	ROOT	_	_
+
+1	programmazione	programmazione	NOM	NOM	id=200	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=201	0	ROOT	_	_
+
+1	Inizialmente	inizialmente	ADV	ADV	id=202	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=203	0	ROOT	_	_
+
+1	suo	suo	PRO:poss	PRO:poss	id=204	0	ROOT	_	_
+
+1	conoscente	conoscente	ADJ	ADJ	id=205	0	ROOT	_	_
+
+1	Steen	<unknown>	NOM	NOM	id=206	0	ROOT	_	_
+
+1	Olsen	<unknown>	NOM	NOM	id=207	0	ROOT	_	_
+
+1	,	,	PON	PON	id=208	0	ROOT	_	_
+
+1	dipendente	dipendente	ADJ	ADJ	id=209	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=210	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=211	0	ROOT	_	_
+
+1	ditta	ditta	NOM	NOM	id=212	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=213	0	ROOT	_	_
+
+1	articoli	articolo	NOM	NOM	id=214	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=215	0	ROOT	_	_
+
+1	ufficio	ufficio	NOM	NOM	id=216	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=217	0	ROOT	_	_
+
+1	Copenaghen	<unknown>	NOM	NOM	id=218	0	ROOT	_	_
+
+1	,	,	PON	PON	id=219	0	ROOT	_	_
+
+1	aveva	avere	VER:impf	VER:impf	id=220	0	ROOT	_	_
+
+1	ordinato	ordinare	VER:pper	VER:pper	id=221	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=222	0	ROOT	_	_
+
+1	programma	programma	NOM	NOM	id=223	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=224	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=225	0	ROOT	_	_
+
+1	prezzo	prezzo	NOM	NOM	id=226	0	ROOT	_	_
+
+1	corrispondente	corrispondente	ADJ	ADJ	id=227	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=228	0	ROOT	_	_
+
+1	100	@card@	NUM	NUM	id=229	0	ROOT	_	_
+
+1	ore	ora	NOM	NOM	id=230	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=231	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=232	0	ROOT	_	_
+
+1	installazione	installazione	NOM	NOM	id=233	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=234	0	ROOT	_	_
+
+1	Invece	invece	ADV	ADV	id=235	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=236	0	ROOT	_	_
+
+1	ore	ora	NOM	NOM	id=237	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=238	0	ROOT	_	_
+
+1	100	@card@	NUM	NUM	id=239	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=240	0	ROOT	_	_
+
+1	diventate	diventare	VER:pper	VER:pper	id=241	0	ROOT	_	_
+
+1	5.000	@card@	NUM	NUM	id=242	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=243	0	ROOT	_	_
+

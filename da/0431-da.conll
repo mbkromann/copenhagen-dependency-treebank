@@ -146,7 +146,7 @@
 6	postvæsenet	postvæsen	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=226	5	nobj	_	_
 7	med	med	SP	SP	id=227	3	pobj	_	_
 8	udgivelsen	udgivelse	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=228	7	nobj	_	_
-9	af	af	SP	SP	id=229	8	pobj.dobj	_	_
+9	af	af	SP	SP	id=229	0	ROOT	_	_
 10	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=230	9	nobj	_	_
 11	100_Pfennig-frimærke	100_Pfennig-frimærke	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=231	10	nobj	_	_
 12	.	.	XP	XP	id=232	2	pnct	_	_

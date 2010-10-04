@@ -63,8 +63,8 @@
 17	det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=128	18	subj	_	_
 18	viser	vise	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=129	16	relr	_	_
 19	,	,	XP	XP	id=130	18	pnct	_	_
-20	ikke	ikke	RG	RGU	degree=unmarked|id=131	13	<neg:2>	_	_
-21	noget	nogen	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=132	13	<preds:2>	_	_
+20	ikke	ikke	RG	RGU	degree=unmarked|id=131	0	ROOT	_	_
+21	noget	nogen	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=132	0	ROOT	_	_
 22	det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=133	23	subj	_	_
 23	siger	sige	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=134	21	relr	_	_
 24	.	.	XP	XP	id=135	2	pnct	_	_

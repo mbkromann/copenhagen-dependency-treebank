@@ -1,0 +1,404 @@
+1	Das	d	ART	ART	id=2	0	ROOT	_	_
+
+1	Schreiben	Schreiben	NN	NN	id=3	0	ROOT	_	_
+
+1	ermächtigte	ermächtigt	ADJA	ADJA	id=4	0	ROOT	_	_
+
+1	Crescent	<unknown>	NN	NN	id=5	0	ROOT	_	_
+
+1	offiziell	offiziell	ADJD	ADJD	id=6	0	ROOT	_	_
+
+1	,	,	$,	$,	id=7	0	ROOT	_	_
+
+1	mögliche	möglich	ADJA	ADJA	id=8	0	ROOT	_	_
+
+1	Übernahmen	Übernahme	NN	NN	id=9	0	ROOT	_	_
+
+1	im	im	APPRART	APPRART	id=10	0	ROOT	_	_
+
+1	Rahmen	Rahmen	NN	NN	id=11	0	ROOT	_	_
+
+1	des	d	ART	ART	id=12	0	ROOT	_	_
+
+1	Joint-Venture	Joint-venture	NN	NN	id=13	0	ROOT	_	_
+
+1	Abkommens	Abkommen	NN	NN	id=14	0	ROOT	_	_
+
+1	zu	zu	PTKVZ	PTKVZ	id=15	0	ROOT	_	_
+
+1	"	&quot;	$(	$(	id=16	0	ROOT	_	_
+
+1	diskutieren	diskutieren	VVFIN	VVFIN	id=17	0	ROOT	_	_
+
+1	und	und	KON	KON	id=18	0	ROOT	_	_
+
+1	zu	zu	PTKZU	PTKZU	id=19	0	ROOT	_	_
+
+1	verhandeln	verhandeln	VVINF	VVINF	id=20	0	ROOT	_	_
+
+1	"	&quot;	$(	$(	id=21	0	ROOT	_	_
+
+1	und	und	KON	KON	id=22	0	ROOT	_	_
+
+1	"	&quot;	$(	$(	id=23	0	ROOT	_	_
+
+1	Bedingungen	Bedingung	NN	NN	id=24	0	ROOT	_	_
+
+1	für	für	APPR	APPR	id=25	0	ROOT	_	_
+
+1	die	d	ART	ART	id=26	0	ROOT	_	_
+
+1	langfristige	langfristig	ADJA	ADJA	id=27	0	ROOT	_	_
+
+1	Beschaffung	Beschaffung	NN	NN	id=28	0	ROOT	_	_
+
+1	von	von	APPR	APPR	id=29	0	ROOT	_	_
+
+1	Rohöl	Rohöl	NN	NN	id=30	0	ROOT	_	_
+
+1	zu	zu	PTKZU	PTKZU	id=31	0	ROOT	_	_
+
+1	diskutieren	diskutieren	VVINF	VVINF	id=32	0	ROOT	_	_
+
+1	.	.	$.	$.	id=33	0	ROOT	_	_
+
+1	"	&quot;	$(	$(	id=34	0	ROOT	_	_
+
+1	Hamid	Hamid	NE	NE	id=39	0	ROOT	_	_
+
+1	Jafar	Jafar	NE	NE	id=40	0	ROOT	_	_
+
+1	war	sein	VAFIN	VAFIN	id=41	0	ROOT	_	_
+
+1	sehr	sehr	ADV	ADV	id=42	0	ROOT	_	_
+
+1	darauf	darauf	PAV	PAV	id=43	0	ROOT	_	_
+
+1	bedacht	bedachen|bedenken	VVPP	VVPP	id=44	0	ROOT	_	_
+
+1	,	,	$,	$,	id=45	0	ROOT	_	_
+
+1	seinen	sein	PPOSAT	PPOSAT	id=46	0	ROOT	_	_
+
+1	irakischen	irakisch	ADJA	ADJA	id=47	0	ROOT	_	_
+
+1	Partnern	Partner	NN	NN	id=48	0	ROOT	_	_
+
+1	seine	sein	PPOSAT	PPOSAT	id=49	0	ROOT	_	_
+
+1	Wertschätzung	Wertschätzung	NN	NN	id=50	0	ROOT	_	_
+
+1	der	d	ART	ART	id=51	0	ROOT	_	_
+
+1	Vereinbarung	Vereinbarung	NN	NN	id=52	0	ROOT	_	_
+
+1	zu	zu	PTKZU	PTKZU	id=53	0	ROOT	_	_
+
+1	zeigen	zeigen	VVINF	VVINF	id=54	0	ROOT	_	_
+
+1	.	.	$.	$.	id=55	0	ROOT	_	_
+
+1	Kurz	kurz	ADJD	ADJD	id=56	0	ROOT	_	_
+
+1	vor	vor	APPR	APPR	id=57	0	ROOT	_	_
+
+1	der	d	ART	ART	id=58	0	ROOT	_	_
+
+1	Invasion	Invasion	NN	NN	id=59	0	ROOT	_	_
+
+1	bestellte	bestellen	VVFIN	VVFIN	id=60	0	ROOT	_	_
+
+1	er	er	PPER	PPER	id=61	0	ROOT	_	_
+
+1	eine	ein	ART	ART	id=62	0	ROOT	_	_
+
+1	schweizerische	schweizerisch	ADJA	ADJA	id=63	0	ROOT	_	_
+
+1	Goldpistole	<unknown>	NN	NN	id=64	0	ROOT	_	_
+
+1	mit	mit	APPR	APPR	id=65	0	ROOT	_	_
+
+1	Gravur	<unknown>	NN	NN	id=66	0	ROOT	_	_
+
+1	,	,	$,	$,	id=67	0	ROOT	_	_
+
+1	die	d	PRELS	PRELS	id=68	0	ROOT	_	_
+
+1	von	von	APPR	APPR	id=69	0	ROOT	_	_
+
+1	Asprey's	<unknown>	NE	NE	id=70	0	ROOT	_	_
+
+1	,	,	$,	$,	id=71	0	ROOT	_	_
+
+1	dem	d	ART	ART	id=72	0	ROOT	_	_
+
+1	Juwelier	Juwelier	NN	NN	id=73	0	ROOT	_	_
+
+1	der	d	ART	ART	id=74	0	ROOT	_	_
+
+1	englischen	englisch	ADJA	ADJA	id=75	0	ROOT	_	_
+
+1	Königin	Königin	NN	NN	id=76	0	ROOT	_	_
+
+1	in	in	APPR	APPR	id=77	0	ROOT	_	_
+
+1	London	London	NE	NE	id=78	0	ROOT	_	_
+
+1	auf	auf	APPR	APPR	id=79	0	ROOT	_	_
+
+1	7 000	<unknown>	ADJA	ADJA	id=80	0	ROOT	_	_
+
+1	Pfund	Pfund	NN	NN	id=81	0	ROOT	_	_
+
+1	geschätzt	schätzen	VVPP	VVPP	id=82	0	ROOT	_	_
+
+1	worden	werden	VAPP	VAPP	id=83	0	ROOT	_	_
+
+1	war	sein	VAFIN	VAFIN	id=84	0	ROOT	_	_
+
+1	.	.	$.	$.	id=85	0	ROOT	_	_
+
+1	Die	d	ART	ART	id=86	0	ROOT	_	_
+
+1	Absicht	Absicht	NN	NN	id=87	0	ROOT	_	_
+
+1	war	sein	VAFIN	VAFIN	id=88	0	ROOT	_	_
+
+1	,	,	$,	$,	id=89	0	ROOT	_	_
+
+1	die	d	ART	ART	id=90	0	ROOT	_	_
+
+1	Pistole	Pistole	NN	NN	id=91	0	ROOT	_	_
+
+1	dem	d	ART	ART	id=92	0	ROOT	_	_
+
+1	Vetter	Vetter	NE	NE	id=93	0	ROOT	_	_
+
+1	und	und	KON	KON	id=94	0	ROOT	_	_
+
+1	Schwiegersohn	Schwiegersohn	NN	NN	id=95	0	ROOT	_	_
+
+1	von	von	APPR	APPR	id=96	0	ROOT	_	_
+
+1	Saddam	Saddam	NE	NE	id=97	0	ROOT	_	_
+
+1	Hussein	Hussein	NE	NE	id=98	0	ROOT	_	_
+
+1	,	,	$,	$,	id=99	0	ROOT	_	_
+
+1	Hussein	Hussein	NE	NE	id=100	0	ROOT	_	_
+
+1	Kamal	Kamal	NE	NE	id=101	0	ROOT	_	_
+
+1	al	al	NE	NE	id=102	0	ROOT	_	_
+
+1	Majid	Majid	NE	NE	id=103	0	ROOT	_	_
+
+1	zu	zu	PTKZU	PTKZU	id=104	0	ROOT	_	_
+
+1	zeigen	zeigen	VVINF	VVINF	id=105	0	ROOT	_	_
+
+1	,	,	$,	$,	id=106	0	ROOT	_	_
+
+1	der	d	ART	ART	id=107	0	ROOT	_	_
+
+1	damals	damals	ADV	ADV	id=108	0	ROOT	_	_
+
+1	irakischer	irakisch	ADJA	ADJA	id=109	0	ROOT	_	_
+
+1	Industrieminister	Industrieminister	NN	NN	id=110	0	ROOT	_	_
+
+1	war	sein	VAFIN	VAFIN	id=111	0	ROOT	_	_
+
+1	.	.	$.	$.	id=112	0	ROOT	_	_
+
+1	Als	als	KOKOM	KOKOM	id=113	0	ROOT	_	_
+
+1	die	d	ART	ART	id=114	0	ROOT	_	_
+
+1	Feindseligkeiten	Feindseligkeit	NN	NN	id=115	0	ROOT	_	_
+
+1	begannen	beginnen	VVFIN	VVFIN	id=116	0	ROOT	_	_
+
+1	,	,	$,	$,	id=117	0	ROOT	_	_
+
+1	hatte	haben	VAFIN	VAFIN	id=118	0	ROOT	_	_
+
+1	sie	sie	PPER	PPER	id=119	0	ROOT	_	_
+
+1	Bagdads	Bagdad	NE	NE	id=120	0	ROOT	_	_
+
+1	Flughafen	Flughafen	NN	NN	id=121	0	ROOT	_	_
+
+1	jedoch	jedoch	ADV	ADV	id=122	0	ROOT	_	_
+
+1	noch	noch	ADV	ADV	id=123	0	ROOT	_	_
+
+1	nicht	nicht	PTKNEG	PTKNEG	id=124	0	ROOT	_	_
+
+1	verlassen	verlassen	VVINF	VVINF	id=125	0	ROOT	_	_
+
+1	.	.	$.	$.	id=126	0	ROOT	_	_
+
+1	Abgesehen	abgesehen	ADJD	ADJD	id=131	0	ROOT	_	_
+
+1	von	von	APPR	APPR	id=132	0	ROOT	_	_
+
+1	Petrofina	<unknown>	NE	NE	id=133	0	ROOT	_	_
+
+1	hat	haben	VAFIN	VAFIN	id=134	0	ROOT	_	_
+
+1	Crescent	<unknown>	ADJD	ADJD	id=135	0	ROOT	_	_
+
+1	viele	viel	PIDAT	PIDAT	id=136	0	ROOT	_	_
+
+1	andere	ander	ADJA	ADJA	id=137	0	ROOT	_	_
+
+1	Ziele	Ziel	NN	NN	id=138	0	ROOT	_	_
+
+1	untersucht	untersuchen	VVPP	VVPP	id=139	0	ROOT	_	_
+
+1	,	,	$,	$,	id=140	0	ROOT	_	_
+
+1	die	d	PRELS	PRELS	id=141	0	ROOT	_	_
+
+1	die	d	ART	ART	id=142	0	ROOT	_	_
+
+1	Joint-Venture	Joint-venture	NN	NN	id=143	0	ROOT	_	_
+
+1	Allianz	Allianz	NN	NN	id=144	0	ROOT	_	_
+
+1	in	in	APPR	APPR	id=145	0	ROOT	_	_
+
+1	Nordamerika	Nordamerika	NE	NE	id=146	0	ROOT	_	_
+
+1	,	,	$,	$,	id=147	0	ROOT	_	_
+
+1	wie	wie	KOKOM	KOKOM	id=148	0	ROOT	_	_
+
+1	auch	auch	ADV	ADV	id=149	0	ROOT	_	_
+
+1	in	in	APPR	APPR	id=150	0	ROOT	_	_
+
+1	Europa	Europa	NE	NE	id=151	0	ROOT	_	_
+
+1	möglicherweise	möglicherweise	ADJD	ADJD	id=152	0	ROOT	_	_
+
+1	erwerben	erwerben	VVINF	VVINF	id=153	0	ROOT	_	_
+
+1	könnte	können	VMFIN	VMFIN	id=154	0	ROOT	_	_
+
+1	.	.	$.	$.	id=155	0	ROOT	_	_
+
+1	Hamid	Hamid	NE	NE	id=160	0	ROOT	_	_
+
+1	Jafar	Jafar	NE	NE	id=161	0	ROOT	_	_
+
+1	ist	sein	VAFIN	VAFIN	id=162	0	ROOT	_	_
+
+1	45	45	CARD	CARD	id=163	0	ROOT	_	_
+
+1	Jahre	Jahr	NN	NN	id=164	0	ROOT	_	_
+
+1	alt	alt	ADJD	ADJD	id=165	0	ROOT	_	_
+
+1	,	,	$,	$,	id=166	0	ROOT	_	_
+
+1	hat	haben	VAFIN	VAFIN	id=167	0	ROOT	_	_
+
+1	seine	sein	PPOSAT	PPOSAT	id=168	0	ROOT	_	_
+
+1	Ausbildung	Ausbildung	NN	NN	id=169	0	ROOT	_	_
+
+1	aus	aus	APPR	APPR	id=170	0	ROOT	_	_
+
+1	London	London	NE	NE	id=171	0	ROOT	_	_
+
+1	und	und	KON	KON	id=172	0	ROOT	_	_
+
+1	ist	sein	VAFIN	VAFIN	id=173	0	ROOT	_	_
+
+1	Sohn	Sohn	NN	NN	id=174	0	ROOT	_	_
+
+1	eines	ein	ART	ART	id=175	0	ROOT	_	_
+
+1	früheren	früh	ADJA	ADJA	id=176	0	ROOT	_	_
+
+1	irakischen	irakisch	ADJA	ADJA	id=177	0	ROOT	_	_
+
+1	Regierungsmitglieds	Regierungsmitglied	NN	NN	id=178	0	ROOT	_	_
+
+1	.	.	$.	$.	id=179	0	ROOT	_	_
+
+1	Viele	viel	PIDAT	PIDAT	id=180	0	ROOT	_	_
+
+1	Jahre	Jahr	NN	NN	id=181	0	ROOT	_	_
+
+1	lang	lang	ADJD	ADJD	id=182	0	ROOT	_	_
+
+1	hat	haben	VAFIN	VAFIN	id=183	0	ROOT	_	_
+
+1	er	er	PPER	PPER	id=184	0	ROOT	_	_
+
+1	in	in	APPR	APPR	id=185	0	ROOT	_	_
+
+1	Sharjeh	<unknown>	NE	NE	id=186	0	ROOT	_	_
+
+1	gewohnt	wohnen	VVPP	VVPP	id=187	0	ROOT	_	_
+
+1	und	und	KON	KON	id=188	0	ROOT	_	_
+
+1	1986	1986	CARD	CARD	id=189	0	ROOT	_	_
+
+1	einen	ein	ART	ART	id=190	0	ROOT	_	_
+
+1	Pass	Paß	NN	NN	id=191	0	ROOT	_	_
+
+1	der	d	ART	ART	id=192	0	ROOT	_	_
+
+1	Vereinigten	vereinigt	ADJA	ADJA	id=193	0	ROOT	_	_
+
+1	Arabischen	Arabische	NN	NN	id=194	0	ROOT	_	_
+
+1	Emirate	Emirat	NN	NN	id=195	0	ROOT	_	_
+
+1	erworben	erwerben	VVPP	VVPP	id=196	0	ROOT	_	_
+
+1	,	,	$,	$,	id=197	0	ROOT	_	_
+
+1	so	so	ADV	ADV	id=198	0	ROOT	_	_
+
+1	dass	dass	KOUS	KOUS	id=199	0	ROOT	_	_
+
+1	er	er	PPER	PPER	id=200	0	ROOT	_	_
+
+1	heute	heute	ADV	ADV	id=201	0	ROOT	_	_
+
+1	sowohl	sowohl	KON	KON	id=202	0	ROOT	_	_
+
+1	die	d	ART	ART	id=203	0	ROOT	_	_
+
+1	Staatsangehörigkeit	Staatsangehörigkeit	NN	NN	id=204	0	ROOT	_	_
+
+1	des	d	ART	ART	id=205	0	ROOT	_	_
+
+1	Irak	Irak	NE	NE	id=206	0	ROOT	_	_
+
+1	,	,	$,	$,	id=207	0	ROOT	_	_
+
+1	wie	wie	KOKOM	KOKOM	id=208	0	ROOT	_	_
+
+1	auch	auch	ADV	ADV	id=209	0	ROOT	_	_
+
+1	der	d	ART	ART	id=210	0	ROOT	_	_
+
+1	Vereinigten	vereinigt	ADJA	ADJA	id=211	0	ROOT	_	_
+
+1	Arabischen	Arabische	NN	NN	id=212	0	ROOT	_	_
+
+1	Emirate	Emirat	NN	NN	id=213	0	ROOT	_	_
+
+1	hat	haben	VAFIN	VAFIN	id=214	0	ROOT	_	_
+
+1	.	.	$.	$.	id=215	0	ROOT	_	_
+

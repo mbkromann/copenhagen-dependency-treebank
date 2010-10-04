@@ -124,7 +124,7 @@
 4	på	på	SP	SP	id=184	3	loc	_	_
 5	gaden	gade	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=185	4	nobj	_	_
 6	,	,	XP	XP	id=186	3	pnct	_	_
-7	hujende	huje	VA	VAPR=[SP][CN][DI][ARU]-U	mood=partic|tense=present|number=sing/plur|gender=common/neuter|definiteness=def/indef|transcat=adject/adverb/unmarked|case=unmarked|id=187	3	modo	_	_
+7	hujende	huje	VA	VAPR=[SP][CN][DI][ARU]-U	mood=partic|tense=present|number=sing/plur|gender=common/neuter|definiteness=def/indef|transcat=adject/adverb/unmarked|case=unmarked|id=187	0	ROOT	_	_
 8	,	,	XP	XP	id=188	7	pnct	_	_
 9	støjende	støje	VA	VAPR=[SP][CN][DI][ARU]-U	mood=partic|tense=present|number=sing/plur|gender=common/neuter|definiteness=def/indef|transcat=adject/adverb/unmarked|case=unmarked|id=189	7	conj	_	_
 10	,	,	XP	XP	id=190	7	pnct	_	_

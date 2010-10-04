@@ -80,7 +80,7 @@
 19	til	til	SP	SP	id=129	18	attr	_	_
 20	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=130	19	nobj	_	_
 21	snak	snak	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=131	20	nobj	_	_
-22	med	med	SP	SP	id=132	21	pobj.pobj	_	_
+22	med	med	SP	SP	id=132	0	ROOT	_	_
 23	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=133	22	nobj	_	_
 24	to	to	AC	AC---U=--	case=unmarked|id=134	23	nobj	_	_
 25	evangelister	evangelist	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=135	24	nobj	_	_
@@ -186,7 +186,7 @@
 22	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=246	20	appa	_	_
 23	slags	slags	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=247	22	nobj	_	_
 24	demonstration	demonstration	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=248	23	nobj	_	_
-25	mod	mod	SP	SP	id=249	24	pobj.pobj	_	_
+25	mod	mod	SP	SP	id=249	0	ROOT	_	_
 26	ETAHS	ETAHS	NP	NP--U==-	case=unmarked|id=250	25	nobj	_	_
 27	arrangement	arrangement	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=251	26	possd	_	_
 28	.	.	XP	XP	id=252	6	pnct	_	_

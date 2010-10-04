@@ -196,7 +196,7 @@
 13	,	,	XP	XP	id=253	12	pnct	_	_
 14	efter	efter	SP	SP	id=254	2	cause	_	_
 15	begæring	begæring	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=255	14	nobj	_	_
-16	af	af	SP	SP	id=256	15	pobj.subj	_	_
+16	af	af	SP	SP	id=256	0	ROOT	_	_
 17	af	af	XX	XX	id=257	0	ROOT	_	_
 18	bobestyreren	bobestyrer	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=258	16	nobj	_	_
 19	,	,	XP	XP	id=259	18	pnct	_	_

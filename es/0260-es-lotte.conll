@@ -1,0 +1,388 @@
+1	Apartado	apartado	NC	NC	id=0	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=1	0	ROOT	_	_
+
+1	correos	correo	NC	NC	id=2	0	ROOT	_	_
+
+1	64	@card@	CODE	CODE	id=3	0	ROOT	_	_
+
+1	LinderÃ¶d	<unknown>	NP	NP	id=4	0	ROOT	_	_
+
+1	,	,	CM	CM	id=5	0	ROOT	_	_
+
+1	Suecia	Suecia	NP	NP	id=6	0	ROOT	_	_
+
+1	Idiota	<unknown>	NP	NP	id=7	0	ROOT	_	_
+
+1	si	si	CSUBX	CSUBX	id=8	0	ROOT	_	_
+
+1	se	se	SE	SE	id=9	0	ROOT	_	_
+
+1	quiere	querer	VLfin	VLfin	id=10	0	ROOT	_	_
+
+1	trabajar	trabajar	VLinf	VLinf	id=11	0	ROOT	_	_
+
+1	Un	un	ART	ART	id=12	0	ROOT	_	_
+
+1	verdadero	verdadero	ADJ	ADJ	id=13	0	ROOT	_	_
+
+1	relato	relato	NC	NC	id=14	0	ROOT	_	_
+
+1	sobre	sobre	SCENE	SCENE	id=15	0	ROOT	_	_
+
+1	cÃ³mo	<unknown>	NC	NC	id=16	0	ROOT	_	_
+
+1	un	un	ART	ART	id=17	0	ROOT	_	_
+
+1	desempleado	desempleado	NC	NC	id=18	0	ROOT	_	_
+
+1	se	se	SE	SE	id=19	0	ROOT	_	_
+
+1	siente	sentar|sentir	VLfin	VLfin	id=20	0	ROOT	_	_
+
+1	ridÃ­culo	<unknown>	VLfin	VLfin	id=21	0	ROOT	_	_
+
+1	porque	porque	CSUBX	CSUBX	id=22	0	ROOT	_	_
+
+1	tiene	tener	VLfin	VLfin	id=23	0	ROOT	_	_
+
+1	ganas	gana	NC	NC	id=24	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=25	0	ROOT	_	_
+
+1	trabajar	trabajar	VLinf	VLinf	id=26	0	ROOT	_	_
+
+1	.	.	FS	FS	id=27	0	ROOT	_	_
+
+1	Repartir	repartir	VLinf	VLinf	id=28	0	ROOT	_	_
+
+1	periÃ³dicos	<unknown>	ADJ	ADJ	id=29	0	ROOT	_	_
+
+1	como	como	CSUBX	CSUBX	id=30	0	ROOT	_	_
+
+1	ocupaciÃ³n	<unknown>	NC	NC	id=31	0	ROOT	_	_
+
+1	suplementaria	suplementario	ADJ	ADJ	id=32	0	ROOT	_	_
+
+1	podrÃ­a	<unknown>	VLfin	VLfin	id=33	0	ROOT	_	_
+
+1	ser	ser	VSinf	VSinf	id=34	0	ROOT	_	_
+
+1	la	el	ART	ART	id=35	0	ROOT	_	_
+
+1	felicidad	felicidad	NC	NC	id=36	0	ROOT	_	_
+
+1	si	si	CSUBX	CSUBX	id=37	0	ROOT	_	_
+
+1	se	se	SE	SE	id=38	0	ROOT	_	_
+
+1	recibiese	recibir	VLfin	VLfin	id=39	0	ROOT	_	_
+
+1	un	un	ART	ART	id=40	0	ROOT	_	_
+
+1	sueldo	sueldo	NC	NC	id=41	0	ROOT	_	_
+
+1	justo	justo	ADJ	ADJ	id=42	0	ROOT	_	_
+
+1	.	.	FS	FS	id=43	0	ROOT	_	_
+
+1	(	(	LP	LP	id=44	0	ROOT	_	_
+
+1	Foto	foto	NC	NC	id=45	0	ROOT	_	_
+
+1	:	:	COLON	COLON	id=46	0	ROOT	_	_
+
+1	Bent	<unknown>	NP	NP	id=47	0	ROOT	_	_
+
+1	Rej	<unknown>	NC	NC	id=48	0	ROOT	_	_
+
+1	)	)	RP	RP	id=49	0	ROOT	_	_
+
+1	Tengo	tener	VLfin	VLfin	id=50	0	ROOT	_	_
+
+1	42	@card@	CARD	CARD	id=51	0	ROOT	_	_
+
+1	aÃ±os	<unknown>	NC	NC	id=52	0	ROOT	_	_
+
+1	,	,	CM	CM	id=53	0	ROOT	_	_
+
+1	he	haber	VLfin	VLfin	id=54	0	ROOT	_	_
+
+1	estado	estado	NC	NC	id=55	0	ROOT	_	_
+
+1	desempleado	desempleado	NC	NC	id=56	0	ROOT	_	_
+
+1	durante	durante	SCENE	SCENE	id=57	0	ROOT	_	_
+
+1	2	2	CARD	CARD	id=58	0	ROOT	_	_
+
+1	aÃ±os	<unknown>	VLfin	VLfin	id=59	0	ROOT	_	_
+
+1	y	y	CC	CC	id=60	0	ROOT	_	_
+
+1	tengo	tener	VLfin	VLfin	id=61	0	ROOT	_	_
+
+1	educaciÃ³n	<unknown>	ADV	ADV	id=62	0	ROOT	_	_
+
+1	como	como	CSUBX	CSUBX	id=63	0	ROOT	_	_
+
+1	oficinista	oficinista	NC	NC	id=64	0	ROOT	_	_
+
+1	.	.	FS	FS	id=65	0	ROOT	_	_
+
+1	Cuando	cuando	CSUBX	CSUBX	id=66	0	ROOT	_	_
+
+1	quedÃ©	<unknown>	VLfin	VLfin	id=67	0	ROOT	_	_
+
+1	desempleado	desempleado	NC	NC	id=68	0	ROOT	_	_
+
+1	comencÃ©	<unknown>	VLadj	VLadj	id=69	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=70	0	ROOT	_	_
+
+1	hacer	hacer	VLinf	VLinf	id=71	0	ROOT	_	_
+
+1	diferentes	diferente	ADJ	ADJ	id=72	0	ROOT	_	_
+
+1	cursos	curso	NC	NC	id=73	0	ROOT	_	_
+
+1	y	y	CC	CC	id=74	0	ROOT	_	_
+
+1	los	el	ART	ART	id=75	0	ROOT	_	_
+
+1	realicÃ©	<unknown>	NC	NC	id=76	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=77	0	ROOT	_	_
+
+1	la	el	ART	ART	id=78	0	ROOT	_	_
+
+1	bendiciÃ³n	<unknown>	NC	NC	id=79	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=80	0	ROOT	_	_
+
+1	la	el	ART	ART	id=81	0	ROOT	_	_
+
+1	oficina	oficina	NC	NC	id=82	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=83	0	ROOT	_	_
+
+1	empleo	empleo	NC	NC	id=84	0	ROOT	_	_
+
+1	.	.	FS	FS	id=85	0	ROOT	_	_
+
+1	Almismotiempo	al~mismo~tiempo	ADV	ADV	id=86	0	ROOT	_	_
+
+1	he	haber	VLfin	VLfin	id=87	0	ROOT	_	_
+
+1	buscado	buscar	VLadj	VLadj	id=88	0	ROOT	_	_
+
+1	innumerables	innumerable	ADJ	ADJ	id=89	0	ROOT	_	_
+
+1	puestos	poner	VLadj	VLadj	id=90	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=91	0	ROOT	_	_
+
+1	trabajo	trabajo	NC	NC	id=92	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=93	0	ROOT	_	_
+
+1	travÃ©s	<unknown>	NC	NC	id=94	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=95	0	ROOT	_	_
+
+1	los	el	ART	ART	id=96	0	ROOT	_	_
+
+1	anuncios	anuncio	NC	NC	id=97	0	ROOT	_	_
+
+1	,	,	CM	CM	id=98	0	ROOT	_	_
+
+1	pero	pero	CCAD	CCAD	id=99	0	ROOT	_	_
+
+1	siempre	siempre	ADV	ADV	id=100	0	ROOT	_	_
+
+1	he	haber	VLfin	VLfin	id=101	0	ROOT	_	_
+
+1	recibido	recibir	VLadj	VLadj	id=102	0	ROOT	_	_
+
+1	negativas	negativo	ADJ	ADJ	id=103	0	ROOT	_	_
+
+1	.	.	FS	FS	id=104	0	ROOT	_	_
+
+1	En	en	SCENE	SCENE	id=105	0	ROOT	_	_
+
+1	ese	ese	DM	DM	id=106	0	ROOT	_	_
+
+1	momento	momento	NC	NC	id=107	0	ROOT	_	_
+
+1	pensÃ©	<unknown>	VLfin	VLfin	id=108	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=109	0	ROOT	_	_
+
+1	era	era	VEfin	VEfin	id=110	0	ROOT	_	_
+
+1	hora	hora	NC	NC	id=111	0	ROOT	_	_
+
+1	de	de	CSUBI	CSUBI	id=112	0	ROOT	_	_
+
+1	ganar	ganar	VLinf	VLinf	id=113	0	ROOT	_	_
+
+1	algo	algo	QU	QU	id=114	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=115	0	ROOT	_	_
+
+1	dinero	dinero	NC	NC	id=116	0	ROOT	_	_
+
+1	enlugarde	en~lugar~de	SCENE	SCENE	id=117	0	ROOT	_	_
+
+1	sÃ³lo	<unknown>	NC	NC	id=118	0	ROOT	_	_
+
+1	recibir	recibir	VLinf	VLinf	id=119	0	ROOT	_	_
+
+1	subsidio	subsidio	NC	NC	id=120	0	ROOT	_	_
+
+1	por	por	SCENE	SCENE	id=121	0	ROOT	_	_
+
+1	desempleo	desempleo	NC	NC	id=122	0	ROOT	_	_
+
+1	,	,	CM	CM	id=123	0	ROOT	_	_
+
+1	demodoque	de~modo~que	CSUBF	CSUBF	id=124	0	ROOT	_	_
+
+1	mi	mío	PPO	PPO	id=125	0	ROOT	_	_
+
+1	deuda	deuda|deudo	NC	NC	id=126	0	ROOT	_	_
+
+1	pudiera	poder	VMfin	VMfin	id=127	0	ROOT	_	_
+
+1	reducirse	reducirse	VCLI	VCLI	id=128	0	ROOT	_	_
+
+1	.	.	FS	FS	id=129	0	ROOT	_	_
+
+1	EmpecÃ©	<unknown>	VLfin	VLfin	id=130	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=131	0	ROOT	_	_
+
+1	repartir	repartir	VLinf	VLinf	id=132	0	ROOT	_	_
+
+1	periÃ³dicos	<unknown>	ADJ	ADJ	id=133	0	ROOT	_	_
+
+1	para	para	SCENE	SCENE	id=134	0	ROOT	_	_
+
+1	la	el	ART	ART	id=135	0	ROOT	_	_
+
+1	empresa	empresa	NC	NC	id=136	0	ROOT	_	_
+
+1	A/S	<unknown>	NP	NP	id=137	0	ROOT	_	_
+
+1	Bladkompagniet	<unknown>	NP	NP	id=138	0	ROOT	_	_
+
+1	y	y	CC	CC	id=139	0	ROOT	_	_
+
+1	estaba	estar	VLfin	VLfin	id=140	0	ROOT	_	_
+
+1	realmente	realmente	ADV	ADV	id=141	0	ROOT	_	_
+
+1	contento	contento	ADJ	ADJ	id=142	0	ROOT	_	_
+
+1	yaque	ya~que	CSUBF	CSUBF	id=143	0	ROOT	_	_
+
+1	toda	todo	QU	QU	id=144	0	ROOT	_	_
+
+1	mi	mío	PPO	PPO	id=145	0	ROOT	_	_
+
+1	vida	vida	NC	NC	id=146	0	ROOT	_	_
+
+1	he	haber	VLfin	VLfin	id=147	0	ROOT	_	_
+
+1	estado	estado	NC	NC	id=148	0	ROOT	_	_
+
+1	acostumbrado	acostumbrar	VLadj	VLadj	id=149	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=150	0	ROOT	_	_
+
+1	trabajar	trabajar	VLinf	VLinf	id=151	0	ROOT	_	_
+
+1	.	.	FS	FS	id=152	0	ROOT	_	_
+
+1	Como	como	CSUBX	CSUBX	id=153	0	ROOT	_	_
+
+1	miembro	miembro	NC	NC	id=154	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=155	0	ROOT	_	_
+
+1	una	un	ART	ART	id=156	0	ROOT	_	_
+
+1	caja	caja	NC	NC	id=157	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=158	0	ROOT	_	_
+
+1	desempleo	desempleo	NC	NC	id=159	0	ROOT	_	_
+
+1	,	,	CM	CM	id=160	0	ROOT	_	_
+
+1	el	el	ART	ART	id=161	0	ROOT	_	_
+
+1	empleo	empleo	NC	NC	id=162	0	ROOT	_	_
+
+1	suplementario	suplementario	ADJ	ADJ	id=163	0	ROOT	_	_
+
+1	debÃ­a	<unknown>	VLfin	VLfin	id=164	0	ROOT	_	_
+
+1	declararse	declarar	VLinf	VLinf	id=165	0	ROOT	_	_
+
+1	,	,	CM	CM	id=166	0	ROOT	_	_
+
+1	lÃ³gicamente	<unknown>	ADV	ADV	id=167	0	ROOT	_	_
+
+1	,	,	CM	CM	id=168	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=169	0	ROOT	_	_
+
+1	la	el	ART	ART	id=170	0	ROOT	_	_
+
+1	tarjeta	tarjeta	NC	NC	id=171	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=172	0	ROOT	_	_
+
+1	subsidio	subsidio	NC	NC	id=173	0	ROOT	_	_
+
+1	,	,	CM	CM	id=174	0	ROOT	_	_
+
+1	y	y	CC	CC	id=175	0	ROOT	_	_
+
+1	yo	yo	PPX	PPX	id=176	0	ROOT	_	_
+
+1	estaba	estar	VLfin	VLfin	id=177	0	ROOT	_	_
+
+1	ansioso	ansioso	ADJ	ADJ	id=178	0	ROOT	_	_
+
+1	por	por	SCENE	SCENE	id=179	0	ROOT	_	_
+
+1	ver	ver	VLinf	VLinf	id=180	0	ROOT	_	_
+
+1	cuÃ¡nto	<unknown>	NC	NC	id=181	0	ROOT	_	_
+
+1	iba	ir	VLfin	VLfin	id=182	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=183	0	ROOT	_	_
+
+1	ganar	ganar	VLinf	VLinf	id=184	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=185	0	ROOT	_	_
+
+1	todo	todo	QU	QU	id=186	0	ROOT	_	_
+
+1	ello	él	PPX	PPX	id=187	0	ROOT	_	_
+
+1	.	.	FS	FS	id=188	0	ROOT	_	_
+
+1	AquÃ­	<unknown>	NC	NC	id=189	0	ROOT	_	_
+
+1	viene	venir	VLfin	VLfin	id=190	0	ROOT	_	_
+
+1	la	el	ART	ART	id=191	0	ROOT	_	_
+
+1	cuenta	cuenta	NC	NC	id=192	0	ROOT	_	_
+
+1	:	:	COLON	COLON	id=193	0	ROOT	_	_
+

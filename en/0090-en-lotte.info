@@ -1,0 +1,5 @@
+en/0090-en-lotte.tag:
+  morphology: none
+  discourse: first
+  syntax: outdated-final
+  postag: auto

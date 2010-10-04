@@ -1,0 +1,396 @@
+1	Hoy	hoy	ADV	ADV	id=0	0	ROOT	_	_
+
+1	día	<unknown>	ADJ	ADJ	id=1	0	ROOT	_	_
+
+1	es	ser	VSfin	VSfin	id=2	0	ROOT	_	_
+
+1	una	un	ART	ART	id=3	0	ROOT	_	_
+
+1	cara	cara	NC	NC	id=4	0	ROOT	_	_
+
+1	bien	bien	ADV	ADV	id=5	0	ROOT	_	_
+
+1	vista	ver	VLadj	VLadj	id=6	0	ROOT	_	_
+
+1	detrás	<unknown>	NC	NC	id=7	0	ROOT	_	_
+
+1	del	del	PDEL	PDEL	id=8	0	ROOT	_	_
+
+1	mostrador	mostrador	NC	NC	id=9	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=10	0	ROOT	_	_
+
+1	la	el	ART	ART	id=11	0	ROOT	_	_
+
+1	popular	popular	ADJ	ADJ	id=12	0	ROOT	_	_
+
+1	confitería	<unknown>	VLfin	VLfin	id=13	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=14	0	ROOT	_	_
+
+1	Lars	<unknown>	NC	NC	id=15	0	ROOT	_	_
+
+1	Hjorth	<unknown>	NP	NP	id=16	0	ROOT	_	_
+
+1	cerca	cerca	ADV	ADV	id=17	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=18	0	ROOT	_	_
+
+1	la	el	ART	ART	id=19	0	ROOT	_	_
+
+1	estación	<unknown>	NC	NC	id=20	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=21	0	ROOT	_	_
+
+1	Hellerup	<unknown>	NP	NP	id=22	0	ROOT	_	_
+
+1	.	.	FS	FS	id=23	0	ROOT	_	_
+
+1	Y	y	CC	CC	id=24	0	ROOT	_	_
+
+1	ella	l	PPX	PPX	id=25	0	ROOT	_	_
+
+1	sabe	saber	VLfin	VLfin	id=26	0	ROOT	_	_
+
+1	los	el	ART	ART	id=27	0	ROOT	_	_
+
+1	nombres	nombre	NC	NC	id=28	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=29	0	ROOT	_	_
+
+1	todas	todo	QU	QU	id=30	0	ROOT	_	_
+
+1	las	el	ART	ART	id=31	0	ROOT	_	_
+
+1	abundantes	abundante	ADJ	ADJ	id=32	0	ROOT	_	_
+
+1	exquisiteces	<unknown>	NC	NC	id=33	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=34	0	ROOT	_	_
+
+1	el	el	ART	ART	id=35	0	ROOT	_	_
+
+1	escaparate	escaparate	NC	NC	id=36	0	ROOT	_	_
+
+1	.	.	FS	FS	id=37	0	ROOT	_	_
+
+1	“También	<unknown>	ADV	ADV	id=38	0	ROOT	_	_
+
+1	sabe	saber	VLfin	VLfin	id=39	0	ROOT	_	_
+
+1	lo	el	ART	ART	id=40	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=41	0	ROOT	_	_
+
+1	llevan	llevar	VLfin	VLfin	id=42	0	ROOT	_	_
+
+1	adentro”	<unknown>	VLinf	VLinf	id=43	0	ROOT	_	_
+
+1	,	,	CM	CM	id=44	0	ROOT	_	_
+
+1	añade	<unknown>	VLfin	VLfin	id=45	0	ROOT	_	_
+
+1	un	un	ART	ART	id=46	0	ROOT	_	_
+
+1	nuevo	nuevo	ADJ	ADJ	id=47	0	ROOT	_	_
+
+1	colega	colega	NC	NC	id=48	0	ROOT	_	_
+
+1	.	.	FS	FS	id=49	0	ROOT	_	_
+
+1	Y	y	CC	CC	id=50	0	ROOT	_	_
+
+1	el	el	ART	ART	id=51	0	ROOT	_	_
+
+1	confitero	<unknown>	NC	NC	id=52	0	ROOT	_	_
+
+1	Lars	<unknown>	NP	NP	id=53	0	ROOT	_	_
+
+1	Hjorth	<unknown>	NP	NP	id=54	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=55	0	ROOT	_	_
+
+1	se	se	SE	SE	id=56	0	ROOT	_	_
+
+1	arrepienta	<unknown>	VLfin	VLfin	id=57	0	ROOT	_	_
+
+1	ni	ni	CCNEG	CCNEG	id=58	0	ROOT	_	_
+
+1	un	un	ART	ART	id=59	0	ROOT	_	_
+
+1	segundo	segundo	ORD	ORD	id=60	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=61	0	ROOT	_	_
+
+1	haber	haber	VHinf	VHinf	id=62	0	ROOT	_	_
+
+1	contratado	contratar	VLadj	VLadj	id=63	0	ROOT	_	_
+
+1	al	al	CSUBI	CSUBI	id=64	0	ROOT	_	_
+
+1	“núm.46,”	<unknown>	VLinf	VLinf	id=65	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=66	0	ROOT	_	_
+
+1	durante	durante	SCENE	SCENE	id=67	0	ROOT	_	_
+
+1	meses	mes	NC	NC	id=68	0	ROOT	_	_
+
+1	había	<unknown>	ADJ	ADJ	id=69	0	ROOT	_	_
+
+1	tenido	tener	VLadj	VLadj	id=70	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=71	0	ROOT	_	_
+
+1	deambular	<unknown>	VLfin	VLfin	id=72	0	ROOT	_	_
+
+1	por	por	SCENE	SCENE	id=73	0	ROOT	_	_
+
+1	los	el	ART	ART	id=74	0	ROOT	_	_
+
+1	tristes	triste	ADJ	ADJ	id=75	0	ROOT	_	_
+
+1	pasillos	pasillo|paso	NC	NC	id=76	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=77	0	ROOT	_	_
+
+1	la	el	ART	ART	id=78	0	ROOT	_	_
+
+1	oficina	oficina	NC	NC	id=79	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=80	0	ROOT	_	_
+
+1	asistencia	asistencia	NC	NC	id=81	0	ROOT	_	_
+
+1	social	social	ADJ	ADJ	id=82	0	ROOT	_	_
+
+1	después	<unknown>	ADV	ADV	id=83	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=84	0	ROOT	_	_
+
+1	haber	haber	VHinf	VHinf	id=85	0	ROOT	_	_
+
+1	regresadotras	<unknown>	VLfin	VLfin	id=86	0	ROOT	_	_
+
+1	una	un	ART	ART	id=87	0	ROOT	_	_
+
+1	estancia	estancia	NC	NC	id=88	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=89	0	ROOT	_	_
+
+1	una	un	ART	ART	id=90	0	ROOT	_	_
+
+1	escuela	escuela	NC	NC	id=91	0	ROOT	_	_
+
+1	superior	superior	ADJ	ADJ	id=92	0	ROOT	_	_
+
+1	popular	popular	ADJ	ADJ	id=93	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=94	0	ROOT	_	_
+
+1	deportes	deportar	VLfin	VLfin	id=95	0	ROOT	_	_
+
+1	.	.	FS	FS	id=96	0	ROOT	_	_
+
+1	Trabajo	trabajo	NC	NC	id=97	0	ROOT	_	_
+
+1	fijo	fijo	ADJ	ADJ	id=98	0	ROOT	_	_
+
+1	.	.	FS	FS	id=99	0	ROOT	_	_
+
+1	“Estamos	<unknown>	VLfin	VLfin	id=100	0	ROOT	_	_
+
+1	muy	muy	ADV	ADV	id=101	0	ROOT	_	_
+
+1	contentos	contento	ADJ	ADJ	id=102	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=103	0	ROOT	_	_
+
+1	ella	l	PPX	PPX	id=104	0	ROOT	_	_
+
+1	.	.	FS	FS	id=105	0	ROOT	_	_
+
+1	Tiene	tener	VLfin	VLfin	id=106	0	ROOT	_	_
+
+1	un	un	ART	ART	id=107	0	ROOT	_	_
+
+1	carácter	<unknown>	NC	NC	id=108	0	ROOT	_	_
+
+1	dulce	dulce	ADJ	ADJ	id=109	0	ROOT	_	_
+
+1	y	y	CC	CC	id=110	0	ROOT	_	_
+
+1	tierno	tierno	ADJ	ADJ	id=111	0	ROOT	_	_
+
+1	y	y	CC	CC	id=112	0	ROOT	_	_
+
+1	va	ir	VLfin	VLfin	id=113	0	ROOT	_	_
+
+1	bien	bien	ADV	ADV	id=114	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=115	0	ROOT	_	_
+
+1	la	el	ART	ART	id=116	0	ROOT	_	_
+
+1	química	<unknown>	NC	NC	id=117	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=118	0	ROOT	_	_
+
+1	aquí,”	<unknown>	VLadj	VLadj	id=119	0	ROOT	_	_
+
+1	dice	decir	VLfin	VLfin	id=120	0	ROOT	_	_
+
+1	el	el	ART	ART	id=121	0	ROOT	_	_
+
+1	confitero	<unknown>	NC	NC	id=122	0	ROOT	_	_
+
+1	.	.	FS	FS	id=123	0	ROOT	_	_
+
+1	Hace	hacer	VLfin	VLfin	id=124	0	ROOT	_	_
+
+1	poco	poco	ADV	ADV	id=125	0	ROOT	_	_
+
+1	,	,	CM	CM	id=126	0	ROOT	_	_
+
+1	su	suyo	PPO	PPO	id=127	0	ROOT	_	_
+
+1	alegría	<unknown>	VLfin	VLfin	id=128	0	ROOT	_	_
+
+1	tuvo	tener	VLfin	VLfin	id=129	0	ROOT	_	_
+
+1	como	como	CSUBX	CSUBX	id=130	0	ROOT	_	_
+
+1	consecuencia	consecuencia	NC	NC	id=131	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=132	0	ROOT	_	_
+
+1	ofreció	<unknown>	VLfin	VLfin	id=133	0	ROOT	_	_
+
+1	un	un	ART	ART	id=134	0	ROOT	_	_
+
+1	puesto	puesto	NC	NC	id=135	0	ROOT	_	_
+
+1	fijo	fijo	ADJ	ADJ	id=136	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=137	0	ROOT	_	_
+
+1	la	el	ART	ART	id=138	0	ROOT	_	_
+
+1	antigua	antiguo	ADJ	ADJ	id=139	0	ROOT	_	_
+
+1	desempleada	desempleado	NC	NC	id=140	0	ROOT	_	_
+
+1	.	.	FS	FS	id=141	0	ROOT	_	_
+
+1	Esto	este	DM	DM	id=142	0	ROOT	_	_
+
+1	sucedió	<unknown>	VLfin	VLfin	id=143	0	ROOT	_	_
+
+1	cuando	cuando	CSUBX	CSUBX	id=144	0	ROOT	_	_
+
+1	el	el	ART	ART	id=145	0	ROOT	_	_
+
+1	subsidio	subsidio	NC	NC	id=146	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=147	0	ROOT	_	_
+
+1	30	@card@	CARD	CARD	id=148	0	ROOT	_	_
+
+1	coronas	corona	NC	NC	id=149	0	ROOT	_	_
+
+1	por	por	SCENE	SCENE	id=150	0	ROOT	_	_
+
+1	hora	hora	NC	NC	id=151	0	ROOT	_	_
+
+1	del	del	PDEL	PDEL	id=152	0	ROOT	_	_
+
+1	Municipio	municipio	NC	NC	id=153	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=154	0	ROOT	_	_
+
+1	Gentofte	<unknown>	NC	NC	id=155	0	ROOT	_	_
+
+1	venció	<unknown>	VLadj	VLadj	id=156	0	ROOT	_	_
+
+1	puestoque	puesto~que	CSUBX	CSUBX	id=157	0	ROOT	_	_
+
+1	el	el	ART	ART	id=158	0	ROOT	_	_
+
+1	periodo	periodo	NC	NC	id=159	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=160	0	ROOT	_	_
+
+1	seis	seis	CARD	CARD	id=161	0	ROOT	_	_
+
+1	meses	mes	NC	NC	id=162	0	ROOT	_	_
+
+1	bajo	bajo	SCENE	SCENE	id=163	0	ROOT	_	_
+
+1	este	este	DM	DM	id=164	0	ROOT	_	_
+
+1	régimen	<unknown>	NC	NC	id=165	0	ROOT	_	_
+
+1	se	se	SE	SE	id=166	0	ROOT	_	_
+
+1	había	<unknown>	VLfin	VLfin	id=167	0	ROOT	_	_
+
+1	acabado	acabar	VLadj	VLadj	id=168	0	ROOT	_	_
+
+1	para	para	SCENE	SCENE	id=169	0	ROOT	_	_
+
+1	Eva	Eva	NP	NP	id=170	0	ROOT	_	_
+
+1	Rothmann	<unknown>	NP	NP	id=171	0	ROOT	_	_
+
+1	.	.	FS	FS	id=172	0	ROOT	_	_
+
+1	“Jamás	<unknown>	NC	NC	id=173	0	ROOT	_	_
+
+1	había	<unknown>	ADJ	ADJ	id=174	0	ROOT	_	_
+
+1	imaginado	imaginar	VLadj	VLadj	id=175	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=176	0	ROOT	_	_
+
+1	iba	ir	VLfin	VLfin	id=177	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=178	0	ROOT	_	_
+
+1	obtener	obtener	VLinf	VLinf	id=179	0	ROOT	_	_
+
+1	un	un	ART	ART	id=180	0	ROOT	_	_
+
+1	empleo	empleo	NC	NC	id=181	0	ROOT	_	_
+
+1	fijo	fijo	ADJ	ADJ	id=182	0	ROOT	_	_
+
+1	.	.	FS	FS	id=183	0	ROOT	_	_
+
+1	Me	yo	PPX	PPX	id=184	0	ROOT	_	_
+
+1	alegro	alegrar	VLfin	VLfin	id=185	0	ROOT	_	_
+
+1	mucho	mucho	ADV	ADV	id=186	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=187	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=188	0	ROOT	_	_
+
+1	tenerque	tener~que	VMinf	VMinf	id=189	0	ROOT	_	_
+
+1	volver	volver	VLinf	VLinf	id=190	0	ROOT	_	_
+
+1	al	al	PAL	PAL	id=191	0	ROOT	_	_
+
+1	paro”	<unknown>	NC	NC	id=192	0	ROOT	_	_
+
+1	,	,	CM	CM	id=193	0	ROOT	_	_
+
+1	dice	decir	VLfin	VLfin	id=194	0	ROOT	_	_
+
+1	Eva	Eva	NP	NP	id=195	0	ROOT	_	_
+
+1	Rothmann	<unknown>	NP	NP	id=196	0	ROOT	_	_
+
+1	.	.	FS	FS	id=197	0	ROOT	_	_
+

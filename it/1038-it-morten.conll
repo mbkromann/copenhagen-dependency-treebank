@@ -1,0 +1,584 @@
+1	Ma	ma	CON	CON	id=0	0	ROOT	_	_
+
+1	è	<unknown>	NOM	NOM	id=1	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=2	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=3	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=4	0	ROOT	_	_
+
+1	fricassea	fricassea	NOM	NOM	id=5	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=6	0	ROOT	_	_
+
+1	luccio	luccio	NOM	NOM	id=7	0	ROOT	_	_
+
+1	e	e	CON	CON	id=8	0	ROOT	_	_
+
+1	trota	trota	NOM	NOM	id=9	0	ROOT	_	_
+
+1	che	che	CON	CON	id=10	0	ROOT	_	_
+
+1	Preben	<unknown>	NOM	NOM	id=11	0	ROOT	_	_
+
+1	Madsen	<unknown>	NOM	NOM	id=12	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=13	0	ROOT	_	_
+
+1	è	<unknown>	NOM	NOM	id=14	0	ROOT	_	_
+
+1	portato	portare	VER:pper	VER:pper	id=15	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=16	0	ROOT	_	_
+
+1	casa	casa	NOM	NOM	id=17	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=18	0	ROOT	_	_
+
+1	vittoria	vittoria	NOM	NOM	id=19	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=20	0	ROOT	_	_
+
+1	Oltre	oltre	ADV	ADV	id=21	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=22	0	ROOT	_	_
+
+1	giudici	giudice	NOM	NOM	id=23	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=24	0	ROOT	_	_
+
+1	luogo	luogo	NOM	NOM	id=25	0	ROOT	_	_
+
+1	,	,	PON	PON	id=26	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=27	0	ROOT	_	_
+
+1	giuria	giuria	NOM	NOM	id=28	0	ROOT	_	_
+
+1	c’era	<unknown>	VER:pres	VER:pres	id=29	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=30	0	ROOT	_	_
+
+1	Erwin	<unknown>	NOM	NOM	id=31	0	ROOT	_	_
+
+1	Lauterbach	<unknown>	NOM	NOM	id=32	0	ROOT	_	_
+
+1	dell’Hotel	<unknown>	NOM	NOM	id=33	0	ROOT	_	_
+
+1	Skovshoved	<unknown>	NOM	NOM	id=34	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=35	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=36	0	ROOT	_	_
+
+1	signor	signor	NOM	NOM	id=37	0	ROOT	_	_
+
+1	Madsen	<unknown>	NOM	NOM	id=38	0	ROOT	_	_
+
+1	mi	mi	PRO:pers	PRO:pers	id=39	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=40	0	ROOT	_	_
+
+1	dato	dare	VER:pper	VER:pper	id=41	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=42	0	ROOT	_	_
+
+1	ricetta	ricetta	NOM	NOM	id=43	0	ROOT	_	_
+
+1	e	e	CON	CON	id=44	0	ROOT	_	_
+
+1	questi	questo	PRO:demo	PRO:demo	id=45	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=46	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=47	0	ROOT	_	_
+
+1	ingredienti	ingrediente	NOM	NOM	id=48	0	ROOT	_	_
+
+1	:	:	PON	PON	id=49	0	ROOT	_	_
+
+1	400	@card@	NUM	NUM	id=50	0	ROOT	_	_
+
+1	gr	<unknown>	NOM	NOM	id=51	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=52	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=53	0	ROOT	_	_
+
+1	filetto	filetto	NOM	NOM	id=54	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=55	0	ROOT	_	_
+
+1	luccio	luccio	NOM	NOM	id=56	0	ROOT	_	_
+
+1	,	,	PON	PON	id=57	0	ROOT	_	_
+
+1	400	@card@	NUM	NUM	id=58	0	ROOT	_	_
+
+1	gr	<unknown>	NOM	NOM	id=59	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=60	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=61	0	ROOT	_	_
+
+1	filetto	filetto	NOM	NOM	id=62	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=63	0	ROOT	_	_
+
+1	trota	trota	NOM	NOM	id=64	0	ROOT	_	_
+
+1	,	,	PON	PON	id=65	0	ROOT	_	_
+
+1	150	@card@	NUM	NUM	id=66	0	ROOT	_	_
+
+1	gr	<unknown>	NOM	NOM	id=67	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=68	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=69	0	ROOT	_	_
+
+1	prosciutto	prosciutto	NOM	NOM	id=70	0	ROOT	_	_
+
+1	affumicato	affumicato	ADJ	ADJ	id=71	0	ROOT	_	_
+
+1	tagliato	tagliare	VER:pper	VER:pper	id=72	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=73	0	ROOT	_	_
+
+1	striscioline	<unknown>	NOM	NOM	id=74	0	ROOT	_	_
+
+1	sottili	sottile	ADJ	ADJ	id=75	0	ROOT	_	_
+
+1	,	,	PON	PON	id=76	0	ROOT	_	_
+
+1	2	@card@	NUM	NUM	id=77	0	ROOT	_	_
+
+1	piccoli	piccolo	ADJ	ADJ	id=78	0	ROOT	_	_
+
+1	cavoli	cavolo	NOM	NOM	id=79	0	ROOT	_	_
+
+1	cappuccio	cappuccio	ADJ	ADJ	id=80	0	ROOT	_	_
+
+1	,	,	PON	PON	id=81	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=82	0	ROOT	_	_
+
+1	mazzetto	mazzetto	NOM	NOM	id=83	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=84	0	ROOT	_	_
+
+1	prezzemolo	prezzemolo	NOM	NOM	id=85	0	ROOT	_	_
+
+1	,	,	PON	PON	id=86	0	ROOT	_	_
+
+1	2	@card@	NUM	NUM	id=87	0	ROOT	_	_
+
+1	dl	<unknown>	NOM	NOM	id=88	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=89	0	ROOT	_	_
+
+1	brodo	brodo	NOM	NOM	id=90	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=91	0	ROOT	_	_
+
+1	verdura	verdura	NOM	NOM	id=92	0	ROOT	_	_
+
+1	concentrato	concentrare	VER:pper	VER:pper	id=93	0	ROOT	_	_
+
+1	,	,	PON	PON	id=94	0	ROOT	_	_
+
+1	due	due	ADJ	ADJ	id=95	0	ROOT	_	_
+
+1	porri	porro	NOM	NOM	id=96	0	ROOT	_	_
+
+1	fini	fine	ADJ	ADJ	id=97	0	ROOT	_	_
+
+1	tagliati	tagliare	VER:pper	VER:pper	id=98	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=99	0	ROOT	_	_
+
+1	anelli	anello	NOM	NOM	id=100	0	ROOT	_	_
+
+1	,	,	PON	PON	id=101	0	ROOT	_	_
+
+1	2	@card@	NUM	NUM	id=102	0	ROOT	_	_
+
+1	cucchiai	cucchiaio	NOM	NOM	id=103	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=104	0	ROOT	_	_
+
+1	senape	senapa|senape	NOM	NOM	id=105	0	ROOT	_	_
+
+1	,	,	PON	PON	id=106	0	ROOT	_	_
+
+1	2	@card@	NUM	NUM	id=107	0	ROOT	_	_
+
+1	cucchiai	cucchiaio	NOM	NOM	id=108	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=109	0	ROOT	_	_
+
+1	aceto	aceto	NOM	NOM	id=110	0	ROOT	_	_
+
+1	,	,	PON	PON	id=111	0	ROOT	_	_
+
+1	200	@card@	NUM	NUM	id=112	0	ROOT	_	_
+
+1	gr	<unknown>	NOM	NOM	id=113	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=114	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=115	0	ROOT	_	_
+
+1	burro	burro	NOM	NOM	id=116	0	ROOT	_	_
+
+1	e	e	CON	CON	id=117	0	ROOT	_	_
+
+1	sale	sala|sale	NOM	NOM	id=118	0	ROOT	_	_
+
+1	e	e	CON	CON	id=119	0	ROOT	_	_
+
+1	pepe	pepe	NOM	NOM	id=120	0	ROOT	_	_
+
+1	q	<unknown>	NOM	NOM	id=121	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=122	0	ROOT	_	_
+
+1	b	b	ABR	ABR	id=123	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=124	0	ROOT	_	_
+
+1	Per	per	PRE	PRE	id=125	0	ROOT	_	_
+
+1	preparare	preparare	VER:infi	VER:infi	id=126	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=127	0	ROOT	_	_
+
+1	piatto	piatto	NOM	NOM	id=128	0	ROOT	_	_
+
+1	:	:	PON	PON	id=129	0	ROOT	_	_
+
+1	tagliate	tagliare	VER:pper	VER:pper	id=130	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=131	0	ROOT	_	_
+
+1	pesce	pesce	NOM	NOM	id=132	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=133	0	ROOT	_	_
+
+1	dadini	<unknown>	NOM	NOM	id=134	0	ROOT	_	_
+
+1	,	,	PON	PON	id=135	0	ROOT	_	_
+
+1	disponeteli	disporre	VER:impe	VER:impe	id=136	0	ROOT	_	_
+
+1	su	su	PRE	PRE	id=137	0	ROOT	_	_
+
+1	due	due	ADJ	ADJ	id=138	0	ROOT	_	_
+
+1	teglie	teglia	NOM	NOM	id=139	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=140	0	ROOT	_	_
+
+1	forno	forno	NOM	NOM	id=141	0	ROOT	_	_
+
+1	imburrate	imburrare	VER:pper	VER:pper	id=142	0	ROOT	_	_
+
+1	e	e	CON	CON	id=143	0	ROOT	_	_
+
+1	cuoceteli	cuocere	VER:impe	VER:impe	id=144	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=145	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=146	0	ROOT	_	_
+
+1	temperatura	temperatura	NOM	NOM	id=147	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=148	0	ROOT	_	_
+
+1	140°	<unknown>	NOM	NOM	id=149	0	ROOT	_	_
+
+1	circa	circa	ADV	ADV	id=150	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=151	0	ROOT	_	_
+
+1	Lessate	lessare	VER:pper	VER:pper	id=152	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=153	0	ROOT	_	_
+
+1	cavoletti	<unknown>	NOM	NOM	id=154	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=155	0	ROOT	_	_
+
+1	Per	per	PRE	PRE	id=156	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=157	0	ROOT	_	_
+
+1	salsa	salsa	NOM	NOM	id=158	0	ROOT	_	_
+
+1	:	:	PON	PON	id=159	0	ROOT	_	_
+
+1	cuocete	cuocere	VER:pres	VER:pres	id=160	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=161	0	ROOT	_	_
+
+1	vapore	vapore	NOM	NOM	id=162	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=163	0	ROOT	_	_
+
+1	anelli	anello	NOM	NOM	id=164	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=165	0	ROOT	_	_
+
+1	porro	porro	NOM	NOM	id=166	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=167	0	ROOT	_	_
+
+1	brodo	brodo	NOM	NOM	id=168	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=169	0	ROOT	_	_
+
+1	verdura	verdura	NOM	NOM	id=170	0	ROOT	_	_
+
+1	,	,	PON	PON	id=171	0	ROOT	_	_
+
+1	poi	poi	ADV	ADV	id=172	0	ROOT	_	_
+
+1	toglieteli	togliere	VER:impe	VER:impe	id=173	0	ROOT	_	_
+
+1	e	e	CON	CON	id=174	0	ROOT	_	_
+
+1	fate	fare	VER:impe	VER:impe	id=175	0	ROOT	_	_
+
+1	andare	andare	VER:infi	VER:infi	id=176	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=177	0	ROOT	_	_
+
+1	brodo	brodo	NOM	NOM	id=178	0	ROOT	_	_
+
+1	fino	fino	CON	CON	id=179	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=180	0	ROOT	_	_
+
+1	quando	quando	PRO:inter	PRO:inter	id=181	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=182	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=183	0	ROOT	_	_
+
+1	sia	essere	VER:cpre	VER:cpre	id=184	0	ROOT	_	_
+
+1	ristretto	restringere|ristringere	VER:pper	VER:pper	id=185	0	ROOT	_	_
+
+1	,	,	PON	PON	id=186	0	ROOT	_	_
+
+1	aggiungete	aggiungere	VER:pres	VER:pres	id=187	0	ROOT	_	_
+
+1	l’aceto	<unknown>	ADJ	ADJ	id=188	0	ROOT	_	_
+
+1	e	e	CON	CON	id=189	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=190	0	ROOT	_	_
+
+1	senape	senapa|senape	NOM	NOM	id=191	0	ROOT	_	_
+
+1	e	e	CON	CON	id=192	0	ROOT	_	_
+
+1	sbattete	sbattere	VER:pres	VER:pres	id=193	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=194	0	ROOT	_	_
+
+1	tutto	tutto	NOM	NOM	id=195	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=196	0	ROOT	_	_
+
+1	burro	burro	NOM	NOM	id=197	0	ROOT	_	_
+
+1	,	,	PON	PON	id=198	0	ROOT	_	_
+
+1	infine	infine	ADV	ADV	id=199	0	ROOT	_	_
+
+1	aggiungete	aggiungere	VER:pres	VER:pres	id=200	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=201	0	ROOT	_	_
+
+1	prezzemolo	prezzemolo	NOM	NOM	id=202	0	ROOT	_	_
+
+1	tritato	tritare	VER:pper	VER:pper	id=203	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=204	0	ROOT	_	_
+
+1	Servite	servire	VER:pper	VER:pper	id=205	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=206	0	ROOT	_	_
+
+1	dadini	<unknown>	NOM	NOM	id=207	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=208	0	ROOT	_	_
+
+1	pesce	pesce	NOM	NOM	id=209	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=210	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=211	0	ROOT	_	_
+
+1	cavoletti	<unknown>	NOM	NOM	id=212	0	ROOT	_	_
+
+1	e	e	CON	CON	id=213	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=214	0	ROOT	_	_
+
+1	anelli	anello	NOM	NOM	id=215	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=216	0	ROOT	_	_
+
+1	porro	porro	NOM	NOM	id=217	0	ROOT	_	_
+
+1	,	,	PON	PON	id=218	0	ROOT	_	_
+
+1	dopo	dopo	PRE	PRE	id=219	0	ROOT	_	_
+
+1	avervi	avere	VER:infi	VER:infi	id=220	0	ROOT	_	_
+
+1	versato	versare	VER:pper	VER:pper	id=221	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=222	0	ROOT	_	_
+
+1	po’	<unknown>	NOM	NOM	id=223	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=224	0	ROOT	_	_
+
+1	salsa	salso	ADJ	ADJ	id=225	0	ROOT	_	_
+
+1	e	e	CON	CON	id=226	0	ROOT	_	_
+
+1	cosparso	cospargere	VER:pper	VER:pper	id=227	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=228	0	ROOT	_	_
+
+1	striscioline	<unknown>	NOM	NOM	id=229	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=230	0	ROOT	_	_
+
+1	prosciutto	prosciutto	NOM	NOM	id=231	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=232	0	ROOT	_	_
+
+1	Se	se	PRO:refl	PRO:refl	id=233	0	ROOT	_	_
+
+1	volete	volere	VER:pres	VER:pres	id=234	0	ROOT	_	_
+
+1	,	,	PON	PON	id=235	0	ROOT	_	_
+
+1	potete	potere	VER:pres	VER:pres	id=236	0	ROOT	_	_
+
+1	accompagnare	accompagnare	VER:infi	VER:infi	id=237	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=238	0	ROOT	_	_
+
+1	piatto	piatto	NOM	NOM	id=239	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=240	0	ROOT	_	_
+
+1	piccole	piccolo	ADJ	ADJ	id=241	0	ROOT	_	_
+
+1	patate	patata	NOM	NOM	id=242	0	ROOT	_	_
+
+1	novelle	novello	ADJ	ADJ	id=243	0	ROOT	_	_
+
+1	cotte	cuocere	VER:pper	VER:pper	id=244	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=245	0	ROOT	_	_
+
+1	burro	burro	NOM	NOM	id=246	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=247	0	ROOT	_	_
+
+1	forno	forno	NOM	NOM	id=248	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=249	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=250	0	ROOT	_	_
+
+1	trentunenne	<unknown>	ADJ	ADJ	id=251	0	ROOT	_	_
+
+1	Preben	<unknown>	NOM	NOM	id=252	0	ROOT	_	_
+
+1	Madsen	<unknown>	NOM	NOM	id=253	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=254	0	ROOT	_	_
+
+1	è	<unknown>	NOM	NOM	id=255	0	ROOT	_	_
+
+1	formato	formare	VER:pper	VER:pper	id=256	0	ROOT	_	_
+
+1	presso	presso	PRE	PRE	id=257	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=258	0	ROOT	_	_
+
+1	trattoria	trattoria	NOM	NOM	id=259	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=260	0	ROOT	_	_
+
+1	Hovborg	<unknown>	ADJ	ADJ	id=261	0	ROOT	_	_
+
+1	Kro	<unknown>	NOM	NOM	id=262	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=263	0	ROOT	_	_
+
+1	In	in	PRE	PRE	id=264	0	ROOT	_	_
+
+1	seguito	seguito	NOM	NOM	id=265	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=266	0	ROOT	_	_
+
+1	lavorato	lavorare	VER:pper	VER:pper	id=267	0	ROOT	_	_
+
+1	,	,	PON	PON	id=268	0	ROOT	_	_
+
+1	tra	tra	PRE	PRE	id=269	0	ROOT	_	_
+
+1	l’altro	<unknown>	NOM	NOM	id=270	0	ROOT	_	_
+
+1	,	,	PON	PON	id=271	0	ROOT	_	_
+
+1	presso	presso	PRE	PRE	id=272	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=273	0	ROOT	_	_
+
+1	ristorante	ristorante	NOM	NOM	id=274	0	ROOT	_	_
+
+1	Pakhuset	<unknown>	NOM	NOM	id=275	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=276	0	ROOT	_	_
+
+1	Esbjerg	<unknown>	NOM	NOM	id=277	0	ROOT	_	_
+
+1	,	,	PON	PON	id=278	0	ROOT	_	_
+
+1	all’Hotel	<unknown>	NOM	NOM	id=279	0	ROOT	_	_
+
+1	Plaza	Plaza	NPR	NPR	id=280	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=281	0	ROOT	_	_
+
+1	Copenaghen	<unknown>	NOM	NOM	id=282	0	ROOT	_	_
+
+1	e	e	CON	CON	id=283	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=284	0	ROOT	_	_
+
+1	rinomata	rinomato	ADJ	ADJ	id=285	0	ROOT	_	_
+
+1	trattoria	trattoria	NOM	NOM	id=286	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=287	0	ROOT	_	_
+
+1	Henne	<unknown>	ADJ	ADJ	id=288	0	ROOT	_	_
+
+1	Kirkeby	<unknown>	NOM	NOM	id=289	0	ROOT	_	_
+
+1	Kro	<unknown>	NOM	NOM	id=290	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=291	0	ROOT	_	_
+

@@ -1,0 +1,241 @@
+1	CUANDO	cuando	CSUBX	CSUBX	id=0	11	time	_	_
+2	el	el	ART	ART	id=1	6	subj	_	_
+3	partido	partido	NC	NC	id=2	2	nobj	_	_
+4	Socialdemócrata	<unknown>	NP	NP	id=3	3	nobj	_	_
+5	se	se	SE	SE	id=4	6	robj	_	_
+6	rindió	<unknown>	VLfin	VLfin	id=5	1	vobj	_	_
+7	en	en	SCENE	SCENE	id=6	6	time	_	_
+8	septiembre	septiembre	NC	NC	id=7	7	nobj	_	_
+9	de	de	SCENE	SCENE	id=8	8	attr	_	_
+10	1982	@card@	CODE	CODE	id=9	9	nobj	_	_
+11	fue	ser	VSfin	VSfin	id=10	0	ROOT	_	_
+12	en	en	SCENE	SCENE	id=11	11	scene	_	_
+13	gran	grande	ADJ	ADJ	id=12	14	attr	_	_
+14	medida	medida	NC	NC	id=13	12	nobj	_	_
+15	por	por	SCENE	SCENE	id=14	11	pobj	_	_
+16	cuestiones	cuestin	NC	NC	id=15	15	nobj	_	_
+17	estratégicas	<unknown>	ADJ	ADJ	id=16	16	attr	_	_
+
+1	,	,	CM	CM	id=17	0	ROOT	_	_
+
+1	Con	con	SCENE	SCENE	id=18	0	ROOT	_	_
+
+1	la	el	ART	ART	id=19	0	ROOT	_	_
+
+1	esperanza	esperanza	NC	NC	id=20	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=21	0	ROOT	_	_
+
+1	volver	volver	VLinf	VLinf	id=22	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=23	0	ROOT	_	_
+
+1	formar	formar	VLinf	VLinf	id=24	0	ROOT	_	_
+
+1	gobierno	gobernar	VLfin	VLfin	id=25	0	ROOT	_	_
+
+1	cuando	cuando	CSUBX	CSUBX	id=26	0	ROOT	_	_
+
+1	el	el	ART	ART	id=27	0	ROOT	_	_
+
+1	gobierno	gobierno	NC	NC	id=28	0	ROOT	_	_
+
+1	actual	actual	ADJ	ADJ	id=29	0	ROOT	_	_
+
+1	del	del	PDEL	PDEL	id=30	0	ROOT	_	_
+
+1	trébol	<unknown>	NC	NC	id=31	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=32	0	ROOT	_	_
+
+1	cuatro	cuatro	CARD	CARD	id=33	0	ROOT	_	_
+
+1	hojas	hoja	NC	NC	id=34	0	ROOT	_	_
+
+1	quedara	quedar	VLfin	VLfin	id=35	0	ROOT	_	_
+
+1	atascado	atascar	VLadj	VLadj	id=36	0	ROOT	_	_
+
+1	.	.	FS	FS	id=37	0	ROOT	_	_
+
+1	PERO	pero	CCAD	CCAD	id=38	0	ROOT	_	_
+
+1	fue	ser	VSfin	VSfin	id=39	0	ROOT	_	_
+2	una	un	ART	ART	id=40	1	time	_	_
+3	vez	vez	NC	NC	id=41	2	nobj	_	_
+4	más	<unknown>	ADJ	ADJ	id=42	3	quant	_	_
+5	un	un	ART	ART	id=43	1	preds	_	_
+6	error	error	NC	NC	id=44	5	nobj	_	_
+7	fatal	fatal	ADJ	ADJ	id=45	6	attr	_	_
+8	porpartede	por~parte~de	SCENE	SCENE	id=46	6	pobj	_	_
+9	los	el	ART	ART	id=47	8	nobj	_	_
+10	líderes	<unknown>	NC	NC	id=48	9	nobj	_	_
+11	políticos	<unknown>	ADJ	ADJ	id=49	10	attr	_	_
+12	.	.	FS	FS	id=50	1	pnct	_	_
+
+1	EL	el	ART	ART	id=51	9	subj	_	_
+2	GOBIERNO	<unknown>	NP	NP	id=52	1	nobj	_	_
+3	DEL	<unknown>	NP	NP	id=53	2	attr	_	_
+4	TRÉBOL	<unknown>	NP	NP	id=54	3	nobj	_	_
+5	DE	<unknown>	NP	NP	id=55	4	pobj	_	_
+6	CUATRO	cuatro	CARD	CARD	id=56	5	nobj	_	_
+7	HOJAS	<unknown>	NP	NP	id=57	6	nobj	_	_
+8	no	no	NEG	NEG	id=58	9	neg	_	_
+9	era	era	VEfin	VEfin	id=59	0	ROOT	_	_
+10	una	un	ART	ART	id=60	9	preds	_	_
+11	efímera	<unknown>	NC	NC	id=61	10	nobj	_	_
+12	.	.	FS	FS	id=62	9	pnct	_	_
+
+1	Bajo	bajo	SCENE	SCENE	id=63	5	loc	_	_
+2	determinadas	determinado	ADJ	ADJ	id=64	3	attr	_	_
+3	circunstancias	circunstancia	NC	NC	id=65	1	nobj	_	_
+4	aún	<unknown>	ADV	ADV	id=66	5	prg	_	_
+5	podría	<unknown>	VLfin	VLfin	id=67	0	ROOT	_	_
+6	haber	haber	VHinf	VHinf	id=68	5	vobj	_	_
+7	estado	estado	NC	NC	id=69	6	vobj	_	_
+8	en	en	SCENE	SCENE	id=70	7	loc	_	_
+9	el	el	ART	ART	id=71	8	nobj	_	_
+10	poder	poder	NC	NC	id=72	9	nobj	_	_
+11	hoy	hoy	ADV	ADV	id=73	5	time	_	_
+12	en	en	SCENE	SCENE	id=74	11	nobj	_	_
+13	día	<unknown>	ADJ	ADJ	id=75	12	nobj	_	_
+14	.	.	FS	FS	id=76	5	pnct	_	_
+
+1	Tampoco	tampoco	ADV	ADV	id=77	3	neg	_	_
+2	se	se	SE	SE	id=78	3	robj	_	_
+3	puede	poder	VMfin	VMfin	id=79	0	ROOT	_	_
+4	descartar	descartar	VLinf	VLinf	id=80	3	vobj	_	_
+5	la	el	ART	ART	id=81	4	dobj	_	_
+6	idea	idea	NC	NC	id=82	5	nobj	_	_
+7	de	de	SCENE	SCENE	id=83	6	pobj	_	_
+8	que	que	CQUE	CQUE	id=84	7	nobj	_	_
+9	pueda	poder	VMfin	VMfin	id=85	8	vobj	_	_
+10	surgir	surgir	VLinf	VLinf	id=86	9	vobj	_	_
+11	denuevo	de~nuevo	ADV	ADV	id=87	9	time	_	_
+12	.	.	FS	FS	id=88	3	pnct	_	_
+
+1	¿Quién	<unknown>	ADV	ADV	id=89	3	subj	_	_
+2	se	se	SE	SE	id=90	3	robj	_	_
+3	atreve	atrever	VLfin	VLfin	id=91	0	ROOT	_	_
+4	a	a	SCENE	SCENE	id=92	0	ROOT	_	_
+5	descartar	descartar	VLinf	VLinf	id=93	3	vobj	_	_
+6	lo	l	PPO	PPO	id=94	5	dobj	_	_
+
+1	?	?	FS	FS	id=95	0	ROOT	_	_
+
+1	Entodocaso	en~todo~caso	ADV	ADV	id=96	5	scene	_	_
+2	,	,	CM	CM	id=97	0	ROOT	_	_
+3	su	suyo	PPO	PPO	id=98	0	ROOT	_	_
+4	formación	<unknown>	NC	NC	id=99	5	subj	_	_
+5	significó	<unknown>	VLfin	VLfin	id=100	0	ROOT	_	_
+6	el	el	ART	ART	id=101	5	preds	_	_
+7	comienzo	comienzo	NC	NC	id=102	6	nobj	_	_
+8	de	de	SCENE	SCENE	id=103	0	ROOT	_	_
+9	una	un	ART	ART	id=104	8	nobj	_	_
+10	nueva	nuevo	ADJ	ADJ	id=105	11	attr	_	_
+11	fase	fase	NC	NC	id=106	9	nobj	_	_
+12	en	en	SCENE	SCENE	id=107	11	loc	_	_
+13	la	el	ART	ART	id=108	12	nobj	_	_
+14	política	<unknown>	NC	NC	id=109	13	nobj	_	_
+15	danesa	dans	ADJ	ADJ	id=110	14	attr	_	_
+16	después	<unknown>	ADV	ADV	id=111	13	time	_	_
+17	de	de	SCENE	SCENE	id=112	16	attr	_	_
+18	la	el	ART	ART	id=113	17	nobj	_	_
+19	Segunda	<unknown>	NP	NP	id=114	18	nobj	_	_
+20	Guerra	<unknown>	NP	NP	id=115	0	ROOT	_	_
+21	Mundial	<unknown>	NP	NP	id=116	0	ROOT	_	_
+22	.	.	FS	FS	id=117	0	ROOT	_	_
+23	EL	el	ART	ART	id=118	27	subj	_	_
+24	JEFE	Jefe	NP	NP	id=119	23	nobj	_	_
+25	DE	<unknown>	NC	NC	id=120	24	pobj	_	_
+26	GOBIERNO	<unknown>	NP	NP	id=121	25	nobj	_	_
+27	tiene	tener	VLfin	VLfin	id=122	0	ROOT	_	_
+28	buena	bueno	ADJ	ADJ	id=123	29	attr	_	_
+29	parte	parte	NC	NC	id=124	27	dobj	_	_
+30	del	del	PDEL	PDEL	id=125	29	pobj	_	_
+31	mérito	<unknown>	NC	NC	id=126	30	nobj	_	_
+32	alrespecto	al~respecto	ADV	ADV	id=127	27	other	_	_
+33	,	,	CM	CM	id=128	27	pnct	_	_
+34	pero	pero	CCAD	CCAD	id=129	36	coord	_	_
+35	también	<unknown>	ADV	ADV	id=130	0	ROOT	_	_
+36	deberían	<unknown>	VLfin	VLfin	id=131	27	conj	_	_
+37	mencionarse	mencionar	VLinf	VLinf	id=132	36	vobj	_	_
+38	un	un	ART	ART	id=133	37	subj	_	_
+39	par	par	NC	NC	id=134	38	nobj	_	_
+40	de	de	SCENE	SCENE	id=135	39	pobj	_	_
+41	otros	otro	QU	QU	id=136	40	nobj	_	_
+42	aspectos	aspecto	NC	NC	id=137	41	nobj	_	_
+43	.	.	FS	FS	id=138	27	pnct	_	_
+44	LOS	el	ART	ART	id=139	47	subj	_	_
+45	cuatro	cuatro	CARD	CARD	id=140	44	nobj	_	_
+46	partidos	partido	NC	NC	id=141	45	nobj	_	_
+47	estaban	estar	VLfin	VLfin	id=142	0	ROOT	_	_
+48	de	de	SCENE	SCENE	id=143	47	preds	_	_
+49	acuerdo	acuerdo	NC	NC	id=144	48	nobj	_	_
+50	en	en	SCENE	SCENE	id=145	49	pobj	_	_
+51	muchas	mucho	QU	QU	id=146	50	nobj	_	_
+52	cosas	cosa	NC	NC	id=147	51	nobj	_	_
+53	cuando	cuando	CSUBX	CSUBX	id=148	47	time	_	_
+54	se	se	SE	SE	id=149	55	robj	_	_
+55	formó	<unknown>	VLfin	VLfin	id=150	53	vobj	_	_
+56	el	el	ART	ART	id=151	55	subj	_	_
+57	gobierno	gobierno	NC	NC	id=152	56	nobj	_	_
+58	.	.	FS	FS	id=153	47	pnct	_	_
+59	Mucho	mucho	QU	QU	id=154	60	time	_	_
+60	más	<unknown>	NC	NC	id=155	0	ROOT	_	_
+61	de	de	SCENE	SCENE	id=156	60	pobj	_	_
+62	lo	el	ART	ART	id=157	61	nobj	_	_
+63	que	que	CQUE	CQUE	id=158	0	ROOT	_	_
+64	sus	suyo	PPO	PPO	id=159	66	subj	_	_
+65	opositores	opositor	NC	NC	id=160	64	nobj	_	_
+66	hubieran	haber	VLfin	VLfin	id=161	63	vobj	_	_
+67	creído	<unknown>	NC	NC	id=162	66	vobj	_	_
+68	posible	posible	ADJ	ADJ	id=163	7	fpredo	_	_
+69	.	.	FS	FS	id=164	66	pnct	_	_
+
+1	Una	un	ART	ART	id=165	6	subj	_	_
+2	causa	causa	NC	NC	id=166	1	nobj	_	_
+3	esencial	esencial	ADJ	ADJ	id=167	2	attr	_	_
+4	de	de	SCENE	SCENE	id=168	2	pobj	_	_
+5	esto	este	DM	DM	id=169	4	nobj	_	_
+6	era	era	VEfin	VEfin	id=170	0	ROOT	_	_
+7	que	que	CQUE	CQUE	id=171	6	preds	_	_
+8	todos	todo	QU	QU	id=172	9	subj	_	_
+9	teníamos	<unknown>	VLfin	VLfin	id=173	7	vobj	_	_
+10	una	un	ART	ART	id=174	9	dobj	_	_
+11	sensación	<unknown>	NC	NC	id=175	10	nobj	_	_
+12	intuitiva	<unknown>	ADJ	ADJ	id=176	11	attr	_	_
+13	de	de	SCENE	SCENE	id=177	11	pobj	_	_
+14	que	que	CQUE	CQUE	id=178	13	nobj	_	_
+15	la	el	ART	ART	id=179	19	subj	_	_
+16	supervivencia	supervivencia	NC	NC	id=180	15	nobj	_	_
+17	del	del	PDEL	PDEL	id=181	0	ROOT	_	_
+18	gobierno	gobierno	NC	NC	id=182	17	nobj	_	_
+19	dependería	<unknown>	VLfin	VLfin	id=183	14	vobj	_	_
+20	de	de	SCENE	SCENE	id=184	19	pobj	_	_
+21	si	si	CSUBX	CSUBX	id=185	20	cond	_	_
+22	teníamos	<unknown>	VLfin	VLfin	id=186	21	vobj	_	_
+23	el	el	ART	ART	id=187	22	dobj	_	_
+24	coraje	coraje	NC	NC	id=188	23	nobj	_	_
+25	para	para	CSUBI	CSUBI	id=189	24	pobj	_	_
+26	poner	poner	VLinf	VLinf	id=190	25	vobj	_	_
+27	en	en	SCENE	SCENE	id=191	26	pobj	_	_
+28	juego	juego	NC	NC	id=192	27	nobj	_	_
+29	unas	un	ART	ART	id=193	26	dobj	_	_
+30	propuestas	propuesta	NC	NC	id=194	29	nobj	_	_
+31	muy	muy	ADV	ADV	id=195	32	quant	_	_
+32	radicales	radical	ADJ	ADJ	id=196	30	attr	_	_
+33	que	que	CQUE	CQUE	id=197	34	subj	_	_
+34	cambiarían	<unknown>	VLfin	VLfin	id=198	30	relr	_	_
+35	decisivamente	decisivo	ADV	ADV	id=199	34	man	_	_
+36	las	el	ART	ART	id=200	34	dobj	_	_
+37	expectativas	expectativa	NC	NC	id=201	36	nobj	_	_
+38	de	de	SCENE	SCENE	id=202	37	pobj	_	_
+39	la	el	ART	ART	id=203	38	nobj	_	_
+40	población	<unknown>	NC	NC	id=204	39	nobj	_	_
+41	y	y	CC	CC	id=205	42	coord	_	_
+42	la	el	ART	ART	id=206	36	conj	_	_
+43	vida	vida	NC	NC	id=207	42	nobj	_	_
+44	económico-industrial	<unknown>	ADJ	ADJ	id=208	43	attr	_	_
+45	.	.	FS	FS	id=209	6	pnct	_	_
+

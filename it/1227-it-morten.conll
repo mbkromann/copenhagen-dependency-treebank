@@ -1,0 +1,382 @@
+1	"	&quot;	PON	PON	id=0	0	ROOT	_	_
+
+1	Le	il	DET:def	DET:def	id=1	0	ROOT	_	_
+
+1	Faroer	<unknown>	NOM	NOM	id=2	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=3	0	ROOT	_	_
+
+1	comunque	comunque	ADV	ADV	id=4	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=5	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=6	0	ROOT	_	_
+
+1	regno	regno	NOM	NOM	id=7	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=8	0	ROOT	_	_
+
+1	Danimarca	Danimarca	NPR	NPR	id=9	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=10	0	ROOT	_	_
+
+1	dice	dire	VER:pres	VER:pres	id=11	0	ROOT	_	_
+
+1	Erik	<unknown>	NOM	NOM	id=12	0	ROOT	_	_
+
+1	Hjorth	<unknown>	NOM	NOM	id=13	0	ROOT	_	_
+
+1	Nielsen	<unknown>	NOM	NOM	id=14	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=15	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=16	0	ROOT	_	_
+
+1	Mi	mi	PRO:pers	PRO:pers	id=17	0	ROOT	_	_
+
+1	sento	sentire	VER:pres	VER:pres	id=18	0	ROOT	_	_
+
+1	trattata	trattare	VER:pper	VER:pper	id=19	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=20	0	ROOT	_	_
+
+1	maniera	maniera	NOM	NOM	id=21	0	ROOT	_	_
+
+1	veramente	veramente	ADV	ADV	id=22	0	ROOT	_	_
+
+1	ingiusta	ingiusto	ADJ	ADJ	id=23	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=24	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=25	0	ROOT	_	_
+
+1	nuova	nuovo	ADJ	ADJ	id=26	0	ROOT	_	_
+
+1	normativa	normativa	NOM	NOM	id=27	0	ROOT	_	_
+
+1	avrà	avere	VER:futu	VER:futu	id=28	0	ROOT	_	_
+
+1	come	come	PRE	PRE	id=29	0	ROOT	_	_
+
+1	conseguenza	conseguenza	NOM	NOM	id=30	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=31	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=32	0	ROOT	_	_
+
+1	illustratori	illustratore	NOM	NOM	id=33	0	ROOT	_	_
+
+1	danesi	danese	ADJ	ADJ	id=34	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=35	0	ROOT	_	_
+
+1	futuro	futuro	NOM	NOM	id=36	0	ROOT	_	_
+
+1	saranno	essere	VER:futu	VER:futu	id=37	0	ROOT	_	_
+
+1	molto	molto	ADV	ADV	id=38	0	ROOT	_	_
+
+1	meno	meno	ADV	ADV	id=39	0	ROOT	_	_
+
+1	interessati	interessare	VER:pper	VER:pper	id=40	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=41	0	ROOT	_	_
+
+1	lavorare	lavorare	VER:infi	VER:infi	id=42	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=43	0	ROOT	_	_
+
+1	opere	opera	NOM	NOM	id=44	0	ROOT	_	_
+
+1	straniere	straniero	ADJ	ADJ	id=45	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=46	0	ROOT	_	_
+
+1	Karen	Karen	NPR	NPR	id=47	0	ROOT	_	_
+
+1	Merete	<unknown>	NOM	NOM	id=48	0	ROOT	_	_
+
+1	Bennike	<unknown>	ADJ	ADJ	id=49	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=50	0	ROOT	_	_
+
+1	scritto	scrivere	VER:pper	VER:pper	id=51	0	ROOT	_	_
+
+1	vari	vario|varo	ADJ	ADJ	id=52	0	ROOT	_	_
+
+1	libri	libro	NOM	NOM	id=53	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=54	0	ROOT	_	_
+
+1	testo	testo	NOM	NOM	id=55	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=56	0	ROOT	_	_
+
+1	spagnolo	spagnolo	ADJ	ADJ	id=57	0	ROOT	_	_
+
+1	e	e	CON	CON	id=58	0	ROOT	_	_
+
+1	francese	francese	ADJ	ADJ	id=59	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=60	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=61	0	ROOT	_	_
+
+1	licei	liceo	NOM	NOM	id=62	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=63	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=64	0	ROOT	_	_
+
+1	E	e	CON	CON	id=65	0	ROOT	_	_
+
+1	adesso	adesso	ADV	ADV	id=66	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=67	0	ROOT	_	_
+
+1	guadagno	guadagnare	VER:pres	VER:pres	id=68	0	ROOT	_	_
+
+1	affatto	affatto	ADV	ADV	id=69	0	ROOT	_	_
+
+1	,	,	PON	PON	id=70	0	ROOT	_	_
+
+1	nonostante	nonostante	PRE	PRE	id=71	0	ROOT	_	_
+
+1	sia	essere	VER:cpre	VER:cpre	id=72	0	ROOT	_	_
+
+1	danese	danese	ADJ	ADJ	id=73	0	ROOT	_	_
+
+1	e	e	CON	CON	id=74	0	ROOT	_	_
+
+1	scriva	scrivere	VER:cpre	VER:cpre	id=75	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=76	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=77	0	ROOT	_	_
+
+1	danesi	danese	ADJ	ADJ	id=78	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=79	0	ROOT	_	_
+
+1	Mi	mi	PRO:pers	PRO:pers	id=80	0	ROOT	_	_
+
+1	sento	sentire	VER:pres	VER:pres	id=81	0	ROOT	_	_
+
+1	trattata	trattare	VER:pper	VER:pper	id=82	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=83	0	ROOT	_	_
+
+1	maniera	maniera	NOM	NOM	id=84	0	ROOT	_	_
+
+1	assolutamente	assolutamente	ADV	ADV	id=85	0	ROOT	_	_
+
+1	ingiusta	ingiusto	ADJ	ADJ	id=86	0	ROOT	_	_
+
+1	e	e	CON	CON	id=87	0	ROOT	_	_
+
+1	mi	mi	PRO:pers	PRO:pers	id=88	0	ROOT	_	_
+
+1	chiedo	chiedere	VER:pres	VER:pres	id=89	0	ROOT	_	_
+
+1	perché	perché	ADV	ADV	id=90	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=91	0	ROOT	_	_
+
+1	debba	dovere	VER:cpre	VER:cpre	id=92	0	ROOT	_	_
+
+1	succedere	succedere	VER:infi	VER:infi	id=93	0	ROOT	_	_
+
+1	proprio	proprio	ADV	ADV	id=94	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=95	0	ROOT	_	_
+
+1	me	me	PRO:pers	PRO:pers	id=96	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=97	0	ROOT	_	_
+
+1	aggiunge	aggiungere	VER:pres	VER:pres	id=98	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=99	0	ROOT	_	_
+
+1	Secondo	secondo	PRE	PRE	id=100	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=101	0	ROOT	_	_
+
+1	Servizio	<unknown>	ADJ	ADJ	id=102	0	ROOT	_	_
+
+1	Bibliotecario	bibliotecario	NOM	NOM	id=103	0	ROOT	_	_
+
+1	Nazionale	nazionale	ADJ	ADJ	id=104	0	ROOT	_	_
+
+1	,	,	PON	PON	id=105	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=106	0	ROOT	_	_
+
+1	amministra	amministrare	VER:pres	VER:pres	id=107	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=108	0	ROOT	_	_
+
+1	fondi	fondo	NOM	NOM	id=109	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=110	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=111	0	ROOT	_	_
+
+1	biblioteche	biblioteca	NOM	NOM	id=112	0	ROOT	_	_
+
+1	,	,	PON	PON	id=113	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=114	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=115	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=116	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=117	0	ROOT	_	_
+
+1	ventina	ventina	NOM	NOM	id=118	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=119	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=120	0	ROOT	_	_
+
+1	illustratori	illustratore	NOM	NOM	id=121	0	ROOT	_	_
+
+1	danesi	danese	ADJ	ADJ	id=122	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=123	0	ROOT	_	_
+
+1	stati	essere|stare	VER:pper	VER:pper	id=124	0	ROOT	_	_
+
+1	colpiti	colpire	VER:pper	VER:pper	id=125	0	ROOT	_	_
+
+1	dalla	dal	PRE:det	PRE:det	id=126	0	ROOT	_	_
+
+1	nuova	nuovo	ADJ	ADJ	id=127	0	ROOT	_	_
+
+1	legge	legge	NOM	NOM	id=128	0	ROOT	_	_
+
+1	,	,	PON	PON	id=129	0	ROOT	_	_
+
+1	e	e	CON	CON	id=130	0	ROOT	_	_
+
+1	inoltre	inoltre	ADV	ADV	id=131	0	ROOT	_	_
+
+1	vari	vario|varo	ADJ	ADJ	id=132	0	ROOT	_	_
+
+1	autori	autore	NOM	NOM	id=133	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=134	0	ROOT	_	_
+
+1	testi	teste|testo	NOM	NOM	id=135	0	ROOT	_	_
+
+1	scolastici	scolastico	ADJ	ADJ	id=136	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=137	0	ROOT	_	_
+
+1	lingue	lingua	NOM	NOM	id=138	0	ROOT	_	_
+
+1	straniere	straniero	ADJ	ADJ	id=139	0	ROOT	_	_
+
+1	dovranno	dovere	VER:futu	VER:futu	id=140	0	ROOT	_	_
+
+1	prevedere	prevedere	VER:infi	VER:infi	id=141	0	ROOT	_	_
+
+1	degli	del	PRE:det	PRE:det	id=142	0	ROOT	_	_
+
+1	introiti	introito	NOM	NOM	id=143	0	ROOT	_	_
+
+1	considerevolmente	considerevolmente	ADV	ADV	id=144	0	ROOT	_	_
+
+1	ridotti	ridurre	VER:pper	VER:pper	id=145	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=146	0	ROOT	_	_
+
+1	Anna	Anna	NPR	NPR	id=147	0	ROOT	_	_
+
+1	Johansen	<unknown>	NOM	NOM	id=148	0	ROOT	_	_
+
+1	,	,	PON	PON	id=149	0	ROOT	_	_
+
+1	consulente	consulente	ADJ	ADJ	id=150	0	ROOT	_	_
+
+1	presso	presso	PRE	PRE	id=151	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=152	0	ROOT	_	_
+
+1	Servizio	servizio	NOM	NOM	id=153	0	ROOT	_	_
+
+1	Nazionale	nazionale	ADJ	ADJ	id=154	0	ROOT	_	_
+
+1	Biblioteche	<unknown>	ADJ	ADJ	id=155	0	ROOT	_	_
+
+1	,	,	PON	PON	id=156	0	ROOT	_	_
+
+1	precisa	precisare	VER:pres	VER:pres	id=157	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=158	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=159	0	ROOT	_	_
+
+1	servizio	servizio	NOM	NOM	id=160	0	ROOT	_	_
+
+1	mette	mettere	VER:pres	VER:pres	id=161	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=162	0	ROOT	_	_
+
+1	disposizione	disposizione	NOM	NOM	id=163	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=164	0	ROOT	_	_
+
+1	fondi	fondo	NOM	NOM	id=165	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=166	0	ROOT	_	_
+
+1	caso	caso	NOM	NOM	id=167	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=168	0	ROOT	_	_
+
+1	libri	libro	NOM	NOM	id=169	0	ROOT	_	_
+
+1	danesi	danese	ADJ	ADJ	id=170	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=171	0	ROOT	_	_
+
+1	degli	del	PRE:det	PRE:det	id=172	0	ROOT	_	_
+
+1	inserti	inserto	NOM	NOM	id=173	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=174	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=175	0	ROOT	_	_
+
+1	lingua	lingua	NOM	NOM	id=176	0	ROOT	_	_
+
+1	straniera	straniero	ADJ	ADJ	id=177	0	ROOT	_	_
+
+1	,	,	PON	PON	id=178	0	ROOT	_	_
+
+1	ma	ma	CON	CON	id=179	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=180	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=181	0	ROOT	_	_
+
+1	libri	libro	NOM	NOM	id=182	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=183	0	ROOT	_	_
+
+1	testo	testo	NOM	NOM	id=184	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=185	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=186	0	ROOT	_	_
+
+1	lingua	lingua	NOM	NOM	id=187	0	ROOT	_	_
+
+1	straniera	straniero	ADJ	ADJ	id=188	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=189	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=190	0	ROOT	_	_
+

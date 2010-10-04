@@ -7,7 +7,7 @@
 7	hellig	hellig	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=49	8	attr	_	_
 8	forargelse	forargelse	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=50	5	dobj	_	_
 9	"	&quot;	XP	XP	id=51	8	pnct	_	_
-10	over	over	SP	SP	id=52	8	pobj.pobj	_	_
+10	over	over	SP	SP	id=52	0	ROOT	_	_
 11	det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=53	10	nobj	_	_
 12	,	,	XP	XP	id=54	11	pnct	_	_
 13	man	man	PI	PI-C[SP]N--U	gender=common|number=sing/plur|case=nom|register=unmarked|id=55	15	subj	_	_
@@ -93,7 +93,7 @@
 4	andre	anden	PI	PI-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=137	3	nobj	_	_
 5	folkefærd	folkefærd	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=138	4	nobj	_	_
 6	produkt	produkt	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=139	2	preds	_	_
-7	af	af	SP	SP	id=140	6	pobj.pobj	_	_
+7	af	af	SP	SP	id=140	0	ROOT	_	_
 8	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=141	7	nobj	_	_
 9	undervisning	undervisning	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=142	8	nobj	_	_
 10	,	,	XP	XP	id=143	8	pnct	_	_

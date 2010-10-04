@@ -1,0 +1,342 @@
+1	Tenemos	tener	VLfin	VLfin	id=0	0	ROOT	_	_
+
+1	hambre	hambre	NC	NC	id=1	0	ROOT	_	_
+
+1	pero	pero	CCAD	CCAD	id=2	0	ROOT	_	_
+
+1	nos	nosotros	PPX	PPX	id=3	0	ROOT	_	_
+
+1	rechazan	rechazar	VLfin	VLfin	id=4	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=5	0	ROOT	_	_
+
+1	todos	todo	QU	QU	id=6	0	ROOT	_	_
+
+1	los	el	ART	ART	id=7	0	ROOT	_	_
+
+1	restaurantes	restaurante	NC	NC	id=8	0	ROOT	_	_
+
+1	.	.	FS	FS	id=9	0	ROOT	_	_
+
+1	En	en	SCENE	SCENE	id=10	0	ROOT	_	_
+
+1	una	un	ART	ART	id=11	0	ROOT	_	_
+
+1	calle	calle	NC	NC	id=12	0	ROOT	_	_
+
+1	lateral	lateral	ADJ	ADJ	id=13	0	ROOT	_	_
+
+1	una	un	ART	ART	id=14	0	ROOT	_	_
+
+1	fachada	fachada	NC	NC	id=15	0	ROOT	_	_
+
+1	destella	<unknown>	VLfin	VLfin	id=16	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=17	0	ROOT	_	_
+
+1	un	un	ART	ART	id=18	0	ROOT	_	_
+
+1	neón	<unknown>	NC	NC	id=19	0	ROOT	_	_
+
+1	verde	verde	ADJ	ADJ	id=20	0	ROOT	_	_
+
+1	.	.	FS	FS	id=21	0	ROOT	_	_
+
+1	Aquí	<unknown>	NC	NC	id=22	0	ROOT	_	_
+
+1	podemos	podar|poder	VLfin	VLfin	id=23	0	ROOT	_	_
+
+1	comer	comer	VLinf	VLinf	id=24	0	ROOT	_	_
+
+1	algo	algo	QU	QU	id=25	0	ROOT	_	_
+
+1	,	,	CM	CM	id=26	0	ROOT	_	_
+
+1	pero	pero	CCAD	CCAD	id=27	0	ROOT	_	_
+
+1	debemos	deber	VLfin	VLfin	id=28	0	ROOT	_	_
+
+1	pagar	pagar	VLinf	VLinf	id=29	0	ROOT	_	_
+
+1	para	para	CSUBI	CSUBI	id=30	0	ROOT	_	_
+
+1	entrar	entrar	VLinf	VLinf	id=31	0	ROOT	_	_
+
+1	.	.	FS	FS	id=32	0	ROOT	_	_
+
+1	El	el	ART	ART	id=33	0	ROOT	_	_
+
+1	bar	bar	NC	NC	id=34	0	ROOT	_	_
+
+1	es	ser	VSfin	VSfin	id=35	0	ROOT	_	_
+
+1	oscuro	oscuro	ADJ	ADJ	id=36	0	ROOT	_	_
+
+1	y	y	CC	CC	id=37	0	ROOT	_	_
+
+1	alargado	alargar	VLadj	VLadj	id=38	0	ROOT	_	_
+
+1	y	y	CC	CC	id=39	0	ROOT	_	_
+
+1	lleno	lleno	ADJ	ADJ	id=40	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=41	0	ROOT	_	_
+
+1	hombres	hombre	NC	NC	id=42	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=43	0	ROOT	_	_
+
+1	negocios	negocio	NC	NC	id=44	0	ROOT	_	_
+
+1	.	.	FS	FS	id=45	0	ROOT	_	_
+
+1	Bellas	bello	ADJ	ADJ	id=46	0	ROOT	_	_
+
+1	y	y	CC	CC	id=47	0	ROOT	_	_
+
+1	maquilladas	maquillar	VLadj	VLadj	id=48	0	ROOT	_	_
+
+1	mujeres	mujer	NC	NC	id=49	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=50	0	ROOT	_	_
+
+1	vestidos	vestido	NC	NC	id=51	0	ROOT	_	_
+
+1	ajustados	ajustar	VLadj	VLadj	id=52	0	ROOT	_	_
+
+1	circulan	circular	VLfin	VLfin	id=53	0	ROOT	_	_
+
+1	alolargode	a~lo~largo~de	SCENE	SCENE	id=54	0	ROOT	_	_
+
+1	la	el	ART	ART	id=55	0	ROOT	_	_
+
+1	fila	fila	NC	NC	id=56	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=57	0	ROOT	_	_
+
+1	hombres	hombre	NC	NC	id=58	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=59	0	ROOT	_	_
+
+1	traje	traje	NC	NC	id=60	0	ROOT	_	_
+
+1	.	.	FS	FS	id=61	0	ROOT	_	_
+
+1	Es	ser	VSfin	VSfin	id=62	0	ROOT	_	_
+
+1	definitivamente	definitivamente	ADV	ADV	id=63	0	ROOT	_	_
+
+1	un	un	ART	ART	id=64	0	ROOT	_	_
+
+1	bar	bar	NC	NC	id=65	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=66	0	ROOT	_	_
+
+1	prostitutas	prostituta	NC	NC	id=67	0	ROOT	_	_
+
+1	.	.	FS	FS	id=68	0	ROOT	_	_
+
+1	Las	el	ART	ART	id=69	0	ROOT	_	_
+
+1	paredes	pared	NC	NC	id=70	0	ROOT	_	_
+
+1	están	<unknown>	ADV	ADV	id=71	0	ROOT	_	_
+
+1	adornadas	<unknown>	VLadj	VLadj	id=72	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=73	0	ROOT	_	_
+
+1	espejos	espejo	NC	NC	id=74	0	ROOT	_	_
+
+1	y	y	CC	CC	id=75	0	ROOT	_	_
+
+1	publicidades	<unknown>	NC	NC	id=76	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=77	0	ROOT	_	_
+
+1	Coca-cola	<unknown>	NP	NP	id=78	0	ROOT	_	_
+
+1	.	.	FS	FS	id=79	0	ROOT	_	_
+
+1	Recuerdo	recordar	VLfin	VLfin	id=80	0	ROOT	_	_
+
+1	una	un	ART	ART	id=81	0	ROOT	_	_
+
+1	leyenda	leyenda	NC	NC	id=82	0	ROOT	_	_
+
+1	urbana	urbano	ADJ	ADJ	id=83	0	ROOT	_	_
+
+1	diciendo	decir	VLadj	VLadj	id=84	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=85	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=86	0	ROOT	_	_
+
+1	Checoslovaquia	Checoslovaquia	NP	NP	id=87	0	ROOT	_	_
+
+1	se	se	SE	SE	id=88	0	ROOT	_	_
+
+1	podía	<unknown>	VLfin	VLfin	id=89	0	ROOT	_	_
+
+1	comprar	comprar	VLinf	VLinf	id=90	0	ROOT	_	_
+
+1	una	un	ART	ART	id=91	0	ROOT	_	_
+
+1	prostituta	prostituta	NC	NC	id=92	0	ROOT	_	_
+
+1	por	por	SCENE	SCENE	id=93	0	ROOT	_	_
+
+1	una	un	ART	ART	id=94	0	ROOT	_	_
+
+1	pastilla	pasta|pastilla	NC	NC	id=95	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=96	0	ROOT	_	_
+
+1	jabón	<unknown>	NC	NC	id=97	0	ROOT	_	_
+
+1	.	.	FS	FS	id=98	0	ROOT	_	_
+
+1	Una	un	ART	ART	id=99	0	ROOT	_	_
+
+1	historia	historia	NC	NC	id=100	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=101	0	ROOT	_	_
+
+1	relata	relatar	VLfin	VLfin	id=102	0	ROOT	_	_
+
+1	sobre	sobre	SCENE	SCENE	id=103	0	ROOT	_	_
+
+1	la	el	ART	ART	id=104	0	ROOT	_	_
+
+1	pobreza	pobreza	NC	NC	id=105	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=106	0	ROOT	_	_
+
+1	también	<unknown>	VLfin	VLfin	id=107	0	ROOT	_	_
+
+1	hoy	hoy	ADV	ADV	id=108	0	ROOT	_	_
+
+1	es	ser	VSfin	VSfin	id=109	0	ROOT	_	_
+
+1	la	el	ART	ART	id=110	0	ROOT	_	_
+
+1	realidad	realidad	NC	NC	id=111	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=112	0	ROOT	_	_
+
+1	mucha	mucho	ADJ	ADJ	id=113	0	ROOT	_	_
+
+1	gente	gente	NC	NC	id=114	0	ROOT	_	_
+
+1	.	.	FS	FS	id=115	0	ROOT	_	_
+
+1	Observo	observar	VLfin	VLfin	id=116	0	ROOT	_	_
+
+1	una	un	ART	ART	id=117	0	ROOT	_	_
+
+1	bella	bello	ADJ	ADJ	id=118	0	ROOT	_	_
+
+1	prostituta	prostituta	NC	NC	id=119	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=120	0	ROOT	_	_
+
+1	cabello	cabello	NC	NC	id=121	0	ROOT	_	_
+
+1	oscuro	oscuro	ADJ	ADJ	id=122	0	ROOT	_	_
+
+1	y	y	CC	CC	id=123	0	ROOT	_	_
+
+1	un	un	ART	ART	id=124	0	ROOT	_	_
+
+1	cuerpo	cuerpo	NC	NC	id=125	0	ROOT	_	_
+
+1	tierno	tierno	ADJ	ADJ	id=126	0	ROOT	_	_
+
+1	y	y	CC	CC	id=127	0	ROOT	_	_
+
+1	suave	suave	ADJ	ADJ	id=128	0	ROOT	_	_
+
+1	.	.	FS	FS	id=129	0	ROOT	_	_
+
+1	Me	yo	PPX	PPX	id=130	0	ROOT	_	_
+
+1	gustaría	<unknown>	VLfin	VLfin	id=131	0	ROOT	_	_
+
+1	enjabonarla	<unknown>	VLinf	VLinf	id=132	0	ROOT	_	_
+
+1	,	,	CM	CM	id=133	0	ROOT	_	_
+
+1	pero	pero	CCAD	CCAD	id=134	0	ROOT	_	_
+
+1	descubro	<unknown>	VLfin	VLfin	id=135	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=136	0	ROOT	_	_
+
+1	los	el	ART	ART	id=137	0	ROOT	_	_
+
+1	dos	dos	CARD	CARD	id=138	0	ROOT	_	_
+
+1	hombres	hombre	NC	NC	id=139	0	ROOT	_	_
+
+1	grandotes	<unknown>	ADJ	ADJ	id=140	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=141	0	ROOT	_	_
+
+1	cuidan	cuidar	VLfin	VLfin	id=142	0	ROOT	_	_
+
+1	la	el	ART	ART	id=143	0	ROOT	_	_
+
+1	entrada	entrada	NC	NC	id=144	0	ROOT	_	_
+
+1	y	y	CC	CC	id=145	0	ROOT	_	_
+
+1	sé	<unknown>	VLfin	VLfin	id=146	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=147	0	ROOT	_	_
+
+1	me	yo	PPX	PPX	id=148	0	ROOT	_	_
+
+1	sacarán	<unknown>	VLfin	VLfin	id=149	0	ROOT	_	_
+
+1	hasta	hasta	SCENE	SCENE	id=150	0	ROOT	_	_
+
+1	la	el	ART	ART	id=151	0	ROOT	_	_
+
+1	última	<unknown>	ADJ	ADJ	id=152	0	ROOT	_	_
+
+1	moneda	moneda	NC	NC	id=153	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=154	0	ROOT	_	_
+
+1	poseo	<unknown>	VLfin	VLfin	id=155	0	ROOT	_	_
+
+1	.	.	FS	FS	id=156	0	ROOT	_	_
+
+1	Bebemos	beber	VLfin	VLfin	id=157	0	ROOT	_	_
+
+1	un	un	ART	ART	id=158	0	ROOT	_	_
+
+1	ginebra	ginebra	NC	NC	id=159	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=160	0	ROOT	_	_
+
+1	jugo	jugo	NC	NC	id=161	0	ROOT	_	_
+
+1	y	y	CC	CC	id=162	0	ROOT	_	_
+
+1	desaparecemos	<unknown>	VLfin	VLfin	id=163	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=164	0	ROOT	_	_
+
+1	un	un	ART	ART	id=165	0	ROOT	_	_
+
+1	taxi	taxi	NC	NC	id=166	0	ROOT	_	_
+
+1	hasta	hasta	SCENE	SCENE	id=167	0	ROOT	_	_
+
+1	el	el	ART	ART	id=168	0	ROOT	_	_
+
+1	próximo	<unknown>	ADJ	ADJ	id=169	0	ROOT	_	_
+
+1	bar-	<unknown>	NC	NC	id=170	0	ROOT	_	_
+

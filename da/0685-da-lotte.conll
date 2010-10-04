@@ -46,7 +46,7 @@
 5	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=89	4	dobj	_	_
 6	voldsomme	voldsom	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=90	5	attr	_	_
 7	stigning	stigning	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=91	5	nobj	_	_
-8	i	i	SP	SP	id=92	7	pobj.subj	_	_
+8	i	i	SP	SP	id=92	0	ROOT	_	_
 9	antallet	antal	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=93	8	nobj	_	_
 10	af	af	SP	SP	id=94	9	pobj	_	_
 11	narkodødsfald	narkodødsfald	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=95	10	nobj	_	_
@@ -74,7 +74,7 @@
 33	havde	have	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=117	29	vobj	_	_
 34	været	være	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=118	33	vobj	_	_
 35	misbrugere	misbruger	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=119	34	preds	_	_
-36	af	af	SP	SP	id=120	35	pobj.dobj	_	_
+36	af	af	SP	SP	id=120	0	ROOT	_	_
 37	euforiserende	euforiserende	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=121	38	attr	_	_
 38	stoffer	stof	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=122	36	nobj	_	_
 39	,	,	XP	XP	id=123	33	pnct	_	_

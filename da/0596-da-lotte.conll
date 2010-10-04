@@ -85,7 +85,7 @@
 26	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=130	33	subj	_	_
 27	hurtig	hurtig	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=131	26	attr	_	_
 28	forøgelse	forøgelse	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=132	26	nobj	_	_
-29	af	af	SP	SP	id=133	28	pobj.dobj	_	_
+29	af	af	SP	SP	id=133	0	ROOT	_	_
 30	produktionen	produktion	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=134	29	nobj	_	_
 31	krisesituation	krisesituation	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=135	0	ROOT	_	_
 32	hurtigt	hurtig	AN	ANP---=-R	degree=pos|transcat=adverbial|id=136	33	man	_	_

@@ -1,0 +1,336 @@
+1	Der	d	ART	ART	id=2	0	ROOT	_	_
+
+1	Schinken	Schinken	NN	NN	id=3	0	ROOT	_	_
+
+1	,	,	$,	$,	id=4	0	ROOT	_	_
+
+1	der	d	PRELS	PRELS	id=5	0	ROOT	_	_
+
+1	für	für	APPR	APPR	id=6	0	ROOT	_	_
+
+1	das	d	ART	ART	id=7	0	ROOT	_	_
+
+1	Gericht	Gericht	NN	NN	id=8	0	ROOT	_	_
+
+1	verwendet	verwenden	VVPP	VVPP	id=9	0	ROOT	_	_
+
+1	wird	werden	VAFIN	VAFIN	id=10	0	ROOT	_	_
+
+1	,	,	$,	$,	id=11	0	ROOT	_	_
+
+1	darf	dürfen	VMFIN	VMFIN	id=12	0	ROOT	_	_
+
+1	nicht	nicht	PTKNEG	PTKNEG	id=13	0	ROOT	_	_
+
+1	zu	zu	PTKA	PTKA	id=14	0	ROOT	_	_
+
+1	salzig	salzig	ADJD	ADJD	id=15	0	ROOT	_	_
+
+1	sein	sein	VAINF	VAINF	id=16	0	ROOT	_	_
+
+1	.	.	$.	$.	id=17	0	ROOT	_	_
+
+1	Die	d	ART	ART	id=18	0	ROOT	_	_
+
+1	dünnen	dünn	ADJA	ADJA	id=19	0	ROOT	_	_
+
+1	Scheiben	Scheibe	NN	NN	id=20	0	ROOT	_	_
+
+1	,	,	$,	$,	id=21	0	ROOT	_	_
+
+1	die	d	PRELS	PRELS	id=22	0	ROOT	_	_
+
+1	fertig	fertig	ADJD	ADJD	id=23	0	ROOT	_	_
+
+1	abgepackt	abpacken	VVPP	VVPP	id=24	0	ROOT	_	_
+
+1	in	in	APPR	APPR	id=25	0	ROOT	_	_
+
+1	den	d	ART	ART	id=26	0	ROOT	_	_
+
+1	Kühlregalen	Kühlregal	NN	NN	id=27	0	ROOT	_	_
+
+1	liegen	liegen	VVFIN	VVFIN	id=28	0	ROOT	_	_
+
+1	,	,	$,	$,	id=29	0	ROOT	_	_
+
+1	kann	können	VMFIN	VMFIN	id=30	0	ROOT	_	_
+
+1	man	man	PIS	PIS	id=31	0	ROOT	_	_
+
+1	nicht	nicht	PTKNEG	PTKNEG	id=32	0	ROOT	_	_
+
+1	verwenden	verwenden	VVINF	VVINF	id=33	0	ROOT	_	_
+
+1	.	.	$.	$.	id=34	0	ROOT	_	_
+
+1	Sie	Sie|sie	PPER	PPER	id=35	0	ROOT	_	_
+
+1	sind	sein	VAFIN	VAFIN	id=36	0	ROOT	_	_
+
+1	zu	zu	PTKA	PTKA	id=37	0	ROOT	_	_
+
+1	salzig	salzig	ADJD	ADJD	id=38	0	ROOT	_	_
+
+1	und	und	KON	KON	id=39	0	ROOT	_	_
+
+1	zu	zu	PTKA	PTKA	id=40	0	ROOT	_	_
+
+1	nass	naß	ADJD	ADJD	id=41	0	ROOT	_	_
+
+1	und	und	KON	KON	id=42	0	ROOT	_	_
+
+1	geschmacklich	geschmacklich	ADJD	ADJD	id=43	0	ROOT	_	_
+
+1	nicht	nicht	PTKNEG	PTKNEG	id=44	0	ROOT	_	_
+
+1	gut	gut	ADJD	ADJD	id=45	0	ROOT	_	_
+
+1	genug	genug	ADV	ADV	id=46	0	ROOT	_	_
+
+1	.	.	$.	$.	id=47	0	ROOT	_	_
+
+1	Eine	ein	ART	ART	id=52	0	ROOT	_	_
+
+1	ofenfeste	<unknown>	ADJA	ADJA	id=53	0	ROOT	_	_
+
+1	Form	Form	NN	NN	id=54	0	ROOT	_	_
+
+1	fetten	fetten	VVINF	VVINF	id=55	0	ROOT	_	_
+
+1	,	,	$,	$,	id=56	0	ROOT	_	_
+
+1	die	d	PRELS	PRELS	id=57	0	ROOT	_	_
+
+1	von	von	APPR	APPR	id=58	0	ROOT	_	_
+
+1	der	d	ART	ART	id=59	0	ROOT	_	_
+
+1	Größe	Größe	NN	NN	id=60	0	ROOT	_	_
+
+1	einigermaßen	einigermaßen	ADV	ADV	id=61	0	ROOT	_	_
+
+1	passt	passen	VVFIN	VVFIN	id=62	0	ROOT	_	_
+
+1	,	,	$,	$,	id=63	0	ROOT	_	_
+
+1	so	so	ADV	ADV	id=64	0	ROOT	_	_
+
+1	dass	dass	KOUS	KOUS	id=65	0	ROOT	_	_
+
+1	jede	jed	PIDAT	PIDAT	id=66	0	ROOT	_	_
+
+1	Scheibe	Scheibe	NN	NN	id=67	0	ROOT	_	_
+
+1	einmal	einmal	ADV	ADV	id=68	0	ROOT	_	_
+
+1	zusammen	zusammen	ADV	ADV	id=69	0	ROOT	_	_
+
+1	geklappt	klappen	VVPP	VVPP	id=70	0	ROOT	_	_
+
+1	überlappend	überlappend	ADJD	ADJD	id=71	0	ROOT	_	_
+
+1	in	in	APPR	APPR	id=72	0	ROOT	_	_
+
+1	die	d	ART	ART	id=73	0	ROOT	_	_
+
+1	Form	Form	NN	NN	id=74	0	ROOT	_	_
+
+1	gelegt	legen	VVPP	VVPP	id=75	0	ROOT	_	_
+
+1	wird	werden	VAFIN	VAFIN	id=76	0	ROOT	_	_
+
+1	.	.	$.	$.	id=77	0	ROOT	_	_
+
+1	Die	d	ART	ART	id=82	0	ROOT	_	_
+
+1	Sauce	Sauce	NN	NN	id=83	0	ROOT	_	_
+
+1	kann	können	VMFIN	VMFIN	id=84	0	ROOT	_	_
+
+1	rechtzeitig	rechtzeitig	ADJD	ADJD	id=85	0	ROOT	_	_
+
+1	im	im	APPRART	APPRART	id=86	0	ROOT	_	_
+
+1	Voraus	<unknown>	NN	NN	id=87	0	ROOT	_	_
+
+1	zubereitet	zubereiten	VVPP	VVPP	id=88	0	ROOT	_	_
+
+1	werden	werden	VAINF	VAINF	id=89	0	ROOT	_	_
+
+1	.	.	$.	$.	id=90	0	ROOT	_	_
+
+1	Die	d	ART	ART	id=95	0	ROOT	_	_
+
+1	gesäuberte	gesäubert	ADJA	ADJA	id=96	0	ROOT	_	_
+
+1	Zwiebel	Zwiebel	NN	NN	id=97	0	ROOT	_	_
+
+1	einmal	einmal	ADV	ADV	id=98	0	ROOT	_	_
+
+1	durchschneiden	durchschneiden	VVINF	VVINF	id=99	0	ROOT	_	_
+
+1	und	und	KON	KON	id=100	0	ROOT	_	_
+
+1	dann	dann	ADV	ADV	id=101	0	ROOT	_	_
+
+1	quer	quer	ADJD	ADJD	id=102	0	ROOT	_	_
+
+1	in	in	APPR	APPR	id=103	0	ROOT	_	_
+
+1	kleinere	klein	ADJA	ADJA	id=104	0	ROOT	_	_
+
+1	Stücke	Stück	NN	NN	id=105	0	ROOT	_	_
+
+1	schneiden	schneiden	VVFIN	VVFIN	id=106	0	ROOT	_	_
+
+1	.	.	$.	$.	id=107	0	ROOT	_	_
+
+1	Ein	ein	ART	ART	id=108	0	ROOT	_	_
+
+1	Bisschen	Bißchen	NN	NN	id=109	0	ROOT	_	_
+
+1	Zwiebelgrün	<unknown>	NN	NN	id=110	0	ROOT	_	_
+
+1	mitnehmen	mitnehmen	VVFIN	VVFIN	id=111	0	ROOT	_	_
+
+1	.	.	$.	$.	id=112	0	ROOT	_	_
+
+1	25	25	CARD	CARD	id=117	0	ROOT	_	_
+
+1	g	g	NN	NN	id=118	0	ROOT	_	_
+
+1	Butter	Butter	NN	NN	id=119	0	ROOT	_	_
+
+1	und	und	KON	KON	id=120	0	ROOT	_	_
+
+1	Traubenkernöl	Traubenkernöl	NN	NN	id=121	0	ROOT	_	_
+
+1	in	in	APPR	APPR	id=122	0	ROOT	_	_
+
+1	einer	ein	ART	ART	id=123	0	ROOT	_	_
+
+1	großen	groß	ADJA	ADJA	id=124	0	ROOT	_	_
+
+1	Pfanne	Pfanne	NN	NN	id=125	0	ROOT	_	_
+
+1	gut	gut	ADJD	ADJD	id=126	0	ROOT	_	_
+
+1	erhitzen	erhitzen	VVFIN	VVFIN	id=127	0	ROOT	_	_
+
+1	.	.	$.	$.	id=128	0	ROOT	_	_
+
+1	Die	d	ART	ART	id=129	0	ROOT	_	_
+
+1	Zwiebelstücke	<unknown>	NN	NN	id=130	0	ROOT	_	_
+
+1	leicht	leicht	ADJD	ADJD	id=131	0	ROOT	_	_
+
+1	anbraten	anbraten	VVFIN	VVFIN	id=132	0	ROOT	_	_
+
+1	,	,	$,	$,	id=133	0	ROOT	_	_
+
+1	bis	bis	KOUS	KOUS	id=134	0	ROOT	_	_
+
+1	sie	sie	PPER	PPER	id=135	0	ROOT	_	_
+
+1	etwas	etwas	PIAT	PIAT	id=136	0	ROOT	_	_
+
+1	Farbe	Farbe	NN	NN	id=137	0	ROOT	_	_
+
+1	annehmen	annehmen	VVFIN	VVFIN	id=138	0	ROOT	_	_
+
+1	.	.	$.	$.	id=139	0	ROOT	_	_
+
+1	Portwein	Portwein	NN	NN	id=140	0	ROOT	_	_
+
+1	in	in	APPR	APPR	id=141	0	ROOT	_	_
+
+1	die	d	ART	ART	id=142	0	ROOT	_	_
+
+1	Pfanne	Pfanne	NN	NN	id=143	0	ROOT	_	_
+
+1	gießen	gießen	VVINF	VVINF	id=144	0	ROOT	_	_
+
+1	und	und	KON	KON	id=145	0	ROOT	_	_
+
+1	umrühren	umrühren	VVFIN	VVFIN	id=146	0	ROOT	_	_
+
+1	.	.	$.	$.	id=147	0	ROOT	_	_
+
+1	Einige	einige	PIAT	PIAT	id=148	0	ROOT	_	_
+
+1	Minuten	Minute	NN	NN	id=149	0	ROOT	_	_
+
+1	verdampfen	verdampfen	VVINF	VVINF	id=150	0	ROOT	_	_
+
+1	lassen	lassen	VVFIN	VVFIN	id=151	0	ROOT	_	_
+
+1	.	.	$.	$.	id=152	0	ROOT	_	_
+
+1	Tomatenpüree	Tomatenpüree	NN	NN	id=157	0	ROOT	_	_
+
+1	und	und	KON	KON	id=158	0	ROOT	_	_
+
+1	Senf	Senf	NN	NN	id=159	0	ROOT	_	_
+
+1	in	in	APPR	APPR	id=160	0	ROOT	_	_
+
+1	einer	ein	ART	ART	id=161	0	ROOT	_	_
+
+1	Schale	Schale	NN	NN	id=162	0	ROOT	_	_
+
+1	mit	mit	APPR	APPR	id=163	0	ROOT	_	_
+
+1	1	1	CARD	CARD	id=164	0	ROOT	_	_
+
+1	dl	<unknown>	NN	NN	id=165	0	ROOT	_	_
+
+1	Sahne	Sahne	NN	NN	id=166	0	ROOT	_	_
+
+1	mischen	mischen	VVFIN	VVFIN	id=167	0	ROOT	_	_
+
+1	.	.	$.	$.	id=168	0	ROOT	_	_
+
+1	Die	d	ART	ART	id=169	0	ROOT	_	_
+
+1	Mischung	Mischung	NN	NN	id=170	0	ROOT	_	_
+
+1	in	in	APPR	APPR	id=171	0	ROOT	_	_
+
+1	die	d	ART	ART	id=172	0	ROOT	_	_
+
+1	Pfanne	Pfanne	NN	NN	id=173	0	ROOT	_	_
+
+1	gießen	gießen	VVINF	VVINF	id=174	0	ROOT	_	_
+
+1	und	und	KON	KON	id=175	0	ROOT	_	_
+
+1	umrühren	umrühren	VVFIN	VVFIN	id=176	0	ROOT	_	_
+
+1	.	.	$.	$.	id=177	0	ROOT	_	_
+
+1	Die	d	ART	ART	id=178	0	ROOT	_	_
+
+1	restliche	restlich	ADJA	ADJA	id=179	0	ROOT	_	_
+
+1	Sahne	Sahne	NN	NN	id=180	0	ROOT	_	_
+
+1	dazu	dazu	PAV	PAV	id=181	0	ROOT	_	_
+
+1	gießen	gießen	VVINF	VVINF	id=182	0	ROOT	_	_
+
+1	und	und	KON	KON	id=183	0	ROOT	_	_
+
+1	die	d	ART	ART	id=184	0	ROOT	_	_
+
+1	Sauce	Sauce	NN	NN	id=185	0	ROOT	_	_
+
+1	etwas	etwas	ADV	ADV	id=186	0	ROOT	_	_
+
+1	einkochen	einkochen	VVINF	VVINF	id=187	0	ROOT	_	_
+
+1	lassen	lassen	VVFIN	VVFIN	id=188	0	ROOT	_	_
+
+1	.	.	$.	$.	id=189	0	ROOT	_	_
+

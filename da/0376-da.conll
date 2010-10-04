@@ -153,7 +153,7 @@
 2	bliver	blive	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=216	0	ROOT	_	_
 3	ikke	ikke	RG	RGU	degree=unmarked|id=217	2	neg	_	_
 4	tale	tale	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=218	2	dobj	_	_
-5	om	om	SP	SP	id=219	4	pobj.pobj	_	_
+5	om	om	SP	SP	id=219	0	ROOT	_	_
 6	at	at	U	U=	id=220	5	nobj	_	_
 7	vente	vente	VA	VAF-=----A-	mood=infin|voice=active|id=221	6	vobj	_	_
 8	på	på	SP	SP	id=222	7	pobj	_	_

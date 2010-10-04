@@ -196,7 +196,7 @@
 3	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=260	26	qobj	_	_
 4	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=261	3	preds	_	_
 5	nivellering	nivellering	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=262	4	nobj	_	_
-6	af	af	SP	SP	id=263	5	pobj.dobj	_	_
+6	af	af	SP	SP	id=263	0	ROOT	_	_
 7	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=264	6	nobj	_	_
 8	forskellige	forskellig	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=265	7	attr	_	_
 9	europæiske	europæisk	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=266	7	attr	_	_

@@ -27,7 +27,7 @@
 6	selv	selv	RG	RGU	degree=unmarked|id=74	7	focal	_	_
 7	lettere	let	AN	ANC[CN][SP]U=[DI]U	degree=comp|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=75	4	modp	_	_
 8	,	,	XP	XP	id=76	7	pnct	_	_
-9	af	af	SP	SP	id=77	4	modr	_	_
+9	af	af	SP	SP	id=77	0	ROOT	_	_
 10	mere	meget	AN	ANC[CN]SU=IU	degree=comp|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=78	9	aobj	_	_
 11	end	end	CS	CS	id=79	10	pobj	_	_
 12	få	få	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=80	11	nobj	_	_

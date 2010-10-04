@@ -7,7 +7,7 @@
 7	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=49	6	nobj	_	_
 8	dramatiske	dramatisk	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=50	7	attr	_	_
 9	nedkæmpning	nedkæmpning	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=51	7	nobj	_	_
-10	af	af	SP	SP	id=52	9	pobj.dobj	_	_
+10	af	af	SP	SP	id=52	0	ROOT	_	_
 11	det	den	PD	PD-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=53	10	nobj	_	_
 12	pro-demokratiske	pro-demokratisk	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=54	21	man	_	_
 13	studenteroprør	studenteroprør	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=55	11	nobj	_	_

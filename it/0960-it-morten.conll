@@ -1,0 +1,436 @@
+1	E'	<unknown>	NOM	NOM	id=0	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=1	0	ROOT	_	_
+
+1	potere	potere	NOM	NOM	id=2	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=3	0	ROOT	_	_
+
+1	popolo	popolo	NOM	NOM	id=4	0	ROOT	_	_
+
+1	,	,	PON	PON	id=5	0	ROOT	_	_
+
+1	costituito	costituire	VER:pper	VER:pper	id=6	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=7	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=8	0	ROOT	_	_
+
+1	certo	certo	ADJ	ADJ	id=9	0	ROOT	_	_
+
+1	numero	numero	NOM	NOM	id=10	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=11	0	ROOT	_	_
+
+1	voti	voto	NOM	NOM	id=12	0	ROOT	_	_
+
+1	individuali	individuale	ADJ	ADJ	id=13	0	ROOT	_	_
+
+1	,	,	PON	PON	id=14	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=15	0	ROOT	_	_
+
+1	prende	prendere	VER:pres	VER:pres	id=16	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=17	0	ROOT	_	_
+
+1	decisioni	decisione	NOM	NOM	id=18	0	ROOT	_	_
+
+1	collettivamente	collettivamente	ADV	ADV	id=19	0	ROOT	_	_
+
+1	e	e	CON	CON	id=20	0	ROOT	_	_
+
+1	quindi	quindi	ADV	ADV	id=21	0	ROOT	_	_
+
+1	esercita	esercitare	VER:pres	VER:pres	id=22	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=23	0	ROOT	_	_
+
+1	autorità	autorità	NOM	NOM	id=24	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=25	0	ROOT	_	_
+
+1	Questo	questo	PRO:demo	PRO:demo	id=26	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=27	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=28	0	ROOT	_	_
+
+1	ideale	ideale	NOM	NOM	id=29	0	ROOT	_	_
+
+1	democratico	democratico	ADJ	ADJ	id=30	0	ROOT	_	_
+
+1	,	,	PON	PON	id=31	0	ROOT	_	_
+
+1	ma	ma	CON	CON	id=32	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=33	0	ROOT	_	_
+
+1	mio	mio	PRO:poss	PRO:poss	id=34	0	ROOT	_	_
+
+1	parere	parere	NOM	NOM	id=35	0	ROOT	_	_
+
+1	invece	invece	ADV	ADV	id=36	0	ROOT	_	_
+
+1	,	,	PON	PON	id=37	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=38	0	ROOT	_	_
+
+1	maggior	maggiore	ADJ	ADJ	id=39	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=40	0	ROOT	_	_
+
+1	degli	del	PRE:det	PRE:det	id=41	0	ROOT	_	_
+
+1	elettori	elettore	NOM	NOM	id=42	0	ROOT	_	_
+
+1	(	(	PON	PON	id=43	0	ROOT	_	_
+
+1	tranne	tranne	PRE	PRE	id=44	0	ROOT	_	_
+
+1	Uffe	<unknown>	NOM	NOM	id=45	0	ROOT	_	_
+
+1	Ellemann	<unknown>	NOM	NOM	id=46	0	ROOT	_	_
+
+1	)	)	PON	PON	id=47	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=48	0	ROOT	_	_
+
+1	sente	sentire	VER:pres	VER:pres	id=49	0	ROOT	_	_
+
+1	impotente	impotente	ADJ	ADJ	id=50	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=51	0	ROOT	_	_
+
+1	momento	momento	NOM	NOM	id=52	0	ROOT	_	_
+
+1	decisionale	decisionale	ADJ	ADJ	id=53	0	ROOT	_	_
+
+1	,	,	PON	PON	id=54	0	ROOT	_	_
+
+1	come	come	CON	CON	id=55	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=56	0	ROOT	_	_
+
+1	caso	caso	NOM	NOM	id=57	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=58	0	ROOT	_	_
+
+1	voto	voto	NOM	NOM	id=59	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=60	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=61	0	ROOT	_	_
+
+1	Comunità	comunità	NOM	NOM	id=62	0	ROOT	_	_
+
+1	Europea	europeo	ADJ	ADJ	id=63	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=64	0	ROOT	_	_
+
+1	In	in	PRE	PRE	id=65	0	ROOT	_	_
+
+1	effetti	effetto	NOM	NOM	id=66	0	ROOT	_	_
+
+1	,	,	PON	PON	id=67	0	ROOT	_	_
+
+1	chi	chi	PRO:rela	PRO:rela	id=68	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=69	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=70	0	ROOT	_	_
+
+1	grado	grado	NOM	NOM	id=71	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=72	0	ROOT	_	_
+
+1	capirci	capire	VER:infi	VER:infi	id=73	0	ROOT	_	_
+
+1	realmente	realmente	ADV	ADV	id=74	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=75	0	ROOT	_	_
+
+1	trattato	trattato	NOM	NOM	id=76	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=77	0	ROOT	_	_
+
+1	Maastricht	Maastricht	NPR	NPR	id=78	0	ROOT	_	_
+
+1	e	e	CON	CON	id=79	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=80	0	ROOT	_	_
+
+1	conseguenze	conseguenza	NOM	NOM	id=81	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=82	0	ROOT	_	_
+
+1	comporta	comportare	VER:pres	VER:pres	id=83	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=84	0	ROOT	_	_
+
+1	no	no	ADV	ADV	id=85	0	ROOT	_	_
+
+1	piuttosto	piuttosto	ADV	ADV	id=86	0	ROOT	_	_
+
+1	che	che	CON	CON	id=87	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=88	0	ROOT	_	_
+
+1	sì	sì	NOM	NOM	id=89	0	ROOT	_	_
+
+1	?	?	SENT	SENT	id=90	0	ROOT	_	_
+
+1	Nessuno	nessuno	ADJ	ADJ	id=91	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=92	0	ROOT	_	_
+
+1	sente	sentire	VER:pres	VER:pres	id=93	0	ROOT	_	_
+
+1	sicuro	sicuro	ADJ	ADJ	id=94	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=95	0	ROOT	_	_
+
+1	saperne	sapere	VER:infi	VER:infi	id=96	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=97	0	ROOT	_	_
+
+1	Per	per	PRE	PRE	id=98	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=99	0	ROOT	_	_
+
+1	,	,	PON	PON	id=100	0	ROOT	_	_
+
+1	ecco	ecco	ADV	ADV	id=101	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=102	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=103	0	ROOT	_	_
+
+1	mano	mano	NOM	NOM	id=104	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=105	0	ROOT	_	_
+
+1	impugna	impugnare	VER:pres	VER:pres	id=106	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=107	0	ROOT	_	_
+
+1	matita	matita	NOM	NOM	id=108	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=109	0	ROOT	_	_
+
+1	incerta	incerto	ADJ	ADJ	id=110	0	ROOT	_	_
+
+1	,	,	PON	PON	id=111	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=112	0	ROOT	_	_
+
+1	momento	momento	NOM	NOM	id=113	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=114	0	ROOT	_	_
+
+1	voto	voto	NOM	NOM	id=115	0	ROOT	_	_
+
+1	,	,	PON	PON	id=116	0	ROOT	_	_
+
+1	e	e	CON	CON	id=117	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=118	0	ROOT	_	_
+
+1	responsabilità	responsabilità	NOM	NOM	id=119	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=120	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=121	0	ROOT	_	_
+
+1	evento	evento	NOM	NOM	id=122	0	ROOT	_	_
+
+1	storico	storico	ADJ	ADJ	id=123	0	ROOT	_	_
+
+1	,	,	PON	PON	id=124	0	ROOT	_	_
+
+1	viene	venire	VER:pres	VER:pres	id=125	0	ROOT	_	_
+
+1	ridotta	ridurre	VER:pper	VER:pper	id=126	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=127	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=128	0	ROOT	_	_
+
+1	crocetta	<unknown>	NOM	NOM	id=129	0	ROOT	_	_
+
+1	insignificante	insignificante	ADJ	ADJ	id=130	0	ROOT	_	_
+
+1	sulla	sul	PRE:det	PRE:det	id=131	0	ROOT	_	_
+
+1	scheda	scheda	NOM	NOM	id=132	0	ROOT	_	_
+
+1	elettorale	elettorale	ADJ	ADJ	id=133	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=134	0	ROOT	_	_
+
+1	L'	il	DET:def	DET:def	id=135	0	ROOT	_	_
+
+1	ideale	ideale	NOM	NOM	id=136	0	ROOT	_	_
+
+1	democratico	democratico	ADJ	ADJ	id=137	0	ROOT	_	_
+
+1	prevede	prevedere	VER:pres	VER:pres	id=138	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=139	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=140	0	ROOT	_	_
+
+1	elettori	elettore	NOM	NOM	id=141	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=142	0	ROOT	_	_
+
+1	colpo	colpo	NOM	NOM	id=143	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=144	0	ROOT	_	_
+
+1	pronunzino	pronunziare	VER:cpre	VER:cpre	id=145	0	ROOT	_	_
+
+1	su	su	PRE	PRE	id=146	0	ROOT	_	_
+
+1	fatti	fatto	NOM	NOM	id=147	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=148	0	ROOT	_	_
+
+1	portata	portata	NOM	NOM	id=149	0	ROOT	_	_
+
+1	storica	storico	ADJ	ADJ	id=150	0	ROOT	_	_
+
+1	e	e	CON	CON	id=151	0	ROOT	_	_
+
+1	collettiva	collettivo	ADJ	ADJ	id=152	0	ROOT	_	_
+
+1	;	;	PON	PON	id=153	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=154	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=155	0	ROOT	_	_
+
+1	dà	dare	VER:pres	VER:pres	id=156	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=157	0	ROOT	_	_
+
+1	impressione	impressione	NOM	NOM	id=158	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=159	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=160	0	ROOT	_	_
+
+1	grande	grande	ADJ	ADJ	id=161	0	ROOT	_	_
+
+1	potere	potere	NOM	NOM	id=162	0	ROOT	_	_
+
+1	decisionale-	<unknown>	NOM	NOM	id=163	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=164	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=165	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=166	0	ROOT	_	_
+
+1	bandiera	bandiera	NOM	NOM	id=167	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=168	0	ROOT	_	_
+
+1	Dannebro	<unknown>	NOM	NOM	id=169	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=170	0	ROOT	_	_
+
+1	issa	issare	VER:pres	VER:pres	id=171	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=172	0	ROOT	_	_
+
+1	maggior	maggiore	ADJ	ADJ	id=173	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=174	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=175	0	ROOT	_	_
+
+1	sedi	sede	NOM	NOM	id=176	0	ROOT	_	_
+
+1	elettorali	elettorale	ADJ	ADJ	id=177	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=178	0	ROOT	_	_
+
+1	Se	se	CON	CON	id=179	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=180	0	ROOT	_	_
+
+1	elettori	elettore	NOM	NOM	id=181	0	ROOT	_	_
+
+1	,	,	PON	PON	id=182	0	ROOT	_	_
+
+1	invece	invece	ADV	ADV	id=183	0	ROOT	_	_
+
+1	,	,	PON	PON	id=184	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=185	0	ROOT	_	_
+
+1	sentono	sentire	VER:pres	VER:pres	id=186	0	ROOT	_	_
+
+1	impotenti	impotente	ADJ	ADJ	id=187	0	ROOT	_	_
+
+1	,	,	PON	PON	id=188	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=189	0	ROOT	_	_
+
+1	perché	perché	ADV	ADV	id=190	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=191	0	ROOT	_	_
+
+1	realtà	realtà	NOM	NOM	id=192	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=193	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=194	0	ROOT	_	_
+
+1	storia	storia	NOM	NOM	id=195	0	ROOT	_	_
+
+1	,	,	PON	PON	id=196	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=197	0	ROOT	_	_
+
+1	progresso	progresso	NOM	NOM	id=198	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=199	0	ROOT	_	_
+
+1	guidarci	guidare	VER:infi	VER:infi	id=200	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=201	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=202	0	ROOT	_	_
+
+1	crocetta	<unknown>	NOM	NOM	id=203	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=204	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=205	0	ROOT	_	_
+
+1	sorta	sorta	NOM	NOM	id=206	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=207	0	ROOT	_	_
+
+1	illusione	illusione	NOM	NOM	id=208	0	ROOT	_	_
+
+1	,	,	PON	PON	id=209	0	ROOT	_	_
+
+1	essendo	essere	VER:geru	VER:geru	id=210	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=211	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=212	0	ROOT	_	_
+
+1	conseguenza	conseguenza	NOM	NOM	id=213	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=214	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=215	0	ROOT	_	_
+
+1	scelta	scelta	NOM	NOM	id=216	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=217	0	ROOT	_	_
+

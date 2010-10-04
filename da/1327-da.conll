@@ -84,7 +84,7 @@
 25	ned	ned	RG	RGU	degree=unmarked|id=132	21	@dir	_	_
 26	i	i	SP	SP	id=133	25	mod	_	_
 27	stuen	stue	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=134	26	nobj	_	_
-28	i	i	SP	SP	id=135	21	modo	_	_
+28	i	i	SP	SP	id=135	0	ROOT	_	_
 29	god	god	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=136	30	attr	_	_
 30	behold	behold	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=137	28	nobj	_	_
 31	,	,	XP	XP	id=138	21	pnct	_	_

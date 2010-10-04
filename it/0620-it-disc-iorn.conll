@@ -1,0 +1,184 @@
+1	"	&quot;	PON	PON	id=0	2	pnct	_	_
+2	Sentivo	sentire	VER:impf	VER:impf	id=1	14	qobj	_	_
+3	che	che	PRO:rela	PRO:rela	id=2	2	dobj	_	_
+4	le	il	DET:def	DET:def	id=3	7	subj	_	_
+5	cose	cosa	NOM	NOM	id=4	4	nobj	_	_
+6	non	non	ADV	ADV	id=5	7	neg	_	_
+7	erano	essere	VER:impf	VER:impf	id=6	3	vobj	_	_
+8	come	come	PRO:inter	PRO:inter	id=7	7	preds	_	_
+9	avrebbero	avere	VER:cond	VER:cond	id=8	8	vobj	_	_
+10	dovuto	dovere	VER:pper	VER:pper	id=9	9	vobj	_	_
+11	essere	essere	VER:infi	VER:infi	id=10	10	vobj	_	_
+12	"	&quot;	PON	PON	id=11	2	pnct	_	_
+13	,	,	PON	PON	id=12	2	pnct	_	_
+14	continuò	continuare	VER:remo	VER:remo	id=13	0	ROOT	_	_
+15	lui	lui	PRO:pers	PRO:pers	id=14	14	subj	_	_
+16	,	,	PON	PON	id=15	14	pnct	_	_
+17	"	&quot;	PON	PON	id=16	18	pnct	_	_
+18	perciò	perciò	ADV	ADV	id=17	2	cons	_	_
+19	cercai	cercare	VER:remo	VER:remo	id=18	18	vobj	_	_
+20	il	il	DET:def	DET:def	id=19	19	dobj	_	_
+21	portiere	portiere	NOM	NOM	id=20	20	nobj	_	_
+22	che	che	PRO:rela	PRO:rela	id=21	24	subj	_	_
+23	giustamente	giustamente	ADV	ADV	id=22	24	prg	_	_
+24	aveva	avere	VER:impf	VER:impf	id=23	21	relr	_	_
+25	visto	vedere	VER:pper	VER:pper	id=24	24	vobj	_	_
+26	un	un	DET:indef	DET:indef	id=25	25	dobj	_	_
+27	uomo	uomo	NOM	NOM	id=26	26	nobj	_	_
+28	introdursi	introdurre	VER:infi	VER:infi	id=27	25	vobj	_	_
+29	nell'	nel	PRE:det	PRE:det	id=28	0	ROOT	_	_
+30	appartamento	appartamento	NOM	NOM	id=29	29	nobj	_	_
+31	"	&quot;	PON	PON	id=30	18	pnct	_	_
+32	.	.	SENT	SENT	id=31	14	pnct	_	_
+
+1	"	&quot;	PON	PON	id=32	4	pnct	_	_
+2	Ma	ma	CON	CON	id=33	4	discmark	_	_
+3	dove	dove	ADV	ADV	id=34	0	ROOT	_	_
+4	andrà	andare	VER:futu	VER:futu	id=35	7	qobj	_	_
+5	?	?	SENT	SENT	id=36	4	pnct	_	_
+6	"	&quot;	PON	PON	id=37	4	pnct	_	_
+7	chiese	chiedere	VER:remo	VER:remo	id=38	0	ROOT	_	_
+8	lei	lei	PRO:pers	PRO:pers	id=39	7	subj	_	_
+9	pensierosa	pensieroso	ADJ	ADJ	id=40	8	fpreds	_	_
+10	.	.	SENT	SENT	id=41	7	pnct	_	_
+
+1	Flemming	<unknown>	NOM	NOM	id=42	2	subj	_	_
+2	alzò	alzare	VER:remo	VER:remo	id=43	0	ROOT	_	_
+3	le	il	DET:def	DET:def	id=44	2	dobj	_	_
+4	spalle	spalla	NOM	NOM	id=45	3	nobj	_	_
+5	.	.	SENT	SENT	id=46	2	pnct	_	_
+
+1	"	&quot;	PON	PON	id=47	3	pnct	_	_
+2	Presto	presto	ADV	ADV	id=48	3	time	_	_
+3	sarà	essere	VER:futu	VER:futu	id=49	7	qobj	_	_
+4	arrestato	arrestare	VER:pper	VER:pper	id=50	3	vobj	_	_
+5	"	&quot;	PON	PON	id=51	3	pnct	_	_
+6	,	,	PON	PON	id=52	3	pnct	_	_
+7	rispose	rispondere	VER:remo	VER:remo	id=53	0	ROOT	_	_
+8	lui	lui	PRO:pers	PRO:pers	id=54	7	subj	_	_
+9	convinto	convincere	VER:pper	VER:pper	id=55	8	fpreds	_	_
+10	,	,	PON	PON	id=56	7	pnct	_	_
+11	"	&quot;	PON	PON	id=57	14	pnct	_	_
+12	e	e	CON	CON	id=58	14	coord	_	_
+13	sicuramente	sicuramente	ADV	ADV	id=59	14	prg	_	_
+14	sarebbe	essere	VER:cond	VER:cond	id=60	3	conj	_	_
+15	la	il	DET:def	DET:def	id=61	14	preds	_	_
+16	cosa	cosa	NOM	NOM	id=62	15	nobj	_	_
+17	migliore	migliore	ADJ	ADJ	id=63	16	attr	_	_
+18	per	per	PRE	PRE	id=64	14	goal	_	_
+19	lui	lui	PRO:pers	PRO:pers	id=65	18	nobj	_	_
+20	.	.	SENT	SENT	id=66	14	pnct	_	_
+
+1	Dimentichiamolo	dimenticare	VER:impe	VER:impe	id=67	0	ROOT	_	_
+
+1	adesso	adesso	ADV	ADV	id=68	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=69	0	ROOT	_	_
+
+1	C'	c'	PRO:demo	PRO:demo	id=70	2	expl	_	_
+2	è	essere	VER:pres	VER:pres	id=71	0	ROOT	_	_
+3	una	una	DET:indef	DET:indef	id=72	2	subj	_	_
+4	cosa	cosa	NOM	NOM	id=73	3	nobj	_	_
+5	che	che	PRO:rela	PRO:rela	id=74	8	dobj	_	_
+6	ti	ti	PRO:pers	PRO:pers	id=75	8	iobj	_	_
+7	vorrei	volere	VER:cond	VER:cond	id=76	4	relr	_	_
+8	chiedere	chiedere	VER:infi	VER:infi	id=77	7	vobj	_	_
+9	.	.	SENT	SENT	id=78	2	pnct	_	_
+10	"	&quot;	PON	PON	id=79	2	pnct	_	_
+
+1	"	&quot;	PON	PON	id=80	2	pnct	_	_
+2	Sì	sì	ADV	ADV	id=81	0	ROOT	_	_
+3	?	?	SENT	SENT	id=82	2	pnct	_	_
+4	"	&quot;	PON	PON	id=83	2	pnct	_	_
+
+1	"	&quot;	PON	PON	id=84	3	pnct	_	_
+2	Lo	lo	PRO:pers	PRO:pers	id=85	3	dobj	_	_
+3	so	sapere	VER:pres	VER:pres	id=86	0	ROOT	_	_
+4	che	che	CON	CON	id=87	3	xtop	_	_
+5	non	non	ADV	ADV	id=88	7	neg	_	_
+6	ci	ci	PRO:refl	PRO:refl	id=89	7	dobj	_	_
+7	conosciamo	conoscere	VER:cpre	VER:cpre	id=90	4	vobj	_	_
+8	da	da	PRE	PRE	id=91	7	time	_	_
+9	molto	molto	ADV	ADV	id=92	8	nobj	_	_
+10	,	,	PON	PON	id=93	7	pnct	_	_
+11	ma	ma	CON	CON	id=94	14	coord	_	_
+12	questa	questo	PRO:demo	PRO:demo	id=95	14	subj	_	_
+13	non	non	ADV	ADV	id=96	14	neg	_	_
+14	è	essere	VER:pres	VER:pres	id=97	3	conj	_	_
+15	sempre	sempre	ADV	ADV	id=98	14	time	_	_
+16	la	il	DET:def	DET:def	id=99	14	preds	_	_
+17	cosa	cosa	NOM	NOM	id=100	16	nobj	_	_
+18	più	più	ADV	ADV	id=101	19	quant	_	_
+19	importante	importante	ADJ	ADJ	id=102	17	attr	_	_
+20	.	.	SENT	SENT	id=103	14	pnct	_	_
+
+1	Vorresti	volere	VER:cond	VER:cond	id=104	0	ROOT	_	_
+2	...	...	PON	PON	id=105	1	pnct	_	_
+
+1	vorresti	volere	VER:cond	VER:cond	id=106	0	ROOT	_	_
+2	sposarmi	sposare	VER:infi	VER:infi	id=107	0	ROOT	_	_
+3	,	,	PON	PON	id=108	1	pnct	_	_
+4	Trine	trino	ADJ	ADJ	id=109	1	voc	_	_
+5	?	?	SENT	SENT	id=110	1	pnct	_	_
+6	"	&quot;	PON	PON	id=111	1	pnct	_	_
+
+1	"	&quot;	PON	PON	id=112	2	pnct	_	_
+2	Sì	sì	ADV	ADV	id=113	5	qobj	_	_
+3	"	&quot;	PON	PON	id=114	2	pnct	_	_
+4	,	,	PON	PON	id=115	2	pnct	_	_
+5	rispose	rispondere	VER:remo	VER:remo	id=116	0	ROOT	_	_
+6	lei	lei	PRO:pers	PRO:pers	id=117	5	subj	_	_
+7	senza	senza	PRE	PRE	id=118	5	man	_	_
+8	esitazione	esitazione	NOM	NOM	id=119	7	nobj	_	_
+9	.	.	SENT	SENT	id=120	5	pnct	_	_
+
+1	E	e	CON	CON	id=121	7	coord	_	_
+2	con	con	PRE	PRE	id=122	7	man	_	_
+3	un	un	DET:indef	DET:indef	id=123	2	nobj	_	_
+4	sorriso	sorriso	NOM	NOM	id=124	3	nobj	_	_
+5	lui	lui	PRO:pers	PRO:pers	id=125	7	subj	_	_
+6	la	la	PRO:pers	PRO:pers	id=126	7	dobj	_	_
+7	trasse	trarre	VER:remo	VER:remo	id=127	0	ROOT	_	_
+8	vicino	vicino	ADJ	ADJ	id=128	7	dir	_	_
+9	,	,	PON	PON	id=129	7	pnct	_	_
+10	molto	molto	ADV	ADV	id=130	11	quant	_	_
+11	vicino	vicino	ADJ	ADJ	id=131	7	dir	_	_
+12	a	a	PRE	PRE	id=132	11	pobj	_	_
+13	sé	sé	NOM	NOM	id=133	12	nobj	_	_
+14	.	.	SENT	SENT	id=134	7	pnct	_	_
+
+1	"	&quot;	PON	PON	id=135	2	pnct	_	_
+2	Un	un	DET:indef	DET:indef	id=136	10	qobj	_	_
+3	matrimonio	matrimonio	NOM	NOM	id=137	2	nobj	_	_
+4	veramente	veramente	ADV	ADV	id=138	5	quant	_	_
+5	romantico	romantico	ADJ	ADJ	id=139	3	attr	_	_
+6	a	a	PRE	PRE	id=140	2	time	_	_
+7	Natale	natale	ADJ	ADJ	id=141	6	nobj	_	_
+8	?	?	SENT	SENT	id=142	2	pnct	_	_
+9	"	&quot;	PON	PON	id=143	2	pnct	_	_
+10	continuò	continuare	VER:remo	VER:remo	id=144	0	ROOT	_	_
+11	lui	lui	PRO:pers	PRO:pers	id=145	10	subj	_	_
+12	in	in	PRE	PRE	id=146	10	man	_	_
+13	tono	tono	NOM	NOM	id=147	12	nobj	_	_
+14	interrogativo	interrogativo	ADJ	ADJ	id=148	13	attr	_	_
+15	.	.	SENT	SENT	id=149	10	pnct	_	_
+
+1	"	&quot;	PON	PON	id=150	2	pnct	_	_
+2	Hum	<unknown>	NOM	NOM	id=151	0	ROOT	_	_
+3	"	&quot;	PON	PON	id=152	2	pnct	_	_
+4	,	,	PON	PON	id=153	2	pnct	_	_
+
+1	lei	lei	PRO:pers	PRO:pers	id=154	2	subj	_	_
+2	nascose	nascondere	VER:remo	VER:remo	id=155	0	ROOT	_	_
+3	il	il	DET:def	DET:def	id=156	2	dobj	_	_
+4	suo	suo	PRO:poss	PRO:poss	id=157	5	attr	_	_
+5	volto	volto	NOM	NOM	id=158	3	nobj	_	_
+6	dalle	dal	PRE:det	PRE:det	id=159	5	attr	_	_
+7	guance	guancia	NOM	NOM	id=160	6	nobj	_	_
+8	lievemente	lievemente	ADV	ADV	id=161	9	quant	_	_
+9	arrossate	arrossare	VER:pper	VER:pper	id=162	7	attr	_	_
+10	nel	nel	PRE:det	PRE:det	id=163	2	loc	_	_
+11	suo	suo	PRO:poss	PRO:poss	id=164	12	attr	_	_
+12	petto	petto	NOM	NOM	id=165	10	nobj	_	_
+13	.	.	SENT	SENT	id=166	2	pnct	_	_
+

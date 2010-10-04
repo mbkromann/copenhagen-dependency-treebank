@@ -102,7 +102,7 @@
 19	ansvarlig	ansvarlig	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=152	14	conj	_	_
 20	for	for	SP	SP	id=153	19	pobj	_	_
 21	analysen	analyse	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=154	20	nobj	_	_
-22	af	af	SP	SP	id=155	21	pobj.dobj	_	_
+22	af	af	SP	SP	id=155	0	ROOT	_	_
 23	Unix-markedet	Unix-marked	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=156	22	nobj	_	_
 24	.	.	XP	XP	id=157	3	pnct	_	_
 
@@ -114,7 +114,7 @@
 6	at	at	U	U=	id=167	5	nobj	_	_
 7	overtage	overtage	VA	VAF-=----A-	mood=infin|voice=active|id=168	6	vobj	_	_
 8	DOS-dominansen	DOS-dominans	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=169	7	dobj	_	_
-9	på	på	SP	SP	id=170	8	pobj.pobj	_	_
+9	på	på	SP	SP	id=170	0	ROOT	_	_
 10	skrivebordet	skrivebord	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=171	9	nobj	_	_
 11	.	.	XP	XP	id=172	3	pnct	_	_
 
@@ -154,7 +154,7 @@
 11	og	og	CC	CC	id=210	12	coord	_	_
 12	fremmest	fremmest	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=211	10	conj	_	_
 13	brugen	brug	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=212	9	dobj	_	_
-14	af	af	SP	SP	id=213	13	pobj.dobj	_	_
+14	af	af	SP	SP	id=213	0	ROOT	_	_
 15	tekstbehandling	tekstbehandling	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=214	14	nobj	_	_
 16	og	og	CC	CC	id=215	17	coord	_	_
 17	andre	anden	PI	PI-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=216	15	conj	_	_

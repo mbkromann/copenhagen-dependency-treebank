@@ -1,0 +1,336 @@
+1	-	-	PON	PON	id=2	0	ROOT	_	_
+
+1	Nessuno	nessuno	ADJ	ADJ	id=3	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=4	0	ROOT	_	_
+
+1	noi	noi	PRO:pers	PRO:pers	id=5	0	ROOT	_	_
+
+1	aveva	avere	VER:impf	VER:impf	id=6	0	ROOT	_	_
+
+1	previsto	prevedere	VER:pper	VER:pper	id=7	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=8	0	ROOT	_	_
+
+1	difficoltà	difficoltà	NOM	NOM	id=9	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=10	0	ROOT	_	_
+
+1	cui	cui	PRO:rela	PRO:rela	id=11	0	ROOT	_	_
+
+1	ci	ci	PRO:pers	PRO:pers	id=12	0	ROOT	_	_
+
+1	trovammo	trovare	VER:remo	VER:remo	id=13	0	ROOT	_	_
+
+1	quando	quando	PRO:inter	PRO:inter	id=14	0	ROOT	_	_
+
+1	chiedemmo	chiedere	VER:remo	VER:remo	id=15	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=16	0	ROOT	_	_
+
+1	autorizzazione	autorizzazione	NOM	NOM	id=17	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=18	0	ROOT	_	_
+
+1	sposarci	sposare	VER:infi	VER:infi	id=19	0	ROOT	_	_
+
+1	,	,	PON	PON	id=20	0	ROOT	_	_
+
+1	racconta	raccontare	VER:pres	VER:pres	id=21	0	ROOT	_	_
+
+1	Lise	liso	ADJ	ADJ	id=22	0	ROOT	_	_
+
+1	Pedersen	<unknown>	NOM	NOM	id=23	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=24	0	ROOT	_	_
+
+1	Sono	essere|sonare	VER:pres	VER:pres	id=27	0	ROOT	_	_
+
+1	stata	essere|stare	VER:pper	VER:pper	id=28	0	ROOT	_	_
+
+1	licenziata	licenziare	VER:pper	VER:pper	id=29	0	ROOT	_	_
+
+1	all'	al	PRE:det	PRE:det	id=30	0	ROOT	_	_
+
+1	improvviso	improvviso	NOM	NOM	id=31	0	ROOT	_	_
+
+1	e	e	CON	CON	id=32	0	ROOT	_	_
+
+1	senza	senza	PRE	PRE	id=33	0	ROOT	_	_
+
+1	motivo	motivo	NOM	NOM	id=34	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=35	0	ROOT	_	_
+
+1	mio	mio	PRO:poss	PRO:poss	id=36	0	ROOT	_	_
+
+1	lavoro	lavoro	NOM	NOM	id=37	0	ROOT	_	_
+
+1	,	,	PON	PON	id=38	0	ROOT	_	_
+
+1	poi	poi	ADV	ADV	id=39	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=40	0	ROOT	_	_
+
+1	autorità	autorità	NOM	NOM	id=41	0	ROOT	_	_
+
+1	hanno	avere|riavere	VER:pres	VER:pres	id=42	0	ROOT	_	_
+
+1	tentato	tentare	VER:pper	VER:pper	id=43	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=44	0	ROOT	_	_
+
+1	tutti	tutto	ADJ	ADJ	id=45	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=46	0	ROOT	_	_
+
+1	mezzi	mezza|mezzo	NOM	NOM	id=47	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=48	0	ROOT	_	_
+
+1	farmi	fare	VER:infi	VER:infi	id=49	0	ROOT	_	_
+
+1	espatriare	espatriare	VER:infi	VER:infi	id=50	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=51	0	ROOT	_	_
+
+1	Mi	mi	PRO:pers	PRO:pers	id=54	0	ROOT	_	_
+
+1	chiedevano	chiedere	VER:impf	VER:impf	id=55	0	ROOT	_	_
+
+1	perché	perché	CON	CON	id=56	0	ROOT	_	_
+
+1	volessi	volere	VER:cimp	VER:cimp	id=57	0	ROOT	_	_
+
+1	ancora	ancorare	VER:pres	VER:pres	id=58	0	ROOT	_	_
+
+1	rimanere	rimanere	VER:infi	VER:infi	id=59	0	ROOT	_	_
+
+1	nell'	nel	PRE:det	PRE:det	id=60	0	ROOT	_	_
+
+1	Unione	unione	NOM	NOM	id=61	0	ROOT	_	_
+
+1	sovietica	sovietico	ADJ	ADJ	id=62	0	ROOT	_	_
+
+1	quando	quando	ADV	ADV	id=63	0	ROOT	_	_
+
+1	sembrava	sembrare	VER:impf	VER:impf	id=64	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=65	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=66	0	ROOT	_	_
+
+1	peggior	peggiore	ADJ	ADJ	id=67	0	ROOT	_	_
+
+1	posto	porre	VER:pper	VER:pper	id=68	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=69	0	ROOT	_	_
+
+1	mondo	mondo	NOM	NOM	id=70	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=71	0	ROOT	_	_
+
+1	Forse	forse	ADV	ADV	id=76	0	ROOT	_	_
+
+1	lo	lo	PRO:pers	PRO:pers	id=77	0	ROOT	_	_
+
+1	dissero	dire	VER:remo	VER:remo	id=78	0	ROOT	_	_
+
+1	solo	solo	ADV	ADV	id=79	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=80	0	ROOT	_	_
+
+1	mettere	mettere	VER:infi	VER:infi	id=81	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=82	0	ROOT	_	_
+
+1	prova	prova	NOM	NOM	id=83	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=84	0	ROOT	_	_
+
+1	mio	mio	PRO:poss	PRO:poss	id=85	0	ROOT	_	_
+
+1	atteggiamento	atteggiamento	NOM	NOM	id=86	0	ROOT	_	_
+
+1	verso	verso	PRE	PRE	id=87	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=88	0	ROOT	_	_
+
+1	comunismo	comunismo	NOM	NOM	id=89	0	ROOT	_	_
+
+1	,	,	PON	PON	id=90	0	ROOT	_	_
+
+1	ma	ma	CON	CON	id=91	0	ROOT	_	_
+
+1	finalmente	finalmente	ADV	ADV	id=92	0	ROOT	_	_
+
+1	ottenemmo	ottenere	VER:remo	VER:remo	id=93	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=94	0	ROOT	_	_
+
+1	autorizzazione	autorizzazione	NOM	NOM	id=95	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=96	0	ROOT	_	_
+
+1	celebrare	celebrare	VER:infi	VER:infi	id=97	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=98	0	ROOT	_	_
+
+1	matrimonio	matrimonio	NOM	NOM	id=99	0	ROOT	_	_
+
+1	e	e	CON	CON	id=100	0	ROOT	_	_
+
+1	ci	ci	PRO:refl	PRO:refl	id=101	0	ROOT	_	_
+
+1	sposammo	sposare	VER:remo	VER:remo	id=102	0	ROOT	_	_
+
+1	nell'	nel	PRE:det	PRE:det	id=103	0	ROOT	_	_
+
+1	agosto	agosto	NOM	NOM	id=104	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=105	0	ROOT	_	_
+
+1	1983	@card@	NUM	NUM	id=106	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=107	0	ROOT	_	_
+
+1	Nonostante	nonostante	PRE	PRE	id=112	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=113	0	ROOT	_	_
+
+1	loro	loro	PRO:poss	PRO:poss	id=114	0	ROOT	_	_
+
+1	nuovo	nuovo	ADJ	ADJ	id=115	0	ROOT	_	_
+
+1	stato	stato	NOM	NOM	id=116	0	ROOT	_	_
+
+1	civile	civile	ADJ	ADJ	id=117	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=118	0	ROOT	_	_
+
+1	coniugi	coniuge|coniugio	NOM	NOM	id=119	0	ROOT	_	_
+
+1	,	,	PON	PON	id=120	0	ROOT	_	_
+
+1	Lise	liso	ADJ	ADJ	id=121	0	ROOT	_	_
+
+1	Pedersen	<unknown>	NOM	NOM	id=122	0	ROOT	_	_
+
+1	e	e	CON	CON	id=123	0	ROOT	_	_
+
+1	Vladimir	Vladimir	NPR	NPR	id=124	0	ROOT	_	_
+
+1	Pimonov	<unknown>	NOM	NOM	id=125	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=126	0	ROOT	_	_
+
+1	furono	essere	VER:remo	VER:remo	id=127	0	ROOT	_	_
+
+1	lasciati	lasciare	VER:pper	VER:pper	id=128	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=129	0	ROOT	_	_
+
+1	pace	pace	NOM	NOM	id=130	0	ROOT	_	_
+
+1	dalle	dal	PRE:det	PRE:det	id=131	0	ROOT	_	_
+
+1	autorità	autorità	NOM	NOM	id=132	0	ROOT	_	_
+
+1	,	,	PON	PON	id=133	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=134	0	ROOT	_	_
+
+1	intralciarono	<unknown>	VER:pres	VER:pres	id=135	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=136	0	ROOT	_	_
+
+1	rinnovo	rinnovo	NOM	NOM	id=137	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=138	0	ROOT	_	_
+
+1	permesso	permesso	NOM	NOM	id=139	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=140	0	ROOT	_	_
+
+1	soggiorno	soggiorno	NOM	NOM	id=141	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=142	0	ROOT	_	_
+
+1	Lise	<unknown>	NOM	NOM	id=143	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=144	0	ROOT	_	_
+
+1	Lise	liso	ADJ	ADJ	id=147	0	ROOT	_	_
+
+1	Pedersen	<unknown>	NOM	NOM	id=148	0	ROOT	_	_
+
+1	rimase	rimanere	VER:remo	VER:remo	id=149	0	ROOT	_	_
+
+1	incinta	incinta	ADJ	ADJ	id=150	0	ROOT	_	_
+
+1	e	e	CON	CON	id=151	0	ROOT	_	_
+
+1	tornò	tornare	VER:remo	VER:remo	id=152	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=153	0	ROOT	_	_
+
+1	casa	casa	NOM	NOM	id=154	0	ROOT	_	_
+
+1	,	,	PON	PON	id=155	0	ROOT	_	_
+
+1	mentre	mentre	CON	CON	id=156	0	ROOT	_	_
+
+1	Vladimir	Vladimir	NPR	NPR	id=157	0	ROOT	_	_
+
+1	Pimonov	<unknown>	NOM	NOM	id=158	0	ROOT	_	_
+
+1	richiese	richiedere	VER:remo	VER:remo	id=159	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=160	0	ROOT	_	_
+
+1	visto	vedere	VER:pper	VER:pper	id=161	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=162	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=163	0	ROOT	_	_
+
+1	espatrio	espatrio	NOM	NOM	id=164	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=165	0	ROOT	_	_
+
+1	In	in	PRE	PRE	id=168	0	ROOT	_	_
+
+1	quel	quel	PRO:demo	PRO:demo	id=169	0	ROOT	_	_
+
+1	preciso	preciso	ADJ	ADJ	id=170	0	ROOT	_	_
+
+1	istante	istante	NOM	NOM	id=171	0	ROOT	_	_
+
+1	diventò	diventare	VER:remo	VER:remo	id=172	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=173	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=174	0	ROOT	_	_
+
+1	refusenik	<unknown>	NOM	NOM	id=175	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=176	0	ROOT	_	_
+
+1	,	,	PON	PON	id=177	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=178	0	ROOT	_	_
+
+1	persona	persona	NOM	NOM	id=179	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=180	0	ROOT	_	_
+
+1	desidera	desiderare	VER:pres	VER:pres	id=181	0	ROOT	_	_
+
+1	andare	andare	VER:infi	VER:infi	id=182	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=183	0	ROOT	_	_
+
+1	esilio	esilio	NOM	NOM	id=184	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=185	0	ROOT	_	_
+

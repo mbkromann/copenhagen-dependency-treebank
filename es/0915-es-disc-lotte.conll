@@ -1,0 +1,444 @@
+1	Muchas	mucho	QU	QU	id=0	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=1	0	ROOT	_	_
+
+1	las	el	ART	ART	id=2	0	ROOT	_	_
+
+1	medicinas	medicina	NC	NC	id=3	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=4	0	ROOT	_	_
+
+1	fueron	ser	VSfin	VSfin	id=5	0	ROOT	_	_
+
+1	introducidas	introducir	VLadj	VLadj	id=6	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=7	0	ROOT	_	_
+
+1	los	el	ART	ART	id=8	0	ROOT	_	_
+
+1	80	@card@	CARD	CARD	id=9	0	ROOT	_	_
+
+1	han	haber	VHfin	VHfin	id=10	0	ROOT	_	_
+
+1	brindado	brindar	VLadj	VLadj	id=11	0	ROOT	_	_
+
+1	la	el	ART	ART	id=12	0	ROOT	_	_
+
+1	posibilidad	posibilidad	NC	NC	id=13	0	ROOT	_	_
+
+1	de	de	CSUBI	CSUBI	id=14	0	ROOT	_	_
+
+1	tratar	tratar	VLinf	VLinf	id=15	0	ROOT	_	_
+
+1	enfermedades	enfermedad	NC	NC	id=16	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=17	0	ROOT	_	_
+
+1	antes	antes	ADV	ADV	id=18	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=19	0	ROOT	_	_
+
+1	podÃ­an	<unknown>	VLfin	VLfin	id=20	0	ROOT	_	_
+
+1	tratarse	tratarse	VCLI	VCLI	id=21	0	ROOT	_	_
+
+1	con	con	SCENE	SCENE	id=22	0	ROOT	_	_
+
+1	medicina	medicina	NC	NC	id=23	0	ROOT	_	_
+
+1	.	.	FS	FS	id=24	0	ROOT	_	_
+
+1	O	o	CC	CC	id=25	0	ROOT	_	_
+
+1	han	haber	VHfin	VHfin	id=26	0	ROOT	_	_
+
+1	dado	dar	VLadj	VLadj	id=27	0	ROOT	_	_
+
+1	un	un	ART	ART	id=28	0	ROOT	_	_
+
+1	mejor	bueno	ADJ	ADJ	id=29	0	ROOT	_	_
+
+1	tratamiento	tratamiento	NC	NC	id=30	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=31	0	ROOT	_	_
+
+1	diversos	diversos	QU	QU	id=32	0	ROOT	_	_
+
+1	tipos	tipo	NC	NC	id=33	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=34	0	ROOT	_	_
+
+1	cÃ¡ncer	<unknown>	NC	NC	id=35	0	ROOT	_	_
+
+1	,	,	CM	CM	id=36	0	ROOT	_	_
+
+1	un	un	ART	ART	id=37	0	ROOT	_	_
+
+1	tratamiento	tratamiento	NC	NC	id=38	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=39	0	ROOT	_	_
+
+1	Ãºlcera	<unknown>	NC	NC	id=40	0	ROOT	_	_
+
+1	sin	sin	SCENE	SCENE	id=41	0	ROOT	_	_
+
+1	intervenciÃ³n	<unknown>	NC	NC	id=42	0	ROOT	_	_
+
+1	quirÃºrgica	<unknown>	ADJ	ADJ	id=43	0	ROOT	_	_
+
+1	y	y	CC	CC	id=44	0	ROOT	_	_
+
+1	ausencia	ausencia	NC	NC	id=45	0	ROOT	_	_
+
+1	por	por	SCENE	SCENE	id=46	0	ROOT	_	_
+
+1	enfermedad	enfermedad	NC	NC	id=47	0	ROOT	_	_
+
+1	,	,	CM	CM	id=48	0	ROOT	_	_
+
+1	un	un	ART	ART	id=49	0	ROOT	_	_
+
+1	tratamiento	tratamiento	NC	NC	id=50	0	ROOT	_	_
+
+1	medicinal	<unknown>	ADJ	ADJ	id=51	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=52	0	ROOT	_	_
+
+1	para	para	SCENE	SCENE	id=53	0	ROOT	_	_
+
+1	patologÃ­as	<unknown>	NC	NC	id=54	0	ROOT	_	_
+
+1	enfermedades	enfermedad	NC	NC	id=55	0	ROOT	_	_
+
+1	mentales	mental	ADJ	ADJ	id=56	0	ROOT	_	_
+
+1	,	,	CM	CM	id=57	0	ROOT	_	_
+
+1	lo	el	ART	ART	id=58	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=59	0	ROOT	_	_
+
+1	implica	implicar	VLfin	VLfin	id=60	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=61	0	ROOT	_	_
+
+1	algunos	alguno	QU	QU	id=62	0	ROOT	_	_
+
+1	hospitales	hospital	NC	NC	id=63	0	ROOT	_	_
+
+1	psiquiÃ¡tricos	<unknown>	NC	NC	id=64	0	ROOT	_	_
+
+1	sean	ser	VSfin	VSfin	id=65	0	ROOT	_	_
+
+1	innecesarios	innecesario	ADJ	ADJ	id=66	0	ROOT	_	_
+
+1	,	,	CM	CM	id=67	0	ROOT	_	_
+
+1	un	un	ART	ART	id=68	0	ROOT	_	_
+
+1	mejor	bueno	ADJ	ADJ	id=69	0	ROOT	_	_
+
+1	tratamiento	tratamiento	NC	NC	id=70	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=71	0	ROOT	_	_
+
+1	la	el	ART	ART	id=72	0	ROOT	_	_
+
+1	diabetes	diabetes	NC	NC	id=73	0	ROOT	_	_
+
+1	,	,	CM	CM	id=74	0	ROOT	_	_
+
+1	etc.	etc.	PE	PE	id=75	0	ROOT	_	_
+
+1	Los	el	ART	ART	id=76	0	ROOT	_	_
+
+1	ahorros	ahorro	NC	NC	id=77	0	ROOT	_	_
+
+1	sociales	social	ADJ	ADJ	id=78	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=79	0	ROOT	_	_
+
+1	son	ser	VSfin	VSfin	id=80	0	ROOT	_	_
+
+1	una	un	ART	ART	id=81	0	ROOT	_	_
+
+1	consecuencia	consecuencia	NC	NC	id=82	0	ROOT	_	_
+
+1	lÃ³gica	<unknown>	ADJ	ADJ	id=83	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=84	0	ROOT	_	_
+
+1	este	este	DM	DM	id=85	0	ROOT	_	_
+
+1	progreso	progreso	NC	NC	id=86	0	ROOT	_	_
+
+1	terapÃ©utico	<unknown>	NC	NC	id=87	0	ROOT	_	_
+
+1	,	,	CM	CM	id=88	0	ROOT	_	_
+
+1	no	no	NEG	NEG	id=89	0	ROOT	_	_
+
+1	se	se	SE	SE	id=90	0	ROOT	_	_
+
+1	evidencian	evidenciar	VLfin	VLfin	id=91	0	ROOT	_	_
+
+1	directamente	directamente	ADV	ADV	id=92	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=93	0	ROOT	_	_
+
+1	las	el	ART	ART	id=94	0	ROOT	_	_
+
+1	cuentas	cuenta	NC	NC	id=95	0	ROOT	_	_
+
+1	estatales	estatal	ADJ	ADJ	id=96	0	ROOT	_	_
+
+1	.	.	FS	FS	id=97	0	ROOT	_	_
+
+1	Pero	pero	CCAD	CCAD	id=98	0	ROOT	_	_
+
+1	es	ser	VSfin	VSfin	id=99	0	ROOT	_	_
+
+1	un	un	ART	ART	id=100	0	ROOT	_	_
+
+1	hecho	hecho	NC	NC	id=101	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=102	0	ROOT	_	_
+
+1	nuevos	nuevo	ADJ	ADJ	id=103	0	ROOT	_	_
+
+1	medicamentos	medicamento	NC	NC	id=104	0	ROOT	_	_
+
+1	innovadores	<unknown>	ADJ	ADJ	id=105	0	ROOT	_	_
+
+1	contribuyen	contribuir	VLfin	VLfin	id=106	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=107	0	ROOT	_	_
+
+1	minimizar	minimizar	VLinf	VLinf	id=108	0	ROOT	_	_
+
+1	los	el	ART	ART	id=109	0	ROOT	_	_
+
+1	gastos	gasto	NC	NC	id=110	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=111	0	ROOT	_	_
+
+1	la	el	ART	ART	id=112	0	ROOT	_	_
+
+1	salud	salud	NC	NC	id=113	0	ROOT	_	_
+
+1	pÃºblica	<unknown>	ADJ	ADJ	id=114	0	ROOT	_	_
+
+1	,	,	CM	CM	id=115	0	ROOT	_	_
+
+1	aun	aun	ADV	ADV	id=116	0	ROOT	_	_
+
+1	cuando	cuando	CSUBX	CSUBX	id=117	0	ROOT	_	_
+
+1	el	el	ART	ART	id=118	0	ROOT	_	_
+
+1	desarrollo	desarrollo	NC	NC	id=119	0	ROOT	_	_
+
+1	y	y	CC	CC	id=120	0	ROOT	_	_
+
+1	la	el	ART	ART	id=121	0	ROOT	_	_
+
+1	comercializaciÃ³n	<unknown>	NC	NC	id=122	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=123	0	ROOT	_	_
+
+1	nuevos	nuevo	ADJ	ADJ	id=124	0	ROOT	_	_
+
+1	medicamentos	medicamento	NC	NC	id=125	0	ROOT	_	_
+
+1	seguirÃ¡	<unknown>	VLfin	VLfin	id=126	0	ROOT	_	_
+
+1	siendo	ser	VSger	VSger	id=127	0	ROOT	_	_
+
+1	costoso	costoso	ADJ	ADJ	id=128	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=129	0	ROOT	_	_
+
+1	el	el	ART	ART	id=130	0	ROOT	_	_
+
+1	futuro	futuro	NC	NC	id=131	0	ROOT	_	_
+
+1	,	,	CM	CM	id=132	0	ROOT	_	_
+
+1	por	por	SCENE	SCENE	id=133	0	ROOT	_	_
+
+1	lo	el	ART	ART	id=134	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=135	0	ROOT	_	_
+
+1	los	el	ART	ART	id=136	0	ROOT	_	_
+
+1	medicamentos	medicamento	NC	NC	id=137	0	ROOT	_	_
+
+1	serÃ¡n	<unknown>	ADV	ADV	id=138	0	ROOT	_	_
+
+1	mÃ¡s	<unknown>	NC	NC	id=139	0	ROOT	_	_
+
+1	caros	caro	ADJ	ADJ	id=140	0	ROOT	_	_
+
+1	.	.	FS	FS	id=141	0	ROOT	_	_
+
+1	Un	un	ART	ART	id=142	0	ROOT	_	_
+
+1	buen	bueno	ADJ	ADJ	id=143	0	ROOT	_	_
+
+1	ejemplo	ejemplo	NC	NC	id=144	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=145	0	ROOT	_	_
+
+1	estoes	esto~es	ADV	ADV	id=146	0	ROOT	_	_
+
+1	la	el	ART	ART	id=147	0	ROOT	_	_
+
+1	comercializaciÃ³n	<unknown>	NC	NC	id=148	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=149	0	ROOT	_	_
+
+1	los	el	ART	ART	id=150	0	ROOT	_	_
+
+1	medicamentos	medicamento	NC	NC	id=151	0	ROOT	_	_
+
+1	contra	contra	SCENE	SCENE	id=152	0	ROOT	_	_
+
+1	la	el	ART	ART	id=153	0	ROOT	_	_
+
+1	Ãºlcera	<unknown>	NC	NC	id=154	0	ROOT	_	_
+
+1	.	.	FS	FS	id=155	0	ROOT	_	_
+
+1	Antes	antes	ADV	ADV	id=156	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=157	0	ROOT	_	_
+
+1	que	que	CQUE	CQUE	id=158	0	ROOT	_	_
+
+1	estos	este	DM	DM	id=159	0	ROOT	_	_
+
+1	medicamentos	medicamento	NC	NC	id=160	0	ROOT	_	_
+
+1	fueran	ser	VSfin	VSfin	id=161	0	ROOT	_	_
+
+1	introducidos	introducir	VLadj	VLadj	id=162	0	ROOT	_	_
+
+1	,	,	CM	CM	id=163	0	ROOT	_	_
+
+1	los	el	ART	ART	id=164	0	ROOT	_	_
+
+1	tratamientos	tratamiento	NC	NC	id=165	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=166	0	ROOT	_	_
+
+1	EstadosUnidos	Estados~Unidos	NP	NP	id=167	0	ROOT	_	_
+
+1	costaban	costar	VLfin	VLfin	id=168	0	ROOT	_	_
+
+1	720	@card@	CARD	CARD	id=169	0	ROOT	_	_
+
+1	dÃ³lares	<unknown>	NC	NC	id=170	0	ROOT	_	_
+
+1	en	en	SCENE	SCENE	id=171	0	ROOT	_	_
+
+1	forma	forma	NC	NC	id=172	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=173	0	ROOT	_	_
+
+1	gastos	gasto	NC	NC	id=174	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=175	0	ROOT	_	_
+
+1	mÃ©dico	<unknown>	NC	NC	id=176	0	ROOT	_	_
+
+1	y	y	CC	CC	id=177	0	ROOT	_	_
+
+1	hospital	hospital	NC	NC	id=178	0	ROOT	_	_
+
+1	.	.	FS	FS	id=179	0	ROOT	_	_
+
+1	Con	con	SCENE	SCENE	id=180	0	ROOT	_	_
+
+1	el	el	ART	ART	id=181	0	ROOT	_	_
+
+1	uso	uso	NC	NC	id=182	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=183	0	ROOT	_	_
+
+1	los	el	ART	ART	id=184	0	ROOT	_	_
+
+1	medicamentos	medicamento	NC	NC	id=185	0	ROOT	_	_
+
+1	para	para	SCENE	SCENE	id=186	0	ROOT	_	_
+
+1	Ãºlcera	<unknown>	NC	NC	id=187	0	ROOT	_	_
+
+1	,	,	CM	CM	id=188	0	ROOT	_	_
+
+1	los	el	ART	ART	id=189	0	ROOT	_	_
+
+1	gastos	gasto	NC	NC	id=190	0	ROOT	_	_
+
+1	totales	total	ADJ	ADJ	id=191	0	ROOT	_	_
+
+1	del	del	PDEL	PDEL	id=192	0	ROOT	_	_
+
+1	tratamiento	tratamiento	NC	NC	id=193	0	ROOT	_	_
+
+1	fueron	ser	VSfin	VSfin	id=194	0	ROOT	_	_
+
+1	reducidos	reducir	VLadj	VLadj	id=195	0	ROOT	_	_
+
+1	a	a	SCENE	SCENE	id=196	0	ROOT	_	_
+
+1	220	@card@	CARD	CARD	id=197	0	ROOT	_	_
+
+1	dÃ³lares	<unknown>	NC	NC	id=198	0	ROOT	_	_
+
+1	,	,	CM	CM	id=199	0	ROOT	_	_
+
+1	esdecir	es~decir	ADV	ADV	id=200	0	ROOT	_	_
+
+1	una	un	ART	ART	id=201	0	ROOT	_	_
+
+1	diferencia	diferencia	NC	NC	id=202	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=203	0	ROOT	_	_
+
+1	500	@card@	CARD	CARD	id=204	0	ROOT	_	_
+
+1	dÃ³lares	<unknown>	NC	NC	id=205	0	ROOT	_	_
+
+1	.	.	FS	FS	id=206	0	ROOT	_	_
+
+1	A	a	SCENE	SCENE	id=207	0	ROOT	_	_
+
+1	esto	este	DM	DM	id=208	0	ROOT	_	_
+
+1	hayque	haber~que	VMfin	VMfin	id=209	0	ROOT	_	_
+
+1	agregar	agregar	VLinf	VLinf	id=210	0	ROOT	_	_
+
+1	los	el	ART	ART	id=211	0	ROOT	_	_
+
+1	ahorros	ahorro	NC	NC	id=212	0	ROOT	_	_
+
+1	como	como	CSUBX	CSUBX	id=213	0	ROOT	_	_
+
+1	consecuencia	consecuencia	NC	NC	id=214	0	ROOT	_	_
+
+1	de	de	SCENE	SCENE	id=215	0	ROOT	_	_
+
+1	una	un	ART	ART	id=216	0	ROOT	_	_
+
+1	menor	pequeño	ADJ	ADJ	id=217	0	ROOT	_	_
+
+1	ausencia	ausencia	NC	NC	id=218	0	ROOT	_	_
+
+1	laboral	laboral	ADJ	ADJ	id=219	0	ROOT	_	_
+
+1	,	,	CM	CM	id=220	0	ROOT	_	_
+
+1	etc.	etc.	PE	PE	id=221	0	ROOT	_	_
+

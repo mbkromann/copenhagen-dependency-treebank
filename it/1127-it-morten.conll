@@ -1,0 +1,402 @@
+1	Il	il	DET:def	DET:def	id=0	0	ROOT	_	_
+
+1	loro	loro	PRO:poss	PRO:poss	id=1	0	ROOT	_	_
+
+1	rapporto	rapporto	NOM	NOM	id=2	0	ROOT	_	_
+
+1	,	,	PON	PON	id=3	0	ROOT	_	_
+
+1	tuttavia	tuttavia	ADV	ADV	id=4	0	ROOT	_	_
+
+1	,	,	PON	PON	id=5	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=6	0	ROOT	_	_
+
+1	complica	complicare	VER:pres	VER:pres	id=7	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=8	0	ROOT	_	_
+
+1	via	via	NOM	NOM	id=9	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=10	0	ROOT	_	_
+
+1	amore	amore	NOM	NOM	id=11	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=12	0	ROOT	_	_
+
+1	lo	il	DET:def	DET:def	id=13	0	ROOT	_	_
+
+1	stesso	stesso	ADJ	ADJ	id=14	0	ROOT	_	_
+
+1	uomo	uomo	NOM	NOM	id=15	0	ROOT	_	_
+
+1	:	:	PON	PON	id=16	0	ROOT	_	_
+
+1	Peder	<unknown>	NOM	NOM	id=17	0	ROOT	_	_
+
+1	Oxe	<unknown>	ADJ	ADJ	id=18	0	ROOT	_	_
+
+1	,	,	PON	PON	id=19	0	ROOT	_	_
+
+1	dapprima	dapprima	ADV	ADV	id=20	0	ROOT	_	_
+
+1	esule	esule	NOM	NOM	id=21	0	ROOT	_	_
+
+1	e	e	CON	CON	id=22	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=23	0	ROOT	_	_
+
+1	seguito	seguito	NOM	NOM	id=24	0	ROOT	_	_
+
+1	ritornato	ritornare	VER:pper	VER:pper	id=25	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=26	0	ROOT	_	_
+
+1	patria	patria	NOM	NOM	id=27	0	ROOT	_	_
+
+1	,	,	PON	PON	id=28	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=29	0	ROOT	_	_
+
+1	Mette	mettere	VER:pres	VER:pres	id=30	0	ROOT	_	_
+
+1	Rosenkrantz	<unknown>	NOM	NOM	id=31	0	ROOT	_	_
+
+1	,	,	PON	PON	id=32	0	ROOT	_	_
+
+1	infine	infine	ADV	ADV	id=33	0	ROOT	_	_
+
+1	,	,	PON	PON	id=34	0	ROOT	_	_
+
+1	sposa	sposare	VER:pres	VER:pres	id=35	0	ROOT	_	_
+
+1	dopo	dopo	ADV	ADV	id=36	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=37	0	ROOT	_	_
+
+1	morte	morta|morte|morto	NOM	NOM	id=38	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=39	0	ROOT	_	_
+
+1	marito	marito	NOM	NOM	id=40	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=41	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=42	0	ROOT	_	_
+
+1	romanzo	romanzo	NOM	NOM	id=43	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=44	0	ROOT	_	_
+
+1	descrive	descrivere	VER:pres	VER:pres	id=45	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=46	0	ROOT	_	_
+
+1	ultimi	ultimo	ADJ	ADJ	id=47	0	ROOT	_	_
+
+1	avvenimenti	avvenimento	NOM	NOM	id=48	0	ROOT	_	_
+
+1	,	,	PON	PON	id=49	0	ROOT	_	_
+
+1	pur	pur	ADV	ADV	id=50	0	ROOT	_	_
+
+1	creando	creare	VER:geru	VER:geru	id=51	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=52	0	ROOT	_	_
+
+1	premesse	premessa	NOM	NOM	id=53	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=54	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=55	0	ROOT	_	_
+
+1	lieto	lieto	ADJ	ADJ	id=56	0	ROOT	_	_
+
+1	fine	fine	NOM	NOM	id=57	0	ROOT	_	_
+
+1	,	,	PON	PON	id=58	0	ROOT	_	_
+
+1	ma	ma	CON	CON	id=59	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=60	0	ROOT	_	_
+
+1	lunga	lungo	ADJ	ADJ	id=61	0	ROOT	_	_
+
+1	storia	storia	NOM	NOM	id=62	0	ROOT	_	_
+
+1	,	,	PON	PON	id=63	0	ROOT	_	_
+
+1	tra	tra	PRE	PRE	id=64	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=65	0	ROOT	_	_
+
+1	pagine	pagina	NOM	NOM	id=66	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=67	0	ROOT	_	_
+
+1	belle	bello	ADJ	ADJ	id=68	0	ROOT	_	_
+
+1	,	,	PON	PON	id=69	0	ROOT	_	_
+
+1	c'	c'	PRO:demo	PRO:demo	id=70	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=71	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=72	0	ROOT	_	_
+
+1	descrizione	descrizione	NOM	NOM	id=73	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=74	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=75	0	ROOT	_	_
+
+1	reciproco	reciproco	ADJ	ADJ	id=76	0	ROOT	_	_
+
+1	amore	amore	NOM	NOM	id=77	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=78	0	ROOT	_	_
+
+1	,	,	PON	PON	id=79	0	ROOT	_	_
+
+1	esitante	esitare	VER:ppre	VER:ppre	id=80	0	ROOT	_	_
+
+1	,	,	PON	PON	id=81	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=82	0	ROOT	_	_
+
+1	apre	aprire	VER:pres	VER:pres	id=83	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=84	0	ROOT	_	_
+
+1	varco	varco	NOM	NOM	id=85	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=86	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=87	0	ROOT	_	_
+
+1	notte	notte	NOM	NOM	id=88	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=89	0	ROOT	_	_
+
+1	San	San	NPR	NPR	id=90	0	ROOT	_	_
+
+1	Marco	marco	NOM	NOM	id=91	0	ROOT	_	_
+
+1	può	potere	VER:pres	VER:pres	id=92	0	ROOT	_	_
+
+1	considerarsi	considerare	VER:infi	VER:infi	id=93	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=94	0	ROOT	_	_
+
+1	migliore	migliore	ADJ	ADJ	id=95	0	ROOT	_	_
+
+1	romanzo	romanzo	NOM	NOM	id=96	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=97	0	ROOT	_	_
+
+1	Helle	<unknown>	NOM	NOM	id=98	0	ROOT	_	_
+
+1	Stangerup	<unknown>	NOM	NOM	id=99	0	ROOT	_	_
+
+1	-	-	PON	PON	id=100	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=101	0	ROOT	_	_
+
+1	se	se	CON	CON	id=102	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=103	0	ROOT	_	_
+
+1	necessariamente	necessariamente	ADV	ADV	id=104	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=105	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=106	0	ROOT	_	_
+
+1	apprezzato	apprezzare	VER:pper	VER:pper	id=107	0	ROOT	_	_
+
+1	dai	dal	PRE:det	PRE:det	id=108	0	ROOT	_	_
+
+1	lettori	lettore	NOM	NOM	id=109	0	ROOT	_	_
+
+1	-	-	PON	PON	id=110	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=111	0	ROOT	_	_
+
+1	via	via	NOM	NOM	id=112	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=113	0	ROOT	_	_
+
+1	sensibilità	sensibilità	NOM	NOM	id=114	0	ROOT	_	_
+
+1	eccellente	eccellente	ADJ	ADJ	id=115	0	ROOT	_	_
+
+1	,	,	PON	PON	id=116	0	ROOT	_	_
+
+1	freddamente	freddamente	ADV	ADV	id=117	0	ROOT	_	_
+
+1	passionale	passionale	ADJ	ADJ	id=118	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=119	0	ROOT	_	_
+
+1	cui	cui	PRO:rela	PRO:rela	id=120	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=121	0	ROOT	_	_
+
+1	scrittrice	scrittore	NOM	NOM	id=122	0	ROOT	_	_
+
+1	esprime	esprimere	VER:pres	VER:pres	id=123	0	ROOT	_	_
+
+1	pienamente	pienamente	ADV	ADV	id=124	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=125	0	ROOT	_	_
+
+1	complessità	complessità	NOM	NOM	id=126	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=127	0	ROOT	_	_
+
+1	motivi	motivo	NOM	NOM	id=128	0	ROOT	_	_
+
+1	e	e	CON	CON	id=129	0	ROOT	_	_
+
+1	fatti	fatto	NOM	NOM	id=130	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=131	0	ROOT	_	_
+
+1	romanzo	romanzo	NOM	NOM	id=132	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=133	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=134	0	ROOT	_	_
+
+1	tempo	tempo	NOM	NOM	id=135	0	ROOT	_	_
+
+1	ed	ed	CON	CON	id=136	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=137	0	ROOT	_	_
+
+1	destini	destino	NOM	NOM	id=138	0	ROOT	_	_
+
+1	umani-	<unknown>	NOM	NOM	id=139	0	ROOT	_	_
+
+1	destini	destinare	VER:cpre	VER:cpre	id=140	0	ROOT	_	_
+
+1	femminili-	<unknown>	NOM	NOM	id=141	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=142	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=143	0	ROOT	_	_
+
+1	possono	potere	VER:pres	VER:pres	id=144	0	ROOT	_	_
+
+1	separare	separare	VER:infi	VER:infi	id=145	0	ROOT	_	_
+
+1	,	,	PON	PON	id=146	0	ROOT	_	_
+
+1	né	né	CON	CON	id=147	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=148	0	ROOT	_	_
+
+1	tragedia	tragedia	NOM	NOM	id=149	0	ROOT	_	_
+
+1	né	né	CON	CON	id=150	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=151	0	ROOT	_	_
+
+1	trionfo	trionfo	NOM	NOM	id=152	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=153	0	ROOT	_	_
+
+1	Non	non	ADV	ADV	id=154	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=155	0	ROOT	_	_
+
+1	caso	caso	NOM	NOM	id=156	0	ROOT	_	_
+
+1	,	,	PON	PON	id=157	0	ROOT	_	_
+
+1	sul	sul	PRE:det	PRE:det	id=158	0	ROOT	_	_
+
+1	retro	retro	NOM	NOM	id=159	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=160	0	ROOT	_	_
+
+1	copertina	copertina	NOM	NOM	id=161	0	ROOT	_	_
+
+1	,	,	PON	PON	id=162	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=163	0	ROOT	_	_
+
+1	individua	individuare	VER:pres	VER:pres	id=164	0	ROOT	_	_
+
+1	ne	ne	ADV	ADV	id=165	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=166	0	ROOT	_	_
+
+1	La	<unknown>	ADJ	ADJ	id=167	0	ROOT	_	_
+
+1	notte	notte	NOM	NOM	id=168	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=169	0	ROOT	_	_
+
+1	San	San	NPR	NPR	id=170	0	ROOT	_	_
+
+1	Marco	<unknown>	ADJ	ADJ	id=171	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=172	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=173	0	ROOT	_	_
+
+1	desiderio	desiderio	NOM	NOM	id=174	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=175	0	ROOT	_	_
+
+1	inesplicabile	inesplicabile	ADJ	ADJ	id=176	0	ROOT	_	_
+
+1	,	,	PON	PON	id=177	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=178	0	ROOT	_	_
+
+1	ricerca	ricerca	NOM	NOM	id=179	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=180	0	ROOT	_	_
+
+1	impossibile	impossibile	NOM	NOM	id=181	0	ROOT	_	_
+
+1	,	,	PON	PON	id=182	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=183	0	ROOT	_	_
+
+1	superamento	superamento	NOM	NOM	id=184	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=185	0	ROOT	_	_
+
+1	limiti	limite	NOM	NOM	id=186	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=187	0	ROOT	_	_
+
+1	tutte	tutto	ADJ	ADJ	id=188	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=189	0	ROOT	_	_
+
+1	capacità	capacità	NOM	NOM	id=190	0	ROOT	_	_
+
+1	umane	umano	ADJ	ADJ	id=191	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=192	0	ROOT	_	_
+
+1	Helle	<unknown>	NOM	NOM	id=193	0	ROOT	_	_
+
+1	Stangerup	<unknown>	NOM	NOM	id=194	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=195	0	ROOT	_	_
+
+1	capace	capace	ADJ	ADJ	id=196	0	ROOT	_	_
+
+1	anche	anche	ADV	ADV	id=197	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=198	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=199	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=200	0	ROOT	_	_
+

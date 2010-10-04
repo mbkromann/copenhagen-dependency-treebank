@@ -1,0 +1,374 @@
+1	Immaginiamo	immaginare	VER:pres	VER:pres	id=2	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=3	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=4	0	ROOT	_	_
+
+1	autorità	autorità	NOM	NOM	id=5	0	ROOT	_	_
+
+1	locali	locale	ADJ	ADJ	id=6	0	ROOT	_	_
+
+1	preposte	preporre	VER:pper	VER:pper	id=7	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=8	0	ROOT	_	_
+
+1	prevenzione	prevenzione	NOM	NOM	id=9	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=10	0	ROOT	_	_
+
+1	inquinamento	inquinamento	NOM	NOM	id=11	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=12	0	ROOT	_	_
+
+1	idrocarburi	idrocarburo	NOM	NOM	id=13	0	ROOT	_	_
+
+1	,	,	PON	PON	id=14	0	ROOT	_	_
+
+1	mandino	mandare	VER:cpre	VER:cpre	id=15	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=16	0	ROOT	_	_
+
+1	solo	solo	ADJ	ADJ	id=17	0	ROOT	_	_
+
+1	uomo	uomo	NOM	NOM	id=18	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=19	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=20	0	ROOT	_	_
+
+1	trattore	trattore	NOM	NOM	id=21	0	ROOT	_	_
+
+1	e	e	CON	CON	id=22	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=23	0	ROOT	_	_
+
+1	serbatoio	serbatoio	NOM	NOM	id=24	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=25	0	ROOT	_	_
+
+1	spruzzo	spruzzo	NOM	NOM	id=26	0	ROOT	_	_
+
+1	pieno	pieno	ADJ	ADJ	id=27	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=28	0	ROOT	_	_
+
+1	batteri	batterio	NOM	NOM	id=29	0	ROOT	_	_
+
+1	OGM	<unknown>	NOM	NOM	id=30	0	ROOT	_	_
+
+1	progettati	progettare	VER:pper	VER:pper	id=31	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=32	0	ROOT	_	_
+
+1	scomporre	scomporre	VER:infi	VER:infi	id=33	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=34	0	ROOT	_	_
+
+1	petrolio	petrolio	NOM	NOM	id=35	0	ROOT	_	_
+
+1	disperso	disperdere	VER:pper	VER:pper	id=36	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=37	0	ROOT	_	_
+
+1	acqua	acqua	NOM	NOM	id=38	0	ROOT	_	_
+
+1	salata	salato	ADJ	ADJ	id=39	0	ROOT	_	_
+
+1	fredda	freddo	ADJ	ADJ	id=40	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=41	0	ROOT	_	_
+
+1	Dopo	dopo	PRE	PRE	id=44	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=45	0	ROOT	_	_
+
+1	giorno	giorno	NOM	NOM	id=46	0	ROOT	_	_
+
+1	,	,	PON	PON	id=47	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=48	0	ROOT	_	_
+
+1	maggior	maggiore	ADJ	ADJ	id=49	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=50	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=51	0	ROOT	_	_
+
+1	petrolio	petrolio	NOM	NOM	id=52	0	ROOT	_	_
+
+1	sarebbe	essere	VER:cond	VER:cond	id=53	0	ROOT	_	_
+
+1	scomparso	scomparire	VER:pper	VER:pper	id=54	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=55	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=58	0	ROOT	_	_
+
+1	resto	resto	NOM	NOM	id=59	0	ROOT	_	_
+
+1	potrebbe	potere	VER:cond	VER:cond	id=60	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=61	0	ROOT	_	_
+
+1	eliminato	eliminare	VER:pper	VER:pper	id=62	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=63	0	ROOT	_	_
+
+1	un'	un'	DET:indef	DET:indef	id=64	0	ROOT	_	_
+
+1	ulteriore	ulteriore	ADJ	ADJ	id=65	0	ROOT	_	_
+
+1	spruzzata	spruzzata	NOM	NOM	id=66	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=67	0	ROOT	_	_
+
+1	Nel	nel	PRE:det	PRE:det	id=70	0	ROOT	_	_
+
+1	frattempo	frattempo	NOM	NOM	id=71	0	ROOT	_	_
+
+1	,	,	PON	PON	id=72	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=73	0	ROOT	_	_
+
+1	disoccupati	disoccupato	NOM	NOM	id=74	0	ROOT	_	_
+
+1	potrebbero	potere	VER:cond	VER:cond	id=75	0	ROOT	_	_
+
+1	guardarsi	guardare	VER:infi	VER:infi	id=76	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=77	0	ROOT	_	_
+
+1	video	video	ADJ	ADJ	id=78	0	ROOT	_	_
+
+1	oppure	oppure	CON	CON	id=79	0	ROOT	_	_
+
+1	portare	portare	VER:infi	VER:infi	id=80	0	ROOT	_	_
+
+1	fuori	fuori	ADV	ADV	id=81	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=82	0	ROOT	_	_
+
+1	cane	cane	NOM	NOM	id=83	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=84	0	ROOT	_	_
+
+1	Ciò	ciò	PRO:demo	PRO:demo	id=87	0	ROOT	_	_
+
+1	sarebbe	essere	VER:cond	VER:cond	id=88	0	ROOT	_	_
+
+1	considerata	considerato	ADJ	ADJ	id=89	0	ROOT	_	_
+
+1	emissione	emissione	NOM	NOM	id=90	0	ROOT	_	_
+
+1	deliberata	deliberare	VER:pper	VER:pper	id=91	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=92	0	ROOT	_	_
+
+1	natura	natura	NOM	NOM	id=93	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=94	0	ROOT	_	_
+
+1	organismi	organismo	NOM	NOM	id=95	0	ROOT	_	_
+
+1	geneticamente	geneticamente	ADV	ADV	id=96	0	ROOT	_	_
+
+1	modificati	modificare	VER:pper	VER:pper	id=97	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=98	0	ROOT	_	_
+
+1	Questo	questo	PRO:demo	PRO:demo	id=101	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=102	0	ROOT	_	_
+
+1	portato	portare	VER:pper	VER:pper	id=103	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=104	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=105	0	ROOT	_	_
+
+1	conferenza	conferenza	NOM	NOM	id=106	0	ROOT	_	_
+
+1	scientifica	scientifico	ADJ	ADJ	id=107	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=108	0	ROOT	_	_
+
+1	Paesi	paese	NOM	NOM	id=109	0	ROOT	_	_
+
+1	nordici	nordico	ADJ	ADJ	id=110	0	ROOT	_	_
+
+1	,	,	PON	PON	id=111	0	ROOT	_	_
+
+1	ospitata	ospitare	VER:pper	VER:pper	id=112	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=113	0	ROOT	_	_
+
+1	Ingeniørhuset	<unknown>	NOM	NOM	id=114	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=115	0	ROOT	_	_
+
+1	Copenhagen	Copenhagen	NPR	NPR	id=116	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=117	0	ROOT	_	_
+
+1	fine	fine	NOM	NOM	id=118	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=119	0	ROOT	_	_
+
+1	novembre	novembre	NOM	NOM	id=120	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=121	0	ROOT	_	_
+
+1	Ma	ma	CON	CON	id=124	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=125	0	ROOT	_	_
+
+1	titolo	titolo	NOM	NOM	id=126	0	ROOT	_	_
+
+1	della	del	PRE:det	PRE:det	id=127	0	ROOT	_	_
+
+1	conferenza	conferenza	NOM	NOM	id=128	0	ROOT	_	_
+
+1	terminava	terminare	VER:impf	VER:impf	id=129	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=130	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=131	0	ROOT	_	_
+
+1	parole	parola	NOM	NOM	id=132	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=133	0	ROOT	_	_
+
+1	...	...	PON	PON	id=134	0	ROOT	_	_
+
+1	e	e	CON	CON	id=135	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=136	0	ROOT	_	_
+
+1	loro	loro	PRO:poss	PRO:poss	id=137	0	ROOT	_	_
+
+1	impatto	impatto	NOM	NOM	id=138	0	ROOT	_	_
+
+1	sull'	sul	PRE:det	PRE:det	id=139	0	ROOT	_	_
+
+1	ambiente	ambiente	NOM	NOM	id=140	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=141	0	ROOT	_	_
+
+1	,	,	PON	PON	id=142	0	ROOT	_	_
+
+1	e	e	CON	CON	id=143	0	ROOT	_	_
+
+1	qui	qui	ADV	ADV	id=144	0	ROOT	_	_
+
+1	sorge	sorgere	VER:pres	VER:pres	id=145	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=146	0	ROOT	_	_
+
+1	dilemma	dilemma	NOM	NOM	id=147	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=148	0	ROOT	_	_
+
+1	Siamo	essere	VER:pres	VER:pres	id=151	0	ROOT	_	_
+
+1	sicuri	sicuro	ADJ	ADJ	id=152	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=153	0	ROOT	_	_
+
+1	quei	quei	PRO:demo	PRO:demo	id=154	0	ROOT	_	_
+
+1	batteri	batterio	NOM	NOM	id=155	0	ROOT	_	_
+
+1	o	o	CON	CON	id=156	0	ROOT	_	_
+
+1	virus	virus	NOM	NOM	id=157	0	ROOT	_	_
+
+1	,	,	PON	PON	id=158	0	ROOT	_	_
+
+1	programmati	programmare	VER:pper	VER:pper	id=159	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=160	0	ROOT	_	_
+
+1	svolgere	svolgere	VER:infi	VER:infi	id=161	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=162	0	ROOT	_	_
+
+1	funzione	funzione	NOM	NOM	id=163	0	ROOT	_	_
+
+1	molto	molto	ADV	ADV	id=164	0	ROOT	_	_
+
+1	specifica	specifico	ADJ	ADJ	id=165	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=166	0	ROOT	_	_
+
+1	natura	natura	NOM	NOM	id=167	0	ROOT	_	_
+
+1	,	,	PON	PON	id=168	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=169	0	ROOT	_	_
+
+1	esempio	esempio	NOM	NOM	id=170	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=171	0	ROOT	_	_
+
+1	distruzione	distruzione	NOM	NOM	id=172	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=173	0	ROOT	_	_
+
+1	petrolio	petrolio	NOM	NOM	id=174	0	ROOT	_	_
+
+1	versato	versare	VER:pper	VER:pper	id=175	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=176	0	ROOT	_	_
+
+1	mare	mare	NOM	NOM	id=177	0	ROOT	_	_
+
+1	,	,	PON	PON	id=178	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=179	0	ROOT	_	_
+
+1	attengano	attenere	VER:cpre	VER:cpre	id=180	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=181	0	ROOT	_	_
+
+1	quello	quello	PRO:demo	PRO:demo	id=182	0	ROOT	_	_
+
+1	e	e	CON	CON	id=183	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=184	0	ROOT	_	_
+
+1	inizino	iniziare	VER:cpre	VER:cpre	id=185	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=186	0	ROOT	_	_
+
+1	creare	creare	VER:infi	VER:infi	id=187	0	ROOT	_	_
+
+1	disordini	disordine	NOM	NOM	id=188	0	ROOT	_	_
+
+1	negli	nel	PRE:det	PRE:det	id=189	0	ROOT	_	_
+
+1	ecosistemi	ecosistema	NOM	NOM	id=190	0	ROOT	_	_
+
+1	naturali	naturale	ADJ	ADJ	id=191	0	ROOT	_	_
+
+1	?	?	SENT	SENT	id=192	0	ROOT	_	_
+
+1	Oppure	oppure	CON	CON	id=195	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=196	0	ROOT	_	_
+
+1	arrecare	arrecare	VER:infi	VER:infi	id=197	0	ROOT	_	_
+
+1	danni	danno	NOM	NOM	id=198	0	ROOT	_	_
+
+1	all'	al	PRE:det	PRE:det	id=199	0	ROOT	_	_
+
+1	uomo	uomo	NOM	NOM	id=200	0	ROOT	_	_
+
+1	e	e	CON	CON	id=201	0	ROOT	_	_
+
+1	agli	al	PRE:det	PRE:det	id=202	0	ROOT	_	_
+
+1	animali	animale	NOM	NOM	id=203	0	ROOT	_	_
+
+1	?	?	SENT	SENT	id=204	0	ROOT	_	_
+

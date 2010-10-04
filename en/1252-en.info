@@ -1,0 +1,5 @@
+en/1252-en.tag:
+  morphology: none
+  discourse: none
+  syntax: discussed
+  postag: auto

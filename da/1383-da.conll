@@ -184,5 +184,6 @@
 20	.	.	XP	XP	id=239	3	pnct	_	_
 
 1	si_è_aperta	_	_	_	id=248	0	ROOT	_	_
-2	si_è_verificato	_	_	_	id=249	1	+CONJ:add/(e)	_	_
+
+1	si_è_verificato	_	_	_	id=249	0	ROOT	_	_
 

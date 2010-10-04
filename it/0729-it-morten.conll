@@ -1,0 +1,400 @@
+1	"	&quot;	PON	PON	id=0	0	ROOT	_	_
+
+1	Beh	beh	INT	INT	id=1	0	ROOT	_	_
+
+1	,	,	PON	PON	id=2	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=3	0	ROOT	_	_
+
+1	generale	generale	ADJ	ADJ	id=4	0	ROOT	_	_
+
+1	desiderano	desiderare	VER:pres	VER:pres	id=5	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=6	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=7	0	ROOT	_	_
+
+1	forma	forma	NOM	NOM	id=8	0	ROOT	_	_
+
+1	,	,	PON	PON	id=9	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=10	0	ROOT	_	_
+
+1	risponde	rispondere	VER:pres	VER:pres	id=11	0	ROOT	_	_
+
+1	Bettina	<unknown>	NOM	NOM	id=12	0	ROOT	_	_
+
+1	Borg	<unknown>	ADJ	ADJ	id=13	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=14	0	ROOT	_	_
+
+1	ma	ma	CON	CON	id=15	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=16	0	ROOT	_	_
+
+1	ritrovarsi	ritrovare	VER:infi	VER:infi	id=17	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=18	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=19	0	ROOT	_	_
+
+1	muscoli	muscolo	NOM	NOM	id=20	0	ROOT	_	_
+
+1	evidenti	evidente	ADJ	ADJ	id=21	0	ROOT	_	_
+
+1	come	come	CON	CON	id=22	0	ROOT	_	_
+
+1	andava	andare	VER:impf	VER:impf	id=23	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=24	0	ROOT	_	_
+
+1	moda	moda	NOM	NOM	id=25	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=26	0	ROOT	_	_
+
+1	decina	decina	NOM	NOM	id=27	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=28	0	ROOT	_	_
+
+1	anni	anno	NOM	NOM	id=29	0	ROOT	_	_
+
+1	fa	fare	VER:pres	VER:pres	id=30	0	ROOT	_	_
+
+1	;	;	PON	PON	id=31	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=32	0	ROOT	_	_
+
+1	tendenza	tendenza	NOM	NOM	id=33	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=34	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=35	0	ROOT	_	_
+
+1	tonici	tonico	ADJ	ADJ	id=36	0	ROOT	_	_
+
+1	e	e	CON	CON	id=37	0	ROOT	_	_
+
+1	sportivi	sportivo	ADJ	ADJ	id=38	0	ROOT	_	_
+
+1	senza	senza	PRE	PRE	id=39	0	ROOT	_	_
+
+1	un'	un'	DET:indef	DET:indef	id=40	0	ROOT	_	_
+
+1	eccessiva	eccessivo	ADJ	ADJ	id=41	0	ROOT	_	_
+
+1	muscolosità	muscolosità	NOM	NOM	id=42	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=43	0	ROOT	_	_
+
+1	Gli	il	DET:def	DET:def	id=44	0	ROOT	_	_
+
+1	uomini	uomo	NOM	NOM	id=45	0	ROOT	_	_
+
+1	aspirano	aspirare	VER:pres	VER:pres	id=46	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=47	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=48	0	ROOT	_	_
+
+1	certa	certo	ADJ	ADJ	id=49	0	ROOT	_	_
+
+1	rudezza	rudezza	NOM	NOM	id=50	0	ROOT	_	_
+
+1	pur	pur	ADV	ADV	id=51	0	ROOT	_	_
+
+1	essendo	essere	VER:geru	VER:geru	id=52	0	ROOT	_	_
+
+1	ben	goal	ADV	ADV	id=53	0	ROOT	_	_
+
+1	vestiti	vestito	ADJ	ADJ	id=54	0	ROOT	_	_
+
+1	e	e	CON	CON	id=55	0	ROOT	_	_
+
+1	curati	curato	ADJ	ADJ	id=56	0	ROOT	_	_
+
+1	;	;	PON	PON	id=57	0	ROOT	_	_
+
+1	tra	tra	PRE	PRE	id=58	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=59	0	ROOT	_	_
+
+1	modelli	modello	NOM	NOM	id=60	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=61	0	ROOT	_	_
+
+1	cui	cui	PRO:rela	PRO:rela	id=62	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=63	0	ROOT	_	_
+
+1	aspira	aspirare	VER:pres	VER:pres	id=64	0	ROOT	_	_
+
+1	,	,	PON	PON	id=65	0	ROOT	_	_
+
+1	c'	c'	PRO:demo	PRO:demo	id=66	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=67	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=68	0	ROOT	_	_
+
+1	tipo	tipo	NOM	NOM	id=69	0	ROOT	_	_
+
+1	gradevole	gradevole	ADJ	ADJ	id=70	0	ROOT	_	_
+
+1	e	e	CON	CON	id=71	0	ROOT	_	_
+
+1	distinto	distinguere	VER:pper	VER:pper	id=72	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=73	0	ROOT	_	_
+
+1	uomo	uomo	NOM	NOM	id=74	0	ROOT	_	_
+
+1	d'	d'	PRE	PRE	id=75	0	ROOT	_	_
+
+1	affari-	<unknown>	NOM	NOM	id=76	0	ROOT	_	_
+
+1	eccolo	<unknown>	ADJ	ADJ	id=77	0	ROOT	_	_
+
+1	-	-	PON	PON	id=78	0	ROOT	_	_
+
+1	insieme	insieme	ADV	ADV	id=79	0	ROOT	_	_
+
+1	al	al	PRE:det	PRE:det	id=80	0	ROOT	_	_
+
+1	direttore	direttore	NOM	NOM	id=81	0	ROOT	_	_
+
+1	,	,	PON	PON	id=82	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=83	0	ROOT	_	_
+
+1	avvocato	avvocato	NOM	NOM	id=84	0	ROOT	_	_
+
+1	,	,	PON	PON	id=85	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=86	0	ROOT	_	_
+
+1	lavoratore	lavoratore	NOM	NOM	id=87	0	ROOT	_	_
+
+1	?	?	SENT	SENT	id=88	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=89	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=90	0	ROOT	_	_
+
+1	Due	due	ADJ	ADJ	id=91	0	ROOT	_	_
+
+1	uomini	uomo	NOM	NOM	id=92	0	ROOT	_	_
+
+1	nel	nel	PRE:det	PRE:det	id=93	0	ROOT	_	_
+
+1	mondo	mondo	NOM	NOM	id=94	0	ROOT	_	_
+
+1	?	?	SENT	SENT	id=95	0	ROOT	_	_
+
+1	Cos'	<unknown>	NOM	NOM	id=96	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=97	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=98	0	ROOT	_	_
+
+1	ricercano	ricercare	VER:pres	VER:pres	id=99	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=100	0	ROOT	_	_
+
+1	donne	donna	NOM	NOM	id=101	0	ROOT	_	_
+
+1	?	?	SENT	SENT	id=102	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=103	0	ROOT	_	_
+
+1	giovinezza	giovinezza	NOM	NOM	id=104	0	ROOT	_	_
+
+1	?	?	SENT	SENT	id=105	0	ROOT	_	_
+
+1	Un	un	DET:indef	DET:indef	id=106	0	ROOT	_	_
+
+1	corpo	corpo	NOM	NOM	id=107	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=108	0	ROOT	_	_
+
+1	dia	dare	VER:cpre	VER:cpre	id=109	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=110	0	ROOT	_	_
+
+1	idea	idea	NOM	NOM	id=111	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=112	0	ROOT	_	_
+
+1	successo	successo	NOM	NOM	id=113	0	ROOT	_	_
+
+1	?	?	SENT	SENT	id=114	0	ROOT	_	_
+
+1	Dei	del	PRE:det	PRE:det	id=115	0	ROOT	_	_
+
+1	muscoli	muscolo	NOM	NOM	id=116	0	ROOT	_	_
+
+1	tonici	tonico	ADJ	ADJ	id=117	0	ROOT	_	_
+
+1	?	?	SENT	SENT	id=118	0	ROOT	_	_
+
+1	Sì	sì	ADV	ADV	id=119	0	ROOT	_	_
+
+1	e	e	CON	CON	id=120	0	ROOT	_	_
+
+1	no.	no.	ABR	ABR	id=121	0	ROOT	_	_
+
+1	Gli	<unknown>	NOM	NOM	id=122	0	ROOT	_	_
+
+1	ultimi	ultimo	ADJ	ADJ	id=123	0	ROOT	_	_
+
+1	anni	anno	NOM	NOM	id=124	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=125	0	ROOT	_	_
+
+1	donne	donna	NOM	NOM	id=126	0	ROOT	_	_
+
+1	hanno	avere|riavere	VER:pres	VER:pres	id=127	0	ROOT	_	_
+
+1	mostrato	mostrare	VER:pper	VER:pper	id=128	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=129	0	ROOT	_	_
+
+1	predilezione	predilezione	NOM	NOM	id=130	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=131	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=132	0	ROOT	_	_
+
+1	belli	bello	NOM	NOM	id=133	0	ROOT	_	_
+
+1	come	come	PRE	PRE	id=134	0	ROOT	_	_
+
+1	Patrick	Patrick	NPR	NPR	id=135	0	ROOT	_	_
+
+1	Swayze	<unknown>	NOM	NOM	id=136	0	ROOT	_	_
+
+1	(	(	PON	PON	id=137	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=138	0	ROOT	_	_
+
+1	Ghost	<unknown>	NOM	NOM	id=139	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=140	0	ROOT	_	_
+
+1	e	e	CON	CON	id=141	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=142	0	ROOT	_	_
+
+1	Point	Point	NPR	NPR	id=143	0	ROOT	_	_
+
+1	Break	break	NOM	NOM	id=144	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=145	0	ROOT	_	_
+
+1	)	)	PON	PON	id=146	0	ROOT	_	_
+
+1	,	,	PON	PON	id=147	0	ROOT	_	_
+
+1	Richard	Richard	NPR	NPR	id=148	0	ROOT	_	_
+
+1	Gere	<unknown>	ADJ	ADJ	id=149	0	ROOT	_	_
+
+1	(	(	PON	PON	id=150	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=151	0	ROOT	_	_
+
+1	Pretty	<unknown>	NOM	NOM	id=152	0	ROOT	_	_
+
+1	Woman	<unknown>	NOM	NOM	id=153	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=154	0	ROOT	_	_
+
+1	)	)	PON	PON	id=155	0	ROOT	_	_
+
+1	e	e	CON	CON	id=156	0	ROOT	_	_
+
+1	Kevin	Kevin	NPR	NPR	id=157	0	ROOT	_	_
+
+1	Costner	<unknown>	NOM	NOM	id=158	0	ROOT	_	_
+
+1	(	(	PON	PON	id=159	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=160	0	ROOT	_	_
+
+1	Danser	<unknown>	NOM	NOM	id=161	0	ROOT	_	_
+
+1	med	<unknown>	NOM	NOM	id=162	0	ROOT	_	_
+
+1	Ulve	<unknown>	ADJ	ADJ	id=163	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=164	0	ROOT	_	_
+
+1	,	,	PON	PON	id=165	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=166	0	ROOT	_	_
+
+1	JFK	<unknown>	NOM	NOM	id=167	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=168	0	ROOT	_	_
+
+1	)	)	PON	PON	id=169	0	ROOT	_	_
+
+1	-	-	PON	PON	id=170	0	ROOT	_	_
+
+1	cioè	cioè	ADV	ADV	id=171	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=172	0	ROOT	_	_
+
+1	giovani	giovane	ADJ	ADJ	id=173	0	ROOT	_	_
+
+1	uomini	uomo	NOM	NOM	id=174	0	ROOT	_	_
+
+1	piacenti	piacere	VER:ppre	VER:ppre	id=175	0	ROOT	_	_
+
+1	e	e	CON	CON	id=176	0	ROOT	_	_
+
+1	determinati	determinato	ADJ	ADJ	id=177	0	ROOT	_	_
+
+1	,	,	PON	PON	id=178	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=179	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=180	0	ROOT	_	_
+
+1	hanno	avere|riavere	VER:pres	VER:pres	id=181	0	ROOT	_	_
+
+1	certo	certo	ADV	ADV	id=182	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=183	0	ROOT	_	_
+
+1	corpo	corpo	NOM	NOM	id=184	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=185	0	ROOT	_	_
+
+1	supermuscolosi	<unknown>	VER:pper	VER:pper	id=186	0	ROOT	_	_
+
+1	degli	del	PRE:det	PRE:det	id=187	0	ROOT	_	_
+
+1	anni	anno	NOM	NOM	id=188	0	ROOT	_	_
+
+1	Ottanta	ottanta	ADJ	ADJ	id=189	0	ROOT	_	_
+
+1	,	,	PON	PON	id=190	0	ROOT	_	_
+
+1	Sylvester	<unknown>	NOM	NOM	id=191	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=192	0	ROOT	_	_
+
+1	Rambo	<unknown>	NOM	NOM	id=193	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=194	0	ROOT	_	_
+
+1	Stallone	stallone	NOM	NOM	id=195	0	ROOT	_	_
+
+1	e	e	CON	CON	id=196	0	ROOT	_	_
+
+1	Arnold	<unknown>	NOM	NOM	id=197	0	ROOT	_	_
+
+1	Schwarzenegger	<unknown>	NOM	NOM	id=198	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=199	0	ROOT	_	_
+

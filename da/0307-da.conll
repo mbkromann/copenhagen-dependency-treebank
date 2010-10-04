@@ -115,7 +115,7 @@
 6	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=167	2	preds	_	_
 7	utroligt	utrolig	AN	ANPNSU=IU	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=168	6	attr	_	_
 8	pres	pres	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=169	6	nobj	_	_
-9	på	på	SP	SP	id=170	8	pobj.dobj	_	_
+9	på	på	SP	SP	id=170	0	ROOT	_	_
 10	vore	vores	PO	PO1[CN]PUPNF	person=1|gender=common/neuter|number=plur|case=unmarked|possessor=plur|reflexive=no|register=formal|id=171	9	nobj	_	_
 11	unge	ung	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=172	10	other	_	_
 12	.	.	XP	XP	id=173	2	pnct	_	_

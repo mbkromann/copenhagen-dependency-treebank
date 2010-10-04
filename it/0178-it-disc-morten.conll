@@ -1,0 +1,458 @@
+1	Il	il	DET:def	DET:def	id=2	0	ROOT	_	_
+
+1	gruppo	gruppo	NOM	NOM	id=3	0	ROOT	_	_
+
+1	critico	critico	ADJ	ADJ	id=4	0	ROOT	_	_
+
+1	degli	del	PRE:det	PRE:det	id=5	0	ROOT	_	_
+
+1	azionisti	azionista	NOM	NOM	id=6	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=7	0	ROOT	_	_
+
+1	composto	comporre	VER:pper	VER:pper	id=8	0	ROOT	_	_
+
+1	tra	tra	PRE	PRE	id=9	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=10	0	ROOT	_	_
+
+1	altri	altro	ADJ	ADJ	id=11	0	ROOT	_	_
+
+1	dall'	dal	PRE:det	PRE:det	id=12	0	ROOT	_	_
+
+1	emigrato	emigrato	NOM	NOM	id=13	0	ROOT	_	_
+
+1	danese	danese	ADJ	ADJ	id=14	0	ROOT	_	_
+
+1	Finn	finn	NOM	NOM	id=15	0	ROOT	_	_
+
+1	Harald	<unknown>	NOM	NOM	id=16	0	ROOT	_	_
+
+1	Simonse	<unknown>	ADJ	ADJ	id=17	0	ROOT	_	_
+
+1	,	,	PON	PON	id=18	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=19	0	ROOT	_	_
+
+1	commerciante	commerciante	NOM	NOM	id=20	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=21	0	ROOT	_	_
+
+1	tappeti	tappeto	NOM	NOM	id=22	0	ROOT	_	_
+
+1	Ole	Ole	NPR	NPR	id=23	0	ROOT	_	_
+
+1	Jensen	Jensen	NPR	NPR	id=24	0	ROOT	_	_
+
+1	e	e	CON	CON	id=25	0	ROOT	_	_
+
+1	dall'	dal	PRE:det	PRE:det	id=26	0	ROOT	_	_
+
+1	ex	ex	ADJ	ADJ	id=27	0	ROOT	_	_
+
+1	socio	socio	NOM	NOM	id=28	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=29	0	ROOT	_	_
+
+1	Riskær	<unknown>	NOM	NOM	id=30	0	ROOT	_	_
+
+1	,	,	PON	PON	id=31	0	ROOT	_	_
+
+1	Peder	<unknown>	NOM	NOM	id=32	0	ROOT	_	_
+
+1	Hauch	<unknown>	NOM	NOM	id=33	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=34	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=39	0	ROOT	_	_
+
+1	capitale	capitale	NOM	NOM	id=40	0	ROOT	_	_
+
+1	sociale	sociale	ADJ	ADJ	id=41	0	ROOT	_	_
+
+1	ammonta	ammontare	VER:pres	VER:pres	id=42	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=43	0	ROOT	_	_
+
+1	483	@card@	NUM	NUM	id=44	0	ROOT	_	_
+
+1	milioni	milione	NOM	NOM	id=45	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=46	0	ROOT	_	_
+
+1	corone	corona	NOM	NOM	id=47	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=48	0	ROOT	_	_
+
+1	Klaus	Klaus	NPR	NPR	id=53	0	ROOT	_	_
+
+1	Riskær	<unknown>	NOM	NOM	id=54	0	ROOT	_	_
+
+1	possiede	possedere	VER:pres	VER:pres	id=55	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=56	0	ROOT	_	_
+
+1	metà	metà	NOM	NOM	id=57	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=58	0	ROOT	_	_
+
+1	Accumulator	<unknown>	ADJ	ADJ	id=59	0	ROOT	_	_
+
+1	Invest	<unknown>	NOM	NOM	id=60	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=61	0	ROOT	_	_
+
+1	In	in	PRE	PRE	id=64	0	ROOT	_	_
+
+1	diverse	diverso	ADJ	ADJ	id=65	0	ROOT	_	_
+
+1	occasioni	occasione	NOM	NOM	id=66	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=67	0	ROOT	_	_
+
+1	sottolineato	sottolineare	VER:pper	VER:pper	id=68	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=69	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=70	0	ROOT	_	_
+
+1	società	società	NOM	NOM	id=71	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=72	0	ROOT	_	_
+
+1	economicamente	economicamente	ADV	ADV	id=73	0	ROOT	_	_
+
+1	sana	sano	ADJ	ADJ	id=74	0	ROOT	_	_
+
+1	e	e	CON	CON	id=75	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=76	0	ROOT	_	_
+
+1	egli	egli	PRO:pers	PRO:pers	id=77	0	ROOT	_	_
+
+1	stesso	stesso	ADJ	ADJ	id=78	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=79	0	ROOT	_	_
+
+1	benestante	benestante	ADJ	ADJ	id=80	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=81	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=84	0	ROOT	_	_
+
+1	comunicazione	comunicazione	NOM	NOM	id=85	0	ROOT	_	_
+
+1	semestrale	semestrale	ADJ	ADJ	id=86	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=87	0	ROOT	_	_
+
+1	ultimo	ultimo	ADJ	ADJ	id=88	0	ROOT	_	_
+
+1	esercizio	esercizio	NOM	NOM	id=89	0	ROOT	_	_
+
+1	sociale	sociale	ADJ	ADJ	id=90	0	ROOT	_	_
+
+1	relativa	relativo	ADJ	ADJ	id=91	0	ROOT	_	_
+
+1	ai	al	PRE:det	PRE:det	id=92	0	ROOT	_	_
+
+1	primi	primo	ADJ	ADJ	id=93	0	ROOT	_	_
+
+1	sei	sei	ADJ	ADJ	id=94	0	ROOT	_	_
+
+1	mesi	mese	NOM	NOM	id=95	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=96	0	ROOT	_	_
+
+1	1991	@card@	NUM	NUM	id=97	0	ROOT	_	_
+
+1	indicava	indicare	VER:impf	VER:impf	id=98	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=99	0	ROOT	_	_
+
+1	capitale	capitale	NOM	NOM	id=100	0	ROOT	_	_
+
+1	sociale	sociale	ADJ	ADJ	id=101	0	ROOT	_	_
+
+1	previsto	prevedere	VER:pper	VER:pper	id=102	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=103	0	ROOT	_	_
+
+1	483	@card@	NUM	NUM	id=104	0	ROOT	_	_
+
+1	milioni	milione	NOM	NOM	id=105	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=106	0	ROOT	_	_
+
+1	corone	corona	NOM	NOM	id=107	0	ROOT	_	_
+
+1	già	già	ADV	ADV	id=108	0	ROOT	_	_
+
+1	nella	nel	PRE:det	PRE:det	id=109	0	ROOT	_	_
+
+1	seconda	secondo	ADJ	ADJ	id=110	0	ROOT	_	_
+
+1	registrazione	registrazione	NOM	NOM	id=111	0	ROOT	_	_
+
+1	contabile	contabile	ADJ	ADJ	id=112	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=113	0	ROOT	_	_
+
+1	Nel	nel	PRE:det	PRE:det	id=118	0	ROOT	_	_
+
+1	comunicato	comunicato	NOM	NOM	id=119	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=120	0	ROOT	_	_
+
+1	Accumulator	<unknown>	ADJ	ADJ	id=121	0	ROOT	_	_
+
+1	Invest	<unknown>	NOM	NOM	id=122	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=123	0	ROOT	_	_
+
+1	Fondsbørsen	<unknown>	NOM	NOM	id=124	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=125	0	ROOT	_	_
+
+1	indica	indire	VER:cpre	VER:cpre	id=126	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=127	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=128	0	ROOT	_	_
+
+1	richiesta	richiesta	NOM	NOM	id=129	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=130	0	ROOT	_	_
+
+1	gruppo	gruppo	NOM	NOM	id=131	0	ROOT	_	_
+
+1	degli	del	PRE:det	PRE:det	id=132	0	ROOT	_	_
+
+1	azionisti	azionista	NOM	NOM	id=133	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=134	0	ROOT	_	_
+
+1	convocare	convocare	VER:infi	VER:infi	id=135	0	ROOT	_	_
+
+1	un'	un'	DET:indef	DET:indef	id=136	0	ROOT	_	_
+
+1	assemblea	assemblea	NOM	NOM	id=137	0	ROOT	_	_
+
+1	generale	generale	ADJ	ADJ	id=138	0	ROOT	_	_
+
+1	straordinaria	straordinario	ADJ	ADJ	id=139	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=140	0	ROOT	_	_
+
+1	può	potere	VER:pres	VER:pres	id=141	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=142	0	ROOT	_	_
+
+1	accolta	accogliere	VER:pper	VER:pper	id=143	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=144	0	ROOT	_	_
+
+1	Così	così	ADV	ADV	id=147	0	ROOT	_	_
+
+1	ha	avere|riavere	VER:pres	VER:pres	id=148	0	ROOT	_	_
+
+1	deciso	decidere	VER:pper	VER:pper	id=149	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=150	0	ROOT	_	_
+
+1	direzione	direzione	NOM	NOM	id=151	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=152	0	ROOT	_	_
+
+1	Accumulator	<unknown>	ADJ	ADJ	id=153	0	ROOT	_	_
+
+1	Invest	<unknown>	NOM	NOM	id=154	0	ROOT	_	_
+
+1	facendo	fare	VER:geru	VER:geru	id=155	0	ROOT	_	_
+
+1	riferimento	riferimento	NOM	NOM	id=156	0	ROOT	_	_
+
+1	alla	al	PRE:det	PRE:det	id=157	0	ROOT	_	_
+
+1	conferma	confermare	VER:impe	VER:impe	id=158	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=159	0	ROOT	_	_
+
+1	avvocato	avvocato	NOM	NOM	id=160	0	ROOT	_	_
+
+1	Ebbe	<unknown>	VER:cond	VER:cond	id=161	0	ROOT	_	_
+
+1	Mogensen	<unknown>	NOM	NOM	id=162	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=163	0	ROOT	_	_
+
+1	17	@card@	NUM	NUM	id=164	0	ROOT	_	_
+
+1	settembre	settembre	NOM	NOM	id=165	0	ROOT	_	_
+
+1	,	,	PON	PON	id=166	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=167	0	ROOT	_	_
+
+1	sostiene	sostenere	VER:pres	VER:pres	id=168	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=169	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=170	0	ROOT	_	_
+
+1	richiesta	richiesta	NOM	NOM	id=171	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=172	0	ROOT	_	_
+
+1	stata	essere|stare	VER:pper	VER:pper	id=173	0	ROOT	_	_
+
+1	ritirata	ritirare	VER:pper	VER:pper	id=174	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=175	0	ROOT	_	_
+
+1	Villa	villa	NOM	NOM	id=180	0	ROOT	_	_
+
+1	,	,	PON	PON	id=181	0	ROOT	_	_
+
+1	aereo	aereo	ADJ	ADJ	id=182	0	ROOT	_	_
+
+1	e	e	CON	CON	id=183	0	ROOT	_	_
+
+1	automobili	automobile	ADJ	ADJ	id=184	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=189	0	ROOT	_	_
+
+1	gruppo	gruppo	NOM	NOM	id=190	0	ROOT	_	_
+
+1	degli	del	PRE:det	PRE:det	id=191	0	ROOT	_	_
+
+1	azionisti	azionista	NOM	NOM	id=192	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=193	0	ROOT	_	_
+
+1	amareggiato	amareggiare	VER:pper	VER:pper	id=194	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=195	0	ROOT	_	_
+
+1	fatto	fatto	NOM	NOM	id=196	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=197	0	ROOT	_	_
+
+1	Klaus	Klaus	NPR	NPR	id=198	0	ROOT	_	_
+
+1	Riskær	<unknown>	ADJ	ADJ	id=199	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=200	0	ROOT	_	_
+
+1	qualità	qualità	NOM	NOM	id=201	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=202	0	ROOT	_	_
+
+1	presidente	presidente	NOM	NOM	id=203	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=204	0	ROOT	_	_
+
+1	Consiglio	consiglio	NOM	NOM	id=205	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=206	0	ROOT	_	_
+
+1	amministrazione	amministrazione	NOM	NOM	id=207	0	ROOT	_	_
+
+1	possa	potere	VER:cpre	VER:cpre	id=208	0	ROOT	_	_
+
+1	vivere	vivere	VER:infi	VER:infi	id=209	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=210	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=211	0	ROOT	_	_
+
+1	villa	villa	NOM	NOM	id=212	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=213	0	ROOT	_	_
+
+1	27	@card@	NUM	NUM	id=214	0	ROOT	_	_
+
+1	milioni	milione	NOM	NOM	id=215	0	ROOT	_	_
+
+1	,	,	PON	PON	id=216	0	ROOT	_	_
+
+1	avere	avere|riavere	VER:infi	VER:infi	id=217	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=218	0	ROOT	_	_
+
+1	aereo	aereo	ADJ	ADJ	id=219	0	ROOT	_	_
+
+1	e	e	CON	CON	id=220	0	ROOT	_	_
+
+1	diverse	diverso	ADJ	ADJ	id=221	0	ROOT	_	_
+
+1	automobili	automobile	NOM	NOM	id=222	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=223	0	ROOT	_	_
+
+1	disposizione	disposizione	NOM	NOM	id=224	0	ROOT	_	_
+
+1	,	,	PON	PON	id=225	0	ROOT	_	_
+
+1	così	così	ADV	ADV	id=226	0	ROOT	_	_
+
+1	come	come	CON	CON	id=227	0	ROOT	_	_
+
+1	esprimono	esprimere	VER:pres	VER:pres	id=228	0	ROOT	_	_
+
+1	incertezza	incertezza	NOM	NOM	id=229	0	ROOT	_	_
+
+1	nei	nel	PRE:det	PRE:det	id=230	0	ROOT	_	_
+
+1	riguardi	riguardo	NOM	NOM	id=231	0	ROOT	_	_
+
+1	dell'	del	PRE:det	PRE:det	id=232	0	ROOT	_	_
+
+1	acquisto	acquisto	NOM	NOM	id=233	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=234	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=235	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=236	0	ROOT	_	_
+
+1	Klaus	Klaus	NPR	NPR	id=237	0	ROOT	_	_
+
+1	Riskær	<unknown>	ADJ	ADJ	id=238	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=239	0	ROOT	_	_
+
+1	De	De	NPR	NPR	id=240	0	ROOT	_	_
+
+1	Bergske	<unknown>	ADJ	ADJ	id=241	0	ROOT	_	_
+
+1	Blade	<unknown>	ADJ	ADJ	id=242	0	ROOT	_	_
+
+1	,	,	PON	PON	id=243	0	ROOT	_	_
+
+1	e	e	CON	CON	id=244	0	ROOT	_	_
+
+1	se	se	CON	CON	id=245	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=246	0	ROOT	_	_
+
+1	investimento	investimento	NOM	NOM	id=247	0	ROOT	_	_
+
+1	verrà	venire	VER:futu	VER:futu	id=248	0	ROOT	_	_
+
+1	veramente	veramente	ADV	ADV	id=249	0	ROOT	_	_
+
+1	tenuto	tenere	VER:pper	VER:pper	id=250	0	ROOT	_	_
+
+1	separato	separare	VER:pper	VER:pper	id=251	0	ROOT	_	_
+
+1	dai	dal	PRE:det	PRE:det	id=252	0	ROOT	_	_
+
+1	conti	conte|conto	NOM	NOM	id=253	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=254	0	ROOT	_	_
+
+1	Accumulator	<unknown>	NOM	NOM	id=255	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=256	0	ROOT	_	_
+

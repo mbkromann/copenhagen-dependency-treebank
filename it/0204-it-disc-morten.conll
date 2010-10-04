@@ -1,0 +1,378 @@
+1	La	il	DET:def	DET:def	id=2	0	ROOT	_	_
+
+1	novità	novità	NOM	NOM	id=3	0	ROOT	_	_
+
+1	determinante	determinante	ADJ	ADJ	id=4	0	ROOT	_	_
+
+1	nell'	nel	PRE:det	PRE:det	id=5	0	ROOT	_	_
+
+1	ingegneria	ingegneria	NOM	NOM	id=6	0	ROOT	_	_
+
+1	genetica	genetico	ADJ	ADJ	id=7	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=8	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=9	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=10	0	ROOT	_	_
+
+1	possono	potere	VER:pres	VER:pres	id=11	0	ROOT	_	_
+
+1	trasferire	trasferire	VER:infi	VER:infi	id=12	0	ROOT	_	_
+
+1	caratteristiche	caratteristica	NOM	NOM	id=13	0	ROOT	_	_
+
+1	ereditarie	ereditario	ADJ	ADJ	id=14	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=15	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=16	0	ROOT	_	_
+
+1	specie	specie	NOM	NOM	id=17	0	ROOT	_	_
+
+1	all'	al	PRE:det	PRE:det	id=18	0	ROOT	_	_
+
+1	altra	altro	ADJ	ADJ	id=19	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=20	0	ROOT	_	_
+
+1	In	in	PRE	PRE	id=23	0	ROOT	_	_
+
+1	tal	tale	PRO:demo	PRO:demo	id=24	0	ROOT	_	_
+
+1	modo	modo	NOM	NOM	id=25	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=26	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=27	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=28	0	ROOT	_	_
+
+1	esempio	esempio	NOM	NOM	id=29	0	ROOT	_	_
+
+1	ottenuto	ottenere	VER:pper	VER:pper	id=30	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=31	0	ROOT	_	_
+
+1	topo	topo	NOM	NOM	id=32	0	ROOT	_	_
+
+1	gigante	gigante	ADJ	ADJ	id=33	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=34	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=37	0	ROOT	_	_
+
+1	topo	topo	NOM	NOM	id=38	0	ROOT	_	_
+
+1	gigante	gigante	ADJ	ADJ	id=39	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=40	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=41	0	ROOT	_	_
+
+1	realizzato	realizzare	VER:pper	VER:pper	id=42	0	ROOT	_	_
+
+1	trasferendo	trasferire	VER:geru	VER:geru	id=43	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=44	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=45	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=46	0	ROOT	_	_
+
+1	caratteristiche	caratteristica	NOM	NOM	id=47	0	ROOT	_	_
+
+1	ereditarie	ereditario	ADJ	ADJ	id=48	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=49	0	ROOT	_	_
+
+1	adulto	adulto	NOM	NOM	id=50	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=51	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=52	0	ROOT	_	_
+
+1	ratto	ratto	NOM	NOM	id=53	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=54	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=55	0	ROOT	_	_
+
+1	topo	topo	NOM	NOM	id=56	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=57	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=60	0	ROOT	_	_
+
+1	risultato	risultato	NOM	NOM	id=61	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=62	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=63	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=64	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=65	0	ROOT	_	_
+
+1	topo	topo	NOM	NOM	id=66	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=67	0	ROOT	_	_
+
+1	diventato	diventare	VER:pper	VER:pper	id=68	0	ROOT	_	_
+
+1	grande	grande	ADJ	ADJ	id=69	0	ROOT	_	_
+
+1	quasi	quasi	ADV	ADV	id=70	0	ROOT	_	_
+
+1	come	come	CON	CON	id=71	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=72	0	ROOT	_	_
+
+1	ratto	ratto	NOM	NOM	id=73	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=74	0	ROOT	_	_
+
+1	Nelle	nel	PRE:det	PRE:det	id=79	0	ROOT	_	_
+
+1	fabbriche	fabbrica	NOM	NOM	id=80	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=81	0	ROOT	_	_
+
+1	abbiamo	avere|riavere	VER:pres	VER:pres	id=82	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=83	0	ROOT	_	_
+
+1	disposizione	disposizione	NOM	NOM	id=84	0	ROOT	_	_
+
+1	oggi	oggi	ADV	ADV	id=85	0	ROOT	_	_
+
+1	,	,	PON	PON	id=86	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=87	0	ROOT	_	_
+
+1	materie	materia	NOM	NOM	id=88	0	ROOT	_	_
+
+1	prime	primo	ADJ	ADJ	id=89	0	ROOT	_	_
+
+1	vengono	venire	VER:pres	VER:pres	id=90	0	ROOT	_	_
+
+1	convertite	convertire	VER:pper	VER:pper	id=91	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=92	0	ROOT	_	_
+
+1	nuovi	nuovo	ADJ	ADJ	id=93	0	ROOT	_	_
+
+1	prodotti	prodotto	NOM	NOM	id=94	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=95	0	ROOT	_	_
+
+1	I	il	DET:def	DET:def	id=98	0	ROOT	_	_
+
+1	fagioli	fagiolo	NOM	NOM	id=99	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=100	0	ROOT	_	_
+
+1	soia	soia	NOM	NOM	id=101	0	ROOT	_	_
+
+1	diventano	diventare	VER:pres	VER:pres	id=102	0	ROOT	_	_
+
+1	olio	olio	NOM	NOM	id=103	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=104	0	ROOT	_	_
+
+1	condire	condire	VER:infi	VER:infi	id=105	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=106	0	ROOT	_	_
+
+1	insalata	insalata	NOM	NOM	id=107	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=108	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=111	0	ROOT	_	_
+
+1	legno	legno	NOM	NOM	id=112	0	ROOT	_	_
+
+1	diventa	diventare	VER:pres	VER:pres	id=113	0	ROOT	_	_
+
+1	carta	carta	NOM	NOM	id=114	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=115	0	ROOT	_	_
+
+1	Nelle	nel	PRE:det	PRE:det	id=118	0	ROOT	_	_
+
+1	fabbriche	fabbrica	NOM	NOM	id=119	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=120	0	ROOT	_	_
+
+1	futuro	futuro	NOM	NOM	id=121	0	ROOT	_	_
+
+1	saranno	essere	VER:futu	VER:futu	id=122	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=123	0	ROOT	_	_
+
+1	organismi	organismo	NOM	NOM	id=124	0	ROOT	_	_
+
+1	geneticamente	geneticamente	ADV	ADV	id=125	0	ROOT	_	_
+
+1	modificati	modificare	VER:pper	VER:pper	id=126	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=127	0	ROOT	_	_
+
+1	trasformare	trasformare	VER:infi	VER:infi	id=128	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=129	0	ROOT	_	_
+
+1	materie	materia	NOM	NOM	id=130	0	ROOT	_	_
+
+1	prime	primo	ADJ	ADJ	id=131	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=132	0	ROOT	_	_
+
+1	prodotti	prodotto	NOM	NOM	id=133	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=134	0	ROOT	_	_
+
+1	E	e	CON	CON	id=139	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=140	0	ROOT	_	_
+
+1	industria	industria	NOM	NOM	id=141	0	ROOT	_	_
+
+1	danese	danese	ADJ	ADJ	id=142	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=143	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=144	0	ROOT	_	_
+
+1	prima	primo	ADJ	ADJ	id=145	0	ROOT	_	_
+
+1	fila	fila|filo	NOM	NOM	id=146	0	ROOT	_	_
+
+1	nell'	nel	PRE:det	PRE:det	id=147	0	ROOT	_	_
+
+1	evoluzione	evoluzione	NOM	NOM	id=148	0	ROOT	_	_
+
+1	tecnologica	tecnologico	ADJ	ADJ	id=149	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=150	0	ROOT	_	_
+
+1	Nel	nel	PRE:det	PRE:det	id=153	0	ROOT	_	_
+
+1	1987	@card@	NUM	NUM	id=154	0	ROOT	_	_
+
+1	si	si	PRO:pers	PRO:pers	id=155	0	ROOT	_	_
+
+1	calcola	calcolare	VER:pres	VER:pres	id=156	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=157	0	ROOT	_	_
+
+1	poter	potere	VER:infi	VER:infi	id=158	0	ROOT	_	_
+
+1	iniziare	iniziare	VER:infi	VER:infi	id=159	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=160	0	ROOT	_	_
+
+1	prima	primo	ADJ	ADJ	id=161	0	ROOT	_	_
+
+1	produzione	produzione	NOM	NOM	id=162	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=163	0	ROOT	_	_
+
+1	organismi	organismo	NOM	NOM	id=164	0	ROOT	_	_
+
+1	geneticamente	geneticamente	ADV	ADV	id=165	0	ROOT	_	_
+
+1	modificati	modificare	VER:pper	VER:pper	id=166	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=167	0	ROOT	_	_
+
+1	Tutte	tutto	ADJ	ADJ	id=170	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=171	0	ROOT	_	_
+
+1	previsioni	previsione	NOM	NOM	id=172	0	ROOT	_	_
+
+1	e	e	CON	CON	id=173	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=174	0	ROOT	_	_
+
+1	esperienze	esperienza	NOM	NOM	id=175	0	ROOT	_	_
+
+1	estere	estero	ADJ	ADJ	id=176	0	ROOT	_	_
+
+1	dicono	dire	VER:pres	VER:pres	id=177	0	ROOT	_	_
+
+1	che	che	CON	CON	id=178	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=179	0	ROOT	_	_
+
+1	passerà	passare	VER:futu	VER:futu	id=180	0	ROOT	_	_
+
+1	molto	molto	ADV	ADV	id=181	0	ROOT	_	_
+
+1	tra	tra	PRE	PRE	id=182	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=183	0	ROOT	_	_
+
+1	prima	primo	ADJ	ADJ	id=184	0	ROOT	_	_
+
+1	produzione	produzione	NOM	NOM	id=185	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=186	0	ROOT	_	_
+
+1	organismi	organismo	NOM	NOM	id=187	0	ROOT	_	_
+
+1	geneticamente	geneticamente	ADV	ADV	id=188	0	ROOT	_	_
+
+1	modificati	modificare	VER:pper	VER:pper	id=189	0	ROOT	_	_
+
+1	e	e	CON	CON	id=190	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=191	0	ROOT	_	_
+
+1	successiva	successivo	ADJ	ADJ	id=192	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=193	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=196	0	ROOT	_	_
+
+1	ricerca	ricerca	NOM	NOM	id=197	0	ROOT	_	_
+
+1	procede	procedere	VER:pres	VER:pres	id=198	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=199	0	ROOT	_	_
+
+1	tantissimi	<unknown>	ADJ	ADJ	id=200	0	ROOT	_	_
+
+1	settori	settore	NOM	NOM	id=201	0	ROOT	_	_
+
+1	e	e	CON	CON	id=202	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=203	0	ROOT	_	_
+
+1	molti	molto	ADJ	ADJ	id=204	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=205	0	ROOT	_	_
+
+1	risultati	risultato	NOM	NOM	id=206	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=207	0	ROOT	_	_
+
+1	indicano	indicare	VER:pres	VER:pres	id=208	0	ROOT	_	_
+
+1	produzioni	produzione	NOM	NOM	id=209	0	ROOT	_	_
+
+1	promettenti	promettente	ADJ	ADJ	id=210	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=211	0	ROOT	_	_
+
+1	Danimarca	Danimarca	NPR	NPR	id=212	0	ROOT	_	_
+
+1	e	e	CON	CON	id=213	0	ROOT	_	_
+
+1	all'	al	PRE:det	PRE:det	id=214	0	ROOT	_	_
+
+1	estero	estero	NOM	NOM	id=215	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=216	0	ROOT	_	_
+

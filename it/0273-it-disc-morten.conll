@@ -1,0 +1,436 @@
+1	Inger	Inger	NPR	NPR	id=2	0	ROOT	_	_
+
+1	:	:	PON	PON	id=3	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=4	0	ROOT	_	_
+
+1	È	<unknown>	NOM	NOM	id=5	0	ROOT	_	_
+
+1	pura	puro	ADJ	ADJ	id=6	0	ROOT	_	_
+
+1	e	e	CON	CON	id=7	0	ROOT	_	_
+
+1	semplice	semplice	ADJ	ADJ	id=8	0	ROOT	_	_
+
+1	invidia	invidia	NOM	NOM	id=9	0	ROOT	_	_
+
+1	,	,	PON	PON	id=10	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=11	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=12	0	ROOT	_	_
+
+1	i	il	DET:def	DET:def	id=13	0	ROOT	_	_
+
+1	giornalisti	giornalista	NOM	NOM	id=14	0	ROOT	_	_
+
+1	sportivi	sportivo	ADJ	ADJ	id=15	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=16	0	ROOT	_	_
+
+1	parlano	parlare	VER:pres	VER:pres	id=17	0	ROOT	_	_
+
+1	mai	mai	ADV	ADV	id=18	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=19	0	ROOT	_	_
+
+1	campionati	campionato	NOM	NOM	id=20	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=21	0	ROOT	_	_
+
+1	body	body	NOM	NOM	id=22	0	ROOT	_	_
+
+1	building	<unknown>	NOM	NOM	id=23	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=24	0	ROOT	_	_
+
+1	Sono	essere|sonare	VER:pres	VER:pres	id=27	0	ROOT	_	_
+
+1	gelosi	geloso	ADJ	ADJ	id=28	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=29	0	ROOT	_	_
+
+1	fatto	fatto	NOM	NOM	id=30	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=31	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=32	0	ROOT	_	_
+
+1	hanno	avere|riavere	VER:pres	VER:pres	id=33	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=34	0	ROOT	_	_
+
+1	corpo	corpo	NOM	NOM	id=35	0	ROOT	_	_
+
+1	altrettanto	altrettanto	ADV	ADV	id=36	0	ROOT	_	_
+
+1	muscoloso	muscoloso	ADJ	ADJ	id=37	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=38	0	ROOT	_	_
+
+1	Si	si	PRO:pers	PRO:pers	id=41	0	ROOT	_	_
+
+1	parla	parlare	VER:pres	VER:pres	id=42	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=43	0	ROOT	_	_
+
+1	body	body	NOM	NOM	id=44	0	ROOT	_	_
+
+1	building	<unknown>	NOM	NOM	id=45	0	ROOT	_	_
+
+1	solo	solo	ADJ	ADJ	id=46	0	ROOT	_	_
+
+1	quando	quando	CON	CON	id=47	0	ROOT	_	_
+
+1	c'	c'	PRO:demo	PRO:demo	id=48	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=49	0	ROOT	_	_
+
+1	uno	uno	DET:indef	DET:indef	id=50	0	ROOT	_	_
+
+1	scandalo	scandalo	NOM	NOM	id=51	0	ROOT	_	_
+
+1	sull'	sul	PRE:det	PRE:det	id=52	0	ROOT	_	_
+
+1	abuso	abuso	NOM	NOM	id=53	0	ROOT	_	_
+
+1	degli	del	PRE:det	PRE:det	id=54	0	ROOT	_	_
+
+1	ormoni	ormone	NOM	NOM	id=55	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=56	0	ROOT	_	_
+
+1	Anche	anche	ADV	ADV	id=59	0	ROOT	_	_
+
+1	se	se	CON	CON	id=60	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=61	0	ROOT	_	_
+
+1	tratta	trattare	VER:pres	VER:pres	id=62	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=63	0	ROOT	_	_
+
+1	eccezioni	eccezione	NOM	NOM	id=64	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=65	0	ROOT	_	_
+
+1	È	<unknown>	NOM	NOM	id=68	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=69	0	ROOT	_	_
+
+1	tipico	tipico	ADJ	ADJ	id=70	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=71	0	ROOT	_	_
+
+1	dopo	dopo	ADV	ADV	id=72	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=73	0	ROOT	_	_
+
+1	nostro	nostro	PRO:poss	PRO:poss	id=74	0	ROOT	_	_
+
+1	intervento	intervento	NOM	NOM	id=75	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=76	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=77	0	ROOT	_	_
+
+1	Eleva2ren	<unknown>	NOM	NOM	id=78	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=79	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=80	0	ROOT	_	_
+
+1	venerdì	venerdì	NOM	NOM	id=81	0	ROOT	_	_
+
+1	scorso	scorso	ADJ	ADJ	id=82	0	ROOT	_	_
+
+1	,	,	PON	PON	id=83	0	ROOT	_	_
+
+1	abbiano	avere|riavere	VER:cpre	VER:cpre	id=84	0	ROOT	_	_
+
+1	dovuto	dovere	VER:pper	VER:pper	id=85	0	ROOT	_	_
+
+1	prendere	prendere	VER:infi	VER:infi	id=86	0	ROOT	_	_
+
+1	quel	quel	PRO:demo	PRO:demo	id=87	0	ROOT	_	_
+
+1	ragazzo	ragazzo	NOM	NOM	id=88	0	ROOT	_	_
+
+1	groenlandese	<unknown>	ADJ	ADJ	id=89	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=90	0	ROOT	_	_
+
+1	fargli	fare	VER:infi	VER:infi	id=91	0	ROOT	_	_
+
+1	dire	dire	VER:infi	VER:infi	id=92	0	ROOT	_	_
+
+1	qualcosa	qualcosa	PRO:indef	PRO:indef	id=93	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=94	0	ROOT	_	_
+
+1	divertente	divertente	ADJ	ADJ	id=95	0	ROOT	_	_
+
+1	sui	sul	PRE:det	PRE:det	id=96	0	ROOT	_	_
+
+1	nostri	nostro	PRO:poss	PRO:poss	id=97	0	ROOT	_	_
+
+1	muscoli	muscolo	NOM	NOM	id=98	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=99	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=102	0	ROOT	_	_
+
+1	No	no	ADV	ADV	id=103	0	ROOT	_	_
+
+1	,	,	PON	PON	id=104	0	ROOT	_	_
+
+1	guarda	guardare	VER:pres	VER:pres	id=105	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=106	0	ROOT	_	_
+
+1	muscoli	muscolo	NOM	NOM	id=107	0	ROOT	_	_
+
+1	gonfiati	gonfiare	VER:pper	VER:pper	id=108	0	ROOT	_	_
+
+1	!	!	SENT	SENT	id=109	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=112	0	ROOT	_	_
+
+1	Semplicemente	semplicemente	ADV	ADV	id=113	0	ROOT	_	_
+
+1	sembra	sembrare	VER:pres	VER:pres	id=114	0	ROOT	_	_
+
+1	impensabile	impensabile	ADJ	ADJ	id=115	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=116	0	ROOT	_	_
+
+1	riusciamo	riuscire	VER:pres	VER:pres	id=117	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=118	0	ROOT	_	_
+
+1	avere	avere|riavere	VER:infi	VER:infi	id=119	0	ROOT	_	_
+
+1	questi	questo	PRO:demo	PRO:demo	id=120	0	ROOT	_	_
+
+1	muscoli	muscolo	NOM	NOM	id=121	0	ROOT	_	_
+
+1	senza	senza	PRE	PRE	id=122	0	ROOT	_	_
+
+1	imbottirci	imbottire	VER:infi	VER:infi	id=123	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=124	0	ROOT	_	_
+
+1	sostanze	sostanza	NOM	NOM	id=125	0	ROOT	_	_
+
+1	dopanti	<unknown>	ADJ	ADJ	id=126	0	ROOT	_	_
+
+1	ma	ma	CON	CON	id=127	0	ROOT	_	_
+
+1	solo	solo	ADV	ADV	id=128	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=129	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=130	0	ROOT	_	_
+
+1	allenamento	allenamento	NOM	NOM	id=131	0	ROOT	_	_
+
+1	duro	duro	ADJ	ADJ	id=132	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=133	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=138	0	ROOT	_	_
+
+1	Ma	ma	CON	CON	id=139	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=140	0	ROOT	_	_
+
+1	cosa	cosa	NOM	NOM	id=141	0	ROOT	_	_
+
+1	mirano	mirare	VER:pres	VER:pres	id=142	0	ROOT	_	_
+
+1	le	il	DET:def	DET:def	id=143	0	ROOT	_	_
+
+1	ragazze	ragazza|ragazzo	NOM	NOM	id=144	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=145	0	ROOT	_	_
+
+1	scelgono	scegliere	VER:pres	VER:pres	id=146	0	ROOT	_	_
+
+1	questo	questo	PRO:demo	PRO:demo	id=147	0	ROOT	_	_
+
+1	sport	sport	NOM	NOM	id=148	0	ROOT	_	_
+
+1	,	,	PON	PON	id=149	0	ROOT	_	_
+
+1	tradizionalmente	tradizionalmente	ADV	ADV	id=150	0	ROOT	_	_
+
+1	maschile	maschile	ADJ	ADJ	id=151	0	ROOT	_	_
+
+1	?	?	SENT	SENT	id=152	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=155	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=160	0	ROOT	_	_
+
+1	Quando	quando	ADV	ADV	id=161	0	ROOT	_	_
+
+1	ero	essere	VER:impf	VER:impf	id=162	0	ROOT	_	_
+
+1	bambina	bambino	NOM	NOM	id=163	0	ROOT	_	_
+
+1	sognavo	sognare	VER:impf	VER:impf	id=164	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=165	0	ROOT	_	_
+
+1	essere	essere	VER:infi	VER:infi	id=166	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=167	0	ROOT	_	_
+
+1	principessa	principe|principessa	NOM	NOM	id=168	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=169	0	ROOT	_	_
+
+1	vestito	vestito	NOM	NOM	id=170	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=171	0	ROOT	_	_
+
+1	raso	raso	NOM	NOM	id=172	0	ROOT	_	_
+
+1	e	e	CON	CON	id=173	0	ROOT	_	_
+
+1	tulle	tulle	NOM	NOM	id=174	0	ROOT	_	_
+
+1	,	,	PON	PON	id=175	0	ROOT	_	_
+
+1	ho	avere|riavere	VER:pres	VER:pres	id=176	0	ROOT	_	_
+
+1	seguito	seguito	NOM	NOM	id=177	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=178	0	ROOT	_	_
+
+1	corso	corso	NOM	NOM	id=179	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=180	0	ROOT	_	_
+
+1	ballo	ballo	NOM	NOM	id=181	0	ROOT	_	_
+
+1	jazz	jazz	NOM	NOM	id=182	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=183	0	ROOT	_	_
+
+1	molti	molto	PRO:indef	PRO:indef	id=184	0	ROOT	_	_
+
+1	anni	anno	NOM	NOM	id=185	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=186	0	ROOT	_	_
+
+1	,	,	PON	PON	id=187	0	ROOT	_	_
+
+1	dice	dire	VER:pres	VER:pres	id=188	0	ROOT	_	_
+
+1	Helle	<unknown>	NOM	NOM	id=189	0	ROOT	_	_
+
+1	,	,	PON	PON	id=190	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=191	0	ROOT	_	_
+
+1	oggi	oggi	ADV	ADV	id=192	0	ROOT	_	_
+
+1	dirige	dirigere	VER:pres	VER:pres	id=193	0	ROOT	_	_
+
+1	lo	il	DET:def	DET:def	id=194	0	ROOT	_	_
+
+1	Studio	studio	NOM	NOM	id=195	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=196	0	ROOT	_	_
+
+1	Better	<unknown>	NOM	NOM	id=197	0	ROOT	_	_
+
+1	Bodies	<unknown>	NOM	NOM	id=198	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=199	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=200	0	ROOT	_	_
+
+1	Køge	<unknown>	NOM	NOM	id=201	0	ROOT	_	_
+
+1	,	,	PON	PON	id=202	0	ROOT	_	_
+
+1	dove	dove	PRO:rela	PRO:rela	id=203	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=204	0	ROOT	_	_
+
+1	può	potere	VER:pres	VER:pres	id=205	0	ROOT	_	_
+
+1	fare	fare	VER:infi	VER:infi	id=206	0	ROOT	_	_
+
+1	work-out	<unknown>	NOM	NOM	id=207	0	ROOT	_	_
+
+1	,	,	PON	PON	id=208	0	ROOT	_	_
+
+1	aerobica	aerobico	ADJ	ADJ	id=209	0	ROOT	_	_
+
+1	e	e	CON	CON	id=210	0	ROOT	_	_
+
+1	body	body	NOM	NOM	id=211	0	ROOT	_	_
+
+1	building	<unknown>	NOM	NOM	id=212	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=213	0	ROOT	_	_
+
+1	"	&quot;	PON	PON	id=216	0	ROOT	_	_
+
+1	È	<unknown>	NOM	NOM	id=217	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=218	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=219	0	ROOT	_	_
+
+1	caso	caso	NOM	NOM	id=220	0	ROOT	_	_
+
+1	che	che	PRO:rela	PRO:rela	id=221	0	ROOT	_	_
+
+1	ho	avere|riavere	VER:pres	VER:pres	id=222	0	ROOT	_	_
+
+1	iniziato	iniziare	VER:pper	VER:pper	id=223	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=224	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=225	0	ROOT	_	_
+
+1	body	body	NOM	NOM	id=226	0	ROOT	_	_
+
+1	building	<unknown>	NOM	NOM	id=227	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=228	0	ROOT	_	_
+
+1	Ho	avere|riavere	VER:pres	VER:pres	id=231	0	ROOT	_	_
+
+1	iniziato	iniziare	VER:pper	VER:pper	id=232	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=233	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=234	0	ROOT	_	_
+
+1	sollevamento	sollevamento	NOM	NOM	id=235	0	ROOT	_	_
+
+1	pesi	peso	NOM	NOM	id=236	0	ROOT	_	_
+
+1	e	e	CON	CON	id=237	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=238	0	ROOT	_	_
+
+1	stata	essere|stare	VER:pper	VER:pper	id=239	0	ROOT	_	_
+
+1	invitata	invitare	VER:pper	VER:pper	id=240	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=241	0	ROOT	_	_
+
+1	provare	provare	VER:infi	VER:infi	id=242	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=243	0	ROOT	_	_
+
+1	agonismo	agonismo	NOM	NOM	id=244	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=245	0	ROOT	_	_
+

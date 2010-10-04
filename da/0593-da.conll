@@ -47,7 +47,7 @@
 
 1	Med_hensyn_til	med_hensyn_til	SP	SP	id=92	5	scene	_	_
 2	beregningen	beregning	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=93	1	nobj	_	_
-3	af	af	SP	SP	id=94	2	pobj.dobj	_	_
+3	af	af	SP	SP	id=94	0	ROOT	_	_
 4	boligydelsen	boligydelse	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=95	3	nobj	_	_
 5	tages	tage	VA	VADR=----P-	mood=indic|tense=present|voice=passive|id=96	0	ROOT	_	_
 6	der	der	U	U=	id=97	5	expl	_	_
@@ -156,7 +156,7 @@
 
 1	Skyldes	skyldes	VE	VEDR=----A-	mood=indic|tense=present|voice=active|id=208	29	cond	_	_
 2	overskridelsen	overskridelse	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=209	1	subj	_	_
-3	af	af	SP	SP	id=210	2	pobj.dobj	_	_
+3	af	af	SP	SP	id=210	0	ROOT	_	_
 4	arealgrænserne	arealgrænse	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=211	3	nobj	_	_
 5	f.eks.	for_eksempel	RG	RGU	degree=unmarked|id=212	7	exem	_	_
 6	,	,	XP	XP	id=213	1	pnct	_	_

@@ -1,0 +1,490 @@
+1	Questo	questo	PRO:demo	PRO:demo	id=2	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=3	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=4	0	ROOT	_	_
+
+1	anno	anno	NOM	NOM	id=5	0	ROOT	_	_
+
+1	dedicato	dedicare	VER:pper	VER:pper	id=6	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=7	0	ROOT	_	_
+
+1	Mozart	Mozart	NPR	NPR	id=8	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=9	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=12	0	ROOT	_	_
+
+1	galleria	galleria	NOM	NOM	id=13	0	ROOT	_	_
+
+1	d'	d'	PRE	PRE	id=14	0	ROOT	_	_
+
+1	arte	arte	NOM	NOM	id=15	0	ROOT	_	_
+
+1	celebra	celebrare	VER:pres	VER:pres	id=16	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=17	0	ROOT	_	_
+
+1	anniversario	anniversario	NOM	NOM	id=18	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=19	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=20	0	ROOT	_	_
+
+1	statua	statua	NOM	NOM	id=21	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=22	0	ROOT	_	_
+
+1	bronzo	bronzo	NOM	NOM	id=23	0	ROOT	_	_
+
+1	alta	alto	ADJ	ADJ	id=24	0	ROOT	_	_
+
+1	90	@card@	NUM	NUM	id=25	0	ROOT	_	_
+
+1	centimetri	centimetro	NOM	NOM	id=26	0	ROOT	_	_
+
+1	del	del	PRE:det	PRE:det	id=27	0	ROOT	_	_
+
+1	compositore	compositore	NOM	NOM	id=28	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=29	0	ROOT	_	_
+
+1	bambino	bambino	NOM	NOM	id=30	0	ROOT	_	_
+
+1	,	,	PON	PON	id=31	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=32	0	ROOT	_	_
+
+1	cui	cui	PRO:rela	PRO:rela	id=33	0	ROOT	_	_
+
+1	valore	valore	NOM	NOM	id=34	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=35	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=36	0	ROOT	_	_
+
+1	stimato	stimare	VER:pper	VER:pper	id=37	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=38	0	ROOT	_	_
+
+1	50.000	@card@	NUM	NUM	id=39	0	ROOT	_	_
+
+1	corone	corona	NOM	NOM	id=40	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=41	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=44	0	ROOT	_	_
+
+1	scultura	scultura	NOM	NOM	id=45	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=46	0	ROOT	_	_
+
+1	firmata	firmare	VER:pper	VER:pper	id=47	0	ROOT	_	_
+
+1	da	da	PRE	PRE	id=48	0	ROOT	_	_
+
+1	Louis	Louis	NPR	NPR	id=49	0	ROOT	_	_
+
+1	Ernest	<unknown>	NOM	NOM	id=50	0	ROOT	_	_
+
+1	Barrias	<unknown>	NOM	NOM	id=51	0	ROOT	_	_
+
+1	e	e	CON	CON	id=52	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=53	0	ROOT	_	_
+
+1	Gliptoteca	<unknown>	NOM	NOM	id=54	0	ROOT	_	_
+
+1	ne	ne	ADV	ADV	id=55	0	ROOT	_	_
+
+1	espone	esporre	VER:pres	VER:pres	id=56	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=57	0	ROOT	_	_
+
+1	simile	simile	NOM	NOM	id=58	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=59	0	ROOT	_	_
+
+1	marmo	marmo	NOM	NOM	id=60	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=61	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=64	0	ROOT	_	_
+
+1	galleria	galleria	NOM	NOM	id=65	0	ROOT	_	_
+
+1	d'	d'	PRE	PRE	id=66	0	ROOT	_	_
+
+1	arte	arte	NOM	NOM	id=67	0	ROOT	_	_
+
+1	continua	continuare	VER:pres	VER:pres	id=68	0	ROOT	_	_
+
+1	ad	ad	PRE	PRE	id=69	0	ROOT	_	_
+
+1	avere	avere|riavere	VER:infi	VER:infi	id=70	0	ROOT	_	_
+
+1	poco	poco	ADV	ADV	id=71	0	ROOT	_	_
+
+1	spazio	spazio	NOM	NOM	id=72	0	ROOT	_	_
+
+1	espositivo	espositivo	ADJ	ADJ	id=73	0	ROOT	_	_
+
+1	,	,	PON	PON	id=74	0	ROOT	_	_
+
+1	nonostante	nonostante	PRE	PRE	id=75	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=76	0	ROOT	_	_
+
+1	recente	recente	ADJ	ADJ	id=77	0	ROOT	_	_
+
+1	trasloco	trasloco	NOM	NOM	id=78	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=79	0	ROOT	_	_
+
+1	locali	locale	NOM	NOM	id=80	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=81	0	ROOT	_	_
+
+1	ampi	ampio	ADJ	ADJ	id=82	0	ROOT	_	_
+
+1	su	su	PRE	PRE	id=83	0	ROOT	_	_
+
+1	Gothersgade	<unknown>	NOM	NOM	id=84	0	ROOT	_	_
+
+1	;	;	PON	PON	id=85	0	ROOT	_	_
+
+1	neanche	neanche	ADV	ADV	id=86	0	ROOT	_	_
+
+1	qui	qui	ADV	ADV	id=87	0	ROOT	_	_
+
+1	lo	il	DET:def	DET:def	id=88	0	ROOT	_	_
+
+1	spazio	spazio	NOM	NOM	id=89	0	ROOT	_	_
+
+1	consente	consentire	VER:pres	VER:pres	id=90	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=91	0	ROOT	_	_
+
+1	esporre	esporre	VER:infi	VER:infi	id=92	0	ROOT	_	_
+
+1	molto	molto	ADV	ADV	id=93	0	ROOT	_	_
+
+1	,	,	PON	PON	id=94	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=95	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=96	0	ROOT	_	_
+
+1	conseguente	conseguire	VER:ppre	VER:ppre	id=97	0	ROOT	_	_
+
+1	ovvia	ovvia	INT	INT	id=98	0	ROOT	_	_
+
+1	limitazione	limitazione	NOM	NOM	id=99	0	ROOT	_	_
+
+1	dei	del	PRE:det	PRE:det	id=100	0	ROOT	_	_
+
+1	mobili	mobile|mobilio	NOM	NOM	id=101	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=102	0	ROOT	_	_
+
+1	mostra	mostra	NOM	NOM	id=103	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=104	0	ROOT	_	_
+
+1	Quindi	quindi	ADV	ADV	id=107	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=108	0	ROOT	_	_
+
+1	articoli	articolo	NOM	NOM	id=109	0	ROOT	_	_
+
+1	sono	essere|sonare	VER:pres	VER:pres	id=110	0	ROOT	_	_
+
+1	pochi	poco	ADJ	ADJ	id=111	0	ROOT	_	_
+
+1	,	,	PON	PON	id=112	0	ROOT	_	_
+
+1	ma	ma	CON	CON	id=113	0	ROOT	_	_
+
+1	eleganti	elegante	ADJ	ADJ	id=114	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=115	0	ROOT	_	_
+
+1	Ad	ad	PRE	PRE	id=118	0	ROOT	_	_
+
+1	esempio	esempio	NOM	NOM	id=119	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=120	0	ROOT	_	_
+
+1	paio	paio	NOM	NOM	id=121	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=122	0	ROOT	_	_
+
+1	cassettoni	cassettone	NOM	NOM	id=123	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=124	0	ROOT	_	_
+
+1	stile	stile	NOM	NOM	id=125	0	ROOT	_	_
+
+1	rococò	rococò	ADJ	ADJ	id=126	0	ROOT	_	_
+
+1	danese	danese	ADJ	ADJ	id=127	0	ROOT	_	_
+
+1	Mathias	<unknown>	NOM	NOM	id=128	0	ROOT	_	_
+
+1	Ortmann	<unknown>	NOM	NOM	id=129	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=130	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=133	0	ROOT	_	_
+
+1	primo	primo	ADJ	ADJ	id=134	0	ROOT	_	_
+
+1	,	,	PON	PON	id=135	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=136	0	ROOT	_	_
+
+1	legno	legno	NOM	NOM	id=137	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=138	0	ROOT	_	_
+
+1	rovere	rovere	NOM	NOM	id=139	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=140	0	ROOT	_	_
+
+1	lati	lato	NOM	NOM	id=141	0	ROOT	_	_
+
+1	e	e	CON	CON	id=142	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=143	0	ROOT	_	_
+
+1	frontale	frontale	ADJ	ADJ	id=144	0	ROOT	_	_
+
+1	ampi	ampio	ADJ	ADJ	id=145	0	ROOT	_	_
+
+1	,	,	PON	PON	id=146	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=147	0	ROOT	_	_
+
+1	valutato	valutare	VER:pper	VER:pper	id=148	0	ROOT	_	_
+
+1	35.000	@card@	NUM	NUM	id=149	0	ROOT	_	_
+
+1	corone	corona	NOM	NOM	id=150	0	ROOT	_	_
+
+1	,	,	PON	PON	id=151	0	ROOT	_	_
+
+1	presenta	presentare	VER:pres	VER:pres	id=152	0	ROOT	_	_
+
+1	la	il	DET:def	DET:def	id=153	0	ROOT	_	_
+
+1	parte	parte	NOM	NOM	id=154	0	ROOT	_	_
+
+1	inferiore	inferiore	ADJ	ADJ	id=155	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=156	0	ROOT	_	_
+
+1	epoca	epoca	NOM	NOM	id=157	0	ROOT	_	_
+
+1	più	più	ADV	ADV	id=158	0	ROOT	_	_
+
+1	recente	recente	ADJ	ADJ	id=159	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=160	0	ROOT	_	_
+
+1	Il	il	DET:def	DET:def	id=163	0	ROOT	_	_
+
+1	secondo	secondo	ADJ	ADJ	id=164	0	ROOT	_	_
+
+1	cassettone	cassettone	NOM	NOM	id=165	0	ROOT	_	_
+
+1	non	non	ADV	ADV	id=166	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=167	0	ROOT	_	_
+
+1	stato	essere|stare	VER:pper	VER:pper	id=168	0	ROOT	_	_
+
+1	restaurato	restaurare	VER:pper	VER:pper	id=169	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=170	0	ROOT	_	_
+
+1	modo	modo	NOM	NOM	id=171	0	ROOT	_	_
+
+1	così	così	ADV	ADV	id=172	0	ROOT	_	_
+
+1	esteso	estendere	VER:pper	VER:pper	id=173	0	ROOT	_	_
+
+1	,	,	PON	PON	id=174	0	ROOT	_	_
+
+1	anch'	anch'	ADV	ADV	id=175	0	ROOT	_	_
+
+1	esso	esso	PRO:pers	PRO:pers	id=176	0	ROOT	_	_
+
+1	è	essere	VER:pres	VER:pres	id=177	0	ROOT	_	_
+
+1	realizzato	realizzare	VER:pper	VER:pper	id=178	0	ROOT	_	_
+
+1	in	in	PRE	PRE	id=179	0	ROOT	_	_
+
+1	rovere	rovere	NOM	NOM	id=180	0	ROOT	_	_
+
+1	,	,	PON	PON	id=181	0	ROOT	_	_
+
+1	con	con	PRE	PRE	id=182	0	ROOT	_	_
+
+1	corpo	corpo	NOM	NOM	id=183	0	ROOT	_	_
+
+1	frontale	frontale	ADJ	ADJ	id=184	0	ROOT	_	_
+
+1	ondulato	ondulare	VER:pper	VER:pper	id=185	0	ROOT	_	_
+
+1	,	,	PON	PON	id=186	0	ROOT	_	_
+
+1	e	e	CON	CON	id=187	0	ROOT	_	_
+
+1	il	il	DET:def	DET:def	id=188	0	ROOT	_	_
+
+1	prezzo	prezzo	NOM	NOM	id=189	0	ROOT	_	_
+
+1	si	si	PRO:refl	PRO:refl	id=190	0	ROOT	_	_
+
+1	attesta	attestare	VER:pres	VER:pres	id=191	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=192	0	ROOT	_	_
+
+1	60.000	@card@	NUM	NUM	id=193	0	ROOT	_	_
+
+1	corone	corona	NOM	NOM	id=194	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=195	0	ROOT	_	_
+
+1	Incisioni	incisione	NOM	NOM	id=200	0	ROOT	_	_
+
+1	su	su	PRE	PRE	id=201	0	ROOT	_	_
+
+1	legno	legno	NOM	NOM	id=202	0	ROOT	_	_
+
+1	,	,	PON	PON	id=203	0	ROOT	_	_
+
+1	arte	arte	NOM	NOM	id=204	0	ROOT	_	_
+
+1	decorativa	decorativo	ADJ	ADJ	id=205	0	ROOT	_	_
+
+1	e	e	CON	CON	id=206	0	ROOT	_	_
+
+1	frammenti	frammento	NOM	NOM	id=207	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=208	0	ROOT	_	_
+
+1	papiro	papiro	NOM	NOM	id=209	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=210	0	ROOT	_	_
+
+1	Giappone	Giappone	NPR	NPR	id=211	0	ROOT	_	_
+
+1	occupano	occupare	VER:pres	VER:pres	id=212	0	ROOT	_	_
+
+1	quasi	quasi	ADV	ADV	id=213	0	ROOT	_	_
+
+1	interamente	interamente	ADV	ADV	id=214	0	ROOT	_	_
+
+1	una	una	DET:indef	DET:indef	id=215	0	ROOT	_	_
+
+1	parete	parete	NOM	NOM	id=216	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=217	0	ROOT	_	_
+
+1	I	il	DET:def	DET:def	id=220	0	ROOT	_	_
+
+1	molti	molto	ADJ	ADJ	id=221	0	ROOT	_	_
+
+1	articoli	articolo	NOM	NOM	id=222	0	ROOT	_	_
+
+1	giapponesi	giapponese	ADJ	ADJ	id=223	0	ROOT	_	_
+
+1	arrivano	arrivare	VER:pres	VER:pres	id=224	0	ROOT	_	_
+
+1	dal	dal	PRE:det	PRE:det	id=225	0	ROOT	_	_
+
+1	recentemente	recentemente	ADV	ADV	id=226	0	ROOT	_	_
+
+1	scomparso	scomparire	VER:pper	VER:pper	id=227	0	ROOT	_	_
+
+1	Poul	<unknown>	NOM	NOM	id=228	0	ROOT	_	_
+
+1	Holm	Holm	NPR	NPR	id=229	0	ROOT	_	_
+
+1	Olsen	<unknown>	NOM	NOM	id=230	0	ROOT	_	_
+
+1	,	,	PON	PON	id=231	0	ROOT	_	_
+
+1	collezionista	collezionista	NOM	NOM	id=232	0	ROOT	_	_
+
+1	,	,	PON	PON	id=233	0	ROOT	_	_
+
+1	scultore	scultore	NOM	NOM	id=234	0	ROOT	_	_
+
+1	e	e	CON	CON	id=235	0	ROOT	_	_
+
+1	lettore	lettore	NOM	NOM	id=236	0	ROOT	_	_
+
+1	presso	presso	PRE	PRE	id=237	0	ROOT	_	_
+
+1	l'	il	DET:def	DET:def	id=238	0	ROOT	_	_
+
+1	Accademia	accademia	NOM	NOM	id=239	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=240	0	ROOT	_	_
+
+1	arti	arte|arto	NOM	NOM	id=241	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=242	0	ROOT	_	_
+
+1	La	il	DET:def	DET:def	id=245	0	ROOT	_	_
+
+1	valutazione	valutazione	NOM	NOM	id=246	0	ROOT	_	_
+
+1	delle	del	PRE:det	PRE:det	id=247	0	ROOT	_	_
+
+1	incisioni	incisione	NOM	NOM	id=248	0	ROOT	_	_
+
+1	su	su	PRE	PRE	id=249	0	ROOT	_	_
+
+1	legno	legno	NOM	NOM	id=250	0	ROOT	_	_
+
+1	va	andare|riandare	VER:pres	VER:pres	id=251	0	ROOT	_	_
+
+1	dalle	dal	PRE:det	PRE:det	id=252	0	ROOT	_	_
+
+1	500	@card@	NUM	NUM	id=253	0	ROOT	_	_
+
+1	corone	corona	NOM	NOM	id=254	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=255	0	ROOT	_	_
+
+1	gli	il	DET:def	DET:def	id=256	0	ROOT	_	_
+
+1	anonimi	anonimo	ADJ	ADJ	id=257	0	ROOT	_	_
+
+1	fino	fino	CON	CON	id=258	0	ROOT	_	_
+
+1	a	a	PRE	PRE	id=259	0	ROOT	_	_
+
+1	4000	@card@	NUM	NUM	id=260	0	ROOT	_	_
+
+1	corone	corona	NOM	NOM	id=261	0	ROOT	_	_
+
+1	per	per	PRE	PRE	id=262	0	ROOT	_	_
+
+1	un	un	DET:indef	DET:indef	id=263	0	ROOT	_	_
+
+1	lavoro	lavoro	NOM	NOM	id=264	0	ROOT	_	_
+
+1	di	di	PRE	PRE	id=265	0	ROOT	_	_
+
+1	Toyokuni	<unknown>	NOM	NOM	id=266	0	ROOT	_	_
+
+1	VI	VI	NUM	NUM	id=267	0	ROOT	_	_
+
+1	.	.	SENT	SENT	id=268	0	ROOT	_	_
+
