@@ -1,0 +1,57 @@
+> errors
+3: nogov nosubj
+6: nogov
+11: nosubj
+14: nogov
+15: nosubj
+24: nogov noante
+32: nogov
+37: noante
+38: noante
+43: noante
+48: nonobj
+56: noante
+59: nogov
+61: noante
+65: noante
+73: noante
+76: nogov
+77: nogov
+    77 vobj? 76: badtype
+81: noante
+83: noante
+86: noante
+92: nogov noante
+94: noante
+99: noante
+102: noante
+112: nogov noante
+114: noante
+118: noante
+139: noante
+144: noante
+146: nogov
+150: noante
+154: noante
+162: noante
+164: noante
+171: nogov
+180: nogov
+187: nogov
+192: nogov
+194: noante
+197: nogov
+202: nogov
+203: nosubj
+213: nogov
+217: nogov noante
+221: noante
+224: nogov
+226: noante
+228: noante
+231: noante
+238: noante
+252: noante
+253: noante
+259: nosubj
+> redirect ./en/0526-en.info

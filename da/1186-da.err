@@ -1,0 +1,35 @@
+> errors
+43: nogov nosubj
+47: nosubj
+48: noante
+54: nogov
+55: noante
+67: noante
+72: nogov
+75: noante
+84: noante
+105: noante
+112: noante
+115: nogov
+116: noante
+119: nosubj
+127: noante
+137: nogov
+143: noante
+148: noante
+153: noante
+162: nogov
+174: nogov
+177: noante
+184: nosubj
+185: noante
+188: noante
+191: noante
+193: noante
+208: nosubj
+219: nogov
+227: noante
+231: noante
+246: nosubj
+249: nogov
+> redirect ./da/1186-da.info

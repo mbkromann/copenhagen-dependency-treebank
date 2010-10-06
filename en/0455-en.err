@@ -1,0 +1,74 @@
+> errors
+1: nogov
+2: noante
+6: nogov
+16: nogov
+18: noante
+23: nogov noante
+36: noante
+38: noante
+40: nogov
+42: noante
+46: noante
+48: noante
+50: noante
+52: noante
+56: nogov
+60: nogov noante
+63: noante
+65: noante
+66: noante
+68: noante
+70: noante
+72: noante
+76: nogov
+80: noante
+81: noante
+83: noante
+86: noante
+88: nogov noante
+90: noante
+94: noante
+97: noante
+99: noante
+107: noante
+111: nogov
+114: noante
+116: noante
+118: nogov
+121: noante
+127: noante
+128: nogov noante
+130: noante
+131: noante
+133: noante
+138: nogov noante
+142: nogov
+143: noante
+147: noante
+150: nonobj
+151: noante
+154: noante
+157: nosubj
+158: noante
+162: nogov
+169: nogov
+170: nonobj
+179: noante
+183: nogov
+186: noante
+187: nogov
+189: nosubj
+190: noante
+192: noante
+193: noante
+196: noante
+199: noante
+203: noante
+207: noante
+211: nogov
+214: noante
+219: nogov
+224: noante
+225: noante
+> redirect ./en/0455-en.info

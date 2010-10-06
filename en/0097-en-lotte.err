@@ -1,0 +1,27 @@
+> errors
+4: nogov
+5: noante
+17: nonobj
+28: noante
+34: noante
+48: noante
+66: noante
+91: noante
+97: noante
+115: nosubj
+117: nosubj
+118: noante
+127: noante
+130: noante
+140: noante
+170: nosubj
+172: noante
+175: noante
+186: nogov
+192: 
+    192 +CONTR:dir/but/ATTR1 151: manygovs
+    192 conj 186: manygovs
+202: noante
+204: nosubj
+215: noante
+> redirect ./en/0097-en-lotte.info

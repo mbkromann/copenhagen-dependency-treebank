@@ -1,0 +1,55 @@
+> errors
+2: nogov noante
+5: noante
+10: noante
+16: noante
+20: noante
+28: noante
+34: nogov
+35: noante
+45: noante
+47: noante
+52: noante
+58: noante
+59: noante
+64: noante
+66: noante
+70: nogov
+71: noante
+85: noante
+86: nogov
+89: noante
+91: noante
+96: noante
+103: nogov
+107: noante
+114: nogov
+117: noante
+119: noante
+127: nogov
+129: noante
+132: noante
+137: 
+    137 + 136: badtype
+139: nogov
+141: noante
+145: nogov
+147: noante
+148: noante
+151: noante
+155: noante
+161: nogov
+165: noante
+172: noante
+173: noante
+180: noante
+181: nogov
+190: noante
+196: noante
+197: nosubj
+200: noante
+203: noante
+207: nogov
+209: noante
+211: noante
+> redirect ./de/0187-de-morten.info

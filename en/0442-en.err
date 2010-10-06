@@ -1,0 +1,61 @@
+> errors
+5: nogov
+12: noante
+16: noante
+19: noante
+23: nosubj
+25: noante
+31: noante
+36: noante
+38: nogov
+42: 
+    42 pnct# 38: manygovs
+    42 attr 41: manygovs
+44: noante
+45: noante
+48: nosubj
+50: noante
+55: nosubj
+56: noante
+63: noante
+65: noante
+67: noante
+71: nosubj
+76: nogov nosubj
+84: nogov
+85: nonobj
+93: noante
+95: noante
+99: nogov
+100: noante
+107: noante
+112: noante
+114: noante
+120: nogov
+122: noante
+136: noante
+143: noante
+151: noante
+152: noante
+166: nogov
+167: noante
+172: noante
+173: nogov
+186: noante
+187: nogov
+188: nonobj
+189: noante
+190: noante
+197: noante
+201: noante
+208: noante
+215: noante
+221: noante
+226: nonobj
+228: noante
+232: noante
+237: noante
+242: noante
+247: noante
+253: noante
+> redirect ./en/0442-en.info

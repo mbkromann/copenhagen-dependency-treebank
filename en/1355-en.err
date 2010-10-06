@@ -1,0 +1,70 @@
+> errors
+1: noante
+5: noante
+6: nogov
+12: noante
+15: nogov
+22: noante
+24: nogov
+25: noante
+30: noante
+31: noante
+34: noante
+37: noante
+45: nogov
+49: noante
+53: noante
+56: noante
+59: noante
+60: nosubj
+70: nogov
+75: noante
+77: noante
+84: noante
+90: nonobj
+91: noante
+93: noante
+94: noante
+100: noante
+101: nogov
+105: nosubj
+106: nonobj
+109: noante
+115: noante
+117: noante
+126: noante
+129: noante
+133: nogov noante
+135: noante
+141: nosubj
+146: noante
+151: nogov nosubj
+156: 
+    156 pnct# 151: manygovs
+    156 nobj 154: manygovs
+160: noante
+161: nosubj
+163: nogov
+164: nonobj
+165: noante
+168: noante
+172: nosubj
+174: noante
+178: nosubj
+180: noante
+184: noante
+186: noante
+187: noante
+194: nogov
+200: noante
+203: noante
+213: noante
+214: nogov
+215: noante
+220: nosubj
+221: nonobj
+222: noante
+227: noante
+232: nosubj
+233: nonobj
+> redirect ./en/1355-en.info

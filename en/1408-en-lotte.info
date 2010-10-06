@@ -1,5 +1,17 @@
+> status
 en/1408-en-lotte.tag:
   morphology: none
   discourse: first
   syntax: outdated-final
   postag: auto
+  tokens: 191
+  sentences: 10
+
+Error counts (use "errors" command for details): 
+      2 badtype error
+      1  error
+     24 noante error
+      2 nogov error
+      4 nonobj error
+      5 nosubj error
+> redirect

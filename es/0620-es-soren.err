@@ -1,0 +1,59 @@
+> errors
+1: noante
+9: nogov
+10: nosubj
+15: noante
+20: nosubj
+22: noante
+29: noante
+34: noante
+38: noante
+40: nogov
+41: noante
+42: noante
+45: noante
+46: nogov
+48: noante
+52: nosubj
+53: nosubj
+55: nogov
+56: noante
+58: noante
+65: noante
+68: noante
+73: nosubj
+75: noante
+77: nogov nosubj
+81: nosubj
+84: nogov noante
+87: nogov
+91: nosubj
+95: noante
+96: nosubj
+106: noante
+109: noante
+    109 ³pnct² 109: manygovs
+    109 ¹pnct 110: manygovs
+    109 ²REP 110: manygovs
+110: nogov nosubj
+111: nosubj
+112: noante
+119: nogov
+120: noante
+121: nonobj
+126: noante
+129: noante
+130: nogov nosubj
+134: noante
+137: noante
+143: nogov
+144: noante
+150: noante
+151: nogov
+152: noante
+155: noante
+158: noante
+161: noante
+163: nosubj
+165: noante
+> redirect ./es/0620-es-soren.info

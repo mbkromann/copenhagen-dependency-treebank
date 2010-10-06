@@ -1,0 +1,55 @@
+> errors
+2: noante
+4: nogov
+8: noante
+9: nosubj
+12: noante
+15: nosubj
+20: noante
+23: nosubj
+28: noante
+36: noante
+42: nosubj
+45: noante
+51: noante
+57: noante
+64: noante
+67: noante
+75: noante
+80: noante
+81: noante
+85: nosubj
+90: noante
+92: noante
+98: noante
+102: noante
+123: noante
+127: noante
+133: noante
+137: nosubj
+138: noante
+141: noante
+146: nosubj
+147: nonobj
+149: noante
+158: 
+    158 + 157: badtype
+162: noante
+169: noante
+172: noante
+173: noante
+180: noante
+186: noante
+201: noante
+209: noante
+213: 
+    213 + 212: badtype
+218: noante
+232: noante
+234: noante
+237: noante
+244: noante
+250: noante
+257: noante
+261: noante
+> redirect ./en/0593-en-morten.info

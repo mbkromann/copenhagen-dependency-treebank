@@ -1,0 +1,63 @@
+> errors
+1: nogov noante
+5: 
+    5 5 4: badtype
+    5 1 4: badtype
+6: noante
+11: noante
+14: noante
+17: noante
+20: noante
+30: noante
+31: noante
+33: noante
+35: noante
+38: noante
+42: noante
+43: noante
+45: noante
+47: noante
+50: noante
+53: nonobj
+54: nosubj
+55: noante
+59: noante
+67: noante
+69: noante
+71: noante
+79: noante
+81: noante
+85: nonobj
+86: noante
+91: noante
+96: noante
+97: noante
+99: noante
+102: noante
+104: noante
+109: noante
+112: nonobj
+113: nosubj
+114: noante
+116: noante
+125: nonobj
+126: nosubj
+129: nonobj
+130: noante
+133: noante
+134: noante
+137: noante
+140: noante
+145: noante
+147: nonobj
+148: nosubj
+155: noante
+160: noante
+161: nosubj
+169: nosubj
+172: nonobj
+173: nosubj
+175: noante
+177: noante
+179: noante
+> redirect ./it/0781-it-disc-morten.info

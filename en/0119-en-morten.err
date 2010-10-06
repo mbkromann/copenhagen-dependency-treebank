@@ -1,0 +1,51 @@
+> errors
+1: noante
+3: noante
+6: nosubj
+7: nogov
+8: nonobj
+9: noante
+10: noante
+16: nonobj
+19: nosubj
+23: noante
+30: noante
+32: nosubj
+35: noante
+41: noante
+42: 
+    42 + 41: badtype
+63: noante
+68: noante
+77: noante
+91: 
+    91 {prg} 92: badtype
+96: nonobj
+103: noante
+108: noante
+118: noante
+120: nonobj
+124: nosubj
+130: noante
+137: noante
+141: noante
+159: noante
+175: noante
+178: noante
+187: 
+    187 pnct# 168: manygovs
+    187 nobj 186: manygovs
+200: nosubj
+204: noante
+210: nosubj
+217: 
+    217 pnct# 194: manygovs
+    217 nobj 216: manygovs
+223: noante
+229: noante
+245: noante
+252: nosubj
+255: nonobj
+261: noante
+264: noante
+> redirect ./en/0119-en-morten.info

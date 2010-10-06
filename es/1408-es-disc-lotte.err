@@ -1,0 +1,108 @@
+> errors
+0: noante
+    0 dobj 5: manygovs
+    0 subj 15: manygovs
+1: nogov
+2: noante
+5: nogov
+12: noante
+14: nogov
+15: nogov
+17: noante
+20: noante
+21: noante
+23: noante
+25: nogov
+27: noante
+28: nogov
+    28 pobj:other# 27: badtype
+29: noante
+35: noante
+39: noante
+43: noante
+44: nogov
+46: noante
+47: nogov
+    47 pobj:other 46: badtype
+48: noante
+50: nosubj
+53: nosubj
+54: nosubj
+55: noante
+58: nonobj
+59: nogov
+60: nosubj
+61: nosubj
+67: noante
+69: nogov nonobj
+70: nogov
+72: nogov noante
+74: nogov
+    74 pobj:other# 73: badtype
+75: noante
+78: noante
+81: nosubj
+83: noante
+86: noante
+90: nogov
+91: nogov
+94: nogov
+96: noante
+99: nogov nonobj
+100: nogov
+101: nogov
+102: nogov noante
+103: nogov nosubj
+104: nogov nonobj
+105: nogov noante
+106: nogov noante
+107: nogov nonobj
+108: nogov
+109: nogov
+111: nogov nosubj
+112: nosubj
+113: noante
+115: noante
+118: noante
+122: nosubj
+123: noante
+127: 
+    127 correl 131: manygovs
+    127 dobj 135: manygovs
+128: nogov nosubj
+132: nosubj
+135: nogov
+136: noante
+141: noante
+146: noante
+147: noante
+148: nogov
+151: noante
+155: nogov
+157: noante
+160: nogov
+    160 pobj:other# 159: badtype
+161: noante
+163: noante
+166: noante
+167: noante
+169: nogov
+171: nogov
+174: nogov
+176: noante
+179: noante
+185: noante
+188: nogov
+189: nogov
+190: noante
+192: noante
+193: nogov
+195: nosubj
+203: nogov
+    203 loc??? 202: badtype
+204: noante
+206: nosubj
+207: noante
+209: nogov nonobj
+210: nogov
+> redirect ./es/1408-es-disc-lotte.info

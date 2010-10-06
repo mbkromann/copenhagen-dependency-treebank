@@ -1,0 +1,26 @@
+> errors
+44: nogov
+47: nogov
+64: noante
+71: noante
+74: nogov
+75: noante
+85: noante
+89: noante
+93: noante
+109: noante
+111: noante
+124: nogov
+134: nogov
+135: nogov
+147: noante
+152: noante
+153: nogov
+157: noante
+172: nogov
+174: nogov
+    174 <@loc> 172: badtype
+176: nogov
+182: noante
+204: nogov
+> redirect ./da/0685-da-lotte.info

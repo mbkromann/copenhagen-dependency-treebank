@@ -1,0 +1,63 @@
+> errors
+1: nogov nosubj
+4: nogov
+10: noante
+11: noante
+12: noante
+14: noante
+15: nosubj
+17: noante
+19: noante
+21: noante
+22: nosubj
+26: noante
+28: noante
+32: 
+    32 pnct# 27: manygovs
+    32 attr 31: manygovs
+34: noante
+40: noante
+46: nogov
+52: noante
+53: noante
+56: noante
+59: noante
+65: noante
+66: nogov
+67: nonobj
+68: noante
+70: noante
+78: nonobj
+79: noante
+88: noante
+93: noante
+96: nogov
+102: noante
+111: noante
+113: nogov
+119: noante
+124: nosubj
+125: noante
+127: noante
+130: noante
+139: noante
+140: nogov
+142: nonobj
+143: noante
+147: noante
+149: noante
+153: noante
+158: noante
+159: noante
+161: noante
+164: nosubj
+178: nogov
+185: noante
+189: noante
+190: noante
+192: noante
+194: noante
+200: noante
+203: noante
+206: noante
+> redirect ./en/0943-en.info

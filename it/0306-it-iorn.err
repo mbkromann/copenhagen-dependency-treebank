@@ -1,0 +1,90 @@
+> errors
+0: noante
+1: nosubj
+2: noante
+4: noante
+7: nogov nosubj
+9: noante
+16: noante
+19: noante
+25: noante
+29: noante
+32: noante
+34: nogov
+36: noante
+37: noante
+40: nogov
+41: 
+    41 + 40: badtype
+42: 
+    42 + 41: badtype
+43: 
+    43 + 42: badtype
+53: nogov noante
+55: noante
+61: nogov
+63: nonobj
+64: nosubj
+65: noante
+69: noante
+70: nosubj
+72: noante
+76: nogov
+81: noante
+84: noante
+88: noante
+95: noante
+96: 
+    96 + 95: badtype
+104: noante
+107: noante
+109: nogov noante
+112: noante
+115: noante
+116: nogov
+118: noante
+123: nosubj
+125: noante
+127: noante
+131: noante
+134: nogov
+135: nosubj
+139: noante
+143: nosubj
+    143 ²coref 136: manygovs
+    143 ²nobj 144: manygovs
+    143 ¹[subj] 151: manygovs
+    143 ¹cause 151: manygovs
+146: nosubj
+149: noante
+153: nonobj
+168: nogov
+169: nosubj
+170: nonobj
+171: nosubj
+172: noante
+181: noante
+183: nosubj
+185: nonobj
+186: nosubj
+187: noante
+190: noante
+192: nosubj
+193: noante
+196: noante
+197: nogov nosubj
+198: nosubj
+203: noante
+205: noante
+207: noante
+210: noante
+215: nogov
+216: nosubj
+217: nosubj
+219: noante
+222: nosubj
+224: noante
+226: noante
+229: noante
+232: noante
+> redirect ./it/0306-it-iorn.info

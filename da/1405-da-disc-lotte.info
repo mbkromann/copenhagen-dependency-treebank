@@ -1,5 +1,17 @@
+> status
 da/1405-da-disc-lotte.tag:
   morphology: none
   discourse: first
   syntax: outdated-final
   postag: final
+  tokens: 173
+  sentences: 9
+
+Error counts (use "errors" command for details): 
+      1 badtype error
+      4  error
+      8 manygovs error
+     32 noante error
+      5 nogov error
+      2 nosubj error
+> redirect

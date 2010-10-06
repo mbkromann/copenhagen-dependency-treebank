@@ -1,0 +1,51 @@
+> errors
+1: nogov
+11: nogov
+19: noante
+20: nosubj
+37: nogov
+41: noante
+47: nosubj
+52: noante
+54: noante
+57: noante
+70: noante
+76: noante
+82: noante
+86: nogov
+88: noante
+97: nonobj
+98: noante
+102: noante
+103: noante
+108: noante
+112: noante
+114: nosubj
+115: nonobj
+128: noante
+133: noante
+138: nogov
+141: noante
+150: noante
+151: nogov
+153: noante
+154: noante
+157: noante
+161: noante
+162: noante
+166: noante
+168: nogov
+171: nonobj
+178: noante
+183: noante
+188: noante
+191: nogov
+193: noante
+205: noante
+214: noante
+217: nogov
+219: 
+    219 nobj 218: manygovs
+    219 pnct# 218: manygovs
+223: nosubj
+> redirect ./en/1429-en.info

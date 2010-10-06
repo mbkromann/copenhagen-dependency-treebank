@@ -1,0 +1,19 @@
+> errors
+4: nogov
+5: noante
+7: noante
+21: nogov
+27: noante
+31: noante
+43: noante
+45: nogov
+47: noante
+63: noante
+67: noante
+68: noante
+69: noante
+75: noante
+84: nogov
+87: noante
+97: noante
+> redirect ./en/wsj-0324-lotte.info

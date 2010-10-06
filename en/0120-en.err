@@ -1,0 +1,63 @@
+> errors
+1: noante
+4: nogov
+6: noante
+12: noante
+14: noante
+20: noante
+23: noante
+31: noante
+35: nogov
+36: noante
+52: noante
+55: nogov
+59: noante
+61: noante
+68: noante
+72: nogov
+73: noante
+79: nogov noante
+81: noante
+88: nogov
+90: noante
+91: noante
+93: noante
+98: noante
+101: noante
+106: noante
+109: nogov
+111: noante
+115: nogov
+116: noante
+125: noante
+126: nogov
+132: noante
+136: noante
+137: 
+    137 pnct# 126: manygovs
+    137 possd 136: manygovs
+141: noante
+143: nogov
+146: noante
+149: nogov
+155: noante
+157: noante
+162: noante
+164: nogov
+166: noante
+176: noante
+177: nogov
+178: noante
+185: nosubj
+186: nosubj
+190: nogov
+191: nosubj
+193: noante
+195: nosubj
+197: noante
+201: noante
+202: nogov
+204: noante
+208: noante
+223: nogov
+> redirect ./en/0120-en.info

@@ -1,0 +1,92 @@
+> errors
+0: noante
+1: nogov nosubj
+4: nosubj
+5: nonobj
+6: nosubj
+7: noante
+10: noante
+11: nogov nosubj
+13: noante
+16: noante
+18: noante
+21: noante
+22: nosubj
+24: nogov
+25: nogov nosubj
+26: nogov
+    26 quant:prg 27: badtype
+27: noante
+29: noante
+31: nogov nosubj
+32: noante
+35: nogov noante
+36: nogov
+38: nogov nosubj
+42: noante
+43: nogov nosubj
+46: nogov nosubj
+47: noante
+50: nosubj
+52: nosubj
+53: noante
+56: nosubj
+58: noante
+59: nosubj
+60: noante
+62: nogov nosubj
+64: noante
+71: nogov
+72: nonobj
+73: nogov
+74: noante
+78: noante
+79: nogov
+81: nosubj
+82: nosubj
+83: noante
+85: nonobj
+86: nogov
+87: nosubj
+90: nonobj
+91: nogov
+92: nosubj
+94: nogov nosubj
+95: nogov
+96: noante
+102: noante
+105: noante
+108: noante
+    108 subj 110: manygovs
+    108 dobj 133: manygovs
+110: nogov
+111: noante
+114: noante
+116: noante
+119: nosubj
+121: nosubj
+122: noante
+125: noante
+127: noante
+129: noante
+131: noante
+133: nogov noante
+134: noante
+136: noante
+138: nogov
+140: nosubj
+143: nosubj
+144: nosubj
+146: noante
+148: nonobj
+149: nogov
+150: nosubj
+154: nogov
+155: nogov nosubj
+157: nosubj
+159: noante
+160: nosubj
+162: noante
+163: nogov
+168: noante
+> redirect ./es/1250-es-jonas.info

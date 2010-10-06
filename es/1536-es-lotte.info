@@ -1,5 +1,16 @@
+> status
 es/1536-es-lotte.tag:
   morphology: final1
   discourse: none
   syntax: discussed
   postag: auto
+  tokens: 209
+  sentences: 10
+
+Error counts (use "errors" command for details): 
+      2 badtype error
+     35 noante error
+     18 nogov error
+      6 nonobj error
+     21 nosubj error
+> redirect

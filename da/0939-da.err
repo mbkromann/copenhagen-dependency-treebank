@@ -1,0 +1,25 @@
+> errors
+43: noante
+44: nogov
+50: nosubj
+52: nosubj
+58: noante
+64: noante
+66: noante
+80: nogov
+85: nosubj
+101: nogov
+104: nosubj
+118: noante
+128: nogov
+130: nosubj
+157: nogov
+174: nogov
+198: nogov
+202: nosubj
+216: nogov
+227: noante
+228: nosubj
+243: noante
+244: nosubj
+> redirect ./da/0939-da.info

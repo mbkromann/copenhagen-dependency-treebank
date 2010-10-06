@@ -1,0 +1,72 @@
+> errors
+1: nonobj
+3: nogov
+5: noante
+10: noante
+12: noante
+13: noante
+16: 
+    16 pnct# 3: manygovs
+    16 preds 15: manygovs
+20: nogov
+22: noante
+27: noante
+28: nogov
+30: nonobj
+31: nonobj
+33: noante
+34: noante
+35: noante
+37: noante
+42: nogov nonobj
+46: noante
+47: noante
+51: noante
+54: nosubj
+55: noante
+57: noante
+62: nogov
+63: noante
+69: noante
+74: noante
+75: nogov
+80: noante
+86: noante
+94: noante
+96: noante
+97: nogov
+99: nonobj
+101: nonobj
+102: noante
+109: nosubj
+113: nogov
+116: noante
+119: noante
+123: noante
+124: nosubj
+125: noante
+130: noante
+132: nogov
+134: noante
+136: nonobj
+138: nogov noante
+    138 dobj? 137: badtype
+141: noante
+147: noante
+153: noante
+166: nosubj
+169: nogov
+176: nogov
+180: nogov
+189: noante
+196: noante
+198: noante
+202: nogov noante
+    202 dobj? 201: badtype
+203: nogov noante
+    203 vobj? 202: badtype
+204: nogov
+    204 part? 203: badtype
+205: nogov noante
+    205 dobj? 203: badtype
+> redirect ./en/1513-en.info

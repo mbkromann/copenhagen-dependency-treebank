@@ -1,0 +1,75 @@
+> errors
+1: noante
+3: nosubj
+5: noante
+7: nosubj
+    7 *[subj] 8: badtype
+10: noante
+12: nogov
+14: noante
+15: nosubj
+20: nogov nosubj
+22: nosubj
+24: noante
+25: noante
+26: nosubj
+28: noante
+31: nosubj
+34: noante
+35: nogov nosubj
+    35 *[subj] 36: badtype
+37: noante
+40: noante
+43: noante
+44: nogov nosubj
+47: nosubj
+48: noante
+52: noante
+54: nonobj
+55: nosubj
+57: nogov nosubj
+    57 *[subj] 58: badtype
+59: noante
+60: nosubj
+63: noante
+66: nogov
+70: nosubj
+71: noante
+75: noante
+80: noante
+83: noante
+85: nogov
+88: noante
+89: 
+    89 *[subj] 92: badtype
+90: nosubj
+91: nonobj
+93: nonobj
+94: noante
+95: nogov noante
+97: noante
+100: noante
+103: noante
+108: nogov
+119: noante
+124: noante
+127: noante
+130: nosubj
+132: noante
+138: nogov nosubj
+146: noante
+    146 ²pnct 138: manygovs
+    146 ³pnct 138: manygovs
+    146 ¹nobj 145: manygovs
+147: nosubj
+    147 ¹pnct 150: manygovs
+    147 ²cond 150: manygovs
+148: noante
+150: nogov noante
+    150 *[subj] 153: badtype
+151: nosubj
+152: nonobj
+157: noante
+158: nosubj
+162: noante
+> redirect ./es/1144-es-jonas.info

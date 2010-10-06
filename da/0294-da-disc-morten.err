@@ -1,0 +1,35 @@
+> errors
+44: noante
+45: nogov
+50: noante
+65: noante
+67: noante
+68: noante
+73: noante
+78: noante
+80: noante
+92: noante
+104: noante
+111: noante
+116: noante
+128: noante
+134: nosubj
+141: noante
+145: noante
+153: noante
+159: noante
+163: noante
+187: noante
+189: noante
+190: nosubj
+196: noante
+227: noante
+229: noante
+230: nosubj
+238: noante
+242: noante
+250: nogov
+    250 CONJ:add:seq/ATTR1 245: badtype
+258: nogov
+    258 CONJ:add:seq/ATTR1 250: badtype
+> redirect ./da/0294-da-disc-morten.info

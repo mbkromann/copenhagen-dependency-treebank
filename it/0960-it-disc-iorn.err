@@ -1,0 +1,70 @@
+> errors
+0: nogov noante
+1: noante
+4: noante
+12: noante
+17: noante
+22: nosubj
+23: noante
+28: noante
+34: noante
+35: noante
+38: noante
+45: noante
+46: noante
+48: noante
+52: noante
+    52 assoc-scope 42: badtype
+57: noante
+61: noante
+66: noante
+68: noante
+69: nogov
+    69 QUEST:query 56: badtype
+71: noante
+72: nonobj
+73: nosubj
+76: noante
+81: noante
+83: nosubj
+92: noante
+95: nonobj
+96: nosubj
+102: noante
+103: noante
+107: noante
+109: nogov
+    109 CONS 93: badtype
+113: noante
+118: noante
+126: nosubj
+135: noante
+138: nogov
+    138 +CAUSE:exp/(infatti) 109: badtype
+139: noante
+140: noante
+143: noante
+144: noante
+147: noante
+149: noante
+157: noante
+163: noante
+165: noante
+166: noante
+169: noante
+170: noante
+174: noante
+176: noante
+180: noante
+185: noante
+189: nosubj
+192: noante
+193: nosubj
+194: noante
+197: noante
+199: nonobj
+200: nosubj
+208: noante
+210: nosubj
+214: noante
+> redirect ./it/0960-it-disc-iorn.info

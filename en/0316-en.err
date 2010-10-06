@@ -1,0 +1,51 @@
+> errors
+8: noante
+10: noante
+12: noante
+13: nogov
+17: noante
+26: noante
+29: noante
+30: noante
+36: noante
+38: noante
+39: nogov
+40: noante
+42: nosubj
+43: nonobj
+48: noante
+55: noante
+57: noante
+59: nogov
+63: noante
+65: noante
+80: nogov
+84: noante
+87: noante
+93: nogov
+94: noante
+99: noante
+101: nosubj
+108: nogov
+112: nogov
+116: noante
+121: nogov nosubj
+122: noante
+127: nogov nosubj
+128: noante
+130: nonobj
+132: noante
+141: noante
+148: noante
+150: noante
+156: noante
+164: noante
+165: nogov
+178: nogov noante
+182: noante
+191: noante
+193: noante
+197: noante
+204: nogov noante
+207: noante
+> redirect ./en/0316-en.info

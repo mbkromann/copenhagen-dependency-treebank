@@ -1,0 +1,29 @@
+> errors
+43: nogov
+69: noante
+71: noante
+75: noante
+84: noante
+97: nogov
+    97 <cause> 98: badtype
+110: noante
+120: noante
+124: noante
+129: noante
+139: noante
+143: noante
+154: noante
+167: noante
+178: noante
+203: noante
+210: noante
+212: noante
+226: nosubj
+250: noante
+259: noante
+269: noante
+271: nosubj
+274: nosubj
+277: nosubj
+280: noante
+> redirect ./da/0339-da-lotte.info

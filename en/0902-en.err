@@ -1,0 +1,87 @@
+> errors
+1: nogov nosubj
+2: noante
+5: noante
+7: noante
+8: noante
+12: nogov
+14: noante
+17: noante
+22: noante
+27: nogov nosubj
+28: noante
+31: noante
+34: noante
+35: nosubj
+39: nogov
+40: noante
+41: noante
+44: nosubj
+45: nonobj
+46: noante
+48: nosubj
+51: noante
+52: nosubj
+56: nogov
+57: noante
+64: nogov
+65: noante
+67: nosubj
+68: noante
+72: noante
+80: nogov nosubj
+81: noante
+85: noante
+87: nosubj
+88: noante
+91: noante
+96: noante
+101: nogov nosubj
+102: nonobj
+103: noante
+106: nosubj
+110: nogov
+111: noante
+113: noante
+123: nogov nosubj
+124: noante
+127: noante
+129: noante
+131: noante
+133: noante
+136: nosubj
+137: noante
+150: nogov noante
+151: nonobj
+152: noante
+156: nosubj
+161: noante
+165: nogov nosubj
+166: noante
+168: noante
+170: nosubj
+174: nogov
+175: noante
+185: noante
+191: nogov
+192: noante
+195: noante
+198: noante
+199: noante
+202: noante
+206: noante
+211: noante
+213: nogov
+220: nogov
+221: nonobj
+228: noante
+231: noante
+232: noante
+242: nogov nosubj
+243: noante
+246: noante
+248: nonobj
+250: noante
+253: noante
+257: noante
+> redirect ./en/0902-en.info

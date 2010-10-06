@@ -1,0 +1,46 @@
+> errors
+3: nogov noante
+9: noante
+13: noante
+15: noante
+18: noante
+32: nosubj
+37: nogov
+42: nosubj
+49: noante
+50: nogov
+52: noante
+57: noante
+60: noante
+70: noante
+71: nogov
+74: noante
+77: noante
+84: noante
+89: nogov
+99: nogov
+135: nogov
+145: nogov noante
+155: nosubj
+160: 
+    160 pnct# 145: manygovs
+    160 attr 159: manygovs
+173: noante
+175: noante
+184: nogov
+185: nosubj
+187: noante
+193: noante
+195: noante
+197: noante
+199: noante
+202: noante
+203: nogov
+215: noante
+216: noante
+220: noante
+225: nogov
+226: noante
+236: noante
+240: noante
+> redirect ./en/0571-en.info

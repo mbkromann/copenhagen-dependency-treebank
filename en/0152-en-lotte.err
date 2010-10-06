@@ -1,0 +1,35 @@
+> errors
+3: noante
+7: nosubj
+9: noante
+11: noante
+14: noante
+15: nogov
+17: noante
+23: noante
+27: noante
+29: noante
+34: noante
+35: noante
+37: noante
+39: noante
+44: noante
+47: noante
+58: noante
+60: noante
+62: nonobj
+65: noante
+82: nogov
+    82 attr:possd 81: badtype
+84: noante
+88: noante
+97: nosubj
+100: noante
+112: noante
+128: nosubj
+134: noante
+151: noante
+156: nogov
+174: noante
+200: noante
+> redirect ./en/0152-en-lotte.info

@@ -1,0 +1,74 @@
+> errors
+1: noante
+3: nogov
+8: nogov
+11: noante
+18: noante
+19: nosubj
+23: noante
+27: noante
+33: noante
+36: nogov nosubj
+38: nosubj
+43: noante
+44: noante
+46: noante
+47: nogov
+53: noante
+57: nogov noante
+58: nogov
+60: nogov
+61: nosubj
+68: noante
+71: noante
+76: nogov noante
+77: noante
+81: noante
+85: nosubj
+86: noante
+87: nosubj
+92: noante
+93: nogov noante
+97: noante
+100: nogov
+101: noante
+108: nogov
+110: nosubj
+113: noante
+118: noante
+126: noante
+127: nogov
+130: nonobj
+137: noante
+144: nogov
+147: noante
+148: noante
+155: noante
+159: noante
+160: noante
+164: noante
+165: nogov
+177: noante
+178: noante
+181: noante
+182: nogov
+184: noante
+186: noante
+187: noante
+191: noante
+195: nogov nosubj
+196: nonobj
+197: noante
+203: noante
+206: noante
+207: noante
+212: noante
+218: noante
+219: nogov
+227: noante
+238: noante
+239: noante
+244: noante
+247: nosubj
+248: noante
+> redirect ./en/0644-en.info

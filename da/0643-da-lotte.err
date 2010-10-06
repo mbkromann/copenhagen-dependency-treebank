@@ -1,0 +1,45 @@
+> errors
+43: nogov
+49: noante
+50: nogov
+58: nogov nosubj
+60: noante
+66: nogov nosubj
+72: noante
+73: noante
+76: noante
+82: nogov
+83: noante
+84: noante
+89: noante
+93: noante
+95: nogov
+96: noante
+98: noante
+105: noante
+108: nogov
+109: noante
+115: nogov
+122: nosubj
+127: noante
+128: nogov
+133: noante
+140: noante
+149: nogov
+155: noante
+156: nogov
+159: noante
+167: noante
+168: nogov
+183: noante
+187: noante
+196: noante
+197: nogov
+203: noante
+208: noante
+217: noante
+227: nogov
+232: noante
+242: noante
+246: noante
+> redirect ./da/0643-da-lotte.info

@@ -1,0 +1,69 @@
+> errors
+2: noante
+5: noante
+9: nogov
+12: nosubj
+19: noante
+22: noante
+25: nogov
+27: nonobj
+28: noante
+32: noante
+34: noante
+36: noante
+39: noante
+43: noante
+44: nogov
+45: noante
+49: noante
+57: noante
+58: nosubj
+61: noante
+62: noante
+66: noante
+68: nosubj
+69: noante
+71: nosubj
+75: noante
+79: nogov
+80: noante
+90: noante
+91: noante
+92: noante
+94: nogov
+96: nosubj
+98: noante
+105: nogov
+108: noante
+121: noante
+127: noante
+128: nogov
+129: noante
+130: nonobj
+131: noante
+138: nonobj
+139: noante
+143: noante
+148: noante
+149: nogov
+153: nonobj
+154: noante
+162: noante
+164: nogov
+168: noante
+171: 
+    171 pnct# 164: manygovs
+    171 preds 170: manygovs
+175: noante
+176: nogov
+179: noante
+180: noante
+186: noante
+197: noante
+200: noante
+206: noante
+210: noante
+214: 
+    214 pnct# 199: manygovs
+    214 dobj 213: manygovs
+> redirect ./en/0065-en.info

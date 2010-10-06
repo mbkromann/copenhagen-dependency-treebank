@@ -1,0 +1,56 @@
+> errors
+1: nosubj
+7: noante
+8: nogov
+12: noante
+16: 
+    16 pnct# 12: manygovs
+    16 nobj 15: manygovs
+21: noante
+23: nosubj
+27: noante
+31: noante
+34: noante
+36: nogov
+41: nosubj
+42: noante
+43: nonobj
+45: noante
+53: nonobj
+59: nogov
+65: noante
+68: nonobj
+69: noante
+71: noante
+73: nogov noante
+74: noante
+88: nonobj
+92: noante
+104: nonobj
+105: noante
+107: noante
+109: nonobj
+112: noante
+122: nogov
+134: nogov
+139: 
+    139 pnct# 134: manygovs
+    139 nobj 138: manygovs
+    139 mod# 139: manygovs
+146: noante
+153: noante
+160: noante
+164: nogov
+168: noante
+173: noante
+176: noante
+178: noante
+179: nosubj
+183: nonobj
+184: noante
+188: noante
+190: noante
+192: noante
+196: noante
+200: noante
+> redirect ./en/1364-en.info

@@ -1,0 +1,47 @@
+> errors
+2: noante
+5: noante
+6: nogov
+9: noante
+19: nogov
+20: noante
+22: noante
+27: nosubj
+31: nosubj
+39: noante
+47: noante
+48: noante
+58: nogov
+61: noante
+78: noante
+79: noante
+91: noante
+92: nogov
+94: noante
+98: noante
+102: noante
+107: noante
+111: noante
+113: nogov noante
+    113 poss 112: badtype
+115: nosubj
+122: noante
+130: noante
+138: noante
+139: nogov noante
+    139 poss 138: badtype
+141: nogov
+142: noante
+144: noante
+149: noante
+153: noante
+155: nosubj
+159: noante
+165: noante
+168: nosubj
+176: noante
+179: nogov
+184: noante
+187: nosubj
+191: noante
+> redirect ./de/0143-de-morten.info

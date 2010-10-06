@@ -1,0 +1,85 @@
+> errors
+0: nogov
+2: nosubj
+3: noante
+4: noante
+5: 
+    5 ¹attr² 4: manygovs
+    5 ²pnct² 4: manygovs
+7: noante
+12: noante
+13: 
+    13 ¹attr² 12: manygovs
+    13 ²pnct² 12: manygovs
+18: nosubj
+25: noante
+30: noante
+33: noante
+38: noante
+42: noante
+43: noante
+47: noante
+55: noante
+57: noante
+60: noante
+63: nogov
+68: noante
+69: nonobj
+78: nosubj
+88: nosubj
+90: noante
+91: 
+    91 + 90: badtype
+95: noante
+97: nogov
+100: noante
+101: noante
+104: noante
+106: noante
+109: nosubj
+    109 *[subj] 110: badtype
+111: nosubj
+112: noante
+114: noante
+118: noante
+121: noante
+124: noante
+126: nogov
+127: noante
+131: noante
+132: nosubj
+134: noante
+135: noante
+136: nosubj
+137: nonobj
+138: nosubj
+139: nosubj
+142: nosubj
+144: noante
+150: noante
+153: noante
+157: noante
+159: noante
+161: noante
+162: nogov
+165: noante
+169: noante
+172: nonobj
+175: noante
+178: nosubj
+180: noante
+182: noante
+193: nosubj
+194: noante
+197: noante
+199: noante
+202: noante
+205: noante
+206: noante
+207: nogov
+211: noante
+215: noante
+216: noante
+220: noante
+221: nosubj
+> redirect ./es/1057-es-jonas.info

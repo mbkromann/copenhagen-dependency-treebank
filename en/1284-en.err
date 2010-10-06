@@ -1,0 +1,58 @@
+> errors
+2: nogov noante
+8: noante
+10: nogov
+11: noante
+14: nonobj
+19: noante
+20: noante
+24: nosubj
+29: nogov
+30: noante
+44: noante
+57: noante
+61: noante
+63: noante
+64: nogov
+69: nonobj
+71: noante
+75: noante
+78: noante
+80: 
+    80 pnct# 72: manygovs
+    80 <mod> 72: manygovs
+85: noante
+88: nosubj
+92: noante
+94: nogov
+100: noante
+103: noante
+108: noante
+112: noante
+113: nogov
+114: noante
+117: noante
+120: noante
+121: noante
+128: noante
+132: nogov
+135: noante
+140: noante
+141: noante
+142: noante
+146: nogov noante
+    146 dobj? 145: badtype
+153: noante
+155: noante
+156: noante
+160: noante
+171: nonobj
+177: noante
+181: nogov
+182: noante
+193: noante
+197: noante
+201: nogov
+204: noante
+205: noante
+> redirect ./en/1284-en.info

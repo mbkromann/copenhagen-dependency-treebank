@@ -1,0 +1,54 @@
+> errors
+1: nogov
+4: noante
+6: noante
+14: noante
+15: nogov
+17: noante
+25: noante
+30: noante
+31: nogov noante
+44: noante
+49: noante
+53: noante
+56: noante
+69: noante
+81: noante
+92: noante
+97: noante
+98: nogov
+101: nosubj
+103: noante
+104: noante
+113: noante
+116: nonobj
+117: noante
+119: noante
+122: noante
+127: noante
+128: noante
+130: nonobj
+134: nonobj
+135: noante
+138: nonobj
+145: noante
+149: nogov
+158: noante
+166: noante
+167: noante
+173: noante
+175: noante
+178: nosubj
+179: noante
+182: noante
+183: nogov
+193: noante
+194: nogov
+196: noante
+198: noante
+202: noante
+206: noante
+208: 
+    208 pnct# 194: manygovs
+    208 preds 207: manygovs
+> redirect ./en/1300-en.info

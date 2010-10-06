@@ -1,0 +1,25 @@
+> errors
+43: noante
+46: nogov
+50: noante
+76: noante
+97: noante
+114: noante
+116: noante
+121: noante
+142: nogov
+    142 CONS 115: badtype
+156: noante
+166: noante
+183: noante
+185: noante
+187: noante
+198: noante
+222: noante
+228: nogov
+    228 ELAB:spec 219: badtype
+235: noante
+238: noante
+253: noante
+257: noante
+> redirect ./da/1420-da-disc-iorn.info

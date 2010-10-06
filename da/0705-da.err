@@ -1,0 +1,26 @@
+> errors
+43: noante
+44: nogov
+47: nosubj
+56: nogov
+62: nogov
+87: nogov
+110: nogov
+111: noante
+118: noante
+131: nosubj
+139: noante
+143: nogov
+161: nosubj
+163: nonobj
+196: nogov
+202: nogov
+215: nogov
+220: noante
+223: nosubj
+233: nogov
+250: noante
+257: nogov
+262: nosubj
+265: nosubj
+> redirect ./da/0705-da.info

@@ -1,0 +1,79 @@
+> errors
+0: nogov
+4: noante
+7: noante
+9: noante
+11: nogov nonobj
+12: noante
+14: nosubj
+18: nogov nosubj
+19: nonobj
+20: nogov
+22: nonobj
+23: nogov noante
+24: nogov noante
+25: noante
+27: noante
+29: nogov noante
+30: nogov nosubj
+33: nosubj
+34: noante
+36: noante
+40: noante
+44: noante
+48: noante
+51: nogov
+53: nosubj
+54: nosubj
+55: noante
+59: noante
+62: noante
+63: nogov
+69: nogov nonobj
+70: nogov noante
+71: nogov nonobj
+72: nogov
+75: nosubj
+76: nogov
+78: noante
+81: noante
+83: noante
+85: noante
+91: noante
+97: nogov
+100: nosubj
+101: noante
+104: noante
+108: nosubj
+109: nogov noante
+    109 nobj:dobj 108: badtype
+111: noante
+114: noante
+116: nonobj
+117: nogov
+119: noante
+124: nonobj
+125: nosubj
+126: nosubj
+127: noante
+134: nogov
+137: noante
+141: noante
+146: noante
+148: noante
+151: noante
+154: nogov nosubj
+156: nosubj
+157: noante
+161: noante
+164: noante
+169: noante
+171: nosubj
+    171 vobj? 170: badtype
+176: noante
+177: nonobj
+178: nogov noante
+179: nogov
+180: noante
+183: noante
+> redirect ./es/0781-es-disc-lotte.info

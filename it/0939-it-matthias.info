@@ -1,5 +1,11 @@
+> status
 it/0939-it-matthias.tag:
   morphology: none
   discourse: none
   syntax: none
   postag: auto
+  tokens: 209
+  sentences: 6
+
+Error counts (use "errors" command for details): 
+> redirect

@@ -1,6 +1,15 @@
+> status
 da/1043-da-disc-lotte.tag:
   morphology: none
   discourse: discussed
   syntax: outdated-final
   svn:mergeinfo: 
   postag: final
+  tokens: 180
+  sentences: 10
+
+Error counts (use "errors" command for details): 
+     27 noante error
+      9 nogov error
+      5 nosubj error
+> redirect

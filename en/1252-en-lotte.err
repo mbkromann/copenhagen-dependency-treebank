@@ -1,0 +1,33 @@
+> errors
+13: noante
+20: 
+    20 ²pnct 6: manygovs
+    20 ¹nobj 19: manygovs
+21: nogov
+28: noante
+48: noante
+69: noante
+72: noante
+82: noante
+96: nosubj
+102: noante
+103: noante
+111: nonobj
+112: noante
+114: noante
+123: noante
+132: nonobj
+137: nosubj
+139: nosubj
+144: noante
+148: nosubj
+149: noante
+156: nosubj
+158: 
+    158 pnct# 143: manygovs
+    158 dobj 156: manygovs
+174: noante
+177: nosubj
+185: noante
+198: nosubj
+> redirect ./en/1252-en-lotte.info

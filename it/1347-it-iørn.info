@@ -1,5 +1,15 @@
+> status
 it/1347-it-iørn.tag:
   morphology: none
   discourse: none
   syntax: none
   postag: auto
+  tokens: 253
+  sentences: 9
+
+Error counts (use "errors" command for details): 
+     95 noante error
+    242 nogov error
+     34 nonobj error
+     42 nosubj error
+> redirect

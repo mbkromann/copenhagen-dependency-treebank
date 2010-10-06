@@ -1,0 +1,49 @@
+> errors
+2: noante
+7: noante
+11: noante
+17: noante
+22: nogov
+24: noante
+26: noante
+28: noante
+30: noante
+33: noante
+35: 
+    35 ¹part 22: manygovs
+    35 ²pnct 22: manygovs
+37: noante
+40: noante
+41: noante
+54: noante
+57: noante
+60: noante
+63: noante
+66: noante
+68: noante
+71: noante
+73: noante
+75: noante
+78: noante
+81: noante
+85: noante
+96: noante
+107: nogov
+    107 +AGENTIVE:cause/(weil) 51: badtype
+116: noante
+117: noante
+122: noante
+132: noante
+134: noante
+162: noante
+164: noante
+178: noante
+184: noante
+188: noante
+194: noante
+200: noante
+203: noante
+204: 
+    204 ¹part 196: manygovs
+    204 ²pnct 196: manygovs
+> redirect ./de/0531-de-morten.info

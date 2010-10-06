@@ -1,0 +1,46 @@
+#!/bin/bash
+
+# Temporary file
+cdt=~/cdt
+
+# Check all .info files for possible rejection into release
+log=rejection-log.txt
+cd $cdt
+for dir in `echo . ./releases/cdt2` ; do
+	for lang in `echo da de en es it` ; do 
+		echo "=== $dir/$lang ==="
+		echo "Rejection log (`date`)" > $dir/$lang/$log
+
+		for f in `ls $dir/$lang/*.info 2>/dev/null` ; do 
+			# Reject if more "nogov" errors than 1 plus 1.5 times
+			# number of sentences
+			reject=""
+			nogovs=`grep nogov $f | awk '{ print $1 }'`
+			nogovs=$(($nogovs+0))
+			sents=`grep sentences $f | awk '{ print $2 }'`
+			maxnogovs=$((($sents + 0) * 15 / 10 + 1))
+			if [ $nogovs -gt $maxnogovs ] ; then
+				reject="nogovs=$nogovs>$maxnogovs "
+			fi
+
+			# Reject if tag-file syntax not marked as "first", "discussed" or "final" wrt. "syntax"
+			syntax=`grep syntax $f | awk '{ print $2 }'`
+			if [ "$syntax" != "first" -a "$syntax" != "discussed" -a "$syntax" != "final" ] ; then
+				reject="${reject}syntax-status=$syntax. "
+			fi
+
+			# Reject if requested
+			g=`echo $f | sed -e 's/.info//g'`
+			if [ "$reject" ] ; then
+				echo "reject: $g because $reject"
+				echo "reject: $g because $reject" >> $dir/$lang/$log
+				svn --force rm $g.conll
+			fi
+		done
+
+		# Add conll files to svn archive
+		svn add $dir/$lang/*.conll $dir/$lang/*.err $dir/$lang/*.info $dir/$lang/$log
+	done
+done
+
+

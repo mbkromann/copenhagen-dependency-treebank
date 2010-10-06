@@ -1,0 +1,67 @@
+> errors
+2: nogov noante
+5: nogov
+9: 
+    9 pnct# 7: manygovs
+    9 nobj 8: manygovs
+26: noante
+27: noante
+29: noante
+33: nogov
+34: noante
+45: noante
+46: noante
+48: nogov
+51: noante
+53: noante
+57: noante
+64: noante
+66: nosubj
+70: noante
+75: noante
+77: nogov
+89: nogov
+94: nogov
+96: noante
+100: nogov
+102: noante
+105: noante
+109: noante
+114: noante
+127: noante
+129: noante
+133: noante
+140: noante
+141: nosubj
+143: nogov
+146: noante
+150: noante
+152: noante
+153: noante
+155: noante
+159: noante
+160: nonobj
+162: noante
+167: nogov noante
+171: noante
+172: nogov noante
+173: nogov
+183: noante
+185: nonobj
+186: noante
+194: noante
+203: noante
+206: nonobj
+207: noante
+212: noante
+213: noante
+215: noante
+222: noante
+224: noante
+225: noante
+227: noante
+229: noante
+233: noante
+238: nogov
+239: noante
+> redirect ./en/0778-en.info

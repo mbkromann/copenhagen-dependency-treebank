@@ -1,0 +1,23 @@
+> errors
+49: nogov
+57: nosubj
+64: noante
+79: 
+    79 +AGENTIVE:expl/(nemlig)/ATTR2 49: manygovs
+    79 vobj 77: manygovs
+82: noante
+92: noante
+133: noante
+150: noante
+155: noante
+173: noante
+188: noante
+198: noante
+200: noante
+208: noante
+217: nonobj
+236: noante
+241: nosubj
+252: noante
+256: noante
+> redirect ./da/0809-da-disc-morten.info

@@ -1,0 +1,99 @@
+> errors
+0: nosubj
+    0 ¹pnct 5: manygovs
+    0 ²discmark 5: manygovs
+2: noante
+7: noante
+10: noante
+12: noante
+    12 ²pnct 5: manygovs
+    12 ³pnct 5: manygovs
+    12 ¹nobj 11: manygovs
+13: nogov
+18: noante
+    18 ¹pnct 19: manygovs
+    18 ²robj 19: manygovs
+19: nogov nosubj
+20: nosubj
+25: noante
+30: noante
+34: noante
+39: nosubj
+40: nonobj
+43: noante
+44: nosubj
+    44 ²pnct 19: manygovs
+    44 ³pnct 19: manygovs
+    44 ¹attr 43: manygovs
+48: nogov
+54: noante
+56: noante
+58: noante
+61: nosubj
+    61 ¹pnct 64: manygovs
+    61 ²discmark 64: manygovs
+64: nogov
+66: noante
+71: nosubj
+72: noante
+74: nosubj
+76: noante
+80: nosubj
+81: nosubj
+83: noante
+92: nosubj
+93: nosubj
+96: noante
+    96 ²pnct 80: manygovs
+    96 ³pnct 80: manygovs
+    96 ¹nobj 95: manygovs
+97: nogov
+101: noante
+104: noante
+114: noante
+117: noante
+    117 ¹pnct 119: manygovs
+    117 ²quant 119: manygovs
+118: nonobj
+119: noante
+120: noante
+    120 ¹nobj 119: manygovs
+    120 ²pnct 119: manygovs
+124: nogov
+125: nosubj
+127: noante
+131: nosubj
+136: noante
+138: noante
+140: noante
+149: noante
+152: nosubj
+154: 
+    154 ¹pnct 170: manygovs
+    154 ²xtop 170: manygovs
+155: noante
+156: nosubj
+158: noante
+160: noante
+162: noante
+163: noante
+166: noante
+170: nosubj
+    170 *[subj] 171: badtype
+172: noante
+174: noante
+177: noante
+181: noante
+185: noante
+187: noante
+192: nosubj
+    192 ²pnct 170: manygovs
+    192 ³pnct 170: manygovs
+    192 ¹preds 191: manygovs
+193: nogov
+194: noante
+197: noante
+199: nosubj
+201: noante
+203: noante
+> redirect ./es/1227-es-lotte.info

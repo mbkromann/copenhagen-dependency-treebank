@@ -1,0 +1,59 @@
+> errors
+2: noante
+7: nosubj
+9: noante
+11: nogov
+12: noante
+23: nogov
+25: noante
+28: noante
+29: noante
+42: nogov
+44: noante
+46: 
+    46 + 45: badtype
+49: nogov
+53: noante
+56: noante
+59: noante
+62: noante
+64: noante
+66: nogov
+67: noante
+70: nosubj
+75: noante
+78: noante
+82: noante
+85: nogov
+86: noante
+89: noante
+92: noante
+95: nogov noante
+99: noante
+100: noante
+110: noante
+114: nogov
+126: noante
+129: noante
+137: noante
+138: nogov
+144: noante
+146: noante
+159: nogov
+162: noante
+166: nogov
+167: noante
+169: noante
+173: noante
+174: noante
+185: noante
+190: nosubj
+194: nosubj
+201: nogov noante
+206: noante
+213: noante
+217: noante
+219: noante
+221: noante
+227: nogov
+> redirect ./de/0134-de-morten.info

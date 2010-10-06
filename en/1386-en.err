@@ -1,0 +1,61 @@
+> errors
+2: nogov
+6: noante
+12: nosubj
+16: nogov
+25: noante
+32: noante
+37: nogov
+41: noante
+44: noante
+48: noante
+49: nogov
+52: noante
+55: noante
+60: noante
+62: noante
+64: nogov noante
+68: noante
+72: nosubj
+74: noante
+81: nogov
+83: noante
+97: noante
+99: 
+    99 pnct# 81: manygovs
+    99 nobj 97: manygovs
+103: noante
+104: nogov
+106: nonobj
+107: noante
+113: noante
+114: noante
+121: noante
+130: noante
+131: nogov
+136: noante
+139: nosubj
+140: noante
+150: nonobj
+155: noante
+161: noante
+163: noante
+168: nogov
+169: noante
+171: noante
+177: noante
+179: nogov
+180: noante
+185: noante
+197: noante
+198: noante
+199: noante
+204: nosubj
+205: noante
+207: nosubj
+208: noante
+210: nosubj
+211: noante
+212: noante
+214: noante
+> redirect ./en/1386-en.info

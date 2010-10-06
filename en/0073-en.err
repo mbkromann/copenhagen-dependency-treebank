@@ -1,0 +1,64 @@
+> errors
+2: noante
+7: noante
+10: noante
+21: 
+    21 pnct# 20: manygovs
+    21 attr 20: manygovs
+27: nosubj
+29: noante
+32: nogov
+37: noante
+43: noante
+46: nosubj
+47: noante
+49: noante
+57: noante
+65: nogov
+66: noante
+70: noante
+74: noante
+79: noante
+85: noante
+88: noante
+89: noante
+90: nogov
+102: nogov
+103: noante
+105: noante
+107: noante
+114: noante
+116: noante
+119: nosubj
+121: noante
+124: noante
+128: noante
+131: nosubj
+136: noante
+138: noante
+145: nogov nosubj
+146: nonobj
+153: noante
+156: noante
+163: nosubj
+165: noante
+176: nonobj
+178: noante
+184: noante
+188: 
+    188 pnct# 187: manygovs
+    188 attr 187: manygovs
+189: 
+    189 nobj 187: manygovs
+    189 pnct# 187: manygovs
+194: noante
+197: noante
+200: noante
+205: nogov
+206: nonobj
+207: noante
+210: noante
+212: nosubj
+215: noante
+218: noante
+> redirect ./en/0073-en.info

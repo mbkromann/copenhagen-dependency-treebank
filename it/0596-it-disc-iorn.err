@@ -1,0 +1,84 @@
+> errors
+0: noante
+3: noante
+4: noante
+5: nogov
+8: noante
+11: noante
+14: noante
+17: noante
+19: noante
+21: noante
+26: noante
+34: noante
+36: noante
+41: noante
+42: nonobj
+43: nosubj
+63: noante
+73: noante
+76: noante
+78: nosubj
+79: noante
+83: noante
+85: noante
+86: nonobj
+87: nosubj
+89: noante
+92: noante
+94: noante
+96: noante
+98: nonobj
+99: nosubj
+100: noante
+105: nosubj
+106: noante
+108: nonobj
+109: nosubj
+    109 ²coref 83: manygovs
+    109 ¹vobj 108: manygovs
+    109 pobj.dobj 111: manygovs
+    109 {patient} 111: manygovs
+110: noante
+113: noante
+116: noante
+119: nosubj
+121: noante
+123: nosubj
+124: noante
+128: noante
+132: noante
+133: nogov
+    133 ;CONS 117: badtype
+135: noante
+137: nosubj
+139: noante
+142: noante
+153: noante
+156: noante
+158: noante
+161: noante
+164: noante
+166: noante
+169: nonobj
+170: nogov noante
+172: noante
+174: noante
+175: noante
+186: noante
+189: noante
+193: noante
+197: noante
+200: noante
+202: nonobj
+203: nosubj
+204: nosubj
+205: noante
+208: nosubj
+213: noante
+218: noante
+219: nonobj
+220: nonobj
+223: noante
+226: noante
+> redirect ./it/0596-it-disc-iorn.info

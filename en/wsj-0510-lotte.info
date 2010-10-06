@@ -1,3 +1,12 @@
+> status
 en/wsj-0510-lotte.tag:
   morphology: first
   syntax: final1
+  tokens: 106
+  sentences: 4
+
+Error counts (use "errors" command for details): 
+     18 noante error
+      4 nogov error
+      5 nosubj error
+> redirect

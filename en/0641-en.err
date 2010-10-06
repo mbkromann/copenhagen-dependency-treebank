@@ -1,0 +1,66 @@
+> errors
+2: nogov
+4: noante
+10: nogov
+11: noante
+13: noante
+17: noante
+22: nogov noante
+23: noante
+27: noante
+28: nogov
+33: nogov
+34: nosubj
+40: noante
+42: nogov
+48: noante
+49: nogov
+55: noante
+56: nogov
+61: nogov noante
+63: noante
+68: nogov noante
+73: nogov
+83: nogov
+85: noante
+92: noante
+97: nogov
+98: nonobj
+99: noante
+103: nosubj
+108: nogov
+109: noante
+114: noante
+119: noante
+121: noante
+125: noante
+127: nonobj
+128: nonobj
+136: noante
+137: nogov
+139: noante
+142: noante
+149: nogov
+151: noante
+156: noante
+159: noante
+165: nogov
+166: noante
+167: nonobj
+168: noante
+177: noante
+182: nogov
+188: nogov
+193: noante
+197: noante
+198: nogov
+199: noante
+200: noante
+202: noante
+206: noante
+207: nogov
+216: noante
+218: nogov
+223: nogov noante
+233: nogov
+> redirect ./en/0641-en.info

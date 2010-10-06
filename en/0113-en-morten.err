@@ -1,0 +1,25 @@
+> errors
+3: nogov
+25: noante
+27: noante
+50: noante
+61: nosubj
+92: noante
+126: noante
+127: noante
+131: nosubj
+132: noante
+137: noante
+140: noante
+142: 
+    142 pnct# 118: manygovs
+    142 vobj 141: manygovs
+146: noante
+149: noante
+163: noante
+166: noante
+187: nonobj
+195: noante
+197: nonobj
+199: noante
+> redirect ./en/0113-en-morten.info

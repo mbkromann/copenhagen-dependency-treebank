@@ -1,0 +1,39 @@
+> errors
+44: nogov
+53: noante
+54: nogov
+73: nogov nosubj
+81: nogov nosubj
+96: nosubj
+97: noante
+99: noante
+109: nogov nosubj
+114: nosubj
+120: nogov nosubj
+125: nosubj
+126: noante
+128: noante
+132: nogov nosubj
+137: nosubj
+138: noante
+143: nogov nosubj
+144: noante
+154: noante
+155: nogov
+162: nogov nosubj
+164: noante
+169: noante
+174: noante
+175: nogov
+182: noante
+186: nogov
+190: noante
+197: noante
+204: nogov
+214: noante
+224: noante
+230: nogov nosubj
+233: nosubj
+244: nogov
+250: nogov
+> redirect ./da/0876-da-disc.info

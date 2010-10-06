@@ -1,0 +1,41 @@
+> errors
+3: noante
+6: noante
+9: noante
+13: nogov
+14: noante
+18: noante
+24: noante
+27: noante
+34: nogov
+41: noante
+49: noante
+51: 
+    51 + 50: badtype
+54: nogov
+56: noante
+64: noante
+66: noante
+70: noante
+71: noante
+82: noante
+85: noante
+92: nogov
+100: nogov
+103: noante
+107: noante
+109: noante
+114: noante
+118: noante
+122: noante
+127: nogov
+131: nonobj
+152: nogov
+164: noante
+173: nogov
+174: noante
+176: noante
+185: noante
+188: noante
+191: noante
+> redirect ./de/0079-de-morten.info

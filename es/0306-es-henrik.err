@@ -1,0 +1,51 @@
+> errors
+1: nosubj
+2: noante
+4: noante
+6: nogov noante
+28: nogov
+29: noante
+31: noante
+    31 assoc-scope 6: badtype
+34: nogov noante
+46: noante
+48: nogov noante
+56: nogov
+63: noante
+64: nosubj
+66: noante
+72: nogov
+75: noante
+79: noante
+81: noante
+86: nosubj
+87: nosubj
+92: noante
+93: noante
+101: nogov noante
+106: nogov
+110: nogov nosubj
+111: nosubj
+118: nogov nosubj
+121: nosubj
+123: noante
+128: nosubj
+129: nosubj
+130: noante
+132: nosubj
+133: nosubj
+137: noante
+142: noante
+144: nogov
+146: noante
+148: nosubj
+160: noante
+    160 assoc-scope 149: badtype
+164: nosubj
+167: nogov nosubj
+174: noante
+183: noante
+189: noante
+191: noante
+198: noante
+> redirect ./es/0306-es-henrik.info

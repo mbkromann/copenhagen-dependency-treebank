@@ -1,0 +1,30 @@
+> errors
+45: nogov
+    45 QOBJ 64: badtype
+51: noante
+56: 
+    56 AGENTIVE:reas/(for)|CONJ:elab/ATTR1 45: manygovs
+    56 qobj 64: manygovs
+61: nosubj
+68: noante
+77: noante
+78: nogov
+81: noante
+89: noante
+122: nosubj
+126: nosubj
+136: nogov
+    136 QOBJ 189: badtype
+140: nosubj
+152: noante
+158: noante
+167: 
+    167 CONJ:add/ATTR2 136: manygovs
+    167 qobj 189: manygovs
+186: noante
+190: noante
+203: noante
+227: nosubj
+229: noante
+239: noante
+> redirect ./da/1536-da.info

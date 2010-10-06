@@ -1,0 +1,91 @@
+> errors
+2: nogov nosubj
+7: noante
+9: nogov
+16: noante
+18: noante
+22: noante
+23: nogov
+26: nosubj
+27: nosubj
+29: noante
+34: nogov nosubj
+38: nosubj
+39: nosubj
+40: nosubj
+45: nosubj
+46: nosubj
+47: nosubj
+51: nogov
+57: noante
+58: nogov nosubj
+61: noante
+67: nogov
+70: nosubj
+73: noante
+74: nogov
+76: noante
+77: nogov nosubj
+79: noante
+82: noante
+83: noante
+87: noante
+90: noante
+91: noante
+92: nogov
+94: nogov nosubj
+    94 vp# 96: badtype
+95: nogov
+    95 vp# 94: badtype
+96: nogov nosubj
+99: noante
+100: nogov nosubj
+104: nogov nosubj
+105: noante
+108: noante
+110: nogov
+111: noante
+115: nosubj
+116: noante
+117: noante
+119: noante
+121: nogov
+126: nosubj
+127: noante
+128: nogov nosubj
+130: noante
+131: noante
+132: nogov
+133: nosubj
+135: nosubj
+137: noante
+141: nogov nosubj
+142: nosubj
+143: noante
+149: nogov nosubj
+150: nosubj
+154: noante
+155: nosubj
+157: noante
+161: noante
+163: nogov nosubj
+165: nosubj
+166: nonobj
+167: nosubj
+168: noante
+174: noante
+175: nosubj
+176: nosubj
+177: nogov
+179: nogov nosubj
+180: noante
+182: nogov
+184: nosubj
+188: noante
+190: nogov nosubj
+191: nosubj
+192: nosubj
+193: nosubj
+195: noante
+197: noante
+> redirect ./es/0388-es-soren.info

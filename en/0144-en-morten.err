@@ -1,0 +1,11 @@
+> errors
+3: noante
+4: nogov
+12: nosubj
+16: noante
+20: nosubj
+33: nosubj
+34: noante
+41: noante
+43: noante
+> redirect ./en/0144-en-morten.info

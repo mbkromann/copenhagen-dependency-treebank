@@ -1,0 +1,25 @@
+> errors
+43: nogov
+63: nosubj
+69: nosubj
+88: nogov
+    88 QUEST:probl 43: badtype
+109: noante
+126: noante
+150: noante
+155: noante
+160: noante
+170: noante
+172: noante
+181: noante
+183: noante
+187: noante
+189: noante
+196: nosubj
+199: noante
+201: noante
+205: noante
+207: noante
+233: noante
+244: noante
+> redirect ./da/1428-da-disc-morten.info

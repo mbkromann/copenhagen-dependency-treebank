@@ -1,0 +1,41 @@
+> errors
+52: nogov
+67: noante
+68: nogov
+    68 CONJ:elab|rest/ATTR 52: badtype
+84: noante
+87: noante
+95: noante
+105: noante
+113: noante
+115: noante
+122: noante
+127: noante
+129: nogov
+    129 CONS/ATTR 118: badtype
+132: noante
+138: nogov
+    138 <coord> 132: badtype
+150: noante
+156: noante
+167: noante
+169: noante
+174: noante
+177: nogov
+    177 AGENTIVE:cause/(fordi)/ATTR 166: badtype
+178: noante
+186: noante
+188: noante
+195: noante
+196: nogov
+    196 AGENTIVE:cause/pga/ATTR 187: badtype
+200: noante
+211: noante
+212: nogov
+    212 AGENTIVE:cause/(fordi)/ATTR 206: badtype
+221: noante
+224: noante
+241: noante
+245: noante
+248: noante
+> redirect ./da/0001-da-disc-morten.info

@@ -1,0 +1,53 @@
+> errors
+1: noante
+2: noante
+7: nogov
+8: noante
+9: noante
+14: noante
+15: noante
+17: noante
+21: noante
+22: noante
+28: noante
+29: nogov
+30: noante
+34: nogov noante
+45: nogov noante
+52: nogov
+59: noante
+60: noante
+64: nogov
+65: noante
+71: noante
+82: noante
+88: noante
+89: nogov
+92: noante
+93: nogov
+99: noante
+100: nogov
+104: noante
+112: noante
+115: noante
+121: noante
+124: noante
+125: nogov
+126: noante
+127: noante
+133: noante
+137: noante
+142: noante
+146: nogov
+147: noante
+157: nogov
+159: noante
+161: noante
+165: 
+    165 pnct 146: manygovs
+    165 pnct 158: manygovs
+166: noante
+167: noante
+175: nogov
+176: noante
+> redirect ./de/0306-de-bjarne.info

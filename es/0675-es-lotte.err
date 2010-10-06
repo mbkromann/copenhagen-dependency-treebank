@@ -1,0 +1,71 @@
+> errors
+2: nogov
+3: noante
+6: noante
+13: noante
+16: noante
+19: noante
+22: nosubj
+24: noante
+30: nosubj
+    30 *[subj] 31: badtype
+    30 *[subj] 47: badtype
+    30 *[subj] 49: badtype
+33: noante
+47: 
+    47 *[subj] 49: badtype
+48: nonobj
+50: noante
+55: nogov nosubj
+56: noante
+64: noante
+65: nosubj
+66: noante
+68: noante
+70: nosubj
+78: nogov
+87: noante
+92: noante
+    92 assoc-scope 87: badtype
+95: noante
+98: nosubj
+    98 *[subj] 99: badtype
+103: noante
+106: noante
+107: noante
+111: nosubj
+113: noante
+114: nosubj
+    114 *[subj] 115: badtype
+124: nosubj
+    124 *[subj] 125: badtype
+126: noante
+134: nosubj
+135: noante
+138: noante
+140: nosubj
+143: nogov nosubj
+144: noante
+146: noante
+148: nosubj
+152: nosubj
+    152 *[subj] 153: badtype
+155: noante
+156: nosubj
+157: noante
+163: nogov
+164: nosubj
+169: noante
+174: noante
+181: nosubj
+183: nosubj
+186: noante
+187: nosubj
+189: noante
+198: noante
+201: noante
+206: 
+    206 ¹appr 201: manygovs
+    206 ²coord 207: manygovs
+    206 ³namef 207: manygovs
+> redirect ./es/0675-es-lotte.info

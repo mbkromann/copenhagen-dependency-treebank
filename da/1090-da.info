@@ -1,5 +1,15 @@
+> status
 da/1090-da.tag:
   morphology: none
   discourse: none
   syntax: outdated-final
   postag: final
+  tokens: 192
+  sentences: 11
+
+Error counts (use "errors" command for details): 
+     15 noante error
+     11 nogov error
+      1 nonobj error
+      1 nosubj error
+> redirect

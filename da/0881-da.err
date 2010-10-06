@@ -1,0 +1,22 @@
+> errors
+45: nogov
+48: noante
+52: noante
+75: noante
+78: nogov
+87: nogov
+88: noante
+119: nogov
+127: noante
+149: nosubj
+164: noante
+182: nogov
+188: noante
+196: nosubj
+214: nosubj
+218: nogov
+228: noante
+230: nogov
+231: noante
+241: noante
+> redirect ./da/0881-da.info

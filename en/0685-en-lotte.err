@@ -1,0 +1,61 @@
+> errors
+2: nogov
+4: noante
+5: noante
+6: nogov
+14: noante
+18: nogov
+    18 reas 10: badtype
+22: noante
+23: noante
+27: noante
+28: nogov
+34: noante
+38: noante
+41: noante
+45: noante
+51: noante
+53: noante
+55: noante
+59: noante
+62: noante
+63: noante
+64: noante
+68: noante
+70: nosubj
+71: nonobj
+74: noante
+77: noante
+80: noante
+82: nonobj
+83: noante
+87: noante
+90: noante
+93: noante
+95: nogov
+96: noante
+98: 
+    98 ²pnct 95: manygovs
+    98 ¹nobj 97: manygovs
+100: nogov
+107: nogov
+108: nogov noante
+113: noante
+121: noante
+128: noante
+131: nogov
+136: noante
+151: nogov noante
+154: nogov
+156: nogov
+    156 <@loc> 154: badtype
+159: nogov
+165: noante
+170: noante
+184: noante
+191: nogov
+196: noante
+208: noante
+211: nosubj
+220: nogov nosubj
+> redirect ./en/0685-en-lotte.info

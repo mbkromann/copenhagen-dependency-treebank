@@ -1,0 +1,61 @@
+> errors
+5: noante
+10: noante
+12: 
+    12 dobj 11: manygovs
+    12 pnct# 11: manygovs
+13: nogov
+16: nosubj
+20: noante
+25: nosubj
+26: nosubj
+27: nosubj
+30: noante
+33: noante
+39: noante
+40: nogov
+41: noante
+50: noante
+52: noante
+53: noante
+57: noante
+58: nogov
+59: noante
+66: noante
+68: noante
+72: 
+    72 mod 58: manygovs
+    72 pnct# 58: manygovs
+84: noante
+93: nogov
+94: nosubj
+95: noante
+102: noante
+103: nogov
+104: noante
+110: noante
+117: noante
+118: nogov
+120: noante
+122: noante
+129: noante
+133: noante
+134: nogov
+136: noante
+138: noante
+146: noante
+154: noante
+157: noante
+164: noante
+175: noante
+178: noante
+187: nogov
+190: noante
+193: noante
+197: noante
+204: nonobj
+208: noante
+211: noante
+213: noante
+222: nogov
+> redirect ./en/0850-en.info

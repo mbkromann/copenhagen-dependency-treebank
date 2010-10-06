@@ -1,0 +1,96 @@
+> errors
+0: nogov
+    0 descmark 3: badtype
+1: noante
+3: nogov
+6: noante
+8: nogov
+9: noante
+12: nogov
+13: nogov
+18: noante
+21: noante
+23: noante
+27: noante
+30: nosubj
+32: noante
+34: nogov
+37: noante
+42: nosubj
+    42 dobj 41: manygovs
+    42 subj 44: manygovs
+43: noante
+44: nogov
+48: noante
+51: noante
+53: noante
+54: nosubj
+56: noante
+58: noante
+60: noante
+64: noante
+66: nonobj
+68: noante
+69: noante
+70: nogov nosubj
+72: nosubj
+74: noante
+77: noante
+82: nonobj
+88: noante
+91: noante
+94: noante
+98: nogov nosubj
+101: noante
+104: noante
+107: nogov nosubj
+108: nosubj
+109: noante
+118: nogov
+124: nogov
+125: nogov
+126: noante
+131: nosubj
+133: noante
+135: noante
+137: nosubj
+140: nogov
+141: noante
+144: noante
+147: noante
+150: noante
+155: noante
+157: noante
+160: noante
+162: nogov
+163: noante
+165: noante
+169: nogov nosubj
+172: nosubj
+174: noante
+177: noante
+180: noante
+183: noante
+186: noante
+188: nogov
+190: noante
+195: noante
+198: noante
+200: nogov
+201: noante
+203: noante
+205: noante
+208: noante
+210: nosubj
+213: noante
+214: nogov nosubj
+216: noante
+221: noante
+224: noante
+230: noante
+232: noante
+233: nosubj
+234: nogov
+235: nogov noante
+238: noante
+> redirect ./es/1347-es-soren.info

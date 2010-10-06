@@ -1,0 +1,48 @@
+> errors
+3: nogov
+9: noante
+16: noante
+17: noante
+20: noante
+29: 
+    29 ²pnct 27: manygovs
+    29 ¹conj 28: manygovs
+33: nonobj
+42: 
+    42 ¹conj 40: manygovs
+    42 ²pnct 40: manygovs
+50: noante
+58: nosubj
+64: 
+    64 ¹man 61: manygovs
+    64 ²pnct 61: manygovs
+68: noante
+78: noante
+80: nosubj
+87: noante
+106: nonobj
+111: noante
+115: nosubj
+122: noante
+124: nonobj
+128: nosubj
+133: noante
+147: noante
+156: nosubj
+158: 
+    158 ²pnct 145: manygovs
+    158 coref 146: manygovs
+    158 ¹nobj 157: manygovs
+162: noante
+166: noante
+167: nosubj
+169: noante
+170: noante
+174: noante
+178: noante
+186: noante
+188: nosubj
+192: noante
+195: noante
+200: noante
+> redirect ./en/0675-en-morten.info

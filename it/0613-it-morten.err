@@ -1,0 +1,75 @@
+> errors
+3: noante
+6: noante
+7: nogov
+9: noante
+14: 
+    14 *[subj] 16: badtype
+15: nonobj
+18: nosubj
+20: noante
+22: noante
+24: noante
+27: 
+    27 *[subj] 41: badtype
+31: noante
+35: noante
+41: 
+    41 *[subj] 42: badtype
+48: nonobj
+52: noante
+60: nogov nosubj
+    60 *coref 6: badtype
+    60 *[subj] 61: badtype
+62: nonobj
+67: nogov nosubj
+    67 *coref 60: badtype
+    67 *[subj] 68: badtype
+    67 *[subj] 76: badtype
+71: nonobj
+74: noante
+76: 
+    76 *[subj] 77: badtype
+80: noante
+82: noante
+84: noante
+88: noante
+92: noante
+95: nogov
+109: nogov nosubj
+    109 *coref 94: badtype
+    109 *[subj] 116: badtype
+114: noante
+115: nonobj
+126: nogov nosubj
+    126 *coref 109: badtype
+    126 *[subj] 129: badtype
+    126 *[subj] 133: badtype
+127: nosubj
+128: nonobj
+132: nonobj
+135: noante
+143: nonobj
+147: nogov
+152: noante
+158: noante
+159: nonobj
+160: nosubj
+172: noante
+175: noante
+176: nogov nosubj
+    176 *coref 126: badtype
+    176 *[subj] 177: badtype
+181: noante
+183: noante
+191: nogov nosubj
+    191 *coref 178: badtype
+195: noante
+203: noante
+204: nogov nosubj
+    204 *assoc-const 176: badtype
+    204 *[subj] 205: badtype
+218: noante
+224: nogov
+233: noante
+> redirect ./it/0613-it-morten.info

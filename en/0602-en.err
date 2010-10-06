@@ -1,0 +1,76 @@
+> errors
+3: nogov
+4: 
+    4 ¹subj 3: manygovs
+    4 ²pnct 3: manygovs
+7: noante
+10: noante
+13: noante
+14: nogov
+18: noante
+19: nogov
+21: nonobj
+22: noante
+28: noante
+31: noante
+32: nogov
+33: noante
+36: noante
+41: noante
+44: noante
+46: noante
+50: nonobj
+51: noante
+55: noante
+61: noante
+62: nogov
+67: noante
+70: noante
+72: nosubj
+80: nosubj
+81: noante
+82: noante
+87: noante
+88: nogov
+89: noante
+91: noante
+97: noante
+99: noante
+103: noante
+104: nogov
+108: noante
+109: nogov
+111: noante
+113: noante
+116: noante
+118: noante
+122: noante
+123: nogov
+124: 
+    124 mods 123: manygovs
+    124 fpreds 123: manygovs
+126: noante
+131: noante
+132: noante
+134: noante
+141: noante
+147: noante
+149: noante
+150: nogov
+155: noante
+157: nogov
+161: noante
+165: noante
+167: nonobj
+168: noante
+169: noante
+171: noante
+172: noante
+173: noante
+179: noante
+180: nogov
+183: noante
+191: noante
+193: noante
+196: noante
+> redirect ./en/0602-en.info

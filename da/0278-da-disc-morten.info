@@ -1,5 +1,14 @@
+> status
 da/0278-da-disc-morten.tag:
   morphology: none
   discourse: discussed
   syntax: outdated-final
   postag: final
+  tokens: 195
+  sentences: 13
+
+Error counts (use "errors" command for details): 
+     16 noante error
+      1 nogov error
+      5 nosubj error
+> redirect

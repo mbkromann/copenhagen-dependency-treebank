@@ -1,5 +1,17 @@
+> status
 it/0235-it-lisa.tag:
   morphology: none
   discourse: none
   syntax: final
   postag: auto
+  tokens: 160
+  sentences: 7
+
+Error counts (use "errors" command for details): 
+     16 badtype error
+      3  error
+     25 noante error
+     10 nogov error
+      1 nonobj error
+     12 nosubj error
+> redirect

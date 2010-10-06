@@ -1,0 +1,29 @@
+> errors
+43: nogov
+63: nosubj
+69: nosubj
+88: nogov
+96: nogov
+109: noante
+110: nogov
+126: nogov noante
+150: noante
+151: nogov
+155: noante
+160: noante
+169: nogov
+170: noante
+172: noante
+181: noante
+183: noante
+186: nogov
+187: noante
+189: noante
+196: nosubj
+199: noante
+201: noante
+205: noante
+207: noante
+233: noante
+244: noante
+> redirect ./da/1428-da.info

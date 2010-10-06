@@ -1,0 +1,93 @@
+> errors
+0: nogov
+1: nogov noante
+2: nogov
+3: nogov
+4: noante
+    4 prg 6: manygovs
+    4 dobj 11: manygovs
+6: nogov nosubj
+8: noante
+11: nogov
+12: noante
+14: nogov nosubj
+16: nogov nonobj
+17: nogov noante
+18: nogov
+19: nogov noante
+20: nogov
+23: noante
+25: noante
+26: nogov
+27: noante
+30: noante
+35: nosubj
+37: noante
+39: nosubj
+44: nosubj
+45: nosubj
+48: noante
+49: nogov
+53: noante
+55: noante
+58: noante
+59: nosubj
+63: noante
+65: nosubj
+66: nogov nonobj
+70: nosubj
+72: nogov noante
+73: nosubj
+74: noante
+75: nogov nosubj
+78: noante
+    78 dobj 79: manygovs
+    78 dobj 81: manygovs
+79: nogov nosubj
+81: nogov
+82: noante
+85: nogov nosubj
+88: noante
+95: noante
+97: nogov nosubj
+100: noante
+102: noante
+105: nogov
+    105 pobj:? 104: badtype
+108: nosubj
+110: nosubj
+111: noante
+113: noante
+117: 
+    117 time 119: manygovs
+    117 dobj 128: manygovs
+118: noante
+119: noante
+120: nogov
+122: noante
+128: nogov
+129: noante
+132: nogov
+136: noante
+139: noante
+142: nonobj
+143: nogov
+    143 time? 142: badtype
+144: nosubj
+147: nosubj
+150: noante
+152: noante
+153: nosubj
+155: noante
+156: nogov
+160: nogov nosubj
+    160 nobj? 159: badtype
+161: nogov
+163: noante
+165: nonobj
+167: nosubj
+168: nogov nosubj
+    168 pobjnobj 167: badtype
+170: nogov
+    170 mod? 172: badtype
+> redirect ./es/0602-es-disc-lotte.info

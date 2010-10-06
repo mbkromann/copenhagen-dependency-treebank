@@ -1,6 +1,16 @@
+> status
 en/0133-en-morten.tag:
   morphology: none
   discourse: first
   syntax: first
   svn:mergeinfo: 
   postag: auto
+  tokens: 233
+  sentences: 10
+
+Error counts (use "errors" command for details): 
+     32 noante error
+      1 nogov error
+      4 nonobj error
+     10 nosubj error
+> redirect

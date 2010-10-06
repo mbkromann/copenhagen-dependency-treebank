@@ -1,0 +1,30 @@
+> errors
+43: nogov
+46: noante
+58: noante
+67: noante
+73: noante
+75: noante
+98: noante
+105: noante
+113: noante
+115: noante
+124: noante
+130: nosubj
+136: noante
+156: noante
+158: noante
+161: noante
+176: noante
+177: nogov
+    177 +QUEST:probl/ATTR3 152: badtype
+181: nosubj
+195: noante
+199: noante
+202: nosubj
+210: noante
+250: noante
+257: noante
+264: noante
+275: nosubj
+> redirect ./da/0273-da-disc-morten.info

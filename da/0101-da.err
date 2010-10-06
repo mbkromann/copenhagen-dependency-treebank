@@ -1,0 +1,30 @@
+> errors
+45: noante
+46: nogov
+66: noante
+67: nogov
+81: nogov
+90: nosubj
+105: noante
+107: nogov
+124: nogov
+145: noante
+146: nosubj
+150: noante
+156: noante
+163: nogov
+169: nogov
+189: nogov noante
+196: noante
+197: nogov
+202: noante
+204: noante
+208: noante
+209: nogov
+210: noante
+213: nosubj
+214: noante
+218: noante
+230: nogov
+236: noante
+> redirect ./da/0101-da.info

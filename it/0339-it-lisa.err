@@ -1,0 +1,98 @@
+> errors
+0: nogov noante
+1: noante
+4: noante
+5: noante
+9: noante
+15: nogov
+    15 se_note 0: badtype
+16: noante
+20: nosubj
+    20 *coref 5: badtype
+23: nosubj
+27: nogov
+    27 *coref 5: badtype
+    27 *[subj] 31: badtype
+31: 
+    31 *[subj] 37: badtype
+35: noante
+38: noante
+41: nosubj
+42: noante
+45: noante
+47: noante
+50: noante
+54: nogov
+60: noante
+62: noante
+65: noante
+69: nogov
+72: nogov noante
+    72 se_note 69: badtype
+75: nosubj
+76: noante
+77: noante
+81: noante
+84: nogov
+87: noante
+90: nogov nosubj
+94: noante
+96: nogov
+97: nonobj
+99: noante
+102: nogov noante
+    102 error 104: badtype
+104: noante
+110: nogov noante
+    110 error 108: badtype
+116: noante
+118: nosubj
+120: noante
+123: nogov nosubj
+    123 error 126: badtype
+124: nogov noante
+    124 error 126: badtype
+127: noante
+129: noante
+133: noante
+135: noante
+139: noante
+141: noante
+144: nogov noante
+    144 error 146: badtype
+146: noante
+150: noante
+151: noante
+152: nogov
+155: noante
+160: noante
+162: nogov noante
+    162 error 167: badtype
+163: nogov nosubj
+    163 error 167: badtype
+164: nogov nosubj
+    164 error 167: badtype
+165: nogov nonobj
+    165 error 167: badtype
+167: noante
+171: noante
+175: nogov nosubj
+178: nogov nosubj
+181: nosubj
+182: nosubj
+185: noante
+188: nonobj
+190: noante
+195: noante
+198: noante
+200: nogov nosubj
+209: noante
+211: nogov
+215: nonobj
+216: nosubj
+217: noante
+221: nonobj
+222: nosubj
+225: noante
+228: nosubj
+> redirect ./it/0339-it-lisa.info

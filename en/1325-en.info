@@ -1,5 +1,16 @@
+> status
 en/1325-en.tag:
   morphology: none
   discourse: none
   syntax: outdated-final
   postag: auto
+  tokens: 184
+  sentences: 8
+
+Error counts (use "errors" command for details): 
+      2 manygovs error
+     41 noante error
+      8 nogov error
+      6 nonobj error
+      5 nosubj error
+> redirect

@@ -1,0 +1,110 @@
+> errors
+1: noante
+3: nogov
+7: noante
+9: nogov
+10: nosubj
+11: noante
+15: nogov nosubj
+16: nosubj
+17: noante
+19: noante
+22: noante
+24: noante
+26: noante
+28: noante
+30: noante
+32: nosubj
+36: nosubj
+37: nosubj
+38: noante
+42: nogov
+45: nogov
+46: nosubj
+47: noante
+50: nosubj
+52: nogov nosubj
+53: nogov noante
+57: noante
+60: noante
+64: nosubj
+65: noante
+66: noante
+68: noante
+76: noante
+81: noante
+83: noante
+84: noante
+86: noante
+89: nogov
+90: noante
+93: nogov
+    93 quant:other 95: badtype
+94: nogov noante
+95: nogov noante
+97: 
+    97 conj 93: manygovs
+    97 quant 98: manygovs
+98: nogov noante
+101: nogov
+102: nosubj
+103: noante
+107: noante
+108: nosubj
+111: noante
+117: noante
+118: nosubj
+119: noante
+120: nonobj
+125: noante
+128: noante
+133: noante
+137: noante
+138: nogov nosubj
+140: nosubj
+142: noante
+143: noante
+147: noante
+149: noante
+151: noante
+153: noante
+156: noante
+157: noante
+161: noante
+164: nosubj
+165: nonobj
+166: nosubj
+167: noante
+169: noante
+170: nogov nosubj
+172: noante
+174: noante
+175: nosubj
+176: nosubj
+177: noante
+180: noante
+186: noante
+191: nogov
+192: noante
+195: noante
+198: nogov
+    198 pobj:other 197: badtype
+199: noante
+202: noante
+207: noante
+210: nogov
+211: nogov
+213: noante
+215: noante
+218: noante
+220: nosubj
+223: noante
+229: noante
+231: noante
+233: nosubj
+235: noante
+236: noante
+239: noante
+240: nosubj
+241: noante
+> redirect ./es/1077-es-jonas.info

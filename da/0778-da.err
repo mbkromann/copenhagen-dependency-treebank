@@ -1,0 +1,41 @@
+> errors
+44: nogov
+47: nogov
+67: noante
+69: noante
+72: nogov
+82: noante
+84: nogov
+89: noante
+92: noante
+106: noante
+107: nogov
+119: nogov
+125: nogov nosubj
+129: noante
+131: nogov
+133: noante
+135: noante
+137: noante
+143: nogov nosubj
+    143 mcomp 142: badtype
+152: noante
+158: noante
+159: nosubj
+161: nogov
+164: noante
+178: noante
+182: nogov
+188: nogov
+189: nogov
+200: noante
+203: noante
+211: noante
+220: noante
+224: noante
+237: noante
+239: noante
+240: noante
+244: noante
+249: nogov
+> redirect ./da/0778-da.info

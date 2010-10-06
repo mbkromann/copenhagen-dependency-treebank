@@ -1,0 +1,35 @@
+> errors
+49: nosubj
+62: nogov
+69: noante
+73: noante
+80: noante
+81: nogov
+83: noante
+88: noante
+99: noante
+109: noante
+110: nogov
+111: noante
+122: noante
+123: noante
+126: noante
+128: noante
+131: noante
+136: nosubj
+149: noante
+151: noante
+155: noante
+156: nogov
+168: noante
+177: noante
+198: noante
+202: noante
+204: nogov
+214: noante
+216: noante
+220: noante
+230: nogov
+    230 mcomp 228: badtype
+234: nosubj
+> redirect ./da/1067-da.info

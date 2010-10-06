@@ -1,0 +1,115 @@
+> errors
+1: nogov noante
+2: nosubj
+3: nonobj
+4: noante
+7: noante
+9: noante
+11: noante
+12: noante
+13: noante
+14: noante
+17: noante
+18: noante
+23: noante
+25: noante
+28: noante
+31: noante
+32: noante
+33: noante
+36: noante
+38: noante
+39: noante
+42: noante
+45: noante
+47: noante
+54: noante
+55: nonobj
+56: nogov noante
+62: noante
+63: nonobj
+64: nogov noante
+70: noante
+72: nosubj
+74: noante
+85: noante
+90: noante
+92: noante
+93: nosubj
+98: nosubj
+100: noante
+105: noante
+110: noante
+116: noante
+120: noante
+121: noante
+125: nonobj
+126: nosubj
+130: nogov nosubj
+    130 ELAB:spec 42: badtype
+131: noante
+134: noante
+136: nosubj
+141: noante
+142: nosubj
+144: nosubj
+149: noante
+152: nogov nosubj
+    152 CONJ:add:seq 130: badtype
+157: noante
+160: nogov nosubj
+    160 CONJ:add:seq 152: badtype
+162: noante
+165: nonobj
+166: nogov noante
+170: noante
+173: nosubj
+175: nosubj
+176: nosubj
+181: noante
+183: noante
+185: nosubj
+187: nosubj
+193: nosubj
+197: noante
+200: nosubj
+201: noante
+203: nosubj
+205: nogov nosubj
+    205 +CONJ:add:seq 160: badtype
+208: nonobj
+209: nogov noante
+210: nonobj
+216: nonobj
+217: nogov noante
+219: nonobj
+220: nosubj
+221: nosubj
+227: nosubj
+230: nonobj
+231: nogov noante
+233: noante
+234: nosubj
+236: nosubj
+242: noante
+244: nosubj
+246: noante
+248: noante
+250: noante
+252: noante
+253: noante
+254: noante
+255: noante
+257: nonobj
+258: noante
+265: noante
+266: nosubj
+267: nosubj
+270: noante
+272: nonobj
+273: noante
+277: noante
+279: noante
+282: noante
+286: noante
+> redirect ./it/1038-it-disc-iorn.info

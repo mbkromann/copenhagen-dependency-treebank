@@ -1,0 +1,51 @@
+> errors
+43: noante
+51: noante
+55: nogov
+56: noante
+61: noante
+64: noante
+77: noante
+87: noante
+93: noante
+103: noante
+110: noante
+117: noante
+123: noante
+128: noante
+131: noante
+132: noante
+137: nosubj
+138: noante
+141: noante
+146: nogov
+    146 AGENTIVE:cause/(fordi)/ATTR1 137: badtype
+149: noante
+152: noante
+167: noante
+172: noante
+176: noante
+181: noante
+185: noante
+187: noante
+189: noante
+195: noante
+198: noante
+200: noante
+202: noante
+211: 
+    211 +QUEST:probl/ATTR2 197: badtype
+214: noante
+216: nosubj
+226: noante
+227: noante
+233: noante
+246: noante
+247: nosubj
+254: 
+    254 +QUEST:probl/ATTR2 240: badtype
+256: noante
+263: noante
+264: noante
+267: noante
+> redirect ./da/0620-da-disc-morten.info

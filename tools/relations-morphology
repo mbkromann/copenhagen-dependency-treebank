@@ -1,0 +1,22 @@
+#!/bin/bash
+
+morten=/tmp/morph-morten.tag
+lotte=/tmp/morph-lotte.tag
+rels=~/cdt/confusion/relations-morphology.csv
+echo > $morten
+echo > $lotte
+echo > $rels
+
+# Extract double annotations
+for f in `ls ~/cdt/first/morphology/*.tag | sed -e 's/-lotte.tag//g' -e 's/-morten.tag//g' | sort | uniq` ; do 
+	if [ -f $f-lotte.tag -a -f $f-morten.tag ] ; then
+		echo "=== $f ==="
+		cat $f-lotte.tag | ~/cdt/tools/tag2morph > $lotte
+		cat $f-morten.tag | ~/cdt/tools/tag2morph > $morten
+		diff -y /tmp/morph-* | grep -v '===' \
+			| sed -e 's/|//g' -e 's/[ ][      ]*/ /g' \
+			| awk -F' ' '{ nlines++ ; print "'$f'-lotte.tag\t" $1 "\t" nlines "\t" nlines "\t1\n'$f'-morten.tag\t" $2 "\t" nlines "\t" nlines "\t1" }' >> $rels
+	fi
+done
+
+# Compare annotations

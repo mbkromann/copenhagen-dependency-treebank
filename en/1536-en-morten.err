@@ -1,0 +1,44 @@
+> errors
+2: nogov
+4: nosubj
+8: noante
+17: noante
+19: nosubj
+26: noante
+30: nosubj
+34: noante
+37: noante
+39: noante
+40: noante
+41: nonobj
+43: 
+    43 + 42: badtype
+47: noante
+51: noante
+60: noante
+63: noante
+79: noante
+81: nonobj
+85: noante
+88: nosubj
+91: nonobj
+94: noante
+109: nosubj
+113: nosubj
+121: nonobj
+123: noante
+131: nosubj
+132: nonobj
+158: nosubj
+160: noante
+165: noante
+176: noante
+177: noante
+181: noante
+188: noante
+204: nonobj
+205: noante
+207: noante
+214: noante
+223: noante
+> redirect ./en/1536-en-morten.info

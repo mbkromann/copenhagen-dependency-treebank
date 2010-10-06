@@ -1,0 +1,69 @@
+> errors
+1: nonobj
+3: noante
+5: noante
+6: nogov
+7: noante
+11: noante
+13: noante
+20: noante
+24: nogov nosubj
+25: nosubj
+27: nosubj
+31: nogov
+33: nogov
+34: noante
+45: noante
+46: noante
+47: nogov
+51: noante
+59: nogov nosubj
+62: noante
+    62 assoc-scope 32: badtype
+65: noante
+70: noante
+72: noante
+75: noante
+    75 assoc-scope 62: badtype
+77: nogov
+78: noante
+81: noante
+88: nogov
+89: nonobj
+91: noante
+    91 assoc-scope 86: badtype
+94: noante
+95: noante
+102: noante
+104: nogov
+106: nosubj
+107: noante
+    107 assoc-scope 98: badtype
+111: noante
+    111 assoc-scope 86: badtype
+113: noante
+118: noante
+120: 
+    120 assoc-scope 107: badtype
+121: noante
+126: noante
+127: noante
+    127 assoc-scope 111: badtype
+130: noante
+141: noante
+143: noante
+144: nosubj
+145: noante
+146: nosubj
+151: noante
+156: noante
+157: nogov
+159: noante
+162: noante
+167: noante
+168: nosubj
+170: noante
+    170 assoc-scope 148: badtype
+173: noante
+175: noante
+> redirect ./es/0647-es-henrik.info

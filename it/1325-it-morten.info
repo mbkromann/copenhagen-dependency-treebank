@@ -1,5 +1,16 @@
+> status
 it/1325-it-morten.tag:
   morphology: none
   discourse: none
   syntax: first
   postag: auto
+  tokens: 195
+  sentences: 8
+
+Error counts (use "errors" command for details): 
+      2 badtype error
+     32 noante error
+      8 nogov error
+      3 nonobj error
+      9 nosubj error
+> redirect

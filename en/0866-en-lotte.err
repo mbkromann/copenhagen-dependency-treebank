@@ -1,0 +1,70 @@
+> errors
+3: nogov
+4: noante
+6: 
+    6 pther 24: badtype
+7: noante
+9: nonobj
+10: noante
+12: noante
+17: noante
+20: noante
+27: noante
+31: noante
+40: noante
+41: nogov
+42: noante
+43: noante
+46: noante
+60: noante
+61: nogov
+63: nonobj
+64: noante
+70: nosubj
+82: noante
+83: noante
+87: noante
+93: nogov
+100: noante
+107: noante
+108: nogov
+109: nonobj
+113: noante
+114: noante
+117: noante
+122: noante
+123: noante
+126: noante
+128: 
+    128 ²pnct 108: manygovs
+    128 ¹conj 126: manygovs
+133: noante
+134: nogov
+135: noante
+140: noante
+142: noante
+145: noante
+146: 
+    146 ²pnct 134: manygovs
+    146 ¹possd 145: manygovs
+152: noante
+165: nosubj
+168: noante
+178: noante
+181: noante
+190: noante
+196: nogov
+203: nogov
+204: nonobj
+205: noante
+211: noante
+214: noante
+219: nonobj
+220: noante
+224: nonobj
+232: noante
+233: nogov
+234: nonobj
+235: noante
+243: noante
+> redirect ./en/0866-en-lotte.info

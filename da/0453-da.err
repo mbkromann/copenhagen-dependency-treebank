@@ -1,0 +1,39 @@
+> errors
+43: noante
+55: noante
+63: noante
+66: nogov
+77: nogov
+87: nogov
+97: noante
+98: nogov
+99: noante
+102: noante
+104: noante
+113: noante
+115: noante
+118: nosubj
+126: noante
+128: noante
+147: noante
+159: nosubj
+170: nosubj
+171: noante
+178: noante
+188: noante
+195: nogov
+201: noante
+202: noante
+209: noante
+212: nogov
+213: noante
+218: nosubj
+224: nosubj
+226: nosubj
+231: nosubj
+232: nosubj
+244: noante
+251: 
+    251 dobj 150: manygovs
+    251 dobj 250: manygovs
+> redirect ./da/0453-da.info

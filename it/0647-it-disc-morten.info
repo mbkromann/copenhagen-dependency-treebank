@@ -1,6 +1,16 @@
+> status
 it/0647-it-disc-morten.tag:
   morphology: none
   discourse: discussed
   syntax: discussed
   svn:mergeinfo: 
   postag: auto
+  tokens: 196
+  sentences: 6
+
+Error counts (use "errors" command for details): 
+     42 noante error
+      2 nogov error
+      5 nonobj error
+     11 nosubj error
+> redirect

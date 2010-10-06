@@ -1,0 +1,75 @@
+> errors
+3: noante
+4: nogov
+15: nogov nosubj
+    15 *coref 9: badtype
+    15 *[subj] 16: badtype
+20: noante
+22: noante
+24: noante
+26: noante
+35: nosubj
+    35 *coref 14: badtype
+    35 *[subj]² 36: badtype
+36: 
+    36 ²*coref 35: badtype
+38: noante
+46: nogov
+47: noante
+48: nosubj
+52: noante
+58: nogov nosubj
+    58 *coref 52: badtype
+    58 *[subj] 59: badtype
+    58 *[subj] 61: badtype
+60: nonobj
+62: nonobj
+68: nosubj
+69: noante
+81: nogov
+89: nosubj
+97: nogov
+100: 
+    100 *[subj] 113: badtype
+101: 
+    101 + 100: badtype
+104: nonobj
+107: noante
+113: 
+    113 *[subj] 114: badtype
+115: nonobj
+117: noante
+121: nogov nosubj
+    121 *coref 113: badtype
+137: noante
+138: nogov
+146: nogov
+147: noante
+151: noante
+155: noante
+156: 
+    156 *coref 148: badtype
+165: noante
+167: nogov nosubj
+    167 *coref 156: badtype
+    167 *[subj] 168: badtype
+170: noante
+178: 
+    178 *[subj] 179: badtype
+180: noante
+184: nogov nosubj
+    184 *coref 167: badtype
+    184 [subj]* 178: badtype
+    184 *[subj] 185: badtype
+186: noante
+187: noante
+191: 
+    191 *coref 184: badtype
+196: nogov nosubj
+    196 *coref 188: badtype
+197: noante
+201: nogov noante
+    201 *coref 181: badtype
+    201 *[subj] 210: badtype
+209: noante
+> redirect ./it/0285-it-morten.info

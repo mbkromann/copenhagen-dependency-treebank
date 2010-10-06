@@ -1,0 +1,40 @@
+> errors
+43: noante
+44: nogov
+49: noante
+61: nosubj
+63: nosubj
+64: nonobj
+67: 
+    67 :¤elab 49: badtype
+69: nosubj
+87: nogov
+    87 ¤elab 57: badtype
+108: noante
+117: noante
+123: noante
+125: noante
+131: nogov
+134: noante
+144: 
+    144 CONJ:add/og 121: manygovs
+    144 conj 131: manygovs
+150: noante
+159: nosubj
+160: noante
+161: noante
+166: noante
+170: noante
+175: noante
+183: noante
+189: nosubj
+202: noante
+203: noante
+215: noante
+220: noante
+224: noante
+226: nosubj
+231: noante
+234: noante
+236: noante
+> redirect ./da/1030-da-disc-lotte.info

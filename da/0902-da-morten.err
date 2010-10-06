@@ -1,0 +1,53 @@
+> errors
+43: nogov nosubj
+48: nonobj
+53: nogov nosubj
+54: noante
+66: nogov nosubj
+73: nonobj
+78: nogov nosubj
+81: nosubj
+82: noante
+84: nonobj
+89: nonobj
+94: nogov nosubj
+95: noante
+102: nogov nosubj
+105: nosubj
+106: noante
+120: nogov nosubj
+125: nosubj
+138: nogov nosubj
+139: noante
+142: nosubj
+147: nogov nosubj
+148: noante
+151: noante
+159: nogov nosubj
+161: noante
+169: noante
+171: nosubj
+172: noante
+181: nogov nosubj
+185: nosubj
+193: nogov nosubj
+202: nogov nosubj
+203: noante
+219: nogov nosubj
+220: noante
+222: noante
+224: nosubj
+225: noante
+228: noante
+232: noante
+233: nogov
+246: noante
+247: nogov
+251: noante
+260: noante
+261: nogov
+    261 mcomp 260: badtype
+263: nogov
+266: noante
+269: noante
+> redirect ./da/0902-da-morten.info

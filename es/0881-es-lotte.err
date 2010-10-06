@@ -1,0 +1,79 @@
+> errors
+0: noante
+    0 ¹pnct 1: manygovs
+    0 ²time 1: manygovs
+1: nosubj
+2: nosubj
+3: noante
+6: noante
+13: noante
+29: noante
+33: 
+    33 ²pnct 11: manygovs
+    33 ³pnct 11: manygovs
+    33 ¹attr# 32: manygovs
+34: nogov
+38: nosubj
+    38 ¹pnct 41: manygovs
+    38 ²cons 41: manygovs
+39: nogov
+41: nogov nosubj
+42: nosubj
+47: nosubj
+48: nosubj
+50: noante
+    50 ²pnct 41: manygovs
+    50 ³pnct 41: manygovs
+    50 ¹nobj 49: manygovs
+53: noante
+56: nosubj
+57: nogov
+65: nosubj
+67: noante
+71: nosubj
+72: nosubj
+74: nosubj
+75: nosubj
+78: noante
+79: noante
+81: nosubj
+82: nosubj
+83: nonobj
+84: nosubj
+89: noante
+91: noante
+93: nosubj
+103: 
+    103 ²pnct 88: manygovs
+    103 ³pnct 88: manygovs
+    103 ¹relr 99: manygovs
+104: nogov
+109: noante
+122: noante
+124: noante
+126: noante
+    126 ¹pnct 127: manygovs
+    126 ²xtop 127: manygovs
+133: nosubj
+134: noante
+135: noante
+    135 ²pnct 127: manygovs
+    135 ³pnct 127: manygovs
+    135 ¹nobj 134: manygovs
+136: nogov
+139: noante
+142: noante
+145: noante
+147: noante
+148: nogov
+151: noante
+155: noante
+158: nonobj
+160: nosubj
+162: noante
+166: noante
+168: nosubj
+169: noante
+172: nosubj
+174: noante
+> redirect ./es/0881-es-lotte.info

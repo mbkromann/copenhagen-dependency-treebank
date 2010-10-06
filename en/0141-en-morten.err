@@ -1,0 +1,41 @@
+> errors
+2: noante
+8: nosubj
+11: noante
+14: noante
+18: nogov
+28: nosubj
+32: noante
+40: noante
+43: noante
+62: noante
+77: noante
+91: noante
+99: noante
+105: nosubj
+125: noante
+134: noante
+138: nosubj
+139: noante
+141: nosubj
+146: nogov
+158: 
+    158 CONJ:add/and/ATTR 135: manygovs
+    158 conj 146: manygovs
+161: noante
+163: noante
+164: 
+    164 pnct# 146: manygovs
+    164 coref-res 149: manygovs
+    164 dobj 163: manygovs
+173: noante
+180: noante
+182: nosubj
+192: noante
+201: noante
+210: noante
+213: noante
+219: noante
+224: nonobj
+231: nonobj
+> redirect ./en/0141-en-morten.info

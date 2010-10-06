@@ -1,0 +1,46 @@
+> errors
+42: nogov nosubj
+43: noante
+54: nogov nosubj
+55: noante
+57: noante
+65: noante
+77: nogov nosubj
+78: noante
+87: noante
+88: nogov
+90: noante
+101: noante
+102: nogov
+105: noante
+108: noante
+126: noante
+128: nogov
+129: noante
+133: nosubj
+137: noante
+142: noante
+156: nogov
+163: noante
+165: nogov
+175: nogov
+181: nogov
+184: nogov nosubj
+193: nogov
+199: nogov
+205: nogov
+210: nogov
+216: nogov nosubj
+220: nogov
+232: noante
+236: noante
+244: nogov
+245: noante
+247: noante
+253: noante
+271: nogov noante
+279: noante
+280: nogov
+282: nosubj
+290: noante
+> redirect ./da/0452-da.info

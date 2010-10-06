@@ -1,0 +1,54 @@
+> errors
+53: noante
+62: noante
+67: noante
+69: nogov
+70: noante
+72: noante
+81: noante
+87: nogov
+88: noante
+89: 
+    89 +CONJ:add/og 80: manygovs
+    89 conj 87: manygovs
+91: noante
+94: noante
+102: noante
+104: noante
+107: noante
+118: noante
+119: nogov
+    119 +CONST:rest(med_andre_ord) 103: badtype
+120: noante
+128: nosubj
+130: noante
+139: noante
+142: noante
+144: noante
+149: noante
+155: noante
+158: noante
+173: nogov
+174: noante
+178: 
+    178 +CONTR:sbj/men 138: manygovs
+    178 conj 173: manygovs
+185: nogov
+186: noante
+187: 
+    187 +CONJ:add/og&CONJ:elab 179: manygovs
+    187 conj 185: manygovs
+194: noante
+203: noante
+206: noante
+211: noante
+222: noante
+226: nosubj
+233: noante
+235: noante
+238: noante
+244: 
+    244 +CONJ:elab 222: manygovs
+    244 xpl 226: manygovs
+245: noante
+> redirect ./da/1405-da-disc-lotte.info

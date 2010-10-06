@@ -1,0 +1,79 @@
+Rejection log (Wed Oct  6 14:51:20 CEST 2010)
+reject: ./it/0005-it-disc-morten because nogovs=217>16 
+reject: ./it/0005-it-morten because nogovs=224>16 syntax-status=none. 
+reject: ./it/0029-it-morten because nogovs=196>11 syntax-status=none. 
+reject: ./it/0043-it-disc-morten because nogovs=211>16 
+reject: ./it/0043-it-morten because nogovs=217>16 syntax-status=none. 
+reject: ./it/0065-it-disc-morten because nogovs=195>23 
+reject: ./it/0065-it-morten because nogovs=204>23 syntax-status=none. 
+reject: ./it/0090-it-disc-morten because nogovs=190>19 
+reject: ./it/0090-it-lisa because nogovs=200>19 syntax-status=none. 
+reject: ./it/0093-it-disc-morten because nogovs=235>14 
+reject: ./it/0097-it-disc-morten because nogovs=194>17 
+reject: ./it/0102-it-disc-morten because nogovs=187>10 
+reject: ./it/0112-it-disc-morten because nogovs=184>19 
+reject: ./it/0114-it-disc-morten because nogovs=216>11 
+reject: ./it/0133-it-disc-morten because nogovs=236>14 
+reject: ./it/0140-it-disc-morten because nogovs=189>13 
+reject: ./it/0143-it-disc-morten because nogovs=189>10 
+reject: ./it/0148-it-disc-morten because nogovs=174>22 
+reject: ./it/0151-it-disc-morten because nogovs=213>14 
+reject: ./it/0159-it-disc-morten because nogovs=234>17 
+reject: ./it/0174-it-disc-morten because nogovs=205>13 
+reject: ./it/0178-it-disc-morten because nogovs=222>14 
+reject: ./it/0188-it-morten because nogovs=244>16 syntax-status=none. 
+reject: ./it/0191-it-disc-morten because nogovs=242>10 
+reject: ./it/0204-it-disc-morten because nogovs=178>19 
+reject: ./it/0215-it-disc-morten because nogovs=181>14 
+reject: ./it/0229-it-disc-morten because nogovs=198>14 
+reject: ./it/0235-it-morten because nogovs=160>11 syntax-status=none. 
+reject: ./it/0237-it-disc-morten because nogovs=212>14 
+reject: ./it/0244-it-morten because nogovs=182>14 syntax-status=none. 
+reject: ./it/0245-it-disc-morten because nogovs=178>14 
+reject: ./it/0257-it-disc-morten because nogovs=174>19 
+reject: ./it/0258-it-disc-morten because nogovs=208>17 
+reject: ./it/0262-it-disc-morten because nogovs=184>14 
+reject: ./it/0264-it-disc-morten because nogovs=227>19 
+reject: ./it/0265-it-disc-morten because nogovs=170>25 
+reject: ./it/0269-it-disc-morten because nogovs=163>11 
+reject: ./it/0272-it-disc-morten because nogovs=170>10 
+reject: ./it/0273-it-disc-morten because nogovs=209>19 
+reject: ./it/0278-it-disc-morten because nogovs=189>20 
+reject: ./it/0285-it-disc-morten because nogovs=167>22 
+reject: ./it/0294-it-disc-morten because nogovs=217>19 
+reject: ./it/0298-it-disc-morten because nogovs=181>10 
+reject: ./it/0339-it-lisa because nogovs=23>14 
+reject: ./it/0339-it-morten because nogovs=176>14 syntax-status=none. 
+reject: ./it/0376-it-morten because nogovs=210>11 syntax-status=none. 
+reject: ./it/0388-it-morten because nogovs=198>35 syntax-status=none. 
+reject: ./it/0428-it-morten because nogovs=200>26 syntax-status=none. 
+reject: ./it/0431-it-morten because nogovs=255>23 syntax-status=none. 
+reject: ./it/0531-firenze-iorn because syntax-status=. 
+reject: ./it/0531-it-iorn because nogovs=22>19 
+reject: ./it/0531-it-morten because nogovs=21>19 
+reject: ./it/0601-it-morten because nogovs=178>7 syntax-status=none. 
+reject: ./it/0602-it-morten because nogovs=143>22 syntax-status=none. 
+reject: ./it/0643-it-morten because nogovs=176>11 syntax-status=none. 
+reject: ./it/0685-it-morten because nogovs=210>16 syntax-status=none. 
+reject: ./it/0729-it-morten because nogovs=200>13 syntax-status=none. 
+reject: ./it/0781-it-iorn because nogovs=183>13 
+reject: ./it/0781-it-morten because nogovs=183>13 syntax-status=none. 
+reject: ./it/0783-it-morten because nogovs=218>11 syntax-status=none. 
+reject: ./it/0800-it-lisa because nogovs=67>10 
+reject: ./it/0848-it-morten because nogovs=213>11 syntax-status=none. 
+reject: ./it/0876-it-morten because nogovs=182>17 syntax-status=none. 
+reject: ./it/0915-it-morten because nogovs=210>8 syntax-status=none. 
+reject: ./it/0939-it-matthias because syntax-status=none. 
+reject: ./it/0960-it-morten because nogovs=218>13 syntax-status=none. 
+reject: ./it/1014-it-morten because nogovs=216>14 syntax-status=none. 
+reject: ./it/1038-it-morten because nogovs=292>23 syntax-status=none. 
+reject: ./it/1054-it-morten because nogovs=206>8 syntax-status=none. 
+reject: ./it/1077-it-morten because nogovs=268>13 syntax-status=none. 
+reject: ./it/1127-it-morten because nogovs=201>10 syntax-status=none. 
+reject: ./it/1227-it-morten because nogovs=191>14 syntax-status=none. 
+reject: ./it/1347-it-ioern because nogovs=242>14 syntax-status=none. 
+reject: ./it/1347-it-iørn because nogovs=242>14 syntax-status=none. 
+reject: ./it/1390-it-morten because nogovs=175>8 syntax-status=none. 
+reject: ./it/1398-it-morten because nogovs=183>10 syntax-status=none. 
+reject: ./it/1408-it-morten because nogovs=242>13 syntax-status=none. 
+reject: ./it/1497-it-morten because nogovs=205>14 syntax-status=none. 

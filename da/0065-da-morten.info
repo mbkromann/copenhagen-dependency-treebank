@@ -1,5 +1,14 @@
+> status
 da/0065-da-morten.tag:
   morphology: none
   discourse: first
   syntax: first
   postag: final
+  tokens: 182
+  sentences: 12
+
+Error counts (use "errors" command for details): 
+      7 noante error
+      1 nogov error
+      1 nosubj error
+> redirect

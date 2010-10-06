@@ -1,0 +1,57 @@
+> errors
+42: nogov
+52: nogov
+58: nogov
+59: nosubj
+60: noante
+66: noante
+80: nogov
+86: nogov
+127: nogov
+136: nogov
+142: nogov
+150: nogov nosubj
+151: noante
+157: noante
+158: nogov
+161: noante
+163: noante
+168: nogov nosubj
+169: noante
+172: nosubj
+173: noante
+179: nogov nosubj
+180: noante
+182: nosubj
+188: nogov nosubj
+196: noante
+208: nogov nosubj
+209: noante
+211: noante
+213: noante
+225: nogov
+233: nogov nosubj
+234: noante
+240: nogov nosubj
+241: noante
+245: noante
+247: nosubj
+249: noante
+251: noante
+259: nogov nosubj
+267: noante
+274: noante
+279: nogov nosubj
+280: noante
+282: noante
+284: noante
+297: nogov
+304: nogov
+311: nogov nosubj
+312: noante
+324: nogov nosubj
+325: noante
+327: noante
+331: noante
+334: noante
+> redirect ./da/0545-da.info

@@ -1,0 +1,33 @@
+> errors
+43: noante
+51: noante
+55: nogov
+56: noante
+61: noante
+64: noante
+77: noante
+87: noante
+93: noante
+103: noante
+128: noante
+132: noante
+138: noante
+149: noante
+152: noante
+167: noante
+172: noante
+176: noante
+181: noante
+187: noante
+189: noante
+195: noante
+197: nogov
+    197 +ELAB:spec/ATTR1 147: badtype
+198: noante
+200: noante
+202: noante
+216: nosubj
+227: noante
+247: nosubj
+263: noante
+> redirect ./da/0620-da-en-disc-iorn.info

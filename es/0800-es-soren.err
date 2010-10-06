@@ -1,0 +1,73 @@
+> errors
+2: nogov nosubj
+3: noante
+6: nosubj
+7: noante
+9: noante
+11: noante
+13: nosubj
+15: noante
+19: noante
+25: noante
+26: nogov
+27: noante
+35: noante
+39: nosubj
+40: noante
+42: nosubj
+43: nosubj
+45: nogov nosubj
+46: noante
+51: noante
+56: noante
+57: nogov
+59: noante
+61: nonobj
+65: nosubj
+68: noante
+74: noante
+78: noante
+81: noante
+84: nonobj
+87: noante
+90: noante
+95: nosubj
+97: nogov noante
+100: nogov nosubj
+104: noante
+106: nosubj
+107: noante
+113: nosubj
+116: noante
+118: nonobj
+119: nosubj
+120: nogov
+121: noante
+124: nosubj
+127: noante
+128: nosubj
+129: nogov
+131: noante
+134: noante
+138: noante
+143: nogov
+145: noante
+151: noante
+153: noante
+155: noante
+158: noante
+165: noante
+166: noante
+173: noante
+174: nogov
+    174 *[subj] 175: badtype
+177: nosubj
+    177 *[subj] 179: badtype
+178: nonobj
+180: noante
+184: noante
+185: nosubj
+187: nonobj
+192: noante
+194: nogov
+> redirect ./es/0800-es-soren.info

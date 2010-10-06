@@ -1,0 +1,50 @@
+> errors
+2: noante
+3: nogov
+4: noante
+7: noante
+9: noante
+13: nosubj
+16: noante
+20: noante
+21: nogov
+33: noante
+35: noante
+42: nogov
+43: noante
+50: noante
+57: nogov nosubj
+62: nonobj
+67: nogov nosubj
+69: noante
+70: noante
+71: noante
+83: noante
+86: noante
+90: nonobj
+91: nosubj
+92: noante
+94: nosubj
+99: noante
+101: nonobj
+104: nonobj
+105: nosubj
+110: nogov
+112: noante
+119: noante
+120: nogov
+122: noante
+123: noante
+125: noante
+129: noante
+133: nogov noante
+135: noante
+137: noante
+140: noante
+148: nosubj
+152: nogov
+158: nosubj
+168: nosubj
+171: nosubj
+179: noante
+> redirect ./it/0244-it-lisa.info

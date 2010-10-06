@@ -1,0 +1,57 @@
+> errors
+2: noante
+4: nogov
+6: noante
+10: noante
+13: noante
+17: noante
+19: noante
+23: noante
+25: nogov
+27: noante
+32: noante
+34: nogov
+36: noante
+39: noante
+43: noante
+47: nogov
+48: nogov
+49: nogov noante
+51: nogov
+52: nogov noante
+53: nogov nonobj
+55: nogov
+69: noante
+71: nogov
+76: noante
+80: noante
+81: noante
+84: noante
+88: noante
+92: noante
+94: noante
+98: noante
+107: noante
+110: noante
+112: noante
+120: nogov
+122: nosubj
+125: noante
+135: noante
+137: noante
+143: noante
+145: nogov
+150: noante
+152: noante
+154: noante
+168: noante
+169: nogov
+170: noante
+173: noante
+175: noante
+178: noante
+183: noante
+191: noante
+198: noante
+199: noante
+> redirect ./de/0596-de-morten.info

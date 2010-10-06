@@ -1,0 +1,14 @@
+> errors
+44: nogov
+82: noante
+89: noante
+99: noante
+123: nogov
+    123 attr:possd 122: badtype
+125: noante
+136: nonobj
+148: noante
+195: noante
+196: nogov
+241: noante
+> redirect ./da/0152-da-lotte.info

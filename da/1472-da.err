@@ -1,0 +1,37 @@
+> errors
+43: nogov noante
+52: noante
+53: nogov
+57: noante
+74: nogov
+86: noante
+94: noante
+95: nogov
+98: noante
+102: noante
+104: noante
+116: noante
+122: nogov
+123: noante
+128: noante
+131: noante
+135: nosubj
+148: noante
+149: nogov
+151: noante
+152: nosubj
+164: noante
+173: noante
+175: noante
+178: noante
+181: nonobj
+186: noante
+197: nogov
+215: nogov
+216: noante
+218: noante
+231: noante
+233: noante
+237: nosubj
+241: nonobj
+> redirect ./da/1472-da.info

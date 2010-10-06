@@ -1,0 +1,246 @@
+> errors
+2: nogov
+3: nogov
+4: nogov
+5: nogov noante
+6: nogov nonobj
+7: nogov noante
+8: nogov nonobj
+9: nogov noante
+10: nogov
+11: nogov noante
+12: nogov
+13: nogov
+14: nogov noante
+15: nogov
+16: nogov noante
+17: nogov nonobj
+18: nogov
+19: nogov noante
+20: nogov
+21: nogov nosubj
+22: nogov nonobj
+23: nogov noante
+24: nogov
+25: nogov nonobj
+26: nogov noante
+27: nogov
+28: nogov
+29: nogov noante
+30: nogov
+31: nogov
+32: nogov
+33: nogov nonobj
+34: nogov noante
+35: nogov
+36: nogov
+37: nogov noante
+38: nogov noante
+39: nogov
+44: nogov noante
+45: nosubj
+46: nogov
+47: nogov
+48: nogov nosubj
+49: nogov noante
+50: nogov noante
+51: nogov nonobj
+52: nogov nosubj
+53: nogov nonobj
+54: nogov noante
+55: nogov noante
+56: nogov
+57: nogov
+58: nogov
+59: nogov noante
+60: nogov nosubj
+61: nogov noante
+62: nogov noante
+63: nogov nonobj
+64: nogov noante
+65: nogov nosubj
+66: nogov nosubj
+67: nogov noante
+68: nogov nosubj
+69: nogov nosubj
+70: nogov nosubj
+71: nogov nonobj
+72: nogov noante
+73: nogov noante
+74: nogov
+79: nogov
+80: nogov noante
+81: nogov noante
+82: nogov nonobj
+83: nogov
+84: nogov nosubj
+    84 +AGENTIVE:cause/(perché) 45: badtype
+85: nogov nosubj
+86: nogov noante
+87: nogov noante
+88: nogov
+93: nogov
+94: nosubj
+95: nogov nosubj
+96: nogov
+97: nogov
+98: nogov noante
+99: nogov noante
+100: nogov nonobj
+101: nogov noante
+102: nogov nosubj
+103: nogov nosubj
+104: nogov noante
+105: nogov noante
+106: nogov noante
+107: nogov nonobj
+108: nogov noante
+109: nogov
+112: noante
+113: nogov
+114: nogov noante
+115: nogov
+116: nogov
+117: nogov
+118: nogov
+119: nogov nosubj
+120: nogov nosubj
+121: nogov nonobj
+122: nogov noante
+123: nogov noante
+124: nogov
+125: nogov
+126: nogov noante
+127: nogov nosubj
+128: nogov nosubj
+129: nogov nonobj
+130: nogov noante
+131: nogov
+132: nogov nonobj
+133: nogov noante
+134: nogov
+135: nogov
+136: nosubj
+137: nogov noante
+138: nogov noante
+139: nogov
+140: nogov
+141: nogov noante
+142: nogov
+147: nogov nonobj
+148: nogov noante
+149: nogov
+150: nogov noante
+151: nogov
+152: nogov noante
+153: nogov noante
+154: nosubj
+155: nogov nosubj
+156: nogov nosubj
+157: nogov
+158: nogov nosubj
+159: nogov nosubj
+160: nogov
+161: nogov noante
+162: nogov nonobj
+163: nogov noante
+164: nogov nonobj
+165: nogov noante
+166: nogov
+167: nogov nonobj
+168: nogov nosubj
+169: nogov nosubj
+170: nogov nosubj
+171: nogov nonobj
+172: nogov noante
+173: nogov
+174: nogov noante
+175: nogov nosubj
+176: nogov nosubj
+177: nogov noante
+178: nogov noante
+179: nogov noante
+180: nogov nosubj
+181: nogov noante
+182: nogov nosubj
+183: nogov nonobj
+184: nogov noante
+185: nogov
+188: nogov
+189: nogov
+190: nogov noante
+191: nogov nonobj
+192: nogov noante
+193: nogov noante
+194: nogov noante
+195: nosubj
+196: nogov nosubj
+197: nogov nonobj
+198: nogov noante
+199: nogov nonobj
+200: nogov nosubj
+201: nogov noante
+202: nogov noante
+203: nogov noante
+204: nogov
+209: nogov
+210: nogov noante
+211: nogov noante
+212: nogov noante
+213: nogov
+214: nogov nonobj
+215: nogov noante
+216: nosubj
+217: nogov
+218: nogov
+219: nogov
+220: nogov noante
+221: nogov nonobj
+222: nogov nosubj
+223: nogov noante
+224: nogov nonobj
+225: nogov noante
+226: nogov
+231: nogov nonobj
+232: nogov noante
+233: nogov nonobj
+234: nogov
+235: nogov noante
+236: nogov nonobj
+237: nogov
+238: nogov noante
+239: nogov nonobj
+240: nogov
+241: nogov
+242: nogov noante
+243: nogov noante
+244: nogov nonobj
+245: nogov noante
+246: nogov noante
+247: nogov nonobj
+248: nogov noante
+249: nogov nonobj
+250: nogov noante
+251: nosubj
+252: nogov nosubj
+253: nogov noante
+254: nogov noante
+255: nogov nonobj
+256: nogov noante
+257: nogov nonobj
+258: nogov
+259: nogov noante
+260: nogov nonobj
+261: nogov noante
+262: nogov noante
+263: nogov noante
+264: nogov
+265: nogov nonobj
+266: nogov noante
+267: nogov nosubj
+268: nogov nosubj
+269: nogov noante
+270: nogov
+271: nogov noante
+272: nogov
+> redirect ./it/0093-it-disc-morten.info

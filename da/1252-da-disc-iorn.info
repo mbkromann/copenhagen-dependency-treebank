@@ -1,6 +1,16 @@
+> status
 da/1252-da-disc-iorn.tag:
   morphology: none
   discourse: discussed
   syntax: outdated-final
   svn:mergeinfo: 
   postag: final
+  tokens: 187
+  sentences: 9
+
+Error counts (use "errors" command for details): 
+      2 badtype error
+     21 noante error
+      3 nogov error
+      6 nosubj error
+> redirect

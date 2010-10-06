@@ -1,5 +1,15 @@
+> status
 es/0502-es-soren.tag:
   morphology: first
   discourse: none
   syntax: discussed
   postag: auto
+  tokens: 224
+  sentences: 14
+
+Error counts (use "errors" command for details): 
+     50 noante error
+     15 nogov error
+      3 nonobj error
+     12 nosubj error
+> redirect

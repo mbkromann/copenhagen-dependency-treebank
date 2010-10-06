@@ -1,6 +1,16 @@
+> status
 en/0133-en-lotte.tag:
   morphology: none
   discourse: first
   syntax: first
   svn:mergeinfo: 
   postag: auto
+  tokens: 233
+  sentences: 10
+
+Error counts (use "errors" command for details): 
+     33 noante error
+      1 nogov error
+      3 nonobj error
+     12 nosubj error
+> redirect

@@ -1,0 +1,83 @@
+> errors
+3: noante
+4: nogov
+5: noante
+6: nogov
+7: noante
+11: noante
+13: noante
+20: noante
+24: nogov nosubj
+25: nosubj
+27: nosubj
+31: nogov
+34: noante
+36: nonobj
+38: nogov
+    38 conj? 32: badtype
+40: noante
+45: noante
+46: noante
+47: nogov
+51: noante
+52: nogov
+54: noante
+59: nogov nosubj
+62: noante
+65: noante
+70: noante
+72: noante
+75: noante
+78: noante
+79: nogov
+81: noante
+86: noante
+88: nogov
+89: nonobj
+91: noante
+93: nogov
+    93 pobj:part 92: badtype
+94: noante
+95: noante
+98: noante
+102: noante
+104: nogov
+106: nosubj
+107: noante
+110: nonobj
+111: nogov noante
+113: noante
+116: nogov
+118: nogov noante
+    118 obj 117: badtype
+121: noante
+124: nonobj
+125: nogov
+126: nogov noante
+127: noante
+130: noante
+133: nosubj
+134: noante
+140: nonobj
+141: nogov noante
+142: nogov nonobj
+143: nogov noante
+144: nosubj
+145: noante
+146: nosubj
+148: noante
+151: noante
+156: noante
+157: nogov
+159: noante
+162: noante
+166: nosubj
+167: noante
+168: nosubj
+170: noante
+172: nogov
+173: nogov noante
+174: nogov noante
+175: nogov noante
+176: nogov nosubj
+> redirect ./es/0647-es-jonas.info

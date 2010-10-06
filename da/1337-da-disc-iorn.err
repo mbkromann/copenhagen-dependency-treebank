@@ -1,0 +1,32 @@
+> errors
+44: noante
+58: noante
+81: noante
+89: noante
+99: noante
+100: nogov
+112: noante
+124: nogov
+    124 +INSTR 100: badtype
+125: noante
+129: noante
+162: noante
+167: noante
+172: noante
+174: noante
+178: nosubj
+179: nosubj
+182: noante
+190: nosubj
+192: noante
+200: noante
+215: noante
+217: noante
+238: noante
+240: noante
+242: noante
+261: noante
+263: noante
+267: noante
+268: nosubj
+> redirect ./da/1337-da-disc-iorn.info

@@ -1,0 +1,59 @@
+> errors
+2: noante
+10: 
+    10 nobj 9: manygovs
+    10 pnct# 9: manygovs
+11: noante
+12: nogov
+13: noante
+17: noante
+22: noante
+27: nonobj
+31: nogov
+36: noante
+38: noante
+39: noante
+43: noante
+47: nogov
+50: noante
+63: noante
+68: noante
+77: 
+    77 list 76: manygovs
+    77 pnct# 76: manygovs
+78: 
+    78 list 54: manygovs
+    78 pnct# 54: manygovs
+79: noante
+89: noante
+94: nogov
+106: noante
+107: noante
+111: nogov noante
+113: noante
+124: noante
+125: noante
+130: 
+    130 pnct# 129: manygovs
+    130 attr 129: manygovs
+131: 
+    131 nobj 129: manygovs
+    131 pnct# 129: manygovs
+142: nogov
+151: noante
+153: noante
+155: noante
+165: nosubj
+168: noante
+178: noante
+179: noante
+182: noante
+184: noante
+187: nogov
+198: noante
+200: noante
+201: noante
+206: noante
+207: nogov
+210: noante
+> redirect ./en/0214-en.info

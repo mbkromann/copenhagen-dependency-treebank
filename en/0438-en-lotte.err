@@ -1,0 +1,84 @@
+> errors
+2: noante
+3: nogov
+4: noante
+10: noante
+11: noante
+16: noante
+18: noante
+19: noante
+21: noante
+23: noante
+28: noante
+29: nogov
+30: noante
+34: noante
+39: noante
+40: nogov nonobj
+41: noante
+45: noante
+47: nogov
+54: noante
+55: nogov
+65: noante
+67: noante
+68: nogov nonobj
+73: noante
+74: nogov
+75: noante
+77: noante
+78: noante
+81: noante
+82: noante
+88: nogov noante
+89: noante
+96: noante
+97: nogov
+106: noante
+114: nogov
+115: noante
+123: 
+    123 ²pnct 114: manygovs
+    123 ¹nobj 122: manygovs
+127: noante
+128: nogov
+129: nosubj
+134: nogov
+137: noante
+139: noante
+145: noante
+146: nogov
+151: nonobj
+152: noante
+154: noante
+156: noante
+162: noante
+164: noante
+168: noante
+170: noante
+174: noante
+176: noante
+181: noante
+182: nogov
+184: noante
+185: noante
+191: noante
+192: nogov
+193: noante
+200: noante
+202: noante
+203: noante
+212: noante
+216: noante
+217: nogov
+223: nogov
+224: noante
+229: nogov noante
+231: noante
+238: noante
+239: nogov
+246: noante
+249: noante
+254: nogov
+255: noante
+> redirect ./en/0438-en-lotte.info

@@ -1,0 +1,59 @@
+> errors
+3: nogov
+4: noante
+7: noante
+12: noante
+13: nosubj
+23: noante
+25: noante
+27: noante
+29: noante
+36: noante
+38: noante
+40: noante
+43: noante
+45: nosubj
+50: noante
+52: noante
+64: nosubj
+66: noante
+67: noante
+69: noante
+73: nosubj
+82: nogov nosubj
+    82 attr:possd 81: badtype
+84: noante
+86: nosubj
+89: noante
+95: nosubj
+97: noante
+100: nosubj
+    100 *coref 61: badtype
+    100 *[subj]* 107: badtype
+101: noante
+103: noante
+    103 *assoc-const* 100: badtype
+106: noante
+    106 *coref* 100: badtype
+109: noante
+112: nosubj
+    112 *coref* 107: badtype
+113: noante
+    113 *assoc-const* 112: badtype
+119: nosubj
+120: nosubj
+121: noante
+127: noante
+132: noante
+137: nogov
+142: noante
+147: noante
+150: noante
+153: noante
+158: nosubj
+162: noante
+163: nosubj
+177: noante
+    177 *coref* 112: badtype
+180: noante
+> redirect ./es/0152-es-lotte.info

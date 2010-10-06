@@ -1,6 +1,17 @@
+> status
 da/0531-da-disc.tag:
   morphology: first
   discourse: discussed
   syntax: first
   svn:mergeinfo: 
   postag: final
+  tokens: 184
+  sentences: 10
+
+Error counts (use "errors" command for details): 
+      1 badtype error
+     22 noante error
+      4 nogov error
+      2 nonobj error
+      5 nosubj error
+> redirect

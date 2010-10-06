@@ -1,6 +1,14 @@
+> status
 da/1420-da-disc-morten.tag:
   morphology: none
   discourse: discussed
   syntax: outdated-final
   svn:mergeinfo: 
   postag: final
+  tokens: 198
+  sentences: 13
+
+Error counts (use "errors" command for details): 
+     18 noante error
+      1 nogov error
+> redirect

@@ -1,5 +1,15 @@
+> status
 en/0647-en.tag:
   morphology: none
   discourse: none
   syntax: final
   postag: auto
+  tokens: 185
+  sentences: 7
+
+Error counts (use "errors" command for details): 
+     49 noante error
+      7 nogov error
+      2 nonobj error
+      3 nosubj error
+> redirect

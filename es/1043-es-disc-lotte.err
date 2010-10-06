@@ -1,0 +1,82 @@
+> errors
+1: noante
+2: noante
+4: nogov
+5: noante
+8: nogov
+9: noante
+12: noante
+15: nogov
+17: noante
+19: nogov
+20: noante
+22: nogov nonobj
+23: nogov noante
+24: nogov
+25: nogov noante
+26: nogov
+27: noante
+30: nosubj
+32: noante
+35: nosubj
+38: noante
+40: noante
+48: nogov nonobj
+49: noante
+53: noante
+55: noante
+57: nogov
+58: noante
+65: noante
+66: nosubj
+68: noante
+73: noante
+74: nogov
+77: nogov nonobj
+78: nosubj
+79: noante
+85: noante
+90: nosubj
+91: nosubj
+92: noante
+97: nogov
+100: noante
+108: noante
+109: nogov
+110: noante
+112: nogov
+114: noante
+119: nogov
+123: noante
+124: nosubj
+125: nosubj
+126: nosubj
+128: nogov
+133: nogov nosubj
+134: nosubj
+136: noante
+139: noante
+142: nogov nosubj
+143: noante
+148: noante
+151: noante
+152: nogov
+153: nosubj
+154: noante
+156: nosubj
+157: noante
+162: nogov nosubj
+163: nosubj
+164: noante
+168: noante
+172: nosubj
+175: nogov noante
+178: noante
+181: nogov
+185: nogov
+186: noante
+189: noante
+194: nogov noante
+197: noante
+199: nogov noante
+> redirect ./es/1043-es-disc-lotte.info

@@ -1,0 +1,64 @@
+> errors
+0: noante
+2: nogov nosubj
+3: nogov nosubj
+6: noante
+9: noante
+11: noante
+14: noante
+18: nogov
+19: noante
+21: nogov
+23: noante
+28: noante
+34: nosubj
+35: noante
+41: noante
+43: noante
+47: nosubj
+48: nogov
+49: noante
+55: noante
+57: nonobj
+59: nogov nosubj
+61: noante
+63: noante
+64: nosubj
+66: nogov nosubj
+69: noante
+72: noante
+76: noante
+81: noante
+82: nogov
+85: noante
+87: nosubj
+88: nosubj
+89: nonobj
+93: noante
+98: noante
+102: noante
+106: noante
+109: nogov
+110: noante
+114: noante
+120: nosubj
+122: nosubj
+123: nosubj
+124: nonobj
+126: noante
+128: nosubj
+131: noante
+134: noante
+139: noante
+141: nogov
+143: noante
+149: noante
+152: noante
+157: noante
+160: noante
+171: noante
+175: noante
+179: nosubj
+180: nosubj
+183: noante
+> redirect ./es/0307-es-jonas.info

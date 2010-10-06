@@ -1,0 +1,43 @@
+> errors
+3: nogov noante
+6: noante
+12: noante
+30: nogov nosubj
+35: nogov nosubj
+50: nogov nosubj
+53: noante
+55: nosubj
+58: noante
+69: nogov nosubj
+74: nogov nosubj
+77: noante
+79: nosubj
+84: nogov nosubj
+86: nosubj
+88: noante
+90: nosubj
+95: nosubj
+96: nogov nosubj
+99: nogov
+107: noante
+109: noante
+111: noante
+114: nogov nosubj
+116: noante
+118: nogov
+122: noante
+124: noante
+127: nogov
+137: noante
+141: noante
+152: nogov nosubj
+154: noante
+160: noante
+162: nogov nosubj
+168: noante
+171: noante
+172: nogov nosubj
+178: nogov noante
+184: nogov noante
+186: noante
+> redirect ./de/0876-de-morten.info

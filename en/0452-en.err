@@ -1,0 +1,76 @@
+> errors
+1: nogov nosubj
+3: noante
+6: noante
+10: noante
+13: nosubj
+17: nogov nosubj
+18: noante
+20: nonobj
+29: 
+    29 nobj 28: manygovs
+    29 pnct# 28: manygovs
+36: nogov
+37: noante
+45: noante
+47: nogov
+50: noante
+52: noante
+54: nonobj
+63: noante
+64: nogov
+67: noante
+71: noante
+74: noante
+76: noante
+79: 
+    79 nobj 78: manygovs
+    79 pnct# 78: manygovs
+83: noante
+85: nonobj
+86: noante
+93: noante
+96: noante
+97: nogov
+98: nosubj
+99: noante
+101: noante
+103: nosubj
+104: nonobj
+106: noante
+111: noante
+113: nosubj
+121: nogov
+122: noante
+126: noante
+128: nogov
+136: nogov
+140: nogov
+143: nogov noante
+148: nogov noante
+152: nogov
+156: nogov
+157: nogov noante
+159: nogov
+164: nogov nosubj
+166: noante
+167: noante
+169: nogov noante
+177: noante
+182: noante
+187: noante
+188: 
+    188 pnct# 179: manygovs
+    188 nobj 187: manygovs
+190: noante
+191: nogov
+194: noante
+199: nosubj
+215: nogov
+219: noante
+221: nogov
+223: nosubj
+225: noante
+229: noante
+235: noante
+> redirect ./en/0452-en.info

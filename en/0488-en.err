@@ -1,0 +1,54 @@
+> errors
+1: noante
+4: nogov
+6: noante
+12: noante
+14: nonobj
+22: noante
+26: noante
+39: nogov
+43: noante
+46: noante
+49: noante
+52: noante
+62: noante
+67: noante
+70: nogov
+78: noante
+81: noante
+84: noante
+94: nogov noante
+96: noante
+114: noante
+115: nonobj
+121: nogov
+122: noante
+130: noante
+136: nogov
+146: noante
+151: noante
+156: nonobj
+160: noante
+165: nogov noante
+168: noante
+175: noante
+179: nogov
+180: noante
+183: noante
+187: noante
+190: noante
+194: noante
+199: nosubj
+200: nogov noante
+205: nogov
+206: noante
+212: nonobj
+214: noante
+217: noante
+219: nosubj
+222: noante
+227: noante
+228: nogov
+229: noante
+231: noante
+> redirect ./en/0488-en.info

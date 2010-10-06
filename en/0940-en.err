@@ -1,0 +1,52 @@
+> errors
+1: noante
+2: nogov
+3: noante
+13: noante
+15: nogov
+19: nosubj
+25: noante
+31: noante
+32: nogov
+34: noante
+35: nonobj
+43: noante
+45: noante
+53: noante
+64: nonobj
+65: noante
+69: noante
+75: noante
+81: noante
+85: nogov
+87: noante
+89: 
+    89 pnct# 87: manygovs
+    89 attr 87: manygovs
+91: noante
+93: noante
+96: noante
+106: nosubj
+109: noante
+118: noante
+122: noante
+125: nogov
+129: noante
+131: nonobj
+132: noante
+140: nosubj
+142: noante
+149: nosubj
+153: 
+    153 pnct# 152: manygovs
+    153 mod 155: manygovs
+156: noante
+164: noante
+167: nogov
+169: noante
+175: noante
+177: noante
+185: noante
+190: noante
+196: noante
+> redirect ./en/0940-en.info

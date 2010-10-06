@@ -1,0 +1,43 @@
+> errors
+1: nogov
+2: noante
+6: noante
+12: noante
+15: noante
+24: nosubj
+26: noante
+27: noante
+29: noante
+31: noante
+33: noante
+34: noante
+40: noante
+57: noante
+68: noante
+81: noante
+82: noante
+84: noante
+88: nogov noante
+    88 ¤conj 68: badtype
+91: noante
+94: noante
+100: noante
+102: noante
+113: noante
+124: nosubj
+128: noante
+141: nogov
+143: 
+    143 TELIC:cons.dir/but 119: manygovs
+    143 conj 141: manygovs
+153: noante
+164: noante
+167: nosubj
+170: noante
+180: noante
+189: nosubj
+198: nosubj
+199: noante
+201: noante
+203: noante
+> redirect ./en/1428-en-morten.info

@@ -1,0 +1,38 @@
+> errors
+43: nogov
+    43 atruct 44: badtype
+44: nogov
+47: nosubj
+48: noante
+82: noante
+83: nogov
+93: noante
+99: nogov
+    99 mcomp 98: badtype
+101: noante
+107: noante
+108: nogov
+113: nogov
+    113 mcomp 118: badtype
+115: noante
+122: noante
+126: noante
+133: nogov
+134: noante
+136: noante
+152: noante
+158: noante
+161: nosubj
+168: noante
+178: nogov
+179: noante
+181: noante
+185: nogov
+190: noante
+213: nogov
+219: noante
+232: nogov
+233: noante
+236: noante
+241: noante
+> redirect ./da/1061-da.info

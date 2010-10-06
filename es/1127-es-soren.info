@@ -1,5 +1,17 @@
+> status
 es/1127-es-soren.tag:
   morphology: final1
   discourse: none
   syntax: final1
   postag: auto
+  tokens: 225
+  sentences: 8
+
+Error counts (use "errors" command for details): 
+      1  error
+      3 manygovs error
+     46 noante error
+      7 nogov error
+      2 nonobj error
+     18 nosubj error
+> redirect

@@ -1,6 +1,18 @@
+> status
 it/0781-it-disc-iorn.tag:
   morphology: none
   discourse: discussed
   syntax: discussed
   svn:mergeinfo: 
   postag: auto
+  tokens: 183
+  sentences: 8
+
+Error counts (use "errors" command for details): 
+      2 badtype error
+      1  error
+     44 noante error
+      1 nogov error
+      7 nonobj error
+      7 nosubj error
+> redirect

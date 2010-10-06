@@ -1,0 +1,101 @@
+> errors
+0: nogov noante
+1: nogov
+2: nogov noante
+3: nogov noante
+4: nogov noante
+5: nogov noante
+6: nogov
+7: nogov
+8: nogov
+9: nogov noante
+10: nogov
+11: nogov noante
+12: nogov noante
+13: nogov noante
+14: nogov noante
+19: noante
+25: 
+    25 + 24: badtype
+26: noante
+29: noante
+32: noante
+34: noante
+37: noante
+39: noante
+42: noante
+43: nogov
+46: noante
+50: nosubj
+52: noante
+55: noante
+57: noante
+66: noante
+69: noante
+77: noante
+80: nosubj
+85: noante
+87: noante
+90: noante
+98: noante
+100: noante
+102: noante
+105: noante
+108: noante
+110: noante
+112: noante
+114: noante
+116: noante
+118: noante
+120: noante
+125: noante
+128: nosubj
+133: noante
+136: noante
+145: nogov
+146: nosubj
+147: nonobj
+151: noante
+157: noante
+159: noante
+167: noante
+168: noante
+171: nogov nosubj
+    171 *coref 144: badtype
+    171 *[subj] 172: badtype
+173: noante
+177: noante
+179: noante
+181: noante
+186: noante
+188: noante
+189: nogov
+191: nosubj
+198: noante
+201: noante
+203: noante
+205: noante
+206: noante
+209: nogov
+211: 
+    211 *[subj] 221: badtype
+212: noante
+221: 
+    221 *[subj] 222: badtype
+    221 *[subj] 224: badtype
+223: nonobj
+225: noante
+228: noante
+236: noante
+237: noante
+    237 *coref-var 221: badtype
+241: noante
+245: noante
+247: noante
+252: noante
+259: nogov
+264: noante
+267: noante
+270: noante
+272: noante
+> redirect ./it/0531-it-morten.info

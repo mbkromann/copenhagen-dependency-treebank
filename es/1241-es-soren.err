@@ -1,0 +1,83 @@
+> errors
+0: nogov
+1: noante
+5: noante
+14: noante
+16: noante
+17: nosubj
+18: nogov
+20: nogov
+23: nosubj
+25: noante
+27: nosubj
+29: noante
+31: nosubj
+32: nogov
+35: nogov
+37: nogov nosubj
+39: noante
+42: noante
+44: noante
+48: nogov
+    48 pobj:nobj 46: badtype
+49: noante
+50: noante
+52: nogov nosubj
+54: noante
+56: nosubj
+57: noante
+61: noante
+63: nosubj
+68: noante
+70: noante
+75: nosubj
+76: nosubj
+77: noante
+78: nogov
+88: nosubj
+89: noante
+93: noante
+96: noante
+97: nogov
+101: noante
+103: noante
+106: noante
+112: nogov
+114: noante
+117: nosubj
+118: noante
+120: noante
+123: nosubj
+126: noante
+127: noante
+137: nosubj
+139: nosubj
+141: noante
+148: noante
+150: nogov nosubj
+152: nosubj
+161: noante
+165: nosubj
+166: noante
+171: noante
+174: noante
+176: nosubj
+177: nogov
+181: nogov nosubj
+182: noante
+183: nonobj
+    183 pobj:relindleder 182: badtype
+187: noante
+189: noante
+193: noante
+197: nogov nosubj
+199: noante
+202: nogov
+    202 forkertkomma 201: badtype
+206: noante
+208: noante
+    208 subj 204: manygovs
+    208 cause 215: manygovs
+212: noante
+215: nogov
+> redirect ./es/1241-es-soren.info

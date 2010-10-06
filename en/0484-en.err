@@ -1,0 +1,32 @@
+> errors
+1: nosubj
+2: nogov noante
+10: nogov
+15: noante
+18: noante
+21: nosubj
+22: noante
+26: noante
+31: noante
+33: noante
+34: nogov
+68: noante
+88: noante
+90: nogov
+104: nogov noante
+111: nosubj
+113: noante
+116: nonobj
+120: noante
+128: noante
+132: nogov
+134: nosubj
+138: noante
+148: nogov
+154: nosubj
+156: noante
+181: nogov
+182: noante
+184: nosubj
+198: nogov
+> redirect ./en/0484-en.info

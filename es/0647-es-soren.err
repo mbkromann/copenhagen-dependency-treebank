@@ -1,0 +1,77 @@
+> errors
+1: nonobj
+3: noante
+5: noante
+7: noante
+11: noante
+13: noante
+20: noante
+24: nogov nosubj
+25: nosubj
+27: nosubj
+30: noante
+31: nogov
+34: noante
+40: noante
+44: nonobj
+45: noante
+46: noante
+47: nogov
+51: noante
+54: noante
+59: nogov nosubj
+62: noante
+65: noante
+70: noante
+72: noante
+75: noante
+77: nogov
+78: noante
+80: nosubj
+81: noante
+86: noante
+88: nogov
+89: nogov nonobj
+    89 vp# 88: badtype
+90: nosubj
+91: noante
+94: noante
+95: noante
+98: noante
+102: noante
+104: nogov
+106: nosubj
+107: noante
+111: noante
+113: noante
+118: nogov noante
+    118 indskud 104: badtype
+121: noante
+126: noante
+127: noante
+130: noante
+133: nosubj
+134: noante
+141: noante
+142: nonobj
+143: nogov noante
+    143 fastudtryk 142: badtype
+144: nosubj
+145: noante
+146: nosubj
+148: noante
+151: noante
+156: noante
+157: nogov
+159: noante
+162: noante
+166: nosubj
+167: nogov noante
+    167 masque 172: badtype
+168: nosubj
+170: noante
+172: nogov
+173: noante
+175: noante
+176: nogov
+> redirect ./es/0647-es-soren.info

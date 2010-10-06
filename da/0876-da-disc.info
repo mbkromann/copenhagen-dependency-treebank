@@ -1,5 +1,14 @@
+> status
 da/0876-da-disc.tag:
   morphology: none
   discourse: none
   syntax: discussed
   postag: final
+  tokens: 174
+  sentences: 16
+
+Error counts (use "errors" command for details): 
+     16 noante error
+     16 nogov error
+     13 nosubj error
+> redirect

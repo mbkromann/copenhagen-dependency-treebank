@@ -1,10 +1,32 @@
 #!/bin/bash
 
+# Check that file exists
 file=$1
 if [ ! -f $file ] ; then
 	echo "ERROR: unknown file $file";
 	exit 1;
 fi
 
+# Report svn properties
 svn proplist -v $file | tr '\n' '%' | sed -e 's/%  \([^ ]\)/\n  \1/g' -e 's/%    /: /g' | sed -e 's/%/\n/g' -e "s/Properties on '//g" -e "s/'//g"
+
+# Report number of words/sentences
+words=0
+sents=0
+prefix=`echo $file | sed -e 's/\([0-9]\)-[^0-9]*$/\1/g'`;
+for f in `ls $file $prefix*.tag` ; do
+	nword=`cat $f | grep '</W>' | wc -l`
+	nsent=`cat $f | grep '</s>' | wc -l`
+	if [ $words -lt $nword ] ; then words=$nword ; fi
+	if [ $sents -lt $nsent ] ; then sents=$nsent ; fi
+done
+echo "  tokens: $words"
+echo "  sentences: $sents"
+
+# Report error statistics
+efile=`echo $file | sed -e 's/.tag$/.err/g'`
+echo ""
+echo "Error counts (use \"errors\" command for details): "
+cat $efile | grep -v '>' | awk -F": " '{ print $2 }' | sed -e "s/ /\n/g" | sed -e 's/$/ error/' | sort | uniq -c | grep -v redirect
+
 

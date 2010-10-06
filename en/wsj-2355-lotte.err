@@ -1,0 +1,20 @@
+> errors
+7: nosubj
+8: noante
+10: noante
+11: noante
+12: noante
+17: nogov
+19: nosubj
+21: noante
+27: nogov
+28: noante
+34: noante
+39: noante
+45: nosubj
+    45 *[subj] 46: badtype
+    45 *[subj] 52: badtype
+47: noante
+59: nogov
+61: nosubj
+> redirect ./en/wsj-2355-lotte.info

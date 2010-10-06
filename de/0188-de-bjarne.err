@@ -1,0 +1,52 @@
+> errors
+0: nogov noante
+2: noante
+4: noante
+12: nogov
+15: noante
+18: noante
+24: noante
+26: noante
+29: noante
+38: nogov
+42: noante
+43: nogov
+50: noante
+52: noante
+64: nogov
+69: nogov
+70: noante
+71: noante
+72: noante
+75: noante
+76: noante
+77: noante
+79: noante
+85: nogov
+    85 gatto 84: badtype
+88: nosubj
+92: nogov
+101: nogov
+107: noante
+125: nogov
+134: noante
+137: noante
+140: noante
+146: noante
+150: noante
+152: noante
+161: nogov
+162: noante
+163: noante
+167: nosubj
+177: nogov
+178: noante
+180: noante
+181: noante
+191: nogov
+    191 obj 198: badtype
+197: noante
+203: noante
+204: nogov
+208: noante
+> redirect ./de/0188-de-bjarne.info

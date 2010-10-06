@@ -1,0 +1,79 @@
+> errors
+0: nosubj
+1: nosubj
+3: noante
+7: nosubj
+8: noante
+11: nosubj
+13: noante
+14: nogov
+18: noante
+20: nogov
+24: noante
+26: nogov
+29: noante
+32: nosubj
+36: noante
+41: nogov
+42: nonobj
+43: nogov
+44: noante
+52: noante
+55: noante
+58: noante
+63: nonobj
+64: nogov noante
+66: noante
+    66 assoc-scope 44: badtype
+68: nogov
+73: noante
+75: nosubj
+76: noante
+82: noante
+83: nosubj
+84: nosubj
+85: nonobj
+86: nosubj
+90: nosubj
+91: noante
+95: nosubj
+97: noante
+101: nosubj
+115: nogov nonobj
+116: nogov noante
+118: noante
+121: nogov
+122: nosubj
+129: nogov
+133: nosubj
+137: nosubj
+138: nosubj
+139: noante
+142: nonobj
+143: nogov noante
+144: nogov nosubj
+145: noante
+147: noante
+149: nogov
+150: noante
+154: nonobj
+162: noante
+    162 assoc-scope 158: badtype
+165: nogov
+167: noante
+168: noante
+172: nosubj
+173: nosubj
+174: noante
+177: nogov
+178: noante
+180: nogov
+181: noante
+182: nosubj
+184: noante
+186: noante
+190: noante
+193: noante
+198: nogov
+199: nosubj
+> redirect ./es/1536-es-lotte.info

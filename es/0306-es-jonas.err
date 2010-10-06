@@ -1,0 +1,96 @@
+> errors
+1: nosubj
+2: noante
+4: noante
+6: nogov noante
+8: noante
+9: nogov
+12: nogov
+13: nogov
+15: nogov
+16: nogov
+18: nogov
+21: noante
+24: noante
+28: nogov
+29: noante
+31: noante
+34: nogov noante
+35: nogov
+36: nogov
+39: noante
+42: nogov
+43: nosubj
+44: noante
+46: noante
+48: nogov noante
+55: noante
+56: nogov
+57: nosubj
+59: noante
+63: noante
+64: nosubj
+66: noante
+72: nogov
+    72 diskmark 73: badtype
+74: nogov
+75: noante
+79: noante
+81: noante
+82: nogov
+83: noante
+85: nogov
+86: nosubj
+87: nogov nosubj
+91: nonobj
+92: noante
+93: noante
+94: noante
+95: nogov
+97: noante
+101: nogov noante
+102: nogov
+103: nogov
+104: nogov
+106: nogov
+110: nogov nosubj
+111: nosubj
+112: noante
+116: noante
+118: nogov nosubj
+121: nosubj
+123: noante
+128: nogov nosubj
+129: nosubj
+130: noante
+132: nosubj
+133: nosubj
+137: noante
+139: noante
+142: noante
+145: nogov nonobj
+146: nogov noante
+147: nogov noante
+148: nogov nosubj
+149: noante
+150: nogov noante
+152: nogov
+155: noante
+160: noante
+164: nosubj
+167: nogov nosubj
+169: noante
+173: nogov
+    173 pobj:formål 172: badtype
+174: noante
+175: nonobj
+176: noante
+181: noante
+183: noante
+187: noante
+189: noante
+191: noante
+198: noante
+200: nogov
+    200 pobj:? 198: badtype
+> redirect ./es/0306-es-jonas.info

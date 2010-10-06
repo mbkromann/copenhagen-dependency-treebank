@@ -1,0 +1,66 @@
+> errors
+0: noante
+1: nogov nosubj
+3: nonobj
+4: nosubj
+5: nonobj
+6: nosubj
+12: nogov nosubj
+13: nosubj
+15: noante
+18: noante
+23: noante
+25: noante
+32: noante
+39: noante
+40: nogov
+41: nosubj
+45: nogov
+51: nogov
+52: noante
+55: noante
+56: noante
+57: noante
+    57 ²pnct 51: manygovs
+    57 ¹relr 52: manygovs
+59: nosubj
+60: nonobj
+61: nosubj
+63: noante
+65: nosubj
+67: noante
+69: noante
+71: noante
+75: nogov noante
+77: noante
+82: noante
+84: noante
+85: noante
+87: nogov
+89: noante
+94: nogov
+96: nosubj
+101: noante
+108: nosubj
+109: nosubj
+118: noante
+121: noante
+125: noante
+131: noante
+133: noante
+135: noante
+138: noante
+141: noante
+145: noante
+151: nogov
+153: noante
+154: noante
+157: nonobj
+160: noante
+171: noante
+179: noante
+182: noante
+183: nogov
+185: noante
+187: noante
+> redirect ./it/1250-it-morten.info

@@ -1,0 +1,53 @@
+> errors
+3: noante
+4: nosubj
+5: noante
+7: noante
+11: noante
+20: noante
+24: nogov nosubj
+25: nosubj
+27: nosubj
+31: nogov
+34: noante
+45: noante
+46: noante
+47: nogov
+51: noante
+59: nogov nosubj
+62: noante
+65: noante
+70: noante
+72: noante
+78: noante
+81: noante
+85: nogov
+89: nonobj
+91: noante
+94: noante
+95: noante
+98: noante
+102: noante
+104: nogov
+107: noante
+111: noante
+113: noante
+121: noante
+126: noante
+130: noante
+141: noante
+143: noante
+144: nosubj
+145: noante
+146: nosubj
+148: noante
+151: noante
+156: noante
+157: nogov
+159: noante
+162: noante
+167: noante
+168: nosubj
+173: noante
+    173 assoc-scope 148: badtype
+> redirect ./es/0647-es-lotte.info

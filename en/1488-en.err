@@ -1,0 +1,72 @@
+> errors
+3: noante
+6: noante
+8: nosubj
+11: noante
+14: noante
+16: nogov
+19: noante
+20: noante
+26: noante
+30: noante
+35: nonobj
+41: noante
+43: noante
+45: noante
+47: 
+    47 pnct# 16: manygovs
+    47 mod 37: manygovs
+51: noante
+56: noante
+58: nogov
+59: noante
+71: noante
+73: nogov
+79: noante
+82: noante
+89: noante
+98: noante
+99: nogov
+102: noante
+104: noante
+106: noante
+108: noante
+118: noante
+120: noante
+122: nogov
+124: nonobj
+127: noante
+130: nosubj
+132: noante
+133: nosubj
+137: noante
+144: noante
+151: 
+    151 pnct# 150: manygovs
+    151 attr 150: manygovs
+153: noante
+156: nosubj
+157: nogov noante
+161: noante
+163: nonobj
+164: noante
+180: noante
+183: nogov
+192: nogov
+194: noante
+199: nosubj
+200: noante
+203: noante
+205: noante
+208: noante
+212: noante
+221: nogov
+223: noante
+226: noante
+231: nosubj
+235: noante
+241: nosubj
+242: nosubj
+244: noante
+247: noante
+> redirect ./en/1488-en.info

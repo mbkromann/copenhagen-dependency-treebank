@@ -1,0 +1,83 @@
+> errors
+1: noante
+2: nogov
+4: noante
+6: noante
+8: noante
+15: noante
+20: nogov
+25: noante
+27: noante
+32: noante
+34: nogov
+35: noante
+39: nogov nosubj
+40: noante
+42: noante
+48: noante
+49: noante
+56: noante
+57: nogov
+58: nogov
+    58 vobj? 57: badtype
+63: nonobj
+66: noante
+75: noante
+76: nogov
+77: nonobj
+79: noante
+80: noante
+89: noante
+90: nogov
+96: noante
+97: 
+    97 pnct# 90: manygovs
+    97 nobj 96: manygovs
+101: noante
+102: nogov
+103: noante
+106: noante
+109: noante
+111: noante
+114: nosubj
+126: noante
+133: noante
+137: noante
+138: nogov
+140: nosubj
+143: noante
+148: noante
+149: nogov
+156: noante
+158: nogov
+159: noante
+161: noante
+165: noante
+167: 
+    167 pnct# 158: manygovs
+    167 lobj 166: manygovs
+177: noante
+178: nogov
+182: noante
+185: noante
+191: noante
+195: noante
+197: noante
+199: noante
+203: noante
+214: noante
+217: noante
+218: nogov
+220: noante
+222: noante
+224: noante
+228: nosubj
+229: nosubj
+232: nosubj
+233: noante
+235: noante
+238: noante
+239: 
+    239 pnct# 220: manygovs
+    239 nobj 238: manygovs
+> redirect ./en/0333-en.info

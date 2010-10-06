@@ -1,0 +1,51 @@
+> errors
+1: nosubj
+2: noante
+3: noante
+7: noante
+8: nosubj
+13: nogov
+14: noante
+18: nosubj
+19: noante
+29: noante
+39: noante
+42: noante
+43: nogov
+    43 [+QUEST:probl/ATTR1] 35: badtype
+    43 +QUEST:probl/ATTR1* 38: badtype
+44: noante
+49: nosubj
+50: nosubj
+55: nosubj
+60: nosubj
+61: noante
+67: nosubj
+70: noante
+71: nogov
+    71 AGENTIVE:cause/(perché)/ATTR1 67: badtype
+75: noante
+76: nosubj
+86: nosubj
+89: noante
+90: nosubj
+95: noante
+99: noante
+104: nosubj
+106: nosubj
+107: nosubj
+113: 
+    113 [+QUEST:probl/ATTR2] 106: badtype
+116: nogov
+    116 +QUEST:probl/ATTR2* 106: badtype
+119: noante
+125: noante
+147: noante
+151: nogov noante
+    151 [+QUEST:probl/ATTR2] 136: badtype
+    151 +QUEST:probl/ATTR2 144: badtype
+156: noante
+160: noante
+162: nosubj
+165: noante
+> redirect ./it/0620-it-disc-iorn.info

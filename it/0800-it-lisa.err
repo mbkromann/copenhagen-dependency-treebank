@@ -1,0 +1,145 @@
+> errors
+3: nogov
+4: nogov nosubj
+5: nogov
+6: nogov noante
+7: nogov nosubj
+8: nogov nonobj
+9: nogov noante
+10: nogov nonobj
+11: nogov
+12: nogov noante
+15: nogov
+18: nosubj
+20: noante
+23: noante
+26: noante
+27: noante
+30: noante
+32: noante
+35: nosubj
+37: noante
+40: noante
+43: nosubj
+46: nosubj
+48: noante
+50: noante
+55: nogov
+58: nosubj
+62: noante
+63: noante
+65: noante
+66: nogov
+71: nonobj
+72: nosubj
+73: nosubj
+74: noante
+77: nosubj
+78: nosubj
+79: noante
+82: 
+    82 + 81: badtype
+88: nonobj
+89: nosubj
+90: nosubj
+94: noante
+98: nogov nosubj
+99: nogov nosubj
+100: nogov nosubj
+101: nogov nonobj
+102: nogov nosubj
+103: nogov
+104: nogov noante
+105: nogov nonobj
+106: nogov noante
+107: nogov
+108: nogov
+109: nogov
+110: nogov noante
+111: nogov nosubj
+112: nogov nosubj
+113: nogov
+114: nogov noante
+117: nosubj
+118: nosubj
+119: nonobj
+120: nosubj
+121: noante
+124: noante
+125: nonobj
+126: nosubj
+127: noante
+130: noante
+132: nogov
+138: noante
+139: nosubj
+152: nonobj
+156: nogov
+157: nogov
+161: noante
+165: nogov nosubj
+166: nogov nosubj
+167: nogov nonobj
+168: nogov noante
+170: nogov
+171: nosubj
+173: nonobj
+174: nosubj
+175: noante
+180: noante
+182: nogov nonobj
+184: nogov noante
+185: nogov
+190: noante
+191: nogov
+192: nogov nonobj
+193: nogov noante
+194: nogov nonobj
+196: nogov noante
+198: noante
+199: nogov
+200: noante
+205: noante
+207: nogov
+208: nogov nosubj
+209: nogov noante
+210: nogov noante
+211: nogov
+212: nogov nonobj
+213: nogov noante
+214: nogov
+215: nogov nonobj
+216: nogov
+217: nogov noante
+218: nogov
+219: nogov noante
+220: nogov nosubj
+222: noante
+223: nosubj
+225: nosubj
+226: noante
+231: noante
+234: noante
+236: noante
+238: noante
+241: noante
+243: noante
+245: nosubj
+248: noante
+253: nogov noante
+254: nogov nosubj
+255: nogov nonobj
+257: noante
+261: nonobj
+263: nosubj
+264: nosubj
+268: nogov nosubj
+270: nogov nosubj
+273: nonobj
+275: nosubj
+277: noante
+279: noante
+281: noante
+283: nogov
+285: noante
+> redirect ./it/0800-it-lisa.info

@@ -1,0 +1,36 @@
+> errors
+1: noante
+4: nogov
+9: noante
+23: noante
+28: noante
+32: noante
+41: noante
+52: noante
+58: noante
+62: noante
+65: noante
+76: nosubj
+94: noante
+100: 
+    100 pnct# 85: manygovs
+    100 nobj 97: manygovs
+108: noante
+121: noante
+132: nosubj
+150: noante
+152: noante
+158: noante
+163: noante
+166: noante
+170: nosubj
+175: noante
+180: noante
+187: noante
+195: noante
+225: noante
+235: nonobj
+245: noante
+246: noante
+257: noante
+> redirect ./en/1420-en-lotte.info

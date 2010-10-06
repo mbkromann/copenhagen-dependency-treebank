@@ -1,0 +1,67 @@
+> errors
+1: noante
+2: nogov
+3: noante
+6: noante
+9: noante
+14: noante
+15: nogov
+20: noante
+24: noante
+25: noante
+27: noante
+30: noante
+35: noante
+40: noante
+42: nonobj
+44: noante
+45: nogov
+50: noante
+54: noante
+55: nosubj
+62: nogov
+67: noante
+70: noante
+75: noante
+78: noante
+82: noante
+83: nogov
+87: nogov noante
+89: noante
+94: noante
+95: nogov
+101: noante
+104: noante
+106: nogov
+110: noante
+111: nogov
+112: noante
+120: noante
+123: noante
+129: noante
+137: nogov
+140: noante
+143: nonobj
+145: noante
+147: nonobj
+149: noante
+154: noante
+161: nogov
+    161 pnct? 165: badtype
+162: nogov
+    162 pnct? 165: badtype
+165: nogov
+167: noante
+173: noante
+175: noante
+180: noante
+182: noante
+183: nogov
+188: nogov noante
+192: nogov
+204: noante
+211: noante
+214: noante
+220: nogov
+234: nonobj
+> redirect ./en/0319-en.info

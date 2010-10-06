@@ -1,0 +1,44 @@
+> errors
+42: noante
+43: nogov
+48: noante
+49: nogov
+51: noante
+61: noante
+66: noante
+77: nogov
+78: noante
+81: noante
+83: noante
+86: noante
+91: noante
+95: nogov nosubj
+98: noante
+109: nogov
+110: noante
+115: noante
+118: noante
+129: nogov
+140: nogov
+141: noante
+152: noante
+154: nonobj
+160: nogov
+164: noante
+168: noante
+169: nogov
+174: noante
+179: noante
+186: nogov
+203: nogov
+217: nogov noante
+230: nosubj
+236: nogov
+240: noante
+242: noante
+246: noante
+247: nogov
+252: nogov
+279: noante
+280: nogov
+> redirect ./da/0520-da.info

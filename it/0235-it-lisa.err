@@ -1,0 +1,64 @@
+> errors
+0: nogov nosubj
+1: nosubj
+8: noante
+    8 $*coref 0: badtype
+9: nosubj
+15: nogov nosubj
+    15 *coref 8: badtype
+    15 *[subj] 23: badtype
+    15 *[subj] 29: badtype
+23: nogov
+26: nosubj
+29: 
+    29 *[subj] 30: badtype
+    29 *[subj]¹ 32: badtype
+31: nonobj
+34: noante
+36: nogov
+43: noante
+45: noante
+49: noante
+50: nosubj
+52: noante
+54: nogov
+59: noante
+61: noante
+63: nogov noante
+    63 *coref 34: badtype
+68: noante
+72: nogov
+73: nosubj
+75: noante
+77: noante
+79: noante
+82: nogov nosubj
+    82 *assoc-const 29: badtype
+    82 *[subj] 83: badtype
+84: nosubj
+85: noante
+92: noante
+98: noante
+102: noante
+104: noante
+106: nosubj
+108: noante
+114: noante
+117: nogov
+    117 *coref 82: badtype
+122: noante
+130: noante
+    130 *coref 117: badtype
+131: nogov nosubj
+    131 *coref 118: badtype
+132: 
+    132 ²*coref 131: badtype
+138: noante
+    138 coref* 139: badtype
+139: nosubj
+    139 *coref 130: badtype
+145: 
+    145 *[subj] 154: badtype
+150: noante
+158: noante
+> redirect ./it/0235-it-lisa.info

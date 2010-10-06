@@ -1,0 +1,65 @@
+> errors
+1: nogov
+4: nogov
+18: nonobj
+19: noante
+20: noante
+22: noante
+25: nonobj
+30: noante
+39: noante
+40: nogov
+42: nonobj
+46: noante
+52: noante
+54: noante
+56: nogov
+62: noante
+63: noante
+65: noante
+66: nosubj
+70: noante
+76: nogov
+79: noante
+80: 
+    80 pnct# 76: manygovs
+    80 dobj 78: manygovs
+82: nogov
+86: nogov noante
+88: noante
+89: noante
+94: noante
+106: noante
+113: noante
+121: noante
+123: nogov
+133: noante
+138: noante
+140: noante
+147: noante
+153: nogov
+159: nogov
+165: noante
+166: noante
+173: noante
+180: noante
+185: noante
+186: noante
+194: noante
+196: noante
+198: noante
+201: noante
+205: noante
+207: nogov
+210: noante
+214: noante
+226: noante
+228: nogov
+230: nonobj
+237: noante
+240: noante
+241: 
+    241 pnct# 228: manygovs
+    241 mod 229: manygovs
+243: nogov
+> redirect ./en/1023-en.info

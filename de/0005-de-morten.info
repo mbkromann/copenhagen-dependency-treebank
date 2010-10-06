@@ -1,5 +1,15 @@
+> status
 de/0005-de-morten.tag:
   morphology: none
   discourse: first
   syntax: first
   postag: auto
+  tokens: 200
+  sentences: 8
+
+Error counts (use "errors" command for details): 
+      1 badtype error
+     41 noante error
+      3 nogov error
+      4 nosubj error
+> redirect

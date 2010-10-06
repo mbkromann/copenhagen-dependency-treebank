@@ -1,0 +1,68 @@
+> errors
+2: noante
+3: noante
+5: noante
+6: noante
+8: nosubj
+9: nonobj
+11: nogov
+12: noante
+19: noante
+21: noante
+24: noante
+36: noante
+49: nogov
+    49 +¤goal 40: badtype
+50: noante
+52: noante
+53: noante
+55: noante
+56: noante
+62: noante
+64: noante
+67: noante
+72: noante
+74: noante
+75: nosubj
+77: nosubj
+84: noante
+97: noante
+101: noante
+105: noante
+107: noante
+115: noante
+117: noante
+118: noante
+121: noante
+123: nosubj
+127: noante
+129: noante
+135: nosubj
+136: noante
+137: noante
+140: noante
+142: nogov
+    142 ? 137: badtype
+145: nosubj
+147: noante
+151: nogov
+    151 *¤conj/ATTR 101: badtype
+161: noante
+170: noante
+187: noante
+189: nonobj
+192: noante
+193: nosubj
+197: noante
+200: noante
+202: noante
+206: noante
+211: noante
+215: noante
+228: noante
+233: nogov
+    233 ¤contr/ATTR 225: badtype
+239: 
+    239 pnct# 233: manygovs
+    239 list 238: manygovs
+> redirect ./en/0091-en-morten.info

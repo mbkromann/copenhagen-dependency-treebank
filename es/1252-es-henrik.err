@@ -1,0 +1,74 @@
+> errors
+0: noante
+7: noante
+11: noante
+13: noante
+15: noante
+18: noante
+    18 assoc-formal.loc 5: badtype
+21: noante
+26: noante
+27: nogov
+28: nosubj
+32: nogov
+34: noante
+38: 
+    38 assoc-formal.loc 3: badtype
+41: nosubj
+42: noante
+45: noante
+47: noante
+52: nosubj
+    52 assoc-formal.loc 50: badtype
+54: nogov noante
+55: nosubj
+62: noante
+    62 assoc-formal.loc 60: badtype
+66: noante
+77: nosubj
+78: noante
+80: nonobj
+81: nosubj
+83: noante
+84: nogov
+86: nosubj
+89: noante
+91: 
+    91 assoc-formal.loc 82: badtype
+94: nogov noante
+96: nosubj
+97: noante
+103: nonobj
+110: noante
+113: nogov nosubj
+115: noante
+117: noante
+122: nosubj
+126: noante
+127: nosubj
+130: nogov
+133: nosubj
+134: nonobj
+137: noante
+138: nosubj
+139: nonobj
+140: nosubj
+141: noante
+143: nonobj
+144: noante
+146: nogov
+159: noante
+160: nonobj
+167: noante
+168: noante
+169: nogov
+174: 
+    174 assoc-formal.loc 162: badtype
+175: nosubj
+177: nosubj
+178: noante
+179: nonobj
+180: noante
+182: noante
+184: nosubj
+> redirect ./es/1252-es-henrik.info

@@ -1,0 +1,20 @@
+> errors
+3: noante
+7: nogov
+9: noante
+10: noante
+32: noante
+61: noante
+74: noante
+80: noante
+86: nonobj
+91: noante
+95: nonobj
+123: noante
+135: noante
+161: noante
+172: nonobj
+178: noante
+218: nosubj
+219: noante
+> redirect ./en/0101-en-morten.info

@@ -1,0 +1,50 @@
+> errors
+1: noante
+4: nogov
+19: noante
+21: noante
+22: noante
+24: noante
+38: noante
+45: noante
+46: nosubj
+50: noante
+54: noante
+62: noante
+67: noante
+73: noante
+77: noante
+82: nosubj
+83: noante
+85: nosubj
+92: noante
+111: nonobj
+124: noante
+130: noante
+132: nosubj
+145: noante
+147: nosubj
+154: nosubj
+155: noante
+175: noante
+178: noante
+180: noante
+184: nogov
+186: 
+    186 +CONTR:sbj/but 74: manygovs
+    186 conj 184: manygovs
+187: noante
+189: nosubj
+197: noante
+205: nonobj
+210: noante
+212: noante
+214: noante
+215: noante
+221: noante
+232: noante
+235: noante
+243: nosubj
+247: nosubj
+258: noante
+> redirect ./en/1347-en-lotte.info

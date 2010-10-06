@@ -1,0 +1,46 @@
+> errors
+43: noante
+45: noante
+46: nogov
+53: nogov nosubj
+61: noante
+62: nogov
+74: noante
+76: nogov
+79: nosubj
+84: noante
+87: nogov
+92: nogov
+    92 mcomp 89: badtype
+93: nosubj
+99: nogov
+100: noante
+111: nogov
+117: nosubj
+122: noante
+144: noante
+146: noante
+148: nogov
+154: noante
+163: noante
+169: noante
+170: nogov
+173: noante
+174: nosubj
+177: noante
+182: noante
+184: noante
+188: nogov
+190: noante
+192: noante
+198: noante
+199: nogov
+202: noante
+215: noante
+220: noante
+222: noante
+230: nogov
+235: noante
+237: noante
+254: noante
+> redirect ./da/1031-da.info

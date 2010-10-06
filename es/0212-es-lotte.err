@@ -1,0 +1,61 @@
+> errors
+1: noante
+6: nosubj
+7: noante
+9: nosubj
+11: nogov
+14: noante
+16: noante
+18: noante
+26: noante
+35: nosubj
+37: noante
+44: noante
+49: noante
+57: noante
+60: nosubj
+61: noante
+62: noante
+66: noante
+69: noante
+71: noante
+75: noante
+78: noante
+80: noante
+83: noante
+85: noante
+89: noante
+95: noante
+107: noante
+111: noante
+114: noante
+115: nosubj
+120: noante
+122: noante
+124: noante
+138: noante
+143: noante
+149: noante
+    149 ³coref-var 86: manygovs
+    149 ²pnct 136: manygovs
+    149 ¹conj 147: manygovs
+    149 ³subj 155: manygovs
+    149 ³[subj] 156: manygovs
+153: noante
+161: noante
+172: nosubj
+177: noante
+183: noante
+188: noante
+191: noante
+195: noante
+198: noante
+205: noante
+210: noante
+214: noante
+220: noante
+223: noante
+225: noante
+228: nosubj
+229: noante
+> redirect ./es/0212-es-lotte.info

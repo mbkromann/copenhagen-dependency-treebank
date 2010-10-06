@@ -1,0 +1,61 @@
+> errors
+2: nogov noante
+5: noante
+9: noante
+15: nogov
+24: noante
+30: noante
+34: nogov noante
+35: nonobj
+42: nogov
+50: noante
+56: nosubj
+59: nosubj
+60: noante
+61: noante
+64: noante
+68: noante
+75: nogov noante
+76: nonobj
+80: nosubj
+85: nogov
+89: noante
+93: nosubj
+94: noante
+96: noante
+101: nogov
+104: nosubj
+107: nosubj
+112: nogov nosubj
+113: noante
+115: noante
+119: nonobj
+127: noante
+128: nogov
+135: nogov
+136: noante
+142: noante
+149: noante
+151: nogov
+158: noante
+162: noante
+163: nogov
+168: noante
+170: noante
+172: nonobj
+175: noante
+186: noante
+187: nogov
+190: noante
+194: noante
+204: noante
+210: nogov noante
+214: nosubj
+215: noante
+218: nosubj
+219: noante
+223: nogov
+227: nogov noante
+229: noante
+231: nosubj
+> redirect ./en/0876-en.info

@@ -1,0 +1,56 @@
+> errors
+2: noante
+4: nonobj
+5: noante
+6: nogov
+14: noante
+16: noante
+19: noante
+27: nogov nosubj
+28: noante
+33: nonobj
+41: nosubj
+45: noante
+51: nogov
+57: nonobj
+60: noante
+70: nogov
+77: nogov noante
+80: noante
+86: nogov nosubj
+    86 *coref 50: badtype
+91: noante
+95: nogov nosubj
+97: nosubj
+    97 *coref 86: badtype
+105: noante
+106: noante
+107: nogov
+110: nosubj
+116: noante
+117: noante
+118: nogov
+121: noante
+126: nogov
+129: noante
+137: nogov nosubj
+142: noante
+144: nogov
+147: noante
+152: noante
+153: nogov
+159: noante
+169: noante
+173: nogov
+176: noante
+183: noante
+187: nogov nosubj
+    187 *coref 176: badtype
+189: nonobj
+195: noante
+201: noante
+207: nogov
+210: nosubj
+214: noante
+216: nonobj
+> redirect ./it/0327-it-morten.info

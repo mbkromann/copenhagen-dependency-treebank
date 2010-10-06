@@ -1,0 +1,39 @@
+> errors
+2: noante
+5: nogov
+18: noante
+23: noante
+24: nogov
+32: noante
+47: nogov
+52: noante
+68: noante
+71: noante
+80: nogov
+81: noante
+82: noante
+84: noante
+88: noante
+89: nogov
+107: noante
+108: nogov
+110: noante
+116: noante
+117: noante
+122: noante
+129: nogov
+130: noante
+134: nosubj
+138: noante
+139: nogov noante
+    139 dobj2 143: badtype
+140: noante
+141: noante
+149: noante
+150: nogov
+151: noante
+163: noante
+168: nogov
+170: noante
+176: nosubj
+> redirect ./de/1252-de-bjarne.info

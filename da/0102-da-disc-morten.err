@@ -1,0 +1,47 @@
+> errors
+45: nogov
+46: noante
+51: noante
+53: noante
+71: noante
+79: noante
+84: noante
+89: nosubj
+90: noante
+92: noante
+94: noante
+101: noante
+102: nogov
+    102 ¤conj 80: badtype
+105: nosubj
+106: noante
+107: noante
+109: noante
+133: noante
+136: noante
+145: noante
+146: nogov
+    146 AGENTIVE:cause/for 72: badtype
+150: noante
+155: noante
+163: nosubj
+166: nosubj
+169: noante
+173: nosubj
+192: nosubj
+193: noante
+196: nosubj
+198: noante
+203: nosubj
+204: noante
+210: noante
+215: noante
+224: noante
+225: nogov
+    225 +AGENTIVE:cause|expl 216: badtype
+226: nonobj
+232: nosubj
+234: nosubj
+242: noante
+251: noante
+> redirect ./da/0102-da-disc-morten.info

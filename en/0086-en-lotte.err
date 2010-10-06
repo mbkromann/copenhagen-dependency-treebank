@@ -1,0 +1,37 @@
+> errors
+2: nogov
+15: noante
+22: noante
+40: noante
+41: noante
+44: noante
+45: noante
+51: nogov
+53: 
+    53 +CONST:rest/and 2: manygovs
+    53 conj 51: manygovs
+73: noante
+77: noante
+82: noante
+85: noante
+93: noante
+113: noante
+114: nonobj
+120: noante
+136: noante
+140: noante
+143: noante
+145: nonobj
+153: noante
+154: noante
+156: nosubj
+157: noante
+158: noante
+172: noante
+185: nogov
+186: noante
+187: 
+    187 CONJ:add/and 152: manygovs
+    187 conj 185: manygovs
+196: noante
+> redirect ./en/0086-en-lotte.info

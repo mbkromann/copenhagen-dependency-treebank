@@ -1,0 +1,31 @@
+> errors
+43: nogov
+69: noante
+71: noante
+75: noante
+84: noante
+97: nogov
+    97 ¤TELIC:cons.dir/derfor 83: badtype
+110: noante
+124: noante
+129: noante
+139: noante
+143: noante
+154: noante
+156: noante
+167: noante
+178: noante
+203: noante
+212: noante
+217: nogov
+    217 ¤CONJ:elab 200: badtype
+224: noante
+250: noante
+267: nogov
+    267 ¤CONJ:elab 250: badtype
+269: noante
+271: nosubj
+274: nosubj
+277: nosubj
+280: noante
+> redirect ./da/0339-da-morten.info

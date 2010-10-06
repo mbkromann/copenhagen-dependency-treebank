@@ -1,5 +1,14 @@
+> status
 de/0531-de-bjarne.tag:
   morphology: none
   discourse: none
   syntax: none
   postag: auto
+  tokens: 187
+  sentences: 5
+
+Error counts (use "errors" command for details): 
+     31 noante error
+     10 nogov error
+      2 nosubj error
+> redirect

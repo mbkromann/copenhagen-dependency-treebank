@@ -1,0 +1,32 @@
+> errors
+40: noante
+42: nogov
+58: nogov
+74: nogov
+86: nogov
+93: nonobj
+97: noante
+104: noante
+107: nogov
+123: noante
+124: nogov nosubj
+129: nosubj
+140: nogov
+141: noante
+143: nonobj
+144: nosubj
+146: nogov
+    146 mcomp 145: badtype
+154: noante
+164: nogov noante
+226: nogov
+230: nogov
+234: nosubj
+235: noante
+237: noante
+242: nogov nosubj
+243: noante
+252: nogov
+267: nogov nosubj
+274: nogov
+> redirect ./da/0535-da.info

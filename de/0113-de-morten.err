@@ -1,0 +1,46 @@
+> errors
+4: nogov
+8: noante
+11: nonobj
+17: noante
+21: noante
+24: noante
+34: noante
+35: nogov
+42: noante
+45: nogov
+47: noante
+50: noante
+52: noante
+55: noante
+64: noante
+76: nogov
+86: nogov
+90: noante
+97: noante
+105: noante
+107: nogov
+114: noante
+115: nogov
+118: noante
+121: noante
+125: noante
+128: noante
+135: noante
+146: noante
+151: nogov
+152: noante
+156: nogov
+172: noante
+174: 
+    174 + 173: badtype
+176: noante
+178: nosubj
+188: nogov
+194: nosubj
+197: noante
+    197 assoc-scope 161: badtype
+201: noante
+207: noante
+211: nosubj
+> redirect ./de/0113-de-morten.info

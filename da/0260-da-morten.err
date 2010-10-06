@@ -1,0 +1,10 @@
+> errors
+43: nogov
+49: nogov
+65: nogov
+93: nosubj
+100: noante
+186: noante
+194: noante
+206: nosubj
+> redirect ./da/0260-da-morten.info

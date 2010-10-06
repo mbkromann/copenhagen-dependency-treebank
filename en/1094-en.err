@@ -1,0 +1,57 @@
+> errors
+1: noante
+6: nogov
+9: noante
+11: noante
+18: noante
+24: noante
+27: noante
+32: noante
+37: noante
+42: nogov
+45: noante
+48: noante
+56: noante
+57: nogov
+58: nonobj
+59: noante
+66: noante
+68: nosubj
+76: 
+    76 pnct# 57: manygovs
+    76 lobj 68: manygovs
+81: noante
+83: noante
+84: nonobj
+86: noante
+96: nogov
+103: noante
+110: nonobj
+113: nonobj
+114: noante
+118: noante
+120: nonobj
+121: noante
+124: noante
+126: noante
+127: nogov
+132: nogov
+142: nogov
+144: noante
+148: noante
+152: noante
+160: noante
+163: noante
+171: noante
+175: nogov
+176: nonobj
+180: noante
+185: noante
+194: nogov
+200: noante
+208: nosubj
+210: noante
+214: nogov
+221: noante
+223: noante
+> redirect ./en/1094-en.info

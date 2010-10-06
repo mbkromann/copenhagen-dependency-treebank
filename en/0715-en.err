@@ -1,0 +1,64 @@
+> errors
+2: noante
+5: noante
+7: nogov
+9: noante
+10: nonobj
+17: noante
+18: noante
+23: noante
+26: noante
+27: nogov
+28: nonobj
+29: noante
+31: noante
+42: nogov
+46: noante
+48: nonobj
+49: noante
+56: nonobj
+66: nosubj
+68: noante
+72: nogov
+82: noante
+87: noante
+91: noante
+92: noante
+94: nogov
+114: noante
+122: noante
+128: nogov
+129: nonobj
+130: noante
+133: noante
+136: noante
+142: nonobj
+146: noante
+148: noante
+151: noante
+159: nogov
+162: nosubj
+166: noante
+167: nogov
+169: nosubj
+170: noante
+172: nonobj
+173: noante
+176: noante
+179: noante
+181: 
+    181 pnct# 167: manygovs
+    181 mod 175: manygovs
+185: nogov noante
+194: noante
+198: nogov
+206: nonobj
+207: noante
+210: noante
+222: nosubj
+223: noante
+226: nonobj
+243: nonobj
+246: nosubj
+259: noante
+> redirect ./en/0715-en.info

@@ -1,0 +1,91 @@
+> errors
+0: noante
+3: nogov
+7: noante
+10: nonobj
+15: nogov
+16: nosubj
+17: noante
+19: noante
+25: noante
+26: nogov nosubj
+27: nosubj
+28: noante
+31: noante
+36: nogov
+37: noante
+38: nogov
+43: nosubj
+47: noante
+50: noante
+52: nonobj
+53: nogov
+58: noante
+60: nosubj
+61: nogov
+63: nosubj
+65: noante
+66: nogov nosubj
+72: noante
+75: noante
+76: nogov
+    76 pobj:resem 75: badtype
+77: noante
+79: noante
+82: noante
+90: nosubj
+93: nogov
+94: noante
+100: nosubj
+101: nonobj
+102: nogov
+    102 novj 101: badtype
+105: nogov nosubj
+106: nosubj
+108: noante
+111: nosubj
+115: nogov
+117: noante
+123: noante
+126: noante
+128: noante
+132: noante
+134: nonobj
+136: noante
+139: noante
+141: noante
+143: nosubj
+144: nogov
+146: noante
+149: noante
+151: noante
+154: nogov
+155: noante
+159: noante
+161: noante
+162: nogov
+    162 pobj:formål# 161: badtype
+163: noante
+166: noante
+172: noante
+173: nogov
+174: nogov nosubj
+175: noante
+177: nogov
+    177 pobj:formål 176: badtype
+178: noante
+180: noante
+181: nogov
+185: noante
+187: noante
+190: nosubj
+192: nogov
+195: noante
+199: noante
+202: noante
+205: nosubj
+207: nogov
+210: nogov
+213: noante
+215: noante
+> redirect ./es/1420-es-jonas.info

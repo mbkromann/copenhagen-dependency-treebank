@@ -1,0 +1,50 @@
+> errors
+43: nogov
+44: noante
+48: noante
+58: noante
+67: nogov
+77: noante
+82: nogov
+83: noante
+84: noante
+88: noante
+89: nogov
+145: nogov nosubj
+146: noante
+150: nosubj
+151: noante
+153: nosubj
+156: noante
+163: noante
+164: nogov
+169: nogov noante
+171: nosubj
+172: noante
+176: nosubj
+177: noante
+180: nosubj
+181: noante
+184: nosubj
+189: nosubj
+191: nogov
+    191 mcomp 189: badtype
+194: nosubj
+195: nosubj
+202: nogov nosubj
+203: noante
+204: nogov
+    204 mcomp 202: badtype
+206: noante
+208: noante
+210: nosubj
+213: noante
+215: noante
+217: nosubj
+218: noante
+226: nogov
+246: nogov
+255: nogov
+256: noante
+260: noante
+> redirect ./da/1038-da-disc-lotte.info

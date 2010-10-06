@@ -1,0 +1,87 @@
+> errors
+2: nogov
+3: nogov
+    3 dobj:mærke 2: badtype
+4: noante
+5: nosubj
+6: nonobj
+8: noante
+11: noante
+14: noante
+16: nosubj
+18: noante
+22: noante
+25: noante
+29: noante
+31: nogov
+    31 pobj:nobj 30: badtype
+34: noante
+36: nogov nosubj
+37: noante
+39: nosubj
+43: noante
+46: nogov nonobj
+    46 pobj:attrr 44: badtype
+47: nogov nonobj
+48: noante
+54: noante
+55: nogov nosubj
+56: nonobj
+58: noante
+63: nosubj
+71: noante
+    71 man 72: manygovs
+    71 dobj 76: manygovs
+72: nogov nosubj
+73: noante
+76: nogov
+81: nosubj
+83: noante
+86: noante
+88: noante
+90: nogov nosubj
+94: noante
+97: noante
+102: noante
+104: noante
+106: nogov
+107: nogov nosubj
+109: noante
+112: noante
+113: nosubj
+114: noante
+115: nosubj
+117: noante
+130: noante
+134: noante
+136: nosubj
+138: noante
+145: 
+    145 other 146: manygovs
+    145 dobj 156: manygovs
+146: noante
+149: nogov
+150: noante
+155: noante
+156: nogov
+161: nogov
+    161 namem 162: badtype
+163: nogov
+165: noante
+168: nosubj
+170: noante
+177: nosubj
+178: nosubj
+179: nosubj
+180: nosubj
+181: nosubj
+183: noante
+185: noante
+186: nogov
+188: noante
+191: nosubj
+193: nosubj
+194: noante
+195: noante
+196: nosubj
+> redirect ./es/0866-es-disc-lotte.info

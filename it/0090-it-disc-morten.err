@@ -1,0 +1,202 @@
+> errors
+2: nogov noante
+3: nogov noante
+4: nogov
+5: nogov nosubj
+6: nogov nosubj
+7: nogov nosubj
+8: nogov
+9: nogov nosubj
+10: nogov
+11: nogov nosubj
+12: nogov
+13: nogov nosubj
+14: nogov nonobj
+15: nogov
+16: nogov
+19: nosubj
+20: nogov noante
+21: nogov noante
+22: nogov noante
+23: nogov
+24: nogov noante
+25: nogov noante
+26: nogov noante
+27: nogov nonobj
+28: nogov noante
+29: nogov
+32: noante
+33: nogov noante
+34: nogov noante
+35: nogov nonobj
+36: nogov
+37: nogov nosubj
+38: nogov
+43: nogov noante
+44: nogov noante
+45: nogov noante
+46: nosubj
+47: nogov nosubj
+48: nogov nonobj
+49: nogov noante
+50: nogov noante
+51: nogov nonobj
+52: nogov noante
+53: nogov
+54: nogov
+57: nogov noante
+58: nogov noante
+59: nogov nonobj
+60: nogov noante
+61: nogov noante
+62: nosubj
+63: nogov nonobj
+64: nogov noante
+65: nogov nonobj
+66: nogov noante
+67: nogov
+68: nogov
+69: nogov noante
+70: nogov noante
+71: nogov noante
+72: nogov nosubj
+73: nogov nonobj
+74: nogov noante
+75: nogov
+78: nogov
+79: nogov noante
+80: nogov
+81: nosubj
+82: nogov nosubj
+83: nogov nosubj
+84: nogov nonobj
+85: nogov
+86: nogov noante
+87: nogov
+88: nogov nosubj
+89: nogov noante
+90: nogov noante
+91: nogov
+92: nogov nosubj
+93: nogov noante
+94: nogov noante
+95: nogov
+96: nogov nosubj
+97: nogov nonobj
+98: nogov noante
+99: nogov
+104: noante
+105: nogov nonobj
+106: nogov noante
+107: nogov noante
+108: nogov
+109: nogov nosubj
+110: nogov noante
+111: nogov nosubj
+112: nogov noante
+113: nogov
+114: nogov nonobj
+115: nogov noante
+116: nogov noante
+117: nogov noante
+118: nogov noante
+119: nogov noante
+120: nogov noante
+121: nogov
+122: nogov nosubj
+123: nogov
+124: nogov
+125: nogov
+126: nogov noante
+127: nogov nonobj
+128: nogov noante
+129: nogov nonobj
+130: nogov noante
+131: nogov noante
+132: nogov nonobj
+133: nogov noante
+134: nogov
+135: nogov
+140: nogov
+141: nogov noante
+142: nogov
+143: nogov noante
+144: nogov nonobj
+145: nogov
+146: nogov noante
+147: nogov nonobj
+148: nogov noante
+149: nogov nonobj
+150: nogov noante
+151: nosubj
+152: nogov
+153: nogov
+154: nogov noante
+155: nogov nonobj
+156: nogov noante
+157: nogov
+158: nogov
+159: nogov nosubj
+160: nogov nosubj
+161: nogov noante
+162: nogov nonobj
+163: nogov noante
+164: nogov
+165: nogov
+170: nogov noante
+172: nogov
+173: nogov noante
+174: nogov nonobj
+175: nogov noante
+176: nogov
+179: nogov noante
+180: nogov
+181: nogov noante
+182: nosubj
+183: nogov noante
+184: nogov nonobj
+185: nogov noante
+186: nogov
+187: nogov nosubj
+188: nogov
+189: nogov
+190: nogov
+191: nogov noante
+192: nogov nonobj
+193: nogov noante
+194: nogov noante
+195: nogov nonobj
+196: nogov
+197: nogov noante
+198: nogov nonobj
+199: nogov noante
+200: nogov
+201: nogov
+206: nogov nosubj
+    206 +AGENTIVE:cause|expl 171: badtype
+207: nogov nosubj
+208: nogov noante
+209: nogov noante
+210: nogov noante
+211: nogov
+212: nogov nosubj
+213: nogov noante
+214: nogov
+215: nogov noante
+216: nogov noante
+217: nogov nosubj
+218: nogov noante
+219: nogov noante
+220: nogov noante
+221: nogov nonobj
+222: nogov noante
+223: nogov
+226: nogov
+227: nosubj
+228: nogov nosubj
+229: nogov noante
+230: nogov noante
+231: nogov nonobj
+232: nogov noante
+233: nogov
+> redirect ./it/0090-it-disc-morten.info

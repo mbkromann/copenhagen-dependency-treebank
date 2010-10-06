@@ -1,0 +1,102 @@
+> errors
+3: nogov nosubj
+    3 coref* 45: badtype
+8: nosubj
+    8 ¹*coref 3: badtype
+    8 ¹*[subj]¹ 10: badtype
+9: nonobj
+10: 
+    10 ²coref* 21: badtype
+14: noante
+16: noante
+20: nosubj
+    20 *coref 14: badtype
+22: noante
+25: nogov
+26: noante
+28: 
+    28 [subj]* 21: badtype
+29: noante
+31: noante
+39: noante
+41: nosubj
+43: noante
+45: noante
+48: noante
+49: nogov
+51: nosubj
+52: nonobj
+56: noante
+59: noante
+63: noante
+65: noante
+74: noante
+75: nogov nosubj
+    75 *coref² 53: badtype
+    75 *[subj] 76: badtype
+    75 *[subj] 80: badtype
+77: noante
+79: nonobj
+82: noante
+84: nosubj
+85: noante
+90: noante
+102: noante
+106: nogov noante
+114: 
+    114 *[subj] 130: badtype
+117: noante
+119: nogov
+124: nonobj
+127: noante
+130: 
+    130 *[subj] 132: badtype
+133: noante
+135: nonobj
+137: noante
+141: noante
+148: noante
+151: 
+    151 *[subj] 155: badtype
+154: noante
+158: nogov
+160: 
+    160 [subj]* 151: badtype
+163: noante
+171: nosubj
+175: nosubj
+177: noante
+185: nogov
+187: nonobj
+189: noante
+190: nonobj
+193: noante
+195: noante
+197: nonobj
+200: noante
+202: nonobj
+206: noante
+209: noante
+211: nosubj
+223: nogov
+224: nosubj
+226: nonobj
+231: noante
+238: noante
+242: noante
+244: nosubj
+249: noante
+250: nogov nosubj
+    250 *coref 217: badtype
+    250 *[subj] 251: badtype
+252: noante
+255: noante
+256: 
+    256 *coref 250: badtype
+259: noante
+262: noante
+264: nonobj
+267: nosubj
+272: noante
+274: noante
+> redirect ./it/1457-it-morten.info

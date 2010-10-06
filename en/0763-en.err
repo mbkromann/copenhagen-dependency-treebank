@@ -1,0 +1,66 @@
+> errors
+1: noante
+3: nogov
+5: noante
+12: noante
+13: noante
+19: noante
+22: nosubj
+25: nosubj
+26: noante
+29: noante
+34: noante
+38: noante
+39: nogov
+40: nosubj
+41: noante
+43: noante
+49: noante
+54: noante
+57: noante
+62: nosubj
+63: noante
+66: noante
+67: nogov
+71: noante
+75: noante
+80: noante
+81: noante
+85: noante
+87: nogov noante
+91: noante
+95: noante
+103: noante
+104: nogov
+110: noante
+112: noante
+118: noante
+122: noante
+126: nogov
+127: noante
+128: nosubj
+137: noante
+141: noante
+143: noante
+146: noante
+149: noante
+158: nogov
+159: noante
+165: 
+    165 pnct# 158: manygovs
+    165 nobj 163: manygovs
+167: nosubj
+169: nonobj
+176: nogov
+177: nosubj
+179: noante
+185: noante
+189: noante
+190: noante
+195: noante
+198: noante
+205: noante
+209: noante
+212: nogov
+220: noante
+> redirect ./en/0763-en.info

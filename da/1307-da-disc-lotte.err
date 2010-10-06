@@ -1,0 +1,43 @@
+> errors
+45: noante
+47: noante
+53: nogov
+54: noante
+57: noante
+60: noante
+63: noante
+68: noante
+75: noante
+80: nosubj
+88: nosubj
+99: noante
+113: nosubj
+114: nosubj
+117: nosubj
+121: 
+    121 TELIC:cons.dir/så/ATTR1 100: manygovs
+    121 vobj 108: manygovs
+122: noante
+123: noante
+125: noante
+139: nogov
+147: nosubj
+148: noante
+154: noante
+155: nogov
+171: noante
+174: nosubj
+179: noante
+187: noante
+196: noante
+199: noante
+208: 
+    208 CONJ:add/(og)/ATTR2 180: manygovs
+    208 qobj 241: manygovs
+209: noante
+214: noante
+217: noante
+225: nosubj
+226: nosubj
+233: noante
+> redirect ./da/1307-da-disc-lotte.info

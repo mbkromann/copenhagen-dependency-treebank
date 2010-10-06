@@ -1,0 +1,62 @@
+> errors
+2: noante
+6: nosubj
+12: noante
+15: noante
+20: nogov
+26: noante
+36: noante
+39: noante
+44: nogov
+45: noante
+51: nogov
+53: nosubj
+55: nosubj
+56: noante
+61: noante
+62: nogov
+64: noante
+65: nonobj
+66: noante
+70: noante
+71: noante
+72: noante
+74: 
+    74 pnct# 62: manygovs
+    74 dobj 73: manygovs
+78: noante
+81: nogov
+82: noante
+84: noante
+87: noante
+96: noante
+100: noante
+102: nogov
+109: noante
+114: noante
+121: nosubj
+125: nogov
+128: noante
+134: nogov nosubj
+142: nosubj
+151: nogov
+154: nosubj
+161: noante
+162: nogov
+165: nosubj
+166: noante
+169: noante
+177: nonobj
+181: noante
+190: nogov
+191: noante
+193: noante
+200: noante
+201: nogov
+202: noante
+203: noante
+211: noante
+214: noante
+215: nonobj
+217: noante
+> redirect ./en/0563-en.info

@@ -1,5 +1,14 @@
+> status
 da/0005-da-lotte.tag:
   morphology: none
   discourse: first
   syntax: first
   postag: final
+  tokens: 193
+  sentences: 10
+
+Error counts (use "errors" command for details): 
+     14 noante error
+      1 nogov error
+      2 nosubj error
+> redirect

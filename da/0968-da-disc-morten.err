@@ -1,0 +1,29 @@
+> errors
+43: noante
+46: nogov
+59: noante
+66: noante
+72: noante
+84: nogov
+    84 mcomp 83: badtype
+86: noante
+88: noante
+111: nosubj
+122: noante
+125: nosubj
+131: nosubj
+135: noante
+148: noante
+154: noante
+163: noante
+164: nonobj
+172: nosubj
+173: noante
+178: noante
+189: noante
+193: noante
+195: noante
+211: noante
+237: noante
+241: noante
+> redirect ./da/0968-da-disc-morten.info

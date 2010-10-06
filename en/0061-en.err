@@ -1,0 +1,78 @@
+> errors
+6: nogov
+    6 pnct? 5: badtype
+10: noante
+12: noante
+15: nogov
+28: noante
+29: nogov noante
+30: noante
+32: noante
+35: nosubj
+36: noante
+39: nosubj
+40: nonobj
+41: noante
+42: noante
+54: nogov
+62: noante
+64: nogov
+70: noante
+72: nogov
+81: noante
+83: noante
+87: nogov
+88: noante
+97: noante
+98: nogov
+101: noante
+106: noante
+107: nogov
+109: nonobj
+112: noante
+115: noante
+118: noante
+119: noante
+128: noante
+132: noante
+135: noante
+140: nogov
+145: nosubj
+149: noante
+150: nogov
+152: nonobj
+153: noante
+168: noante
+172: noante
+173: nogov
+179: noante
+182: 
+    182 pnct# 173: manygovs
+    182 nobj 181: manygovs
+187: nogov
+195: nogov
+    195 pnct? 194: badtype
+199: noante
+201: noante
+202: nogov
+210: nogov
+214: noante
+216: noante
+219: noante
+224: noante
+226: nogov
+232: noante
+233: nogov
+236: noante
+241: noante
+242: nogov
+243: noante
+248: noante
+253: noante
+256: noante
+260: noante
+264: nogov
+271: noante
+276: noante
+277: noante
+> redirect ./en/0061-en.info

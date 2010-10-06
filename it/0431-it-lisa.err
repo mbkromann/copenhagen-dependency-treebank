@@ -1,0 +1,98 @@
+> errors
+1: noante
+3: noante
+5: noante
+6: noante
+8: noante
+9: nogov
+13: nonobj
+23: nosubj
+24: nogov
+27: noante
+34: nosubj
+36: noante
+39: noante
+41: noante
+46: noante
+48: noante
+49: noante
+50: nogov
+52: noante
+57: noante
+60: noante
+61: nonobj
+63: noante
+65: noante
+66: nogov
+67: noante
+70: noante
+72: noante
+74: noante
+77: noante
+80: noante
+83: noante
+85: noante
+87: noante
+89: nogov
+93: noante
+99: noante
+101: noante
+104: nogov nosubj
+109: nosubj
+118: nogov noante
+120: noante
+124: noante
+125: noante
+128: noante
+131: nogov
+133: noante
+136: noante
+138: noante
+140: noante
+142: noante
+144: nogov noante
+    144 *coref 133: badtype
+145: noante
+150: noante
+152: nogov noante
+154: noante
+158: noante
+159: nogov
+163: noante
+166: noante
+171: nogov
+173: nosubj
+175: noante
+177: noante
+183: noante
+189: noante
+191: noante
+193: noante
+195: nogov
+196: 
+    196 ²coref 180: manygovs
+    196 ¹vobj 195: manygovs
+    196 ²pobj 198: manygovs
+199: nosubj
+201: noante
+205: noante
+208: noante
+211: noante
+213: noante
+216: nogov noante
+220: noante
+221: nogov
+223: nosubj
+225: noante
+230: noante
+231: nogov
+232: nosubj
+234: noante
+237: noante
+242: nogov noante
+244: noante
+247: noante
+250: noante
+252: noante
+253: noante
+> redirect ./it/0431-it-lisa.info

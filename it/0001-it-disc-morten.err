@@ -1,0 +1,78 @@
+> errors
+3: noante
+5: noante
+6: noante
+9: noante
+12: nogov
+13: noante
+14: noante
+23: noante
+27: nogov
+    27 CONJ:elab|rest/ATTR 12: badtype
+28: noante
+29: noante
+34: noante
+39: noante
+41: nosubj
+43: noante
+45: noante
+46: noante
+53: noante
+55: noante
+59: noante
+64: noante
+65: noante
+69: nonobj
+70: nosubj
+72: noante
+73: noante
+82: noante
+86: noante
+87: nonobj
+88: nosubj
+92: noante
+93: noante
+94: nogov
+    94 CONS/ATTR 84: badtype
+97: noante
+98: nonobj
+99: nosubj
+100: noante
+104: noante
+106: noante
+111: nosubj
+117: nosubj
+122: noante
+125: nosubj
+128: noante
+132: noante
+136: noante
+139: nogov nosubj
+    139 AGENTIVE:cause/(perché)/ATTR 125: badtype
+141: noante
+142: nonobj
+143: nosubj
+145: nonobj
+151: nosubj
+153: noante
+154: nonobj
+155: nosubj
+158: nogov nosubj
+    158 AGENTIVE:cause/a_causa_di/ATTR 151: badtype
+161: noante
+163: noante
+165: noante
+168: noante
+174: noante
+179: noante
+184: noante
+186: noante
+188: nosubj
+196: nosubj
+199: noante
+206: noante
+207: noante
+210: noante
+213: noante
+216: noante
+> redirect ./it/0001-it-disc-morten.info

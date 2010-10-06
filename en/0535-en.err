@@ -1,0 +1,48 @@
+> errors
+1: noante
+4: nogov
+24: nogov
+33: nonobj
+35: noante
+42: nogov
+45: noante
+48: noante
+52: 
+    52 pnct# 42: manygovs
+    52 nobj 51: manygovs
+59: noante
+65: noante
+72: noante
+75: nogov
+86: noante
+87: noante
+88: noante
+93: noante
+94: nogov
+113: nogov
+114: noante
+117: nosubj
+126: noante
+133: nogov noante
+141: noante
+143: noante
+154: noante
+159: noante
+161: noante
+168: noante
+179: noante
+181: nogov
+185: nogov
+    185 conj? 181: badtype
+188: nosubj
+189: noante
+191: noante
+196: nogov nosubj
+197: noante
+204: nogov
+212: 
+    212 nobj 211: manygovs
+    212 pnct# 211: manygovs
+222: nogov nosubj
+229: nogov
+> redirect ./en/0535-en.info

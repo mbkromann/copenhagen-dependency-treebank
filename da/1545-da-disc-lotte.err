@@ -1,0 +1,21 @@
+> errors
+45: noante
+50: nogov
+57: noante
+61: noante
+67: noante
+69: nosubj
+82: noante
+99: nosubj
+111: nogov
+113: noante
+117: 
+    117 +CONTR:sbj/men 91: manygovs
+    117 conj 111: manygovs
+124: noante
+138: noante
+152: noante
+162: nosubj
+189: nosubj
+199: noante
+> redirect ./da/1545-da-disc-lotte.info

@@ -1,0 +1,47 @@
+> errors
+3: nogov
+9: noante
+11: noante
+16: noante
+18: nonobj
+28: nogov
+31: noante
+36: 
+    36 + 35: badtype
+40: noante
+41: noante
+42: noante
+45: nosubj
+53: noante
+59: noante
+61: noante
+66: noante
+70: nogov
+71: noante
+76: noante
+78: noante
+81: noante
+86: noante
+93: noante
+96: 
+    96 + 95: badtype
+100: noante
+104: noante
+109: noante
+119: noante
+121: noante
+122: noante
+135: noante
+137: noante
+141: noante
+142: nogov
+149: nogov
+150: noante
+152: noante
+162: noante
+168: noante
+170: noante
+182: nogov
+187: noante
+190: noante
+> redirect ./de/0086-de-morten.info

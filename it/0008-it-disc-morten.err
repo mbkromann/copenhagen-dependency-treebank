@@ -1,0 +1,64 @@
+> errors
+3: noante
+13: noante
+16: noante
+19: noante
+25: noante
+31: nogov
+32: noante
+33: noante
+41: noante
+42: nogov
+44: noante
+52: noante
+54: noante
+62: noante
+63: noante
+64: noante
+68: noante
+71: noante
+74: noante
+80: noante
+87: nogov nosubj
+    87 +TIME:time/lo_stesso_anno 39: badtype
+90: noante
+92: noante
+93: noante
+96: noante
+105: noante
+110: noante
+115: nosubj
+129: noante
+132: noante
+135: noante
+141: nogov
+    141 +¤time:time 128: badtype
+142: noante
+155: noante
+157: noante
+158: noante
+162: nonobj
+166: noante
+174: nosubj
+175: noante
+180: noante
+182: noante
+185: noante
+191: noante
+194: noante
+197: noante
+203: noante
+205: noante
+207: nosubj
+213: nogov nonobj
+    213 ¤time:time 207: badtype
+215: noante
+217: noante
+220: noante
+221: noante
+226: nosubj
+234: nogov
+    234 ¤scene:scene 226: badtype
+235: noante
+237: noante
+> redirect ./it/0008-it-disc-morten.info

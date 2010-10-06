@@ -1,5 +1,17 @@
+> status
 es/1420-es-henrik.tag:
   morphology: none
   discourse: none
   syntax: first
   postag: auto
+  tokens: 220
+  sentences: 13
+
+Error counts (use "errors" command for details): 
+      2 badtype error
+      1  error
+     40 noante error
+     13 nogov error
+      2 nonobj error
+     13 nosubj error
+> redirect

@@ -1,0 +1,65 @@
+> errors
+0: noante
+1: noante
+2: nogov noante
+6: noante
+8: noante
+14: nosubj
+16: noante
+22: noante
+27: noante
+30: noante
+33: noante
+40: nogov noante
+    40 QUEST:probl 2: badtype
+42: noante
+46: nonobj
+47: nosubj
+51: noante
+54: noante
+55: noante
+58: noante
+60: 
+    60 + 59: badtype
+64: noante
+66: noante
+69: noante
+71: noante
+75: noante
+78: noante
+83: noante
+84: 
+    84 + 83: badtype
+86: noante
+87: noante
+90: noante
+91: noante
+94: noante
+104: noante
+107: noante
+110: noante
+111: noante
+114: noante
+117: noante
+118: noante
+121: noante
+123: noante
+126: nonobj
+128: noante
+132: noante
+133: noante
+135: noante
+141: nosubj
+143: noante
+145: noante
+146: noante
+155: noante
+170: nosubj
+177: noante
+180: noante
+183: noante
+184: noante
+186: nosubj
+192: noante
+194: noante
+> redirect ./it/1428-it-disc-morten.info

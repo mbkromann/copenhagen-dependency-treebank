@@ -1,5 +1,15 @@
+> status
 da/0705-da.tag:
   morphology: none
   discourse: none
   syntax: discussed
   postag: final
+  tokens: 205
+  sentences: 11
+
+Error counts (use "errors" command for details): 
+      6 noante error
+     11 nogov error
+      1 nonobj error
+      6 nosubj error
+> redirect

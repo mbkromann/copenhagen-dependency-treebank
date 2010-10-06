@@ -1,0 +1,40 @@
+> errors
+1: noante
+2: noante
+9: noante
+12: nogov
+14: noante
+15: noante
+25: nosubj
+30: noante
+45: noante
+47: noante
+50: nonobj
+51: noante
+58: noante
+61: nonobj
+74: nosubj
+78: noante
+79: nosubj
+97: noante
+100: noante
+111: noante
+114: noante
+120: noante
+121: noante
+127: noante
+128: nonobj
+130: noante
+131: nonobj
+134: 
+    134 pnct#? 135: badtype
+148: nosubj
+161: noante
+163: noante
+177: noante
+186: noante
+190: nogov
+    190 #cause 176: badtype
+203: noante
+205: nosubj
+> redirect ./en/1408-en-lotte.info

@@ -1,0 +1,53 @@
+> errors
+2: noante
+3: nogov
+4: noante
+6: nonobj
+7: nogov noante
+9: noante
+16: noante
+20: noante
+21: nogov
+28: noante
+33: noante
+35: noante
+37: nonobj
+42: nogov
+43: noante
+50: noante
+57: nogov nosubj
+67: nogov
+69: noante
+70: noante
+71: noante
+74: noante
+79: noante
+    79 assoc-cause 60: badtype
+83: noante
+84: noante
+86: noante
+90: nonobj
+91: nosubj
+92: noante
+94: nosubj
+99: noante
+104: nonobj
+105: nosubj
+110: nogov
+112: noante
+119: noante
+122: noante
+123: noante
+125: noante
+129: noante
+133: noante
+135: noante
+137: noante
+140: noante
+148: nosubj
+152: nogov
+168: noante
+169: nosubj
+172: nosubj
+180: noante
+> redirect ./it/0244-it-iorn.info

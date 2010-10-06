@@ -1,0 +1,41 @@
+> errors
+45: nogov
+46: noante
+53: noante
+62: noante
+73: noante
+75: noante
+88: noante
+94: nogov
+95: noante
+96: 
+    96 CONTR:sbj/men 72: manygovs
+    96 conj 94: manygovs
+103: nosubj
+109: nogov
+111: noante
+112: 
+    112 +AGENTIVE:cause/for 96: badtype
+117: noante
+152: noante
+157: noante
+158: nosubj
+160: nosubj
+164: nosubj
+165: nosubj
+167: noante
+187: nogov
+    187 ¤elab 167: badtype
+204: noante
+208: noante
+210: noante
+228: noante
+237: noante
+242: nogov
+243: noante
+244: 
+    244 CONTR:sbj/men 219: manygovs
+    244 conj 242: manygovs
+250: nosubj
+252: nonobj
+> redirect ./da/0759-da-disc-lotte.info

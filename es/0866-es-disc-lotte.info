@@ -1,6 +1,19 @@
+> status
 es/0866-es-disc-lotte.tag:
   morphology: none
   discourse: discussed
   syntax: discussed
   svn:mergeinfo: 
   postag: auto
+  tokens: 215
+  sentences: 9
+
+Error counts (use "errors" command for details): 
+      4 badtype error
+      1  error
+      4 manygovs error
+     40 noante error
+     17 nogov error
+      4 nonobj error
+     22 nosubj error
+> redirect

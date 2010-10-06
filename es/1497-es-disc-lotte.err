@@ -1,0 +1,99 @@
+> errors
+1: noante
+4: noante
+7: noante
+10: nogov nosubj
+13: noante
+15: noante
+17: nogov
+18: nogov nonobj
+19: nogov noante
+20: nogov noante
+21: nogov nonobj
+22: nogov nosubj
+23: nogov nonobj
+24: nogov nosubj
+25: nogov nosubj
+26: nogov
+27: nogov noante
+28: nogov noante
+29: nogov
+30: nogov nonobj
+31: nogov noante
+32: nogov nonobj
+33: nogov
+34: nogov noante
+35: nogov nosubj
+36: nogov nosubj
+37: nogov
+38: nogov
+    38 diskmark 39: badtype
+39: nogov nosubj
+40: noante
+43: noante
+47: noante
+51: noante
+59: nogov
+60: noante
+65: noante
+67: nogov nosubj
+68: nosubj
+69: noante
+71: noante
+78: noante
+79: nogov nosubj
+80: nosubj
+81: noante
+85: nosubj
+86: nosubj
+90: noante
+91: nogov
+92: nogov nonobj
+93: nosubj
+94: noante
+95: nogov
+97: nogov
+98: nogov noante
+99: noante
+100: nogov
+101: noante
+104: noante
+108: noante
+113: noante
+115: nogov
+116: nogov
+117: nogov
+118: noante
+120: noante
+122: nogov
+124: noante
+126: noante
+130: nogov
+    130 diskmark 131: badtype
+131: nosubj
+133: noante
+139: noante
+142: nogov
+144: noante
+149: noante
+151: noante
+155: nogov
+157: noante
+158: nogov
+159: noante
+162: noante
+165: noante
+170: nogov
+174: noante
+179: noante
+182: noante
+184: nonobj
+186: nosubj
+187: noante
+190: nosubj
+192: noante
+193: noante
+200: noante
+203: noante
+206: noante
+> redirect ./es/1497-es-disc-lotte.info

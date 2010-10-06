@@ -1,0 +1,71 @@
+> errors
+1: 
+    1 org 9: badtype
+2: noante
+3: nosubj
+4: noante
+    4 mod 5: manygovs
+    4 attr 5: manygovs
+    4 {const}# 5: manygovs
+6: noante
+9: noante
+14: nogov
+22: noante
+28: noante
+31: nogov
+    31 <accom> 30: badtype
+35: noante
+36: noante
+40: noante
+41: noante
+42: noante
+45: noante
+47: nonobj
+49: noante
+52: noante
+60: noante
+66: nogov
+68: 
+    68 oter 66: badtype
+69: nonobj
+71: nosubj
+75: noante
+77: noante
+80: noante
+85: nogov nonobj
+88: nosubj
+89: noante
+91: noante
+96: noante
+103: noante
+104: noante
+112: noante
+115: nogov
+123: noante
+128: noante
+132: noante
+137: noante
+139: noante
+140: noante
+145: noante
+146: nogov
+152: noante
+155: noante
+156: nonobj
+157: noante
+161: noante
+162: noante
+166: noante
+172: noante
+180: noante
+184: noante
+188: noante
+189: nogov
+197: noante
+198: nogov
+201: noante
+202: noante
+208: nogov noante
+211: noante
+215: noante
+> redirect ./en/1043-en-lotte.info

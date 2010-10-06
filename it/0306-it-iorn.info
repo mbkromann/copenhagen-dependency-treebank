@@ -1,5 +1,18 @@
+> status
 it/0306-it-iorn.tag:
   morphology: none
   discourse: none
   syntax: discussed
   postag: auto
+  tokens: 235
+  sentences: 16
+
+Error counts (use "errors" command for details): 
+      4 badtype error
+      4  error
+      4 manygovs error
+     46 noante error
+     12 nogov error
+      4 nonobj error
+     18 nosubj error
+> redirect

@@ -1,0 +1,57 @@
+> errors
+1: nogov
+8: noante
+10: 
+    10 dobj 9: manygovs
+    10 pnct# 9: manygovs
+11: nogov
+18: noante
+19: noante
+24: noante
+29: noante
+30: nogov
+31: noante
+37: nosubj
+40: nosubj
+41: nonobj
+43: noante
+47: noante
+50: noante
+58: nogov
+63: noante
+68: nosubj
+73: noante
+86: noante
+87: nogov
+88: noante
+98: nogov
+99: noante
+100: noante
+109: nosubj
+115: noante
+122: noante
+123: nogov
+127: noante
+131: noante
+132: noante
+135: noante
+154: noante
+167: nonobj
+169: noante
+170: nosubj
+172: nogov
+173: noante
+175: noante
+177: noante
+179: noante
+184: noante
+186: noante
+193: noante
+199: noante
+204: noante
+214: nogov
+218: noante
+223: noante
+224: nogov
+225: noante
+> redirect ./en/0853-en.info

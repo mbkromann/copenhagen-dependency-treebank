@@ -1,5 +1,16 @@
+> status
 es/0187-es-jonas.tag:
   morphology: first
   discourse: none
   syntax: discussed
   postag: auto
+  tokens: 241
+  sentences: 10
+
+Error counts (use "errors" command for details): 
+      5 manygovs error
+     60 noante error
+     12 nogov error
+      1 nonobj error
+     10 nosubj error
+> redirect

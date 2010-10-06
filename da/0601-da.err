@@ -1,0 +1,36 @@
+> errors
+42: nogov
+43: noante
+44: nosubj
+46: noante
+48: noante
+54: nosubj
+61: nogov
+65: nogov
+    65 mcomp 61: badtype
+68: nosubj
+71: noante
+80: noante
+87: nogov
+93: noante
+96: noante
+102: noante
+111: noante
+118: noante
+122: noante
+127: noante
+133: noante
+139: noante
+143: noante
+152: nogov
+156: noante
+158: noante
+162: noante
+165: noante
+182: noante
+185: noante
+189: noante
+198: noante
+213: nosubj
+215: noante
+> redirect ./da/0601-da.info

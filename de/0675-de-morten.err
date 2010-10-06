@@ -1,0 +1,54 @@
+> errors
+3: noante
+4: nogov
+5: noante
+8: noante
+11: noante
+15: 
+    15 [error] 4: badtype
+16: noante
+18: noante
+24: nogov
+30: nosubj
+44: noante
+45: noante
+48: noante
+55: noante
+59: nogov
+60: noante
+61: noante
+65: noante
+66: 
+    66 [error] 59: badtype
+76: noante
+77: nogov
+78: noante
+82: noante
+92: noante
+96: noante
+100: nogov
+104: noante
+110: noante
+111: noante
+116: noante
+121: nonobj
+122: noante
+125: nosubj
+128: noante
+131: noante
+133: noante
+136: noante
+142: nogov
+143: noante
+148: noante
+156: noante
+160: noante
+161: nogov
+171: noante
+176: noante
+179: noante
+187: nonobj
+188: noante
+193: noante
+194: noante
+> redirect ./de/0675-de-morten.info

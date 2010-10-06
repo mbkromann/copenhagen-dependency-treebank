@@ -1,0 +1,60 @@
+> errors
+1: noante
+10: noante
+15: nogov
+16: noante
+17: nonobj
+19: noante
+24: noante
+31: nonobj
+37: noante
+45: noante
+49: noante
+52: nosubj
+53: 
+    53 pnct# 15: manygovs
+    53 dobj 52: manygovs
+60: nogov
+61: noante
+63: noante
+71: nosubj
+73: nosubj
+74: noante
+80: nogov
+85: nogov
+86: noante
+90: noante
+93: nonobj
+100: noante
+108: noante
+111: noante
+114: noante
+119: nogov
+127: nogov
+128: noante
+130: nosubj
+131: nonobj
+132: noante
+138: noante
+143: noante
+151: nogov nonobj
+152: noante
+157: noante
+159: noante
+162: noante
+165: noante
+170: noante
+177: noante
+180: nogov
+186: noante
+190: noante
+199: noante
+202: nonobj
+203: noante
+211: noante
+215: nonobj
+216: noante
+219: noante
+222: noante
+225: nogov
+> redirect ./en/1465-en.info

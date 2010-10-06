@@ -1,0 +1,41 @@
+> errors
+42: noante
+46: noante
+47: nogov
+66: nosubj
+69: nosubj
+70: noante
+78: nogov
+92: noante
+104: nogov
+    104 korel 107: badtype
+105: noante
+108: noante
+111: nogov
+112: noante
+117: nosubj
+118: noante
+122: nosubj
+132: noante
+141: nogov
+144: noante
+151: nosubj
+152: nosubj
+161: noante
+163: noante
+169: noante
+183: noante
+186: nogov
+194: noante
+203: nosubj
+207: nogov
+    207 mcomp 204: badtype
+216: noante
+217: nogov
+221: noante
+228: noante
+235: nosubj
+236: nosubj
+242: noante
+244: noante
+> redirect ./da/0472-da.info

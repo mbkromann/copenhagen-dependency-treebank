@@ -1,2 +1,11 @@
+> status
 en/wsj-2368-lotte.tag:
   syntax: final1
+  tokens: 155
+  sentences: 7
+
+Error counts (use "errors" command for details): 
+     22 noante error
+      7 nogov error
+      2 nosubj error
+> redirect

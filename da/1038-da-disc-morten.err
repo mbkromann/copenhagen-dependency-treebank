@@ -1,0 +1,44 @@
+> errors
+44: noante
+48: noante
+58: noante
+77: noante
+83: noante
+84: noante
+88: noante
+145: nosubj
+146: noante
+150: nosubj
+151: noante
+153: nosubj
+156: noante
+163: noante
+164: nogov
+    164 CONJ:add:seq 145: badtype
+169: nogov noante
+    169 CONJ:add:seq 164: badtype
+171: nosubj
+172: noante
+176: nosubj
+177: noante
+180: nosubj
+181: noante
+184: nosubj
+189: nosubj
+194: nosubj
+195: nosubj
+202: nogov nosubj
+    202 CONJ:add:seq 169: badtype
+203: noante
+206: noante
+208: noante
+210: nosubj
+213: noante
+215: noante
+217: nosubj
+218: noante
+226: nogov
+    226 +CONJ:add:seq 202: badtype
+256: noante
+260: noante
+> redirect ./da/1038-da-disc-morten.info

@@ -1,0 +1,66 @@
+> errors
+1: nogov
+4: nogov
+5: noante
+8: noante
+9: nosubj
+24: nogov
+25: noante
+26: nonobj
+28: nonobj
+29: noante
+34: noante
+35: nosubj
+40: noante
+41: nogov
+42: noante
+43: noante
+47: noante
+48: nogov
+52: nonobj
+55: nosubj
+59: 
+    59 ²pnct 54: manygovs
+    59 ¹nobj 58: manygovs
+63: nosubj
+64: noante
+66: 
+    66 ²pnct 61: manygovs
+    66 ¹nobj 65: manygovs
+81: noante
+82: nogov
+84: noante
+85: nonobj
+93: noante
+98: noante
+99: nogov
+101: noante
+104: nosubj
+105: nonobj
+109: noante
+113: noante
+119: 
+    119 ¹nobj 118: manygovs
+    119 ²pnct 118: manygovs
+121: nogov
+127: noante
+134: noante
+135: nogov
+137: noante
+140: noante
+141: noante
+143: noante
+145: noante
+149: nogov noante
+151: noante
+153: noante
+170: nogov
+171: nonobj
+178: nogov
+186: noante
+187: nogov
+192: noante
+198: nogov
+202: noante
+204: noante
+> redirect ./en/0244-en.info

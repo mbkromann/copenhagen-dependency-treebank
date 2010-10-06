@@ -1,0 +1,57 @@
+> errors
+0: nogov noante
+3: noante
+8: nogov nosubj
+11: nosubj
+16: noante
+21: noante
+27: noante
+29: nosubj
+33: noante
+35: nogov noante
+39: noante
+41: noante
+46: noante
+48: noante
+53: noante
+54: nosubj
+57: nosubj
+59: noante
+62: nogov nosubj
+66: noante
+70: nogov nosubj
+72: noante
+76: nosubj
+78: noante
+80: noante
+84: noante
+86: noante
+88: nosubj
+90: nogov nosubj
+91: nosubj
+103: nogov nosubj
+111: nonobj
+116: noante
+118: nogov
+126: noante
+131: nosubj
+134: noante
+136: noante
+140: noante
+    140 ¹nobj 139: manygovs
+    140 ²goal 144: manygovs
+141: 
+    141 *coref-iden 113: badtype
+143: noante
+144: nogov
+151: noante
+153: noante
+154: nogov
+157: nosubj
+164: noante
+168: noante
+171: noante
+175: nogov noante
+177: nogov noante
+179: noante
+> redirect ./it/0876-it-lisa.info

@@ -1,0 +1,46 @@
+> errors
+46: noante
+49: nogov nosubj
+52: noante
+55: noante
+68: noante
+71: nogov
+73: noante
+78: nogov nosubj
+80: noante
+85: noante
+95: nogov
+97: noante
+105: nogov
+110: noante
+113: noante
+116: noante
+118: noante
+123: noante
+124: nogov
+131: noante
+147: nogov
+156: nogov
+162: noante
+163: nogov
+172: noante
+173: nogov
+179: noante
+192: noante
+199: nogov
+200: noante
+201: noante
+204: noante
+216: noante
+220: nogov
+221: noante
+223: noante
+229: noante
+231: noante
+234: noante
+236: noante
+243: noante
+255: nogov
+256: noante
+260: noante
+> redirect ./da/0306-da.info

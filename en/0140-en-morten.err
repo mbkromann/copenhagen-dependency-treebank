@@ -1,0 +1,37 @@
+> errors
+6: nogov
+8: noante
+10: noante
+27: noante
+40: noante
+45: noante
+50: nogov
+51: noante
+52: 
+    52 +CONTR:dir/but 6: manygovs
+    52 conj 50: manygovs
+59: nonobj
+75: noante
+79: noante
+87: noante
+89: nosubj
+94: noante
+95: noante
+104: noante
+106: nonobj
+107: noante
+116: nosubj
+117: noante
+123: noante
+132: noante
+138: noante
+155: noante
+160: noante
+173: noante
+175: noante
+176: noante
+187: noante
+192: nonobj
+194: nosubj
+197: noante
+> redirect ./en/0140-en-morten.info

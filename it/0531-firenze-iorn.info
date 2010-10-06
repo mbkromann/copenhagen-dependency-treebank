@@ -1,0 +1,9 @@
+> status
+  tokens: 274
+  sentences: 12
+
+Error counts (use "errors" command for details): 
+     16 noante error
+      1 nogov error
+      2 nosubj error
+> redirect

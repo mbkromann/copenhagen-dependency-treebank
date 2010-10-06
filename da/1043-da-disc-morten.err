@@ -1,0 +1,39 @@
+> errors
+44: noante
+48: noante
+51: nogov
+52: noante
+64: noante
+69: noante
+75: nosubj
+85: noante
+91: noante
+93: noante
+101: noante
+109: nosubj
+126: nosubj
+128: nogov
+    128 AGENTIVE:cause/for 100: badtype
+129: noante
+130: noante
+137: noante
+145: noante
+148: nogov
+    148 DESCR 140: badtype
+160: noante
+162: noante
+168: nosubj
+169: noante
+173: noante
+177: noante
+183: noante
+191: nosubj
+200: noante
+202: noante
+217: noante
+223: noante
+229: noante
+231: noante
+236: noante
+240: noante
+> redirect ./da/1043-da-disc-morten.info

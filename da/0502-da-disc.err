@@ -1,0 +1,35 @@
+> errors
+44: nogov
+53: noante
+55: noante
+59: nogov
+79: nogov
+80: noante
+90: nosubj
+99: noante
+104: nosubj
+108: noante
+116: nogov nosubj
+120: nosubj
+123: noante
+128: nogov
+142: nogov
+146: noante
+158: noante
+162: nogov
+175: noante
+185: nogov
+187: nosubj
+188: noante
+197: noante
+198: nogov
+202: noante
+219: nogov
+232: nogov
+244: nogov noante
+246: noante
+254: nogov
+260: nogov
+262: noante
+267: noante
+> redirect ./da/0502-da-disc.info

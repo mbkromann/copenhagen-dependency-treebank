@@ -1,0 +1,61 @@
+Rejection log (Wed Oct  6 14:50:05 CEST 2010)
+reject: ./de/0061-de-morten because nogovs=18>14 
+reject: ./de/0065-de-morten because nogovs=11>10 
+reject: ./de/0090-de-morten because nogovs=12>10 
+reject: ./de/0097-de-morten because nogovs=12>10 
+reject: ./de/0102-de-morten because nogovs=8>5 
+reject: ./de/0103-de-morten because nogovs=15>11 
+reject: ./de/0104-de-bjarne because nogovs=22>10 syntax-status=none. 
+reject: ./de/0107-de-morten because nogovs=10>7 
+reject: ./de/0114-de-morten because nogovs=14>8 
+reject: ./de/0119-de-morten because nogovs=15>11 
+reject: ./de/0138-de-morten because nogovs=18>11 
+reject: ./de/0141-de-morten because nogovs=10>7 
+reject: ./de/0144-de-morten because nogovs=16>4 
+reject: ./de/0148-de-morten because nogovs=168>10 syntax-status=none. 
+reject: ./de/0187-de-morten because nogovs=12>7 
+reject: ./de/0188-de-bjarne because nogovs=14>11 syntax-status=none. 
+reject: ./de/0204-de-morten because nogovs=12>5 syntax-status=none. 
+reject: ./de/0212-de-morten because nogovs=9>5 
+reject: ./de/0235-de-morten because nogovs=12>4 
+reject: ./de/0244-de-morten because nogovs=14>4 
+reject: ./de/0306-de-bjarne because nogovs=13>8 syntax-status=none. 
+reject: ./de/0306-de-morten because nogovs=13>8 
+reject: ./de/0307-de-morten because nogovs=11>8 
+reject: ./de/0339-de-morten because nogovs=16>10 
+reject: ./de/0351-de-morten because nogovs=13>7 
+reject: ./de/0388-de-morten because nogovs=17>10 
+reject: ./de/0421-de-morten because nogovs=9>7 
+reject: ./de/0426-de-morten because nogovs=14>10 
+reject: ./de/0428-de-morten because nogovs=13>7 
+reject: ./de/0431-de-morten because nogovs=17>10 
+reject: ./de/0502-de-morten because nogovs=14>13 
+reject: ./de/0531-de-bjarne because nogovs=10>8 syntax-status=none. 
+reject: ./de/0593-de-morten because nogovs=10>5 
+reject: ./de/0596-de-morten because nogovs=14>5 
+reject: ./de/0602-de-morten because nogovs=12>8 
+reject: ./de/0607-de-morten because nogovs=18>10 
+reject: ./de/0620-de-bjarne because nogovs=14>13 syntax-status=none. 
+reject: ./de/0643-de-morten because nogovs=14>7 
+reject: ./de/0647-de-morten because nogovs=7>5 
+reject: ./de/0675-de-morten because nogovs=7>5 
+reject: ./de/0685-de-morten because nogovs=15>5 
+reject: ./de/0705-de-morten because nogovs=11>5 
+reject: ./de/0729-de-morten because nogovs=14>5 
+reject: ./de/0805-de-morten because nogovs=7>5 
+reject: ./de/0848-de-morten because nogovs=12>8 
+reject: ./de/0863-de-morten because nogovs=12>10 
+reject: ./de/0876-de-morten because nogovs=17>7 
+reject: ./de/0915-de-morten because nogovs=8>5 
+reject: ./de/0939-de-morten because nogovs=202>7 syntax-status=none. 
+reject: ./de/0956-de-morten because nogovs=8>5 
+reject: ./de/1014-de-morten because nogovs=9>5 
+reject: ./de/1038-de-morten because nogovs=10>7 
+reject: ./de/1077-de-morten because nogovs=10>4 
+reject: ./de/1241-de-morten because nogovs=10>8 
+reject: ./de/1252-de-bjarne because nogovs=10>8 syntax-status=none. 
+reject: ./de/1383-de-morten because nogovs=10>5 
+reject: ./de/1408-de-morten because nogovs=10>7 
+reject: ./de/1420-de-morten because nogovs=13>7 
+reject: ./de/1428-de-morten because nogovs=8>7 
+reject: ./de/1429-de-morten because nogovs=10>5 

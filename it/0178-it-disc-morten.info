@@ -1,5 +1,16 @@
+> status
 it/0178-it-disc-morten.tag:
   morphology: none
   discourse: discussed
   syntax: discussed
   postag: auto
+  tokens: 229
+  sentences: 9
+
+Error counts (use "errors" command for details): 
+      1 badtype error
+     78 noante error
+    222 nogov error
+     43 nonobj error
+     32 nosubj error
+> redirect

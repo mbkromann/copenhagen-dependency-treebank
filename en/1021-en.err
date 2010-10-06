@@ -1,0 +1,54 @@
+> errors
+1: noante
+7: nogov
+10: noante
+15: noante
+19: nogov
+34: noante
+38: noante
+39: noante
+44: nogov
+46: nonobj
+55: noante
+58: noante
+62: nogov
+65: noante
+67: noante
+72: noante
+77: noante
+78: nosubj
+79: noante
+83: nogov
+85: nonobj
+89: noante
+98: noante
+101: nogov
+107: noante
+110: noante
+118: nonobj
+119: noante
+123: noante
+124: noante
+132: nogov
+141: noante
+144: noante
+146: noante
+147: nosubj
+154: noante
+166: noante
+175: 
+    175 pnct# 173: manygovs
+    175 nobj 174: manygovs
+176: noante
+179: nogov noante
+180: noante
+185: noante
+190: noante
+202: noante
+206: noante
+208: noante
+216: noante
+219: noante
+221: noante
+224: nogov
+> redirect ./en/1021-en.info

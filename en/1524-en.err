@@ -1,0 +1,68 @@
+> errors
+1: noante
+5: noante
+6: nogov
+8: noante
+15: noante
+18: noante
+20: 
+    20 pnct# 6: manygovs
+    20 possd 18: manygovs
+24: noante
+25: nogov
+26: noante
+37: noante
+40: 
+    40 pnct# 36: manygovs
+    40 nobj 39: manygovs
+41: noante
+42: nogov
+52: nogov
+56: nosubj
+62: noante
+65: noante
+68: 
+    68 pnct# 52: manygovs
+    68 nobj 67: manygovs
+72: noante
+75: noante
+76: noante
+85: nogov
+95: nogov
+101: noante
+102: nogov
+103: noante
+111: noante
+112: nogov
+113: noante
+118: noante
+120: nosubj
+121: noante
+124: nosubj
+131: noante
+132: nogov
+140: noante
+144: noante
+146: nosubj
+150: noante
+151: nogov
+154: noante
+158: nosubj
+159: noante
+162: noante
+163: noante
+167: noante
+168: nogov
+171: noante
+181: noante
+184: noante
+187: noante
+191: noante
+192: nogov
+195: nonobj
+209: noante
+212: nogov
+213: nonobj
+218: noante
+223: noante
+> redirect ./en/1524-en.info

@@ -1,0 +1,88 @@
+> errors
+0: nogov noante
+2: noante
+3: nosubj
+11: noante
+13: noante
+14: nosubj
+16: noante
+19: noante
+22: nogov nosubj
+29: nosubj
+30: nosubj
+31: nosubj
+32: nosubj
+33: noante
+35: nosubj
+36: noante
+39: nosubj
+40: noante
+41: noante
+43: noante
+45: noante
+47: nogov nosubj
+51: nogov
+52: nosubj
+53: nonobj
+56: nosubj
+60: nogov nosubj
+61: noante
+64: noante
+66: nosubj
+70: noante
+72: noante
+73: noante
+75: noante
+77: nogov noante
+79: noante
+81: noante
+83: noante
+86: nosubj
+88: noante
+90: noante
+92: noante
+95: noante
+96: nogov
+97: nogov nosubj
+98: nogov
+99: nogov nonobj
+100: nogov
+103: nogov nosubj
+104: nosubj
+105: nosubj
+108: noante
+111: noante
+115: noante
+118: nosubj
+120: noante
+126: nogov nosubj
+128: noante
+132: noante
+134: nogov nosubj
+136: noante
+140: noante
+142: noante
+145: nosubj
+147: noante
+151: nosubj
+152: noante
+153: noante
+160: noante
+163: nosubj
+165: noante
+166: nosubj
+167: nosubj
+169: nosubj
+170: noante
+173: noante
+175: noante
+176: noante
+177: nogov
+178: nogov nonobj
+179: nogov nonobj
+180: nogov noante
+182: noante
+185: nosubj
+190: noante
+193: noante
+> redirect ./es/1428-es-lotte.info

@@ -1,0 +1,44 @@
+> errors
+44: noante
+52: nogov
+53: noante
+55: noante
+68: noante
+71: noante
+78: noante
+81: nogov
+84: noante
+87: noante
+89: noante
+101: noante
+112: noante
+115: noante
+120: nosubj
+121: nosubj
+123: noante
+127: nogov
+128: noante
+150: noante
+151: nogov
+154: noante
+162: noante
+168: noante
+170: noante
+178: noante
+180: noante
+182: noante
+187: nogov
+190: noante
+195: noante
+203: 
+    203 pnct 187: manygovs
+    203 pnct 201: manygovs
+206: noante
+207: nogov
+209: noante
+213: noante
+221: noante
+229: noante
+235: noante
+237: noante
+> redirect ./da/1379-da.info

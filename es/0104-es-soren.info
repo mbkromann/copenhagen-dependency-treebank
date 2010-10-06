@@ -1,6 +1,16 @@
+> status
 es/0104-es-soren.tag:
   morphology: none
   discourse: none
   syntax: first
   svn:mergeinfo: 
   postag: auto
+  tokens: 217
+  sentences: 10
+
+Error counts (use "errors" command for details): 
+      4 badtype error
+     47 noante error
+     18 nogov error
+     20 nosubj error
+> redirect

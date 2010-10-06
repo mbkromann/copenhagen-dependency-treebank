@@ -1,0 +1,72 @@
+> errors
+0: noante
+2: nogov
+6: nonobj
+7: nosubj
+9: nosubj
+11: noante
+13: noante
+16: noante
+18: noante
+20: noante
+25: nosubj
+26: noante
+29: noante
+32: noante
+37: noante
+    37 ²pnct 2: manygovs
+    37 ³pnct 2: manygovs
+    37 ¹nobj 35: manygovs
+40: nogov
+43: nonobj
+44: nosubj
+45: noante
+48: noante
+50: noante
+57: noante
+59: nogov nosubj
+60: noante
+63: nosubj
+65: noante
+67: nosubj
+70: nosubj
+72: nonobj
+73: nogov
+77: noante
+80: noante
+86: noante
+88: nogov
+89: nosubj
+90: noante
+93: noante
+95: noante
+102: nonobj
+110: noante
+120: noante
+123: nosubj
+124: noante
+125: nogov
+127: noante
+137: nogov
+140: nosubj
+142: noante
+145: noante
+158: nogov
+162: nosubj
+163: nosubj
+167: nosubj
+168: noante
+170: noante
+172: nogov noante
+173: nonobj
+174: nogov noante
+177: nogov nosubj
+178: nosubj
+184: nosubj
+185: noante
+188: noante
+197: noante
+199: noante
+202: noante
+208: noante
+> redirect ./es/0939-es-lotte.info

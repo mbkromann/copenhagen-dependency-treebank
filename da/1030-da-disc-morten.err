@@ -1,0 +1,37 @@
+> errors
+43: noante
+44: nogov
+49: noante
+61: nosubj
+63: nosubj
+64: nonobj
+67: 
+    67 xpl 58: manygovs
+    67 :CONJ:elab 58: manygovs
+69: nosubj
+87: nogov
+    87 ¤elab 57: badtype
+108: noante
+117: noante
+123: noante
+125: noante
+134: noante
+150: noante
+159: nosubj
+160: noante
+161: noante
+166: noante
+170: noante
+175: noante
+183: noante
+189: nosubj
+202: noante
+203: noante
+215: noante
+220: noante
+224: noante
+226: nosubj
+231: noante
+234: noante
+236: noante
+> redirect ./da/1030-da-disc-morten.info

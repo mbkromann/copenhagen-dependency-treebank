@@ -1,0 +1,63 @@
+> errors
+1: noante
+2: nogov
+3: noante
+4: nosubj
+5: nosubj
+9: noante
+10: nosubj
+17: noante
+21: noante
+22: nogov
+23: noante
+28: noante
+41: noante
+42: noante
+50: nogov
+    50 conj? 48: badtype
+52: noante
+54: noante
+56: 
+    56 pnct# 22: manygovs
+    56 nobj 54: manygovs
+57: nogov
+58: noante
+60: noante
+64: noante
+73: nogov
+82: noante
+84: nogov
+87: noante
+90: noante
+95: noante
+96: noante
+99: noante
+102: noante
+105: noante
+113: nosubj
+121: noante
+124: nogov
+125: nonobj
+126: noante
+129: noante
+131: noante
+134: noante
+136: noante
+140: noante
+141: nogov
+147: noante
+154: noante
+160: noante
+169: noante
+171: noante
+172: nogov
+175: nonobj
+176: noante
+178: noante
+180: noante
+184: noante
+187: noante
+196: noante
+202: noante
+207: noante
+> redirect ./en/0960-en.info

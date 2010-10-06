@@ -1,0 +1,50 @@
+> errors
+3: nogov
+4: noante
+10: noante
+12: noante
+16: nogov
+18: noante
+25: noante
+31: noante
+36: noante
+38: nosubj
+44: noante
+45: nogov
+46: noante
+56: noante
+61: noante
+68: noante
+69: noante
+78: noante
+80: noante
+82: nosubj
+84: nogov
+87: noante
+90: noante
+92: noante
+94: nogov
+96: noante
+99: nogov noante
+    99 dobj.patient 97: badtype
+103: noante
+115: noante
+116: nogov nosubj
+122: noante
+123: noante
+127: noante
+129: nosubj
+132: noante
+137: nonobj
+139: nosubj
+141: nogov
+142: noante
+144: noante
+156: nogov
+158: noante
+160: nosubj
+162: noante
+172: nosubj
+173: nosubj
+177: noante
+> redirect ./de/0140-de-morten.info

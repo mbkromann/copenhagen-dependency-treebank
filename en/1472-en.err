@@ -1,0 +1,53 @@
+> errors
+2: nogov
+8: noante
+13: nogov
+16: noante
+30: noante
+39: nonobj
+41: noante
+51: noante
+53: noante
+58: noante
+59: nogov
+60: nonobj
+62: noante
+66: noante
+68: noante
+71: noante
+85: noante
+91: nogov
+92: noante
+97: noante
+102: noante
+111: noante
+113: noante
+117: noante
+118: nogov
+120: noante
+121: nosubj
+123: nosubj
+128: noante
+133: noante
+134: noante
+142: noante
+144: noante
+148: noante
+154: noante
+155: nosubj
+158: noante
+161: nosubj
+168: nogov
+187: noante
+189: noante
+190: nogov
+192: noante
+200: noante
+204: noante
+206: noante
+210: nosubj
+215: noante
+216: 
+    216 pnct# 200: manygovs
+    216 nobj 215: manygovs
+> redirect ./en/1472-en.info

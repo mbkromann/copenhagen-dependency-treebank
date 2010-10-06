@@ -1,0 +1,19 @@
+> errors
+46: noante
+49: nogov nosubj
+52: noante
+55: noante
+73: noante
+78: nosubj
+85: noante
+96: nogov
+    96 <time> 95: badtype
+97: noante
+116: noante
+118: noante
+179: noante
+192: noante
+221: noante
+229: noante
+243: noante
+> redirect ./da/0306-da-lotte.info

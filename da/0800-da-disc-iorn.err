@@ -1,0 +1,37 @@
+> errors
+44: nogov
+45: noante
+50: noante
+63: noante
+68: noante
+70: noante
+71: nosubj
+73: nogov
+79: noante
+83: noante
+98: nogov
+109: noante
+126: noante
+130: noante
+133: nosubj
+134: nosubj
+151: noante
+156: noante
+160: noante
+161: nogov
+    161 CAUSE/(for) 152: badtype
+172: noante
+177: noante
+183: noante
+186: noante
+191: noante
+193: noante
+205: noante
+216: noante
+230: noante
+236: nosubj
+237: nosubj
+241: noante
+247: noante
+251: nosubj
+> redirect ./da/0800-da-disc-iorn.info

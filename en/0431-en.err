@@ -1,0 +1,66 @@
+> errors
+6: nogov
+10: noante
+14: noante
+20: noante
+24: noante
+26: nogov
+32: noante
+46: 
+    46 ²pnct 44: manygovs
+    46 ¹attr 45: manygovs
+50: nogov
+58: noante
+59: nogov
+67: noante
+69: noante
+71: noante
+73: noante
+78: noante
+85: noante
+89: nogov
+92: noante
+104: noante
+105: nogov
+106: nosubj
+108: noante
+111: nosubj
+112: noante
+118: nogov
+130: noante
+132: nogov
+134: noante
+136: noante
+139: noante
+145: noante
+146: nogov
+147: noante
+151: noante
+155: noante
+156: nogov noante
+164: nogov
+169: nosubj
+176: noante
+178: nogov
+186: noante
+187: noante
+190: noante
+203: noante
+206: noante
+208: nogov
+213: noante
+216: nosubj
+222: 
+    222 ¹other 221: manygovs
+    222 ²pnct 221: manygovs
+229: nogov noante
+233: noante
+235: nogov
+242: noante
+244: nogov
+247: noante
+257: nogov noante
+259: noante
+266: nosubj
+267: noante
+> redirect ./en/0431-en.info

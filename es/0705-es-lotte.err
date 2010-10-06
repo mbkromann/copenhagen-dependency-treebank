@@ -1,0 +1,82 @@
+> errors
+0: noante
+2: nogov
+4: nonobj
+6: noante
+8: noante
+10: nogov
+11: nosubj
+13: noante
+15: nogov
+16: noante
+18: nosubj
+26: noante
+34: noante
+37: noante
+39: noante
+42: nogov nosubj
+    42 *[subj] 43: badtype
+44: noante
+46: noante
+49: noante
+51: noante
+55: noante
+58: noante
+61: noante
+67: nogov
+68: noante
+70: nosubj
+73: noante
+77: nosubj
+83: nosubj
+86: noante
+88: noante
+89: nosubj
+91: noante
+94: noante
+96: noante
+99: noante
+100: nogov
+103: noante
+105: nosubj
+108: nosubj
+110: noante
+111: nosubj
+112: noante
+114: nonobj
+115: noante
+120: nosubj
+125: noante
+129: nosubj
+130: noante
+134: noante
+138: noante
+142: nogov nosubj
+145: nogov nosubj
+149: noante
+151: noante
+154: nosubj
+155: noante
+159: noante
+161: nogov
+165: nosubj
+167: nosubj
+168: noante
+171: noante
+174: noante
+177: noante
+180: nogov nosubj
+184: noante
+188: noante
+193: nosubj
+194: noante
+198: noante
+202: noante
+203: nogov nosubj
+    203 *[subj] 204: badtype
+    203 *[subj]¹ 207: badtype
+204: noante
+205: nosubj
+206: nonobj
+208: nosubj
+> redirect ./es/0705-es-lotte.info

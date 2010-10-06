@@ -1,0 +1,46 @@
+> errors
+2: nonobj
+7: noante
+10: noante
+16: nogov
+28: 
+    28 pnct# 26: manygovs
+    28 attr 26: manygovs
+30: noante
+44: noante
+48: noante
+55: noante
+63: nonobj
+73: noante
+75: noante
+97: noante
+104: noante
+112: noante
+113: nonobj
+119: noante
+131: noante
+137: noante
+141: nosubj
+142: noante
+145: nosubj
+146: nosubj
+147: nosubj
+149: noante
+151: nosubj
+152: noante
+158: noante
+167: noante
+180: nogov
+188: 
+    188 +CONJ:add/and 162: manygovs
+    188 conj 180: manygovs
+190: noante
+193: noante
+195: nosubj
+212: noante
+213: noante
+222: noante
+226: noante
+228: noante
+235: noante
+> redirect ./en/0093-en-lotte.info

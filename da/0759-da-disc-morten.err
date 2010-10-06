@@ -1,0 +1,33 @@
+> errors
+45: nogov
+46: noante
+53: noante
+62: noante
+73: noante
+75: noante
+88: noante
+95: noante
+96: nosubj
+103: nosubj
+111: noante
+116: nogov
+    116 +AGENTIVE:cause/for 97: badtype
+117: noante
+152: noante
+157: noante
+158: nosubj
+160: nosubj
+164: nosubj
+165: nosubj
+167: noante
+187: nogov
+    187 ¤elab 170: badtype
+204: noante
+208: noante
+210: noante
+228: noante
+237: noante
+243: noante
+250: nosubj
+252: nonobj
+> redirect ./da/0759-da-disc-morten.info
