@@ -1,0 +1,44 @@
+> errors
+43: nogov
+45: noante
+49: noante
+52: noante
+62: nogov
+66: nosubj
+74: 
+    74 pred 73: manygovs
+    74 pred 75: manygovs
+75: nogov
+76: noante
+79: noante
+85: noante
+86: nogov
+92: noante
+104: noante
+105: nogov
+119: noante
+130: noante
+137: nogov
+139: noante
+142: nosubj
+149: nogov
+150: noante
+163: nogov
+169: noante
+175: noante
+176: nogov
+189: nogov
+195: noante
+198: noante
+210: nogov
+214: noante
+216: noante
+217: nogov
+230: noante
+244: nogov
+248: noante
+250: nogov
+255: noante
+258: noante
+272: noante
+> redirect ./releases/cdt2/da/1522-da.info

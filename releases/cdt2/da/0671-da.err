@@ -1,0 +1,23 @@
+> errors
+43: noante
+46: nogov
+48: noante
+56: noante
+60: noante
+101: nogov
+102: noante
+104: noante
+120: noante
+127: noante
+128: nogov
+147: noante
+161: noante
+165: noante
+172: noante
+176: noante
+180: noante
+185: nogov
+197: noante
+200: nogov
+209: noante
+> redirect ./releases/cdt2/da/0671-da.info

@@ -1,0 +1,12 @@
+> status
+releases/cdt2/da/0902-da.tag:
+  syntax: final
+  tokens: 194
+  sentences: 17
+
+Error counts (use "errors" command for details): 
+     21 noante error
+     17 nogov error
+      4 nonobj error
+     21 nosubj error
+> redirect

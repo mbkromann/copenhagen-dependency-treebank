@@ -1,0 +1,207 @@
+1	Trafikken	trafik	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=43	2	subj	_	_
+2	går	gå	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=44	0	ROOT	_	_
+3	helt	hel	AN	ANP---=-R	degree=pos|transcat=adverbial|id=45	4	mod	_	_
+4	i	i	SP	SP	id=46	2	pobj	_	_
+5	stå	stå	NC	NC[CN][SP]U==[DI]	gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|id=47	4	nobj	_	_
+6	.	.	XP	XP	id=48	2	pnct	_	_
+
+1	Bilerne	bil	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=51	2	subj	_	_
+2	dækkes	dække	VA	VADR=----P-	mood=indic|tense=present|voice=passive|id=52	0	ROOT	_	_
+3	med	med	SP	SP	id=53	2	pobj	_	_
+4	store	stor	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=54	5	mod	_	_
+5	Dannebrogsflag	Dannebrogsflag	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=55	3	nobj	_	_
+6	.	.	XP	XP	id=56	2	pnct	_	_
+
+1	En	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=59	7	subj	_	_
+2	indvandrerfamilie	indvandrerfamilie	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=60	1	nobj	_	_
+3	i	i	SP	SP	id=61	1	mod	_	_
+4	deres	deres	PO	PO3[CN][SP]UPNU	person=3|gender=common/neuter|number=sing/plur|case=unmarked|possessor=plur|reflexive=no|register=unmarked|id=62	3	nobj	_	_
+5	gamle	gammel	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=63	4	mod	_	_
+6	bil	bil	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=64	4	possd	_	_
+7	har	have	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=65	0	ROOT	_	_
+8	sat	sætte	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=66	7	vobj	_	_
+9	vindusviskerne	vindusviskerne	XX	XX	id=67	8	dobj	_	_
+10	til	til	RG	RGU	degree=unmarked|id=68	8	avobj	_	_
+11	-	-	XP	XP	id=69	7	pnct	_	_
+12	der	der	U	U=	id=70	13	expl	_	_
+13	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=71	7	conj	_	_
+14	bundet	binde	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=72	13	vobj	_	_
+15	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=73	14	dobj	_	_
+16	dannebrogsflag	dannebrogsflag	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=74	15	nobj	_	_
+17	på	på	SP	SP	id=75	14	pobj	_	_
+18	hver	hver	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=76	17	nobj	_	_
+19	visker	visker	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=77	18	nobj	_	_
+20	.	.	XP	XP	id=78	7	pnct	_	_
+
+1	Busserne	bus	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=83	2	subj	_	_
+2	kan	kunne	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=84	0	ROOT	_	_
+3	ikke	ikke	RG	RGU	degree=unmarked|id=85	2	mod	_	_
+4	komme	komme	VA	VAF-=----A-	mood=infin|voice=active|id=86	2	vobj	_	_
+5	over	over	SP	SP	id=87	0	ROOT	_	_
+6	pladsen	plads	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=88	5	nobj	_	_
+7	,	,	XP	XP	id=89	2	pnct	_	_
+8	og	og	CC	CC	id=90	2	coord	_	_
+9	nu	nu	RG	RGU	degree=unmarked|id=91	10	mod	_	_
+10	begynder	begynde	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=92	8	conj	_	_
+11	folk	folk	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=93	10	subj	_	_
+12	at	at	U	U=	id=94	10	dobj	_	_
+13	kravle	kravle	VA	VAF-=----A-	mood=infin|voice=active|id=95	12	vobj	_	_
+14	op	op	RG	RGU	degree=unmarked|id=96	0	ROOT	_	_
+15	på	på	SP	SP	id=97	14	mod	_	_
+16	dem	de	PP	PP3[CN]PU-NU	person=3|gender=common/neuter|number=plur|case=unmarked|reflexive=no|register=unmarked|id=98	15	nobj	_	_
+17	.	.	XP	XP	id=99	2	pnct	_	_
+
+1	En	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=102	4	subj	_	_
+2	linie	linie	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=103	1	nobj	_	_
+3	6	6	AC	AC---U=--	case=unmarked|id=104	2	nobj	_	_
+4	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=105	0	ROOT	_	_
+5	tætpakket	tætpakket	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=106	4	pred	_	_
+6	som	som	U	U=	id=107	5	mod	_	_
+7	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=108	6	nobj	_	_
+8	bus	bus	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=109	7	nobj	_	_
+9	i	i	SP	SP	id=110	7	mod	_	_
+10	myldretiden	myldretid	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=111	9	nobj	_	_
+11	-	-	XP	XP	id=112	4	pnct	_	_
+12	men	men	CC	CC	id=113	4	coord	_	_
+13	alle	al	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=114	15	subj	_	_
+14	passagererne	passager	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=115	13	nobj	_	_
+15	står	stå	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=116	12	conj	_	_
+16	oven	oven	RG	RGU	degree=unmarked|id=117	0	ROOT	_	_
+17	på	på	SP	SP	id=118	16	mod	_	_
+18	bussen	bus	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=119	17	nobj	_	_
+19	.	.	XP	XP	id=120	4	pnct	_	_
+
+1	Chaufføren	chauffør	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=123	2	subj	_	_
+2	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=124	0	ROOT	_	_
+3	helt	hel	AN	ANP---=-R	degree=pos|transcat=adverbial|id=125	4	mod	_	_
+4	alene	alene	RG	RGU	degree=unmarked|id=126	2	pred	_	_
+5	,	,	XP	XP	id=127	2	pnct	_	_
+6	han	han	PP	PP3CSN-NU	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=128	7	subj	_	_
+7	løber	løbe	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=129	2	conj	_	_
+8	rundt	rundt	RG	RGU	degree=unmarked|id=130	0	ROOT	_	_
+9	i	i	SP	SP	id=131	8	mod	_	_
+10	bussen	bus	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=132	9	nobj	_	_
+11	som	som	U	U=	id=133	7	mod	_	_
+12	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=134	11	nobj	_	_
+13	forvirret	forvirre	VA	VAPA=S[CN]IA-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject|case=unmarked|id=135	12	mod	_	_
+14	bille	bille	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=136	12	nobj	_	_
+15	i	i	SP	SP	id=137	12	mod	_	_
+16	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=138	15	nobj	_	_
+17	tændstikæske	tændstikæske	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=139	16	nobj	_	_
+18	.	.	XP	XP	id=140	2	pnct	_	_
+
+1	Kort	kort	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=143	2	mod	_	_
+2	tid	tid	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=144	0	ROOT	_	_
+
+1	efter	efter	RG	RGU	degree=unmarked|id=145	2	mod	_	_
+2	kommer	komme	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=146	0	ROOT	_	_
+3	to	to	AC	AC---U=--	case=unmarked|id=147	2	subj	_	_
+4	uniformerede	uniformere	VA	VAPA=P[CN][DI]A-U	mood=partic|tense=past|number=plur|gender=common/neuter|definiteness=def/indef|transcat=adject|case=unmarked|id=148	3	mod	_	_
+5	betjente	betjent	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=149	3	nobj	_	_
+6	,	,	XP	XP	id=150	2	pnct	_	_
+7	kommanderer	kommandere	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=151	2	conj	_	_
+8	folk	folk	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=152	7	dobj	_	_
+9	ned	ned	RG	RGU	degree=unmarked|id=153	0	ROOT	_	_
+10	og	og	CC	CC	id=154	2	coord	_	_
+11	eskorterer	eskortere	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=155	10	conj	_	_
+12	bussen	bus	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=156	11	dobj	_	_
+13	over	over	SP	SP	id=157	0	ROOT	_	_
+14	pladsen	plads	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=158	13	nobj	_	_
+15	.	.	XP	XP	id=159	2	pnct	_	_
+
+1	Nede	nede	RG	RGU	degree=unmarked|id=164	4	mod	_	_
+2	ad	ad	SP	SP	id=165	1	mod	_	_
+3	Strøget	Strøget	NP	NP--U==-	case=unmarked|id=166	2	nobj	_	_
+4	fortsætter	fortsætte	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=167	0	ROOT	_	_
+5	festen	fest	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=168	4	subj	_	_
+6	.	.	XP	XP	id=169	4	pnct	_	_
+
+1	Og	og	CC	CC	id=174	0	ROOT	_	_
+2	i	i	SP	SP	id=175	5	mod	_	_
+3	Jorcks	Jorck	NP	NP--G==-	case=gen|id=176	2	nobj	_	_
+4	Passage	passage	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=177	3	possd	_	_
+5	får	få	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=178	1	conj	_	_
+6	København	København	NP	NP--U==-	case=unmarked|id=179	5	subj	_	_
+7	det	den	PD	PD-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=180	5	dobj	_	_
+8	karneval	karneval	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=181	7	nobj	_	_
+9	,	,	XP	XP	id=182	7	pnct	_	_
+10	der	der	U	U=	id=183	11	subj	_	_
+11	gik	gå	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=184	7	rel	_	_
+12	op	op	RG	RGU	degree=unmarked|id=185	0	ROOT	_	_
+13	i	i	SP	SP	id=186	12	mod	_	_
+14	flammer	flamme	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=187	13	nobj	_	_
+15	forleden	forleden	AN	ANP---=-R	degree=pos|transcat=adverbial|id=188	11	mod	_	_
+16	.	.	XP	XP	id=189	1	pnct	_	_
+
+1	Her	her	RG	RGU	degree=unmarked|id=192	0	ROOT	_	_
+
+1	står	stå	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=193	0	ROOT	_	_
+2	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=194	1	subj	_	_
+3	helt	hel	AN	ANPNSU=IU	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=195	2	mod	_	_
+4	sambaorkester	sambaorkester	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=196	2	nobj	_	_
+5	og	og	CC	CC	id=197	1	coord	_	_
+6	spiller	spille	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=198	5	conj	_	_
+7	.	.	XP	XP	id=199	1	pnct	_	_
+
+1	Øverst	øvre	AN	ANS---=-R	degree=sup|transcat=adverbial|id=204	2	mod	_	_
+2	på	på	SP	SP	id=205	0	ROOT	_	_
+3	aviskiosken	aviskiosk	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=206	2	nobj	_	_
+4	i	i	SP	SP	id=207	3	mod	_	_
+5	passagen	passage	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=208	4	nobj	_	_
+
+1	står	stå	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=209	0	ROOT	_	_
+2	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=210	1	subj	_	_
+3	roligan	roligan	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=211	2	nobj	_	_
+4	med	med	SP	SP	id=212	2	mod	_	_
+5	klaphat	klaphat	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=213	4	nobj	_	_
+6	.	.	XP	XP	id=214	1	pnct	_	_
+
+1	Han	han	PP	PP3CSN-NU	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=217	2	subj	_	_
+2	vipper	vippe	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=218	0	ROOT	_	_
+3	med	med	SP	SP	id=219	2	pobj	_	_
+4	den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=220	3	nobj	_	_
+5	store	stor	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=221	4	mod	_	_
+6	gadelampe	gadelampe	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=222	4	nobj	_	_
+7	og	og	CC	CC	id=223	2	coord	_	_
+8	dirigerer	dirigere	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=224	7	conj	_	_
+9	.	.	XP	XP	id=225	2	pnct	_	_
+
+1	Ved	ved	SP	SP	id=230	3	mod	_	_
+2	Storkespringvandet	storkespringvand	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=231	1	nobj	_	_
+3	svømmer	svømme	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=232	0	ROOT	_	_
+4	nationalfølelsen	nationalfølelse	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=233	3	subj	_	_
+5	helt	hel	AN	ANP---=-R	degree=pos|transcat=adverbial|id=234	6	mod	_	_
+6	over	over	RG	RGU	degree=unmarked|id=235	3	avobj	_	_
+7	,	,	XP	XP	id=236	3	pnct	_	_
+8	og	og	CC	CC	id=237	3	coord	_	_
+9	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=238	12	subj	_	_
+10	forsamlet	forsamle	VA	VAPA=S[CN]IA-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject|case=unmarked|id=239	9	mod	_	_
+11	menneskemængde	menneskemængde	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=240	9	nobj	_	_
+12	synger	synge	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=241	8	conj	_	_
+13	nationalsangen	nationalsang	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=242	12	dobj	_	_
+14	.	.	XP	XP	id=243	3	pnct	_	_
+
+1	Slutningen	slutning	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=246	2	subj	_	_
+2	lyder	lyde	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=247	0	ROOT	_	_
+3	næsten	næsten	RG	RGU	degree=unmarked|id=248	2	mod	_	_
+4	som	som	U	U=	id=249	2	pobj	_	_
+5	"	&quot;	XP	XP	id=250	6	pnct	_	_
+6	sejle	sejle	VA	VAF-=----A-	mood=infin|voice=active|id=251	4	nobj	_	_
+7	op	op	RG	RGU	degree=unmarked|id=252	0	ROOT	_	_
+8	ad	ad	SP	SP	id=253	7	mod	_	_
+9	åen	å	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=254	8	nobj	_	_
+10	"	&quot;	XP	XP	id=255	6	pnct	_	_
+11	.	.	XP	XP	id=256	2	pnct	_	_
+
+1	Og	og	CC	CC	id=259	0	ROOT	_	_
+2	det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=260	3	dobj	_	_
+3	gør	gøre	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=261	1	conj	_	_
+4	vi	vi	PP	PP1CPN-NU	person=1|gender=common|number=plur|case=nom|reflexive=no|register=unmarked|id=262	3	subj	_	_
+5	så	så	RG	RGU	degree=unmarked|id=263	3	mod	_	_
+6	.	.	XP	XP	id=264	1	pnct	_	_
+
+1	Resten	rest	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=267	0	ROOT	_	_
+2	af	af	SP	SP	id=268	1	pobj	_	_
+3	natten	nat	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=269	2	nobj	_	_
+4	.	.	XP	XP	id=270	1	pnct	_	_
+

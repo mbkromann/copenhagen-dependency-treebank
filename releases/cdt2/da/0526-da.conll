@@ -1,0 +1,201 @@
+1	18-vejr	18-vejr	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=43	0	ROOT	_	_
+
+1	MEDARB	MEDARB	XX	XX	id=50	0	ROOT	_	_
+2	=	=	XS	XS	id=51	1	coord	_	_
+3	jid	jid	XX	XX	id=52	2	conj	_	_
+4	KILDE	kilde	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=53	1	conj	_	_
+5	=	=	XS	XS	id=54	4	coord	_	_
+6	met	met	XX	XX	id=55	5	conj	_	_
+
+1	UDSENDES	udsende	VA	VADR=----P-	mood=indic|tense=present|voice=passive|id=62	0	ROOT	_	_
+2	KL	klokke	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=63	1	mod	_	_
+3	=	=	XS	XS	id=64	2	coord	_	_
+4	1800	1800	AC	AC---U=--	case=unmarked|id=65	3	conj	_	_
+5	OPLÆSER	oplæser	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=66	1	conj	_	_
+6	=	=	XS	XS	id=67	5	coord	_	_
+
+1	Vejret	vejr	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=74	0	ROOT	_	_
+2	til	til	SP	SP	id=75	1	mod	_	_
+3	torsdag	torsdag	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=76	2	nobj	_	_
+4	eftermiddag	eftermiddag	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=77	3	nobj	_	_
+
+1	I_nat	i_nat	RG	RGU	degree=unmarked|id=83	2	mod	_	_
+2	kan	kunne	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=84	0	ROOT	_	_
+3	der	der	U	U=	id=85	2	expl	_	_
+4	komme	komme	VA	VAF-=----A-	mood=infin|voice=active|id=86	2	vobj	_	_
+5	lidt	lidt	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=87	4	dobj	_	_
+6	regn	regn	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=88	5	nobj	_	_
+7	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=89	4	mod	_	_
+8	fleste	mange	AN	ANS[CN]PU=DU	degree=sup|gender=common/neuter|number=plur|case=unmarked|def=def|transcat=unmarked|id=90	7	nobj	_	_
+9	steder	sted	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=91	8	nobj	_	_
+10	,	,	XP	XP	id=92	2	pnct	_	_
+11	og	og	CC	CC	id=93	2	coord	_	_
+12	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=94	15	subj	_	_
+13	laveste	lav	AN	ANS[CN][SP]U=DU	degree=sup|gender=common/neuter|number=sing/plur|case=unmarked|def=def|transcat=unmarked|id=95	12	mod	_	_
+14	temperaturer	temperatur	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=96	12	nobj	_	_
+15	bliver	blive	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=97	11	conj	_	_
+16	mellem	mellem	SP	SP	id=98	17	mod	_	_
+17	10	10	AC	AC---U=--	case=unmarked|id=99	15	pred	_	_
+18	og	og	CC	CC	id=100	17	coord	_	_
+19	15	15	AC	AC---U=--	case=unmarked|id=101	18	conj	_	_
+20	grader	grad	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=102	17	nobj	_	_
+21	.	.	XP	XP	id=103	2	pnct	_	_
+
+1	I_morgen	i_morgen	RG	RGU	degree=unmarked|id=106	2	mod	_	_
+2	kommer	komme	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=107	0	ROOT	_	_
+3	der	der	U	U=	id=108	2	expl	_	_
+4	nogen	nogen	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=109	2	dobj	_	_
+5	sol	sol	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=110	4	nobj	_	_
+6	-	-	XP	XP	id=111	2	pnct	_	_
+7	og	og	CC	CC	id=112	2	coord	_	_
+8	det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=113	9	subj	_	_
+9	bliver	blive	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=114	7	conj	_	_
+10	tørvejr	tørvejr	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=115	9	pred	_	_
+11	overalt	overalt	RG	RGU	degree=unmarked|id=116	9	mod	_	_
+12	.	.	XP	XP	id=117	2	pnct	_	_
+
+1	De	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=120	4	subj	_	_
+2	sydlige	sydlig	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=121	1	mod	_	_
+3	egne	egn	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=122	1	nobj	_	_
+4	kan	kunne	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=123	0	ROOT	_	_
+5	først	først	RG	RGU	degree=unmarked|id=124	4	mod	_	_
+6	på	på	SP	SP	id=125	5	mod	_	_
+7	dagen	dag	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=126	6	nobj	_	_
+8	få	få	VA	VAF-=----A-	mood=infin|voice=active|id=127	4	vobj	_	_
+9	lidt	lidt	AN	ANP---=-R	degree=pos|transcat=adverbial|id=128	10	mod	_	_
+10	skyet	skyet	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=129	11	mod	_	_
+11	vejr	vejr	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=130	8	dobj	_	_
+12	og	og	CC	CC	id=131	11	coord	_	_
+13	regn	regn	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=132	12	conj	_	_
+14	.	.	XP	XP	id=133	4	pnct	_	_
+
+1	-	-	XP	XP	id=136	2	pnct	_	_
+2	Vinden	vind	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=137	0	ROOT	_	_
+3	let	let	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=138	0	ROOT	_	_
+4	til	til	SP	SP	id=139	3	mod	_	_
+5	frisk	frisk	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=140	4	aobj	_	_
+6	,	,	XP	XP	id=141	2	pnct	_	_
+
+1	lokalt	lokal	AN	ANP---=-R	degree=pos|transcat=adverbial|id=142	0	ROOT	_	_
+
+1	hård	hård	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=143	0	ROOT	_	_
+
+1	fra	fra	SP	SP	id=144	0	ROOT	_	_
+2	vest	vest	NC	NC[CN][SP]U==I	gender=common/neuter|number=sing/plur|case=unmarked|def=indef|id=145	1	nobj	_	_
+3	og	og	CC	CC	id=146	2	coord	_	_
+4	nordvest	nordvest	NC	NC[CN][SP]U==I	gender=common/neuter|number=sing/plur|case=unmarked|def=indef|id=147	3	conj	_	_
+
+1	Kulingvarsel	kulingvarsel	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=153	0	ROOT	_	_
+2	for	for	SP	SP	id=154	1	mod	_	_
+3	Sydøstlige	sydøstlig	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=155	4	mod	_	_
+4	Østersø	Østersø	NP	NP--U==-	case=unmarked|id=156	2	nobj	_	_
+5	,	,	XP	XP	id=157	4	pnct	_	_
+6	Østersøen	Østersøen	NP	NP--U==-	case=unmarked|id=158	4	conj	_	_
+7	omkring	omkring	SP	SP	id=159	6	mod	_	_
+8	Bornholm	Bornholm	NP	NP--U==-	case=unmarked|id=160	7	nobj	_	_
+9	,	,	XP	XP	id=161	4	pnct	_	_
+10	Kattegat	Kattegat	NP	NP--U==-	case=unmarked|id=162	4	conj	_	_
+11	,	,	XP	XP	id=163	4	pnct	_	_
+12	Skagerrak	Skagerrak	NP	NP--U==-	case=unmarked|id=164	4	conj	_	_
+13	,	,	XP	XP	id=165	4	pnct	_	_
+14	Sydlige	sydlig	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=166	15	mod	_	_
+15	Utsira	Utsira	NP	NP--U==-	case=unmarked|id=167	4	conj	_	_
+16	,	,	XP	XP	id=168	4	pnct	_	_
+17	Fisker	Fisker	NP	NP--U==-	case=unmarked|id=169	4	conj	_	_
+18	,	,	XP	XP	id=170	4	pnct	_	_
+19	Tampen	tamp	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=171	4	conj	_	_
+20	og	og	CC	CC	id=172	4	coord	_	_
+21	Viking	viking	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=173	20	conj	_	_
+
+1	For	for	SP	SP	id=174	6	mod	_	_
+2	de	den	PD	PD-[CN]PU--U	gender=common/neuter|number=plur|case=unmarked|register=unmarked|id=175	1	nobj	_	_
+3	indre	indre	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=176	0	ROOT	_	_
+4	danske	dansk	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=177	2	mod	_	_
+5	farvande	farvand	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=178	2	nobj	_	_
+6	ventes	vente	VA	VADR=----P-	mood=indic|tense=present|voice=passive|id=179	0	ROOT	_	_
+7	kulingen	kuling	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=180	6	subj	_	_
+8	først	først	RG	RGU	degree=unmarked|id=181	6	mod	_	_
+9	i	i	SP	SP	id=182	8	pobj	_	_
+10	nat,m	nat,m	XX	XX	id=183	9	nobj	_	_
+11	en	en	XX	XX	id=184	6	coord	_	_
+12	i_aften	i_aften	RG	RGU	degree=unmarked|id=185	13	mod	_	_
+13	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=186	11	conj	_	_
+14	der	der	U	U=	id=187	13	expl	_	_
+15	varsel	varsel	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=188	13	dobj	_	_
+16	om	om	SP	SP	id=189	15	pobj	_	_
+17	hård	hård	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=190	18	mod	_	_
+18	vind	vind	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=191	16	nobj	_	_
+19	for	for	SP	SP	id=192	15	mod	_	_
+20	Kattegat	Kattegat	NP	NP--U==-	case=unmarked|id=193	19	nobj	_	_
+21	og	og	CC	CC	id=194	20	coord	_	_
+22	Limfjorden	Limfjorden	NP	NP--U==-	case=unmarked|id=195	21	conj	_	_
+23	.	.	XP	XP	id=196	6	pnct	_	_
+
+1	Vest	vest	NC	NC[CN][SP]U==I	gender=common/neuter|number=sing/plur|case=unmarked|def=indef|id=199	0	ROOT	_	_
+2	og	og	CC	CC	id=200	1	coord	_	_
+3	nordvest	nordvest	NC	NC[CN][SP]U==I	gender=common/neuter|number=sing/plur|case=unmarked|def=indef|id=201	2	conj	_	_
+4	,	,	XP	XP	id=202	1	pnct	_	_
+
+1	8-13	8-13	AC	AC---U=--	case=unmarked|id=203	0	ROOT	_	_
+2	m/sek	m/sek	XA	XA	id=204	1	nobj	_	_
+
+1	BRUTTO	brutto	RG	RGU	degree=unmarked|id=210	0	ROOT	_	_
+2	=	=	XS	XS	id=211	1	coord	_	_
+3	00:35	00:35	AC	AC---U=--	case=unmarked|id=212	2	conj	_	_
+
+1	O	O	XA	XA	id=219	0	ROOT	_	_
+2	=	=	XS	XS	id=220	1	coord	_	_
+3	sovjet	sovjet	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=221	2	conj	_	_
+
+1	MEDARB	MEDARB	XX	XX	id=228	0	ROOT	_	_
+2	=	=	XS	XS	id=229	1	coord	_	_
+3	mse	mse	XX	XX	id=230	2	conj	_	_
+
+1	DATO	dato	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=237	0	ROOT	_	_
+2	=	=	XS	XS	id=238	1	coord	_	_
+3	04099l	04099l	XX	XX	id=239	2	conj	_	_
+
+1	UDSENDES	udsende	VA	VADR=----P-	mood=indic|tense=present|voice=passive|id=246	0	ROOT	_	_
+2	KL	klokke	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=247	1	mod	_	_
+3	=	=	XS	XS	id=248	2	coord	_	_
+4	1830	1830	AC	AC---U=--	case=unmarked|id=249	3	conj	_	_
+
+1	OPLÆSER	oplæser	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=256	0	ROOT	_	_
+2	=	=	XS	XS	id=257	1	coord	_	_
+
+1	RUBRIK	rubrik	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=264	0	ROOT	_	_
+
+1	(	(	XP	XP	id=271	5	pnct	_	_
+2	Den	den	PD	PD-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=272	5	subj	_	_
+3	sovjetiske	sovjetisk	AN	ANP[CN]SU=DU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|id=273	2	mod	_	_
+4	folkekongres	folkekongres	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=274	2	nobj	_	_
+5	har	have	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=275	0	ROOT	_	_
+6	i	i	SP	SP	id=276	5	mod	_	_
+7	princippet	princip	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=277	6	nobj	_	_
+8	vedtaget	vedtage	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=278	5	vobj	_	_
+9	at	at	U	U=	id=279	8	dobj	_	_
+10	opløse	opløse	VA	VAF-=----A-	mood=infin|voice=active|id=280	9	vobj	_	_
+11	Sovjetunionen	Sovjetunionen	NP	NP--U==-	case=unmarked|id=281	10	dobj	_	_
+12	-	-	XP	XP	id=282	5	pnct	_	_
+13	men	men	CC	CC	id=283	5	coord	_	_
+14	samtidig	samtidig	RG	RGU	degree=unmarked|id=284	15	mod	_	_
+15	har	have	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=285	13	conj	_	_
+16	præsident	præsident	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=286	18	title	_	_
+17	Mikhail	Mikhail	NP	NP--U==-	case=unmarked|id=287	18	namef	_	_
+18	Gorbatjov	Gorbatjov	NP	NP--U==-	case=unmarked|id=288	15	subj	_	_
+19	lidt	lide	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=289	15	vobj	_	_
+20	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=290	19	dobj	_	_
+21	nyt	ny	AN	ANPNSU=IU	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=291	20	mod	_	_
+22	politisk	politisk	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=292	20	mod	_	_
+23	nederlag	nederlag	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=293	20	nobj	_	_
+24	,	,	XP	XP	id=294	15	pnct	_	_
+25	fordi	fordi	CS	CS	id=295	15	mod	_	_
+26	hans	hans	PO	PO3[CN][SP]USNU	person=3|gender=common/neuter|number=sing/plur|case=unmarked|possessor=sing|reflexive=no|register=unmarked|id=296	29	subj	_	_
+27	forfatningsudkast	forfatningsudkast	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=297	26	possd	_	_
+28	ikke	ikke	RG	RGU	degree=unmarked|id=298	29	mod	_	_
+29	kunne	kunne	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=299	25	vobj	_	_
+30	samle	samle	VA	VAF-=----A-	mood=infin|voice=active|id=300	29	vobj	_	_
+31	stemmer	stemme	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=301	30	dobj	_	_
+32	nok	nok	RG	RGU	degree=unmarked|id=302	31	mod	_	_
+33	)	)	XP	XP	id=303	5	pnct	_	_
+

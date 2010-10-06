@@ -1,0 +1,59 @@
+> errors
+42: noante
+43: nogov
+52: noante
+55: noante
+58: noante
+64: noante
+67: nogov
+68: noante
+77: noante
+82: nosubj
+83: noante
+85: noante
+87: noante
+94: nogov
+95: nosubj
+99: noante
+105: noante
+113: nogov nosubj
+115: nosubj
+116: noante
+126: noante
+133: noante
+135: noante
+138: nogov nosubj
+140: nosubj
+144: noante
+145: noante
+149: noante
+154: noante
+155: nogov
+156: noante
+162: nogov
+163: noante
+173: nogov
+181: nosubj
+185: nosubj
+199: nogov
+201: noante
+207: noante
+212: noante
+215: nosubj
+217: nosubj
+222: noante
+225: noante
+234: noante
+238: nogov nosubj
+239: noante
+244: nogov nosubj
+248: noante
+249: noante
+253: noante
+256: noante
+258: nosubj
+259: nosubj
+262: nosubj
+267: noante
+271: noante
+> redirect ./releases/cdt2/da/0434-da.info

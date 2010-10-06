@@ -1,0 +1,207 @@
+1	Pengene	penge	NC	NCCPU==D	gender=common|number=plur|case=unmarked|def=def|id=41	2	subj	_	_
+2	kom	komme	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=42	0	ROOT	_	_
+3	på	på	SP	SP	id=43	0	ROOT	_	_
+4	bordet	bord	NC	NCNSU==D	gender=neuter|number=sing|case=unmarked|def=def|id=44	3	nobj	_	_
+5	med	med	SP	SP	id=45	2	mod	_	_
+6	det	den	PD	PD-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=46	5	nobj	_	_
+7	samme	samme	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=47	6	nobj	_	_
+8	.	.	XP	XP	id=48	2	pnct	_	_
+
+1	Nathan	Nathan	NP	NP--U==-	case=unmarked|id=51	2	subj	_	_
+2	stak	stikke	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=52	0	ROOT	_	_
+3	dem	de	PP	PP3[CN]PU-NU	person=3|gender=common/neuter|number=plur|case=unmarked|reflexive=no|register=unmarked|id=53	2	dobj	_	_
+4	til	til	SP	SP	id=54	2	pobj	_	_
+5	sig	sig	PP	PP3[CN][SP]U-YU	person=3|gender=common/neuter|number=sing/plur|case=unmarked|reflexive=yes|register=unmarked|id=55	4	nobj	_	_
+6	i	i	SP	SP	id=56	2	mod	_	_
+7	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=57	6	nobj	_	_
+8	fart	fart	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=58	7	nobj	_	_
+9	.	.	XP	XP	id=59	2	pnct	_	_
+
+1	Han	han	PP	PP3CSN-NU	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=62	2	subj	_	_
+2	blev	blive	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=63	0	ROOT	_	_
+3	synligt	synlig	AN	ANP---=-R	degree=pos|transcat=adverbial|id=64	4	mod	_	_
+4	oplivet	oplive	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=65	2	vobj	_	_
+5	.	.	XP	XP	id=66	2	pnct	_	_
+
+1	Bestilte	bestille	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=69	0	ROOT	_	_
+2	en	en	PI	PI-CSU--U	gender=common|number=sing|case=unmarked|register=unmarked|id=70	1	dobj	_	_
+3	ny	ny	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=71	2	mod	_	_
+4	omgang	omgang	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=72	2	nobj	_	_
+5	.	.	XP	XP	id=73	1	pnct	_	_
+
+1	Sne	sne	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=76	0	ROOT	_	_
+2	i	i	SP	SP	id=77	1	mod	_	_
+3	smattede	smattet	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=78	4	mod	_	_
+4	strøg	strøg	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=79	2	nobj	_	_
+5	.	.	XP	XP	id=80	1	pnct	_	_
+
+1	Udenfor	udenfor	RG	RGU	degree=unmarked|id=83	0	ROOT	_	_
+2	.	.	XP	XP	id=84	1	pnct	_	_
+
+1	Varmt	varm	AN	ANPNSU=IU	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=87	0	ROOT	_	_
+2	indenfor	indenfor	RG	RGU	degree=unmarked|id=88	0	ROOT	_	_
+3	.	.	XP	XP	id=89	1	pnct	_	_
+
+1	Fedt	fed	AN	ANPNSU=IU	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=96	0	ROOT	_	_
+2	.	.	XP	XP	id=97	1	pnct	_	_
+
+1	Ham	han	PP	PP3CSU-NU	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|id=100	3	subj	_	_
+2	doktorsnuden	doktorsnude	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=101	1	nobj	_	_
+3	så	se	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=102	0	ROOT	_	_
+4	pludselig	pludselig	RG	RGU	degree=unmarked|id=103	3	mod	_	_
+5	ikke	ikke	RG	RGU	degree=unmarked|id=104	3	mod	_	_
+6	så	så	RG	RGU	degree=unmarked|id=105	7	mod	_	_
+7	tilfreds	tilfreds	AN	ANPCSU=IU	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|id=106	3	aobj	_	_
+8	ud	ud	RG	RGU	degree=unmarked|id=107	3	avobj	_	_
+9	mere	meget	AN	ANC---=-R	degree=comp|transcat=adverbial|id=108	3	mod	_	_
+10	.	.	XP	XP	id=109	3	pnct	_	_
+
+1	-	-	XP	XP	id=116	3	pnct	_	_
+2	Hvad	hvad	PT	PT-[CN]SU--U	gender=common/neuter|number=sing|case=unmarked|register=unmarked|id=117	3	dobj	_	_
+3	er	være	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=118	0	ROOT	_	_
+4	der	der	U	U=	id=119	3	expl	_	_
+5	i	i	SP	SP	id=120	3	pred	_	_
+6	vejen	vej	NC	NCCSU==D	gender=common|number=sing|case=unmarked|def=def|id=121	5	nobj	_	_
+7	?	?	XP	XP	id=122	3	pnct	_	_
+
+1	-	-	XP	XP	id=129	2	pnct	_	_
+2	Åh	åh	I	I=	id=130	0	ROOT	_	_
+3	,	,	XP	XP	id=131	2	pnct	_	_
+4	ikke	ikke	RG	RGU	degree=unmarked|id=132	2	conj	_	_
+5	noget	nogen	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=133	0	ROOT	_	_
+6	særligt	særlig	AN	ANPNSU=IU	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=134	5	mod	_	_
+7	du	du	PP	PP2CSN-NU	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=135	0	ROOT	_	_
+8	.	.	XP	XP	id=136	2	pnct	_	_
+
+1	-	-	XP	XP	id=143	2	pnct	_	_
+2	Jamen	jamen	CC	CC	id=144	0	ROOT	_	_
+3	vi	vi	PP	PP1CPN-NU	person=1|gender=common|number=plur|case=nom|reflexive=no|register=unmarked|id=145	4	subj	_	_
+4	kan	kunne	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=146	2	conj	_	_
+5	da	da	RG	RGU	degree=unmarked|id=147	4	mod	_	_
+6	godt	god	AN	ANP---=-R	degree=pos|transcat=adverbial|id=148	4	mod	_	_
+7	tale	tale	VA	VAF-=----A-	mood=infin|voice=active|id=149	4	vobj	_	_
+8	om	om	SP	SP	id=150	7	pobj	_	_
+9	det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=151	8	nobj	_	_
+10	,	,	XP	XP	id=152	4	pnct	_	_
+11	hvis	hvis	CS	CS	id=153	4	mod	_	_
+12	du	du	PP	PP2CSN-NU	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=154	13	subj	_	_
+13	synes	synes	VE	VEDR=----A-	mood=indic|tense=present|voice=active|id=155	11	vobj	_	_
+14	,	,	XP	XP	id=156	13	pnct	_	_
+15	det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=157	16	subj	_	_
+16	var	være	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=158	4	conj	_	_
+17	dig	du	PP	PP2CSU-[YN]U	person=2|gender=common|number=sing|case=unmarked|reflexive=yes/no|register=unmarked|id=159	16	pred	_	_
+18	selv	selv	PD	PD-[CN][SP]U--U	gender=common/neuter|number=sing/plur|case=unmarked|register=unmarked|id=160	17	mod	_	_
+19	...	...	XP	XP	id=161	2	pnct	_	_
+
+1	Bucks	Bucks	NP	NP--U==-	case=unmarked|id=168	2	subj	_	_
+2	bed	bide	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=169	0	ROOT	_	_
+3	ham	han	PP	PP3CSU-NU	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|id=170	2	dobj	_	_
+4	hurtigt	hurtig	AN	ANP---=-R	degree=pos|transcat=adverbial|id=171	2	mod	_	_
+5	af	af	RG	RGU	degree=unmarked|id=172	2	part	_	_
+6	.	.	XP	XP	id=173	2	pnct	_	_
+
+1	Bad	bede	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=176	0	ROOT	_	_
+2	ham	han	PP	PP3CSU-NU	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|id=177	1	dobj	_	_
+3	om	om	SP	SP	id=178	1	pobj	_	_
+4	at	at	U	U=	id=179	3	nobj	_	_
+5	holde	holde	VA	VAF-=----A-	mood=infin|voice=active|id=180	4	vobj	_	_
+6	kæft	kæft	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=181	5	dobj	_	_
+7	et	en	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=182	5	mod	_	_
+8	øjeblik	øjeblik	NC	NCNSU==I	gender=neuter|number=sing|case=unmarked|def=indef|id=183	7	nobj	_	_
+9	.	.	XP	XP	id=184	1	pnct	_	_
+
+1	Det	det	PP	PP3NSU-NU	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|id=187	2	dobj	_	_
+2	gjorde	gøre	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=188	0	ROOT	_	_
+3	Nathan	Nathan	NP	NP--U==-	case=unmarked|id=189	2	subj	_	_
+4	så	så	RG	RGU	degree=unmarked|id=190	2	mod	_	_
+5	,	,	XP	XP	id=191	2	pnct	_	_
+6	men	men	CC	CC	id=192	2	coord	_	_
+7	ikke	ikke	RG	RGU	degree=unmarked|id=193	0	ROOT	_	_
+8	så	så	RG	RGU	degree=unmarked|id=194	9	mod	_	_
+9	længe	længe	RG	RGP	degree=pos|id=195	0	ROOT	_	_
+10	.	.	XP	XP	id=196	2	pnct	_	_
+
+1	-	-	XP	XP	id=203	3	pnct	_	_
+2	Hvad	hvad	PT	PT-[CN]SU--U	gender=common/neuter|number=sing|case=unmarked|register=unmarked|id=204	5	dobj	_	_
+3	skal	skulle	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=205	0	ROOT	_	_
+4	du	du	PP	PP2CSN-NU	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=206	3	subj	_	_
+5	lave	lave	VA	VAF-=----A-	mood=infin|voice=active|id=207	3	vobj	_	_
+6	på	på	SP	SP	id=208	5	mod	_	_
+7	lørdag	lørdag	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=209	6	nobj	_	_
+8	i	i	SP	SP	id=210	7	mod	_	_
+9	næste	næste	AN	ANP[CN][SP]U=[DI]U	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|id=211	10	mod	_	_
+10	uge	uge	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=212	8	nobj	_	_
+11	?	?	XP	XP	id=213	3	pnct	_	_
+
+1	-	-	XP	XP	id=220	2	pnct	_	_
+2	Hvem	hvem	PT	PT-C[SP]U--U	gender=common|number=sing/plur|case=unmarked|register=unmarked|id=221	5	qobj	_	_
+3	mig	jeg	PP	PP1CSU-[YN]U	person=1|gender=common|number=sing|case=unmarked|reflexive=yes/no|register=unmarked|id=222	0	ROOT	_	_
+4	?	?	XP	XP	id=223	2	pnct	_	_
+5	spurgte	spørge	VA	VADA=----A-	mood=indic|tense=past|voice=active|id=224	0	ROOT	_	_
+6	Bucks	Bucks	NP	NP--U==-	case=unmarked|id=225	5	subj	_	_
+7	undrende	undre	VA	VAPR=[SP][CN][DI][ARU]-U	mood=partic|tense=present|number=sing/plur|gender=common/neuter|definiteness=def/indef|transcat=adject/adverb/unmarked|case=unmarked|id=226	5	mod	_	_
+8	.	.	XP	XP	id=227	5	pnct	_	_
+
+1	-	-	XP	XP	id=234	2	pnct	_	_
+2	Ja	ja	I	I=	id=235	0	ROOT	_	_
+3	,	,	XP	XP	id=236	2	pnct	_	_
+4	dig	du	PP	PP2CSU-[YN]U	person=2|gender=common|number=sing|case=unmarked|reflexive=yes/no|register=unmarked|id=237	2	conj	_	_
+5	.	.	XP	XP	id=238	2	pnct	_	_
+
+1	-	-	XP	XP	id=245	2	pnct	_	_
+2	Ikke	ikke	RG	RGU	degree=unmarked|id=246	0	ROOT	_	_
+3	noget	nogen	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=247	0	ROOT	_	_
+4	specielt	speciel	AN	ANPNSU=IU	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=248	3	mod	_	_
+5	,	,	XP	XP	id=249	3	pnct	_	_
+6	jeg	jeg	PP	PP1CSN-NU	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=250	7	subj	_	_
+7	mener	mene	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=251	2	conj	_	_
+8	...	...	XP	XP	id=252	7	pnct	_	_
+9	jeg	jeg	PP	PP1CSN-NU	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=253	10	subj	_	_
+10	har	have	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=254	7	vobj	_	_
+11	ikke	ikke	RG	RGU	degree=unmarked|id=255	10	mod	_	_
+12	planlagt	planlægge	VA	VAPA=S[CN]I[ARU]-U	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|id=256	10	vobj	_	_
+13	noget	nogen	PI	PI-NSU--U	gender=neuter|number=sing|case=unmarked|register=unmarked|id=257	12	dobj	_	_
+14	.	.	XP	XP	id=258	2	pnct	_	_
+
+1	-	-	XP	XP	id=265	2	pnct	_	_
+2	Fint	fin	AN	ANPNSU=IU	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=266	0	ROOT	_	_
+3	,	,	XP	XP	id=267	2	pnct	_	_
+4	så	så	RG	RGU	degree=unmarked|id=268	5	mod	_	_
+5	kan	kunne	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=269	2	conj	_	_
+6	du	du	PP	PP2CSN-NU	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=270	5	subj	_	_
+7	tage	tage	VA	VAF-=----A-	mood=infin|voice=active|id=271	5	vobj	_	_
+8	med	med	SP	SP	id=272	7	mod	_	_
+9	mig	jeg	PP	PP1CSU-[YN]U	person=1|gender=common|number=sing|case=unmarked|reflexive=yes/no|register=unmarked|id=273	8	nobj	_	_
+10	til	til	SP	SP	id=274	0	ROOT	_	_
+11	fest	fest	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=275	10	nobj	_	_
+12	.	.	XP	XP	id=276	2	pnct	_	_
+
+1	-	-	XP	XP	id=283	2	pnct	_	_
+2	Til	til	SP	SP	id=284	0	ROOT	_	_
+3	fest	fest	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=285	2	nobj	_	_
+4	?	?	XP	XP	id=286	2	pnct	_	_
+
+1	-	-	XP	XP	id=293	2	pnct	_	_
+2	Ja	ja	I	I=	id=294	0	ROOT	_	_
+3	,	,	XP	XP	id=295	2	pnct	_	_
+4	du	du	PP	PP2CSN-NU	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=296	5	subj	_	_
+5	ved	vide	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=297	2	conj	_	_
+6	,	,	XP	XP	id=298	5	pnct	_	_
+7	sådan	sådan	RG	RGU	degree=unmarked|id=299	5	dobj	_	_
+8	lidt	lidt	AN	ANP[CN]SU=IU	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|id=300	7	nobj	_	_
+9	gang	gang	NC	NCCSU==I	gender=common|number=sing|case=unmarked|def=indef|id=301	8	nobj	_	_
+10	i	i	SP	SP	id=302	9	pobj	_	_
+11	den	den	PP	PP3CSU-NU	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|id=303	10	nobj	_	_
+12	,	,	XP	XP	id=304	7	pnct	_	_
+13	glade	glad	AN	ANP[CN]PU=[DI]U	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|id=305	14	mod	_	_
+14	mennesker	menneske	NC	NCNPU==I	gender=neuter|number=plur|case=unmarked|def=indef|id=306	7	conj	_	_
+15	&	&	CC	CC	id=307	7	coord	_	_
+16	masser	masse	NC	NCCPU==I	gender=common|number=plur|case=unmarked|def=indef|id=308	15	conj	_	_
+17	at	at	U	U=	id=309	16	mod	_	_
+18	drikke	drikke	VA	VAF-=----A-	mood=infin|voice=active|id=310	17	vobj	_	_
+19	,	,	XP	XP	id=311	7	pnct	_	_
+20	hvad	hvad	PT	PT-[CN]SU--U	gender=common/neuter|number=sing|case=unmarked|register=unmarked|id=312	21	dobj	_	_
+21	siger	sige	VA	VADR=----A-	mood=indic|tense=present|voice=active|id=313	5	conj	_	_
+22	du	du	PP	PP2CSN-NU	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|id=314	21	subj	_	_
+23	?	?	XP	XP	id=315	2	pnct	_	_
+

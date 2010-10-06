@@ -1,0 +1,50 @@
+> errors
+43: noante
+46: nogov
+52: nonobj
+54: nogov
+55: noante
+61: nogov noante
+63: noante
+69: noante
+71: noante
+74: noante
+84: nogov nosubj
+90: noante
+97: noante
+98: nogov
+99: noante
+112: noante
+121: noante
+128: noante
+137: noante
+138: nogov
+142: nosubj
+146: noante
+148: nogov
+152: noante
+154: noante
+163: nogov
+164: noante
+169: noante
+171: nosubj
+172: noante
+175: nosubj
+184: nogov nosubj
+196: noante
+197: nogov
+200: noante
+203: noante
+206: nosubj
+210: nosubj
+225: nogov noante
+235: noante
+239: nosubj
+247: nogov
+248: noante
+250: noante
+253: nosubj
+256: noante
+257: nosubj
+266: nosubj
+> redirect ./releases/cdt2/da/1355-da.info

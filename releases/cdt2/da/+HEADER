@@ -1,0 +1,660 @@
+<!DOCTYPE teicorpus.2 system "tei2.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.corpus 'INCLUDE'>
+<!ENTITY danish SDATA "iso88591.wsd">
+<!ENTITY % TEI.extensions.ent SYSTEM "parole.ent">
+<!ENTITY % TEI.extensions.dtd SYSTEM "parole.dtd">
+]>
+
+<teicorpus.2>
+ <teiHeader type=corpus>
+  <fileDesc>
+   <titleStmt>
+    <title>PAROLE-DK</title>
+    <respStmt>
+     <name>Britt-Katrin Keson, Ole Norling-Christensen et al.</name>
+     <resp>Collection and Encoding</resp>
+    </respStmt>
+   </titleStmt>
+   <extent words=250209>250,209 running words</extent>
+   <publicationStmt>
+    <distributor>Society for Danish Language and Literature (DSL)</distributor>
+    <address>
+     <addrline>Christians Brygge1, 1., DK-1219 Copenhagen K.
+    </address>
+    <availability status=restricted>
+      <p>pending copyright agreement
+    </availability>
+    <Date>1998-05-12</Date>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <author>several</author>
+      <title>DSL Text Archive</title>
+      <imprint><pubPlace>Copenhagen</pubPlace></imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc><p>please refer to the PAROLE documentation</projectDesc>
+   <classDecl>
+    <taxonomy ID=P>
+     <bibl>Parole Corpus</bibl>
+      <category ID=P.M>
+       <catDesc>Medium</catDesc>
+       <category ID=P.M1>
+        <catDesc>book</catDesc>
+       </category>
+       <category ID=P.M2>
+        <catDesc>newspaper</catDesc>
+       </category>
+       <category ID=P.M3>
+        <catDesc>periodical</catDesc>
+        <category ID=P.M3.1>
+         <catDesc>journal</catDesc>
+        </category>
+        <category ID=P.M3.2>
+         <catDesc>local</catDesc>
+        </category>
+        <category ID=P.M3.3>
+         <catDesc>magazine</catDesc>
+        </category>
+        <category ID=P.M3.4>
+         <catDesc>specialized journal/magazine</catDesc>
+        </category>
+       </category>
+       <category ID=P.M4>
+        <catDesc>misc</catDesc>
+        <category ID=P.M4.1>
+         <catDesc>correspondence</catDesc>
+        </category>
+        <category ID=P.M4.2>
+         <catDesc>electronic</catDesc>
+        </category>
+        <category ID=P.M4.3>
+         <catDesc>ephemera</catDesc>
+        </category>
+        <category ID=P.M4.4>
+         <catDesc>hand-written</catDesc>
+        </category>
+        <category ID=P.M4.5>
+         <catDesc>spoken</catDesc>
+        </category>
+         <category ID=P.M4.6>
+        <catDesc>typed</catDesc>
+        </category>
+       </category>
+      </category>
+      <category ID=P.G>
+       <catDesc>Genre</catDesc>
+       <category ID=P.G1>
+        <catDesc>N/A</catDesc>
+       </category>
+       <category ID=P.G2>
+        <catDesc>advertising</catDesc>
+        <category ID=P.G2.1>
+         <catDesc>advertisement</catDesc>
+        </category>
+        <category ID=P.G2.2>
+         <catDesc>leaflet</catDesc>
+        </category>
+        <category ID=P.G2.3>
+         <catDesc>prior publicity</catDesc>
+        </category>
+        <category ID=P.G2.4>
+         <catDesc>catalogue</catDesc>
+        </category>
+        <category ID=P.G2.5>
+         <catDesc>advertising</catDesc>
+        </category>
+        <category ID=P.G2.6>
+         <catDesc>printed advertising</catDesc>
+        </category>
+        <category ID=P.G2.7>
+         <catDesc>bargains paper</catDesc>
+        </category>    
+       </category>        
+       <category ID=P.G3>
+        <catDesc>discussion</catDesc>
+        <category ID=P.G3.1>
+         <catDesc>Debate</catDesc>
+        </category>
+        <category ID=P.G3.2>
+         <catDesc>Dialogue</catDesc>
+        </category>
+        <category ID=P.G3.3>
+         <catDesc>Parliamentary speech</catDesc>
+        </category>
+        <category ID=P.G3.4>
+         <catDesc>Interview</catDesc>
+        </category>
+        <category ID=P.G3.5>
+         <catDesc>Cultural debate</catDesc>
+        </category>
+        <category ID=P.G3.6>
+         <catDesc>Letter to the editor</catDesc>
+        </category>
+        <category ID=P.G3.7>
+         <catDesc>Conversation</catDesc>
+        </category>
+       </category>
+       <category ID=P.G4>
+        <catDesc>feature</catDesc>
+        <category ID=P.G4.1>
+         <catDesc>Review</catDesc>
+        </category>
+        <category ID=P.G4.2>
+         <catDesc>Article</catDesc>
+        </category>
+        <category ID=P.G4.3>
+         <catDesc>Causerie</catDesc>
+        </category>
+        <category ID=P.G4.4>
+         <catDesc>Quotation</catDesc>
+        </category>
+        <category ID=P.G4.5>
+         <catDesc>Essay</catDesc>
+        </category>
+        <category ID=P.G4.6>
+         <catDesc>Feature</catDesc>
+        </category>
+        <category ID=P.G4.7>
+         <catDesc>Column</catDesc>
+        </category>
+        <category ID=P.G4.8>
+         <catDesc>Feature article</catDesc>
+        </category>
+        <category ID=P.G4.9>
+         <catDesc>Programme</catDesc>
+        </category>
+       </category>
+       <category ID=P.G5>
+        <catDesc>fiction</catDesc>
+        <category ID=P.G5.1>
+         <catDesc>children's page</catDesc>
+        </category>
+        <category ID=P.G5.2>
+         <catDesc>poem</catDesc>
+        </category>
+        <category ID=P.G5.3>
+         <catDesc>play</catDesc>
+        </category>
+        <category ID=P.G5.4>
+         <catDesc>fairy tale</catDesc>
+        </category>
+        <category ID=P.G5.5>
+         <catDesc>film</catDesc>
+        </category>
+        <category ID=P.G5.6>
+         <catDesc>story</catDesc>
+        </category>
+        <category ID=P.G5.7>
+         <catDesc>horoscope</catDesc>
+        </category>
+        <category ID=P.G5.8>
+         <catDesc>humour</catDesc>
+        </category>
+        <category ID=P.G5.9>
+         <catDesc>occasional song</catDesc>
+        </category>
+        <category ID=P.G5.10>
+         <catDesc>short story</catDesc>
+        </category>
+        <category ID=P.G5.11>
+         <catDesc>novel</catDesc>
+        </category>
+        <category ID=P.G5.12>
+         <catDesc>song lyrics</catDesc>
+        </category>
+        <category ID=P.G5.13>
+         <catDesc>series (tv)</catDesc>
+        </category>
+        <category ID=P.G5.14>
+         <catDesc>games</catDesc>
+        </category>
+        <category ID=P.G5.15>
+         <catDesc>comic strip/book</catDesc>
+        </category>
+        <category ID=P.G5.16>
+         <catDesc>youth section</catDesc> 
+       </category>
+       <category ID=P.G6>
+        <catDesc>information</catDesc>
+        <category ID=P.G6.1>
+         <catDesc>Background article</catDesc>
+        </category>
+        <category ID=P.G6.2>
+         <catDesc>Informal message</catDesc>
+        </category>
+        <category ID=P.G6.3>
+         <catDesc>Caption</catDesc>
+        </category>
+        <category ID=P.G6.4>
+         <catDesc>Documentary</catDesc>
+        </category>
+        <category ID=P.G6.5>
+         <catDesc>Enquiry, poll</catDesc>
+        </category>
+        <category ID=P.G6.6>
+         <catDesc>Lecture</catDesc>
+        </category>
+        <category ID=P.G6.7>
+         <catDesc>Consumer advice</catDesc>
+        </category>
+        <category ID=P.G6.8>
+         <catDesc>Association publication</catDesc>
+        </category>
+        <category ID=P.G6.9>
+         <catDesc>Information leaflet</catDesc>
+        </category>
+        <category ID=P.G6.10>
+         <catDesc>Information booklet</catDesc>
+        </category>
+        <category ID=P.G6.11>
+         <catDesc>Editorial</catDesc>
+        </category>
+        <category ID=P.G6.12>
+         <catDesc>List</catDesc>
+        </category>
+        <category ID=P.G6.13>
+         <catDesc>Message</catDesc>
+        </category>
+        <category ID=P.G6.14>
+         <catDesc>Notice</catDesc>
+        </category>
+        <category ID=P.G6.15>
+         <catDesc>News article</catDesc>
+        </category>
+        <category ID=P.G6.16>
+         <catDesc>News broadcast</catDesc>
+        </category>
+        <category ID=P.G6.17>
+         <catDesc>Small news item</catDesc>
+        </category>
+        <category ID=P.G6.18>
+         <catDesc>Poster</catDesc>
+        </category>
+        <category ID=P.G6.19>
+         <catDesc>Editorial matters</catDesc>
+        </category>
+        <category ID=P.G6.20>
+         <catDesc>Account, minutes</catDesc>
+        </category>
+        <category ID=P.G6.21>
+         <catDesc>On-the-spot report</catDesc>
+        </category>
+        <category ID=P.G6.22>
+         <catDesc>Sign</catDesc>
+        </category>
+       </category>
+       <category ID=P.G7>
+        <catDesc>instruction</catDesc>
+        <category ID=P.G7.1>
+         <catDesc>bibliography</catDesc>
+        </category>
+        <category ID=P.G7.2>
+         <catDesc>correspondence column</catDesc>
+        </category>
+        <category ID=P.G7.3>
+         <catDesc>corr. column questions</catDesc>
+        </category>
+        <category ID=P.G7.4>
+         <catDesc>corr. column answers</catDesc>
+        </category>
+        <category ID=P.G7.5>
+         <catDesc>reference book</catDesc>
+        </category>
+        <category ID=P.G7.6>
+         <catDesc>handbook</catDesc>
+        </category>
+        <category ID=P.G7.7>
+         <catDesc>textbook</catDesc>
+        </category>
+        <category ID=P.G7.8>
+         <catDesc>monograph</catDesc>
+        </category>
+        <category ID=P.G7.9>
+         <catDesc>instructions</catDesc>
+        </category>
+        <category ID=P.G7.10>
+         <catDesc>work of reference</catDesc>
+        </category>
+        <category ID=P.G7.11>
+         <catDesc>travel book</catDesc>
+        </category>
+        <category ID=P.G7.12>
+         <catDesc>school textbook</catDesc>
+        </category>
+        <category ID=P.G7.13>
+         <catDesc>how-to guide</catDesc>
+        </category>
+       </category>
+       <category ID=P.G8>
+        <catDesc>non-fiction</catDesc>
+        <category ID=P.G8.1>
+         <catDesc>aphorism</catDesc>        
+        </category>
+        <category ID=P.G8.2>
+         <catDesc>biography</catDesc>        
+        </category>
+        <category ID=P.G8.3>
+         <catDesc>principal speech</catDesc>        
+        </category>
+        <category ID=P.G8.4>
+         <catDesc>calendar</catDesc>        
+        </category>
+        <category ID=P.G8.5>
+         <catDesc>short biography</catDesc>        
+        </category>
+        <category ID=P.G8.6>
+         <catDesc>'names'</catDesc>        
+        </category>
+        <category ID=P.G8.7>
+         <catDesc>obituary</catDesc>        
+        </category>
+        <category ID=P.G8.8>
+         <catDesc>student essay</catDesc>        
+        </category>
+        <category ID=P.G8.9>
+         <catDesc>profile</catDesc>        
+        </category>
+        <category ID=P.G8.10>
+         <catDesc>sermon</catDesc>        
+        </category>
+        <category ID=P.G8.11>
+         <catDesc>report</catDesc>        
+        </category>
+        <category ID=P.G8.12>
+         <catDesc>autobiography</catDesc>        
+        </category>
+        <category ID=P.G8.13>
+         <catDesc>school essay</catDesc>        
+        </category>
+       </category>
+       <category ID=P.G9>
+        <catDesc>official</catDesc>
+        <category ID=P.G9.1>
+         <catDesc>announcement</catDesc>        
+        </category>
+        <category ID=P.G9.2>
+         <catDesc>parl. report/white paper</catDesc>        
+        </category>
+        <category ID=P.G9.3>
+         <catDesc>form</catDesc>        
+        </category>
+        <category ID=P.G9.4>
+         <catDesc>governmental circular</catDesc>        
+        </category>
+        <category ID=P.G9.5>
+         <catDesc>document</catDesc>        
+        </category>
+        <category ID=P.G9.6>
+         <catDesc>business letter</catDesc>        
+        </category>
+        <category ID=P.G9.7>
+         <catDesc>contract</catDesc>        
+        </category>
+        <category ID=P.G9.8>
+         <catDesc>law text</catDesc>        
+        </category>
+        <category ID=P.G9.9>
+         <catDesc>legal record</catDesc>        
+        </category>
+        <category ID=P.G9.10>
+         <catDesc>official letter</catDesc>        
+        </category>
+       </category>
+       <category ID=P.G10>
+        <catDesc>private</catDesc>
+        <category ID=P.G10.1>
+         <catDesc>private letter</catDesc>        
+        </category>
+        <category ID=P.G10.2>
+         <catDesc>diary</catDesc>        
+        </category>
+       </category>
+      </category>
+      <category ID=P.T>
+       <catDesc>Topic</catDesc>
+       <category ID=P.T1>
+        <catDesc>N/A</catDesc>
+       </category>
+       <category ID=P.T2>
+        <catDesc>business</catDesc>
+         <category ID=P.T2.1>
+          <catDesc>economics</catDesc>
+         </category>
+         <category ID=P.T2.2>
+          <catDesc>business</catDesc>
+         </category>
+         <category ID=P.T2.3>
+          <catDesc>agriculture</catDesc>
+         </category>
+         <category ID=P.T2.4>
+          <catDesc>fishing and hunting</catDesc>
+         </category>
+         <category ID=P.T2.5>
+          <catDesc>trade</catDesc>
+         </category>
+         <category ID=P.T2.6>
+          <catDesc>advertising</catDesc>
+         </category>
+         <category ID=P.T2.7>
+          <catDesc>industry</catDesc>
+         </category>
+         <category ID=P.T2.8>
+          <catDesc>crafts</catDesc>
+         </category>
+         <category ID=P.T2.9>
+          <catDesc>construction</catDesc>
+         </category>
+       </category>
+       <category ID=P.T3>
+        <catDesc>geography</catDesc>
+       </category>
+         <category ID=P.T3.1>
+          <catDesc>folklore</catDesc>
+         </category>
+         <category ID=P.T3.2>
+          <catDesc>geography</catDesc>
+         </category>
+         <category ID=P.T3.3>
+          <catDesc>travel</catDesc>
+         </category>
+         <category ID=P.T3.4>
+          <catDesc>anthropology</catDesc>
+         </category>
+       <category ID=P.T4>
+        <catDesc>health</catDesc>
+       </category>
+         <category ID=P.T4.1>
+          <catDesc>psychology</catDesc>
+         </category>
+         <category ID=P.T4.2>
+          <catDesc>family</catDesc>
+         </category>
+         <category ID=P.T4.3>
+          <catDesc>pedagogics</catDesc>
+         </category>
+         <category ID=P.T4.4>
+          <catDesc>health</catDesc>
+         </category>
+         <category ID=P.T4.5>
+          <catDesc>sex/living together</catDesc>
+         </category>
+       <category ID=P.T5>
+        <catDesc>history</catDesc>
+       </category>
+         <category ID=P.T5.1>
+          <catDesc>history</catDesc>
+         </category>
+         <category ID=P.T5.2>
+          <catDesc>biograpical</catDesc>
+         </category>
+       <category ID=P.T6>
+        <catDesc>humanities</catDesc>
+       </category>
+         <category ID=P.T6.1>
+          <catDesc>library sciences</catDesc>
+         </category>
+         <category ID=P.T6.2>
+          <catDesc>philosophy</catDesc>
+         </category>
+         <category ID=P.T6.3>
+          <catDesc>communication</catDesc>
+         </category>
+         <category ID=P.T6.4>
+          <catDesc>religion</catDesc>
+         </category>
+         <category ID=P.T6.5>
+          <catDesc>teaching/education</catDesc>
+         </category>
+         <category ID=P.T6.6>
+          <catDesc>press</catDesc>
+         </category>
+         <category ID=P.T6.7>
+          <catDesc>art</catDesc>
+         </category>
+         <category ID=P.T6.8>
+          <catDesc>culture</catDesc>
+         </category>
+         <category ID=P.T6.9>
+          <catDesc>architecture</catDesc>
+         </category>
+         <category ID=P.T6.10>
+          <catDesc>photography</catDesc>
+         </category>
+         <category ID=P.T6.11>
+          <catDesc>theatre</catDesc>
+         </category>
+         <category ID=P.T6.12>
+          <catDesc>film</catDesc>
+         </category>
+         <category ID=P.T6.13>
+          <catDesc>radio</catDesc>
+         </category>
+         <category ID=P.T6.14>
+          <catDesc>music and dance</catDesc>
+         </category>
+         <category ID=P.T6.15>
+          <catDesc>literature</catDesc>
+         </category>
+         <category ID=P.T6.16>
+          <catDesc>languages</catDesc>
+         </category>
+       <category ID=P.T7>
+        <catDesc>leisure</catDesc>
+       </category>
+         <category ID=P.T7.1>
+          <catDesc>transportation</catDesc>
+         </category>
+         <category ID=P.T7.2>
+          <catDesc>housing</catDesc>
+         </category>
+         <category ID=P.T7.3>
+          <catDesc>food</catDesc>
+         </category>
+         <category ID=P.T7.4>
+          <catDesc>clothing</catDesc>
+         </category>
+         <category ID=P.T7.5>
+          <catDesc>television</catDesc>
+         </category>
+         <category ID=P.T7.6>
+          <catDesc>sport</catDesc>
+         </category>
+         <category ID=P.T7.7>
+          <catDesc>games</catDesc>
+         </category>
+         <category ID=P.T7.8>
+          <catDesc>leisure</catDesc>
+         </category>
+       <category ID=P.T8>
+        <catDesc>science</catDesc>
+         <category ID=P.T8.1>
+          <catDesc>computer science</catDesc>
+         </category>
+         <category ID=P.T8.2>
+          <catDesc>natural sciences</catDesc>
+         </category>
+         <category ID=P.T8.3>
+          <catDesc>mathematics</catDesc>
+         </category>
+         <category ID=P.T8.4>
+          <catDesc>astronomy</catDesc>
+         </category>
+         <category ID=P.T8.5>
+          <catDesc>physics</catDesc>
+         </category>
+         <category ID=P.T8.6>
+          <catDesc>chemistry</catDesc>
+         </category>
+         <category ID=P.T8.7>
+          <catDesc>geology</catDesc>
+         </category>
+         <category ID=P.T8.8>
+          <catDesc>biology</catDesc>
+         </category>
+         <category ID=P.T8.9>
+          <catDesc>botany</catDesc>
+         </category>
+         <category ID=P.T8.10>
+          <catDesc>zoology</catDesc>
+         </category>
+         <category ID=P.T8.11>
+          <catDesc>technology</catDesc>
+         </category>
+         <category ID=P.T8.12>
+          <catDesc>environment</catDesc>
+         </category>
+       </category>
+       <category ID=P.T9>
+        <catDesc>society</catDesc>
+         <category ID=P.T9.1>
+          <catDesc>general science/scholarship</catDesc>
+         </category>
+         <category ID=P.T9.2>
+          <catDesc>society/social studies</catDesc>
+         </category>
+         <category ID=P.T9.3>
+          <catDesc>politics</catDesc>
+         </category>
+         <category ID=P.T9.4>
+          <catDesc>EU</catDesc>
+         </category>
+         <category ID=P.T9.5>
+          <catDesc>law</catDesc>
+         </category>
+         <category ID=P.T9.6>
+          <catDesc>crime</catDesc>
+         </category>
+         <category ID=P.T9.7>
+          <catDesc>social services</catDesc>
+         </category>
+         <category ID=P.T9.8>
+          <catDesc>military</catDesc>
+         </category>
+         <category ID=P.T9.9>
+          <catDesc>consumer items</catDesc>
+         </category>
+         <category ID=P.T9.10>
+          <catDesc>traffic</catDesc>
+         </category>
+       </category>
+      </category>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation></creation>
+   <langUsage>
+    <language id=DA>Danish
+   </langUsage>
+  </profileDesc>
+</teiHeader>
+
+

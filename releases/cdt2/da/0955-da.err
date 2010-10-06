@@ -1,0 +1,35 @@
+> errors
+46: nosubj
+47: nogov
+51: noante
+57: noante
+59: nogov
+63: nosubj
+75: noante
+93: nogov
+94: noante
+96: noante
+104: noante
+105: nonobj
+107: noante
+111: noante
+116: noante
+121: noante
+123: nogov
+132: nogov
+137: noante
+139: noante
+146: nogov
+150: noante
+165: noante
+168: noante
+176: nogov
+185: nogov
+193: nogov
+204: nogov nosubj
+206: noante
+219: noante
+220: nogov
+226: noante
+228: noante
+> redirect ./releases/cdt2/da/0955-da.info

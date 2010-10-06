@@ -1,0 +1,36 @@
+> errors
+46: nogov
+54: noante
+66: noante
+68: noante
+70: noante
+76: nogov
+79: noante
+90: noante
+95: noante
+100: nosubj
+108: nosubj
+118: noante
+120: nogov
+123: noante
+133: noante
+135: noante
+150: noante
+154: noante
+161: noante
+172: nogov
+182: nogov
+197: nogov
+203: nogov noante
+209: noante
+212: nogov
+223: noante
+224: nogov
+227: noante
+232: noante
+247: noante
+257: noante
+259: noante
+260: nogov
+273: noante
+> redirect ./releases/cdt2/da/0544-da.info
