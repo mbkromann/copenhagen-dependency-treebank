@@ -1,0 +1,19 @@
+
+Guide:  There IS life in Danish software development.  After a delay, a program is ready to help customers around in museums, supermarkets, city halls - and MikroData in Bella Centre.
+
+The Europeans should be intelligent enough.
+
+So believe the idea men behind the Scout program, which at the entrance to the MikroData fair guides the way in the jungle of exhibitors.
+
+And with that word of praise, they indicate that they will leave it to us to do the spelling with the help of the keyboard.
+
+Nor with Scout should there be any way of making a mistake: Type in the name of a firm or type in a search word and the screen very instructively shows the nearest route to it or the relevant stand.  A forerunner helped visitors at the last MikroData two years ago.
+
+"We have programmed everything from the bottom up in Turbo Pascal, and this has probably robbed us of a little time," says John Marrot from the firm Scansoft, which is behind the programming.
+
+Originally, his acquaintance Steen Olsen, who works in an office supplies firm in Copenhagen, had ordered the program for the price of 100 programming hours.  These 100 hours became instead 5,000 hours.
+
+
+
+
+

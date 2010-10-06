@@ -1,0 +1,192 @@
+<s>
+<W id="1" tag="NNP" in="1:namef" out="">Erling</W>
+<W id="2" tag="NNP" in="10:subj" out="-1:namef|1:pnct|2:title">Brodersen</W>
+<W id="3" tag="," in="-1:pnct" out="">,</W>
+<W id="4" tag="NN" in="-2:title" out="1:pobj">chairman</W>
+<W id="5" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="6" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
+<W id="7" tag="NNP" in="-1:mod" out="">Danish</W>
+<W id="8" tag="NNP" in="-2:nobj" out="1:pobj">Association</W>
+<W id="9" tag="IN" in="-1:pobj" out="2:nobj">of</W>
+<W id="10" tag="NNP" in="1:mod" out="">Travel</W>
+<W id="11" tag="NNPS" in="-2:nobj" out="-1:mod">Agents</W>
+<W id="12" tag="VBZ" in="" out="-10:subj|1:dobj|6:pnct">signs</W>
+<W id="13" tag="DT" in="-1:dobj" out="1:mod|2:nobj">this</W>
+<W id="14" tag="JJ" in="-1:mod" out="">frosty</W>
+<W id="15" tag="NN" in="-2:nobj" out="1:pobj">letter</W>
+<W id="16" tag="TO" in="-1:pobj" out="1:nobj">to</W>
+<W id="17" tag="NNP" in="-1:nobj" out="">Spain</W>
+<W id="18" tag="." in="-6:pnct" out="">.</W>
+</s>
+<s>
+<W id="21" tag="NNP" in="3:subj" out="">R.I.D</W>
+</s>
+<s>
+<W id="24" tag="VBZ" in="" out="-3:subj|1:dobj|12:pnct">represents</W>
+<W id="25" tag="DT" in="-1:dobj" out="1:mod|2:mod|4:nobj|5:pnct|9:modp">all</W>
+<W id="26" tag="JJ" in="-1:mod" out="">major</W>
+<W id="27" tag="JJ" in="-2:mod" out="">Danish</W>
+<W id="28" tag="NN" in="1:mod" out="">travel</W>
+<W id="29" tag="NNS" in="-4:nobj" out="-1:mod">agencies</W>
+<W id="30" tag="&3a;" in="-5:pnct" out="">-</W>
+<W id="31" tag="IN" in="3:mod" out="1:nobj|2:pnct">among</W>
+<W id="32" tag="PRP" in="-1:nobj" out="">them</W>
+<W id="33" tag="," in="-2:pnct" out="">,</W>
+<W id="34" tag="NNP" in="-9:modp" out="-3:mod|1:nobj">Larsen</W>
+<W id="35" tag="NNP" in="-1:nobj" out="">Travel</W>
+<W id="36" tag="&3a;" in="-12:pnct" out="">:</W>
+</s>
+<s>
+<W id="39" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W id="40" tag="PRP" in="1:subj" out="">We</W>
+<W id="41" tag="VBP" in="36:qobj" out="-2:pnct|-1:subj|1:mod|3:dobj|5:lobj|15:pnct|16:coord|34:pnct|35:pnct">send</W>
+<W id="42" tag="IN" in="-1:mod" out="1:nobj">in</W>
+<W id="43" tag="NN" in="-1:nobj" out="">season</W>
+<W id="44" tag="CD" in="-3:dobj" out="1:nobj|4:mod|6:mod">four</W>
+<W id="45" tag="NNS" in="-1:nobj" out="">planes</W>
+<W id="46" tag="TO" in="-5:lobj" out="1:nobj">to</W>
+<W id="47" tag="NNP" in="-1:nobj" out="">Ibiza</W>
+<W id="48" tag="DT" in="-4:mod" out="1:nobj">a</W>
+<W id="49" tag="NN" in="-1:nobj" out="">week</W>
+<W id="50" tag="IN" in="-6:mod" out="1:nobj">with</W>
+<W id="51" tag="DT" in="-1:nobj" out="1:nobj">a</W>
+<W id="52" tag="NN" in="-1:nobj" out="1:pobj">total</W>
+<W id="53" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="54" tag="JJ" in="-1:nobj" out="1:nobj">700-750</W>
+<W id="55" tag="NNPS" in="-1:nobj" out="">Danes</W>
+<W id="56" tag="," in="-15:pnct" out="">,</W>
+<W id="57" tag="CC" in="-16:coord" out="2:conj">and</W>
+<W id="58" tag="PRP" in="1:subj" out="3:nobj">it</W>
+<W id="59" tag="VBZ" in="-2:conj" out="-1:subj|1:pred">is</W>
+<W id="60" tag="JJ" in="-1:pred" out="">clear</W>
+<W id="61" tag="IN" in="-3:nobj" out="2:vobj">that</W>
+<W id="62" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
+<W id="63" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">cannot</W>
+<W id="64" tag="VB" in="-1:vobj" out="-2:[subj]|5:dobj">tolerate</W>
+<W id="65" tag="CD" in="4:subj|5:[subj]" out="1:pobj">one</W>
+<W id="66" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="67" tag="PRP$" in="-1:nobj" out="1:possd">our</W>
+<W id="68" tag="NNS" in="-1:possd" out="">guests</W>
+<W id="69" tag="VBG" in="-5:dobj" out="-4:subj|1:vobj">being</W>
+<W id="70" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj">attacked</W>
+<W id="71" tag="IN" in="-1:pobj" out="1:nobj">by</W>
+<W id="72" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
+<W id="73" tag="JJ" in="-1:mod" out="">local</W>
+<W id="74" tag="NN" in="-2:nobj" out="">police</W>
+<W id="75" tag="," in="-34:pnct" out="">,</W>
+<W id="76" tag="&amp;quot;" in="-35:pnct" out="">"</W>
+<W id="77" tag="VBZ" in="" out="-36:qobj|2:subj|9:mod|45:pnct">says</W>
+<W id="78" tag="NNP" in="1:namef" out="">Jens</W>
+<W id="79" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:title">Veino</W>
+<W id="80" tag="," in="-1:pnct" out="">,</W>
+<W id="81" tag="NN" in="-2:title" out="1:pnct|2:list">director</W>
+<W id="82" tag="," in="-1:pnct" out="">,</W>
+<W id="83" tag="NNP" in="-2:list" out="1:nobj|2:pnct">Larsen</W>
+<W id="84" tag="NNP" in="-1:nobj" out="">Travel</W>
+<W id="85" tag="," in="-2:pnct" out="">,</W>
+<W id="86" tag="IN" in="-9:mod" out="7:vobj">after</W>
+<W id="87" tag="JJ" in="1:mod" out="">17-year</W>
+<W id="88" tag="JJ" in="2:mod" out="-1:mod">old</W>
+<W id="89" tag="NNP" in="1:namef" out="">Mark</W>
+<W id="90" tag="NNP" in="3:subj|11:[subj]" out="-1:namef|-2:mod|1:mod">Georgi</W>
+<W id="91" tag="IN" in="-1:mod" out="1:nobj">from</W>
+<W id="92" tag="NNP" in="-1:nobj" out="">Taastrup</W>
+<W id="93" tag="VBD" in="-7:vobj" out="-3:subj|1:lobj|2:mod|7:coord">came</W>
+<W id="94" tag="RB" in="-1:lobj" out="">forward</W>
+<W id="95" tag="TO" in="-2:mod" out="1:nobj">to</W>
+<W id="96" tag="NNP" in="-1:nobj" out="1:pnct">B.T</W>
+<W id="97" tag="." in="-1:pnct" out="">.</W>
+</s>
+<s>
+<W id="100" tag="CC" in="-7:coord" out="1:conj">and</W>
+<W id="101" tag="VBN" in="-1:conj" out="-11:[subj]|1:dobj">related</W>
+<W id="102" tag="WP" in="-1:dobj|1:[subj]|2:[subj]" out="1:rel">what</W>
+<W id="103" tag="VBZ" in="-1:rel" out="-1:[subj]|1:vobj">is</W>
+<W id="104" tag="VBG" in="-1:vobj" out="-2:[subj]|1:pobj">happening</W>
+<W id="105" tag="TO" in="-1:pobj" out="1:nobj">to</W>
+<W id="106" tag="NNS" in="-1:nobj" out="1:ref|10:rel">tourists</W>
+<W id="107" tag="WP" in="-1:ref|9:subj|11:[subj]" out="">who</W>
+<W id="108" tag="," in="" out="">,</W>
+<W id="109" tag="IN" in="7:mod" out="1:nobj|6:pnct">for</W>
+<W id="110" tag="CD" in="-1:nobj" out="1:mod|2:nobj|3:coord">one</W>
+<W id="111" tag="JJ" in="-1:mod" out="">trivial</W>
+<W id="112" tag="NN" in="-2:nobj|2:[nobj]" out="">reason</W>
+<W id="113" tag="CC" in="-3:coord" out="1:conj">or</W>
+<W id="114" tag="DT" in="-1:conj" out="-2:[nobj]">another</W>
+<W id="115" tag="," in="-6:pnct" out="">,</W>
+<W id="116" tag="VB" in="-10:rel" out="-9:subj|-7:mod|1:dobj">happen</W>
+<W id="117" tag="TO" in="-1:dobj" out="1:vobj">to</W>
+<W id="118" tag="VB" in="-1:vobj" out="-11:[subj]|1:dobj">irritate</W>
+<W id="119" tag="DT" in="-1:dobj" out="1:mod|2:nobj">the</W>
+<W id="120" tag="JJ" in="-1:mod" out="">Spanish</W>
+<W id="121" tag="NN" in="-2:nobj" out="">police</W>
+<W id="122" tag="." in="-45:pnct" out="">.</W>
+</s>
+<s>
+<W id="125" tag="NN" in="1:mod" out="">POLICE</W>
+<W id="126" tag="NNP" in="" out="-1:mod">BLACKMAIL</W>
+</s>
+<s>
+<W id="129" tag="DT" in="8:subj|9:[subj]|12:[subj]|14:[subj]" out="1:nobj|2:pnct">The</W>
+<W id="130" tag="NN" in="-1:nobj" out="">boy</W>
+<W id="131" tag="," in="-2:pnct" out="">,</W>
+<W id="132" tag="RB" in="5:mod" out="1:pobj|4:pnct">together</W>
+<W id="133" tag="IN" in="-1:pobj" out="1:nobj">with</W>
+<W id="134" tag="DT" in="-1:nobj" out="1:nobj">a</W>
+<W id="135" tag="NN" in="-1:nobj" out="">friend</W>
+<W id="136" tag="," in="-4:pnct" out="">,</W>
+<W id="137" tag="VBD" in="" out="-8:subj|-5:mod|1:vobj|9:pnct">was</W>
+<W id="138" tag="VBN" in="-1:vobj" out="-9:[subj]|1:avobj|2:pnct|3:conj|4:coord">knocked</W>
+<W id="139" tag="RB" in="-1:avobj" out="">down</W>
+<W id="140" tag="," in="-2:pnct" out="">,</W>
+<W id="141" tag="VBN" in="-3:conj" out="-12:[subj]">beaten</W>
+<W id="142" tag="CC" in="-4:coord" out="1:conj">and</W>
+<W id="143" tag="VB" in="-1:conj" out="-14:[subj]|1:pobj">put</W>
+<W id="144" tag="IN" in="-1:pobj" out="1:nobj">in</W>
+<W id="145" tag="NNS" in="-1:nobj" out="">handcuffs</W>
+<W id="146" tag="." in="-9:pnct" out="">.</W>
+</s>
+<s>
+<W id="149" tag="DT" in="" out="1:nobj|2:ref|3:rel|23:pnct">An</W>
+<W id="150" tag="NN" in="-1:nobj" out="">attack</W>
+<W id="151" tag="WDT" in="-2:ref|1:subj" out="">that</W>
+<W id="152" tag="VBD" in="-3:rel" out="-1:subj|2:pred">was</W>
+<W id="153" tag="RB" in="1:mod" out="2:nobj">so</W>
+<W id="154" tag="JJ" in="-2:pred" out="-1:mod">violent</W>
+<W id="155" tag="IN" in="-2:nobj" out="2:vobj">that</W>
+<W id="156" tag="PRP" in="1:subj|6:[subj]|8:[subj]" out="">he</W>
+<W id="157" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|3:coord">burst</W>
+<W id="158" tag="PRP$" in="-1:dobj" out="1:possd">his</W>
+<W id="159" tag="NN" in="-1:possd" out="">eardrum</W>
+<W id="160" tag="CC" in="-3:coord" out="2:conj">and</W>
+<W id="161" tag="RB" in="1:mod" out="">now</W>
+<W id="162" tag="VBD" in="-2:conj" out="-6:[subj]|-1:mod|1:dobj">had</W>
+<W id="163" tag="TO" in="-1:dobj" out="1:vobj">to</W>
+<W id="164" tag="VB" in="-1:vobj" out="-8:[subj]|1:dobj|3:mod">undergo</W>
+<W id="165" tag="DT" in="-1:dobj" out="1:nobj">an</W>
+<W id="166" tag="NN" in="-1:nobj" out="">operation</W>
+<W id="167" tag="TO" in="-3:mod" out="1:vobj">to</W>
+<W id="168" tag="VB" in="-1:vobj" out="1:dobj">get</W>
+<W id="169" tag="DT" in="-1:dobj" out="2:nobj">a</W>
+<W id="170" tag="JJ" in="1:mod" out="">new</W>
+<W id="171" tag="CD" in="-2:nobj" out="-1:mod">one</W>
+<W id="172" tag="." in="-23:pnct" out="">.</W>
+</s>
+<s>
+<W id="175" tag="RB" in="6:mod" out="1:pnct">Then</W>
+<W id="176" tag="," in="-1:pnct" out="">,</W>
+<W id="177" tag="DT" in="4:subj" out="1:nobj">the</W>
+<W id="178" tag="CD" in="-1:nobj" out="1:mod|2:nobj">two</W>
+<W id="179" tag="JJ" in="-1:mod" out="">young</W>
+<W id="180" tag="NNS" in="-2:nobj" out="">people</W>
+<W id="181" tag="VBD" in="" out="-6:mod|-4:subj|1:pred|5:mod|9:pnct">became</W>
+<W id="182" tag="DT" in="-1:pred" out="1:nobj">the</W>
+<W id="183" tag="NN" in="-1:nobj" out="1:pobj">object</W>
+<W id="184" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="185" tag="NN" in="-1:nobj" out="">blackmail</W>
+<W id="186" tag="IN" in="-5:mod" out="1:nobj">by</W>
+<W id="187" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
+<W id="188" tag="JJ" in="-1:mod" out="">Spanish</W>
+<W id="189" tag="NN" in="-2:nobj" out="">policeman</W>
+<W id="190" tag="&3a;" in="-9:pnct" out="">:</W>
+</s>

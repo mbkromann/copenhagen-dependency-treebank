@@ -1,0 +1,195 @@
+<s>
+<W id="1" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
+<W id="2" tag="VBP" in="" out="-1:subj|1:vobj|13:pnct">don't</W>
+<W id="3" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">know</W>
+<W id="4" tag="IN" in="-1:dobj" out="2:vobj|5:coord">whether</W>
+<W id="5" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
+<W id="6" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">am</W>
+<W id="7" tag="VBG" in="-1:vobj" out="-2:[subj]|1:pred">getting</W>
+<W id="8" tag="VBN" in="-1:pred" out="">bored</W>
+<W id="9" tag="CC" in="-5:coord" out="1:conj">or</W>
+<W id="10" tag="IN" in="-1:conj" out="2:vobj">whether</W>
+<W id="11" tag="PRP" in="1:subj" out="">I</W>
+<W id="12" tag="VBP" in="-2:vobj" out="-1:subj|1:mod|2:pred">am</W>
+<W id="13" tag="RB" in="-1:mod" out="">just</W>
+<W id="14" tag="JJ" in="-2:pred" out="">lazy</W>
+<W id="15" tag="." in="-13:pnct" out="">.</W>
+</s>
+<s>
+<W id="18" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
+<W id="19" tag="MD" in="" out="-1:subj|1:vobj|4:pnct|5:coord|30:pnct">should</W>
+<W id="20" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj">look</W>
+<W id="21" tag="IN" in="-1:pobj" out="1:nobj">around</W>
+<W id="22" tag="NN" in="-1:nobj" out="">town</W>
+<W id="23" tag="," in="-4:pnct" out="">,</W>
+<W id="24" tag="CC" in="-5:coord" out="2:conj">but</W>
+<W id="25" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
+<W id="26" tag="VBP" in="-2:conj" out="-1:subj|1:vobj|4:coord">can't</W>
+<W id="27" tag="NN" in="-1:vobj" out="-2:[subj]|1:dobj|2:mod">pull</W>
+<W id="28" tag="PRP" in="-1:dobj" out="">myself</W>
+<W id="29" tag="RB" in="-2:mod" out="">together</W>
+<W id="30" tag="CC" in="-4:coord" out="1:conj">and</W>
+<W id="31" tag="NN" in="-1:conj" out="1:dobj">content</W>
+<W id="32" tag="PRP" in="-1:dobj" out="1:pobj">myself</W>
+<W id="33" tag="IN" in="-1:pobj" out="1:nobj">with</W>
+<W id="34" tag="VBG" in="-1:nobj" out="1:mod|2:pobj">looking</W>
+<W id="35" tag="RB" in="-1:mod" out="">kindly</W>
+<W id="36" tag="IN" in="-2:pobj" out="1:nobj">on</W>
+<W id="37" tag="DT" in="-1:nobj" out="1:nobj|2:ref|3:rel">an</W>
+<W id="38" tag="NNP" in="-1:nobj" out="">Englishman</W>
+<W id="39" tag="WP" in="-2:ref|1:subj|2:[subj]" out="">who</W>
+<W id="40" tag="VBZ" in="-3:rel" out="-1:subj|1:vobj">has</W>
+<W id="41" tag="VBN" in="-1:vobj" out="-2:[subj]|2:mod|3:lobj">arrived</W>
+<W id="42" tag="RB" in="1:mod" out="">too</W>
+<W id="43" tag="RB" in="-2:mod" out="-1:mod">late</W>
+<W id="44" tag="IN" in="-3:lobj" out="1:nobj">for</W>
+<W id="45" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
+<W id="46" tag="NN" in="-1:nobj" out="">plane</W>
+<W id="47" tag="TO" in="-2:mod" out="1:nobj">to</W>
+<W id="48" tag="NNP" in="-1:nobj" out="">Botswana</W>
+<W id="49" tag="." in="-30:pnct" out="">.</W>
+</s>
+<s>
+<W id="52" tag="PRP" in="1:subj|2:[subj]" out="">He</W>
+<W id="53" tag="VBP" in="" out="-1:subj|1:vobj|5:pnct">cannot</W>
+<W id="54" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">see</W>
+<W id="55" tag="NN" in="-1:dobj" out="1:mod">anything</W>
+<W id="56" tag="IN" in="-1:mod" out="1:avobj">at</W>
+<W id="57" tag="DT" in="-1:avobj" out="">all</W>
+<W id="58" tag="." in="-5:pnct" out="">.</W>
+</s>
+<s>
+<W id="61" tag="PRP" in="1:subj" out="">He</W>
+<W id="62" tag="VBZ" in="" out="-1:subj|3:pred|4:pnct">is</W>
+<W id="63" tag="NN" in="1:mod" out="">way</W>
+<W id="64" tag="RB" in="1:mod" out="-1:mod">too</W>
+<W id="65" tag="JJ" in="-3:pred" out="-1:mod">drunk</W>
+<W id="66" tag="." in="-4:pnct" out="">.</W>
+</s>
+<s>
+<W id="69" tag="RB" in="3:mod" out="1:pnct">Perhaps</W>
+<W id="70" tag="," in="-1:pnct" out="">,</W>
+<W id="71" tag="PRP" in="1:subj" out="">it</W>
+<W id="72" tag="VBZ" in="" out="-3:mod|-1:subj|1:pred|5:pnct">is</W>
+<W id="73" tag="IN" in="-1:pred" out="1:pobj">because</W>
+<W id="74" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="75" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="76" tag="NNPS" in="-1:nobj" out="">Norwegians</W>
+<W id="77" tag="." in="-5:pnct" out="">.</W>
+</s>
+<s>
+<W id="80" tag="PRP" in="2:subj" out="1:mod">They</W>
+<W id="81" tag="DT" in="-1:mod" out="">all</W>
+<W id="82" tag="VB" in="" out="-2:subj|1:dobj|2:pobj|5:pnct|6:coord|31:pnct">speak</W>
+<W id="83" tag="NNP" in="-1:dobj" out="">Swahili</W>
+<W id="84" tag="TO" in="-2:pobj" out="1:nobj">to</W>
+<W id="85" tag="DT" in="-1:nobj" out="1:nobj">each</W>
+<W id="86" tag="NN" in="-1:nobj" out="">other</W>
+<W id="87" tag="," in="-5:pnct" out="">,</W>
+<W id="88" tag="CC" in="-6:coord" out="2:conj">and</W>
+<W id="89" tag="PRP" in="1:subj" out="">I</W>
+<W id="90" tag="VBP" in="-2:conj" out="-1:subj|1:dobj">assume</W>
+<W id="91" tag="IN" in="-1:dobj" out="2:vobj">that</W>
+<W id="92" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
+<W id="93" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj|6:pnct|8:modp">have</W>
+<W id="94" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pred">been</W>
+<W id="95" tag="TO" in="-1:pred" out="1:nobj">to</W>
+<W id="96" tag="DT" in="-1:nobj" out="2:nobj">a</W>
+<W id="97" tag="NN" in="1:mod" out="">language</W>
+<W id="98" tag="NN" in="-2:nobj" out="-1:mod">course</W>
+<W id="99" tag="," in="-6:pnct" out="">,</W>
+<W id="100" tag="WDT" in="1:subj" out="">which</W>
+<W id="101" tag="VBZ" in="-8:modp" out="-1:subj|2:pred|3:pnct|4:coord">is</W>
+<W id="102" tag="RB" in="1:mod" out="">very</W>
+<W id="103" tag="JJ" in="-2:pred" out="-1:mod">commendable</W>
+<W id="104" tag="," in="-3:pnct" out="">,</W>
+<W id="105" tag="CC" in="-4:coord" out="6:conj">but</W>
+<W id="106" tag="NNP" in="5:subj" out="1:mod">Swahili</W>
+<W id="107" tag="IN" in="-1:mod" out="1:nobj">with</W>
+<W id="108" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
+<W id="109" tag="JJ" in="-1:mod" out="">Norwegian</W>
+<W id="110" tag="NN" in="-2:nobj" out="">accent</W>
+<W id="111" tag="VBZ" in="-6:conj" out="-5:subj|1:pred">sounds</W>
+<W id="112" tag="JJ" in="-1:pred" out="">strange</W>
+<W id="113" tag="." in="-31:pnct" out="">.</W>
+</s>
+<s>
+<W id="116" tag="PRP" in="1:subj" out="4:nobj">It</W>
+<W id="117" tag="VBZ" in="" out="-1:subj|1:pred|13:coord|38:pnct">is</W>
+<W id="118" tag="JJ" in="-1:pred" out="1:mod">bad</W>
+<W id="119" tag="RB" in="-1:mod" out="">enough</W>
+<W id="120" tag="IN" in="-4:nobj" out="3:vobj">that</W>
+<W id="121" tag="DT" in="2:subj" out="1:mod">the</W>
+<W id="122" tag="NNS" in="-1:mod" out="">natives</W>
+<W id="123" tag="VBP" in="-3:vobj" out="-2:subj|1:dobj|6:pnct">speak</W>
+<W id="124" tag="NNP" in="-1:dobj" out="1:mod">English</W>
+<W id="125" tag="IN" in="-1:mod" out="1:nobj">with</W>
+<W id="126" tag="DT" in="-1:nobj" out="2:nobj">a</W>
+<W id="127" tag="NNP" in="1:mod" out="">Swahili</W>
+<W id="128" tag="NN" in="-2:nobj" out="-1:mod">accent</W>
+<W id="129" tag="," in="-6:pnct" out="">,</W>
+<W id="130" tag="CC" in="-13:coord" out="9:conj">but</W>
+<W id="131" tag="RB" in="8:mod" out="1:mod|4:pnct">here</W>
+<W id="132" tag="IN" in="-1:mod" out="1:nobj">at</W>
+<W id="133" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="134" tag="NN" in="-1:nobj" out="">hotel</W>
+<W id="135" tag="," in="-4:pnct" out="">,</W>
+<W id="136" tag="DT" in="3:subj|4:[subj]|6:[subj]" out="1:mod|2:nobj">the</W>
+<W id="137" tag="JJ" in="-1:mod" out="">black</W>
+<W id="138" tag="NNS" in="-2:nobj" out="">waiters</W>
+<W id="139" tag="VBP" in="-9:conj" out="-8:mod|-3:subj|1:vobj|10:pnct|11:coord">have</W>
+<W id="140" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj">begun</W>
+<W id="141" tag="TO" in="-1:dobj" out="1:vobj">to</W>
+<W id="142" tag="VB" in="-1:vobj" out="-6:[subj]|1:dobj">speak</W>
+<W id="143" tag="NNP" in="-1:dobj" out="1:mod">English</W>
+<W id="144" tag="IN" in="-1:mod" out="1:nobj">with</W>
+<W id="145" tag="DT" in="-1:nobj" out="3:nobj">a</W>
+<W id="146" tag="NNP" in="1:mod" out="">Norwegian</W>
+<W id="147" tag="NNP" in="1:mod" out="-1:mod">Swahili</W>
+<W id="148" tag="NN" in="-3:nobj" out="-1:mod">accent</W>
+<W id="149" tag="," in="-10:pnct" out="">,</W>
+<W id="150" tag="CC" in="-11:coord" out="2:conj">and</W>
+<W id="151" tag="DT" in="1:subj" out="">that</W>
+<W id="152" tag="VBZ" in="-2:conj" out="-1:subj|2:pred">is</W>
+<W id="153" tag="RB" in="1:mod" out="">rather</W>
+<W id="154" tag="JJ" in="-2:pred" out="-1:mod">stiff</W>
+<W id="155" tag="." in="-38:pnct" out="">.</W>
+</s>
+<s>
+<W id="158" tag="IN" in="5:mod" out="1:nobj|3:pnct">From</W>
+<W id="159" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="160" tag="NN" in="-1:nobj" out="">terrace</W>
+<W id="161" tag="," in="-3:pnct" out="">,</W>
+<W id="162" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
+<W id="163" tag="MD" in="" out="-5:mod|-1:subj|1:vobj|14:pnct">can</W>
+<W id="164" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">look</W>
+<W id="165" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W id="166" tag="IN" in="-1:mod" out="1:nobj">on</W>
+<W id="167" tag="DT" in="-1:nobj" out="2:nobj|3:pnct|4:ref|8:rel">the</W>
+<W id="168" tag="NN" in="1:mod" out="">parking</W>
+<W id="169" tag="NN" in="-2:nobj" out="-1:mod">lot</W>
+<W id="170" tag="," in="-3:pnct" out="">,</W>
+<W id="171" tag="WRB" in="-4:ref|4:mod" out="">where</W>
+<W id="172" tag="NN" in="3:subj|4:[subj]" out="1:mod">nothing</W>
+<W id="173" tag="IN" in="-1:mod" out="1:avobj">at</W>
+<W id="174" tag="DT" in="-1:avobj" out="">all</W>
+<W id="175" tag="VBZ" in="-8:rel" out="-4:mod|-3:subj|1:vobj">is</W>
+<W id="176" tag="VBG" in="-1:vobj" out="-4:[subj]">happening</W>
+<W id="177" tag="." in="-14:pnct" out="">.</W>
+</s>
+<s>
+<W id="180" tag="DT" in="" out="1:pnct|4:conj|13:pnct">No</W>
+<W id="181" tag="," in="-1:pnct" out="">,</W>
+<W id="182" tag="RB" in="2:mod" out="">now</W>
+<W id="183" tag="EX" in="1:expl" out="">there</W>
+<W id="184" tag="VBZ" in="-4:conj" out="-2:mod|-1:expl|1:dobj">comes</W>
+<W id="185" tag="DT" in="-1:dobj" out="1:nobj|2:ref|3:rel">a</W>
+<W id="186" tag="NN" in="-1:nobj" out="">girl</W>
+<W id="187" tag="WP" in="-2:ref|1:subj" out="">who</W>
+<W id="188" tag="VBZ" in="-3:rel" out="-1:subj|2:mod|3:mod|4:pred">is</W>
+<W id="189" tag="RB" in="1:mod" out="">quite</W>
+<W id="190" tag="RB" in="-2:mod" out="-1:mod">certainly</W>
+<W id="191" tag="RB" in="-3:mod" out="">not</W>
+<W id="192" tag="JJ" in="-4:pred" out="">Norwegian</W>
+<W id="193" tag="." in="-13:pnct" out="">.</W>
+</s>

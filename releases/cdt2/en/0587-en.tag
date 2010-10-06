@@ -1,0 +1,252 @@
+<s>
+<W id="1" tag="WRB" in="1:pred" out="">How</W>
+<W id="2" tag="VBZ" in="" out="-1:pred|1:subj|2:mod|3:mod|5:pnct">is</W>
+<W id="3" tag="PRP" in="-1:subj" out="">it</W>
+<W id="4" tag="RB" in="-2:mod" out="">really</W>
+<W id="5" tag="IN" in="-3:mod" out="1:nobj">with</W>
+<W id="6" tag="PRP" in="-1:nobj" out="">us</W>
+<W id="7" tag="." in="-5:pnct" out="">?</W>
+</s>
+<s>
+<W id="10" tag="VBP" in="" out="1:subj|3:pred|12:pnct">Are</W>
+<W id="11" tag="PRP" in="-1:subj" out="">we</W>
+<W id="12" tag="RB" in="1:mod" out="2:nobj">so</W>
+<W id="13" tag="VBD" in="-3:pred" out="-1:mod">sanctified</W>
+<W id="14" tag="IN" in="-2:nobj" out="2:vobj">that</W>
+<W id="15" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
+<W id="16" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
+<W id="17" tag="VB" in="-1:vobj" out="-2:[subj]|1:avobj">sit</W>
+<W id="18" tag="IN" in="-1:avobj" out="1:mod">around</W>
+<W id="19" tag="IN" in="-1:mod" out="1:nobj">on</W>
+<W id="20" tag="PRP$" in="-1:nobj" out="1:possd">our</W>
+<W id="21" tag="NNS" in="-1:possd" out="">laurels</W>
+<W id="22" tag="." in="-12:pnct" out="">?</W>
+</s>
+<s>
+<W id="25" tag="PRP" in="1:subj|2:[subj]" out="">We</W>
+<W id="26" tag="MD" in="" out="-1:subj|1:vobj|3:pnct|5:conj|8:pnct|10:conj|20:pnct">can</W>
+<W id="27" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">afford</W>
+<W id="28" tag="PRP" in="-1:dobj" out="">it</W>
+<W id="29" tag="," in="-3:pnct" out="">,</W>
+<W id="30" tag="PRP" in="1:subj" out="">we</W>
+<W id="31" tag="VBP" in="-5:conj" out="-1:subj|1:dobj">have</W>
+<W id="32" tag="DT" in="-1:dobj" out="1:nobj">the</W>
+<W id="33" tag="NN" in="-1:nobj" out="">know-how</W>
+<W id="34" tag="," in="-8:pnct" out="">,</W>
+<W id="35" tag="PRP" in="1:subj" out="">we</W>
+<W id="36" tag="VBP" in="-10:conj" out="-1:subj|1:dobj">have</W>
+<W id="37" tag="DT" in="-1:dobj" out="1:nobj|2:mod|4:possd">the</W>
+<W id="38" tag="NNS" in="-1:nobj" out="">world's</W>
+<W id="39" tag="JJS" in="-2:mod" out="">best</W>
+<W id="40" tag="JJ" in="1:mod" out="">environmental</W>
+<W id="41" tag="NN" in="-4:possd" out="-1:mod|1:coord">law</W>
+<W id="42" tag="CC" in="-1:coord" out="3:conj">and</W>
+<W id="43" tag="NN" in="1:mod" out="">water</W>
+<W id="44" tag="JJ" in="1:mod" out="-1:mod">environmental</W>
+<W id="45" tag="NN" in="-3:conj" out="-1:mod">plan</W>
+<W id="46" tag="." in="-20:pnct" out="">.</W>
+</s>
+<s>
+<W id="49" tag="PRP" in="2:subj" out="">We</W>
+<W id="50" tag="RB" in="1:mod" out="">also</W>
+<W id="51" tag="VBP" in="" out="-2:subj|-1:mod|1:pobj|4:mod|7:pnct|9:conj|21:pnct">teach</W>
+<W id="52" tag="IN" in="-1:pobj" out="1:nobj">about</W>
+<W id="53" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="54" tag="NN" in="-1:nobj" out="">environment</W>
+<W id="55" tag="IN" in="-4:mod" out="1:nobj">in</W>
+<W id="56" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="57" tag="NNS" in="-1:nobj" out="">schools</W>
+<W id="58" tag="," in="-7:pnct" out="">,</W>
+<W id="59" tag="PRP" in="1:subj" out="">we</W>
+<W id="60" tag="VBP" in="-9:conj" out="-1:subj|2:dobj">have</W>
+<W id="61" tag="NNS" in="1:mod" out="">grassroots</W>
+<W id="62" tag="NNS" in="-2:dobj" out="-1:mod|1:coord">movements</W>
+<W id="63" tag="CC" in="-1:coord" out="1:conj">and</W>
+<W id="64" tag="DT" in="-1:conj" out="1:nobj">the</W>
+<W id="65" tag="NN" in="-1:nobj" out="1:nobj">right</W>
+<W id="66" tag="TO" in="-1:nobj" out="1:vobj">to</W>
+<W id="67" tag="VB" in="-1:vobj" out="1:dobj|2:mod|3:pobj">express</W>
+<W id="68" tag="PRP" in="-1:dobj" out="">ourselves</W>
+<W id="69" tag="RB" in="-2:mod" out="">freely</W>
+<W id="70" tag="IN" in="-3:pobj" out="1:nobj">about</W>
+<W id="71" tag="NNS" in="-1:nobj" out="">problems</W>
+<W id="72" tag="." in="-21:pnct" out="">.</W>
+</s>
+<s>
+<W id="75" tag="CC" in="" out="2:conj|14:pnct">But</W>
+<W id="76" tag="PRP" in="1:subj" out="">we</W>
+<W id="77" tag="VBP" in="-2:conj" out="-1:subj|1:mod|3:pred">are</W>
+<W id="78" tag="RB" in="-1:mod" out="">also</W>
+<W id="79" tag="JJ" in="1:mod" out="">great</W>
+<W id="80" tag="NNS" in="-3:pred" out="-1:mod|1:coord">consumers</W>
+<W id="81" tag="CC" in="-1:coord" out="1:mod|2:conj">and</W>
+<W id="82" tag="RB" in="-1:mod" out="">thereby</W>
+<W id="83" tag="DT" in="-2:conj" out="1:mod|2:nobj">a</W>
+<W id="84" tag="JJ" in="-1:mod" out="">great</W>
+<W id="85" tag="NN" in="-2:nobj" out="1:pobj">burden</W>
+<W id="86" tag="IN" in="-1:pobj" out="1:nobj">on</W>
+<W id="87" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="88" tag="NN" in="-1:nobj" out="">environment</W>
+<W id="89" tag="." in="-14:pnct" out="">.</W>
+</s>
+<s>
+<W id="92" tag="RB" in="" out="1:pnct|21:vobj|34:pnct">So</W>
+<W id="93" tag="," in="-1:pnct" out="">,</W>
+<W id="94" tag="RB" in="19:mod" out="1:pobj">even</W>
+<W id="95" tag="IN" in="-1:pobj" out="12:vobj">though</W>
+<W id="96" tag="PRP$" in="11:subj" out="1:possd|2:mod">our</W>
+<W id="97" tag="NN" in="-1:possd" out="">coastline</W>
+<W id="98" tag="IN" in="-2:mod" out="1:nobj">on</W>
+<W id="99" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:conj|5:coord">the</W>
+<W id="100" tag="JJ" in="-1:nobj" out="">Baltic</W>
+<W id="101" tag="," in="-2:pnct" out="">,</W>
+<W id="102" tag="DT" in="-3:conj" out="1:nobj">the</W>
+<W id="103" tag="NNS" in="-1:nobj" out="">Belts</W>
+<W id="104" tag="CC" in="-5:coord" out="1:conj">and</W>
+<W id="105" tag="DT" in="-1:conj" out="1:nobj">the</W>
+<W id="106" tag="NNP" in="-1:nobj" out="">Kattegat</W>
+<W id="107" tag="VBZ" in="-12:vobj" out="-11:subj|2:pred|3:pnct">is</W>
+<W id="108" tag="RB" in="1:mod" out="">quite</W>
+<W id="109" tag="JJ" in="-2:pred" out="-1:mod">small</W>
+<W id="110" tag="," in="-3:pnct" out="">,</W>
+<W id="111" tag="DT" in="2:subj" out="1:nobj">every</W>
+<W id="112" tag="NNP" in="-1:nobj" out="">Dane</W>
+<W id="113" tag="VBZ" in="-21:vobj" out="-19:mod|-2:subj|1:dobj|5:mod">burdens</W>
+<W id="114" tag="DT" in="-1:dobj" out="2:nobj">this</W>
+<W id="115" tag="JJ" in="1:mod" out="">marine</W>
+<W id="116" tag="NN" in="-2:nobj" out="-1:mod">environment</W>
+<W id="117" tag="RB" in="1:mod" out="">much</W>
+<W id="118" tag="JJR" in="-5:mod" out="-1:mod|1:pobj">more</W>
+<W id="119" tag="IN" in="-1:pobj" out="1:nobj">than</W>
+<W id="120" tag="DT" in="-1:nobj" out="1:nobj|2:coord">any</W>
+<W id="121" tag="NNP" in="-1:nobj" out="">Pole</W>
+<W id="122" tag="CC" in="-2:coord" out="1:conj">or</W>
+<W id="123" tag="DT" in="-1:conj" out="2:nobj">any</W>
+<W id="124" tag="JJ" in="1:mod" out="">Soviet</W>
+<W id="125" tag="NN" in="-2:nobj" out="-1:mod">citizen</W>
+<W id="126" tag="." in="-34:pnct" out="">.</W>
+</s>
+<s>
+<W id="129" tag="EX" in="1:expl" out="">There</W>
+<W id="130" tag="VBZ" in="" out="-1:expl|1:mod|3:dobj|16:pnct">is</W>
+<W id="131" tag="RB" in="-1:mod" out="">thus</W>
+<W id="132" tag="JJ" in="1:mod" out="">good</W>
+<W id="133" tag="NN" in="-3:dobj" out="-1:mod|1:pobj|3:mod">reason</W>
+<W id="134" tag="IN" in="-1:pobj" out="1:nobj">for</W>
+<W id="135" tag="PRP" in="-1:nobj" out="">us</W>
+<W id="136" tag="TO" in="-3:mod" out="1:vobj">to</W>
+<W id="137" tag="VB" in="-1:vobj" out="1:dobj|3:mod|5:mod">do</W>
+<W id="138" tag="DT" in="-1:dobj" out="1:nobj">a</W>
+<W id="139" tag="NN" in="-1:nobj" out="">lot</W>
+<W id="140" tag="IN" in="-3:mod" out="1:nobj">in</W>
+<W id="141" tag="NNP" in="-1:nobj" out="">Denmark</W>
+<W id="142" tag="TO" in="-5:mod" out="1:vobj">to</W>
+<W id="143" tag="VB" in="-1:vobj" out="1:dobj">improve</W>
+<W id="144" tag="DT" in="-1:dobj" out="1:nobj">the</W>
+<W id="145" tag="NN" in="-1:nobj" out="">environment</W>
+<W id="146" tag="." in="-16:pnct" out="">.</W>
+</s>
+<s>
+<W id="149" tag="CC" in="" out="2:conj|19:pnct">But</W>
+<W id="150" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
+<W id="151" tag="MD" in="-2:conj" out="-1:subj|1:vobj|4:pnct|5:mod">would</W>
+<W id="152" tag="VB" in="-1:vobj" out="-2:[subj]|2:pred">be</W>
+<W id="153" tag="RB" in="1:mod" out="">even</W>
+<W id="154" tag="JJR" in="-2:pred" out="-1:mod">better</W>
+<W id="155" tag="," in="-4:pnct" out="">,</W>
+<W id="156" tag="IN" in="-5:mod" out="6:vobj">if</W>
+<W id="157" tag="PDT" in="5:subj" out="1:nobj|3:mod">all</W>
+<W id="158" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="159" tag="NNS" in="-1:nobj" out="">countries</W>
+<W id="160" tag="IN" in="-3:mod" out="1:nobj">around</W>
+<W id="161" tag="JJ" in="-1:nobj" out="">Baltic</W>
+<W id="162" tag="VBD" in="-6:vobj" out="-5:subj|1:pred">were</W>
+<W id="163" tag="NN" in="-1:pred" out="1:pobj">part</W>
+<W id="164" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="165" tag="JJ" in="-1:nobj" out="1:nobj">such</W>
+<W id="166" tag="DT" in="-1:nobj" out="1:nobj">an</W>
+<W id="167" tag="NN" in="-1:nobj" out="">effort</W>
+<W id="168" tag="." in="-19:pnct" out="">.</W>
+</s>
+<s>
+<W id="171" tag="PRP" in="1:subj" out="">We</W>
+<W id="172" tag="VBP" in="" out="-1:subj|1:dobj|10:pnct">have</W>
+<W id="173" tag="DT" in="-1:dobj" out="1:mod|2:mod|3:nobj|4:ref|5:rel">a</W>
+<W id="174" tag="JJ" in="-1:mod" out="">large</W>
+<W id="175" tag="JJ" in="-2:mod" out="">common</W>
+<W id="176" tag="NN" in="-3:nobj" out="">problem</W>
+<W id="177" tag="WDT" in="-4:ref|1:subj|2:[subj]|3:[subj]" out="">that</W>
+<W id="178" tag="MD" in="-5:rel" out="-1:subj|1:vobj">must</W>
+<W id="179" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>
+<W id="180" tag="VBN" in="-1:vobj" out="-3:[subj]|1:mod">solved</W>
+<W id="181" tag="RB" in="-1:mod" out="">together</W>
+<W id="182" tag="." in="-10:pnct" out="">.</W>
+</s>
+<s>
+<W id="185" tag="PRP$" in="" out="1:mod|2:possd|3:pnct">Our</W>
+<W id="186" tag="JJ" in="-1:mod" out="">active</W>
+<W id="187" tag="NN" in="-2:possd" out="">co-operation</W>
+<W id="188" tag="." in="-3:pnct" out="">.</W>
+</s>
+<s>
+<W id="191" tag="IN" in="16:mod" out="1:nobj|4:pnct#">In</W>
+<W id="192" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="193" tag="NN" in="-1:nobj" out="1:pobj">spring</W>
+<W id="194" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="195" tag="CD" in="-1:nobj|-4:pnct#" out="">1990,</W>
+<W id="196" tag="NNP" in="11:subj|12:[subj]|14:[subj]" out="2:nobj|3:pnct">Rungsted</W>
+<W id="197" tag="NNP" in="1:mod" out="">High</W>
+<W id="198" tag="NNP" in="-2:nobj" out="-1:mod">School</W>
+<W id="199" tag="," in="-3:pnct" out="">,</W>
+<W id="200" tag="RB" in="7:mod" out="1:pobj|6:pnct">together</W>
+<W id="201" tag="IN" in="-1:pobj" out="1:nobj">with</W>
+<W id="202" tag="CD" in="-1:nobj" out="1:mod|2:mod|3:nobj">five</W>
+<W id="203" tag="JJ" in="-1:mod" out="">other</W>
+<W id="204" tag="JJ" in="-2:mod" out="">Danish</W>
+<W id="205" tag="NNS" in="-3:nobj" out="">schools</W>
+<W id="206" tag="," in="-6:pnct" out="">,</W>
+<W id="207" tag="VBD" in="" out="-16:mod|-11:subj|-7:mod|1:vobj|16:pnct">was</W>
+<W id="208" tag="VBN" in="-1:vobj" out="-12:[subj]|1:dobj">invited</W>
+<W id="209" tag="TO" in="-1:dobj" out="1:vobj">to</W>
+<W id="210" tag="VB" in="-1:vobj" out="-14:[subj]|1:pred">be</W>
+<W id="211" tag="NN" in="-1:pred" out="1:pobj">part</W>
+<W id="212" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="213" tag="DT" in="-1:nobj" out="1:mod|2:mod|4:nobj|5:pnct|6:appa">an</W>
+<W id="214" tag="JJ" in="-1:mod" out="">international</W>
+<W id="215" tag="JJ" in="-2:mod" out="">environmental</W>
+<W id="216" tag="NN" in="1:mod" out="">education</W>
+<W id="217" tag="NN" in="-4:nobj" out="-1:mod">project</W>
+<W id="218" tag="&3a;" in="-5:pnct" out="">:</W>
+<W id="219" tag="DT" in="-6:appa" out="3:nobj">the</W>
+<W id="220" tag="NNP" in="1:mod" out="">Baltic</W>
+<W id="221" tag="NNP" in="1:mod" out="-1:mod">Sea</W>
+<W id="222" tag="NNP" in="-3:nobj" out="-1:mod">Project</W>
+<W id="223" tag="." in="-16:pnct" out="">.</W>
+</s>
+<s>
+<W id="226" tag="RB" in="11:mod" out="1:pobj|9:pnct">Together</W>
+<W id="227" tag="IN" in="-1:pobj" out="1:nobj">with</W>
+<W id="228" tag="NNS" in="-1:nobj" out="1:mod">schools</W>
+<W id="229" tag="IN" in="-1:mod" out="1:nobj">from</W>
+<W id="230" tag="PDT" in="-1:nobj" out="1:nobj">all</W>
+<W id="231" tag="DT" in="-1:nobj" out="1:mod|2:mod|3:nobj">the</W>
+<W id="232" tag="JJ" in="-1:mod" out="">other</W>
+<W id="233" tag="JJ" in="-2:mod" out="">Baltic</W>
+<W id="234" tag="NNS" in="-3:nobj" out="">nations</W>
+<W id="235" tag="," in="-9:pnct" out="">,</W>
+<W id="236" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
+<W id="237" tag="VBP" in="" out="-11:mod|-1:subj|1:pred|13:pnct">are</W>
+<W id="238" tag="TO" in="-1:pred" out="1:vobj">to</W>
+<W id="239" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|7:mod">study</W>
+<W id="240" tag="DT" in="-1:dobj" out="1:nobj|2:mod">the</W>
+<W id="241" tag="NN" in="-1:nobj" out="">environment</W>
+<W id="242" tag="IN" in="-2:mod" out="1:nobj">of</W>
+<W id="243" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
+<W id="244" tag="NNP" in="-1:mod" out="">Baltic</W>
+<W id="245" tag="NNP" in="-2:nobj" out="">Sea</W>
+<W id="246" tag="IN" in="-7:mod" out="1:nobj">for</W>
+<W id="247" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
+<W id="248" tag="JJ" in="-1:mod" out="">five-year</W>
+<W id="249" tag="NN" in="-2:nobj" out="">period</W>
+<W id="250" tag="." in="-13:pnct" out="">.</W>
+</s>

@@ -1,0 +1,196 @@
+<s>
+<W id="1" tag="IN" in="17:mod" out="1:nobj">In</W>
+<W id="2" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|5:rel">Korovabad</W>
+<W id="3" tag="," in="-1:pnct" out="">,</W>
+<W id="4" tag="WRB" in="-2:ref|3:mod" out="">where</W>
+<W id="5" tag="CD" in="2:subj|3:[subj]|4:[subj]|6:[subj]" out="1:nobj">three</W>
+<W id="6" tag="NNS" in="-1:nobj" out="">soldiers</W>
+<W id="7" tag="VBD" in="-5:rel" out="-3:mod|-2:subj|1:vobj|7:pnct">had</W>
+<W id="8" tag="VBN" in="-1:vobj" out="-3:[subj]|1:vobj">been</W>
+<W id="9" tag="VBN" in="-1:vobj" out="-4:[subj]|1:coord|3:pobj">stoned</W>
+<W id="10" tag="CC" in="-1:coord" out="1:conj">and</W>
+<W id="11" tag="VBN" in="-1:conj" out="-6:[subj]|1:[pobj]">beaten</W>
+<W id="12" tag="TO" in="-3:pobj|-1:[pobj]" out="1:nobj">to</W>
+<W id="13" tag="NN" in="-1:nobj" out="">death</W>
+<W id="14" tag="," in="-7:pnct" out="">,</W>
+<W id="15" tag="CD" in="3:subj|4:[subj]|5:[subj]" out="1:mod|2:nobj">60</W>
+<W id="16" tag="JJ" in="-1:mod" out="">Armenian</W>
+<W id="17" tag="NNS" in="-2:nobj" out="">houses</W>
+<W id="18" tag="VBD" in="" out="-17:mod|-3:subj|1:vobj|8:pnct">had</W>
+<W id="19" tag="VBN" in="-1:vobj" out="-4:[subj]|1:vobj">been</W>
+<W id="20" tag="VBN" in="-1:vobj" out="-5:[subj]|1:part|2:mod">burned</W>
+<W id="21" tag="RB" in="-1:part" out="">down</W>
+<W id="22" tag="IN" in="-2:mod" out="3:nobj">by</W>
+<W id="23" tag="VBG" in="2:mod" out="">raging</W>
+<W id="24" tag="NNP" in="1:mod" out="">Azerbaijani</W>
+<W id="25" tag="NNS" in="-3:nobj" out="-2:mod|-1:mod">groups</W>
+<W id="26" tag="." in="-8:pnct" out="">.</W>
+</s>
+<s>
+<W id="29" tag="CD" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">Eighty</W>
+<W id="30" tag="NNP" in="-1:nobj" out="">Azerbaijanis</W>
+<W id="31" tag="VBD" in="" out="-2:subj|1:vobj|7:pnct|8:coord|17:pnct">had</W>
+<W id="32" tag="VBN" in="-1:vobj" out="-3:[subj]|1:vobj">been</W>
+<W id="33" tag="VBN" in="-1:vobj" out="-4:[subj]|1:mod">arrested</W>
+<W id="34" tag="IN" in="-1:mod" out="1:nobj">by</W>
+<W id="35" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
+<W id="36" tag="JJ" in="-1:mod" out="">military</W>
+<W id="37" tag="NN" in="-2:nobj" out="">garrison</W>
+<W id="38" tag="," in="-7:pnct" out="">,</W>
+<W id="39" tag="CC" in="-8:coord" out="6:conj">and</W>
+<W id="40" tag="DT" in="5:subj|6:[subj]|7:[subj]" out="1:nobj">an</W>
+<W id="41" tag="NN" in="-1:nobj" out="1:pobj">investigation</W>
+<W id="42" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="43" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="44" tag="NNS" in="-1:nobj" out="">episodes</W>
+<W id="45" tag="VBD" in="-6:conj" out="-5:subj|1:vobj">had</W>
+<W id="46" tag="VBN" in="-1:vobj" out="-6:[subj]|1:vobj">been</W>
+<W id="47" tag="VBD" in="-1:vobj" out="-7:[subj]">commenced</W>
+<W id="48" tag="." in="-17:pnct" out="">.</W>
+</s>
+<s>
+<W id="51" tag="DT" in="3:subj" out="1:mod|2:nobj">The</W>
+<W id="52" tag="JJ" in="-1:mod" out="">Armenian</W>
+<W id="53" tag="NN" in="-2:nobj" out="">source</W>
+<W id="54" tag="VBD" in="" out="-3:subj|1:dobj|12:pnct">denied</W>
+<W id="55" tag="NNS" in="-1:dobj" out="1:mod|5:nobj">reports</W>
+<W id="56" tag="IN" in="-1:mod" out="1:nobj">in</W>
+<W id="57" tag="NNP" in="-1:nobj" out="1:coord">Moscow</W>
+<W id="58" tag="CC" in="-1:coord" out="1:conj">and</W>
+<W id="59" tag="NNP" in="-1:conj" out="">Paris</W>
+<W id="60" tag="IN" in="-5:nobj" out="3:vobj">that</W>
+<W id="61" tag="JJ" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">many</W>
+<W id="62" tag="NNPS" in="-1:nobj" out="">Armenians</W>
+<W id="63" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">had</W>
+<W id="64" tag="VBN" in="-1:vobj" out="-3:[subj]|1:vobj">been</W>
+<W id="65" tag="VBN" in="-1:vobj" out="-4:[subj]">killed</W>
+<W id="66" tag="." in="-12:pnct" out="">.</W>
+</s>
+<s>
+<W id="69" tag="&3a;" in="3:pnct" out="">-</W>
+<W id="70" tag="DT" in="2:subj|3:[subj]" out="1:nobj">No</W>
+<W id="71" tag="NNPS" in="-1:nobj" out="">Armenians</W>
+<W id="72" tag="VBD" in="" out="-3:pnct|-2:subj|1:vobj|4:pnct">were</W>
+<W id="73" tag="VBN" in="-1:vobj" out="-3:[subj]|1:mod">killed</W>
+<W id="74" tag="IN" in="-1:mod" out="1:nobj">in</W>
+<W id="75" tag="NNP" in="-1:nobj" out="">Kirovabad</W>
+<W id="76" tag="." in="-4:pnct" out="">.</W>
+</s>
+<s>
+<W id="79" tag="DT" in="3:subj|5:[subj]|6:[subj]" out="1:mod|2:nobj">The</W>
+<W id="80" tag="JJ" in="-1:mod" out="">Armenian</W>
+<W id="81" tag="NN" in="-2:nobj" out="">neighbourhood</W>
+<W id="82" tag="MD" in="" out="-3:subj|1:mod|2:vobj|6:pnct">will</W>
+<W id="83" tag="RB" in="-1:mod" out="">probably</W>
+<W id="84" tag="VB" in="-2:vobj" out="-5:[subj]|1:vobj">be</W>
+<W id="85" tag="VBN" in="-1:vobj" out="-6:[subj]|1:pobj">guarded</W>
+<W id="86" tag="IN" in="-1:pobj" out="1:nobj">by</W>
+<W id="87" tag="NNS" in="-1:nobj" out="">soldiers</W>
+<W id="88" tag="." in="-6:pnct" out="">.</W>
+</s>
+<s>
+<W id="91" tag="NNPS" in="6:subj|7:[subj]|8:[subj]" out="1:ref|2:rel">Armenians</W>
+<W id="92" tag="WP" in="-1:ref|1:subj" out="">who</W>
+<W id="93" tag="VBP" in="-2:rel" out="-1:subj|1:mod">live</W>
+<W id="94" tag="IN" in="-1:mod" out="1:nobj">in</W>
+<W id="95" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
+<W id="96" tag="NNS" in="-1:nobj" out="">districts</W>
+<W id="97" tag="VBD" in="6:qobj" out="-6:subj|1:vobj|4:pnct">had</W>
+<W id="98" tag="VBN" in="-1:vobj" out="-7:[subj]|1:vobj">been</W>
+<W id="99" tag="VBN" in="-1:vobj" out="-8:[subj]|1:lobj">brought</W>
+<W id="100" tag="EX" in="-1:lobj" out="">there</W>
+<W id="101" tag="," in="-4:pnct" out="">,</W>
+<W id="102" tag="PRP" in="1:subj" out="">he</W>
+<W id="103" tag="VBD" in="" out="-6:qobj|-1:subj|1:pnct">said</W>
+<W id="104" tag="." in="-1:pnct" out="">.</W>
+</s>
+<s>
+<W id="107" tag="DT" in="12:subj" out="1:nobj|7:pnct|9:appa">The</W>
+<W id="108" tag="NN" in="-1:nobj" out="1:pobj">spokesman</W>
+<W id="109" tag="IN" in="-1:pobj" out="1:nobj">for</W>
+<W id="110" tag="DT" in="-1:nobj" out="1:mod|3:nobj">the</W>
+<W id="111" tag="NNP" in="-1:mod" out="">Soviet</W>
+<W id="112" tag="NNP" in="1:mod" out="">Foreign</W>
+<W id="113" tag="NNP" in="-3:nobj" out="-1:mod">Ministry</W>
+<W id="114" tag="," in="-7:pnct" out="">,</W>
+<W id="115" tag="NNP" in="1:namef" out="">Gennady</W>
+<W id="116" tag="NNP" in="-9:appa" out="-1:namef|1:pnct">Gerasimov</W>
+<W id="117" tag="," in="-1:pnct" out="">,</W>
+<W id="118" tag="RB" in="1:mod" out="">also</W>
+<W id="119" tag="VBD" in="" out="-1:mod|-12:subj|1:dobj|12:pnct">said</W>
+<W id="120" tag="DT" in="-1:dobj" out="2:vobj">that</W>
+<W id="121" tag="NN" in="1:subj|2:[subj]|3:[subj]" out="">none</W>
+<W id="122" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">had</W>
+<W id="123" tag="VBN" in="-1:vobj" out="-2:[subj]|1:vobj">been</W>
+<W id="124" tag="VBN" in="-1:vobj" out="-3:[subj]|1:mod">killed</W>
+<W id="125" tag="IN" in="-1:mod" out="1:nobj">beyond</W>
+<W id="126" tag="DT" in="-1:nobj" out="1:nobj|3:mod">the</W>
+<W id="127" tag="CD" in="-1:nobj" out="1:nobj">three</W>
+<W id="128" tag="NNS" in="-1:nobj" out="">soldiers</W>
+<W id="129" tag="IN" in="-3:mod" out="1:nobj">in</W>
+<W id="130" tag="NNP" in="-1:nobj" out="">Kirovabad</W>
+<W id="131" tag="." in="-12:pnct" out="">.</W>
+</s>
+<s>
+<W id="134" tag="PRP" in="1:subj" out="">He</W>
+<W id="135" tag="VBD" in="" out="-1:subj|1:dobj|14:pnct">said</W>
+<W id="136" tag="IN" in="-1:dobj" out="3:vobj|6:coord">that</W>
+<W id="137" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
+<W id="138" tag="NN" in="-1:nobj" out="">curfew</W>
+<W id="139" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|2:pnct">had</W>
+<W id="140" tag="VBN" in="-1:vobj" out="-3:[subj]">helped</W>
+<W id="141" tag="," in="-2:pnct" out="">,</W>
+<W id="142" tag="CC" in="-6:coord" out="1:conj">and</W>
+<W id="143" tag="IN" in="-1:conj" out="2:vobj">that</W>
+<W id="144" tag="PRP" in="1:subj" out="">it</W>
+<W id="145" tag="VBD" in="-2:vobj" out="-1:subj|1:pred|2:mod">was</W>
+<W id="146" tag="JJ" in="-1:pred" out="">quiet</W>
+<W id="147" tag="IN" in="-2:mod" out="1:nobj">in</W>
+<W id="148" tag="NNP" in="-1:nobj" out="">Kirovabad</W>
+<W id="149" tag="." in="-14:pnct" out="">.</W>
+</s>
+<s>
+<W id="152" tag="IN" in="6:mod" out="1:nobj|3:mod|4:pnct">In</W>
+<W id="153" tag="NNP" in="-1:nobj" out="">Baku</W>
+<W id="154" tag="IN" in="1:mod" out="">as</W>
+<W id="155" tag="RB" in="-3:mod" out="-1:mod">well</W>
+<W id="156" tag="," in="-4:pnct" out="">,</W>
+<W id="157" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
+<W id="158" tag="VBD" in="28:qobj" out="-6:mod|-1:subj|1:dobj|4:pnct|5:mod|27:pnct">seemed</W>
+<W id="159" tag="TO" in="-1:dobj" out="1:vobj">to</W>
+<W id="160" tag="VB" in="-1:vobj" out="-3:[subj]|1:pred">be</W>
+<W id="161" tag="JJR" in="-1:pred" out="">quieter</W>
+<W id="162" tag="," in="-4:pnct" out="">,</W>
+<W id="163" tag="RB" in="-5:mod" out="1:pobj">even</W>
+<W id="164" tag="IN" in="-1:pobj" out="7:vobj">though</W>
+<W id="165" tag="NNS" in="6:subj" out="1:mod">soldiers</W>
+<W id="166" tag="IN" in="-1:mod" out="2:nobj">in</W>
+<W id="167" tag="VBN" in="1:mod" out="">armoured</W>
+<W id="168" tag="NNS" in="-2:nobj" out="-1:mod|1:coord">vehicles</W>
+<W id="169" tag="CC" in="-1:coord" out="1:conj">and</W>
+<W id="170" tag="NNS" in="-1:conj" out="">trucks</W>
+<W id="171" tag="VBN" in="-7:vobj" out="-6:subj|1:dobj|3:pnct|4:coord">patrolled</W>
+<W id="172" tag="DT" in="-1:dobj" out="1:nobj">the</W>
+<W id="173" tag="NNS" in="-1:nobj" out="">streets</W>
+<W id="174" tag="," in="-3:pnct" out="">,</W>
+<W id="175" tag="CC" in="-4:coord" out="2:conj">and</W>
+<W id="176" tag="EX" in="1:expl" out="">there</W>
+<W id="177" tag="VBD" in="-2:conj" out="-1:expl|1:dobj">were</W>
+<W id="178" tag="NNS" in="-1:dobj" out="1:mod">demonstrations</W>
+<W id="179" tag="IN" in="-1:mod" out="1:nobj">in</W>
+<W id="180" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="181" tag="NN" in="-1:nobj" out="1:pobj">centre</W>
+<W id="182" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="183" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="184" tag="NN" in="-1:nobj" out="">city</W>
+<W id="185" tag="," in="-27:pnct" out="">,</W>
+<W id="186" tag="VBD" in="" out="-28:qobj|1:subj|8:pnct">informed</W>
+<W id="187" tag="DT" in="-1:subj" out="1:nobj">a</W>
+<W id="188" tag="NN" in="-1:nobj" out="1:pobj">spokesman</W>
+<W id="189" tag="IN" in="-1:pobj" out="1:nobj">for</W>
+<W id="190" tag="DT" in="-1:nobj" out="1:mod|3:nobj">the</W>
+<W id="191" tag="NNP" in="-1:mod" out="">Azerbaijani</W>
+<W id="192" tag="NNP" in="1:mod" out="">Foreign</W>
+<W id="193" tag="NNP" in="-3:nobj" out="-1:mod">Ministry</W>
+<W id="194" tag="." in="-8:pnct" out="">.</W>
+</s>

@@ -1,0 +1,19 @@
+> errors
+3: nogov
+29: 
+    29 pnct# 27: manygovs
+    29 conj 28: manygovs
+42: 
+    42 pnct# 40: manygovs
+    42 conj 41: manygovs
+61: nogov
+64: 
+    64 mod 61: manygovs
+    64 pnct# 61: manygovs
+76: nogov
+145: nogov
+158: 
+    158 pnct# 145: manygovs
+    158 nobj 157: manygovs
+168: nogov
+> redirect ./releases/cdt2/en/0675-en.info

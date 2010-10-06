@@ -1,0 +1,24 @@
+> errors
+6: nogov
+20: 
+    20 pnct# 6: manygovs
+    20 possd 18: manygovs
+25: nogov
+40: 
+    40 pnct# 36: manygovs
+    40 nobj 39: manygovs
+42: nogov
+52: nogov
+68: 
+    68 pnct# 52: manygovs
+    68 nobj 67: manygovs
+85: nogov
+95: nogov
+102: nogov
+112: nogov
+132: nogov
+151: nogov
+168: nogov
+192: nogov
+212: nogov
+> redirect ./releases/cdt2/en/1524-en.info

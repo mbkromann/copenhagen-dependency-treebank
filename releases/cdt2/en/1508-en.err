@@ -1,0 +1,9 @@
+> errors
+14: nogov
+26: nogov
+84: nogov
+135: nogov
+151: nogov
+174: nogov
+187: nogov
+> redirect ./releases/cdt2/en/1508-en.info

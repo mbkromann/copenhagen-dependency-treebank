@@ -1,0 +1,17 @@
+> errors
+12: 
+    12 dobj 11: manygovs
+    12 pnct# 11: manygovs
+13: nogov
+40: nogov
+58: nogov
+72: 
+    72 mod 58: manygovs
+    72 pnct# 58: manygovs
+93: nogov
+103: nogov
+118: nogov
+134: nogov
+187: nogov
+222: nogov
+> redirect ./releases/cdt2/en/0850-en.info

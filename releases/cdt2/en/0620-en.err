@@ -1,0 +1,16 @@
+> errors
+14: nogov
+46: nogov
+58: nogov
+64: nogov
+78: nogov
+97: nogov
+104: nogov
+116: nogov
+122: nogov
+147: nogov
+160: nogov
+166: nogov
+191: nogov
+200: nogov
+> redirect ./releases/cdt2/en/0620-en.info

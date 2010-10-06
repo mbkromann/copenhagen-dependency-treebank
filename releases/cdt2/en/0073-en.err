@@ -1,0 +1,20 @@
+> errors
+21: 
+    21 mod 20: manygovs
+    21 pnct# 20: manygovs
+32: nogov
+65: nogov
+81: 
+    81 err 65: manygovs
+    81 nobj 79: manygovs
+90: nogov
+102: nogov
+145: nogov
+188: 
+    188 mod 187: manygovs
+    188 pnct# 187: manygovs
+189: 
+    189 nobj 187: manygovs
+    189 pnct# 187: manygovs
+205: nogov
+> redirect ./releases/cdt2/en/0073-en.info

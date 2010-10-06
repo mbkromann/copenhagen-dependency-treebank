@@ -1,0 +1,248 @@
+1	6	_	CD	CD	id=1	3	mod	_	_
+2	p.m.	_	RB	RB	id=2	1	mod	_	_
+3	weather	_	VBP	VBP	id=3	0	ROOT	_	_
+
+1	EMPL	_	NNP	NNP	id=6	0	ROOT	_	_
+2	=	_	SYM	SYM	id=7	1	coord	_	_
+3	jid	_	NNP	NNP	id=8	2	conj	_	_
+4	SOURCE	_	NNP	NNP	id=9	1	conj	_	_
+5	=	_	SYM	SYM	id=10	4	coord	_	_
+6	met	_	VBD	VBD	id=11	5	conj	_	_
+
+1	TO	_	TO	TO	id=14	0	ROOT	_	_
+2	BE	_	VB	VB	id=15	1	vobj	_	_
+3	BROADCAST	_	NNP	NNP	id=16	2	vobj	_	_
+4	=	_	SYM	SYM	id=17	3	coord	_	_
+5	6	_	CD	CD	id=18	4	conj	_	_
+6	p.m.	_	RB	RB	id=19	5	mod	_	_
+7	READER	_	NNP	NNP	id=20	3	conj	_	_
+8	=	_	SYM	SYM	id=21	7	coord	_	_
+
+1	The	_	DT	DT	id=24	0	ROOT	_	_
+2	weather	_	NN	NN	id=25	1	nobj	_	_
+3	for	_	IN	IN	id=26	1	mod	_	_
+4	Thursday	_	NNP	NNP	id=27	3	nobj	_	_
+5	afternoon	_	NN	NN	id=28	4	nobj	_	_
+
+1	There	_	EX	EX	id=31	2	expl	_	_
+2	may	_	MD	MD	id=32	0	ROOT	_	_
+3	be	_	VB	VB	id=33	2	vobj	_	_
+4	a	_	DT	DT	id=34	3	pred	_	_
+5	bit	_	NN	NN	id=35	4	nobj	_	_
+6	of	_	IN	IN	id=36	5	pobj	_	_
+7	rain	_	NN	NN	id=37	6	nobj	_	_
+8	tonight	_	NN	NN	id=38	3	mod	_	_
+9	most	_	JJS	JJS	id=39	3	mod	_	_
+10	places	_	NNS	NNS	id=40	9	nobj	_	_
+11	,	_	,	,	id=41	2	pnct	_	_
+12	and	_	CC	CC	id=42	2	coord	_	_
+13	the	_	DT	DT	id=43	16	subj	_	_
+14	lowest	_	JJS	JJS	id=44	13	mod	_	_
+15	temperatures	_	NNS	NNS	id=45	13	nobj	_	_
+16	will	_	MD	MD	id=46	12	conj	_	_
+17	be	_	VB	VB	id=47	16	vobj	_	_
+18	between	_	IN	IN	id=48	19	mod	_	_
+19	10	_	CD	CD	id=49	17	pred	_	_
+20	and	_	CC	CC	id=50	19	coord	_	_
+21	15	_	CD	CD	id=51	20	conj	_	_
+22	degrees	_	NNS	NNS	id=52	19	nobj	_	_
+23	.	_	.	.	id=53	2	pnct	_	_
+
+1	Tomorrow	_	NN	NN	id=56	4	mod	_	_
+2	,	_	,	,	id=57	1	pnct	_	_
+3	there	_	EX	EX	id=58	4	expl	_	_
+4	will	_	MD	MD	id=59	0	ROOT	_	_
+5	be	_	VB	VB	id=60	4	vobj	_	_
+6	some	_	DT	DT	id=61	5	dobj	_	_
+7	sun	_	NN	NN	id=62	6	nobj	_	_
+8	-	_	:	:	id=63	4	pnct	_	_
+9	and	_	CC	CC	id=64	4	coord	_	_
+10	it	_	PRP	PRP	id=65	11	subj	_	_
+11	will	_	MD	MD	id=66	9	conj	_	_
+12	be	_	VB	VB	id=67	11	vobj	_	_
+13	dry	_	JJ	JJ	id=68	12	pred	_	_
+14	everywhere	_	RB	RB	id=69	12	mod	_	_
+15	.	_	.	.	id=70	4	pnct	_	_
+
+1	The	_	DT	DT	id=73	4	subj	_	_
+2	southern	_	JJ	JJ	id=74	1	mod	_	_
+3	regions	_	NNS	NNS	id=75	1	nobj	_	_
+4	may	_	MD	MD	id=76	0	ROOT	_	_
+5	be	_	VB	VB	id=77	4	vobj	_	_
+6	a	_	DT	DT	id=78	8	mod	_	_
+7	little	_	JJ	JJ	id=79	6	nobj	_	_
+8	cloudy	_	JJ	JJ	id=80	9	mod	_	_
+9	weather	_	NN	NN	id=81	5	dobj	_	_
+10	and	_	CC	CC	id=82	9	coord	_	_
+11	rain	_	NN	NN	id=83	10	conj	_	_
+12	early	_	RB	RB	id=84	5	mod	_	_
+13	in	_	IN	IN	id=85	12	mod	_	_
+14	the	_	DT	DT	id=86	13	nobj	_	_
+15	day	_	NN	NN	id=87	14	nobj	_	_
+16	.	_	.	.	id=88	4	pnct	_	_
+
+1	-	_	:	:	id=91	2	pnct	_	_
+2	Wind	_	NN	NN	id=92	0	ROOT	_	_
+3	,	_	,	,	id=93	2	pnct	_	_
+
+1	light	_	NN	NN	id=94	0	ROOT	_	_
+2	to	_	TO	TO	id=95	1	mod	_	_
+3	breezy	_	JJ	JJ	id=96	2	aobj	_	_
+4	,	_	,	,	id=97	1	pnct	_	_
+
+1	in	_	IN	IN	id=98	0	ROOT	_	_
+2	places	_	NNS	NNS	id=99	1	nobj	_	_
+
+1	brisk	_	JJ	JJ	id=100	0	ROOT	_	_
+
+1	from	_	IN	IN	id=101	0	ROOT	_	_
+2	the	_	DT	DT	id=102	1	nobj	_	_
+3	west	_	RB	RB	id=103	2	nobj	_	_
+4	and	_	CC	CC	id=104	3	coord	_	_
+5	north-west	_	JJ	JJ	id=105	4	conj	_	_
+6	,	_	,	,	id=106	1	pnct	_	_
+
+1	8-13	_	JJ	JJ	id=107	0	ROOT	_	_
+2	m	_	sec	sec	id=108	1	nobj	_	_
+
+1	Gale	_	NNP	NNP	id=111	2	mod	_	_
+2	warning	_	NN	NN	id=112	0	ROOT	_	_
+3	for	_	IN	IN	id=113	2	mod	_	_
+4	the	_	DT	DT	id=114	3	nobj	_	_
+5	Southeastern	_	NNP	NNP	id=115	4	mod	_	_
+6	Baltic	_	JJ	JJ	id=116	4	nobj	_	_
+7	,	_	,	,	id=117	4	pnct	_	_
+8	the	_	DT	DT	id=118	4	conj	_	_
+9	Baltic	_	JJ	JJ	id=119	8	nobj	_	_
+10	around	_	IN	IN	id=120	9	mod	_	_
+11	Bornholm	_	NNP	NNP	id=121	10	nobj	_	_
+12	,	_	,	,	id=122	4	pnct	_	_
+13	Kattegat	_	NNP	NNP	id=123	4	conj	_	_
+14	,	_	,	,	id=124	4	pnct	_	_
+15	Skagerrak	_	NNP	NNP	id=125	4	conj	_	_
+16	,	_	,	,	id=126	4	pnct	_	_
+17	Southern	_	NNP	NNP	id=127	18	mod	_	_
+18	Utsira	_	NNP	NNP	id=128	4	conj	_	_
+19	,	_	,	,	id=129	4	pnct	_	_
+20	Fisker	_	NNP	NNP	id=130	4	conj	_	_
+21	,	_	,	,	id=131	4	pnct	_	_
+22	Tampen	_	NNP	NNP	id=132	4	conj	_	_
+23	and	_	CC	CC	id=133	4	coord	_	_
+24	Viking	_	NNP	NNP	id=134	23	conj	_	_
+25	.	_	.	.	id=135	2	pnct	_	_
+
+1	For	_	IN	IN	id=138	9	mod	_	_
+2	the	_	DT	DT	id=139	1	nobj	_	_
+3	domestic	_	JJ	JJ	id=140	2	mod	_	_
+4	Danish	_	JJ	JJ	id=141	2	mod	_	_
+5	waters	_	NNS	NNS	id=142	2	nobj	_	_
+6	,	_	,	,	id=143	1	pnct	_	_
+7	the	_	DT	DT	id=144	9	subj	_	_
+8	gale	_	NN	NN	id=145	7	nobj	_	_
+9	is	_	VBZ	VBZ	id=146	0	ROOT	_	_
+10	not	_	RB	RB	id=147	9	mod	_	_
+11	expected	_	VBN	VBN	id=148	9	vobj	_	_
+12	until	_	IN	IN	id=149	9	pobj	_	_
+13	tonight	_	NN	NN	id=150	12	nobj	_	_
+14	,	_	,	,	id=151	9	pnct	_	_
+15	but	_	CC	CC	id=152	9	coord	_	_
+16	in	_	IN	IN	id=153	20	mod	_	_
+17	the	_	DT	DT	id=154	16	nobj	_	_
+18	evening	_	NN	NN	id=155	17	nobj	_	_
+19	there	_	EX	EX	id=156	20	expl	_	_
+20	is	_	VBZ	VBZ	id=157	15	conj	_	_
+21	a	_	DT	DT	id=158	20	pred	_	_
+22	warning	_	NN	NN	id=159	21	nobj	_	_
+23	for	_	IN	IN	id=160	22	pobj	_	_
+24	brisk	_	JJ	JJ	id=161	25	mod	_	_
+25	winds	_	NNS	NNS	id=162	23	nobj	_	_
+26	for	_	IN	IN	id=163	21	mod	_	_
+27	the	_	DT	DT	id=164	26	nobj	_	_
+28	Kattegat	_	NNP	NNP	id=165	27	nobj	_	_
+29	and	_	CC	CC	id=166	28	coord	_	_
+30	Limfjord	_	NNP	NNP	id=167	29	conj	_	_
+31	.	_	.	.	id=168	9	pnct	_	_
+
+1	West	_	NNP	NNP	id=171	0	ROOT	_	_
+2	and	_	CC	CC	id=172	1	coord	_	_
+3	north-west	_	JJ	JJ	id=173	2	conj	_	_
+4	,	_	,	,	id=174	1	pnct	_	_
+5	8-13	_	JJ	JJ	id=175	0	ROOT	_	_
+6	m	_	sec	sec	id=176	5	nobj	_	_
+7	.	_	.	.	id=177	1	pnct	_	_
+
+1	GROSS	_	NNP	NNP	id=180	0	ROOT	_	_
+2	=	_	SYM	SYM	id=181	1	coord	_	_
+3	00	_	CD	CD	id=182	2	conj	_	_
+4	:	_	:	:	id=183	3	pnct	_	_
+5	35	_	CD	CD	id=184	3	mod	_	_
+
+1	O	_	NNP	NNP	id=187	0	ROOT	_	_
+2	=	_	SYM	SYM	id=188	1	coord	_	_
+3	soviet	_	JJ	JJ	id=189	2	conj	_	_
+
+1	EMPL	_	NNP	NNP	id=192	0	ROOT	_	_
+2	=	_	SYM	SYM	id=193	1	coord	_	_
+3	mse	_	NN	NN	id=194	2	conj	_	_
+
+1	DATE	_	NNP	NNP	id=197	0	ROOT	_	_
+2	=	_	SYM	SYM	id=198	1	coord	_	_
+3	04099l	_	CD	CD	id=199	2	conj	_	_
+
+1	TO	_	TO	TO	id=202	0	ROOT	_	_
+2	BE	_	VB	VB	id=203	1	vobj	_	_
+3	BROADCAST	_	NNP	NNP	id=204	2	vobj	_	_
+4	=	_	SYM	SYM	id=205	3	coord	_	_
+5	6	_	CD	CD	id=206	4	conj	_	_
+6	:	_	:	:	id=207	5	pnct	_	_
+7	30	_	CD	CD	id=208	5	mod	_	_
+8	p.m	_	RB	RB	id=209	5	mod	_	_
+9	.	_	.	.	id=210	1	pnct	_	_
+
+1	READER	_	NNP	NNP	id=213	0	ROOT	_	_
+2	=	_	SYM	SYM	id=214	1	coord	_	_
+
+1	HEADING	_	NN	NN	id=217	0	ROOT	_	_
+
+1	(	_	(	(	id=220	5	pnct	_	_
+2	The	_	DT	DT	id=221	5	subj	_	_
+3	Soviet	_	NNP	NNP	id=222	2	mod	_	_
+4	Congress	_	NNP	NNP	id=223	2	nobj	_	_
+5	has	_	VBZ	VBZ	id=224	0	ROOT	_	_
+6	in	_	IN	IN	id=225	5	mod	_	_
+7	principle	_	NN	NN	id=226	6	nobj	_	_
+8	approved	_	VBD	VBD	id=227	5	vobj	_	_
+9	the	_	DT	DT	id=228	8	dobj	_	_
+10	dissolution	_	NN	NN	id=229	9	nobj	_	_
+11	of	_	IN	IN	id=230	10	pobj	_	_
+12	the	_	DT	DT	id=231	11	nobj	_	_
+13	Soviet	_	NNP	NNP	id=232	14	mod	_	_
+14	Union	_	NNP	NNP	id=233	12	nobj	_	_
+15	-	_	:	:	id=234	5	pnct	_	_
+16	but	_	CC	CC	id=235	5	coord	_	_
+17	,	_	,	,	id=236	16	pnct	_	_
+18	at	_	IN	IN	id=237	26	mod	_	_
+19	the	_	DT	DT	id=238	18	nobj	_	_
+20	same	_	JJ	JJ	id=239	19	mod	_	_
+21	time	_	NN	NN	id=240	19	nobj	_	_
+22	,	_	,	,	id=241	18	pnct	_	_
+23	President	_	NNP	NNP	id=242	25	title	_	_
+24	Mikhail	_	NNP	NNP	id=243	25	namef	_	_
+25	Gorbachev	_	NNP	NNP	id=244	26	subj	_	_
+26	has	_	VBZ	VBZ	id=245	16	conj	_	_
+27	suffered	_	VBN	VBN	id=246	26	vobj	_	_
+28	a	_	DT	DT	id=247	27	dobj	_	_
+29	political	_	JJ	JJ	id=248	28	mod	_	_
+30	defeat	_	NN	NN	id=249	28	nobj	_	_
+31	,	_	,	,	id=250	26	pnct	_	_
+32	because	_	IN	IN	id=251	26	mod	_	_
+33	his	_	PRP$	PRP$	id=252	36	subj	_	_
+34	draft	_	NN	NN	id=253	35	mod	_	_
+35	constitution	_	NN	NN	id=254	33	possd	_	_
+36	could	_	MD	MD	id=255	32	vobj	_	_
+37	not	_	RB	RB	id=256	36	mod	_	_
+38	gather	_	VB	VB	id=257	36	vobj	_	_
+39	enough	_	RB	RB	id=258	40	mod	_	_
+40	votes	_	VBZ	VBZ	id=259	38	dobj	_	_
+41	)	_	)	)	id=260	5	pnct	_	_
+

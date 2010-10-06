@@ -1,0 +1,15 @@
+> errors
+2: nogov
+38: nogov
+60: nogov
+105: 
+    105 subj 104: manygovs
+    105 subj 106: manygovs
+106: nogov
+123: nogov
+136: nogov
+175: nogov
+205: nogov
+238: nogov
+244: nogov
+> redirect ./releases/cdt2/en/1485-en.info

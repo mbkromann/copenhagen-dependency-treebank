@@ -1,0 +1,27 @@
+> errors
+8: nogov
+20: 
+    20 list 19: manygovs
+    20 pnct# 19: manygovs
+23: 
+    23 pnct# 8: manygovs
+    23 list 22: manygovs
+30: nogov
+37: nogov
+58: nogov
+66: nogov
+87: nogov
+115: nogov
+122: nogov
+130: nogov
+145: nogov
+180: nogov
+199: 
+    199 pred 198: manygovs
+    199 pnct# 198: manygovs
+201: nogov
+236: 
+    236 pnct# 228: manygovs
+    236 nobj 235: manygovs
+238: nogov
+> redirect ./releases/cdt2/en/0306-en.info

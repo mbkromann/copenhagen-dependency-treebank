@@ -1,0 +1,37 @@
+
+Yugo alert
+
+
+EMPL = jss SOURCE = afp TO BE BROADCAST 
+
+
+TIME = 5:00pm READER =
+
+
+The head of the Yugoslavian army says that his forces are on alert and are ready to fight any intervention that threatens the Bosnian Serbs' survival.  The army is ready to respond with arms to any aggression against Yugoslavia, says General Zivota Panic.  His statements are in the Serbian newspaper Borba.
+
+
+GROSS = 00:18
+
+
+resume6
+
+
+EMPL = CEG SOURCE = div.
+
+
+TO BE BROADCAST TIME = 4:30pm READER = CEG
+
+
+The Conservatives' foreign policy spokesperson Niels Ahlmann-Ohlsen says that Western Europe has passively watched the murders of the Serbian militias in Bosnia-Herzegovina far too long.  He believes that it is about time to ask the US to stop the war militarily.
+
+
+GROSS = 00:14
+
+
+Food and other help is now streaming to the Bosnian capital of Sarajevo.  Yesterday, 640 tonnes of supplies were brought into the city - today, 18 emergency assistance planes are expected at Sarajevo's airport.
+
+
+
+
+

@@ -1,0 +1,12 @@
+> errors
+2: nogov
+13: nogov
+59: nogov
+91: nogov
+118: nogov
+168: nogov
+190: nogov
+216: 
+    216 pnct# 200: manygovs
+    216 nobj 215: manygovs
+> redirect ./releases/cdt2/en/1472-en.info

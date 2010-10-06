@@ -1,0 +1,11 @@
+> status
+releases/cdt2/en/0544-en.tag:
+  syntax: final
+  tokens: 231
+  sentences: 10
+
+Error counts (use "errors" command for details): 
+      1  error
+      2 manygovs error
+     10 nogov error
+> redirect

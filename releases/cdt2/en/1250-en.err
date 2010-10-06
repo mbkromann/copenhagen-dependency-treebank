@@ -1,0 +1,29 @@
+> errors
+2: nogov
+19: nogov
+31: nogov
+39: 
+    39 pnct# 31: manygovs
+    39 possd 38: manygovs
+43: nogov
+51: nogov
+62: nogov
+68: nogov
+85: 
+    85 pnct# 68: manygovs
+    85 nobj 83: manygovs
+90: nogov
+100: nogov
+109: nogov
+128: 
+    128 pred 127: manygovs
+    128 pnct# 127: manygovs
+130: nogov
+172: nogov
+178: nogov
+198: nogov
+214: nogov
+217: 
+    217 pnct# 214: manygovs
+    217 possd 216: manygovs
+> redirect ./releases/cdt2/en/1250-en.info

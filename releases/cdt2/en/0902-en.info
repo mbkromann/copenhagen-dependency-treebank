@@ -1,0 +1,9 @@
+> status
+releases/cdt2/en/0902-en.tag:
+  syntax: final
+  tokens: 227
+  sentences: 17
+
+Error counts (use "errors" command for details): 
+     17 nogov error
+> redirect

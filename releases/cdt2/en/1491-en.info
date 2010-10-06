@@ -1,0 +1,11 @@
+> status
+releases/cdt2/en/1491-en.tag:
+  syntax: final
+  tokens: 226
+  sentences: 8
+
+Error counts (use "errors" command for details): 
+      1 badtype error
+      1  error
+      9 nogov error
+> redirect

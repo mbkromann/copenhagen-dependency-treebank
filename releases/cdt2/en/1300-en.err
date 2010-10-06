@@ -1,0 +1,12 @@
+> errors
+1: nogov
+15: nogov
+31: nogov
+98: nogov
+149: nogov
+183: nogov
+194: nogov
+208: 
+    208 pnct# 194: manygovs
+    208 pred 207: manygovs
+> redirect ./releases/cdt2/en/1300-en.info

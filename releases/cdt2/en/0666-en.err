@@ -1,0 +1,12 @@
+> errors
+1: nogov
+23: nogov
+40: nogov
+74: nogov
+103: nogov
+122: nogov
+145: nogov
+167: nogov
+186: nogov
+200: nogov
+> redirect ./releases/cdt2/en/0666-en.info
