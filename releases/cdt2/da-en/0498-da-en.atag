@@ -1,0 +1,193 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0498-da.tag" sign="_input"/>
+<alignFile key="b" href="../en/0498-en.tag" sign="_input"/>
+<align out="a43" type="" in="b1 b2" creator="-1" insign="Yugo alert" outsign="Jugo-alarm"/>
+<align out="a50" type="" in="b5" creator="-1" insign="EMPL" outsign="MEDARB"/>
+<align out="a51" type="" in="b6" creator="-1" insign="=" outsign="="/>
+<align out="a52" type="" in="b7" creator="-1" insign="jss" outsign="jss"/>
+<align out="a53" type="" in="b8" creator="-1" insign="SOURCE" outsign="KILDE"/>
+<align out="a54" type="" in="b9" creator="-1" insign="=" outsign="="/>
+<align out="a55" type="" in="b10" creator="-1" insign="afp" outsign="afp"/>
+<align out="a56" type="" in="b11 b12 b13" creator="-1" insign="TO BE BROADCAST" outsign="UDSENDES"/>
+<align out="a64" type="" in="b17" creator="-1" insign="=" outsign="="/>
+<align out="a67" type="" in="b22" creator="-1" insign="=" outsign="="/>
+<align out="a74" type="" in="b25 b26" creator="-1" insign="The head" outsign="Chefen"/>
+<align out="a75" type="" in="b27" creator="-1" insign="of" outsign="for"/>
+<align out="a76" type="" in="b28" creator="-1" insign="the" outsign="den"/>
+<align out="a77" type="" in="b29" creator="-1" insign="Yugoslavian" outsign="jugoslaviske"/>
+<align out="a78" type="" in="b30" creator="-1" insign="army" outsign="hær"/>
+<align out="a79" type="" in="b31" creator="-1" insign="says" outsign="siger"/>
+<align out="a82" type="" in="b33" creator="-1" insign="his" outsign="hans"/>
+<align out="a83" type="" in="b34" creator="-1" insign="forces" outsign="styrker"/>
+<align out="a84" type="" in="b35" creator="-1" insign="are" outsign="er"/>
+<align out="a88" type="" in="b38" creator="-1" insign="and" outsign="og"/>
+<align out="a89" type="" in="b39" creator="-1" insign="are" outsign="er"/>
+<align out="a93" type="" in="b42" creator="-1" insign="fight" outsign="bekæmpe"/>
+<align out="a94" type="" in="b43" creator="-1" insign="any" outsign="enhver"/>
+<align out="a95" type="" in="b44" creator="-1" insign="intervention" outsign="intervention"/>
+<align out="a98" type="" in="b46" creator="-1" insign="threatens" outsign="truer"/>
+<align out="a99" type="" in="b47" creator="-1" insign="the" outsign="de"/>
+<align out="a100" type="" in="b48" creator="-1" insign="Bosnian" outsign="bosniske"/>
+<align out="a102" type="" in="b50" creator="-1" insign="survival" outsign="overlevelse"/>
+<align out="a103" type="" in="b51" creator="-1" insign="." outsign="."/>
+<align out="a106" type="" in="b54 b55" creator="-1" insign="The army" outsign="Hæren"/>
+<align out="a107" type="" in="b56" creator="-1" insign="is" outsign="er"/>
+<align out="a111" type="" in="b59" creator="-1" insign="respond" outsign="svare"/>
+<align out="a112" type="" in="b60" creator="-1" insign="with" outsign="med"/>
+<align out="a115" type="" in="b63" creator="-1" insign="any" outsign="enhver"/>
+<align out="a116" type="" in="b64" creator="-1" insign="aggression" outsign="aggression"/>
+<align out="a117" type="" in="b65" creator="-1" insign="against" outsign="mod"/>
+<align out="a118" type="" in="b66" creator="-1" insign="Yugoslavia" outsign="Jugoslavien"/>
+<align out="a119" type="" in="b67" creator="-1" insign="," outsign=","/>
+<align out="a120" type="" in="b68" creator="-1" insign="says" outsign="siger"/>
+<align out="a121" type="" in="b69" creator="-1" insign="General" outsign="general"/>
+<align out="a124" type="" in="b72" creator="-1" insign="." outsign="."/>
+<align out="a127" type="" in="b75" creator="-1" insign="His" outsign="Hans"/>
+<align out="a128" type="" in="b76" creator="-1" insign="statements" outsign="udtalelser"/>
+<align out="a130" type="" in="b78" creator="-1" insign="in" outsign="i"/>
+<align out="a131" type="" in="b79" creator="-1" insign="the" outsign="den"/>
+<align out="a132" type="" in="b80" creator="-1" insign="Serbian" outsign="serbiske"/>
+<align out="a133" type="" in="b81" creator="-1" insign="newspaper" outsign="avis"/>
+<align out="a134" type="" in="b82" creator="-1" insign="Borba" outsign="Borba"/>
+<align out="a135" type="" in="b83" creator="-1" insign="." outsign="."/>
+<align out="a141" type="" in="b86" creator="-1" insign="GROSS" outsign="BRUTTO"/>
+<align out="a142" type="" in="b87" creator="-1" insign="=" outsign="="/>
+<align out="a143" type="" in="b88 b89 b90" creator="-1" insign="00 : 18" outsign="00:18"/>
+<align out="a150" type="" in="b93" creator="-1" insign="resume6" outsign="resume6"/>
+<align out="a157" type="" in="b96" creator="-1" insign="EMPL" outsign="MEDARB"/>
+<align out="a158" type="" in="b97" creator="-1" insign="=" outsign="="/>
+<align out="a159" type="" in="b98" creator="-1" insign="CEG" outsign="CEG"/>
+<align out="a160" type="" in="b99" creator="-1" insign="SOURCE" outsign="KILDE"/>
+<align out="a161" type="" in="b100" creator="-1" insign="=" outsign="="/>
+<align out="a182" type="" in="b118" creator="-1" insign="The" outsign="De"/>
+<align out="a185" type="" in="b122" creator="-1" insign="spokesperson" outsign="ordfører"/>
+<align out="a186" type="" in="b123" creator="-1" insign="Niels" outsign="Niels"/>
+<align out="a188" type="" in="b125" creator="-1" insign="says" outsign="siger"/>
+<align out="a191" type="" in="b127 b128" creator="-1" insign="Western Europe" outsign="Vesteuropa"/>
+<align out="a195" type="" in="b129" creator="-1" insign="has" outsign="har"/>
+<align out="a199" type="" in="b135" creator="-1" insign="the" outsign="de"/>
+<align out="a200" type="" in="b136" creator="-1" insign="Serbian" outsign="serbiske"/>
+<align out="a203" type="" in="b138" creator="-1" insign="in" outsign="i"/>
+<align out="a205" type="" in="b143" creator="-1" insign="." outsign="."/>
+<align out="a208" type="" in="b146" creator="-1" insign="He" outsign="Han"/>
+<align out="a209" type="" in="b147" creator="-1" insign="believes" outsign="mener"/>
+<align out="a212" type="" in="b149" creator="-1" insign="it" outsign="det"/>
+<align out="a213" type="" in="b150" creator="-1" insign="is" outsign="er"/>
+<align out="a214" type="" in="b151 b152" creator="-1" insign="about time" outsign="på_tide"/>
+<align out="a215" type="" in="b153" creator="-1" insign="to" outsign="at"/>
+<align out="a217" type="" in="b155 b156" creator="-1" insign="the US" outsign="USA"/>
+<align out="a220" type="" in="b158" creator="-1" insign="stop" outsign="standse"/>
+<align out="a221" type="" in="b159 b160" creator="-1" insign="the war" outsign="krigen"/>
+<align out="a222" type="" in="b161" creator="-1" insign="militarily" outsign="militært"/>
+<align out="a223" type="" in="b162" creator="-1" insign="." outsign="."/>
+<align out="a229" type="" in="b165" creator="-1" insign="GROSS" outsign="BRUTTO"/>
+<align out="a230" type="" in="b166" creator="-1" insign="=" outsign="="/>
+<align out="a231" type="" in="b167 b168 b169" creator="-1" insign="00 : 14" outsign="00:14"/>
+<align out="a238" type="" in="b172" creator="-1" insign="Food" outsign="Mad"/>
+<align out="a239" type="" in="b173" creator="-1" insign="and" outsign="og"/>
+<align out="a240" type="" in="b174" creator="-1" insign="other" outsign="anden"/>
+<align out="a243" type="" in="b177" creator="-1" insign="now" outsign="nu"/>
+<align out="a244" type="" in="b179" creator="-1" insign="to" outsign="til"/>
+<align out="a245" type="" in="b180" creator="-1" insign="the" outsign="den"/>
+<align out="a246" type="" in="b181" creator="-1" insign="Bosnian" outsign="bosniske"/>
+<align out="a249" type="" in="b185" creator="-1" insign="." outsign="."/>
+<align out="a252" type="" in="b188" creator="-1" insign="Yesterday" outsign="I_går"/>
+<align out="a259" type="" in="b196" creator="-1" insign="into" outsign="til"/>
+<align out="a260" type="" in="b197 b198" creator="-1" insign="the city" outsign="byen"/>
+<align out="a261" type="" in="b199" creator="-1" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a262" type="" in="b200" creator="-1" insign="today" outsign="i_dag"/>
+<align out="a264" type="" in="b202" creator="-1" insign="18" outsign="18"/>
+<align out="a268" type="" in="b210" creator="-1" insign="airport" outsign="lufthavn"/>
+<align out="a269" type="" in="b211" creator="-1" insign="." outsign="."/>
+<align out="a65" type="" in="b18 b19 b20" creator="0" insign="5 : 00pm" outsign="17"/>
+<align out="a63" type="f" in="b16" creator="0" insign="TIME" outsign="KL"/>
+<align out="a66" type="" in="b21" creator="0" insign="READER" outsign="OPLÆSER"/>
+<align out="a73" type="" in="b24" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a62" type="" in="b15" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a49" type="" in="b4" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a57" type="" in="b14" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a68" type="" in="b23" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a44" type="" in="b3" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a80" type="" in="a80" creator="0" insign="," outsign=","/>
+<align out="a81" type="" in="b32" creator="0" insign="that" outsign="at"/>
+<align out="a85" type="" in="a85" creator="0" insign="sat" outsign="sat"/>
+<align out="a86" type="" in="b36" creator="0" insign="on" outsign="i"/>
+<align out="a87" type="" in="b37" creator="0" insign="alert" outsign="alarmberedskab"/>
+<align out="a90" type="" in="b40" creator="0" insign="ready" outsign="parat"/>
+<align out="a91 a92" type="" in="b41" creator="0" insign="to" outsign="til at"/>
+<align out="a101" type="" in="b49" creator="0" insign="Serbs'" outsign="serberes"/>
+<align out="a108" type="" in="b57" creator="0" insign="ready" outsign="parat"/>
+<align out="a109 a110" type="" in="b58" creator="0" insign="to" outsign="til at"/>
+<align out="a113" type="" in="b61" creator="0" insign="arms" outsign="våben"/>
+<align out="a114" type="" in="b62" creator="0" insign="to" outsign="på"/>
+<align out="a105" type="" in="b53" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a104" type="" in="b52" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a122" type="" in="b70" creator="0" insign="Zivota" outsign="Zivota"/>
+<align out="a123" type="" in="b71" creator="0" insign="Panic" outsign="Panic"/>
+<align out="a129" type="f" in="b77" creator="0" insign="are" outsign="bringes"/>
+<align out="a140" type="" in="b85" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a126" type="" in="b74" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a136" type="" in="b84" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a125" type="" in="b73" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a162" type="" in="b101" creator="0" insign="div" outsign="div."/>
+<align out="a162" type="s" in="b102" creator="0" insign="." outsign="div."/>
+<align out="a169" type="" in="b105 b106 b107" creator="0" insign="TO BE BROADCAST" outsign="UDSENDES"/>
+<align out="a170" type="f" in="b108" creator="0" insign="TIME" outsign="KL"/>
+<align out="a171" type="" in="b109" creator="0" insign="=" outsign="="/>
+<align out="a172" type="" in="b110 b111 b112" creator="0" insign="4 : 30pm" outsign="1630"/>
+<align out="a174" type="" in="b114" creator="0" insign="=" outsign="="/>
+<align out="a175" type="" in="b115" creator="0" insign="CEG" outsign="CEG"/>
+<align out="a173" type="" in="b113" creator="-1" insign="READER" outsign="OPLÆSER"/>
+<align out="a163" type="" in="b103" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a144" type="" in="b91" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a151" type="" in="b94" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a149" type="" in="b92" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a168" type="" in="b104" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a156" type="" in="b95" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a183" type="" in="b119" creator="0" insign="Conservatives'" outsign="Konservatives"/>
+<align out="a189" type="" in="a189" creator="0" insign="," outsign=","/>
+<align out="a190" type="" in="b126" creator="0" insign="that" outsign="at"/>
+<align out="a192 a193" type="" in="b140 b141" creator="0" insign="far too" outsign="alt for"/>
+<align out="a194" type="" in="b142" creator="0" insign="long" outsign="længe"/>
+<align out="a196 a198" type="" in="b131" creator="0" insign="watched" outsign="set på"/>
+<align out="a197" type="" in="b130" creator="0" insign="passively" outsign="passivt"/>
+<align out="a202" type="f" in="b133" creator="0" insign="murders" outsign="myrderier"/>
+<align out="a201" type="" in="b137" creator="0" insign="militias" outsign="militsers"/>
+<align out="a201" type="" in="b132 b134" creator="0" insign="the of" outsign="militsers"/>
+<align out="a187" type="" in="b124" creator="-1" insign="Ahlmann-Ohlsen" outsign="Ahlmann-Ohlsen"/>
+<align out="a204" type="" in="b139" creator="0" insign="Bosnia-Herzegovina" outsign="Bosnien-Herzegovina"/>
+<align out="a210" type="" in="a210" creator="0" insign="," outsign=","/>
+<align out="a211" type="" in="b148" creator="0" insign="that" outsign="at"/>
+<align out="a216 a218" type="" in="b154" creator="0" insign="ask" outsign="bede om"/>
+<align out="a219" type="" in="b157" creator="-1" insign="to" outsign="at"/>
+<align out="a207" type="" in="b145" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a206" type="" in="b144" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a241" type="" in="b175" creator="0" insign="help" outsign="hjælp"/>
+<align out="a242" type="" in="b176 b178" creator="0" insign="is streaming" outsign="strømmer"/>
+<align out="a247" type="" in="b182" creator="0" insign="capital" outsign="hovedstad"/>
+<align out="a247" type="s" in="b183" creator="0" insign="of" outsign="hovedstad"/>
+<align out="a248" type="" in="b184" creator="0" insign="Sarajevo" outsign="Sarajevo"/>
+<align out="a228" type="" in="b164" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a237" type="" in="b171" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a224" type="" in="b163" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a232" type="" in="b170" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="b189" type="" in="b189" creator="0" insign="," outsign=","/>
+<align out="a256" type="" in="b190" creator="0" insign="640" outsign="640"/>
+<align out="a257" type="" in="b191" creator="0" insign="tonnes" outsign="tons"/>
+<align out="a257" type="s" in="b192" creator="0" insign="of" outsign="tons"/>
+<align out="a258" type="" in="b193" creator="0" insign="supplies" outsign="forsyninger"/>
+<align out="a253" type="" in="b194" creator="0" insign="were" outsign="blev"/>
+<align out="a255" type="" in="b195" creator="0" insign="brought" outsign="bragt"/>
+<align out="a254" type="s" in="b195" creator="0" insign="brought" outsign="der"/>
+<align out="b201" type="" in="b201" creator="0" insign="," outsign=","/>
+<align out="a263" type="" in="b206 b207" creator="0" insign="are expected" outsign="ventes"/>
+<align out="a265" type="" in="b203 b204 b205" creator="0" insign="emergency assistance planes" outsign="nødhjælpsfly"/>
+<align out="a251" type="" in="b187" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a250" type="" in="b186" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a266" type="" in="b208" creator="0" insign="at" outsign="til"/>
+<align out="a267" type="" in="b209" creator="0" insign="Sarajevo's" outsign="Sarajevos"/>
+<align out="a270" type="" in="b212" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a97" type="" in="b45" creator="0" insign="that" outsign="som"/>
+<align out="a96" type="" in="a96" creator="0" insign="," outsign=","/>
+<align out="a184" type="" in="b120 b121" creator="0" insign="foreign policy" outsign="udenrigspolitikske"/>
+</DTAGalign>
