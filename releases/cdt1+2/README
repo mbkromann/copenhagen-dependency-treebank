@@ -1,12 +1,15 @@
 This directory contains versions 1 and 2 of the Copenhagen Dependency
-Treebanks (CDT). Version 1 (the directory "da") was orginally called
-the Danish Dependency Treebank. It was used in the CoNLL 2006 shared task on
-dependency parsing, but has since been updated with bug fixes and an
-improved CoNLL conversion. Version 2 (the directories "da", "en", and
-"da-en") is a superset of Version 1 with additional annotations for
-English, using the same annotation scheme as in Version 1; it was
-originally referred to as the Parallel Danish-English Dependency
-Treebank. 
+Treebanks (CDT): 
+
+* Version 1 (the directory "da") was orginally called the Danish
+  Dependency Treebank. It was used in the CoNLL 2006 shared task on
+  dependency parsing, but has since been updated with bug fixes and an
+  improved CoNLL conversion. 
+	
+* Version 2 (the directories "da", "en", and "da-en") is a superset of
+  Version 1 with additional annotations for English, using the same
+  annotation scheme as in Version 1; it was originally referred to as
+  the Parallel Danish-English Dependency Treebank. 
 
 For the license and a description of the different versions
 of the treebanks, please consult:
@@ -17,6 +20,6 @@ Note that the planned version 3 of the CDT treebanks will be a
 an improved and revised superset of Version 2, with a more
 fine-grained inventory of syntactic relations. 
 
-
+--
 Matthias Buch-Kromann <matthias@buch-kromann.dk>
 

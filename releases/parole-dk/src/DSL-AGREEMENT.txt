@@ -1,0 +1,107 @@
+The agreement between Matthias Buch-Kromann and the Danish Society for
+Language and Literature about the dual licensing of the Danish PAROLE 
+corpus under the Gnu Public License.
+
+================================================================================
+
+Date: Fri, 2 Apr 2004 15:10:26 +0200
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: Jørg Asmussen <ja@dsl.dk>
+Subject: Re: Den Danske Dependenstræbank
+
+Kære Jørg 
+
+Tak for mødet i går, det var vældig hyggeligt. Jeg har lavet en
+distributionsklar version af Den Danske Dependenstræbank og herunder
+skrevet nogle licensbetingelser til DDT (indeholdt i følgedokumentet
+README). Som vi talte om i går, har jeg tænkt mig at distribuere DDT
+under en open-source licens (GNU Public License i filen LICENSE-GPL)
+så alle kan distribuere, bruge og modificere dependenstræbanken uden
+restriktioner, så længe alle deriverede værker også frigives under en
+tilsvarende licens. 
+
+Som ejere af ophavsretten til PAROLE-korpusset må I hellere selv kigge
+betingelserne igennem -- jeg tror ikke jeg har gjort noget I ikke kan
+stå inde for, men I må hellere lige selv checke det for en sikkerheds
+skyld. 
+
+For en god ordens skyld vil jeg påpege at GNU Public License
+forhindrer at et firma kan bruge dependenstræbanken til at udvikle et
+deriveret produkt, som ikke frigives under en open-source licens --
+det er nok en juridisk gråzone om dette kan være et problem hvis man
+fx bruger DDT til at inducere en maskingrammatik, som man
+efterfølgende ønsker at frigive under en restriktiv kommerciel licens
+(hvis man frigiver grammatikken under en open-source licens, er der
+naturligvis ikke noget problem). Jeg har ikke selv nogen afklaret
+holdning til hvad man bør gøre i et sådant tilfælde -- det afhænger
+nok af de konkrete omstændigheder. Så i stedet for at prøve at lave en
+principiel afklaring nu, foreslår jeg at vi bare tager spørgsmålet op
+i fællesskab hvis det nogensinde skulle blive aktuelt.
+
+Jeg har lagt to "usynlige" links ud, så I kan downloade den foreslåede
+distribution, i både ZIP (Windows) og TAR GZIP (UNIX) format:
+
+	http://www.id.cbs.dk/~mtk/treebank/files/ddt-1.0.zip
+	http://www.id.cbs.dk/~mtk/treebank/files/ddt-1.0.tgz
+
+Hvis I ikke har nogen indvendinger eller ændringsforslag til den
+distribuerede version, vil jeg lægge den endeligt ud på internettet
+når I har sagt god for det. 
+
+Venlige hilsner
+Matthias
+
+-- 
+Matthias Trautner Kromann    Dept of Computational Linguistics
+Email: mtk@id.cbs.dk         Copenhagen Business School
+Web: www.id.cbs.dk/~mtk      Bernhard Bangs Allé 17B
+Phone: (+45) 3815 3166       DK-2000 Frederiksberg C, DENMARK
+
+================================================================================
+
+Date: Mon, 05 Apr 2004 10:39:48 +0200
+From: Jørg Asmussen <ja@dsl.dk>
+Subject: Re: Den Danske Dependenstræbank
+To: Matthias Trautner Kromann <mtk@id.cbs.dk>
+Cc: Henrik Lorentzen <hl@dsl.dk>, Lars Trap-Jensen <ltj@dsl.dk>
+
+Kære Matthias
+
+> Tak for mødet i går, det var vældig hyggeligt. 
+
+I lige måde!
+
+> Som ejere af ophavsretten til PAROLE-korpusset må I hellere selv kigge
+> betingelserne igennem -- jeg tror ikke jeg har gjort noget I ikke kan
+> stå inde for, men I må hellere lige selv checke det for en sikkerheds
+> skyld. 
+
+Det ser godt ud, som det er (ved lejlighed skal vi lige have rettet 
+Nordling-Christensen til Norling-Christensen, men det er en petitesse).
+
+> Så i stedet for at prøve at lave en
+> principiel afklaring nu, foreslår jeg at vi bare tager spørgsmålet op
+> i fællesskab hvis det nogensinde skulle blive aktuelt.
+
+Enig.
+
+> Jeg har lagt to "usynlige" links ud, så I kan downloade den foreslåede
+> distribution, i både ZIP (Windows) og TAR GZIP (UNIX) format:
+> 
+> 	http://www.id.cbs.dk/~mtk/treebank/files/ddt-1.0.zip
+> 	http://www.id.cbs.dk/~mtk/treebank/files/ddt-1.0.tgz
+> 
+
+Jeg har downloadet dem, og vi lægger dem ud på vores hjemmeside straks 
+efter påske.
+
+> Hvis I ikke har nogen indvendinger eller ændringsforslag til den
+> distribuerede version, vil jeg lægge den endeligt ud på internettet
+> når I har sagt god for det. 
+> 
+
+Du skal være velkommen til at lægge materialet ud, som det er.
+
+Mange hilsener - og god påske
+Jørg
+

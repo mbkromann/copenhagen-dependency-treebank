@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# File
+file=$1
+
+# Line number
+lines=`wc -l $file | awk '{print $1}'`
+line=`grep -n '</body>' $file | awk -F: '{print $1}'`
+
+line=$(($lines-$line))
+
+# Print first $line lines
+tail -n $line $file
+

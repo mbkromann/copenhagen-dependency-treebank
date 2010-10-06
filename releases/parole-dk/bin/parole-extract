@@ -1,0 +1,52 @@
+#!/usr/bin/perl
+ 
+# Corpus file
+my $file = "CORPUS";
+
+# Begin and end tags
+my $btag = "<tei.2>";
+my $etag = "<\/tei.2>";
+
+# Variables
+my $segment;
+my $read = 0;
+my $line = 0;
+my $count = 0;
+
+# Open corpus file
+open("CORPUS", "< $file")
+	|| return die("Cannot open file $file for reading");
+
+# Read corpus file
+while (<CORPUS>) {
+	my $input = $_;
+
+	# Sentence begin
+	if ($input =~ /\s*$btag\s*/) { 
+		$segment = "";
+		$read = 1;
+		++$count;
+	} 
+	
+	# Read line in sentence
+	if ($read) {
+		$segment .= $input;
+	}
+
+	# Segment end
+	if ($input =~ /\s*$etag\s*/) {
+		if ($read) {
+			$file = sprintf("extract/%04i.tag", $count);
+			open("TAG", "> $file")
+				|| return die("Cannot open file $file for writing");
+			print TAG $segment;
+			close("TAG");
+		}
+		$read = 0;
+	} 
+}
+
+# Close corpus file
+close("CORPUS");
+
+

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# File
+file=$1
+
+# Line number
+line=`grep -n '<body>' $file | awk -F: '{print $1}'`
+line=$(($line-1))
+
+# Print first $line lines
+head -n $line $file
+
