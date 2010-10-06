@@ -1,0 +1,14 @@
+This directory contains version 2 of the Copenhagen Dependency
+Treebanks (CDT), originally referred to as the Parallel Danish-English Dependency
+Treebank. For the license and a description of the different versions
+of the treebanks, please consult:
+
+	http://code.google.com/p/copenhagen-dependency-treebank/wiki/CDT
+
+Version 3 of the CDT treebanks contains an improved and revised
+version of CDT2, with a more fine-grained inventory of syntactic
+relations. 
+
+
+Matthias Buch-Kromann <matthias@buch-kromann.dk>
+
