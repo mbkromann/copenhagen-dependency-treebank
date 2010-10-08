@@ -276,6 +276,27 @@ sub clear_edges {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/compile_ids.pl
+## ------------------------------------------------------------
+
+sub compile_ids {
+	my $self = shift;
+	my $ids = $self->var("ids", {});
+
+	for (my $i = 0; $i < $self->size(); ++$i) {
+		my $N = $self->node($i);
+		if (! $N->comment()) {
+			my $id = $N->var("id");
+			if (defined($ids->{$id})) {
+				warning("Nodes " . $ids->{$id} . " and $i have identical ids $id... skipping $i");
+			} else {
+				$ids->{$id} = $i;
+			}
+		}
+	}
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/component.pl
 ## ------------------------------------------------------------
 
@@ -1065,6 +1086,32 @@ sub id {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/id2node.pl
+## ------------------------------------------------------------
+
+sub id2node {
+	my $self = shift;
+	my $id = shift;
+	my $ids = $self->ids();
+
+	# Lookup id
+	return $ids->{$id};
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/ids.pl
+## ------------------------------------------------------------
+
+sub ids {
+	my $self = shift;
+	my $ids = $self->var("ids");
+	$ids = $self->var("ids", {})
+		if (! defined($ids));
+	return $ids;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/include.pl
 ## ------------------------------------------------------------
 
@@ -1280,6 +1327,24 @@ sub is_landing {
 
 	# Otherwise return 0
 	return 0;
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/isarel.pl
+## ------------------------------------------------------------
+
+sub isarel {
+	my $self = shift;
+	my $rel = shift;
+	my $superrel = shift;
+	my $relset = shift;
+
+	# Create matcher object
+	my $matcher = $self->interpreter()->edge_filter("isa($superrel)");
+
+	# Perform match
+	return $matcher->match($self, $rel);
 }
 
 
@@ -1741,7 +1806,7 @@ sub new {
 	my $self = { 
 		'nodes' => [], 
 		'boundaries' => [], 
-		'vars' => {}, 
+		'vars' => {'id' => undef}, 
 		'format' => {},
 		'imin' => -1,
 		'imax' => -1,
@@ -1839,6 +1904,28 @@ sub node_add {
 
 	# Insert new word into word list
 	splice(@{$self->nodes()}, $pos, 0, $node);
+
+	# Set node id
+	my $ids = $self->ids();
+	my $id = $node->var("id");
+	$id = $pos if (! defined($id));
+	if ($ids->{$id}) {
+		my $subid = 1;
+		while ($ids->{$id . ".$subid"}) {
+			++$subid;
+		}
+		$id = $id . "." . $subid;
+	}
+	$node->var("id", $id);
+	
+	# Recalculate graph ids
+	if ($pos == $nodes) {
+		# Last word: update incrementally
+		$ids->{$id} = $pos;
+	} else {
+		# Non-last word: recompile all ids
+		$self->compile_ids();
+	}
 
 	# Update edges in words at or after $pos
 	for (my $i = $pos; $i <= $nodes; ++$i) {
@@ -2658,10 +2745,10 @@ sub create_R_table_row {
 
 sub print_tag {
 	my $graph = shift;
-
+	
 	# Write XML file line by line
 	my $s = "";
-	foreach (my $i = 0; $i < $graph->size(); ++ $i) {
+	for (my $i = 0; $i < $graph->size(); ++ $i) {
 		my $N = $graph->node($i);
 		$s .= ($N->comment() 
 				? ($N->input() . "\n")

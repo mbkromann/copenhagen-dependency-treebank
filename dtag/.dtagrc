@@ -227,7 +227,7 @@ errordef -node nonobj my $msd = $n->svar("msd"); $msd =~ /^SP/ && scalar(grep {$
 errordef -node noante my $msd = $n->svar("msd"); my $govmsd = $gov ? $gov->svar("msd") : ""; $msd =~ /^[NP]/ && ! ($msd =~ /^(NP|PI|NC.*I)/ || $G->has_inedge($n, "ANA", "possd") || ($G->has_inedge($n, "nobj") && $govmsd =~ /^(N|P|A)/))
 
 # Error marking: edges
-errordef -edge badtype ! $G->is_known_edge($e->type())
+errordef -edge badtype $G->isarel($e->type(), "CDT1") || ! $G->is_known_edge($e->type())
 errordef -edge manygovs scalar(grep {$G->is_dependent($_) && $_->in() != $_->out()} @{$G->node($e->in())->in()}) > 1
 
 # Error styles

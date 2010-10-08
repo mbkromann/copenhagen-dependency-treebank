@@ -533,6 +533,159 @@ sub objects {
 # find $x@a & $y@b & $A@(a,b) & $A@($x,$y,$z,...):label & 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/_conll_msd2features_table.pl
+## ------------------------------------------------------------
+
+
+my $conll_msd2features_table = {
+    # adjective
+    'A' => [
+        # position 3
+        [ 'degree',
+          { 'A' => 'abs',
+            'C' => 'comp',
+            'P' => 'pos',
+            'S' => 'sup' } ],
+        # position 4
+        [ 'gender',
+          { 'C' => 'common',
+            'N' => 'neuter' } ],
+        # position 5
+        [ 'number',
+          { 'S' => 'sing',
+            'P' => 'plur' } ],
+        # position 6
+        [ 'case',
+          { 'G' => 'gen',
+            'U' => 'unmarked' } ],
+        # position 7
+        'none',
+        # position 8
+        [ 'def',
+          { 'D' => 'def',
+            'I' => 'indef' }],
+        # position 9
+        [ 'transcat',
+          { 'R' => 'adverbial',
+            'U' => 'unmarked' } ] ],
+    
+    # noun
+    'N' => [
+        # position 3
+        [ 'gender',
+          { 'C' => 'common',
+            'N' => 'neuter' } ],
+        # position 4
+        [ 'number',
+          { 'S' => 'sing',
+            'P' => 'plur' } ],
+        # position 5
+        [ 'case',
+          { 'G' => 'gen',
+            'U' => 'unmarked' } ],
+        # position 6
+        'none',
+        # position 7
+        'none',
+        # position 8
+        [ 'def',
+          { 'D' => 'def',
+            'I' => 'indef' } ] ],
+    
+    # pronoun
+    'P' => [
+        # position 3
+        [ 'person',
+          { '1' => '1',
+            '2' => '2',
+            '3' => '3' } ],
+        # position 4
+        [ 'gender',
+          { 'C' => 'common',
+            'N' => 'neuter' } ],
+        # position 5
+        [ 'number',
+          { 'S' => 'sing',
+            'P' => 'plur' } ],
+        # position 6
+        [ 'case',
+          { 'N' => 'nom',
+            'G' => 'gen',
+            'U' => 'unmarked' } ],
+        # position 7
+        [ 'possessor',
+          { 'S' => 'sing',
+            'P' => 'plur' } ],
+        # position 8
+        [ 'reflexive',
+          { 'N' => 'no',
+            'Y' => 'yes' } ],
+        # position 9
+        [ 'register',
+          { 'U' => 'unmarked',
+            'O' => 'obsolete',
+            'F' => 'formal',
+            'P' => 'polite' } ],
+        ],
+    
+    # adverb
+    'RG' => [
+        # position 3
+        [ 'degree',
+          { 'A' => 'abs',
+            'C' => 'comp',
+            'P' => 'pos',
+            'S' => 'sup',
+            'U' => 'unmarked' } ] ],
+    
+    # verb
+    'V' => [
+        # position 3
+        [ 'mood',
+          { 'D' => 'indic',
+            'M' => 'imper',
+            'P' => 'partic',
+            'G' => 'gerund',
+            'F' => 'infin' } ],
+        # position 4
+        [ 'tense',
+          { 'R' => 'present',
+            'A' => 'past' } ],
+        # position 5
+        [ 'person',
+          { '1' => '1',
+            '2' => '2',
+            '3' => '3' } ],
+        # position 6
+        [ 'number',
+          { 'S' => 'sing',
+            'P' => 'plur' } ],
+        # position 7
+        [ 'gender',
+          { 'C' => 'common',
+            'N' => 'neuter' } ],
+        # position 8
+        [ 'definiteness',
+          { 'D' => 'def',
+            'I' => 'indef' } ],
+        # position 9
+        [ 'transcat',
+          { 'A' => 'adject',
+            'R' => 'adverb',
+            'U' => 'unmarked' } ],
+        # position 10
+        [ 'voice',
+          { 'A' => 'active',
+            'P' => 'passive' } ],
+        # position 11
+        [ 'case',
+          { 'N' => 'nom',
+            'G' => 'gen',
+            'U' => 'unmarked' } ] ]
+    };
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/abort.pl
 ## ------------------------------------------------------------
 
@@ -2411,6 +2564,8 @@ sub cmd_del {
 	if ((! $graph->{'block_nodedel'}) && ! defined($etype)) {
 		# Delete node
 		splice(@{$graph->nodes()}, $nodein, 1);
+		my $id = $nin->var("id");
+		$graph->compile_ids();
 
 		# Update edges in nodes at or after $nodein
 		for (my $i = $nodein; $i < $graph->size(); ++$i) {
@@ -3146,6 +3301,8 @@ sub cmd_errors {
 	$to = $graph->size() - 1 if (! defined($to));
 
 	# Print error definitions
+	my $errors = {};
+	my $edgeerrors = {};
 	for (my $i = $from; $i <= $to; ++$i) {
 		# Skip comment nodes
 		my $node = $graph->node($i);
@@ -3156,18 +3313,45 @@ sub cmd_errors {
 		if ($node) {
 			foreach my $e (sort {$a->out() <=> $b->out()} @{$node->in()}) {
 				my @errorlist = @{$graph->errors_edge($e)};
-				push @edgeerrors, "    " . $e->as_string() . ": " 
-						. join(" ", map {$_->[0]} @errorlist) . "\n"
-					if (@errorlist);
+				foreach my $error (map {$_->[0]} @errorlist) {
+					$edgeerrors->{$error} = 1;
+					$errors->{$error} = [] 
+						if (! exists $errors->{$error});
+					push @{$errors->{$error}}, $e->as_string();
+				}
+				#push @edgeerrors, "    " . $e->as_string() . ": " 
+				#		. join(" ", map {$_->[0]} @errorlist) . "\n"
+				#	if (@errorlist);
 			}
 		}
 
 		# Test node errors
-		my @nodeerrors = @{$graph->errors_node($node)};
-		if (@nodeerrors || @edgeerrors) {
-			print "$i: " . join(" ", map {$_->[0]} @nodeerrors) . "\n";
-			print @edgeerrors;
+		foreach my $error (map {$_->[0]} @{$graph->errors_node($node)}) {
+			$errors->{$error} = [] 
+				if (! exists $errors->{$error});
+			push @{$errors->{$error}}, $i;
 		}
+		#if (@nodeerrors || @edgeerrors) {
+		#	print "$i: " . join(" ", map {$_->[0]} @nodeerrors) . "\n";
+		#	print @edgeerrors;
+		#}
+	}
+
+	# Print all node errors
+	foreach my $error (sort(keys(%$errors))) {
+		next if ($edgeerrors->{$error});
+		print "  " . $error . ": " . join(", ", sort {$a <=> $b} (@{$errors->{$error}})) . "\n";
+	}
+
+	# Print all edge errors
+	foreach my $error (sort(keys(%$errors))) {
+		next if (! $edgeerrors->{$error});
+		print "  " . $error . ": " . join(", ", sort 
+			{	my ($ain,$aout) = split(/[^0-9]+/, $a);
+				my ($bin,$bout) = split(/[^0-9]+/, $b);
+				return $ain <=> $bin || $aout <=> $aout;
+			} 
+			@{$errors->{$error}}) . "\n";
 	}
 
 	# Return
@@ -5540,6 +5724,18 @@ sub cmd_matches {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_merge.pl
+## ------------------------------------------------------------
+
+sub cmd_merge {
+	my $self = shift;
+	my $graph = shift;
+	my $files = shift;
+
+	return 1;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_move.pl
 ## ------------------------------------------------------------
 
@@ -5573,6 +5769,9 @@ sub cmd_move {
 		$edge->out(node_moved($edge->out(), $from, $to));
 		$graph->edge_add($edge);
 	}
+
+	# Recompile node ids
+	$graph->compile_ids();
 
 	# Mark graph as modified
     $graph->mtime(1);
@@ -6470,6 +6669,52 @@ sub cmd_pstep {
 	$self->cmd_return($graph);
 
 	# Return
+	return 1;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_redirect.pl
+## ------------------------------------------------------------
+
+my $OLDSTDOUT;
+my $NEWSTDOUT;
+
+sub cmd_redirect {
+	my $self = shift;
+	my $file = shift;
+
+	#!/usr/bin/perl
+	
+	if (defined($file)) {
+		# Save old STDOUT
+		if (! defined($OLDSTDOUT)) {
+			open $OLDSTDOUT, ">&STDOUT" or die "Can't dup STDOUT: $!";
+		}
+
+		# Close old file STDOUT
+		if (defined($NEWSTDOUT)) {
+			close($NEWSTDOUT);
+			$NEWSTDOUT = undef;
+		}
+
+		# Open new STDOUT
+		print STDERR "Redirecting STDOUT to $file\n";
+		open $NEWSTDOUT, '>', $file or die "Can't open new STDOUT: $!";
+		open STDOUT, ">&", $NEWSTDOUT or die "Can't redirect STDOUT: $!";
+		select STDOUT; $| = 1;    # make unbuffered
+	} else {
+		if ($OLDSTDOUT) {
+			open STDOUT, ">&", $OLDSTDOUT or die "Can't dup \$oldout: $!";
+			print "Redirecting to original STDOUT\n";
+		}
+
+		# Close old file STDOUT
+		if (defined($NEWSTDOUT)) {
+			close($NEWSTDOUT);
+			$NEWSTDOUT = undef;
+		}
+	}
+
 	return 1;
 }
 
@@ -7427,165 +7672,26 @@ sub cmd_save_atag {
 ##  auto-inserted from: Interpreter/cmd_save_conll.pl
 ## ------------------------------------------------------------
 
-my $conll_msd2features_table = {
-    # adjective
-    'A' => [
-        # position 3
-        [ 'degree',
-          { 'A' => 'abs',
-            'C' => 'comp',
-            'P' => 'pos',
-            'S' => 'sup' } ],
-        # position 4
-        [ 'gender',
-          { 'C' => 'common',
-            'N' => 'neuter' } ],
-        # position 5
-        [ 'number',
-          { 'S' => 'sing',
-            'P' => 'plur' } ],
-        # position 6
-        [ 'case',
-          { 'G' => 'gen',
-            'U' => 'unmarked' } ],
-        # position 7
-        'none',
-        # position 8
-        [ 'def',
-          { 'D' => 'def',
-            'I' => 'indef' }],
-        # position 9
-        [ 'transcat',
-          { 'R' => 'adverbial',
-            'U' => 'unmarked' } ] ],
-    
-    # noun
-    'N' => [
-        # position 3
-        [ 'gender',
-          { 'C' => 'common',
-            'N' => 'neuter' } ],
-        # position 4
-        [ 'number',
-          { 'S' => 'sing',
-            'P' => 'plur' } ],
-        # position 5
-        [ 'case',
-          { 'G' => 'gen',
-            'U' => 'unmarked' } ],
-        # position 6
-        'none',
-        # position 7
-        'none',
-        # position 8
-        [ 'def',
-          { 'D' => 'def',
-            'I' => 'indef' } ] ],
-    
-    # pronoun
-    'P' => [
-        # position 3
-        [ 'person',
-          { '1' => '1',
-            '2' => '2',
-            '3' => '3' } ],
-        # position 4
-        [ 'gender',
-          { 'C' => 'common',
-            'N' => 'neuter' } ],
-        # position 5
-        [ 'number',
-          { 'S' => 'sing',
-            'P' => 'plur' } ],
-        # position 6
-        [ 'case',
-          { 'N' => 'nom',
-            'G' => 'gen',
-            'U' => 'unmarked' } ],
-        # position 7
-        [ 'possessor',
-          { 'S' => 'sing',
-            'P' => 'plur' } ],
-        # position 8
-        [ 'reflexive',
-          { 'N' => 'no',
-            'Y' => 'yes' } ],
-        # position 9
-        [ 'register',
-          { 'U' => 'unmarked',
-            'O' => 'obsolete',
-            'F' => 'formal',
-            'P' => 'polite' } ],
-        ],
-    
-    # adverb
-    'RG' => [
-        # position 3
-        [ 'degree',
-          { 'A' => 'abs',
-            'C' => 'comp',
-            'P' => 'pos',
-            'S' => 'sup',
-            'U' => 'unmarked' } ] ],
-    
-    # verb
-    'V' => [
-        # position 3
-        [ 'mood',
-          { 'D' => 'indic',
-            'M' => 'imper',
-            'P' => 'partic',
-            'G' => 'gerund',
-            'F' => 'infin' } ],
-        # position 4
-        [ 'tense',
-          { 'R' => 'present',
-            'A' => 'past' } ],
-        # position 5
-        [ 'person',
-          { '1' => '1',
-            '2' => '2',
-            '3' => '3' } ],
-        # position 6
-        [ 'number',
-          { 'S' => 'sing',
-            'P' => 'plur' } ],
-        # position 7
-        [ 'gender',
-          { 'C' => 'common',
-            'N' => 'neuter' } ],
-        # position 8
-        [ 'definiteness',
-          { 'D' => 'def',
-            'I' => 'indef' } ],
-        # position 9
-        [ 'transcat',
-          { 'A' => 'adject',
-            'R' => 'adverb',
-            'U' => 'unmarked' } ],
-        # position 10
-        [ 'voice',
-          { 'A' => 'active',
-            'P' => 'passive' } ],
-        # position 11
-        [ 'case',
-          { 'N' => 'nom',
-            'G' => 'gen',
-            'U' => 'unmarked' } ] ]
-    };
-
-
 sub cmd_save_conll {
 	my $self = shift;
 	my $graph = shift;
 	my $file = shift;
+	my $filterstring = "isa(SYN+PRIM)";
 
+	# Edge filter
+	my $edge_filter = $self->edge_filter("$filterstring");
+	my $pos = $graph->layout($self, 'pos') || sub {return 0};
+	my $edgefiltersub = sub { 
+		return defined($edge_filter) && defined($_) 
+			? $edge_filter->match($graph, $_->type())
+			: ! &$pos($graph, $_); 
+		};
+		
 	# Calculate line numbers
 	my $lines = [];
 	my $line = 0;
 	my $rightboundary = 0;
 	my $boundaries = {};
-	my $pos = $graph->layout($self, 'pos') || sub {return 0};
 	foreach (my $i = 0; $i < $graph->size(); ++$i) {
 		my $node = $graph->node($i);
 		my $input = $node->input();
@@ -7593,11 +7699,11 @@ sub cmd_save_conll {
 			$lines->[$i] = ++$line;
 
             # Update right boundary
-            foreach my $e (grep {! &$pos($graph, $_)} @{$node->in()}) {
+            foreach my $e (grep {&$edgefiltersub($_)} @{$node->in()}) {
                 my $n = $e->out();
                 $rightboundary = $n if ($n > $rightboundary);
             }
-            foreach my $e (grep {! &$pos($graph, $_)} @{$node->out()}) {
+            foreach my $e (grep {&$edgefiltersub($_)} @{$node->out()}) {
                 my $n = $e->in();
                 $rightboundary = $n if ($n > $rightboundary);
             }
@@ -7626,7 +7732,8 @@ sub cmd_save_conll {
 		my $input = $node->input() || "??";
 		if (! $node->comment()) {
 			# ID
-			my $ID = $lines->[$i];
+			my $ID = $node->var('id');
+			$ID = $lines->[$i] if (! defined($ID));
 
 			# FORM
 			my $FORM = $input;
@@ -7638,34 +7745,33 @@ sub cmd_save_conll {
 
 			# CPOSTAG and POSTAG
 			my $msd = $node->var($tag) || "??";
-			my $msd = $node->var($tag) || "??";
 			my $POSTAG = $node->var($tag) || "??";
 			my $CPOSTAG = $node->var($ctag) || "??";
 			my $FEATS = "";
 
 			# Special Parole tag filtering
 			if ($tag eq "msd") {
-				my $msd = $POSTAG = $CPOSTAG = $node->var($tag);
+				my $msd = my $XPOSTAG = $POSTAG = $CPOSTAG = $node->var($tag);
 
 				# Compute cpostag
-				$CPOSTAG =~ s/^(.).*/$1/g;
-				$CPOSTAG = "SP" if ($CPOSTAG eq "S");
-				$CPOSTAG = "RG" if ($CPOSTAG eq "R");
+				$XPOSTAG =~ s/^(.).*/$1/g;
+				$XPOSTAG = "SP" if ($XPOSTAG eq "S");
+				$XPOSTAG = "RG" if ($XPOSTAG eq "R");
 
 				# Compute postag
-				$POSTAG =~ s/^(..).*$/$1/;
-				$POSTAG = "I" if ($POSTAG =~ /^I/);
-				$POSTAG = "U" if ($POSTAG =~ /^U/);
+				$CPOSTAG =~ s/^(..).*$/$1/;
+				$CPOSTAG = "I" if ($CPOSTAG =~ /^I/);
+				$CPOSTAG = "U" if ($CPOSTAG =~ /^U/);
 
 				# FEATS
-				$FEATS = conll_msd2features($CPOSTAG, 
+				$FEATS = conll_msd2features($XPOSTAG, 
 					substr($msd, min(length($msd), 2)));
 				$FEATS = ($FEATS =~ /^_$/) ? "" : "$FEATS";
 			}
-			$FEATS = ($FEATS ne "" ? "$FEATS|" : "") . "line=$i"; 
+			$FEATS = ($FEATS ne "" ? "$FEATS|" : "") . "id=$ID"; 
 
 			# HEAD AND DEPREL
-			my $edges = [grep {! &$pos($graph, $_)} @{$node->in()}];
+			my $edges = [grep {&$edgefiltersub($_)} @{$node->in()}];
 			my ($head, $type) = (0, "ROOT");
 			if (scalar(@$edges) >= 1) {
 				# More than one primary parent
@@ -7696,7 +7802,7 @@ sub cmd_save_conll {
 
 			# Print head and type
 			printf CONLL "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n",
-				$ID, $FORM,
+				$lines->[$i], $FORM,
 				($LEMMA || "_"),
 				($CPOSTAG || "_"), ($POSTAG || "_"), ($FEATS || "_"),
 				($HEAD || "0"), ($DEPREL || "_"), $PHEAD, $PDEPREL;
@@ -9739,6 +9845,10 @@ sub do {
 		$success = $self->cmd_pstep($graph, $2)
 			if ($cmd =~ /^\s*pstep(\s+([-+0-9]+))?\s*$/);
 
+		# Redirect: redirect <$file>
+		$success = $self->cmd_redirect($2)
+			if ($cmd =~ /^\s*redirect(\s+(\S+))?\s*$/);
+
 		# Relations: relations
 		$success = $self->cmd_relations($graph, $2)
 			if ($cmd =~ /^\s*relations\s*(\s+([^ ]*))?$/);
@@ -9982,6 +10092,28 @@ sub dump {
 
 sub dumper {
 	Dumper(@_);
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/edge_filter.pl
+## ------------------------------------------------------------
+
+sub edge_filter {
+	my $self = shift;
+	my $string = shift;
+
+	my $table = $self->var("edgefilters");
+	$self->var("edgefilters", $table = {}) if (! defined($table));
+
+	# Use existing filter, if present
+	my $filter = $table->{$string};
+	return $filter if (defined($filter));
+
+	# Create new filter
+	my $xstring = " $string ";
+	$filter = $table->{$string} = $self->query_parser()->RelationPattern(\$xstring);
+	#print "Defined filter: $filter\n";
+	return $filter;
 }
 
 ## ------------------------------------------------------------
