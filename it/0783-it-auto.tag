@@ -32,9 +32,9 @@
 <p>
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
-<W lemma="ci" msd="PR" tag="PRO:refl" in="2:robj" out="">Ci</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="19:qobj" out="-2:pnct|1:preds|18:pnct">siamo</W>
-<W lemma="rendere" msd="VAP" tag="VER:pper" in="-1:preds" out="-2:robj|1:dobj">resi</W>
+<W lemma="ci" msd="PR" tag="PRO:refl" in="2:iobj" out="">Ci</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="19:qobj" out="-2:pnct|1:vobj|18:pnct">siamo</W>
+<W lemma="rendere" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:iobj|1:dobj">resi</W>
 <W lemma="conto" msd="NC" tag="NOM" in="-1:dobj" out="1:nobj">conto</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:nobj" out="13:vobj">che</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
@@ -102,8 +102,8 @@
 <W lemma="estero" msd="AN" tag="ADJ" in="-1:attr" out="">estera</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-4:conj" out="-1:coord|1:nobj|4:resem">gli</W>
-<W lemma="stile|stilo" msd="NC" tag="NOM" in="-1:nobj" out="">stili</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="stile|stilo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">stili</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="vita" msd="NC" tag="NOM" in="-1:nobj" out="">vita</W>
 <W lemma="come" msd="CS" tag="CON" in="-4:resem" out="2:nobj">come</W>
 <W lemma=":" msd="XP" tag="PON" in="-13:pnct" out="">:</W>
@@ -139,8 +139,8 @@
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="fase" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">fase</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
-<W lemma="riduzione" msd="NC" tag="NOM" in="-1:nobj" out="">riduzione</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dei</W>
+<W lemma="riduzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj">riduzione</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.dobj" out="1:nobj">dei</W>
 <W lemma="costo" msd="NC" tag="NOM" in="-1:nobj" out="">costi</W>
 <W lemma="." msd="XP" tag="SENT" in="-17:pnct" out="">.</W>
 </s>
@@ -210,13 +210,13 @@
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="infatti" msd="RG" tag="ADV" in="" out="-1:pnct|1:pnct">infatti</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="si" msd="PP" tag="PRO:pers" in="2:robj" out="">si</W>
+<W lemma="si" msd="PP" tag="PRO:pers" in="" out="">si</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="-18:conj" out="-8:loc|1:vobj|14:pnct|16:source|28:pnct">è</W>
-<W lemma="dichiarare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:robj|1:dobj">dichiarato</W>
+<W lemma="dichiarare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:dobj">dichiarato</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
-<W lemma="fallimento" msd="NC" tag="NOM" in="-1:nobj" out="">fallimento</W>
+<W lemma="fallimento" msd="NC" tag="NOM" in="-1:nobj" out="2:pobj.subj">fallimento</W>
 <W lemma="sia" msd="CS" tag="CON" in="3:correl" out="">sia</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj|3:conj">del</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-2:pobj.subj" out="1:nobj|3:conj">del</W>
 <W lemma="giornale" msd="NC" tag="NOM" in="-1:nobj" out="">giornale</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="1:coord" out="-3:correl">che</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-3:conj" out="-1:coord|1:nobj|5:appr">del</W>

@@ -159,8 +159,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj²">inizio.Per</W>
 <W lemma="ogni" msd="AN" tag="ADJ" in="-1:nobj²" out="1:nobj">ogni</W>
 <W lemma="cialda" msd="NC" tag="NOM" in="-1:nobj" out="">cialda</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="usare" msd="VADR" tag="VER:pres" in="" out="-1:robj|2:dobj|6:pnct">usa</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
+<W lemma="usare" msd="VADR" tag="VER:pres" in="" out="2:dobj|6:pnct">usa</W>
 <W lemma="circa" msd="RG" tag="ADV" in="1:quant" out="">circa</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-2:dobj" out="-1:quant|1:nobj">1</W>
 <W lemma="decilitro" msd="NC" tag="NOM" in="-1:nobj" out="">decilitro</W>
@@ -173,8 +173,8 @@
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="3:subj" out="1:nobj">Le</W>
 <W lemma="cialda" msd="NC" tag="NOM" in="-1:nobj" out="">cialde</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="servire" msd="VADR" tag="VER:pres" in="" out="-3:subj|-1:robj|1:man|5:time|7:pnct|8:accom|20:pnct">servono</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="1:dobj" out="">si</W>
+<W lemma="servire" msd="VADR" tag="VER:pres" in="" out="-3:subj|-1:dobj|1:man|5:time|7:pnct|8:accom|20:pnct">servono</W>
 <W lemma="croccante" msd="AN" tag="ADJ" in="-1:man" out="2:conj">croccanti</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="dorare" msd="VAP" tag="VER:pper" in="-2:conj" out="-1:coord">dorate</W>
@@ -205,8 +205,8 @@
 <s>
 <p>
 <s>
-<W lemma="agnello" msd="NC" tag="NOM" in="" out="1:man|3:attr|4:pnct">Agnello</W>
-<W lemma="al" msd="SP+P" tag="PRE:det" in="-1:man" out="1:nobj">al</W>
+<W lemma="agnello" msd="NC" tag="NOM" in="" out="1:goal|3:attr|4:pnct">Agnello</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-1:goal" out="1:nobj">al</W>
 <W lemma="forno" msd="NC" tag="NOM" in="-1:nobj" out="">forno</W>
 <W lemma="ripieno" msd="AN" tag="ADJ" in="-3:attr" out="">ripieno</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>

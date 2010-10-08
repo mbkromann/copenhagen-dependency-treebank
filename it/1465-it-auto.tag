@@ -30,8 +30,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="3:subj" out="1:nobj">il</W>
 <W lemma="parlamento" msd="NC" tag="NOM" in="-1:nobj" out="">Parlamento</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="1:subj" out="">si</W>
-<W lemma="riunire" msd="VADR" tag="VER:futu" in="-4:vobj" out="-3:subj|-1:subj|1:man|2:pnct">riunirà</W>
-<W lemma="nuovamente" msd="RG" tag="ADV" in="-1:man" out="">nuovamente</W>
+<W lemma="riunire" msd="VADR" tag="VER:futu" in="-4:vobj" out="-3:subj|-1:subj|1:iter|2:pnct">riunirà</W>
+<W lemma="nuovamente" msd="RG" tag="ADV" in="-1:iter" out="">nuovamente</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="desiderare" msd="VADR" tag="VER:pres" in="-12:vobj" out="-11:subj|-8:pnct|-7:time|1:vobj">desidera</W>
 <W lemma="presentare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">presentare</W>
@@ -56,9 +56,9 @@
 <W lemma="un" msd="PI" tag="DET:indef" in="-4:dobj" out="1:nobj">un</W>
 <W lemma="reato" msd="NC" tag="NOM" in="-1:nobj" out="">reato</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-6:dobj" out="1:nobj">il</W>
-<W lemma="contagio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|5:pobj.subj">contagio</W>
+<W lemma="contagio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj.dobj|5:pobj.subj">contagio</W>
 <W lemma="consapevole" msd="AN" tag="ADJ" in="-1:attr" out="">consapevole</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="-2:pobj.dobj" out="1:nobj">di</W>
 <W lemma="altri|altro" msd="PI" tag="PRO:indef" in="-1:nobj" out="1:nobj">altri</W>
 <W lemma="soggetto" msd="NC" tag="NOM" in="-1:nobj" out="">soggetti</W>
 <W lemma="da" msd="SP" tag="PRE" in="-5:pobj.subj" out="1:nobj">da</W>
@@ -71,16 +71,16 @@
 <W lemma="." msd="XP" tag="SENT" in="-50:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="&quot;" msd="XP" tag="PON" in="9:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="PON" in="5:pnct" out="">"</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="Jan" msd="NP" tag="NPR" in="2:namef" out="">Jan</W>
+<W lemma="Jan" msd="NP" tag="NPR" in="2:namef" out="-5:pnct">Jan</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:namel" out="">Købke</W>
 <W lemma="Christensen" msd="NP" tag="NPR" in="2:subj" out="-2:namef|-1:namel">Christensen</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="riferire" msd="VADR" tag="VER:pres" in="" out="-9:pnct|-2:subj|-1:robj|18:pnct">riferisce</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
+<W lemma="riferire" msd="VADR" tag="VER:pres" in="" out="-2:subj|18:pnct">riferisce</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="2:nobj|4:relr">al</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attr" out="">trentaquattrenne</W>
 <W lemma="haitiano" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr">haitiano</W>
@@ -89,8 +89,8 @@
 <W lemma="accusare" msd="VAP" tag="VER:pper" in="-1:preds" out="">accusato</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:vobj">di</W>
 <W lemma="avere|riavere" msd="VAF" tag="VER:infi" in="-1:vobj" out="2:vobj">avere</W>
-<W lemma="consapevolmente" msd="RG" tag="ADV" in="1:quant" out="">consapevolmente</W>
-<W lemma="contagiare" msd="VAP" tag="VER:pper" in="-2:vobj" out="-1:quant|1:dobj|3:inst">contagiato</W>
+<W lemma="consapevolmente" msd="RG" tag="ADV" in="1:man" out="">consapevolmente</W>
+<W lemma="contagiare" msd="VAP" tag="VER:pper" in="-2:vobj" out="-1:man|1:dobj|3:inst">contagiato</W>
 <W lemma="altro" msd="PI" tag="PRO:indef" in="-1:dobj" out="1:nobj">altre</W>
 <W lemma="persona" msd="NC" tag="NOM" in="-1:nobj" out="">persone</W>
 <W lemma="con" msd="SP" tag="PRE" in="-3:inst" out="1:nobj">con</W>
@@ -132,8 +132,8 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="aspettare" msd="VADR" tag="VER:futu" in="8:qobj" out="-1:pnct|1:dobj|6:pnct|7:pnct">Aspetteremo</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="sentenza" msd="NC" tag="NOM" in="-1:nobj" out="">sentenza</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dell'</W>
+<W lemma="sentenza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj">sentenza</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.dobj" out="1:nobj">dell'</W>
 <W lemma="haitiano" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">haitiano</W>
 <W lemma="accusare" msd="VAP" tag="VER:pper" in="-1:attr" out="">accusato</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-6:pnct" out="">"</W>

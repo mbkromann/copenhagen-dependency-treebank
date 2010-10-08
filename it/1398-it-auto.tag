@@ -49,9 +49,9 @@
 <W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">in</W>
 <W lemma="vario|varo" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">vari</W>
 <W lemma="paese" msd="NC" tag="NOM" in="-1:nobj" out="3:attr">paesi</W>
-<W lemma="in" msd="SP" tag="PRE" in="2:attr" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="PRE" in="2:quant" out="1:nobj">in</W>
 <W lemma="passato" msd="NC" tag="NOM" in="-1:nobj" out="">passato</W>
-<W lemma="socialista" msd="AN" tag="ADJ" in="-3:attr" out="-2:attr">socialisti</W>
+<W lemma="socialista" msd="AN" tag="ADJ" in="-3:attr" out="-2:quant">socialisti</W>
 <W lemma="." msd="XP" tag="SENT" in="-22:pnct" out="">.</W>
 </s>
 </p>
@@ -109,8 +109,8 @@
 <s>
 <W lemma="ma" msd="CS" tag="CON" in="9:coord" out="">Ma</W>
 <W lemma="a" msd="SP" tag="PRE" in="8:epi" out="1:nobj|3:pnct">a</W>
-<W lemma="quanto" msd="RG" tag="ADV" in="-1:nobj" out="1:relr">quanto</W>
-<W lemma="parere" msd="VADR" tag="VER:pres" in="-1:relr" out="">pare</W>
+<W lemma="quanto" msd="RG" tag="ADV" in="-1:nobj" out="1:vobj">quanto</W>
+<W lemma="parere" msd="VADR" tag="VER:pres" in="-1:vobj" out="">pare</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="2:nobj">lo</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="1:attr" out="">stesso</W>
@@ -159,8 +159,8 @@
 <p>
 <s>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="4:subj" out="1:nobj">Questo</W>
-<W lemma="punto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">punto</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
+<W lemma="punto" msd="NC" tag="NOM" in="-1:nobj" out="">punto</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
 <W lemma="vista" msd="NC" tag="NOM" in="-1:nobj" out="">vista</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-4:subj|2:eval|5:preds|38:pnct">è</W>
 <W lemma="-" msd="XP" tag="PON" in="1:pnct" out="">-</W>

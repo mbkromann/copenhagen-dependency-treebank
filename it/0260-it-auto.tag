@@ -1,12 +1,12 @@
 <p>
 <s>
-<W lemma="box" msd="NC" tag="NOM" in="" out="1:nobj|6:nobj|7:pnct|13:nobj">Box</W>
+<W lemma="box" msd="NC" tag="NOM" in="" out="1:nobj|7:pnct|13:nobj|16:pnct">Box</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">64</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-6:nobj" out="">Linderöd</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Linderöd</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="Svezia" msd="NP" tag="NPR" in="5:namef" out="">Svezia</W>
 </s>
@@ -15,8 +15,8 @@
 <s>
 <W lemma="idiota" msd="NC" tag="NOM" in="-13:nobj" out="-5:namef|2:relr">Idiota</W>
 <W lemma="chi" msd="PT" tag="PRO:rela" in="1:subj" out="">chi</W>
-<W lemma="lavorare" msd="VADR" tag="VER:pres" in="-2:relr" out="-1:subj|1:pnct">lavora</W>
-<W lemma="." msd="XP" tag="SENT" in="-1:pnct" out="">.</W>
+<W lemma="lavorare" msd="VADR" tag="VER:pres" in="-2:relr" out="-1:subj">lavora</W>
+<W lemma="." msd="XP" tag="SENT" in="-16:pnct" out="">.</W>
 </s>
 </p>
 <p>
@@ -27,8 +27,8 @@
 <W lemma="come" msd="SP" tag="PRE" in="-1:nobj" out="4:relr">come</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="3:subj" out="1:nobj">un</W>
 <W lemma="disoccupato" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupato</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="sentire" msd="VADR" tag="VER:pres" in="-4:relr" out="-3:subj|-1:robj|1:preds|2:cause|5:pnct">sente</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
+<W lemma="sentire" msd="VADR" tag="VER:pres" in="-4:relr" out="-3:subj|1:preds|2:cause|5:pnct">sente</W>
 <W lemma="ridicolo" msd="AN" tag="ADJ" in="-1:preds" out="">ridicolo</W>
 <W lemma="perché" msd="RG" tag="ADV" in="-2:cause" out="1:vobj">perché</W>
 <W lemma="desiderare" msd="VADR" tag="VER:pres" in="-1:vobj" out="1:vobj">desidera</W>
@@ -60,10 +60,10 @@
 </s>
 <s>
 <W lemma="(" msd="XP" tag="PON" in="1:pnct" out="">(</W>
-<W lemma="foto" msd="NC" tag="NOM" in="11:qobj" out="-1:pnct|1:pnct|4:pnct">Foto</W>
+<W lemma="foto" msd="NC" tag="NOM" in="11:qobj" out="-1:pnct|1:pnct|3:agent|4:pnct">Foto</W>
 <W lemma=":" msd="XP" tag="PON" in="-1:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Bent</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:namef">Rej</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:agent" out="-1:namef">Rej</W>
 <W lemma=")" msd="XP" tag="PON" in="-4:pnct" out="">)</W>
 <p>
 <s>
@@ -91,8 +91,8 @@
 <W lemma="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="">lavoro</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="mi" msd="PP" tag="PRO:pers" in="2:dobj" out="">mi</W>
-<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="-7:time|1:preds|7:conj|17:pnct">sono</W>
-<W lemma="iscrivere" msd="VAP" tag="VER:pper" in="-1:preds" out="-2:dobj">iscritta</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="-7:time|1:vobj|7:conj|17:pnct">sono</W>
+<W lemma="iscrivere" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:dobj">iscritta</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="2:nobj">a</W>
 <W lemma="vario|varo" msd="AN" tag="ADJ" in="1:attr" out="">vari</W>
 <W lemma="corso" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">corsi</W>
@@ -118,8 +118,8 @@
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-2:time|1:vobj|6:man|10:conj|15:pnct|19:conj|36:pnct">ho</W>
 <W lemma="inviare" msd="VAP" tag="VER:pper" in="-1:vobj" out="2:dobj">inviato</W>
 <W lemma="innumerevole" msd="AN" tag="ADJ" in="1:attr" out="">innumerevoli</W>
-<W lemma="domanda" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr">domande</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="domanda" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:pobj.dobj">domande</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj" out="1:nobj">di</W>
 <W lemma="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="">lavoro</W>
 <W lemma="rispondere" msd="VAG" tag="VER:geru" in="-6:man" out="">rispondendo</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:nobj">agli</W>

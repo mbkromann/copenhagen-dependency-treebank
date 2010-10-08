@@ -2,8 +2,8 @@
 <s>
 <W lemma="di" msd="SP" tag="PRE" in="4:dobj" out="1:nobj">Di</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="">cosa</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-1:robj|1:dobj|2:goal|16:pnct">ha</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="1:subj" out="">si</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:dobj|2:goal|16:pnct">ha</W>
 <W lemma="bisogno" msd="NC" tag="NOM" in="-1:dobj" out="-4:dobj">bisogno</W>
 <W lemma="perché" msd="CS" tag="CON" in="-2:goal" out="3:vobj">perché</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="2:subj" out="1:nobj">una</W>
@@ -47,10 +47,10 @@
 <W lemma="ci" msd="PR" tag="PRO:refl" in="1:dobj" out="">ci</W>
 <W lemma="trasportare" msd="VADR" tag="VER:futu" in="-8:xpl" out="-1:dobj|1:goal|7:pnct|15:conj|30:pnct">trasporteranno</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:nobj">per</W>
-<W lemma="molto" msd="PI" tag="PRO:indef" in="-1:nobj" out="1:nobj|3:nobj">molti</W>
+<W lemma="molto" msd="PI" tag="PRO:indef" in="-1:nobj" out="1:nobj|3:conj">molti</W>
 <W lemma="chilometro" msd="NC" tag="NOM" in="-1:nobj" out="">chilometri</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="molto" msd="PI" tag="PRO:indef" in="-3:nobj" out="-1:coord|1:nobj">molti</W>
+<W lemma="molto" msd="PI" tag="PRO:indef" in="-3:conj" out="-1:coord|1:nobj">molti</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="7:coord" out="">e</W>
@@ -65,10 +65,10 @@
 <W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">i</W>
 <W lemma="piede" msd="NC" tag="NOM" in="-1:nobj" out="">piedi</W>
-<W lemma="trasportare" msd="VAF" tag="VER:infi" in="-5:¹subj" out="1:@dir¹|3:@loc">trasportarci</W>
-<W lemma="per" msd="SP" tag="PRE" in="-1:@dir¹" out="1:nobj">per</W>
+<W lemma="trasportare" msd="VAF" tag="VER:infi" in="-5:¹subj" out="">trasportarci</W>
+<W lemma="per" msd="SP" tag="PRE" in="" out="1:nobj">per</W>
 <W lemma="chilometro" msd="NC" tag="NOM" in="-1:nobj" out="">chilometri</W>
-<W lemma="su" msd="SP" tag="PRE" in="-3:@loc" out="1:nobj">su</W>
+<W lemma="su" msd="SP" tag="PRE" in="" out="1:nobj">su</W>
 <W lemma="sentiero" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|4:conj">sentieri</W>
 <W lemma="sterrare" msd="VAP" tag="VER:pper" in="-1:attr" out="">sterrati</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
@@ -125,8 +125,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">gli</W>
 <W lemma="stivale" msd="NC" tag="NOM" in="-1:nobj" out="">stivali</W>
 <W lemma="dannare|dare" msd="VADR" tag="VER:pres" in="-8:conj" out="-5:coord|-4:contr|-2:subj|1:dobj|4:pnct|7:relpa">danno</W>
-<W lemma="sostegno" msd="NC" tag="NOM" in="-1:dobj" out="">sostegno</W>
-<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:nobj">alle</W>
+<W lemma="sostegno" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj.dobj">sostegno</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="-1:pobj.dobj" out="1:nobj">alle</W>
 <W lemma="caviglia" msd="NC" tag="NOM" in="-1:nobj" out="">caviglie</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="2:dobj" out="1:nobj">cosa</W>
@@ -191,10 +191,10 @@
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="9:subj" out="1:nobj|4:relr">Il</W>
 <W lemma="materiale" msd="NC" tag="NOM" in="-1:nobj" out="">materiale</W>
-<W lemma="in" msd="SP" tag="PRE" in="2:time" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="PRE" in="3:inst" out="1:nobj">in</W>
 <W lemma="cui" msd="PT" tag="PRO:rela" in="-1:nobj" out="">cui</W>
-<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="-4:relr" out="-2:time|1:vobj|2:subj">sono</W>
-<W lemma="fare" msd="VAP" tag="VER:pper" in="-1:vobj" out="">fatte</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="-4:relr" out="1:vobj|2:subj">sono</W>
+<W lemma="fare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-3:inst">fatte</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-2:subj" out="1:nobj">le</W>
 <W lemma="scarpa" msd="NC" tag="NOM" in="-1:nobj" out="">scarpe</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
@@ -206,19 +206,19 @@
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="3:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">le</W>
 <W lemma="calzatura" msd="NC" tag="NOM" in="-1:nobj" out="">calzature</W>
-<W lemma="essere" msd="VADR" tag="VER:cpre" in="-3:vobj" out="-2:subj|1:preds|4:relr|5:pnct|6:cond">siano</W>
+<W lemma="essere" msd="VADR" tag="VER:cpre" in="-3:vobj" out="-2:subj|1:preds|4:conj|5:pnct|6:cond">siano</W>
 <W lemma="ampio" msd="AN" tag="ADJ" in="-1:preds" out="">ampie</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="stringare" msd="VADR" tag="VER:pres" in="-4:relr" out="-2:coord|-1:neg">stringano</W>
+<W lemma="stringare" msd="VADR" tag="VER:pres" in="-4:conj" out="-2:coord|-1:neg">stringano</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="se" msd="CS" tag="CON" in="-6:cond" out="1:neg|3:vobj">se</W>
 <W lemma="no" msd="RG" tag="ADV" in="-1:neg" out="">no</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:subj" out="">si</W>
 <W lemma="rischiare" msd="VADR" tag="VER:pres" in="-3:vobj" out="-1:subj|1:dobj|9:pnct|14:conj">rischia</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="formazione" msd="NC" tag="NOM" in="-1:nobj" out="">formazione</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="formazione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj">formazione</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj" out="1:nobj">di</W>
 <W lemma="vescica" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">vesciche</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">nei</W>
 <W lemma="punto" msd="NC" tag="NOM" in="-1:nobj" out="2:attr">punti</W>

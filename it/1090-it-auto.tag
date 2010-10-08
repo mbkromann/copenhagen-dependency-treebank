@@ -6,10 +6,10 @@
 <W lemma="Christensen" msd="NP" tag="NPR" in="-3:appr" out="-1:namef|1:pnct">Christensen</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="insieme" msd="RG" tag="ADV" in="-4:accom" out="">insieme</W>
-<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:nobj|3:nobj">al</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:nobj|3:appr">al</W>
 <W lemma="collega" msd="NC" tag="NOM" in="-1:nobj" out="3:attr">collega</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:namef" out="">Henning</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:nobj" out="-1:namef">Nielsen</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:appr" out="-1:namef">Nielsen</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-3:attr" out="1:nobj">del</W>
 <W lemma="museo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">museo</W>
 <W lemma="archeologico" msd="AN" tag="ADJ" in="-1:attr" out="">archeologico</W>
@@ -46,8 +46,8 @@
 <W lemma="contemporaneamente" msd="RG" tag="ADV" in="2:time" out="-1:pnct|1:pnct">contemporaneamente</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="-6:loc|-2:time|1:vobj|3:subj|31:pnct">sono</W>
-<W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:preds">stati</W>
-<W lemma="scoprire" msd="VAP" tag="VER:pper" in="-1:preds" out="">scoperti</W>
+<W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:vobj">stati</W>
+<W lemma="scoprire" msd="VAP" tag="VER:pper" in="-1:vobj" out="">scoperti</W>
 <W lemma="altri|altro" msd="PI" tag="PRO:indef" in="-3:subj" out="1:nobj|2:pnct">altri</W>
 <W lemma="reperto" msd="NC" tag="NOM" in="-1:nobj" out="">reperti</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
@@ -120,8 +120,8 @@
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-10:relpa" out="-3:subj|-1:time|1:vobj">hanno</W>
 <W lemma="celebrare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:dobj">celebrato</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
-<W lemma="superamento" msd="NC" tag="NOM" in="-1:nobj" out="">superamento</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
+<W lemma="superamento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj">superamento</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.dobj" out="1:nobj">del</W>
 <W lemma="loro" msd="PO" tag="PRO:poss" in="-1:nobj" out="1:possd">loro</W>
 <W lemma="corso" msd="NC" tag="NOM" in="-1:possd" out="1:attr">corso</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
@@ -163,8 +163,8 @@
 <W lemma="gruppo" msd="NC" tag="NOM" in="-1:nobj" out="">gruppo</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
 <W lemma="collega" msd="NC" tag="NOM" in="-1:nobj" out="">colleghi</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="esibire" msd="VADR" tag="VER:futu" in="" out="-7:accom|-1:robj|1:time|2:man|16:pnct">esibirà</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
+<W lemma="esibire" msd="VADR" tag="VER:futu" in="" out="-7:accom|1:time|2:man|16:pnct">esibirà</W>
 <W lemma="sabato" msd="NC" tag="NOM" in="-1:time" out="">sabato</W>
 <W lemma="in" msd="SP" tag="PRE" in="-2:man" out="1:nobj">in</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">un</W>

@@ -80,10 +80,10 @@
 <W lemma="rifugiato" msd="NC" tag="NOM" in="-1:nobj" out="">rifugiati</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="potere" msd="VADR" tag="VER:cpre" in="-7:vobj" out="-6:subj|-1:neg|1:vobj|7:pnct">possano</W>
-<W lemma="cavare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:man¹">cavarsela</W>
+<W lemma="cavare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:man¹|3:loc¹">cavarsela</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:man¹" out="1:nobj">da</W>
 <W lemma="sole|solo" msd="NC" tag="NOM" in="-1:nobj" out="">soli</W>
-<W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="1:nobj">nella</W>
+<W lemma="nel" msd="SP+P" tag="PRE:det" in="-3:loc¹" out="1:nobj">nella</W>
 <W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">società</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">danese</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
@@ -116,8 +116,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj|3:relr">gli</W>
 <W lemma="allievo" msd="NC" tag="NOM" in="-1:nobj" out="">allievi</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="1:subj" out="">che</W>
-<W lemma="uscire" msd="VADR" tag="VER:pres" in="-3:relr" out="-1:subj">escono</W>
-<W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dalle</W>
+<W lemma="uscire" msd="VADR" tag="VER:pres" in="-3:relr" out="-1:subj|1:@dir">escono</W>
+<W lemma="dal" msd="SP+P" tag="PRE:det" in="-1:@dir" out="1:nobj">dalle</W>
 <W lemma="scuola" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">scuole</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">dell'</W>
 <W lemma="obbligo" msd="NC" tag="NOM" in="-1:nobj" out="">obbligo</W>
@@ -137,8 +137,8 @@
 <W lemma="per" msd="SP" tag="PRE" in="4:goal" out="1:nobj">Per</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">gli</W>
 <W lemma="immigrato" msd="NC" tag="NOM" in="-1:nobj" out="">immigrati</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="trattare" msd="VADR" tag="VER:pres" in="" out="-4:goal|-1:robj|4:pnct|11:<pobj|14:pnct">tratta</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
+<W lemma="trattare" msd="VADR" tag="VER:pres" in="" out="-4:goal|4:pnct|11:<pobj|14:pnct">tratta</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">41</W>
 <W lemma="percento" msd="NC" tag="NOM" in="-1:nobj" out="">percento</W>
@@ -155,9 +155,9 @@
 <W lemma="." msd="XP" tag="SENT" in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="il" msd="PD" tag="DET:def" in="10:subj" out="1:nobj">Il</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">31</W>
-<W lemma="percento" msd="NC" tag="NOM" in="-1:nobj" out="">percento</W>
+<W lemma="il" msd="PD" tag="DET:def" in="10:subj" out="2:nobj">Il</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">31</W>
+<W lemma="percento" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">percento</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
 <W lemma="tutto" msd="PI" tag="PRO:indef" in="-1:nobj" out="1:nobj">tutti</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">gli</W>
@@ -225,11 +225,11 @@
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-13:subj|1:preds|8:pnct">è</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="2:nobj">in</W>
 <W lemma="costante" msd="AN" tag="ADJ" in="1:attr" out="">costante</W>
-<W lemma="crescita" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">crescita</W>
-<W lemma="dal" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">dagli</W>
+<W lemma="crescita" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">crescita</W>
+<W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="1:nobj">dagli</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="2:nobj">anni</W>
-<W lemma="'" msd="XP" tag="PON" in="1:+" out="">'</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-2:nobj" out="-1:+">80</W>
+<W lemma="'" msd="XP" tag="PON" in="1:pnct" out="">'</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-2:nobj" out="-1:pnct">80</W>
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
 </s>
 </p>

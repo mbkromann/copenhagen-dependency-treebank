@@ -38,8 +38,8 @@
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="ma" msd="CS" tag="CON" in="2:discmark" out="">Ma</W>
-<W lemma="dove" msd="RG" tag="ADV" in="" out="1:vobj">dove</W>
-<W lemma="andare" msd="VADR" tag="VER:futu" in="-1:vobj" out="-3:pnct|-2:discmark|1:pnct">andrà</W>
+<W lemma="dove" msd="RG" tag="ADV" in="" out="1:conj">dove</W>
+<W lemma="andare" msd="VADR" tag="VER:futu" in="-1:conj" out="-3:pnct|-2:discmark|1:pnct">andrà</W>
 <W lemma="?" msd="XP" tag="SENT" in="-1:pnct" out="">?</W>
 </s>
 <s>
@@ -116,8 +116,8 @@
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
 <W lemma="lo" msd="PP" tag="PRO:pers" in="1:dobj" out="">Lo</W>
-<W lemma="sapere" msd="VADR" tag="VER:pres" in="" out="-7:pnct|-2:pnct|-1:dobj|1:xtop|11:conj">so</W>
-<W lemma="che" msd="CS" tag="CON" in="-1:xtop" out="3:vobj">che</W>
+<W lemma="sapere" msd="VADR" tag="VER:pres" in="" out="-7:pnct|-2:pnct|-1:dobj|11:conj">so</W>
+<W lemma="che" msd="CS" tag="CON" in="" out="3:vobj">che</W>
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">non</W>
 <W lemma="ci" msd="PR" tag="PRO:refl" in="1:dobj" out="">ci</W>
 <W lemma="conoscere" msd="VADR" tag="VER:cpre" in="-3:vobj" out="-2:neg|-1:dobj|1:time|3:pnct">conosciamo</W>

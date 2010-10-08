@@ -22,8 +22,8 @@
 <W lemma="esperimentare" msd="VAM" tag="VER:impe" in="-1:dobj" out="6:goal">esperimenti</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">i</W>
-<W lemma="gene|genio" msd="NC" tag="NOM" in="-1:nobj" out="">geni</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">delle</W>
+<W lemma="gene|genio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj">geni</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.dobj" out="1:nobj">delle</W>
 <W lemma="fragola" msd="NC" tag="NOM" in="-1:nobj" out="">fragole</W>
 <W lemma="per" msd="SP" tag="PRE" in="-6:goal" out="1:vobj">per</W>
 <W lemma="rendere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">rendere</W>
@@ -38,9 +38,9 @@
 <p>
 <s>
 <W lemma="*" msd="XS" tag="SYM" in="5:pnct" out="">*</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="4:subj" out="1:nobj">Le</W>
-<W lemma="piare" msd="VAG" tag="VER:ppre" in="-1:nobj" out="">piante</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="4:subj" out="1:attr">Le</W>
+<W lemma="piare" msd="VAG" tag="VER:ppre" in="-1:attr" out="1:pobj.dobj">piante</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj" out="1:nobj">di</W>
 <W lemma="tabacco" msd="NC" tag="NOM" in="-1:nobj" out="">tabacco</W>
 <W lemma="potere" msd="VADR" tag="VER:pres" in="" out="-5:pnct|-4:subj|1:vobj|17:pnct">possono</W>
 <W lemma="essere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:vobj">essere</W>
@@ -85,9 +85,9 @@
 <W lemma="settore" msd="NC" tag="NOM" in="-1:nobj" out="">settore</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">della</W>
 <W lemma="silvicoltura" msd="NC" tag="NOM" in="-1:nobj" out="">silvicoltura</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="cercare" msd="VADR" tag="VER:pres" in="" out="-6:pnct|-5:subj|-1:robj|1:dobj|22:pnct">cerca</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="1:vobj">di</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
+<W lemma="cercare" msd="VADR" tag="VER:pres" in="" out="-6:pnct|-5:subj|22:pnct">cerca</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="1:vobj">di</W>
 <W lemma="ottenere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">ottenere</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:dobj" out="1:nobj|5:relr">un</W>
 <W lemma="ormone" msd="NC" tag="NOM" in="-1:nobj" out="">ormone</W>
@@ -169,8 +169,8 @@
 <W lemma="tempo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">tempo</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-19:pnct|-18:subj|-3:eval|1:preds|6:pnct">è</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:preds" out="1:nobj">una</W>
-<W lemma="priorità" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">priorità</W>
-<W lemma="tra" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">tra</W>
+<W lemma="priorità" msd="NC" tag="NOM" in="-1:nobj" out="1:time">priorità</W>
+<W lemma="tra" msd="SP" tag="PRE" in="-1:time" out="1:nobj">tra</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">i</W>
 <W lemma="ricercatore" msd="NC" tag="NOM" in="-1:nobj" out="">ricercatori</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>

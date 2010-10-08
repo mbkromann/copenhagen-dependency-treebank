@@ -1,11 +1,11 @@
 <p>
 <s>
-<W lemma="&quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
-<W lemma="ma" msd="CS" tag="CON" in="1:coord" out="">Ma</W>
-<W lemma="caro" msd="AN" tag="ADJ" in="" out="-2:pnct|-1:coord|1:pnct|2:cause">cara</W>
-<W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="perché" msd="CS" tag="CON" in="-2:cause" out="1:vobj">perché</W>
-<W lemma="venire" msd="VADR" tag="VER:pres" in="-1:vobj" out="1:man|2:man|4:pnct">vieni</W>
+<W lemma="&quot;" msd="XP" tag="PON" in="5:pnct" out="">"</W>
+<W lemma="ma" msd="CS" tag="CON" in="4:coord" out="1:voc|2:pnct">Ma</W>
+<W lemma="caro" msd="AN" tag="ADJ" in="-1:voc" out="">cara</W>
+<W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
+<W lemma="perché" msd="CS" tag="CON" in="" out="1:vobj">perché</W>
+<W lemma="venire" msd="VADR" tag="VER:pres" in="-1:vobj" out="-5:pnct|-4:coord|1:man|2:man|4:pnct">vieni</W>
 <W lemma="qui" msd="RG" tag="ADV" in="-1:man" out="">qui</W>
 <W lemma="da" msd="SP" tag="PRE" in="-2:man" out="1:attr">da</W>
 <W lemma="solo" msd="AN" tag="ADJ" in="-1:attr" out="">sola</W>
@@ -59,8 +59,8 @@
 <W lemma="senza" msd="SP" tag="PRE" in="-8:man" out="1:vobj">senza</W>
 <W lemma="sapere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:man|2:dobj">saper</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
-<W lemma="cosa" msd="NC" tag="NOM" in="-2:dobj" out="1:¹vobj">cosa</W>
-<W lemma="fare" msd="VAF" tag="VER:infi" in="-1:¹vobj" out="">farsene</W>
+<W lemma="cosa" msd="NC" tag="NOM" in="-2:dobj" out="1:vobj">cosa</W>
+<W lemma="fare" msd="VAF" tag="VER:infi" in="-1:vobj" out="">farsene</W>
 <W lemma="." msd="XP" tag="SENT" in="-25:pnct" out="">.</W>
 </s>
 <s>
@@ -135,7 +135,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="&quot;" msd="XP" tag="PON" in="8:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="PON" in="19:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -143,7 +143,7 @@
 <W lemma="se" msd="CS" tag="CON" in="14:cond" out="3:vobj">Se</W>
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">non</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="2:dobj" out="">si</W>
-<W lemma="essere" msd="VADA" tag="VER:cimp" in="-3:vobj" out="-8:pnct|-2:neg|1:vobj|7:pnct">fosse</W>
+<W lemma="essere" msd="VADA" tag="VER:cimp" in="-3:vobj" out="-2:neg|1:vobj|7:pnct">fosse</W>
 <W lemma="trovare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:dobj|1:@loc">trovata</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:@loc" out="1:nobj">in</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">una</W>
@@ -154,7 +154,7 @@
 <W lemma="il" msd="PD" tag="DET:def" in="3:subj" out="1:nobj">l'</W>
 <W lemma="invito" msd="NC" tag="NOM" in="-1:nobj" out="">invito</W>
 <W lemma="il" msd="PD" tag="DET:def" in="2:iobj" out="">le</W>
-<W lemma="essere" msd="VA" tag="VER:cond" in="" out="-14:cond|-3:subj|1:vobj|3:pnct|5:goal|8:pnct">sarebbe</W>
+<W lemma="essere" msd="VA" tag="VER:cond" in="" out="-19:pnct|-14:cond|-3:subj|1:vobj|3:pnct|5:goal|8:pnct">sarebbe</W>
 <W lemma="apparire" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:iobj|1:preds">apparso</W>
 <W lemma="divertente" msd="AN" tag="ADJ" in="-1:preds" out="">divertente</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>

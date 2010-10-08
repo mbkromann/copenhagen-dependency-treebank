@@ -86,8 +86,8 @@
 <p>
 <s>
 <W lemma="naturalmente" msd="RG" tag="ADV" in="2:eval" out="">Naturalmente</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="trattare" msd="VADR" tag="VER:pres" in="" out="-9:subj|-2:eval|-1:robj|5:pnct">tratta</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="1:subj" out="">si</W>
+<W lemma="trattare" msd="VADR" tag="VER:pres" in="" out="-9:subj|-2:eval|-1:subj|5:pnct">tratta</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
 <W lemma="chiacchiera" msd="NC" tag="NOM" in="-1:nobj" out="1:man">chiacchiere</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:man" out="1:nobj">a</W>
@@ -189,8 +189,8 @@
 <W lemma="italiano" msd="NC" tag="NOM" in="-1:nobj" out="">Italiani</W>
 <W lemma="conoscere" msd="VADR" tag="VER:pres" in="" out="-2:subj|1:dobj|11:conj|35:pnct">conoscono</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">il</W>
-<W lemma="significato" msd="NC" tag="NOM" in="-1:nobj" out="2:nobj">significato</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">della</W>
+<W lemma="significato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|2:nobj">significato</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.subj" out="">della</W>
 <W lemma="sfida" msd="NC" tag="NOM" in="-2:nobj" out="1:attr">sfida</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:attr" out="1:nobj">nello</W>
 <W lemma="stadio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">stadio</W>

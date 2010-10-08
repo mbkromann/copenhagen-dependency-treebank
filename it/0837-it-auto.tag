@@ -12,10 +12,10 @@
 <W lemma="generale" msd="AN" tag="ADJ" in="-1:attr" out="">generale</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="di" msd="SP" tag="PRE" in="-7:dobj" out="1:vobj">di</W>
-<W lemma="chiedere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:goal">chiedere</W>
+<W lemma="chiedere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:goal|3:dobj">chiedere</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="-1:goal" out="1:nobj">agli</W>
 <W lemma="azionista" msd="NC" tag="NOM" in="-1:nobj" out="">azionisti</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="2:vobj">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="-3:dobj" out="2:vobj">di</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="condividere" msd="VAF" tag="VER:infi" in="-2:vobj" out="-1:pnct|1:dobj|7:man|10:accom|13:pnct">condividere</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:attr|3:conj">il</W>
@@ -79,15 +79,15 @@
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="perché" msd="CS" tag="CON" in="-3:cause" out="5:vobj">perché</W>
 <W lemma="il" msd="PD" tag="DET:def" in="4:subj" out="1:nobj">la</W>
-<W lemma="riduzione" msd="NC" tag="NOM" in="-1:nobj" out="">riduzione</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="1:nobj">del</W>
+<W lemma="riduzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj">riduzione</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.dobj" out="1:nobj">del</W>
 <W lemma="personale" msd="NC" tag="NOM" in="-1:nobj" out="">personale</W>
 <W lemma="ridurre" msd="VADR" tag="VER:futu" in="-5:vobj" out="-4:subj|1:dobj">ridurrà</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">i</W>
-<W lemma="servizio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj">servizi</W>
+<W lemma="servizio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|3:pobj.dobj">servizi</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj.subj" out="1:nobj">della</W>
 <W lemma="banca" msd="NC" tag="NOM" in="-1:nobj" out="">banca</W>
-<W lemma="per" msd="SP" tag="PRE" in="" out="1:nobj">per</W>
+<W lemma="per" msd="SP" tag="PRE" in="-3:pobj.dobj" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">i</W>
 <W lemma="cliente" msd="NC" tag="NOM" in="-1:nobj" out="">clienti</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-16:pnct" out="">"</W>
@@ -100,9 +100,9 @@
 <s>
 <W lemma="diverso" msd="AN" tag="ADJ" in="3:subj" out="1:nobj">Diversi</W>
 <W lemma="azionista" msd="NC" tag="NOM" in="-1:nobj" out="">azionisti</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="2:robj" out="">si</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="2:dobj" out="">si</W>
 <W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="-3:subj|1:preds|9:pnct|12:conj|17:pnct">sono</W>
-<W lemma="lamentare" msd="VAP" tag="VER:pper" in="-1:preds" out="-2:robj">lamentati</W>
+<W lemma="lamentare" msd="VAP" tag="VER:pper" in="-1:preds" out="-2:dobj">lamentati</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="2:nobj|4:conj">del</W>
 <W lemma="cattivo" msd="AN" tag="ADJ" in="1:attr" out="">cattivo</W>
 <W lemma="servizio" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">servizio</W>
@@ -129,14 +129,14 @@
 </p>
 <p>
 <s>
-<W lemma="come" msd="CS" tag="CON" in="1:coord" out="">Come</W>
-<W lemma="indicare" msd="VAP" tag="VER:pper" in="-6:conj" out="-1:coord|2:@loc">indicato</W>
+<W lemma="come" msd="CS" tag="CON" in="1:man" out="">Come</W>
+<W lemma="indicare" msd="VAP" tag="VER:pper" in="-6:conj" out="-1:man|2:@loc">indicato</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:add" out="">anche</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-2:@loc" out="-1:add|1:nobj">nella</W>
-<W lemma="relazione" msd="NC" tag="NOM" in="-1:nobj" out="">relazione</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:namef">Poul</W>
-<W lemma="J" msd="NP" tag="NPR" in="-1:namef" out="1:pnct">J</W>
+<W lemma="relazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">relazione</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">Poul</W>
+<W lemma="J" msd="NP" tag="NPR" in="-1:nobj" out="1:pnct">J</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:pnct" out="">.</W>
 </s>
 <s>
@@ -152,7 +152,7 @@
 <W lemma="intervenire" msd="VAF" tag="VER:infi" in="-1:vobj" out="2:conj">intervenire</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="salvare" msd="VAF" tag="VER:infi" in="-2:conj" out="-1:coord|1:dobj">salvare</W>
-<W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj|3:conj|7:attr|12:relr">le</W>
+<W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj|3:conj|7:attr|12:conj">le</W>
 <W lemma="banca" msd="NC" tag="NOM" in="-1:nobj" out="">banche</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-3:conj" out="-1:coord|1:nobj">le</W>
@@ -163,8 +163,8 @@
 <W lemma="difficoltà" msd="NC" tag="NOM" in="-1:nobj" out="">difficoltà</W>
 <W lemma="e" msd="CS" tag="CON" in="3:coord" out="">e</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="2:subj" out="">che</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="trovare" msd="VADR" tag="VER:pres" in="-12:relr" out="-3:coord|-2:subj|-1:robj|1:@loc">trovano</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
+<W lemma="trovare" msd="VADR" tag="VER:pres" in="-12:conj" out="-3:coord|-2:subj|1:@loc">trovano</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:@loc" out="1:nobj">in</W>
 <W lemma="ristrettezza" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">ristrettezze</W>
 <W lemma="economico" msd="AN" tag="ADJ" in="-1:attr" out="">economiche</W>
@@ -175,28 +175,28 @@
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="22:pnct" out="">"</W>
 <W lemma="se" msd="CS" tag="CON" in="21:cond" out="14:vobj">Se</W>
-<W lemma="istituto" msd="NC" tag="NOM" in="13:subj" out="1:attr#|3:attr">istituti</W>
-<W lemma="bancario" msd="AN" tag="ADJ" in="-1:attr#" out="">bancari</W>
+<W lemma="istituto" msd="NC" tag="NOM" in="13:subj" out="1:attr|3:attr">istituti</W>
+<W lemma="bancario" msd="AN" tag="ADJ" in="-1:attr" out="">bancari</W>
 <W lemma="meno" msd="RG" tag="ADV" in="1:quant" out="">meno</W>
 <W lemma="sano" msd="AN" tag="ADJ" in="-3:attr" out="-1:quant|5:vobj">sani</W>
 <W lemma="," msd="XP" tag="PON" in="4:pnct" out="">,</W>
 <W lemma="o" msd="CS" tag="CON" in="3:coord" out="">o</W>
 <W lemma="se" msd="PR" tag="PRO:refl" in="2:conc" out="1:vobj">se</W>
 <W lemma="volere" msd="VADR" tag="VER:pres" in="-1:vobj" out="">vogliamo</W>
-<W lemma="gestire" msd="VAP" tag="VER:pper" in="-5:vobj" out="-4:pnct|-3:coord|-2:conc|3:pnct">gestiti</W>
+<W lemma="gestire" msd="VAP" tag="VER:pper" in="-5:vobj" out="-4:pnct|-3:coord|-2:conc|2:man|3:pnct">gestiti</W>
 <W lemma="meno" msd="RG" tag="ADV" in="1:quant" out="">meno</W>
-<W lemma="bene" msd="RG" tag="ADV" in="" out="-1:quant">bene</W>
+<W lemma="bene" msd="RG" tag="ADV" in="-2:man" out="-1:quant">bene</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="si" msd="PP" tag="PRO:pers" in="1:robj" out="">si</W>
-<W lemma="trovare" msd="VADR" tag="VER:pres" in="-14:vobj" out="-13:subj|-1:robj|1:@loc|3:pnct">trovano</W>
+<W lemma="si" msd="PP" tag="PRO:pers" in="" out="">si</W>
+<W lemma="trovare" msd="VADR" tag="VER:pres" in="-14:vobj" out="-13:subj|1:@loc|3:pnct">trovano</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:@loc" out="1:nobj">in</W>
 <W lemma="difficoltà" msd="NC" tag="NOM" in="-1:nobj" out="">difficoltà</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="3:neg" out="">non</W>
 <W lemma="ci" msd="PR" tag="PRO:refl" in="2:subj" out="">ci</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="2:robj" out="">si</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
 <W lemma="potere" msd="VADR" tag="VER:pres" in="21:subj" out="-22:pnct|-21:cond|-3:neg|-2:subj|1:vobj|19:pnct|20:pnct">può</W>
-<W lemma="aspettare" msd="VAF" tag="VER:infi" in="-1:vobj" out="-2:robj|1:dobj">aspettare</W>
+<W lemma="aspettare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">aspettare</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="4:vobj">che</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Danske</W>
 <W lemma="bank" msd="NC" tag="NOM" in="2:subj" out="-1:namef">Bank</W>
@@ -208,8 +208,8 @@
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="coprire" msd="VAF" tag="VER:infi" in="-2:conj" out="-1:coord|1:dobj">coprire</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">le</W>
-<W lemma="perdita" msd="NC" tag="NOM" in="-1:nobj" out="">perdite</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="perdita" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj">perdite</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj" out="1:nobj">di</W>
 <W lemma="altri|altro" msd="PI" tag="PRO:indef" in="-1:nobj" out="1:nobj">altri</W>
 <W lemma="istituto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">istituti</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>

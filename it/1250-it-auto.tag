@@ -17,13 +17,13 @@
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-1:pnct|1:vobj|15:pnct|17:conj|22:pnct">Ho</W>
-<W lemma="lavorare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:goal|6:loc">lavorato</W>
+<W lemma="lavorare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:goal|6:@dir">lavorato</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">il</W>
-<W lemma="controllo" msd="NC" tag="NOM" in="-1:nobj" out="">controllo</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="1:nobj">di</W>
+<W lemma="controllo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj">controllo</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj" out="1:nobj">di</W>
 <W lemma="qualità" msd="NC" tag="NOM" in="-1:nobj" out="">qualità</W>
-<W lemma="in" msd="SP" tag="PRE" in="-6:loc" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="PRE" in="-6:@dir" out="1:nobj">in</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="ditta" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">ditta</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
@@ -47,8 +47,8 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="4:pnct" out="">"</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">E</W>
 <W lemma="poi" msd="RG" tag="ADV" in="3:time" out="-1:coord">poi</W>
-<W lemma="ti" msd="PP" tag="PRO:pers" in="1:robj" out="">ti</W>
-<W lemma="sei" msd="AN" tag="ADJ" in="" out="-7:pnct|-4:pnct|-1:robj|1:vobj|2:pnct">sei</W>
+<W lemma="ti" msd="PP" tag="PRO:pers" in="" out="">ti</W>
+<W lemma="sei" msd="AN" tag="ADJ" in="" out="-7:pnct|-4:pnct|1:vobj|2:pnct">sei</W>
 <W lemma="licenziare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-3:time">licenziata</W>
 <W lemma="?" msd="XP" tag="SENT" in="-2:pnct" out="">?</W>
 </s>
