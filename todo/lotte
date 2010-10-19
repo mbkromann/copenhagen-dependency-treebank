@@ -1,3 +1,109 @@
+[ ] en/0104-en-lotte.tag
+[ ] da/0104-da-lotte.tag
+[ ] es/0104-es-lotte.tag
+[ ] da/0184-da-lotte.tag
+[ ] en/0184-en-lotte.tag
+[ ] es/0184-es-soren.tag
+[ ] da/0187-da-lotte.tag
+[ ] en/0187-en-lotte.tag
+[ ] es/0187-es-jonas.tag
+[ ] da/0188-da-lotte.tag
+[ ] en/0188-en-lotte.tag
+[ ] es/0188-es-lotte.tag
+[ ] da/0244-da-lotte.tag
+[ ] en/0244-en-lotte.tag
+[ ] es/0244-es-lotte.tag
+[*] da/0306-da-lotte.tag
+[ ] en/0306-en-lotte.tag
+[ ] es/0306-es-lotte.tag
+[ ] da/0307-da-lotte.tag
+[ ] en/0307-en-lotte.tag
+[ ] es/0307-es-jonas.tag
+[ ] en/0388-en-lotte.tag
+[ ] da/0388-da-lotte.tag
+[ ] es/0388-es-lotte.tag
+[*] da/0421-da-lotte.tag
+[ ] en/0421-en-lotte.tag
+[ ] es/0421-es-lotte.tag
+[*] da/0431-da-lotte.tag
+[ ] en/0431-en-lotte.tag
+[ ] es/0431-es-lotte.tag
+[*] da/0502-da-lotte.tag
+[ ] en/0502-en-lotte.tag
+[ ] es/0502-es-soren.tag
+[ ] da/0531-da-lotte.tag
+[ ] en/0531-en-lotte.tag
+[ ] es/0531-es-jonas.tag
+[ ] da/0593-da-lotte.tag
+[ ] en/0593-en-lotte.tag
+[ ] es/0593-es-lotte.tag
+[ ] da/0602-da-lotte.tag
+[ ] en/0602-en-lotte.tag
+[ ] es/0602-es-jonas.tag
+[ ] da/0620-da-lotte.tag
+[ ] en/0620-en-lotte.tag
+[ ] es/0620-es-soren.tag
+[ ] da/0675-da-lotte.tag
+[ ] en/0675-en-lotte.tag
+[ ] es/0675-es-lotte.tag
+[ ] da/0781-da-lotte.tag
+[ ] en/0781-en-lotte.tag
+[ ] es/0781-es-jonas.tag
+[ ] da/0863-da-lotte.tag
+[ ] en/0863-en-lotte.tag
+[ ] es/0863-es-soren.tag
+[ ] da/0956-da-lotte.tag
+[*] en/0956-en-lotte.tag
+[ ] es/0956-es-lotte.tag
+[ ] da/1014-da-lotte.tag
+[*] en/1014-en-lotte.tag
+[ ] es/1014-es-lotte.tag
+[ ] da/1035-da-lotte.tag
+[*] en/1035-en-lotte.tag
+[ ] es/1035-es-soren.tag
+[ ] da/1038-da-lotte.tag
+[*] en/1038-en-lotte.tag
+[ ] es/1038-es-jonas.tag
+[ ] da/1241-da-lotte.tag
+[*] en/1241-en-lotte.tag
+[ ] es/1241-es-soren.tag
+[ ] da/1252-da-lotte.tag
+[ ] en/1252-en-lotte.tag
+[ ] es/1252-es-lotte.tag
+[ ] da/1347-da-lotte.tag
+[ ] en/1347-en-lotte.tag (anafor + disk: Morten)
+[ ] es/1347-es-soren.tag
+[ ] da/1383-da-lotte.tag
+[ ] en/1383-en-lotte.tag
+[ ] es/1383-es-jonas.tag
+[ ] da/1390-da-lotte.tag
+[ ] en/1390-en-lotte.tag
+[ ] es/1390-es-lotte.tag
+[ ] da/1408-da-lotte.tag
+[ ] en/1408-en-lotte.tag
+[ ] es/1408-es-jonas.tag
+[ ] da/1428-da-lotte.tag
+[ ] en/1428-en-lotte.tag
+[ ] es/1428-es-lotte.tag
+[ ] da/1429-da-lotte.tag
+[ ] en/1429-en-lotte.tag
+[ ] es/1429-es-soren.tag
+
+
+[*] en/wsj-0324-lotte.tag
+[*] en/wsj-0510-lotte.tag
+[*] en/wsj-0570-lotte.tag
+[*] en/wsj-0657-lotte.tag
+[*] en/wsj-0747-lotte.tag
+[*] en/wsj-0788-lotte.tag
+[*] en/wsj-1074-lotte.tag
+[*] en/wsj-2332-lotte.tag
+[*] en/wsj-2355-lotte.tag
+[*] en/wsj-2366-lotte.tag
+[*] en/wsj-2368-lotte.tag
+[*] en/wsj-2375-lotte.tag
+
+Korpus 2; Sf1 alle tekster 14/10-10.
 [*] da/0152-da-lotte.tag
 [*] en/0152-en-lotte.tag
 [*] es/0152-es-lotte.tag
@@ -121,105 +227,9 @@
 [*] da/1497-da-lotte.tag
 [*] en/1497-en-lotte.tag
 [*] es/1497-es-jonas.tag
-[ ] da/1536-da-lotte.tag
-[ ] en/1536-en-lotte.tag
-[ ] es/1536-es-lotte.tag
-
-
-[*] en/wsj-0324-lotte.tag
-[*] en/wsj-0510-lotte.tag
-[*] en/wsj-0570-lotte.tag
-[*] en/wsj-0657-lotte.tag
-[*] en/wsj-0747-lotte.tag
-[*] en/wsj-0788-lotte.tag
-[*] en/wsj-1074-lotte.tag
-[*] en/wsj-2332-lotte.tag
-[*] en/wsj-2355-lotte.tag
-[ ] en/wsj-2366-lotte.tag
-[ ] en/wsj-2368-lotte.tag
-[ ] en/wsj-2375-lotte.tag
-
-
-
-Korpus 1
-[ ] en/0104-en.tag
-[ ] da/0104-da.tag
-[ ] da/0184-da.tag
-[ ] en/0184-en.tag
-[ ] da/0187-da.tag
-[ ] en/0187-en.tag
-[ ] da/0188-da.tag
-[ ] en/0188-en.tag
-[ ] da/0244-da.tag
-[ ] en/0244-en.tag
-[ ] en/0306-en.tag
-[ ] da/0306-da-lotte.tag
-[ ] da/0307-da.tag
-[ ] en/0307-en.tag
-[ ] en/0388-en.tag
-[ ] da/0388-da.tag
-[ ] da/0421-da-lotte.tag
-[ ] en/0421-en.tag
-[ ] da/0431-da-lotte.tag
-[ ] en/0431-en.tag
-[ ] da/0502-da-lotte.tag
-[ ] en/0502-en.tag
-[ ] da/0531-da.tag
-[ ] en/0531-en.tag
-[ ] da/0593-da.tag
-[ ] en/0593-en.tag
-[ ] da/0602-da.tag
-[ ] en/0602-en.tag
-[ ] da/0620-da.tag
-[ ] en/0620-en.tag
-[ ] da/0675-da.tag
-[ ] en/0675-en.tag
-[ ] da/0781-da.tag
-[ ] en/0781-en.tag
-[ ] da/0863-da.tag
-[ ] en/0863-en.tag
-[ ] da/0956-da.tag
-[*] en/0956-en-lotte.tag
-[ ] da/1014-da.tag
-[*] en/1014-en-lotte.tag
-[ ] da/1035-da.tag
-[*] en/1035-en-lotte.tag
-[ ] da/1038-da.tag
-[*] en/1038-en-lotte.tag
-[ ] da/1241-da.tag
-[*] en/1241-en-lotte.tag
-[ ] da/1252-da.tag
-[ ] en/1252-en.tag
-[ ] da/1347-da.tag
-[ ] en/1347-en-lotte.tag (anafor + disk: Morten)
-[ ] da/1383-da.tag
-[ ] en/1383-en.tag
-[ ] da/1390-da.tag
-[ ] en/1390-en.tag
-[ ] da/1408-da.tag
-[ ] en/1408-en.tag
-[ ] da/1428-da.tag
-[ ] en/1428-en.tag
-[ ] da/1429-da.tag
-[ ] en/1429-en.tag
-
-
-[*] es/0104-es-lotte.tag
-[*] es/0184-es-soren.tag
-[*] es/0187-es-jonas.tag
-[*] es/0188-es-lotte.tag
-[*] es/0244-es-lotte.tag
-[*] es/0306-es-lotte.tag
-[*] es/0307-es-jonas.tag
-[*] es/0388-es-lotte.tag
-[*] es/0421-es-lotte.tag
-[*] es/0431-es-lotte.tag
-[*] es/0502-es-soren.tag
-[*] es/0531-es-jonas.tag
-[*] es/0593-es-lotte.tag
-[*] es/0602-es-jonas.tag
-[*] es/0620-es-soren.tag
-[*] es/1252-es-lotte.tag
+[*] da/1536-da-lotte.tag
+[*] en/1536-en-lotte.tag
+[*] es/1536-es-lotte.tag
 
 
 
@@ -228,23 +238,6 @@ Korpus 1
 
 
 
-[*] es/0675-es-lotte.tag
-[*] es/0781-es-jonas.tag
-[*] es/0863-es-soren.tag
-[*] es/0956-es-lotte.tag
-[*] es/1014-es-lotte.tag
-[*] es/1035-es-soren.tag
-[*] es/1038-es-jonas.tag
-[*] es/1241-es-soren.tag
-[*] es/1347-es-soren.tag
-[*] es/1383-es-jonas.tag
-[*] es/1390-es-lotte.tag
-[*] es/1408-es-jonas.tag
-[*] es/1428-es-lotte.tag
-[*] es/1429-es-soren.tag
-
-0675 + 0781: annoteret før ~pl
-Resten tjek for ido/ado, etc.
 
 
 
