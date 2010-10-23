@@ -14,15 +14,15 @@
 <s>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="1:nobj">En</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="calle" msd="NC" tag="NC" in="-1:nobj" out="1:attr#">calle</W>
-<W lemma="lateral" msd="AN" tag="ADJ" in="-1:attr#" out="">lateral</W>
+<W lemma="calle" msd="NC" tag="NC" in="-1:nobj" out="">calle</W>
+<W lemma="lateral" msd="AN" tag="ADJ" in="" out="">lateral</W>
 <W lemma="un" msd="PD" tag="ART" in="2:subj" out="1:nobj">una</W>
 <W lemma="fachada" msd="NC" tag="NC" in="-1:nobj" out="">fachada</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-2:subj|5:pnct">destella</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">neón</W>
-<W lemma="verde" msd="AN" tag="ADJ" in="-1:attr" out="">verde</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">neón</W>
+<W lemma="verde" msd="AN" tag="ADJ" in="" out="">verde</W>
 <W lemma="." msd="XP" tag="FS" in="-5:pnct" out="">.</W>
 </s>
 <s>
@@ -33,8 +33,8 @@
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="1:coord" out="">pero</W>
 <W lemma="deber" msd="VAD" tag="VLfin" in="-5:conj" out="-1:coord|1:vobj">debemos</W>
-<W lemma="pagar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="">pagar</W>
-<W lemma="para" msd="CS" tag="CSUBI" in="" out="1:vobj">para</W>
+<W lemma="pagar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:goal">pagar</W>
+<W lemma="para" msd="CS" tag="CSUBI" in="-1:goal" out="1:vobj">para</W>
 <W lemma="entrar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="">entrar</W>
 <W lemma="." msd="XP" tag="FS" in="-9:pnct" out="">.</W>
 </s>
@@ -50,26 +50,26 @@
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="lleno" msd="AN" tag="ADJ" in="-4:conj" out="-1:coord">lleno</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="hombre" msd="NC" tag="NC" in="-1:nobj" out="1:attr">hombres</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:attr" out="1:nobj">de</W>
+<W lemma="hombre" msd="NC" tag="NC" in="-1:nobj" out="">hombres</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="negocio" msd="NC" tag="NC" in="-1:nobj" out="">negocios</W>
 <W lemma="." msd="XP" tag="FS" in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="bello" msd="AN" tag="ADJ" in="3:attr" out="2:conj">Bellas</W>
+<W lemma="bello" msd="AN" tag="ADJ" in="" out="2:conj">Bellas</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="maquillar" msd="VAF" tag="VLadj" in="-2:conj" out="-1:coord">maquilladas</W>
-<W lemma="mujer" msd="NC" tag="NC" in="4:subj" out="-3:attr|1:attr">mujeres</W>
-<W lemma="con" msd="SP" tag="SCENE" in="-1:attr" out="1:nobj">con</W>
-<W lemma="vestido" msd="NC" tag="NC" in="-1:nobj" out="1:attr">vestidos</W>
-<W lemma="ajustar" msd="VAF" tag="VLadj" in="-1:attr" out="">ajustados</W>
-<W lemma="circular" msd="VAD" tag="VLfin" in="" out="-4:subj|8:pnct">circulan</W>
-<W lemma="a~lo~largo~de" msd="SP" tag="SCENE" in="" out="1:nobj">a lo largo de</W>
+<W lemma="mujer" msd="NC" tag="NC" in="4:subj" out="">mujeres</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="1:nobj">con</W>
+<W lemma="vestido" msd="NC" tag="NC" in="-1:nobj" out="">vestidos</W>
+<W lemma="ajustar" msd="VAF" tag="VLadj" in="" out="">ajustados</W>
+<W lemma="circular" msd="VAD" tag="VLfin" in="" out="-4:subj|1:@loc|8:pnct">circulan</W>
+<W lemma="a~lo~largo~de" msd="SP" tag="SCENE" in="-1:@loc" out="1:nobj">a lo largo de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="fila" msd="NC" tag="NC" in="-1:nobj" out="">fila</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
-<W lemma="hombre" msd="NC" tag="NC" in="-1:nobj" out="1:attr">hombres</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:attr" out="1:nobj">de</W>
+<W lemma="hombre" msd="NC" tag="NC" in="-1:nobj" out="">hombres</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="traje" msd="NC" tag="NC" in="-1:nobj" out="">traje</W>
 <W lemma="." msd="XP" tag="FS" in="-8:pnct" out="">.</W>
 </s>
@@ -77,8 +77,8 @@
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="1:epi|2:preds|8:pnct">Es</W>
 <W lemma="definitivamente" msd="RG" tag="ADV" in="-1:epi" out="">definitivamente</W>
 <W lemma="un" msd="PD" tag="ART" in="-2:preds" out="1:nobj">un</W>
-<W lemma="bar" msd="NC" tag="NC" in="-1:nobj" out="1:attr">bar</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:attr" out="3:nobj">de</W>
+<W lemma="bar" msd="NC" tag="NC" in="-1:nobj" out="">bar</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="3:nobj">de</W>
 <p>
 <s>
 <W lemma="prostituta" msd="NC" tag="NC" in="-3:nobj" out="">prostitutas</W>
@@ -102,14 +102,14 @@
 <s>
 <W lemma="recordar" msd="VAD" tag="VLfin" in="" out="1:dobj|20:pnct">Recuerdo</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="leyenda" msd="NC" tag="NC" in="-1:nobj" out="1:attr">leyenda</W>
-<W lemma="urbano" msd="AN" tag="ADJ" in="-1:attr" out="">urbana</W>
+<W lemma="leyenda" msd="NC" tag="NC" in="-1:nobj" out="">leyenda</W>
+<W lemma="urbano" msd="AN" tag="ADJ" in="" out="">urbana</W>
 <W lemma="decir" msd="VAF" tag="VLadj" in="" out="1:dobj">diciendo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="4:vobj">que</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="1:nobj">en</W>
 <W lemma="Checoslovaquia" msd="NP" tag="NP" in="-1:nobj" out="">Checoslovaquia</W>
-<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
-<W lemma="poder" msd="VAD" tag="VLfin" in="-4:vobj" out="-1:robj|1:vobj">podía</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="poder" msd="VAD" tag="VLfin" in="-4:vobj" out="1:vobj">podía</W>
 <W lemma="comprar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">comprar</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="prostituta" msd="NC" tag="NC" in="-1:nobj" out="">prostituta</W>
@@ -117,8 +117,8 @@
 <s>
 <W lemma="por" msd="SP" tag="SCENE" in="" out="1:nobj">por</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="pasta|pastilla" msd="NC" tag="NC" in="-1:nobj" out="1:attr">pastilla</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:attr" out="1:nobj">de</W>
+<W lemma="pasta|pastilla" msd="NC" tag="NC" in="-1:nobj" out="">pastilla</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="jabón" msd="NC" tag="NC" in="-1:nobj" out="">jabón</W>
 <W lemma="." msd="XP" tag="FS" in="-20:pnct" out="">.</W>
 </s>
@@ -146,15 +146,15 @@
 <s>
 <W lemma="observar" msd="VAD" tag="VLfin" in="" out="1:dobj|13:pnct">Observo</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="2:nobj">una</W>
-<W lemma="bello" msd="AN" tag="ADJ" in="1:attr" out="">bella</W>
-<W lemma="prostituta" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:attr">prostituta</W>
-<W lemma="con" msd="SP" tag="SCENE" in="-1:attr" out="1:nobj">con</W>
-<W lemma="cabello" msd="NC" tag="NC" in="-1:nobj" out="1:attr|3:conj">cabello</W>
-<W lemma="oscuro" msd="AN" tag="ADJ" in="-1:attr" out="">oscuro</W>
+<W lemma="bello" msd="AN" tag="ADJ" in="" out="">bella</W>
+<W lemma="prostituta" msd="NC" tag="NC" in="-2:nobj" out="">prostituta</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="1:nobj">con</W>
+<W lemma="cabello" msd="NC" tag="NC" in="-1:nobj" out="3:conj">cabello</W>
+<W lemma="oscuro" msd="AN" tag="ADJ" in="" out="">oscuro</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="un" msd="PD" tag="ART" in="-3:conj" out="-1:coord|1:nobj">un</W>
-<W lemma="cuerpo" msd="NC" tag="NC" in="-1:nobj" out="1:attr">cuerpo</W>
-<W lemma="tierno" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">tierno</W>
+<W lemma="cuerpo" msd="NC" tag="NC" in="-1:nobj" out="">cuerpo</W>
+<W lemma="tierno" msd="AN" tag="ADJ" in="" out="2:conj">tierno</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="suave" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">suave</W>
 <W lemma="." msd="XP" tag="FS" in="-13:pnct" out="">.</W>
@@ -169,8 +169,8 @@
 <W lemma="a" msd="SP" tag="SCENE" in="-1:dobj" out="1:nobj">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|5:relr">los</W>
 <W lemma="dos" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">dos</W>
-<W lemma="hombre" msd="NC" tag="NC" in="-1:nobj" out="1:attr">hombres</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">grandotes</W>
+<W lemma="hombre" msd="NC" tag="NC" in="-1:nobj" out="">hombres</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">grandotes</W>
 <W lemma="que" msd="CS" tag="CQUE" in="1:subj" out="">que</W>
 <W lemma="cuidar" msd="VAD" tag="VLfin" in="-5:relr" out="-1:subj|1:dobj">cuidan</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">la</W>
@@ -182,8 +182,8 @@
 <W lemma="sacar" msd="VAD" tag="VLfin" in="-2:vobj" out="-1:iobj|2:dobj">sacarán</W>
 <W lemma="hasta" msd="SP" tag="SCENE" in="1:focal" out="">hasta</W>
 <W lemma="el" msd="PD" tag="ART" in="-2:dobj" out="-1:focal|2:nobj|4:relr">la</W>
-<W lemma="último" msd="AN" tag="ADJ" in="1:attr" out="">última</W>
-<W lemma="moneda" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">moneda</W>
+<W lemma="último" msd="AN" tag="ADJ" in="" out="">última</W>
+<W lemma="moneda" msd="NC" tag="NC" in="-2:nobj" out="">moneda</W>
 <W lemma="que" msd="CS" tag="CQUE" in="1:subj" out="">que</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-4:relr" out="-1:subj">poseo</W>
 <W lemma="." msd="XP" tag="FS" in="-25:pnct" out="">.</W>
@@ -201,7 +201,7 @@
 <W lemma="taxi" msd="NC" tag="NC" in="-1:nobj" out="">taxi</W>
 <W lemma="hasta" msd="SP" tag="SCENE" in="" out="1:nobj">hasta</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">el</W>
-<W lemma="próximo" msd="AN" tag="ADJ" in="1:attr" out="">próximo</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">bar-</W>
+<W lemma="próximo" msd="AN" tag="ADJ" in="" out="">próximo</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="">bar-</W>
 </s>
 </p>
