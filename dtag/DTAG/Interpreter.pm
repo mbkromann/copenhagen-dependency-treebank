@@ -5730,7 +5730,9 @@ sub cmd_matches {
 sub cmd_merge {
 	my $self = shift;
 	my $graph = shift;
-	my $files = shift;
+	my $filenames = shift;
+
+	my $graphs = [];
 
 	return 1;
 }
