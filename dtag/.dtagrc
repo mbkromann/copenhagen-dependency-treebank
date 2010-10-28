@@ -239,7 +239,7 @@ style error:nonobj -label -color lightred -fonttype bold
 style error:badtype -arclabel -color red -fonttype bold -arc -ps "0 0 0 setrgbcolor"
 macro noerrors style error ;; style error:nogov ;; style error:manygovs ;; style error:noante ;; style error:nosubj ;; style error:nonobj ;; style error:badtype
 macro nocolors noerrors ;; style discourse
-macro nonumbers layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps
+macro nonumbers layout -graph -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps ;; vars -id
 
 # Command log
 user -f /home/cdt/.cdtname
