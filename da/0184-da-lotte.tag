@@ -116,8 +116,8 @@
 <W gloss="is" id="115" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:preds|8:pnct|11:conj|28:pnct">er</W>
 <W gloss="the" id="116" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:attr|3:nobj">den</W>
 <W gloss="only" id="117" lemma="eneste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">eneste</W>
-<W gloss="Danish" id="118" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="">danske</W>
-<W gloss="producer" id="119" lemma="producent" msd="NCCSU==I" tag="NN" in="-3:nobj" out="1:pobj.dobj|1:{patient}">producent</W>
+<W gloss="Danish" id="118" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr|1:{source}" out="">danske</W>
+<W gloss="producer" id="119" lemma="producent" msd="NCCSU==I" tag="NN" in="-3:nobj" out="1:pobj.dobj|1:{patient}|-1:{source}">producent</W>
 <W gloss="of" id="120" lemma="af" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">af</W>
 <W gloss="fresh" id="121" lemma="frisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">frisk</W>
 <W gloss="pasta" id="122" lemma="pasta" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">pasta</W>
@@ -135,11 +135,11 @@
 <W gloss="a" id="134" lemma="en" msd="PI-CSU--U" tag="DT" in="3:subj|4:[subj]" out="-1:add|1:attr|2:nobj">en</W>
 <W gloss="major" id="135" lemma="stor" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">større</W>
 <W gloss="bread_producer" id="136" lemma="brødproducent" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">brødproducent</W>
-<W gloss="will" id="137" lemma="ville" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-3:subj|1:vobj|4:time">vil</W>
-<W gloss="start" id="138" lemma="starte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">starte</W>
+<W gloss="will" id="137" lemma="ville" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-3:subj|1:vobj">vil</W>
+<W gloss="start" id="138" lemma="starte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|3:time">starte</W>
 <W gloss="a" id="139" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="production" id="140" lemma="produktion" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">produktion</W>
-<W gloss="before" id="141" lemma="inden" msd="SP" tag="IN" in="-4:time" out="1:avobj">inden</W>
+<W gloss="before" id="141" lemma="inden" msd="SP" tag="IN" in="-3:time" out="1:avobj">inden</W>
 <W gloss="long" id="142" lemma="længe" msd="RGP" tag="RP" in="-1:avobj" out="">længe</W>
 <W gloss="." id="143" lemma="." msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>
@@ -206,8 +206,8 @@
 <W gloss="the_firm's" id="205" lemma="virksomhed" msd="NCCSG==D" tag="NN" in="-1:nobj|1:{const}" out="1:possd">virksomhedens</W>
 <W gloss="500" id="206" lemma="500" msd="AC---U=--" tag="CD" in="-1:possd" out="-1:{const}|1:nobj">500</W>
 <W gloss="employees" id="207" lemma="ansætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:nobj" out="">ansatte</W>
-<W gloss="employs" id="208" lemma="beskæftige" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:dobj|2:pobj|6:pnct">beskæftiger</W>
-<W gloss="themselves" id="209" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
+<W gloss="employs" id="208" lemma="beskæftige" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|2:pobj|6:pnct|1:robj">beskæftiger</W>
+<W gloss="themselves" id="209" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:robj" out="">sig</W>
 <W gloss="with" id="210" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
 <W gloss="the" id="211" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
 <W gloss="soft" id="212" lemma="blød" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">bløde</W>
@@ -218,11 +218,11 @@
 <p>
 <s>
 <W gloss="the_firm" id="219" lemma="virksomhed" msd="NCCSU==D" tag="NN" in="1:subj" out="">Virksomheden</W>
-<W gloss="has" id="220" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:conc|2:time|3:dobj|11:pnct|15:conj|30:pnct|4:fpredo">har</W>
+<W gloss="has" id="220" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:conc|2:time|3:dobj|4:pobj|11:pnct|15:conj|30:pnct">har</W>
 <W gloss="Yet" id="221" lemma="dog" msd="RGU" tag="RP" in="-1:conc" out="">dog</W>
 <W gloss="already" id="222" lemma="allerede" msd="RGU" tag="RP" in="-2:time" out="">allerede</W>
 <W gloss="exports" id="223" lemma="eksport" msd="NCCSU==I" tag="NN" in="-3:dobj" out="2:pobj.pobj|2:{recipient}">eksport</W>
-<W gloss="i_gang" id="224" lemma="i_gang" msd="RGU" tag="RP" in="-4:fpredo" out="">i_gang</W>
+<W gloss="i_gang" id="224" lemma="i_gang" msd="RGU" tag="RP" in="-4:pobj" out="">i_gang</W>
 <W gloss="to" id="225" lemma="til" msd="SP" tag="IN" in="-2:pobj.pobj|-2:{recipient}" out="1:nobj">til</W>
 <W gloss="Norway" id="226" lemma="Norge" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|4:conj">Norge</W>
 <W gloss="," id="227" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
