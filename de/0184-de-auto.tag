@@ -1,220 +1,220 @@
 <p>
 <s>
-<W lemma="Pasta" msd="NC" tag="NN" in="1:subj" out="">Pasta</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:subj|8:vobj|18:pnct">werden</W>
-<W lemma="frisch" msd="AN" tag="ADJD" in="1:man" out="">frisch</W>
-<W lemma="zubereiten" msd="VAP" tag="VVPP" in="6:fpreds" out="-1:man|1:pnct|2:conj|4:conj">zubereitet</W>
-<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="trocknen" msd="VAP" tag="VVPP" in="-2:conj" out="">getrocknet</W>
-<W lemma="sowie" msd="CC" tag="KON" in="1:coord" out="">sowie</W>
-<W lemma="in" msd="SP" tag="APPR" in="-4:conj" out="-1:coord|1:nobj">in</W>
-<W lemma="Fertiggericht" msd="NC" tag="NN" in="-1:nobj" out="">Fertiggerichten</W>
-<W lemma="verkaufen" msd="VAP" tag="VVPP" in="-8:vobj" out="-6:fpreds|9:conj">verkauft</W>
-<W lemma="und" msd="CC" tag="KON" in="8:coord" out="">und</W>
-<W lemma="zusammen" msd="RG" tag="ADV" in="7:accom" out="1:pobj">zusammen</W>
-<W lemma="mit" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">mit</W>
-<W lemma="Fisch" msd="NC" tag="NN" in="-1:nobj" out="1:pnct|2:conj|4:conj">Fisch</W>
-<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="Fleisch" msd="NC" tag="NN" in="-2:conj" out="">Fleisch</W>
-<W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="Gemüse" msd="NC" tag="NN" in="-4:conj" out="-1:coord">Gemüse</W>
-<W lemma="verwenden" msd="VAP" tag="VVPP" in="-9:conj" out="-8:coord|-7:accom">verwendet</W>
-<W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
+<W lemma="Pasta" msd="NC" tag="NN" in="" out="">Pasta</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
+<W lemma="frisch" msd="AN" tag="ADJD" in="" out="">frisch</W>
+<W lemma="zubereiten" msd="VAP" tag="VVPP" in="" out="">zubereitet</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="trocknen" msd="VAP" tag="VVPP" in="" out="">getrocknet</W>
+<W lemma="sowie" msd="CC" tag="KON" in="" out="">sowie</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
+<W lemma="Fertiggericht" msd="NC" tag="NN" in="" out="">Fertiggerichten</W>
+<W lemma="verkaufen" msd="VAP" tag="VVPP" in="" out="">verkauft</W>
+<W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
+<W lemma="zusammen" msd="RG" tag="ADV" in="" out="">zusammen</W>
+<W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
+<W lemma="Fisch" msd="NC" tag="NN" in="" out="">Fisch</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="Fleisch" msd="NC" tag="NN" in="" out="">Fleisch</W>
+<W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
+<W lemma="Gemüse" msd="NC" tag="NN" in="" out="">Gemüse</W>
+<W lemma="verwenden" msd="VAP" tag="VVPP" in="" out="">verwendet</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="seit" msd="SP" tag="APPR" in="9:time" out="3:vobj">Seit</W>
-<W lemma="wir" msd="PP" tag="PPER" in="2:subj" out="">wir</W>
-<W lemma="beginnen" msd="VAP" tag="VVPP" in="1:vobj" out="5:vobj">begonnen</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="-3:vobj" out="-2:subj|-1:vobj|1:pnct">haben</W>
-<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="frisch" msd="AN" tag="ADJA" in="1:attr" out="">frische</W>
-<W lemma="Pasta" msd="NC" tag="NN" in="1:dobj" out="-1:attr">Pasta</W>
-<W lemma="herstellen" msd="VAF" tag="VVIZU" in="-5:vobj" out="-1:dobj|1:pnct">herzustellen</W>
-<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-9:time|1:subj|4:time|6:vobj|7:pnct">haben</W>
-<W lemma="wir" msd="PP" tag="PPER" in="-1:subj" out="">wir</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="4:dobj" out="1:nobj">den</W>
-<W lemma="Absatz" msd="NC" tag="NN" in="-1:nobj" out="">Absatz</W>
-<W lemma="jed" msd="PI" tag="PIDAT" in="-4:time" out="1:nobj">jedes</W>
-<W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahr</W>
-<W lemma="verdoppeln" msd="VAP" tag="VVPP" in="-6:vobj" out="-4:dobj">verdoppelt</W>
-<W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
-<W lemma="dies" msd="PD" tag="PDAT" in="2:time" out="1:nobj">Dieses</W>
-<W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahr</W>
-<W lemma="rechnen" msd="VA" tag="VVFIN" in="15:qobj" out="-2:time|1:subj|2:pobj">rechnen</W>
-<W lemma="wir" msd="PP" tag="PPER" in="-1:subj" out="">wir</W>
-<W lemma="mit" msd="SP" tag="APPR" in="-2:pobj" out="1:nobj">mit</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
-<W lemma="Verkauf" msd="NC" tag="NN" in="-1:nobj" out="">Verkauf</W>
-<W lemma="von" msd="SP" tag="APPR" in="" out="1:nobj">von</W>
-<W lemma="700" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj|2:pnct|4:elab">700</W>
-<W lemma="Tonne" msd="NC" tag="NN" in="-1:nobj" out="">Tonnen</W>
-<W lemma="-" msd="XP" tag="$(" in="-2:pnct" out="">-</W>
-<W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">das</W>
-<W lemma="entsprechen" msd="VA" tag="VVFIN" in="-4:elab" out="-1:subj|2:dobj|4:pnct">entspricht</W>
-<W lemma="2,8" msd="AC" tag="CARD" in="1:numm" out="">2,8</W>
-<W lemma="Million" msd="NC" tag="NN" in="-2:dobj" out="-1:numm|1:nobj">Millionen</W>
-<W lemma="Packung" msd="NC" tag="NN" in="-1:nobj" out="">Packungen</W>
-<W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
-<W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-15:qobj|1:subj|8:pnct">sagt</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj|3:appr">der</W>
-<W lemma="Produktmanager" msd="NC" tag="NN" in="-1:nobj" out="">Produktmanager</W>
-<W lemma="Lars" msd="NP" tag="NE" in="1:namef" out="">Lars</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:appr" out="-1:namef|1:pnct|2:appa">Bred</W>
-<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:appa" out="1:name">Tholstrup</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Cheese</W>
-<W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
-</s>
-</p>
-<p>
-<s>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="2:subj" out="1:name">Tholstrup</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Cheese</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|8:pnct|13:conj|29:pnct">ist</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:preds" out="1:attr|2:attr|3:nobj">der</W>
-<W lemma="einzig" msd="AN" tag="ADJA" in="-1:attr" out="">einzige</W>
-<W lemma="dänisch" msd="AN" tag="ADJA" in="-2:attr" out="">dänische</W>
-<W lemma="Produzent" msd="NC" tag="NN" in="-3:nobj" out="1:pobj">Produzent</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="2:nobj">von</W>
-<W lemma="frisch" msd="AN" tag="ADJA" in="1:attr" out="">frischer</W>
-<W lemma="Pasta" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Pasta</W>
-<W lemma="," msd="XP" tag="$," in="-8:pnct" out="">,</W>
-<W lemma="aber" msd="RG" tag="ADV" in="4:coord" out="">aber</W>
-<W lemma="in" msd="SP" tag="APPR" in="3:loc" out="1:nobj">in</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Meiereibranche</W>
-<W lemma="gehen" msd="VA" tag="VVFIN" in="-13:conj" out="-4:coord|-3:loc|1:subj|3:pnct">geht</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">das</W>
-<W lemma="Gerücht" msd="NC" tag="NN" in="-1:nobj" out="2:nobj">Gerücht</W>
-<W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
-<W lemma="dass" msd="CS" tag="KOUS" in="-2:nobj" out="11:vobj">dass</W>
-<W lemma="schon" msd="RG" tag="ADV" in="10:time" out="1:avobj">schon</W>
-<W lemma="bald" msd="RG" tag="ADV" in="-1:avobj" out="">bald</W>
-<W lemma="auch" msd="RG" tag="ADV" in="8:add" out="">auch</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="7:subj" out="1:attr|2:nobj">ein</W>
-<W lemma="groß" msd="AN" tag="ADJA" in="-1:attr" out="">größerer</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="">Brotproduzent</W>
-<W lemma="mit" msd="SP" tag="APPR" in="3:pobj" out="1:nobj">mit</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
-<W lemma="Produktion" msd="NC" tag="NN" in="-1:nobj" out="">Produktion</W>
-<W lemma="beginnen" msd="VAF" tag="VVINF" in="1:vobj" out="-3:pobj">beginnen</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="-11:vobj" out="-10:time|-8:add|-7:subj|-1:vobj">wird</W>
-<W lemma="." msd="XP" tag="$." in="-29:pnct" out="">.</W>
-</s>
-</p>
-<p>
-<s>
-<W lemma="wir" msd="PP" tag="PPER" in="1:subj" out="">Wir</W>
-<W lemma="können" msd="VA" tag="VMFIN" in="13:qobj" out="-1:subj|6:vobj|7:pnct|12:pnct">können</W>
-<W lemma="aus" msd="SP" tag="APPR" in="5:pobj" out="1:nobj">aus</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
-<W lemma="Tendenz" msd="NC" tag="NN" in="-1:nobj" out="1:attr">Tendenzen</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="-1:attr" out="1:nobj">im</W>
-<W lemma="Ausland" msd="NC" tag="NN" in="-1:nobj" out="">Ausland</W>
-<W lemma="schließen" msd="VAF" tag="VVINF" in="-6:vobj" out="-5:pobj|2:dobj">schließen</W>
-<W lemma="," msd="XP" tag="$," in="-7:pnct" out="">,</W>
-<W lemma="dass" msd="CS" tag="KOUS" in="-2:dobj" out="3:vobj">dass</W>
-<W lemma="Pasta" msd="NC" tag="NN" in="2:subj" out="">Pasta</W>
-<W lemma="Zukunft" msd="NC" tag="NN" in="1:dobj" out="">Zukunft</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="-3:vobj" out="-2:subj|-1:dobj">hat</W>
-<W lemma="," msd="XP" tag="$," in="-12:pnct" out="">,</W>
-<W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-13:qobj|2:subj|18:pnct">sagt</W>
-<W lemma="Lars" msd="NP" tag="NE" in="1:namef" out="">Lars</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:subj" out="-1:namef|1:pnct|15:relpa">Bred</W>
-<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="d" msd="PT" tag="PRELS" in="13:subj" out="">der</W>
-<W lemma="gestern" msd="RG" tag="ADV" in="12:time" out="">gestern</W>
-<W lemma="von" msd="SP" tag="APPR" in="10:pobj" out="1:nobj">von</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj|5:pnct|6:appa">der</W>
-<W lemma="groß" msd="AN" tag="ADJA" in="-1:attr" out="">größten</W>
-<W lemma="Nahrungsmittelmesse" msd="NC" tag="NN" in="-2:nobj" out="1:attr">Nahrungsmittelmesse</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">in</W>
-<W lemma="Deutschland" msd="NP" tag="NE" in="-1:nobj" out="">Deutschland</W>
-<W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-6:appa" out="1:nobj|2:pnct">der</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">NUGA</W>
-<W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
-<W lemma="zurückkommen" msd="VAP" tag="VVPP" in="1:vobj" out="-10:pobj">zurückgekommen</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-15:relpa" out="-13:subj|-12:time|-1:vobj">ist</W>
-<W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
-</s>
-</p>
-<p>
-<s>
-<W lemma="Export" msd="NC" tag="NN" in="6:subj" out="5:possd">Export</W>
-</s>
-</p>
-<p>
-<s>
-<W lemma="Pasta" msd="NC" tag="NN" in="-5:possd" out="">Pasta</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-6:subj|1:time|3:preds|11:pnct">ist</W>
-<W lemma="bisher" msd="RG" tag="ADV" in="-1:time" out="">bisher</W>
-<W lemma="nur" msd="RG" tag="ADV" in="1:quant" out="">nur</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-3:preds" out="-1:quant|1:attr|2:nobj">ein</W>
-<W lemma="klein" msd="AN" tag="ADJA" in="-1:attr" out="">kleiner</W>
-<W lemma="Teil" msd="NC" tag="NN" in="-2:nobj" out="">Teil</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj">der</W>
-<W lemma="Geschäftsgrundlage" msd="NC" tag="NN" in="-1:nobj" out="1:attr">Geschäftsgrundlage</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:attr" out="1:nobj">von</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="1:name">Tholstrup</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Cheese</W>
-<W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
-<W lemma="nur" msd="RG" tag="ADV" in="1:quant" out="">Nur</W>
-<W lemma="30" msd="AC" tag="CARD" in="6:subj" out="-1:quant|1:pobj">30</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:nobj">der</W>
-<W lemma="500" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">500</W>
-<W lemma="Angestellte" msd="NC" tag="NN" in="-1:nobj" out="">Angestellten</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj">der</W>
-<W lemma="Firma" msd="NC" tag="NN" in="-1:nobj" out="">Firma</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-6:subj|6:nobj|8:pnct">haben</W>
-<W lemma="mit" msd="SP" tag="APPR" in="6:pobj" out="1:nobj">mit</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="2:attr|3:nobj">den</W>
+<W lemma="seit" msd="SP" tag="APPR" in="" out="">Seit</W>
+<W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
+<W lemma="beginnen" msd="VAP" tag="VVPP" in="" out="">begonnen</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="frisch" msd="AN" tag="ADJA" in="" out="">frische</W>
+<W lemma="Pasta" msd="NC" tag="NN" in="" out="">Pasta</W>
+<W lemma="herstellen" msd="VAF" tag="VVIZU" in="" out="">herzustellen</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
+<W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="weich" msd="AN" tag="ADJA" in="-2:attr" out="">weichen</W>
-<W lemma="Faden" msd="NC" tag="NN" in="-3:nobj" out="">Fäden</W>
-<W lemma="zu" msd="U=" tag="PTKZU" in="-6:nobj" out="1:vobj">zu</W>
-<W lemma="tun" msd="VAF" tag="VVINF" in="-1:vobj" out="-6:pobj">tun</W>
-<W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
+<W lemma="Absatz" msd="NC" tag="NN" in="" out="">Absatz</W>
+<W lemma="jed" msd="PI" tag="PIDAT" in="" out="">jedes</W>
+<W lemma="Jahr" msd="NC" tag="NN" in="" out="">Jahr</W>
+<W lemma="verdoppeln" msd="VAP" tag="VVPP" in="" out="">verdoppelt</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+<W lemma="dies" msd="PD" tag="PDAT" in="" out="">Dieses</W>
+<W lemma="Jahr" msd="NC" tag="NN" in="" out="">Jahr</W>
+<W lemma="rechnen" msd="VA" tag="VVFIN" in="" out="">rechnen</W>
+<W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
+<W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
+<W lemma="Verkauf" msd="NC" tag="NN" in="" out="">Verkauf</W>
+<W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
+<W lemma="700" msd="AC" tag="CARD" in="" out="">700</W>
+<W lemma="Tonne" msd="NC" tag="NN" in="" out="">Tonnen</W>
+<W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
+<W lemma="d" msd="PP" tag="PDS" in="" out="">das</W>
+<W lemma="entsprechen" msd="VA" tag="VVFIN" in="" out="">entspricht</W>
+<W lemma="2,8" msd="AC" tag="CARD" in="" out="">2,8</W>
+<W lemma="Million" msd="NC" tag="NN" in="" out="">Millionen</W>
+<W lemma="Packung" msd="NC" tag="NN" in="" out="">Packungen</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="Produktmanager" msd="NC" tag="NN" in="" out="">Produktmanager</W>
+<W lemma="Lars" msd="NP" tag="NE" in="" out="">Lars</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Bred</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Cheese</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Die</W>
-<W lemma="Firma" msd="NC" tag="NN" in="-1:nobj" out="">Firma</W>
-<W lemma="betreiben" msd="VA" tag="VVFIN" in="" out="-2:subj|1:conc|3:time|4:dobj|12:pnct|16:conj|31:pnct">betreibt</W>
-<W lemma="aber" msd="RG" tag="ADV" in="-1:conc" out="1:avobj">aber</W>
-<W lemma="doch" msd="RG" tag="ADV" in="-1:avobj" out="">doch</W>
-<W lemma="schon" msd="RG" tag="ADV" in="-3:time" out="">schon</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-4:dobj" out="1:nobj">den</W>
-<W lemma="Export" msd="NC" tag="NN" in="-1:nobj" out="1:dir">Export</W>
-<W lemma="nach" msd="SP" tag="APPR" in="-1:dir" out="1:nobj">nach</W>
-<W lemma="Norwegen" msd="NP" tag="NE" in="-1:nobj" out="1:pnct|2:conj|4:conj">Norwegen</W>
-<W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="Schweden" msd="NP" tag="NE" in="-2:conj" out="">Schweden</W>
-<W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="Finnland" msd="NP" tag="NE" in="-4:conj" out="-1:coord">Finnland</W>
-<W lemma="," msd="XP" tag="$," in="-12:pnct" out="">,</W>
-<W lemma="und" msd="CC" tag="KON" in="3:coord" out="">und</W>
-<W lemma="Lars" msd="NP" tag="NE" in="1:namef" out="">Lars</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:subj" out="-1:namef">Bred</W>
-<W lemma="glauben" msd="VA" tag="VVFIN" in="-16:conj" out="-3:coord|-1:subj|1:focal|2:pobj|3:pnct">glaubt</W>
-<W lemma="sogar" msd="RG" tag="ADV" in="-1:focal" out="">sogar</W>
-<W lemma="daran" msd="RG" tag="PAV" in="-2:pobj" out="2:nobj">daran</W>
-<W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
-<W lemma="dass" msd="CS" tag="KOUS" in="-2:nobj" out="10:vobj">dass</W>
-<W lemma="selbst" msd="RG" tag="ADV" in="1:focal" out="">selbst</W>
-<W lemma="Italien" msd="NP" tag="NE" in="8:subj" out="-1:focal">Italien</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="6:preds" out="1:attr|2:nobj|3:goal">ein</W>
-<W lemma="gut" msd="AN" tag="ADJA" in="-1:attr" out="">guter</W>
-<W lemma="Abnehmer" msd="NC" tag="NN" in="-2:nobj" out="">Abnehmer</W>
-<W lemma="für" msd="SP" tag="APPR" in="-3:goal" out="1:nobj">für</W>
-<W lemma="sein" msd="PO" tag="PPOSAT" in="-1:nobj" out="1:possd">seine</W>
-<W lemma="Ware" msd="NC" tag="NN" in="-1:possd" out="">Waren</W>
-<W lemma="sein" msd="VAF" tag="VAINF" in="1:vobj" out="-6:preds">sein</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="-10:vobj" out="-8:subj|-1:vobj">wird</W>
-<W lemma="." msd="XP" tag="$." in="-31:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Cheese</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="einzig" msd="AN" tag="ADJA" in="" out="">einzige</W>
+<W lemma="dänisch" msd="AN" tag="ADJA" in="" out="">dänische</W>
+<W lemma="Produzent" msd="NC" tag="NN" in="" out="">Produzent</W>
+<W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
+<W lemma="frisch" msd="AN" tag="ADJA" in="" out="">frischer</W>
+<W lemma="Pasta" msd="NC" tag="NN" in="" out="">Pasta</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="aber" msd="RG" tag="ADV" in="" out="">aber</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Meiereibranche</W>
+<W lemma="gehen" msd="VA" tag="VVFIN" in="" out="">geht</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
+<W lemma="Gerücht" msd="NC" tag="NN" in="" out="">Gerücht</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
+<W lemma="schon" msd="RG" tag="ADV" in="" out="">schon</W>
+<W lemma="bald" msd="RG" tag="ADV" in="" out="">bald</W>
+<W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
+<W lemma="groß" msd="AN" tag="ADJA" in="" out="">größerer</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Brotproduzent</W>
+<W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="Produktion" msd="NC" tag="NN" in="" out="">Produktion</W>
+<W lemma="beginnen" msd="VAF" tag="VVINF" in="" out="">beginnen</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
+<W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
+<W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
+<W lemma="Tendenz" msd="NC" tag="NN" in="" out="">Tendenzen</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
+<W lemma="Ausland" msd="NC" tag="NN" in="" out="">Ausland</W>
+<W lemma="schließen" msd="VAF" tag="VVINF" in="" out="">schließen</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
+<W lemma="Pasta" msd="NC" tag="NN" in="" out="">Pasta</W>
+<W lemma="Zukunft" msd="NC" tag="NN" in="" out="">Zukunft</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
+<W lemma="Lars" msd="NP" tag="NE" in="" out="">Lars</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Bred</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="d" msd="PT" tag="PRELS" in="" out="">der</W>
+<W lemma="gestern" msd="RG" tag="ADV" in="" out="">gestern</W>
+<W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="groß" msd="AN" tag="ADJA" in="" out="">größten</W>
+<W lemma="Nahrungsmittelmesse" msd="NC" tag="NN" in="" out="">Nahrungsmittelmesse</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
+<W lemma="Deutschland" msd="NP" tag="NE" in="" out="">Deutschland</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">NUGA</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="zurückkommen" msd="VAP" tag="VVPP" in="" out="">zurückgekommen</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="Export" msd="NC" tag="NN" in="" out="">Export</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="Pasta" msd="NC" tag="NN" in="" out="">Pasta</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
+<W lemma="bisher" msd="RG" tag="ADV" in="" out="">bisher</W>
+<W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
+<W lemma="klein" msd="AN" tag="ADJA" in="" out="">kleiner</W>
+<W lemma="Teil" msd="NC" tag="NN" in="" out="">Teil</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="Geschäftsgrundlage" msd="NC" tag="NN" in="" out="">Geschäftsgrundlage</W>
+<W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Cheese</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+<W lemma="nur" msd="RG" tag="ADV" in="" out="">Nur</W>
+<W lemma="30" msd="AC" tag="CARD" in="" out="">30</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="500" msd="AC" tag="CARD" in="" out="">500</W>
+<W lemma="Angestellte" msd="NC" tag="NN" in="" out="">Angestellten</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="Firma" msd="NC" tag="NN" in="" out="">Firma</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
+<W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
+<W lemma="weich" msd="AN" tag="ADJA" in="" out="">weichen</W>
+<W lemma="Faden" msd="NC" tag="NN" in="" out="">Fäden</W>
+<W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
+<W lemma="tun" msd="VAF" tag="VVINF" in="" out="">tun</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
+<W lemma="Firma" msd="NC" tag="NN" in="" out="">Firma</W>
+<W lemma="betreiben" msd="VA" tag="VVFIN" in="" out="">betreibt</W>
+<W lemma="aber" msd="RG" tag="ADV" in="" out="">aber</W>
+<W lemma="doch" msd="RG" tag="ADV" in="" out="">doch</W>
+<W lemma="schon" msd="RG" tag="ADV" in="" out="">schon</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
+<W lemma="Export" msd="NC" tag="NN" in="" out="">Export</W>
+<W lemma="nach" msd="SP" tag="APPR" in="" out="">nach</W>
+<W lemma="Norwegen" msd="NP" tag="NE" in="" out="">Norwegen</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="Schweden" msd="NP" tag="NE" in="" out="">Schweden</W>
+<W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
+<W lemma="Finnland" msd="NP" tag="NE" in="" out="">Finnland</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
+<W lemma="Lars" msd="NP" tag="NE" in="" out="">Lars</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Bred</W>
+<W lemma="glauben" msd="VA" tag="VVFIN" in="" out="">glaubt</W>
+<W lemma="sogar" msd="RG" tag="ADV" in="" out="">sogar</W>
+<W lemma="daran" msd="RG" tag="PAV" in="" out="">daran</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
+<W lemma="selbst" msd="RG" tag="ADV" in="" out="">selbst</W>
+<W lemma="Italien" msd="NP" tag="NE" in="" out="">Italien</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
+<W lemma="gut" msd="AN" tag="ADJA" in="" out="">guter</W>
+<W lemma="Abnehmer" msd="NC" tag="NN" in="" out="">Abnehmer</W>
+<W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
+<W lemma="sein" msd="PO" tag="PPOSAT" in="" out="">seine</W>
+<W lemma="Ware" msd="NC" tag="NN" in="" out="">Waren</W>
+<W lemma="sein" msd="VAF" tag="VAINF" in="" out="">sein</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
