@@ -117,7 +117,7 @@
 <W gloss="the" id="116" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:attr|3:nobj">den</W>
 <W gloss="only" id="117" lemma="eneste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">eneste</W>
 <W gloss="Danish" id="118" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr|1:{source}" out="">danske</W>
-<W gloss="producer" id="119" lemma="producent" msd="NCCSU==I" tag="NN" in="-3:nobj" out="1:pobj.dobj|1:{patient}|-1:{source}">producent</W>
+<W gloss="producer" id="119" lemma="producent" msd="NCCSU==I" tag="NN" in="-3:nobj" out="-1:{source}|1:pobj.dobj|1:{patient}">producent</W>
 <W gloss="of" id="120" lemma="af" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">af</W>
 <W gloss="fresh" id="121" lemma="frisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">frisk</W>
 <W gloss="pasta" id="122" lemma="pasta" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">pasta</W>
@@ -206,7 +206,7 @@
 <W gloss="the_firm's" id="205" lemma="virksomhed" msd="NCCSG==D" tag="NN" in="-1:nobj|1:{const}" out="1:possd">virksomhedens</W>
 <W gloss="500" id="206" lemma="500" msd="AC---U=--" tag="CD" in="-1:possd" out="-1:{const}|1:nobj">500</W>
 <W gloss="employees" id="207" lemma="ansætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:nobj" out="">ansatte</W>
-<W gloss="employs" id="208" lemma="beskæftige" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|2:pobj|6:pnct|1:robj">beskæftiger</W>
+<W gloss="employs" id="208" lemma="beskæftige" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:robj|2:pobj|6:pnct">beskæftiger</W>
 <W gloss="themselves" id="209" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:robj" out="">sig</W>
 <W gloss="with" id="210" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
 <W gloss="the" id="211" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
