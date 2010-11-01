@@ -144,7 +144,7 @@
 <W gloss="at_any_rate" id="143" lemma="i_hvert_fald" msd="RGU" tag="RP" in="-1:eval" out="">i_hvert_fald</W>
 <W gloss="first" id="144" lemma="først" msd="RGU" tag="RP" in="-2:time" out="">først</W>
 <W gloss="through" id="145" lemma="igennem" msd="SP" tag="IN" in="-3:@dir" out="1:nobj">igennem</W>
-<W gloss="a" id="146" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:pnct|3:attr|4:nobj|5:pnct|6:ref|11:relr">en</W>
+<W gloss="a" id="146" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:pnct|3:attr|4:nobj|5:pnct|6:ref|11:rel">en</W>
 <W gloss="long" id="147" lemma="lang" morph="lang" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">lang</W>
 <W gloss="," id="148" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="long" id="149" lemma="lang" morph="lang" msd="ANPCSU=IU" tag="JJ" in="-3:attr" out="">lang</W>
@@ -155,7 +155,7 @@
 <W gloss="two" id="154" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
 <W gloss="parties" id="155" lemma="parti" morph="parti" msd="NCNPG==I" tag="NNP" in="-1:nobj" out="">partiers</W>
 <W gloss="people" id="156" lemma="folk" morph="folk" msd="NCNPU==I" tag="NNP" in="-3:possd|-3:{const}" out="">folk</W>
-<W gloss="can" id="157" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="-11:relr" out="-4:subj|-5:time|1:vobj">kan</W>
+<W gloss="can" id="157" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="-11:rel" out="-4:subj|-5:time|1:vobj">kan</W>
 <W gloss="teach" id="158" lemma="lære" morph="lære" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|3:nobj">lære</W>
 <W gloss="each_other's" id="159" lemma="hinanden" msd="PC--PG---" tag="PP" in="-1:dobj|1:{arg}|3:[dobj]" out="1:possd">hinandens</W>
 <W gloss="chemistry" id="160" lemma="kemi" morph="kemi" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{arg}">kemi</W>
@@ -172,9 +172,9 @@
 <W gloss="and" id="171" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="hovedbestyrelsesmøder" id="172" lemma="hovedbestyrelsesmøde" morph="møde -[hovedbestyrelse]s/subj.agent mødes +Ø/DERvn&3a;patient bestyrelse -hoved/func bestyre +lse/DERvn&3a;agent " msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">hovedbestyrelsesmøder</W>
 <W gloss="be" id="173" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-6:vobj" out="-3:[subj]|1:preds">være</W>
-<W gloss="a" id="174" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:nobj">et</W>
-<W gloss="step" id="175" lemma="skridt" morph="skride +t/DERvn&3a;patient" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj|1:{loc}">skridt</W>
-<W gloss="in" id="176" lemma="på" msd="SP" tag="IN" in="-1:pobj|-1:{loc}" out="1:nobj">på</W>
+<W gloss="a" id="174" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:nobj|2:attr">et</W>
+<W gloss="step" id="175" lemma="skridt" morph="skride +t/DERvn&3a;patient" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:{loc}">skridt</W>
+<W gloss="in" id="176" lemma="på" msd="SP" tag="IN" in="-2:attr|-1:{loc}" out="1:nobj">på</W>
 <W gloss="the_way" id="177" lemma="vej" morph="vej" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">vejen</W>
 <W gloss="." id="178" lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
@@ -238,8 +238,8 @@
 <W gloss="a" id="237" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:attr">en</W>
 <W gloss="weekend" id="238" lemma="weekend" morph="weekend" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:{loc}">weekend</W>
 <W gloss="with" id="239" lemma="hos" msd="SP" tag="IN" in="-2:attr|-1:{loc}" out="1:nobj">hos</W>
-<W gloss="family" id="240" lemma="familie" morph="familie" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:attr|1:{loc}">familien</W>
-<W gloss="at" id="241" lemma="på" msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">på</W>
+<W gloss="family" id="240" lemma="familie" morph="familie" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:attr|1:{source}">familien</W>
+<W gloss="at" id="241" lemma="på" msd="SP" tag="IN" in="-1:attr|-1:{source}" out="1:nobj">på</W>
 <W gloss="Fanø" id="242" lemma="Fanø" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Fanø</W>
 <W gloss="have" id="243" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="" out="-7:time|1:subj|2:time|3:vobj|8:pnct">har</W>
 <W gloss="he" id="244" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">han</W>
