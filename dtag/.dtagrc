@@ -113,6 +113,7 @@ macro it cd ~/cdt/it
 macro dait cd ~/cdt/da-it
 macro daes cd ~/cdt/da-es
 macro commit !~/cdt/tools/dtag-commit {ARGS}
+macro svnfix !~/cdt/tools/dtag-svnfix {ARGS}
 macro update !~/cdt/tools/dtag-update
 macro wiki !~/cdt/tools/dtag-wiki
 macro opentask !~/cdt/tools/dtag-opentask ;; script ~/.script 
@@ -240,6 +241,7 @@ style error:badtype -arclabel -color red -fonttype bold -arc -ps "0 0 0 setrgbco
 macro noerrors style error ;; style error:nogov ;; style error:manygovs ;; style error:noante ;; style error:nosubj ;; style error:nonobj ;; style error:badtype
 macro nocolors noerrors ;; style discourse
 macro nonumbers layout -graph -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps ;; vars -id
+macro noids vars -id
 
 # Command log
 user -f /home/cdt/.cdtname
