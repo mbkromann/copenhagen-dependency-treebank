@@ -2,10 +2,10 @@
 <W id="1" msd="PI" tag="DT" in="" out="1:nobj|20:pnct|2:attr">A</W>
 <W id="2" msd="NC=S" tag="NN" in="-1:nobj" out="1:{loc}">shock</W>
 <W id="3" msd="SP" tag="IN" in="-2:attr|-1:{loc}" out="1:nobj">in</W>
-<W id="4" msd="PI" tag="DT" in="-1:nobj" out="1:nobj|3:relr|2:ref">a</W>
-<W id="5" msd="NC=S" tag="NN" in="-1:nobj" out="">world</W>
-<W id="6" msd="PT" tag="WDT" in="1:subj|2:[subj]|-2:ref" out="">that</W>
-<W id="7" msd="VADR" tag="VBZ" in="-3:relr" out="-1:subj|1:vobj">has</W>
+<W id="4" msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
+<W id="5" msd="NC=S" tag="NN" in="-1:nobj" out="1:ref|2:relr">world</W>
+<W id="6" msd="PT" tag="WDT" in="-1:ref|1:subj|2:[subj]" out="">that</W>
+<W id="7" msd="VADR" tag="VBZ" in="-2:relr" out="-1:subj|1:vobj">has</W>
 <W id="8" msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds">been</W>
 <W id="9" msd="VAP" tag="VBN" in="-1:preds" out="1:pobj">used</W>
 <W id="10" msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -23,14 +23,14 @@
 </s>
 <s>
 <W id="24" msd="CC" tag="CC" in="8:discmark" out="">But</W>
-<W id="25" msd="ANP" tag="RB" in="7:focal" out="1:pobj#">even</W>
-<W id="26" msd="CS" tag="IN" in="-1:pobj#" out="3:vobj">though</W>
+<W id="25" msd="ANP" tag="RB" in="7:conc" out="1:pobj">even</W>
+<W id="26" msd="CS" tag="IN" in="-1:pobj" out="3:vobj">though</W>
 <W id="27" msd="ANP" tag="JJ" in="1:attr" out="">total</W>
 <W id="28" msd="NC=S" tag="NN" in="1:subj" out="-1:attr">investment</W>
 <W id="29" msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|1:pnct">fell</W>
 <W id="30" msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W id="31" msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W id="32" msd="VADA" tag="VBD" in="" out="-1:subj|-7:focal|-8:discmark|1:quant|2:scene|34:pnct">rose</W>
+<W id="32" msd="VADA" tag="VBD" in="" out="-1:subj|-8:discmark|1:quant|2:scene|34:pnct|-7:conc">rose</W>
 <W id="33" msd="ANP" tag="RB" in="-1:quant" out="">significantly</W>
 <W id="34" msd="SP" tag="IN" in="-2:scene" out="1:nobj">for</W>
 <W id="35" msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj|4:pnct|7:appa|23:modp|23:{elab}">certain</W>
@@ -52,11 +52,11 @@
 <W id="51" msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">multiple</W>
 <W id="52" msd="NC=P" tag="NNS" in="-1:nobj" out="">users</W>
 <W id="53" msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
-<W id="54" msd="PD" tag="DT" in="4:other" out="">all</W>
+<W id="54" msd="PD" tag="DT" in="4:subj" out="">all</W>
 <W id="55" msd="U=" tag="TO" in="3:other" out="1:nobj">to</W>
 <W id="56" msd="PD" tag="DT" in="-1:nobj" out="1:nobj">this</W>
 <W id="57" msd="NC=S" tag="NN" in="-1:nobj" out="">extent</W>
-<W id="58" msd="VAG" tag="VBG" in="-23:modp|-23:{elab}" out="-3:other|1:pobj|-4:other">dealing</W>
+<W id="58" msd="VAG" tag="VBG" in="-23:modp|-23:{elab}" out="-4:subj|-3:other|1:pobj">dealing</W>
 <W id="59" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W id="60" msd="NC=P" tag="NNS" in="-1:nobj" out="1:attr|1:{const}">machines</W>
 <W id="61" msd="SP" tag="IN" in="-1:attr|-1:{const}" out="1:nobj">with</W>
@@ -82,13 +82,13 @@
 <s>
 <W id="82" msd="XP" tag="&amp;quot;" in="9:pnct" out="">"</W>
 <W id="83" msd="PD" tag="DT" in="8:subj" out="2:nobj">The</W>
-<W id="84" msd="NP=S" tag="NNP" in="1:attr|1:{const}#" out="">Unix</W>
-<W id="85" msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj|1:{arg}|-1:attr|-1:{const}#">part</W>
+<W id="84" msd="NP=S" tag="NNP" in="1:{poss}" out="">Unix</W>
+<W id="85" msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj|1:{arg}|-1:{poss}">part</W>
 <W id="86" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="4:nobj">of</W>
 <W id="87" msd="ANC" tag="JJR" in="3:attr" out="">smaller</W>
-<W id="88" msd="ANP" tag="JJ" in="1:attr#" out="">multiple</W>
-<W id="89" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="-1:attr#">user</W>
-<W id="90" msd="NC=P" tag="NNS" in="-4:nobj" out="-3:attr|-1:attr|-1:{goal}#">systems</W>
+<W id="88" msd="ANP" tag="JJ" in="2:attr#" out="">multiple</W>
+<W id="89" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="">user</W>
+<W id="90" msd="NC=P" tag="NNS" in="-4:nobj" out="-3:attr|-2:attr#|-1:attr|-1:{goal}#">systems</W>
 <W id="91" msd="VADA" tag="VBD" in="" out="-9:pnct|-8:subj|2:dobj|6:time|9:pnct">attained</W>
 <W id="92" msd="ANP" tag="JJ" in="1:quant" out="">approximately</W>
 <W id="93" msd="NC=S" tag="NN" in="-2:dobj" out="-1:quant|1:pobj|1:{arg}">half</W>
@@ -114,12 +114,12 @@
 <W id="113" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W id="114" msd="VADR" tag="VBZ" in="" out="-6:qobj|2:subj|21:pnct">predicts</W>
 <W id="115" msd="SP" tag="IN" in="1:namef" out="">Per</W>
-<W id="116" msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:attr|1:{other}|9:ref">Andersen</W>
-<W id="117" msd="SP" tag="IN" in="-1:attr|-1:{other}" out="1:nobj|9:conj">from</W>
+<W id="116" msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|9:ref|1:attr|1:{source}">Andersen</W>
+<W id="117" msd="SP" tag="IN" in="-1:attr|-1:{source}" out="9:conj|1:nobj">from</W>
 <W id="118" msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W id="119" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="">analysis</W>
-<W id="120" msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj|-1:attr|-1:{goal}#|1:{other}">firm</W>
-<W id="121" msd="SP" tag="IN" in="-1:pobj|-1:{other}" out="1:nobj">of</W>
+<W id="120" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{goal}#|1:attr|1:{poss}">firm</W>
+<W id="121" msd="SP" tag="IN" in="-1:attr|-1:{poss}" out="1:nobj">of</W>
 <W id="122" msd="NP=S" tag="NNP" in="-1:nobj" out="1:name">IDC</W>
 <W id="123" msd="NP=S" tag="NNP" in="-1:name" out="">Scandinavia</W>
 <W id="124" msd="CC" tag="CC" in="2:coord" out="">and</W>
@@ -142,8 +142,8 @@
 <W id="141" msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W id="142" msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">overtake</W>
 <W id="143" msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
-<W id="144" msd="NC=S" tag="NN" in="-1:nobj" out="3:pobj.pobj|3:{location}|1:pobj.subj|1:{agent}">dominance</W>
-<W id="145" msd="SP" tag="IN" in="-1:pobj.subj|-1:{agent}" out="1:nobj">of</W>
+<W id="144" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:pobj.pobj|3:{location}">dominance</W>
+<W id="145" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">of</W>
 <W id="146" msd="NP=S" tag="NNP" in="-1:nobj" out="">DOS</W>
 <W id="147" msd="SP" tag="IN" in="-3:pobj.pobj|-3:{location}" out="1:nobj">on</W>
 <W id="148" msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -160,9 +160,9 @@
 <W id="159" msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W id="162" msd="CC" tag="CC" in="2:coord" out="">And</W>
+<W id="162" msd="CC" tag="CC" in="2:coord" out="15:pnct">And</W>
 <W id="163" msd="NP=S" tag="NNP" in="1:subj|9:[subj]|11:[subj]" out="">Unix</W>
-<W id="164" msd="VADR" tag="VBZ" in="" out="-1:subj|-2:coord|1:neg|2:dobj|8:conj|13:pnct">is</W>
+<W id="164" msd="VADR" tag="VBZ" in="" out="-1:subj|-2:coord|1:neg|2:dobj|8:conj">is</W>
 <W id="165" msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W id="166" msd="PI" tag="DT" in="-2:dobj" out="1:nobj">a</W>
 <W id="167" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">substitute</W>
@@ -170,18 +170,18 @@
 <W id="169" msd="ANP" tag="JJ" in="1:attr" out="">former</W>
 <W id="170" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">systems</W>
 <W id="171" msd="CC" tag="CC" in="1:coord" out="">but</W>
-<W id="172" msd="VADR" tag="VBZ" in="-8:conj" out="-9:[subj]|-1:coord|1:preds">is</W>
-<W id="173" msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
+<W id="172" msd="VADR" tag="VBZ" in="-8:conj" out="-9:[subj]|-1:coord|1:pobj#">is</W>
+<W id="173" msd="U=" tag="TO" in="-1:pobj#" out="1:vobj">to</W>
 <W id="174" msd="VAF" tag="VB" in="-1:vobj" out="-11:[subj]|1:preds">be</W>
 <W id="175" msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W id="176" msd="NC=S" tag="NN" in="-1:nobj" out="">supplement</W>
-<W id="177" msd="XP" tag="." in="-13:pnct" out="">.</W>
+<W id="177" msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
 <W id="180" msd="PD" tag="DT" in="3:subj|5:[subj]|13:[subj]" out="2:nobj">The</W>
 <W id="181" msd="ANP" tag="JJ" in="1:attr#" out="">personal</W>
 <W id="182" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr#">computer</W>
-<W id="183" msd="VADA" tag="VBD" in="" out="-3:subj|1:neg|2:vobj|5:pnct|10:conj|20:pnct|19:²pnct">did</W>
+<W id="183" msd="VADA" tag="VBD" in="" out="-3:subj|1:neg|2:vobj|5:pnct|10:conj|20:pnct">did</W>
 <W id="184" msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W id="185" msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">kill</W>
 <W id="186" msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -198,9 +198,9 @@
 <W id="197" msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}" out="">word</W>
 <W id="198" msd="NC=S" tag="NN" in="-2:nobj" out="-1:nobj.dobj|-1:{patient}|2:conj">processing</W>
 <W id="199" msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W id="200" msd="ANP" tag="JJ" in="-2:conj" out="-1:coord|1:attr|2:¹nobj">other</W>
+<W id="200" msd="ANP" tag="JJ" in="-2:conj" out="-1:coord|1:attr|2:nobj">other</W>
 <W id="201" msd="ANP" tag="JJ" in="-1:attr" out="">simple</W>
-<W compound="¹applications²." id="202" msd="ANP" tag="JJ" in="-2:¹nobj|-19:²pnct" out="">applications.</W>
+<W id="202" msd="ANP" tag="JJ" in="-2:nobj" out="">applications.</W>
 <W id="203" msd="XP" tag="&amp;quot;" in="-20:pnct" out="">"</W>
 </s>
 <s>
@@ -220,9 +220,9 @@
 <W id="219" msd="ANP" tag="RB" in="1:time" out="">ultimately</W>
 <W id="220" msd="VADR" tag="VBP" in="-4:relr" out="-2:subj|-1:time|1:pobj#">are</W>
 <W id="221" msd="U=" tag="TO" in="-1:pobj#" out="1:vobj">to</W>
-<W id="222" msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|2:predo">make</W>
+<W id="222" msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|2:preds">make</W>
 <W id="223" msd="PP" tag="PRP" in="-1:dobj" out="2:nobj">it</W>
-<W id="224" msd="ANP" tag="JJ" in="-2:predo" out="">possible</W>
+<W id="224" msd="ANP" tag="JJ" in="-2:preds" out="">possible</W>
 <W id="225" msd="U=" tag="TO" in="-2:nobj" out="1:vobj">to</W>
 <W _noerror="&3a;nosubj&3a;" id="226" msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|2:pobj">transfer</W>
 <W id="227" msd="NC=P" tag="NNS" in="-1:dobj" out="">applications</W>
