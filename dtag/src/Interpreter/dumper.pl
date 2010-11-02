@@ -1,0 +1,3 @@
+sub dumper {
+	Dumper(@_);
+}

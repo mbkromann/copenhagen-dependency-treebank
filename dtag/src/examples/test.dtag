@@ -1,0 +1,776 @@
+comment
+comment
+comment
+comment
+frame 0001.tag
+node Han
+frame 0001.tag
+node fik
+frame 0001.tag
+edge 4 subj 5
+frame 0001.tag
+node hurtigt
+frame 0001.tag
+edge 6 mod 5
+frame 0001.tag
+node tag
+frame 0001.tag
+edge 7 dobj 5
+frame 0001.tag
+node i
+frame 0001.tag
+edge 8 pobj 7
+frame 0001.tag
+node DTM
+frame 0001.tag
+edge 9 nobj 8
+frame 0001.tag
+node og
+frame 0001.tag
+edge 10 coord 5
+frame 0001.tag
+node lærte
+frame 0001.tag
+edge 4 [subj] 11
+frame 0001.tag
+edge 11 conj 10
+frame 0001.tag
+node ,
+frame 0001.tag
+edge 12 pnct 11
+frame 0001.tag
+node at
+frame 0001.tag
+edge 13 dobj 11
+frame 0001.tag
+node man
+frame 0001.tag
+node skal
+frame 0001.tag
+edge 15 vobj 13
+frame 0001.tag
+edge 14 subj 15
+frame 0001.tag
+node omgås
+frame 0001.tag
+edge 14 [subj] 16
+frame 0001.tag
+edge 16 vobj 15
+frame 0001.tag
+node materiellet
+frame 0001.tag
+edge 17 dobj 16
+frame 0001.tag
+node med
+frame 0001.tag
+edge 18 mod 16
+frame 0001.tag
+node en
+frame 0001.tag
+edge 19 nobj 18
+frame 0001.tag
+node vis
+frame 0001.tag
+edge 20 mod 19
+frame 0001.tag
+node forsigtighed
+frame 0001.tag
+edge 21 nobj 19
+frame 0001.tag
+node for
+frame 0001.tag
+edge 22 mod 16
+frame 0001.tag
+node at
+frame 0001.tag
+edge 23 nobj 22
+frame 0001.tag
+node spare
+frame 0001.tag
+edge 24 vobj 23
+frame 0001.tag
+node bilen
+frame 0001.tag
+edge 25 dobj 24
+frame 0001.tag
+node .
+frame 0001.tag
+edge 26 pnct 5
+comment
+comment
+frame 0001.tag
+node Det
+frame 0001.tag
+node er
+frame 0001.tag
+edge 29 subj 30
+frame 0001.tag
+node jo
+frame 0001.tag
+edge 31 mod 30
+frame 0001.tag
+node ikke
+frame 0001.tag
+edge 32 mod 30
+frame 0001.tag
+node nok
+frame 0001.tag
+edge 33 pred 30
+frame 0001.tag
+node at
+frame 0001.tag
+edge 34 nobj 29
+frame 0001.tag
+node ligge
+frame 0001.tag
+edge 35 vobj 34
+frame 0001.tag
+node forrest
+frame 0001.tag
+edge 36 aobj 35
+frame 0001.tag
+node i
+frame 0001.tag
+edge 37 mod 35
+frame 0001.tag
+node starten
+frame 0001.tag
+edge 38 nobj 37
+frame 0001.tag
+node  - 
+frame 0001.tag
+edge 39 pnct 30
+frame 0001.tag
+node det
+frame 0001.tag
+node gælder
+frame 0001.tag
+edge 41 conj 30
+frame 0001.tag
+edge 40 subj 41
+frame 0001.tag
+node om
+frame 0001.tag
+edge 42 pobj 41
+frame 0001.tag
+node at
+frame 0001.tag
+edge 43 nobj 42
+frame 0001.tag
+node nå
+frame 0001.tag
+edge 44 vobj 43
+frame 0001.tag
+node det
+frame 0001.tag
+edge 45 dobj 44
+frame 0001.tag
+node ternede
+frame 0001.tag
+edge 46 mod 45
+frame 0001.tag
+node flag
+frame 0001.tag
+edge 47 nobj 45
+frame 0001.tag
+node til
+frame 0001.tag
+edge 48 mod 44
+frame 0001.tag
+node slut
+frame 0001.tag
+edge 49 nobj 48
+frame 0001.tag
+node .
+frame 0001.tag
+edge 50 pnct 30
+comment
+comment
+comment
+comment
+frame 0001.tag
+node Jeg
+frame 0001.tag
+node har
+frame 0001.tag
+edge 55 subj 56
+frame 0001.tag
+node svært
+frame 0001.tag
+edge 57 aobj 56
+frame 0001.tag
+node ved
+frame 0001.tag
+edge 58 pobj 57
+frame 0001.tag
+node at
+frame 0001.tag
+edge 59 nobj 58
+frame 0001.tag
+node se
+frame 0001.tag
+edge 60 vobj 59
+frame 0001.tag
+node ,
+frame 0001.tag
+edge 61 pnct 60
+frame 0001.tag
+node at
+frame 0001.tag
+edge 62 dobj 60
+frame 0001.tag
+node Kurt
+frame 0001.tag
+node overhovedet
+frame 0001.tag
+node har
+frame 0001.tag
+edge 65 vobj 62
+frame 0001.tag
+edge 63 subj 65
+frame 0001.tag
+edge 64 mod 65
+frame 0001.tag
+node nogen
+frame 0001.tag
+edge 66 dobj 65
+frame 0001.tag
+node svagheder
+frame 0001.tag
+edge 67 nobj 66
+frame 0001.tag
+node som
+frame 0001.tag
+edge 68 mod 65
+frame 0001.tag
+node racerkører
+frame 0001.tag
+edge 69 nobj 68
+frame 0001.tag
+node .
+frame 0001.tag
+edge 70 pnct 56
+comment
+comment
+comment
+comment
+comment
+comment
+comment
+frame 0001.tag
+node Kurt
+frame 0001.tag
+node om
+frame 0001.tag
+edge 79 mod 78
+frame 0001.tag
+node racerkøreren
+frame 0001.tag
+edge 80 nobj 79
+frame 0001.tag
+node Kris
+frame 0001.tag
+edge 81 appr 80
+frame 0001.tag
+node :
+frame 0001.tag
+edge 82 pnct 79
+comment
+comment
+comment
+comment
+comment
+frame 0001.tag
+node  - 
+frame 0001.tag
+node Kris
+frame 0001.tag
+node er
+frame 0001.tag
+edge 90 xpl 79
+frame 0001.tag
+edge 88 pnct 90
+frame 0001.tag
+edge 89 subj 90
+frame 0001.tag
+node en
+frame 0001.tag
+edge 91 pred 90
+frame 0001.tag
+node meget
+frame 0001.tag
+node seriøs
+frame 0001.tag
+edge 93 mod 91
+frame 0001.tag
+edge 92 mod 93
+frame 0001.tag
+node racerkører
+frame 0001.tag
+edge 94 nobj 91
+frame 0001.tag
+node ,
+frame 0001.tag
+edge 95 pnct 91
+frame 0001.tag
+node hvor
+frame 0001.tag
+edge 96 ref 91
+frame 0001.tag
+node sejrsviljen
+frame 0001.tag
+node ligger
+frame 0001.tag
+edge 98 rel 91
+frame 0001.tag
+edge 96 mod 98
+frame 0001.tag
+edge 97 subj 98
+frame 0001.tag
+node utroligt
+frame 0001.tag
+node dybt
+frame 0001.tag
+edge 100 aobj 98
+frame 0001.tag
+edge 99 mod 100
+frame 0001.tag
+node  - 
+frame 0001.tag
+edge 101 pnct 98
+frame 0001.tag
+node han
+frame 0001.tag
+node er
+frame 0001.tag
+edge 103 conj 90
+frame 0001.tag
+edge 102 subj 103
+frame 0001.tag
+node en
+frame 0001.tag
+edge 104 pred 103
+frame 0001.tag
+node type
+frame 0001.tag
+edge 105 nobj 104
+frame 0001.tag
+node ,
+frame 0001.tag
+edge 106 pnct 104
+frame 0001.tag
+node der
+frame 0001.tag
+edge 107 ref 104
+frame 0001.tag
+node vil
+frame 0001.tag
+edge 108 rel 104
+frame 0001.tag
+edge 107 subj 108
+frame 0001.tag
+node vinde
+frame 0001.tag
+edge 107 [subj] 109
+frame 0001.tag
+edge 109 vobj 108
+frame 0001.tag
+node .
+frame 0001.tag
+edge 110 pnct 78
+comment
+comment
+frame 0001.tag
+node En
+frame 0001.tag
+node uvurderlig
+frame 0001.tag
+edge 114 mod 113
+frame 0001.tag
+node egenskab
+frame 0001.tag
+edge 115 nobj 113
+frame 0001.tag
+node for
+frame 0001.tag
+edge 116 mod 115
+frame 0001.tag
+node en
+frame 0001.tag
+edge 117 nobj 116
+frame 0001.tag
+node racerkører
+frame 0001.tag
+edge 118 nobj 117
+frame 0001.tag
+node .
+frame 0001.tag
+edge 119 pnct 113
+comment
+comment
+frame 0001.tag
+node Samtidig
+frame 0001.tag
+node er
+frame 0001.tag
+edge 122 mod 123
+frame 0001.tag
+node han
+frame 0001.tag
+edge 124 subj 123
+frame 0001.tag
+node meget
+frame 0001.tag
+node fair
+frame 0001.tag
+edge 126 pred 123
+frame 0001.tag
+edge 125 mod 126
+frame 0001.tag
+node på
+frame 0001.tag
+edge 127 mod 123
+frame 0001.tag
+node banen
+frame 0001.tag
+edge 128 nobj 127
+frame 0001.tag
+node ,
+frame 0001.tag
+edge 129 pnct 123
+frame 0001.tag
+node og
+frame 0001.tag
+edge 130 coord 123
+frame 0001.tag
+node jeg
+frame 0001.tag
+node kan
+frame 0001.tag
+edge 132 conj 130
+frame 0001.tag
+edge 131 subj 132
+frame 0001.tag
+node ikke
+frame 0001.tag
+edge 133 mod 132
+frame 0001.tag
+node mindes
+frame 0001.tag
+edge 131 [subj] 134
+frame 0001.tag
+edge 134 vobj 132
+frame 0001.tag
+node ,
+frame 0001.tag
+edge 135 pnct 134
+frame 0001.tag
+node jeg
+frame 0001.tag
+node har
+frame 0001.tag
+edge 137 vobj 134
+frame 0001.tag
+edge 136 subj 137
+frame 0001.tag
+node haft
+frame 0001.tag
+edge 136 [subj] 138
+frame 0001.tag
+edge 138 vobj 137
+frame 0001.tag
+node "
+frame 0001.tag
+node problemer
+frame 0001.tag
+edge 140 dobj 138
+frame 0001.tag
+edge 139 pnct 140
+frame 0001.tag
+node "
+frame 0001.tag
+edge 141 pnct 140
+frame 0001.tag
+node med
+frame 0001.tag
+edge 142 pobj 140
+frame 0001.tag
+node ham
+frame 0001.tag
+edge 143 nobj 142
+frame 0001.tag
+node under
+frame 0001.tag
+edge 144 mod 138
+frame 0001.tag
+node træning
+frame 0001.tag
+edge 145 nobj 144
+frame 0001.tag
+node eller
+frame 0001.tag
+edge 146 coord 144
+frame 0001.tag
+node i
+frame 0001.tag
+edge 147 conj 146
+frame 0001.tag
+node løb
+frame 0001.tag
+edge 148 nobj 147
+frame 0001.tag
+node .
+frame 0001.tag
+edge 149 pnct 123
+comment
+comment
+comment
+comment
+frame 0001.tag
+node Det
+frame 0001.tag
+node er
+frame 0001.tag
+edge 154 subj 155
+frame 0001.tag
+node fantastisk
+frame 0001.tag
+edge 156 pred 155
+frame 0001.tag
+node ,
+frame 0001.tag
+edge 157 pnct 155
+frame 0001.tag
+node så
+frame 0001.tag
+node meget
+frame 0001.tag
+edge 159 nobj 154
+frame 0001.tag
+edge 158 mod 159
+frame 0001.tag
+node han
+frame 0001.tag
+node har
+frame 0001.tag
+edge 161 rel 159
+frame 0001.tag
+edge 160 subj 161
+frame 0001.tag
+node overkommet
+frame 0001.tag
+edge 159 [dobj] 162
+frame 0001.tag
+edge 160 [subj] 162
+frame 0001.tag
+edge 162 vobj 161
+frame 0001.tag
+node i_år
+frame 0001.tag
+edge 163 mod 162
+frame 0001.tag
+node :
+frame 0001.tag
+edge 164 pnct 162
+frame 0001.tag
+node Først
+frame 0001.tag
+node trekvart
+frame 0001.tag
+node DTM-sæson
+frame 0001.tag
+edge 167 xpl 162
+frame 0001.tag
+edge 165 mod 167
+frame 0001.tag
+edge 166 mod 167
+frame 0001.tag
+node hos
+frame 0001.tag
+edge 168 mod 167
+frame 0001.tag
+node det
+frame 0001.tag
+edge 169 nobj 168
+frame 0001.tag
+node private
+frame 0001.tag
+edge 170 mod 169
+frame 0001.tag
+node Unitron-team
+frame 0001.tag
+edge 171 nobj 169
+frame 0001.tag
+node ,
+frame 0001.tag
+edge 172 pnct 169
+frame 0001.tag
+node hvor
+frame 0001.tag
+edge 173 ref 169
+frame 0001.tag
+node han
+frame 0001.tag
+node foruden
+frame 0001.tag
+node at
+frame 0001.tag
+edge 176 nobj 175
+frame 0001.tag
+node være
+frame 0001.tag
+edge 174 [subj] 177
+frame 0001.tag
+edge 177 vobj 176
+frame 0001.tag
+node kører
+frame 0001.tag
+edge 178 pred 177
+frame 0001.tag
+node også
+frame 0001.tag
+node skulle
+frame 0001.tag
+edge 180 rel 169
+frame 0001.tag
+edge 173 mod 180
+frame 0001.tag
+edge 174 subj 180
+frame 0001.tag
+edge 175 mod 180
+frame 0001.tag
+edge 179 mod 180
+frame 0001.tag
+node "
+frame 0001.tag
+node organisere
+frame 0001.tag
+edge 174 [subj] 182
+frame 0001.tag
+edge 182 vobj 180
+frame 0001.tag
+edge 181 pnct 182
+frame 0001.tag
+node "
+frame 0001.tag
+edge 183 pnct 182
+frame 0001.tag
+node en
+frame 0001.tag
+edge 184 dobj 182
+frame 0001.tag
+node masse
+frame 0001.tag
+edge 185 nobj 184
+frame 0001.tag
+node ting
+frame 0001.tag
+edge 186 nobj 185
+frame 0001.tag
+node .
+frame 0001.tag
+edge 187 pnct 155
+comment
+comment
+frame 0001.tag
+node Så
+frame 0001.tag
+node oprettede
+frame 0001.tag
+edge 190 mod 191
+frame 0001.tag
+node han
+frame 0001.tag
+edge 192 subj 191
+frame 0001.tag
+node Team
+frame 0001.tag
+edge 193 dobj 191
+frame 0001.tag
+node Hokspeed
+frame 0001.tag
+edge 194 name 193
+frame 0001.tag
+node til
+frame 0001.tag
+edge 195 mod 191
+frame 0001.tag
+node Nordic
+frame 0001.tag
+node Cup
+frame 0001.tag
+edge 197 nobj 195
+frame 0001.tag
+edge 196 mod 197
+frame 0001.tag
+node ,
+frame 0001.tag
+edge 198 pnct 191
+frame 0001.tag
+node og
+frame 0001.tag
+edge 199 coord 191
+frame 0001.tag
+node midt
+frame 0001.tag
+node i
+frame 0001.tag
+edge 201 pobj 200
+frame 0001.tag
+node det
+frame 0001.tag
+edge 202 nobj 201
+frame 0001.tag
+node hele
+frame 0001.tag
+edge 203 nobj 202
+frame 0001.tag
+node skiftede
+frame 0001.tag
+edge 204 conj 199
+frame 0001.tag
+edge 200 mod 204
+frame 0001.tag
+node han
+frame 0001.tag
+edge 205 subj 204
+frame 0001.tag
+node over
+frame 0001.tag
+edge 206 pobj 204
+frame 0001.tag
+node til
+frame 0001.tag
+edge 207 pobj 206
+frame 0001.tag
+node Prodrive's
+frame 0001.tag
+edge 208 nobj 207
+frame 0001.tag
+node BMW-fabriksteam
+frame 0001.tag
+edge 209 possd 208
+frame 0001.tag
+node i
+frame 0001.tag
+edge 210 mod 208
+frame 0001.tag
+node det
+frame 0001.tag
+edge 211 nobj 210
+frame 0001.tag
+node engelske
+frame 0001.tag
+edge 212 mod 211
+frame 0001.tag
+node mesterskab
+frame 0001.tag
+edge 213 nobj 211
+frame 0001.tag
+node .
+frame 0001.tag
+edge 214 pnct 191
+comment
+comment
+comment
+comment

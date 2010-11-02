@@ -1,0 +1,4 @@
+load example.tag
+del 2 subj 3
+del 5 mod 4
+view

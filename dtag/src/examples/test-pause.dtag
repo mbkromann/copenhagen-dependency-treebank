@@ -1,0 +1,8 @@
+macro n resume
+echo Hello\n
+pause
+echo Hello again\n
+pause
+echo Ending
+
+

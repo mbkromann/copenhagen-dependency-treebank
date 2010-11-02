@@ -1,0 +1,191 @@
+#!/usr/bin/perl
+
+use CGI qw/:standard/;
+use CGI::Carp qw(fatalsToBrowser);
+
+# Paths
+my $server = "/opt/dtag/server";
+my $lookup = "$server/lookup";
+my $queries = "$server/queries";
+my $matches = "$server/matches";
+my $data = "$server/data";
+my $qidfile = "$server/qid";
+my $script = "/cgi-bin/dtag-cgi";
+
+# Initialize CGI object
+my $cgi = new CGI;
+my $cmd = $cgi->param("cmd") || "matches";
+my $query = $cgi->param("query");
+my $qid = $cgi->param("qid");
+my $mid = $cgi->param("mid");
+
+# Remove all newlines and single quotes from the query
+$query =~ s/\n//g;
+
+# Default values
+my $timeout = $cgi->param("timeout") || 30;
+my $matchout = $cgi->param("matchout") || 100;
+
+# Lookup qid from query 
+sub lookup_qid {
+	my $query = shift;
+	$query =~ s/\n//g;
+	$query =~ s/'/&quot;/g;
+
+	# Grep lookup file for matching queries
+	open(GREP, "grep -x '[0-9]*: $query' $lookup|");
+	my $match = <GREP>;
+	close(GREP);
+
+	# Return query id from match, if successful
+	if ($match) {
+		$match =~ /^([0-9]+):/;
+		return $1;
+	}
+
+	# No match found
+	return undef;
+}
+
+# Lookup query from qid
+sub lookup_query {
+	my $qid = shift;
+	$qid =~ s/\n//g;
+
+	# Execute grep on lookup file
+	open(GREP, "grep -x '$qid: .*' $lookup|");
+	my $match = <GREP>;
+	close(GREP);
+
+	# Return query id from match, if successful
+	if ($match) {
+		$match =~ /^([0-9]+): (.*)$/;
+		return $2;
+	}
+
+	# No match found
+	return undef;
+}
+
+# Create new query ID
+sub new_query {
+	my $q = shift;
+
+	# Open and lock qid-file
+	open(QID, '+<', $qidfile)
+		or die("Cannot open qidfile $qidfile: $!");
+	flock(QID, LOCK_EX);
+
+	# Increment qid from $qidfile
+	my $qid = (<QID> || 0) + 1;
+
+	# Update $qidfile
+	seek(QID, 0, 0);
+	print QID "$qid\n";
+
+	# Unlock and close qid-file
+	flock(QID, LOCK_UN);
+	close(QID);
+
+	# Append query to lookup file
+	$q =~ s/'/&quot;/g;
+	open(LOOKUP, '>>', $lookup)
+		or die("Cannot open lookup file $lookup: $!");
+	print LOOKUP "$qid: $q\n";
+	close(LOOKUP);
+
+	# Return new $qid
+	return $qid;
+}
+
+# Submit request
+sub submit_request {
+	my $query = shift;
+	my $qid = shift;
+
+	# Create query
+	open(QUERY, ">$data/$qid");
+	print QUERY "log error=$data/$qid.error\n";
+	print QUERY "find -corpus -secure -key(sentence)" 
+		. ($timeout ? " -timeout=$timeout" : "") 
+		. ($matchout ? " -matchout=$matchout" : "")
+		. "$query\n";
+	print QUERY "save -match $data/$qid.match\n";
+	close(QUERY);
+
+	# Place query in query directory
+	rename("$data/$qid", "$queries/$qid");
+}
+
+# Reload HTML code
+sub print_html {
+	my $text = shift;
+	my $redirect = shift;
+	my $delay = shift || 0;
+
+	# Title of document and other options
+	my $options = { '-title' 	=> 'DTAG query engine' };
+
+	# Handle redirection
+	if ($redirect) {
+		$options->{'-head'} 
+			= meta({'-http_equiv' => 'Refresh',
+				'-content' => "$delay; URL=$url"});
+	} 
+
+	# Print HTML document
+	print header, start_html($options), 
+		($redirect 
+			? p({'-align' => 'center'}, "Your query is being
+				processed. It may take some time to complete.<br>
+				This status message should be updated automatically by
+				your browser every $delay seconds.<br>
+				If nothing happens, you can also try to <a
+				href=\"$redirect\">update the status message manually</a> 
+				by clicking on the link.")
+			: ""), 
+		$text,
+		end_html;
+}
+
+# Main procedure
+sub main {
+	# Lookup query and qid
+	my $oquery = $query;
+	if ($query) {
+		# Lookup query or perform new search
+		if (! ($qid = lookup_qid($query))) {
+			$qid = new_query($query);
+			submit_request($query, $qid);
+		}
+	} elsif ($qid) {
+		# Lookup query from qid
+		$query = lookup_query($qid);
+	}
+
+	# Create query form
+	my $text = start_form 
+		. h2("Search the Danish Dependency Treebank") 
+		. p("Please enter your DTAG query in the field below.")
+		.  textfield({
+				'-name' => 'query', 
+				'-size' => 100, 
+				'-default' => $query || ""}) 
+		.  submit({'-name' => 'Search'})
+		.  end_form  . br
+		. h2("Matches")
+		. '<br>' . ('-' x 70) . "<br>\n" 
+		. "query=$query<br>\n" 
+		. "qid=$qid<br>\n"
+		. "timeout=$timeout<br>\n" 
+		. "matchout=$matchout<br>\n" 
+		. ('-' x 70) . "\n";
+	
+	# Print HTML
+	print_html($text);
+}
+
+# Execute main program
+main();
+
+

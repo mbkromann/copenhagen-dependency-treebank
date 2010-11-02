@@ -1,0 +1,13 @@
+ERROR! cannot read file /opt/dta/arcs.header in Graph->readfile
+check that DTAGHOME is set correctly!
+ERROR! cannot read file /opt/dta/arcs.trailer in Graph->readfile
+check that DTAGHOME is set correctly!
+a = UNDEFINED = UNDEFINED
+b = UNDEFINED = UNDEFINED
+a = 1 = 1
+b = 2 = 2
+a = 1 = 1
+b = 2 = 2
+a = = 
+b = = 
+a = UNDEFINED = UNDEFINED

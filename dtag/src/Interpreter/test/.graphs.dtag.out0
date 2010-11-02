@@ -1,0 +1,26 @@
+ G1   file=example3.tag modified 
+      "I bassinet står 30 kvinder i vand til brystet . På fem rækker"
+*G2   file=*untitled* modified 
+      ""
+*G1   file=example3.tag modified 
+      "I bassinet står 30 kvinder i vand til brystet . På fem rækker"
+ G2   file=*untitled* modified 
+      ""
+*G1   file=*untitled* modified 
+      ""
+ G1   file=*untitled* modified 
+      ""
+ G2   file=*untitled* unmodified
+      ""
+*G3   file=*untitled* unmodified
+      ""
+ G4   file=*untitled* unmodified
+      ""
+ G1   file=*untitled* modified 
+      ""
+ G2   file=*untitled* unmodified
+      ""
+ G3   file=*untitled* unmodified
+      ""
+*G4   file=*untitled* unmodified
+      ""

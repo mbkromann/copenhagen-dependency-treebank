@@ -1,0 +1,7 @@
+load test.tag
+perl print $I->dump($G->parents(4)) . "\n"
+perl print $I->dump($G->parents(5)) . "\n"
+perl print $I->dump($G->parents(30)) . "\n"
+perl print $I->dump($G->parents(34)) . "\n"
+34 xland 30
+perl print $I->dump($G->parents(34)) . "\n"

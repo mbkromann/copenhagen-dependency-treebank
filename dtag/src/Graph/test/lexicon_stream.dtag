@@ -1,0 +1,6 @@
+perl $G->lexicon('L0');
+perl $G->lexicon_stream(1, 'L1');
+perl $G->lexicon_stream(2, 'L2');
+perl print $G->lexicon_stream(0) . "\n";
+perl print $G->lexicon_stream(1) . "\n";
+perl print $G->lexicon_stream(2) . "\n";

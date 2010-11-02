@@ -1,0 +1,175 @@
+Running test ./Graph/Edge/test/selectors.pl ... failed
+--------------------------------------------------
+ ERROR: ./Graph/Edge/test/selectors.pl
+--------------------------------------------------
+0a1
+> PostScript files loaded from /opt/dtag/
+--------------------------------------------------
+
+Running test ./Graph/Node/test/selectors.pl ... failed
+--------------------------------------------------
+ ERROR: ./Graph/Node/test/selectors.pl
+--------------------------------------------------
+0a1
+> PostScript files loaded from /opt/dtag/
+--------------------------------------------------
+
+Running test ./Graph/test/etypes.dtag ... failed
+--------------------------------------------------
+ ERROR: ./Graph/test/etypes.dtag
+--------------------------------------------------
+1c1,3
+< {"adj" => ["appa", "appr", "coord", "mod", "modo", "modp", "modr", "name", "namef", "namel", "pnct", "rel", "title", "voc", "xpl", "xtop"], "comp" => ["aobj", "avobj", "dobj", "expl", "fobj", "iobj", "lobj", "nobj", "numa", "numm", "part", "pobj", "possd", "pred", "qobj", "subj", "tobj", "vobj"], "deep" => ["aobj", "avobj", "dobj", "expl", "fobj", "iobj", "lobj", "nobj", "numa", "numm", "part", "pobj", "possd", "pred", "qobj", "subj", "tobj", "vobj", "appa", "appr", "coord", "mod", "modo", "modp", "modr", "name", "namef", "namel", "pnct", "rel", "title", "voc", "xpl", "xtop", "<avobj>", "<dobj>", "<lobj>", "<nobj>", "<pobj>", "<pred>", "<subj>", "<mod>", "<xpl>", "<pobj:nobj>", "<subj:pobj>", "conj", "err", "list", "rep"], "fill" => ["[avobj]", "[dobj]", "[expl]", "[iobj]", "[mod]", "[namef]", "[nobj]", "[pobj]", "[possd]", "[pred]", "[subj]"], "gap" => ["<avobj>", "<dobj>", "<lobj>", "<nobj>", "<pobj>", "<pred>", "<subj>", "<mod>", "<xpl>", "<pobj:nobj>", "<subj:pobj>"], "land" => ["land", "xland"], "other" => ["conj", "err", "list", "rep"], "ref" => ["ref"], "surf" => ["land", "xland"]}
+---
+> PostScript files loaded from /opt/dtag/
+> {"adj" => [], "comp" => [], "land" => [], "other" => []}
+> 
+--------------------------------------------------
+
+Running test ./Graph/test/governor.dtag ... failed
+--------------------------------------------------
+ ERROR: ./Graph/test/governor.dtag
+--------------------------------------------------
+1c1,2
+< 5
+---
+> PostScript files loaded from /opt/dtag/
+> 
+3c4,5
+< 29
+---
+> 
+> 
+--------------------------------------------------
+
+Running test ./Graph/test/lexicon_stream.dtag ... failed
+--------------------------------------------------
+ ERROR: ./Graph/test/lexicon_stream.dtag
+--------------------------------------------------
+0a1
+> PostScript files loaded from /opt/dtag/
+3a5
+> 
+--------------------------------------------------
+
+Running test ./Graph/test/lsite.dtag ... failed
+--------------------------------------------------
+ ERROR: ./Graph/test/lsite.dtag
+--------------------------------------------------
+1,3c1,5
+< undef
+< undef
+< 30
+---
+> PostScript files loaded from /opt/dtag/
+> 
+> WARNING! You have unsaved graphs!
+> Type 'exit' or 'exit!' if you really want to quit...
+> 
+--------------------------------------------------
+
+Running test ./Graph/test/lsite_auto.dtag ... failed
+--------------------------------------------------
+ ERROR: ./Graph/test/lsite_auto.dtag
+--------------------------------------------------
+0a1
+> PostScript files loaded from /opt/dtag/
+2,3c3,8
+< 30
+< 30
+---
+> undef
+> undef
+> 
+> WARNING! You have unsaved graphs!
+> Type 'exit' or 'exit!' if you really want to quit...
+> 
+--------------------------------------------------
+
+Running test ./Graph/test/lsite_default.dtag ... failed
+--------------------------------------------------
+ ERROR: ./Graph/test/lsite_default.dtag
+--------------------------------------------------
+1,3c1,5
+< undef
+< 29
+< 30
+---
+> PostScript files loaded from /opt/dtag/
+> 
+> WARNING! You have unsaved graphs!
+> Type 'exit' or 'exit!' if you really want to quit...
+> 
+--------------------------------------------------
+
+Running test ./Graph/test/parents.dtag ... failed
+--------------------------------------------------
+ ERROR: ./Graph/test/parents.dtag
+--------------------------------------------------
+1c1
+< ["5", "5"]
+---
+> PostScript files loaded from /opt/dtag/
+4,5c4,10
+< ["29", "29"]
+< ["29", "30"]
+---
+> [undef, undef]
+> [undef, undef]
+> [undef, undef]
+> 
+> WARNING! You have unsaved graphs!
+> Type 'exit' or 'exit!' if you really want to quit...
+> 
+--------------------------------------------------
+
+Running test ./Graph/test/selectors.pl ... failed
+--------------------------------------------------
+ ERROR: ./Graph/test/selectors.pl
+--------------------------------------------------
+0a1
+> PostScript files loaded from /opt/dtag/
+--------------------------------------------------
+
+Running test ./Graph/test/streams.dtag ... failed
+--------------------------------------------------
+ ERROR: ./Graph/test/streams.dtag
+--------------------------------------------------
+0a1
+> PostScript files loaded from /opt/dtag/
+1a3
+> 
+--------------------------------------------------
+
+Running test ./Interpreter/test/clear.dtag ... failed
+--------------------------------------------------
+ ERROR: ./Interpreter/test/clear.dtag
+--------------------------------------------------
+0a1,2
+> PostScript files loaded from /opt/dtag/
+> 
+--------------------------------------------------
+
+Running test ./Interpreter/test/close.dtag ... failed
+--------------------------------------------------
+ ERROR: ./Interpreter/test/close.dtag
+--------------------------------------------------
+0a1
+> PostScript files loaded from /opt/dtag/
+3a5
+> 
+--------------------------------------------------
+
+Running test ./Interpreter/test/del-edge.dtag ... failed
+--------------------------------------------------
+ ERROR: ./Interpreter/test/del-edge.dtag
+--------------------------------------------------
+0a1
+> PostScript files loaded from /opt/dtag/
+9a11,14
+> 
+> WARNING! You have unsaved graphs!
+> Type 'exit' or 'exit!' if you really want to quit...
+> 
+--------------------------------------------------
+

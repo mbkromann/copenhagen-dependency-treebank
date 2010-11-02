@@ -1,0 +1,129 @@
+% Specify the formats used in the graph by means of a list of
+% PostScript procedures numbered from 1 to N that change the graphical
+% state of PostScript (eg, foreground colour, background colour,
+% dashes, fonts, etc.). The format 0 is interpreted as meaning the
+% default format (black foreground, no dash, standard font size and face).
+
+/formats [
+	{0 1 0 setrgbcolor 1 setfontstyle setupfont 2 setlinewidth}
+	{0.75 0.5 0 setrgbcolor 2 setfontstyle setupfont [2 3] 0 setdash}
+	{0 0 1 setrgbcolor 3 setfontstyle setupfont}
+	{1 0 0 setrgbcolor}
+	{0 setlinewidth}
+] def
+
+
+% Specify number of labels, nodes, and edges in graph
+%
+%	syntax for specifying graph: 
+%	
+%		$labels $nodes $edges setup
+
+3 34 32 setup
+/title {(Dependency graph with alignments) 3} def
+
+% Specify individual nodes and edges in graph (words are numbered from
+% 0 to N in their order of appearance)
+%
+%	syntax for specifying word (arguments in squares are optional): 
+%
+%		$label1 [$format1] ... $labelN [$formatN] word
+%
+% 	syntax for specifying top edge (labelformat is used as arcformat,
+% 	if no arcformat is specified): 
+%
+%		$inword $outword [$labelformat [$arcformat]] edget
+%
+% 	syntax for specifying bottom edge (labelformat is used as arcformat,
+% 	if no arcformat is specified): 
+%
+%		$inword $outword [$labelformat [$arcformat]] edgeb
+%
+
+% Graph 1
+(Hvilket) (PT) (0) word
+(ikke) (RG) (1) word
+(ændrer) (VA) (2) word
+(en) (PI) (3) word
+(tøddel) (NC) (4) word
+(ved) (SP) (5) word
+(politiet) (NC) (6) word
+(s) () (7) word
+(opgave) (NC) (8) word
+(\n) () () word
+
+(Which) (PT) (10) word
+(does) (VA) (11) word
+(not) (RG) (12) word
+(change) (VA) (13) word
+(the) (PD) (14) word
+(duties) (NC) (15) word
+(of) (SP) (16) word
+(the)  (PD) (17) word
+(police) (NC) (18) word
+(at) (SP) (19) word
+(all) (RG) (20) word
+(\n) () () word
+
+% Alignments
+/alignments [
+	[0 10] 
+	[1 12]
+	[[2 5] [11 13]]
+	[[3 4] [19 20]]
+	[6 [17 18]]
+	[7 16]
+	[8 15]
+] def
+
+% Dependency edges
+0 2 (subj) edget
+1 2 (mod) edget
+3 1 (mod) edget
+4 3 (nobj) edget
+5 2 (pobj) edget
+6 7 (possr) edget
+7 5 (nobj) edget
+8 7 (possd) edget
+
+10 11 (subj) edgeb
+12 11 (mod) edgeb
+13 11 (vobj) edgeb
+14 13 (dobj) edgeb
+15 14 (nobj) edgeb
+16 14 (mod) edgeb
+17 16 (nobj) edgeb
+18 17 (nobj) edgeb
+19 12 (mod) edgeb
+20 19 (nobj) edgeb
+
+% Graph 2
+(Hvilket) 0 (PT) 1 (22) 1 word
+(ikke) 1 (RG) (23) word
+(ændrer) 2 (VA) 3 (24) 2 word
+(en) 3 (PI) (25) word
+(tøddel) 4 (NC) (26) word
+(ved) (SP) (27) word
+(politiets) 1 (NC) 2 (28) 4 word
+(opgave) (NC) (29) word
+(.Ï Íßêïò Ýöõãå ãéá ôï ó÷ïëåßï) (XP) (30) word
+(\n) () () word
+
+(nextline) () () word
+(missing) 5 () () word
+
+22 24 (subj) 2 edget
+23 24 (mod) 3 3 edget
+25 24 (dobj) edget
+26 25 (nobj) edget
+27 24 (pobj) edget
+28 27 (nobj) edget
+29 28 (possd) edget
+30 24 (pnct-very-long-label) 4 0 edget
+30 24 (conflict1) 3 4 edgeb
+30 26 (conflict2) 3 1 edgeb
+28 26 (no-conflict) edgeb
+24 27 (cyclic) edgeb
+22 30 (missing) 5 5 edgeb
+30 25 (missing) 5 5 edgeb
+

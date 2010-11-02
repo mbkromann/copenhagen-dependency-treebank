@@ -1,0 +1,6 @@
+load example3.tag
+find $1 subj $2
+matches
+corpus *.tag
+find -corpus $1 subj $2
+matches

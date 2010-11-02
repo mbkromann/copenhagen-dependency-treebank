@@ -1,0 +1,13 @@
+
+TEST ATOMIC INHERITANCE
+a = 9:G = G
+A = 9:A = A
+b = 9:E = E
+c = 9:G = G
+C = 9:C = C
+d = 0:undef = 
+E = 9:E = E
+F = 9:F = F
+G = 9:G = G
+h = 0:undef = 
+i = 0:undef = 

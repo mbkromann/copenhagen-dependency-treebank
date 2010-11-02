@@ -1,0 +1,5 @@
+ok  : test-find-align-b 01:  find -vars($X@b,$Y@b) $X subj $Y
+ok  : test-find-align-b 02:  find -vars($X@b) E$Y@b($X /bj$/ $Y)
+ok  : test-find-align-b 02b:  find -vars($X@b) exists($Y@b,$X /bj$/ $Y)
+ok  : test-find-align-b 03:  find -vars($X@b) E$Y@b($X isa(SYNCOMP) $Y)
+ok  : test-find-align-b 04:  find -vars($X@b) E$Y@b($X isa((COMP+SYN)-(subj|vobj)) $Y)

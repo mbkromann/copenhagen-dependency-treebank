@@ -1,0 +1,256 @@
+# Set corpus
+corpus /opt/cdt/{da,de,en,es,it}/*.tag
+
+# Define variables
+vars msd:m lemma:l gloss:g speaker:s lexeme:x sdeps:d compound:c omorph:o
+
+# --------------------
+# LAYOUT
+# --------------------
+
+# Clear layout
+layout -clear
+
+# Variables that must be included the graph
+layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps|_position
+
+# Regular expressions that must be applied to individual variables
+layout -var msd s/(..).*/$1/
+layout -var sdeps sub { \
+	my ($v,$G,$n) = @_; \
+	my $sdeps = {}; \
+	map {$sdeps->{$_} = 1} split('\|', $v); \
+	map {delete $sdeps->{$_->type()}} @{$G->node($n)->in()}; \
+	return join("|", sort(keys(%$sdeps))); \
+}
+
+# Nodes to hide (comment nodes)
+layout -nhide $n->comment()
+
+# Edges to hide: those that do not exist at the current step
+layout -ehide \
+	$e->type() =~ /:([0-9]+)(-([0-9]+))?$/;\
+	my ($s1, $s2, $s) = ($1, $3, $G->pstep());\
+	$s && (($s1 && (abs($s) < $s1)) || ($s2 && ($s > $s2)))
+
+# How to compute the stream name associated with a node
+layout -stream $n->svar('speaker')
+
+# How to compute the style associated with a node or label
+layout -nstyles ["default", \
+	(map {"error:" . $_} map {$_->[0]} @{$G->errors_node($n)}),\
+	(scalar(grep {$_->type() =~ /[A-Z]/} @{$n->in()}) ? "discourse" : ""),\
+	($l =~ /^stream:.*$/) ? 'speaker:' .  ($n->svar('speaker') || 0): 0,\
+	map {my $s = $_; $s =~ s/^$l://g; $s} split('\|', $n->svar('styles') || ""), \
+	split('\|', $n->svar('styles') || ""), \
+	($l eq "sdeps" ? "redlbl" : "")]
+
+# How to compute the style associated with an edge
+layout -estyles \
+	my $etype = $e->type();\
+	$etype =~ s/[+:*]//g;\
+	$etype =~ /:([0-9]+)(-([0-9]+))?$/;\
+	my ($s1, $s2, $s) = ($1, $3, $G->pstep() || 0);\
+	my $discourse = ($etype =~ /[A-Z]/) ? "discourse" : ""; \
+	my $newborn = ($s && $s1 && ($s == $s1)) ? "newborn" : ""; \
+	my $dying = ($s && $s2 && ($s == $s2)) ? "dying" : ""; \
+	my $dead = ($s1 && $s2 && ($s < $s1 || $s > $s2 || $s < 1)) ? "dead" : "";\
+	[	"default", \
+		'speaker:' . ($G->node($e->in())->svar('speaker') || 0),\
+		$discourse, \
+		(map {"error:" . $_} map {$_->[0]} @{$G->errors_edge($e)}),\
+		split('\|', $G->node($e->in())->svar('styles') || ""),\
+		map {split(':', $_)} \
+			(grep {$_ =~ /^[^:]*:(.*)$/; $etype =~ /\Q$1\E/} \
+				split('\|', $G->node($e->in())->svar('estyles') || "")),\
+		$newborn, $dying, $dead]
+
+# Calculating the placement of an edge (bottom=1 or top=0)
+layout -pos  (! $G->is_dependent($e)) || ($e->in() == $e->out()) || (($G->node($e->in())->svar('estyles') || "") =~ /bottom/)
+
+# Definition of different styles
+style title -label -fonttype bold
+style xland -arc -color red
+style fixation -label -color black -ps "4 setlinewidth" -arc -color gray -ps "0.3 setlinewidth" -arclabel -color black -ps "6 setfontsize setupfont"
+style speaker:1 -label -fonttype bold -color blue -arclabel -color blue -arc -color blue
+style speaker:2 -label -fonttype bold -color green -arclabel -color green -arc -color green
+style speaker:A -label -fonttype bold -color red -arclabel -color red -arc -color red
+style match -label -fonttype bold -color blue
+style ematch -arc -color blue -arclabel -fonttype bold -color blue
+style red -label -color red -arclabel -color red -arc -color red -dash dot
+style redlbl -label -color red -fonttype bold
+style blue -label -color blue -arclabel -color blue -arc -color blue -ps "[1 1] 0 setdash"
+style white -arclabel -ps "1 setgray" -arc -ps "1 setgray"
+style label=white -arclabel -ps "1 setgray"
+style light -arclabel -ps "0.7 setgray" -arc -ps "0.7 setgray"
+style arc=red -arclabel -color red -arc -color red -dash dot
+style arc=blue -arclabel -color blue -arc -color blue -dash dot
+style hide -arc -ps "0 setlinewidth" -arclabel -ps "0 setlinewidth"
+style newborn -arclabel -ps "0 0.5 0 setrgbcolor" -arc -ps "0 0.5 0 setrgbcolor"
+style dying -arclabel -ps "1 0.2 0.2 setrgbcolor" -arc -ps "1 0.2 0.2 setrgbcolor" 
+style dead -arclabel -ps "1 0.2 0.2 setrgbcolor" -arc -ps "1 0.2 0.2 setrgbcolor [1 2] 0 setdash" 
+style secondary -arc -ps "[1 4] 0 setdash"
+style error -label -color red
+#style discourse -label -color green -arc -color green -arclabel -color green
+#style default -label -color gray -arc -color yellow -arclabel -color cyan
+style default -label -color black -arc -color black -arclabel -color black
+style discourse -arc -color darkgreen -ps "[5 2] 0 setdash 2 setlinewidth" -arclabel -color darkgreen -fonttype bold -label -fonttype bold
+style small -label -ps "7 setfontsize setupfont"
+style tiny -label -ps "5 setfontsize setupfont"
+
+
+macro cdtmanualsetup style nogoverror ;; nonumbernodes
+
+# Macros for greek and latin text
+#macro russian layout -graph -pssetup "true (rus) /Cyrillic /Cyrillic /Cyrillic-Ital /Cyrillic-Ital createfontfamily setfontfamily setupfont"
+macro cyrillic layout -graph -pssetup "true (cyr) /NimbusRomanCYR-Regu /NimbusRomanCYR-Medi /NimbusRomanCYR-ReguItal /NimbusRomanCYR-MediItal createfontfamily setfontfamily setupfont"
+macro greek layout -graph -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
+macro greekall layout -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
+macro latin layout -graph -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
+macro latinall layout -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
+macro es cd ~/cdt/es
+macro it cd ~/cdt/it
+macro dait cd ~/cdt/da-it
+macro daes cd ~/cdt/da-es
+macro commit !~/cdt/tools/dtag-commit {ARGS}
+macro svnfix !~/cdt/tools/dtag-svnfix {ARGS}
+macro update !~/cdt/tools/dtag-update
+macro wiki !~/cdt/tools/dtag-wiki
+macro opentask !~/cdt/tools/dtag-opentask ;; script ~/.script 
+macro closetask save ;; !~/cdt/tools/dtag-closetask {FILE} {ARGS} ;; script ~/.script
+macro setname !~/cdt/tools/dtag-setname
+macro tasks !~/cdt/tools/dtag-tasks
+macro manual !firefox file://~/web/www.treebank.dk/index.html &
+macro status !~/cdt/tools/dtag-status {FILE}
+macro statusall !~/cdt/tools/dtag-statusall {ARGS}
+macro setstatus !~/cdt/tools/dtag-setstatus {FILE} {ARGS}
+macro findfiles !~/cdt/tools/dtag-findfiles {ARGS}
+macro test !~/cdt/tools/dtag-testcmp {ARGS}
+macro testresults !cat {ARGS}.log
+macro savepdfnotitle title -auto ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepdf /tmp/x.ps {ARGS} {FILE}
+macro savepdf title -auto ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepdf /tmp/x.ps {ARGS} {FILE}
+macro saveeps title -off ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-saveeps /tmp/x.ps {ARGS} {FILE}
+macro savepng title -off ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepng /tmp/x.ps {ARGS} {FILE}
+macro nosubj noerror {ARGS} nosubj
+macro lpr title -auto ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-lpr /tmp/x.ps
+macro agreement !~/cdt/tools/dtag-agreement {ARGS} ;; load /tmp/cdtA.tag ;; diff /tmp/cdtB.tag ;; agreementdiff
+macro agreementdiff load /tmp/cdtA.tag;;diff /tmp/cdtB.tag
+macro ddt !openoffice ~/web/www.treebank.dk/ddt-manual.odt &
+macro ddtpdf !acroread ~/web/www.treebank.dk/ddt-manual.pdf &
+macro corpusda corpus ~/cdt/da/*.tag
+macro cdt cd ~/cdt/{ARGS}
+macro cdtmap !~/cdt/tools/dtag-cdtmap
+macro discourse1 style discourse -label -color black -arc -color black -arclabel -color black ;; style default -label -color gray80 -arc -color gray80 -arclabel -color gray80
+macro discourse2 style discourse -label -color black -ps "10 setfontsize setupfont" -arc -color black -ps "/dAs 1 def 1 setlinewidth" -arclabel -ps "8 setfontsize setupfont" -color black ;; style default -label -ps "5 setfontsize setupfont" -arc -color gray80 -ps "0.1 setlinewidth /dAs 0.5 def" -arclabel -ps "4 setfontsize setupfont" ;; layout -pssetup "/dA 5 def /dW 0 def /dWr 0.2 def"
+macro discourse3 style discourse -label -color black -ps "10 setfontsize setupfont" -arc -color black -ps "/dAs 1 def 1 setlinewidth" -arclabel -ps "8 setfontsize setupfont" -color black ;; style default -label -ps "6 setfontsize setupfont" -arc -color gray80 -ps "0.1 setlinewidth /dAs 0.5 def" -arclabel -ps "5 setfontsize setupfont" ;; layout -pssetup "/dA 5 def /dW 0 def /dWr 0.2 def"
+macro discourse4 style discourse -label -color black -ps "10 setfontsize 1 setfontstyle setupfont" -arc -color black -ps "/dAs 1 def 1.5 setlinewidth" -arclabel -ps "8 setfontsize 1 setfontstyle setupfont" -color black ;; style default -label -ps "7 setfontsize setupfont" -arc -ps "0.3 setlinewidth /dAs 0.5 def" -arclabel -ps "6 setfontsize setupfont" ;; layout -pssetup "/dA 5 def /dW 0 def /dWr 0.2 def"
+macro discourse discourse2
+macro syntax style discourse -label -color darkgreen -fonttype bold -arc -color darkgreen -arclabel -color darkgreen -fonttype bold ;; style default -label -color black -arc -color black -arclabel -color black ;; layout -pssetup "/dA 10 def" ;; layout -vars /stream:.*/|compound|cat|msd|lexeme|gloss|sdeps|_position
+macro morphology syntax ;; layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps|_position
+syntax
+macro numbernodes layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps|_position
+macro nonumbernodes layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps
+macro reset script -q ~/cdt/dtag/.dtagrc
+macro autotagm find $X[msd] =~ /^(NC|V|AN)/ ;; autotag morph -matches -default *.tag
+macro ptb layout -pos 0 ;; layout -vars cat|/stream:.*/|pos ;; layout -nstyles 0 ;; layout -estyles 0
+macro hostname !echo "$USER@"`ifconfig | grep "inet addr" |grep -v 127.0.0.1 | awk -F":" '{ print $2}' | awk '{ print $1}'`" ("`hostname`")"
+macro commit !~/cdt/tools/dtag-commit {ARGS}
+
+# TransLog stuff
+macro loadfix load {ARGS}.src ;; graphs ;; fixations {ARGS}.fix dur cur
+macro makemanual !export DTAGCOMMITDIR="manual" ; cd ~/cdt/manual ; make all ; ../tools/dtag-commit "compiled CDT manual"
+macro cdtmanual !~/cdt/tools/dtag-cdtmanual &
+macro rmcdtmanual !rm ~/cdt/docs/cdt-manual.pdf 
+
+# Options
+option viewer gv -geometry 1020x600-0+0 --spartan --nocenter --scale=2 --quiet --watch $file &
+option iconv iconv -c -f UTF-8 -t ISO_8859-1//TRANSLIT
+#option post-start
+#option post-save
+#option post-exit
+#option post-print
+
+# Edge types
+macro cdtrels script ~/cdt/tools/dtag-cdtrels
+macro cdtrelsreload !rm ~/cdt/docs/relations-cdt.csv ;; cdtrels
+cdtrels
+
+# Automatic edge splitting (to allow multiple edges to be specified as
+# a single edge)
+edgesplit s/{/ {/g
+
+# Debugging commands
+macro _viewex perl print dumper($I->var("relsets")->{"cdt"}{"{ARGS}"}[7])
+
+# Edge types
+#etypes -comp pobj:dobj pobj:possd 
+#etypes -adj attrd# attrr#
+
+# Complement relations
+#etypes -comp aobj avobj dobj expl fobj iobj nobj numa numm part pobj pobj:arg possd possr preds predo predf qobj robj subj vobj
+
+# Adjunct relations replacing "mod" (Lotte's list)
+#etypes -adj add agent att ben bg cause comp mcomp conc cond cons cont contr degr dir dur elab epi eval ex ext focal goal hab inst loc man neg other pcond poss prec prg reas source space struct succ time
+
+# Other adjunct relations
+#etypes -add -adj appa + appr attr conj coord correl discmark fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
+
+# Adjunct relations with unclear status (are they allowed/disallowed?)
+#etypes -add -adj about class concom const exem exp func path relp relpa resem rest spec xpl intact
+
+# Deleted by Lotte
+# etypes -add adjuncts discmark
+
+# Discourse relations 
+#etypes -add -adj ANSW CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:seq CONS CONS:dir CONS:prg CONTR CONTR:dir CONTR:prg DESCR DESCR:eval DESCR:qual DIREC DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec EXPR INSTR JOINT JUST QUEST STRUCT STRUCT:rep STRUCT:prep SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ INTACT:attn INTACT:inter INTACT
+
+# Anaphoric relations
+#etypes -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-cause assoc-const assoc-agent assoc-form assoc-scope assoc-loc
+
+# Morphological relations
+#etypes -add -adj origin interfix PRED:agent dobj.patient 
+
+# Dummy path
+#etypes -add -adj ... 
+
+# etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
+# etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
+#etypes -land land xland \n\n
+etypes -fill gap src
+
+confusion cdt ~/cdt/confusion/confusion-discourse.csv ~/cdt/confusion/confusion-syntax.csv ~/cdt/confusion/confusion-morphology.csv ~/cdt/confusion/confusion-alignment.csv ~/cdt/confusion/confusion-anaphora.csv ~/cdt/confusion/confusion-semantics.csv
+
+# Error marking: nodes
+errordef -node nogov ! defined($egov)
+errordef -node manygovs scalar(grep {$G->is_dependent($_) && $_->in() != $_->out() && $_->svar("diff")} @{$n->in()}) > 1
+errordef -node nosubj my $msd = $n->svar("msd"); $msd =~ /^V/ && scalar(grep {$_->type() =~ /(subj|expl)/} @{$n->out()}) == 0
+errordef -node nonobj my $msd = $n->svar("msd"); $msd =~ /^SP/ && scalar(grep {$_->type() =~ /nobj/} @{$n->out()}) == 0
+errordef -node noante my $msd = $n->svar("msd"); my $govmsd = $gov ? $gov->svar("msd") : ""; $msd =~ /^[NP]/ && ! ($msd =~ /^(NP|PI|NC.*I)/ || $G->has_inedge($n, "ANA", "possd") || ($G->has_inedge($n, "nobj") && $govmsd =~ /^(N|P|A)/))
+
+# Error marking: edges
+errordef -edge badtype $G->isarel($e->type(), "CDT1") || ! $G->is_known_edge($e->type())
+errordef -edge manygovs scalar(grep {$G->is_dependent($_) && $_->in() != $_->out()} @{$G->node($e->in())->in()}) > 1
+
+# Error styles
+style error:nogov -label -color red -fonttype bold
+style error:manygovs -label -color red -fonttype bold -arclabel -color red -fonttype bold -arc -color red
+style error:noante -label -color lightred -fonttype bold
+style error:nosubj -label -color lightred -fonttype bold
+style error:nonobj -label -color lightred -fonttype bold
+style error:badtype -arclabel -color red -fonttype bold -arc -ps "0 0 0 setrgbcolor"
+macro noerrors style error ;; style error:nogov ;; style error:manygovs ;; style error:noante ;; style error:nosubj ;; style error:nonobj ;; style error:badtype
+macro nocolors noerrors ;; style discourse
+macro nonumbers layout -graph -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps ;; vars -id
+macro noids vars -id
+
+# Command log
+user -f /home/cdt/.cdtname
+cmdlog /home/cdt/cdt/logs/{USER}
+
+# Turn autodelete on (automatically delete existing primary edges when
+# adding a new)
+option autodelete=on
+
+macro autodelete option autodelete=on
+macro noautodelete option autodelete=off
+

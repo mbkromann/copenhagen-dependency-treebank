@@ -1,0 +1,4 @@
+lexicon hierarchy
+clear -lex
+load -lex Hierarchy.pm
+perl foreach my $type (@{$L->types()}) { print "$type: " .  $I->dump($L->subtypes($type)) . "\n" }

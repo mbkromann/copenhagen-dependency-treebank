@@ -1,0 +1,6 @@
+load test.tag
+perl $G->yields()
+perl print (($G->lsite_auto(30) || "undef") . "\n")
+perl print (($G->lsite_auto(34) || "undef") . "\n")
+34 xland 28 
+perl print (($G->lsite_auto(34) || "undef") . "\n")

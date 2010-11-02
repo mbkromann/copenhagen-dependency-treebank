@@ -1,0 +1,6 @@
+ERROR! cannot read file /opt/dta/arcs.header in Graph->readfile
+check that DTAGHOME is set correctly!
+ERROR! cannot read file /opt/dta/arcs.trailer in Graph->readfile
+check that DTAGHOME is set correctly!
+t: super=[] lvars=[fill=hash([fill1=noun,fill2=verb]-[fill3], 3)]
+

@@ -1,0 +1,10 @@
+ERROR! cannot read file /opt/dta/arcs.header in Graph->readfile
+check that DTAGHOME is set correctly!
+ERROR! cannot read file /opt/dta/arcs.trailer in Graph->readfile
+check that DTAGHOME is set correctly!
+name = a
+name = b
+super = b c d
+super = x y z
+print = b: super=[__undef__ __undef__ __undef__] lvars=[]
+

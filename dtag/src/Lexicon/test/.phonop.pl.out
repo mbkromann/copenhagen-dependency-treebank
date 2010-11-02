@@ -1,0 +1,17 @@
+ERROR! cannot read file /opt/dta/arcs.header in Graph->readfile
+check that DTAGHOME is set correctly!
+ERROR! cannot read file /opt/dta/arcs.trailer in Graph->readfile
+check that DTAGHOME is set correctly!
+fakler = fakler = [fakkel, -~e, er]
+fandtes = fandtes = [fandt, ([^aeiouyæøå])>$1e, s]
+huskedes = huskedes = [huskede, ([^aeiouyæøå])>$1e, s]
+laver = laver = [lav, er]
+laves = laves = [lav, er, r>s]
+lytter = lytter = [lyt, ~, er]
+mand = mand = [mand, , ^æ]
+mænd = mænd = [mand, ^æ]
+mændene = mændene = [mand, ^æ, , ene]
+sprukket = sprukket = [spræk, ^u, ~, et]
+sås = sås = [så, ([^aeiouyæøå])>$1e, s]
+talte = talte = [tæl, ^a, te]
+tidsler = tidsler = [tidsel, -e, er]

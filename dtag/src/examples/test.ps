@@ -1,0 +1,549 @@
+%! (c) 2002 Matthias T. Kromann <mtk@id.cbs.dk>
+
+%% This PostScript library is distributed under the GNU public  
+%% license for libraries, as part of the DGgraph package.
+%% Please see: http://www.id.cbs.dk/~mtk/DGgraph for source code,
+%% documentation and license.
+
+%% 1. DGgraph Prologue
+
+100 dict begin /llx 20 def /lly 20 def /urx 500 def /ury 820 def /LW 1
+def /X 2 def /Y 0 def /dO 5 def /dA 10 def /dAW 2.5 def /dAH 6 def
+/dAD 2 def /dT 15 def /dB 18 def /dT0 3 def /dB0 8 def /dW 8 def /dH
+10 def /dL 20 def /strings 1 def /framegray 1 def /bggray 1 def
+/smallfont 7 def /textfont 10 def /nextw 0 def /nexte 0 def LW
+setlinewidth /xdef {exch def} def /max {dup 3 -1 roll dup 3 -1 roll lt
+{pop} {exch pop} ifelse} def /min {dup 3 -1 roll dup 3 -1 roll gt
+{pop} {exch pop} ifelse} def /ISOfont {findfont dup length dict begin
+{1 index /FID ne {def} {pop pop} ifelse} forall /Encoding
+ISOLatin1Encoding def currentdict end definefont pop} def
+/Palatino-Roman /Palatino-Roman-Latin1 ISOfont /Palatino-Bold
+/Palatino-Bold-Latin1 ISOfont /Palatino-Italic /Palatino-Italic-Latin1
+ISOfont /Palatino-BoldItalic /Palatino-BoldItalic-Latin1 ISOfont
+/Palatino [(ptm) /Palatino-Roman-ISOLatin1 /Times-Bold-ISOLatin1
+/Palatino-Italic-ISOLatin1 /Palatino] def /Palatino-Roman
+/Palatino-Roman-Latin1 ISOfont /Palatino-Bold /Palatino-Bold-Latin1
+ISOfont /Palatino-Italic /Palatino-Italic-Latin1 ISOfont
+/Palatino-BoldItalic /Palatino-BoldItalic-Latin1 ISOfont /Palatino
+[(ptm) /Palatino-Roman-ISOLatin1 /Palatino-Bold-ISOLatin1
+/Palatino-Italic-ISOLatin1 /Palatino-BoldItalic-ISOLatin1] def
+/setfontfamily {/fontfamily xdef} def /setfontsize {/fontsize xdef}
+def /setfontstyle {/fontstyle xdef} def /font 7 string def /fontext 4
+string def /setupfont {font 0 fontfamily 0 get putinterval font 3
+fontstyle 1 add 1000 mul fontsize cvi add fontext cvs putinterval
+currentdict font cvn known not {currentdict font cvn fontfamily
+fontstyle 1 add get findfont fontsize scalefont put} if font cvn cvx
+exec setfont} def Palatino setfontfamily 10 setfontsize 0 setfontstyle
+setupfont /qsort {1 index length 0 exch qsortx pop} def /qsortx {2
+copy 2 sub gt {pop pop} {findpivot dup -1 eq {pop pop pop} {4 index
+exch get 3 1 roll 2 copy 7 2 roll 1 sub {exch {dup 5 index exch get 3
+index 5 index exec -1 eq {1 add} {exit} ifelse} loop exch {dup 5 index
+exch get 3 index 5 index exec -1 gt {1 sub} {exit} ifelse} loop 2 copy
+gt {exit} if 2 copy 6 index 3 1 roll switch} loop 3 -1 roll pop pop 5
+-1 roll exch dup 6 1 roll qsortx 4 2 roll qsortx} ifelse} ifelse} def
+/findpivot {2 copy add 1 sub 2 idiv 4 index 1 index get 1 index 1 1
+index 5 index add 6 index sub 1 sub {dup 4 index ge {4 index add 3
+index sub} if dup 7 index exch get 2 index 7 index exec dup 0 ne {1 eq
+{3 -1 roll pop -1 3 1 roll exit} {pop -1 3 1 roll exch exit} ifelse}
+{pop pop} ifelse} for 2 index -1 eq {3 1 roll pop pop} {pop pop -1}
+ifelse} def /switch {2 index 2 index get 3 index 2 index get 4 index
+exch 6 1 roll 3 1 roll put 3 -1 roll put} def /intcmp {2 copy lt {pop
+pop -1} {eq {0} {1} ifelse} ifelse} def /format {pop gsave
+/oldfontstyle fontstyle def /oldfontsize fontsize def /oldfontfamily
+fontfamily def exch dup 0 ge 1 index formats length le and {dup 0 eq
+{pop} {formats exch 1 sub get exec} ifelse} {pop} ifelse exec grestore
+fontstyle oldfontstyle ne fontsize oldfontsize ne or fontfamily
+oldfontfamily ne or {oldfontfamily setfontfamily oldfontsize
+setfontsize oldfontstyle setfontstyle setupfont} if} def /arrow {dA
+mul 2 index add 4 copy exch 2 copy 5 index 5 1 roll 5 index 8 -2 roll
+moveto curveto stroke 2 index gt {-1} {1} ifelse dAH mul 3 1 roll exch
+moveto dAW 0 rmoveto dAW -2 mul 0 rlineto dAW exch rlineto closepath
+fill pop} def /word {strings 2 mul 1 add array strings -1 1 {2 index
+type /integertype eq {4 2 roll} {3 -1 roll 0} ifelse 3 index 3 index 2
+mul 3 -1 roll put 2 index 2 index 2 mul 1 sub 3 -1 roll put pop} for 0
+1 1 strings {2 index exch 2 mul 1 sub get stringwidth pop max} for X
+exch X add dW add /X xdef 1 index 0 3 -1 roll put currentdict /words
+known {words nextw 3 -1 roll put} if /nextw nextw 1 add def} def
+/newedge {dup type /stringtype eq {0 0} {1 index type /stringtype eq
+{dup} if} ifelse 5 2 roll 3 1 roll 2 copy gt {exch neg} if 3 -1 roll 0
+1 7 -2 roll 7 array astore} def /edget {newedge currentdict /edges
+known {edges nexte 3 -1 roll put} if /nexte nexte 1 add def} def
+/edgeb {newedge dup 4 -1 put currentdict /edges known {edges nexte 3
+-1 roll put} if /nexte nexte 1 add def} def /xcenter {dup words exch
+get 0 get exch 1 add dup words length eq {pop X} {words exch get 0
+get} ifelse dW sub add 2 div} def /edge_heights {[ exch 0 0 0
+edge_heights0 {pop} repeat pop pop pop pop} def /edge_heights0
+{{edge_heights1 {true} {edge_heights2} ifelse {true} {edge_heights3}
+ifelse {true} {edge_heights4} ifelse not {exit} if} loop} def
+/edge_heights1 {dup 2 lt {false} {4 index length 3 eq {true} {4 index
+3 get -1 eq} ifelse} ifelse {5 -1 roll dup 1 get exch 2 get 6 index
+dup dup 2 get 4 -1 roll max 2 exch put 1 3 -1 roll put 1 sub true}
+{false} ifelse} def /edge_heights2 {dup 0 gt {4 index length 3 gt {4
+index 3 get -1 ne {4 index dup dup 1 get exch 3 get edges exch get 1
+get abs eq {dup dup 2 get 1 add 2 exch dup 4 1 roll put 1 index 3 get
+edges exch get 3 3 -1 roll 7 index exec put mark exch dup aload pop
+counttomark 4 sub -1 roll pop -1 counttomark -1 roll astore pop pop
+true} {pop false} ifelse} {false} ifelse} {false} ifelse} {false}
+ifelse} def /edge_heights3 {dup 1 gt {5 index 5 index dup 1 get exch 2
+get 3 -1 roll 1 get 2 index ne {7 index dup 1 5 -1 roll put dup 2 get
+3 -1 roll max 2 exch put 5 -1 roll 1 index 4 add 1 roll 1 sub
+edge_heights0 1 add dup 4 add -1 roll 5 1 roll true} {pop pop false}
+ifelse} {false} ifelse} def /edge_heights4 {counttomark 1 index 4 add
+eq {2 index words length lt {mark 3 index dup 1 add 0 7 index 6 index
+{dup edges length ge {exch pop exit} if dup edges exch get dup 0 get 6
+index eq {4 get 2 index exec 0 gt{dup 6 1 roll} if 1 add} {pop exch
+pop exit} ifelse} loop counttomark 1 add 1 roll counttomark 3 roll ] 6
+1 roll 3 1 roll 1 add exch pop 3 -1 roll 1 add 3 1 roll true} {false}
+ifelse} {false} ifelse} def /edge_displace {-1 -1 0 0 0 {2 index words
+length ge {pop pop pop pop pop exit} if 5 -2 roll pop pop -1 -1 5 2
+roll 1 index edges 0 3 -1 roll update_super dup maxedges 1 3 -1 roll
+update_super exch edges 0 3 -1 roll displace exch maxedges 1 3 -1 roll
+displace 3 -1 roll 1 add 3 1 roll} loop} def /displace {{dup 3 index
+length ge {3 1 roll pop pop exit} if 2 index 1 index get dup 3 index
+get abs 6 index gt {pop 3 1 roll pop pop exit} if dup ioword 7 index
+eq {1 index 3 get 0 gt {8 index} {7 index} ifelse dup -1 eq {pop pop 4
+0 put} {7 index -1 2 index 2 index gt {neg exch 3 1 roll} if 4 1 roll
+2 index gt 3 1 roll gt and not {neg} if 4 exch put} ifelse} {pop pop}
+ifelse 1 add} loop} def /update_super {{dup 3 index length ge {pop pop
+pop exit} if 2 index 1 index get dup 3 index get 7 index gt {pop pop
+pop pop exit} if dup ioword exch 8 index eq {exch 3 get 0 gt {9 -1
+roll pop 8 1 roll} {8 -1 roll pop 7 1 roll} ifelse} {pop pop} ifelse 1
+add} loop} def /ioword {dup 0 get exch 1 get dup 0 lt {abs exch} {abs}
+ifelse} def /split_lines {split_words split_edges split_pages} def
+/split_words {/lines [ urx llx sub 0 0 1 {1 index words length ge {pop
+pop pop pop exit} if [2 index 0 5 index 0 0 0 0] 5 1 roll {dup xpos dW
+2 div sub dup 4 index sub 5 index gt 2 index words length ge or {exch
+4 2 roll pop pop dup 1 add exit} if pop 1 add} loop} loop [words
+length edges length X 0 0 0 0] ] def} def /split_edges {0 [] 0 1 lines
+length 2 sub {dup 1 add lines exch get 0 get exch lines exch get 0 0 2
+index [ 8 2 roll 4 index {dup edges exch get 1 get abs 5 index ge {dup
+8 1 roll} if edges exch get 3 get dup 4 -1 roll min 3 1 roll max}
+forall {5 index edges length ge {exit} if 5 index edges exch get 0 get
+4 index ge {exit} if 5 index edges exch get dup 1 get abs 5 index ge
+{6 index 7 1 roll} if 3 get dup 4 -1 roll min 3 1 roll max 6 -1 roll 1
+add 6 1 roll} loop 2 index 4 3 -1 roll put 1 index 5 3 -1 roll abs put
+3 1 roll pop pop 1 2 index put counttomark 1 add 1 roll ] 2 index 6 2
+index put 3 -1 roll 1 3 index put} for pop pop} def /split_pages {ury
+lly sub 0 0 1 lines length 2 sub {lines exch get dup line_height 3
+index 3 index 2 index add lt {3 -1 roll pop 0 3 1 roll} if exch 3 3
+index put add dL add} for pop pop} def /line_height {dup 4 get exch 5
+get add dA mul strings dH mul add dB add dT add} def /xpos {dup words
+length ge {pop X} {words exch get 0 get} ifelse} def /print_word {1
+index 4 index 4 get dA mul sub dT sub 1 index xcenter 4 index add exch
+3 -1 roll words exch get 1 1 strings {3 -1 roll dH sub 3 1 roll 2 copy
+2 mul get 3 1 roll 1 index exch 2 mul 1 sub get dup stringwidth pop 2
+div neg 5 index add 4 index moveto 3 -1 roll {show} 0 format} for pop
+pop pop} def /print_edge {edges exch get 1 index 4 index 4 get dA mul
+sub 1 index 3 get 0 ge {dup dT sub dT0 add} {dT sub strings dH mul sub
+dB sub dup dB0 add} ifelse 2 index ioword xcenter 6 index add exch
+xcenter 6 index add dup 4 -1 roll moveto 3 index 2 get dup stringwidth
+pop -2 div 0 rmoveto 4 index 5 get {show} 1 format exch 3 index 4 get
+dO mul add 3 1 roll 3 index 3 get 4 index 6 get {arrow} 2 format pop}
+def /sort_edges {edges {2 copy 0 get exch 0 get exch intcmp dup 0 ne
+{3 1 roll pop pop} {pop 1 get abs exch 1 get abs exch intcmp} ifelse}
+qsort pop /maxedges edges edges length array copy def maxedges {2 copy
+1 get abs exch 1 get abs exch intcmp dup 0 ne {3 1 roll pop pop} {pop
+0 get exch 0 get exch intcmp} ifelse} qsort pop} def /layout_arcs
+{sort_edges {} edge_heights {neg} edge_heights 0 1 edges length 1 sub
+{edges exch get 4 0 put} for edge_displace split_lines} def
+/print_line {dup lines exch get dup line_height 1 index 2 get dup 4
+index 1 add lines exch get 2 get exch sub 3 1 roll llx exch sub 3
+index 3 get ury exch sub gsave newpath llx 1 index moveto 3 index 0
+rlineto 0 3 index neg rlineto 3 index neg 0 rlineto closepath gsave
+bggray setgray fill grestore clip gsave framegray setgray stroke
+grestore newpath 4 2 roll pop pop textfont setfontsize setupfont 2
+index 0 get 1 5 index 1 add lines exch get 0 get 1 sub {print_word}
+for smallfont setfontsize setupfont 3 index 0 eq {[]} {3 index 1 sub
+lines exch get 6 get} ifelse {print_edge} forall 3 index 0 eq {0} {3
+index 1 sub lines exch get 1 get} ifelse 1 4 index 1 get 1 sub
+{print_edge} for grestore pop pop pop pop} def /print_lines {0 1 lines
+length 2 sub {dup print_line 1 add lines exch get 3 get 0 eq
+{showpage} if} for} def /draw {layout_arcs print_lines} def /setup
+{array /edges exch def array /words exch def /nextw 0 def /nexte 0 def
+/strings exch def} def 
+
+
+%% 2. Dependency graph specification
+
+% Graph setup
+2 183 187 setup
+
+/formats [
+] def
+
+% Words and edges
+(Han) () word
+0 1 (subj) edget
+0 7 ([subj]) edgeb
+(fik) (VA) word
+(hurtigt) (AN) word
+2 1 (mod) edget
+(tag) (NC) word
+3 1 (dobj) edget
+(i) (SP) word
+4 3 (pobj) edget
+(DTM) (NP) word
+5 4 (nobj) edget
+(og) (CC) word
+6 1 (coord) edget
+(lærte) (VA) word
+7 6 (conj) edget
+(,) (XP) word
+8 7 (pnct) edget
+(at) (CS) word
+9 7 (dobj) edget
+(man) (PI) word
+10 11 (subj) edget
+10 12 ([subj]) edgeb
+(skal) (VA) word
+11 9 (vobj) edget
+(omgås) (VE) word
+12 11 (vobj) edget
+(materiellet) (NC) word
+13 12 (dobj) edget
+(med) (SP) word
+14 12 (mod) edget
+(en) (PI) word
+15 14 (nobj) edget
+(vis) (AN) word
+16 15 (mod) edget
+(forsigtighed) (NC) word
+17 15 (nobj) edget
+(for) (SP) word
+18 12 (mod) edget
+(at) (U=) word
+19 18 (nobj) edget
+(spare) (VA) word
+20 19 (vobj) edget
+(bilen) (NC) word
+21 20 (dobj) edget
+(.) (XP) word
+22 1 (pnct) edget
+(Det) (PP) word
+23 24 (subj) edget
+(er) (VA) word
+(jo) (RG) word
+25 24 (mod) edget
+(ikke) (RG) word
+26 24 (mod) edget
+(nok) (RG) word
+27 24 (pred) edget
+(at) (U=) word
+28 23 (nobj) edget
+(ligge) (VA) word
+29 28 (vobj) edget
+(forrest) (AN) word
+30 29 (aobj) edget
+(i) (SP) word
+31 29 (mod) edget
+(starten) (NC) word
+32 31 (nobj) edget
+( - ) (XP) word
+33 24 (pnct) edget
+(det) (PP) word
+34 35 (subj) edget
+(gælder) (VA) word
+35 24 (conj) edget
+(om) (SP) word
+36 35 (pobj) edget
+(at) (U=) word
+37 36 (nobj) edget
+(nå) (VA) word
+38 37 (vobj) edget
+(det) (PD) word
+39 38 (dobj) edget
+(ternede) (AN) word
+40 39 (mod) edget
+(flag) (NC) word
+41 39 (nobj) edget
+(til) (SP) word
+42 38 (mod) edget
+(slut) (NC) word
+43 42 (nobj) edget
+(.) (XP) word
+44 24 (pnct) edget
+(Jeg) (PP) word
+45 46 (subj) edget
+(har) (VA) word
+(svært) (AN) word
+47 46 (aobj) edget
+(ved) (SP) word
+48 47 (pobj) edget
+(at) (U=) word
+49 48 (nobj) edget
+(se) (VA) word
+50 49 (vobj) edget
+(,) (XP) word
+51 50 (pnct) edget
+(at) (CS) word
+52 50 (dobj) edget
+(Kurt) (NP) word
+53 55 (subj) edget
+(overhovedet) (RG) word
+54 55 (mod) edget
+(har) (VA) word
+55 52 (vobj) edget
+(nogen) (PI) word
+56 55 (dobj) edget
+(svagheder) (NC) word
+57 56 (nobj) edget
+(som) (U=) word
+58 55 (mod) edget
+(racerkører) (NC) word
+59 58 (nobj) edget
+(.) (XP) word
+60 46 (pnct) edget
+(Kurt) (NP) word
+(om) (SP) word
+62 61 (mod) edget
+(racerkøreren) (NC) word
+63 62 (nobj) edget
+(Kris) (NP) word
+64 63 (appr) edget
+(:) (XP) word
+65 62 (pnct) edget
+( - ) (XP) word
+66 68 (pnct) edget
+(Kris) (NP) word
+67 68 (subj) edget
+(er) (VA) word
+68 62 (xpl) edget
+(en) (PI) word
+69 68 (pred) edget
+(meget) (AN) word
+70 71 (mod) edget
+(seriøs) (AN) word
+71 69 (mod) edget
+(racerkører) (NC) word
+72 69 (nobj) edget
+(,) (XP) word
+73 69 (pnct) edget
+(hvor) (RG) word
+74 69 (ref) edgeb
+74 76 (mod) edget
+(sejrsviljen) (NC) word
+75 76 (subj) edget
+(ligger) (VA) word
+76 69 (rel) edget
+(utroligt) (AN) word
+77 78 (mod) edget
+(dybt) (AN) word
+78 76 (aobj) edget
+( - ) (XP) word
+79 76 (pnct) edget
+(han) (PP) word
+80 81 (subj) edget
+(er) (VA) word
+81 68 (conj) edget
+(en) (PI) word
+82 81 (pred) edget
+(type) (NC) word
+83 82 (nobj) edget
+(,) (XP) word
+84 82 (pnct) edget
+(der) (U=) word
+85 82 (ref) edgeb
+85 86 (subj) edget
+85 87 ([subj]) edgeb
+(vil) (VA) word
+86 82 (rel) edget
+(vinde) (VA) word
+87 86 (vobj) edget
+(.) (XP) word
+88 61 (pnct) edget
+(En) (PI) word
+(uvurderlig) (AN) word
+90 89 (mod) edget
+(egenskab) (NC) word
+91 89 (nobj) edget
+(for) (SP) word
+92 91 (mod) edget
+(en) (PI) word
+93 92 (nobj) edget
+(racerkører) (NC) word
+94 93 (nobj) edget
+(.) (XP) word
+95 89 (pnct) edget
+(Samtidig) (RG) word
+96 97 (mod) edget
+(er) (VA) word
+(han) (PP) word
+98 97 (subj) edget
+(meget) (AN) word
+99 100 (mod) edget
+(fair) (AN) word
+100 97 (pred) edget
+(på) (SP) word
+101 97 (mod) edget
+(banen) (NC) word
+102 101 (nobj) edget
+(,) (XP) word
+103 97 (pnct) edget
+(og) (CC) word
+104 97 (coord) edget
+(jeg) (PP) word
+105 106 (subj) edget
+105 108 ([subj]) edgeb
+(kan) (VA) word
+106 104 (conj) edget
+(ikke) (RG) word
+107 106 (mod) edget
+(mindes) (VE) word
+108 106 (vobj) edget
+(,) (XP) word
+109 108 (pnct) edget
+(jeg) (PP) word
+110 111 (subj) edget
+110 112 ([subj]) edgeb
+(har) (VA) word
+111 108 (vobj) edget
+(haft) (VA) word
+112 111 (vobj) edget
+(") (XP) word
+113 114 (pnct) edget
+(problemer) (NC) word
+114 112 (dobj) edget
+(") (XP) word
+115 114 (pnct) edget
+(med) (SP) word
+116 114 (pobj) edget
+(ham) (PP) word
+117 116 (nobj) edget
+(under) (SP) word
+118 112 (mod) edget
+(træning) (NC) word
+119 118 (nobj) edget
+(eller) (CC) word
+120 118 (coord) edget
+(i) (SP) word
+121 120 (conj) edget
+(løb) (NC) word
+122 121 (nobj) edget
+(.) (XP) word
+123 97 (pnct) edget
+(Det) (PP) word
+124 125 (subj) edget
+(er) (VA) word
+(fantastisk) (AN) word
+126 125 (pred) edget
+(,) (XP) word
+127 125 (pnct) edget
+(så) (RG) word
+128 129 (mod) edget
+(meget) (AN) word
+129 124 (nobj) edget
+129 132 ([dobj]) edgeb
+(han) (PP) word
+130 131 (subj) edget
+130 132 ([subj]) edgeb
+(har) (VA) word
+131 129 (rel) edget
+(overkommet) (VA) word
+132 131 (vobj) edget
+(i_år) (RG) word
+133 132 (mod) edget
+(:) (XP) word
+134 132 (pnct) edget
+(Først) (RG) word
+135 137 (mod) edget
+(trekvart) (AN) word
+136 137 (mod) edget
+(DTM-sæson) (NC) word
+137 132 (xpl) edget
+(hos) (SP) word
+138 137 (mod) edget
+(det) (PD) word
+139 138 (nobj) edget
+(private) (AN) word
+140 139 (mod) edget
+(Unitron-team) (NC) word
+141 139 (nobj) edget
+(,) (XP) word
+142 139 (pnct) edget
+(hvor) (RG) word
+143 139 (ref) edgeb
+143 150 (mod) edget
+(han) (PP) word
+144 147 ([subj]) edgeb
+144 150 (subj) edget
+144 152 ([subj]) edgeb
+(foruden) (SP) word
+145 150 (mod) edget
+(at) (U=) word
+146 145 (nobj) edget
+(være) (VA) word
+147 146 (vobj) edget
+(kører) (NC) word
+148 147 (pred) edget
+(også) (RG) word
+149 150 (mod) edget
+(skulle) (VA) word
+150 139 (rel) edget
+(") (XP) word
+151 152 (pnct) edget
+(organisere) (VA) word
+152 150 (vobj) edget
+(") (XP) word
+153 152 (pnct) edget
+(en) (PI) word
+154 152 (dobj) edget
+(masse) (NC) word
+155 154 (nobj) edget
+(ting) (NC) word
+156 155 (nobj) edget
+(.) (XP) word
+157 125 (pnct) edget
+(Så) (RG) word
+158 159 (mod) edget
+(oprettede) (VA) word
+(han) (PP) word
+160 159 (subj) edget
+(Team) (NP) word
+161 159 (dobj) edget
+(Hokspeed) (NP) word
+162 161 (name) edget
+(til) (SP) word
+163 159 (mod) edget
+(Nordic) (NP) word
+164 165 (mod) edget
+(Cup) (NC) word
+165 163 (nobj) edget
+(,) (XP) word
+166 159 (pnct) edget
+(og) (CC) word
+167 159 (coord) edget
+(midt) (RG) word
+168 172 (mod) edget
+(i) (SP) word
+169 168 (pobj) edget
+(det) (PD) word
+170 169 (nobj) edget
+(hele) (AN) word
+171 170 (nobj) edget
+(skiftede) (VA) word
+172 167 (conj) edget
+(han) (PP) word
+173 172 (subj) edget
+(over) (RG) word
+174 172 (pobj) edget
+(til) (SP) word
+175 174 (pobj) edget
+(Prodrive's) (NP) word
+176 175 (nobj) edget
+(BMW-fabriksteam) (NC) word
+177 176 (possd) edget
+(i) (SP) word
+178 176 (mod) edget
+(det) (PD) word
+179 178 (nobj) edget
+(engelske) (AN) word
+180 179 (mod) edget
+(mesterskab) (NC) word
+181 179 (nobj) edget
+(.) (XP) word
+182 159 (pnct) edget
+
+%% 3. DGgraph trailer
+
+draw end 
+

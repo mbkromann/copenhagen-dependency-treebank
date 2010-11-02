@@ -1,0 +1,116 @@
+# Testing graphs
+load test-find-graph.tag
+!rm -f test-find-graph.log
+
+# Test FindEdge with exact relation name
+find $X subj $Y
+save -match test-find-graph-01.test
+test test-find-graph 01 'find $X subj $Y'
+
+# Test FindEdge with regular expressions
+find E$Y($X /bj$/ $Y)
+save -match test-find-graph-02.test
+test test-find-graph 02 'find E$Y($X /bj$/ $Y)'
+find exists($Y,$X /bj$/ $Y)
+save -match test-find-graph-02b.test
+test test-find-graph 02b 'find exists($Y,$X /bj$/ $Y)'
+
+# Test FindEdge with hierarchy isa-relation name
+# testing: FindExist, FindEdge
+find E$Y($X isa(SYNCOMP) $Y)
+save -match test-find-graph-03.test
+test test-find-graph 03 'find E$Y($X isa(SYNCOMP) $Y)'
+
+# Test FindEdge with complex isa-relation names
+find E$Y($X isa((COMP+SYN)-(subj|vobj)) $Y)
+save -match test-find-graph-04.test
+test test-find-graph 04 'find E$Y($X isa((COMP+SYN)-(subj|vobj)) $Y)'
+
+# Test logical operators
+find E$X(E$Y($X subj $Z & $Y vobj $Z))
+save -match test-find-graph-05.test
+test test-find-graph 05 'find E$X(E$Y($X subj $Z & $Y vobj $Z))'
+
+find E$X($X subj $Z) & ! E$Y($Y vobj $Z)
+save -match test-find-graph-06.test
+test test-find-graph 06 'find E$X($X subj $Z) & ! E$Y($Y vobj $Z)'
+
+find E$X($X vobj $Y | $X dobj $Y)
+save -match test-find-graph-07.test
+test test-find-graph 07 'find E$X($X vobj $Y | $X dobj $Y)'
+
+# Test FindEdge with complex isa-relation names
+find E$Y($X isa(-SYN) $Y)
+save -match test-find-graph-08.test
+test test-find-graph 08 'find E$Y($X isa(-SYN) $Y)'
+
+# Test FindGT and FindLT and FindNumberValueNode
+find $X > 0 & $X < 10
+save -match test-find-graph-09.test
+test test-find-graph 09 'find $X > 0 & $X < 10'
+
+find $X <= 10 | $X >= 200
+save -match test-find-graph-10.test
+test test-find-graph 10 'find $X <= 10 | $X >= 200'
+
+# Test FindStringEQ, FindStringValueNode, FindStringValueNodeFeature
+find $X[] eq "<s>"
+save -match test-find-graph-11.test
+test test-find-graph 11 'find $X eq "<s>"'
+
+find $X[msd] eq "CC"
+save -match test-find-graph-12.test
+test test-find-graph 12 'find $X[msd] eq "CC"'
+
+# FindStringRegExp
+find $X[msd] =~ /^[^NXVAP]/
+save -match test-find-graph-13.test
+test test-find-graph 13 '$X[msd] =~ /^[^NXVAP]/'
+
+# Universal quantifier
+find A$D(! $D /./ $X)
+save -match test-find-graph-14.test
+test test-find-graph 14 'A$D(! $D /./ $X)'
+
+# Adjacency
+find E$Y($X << $Y & $X subj $Y)
+save -match test-find-graph-15a.test
+test test-find-graph 15a 'find E$Y($X << $Y & $X subj $Y)'
+
+find E$Y($Y >> $X & $X subj $Y)
+save -match test-find-graph-15b.test
+test test-find-graph 15b 'find E$Y($Y >> $X & $X subj $Y)'
+
+find E$Y($X <1< $Y & $X subj $Y)
+save -match test-find-graph-15c.test
+test test-find-graph 15c 'find E$Y($X <1< $Y & $X subj $Y)'
+
+find E$Y($Y >1..1> $X & $X subj $Y)
+save -match test-find-graph-15d.test
+test test-find-graph 15d 'find E$Y($Y >1..1> $X & $X subj $Y)'
+
+find E$Y($Y >0..1> $X & $X subj $Y)
+save -match test-find-graph-15e.test
+test test-find-graph 15e 'find E$Y($Y >0..1> $X & $X subj $Y)'
+
+find E$Y($X <2< $Y & $X subj $Y)
+save -match test-find-graph-16a.test
+test test-find-graph 16a 'find E$Y($X <2< $Y & $X subj $Y)'
+
+find E$Y($Y >2> $X & $X subj $Y)
+save -match test-find-graph-16b.test
+test test-find-graph 16b 'find E$Y($Y >2> $X & $X subj $Y)'
+
+find E$Y($Y >2..100> $X & $X subj $Y)
+save -match test-find-graph-17.test
+test test-find-graph 17 'find E$Y($Y >2..100> $X & $X subj $Y)'
+
+# FindNumberValueNodeFeature, 
+load test-find-graph.key
+
+
+# FindActionDTAG
+# FindActionTable
+# FindPath
+
+testresults test-find-graph

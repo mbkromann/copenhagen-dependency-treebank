@@ -1,0 +1,25 @@
+layout -vars msd|gloss
+perl print $I->{'layout'}{'vars'} . "\n";
+
+layout -var msd s/(..).*/$1/
+perl print $I->dump($I->{'layout'}{'var'}) . "\n";
+
+layout -stream $n->var('speaker')
+perl print $I->dump($I->{'layout'}{'stream'}) . "\n";
+
+layout -nstyles ['speaker:' . $n->var('speaker')]
+perl print $I->dump($I->{'layout'}{'nstyles'}) . "\n";
+
+layout -estyles my $sin = $G->node($e->in())->var('speaker'); my $sout = $G->node($e->out()); return [($sin == $sout) ? 'speaker:' . $sin : 'speaker:cross']
+perl print $I->dump($I->{'layout'}{'estyles'}) . "\n";
+
+layout -pos my $sin = $G->node($e->in())->var('speaker'); return ($sin == '1') ? 1 : -1;
+perl print $I->dump($I->{'layout'}{'pos'}) . "\n";
+
+layout -nhide $n->comment() ? 0 : 1;
+perl print $I->dump($I->{'layout'}{'nhide'}) . "\n";
+
+layout -ehide $e->comment() ? 0 : 1;
+perl print $I->dump($I->{'layout'}{'ehide'}) . "\n";
+
+

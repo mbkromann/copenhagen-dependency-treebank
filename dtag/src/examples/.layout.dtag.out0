@@ -1,0 +1,8 @@
+msd|gloss
+{"msd" => "s/(..).*/$1/"}
+sub { "DUMMY" }
+sub { "DUMMY" }
+sub { "DUMMY" }
+sub { "DUMMY" }
+sub { "DUMMY" }
+sub { "DUMMY" }

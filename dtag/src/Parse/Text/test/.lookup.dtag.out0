@@ -1,0 +1,15 @@
+time 0: mand = mand1
+time 0: manden = mand1|def
+time 7: pukl = pukl1
+time 7: pukle = pukl1|inf
+time 7: pukler = pukkel1|pl
+time 7: pukler = pukl1|pres
+time 14: træ = træ1
+time 20: trak = træk1|past
+time 25: træ = træ1
+time 25: træk = træk1
+time 25: træk = træk2
+time 25: træk = træk2|pl
+time 25: trække = træk1|inf
+time 25: trækker = træk1|pres
+time 25: trækker = trækker1

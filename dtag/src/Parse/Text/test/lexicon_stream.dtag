@@ -1,0 +1,1 @@
+perl my $T = Text->new(); $T->lexicon('L0'); $T->lexicon_stream(1, 'L1'); $T->lexicon_stream(2, 'L2'); print $T->lexicon_stream(0) . "\n"; print $T->lexicon_stream(1) . "\n"; print $T->lexicon_stream(2) . "\n";

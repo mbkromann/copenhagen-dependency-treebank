@@ -1,0 +1,4 @@
+load example.tag
+save save.tag
+load save.tag
+view

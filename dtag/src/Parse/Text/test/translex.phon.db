@@ -1,0 +1,5 @@
+s/^-~e$/s\/([bcdfghjklmnpqrstvwxz]){2}e([bcdfghjklmnpqrstvwxz])\$\/\$1\$2\//
+s/^-e$/s\/e([bcdfghjklmnpqrstvwxz])\$\/\$1\//
+s/^~$/s\/([bcdfghjklmnpqrstvwxz])\$\/\$1\$1\//
+s/^\^(.*)$/s\/[aeiouyæøå]([bcdfghjklmnpqrstvwxz]*)\$\/$1\$1\//
+s/^([^\/]+)\/([^\/]+)$/s\/$1\$\/$2\//

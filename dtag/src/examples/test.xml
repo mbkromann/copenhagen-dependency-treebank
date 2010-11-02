@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<corpus id="test">
+  <head>
+    <meta>
+      <name>test</name>
+      <date>Sun Mar  7 07:25:22 MET 2004</date>
+      <author></author>
+      <description></description>
+      <format></format>
+      <history></history>
+    </meta>
+    <annotation>
+      <feature name="word" domain="FREC" />
+      <feature name="msd" domain="FREC">
+        <value name="--"></value>
+        <value name="AN"></value>
+        <value name="CC"></value>
+        <value name="CS"></value>
+        <value name="NC"></value>
+        <value name="NP"></value>
+        <value name="PD"></value>
+        <value name="PI"></value>
+        <value name="PP"></value>
+        <value name="RG"></value>
+        <value name="SP"></value>
+        <value name="U="></value>
+        <value name="VA"></value>
+        <value name="VE"></value>
+        <value name="XP"></value>
+      </feature>
+      <edgelabel>
+        <value name="--"></value>
+        <value name="aobj"></value>
+        <value name="appr"></value>
+        <value name="conj"></value>
+        <value name="coord"></value>
+        <value name="dobj"></value>
+        <value name="mod"></value>
+        <value name="name"></value>
+        <value name="nobj"></value>
+        <value name="pnct"></value>
+        <value name="pobj"></value>
+        <value name="possd"></value>
+        <value name="pred"></value>
+        <value name="rel"></value>
+        <value name="subj"></value>
+        <value name="vobj"></value>
+        <value name="xpl"></value>
+      </edgelabel>
+      <secedgelabel>
+        <value name="[dobj]"></value>
+        <value name="[subj]"></value>
+        <value name="ref"></value>
+      </secedgelabel>
+    </annotation>
+  </head>
+  <body>
+  	<openspan id="x1" cat="np"/>
+    <s id="s1">
+      <graph root="p1_5">
+        <terminals>
+          <t id="w1_4" word="Han" msd="--" />
+          <t id="w1_5" word="fik" msd="VA" />
+  			<closespan id="x1"/>
+          <t id="w1_6" word="hurtigt" msd="AN" />
+          <t id="w1_7" word="tag" msd="NC" />
+          <t id="w1_8" word="i" msd="SP" />
+          <t id="w1_9" word="DTM" msd="NP" />
+          <t id="w1_10" word="og" msd="CC" />
+          <t id="w1_11" word="lærte" msd="VA" />
+          <t id="w1_12" word="," msd="XP" />
+          <t id="w1_13" word="at" msd="CS" />
+          <t id="w1_14" word="man" msd="PI" />
+          <t id="w1_15" word="skal" msd="VA" />
+          <t id="w1_16" word="omgås" msd="VE" />
+          <t id="w1_17" word="materiellet" msd="NC" />
+          <t id="w1_18" word="med" msd="SP" />
+          <t id="w1_19" word="en" msd="PI" />
+          <t id="w1_20" word="vis" msd="AN" />
+          <t id="w1_21" word="forsigtighed" msd="NC" />
+          <t id="w1_22" word="for" msd="SP" />
+          <t id="w1_23" word="at" msd="U=" />
+          <t id="w1_24" word="spare" msd="VA" />
+          <t id="w1_25" word="bilen" msd="NC" />
+          <t id="w1_26" word="." msd="XP" />
+        </terminals>
+        <nonterminals>
+          <nt id="p1_4" word="Han" msd="--">
+            <edge idref="w1_4" label="--" />
+          </nt>
+          <nt id="p1_5" word="fik" msd="VA">
+            <edge idref="w1_5" label="--" />
+            <edge idref="p1_4" label="subj" />
+            <edge idref="p1_6" label="mod" />
+            <edge idref="p1_7" label="dobj" />
+            <edge idref="p1_10" label="coord" />
+            <edge idref="p1_26" label="pnct" />
+          </nt>
+          <nt id="p1_6" word="hurtigt" msd="AN">
+            <edge idref="w1_6" label="--" />
+          </nt>
+          <nt id="p1_7" word="tag" msd="NC">
+            <edge idref="w1_7" label="--" />
+            <edge idref="p1_8" label="pobj" />
+          </nt>
+          <nt id="p1_8" word="i" msd="SP">
+            <edge idref="w1_8" label="--" />
+            <edge idref="p1_9" label="nobj" />
+          </nt>
+          <nt id="p1_9" word="DTM" msd="NP">
+            <edge idref="w1_9" label="--" />
+          </nt>
+          <nt id="p1_10" word="og" msd="CC">
+            <edge idref="w1_10" label="--" />
+            <edge idref="p1_11" label="conj" />
+          </nt>
+          <nt id="p1_11" word="lærte" msd="VA">
+            <edge idref="w1_11" label="--" />
+            <secedge idref="p1_4" label="[subj]" />
+            <edge idref="p1_12" label="pnct" />
+            <edge idref="p1_13" label="dobj" />
+          </nt>
+          <nt id="p1_12" word="," msd="XP">
+            <edge idref="w1_12" label="--" />
+          </nt>
+          <nt id="p1_13" word="at" msd="CS">
+            <edge idref="w1_13" label="--" />
+            <edge idref="p1_15" label="vobj" />
+          </nt>
+          <nt id="p1_14" word="man" msd="PI">
+            <edge idref="w1_14" label="--" />
+          </nt>
+          <nt id="p1_15" word="skal" msd="VA">
+            <edge idref="w1_15" label="--" />
+            <edge idref="p1_14" label="subj" />
+            <edge idref="p1_16" label="vobj" />
+          </nt>
+          <nt id="p1_16" word="omgås" msd="VE">
+            <edge idref="w1_16" label="--" />
+            <secedge idref="p1_14" label="[subj]" />
+            <edge idref="p1_17" label="dobj" />
+            <edge idref="p1_18" label="mod" />
+            <edge idref="p1_22" label="mod" />
+          </nt>
+          <nt id="p1_17" word="materiellet" msd="NC">
+            <edge idref="w1_17" label="--" />
+          </nt>
+          <nt id="p1_18" word="med" msd="SP">
+            <edge idref="w1_18" label="--" />
+            <edge idref="p1_19" label="nobj" />
+          </nt>
+          <nt id="p1_19" word="en" msd="PI">
+            <edge idref="w1_19" label="--" />
+            <edge idref="p1_20" label="mod" />
+            <edge idref="p1_21" label="nobj" />
+          </nt>
+          <nt id="p1_20" word="vis" msd="AN">
+            <edge idref="w1_20" label="--" />
+          </nt>
+          <nt id="p1_21" word="forsigtighed" msd="NC">
+            <edge idref="w1_21" label="--" />
+          </nt>
+          <nt id="p1_22" word="for" msd="SP">
+            <edge idref="w1_22" label="--" />
+            <edge idref="p1_23" label="nobj" />
+          </nt>
+          <nt id="p1_23" word="at" msd="U=">
+            <edge idref="w1_23" label="--" />
+            <edge idref="p1_24" label="vobj" />
+          </nt>
+          <nt id="p1_24" word="spare" msd="VA">
+            <edge idref="w1_24" label="--" />
+            <edge idref="p1_25" label="dobj" />
+          </nt>
+          <nt id="p1_25" word="bilen" msd="NC">
+            <edge idref="w1_25" label="--" />
+          </nt>
+          <nt id="p1_26" word="." msd="XP">
+            <edge idref="w1_26" label="--" />
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s2">
+      <graph root="p2_30">
+        <terminals>
+          <t id="w2_29" word="Det" msd="PP" />
+          <t id="w2_30" word="er" msd="VA" />
+          <t id="w2_31" word="jo" msd="RG" />
+          <t id="w2_32" word="ikke" msd="RG" />
+          <t id="w2_33" word="nok" msd="RG" />
+          <t id="w2_34" word="at" msd="U=" />
+          <t id="w2_35" word="ligge" msd="VA" />
+          <t id="w2_36" word="forrest" msd="AN" />
+          <t id="w2_37" word="i" msd="SP" />
+          <t id="w2_38" word="starten" msd="NC" />
+          <t id="w2_39" word=" - " msd="XP" />
+          <t id="w2_40" word="det" msd="PP" />
+          <t id="w2_41" word="gælder" msd="VA" />
+          <t id="w2_42" word="om" msd="SP" />
+          <t id="w2_43" word="at" msd="U=" />
+          <t id="w2_44" word="nå" msd="VA" />
+          <t id="w2_45" word="det" msd="PD" />
+          <t id="w2_46" word="ternede" msd="AN" />
+          <t id="w2_47" word="flag" msd="NC" />
+          <t id="w2_48" word="til" msd="SP" />
+          <t id="w2_49" word="slut" msd="NC" />
+          <t id="w2_50" word="." msd="XP" />
+        </terminals>
+        <nonterminals>
+          <nt id="p2_29" word="Det" msd="PP">
+            <edge idref="w2_29" label="--" />
+            <edge idref="p2_34" label="nobj" />
+          </nt>
+          <nt id="p2_30" word="er" msd="VA">
+            <edge idref="w2_30" label="--" />
+            <edge idref="p2_29" label="subj" />
+            <edge idref="p2_31" label="mod" />
+            <edge idref="p2_32" label="mod" />
+            <edge idref="p2_33" label="pred" />
+            <edge idref="p2_39" label="pnct" />
+            <edge idref="p2_41" label="conj" />
+            <edge idref="p2_50" label="pnct" />
+          </nt>
+          <nt id="p2_31" word="jo" msd="RG">
+            <edge idref="w2_31" label="--" />
+          </nt>
+          <nt id="p2_32" word="ikke" msd="RG">
+            <edge idref="w2_32" label="--" />
+          </nt>
+          <nt id="p2_33" word="nok" msd="RG">
+            <edge idref="w2_33" label="--" />
+          </nt>
+          <nt id="p2_34" word="at" msd="U=">
+            <edge idref="w2_34" label="--" />
+            <edge idref="p2_35" label="vobj" />
+          </nt>
+          <nt id="p2_35" word="ligge" msd="VA">
+            <edge idref="w2_35" label="--" />
+            <edge idref="p2_36" label="aobj" />
+            <edge idref="p2_37" label="mod" />
+          </nt>
+          <nt id="p2_36" word="forrest" msd="AN">
+            <edge idref="w2_36" label="--" />
+          </nt>
+          <nt id="p2_37" word="i" msd="SP">
+            <edge idref="w2_37" label="--" />
+            <edge idref="p2_38" label="nobj" />
+          </nt>
+          <nt id="p2_38" word="starten" msd="NC">
+            <edge idref="w2_38" label="--" />
+          </nt>
+          <nt id="p2_39" word=" - " msd="XP">
+            <edge idref="w2_39" label="--" />
+          </nt>
+          <nt id="p2_40" word="det" msd="PP">
+            <edge idref="w2_40" label="--" />
+          </nt>
+          <nt id="p2_41" word="gælder" msd="VA">
+            <edge idref="w2_41" label="--" />
+            <edge idref="p2_40" label="subj" />
+            <edge idref="p2_42" label="pobj" />
+          </nt>
+          <nt id="p2_42" word="om" msd="SP">
+            <edge idref="w2_42" label="--" />
+            <edge idref="p2_43" label="nobj" />
+          </nt>
+          <nt id="p2_43" word="at" msd="U=">
+            <edge idref="w2_43" label="--" />
+            <edge idref="p2_44" label="vobj" />
+          </nt>
+          <nt id="p2_44" word="nå" msd="VA">
+            <edge idref="w2_44" label="--" />
+            <edge idref="p2_45" label="dobj" />
+            <edge idref="p2_48" label="mod" />
+          </nt>
+          <nt id="p2_45" word="det" msd="PD">
+            <edge idref="w2_45" label="--" />
+            <edge idref="p2_46" label="mod" />
+            <edge idref="p2_47" label="nobj" />
+          </nt>
+          <nt id="p2_46" word="ternede" msd="AN">
+            <edge idref="w2_46" label="--" />
+          </nt>
+          <nt id="p2_47" word="flag" msd="NC">
+            <edge idref="w2_47" label="--" />
+          </nt>
+          <nt id="p2_48" word="til" msd="SP">
+            <edge idref="w2_48" label="--" />
+            <edge idref="p2_49" label="nobj" />
+          </nt>
+          <nt id="p2_49" word="slut" msd="NC">
+            <edge idref="w2_49" label="--" />
+          </nt>
+          <nt id="p2_50" word="." msd="XP">
+            <edge idref="w2_50" label="--" />
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s3">
+      <graph root="p3_56">
+        <terminals>
+          <t id="w3_55" word="Jeg" msd="PP" />
+          <t id="w3_56" word="har" msd="VA" />
+          <t id="w3_57" word="svært" msd="AN" />
+          <t id="w3_58" word="ved" msd="SP" />
+          <t id="w3_59" word="at" msd="U=" />
+          <t id="w3_60" word="se" msd="VA" />
+          <t id="w3_61" word="," msd="XP" />
+          <t id="w3_62" word="at" msd="CS" />
+          <t id="w3_63" word="Kurt" msd="NP" />
+          <t id="w3_64" word="overhovedet" msd="RG" />
+          <t id="w3_65" word="har" msd="VA" />
+          <t id="w3_66" word="nogen" msd="PI" />
+          <t id="w3_67" word="svagheder" msd="NC" />
+          <t id="w3_68" word="som" msd="U=" />
+          <t id="w3_69" word="racerkører" msd="NC" />
+          <t id="w3_70" word="." msd="XP" />
+        </terminals>
+        <nonterminals>
+          <nt id="p3_55" word="Jeg" msd="PP">
+            <edge idref="w3_55" label="--" />
+          </nt>
+          <nt id="p3_56" word="har" msd="VA">
+            <edge idref="w3_56" label="--" />
+            <edge idref="p3_55" label="subj" />
+            <edge idref="p3_57" label="aobj" />
+            <edge idref="p3_70" label="pnct" />
+          </nt>
+          <nt id="p3_57" word="svært" msd="AN">
+            <edge idref="w3_57" label="--" />
+            <edge idref="p3_58" label="pobj" />
+          </nt>
+          <nt id="p3_58" word="ved" msd="SP">
+            <edge idref="w3_58" label="--" />
+            <edge idref="p3_59" label="nobj" />
+          </nt>
+          <nt id="p3_59" word="at" msd="U=">
+            <edge idref="w3_59" label="--" />
+            <edge idref="p3_60" label="vobj" />
+          </nt>
+          <nt id="p3_60" word="se" msd="VA">
+            <edge idref="w3_60" label="--" />
+            <edge idref="p3_61" label="pnct" />
+            <edge idref="p3_62" label="dobj" />
+          </nt>
+          <nt id="p3_61" word="," msd="XP">
+            <edge idref="w3_61" label="--" />
+          </nt>
+          <nt id="p3_62" word="at" msd="CS">
+            <edge idref="w3_62" label="--" />
+            <edge idref="p3_65" label="vobj" />
+          </nt>
+          <nt id="p3_63" word="Kurt" msd="NP">
+            <edge idref="w3_63" label="--" />
+          </nt>
+          <nt id="p3_64" word="overhovedet" msd="RG">
+            <edge idref="w3_64" label="--" />
+          </nt>
+          <nt id="p3_65" word="har" msd="VA">
+            <edge idref="w3_65" label="--" />
+            <edge idref="p3_63" label="subj" />
+            <edge idref="p3_64" label="mod" />
+            <edge idref="p3_66" label="dobj" />
+            <edge idref="p3_68" label="mod" />
+          </nt>
+          <nt id="p3_66" word="nogen" msd="PI">
+            <edge idref="w3_66" label="--" />
+            <edge idref="p3_67" label="nobj" />
+          </nt>
+          <nt id="p3_67" word="svagheder" msd="NC">
+            <edge idref="w3_67" label="--" />
+          </nt>
+          <nt id="p3_68" word="som" msd="U=">
+            <edge idref="w3_68" label="--" />
+            <edge idref="p3_69" label="nobj" />
+          </nt>
+          <nt id="p3_69" word="racerkører" msd="NC">
+            <edge idref="w3_69" label="--" />
+          </nt>
+          <nt id="p3_70" word="." msd="XP">
+            <edge idref="w3_70" label="--" />
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s4">
+      <graph root="p4_78">
+        <terminals>
+          <t id="w4_78" word="Kurt" msd="NP" />
+          <t id="w4_79" word="om" msd="SP" />
+          <t id="w4_80" word="racerkøreren" msd="NC" />
+          <t id="w4_81" word="Kris" msd="NP" />
+          <t id="w4_82" word=":" msd="XP" />
+          <t id="w4_88" word=" - " msd="XP" />
+          <t id="w4_89" word="Kris" msd="NP" />
+          <t id="w4_90" word="er" msd="VA" />
+          <t id="w4_91" word="en" msd="PI" />
+          <t id="w4_92" word="meget" msd="AN" />
+          <t id="w4_93" word="seriøs" msd="AN" />
+          <t id="w4_94" word="racerkører" msd="NC" />
+          <t id="w4_95" word="," msd="XP" />
+          <t id="w4_96" word="hvor" msd="RG" />
+          <t id="w4_97" word="sejrsviljen" msd="NC" />
+          <t id="w4_98" word="ligger" msd="VA" />
+          <t id="w4_99" word="utroligt" msd="AN" />
+          <t id="w4_100" word="dybt" msd="AN" />
+          <t id="w4_101" word=" - " msd="XP" />
+          <t id="w4_102" word="han" msd="PP" />
+          <t id="w4_103" word="er" msd="VA" />
+          <t id="w4_104" word="en" msd="PI" />
+          <t id="w4_105" word="type" msd="NC" />
+          <t id="w4_106" word="," msd="XP" />
+          <t id="w4_107" word="der" msd="U=" />
+          <t id="w4_108" word="vil" msd="VA" />
+          <t id="w4_109" word="vinde" msd="VA" />
+          <t id="w4_110" word="." msd="XP" />
+        </terminals>
+        <nonterminals>
+          <nt id="p4_78" word="Kurt" msd="NP">
+            <edge idref="w4_78" label="--" />
+            <edge idref="p4_79" label="mod" />
+            <edge idref="p4_110" label="pnct" />
+          </nt>
+          <nt id="p4_79" word="om" msd="SP">
+            <edge idref="w4_79" label="--" />
+            <edge idref="p4_80" label="nobj" />
+            <edge idref="p4_82" label="pnct" />
+            <edge idref="p4_90" label="xpl" />
+          </nt>
+          <nt id="p4_80" word="racerkøreren" msd="NC">
+            <edge idref="w4_80" label="--" />
+            <edge idref="p4_81" label="appr" />
+          </nt>
+          <nt id="p4_81" word="Kris" msd="NP">
+            <edge idref="w4_81" label="--" />
+          </nt>
+          <nt id="p4_82" word=":" msd="XP">
+            <edge idref="w4_82" label="--" />
+          </nt>
+          <nt id="p4_88" word=" - " msd="XP">
+            <edge idref="w4_88" label="--" />
+          </nt>
+          <nt id="p4_89" word="Kris" msd="NP">
+            <edge idref="w4_89" label="--" />
+          </nt>
+          <nt id="p4_90" word="er" msd="VA">
+            <edge idref="w4_90" label="--" />
+            <edge idref="p4_89" label="subj" />
+            <edge idref="p4_88" label="pnct" />
+            <edge idref="p4_91" label="pred" />
+            <edge idref="p4_103" label="conj" />
+          </nt>
+          <nt id="p4_91" word="en" msd="PI">
+            <edge idref="w4_91" label="--" />
+            <edge idref="p4_93" label="mod" />
+            <edge idref="p4_94" label="nobj" />
+            <edge idref="p4_95" label="pnct" />
+            <secedge idref="p4_96" label="ref" />
+            <edge idref="p4_98" label="rel" />
+          </nt>
+          <nt id="p4_92" word="meget" msd="AN">
+            <edge idref="w4_92" label="--" />
+          </nt>
+          <nt id="p4_93" word="seriøs" msd="AN">
+            <edge idref="w4_93" label="--" />
+            <edge idref="p4_92" label="mod" />
+          </nt>
+          <nt id="p4_94" word="racerkører" msd="NC">
+            <edge idref="w4_94" label="--" />
+          </nt>
+          <nt id="p4_95" word="," msd="XP">
+            <edge idref="w4_95" label="--" />
+          </nt>
+          <nt id="p4_96" word="hvor" msd="RG">
+            <edge idref="w4_96" label="--" />
+          </nt>
+          <nt id="p4_97" word="sejrsviljen" msd="NC">
+            <edge idref="w4_97" label="--" />
+          </nt>
+          <nt id="p4_98" word="ligger" msd="VA">
+            <edge idref="w4_98" label="--" />
+            <edge idref="p4_96" label="mod" />
+            <edge idref="p4_97" label="subj" />
+            <edge idref="p4_100" label="aobj" />
+            <edge idref="p4_101" label="pnct" />
+          </nt>
+          <nt id="p4_99" word="utroligt" msd="AN">
+            <edge idref="w4_99" label="--" />
+          </nt>
+          <nt id="p4_100" word="dybt" msd="AN">
+            <edge idref="w4_100" label="--" />
+            <edge idref="p4_99" label="mod" />
+          </nt>
+          <nt id="p4_101" word=" - " msd="XP">
+            <edge idref="w4_101" label="--" />
+          </nt>
+          <nt id="p4_102" word="han" msd="PP">
+            <edge idref="w4_102" label="--" />
+          </nt>
+          <nt id="p4_103" word="er" msd="VA">
+            <edge idref="w4_103" label="--" />
+            <edge idref="p4_102" label="subj" />
+            <edge idref="p4_104" label="pred" />
+          </nt>
+          <nt id="p4_104" word="en" msd="PI">
+            <edge idref="w4_104" label="--" />
+            <edge idref="p4_105" label="nobj" />
+            <edge idref="p4_106" label="pnct" />
+            <secedge idref="p4_107" label="ref" />
+            <edge idref="p4_108" label="rel" />
+          </nt>
+          <nt id="p4_105" word="type" msd="NC">
+            <edge idref="w4_105" label="--" />
+          </nt>
+          <nt id="p4_106" word="," msd="XP">
+            <edge idref="w4_106" label="--" />
+          </nt>
+          <nt id="p4_107" word="der" msd="U=">
+            <edge idref="w4_107" label="--" />
+          </nt>
+          <nt id="p4_108" word="vil" msd="VA">
+            <edge idref="w4_108" label="--" />
+            <edge idref="p4_107" label="subj" />
+            <edge idref="p4_109" label="vobj" />
+          </nt>
+          <nt id="p4_109" word="vinde" msd="VA">
+            <edge idref="w4_109" label="--" />
+            <secedge idref="p4_107" label="[subj]" />
+          </nt>
+          <nt id="p4_110" word="." msd="XP">
+            <edge idref="w4_110" label="--" />
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s5">
+      <graph root="p5_113">
+        <terminals>
+          <t id="w5_113" word="En" msd="PI" />
+          <t id="w5_114" word="uvurderlig" msd="AN" />
+          <t id="w5_115" word="egenskab" msd="NC" />
+          <t id="w5_116" word="for" msd="SP" />
+          <t id="w5_117" word="en" msd="PI" />
+          <t id="w5_118" word="racerkører" msd="NC" />
+          <t id="w5_119" word="." msd="XP" />
+        </terminals>
+        <nonterminals>
+          <nt id="p5_113" word="En" msd="PI">
+            <edge idref="w5_113" label="--" />
+            <edge idref="p5_114" label="mod" />
+            <edge idref="p5_115" label="nobj" />
+            <edge idref="p5_119" label="pnct" />
+          </nt>
+          <nt id="p5_114" word="uvurderlig" msd="AN">
+            <edge idref="w5_114" label="--" />
+          </nt>
+          <nt id="p5_115" word="egenskab" msd="NC">
+            <edge idref="w5_115" label="--" />
+            <edge idref="p5_116" label="mod" />
+          </nt>
+          <nt id="p5_116" word="for" msd="SP">
+            <edge idref="w5_116" label="--" />
+            <edge idref="p5_117" label="nobj" />
+          </nt>
+          <nt id="p5_117" word="en" msd="PI">
+            <edge idref="w5_117" label="--" />
+            <edge idref="p5_118" label="nobj" />
+          </nt>
+          <nt id="p5_118" word="racerkører" msd="NC">
+            <edge idref="w5_118" label="--" />
+          </nt>
+          <nt id="p5_119" word="." msd="XP">
+            <edge idref="w5_119" label="--" />
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s6">
+      <graph root="p6_123">
+        <terminals>
+          <t id="w6_122" word="Samtidig" msd="RG" />
+          <t id="w6_123" word="er" msd="VA" />
+          <t id="w6_124" word="han" msd="PP" />
+          <t id="w6_125" word="meget" msd="AN" />
+          <t id="w6_126" word="fair" msd="AN" />
+          <t id="w6_127" word="på" msd="SP" />
+          <t id="w6_128" word="banen" msd="NC" />
+          <t id="w6_129" word="," msd="XP" />
+          <t id="w6_130" word="og" msd="CC" />
+          <t id="w6_131" word="jeg" msd="PP" />
+          <t id="w6_132" word="kan" msd="VA" />
+          <t id="w6_133" word="ikke" msd="RG" />
+          <t id="w6_134" word="mindes" msd="VE" />
+          <t id="w6_135" word="," msd="XP" />
+          <t id="w6_136" word="jeg" msd="PP" />
+          <t id="w6_137" word="har" msd="VA" />
+          <t id="w6_138" word="haft" msd="VA" />
+          <t id="w6_139" word="&quot;" msd="XP" />
+          <t id="w6_140" word="problemer" msd="NC" />
+          <t id="w6_141" word="&quot;" msd="XP" />
+          <t id="w6_142" word="med" msd="SP" />
+          <t id="w6_143" word="ham" msd="PP" />
+          <t id="w6_144" word="under" msd="SP" />
+          <t id="w6_145" word="træning" msd="NC" />
+          <t id="w6_146" word="eller" msd="CC" />
+          <t id="w6_147" word="i" msd="SP" />
+          <t id="w6_148" word="løb" msd="NC" />
+          <t id="w6_149" word="." msd="XP" />
+        </terminals>
+        <nonterminals>
+          <nt id="p6_122" word="Samtidig" msd="RG">
+            <edge idref="w6_122" label="--" />
+          </nt>
+          <nt id="p6_123" word="er" msd="VA">
+            <edge idref="w6_123" label="--" />
+            <edge idref="p6_122" label="mod" />
+            <edge idref="p6_124" label="subj" />
+            <edge idref="p6_126" label="pred" />
+            <edge idref="p6_127" label="mod" />
+            <edge idref="p6_129" label="pnct" />
+            <edge idref="p6_130" label="coord" />
+            <edge idref="p6_149" label="pnct" />
+          </nt>
+          <nt id="p6_124" word="han" msd="PP">
+            <edge idref="w6_124" label="--" />
+          </nt>
+          <nt id="p6_125" word="meget" msd="AN">
+            <edge idref="w6_125" label="--" />
+          </nt>
+          <nt id="p6_126" word="fair" msd="AN">
+            <edge idref="w6_126" label="--" />
+            <edge idref="p6_125" label="mod" />
+          </nt>
+          <nt id="p6_127" word="på" msd="SP">
+            <edge idref="w6_127" label="--" />
+            <edge idref="p6_128" label="nobj" />
+          </nt>
+          <nt id="p6_128" word="banen" msd="NC">
+            <edge idref="w6_128" label="--" />
+          </nt>
+          <nt id="p6_129" word="," msd="XP">
+            <edge idref="w6_129" label="--" />
+          </nt>
+          <nt id="p6_130" word="og" msd="CC">
+            <edge idref="w6_130" label="--" />
+            <edge idref="p6_132" label="conj" />
+          </nt>
+          <nt id="p6_131" word="jeg" msd="PP">
+            <edge idref="w6_131" label="--" />
+          </nt>
+          <nt id="p6_132" word="kan" msd="VA">
+            <edge idref="w6_132" label="--" />
+            <edge idref="p6_131" label="subj" />
+            <edge idref="p6_133" label="mod" />
+            <edge idref="p6_134" label="vobj" />
+          </nt>
+          <nt id="p6_133" word="ikke" msd="RG">
+            <edge idref="w6_133" label="--" />
+          </nt>
+          <nt id="p6_134" word="mindes" msd="VE">
+            <edge idref="w6_134" label="--" />
+            <secedge idref="p6_131" label="[subj]" />
+            <edge idref="p6_135" label="pnct" />
+            <edge idref="p6_137" label="vobj" />
+          </nt>
+          <nt id="p6_135" word="," msd="XP">
+            <edge idref="w6_135" label="--" />
+          </nt>
+          <nt id="p6_136" word="jeg" msd="PP">
+            <edge idref="w6_136" label="--" />
+          </nt>
+          <nt id="p6_137" word="har" msd="VA">
+            <edge idref="w6_137" label="--" />
+            <edge idref="p6_136" label="subj" />
+            <edge idref="p6_138" label="vobj" />
+          </nt>
+          <nt id="p6_138" word="haft" msd="VA">
+            <edge idref="w6_138" label="--" />
+            <secedge idref="p6_136" label="[subj]" />
+            <edge idref="p6_140" label="dobj" />
+            <edge idref="p6_144" label="mod" />
+          </nt>
+          <nt id="p6_139" word="&quot;" msd="XP">
+            <edge idref="w6_139" label="--" />
+          </nt>
+          <nt id="p6_140" word="problemer" msd="NC">
+            <edge idref="w6_140" label="--" />
+            <edge idref="p6_139" label="pnct" />
+            <edge idref="p6_141" label="pnct" />
+            <edge idref="p6_142" label="pobj" />
+          </nt>
+          <nt id="p6_141" word="&quot;" msd="XP">
+            <edge idref="w6_141" label="--" />
+          </nt>
+          <nt id="p6_142" word="med" msd="SP">
+            <edge idref="w6_142" label="--" />
+            <edge idref="p6_143" label="nobj" />
+          </nt>
+          <nt id="p6_143" word="ham" msd="PP">
+            <edge idref="w6_143" label="--" />
+          </nt>
+          <nt id="p6_144" word="under" msd="SP">
+            <edge idref="w6_144" label="--" />
+            <edge idref="p6_145" label="nobj" />
+            <edge idref="p6_146" label="coord" />
+          </nt>
+          <nt id="p6_145" word="træning" msd="NC">
+            <edge idref="w6_145" label="--" />
+          </nt>
+          <nt id="p6_146" word="eller" msd="CC">
+            <edge idref="w6_146" label="--" />
+            <edge idref="p6_147" label="conj" />
+          </nt>
+          <nt id="p6_147" word="i" msd="SP">
+            <edge idref="w6_147" label="--" />
+            <edge idref="p6_148" label="nobj" />
+          </nt>
+          <nt id="p6_148" word="løb" msd="NC">
+            <edge idref="w6_148" label="--" />
+          </nt>
+          <nt id="p6_149" word="." msd="XP">
+            <edge idref="w6_149" label="--" />
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s7">
+      <graph root="p7_155">
+        <terminals>
+          <t id="w7_154" word="Det" msd="PP" />
+          <t id="w7_155" word="er" msd="VA" />
+          <t id="w7_156" word="fantastisk" msd="AN" />
+          <t id="w7_157" word="," msd="XP" />
+          <t id="w7_158" word="så" msd="RG" />
+          <t id="w7_159" word="meget" msd="AN" />
+          <t id="w7_160" word="han" msd="PP" />
+          <t id="w7_161" word="har" msd="VA" />
+          <t id="w7_162" word="overkommet" msd="VA" />
+          <t id="w7_163" word="i_år" msd="RG" />
+          <t id="w7_164" word=":" msd="XP" />
+          <t id="w7_165" word="Først" msd="RG" />
+          <t id="w7_166" word="trekvart" msd="AN" />
+          <t id="w7_167" word="DTM-sæson" msd="NC" />
+          <t id="w7_168" word="hos" msd="SP" />
+          <t id="w7_169" word="det" msd="PD" />
+          <t id="w7_170" word="private" msd="AN" />
+          <t id="w7_171" word="Unitron-team" msd="NC" />
+          <t id="w7_172" word="," msd="XP" />
+          <t id="w7_173" word="hvor" msd="RG" />
+          <t id="w7_174" word="han" msd="PP" />
+          <t id="w7_175" word="foruden" msd="SP" />
+          <t id="w7_176" word="at" msd="U=" />
+          <t id="w7_177" word="være" msd="VA" />
+          <t id="w7_178" word="kører" msd="NC" />
+          <t id="w7_179" word="også" msd="RG" />
+          <t id="w7_180" word="skulle" msd="VA" />
+          <t id="w7_181" word="&quot;" msd="XP" />
+          <t id="w7_182" word="organisere" msd="VA" />
+          <t id="w7_183" word="&quot;" msd="XP" />
+          <t id="w7_184" word="en" msd="PI" />
+          <t id="w7_185" word="masse" msd="NC" />
+          <t id="w7_186" word="ting" msd="NC" />
+          <t id="w7_187" word="." msd="XP" />
+        </terminals>
+        <nonterminals>
+          <nt id="p7_154" word="Det" msd="PP">
+            <edge idref="w7_154" label="--" />
+            <edge idref="p7_159" label="nobj" />
+          </nt>
+          <nt id="p7_155" word="er" msd="VA">
+            <edge idref="w7_155" label="--" />
+            <edge idref="p7_154" label="subj" />
+            <edge idref="p7_156" label="pred" />
+            <edge idref="p7_157" label="pnct" />
+            <edge idref="p7_187" label="pnct" />
+          </nt>
+          <nt id="p7_156" word="fantastisk" msd="AN">
+            <edge idref="w7_156" label="--" />
+          </nt>
+          <nt id="p7_157" word="," msd="XP">
+            <edge idref="w7_157" label="--" />
+          </nt>
+          <nt id="p7_158" word="så" msd="RG">
+            <edge idref="w7_158" label="--" />
+          </nt>
+          <nt id="p7_159" word="meget" msd="AN">
+            <edge idref="w7_159" label="--" />
+            <edge idref="p7_158" label="mod" />
+            <edge idref="p7_161" label="rel" />
+          </nt>
+          <nt id="p7_160" word="han" msd="PP">
+            <edge idref="w7_160" label="--" />
+          </nt>
+          <nt id="p7_161" word="har" msd="VA">
+            <edge idref="w7_161" label="--" />
+            <edge idref="p7_160" label="subj" />
+            <edge idref="p7_162" label="vobj" />
+          </nt>
+          <nt id="p7_162" word="overkommet" msd="VA">
+            <edge idref="w7_162" label="--" />
+            <secedge idref="p7_159" label="[dobj]" />
+            <secedge idref="p7_160" label="[subj]" />
+            <edge idref="p7_163" label="mod" />
+            <edge idref="p7_164" label="pnct" />
+            <edge idref="p7_167" label="xpl" />
+          </nt>
+          <nt id="p7_163" word="i_år" msd="RG">
+            <edge idref="w7_163" label="--" />
+          </nt>
+          <nt id="p7_164" word=":" msd="XP">
+            <edge idref="w7_164" label="--" />
+          </nt>
+          <nt id="p7_165" word="Først" msd="RG">
+            <edge idref="w7_165" label="--" />
+          </nt>
+          <nt id="p7_166" word="trekvart" msd="AN">
+            <edge idref="w7_166" label="--" />
+          </nt>
+          <nt id="p7_167" word="DTM-sæson" msd="NC">
+            <edge idref="w7_167" label="--" />
+            <edge idref="p7_166" label="mod" />
+            <edge idref="p7_165" label="mod" />
+            <edge idref="p7_168" label="mod" />
+          </nt>
+          <nt id="p7_168" word="hos" msd="SP">
+            <edge idref="w7_168" label="--" />
+            <edge idref="p7_169" label="nobj" />
+          </nt>
+          <nt id="p7_169" word="det" msd="PD">
+            <edge idref="w7_169" label="--" />
+            <edge idref="p7_170" label="mod" />
+            <edge idref="p7_171" label="nobj" />
+            <edge idref="p7_172" label="pnct" />
+            <secedge idref="p7_173" label="ref" />
+            <edge idref="p7_180" label="rel" />
+          </nt>
+          <nt id="p7_170" word="private" msd="AN">
+            <edge idref="w7_170" label="--" />
+          </nt>
+          <nt id="p7_171" word="Unitron-team" msd="NC">
+            <edge idref="w7_171" label="--" />
+          </nt>
+          <nt id="p7_172" word="," msd="XP">
+            <edge idref="w7_172" label="--" />
+          </nt>
+          <nt id="p7_173" word="hvor" msd="RG">
+            <edge idref="w7_173" label="--" />
+          </nt>
+          <nt id="p7_174" word="han" msd="PP">
+            <edge idref="w7_174" label="--" />
+          </nt>
+          <nt id="p7_175" word="foruden" msd="SP">
+            <edge idref="w7_175" label="--" />
+            <edge idref="p7_176" label="nobj" />
+          </nt>
+          <nt id="p7_176" word="at" msd="U=">
+            <edge idref="w7_176" label="--" />
+            <edge idref="p7_177" label="vobj" />
+          </nt>
+          <nt id="p7_177" word="være" msd="VA">
+            <edge idref="w7_177" label="--" />
+            <secedge idref="p7_174" label="[subj]" />
+            <edge idref="p7_178" label="pred" />
+          </nt>
+          <nt id="p7_178" word="kører" msd="NC">
+            <edge idref="w7_178" label="--" />
+          </nt>
+          <nt id="p7_179" word="også" msd="RG">
+            <edge idref="w7_179" label="--" />
+          </nt>
+          <nt id="p7_180" word="skulle" msd="VA">
+            <edge idref="w7_180" label="--" />
+            <edge idref="p7_174" label="subj" />
+            <edge idref="p7_173" label="mod" />
+            <edge idref="p7_175" label="mod" />
+            <edge idref="p7_179" label="mod" />
+            <edge idref="p7_182" label="vobj" />
+          </nt>
+          <nt id="p7_181" word="&quot;" msd="XP">
+            <edge idref="w7_181" label="--" />
+          </nt>
+          <nt id="p7_182" word="organisere" msd="VA">
+            <edge idref="w7_182" label="--" />
+            <edge idref="p7_181" label="pnct" />
+            <secedge idref="p7_174" label="[subj]" />
+            <edge idref="p7_183" label="pnct" />
+            <edge idref="p7_184" label="dobj" />
+          </nt>
+          <nt id="p7_183" word="&quot;" msd="XP">
+            <edge idref="w7_183" label="--" />
+          </nt>
+          <nt id="p7_184" word="en" msd="PI">
+            <edge idref="w7_184" label="--" />
+            <edge idref="p7_185" label="nobj" />
+          </nt>
+          <nt id="p7_185" word="masse" msd="NC">
+            <edge idref="w7_185" label="--" />
+            <edge idref="p7_186" label="nobj" />
+          </nt>
+          <nt id="p7_186" word="ting" msd="NC">
+            <edge idref="w7_186" label="--" />
+          </nt>
+          <nt id="p7_187" word="." msd="XP">
+            <edge idref="w7_187" label="--" />
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s8">
+      <graph root="p8_191">
+        <terminals>
+          <t id="w8_190" word="Så" msd="RG" />
+          <t id="w8_191" word="oprettede" msd="VA" />
+          <t id="w8_192" word="han" msd="PP" />
+          <t id="w8_193" word="Team" msd="NP" />
+          <t id="w8_194" word="Hokspeed" msd="NP" />
+          <t id="w8_195" word="til" msd="SP" />
+          <t id="w8_196" word="Nordic" msd="NP" />
+          <t id="w8_197" word="Cup" msd="NC" />
+          <t id="w8_198" word="," msd="XP" />
+          <t id="w8_199" word="og" msd="CC" />
+          <t id="w8_200" word="midt" msd="RG" />
+          <t id="w8_201" word="i" msd="SP" />
+          <t id="w8_202" word="det" msd="PD" />
+          <t id="w8_203" word="hele" msd="AN" />
+          <t id="w8_204" word="skiftede" msd="VA" />
+          <t id="w8_205" word="han" msd="PP" />
+          <t id="w8_206" word="over" msd="RG" />
+          <t id="w8_207" word="til" msd="SP" />
+          <t id="w8_208" word="Prodrive's" msd="NP" />
+          <t id="w8_209" word="BMW-fabriksteam" msd="NC" />
+          <t id="w8_210" word="i" msd="SP" />
+          <t id="w8_211" word="det" msd="PD" />
+          <t id="w8_212" word="engelske" msd="AN" />
+          <t id="w8_213" word="mesterskab" msd="NC" />
+          <t id="w8_214" word="." msd="XP" />
+        </terminals>
+        <nonterminals>
+          <nt id="p8_190" word="Så" msd="RG">
+            <edge idref="w8_190" label="--" />
+          </nt>
+          <nt id="p8_191" word="oprettede" msd="VA">
+            <edge idref="w8_191" label="--" />
+            <edge idref="p8_190" label="mod" />
+            <edge idref="p8_192" label="subj" />
+            <edge idref="p8_193" label="dobj" />
+            <edge idref="p8_195" label="mod" />
+            <edge idref="p8_198" label="pnct" />
+            <edge idref="p8_199" label="coord" />
+            <edge idref="p8_214" label="pnct" />
+          </nt>
+          <nt id="p8_192" word="han" msd="PP">
+            <edge idref="w8_192" label="--" />
+          </nt>
+          <nt id="p8_193" word="Team" msd="NP">
+            <edge idref="w8_193" label="--" />
+            <edge idref="p8_194" label="name" />
+          </nt>
+          <nt id="p8_194" word="Hokspeed" msd="NP">
+            <edge idref="w8_194" label="--" />
+          </nt>
+          <nt id="p8_195" word="til" msd="SP">
+            <edge idref="w8_195" label="--" />
+            <edge idref="p8_197" label="nobj" />
+          </nt>
+          <nt id="p8_196" word="Nordic" msd="NP">
+            <edge idref="w8_196" label="--" />
+          </nt>
+          <nt id="p8_197" word="Cup" msd="NC">
+            <edge idref="w8_197" label="--" />
+            <edge idref="p8_196" label="mod" />
+          </nt>
+          <nt id="p8_198" word="," msd="XP">
+            <edge idref="w8_198" label="--" />
+          </nt>
+          <nt id="p8_199" word="og" msd="CC">
+            <edge idref="w8_199" label="--" />
+            <edge idref="p8_204" label="conj" />
+          </nt>
+          <nt id="p8_200" word="midt" msd="RG">
+            <edge idref="w8_200" label="--" />
+            <edge idref="p8_201" label="pobj" />
+          </nt>
+          <nt id="p8_201" word="i" msd="SP">
+            <edge idref="w8_201" label="--" />
+            <edge idref="p8_202" label="nobj" />
+          </nt>
+          <nt id="p8_202" word="det" msd="PD">
+            <edge idref="w8_202" label="--" />
+            <edge idref="p8_203" label="nobj" />
+          </nt>
+          <nt id="p8_203" word="hele" msd="AN">
+            <edge idref="w8_203" label="--" />
+          </nt>
+          <nt id="p8_204" word="skiftede" msd="VA">
+            <edge idref="w8_204" label="--" />
+            <edge idref="p8_200" label="mod" />
+            <edge idref="p8_205" label="subj" />
+            <edge idref="p8_206" label="pobj" />
+          </nt>
+          <nt id="p8_205" word="han" msd="PP">
+            <edge idref="w8_205" label="--" />
+          </nt>
+          <nt id="p8_206" word="over" msd="RG">
+            <edge idref="w8_206" label="--" />
+            <edge idref="p8_207" label="pobj" />
+          </nt>
+          <nt id="p8_207" word="til" msd="SP">
+            <edge idref="w8_207" label="--" />
+            <edge idref="p8_208" label="nobj" />
+          </nt>
+          <nt id="p8_208" word="Prodrive's" msd="NP">
+            <edge idref="w8_208" label="--" />
+            <edge idref="p8_209" label="possd" />
+            <edge idref="p8_210" label="mod" />
+          </nt>
+          <nt id="p8_209" word="BMW-fabriksteam" msd="NC">
+            <edge idref="w8_209" label="--" />
+          </nt>
+          <nt id="p8_210" word="i" msd="SP">
+            <edge idref="w8_210" label="--" />
+            <edge idref="p8_211" label="nobj" />
+          </nt>
+          <nt id="p8_211" word="det" msd="PD">
+            <edge idref="w8_211" label="--" />
+            <edge idref="p8_212" label="mod" />
+            <edge idref="p8_213" label="nobj" />
+          </nt>
+          <nt id="p8_212" word="engelske" msd="AN">
+            <edge idref="w8_212" label="--" />
+          </nt>
+          <nt id="p8_213" word="mesterskab" msd="NC">
+            <edge idref="w8_213" label="--" />
+          </nt>
+          <nt id="p8_214" word="." msd="XP">
+            <edge idref="w8_214" label="--" />
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+  </body>
+</corpus>
+

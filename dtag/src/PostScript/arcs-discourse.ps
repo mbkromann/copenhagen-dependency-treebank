@@ -1,0 +1,1798 @@
+	%! (c) 2002-2004 Matthias T. Kromann <mtk@id.cbs.dk>
+
+%% This PostScript library is distributed under the GNU public  
+%% license for libraries, as part of the DGgraph package.
+%% Please see: http://www.id.cbs.dk/~mtk/DGgraph for source code,
+%% documentation and license.
+
+%% 1. DGgraph Prologue
+
+%%BeginPrologue
+%% DATA STRUCTURES:
+%%     word = [x, string1, format1, ..., stringS, formatS]
+%%     edge = [wmin, +/- wmax, label, height, dx, labelformat, arcformat, cent]
+%%     line = [w0 e0 x0 y0 maxht maxhb [cross1 cross2 ...]]
+%%     segment = [w1 w2 height edge1 ... edgeN]
+%%
+%% FORMATTING:
+%%		edge: color, linewidth, dash
+%%		label: color, bgcolor, roman/bold/italic/bolditalic
+%%		elabel: color, bgcolor, roman/bold/italic/bolditalic
+
+100 dict begin
+
+% Parameters
+/llx 20 def			% X-coordinate of lower left corner
+/lly 20 def			% Y-coordinate of lower left corner
+/urx 500 def 		% X-coordinate of lower left corner
+/ury 810 def		% Y-coordinate of lower left corner
+/titley 820 def		% Y-coordinate of title
+
+/LW 1 def			% line width
+/X 2 def			% Current X-coordinate
+/Y 0 def			% Current Y-coordinate
+
+/dO 5 def			% arrow displacement
+/dA 10 def			% unit height of arc
+/dAW 2.5 def		% arc head width
+/dAH 6 def			% arc head height
+/dAD 2 def			% arc displacement
+/dAloop1 dAW 2 mul def % arc loops: left displacement initial curve point
+/dAloop2 dAW 4 mul def % arc loops: left displacement first control point
+
+/dT 15 def 			% top edge label height
+/dB 18 def 			% bottom edge label height
+/dT0 3 def			% top edge label offset from bottom line
+/dB0 8 def			% bottom edge label offset from bottom line
+/dW 0 def			% word-word distance (fixed offset)
+/dWr 0.5 def		% word-word distance (relative offset wrt. font size)
+/dH 10 def			% unit height of single label line
+/dL 20 def			% vertical distance between entire lines
+/center false def	% center edge labels at the middle of each edge by default
+
+/strings 1 def		% number of strings in label
+/framegray -1 def	% gray level of frame around lines
+/bggray -1 def		% gray level of graph background
+/smallfont 7 def
+/textfont 10 def
+
+/charstroke smallfont 0.4 mul def
+/dy_lbl smallfont -0.3 mul def
+
+/nextw 0 def
+/nexte 0 def
+
+% Initialize
+LW setlinewidth
+
+% Functions
+/xdef {
+	exch def
+} def
+
+
+% max: num1 num2 => max
+/max {
+    dup 3 -1 roll dup 3 -1 roll lt {pop} {exch pop} ifelse
+} def
+
+
+% min: num1 num2 => min
+/min {
+    dup 3 -1 roll dup 3 -1 roll gt {pop} {exch pop} ifelse
+} def
+
+
+%% Font setup
+% Convert font to ISO-Latin1 encoded font
+/ISOfont % font ISOfont
+{   findfont
+    dup length dict begin
+       {1 index /FID ne {def} {pop pop} ifelse} forall
+       /Encoding ISOLatin1Encoding def
+       currentdict
+    end
+    definefont pop
+} def
+
+/setfontfamily {/fontfamily xdef} def
+/setfontsize {/fontsize xdef} def
+/setfontstyle {/fontstyle xdef} def
+/setarrowtype {/arrowtype xdef} def
+/font 7 string def
+/fontext 4 string def
+/setupfont
+    {   font 0 fontfamily 0 get putinterval
+        font 3 fontstyle 1 add 1000 mul fontsize cvi add
+        fontext cvs putinterval
+        currentdict font cvn known not
+            {   currentdict font cvn fontfamily fontstyle 1 add get
+                    findfont fontsize scalefont put
+            } if
+        font cvn cvx exec setfont
+    } def
+
+% setupfonts: iso? ext romanfont boldfont italicfont bolditalicfont
+/createfontfamily {
+	5 array astore exch					% fontfamily iso?
+	{	% Generate ISO encodings		% fontfamily
+		dup dup 1 get /Palatino-Roman-isolatin1 
+			dup 3 1 roll exch ISOfont 1 exch put
+		dup dup 2 get /Palatino-Bold-isolatin1 
+			dup 3 1 roll exch ISOfont 2 exch put
+		dup dup 3 get /Palatino-Italic-isolatin1 
+			dup 3 1 roll exch ISOfont 3 exch put
+		dup dup 4 get /Palatino-BoldItalic-isolatin1 
+			dup 3 1 roll exch ISOfont 4 exch put
+	} if
+} def
+
+% qsort: array cmp_proc => sorted
+/qsort {
+	1 index length 0 exch 							% array cmp 0 n
+	qsortx pop
+} def
+
+
+% qsortx: array cmp_proc start stop => subsorted cmp
+/qsortx {										
+	% Subarray is sorted if r-l < 2
+	2 copy 2 sub gt {								% array cmp l r
+		% Subarray is sorted
+		pop pop										% array cmp
+	} {												% array cmp l r
+		% Find pivot value and exit if -1
+		findpivot									% array cmp l r ipivot
+		dup -1 eq {
+			% All values in array are identical, hence sorted
+			pop pop pop								% array cmp
+		} {
+			% Find pivot value
+			4 index exch get 3 1 roll				% array cmp ap l r
+			2 copy 7 2 roll 1 sub					% l r array cmp ap l1 r1
+									
+			% Split subarray into two around pivot
+			{	% Move left cursor over any elements < pivot
+				exch								% array cmp ap r1 l1
+				{	
+					dup 5 index exch get 3 index	% array cmp ap r1 l1 al1 ap
+					5 index exec 					% array cmp ap r1 l1 <=>
+					-1 eq {1 add} {exit} ifelse		% array cmp ap r1 l1
+				} loop
+				exch
+
+				% Move right cursor over any elements >= pivot
+				{	dup 5 index exch get 3 index	% array cmp ap l1 r1 v ap
+					5 index exec 					% array cmp ap l1 r1 <=>
+					-1 gt {1 sub} {exit} ifelse		% array cmp ap l1 r1
+				} loop
+
+				% Exit if l > r
+				2 copy gt {exit} if					% array cmp ap l1 r1
+
+				% Switch elements pointed to by l and r, and repeat
+				2 copy 6 index 3 1 roll switch		% array cmp pivot l1 r1
+			} loop
+			3 -1 roll pop pop 						% l r array cmp k
+
+			% Sort two subarrays recursively
+			5 -1 roll exch dup 6 1 roll				% k r array cmp l k
+			qsortx									% k r array cmp
+			4 2 roll qsortx							% array cmp
+		} ifelse
+	} ifelse
+} def
+
+
+% findpivot: array cmp l r => array cmp l r pi (array must have length>1)
+/findpivot {
+	% Find middle index and value
+	2 copy add 1 sub 2 idiv							% A cmp l r m
+	4 index 1 index get								% A cmp l r m am
+
+	% For i:=m to m+(r-l), until am != ai
+	1 index 1 1 index 5 index add 6 index sub 1 sub
+													% A cmp l r m am m+1 1 m+r-l
+	{ 												% A cmp l r m am i
+		% Subtract r-l if i>=r
+		dup 4 index ge {
+			4 index add 3 index sub					
+		} if										% A cmp l r m am i
+
+		% Exit if am != ai
+		dup 7 index	exch get 2 index				% A cmp l r m am i ai am
+		7 index exec dup 0 ne {						% A cmp l r m am i <=>
+			1 eq {									% A cmp l r m am i
+				% Return i := i and set m := -1
+				3 -1 roll pop -1 3 1 roll 			% A cmp l r -1 am i
+				exit
+			} {										% A cmp l r m am i
+				% Return i := m and set m := -1
+				pop -1 3 1 roll exch				% A cmp l r -1 am m
+				exit
+			} ifelse
+		} {
+			pop pop									% A cmp l r m am
+		} ifelse
+	} for
+
+	% This procedure returns: "A cmp l r -1 am i" OR "A cmp l r m am"
+
+	% Return -1 if m != -1, else i
+	2 index -1 eq {									% A cmp l r -1 am i
+		3 1 roll pop pop 							% A cmp l r i
+	} {												% A cmp l r m am
+		pop pop -1									% A cmp l r -1
+	} ifelse
+} def
+
+
+% switch: array i j => -
+/switch {
+	2 index 2 index	get								% A i j ai
+	3 index 2 index get								% A i j ai aj
+	4 index	exch 6 1 roll 3 1 roll					% aj A i A j ai
+	put 											% aj A i
+	3 -1 roll put
+} def
+
+
+% intcmp: a b => sign(a-b)
+/intcmp {
+    2 copy lt {
+        pop pop -1
+    } {
+        eq {0} {1} ifelse
+    } ifelse
+} def
+
+% format: format procedure type => -
+/format {
+	% Process format type (0=word, 1=arclabel, 2=arc)
+	pop 
+	
+	% Save graphical state (including fonts)
+	gsave
+	/oldfontstyle fontstyle def
+	/oldfontsize fontsize def
+	/oldfontfamily fontfamily def
+	/oldarrowtype arrowtype def
+	exch
+
+	% Change format, if unequal to last format and in 0...formats
+	dup 0 ge							% format bool
+	1 index formats length le and		% format bool
+	{
+		% Retrieve format
+		dup 0 eq {
+			% Format = 0: do nothing
+			pop
+		} {
+			% Format > 0: execute formatting commands
+			formats exch 1 sub get exec
+		} ifelse
+	} {
+		pop
+	} ifelse
+
+	% Execute procedure
+	exec
+
+	% Restore graphics state and font
+	grestore
+	oldarrowtype setarrowtype
+	fontstyle oldfontstyle ne 
+		fontsize oldfontsize ne or
+		fontfamily oldfontfamily ne or
+	{
+		oldfontfamily setfontfamily 
+		oldfontsize	setfontsize 
+		oldfontstyle setfontstyle
+		setupfont	
+	} if
+} def
+
+% Arrows 
+/arrowlbl % xi y0 xo dy lbl				
+{	5 1 roll						% lbl xi y0 xo dy
+	dA mul 2 index add 	 			% lbl x0 y0 x1 y1
+
+	% Draw centered label
+	5 -1 roll 						% x0 y0 x1 y1 lbl
+	4 index	3 index add 2 div		% x0 y0 x1 y1 lbl xc
+	2 index 5 index sub 0.75 mul 	% x0 y0 x1 y1 lbl xc yc'
+	5 index add						% x0 y0 x1 y1 lbl xc yc
+	moveto							% x0 y0 x1 y1 lbl
+									% (stringwidth: within scope of format)
+	dup stringwidth pop -2 div	 	% x0 y0 x1 y1 lbl -w/2
+	dy_lbl							% x0 y0 x1 y1 lbl -w/2 dy
+	rmoveto							% x0 y0 x1 y1 lbl
+
+	% Left displacement for with loops
+	4 index 3 index sub abs dO 1.05 mul lt {
+		dO neg 1.5 mul 0 rmoveto
+	} if
+
+	% Print outline first in white, then print the real thing
+	0 currentlinewidth eq {
+		pop
+	} {
+		gsave
+			dup 0 setlinecap [] 0 setdash true charpath charstroke 
+			setlinewidth 1 setgray stroke
+		grestore
+		show							% x0 y0 x1 y1
+	} ifelse
+
+	% Clean up stack
+	pop pop pop pop					% -
+} def
+
+
+/arrow % xi y0 xo dy 
+{	% Check for special case: xi = xo
+	3 index 2 index sub abs dO 1.05 mul lt {					% xi y0 xo dy
+		% Special case: xi = xo
+		dA mul 0.75 mul 2 index add 	 				% x0 y0 x1 y1
+		4 -1 roll 15 sub 4 1 roll
+		matrix currentmatrix				% x0 y0 x1 y1 M
+		4 index 3 index add 2 div 4 index	% x0 y0 x1 y1 M xc y0
+		translate							% x0 y0 x1 y1 M
+		4 index 3 index sub 2 div abs 		% x0 y0 x1 y1 M xr
+		4 index 3 index sub					% x0 y0 x1 y1 M xr yr
+		scale								% x0 y0 x1 y1 M
+		newpath
+		0 0 1 180 360 arc						% x0 y0 x1 y1 M
+		setmatrix
+		currentlinewidth 0 eq 
+			{newpath} {stroke} ifelse		% x0 y0 x1 y1
+	} {										% xi y0 xo dy
+		% Normal case: xi != xo
+		dA mul 2 index add 	 				% x0 y0 x1 y1
+
+		% Draw arrow curve from x1 to x0
+		4 copy 								% ... x0 y0 x1 y1
+		exch 2 copy							% ... x0 y0 y1 x1 y1 x1
+		5 index 5 1 roll 5 index			% ... x0 y0 x0 y1 x1 y1 x1 y0
+		8 -2 roll moveto					% ... x0 y1 x1 y1 x1 y0
+		curveto								% ...
+		currentlinewidth 0 eq 
+			{newpath} {stroke} ifelse		% x0 y0 x1 y1
+	} ifelse
+
+	% Draw arrow-head
+	2 index	gt {-1} {1} ifelse dAH mul	% x0 y0 x1 dh
+	3 1 roll exch						% x0 dh x1 y0
+	moveto dAW 0 rmoveto				% x0 dh
+	dAW -2 mul 0 rlineto
+	dAW exch rlineto pop				% 
+	closepath 
+	currentlinewidth 0 eq
+		{newpath} {fill} ifelse		
+} def 
+
+
+% word: s1 [format1] ... sS [formatS] => [w, s1, format1, ... sS, formatS]
+/word {
+	% Create array
+	strings 2 mul 1 add array			% s1... W
+	strings -1 1 {						% s1... W I
+		% Extract label and format
+		2 index type /integertype eq {	% s1... sI formatI W I
+			4 2 roll					% s1... W I sI formatI
+		} {								% s1... sI W I
+			3 -1 roll 0					% s1... W I sI formatI
+		} ifelse						% s1... W I sI formatI
+
+		% Save label and format
+		3 index 3 index 2 mul 3 -1 roll % s1... W I sI W 2I formatI
+		put								% s1... W I sI
+		2 index	2 index 2 mul 1 sub 	% s1... W I sI W 2I-1
+		3 -1 roll 						% s1... W I W 2I-1 sI
+		put pop							% s1... W
+	} for								% W
+
+	% Find maximal width of all strings and store in widths array
+	0 1 1 strings { 					% W wmax I
+		2 index exch 2 mul dup 1 sub 2 index exch get 3 1 roll get 
+										% W wmax sI formatI
+		{stringwidth} 0 format			%
+		pop				 				% W wmax swidth
+		max								% W wmax 
+	} for								% W wmax
+	widths nextw 3 -1 roll put			% W
+	dup 0 0 put							% W
+
+	% Store word
+	currentdict /words known {words nextw 3 -1 roll put} if
+	/nextw nextw 1 add def
+} def
+
+% newedge: imin imax label [lblformat [arcformat]] => edge
+/newedge {
+	% Ensure formats are specified
+	dup type /stringtype eq {			% imin imax label
+		0 0								% imin imax label lfmt afmt
+	} {										
+		1 index type /stringtype eq {	% imin imax label lfmt
+			dup							% imin imax label lfmt afmt
+		} if							% imin imax label lfmt afmt
+	} ifelse							% imin imax label lfmt afmt
+	5 2 roll 							% lfmt afmt imin imax label
+
+	% Calculate wmin, wmax, label
+	3 1 roll 2 copy gt {exch neg} if 	% lfmt afmt label wmin wmax
+	3 -1 roll 0 1						% lfmt afmt wmin wmax label height dx
+	7 -2 roll							% wmin wmax label height dx lfmt afmt
+	center 8 array astore
+} def
+
+% edget: imin imax label [lblformat [arcformat]] => edge
+/edget {
+	% Create edge object
+	newedge
+
+	% Store edge
+	currentdict /edges known {edges nexte 3 -1 roll put} if
+	/nexte nexte 1 add def
+} def
+
+
+% edgeb: imin imax label [lblformat [arcformat]] => edge
+/edgeb {
+	% Create edge object
+	newedge
+	dup 4 -1 put
+
+	% Store edge
+	currentdict /edges known {edges nexte 3 -1 roll put} if
+	/nexte nexte 1 add def
+} def
+
+
+% xcenter: i => xcenter
+/xcenter {
+	% Unload word and compute xcenter
+	dup words exch get 0 get exch 		% x0 i
+    1 add dup words length eq           % x0 i1 bool
+        {pop X} 
+		{words exch get 0 get} ifelse   % x0 x1
+	%dW sub 
+	add 2 div							% xcenter
+} def
+
+% Segment data structure:
+%
+% 	segment = [w1-w2|height|wf1,wf2,...,wfN]
+%
+%		w1=start word
+%		w2=end word   (w2>w1)
+%		wfi=end word of edge w1-wfi with wfi>w1
+%		height=height of all edges between w1 and w2, excluding edges 
+%			wf1,...,wfN
+%
+% Segments are placed on a stack. Reductions:
+%
+%	1. [w1-w2|h1|E] + [w3-w4|h2|], w2>=w3 => [w1-w4|max(h1,h2)|E]
+%   2. [w1-w2|h|w2,E] => [w1-w2|h+1|E]
+%	3. [w1-w2|h1|E1] + ([w3-w4|h2|E2]), w1<=w3<=w2<w4 => [w1-w2|max(h1,h2)|E1]
+%		then reduce rest of stack with 1-3
+%	4. => [i-(i+1)|0|forward-edges(i)]
+
+% edge_heights: - => -
+%	s0 ... sN sign nextword nextedge N continue
+/edge_heights {
+	% Initialize
+	[ exch 0 0 0 							% [ sgn nw ne N 
+
+	% Reduce stack
+	edge_heights0							% [ s0 ... sN sgn nw ne N
+
+	% Empty stack
+	{pop} repeat pop pop pop pop
+} def
+
+
+/edge_heights0 {
+	% Reduce stack
+	{										% s0 ... sN sgn nw ne N
+		% Perform edge_height operations until one succeeds
+		edge_heights1
+		{true} {edge_heights2} ifelse
+		{true} {edge_heights3} ifelse
+		{true} {edge_heights4} ifelse
+
+		% Stop computation if no operation succeeded
+		not {exit} if
+	} loop									% s0 ... sN sgn nw ne N
+} def
+
+% edge_heights1: s0...sN sgn nw ne N => s0...sM sgn nw ne M cont
+/edge_heights1 {
+	% Check whether N>1 and top segment is completed
+	dup 2 lt {								% s0...sM sgn nw ne N
+		false								
+	} {
+		4 index length 3 eq {				% s0...sM sgn nw ne N 
+			% Top segment has no edges
+			true
+		} {									% s0...sM sgn nw ne N
+			% Succeed if top segment has an edge
+			4 index 3 get -1 eq 
+		} ifelse							% s0...sM sgn nw ne N cont
+	} ifelse
+
+	% Join two top segments if cont=true
+	{										% ...sM1 sM sgn nw ne N 
+		5 -1 roll dup						% ...sM1 sgn nw ne N sM sM
+		1 get exch 2 get					% ...sM1 sgn nw ne N sMw1 sMh
+		6 index	dup	dup 					% ... sMw1 sMh sM1 sM1 sM1
+
+		% Update maxh
+		2 get 4 -1 roll	max	2 exch put		% ... sMw1 sM1 
+
+		% Update w1
+		1 3 -1 roll put 1 sub true			% ... N1 true
+	} {false} ifelse
+} def
+
+% edge_heights2:
+/edge_heights2 {							% s0...sM sgn nw ne N
+	% Check that N > 0
+	dup 0 gt {
+		4 index length 3 gt {
+			% Top segment contains an edge
+			4 index 3 get -1 ne {
+				% Edge is undeleted
+				4 index dup dup					% ... sM sM sM
+				1 get exch 3 get				% ... sM w1 e
+				edges exch get 1 get abs		% ... sM w1 w1'
+				eq {							% ... sM
+					% Increase height
+					dup dup 					% ... sM sM sM
+					2 get 1 add 2 exch dup 		% ... sM sM 2 maxh maxh
+					4 1 roll put				% ... sM maxh
+
+					% Save height in edge
+					1 index 3 get 				% ... sM maxh e
+					edges exch get				% ... sM maxh edge
+					3 3 -1 roll 				% ... sM edge 3 maxh
+					7 index exec put			% ... sM
+
+					% Rotate edges
+					mark exch dup				% ... [ sM sM
+					aload pop					% ... [ sM w0 w1 maxh e1...eN
+					counttomark 4 sub -1 roll	% ... [ sM w0 w1 maxh e2...eN e1
+					pop -1 						% ... [ sM w0 w1 maxh e2...eN -1
+					counttomark -1 roll			% ... [ w0 w1 maxh e2...eN -1 sM
+					astore pop pop				% ...
+					true						% s0...sM sgn nw ne N true
+				} {
+					% w1 != w1'
+					pop false					% s0...sM sgn nw ne N false
+				} ifelse
+			} {
+				% Edge is deleted 
+				false
+			} ifelse
+		} {
+			% Top segment has no edges
+			false
+		} ifelse
+	} { 
+		false
+	} ifelse
+} def
+
+%	3. [w1-w2|h1|E1] + ([w3-w4|h2|E2]), w1<=w3<=w2<w4 => [w1-w4|max(h1,h2)|E1]
+%		then reduce rest of stack with 1-3
+% edge_heights3:
+/edge_heights3 {						% s1...sN sgn nw ne N 
+	% Check that N>1
+	dup 1 gt {
+		% Check that 2nd segment ends before 1st segment
+		5 index 5 index					% s1...sN sgn nw ne N sN1 sN
+		dup 1 get exch 2 get			% s1...sN sgn nw ne N sN1 sNw1 sNh
+		3 -1 roll 1 get					% s1...sN sgn nw ne N sNw1 sNh sN1w1
+		2 index ne {					% s1...sN sgn nw ne N sNw1 sNh
+			% Segments do not end in same place: combine sN-1 and sN
+			7 index dup 				% s1...sN sgn nw ne N sNw1 sNh sN1 sN1
+			1 5 -1 roll put				% s1...sN sgn nw ne N sNh sN1	
+			dup 2 get 3 -1 roll max		% s1...sN sgn nw ne N sN1 sN1h'
+			2 exch put					% s1...sN sgn nw ne N
+
+			% Pop off sN (store before bottom of stack)
+			5 -1 roll					% s1...sN1 sgn nw ne N sN
+			1 index 4 add 1 roll 1 sub	% sN s1...sN1 sgn nw ne N-1
+			
+			% Reduce stack
+			edge_heights0				% sN s1...sN' sgn nw ne N'
+
+			% Restore sN				% sN s1...sN1 sgn nw ne N-1
+			1 add dup 4 add -1 roll		% s1...sN1 sgn nw ne N sN
+			5 1 roll					% s1...sN sgn nw ne N
+
+			% Return true
+			true
+		} {
+			pop pop false
+		} ifelse
+	} { 
+		false
+	} ifelse
+} def
+
+% edge_heights4: s0...sN-1 sgn nw ne N => s0...sN sgn nw ne N cont
+/edge_heights4 {
+	% Check that we are not recursively reducing stack (ie, distance
+	% to mark is N+4)
+	counttomark 1 index 4 add eq {
+		% Check that nw does not exceed number of words
+		2 index words length lt {
+			% Read next word
+			mark 3 index dup 0				% sgn nw ne N [ w0 w1 0
+			7 index	6 index					% sgn nw ne N [ w0 w1 0 sgn ne
+
+			% Read edges starting at w0
+			{	% Exit if ne>#edges			% ... [...w0 w1 0 sgn ne
+				dup edges length ge {
+					exch pop exit			% ... [...w0 w1 0 ne
+				} if
+
+				% Read next edge, and exit if edge[ne].0 != w0
+				dup edges exch get dup 0 get% ... [...w0 w1 0 sgn ne e ew0
+				6 index eq {				% ... [...w0 w1 0 sgn ne e
+					4 get 2 index exec 0 gt{% ... [...w0 w1 0 sgn ne 
+						dup 6 1 roll 		% ... [...ne w0 w1 0 sgn ne
+					} if 
+					1 add					% ... [...ne w0 w1 0 ne+1
+				} {							% ... [...w0 w1 0 sgn ne e
+					pop exch pop exit		% ... [...w0 w1 0 ne 
+				} ifelse
+			} loop							% sgn nw* ne* N [e1...eM w0 w1 0 ne
+
+			% Close segment and update nw and ne
+			counttomark 1 add 1 roll		% sgn nw* ne* N ne [e1...eM w0 w1 0
+			counttomark 3 roll ]			% sgn nw* ne* N ne [w0 w1 0 e1...eM]
+			6 1 roll						% sN sgn nw* ne* N ne
+
+			3 1 roll 1 add exch pop			% sN sgn nw* ne N+1
+			3 -1 roll 1 add 3 1 roll true	% sN sgn nw ne N+1 true
+		} {
+			false							% sgn nw ne N false
+		} ifelse
+	} {
+		false
+	} ifelse
+} def
+
+% Edge displacement
+/edge_displace {
+	% wordt wordb word nemin nemax 
+	-1 -1 0 0 0
+
+	% Process each word
+	{	
+		% Exit if current word does not exist
+		2 index words length ge {				% wt wb w en ex
+			pop pop pop pop pop exit
+		} if
+		
+		% Update wordt and wordb for current word
+		5 -2 roll pop pop -1 -1 5 2 roll		% -1 -1 w en ex
+		1 index edges 0	3 -1 roll update_super	% wt wb w en ex
+		dup maxedges 1 3 -1 roll update_super	% wt wb w en ex
+
+		% Assign displacements to out-edges from w
+		exch edges 0 3 -1 roll displace exch	% wt wb w en' ex
+		maxedges 1 3 -1 roll displace			% wt wb w en ex'
+
+		% Increment word
+		3 -1 roll 1 add 3 1 roll				% wt wb w' en ex
+	} loop
+} def
+
+% displace: wt wb w * edges i e => wt wb w * e'
+/displace {
+	{	% Exit if e >= #E						
+		dup 3 index length ge {					% wt wb w * E i e
+			3 1 roll pop pop exit				% wt wb w * e
+		} if									% wt wb w * E i e
+
+		% Exit if E[e].i > w
+		2 index 1 index get						% wt wb w * E i e edge
+		dup 3 index get abs						% wt wb w * E i e edge wi
+		6 index gt {							% wt wb w * E i e edge
+			pop 3 1 roll pop pop exit			% wt wb w * e
+		} if									% wt wb w * E i e edge
+		
+		% Check that edge points to w
+		dup ioword 								% wt wb w * E i e edge wi wo
+		7 index eq {							% wt wb w * E i e edge wi
+			% Check top/bottom edge
+			1 index 3 get 0 gt {				% wt wb w * E i e edge wi
+				% Top edge
+				8 index
+			} {
+				% Bottom edge
+				7 index
+			} ifelse							% ... edge wi wtb
+
+			% Assign offset
+			dup -1 eq {							% ... edge wi wtb
+				% No in-edge for w 
+				pop pop 4 0 put					% ...
+			} {	
+				% w has in-edge from wtb (-1 = sign if in-between wtb and w)
+				7 index -1						% ... edge wi wtb w sgn
+
+				% Order wtb<w, inverting sign if necessary
+				2 index 2 index gt {			% ... edge wi wtb w sgn
+					% wtb > w
+					neg exch 3 1 roll			% ... edge wi w wtb -sgn
+				} if							% ... edge wi w1 w2 sgn
+				4 1 roll						% ... edge sgn wi w1 w2
+
+				% Check whether wi is between w1 and w2
+				2 index gt 3 1 roll gt and not {% ... edge sgn
+					% Not in-between: negate sign
+					neg
+				} if
+
+				% Store sign
+				4 exch put						% ...
+			} ifelse
+		} {										% wt wb w * E i e edge wi
+			pop pop								% wt wb w * E i e
+		} ifelse
+
+		% Increment e
+		1 add
+	} loop
+} def
+
+% update_super: wt wb w en ex edges i e => wt wb w en ex
+/update_super {									% wt wb w en ex edges i e
+	% Look forward in E to update wordt and wordb
+	{	
+		% Exit if e >= #E						% wt wb w en ex E i e
+		dup 3 index length ge {					% wt wb w en ex E i e
+			pop pop pop exit					% wt wb w en ex
+		} if									% wt wb w en ex E i e
+
+		% Exit if E[e].i > w
+		2 index 1 index get						% wt wb w en ex E i e edge
+		dup 3 index get 						% wt wb w en ex E i e edge wi
+		7 index gt {							% wt wb w en ex E i e edge
+			pop pop pop pop exit				% wt wb w en ex
+		} if									% wt wb w en ex E i e edge
+		
+		% Check that in-word = w
+		dup ioword exch							% wt wb w en ex E i e edge wo wi
+		8 index eq {							% wt wb w en ex E i e edge wo
+			% Update wt and wb
+			exch 3 get							% wt wb w en ex E i e wo h
+			0 gt {								% wt wb w en ex E i e wo
+				% Replace wt with wo
+				9 -1 roll pop 8 1 roll			% wo wb w en ex E i e
+			} {
+				% Replace wb with wo
+				8 -1 roll pop 7 1 roll			% wt wo w en ex E i e
+			} ifelse
+		} {
+			pop pop
+		} ifelse								% wt wb w en ex E i e
+
+		% Increase edge
+		1 add									% wt wb w en ex E i e+1
+	} loop										% 
+} def 
+
+% edge => in out
+/ioword {										% edge
+	dup 0 get exch 1 get 						% w0 w1
+	dup 0 lt {									% w0 w1
+		abs exch 								% wi wo
+	} {
+		abs 									% wi wo
+	} ifelse
+} def
+
+
+% split_lines: - => -
+/split_lines {
+	% Process words (w0 x0): split words into lines until no words left
+	split_words
+
+	% Process edges (e0 maxht maxhb cross): compute edge boundaries,
+	% maximal heights and cross edges
+	split_edges
+
+	% Place lines on pages (y0)
+	split_pages
+} def
+
+% split_words: - => -
+/split_words {
+	/lines [
+	urx llx sub 0 0 1 							% maxw x0 i0 i
+	{	% Read lines until no words left (ie, i0>=#words)
+		1 index words length ge {				% maxw x0 i0 i
+			pop pop pop pop 
+			exit
+		} if
+
+		% Create next line object				% maxw x0 i0 i
+		[2 index 0 5 index 0 0 0 0] 5 1 roll	% line maxw x0 i0 i
+
+		% Read next line
+		{	% Read mw width words				% maxw x0 i0 i 
+			dup xpos dup %dW 2 div sub 			% maxw x0 i0 i xi xi
+			4 index sub							% maxw x0 i0 i xi width
+
+			% Exit if width > maxwidth or i>#W
+			5 index gt 							% maxw x0 i0 i xi bool
+			2 index newline or					% maxw x0 i0 i xi bool
+			2 index words length ge or {		% maxw x0 i0 i xi 
+				exch 4 2 roll pop pop dup 1 add	% maxw xi i i+1
+				exit
+			} if								% maxw x0 i0 i xi
+
+			% Increment i
+			pop	1 add							% maxw x0 i0 i
+		} loop
+	} loop										% 
+	[words length edges length X 0 0 0 0]
+	] def
+} def
+
+/split_edges {
+	% Process edges: compute e0, maxht, maxhb and cross-edges
+	0 [] 										% e0 cross
+	0 1 lines length 2 sub {					% e0 C il
+
+		% Initialize parameters
+		dup 1 add lines exch get 0 get exch		% e0 C w1 il
+		lines exch get 0 0 						% e0 C w1 L hmn hmx
+		2 index [ 8 2 roll						% L [ e0 C w1 L hmn hmx
+
+		% Copy edges in C with e.wmax>=w1
+		4 index {								% .. e0 C w1 L hmn hmx e 
+
+			% Add cross-edge to new cross-edges, if necessary
+			dup edges exch get 1 get abs		% .. e0 C w1 L hmn hmx e e.wmax
+			5 index ge {						% .. e0 C w1 L hmn hmx e
+				dup 8 1 roll					% .. e e0 C w1 L hmn hmx e 
+			} if								% .. e e0 C w1 L hmn hmx e
+
+			% Update hmn and hmx
+			edges exch get 3 get				% .. e0 C w1 L hmn hmx h
+			dup 4 -1 roll min 3 1 roll max		% .. e0 C w1 L hmn' hmx'
+		} forall								% [ ... e0 C w1 L hmn hmx
+
+		% Process edges until e0.min>w1
+		{
+			% Exit if e0>=#edges				% ... e0 C w1 L hmn hmx
+			5 index edges length ge {
+				exit							% ... e0 C w1 L hmn hmx
+			} if
+
+			% Exit if e0.min>w1
+			5 index edges exch get 0 get 		% ... e0 C w1 L hmn hmx e0.min
+			4 index ge {						% ... e0 C w1 L hmn hmx
+				exit							% ... e0 C w1 L hmn hmx
+			} if
+
+			% Add e0 to cross-edges if e0.wmax>=w1
+			5 index edges exch get				% ... e0 C w1 L hmn hmx edge
+			dup 1 get abs 5 index ge {			% ... e0 C w1 L hmn hmx edge
+				6 index 7 1 roll				% ... e0 e0 C w1 L hmn hmx edge
+			} if
+
+			% Update hmn and hmx
+			3 get dup 4 -1 roll min				% ... e0 C w1 L hmx h hmn'
+			3 1 roll max						% ... e0 C w1 L hmn' hmx'
+
+			% Increase e0
+			6 -1 roll 1 add 6 1 roll			% ... e1
+		} loop									% L [ ... e0 C w1 L hmn hmx
+
+		% Update line L
+		2 index 4 3 -1 roll put					% L [ ... e0 C w1 L hmn 
+		1 index 5 3 -1 roll abs put				% L [ ... e0 C w1 L 
+		3 1 roll pop pop 						% L [ ... e0 L
+		1 2 index put							% L [ ... e0
+		counttomark 1 add 1 roll ]				% L e0 [ ... ]
+		2 index 6 2 index put 					% L e0 C1
+		3 -1 roll 1 3 index put					% e0 C1
+	} for										% e0 C1
+	pop pop
+} def
+
+% split_pages: - => -
+/split_pages {
+	% Process lines
+	ury lly sub 0 								% ymax y
+	0 1 lines length 2 sub {					% ymax y l
+		lines exch get							% ymax y L
+
+		% Compute line height = (ht+hb)*dA + S*dH + dB + dT
+		dup line_height							% ymax y L height
+
+		% Reset y to 0 if y+height>ymax
+		3 index 3 index 2 index add lt {		% ymax y L height
+			3 -1 roll pop 0 3 1 roll			% ymax 0 L height
+		} if
+
+		% Set line height to y and update y += height + dL
+		exch 3 3 index put						% ymax y height
+		add dL add								% ymax y
+	} for
+	pop pop
+} def
+
+% line_height: Line => height
+/line_height {
+	dup 4 get exch 5 get add dA mul			% (ht+hb)*dA
+	strings dH mul add dB add dT add		% (ht+hb)*dA + S*dH + dB + dT
+} def
+
+% xpos: iword => xpos
+/xpos {
+	dup words length ge {						% i
+		% Return X if i>=#Words
+		pop X
+	} {											% i
+		words exch get 0 get
+	} ifelse
+} def
+
+/newline {								% i
+	1 sub
+	dup words length ge 1 index 0 lt or {
+		pop false
+	} {
+		words exch get 1 get (\n) eq 
+	} ifelse
+} def
+
+% print_word: L dx y0 w => L dx y0
+/print_word { 							% L dx y0 i
+	% Compute ypos = y0-(maxht*dA)-dT
+	1 index 							% L dx y0 i y0
+	4 index 4 get dA mul sub dT sub		% L dx y0 i y
+	
+	% Compute xcenter
+	1 index xcenter						% L dx y0 i y xc
+	4 index add exch					% L dx y0 i xc y
+
+	% Save xcenter and y in /xwords and /ywords arrays
+	xwords nword 3 index put
+	ywords nword 2 index put
+
+	% Print label l around (xc,y-(l+1)*dH)
+	3 -1 roll words exch get			% L dx y0 xc y W
+	1 1 strings {						% L dx y0 xc y W i
+		3 -1 roll dH sub 3 1 roll		% L dx y0 xc y' W i
+		2 copy 2 mul get 3 1 roll		% L dx y0 xc y' format W i 
+		1 index exch 2 mul 1 sub get 	% L dx y0 xc y' format W str
+		dup 3 index 
+										% L dx y0 xc y' format W str str format
+		{stringwidth} 0 format			% L dx y0 xc y' format W str w 0
+		pop 2 div neg					% L dx y0 xc y' format W str -w/2
+		5 index add 4 index moveto		% L dx y0 xc y' format W str 
+		3 -1 roll 						% L dx y0 xc y' W str format
+		{show} 0 format 				% L dx y0 xc y' W
+	} for
+	pop pop pop							% L dx y0 
+
+	% Increment nwords
+	/nword nword 1 add def
+} def
+
+% print_edge: L dx y0 e => L dx y0
+/print_edge {
+	% Retrieve edge 
+	edges exch get 1 index						% cnt L dx y0 E y
+	1 index 7 get true eq 6 1 roll
+
+	% Calculate y and yl for label
+	4 index 4 get dA mul sub					% cnt L dx y0 E y'
+	1 index 3 get 0 ge {
+		% Top edge
+		dup dT sub dT0 add						% cnt L dx y0 E y yl
+	} { 
+		% Bottom edge
+		dT sub strings dH mul sub dB sub		% cnt L dx y0 E y
+		dup dB0 add								% cnt L dx y0 E y yl
+	} ifelse
+
+	% Compute xcenters
+	2 index ioword								% cnt L dx y0 E y yl wi wo
+	xcenter 6 index add 						% cnt L dx y0 E y yl wi xo
+	exch xcenter 6 index add					% cnt L dx y0 E y yl xo xi
+
+	% Print label above in-word
+	dup 4 -1 roll moveto						% cnt L dx y0 E y xo xi
+	7 index not {
+		3 index 2 get 							% cnt L dx y0 E y xo xi lbl
+		dup 5 index 5 get
+		{stringwidth} 0 format 
+		pop -2 div 0 rmoveto	% cnt L dx y0 E y xo xi lbl
+		4 index 5 get {
+			currentlinewidth 0 eq 
+				{pop} {show} ifelse
+		} 1 format 								% cnt L dx y0 E y xo xi
+	} if
+
+	% Print arrow
+	exch 3 index 4 get dO mul add 3 1 roll		% cnt L dx y0 E xo' y xi
+	3 index 3 get		 						% cnt L dx y0 E xo y xi h
+	4 copy										% ... E xo y xi h xo y xi h
+	8 index 6 get {arrow} 2 format				% cnt L dx y0 E xo y xi h
+
+	% Print centered label
+	8 index {
+		4 index 2 get 							% cnt L dx y0 E xo y xi h lbl
+		5 index 5 get {arrowlbl} 1 format		% cnt L dx y0 E
+	} {
+		pop pop pop pop							% cnt L dx y0 E
+	} ifelse
+
+	% Clean up stack
+	pop	4 -1 roll pop							% L dx y0
+} def
+
+% sort_edges: - => -
+/sort_edges {
+	% Sort edges, ordered by minimal word
+	edges {									% edge1 edge2 
+		2 copy								% edge1 edge2 edge1 edge2
+		0 get exch 0 get exch intcmp dup	% edge1 edge2 cmp cmp
+		0 ne {								% edge1 edge2 cmp
+			3 1 roll pop pop				% cmp
+		} {									% edge1 edge2 cmp
+			pop 							% edge1 edge2
+			1 get abs exch 1 get abs exch	% wmax1 wmax2
+			intcmp							% cmp2
+		} ifelse
+	} qsort pop
+
+	% Sort edges, ordered by maximal word
+	/maxedges edges edges length array copy def
+	maxedges {
+		2 copy
+		1 get abs exch 1 get abs exch intcmp dup
+		0 ne {
+			3 1 roll pop pop
+		} {
+			pop 
+			0 get exch 0 get exch
+			intcmp
+		} ifelse
+	} qsort pop
+} def
+
+% Compute which edges must have a centered label (ie, when the edge's
+% in-node has more than one in-coming edge at the bottom/top
+% respectively)
+/center_edge_label {
+	% Create arrays that encode the number of in-coming top/bottom
+	% edges for each node
+	words length array 				% tin
+	words length array 				% tin bin
+	0 1 words length 1 sub {		% tin bin i
+		dup 3 index exch 0			% tin bin i tin i 0 
+		put							% tin bin i
+		1 index exch 0				% tin bin bin i 0
+		put							% tin bin
+	} for							% tin bin
+
+	% Set edge font
+	smallfont setfontsize setupfont
+
+	% Record each edge in tin and bin
+	edges {							% tin bin edge
+		% Record number of incoming edges for each node at top and bottom
+		edgein						% tin bin in top?
+		%1 index 5 1 roll			% tin bin in top?  %%%SUPERFLUOUS?!!
+		{	dup 3 index exch get	% tin bin in count
+			1 add					% tin bin in count+1
+			3 index 3 1 roll put	% tin bin
+		} {							% tin bin in
+			dup 2 index exch get	% tin bin in count
+			1 add					% tin bin in count+1
+			2 index 3 1 roll put	% tin bin
+		} ifelse					% tin bin
+	} forall						% tin bin
+
+	% Update each edge according to tin and bin
+	edges {							% tin bin edge
+		dup edgein 					% tin bin edge in top? 
+		{							% tin bin edge in
+			3 index exch get 1 gt {	% tin bin edge 
+				dup 7 true put
+			} if
+		} {
+			2 index exch get 1 gt {
+				dup 7 true put
+			} if
+		} ifelse					% tin bin edge
+		pop	
+	} forall						% tin bin
+
+	% Record edge label widths in widths
+	edges {							% tin bin edge
+		dup edgein pop 				% tin bin edge in
+		1 index 7 get not {			% tin bin edge in
+			exch dup 2 get			% tin bin in edge lbl
+			exch 5 get {stringwidth} 0 format
+			pop						% tin bin in w
+			widths dup 3 index get	% tin bin in w widths wmax
+			3 -1 roll pop %max			% tin bin in widths wmax'
+			exch 3 1 roll put		% tin bin
+		} {
+			pop pop					% tin bin
+		} ifelse
+	} forall
+
+	% Clean up stack
+	pop pop
+
+	% Compute string widths
+	/X 0 def
+	widths words
+	0 1 words length 1 sub {		% widths words i
+		dup 3 index exch get		% widths words i wl
+		exch 2 index exch get		% widths words wl word
+		dup 0 get					% widths words wl word w
+		3 -1 roll max				% widths words word wmax
+
+		1 index						% widths words word wmax word
+		0 X put						% widths words word wmax
+
+		exch 2 get					% widths words wmax format
+		{fontsize} 0 format			% widths words wmax fontsize
+		dWr mul /dWline xdef 
+		%exch pop					% widths words wmax
+		X add dWline add /X exch def	% widths words word
+	} for
+	/X X dWline sub def
+
+	% Clean up stack
+	pop pop
+} def
+
+/edgein % edge => in-node top? 
+{	% Find in-node
+	dup 1 get dup 0 lt {			% edge +/- wmax
+		abs 
+	} {
+		pop dup 0 get	
+	} ifelse						% edge in
+
+	% Find top/bottom
+	exch 4 get 0 gt
+} def 
+
+% Layout words
+/layout_arcs {
+	% 1. Sort edges according to minimum and maximum word
+	sort_edges 
+
+	% 2. Compute edge label centering and word widths
+	center_edge_label
+
+	% 3. Compute edge heights for top and bottom edges
+	{   } edge_heights
+	{neg} edge_heights
+
+	% 4. Compute edge displacements for top and bottom edges
+	0 1 edges length 1 sub {
+		edges exch get 4 0 put
+	} for
+	edge_displace
+
+	% 5. compute /lines array 
+	split_lines
+} def
+
+% print_line: iline => -
+/print_line {								% l
+	% Compute line height
+	dup lines exch get 						% l L
+	dup line_height							% l L height
+
+	% Compute x0, y0, width and height
+	1 index 2 get							% l L h x0
+	dup 4 index 1 add lines exch get 2 get	% l L h x0 x0 x1
+	exch sub 3 1 roll llx exch sub			% l L w h dx
+	3 index 3 get ury exch sub				% l L w h dx y0
+	
+	% NOTE: abstract coordinates are translated (x,y) => (x+dx, y0-y)
+
+	% Setup clipping path
+	gsave 
+	newpath llx 1 index moveto 3 index 0 rlineto
+	0 3 index neg rlineto 3 index neg 0 rlineto 
+	closepath 
+	bggray 0 lt not {
+		gsave bggray setgray fill grestore
+	} if
+	clip									% l L w h dx y0
+	framegray 0 lt not {
+		gsave framegray setgray stroke grestore 
+	} if
+	newpath
+	4 2 roll pop pop						% l L dx y0
+
+	% Draw word L[l].w0 to L[l+1].w0-1
+	textfont setfontsize setupfont
+	2 index 0 get 1							% l L dx y0 w0 1
+	5 index 1 add lines exch get 0 get 1 sub% l L dx y0 w0 1 w1-1
+	{										% l L dx y0 w
+		print_word							% l L dx y0
+	} for
+
+	% Draw edges in L[l-1].cross
+	smallfont setfontsize setupfont
+	3 index 0 eq {
+		[]									% l L dx y0 cross
+	} {
+		3 index 1 sub lines exch get 6 get	% l L dx y0 cross
+	} ifelse
+	{	print_edge							% l L dx y0
+	} forall
+
+	% Draw edge L[l-1].e0 to L[l].e0-1
+	3 index 0 eq {
+		0									% l L dx y0 e0
+	} {
+		3 index 1 sub lines exch get 1 get	% l L dx y0 e0
+	} ifelse
+	1 4 index 1 get 1 sub {					% l L dx y0 e
+		print_edge							% l L dx y0
+	} for									% l L dx y0
+
+	% Restore clipping path and exit
+	grestore
+	pop pop pop pop
+} def
+
+% print_lines: 
+/print_lines {
+	0 1 lines length 2 sub {				% l
+		% Print line
+		dup print_line						% l
+
+		% Execute showpage if next line has y = 0 
+		1 add lines exch get 3 get 0 eq		% bool
+		{	% Draw alignments (quick-and-dirty fix)
+			alignments {
+				aload pop align
+			} forall
+
+			% Show page
+			showpage
+		} if
+	} for
+} def
+
+% draw: - => -
+/draw {
+	currentdict /title known {llx titley moveto title {show} 0 format} if
+	layout_arcs
+	print_lines
+} def
+
+% setup: labels words edges => -
+/setup {
+	array /edges exch def
+	dup array /words exch def
+	array /widths exch def
+	/nextw 0 def
+	/nexte 0 def
+	/strings exch def
+
+	% Store (xc,ytop) coordinates for each word
+	/xwords words length array def
+	/ywords words length array def
+	/nword 0 def
+	/alignments [] def
+} def	
+
+% Initialize fonts
+true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic 
+createfontfamily setfontfamily 
+10 setfontsize 
+0 setfontstyle
+0 setarrowtype
+setupfont
+
+%% Alignments
+
+% align: aligntop alignbot => -
+/align {
+	% Draw alignbot							% aligntop alignbot
+	dup type (arraytype) ne {
+		% alignbot is a word index
+		xyword moveto
+	} {
+		% alignbot is an array
+		dup dup xmid exch 0 get xyword		% L xmid x[0] y[0]
+		dA add exch pop 3 2 roll		% xc yc L
+		{									% xc yc i
+			xyword moveto					% xc yc xi yi
+			2 copy lineto 					% xc yc
+		} forall							% xc yc
+		moveto								%
+	} ifelse								
+	
+	% Draw aligntop							% aligntop
+	dup type (arraytype) ne {
+		% aligntop is a word index
+		xyword topadjust lineto
+	} {
+		% aligntop is an array
+		dup dup xmid exch 0 get xyword		% L xmid x[0] y[0]
+		topadjust dA sub exch pop 		% L xc yc
+		2 copy lineto 3 2 roll				% xc yc L
+		{									% xc yc i
+			xyword topadjust moveto					% xc yc xi yi
+			2 copy lineto 					% xc yc
+		} forall							% xc yc
+		pop pop
+	} ifelse
+
+	% Stroke
+	gsave 
+		currentlinewidth 5 mul setlinewidth
+		1 setgray
+		stroke
+	grestore
+	stroke
+} def
+
+% topadjust: 
+/topadjust {strings dH mul sub 4 sub} def 
+
+% xyword: word => x y
+/xyword {
+	dup xwords exch get
+	exch ywords exch get
+} def
+
+% xmid: wordlist => xmid ymid
+/xmid {
+	dup 0 get xwords exch get	% L xmin
+	exch dup length 1 sub get	% xmin imax
+	xwords exch get				% xmin xmax
+	add 2 div					% xmid
+} def
+
+% formats: dummy formats list
+/formats [] def
+
+%%EndPrologue
+
+%% 2. Graph specification
+
+% General setup
+/dA 5 def /dW 0 def /dWr 0 def
+
+% Graph setup
+/title {( )  11} def
+
+4 187 201 setup
+/formats [
+	{0.8 setgray 4 setfontsize setupfont}
+	{0.8 setgray}
+	{0.8 setgray 3 setfontsize setupfont}
+	{0.8 setgray 4 setfontsize setupfont 0 0 1 setrgbcolor 1 setfontstyle setupfont}
+	{0.8 setgray 4 setfontsize setupfont 0 setgray 10 setfontsize setupfont}
+	{0.8 setgray 0 setgray}
+	{0.8 setgray 3 setfontsize setupfont 8 setfontsize setupfont 0 setgray}
+	{0.8 setgray 4 setfontsize setupfont 0 setgray 10 setfontsize setupfont 1 0 0 setrgbcolor 1 setfontstyle setupfont}
+	{0.8 setgray 3 setfontsize setupfont 8 setfontsize setupfont 0 setgray 1 0 0 setrgbcolor 1 setfontstyle setupfont}
+	{0.8 setgray 3 setfontsize setupfont 1 0 0 setrgbcolor 1 setfontstyle setupfont}
+	{1 setfontstyle setupfont}
+] def
+
+% Words and edges
+(Danmarks) 1 (NP) 1 (Denmark's) 1 (43) 1 word
+0 4 (subj) 3 2 edget
+0 20 ([subj]) 3 2 edgeb
+(holdning) 1 (NC) 1 (attitude) 1 (44) 1 word
+1 0 (possd) 3 2 edget
+(til) 1 (SP) 1 (towards) 1 (45) 1 word
+2 1 (pobj) 3 2 edget
+(Kina) 1 (NP) 1 (China) 1 (46) 1 word
+3 2 (nobj) 3 2 edget
+(har) 4 (VA) 4 (has_been) 4 (47) 4 word
+(siden) 1 (SP) 1 (since) 1 (48) 1 word
+5 4 (mod) 3 2 edget
+(den) 1 (PD) 1 (the) 1 (49) 1 word
+6 5 (nobj) 3 2 edget
+(dramatiske) 1 (AN) 1 (dramatic) 1 (50) 1 word
+7 6 (mod) 3 2 edget
+(nedkæmpning) 1 (NC) 1 (suppression) 1 (51) 1 word
+8 6 (nobj) 3 2 edget
+(af) 1 (SP) 1 (of) 1 (52) 1 word
+9 8 (pobj) 3 2 edget
+(det) 1 (PD) 1 (the) 1 (53) 1 word
+10 9 (nobj) 3 2 edget
+(pro-demokratiske) 1 (AN) 1 (pro-democratic) 1 (54) 1 word
+11 10 (mod) 3 2 edget
+(studenteroprør) 1 (NC) 1 (student_uprising) 1 (55) 1 word
+12 10 (nobj) 3 2 edget
+(på) 1 (SP) 1 (at) 1 (56) 1 word
+13 10 (mod) 3 2 edget
+(Den) 1 (PD) 1 (the) 1 (57) 1 word
+14 13 (nobj) 3 2 edget
+(Himmelske) 1 (AN) 1 (heavenly) 1 (58) 1 word
+15 14 (mod) 3 2 edget
+(Freds) 1 (NC) 1 (the_peace) 1 (59) 1 word
+16 14 (nobj) 3 2 edget
+(Plads) 1 (NC) 1 (seats) 1 (60) 1 word
+17 14 (possd) 3 2 edget
+(i) 1 (SP) 1 (in) 1 (61) 1 word
+18 10 (mod) 3 2 edget
+(1989) 1 (AC) 1 (1989,) 1 (62) 1 word
+19 18 (nobj) 3 2 edget
+(simret) 1 (VA) 1 (simmering) 1 (63) 1 word
+20 4 (vobj) 3 2 edget
+(på) 1 (SP) 1 (on) 1 (64) 1 word
+21 20 (mod) 3 2 edget
+(et) 1 (PI) 1 (a) 1 (65) 1 word
+22 21 (nobj) 3 2 edget
+(meget) 1 (AN) 1 (very) 1 (66) 1 word
+23 24 (mod) 3 2 edget
+(svagt) 1 (AN) 1 (weak) 1 (67) 1 word
+24 22 (mod) 3 2 edget
+(vågeblus) 1 (NC) 1 (pilot_light) 1 (68) 1 word
+25 22 (nobj) 3 2 edget
+(.) 1 (XP) 1 (.) 1 (69) 1 word
+26 4 (pnct) 3 2 edget
+(Kina) 1 (NP) 1 (China) 1 (72) 1 word
+27 28 (subj) 3 2 edget
+(er) 5 (VA) 5 (are) 5 (73) 5 word
+28 4 (ELAB:exem) 7 6 edget
+(stadig) 1 (RG) 1 (still) 1 (74) 1 word
+29 28 (mod) 3 2 edget
+(i) 1 (SP) 1 (in) 1 (75) 1 word
+30 28 (pred) 3 2 edget
+(stue-arrest) 1 (NC) 1 (wards_-_arrest) 1 (76) 1 word
+31 30 (nobj) 3 2 edget
+(,) 1 (XP) 1 (,) 1 (77) 1 word
+32 28 (pnct) 3 2 edget
+(og) 1 (CC) 1 (and) 1 (78) 1 word
+33 28 (coord) 3 2 edget
+(Danida) 1 (NP) 1 (Danida) 1 (79) 1 word
+34 35 (subj) 3 2 edget
+34 38 ([subj]) 3 2 edgeb
+(holder) 1 (VA) 1 (is_keeping) 1 (80) 1 word
+35 33 (conj) 3 2 edget
+(pengekassen) 1 (NC) 1 (the_coffers) 1 (81) 1 word
+36 35 (dobj) 3 2 edget
+36 38 ([dobj]) 3 2 edgeb
+(hermetisk) 1 (AN) 1 (hermetically) 1 (82) 1 word
+37 38 (mod) 3 2 edget
+(lukket) 1 (VA) 1 (sealed) 1 (83) 1 word
+38 35 (vobj) 3 2 edget
+(for) 1 (SP) 1 (on) 1 (84) 1 word
+39 38 (mod) 3 2 edget
+(danske) 1 (AN) 1 (Danish) 1 (85) 1 word
+40 41 (mod) 3 2 edget
+(engagementer) 1 (NC) 1 (commitments) 1 (86) 1 word
+41 39 (nobj) 3 2 edget
+(i) 1 (SP) 1 (to) 1 (87) 1 word
+42 41 (pobj) 3 2 edget
+(Kina) 1 (NP) 1 (China) 1 (88) 1 word
+43 42 (nobj) 3 2 edget
+(.) 1 (XP) 1 (.) 1 (89) 1 word
+44 28 (pnct) 3 2 edget
+(") 1 (XP) 1 (&quot;) 1 (94) 1 word
+45 47 (pnct) 3 2 edget
+(Kineserne) 1 (NC) 1 (The_Chinese) 1 (95) 1 word
+46 47 (subj) 3 2 edget
+(er) 5 (VA) 5 (are) 5 (96) 5 word
+47 77 (QOBJ) 7 6 edget
+(skuffede) 1 (VA) 1 (disappointed) 1 (97) 1 word
+48 47 (pred) 3 2 edget
+(over) 1 (SP) 1 (at) 1 (98) 1 word
+49 48 (pobj) 3 2 edget
+(Danmarks) 1 (NP) 1 (Denmark's) 1 (99) 1 word
+50 49 (nobj) 3 2 edget
+(holdning) 1 (NC) 1 (attitude) 1 (100) 1 word
+51 50 (possd) 3 2 edget
+(.) 1 (XP) 1 (.) 1 (101) 1 word
+52 47 (pnct) 3 2 edget
+(Danskerne) 1 (NC) 1 (The_Danes) 1 (104) 1 word
+53 54 (subj) 3 2 edget
+(var) 8 (VA) 8 (were) 8 (105) 8 word
+54 47 (CAUSE/\(fordi\)) 9 6 edget
+54 77 (qobj) 10 2 edget
+(blandt) 1 (SP) 1 (among) 1 (106) 1 word
+55 54 (pred) 3 2 edget
+(de) 1 (PD) 1 (the) 1 (107) 1 word
+56 55 (nobj) 3 2 edget
+(første) 1 (AN) 1 (first) 1 (108) 1 word
+57 56 (mod) 3 2 edget
+(udenlandske) 1 (AN) 1 (foreign) 1 (109) 1 word
+58 56 (mod) 3 2 edget
+(forretningsfolk) 1 (NC) 1 (business_people) 1 (110) 1 word
+59 56 (nobj) 3 2 edget
+(i) 1 (SP) 1 (in) 1 (111) 1 word
+60 56 (mod) 3 2 edget
+(Kina) 1 (NP) 1 (China) 1 (112) 1 word
+61 60 (nobj) 3 2 edget
+(,) 1 (XP) 1 (,) 1 (113) 1 word
+62 54 (pnct) 3 2 edget
+(men) 1 (CC) 1 (but) 1 (114) 1 word
+63 54 (coord) 3 2 edget
+(nu) 1 (RG) 1 (now) 1 (115) 1 word
+64 65 (mod) 3 2 edget
+(er) 1 (VA) 1 (are) 1 (116) 1 word
+65 63 (conj) 3 2 edget
+(vi) 1 (PP) 1 (we) 1 (117) 1 word
+66 65 (subj) 3 2 edget
+(blandt) 1 (SP) 1 (among) 1 (118) 1 word
+67 65 (pred) 3 2 edget
+(de) 1 (PD) 1 (the) 1 (119) 1 word
+68 67 (nobj) 3 2 edget
+(sidste) 1 (AN) 1 (last) 1 (120) 1 word
+69 68 (mod) 3 2 edget
+(,) 1 (XP) 1 (,) 1 (121) 1 word
+70 68 (pnct) 3 2 edget
+(der) 1 (U=) 1 (there) 1 (122) 1 word
+71 68 (ref) 3 2 edgeb
+71 72 (subj) 3 2 edget
+(lukker) 1 (VA) 1 (closes) 1 (123) 1 word
+72 68 (rel) 3 2 edget
+(op) 1 (RG) 1 (up) 1 (124) 1 word
+73 72 (avobj) 3 2 edget
+(igen) 1 (RG) 1 (again) 1 (125) 1 word
+74 72 (mod) 3 2 edget
+(,) 1 (XP) 1 (,) 1 (126) 1 word
+75 72 (pnct) 3 2 edget
+(") 1 (XP) 1 (&quot;) 1 (127) 1 word
+76 54 (pnct) 3 2 edget
+(siger) 5 (VA) 5 (says) 5 (128) 5 word
+77 4 (+JOINT) 7 6 edget
+(Oliver) 1 (NP) 1 (Oliver) 1 (129) 1 word
+78 79 (namef) 3 2 edget
+(Jensen) 1 (NP) 1 (Jensen) 1 (130) 1 word
+79 77 (subj) 3 2 edget
+(,) 1 (XP) 1 (,) 1 (131) 1 word
+80 79 (pnct) 3 2 edget
+(FLS) 1 (NP) 1 (FLS) 1 (132) 1 word
+81 79 (mod) 3 2 edget
+(i) 1 (SP) 1 (in) 1 (133) 1 word
+82 81 (mod) 3 2 edget
+(Peking) 1 (NP) 1 (Peking) 1 (134) 1 word
+83 82 (nobj) 3 2 edget
+(.) 1 (XP) 1 (.) 1 (135) 1 word
+84 77 (pnct) 3 2 edget
+(Han) 1 (PP) 1 (He) 1 (140) 1 word
+85 86 (subj) 3 2 edget
+(fortæller) 5 (VA) 5 (says) 5 (141) 5 word
+86 77 (+JOINT) 7 6 edget
+(,) 1 (XP) 1 (,) 1 (142) 1 word
+87 86 (pnct) 3 2 edget
+(at) 8 (CS) 8 (that) 8 (143) 8 word
+88 86 (dobj) 10 2 edget
+88 86 (DOBJ) 9 6 edget
+(udviklingen) 1 (NC) 1 (development) 1 (144) 1 word
+89 92 (subj) 3 2 edget
+(i) 1 (SP) 1 (in) 1 (145) 1 word
+90 89 (mod) 3 2 edget
+(Sydkina) 1 (NP) 1 (southern_China) 1 (146) 1 word
+91 90 (nobj) 3 2 edget
+(kører) 1 (VA) 1 (is_going) 1 (147) 1 word
+92 88 (vobj) 3 2 edget
+(så) 1 (RG) 1 (so) 1 (148) 1 word
+93 94 (mod) 3 2 edget
+(hurtigt) 1 (AN) 1 (fast) 1 (149) 1 word
+94 92 (mod) 3 2 edget
+(,) 1 (XP) 1 (,) 1 (150) 1 word
+95 94 (pnct) 3 2 edget
+(at) 1 (CS) 1 (that) 1 (151) 1 word
+96 93 (nobj) 3 2 edget
+(man) 1 (PI) 1 (you) 1 (152) 1 word
+97 98 (subj) 3 2 edget
+(taber) 1 (VA) 1 (lose) 1 (153) 1 word
+98 96 (vobj) 3 2 edget
+(pusten) 1 (NC) 1 (breath) 1 (154) 1 word
+99 98 (dobj) 3 2 edget
+(.) 1 (XP) 1 (.) 1 (155) 1 word
+100 86 (pnct) 3 2 edget
+(") 1 (XP) 1 (&quot;) 1 (160) 1 word
+101 103 (pnct) 3 2 edget
+(Vi) 1 (PP) 1 (We) 1 (161) 1 word
+102 103 (subj) 3 2 edget
+(har) 5 (VA) 5 (have) 5 (162) 5 word
+103 88 (+CONS/\(derfor\)) 7 6 edget
+(store) 1 (AN) 1 (great) 1 (163) 1 word
+104 105 (mod) 3 2 edget
+(forventninger) 1 (NC) 1 (expectations) 1 (164) 1 word
+105 103 (dobj) 3 2 edget
+(til) 1 (SP) 1 (for) 1 (165) 1 word
+106 105 (pobj) 3 2 edget
+(reformerne) 1 (NC) 1 (the_reforms) 1 (166) 1 word
+107 106 (nobj) 3 2 edget
+(,) 1 (XP) 1 (,) 1 (167) 1 word
+108 103 (pnct) 3 2 edget
+(omend) 8 (CS) 8 (although) 8 (168) 8 word
+109 103 (mod) 10 2 edget
+109 103 (CONC/omend) 9 6 edget
+(vi) 1 (PP) 1 (we) 1 (169) 1 word
+110 111 (subj) 3 2 edget
+110 112 ([subj]) 3 2 edgeb
+(er) 1 (VA) 1 (are) 1 (170) 1 word
+111 109 (vobj) 3 2 edget
+(forberedt) 1 (VA) 1 (prepared) 1 (171) 1 word
+112 111 (vobj) 3 2 edget
+(på) 1 (SP) 1 (in) 1 (172) 1 word
+113 112 (pobj) 3 2 edget
+(,) 1 (XP) 1 (,) 1 (173) 1 word
+114 113 (pnct) 3 2 edget
+(at) 1 (CS) 1 (that) 1 (174) 1 word
+115 113 (nobj) 3 2 edget
+(de) 1 (PP) 1 (they) 1 (175) 1 word
+116 117 (subj) 3 2 edget
+116 118 ([subj]) 3 2 edgeb
+(kan) 1 (VA) 1 (might) 1 (176) 1 word
+117 115 (vobj) 3 2 edget
+(komme) 1 (VA) 1 (come) 1 (177) 1 word
+118 117 (vobj) 3 2 edget
+(til) 1 (SP) 1 (in) 1 (178) 1 word
+119 118 (pobj) 3 2 edget
+(at) 1 (U=) 1 (that) 1 (179) 1 word
+120 119 (nobj) 3 2 edget
+(køre) 1 (VA) 1 (drive) 1 (180) 1 word
+121 120 (vobj) 3 2 edget
+(lidt) 1 (AN) 1 (a_little) 1 (181) 1 word
+122 123 (mod) 3 2 edget
+(i) 1 (SP) 1 (in) 1 (182) 1 word
+123 121 (mod) 3 2 edget
+(") 1 (XP) 1 (') 1 (183) 1 word
+124 125 (pnct) 3 2 edget
+(ryk) 1 (NC) 1 (swing) 1 (184) 1 word
+125 123 (nobj) 3 2 edget
+(") 1 (XP) 1 (') 1 (185) 1 word
+126 125 (pnct) 3 2 edget
+(.) 1 (XP) 1 (.) 1 (186) 1 word
+127 103 (pnct) 3 2 edget
+(Men) 4 (CC) 4 (But) 4 (189) 4 word
+(det) 1 (PP) 1 (it) 1 (190) 1 word
+129 130 (subj) 3 2 edget
+(er) 8 (VA) 8 (is) 8 (191) 8 word
+130 128 (conj) 10 2 edget
+130 109 (CONTR/men) 9 6 edget
+(spændende) 1 (AN) 1 (exciting) 1 (192) 1 word
+131 130 (pred) 3 2 edget
+(at) 1 (U=) 1 (to) 1 (193) 1 word
+132 129 (nobj) 3 2 edget
+(se) 1 (VA) 1 (see) 1 (194) 1 word
+133 132 (vobj) 3 2 edget
+(,) 1 (XP) 1 (,) 1 (195) 1 word
+134 133 (pnct) 3 2 edget
+(hvor) 1 (RG) 1 (how) 1 (196) 1 word
+135 136 (mod) 3 2 edget
+(langt) 1 (AN) 1 (far) 1 (197) 1 word
+136 133 (dobj) 3 2 edget
+136 139 ([mod]) 3 2 edgeb
+(de) 1 (PP) 1 (they) 1 (198) 1 word
+137 138 (subj) 3 2 edget
+137 139 ([subj]) 3 2 edgeb
+(tør) 1 (VA) 1 (dare) 1 (199) 1 word
+138 136 (rel) 3 2 edget
+(gå) 1 (VA) 1 (go) 1 (200) 1 word
+139 138 (vobj) 3 2 edget
+(med) 1 (SP) 1 (in) 1 (201) 1 word
+140 139 (mod) 3 2 edget
+(at) 1 (U=) 1 (that) 1 (202) 1 word
+141 140 (nobj) 3 2 edget
+(slippe) 1 (VA) 1 (escape) 1 (203) 1 word
+142 141 (vobj) 3 2 edget
+(markedskræfterne) 1 (NC) 1 (market_forces.) 1 (204) 1 word
+143 142 (dobj) 3 2 edget
+(løs) 1 (AN) 1 (unleashed) 1 (205) 1 word
+144 142 (pred) 3 2 edget
+(.) 1 (XP) 1 (.) 1 (206) 1 word
+145 128 (pnct) 3 2 edget
+(") 1 (XP) 1 (&quot;) 1 (207) 1 word
+146 128 (pnct) 3 2 edget
+(FLS) 1 (NP) 1 (FLS) 1 (212) 1 word
+147 148 (subj) 3 2 edget
+147 149 ([subj]) 3 2 edgeb
+147 156 ([subj]) 3 2 edgeb
+147 157 ([subj]) 3 2 edgeb
+(har) 5 (VA) 5 (has) 5 (213) 5 word
+148 86 (+JOINT) 7 6 edget
+(været) 1 (VA) 1 (been) 1 (214) 1 word
+149 148 (vobj) 3 2 edget
+(aktiv) 1 (AN) 1 (active) 1 (215) 1 word
+150 149 (pred) 3 2 edget
+(i) 1 (SP) 1 (in) 1 (216) 1 word
+151 149 (mod) 3 2 edget
+(Kina) 1 (NP) 1 (China) 1 (217) 1 word
+152 151 (nobj) 3 2 edget
+(siden) 1 (SP) 1 (since) 1 (218) 1 word
+153 149 (mod) 3 2 edget
+(1906) 1 (AC) 1 (1906) 1 (219) 1 word
+154 153 (nobj) 3 2 edget
+(og) 1 (CC) 1 (and) 1 (220) 1 word
+155 148 (coord) 3 2 edget
+(har) 8 (VA) 8 (has) 8 (221) 8 word
+156 155 (conj) 10 2 edget
+156 148 (CONJ/og) 9 6 edget
+(opført) 1 (VA) 1 (established) 1 (222) 1 word
+157 156 (vobj) 3 2 edget
+(20-30) 1 (AC) 1 (20-30) 1 (223) 1 word
+158 157 (dobj) 3 2 edget
+(cement-fabrikker) 1 (NC) 1 (cement_factories) 1 (224) 1 word
+159 158 (nobj) 3 2 edget
+(rundt) 1 (RG) 1 (around) 1 (225) 1 word
+160 157 (mod) 3 2 edget
+(om) 1 (RG) 1 (on_the) 1 (226) 1 word
+161 160 (pobj) 3 2 edget
+(i) 1 (SP) 1 (in) 1 (227) 1 word
+162 161 (mod) 3 2 edget
+(landet) 1 (NC) 1 (the_country) 1 (228) 1 word
+163 162 (nobj) 3 2 edget
+(.) 1 (XP) 1 (.) 1 (229) 1 word
+164 148 (pnct) 3 2 edget
+(I) 1 (SP) 1 (At) 1 (232) 1 word
+165 167 (mod) 3 2 edget
+(øjeblikket) 1 (NC) 1 (the_moment) 1 (233) 1 word
+166 165 (nobj) 3 2 edget
+(er) 5 (VA) 5 (are) 5 (234) 5 word
+167 156 (ELAB:exem) 7 6 edget
+(man) 1 (PI) 1 (they) 1 (235) 1 word
+168 167 (subj) 3 2 edget
+(ved) 1 (SP) 1 (about) 1 (236) 1 word
+169 167 (pred) 3 2 edget
+(at) 1 (U=) 1 (to) 1 (237) 1 word
+170 169 (nobj) 3 2 edget
+(bygge) 1 (VA) 1 (build) 1 (238) 1 word
+171 170 (vobj) 3 2 edget
+(et) 1 (PI) 1 (a) 1 (239) 1 word
+172 171 (dobj) 3 2 edget
+(anlæg) 1 (NC) 1 (facility) 1 (240) 1 word
+173 172 (nobj) 3 2 edget
+(i) 1 (SP) 1 (in) 1 (241) 1 word
+174 171 (mod) 3 2 edget
+(Shanghai) 1 (NP) 1 (Shanghai) 1 (242) 1 word
+175 174 (nobj) 3 2 edget
+(,) 1 (XP) 1 (,) 1 (243) 1 word
+176 171 (pnct) 3 2 edget
+(finansieret) 1 (VA) 1 (financed) 1 (244) 1 word
+177 171 (mod) 3 2 edget
+(af) 1 (SP) 1 (by) 1 (245) 1 word
+178 177 (pobj) 3 2 edget
+(spanske) 1 (AN) 1 (Spanish) 1 (246) 1 word
+179 180 (mod) 3 2 edget
+(lån) 1 (NC) 1 (loan) 1 (247) 1 word
+180 178 (nobj) 3 2 edget
+(gennem) 1 (SP) 1 (through) 1 (248) 1 word
+181 177 (mod) 3 2 edget
+(FLS') 1 (NP) 1 (FLS') 1 (249) 1 word
+182 181 (nobj) 3 2 edget
+(søsterfirma) 1 (NC) 1 (sister_firm) 1 (250) 1 word
+183 182 (possd) 3 2 edget
+(i) 1 (SP) 1 (in) 1 (251) 1 word
+184 182 (mod) 3 2 edget
+(Spanien) 1 (NP) 1 (Spain) 1 (252) 1 word
+185 184 (nobj) 3 2 edget
+(.) 1 (XP) 1 (.) 1 (253) 1 word
+186 167 (pnct) 3 2 edget
+
+% Alignments
+/alignments [
+] def
+
+%% 3. Trailer
+
+draw end 
+

@@ -1,0 +1,50 @@
+%!
+
+100 dict begin
+
+/d 10 def
+/h 10 def
+
+/xdef {exch def} def
+
+/arrow2 { % x0 y0 x3 n
+	/n xdef /x3 xdef /y0 xdef /x0 xdef
+
+} def
+
+% arrow: x0 y0 x3 n 
+/arrow {
+	/n xdef /x4 xdef /y0 xdef /x0 xdef
+	/w x4 x0 sub 2 div def
+
+	/tau1 d dup mul h dup mul add sqrt n mul def
+	/tau2 w n d mul sub dup mul h dup mul add sqrt def
+	/tau tau1 tau1 tau2 add div def
+
+	% Define /x1 and /x2
+	/x1 x0 def
+	/x2 w 3 div 
+		n d mul tau dup mul w mul sub 
+		3 tau dup mul mul tau 1 sub mul 
+			div sub 
+		x0 add def
+	/x3 x0 w add def
+
+	% Define /y1 and /y2
+	/y1 n 1 add tau dup mul mul n 1 add 2 mul tau mul sub n add
+		3 tau mul tau 1 sub dup mul mul div n 1 add 3 div add h mul
+		y0 add def
+	/y2 n 1 add h mul 
+		y0 add def
+	/y3 y2 def
+
+	(*) = pstack
+
+	% Draw curves
+	x0 y0 moveto
+	x1 y1 x2 y2 x1 w add y3 curveto
+	
+	%x3 x2 sub x3 add  x2  x4  y1  x4 y0 curveto
+	stroke
+} def
+	

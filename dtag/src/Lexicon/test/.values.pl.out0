@@ -1,0 +1,5 @@
+list([a,b,c]-[a], 1)
+set([d,e,f]-[f], 2)
+hash([g=1,h=2,i=3]-[g], 3)
+list([a,b,c]-[a], 0)
+list([a,b,c]-[], 0)

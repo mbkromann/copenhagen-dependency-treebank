@@ -1,0 +1,32 @@
+# ! (! A) reduces to A
+find -dnf ! (! $1 < $2)
+
+# ! (A | B) reduces to (! A) & (! B)
+find -dnf ! ($1[x] =~ /y/ | $1 subj $2)
+
+# ! (A & B) reduces to (! A) | (! B)
+find -dnf ! (($1 path({<vobj}+>subj) $2) & ($1 subj $2))
+
+# (A | B) & C reduces to (A & C) | (B & C)
+find -dnf ($1 > $2 | $3 != $4) & $5 == $6
+
+# A & (B | C) reduces to (A & B) | (A & C)
+find -dnf $1 > $2, (($3 != $4) | ($3:noun))
+
+# A & (B & C) reduces to A & B & C
+find -dnf $1 > $2, ($3 != $4, $3:noun)
+
+# (A | B) | C reduces to A | B | C
+find -dnf ($1 > $2 | $3 != $4) | $3:noun
+
+# A => B reduces to (!A) | B
+find -dnf $1 > $2 => $3 == $4
+
+# Check reduction of exist
+find -dnf exist($3, ($1 expl $2|$1 subj $2) & $3 dobj $2)
+
+# Check reduction of !exist
+find -dnf ! exist($3, ($1 expl $2|$1 subj $2) & $3 dobj $2)
+
+# Check reduction of all
+find -dnf ! all($3, ! all($4, $3 dobj $4 => $4 != $2))

@@ -1,0 +1,128 @@
+#!/bin/sh
+
+lang=$2
+
+##
+## Settings
+##
+
+	MENUPAGENAME='#ff0000'
+	MENUCOLORS='bgcolor="#000038" text="#ffffff" link="#ffffff" vlink="#cccccc"'
+
+if [ "$lang" = "dk" ] ; then
+	SITEINDEX="WEBINDEKS"
+	PAGEINDEX="SIDEINDEKS"
+else
+	SITEINDEX="SITE&nbsp;INDEX"
+	PAGEINDEX="PAGE&nbsp;INDEX"
+fi
+
+##
+## HTML file names
+##
+
+src=$1
+name=`echo $src | sed -e 's/\.mhtml$//' -e 's/^.*\/\([^\/]*\)$/\1/'`
+if [ -z "$path" ] ; then path="." ; fi
+text=${name}T.html
+menu=${name}M.html
+title=`egrep '<title>.*</title>' $src \
+	| sed -e 's/.*<title>\(.*\)<\/title>.*/\1/'`
+
+##
+## Echo header 
+##
+
+cat <<end_of_title
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html> 
+<head>
+	<title>$title (menu)</title>
+	<meta name="robots" content="noindex">
+</head>
+
+<body $MENUCOLORS>
+
+<strong>$SITEINDEX<br><br>
+
+end_of_title
+
+##
+## Extract items for site index
+##
+
+# Function for printing a character n times
+function nprint () {
+	n=$1
+	while [ "$n" -gt 0 ] ; do echo -n $2 ; n=$(($n-1)); done
+}
+
+# Extract link information and convert hierarchy to numbers
+tmp="/tmp/makemenu.$$"
+egrep '^.*(<link rel=".*" href=".*" id=".*" title=".*".*>|<!--site menu: .*-->).*$' $src | \
+	sed -e 's/.*<link rel="\(.*\)" href="\(.*\)" id="\(.*\)" title="\(.*\)" target="\(.*\)">.*/\1|\2|\5|\3|\4/' \
+		-e 's/.*<link rel="\(.*\)" href="\(.*\)" id="\(.*\)" title="\(.*\)">.*/\1|\2|_parent|\3|\4/' \
+		-e 's/^self/0/' \
+		-e 's/^sibling/+0/' \
+		-e 's/^parent\([0-9]\)/-\1/' -e 's/^parent/-1/' \
+		-e 's/^child\([0-9]\)/\1/' -e 's/^child/1/' \
+		-e 's/^.*<\!--site menu: \(.*\)-->.*$/|\1|||/' \
+		> $tmp
+maxn=`sort -n $tmp | head -1 | awk -F"|" '{print $1}'`
+cp $tmp /tmp/makemenu
+
+# Print hierarchy
+OLDIFS="$IFS" ; IFS="|"
+cat $tmp | \
+(  	while read level link target short long ; do \
+		short2=`echo $short | sed -e 's/_/\&nbsp;/g'` ; \
+		if [ -z "$level" ] ; then \
+			echo "$link" ; \
+		else \
+			nprint $(($level-($maxn))) "&nbsp;&nbsp;" ; \
+			if [ "$level" != "0" ] ; then \
+				echo -n "<a href=\"$link\" title=\"$long\"" ; \
+				echo " target=\"$target\">$short2</a><br>" ; \
+			else \
+				echo "<font color=\"$MENUPAGENAME\">$short2</font><br>" ; \
+			fi ;\
+		fi ;\
+	done )
+IFS="$OLDIFS"
+echo "</strong>"
+
+# Echo page index header
+cat <<end_of_index_header
+
+<br><hr>
+<strong>$PAGEINDEX</strong><br><br>
+
+end_of_index_header
+
+# Extract items for page index
+tmp2="/tmp/makemenu2.$$"
+egrep '^(<a name=".*"></a>|<!--page menu: .*-->)$' $src \
+	| sed -e 's/<a name="\(.*\)"><\/a>/\1/' > $tmp2
+
+cat $tmp2 | 
+(while read line ; do \
+	if echo "$line" | grep '<!--page menu:' > /dev/null ; then \
+		echo "$line" | sed -e 's/<!--page menu: \(.*\)-->$/\1/' ; \
+	else \
+		item1=`echo "$line" | sed -e 's/\(\_*\).*/\1/' -e 's/_/\&nbsp;/g'` ; \
+		item2=`echo "$line" | sed -e 's/\_*\(.*\)/\1/' -e 's/_/\&nbsp;/g'` ; \
+		echo "$item1<a href=\"$text#$line\" target=\"text\">$item2</a><br>"; \
+	fi ; \
+done )		
+
+# Echo prologue
+cat <<end_of_prologue
+
+</body>
+</html>
+end_of_prologue
+
+# Remove temporary file
+rm $tmp
+rm $tmp2
+

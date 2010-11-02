@@ -1,0 +1,24 @@
+<W in="" out="1:nobj">the</W>
+<W in="-1:nobj" out="1:pobj|1:{arg}">mother</W>
+<W in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
+<W in="-1:nobj" out="">Peter</W>
+<W in="" out="">\n</W>
+<W in="1:possr" out="">Peter</W>
+<W in="" out="-1:possr|1:possd">'s</W>
+<W in="-1:possd" out="">mother</W>
+<W in="" out="">
+</W>
+<W in="" out="">the</W>
+<W in="" out="">mother</W>
+<W in="" out="">of</W>
+<W in="" out="">Peter</W>
+<W in="" out="">\n</W>
+<W in="" out="">the</W>
+<W in="" out="">mother</W>
+<W in="" out="">of</W>
+<W in="" out="">Peter</W>
+<!--<inalign>0+2 6 s</inalign>-->
+<!--<inalign>1 7 </inalign>-->
+<!--<inalign>10 15+18 </inalign>-->
+<!--<inalign>11+12 16+17 z</inalign>-->
+<!--<inalign>3 5 </inalign>-->

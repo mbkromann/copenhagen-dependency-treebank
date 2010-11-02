@@ -1,0 +1,16 @@
+find -parse $1<$2
+find -parse $1 >$2
+find -parse $1 != $2
+find -parse $a == $b
+find -parse $node[msd] =~ /VA.*/
+find -parse $N subj $V
+find -parse $N path(<subj>dobj<dobj{<vobj}+) $V
+find -parse ($N subj $V)
+find -parse ($1<$2), ($3 subj $5)
+find -parse ($1<$2) & ($3 subj $5)
+find -parse ($1<$2) | ($3 subj $5)
+find -parse ! ($1<$2)
+find -parse $1<$2, $3<$4, $N:noun+common-x|verb, $N subj $V
+find -parse $1<$2 & $3<$4 | $5<$6
+find -parse $1<$2 & ! $3<$4 | $5<$6
+find -parse -key("$word1[var1] $word2") -text("$word1[var1] xyz $word2") $x1 expl $xy2

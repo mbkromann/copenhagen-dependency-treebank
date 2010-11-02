@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Start and top delimiter
+file=$1
+start=$2
+stop=$3
+
+# Find delimiting lines
+i=`grep -Gn "$2" $1 | awk -F: '{print $1}'`
+j=`grep -Gn "$3" $1 | awk -F: '{print $1}'`
+n=$(($j-$i))
+k=$(($j-1))
+
+# Output chunk
+head -$k $1 | tail -$n

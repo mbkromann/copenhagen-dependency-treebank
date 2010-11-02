@@ -1,0 +1,33 @@
+string: abcde === abcde :: 
+TOrOp: (a+b)|d === tor(tplus(a, b), d) :: 
+TOrOp: a+b|d === tor(tplus(a, b), d) :: 
+TOrOp: (a+b)|d === tor(tplus(a, b), d) :: 
+TPlusOp: a+(b|d) === tplus(a, tor(b, d)) :: 
+TOrOp: -a+b|d === tor(tplus(tneg(a), b), d) :: 
+TOrOp: (-a)+b|d === tor(tplus(tneg(a), b), d) :: 
+TOrOp: (-a+b)|d === tor(tplus(tneg(a), b), d) :: 
+TPlusOp: -a+(b|d) === tplus(tneg(a), tor(b, d)) :: 
+TNegOp: -a === tneg(a) :: 
+TPlusOp: a+b === tplus(a, b) :: 
+TMinusOp: a-b === tminus(a, b) :: 
+TOrOp: a|b === tor(a, b) :: 
+string: (a) === a :: 
+TPlusOp: (a+b) === tplus(a, b) :: 
+TOrOp: a-b+c|d === tor(tplus(tminus(a, b), c), d) :: 
+TOrOp: -a+b|d === tor(tplus(tneg(a), b), d) :: 
+TNegOp: -(a+b|d) === tneg(tor(tplus(a, b), d)) :: 
+TOrOp: -(a+(b+c))|(d+e) === tor(tneg(tplus(a, tplus(b, c))), tplus(d, e)) :: 
+TOrOp: -(((a+b)))|d === tor(tneg(tplus(a, b)), d) :: 
+TOrOp: -(a+b)|d === tor(tneg(tplus(a, b)), d) :: 
+string: QUOTED TYPES === QUOTED TYPES :: 
+TNegOp: -"-abc" === tneg(-abc) :: 
+string: "-abc" === -abc :: 
+TNegOp: -"abc" === tneg(abc) :: 
+TPlusOp: -"-abc+|"+"a-b+cde|" === tplus(tneg(-abc+|), a-b+cde|) :: 
+TPlusOp: -'-abc+|'+'a-b+cde|' === tplus(tneg(-abc+|), a-b+cde|) :: 
+string: ERRORS === ERRORS :: 
+*string: ((()))+b === ERROR :: ((()))+b
+*string: (a+b|c === ERROR :: (a+b|c
+*string: a+)b|c === ERROR :: +)b|c
+*string: ( === ERROR :: (
+*string: (a === ERROR :: (a

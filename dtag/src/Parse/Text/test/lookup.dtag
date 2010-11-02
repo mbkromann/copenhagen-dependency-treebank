@@ -1,0 +1,6 @@
+lexicon test
+clear -lex
+load -lex TransLex.pm
+perl my $T = Text->new(); $T->lexicon($L); $I->{'text'} = $T;
+perl $I->{'text'}->input("A", "manden pukler træet trak trækker");
+perl my $T = $I->{'text'}; for (my $t = 0; $t <= $T->time1(); ++$t) { my $lexemes = $T->lookup($t, "A"); print (sort(map {"time $t: " .  $_->input() . " = " . $_->typename() . "\n"} @$lexemes)) if (@$lexemes); }

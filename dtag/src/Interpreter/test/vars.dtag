@@ -1,0 +1,4 @@
+vars +print
+vars +print x y z
+vars +print -x -y -z
+vars +print tag:t name:n

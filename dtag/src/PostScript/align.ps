@@ -1,0 +1,1007 @@
+%! (c) 2004 Matthias T. Kromann <mtk@id.cbs.dk>
+
+%% This PostScript library is distributed under the GNU public
+%% license for libraries, as part of the DGgraph package.
+%% Please see: http://www.id.cbs.dk/~mtk/DGgraph for source code,
+%% documentation and license.
+
+%% 1. DGalign Prologue
+
+%%BeginPrologue
+%% DATA STRUCTURES:
+%% node = [label format edges order component y0]
+%% nodes = [node1 ... nodeN]
+%% edge = [enodes1 enodes2 format label]
+%% edges = [edge1 ... edgeK]
+%% component = [min1 max1 ... minD maxD]
+%% enodes = nodes | node_index
+%% cut = [min1 max1 ... minD maxD]
+%% page = [width1 ... widthD]
+%% pages = [page1 ... pageP]
+
+
+% Start dictionary
+100 dict begin
+
+% Parameters
+/llx 20 def         			% X-coordinate of lower left corner
+/lly 20 def         			% Y-coordinate of lower left corner
+/urx 600 def        			% X-coordinate of lower left corner
+/ury 820 def       				% Y-coordinate of lower left corner
+/textfont 10 def				% Text font size
+/edgefont 8 def					% Edge font size
+/dh textfont 1.2 mul def		% Distance between rows
+/dw 100 def						% Distance between columns
+/dex 5 def						% Horizontal edge offset
+/dey 3 def						% Vertical edge offset
+/dew 20 def						% Cluster width
+/delbly -2 def					% Vertical edge label offset
+/dboxy1 edgefont 0.7 mul def	% Box around edge label y1
+/dboxy2 edgefont -0.3 mul def	% Box around edge label y2
+/dboxx edgefont 0.2 mul def		% Box around edge label x
+/bgcolor {1 1 1} def			% Background color for edge label box
+/topmargin dh def				% Top margin
+/botmargin topmargin def		% Bottom margin
+/minwidth 30 def				% Minimal column width
+/maxwidth 200 def			% Maximal column width
+
+% Calculate pageheight
+/pageheight ury lly sub def
+
+% xdef
+/xdef {exch def} def
+
+%% Font setup
+% Convert font to ISO-Latin1 encoded font
+/ISOfont % font ISOfont
+{   findfont
+    dup length dict begin
+       {1 index /FID ne {def} {pop pop} ifelse} forall
+       /Encoding ISOLatin1Encoding def
+       currentdict
+    end
+    definefont pop
+} def
+
+% Defined fonts
+/Palatino-Roman-Latin1 /Palatino-Roman ISOfont
+/Palatino-Bold-Latin1 /Palatino-Bold ISOfont
+/Palatino-Italic-Latin1 /Palatino-Italic ISOfont
+/Palatino-BoldItalic-Latin1 /Palatino-BoldItalic ISOfont
+/Palatino [(ptm) /Palatino-Roman-Latin1 /Palatino-Bold-Latin1
+    /Palatino-Italic-Latin1 /Palatino-BoldItalic-Latin1] def
+
+/setfontfamily {/fontfamily xdef} def
+/setfontsize {/fontsize xdef} def
+/setfontstyle {/fontstyle xdef} def
+/font 7 string def
+/fontext 4 string def
+/setupfont
+    {   font 0 fontfamily 0 get putinterval
+        font 3 fontstyle 1 add 1000 mul fontsize cvi add
+        fontext cvs putinterval
+        currentdict font cvn known not
+            {   currentdict font cvn fontfamily fontstyle 1 add get
+                    findfont fontsize scalefont put
+            } if
+        font cvn cvx exec setfont
+    } def
+
+% Initialize fonts
+Palatino setfontfamily edgefont setfontsize 0 setfontstyle setupfont
+/efont currentfont def
+Palatino setfontfamily textfont setfontsize 0 setfontstyle setupfont
+/tfont currentfont def
+
+% format: format procedure => -
+/format {
+	% Save graphical state (including fonts)
+	gsave
+	/oldfontstyle fontstyle def
+	/oldfontsize fontsize def
+	/oldfontfamily fontfamily def
+	exch
+
+	% Change format, if unequal to last format and in 0...formats
+	dup 0 ge							% format bool
+	1 index formats length le and		% format bool
+	{
+		% Retrieve format
+		dup 0 eq {
+			% Format = 0: do nothing
+			pop
+		} {
+			% Format > 0: execute formatting commands
+			formats exch 1 sub get exec
+		} ifelse
+	} {
+		pop
+	} ifelse
+
+	% Execute procedure
+	exec
+
+	% Restore graphics state and font
+	grestore
+	fontstyle oldfontstyle ne 
+		fontsize oldfontsize ne or
+		fontfamily oldfontfamily ne or
+	{
+		oldfontfamily setfontfamily 
+		oldfontsize	setfontsize 
+		oldfontstyle setfontstyle
+		setupfont	
+	} if
+} def
+
+% setup: [nodes1 ... nodesD] setup
+/setup {
+	/dimensions xdef
+	/dimension dimensions length def
+
+	% Initialize /nodes array
+	/nodes
+	0 dimensions {
+		add
+	} forall
+	array def
+
+	% Initialize /column_id and /node_id
+	/column_id -1 def
+	/node_id 0 def
+} def
+
+% newcolumn: - => -
+/newcolumn {
+	/column_id column_id 1 add def
+	/offset node_id def
+} def
+
+% node: label [format] => -
+/node {
+	% Push default format 0 onto stack if no format is provided
+	dup type /integertype ne { 0 } if	% lbl frm
+
+	% Create new node with label and format, and store node in /nodes
+	[ 3 1 roll null null null null]			% node
+	nodes node_id 2 index put				% node
+	pop										% -
+
+	% Increase node_id
+	/node_id node_id 1 add def
+} def
+
+% edge: nodes1 nodes2 label [format] => -
+/edge {
+	% Create dummy format, if no format provided
+	dup type /stringtype eq {0} if	% nodes1 nodes2 label format
+
+	% Create edge
+	[ 5 1 roll ]					% edge
+
+	% Find all nodes on edge
+	dup edge2nodes					% edge nodes
+
+	% Add edge to all edge nodes
+	dup {							% edge nodes node
+		nodes exch get				% edge nodes nodeo
+		[ 3 index 					% edge nodes nodeo [ edge
+		2 index 					% edge nodes nodeo [ edge nodeo
+		2 get 						% edge nodes nodeo [ edge edges
+		dup null eq {				% edge nodes nodeo [ edge null
+			pop						% edge nodes nodeo [ edge 
+		} { 						% edge nodes nodeo [ edge edges
+			aload pop
+		} ifelse					% edge nodes nodeo [ edge ...
+		]							% edge nodes nodeo edges'
+		2 exch put					% edge nodes
+	} forall						% edge nodes
+
+	% Clean up
+	pop pop
+} def
+
+% edge2nodes: edge => nodes
+/edge2nodes { 
+	% Create node array
+	[ 	% Get nodes1, aload it if it is an array
+		1 index 0 get 
+		dup type /arraytype eq {aload pop} if
+
+		% Get nodes2, aload it if it is an array
+		counttomark 1 add index 1 get
+		dup type /arraytype eq {aload pop} if
+	] exch pop
+} def
+
+% cut: cut[0] cut[1] => cut[i+1]
+/cut {										% c0 c1
+	% Process "cut" repeatedly until we are finished
+	{	% Compute new cut on basis of edges for all nodes in cut[i] that
+		% are not in cut[i-1]
+		[	1 index aload pop ]				% c0 c1 c2
+		3 1 roll							% c2 c0 c1
+		{ 									% c2 c0 c1 proc node
+			4 index exch 					% c2 c0 c1 proc c2 node
+			nodecut pop						% c2 c0 c1 proc
+		} 									% c2 c0 c1 proc
+		do_newcut							% c2 c0 c1
+		3 -1 roll							% c0 c1 c2
+
+		% Compute whether c1 != c2
+		false 1 2 dimension 2 mul {				% c0 c1 c2 t d
+			dup 3 index exch get				% c0 c1 c2 t d c2[d]
+			exch 4 index exch get				% c0 c1 c2 t c2[d] c1[d]
+			ne or								% c0 c1 c2 t'
+		} for									% c0 c1 c2 t'
+
+		% Repeat cut if c1 != c2
+		{										% c0 c1 c2
+			3 -1 roll pop						% c1 c2
+		} {										% c0 c1 c2
+			3 1 roll pop pop					% c2
+			exit
+		} ifelse								% cn
+	} loop
+} def										% cn
+
+
+
+
+% nodecut: cut node => cut
+/nodecut {
+	% Process each edge at node			
+	nodes exch get 2 get						% cut edges
+	dup null eq {								% cut edges
+		pop
+	} {											% cut edges
+		{										% cut edge
+			edge2nodes							% cut nodes
+			{									% cut node
+				dup node2dim 2 mul 1 add		% cut node 2d+1
+
+				% Adjust dimension d count in cut
+				dup 3 index exch get			% cut node 2d+1 cut[2d+1]
+				dup null eq {pop 0} if			% cut node 2d+1 oldmax
+				3 -1 roll max					% cut 2d+1 newmax
+				2 index 3 1 roll put			% cut 
+			} forall							% cut
+		} forall								% cut
+	} ifelse
+} def
+
+% node2dim: node => dim
+/node2dim {
+	0 exch dimensions {						% dim node count
+		sub 								% dim node
+		dup 0 ge {							% dim node
+			exch 1 add exch					% dim+1 node
+		} {
+			exit
+		} ifelse							% dim node
+	} forall								% dim node
+	pop
+} def
+
+% cut2count: cut => count
+/cut2count {
+	0 0 1 dimension 1 sub {					% cut cnt d
+		dup 2 mul 1 add 3 index exch get	% cut cnt d cut[2d+1]
+		dup null eq {						% cut cnt d cut[2d+1]
+			pop	pop							% cut cnt
+		} {									% cut cnt d cut[2d+1]
+			exch 2 mul 3 index exch get		% cut cnt cut[2d+1] cut[2d]
+			sub 1 add add					% cut cnt'
+		} ifelse 
+	} for
+	exch pop								% cnt
+} def
+
+% compute_components: - => -
+/compute_components {
+	% Compute initial cut
+	[ 0 
+	dimensions {							% offset count
+		1 index add							% o[i] offset+c
+		null exch							% o[i] null offset'
+	} forall
+	pop
+	]										% [min1 null ... minD null]
+
+	% Add counter
+	0										% cut 0
+
+	% Call components procedure
+	process_components								% -
+} def
+
+% components: cut count => -
+/process_components {									% cut i
+	% Slice off components repeatedly 
+	{	% Store dummy optimal solution on stack
+		1e10 null null							% cut i optn optdim optcut
+
+		% Process each dimension
+		0 1 dimension 1 sub {					% cut i on od oc d
+			% Make a copy of old cut
+			[ 6 index aload pop ]				% cut i on od oc d new
+
+			% Increment dimension d in new cut
+			dup 2 index	2 mul 1 add				% ... d new new 2d+1
+			get									% ... d new new[2d+1]
+			dup null eq {						% ... d new new[2d+1]
+				pop dup 2 index 2 mul get		% ... d new new[2d]
+			} {
+				1 add							% ... d new new[2d+1]+1
+			} ifelse							% ... d new nextnode
+				
+			% Check that nextnode is not beyond legal range
+			dup node2dim 						% ... d new nextnode dim
+			3 index eq {						% ... d new nextnode
+				% Within legal range: update new
+				2 index 2 mul 1 add				% ... d new nextnode 2d+1
+				2 index 3 1 roll				% ... d new new nextnode 2d+1
+				exch put						% ... d new
+
+				% Find cut for new				% cut i on od oc d new
+				6 index exch 
+				cut				% cut i on od oc d newcut
+
+				% Compute count for newcut
+				dup cut2count					% cut i on od oc d newcut n
+
+				% Compare new cut with optimal cut
+				dup 6 index						% cut i on od oc d newcut n n on
+				lt {							% cut i on od oc d newcut n 
+					% Replace old optimal cut with newcut
+					3 1 roll					% cut i on od oc n d newcut
+					6 3 roll					% cut i n d newcut on od oc
+					pop pop pop					% cut i n d newcut
+				} {								% cut i on od oc d newcut n
+					% Ignore newcut
+					pop pop pop					% cut i on od oc
+				} ifelse						% cut i on' od' oc'
+			} {									% ... d new nextnode
+				% Illegal range: ignore dimension
+				pop pop pop						% cut i on od oc
+			} ifelse							% cut i on od oc
+		} for									% cut i on od oc
+
+		% Determine whether optimal cut was found
+		dup null eq {							% cut i on od oc
+			% No optimal cut found: clean up
+			pop pop pop exch pop				% i
+
+			% Store components in /components
+			array								% comp
+			nodes {								% comp node
+				dup 3 get exch 4 get			% comp order c
+				2 index 3 1 roll put			% comp
+			} forall
+			/components exch def
+			exit
+		} {										% cut i on od oc
+			% Optimal cut found: record cut in all nodes in oc minus cut
+			4 index exch 						% cut i on od cut oc
+			{	% Record cut in node			% ... oc proc node
+				nodes exch get					% ... oc proc nodeo
+				dup 3 8 index 
+				put				% ... oc proc nodeo
+				4 3 index						% ... oc proc nodeo 4 oc
+				put								% ... oc proc
+			}						 			% cut i on od cut oc proc
+			do_newcut 							% cut i on od cut oc
+
+			% Clean up
+			6 1 roll pop pop pop exch pop exch	% i oc
+
+			% Create new initial cut
+			dup length array					% i oc new
+			0 1 dimension 1 sub {				% i oc new d
+				% Increment dimension d
+				2 mul 2 index 1 index 1 add 	% i oc new 2d oc 2d+1
+				get								% i oc new 2d oc[2d+1]
+				dup null eq {					% i oc new 2d oc[2d+1]
+					pop 2 index 1 index		 	% i oc new 2d oc 2d
+					get							% i oc new 2d oc[2d]
+				} {
+					1 add						% i oc new 2d oc[2d+1]+1
+				} ifelse						% i oc new 2d next
+
+				% Store in new
+				2 index 3 1 roll put			% i oc new
+			} for								% i oc new
+
+			% Increment counter, and proceed with next cut
+			3 1 roll pop						% new i
+			1 add								% new i+1
+		} ifelse
+	} loop
+} def
+
+% do_newcut: ... cut newcut proc => cut newcut 
+%     proc: ... cut newcut proc node => ... cut newcut proc 
+
+/do_newcut {							% c0 c1 proc
+	0 1 dimension 1 sub {				% c0 c1 proc d
+		% Compute i1 = c0[2d+1] + 1 || c0[2d]
+		dup 2 mul 1 add 				% c0 c1 proc d 2d+1
+		4 index exch get 				% c0 c1 proc d c0[2d+1]
+		dup null eq {					% c0 c1 proc d c0[2d+1]
+			pop							% c0 c1 proc d
+			dup 2 mul 4 index exch get	% c0 c1 proc d c0[2d]
+		} { 
+			1 add						% c0 c1 proc d c0[2d+1]+1
+		} ifelse						% c0 c1 proc d i1
+		
+		% Compute imax = c1[2d+1] || c1[2d]-1
+		1 index 2 mul 1 add					% c0 c1 proc d i1 2d+1
+		4 index exch get					% c0 c1 proc d i1 c1[2d+1]
+		dup null eq {						% c0 c1 proc d i1 c1[2d+1]
+			pop								% c0 c1 proc d i1
+			1 index 2 mul 4 index exch get 	% c0 c1 proc d i1 c1[2d]
+			1 sub
+		} if								% c0 c1 proc d i1 i2
+		3 -1 roll pop						% c0 c1 proc i1 i2
+
+		% Process each new node in dimension d
+		1 exch {							% c0 c1 proc i
+			1 index exec 					% c0 c1 proc
+		} for								% c0 c1 proc
+	} for 									% c0 c1 proc
+	pop										% c0 c1
+} def
+
+% ylayout: - => -
+/ylayout {
+	% Make height counters H = [h1 ... hD]
+	[ dimension {0} repeat ]				% H
+
+	% Process components in order
+	components {							% H c
+		% Find ymax
+		0 exch								% H ymax c
+		{									% H ymax c proc d
+			4 index exch get				% H ymax c proc H[d]
+			4 -1 roll max 3 1 roll			% H ymax' proc c
+		}
+		do_component_dim
+
+		% Find total height of component
+		dup component_height dh mul exch	% H ymax maxh c
+
+		% Position nodes in each dimension
+		{									% H ymax maxh c proc d
+			% Find first and last node
+			dup 2 mul 3 index exch get		% H ymax maxh c proc d c[2d]
+			3 index 2 index 2 mul 1 add get	% H ymax maxh c proc d c[2d] c[2d+1]
+
+			% Compute number of nodes, and spacing
+			dup 2 index sub 1 add			% H ymax maxh c proc d n1 n2 n
+			6 index exch div				% H ymax maxh c proc d n1 n2 dy
+			7 index 4 2 roll 1 exch			% H ymax maxh c proc d dy ymax n1 1 n2
+			{								% H ymax maxh c proc d dy y n
+				3 index 9 index				% H ymax maxh c proc d dy y n d H
+				position_node				% H ymax maxh c proc d dy y'
+				1 index add					% H ymax maxh c proc d dy y"
+			} for							% H ymax maxh c proc d dy y"
+
+			% Store new ymax in H
+			7 index 3 index 3 -1 roll put	% H ymax maxh c proc d dy
+			pop pop							% H ymax maxh c proc
+		} 									% H ymax maxh c proc
+		do_component_dim					% H ymax maxh c
+
+		% Clean up stack
+		pop pop pop							% H
+	} forall								% H
+
+	% Find ymax in H
+	0 exch { max } forall					% ymax
+
+	% Initialize pages array
+	pageheight div cvi 1 add array 			% pages
+	/pages exch def							% -
+	0 1 pages length 1 sub {
+		pages exch 							% pages p
+		[ dimension {0} repeat ]			% pages p page
+		put									% -
+	} for									%
+} def
+
+% rmod: num mod => remainder
+/rmod {			% n m
+	dup 2 index exch div cvi				% n m int(n/m)
+	1 index mul exch pop sub
+} def
+	
+% position_node: y node d H => y'
+/position_node {							% y n d H
+	% Is y within bottom margin?
+	4 -1 roll								% n d H y
+	dup pageheight rmod						% n d H y ymod
+	pageheight botmargin sub gt {			% n d H y
+		% Move y to next page top
+		pageheight div cvi 1 add 			% n d H int(y/ph+1)
+		pageheight mul topmargin add		% n d H y'
+	} if									% n d H y
+
+	% Is y within top margin?
+	dup pageheight rmod						% n d H y ymod
+	topmargin lt {							% n d H y
+		% Move y to page top
+		pageheight div cvi pageheight mul
+		topmargin add						% n d H y'
+	} if
+
+	% Store y-value in H 
+	4 1 roll exch 3 index put				% y n
+
+	% Store y-value in node
+	nodes exch get 							% y node
+	5 2 index put							% y
+} def
+
+
+% do_component_dim: component proc => component
+%	proc: component proc dim => component proc
+/do_component_dim {							% c proc
+	% Process each dimension
+	0 1 dimension 1 sub {					% c proc d
+		dup 2 mul 1 add						% c proc d 2d+1 
+		3 index exch get 					% c proc d c[2d+1]
+		null eq {							% c proc d
+			pop								% c proc
+		} {									% c proc d
+			1 index exec					% c proc
+		} ifelse
+	} for
+	pop
+} def
+
+% component_height: component => height
+/component_height {
+	0 exch 						
+	{										% maxh c proc d
+		2 mul dup 1 add						% maxh c proc 2d 2d+1
+		3 index exch get					% maxh c proc 2d c[2d+1]
+		exch 3 index exch get				% maxh c proc c[2d+1] c[2d]
+		sub 1 add							% maxh c proc h
+		4 -1 roll max 3 1 roll				% maxh' c proc
+	} 										% maxh' c proc
+	do_component_dim						% maxh c
+	pop
+} def
+
+% xlayout: - => -
+/xlayout {
+	% Process each dimension separately
+	0 0 1 dimension 1 sub {					% offset d
+		% Reset page and width
+		0 minwidth							% offset d page maxw
+
+		% Process all nodes in column
+		4 -1 roll dup 						% d page maxw offset offset
+		4 index dimensions exch get			% d page maxw i1 i2 len
+		add dup 6 1 roll 1 sub 1 exch		% i1' d page maxw i1 1 i2
+		{	% Retrieve label and y0 		% i1' d page maxw i
+			nodes exch get					% i1' d page maxw node
+			dup 0 get exch 5 get			% i1' d page maxw lbl y0
+
+			% Check for page change
+			pageheight div cvi				% i1' d page maxw lbl page'
+			dup 4 index ne {				% i1' d page maxw lbl page'
+				% Page change: save maxw 
+				4 2 roll exch				% i1' d lbl page' maxw page
+				pages exch get				% i1' d lbl page' maxw pageo
+				exch 4 index exch			% i1' d lbl page' pageo d maxw
+				put							% i1' d lbl page'
+
+				% Set page and maxw
+				exch minwidth exch			% i1' d page' maxw lbl
+			} {								% i1' d page maxw lbl page'
+				% No page change
+				pop							% i1' d page maxw lbl
+			} ifelse						% i1' d page maxw lbl
+
+			% Compute label width
+			stringwidth pop 				% i1' d page maxw w
+			maxwidth min max				% i1' d page maxw'
+		} for								% i1' d page maxw
+
+		% Save column width for last page
+		exch pages exch get					% i1' d maxw pageo
+		3 1 roll put						% i1'
+	} for									% i1'
+
+	% Clean up
+	pop
+} def
+
+% drawpages: - => -
+/drawpages {
+	% Create maximal node counts
+	[ 0 dimensions {add dup} forall pop]	% Nmax
+
+	% Create node counter
+	[ 0 dimensions {1 index add} forall pop ] 	% Nmax N
+
+	% Print title at top of first page
+	llx ury 10 sub moveto title exch pop {title pop show} format
+
+	% Process all pages
+	0 1 pages length 1 sub {				% Nmax N p
+		% Compute offsets for page
+		[ llx pages 3 index get 
+			{ 								% x1 wmax 
+				1 index add 				% x1 x2
+				dup dw add					% x1 x2 x1'
+			} forall
+		pop] 								% Nmax N p O
+		dup /columns exch def				% Nmax N p O
+		4 1 roll							% O Nmax N p
+
+		% Translate page and specify clipping
+		gsave								% O Nmax N p
+		-10000 lly botmargin sub moveto
+		-10000 ury topmargin add lineto 
+		10000 ury topmargin add lineto 
+		10000 lly botmargin sub lineto closepath
+		clip								% O Nmax N p
+		0 1 index 1 add pageheight mul translate	% O Nmax N p
+		newpath
+
+		% Process each dimension separately
+		0 1 dimension 1 sub {					% O Nmax N p d
+			% Find starting node
+			dup 3 index exch get				% O Nmax N p d N[d]
+
+			% Process all nodes on page
+			{									% O Nmax N p d n
+				% Check that node has right dimension
+				dup 5 index 3 index get			% O Nmax N p d n n Nmax[d]
+				ge {							% O Nmax N p d n
+					% Node has wrong dimension: exit loop
+					pop pop exit				% O Nmax N p 
+				} if							% O Nmax N p d n
+
+				% Check that node is on right page
+				dup nodes exch get				% O Nmax N p d n node
+				dup 5 get pageheight div cvi	% O Nmax N p d n node p'
+				4 index ne {					% O Nmax N p d n node
+					% Node is on wrong page: exit loop
+					pop pop pop exit			% O Nmax N p
+				} if							% O Nmax N p d n node
+
+				% Draw node and associated edges
+				drawnode						% O Nmax N p d n
+
+				% Increment node counter and store in N	
+				1 add 							% O Nmax N p d n+1
+				3 index 2 index 2 index put		% O Nmax N p d n+1
+			} loop								% O Nmax N p
+		} for 
+
+		% Clean up
+		pop 3 -1 roll pop						% Nmax N
+
+		% Show page and restore graphics state
+		showpage
+		grestore
+	} for										% Nmax N
+
+	% Clean up
+	pop pop										% -
+} def
+
+% drawnode: page dim n node => page dim n
+/drawnode {										% O Nmax N p d n node
+	% Determine alignment (0=left, 0.5=center, 1=right)
+	2 index 0 eq {								% ... d n node
+		% Left-most: right align
+		1										% ... d n node align
+	} {											% ... d n node
+		2 index dimension 1 sub eq {
+			% Right-most: left align
+			0									% ... d n node align
+		} {	% Middle: center
+			0.5									% ... d n node align
+		} ifelse 
+	} ifelse									% ... d n node align
+	/_align exch def							% ... d n node
+	/_node exch def 							% ... d n
+
+	% Draw label 							% ... d n align node
+	_align _node
+	dup dup 0 get exch 1 get				% ... d n a node lbl f
+	tfont setfont
+	{	% Compute string width 				% ... d n a node lbl
+		dup stringwidth pop					% ... d n a node lbl w
+
+		% Retrieve column boundaries x1,x2
+		9 index dup							% ... d n a node lbl w O O
+		7 index 2 mul dup 1 add				% ... d n a node lbl w O O 2d 2d+1
+		3 1 roll get 3 1 roll get			% ... d n a node lbl w x1 x2
+
+		% Compute x-position
+		1 index sub 3 -1 roll sub			% ... d n a node lbl x1 x2-x1-w
+		4 index mul add						% ... d n a node lbl xl
+
+		% Retrieve y-position
+		2 index 5 get neg					% ... d n a node lbl xl yl
+		moveto								% ... d n a node lbl
+
+		% Show string
+		show								% ... d n a node
+	} format								% ... d n a node
+	pop pop
+	_align _node
+
+	% Draw edges (if this node is the first node on the edge within
+	% the current page)						% ... p d n
+	2 get exch pop							% ... p d n edges
+	dup null eq {pop []} if						% ... p d n edges
+	{										% ... p d n edge
+		% Find smallest node on edge within page
+		dup edge2nodes 1e10 exch			% ... p d n e nmin nodes 
+		{									% ... p d n e nmin node
+			% Determine whether node is on this page
+			dup nodes exch get 5 get 		% ... p d n e nmin node y0
+			pageheight div cvi				% ... p d n e nmin node p'
+			6 index eq {					% ... p d n e nmin node
+				% On this page
+				min							% ... p d n e nmin'
+			} {
+				pop							% ... p d n e nmin
+			} ifelse						% ... p d n e nmin
+		} forall
+		
+		% Draw edge if this node is smallest
+		2 index eq {						% ... p d n e
+			drawedge
+		} {
+			pop
+		} ifelse
+	} forall								% ... p d n
+
+
+} def
+
+% drawedge: edge => -
+%% edge = [enodes1 enodes2 label format]
+/drawedge {
+	aload pop 							% n1 n2 l f
+	efont setfont
+	{									% n1 n2 l
+		% Compute direction of edge
+		2 index enodes_dim 				% n1 n2 l dim1
+		2 index enodes_dim 				% n1 n2 l dim1 dim2
+		lt								% n1 n2 l right?
+
+		% Compute first enodes				% n1 n2 l dir
+		4 -1 roll 1 index node_cluster		% n2 l dir x1 y1
+		5 -1 roll 3 index not node_cluster	% l dir x1 y1 x2 y2
+
+		% Compute midpoint
+		dup 3 index add 2 div				% l dir x1 y1 x2 y2 yc
+		2 index 5 index add 2 div exch		% l dir x1 y1 x2 y2 xc yc
+		6 2 roll							% l dir xc yc x1 y1 x2 y2
+
+		% Draw arrow
+		moveto lineto 						% l dir xc yc
+		gsave
+			[] 0 setdash
+			currentlinewidth 3 mul setlinewidth
+			1 setgray
+			stroke
+		grestore
+		stroke
+
+		% Draw label
+		moveto pop							% l
+		dup stringwidth pop 2 div neg		% l -w/2
+		delbly rmoveto						% l
+		bgshow
+	} 
+	format
+} def
+
+/bgshow {
+	dup () eq {
+		pop
+	} {
+		gsave									% lbl
+			dup stringwidth pop					% w
+			dboxx neg 0 rmoveto
+			0 dboxy1 rlineto
+			dup dboxx 2 mul add 0 rlineto
+			0 dboxy2 dboxy1 sub rlineto
+			neg dboxx 2 mul sub 0 rlineto closepath
+			bgcolor setrgbcolor
+			fill
+		grestore show
+	} ifelse
+} def
+
+% node_cluster: enodes dir => x y
+/node_cluster {								% enodes dir
+	exch dup type /arraytype eq {			% dir nodes
+		% Cluster: compute coordinates for each point
+		[ 3 1 roll							% [ dir nodes 
+		{									% [ ... dir node
+			1 index exch					% [ ... dir dir node
+			nodepos							% [ ... dir xi yi
+			3 -1 roll						% [ ... xi yi dir
+		} forall
+
+		% Compute sum = y1 + ... + yn
+		0 counttomark 2 sub 2 div			% [ x1 y1 ... xn yn dir sum n
+		dup 1 1	3 -1 roll					% [ x1 y1 ... xn yn dir sum n 1 1 n
+		{									% [ x1 y1 ... xn yn dir sum n i
+			2 mul 1 add index				% [ x1 y1 ... xn yn dir sum n yi
+			3 -1 roll add exch				% [ x1 y1 ... xn yn dir sum' n
+		} for								% [ x1 y1 ... xn yn dir sum n
+
+		% Compute midpoint
+		dup 3 1 roll div					% [ x1 y1 ... xn yn dir n yc
+		4 index 3 index 					% [ x1 y1 ... xn yn dir n yc xc dir
+		dew exch not {neg} if add				% [ x1 y1 ... xn yn dir n yc xc'
+		exch 3 -1 roll						% [ x1 y1 ... xn yn dir xc yc n
+
+		% Draw lines from xi,yi to xc,yc
+		cvi
+		{	1 index 1 index moveto			% ... xi yi dir xc yc
+			5 -2 roll lineto				% ... dir xc yc
+		} repeat							% [ dir xc yc
+
+		% Clean up
+		4 2 roll pop pop
+	} {										% dir node
+		nodepos
+	} ifelse
+} def
+
+% nodepos: dir node => x y
+/nodepos {
+	% Single word
+	dup nodes exch get 5 get			% dir node y0
+	exch node2dim						% dir y0 d
+	3 -1 roll {							% y0 d
+		% Right-leaning
+		2 mul 1 add columns exch get	% y0 x0
+		dex add exch neg dey add		% x0' y0
+	} {
+		% Left-leaning
+		2 mul columns exch get			% y0 x0
+		dex sub exch neg dey add		% x0' y0
+	} ifelse							% x0 y0
+} def
+
+% nodes_dim: enodes => dim
+/enodes_dim {
+	dup type /arraytype eq {			% enodes
+		0 get
+	} if 								% node
+	node2dim
+} def
+
+% format: format procedure => -
+
+% draw: - => -
+/draw {
+	% Compute components
+	compute_components
+
+	% Vertial layout
+	ylayout
+
+	% Page breaking
+	xlayout
+
+	% Actual drawing
+	drawpages
+} def
+
+%%EndPrologue
+
+% Setup texts: setup takes as its input a list [nodes1, ..., nodesI]
+% that indicates the number of words in each column (in this example,
+% we have 7 columns)
+[4 5 5 4 4 8 200] setup 
+
+% Formats
+/title {(Title) 1} def
+/formats [
+	{1 0 0 setrgbcolor}
+	{0 1 0 setrgbcolor 2 setlinewidth}
+	{1 0 0 setrgbcolor [2 3] 0 setdash}
+	{0 0 1 setrgbcolor 1 setfontstyle setupfont}
+] def
+
+% First column
+newcolumn
+(To) 0 node				% 0
+(kendte) 1 node			% 1
+(russiske) 2 node		% 2
+(historikere) 3 node	% 3
+
+% Second column
+newcolumn
+(Two) 4 node			% 4
+(well-) 0 node			% 5
+(known) 1 node			% 6
+(Russian) 2 node		% 7
+(historians) 3 node		% 8
+
+% Third column
+newcolumn
+(Zwei) 4 node			% 9
+(wohl-) 0 node			% 10
+(bekannte) 0 node		% 11
+(russische) 0 node		% 12
+(Historiker) 3 node		% 13
+
+% Create alignments: words
+0 4 (a) 0 edge
+1 [5 6] (b) 1 edge
+2 8 (c) 2 edge
+3 7 (d) 3 edge
+
+4 9 (e) 4 edge
+5 10 (f) edge
+6 11 (g) edge
+7 12 (h) edge
+8 13 (i) edge
+
+
+% Fourth column
+newcolumn
+(A1) node	% 14
+(A2) node	% 15
+(A3) node	% 16
+(A4) node	% 17
+
+newcolumn
+(B1) node	% 18
+(B2) node	% 19
+(B3) node	% 20 
+(B4) node	% 21 
+
+newcolumn
+(C1) node	% 22 
+(C2) node	% 23 
+(C3) node	% 24 
+(C4) node	% 25 
+(C5) node	% 26 
+(C6) node
+(C7) node
+(C8) node	% 28
+
+% Create alignments: graph
+13 14 () edge
+14 18 () 1 edge
+15 19 () 1 edge
+16 22 () 2 edge
+17 20 () 3 edge
+18 23 () 4 edge
+20 25 () edge
+
+% Create final long column
+newcolumn
+1 1 200 {
+	5 string cvs node
+} for
+
+% Edge
+[26 27 28 29] [30 31 32 33] (complex) edge
+24 38 (x) edge
+
+%%BeginTrailer
+% Draw
+draw
+
+% End dictionary
+end
+
+%%EndTrailer
+

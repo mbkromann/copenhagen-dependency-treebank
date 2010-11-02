@@ -1,0 +1,121 @@
+%!
+
+% qsort: array cmp_proc => sorted
+/qsort {
+	1 index length 0 exch 							% array cmp 0 n
+	qsortx pop
+} def
+
+
+% qsortx: array cmp_proc start stop => subsorted cmp
+/qsortx {										
+	% Subarray is sorted if r-l < 2
+	2 copy 2 sub gt {								% array cmp l r
+		% Subarray is sorted
+		pop pop										% array cmp
+	} {												% array cmp l r
+		% Find pivot value and exit if -1
+		findpivot									% array cmp l r ipivot
+		dup -1 eq {
+			% All values in array are identical, hence sorted
+			pop pop pop								% array cmp
+		} {
+			% Find pivot value
+			4 index exch get 3 1 roll				% array cmp ap l r
+			2 copy 7 2 roll 1 sub					% l r array cmp ap l1 r1
+									
+			% Split subarray into two around pivot
+			{	% Move left cursor over any elements < pivot
+				exch								% array cmp ap r1 l1
+				{	
+					dup 5 index exch get 3 index	% array cmp ap r1 l1 al1 ap
+					5 index exec 					% array cmp ap r1 l1 <=>
+					-1 eq {1 add} {exit} ifelse		% array cmp ap r1 l1
+				} loop
+				exch
+
+				% Move right cursor over any elements >= pivot
+				{	dup 5 index exch get 3 index	% array cmp ap l1 r1 v ap
+					5 index exec 					% array cmp ap l1 r1 <=>
+					-1 gt {1 sub} {exit} ifelse		% array cmp ap l1 r1
+				} loop
+
+				% Exit if l > r
+				2 copy gt {exit} if					% array cmp ap l1 r1
+
+				% Switch elements pointed to by l and r, and repeat
+				2 copy 6 index 3 1 roll switch		% array cmp pivot l1 r1
+			} loop
+			3 -1 roll pop pop 						% l r array cmp k
+
+			% Sort two subarrays recursively
+			5 -1 roll exch dup 6 1 roll				% k r array cmp l k
+			qsortx									% k r array cmp
+			4 2 roll qsortx							% array cmp
+		} ifelse
+	} ifelse
+} def
+
+
+% findpivot: array cmp l r => array cmp l r pi (array must have length>1)
+/findpivot {
+	% Find middle index and value
+	2 copy add 1 sub 2 idiv							% A cmp l r m
+	4 index 1 index get								% A cmp l r m am
+
+	% For i:=m to m+(r-l), until am != ai
+	1 index 1 1 index 5 index add 6 index sub 1 sub
+													% A cmp l r m am m+1 1 m+r-l
+	{ 												% A cmp l r m am i
+		% Subtract r-l if i>=r
+		dup 4 index ge {
+			4 index add 3 index sub					
+		} if										% A cmp l r m am i
+
+		% Exit if am != ai
+		dup 7 index	exch get 2 index				% A cmp l r m am i ai am
+		7 index exec dup 0 ne {						% A cmp l r m am i <=>
+			1 eq {									% A cmp l r m am i
+				% Return i := i and set m := -1
+				3 -1 roll pop -1 3 1 roll 			% A cmp l r -1 am i
+				exit
+			} {										% A cmp l r m am i
+				% Return i := m and set m := -1
+				pop -1 3 1 roll exch				% A cmp l r -1 am m
+				exit
+			} ifelse
+		} {
+			pop pop									% A cmp l r m am
+		} ifelse
+	} for
+
+	% This procedure returns: "A cmp l r -1 am i" OR "A cmp l r m am"
+
+	% Return -1 if m != -1, else i
+	2 index -1 eq {									% A cmp l r -1 am i
+		3 1 roll pop pop 							% A cmp l r i
+	} {												% A cmp l r m am
+		pop pop -1									% A cmp l r -1
+	} ifelse
+} def
+
+
+% switch: array i j => -
+/switch {
+	2 index 2 index	get								% A i j ai
+	3 index 2 index get								% A i j ai aj
+	4 index	exch 6 1 roll 3 1 roll					% aj A i A j ai
+	put 											% aj A i
+	3 -1 roll put
+} def
+
+
+% intcmp: a b => sign(a-b)
+/intcmp {
+	2 copy lt {
+		pop pop -1
+	} {
+		eq {0} {1} ifelse
+	} ifelse
+} def
+

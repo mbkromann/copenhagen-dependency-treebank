@@ -1,0 +1,406 @@
+comment
+comment
+comment
+comment
+node Han
+node fik
+edge 4 subj 5
+node hurtigt
+edge 6 mod 5
+node tag
+edge 7 dobj 5
+node i
+edge 8 pobj 7
+node DTM
+edge 9 nobj 8
+node og
+edge 10 coord 5
+node lærte
+edge 4 [subj] 11
+edge 11 conj 10
+node ,
+edge 12 pnct 11
+node at
+edge 13 dobj 11
+node man
+node skal
+edge 15 vobj 13
+edge 14 subj 15
+node omgås
+edge 14 [subj] 16
+edge 16 vobj 15
+node materiellet
+edge 17 dobj 16
+node med
+edge 18 mod 16
+node en
+edge 19 nobj 18
+node vis
+edge 20 mod 19
+node forsigtighed
+edge 21 nobj 19
+node for
+edge 22 mod 16
+node at
+edge 23 nobj 22
+node spare
+edge 24 vobj 23
+node bilen
+edge 25 dobj 24
+node .
+edge 26 pnct 5
+comment
+comment
+node Det
+node er
+edge 29 subj 30
+node jo
+edge 31 mod 30
+node ikke
+edge 32 mod 30
+node nok
+edge 33 pred 30
+node at
+edge 34 nobj 29
+node ligge
+edge 35 vobj 34
+node forrest
+edge 36 aobj 35
+node i
+edge 37 mod 35
+node starten
+edge 38 nobj 37
+node  - 
+edge 39 pnct 30
+node det
+node gælder
+edge 41 conj 30
+edge 40 subj 41
+node om
+edge 42 pobj 41
+node at
+edge 43 nobj 42
+node nå
+edge 44 vobj 43
+node det
+edge 45 dobj 44
+node ternede
+edge 46 mod 45
+node flag
+edge 47 nobj 45
+node til
+edge 48 mod 44
+node slut
+edge 49 nobj 48
+node .
+edge 50 pnct 30
+comment
+comment
+comment
+comment
+node Jeg
+node har
+edge 55 subj 56
+node svært
+edge 57 aobj 56
+node ved
+edge 58 pobj 57
+node at
+edge 59 nobj 58
+node se
+edge 60 vobj 59
+node ,
+edge 61 pnct 60
+node at
+edge 62 dobj 60
+node Kurt
+node overhovedet
+node har
+edge 65 vobj 62
+edge 63 subj 65
+edge 64 mod 65
+node nogen
+edge 66 dobj 65
+node svagheder
+edge 67 nobj 66
+node som
+edge 68 mod 65
+node racerkører
+edge 69 nobj 68
+node .
+edge 70 pnct 56
+comment
+comment
+comment
+comment
+comment
+comment
+comment
+node Kurt
+node om
+edge 79 mod 78
+node racerkøreren
+edge 80 nobj 79
+node Kris
+edge 81 appr 80
+node :
+edge 82 pnct 79
+comment
+comment
+comment
+comment
+comment
+node  - 
+node Kris
+node er
+edge 90 xpl 79
+edge 88 pnct 90
+edge 89 subj 90
+node en
+edge 91 pred 90
+node meget
+node seriøs
+edge 93 mod 91
+edge 92 mod 93
+node racerkører
+edge 94 nobj 91
+node ,
+edge 95 pnct 91
+node hvor
+edge 96 ref 91
+node sejrsviljen
+node ligger
+edge 98 rel 91
+edge 96 mod 98
+edge 97 subj 98
+node utroligt
+node dybt
+edge 100 aobj 98
+edge 99 mod 100
+node  - 
+edge 101 pnct 98
+node han
+node er
+edge 103 conj 90
+edge 102 subj 103
+node en
+edge 104 pred 103
+node type
+edge 105 nobj 104
+node ,
+edge 106 pnct 104
+node der
+edge 107 ref 104
+node vil
+edge 108 rel 104
+edge 107 subj 108
+node vinde
+edge 107 [subj] 109
+edge 109 vobj 108
+node .
+edge 110 pnct 78
+comment
+comment
+node En
+node uvurderlig
+edge 114 mod 113
+node egenskab
+edge 115 nobj 113
+node for
+edge 116 mod 115
+node en
+edge 117 nobj 116
+node racerkører
+edge 118 nobj 117
+node .
+edge 119 pnct 113
+comment
+comment
+node Samtidig
+node er
+edge 122 mod 123
+node han
+edge 124 subj 123
+node meget
+node fair
+edge 126 pred 123
+edge 125 mod 126
+node på
+edge 127 mod 123
+node banen
+edge 128 nobj 127
+node ,
+edge 129 pnct 123
+node og
+edge 130 coord 123
+node jeg
+node kan
+edge 132 conj 130
+edge 131 subj 132
+node ikke
+edge 133 mod 132
+node mindes
+edge 131 [subj] 134
+edge 134 vobj 132
+node ,
+edge 135 pnct 134
+node jeg
+node har
+edge 137 vobj 134
+edge 136 subj 137
+node haft
+edge 136 [subj] 138
+edge 138 vobj 137
+node "
+node problemer
+edge 140 dobj 138
+edge 139 pnct 140
+node "
+edge 141 pnct 140
+node med
+edge 142 pobj 140
+node ham
+edge 143 nobj 142
+node under
+edge 144 mod 138
+node træning
+edge 145 nobj 144
+node eller
+edge 146 coord 144
+node i
+edge 147 conj 146
+node løb
+edge 148 nobj 147
+node .
+edge 149 pnct 123
+comment
+comment
+comment
+comment
+node Det
+node er
+edge 154 subj 155
+node fantastisk
+edge 156 pred 155
+node ,
+edge 157 pnct 155
+node så
+node meget
+edge 159 nobj 154
+edge 158 mod 159
+node han
+node har
+edge 161 rel 159
+edge 160 subj 161
+node overkommet
+edge 159 [dobj] 162
+edge 160 [subj] 162
+edge 162 vobj 161
+node i_år
+edge 163 mod 162
+node :
+edge 164 pnct 162
+node Først
+node trekvart
+node DTM-sæson
+edge 167 xpl 162
+edge 165 mod 167
+edge 166 mod 167
+node hos
+edge 168 mod 167
+node det
+edge 169 nobj 168
+node private
+edge 170 mod 169
+node Unitron-team
+edge 171 nobj 169
+node ,
+edge 172 pnct 169
+node hvor
+edge 173 ref 169
+node han
+node foruden
+node at
+edge 176 nobj 175
+node være
+edge 174 [subj] 177
+edge 177 vobj 176
+node kører
+edge 178 pred 177
+node også
+node skulle
+edge 180 rel 169
+edge 173 mod 180
+edge 174 subj 180
+edge 175 mod 180
+edge 179 mod 180
+node "
+node organisere
+edge 174 [subj] 182
+edge 182 vobj 180
+edge 181 pnct 182
+node "
+edge 183 pnct 182
+node en
+edge 184 dobj 182
+node masse
+edge 185 nobj 184
+node ting
+edge 186 nobj 185
+node .
+edge 187 pnct 155
+comment
+comment
+node Så
+node oprettede
+edge 190 mod 191
+node han
+edge 192 subj 191
+node Team
+edge 193 dobj 191
+node Hokspeed
+edge 194 name 193
+node til
+edge 195 mod 191
+node Nordic
+node Cup
+edge 197 nobj 195
+edge 196 mod 197
+node ,
+edge 198 pnct 191
+node og
+edge 199 coord 191
+node midt
+node i
+edge 201 pobj 200
+node det
+edge 202 nobj 201
+node hele
+edge 203 nobj 202
+node skiftede
+edge 204 conj 199
+edge 200 mod 204
+node han
+edge 205 subj 204
+node over
+edge 206 pobj 204
+node til
+edge 207 pobj 206
+node Prodrive's
+edge 208 nobj 207
+node BMW-fabriksteam
+edge 209 possd 208
+node i
+edge 210 mod 208
+node det
+edge 211 nobj 210
+node engelske
+edge 212 mod 211
+node mesterskab
+edge 213 nobj 211
+node .
+edge 214 pnct 191
+comment
+comment
+comment
+comment

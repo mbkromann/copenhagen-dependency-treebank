@@ -1,0 +1,42 @@
+#!/bin/bash 
+
+# Ensure the correct sort order
+export LC_ALL=POSIX
+
+# Paths
+path=$1
+pwd=`pwd`
+
+# Cat all files in the current directory
+if [ -f $LICENSE ] ; then
+	cat $LICENSE
+fi
+if [ -f HEADER.pl ] ; then
+	header=HEADER.pl
+fi
+if [ -f TRAILER.pl ] ; then
+	trailer=TRAILER.pl
+fi
+
+for file in `echo $header ; (find -follow -maxdepth 1 \( \( -type d -name 'CVS' -prune \) -o -type f -name '*.pl' \( -name '.*\.swp' -o -name 'HEADER.pl' -o -name 'TRAILER.pl' -o -name '.*' -o -print \) \) | sed -e 's/\.\///g' \
+		| sort)` ; do
+	echo
+	echo "## ------------------------------------------------------------"
+	echo "##  auto-inserted from: $path$file"
+	echo "## ------------------------------------------------------------"
+	echo
+	cat $file
+done
+
+# Process each subdirectory recursively
+for dir in `find -follow -maxdepth 1 -type d \( -name test -o -name CVS -o -name testlex -o -name '.' -o -print \) \
+		| sed -e 's/\.\///g' | sort` ; do
+	cd $dir ; $DTAGBINDIR/makepm "$path$dir/"
+	cd $pwd
+done
+
+# End module
+echo
+echo "1;"
+
+echo "$path" >&2

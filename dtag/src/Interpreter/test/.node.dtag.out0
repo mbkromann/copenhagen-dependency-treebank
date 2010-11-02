@@ -1,0 +1,11 @@
+variables: var [v], var2 [w]
+0: <W var="1" in="" out="">a</W>
+1: <W var="4" in="" out="">a2</W>
+2: <W var="=abc4" in="" out="">a3</W>
+3: <W var="2" in="" out="">b</W>
+4: <W var="3" in="" out="">c</W>
+5: <W in="" out="">d</W>
+6: <W var="x" var2="y" in="" out="">a4</W>
+7: <W var="x" var2="y" in="" out="">a4</W>
+8: <W var="y" var2="x" in="" out="">a4</W>
+9: <W var="y" var2="x" in="" out="">a4</W>

@@ -1,0 +1,33 @@
+% Define observed subspaces and their observed frequencies
+/subspaces
+[	[1 /AC /AC] [1 /AC /AN] [527 /AC /NC] [1 /AC /NP] [3 /AC /PI] [1
+	/AC /VA] [4 /AC /XA] [1 /AC /XF] [1 /AC /XS] [10 /AC /XX] [1 /AN
+	/AC] [4 /AN /AN] [1 /AN /CS] [252 /AN /NC] [3 /AN /NP] [13 /AN
+	/PD] [23 /AN /PI] [4 /AN /PO] [4 /AN /PP] [2 /AN /PT] [15 /AN /U=]
+	[1 /AN /VA] [2 /AN /XX] [2 /AO /NC] [1 /CC /AN] [1 /CC /NC] [1 /CC
+	/PD] [6 /CS /AC] [2 /CS /AN] [14 /CS /NC] [2 /CS /NP] [1 /CS /PD]
+	[7 /CS /PI] [7 /CS /PO] [4 /CS /U=] [2 /I= /NC] [60 /NC /AC] [2
+	/NC /AN] [1 /NC /AO] [2 /NC /CS] [148 /NC /NC] [4 /NC /NP] [2 /NC
+	/PD] [1 /NC /PI] [8 /NC /U=] [2 /NC /XX] [4 /NP /AC] [80 /NP /NC]
+	[47 /NP /NP] [1 /NP /XF] [1 /NP /XX] [92 /PD /AC] [61 /PD /AN] [10
+	/PD /CS] [989 /PD /NC] [25 /PD /NP] [2 /PD /PD] [23 /PD /PI] [1
+	/PD /U=] [2 /PD /VA] [1 /PD /XF] [6 /PD /XX] [12 /PI /AC] [6 /PI
+	/AN] [1443 /PI /NC] [12 /PI /NP] [1 /PI /PD] [26 /PI /PI] [4 /PI
+	/PO] [8 /PI /U=] [1 /PI /VA] [8 /PI /XX] [42 /PO /NC] [1 /PO /NP]
+	[1 /PO /PI] [4 /PP /AN] [76 /PP /CS] [4 /PP /NC] [2 /PP /PD] [2
+	/PP /PT] [1 /PP /RG] [64 /PP /U=] [1 /PT /AN] [10 /PT /NC] [1 /PT
+	/PI] [4 /RG /AC] [31 /RG /CS] [1 /RG /I=] [12 /RG /NC] [2 /RG /NP]
+	[3 /RG /PD] [3 /RG /PI] [1 /RG /PP] [1 /RG /RG] [8 /RG /U=] [1 /RG
+	/XX] [280 /SP /AC] [151 /SP /AN] [1 /SP /AO] [1 /SP /CC] [160 /SP
+	/CS] [2803 /SP /NC] [745 /SP /NP] [13 /SP /PC] [623 /SP /PD] [534
+	/SP /PI] [223 /SP /PO] [196 /SP /PP] [32 /SP /PT] [12 /SP /RG] [1
+	/SP /SP] [459 /SP /U=] [8 /SP /VA] [4 /SP /XF] [1 /SP /XP] [1 /SP
+	/XS] [47 /SP /XX] [1 /U= /AC] [8 /U= /AN] [115 /U= /NC] [16 /U=
+	/NP] [12 /U= /PD] [46 /U= /PI] [6 /U= /PO] [2 /U= /PP] [1 /U= /U=]
+	[3 /U= /VA] [1 /VA /CS] [4 /VA /NC] [1 /VA /PP] [9 /VA /U=] [1 /VA
+	/XP] [2 /VA /XS] [5 /XF /NP] [6 /XF /XF] [1 /XF /XX] [1 /XR /AC]
+	[6 /XS /AC] [1 /XX /AC] [9 /XX /NC] [3 /XX /PD] [1 /XX /PI] [3 /XX
+	/U=]] normalize
+def
+
+

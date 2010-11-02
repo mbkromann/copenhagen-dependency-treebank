@@ -1,0 +1,5 @@
+load test.tag
+perl print (($G->lsite_default(30) || "undef") . "\n")
+perl print (($G->lsite_default(34) || "undef") . "\n")
+34 xland 30
+perl print (($G->lsite_default(34)) . "\n")

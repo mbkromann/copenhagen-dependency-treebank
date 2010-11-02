@@ -1,0 +1,6 @@
+name = a
+name = b
+super = b c d
+super = x y z
+print = b: super=[__undef__ __undef__ __undef__] lvars=[]
+

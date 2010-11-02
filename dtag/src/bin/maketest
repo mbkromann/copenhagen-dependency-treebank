@@ -1,0 +1,65 @@
+#!/bin/bash
+
+# Input
+for test in $* ; do
+	type=`echo $test | sed -e 's/^.*\.\([^.]*\)$/\1/g'`
+	rundir=./run
+
+	# Variables
+	modules=`echo DTAG::Graph DTAG::LexInput DTAG::Lexicon DTAG::Parse`
+	output=`echo $test | sed -e 's/\/\([^/]*\)$/\/.\1.out/g'`
+	match="${output}0"
+	diff=/tmp/maketest.diff
+
+	# Run test
+	if [ $type == "pl" ] ; then
+		# Perl program
+		(	echo "#!/usr/bin/perl"
+			for mod in $modules ; do 
+				echo "use $mod;"
+			done
+			echo 
+
+			cat $test
+		) > $rundir/test
+		pwd=`pwd`
+		(cd $rundir ; (perl -I$pwd/`dirname $test` test 2>&1)) > $output
+	elif [ $type == "dtag" ] ; then
+		# dtag script
+		if [ -z "$DTAGHOME" ] ; then
+			DTAGHOME=`pwd`/run
+		fi
+		(cd `dirname $test` ; $DTAGHOME/dtag -i -q -s `basename $test` -e 'exit') > $output
+	else 
+		echo "ERROR: Unknown file type for test $test: aborting"
+		exit 1; 
+	fi
+
+	echo -n "Running test $test ... "
+	touch $match
+
+	# Filter line numbers from outputs
+	out=/tmp/maketest.out.$$
+	cmp=/tmp/maketest.cmp.$$
+	sed -e 's/line [0-9]*\.$//' $output > $out
+	sed -e 's/line [0-9]*\.$//' $match > $cmp
+
+	# Report test if it failed
+	if cmp $out $cmp 2>/dev/null 1>/dev/null ; then
+		echo "ok"
+	else
+		echo "failed"
+		echo "--------------------------------------------------"
+		echo " ERROR: $test"
+		echo "--------------------------------------------------"
+		diff $match $output
+		echo "--------------------------------------------------"
+		echo
+		exit 1
+	fi
+
+	# Delete temporary files
+	rm $out $cmp
+done
+
+exit 0

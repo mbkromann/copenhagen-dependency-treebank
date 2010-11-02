@@ -1,0 +1,34 @@
+# 		RULETYPE: head
+# 		SOURCE: $1 er kvalificerende
+# 		TARGET: $1 provides qualifications
+# 		A-ROOT: 1
+# 		B-ROOT: 1
+# 		ALIGNMENTS: 1 2 : 1 2 | 0 : 0
+# 		A-GRAPH: 0 subj 1 | 2 pred 1
+# 		B-GRAPH: 0 subj 1 | 2 dobj 1
+# 		----
+# 		det / it
+# 		det / this
+# 		kurset / the course
+# 
+# 
+# 		RULETYPE: head
+# 		SOURCE: tilstrækkeligt $1
+# 		TARGET: sufficient $1
+# 		A-ROOT: 1
+# 		B-ROOT: 1
+# 		ALIGNMENTS: 0 : 0 | 1 : 1
+# 		A-GRAPH: 1 pobj 0
+# 		B-GRAPH: 1 pobj 0
+# 		----
+# 		kvalificerende / qualifications
+# 
+# 		RULETYPE: head
+# 		SOURCE: til at $1
+# 		TARGET: to $1
+# 		A-ROOT: 0
+# 		B-ROOT: 0
+# 		ALIGNMENTS: 0 1 : 0 | 2 : 1
+# 		A-GRAPH: 1 nobj 0 | 2 vobj 1
+#
+

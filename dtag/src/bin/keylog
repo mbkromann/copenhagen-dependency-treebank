@@ -1,0 +1,27 @@
+#!/usr/bin/perl
+use Term::ReadKey;
+use Time::HiRes qw(time);
+
+ReadMode 4; # Turn off controls keys
+
+my $file = $ARGV[0] || "keylog.key";
+my $server = "keylog.$$";
+system("gvim --servername $server -geometry 80x24-0+0");
+system("gvim --servername $server --remote-send ':set ww=hl\n'");
+my $time0 = time();
+my $record = "";
+$| = 1;
+my $key = "";
+open(OFH, ">", $file);
+while (1) {
+	$key = ReadKey(0);
+	last if ($key =~ /Q/);
+	my $time = time();
+	system("gvim --servername $server --remote-send '$key'");
+	my $elapsed = $time - $time0 + 0.0005;
+	print OFH "<K time=\"" . int($elapsed) . "." . sprintf("%03i", 1000 * ($elapsed - int($elapsed)))
+		. "\" key=\"$key\" vim=\"$key\"/>\n";
+}
+close(OFH);
+ReadMode 0;
+print "saved keylog in $file\n";

@@ -1,0 +1,14 @@
+<W in="" out="1:CAUSE">a</W>
+<W in="-1:CAUSE" out="1:ELAB:attr">b</W>
+<W in="-1:ELAB:attr" out="1:ELAB:attr/konnektor">c</W>
+<W in="-1:ELAB:attr/konnektor" out="3:ELAB:attr***/konnektor|1:subj">d</W>
+<W in="-1:subj" out="1:dobj">x</W>
+<W in="-1:dobj" out="">x</W>
+<W in="-3:ELAB:attr***/konnektor" out="1:JOINT:attr">e</W>
+<W in="-1:JOINT:attr" out="1:JOINT">f</W>
+<W in="-1:JOINT" out="">g</W>
+<W in="1:subj" out="">h</W>
+<W in="" out="-1:subj|1:iobj|2:dobj">i</W>
+<W in="-1:iobj" out="">j</W>
+<W in="-2:dobj" out="1:nobj">k</W>
+<W in="-1:nobj" out="">l</W>

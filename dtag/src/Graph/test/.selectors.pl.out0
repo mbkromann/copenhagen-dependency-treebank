@@ -1,0 +1,2 @@
+graph(nodes=[] input= position=0 boundaries=[] vars=[])
+graph(nodes=[1,2,3] input=input position=4 boundaries=[5,6,7] vars=[a=a,b=b,c=c])

@@ -1,0 +1,17 @@
+ERROR! cannot read file /opt/dta/arcs.header in Graph->readfile
+check that DTAGHOME is set correctly!
+ERROR! cannot read file /opt/dta/arcs.trailer in Graph->readfile
+check that DTAGHOME is set correctly!
+
+TEST ATOMIC INHERITANCE
+a = 9:G = G
+A = 9:A = A
+b = 9:E = E
+c = 9:G = G
+C = 9:C = C
+d = 0:undef = 
+E = 9:E = E
+F = 9:F = F
+G = 9:G = G
+h = 0:undef = 
+i = 0:undef = 

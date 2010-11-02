@@ -1,0 +1,9 @@
+ERROR! cannot read file /opt/dta/arcs.header in Graph->readfile
+check that DTAGHOME is set correctly!
+ERROR! cannot read file /opt/dta/arcs.trailer in Graph->readfile
+check that DTAGHOME is set correctly!
+list([a,b,c]-[a], 1)
+set([d,e,f]-[f], 2)
+hash([g=1,h=2,i=3]-[g], 3)
+list([a,b,c]-[a], 0)
+list([a,b,c]-[], 0)

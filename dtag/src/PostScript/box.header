@@ -1,0 +1,147 @@
+%!
+
+% Start PSMath
+PSMinit
+
+% Define size of box
+/size 300 def
+/dh0 -10 def
+/dh -15 def
+/dm 2 def
+7 setfontsize setupfont
+
+% Define prior distribution function
+/prior % list => number
+{	1 exch {
+		load aload pop pop exch sub mul
+	} forall
+} def
+
+% Define intensity
+/intensity {
+	aload pop
+	/y xdef /x xdef /cnt xdef
+	/p [x y] prior def 
+	cnt p div 
+} 5 ldef
+
+
+% Define coloring scheme
+/mycolor {
+	Imax div 999 mul 1 add log 1000 log div 1 exch sub
+	setgray
+} 5 ldef
+
+% Define label coloring scheme
+/mylblcolor {
+	Imax div 999 mul 1 add log 1000 log div 1 exch sub
+	0.5 lt {
+		1 0.5 0.5 setrgbcolor
+	} {
+		0.5 0 0 setrgbcolor
+	} ifelse
+} 5 ldef
+
+
+% Normalize subspace counts
+/normalize {
+	dup /S xdef
+
+	% Count total number of observations
+	/relsum 
+		0 S {0 get add} forall
+	def
+
+	% Normalize each subspace
+	0 1 S length 1 sub {
+		/i xdef
+		S i get dup 0 get			% Si cnt
+		relsum div						% Si freq
+		0 exch put
+	} for
+} def
+
+% Define word classes and their frequencies
+/sum 0 def
+/class1 {
+	/c xdef [sum sum c 60175 div add 0] 1 index xdef 
+	/sum c 60175 div sum add def
+} def
+
+/class2 {
+	/pmin 1 def /pmax 0 def /height 0 def
+	{	aload pop 
+		dup height gt {/height xdef} {pop} ifelse
+		dup pmax gt {/pmax xdef} {pop} ifelse
+		dup pmin lt {/pmin xdef} {pop} ifelse
+	} forall
+	[pmin pmax height 1 add] 
+	1 index xdef
+} def
+
+/drawsubspace {
+	aload pop
+	/y xdef
+	/x xdef
+	/cnt xdef
+
+	/x1 x load 0 get size mul def
+	/x2 x load 1 get size mul def
+	/y1 y load 0 get size mul def
+	/y2 y load 1 get size mul def
+	
+	[cnt x y] intensity mycolor 
+	[x1 y1] [x2 y2] box fill
+} 8 ldef
+
+/drawlabel {
+	aload pop
+	/y xdef /x xdef /cnt xdef
+	/x1 x load 0 get size mul def
+	/x2 x load 1 get size mul def
+	/y1 y load 0 get size mul def
+	/y2 y load 1 get size mul def
+	/I [cnt x y] intensity def
+	I mylblcolor
+	%I Imax div 1000 mul cvi 10 20 string cvrs 
+	cnt relsum mul cvi 10 20 string cvrs
+	[x1 x2 add 2 div y1 y2 add 2 div] 2 2 label
+} 8 ldef
+
+% Define word classes
+/classes [
+	/CS   1191 class1
+	/U=   1859 class1
+		/NP   3128 class1
+		/NC  10787 class1
+			/PC    27 class1
+			/PI   1969 class1
+			/PD   1427 class1
+			/PO    493 class1
+			/PP   2884 class1
+			/PT    105 class1
+			/AC    849 class1
+		/P [PC PI PD PO PP PT AC] class2
+	/N [NP NC P] class2
+		/AO     73 class1
+		/AN   4840 class1
+	/A [AO AN] class2
+		/VA   9329 class1
+		/VE     90 class1
+	/V [VA VE] class2
+	/CC   2058 class1
+	/RG   3960 class1
+	/SP   6407 class1
+	/I=     56 class1
+		/XA     15 class1
+		/XF     57 class1
+		/XP   8316 class1
+		/XR      5 class1
+		/XS     26 class1
+		/XX    224 class1
+	/X [XA XF XP XR XS XX] class2
+	/*    7 class1
+/Word [CS U= N A V X] class2 
+] def
+
+

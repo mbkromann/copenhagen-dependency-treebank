@@ -1,0 +1,99 @@
+%%BeginPrologue
+100 dict begin
+
+% Parameters
+/DY 20 def
+/DX 10 def
+
+% Functions
+/xdef {
+	exch def
+} def
+
+% max: num1 num2 => max
+/max {
+	dup 3 -1 roll dup 3 -1 roll lt {pop} {exch pop} ifelse
+} def
+
+% strong
+/strong {
+	1 0 0 setrgbcolor
+} def
+
+% Font setup
+/ISOfont % font ISOfont
+{   findfont
+    dup length dict begin
+       {1 index /FID ne {def} {pop pop} ifelse} forall
+       /Encoding ISOLatin1Encoding def
+       currentdict
+    end
+    definefont pop
+} def
+
+/Times-Roman /Times-Roman-Latin1 ISOfont
+/romanfont /Times-Roman-Latin1 findfont 10 scalefont def
+/smallfont /Times-Roman-Latin1 findfont 7 scalefont def
+
+
+% word: label string gloss type pos height => -
+/word {
+	% unload arguments
+	/height xdef /type xdef /gloss xdef /str xdef
+
+	% calculate stringwidth
+	/widthS str    stringwidth pop def
+	/widthG gloss  stringwidth pop def
+	/widthT type   stringwidth pop def
+	/width  widthS widthG max widthT max def
+
+	% calculate position of phrasal node
+	[currentpoint 
+		exch width 2 div add exch
+		height 1 add DY mul add] def
+
+	% print words
+	gsave
+		width widthS sub 2 div 0 rmoveto
+		str show
+	grestore gsave
+		width widthT sub 2 div height 1 add DY mul rmoveto
+		type show
+	grestore gsave
+		width widthG sub 2 div -10 rmoveto
+		gloss show
+	grestore gsave
+		width 2 div 8 rmoveto
+		0 height 1 add DY mul 10 sub rlineto
+		2 setlinewidth
+		stroke
+	grestore
+
+	% move to next position
+	width DX add 0 rmoveto
+} def
+
+% edge: p1 string p2 => -
+/edge {
+	% unload arguments 
+	/P2 xdef /s xdef /P1 xdef
+
+	% calculate points
+	gsave 
+		% Draw line
+		P1 aload pop 8 add moveto
+		P2 aload pop 2 sub lineto
+		stroke
+
+		% Draw label
+		smallfont setfont
+		strong
+		P1 aload pop 10 add moveto
+		s stringwidth exch 2 div neg exch rmoveto
+		s show
+	grestore
+} def
+
+% Setup
+romanfont setfont
+10 25 moveto

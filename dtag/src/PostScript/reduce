@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# File
+file=$1
+
+# Reduce PostScript file
+sed $1 -e 's/\%.*//g'\
+	| tr '\n' ' ' \
+	| sed \
+		-e 's/[ 	][ 	]*/ /g' \
+		-e 's/{ /{/g' \
+		-e 's/ }/}/g' \
+		-e 's/[ 	][ 	]*/ /g' \
+		| sed -e 's/^ //g'
+echo -e "\n"

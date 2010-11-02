@@ -1,0 +1,1 @@
+perl my $p = DTAG::Parse->new(); $p->parseop_add('C', 3); $p->parseop_add('B', 2); $p->parseop_add('A', 1); $p->parseop_add('D'); print $I->dump($p->parseops()) . "\n";

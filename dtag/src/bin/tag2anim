@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Parameters
+frames=300
+
+# File names
+file=$1
+dtag=/tmp/tag2anim.$$
+dtag2=/tmp/tag2anim2.$$
+anim=`echo $file | sed -e 's/.tag//g'`
+anim="$anim-anim.gif"
+
+# Convert tag file to dtag-file
+dtag -e "load $file ;; perl \$G->deparse(\"$dtag\") ;; quit"
+
+# Create initial frame setting animation speed
+echo -e "frame -d 5 Demo\n" > $dtag2
+
+# Insert frames before each node and edge
+cat $dtag | sed -e 's/^node/frame Adding node\nnode/g' -e 's/^edge/frame Adding edge\nedge/g' | head -$frames >> $dtag2
+
+# Insert final frame at end
+echo -e "\nframe -d500 End of demo\n" >> $dtag2
+
+# Convert to animation
+/home/mtkromann/research/dtag/bin/makeanim $dtag2
+mv $dtag2-anim.gif $anim 
+
+# Clean up
+#rm $dtag $dtag2
+echo $dtag $dtag2
+

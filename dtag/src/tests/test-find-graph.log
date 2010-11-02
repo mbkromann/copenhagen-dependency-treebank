@@ -1,0 +1,23 @@
+ok  : test-find-graph 01:  find $X subj $Y
+ok  : test-find-graph 02:  find E$Y($X /bj$/ $Y)
+ok  : test-find-graph 02b:  find exists($Y,$X /bj$/ $Y)
+ok  : test-find-graph 03:  find E$Y($X isa(SYNCOMP) $Y)
+ok  : test-find-graph 04:  find E$Y($X isa((COMP+SYN)-(subj|vobj)) $Y)
+ok  : test-find-graph 05:  find E$X(E$Y($X subj $Z & $Y vobj $Z))
+ok  : test-find-graph 06:  find E$X($X subj $Z) & ! E$Y($Y vobj $Z)
+ok  : test-find-graph 07:  find E$X($X vobj $Y | $X dobj $Y)
+ok  : test-find-graph 08:  find E$Y($X isa(-SYN) $Y)
+ok  : test-find-graph 09:  find $X > 0 & $X < 10
+ok  : test-find-graph 10:  find $X <= 10 | $X >= 200
+ok  : test-find-graph 11:  find $X eq "<s>"
+ok  : test-find-graph 12:  find $X[msd] eq "CC"
+ok  : test-find-graph 13:  $X[msd] =~ /^[^NXVAP]/
+ok  : test-find-graph 14:  A$D(! $D /./ $X)
+ok  : test-find-graph 15a:  find E$Y($X << $Y & $X subj $Y)
+ok  : test-find-graph 15b:  find E$Y($Y >> $X & $X subj $Y)
+ok  : test-find-graph 15c:  find E$Y($X <1< $Y & $X subj $Y)
+ok  : test-find-graph 15d:  find E$Y($Y >1..1> $X & $X subj $Y)
+ok  : test-find-graph 15e:  find E$Y($Y >0..1> $X & $X subj $Y)
+ok  : test-find-graph 16a:  find E$Y($X <2< $Y & $X subj $Y)
+ok  : test-find-graph 16b:  find E$Y($Y >2> $X & $X subj $Y)
+ok  : test-find-graph 17:  find E$Y($Y >2..100> $X & $X subj $Y)

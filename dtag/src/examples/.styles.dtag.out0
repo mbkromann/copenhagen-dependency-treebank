@@ -1,0 +1,2 @@
+{"arc" => "[4] 0 setdash 0.25 setgray ", "arclabel" => "1 setgray ", "label" => "0 0 1 setrgbcolor 0.75 setgray 1 setfontstyle setupfont "}
+{"arc" => "0.5 0.7 1.0 setrgbcolor ", "arclabel" => "0 setgray ", "label" => "0.23 setgray "}

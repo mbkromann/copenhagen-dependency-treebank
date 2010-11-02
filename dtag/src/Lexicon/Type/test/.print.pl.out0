@@ -1,0 +1,6 @@
+a: super=[] lvars=[]
+a_a: super=[a] lvars=[]
+b: super=[] lvars=[]
+c: super=[] lvars=[]
+abc: super=[a b c] lvars=[]
+d: super=[abc a_a] lvars=[]

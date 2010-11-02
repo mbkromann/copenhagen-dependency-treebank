@@ -1,0 +1,125 @@
+#!/bin/sh
+
+##
+## Settings
+##
+
+	TEXTCOLORS=' background="background.gif" text="#000000" link="#0000ff" vlink="#444444"'
+	#TEXTCOLORS='bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#444444"'
+	HTTP="http://disgram.sf.net/"
+	BASE="/home/mtkromann/research/dtag/html"
+	MAINTAINER="Matthias T. Kromann"
+	MAINTAINERMAIL="mailto:mtk@id.cbs.dk"
+	BACKGROUND="figs/background.gif"
+
+##
+## if no files specified, update all files in ~/html
+##
+
+cd $BASE
+files=$*
+if [ "$#" = "0" ] ; then
+	files=`find . -name '*.mhtml' -follow | sed -e '/^\.\//s///g'`
+fi
+
+##
+## Create files
+##
+
+tmp="/tmp/makehtml.$$"
+for src in $files; do
+	# Find file names
+	name=`echo $src | sed -e 's/\.mhtml$//' -e 's/^.*\/\([^\/]*\)$/\1/'`
+	path=`echo $src | grep '/' | sed -e 's/^\(.*\)\/[^\/]*$/\1/'`
+	if [ -z "$path" ] ; then 
+		path="" 
+		cp $BASE/$BACKGROUND .
+	else
+		path="$path/"
+		cp $BASE/$BACKGROUND $path
+	fi
+	text=${name}T.html
+	menu=${name}M.html
+	frame=${name}.html
+	src=$path${name}.mhtml
+
+	# Check that source exists
+	if [ ! -f $src ] ; then
+		echo "Error! File $src does not exist!"
+		continue
+	fi
+
+	# Update if mhtml-file newer than html-file
+	if [ $path$frame -nt $src ] ; then
+		echo "$path$frame is newer than $src"
+		continue
+	else
+		echo "processing $src"
+	fi
+
+	# Check HTML source for syntax errors
+	nsgmls -s -c /usr/share/sgml/html-4.0/HTML4.cat $src
+
+	# Extract document title and language
+	title=`egrep '<title>.*</title>' $src \
+		| sed -e 's/.*<title>\(.*\)<\/title>.*/\1/'`
+	lang=`echo $name | egrep '^.*-(uk|dk)$' | sed -e 's/.*-\([a-z][a-z]\)$/\1/'`
+	if [ -z "$lang" ] ; then lang="uk" ; fi
+
+	# Create menu file
+	makemenu $src $lang > $path$menu
+
+	# Create text file
+	INFO1=`echo "$HTTP$path$frame" | sed -e "s/\//\\\\\\\\\//g"`
+	INFO2="last updated by <a href=\"$MAINTAINERMAIL\">$MAINTAINER<\/a>" 
+	INFO3="at `date '+%Y-%m-%d %H:%M'`"
+	sed -e "s/^<body>\$/<body $TEXTCOLORS>/" $src \
+		| sed -e "s/^<\/body>\$/<hr><small><a href=\"$INFO1\" target=\"_parent\">$INFO1<\/a> $INFO2 $INFO3<\/small><\/body>/" \
+		| sed -e 's/<\/head>/	<meta name="robot" content="index"><\/head>/' \
+		> $path$text
+
+	# Create frameset file
+	if [ "$lang" = "dk" ] ; then 
+		FRAMESET="Din browser understøtter ikke visning af frames. \\n\
+		Du kan enten læse <a href=\"$text\">tekst-delen</a> af \\n\
+		den ønskede side, <a href=\"$menu\">menu-delen</a> eller \\n\
+		opgradere til en nyere browser, fx \\n\
+		<a href=\"http://home.netscape.com/comprod/mirror/index.html\"\\n\
+		>Netscape</a>."
+	else 
+		FRAMESET="Your browser is not capable of showing frames. \\n\
+		You can either read the <a href=\"$text\">text part</a> of \\n\
+		the requested page, the <a href=\"$menu\">menu part</a>, \\n\
+		or upgrade to a newer browser, like <a \\n\
+		href=\"http://home.netscape.com/comprod/mirror/index.html\" \\n\
+		>Netscape</a>."
+	fi		
+
+cat <<end_frame > $path$frame 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN" 
+    "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html> 
+<head>
+    <title>$title</title>
+	<meta name="robot" content="noindex">
+end_frame
+
+	egrep '<meta.*>' $src >> $path$frame
+	CONTENT=`egrep '<meta.*>' $src | grep description | sed -e 's/<.*content="\(.*\)">/\1/g'`
+
+cat <<end_frame >> $path$frame 
+</head>
+
+<frameset cols="140,*" border="0">
+	<frame src="$menu" name="menu" frameborder="0"> 
+	<frame src="$text" name="text" frameborder="0">
+    <noframes>
+		<p><strong>$CONTENT</strong></p>
+		
+		`echo -e $FRAMESET`
+    </noframes>
+</frameset>
+</html>
+end_frame
+
+done

@@ -1,0 +1,12 @@
+<W gloss="yes" msd="I" stream="A" in="" out="2:coord|1:mod">ja~</W>
+<W gloss="(pause)" msd="XX" stream="A" in="-1:mod" out="">££</W>
+<W gloss="but" msd="CC" stream="A" in="-2:coord" out="4:conj">men</W>
+<W gloss="I" msd="PP" stream="1" in="2:subj" out="">jeg</W>
+<W gloss="it" msd="PP" stream="A" in="2:subj" out="">det</W>
+<W gloss="stay" msd="VA" stream="1" in="" out="-2:subj|3:dobj|5:mod|6:mod">opholder</W>
+<W gloss="is" msd="VA" stream="A" in="-4:conj" out="-2:subj|1:mod|3:pred">er</W>
+<W gloss="yes" msd="I" stream="A" in="-1:mod" out="">jo</W>
+<W gloss="me" msd="PP" stream="1" in="-3:dobj" out="">mig</W>
+<W gloss="it" msd="PP" stream="A" in="-3:pred" out="">det</W>
+<W gloss="mostly" msd="RG" stream="1" in="-5:mod" out="">mest</W>
+<W gloss="in-here" msd="RG" stream="1" in="-6:mod" out="">herinde</W>

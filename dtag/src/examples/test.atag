@@ -1,0 +1,9 @@
+<DTAGalign>
+<alignFile key="a" href="test.tag" sign="_input"/>
+<alignFile key="b" href="test.tag" sign="_input"/>
+<align out="a44" type="¹+x+²" in="b43" creator="0" insign="To" outsign="kendte"/>
+<align out="a44" type="¹'x'²" in="b43" creator="0" insign="To" outsign="kendte"/>
+<align out="a44" type="¹'x'²" in="b44" creator="0" insign="kendte" outsign="kendte"/>
+<align out="a44" type="¹'x'²" in="b49" creator="0" insign="og" outsign="kendte"/>
+<align out="a54" type="1..3=2..4" in="b54" creator="0" insign="," outsign=","/>
+</DTAGalign>

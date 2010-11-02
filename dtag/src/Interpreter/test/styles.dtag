@@ -1,0 +1,5 @@
+style style1 -label -color blue -ps '0.75 setgray' -fonttype bold -arc -dash dash -ps '0.25 setgray' -arclabel -color gray(1)
+perl print $I->dump($I->{'styles'}{'style1'}) . "\n"
+
+style style2 -label -color gray(0.23) -arc -color rgb(0.5,0.7,1.0) -arclabel -color gray(0) 
+perl print $I->dump($I->{'styles'}{'style2'}) . "\n"

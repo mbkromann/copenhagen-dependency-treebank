@@ -1,0 +1,9 @@
+0| <s>
+1| Comment 1
+2: <W gloss="They" msd="PP" in="3:subj|3:land|3:land" out="">De</W>
+3: <W gloss="are" msd="VA" in="" out="2:subj|4:vmod|5:vmod|6:dobj|7:pnct|8:land|2:land|2:land">er</W>
+4: <W gloss="not" msd="RG" in="3:vmod" out="">ikke</W>
+5: <W gloss="longer" msd="RG" in="3:vmod" out="">længere</W>
+6: <W gloss="sinners" msd="NC" in="3:dobj" out="">syndere</W>
+7: <W gloss="." msd="XP" in="3:pnct" out="">.</W>
+8| </s>

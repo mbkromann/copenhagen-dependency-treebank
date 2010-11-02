@@ -1,0 +1,35 @@
+# Set corpus
+load example3.tag
+
+# Find all subjects
+find $1 subj $2
+matches
+
+# Find all subjects that precede their verb
+find $1 < $2, $1 subj $2
+matches
+
+# Find all subjects that succeed their verb
+find $1 subj $2, $1 > $2
+matches
+
+# Find all subjects that also have a direct object
+find $1 subj $2, exist($3, $3 dobj $2)
+matches
+
+# Find all subjects that do not have a direct object
+find $1 subj $2, ! exist($3, $3 dobj $2)
+matches
+
+# Find all subjects and verbs that are adjacent (subject << verb)
+find $1 subj $2, $1 << $2
+matches
+
+# Find all subjects and verbs that are adjacent (subject << verb)
+find $1 subj $2, $1 >2> $3
+matches
+
+# Find all subjects and verbs that are adjacent (subject << verb)
+find $1 subj $2, $1 <0-2< $3
+matches
+

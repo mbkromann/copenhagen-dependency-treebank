@@ -1,0 +1,85 @@
+#!/usr/bin/perl
+
+my $file = $ARGV[0];
+my $tmp = "/tmp/makeanim.$$";
+my $dir = `pwd`;
+chomp($dir);
+
+# Read DTAG file
+open(DTAG, "< $file"); 
+my @dtag = ();
+while (my $line = <DTAG>) {
+	push @dtag, $line;
+}
+close(DTAG);
+
+# Generate DTAG script
+my $frame = 0;
+my $script = "";
+my $pre = "";
+my $gifstring = "";
+my $imax = scalar(@dtag);
+for (my $i = 0; $i <= $imax; ++$i) {
+	# Issue old frame
+	if ($i == $imax || $dtag[$i] =~ /^frame (-d([0-9]+))?/) {
+		$script .= sprintf("clear\n%s\nprint %06d.ps\n", $pre, ++$frame);
+		$gifstring .= sprintf(" %06d.gif", $frame);
+		$gifstring .= " -d $2" if (defined($2));
+	}
+
+	# Read next line
+	$pre .= $dtag[$i] if ($i != $imax);
+}
+
+# Create temporary directory
+mkdir($tmp) || die "Cannot create directory $tmp";
+chdir($tmp) || die "Cannot change to directory $tmp";
+
+# Generate DTAG script
+open(DTAG, "> $tmp/script.dtag");
+print DTAG $script;
+close(DTAG);
+
+# Generate PostScript files from DTAG
+print "Generating PostScript files\n";
+`dtag -e 'script script.dtag ;; quit'`;
+
+# Convert PostScript files to GIF
+print "Convert PostScript files to GIF\n";
+foreach my $f (glob("*.ps")) {
+	$f =~ s/.ps$//g;
+	system("xmake $f.gif");
+};
+
+# Find maximal width and height of GIF files
+my $maxw = `gifsicle -I *.gif | grep '+ image #' | awk '{ print \$4 }' | awk -Fx '{ print \$1 }' | sort -n | tail -1`; 
+my $maxh = `gifsicle -I *.gif | grep '+ image #' | awk '{ print \$4 }' | awk -Fx '{ print \$2 }' | sort -n | tail -1`; 
+chomp($maxw);
+chomp($maxh);
+
+# Print 
+print "maxw=$maxw\nmaxh=$maxh\n";
+
+# Pad all GIF files with white
+my $last;
+foreach my $f (glob("*.ps")) {
+	$f =~  s/.ps$//g;
+	print "giftopnm $f.gif | pnmpad -white -width $maxw -height $maxh -halign 0 -valign 1 | ppmtogif > pad.gif\n";
+	`giftopnm $f.gif | pnmpad -white -width $maxw -height $maxh -halign 0 -valign 1 | ppmtogif > pad.gif`;
+	`mv pad.gif $f.gif`;
+	$last = $f;
+}
+
+# Create animation
+`gifsicle -O1 -l0 -d 20 $gifstring > anim.gif`;
+
+# Move animation to final directory
+print "dir=$dir\n";
+chdir($dir) || print "Could not change to directory $dir\n";
+`mv $tmp/anim.gif $file-anim.gif`;
+`mv $tmp/$last.gif $file-anim0.gif`;
+print "file=$file-anim.gif\n";
+
+# Clean up
+#`rm -r $tmp`
+print $tmp, "\n";

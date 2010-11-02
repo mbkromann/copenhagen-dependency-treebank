@@ -1,0 +1,2 @@
+load stream.tag
+perl print $I->dump($G->streams()), "\n";

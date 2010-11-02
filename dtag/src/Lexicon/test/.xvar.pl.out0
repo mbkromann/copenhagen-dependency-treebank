@@ -1,0 +1,198 @@
+
+TEST ATOMIC INHERITANCE
+a = 9:E = 9:E
+A = 9:A = 9:A
+b = 9:E = 9:E
+c = 9:F = 9:F
+C = 9:C = 9:C
+d = 0:undef = 0:
+E = 9:E = 9:E
+F = 9:F = 9:F
+G = 9:G = 9:G
+h = 0:undef = 0:
+i = 0:undef = 0:
+
+TEST LIST INHERITANCE
+h:0 = 0:undef = 0:[]:
+h:1 = 0:undef = 0:[]:
+h:2 = 0:undef = 0:[]:
+h:3 = 0:undef = 0:[]:
+---
+i:0 = 0:undef = 0:[]:
+i:1 = 0:undef = 0:[]:
+i:2 = 0:undef = 0:[]:
+i:3 = 0:undef = 0:[]:
+---
+d:0 = 0:undef = 0:[]:
+d:1 = 0:undef = 0:[]:
+d:2 = 0:undef = 0:[]:
+d:3 = 0:undef = 0:[]:
+---
+E:0 = 26:[E1,E2] = 26:[E1,E2]:ARRAY
+E:1 = 26:[E1,E2] = 26:[E1,E2]:ARRAY
+E:2 = 42:[E1,E2] = 42:[E1,E2]:ARRAY
+E:3 = 42:[E1,E2] = 42:[E1,E2]:ARRAY
+---
+b:0 = 26:[E1,E2] = 26:[E1,E2]:ARRAY
+b:1 = 26:[E1,E2] = 26:[E1,E2]:ARRAY
+b:2 = 42:[E1,E2] = 42:[E1,E2]:ARRAY
+b:3 = 42:[E1,E2] = 42:[E1,E2]:ARRAY
+---
+F:0 = 26:[F2] = 26:[F2]:ARRAY
+F:1 = 26:[F2] = 26:[F2]:ARRAY
+F:2 = 42:[F2] = 42:[F2]:ARRAY
+F:3 = 42:[F2] = 42:[F2]:ARRAY
+---
+G:0 = 26:[G1,G2] = 26:[G1,G2]:ARRAY
+G:1 = 26:[G1,G2] = 26:[G1,G2]:ARRAY
+G:2 = 42:[G1,G2] = 42:[G1,G2]:ARRAY
+G:3 = 42:[G1,G2] = 42:[G1,G2]:ARRAY
+---
+c:0 = 26:[F2] = 26:[F2]:ARRAY
+c:1 = 26:[F2] = 26:[F2]:ARRAY
+c:2 = 42:[F2,G1,G2] = 42:[F2,G1,G2]:ARRAY
+c:3 = 42:[F2,G1,G2] = 42:[F2,G1,G2]:ARRAY
+---
+C:0 = 26:[C1,C2] = 26:[C1,C2]:ARRAY
+C:1 = 26:[F2,C1,C2] = 26:[F2,C1,C2]:ARRAY
+C:2 = 42:[C1,C2] = 42:[C1,C2]:ARRAY
+C:3 = 42:[F2,G1,G2,C1,C2 = 42:[F2,G1,G2,C1,C2]:ARRAY
+---
+a:0 = 26:[E1,E2] = 26:[E1,E2]:ARRAY
+a:1 = 26:[E1,E2] = 26:[E1,E2]:ARRAY
+a:2 = 42:[E1,E2,F2,G1,G2] = 42:[E1,E2,F2,G1,G2]:ARRAY
+a:3 = 42:[E1,E2,F2,G1,G2] = 42:[E1,E2,F2,G1,G2]:ARRAY
+---
+A:0 = 26:[A1,A2] = 26:[A1,A2]:ARRAY
+A:1 = 26:[E1,E2,A1,A2] = 26:[E1,E2,A1,A2]:ARRAY
+A:2 = 42:[A1,A2] = 42:[A1,A2]:ARRAY
+A:3 = 42:[E1,E2,F2,G2,C1,C2,A1,A2] = 42:[E1,E2,F2,G2,C1,C2,A1,A2]:ARRAY
+---
+
+TEST LIST INHERITANCE
+h:0 = 0:undef = 0:[]:
+h:1 = 0:undef = 0:[]:
+h:2 = 0:undef = 0:[]:
+h:3 = 0:undef = 0:[]:
+---
+i:0 = 0:undef = 0:[]:
+i:1 = 0:undef = 0:[]:
+i:2 = 0:undef = 0:[]:
+i:3 = 0:undef = 0:[]:
+---
+d:0 = 0:undef = 0:[]:
+d:1 = 0:undef = 0:[]:
+d:2 = 0:undef = 0:[]:
+d:3 = 0:undef = 0:[]:
+---
+E:0 = 27:[E,x,y] = 27:[E,x,y]:ARRAY
+E:1 = 27:[E,x,y] = 27:[E,x,y]:ARRAY
+E:2 = 43:[E,x,y] = 43:[E,x,y]:ARRAY
+E:3 = 43:[E,x,y] = 43:[E,x,y]:ARRAY
+---
+b:0 = 27:[E,x,y] = 27:[E,x,y]:ARRAY
+b:1 = 27:[E,x,y] = 27:[E,x,y]:ARRAY
+b:2 = 43:[E,x,y] = 43:[E,x,y]:ARRAY
+b:3 = 43:[E,x,y] = 43:[E,x,y]:ARRAY
+---
+F:0 = 27:[w] = 27:[w]:ARRAY
+F:1 = 27:[w] = 27:[w]:ARRAY
+F:2 = 43:[w] = 43:[w]:ARRAY
+F:3 = 43:[w] = 43:[w]:ARRAY
+---
+G:0 = 27:[G,x] = 27:[G,x]:ARRAY
+G:1 = 27:[G,x] = 27:[G,x]:ARRAY
+G:2 = 43:[G,x] = 43:[G,x]:ARRAY
+G:3 = 43:[G,x] = 43:[G,x]:ARRAY
+---
+c:0 = 27:[w] = 27:[w]:ARRAY
+c:1 = 27:[w] = 27:[w]:ARRAY
+c:2 = 43:[w,G,x] = 43:[w,G,x]:ARRAY
+c:3 = 43:[w,G,x] = 43:[w,G,x]:ARRAY
+---
+C:0 = 27:[C] = 27:[C]:ARRAY
+C:1 = 27:[w,C] = 27:[w,C]:ARRAY
+C:2 = 43:[C] = 43:[C]:ARRAY
+C:3 = 43:[w,G,x,C] = 43:[w,G,x,C]:ARRAY
+---
+a:0 = 27:[E,x,y] = 27:[E,x,y]:ARRAY
+a:1 = 27:[E,x,y] = 27:[E,x,y]:ARRAY
+a:2 = 43:[E,x,y,w,G] = 43:[E,x,y,w,G]:ARRAY
+a:3 = 43:[E,x,y,w,G] = 43:[E,x,y,w,G]:ARRAY
+---
+A:0 = 27:[A,z] = 27:[A,z]:ARRAY
+A:1 = 27:[E,y,A,z] = 27:[E,y,A,z]:ARRAY
+A:2 = 43:[A,z] = 43:[A,z]:ARRAY
+A:3 = 43:[E,y,w,G,C,A,z] = 43:[E,y,w,G,C,A,z]:ARRAY
+---
+
+TEST HASH INHERITANCE
+h:0 = 0:undef = 0:{}:
+h:1 = 0:undef = 0:{}:
+h:2 = 0:undef = 0:{}:
+h:3 = 0:undef = 0:{}:
+---
+i:0 = 0:undef = 0:{}:
+i:1 = 0:undef = 0:{}:
+i:2 = 0:undef = 0:{}:
+i:3 = 0:undef = 0:{}:
+---
+d:0 = 0:undef = 0:{}:
+d:1 = 0:undef = 0:{}:
+d:2 = 0:undef = 0:{}:
+d:3 = 0:undef = 0:{}:
+---
+E:0 = 28:{E=>1,x=>5} = 28:{E=>1,x=>5}:HASH
+E:1 = 28:{E=>1,x=>5} = 28:{E=>1,x=>5}:HASH
+E:2 = 44:{E=>1,x=>5} = 44:{E=>1,x=>5}:HASH
+E:3 = 44:{E=>1,x=>5} = 44:{E=>1,x=>5}:HASH
+---
+b:0 = 28:{E=>1,x=>5} = 28:{E=>1,x=>5}:HASH
+b:1 = 28:{E=>1,x=>5} = 28:{E=>1,x=>5}:HASH
+b:2 = 44:{E=>1,x=>5} = 44:{E=>1,x=>5}:HASH
+b:3 = 44:{E=>1,x=>5} = 44:{E=>1,x=>5}:HASH
+---
+F:0 = 28:{F=>1,x=>6,w=>6} = 28:{F=>1,w=>6,x=>6}:HASH
+F:1 = 28:{F=>1,x=>6,w=>6} = 28:{F=>1,w=>6,x=>6}:HASH
+F:2 = 44:{F=>1,x=>6,w=>6} = 44:{F=>1,w=>6,x=>6}:HASH
+F:3 = 44:{F=>1,x=>6,w=>6} = 44:{F=>1,w=>6,x=>6}:HASH
+---
+G:0 = 28:{G=>1,x=>7} = 28:{G=>1,x=>7}:HASH
+G:1 = 28:{G=>1,x=>7} = 28:{G=>1,x=>7}:HASH
+G:2 = 44:{G=>1,x=>7} = 44:{G=>1,x=>7}:HASH
+G:3 = 44:{G=>1,x=>7} = 44:{G=>1,x=>7}:HASH
+---
+c:0 = 28:{F=>1,w=>6,x=>6} = 28:{F=>1,w=>6,x=>6}:HASH
+c:1 = 28:{F=>1,w=>6,x=>6} = 28:{F=>1,w=>6,x=>6}:HASH
+c:2 = 44:{F=>1,G=>1,w=>6,x=>6} = 44:{F=>1,G=>1,w=>6,x=>6}:HASH
+c:3 = 44:{F=>1,G=>1,w=>6,x=>6} = 44:{F=>1,G=>1,w=>6,x=>6}:HASH
+---
+C:0 = 28:{C=>1,x=>3,y=>3} = 28:{C=>1,x=>3,y=>3}:HASH
+C:1 = 28:{C=>1,F=>1,x=>3,y=>3} = 28:{C=>1,F=>1,x=>3,y=>3}:HASH
+C:2 = 44:{C=>1,x=>3,y=>3} = 44:{C=>1,x=>3,y=>3}:HASH
+C:3 = 44:{C=>1,F=>1,G=>1,x=>3,y=>3} = 44:{C=>1,F=>1,G=>1,x=>3,y=>3}:HASH
+---
+a:0 = 28:{E=>1,x=>5} = 28:{E=>1,x=>5}:HASH
+a:1 = 28:{E=>1,x=>5} = 28:{E=>1,x=>5}:HASH
+a:2 = 44:{E=>1,F=>1,G=>1,w=>6,x=>5} = 44:{E=>1,F=>1,G=>1,w=>6,x=>5}:HASH
+a:3 = 44:{E=>1,F=>1,G=>1,w=>6,x=>5} = 44:{E=>1,F=>1,G=>1,w=>6,x=>5}:HASH
+---
+A:0 = 28:{A=>1} = 28:{A=>1}:HASH
+A:1 = 28:{A=>1,E=>1} = 28:{A=>1,E=>1}:HASH
+A:2 = 44:{A=>1} = 44:{A=>1}:HASH
+A:3 = 44:{A=>1,C=>1,E=>1,F=>1,G=>1,y=>3} = 44:{A=>1,C=>1,E=>1,F=>1,G=>1,y=>3}:HASH
+---
+z:0 = 26:[x] = 26:[x]:ARRAY
+z:1 = 26:[x] = 26:[x]:ARRAY
+z:2 = 42:[x,y] = 42:[x,y]:ARRAY
+z:3 = 42:[x,y] = 42:[x,y]:ARRAY
+---
+Z:0 = 26:[Z] = 26:[Z]:ARRAY
+Z:1 = 26:[x,Z] = 26:[x,Z]:ARRAY
+Z:2 = 42:[Z] = 42:[Z]:ARRAY
+Z:3 = 42:[x,y,Z] = 42:[x,y,Z]:ARRAY
+---
+EXPECT ERRORS after this
+Warning: inheritance type mismatch in variable x of type s at DTAG/Lexicon.pm line 1480.
+t.x = [1]
+Can't coerce array into hash at DTAG/Lexicon.pm line 2739.

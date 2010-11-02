@@ -1,0 +1,2 @@
+load test.tag
+perl print $I->dump($G->etypes()) . "\n";

@@ -1,0 +1,10 @@
+load example2.tag
+edge 2 subj 3
+4 vmod 3
+5 vmod 3
+6 dobj 3
+7 pnct 3
+8 land 3
+2 land 3
+2 land 3
+view

@@ -1,0 +1,23 @@
+load example3.tag
+touch
+new
+touch
+graphs
+goto G1
+graphs
+goto G0
+close
+graphs
+
+# Test next / prev
+new 
+new
+new
+goto G0
+nextg
+goto G-
+graphs
+next G
+prev G
+goto next G
+graphs

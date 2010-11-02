@@ -1,0 +1,11 @@
+ERROR! cannot read file /opt/dta/arcs.header in Graph->readfile
+check that DTAGHOME is set correctly!
+ERROR! cannot read file /opt/dta/arcs.trailer in Graph->readfile
+check that DTAGHOME is set correctly!
+hash = {"a" => "1", "b" => ["1", "2", ["3", "4"]], "c" => {"c1" => "1", "c2" => ["1", "2"], "c3" => {"c31" => "1", "c32" => "2"}}}
+copy = {"a" => "1", "b" => ["1", "2", ["3", "4"]], "c" => {"c1" => "1", "c2" => ["1", "2"], "c3" => {"c31" => "1", "c32" => "2"}}}
+
+src = {"a" => ["<a|0>", {"2" => "<a|1|2>", "3" => "<a|1|3>"}, "<a|2>"], "b" => {"1" => ["<b|1|0>", "<b|1|1>", "<b|1|2>"], "2" => "<b|2>"}}
+hash = {"a" => bless( ["a|1|3"], SrcVal ), "b" => "<b>", "c" => [bless( ["b|1"], SrcVal ), "1", bless( ["b|2"], SrcVal )]}
+copy = {"a" => "<a|1|3>", "b" => "<b>", "c" => [["<b|1|0>", "<b|1|1>", "<b|1|2>"], "1", "<b|2>"]}
+

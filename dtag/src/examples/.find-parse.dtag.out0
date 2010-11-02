@@ -1,0 +1,45 @@
+input=$1<$2
+parse=FindLT($1,$2)
+vars=$1 $2
+input=$1 >$2
+parse=FindGT($1,$2)
+vars=$1 $2
+input=$1 != $2
+parse=!FindEQ($1,$2)
+vars=$1 $2
+input=$a == $b
+parse=FindEQ($a,$b)
+vars=$a $b
+input=$node[msd] =~ /VA.*/
+parse=FindRE($node,msd,/VA.*/)
+vars=$node
+input=$N subj $V
+parse=FindEDGE($N,subj,$V)
+vars=$N $V
+input=$N path(<subj>dobj<dobj{<vobj}+) $V
+parse=FindPATH($N,['<','subj','>','dobj','<','dobj','+',['<','vobj']],$V)
+vars=$N $V
+input=($N subj $V)
+parse=FindEDGE($N,subj,$V)
+vars=$N $V
+input=($1<$2), ($3 subj $5)
+parse=FindAND(FindLT($1,$2),FindEDGE($3,subj,$5))
+vars=$1 $2 $3 $5
+input=($1<$2) & ($3 subj $5)
+parse=FindAND(FindLT($1,$2),FindEDGE($3,subj,$5))
+vars=$1 $2 $3 $5
+input=($1<$2) | ($3 subj $5)
+parse=FindOR(FindLT($1,$2),FindEDGE($3,subj,$5))
+vars=$1 $2 $3 $5
+input=! ($1<$2)
+parse=FindNOT(FindLT($1,$2))
+vars=$1 $2
+input=$1<$2, $3<$4, $N:noun+common-x|verb, $N subj $V
+parse=FindAND(FindLT($1,$2),FindAND(FindLT($3,$4),FindAND(FindINH($N,['+','noun',['-','common',['|','x','verb']]]),FindEDGE($N,subj,$V))))
+vars=$1 $2 $3 $4 $N $V
+input=$1<$2 & $3<$4 | $5<$6
+parse=FindAND(FindLT($1,$2),FindOR(FindLT($3,$4),FindLT($5,$6)))
+vars=$1 $2 $3 $4 $5 $6
+input=$1<$2 & ! $3<$4 | $5<$6
+parse=FindAND(FindLT($1,$2),FindNOT(FindOR(FindLT($3,$4),FindLT($5,$6))))
+vars=$1 $2 $3 $4 $5 $6

@@ -1,0 +1,23 @@
+# Set corpus
+corpus example.tag example3.tag
+
+# Find all subjects
+find -corpus $1 subj $2
+matches
+
+# Find all subjects that precede their verb
+find -corpus $1 < $2, $1 subj $2
+matches
+
+# Find all subjects that succeed their verb
+find -corpus $1 subj $2, $1 > $2
+matches
+
+# Find all subjects that also have a direct object
+find -corpus $1 subj $2, exist($3, $3 dobj $2)
+matches
+
+# Find all subjects that do not have a direct object
+find -corpus $1 subj $2, ! exist($3, $3 dobj $2)
+matches
+

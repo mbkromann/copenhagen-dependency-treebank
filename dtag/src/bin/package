@@ -1,0 +1,44 @@
+#!/bin/bash
+CVS="cvs -z3 -d:pserver:anonymous@cvs.sf.net:/cvsroot/disgram"
+CVS="cvs -z3 -d:ext:mtkromann@cvs.sf.net:/cvsroot/disgram"
+
+# Parameters
+name=$1
+package=`echo $1 | sed -e 's/^\([^-]*\).*/\1/'`
+
+# Find tag command
+rtag="-r `echo $1 | sed -e 's/\./_/g'`"
+
+# Create new directory
+rm -rf releases/$name
+mkdir -p releases/$name
+
+# Checkout CVS release
+cd releases/$name
+$CVS co -P $rtag . \
+	|| (echo "Non-existing cvs tag $tag!" && exit 1)
+
+# Compile package and run tests
+pushd .
+if [ $package = "dtag" ] ; then
+	# DTAG
+	rm -r tagging
+	make || exit 1
+elif [ $package = "ddt" ] ; then 
+	# DDT
+	cd tagging/danish
+	make || exit 1
+fi
+popd
+
+# Create archive
+cd .. 
+include=.$name
+find $name -name CVS -prune -o -type f -print > $include
+tar cjf $name.tar.bz2 -T $include 
+#cat $include | zip -9 -@ $name.zip
+
+# Clean up
+rm $include
+rm -r $name
+

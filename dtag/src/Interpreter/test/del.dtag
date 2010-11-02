@@ -1,0 +1,6 @@
+load example.tag
+del 1
+del 5
+del 3
+del 5
+view

@@ -1,0 +1,1 @@
+perl my $T = Text->new(); $T->input('A', 'stream A'); $T->input('B', 'stream B'); print $I->dump($T->streams()), "\n";

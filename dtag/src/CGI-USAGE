@@ -1,0 +1,35 @@
+
+WEB INTERFACE TO CGI:
+
+One process at a time:
+
+	1. DTAG-CGI creates a session key $session, a query and a query
+	key $query, and stores the query (if the same query has been
+	issued before, it does not store a query but simply links to the
+	results); it sends back a HTML page which updates itself every 5
+	seconds. DTAG-CGI implements the following commands:
+			
+		* [search]: send "find" request
+		* [show matches]: show matches (text-based)
+		* [show graph]: show graph (hyperlink to image)
+
+	2. There are two versions of DTAG running all the time: DTAG-FIND
+	and DTAG-show, each handling their own requests.
+
+	3. DTAG (which is running all the time) is constantly looking for
+	requests in $sessions; every time it finds one, it renames the
+	request as an old request, processes the request, and stores 
+	the answer (along with matches and graphs produced by the
+	request). DTAG constantly updates the status during processing. 
+	
+		$sessions/match/$session.$query.dtag: match request
+		$sessions/find/$session.$query.dtag: find request
+		$sessions/O$session.$query.dtag: old request
+		$sessions/A$session.$query: answer
+		$sessions/S$session.$query: status
+		$sessions/G$session.$query.{tag,ps,pdf}: graph 
+		$sessions/M$session.$query: matches
+		$sessions/Q$session.$query: search query 
+		$sessions/checksums: checksums for request files
+	
+	

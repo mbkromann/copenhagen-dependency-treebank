@@ -1,0 +1,78 @@
+% Draw coordinate system with classes
+classes {
+	dup load dup 
+
+	% x axis	
+	dup aload pop					% LBL C p1 p2 h
+	0 exch dh mul dh0 add moveto	% LBL C p1 p2
+	1 index sub exch				% LBL C p2-p1 p1
+	size mul 0 rmoveto 				% LBL C p2-p1
+	0 dm rlineto 0 dm -2 mul rlineto 0 dm rmoveto
+	size mul 0 rlineto
+	0 dm rlineto 0 dm -2 mul rlineto
+	stroke
+
+	% x axis label
+	aload pop dh mul dh0 add 3 1 roll add 2 div size mul exch 
+	2 array astore 2 index (      ) cvs exch 2 3 label
+
+	% y axis
+	dup aload pop						% LBL C p1 p2 h
+	0 exch dh mul dh0 add exch moveto	% LBL C p1 p2
+	1 index sub exch				% LBL C p2-p1 p1
+	size mul 0 exch rmoveto 				% LBL C p2-p1
+	dm 0 rlineto dm -2 mul 0 rlineto dm 0 rmoveto
+	size mul 0 exch rlineto
+	dm 0 rlineto dm -2 mul 0 rlineto
+	stroke
+
+	% y axis label
+	aload pop dh mul dh0 add 3 1 roll add 2 div size mul 
+	2 array astore 1 index (      ) cvs exch 3 2 label
+
+	pop 
+} forall
+
+% Find maximal intensity of subspaces
+/Imax 0 def
+subspaces {
+	intensity
+	dup Imax gt {/Imax xdef} {pop} ifelse
+} forall
+
+% Draw all subspaces, assuming count 0 for all classes
+%classes {
+%	classes {
+%		1 index 0 3 1 roll 3 array astore 
+%		drawsubspace
+%	} forall
+%	pop
+%} forall
+
+% Draw subspaces with observed counts > 0
+subspaces {
+	drawsubspace
+} forall
+
+% Draw box
+0 setgray
+[0 0] [size size] box stroke
+
+% Draw numerical frequencies of subspaces with observed counts > 0
+1 0 0 setrgbcolor
+subspaces {
+	drawlabel
+} forall
+
+% Draw title
+18 setfontsize 1 setfontstyle setupfont
+0 setgray 
+title [size 2 div -80] 2 2 label
+12 setfontsize setupfont
+relsum 20 string cvs ( observations. 1000 on map ~ Imax = ) sconcat
+	Imax 20 string cvs sconcat
+	[size 2 div -100] 2 2 label
+
+
+% Close
+PSMclose

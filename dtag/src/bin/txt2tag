@@ -1,0 +1,35 @@
+#!/usr/bin/perl
+
+#binmode(STDOUT, ":utf8");
+while (my $line = <>) {
+	while($line) {
+		chomp($line);
+		# XML tag
+		if ($line =~ s/^(<[^>]+>)//) {
+			comment($1);
+		} elsif ($line =~ s/^([0-9]+)//) {
+			text($1);
+		} elsif ($line =~
+		s/^([з!"@#гд$%&\/{([)\]=}?+`'|^~*'_\-:.;,><\\])//) { 
+			text($1);
+		} elsif ($line =~ s/^([^ 	з!"@#гд$%&\/{([)\]=}?+`'|^~*'_\-:.;,><\\]+)//) {
+			text($1);
+		} elsif ($line =~ s/\s+//) {
+		} elsif ($line =~ s/.//) {
+			text($1);
+		} else {
+			# Do nothing
+		}
+	}
+}
+
+sub text {
+	my $s = shift;
+	print "<W>$s</W>\n";
+}
+
+sub comment {
+	my $s = shift;
+	print "$s\n";
+}
+

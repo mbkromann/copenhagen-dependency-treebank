@@ -1,0 +1,3 @@
+sub lexicon {
+	return $lexicon;
+}

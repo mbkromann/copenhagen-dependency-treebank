@@ -1,0 +1,40 @@
+compiling type ko1...
+  base = ko
+  roots = ko kø
+compiling type kø1...
+  base = kø
+  roots = kø
+compiling type mand1...
+  base = mand
+  roots = mand mænd
+compiling type pukkel1...
+  base = pukkel
+  roots = pukkel pukl
+compiling type pukl1...
+  base = pukl
+  roots = pukl
+compiling type træ1...
+  base = træ
+  roots = træ
+compiling type træk1...
+  base = træk
+  roots = trak trukk træk
+compiling type træk2...
+  base = træk
+  roots = træk
+compiling type trækker1...
+  base = trækker
+  roots = trækker
+
+LEXICAL LOOKUP
+lookup(koens kalv er sød) = ko1 ko1|def
+lookup(køernes) = ko1|pl ko1|pl|def kø1 kø1|pl kø1|pl|def
+lookup(mændene var glade) = mand1|pl mand1|pl|def
+lookup(mandens arbejde blev værdsat) = mand1 mand1|def
+lookup(puklerne var farlige) = pukkel1|pl pukkel1|pl|def pukl1 pukl1|inf pukl1|pres
+lookup(puklende kom han op ad bakken) = pukkel1|def pukl1 pukl1|geru pukl1|geru|part pukl1|inf
+lookup(træet var stort) = træ1
+lookup(trækernen var massiv) = træ1 træk1 træk2 træk2|pl
+lookup(trakasseriet) = træk1|past
+lookup(trukken) = 
+lookup(køen) = kø1 kø1|def

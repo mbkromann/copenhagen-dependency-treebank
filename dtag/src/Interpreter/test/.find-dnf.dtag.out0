@@ -1,0 +1,66 @@
+input=-dnf ! (! $1 < $2)
+query=FindNOT(FindNOT(FindLT($1,$2)))
+vars=$1 $2
+timeout=0
+matchout=0
+dnf=FindOR(FindAND(FindLT($1,$2)))
+input=-dnf ! ($1[x] =~ /y/ | $1 subj $2)
+query=FindNOT(FindOR(FindRE($1,x,/y/),FindEDGE($1,subj,$2)))
+vars=$1 $2
+timeout=0
+matchout=0
+dnf=FindOR(FindAND(!FindRE($1,x,/y/),!FindEDGE($1,subj,$2)))
+input=-dnf ! (($1 path({<vobj}+>subj) $2) & ($1 subj $2))
+query=FindNOT(FindAND(FindPATH($1,['+',['<','vobj'],'>','subj'],$2),FindEDGE($1,subj,$2)))
+vars=$1 $2
+timeout=0
+matchout=0
+dnf=FindOR(FindAND(!FindPATH($1,['+',['<','vobj'],'>','subj'],$2)),FindAND(!FindEDGE($1,subj,$2)))
+input=-dnf ($1 > $2 | $3 != $4) & $5 == $6
+query=FindAND(FindOR(FindGT($1,$2),!FindEQ($3,$4)),FindEQ($5,$6))
+vars=$1 $2 $3 $4 $5 $6
+timeout=0
+matchout=0
+dnf=FindOR(FindAND(FindGT($1,$2),FindEQ($5,$6)),FindAND(!FindEQ($3,$4),FindEQ($5,$6)))
+input=-dnf $1 > $2, (($3 != $4) | ($3:noun))
+query=FindAND(FindGT($1,$2),FindOR(!FindEQ($3,$4),FindINH($3,'noun')))
+vars=$1 $2 $3 $4
+timeout=0
+matchout=0
+dnf=FindOR(FindAND(FindGT($1,$2),!FindEQ($3,$4)),FindAND(FindGT($1,$2),FindINH($3,'noun')))
+input=-dnf $1 > $2, ($3 != $4, $3:noun)
+query=FindAND(FindGT($1,$2),FindAND(!FindEQ($3,$4),FindINH($3,'noun')))
+vars=$1 $2 $3 $4
+timeout=0
+matchout=0
+dnf=FindOR(FindAND(FindGT($1,$2),!FindEQ($3,$4),FindINH($3,'noun')))
+input=-dnf ($1 > $2 | $3 != $4) | $3:noun
+query=FindOR(FindOR(FindGT($1,$2),!FindEQ($3,$4)),FindINH($3,'noun'))
+vars=$1 $2 $3 $4
+timeout=0
+matchout=0
+dnf=FindOR(FindAND(FindGT($1,$2)),FindAND(!FindEQ($3,$4)),FindAND(FindINH($3,'noun')))
+input=-dnf $1 > $2 => $3 == $4
+query=FindOR(FindNOT(FindGT($1,$2)),FindEQ($3,$4))
+vars=$1 $2 $3 $4
+timeout=0
+matchout=0
+dnf=FindOR(FindAND(!FindGT($1,$2)),FindAND(FindEQ($3,$4)))
+input=-dnf exist($3, ($1 expl $2|$1 subj $2) & $3 dobj $2)
+query=FindEXIST($3,FindAND(FindOR(FindEDGE($1,expl,$2),FindEDGE($1,subj,$2)),FindEDGE($3,dobj,$2)))
+vars=$1 $2
+timeout=0
+matchout=0
+dnf=FindOR(FindAND(FindEDGE($1,expl,$2),FindEXIST($3,FindAND(FindEDGE($3,dobj,$2)))),FindAND(FindEDGE($1,subj,$2),FindEXIST($3,FindAND(FindEDGE($3,dobj,$2)))))
+input=-dnf ! exist($3, ($1 expl $2|$1 subj $2) & $3 dobj $2)
+query=FindNOT(FindEXIST($3,FindAND(FindOR(FindEDGE($1,expl,$2),FindEDGE($1,subj,$2)),FindEDGE($3,dobj,$2))))
+vars=$1 $2
+timeout=0
+matchout=0
+dnf=FindOR(FindAND(!FindEDGE($1,expl,$2),!FindEDGE($1,subj,$2)),FindAND(!FindEDGE($1,expl,$2),!FindEXIST($3,FindAND(FindEDGE($3,dobj,$2)))),FindAND(!FindEXIST($3,FindAND(FindEDGE($3,dobj,$2))),!FindEDGE($1,subj,$2)),FindAND(!FindEXIST($3,FindAND(FindEDGE($3,dobj,$2))),!FindEXIST($3,FindAND(FindEDGE($3,dobj,$2)))))
+input=-dnf ! all($3, ! all($4, $3 dobj $4 => $4 != $2))
+query=FindNOT(!FindEXIST($3,FindNOT(FindNOT(!FindEXIST($4,FindNOT(FindOR(FindNOT(FindEDGE($3,dobj,$4)),!FindEQ($4,$2))))))))
+vars=$2
+timeout=0
+matchout=0
+dnf=FindOR(FindAND(FindEXIST($3,FindAND(!FindEXIST($4,FindAND(FindEDGE($3,dobj,$4),FindEQ($4,$2)))))))

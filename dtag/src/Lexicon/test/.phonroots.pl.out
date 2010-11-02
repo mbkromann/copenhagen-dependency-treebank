@@ -1,0 +1,12 @@
+ERROR! cannot read file /opt/dta/arcs.header in Graph->readfile
+check that DTAGHOME is set correctly!
+ERROR! cannot read file /opt/dta/arcs.trailer in Graph->readfile
+check that DTAGHOME is set correctly!
+flyv|fløj = flyv|fløj = [flyv] [^ø, v/j] [^ø, v/j, et] 
+lav = lav = [lav] [er] [er, r/s] 
+lyt|lytt = lyt|lytt = [lyt] [~, er] [~, ede] 
+mand|mænd = mand|mænd = [mand] [^æ] [en] 
+pukkel|pukl = pukkel|pukl = [pukkel] [-~e, er] [-~e, er, ne] 
+tal|tæl = tal|tæl = [tæl] [^a, te] [^a, t] 
+tidsel|tidsl = tidsel|tidsl = [tidsel] [-e, er] [-e, er, ne] 
+traf|truff|træf = traf|truff|træf = [træf] [^a] [^u, ~, et] 

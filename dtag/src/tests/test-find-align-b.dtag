@@ -1,0 +1,116 @@
+# Testing graphs
+load test-find-align.atag
+!rm -f test-find-align-b.log
+
+# Test FindEdge with exact relation name
+find -vars($X@b,$Y@b) $X subj $Y
+save -match test-find-align-b-01.test
+test test-find-align-b 01 'find -vars($X@b,$Y@b) $X subj $Y'
+
+# Test FindEdge with regular expressions
+find -vars($X@b) E$Y@b($X /bj$/ $Y)
+save -match test-find-align-b-02.test
+test test-find-align-b 02 'find -vars($X@b) E$Y@b($X /bj$/ $Y)'
+find -vars($X@b) exists($Y@b, $X /bj$/ $Y)
+save -match test-find-align-b-02b.test
+test test-find-align-b 02b 'find -vars($X@b) exists($Y@b,$X /bj$/ $Y)'
+
+# Test FindEdge with hierarchy isa-relation name
+# testing: FindExist, FindEdge
+find -vars($X@b) E$Y@b($X isa(SYNCOMP) $Y)
+save -match test-find-align-b-03.test
+test test-find-align-b 03 'find -vars($X@b) E$Y@b($X isa(SYNCOMP) $Y)'
+
+# Test FindEdge with complex isa-relation names
+find -vars($X@b) E$Y@b($X isa((COMP+SYN)-(subj|vobj)) $Y)
+save -match test-find-align-b-04.test
+test test-find-align-b 04 'find -vars($X@b) E$Y@b($X isa((COMP+SYN)-(subj|vobj)) $Y)'
+
+# Test logical operators
+find -vars($Z@b) E$X@b(E$Y@b($X subj $Z & $Y vobj $Z))
+save -match test-find-align-b-05.test
+test test-find-align-b 05 'find -vars($Z@b) E$X@b(E$Y@b($X subj $Z & $Y vobj $Z))'
+
+find -vars($Z@b) E$X@b($X subj $Z) & ! E$Y@b($Y vobj $Z)
+save -match test-find-align-b-06.test
+test test-find-align-b 06 'find -vars($Z@b) E$X@b($X subj $Z) & ! E$Y@b($Y vobj $Z)'
+
+find -vars($Y@b) E$X@b($X vobj $Y | $X dobj $Y)
+save -match test-find-align-b-07.test
+test test-find-align-b 07 'find -vars($Y@b) E$X@b($X vobj $Y | $X dobj $Y)'
+
+# Test FindEdge with complex isa-relation names
+find -vars($X@b) E$Y@b($X isa(-SYN) $Y)
+save -match test-find-align-b-08.test
+test test-find-align-b 08 'find -vars($X@b) E$Y@b($X isa(-SYN) $Y)'
+
+# Test FindGT and FindLT and FindNumberValueNode
+find -vars($X@b) $X > 0 & $X < 10
+save -match test-find-align-b-09.test
+test test-find-align-b 09 'find -vars($X@b) $X > 0 & $X < 10'
+
+find -vars($X@b) $X <= 10 | $X >= 200
+save -match test-find-align-b-10.test
+test test-find-align-b 10 'find -vars($X@b) $X <= 10 | $X >= 200'
+
+# Test FindStringEQ, FindStringValueNode, FindStringValueNodeFeature
+find -vars($X@b) $X eq "<s>"
+save -match test-find-align-b-11.test
+test test-find-align-b 11 'find -vars($X@b) $X eq "<s>"'
+
+find -vars($X@b) $X[msd] eq "CC"
+save -match test-find-align-b-12.test
+test test-find-align-b 12 'find -vars($X@b) $X[msd] eq "CC"'
+
+# FindStringRegExp
+find -vars($X@b) $X[msd] =~ /^[^NXVAP]/
+save -match test-find-align-b-13.test
+test test-find-align-b 13 '$X[msd] =~ /^[^NXVAP]/'
+
+# Universal quantifier
+find -vars($X@b) A$D(! $D /./ $X)
+save -match test-find-align-b-14.test
+test test-find-align-b 14 'A$D(! $D /./ $X)'
+
+# Adjacency
+find -vars($X@b) E$Y@b($X << $Y & $X subj $Y)
+save -match test-find-align-b-15a.test
+test test-find-align-b 15a 'find -vars($X@b) E$Y@b($X << $Y & $X subj $Y)'
+
+find -vars($X@b) E$Y@b($Y >> $X & $X subj $Y)
+save -match test-find-align-b-15b.test
+test test-find-align-b 15b 'find -vars($X@b) E$Y@b($Y >> $X & $X subj $Y)'
+
+find -vars($X@b) E$Y@b($X <1< $Y & $X subj $Y)
+save -match test-find-align-b-15c.test
+test test-find-align-b 15c 'find -vars($X@b) E$Y@b($X <1< $Y & $X subj $Y)'
+
+find -vars($X@b) E$Y@b($Y >1..1> $X & $X subj $Y)
+save -match test-find-align-b-15d.test
+test test-find-align-b 15d 'find -vars($X@b) E$Y@b($Y >1..1> $X & $X subj $Y)'
+
+find -vars($X@b) E$Y@b($Y >0..1> $X & $X subj $Y)
+save -match test-find-align-b-15e.test
+test test-find-align-b 15e 'find -vars($X@b) E$Y@b($Y >0..1> $X & $X subj $Y)'
+
+find -vars($X@b) E$Y@b($X <2< $Y & $X subj $Y)
+save -match test-find-align-b-16a.test
+test test-find-align-b 16a 'find -vars($X@b) E$Y@b($X <2< $Y & $X subj $Y)'
+
+find -vars($X@b) E$Y@b($Y >2> $X & $X subj $Y)
+save -match test-find-align-b-16b.test
+test test-find-align-b 16b 'find -vars($X@b) E$Y@b($Y >2> $X & $X subj $Y)'
+
+find -vars($X@b) E$Y@b($Y >2..100> $X & $X subj $Y)
+save -match test-find-align-b-17.test
+test test-find-align-b 17 'find -vars($X@b) E$Y@b($Y >2..100> $X & $X subj $Y)'
+
+# FindNumberValueNodeFeature, 
+#load test-find-align-b.key
+
+
+# FindActionDTAG
+# FindActionTable
+# FindPath
+
+testresults test-find-align-b

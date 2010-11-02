@@ -1,0 +1,12 @@
+ERROR! cannot read file /opt/dta/arcs.header in Graph->readfile
+check that DTAGHOME is set correctly!
+ERROR! cannot read file /opt/dta/arcs.trailer in Graph->readfile
+check that DTAGHOME is set correctly!
+laver = laver = [lav, er]
+laves = laves = [lav, er, s/r$/s/]
+lytter = lytter = [lyt, s/([bcdfghjklmnpqrstvwxz])$/$1$1/, er]
+mand = mand = [mand, , s/[aeiouyæøå]([bcdfghjklmnpqrstvwxz]*)$/æ$1/]
+mænd = mænd = [mand, s/[aeiouyæøå]([bcdfghjklmnpqrstvwxz]*)$/æ$1/]
+mændene = mændene = [mand, s/[aeiouyæøå]([bcdfghjklmnpqrstvwxz]*)$/æ$1/, , ene]
+sprukket = sprukket = [spræk, s/[aeiouyæøå]([bcdfghjklmnpqrstvwxz]*)$/u$1/, s/([bcdfghjklmnpqrstvwxz])$/$1$1/, et]
+talte = talte = [tæl, s/[aeiouyæøå]([bcdfghjklmnpqrstvwxz]*)$/a$1/, te]
