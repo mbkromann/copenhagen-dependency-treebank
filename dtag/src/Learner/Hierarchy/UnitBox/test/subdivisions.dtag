@@ -1,0 +1,2 @@
+perl my $H = DTAG::Learner::UnitBox->new(2,2); print dumper($H->subdivisions([])) . "\n";
+perl my $H = DTAG::Learner::UnitBox->new(2,2); print dumper($H->subdivisions([[0, 0, 0.5], [1, 0.5, 1]])) . "\n";

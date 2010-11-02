@@ -1,0 +1,4 @@
+perl my $H = DTAG::Learner::UnitBox->new(2, 3); print dumper($H->box_simplify_union([[0,1],[0,1]], [[0.5,1],[0,0.5]])) .  "\n";
+
+perl my $H = DTAG::Learner::UnitBox->new(2, 3); print dumper($H->box_simplify_union([[0,1],[0,1]], [[0.5,1],[0,0.5]], [[0,2], [0, 0.5]])) . "\n";
+

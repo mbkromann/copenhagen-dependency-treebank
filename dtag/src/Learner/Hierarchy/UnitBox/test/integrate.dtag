@@ -1,0 +1,16 @@
+# Integrate 1 on unit square
+perl my $H = DTAG::Learner::UnitBox->new(2, 3); print "1 = " .  $H->integrate(sub {1}, [[0,1],[0,1]]) . "\n";
+
+# Integrate 8 on quarter unit square
+perl my $H = DTAG::Learner::UnitBox->new(2, 3); print "2 = " .  $H->integrate(sub {8}, [[0,0.5],[0.5,1]]) . "\n";
+
+# Integrate x² + y² on unit square
+perl my $H = DTAG::Learner::UnitBox->new(2, 3); print "2/3 = " .  $H->integrate(sub {my $x = shift; return $x->[0] * $x->[0] + $x->[1] * $x->[1]}, [[0,1],[0,1]]) . "\n";
+
+# Integrate x²y² on unit square
+perl my $H = DTAG::Learner::UnitBox->new(2, 3); print "1/9 = " .  $H->integrate(sub {my $x = shift; return $x->[0] * $x->[0] * $x->[1] * $x->[1]}, [[0,1],[0,1]]) . "\n";
+
+# Integrate 1 + 2 * (x>0.5) + 4 * (y>0.5) on unit square
+perl my $H = DTAG::Learner::UnitBox->new(2, 3); print "4 = " .  $H->integrate(sub {my $x = shift; return 1 + ($x->[0] >= 0.5 ? 2 : 0) + ($x->[1] >=0.5 ? 4 : 0)}, [[0,1],[0,1]]) . "\n";
+
+

@@ -1,0 +1,3 @@
+syntax error at test line 7, near "perl my "
+syntax error at test line 9, near "perl my "
+Execution of test aborted due to compilation errors.

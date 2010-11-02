@@ -14,6 +14,9 @@ webmap:
 	dtag -e 'load tmp/webmap.tag' -e 'webmap' -e 'quit'
 	cd treebank.dk/map; cp */MapDep___.html 000/
 	make webmap.pngs
+	#cd treebank.dk ; lftp -f .upload
+	cd treebank.dk ; ncftpput -f .ncftp.login -R public_html .
+
 
 webmap.clear: 
 	find treebank.dk/map -type f | grep -v index.html | xargs rm -f
@@ -28,7 +31,6 @@ webmap.pngs:
         fi ; \
 	done
 	make webmap.pngs.missing
-	#cd treebank.dk ; lftp -f .upload
 
 webmap.pngs.missing:
 	( for f in `cd treebank.dk/map ; ls */ex*.tag | sed -e 's/.tag$$//g'` ; do \

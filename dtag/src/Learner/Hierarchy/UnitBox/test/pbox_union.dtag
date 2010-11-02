@@ -1,0 +1,14 @@
+# Integrate 1 on full space
+perl my $H = DTAG::Learner::UnitBox->new(2, 3); print "1 = " .  $H->pbox_union(sub {1}, [[0,1],[0,1]]) . "\n";
+
+# Integrate 1 on 1/2 space
+perl my $H = DTAG::Learner::UnitBox->new(2, 3); print "1/2 = " .  $H->pbox_union(sub {1}, [[0,0.5],[0,0.5]], [[0.5,1],[0.5,1]]) . "\n";
+
+# Integrate 1 on full space
+perl my $H = DTAG::Learner::UnitBox->new(2, 3); print "2 = " .  $H->pbox_union(sub {2}, [[0,0.5],[0,0.5]], [[0,1],[0,1]]) . "\n";
+
+# Integrate xy on 1/2 space
+#perl my $H = DTAG::Learner::UnitBox->new(2, 3); print "0.140625 = " .  $H->pbox_union(sub {$_->[0] * $_->[1]}, [[0,0.5],[0,0.5]], [[0.5,1],[0.5,1]]) . "\n";
+perl my $H = DTAG::Learner::UnitBox->new(2, 3); print "0.140625 = " .  $H->pbox_union(sub {my $x = shift; return $x->[0] * $x->[1]}, [[0,0.5],[0,0.5]], [[0.5,1],[0.5,1]]) . "\n";
+
+

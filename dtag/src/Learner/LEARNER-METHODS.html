@@ -1,0 +1,194 @@
+<html><head>
+	<link rel="stylesheet" href="dtag.css" media="screen" type="text/css">
+	<link rel="stylesheet" href="dtag.css" media="print" type="text/css">
+</head><body>
+
+<h1 align="center">Methods and classes in Learner module</h1>
+
+<h2>Classes</h2>
+
+	<ul>
+		<li> <b>Bayesian</b>: prior Bayesian distribution on models. 
+			<ul>
+				<li> <b>MDL</b>: prior Bayesian model probability 
+					based on minimum description length.
+			</ul>
+
+		<li> <b>Data</b>: an abstract set of observed outcomes.
+			<ul>
+				<li> <b>GraphData</b>: data read from DTAG graph.
+				<li> <b>RandomData</b>: data generated randomly.
+			</ul>
+
+		<li> <b>Hierarchy</b>: a hierarchy for classifying outcomes.
+			<ul>
+				<li> <b>UnitSquare</b>: n-dimensional unit square with
+					d equispaced subdivisions in each dimension.
+			</ul>
+
+		<li> <b>Distribution</b>: a conditional distribution on
+			graphs.
+			<ul>
+				<li> <b>HPM</b>: hierarchical partition model
+			</ul>
+
+		<li> <b>Cover</b>: an ordered cover
+
+		<li> <b>Variable</b>: a random variable in a graph.
+			<ul>
+				<li> <b>Feature</b>: a feature of a node.
+				<li> <b>Path</b>: a path from a node to another node.
+				<li> <b>Subgraph</b>: Subgraph
+			</ul>
+	</ul>
+
+
+<hr>
+<h2>Bayesian prior model probability (Bayesian)</h2>
+
+	<p>The Bayesian class is used to compute a Bayesian prior probability
+	for a given distribution and data set. </p>
+
+	<h4>Public methods</h4>
+
+	<ul>
+		<li> <b class="coded">-> new() = $bayesian</b><br>
+			create new object
+		<li> <b class="coded">-> fmodel($distribution, $ndata) =
+			$probability</b><br> 
+			compute Bayesian prior probability of model with given
+			number of data
+	</ul>
+
+	<h4>Subclasses</h4>
+
+	<ul>
+	<li> <b class="coded">MDL</b><br>
+		Compute prior Bayesian model probability based on minimum
+		description length.
+		<ul>
+			<li> <b class="coded">-> fmodel($distribution, $ndata) =
+				$probability</b>
+		</ul>
+	</ul>
+
+<hr>
+<h2>Data set with observed outcomes (Data)</h2>
+
+	<h4>Public methods</h4>
+	<ul>
+		<li> <b class="coded"> -> new() = $data</b><br>
+			create new object
+		<li> <b class="coded"> -> partition($hierarchy, $class) = [$inside,
+				$outside]</b><br>
+			partition data set into two data sets, one data set containing all 
+			observations inside the class, and one data set containing all
+			observations outside the class.
+	</ul>
+
+	<h4>Private methods</h4>
+
+	<ul>
+		<li> <b class="coded"> -> outcomes($outcomes) = $outcomes</b> <br>
+			set/get list of observed outcomes
+		<li> <b class="coded"> -> add($outcome)</b><br>
+			add outcome to data set
+		<li> <b class="coded"> -> del($outcome)</b><br>
+			delete outcome from data set
+		<li> <b class="coded"> -> size(): size of data set</b><br>
+		<li> <b class="coded"> -> clone(): clone data set</b><br>
+		<li> <b class="coded"> -> graph($outcome) = $graph</b><br>
+			return graph containing outcome
+		<li> <b class="coded"> -> node($outcome) = $node</b><br>
+			return node associated with outcome
+		<li> <b class="coded"> -> print() = $string</b><br>
+			return string representation of data
+	</ul>
+
+	<h4>Subclasses</h4>
+
+	<ul>
+		<li> <b class="coded">GraphData($graph)</b><br>
+			generate data set from graph
+			<ul>
+				<li> <b class="coded"> -> new($graph) = $data</b>
+				<li> <b class="coded"> -> graph($outcome)</b><br>
+					$graph containing outcome
+				<li> <b class="coded"> -> node($outcome)</b><br>
+					$node associated with outcome
+			</ul>
+		
+		<li> <b class="coded">RandomData($density, $dim, $n, $seed)</b><br>
+			generate $n data randomly in box [0,1]^$dim with density
+			$density $density: function($x1,...,$xdim) = $prob
+		<ul>
+			<li> <b class="coded"> -> new($density, $dim, $n, $seed)</b><br>
+			<li> <b class="coded"> -> generate($density, $dim, $n, $seed)</b><br>
+				generate $n random data with given dimension, density, and
+				random seed
+			<li> <b class="coded"> -> generate_uniform($dim) = $vector</b><br>
+				generate random vector with dimension $dim, with the uniform
+				distribution on [0,1]^$dim.
+			<li> <b class="coded"> -> print() = $string</b><br>
+		</ul>
+	</ul>
+
+
+<hr>
+<h2>Probability distribution (Distribution)</h2> 
+
+	<h4>Public methods</h4>
+	<h4>Private methods</h4>
+	<h4>Subclasses</h4>
+
+	<ul>
+		<li> <b class="todo"> -> f($outcome)</b><br>
+			$probability of outcome
+		<li> <b class="todo"> -> fclass($class)</b><br>
+			$probability of class
+		<li> <b class="todo"> -> span($outcome)</b><br>
+			set of all nodes spanned by the probability estimate of $outcome
+		<li> <b class="todo"> -> learn($data)</b><br>
+			estimate parameters on the basis of data
+		<li> <b class="todo"> -> parameters()</b><br>
+			number of parameters used in model
+		<li> <b class="todo"> -> outcomes() = $outcomes</b><br>
+			return set of all possible outcomes known in distribution
+		<li> <b class="todo"> -> option_log($status) = $status</b><br>
+		<li> <b class="todo"> -> option_factor($status) = $status</b><br>
+		<li> <b class="todo"> -> loglikelihood($data) = $loglikelihood</b><br>
+	</ul>
+
+	Subclasses of Hierarchy:
+	<ul>
+		<li>  <b class="todo">Uniform():</b><br>
+		<li>  <b class="todo">Empirical(): </b><br>
+		<li>  <b class="todo">Absnormal(): </b><br>
+		<li>  <b class="todo">HPM($hierarchy, $prior, $bayesian): </b><br>
+		<li>  <b class="todo">EHPM($hierarchy, $prior, $bayesian, $epsilon): </b><br>
+		<li>  <b class="todo">Complex($complex): </b><br>
+		<li>  <b class="todo">StaticGraph</b><br>
+		<li>  <b class="todo">DynamicGraph</b><br>
+	</ul>
+
+<hr>
+<h2>Hierarchy for classifying outcomes (Hierarchy)</h2>
+
+	<h4>Public methods</h4>
+	<h4>Private methods</h4>
+	<h4>Subclasses</h4>
+
+	<ul>
+		<li> <b class="todo"> -> subclasses($class): [$subclass1, ...]</b><br>
+		<li> <b class="todo"> -> terminals(): [$terminal1, ...]</b><br>
+		<li> <b class="todo"> -> isa($outcome, $class) = $bool</b><br>
+		<li> <b class="todo"> -> subclass($class, $superclass) = $bool</b><br>
+		<li> <b class="todo"> -> intersection($class1, $class2)</b><br>
+	</ul>
+	Subclasses of Hierarchy:
+	<ul>
+		<li>  <b class="draft">LexHierarchy</b><br>
+		<li>  <b class="draft">ProductHierarchy</b><br>
+	</ul>
+
+</body></html>

@@ -1,0 +1,381 @@
+<html><head>
+    <link rel="stylesheet" href="dtag.css" media="screen" type="text/css">
+	<link rel="stylesheet" href="dtag.css" media="print" type="text/css">
+</head><body>
+
+<h1 align="center">
+                     Cost operators for encoding 
+                probabilistic language models in DTAG
+</h1>
+
+
+<h2>Language</h2>
+
+	<blockquote>
+		<p><i>named_distribution</i> ::= 
+			[ <b>explanatory</b> ] <b>distribution(</b> <i>string</i> 
+				<b>) =</b> <i>distribution</i>
+		</p>
+
+			
+
+		<p><i>distribution</i> ::= 	<b>distribution(</b> <i>string</i> <b>)</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp;<b>(</b> <i>subgraphs</i>
+				[ <b>|</b> <i>subgraphs</i> ] <b>)</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <b>(</b> <i>distribution</i> <b>)</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <b>product(</b> <i>variable</i>
+				<b>in (</b> <i>subgraphs</i> <b>) ,</b>
+				<i>distribution</i> <b>)</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <b>sum(</b> <i>variable</i>
+				<b>in (</b> <i>subgraphs</i> <b>) ,</b>
+				<i>distribution</i> <b>)</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <b>-</b> <i>distribution</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; ( <i>distribution</i> |
+				<i>number</i> ) <b>+</b> <i>distribution</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; ( <i>distribution</i> |
+				<i>number</i> ) <b>-</b> <i>distribution</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; ( <i>distribution</i> |
+				<i>number</i> ) <b>*</b> <i>distribution</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; ( <i>distribution</i> |
+				<i>number</i> ) <b>/</b> <i>distribution</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>distribution</i> 
+				<b>explains</b> (<b>all</b> | [ <b>only</b> ] <i>subgraphs</i> )
+					[ <b>except</b> <i>subgraphs</i> ]
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>distribution</i> 
+				<b>given</b> (<b>all</b> | [ <b>only</b> ] <i>subgraphs</i> 
+					[ <b>except</b> <i>subgraphs</i> ]
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>distribution</i> 
+					<b>sampled</b> ( <i>number</i> <b>%</b> | <i>number</i> )
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>distribution</i> 
+					<b>when (</b> <i>subgraphs</i> <b>)</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>distribution</i> 
+					<b>with prior</b> <i>distribution</i>
+		</p>		</p>
+
+		<p><i>subgraphs</i> ::= <i>subgraph</i> 
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp;<i>subgraph</i> <b>,</b>
+				<i>subgraphs</i>
+		</p>
+
+		<p><i>subgraph</i> ::= 
+			<i>value</i> [ <b>~</b> <i>distribution_type</i> ]
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>variable</i> <b>:=</b> 
+				<i>value</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <b>graph(</b> <i>string</i> <b>)</b>
+
+		</p>
+
+		<p><i>value</i> ::=
+			<i>path</i> 
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp;<i>path</i> <b>[</b>
+				<i>string</i> <b>]</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp;<i>path</i> <b>@[</b>
+				<i>string</i> <b>]</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <b>subgraph(</b>
+				<i>subgraphs</i> <b>)</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>path</i> 
+				<b># {</b> ( (<b>node</b>|<b>edge</b>) <b>[</b>
+					<i>string</i> <b>]</b> ) 1*, <b>}</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>string</i> 
+				<b>(</b> <i>value</i> (<b>,</b> <i>subgraph</i>)* </b> <b>)</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <b>!</b> <i>value</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <b>(</b> <i>value</i> <b>)</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>value</i> <b>or</b> <i>value</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>value</i> <b>and</b> <i>value</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>value</i> <b>if</b> <i>value</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>value</i> <b>=</b> <i>value</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>value</i> <b>!=</b> <i>value</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>value</i> <b>&lt;</b> <i>value</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>value</i> <b>&gt;</b> <i>value</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>value</i> <b>&le;</b> <i>value</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>value</i> <b>&ge;</b> <i>value</i>
+		</p>
+
+		<p><i>path</i> ::= <i>variable</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <b>(</b> <i>path</i> <b>)</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>path</i> <b>^</b> <i>path</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>path</i> <b>_</b> <i>path</i>
+			
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <i>path</i>
+				[<i>number</i>]<b>*</b>[<i>number</i>] 
+		</p>
+
+
+		<p><i>distribution_type</i> ::= 
+			<b>absnormal</b> 
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp;<b>empirical</b> 
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp;<b>hpm(</b> <i>hierarchy</i> 
+				(<b>,</b> <i>hierarchy</i>)* <b>)</b></b> 
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp;<b>staticgraph</b> 
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp;<b>dynamicgraph(</b>
+				<i>dynamicgraph_options</i> <b>)</b>
+		</p>
+
+		<p><i>variable</i> ::= 
+			<b>$</b> <i>string</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<b>@</b> <i>string</i></p>
+			
+		<p><i>edge</i> ::=
+			<b>_</b> <i>edgetype</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <b>^</b> <i>edgetype</i>
+>
+
+		<p><i>edgetype</i> ::= <i>string</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp; <b>{</b> <i>string</i> <b>}</b>
+		</p>
+	
+		<p><i>hierarchy</i> ::= 
+			<i>string</i>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp;<b>:</b> <i>name</i> <b>:</b>
+
+		<p><i>string</i> ::= 
+			<b>"</b> <i>name</i> <b>"</b>
+			<br>&nbsp;&nbsp;|&nbsp;&nbsp;<b>'</b> <i>name</i> <b>'</b></p>
+
+		<p><i>name</i> ::= 
+			/[^][$"&lt;&gt;]*/</p>
+	</blockquote>
+
+<h2>Examples</h2>
+
+<h4>0a) Graphemic realization given lexeme</h4>
+    
+    Spellings are learned; no spelling tolerance.
+    <b><pre>
+    explanatory distribution("grapheme|lexeme") 
+        = ($H[input] ~ empirical | $H[lexeme] ~ empirical)
+    </pre></b>
+
+    Standard spellings are hard-coded in lexicon; spelling tolerance
+    estimated for all words collectively.
+
+    <pre>
+    % Default: nothing explained away
+    distribution("dist_grapheme") 
+        = (dist_grapheme($H[input], $H[grapheme]) ~ absnormal)
+
+    % Use of "explains" operator: $H[input] explained away
+    distribution("dist_grapheme") 
+        = (dist_grapheme($H[input], $H[grapheme]) ~ absnormal)
+            explains $H[input] 
+    </pre>
+
+    Standard spellings are hard-coded in lexicon; spelling tolerance
+    estimated for words individually by means of a hierarchical
+    partition model.
+    <pre>
+    distribution("dist_grapheme|lexeme") 
+        = (dist_grapheme($H[input], $H[grapheme]) ~ absnormal
+            | $H[lexeme] ~ hpm(:lexeme:))
+    </pre>
+
+    Spellings are learned from a 50% sample of the corpus; spelling
+    tolerance is estimated for all words collectively from a 100%
+    sample of the corpus.
+
+    <pre>
+    distribution("grapheme|lexeme:50%")
+        = ($H[input] ~ empirical | $H[lexeme] ~ empirical) 
+            sampled 50%
+
+    distribution("dist_grapheme|lexeme")
+        = (dist_grapheme_distribution($H[input], 
+                graph("grapheme|lexeme:50%")[input]) ~ absnormal
+            | $H[lexeme] ~ hpm(:lexeme:))
+    </pre>
+
+    
+<h4>0a) Phonetic realization given lexeme</h4>
+
+    Standard phonetic realizations are hard-coded in lexicon; spelling
+    tolerance estimated for words individually by means of a
+    hierarchical partition model.
+    <pre>
+    distribution("dist_phoneme|lexeme") 
+        = (dist_phoneme($H[input], $H[phoneme]) ~ absnormal
+            | $H[lexeme] ~ hpm('wordclass'))
+    </pre>
+
+
+<h4>1a) Surface roots</h4>
+
+    Probability that a node is a surface root (the probability is only
+    relevant when the node is a surface root):
+    <b><pre>
+    explanatory distribution("sroot")
+        = (card($H^{surface}) ~ empirical) when (card($H^{surface}) = 0)
+    </pre></b>
+    Probability that a surface root is realized as a given lexeme:
+    <b><pre>
+    explanatory distribution("lexeme|sroot")
+        = ($H[lexeme] ~ hpm(:lexeme:) | card($H^{surface}) = 0)
+    </pre></b>
+
+<h4>1b) Deep roots</h4>
+
+    Probability that a node is a deep root:
+    <b><pre>
+    explanatory distribution("droot")
+        = (card($H^{deep}) ~ empirical) when (card($H^{deep}) = 0)
+    </pre></b>
+    Probability that a deep root with a given landing site and landing
+    site edge is realized by a given lexeme, estimated as the
+    probability that an extracted node with a given landing site and
+    landing site edge is realized by a given lexeme:
+    <b><pre>
+    explanatory distribution("lexeme|droot+lsite")
+        = ($H[lexeme] ~ hpm(:lexeme:) 
+            | card($H^{surface}) = 1, 
+                $H^{surface} != $H^{deep},
+                $H^{surface}@[label] ~ hpm(:edglabel:),
+                $H^{surface}[lexeme] ~ hpm(:lexeme:))
+    </pre></b>
+
+<h4>2) Complement frame and complements given lexeme</h4>
+
+    The probability that a given head generates a specified complement
+    frame and set of complement lexemes:
+    <b><pre>
+    explanatory distribution("cframe+comps|head")
+        = distribution("head+comps|cframe") * distribution("cframe") 
+                / distribution("head")
+            given only $H[lexeme]
+    </pre></b>
+
+    The probability of a head lexeme:
+    <pre>
+    distribution("head")
+        = ($H[lexeme] ~ hpm(:lexeme:))
+    </pre>
+    The probability of a complement frame:
+    <pre>
+    distribution("cframe")
+        = (subgraph($H_{complement} # [edge[label] ~ empirical]) ~ staticgraph)
+    </pre>
+    The probability of a set of head and complement lexemes given a
+    complement frame, using a prior distribution where complement
+    lexemes are selected independently:
+    <pre>
+    distribution("head+comps|cframe")
+        = ($H[lexeme] ~ hpm(:lexeme:), 
+            subgraph($H_{complement} # [node[lexeme] ~ hpm(':lexeme:')]) ~ staticgraph
+                | graph("cframe")) 
+          with prior (distribution("head|cframe") * distribution("comps|head+cframe"))
+    </pre>
+    The probability of a head lexeme given a particular complement
+    frame:
+    <pre>
+    distribution("head|cframe") 
+        = ($H[lexeme] ~ hpm(:lexeme:) 
+            | subgraph($H_{complement} # [edge[label] ~ empirical]) ~ staticgraph)
+    </pre>
+    The probability of a set of complement lexemes given a head lexeme
+    and a complement frame, with each complement selected
+    independently from the others:
+    <pre>
+    distribution("comps|head+cframe")
+        = product($E in edges($H_{complement}), 
+            ($E_[lexeme] ~ hpm(:lexeme:) 
+                | $H[lexeme] ~ hpm(:lexeme:), $E[label] ~ empirical))
+    </pre>
+    The probability of a dynamic-depth complement graph given a head
+    lexeme:
+    <pre>
+    distribution("compgraph|head")
+        = (subgraph($H_{complement}*(1..) 
+                # [edge[label] ~ empirical, node[lexeme] ~ hpm(:lexeme:)])
+            ~ dynamicgraph(subclasses(edge[label]) = 0, 
+                subclasses(node[lexeme]) < 10))
+    </pre>
+
+<h4>3) Adjuncts given head</h4>
+
+    Probability of adjunct frame given head lexeme:
+    <b><pre>
+    explanatory distribution("aframe|head")
+        = (subgraph($H_{adjunct} # [edge[label] ~ empirical]) ~ staticgraph
+            | $H[lexeme] ~ hpm(:lexeme:))
+    </pre></b>
+    Probability of individual adjunct lexemes given adjunct frame and
+    head:
+    <b><pre>
+    explanatory distribution("adjuncts|head+aframe")
+        = factorial(card(yield($H_{adjunct}))) 
+            * product($E in edges($H_{adjunct}),
+                distribution("adjunct+arole|head"))
+    </b></pre>
+
+    The probability of an adjunct role and adjunct lexeme given head
+    lexeme, estimated directly:
+    <pre>
+    distribution("adjunct+arole|head")
+        = ($E_[lexeme] ~ hpm(:lexeme:) 
+            | $H[lexeme] ~ hpm(:lexeme:), $E[label] ~ empirical)
+    </pre>
+    The probability of an adjunct role and adjunct lexeme given head
+    lexeme, estimated indirectly by means of Bayes' law:
+    <pre>
+    distribution("adjunct+arole|head") 
+        = distribution("adjunct+head|arole") * 
+            distribution("arole") / distribution("ahead")
+          explains $E[label], $E_[lexeme] given $E^[lexeme]
+
+    distribution("adjunct+head|arole") 
+        = ($E_[lexeme] ~ hpm(:lexeme:), $E^[lexeme] ~ hpm(:lexeme:)
+            | $E[label] ~ hpm(:edgelabels:))
+
+    distribution("arole")
+        = ($E[label] ~ empirical)
+
+    distribution("ahead") 
+        = ($E^[lexeme] ~ hpm(:lexeme:))
+    </pre>
+
+<h4>4) Landing site given deep tree</h4>
+
+    The probability of a landing site, given a landed node and its
+    dominating nodes in the deep tree:
+    <b><pre>
+    explanatory distribution("extraction|node+dtree")
+        = prod($E in edges($H^{deep}* intsct $H^{land}_{deep}*),
+            distribution("extraction|node+pot.lsite")) 
+            explains $H^{land}@[label]
+    </pre></b>
+
+    The probability that a node is extracted from a potential landing
+    site on the extraction path, given the lexemes of the node and the
+    potential landing site, the edge label of the edge going into the
+    landing site carrying the node, and knowledge about whether the
+    potential landing site equals the governor or not:
+    <pre>
+    distribution("extraction|node+pot.lsite")
+        = (($H^{land} = $E^) ~ empirical            % extract or stay?
+                | $H[lexeme] ~ hpm(:lexeme:),       % head lexeme
+                    $E^[lexeme] ~ hpm(:lexeme:),    % island node lexeme
+                    $E[label] ~ hpm(:label:),       % island edge label
+                    $E_ = $H)                       % island = governor
+    </pre></b>
+<h4>5) Ordering of landed nodes</h4>
+
+<h4>6) Fillers given filler licensor</h4>
+
+<!--
+    prob($name)
+    uniform(...)
+    empirical(...)
+    hpm(...)
+    ehpm(...)
+    product($var, $range, $body)
+    sum($var, $range, $body)
+    plus($arg1, ..., $argN)
+    minus($arg1, $arg2)
+    divideby($arg1, $arg2)
+    times($arg1, $arg2)
+    normalize(): normalize probability distribution
+    similarity(...)
+    value($node, $var, $hierarchy)
+-->
+
+
+</body></html>
