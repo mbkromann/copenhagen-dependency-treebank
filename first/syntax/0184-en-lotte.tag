@@ -77,8 +77,8 @@
 <W id="76" msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|8:pnct|9:coord|29:pnct">is</W>
 <W id="77" msd="PD" tag="DT" in="-1:preds" out="1:attr|2:attr|3:nobj">the</W>
 <W id="78" msd="ANP" tag="RB" in="-1:attr" out="">only</W>
-<W id="79" msd="ANP" tag="JJ" in="-2:attr" out="">Danish</W>
-<W id="80" msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj.dobj|1:{patient}">producer</W>
+<W id="79" msd="ANP" tag="JJ" in="-2:attr|1:{source}" out="">Danish</W>
+<W id="80" msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj.dobj|1:{patient}|-1:{source}">producer</W>
 <W id="81" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">of</W>
 <W id="82" msd="ANP" tag="JJ" in="1:attr" out="">fresh</W>
 <W id="83" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">pasta</W>
@@ -94,8 +94,8 @@
 <W id="93" msd="SP" tag="IN" in="-5:nobj" out="5:vobj">that</W>
 <W id="94" msd="PI" tag="DT" in="4:subj|6:[subj]" out="1:attr|3:nobj">a</W>
 <W id="95" msd="ANP" tag="JJ" in="-1:attr" out="">major</W>
-<W id="96" msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">bread</W>
-<W id="97" msd="NC=S" tag="NN" in="-3:nobj" out="-1:nobj.dobj|-1:{patient}#">producer</W>
+<W id="96" msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}" out="">bread</W>
+<W id="97" msd="NC=S" tag="NN" in="-3:nobj" out="-1:nobj.dobj|-1:{patient}">producer</W>
 <W id="98" msd="VA" tag="MD" in="-5:vobj" out="-4:subj|1:add|2:vobj">will</W>
 <W id="99" msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W id="100" msd="VAF" tag="VB" in="-2:vobj" out="-6:[subj]|1:part|2:dobj|3:time">start</W>
@@ -132,8 +132,8 @@
 <W id="131" msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:attr|4:possd|5:appr">the</W>
 <W id="132" msd="NC=P" tag="NNS" in="-1:nobj|3:{loc}" out="">world's</W>
 <W id="133" msd="ANS" tag="JJS" in="-2:attr" out="">largest</W>
-<W id="134" msd="NC=S" tag="NN" in="1:nobj|1:{about}#" out="">food</W>
-<W id="135" msd="ANP" tag="JJ" in="-4:possd" out="-3:{loc}|-1:nobj|-1:{about}#">fair</W>
+<W id="134" msd="NC=S" tag="NN" in="1:nobj|1:{arg}" out="">food</W>
+<W id="135" msd="ANP" tag="JJ" in="-4:possd" out="-3:{loc}|-1:nobj|-1:{arg}">fair</W>
 <W id="136" msd="NP=S" tag="NNP" in="-5:appr" out="1:attr|1:{loc}">NUGA</W>
 <W id="137" msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
 <W id="138" msd="NP=S" tag="NNP" in="-1:nobj" out="">Germany</W>
@@ -151,20 +151,20 @@
 <W id="150" msd="ANP" tag="JJ" in="-1:attr" out="">small</W>
 <W id="151" msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj|1:{arg}">part</W>
 <W id="152" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
-<W id="153" msd="NP=S" tag="NNP" in="-1:nobj|2:{agent}" out="1:nobj|2:possd">Tholstrup</W>
+<W id="153" msd="NP=S" tag="NNP" in="-1:nobj|2:{arg}" out="1:nobj|2:possd">Tholstrup</W>
 <W id="154" msd="NP=S" tag="NNP" in="-1:nobj" out="">Cheese's</W>
-<W id="155" msd="NC=S" tag="NN" in="-2:possd" out="-2:{agent}">business</W>
+<W id="155" msd="NC=S" tag="NN" in="-2:possd" out="-2:{arg}">business</W>
 <W id="156" msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
 <W id="159" msd="ANP" tag="RB" in="1:quant" out="">Only</W>
-<W id="160" msd="AC" tag="CD" in="6:subj" out="-1:quant|1:pobj">30</W>
-<W id="161" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="160" msd="AC" tag="CD" in="1:{apart}|6:subj" out="-1:quant|1:pobj">30</W>
+<W id="161" msd="SP" tag="IN" in="-1:pobj" out="-1:{apart}|1:nobj">of</W>
 <W id="162" msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:possd">the</W>
 <W id="163" msd="NC=P" tag="NNS" in="-1:nobj|1:{const}" out="">firm's</W>
 <W id="164" msd="AC" tag="CD" in="-2:possd" out="-1:{const}|1:nobj">500</W>
 <W id="165" msd="NC=P" tag="NNS" in="-1:nobj" out="">employees</W>
-<W id="166" msd="VADR" tag="VBP" in="" out="1:pobj|5:pnct|-6:subj">deal</W>
+<W id="166" msd="VADR" tag="VBP" in="" out="-6:subj|1:pobj|5:pnct">deal</W>
 <W id="167" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W id="168" msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W id="169" msd="ANP" tag="JJ" in="-1:attr" out="">supple</W>
@@ -198,10 +198,10 @@
 <W id="197" msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds">be</W>
 <W id="198" msd="PI" tag="DT" in="-1:preds" out="1:attr|3:nobj">a</W>
 <W id="199" msd="ANP" tag="JJ" in="-1:attr" out="">good</W>
-<W id="200" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="">customer</W>
-<W id="201" msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj|1:{arg}|-1:attr|-1:{goal}#">country</W>
+<W id="200" msd="NC=S" tag="NN" in="1:attr|1:{goal}" out="">customer</W>
+<W id="201" msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj|1:{arg}|-1:attr|-1:{goal}">country</W>
 <W id="202" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
-<W id="203" msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
-<W id="204" msd="NC=P" tag="NNS" in="-1:possd" out="">goods</W>
+<W id="203" msd="PO" tag="PRP$" in="-1:nobj|1:{agent}" out="1:possd">his</W>
+<W id="204" msd="NC=P" tag="NNS" in="-1:possd" out="-1:{agent}">goods</W>
 <W id="205" msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
