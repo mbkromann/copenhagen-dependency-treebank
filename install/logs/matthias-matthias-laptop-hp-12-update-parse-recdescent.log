@@ -1,0 +1,21 @@
+--2010-11-03 16:25:16--  http://ftp.dk.debian.org/debian/pool/main/libp/libparse-recdescent-perl/libparse-recdescent-perl_1.965001+dfsg-1_all.deb
+Resolving ftp.dk.debian.org... 130.225.254.116, 2001:878:346::116
+Connecting to ftp.dk.debian.org|130.225.254.116|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 157046 (153K) [application/x-debian-package]
+Saving to: `libparse-recdescent-perl_1.965001+dfsg-1_all.deb.1'
+
+     0K .......... .......... .......... .......... .......... 32%  167K 1s
+    50K .......... .......... .......... .......... .......... 65%  160K 0s
+   100K .......... .......... .......... .......... .......... 97%  255K 0s
+   150K ...                                                   100%  653K=0.8s
+
+2010-11-03 16:25:17 (189 KB/s) - `libparse-recdescent-perl_1.965001+dfsg-1_all.deb.1' saved [157046/157046]
+
+Update libparse-recdescent-perl to newest version
+Please enter your password be(Readpkg: error processing libparse-recdescent-perl_1.965001+dfsg-1_all.deb (--install):
+ cannot access archive: No such file or directory
+Errors were encountered while processing:
+ libparse-recdescent-perl_1.965001+dfsg-1_all.deb
+rm: cannot remove `libparse-recdescent-perl_1.965001+dfsg-1_all.deb': No such file or directory
+r man-db ...
