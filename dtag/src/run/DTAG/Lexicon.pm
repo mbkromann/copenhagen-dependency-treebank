@@ -1573,6 +1573,182 @@ sub xvar {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+
+1;
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Lexicon/CostOps/HEADER.pl
@@ -1843,6 +2019,182 @@ package SelfOp;
 package SemOp;
 @SemOp::ISA = qw(CostOp);
 
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+
+1;
+
+1;
 
 1;
 # 
@@ -2028,6 +2380,182 @@ sub value {
 	# Return value
 	return DTAG::Lexicon->copy_obj($src);
 }
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+
+1;
+
+1;
 
 1;
 # 
@@ -2523,6 +3051,182 @@ sub vars {
 	my $self = shift;
 	return [ grep !/^_/, sort(keys(%$self)) ];
 }
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+
+1;
+
+1;
 
 1;
 # 
@@ -2689,6 +3393,182 @@ sub print {
 }
 
 
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+
+1;
+
+1;
 
 1;
 # 
@@ -2930,6 +3810,182 @@ sub print {
 		join(",", @{$self->minus()}) . "], " . $self->inherit() . ")";
 }
 		
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+
+1;
+
+1;
 
 1;
 

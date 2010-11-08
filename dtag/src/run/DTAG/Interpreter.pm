@@ -5729,13 +5729,33 @@ sub cmd_matches {
 
 sub cmd_merge {
 	my $self = shift;
-	my $graph = shift;
-	my $filenames = shift;
+	my $oldgraph = shift;
+	my $files = shift;
 
+	# Load all files and compute reliability scores
 	my $graphs = [];
+	foreach my $file (glob($files)) {
+		# Load file
+		print "Loading $file\n";
+		$self->cmd_load(DTAG::Graph->new($self), undef, $file);
+		push @$graphs, $self->graph();
+	}
 
+	# Create new graph
+	$self->cmd_new();
+	my $graph = $self->graph();
+
+	# Create nodes in new graph
+	$self->merge_nodes($graph, $graphs);
+
+	# Create edges in new graph
+	$self->merge_edges($graph, $graphs);
+
+	# Return
 	return 1;
 }
+
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_move.pl
@@ -9179,6 +9199,21 @@ sub cmd_webmap {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmp_ids.pl
+## ------------------------------------------------------------
+
+sub cmp_ids {
+	my ($a, $b) = @_;
+	$a =~ /^(-?[0-9]*)(.*)$/;
+	my ($a1, $a2) = ($1, $2);
+	$b =~ /^(-?[0-9]*)(.*)$/;
+	my ($b1, $b2) = ($1, $2);
+
+	return ($a1 <=> $b1) || ($a2 cmp $b2);
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/compound_autonumber.pl
 ## ------------------------------------------------------------
 
@@ -9747,6 +9782,10 @@ sub do {
 		$success = $self->cmd_matches($1)
 			if ($cmd =~ /^\s*matches\s*(.*)$/);
 
+		# Merge: merge $fileglob
+		$success = $self->cmd_merge($graph, $1) 
+			if ($cmd =~ /^\s*merge\s+(.+)$/);
+
 		# Move node: move $pos1 $pos2
 		$success = $self->cmd_move($graph, $1, $2)
 			if ($cmd =~ /^\s*move\s+([0-9]+)\s+([0-9]+)\s*$/);
@@ -10112,8 +10151,9 @@ sub edge_filter {
 	return $filter if (defined($filter));
 
 	# Create new filter
-	my $xstring = " $string ";
-	$filter = $table->{$string} = $self->query_parser()->RelationPattern(\$xstring);
+	my $xstring = $string ? " $string " : "  ";
+	$filter = $table->{$string} = 
+		$self->query_parser()->RelationPattern(\$xstring);
 	#print "Defined filter: $filter\n";
 	return $filter;
 }
@@ -10496,6 +10536,182 @@ sub loop {
 	# Decrease the loop count
 	$self->{'loop_count'} -= 1;
 }
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/merge_edges.pl
+## ------------------------------------------------------------
+
+sub merge_edges {
+	my ($self, $graph, $graphs) = @_;
+	my $innodes = {};
+
+	# Iterate over graphs
+	my $inserted = {};
+	my $primary = {};
+	foreach my $g (@$graphs) {
+		# Iterate over nodes
+		for (my $i = 0; $i < $g->size(); ++$i) {
+			# Skip comment nodes
+			my $node = $g->node($i);
+			next if ($node->comment());
+
+			# Process in-edges at content node
+			my $idin = $node->var("id");
+			my $in = $graph->id2node($idin);
+			foreach my $e (@{$node->in()}) {
+				my $idout = $g->node($e->out())->var("id");
+				my $out = $graph->id2node($idout);
+				my $etype = $e->type();
+				my $insertkey = "$in $etype $out";
+				if (defined($in) && defined($out) && defined($etype)
+						&& ! $inserted->{$insertkey}) {
+					# Insert edge once
+					#print "insertkey: $insertkey\n";
+					$inserted->{$insertkey} = 1;
+					if ($graph->isarel($etype, "PRIMARY")) {
+						# Primary edge: must be unique, place in queue
+						my $inedges = $primary->{$in};
+						$inedges = $primary->{$in} = {} if (! $inedges);
+						if (! exists $inedges->{$insertkey}) {
+							$inedges->{$insertkey} = [$out, $etype, $g];
+						} else {
+							push @{$inedges->{$insertkey}}, $g;
+						}
+					} else {
+						# Non-primary edge: insert right away
+						my $edge = Edge->new($in, $out, $etype);
+						$graph->edge_add($edge);
+					}
+				}
+			}
+		}
+	}
+
+	# Process primary edges
+	foreach my $in (sort(keys(%$primary))) {
+		my $inedges = $primary->{$in};
+		my ($out, $etype);
+		my @ekeys = keys(%$inedges); 
+		if (scalar(@ekeys) == 1) {
+			# Primary edge is unique: just add
+			my $edgeinfo = $inedges->{$ekeys[0]};
+			$out = $edgeinfo->[0];
+			$etype = $edgeinfo->[1];
+		} else {
+			# Primary edge is in conflict: disambiguate
+			my $edgeinfo = $inedges->{$ekeys[0]};
+			$out = $edgeinfo->[0];
+			$etype = $edgeinfo->[1];
+			print "edge conflict $in: "
+				. join(" || ", 
+					map {$inedges->{$_}[1] . " " . $inedges->{$_}[0]}
+						sort(keys(%$inedges))) . "\n";
+		}
+
+		# Add edge to graph
+		#print "insertedge: $in $etype $out\n";
+		my $edge = Edge->new($in, $out, $etype);
+		$graph->edge_add($edge);
+	}
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/merge_nodes.pl
+## ------------------------------------------------------------
+
+sub merge_nodes {
+	my ($self, $graph, $graphs) = @_;
+
+	# Node data structure
+	my $nodes = {};
+	my $nodecomments = {};
+	my $vars = {};
+
+	# Iterate over graphs
+	my $startid = "-1";
+	foreach my $g (@$graphs) {
+		# Iterate over nodes
+		my $id = $startid;
+		for (my $i = 0; $i < $g->size(); ++$i) {
+			my $node = $g->node($i);
+			if ($node->comment()) {
+				# Comment
+				my $comment = $node->input();
+				my $comments = $nodecomments->{$id} = $nodecomments->{$id} || [];
+				if (! grep {$_ eq $comment} @$comments) {
+					# Add comment without duplicates (may mess up <xml> tags)
+					push @$comments, $comment;
+				}
+			} else {
+				# Content nodes: process attributes
+				$id = $node->var("id");
+				my $attributes = $nodes->{$id} = $nodes->{$id} || {};
+				foreach my $attr (grep {$_ !~ /^_/ || $_ eq "_input"} 
+						keys(%$node)) {
+					$vars->{$attr} = 1 if ($attr !~ /^_/);
+					my $values = $attributes->{$attr} = $attributes->{$attr} || {};
+					my $value = $node->var($attr);
+					my $voters = $values->{$value} = $values->{$value} || [];
+					push @$voters, $g;
+				}
+			}
+		}
+	}
+
+	# Add nodes to graph
+	$self->cmd_vars($graph, join(" ", sort(keys(%$vars))));
+	foreach my $id ($startid, sort {cmp_ids($a,$b)} keys(%$nodes)) {
+		# Create content node
+		my $nodehash = $nodes->{$id};
+		if (defined($nodehash)) {
+			my $node = Node->new();
+			foreach my $attr (sort(keys(%$nodehash))) {
+				# Compute value votes
+				my $values = $nodehash->{$attr};
+				my $votes = {};
+				foreach my $value (keys(%$values)) {
+					foreach my $voter (@{$values->{$value}}) {
+						my $vote = $votes->{$value} = $votes->{$value} || [];
+						$vote->[0] += 
+							$self->voting_weight_attr($voter, $attr, $value);
+						$vote->[1] .= 
+							$voter->fileshort() . " ";
+					}
+				}
+
+				# Sort values by score
+				my @sortedvalues = sort {$votes->{$b}[0] <=> $votes->{$a}[0]} 
+					keys(%$votes);
+
+				# Set value
+				$node->var($attr, $sortedvalues[0]);
+
+				# Store alternatives if non-unique
+				if ($#sortedvalues > 0) {
+					print "attr conflict: " . $graph->size() . "[$attr]: " 
+						. join(" ", @sortedvalues) . "\n";
+					foreach my $v (@sortedvalues) {
+						$graph->merge_alt_attributes($id, $attr, $v, 
+							$votes->{$v});
+					}
+				}
+			}
+
+			# Add content node to graph
+			$graph->node_add(undef, $node);
+		}
+		
+		# Add comment nodes to graph
+		foreach my $comment (@{$nodecomments->{$id} || []}) {
+			my $node = Node->new();
+			$node->input($comment);
+			$node->comment(1);
+			$graph->node_add(undef, $node);
+		}
+	}
+}
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/mid2mspec.pl
@@ -11337,7 +11553,7 @@ sub pslabels {
 
 sub query_parser {
 	my $self = shift;
-	$query_parser = new Parse::RecDescent ($query_grammar)
+	$query_parser = new Parse::RecDescent($query_grammar)
 		if (! $query_parser);
 	
 	return $query_parser;
@@ -11579,6 +11795,26 @@ sub varparse {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/voting_weight_attr.pl
+## ------------------------------------------------------------
+
+sub voting_weight_attr {
+	my ($self, $graphvoter, $attribute, $value) = @_;
+	return 1;
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/voting_weight_edge.pl
+## ------------------------------------------------------------
+
+sub voting_weight_edge {
+	my ($self, $graphvoter, $edgetype) = @_;
+	return 1;
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/warning.pl
 ## ------------------------------------------------------------
 
@@ -11663,6 +11899,182 @@ sub xml2node {
 	return $node;
 }
 
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+
+1;
+
+1;
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -13454,6 +13866,182 @@ sub value {
 	return undef;
 }
 
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+
+1;
+
+1;
+
+1;
 
 1;
 

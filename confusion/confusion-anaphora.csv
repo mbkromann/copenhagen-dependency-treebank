@@ -12,4 +12,4 @@ coref-iden	52	80.8%=coref-iden	10.3%=coref-var	3.2%=coref	1.9%=assoc-const	1.9%=
 coref-res	25	72%=coref-res	12%=coref-var	4%=assoc-telic	4%=coref-iden	4%=coref	4%=coref-res.prg
 coref-res.prg	1	100%=coref-res
 coref-var	97	79%=coref-var	6.2%=coref	5.5%=coref-iden	4.1%=assoc-const	3.1%=coref-res	1%=coref-evol	1%=assoc
-ref	42	100%=ref
+ref	63	100%=ref

@@ -10,8 +10,9 @@ sub edge_filter {
 	return $filter if (defined($filter));
 
 	# Create new filter
-	my $xstring = " $string ";
-	$filter = $table->{$string} = $self->query_parser()->RelationPattern(\$xstring);
+	my $xstring = $string ? " $string " : "  ";
+	$filter = $table->{$string} = 
+		$self->query_parser()->RelationPattern(\$xstring);
 	#print "Defined filter: $filter\n";
 	return $filter;
 }

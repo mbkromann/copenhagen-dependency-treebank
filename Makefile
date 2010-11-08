@@ -7,6 +7,10 @@ missing:
 
 
 webmap:
+	if [ ! -f treebank.dk/.ncftp.login ] ; then \
+		echo "ERROR: Cannot create webmap without login info in treebank.dk/.ncftp.login"; \
+		exit 1; \
+	fi
 	rm -f tmp/webmap.tag
 	for lang in `echo da de en it es` ; do \
 		cat `ls $$lang/*.tag | grep -v auto | grep -v tagged` | sed -e "s/<W/<W _lang=\"$$lang\"/g" >> tmp/webmap.tag ; \
@@ -14,8 +18,12 @@ webmap:
 	dtag -e 'load tmp/webmap.tag' -e 'webmap' -e 'quit'
 	cd treebank.dk/map; cp */MapDep___.html 000/
 	make webmap.pngs
-	#cd treebank.dk ; lftp -f .upload
-	cd treebank.dk ; ncftpput -f .ncftp.login -R public_html .
+	make webmap.upload
+
+webmap.upload:
+	cp treebank-index.html treebank.dk/map/index.html
+	cd treebank.dk ; cat .upload | ncftp
+	#cd treebank.dk ; cat .upload | ncftpput -f .ncftp.login -R public_html .
 
 
 webmap.clear: 

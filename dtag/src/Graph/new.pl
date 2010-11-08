@@ -22,7 +22,10 @@ sub new {
 		'id' => ++$DTAG::Interpreter::graphid,
 		'lexstream' => {},
 		'inalign' => {},
-		'interpreter' => $interpreter
+		'interpreter' => $interpreter,
+		'merge.alt.attrs' => {},
+		'merge.alt.edges' => {},
+		'merge.alt.nodes' => {},
 	};
 
 	# Specify class for new object

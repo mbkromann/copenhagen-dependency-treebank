@@ -388,6 +388,10 @@ sub do {
 		$success = $self->cmd_matches($1)
 			if ($cmd =~ /^\s*matches\s*(.*)$/);
 
+		# Merge: merge $fileglob
+		$success = $self->cmd_merge($graph, $1) 
+			if ($cmd =~ /^\s*merge\s+(.+)$/);
+
 		# Move node: move $pos1 $pos2
 		$success = $self->cmd_move($graph, $1, $2)
 			if ($cmd =~ /^\s*move\s+([0-9]+)\s+([0-9]+)\s*$/);

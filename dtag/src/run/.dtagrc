@@ -159,6 +159,7 @@ macro commit !~/cdt/tools/dtag-commit {ARGS}
 # TransLog stuff
 macro loadfix load {ARGS}.src ;; graphs ;; fixations {ARGS}.fix dur cur
 macro makemanual !export DTAGCOMMITDIR="manual" ; cd ~/cdt/manual ; make all ; ../tools/dtag-commit "compiled CDT manual"
+macro makewebmap !cd ~/cdt ; make webmap
 macro cdtmanual !~/cdt/tools/dtag-cdtmanual &
 macro rmcdtmanual !rm ~/cdt/docs/cdt-manual.pdf 
 
