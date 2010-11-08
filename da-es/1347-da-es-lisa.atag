@@ -1,0 +1,203 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1347-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/1347-es-auto.tag" sign="_input"/>
+<align out="a50" type="" in="b1" creator="-1" insign="Pia" outsign="Pia"/>
+<align out="a55" type="" in="b15" creator="-1" insign="varios" outsign="flere"/>
+<align out="a56" type="" in="b16" creator="-1" insign="años" outsign="år"/>
+<align out="a60" type="" in="b22" creator="-1" insign="y" outsign="og"/>
+<align out="a63" type="" in="b26" creator="-1" insign="y" outsign="og"/>
+<align out="a65" type="" in="b29" creator="-1" insign="ha" outsign="har"/>
+<align out="a67" type="" in="b30" creator="-1" insign="resultado" outsign="resulteret"/>
+<align out="a68" type="" in="b31" creator="-1" insign="en" outsign="i"/>
+<align out="a72" type="" in="b41" creator="-1" insign="establece" outsign="fastlægger"/>
+<align out="a74" type="" in="b42" creator="-1" insign="qué" outsign="hvilken"/>
+<align out="a75" type="" in="b43" creator="-1" insign="estado" outsign="stat"/>
+<align out="a85" type="" in="b52" creator="-1" insign="que" outsign="der"/>
+<align out="a87" type="" in="b55" creator="-1" insign="en" outsign="i"/>
+<align out="a88" type="" in="b56" creator="-1" insign="un" outsign="et"/>
+<align out="a93" type="" in="b63" creator="-1" insign="Cuando" outsign="Når"/>
+<align out="a95" type="" in="b66" creator="-1" insign="entre" outsign="træder"/>
+<align out="a96" type="" in="b67" creator="-1" insign="en" outsign="i"/>
+<align out="a97" type="" in="b68" creator="-1" insign="vigencia" outsign="kraft"/>
+<align out="a102 a99" type="" in="b70" creator="-1" insign="podrá" outsign="kunne vil"/>
+<align out="a100" type="" in="b69" creator="-1" insign="se" outsign="man"/>
+<align out="a101" type="" in="b71" creator="-1" insign="por&nbsp;ejemplo" outsign="f.eks."/>
+<align out="a103" type="" in="b72" creator="-1" insign="impedir" outsign="forhindre"/>
+<align out="a105" type="" in="b73" creator="-1" insign="que" outsign="at"/>
+<align out="a109" type="" in="b82" creator="-1" insign="en" outsign="i"/>
+<align out="a110" type="" in="b83" creator="-1" insign="varios" outsign="flere"/>
+<align out="a111" type="" in="b84" creator="-1" insign="países" outsign="lande"/>
+<align out="a116" type="" in="b90" creator="-1" insign="solamente" outsign="kun"/>
+<align out="a117" type="" in="b91 b92" creator="-1" insign="se trata" outsign="behandles"/>
+<align out="a118" type="" in="b93" creator="-1" insign="en" outsign="af"/>
+<align out="a119" type="" in="b94" creator="-1" insign="un" outsign="ét"/>
+<align out="a120" type="" in="b95" creator="-1" insign="país" outsign="land"/>
+<align out="a124" type="" in="b97" creator="-1" insign="Esto" outsign="Det"/>
+<align out="a125" type="" in="b98" creator="-1" insign="significa" outsign="betyder"/>
+<align out="a127" type="" in="b100" creator="-1" insign="que" outsign="at"/>
+<align out="a128" type="" in="b101" creator="-1" insign="un" outsign="en"/>
+<align out="a134" type="" in="b108" creator="-1" insign="entregado" outsign="indgivet"/>
+<align out="a135" type="" in="b109" creator="-1" insign="su" outsign="sin"/>
+<align out="a136" type="" in="b110" creator="-1" insign="solicitud" outsign="ansøgning"/>
+<align out="a137" type="" in="b111" creator="-1" insign="en" outsign="i"/>
+<align out="a138" type="" in="b112" creator="-1" insign="por&nbsp;ejemplo" outsign="f.eks."/>
+<align out="a139" type="" in="b113" creator="-1" insign="Portugal" outsign="Portugal"/>
+<align out="a140" type="" in="b114" creator="-1" insign="o" outsign="eller"/>
+<align out="a141" type="" in="b115" creator="-1" insign="España" outsign="Spanien"/>
+<align out="a143" type="" in="b117" creator="-1" insign="no" outsign="ikke"/>
+<align out="a144" type="" in="b124" creator="-1" insign="como" outsign="som"/>
+<align out="a147" type="" in="b126" creator="-1" insign="Pia" outsign="Pia"/>
+<align out="a150" type="" in="b118" creator="-1" insign="puede" outsign="kan"/>
+<align out="a155" type="" in="b121" creator="-1" insign="Dinamarca" outsign="Danmark"/>
+<align out="a156" type="" in="b129" creator="-1" insign="y" outsign="og"/>
+<align out="a159" type="" in="b134" creator="-1" insign="solicitud" outsign="asylansøgning"/>
+<align out="a170" type="" in="b143" creator="-1" insign="de" outsign="af"/>
+<align out="a171" type="" in="b144" creator="-1" insign="la" outsign="den"/>
+<align out="a172" type="" in="b145" creator="-1" insign="convención" outsign="konvention"/>
+<align out="a174" type="" in="b146" creator="-1" insign="que" outsign="som"/>
+<align out="a176" type="" in="b152" creator="-1" insign="han" outsign="har"/>
+<align out="a177" type="" in="b153" creator="-1" insign="elaborado" outsign="udarbejdet"/>
+<align out="a178" type="" in="b154" creator="-1" insign="como" outsign="som"/>
+<align out="a180" type="" in="b156" creator="-1" insign="de" outsign="i"/>
+<align out="a182" type="" in="b159" creator="-1" insign="en" outsign="om"/>
+<align out="a184" type="" in="b164" creator="-1" insign="y" outsign="og"/>
+<align out="a189" type="" in="b167" creator="-1" insign="Pero" outsign="Men"/>
+<align out="a200" type="" in="b180" creator="-1" insign="La" outsign="Det"/>
+<align out="a201" type="" in="b181" creator="-1" insign="novedad" outsign="nye"/>
+<align out="a204" type="" in="b188" creator="-1" insign="es" outsign="er"/>
+<align out="a206" type="" in="b189" creator="-1" insign="que" outsign="at"/>
+<align out="a207" type="" in="b190" creator="-1" insign="la" outsign="det"/>
+<align out="a208" type="" in="b191" creator="-1" insign="ya" outsign="allerede"/>
+<align out="a209" type="" in="b192" creator="-1" insign="existente" outsign="eksisterende"/>
+<align out="a210" type="" in="b193" creator="-1" insign="colaboración" outsign="samarbejde"/>
+<align out="a212" type="" in="b201" creator="-1" insign="inmigración" outsign="immigrations-"/>
+<align out="a213" type="" in="b202" creator="-1" insign="y" outsign="og"/>
+<align out="a215" type="" in="b204" creator="-1" insign="encuentre" outsign="finder"/>
+<align out="a216" type="" in="b205" creator="-1" insign="su" outsign="en"/>
+<align out="a217" type="" in="b206" creator="-1" insign="sitio" outsign="plads"/>
+<align out="a230" type="" in="b216" creator="-1" insign="una" outsign="et"/>
+<align out="a231" type="" in="b218" creator="-1" insign="interestatal" outsign="mellemstatsligt"/>
+<align out="a232" type="" in="b217" creator="-1" insign="colaboración" outsign="samarbejde"/>
+<align out="a234" type="" in="b220" creator="-1" insign="pero" outsign="men"/>
+<align out="a236" type="" in="b226" creator="-1" insign="han" outsign="har"/>
+<align out="a238" type="" in="b227" creator="-1" insign="deseado" outsign="ønsket"/>
+<align out="a239 a240" type="" in="b228" creator="-1" insign="incorporar" outsign="at medtage"/>
+<align out="a241" type="" in="b229" creator="-1" insign="esta" outsign="dette"/>
+<align out="a242" type="" in="b230" creator="-1" insign="pregunta" outsign="spørgsmål"/>
+<align out="a243" type="" in="b231" creator="-1" insign="en" outsign="i"/>
+<align out="a245" type="" in="b234" creator="-1" insign="como" outsign="som"/>
+<align out="a246" type="" in="b235" creator="-1" insign="una" outsign="et"/>
+<align out="a247" type="" in="b236" creator="-1" insign="pregunta" outsign="spørgsmål"/>
+<align out="a248" type="" in="b237" creator="-1" insign="de" outsign="af"/>
+<align out="b195" type="" in="b195" creator="-1" insign="el" outsign="el"/>
+<align out="a43" type="s" in="b6" creator="0" insign="los" outsign="EF-landene"/>
+<align out="a43" type="" in="b7 b8 b9 b10 b11" creator="0" insign="países de la Comunidad Europea" outsign="EF-landene"/>
+<align out="a46" type="wo" in="b0" creator="0" insign="Como" outsign="som"/>
+<align out="a44" type="" in="b13" creator="0" insign="han" outsign="har"/>
+<align out="a45" type="" in="b12" creator="0" insign="," outsign=","/>
+<align out="a47" type="" in="a47" creator="0" insign="det" outsign="det"/>
+<align out="a48 a49 a52" type="" in="b3 b4" creator="0" insign="debe saber" outsign="må være bekendt"/>
+<align out="a54 a57" type="e" in="b14" creator="0" insign="colaboradodurante" outsign="i samarbejdet"/>
+<align out="a58" type="" in="b17" creator="0" insign="en" outsign="om"/>
+<align out="a59" type="" in="b20 b21" creator="0" insign="de inmigración" outsign="indvandrings-"/>
+<align out="a61" type="s" in="b18" creator="0" insign="la" outsign="asylpolitikken"/>
+<align out="a61" type="" in="b19 b20 b23 b24" creator="0" insign="política de asilo político" outsign="asylpolitikken"/>
+<align out="a62" type="" in="b25" creator="0" insign="," outsign=","/>
+<align out="a53" type="" in="b5" creator="-1" insign="," outsign=","/>
+<align out="a51" type="" in="b2" creator="-1" insign="Kjærsgaard" outsign="Kjærsgaard"/>
+<align out="a64" type="s" in="b27" creator="0" insign="la" outsign="samarbejdet"/>
+<align out="a64" type="" in="b28" creator="0" insign="colaboración" outsign="samarbejdet"/>
+<align out="a66" type="" in="a66" creator="0" insign="bl.a." outsign="bl.a."/>
+<align out="a69" type="s" in="b32" creator="0" insign="la" outsign="EF-asylkonventionen"/>
+<align out="a69" type="" in="b33 b34 b35 b36 b37 b38" creator="0" insign="Convención sobre Asilo de la CE" outsign="EF-asylkonventionen"/>
+<align out="a71" type="" in="b40" creator="0" insign="que" outsign="der"/>
+<align out="a70" type="" in="b39" creator="-1" insign="," outsign=","/>
+<align out="a73" type="" in="a73" creator="0" insign="," outsign=","/>
+<align out="a76 a77" type="" in="b44" creator="0" insign="será" outsign="der er"/>
+<align out="a78" type="" in="b45" creator="0" insign="responsable" outsign="ansvarlig"/>
+<align out="a79 a80" type="3" in="b46" creator="0" insign="deltratamiento" outsign="for behandlingen"/>
+<align out="a81" type="" in="b47" creator="0" insign="de" outsign="af"/>
+<align out="a82" type="n" in="b48" creator="0" insign="las" outsign="en"/>
+<align out="a83" type="n" in="b49 b50 b51" creator="0" insign="solicitudes de asilo" outsign="asylansøgning"/>
+<align out="a84" type="" in="a84" creator="0" insign="," outsign=","/>
+<align out="a86" type="" in="b53 b54" creator="0" insign="se dan" outsign="indgives"/>
+<align out="a89" type="" in="b57 b58 b59 b60 b61" creator="0" insign="estado miembro de la CE" outsign="EF-medlemsland"/>
+<align out="a90" type="" in="b62" creator="0" insign="." outsign="."/>
+<align out="a94" type="s" in="b64" creator="0" insign="la" outsign="konventionen"/>
+<align out="a94" type="" in="b65" creator="0" insign="convención" outsign="konventionen"/>
+<align out="a98" type="" in="a98" creator="0" insign="," outsign=","/>
+<align out="a104" type="" in="a104" creator="0" insign="," outsign=","/>
+<align out="a106" type="ds+n" in="b74" creator="0" insign="el" outsign="asylansøgere"/>
+<align out="a106" type="n" in="b75 b76 b77" creator="0" insign="solicitante de asilo" outsign="asylansøgere"/>
+<align out="a107 a108" type="f" in="b78 b79 b81" creator="0" insign="pueda solicitar asilo" outsign="indgiver ansøgning"/>
+<align out="b80" type="" in="b80" creator="0" insign="dicho" outsign="dicho"/>
+<align out="a112" type="" in="b85" creator="0" insign="simultáneamente" outsign="samtidig"/>
+<align out="a114" type="" in="b87" creator="0" insign="ya&nbsp;que" outsign="idet"/>
+<align out="a115" type="s" in="b88" creator="0" insign="la" outsign="ansøgningen"/>
+<align out="a115" type="" in="b89" creator="0" insign="solicitud" outsign="ansøgningen"/>
+<align out="a121" type="" in="b96" creator="0" insign="." outsign="."/>
+<align out="a129" type="" in="b102 b103 b104" creator="0" insign="solicitante de asilo" outsign="asylansøger"/>
+<align out="a130" type="" in="b105" creator="0" insign="," outsign=","/>
+<align out="a113" type="" in="b86" creator="-1" insign="," outsign=","/>
+<align out="a126" type="" in="b99" creator="-1" insign="," outsign=","/>
+<align out="a145 a146" type="mvd" in="b125" creator="0" insign="sostiene" outsign="hævdet af"/>
+<align out="a148" type="" in="b127" creator="0" insign="Kjærsgaard" outsign="Kjærsgaard"/>
+<align out="b123" type="" in="b123" creator="0" insign="," outsign=","/>
+<align out="b128" type="" in="b128" creator="0" insign="," outsign=","/>
+<align out="a142" type="" in="b116" creator="0" insign="," outsign=","/>
+<align out="a152 a153 a154" type="" in="b119 b120" creator="0" insign="dirigirse a" outsign="at tage til"/>
+<align out="b122" type="" in="b122" creator="0" insign="después" outsign="después"/>
+<align out="a149" type="" in="b130" creator="0" insign="simplemente" outsign="blot"/>
+<align out="a157" type="" in="b131" creator="0" insign="lograr" outsign="få"/>
+<align out="a151" type="" in="a151" creator="0" insign="vælge" outsign="vælge"/>
+<align out="a131 a132 a133" type="f" in="b106 b107" creator="0" insign="una&nbsp;vez&nbsp;que haya" outsign="der først har"/>
+<align out="b132" type="" in="b132" creator="0" insign="que" outsign="que"/>
+<align out="a158" type="" in="a158" creator="0" insign="en" outsign="en"/>
+<align out="a160" type="f" in="b135 b136" creator="0" insign="se trate" outsign="behandlet"/>
+<align out="a161" type="" in="b137" creator="0" insign="allí" outsign="her"/>
+<align out="a162" type="" in="b138" creator="0" insign="." outsign="."/>
+<align out="b133" type="" in="b133" creator="0" insign="su" outsign="su"/>
+<align out="a167" type="" in="b139" creator="0" insign="ESE" outsign="DET"/>
+<align out="a168" type="" in="b140" creator="0" insign="será" outsign="bliver"/>
+<align out="a169" type="s" in="b141" creator="0" insign="el" outsign="resultatet"/>
+<align out="a169" type="" in="b142" creator="0" insign="resultado" outsign="resultatet"/>
+<align out="a173" type="" in="a173" creator="0" insign="," outsign=","/>
+<align out="a175" type="s" in="b147" creator="0" insign="los" outsign="EF-landene"/>
+<align out="a175" type="" in="b148 b149 b150 b151" creator="0" insign="países de la CE" outsign="EF-landene"/>
+<align out="a179" type="" in="b155" creator="0" insign="parte" outsign="led"/>
+<align out="a181" type="s" in="b157" creator="0" insign="la" outsign="samarbejdet"/>
+<align out="a181" type="" in="b158" creator="0" insign="colaboración" outsign="samarbejdet"/>
+<align out="a185" type="s" in="b160" creator="0" insign="el" outsign="asylområdet"/>
+<align out="a185" type="" in="b161 b162 b165" creator="0" insign="ámbito de asilo" outsign="asylområdet"/>
+<align out="a183" type="" in="b163" creator="0" insign="inmigración" outsign="immigrations-"/>
+<align out="a190 a191 a192 a193 a195 a196" type="" in="b168 b169 b170 b171 b172 b173" creator="0" insign="no tiene nada que ver con" outsign="det har intet med at gøre"/>
+<align out="a194" type="s" in="b174" creator="0" insign="el" outsign="Unionstraktaten"/>
+<align out="a194" type="" in="b175 b176 b177 b178" creator="0" insign="Tratado de la Unión" outsign="Unionstraktaten"/>
+<align out="a197" type="" in="b179" creator="0" insign="." outsign="."/>
+<align out="a186" type="" in="b166" creator="0" insign="." outsign="."/>
+<align out="a202" type="" in="b182" creator="0" insign="en" outsign="i"/>
+<align out="a203" type="s" in="b183" creator="0" insign="el" outsign="Unionstraktaten"/>
+<align out="a203" type="" in="b184 b185 b186 b187" creator="0" insign="Tratado de la Unión" outsign="Unionstraktaten"/>
+<align out="a205" type="" in="a205" creator="0" insign="," outsign=","/>
+<align out="a211" type="" in="b194" creator="0" insign="en" outsign="om"/>
+<align out="a214" type="s" in="b198" creator="0" insign="la" outsign="asylpolitikken"/>
+<align out="a214" type="" in="b199 b200 b203" creator="0" insign="política de asilo" outsign="asylpolitikken"/>
+<align out="b196" type="" in="b196" creator="0" insign="ámbito" outsign="ámbito"/>
+<align out="b197" type="" in="b197" creator="0" insign="de" outsign="de"/>
+<align out="a218 a219" type="" in="b207" creator="0" insign="dentro&nbsp;del" outsign="inden for"/>
+<align out="a220" type="s" in="b207 b209" creator="0" insign="dentro&nbsp;del del" outsign="traktatens"/>
+<align out="a220" type="" in="b210" creator="0" insign="tratado" outsign="traktatens"/>
+<align out="a221" type="" in="b208" creator="0" insign="marco" outsign="rammer"/>
+<align out="a222" type="" in="b211" creator="0" insign="." outsign="."/>
+<align out="a227" type="f+wo" in="b212" creator="0" insign="Todavía" outsign="stadig"/>
+<align out="a225 a226 a228 a229" type="" in="b213 b214 b215" creator="0" insign="se trata de" outsign="Der er tale om"/>
+<align out="a235" type="s" in="b221" creator="0" insign="los" outsign="EF-landene"/>
+<align out="a235" type="" in="b222 b223 b224 b225" creator="0" insign="países de la CE" outsign="EF-landene"/>
+<align out="a237" type="" in="a237" creator="0" insign="nu" outsign="nu"/>
+<align out="a233" type="" in="b219" creator="-1" insign="," outsign=","/>
+<align out="a244" type="s" in="b232" creator="0" insign="el" outsign="traktaten"/>
+<align out="a244" type="" in="b233" creator="0" insign="tratado" outsign="traktaten"/>
+<align out="a249" type="" in="b239" creator="0" insign="común" outsign="fælles"/>
+<align out="a250" type="" in="b238" creator="0" insign="interés" outsign="interesse"/>
+<align out="a251" type="" in="b240" creator="-1" insign="." outsign="."/>
+</DTAGalign>
