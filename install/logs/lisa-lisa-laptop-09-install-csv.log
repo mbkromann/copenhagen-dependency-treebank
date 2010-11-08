@@ -1,0 +1,21 @@
+p   libtext-csv-perl                - comma-separated values manipulator (using 
+Installing libtext-csv-perl
+Please enter your password below
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  linux-headers-2.6.28-11-generic linux-headers-2.6.28-11
+Use 'apt-get autoremove' to remove them.
+The following NEW packages will be installed:
+  libtext-csv-perl
+0 upgraded, 1 newly installed, 0 to remove and 133 not upgraded.
+Need to get 43.9kB of archives.
+After this operation, 160kB of additional disk space will be used.
+Get:1 http://dk.archive.ubuntu.com jaunty/universe libtext-csv-perl 1.10-1 [43.9kB]
+Fetched 43.9kB in 0s (1218kB/s)
+Selecting previously deselected package libtext-csv-perl.
+(Reading database ... 135815 files and directories currently installed.)
+Unpacking libtext-csv-perl (from .../libtext-csv-perl_1.10-1_all.deb) ...
+Processing triggers for man-db ...
+Setting up libtext-csv-perl (1.10-1) ...

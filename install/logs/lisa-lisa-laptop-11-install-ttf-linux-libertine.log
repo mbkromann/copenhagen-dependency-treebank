@@ -1,0 +1,28 @@
+p   ttf-linux-libertine             - The Linux Libertine family of free fonts  
+Installing ttf-linux-libertine
+Please enter your password below
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  linux-headers-2.6.28-11-generic linux-headers-2.6.28-11
+Use 'apt-get autoremove' to remove them.
+The following NEW packages will be installed:
+  ttf-linux-libertine
+0 upgraded, 1 newly installed, 0 to remove and 133 not upgraded.
+Need to get 1110kB of archives.
+After this operation, 2531kB of additional disk space will be used.
+Get:1 http://dk.archive.ubuntu.com jaunty/universe ttf-linux-libertine 4.1.8-1 [1110kB]
+Fetched 1110kB in 0s (5268kB/s)
+Selecting previously deselected package ttf-linux-libertine.
+(Reading database ... 135928 files and directories currently installed.)
+Unpacking ttf-linux-libertine (from .../ttf-linux-libertine_4.1.8-1_all.deb) ...
+Setting up ttf-linux-libertine (4.1.8-1) ...
+Regenerating fonts cache... done.
+Updating fontconfig cache for /usr/share/fonts/truetype/linux-libertine
+No CIDSupplement specified for Batang-Bold, defaulting to 0.
+No CIDSupplement specified for UMingCN, defaulting to 0.
+No CIDSupplement specified for Batang-Regular, defaulting to 0.
+No CIDSupplement specified for Dotum-Bold, defaulting to 0.
+No CIDSupplement specified for Dotum-Regular, defaulting to 0.
+

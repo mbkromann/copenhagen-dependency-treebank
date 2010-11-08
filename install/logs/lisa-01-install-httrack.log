@@ -1,0 +1,31 @@
+
+Please enter your password below
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  linux-headers-2.6.28-11-generic linux-headers-2.6.28-11
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  libhttrack2
+Suggested packages:
+  webhttrack httrack-doc
+The following NEW packages will be installed:
+  httrack libhttrack2
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 452kB of archives.
+After this operation, 1167kB of additional disk space will be used.
+Do you want to continue [Y/n]? Get:1 http://dk.archive.ubuntu.com jaunty/universe libhttrack2 3.43.2-1ubuntu1 [416kB]
+Get:2 http://dk.archive.ubuntu.com jaunty/universe httrack 3.43.2-1ubuntu1 [36.1kB]
+Fetched 452kB in 0s (867kB/s)
+Selecting previously deselected package libhttrack2.
+(Reading database ... 135747 files and directories currently installed.)
+Unpacking libhttrack2 (from .../libhttrack2_3.43.2-1ubuntu1_amd64.deb) ...
+Selecting previously deselected package httrack.
+Unpacking httrack (from .../httrack_3.43.2-1ubuntu1_amd64.deb) ...
+Processing triggers for man-db ...
+Setting up libhttrack2 (3.43.2-1ubuntu1) ...
+
+Setting up httrack (3.43.2-1ubuntu1) ...
+Processing triggers for libc6 ...
+ldconfig deferred processing now taking place
