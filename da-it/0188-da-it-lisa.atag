@@ -207,7 +207,6 @@
 <align out="a255" type="" in="b223" creator="0" insign="programma" outsign="programmet"/>
 <align out="a246 a247" type="mcn" in="b209" creator="0" insign="dipendente" outsign="der arbejder"/>
 <align out="a154 a155 a156 a157 a158" type="f" in="b112" creator="0" insign="problemi" outsign="noget at tage fejl af"/>
-<align out="a161" type="d" in="b115 b116 b117 b118 b119" creator="0" insign="il nome di una ditta" outsign="firmanavn"/>
 <align out="a170 a171" type="" in="b126 b127 b128 b129 b130" creator="0" insign="con una modalità decisamente pedagogica" outsign="meget pædagogisk"/>
 <align out="a64 a65" type="" in="b27 b30" creator="0" insign="aiutare a" outsign="at hjælpe"/>
 <align out="a178" type="f" in="b146 b147 b148" creator="0" insign="che ti interessano" outsign="aktuelle"/>
@@ -233,4 +232,6 @@
 <align out="a186" type="ds" in="b167" creator="0" insign="i" outsign="besøgende"/>
 <align out="a186" type="" in="b168" creator="0" insign="visitatori" outsign="besøgende"/>
 <align out="a230 a231 a232" type="mcn" in="b197 b198" creator="0" insign="responsabile per" outsign="har stået for"/>
+<align out="a161" type="ds" in="b115" creator="0" insign="il" outsign="firmanavn"/>
+<align out="a161" type="" in="b116 b117 b118 b119" creator="0" insign="nome di una ditta" outsign="firmanavn"/>
 </DTAGalign>

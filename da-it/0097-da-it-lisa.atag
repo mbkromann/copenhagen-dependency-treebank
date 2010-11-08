@@ -1,0 +1,239 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0097-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0097-it-tagged.tag" sign="_input"/>
+<align out="a47" type="" in="b6 b7" creator="0" insign="il nostro" outsign="vores"/>
+<align out="a48" type="f" in="b8" creator="0" insign="rappresentante" outsign="mand"/>
+<align out="a52 a53" type="" in="b12" creator="0" insign="È" outsign="Han er"/>
+<align out="b13" type="" in="b13" creator="0" insign="un" outsign="un"/>
+<align out="b14" type="" in="b14" creator="0" insign="uomo" outsign="uomo"/>
+<align out="a54" type="" in="b15" creator="0" insign="capace" outsign="dygtig"/>
+<align out="a55" type="" in="b16" creator="0" insign="e" outsign="og"/>
+<align out="a56" type="" in="b17" creator="0" insign="simpatico" outsign="sympatisk"/>
+<align out="a57" type="" in="b18" creator="0" insign="," outsign=","/>
+<align out="a49" type="" in="b9" creator="0" insign="." outsign="."/>
+<align out="a59 a61" type="" in="b20 b21" creator="0" insign="che diventi" outsign="om er"/>
+<align out="a44" type="" in="b3" creator="-1" insign="Henning" outsign="Henning"/>
+<align out="a45" type="" in="b4" creator="-1" insign="Dyremose" outsign="Dyremose"/>
+<align out="a46" type="" in="b5" creator="-1" insign="è" outsign="er"/>
+<align out="a51" type="" in="b11" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a50" type="" in="b10" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a60" type="" in="b22" creator="-1" insign="lui" outsign="han"/>
+<align out="a43" type="" in="b2" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a58" type="" in="b19" creator="-1" insign="ma" outsign="men"/>
+<align out="a62" type="" in="b24 b25 b26" creator="0" insign="Ministro delle finanze" outsign="finansminister"/>
+<align out="a62" type="ds" in="b23" creator="0" insign="il" outsign="finansminister"/>
+<align out="a63" type="" in="a63" creator="0" insign="," outsign=","/>
+<align out="a65" type="" in="a65" creator="0" insign="det" outsign="det"/>
+<align out="a66" type="" in="a66" creator="0" insign="er" outsign="er"/>
+<align out="a69" type="" in="b30" creator="0" insign="dei" outsign="fra"/>
+<align out="a70" type="f+n" in="b31" creator="0" insign="Socialdemocratici" outsign="Socialdemokratiet"/>
+<align out="a74" type="s" in="b33" creator="0" insign="la" outsign="forskellen"/>
+<align out="a78" type="" in="b43" creator="0" insign="e" outsign="og"/>
+<align out="a74" type="" in="b34" creator="0" insign="differenza" outsign="forskellen"/>
+<align out="a72 a73" type="f" in="b35 b36 b37 b38 b39" creator="0" insign="è quella che c' è" outsign="svarer til"/>
+<align out="a67" type="" in="b28" creator="-1" insign="Mogens" outsign="Mogens"/>
+<align out="a68" type="" in="b29" creator="-1" insign="Lykketoft" outsign="Lykketoft"/>
+<align out="a75" type="" in="b40" creator="-1" insign="tra" outsign="mellem"/>
+<align out="a77" type="" in="b42" creator="-1" insign="Hof" outsign="Hof"/>
+<align out="a64" type="" in="b27" creator="-1" insign="oppure" outsign="eller"/>
+<align out="a71" type="" in="b32" creator="-1" insign="," outsign=","/>
+<align out="a76" type="" in="b41" creator="-1" insign="una" outsign="en"/>
+<align out="a79" type="" in="b44" creator="0" insign="una" outsign="en"/>
+<align out="a87" type="ds" in="b47" creator="0" insign="l'" outsign="etikette"/>
+<align out="a87" type="" in="b48" creator="0" insign="etichetta" outsign="etikette"/>
+<align out="a86" type="" in="b50" creator="0" insign="diversa" outsign="forskellig"/>
+<align out="a84" type="" in="a84" creator="0" insign="De" outsign="De"/>
+<align out="a88" type="" in="a88" creator="0" insign="," outsign=","/>
+<align out="a90" type="s" in="b52" creator="0" insign="il" outsign="indholdet"/>
+<align out="a90" type="" in="b53" creator="0" insign="contenuto" outsign="indholdet"/>
+<align out="a91" type="" in="b54" creator="0" insign="viene" outsign="kommer"/>
+<align out="a92" type="" in="b55" creator="0" insign="dallo" outsign="fra"/>
+<align out="a94" type="" in="b57" creator="0" insign="calderone" outsign="keddel"/>
+<align out="a95" type="" in="b58" creator="0" insign="." outsign="."/>
+<align out="a102" type="" in="b63" creator="0" insign="Finora" outsign="hidtil"/>
+<align out="a103" type="" in="b65" creator="0" insign="sostenuto" outsign="støttet"/>
+<align out="a80" type="" in="b45" creator="-1" insign="Tuborg" outsign="Tuborg"/>
+<align out="a93" type="" in="b56" creator="-1" insign="stesso" outsign="samme"/>
+<align out="a97" type="" in="b60" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a98" type="" in="b61" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a104" type="" in="b66" creator="-1" insign="Schlüter" outsign="Schlüter"/>
+<align out="a99" type="" in="b62" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a96" type="" in="b59" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a100 a101" type="" in="b64" creator="-1" insign="abbiamo" outsign="Vi har"/>
+<align out="a85" type="f" in="b49" creator="-1" insign="è" outsign="har"/>
+<align out="a81" type="f" in="b46" creator="-1" insign=":" outsign="."/>
+<align out="a89" type="" in="b51" creator="-1" insign="ma" outsign="men"/>
+<align out="a105" type="" in="b67" creator="0" insign="e" outsign="og"/>
+<align out="a108 a109" type="" in="b70" creator="0" insign="farlo" outsign="gøre det"/>
+<align out="a106 a107" type="" in="b68 b69" creator="0" insign="continueremo a" outsign="vil fortsat"/>
+<align out="a110" type="" in="b71" creator="0" insign="." outsign="."/>
+<align out="a113 a114 a115" type="" in="b74" creator="0" insign="Preferiamo" outsign="Vi vil hellere"/>
+<align out="a116" type="" in="b75" creator="0" insign="avere" outsign="have"/>
+<align out="a117" type="" in="a117" creator="0" insign="borgerlige" outsign="borgerlige"/>
+<align out="b78" type="" in="b78" creator="0" insign="civile" outsign="civile"/>
+<align out="a118" type="s+n" in="b76" creator="0" insign="un" outsign="regeringer"/>
+<align out="a118" type="n" in="b77" creator="0" insign="governo" outsign="regeringer"/>
+<align out="a120" type="n" in="b80" creator="0" insign="socialdemocratico" outsign="socialdemokratiske"/>
+<align out="a119" type="" in="b79" creator="0" insign="che" outsign="end"/>
+<align out="a123" type="s" in="b83" creator="0" insign="il" outsign="KV-regeringen"/>
+<align out="a123" type="" in="b84 b85" creator="0" insign="governo KV" outsign="KV-regeringen"/>
+<align out="a124" type="" in="b86" creator="0" insign="governa" outsign="regerer"/>
+<align out="a111" type="" in="b72" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a112" type="" in="b73" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a121" type="" in="b81" creator="-1" insign="," outsign=","/>
+<align out="a122" type="" in="b82" creator="-1" insign="ma" outsign="men"/>
+<align out="a127" type="s" in="b90" creator="0" insign="dei" outsign="Socialdemokratiets"/>
+<align out="a127" type="" in="b91" creator="0" insign="Socialdemocratici" outsign="Socialdemokratiets"/>
+<align out="a128" type="" in="a128" creator="0" insign="nåde" outsign="nåde"/>
+<align out="b89" type="" in="b89" creator="0" insign="modo" outsign="modo"/>
+<align out="a126" type="" in="b87" creator="0" insign="allo" outsign="på"/>
+<align out="a125" type="" in="a125" creator="0" insign="helt" outsign="helt"/>
+<align out="b88" type="" in="b88" creator="0" insign="stesso" outsign="stesso"/>
+<align out="a134" type="" in="b96" creator="0" insign="quindi" outsign="derfor"/>
+<align out="a135" type="" in="b97" creator="0" insign="poche" outsign="få"/>
+<align out="a137" type="f" in="b98" creator="0" insign="ragioni" outsign="følelser"/>
+<align out="a136" type="" in="a136" creator="0" insign="stærke" outsign="stærke"/>
+<align out="a141 a142 a143 a144" type="" in="b103 b104" creator="0" insign="mantenere vivo" outsign="at holde liv i"/>
+<align out="a138" type="" in="a138" creator="0" insign="specielt" outsign="specielt"/>
+<align out="a139" type="" in="a139" creator="0" insign="forbundet" outsign="forbundet"/>
+<align out="a140" type="" in="a140" creator="0" insign="med" outsign="med"/>
+<align out="b99" type="" in="b99" creator="0" insign="che" outsign="che"/>
+<align out="b100" type="" in="b100" creator="0" insign="ci" outsign="ci"/>
+<align out="b101" type="" in="b101" creator="0" insign="spingono" outsign="spingono"/>
+<align out="b102" type="" in="b102" creator="0" insign="a" outsign="a"/>
+<align out="a146" type="" in="b107" creator="0" insign="attuale" outsign="nuværende"/>
+<align out="a147" type="" in="b106" creator="0" insign="governo" outsign="regering"/>
+<align out="a131" type="" in="b94" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a130" type="" in="b93" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a145" type="" in="b105" creator="-1" insign="il" outsign="den"/>
+<align out="a129" type="" in="b92" creator="-1" insign="." outsign="."/>
+<align out="a132 a133" type="" in="b95" creator="-1" insign="Abbiamo" outsign="Vi har"/>
+<align out="a151" type="s" in="b111 b113" creator="0" insign="il del" outsign="Fremskridtspartiets"/>
+<align out="a151" type="" in="b114 b115" creator="0" insign="Partito Progressista" outsign="Fremskridtspartiets"/>
+<align out="a152" type="" in="b112" creator="0" insign="capogruppo" outsign="gruppeformand"/>
+<align out="a153" type="" in="b116" creator="0" insign="," outsign=","/>
+<align out="a156" type="" in="b119" creator="0" insign="." outsign="."/>
+<align out="a172" type="" in="b124" creator="0" insign="Aage" outsign="Aage"/>
+<align out="a173" type="" in="b125" creator="0" insign="Brusgaard" outsign="Brusgaard"/>
+<align out="a174" type="" in="b126" creator="0" insign="non" outsign="ikke"/>
+<align out="a175" type="" in="b128" creator="0" insign="indicare" outsign="pege"/>
+<align out="a176" type="" in="b129" creator="0" insign="a" outsign="på"/>
+<align out="a177" type="" in="b130" creator="0" insign="Dyremose" outsign="Dyremose"/>
+<align out="a161" type="" in="a161" creator="0" insign="I" outsign="I"/>
+<align out="a162" type="" in="a162" creator="0" insign="den" outsign="den"/>
+<align out="a163" type="" in="a163" creator="0" insign="situation" outsign="situation"/>
+<align out="a164" type="" in="a164" creator="0" insign="," outsign=","/>
+<align out="a165" type="" in="a165" creator="0" insign="hvor" outsign="hvor"/>
+<align out="a166" type="" in="b134" creator="0" insign="Schlüter" outsign="Schlüter"/>
+<align out="a167" type="" in="b135" creator="0" insign="sceglierà" outsign="vælger"/>
+<align out="a168" type="" in="a168" creator="0" insign="at" outsign="at"/>
+<align out="a169" type="" in="a169" creator="0" insign="gå" outsign="gå"/>
+<align out="a170" type="" in="a170" creator="0" insign="," outsign=","/>
+<align out="a150" type="" in="b110" creator="-1" insign="dice" outsign="siger"/>
+<align out="a154" type="" in="b117" creator="-1" insign="Aage" outsign="Aage"/>
+<align out="a155" type="" in="b118" creator="-1" insign="Brusgaard" outsign="Brusgaard"/>
+<align out="a157" type="" in="b120" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a160" type="" in="b123" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a159" type="" in="b122" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a158" type="" in="b121" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a171" type="" in="b127" creator="-1" insign="intende" outsign="vil"/>
+<align out="a148" type="" in="b109" creator="-1" insign="," outsign=","/>
+<align out="a149" type="" in="b108" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="b131" type="" in="b131" creator="0" insign="la" outsign="la"/>
+<align out="b132" type="" in="b132" creator="0" insign="direzione" outsign="direzione"/>
+<align out="b133" type="" in="b133" creator="0" insign="che" outsign="che"/>
+<align out="b136" type="" in="b136" creator="0" insign="di" outsign="di"/>
+<align out="b137" type="" in="b137" creator="0" insign="seguire" outsign="seguire"/>
+<align out="a184" type="" in="b144" creator="0" insign="Probabilmente" outsign="Sandsynligvis"/>
+<align out="a185 a186 a187" type="" in="b146" creator="0" insign="atterremo" outsign="vil vi henholde"/>
+<align out="a188" type="" in="b145" creator="0" insign="ci" outsign="os"/>
+<align out="a190" type="" in="b148" creator="0" insign="una" outsign="en"/>
+<align out="a192" type="" in="b149" creator="0" insign="decisione" outsign="beslutning"/>
+<align out="a193" type="f" in="b151 b152 b153" creator="0" insign="secondo la quale" outsign="om"/>
+<align out="a194" type="" in="a194" creator="0" insign="," outsign=","/>
+<align out="a182" type="" in="b142" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a180" type="" in="b140" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a179" type="" in="b139" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a181" type="" in="b141" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a191" type="" in="b150" creator="-1" insign="precedente" outsign="tidligere"/>
+<align out="a189" type="" in="b147" creator="-1" insign="ad" outsign="til"/>
+<align out="a178" type="" in="b138" creator="-1" insign=":" outsign=":"/>
+<align out="a183" type="" in="b143" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a205" type="" in="b159" creator="0" insign="partito" outsign="parti"/>
+<align out="a204" type="" in="a204" creator="0" insign="borgerlige" outsign="borgerlige"/>
+<align out="b160" type="" in="b160" creator="0" insign="civile" outsign="civile"/>
+<align out="a202 a203" type="" in="b161 b162" creator="0" insign="di maggioranza" outsign="det største"/>
+<align out="a200" type="" in="b157" creator="0" insign="leader" outsign="lederen"/>
+<align out="a200" type="s" in="b156" creator="0" insign="il" outsign="lederen"/>
+<align out="a196 a198 a199" type="f" in="b154" creator="0" insign="seguiamo" outsign="vi peger på"/>
+<align out="a195" type="" in="a195" creator="0" insign="at" outsign="at"/>
+<align out="a212" type="" in="b168" creator="0" insign="PROFILO" outsign="PROFIL"/>
+<align out="a211" type="" in="b169" creator="0" insign="INCISIVO" outsign="SKARPERE"/>
+<align out="a217" type="" in="a217" creator="0" insign="Men" outsign="Men"/>
+<align out="a218" type="" in="b175 b176 b177" creator="0" insign="Ministro dell' industria" outsign="industriminister"/>
+<align out="a218" type="s" in="b174" creator="0" insign="Il" outsign="industriminister"/>
+<align out="a201" type="" in="b158" creator="-1" insign="del" outsign="af"/>
+<align out="a219" type="" in="b178" creator="-1" insign="Anne" outsign="Anne"/>
+<align out="a220" type="" in="b179" creator="-1" insign="Birgitte" outsign="Birgitte"/>
+<align out="a221" type="" in="b180" creator="-1" insign="Lundholt" outsign="Lundholt"/>
+<align out="a222" type="" in="b181" creator="-1" insign="potrebbe" outsign="kunne"/>
+<align out="a197" type="" in="b155" creator="-1" insign="sempre" outsign="altid"/>
+<align out="a206" type="" in="b163" creator="-1" insign="." outsign="."/>
+<align out="a207" type="" in="b164" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a213" type="" in="b170" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a208" type="" in="b165" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a214" type="" in="b171" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a209" type="" in="b166" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a215" type="" in="b172" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a210" type="" in="b167" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a216" type="" in="b173" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a223" type="" in="a223" creator="0" insign="da" outsign="da"/>
+<align out="a225" type="" in="b183" creator="0" insign="una" outsign="en"/>
+<align out="a226" type="f" in="b184" creator="0" insign="candidata" outsign="mulighed"/>
+<align out="a230" type="lv" in="b188 b189" creator="0" insign="La Lundholt" outsign="Hun"/>
+<align out="a231" type="" in="b190" creator="0" insign="ha" outsign="har"/>
+<align out="a233" type="n" in="b192" creator="0" insign="atteggiamento" outsign="holdninger"/>
+<align out="a233" type="n+s" in="b191" creator="0" insign="un" outsign="holdninger"/>
+<align out="a232" type="f" in="b193" creator="0" insign="giusto" outsign="gode"/>
+<align out="a234" type="" in="b194" creator="0" insign="," outsign=","/>
+<align out="a236" type="" in="b196 b197 b198" creator="0" insign="una grande lavoratrice" outsign="flittig"/>
+<align out="a237" type="" in="b199" creator="0" insign="e" outsign="og"/>
+<align out="a238" type="" in="b200 b201 b202 b203" creator="0" insign="mantiene la parola data" outsign="ordholdende"/>
+<align out="a235" type="" in="b195" creator="-1" insign="è" outsign="er"/>
+<align out="a224" type="" in="b182" creator="-1" insign="essere" outsign="være"/>
+<align out="a229" type="" in="b187" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a228" type="" in="b186" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a227" type="" in="b185" creator="-1" insign="." outsign="."/>
+<align out="a239" type="" in="b204" creator="0" insign="." outsign="."/>
+<align out="a246" type="" in="b211" creator="0" insign="buon" outsign="fin"/>
+<align out="a247" type="" in="b212" creator="0" insign="capo" outsign="chef"/>
+<align out="a250" type="" in="b215" creator="0" insign="futuro" outsign="kommende"/>
+<align out="a251" type="" in="a251" creator="0" insign="borgerlig" outsign="borgerlig"/>
+<align out="b217" type="" in="b217" creator="0" insign="civile" outsign="civile"/>
+<align out="a253" type="" in="b218" creator="0" insign="," outsign=","/>
+<align out="a255" type="" in="b220 b221 b222" creator="0" insign="in tal modo" outsign="dermed"/>
+<align out="a260" type="" in="b228 b229" creator="0" insign="più incisivo" outsign="skarpere"/>
+<align out="a259" type="f" in="b227" creator="0" insign="molto" outsign="langt"/>
+<align out="a261" type="" in="b226" creator="0" insign="profilo" outsign="profil"/>
+<align out="a262" type="" in="b231" creator="0" insign="," outsign=","/>
+<align out="a263" type="" in="b230" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a242" type="" in="b207" creator="-1" insign="Lei" outsign="Hun"/>
+<align out="a243" type="" in="b208" creator="-1" insign="potrebbe" outsign="kunne"/>
+<align out="a244" type="" in="b209" creator="-1" insign="essere" outsign="være"/>
+<align out="a241" type="" in="b206" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a240" type="" in="b205" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a248" type="" in="b213" creator="-1" insign="per" outsign="for"/>
+<align out="a252" type="" in="b216" creator="-1" insign="governo" outsign="regering"/>
+<align out="a254" type="" in="b219" creator="-1" insign="che" outsign="der"/>
+<align out="a245" type="" in="b210" creator="-1" insign="un" outsign="en"/>
+<align out="a249" type="" in="b214" creator="-1" insign="un" outsign="en"/>
+<align out="a258" type="" in="b225" creator="-1" insign="un" outsign="en"/>
+<align out="a256" type="" in="b223" creator="-1" insign="vuole" outsign="ville"/>
+<align out="a257" type="" in="b224" creator="-1" insign="avere" outsign="få"/>
+<align out="a264" type="" in="b232" creator="-1" insign="dice" outsign="siger"/>
+<align out="a269" type="" in="b237" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a268" type="" in="b236" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a265" type="" in="b233" creator="-1" insign="Aage" outsign="Aage"/>
+<align out="a266" type="" in="b234" creator="-1" insign="Brusgaard" outsign="Brusgaard"/>
+<align out="a267" type="" in="b235" creator="-1" insign="." outsign="."/>
+</DTAGalign>

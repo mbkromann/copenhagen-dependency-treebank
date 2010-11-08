@@ -1,0 +1,185 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0507-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0507-it-tagged.tag" sign="_input"/>
+<align out="a43" type="" in="b2" creator="0" insign="Alla" outsign="På"/>
+<align out="a45" type="" in="b3" creator="0" insign="Biblioteca" outsign="Bibliotek"/>
+<align out="a45" type="ds" in="b2" creator="0" insign="Alla" outsign="Bibliotek"/>
+<align out="a48 a49" type="" in="b7 b8" creator="0" insign="si cerca" outsign="forsøger man"/>
+<align out="a52" type="" in="b10" creator="0" insign="abbassare" outsign="nedbringe"/>
+<align out="a53" type="n" in="b12 b13 b14" creator="0" insign="tempi di attesa" outsign="ventetiden"/>
+<align out="a53" type="s+n" in="b11" creator="0" insign="i" outsign="ventetiden"/>
+<align out="a54" type="" in="b15" creator="0" insign="sui" outsign="på"/>
+<align out="a55" type="" in="b17" creator="0" insign="prenotati" outsign="reserverede"/>
+<align out="a56" type="" in="b16" creator="0" insign="libri" outsign="bøger"/>
+<align out="a57 a58 a59" type="mvg" in="b19" creator="0" insign="velocizzando" outsign="ved at fremskynde"/>
+<align out="a50" type="" in="a50" creator="0" insign="nu" outsign="nu"/>
+<align out="b18" type="" in="b18" creator="0" insign="," outsign=","/>
+<align out="a47" type="" in="b6" creator="-1" insign="Guldbergsgade" outsign="Guldbergsgade"/>
+<align out="a44" type="" in="b4" creator="-1" insign="Nørrebro" outsign="Nørrebro"/>
+<align out="a46" type="" in="b5" creator="-1" insign="di" outsign="i"/>
+<align out="a51" type="" in="b9" creator="-1" insign="di" outsign="at"/>
+<align out="a67" type="" in="b21" creator="0" insign="diversi" outsign="flere"/>
+<align out="a68" type="lv" in="b22" creator="0" insign="piani" outsign="led"/>
+<align out="a62 a63" type="" in="b26" creator="0" insign="procurare" outsign="at skaffe"/>
+<align out="a64" type="lv" in="b27 b28" creator="0" insign="i libri" outsign="dem"/>
+<align out="a65" type="" in="a65" creator="0" insign="frem" outsign="frem"/>
+<align out="a60" type="n+lv" in="b24" creator="0" insign="procedure" outsign="arbejdet"/>
+<align out="a60" type="s+n" in="b23" creator="0" insign="le" outsign="arbejdet"/>
+<align out="a76" type="s" in="b36" creator="0" insign="la" outsign="biblioteket"/>
+<align out="a76" type="" in="b37" creator="0" insign="biblioteca" outsign="biblioteket"/>
+<align out="a77" type="" in="b39" creator="0" insign="avviato" outsign="indledt"/>
+<align out="a74" type="" in="b34 b35" creator="0" insign="Per questo" outsign="Således"/>
+<align out="a73" type="" in="b33" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a72" type="" in="b32" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a71" type="" in="b31" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a70" type="" in="b30" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a78" type="" in="b40" creator="-1" insign="una" outsign="et"/>
+<align out="a80" type="" in="b42" creator="-1" insign="collaborazione" outsign="samarbejde"/>
+<align out="a75" type="" in="b38" creator="-1" insign="ha" outsign="har"/>
+<align out="a69" type="" in="b29" creator="-1" insign="." outsign="."/>
+<align out="a66" type="" in="b20" creator="-1" insign="su" outsign="på"/>
+<align out="a81" type="" in="b43" creator="-1" insign="con" outsign="med"/>
+<align out="a61" type="" in="b25" creator="-1" insign="per" outsign="med"/>
+<align out="a79" type="" in="b41" creator="-1" insign="stretta" outsign="tæt"/>
+<align out="a82 a83" type="" in="b45 b46" creator="0" insign="Libreria Wiuff" outsign="Wiuff's Boghandel"/>
+<align out="a82 a83" type="ds" in="b44" creator="0" insign="la" outsign="Wiuff's Boghandel"/>
+<align out="a86" type="" in="b49" creator="0" insign="." outsign="."/>
+<align out="a91 a92 a93 a94" type="f" in="b54" creator="0" insign="Quando" outsign="I de tilfælde hvor"/>
+<align out="a95" type="s+n" in="b55" creator="0" insign="il" outsign="bibliotekarerne"/>
+<align out="a95" type="n" in="b56" creator="0" insign="bibliotecario" outsign="bibliotekarerne"/>
+<align out="a96" type="" in="b57" creator="0" insign="prevede" outsign="skønner"/>
+<align out="a97" type="" in="a97" creator="0" insign="," outsign=","/>
+<align out="a101" type="" in="b60" creator="0" insign="in" outsign="i"/>
+<align out="a102" type="" in="b61" creator="0" insign="futuro" outsign="fremtiden"/>
+<align out="a103 a104" type="" in="b63" creator="0" insign="sarà" outsign="vil være"/>
+<align out="a105 a106" type="" in="b64 b65" creator="0" insign="richiesta di" outsign="efterspørgsel efter"/>
+<align out="a84" type="" in="b47" creator="-1" insign="su" outsign="på"/>
+<align out="a85" type="" in="b48" creator="-1" insign="Jagtvej" outsign="Jagtvej"/>
+<align out="a89" type="" in="b52" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a88" type="" in="b51" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a90" type="" in="b53" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a87" type="" in="b50" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a98" type="" in="b58" creator="-1" insign="che" outsign="at"/>
+<align out="a100" type="" in="b59" creator="-1" insign="anche" outsign="også"/>
+<align out="a99" type="" in="b62" creator="-1" insign="ci" outsign="der"/>
+<align out="a111" type="mv" in="b71" creator="0" insign="acquista" outsign="købes"/>
+<align out="a113" type="" in="b72" creator="0" insign="semplicemente" outsign="simpelthen"/>
+<align out="a114" type="" in="b73" creator="0" insign="da" outsign="hos"/>
+<align out="a117" type="" in="b76" creator="0" insign="che" outsign="som"/>
+<align out="a118 a119 a120" type="" in="b77 b78 b79 b80" creator="0" insign="nella maggior parte dei" outsign="i de fleste"/>
+<align out="a121" type="" in="b81" creator="0" insign="casi" outsign="tilfælde"/>
+<align out="a123 a124 a125" type="" in="b83 b84 b85" creator="0" insign="in grado di" outsign="i stand til"/>
+<align out="a109" type="" in="b68" creator="-1" insign="libro" outsign="bog"/>
+<align out="a115" type="" in="b74" creator="-1" insign="Wiuff" outsign="Wiuff"/>
+<align out="a122" type="" in="b82" creator="-1" insign="è" outsign="er"/>
+<align out="a112" type="" in="b70" creator="-1" insign="lo" outsign="den"/>
+<align out="a107" type="" in="b66" creator="-1" insign="un" outsign="en"/>
+<align out="a110" type="" in="b69" creator="-1" insign="," outsign=","/>
+<align out="a116" type="" in="b75" creator="-1" insign="," outsign=","/>
+<align out="a108" type="" in="b67" creator="-1" insign="certo" outsign="bestemt"/>
+<align out="a126 a127 a128" type="" in="b86" creator="0" insign="fornirlo" outsign="at levere den"/>
+<align out="a129 a130 a131" type="e" in="b87 b88" creator="0" insign="in giornata" outsign="med dags varsel"/>
+<align out="a137 a138" type="" in="b94 b95" creator="0" insign="Non appena" outsign="Så snart"/>
+<align out="a139" type="s" in="b96" creator="0" insign="il" outsign="bogen"/>
+<align out="a139" type="" in="b97" creator="0" insign="libro" outsign="bogen"/>
+<align out="a140 a141" type="mvd" in="b98" creator="0" insign="arriva" outsign="er modtaget"/>
+<align out="a142" type="" in="b99" creator="0" insign="alla" outsign="på"/>
+<align out="a143" type="s" in="b99" creator="0" insign="alla" outsign="biblioteket"/>
+<align out="a143" type="" in="b100" creator="0" insign="biblioteca" outsign="biblioteket"/>
+<align out="b101" type="" in="b101" creator="0" insign="," outsign=","/>
+<align out="a144 a145" type="" in="b102 b103" creator="0" insign="viene messo" outsign="sættes den"/>
+<align out="a147" type="" in="b105" creator="0" insign="circolazione" outsign="cirkulation"/>
+<align out="a146" type="" in="b104" creator="0" insign="in" outsign="i"/>
+<align out="a136" type="" in="b93" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a152" type="" in="b110" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a133" type="" in="b90" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a149" type="" in="b107" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a134" type="" in="b91" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a150" type="" in="b108" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a135" type="" in="b92" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a151" type="" in="b109" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a153" type="" in="b111" creator="-1" insign="I" outsign="De"/>
+<align out="a132" type="" in="b89" creator="-1" insign="." outsign="."/>
+<align out="a148" type="" in="b106" creator="-1" insign="." outsign="."/>
+<align out="a155" type="" in="b113" creator="0" insign="della" outsign="på"/>
+<align out="a156" type="s" in="b113" creator="0" insign="della" outsign="biblioteket"/>
+<align out="a156" type="" in="b114" creator="0" insign="biblioteca" outsign="biblioteket"/>
+<align out="a157" type="" in="b115" creator="0" insign="sperano" outsign="håber"/>
+<align out="a158" type="" in="a158" creator="0" insign="," outsign=","/>
+<align out="a161" type="" in="b119" creator="0" insign="progetto" outsign="projekt"/>
+<align out="a162" type="n" in="b120" creator="0" insign="libri" outsign="bog"/>
+<align out="a163 a164" type="" in="b121 b122" creator="0" insign="in tempo" outsign="til tiden"/>
+<align out="a161" type="ds" in="b117" creator="0" insign="il" outsign="projekt"/>
+<align out="a166" type="" in="b124" creator="0" insign="," outsign=","/>
+<align out="a167 a168 a170" type="mvp" in="b125" creator="0" insign="sostenuto" outsign="som er støttet"/>
+<align out="a169" type="" in="b126" creator="0" insign="economicamente" outsign="økonomisk"/>
+<align out="a171" type="" in="b127" creator="0" insign="dal" outsign="af"/>
+<align out="a172" type="" in="b128" creator="0" insign="comune" outsign="kommunen"/>
+<align out="a172" type="s" in="b127" creator="0" insign="dal" outsign="kommunen"/>
+<align out="a154" type="" in="b112" creator="-1" insign="dipendenti" outsign="ansatte"/>
+<align out="a159" type="" in="b116" creator="-1" insign="che" outsign="at"/>
+<align out="a165" type="" in="b123" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a160" type="" in="b118" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a173" type="" in="b129" creator="-1" insign="," outsign=","/>
+<align out="a181" type="" in="b135" creator="0" insign="clienti" outsign="kunder"/>
+<align out="a180" type="s" in="b134 b136" creator="0" insign="dai della" outsign="bibliotekets"/>
+<align out="a180" type="" in="b137" creator="0" insign="biblioteca" outsign="bibliotekets"/>
+<align out="a182" type="" in="b138" creator="0" insign="." outsign="."/>
+<align out="a176 a177 a178 a179" type="e" in="b131 b132 b133" creator="0" insign="accolto con entusiasmo" outsign="en stor glæde for"/>
+<align out="a187" type="n" in="b143" creator="0" insign="L'" outsign="De"/>
+<align out="a188" type="n" in="b144" creator="0" insign="esperienza" outsign="erfaringer"/>
+<align out="a189" type="" in="a189" creator="0" insign="," outsign=","/>
+<align out="a190 a191" type="mvp" in="b145" creator="0" insign="acquisita" outsign="som indhøstes"/>
+<align out="a193" type="s" in="b147" creator="0" insign="il" outsign="projektperioden"/>
+<align out="a193" type="lv" in="b148 b149 b150" creator="0" insign="periodo di prova" outsign="projektperioden"/>
+<align out="a194" type="" in="a194" creator="0" insign="," outsign=","/>
+<align out="a174 a175" type="" in="b130" creator="-1" insign="sarà" outsign="vil blive"/>
+<align out="a184" type="" in="b140" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a185" type="" in="b141" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a186" type="" in="b142" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a183" type="" in="b139" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a192" type="" in="b146" creator="-1" insign="durante" outsign="i"/>
+<align out="a195 a197" type="" in="b151" creator="0" insign="formerà" outsign="skal danne"/>
+<align out="a198" type="ds+n" in="b152" creator="0" insign="le" outsign="grundlag"/>
+<align out="a198" type="n" in="b153" creator="0" insign="basi" outsign="grundlag"/>
+<align out="a196" type="" in="a196" creator="0" insign="fremover" outsign="fremover"/>
+<align out="b154" type="" in="b154" creator="0" insign="future" outsign="future"/>
+<align out="a200" type="s" in="b156" creator="0" insign="la" outsign="indkøbspolitikken"/>
+<align out="a200" type="" in="b157 b158 b159" creator="0" insign="politica di acquisto" outsign="indkøbspolitikken"/>
+<align out="a202 a203" type="" in="b161 b162 b163" creator="0" insign="in modo che" outsign="således at"/>
+<align out="a204" type="s" in="b164" creator="0" insign="il" outsign="&quot;Bog_til_tiden&quot;-princippet"/>
+<align out="a204" type="" in="b165 b166 b167 b168 b169 b170" creator="0" insign="principio &quot; libro in tempo &quot;" outsign="&quot;Bog_til_tiden&quot;-princippet"/>
+<align out="a199" type="" in="b155" creator="-1" insign="per" outsign="for"/>
+<align out="a201" type="" in="b160" creator="-1" insign="," outsign=","/>
+<align out="a205 a206" type="" in="b171 b172 b173" creator="0" insign="possa essere mantenuto" outsign="kan fastholdes"/>
+<align out="a213" type="" in="b180" creator="0" insign="Biblioteca" outsign="Bibliotek"/>
+<align out="a213" type="ds" in="b179" creator="0" insign="La" outsign="Bibliotek"/>
+<align out="a214" type="" in="b182 b183" creator="0" insign="ha introdotto" outsign="introducerede"/>
+<align out="a215 a219" type="" in="b188" creator="0" insign="fa" outsign="for siden"/>
+<align out="a217" type="" in="b185 b186" creator="0" insign="paio di" outsign="par"/>
+<align out="a220" type="s" in="b189" creator="0" insign="i" outsign="NU-bøgerne"/>
+<align out="a220" type="" in="b190 b191 b192 b193" creator="0" insign="libri &quot; NU &quot;" outsign="NU-bøgerne"/>
+<align out="a210" type="" in="b177" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a211" type="" in="b178" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a209" type="" in="b176" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a208" type="" in="b175" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a218" type="" in="b187" creator="-1" insign="anni" outsign="år"/>
+<align out="a216" type="" in="b184" creator="-1" insign="un" outsign="et"/>
+<align out="a212" type="" in="b181" creator="-1" insign="Nørrebro" outsign="Nørrebro"/>
+<align out="a207" type="" in="b174" creator="-1" insign="." outsign="."/>
+<align out="b194" type="" in="b194" creator="0" insign="(" outsign="("/>
+<align out="b195" type="" in="b195" creator="0" insign="adesso" outsign="adesso"/>
+<align out="b196" type="" in="b196" creator="0" insign=")" outsign=")"/>
+<align out="a221" type="f" in="b197" creator="0" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a222 a223 a224" type="" in="b198" creator="0" insign="cioè" outsign="hvilket vil sige"/>
+<align out="a225" type="" in="a225" creator="0" insign="," outsign=","/>
+<align out="a227" type="" in="b200" creator="0" insign="attuali" outsign="aktuelle"/>
+<align out="a226" type="" in="a226" creator="0" insign="helt" outsign="helt"/>
+<align out="a229 a230 a231 a232" type="f" in="b201 b202 b203 b204" creator="0" insign="dati in prestito per" outsign="med en udlånstid på"/>
+<align out="a233" type="" in="b205" creator="-1" insign="7" outsign="7"/>
+<align out="a234" type="" in="b206" creator="-1" insign="giorni" outsign="dage"/>
+<align out="a236" type="" in="b208" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a237" type="" in="b209" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a228" type="" in="b199" creator="-1" insign="libri" outsign="bøger"/>
+<align out="a235" type="" in="b207" creator="-1" insign="." outsign="."/>
+</DTAGalign>

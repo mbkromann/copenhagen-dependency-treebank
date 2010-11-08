@@ -108,7 +108,6 @@
 <align out="a242 a243 a244 a245" type="" in="b134 b135 b136" creator="0" insign="stesse con me" outsign="være sammen med mig"/>
 <align out="a247 a248 a249 a250" type="" in="b138 b139 b140 b141 b142" creator="0" insign="allora tutto sarebbe andato bene.”" outsign="så var alt godt"/>
 <align out="a251" type=".=." in="b142" creator="0" insign="bene.”" outsign="."/>
-<align out="a85 a86 a87 a88" type="f" in="b28 b29" creator="0" insign="mentre salivamo" outsign="på vejen op ad"/>
 <align out="a90 a91" type="" in="b34" creator="0" insign="disse" outsign="sagde hun"/>
 <align out="a106 a107" type="f" in="b45 b50" creator="0" insign="che camminano" outsign="går vi"/>
 <align out="a77" type="s" in="b21" creator="0" insign="il" outsign="sit"/>
@@ -124,8 +123,6 @@
 <align out="a125 a126" type="" in="b57 b58" creator="0" insign="stessimo facendo" outsign="vi gør"/>
 <align out="a118 a119" type="" in="b59" creator="0" insign="fosse" outsign="det er"/>
 <align out="a149 a150 a151 a152 a153" type="" in="b77 b78 b79" creator="0" insign="non accadde nulla" outsign="Det blev ikke til noget"/>
-<align out="a160" type="" in="b82" creator="0" insign="non" outsign="ikke"/>
-<align out="a158 a159 a161" type="" in="b83" creator="0" insign="importava" outsign="det betød noget"/>
 <align out="a184" type="" in="b98" creator="0" insign="“Prima" outsign="&nbsp;-&nbsp;"/>
 <align out="a185" type="" in="b98" creator="0" insign="“Prima" outsign="Først"/>
 <align out="a188" type="" in="b100" creator="0" insign="da" outsign="fra"/>
@@ -134,4 +131,8 @@
 <align out="a189" type="" in="a189" creator="0" insign="den" outsign="den"/>
 <align out="a190" type="f" in="b101" creator="0" insign="un" outsign="ene"/>
 <align out="a213 a214" type="" in="b114" creator="0" insign="capii" outsign="jeg opdagede"/>
+<align out="a85 a86 a87" type="" in="b28 b29" creator="0" insign="mentre salivamo" outsign="på vejen op"/>
+<align out="a88" type="" in="a88" creator="0" insign="ad" outsign="ad"/>
+<align out="b42" type="" in="b42" creator="0" insign="“Siamo" outsign="“Siamo"/>
+<align out="a158 a159 a160 a161" type="" in="b82 b83" creator="0" insign="non importava" outsign="det betød ikke noget"/>
 </DTAGalign>
