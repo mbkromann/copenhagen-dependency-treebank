@@ -41,23 +41,23 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="A" id="43" lemma="en" msd="PI-NSU--U" tag="DT" in="" out="1:nobj|18:pnct|2:attr">Et</W>
-<W gloss="shock" id="44" lemma="chok" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:{loc}">chok</W>
+<W gloss="A" id="43" lemma="en" msd="PI-NSU--U" tag="DT" in="" out="1:nobj|2:attr|18:pnct">Et</W>
+<W gloss="shock" id="44" lemma="chok" morph="&lt;unknown&gt;" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:{loc}">chok</W>
 <W gloss="in" id="45" lemma="i" msd="SP" tag="IN" in="-2:attr|-1:{loc}" out="1:nobj">i</W>
 <W gloss="a" id="46" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
-<W gloss="world" id="47" lemma="verden" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|2:ref|3:relr">verden</W>
+<W gloss="world" id="47" lemma="verden" morph="&lt;unknown&gt;" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|2:ref|3:relr">verden</W>
 <W gloss="," id="48" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="49" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">der</W>
-<W gloss="has" id="50" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:relr" out="-1:subj|1:vobj">har</W>
-<W gloss="been" id="51" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds">været</W>
-<W gloss="accustomed" id="52" lemma="vant" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="1:pobj">vant</W>
+<W gloss="has" id="50" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-3:relr" out="-1:subj|1:vobj">har</W>
+<W gloss="been" id="51" lemma="være" morph="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds">været</W>
+<W gloss="accustomed" id="52" lemma="vant" morph="væn !!an +t/DERva&3a;pas.part" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="1:pobj">vant</W>
 <W gloss="in" id="53" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
-<W gloss="growth" id="54" lemma="vækst" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|6:conj">vækst</W>
+<W gloss="growth" id="54" lemma="vækst" morph="&lt;unknown&gt;" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|6:conj">vækst</W>
 <W gloss="-" id="55" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="and" id="56" lemma="og" msd="CC" tag="CC" in="4:coord" out="">og</W>
 <W gloss="as" id="57" lemma="som" msd="U=" tag="WDT" in="3:iter" out="1:nobj">som</W>
-<W gloss="rule" id="58" lemma="regel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">regel</W>
-<W gloss="strong" id="59" lemma="kraftig" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">kraftig</W>
+<W gloss="rule" id="58" lemma="regel" morph="&lt;unknown&gt;" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">regel</W>
+<W gloss="strong" id="59" lemma="kraftig" morph="kraft +ig/DERna&3a;rel" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">kraftig</W>
 <W gloss="growth" id="60" lemma="vækst" msd="NCCSU==I" tag="NN" in="-6:conj" out="-1:attr|-4:coord|-3:iter">vækst</W>
 <W gloss="." id="61" lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
@@ -87,7 +87,7 @@
 <W gloss="small" id="86" lemma="lille" msd="ANP[CN]PU=[DI]U" tag="JJ" in="13:scene" out="2:conj">små</W>
 <W gloss="and" id="87" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="medium-sized" id="88" lemma="mellemstor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">mellemstore</W>
-<W gloss="systems" id="89" lemma="system" msd="NCNPU==I" tag="NNP" in="-7:conj" out="-4:coord|4:pnct|1:attr|1:{goal}">systemer</W>
+<W gloss="systems" id="89" lemma="system" msd="NCNPU==I" tag="NNP" in="-7:conj" out="-4:coord|1:attr|1:{goal}|4:pnct">systemer</W>
 <W gloss="for" id="90" lemma="til" msd="SP" tag="IN" in="-1:attr|-1:{goal}" out="1:nobj">til</W>
 <W gloss="multiple" id="91" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-1:nobj" out="1:nobj">flere</W>
 <W gloss="users" id="92" lemma="bruger" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">brugere</W>
@@ -122,7 +122,7 @@
 <W gloss="of" id="121" lemma="af" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="2:nobj">af</W>
 <W gloss="smaller" id="122" lemma="lille" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="1:attr" out="">mindre</W>
 <W gloss="multiple_user_systems" id="123" lemma="flerbrugersystem" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr">flerbrugersystemer</W>
-<W gloss="attained" id="124" lemma="nå" msd="VADA=----A-" tag="VBD" in="" out="-5:pnct|1:time|7:pnct|-4:subj|4:dobj">nåede</W>
+<W gloss="attained" id="124" lemma="nå" msd="VADA=----A-" tag="VBD" in="" out="-5:pnct|-4:subj|1:time|4:dobj|7:pnct">nåede</W>
 <W gloss="in" id="125" lemma="i" msd="SP" tag="IN" in="-1:time" out="1:nobj">i</W>
 <W gloss="the90" id="126" lemma="'90" msd="AC---U=--" tag="CD" in="-1:nobj" out="">'90</W>
 <W gloss="approximately" id="127" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">cirka</W>
@@ -199,7 +199,7 @@
 </s>
 <s>
 <W gloss="The_personal_computer" id="200" lemma="PC" msd="NCCSU==D" tag="NN" in="1:subj|8:[subj]" out="">PC'en</W>
-<W gloss="did_kill" id="201" lemma="dræbe" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|3:neg|4:dobj|5:pnct|7:conj|18:pnct|21:pnct|1:prg">dræbte</W>
+<W gloss="did_kill" id="201" lemma="dræbe" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:prg|3:neg|4:dobj|5:pnct|7:conj|18:pnct|21:pnct">dræbte</W>
 <W gloss="of_course" id="202" lemma="jo" msd="RGU" tag="RP" in="-1:prg" out="">jo</W>
 <W gloss="nor" id="203" lemma="heller" msd="RGU" tag="RP" in="1:add" out="">heller</W>
 <W gloss="not" id="204" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="-1:add">ikke</W>
@@ -249,7 +249,7 @@
 <W gloss="different" id="248" lemma="forskellig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">forskellige</W>
 <W gloss="multiple_user_systems" id="249" lemma="flerbrugersystem" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr">flerbrugersystemer</W>
 <W gloss="-" id="250" lemma="-" msd="XP" tag="-" in="-20:pnct" out=""> - </W>
-<W gloss="is" id="251" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-25:loc|1:expl|3:dobj|5:pnct|4:¹time">er</W>
+<W gloss="is" id="251" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-25:loc|1:expl|3:dobj|4:¹time|5:pnct">er</W>
 <W gloss="there" id="252" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="stiff" id="253" lemma="benhård" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">benhård</W>
 <W gloss="competition" id="254" lemma="konkurrence" msd="NCCSU==I" tag="NN" in="-3:dobj" out="-1:attr">konkurrence</W>
