@@ -40,37 +40,37 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="Dear" id="42" lemma="kær" msd="ANP[CN]SU=DU" tag="JJ" in="2:attr" out="">Kære</W>
-<W gloss="deeply" id="43" lemma="inderlig" msd="ANP---=-R" tag="JJ" in="1:quant" out="">inderligt</W>
-<W gloss="confused" id="44" lemma="forvirre" msd="VAPA=S[CN]DA-U" tag="VBN" in="" out="-2:attr|-1:quant">forvirrede</W>
+<W gloss="Dear" id="42" lemma="kær" morph="&lt;unknown&gt;" msd="ANP[CN]SU=DU" tag="JJ" in="2:attr" out="">Kære</W>
+<W gloss="deeply" id="43" lemma="inderlig" morph="" msd="ANP---=-R" tag="JJ" in="1:quant" out="">inderligt</W>
+<W gloss="confused" id="44" lemma="forvirre" morph="forvir ^r +et/DERva&3a;pas.part ! ~de" msd="VAPA=S[CN]DA-U" tag="VBN" in="" out="-2:attr|-1:quant">forvirrede</W>
 </s>
 </p>
 <p>
 <s>
 <W gloss="It" id="49" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">Det</W>
-<W gloss="is" id="50" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|2:pnct|9:pnct">er</W>
-<W gloss="correct" id="51" lemma="rigtig" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">rigtigt</W>
+<W gloss="is" id="50" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|2:pnct|9:pnct">er</W>
+<W gloss="correct" id="51" lemma="rigtig" morph="&lt;unknown&gt;" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">rigtigt</W>
 <W gloss="," id="52" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" id="53" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="4:vobj">at</W>
-<W gloss="child_benefits" id="54" lemma="børnetilskud" msd="NCNSU==I" tag="NN" in="3:subj" out="2:conj">børnetilskud</W>
+<W gloss="child_benefits" id="54" lemma="børnetilskud" morph="tilskud -[børn]e/GOAL" msd="NCNSU==I" tag="NN" in="3:subj" out="2:conj">børnetilskud</W>
 <W gloss="and" id="55" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="supplements_for_families_with_children" id="56" lemma="børnefamilieydelse" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">børnefamilieydelse</W>
-<W gloss="fall" id="57" lemma="falde" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:part">falder</W>
+<W gloss="supplements_for_families_with_children" id="56" lemma="børnefamilieydelse" morph="yd +else/DERvn&3a;patient -[familie -[børn]e/CONST]/IOBJ.recipient" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">børnefamilieydelse</W>
+<W gloss="fall" id="57" lemma="falde" morph="falde" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:part">falder</W>
 <W gloss="apart" id="58" lemma="bort" msd="RGU" tag="RP" in="-1:part" out="">bort</W>
 <W gloss="." id="59" lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="On_the_other_hand" id="62" lemma="derimod" msd="RGU" tag="RP" in="1:contr" out="">Derimod</W>
-<W gloss="can" id="63" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:contr|1:subj|3:vobj|17:pnct|18:time|23:pnct">kan</W>
+<W gloss="can" id="63" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:contr|1:subj|3:vobj|17:pnct|18:time|23:pnct">kan</W>
 <W gloss="her" id="64" lemma="hendes" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:subj|1:{arg}|2:[subj]" out="1:possd">hendes</W>
-<W gloss="father" id="65" lemma="far" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{arg}">far</W>
-<W gloss="put" id="66" lemma="sætte" msd="VAF-=----P-" tag="VB" in="-3:vobj" out="-2:[subj]|1:pobj">sættes</W>
+<W gloss="father" id="65" lemma="far" morph="&lt;unknown&gt;" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{arg}">far</W>
+<W gloss="put" id="66" lemma="sætte" morph="sætte" msd="VAF-=----P-" tag="VB" in="-3:vobj" out="-2:[subj]|1:pobj">sættes</W>
 <W gloss="in" id="67" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
-<W gloss="contribution" id="68" lemma="bidrag" msd="NCNSU==I" tag="NN" in="-1:nobj" out="4:modp|4:{elab}">bidrag</W>
+<W gloss="contribution" id="68" lemma="bidrag" morph="[bidrag@V] /DERvn&3a;patient" msd="NCNSU==I" tag="NN" in="-1:nobj" out="4:modp|4:{elab}">bidrag</W>
 <W gloss="(" id="69" lemma="(" msd="XP" tag="(" in="3:pnct" out="">(</W>
 <W gloss="as" id="70" lemma="som" msd="U=" tag="WDT" in="2:eval" out="1:nobj">som</W>
-<W gloss="rule" id="71" lemma="regel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">regel</W>
-<W gloss="less" id="72" lemma="lille" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-4:modp|-4:{elab}" out="-3:pnct|-2:eval|1:pobj|7:pnct">mindre</W>
+<W gloss="rule" id="71" lemma="regel" morph="&lt;unknown&gt;" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">regel</W>
+<W gloss="less" id="72" lemma="lille" morph="lille" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-4:modp|-4:{elab}" out="-3:pnct|-2:eval|1:pobj|7:pnct">mindre</W>
 <W gloss="than" id="73" lemma="end" msd="CS" tag="IN" in="-1:pobj" out="1:pobj">end</W>
 <W gloss="before" id="74" lemma="før" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">før</W>
 <W gloss="the" id="75" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj">det</W>

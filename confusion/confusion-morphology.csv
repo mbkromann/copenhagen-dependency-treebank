@@ -1,7 +1,28 @@
+<	4	25%=DERva:act	25%=SUBJ.agent	25%=ARG	25%=GOAL
+>	16	31.3%=DERvn:core	25%=subj.agent	18.8%=DERna:rel.norm	18.8%=func	6.3%=DERvn:patient
+AGENT:MC	1	100%=agent
+ARG	1	100%=<
+DENOM:rel.place	1	100%=DERna:rel
+DER:aa	1	100%=DER:aa
 DERan:qual	1	100%=DERan:qual
 DERna:disp	1	100%=DERna:disp
-DERnv	1	100%=DERnv
-DERvn:core	6	100%=DERvn:core
-DERvn:patient	1	100%=DERvn:patient
+DERna:rel	1	100%=DENOM:rel.place
+DERna:rel.norm	4	75%=>	25%=DERnn:assoc
+DERnn:agent	1	100%=DERnn:agent
+DERnn:assoc	1	100%=DERna:rel.norm
+DERnv	3	100%=DERnv
+DERva:act	3	66.7%=DERva:act	33.3%=<
+DERvn:agent	2	100%=DERvn:agent
+DERvn:core	19	47.4%=DERvn:core	26.3%=>	15.8%=DERvn:patient	10.5%=SUBJ.agent
+DERvn:patient	5	60%=DERvn:core	20%=DERvn:patient	20%=>
+GOAL	3	66.7%=func	33.3%=<
+MOD:qual	3	100%=MOD:qual
+MOD:quant	1	100%=MOD:quant
+NEG:contr	1	100%=NEG:priv
+NEG:priv	1	100%=NEG:contr
+SUBJ.agent	4	50%=DERvn:core	25%=func	25%=<
+TIME:pre	1	100%=TIME:pre
 about	1	100%=about
-func	2	100%=func
+agent	1	100%=AGENT:MC
+func	8	37.5%=>	25%=func	25%=GOAL	12.5%=SUBJ.agent
+subj.agent	4	100%=>
