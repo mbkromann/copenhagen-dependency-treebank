@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Småt, men godt'</title>
+        <title>Tagged sample of: 'SmÃ¥t, men godt'</title>
       </titleStmt>
       <extent words=155>155 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Småt, men godt</title>
+            <title>SmÃ¥t, men godt</title>
             <author gender=m born=1950>Knudstrup, Finn</author>
           </analytic>
           <monogr>
@@ -45,7 +45,7 @@
 <W lemma="med" msd="SP">med</W>
 <W lemma="mulighed" msd="NCCSU==I">mulighed</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="trinløs" msd="ANPNSU=IU">trinløst</W>
+<W lemma="trinlÃ¸s" msd="ANPNSU=IU">trinlÃ¸st</W>
 <W lemma="automatgear" msd="NCNSU==I">automatgear</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="system" msd="NCNSU==I">system</W>
@@ -64,20 +64,20 @@
 <p>
 <s>
 <W lemma="der" msd="U=">Der</W>
-<W lemma="gætte" msd="VADR=----P-">gættes</W>
+<W lemma="gÃ¦tte" msd="VADR=----P-">gÃ¦ttes</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Nissan" msd="NP--U==-">Nissan</W>
 <W lemma="motor" msd="NCCSU==I">Motor</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="1-liter" msd="NCCSG==I">1-liters</W>
-<W lemma="3-dør" msd="NCCSG==I">3-dørs</W>
+<W lemma="3-dÃ¸r" msd="NCCSG==I">3-dÃ¸rs</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="kunne" msd="VAF-=----A-">kunne</W>
-<W lemma="sælge" msd="VAF-=----P-">sælges</W>
+<W lemma="sÃ¦lge" msd="VAF-=----P-">sÃ¦lges</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="mellem" msd="SP">mellem</W>
 <W lemma="115.-" msd="AC---U=--">115.-</W>
@@ -87,32 +87,32 @@
 <W lemma="inklusive" msd="SP">inklusive</W>
 <W lemma="standard-udstyr" msd="NCNSU==I">standard-udstyr</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="kørelys" msd="NCNPU==I">kørelys</W>
+<W lemma="kÃ¸relys" msd="NCNPU==I">kÃ¸relys</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="varme" msd="NCCSU==I">varme</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="sæde" msd="NCNPU==I">sæder</W>
+<W lemma="sÃ¦de" msd="NCNPU==I">sÃ¦der</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="lygtevisker" msd="NCCPU==I">lygteviskere</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="stofklædt" msd="ANP[CN]PU=[DI]U">stofklædte</W>
-<W lemma="dørside" msd="NCCPU==I">dørsider</W>
+<W lemma="stofklÃ¦dt" msd="ANP[CN]PU=[DI]U">stofklÃ¦dte</W>
+<W lemma="dÃ¸rside" msd="NCCPU==I">dÃ¸rsider</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="intervalvisker" msd="NCCPU==I">intervalviskere</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="bagrudevisker" msd="NCCSU==I">bagrudevisker</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="triptæller" msd="NCCSU==I">triptæller</W>
+<W lemma="triptÃ¦ller" msd="NCCSU==I">triptÃ¦ller</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fem" msd="AC---U=--">fem</W>
 <W lemma="gear" msd="NCNPU==I">gear</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="højdejusterbar" msd="ANP[CN]PU=[DI]U">højdejustérbare</W>
+<W lemma="hÃ¸jdejusterbar" msd="ANP[CN]PU=[DI]U">hÃ¸jdejustÃ©rbare</W>
 <W lemma="S-sele" msd="NCCPU==I">S-seler</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="jernstiver" msd="NCCPU==I">jernstivere</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="dør" msd="NCCPU==D">dørene</W>
+<W lemma="dÃ¸r" msd="NCCPU==D">dÃ¸rene</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -136,16 +136,16 @@
 </s>
 <s>
 <W lemma="koncept" msd="NCNSU==D">Konceptet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="flot" msd="ANP[CN]SU=IU">flot</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="europæisere" msd="VAPA=S[CN]I[ARU]-U">europæiseret</W>
+<W lemma="europÃ¦isere" msd="VAPA=S[CN]I[ARU]-U">europÃ¦iseret</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="blandt_andet" msd="RGU">blandt_andet</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="trinløs" msd="ANPCSU=IU">trinløs</W>
-<W lemma="regulerbar" msd="ANP[CN]PU=[DI]U">regulérbare</W>
-<W lemma="forsæde" msd="NCNPU==I">forsæder</W>
+<W lemma="trinlÃ¸s" msd="ANPCSU=IU">trinlÃ¸s</W>
+<W lemma="regulerbar" msd="ANP[CN]PU=[DI]U">regulÃ©rbare</W>
+<W lemma="forsÃ¦de" msd="NCNPU==I">forsÃ¦der</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="lige" msd="RGU">lige</W>
 <W lemma="som" msd="U=">som</W>
@@ -155,16 +155,16 @@
 <W lemma="plads" msd="NCCSU==I">plads</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="hoved" msd="NCNSU==D">hovedet</W>
-<W lemma="både" msd="RGU">både</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
 <W lemma="for" msd="RGU">for</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="bag" msd="RGU">bag</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="knæplads" msd="NCCSU==D">Knæpladsen</W>
+<W lemma="knÃ¦plads" msd="NCCSU==D">KnÃ¦pladsen</W>
 <W lemma="agter" msd="ANP---=-R">agter</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="beskeden" msd="ANPCSU=IU">beskeden</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="mens" msd="CS">mens</W>
@@ -180,7 +180,7 @@
 <W lemma="hurtig" msd="ANP---=-R">hurtigt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="køre" msd="VADR=----A-">kører</W>
+<W lemma="kÃ¸re" msd="VADR=----A-">kÃ¸rer</W>
 <W lemma="mini-bil" msd="NCCSU==I">mini-bil</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -191,8 +191,8 @@
 <W lemma="arbejde" msd="VADR=----A-">arbejder</W>
 <W lemma="1-liter" msd="NCCSG==I">1-liters</W>
 <W lemma="motor" msd="NCCSU==D">motoren</W>
-<W lemma="både" msd="RGU">både</W>
-<W lemma="støjsvag" msd="ANP---=-R">støjsvagt</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
+<W lemma="stÃ¸jsvag" msd="ANP---=-R">stÃ¸jsvagt</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="fleksibel" msd="ANP---=-R">fleksibelt</W>
 <W lemma="." msd="XP">.</W>
@@ -202,12 +202,12 @@
 <W lemma="ny" msd="ANP[CN]SU=DU">ny</W>
 <W lemma="16-ventilet" msd="ANP[CN]SU=DU">16-ventilede</W>
 <W lemma="motor" msd="NCCSU==I">motor</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="imponerende" msd="ANP[CN][SP]U=[DI]U">imponerende</W>
 <W lemma="kvalitet" msd="NCCSU==I">kvalitet</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="trække" msd="VADR=----A-">trækker</W>
+<W lemma="trÃ¦kke" msd="VADR=----A-">trÃ¦kker</W>
 <W lemma="ren" msd="ANP---=-R">rent</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="50" msd="AC---U=--">50</W>
@@ -226,26 +226,26 @@
 <W lemma="men" msd="CC">men</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="kun" msd="RGU">kun</W>
-<W lemma="trække" msd="VAF-=----A-">trække</W>
+<W lemma="trÃ¦kke" msd="VAF-=----A-">trÃ¦kke</W>
 <W lemma="800" msd="AC---U=--">800</W>
 <W lemma="kilo" msd="NCNPU==I">kg</W>
-<W lemma="vognvægt" msd="NCCSU==I">vognvægt</W>
+<W lemma="vognvÃ¦gt" msd="NCCSU==I">vognvÃ¦gt</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="den" msd="PP3CSU-NU">Den</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="derfor" msd="RGU">derfor</W>
-<W lemma="nå" msd="VAF-=----A-">nå</W>
+<W lemma="nÃ¥" msd="VAF-=----A-">nÃ¥</W>
 <W lemma="100" msd="AC---U=--">100</W>
 <W lemma="km/t." msd="XA">km/t.</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="16,4" msd="AC---U=--">16,4</W>
 <W lemma="sekund" msd="NCNSU==I">sekund</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="topfart" msd="NCCSU==I">topfart</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="150" msd="AC---U=--">150</W>
 <W lemma="km/t." msd="XA">km/t.</W>
 <W lemma="." msd="XP">.</W>

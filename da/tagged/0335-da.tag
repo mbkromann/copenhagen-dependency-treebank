@@ -40,26 +40,26 @@
 <p>
 <s>
 <W lemma="han" msd="PP3CSN-NU">Han</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="god" msd="ANPCSU=IU">god</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="finde" msd="VAF-=----A-">finde</W>
-<W lemma="tøj" msd="NCNSU==I">tøj</W>
+<W lemma="tÃ¸j" msd="NCNSU==I">tÃ¸j</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
 <W lemma="ofte" msd="RGP">ofte</W>
-<W lemma="få" msd="VAPA=S[CN]I[ARU]-U">fået</W>
+<W lemma="fÃ¥" msd="VAPA=S[CN]I[ARU]-U">fÃ¥et</W>
 <W lemma="hun" msd="PP3CSU-NU">hende</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="købe" msd="VAF-=----A-">købe</W>
+<W lemma="kÃ¸be" msd="VAF-=----A-">kÃ¸be</W>
 <W lemma="ting" msd="NCCPU==I">ting</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="hun" msd="PP3CSN-NU">hun</W>
 <W lemma="synes" msd="VEDA=----A-">syntes</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="for" msd="RGU">for</W>
 <W lemma="ungdommelig" msd="ANP[CN]PU=[DI]U">ungdommelige</W>
 <W lemma="og" msd="CC">og</W>
@@ -86,8 +86,8 @@
 <W lemma="have" msd="VAF-=----A-">have</W>
 <W lemma="han" msd="PP3CSU-NU">ham</W>
 <W lemma="med" msd="RGU">med</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="indkøb" msd="NCNSU==I">indkøb</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="indkÃ¸b" msd="NCNSU==I">indkÃ¸b</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -95,19 +95,19 @@
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="sort" msd="ANP[CN]SU=DU">sorte</W>
 <W lemma="jakke" msd="NCCSU==I">jakke</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="alt" msd="RGU">alt</W>
 <W lemma="for" msd="RGU">for</W>
 <W lemma="dyr" msd="ANPCSU=IU">dyr</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="heller" msd="RGU">heller</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="lige" msd="RGU">lige</W>
 <W lemma="den" msd="PP3CSU-NU">den</W>
 <W lemma="hun" msd="PP3CSN-NU">hun</W>
-<W lemma="stå" msd="VADA=----A-">stod</W>
+<W lemma="stÃ¥" msd="VADA=----A-">stod</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="mangle" msd="VADA=----A-">manglede</W>
 <W lemma="." msd="XP">.</W>
@@ -123,7 +123,7 @@
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="prøve" msd="VAF-=----A-">prøve</W>
+<W lemma="prÃ¸ve" msd="VAF-=----A-">prÃ¸ve</W>
 <W lemma="buksedragt" msd="NCCPU==I">buksedragter</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="ekspedient" msd="NCCSU==D">ekspedienten</W>
@@ -143,7 +143,7 @@
 </s>
 <s>
 <W lemma="der" msd="U=">Der</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="anden" msd="PI-NSU--U">andet</W>
 <W lemma="end" msd="CS">end</W>
@@ -160,28 +160,28 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="kikke" msd="VADA=----A-">kikkede</W>
 <W lemma="ud" msd="RGU">ud</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="gade" msd="NCCSU==D">gaden</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="en" msd="PI-CSU--U">En</W>
-<W lemma="båndoptager" msd="NCCSU==I">båndoptager</W>
+<W lemma="bÃ¥ndoptager" msd="NCCSU==I">bÃ¥ndoptager</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="skranke" msd="NCCSU==D">skranken</W>
-<W lemma="gå" msd="VADA=----A-">gik</W>
+<W lemma="gÃ¥" msd="VADA=----A-">gik</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="popmusik" msd="NCCSU==I">popmusik</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="lyde" msd="VADA=----A-">lød</W>
+<W lemma="lyde" msd="VADA=----A-">lÃ¸d</W>
 <W lemma="bekendt" msd="ANP[CN]SU=IU">bekendt</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="skønt" msd="CS">skønt</W>
+<W lemma="skÃ¸nt" msd="CS">skÃ¸nt</W>
 <W lemma="tempo" msd="NCNSU==D">tempoet</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="arrangement" msd="NCNSU==D">arrangementet</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
-<W lemma="forvrænge" msd="VAPA=S[CN]I[ARU]-U">forvrænget</W>
+<W lemma="forvrÃ¦nge" msd="VAPA=S[CN]I[ARU]-U">forvrÃ¦nget</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -193,7 +193,7 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="Begin" msd="NP--U==-">Begin</W>
 <W lemma="the" msd="XF">the</W>
 <W lemma="Beguine" msd="NP--U==-">Beguine</W>
@@ -213,26 +213,26 @@
 <W lemma="anden" msd="PI-CSU--U">anden</W>
 <W lemma="orientaler" msd="NCCSU==I">orientaler</W>
 <W lemma="synge" msd="VADA=----A-">sang</W>
-<W lemma="henført" msd="ANP---=-R">henført</W>
+<W lemma="henfÃ¸rt" msd="ANP---=-R">henfÃ¸rt</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="svulstig" msd="ANP---=-R">svulstigt</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="trække" msd="VADA=----A-">Trak</W>
+<W lemma="trÃ¦kke" msd="VADA=----A-">Trak</W>
 <W lemma="ord" msd="NCNPU==D">ordene</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="løfte" msd="VADA=----A-">løftede</W>
+<W lemma="lÃ¸fte" msd="VADA=----A-">lÃ¸ftede</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="løfte" msd="VADA=----A-">løftede</W>
+<W lemma="lÃ¸fte" msd="VADA=----A-">lÃ¸ftede</W>
 <W lemma="melodi" msd="NCCSU==D">melodien</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="ren" msd="ANPCSU=IU">ren</W>
-<W lemma="sjæler" msd="XX">sjæler</W>
+<W lemma="sjÃ¦ler" msd="XX">sjÃ¦ler</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="stryger" msd="NCCPU==I">strygere</W>
 <W lemma="i" msd="SP">i</W>
@@ -241,7 +241,7 @@
 </s>
 <s>
 <W lemma="der" msd="U=">Der</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="nogen" msd="PI-NSU--U">noget</W>
 <W lemma="tilbage" msd="RGU">tilbage</W>
@@ -250,7 +250,7 @@
 <W lemma="oprindelig" msd="ANP[CN]SU=DU">oprindelige</W>
 <W lemma="swing" msd="NCCSU==I">swing</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="tæthed" msd="NCCSU==D">tætheden</W>
+<W lemma="tÃ¦thed" msd="NCCSU==D">tÃ¦theden</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="rytme" msd="NCCSU==D">rytmen</W>
 <W lemma="." msd="XP">.</W>

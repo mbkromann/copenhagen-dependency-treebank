@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'De høje promillers dag'</title>
+        <title>Tagged sample of: 'De hÃ¸je promillers dag'</title>
       </titleStmt>
       <extent words=153>153 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>De høje promillers dag</title>
+            <title>De hÃ¸je promillers dag</title>
             <author gender=m born=1922>Dal, John</author>
           </analytic>
           <monogr>
@@ -42,8 +42,8 @@
 <p>
 <s>
 <W lemma="den" msd="PP3CSU-NU">Den</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="hæfte" msd="NCNSU==I">hæfte</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="hÃ¦fte" msd="NCNSU==I">hÃ¦fte</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="14" msd="AC---U=--">14</W>
 <W lemma="dag" msd="NCCPU==I">dage</W>
@@ -51,14 +51,14 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="fortabelse" msd="NCCSU==I">fortabelse</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="førerret" msd="NCCSU==D">førerretten</W>
+<W lemma="fÃ¸rerret" msd="NCCSU==D">fÃ¸rerretten</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="19." msd="AO---U=--">19.</W>
 <W lemma="marts" msd="NCCSU==I">marts</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="da" msd="CS">da</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
-<W lemma="kørekort" msd="NCNSU==I">kørekort</W>
+<W lemma="kÃ¸rekort" msd="NCNSU==I">kÃ¸rekort</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
 <W lemma="inddrage" msd="VAPA=S[CN]I[ARU]-U">inddraget</W>
 </s>
@@ -67,15 +67,15 @@
 <s>
 <W lemma="som" msd="U=">Som</W>
 <W lemma="De" msd="PP2C[SP]N-NP">De</W>
-<W lemma="høre" msd="VADA=----A-">hørte</W>
+<W lemma="hÃ¸re" msd="VADA=----A-">hÃ¸rte</W>
 <W lemma="anklager" msd="NCCSU==D">anklageren</W>
 <W lemma="sige" msd="VAF-=----A-">sige</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="fast" msd="ANP[CN]PU=[DI]U">faste</W>
 <W lemma="takst" msd="NCCPU==I">takster</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="spirituskørsel" msd="NCCSU==I">spirituskørsel</W>
+<W lemma="spirituskÃ¸rsel" msd="NCCSU==I">spirituskÃ¸rsel</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -86,11 +86,11 @@
 <W lemma="2,00" msd="AC---U=--">2,00</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="2,50" msd="AC---U=--">2,50</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="taksere" msd="VAPA=S[CN]I[ARU]-U">takseret</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="nævne" msd="VAPA=S[CN]DA-U">nævnte</W>
+<W lemma="nÃ¦vne" msd="VAPA=S[CN]DA-U">nÃ¦vnte</W>
 <W lemma="straf" msd="NCCSU==I">straf</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -100,7 +100,7 @@
 <W lemma="nu" msd="RGU">Nu</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="De" msd="PP2C[SP]N-NP">De</W>
-<W lemma="gøre" msd="VAF-=----A-">gøre</W>
+<W lemma="gÃ¸re" msd="VAF-=----A-">gÃ¸re</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="tre" msd="AC---U=--">tre</W>
@@ -121,8 +121,8 @@
 <s>
 <W lemma="De" msd="PP2C[SP]N-NP">De</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
-<W lemma="betænkningstid" msd="NCCSU==I">betænkningstid</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
+<W lemma="betÃ¦nkningstid" msd="NCCSU==I">betÃ¦nkningstid</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="14" msd="AC---U=--">14</W>
 <W lemma="dag" msd="NCCPU==I">dage</W>
@@ -185,9 +185,9 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="arrestforvarer" msd="NCCSG==D">arrestforvarerens</W>
 <W lemma="kontor" msd="NCNSU==I">kontor</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="De" msd="PP2C[SP]N-NP">De</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="tilsigelse" msd="NCCSU==D">tilsigelsen</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="afsoning" msd="NCCSU==I">afsoning</W>
@@ -201,7 +201,7 @@
 <W lemma="komme" msd="VAF-=----A-">komme</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="afsoning" msd="NCCSU==I">afsoning</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="tidspunkt" msd="NCNSU==I">tidspunkt</W>
 <W lemma="," msd="XP">,</W>
@@ -219,13 +219,13 @@
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="jeg" msd="PP1CSN-NU">Jeg</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="råde" msd="VAF-=----A-">råde</W>
+<W lemma="rÃ¥de" msd="VAF-=----A-">rÃ¥de</W>
 <W lemma="de" msd="PP3[CN]PU-NU">dem</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="undlade" msd="VAF-=----A-">undlade</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="køre" msd="VAF-=----A-">køre</W>
+<W lemma="kÃ¸re" msd="VAF-=----A-">kÃ¸re</W>
 <W lemma="bil" msd="NCCSU==I">bil</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="frakendelsestid" msd="NCCSU==D">frakendelsestiden</W>
@@ -237,8 +237,8 @@
 <W lemma="normal" msd="ANP---=-R">normalt</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="ubetinget" msd="ANP[CN]SU=IU">ubetinget</W>
-<W lemma="hæftestraf" msd="NCCSU==I">hæftestraf</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="hÃ¦ftestraf" msd="NCCSU==I">hÃ¦ftestraf</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="syv" msd="AC---U=--">syv</W>
 <W lemma="dag" msd="NCCPU==I">dage</W>
 <W lemma="." msd="XP">.</W>
@@ -248,18 +248,18 @@
 <s>
 <W lemma="i" msd="SP">I</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="efterfølgende" msd="ANP[CN][SP]U=[DI]U">efterfølgende</W>
+<W lemma="efterfÃ¸lgende" msd="ANP[CN][SP]U=[DI]U">efterfÃ¸lgende</W>
 <W lemma="spiritussag" msd="NCCSU==I">spiritussag</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="sigte" msd="VAPA=S[CN]DA-U">sigtede</W>
-<W lemma="køre" msd="VAPA=S[CN]I[ARU]-U">kørt</W>
+<W lemma="kÃ¸re" msd="VAPA=S[CN]I[ARU]-U">kÃ¸rt</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="alkoholpromille" msd="NCCSU==I">alkoholpromille</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="blod" msd="NCNSU==D">blodet</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="2,18" msd="AC---U=--">2,18</W>
 <W lemma="." msd="XP">.</W>
 </s>

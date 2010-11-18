@@ -45,7 +45,7 @@
 <W lemma="tre" msd="AC---U=--">tre</W>
 <W lemma="musketer" msd="NCCPU==I">musketerer</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="instruktør" msd="NCCSU==D">instruktøren</W>
+<W lemma="instruktÃ¸r" msd="NCCSU==D">instruktÃ¸ren</W>
 <W lemma="Richard" msd="NP--U==-">Richard</W>
 <W lemma="Lester" msd="NP--G==-">Lesters</W>
 <W lemma="engelsk" msd="ANP[CN]SU=DU">engelske</W>
@@ -59,7 +59,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="vise" msd="VADR=----P-">vises</W>
 <W lemma="i_aften" msd="RGU">i_aften</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="norsk" msd="ANP[CN]SU=IU">norsk</W>
 <W lemma="tv" msd="NCNSU==I">tv</W>
 <W lemma="klokke" msd="NCCSU==D">kl.</W>
@@ -85,7 +85,7 @@
 </s>
 <s>
 <W lemma="film" msd="NCCSU==D">Filmen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="1973" msd="AC---U=--">1973</W>
 <W lemma="og" msd="CC">og</W>
@@ -108,15 +108,15 @@
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
 <W lemma="ting" msd="NCCPU==I">ting</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="dø" msd="VADA=----A-">døde</W>
+<W lemma="dÃ¸" msd="VADA=----A-">dÃ¸de</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="Dagmar" msd="NP--U==-">Dagmar</W>
 <W lemma="Lange" msd="NP--U==-">Lange</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="god" msd="ANC---=-R">bedre</W>
 <W lemma="kendt" msd="ANP[CN]SU=IU">kendt</W>
 <W lemma="som" msd="U=">som</W>
@@ -127,32 +127,32 @@
 </s>
 <s>
 <W lemma="hun" msd="PP3CSN-NU">Hun</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="kritiker" msd="NCCPG==D">kritikernes</W>
 <W lemma="yndlingsforfatter" msd="NCCSU==I">yndlingsforfatter</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="gengæld" msd="NCCSU==I">gengæld</W>
+<W lemma="gengÃ¦ld" msd="NCCSU==I">gengÃ¦ld</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
 <W lemma="hun" msd="PP3CSN-NU">hun</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="enorm" msd="ANPCSU=IU">enorm</W>
-<W lemma="læserskare" msd="NCCSU==I">læserskare</W>
+<W lemma="lÃ¦serskare" msd="NCCSU==I">lÃ¦serskare</W>
 <W lemma=" - " msd="XP"> - </W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="1950'er" msd="NCCPU==D">1950'erne</W>
 <W lemma="," msd="XP">,</W>
@@ -183,16 +183,16 @@
 <W lemma="interviewe" msd="VADR=----P-">interviewes</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="Ulf" msd="NP--U==-">Ulf</W>
-<W lemma="Örnkloo" msd="NP--U==-">Örnkloo</W>
+<W lemma="Ã–rnkloo" msd="NP--U==-">Ã–rnkloo</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="dansk" msd="ANP[CN]SU=IU">Dansk</W>
-<W lemma="håndbold" msd="NCCSU==I">håndbold</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="repræsentere" msd="VAPA=S[CN]I[ARU]-U">repræsenteret</W>
+<W lemma="hÃ¥ndbold" msd="NCCSU==I">hÃ¥ndbold</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="reprÃ¦sentere" msd="VAPA=S[CN]I[ARU]-U">reprÃ¦senteret</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="World_Cup-turnering" msd="NCCSU==D">World_Cup-turneringen</W>
 <W lemma="i" msd="SP">i</W>
@@ -216,10 +216,10 @@
 <W lemma="klokke" msd="NCCSU==D">kl.</W>
 <W lemma="21.15" msd="AC---U=--">21.15</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="lørdag" msd="NCCSU==I">lørdag</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="lÃ¸rdag" msd="NCCSU==I">lÃ¸rdag</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="sportslørdag" msd="NCCSU==I">Sportslørdag</W>
+<W lemma="sportslÃ¸rdag" msd="NCCSU==I">SportslÃ¸rdag</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="starte" msd="VADR=----A-">starter</W>
@@ -227,7 +227,7 @@
 <W lemma="14.15" msd="AC---U=--">14.15</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="søndag" msd="NCCSU==I">søndag</W>
+<W lemma="sÃ¸ndag" msd="NCCSU==I">sÃ¸ndag</W>
 <W lemma="klokke" msd="NCCSU==D">kl.</W>
 <W lemma="16.00" msd="AC---U=--">16.00</W>
 <W lemma="." msd="XP">.</W>

@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Atomkraft og miljø'</title>
+        <title>Tagged sample of: 'Atomkraft og miljÃ¸'</title>
       </titleStmt>
       <extent words=164>164 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Atomkraft og miljø<title>
+            <title>Atomkraft og miljÃ¸<title>
                <author gender=m born=1953>Bredsdorff, Axel</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
@@ -42,17 +42,17 @@
 <W lemma="&quot;" msd="XP">"</W>
 <hi>
 <W lemma="ulykke" msd="NCCSU==D">Ulykken</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="Tjernobyl-atomkraftværk" msd="NCNSU==D">Tjernobyl-atomkraftværket</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="Tjernobyl-atomkraftvÃ¦rk" msd="NCNSU==D">Tjernobyl-atomkraftvÃ¦rket</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="vise" msd="VAPA=S[CN]I[ARU]-U">vist</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="forberede" msd="VAPA=S[CN]I[ARU]-U">forberedt</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="selv" msd="RGU">selv</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="meget" msd="ANS---=-R">mest</W>
@@ -80,30 +80,30 @@
 <W lemma="sandsynlighed" msd="NCCSU==D">sandsynligheden</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="systemsvigt" msd="NCNSU==I">systemsvigt</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="lig" msd="ANP[CN]SU=IU">lig</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="0,0001" msd="AC---U=--">0,0001</W>
 <W lemma="indenfor" msd="SP">indenfor</W>
 <W lemma="1" msd="AC---U=--">1</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="slå" msd="VAF-=----A-">slå</W>
+<W lemma="slÃ¥" msd="VAF-=----A-">slÃ¥</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
-<W lemma="til_tåls" msd="RGU">til_tåls</W>
+<W lemma="til_tÃ¥ls" msd="RGU">til_tÃ¥ls</W>
 <W lemma="." msd="XP">.</W>
 </hi>
 </s>
 <s>
 <W lemma="atomenergi" msd="NCCSU==I">Atomenergi</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="aldrig" msd="RGU">aldrig</W>
 <W lemma="meget" msd="ANC---=-R">mere</W>
-<W lemma="forårsage" msd="VAF-=----A-">forårsage</W>
+<W lemma="forÃ¥rsage" msd="VAF-=----A-">forÃ¥rsage</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="sådan" msd="ANPCSU=IU">sådan</W>
+<W lemma="sÃ¥dan" msd="ANPCSU=IU">sÃ¥dan</W>
 <W lemma="ulykke" msd="NCCSU==I">ulykke</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="?" msd="XP">?</W>
@@ -116,7 +116,7 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="omgive" msd="VAPR=[SP][CN][DI]A-U">omgivende</W>
-<W lemma="miljø" msd="NCNSU==I">miljø</W>
+<W lemma="miljÃ¸" msd="NCNSU==I">miljÃ¸</W>
 </hi>
 </s>
 </p>
@@ -125,27 +125,27 @@
 <p>
 <s>
 <W lemma="ved" msd="SP">Ved</W>
-<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">større</W>
+<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">stÃ¸rre</W>
 <W lemma="udslip" msd="NCNPU==I">udslip</W>
-<W lemma="udsætte" msd="VADR=----P-">udsættes</W>
+<W lemma="udsÃ¦tte" msd="VADR=----P-">udsÃ¦ttes</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="ansætte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
+<W lemma="ansÃ¦tte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="ionisere" msd="VAPR=[SP][CN][DI]A-U">ioniserende</W>
-<W lemma="stråling" msd="NCCSU==I">stråling</W>
+<W lemma="strÃ¥ling" msd="NCCSU==I">strÃ¥ling</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="derfor" msd="RGU">Derfor</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="fastsætte" msd="VAPA=S[CN]I[ARU]-U">fastsat</W>
+<W lemma="fastsÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">fastsat</W>
 <W lemma="bestemt" msd="ANP[CN]PU=[DI]U">bestemte</W>
-<W lemma="arbejdsmiljøkrav" msd="NCNPU==I">arbejdsmiljøkrav</W>
+<W lemma="arbejdsmiljÃ¸krav" msd="NCNPU==I">arbejdsmiljÃ¸krav</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="nær" msd="ANC---=-R">nærmere</W>
+<W lemma="nÃ¦r" msd="ANC---=-R">nÃ¦rmere</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="omtale" msd="VAF-=----P-">omtales</W>
 <W lemma="her" msd="RGU">her</W>
@@ -153,7 +153,7 @@
 </s>
 <s>
 <W lemma="men" msd="CC">Men</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="ydre" msd="ANP[CN][SP]U=[DI]U">ydre</W>
 <W lemma="omgivelse" msd="NCCPU==I">omgivelser</W>
@@ -170,10 +170,10 @@
 <W lemma="forhold" msd="NCNPU==I">forhold</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="udslip" msd="NCNSG==D">udslippets</W>
-<W lemma="størrelse" msd="NCCSU==I">størrelse</W>
+<W lemma="stÃ¸rrelse" msd="NCCSU==I">stÃ¸rrelse</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="vejr" msd="NCNSU==D">vejret</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="havaritidspunkt" msd="NCNSU==D">havaritidspunktet</W>
@@ -192,7 +192,7 @@
 <s>
 <W lemma="ved" msd="SP">Ved</W>
 <W lemma="kernenedsmeltning" msd="NCCSU==I">kernenedsmeltning</W>
-<W lemma="frigøre" msd="VADR=----P-">frigøres</W>
+<W lemma="frigÃ¸re" msd="VADR=----P-">frigÃ¸res</W>
 <W lemma="radioaktiv" msd="ANP[CN]PU=[DI]U">radioaktive</W>
 <W lemma="isotop" msd="NCCPU==I">isotoper</W>
 <W lemma="med" msd="SP">med</W>
@@ -211,8 +211,8 @@
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="opblanding" msd="NCCSU==I">opblanding</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="afkøle" msd="VAPA=S[CN]I[ARU]-U">afkølet</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="afkÃ¸le" msd="VAPA=S[CN]I[ARU]-U">afkÃ¸let</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="omgivelse" msd="NCCPG==D">omgivelsernes</W>
 <W lemma="temperatur" msd="NCCSU==I">temperatur</W>
@@ -221,7 +221,7 @@
 <s>
 <W lemma="sky" msd="NCCSU==D">Skyen</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="føre" msd="VAF-=----P-">føres</W>
+<W lemma="fÃ¸re" msd="VAF-=----P-">fÃ¸res</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="vind" msd="NCCSU==D">vinden</W>
 <W lemma="," msd="XP">,</W>
@@ -246,7 +246,7 @@
 <W lemma="sammenligne" msd="VAF-=----P-">sammenlignes</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="røgfane" msd="NCCSU==I">røgfane</W>
+<W lemma="rÃ¸gfane" msd="NCCSU==I">rÃ¸gfane</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="almindelig" msd="ANPCSU=IU">almindelig</W>
@@ -263,7 +263,7 @@
 <W lemma="med" msd="SP">med</W>
 <W lemma="vejr" msd="NCNSU==D">vejret</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="gøre" msd="VAF-=----A-">gøre</W>
+<W lemma="gÃ¸re" msd="VAF-=----A-">gÃ¸re</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="bestemme" msd="VADR=----A-">bestemmer</W>
 <W lemma="forurening" msd="NCCSG==D">forureningens</W>

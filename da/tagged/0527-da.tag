@@ -48,7 +48,7 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="måned" msd="NCCSG==I">måneds</W>
+<W lemma="mÃ¥ned" msd="NCCSG==I">mÃ¥neds</W>
 <W lemma="tid" msd="NCCSU==I">tid</W>
 <W lemma="holde" msd="VAF-=----P-">holdes</W>
 <W lemma="folkeafstemning" msd="NCCSU==I">folkeafstemning</W>
@@ -60,7 +60,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="om" msd="CS">om</W>
 <W lemma="Makedonien" msd="NP--U==-">Makedonien</W>
-<W lemma="følge" msd="VADR=----A-">følger</W>
+<W lemma="fÃ¸lge" msd="VADR=----A-">fÃ¸lger</W>
 <W lemma="Slovenien" msd="NP--G==-">Sloveniens</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="Kroatien" msd="NP--G==-">Kroatiens</W>
@@ -109,7 +109,7 @@
 <W lemma="klokke" msd="NCCSU==D">KL</W>
 <W lemma="=" msd="XS">=</W>
 <W lemma="1830" msd="AC---U=--">1830</W>
-<W lemma="oplæser" msd="NCCSU==I">OPLÆSER</W>
+<W lemma="oplÃ¦ser" msd="NCCSU==I">OPLÃ†SER</W>
 <W lemma="=" msd="XS">=</W>
 </s>
 </p>
@@ -118,17 +118,17 @@
 <p>
 <s>
 <W lemma="EF-kommisionen" msd="XX">EF-kommisionen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="gå" msd="VAPA=S[CN]I[ARU]-U">gået</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="gÃ¥" msd="VAPA=S[CN]I[ARU]-U">gÃ¥et</W>
 <W lemma="igang" msd="RGU">igang</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="undersøge" msd="VAF-=----A-">undersøge</W>
+<W lemma="undersÃ¸ge" msd="VAF-=----A-">undersÃ¸ge</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="om" msd="CS">om</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="indefryse" msd="VAPA=SCDA-U">indefrosne</W>
-<W lemma="EF-støtte" msd="NCCSU==I">EF-støtte</W>
+<W lemma="EF-stÃ¸tte" msd="NCCSU==I">EF-stÃ¸tte</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="Jugoslavien" msd="NP--U==-">Jugoslavien</W>
 <W lemma="eventuel" msd="ANP---=-R">eventuelt</W>
@@ -142,23 +142,23 @@
 <W lemma="fremtvinge" msd="VAF-=----A-">fremtvinge</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="fredelig" msd="ANPCSU=IU">fredelig</W>
-<W lemma="løsning" msd="NCCSU==I">løsning</W>
+<W lemma="lÃ¸sning" msd="NCCSU==I">lÃ¸sning</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="først" msd="RGU">først</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="fÃ¸rst" msd="RGU">fÃ¸rst</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="fremmest" msd="ANP[CN]SU=IU">fremmest</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="del" msd="NCCSU==I">del</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="hjælp" msd="NCCSU==D">hjælpen</W>
+<W lemma="hjÃ¦lp" msd="NCCSU==D">hjÃ¦lpen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
-<W lemma="gå" msd="VAF-=----A-">gå</W>
+<W lemma="gÃ¥" msd="VAF-=----A-">gÃ¥</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="Serbien" msd="NP--U==-">Serbien</W>
 <W lemma="," msd="XP">,</W>
@@ -170,25 +170,25 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="kommission" msd="NCCSU==D">kommissionen</W>
 <W lemma="i" msd="XX">i</W>
-<W lemma="følge" msd="XX">følge</W>
+<W lemma="fÃ¸lge" msd="XX">fÃ¸lge</W>
 <W lemma="Reuter" msd="NP--G==-">Reuters</W>
 <W lemma="bureau" msd="NCNSU==I">bureau</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="kilde" msd="NCCPU==D">Kilderne</W>
-<W lemma="tilføje" msd="VADR=----A-">tilføjer</W>
+<W lemma="tilfÃ¸je" msd="VADR=----A-">tilfÃ¸jer</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="Serbien" msd="NP--U==-">Serbien</W>
-<W lemma="måske" msd="RGU">måske</W>
+<W lemma="mÃ¥ske" msd="RGU">mÃ¥ske</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="tvinge" msd="VAF-=----P-">tvinges</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="forhandlingsbord" msd="NCNSU==D">forhandlingsbordet</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvis" msd="CS">hvis</W>
-<W lemma="EF-hjælp" msd="NCCSU==D">EF-hjælpen</W>
+<W lemma="EF-hjÃ¦lp" msd="NCCSU==D">EF-hjÃ¦lpen</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
 <W lemma="delstat" msd="NCCPU==I">delstater</W>
@@ -200,13 +200,13 @@
 <W lemma="EF-land" msd="NCNPG==D">EF-landenes</W>
 <W lemma="udenrigsminister" msd="NCCPU==I">udenrigsministre</W>
 <W lemma="opgive" msd="VADA=----A-">opgav</W>
-<W lemma="i_går" msd="RGU">i_går</W>
+<W lemma="i_gÃ¥r" msd="RGU">i_gÃ¥r</W>
 <W lemma="indtil" msd="SP">indtil</W>
 <W lemma="videre" msd="RGU">videre</W>
-<W lemma="forsøg" msd="NCNPU==D">forsøgene</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="forsÃ¸g" msd="NCNPU==D">forsÃ¸gene</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="mægle" msd="VAF-=----A-">mægle</W>
+<W lemma="mÃ¦gle" msd="VAF-=----A-">mÃ¦gle</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Jugoslavien" msd="NP--U==-">Jugoslavien</W>
 <W lemma="." msd="XP">.</W>
@@ -268,7 +268,7 @@
 <div1 type=external>
 <p>
 <s>
-<W lemma="oplæser" msd="NCCSU==I">OPLÆSER</W>
+<W lemma="oplÃ¦ser" msd="NCCSU==I">OPLÃ†SER</W>
 <W lemma="=" msd="XS">=</W>
 </s>
 </p>
@@ -283,19 +283,19 @@
 <div1 type=external>
 <p>
 <s>
-<W lemma="oplæg" msd="NCNSU==I">OPLÆG</W>
+<W lemma="oplÃ¦g" msd="NCNSU==I">OPLÃ†G</W>
 </s>
 </p>
 </div1>
 <div1 type=main>
 <p>
 <s>
-<W lemma="på" msd="SP">På</W>
+<W lemma="pÃ¥" msd="SP">PÃ¥</W>
 <W lemma="udenrigspolitisk" msd="ANP[CN]SU=IU">udenrigspolitisk</W>
-<W lemma="nævn" msd="NCNSG==I">nævns</W>
-<W lemma="møde" msd="NCNSU==I">møde</W>
+<W lemma="nÃ¦vn" msd="NCNSG==I">nÃ¦vns</W>
+<W lemma="mÃ¸de" msd="NCNSU==I">mÃ¸de</W>
 <W lemma="i_dag" msd="RGU">i_dag</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="regering" msd="NCCSU==D">regeringen</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
@@ -317,11 +317,11 @@
 </s>
 <s>
 <W lemma="linie" msd="NCCSU==D">Linien</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="fredelig" msd="ANPCSU=IU">fredelig</W>
 <W lemma="politisk" msd="ANP[CN]SU=IU">politisk</W>
-<W lemma="løsning" msd="NCCSU==I">løsning</W>
+<W lemma="lÃ¸sning" msd="NCCSU==I">lÃ¸sning</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>

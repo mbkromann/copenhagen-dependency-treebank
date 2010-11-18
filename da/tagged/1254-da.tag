@@ -45,11 +45,11 @@
 <W lemma="Vojvodina" msd="NP--U==-">Vojvodina</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="serbisk" msd="ANP[CN]SU=IU">serbisk</W>
 <W lemma="provins" msd="NCCSU==I">provins</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="linje" msd="NCCSU==I">linje</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="Kosovo" msd="NP--U==-">Kosovo</W>
@@ -75,11 +75,11 @@
 <W lemma="regering" msd="NCCSU==D">Regeringen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Budapest" msd="NP--U==-">Budapest</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="bekymret" msd="ANP[CN]SU=IU">bekymret</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
-<W lemma="skæbne" msd="NCCSU==I">skæbne</W>
+<W lemma="skÃ¦bne" msd="NCCSU==I">skÃ¦bne</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="selv_om" msd="CS">selv_om</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
@@ -88,7 +88,7 @@
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="direkte" msd="ANP---=-R">direkte</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="berøre" msd="VAPA=S[CN]I[ARU]-U">berørt</W>
+<W lemma="berÃ¸re" msd="VAPA=S[CN]I[ARU]-U">berÃ¸rt</W>
 <W lemma="provins" msd="NCCSU==D">provinsen</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -96,14 +96,14 @@
 <p>
 <s>
 <W lemma="ungarer" msd="NCCPU==D">Ungarerne</W>
-<W lemma="føle" msd="VADR=----A-">føler</W>
+<W lemma="fÃ¸le" msd="VADR=----A-">fÃ¸ler</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="diskriminere" msd="VAPA=S[CN]I[ARU]-U">diskrimineret</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="serber" msd="NCCPU==D">serberne</W>
 <W lemma="blandt_andet" msd="RGU">bl.a.</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="sprogområde" msd="NCNSU==D">sprogområdet</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="sprogomrÃ¥de" msd="NCNSU==D">sprogomrÃ¥det</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -113,7 +113,7 @@
 <W lemma="klage" msd="VAPA=S[CN]I[ARU]-U">klaget</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="FN" msd="NP--G==-">FNs</W>
-<W lemma="flygtningehøjkommissariat" msd="NCNSU==I">Flygtningehøjkommissariat</W>
+<W lemma="flygtningehÃ¸jkommissariat" msd="NCNSU==I">FlygtningehÃ¸jkommissariat</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="UNHCR" msd="NP--U==-">UNHCR</W>
 <W lemma=")" msd="XP">)</W>
@@ -129,9 +129,9 @@
 <W lemma="serber" msd="NCCPU==I">serbere</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="gøre" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
-<W lemma="hjemløs" msd="ANP[CN]PU=[DI]U">hjemløse</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="gÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
+<W lemma="hjemlÃ¸s" msd="ANP[CN]PU=[DI]U">hjemlÃ¸se</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="krig" msd="NCCSU==D">krigen</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
@@ -147,11 +147,11 @@
 <W lemma="frygte" msd="VADR=----A-">frygter</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
-<W lemma="befolkningsmønster" msd="NCNSU==D">befolkningsmønstret</W>
+<W lemma="befolkningsmÃ¸nster" msd="NCNSU==D">befolkningsmÃ¸nstret</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Vojvodina" msd="NP--U==-">Vojvodina</W>
 <W lemma="dermed" msd="RGU">dermed</W>
-<W lemma="ændre" msd="VADR=----P-">ændres</W>
+<W lemma="Ã¦ndre" msd="VADR=----P-">Ã¦ndres</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="serber" msd="NCCPG==D">serbernes</W>
 <W lemma="fordel" msd="NCCSU==I">fordel</W>
@@ -173,7 +173,7 @@
 <W lemma="Ungarn" msd="NP--G==-">Ungarns</W>
 <W lemma="ambassade" msd="NCCSU==I">ambassade</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="København" msd="NP--U==-">København</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
 <W lemma="afvise" msd="VADR=----A-">afviser</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
@@ -188,7 +188,7 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ingen" msd="PI-CSU--U">ingen</W>
 <W lemma="propagandarejse" msd="NCCSU==I">propagandarejse</W>
 <W lemma="." msd="XP">.</W>
@@ -204,19 +204,19 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
-<W lemma="ambassaderåd" msd="NCCSU==I">ambassaderåd</W>
-<W lemma="Pál" msd="NP--U==-">Pál</W>
-<W lemma="Éliás" msd="NP--U==-">Éliás</W>
+<W lemma="ambassaderÃ¥d" msd="NCCSU==I">ambassaderÃ¥d</W>
+<W lemma="PÃ¡l" msd="NP--U==-">PÃ¡l</W>
+<W lemma="Ã‰liÃ¡s" msd="NP--U==-">Ã‰liÃ¡s</W>
 <W lemma="." msd="XP">.</W>
 <W lemma="&quot;" msd="XP">"</W>
 </s>
 <s>
 <W lemma="han" msd="PP3CSN-NU">Han</W>
 <W lemma="komme" msd="VADR=----A-">kommer</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="møde" msd="VAF-=----A-">møde</W>
+<W lemma="mÃ¸de" msd="VAF-=----A-">mÃ¸de</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
 <W lemma="nationalitet" msd="NCCPG==I">nationaliteters</W>
 <W lemma="mindretal" msd="NCNPU==I">mindretal</W>
@@ -224,7 +224,7 @@
 <W lemma="Ungarn" msd="NP--U==-">Ungarn</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="høre" msd="VAF-=----A-">høre</W>
+<W lemma="hÃ¸re" msd="VAF-=----A-">hÃ¸re</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
 <W lemma="speciel" msd="ANP[CN]PU=[DI]U">specielle</W>
@@ -233,11 +233,11 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="hel" msd="ANP---=-R">helt</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="CSCE" msd="NP--G==-">CSCEs</W>
-<W lemma="ånd" msd="NCCSU==I">ånd</W>
+<W lemma="Ã¥nd" msd="NCCSU==I">Ã¥nd</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>

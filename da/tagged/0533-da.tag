@@ -54,7 +54,7 @@
 <W lemma="=" msd="XS">=</W>
 <W lemma="forsikring" msd="NCCSU==I">Forsikring</W>
 <W lemma="MEDARB-Allan" msd="XX">MEDARB-Allan</W>
-<W lemma="Høxbroe" msd="NP--U==-">Høxbroe</W>
+<W lemma="HÃ¸xbroe" msd="NP--U==-">HÃ¸xbroe</W>
 </s>
 </p>
 </div1>
@@ -80,14 +80,14 @@
 <div1 type=external>
 <p>
 <s>
-<W lemma="oplæser" msd="NCCSU==I">OPLÆSER</W>
+<W lemma="oplÃ¦ser" msd="NCCSU==I">OPLÃ†SER</W>
 </s>
 </p>
 </div1>
 <div1 type=external>
 <p>
 <s>
-<W lemma="oplæg" msd="NCNSU==I">OPLÆG</W>
+<W lemma="oplÃ¦g" msd="NCNSU==I">OPLÃ†G</W>
 </s>
 </p>
 </div1>
@@ -100,14 +100,14 @@
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
 <W lemma="tvungen" msd="ANPCSU=IU">tvungen</W>
-<W lemma="miljøforsikring" msd="NCCSU==I">miljøforsikring</W>
+<W lemma="miljÃ¸forsikring" msd="NCCSU==I">miljÃ¸forsikring</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="udvalg" msd="NCNSU==I">udvalg</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="justitsministerium" msd="NCNSU==D">justitsministeriet</W>
-<W lemma="foreslå" msd="VADR=----A-">foreslår</W>
+<W lemma="foreslÃ¥" msd="VADR=----A-">foreslÃ¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -132,8 +132,8 @@
 <W lemma="million" msd="NCCPU==I">millioner</W>
 <W lemma="krone" msd="NCCPU==I">kroner</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="årlig" msd="ANPCSU=IU">årlig</W>
-<W lemma="præmie" msd="NCCSU==I">præmie</W>
+<W lemma="Ã¥rlig" msd="ANPCSU=IU">Ã¥rlig</W>
+<W lemma="prÃ¦mie" msd="NCCSU==I">prÃ¦mie</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -142,7 +142,7 @@
 <W lemma="udvalg" msd="NCNSG==D">udvalgets</W>
 <W lemma="tanke" msd="NCCPU==I">tanker</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="såkaldt" msd="ANP[CN]SU=IU">såkaldt</W>
+<W lemma="sÃ¥kaldt" msd="ANP[CN]SU=IU">sÃ¥kaldt</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="objektiv" msd="ANPNSU=IU">objektivt</W>
 <W lemma="ansvar" msd="NCNSU==I">ansvar</W>
@@ -150,7 +150,7 @@
 <W lemma="true" msd="VAF-=----A-">true</W>
 <W lemma="forebyggelse" msd="NCCSU==D">forebyggelsen</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="miljøskade" msd="NCCPU==I">miljøskader</W>
+<W lemma="miljÃ¸skade" msd="NCCPU==I">miljÃ¸skader</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
@@ -181,7 +181,7 @@
 <div1 type=external>
 <p>
 <s>
-<W lemma="nedlægge" msd="VAM-=------">NEDLÆG</W>
+<W lemma="nedlÃ¦gge" msd="VAM-=------">NEDLÃ†G</W>
 </s>
 </p>
 </div1>
@@ -197,7 +197,7 @@
 <W lemma="industri" msd="NCCSU==I">Industri</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="Allan" msd="NP--U==-">Allan</W>
-<W lemma="Høxbroe" msd="NP--U==-">Høxbroe</W>
+<W lemma="HÃ¸xbroe" msd="NP--U==-">HÃ¸xbroe</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -245,7 +245,7 @@
 <div1 type=external>
 <p>
 <s>
-<W lemma="oplæser" msd="NCCSU==I">OPLÆSER</W>
+<W lemma="oplÃ¦ser" msd="NCCSU==I">OPLÃ†SER</W>
 <W lemma="=" msd="XS">=</W>
 <W lemma="emr" msd="XX">emr</W>
 </s>
@@ -254,7 +254,7 @@
 <div1 type=external>
 <p>
 <s>
-<W lemma="oplæg" msd="NCNSU==I">OPLÆG</W>
+<W lemma="oplÃ¦g" msd="NCNSU==I">OPLÃ†G</W>
 </s>
 </p>
 </div1>
@@ -263,8 +263,8 @@
 <s>
 <W lemma="den" msd="PD-CSU--U">Den</W>
 <W lemma="amerikansk" msd="ANP[CN]SU=DU">amerikanske</W>
-<W lemma="økonomi" msd="NCCSU==I">økonomi</W>
-<W lemma="stå" msd="VADR=----A-">står</W>
+<W lemma="Ã¸konomi" msd="NCCSU==I">Ã¸konomi</W>
+<W lemma="stÃ¥" msd="VADR=----A-">stÃ¥r</W>
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="foran" msd="SP">foran</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
@@ -291,10 +291,10 @@
 <W lemma="han" msd="PP3CSN-NU">Han</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="i_dag" msd="RGU">i_dag</W>
-<W lemma="fremlægge" msd="VAPA=S[CN]I[ARU]-U">fremlagt</W>
+<W lemma="fremlÃ¦gge" msd="VAPA=S[CN]I[ARU]-U">fremlagt</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
-<W lemma="halv-årlig" msd="ANP[CN]SU=DU">halv-årlige</W>
-<W lemma="bedømmelse" msd="NCCSU==I">bedømmelse</W>
+<W lemma="halv-Ã¥rlig" msd="ANP[CN]SU=DU">halv-Ã¥rlige</W>
+<W lemma="bedÃ¸mmelse" msd="NCCSU==I">bedÃ¸mmelse</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="senator" msd="NCCPU==D">senatorerne</W>
 <W lemma="." msd="XP">.</W>
@@ -308,15 +308,15 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="grobund" msd="NCCSU==D">grobunden</W>
 <W lemma="nu" msd="RGU">nu</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="skabe" msd="VAPA=S[CN]I[ARU]-U">skabt</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="betydelig" msd="ANPCSU=IU">betydelig</W>
-<W lemma="vækst" msd="NCCSU==I">vækst</W>
+<W lemma="vÃ¦kst" msd="NCCSU==I">vÃ¦kst</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="allerede" msd="RGU">allerede</W>
-<W lemma="i_år" msd="RGU">i_år</W>
+<W lemma="i_Ã¥r" msd="RGU">i_Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

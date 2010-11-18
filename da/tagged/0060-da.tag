@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Vil bombe Irak i to døgn'</title>
+        <title>Tagged sample of: 'Vil bombe Irak i to dÃ¸gn'</title>
       </titleStmt>
       <extent words=163>163 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Vil bombe Irak i to døgn</title>
+            <title>Vil bombe Irak i to dÃ¸gn</title>
             <author gender=m born=1936>Adler, Jens David</author>
           </analytic>
           <monogr>
@@ -41,33 +41,33 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="blænde" msd="VAPA=S[CN]I[ARU]-U">Blændet</W>
+<W lemma="blÃ¦nde" msd="VAPA=S[CN]I[ARU]-U">BlÃ¦ndet</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="uden" msd="SP">uden</W>
-<W lemma="luftdækning" msd="NCCSU==I">luftdækning</W>
+<W lemma="luftdÃ¦kning" msd="NCCSU==I">luftdÃ¦kning</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="fysisk" msd="ANP---=-R">fysisk</W>
 <W lemma="se" msd="VAPA=---R--">set</W>
 <W lemma="overlegen" msd="ANP[CN]SU=DU">overlegne</W>
 <W lemma="irakisk" msd="ANP[CN]SU=DU">irakiske</W>
-<W lemma="hær" msd="NCCSU==I">hær</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
-<W lemma="stærk" msd="ANP---=-R">stærkt</W>
-<W lemma="svække" msd="VAPA=S[CN]I[ARU]-U">svækket</W>
+<W lemma="hÃ¦r" msd="NCCSU==I">hÃ¦r</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
+<W lemma="stÃ¦rk" msd="ANP---=-R">stÃ¦rkt</W>
+<W lemma="svÃ¦kke" msd="VAPA=S[CN]I[ARU]-U">svÃ¦kket</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="og" msd="CC">Og</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="næste" msd="ANP[CN][SP]U=[DI]U">næste</W>
+<W lemma="nÃ¦ste" msd="ANP[CN][SP]U=[DI]U">nÃ¦ste</W>
 <W lemma="omgang" msd="NCCSU==I">omgang</W>
 <W lemma="indlede" msd="VAF-=----A-">indlede</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="tæppebombning" msd="NCCPU==I">tæppebombninger</W>
+<W lemma="tÃ¦ppebombning" msd="NCCPU==I">tÃ¦ppebombninger</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
@@ -106,7 +106,7 @@
 <W lemma="komme" msd="VADR=----A-">kommer</W>
 <W lemma="denne" msd="PD-CSU--U">denne</W>
 <W lemma="plan" msd="NCCSU==I">plan</W>
-<W lemma="i_forkøbet" msd="RGU">i_forkøbet</W>
+<W lemma="i_forkÃ¸bet" msd="RGU">i_forkÃ¸bet</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="desperat" msd="ANP[CN]SU=IU">desperat</W>
@@ -121,7 +121,7 @@
 <W lemma="ganske" msd="RGU">ganske</W>
 <W lemma="vist" msd="RGU">vist</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="grundlæggende" msd="ANP---=-R">grundlæggende</W>
+<W lemma="grundlÃ¦ggende" msd="ANP---=-R">grundlÃ¦ggende</W>
 <W lemma="kunne" msd="VAF-=----A-">kunne</W>
 <W lemma="rokke" msd="VAF-=----A-">rokke</W>
 <W lemma="ved" msd="SP">ved</W>
@@ -155,15 +155,15 @@
 <W lemma="psykologisk" msd="ANP[CN]SU=IU">psykologisk</W>
 <W lemma="triumf" msd="NCCSU==I">triumf</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="især" msd="RGU">især</W>
+<W lemma="isÃ¦r" msd="RGU">isÃ¦r</W>
 <W lemma="hvis" msd="CS">hvis</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="lykkes" msd="VEDR=----A-">lykkes</W>
 <W lemma="han" msd="PP3CSU-NU">ham</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="ramme" msd="VAF-=----A-">ramme</W>
-<W lemma="væsentlig" msd="ANP[CN]PU=[DI]U">væsentlige</W>
-<W lemma="mål" msd="NCNPU==I">mål</W>
+<W lemma="vÃ¦sentlig" msd="ANP[CN]PU=[DI]U">vÃ¦sentlige</W>
+<W lemma="mÃ¥l" msd="NCNPU==I">mÃ¥l</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Israel" msd="NP--U==-">Israel</W>
 <W lemma="." msd="XP">.</W>
@@ -172,8 +172,8 @@
 <p>
 <s>
 <W lemma="og" msd="CC">Og</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="naturligvis" msd="RGU">naturligvis</W>
 <W lemma="stadig" msd="RGU">stadig</W>
@@ -185,11 +185,11 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="Saddam" msd="NP--U==-">Saddam</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="løb" msd="NCNSU==D">løbet</W>
+<W lemma="lÃ¸b" msd="NCNSU==D">lÃ¸bet</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="nat" msd="NCCSU==D">natten</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="få" msd="VAPA=S[CN]I[ARU]-U">fået</W>
+<W lemma="fÃ¥" msd="VAPA=S[CN]I[ARU]-U">fÃ¥et</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="syn" msd="NCNSU==I">syn</W>
 <W lemma="..." msd="XP">...</W>
@@ -216,7 +216,7 @@
 <p>
 <s>
 <W lemma="krigsklokke" msd="NCCSU==D">Krigsklokken</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="falde" msd="VAPA=S[CN]I[ARU]-U">faldet</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="slag" msd="NCNSU==I">slag</W>
@@ -238,7 +238,7 @@
 <W lemma="israelsk" msd="ANP[CN]PU=[DI]U">israelske</W>
 <W lemma="soldat" msd="NCCPU==I">soldater</W>
 <W lemma="invitere" msd="VADA=----A-">inviterede</W>
-<W lemma="i_går" msd="RGU">i_går</W>
+<W lemma="i_gÃ¥r" msd="RGU">i_gÃ¥r</W>
 <W lemma="presse" msd="NCCSU==D">pressen</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="ved" msd="SP">ved</W>
@@ -250,8 +250,8 @@
 <W lemma="god" msd="ANP---=-R">godt</W>
 <W lemma="forberede" msd="VAPA=S[CN]I[ARU]-U">forberedt</W>
 <W lemma="israeler" msd="NCCPU==D">israelerne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="angreb" msd="NCNSU==I">angreb</W>
 <W lemma="fra" msd="SP">fra</W>

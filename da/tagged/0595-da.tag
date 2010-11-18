@@ -58,14 +58,14 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="opstille" msd="VAPA=S[CN]I[ARU]-U">opstillet</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="række" msd="NCCSU==I">række</W>
+<W lemma="rÃ¦kke" msd="NCCSU==I">rÃ¦kke</W>
 <W lemma="retningslinie" msd="NCCPU==I">retningslinier</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="reform" msd="NCCSU==D">reformen</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="først" msd="RGU">Først</W>
+<W lemma="fÃ¸rst" msd="RGU">FÃ¸rst</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="fremmest" msd="ANP[CN]SU=IU">fremmest</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
@@ -90,47 +90,47 @@
 <W lemma="model" msd="NCCPU==D">modellerne</W>
 <W lemma="inden" msd="RGU">inden</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="gartnerområde" msd="NCNSU==D">gartnerområdet</W>
+<W lemma="gartneromrÃ¥de" msd="NCNSU==D">gartneromrÃ¥det</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="under" msd="SP">Under</W>
-<W lemma="efg-jordbrugsområde" msd="NCNSU==D">efg-jordbrugsområdet</W>
+<W lemma="efg-jordbrugsomrÃ¥de" msd="NCNSU==D">efg-jordbrugsomrÃ¥det</W>
 <W lemma="oprette" msd="VADR=----P-">oprettes</W>
 <W lemma="4" msd="AC---U=--">4</W>
 <W lemma="forskellig" msd="ANP[CN]PU=[DI]U">forskellige</W>
 <W lemma="2." msd="AO---U=--">2.</W>
 <W lemma="del" msd="NCCSG==I">dels</W>
 <W lemma="linje" msd="NCCPU==I">linjer</W>
-<W lemma="vedrørende" msd="SP">vedrørende</W>
+<W lemma="vedrÃ¸rende" msd="SP">vedrÃ¸rende</W>
 <W lemma="landbrug" msd="NCNSU==I">landbrug</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="desuden" msd="RGU">desuden</W>
 <W lemma="oprette" msd="VADR=----P-">oprettes</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="lærlingeuddannelse" msd="NCCSU==I">lærlingeuddannelse</W>
+<W lemma="lÃ¦rlingeuddannelse" msd="NCCSU==I">lÃ¦rlingeuddannelse</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="landbruger" msd="XX">landbruger</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="henhold" msd="NC[CN][SP]U==[DI]">henhold</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="lærlingelov" msd="NCCSU==D">lærlingeloven</W>
+<W lemma="lÃ¦rlingelov" msd="NCCSU==D">lÃ¦rlingeloven</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="mål" msd="NCNSU==D">Målet</W>
+<W lemma="mÃ¥l" msd="NCNSU==D">MÃ¥let</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="uddannelse" msd="NCCSU==D">uddannelsen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="faglært" msd="ANP[CN]SU=DU">faglærte</W>
+<W lemma="faglÃ¦rt" msd="ANP[CN]SU=DU">faglÃ¦rte</W>
 <W lemma="landmand" msd="NCCSU==I">landmand</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -138,13 +138,13 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="teoretisk" msd="ANP[CN]SU=IU">teoretisk</W>
 <W lemma="uddannelse" msd="NCCSU==I">uddannelse</W>
-<W lemma="selvstændig" msd="ANP---=-R">selvstændigt</W>
+<W lemma="selvstÃ¦ndig" msd="ANP---=-R">selvstÃ¦ndigt</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="kunne" msd="VAF-=----A-">kunne</W>
 <W lemma="varetage" msd="VAF-=----A-">varetage</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="landbrugsfaglig" msd="ANPNSU=IU">landbrugsfagligt</W>
-<W lemma="område" msd="NCNSU==I">område</W>
+<W lemma="omrÃ¥de" msd="NCNSU==I">omrÃ¥de</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="give" msd="VAPA=P[CN][DI]A-U">givne</W>
 <W lemma="information" msd="NCCPU==I">informationer</W>
@@ -152,25 +152,25 @@
 <W lemma="ligesom" msd="CS">ligesom</W>
 <W lemma="han/hun" msd="XX">han/hun</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="stand" msd="NCCSU==I">stand</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="udføre" msd="VAF-=----A-">udføre</W>
+<W lemma="udfÃ¸re" msd="VAF-=----A-">udfÃ¸re</W>
 <W lemma="normal" msd="ANP---=-R">normalt</W>
 <W lemma="forekommende" msd="ANP[CN][SP]U=[DI]U">forekommende</W>
 <W lemma="arbejde" msd="NCNSU==I">arbejde</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="arbejdsteknisk" msd="ANP---=-R">arbejdsteknisk</W>
 <W lemma="korrekt" msd="ANP[CN]SU=IU">korrekt</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="sikkerhedsmæssig" msd="ANP---=-R">sikkerhedsmæssigt</W>
+<W lemma="sikkerhedsmÃ¦ssig" msd="ANP---=-R">sikkerhedsmÃ¦ssigt</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="miljømæssig" msd="ANP---=-R">miljømæssigt</W>
+<W lemma="miljÃ¸mÃ¦ssig" msd="ANP---=-R">miljÃ¸mÃ¦ssigt</W>
 <W lemma="forsvarlig" msd="ANPCSU=IU">forsvarlig</W>
-<W lemma="måde" msd="NCCSU==I">måde</W>
+<W lemma="mÃ¥de" msd="NCCSU==I">mÃ¥de</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -180,14 +180,14 @@
 <W lemma="oprette" msd="VADR=----P-">oprettes</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="faglig" msd="ANPNSU=IU">fagligt</W>
-<W lemma="fælles" msd="ANP[CN][SP]U=[DI]U">fælles</W>
+<W lemma="fÃ¦lles" msd="ANP[CN][SP]U=[DI]U">fÃ¦lles</W>
 <W lemma="udvalg" msd="NCNSU==I">udvalg</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="landmandsuddannelse" msd="NCCSU==D">landmandsuddannelsen</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="på" msd="SP">På</W>
+<W lemma="pÃ¥" msd="SP">PÃ¥</W>
 <W lemma="skole" msd="NCCPU==I">skoler</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
@@ -200,15 +200,15 @@
 <W lemma="denne" msd="PD-NSU--U">dette</W>
 <W lemma="forslag" msd="NCNSU==I">forslag</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="nedsætte" msd="VADR=----P-">nedsættes</W>
+<W lemma="nedsÃ¦tte" msd="VADR=----P-">nedsÃ¦ttes</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="samarbejdsorgan" msd="NCNSU==I">samarbejdsorgan</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="skoleråd" msd="NCNSU==D">skolerådet</W>
+<W lemma="skolerÃ¥d" msd="NCNSU==D">skolerÃ¥det</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="repræsentant" msd="NCCPU==I">repræsentanter</W>
+<W lemma="reprÃ¦sentant" msd="NCCPU==I">reprÃ¦sentanter</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="lærer" msd="NCCPU==I">lærere</W>
+<W lemma="lÃ¦rer" msd="NCCPU==I">lÃ¦rere</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="elev" msd="NCCPU==I">elever</W>
 <W lemma="," msd="XP">,</W>
@@ -230,11 +230,11 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="landbrugeruddannelse" msd="NCCSU==D">landbrugeruddannelsen</W>
 <W lemma="under" msd="SP">under</W>
-<W lemma="lærlingelov" msd="NCCSU==D">lærlingeloven</W>
+<W lemma="lÃ¦rlingelov" msd="NCCSU==D">lÃ¦rlingeloven</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="efg-elev" msd="NCCPU==I">efg-elever</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="lærling" msd="NCCPU==I">lærlinge</W>
+<W lemma="lÃ¦rling" msd="NCCPU==I">lÃ¦rlinge</W>
 <W lemma="undervise" msd="VAF-=----P-">undervises</W>
 <W lemma="sammen" msd="RGU">sammen</W>
 <W lemma="." msd="XP">.</W>
@@ -247,7 +247,7 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="bestemmelse" msd="NCCPU==D">bestemmelserne</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="lærlingelov" msd="NCCSU==D">lærlingeloven</W>
+<W lemma="lÃ¦rlingelov" msd="NCCSU==D">lÃ¦rlingeloven</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="efg-lov" msd="NCCSU==D">efg-loven</W>
 <W lemma="." msd="XP">.</W>

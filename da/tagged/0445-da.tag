@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Første lyt til fremtidens radio-signaler'</title>
+        <title>Tagged sample of: 'FÃ¸rste lyt til fremtidens radio-signaler'</title>
       </titleStmt>
       <extent words=159>159 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Første lyt til fremtidens radio-signaler</title>
+            <title>FÃ¸rste lyt til fremtidens radio-signaler</title>
             <author gender=m born=1952>Rahbek, Peter</author>
           </analytic>
           <monogr>
@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="første" msd="ANP[CN][SP]U=[DI]U">FØRSTE</W>
+<W lemma="fÃ¸rste" msd="ANP[CN][SP]U=[DI]U">FÃ˜RSTE</W>
 <W lemma="LYT" msd="XX">LYT</W>
 <W lemma="til" msd="SP">TIL</W>
 <W lemma="fremtid" msd="NCCSG==D">FREMTIDENS</W>
@@ -56,10 +56,10 @@
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="du" msd="PP2CSN-NU">du</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="forsmag" msd="NCCSU==I">forsmag</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="fremtid" msd="NCCSG==D">fremtidens</W>
 <W lemma="radio" msd="NCCSU==I">radio</W>
 <W lemma="," msd="XP">,</W>
@@ -95,12 +95,12 @@
 <s>
 <W lemma="dansk" msd="ANP[CN]PU=[DI]U">Danske</W>
 <W lemma="digital-program" msd="NCNPU==I">digital-programmer</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="dog" msd="RGU">dog</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="lige" msd="RGU">lige</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="hjørne" msd="NCNSU==D">hjørnet</W>
+<W lemma="hjÃ¸rne" msd="NCNSU==D">hjÃ¸rnet</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -115,22 +115,22 @@
 <W lemma="tage" msd="VADR=----A-">tager</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="hul" msd="NCNSU==I">hul</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="ny" msd="ANPCSU=IU">ny</W>
-<W lemma="æra" msd="NCCSU==I">æra</W>
+<W lemma="Ã¦ra" msd="NCCSU==I">Ã¦ra</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="radio" msd="NCCSG==D">radioens</W>
 <W lemma="historie" msd="NCCSU==I">historie</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="digital" msd="ANP[CN]SU=DU">digitale</W>
-<W lemma="æra" msd="NCCSU==I">æra</W>
+<W lemma="Ã¦ra" msd="NCCSU==I">Ã¦ra</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="nu" msd="RGU">Nu</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="hel" msd="ANPNSU=IU">helt</W>
 <W lemma="slut" msd="NC[CN][SP]U==[DI]">slut</W>
@@ -140,15 +140,15 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="anden" msd="PI-CSU--U">anden</W>
-<W lemma="støj" msd="NCCSU==I">støj</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="stÃ¸j" msd="NCCSU==I">stÃ¸j</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="radio-udsendelse" msd="NCCPU==D">radio-udsendelserne</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="for" msd="CC">for</W>
 <W lemma="lyd-kvalitet" msd="NCCSU==D">lyd-kvaliteten</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="stort_set" msd="RGU">stort_set</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="CD-niveau" msd="NCNSU==I">CD-niveau</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -157,10 +157,10 @@
 <s>
 <W lemma="indtil" msd="SP">Indtil</W>
 <W lemma="videre" msd="RGU">videre</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="du" msd="PP2CSN-NU">du</W>
 <W lemma="dog" msd="RGU">dog</W>
-<W lemma="nøjes" msd="VEF-=----A-">nøjes</W>
+<W lemma="nÃ¸jes" msd="VEF-=----A-">nÃ¸jes</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="ren" msd="ANP---=-R">rent</W>
@@ -187,13 +187,13 @@
 <W lemma="underholdning" msd="NCCSU==I">underholdning</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="kultur" msd="NCCSU==I">kultur</W>
-<W lemma="og_så_videre" msd="RGU">osv</W>
+<W lemma="og_sÃ¥_videre" msd="RGU">osv</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="sammen" msd="RGU">sammen</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="TV-kanal" msd="NCCPU==D">TV-kanalerne</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="TV-SAT" msd="NP--U==-">TV-SAT</W>
 <W lemma="2" msd="AC---U=--">2</W>
 <W lemma="satellit" msd="NCCSU==D">satellitten</W>
@@ -206,17 +206,17 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="du" msd="PP2CSN-NU">du</W>
 <W lemma="enten" msd="RGU">enten</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
-<W lemma="købe" msd="VAF-=----A-">købe</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
+<W lemma="kÃ¸be" msd="VAF-=----A-">kÃ¸be</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="parabol" msd="NCNSU==I">parabol</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="tilslutte" msd="VAF-=----A-">tilslutte</W>
 <W lemma="du" msd="PP2CSU-[YN]U">dig</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="bredbånds-" msd="XX">bredbånds-</W>
+<W lemma="bredbÃ¥nds-" msd="XX">bredbÃ¥nds-</W>
 <W lemma="eller" msd="CC">eller</W>
-<W lemma="fællesantenne-anlæg" msd="NCNSU==I">fællesantenne-anlæg</W>
+<W lemma="fÃ¦llesantenne-anlÃ¦g" msd="NCNSU==I">fÃ¦llesantenne-anlÃ¦g</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -224,13 +224,13 @@
 <s>
 <W lemma="der" msd="U=">Der</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="gå" msd="VAF-=----A-">gå</W>
+<W lemma="gÃ¥" msd="VAF-=----A-">gÃ¥</W>
 <W lemma="lille" msd="ANS---=-R">mindst</W>
 <W lemma="3" msd="AC---U=--">3</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="endnu" msd="RGU">endnu</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="før" msd="CS">før</W>
+<W lemma="fÃ¸r" msd="CS">fÃ¸r</W>
 <W lemma="dansk" msd="ANP[CN]PU=[DI]U">danske</W>
 <W lemma="radiostation" msd="NCCPU==I">radiostationer</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
@@ -239,7 +239,7 @@
 <W lemma="digital" msd="ANP---=-R">digitalt</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="såkaldt" msd="ANP[CN]SU=DU">såkaldte</W>
+<W lemma="sÃ¥kaldt" msd="ANP[CN]SU=DU">sÃ¥kaldte</W>
 <W lemma="DAB-system" msd="NCNSU==I">DAB-system</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="Digital" msd="NP--U==-">Digital</W>
@@ -250,7 +250,7 @@
 <W lemma="som" msd="U=">som</W>
 <W lemma="netop" msd="RGU">netop</W>
 <W lemma="nu" msd="RGU">nu</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="blive" msd="VAF-=----A-">blive</W>

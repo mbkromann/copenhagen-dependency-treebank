@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Bekendtgørelse om studentereksamen og om'</title>
+        <title>Tagged sample of: 'BekendtgÃ¸relse om studentereksamen og om'</title>
       </titleStmt>
       <extent words=152>152 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Bekendtgørelse om studentereksamen og om<title>
+            <title>BekendtgÃ¸relse om studentereksamen og om<title>
                <author>Undervisningsministeriet</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <date>1991-05-17</date>
@@ -41,7 +41,7 @@
 <W lemma="i" msd="SP">I</W>
 <W lemma="henhold" msd="NC[CN][SP]U==[DI]">henhold</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="§" msd="XS">§</W>
+<W lemma="Â§" msd="XS">Â§</W>
 <W lemma="4" msd="AC---U=--">4</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="lov" msd="NCCSU==I">lov</W>
@@ -55,8 +55,8 @@
 <W lemma="gymnasium" msd="NCNSU==D">gymnasiet</W>
 <W lemma="med_videre" msd="RGU">m.v.</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="§" msd="XS">§</W>
-<W lemma="§" msd="XS">§</W>
+<W lemma="Â§" msd="XS">Â§</W>
+<W lemma="Â§" msd="XS">Â§</W>
 <W lemma="7" msd="AC---U=--">7</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="37" msd="AC---U=--">37</W>
@@ -74,7 +74,7 @@
 <W lemma="om" msd="SP">om</W>
 <W lemma="kursus" msd="NCNSU==I">kursus</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="høj" msd="ANC[CN][SP]U=[DI]U">højere</W>
+<W lemma="hÃ¸j" msd="ANC[CN][SP]U=[DI]U">hÃ¸jere</W>
 <W lemma="forberedelseseksamen" msd="NCCSU==I">forberedelseseksamen</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="om" msd="SP">om</W>
@@ -83,7 +83,7 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="voksen" msd="ANP[CN]PU=[DI]U">voksne</W>
 <W lemma="med_videre" msd="RGU">m.v.</W>
-<W lemma="fastsætte" msd="VADR=----P-">fastsættes</W>
+<W lemma="fastsÃ¦tte" msd="VADR=----P-">fastsÃ¦ttes</W>
 <W lemma=":" msd="XP">:</W>
 </s>
 </p>
@@ -114,7 +114,7 @@
 <p>
 <s>
 <hi>
-<W lemma="§" msd="XS">§</W>
+<W lemma="Â§" msd="XS">Â§</W>
 <W lemma="1" msd="AC---U=--">1</W>
 </hi>
 </s>
@@ -122,9 +122,9 @@
 <W lemma="Undervisnings-" msd="XX">Undervisnings-</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="forskningsministerium" msd="NCNSU==D">Forskningsministeriet</W>
-<W lemma="tilrettelægge" msd="VADR=----A-">tilrettelægger</W>
+<W lemma="tilrettelÃ¦gge" msd="VADR=----A-">tilrettelÃ¦gger</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="føre" msd="VADR=----A-">fører</W>
+<W lemma="fÃ¸re" msd="VADR=----A-">fÃ¸rer</W>
 <W lemma="tilsyn" msd="NCNSU==I">tilsyn</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="eksamen" msd="NCCSU==I">eksamen</W>
@@ -136,13 +136,13 @@
 <p>
 <s>
 <hi>
-<W lemma="§" msd="XS">§</W>
+<W lemma="Â§" msd="XS">Â§</W>
 <W lemma="2" msd="AC---U=--">2</W>
 </hi>
 </s>
 <s>
 <W lemma="Rektor/forstander" msd="XX">Rektor/forstander</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ansvarlig" msd="ANPCSU=IU">ansvarlig</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="," msd="XP">,</W>
@@ -161,20 +161,20 @@
 <p>
 <s>
 <hi>
-<W lemma="§" msd="XS">§</W>
+<W lemma="Â§" msd="XS">Â§</W>
 <W lemma="3" msd="AC---U=--">3</W>
 </hi>
 </s>
 <s>
-<W lemma="ordinær" msd="ANPCSU=IU">Ordinær</W>
+<W lemma="ordinÃ¦r" msd="ANPCSU=IU">OrdinÃ¦r</W>
 <W lemma="eksamen" msd="NCCSU==I">eksamen</W>
 <W lemma="afholde" msd="VADR=----P-">afholdes</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="maj-juni" msd="NCCSU==I">maj-juni</W>
-<W lemma="måned" msd="NCCSU==I">måned</W>
+<W lemma="mÃ¥ned" msd="NCCSU==I">mÃ¥ned</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="ordinær" msd="ANP[CN]SU=DU">ordinære</W>
+<W lemma="ordinÃ¦r" msd="ANP[CN]SU=DU">ordinÃ¦re</W>
 <W lemma="eksamenstermin" msd="NCCSU==I">eksamenstermin</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="." msd="XP">.</W>
@@ -184,7 +184,7 @@
 <W lemma="afholde" msd="VADR=----P-">afholdes</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="august-september" msd="NCCSU==I">august-september</W>
-<W lemma="måned" msd="NCCSU==I">måned</W>
+<W lemma="mÃ¥ned" msd="NCCSU==I">mÃ¥ned</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -194,16 +194,16 @@
 <W lemma="eksamen" msd="NCCSU==I">eksamen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="januar" msd="NCCSU==I">januar</W>
-<W lemma="måned" msd="NCCSU==I">måned</W>
+<W lemma="mÃ¥ned" msd="NCCSU==I">mÃ¥ned</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="forlængelse" msd="NCCSU==I">forlængelse</W>
+<W lemma="forlÃ¦ngelse" msd="NCCSU==I">forlÃ¦ngelse</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="undervisning" msd="NCCSU==I">undervisning</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="fag" msd="NCNPU==I">fag</W>
 <W lemma="uden" msd="SP">uden</W>
 <W lemma="skriftlig" msd="ANPCSU=IU">skriftlig</W>
-<W lemma="prøve" msd="NCCSU==I">prøve</W>
+<W lemma="prÃ¸ve" msd="NCCSU==I">prÃ¸ve</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -222,7 +222,7 @@
 <p>
 <s>
 <hi>
-<W lemma="læsepensum" msd="NCNSU==I">Læsepensum</W>
+<W lemma="lÃ¦sepensum" msd="NCNSU==I">LÃ¦sepensum</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="eksamensopgivelse" msd="NCCPU==I">eksamensopgivelser</W>
 </hi>
@@ -233,7 +233,7 @@
 <p>
 <s>
 <hi>
-<W lemma="§" msd="XS">§</W>
+<W lemma="Â§" msd="XS">Â§</W>
 <W lemma="4" msd="AC---U=--">4</W>
 </hi>
 </s>
@@ -241,50 +241,50 @@
 <W lemma="om" msd="SP">Om</W>
 <W lemma="eksamensfordring" msd="NCCPU==D">eksamensfordringerne</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="prøveform" msd="NCCPU==D">prøveformerne</W>
+<W lemma="prÃ¸veform" msd="NCCPU==D">prÃ¸veformerne</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="enkelt" msd="ANP[CN]PU=[DI]U">enkelte</W>
 <W lemma="fag" msd="NCNPU==I">fag</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="regel" msd="NCCPU==D">reglerne</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="bekendtgørelse" msd="NCCSU==I">bekendtgørelse</W>
+<W lemma="bekendtgÃ¸relse" msd="NCCSU==I">bekendtgÃ¸relse</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="fag" msd="NCNPU==D">fagene</W>
 <W lemma="med_videre" msd="RGU">m.v.</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="gymnasium" msd="NCNSU==D">gymnasiet</W>
 <W lemma="(" msd="XP">(</W>
-<W lemma="gymnasiefagbekendtgørelse" msd="NCCSU==D">gymnasiefagbekendtgørelsen</W>
+<W lemma="gymnasiefagbekendtgÃ¸relse" msd="NCCSU==D">gymnasiefagbekendtgÃ¸relsen</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="bekendtgørelse" msd="NCCSU==I">bekendtgørelse</W>
+<W lemma="bekendtgÃ¸relse" msd="NCCSU==I">bekendtgÃ¸relse</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="enkeltfagsstudentereksamen" msd="NCCSU==I">enkeltfagsstudentereksamen</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="studenterkursus" msd="NCNSU==I">studenterkursus</W>
 <W lemma="(" msd="XP">(</W>
-<W lemma="studenterkursusbekendtgørelse" msd="NCCSU==D">studenterkursusbekendtgørelsen</W>
+<W lemma="studenterkursusbekendtgÃ¸relse" msd="NCCSU==D">studenterkursusbekendtgÃ¸relsen</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="bekendtgørelse" msd="NCCSU==I">bekendtgørelse</W>
+<W lemma="bekendtgÃ¸relse" msd="NCCSU==I">bekendtgÃ¸relse</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="fag" msd="NCNPU==D">fagene</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="høj" msd="ANC[CN][SP]U=[DI]U">højere</W>
+<W lemma="hÃ¸j" msd="ANC[CN][SP]U=[DI]U">hÃ¸jere</W>
 <W lemma="forberedelseseksamen" msd="NCCSU==I">forberedelseseksamen</W>
 <W lemma="(" msd="XP">(</W>
-<W lemma="hf-fagbekendtgørelse" msd="NCCSU==D">hf-fagbekendtgørelsen</W>
+<W lemma="hf-fagbekendtgÃ¸relse" msd="NCCSU==D">hf-fagbekendtgÃ¸relsen</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="bekendtgørelse" msd="NCCSU==I">bekendtgørelse</W>
+<W lemma="bekendtgÃ¸relse" msd="NCCSU==I">bekendtgÃ¸relse</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="høj" msd="ANC[CN][SP]U=[DI]U">højere</W>
+<W lemma="hÃ¸j" msd="ANC[CN][SP]U=[DI]U">hÃ¸jere</W>
 <W lemma="forberedelseseksamen" msd="NCCSU==I">forberedelseseksamen</W>
 <W lemma="(" msd="XP">(</W>
-<W lemma="hf-bekendtgørelse" msd="NCCSU==D">hf-bekendtgørelsen</W>
+<W lemma="hf-bekendtgÃ¸relse" msd="NCCSU==D">hf-bekendtgÃ¸relsen</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="." msd="XP">.</W>
 </s>

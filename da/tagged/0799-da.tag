@@ -43,13 +43,13 @@
 <s>
 <W lemma="hvis" msd="CS">Hvis</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="første" msd="ANP[CN][SP]U=[DI]U">første</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="tilfælde" msd="NCNSU==D">tilfældet</W>
+<W lemma="fÃ¸rste" msd="ANP[CN][SP]U=[DI]U">fÃ¸rste</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="tilfÃ¦lde" msd="NCNSU==D">tilfÃ¦ldet</W>
 <W lemma="burde" msd="VADA=----A-">burde</W>
 <W lemma="overskrift" msd="NCCSU==D">overskriften</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="folkeskoleelev" msd="NCCPU==I">Folkeskoleelever</W>
@@ -62,17 +62,17 @@
 <W lemma="halv" msd="ANPCSU=IU">halv</W>
 <W lemma="generation" msd="NCCSU==I">generation</W>
 <W lemma="tabe" msd="VAPA=S[CN]I[ARU]-U">tabt</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="gulv" msd="NCNSU==D">gulvet</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="måske" msd="RGU">Måske</W>
+<W lemma="mÃ¥ske" msd="RGU">MÃ¥ske</W>
 <W lemma="skulle" msd="VADA=----A-">skulle</W>
 <W lemma="Berlingske" msd="NP--U==-">Berlingske</W>
 <W lemma="tidende" msd="NCCSU==I">Tidende</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="lave" msd="VAF-=----A-">lave</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="artikel" msd="NCCSU==I">artikel</W>
@@ -83,7 +83,7 @@
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="kritisk" msd="ANP[CN]SU=IU">kritisk</W>
 <W lemma="journalistisk" msd="ANP[CN]SU=IU">journalistisk</W>
-<W lemma="udførelse" msd="NCCSU==I">udførelse</W>
+<W lemma="udfÃ¸relse" msd="NCCSU==I">udfÃ¸relse</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -91,21 +91,21 @@
 <s>
 <W lemma="hvis" msd="CS">Hvis</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="første" msd="ANP[CN][SP]U=[DI]U">første</W>
+<W lemma="fÃ¸rste" msd="ANP[CN][SP]U=[DI]U">fÃ¸rste</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="påvise" msd="VAF-=----P-">påvises</W>
+<W lemma="pÃ¥vise" msd="VAF-=----P-">pÃ¥vises</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
-<W lemma="tilfælde" msd="NCNSU==D">tilfældet</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
+<W lemma="tilfÃ¦lde" msd="NCNSU==D">tilfÃ¦ldet</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="selv_om" msd="CS">selv_om</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="prøve" msd="VADR=----A-">prøver</W>
+<W lemma="prÃ¸ve" msd="VADR=----A-">prÃ¸ver</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="friste" msd="VADR=----P-">fristes</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
@@ -115,20 +115,20 @@
 <W lemma=";" msd="XP">;</W>
 <W lemma="ja" msd="I=">ja</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="da" msd="RGU">da</W>
 <W lemma="give" msd="VAPA=S[CN]I[ARU]-U">givet</W>
 <W lemma="rigelig" msd="ANPCSU=IU">rigelig</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="næring" msd="NCCSU==I">næring</W>
+<W lemma="nÃ¦ring" msd="NCCSU==I">nÃ¦ring</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="række" msd="NCCSU==I">række</W>
+<W lemma="rÃ¦kke" msd="NCCSU==I">rÃ¦kke</W>
 <W lemma="fordom" msd="NCCPU==I">fordomme</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="økonomisk" msd="ANP[CN]PU=[DI]U">økonomiske</W>
+<W lemma="Ã¸konomisk" msd="ANP[CN]PU=[DI]U">Ã¸konomiske</W>
 <W lemma="kommentator" msd="NCCPU==I">kommentatorer</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -138,11 +138,11 @@
 <W lemma="dyb" msd="ANPCSU=IU">dyb</W>
 <W lemma="skepsis" msd="NCCSU==I">skepsis</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
-<W lemma="prøve" msd="VADR=----A-">prøver</W>
+<W lemma="prÃ¸ve" msd="VADR=----A-">prÃ¸ver</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="beskæftige" msd="VAF-=----A-">beskæftige</W>
+<W lemma="beskÃ¦ftige" msd="VAF-=----A-">beskÃ¦ftige</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="anden" msd="PI-NSU--U">andet</W>
@@ -152,16 +152,16 @@
 <W lemma="regneart" msd="NCCPU==I">regnearter</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="ønske" msd="NCNSU==I">ønske</W>
+<W lemma="Ã¸nske" msd="NCNSU==I">Ã¸nske</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="måtte" msd="VAF-=----A-">måtte</W>
+<W lemma="mÃ¥tte" msd="VAF-=----A-">mÃ¥tte</W>
 <W lemma="blive" msd="VAF-=----A-">blive</W>
 <W lemma="fri" msd="ANPCSU=IU">fri</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="al" msd="ANPCSU=[DI]U">al</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
-<W lemma="indforstået" msd="ANP[CN]SU=DU">indforståede</W>
+<W lemma="indforstÃ¥et" msd="ANP[CN]SU=DU">indforstÃ¥ede</W>
 <W lemma="snak" msd="NCCSU==I">snak</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -177,7 +177,7 @@
 <W lemma="miste" msd="VAPA=S[CN]I[ARU]-U">mistet</W>
 <W lemma="jordforbindelse" msd="NCCSU==D">jordforbindelsen</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="trænge" msd="VADR=----A-">trænger</W>
+<W lemma="trÃ¦nge" msd="VADR=----A-">trÃ¦nger</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="komme" msd="VAF-=----A-">komme</W>
@@ -202,10 +202,10 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="uden" msd="SP">uden</W>
 <W lemma="at" msd="CS">at</W>
-<W lemma="læser" msd="NCCSU==D">læseren</W>
+<W lemma="lÃ¦ser" msd="NCCSU==D">lÃ¦seren</W>
 <W lemma="nogen" msd="PI-CSU--U">nogen</W>
 <W lemma="sinde" msd="NCCSU==I">sinde</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="chance" msd="NCCSU==I">chance</W>
 <W lemma="for" msd="SP">for</W>
@@ -225,7 +225,7 @@
 <W lemma="betyde" msd="VADR=----A-">betyder</W>
 <W lemma="mange" msd="ANC[CN]PU=[DI]U">flere</W>
 <W lemma="eller" msd="CC">eller</W>
-<W lemma="få" msd="ANC[CN]PU=[DI]U">færre</W>
+<W lemma="fÃ¥" msd="ANC[CN]PU=[DI]U">fÃ¦rre</W>
 <W lemma="arbejdsplads" msd="NCCPU==I">arbejdspladser</W>
 <W lemma="." msd="XP">.</W>
 </s>

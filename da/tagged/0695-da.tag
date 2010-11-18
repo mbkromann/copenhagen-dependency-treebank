@@ -46,9 +46,9 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="beslutte" msd="VAPA=S[CN]I[ARU]-U">besluttet</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="sætte" msd="VAF-=----A-">sætte</W>
+<W lemma="sÃ¦tte" msd="VAF-=----A-">sÃ¦tte</W>
 <W lemma="pris" msd="NCCSU==D">prisen</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="diesel" msd="NCCSU==I">diesel</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="fyringsolie" msd="NCCSU==I">fyringsolie</W>
@@ -72,7 +72,7 @@
 <W lemma="henvisning" msd="NCCSU==I">henvisning</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="prisstigning" msd="NCCPU==I">prisstigninger</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="international" msd="ANP[CN]PU=[DI]U">internationale</W>
 <W lemma="produktmarked" msd="NCNPU==I">produktmarkeder</W>
@@ -103,7 +103,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="telebørs" msd="NCCSU==D">Telebørsen</W>
+<W lemma="telebÃ¸rs" msd="NCCSU==D">TelebÃ¸rsen</W>
 </s>
 </p>
 <p>
@@ -123,7 +123,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="september" msd="NCCSU==I">september</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="knap" msd="RGU">knap</W>
 <W lemma="19.000" msd="AC---U=--">19.000</W>
@@ -136,12 +136,12 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="tinglyse" msd="VAPA=P[CN][DI]A-U">tinglyste</W>
-<W lemma="beløb" msd="NCNPU==I">beløb</W>
+<W lemma="belÃ¸b" msd="NCNPU==I">belÃ¸b</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="forhold" msd="NCNSU==I">forhold</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="måned" msd="NCCSU==D">måneden</W>
-<W lemma="før" msd="RGU">før</W>
+<W lemma="mÃ¥ned" msd="NCCSU==D">mÃ¥neden</W>
+<W lemma="fÃ¸r" msd="RGU">fÃ¸r</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="god" msd="ANP---=-R">godt</W>
 <W lemma="8,1" msd="AC---U=--">8,1</W>
@@ -156,7 +156,7 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="september" msd="NCCSU==I">september</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="tinglyse" msd="VAPA=S[CN]I[ARU]-U">tinglyst</W>
@@ -181,7 +181,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="ifølge" msd="SP">Ifølge</W>
+<W lemma="ifÃ¸lge" msd="SP">IfÃ¸lge</W>
 <W lemma="Danmark" msd="NP--G==-">Danmarks</W>
 <W lemma="statistik" msd="NCCSU==I">Statistik</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
@@ -210,8 +210,8 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="tinglysning" msd="NCCPU==D">tinglysningerne</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
-<W lemma="jævn" msd="ANP---=-R">jævnt</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
+<W lemma="jÃ¦vn" msd="ANP---=-R">jÃ¦vnt</W>
 <W lemma="falde" msd="VAPR=[SP][CN][DI][ARU]-U">faldende</W>
 <W lemma="gennem" msd="SP">gennem</W>
 <W lemma="hel" msd="ANP[CN]SU=DU">hele</W>
@@ -224,7 +224,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="telebørs" msd="NCCSU==D">Telebørsen</W>
+<W lemma="telebÃ¸rs" msd="NCCSU==D">TelebÃ¸rsen</W>
 </s>
 </p>
 </div1>

@@ -51,8 +51,8 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="Yasser" msd="NP--U==-">Yasser</W>
 <W lemma="Arafat" msd="NP--G==-">Arafats</W>
-<W lemma="nær" msd="ANS[CN][SP]U=DU">nærmeste</W>
-<W lemma="rådgiver" msd="NCCPU==I">rådgivere</W>
+<W lemma="nÃ¦r" msd="ANS[CN][SP]U=DU">nÃ¦rmeste</W>
+<W lemma="rÃ¥dgiver" msd="NCCPU==I">rÃ¥dgivere</W>
 <W lemma="sige" msd="VADA=----A-">sagde</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="PLO" msd="NP--U==-">PLO</W>
@@ -60,7 +60,7 @@
 <W lemma="Rabin" msd="NP--U==-">Rabin</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="meget" msd="ANC---=-R">mere</W>
 <W lemma="fleksibel" msd="ANPCSU=IU">fleksibel</W>
 <W lemma="." msd="XP">.</W>
@@ -74,10 +74,10 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="israeler" msd="NCCPU==D">israelerne</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="palæstinenser" msd="NCCPU==D">palæstinenserne</W>
-<W lemma="burde" msd="VADR=----A-">bør</W>
-<W lemma="tænke" msd="VAF-=----A-">tænke</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="palÃ¦stinenser" msd="NCCPU==D">palÃ¦stinenserne</W>
+<W lemma="burde" msd="VADR=----A-">bÃ¸r</W>
+<W lemma="tÃ¦nke" msd="VAF-=----A-">tÃ¦nke</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="fred" msd="NCCSU==I">fred</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="stabilitet" msd="NCCSU==I">stabilitet</W>
@@ -111,7 +111,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
-<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">større</W>
+<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">stÃ¸rre</W>
 <W lemma="tillid" msd="NCCSU==I">tillid</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="," msd="XP">,</W>
@@ -123,14 +123,14 @@
 <W lemma="Israel" msd="NP--U==-">Israel</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="fremme" msd="VAF-=----A-">fremme</W>
 <W lemma="fredsforhandling" msd="NCCPU==D">fredsforhandlingerne</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="Mellemøsten" msd="NP--U==-">Mellemøsten</W>
+<W lemma="MellemÃ¸sten" msd="NP--U==-">MellemÃ¸sten</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -140,7 +140,7 @@
 <W lemma="Sous" msd="NP--U==-">Sous</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="PLO" msd="NP--G==-">PLOs</W>
-<W lemma="repræsentant" msd="NCCSU==I">repræsentant</W>
+<W lemma="reprÃ¦sentant" msd="NCCSU==I">reprÃ¦sentant</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Paris" msd="NP--U==-">Paris</W>
 <W lemma="," msd="XP">,</W>
@@ -151,7 +151,7 @@
 <W lemma=":" msd="XP">:</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
-<W lemma="håbe" msd="VADR=----A-">håber</W>
+<W lemma="hÃ¥be" msd="VADR=----A-">hÃ¥ber</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="morgendag" msd="NCCSU==D">morgendagen</W>
@@ -169,13 +169,13 @@
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="israelsk" msd="ANP---=-R">israelsk</W>
-<W lemma="besætte" msd="VAPA=S[CN]DA-U">besatte</W>
+<W lemma="besÃ¦tte" msd="VAPA=S[CN]DA-U">besatte</W>
 <W lemma="Vestbred" msd="NP--U==-">Vestbred</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="Gazastriben" msd="NP--U==-">Gazastriben</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="repræsentere" msd="VAPA=S[CN]I[ARU]-U">repræsenteret</W>
-<W lemma="palæstinenser" msd="NCCPU==D">palæstinenserne</W>
+<W lemma="reprÃ¦sentere" msd="VAPA=S[CN]I[ARU]-U">reprÃ¦senteret</W>
+<W lemma="palÃ¦stinenser" msd="NCCPU==D">palÃ¦stinenserne</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="fredsforhandling" msd="NCCPU==D">fredsforhandlingerne</W>
 <W lemma="." msd="XP">.</W>
@@ -184,11 +184,11 @@
 <p>
 <s>
 <W lemma="de" msd="PP3[CN]PN-NU">De</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="kendt" msd="ANP[CN]SU=IU">kendt</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="støtte" msd="VAF-=----A-">støtte</W>
+<W lemma="stÃ¸tte" msd="VAF-=----A-">stÃ¸tte</W>
 <W lemma="PLO" msd="NP--U==-">PLO</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
@@ -213,7 +213,7 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="offentlig" msd="ANP---=-R">offentligt</W>
 <W lemma="holde" msd="VAPA=S[CN]I[ARU]-U">holdt</W>
-<W lemma="møde" msd="NCNPU==I">møder</W>
+<W lemma="mÃ¸de" msd="NCNPU==I">mÃ¸der</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Amman" msd="NP--U==-">Amman</W>
 <W lemma="med" msd="SP">med</W>
@@ -231,7 +231,7 @@
 <W lemma="Ashrawi" msd="NP--U==-">Ashrawi</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="palæstinensisk" msd="ANP[CN]SU=DU">palæstinensiske</W>
+<W lemma="palÃ¦stinensisk" msd="ANP[CN]SU=DU">palÃ¦stinensiske</W>
 <W lemma="delegation" msd="NCCSG==I">delegations</W>
 <W lemma="talskvinde" msd="NCCSU==I">talskvinde</W>
 <W lemma="," msd="XP">,</W>
@@ -241,12 +241,12 @@
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
 <W lemma="tro" msd="VADR=----A-">tror</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="magisk" msd="ANP[CN]PU=[DI]U">magiske</W>
-<W lemma="løsning" msd="NCCPU==I">løsninger</W>
+<W lemma="lÃ¸sning" msd="NCCPU==I">lÃ¸sninger</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
-<W lemma="måske" msd="RGU">måske</W>
+<W lemma="mÃ¥ske" msd="RGU">mÃ¥ske</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="endelig" msd="RGU">endelig</W>

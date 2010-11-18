@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Kraftigt angreb tæt ved FNs hovedkvarter'</title>
+        <title>Tagged sample of: 'Kraftigt angreb tÃ¦t ved FNs hovedkvarter'</title>
       </titleStmt>
       <extent words=151>151 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Kraftigt angreb tæt ved FNs hovedkvarter</title>
+            <title>Kraftigt angreb tÃ¦t ved FNs hovedkvarter</title>
             <author>UNKNOWN</author>
           </analytic>
           <monogr>
@@ -42,8 +42,8 @@
 <p>
 <s>
 <W lemma="der" msd="U=">Der</W>
-<W lemma="være" msd="VADA=----A-">var</W>
-<W lemma="i_går" msd="RGU">i_går</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
+<W lemma="i_gÃ¥r" msd="RGU">i_gÃ¥r</W>
 <W lemma="fortsat" msd="RGU">fortsat</W>
 <W lemma="kamp" msd="NCCPU==I">kampe</W>
 <W lemma="i" msd="SP">i</W>
@@ -59,18 +59,18 @@
 </p>
 <p>
 <s>
-<W lemma="både" msd="RGU">Både</W>
+<W lemma="bÃ¥de" msd="RGU">BÃ¥de</W>
 <W lemma="bosnisk" msd="ANP[CN]PU=[DI]U">bosniske</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="kroatisk" msd="ANP[CN]PU=[DI]U">kroatiske</W>
 <W lemma="radiostation" msd="NCCPU==I">radiostationer</W>
 <W lemma="melde" msd="VADA=----A-">meldte</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="svær" msd="ANP[CN]PU=[DI]U">svære</W>
+<W lemma="svÃ¦r" msd="ANP[CN]PU=[DI]U">svÃ¦re</W>
 <W lemma="artilleri-" msd="XX">artilleri-</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="infanteriangreb" msd="NCNPU==I">infanteriangreb</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="Sarajevo" msd="NP--U==-">Sarajevo</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
@@ -79,17 +79,17 @@
 <W lemma="Bosnien" msd="NP--U==-">Bosnien</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvilken" msd="PT-NSU--U">hvilket</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="iagttager" msd="NCCPU==I">iagttagere</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="fastslå" msd="VAF-=----A-">fastslå</W>
+<W lemma="fastslÃ¥" msd="VAF-=----A-">fastslÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="serber" msd="NCCPU==D">serberne</W>
-<W lemma="måske" msd="RGU">måske</W>
+<W lemma="mÃ¥ske" msd="RGU">mÃ¥ske</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="iværksætte" msd="VAPA=S[CN]I[ARU]-U">iværksat</W>
+<W lemma="ivÃ¦rksÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">ivÃ¦rksat</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="ny" msd="ANPCSU=IU">ny</W>
 <W lemma="offensiv" msd="NCCSU==I">offensiv</W>
@@ -100,15 +100,15 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="tilsammen" msd="RGU">tilsammen</W>
-<W lemma="udgøre" msd="VADR=----A-">udgør</W>
+<W lemma="udgÃ¸re" msd="VADR=----A-">udgÃ¸r</W>
 <W lemma="flertal" msd="NCNSU==D">flertallet</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="slem" msd="ANS---=-R">Værst</W>
-<W lemma="gå" msd="VADA=----A-">gik</W>
+<W lemma="slem" msd="ANS---=-R">VÃ¦rst</W>
+<W lemma="gÃ¥" msd="VADA=----A-">gik</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="over" msd="SP">over</W>
@@ -117,12 +117,12 @@
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="konstant" msd="ANP[CN]PU=[DI]U">konstante</W>
 <W lemma="beskydning" msd="NCCPU==I">beskydninger</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="i_går" msd="RGU">i_går</W>
+<W lemma="i_gÃ¥r" msd="RGU">i_gÃ¥r</W>
 <W lemma="formiddag" msd="NCCSU==I">formiddag</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
 <W lemma="lille" msd="ANS---=-R">mindst</W>
@@ -133,32 +133,32 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="ifølge" msd="SP">Ifølge</W>
+<W lemma="ifÃ¸lge" msd="SP">IfÃ¸lge</W>
 <W lemma="Sarajevo" msd="NP--U==-">Sarajevo</W>
 <W lemma="radio" msd="NCCSU==I">Radio</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="hovedstad" msd="NCCSU==D">hovedstaden</W>
-<W lemma="præge" msd="VAPA=S[CN]I[ARU]-U">præget</W>
+<W lemma="prÃ¦ge" msd="VAPA=S[CN]I[ARU]-U">prÃ¦get</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="sult" msd="NCCSU==I">sult</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="tørst" msd="NCCSU==I">tørst</W>
+<W lemma="tÃ¸rst" msd="NCCSU==I">tÃ¸rst</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="serber" msd="NCCPU==I">serbere</W>
 <W lemma="onsdag" msd="NCCSU==I">onsdag</W>
-<W lemma="afbryde" msd="VADA=----A-">afbrød</W>
+<W lemma="afbryde" msd="VADA=----A-">afbrÃ¸d</W>
 <W lemma="vandforsyning" msd="NCCSU==D">vandforsyningen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="FN-styrke" msd="NCCPU==I">FN-styrker</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="sikkerhedsmæssig" msd="ANP[CN]PU=[DI]U">sikkerhedsmæssige</W>
+<W lemma="sikkerhedsmÃ¦ssig" msd="ANP[CN]PU=[DI]U">sikkerhedsmÃ¦ssige</W>
 <W lemma="grund" msd="NCCPU==I">grunde</W>
-<W lemma="måtte" msd="VADA=----A-">måtte</W>
+<W lemma="mÃ¥tte" msd="VADA=----A-">mÃ¥tte</W>
 <W lemma="indstille" msd="VAF-=----A-">indstille</W>
-<W lemma="nødhjælpsflyvning" msd="NCCPU==D">nødhjælpsflyvningerne</W>
+<W lemma="nÃ¸dhjÃ¦lpsflyvning" msd="NCCPU==D">nÃ¸dhjÃ¦lpsflyvningerne</W>
 <W lemma="onsdag" msd="NCCSU==I">onsdag</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -166,16 +166,16 @@
 <p>
 <s>
 <W lemma="FN" msd="NP--G==-">FN's</W>
-<W lemma="generalsekretær" msd="NCCSU==I">generalsekretær</W>
+<W lemma="generalsekretÃ¦r" msd="NCCSU==I">generalsekretÃ¦r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="Boutros" msd="NP--U==-">Boutros</W>
 <W lemma="Boutros-Ghali" msd="NP--U==-">Boutros-Ghali</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="appellere" msd="VADA=----A-">appellerede</W>
 <W lemma="tidlig" msd="ANC---=-R">tidligere</W>
-<W lemma="i_går" msd="RGU">i_går</W>
+<W lemma="i_gÃ¥r" msd="RGU">i_gÃ¥r</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="europæisk" msd="ANP[CN]PU=[DI]U">europæiske</W>
+<W lemma="europÃ¦isk" msd="ANP[CN]PU=[DI]U">europÃ¦iske</W>
 <W lemma="organisation" msd="NCCPU==I">organisationer</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="heriblandt" msd="RGU">heriblandt</W>
@@ -183,11 +183,11 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="overvåge" msd="VAF-=----A-">overvåge</W>
+<W lemma="overvÃ¥ge" msd="VAF-=----A-">overvÃ¥ge</W>
 <W lemma="anvendelse" msd="NCCSU==D">anvendelsen</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="svær" msd="ANP[CN]PU=[DI]U">svære</W>
-<W lemma="våben" msd="NCNPU==I">våben</W>
+<W lemma="svÃ¦r" msd="ANP[CN]PU=[DI]U">svÃ¦re</W>
+<W lemma="vÃ¥ben" msd="NCNPU==I">vÃ¥ben</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Bosnien-Hercegovina" msd="NP--U==-">Bosnien-Hercegovina</W>
 <W lemma="," msd="XP">,</W>
@@ -215,14 +215,14 @@
 <W lemma="at" msd="U=">at</W>
 <W lemma="bede" msd="VAF-=----A-">bede</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="hjælp" msd="NCCSU==I">hjælp</W>
+<W lemma="hjÃ¦lp" msd="NCCSU==I">hjÃ¦lp</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="hans" msd="PO3[CN][SP]USNU">Hans</W>
 <W lemma="brev" msd="NCNSU==I">brev</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="sende" msd="VAPA=S[CN]I[ARU]-U">sendt</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="NATO" msd="NP--U==-">NATO</W>

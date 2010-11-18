@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Blixens opskrift på salighed'</title>
+        <title>Tagged sample of: 'Blixens opskrift pÃ¥ salighed'</title>
       </titleStmt>
       <extent words=152>152 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Blixens opskrift på salighed</title>
+            <title>Blixens opskrift pÃ¥ salighed</title>
             <author>UNKNOWN</author>
           </analytic>
           <monogr>
@@ -51,13 +51,13 @@
 <W lemma="for" msd="CC">for</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="Babette" msd="NP--G==-">Babettes</W>
-<W lemma="gæstebud" msd="NCNSU==I">Gæstebud</W>
+<W lemma="gÃ¦stebud" msd="NCNSU==I">GÃ¦stebud</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="trods" msd="SP">trods</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="umiddelbar" msd="ANP[CN]SU=DU">umiddelbare</W>
-<W lemma="tilgængelighed" msd="NCCSU==I">tilgængelighed</W>
+<W lemma="tilgÃ¦ngelighed" msd="NCCSU==I">tilgÃ¦ngelighed</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="nogen" msd="PI-CSU--U">nogen</W>
 <W lemma="overfladisk" msd="ANP[CN]SU=IU">overfladisk</W>
@@ -70,7 +70,7 @@
 <W lemma="nemlig" msd="RGU">nemlig</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="nogt" msd="XX">nogt</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="dyr" msd="ANPNSU=IU">dyrt</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="kunst" msd="NCCSU==D">KUNSTEN</W>
@@ -96,7 +96,7 @@
 <W lemma="mens" msd="CS">mens</W>
 <W lemma="hun" msd="PP3CSN-NU">hun</W>
 <W lemma="skrive" msd="VADA=----A-">skrev</W>
-<W lemma="fortælling" msd="NCCSU==D">fortællingen</W>
+<W lemma="fortÃ¦lling" msd="NCCSU==D">fortÃ¦llingen</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="fransk" msd="ANP[CN]SU=DU">franske</W>
@@ -107,13 +107,13 @@
 <W lemma="spendere" msd="VADR=----A-">spenderer</W>
 <W lemma="hel" msd="ANP[CN]SU=DU">hele</W>
 <W lemma="lotterigevinst" msd="NCCSU==D">lotterigevinsten</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="10.000" msd="AC---U=--">10.000</W>
 <W lemma="guldfranc" msd="NCCPU==I">guldfrancs</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="kreere" msd="VAF-=----A-">kreere</W>
-<W lemma="en" msd="PI-CSU--U">én</W>
+<W lemma="en" msd="PI-CSU--U">Ã©n</W>
 <W lemma="superb" msd="ANPCSU=IU">superb</W>
 <W lemma="souper" msd="NCCSU==I">souper</W>
 <W lemma="for" msd="SP">for</W>
@@ -130,9 +130,9 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="gammel" msd="ANP[CN]PU=[DI]U">gamle</W>
-<W lemma="søster" msd="NCCPG==I">søstres</W>
+<W lemma="sÃ¸ster" msd="NCCPG==I">sÃ¸stres</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="broder" msd="NCCPG==I">brødres</W>
+<W lemma="broder" msd="NCCPG==I">brÃ¸dres</W>
 <W lemma="skyld" msd="NCCSU==I">skyld</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
@@ -153,7 +153,7 @@
 <W lemma="liv" msd="NCNSU==I">liv</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="kunne" msd="VAF-=----A-">kunne</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="lov" msd="NC[CN][SP]U==[DI]">lov</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
@@ -168,7 +168,7 @@
 <p>
 <s>
 <W lemma="som" msd="U=">Som</W>
-<W lemma="præstedatter" msd="NCCSU==D">præstedatteren</W>
+<W lemma="prÃ¦stedatter" msd="NCCSU==D">prÃ¦stedatteren</W>
 <W lemma="Filippa" msd="NP--U==-">Filippa</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
@@ -177,7 +177,7 @@
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="lille" msd="ANP[CN]SU=[DI]U">lille</W>
 <W lemma="menighed" msd="NCCSU==I">menighed</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="Bodil" msd="NP--U==-">Bodil</W>
 <W lemma="Kjer" msd="NP--U==-">Kjer</W>
 <W lemma="og" msd="CC">og</W>
@@ -188,7 +188,7 @@
 <W lemma="traktere" msd="VAPA=P[CN][DI]A-U">trakterede</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="Babette" msd="NP--G==-">Babettes</W>
-<W lemma="gæstebud" msd="NCNSU==I">gæstebud</W>
+<W lemma="gÃ¦stebud" msd="NCNSU==I">gÃ¦stebud</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -211,7 +211,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="Gabriel" msd="NP--U==-">Gabriel</W>
 <W lemma="Axel" msd="NP--G==-">Axels</W>
-<W lemma="oscarbelønnet" msd="ANP[CN]SU=DU">oscarbelønnede</W>
+<W lemma="oscarbelÃ¸nnet" msd="ANP[CN]SU=DU">oscarbelÃ¸nnede</W>
 <W lemma="film" msd="NCCSU==I">film</W>
 <W lemma="." msd="XP">.</W>
 </s>

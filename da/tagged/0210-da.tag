@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Forslag Vedrørende Rådets Direrktiv Om B'</title>
+        <title>Tagged sample of: 'Forslag VedrÃ¸rende RÃ¥dets Direrktiv Om B'</title>
       </titleStmt>
       <extent words=164>164 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Forslag Vedrørende Rådets Direrktiv Om B<title>
+            <title>Forslag VedrÃ¸rende RÃ¥dets Direrktiv Om B<title>
                <author>UNKNOWN</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <date>1988</date>
@@ -40,16 +40,16 @@
 <s>
 <W lemma="h" msd="XA">h</W>
 <W lemma=")" msd="XP">)</W>
-<W lemma="nødforanstaltning" msd="NCCPU==I">nødforanstaltninger</W>
+<W lemma="nÃ¸dforanstaltning" msd="NCCPU==I">nÃ¸dforanstaltninger</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="henblik" msd="NCNSU==I">henblik</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="minimere" msd="VAF-=----A-">minimere</W>
 <W lemma="eksponering" msd="NCCSU==I">eksponering</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="arbejdstager" msd="NCCPU==I">arbejdstagere</W>
-<W lemma="på_grund_af" msd="SP">på_grund_af</W>
+<W lemma="pÃ¥_grund_af" msd="SP">pÃ¥_grund_af</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="ulykke" msd="NCCSU==I">ulykke</W>
 <W lemma="eller" msd="CC">eller</W>
@@ -76,21 +76,21 @@
 <W lemma="i" msd="SP">I</W>
 <W lemma="forbindelse" msd="NCCSU==I">forbindelse</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="ansættelse" msd="NCCSU==D">ansættelsen</W>
+<W lemma="ansÃ¦ttelse" msd="NCCSU==D">ansÃ¦ttelsen</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="regelmæssig" msd="ANP[CN]PU=[DI]U">regelmæssige</W>
+<W lemma="regelmÃ¦ssig" msd="ANP[CN]PU=[DI]U">regelmÃ¦ssige</W>
 <W lemma="mellemrum" msd="NCNPU==I">mellemrum</W>
 <W lemma="herefter" msd="RGU">herefter</W>
 <W lemma="modtage" msd="VADR=----A-">modtager</W>
 <W lemma="arbejdstager" msd="NCCPU==D">arbejdstagerne</W>
-<W lemma="ajourføre" msd="VAPA=P[CN][DI]A-U">ajourførte</W>
+<W lemma="ajourfÃ¸re" msd="VAPA=P[CN][DI]A-U">ajourfÃ¸rte</W>
 <W lemma="oplysning" msd="NCCPU==I">oplysninger</W>
 <W lemma="samt" msd="CC">samt</W>
 <W lemma="passende" msd="ANP[CN][SP]U=[DI]U">passende</W>
 <W lemma="vejledning" msd="NCCSU==I">vejledning</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="således" msd="RGU">således</W>
+<W lemma="sÃ¥ledes" msd="RGU">sÃ¥ledes</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="have" msd="VADR=----A-">har</W>
@@ -101,7 +101,7 @@
 <W lemma="krav" msd="NCNPU==I">krav</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="indeholde" msd="VAPA=S[CN]I[ARU]-U">indeholdt</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="artikel" msd="NCCSU==I">artikel</W>
@@ -117,12 +117,12 @@
 <s>
 <W lemma="der" msd="U=">Der</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
-<W lemma="træffe" msd="VAF-=----P-">træffes</W>
+<W lemma="trÃ¦ffe" msd="VAF-=----P-">trÃ¦ffes</W>
 <W lemma="passende" msd="ANP[CN][SP]U=[DI]U">passende</W>
 <W lemma="foranstaltning" msd="NCCPU==I">foranstaltninger</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="henblik" msd="NCNSU==I">henblik</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="sikre" msd="VAF-=----A-">sikre</W>
 <W lemma="," msd="XP">,</W>
@@ -130,11 +130,11 @@
 <W lemma="arbejdstager" msd="NCCPU==I">arbejdstagere</W>
 <W lemma="og/eller" msd="XX">og/eller</W>
 <W lemma="eventuel" msd="ANP[CN]PU=[DI]U">eventuelle</W>
-<W lemma="arbejdstagerrepræsentant" msd="NCCPU==I">arbejdstagerrepræsentanter</W>
+<W lemma="arbejdstagerreprÃ¦sentant" msd="NCCPU==I">arbejdstagerreprÃ¦sentanter</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="virksomhed" msd="NCCSU==D">virksomheden</W>
 <W lemma="eller" msd="CC">eller</W>
-<W lemma="anlæg" msd="NCNSU==D">anlægget</W>
+<W lemma="anlÃ¦g" msd="NCNSU==D">anlÃ¦gget</W>
 <W lemma="modtage" msd="VADR=----A-">modtager</W>
 <W lemma="oplysning" msd="NCCPU==I">oplysninger</W>
 <W lemma="om" msd="SP">om</W>
@@ -152,16 +152,16 @@
 <W lemma="hygiejnekrav" msd="NCNPU==I">hygiejnekrav</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="nødprocedure" msd="NCCPU==I">nødprocedurer</W>
+<W lemma="nÃ¸dprocedure" msd="NCCPU==I">nÃ¸dprocedurer</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="stor" msd="ANS---=-R">størst</W>
+<W lemma="stor" msd="ANS---=-R">stÃ¸rst</W>
 <W lemma="mulig" msd="ANPCSU=IU">mulig</W>
-<W lemma="begrænsning" msd="NCCSU==I">begrænsning</W>
+<W lemma="begrÃ¦nsning" msd="NCCSU==I">begrÃ¦nsning</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="arbejdstager" msd="NCCPG==D">arbejdstagernes</W>
 <W lemma="eksponering" msd="NCCSU==I">eksponering</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="følge" msd="NCCSU==I">følge</W>
+<W lemma="fÃ¸lge" msd="NCCSU==I">fÃ¸lge</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="ulykke" msd="NCCSU==I">ulykke</W>
@@ -209,18 +209,18 @@
 <s>
 <W lemma="der" msd="U=">Der</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
-<W lemma="træffe" msd="VAF-=----P-">træffes</W>
-<W lemma="hensigtmæssig" msd="ANP[CN]PU=[DI]U">hensigtmæssige</W>
+<W lemma="trÃ¦ffe" msd="VAF-=----P-">trÃ¦ffes</W>
+<W lemma="hensigtmÃ¦ssig" msd="ANP[CN]PU=[DI]U">hensigtmÃ¦ssige</W>
 <W lemma="foranstaltning" msd="NCCPU==I">foranstaltninger</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="vidt" msd="RGU">vidt</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="rimelighed" msd="NCCSU==I">rimelighed</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="mulig" msd="ANPNSU=IU">muligt</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="beskyttelse" msd="NCCSU==I">beskyttelse</W>
@@ -243,7 +243,7 @@
 <W lemma=")" msd="XP">)</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="indrette" msd="VADR=----P-">indrettes</W>
-<W lemma="område" msd="NCNPU==I">områder</W>
+<W lemma="omrÃ¥de" msd="NCNPU==I">omrÃ¥der</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="arbejdstager" msd="NCCPU==D">arbejdstagerne</W>

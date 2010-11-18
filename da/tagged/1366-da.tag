@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Overlæge ville stoppe privat klinik'</title>
+        <title>Tagged sample of: 'OverlÃ¦ge ville stoppe privat klinik'</title>
       </titleStmt>
       <extent words=154>154 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Overlæge ville stoppe privat klinik</title>
+            <title>OverlÃ¦ge ville stoppe privat klinik</title>
             <author gender=m>Roholt, Per</author>
           </analytic>
           <monogr>
@@ -42,25 +42,25 @@
 <p>
 <s>
 <W lemma="boykot-sag" msd="NCCSU==D">Boykot-sagen</W>
-<W lemma="afsløre" msd="VADR=----A-">afslører</W>
+<W lemma="afslÃ¸re" msd="VADR=----A-">afslÃ¸rer</W>
 <W lemma="nemlig" msd="RGU">nemlig</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="tæt" msd="ANP[CN]SU=IU">tæt</W>
-<W lemma="sammenhæng" msd="NCCSU==I">sammenhæng</W>
+<W lemma="tÃ¦t" msd="ANP[CN]SU=IU">tÃ¦t</W>
+<W lemma="sammenhÃ¦ng" msd="NCCSU==I">sammenhÃ¦ng</W>
 <W lemma="mellem" msd="SP">mellem</W>
-<W lemma="læge" msd="NCCPU==D">lægerne</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="lÃ¦ge" msd="NCCPU==D">lÃ¦gerne</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="dansk" msd="ANP[CN]PU=[DI]U">danske</W>
-<W lemma="høreklinik" msd="NCCPU==I">høreklinikker</W>
+<W lemma="hÃ¸reklinik" msd="NCCPU==I">hÃ¸reklinikker</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="høreapparat-firma" msd="NCNPU==D">høreapparat-firmaerne</W>
+<W lemma="hÃ¸reapparat-firma" msd="NCNPU==D">hÃ¸reapparat-firmaerne</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="hver" msd="PI-NSU--U">hvert</W>
-<W lemma="år" msd="NCNSU==I">år</W>
-<W lemma="sælge" msd="VADR=----A-">sælger</W>
-<W lemma="høreapparat" msd="NCNPU==I">høreapparater</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
+<W lemma="sÃ¦lge" msd="VADR=----A-">sÃ¦lger</W>
+<W lemma="hÃ¸reapparat" msd="NCNPU==I">hÃ¸reapparater</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="90" msd="AC---U=--">90</W>
 <W lemma="million" msd="NCCPU==I">millioner</W>
@@ -74,26 +74,26 @@
 <p>
 <s>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="undersøgelse" msd="NCCSU==D">Undersøgelsen</W>
+<W lemma="undersÃ¸gelse" msd="NCCSU==D">UndersÃ¸gelsen</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="markedsforhold" msd="NCNPU==D">markedsforholdene</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="branche" msd="NCCSU==D">branchen</W>
-<W lemma="stå" msd="VADR=----A-">står</W>
-<W lemma="høj" msd="ANP---=-R">højt</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="stÃ¥" msd="VADR=----A-">stÃ¥r</W>
+<W lemma="hÃ¸j" msd="ANP---=-R">hÃ¸jt</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="vores" msd="PO1[CN][SP]UPNU">vores</W>
 <W lemma="liste" msd="NCCSU==I">liste</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="absolut" msd="ANP---=-R">absolut</W>
-<W lemma="påtrængende" msd="ANP[CN][SP]U=[DI]U">påtrængende</W>
+<W lemma="pÃ¥trÃ¦ngende" msd="ANP[CN][SP]U=[DI]U">pÃ¥trÃ¦ngende</W>
 <W lemma="problem" msd="NCNPU==I">problemer</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
 <W lemma="kontorchef" msd="NCCSU==I">kontorchef</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="konkurrenceråd" msd="NCNSU==D">Konkurrencerådet</W>
+<W lemma="konkurrencerÃ¥d" msd="NCNSU==D">KonkurrencerÃ¥det</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="Niels" msd="NP--U==-">Niels</W>
 <W lemma="Rytter" msd="NP--U==-">Rytter</W>
@@ -114,24 +114,24 @@
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="privatklinik" msd="NCCSU==I">privatklinik</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
-<W lemma="nøje" msd="ANP---=-R">nøje</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
+<W lemma="nÃ¸je" msd="ANP---=-R">nÃ¸je</W>
 <W lemma="beskrive" msd="VAPA=S[CN]I[ARU]-U">beskrevet</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="landsforening" msd="NCCSU==D">Landsforeningen</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="god" msd="ANC[CN][SP]U=[DI]U">Bedre</W>
-<W lemma="hørelse" msd="NCCSG==I">Hørelses</W>
+<W lemma="hÃ¸relse" msd="NCCSG==I">HÃ¸relses</W>
 <W lemma="blad" msd="NCNSU==I">blad</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="hørelse" msd="NCCSU==D">Hørelsen</W>
+<W lemma="hÃ¸relse" msd="NCCSU==D">HÃ¸relsen</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="ifølge" msd="SP">Ifølge</W>
-<W lemma="hørelse" msd="NCCSU==D">Hørelsen</W>
+<W lemma="ifÃ¸lge" msd="SP">IfÃ¸lge</W>
+<W lemma="hÃ¸relse" msd="NCCSU==D">HÃ¸relsen</W>
 <W lemma="starte" msd="VADA=----A-">startede</W>
 <W lemma="hel" msd="ANP[CN]SU=DU">hele</W>
 <W lemma="sag" msd="NCCSU==D">sagen</W>
@@ -144,17 +144,17 @@
 <W lemma="februar" msd="NCCSU==I">februar</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="fjor" msd="NC[CN][SP]U==[DI]">fjor</W>
-<W lemma="åbne" msd="VADA=----A-">åbnede</W>
+<W lemma="Ã¥bne" msd="VADA=----A-">Ã¥bnede</W>
 <W lemma="Danmark" msd="NP--G==-">Danmarks</W>
-<W lemma="første" msd="ANP[CN][SP]U=[DI]U">første</W>
+<W lemma="fÃ¸rste" msd="ANP[CN][SP]U=[DI]U">fÃ¸rste</W>
 <W lemma="privatklinik" msd="NCCSU==I">privatklinik</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="hørehæmmet" msd="ANP[CN]PU=[DI]U">hørehæmmede</W>
+<W lemma="hÃ¸rehÃ¦mmet" msd="ANP[CN]PU=[DI]U">hÃ¸rehÃ¦mmede</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="Audiodan" msd="NP--U==-">Audiodan</W>
-<W lemma="høreteknik" msd="NCCSU==I">Høreteknik</W>
+<W lemma="hÃ¸reteknik" msd="NCCSU==I">HÃ¸reteknik</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Gråsten" msd="NP--U==-">Gråsten</W>
+<W lemma="GrÃ¥sten" msd="NP--U==-">GrÃ¥sten</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -163,49 +163,49 @@
 </p>
 <p>
 <s>
-<W lemma="mål" msd="NCNSU==D">Målet</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="mÃ¥l" msd="NCNSU==D">MÃ¥let</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
-<W lemma="hørehæmmet" msd="ANP[CN]PU=[DI]U">hørehæmmede</W>
+<W lemma="hÃ¸rehÃ¦mmet" msd="ANP[CN]PU=[DI]U">hÃ¸rehÃ¦mmede</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
 <W lemma="springe" msd="VAF-=----A-">springe</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="alenlang" msd="ANP[CN]PU=[DI]U">alenlange</W>
-<W lemma="kø" msd="NCCPU==I">køer</W>
+<W lemma="kÃ¸" msd="NCCPU==I">kÃ¸er</W>
 <W lemma="over" msd="RGU">over</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="offentlig" msd="ANP[CN]SU=DU">offentlige</W>
 <W lemma="system" msd="NCNSU==I">system</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="købe" msd="VAF-=----A-">købe</W>
+<W lemma="kÃ¸be" msd="VAF-=----A-">kÃ¸be</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="høreapparat" msd="NCNSU==I">høreapparat</W>
+<W lemma="hÃ¸reapparat" msd="NCNSU==I">hÃ¸reapparat</W>
 <W lemma="hos" msd="SP">hos</W>
 <W lemma="han" msd="PP3CSU-NU">ham</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="undersøgelse" msd="NCCSU==I">undersøgelse</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="undersÃ¸gelse" msd="NCCSU==I">undersÃ¸gelse</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="audiologisk" msd="ANP[CN]SU=IU">audiologisk</W>
 <W lemma="afdeling" msd="NCCSU==I">afdeling</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="hos" msd="SP">hos</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="ørelæge" msd="NCCSU==I">ørelæge</W>
+<W lemma="Ã¸relÃ¦ge" msd="NCCSU==I">Ã¸relÃ¦ge</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="selv" msd="PD-[CN][SP]U--U">Selv</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="Leif" msd="NP--U==-">Leif</W>
 <W lemma="Sejrup" msd="NP--U==-">Sejrup</W>
 <W lemma="uddanet" msd="XX">uddanet</W>
@@ -219,13 +219,13 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="arbejde" msd="VAPA=S[CN]I[ARU]-U">arbejdet</W>
 <W lemma="13" msd="AC---U=--">13</W>
-<W lemma="år" msd="NCNPU==I">år</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="offentlig" msd="ANP[CN]SU=DU">offentlige</W>
-<W lemma="høreklinik" msd="NCCSU==I">høreklinik</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="Sønderborg" msd="NP--U==-">Sønderborg</W>
+<W lemma="hÃ¸reklinik" msd="NCCSU==I">hÃ¸reklinik</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="SÃ¸nderborg" msd="NP--U==-">SÃ¸nderborg</W>
 <W lemma="sygehus" msd="NCNSU==I">Sygehus</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="inden" msd="CS">inden</W>

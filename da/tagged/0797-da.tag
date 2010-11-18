@@ -51,7 +51,7 @@
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="tillid" msd="NCCSU==I">tillid</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="vælge" msd="VAF-=----A-">vælge</W>
+<W lemma="vÃ¦lge" msd="VAF-=----A-">vÃ¦lge</W>
 <W lemma="Ernst" msd="NP--U==-">Ernst</W>
 <W lemma="Peters" msd="NP--U==-">Peters</W>
 <W lemma="til" msd="SP">til</W>
@@ -68,7 +68,7 @@
 <W lemma="ligeledes" msd="RGU">Ligeledes</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="dansk" msd="ANP[CN]PU=[DI]U">Danske</W>
-<W lemma="elværk" msd="NCNPG==I">Elværkers</W>
+<W lemma="elvÃ¦rk" msd="NCNPG==I">ElvÃ¦rkers</W>
 <W lemma="forening" msd="NCCSU==I">Forening</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="lysteknisk" msd="ANP[CN]SU=IU">Lysteknisk</W>
@@ -88,20 +88,20 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="jubilæum" msd="NCNSU==D">Jubilæet</W>
+<W lemma="jubilÃ¦um" msd="NCNSU==D">JubilÃ¦et</W>
 <W lemma="fejre" msd="VADR=----P-">fejres</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="reception" msd="NCCSU==I">reception</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="EFFO" msd="NP--U==-">EFFO</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="Undalsvej" msd="NP--U==-">Undalsvej</W>
 <W lemma="3" msd="AC---U=--">3</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="Frederiksværk" msd="NP--U==-">Frederiksværk</W>
+<W lemma="FrederiksvÃ¦rk" msd="NP--U==-">FrederiksvÃ¦rk</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="dag" msd="NCCSU==D">dagen</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="klokke" msd="NCCSU==D">kl.</W>
@@ -123,30 +123,30 @@
 <W lemma="af" msd="SP">af</W>
 <W lemma="reserve" msd="NCCSU==D">reserven</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="udnævne" msd="VAPA=S[CN]I[ARU]-U">udnævnt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="udnÃ¦vne" msd="VAPA=S[CN]I[ARU]-U">udnÃ¦vnt</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="oberstløjtnant" msd="NCCSU==I">oberstløjtnant</W>
+<W lemma="oberstlÃ¸jtnant" msd="NCCSU==I">oberstlÃ¸jtnant</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="reserve" msd="NCCSU==D">reserven</W>
 <W lemma="(" msd="XP">(</W>
-<W lemma="hær" msd="NCCSU==D">hæren</W>
+<W lemma="hÃ¦r" msd="NCCSU==D">hÃ¦ren</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="Jens" msd="NP--U==-">Jens</W>
 <W lemma="Rohde" msd="NP--U==-">Rohde</W>
-<W lemma="Grønnegaard" msd="NP--U==-">Grønnegaard</W>
+<W lemma="GrÃ¸nnegaard" msd="NP--U==-">GrÃ¸nnegaard</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="major" msd="NCCSU==I">major</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="udnævne" msd="VAPA=S[CN]I[ARU]-U">udnævnt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="udnÃ¦vne" msd="VAPA=S[CN]I[ARU]-U">udnÃ¦vnt</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="oberstløjtnant" msd="NCCSU==I">oberstløjtnant</W>
+<W lemma="oberstlÃ¸jtnant" msd="NCCSU==I">oberstlÃ¸jtnant</W>
 <W lemma="(" msd="XP">(</W>
-<W lemma="hær" msd="NCCSU==D">hæren</W>
+<W lemma="hÃ¦r" msd="NCCSU==D">hÃ¦ren</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -154,26 +154,26 @@
 <W lemma="Hans-Michael" msd="NP--U==-">Hans-Michael</W>
 <W lemma="Jelsdorf" msd="NP--U==-">Jelsdorf</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="overlæge" msd="NCCSU==I">overlæge</W>
+<W lemma="overlÃ¦ge" msd="NCCSU==I">overlÃ¦ge</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="midlertidig" msd="ANPCSU=IU">midlertidig</W>
-<W lemma="stabslæge" msd="NCCSU==I">stabslæge</W>
+<W lemma="stabslÃ¦ge" msd="NCCSU==I">stabslÃ¦ge</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="2." msd="AO---U=--">2.</W>
 <W lemma="grad" msd="NCCSU==I">grad</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="udnævne" msd="VAPA=S[CN]I[ARU]-U">udnævnt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="udnÃ¦vne" msd="VAPA=S[CN]I[ARU]-U">udnÃ¦vnt</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="stabslæge" msd="NCCSU==I">stabslæge</W>
+<W lemma="stabslÃ¦ge" msd="NCCSU==I">stabslÃ¦ge</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="1." msd="AO---U=--">1.</W>
 <W lemma="grad" msd="NCCSU==I">grad</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="forsvar" msd="NCNSG==D">Forsvarets</W>
-<W lemma="lægekorps" msd="NCNSU==I">Lægekorps</W>
+<W lemma="lÃ¦gekorps" msd="NCNSU==I">LÃ¦gekorps</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="hær" msd="NCCSU==D">hæren</W>
+<W lemma="hÃ¦r" msd="NCCSU==D">hÃ¦ren</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -182,7 +182,7 @@
 <W lemma="Gunner" msd="NP--U==-">Gunner</W>
 <W lemma="Hansen" msd="NP--U==-">Hansen</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="sognepræst" msd="NCCSU==I">sognepræst</W>
+<W lemma="sogneprÃ¦st" msd="NCCSU==I">sogneprÃ¦st</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Skovby-Ore-Guldbjerg" msd="NP--U==-">Skovby-Ore-Guldbjerg</W>
 <W lemma="pastorat" msd="NCNSU==I">pastorat</W>
@@ -190,9 +190,9 @@
 <W lemma="Fyen" msd="NP--G==-">Fyens</W>
 <W lemma="stift" msd="NCNSU==I">Stift</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="efter" msd="SP">efter</W>
-<W lemma="ansøgning" msd="NCCSU==I">ansøgning</W>
+<W lemma="ansÃ¸gning" msd="NCCSU==I">ansÃ¸gning</W>
 <W lemma="afskedige" msd="VAPA=S[CN]I[ARU]-U">afskediget</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="pension" msd="NCCSU==I">pension</W>
@@ -208,7 +208,7 @@
 <W lemma="Haahr" msd="NP--U==-">Haahr</W>
 <W lemma="Ibsen" msd="NP--U==-">Ibsen</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="sognepræst" msd="NCCSU==I">sognepræst</W>
+<W lemma="sogneprÃ¦st" msd="NCCSU==I">sogneprÃ¦st</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Bording" msd="NP--U==-">Bording</W>
 <W lemma="pastorat" msd="NCNSU==I">pastorat</W>
@@ -216,9 +216,9 @@
 <W lemma="Viborg" msd="NP--U==-">Viborg</W>
 <W lemma="stift" msd="NCNSU==I">Stift</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="efter" msd="SP">efter</W>
-<W lemma="ansøgning" msd="NCCSU==I">ansøgning</W>
+<W lemma="ansÃ¸gning" msd="NCCSU==I">ansÃ¸gning</W>
 <W lemma="afskedige" msd="VAPA=S[CN]I[ARU]-U">afskediget</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="pension" msd="NCCSU==I">pension</W>
@@ -229,21 +229,21 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="Søren" msd="NP--U==-">Søren</W>
+<W lemma="SÃ¸ren" msd="NP--U==-">SÃ¸ren</W>
 <W lemma="Dam" msd="NP--U==-">Dam</W>
 <W lemma="Kjeldsen" msd="NP--U==-">Kjeldsen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="pastor" msd="NCCSU==I">pastor</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="ansætte" msd="VAPA=S[CN]I[ARU]-U">ansat</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="ansÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">ansat</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="sognepræst" msd="NCCSU==I">sognepræst</W>
+<W lemma="sogneprÃ¦st" msd="NCCSU==I">sogneprÃ¦st</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Thyrsted-Uth" msd="NP--U==-">Tyrsted-Uth</W>
 <W lemma="pastorat" msd="NCNSU==I">pastorat</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Århus" msd="NP--U==-">Århus</W>
+<W lemma="Ã…rhus" msd="NP--U==-">Ã…rhus</W>
 <W lemma="stift" msd="NCNSU==I">Stift</W>
 <W lemma="." msd="XP">.</W>
 </s>

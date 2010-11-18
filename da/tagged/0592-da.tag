@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Skoringen en støvet sag'</title>
+        <title>Tagged sample of: 'Skoringen en stÃ¸vet sag'</title>
       </titleStmt>
       <extent words=177>177 running words</extent>
       <publicationStmt>
@@ -14,9 +14,9 @@
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Skoringen en støvet sag<title>
+            <title>Skoringen en stÃ¸vet sag<title>
                <author gender=m born=1965>Jacobsen, Morten</author>
-            <author gender=m born=1965>Rhode, Jørgen</author>
+            <author gender=m born=1965>Rhode, JÃ¸rgen</author>
             <author gender=m born=1970>Stampe, Jakob</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <date>1992</date>
@@ -43,7 +43,7 @@
 <W lemma="efter" msd="SP">Efter</W>
 <W lemma="besvarelse" msd="NCCSU==D">besvarelsen</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="spørgeskema" msd="NCNSU==I">spørgeskema</W>
+<W lemma="spÃ¸rgeskema" msd="NCNSU==I">spÃ¸rgeskema</W>
 <W lemma="A" msd="XA">A</W>
 <W lemma="oplyse" msd="VADA=----A-">oplyste</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
@@ -52,7 +52,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
-<W lemma="stå" msd="VADA=----A-">stod</W>
+<W lemma="stÃ¥" msd="VADA=----A-">stod</W>
 <W lemma="bag" msd="SP">bag</W>
 <W lemma="Skoringen-reklame" msd="NCCSU==D">Skoringen-reklamen</W>
 <W lemma="." msd="XP">.</W>
@@ -65,11 +65,11 @@
 <W lemma="3" msd="AC---U=--">3</W>
 <W lemma="Skoringen-reklame" msd="NCCPU==I">Skoringen-reklamer</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="en" msd="PI-CSU--U">én</W>
+<W lemma="en" msd="PI-CSU--U">Ã©n</W>
 <W lemma="sekvens" msd="NCCSU==I">sekvens</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvorefter" msd="RGU">hvorefter</W>
-<W lemma="spørgeskema" msd="NCNSU==I">spørgeskema</W>
+<W lemma="spÃ¸rgeskema" msd="NCNSU==I">spÃ¸rgeskema</W>
 <W lemma="B" msd="XA">B</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
 <W lemma="uddele" msd="VAPA=S[CN]I[ARU]-U">uddelt</W>
@@ -84,10 +84,10 @@
 <s>
 <W lemma="resultat" msd="NCNSU==D">Resultatet</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="undersøgelse" msd="NCCSU==D">undersøgelsen</W>
+<W lemma="undersÃ¸gelse" msd="NCCSU==D">undersÃ¸gelsen</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="følge" msd="VADR=----A-">følger</W>
+<W lemma="fÃ¸lge" msd="VADR=----A-">fÃ¸lger</W>
 <W lemma=":" msd="XP">:</W>
 </s>
 </p>
@@ -95,7 +95,7 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="spørgeskema" msd="NCNSU==I">Spørgeskema</W>
+<W lemma="spÃ¸rgeskema" msd="NCNSU==I">SpÃ¸rgeskema</W>
 <W lemma="A" msd="XA">A</W>
 <W lemma=":" msd="XP">:</W>
 </s>
@@ -139,14 +139,14 @@
 <p>
 <s>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
-<W lemma="ønske" msd="VADA=----A-">ønskede</W>
+<W lemma="Ã¸nske" msd="VADA=----A-">Ã¸nskede</W>
 <W lemma="her" msd="RGU">her</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="se" msd="VAF-=----A-">se</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="om" msd="CS">om</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="stand" msd="NCCSU==I">stand</W>
 <W lemma="til" msd="SP">til</W>
@@ -159,14 +159,14 @@
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="om" msd="CS">om</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="selektiv" msd="ANPCSU=IU">selektiv</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="anden" msd="PI-NSU--U">andet</W>
-<W lemma="ræsonnement" msd="NCNSU==I">ræsonnement</W>
+<W lemma="rÃ¦sonnement" msd="NCNSU==I">rÃ¦sonnement</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -180,20 +180,20 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="vores" msd="PO1[CN][SP]UPNU">vores</W>
 <W lemma="reklame" msd="NCCSU==I">reklame</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="topscorer" msd="NCCSU==I">topscorer</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="tæt" msd="ANP---=-R">tæt</W>
-<W lemma="følge" msd="VAPA=S[CN]I[ARU]-U">fulgt</W>
+<W lemma="tÃ¦t" msd="ANP---=-R">tÃ¦t</W>
+<W lemma="fÃ¸lge" msd="VAPA=S[CN]I[ARU]-U">fulgt</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="øvrig" msd="ANP[CN]PU=[DI]U">øvrige</W>
+<W lemma="Ã¸vrig" msd="ANP[CN]PU=[DI]U">Ã¸vrige</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="selvom" msd="CS">Selvom</W>
-<W lemma="undersøgelse" msd="NCCSU==D">undersøgelsen</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="undersÃ¸gelse" msd="NCCSU==D">undersÃ¸gelsen</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="konstruere" msd="VAPA=S[CN]IA-U">konstrueret</W>
 <W lemma="situation" msd="NCCSU==I">situation</W>
@@ -204,12 +204,12 @@
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="forvente" msd="VAF-=----A-">forvente</W>
 <W lemma="ekstra" msd="ANP[CN][SP]U=[DI]U">ekstra</W>
-<W lemma="opmærksomhed" msd="NCCSU==I">opmærksomhed</W>
+<W lemma="opmÃ¦rksomhed" msd="NCCSU==I">opmÃ¦rksomhed</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="deltager" msd="NCCPG==D">deltagernes</W>
 <W lemma="side" msd="NCCSU==I">side</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="vise" msd="VADA=----A-">viste</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
@@ -217,7 +217,7 @@
 <W lemma="ganske" msd="RGU">ganske</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
-<W lemma="misforstå" msd="VAPA=S[CN]I[ARU]-U">misforstået</W>
+<W lemma="misforstÃ¥" msd="VAPA=S[CN]I[ARU]-U">misforstÃ¥et</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="glemme" msd="VAPA=S[CN]I[ARU]-U">glemt</W>
@@ -234,16 +234,16 @@
 <W lemma="Dajm" msd="NP--U==-">Dajm</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="i" msd="NCNSU==I">i</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="sammenhæng" msd="NCCSU==I">sammenhæng</W>
+<W lemma="sammenhÃ¦ng" msd="NCCSU==I">sammenhÃ¦ng</W>
 <W lemma="lille" msd="ANC---=-R">mindre</W>
-<W lemma="væsentlig" msd="ANPNSU=IU">væsentligt</W>
+<W lemma="vÃ¦sentlig" msd="ANPNSU=IU">vÃ¦sentligt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="da" msd="CS">da</W>
 <W lemma="navn" msd="NCNSU==D">navnet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="rigtig" msd="ANP---=-R">rigtigt</W>
 <W lemma="opfatte" msd="VAPA=S[CN]I[ARU]-U">opfattet</W>
 <W lemma="(" msd="XP">(</W>
@@ -263,12 +263,12 @@
 <W lemma="det" msd="PP3NSU-NU">Det</W>
 <W lemma="vise" msd="VADA=----A-">viste</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
-<W lemma="desværre" msd="RGU">desværre</W>
+<W lemma="desvÃ¦rre" msd="RGU">desvÃ¦rre</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="vores" msd="PO1[CN][SP]UPNU">vores</W>
 <W lemma="reklame" msd="NCCSU==I">reklame</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="topscorer" msd="NCCSU==I">topscorer</W>
 <W lemma="blandt" msd="SP">blandt</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
@@ -276,7 +276,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="fat" msd="RGU">fat</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="," msd="XP">,</W>
@@ -288,14 +288,14 @@
 <W lemma="allerede" msd="RGU">allerede</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="start" msd="NCCSU==D">starten</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="klar" msd="ANPCSU=IU">klar</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
-<W lemma="opstå" msd="VAF-=----A-">opstå</W>
+<W lemma="opstÃ¥" msd="VAF-=----A-">opstÃ¥</W>
 <W lemma="(" msd="XP">(</W>
-<W lemma="jævnføre" msd="VAM-=------">jvf.</W>
+<W lemma="jÃ¦vnfÃ¸re" msd="VAM-=------">jvf.</W>
 <W lemma="afsnit" msd="NCNSU==D">afsnittet</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="nisse" msd="NCCSG==D">Nissens</W>

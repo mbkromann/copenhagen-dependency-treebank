@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Det offentlige skal også afskrive gæld'</title>
+        <title>Tagged sample of: 'Det offentlige skal ogsÃ¥ afskrive gÃ¦ld'</title>
       </titleStmt>
       <extent words=162>162 running words</extent>
       <publicationStmt>
@@ -14,8 +14,8 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Det offentlige skal også afskrive gæld</title>
-            <author gender=m born=1960>Snitkjær, Klavs</author>
+            <title>Det offentlige skal ogsÃ¥ afskrive gÃ¦ld</title>
+            <author gender=m born=1960>SnitkjÃ¦r, Klavs</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -45,10 +45,10 @@
 <W lemma="i" msd="SP">I</W>
 <W lemma="rund" msd="ANP[CN]PU=[DI]U">runde</W>
 <W lemma="tal" msd="NCNPU==I">tal</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="selvstændig" msd="ANP[CN]SU=DU">selvstændige</W>
-<W lemma="altså" msd="RGU">altså</W>
+<W lemma="selvstÃ¦ndig" msd="ANP[CN]SU=DU">selvstÃ¦ndige</W>
+<W lemma="altsÃ¥" msd="RGU">altsÃ¥</W>
 <W lemma="tilfreds" msd="ANPCSU=IU">tilfreds</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="at" msd="U=">at</W>
@@ -64,7 +64,7 @@
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="løn" msd="NCCSU==I">løn</W>
+<W lemma="lÃ¸n" msd="NCCSU==I">lÃ¸n</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
@@ -78,7 +78,7 @@
 <W lemma="man" msd="PI-C[SP]N--U">Man</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="ødelægge" msd="VAF-=----A-">ødelægge</W>
+<W lemma="Ã¸delÃ¦gge" msd="VAF-=----A-">Ã¸delÃ¦gge</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="initiativ" msd="NCNSU==I">initiativ</W>
 <W lemma="," msd="XP">,</W>
@@ -88,21 +88,21 @@
 <W lemma="vilje" msd="NCCSU==D">viljen</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
-<W lemma="selvstændig" msd="ANPCSU=IU">selvstændig</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
+<W lemma="selvstÃ¦ndig" msd="ANPCSU=IU">selvstÃ¦ndig</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="de" msd="PP3[CN]PN-NU">De</W>
 <W lemma="skabe" msd="VADR=----A-">skaber</W>
 <W lemma="meget" msd="ANC[CN]SU=IU">mere</W>
-<W lemma="vækst" msd="NCCSU==I">vækst</W>
+<W lemma="vÃ¦kst" msd="NCCSU==I">vÃ¦kst</W>
 <W lemma="end" msd="CS">end</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="stor" msd="ANP[CN]PU=[DI]U">store</W>
 <W lemma="industriforetagende" msd="NCNPU==I">industriforetagender</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="fastslå" msd="VADR=----A-">fastslår</W>
+<W lemma="fastslÃ¥" msd="VADR=----A-">fastslÃ¥r</W>
 <W lemma="Eskild" msd="NP--U==-">Eskild</W>
 <W lemma="Schjerning" msd="NP--U==-">Schjerning</W>
 <W lemma="." msd="XP">.</W>
@@ -119,7 +119,7 @@
 <W lemma="1." msd="AO---U=--">1.</W>
 <W lemma="januar" msd="NCCSU==I">januar</W>
 <W lemma="1987" msd="AC---U=--">1987</W>
-<W lemma="bære" msd="VADR=----A-">bærer</W>
+<W lemma="bÃ¦re" msd="VADR=----A-">bÃ¦rer</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="stor" msd="ANPCSU=IU">stor</W>
 <W lemma="del" msd="NCCSU==I">del</W>
@@ -127,7 +127,7 @@
 <W lemma="skyld" msd="NCCSU==D">skylden</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="selvstændig" msd="ANP[CN]PG=[DI]U">selvstændiges</W>
+<W lemma="selvstÃ¦ndig" msd="ANP[CN]PG=[DI]U">selvstÃ¦ndiges</W>
 <W lemma="stige" msd="VAPR=[SP][CN][DI]A-U">stigende</W>
 <W lemma="vanskelighed" msd="NCCPU==I">vanskeligheder</W>
 <W lemma="med" msd="SP">med</W>
@@ -140,11 +140,11 @@
 <p>
 <s>
 <W lemma="reform" msd="NCCSU==D">Reformen</W>
-<W lemma="påføre" msd="VADA=----A-">påførte</W>
+<W lemma="pÃ¥fÃ¸re" msd="VADA=----A-">pÃ¥fÃ¸rte</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="selvstændig" msd="ANP[CN]PU=[DI]U">selvstændige</W>
+<W lemma="selvstÃ¦ndig" msd="ANP[CN]PU=[DI]U">selvstÃ¦ndige</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">større</W>
+<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">stÃ¸rre</W>
 <W lemma="skattebyrde" msd="NCCSU==I">skattebyrde</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -152,13 +152,13 @@
 <W lemma="dermed" msd="RGU">Dermed</W>
 <W lemma="skulle" msd="VADA=----A-">skulle</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="selvstændig" msd="ANP[CN]PU=[DI]U">selvstændige</W>
+<W lemma="selvstÃ¦ndig" msd="ANP[CN]PU=[DI]U">selvstÃ¦ndige</W>
 <W lemma="tjene" msd="VAF-=----A-">tjene</W>
 <W lemma="15-20" msd="AC---U=--">15-20</W>
 <W lemma="procent" msd="NCCPU==I">procent</W>
 <W lemma="meget" msd="ANC---=-R">mere</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="år" msd="NCNSU==D">året</W>
+<W lemma="Ã¥r" msd="NCNSU==D">Ã¥ret</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="blot" msd="RGU">blot</W>
 <W lemma="at" msd="U=">at</W>
@@ -176,26 +176,26 @@
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="lade" msd="VAF-=----A-">lade</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
-<W lemma="gøre" msd="VAF-=----A-">gøre</W>
+<W lemma="gÃ¸re" msd="VAF-=----A-">gÃ¸re</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="da" msd="CS">da</W>
 <W lemma="skattereform" msd="NCCSU==D">skattereformen</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
-<W lemma="iværksætte" msd="VAPA=S[CN]I[ARU]-U">iværksat</W>
+<W lemma="ivÃ¦rksÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">ivÃ¦rksat</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="netop" msd="RGU">netop</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="lavkonjunktur" msd="NCCSU==D">lavkonjunkturen</W>
-<W lemma="sætte" msd="VADA=----A-">satte</W>
+<W lemma="sÃ¦tte" msd="VADA=----A-">satte</W>
 <W lemma="ind" msd="RGU">ind</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="derfor" msd="RGU">Derfor</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="skatte-" msd="XX">skatte-</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="momsgæld" msd="NCCSU==D">momsgælden</W>
+<W lemma="momsgÃ¦ld" msd="NCCSU==D">momsgÃ¦lden</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="offentlig" msd="ANP[CN]SU=DU">offentlige</W>
@@ -208,9 +208,9 @@
 <W lemma="33" msd="AC---U=--">33</W>
 <W lemma="milliard" msd="NCCPU==I">mia.</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="fem" msd="AC---U=--">fem</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
@@ -223,7 +223,7 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="naturgivet" msd="ANP[CN]SU=IU">naturgivet</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
@@ -232,7 +232,7 @@
 <W lemma="konjunktursving" msd="NCNPU==I">konjunktursving</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="5-6" msd="AC---U=--">5-6</W>
-<W lemma="år" msd="NCNPG==I">års</W>
+<W lemma="Ã¥r" msd="NCNPG==I">Ã¥rs</W>
 <W lemma="mellemrum" msd="NCNPU==I">mellemrum</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -241,7 +241,7 @@
 <W lemma="naturlig" msd="ANP[CN]SU=DU">naturlige</W>
 <W lemma="udsving" msd="NCNSU==I">udsving</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
-<W lemma="ødelægge" msd="VAPA=S[CN]I[ARU]-U">ødelagt</W>
+<W lemma="Ã¸delÃ¦gge" msd="VAPA=S[CN]I[ARU]-U">Ã¸delagt</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="skattereform" msd="NCCSU==D">skattereformen</W>
 <W lemma="," msd="XP">,</W>
@@ -252,7 +252,7 @@
 <W lemma="byrde" msd="NCCSU==I">byrde</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="selvstændig" msd="ANP[CN]PU=[DI]U">selvstændige</W>
+<W lemma="selvstÃ¦ndig" msd="ANP[CN]PU=[DI]U">selvstÃ¦ndige</W>
 <W lemma="." msd="XP">.</W>
 <W lemma="&quot;" msd="XP">"</W>
 </s>

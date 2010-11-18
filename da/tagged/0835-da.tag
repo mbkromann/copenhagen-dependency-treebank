@@ -60,7 +60,7 @@
 <W lemma="balletkritiker" msd="NCCSU==I">balletkritiker</W>
 <W lemma="Anna" msd="NP--U==-">Anna</W>
 <W lemma="Kisselgoff" msd="NP--U==-">Kisselgoff</W>
-<W lemma="beskæftige" msd="VADR=----A-">beskæftiger</W>
+<W lemma="beskÃ¦ftige" msd="VADR=----A-">beskÃ¦ftiger</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="forhold" msd="NCNSU==D">forholdet</W>
@@ -78,7 +78,7 @@
 </s>
 <s>
 <W lemma="Ebbe" msd="NP--U==-">Ebbe</W>
-<W lemma="Mørk" msd="NP--U==-">Mørk</W>
+<W lemma="MÃ¸rk" msd="NP--U==-">MÃ¸rk</W>
 <W lemma="skrive" msd="VADR=----A-">skriver</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="mandsdans" msd="NCCSU==D">mandsdansen</W>
@@ -90,22 +90,22 @@
 <W lemma="kvindeskikkelse" msd="NCCPU==I">kvindeskikkelser</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="Ole" msd="NP--U==-">Ole</W>
-<W lemma="Nørlyng" msd="NP--U==-">Nørlyng</W>
+<W lemma="NÃ¸rlyng" msd="NP--U==-">NÃ¸rlyng</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="musik" msd="NCCSU==D">musikken</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="ønske" msd="NCNSU==D">ønsket</W>
+<W lemma="Ã¸nske" msd="NCNSU==D">Ã¸nsket</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="sætte" msd="VAF-=----A-">sætte</W>
+<W lemma="sÃ¦tte" msd="VAF-=----A-">sÃ¦tte</W>
 <W lemma="musik" msd="NCCSU==D">musikken</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="dans" msd="NCCSU==D">dansen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="fælles" msd="ANP[CN][SP]U=[DI]U">fælles</W>
-<W lemma="idé" msd="NCCSG==I">idés</W>
+<W lemma="fÃ¦lles" msd="ANP[CN][SP]U=[DI]U">fÃ¦lles</W>
+<W lemma="idÃ©" msd="NCCSG==I">idÃ©s</W>
 <W lemma="tjeneste" msd="NCCSU==I">tjeneste</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="." msd="XP">.</W>
@@ -117,14 +117,14 @@
 <W lemma="romantisk" msd="ANP[CN]SU=DU">romantiske</W>
 <W lemma="balletfilosofi" msd="NCCSU==I">balletfilosofi</W>
 <W lemma="skrive" msd="VADR=----A-">skriver</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="Knud" msd="NP--U==-">Knud</W>
 <W lemma="Arne" msd="NP--U==-">Arne</W>
-<W lemma="Jürgensen" msd="NP--U==-">Jürgensen</W>
+<W lemma="JÃ¼rgensen" msd="NP--U==-">JÃ¼rgensen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="tillige" msd="RGU">tillige</W>
-<W lemma="fortælle" msd="VADR=----A-">fortæller</W>
+<W lemma="fortÃ¦lle" msd="VADR=----A-">fortÃ¦ller</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="mulighed" msd="NCCPU==D">mulighederne</W>
 <W lemma="for" msd="SP">for</W>
@@ -158,7 +158,7 @@
 <p>
 <s>
 <W lemma="hel" msd="ANP---=-R">Helt</W>
-<W lemma="undgå" msd="VAF-=----A-">undgå</W>
+<W lemma="undgÃ¥" msd="VAF-=----A-">undgÃ¥</W>
 <W lemma="gentagelse" msd="NCCPU==I">gentagelser</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -179,10 +179,10 @@
 <W lemma="Bournonville" msd="NP--G==-">Bournonvilles</W>
 <W lemma="liv" msd="NCNSU==I">liv</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="karrière" msd="NCCSU==I">karrière</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="karriÃ¨re" msd="NCCSU==I">karriÃ¨re</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="nogen" msd="PI-NSU--U">noget</W>
-<W lemma="nær" msd="RGU">nær</W>
+<W lemma="nÃ¦r" msd="RGU">nÃ¦r</W>
 <W lemma="identisk" msd="ANP[CN]PU=[DI]U">identiske</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -208,7 +208,7 @@
 <W lemma="som" msd="U=">som</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="nære" msd="VAF-=----A-">nære</W>
+<W lemma="nÃ¦re" msd="VAF-=----A-">nÃ¦re</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
@@ -247,7 +247,7 @@
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="vist" msd="RGU">vist</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="burde" msd="VADA=----A-">burde</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
 <W lemma="handle" msd="VAPA=S[CN]I[ARU]-U">handlet</W>

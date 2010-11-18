@@ -1,0 +1,213 @@
+i_dag	i/SP dag/NCCSU==I
+i_går	i/SP går/NCCSU==I
+selv_om	selv/PD-[CN][SP]U--U om/SP
+på_grund_af	på/SP grund/NCCSU==I af/SP
+i_gang	i/SP gang/NCCSU==I
+blandt_andet	blandt/SP andet/PI-NSU--U
+i_hvert_fald	i/SP hvert/PI-NSU--U fald/NCNSU==I
+i_år	i/SP år/NCNSU==I
+i_alt	i/SP alt/ANPNSU=[DI]U
+som_om	som/U= om/SP
+i_aftes	i/SP aftes/NCCSG==I
+Selv_om	Selv/PD-[CN][SP]U--U om/SP
+i_øvrigt	i/SP øvrigt/ANP---=-R
+i_morgen	i/SP morgen/NCCSU==I
+I_dag	I/SP dag/NCCSU==I
+til_gode	til/SP gode/NCNSG==I
+stort_set	stort/ANPNSU=IU set/VAPA=---R-
+af_sted	af/SP sted/NCNSU==I
+til_sidst	til/SP sidst/RGU
+i_aften	i/SP aften/NCCSU==I
+for_nylig	for/SP nylig/ANP---=-R
+I_hvert_fald	I/SP hvert/PI-NSU--U fald/NCNSU==I
+for_tiden	for/SP tiden/NCCSU==D
+med_hensyn_til	med/SP hensyn/NCNSU==I til/SP
+I_går	I/SP går/NCCSU==I
+bortset_fra	bortset/VAPA=---R-- fra/SP
+på_ny	på/SP ny/ANPCSU=IU
+om_bord	om/SP bord/NCNSU==I
+mere_eller_mindre	mere/ANC---=-R eller/CC mindre/ANC---=-R
+i_det_hele_taget	i/SP det/PP3NSU-NU hele/ANP[CN]SU=DU taget/VAPA=---R-
+i_forvejen	i/SP forvejen/NC[CN][SP]U==[DI]
+i_nat	i/SP nat/NCCSU==I
+i_årevis	i/SP årevis/NCCSU==I
+I_øvrigt	I/SP øvrigt/ANP---=-R
+Bortset_fra	Bortset/VAPA=---R- fra/SP
+Blandt_andet	Blandt/SP andet/PI-NSU--U
+simpelt_hen	simpelt/ANPNSU=IU hen/RGU
+Med_hensyn_til	Med/SP hensyn/NCNSU==I til/SP
+cand._jur.	cand.jur./NCCSU==I
+Til_sidst	Til/SP sidst/RGU
+Le_Mans-racet	Le/NP--U==- Mans/NP--U==- -/XP racet/NCNSU==D
+Le_Mans-race	Le/NP--U==- Mans/NP--U==- -/XP race/NCNSU==I
+I_morgen	I/SP morgen/NCCSU==I
+i_lørdags	i/SP lørdags/NCCSG==I
+I_år	I/SP år/NCNSU==I
+blandt_andre	blandt/SP andre/PI-[CN]PU--U
+bl._a.	bl.a./RGU
+til_fulde	til/SP fulde/NCCSG==I
+på_tide	på/SP tide/NCCSG==I
+om_end	om/SP end/CS
+i_torsdags	i/SP torsdags/NCCSG==I
+i_live	i/SP live/NCNSG==I
+hip_hop-genren	hip/XF hop/XF -/XP genren/NCCSU==D
+en_bloc	en/XF bloc/XF
+TV_2-Nyhederne	TV/NCNSU==I 2/AC---U=-- -/XP Nyhederne/NCCPU==D
+til_vejrs	til/SP vejrs/NCNSG==I
+Til_stede	Til/SP stede/NCNSG==I
+til_rette	til/SP rette/NCNSG==I
+til_huse	til/SP huse/NCNSG==I
+På_grund_af	På/SP grund/NCCSU==I af/SP
+i_går_eftermiddags	i/SP går/NCCSU==I eftermiddags/NCCSG==I
+i_fredags	i/SP fredags/NCCSG==I
+I_alt	I/SP alt/ANPNSU=[DI]U
+I_aften	I/SP aften/NCCSU==I
+for_øvrigt	for/SP øvrigt/ANP---=-R
+De_Beers-topfolk	De/XF Beers/NP--U==- -/XP topfolk/NCNPU==I
+B_1903-Silkeborg	B/XA 1903/AC---U=-- -/XP Silkeborg/NP--U==-
+100_Pfennig-frimærke	100/AC---U=-- Pfennig/NP--U==- -/XP frimærke/NCNSU==I
+til_tops	til/SP tops/NCCSG==I
+til_stede	til/SP stede/NCNSG==I
+til_fods	til/SP fods/NCCSG==I
+Røde_Kro-løjer	Røde/ANP[CN]SU=DU Kro/NCCSU==I -/XP løjer/NCCPU==I
+i_tirsdags	i/SP tirsdags/NCCSG==I
+i_timevis	i/SP timevis/NCCSU==I
+i_månedsvis	i/SP månedsvis/NCCSU==I
+i_læssevis	i/SP læssevis/NCCSU==I
+Ikke_desto_mindre	Ikke/RGU desto/RGU mindre/ANC[CN][SP]U=[DI]U
+ikke_desto_mindre	ikke/RGU desto/RGU mindre/ANC[CN][SP]U=[DI]U
+i_forkøbet	i/SP forkøbet/NCNSU==D
+I_aftes	I/SP aftes/NCCSG==I
+Gatorade-Chateau_d'Ax	Gatorade/XF -/XP Chateau/XF d'Ax/XF
+cand._psych.	cand.psych./NCCSU==I
+café_au_lait	café/XF au/XF lait/XF
+til_vægs	til/SP vægs/NCCSG==I
+til_tåls	til/SP tåls/NCCSG==I
+til_døde	til/SP døde/NCCSG==I
+til_bunds	til/SP bunds/NCCSG==I
+over_bord	over/SP bord/NCNSU==I
+med_rette	med/SP rette/NCCSG==I
+joint_venture-alliancen	joint/XF venture/XF -/XP alliancen/NCCSU==D
+joint_venture-aftalen	joint/XF venture/XF -/XP aftalen/NCCSU==D
+i_søndags	i/SP søndags/NCCSG==I
+i_sinde	i/SP sinde/NCCSG==I
+i_går_aftes	i/SP går/NCCSU==I aftes/NCCSG==I
+I_det_hele_taget	I/SP det/PP3NSU-NU hele/ANP[CN]SU=DU taget/VAPA=---R-
+Gruppe_A-serie	Gruppe/NCCSU==I A/XA -/XP serie/NCCSU==I
+dr._phil.	dr.phil./NCCSU==I
+Dansk_Idræts-Forbund	Dansk/ANP[CN]SU=IU Idræts/NCCSG==I -/XP Forbund/NCNSU==I
+charge_d'affairs	charge/XF d'affairs/XF
+Caroline_Amalie-lunden	Caroline/NP--U==- Amalie/NP--U==- -/XP lunden/NCCSU==D
+Andy_Rouse-teamet	Andy/NP--U==- Rouse/NP--U==- -/XP teamet/NCNSU==D
+Af_sted	Af/SP sted/NCNSU==I
+zweite_Kanalton-knappen	zweite/XF Kanalton/XF -/XP knappen/NCCSU==D
+Yom_Kippur-krigen	Yom/NP--U==- Kippur/NP--U==- -/XP krigen/NCCSU==D
+YOM_KIPPUR-HELT	YOM/NP--U==- KIPPUR/NP--U==- -/XP HELT/NCCSU==I
+World_Cup-turneringen	World/NP--U==- Cup/NCCSU==I -/XP turneringen/NCCSU==D
+World_Cup-takterne	World/NP--U==- Cup/NCCSU==I -/XP takterne/NCCPU==D
+Woody_Allen-film	Woody/NP--U==- Allen/NP--U==- -/XP film/NCCSU==I
+TV_2-programmet	TV/NCNSU==I 2/AC---U=-- -/XP programmet/NCNSU==D
+TV_2-bestyrelsen	TV/NCNSU==I 2/AC---U=-- -/XP bestyrelsen/NCCSU==D
+TV_2-AKTIER	TV/NCNSU==I 2/AC---U=-- -/XP AKTIER/NCCPU==I
+til_veje	til/SP veje/NCCSG==I
+til_rors	til/SP rors/NCNSG==I
+til_orde	til/SP orde/NCNSG==I
+til_lands	til/SP lands/NCNSG==I
+TIL_GODE	TIL/SP GODE/NCNSG==I
+til_bords	til/SP bords/NCNSG==I
+tidsrejser_contra_paradokser-syndromet	tidsrejser/NCCPU==I contra/SP paradokser/NCNPU==I -/XP syndromet/NCNSU==D
+tax-free_shop	tax/XF -/XP free/XF shop/XF
+Som_om	Som/U= om/SP
+"Skør_med_Klatten"-programmerne	"/XP Skør/ANPCSU=IU med/SP Klatten/NCCSU==D "/XP -/XP programmerne/NCNPU==D
+San_Camillo-hospitalet	San/NP--U==- Camillo/NP--U==- -/XP hospitalet/NCNSU==D
+Sanam_Luang-pladsen	Sanam/NP--U==- Luang/NP--U==- -/XP pladsen/NCCSU==D
+Rich._Strauss-opera	Rich./XA Strauss/NP--U==- -/XP opera/NCCSU==I
+På_ny	På/SP ny/ANPCSU=IU
+på_fode	på/SP fode/NCNSG==I
+Østre_Gasværks-grunden	Østre/ANP[CN][SP]U=[DI]U Gasværks/NCNSG==I -/XP grunden/NCCSU==D
+om_muligt	om/SP muligt/ANPNSU=IU
+Om_end	Om/SP end/CS
+Øde_ø-syndromet	Øde/ANP[CN][SP]U=[DI]U ø/NCCSU==I -/XP syndromet/NCNSU==D
+objekter/ting_der_bliver_levende-syndromet	objekter/NCNPU==I &#47;/XS ting/NCCPU==I der/U= bliver/VADR=----A- levende/ANP[CN][SP]U=[DI]U -/XP syndromet/NCNSU==D
+nu_til_dags	nu/RGU til/SP dags/NCCSG==I
+new_age-musik	new/XF age/XF -/XP musik/NCCSU==I
+Michael_Jackson-plade	Michael/NP--U==- Jackson/NP--U==- -/XP plade/NCCSU==I
+Mere_eller_mindre	Mere/ANC---=-R eller/CC mindre/ANC[CN][SP]U=[DI]U
+Magnum_44-revolver	Magnum/NP--U==- 44/AC---U=-- -/XP revolver/NCCSU==I
+M_17-holdet	M/XS 17/AC---U=-- -/XP holdet/NCNSU==D
+low_budget-præg	low/XF budget/XF -/XP præg/NCNSU==I
+lic._techn.	lic.techn./NCCSU==I
+lic._jur.	lic.jur./NCCSU==I
+Jysk_Sengetøj-koncernen	Jysk/ANP[CN]SU=IU Sengetøj/NCNSU==I -/XP koncernen/NCCSU==D
+joint_venture-selskaber	joint/XF venture/XF -/XP selskaber/NCNPU==I
+i_ugevis	i/SP ugevis/NCCSU==I
+i_tusindvis	i/SP tusindvis/NCCSU==I
+i_tide	i/SP tide/NC[CN][SP]U==[DI]
+I_søndags	I/SP søndags/NCCSG==I
+Iron_Maiden-turneer	Iron/NP--U==- Maiden/NP--U==- -/XP turneer/NCCPU==I
+i_onsdags	i/SP onsdags/NCCSG==I
+I_nat	I/SP nat/NCCSU==I
+I_mandags	I/SP mandags/NCCSG==I
+i_mandags	i/SP mandags/NCCSG==I
+I_lørdags	I/SP lørdags/NCCSG==I
+IHF_Cup-kamp	IHF/NP--U==- Cup/NCCSU==I -/XP kamp/NCCSU==I
+i_hænde	i/SP hænde/NCNSG==I
+i_går_morges	i/SP går/NCCSU==I morges/NCCSG==I
+I_forvejen	I/SP forvejen/NC[CN][SP]U==[DI]
+i_fjor	i/SP fjor/NC[CN][SP]U==[DI]
+I_eftermiddags	I/SP eftermiddags/NCCSG==I
+i_eftermiddags	i/SP eftermiddags/NCCSG==I
+i_eftermiddag	i/SP eftermiddag/NCCSU==I
+i_bunkevis	i/SP bunkevis/NCCSU==I
+I_årevis	I/SP årevis/NCCSU==I
+Holiday_Inn-hotellet	Holiday/NP--U==- Inn/NP--U==- -/XP hotellet/NCNSU==D
+Helle_Stangerup-udgivelse	Helle/NP--U==- Stangerup/NP--U==- -/XP udgivelse/NCCSU==I
+Hanne_Boel-koncert	Hanne/NP--U==- Boel/NP--U==- -/XP koncert/NCCSU==I
+Grand_Prix-deltagelser	Grand/NP--U==- Prix/NP--U==- -/XP deltagelser/NCCPU==I
+For_øvrigt	For/SP øvrigt/ANP---=-R
+For_nylig	For/SP nylig/ANP---=-R
+Formel_1-veteran	Formel/NCCSU==I 1/AC---U=-- -/XP veteran/NCCSU==I
+fast_food-generationen	fast/XF food/XF -/XP generationen/NCCSU==D
+Europa_Cup-turneringer	Europa/NP--U==- Cup/NCCSU==I -/XP turneringer/NCCPU==I
+Europa_Cup-turneringen	Europa/NP--U==- Cup/NCCSU==I -/XP turneringen/NCCSU==D
+Europa_Cup-runde	Europa/NP--U==- Cup/NCCSU==I -/XP runde/NCCSU==I
+Europa_Cup-deltagelse	Europa/NP--U==- Cup/NCCSU==I -/XP deltagelse/NCCSU==I
+en_suite	en/XF suite/XF
+Elton_John-backing	Elton/NP--U==- John/NP--U==- -/XP backing/XF
+dr._theol.	dr.theol./NCCSU==I
+dr._scient._pol.	dr.scient.pol./NCCSU==I
+dr._med.	dr.med./NCCSU==I
+"Dirty_Harry"-filmen	"/XP Dirty/XF Harry/NP--U==- "/XP -/XP filmen/NCCSU==D
+Davis_Cup-opgøret	Davis/NP--U==- Cup/NCCSU==I -/XP opgøret/NCNSU==D
+Davis_Cup-opgør	Davis/NP--U==- Cup/NCCSU==I -/XP opgør/NCNSU==I
+Cole_Porter-cabaret	Cole/NP--U==- Porter/NP--U==- -/XP cabaret/NCCSU==I
+Christian_den_Fjerde-statuette	Christian/NP--U==- den/PD-CSU--U Fjerde/AO---U=-- -/XP statuette/NCCSU==I
+Chet_Baker-tone	Chet/NP--U==- Baker/NP--U==- -/XP tone/NCCSU==I
+Charta_77-folkene	Charta/NP--U==- 77/AC---U=-- -/XP folkene/NCNPU==D
+cand._theolen	cand.theolen/NCCSU==D
+cand._polyt.	cand.polyt./NCCSU==I
+cand._merc.-eksamen	cand.merc./NCCSU==I -/XP eksamen/NCCSU==I
+cand._merc.	cand.merc./NCCSU==I
+cand._mag.	cand.mag./NCCSU==I
+Bonnie_og_Clyde-agtigt	Bonnie/NP--U==- og/CC Clyde/NP--U==- -/XP agtigt/ANP---=-R
+Boing_747-fragtmaskiner	Boing/NP--U==- 747/AC---U=-- -/XP fragtmaskiner/NCCPU==I
+"Bog_til_tiden"-princippet	"/XP Bog/NCCSU==I til/SP tiden/NCCSU==D "/XP -/XP princippet/NCNSU==D
+BMW_700-serie	BMW/NP--U==- 700/AC---U=-- -/XP serie/NCCSU==I
+Bl._a.	Bl.a./RGU
+Bjørn_Wiinblad-fad	Bjørn/NP--U==- Wiinblad/NP--U==- -/XP fad/NCNSU==I
+big_band-plade	big/XF band/NCNSU==I -/XP plade/NCCSU==I
+big_band-arrangement	big/XF band/NCNSU==I -/XP arrangement/NCNSU==I
+B_&amp;_W-direktør	B&amp;W/NP--U==- -/XP direktør/NCCSU==I
+Baltica_Holding-aktierne	Baltica/NP--U==- Holding/NP--U==- -/XP aktierne/NCCPU==D
+alt_imens	alt/ANPNSU=[DI]U imens/CS
+All_right	All/XF right/XF
+a_la_carte	a/XF la/XF carte/XF
+af_syne	af/SP syne/NCNSG==I
+Af_og_til	Af/SP og/CC til/SP
+af_og_til	af/SP og/CC til/SP
+7_pct.-gebyret	7/AC---U=-- pct./NCCPU==I -/XP gebyret/NCNSU==D
+2._december-notatet	2./AC---U=-- december/NCCSU==I -/XP notatet/NCNSU==D
+22_procent-skatten	22/AC---U=-- procent/NCCPU==I -/XP skatten/NCCSU==D
+20_års-perioden	20/AC---U=-- års/NCNSG==I -/XP perioden/NCCSU==D
+200_meter-tid	200/AC---U=-- meter/NCCPU==I -/XP tid/NCCSU==I
+120_meter-bakken	120/AC---U=-- meter/NCCPU==I -/XP bakken/NCCSU==D

@@ -42,10 +42,10 @@
 <p>
 <s>
 <W lemma="men" msd="CC">Men</W>
-<W lemma="sådan" msd="RGU">sådan</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="vilkår" msd="NCNPU==D">vilkårene</W>
-<W lemma="altså" msd="RGU">altså</W>
+<W lemma="sÃ¥dan" msd="RGU">sÃ¥dan</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="vilkÃ¥r" msd="NCNPU==D">vilkÃ¥rene</W>
+<W lemma="altsÃ¥" msd="RGU">altsÃ¥</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="herre" msd="XA">hr.</W>
 <W lemma="Fellini" msd="NP--U==-">Fellini</W>
@@ -56,16 +56,16 @@
 <s>
 <W lemma="filminteresseret" msd="ANP[CN]PU=[DI]U">Filminteresserede</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="dyb" msd="ANC[CN][SP]U=[DI]U">dybere</W>
 <W lemma="indblik" msd="NCNSU==I">indblik</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="problemstilling" msd="NCCSU==D">problemstillingen</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="DR" msd="NP--U==-">DR</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="torsdag" msd="NCCSU==I">torsdag</W>
 <W lemma="sende" msd="VADR=----A-">sender</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -74,7 +74,7 @@
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="instruktør" msd="NCCSG==D">instruktørens</W>
+<W lemma="instruktÃ¸r" msd="NCCSG==D">instruktÃ¸rens</W>
 <W lemma="film" msd="NCCPU==I">film</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
@@ -85,9 +85,9 @@
 <p>
 <s>
 <W lemma="film" msd="NCCSU==D">Filmen</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
-<W lemma="førstepris" msd="NCCSU==D">førsteprisen</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¸rstepris" msd="NCCSU==D">fÃ¸rsteprisen</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="filmfestival" msd="NCCSU==D">filmfestivalen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Moskva" msd="NP--U==-">Moskva</W>
@@ -107,17 +107,17 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="30er" msd="NCCPU==D">30erne</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="drøm" msd="NCCPU==I">drømme</W>
+<W lemma="drÃ¸m" msd="NCCPU==I">drÃ¸mme</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="gå" msd="VAF-=----A-">gå</W>
+<W lemma="gÃ¥" msd="VAF-=----A-">gÃ¥</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="film" msd="NCCSU==D">filmen</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="vis" msd="ANPCSU=IU">vis</W>
-<W lemma="instruktør-herre" msd="NCCSU==I">instruktør-herre</W>
+<W lemma="instruktÃ¸r-herre" msd="NCCSU==I">instruktÃ¸r-herre</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -127,7 +127,7 @@
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="interviewe" msd="VAF-=----A-">interviewe</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="berømt" msd="ANP[CN]SU=IU">berømt</W>
+<W lemma="berÃ¸mt" msd="ANP[CN]SU=IU">berÃ¸mt</W>
 <W lemma="filmdiva" msd="NCCSU==I">filmdiva</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="tage" msd="VADR=----A-">tager</W>
@@ -143,9 +143,9 @@
 <s>
 <W lemma="og" msd="CC">Og</W>
 <W lemma="her" msd="RGU">her</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="film" msd="NCCSG==D">filmens</W>
 <W lemma="perle" msd="NCCSU==I">perle</W>
 <W lemma=":" msd="XP">:</W>
@@ -155,8 +155,8 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="allerede" msd="RGU">allerede</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="gå" msd="VAPA=S[CN]I[ARU]-U">gået</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="gÃ¥" msd="VAPA=S[CN]I[ARU]-U">gÃ¥et</W>
 <W lemma="over" msd="RGU">over</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="filmhistorie" msd="NCCSU==D">filmhistorien</W>
@@ -166,7 +166,7 @@
 <W lemma="Fellini" msd="NP--U==-">Fellini</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="Mastroianni" msd="NP--U==-">Mastroianni</W>
-<W lemma="opsøge" msd="VADR=----A-">opsøger</W>
+<W lemma="opsÃ¸ge" msd="VADR=----A-">opsÃ¸ger</W>
 <W lemma="Anita" msd="NP--U==-">Anita</W>
 <W lemma="Ekberg" msd="NP--U==-">Ekberg</W>
 <W lemma="," msd="XP">,</W>
@@ -182,7 +182,7 @@
 <W lemma="indspille" msd="VADA=----A-">indspillede</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="den" msd="PD-NSU--U">Det</W>
-<W lemma="sød" msd="ANP[CN]SU=DU">søde</W>
+<W lemma="sÃ¸d" msd="ANP[CN]SU=DU">sÃ¸de</W>
 <W lemma="liv" msd="NCNSU==I">liv</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="." msd="XP">.</W>
@@ -192,7 +192,7 @@
 <s>
 <W lemma="og" msd="CC">Og</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="nogen" msd="PI-NSU--U">noget</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="en" msd="XX">en</W>
@@ -207,7 +207,7 @@
 <W lemma="mange" msd="ANC[CN]PU=[DI]U">flere</W>
 <W lemma="generation" msd="NCCPU==I">generationer</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="mand" msd="NCCPU==I">mænd</W>
+<W lemma="mand" msd="NCCPU==I">mÃ¦nd</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="forvandle" msd="VAPA=S[CN]I[ARU]-U">forvandlet</W>
@@ -226,8 +226,8 @@
 <W lemma="sin" msd="PO3NSUSYU">sit</W>
 <W lemma="liv" msd="NCNSU==I">liv</W>
 <W lemma="gemme" msd="VAPA=S[CN]I[ARU]-U">gemt</W>
-<W lemma="væk" msd="RGU">væk</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="vÃ¦k" msd="RGU">vÃ¦k</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="fortlignende" msd="ANP[CN][SP]U=[DI]U">fortlignende</W>
 <W lemma="," msd="XP">,</W>
@@ -245,10 +245,10 @@
 <W lemma="fortid" msd="NCCSU==D">fortiden</W>
 <W lemma="sammen" msd="RGU">sammen</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="en" msd="PI-NSU--U">ét</W>
+<W lemma="en" msd="PI-NSU--U">Ã©t</W>
 <W lemma="billede" msd="NCNSU==I">billede</W>
 <W lemma="se" msd="VADR=----A-">ser</W>
 <W lemma="Ekberg" msd="NP--U==-">Ekberg</W>
@@ -256,7 +256,7 @@
 <W lemma="Mastroianni" msd="NP--U==-">Mastroianni</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="27" msd="AC---U=--">27</W>
-<W lemma="år" msd="NCNPG==I">års</W>
+<W lemma="Ã¥r" msd="NCNPG==I">Ã¥rs</W>
 <W lemma="interval" msd="NCNSU==I">interval</W>
 <W lemma="." msd="XP">.</W>
 </s>

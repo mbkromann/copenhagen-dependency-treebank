@@ -41,21 +41,21 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="ifølge" msd="SP">Iflg.</W>
-<W lemma="direktør" msd="NCCSU==I">direktør</W>
+<W lemma="ifÃ¸lge" msd="SP">Iflg.</W>
+<W lemma="direktÃ¸r" msd="NCCSU==I">direktÃ¸r</W>
 <W lemma="Volker" msd="NP--U==-">Volker</W>
-<W lemma="Köster" msd="NP--G==-">Kösters</W>
+<W lemma="KÃ¶ster" msd="NP--G==-">KÃ¶sters</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="telesport" msd="NCCSU==I">Telesport</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="tysk-schweizisk" msd="ANP[CN]SU=IU">tysk-schweizisk</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="fodboldkøbmandsvirksomhed" msd="NCCSU==I">fodboldkøbmandsvirksomhed</W>
+<W lemma="fodboldkÃ¸bmandsvirksomhed" msd="NCCSU==I">fodboldkÃ¸bmandsvirksomhed</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="speciale" msd="NCNSU==I">speciale</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="køb" msd="NCNSU==I">køb</W>
+<W lemma="kÃ¸b" msd="NCNSU==I">kÃ¸b</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="salg" msd="NCNSU==I">salg</W>
 <W lemma="af" msd="SP">af</W>
@@ -64,7 +64,7 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="tysk" msd="ANP[CN]SU=DU">tyske</W>
-<W lemma="EF-industrikommissær" msd="NCCSU==I">EF-industrikommissær</W>
+<W lemma="EF-industrikommissÃ¦r" msd="NCCSU==I">EF-industrikommissÃ¦r</W>
 <W lemma="Martin" msd="NP--U==-">Martin</W>
 <W lemma="Bangemann" msd="NP--U==-">Bangemann</W>
 <W lemma="skriftlig" msd="ANP---=-R">skriftligt</W>
@@ -76,14 +76,14 @@
 <W lemma="14" msd="AC---U=--">14</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-CSU--U">Den</W>
-<W lemma="europæisk" msd="ANP[CN]SU=DU">Europæiske</W>
+<W lemma="europÃ¦isk" msd="ANP[CN]SU=DU">EuropÃ¦iske</W>
 <W lemma="fodboldunion" msd="NCCSG==I">Fodboldunions</W>
 <W lemma="lov" msd="NCCPU==I">love</W>
-<W lemma="vedrørende" msd="SP">vedrørende</W>
+<W lemma="vedrÃ¸rende" msd="SP">vedrÃ¸rende</W>
 <W lemma="tv-" msd="XX">tv-</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="radiotransmission" msd="NCCPU==I">radiotransmissioner</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ulovlig" msd="ANPCSU=IU">ulovlig</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -92,17 +92,17 @@
 <W lemma="udvikling" msd="NCCSU==I">udvikling</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="undervejs" msd="RGU">undervejs</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="mange" msd="ANC[CN]PU=[DI]U">flere</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="dansk" msd="ANP[CN]PU=[DI]U">danske</W>
 <W lemma="fodboldleder" msd="NCCPU==I">fodboldledere</W>
 <W lemma="bekendt" msd="ANP[CN]SU=IU">bekendt</W>
@@ -129,8 +129,8 @@
 <W lemma="UEFA-regie" msd="NCNSU==I">UEFA-regie</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="europæisk" msd="ANP[CN]PU=[DI]U">europæiske</W>
-<W lemma="område" msd="NCNPU==I">områder</W>
+<W lemma="europÃ¦isk" msd="ANP[CN]PU=[DI]U">europÃ¦iske</W>
+<W lemma="omrÃ¥de" msd="NCNPU==I">omrÃ¥der</W>
 <W lemma="uden" msd="SP">uden</W>
 <W lemma="godkendelse" msd="NCCSU==I">godkendelse</W>
 <W lemma="af" msd="SP">af</W>
@@ -144,9 +144,9 @@
 <W lemma="den" msd="PD-CSU--U">Den</W>
 <W lemma="regel" msd="NCCSU==I">regel</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="EF-kommissær" msd="NCCSU==D">EF-kommissæren</W>
+<W lemma="EF-kommissÃ¦r" msd="NCCSU==D">EF-kommissÃ¦ren</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
-<W lemma="ophæve" msd="VAPA=S[CN]I[ARU]-U">ophævet</W>
+<W lemma="ophÃ¦ve" msd="VAPA=S[CN]I[ARU]-U">ophÃ¦vet</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
@@ -157,7 +157,7 @@
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="krav" msd="NCNSU==I">krav</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="10" msd="AC---U=--">10</W>
 <W lemma="million" msd="NCCPU==I">mio.</W>
 <W lemma="schweizerfranc" msd="NCCPU==I">schweizerfranc</W>
@@ -175,13 +175,13 @@
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="EF-domstol" msd="NCCSU==D">EF-domstolen</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="tilfælde" msd="NCNPU==I">tilfælde</W>
+<W lemma="tilfÃ¦lde" msd="NCNPU==I">tilfÃ¦lde</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="overskridelse" msd="NCCSU==I">overskridelse</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADA=----A-">sagde</W>
-<W lemma="Köster" msd="NP--G==-">Kösters</W>
+<W lemma="KÃ¶ster" msd="NP--G==-">KÃ¶sters</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="kontor" msd="NCNSU==D">kontoret</W>
 <W lemma="i" msd="SP">i</W>
@@ -197,7 +197,7 @@
 <W lemma="tvinge" msd="VADR=----P-">tvinges</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="følge" msd="VAF-=----A-">følge</W>
+<W lemma="fÃ¸lge" msd="VAF-=----A-">fÃ¸lge</W>
 <W lemma="EF-regel" msd="NCCPU==D">EF-reglerne</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
@@ -208,10 +208,10 @@
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="udland" msd="NCNSU==D">udlandet</W>
 <W lemma="kunne" msd="VAF-=----A-">kunne</W>
-<W lemma="sælge" msd="VAF-=----P-">sælges</W>
+<W lemma="sÃ¦lge" msd="VAF-=----P-">sÃ¦lges</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="høj" msd="ANS---=-R">højest</W>
+<W lemma="hÃ¸j" msd="ANS---=-R">hÃ¸jest</W>
 <W lemma="byde" msd="VAPR=[SP][CN][DI]A-U">bydende</W>
 <W lemma="uden" msd="SP">uden</W>
 <W lemma="," msd="XP">,</W>

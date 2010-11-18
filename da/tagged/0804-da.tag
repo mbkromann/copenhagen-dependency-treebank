@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'NATO drøfter at udvide sin rolle'</title>
+        <title>Tagged sample of: 'NATO drÃ¸fter at udvide sin rolle'</title>
       </titleStmt>
       <extent words=163>163 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>NATO drøfter at udvide sin rolle</title>
+            <title>NATO drÃ¸fter at udvide sin rolle</title>
             <author gender=m born=1961>Nielsen, Ole Bang</author>
           </analytic>
           <monogr>
@@ -43,7 +43,7 @@
 <s>
 <W lemma="NATO" msd="NP--U==-">NATO</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="hollandsk" msd="ANP[CN]SU=IU">hollandsk</W>
 <W lemma="initiativ" msd="NCNSU==I">initiativ</W>
 <W lemma="indlede" msd="VAPA=S[CN]I[ARU]-U">indledt</W>
@@ -57,12 +57,12 @@
 <W lemma="stille" msd="VAF-=----A-">stille</W>
 <W lemma="styrke" msd="NCCPU==I">styrker</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="rådighed" msd="NCCSU==I">rådighed</W>
+<W lemma="rÃ¥dighed" msd="NCCSU==I">rÃ¥dighed</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="fredsbevarende" msd="ANP[CN][SP]U=[DI]U">fredsbevarende</W>
 <W lemma="aktion" msd="NCCPU==I">aktioner</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Østeuropa" msd="NP--U==-">Østeuropa</W>
+<W lemma="Ã˜steuropa" msd="NP--U==-">Ã˜steuropa</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="led" msd="NCNSU==I">led</W>
@@ -89,7 +89,7 @@
 <W lemma="Herald" msd="NP--U==-">Herald</W>
 <W lemma="Tribune" msd="NP--U==-">Tribune</W>
 <W lemma="skrive" msd="VADA=----A-">skrev</W>
-<W lemma="i_går" msd="RGU">i_går</W>
+<W lemma="i_gÃ¥r" msd="RGU">i_gÃ¥r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="der" msd="U=">der</W>
@@ -98,9 +98,9 @@
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="beslutning" msd="NCCSU==I">beslutning</W>
 <W lemma="herom" msd="RGU">herom</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="NATO-udenrigsministermøde" msd="NCNSU==I">NATO-udenrigsministermøde</W>
+<W lemma="NATO-udenrigsministermÃ¸de" msd="NCNSU==I">NATO-udenrigsministermÃ¸de</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Oslo" msd="NP--U==-">Oslo</W>
 <W lemma="i" msd="SP">i</W>
@@ -124,13 +124,13 @@
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="blive" msd="VAF-=----A-">blive</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
-<W lemma="længerevarende" msd="ANP[CN][SP]U=[DI]U">længerevarende</W>
+<W lemma="lÃ¦ngerevarende" msd="ANP[CN][SP]U=[DI]U">lÃ¦ngerevarende</W>
 <W lemma="diskussion" msd="NCCPU==I">diskussioner</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="før" msd="CS">før</W>
+<W lemma="fÃ¸r" msd="CS">fÃ¸r</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="eventuel" msd="ANP---=-R">eventuelt</W>
-<W lemma="træffe" msd="VADR=----P-">træffes</W>
+<W lemma="trÃ¦ffe" msd="VADR=----P-">trÃ¦ffes</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="beslutning" msd="NCCSU==I">beslutning</W>
 <W lemma="." msd="XP">.</W>
@@ -139,16 +139,16 @@
 <p>
 <s>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="spørgsmål" msd="NCNSU==D">Spørgsmålet</W>
+<W lemma="spÃ¸rgsmÃ¥l" msd="NCNSU==D">SpÃ¸rgsmÃ¥let</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="genstand" msd="NCCSU==I">genstand</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="diskussion" msd="NCCPU==I">diskussioner</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="for" msd="RGU">for</W>
 <W lemma="tidlig" msd="ANP---=-R">tidligt</W>
 <W lemma="at" msd="U=">at</W>
@@ -167,18 +167,18 @@
 <s>
 <W lemma="den" msd="PD-CSU--U">Den</W>
 <W lemma="hollandsk" msd="ANP[CN]SU=DU">hollandske</W>
-<W lemma="idé" msd="NCCSU==I">idé</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="idÃ©" msd="NCCSU==I">idÃ©</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="NATO" msd="NP--U==-">NATO</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="eneste" msd="ANP[CN][SP]U=[DI]U">eneste</W>
 <W lemma="organisation" msd="NCCSU==I">organisation</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="stand" msd="NCCSU==I">stand</W>
 <W lemma="til" msd="SP">til</W>
@@ -199,27 +199,27 @@
 </s>
 <s>
 <W lemma="NATO" msd="NP--U==-">NATO</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="i_gang" msd="RGU">i_gang</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="opbygning" msd="NCCSU==D">opbygningen</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="militær" msd="ANPNSU=IU">militært</W>
+<W lemma="militÃ¦r" msd="ANPNSU=IU">militÃ¦rt</W>
 <W lemma="udrykningskorps" msd="NCNSU==I">udrykningskorps</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="få" msd="ANP[CN]PU=[DI]U">få</W>
+<W lemma="fÃ¥" msd="ANP[CN]PU=[DI]U">fÃ¥</W>
 <W lemma="dag" msd="NCCPG==I">dages</W>
 <W lemma="varsel" msd="NCNSU==I">varsel</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="sætte" msd="VAF-=----P-">sættes</W>
+<W lemma="sÃ¦tte" msd="VAF-=----P-">sÃ¦ttes</W>
 <W lemma="ind" msd="RGU">ind</W>
 <W lemma="overalt" msd="RGU">overalt</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="alliance" msd="NCCSG==D">alliancens</W>
-<W lemma="område" msd="NCNSU==I">område</W>
+<W lemma="omrÃ¥de" msd="NCNSU==I">omrÃ¥de</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Europa" msd="NP--U==-">Europa</W>
 <W lemma="." msd="XP">.</W>
@@ -234,7 +234,7 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="hurtig" msd="ANPCSU=IU">hurtig</W>
-<W lemma="indsættelse" msd="NCCSU==I">indsættelse</W>
+<W lemma="indsÃ¦ttelse" msd="NCCSU==I">indsÃ¦ttelse</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="fredsbevarende" msd="ANP[CN][SP]U=[DI]U">fredsbevarende</W>
 <W lemma="aktion" msd="NCCPU==I">aktioner</W>

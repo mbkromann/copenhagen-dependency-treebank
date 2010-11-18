@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Stor efterspørgsel på kurser til ufaglær'</title>
+        <title>Tagged sample of: 'Stor efterspÃ¸rgsel pÃ¥ kurser til ufaglÃ¦r'</title>
       </titleStmt>
       <extent words=155>155 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Stor efterspørgsel på kurser til ufaglær</title>
+            <title>Stor efterspÃ¸rgsel pÃ¥ kurser til ufaglÃ¦r</title>
             <author gender=m>Andersen, Peter</author>
           </analytic>
           <monogr>
@@ -41,10 +41,10 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="også" msd="RGU">Også</W>
+<W lemma="ogsÃ¥" msd="RGU">OgsÃ¥</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="stat" msd="NCCSU==D">staten</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ordning" msd="NCCSU==D">ordningen</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="rimelig" msd="ANPCSU=IU">rimelig</W>
@@ -73,10 +73,10 @@
 </s>
 <s>
 <W lemma="desuden" msd="RGU">Desuden</W>
-<W lemma="påpege" msd="VADR=----A-">påpeger</W>
-<W lemma="LO-sekretær" msd="NCCSU==I">LO-sekretær</W>
+<W lemma="pÃ¥pege" msd="VADR=----A-">pÃ¥peger</W>
+<W lemma="LO-sekretÃ¦r" msd="NCCSU==I">LO-sekretÃ¦r</W>
 <W lemma="Nina" msd="NP--U==-">Nina</W>
-<W lemma="Ærenlund" msd="NP--U==-">Ærenlund</W>
+<W lemma="Ã†renlund" msd="NP--U==-">Ã†renlund</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="gevinst" msd="NCCSU==I">gevinst</W>
 <W lemma="," msd="XP">,</W>
@@ -84,14 +84,14 @@
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="umiddelbar" msd="ANP---=-R">umiddelbart</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="gøre" msd="VAF-=----P-">gøres</W>
+<W lemma="gÃ¸re" msd="VAF-=----P-">gÃ¸res</W>
 <W lemma="op" msd="RGU">op</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="penge" msd="NCCPU==I">penge</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="ansætte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
+<W lemma="ansÃ¦tte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
 <W lemma="god" msd="ANC---=-R">bedre</W>
 <W lemma="ruste" msd="VAPA=S[CN]I[ARU]-U">rustet</W>
@@ -111,7 +111,7 @@
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="række" msd="NCCSU==I">række</W>
+<W lemma="rÃ¦kke" msd="NCCSU==I">rÃ¦kke</W>
 <W lemma="offentlig" msd="ANP[CN]PU=[DI]U">offentlige</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
@@ -134,7 +134,7 @@
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="Fibertex" msd="NP--U==-">Fibertex</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Ålborg" msd="NP--U==-">Ålborg</W>
+<W lemma="Ã…lborg" msd="NP--U==-">Ã…lborg</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="hovedrolle" msd="NCCSU==D">hovedrollen</W>
@@ -158,38 +158,38 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="ordning" msd="NCCSU==D">ordningen</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="altså" msd="RGU">altså</W>
-<W lemma="gøre" msd="VAF-=----A-">gøre</W>
+<W lemma="altsÃ¥" msd="RGU">altsÃ¥</W>
+<W lemma="gÃ¸re" msd="VAF-=----A-">gÃ¸re</W>
 <W lemma="den" msd="PP3CSU-NU">den</W>
 <W lemma="endnu" msd="RGU">endnu</W>
 <W lemma="meget" msd="ANC---=-R">mere</W>
-<W lemma="populær" msd="ANPCSU=IU">populær</W>
+<W lemma="populÃ¦r" msd="ANPCSU=IU">populÃ¦r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="12" msd="AC---U=--">12</W>
-<W lemma="ansætte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="ansÃ¦tte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="virksomhed" msd="NCCSU==D">virksomheden</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="få" msd="VAPA=S[CN]I[ARU]-U">fået</W>
+<W lemma="fÃ¥" msd="VAPA=S[CN]I[ARU]-U">fÃ¥et</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="jobtilbud" msd="NCNSU==I">jobtilbud</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="syv" msd="AC---U=--">syv</W>
-<W lemma="måned" msd="NCCPU==I">måneder</W>
+<W lemma="mÃ¥ned" msd="NCCPU==I">mÃ¥neder</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="mens" msd="CS">mens</W>
 <W lemma="120" msd="AC---U=--">120</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="virksomhed" msd="NCCSG==D">virksomhedens</W>
-<W lemma="ufaglært" msd="ANP[CN]PU=[DI]U">ufaglærte</W>
+<W lemma="ufaglÃ¦rt" msd="ANP[CN]PU=[DI]U">ufaglÃ¦rte</W>
 <W lemma="medarbejder" msd="NCCPU==I">medarbejdere</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="kursus" msd="NCNSU==I">kursus</W>
 <W lemma="i_alt" msd="RGU">i_alt</W>
 <W lemma="fra" msd="SP">fra</W>
@@ -206,24 +206,24 @@
 <W lemma="som" msd="U=">som</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="sidegevinst" msd="NCCSU==I">sidegevinst</W>
-<W lemma="påpege" msd="VADR=----A-">påpeger</W>
-<W lemma="fællestillidsmand" msd="NCCSU==I">fællestillidsmand</W>
+<W lemma="pÃ¥pege" msd="VADR=----A-">pÃ¥peger</W>
+<W lemma="fÃ¦llestillidsmand" msd="NCCSU==I">fÃ¦llestillidsmand</W>
 <W lemma="Palle" msd="NP--U==-">Palle</W>
 <W lemma="Ahle" msd="NP--U==-">Ahle</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="ansætte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
-<W lemma="lære" msd="VADA=----A-">lærte</W>
+<W lemma="ansÃ¦tte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
+<W lemma="lÃ¦re" msd="VADA=----A-">lÃ¦rte</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="langtidsledig" msd="ANP[CN]PU=[DI]U">langtidsledige</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="anden" msd="PI-NSU--U">andet</W>
 <W lemma="end" msd="CS">end</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="gruppe" msd="NCCSU==I">gruppe</W>
-<W lemma="løntrykker" msd="NCCPU==I">løntrykkere</W>
+<W lemma="lÃ¸ntrykker" msd="NCCPU==I">lÃ¸ntrykkere</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="ikke" msd="RGU">ikke</W>

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+w=$1
+egrep -i "<W.*>$w</W>" ~/cdt/da/*.tag ~/cdt/da/tagged/*.tag | sed -e 's/^.*msd="\([^"]*\)".*$/\1/g' | sort | uniq -c | sort -nr

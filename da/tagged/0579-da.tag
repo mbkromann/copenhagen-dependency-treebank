@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Guide Valdemars Slot Herregårdsmuseum'</title>
+        <title>Tagged sample of: 'Guide Valdemars Slot HerregÃ¥rdsmuseum'</title>
       </titleStmt>
       <extent words=152>152 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Guide Valdemars Slot Herregårdsmuseum<title>
+            <title>Guide Valdemars Slot HerregÃ¥rdsmuseum<title>
                <author>Valdemars Slot</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <date>1988</date>
@@ -52,17 +52,17 @@
 <p>
 <s>
 <W lemma="her" msd="RGU">Her</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="De" msd="PP2C[SP]N-NP">De</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="indtryk" msd="NCNSU==I">indtryk</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="imponerende" msd="ANP[CN][SP]U=[DI]U">imponerende</W>
-<W lemma="tømmer-konstruktion" msd="NCCSU==I">tømmer-konstruktion</W>
+<W lemma="tÃ¸mmer-konstruktion" msd="NCCSU==I">tÃ¸mmer-konstruktion</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="bære" msd="VADR=----A-">bærer</W>
+<W lemma="bÃ¦re" msd="VADR=----A-">bÃ¦rer</W>
 <W lemma="Valdemar" msd="NP--G==-">Valdemars</W>
 <W lemma="slot" msd="NCNSG==I">Slots</W>
 <W lemma="stor" msd="ANP[CN]SU=DU">store</W>
@@ -71,37 +71,37 @@
 </s>
 <s>
 <W lemma="den" msd="PD-[CN]PU--U">De</W>
-<W lemma="nuværende" msd="ANP[CN][SP]U=[DI]U">nuværende</W>
+<W lemma="nuvÃ¦rende" msd="ANP[CN][SP]U=[DI]U">nuvÃ¦rende</W>
 <W lemma="skifer-plade" msd="NCCPU==I">skifer-plader</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="tag" msd="NCNSU==D">taget</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="lægge" msd="VAPA=S[CN]I[ARU]-U">lagt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="lÃ¦gge" msd="VAPA=S[CN]I[ARU]-U">lagt</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="forrige" msd="ANP[CN][SP]U=[DI]U">forrige</W>
-<W lemma="århundrede" msd="NCNSU==I">århundrede</W>
+<W lemma="Ã¥rhundrede" msd="NCNSU==I">Ã¥rhundrede</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
-<W lemma="tømmer" msd="NCNSU==D">tømmeret</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="tÃ¸mmer" msd="NCNSU==D">tÃ¸mmeret</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="oprindelig" msd="ANP[CN]SU=DU">oprindelige</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="Christian" msd="NP--U==-">Christian</W>
 <W lemma="4." msd="AO---G=--">4.s</W>
-<W lemma="renæssanceslot" msd="NCNSU==I">renæssanceslot</W>
+<W lemma="renÃ¦ssanceslot" msd="NCNSU==I">renÃ¦ssanceslot</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="altså" msd="RGU">altså</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="altsÃ¥" msd="RGU">altsÃ¥</W>
 <W lemma="350" msd="AC---U=--">350</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="gammel" msd="ANPNSU=IU">gammelt</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="gå" msd="VAM-=------">Gå</W>
+<W lemma="gÃ¥" msd="VAM-=------">GÃ¥</W>
 <W lemma="tilbage" msd="RGU">tilbage</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="ned" msd="RGU">ned</W>
@@ -112,7 +112,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="fortsætte" msd="VAM-=------">Fortsæt</W>
+<W lemma="fortsÃ¦tte" msd="VAM-=------">FortsÃ¦t</W>
 <W lemma="mod" msd="SP">mod</W>
 <W lemma="venstre" msd="NCNSU==I">venstre</W>
 <W lemma="til" msd="SP">til</W>
@@ -136,7 +136,7 @@
 <p>
 <s>
 <W lemma="stue" msd="NCCSU==D">Stuen</W>
-<W lemma="præge" msd="VADR=----P-">præges</W>
+<W lemma="prÃ¦ge" msd="VADR=----P-">prÃ¦ges</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="barok-himmelseng" msd="NCCPU==I">barok-himmelsenge</W>
@@ -147,7 +147,7 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="rejseseng" msd="NCCPU==I">rejsesenge</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
@@ -160,24 +160,24 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="karet" msd="NCCPU==D">kareterne</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="herskab" msd="NCNSU==D">herskabet</W>
 <W lemma="tage" msd="VADA=----A-">tog</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="langfart" msd="NCCSU==I">langfart</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="fjerprydelse" msd="NCCPU==D">Fjerprydelserne</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="top" msd="NCCSU==D">toppen</W>
 <W lemma="svare" msd="VADR=----A-">svarer</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="fjer" msd="NCCPU==I">fjer</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="mand" msd="NCCPU==D">mændene</W>
-<W lemma="bære" msd="VADA=----A-">bar</W>
+<W lemma="mand" msd="NCCPU==D">mÃ¦ndene</W>
+<W lemma="bÃ¦re" msd="VADA=----A-">bar</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
 <W lemma="hat" msd="NCCPU==I">hatte</W>
@@ -185,8 +185,8 @@
 </s>
 <s>
 <W lemma="seng" msd="NCCPG==D">Sengenes</W>
-<W lemma="omhæng" msd="NCNPU==I">omhæng</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="omhÃ¦ng" msd="NCNPU==I">omhÃ¦ng</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="blive" msd="VAPA=S[CN]I[ARU]-U">blevet</W>
 <W lemma="forny" msd="VAPA=S[CN]I[ARU]-U">fornyet</W>
 <W lemma="i" msd="SP">i</W>
@@ -204,28 +204,28 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="stofbetrukken" msd="ANP[CN]SU=DU">stofbetrukne</W>
-<W lemma="lågkiste" msd="NCCSU==I">lågkiste</W>
+<W lemma="lÃ¥gkiste" msd="NCCSU==I">lÃ¥gkiste</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="drevet" msd="ANP[CN]PU=[DI]U">drevne</W>
 <W lemma="jernbeslag" msd="NCNPU==I">jernbeslag</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="omkring" msd="SP">omkring</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="1700" msd="AC---U=--">1700</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="den" msd="PD-CSU--U">Den</W>
 <W lemma="rig" msd="ANP---=-R">rigt</W>
-<W lemma="udskære" msd="VAPA=SCDA-U">udskårne</W>
+<W lemma="udskÃ¦re" msd="VAPA=SCDA-U">udskÃ¥rne</W>
 <W lemma="barokkonsol" msd="NCCSU==I">barokkonsol</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="tilhøre" msd="VAPR=[SP][CN][DI]A-U">tilhørende</W>
+<W lemma="tilhÃ¸re" msd="VAPR=[SP][CN][DI]A-U">tilhÃ¸rende</W>
 <W lemma="spejl" msd="NCNSU==I">spejl</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="sydeuropæisk" msd="ANP[CN]SU=IU">sydeuropæisk</W>
+<W lemma="sydeuropÃ¦isk" msd="ANP[CN]SU=IU">sydeuropÃ¦isk</W>
 <W lemma="oprindelse" msd="NCCSU==I">oprindelse</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -239,7 +239,7 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="ovnplads" msd="NCCPU==D">ovnpladserne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="tilskrive" msd="VAPA=S[CN]I[ARU]-U">tilskrevet</W>
 <W lemma="hofmaler" msd="NCCSU==D">hofmaleren</W>
 <W lemma="C." msd="NP--U==-">C.</W>
@@ -252,9 +252,9 @@
 <s>
 <W lemma="fra" msd="SP">Fra</W>
 <W lemma="kirkestue" msd="NCCSU==D">kirkestuen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="dør" msd="NCCSU==I">dør</W>
+<W lemma="dÃ¸r" msd="NCCSU==I">dÃ¸r</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="herskabsstol" msd="NCCSU==D">herskabsstolen</W>

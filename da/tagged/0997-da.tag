@@ -46,56 +46,56 @@
 <W lemma="at" msd="U=">at</W>
 <W lemma="kombinere" msd="VAF-=----A-">kombinere</W>
 <W lemma="rejse" msd="NCCSU==D">rejsen</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="forskellig" msd="ANPCSU=IU">forskellig</W>
 <W lemma="vis" msd="NCCSU==I">vis</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="den" msd="PD-CSU--U">Den</W>
-<W lemma="nævne" msd="VAPA=S[CN]DA-U">nævnte</W>
+<W lemma="nÃ¦vne" msd="VAPA=S[CN]DA-U">nÃ¦vnte</W>
 <W lemma="pris" msd="NCCSU==I">pris</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="197" msd="AC---U=--">197</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="voksen" msd="ANPCSU=IU">voksen</W>
 <W lemma="person" msd="NCCSU==I">person</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="KatExpress" msd="NP--G==-">KatExpress'</W>
 <W lemma="turistklasse" msd="NCCSU==I">turistklasse</W>
 <W lemma="kombinere" msd="VAPA=S[CN]I[ARU]-U">kombineret</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="DSB-billet" msd="NCCSU==I">DSB-billet</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="2." msd="AO---U=--">2.</W>
 <W lemma="klasse" msd="NCCSU==I">klasse</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="barn" msd="NCNPU==I">Børn</W>
+<W lemma="barn" msd="NCNPU==I">BÃ¸rn</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="fire" msd="AC---U=--">fire</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="rejse" msd="VADR=----A-">rejser</W>
 <W lemma="gratis" msd="ANP---=-R">gratis</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="mens" msd="CS">mens</W>
-<W lemma="barn" msd="NCNPU==I">børn</W>
+<W lemma="barn" msd="NCNPU==I">bÃ¸rn</W>
 <W lemma="op" msd="RGU">op</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="11" msd="AC---U=--">11</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="komme" msd="VADR=----A-">kommer</W>
 <W lemma="med" msd="RGU">med</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="samme" msd="ANP[CN][SP]U=[DI]U">samme</W>
-<W lemma="vilkår" msd="NCNPU==I">vilkår</W>
+<W lemma="vilkÃ¥r" msd="NCNPU==I">vilkÃ¥r</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="98" msd="AC---U=--">98</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
@@ -104,7 +104,7 @@
 </p>
 <p>
 <s>
-<W lemma="på" msd="SP">På</W>
+<W lemma="pÃ¥" msd="SP">PÃ¥</W>
 <W lemma="rute" msd="NCCSG==D">rutens</W>
 <W lemma="business-class" msd="NCCSU==I">business-class</W>
 <W lemma="kombinere" msd="VAPA=S[CN]I[ARU]-U">kombineret</W>
@@ -114,7 +114,7 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="1." msd="AO---U=--">1.</W>
 <W lemma="klasse" msd="NCCSU==I">klasse</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="pris" msd="NCCSU==D">prisen</W>
 <W lemma="henholdsvis" msd="RGU">henholdsvis</W>
 <W lemma="277" msd="AC---U=--">277</W>
@@ -133,14 +133,14 @@
 <W lemma="mange" msd="ANC[CN]PU=[DI]U">flere</W>
 <W lemma="gang" msd="NCCPU==I">gange</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="måned" msd="NCCSU==D">måneden</W>
+<W lemma="mÃ¥ned" msd="NCCSU==D">mÃ¥neden</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="penge" msd="NCCPU==I">penge</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="spare" msd="VAF-=----A-">spare</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="10-tur" msd="NCCSG==I">10-turs</W>
 <W lemma="kort" msd="NCNSU==I">kort</W>
@@ -149,7 +149,7 @@
 <W lemma="koste" msd="VADR=----A-">koster</W>
 <W lemma="1.080" msd="AC---U=--">1.080</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="turistklasse" msd="NCCSU==I">turistklasse</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -160,8 +160,8 @@
 <W lemma="10-turskort" msd="NCNSU==I">10-turskort</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="tog" msd="NCNSU==D">toget</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="Sjælland" msd="NP--U==-">Sjælland</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="SjÃ¦lland" msd="NP--U==-">SjÃ¦lland</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="koste" msd="VADR=----A-">koster</W>
@@ -175,7 +175,7 @@
 <W lemma="som" msd="U=">Som</W>
 <W lemma="hos" msd="SP">hos</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="øvrig" msd="ANP[CN]PU=[DI]U">øvrige</W>
+<W lemma="Ã¸vrig" msd="ANP[CN]PU=[DI]U">Ã¸vrige</W>
 <W lemma="konkurrent" msd="NCCPU==I">konkurrenter</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="al" msd="ANPCSU=[DI]U">al</W>
@@ -196,23 +196,23 @@
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="medtage" msd="VAF-=----P-">medtages</W>
 <W lemma="mod" msd="SP">mod</W>
-<W lemma="indløsning" msd="NCCSU==I">indløsning</W>
+<W lemma="indlÃ¸sning" msd="NCCSU==I">indlÃ¸sning</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="normal" msd="ANPCSU=IU">normal</W>
-<W lemma="børnebillet" msd="NCCSU==I">børnebillet</W>
+<W lemma="bÃ¸rnebillet" msd="NCCSU==I">bÃ¸rnebillet</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="den" msd="PD-NSU--U">Det</W>
 <W lemma="samme" msd="ANP[CN][SP]U=[DI]U">samme</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="for_eksempel" msd="RGU">f.eks.</W>
 <W lemma="stor" msd="ANP[CN]PU=[DI]U">store</W>
 <W lemma="hund" msd="NCCPU==I">hunde</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
-<W lemma="kæledyr" msd="NCNPU==I">kæledyr</W>
+<W lemma="kÃ¦ledyr" msd="NCNPU==I">kÃ¦ledyr</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="ikke" msd="RGU">ikke</W>
@@ -231,9 +231,9 @@
 <s>
 <W lemma="Grafik:Forbindelserne" msd="XX">Grafik:Forbindelserne</W>
 <W lemma="mellem" msd="SP">mellem</W>
-<W lemma="Århus" msd="NP--U==-">Århus</W>
+<W lemma="Ã…rhus" msd="NP--U==-">Ã…rhus</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="københavn" msd="XX">københavn</W>
+<W lemma="kÃ¸benhavn" msd="XX">kÃ¸benhavn</W>
 </s>
 </p>
 </div1>

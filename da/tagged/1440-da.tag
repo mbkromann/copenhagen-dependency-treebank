@@ -56,8 +56,8 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="tid" msd="NCCSU==I">tid</W>
-<W lemma="være" msd="VADA=----A-">var</W>
-<W lemma="idé" msd="NCCSU==I">idé</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
+<W lemma="idÃ©" msd="NCCSU==I">idÃ©</W>
 <W lemma="mand" msd="NCCSU==I">mand</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
@@ -65,16 +65,16 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="skulle" msd="VADA=----A-">skulle</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="sætte" msd="VAF-=----A-">sætte</W>
+<W lemma="sÃ¦tte" msd="VAF-=----A-">sÃ¦tte</W>
 <W lemma="land" msd="NCNSG==D">landets</W>
 <W lemma="hovedstad" msd="NCCSU==I">hovedstad</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="europæisk" msd="ANP[CN]SU=DU">europæiske</W>
+<W lemma="europÃ¦isk" msd="ANP[CN]SU=DU">europÃ¦iske</W>
 <W lemma="kulturkort" msd="NCNSU==I">kulturkort</W>
 <W lemma=":" msd="XP">:</W>
 </s>
@@ -94,10 +94,10 @@
 <W lemma="Thorkild" msd="NP--U==-">Thorkild</W>
 <W lemma="Simonsen" msd="NP--U==-">Simonsen</W>
 <W lemma="fra" msd="SP">fra</W>
-<W lemma="Århus" msd="NP--U==-">Århus</W>
+<W lemma="Ã…rhus" msd="NP--U==-">Ã…rhus</W>
 <W lemma="gerne" msd="RGU">gerne</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
-<W lemma="gøre" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
+<W lemma="gÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="hjemby" msd="NCCSU==I">hjemby</W>
 <W lemma="til" msd="SP">til</W>
@@ -113,7 +113,7 @@
 <W lemma="beslutte" msd="VADA=----A-">besluttede</W>
 <W lemma="vi" msd="PP1CPU-[YN]U">os</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="København" msd="NP--U==-">København</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
 <W lemma="hovedstad" msd="NCCSU==D">hovedstaden</W>
@@ -135,13 +135,13 @@
 </s>
 <s>
 <W lemma="han" msd="PP3CSN-NU">Han</W>
-<W lemma="hævde" msd="VADR=----A-">hævder</W>
+<W lemma="hÃ¦vde" msd="VADR=----A-">hÃ¦vder</W>
 <W lemma="imidlertid" msd="RGU">imidlertid</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="projekt" msd="NCNSU==D">projektet</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="stå" msd="VAPA=S[CN]I[ARU]-U">stået</W>
+<W lemma="stÃ¥" msd="VAPA=S[CN]I[ARU]-U">stÃ¥et</W>
 <W lemma="stille" msd="ANP[CN][SP]U=[DI]U">stille</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="alt" msd="RGU">alt</W>
@@ -162,11 +162,11 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="kulturminister" msd="NCCSU==I">Kulturminister</W>
 <W lemma="Grethe" msd="NP--U==-">Grethe</W>
-<W lemma="Rostbøl" msd="NP--U==-">Rostbøl</W>
+<W lemma="RostbÃ¸l" msd="NP--U==-">RostbÃ¸l</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="København" msd="NP--G==-">Københavns</W>
+<W lemma="KÃ¸benhavn" msd="NP--G==-">KÃ¸benhavns</W>
 <W lemma="bystyre" msd="NCNSU==I">bystyre</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="dele" msd="VAF-=----A-">dele</W>
 <W lemma="ansvar" msd="NCNSU==D">ansvaret</W>
 <W lemma="." msd="XP">.</W>
@@ -185,7 +185,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="tid" msd="NCCSU==I">tid</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="grundlag" msd="NCNSU==D">grundlaget</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="KVR-regering" msd="NCCSG==D">KVR-regeringens</W>
@@ -194,16 +194,16 @@
 </s>
 <s>
 <W lemma="faktisk" msd="ANP---=-R">Faktisk</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="eneste" msd="ANP[CN][SP]U=[DI]U">eneste</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hun" msd="PP3CSN-NU">hun</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="formå" msd="VAPA=S[CN]I[ARU]-U">formået</W>
+<W lemma="formÃ¥" msd="VAPA=S[CN]I[ARU]-U">formÃ¥et</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
-<W lemma="gennemføre" msd="VAPA=S[CN]I[ARU]-U">gennemført</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
+<W lemma="gennemfÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gennemfÃ¸rt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="bortset_fra" msd="SP">bortset_fra</W>
 <W lemma="disposition" msd="NCCPU==D">dispositionerne</W>
@@ -232,18 +232,18 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="skulle" msd="VADA=----A-">skulle</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="alletid" msd="NCCPG==I">alletiders</W>
 <W lemma="chance" msd="NCCSU==I">chance</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="København" msd="NP--U==-">København</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="kulturminister" msd="NCCSU==D">kulturministeren</W>
 <W lemma="simpelthen" msd="RGU">simpelthen</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="gøre" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
-<W lemma="tilstrækkelig" msd="ANPNSU=IU">tilstrækkeligt</W>
+<W lemma="gÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
+<W lemma="tilstrÃ¦kkelig" msd="ANPNSU=IU">tilstrÃ¦kkeligt</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

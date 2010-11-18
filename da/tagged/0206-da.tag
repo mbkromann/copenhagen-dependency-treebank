@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Planterne Vil Nødig Gensplejses'</title>
+        <title>Tagged sample of: 'Planterne Vil NÃ¸dig Gensplejses'</title>
       </titleStmt>
       <extent words=152>152 running words</extent>
       <publicationStmt>
@@ -14,12 +14,12 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Planterne Vil Nødig Gensplejses</title>
+            <title>Planterne Vil NÃ¸dig Gensplejses</title>
             <author gender=m>Wiborg, Ole</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
-              <publisher>Ingeniøren</publisher>
+              <publisher>IngeniÃ¸ren</publisher>
               <date>1989</date>
             </imprint>
           </monogr>
@@ -42,10 +42,10 @@
 <p>
 <s>
 <W lemma="optimisme" msd="NCCSU==D">Optimismen</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="denne" msd="PD-NSU--U">dette</W>
 <W lemma="felt" msd="NCNSU==I">felt</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="dale" msd="VAPA=S[CN]I[ARU]-U">dalet</W>
 <W lemma="betydelig" msd="ANP---=-R">betydeligt</W>
@@ -67,17 +67,17 @@
 <W lemma="20" msd="AC---U=--">20</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="30" msd="AC---U=--">30</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="symbiotisk" msd="ANP[CN]SU=DU">symbiotiske</W>
-<W lemma="kvælstoffiksering" msd="NCCSU==I">kvælstoffiksering</W>
+<W lemma="kvÃ¦lstoffiksering" msd="NCCSU==I">kvÃ¦lstoffiksering</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="bakterie" msd="NCCSU==D">bakterien</W>
 <W lemma="Rhizobium" msd="NP--U==-">Rhizobium</W>
@@ -90,18 +90,18 @@
 <W lemma="kunne" msd="VAF-=----A-">kunne</W>
 <W lemma="fremstille" msd="VAF-=----A-">fremstille</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="kvælstoffikserende" msd="ANP[CN][SP]U=[DI]U">kvælstoffikserende</W>
+<W lemma="kvÃ¦lstoffikserende" msd="ANP[CN][SP]U=[DI]U">kvÃ¦lstoffikserende</W>
 <W lemma="plante" msd="NCCSU==I">plante</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="Rhizobium" msd="NP--U==-">Rhizobium</W>
 <W lemma="inficere" msd="VADR=----A-">inficerer</W>
-<W lemma="bælgplante" msd="NCCPU==I">bælgplanter</W>
+<W lemma="bÃ¦lgplante" msd="NCCPU==I">bÃ¦lgplanter</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="omdanne" msd="VADR=----A-">omdanner</W>
 <W lemma="luft" msd="NCCSG==D">luftens</W>
-<W lemma="kvælstof" msd="NCNSU==I">kvælstof</W>
+<W lemma="kvÃ¦lstof" msd="NCNSU==I">kvÃ¦lstof</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="ammoniak" msd="NCCSU==I">ammoniak</W>
 <W lemma="," msd="XP">,</W>
@@ -114,10 +114,10 @@
 </s>
 <s>
 <W lemma="til" msd="SP">Til</W>
-<W lemma="gengæld" msd="NCCSU==I">gengæld</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="gengÃ¦ld" msd="NCCSU==I">gengÃ¦ld</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="bakterie" msd="NCCSU==D">bakterien</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="kulhydrat" msd="NCNPU==I">kulhydrater</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="plante" msd="NCCSU==D">planten</W>
@@ -127,7 +127,7 @@
 <p>
 <s>
 <W lemma="en" msd="PI-CSU--U">En</W>
-<W lemma="bælgplante" msd="NCCSU==I">bælgplante</W>
+<W lemma="bÃ¦lgplante" msd="NCCSU==I">bÃ¦lgplante</W>
 <W lemma="syntetisere" msd="VADR=----A-">syntetiserer</W>
 <W lemma="lille" msd="ANS---=-R">mindst</W>
 <W lemma="40" msd="AC---U=--">40</W>
@@ -139,7 +139,7 @@
 <W lemma="af" msd="SP">af</W>
 <W lemma="bakterie" msd="NCCSU==D">bakterien</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="CS">så</W>
+<W lemma="sÃ¥" msd="CS">sÃ¥</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="lille" msd="ANS---=-R">mindst</W>
@@ -158,17 +158,17 @@
 <s>
 <W lemma="og" msd="CC">Og</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="umulig" msd="ANPNSU=IU">umuligt</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="overskue" msd="VAF-=----A-">overskue</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="om" msd="CS">om</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="stor" msd="ANPCSU=IU">stor</W>
-<W lemma="overførsel" msd="NCCSU==I">overførsel</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="overfÃ¸rsel" msd="NCCSU==I">overfÃ¸rsel</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="mulig" msd="ANPCSU=IU">mulig</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -180,7 +180,7 @@
 <W lemma="mulighed" msd="NCCPU==I">muligheder</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="gå" msd="VAF-=----A-">gå</W>
+<W lemma="gÃ¥" msd="VAF-=----A-">gÃ¥</W>
 <W lemma="ind" msd="RGU">ind</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="forbedre" msd="VAF-=----A-">forbedre</W>
@@ -188,10 +188,10 @@
 <W lemma="mellem" msd="SP">mellem</W>
 <W lemma="bakterie" msd="NCCPU==I">bakterier</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="bælgplante" msd="NCCPU==I">bælgplanter</W>
+<W lemma="bÃ¦lgplante" msd="NCCPU==I">bÃ¦lgplanter</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="forøge" msd="VAF-=----A-">forøge</W>
+<W lemma="forÃ¸ge" msd="VAF-=----A-">forÃ¸ge</W>
 <W lemma="udbytte" msd="NCNSU==D">udbyttet</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -200,7 +200,7 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="vælge" msd="VAM-=------">Vælg</W>
+<W lemma="vÃ¦lge" msd="VAM-=------">VÃ¦lg</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="egenskab" msd="NCCSU==I">egenskab</W>
 </s>
@@ -209,13 +209,13 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="på" msd="SP">På</W>
+<W lemma="pÃ¥" msd="SP">PÃ¥</W>
 <W lemma="trods" msd="NCCSU==I">trods</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
 <W lemma="vanskelighed" msd="NCCPU==I">vanskeligheder</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="stadig" msd="RGU">stadig</W>
 <W lemma="stor" msd="ANP[CN]PU=[DI]U">store</W>
@@ -230,11 +230,11 @@
 <W lemma="men" msd="CC">Men</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
-<W lemma="næppe" msd="RGU">næppe</W>
+<W lemma="nÃ¦ppe" msd="RGU">nÃ¦ppe</W>
 <W lemma="tale" msd="NCCSU==I">tale</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="grøn" msd="ANPCSU=IU">grøn</W>
+<W lemma="grÃ¸n" msd="ANPCSU=IU">grÃ¸n</W>
 <W lemma="revolution" msd="NCCSU==I">revolution</W>
 <W lemma="." msd="XP">.</W>
 </s>

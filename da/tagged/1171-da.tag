@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'KULTUREN PÅ VÆGTEN'</title>
+        <title>Tagged sample of: 'KULTUREN PÃ… VÃ†GTEN'</title>
       </titleStmt>
       <extent words=171>171 running words</extent>
       <publicationStmt>
@@ -14,8 +14,8 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>KULTUREN PÅ VÆGTEN</title>
-            <author gender=f born=1951>Frøslev, Lene</author>
+            <title>KULTUREN PÃ… VÃ†GTEN</title>
+            <author gender=f born=1951>FrÃ¸slev, Lene</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -50,12 +50,12 @@
 <W lemma="bruge" msd="VADR=----P-">bruges</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="hver" msd="PI-NSU--U">hvert</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="adskillig" msd="ANP[CN]PU=[DI]U">adskillige</W>
 <W lemma="million" msd="NCCPU==I">millioner</W>
 <W lemma="privat" msd="ANP[CN]PU=[DI]U">private</W>
 <W lemma="krone" msd="NCCPU==I">kroner</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="kunst" msd="NCCSU==I">kunst</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="kultur" msd="NCCSU==I">kultur</W>
@@ -65,10 +65,10 @@
 <W lemma="det" msd="PP3NSU-NU">Det</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="mulig" msd="ANPNSU=IU">muligt</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="opgøre" msd="VAF-=----A-">opgøre</W>
+<W lemma="opgÃ¸re" msd="VAF-=----A-">opgÃ¸re</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="total" msd="ANP[CN]SU=DU">totale</W>
 <W lemma="andel" msd="NCCSU==I">andel</W>
@@ -81,7 +81,7 @@
 <W lemma="drive" msd="VADR=----P-">drives</W>
 <W lemma="via" msd="SP">via</W>
 <W lemma="71" msd="AC---U=--">71</W>
-<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">større</W>
+<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">stÃ¸rre</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="lille" msd="ANC[CN][SP]U=[DI]U">mindre</W>
 <W lemma="fond" msd="NC[CN]PU==I">fonde</W>
@@ -95,9 +95,9 @@
 </p>
 <p>
 <s>
-<W lemma="på" msd="SP">På</W>
-<W lemma="teaterområde" msd="NCNSU==D">teaterområdet</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="pÃ¥" msd="SP">PÃ¥</W>
+<W lemma="teateromrÃ¥de" msd="NCNSU==D">teateromrÃ¥det</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="36" msd="AC---U=--">36</W>
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="af" msd="SP">af</W>
@@ -105,7 +105,7 @@
 <W lemma="samle" msd="VAPA=P[CN][DI]A-U">samlede</W>
 <W lemma="offentlig" msd="ANP[CN]PU=[DI]U">offentlige</W>
 <W lemma="teaterudgift" msd="NCCPU==I">teaterudgifter</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="691" msd="AC---U=--">691</W>
 <W lemma="million" msd="NCCPU==I">mill.</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
@@ -121,7 +121,7 @@
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="udgifter" msd="XX">udgifter</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="finansiering" msd="NCCSU==I">finansiering</W>
 <W lemma="af" msd="SP">af</W>
@@ -131,9 +131,9 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="egnsteater" msd="NCNPU==I">egnsteatre</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="billetstøtte" msd="NCCSU==I">billetstøtte</W>
+<W lemma="billetstÃ¸tte" msd="NCCSU==I">billetstÃ¸tte</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="København" msd="NP--U==-">København</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -142,7 +142,7 @@
 <W lemma="i_alt" msd="RGU">I_alt</W>
 <W lemma="bruge" msd="VADR=----P-">bruges</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="København" msd="NP--U==-">København</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
 <W lemma="116" msd="AC---U=--">116</W>
 <W lemma="million" msd="NCCPU==I">mill.</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
@@ -185,7 +185,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="Aalborg" msd="NP--U==-">Aalborg</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="Århus" msd="NP--U==-">Århus</W>
+<W lemma="Ã…rhus" msd="NP--U==-">Ã…rhus</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="27" msd="AC---U=--">27</W>
@@ -193,7 +193,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="stor" msd="ANP[CN]PU=[DI]U">store</W>
-<W lemma="turnéteater" msd="NCNPU==I">turnéteatre</W>
+<W lemma="turnÃ©teater" msd="NCNPU==I">turnÃ©teatre</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="herunder" msd="RGU">herunder</W>
 <W lemma="den" msd="PD-CSU--U">Den</W>
@@ -201,12 +201,12 @@
 <W lemma="opera" msd="NCCSU==I">Opera</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="billetstøtte" msd="NCCSU==I">billetstøtte</W>
+<W lemma="billetstÃ¸tte" msd="NCCSU==I">billetstÃ¸tte</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="provins" msd="NCCSG==D">provinsens</W>
 <W lemma="teaterpublikum" msd="NCNSU==I">teaterpublikum</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="såvel" msd="RGU">såvel</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="sÃ¥vel" msd="RGU">sÃ¥vel</W>
 <W lemma="fast" msd="ANP[CN]PU=[DI]U">faste</W>
 <W lemma="scene" msd="NCCPU==I">scener</W>
 <W lemma="som" msd="U=">som</W>
@@ -220,11 +220,11 @@
 <W lemma="en" msd="PI-CSU--U">En</W>
 <W lemma="stor" msd="ANPCSU=IU">stor</W>
 <W lemma="post" msd="NCCSU==I">post</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="offentlig" msd="ANP[CN]SU=DU">offentlige</W>
 <W lemma="teaterbudget" msd="NCNSU==I">teaterbudget</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="51" msd="AC---U=--">51</W>
 <W lemma="million" msd="NCCPU==I">mill.</W>
@@ -234,14 +234,14 @@
 <W lemma="fordele" msd="VADR=----P-">fordeles</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="stat" msd="NCCSG==D">Statens</W>
-<W lemma="teaterråd" msd="NCNSU==I">Teaterråd</W>
+<W lemma="teaterrÃ¥d" msd="NCNSU==I">TeaterrÃ¥d</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="her" msd="RGU">Her</W>
 <W lemma="tildele" msd="VADR=----P-">tildeles</W>
 <W lemma="blandt_andet" msd="RGU">bl.a.</W>
-<W lemma="børneteater" msd="NCNPU==I">børneteatre</W>
+<W lemma="bÃ¸rneteater" msd="NCNPU==I">bÃ¸rneteatre</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="stor" msd="ANPCSU=IU">stor</W>
 <W lemma="del" msd="NCCSU==I">del</W>
@@ -250,11 +250,11 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="medregne" msd="VAPA=S[CN]I[ARU]-U">medregnet</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="opgørelse" msd="NCCSU==D">opgørelsen</W>
+<W lemma="opgÃ¸relse" msd="NCCSU==D">opgÃ¸relsen</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

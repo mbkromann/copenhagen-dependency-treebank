@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Dr. Tuxen og kolesterol</title>
-            <author gender=m>Færgeman, Ole</author>
+            <author gender=m>FÃ¦rgeman, Ole</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -46,7 +46,7 @@
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="forstand" msd="NCCSU==I">forstand</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 </s>
 </p>
 <p>
@@ -56,7 +56,7 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="forstand" msd="NCCSU==I">forstand</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
@@ -71,7 +71,7 @@
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="plukke" msd="VAF-=----A-">plukke</W>
 <W lemma="hans" msd="PO3[CN][SP]USNU">hans</W>
-<W lemma="påstand" msd="NCCPU==I">påstande</W>
+<W lemma="pÃ¥stand" msd="NCCPU==I">pÃ¥stande</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="hinanden" msd="PC--PU---">hinanden</W>
 <W lemma="." msd="XP">.</W>
@@ -81,7 +81,7 @@
 <W lemma="ligne" msd="VADR=----A-">ligner</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="påstå" msd="VAF-=----A-">påstå</W>
+<W lemma="pÃ¥stÃ¥" msd="VAF-=----A-">pÃ¥stÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
@@ -92,24 +92,24 @@
 <W lemma="med" msd="SP">med</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="alvorlig" msd="ANP[CN]SU=DU">alvorlige</W>
-<W lemma="familiær" msd="ANP[CN]SU=DU">familiære</W>
-<W lemma="hyperkolesterolæmi" msd="NCCSU==I">hyperkolesterolæmi</W>
+<W lemma="familiÃ¦r" msd="ANP[CN]SU=DU">familiÃ¦re</W>
+<W lemma="hyperkolesterolÃ¦mi" msd="NCCSU==I">hyperkolesterolÃ¦mi</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="blot" msd="RGU">blot</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="spørge" msd="VAF-=----A-">spørge</W>
+<W lemma="spÃ¸rge" msd="VAF-=----A-">spÃ¸rge</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="om" msd="CS">om</W>
-<W lemma="mand" msd="NCCPU==D">mændene</W>
+<W lemma="mand" msd="NCCPU==D">mÃ¦ndene</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="familie" msd="NCCSU==D">familien</W>
-<W lemma="dø" msd="VADR=----A-">dør</W>
+<W lemma="dÃ¸" msd="VADR=----A-">dÃ¸r</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="blodprop" msd="NCCSU==I">blodprop</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="hjerte" msd="NCNSU==D">hjertet</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="40-år" msd="NCNPG==I">40-års</W>
+<W lemma="40-Ã¥r" msd="NCNPG==I">40-Ã¥rs</W>
 <W lemma="alder" msd="NCCSU==D">alderen</W>
 <W lemma="?" msd="XP">?</W>
 </s>
@@ -117,10 +117,10 @@
 <p>
 <s>
 <W lemma="enhver" msd="PI-CSU--U">Enhver</W>
-<W lemma="læge" msd="NCCSU==I">læge</W>
+<W lemma="lÃ¦ge" msd="NCCSU==I">lÃ¦ge</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="følge" msd="VADR=----A-">følger</W>
+<W lemma="fÃ¸lge" msd="VADR=----A-">fÃ¸lger</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="sin" msd="PO3NSUSYU">sit</W>
@@ -130,15 +130,15 @@
 <W lemma="vide" msd="VAF-=----A-">vide</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
-<W lemma="sådan" msd="RGU">sådan</W>
-<W lemma="gøre" msd="VADR=----P-">gøres</W>
+<W lemma="sÃ¥dan" msd="RGU">sÃ¥dan</W>
+<W lemma="gÃ¸re" msd="VADR=----P-">gÃ¸res</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="sygdom" msd="NCCSU==D">sygdommen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="hyppig" msd="ANPCSU=IU">hyppig</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
@@ -150,12 +150,12 @@
 <W lemma="Tuxen" msd="NP--G==-">Tuxens</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="patient" msd="NCCPU==I">patienter</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ramme" msd="VAPA=S[CN]I[ARU]-U">ramt</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PP3CSU-NU">den</W>
@@ -175,7 +175,7 @@
 <s>
 <W lemma="men" msd="CC">Men</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="gøre" msd="VADR=----A-">gør</W>
+<W lemma="gÃ¸re" msd="VADR=----A-">gÃ¸r</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="." msd="XP">.</W>
@@ -212,7 +212,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="sænkning" msd="NCCSU==I">sænkning</W>
+<W lemma="sÃ¦nkning" msd="NCCSU==I">sÃ¦nkning</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="blod" msd="NCNSG==D">blodets</W>
 <W lemma="indhold" msd="NCNSU==I">indhold</W>
@@ -229,7 +229,7 @@
 <s>
 <W lemma="have" msd="VADR=----A-">Har</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="læse" msd="VAPA=S[CN]I[ARU]-U">læst</W>
+<W lemma="lÃ¦se" msd="VAPA=S[CN]I[ARU]-U">lÃ¦st</W>
 <W lemma="doktor" msd="NCCSU==I">dr.</W>
 <W lemma="Ravnskov" msd="NP--G==-">Ravnskovs</W>
 <W lemma="arbejde" msd="NCNSU==I">arbejde</W>
@@ -243,7 +243,7 @@
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="smule" msd="NCCSU==I">smule</W>
 <W lemma="forstand" msd="NCCSU==I">forstand</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="emne" msd="NCNSU==D">emnet</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
@@ -259,7 +259,7 @@
 <W lemma="litteratur" msd="NCCSU==I">litteratur</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="emne" msd="NCNSU==D">emnet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="hildet" msd="ANP[CN]SU=IU">hildet</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="ukyndig" msd="ANPCSU=IU">ukyndig</W>

@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Hver tredje har ikke hørt om Vestunionen'</title>
+        <title>Tagged sample of: 'Hver tredje har ikke hÃ¸rt om Vestunionen'</title>
       </titleStmt>
       <extent words=156>156 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Hver tredje har ikke hørt om Vestunionen</title>
+            <title>Hver tredje har ikke hÃ¸rt om Vestunionen</title>
             <author>UNKNOWN</author>
           </analytic>
           <monogr>
@@ -85,12 +85,12 @@
 <W lemma="31" msd="AC---U=--">31</W>
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma=")" msd="XP">)</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="ind" msd="RGU">ind</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="udvide" msd="VAPA=S[CN]IA-U">udvidet</W>
-<W lemma="militær" msd="ANPNSU=IU">militært</W>
+<W lemma="militÃ¦r" msd="ANPNSU=IU">militÃ¦rt</W>
 <W lemma="samarbejde" msd="NCNSU==I">samarbejde</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="vestunion" msd="NCCSU==D">Vestunionen</W>
@@ -103,7 +103,7 @@
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="blandt" msd="SP">blandt</W>
 <W lemma="samtlige" msd="ANP[CN][SP]U=[DI]U">samtlige</W>
-<W lemma="vælger" msd="NCCPU==I">vælgere</W>
+<W lemma="vÃ¦lger" msd="NCCPU==I">vÃ¦lgere</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="medens" msd="CS">medens</W>
 <W lemma="flertal" msd="NCNSU==D">flertallet</W>
@@ -124,17 +124,17 @@
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="blandt" msd="SP">blandt</W>
 <W lemma="samtlige" msd="ANP[CN][SP]U=[DI]U">samtlige</W>
-<W lemma="vælger" msd="NCCPU==I">vælgere</W>
+<W lemma="vÃ¦lger" msd="NCCPU==I">vÃ¦lgere</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="tilslutning" msd="NCCSU==D">Tilslutningen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="stor" msd="ANS[CN][SP]U=[DI]U">størst</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="stor" msd="ANS[CN][SP]U=[DI]U">stÃ¸rst</W>
 <W lemma="blandt" msd="SP">blandt</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="borgerlig" msd="ANP[CN]PU=[DI]U">borgerlige</W>
-<W lemma="vælger" msd="NCCPU==I">vælgere</W>
+<W lemma="vÃ¦lger" msd="NCCPU==I">vÃ¦lgere</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="relativ" msd="ANPNSU=IU">relativt</W>
@@ -152,13 +152,13 @@
 <W lemma="absolut" msd="ANP[CN]SU=IU">absolut</W>
 <W lemma="flertal" msd="NCNSU==I">flertal</W>
 <W lemma="blandt" msd="SP">blandt</W>
-<W lemma="såvel" msd="RGU">såvel</W>
+<W lemma="sÃ¥vel" msd="RGU">sÃ¥vel</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="socialdemokratisk" msd="ANP[CN]PU=[DI]U">socialdemokratiske</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="folkesocialistisk" msd="ANP[CN]PU=[DI]U">folkesocialistiske</W>
-<W lemma="vælger" msd="NCCPU==I">vælgere</W>
+<W lemma="vÃ¦lger" msd="NCCPU==I">vÃ¦lgere</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
 <W lemma="nej" msd="NCNSU==I">nej</W>
 <W lemma="," msd="XP">,</W>
@@ -179,11 +179,11 @@
 <s>
 <W lemma="forskel" msd="NCCSU==D">Forskellen</W>
 <W lemma="mellem" msd="SP">mellem</W>
-<W lemma="mand" msd="NCCPU==I">mænd</W>
+<W lemma="mand" msd="NCCPU==I">mÃ¦nd</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="kvinde" msd="NCCPU==I">kvinder</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="markant" msd="ANP[CN]SU=IU">markant</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="37" msd="AC---U=--">37</W>
@@ -199,16 +199,16 @@
 <s>
 <W lemma="en" msd="PI-NSU--U">Et</W>
 <W lemma="central" msd="ANPNSU=IU">centralt</W>
-<W lemma="spørgsmål" msd="NCNSU==I">spørgsmål</W>
+<W lemma="spÃ¸rgsmÃ¥l" msd="NCNSU==I">spÃ¸rgsmÃ¥l</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="debat" msd="NCCSU==D">debatten</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvorvidt" msd="CS">hvorvidt</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
 <W lemma="skulle" msd="VADA=----A-">skulle</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="medlem" msd="NCNSU==I">medlem</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="vestunion" msd="NCCSU==D">Vestunionen</W>
@@ -219,7 +219,7 @@
 <W lemma="derfor" msd="RGU">derfor</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
 <W lemma="svarperson" msd="NCCPU==D">svarpersonerne</W>
-<W lemma="spørgsmål" msd="NCNSU==D">spørgsmålet</W>
+<W lemma="spÃ¸rgsmÃ¥l" msd="NCNSU==D">spÃ¸rgsmÃ¥let</W>
 <W lemma=":" msd="XP">:</W>
 </s>
 </p>
@@ -227,7 +227,7 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="medlem" msd="NCNSU==I">medlem</W>
 <W lemma="af" msd="SP">af</W>
@@ -235,14 +235,14 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="være" msd="VADR=----A-">Er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">Er</W>
 <W lemma="De" msd="PP2C[SP]N-NP">De</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="imod" msd="SP">imod</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="medlem" msd="NCNSU==I">medlem</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="vestunion" msd="NCCSU==D">Vestunionen</W>

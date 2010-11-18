@@ -43,7 +43,7 @@
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="hvorfor" msd="RGU">Hvorfor</W>
 <W lemma="jeg" msd="PP1CSN-NU">jeg</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="rolle" msd="NCCPU==I">roller</W>
 <W lemma="?" msd="XP">?</W>
@@ -52,7 +52,7 @@
 <W lemma="tja" msd="I=">Tja</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="folk" msd="NCNPU==I">folk</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="vel" msd="RGU">vel</W>
 <W lemma="synes" msd="VEF-=----A-">synes</W>
 <W lemma="," msd="XP">,</W>
@@ -64,14 +64,14 @@
 <W lemma="grine" msd="VADR=----A-">griner</W>
 <W lemma="Stine" msd="NP--U==-">Stine</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="fortælle" msd="VADR=----A-">fortæller</W>
+<W lemma="fortÃ¦lle" msd="VADR=----A-">fortÃ¦ller</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="hendes" msd="PO3[CN][SP]USNU">hendes</W>
-<W lemma="næste" msd="ANP[CN][SP]U=[DI]U">næste</W>
+<W lemma="nÃ¦ste" msd="ANP[CN][SP]U=[DI]U">nÃ¦ste</W>
 <W lemma="film-rolle" msd="NCCSU==I">film-rolle</W>
-<W lemma="også" msd="RGU">også</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="retning" msd="NCCSU==I">retning</W>
@@ -82,7 +82,7 @@
 <s>
 <W lemma="hun" msd="PP3CSN-NU">Hun</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="nattelivspige" msd="NCCSU==I">nattelivspige</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -93,14 +93,14 @@
 <W lemma="titel" msd="NCCSU==D">titlen</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="Jorden" msd="NC[CN][SP]U==[DI]">Jorden</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="giftig" msd="ANPCSU=IU">giftig</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="historie" msd="NCCSU==D">historien</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="kærlighed" msd="NCCSU==I">kærlighed</W>
+<W lemma="kÃ¦rlighed" msd="NCCSU==I">kÃ¦rlighed</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="rodløshed" msd="NCCSU==I">rodløshed</W>
+<W lemma="rodlÃ¸shed" msd="NCCSU==I">rodlÃ¸shed</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -119,17 +119,17 @@
 <W lemma="filmpige" msd="NCCSU==I">filmpige</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="19-årig" msd="ANP[CN]SU=DU">19-årige</W>
+<W lemma="19-Ã¥rig" msd="ANP[CN]SU=DU">19-Ã¥rige</W>
 <W lemma="Sofie" msd="NP--U==-">Sofie</W>
-<W lemma="Graabøl" msd="NP--U==-">Graabøl</W>
+<W lemma="GraabÃ¸l" msd="NP--U==-">GraabÃ¸l</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="i_øvrigt" msd="RGU">I_øvrigt</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="i_Ã¸vrigt" msd="RGU">I_Ã¸vrigt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="Sofie" msd="NP--U==-">Sofie</W>
-<W lemma="Graabøl" msd="NP--G==-">Graabøls</W>
+<W lemma="GraabÃ¸l" msd="NP--G==-">GraabÃ¸ls</W>
 <W lemma="storebror" msd="NCCSU==I">storebror</W>
 <W lemma="Niels" msd="NP--U==-">Niels</W>
 <W lemma="," msd="XP">,</W>
@@ -141,8 +141,8 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="han" msd="PP3CSU-NU">ham</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
@@ -157,12 +157,12 @@
 <W lemma="ingen" msd="PI-CSU--U">Ingen</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="vi" msd="PP1CPU-[YN]U">os</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="nogen" msd="PI-CSU--U">nogen</W>
 <W lemma="penge" msd="NCCPU==I">penge</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
@@ -170,10 +170,10 @@
 <W lemma="synes" msd="VEDR=----A-">synes</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="vigtig" msd="ANPNSU=IU">vigtigt</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="gøre" msd="VAF-=----A-">gøre</W>
+<W lemma="gÃ¸re" msd="VAF-=----A-">gÃ¸re</W>
 <W lemma="ting" msd="NCCPU==I">ting</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
@@ -196,19 +196,19 @@
 <W lemma="optagelse" msd="NCCPU==D">Optagelserne</W>
 <W lemma="begynde" msd="VADR=----A-">begynder</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="jeg" msd="PP1CSN-NU">jeg</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="nytår" msd="NCNSU==I">nytår</W>
+<W lemma="nytÃ¥r" msd="NCNSU==I">nytÃ¥r</W>
 <W lemma="komme" msd="VADR=----A-">kommer</W>
 <W lemma="hjem" msd="RGU">hjem</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="min" msd="PO1CSUSNU">min</W>
-<W lemma="første" msd="ANP[CN][SP]U=[DI]U">første</W>
+<W lemma="fÃ¸rste" msd="ANP[CN][SP]U=[DI]U">fÃ¸rste</W>
 <W lemma="skiferie" msd="NCCSU==I">skiferie</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="forhåbentlig" msd="ANP---=-R">forhåbentlig</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="forhÃ¥bentlig" msd="ANP---=-R">forhÃ¥bentlig</W>
 <W lemma="komme" msd="VADR=----A-">kommer</W>
 <W lemma="jeg" msd="PP1CSN-NU">jeg</W>
 <W lemma="ikke" msd="RGU">ikke</W>
@@ -231,20 +231,20 @@
 <p>
 <s>
 <W lemma="Stine" msd="NP--U==-">Stine</W>
-<W lemma="lægge" msd="VADR=----A-">lægger</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="lÃ¦gge" msd="VADR=----A-">lÃ¦gger</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="sin" msd="PO3[CN]PUSYU">sine</W>
-<W lemma="kraft" msd="NCCPU==I">kræfter</W>
+<W lemma="kraft" msd="NCCPU==I">krÃ¦fter</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="fredsarbejde" msd="NCNSU==I">fredsarbejde</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="derfor" msd="RGU">Derfor</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="hun" msd="PP3CSN-NU">hun</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="forår" msd="NCNSU==D">foråret</W>
+<W lemma="forÃ¥r" msd="NCNSU==D">forÃ¥ret</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -255,7 +255,7 @@
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="projekt" msd="NCNSU==D">projektet</W>
 <W lemma="mod" msd="SP">mod</W>
-<W lemma="atomvåben" msd="NCNPU==I">atomvåben</W>
+<W lemma="atomvÃ¥ben" msd="NCNPU==I">atomvÃ¥ben</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

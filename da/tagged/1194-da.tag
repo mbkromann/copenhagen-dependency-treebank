@@ -42,7 +42,7 @@
 <p>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="Kirsten" msd="NP--U==-">Kirsten</W>
 <W lemma="Andersen" msd="NP--U==-">Andersen</W>
 <W lemma="," msd="XP">,</W>
@@ -52,8 +52,8 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="hun" msd="PP3CSN-NU">hun</W>
-<W lemma="måtte" msd="VADA=----A-">måtte</W>
-<W lemma="altså" msd="RGU">altså</W>
+<W lemma="mÃ¥tte" msd="VADA=----A-">mÃ¥tte</W>
+<W lemma="altsÃ¥" msd="RGU">altsÃ¥</W>
 <W lemma="igennem" msd="SP">igennem</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="tvangsauktion" msd="NCCSU==I">tvangsauktion</W>
@@ -73,12 +73,12 @@
 <W lemma="kunde" msd="NCCSG==D">kundens</W>
 <W lemma="restance" msd="NCCSU==I">restance</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="701.467,48" msd="AC---U=--">701.467,48</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="påstå" msd="VAPA=S[CN]I[ARU]-U">påstået</W>
+<W lemma="pÃ¥stÃ¥" msd="VAPA=S[CN]I[ARU]-U">pÃ¥stÃ¥et</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="KD" msd="NP--U==-">KD</W>
 <W lemma="," msd="XP">,</W>
@@ -92,10 +92,10 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="altså" msd="RGU">Altså</W>
+<W lemma="altsÃ¥" msd="RGU">AltsÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="forskel" msd="NCCSU==I">forskel</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="400.000" msd="AC---U=--">400.000</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
@@ -107,7 +107,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
-<W lemma="fastsætte" msd="VAPA=S[CN]I[ARU]-U">fastsat</W>
+<W lemma="fastsÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">fastsat</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
@@ -132,21 +132,21 @@
 <W lemma="Sven" msd="NP--U==-">Sven</W>
 <W lemma="Horsten" msd="NP--U==-">Horsten</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="København" msd="NP--U==-">København</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="finde" msd="VADR=----A-">finder</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="tankevækkende" msd="ANP[CN][SP]U=[DI]U">tankevækkende</W>
+<W lemma="tankevÃ¦kkende" msd="ANP[CN][SP]U=[DI]U">tankevÃ¦kkende</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
-<W lemma="gennemføre" msd="VAF-=----P-">gennemføres</W>
+<W lemma="gennemfÃ¸re" msd="VAF-=----P-">gennemfÃ¸res</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="tvangsauktion" msd="NCCSU==I">tvangsauktion</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="usikker" msd="ANPNSU=IU">usikkert</W>
 <W lemma="grundlag" msd="NCNSU==I">grundlag</W>
 <W lemma="," msd="XP">,</W>
@@ -154,9 +154,9 @@
 <W lemma="lade" msd="VADA=----A-">lod</W>
 <W lemma="derfor" msd="RGU">derfor</W>
 <W lemma="sag" msd="NCCSU==D">sagen</W>
-<W lemma="prøve" msd="VAF-=----A-">prøve</W>
+<W lemma="prÃ¸ve" msd="VAF-=----A-">prÃ¸ve</W>
 <W lemma="ved" msd="SP">ved</W>
-<W lemma="østre" msd="ANP[CN][SP]U=[DI]U">Østre</W>
+<W lemma="Ã¸stre" msd="ANP[CN][SP]U=[DI]U">Ã˜stre</W>
 <W lemma="landsret" msd="NCCSU==I">Landsret</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -168,7 +168,7 @@
 <W lemma="falde" msd="VADA=----A-">faldt</W>
 <W lemma="dom" msd="NCCSU==D">dommen</W>
 <W lemma=":" msd="XP">:</W>
-<W lemma="stadfæstelse" msd="NCCSU==I">Stadfæstelse</W>
+<W lemma="stadfÃ¦stelse" msd="NCCSU==I">StadfÃ¦stelse</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -179,13 +179,13 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="Sven" msd="NP--U==-">Sven</W>
 <W lemma="Horsten" msd="NP--G==-">Horstens</W>
-<W lemma="påstand" msd="NCCSU==I">påstand</W>
+<W lemma="pÃ¥stand" msd="NCCSU==I">pÃ¥stand</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="tvangsauktion" msd="NCCSU==D">tvangsauktionen</W>
 <W lemma="skulle" msd="VADA=----A-">skulle</W>
-<W lemma="ophæve" msd="VAF-=----P-">ophæves</W>
+<W lemma="ophÃ¦ve" msd="VAF-=----P-">ophÃ¦ves</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
 <W lemma="afvise" msd="VAPA=S[CN]I[ARU]-U">afvist</W>
 <W lemma="af" msd="SP">af</W>
@@ -209,12 +209,12 @@
 </s>
 <s>
 <W lemma="kendsgerning" msd="NCCSU==D">Kendsgerningen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="dog" msd="RGU">dog</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="tvangsauktion" msd="NCCSU==D">tvangsauktionen</W>
-<W lemma="stå" msd="VADR=----A-">står</W>
+<W lemma="stÃ¥" msd="VADR=----A-">stÃ¥r</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="magt" msd="NCCSU==I">magt</W>
 <W lemma="." msd="XP">.</W>
@@ -231,11 +231,11 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="hus" msd="NCNSU==D">huset</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Taarbæk" msd="NP--U==-">Taarbæk</W>
+<W lemma="TaarbÃ¦k" msd="NP--U==-">TaarbÃ¦k</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="KD" msd="NP--U==-">KD</W>
-<W lemma="kræve" msd="VADR=----A-">kræver</W>
+<W lemma="krÃ¦ve" msd="VADR=----A-">krÃ¦ver</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
@@ -249,9 +249,9 @@
 <W lemma="husleje" msd="NCCSU==I">husleje</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="oktober" msd="NCCSU==I">oktober</W>
-<W lemma="måned" msd="NCCSU==I">måned</W>
+<W lemma="mÃ¥ned" msd="NCCSU==I">mÃ¥ned</W>
 <W lemma="1992" msd="AC---U=--">1992</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="returnere" msd="VAPA=S[CN]I[ARU]-U">returneret</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="Kirsten" msd="NP--U==-">Kirsten</W>

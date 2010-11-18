@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Silkeborg vil være dansk mester'</title>
+        <title>Tagged sample of: 'Silkeborg vil vÃ¦re dansk mester'</title>
       </titleStmt>
       <extent words=175>175 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Silkeborg vil være dansk mester</title>
+            <title>Silkeborg vil vÃ¦re dansk mester</title>
             <author gender=m born=1935>Hermansen, Bent</author>
           </analytic>
           <monogr>
@@ -50,26 +50,26 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="økonomisk" msd="ANP[CN]SU=IU">Økonomisk</W>
-<W lemma="nytænkning" msd="NCCSU==I">nytænkning</W>
+<W lemma="Ã¸konomisk" msd="ANP[CN]SU=IU">Ã˜konomisk</W>
+<W lemma="nytÃ¦nkning" msd="NCCSU==I">nytÃ¦nkning</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="stor" msd="ANP[CN]PU=[DI]U">store</W>
 <W lemma="sportslig" msd="ANP[CN]PU=[DI]U">sportslige</W>
 <W lemma="vision" msd="NCCPU==I">visioner</W>
-<W lemma="udgøre" msd="VADR=----A-">udgør</W>
+<W lemma="udgÃ¸re" msd="VADR=----A-">udgÃ¸r</W>
 <W lemma="hovedingrediens" msd="NCCPU==D">hovedingredienserne</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="to-årig" msd="ANPCSU=IU">to-årig</W>
+<W lemma="to-Ã¥rig" msd="ANPCSU=IU">to-Ã¥rig</W>
 <W lemma="handlingsplan" msd="NCCSU==I">handlingsplan</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="superligaklub" msd="NCCSU==D">superligaklubben</W>
 <W lemma="Silkeborg" msd="NP--U==-">Silkeborg</W>
 <W lemma="IF" msd="NP--U==-">IF</W>
-<W lemma="i_går" msd="RGU">i_går</W>
-<W lemma="præsentere" msd="VADA=----A-">præsenterede</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="i_gÃ¥r" msd="RGU">i_gÃ¥r</W>
+<W lemma="prÃ¦sentere" msd="VADA=----A-">prÃ¦senterede</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="seminar" msd="NCNSU==I">seminar</W>
 <W lemma="for" msd="SP">for</W>
@@ -84,15 +84,15 @@
 <s>
 <W lemma="den" msd="PD-[CN]PU--U">De</W>
 <W lemma="sportslig" msd="ANP[CN]PU=[DI]U">sportslige</W>
-<W lemma="mål" msd="NCNPU==I">mål</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="mÃ¥l" msd="NCNPU==I">mÃ¥l</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="lille" msd="ANS---=-R">mindst</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="tredjeplads" msd="NCCSU==I">tredjeplads</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="komme" msd="VAPR=[SP][CN][DI]A-U">kommende</W>
-<W lemma="forår" msd="NCNSG==I">forårs</W>
+<W lemma="forÃ¥r" msd="NCNSG==I">forÃ¥rs</W>
 <W lemma="slutspil" msd="NCNSU==I">slutspil</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="superliga" msd="NCCSU==D">superligaen</W>
@@ -106,7 +106,7 @@
 <W lemma="1994" msd="AC---U=--">1994</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="deraf" msd="RGU">deraf</W>
-<W lemma="følge" msd="VAPR=[SP][CN][DI]A-U">følgende</W>
+<W lemma="fÃ¸lge" msd="VAPR=[SP][CN][DI]A-U">fÃ¸lgende</W>
 <W lemma="deltagelse" msd="NCCSU==I">deltagelse</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Europa_Cup-turnering" msd="NCCPU==I">Europa_Cup-turneringer</W>
@@ -117,7 +117,7 @@
 <W lemma="femteplads" msd="NCCSU==I">femteplads</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="denne" msd="PD-NSU--U">dette</W>
-<W lemma="efterår" msd="NCNSG==I">efterårs</W>
+<W lemma="efterÃ¥r" msd="NCNSG==I">efterÃ¥rs</W>
 <W lemma="grundspil" msd="NCNSU==I">grundspil</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="allerede" msd="RGU">allerede</W>
@@ -134,9 +134,9 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="sportslig" msd="ANP[CN]SU=DU">sportslige</W>
-<W lemma="målsætning" msd="NCCSU==I">målsætning</W>
-<W lemma="indgå" msd="VADR=----A-">indgår</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="mÃ¥lsÃ¦tning" msd="NCCSU==I">mÃ¥lsÃ¦tning</W>
+<W lemma="indgÃ¥" msd="VADR=----A-">indgÃ¥r</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="plads" msd="NCCSU==I">plads</W>
 <W lemma="i" msd="SP">i</W>
@@ -152,7 +152,7 @@
 <s>
 <W lemma="en" msd="PI-CSU--U">En</W>
 <W lemma="kontraktspillerstab" msd="NCCSU==I">kontraktspillerstab</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="24" msd="AC---U=--">24</W>
 <W lemma="mand" msd="NCCSU==I">mand</W>
 <W lemma="give" msd="VADR=----A-">giver</W>
@@ -166,12 +166,12 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="opfylde" msd="VAF-=----A-">opfylde</W>
-<W lemma="målsætning" msd="NCCSU==D">målsætningen</W>
+<W lemma="mÃ¥lsÃ¦tning" msd="NCCSU==D">mÃ¥lsÃ¦tningen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="klub" msd="NCCSG==D">klubbens</W>
 <W lemma="svensk" msd="ANP[CN]SU=DU">svenske</W>
-<W lemma="træner" msd="NCCSU==I">træner</W>
+<W lemma="trÃ¦ner" msd="NCCSU==I">trÃ¦ner</W>
 <W lemma="siden" msd="SP">siden</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="sommer" msd="NCCSU==I">sommer</W>
@@ -193,46 +193,46 @@
 <W lemma="Bo" msd="NP--U==-">Bo</W>
 <W lemma="Johansson" msd="NP--U==-">Johansson</W>
 <W lemma="dog" msd="RGU">dog</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="øge" msd="VAPA=S[CN]IA-U">øget</W>
+<W lemma="Ã¸ge" msd="VAPA=S[CN]IA-U">Ã¸get</W>
 <W lemma="behov" msd="NCNSU==I">behov</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="meget" msd="ANC[CN]SU=IU">mere</W>
-<W lemma="træning" msd="NCCSU==I">træning</W>
+<W lemma="trÃ¦ning" msd="NCCSU==I">trÃ¦ning</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="silkeborgenser" msd="NCCPG==D">silkeborgensernes</W>
-<W lemma="træning" msd="NCCSU==I">træning</W>
+<W lemma="trÃ¦ning" msd="NCCSU==I">trÃ¦ning</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="ny" msd="ANP[CN]SU=DU">nye</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="blive" msd="VAF-=----A-">blive</W>
-<W lemma="øge" msd="VAPA=S[CN]I[ARU]-U">øget</W>
+<W lemma="Ã¸ge" msd="VAPA=S[CN]I[ARU]-U">Ã¸get</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="næsten" msd="RGU">næsten</W>
+<W lemma="nÃ¦sten" msd="RGU">nÃ¦sten</W>
 <W lemma="50" msd="AC---U=--">50</W>
 <W lemma="procent" msd="NCCPU==I">procent</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="hovedvægt" msd="NCCSU==D">Hovedvægten</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="hovedvÃ¦gt" msd="NCCSU==D">HovedvÃ¦gten</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="ekstra" msd="ANP[CN][SP]U=[DI]U">ekstra</W>
-<W lemma="træning" msd="NCCSU==I">træning</W>
-<W lemma="lægge" msd="VADR=----P-">lægges</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="trÃ¦ning" msd="NCCSU==I">trÃ¦ning</W>
+<W lemma="lÃ¦gge" msd="VADR=----P-">lÃ¦gges</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="udvikling" msd="NCCSU==I">udvikling</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="spiller" msd="NCCPG==D">spillernes</W>
 <W lemma="teknisk" msd="ANP[CN]PU=[DI]U">tekniske</W>
-<W lemma="færdighed" msd="NCCPU==I">færdigheder</W>
+<W lemma="fÃ¦rdighed" msd="NCCPU==I">fÃ¦rdigheder</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="kløgt" msd="NCCSU==I">kløgt</W>
+<W lemma="klÃ¸gt" msd="NCCSU==I">klÃ¸gt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="der" msd="U=">der</W>
@@ -245,7 +245,7 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="frigøre" msd="VAF-=----A-">frigøre</W>
+<W lemma="frigÃ¸re" msd="VAF-=----A-">frigÃ¸re</W>
 <W lemma="spiller" msd="NCCPU==D">spillerne</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="mental" msd="ANP[CN]PU=[DI]U">mentale</W>

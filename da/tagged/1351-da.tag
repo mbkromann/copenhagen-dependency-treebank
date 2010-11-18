@@ -52,16 +52,16 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="bo" msd="VAF-=----A-">bo</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="hotel" msd="NCNSU==I">hotel</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="men" msd="CC">Men</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
 <W lemma="let" msd="ANC[CN][SP]U=[DI]U">lettere</W>
 <W lemma="at" msd="U=">at</W>
@@ -72,7 +72,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="sukker" msd="NCNSU==I">sukker</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="karry" msd="NCCSU==I">karry</W>
@@ -82,11 +82,11 @@
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="behøve" msd="VADR=----A-">behøver</W>
+<W lemma="behÃ¸ve" msd="VADR=----A-">behÃ¸ver</W>
 <W lemma="selv" msd="PD-[CN][SP]U--U">selv</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="tage" msd="VAF-=----A-">tage</W>
-<W lemma="sengetøj" msd="NCNSU==I">sengetøj</W>
+<W lemma="sengetÃ¸j" msd="NCNSU==I">sengetÃ¸j</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -113,7 +113,7 @@
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="transport" msd="NCCSU==D">transporten</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -127,7 +127,7 @@
 </s>
 <s>
 <W lemma="kun" msd="RGU">Kun</W>
-<W lemma="få" msd="ANP[CN]PU=[DI]U">få</W>
+<W lemma="fÃ¥" msd="ANP[CN]PU=[DI]U">fÃ¥</W>
 <W lemma="bytte" msd="VADR=----A-">bytter</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
@@ -144,7 +144,7 @@
 <W lemma="starte" msd="VADA=----A-">startede</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="fem" msd="AC---U=--">fem</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="siden" msd="RGU">siden</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="nul" msd="NCNSU==I">nul</W>
@@ -153,7 +153,7 @@
 </s>
 <s>
 <W lemma="i_dag" msd="RGU">I_dag</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="250" msd="AC---U=--">250</W>
 <W lemma="dansk" msd="ANP[CN]PU=[DI]U">danske</W>
@@ -161,33 +161,33 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="verdens-organisation" msd="NCCSU==I">verdens-organisation</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="17.000" msd="AC---U=--">17.000</W>
 <W lemma="medlem" msd="NCNPU==I">medlemmer</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordele" msd="VAPA=S[CN]I[ARU]-U">fordelt</W>
 <W lemma="over" msd="SP">over</W>
-<W lemma="næsten" msd="RGU">næsten</W>
+<W lemma="nÃ¦sten" msd="RGU">nÃ¦sten</W>
 <W lemma="alverden" msd="NCCSG==I">alverdens</W>
 <W lemma="land" msd="NCNPU==I">lande</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="der" msd="U=">Der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="stor" msd="ANPCSU=IU">stor</W>
-<W lemma="søgning" msd="NCCSU==I">søgning</W>
+<W lemma="sÃ¸gning" msd="NCCSU==I">sÃ¸gning</W>
 <W lemma="efter" msd="SP">efter</W>
-<W lemma="Østeuropa" msd="NP--U==-">Østeuropa</W>
+<W lemma="Ã˜steuropa" msd="NP--U==-">Ã˜steuropa</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="således" msd="RGU">Således</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="sÃ¥ledes" msd="RGU">SÃ¥ledes</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="medlem" msd="NCNSU==I">medlem</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="1.000" msd="AC---U=--">1.000</W>
 <W lemma="henvendelse" msd="NCCPU==I">henvendelser</W>
 <W lemma="fra" msd="SP">fra</W>
@@ -207,7 +207,7 @@
 </p>
 <p>
 <s>
-<W lemma="Århus" msd="NP--U==-">Århus</W>
+<W lemma="Ã…rhus" msd="NP--U==-">Ã…rhus</W>
 <W lemma="turistforening" msd="NCCSU==I">Turistforening</W>
 <W lemma="lave" msd="VADA=----A-">lavede</W>
 <W lemma="tidlig" msd="ANC---=-R">tidligere</W>
@@ -216,7 +216,7 @@
 </s>
 <s>
 <W lemma="de" msd="PP3[CN]PN-NU">De</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="stoppe" msd="VAPA=S[CN]I[ARU]-U">stoppet</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
@@ -225,25 +225,25 @@
 <W lemma="ville" msd="VADA=----A-">ville</W>
 <W lemma="betale" msd="VAF-=----A-">betale</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="alene" msd="RGU">alene</W>
 <W lemma="komme" msd="VADA=----A-">kom</W>
-<W lemma="Århus" msd="NP--U==-">Århus</W>
+<W lemma="Ã…rhus" msd="NP--U==-">Ã…rhus</W>
 <W lemma="til_gode" msd="RGU">til_gode</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="Ikea" msd="NP--U==-">Ikea</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="bolig-bytte" msd="NCNSU==I">bolig-bytte</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="hovedvægt" msd="NCCSU==D">hovedvægten</W>
-<W lemma="lægge" msd="VAPA=S[CN]I[ARU]-U">lagt</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="hovedvÃ¦gt" msd="NCCSU==D">hovedvÃ¦gten</W>
+<W lemma="lÃ¦gge" msd="VAPA=S[CN]I[ARU]-U">lagt</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="medlem" msd="NCNPU==I">medlemmer</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="Sverige" msd="NP--U==-">Sverige</W>

@@ -63,7 +63,7 @@
 <W lemma="Jeff" msd="NP--U==-">Jeff</W>
 <W lemma="Healey" msd="NP--U==-">Healey</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="gøre" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
+<W lemma="gÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="igen" msd="RGU">igen</W>
 <W lemma="." msd="XP">.</W>
@@ -91,14 +91,14 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="præsentere" msd="VADR=----A-">præsenterer</W>
+<W lemma="prÃ¦sentere" msd="VADR=----A-">prÃ¦senterer</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="Healey" msd="NP--U==-">Healey</W>
 <W lemma="meget" msd="ANC---=-R">mere</W>
 <W lemma="direkte" msd="ANP---=-R">direkte</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="meget" msd="ANC---=-R">mere</W>
-<W lemma="pågående" msd="ANP---=-R">pågående</W>
+<W lemma="pÃ¥gÃ¥ende" msd="ANP---=-R">pÃ¥gÃ¥ende</W>
 <W lemma="og" msd="CC">og</W>
 <hi>
 <W lemma="upoleret" msd="ANP[CN]SU=IU">upoleret</W>
@@ -113,20 +113,20 @@
 <W lemma="oplagt" msd="ANP[CN]SU=DU">oplagte</W>
 <W lemma="blues" msd="NCCSU==I">blues</W>
 <W lemma="opleve" msd="VADR=----P-">opleves</W>
-<W lemma="både" msd="RGU">både</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
 <W lemma="varm" msd="ANPCSU=IU">varm</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="nærværende" msd="ANP[CN][SP]U=[DI]U">nærværende</W>
+<W lemma="nÃ¦rvÃ¦rende" msd="ANP[CN][SP]U=[DI]U">nÃ¦rvÃ¦rende</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="Healey" msd="NP--U==-">Healey</W>
-<W lemma="høre" msd="VADR=----A-">hører</W>
+<W lemma="hÃ¸re" msd="VADR=----A-">hÃ¸rer</W>
 <W lemma="til" msd="RGU">til</W>
 <W lemma="blandt" msd="SP">blandt</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="pæn" msd="ANC[CN][SP]U=[DI]U">pænere</W>
+<W lemma="pÃ¦n" msd="ANC[CN][SP]U=[DI]U">pÃ¦nere</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="blues-musiker" msd="NCCPU==I">blues-musikere</W>
 <W lemma="," msd="XP">,</W>
@@ -145,9 +145,9 @@
 <s>
 <W lemma="en" msd="PI-CSU--U">En</W>
 <W lemma="herlig" msd="ANPCSU=IU">herlig</W>
-<W lemma="åben" msd="ANPCSU=IU">åben</W>
+<W lemma="Ã¥ben" msd="ANPCSU=IU">Ã¥ben</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="livsbekræftende" msd="ANP[CN][SP]U=[DI]U">livsbekræftende</W>
+<W lemma="livsbekrÃ¦ftende" msd="ANP[CN][SP]U=[DI]U">livsbekrÃ¦ftende</W>
 <W lemma="blues-plade" msd="NCCSU==I">blues-plade</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -157,14 +157,14 @@
 <W lemma="en" msd="PI-CSU--U">En</W>
 <W lemma="pose" msd="NCCSU==I">pose</W>
 <W lemma="godte" msd="NCCPU==I">godter</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="blues-folk" msd="NCNSU==D">blues-folket</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="denne" msd="PD-CSU--U">denne</W>
-<W lemma="sød" msd="ANP[CN]SU=DU">søde</W>
+<W lemma="sÃ¸d" msd="ANP[CN]SU=DU">sÃ¸de</W>
 <W lemma="juletid" msd="NCCSU==I">juletid</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -185,18 +185,18 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="den" msd="PP3CSU-NU">den</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="absolut" msd="ANP---=-R">absolut</W>
-<W lemma="værd" msd="ANP[CN][SP]U=[DI]U">værd</W>
+<W lemma="vÃ¦rd" msd="ANP[CN][SP]U=[DI]U">vÃ¦rd</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="beskæftige" msd="VAF-=----A-">beskæftige</W>
+<W lemma="beskÃ¦ftige" msd="VAF-=----A-">beskÃ¦ftige</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="en" msd="PI-CSU--U">En</W>
-<W lemma="række" msd="NCCSU==I">række</W>
+<W lemma="rÃ¦kke" msd="NCCSU==I">rÃ¦kke</W>
 <W lemma="ypperlig" msd="ANP[CN]PU=[DI]U">ypperlige</W>
 <W lemma="blues-kunstner" msd="NCCPU==I">blues-kunstnere</W>
 <W lemma=" - " msd="XP"> - </W>
@@ -223,10 +223,10 @@
 <s>
 <W lemma="hel" msd="ANP---=-R">Helt</W>
 <W lemma="forrygende" msd="ANP[CN][SP]U=[DI]U">forrygende</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="Koko" msd="NP--U==-">Koko</W>
 <W lemma="Taylor" msd="NP--G==-">Taylors</W>
-<W lemma="udlægning" msd="NCCSU==I">udlægning</W>
+<W lemma="udlÃ¦gning" msd="NCCSU==I">udlÃ¦gning</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="Merry" msd="NP--U==-">Merry</W>
@@ -236,9 +236,9 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="rørende" msd="ANP---=-R">rørende</W>
+<W lemma="rÃ¸rende" msd="ANP---=-R">rÃ¸rende</W>
 <W lemma="smuk" msd="ANPCSU=IU">smuk</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="Musselwhite" msd="NP--G==-">Musselwhites</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="Silent" msd="NP--U==-">Silent</W>

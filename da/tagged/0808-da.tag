@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Når drenge bliver seksuelt misbrugt'</title>
+        <title>Tagged sample of: 'NÃ¥r drenge bliver seksuelt misbrugt'</title>
       </titleStmt>
       <extent words=154>154 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Når drenge bliver seksuelt misbrugt</title>
+            <title>NÃ¥r drenge bliver seksuelt misbrugt</title>
             <author gender=f born=1967>Fleischer, Louise</author>
           </analytic>
           <monogr>
@@ -44,7 +44,7 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="i" msd="SP">I</W>
 <W lemma="virkelighed" msd="NCCSU==D">virkeligheden</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="jeg" msd="PP1CSN-NU">jeg</W>
 <W lemma="ligeglad" msd="ANP[CN]SU=IU">ligeglad</W>
 <W lemma="med" msd="SP">med</W>
@@ -52,11 +52,11 @@
 <W lemma="seksuel" msd="ANP[CN]PU=[DI]U">seksuelle</W>
 <W lemma="lyst" msd="NCCPU==I">lyster</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="længe" msd="RGP">længe</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="lÃ¦nge" msd="RGP">lÃ¦nge</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
@@ -77,7 +77,7 @@
 <W lemma="hvis" msd="CS">hvis</W>
 <W lemma="bare" msd="RGU">bare</W>
 <W lemma="lagkage" msd="NCCSU==D">lagkagen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="enig" msd="ANPCSU=IU">enig</W>
 <W lemma="." msd="XP">.</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -91,18 +91,18 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="anmelde" msd="VAPA=S[CN]I[ARU]-U">anmeldt</W>
 <W lemma="95" msd="AC---U=--">95</W>
-<W lemma="tilfælde" msd="NCNPU==I">tilfælde</W>
+<W lemma="tilfÃ¦lde" msd="NCNPU==I">tilfÃ¦lde</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="incest" msd="NCCSU==I">incest</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="228" msd="AC---U=--">228</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
 <W lemma="overgreb" msd="NCNPU==I">overgreb</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="barn" msd="NCNPU==I">børn</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="barn" msd="NCNPU==I">bÃ¸rn</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="12" msd="AC---U=--">12</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
 <W lemma="." msd="XP">.</W>
@@ -110,17 +110,17 @@
 <s>
 <W lemma="men" msd="CC">Men</W>
 <W lemma="i" msd="XX">i</W>
-<W lemma="følge" msd="XX">følge</W>
+<W lemma="fÃ¸lge" msd="XX">fÃ¸lge</W>
 <W lemma="Eva" msd="NP--U==-">Eva</W>
 <W lemma="Hildebrand" msd="NP--U==-">Hildebrand</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="problem" msd="NCNSU==I">problem</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="myndighed" msd="NCCPU==D">myndighederne</W>
-<W lemma="næsten" msd="RGU">næsten</W>
+<W lemma="nÃ¦sten" msd="RGU">nÃ¦sten</W>
 <W lemma="altid" msd="RGU">altid</W>
 <W lemma="gribe" msd="VADR=----A-">griber</W>
 <W lemma="til" msd="SP">til</W>
@@ -134,7 +134,7 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="behandle" msd="VAF-=----A-">behandle</W>
-<W lemma="krænker" msd="NCCSU==I">krænkeren</W>
+<W lemma="krÃ¦nker" msd="NCCSU==I">krÃ¦nkeren</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -142,7 +142,7 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="hvis" msd="CS">Hvis</W>
-<W lemma="barn" msd="NCNPU==I">børn</W>
+<W lemma="barn" msd="NCNPU==I">bÃ¸rn</W>
 <W lemma="for_eksempel" msd="RGU">f.eks.</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
 <W lemma="misbruge" msd="VAPA=S[CN]I[ARU]-U">misbrugt</W>
@@ -150,11 +150,11 @@
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
 <W lemma="far" msd="NCCSU==I">far</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="turde" msd="VADR=----A-">tør</W>
+<W lemma="turde" msd="VADR=----A-">tÃ¸r</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="netop" msd="RGU">netop</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="afsløre" msd="VAF-=----A-">afsløre</W>
+<W lemma="afslÃ¸re" msd="VAF-=----A-">afslÃ¸re</W>
 <W lemma="misbrug" msd="NCNSU==D">misbruget</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
@@ -179,8 +179,8 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="og" msd="CC">Og</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="problem" msd="NCNSU==I">problem</W>
@@ -189,9 +189,9 @@
 <W lemma="jurist" msd="NCCPU==D">juristerne</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="tro" msd="VADR=----A-">tror</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="lille" msd="ANC[CN][SP]U=[DI]U">mindre</W>
-<W lemma="barn" msd="NCNPU==I">børn</W>
+<W lemma="barn" msd="NCNPU==I">bÃ¸rn</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -212,8 +212,8 @@
 <W lemma="til_gode" msd="RGU">til_gode</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="stort_set" msd="RGU">stort_set</W>
 <W lemma="umulig" msd="ANPNSU=IU">umuligt</W>
@@ -228,12 +228,12 @@
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="eneste" msd="ANP[CN][SP]U=[DI]U">eneste</W>
 <W lemma="vidne" msd="NCNSU==I">vidne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="barn" msd="NCNSU==I">barn</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="10" msd="AC---U=--">10</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>

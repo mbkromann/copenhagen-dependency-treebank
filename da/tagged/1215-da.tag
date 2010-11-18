@@ -50,13 +50,13 @@
 <p>
 <s>
 <W lemma="der" msd="U=">Der</W>
-<W lemma="afsætte" msd="VADR=----P-">afsættes</W>
+<W lemma="afsÃ¦tte" msd="VADR=----P-">afsÃ¦ttes</W>
 <W lemma="100" msd="AC---U=--">100</W>
 <W lemma="million" msd="NCCPU==I">millioner</W>
 <W lemma="krone" msd="NCCPU==I">kroner</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="global" msd="ANPCSU=IU">global</W>
-<W lemma="miljø-" msd="XX">miljø-</W>
+<W lemma="miljÃ¸-" msd="XX">miljÃ¸-</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="katastrofebistand" msd="NCCSU==I">katastrofebistand</W>
 <W lemma="." msd="XP">.</W>
@@ -71,7 +71,7 @@
 <W lemma="folkeafstemning" msd="NCCSU==I">folkeafstemning</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="EF-union" msd="NCCSU==D">EF-Unionen</W>
-<W lemma="afsætte" msd="VADR=----P-">afsættes</W>
+<W lemma="afsÃ¦tte" msd="VADR=----P-">afsÃ¦ttes</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="25" msd="AC---U=--">25</W>
 <W lemma="million" msd="NCCPU==I">millioner</W>
@@ -91,7 +91,7 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="stat" msd="NCCSG==D">Statens</W>
 <W lemma="kunstfond" msd="NC[CN]SU==I">Kunstfond</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="hver" msd="PI-CSU--U">hver</W>
 <W lemma="10" msd="AC---U=--">10</W>
 <W lemma="million" msd="NCCPU==I">millioner</W>
@@ -115,7 +115,7 @@
 <p>
 <s>
 <W lemma="handelsskole" msd="NCCPU==D">Handelsskolerne</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="ekstra" msd="ANP[CN][SP]U=[DI]U">ekstra</W>
 <W lemma="25" msd="AC---U=--">25</W>
 <W lemma="million" msd="NCCPU==I">millioner</W>
@@ -126,11 +126,11 @@
 <p>
 <s>
 <W lemma="bagmandspoliti" msd="NCNSU==D">Bagmandspolitiet</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="øge" msd="VAPA=S[CN]IA-U">øget</W>
+<W lemma="Ã¸ge" msd="VAPA=S[CN]IA-U">Ã¸get</W>
 <W lemma="bevilling" msd="NCCSU==I">bevilling</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="million" msd="NCCPU==I">mill.</W>
 <W lemma="krone" msd="NCCPU==I">kroner</W>
@@ -144,30 +144,30 @@
 <p>
 <s>
 <W lemma="der" msd="U=">Der</W>
-<W lemma="gennemføre" msd="VADR=----P-">gennemføres</W>
+<W lemma="gennemfÃ¸re" msd="VADR=----P-">gennemfÃ¸res</W>
 <W lemma="besparelse" msd="NCCPU==I">besparelser</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="budgetforbedring" msd="NCCPU==I">budgetforbedringer</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="i_alt" msd="RGU">i_alt</W>
 <W lemma="9,5" msd="AC---U=--">9,5</W>
 <W lemma="milliard" msd="NCCPU==I">milliarder</W>
 <W lemma="krone" msd="NCCPU==I">kroner</W>
-<W lemma="næste" msd="ANP[CN][SP]U=[DI]U">næste</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="nÃ¦ste" msd="ANP[CN][SP]U=[DI]U">nÃ¦ste</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="herunder" msd="RGU">Herunder</W>
 <W lemma="medicinbesparelse" msd="NCCPU==I">medicinbesparelser</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="140" msd="AC---U=--">140</W>
 <W lemma="million" msd="NCCPU==I">millioner</W>
 <W lemma="krone" msd="NCCPU==I">kroner</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="indføre" msd="VADR=----P-">indføres</W>
+<W lemma="indfÃ¸re" msd="VADR=----P-">indfÃ¸res</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="fastkronetilskud" msd="NCNSU==I">fastkronetilskud</W>
 <W lemma="." msd="XP">.</W>
@@ -176,9 +176,9 @@
 <W lemma="desuden" msd="RGU">Desuden</W>
 <W lemma="yde" msd="VADR=----P-">ydes</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="længe" msd="RGC">længere</W>
+<W lemma="lÃ¦nge" msd="RGC">lÃ¦ngere</W>
 <W lemma="offentlig" msd="ANP[CN]PU=[DI]U">offentlige</W>
-<W lemma="lån" msd="NCNPU==I">lån</W>
+<W lemma="lÃ¥n" msd="NCNPU==I">lÃ¥n</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="betaling" msd="NCCSU==I">betaling</W>
 <W lemma="af" msd="SP">af</W>
@@ -186,9 +186,9 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="øvrig" msd="ANP[CN]PU=[DI]U">Øvrige</W>
+<W lemma="Ã¸vrig" msd="ANP[CN]PU=[DI]U">Ã˜vrige</W>
 <W lemma="element" msd="NCNPU==I">elementer</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma=":" msd="XP">:</W>
 </s>
 </p>
@@ -196,7 +196,7 @@
 <s>
 <W lemma="der" msd="U=">Der</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
-<W lemma="sælge" msd="VAF-=----P-">sælges</W>
+<W lemma="sÃ¦lge" msd="VAF-=----P-">sÃ¦lges</W>
 <W lemma="aktie" msd="NCCPU==I">aktier</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="datacentral" msd="NCCSU==D">Datacentralen</W>
@@ -205,9 +205,9 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="GiroBank" msd="NP--U==-">GiroBank</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="eksportkreditråd" msd="NCNSU==D">Eksportkreditrådet</W>
+<W lemma="eksportkreditrÃ¥d" msd="NCNSU==D">EksportkreditrÃ¥det</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="København" msd="NP--G==-">Københavns</W>
+<W lemma="KÃ¸benhavn" msd="NP--G==-">KÃ¸benhavns</W>
 <W lemma="lufthavn" msd="NCCSU==I">Lufthavn</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="i_alt" msd="RGU">i_alt</W>
@@ -244,18 +244,18 @@
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="betale" msd="VAF-=----A-">betale</W>
 <W lemma="bidrag" msd="NCNPU==I">bidrag</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="grundlag" msd="NCNSU==I">grundlag</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="gælde" msd="VAPR=[SP][CN][DI]A-U">gældende</W>
-<W lemma="dagpengebeløb" msd="NCNSU==I">dagpengebeløb</W>
+<W lemma="gÃ¦lde" msd="VAPR=[SP][CN][DI]A-U">gÃ¦ldende</W>
+<W lemma="dagpengebelÃ¸b" msd="NCNSU==I">dagpengebelÃ¸b</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="fra" msd="SP">fra</W>
-<W lemma="år" msd="NCNSU==D">året</W>
-<W lemma="før" msd="RGU">før</W>
+<W lemma="Ã¥r" msd="NCNSU==D">Ã¥ret</W>
+<W lemma="fÃ¸r" msd="RGU">fÃ¸r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>

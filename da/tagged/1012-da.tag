@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'De konservative må fjerne Uffe'</title>
+        <title>Tagged sample of: 'De konservative mÃ¥ fjerne Uffe'</title>
       </titleStmt>
       <extent words=163>163 running words</extent>
       <publicationStmt>
@@ -14,8 +14,8 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>De konservative må fjerne Uffe</title>
-            <author gender=m>Espersen, Søren</author>
+            <title>De konservative mÃ¥ fjerne Uffe</title>
+            <author gender=m>Espersen, SÃ¸ren</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -51,7 +51,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="utvetydig" msd="ANP[CN]PU=[DI]U">utvetydige</W>
 <W lemma="vending" msd="NCCPU==I">vendinger</W>
-<W lemma="slå" msd="VADR=----A-">slår</W>
+<W lemma="slÃ¥" msd="VADR=----A-">slÃ¥r</W>
 <W lemma="fast" msd="ANP---=-R">fast</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
@@ -60,9 +60,9 @@
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="ratificere" msd="VAF-=----P-">ratificeres</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="igangsætte" msd="VAF-=----P-">igangsættes</W>
+<W lemma="igangsÃ¦tte" msd="VAF-=----P-">igangsÃ¦ttes</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="sige" msd="VAPA=S[CN]I[ARU]-U">sagt</W>
@@ -75,7 +75,7 @@
 <W lemma="blive" msd="VADR=----A-">bliver</W>
 <W lemma="Danmark" msd="NP--G==-">Danmarks</W>
 <W lemma="udenrigsminister" msd="NCCSU==I">udenrigsminister</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="bede" msd="VAPA=S[CN]I[ARU]-U">bedt</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="at" msd="U=">at</W>
@@ -100,10 +100,10 @@
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="burde" msd="VADR=----A-">bør</W>
+<W lemma="burde" msd="VADR=----A-">bÃ¸r</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
-<W lemma="også" msd="RGU">også</W>
-<W lemma="gøre" msd="VAF-=----A-">gøre</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
+<W lemma="gÃ¸re" msd="VAF-=----A-">gÃ¸re</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -116,7 +116,7 @@
 <W lemma="af" msd="SP">af</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="ganske" msd="RGU">ganske</W>
-<W lemma="utålelig" msd="ANPCSU=IU">utålelig</W>
+<W lemma="utÃ¥lelig" msd="ANPCSU=IU">utÃ¥lelig</W>
 <W lemma="karakter" msd="NCCSU==I">karakter</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -129,14 +129,14 @@
 <W lemma="Uffe" msd="NP--U==-">Uffe</W>
 <W lemma="Ellemann-Jensen" msd="NP--U==-">Ellemann-Jensen</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="liberal" msd="ANPNSU=IU">liberalt</W>
 <W lemma="selskab" msd="NCNSU==I">selskab</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="to" msd="AC---U=--">to</W>
-<W lemma="vulgær-unionist" msd="NCCPU==I">vulgær-unionister</W>
+<W lemma="vulgÃ¦r-unionist" msd="NCCPU==I">vulgÃ¦r-unionister</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="Paddy" msd="NP--U==-">Paddy</W>
 <W lemma="Ashdown" msd="NP--U==-">Ashdown</W>
@@ -161,7 +161,7 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="lave" msd="VADR=----A-">laver</W>
 <W lemma="om" msd="RGU">om</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="vores" msd="PO1[CN][SP]UPNU">vores</W>
 <W lemma="unions-beslutning" msd="NCCSU==I">unions-beslutning</W>
 <W lemma="." msd="XP">.</W>
@@ -183,7 +183,7 @@
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="slags" msd="NCCSU==I">slags</W>
-<W lemma="vulgær" msd="ANP[CN]PU=[DI]U">vulgære</W>
+<W lemma="vulgÃ¦r" msd="ANP[CN]PU=[DI]U">vulgÃ¦re</W>
 <W lemma="trussel" msd="NCCPU==I">trusler</W>
 <W lemma="over" msd="RGU">over</W>
 <W lemma="for" msd="SP">for</W>
@@ -193,7 +193,7 @@
 <W lemma="som" msd="U=">som</W>
 <W lemma="bare" msd="RGU">bare</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="gøre" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
+<W lemma="gÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="demokratisk" msd="ANP[CN]SU=DU">demokratiske</W>
 <W lemma="pligt" msd="NCCSU==I">pligt</W>
@@ -203,7 +203,7 @@
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="beslutning" msd="NCCSU==I">beslutning</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="gøre" msd="VADR=----A-">gør</W>
+<W lemma="gÃ¸re" msd="VADR=----A-">gÃ¸r</W>
 <W lemma="Uffe" msd="NP--U==-">Uffe</W>
 <W lemma="Ellemann-Jensen" msd="NP--U==-">Ellemann-Jensen</W>
 <W lemma="ingenlunde" msd="RGU">ingenlunde</W>
@@ -211,7 +211,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="tværtimod" msd="RGU">Tværtimod</W>
+<W lemma="tvÃ¦rtimod" msd="RGU">TvÃ¦rtimod</W>
 <W lemma="nikke" msd="VADR=----A-">nikker</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="begejstret" msd="ANP[CN]SU=IU">begejstret</W>
@@ -231,7 +231,7 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="Ashdown" msd="NP--U==-">Ashdown</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="hånd" msd="NCCSU==I">hånd</W>
+<W lemma="hÃ¥nd" msd="NCCSU==I">hÃ¥nd</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="udsmidning" msd="NCCSU==D">udsmidningen</W>

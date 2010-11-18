@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'FREDERIKS TØMMERMÆND'</title>
+        <title>Tagged sample of: 'FREDERIKS TÃ˜MMERMÃ†ND'</title>
       </titleStmt>
       <extent words=156>156 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>FREDERIKS TØMMERMÆND</title>
+            <title>FREDERIKS TÃ˜MMERMÃ†ND</title>
             <author gender=f born=1958>Toft, Tine Maria</author>
           </analytic>
           <monogr>
@@ -46,9 +46,9 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="aldrig" msd="RGU">aldrig</W>
 <W lemma="erhverve" msd="VAPA=S[CN]I[ARU]-U">erhvervet</W>
-<W lemma="kørekort" msd="NCNSU==I">kørekort</W>
+<W lemma="kÃ¸rekort" msd="NCNSU==I">kÃ¸rekort</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="bekræfte" msd="VADR=----A-">bekræfter</W>
+<W lemma="bekrÃ¦fte" msd="VADR=----A-">bekrÃ¦fter</W>
 <W lemma="hendes" msd="PO3[CN][SP]USNU">hendes</W>
 <W lemma="far" msd="NCCSU==I">far</W>
 <W lemma="," msd="XP">,</W>
@@ -63,7 +63,7 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="tage" msd="VAPA=S[CN]I[ARU]-U">taget</W>
 <W lemma="nogen" msd="PI-[CN]PU--U">nogle</W>
-<W lemma="køretime" msd="NCCPU==I">køretimer</W>
+<W lemma="kÃ¸retime" msd="NCCPU==I">kÃ¸retimer</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
@@ -73,11 +73,11 @@
 <s>
 <W lemma="par" msd="NCNSU==D">Parret</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="nytårsfest" msd="NCCSU==I">nytårsfest</W>
+<W lemma="nytÃ¥rsfest" msd="NCCSU==I">nytÃ¥rsfest</W>
 <W lemma="hos" msd="SP">hos</W>
-<W lemma="en" msd="PI-CSU--U">én</W>
+<W lemma="en" msd="PI-CSU--U">Ã©n</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="kronprins" msd="NCCSG==D">Kronprinsens</W>
 <W lemma="ven" msd="NCCPU==I">venner</W>
@@ -90,7 +90,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="indre" msd="ANP[CN][SP]U=[DI]U">indre</W>
-<W lemma="København" msd="NP--U==-">København</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -98,18 +98,18 @@
 <W lemma="gade" msd="NCCSU==I">gade</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="i_øvrigt" msd="RGU">i_øvrigt</W>
+<W lemma="i_Ã¸vrigt" msd="RGU">i_Ã¸vrigt</W>
 <W lemma="ligge" msd="VADR=----A-">ligger</W>
 <W lemma="lige" msd="RGU">lige</W>
 <W lemma="ved" msd="SP">ved</W>
-<W lemma="politigård" msd="NCCSU==D">Politigården</W>
+<W lemma="politigÃ¥rd" msd="NCCSU==D">PolitigÃ¥rden</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="ud" msd="RGU">Ud</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="nat" msd="NCCSU==D">natten</W>
 <W lemma="forlade" msd="VADA=----A-">forlod</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
@@ -131,10 +131,10 @@
 </p>
 <p>
 <s>
-<W lemma="på" msd="SP">På</W>
+<W lemma="pÃ¥" msd="SP">PÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="tidspunkt" msd="NCNSU==I">tidspunkt</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="Malou" msd="NP--U==-">Malou</W>
 <W lemma="Aamund" msd="NP--U==-">Aamund</W>
 <W lemma="bag" msd="SP">bag</W>
@@ -144,15 +144,15 @@
 <W lemma="kronprins" msd="NCCSU==I">kronprins</W>
 <W lemma="Frederik" msd="NP--U==-">Frederik</W>
 <W lemma="sidde" msd="VADA=----A-">sad</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="passagersæde" msd="NCNSU==D">passagersædet</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="passagersÃ¦de" msd="NCNSU==D">passagersÃ¦det</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="hvor" msd="RGU">HVOR</W>
-<W lemma="være" msd="VADA=----A-">VAR</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">VAR</W>
 <W lemma="livvagt" msd="NCCPU==D">LIVVAGTERNE</W>
 </s>
 </p>
@@ -160,7 +160,7 @@
 <s>
 <W lemma="kronprins" msd="NCCSG==D">Kronprinsens</W>
 <W lemma="livvagt" msd="NCCPU==I">livvagter</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="fest" msd="NCCSU==D">festen</W>
@@ -197,7 +197,7 @@
 <W lemma="kongehus" msd="NCNSG==D">Kongehusets</W>
 <W lemma="sikkerhed" msd="NCCSU==I">sikkerhed</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="nægte" msd="VADR=----A-">nægter</W>
+<W lemma="nÃ¦gte" msd="VADR=----A-">nÃ¦gter</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="udtale" msd="VAF-=----A-">udtale</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
@@ -214,7 +214,7 @@
 <W lemma="tilsyneladende" msd="ANP---=-R">tilsyneladende</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="gøre" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
+<W lemma="gÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
 <W lemma="nogen" msd="PI-NSU--U">noget</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
@@ -224,7 +224,7 @@
 <W lemma="beruset" msd="ANP[CN]PU=[DI]U">berusede</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="køre" msd="VAF-=----A-">køre</W>
+<W lemma="kÃ¸re" msd="VAF-=----A-">kÃ¸re</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="fest" msd="NCCSU==D">festen</W>
 <W lemma="," msd="XP">,</W>
@@ -235,7 +235,7 @@
 <W lemma="Malou" msd="NP--U==-">Malou</W>
 <W lemma="Aamund" msd="NP--U==-">Aamund</W>
 <W lemma="op" msd="RGU">op</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="Nyropsgade" msd="NP--U==-">Nyropsgade</W>
 <W lemma="politistation" msd="NCCSU==I">politistation</W>
 <W lemma="." msd="XP">.</W>
@@ -244,11 +244,11 @@
 <p>
 <s>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">Alle</W>
-<W lemma="spørge" msd="VADR=----A-">spørger</W>
+<W lemma="spÃ¸rge" msd="VADR=----A-">spÃ¸rger</W>
 <W lemma="i_dag" msd="RGU">i_dag</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="hvor" msd="RGU">Hvor</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="PET" msd="NP--G==-">PETs</W>
 <W lemma="livvagt" msd="NCCPU==I">livvagter</W>
 <W lemma="," msd="XP">,</W>

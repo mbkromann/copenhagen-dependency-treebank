@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Lån mod pant i fast ejendom ydet af peng'</title>
+        <title>Tagged sample of: 'LÃ¥n mod pant i fast ejendom ydet af peng'</title>
       </titleStmt>
       <extent words=170>170 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Lån mod pant i fast ejendom ydet af peng</title>
+            <title>LÃ¥n mod pant i fast ejendom ydet af peng</title>
             <author>Statens Information</author>
           </analytic>
           <monogr>
@@ -40,69 +40,69 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="løbe" msd="VADR=----A-">Løber</W>
-<W lemma="lån" msd="NCNSU==D">lånet</W>
-<W lemma="længe" msd="RGC">længere</W>
+<W lemma="lÃ¸be" msd="VADR=----A-">LÃ¸ber</W>
+<W lemma="lÃ¥n" msd="NCNSU==D">lÃ¥net</W>
+<W lemma="lÃ¦nge" msd="RGC">lÃ¦ngere</W>
 <W lemma="end" msd="CS">end</W>
 <W lemma="ti" msd="AC---U=--">ti</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="regel" msd="NCCPU==D">reglerne</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="maksimal" msd="ANPCSU=IU">maksimal</W>
-<W lemma="løbetid" msd="NCCSU==I">løbetid</W>
+<W lemma="lÃ¸betid" msd="NCCSU==I">lÃ¸betid</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="lov" msd="NCCSU==I">lov</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="realkreditinstitut" msd="NCNPU==I">realkreditinstitutter</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="lån" msd="NCNSU==D">lånet</W>
+<W lemma="lÃ¥n" msd="NCNSU==D">lÃ¥net</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="ligeledes" msd="RGU">ligeledes</W>
 <W lemma="afdrage" msd="VAF-=----P-">afdrages</W>
-<W lemma="regelmæssig" msd="ANP---=-R">regelmæssigt</W>
+<W lemma="regelmÃ¦ssig" msd="ANP---=-R">regelmÃ¦ssigt</W>
 <W lemma="over" msd="SP">over</W>
-<W lemma="løbetid" msd="NCCSU==D">løbetiden</W>
+<W lemma="lÃ¸betid" msd="NCCSU==D">lÃ¸betiden</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="løbetid" msd="NCCSU==D">Løbetiden</W>
+<W lemma="lÃ¸betid" msd="NCCSU==D">LÃ¸betiden</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="højst" msd="RGU">højst</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="hÃ¸jst" msd="RGU">hÃ¸jst</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="30" msd="AC---U=--">30</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="lån" msd="NCNPU==I">lån</W>
+<W lemma="lÃ¥n" msd="NCNPU==I">lÃ¥n</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="opførelse" msd="NCCSU==I">opførelse</W>
+<W lemma="opfÃ¸relse" msd="NCCSU==I">opfÃ¸relse</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="ejendom" msd="NCCPU==I">ejendomme</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="helårsbeboelse" msd="NCCSU==I">helårsbeboelse</W>
+<W lemma="helÃ¥rsbeboelse" msd="NCCSU==I">helÃ¥rsbeboelse</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="til" msd="SP">Til</W>
-<W lemma="opførelse" msd="NCCSU==I">opførelse</W>
+<W lemma="opfÃ¸relse" msd="NCCSU==I">opfÃ¸relse</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="fritidshus" msd="NCNPU==I">fritidshuse</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="lån" msd="NCNSU==D">lånet</W>
-<W lemma="højst" msd="RGU">højst</W>
-<W lemma="løbe" msd="VAF-=----A-">løbe</W>
+<W lemma="lÃ¥n" msd="NCNSU==D">lÃ¥net</W>
+<W lemma="hÃ¸jst" msd="RGU">hÃ¸jst</W>
+<W lemma="lÃ¸be" msd="VAF-=----A-">lÃ¸be</W>
 <W lemma="20" msd="AC---U=--">20</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
-<W lemma="også" msd="RGU">også</W>
-<W lemma="lån" msd="NCNPU==I">lån</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
+<W lemma="lÃ¥n" msd="NCNPU==I">lÃ¥n</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="ejerskifte" msd="NCNSU==I">ejerskifte</W>
 <W lemma="," msd="XP">,</W>
@@ -112,32 +112,32 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="tilbygning" msd="NCCPU==I">tilbygninger</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="helårshus" msd="NCNPU==I">helårshuse</W>
+<W lemma="helÃ¥rshus" msd="NCNPU==I">helÃ¥rshuse</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="for" msd="SP">For</W>
-<W lemma="lån" msd="NCNPU==I">lån</W>
+<W lemma="lÃ¥n" msd="NCNPU==I">lÃ¥n</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="vedligeholdelse" msd="NCCSU==I">vedligeholdelse</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="fritidshus" msd="NCNPU==I">fritidshuse</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="løbetid" msd="NCCSU==D">løbetiden</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="lÃ¸betid" msd="NCCSU==D">lÃ¸betiden</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="15" msd="AC---U=--">15</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="ti" msd="AC---U=--">ti</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="lån" msd="NCNPU==I">lån</W>
+<W lemma="lÃ¥n" msd="NCNPU==I">lÃ¥n</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
-<W lemma="formål" msd="NCNPU==I">formål</W>
+<W lemma="formÃ¥l" msd="NCNPU==I">formÃ¥l</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="for_eksempel" msd="RGU">f.eks.</W>
-<W lemma="lån" msd="NCNPU==I">lån</W>
+<W lemma="lÃ¥n" msd="NCNPU==I">lÃ¥n</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="ejerskifte" msd="NCNSU==I">ejerskifte</W>
 <W lemma="af" msd="SP">af</W>
@@ -147,31 +147,31 @@
 </p>
 <p>
 <s>
-<W lemma="lån" msd="NCNPU==I">Lån</W>
+<W lemma="lÃ¥n" msd="NCNPU==I">LÃ¥n</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="opførelse" msd="NCCSU==I">opførelse</W>
+<W lemma="opfÃ¸relse" msd="NCCSU==I">opfÃ¸relse</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="ejerskifte" msd="NCNSU==I">ejerskifte</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="ejendom" msd="NCCPU==I">ejendomme</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="helårsbeboelse" msd="NCCSU==I">helårsbeboelse</W>
+<W lemma="helÃ¥rsbeboelse" msd="NCCSU==I">helÃ¥rsbeboelse</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="yde" msd="VAF-=----P-">ydes</W>
 <W lemma="inden" msd="RGU">inden</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="grænse" msd="NCCSU==I">grænse</W>
+<W lemma="grÃ¦nse" msd="NCCSU==I">grÃ¦nse</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="80" msd="AC---U=--">80</W>
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="mens" msd="CS">mens</W>
 <W lemma="forslag" msd="NCNSU==D">forslaget</W>
-<W lemma="sætte" msd="VADR=----A-">sætter</W>
+<W lemma="sÃ¦tte" msd="VADR=----A-">sÃ¦tter</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="lånegrænse" msd="NCCSU==I">lånegrænse</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="lÃ¥negrÃ¦nse" msd="NCCSU==I">lÃ¥negrÃ¦nse</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="60" msd="AC---U=--">60</W>
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="for" msd="SP">for</W>
@@ -182,12 +182,12 @@
 <p>
 <s>
 <W lemma="der" msd="U=">Der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="også" msd="RGU">også</W>
-<W lemma="sætte" msd="VAPA=S[CN]I[ARU]-U">sat</W>
-<W lemma="grænse" msd="NCCPU==I">grænser</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
+<W lemma="sÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">sat</W>
+<W lemma="grÃ¦nse" msd="NCCPU==I">grÃ¦nser</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="lån" msd="NCNPU==I">lån</W>
+<W lemma="lÃ¥n" msd="NCNPU==I">lÃ¥n</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="vedligeholdelse" msd="NCCSU==I">vedligeholdelse</W>
 <W lemma="og" msd="CC">og</W>
@@ -197,10 +197,10 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="lån" msd="NCNSU==D">Lånet</W>
+<W lemma="lÃ¥n" msd="NCNSU==D">LÃ¥net</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="højst" msd="RGU">højst</W>
-<W lemma="udgøre" msd="VAF-=----A-">udgøre</W>
+<W lemma="hÃ¸jst" msd="RGU">hÃ¸jst</W>
+<W lemma="udgÃ¸re" msd="VAF-=----A-">udgÃ¸re</W>
 <W lemma="80" msd="AC---U=--">80</W>
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="af" msd="SP">af</W>
@@ -210,20 +210,20 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="eventuel" msd="ANPCSU=IU">eventuel</W>
 <W lemma="offentlig" msd="ANPCSU=IU">offentlig</W>
-<W lemma="støtte" msd="NCCSU==I">støtte</W>
+<W lemma="stÃ¸tte" msd="NCCSU==I">stÃ¸tte</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="lån" msd="NCNPU==I">Lån</W>
+<W lemma="lÃ¥n" msd="NCNPU==I">LÃ¥n</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="opførelse" msd="NCCSU==I">opførelse</W>
+<W lemma="opfÃ¸relse" msd="NCCSU==I">opfÃ¸relse</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="ejerskifte" msd="NCNSU==I">ejerskifte</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="helårshus" msd="NCNPU==I">helårshuse</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="helÃ¥rshus" msd="NCNPU==I">helÃ¥rshuse</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="nedbringe" msd="VAF-=----P-">nedbringes</W>
 <W lemma="langsom" msd="ANC---=-R">langsommere</W>
@@ -231,16 +231,16 @@
 <W lemma="nedbringelse" msd="NCCSU==D">nedbringelsen</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="lån" msd="NCNSU==I">lån</W>
-<W lemma="bestå" msd="VAPR=[SP][CN][DI][ARU]-U">bestående</W>
+<W lemma="lÃ¥n" msd="NCNSU==I">lÃ¥n</W>
+<W lemma="bestÃ¥" msd="VAPR=[SP][CN][DI][ARU]-U">bestÃ¥ende</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="40" msd="AC---U=--">40</W>
 <W lemma="procent" msd="NCCPU==I">pct.</W>
-<W lemma="serielån" msd="NCNSU==I">serielån</W>
+<W lemma="serielÃ¥n" msd="NCNSU==I">serielÃ¥n</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="60" msd="AC---U=--">60</W>
 <W lemma="procent" msd="NCCPU==I">pct.</W>
-<W lemma="annuitetslån" msd="NCNSU==I">annuitetslån</W>
+<W lemma="annuitetslÃ¥n" msd="NCNSU==I">annuitetslÃ¥n</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hedde" msd="VADR=----A-">hedder</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>

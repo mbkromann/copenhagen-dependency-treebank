@@ -45,19 +45,19 @@
 <W lemma="kritik" msd="NCCSU==I">Kritik</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="syerske" msd="NCCPU==D">Syerskerne</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="nej" msd="NCNSU==I">nej</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="blive" msd="VAF-=----A-">blive</W>
 <W lemma="optage" msd="VAPA=S[CN]I[ARU]-U">optaget</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="liste" msd="NCCSU==D">listen</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="erhvervssygdom" msd="NCCPU==I">erhvervssygdomme</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
-<W lemma="læge" msd="NCCPU==D">lægerne</W>
+<W lemma="lÃ¦ge" msd="NCCPU==D">lÃ¦gerne</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
 <W lemma="blive" msd="VAF-=----A-">blive</W>
@@ -66,7 +66,7 @@
 <W lemma="diagnose" msd="NCCSU==D">diagnosen</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="såkaldt" msd="ANP[CN]SU=DU">såkaldte</W>
+<W lemma="sÃ¥kaldt" msd="ANP[CN]SU=DU">sÃ¥kaldte</W>
 <W lemma="symaskine-sygdom" msd="NCCSU==I">symaskine-sygdom</W>
 <W lemma="." msd="XP">.</W>
 </hi>
@@ -82,9 +82,9 @@
 <W lemma="socialdemokrati" msd="NCNSU==D">Socialdemokratiet</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="LO" msd="NP--U==-">LO</W>
-<W lemma="ønske" msd="VADR=----A-">ønsker</W>
+<W lemma="Ã¸nske" msd="VADR=----A-">Ã¸nsker</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="lovændring" msd="NCCSU==I">lovændring</W>
+<W lemma="lovÃ¦ndring" msd="NCCSU==I">lovÃ¦ndring</W>
 <W lemma="." msd="XP">.</W>
 </hi>
 </s>
@@ -94,7 +94,7 @@
 <W lemma="Socialdemokraqtiet" msd="XX">Socialdemokraqtiet</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="LO" msd="NP--U==-">LO</W>
-<W lemma="ønske" msd="VADR=----A-">ønsker</W>
+<W lemma="Ã¸nske" msd="VADR=----A-">Ã¸nsker</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="lov" msd="NCCSU==D">loven</W>
@@ -114,23 +114,23 @@
 <W lemma="at" msd="U=">at</W>
 <W lemma="optage" msd="VAF-=----A-">optage</W>
 <W lemma="syerske" msd="NCCPU==D">syerskerne</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="erhvervssygdomsliste" msd="NCCSU==D">erhvervssygdomslisten</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="LO-sekretær" msd="NCCSU==I">LO-sekretær</W>
-<W lemma="Niels-Jørgen" msd="NP--U==-">Niels-Jørgen</W>
-<W lemma="Hillstrøm" msd="NP--U==-">Hillstrøm</W>
+<W lemma="LO-sekretÃ¦r" msd="NCCSU==I">LO-sekretÃ¦r</W>
+<W lemma="Niels-JÃ¸rgen" msd="NP--U==-">Niels-JÃ¸rgen</W>
+<W lemma="HillstrÃ¸m" msd="NP--U==-">HillstrÃ¸m</W>
 <W lemma="mene" msd="VADR=----A-">mener</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
-<W lemma="afgørelse" msd="NCCSU==D">afgørelsen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="træffe" msd="VAPA=S[CN]I[ARU]-U">truffet</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="afgÃ¸relse" msd="NCCSU==D">afgÃ¸relsen</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="trÃ¦ffe" msd="VAPA=S[CN]I[ARU]-U">truffet</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="udemokratisk" msd="ANP[CN]SU=IU">udemokratisk</W>
 <W lemma="grundlag" msd="NCNSU==I">grundlag</W>
@@ -142,7 +142,7 @@
 <W lemma="ville" msd="VADA=----A-">ville</W>
 <W lemma="optage" msd="VAF-=----A-">optage</W>
 <W lemma="syerske" msd="NCCPU==D">syerskerne</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="liste" msd="NCCSU==D">listen</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -151,19 +151,19 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="udvalg" msd="NCNSU==D">Udvalget</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="kun" msd="RGU">kun</W>
-<W lemma="rådgive" msd="VAPR=[SP][CN][DI][ARU]-U">rådgivende</W>
+<W lemma="rÃ¥dgive" msd="VAPR=[SP][CN][DI][ARU]-U">rÃ¥dgivende</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="arbejdsskadestyrelse" msd="NCCSU==D">Arbejdsskadestyrelsen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="suveræn" msd="ANP---=-R">suverænt</W>
-<W lemma="træffe" msd="VADR=----A-">træffer</W>
+<W lemma="suverÃ¦n" msd="ANP---=-R">suverÃ¦nt</W>
+<W lemma="trÃ¦ffe" msd="VADR=----A-">trÃ¦ffer</W>
 <W lemma="beslutning" msd="NCCSU==D">beslutningen</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -176,27 +176,27 @@
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="modernisere" msd="VAF-=----P-">moderniseres</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="CS">så</W>
-<W lemma="afgørelse" msd="NCCPU==D">afgørelserne</W>
-<W lemma="følge" msd="VADR=----A-">følger</W>
+<W lemma="sÃ¥" msd="CS">sÃ¥</W>
+<W lemma="afgÃ¸relse" msd="NCCPU==D">afgÃ¸relserne</W>
+<W lemma="fÃ¸lge" msd="VADR=----A-">fÃ¸lger</W>
 <W lemma="flertal" msd="NCNSU==D">flertallet</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
-<W lemma="træffe" msd="VAPA=S[CN]I[ARU]-U">truffet</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="trÃ¦ffe" msd="VAPA=S[CN]I[ARU]-U">truffet</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="demokratisk" msd="ANP[CN]SU=IU">demokratisk</W>
 <W lemma="grundlag" msd="NCNSU==I">grundlag</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
-<W lemma="NielsJørgen" msd="NP--U==-">NielsJørgen</W>
-<W lemma="Hillstrøm" msd="NP--U==-">Hillstrøm</W>
+<W lemma="NielsJÃ¸rgen" msd="NP--U==-">NielsJÃ¸rgen</W>
+<W lemma="HillstrÃ¸m" msd="NP--U==-">HillstrÃ¸m</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="LO" msd="NP--G==-">LOs</W>
-<W lemma="repræsentant" msd="NCCSU==I">repræsentant</W>
+<W lemma="reprÃ¦sentant" msd="NCCSU==I">reprÃ¦sentant</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="erhvervssygdomsudvalg" msd="NCNSU==D">erhvervssygdomsudvalget</W>
 <W lemma="," msd="XP">,</W>
@@ -211,7 +211,7 @@
 <W lemma="for" msd="SP">For</W>
 <W lemma="syerske" msd="NCCPU==D">syerskerne</W>
 <W lemma="betyde" msd="VADR=----A-">betyder</W>
-<W lemma="afgørelse" msd="NCCSU==D">afgørelsen</W>
+<W lemma="afgÃ¸relse" msd="NCCSU==D">afgÃ¸relsen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
@@ -221,7 +221,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="blive" msd="VAPA=S[CN]I[ARU]-U">blevet</W>
 <W lemma="syg" msd="ANP[CN]PU=[DI]U">syge</W>
 <W lemma="af" msd="SP">af</W>
@@ -231,12 +231,12 @@
 <s>
 <W lemma="hvis" msd="CS">Hvis</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="komme" msd="VAPA=S[CN]I[ARU]-U">kommet</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="liste" msd="NCCSU==D">listen</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="ligge" msd="VADA=----A-">lå</W>
+<W lemma="ligge" msd="VADA=----A-">lÃ¥</W>
 <W lemma="bevisbyrde" msd="NCCSU==D">bevisbyrden</W>
 <W lemma="hos" msd="SP">hos</W>
 <W lemma="arbejdsskadestyrelse" msd="NCCSU==D">Arbejdsskadestyrelsen</W>
@@ -246,13 +246,13 @@
 <p>
 <s>
 <W lemma="arbejdsskadestyrelse" msd="NCCSG==D">Arbejdsskadestyrelsens</W>
-<W lemma="direktør" msd="NCCSU==I">direktør</W>
+<W lemma="direktÃ¸r" msd="NCCSU==I">direktÃ¸r</W>
 <W lemma="Finn" msd="NP--U==-">Finn</W>
 <W lemma="Svarrer" msd="NP--U==-">Svarrer</W>
-<W lemma="ønske" msd="VADA=----A-">ønskede</W>
+<W lemma="Ã¸nske" msd="VADA=----A-">Ã¸nskede</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="erklære" msd="VAF-=----A-">erklære</W>
+<W lemma="erklÃ¦re" msd="VAF-=----A-">erklÃ¦re</W>
 <W lemma="syerske" msd="NCCPG==D">syerskernes</W>
 <W lemma="smerte" msd="NCCPU==I">smerter</W>
 <W lemma="for" msd="SP">for</W>
@@ -260,8 +260,8 @@
 <W lemma="erhvervssygdom" msd="NCCSU==I">erhvervssygdom</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
-<W lemma="læge" msd="NCCPU==D">lægerne</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="lÃ¦ge" msd="NCCPU==D">lÃ¦gerne</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="uenig" msd="ANP[CN]PU=[DI]U">uenige</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="diagnose" msd="NCCSU==D">diagnosen</W>
@@ -269,14 +269,14 @@
 </s>
 <s>
 <W lemma="fire" msd="AC---U=--">Fire</W>
-<W lemma="læge" msd="NCCPU==I">læger</W>
+<W lemma="lÃ¦ge" msd="NCCPU==I">lÃ¦ger</W>
 <W lemma="mene" msd="VADA=----A-">mente</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="ville" msd="VADA=----A-">ville</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="rigtig" msd="ANPNSU=IU">rigtigt</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="betegne" msd="VAF-=----A-">betegne</W>

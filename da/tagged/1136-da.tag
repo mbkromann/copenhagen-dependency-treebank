@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Virkelighedsbegrebet er i fare - Stephen</title>
-            <author gender=m>Rønnelund, Morten</author>
+            <author gender=m>RÃ¸nnelund, Morten</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -43,18 +43,18 @@
 <s>
 <W lemma="(" msd="XP">(</W>
 <W lemma="netop" msd="RGU">Netop</W>
-<W lemma="her" msd="RGU">hér</W>
+<W lemma="her" msd="RGU">hÃ©r</W>
 <W lemma="tabe" msd="VADA=----A-">tabte</W>
 <W lemma="Berlingske" msd="NP--U==-">Berlingske</W>
 <W lemma="tidende" msd="NCCSU==I">Tidende</W>
 <W lemma="20" msd="AC---U=--">20</W>
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="kroniklæser" msd="NCCPU==D">kroniklæserne</W>
+<W lemma="kroniklÃ¦ser" msd="NCCPU==D">kroniklÃ¦serne</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
 <W lemma="denne" msd="PD-[CN]PU--U">disse</W>
-<W lemma="læse" msd="VADR=----A-">læser</W>
+<W lemma="lÃ¦se" msd="VADR=----A-">lÃ¦ser</W>
 <W lemma="min" msd="PO1CSUSNU">min</W>
 <W lemma="beskrivelse" msd="NCCSU==I">beskrivelse</W>
 <W lemma="og" msd="CC">og</W>
@@ -76,9 +76,9 @@
 <W lemma="moral" msd="NCCPU==I">moraler</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="systemkritisk" msd="ANP[CN]PU=[DI]U">systemkritiske</W>
-<W lemma="spørgsmål" msd="NCNPU==I">spørgsmål</W>
+<W lemma="spÃ¸rgsmÃ¥l" msd="NCNPU==I">spÃ¸rgsmÃ¥l</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="fremtidsspående" msd="ANP[CN][SP]U=[DI]U">fremtidsspående</W>
+<W lemma="fremtidsspÃ¥ende" msd="ANP[CN][SP]U=[DI]U">fremtidsspÃ¥ende</W>
 <W lemma="epos" msd="NCNPU==I">epos'er</W>
 <W lemma="betvivle" msd="VADR=----A-">betvivler</W>
 <W lemma="al" msd="ANPNSU=[DI]U">alt</W>
@@ -87,25 +87,25 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="fordreje" msd="VADR=----A-">fordrejer</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="klassisk" msd="ANP[CN]PU=[DI]U">klassiske</W>
-<W lemma="litterær" msd="ANP[CN]PU=[DI]U">litterære</W>
+<W lemma="litterÃ¦r" msd="ANP[CN]PU=[DI]U">litterÃ¦re</W>
 <W lemma="syndrom" msd="NCNPU==I">syndromer</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="eksempelvis" msd="RGU">Eksempelvis</W>
 <W lemma=":" msd="XP">:</W>
-<W lemma="øde_ø-syndrom" msd="NCNSU==D">Øde_ø-syndromet</W>
+<W lemma="Ã¸de_Ã¸-syndrom" msd="NCNSU==D">Ã˜de_Ã¸-syndromet</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="tidsrejser_contra_paradokser-syndrom" msd="NCNSU==D">tidsrejser_contra_paradokser-syndromet</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="objekter/ting_der_bliver_levende-syndrom" msd="NCNSU==D">objekter/ting_der_bliver_levende-syndromet</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="lang" msd="ANC[CN][SP]U=[DI]U">længere</W>
-<W lemma="række" msd="NCCSU==I">række</W>
+<W lemma="lang" msd="ANC[CN][SP]U=[DI]U">lÃ¦ngere</W>
+<W lemma="rÃ¦kke" msd="NCCSU==I">rÃ¦kke</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -115,7 +115,7 @@
 <W lemma="i" msd="SP">I</W>
 <W lemma="roman" msd="NCCSU==D">romanen</W>
 <W lemma="Langolinerne" msd="NP--U==-">Langolinerne</W>
-<W lemma="fremsætte" msd="VADR=----A-">fremsætter</W>
+<W lemma="fremsÃ¦tte" msd="VADR=----A-">fremsÃ¦tter</W>
 <W lemma="King" msd="NP--U==-">King</W>
 <W lemma="nogen" msd="PI-[CN]PU--U">nogle</W>
 <W lemma="ny" msd="ANP[CN]PU=[DI]U">nye</W>
@@ -134,9 +134,9 @@
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="amerikansk" msd="ANP[CN]SU=IU">amerikansk</W>
 <W lemma="passagerfly" msd="NCNSU==I">passagerfly</W>
-<W lemma="gennemtrænge" msd="VAF-=----A-">gennemtrænge</W>
+<W lemma="gennemtrÃ¦nge" msd="VAF-=----A-">gennemtrÃ¦nge</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="tidssprække" msd="NCCSU==I">tidssprække</W>
+<W lemma="tidssprÃ¦kke" msd="NCCSU==I">tidssprÃ¦kke</W>
 <W lemma="uden" msd="SP">uden</W>
 <W lemma="passager" msd="NCCPG==D">passagerernes</W>
 <W lemma="vidende" msd="NCNSU==I">vidende</W>
@@ -145,8 +145,8 @@
 <W lemma="billede" msd="NCNPU==I">billeder</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="få" msd="VADR=----A-">får</W>
-<W lemma="læser" msd="NCCSU==D">læseren</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
+<W lemma="lÃ¦ser" msd="NCCSU==D">lÃ¦seren</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="glemme" msd="VAF-=----A-">glemme</W>
@@ -161,9 +161,9 @@
 <W lemma="maskine" msd="NCCPU==I">maskiner</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="selvfølgelig" msd="RGU">selvfølgelig</W>
+<W lemma="selvfÃ¸lgelig" msd="RGU">selvfÃ¸lgelig</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="planlægge" msd="VAPA=P[CN][DI]A-U">planlagte</W>
+<W lemma="planlÃ¦gge" msd="VAPA=P[CN][DI]A-U">planlagte</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="tidsrejse" msd="NCCPU==I">tidsrejser</W>
 <W lemma="." msd="XP">.</W>
@@ -184,13 +184,13 @@
 <W lemma="bil" msd="NCCSU==I">bil</W>
 <W lemma="besidde" msd="VAF-=----A-">besidde</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="sjæl" msd="NCCSU==I">sjæl</W>
+<W lemma="sjÃ¦l" msd="NCCSU==I">sjÃ¦l</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="uden" msd="SP">uden</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="denne" msd="PD-NSU--U">dette</W>
 <W lemma="distrahere" msd="VADR=----A-">distraherer</W>
-<W lemma="læser" msd="NCCSU==D">læseren</W>
+<W lemma="lÃ¦ser" msd="NCCSU==D">lÃ¦seren</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="King" msd="NP--U==-">King</W>
 <W lemma="tvinge" msd="VADR=----A-">tvinger</W>
@@ -207,11 +207,11 @@
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="overflødighedshorn" msd="NCNSU==I">overflødighedshorn</W>
+<W lemma="overflÃ¸dighedshorn" msd="NCNSU==I">overflÃ¸dighedshorn</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="spænding" msd="NCCSU==I">spænding</W>
+<W lemma="spÃ¦nding" msd="NCCSU==I">spÃ¦nding</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="kærlighed" msd="NCCSU==I">kærlighed</W>
+<W lemma="kÃ¦rlighed" msd="NCCSU==I">kÃ¦rlighed</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="teenageproblem" msd="NCNPU==I">teenageproblemer</W>
 <W lemma="og" msd="CC">og</W>
@@ -220,7 +220,7 @@
 </s>
 <s>
 <W lemma="og" msd="CC">Og</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="ingen" msd="PI-NSU--U">intet</W>
 <W lemma="tidspunkt" msd="NCNSU==I">tidspunkt</W>
 <W lemma="flyve" msd="VADR=----A-">flyver</W>
@@ -229,8 +229,8 @@
 <W lemma="historie" msd="NCCSU==D">historien</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="hoved" msd="NCNSU==D">hovedet</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="læser" msd="NCCSU==D">læseren</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="lÃ¦ser" msd="NCCSU==D">lÃ¦seren</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

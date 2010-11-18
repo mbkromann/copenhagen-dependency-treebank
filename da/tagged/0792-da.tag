@@ -42,7 +42,7 @@
 <p>
 <s>
 <W lemma="internationaliseringspulje" msd="NCCSU==D">Internationaliseringspuljen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="oprette" msd="VAPA=S[CN]I[ARU]-U">oprettet</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="supplement" msd="NCNSU==I">supplement</W>
@@ -56,13 +56,13 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="fortrinsvis" msd="ANP---=-R">fortrinsvis</W>
 <W lemma="give" msd="VADR=----A-">giver</W>
-<W lemma="støtte" msd="NCCSU==I">støtte</W>
+<W lemma="stÃ¸tte" msd="NCCSU==I">stÃ¸tte</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="studerende" msd="NCCPU==[DI]">studerende</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="studieophold" msd="NCNSU==I">studieophold</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="EF" msd="NP--U==-">EF</W>
@@ -76,10 +76,10 @@
 <W lemma="19" msd="AC---U=--">19</W>
 <W lemma="ung" msd="ANP[CN]PG=[DI]U">unges</W>
 <W lemma="studietur" msd="NCCPU==I">studieture</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="lang" msd="ANP---=-R">langt</W>
-<W lemma="væk" msd="RGU">væk</W>
+<W lemma="vÃ¦k" msd="RGU">vÃ¦k</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="for_eksempel" msd="RGU">f.eks.</W>
@@ -98,11 +98,11 @@
 <W lemma="Buhl" msd="NP--U==-">Buhl</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="27" msd="AC---U=--">27</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="i_går" msd="RGU">i_går</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="i_gÃ¥r" msd="RGU">i_gÃ¥r</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="kanonanmeldelse" msd="NCCSU==I">kanonanmeldelse</W>
 <W lemma="af" msd="SP">af</W>
@@ -128,7 +128,7 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="Erik" msd="NP--U==-">Erik</W>
-<W lemma="Højsgaard" msd="NP--U==-">Højsgaard</W>
+<W lemma="HÃ¸jsgaard" msd="NP--U==-">HÃ¸jsgaard</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
@@ -165,7 +165,7 @@
 <W lemma="Buhl" msd="NP--U==-">Buhl</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
-<W lemma="lægge" msd="VAPA=S[CN]I[ARU]-U">lagt</W>
+<W lemma="lÃ¦gge" msd="VAPA=S[CN]I[ARU]-U">lagt</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="stemme" msd="NCCSU==I">stemme</W>
 <W lemma="om" msd="RGU">om</W>
@@ -173,7 +173,7 @@
 <W lemma="heltetenor" msd="NCCSU==I">heltetenor</W>
 <W lemma="hos" msd="SP">hos</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="83-årig" msd="ANP[CN]SU=DU">83-årige</W>
+<W lemma="83-Ã¥rig" msd="ANP[CN]SU=DU">83-Ã¥rige</W>
 <W lemma="Oren" msd="NP--U==-">Oren</W>
 <W lemma="Brown" msd="NP--U==-">Brown</W>
 <W lemma="i" msd="SP">i</W>
@@ -187,9 +187,9 @@
 <W lemma="og" msd="CC">Og</W>
 <W lemma="Jesper" msd="NP--U==-">Jesper</W>
 <W lemma="Riis" msd="NP--U==-">Riis</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="23" msd="AC---U=--">23</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="spille" msd="VADR=----A-">spiller</W>
@@ -208,7 +208,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="Boston" msd="NP--U==-">Boston</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="hel" msd="ANP[CN]SU=DU">hele</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="gammel" msd="ANP[CN]SU=DU">gamle</W>
@@ -244,7 +244,7 @@
 <W lemma="Erik" msd="NP--U==-">Erik</W>
 <W lemma="Moseholm" msd="NP--U==-">Moseholm</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="se" msd="VADA=----A-">så</W>
+<W lemma="se" msd="VADA=----A-">sÃ¥</W>
 <W lemma="stolt" msd="ANP[CN]SU=IU">stolt</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="." msd="XP">.</W>

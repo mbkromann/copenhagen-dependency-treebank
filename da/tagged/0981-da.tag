@@ -45,12 +45,12 @@
 <W lemma="Andersen" msd="NP--U==-">Andersen</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="Jan" msd="NP--U==-">Jan</W>
-<W lemma="Vedersø" msd="NP--U==-">Vedersø</W>
+<W lemma="VedersÃ¸" msd="NP--U==-">VedersÃ¸</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="lede" msd="VADR=----A-">leder</W>
-<W lemma="klaptræ" msd="NCNSU==D">Klaptræet</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="klaptrÃ¦" msd="NCNSU==D">KlaptrÃ¦et</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="Kultorvet" msd="NP--U==-">Kultorvet</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="have" msd="VADR=----A-">har</W>
@@ -74,7 +74,7 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="København" msd="NP--U==-">København</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
 <W lemma="FC" msd="NP--U==-">FC</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="," msd="XP">,</W>
@@ -84,10 +84,10 @@
 <W lemma="Company" msd="NP--U==-">Company</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="klaptræ" msd="NCNSU==D">Klaptræet</W>
+<W lemma="klaptrÃ¦" msd="NCNSU==D">KlaptrÃ¦et</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="tidlig" msd="ANC---=-R">tidligere</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="rumme" msd="VAPA=S[CN]I[ARU]-U">rummet</W>
 <W lemma="tre" msd="AC---U=--">tre</W>
 <W lemma="biograf" msd="NCCPU==I">biografer</W>
@@ -115,7 +115,7 @@
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
-<W lemma="kræve" msd="VAPA=S[CN]I[ARU]-U">krævet</W>
+<W lemma="krÃ¦ve" msd="VAPA=S[CN]I[ARU]-U">krÃ¦vet</W>
 <W lemma="200.000" msd="AC---U=--">200.000</W>
 <W lemma="krone" msd="NCCPU==I">kroner</W>
 <W lemma="," msd="XP">,</W>
@@ -131,7 +131,7 @@
 <W lemma="farlig" msd="ANPNSU=IU">farligt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="fortælle" msd="VADR=----A-">fortæller</W>
+<W lemma="fortÃ¦lle" msd="VADR=----A-">fortÃ¦ller</W>
 <W lemma="Lars" msd="NP--U==-">Lars</W>
 <W lemma="Thorborg" msd="NP--U==-">Thorborg</W>
 <W lemma="." msd="XP">.</W>
@@ -145,7 +145,7 @@
 <W lemma="overlade" msd="VAPA=S[CN]I[ARU]-U">overladt</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="vid" msd="ANC[CN][SP]U=[DI]U">videre</W>
-<W lemma="forløb" msd="NCNSU==I">forløb</W>
+<W lemma="forlÃ¸b" msd="NCNSU==I">forlÃ¸b</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="klub" msd="NCCSG==D">klubbens</W>
 <W lemma="advokat" msd="NCCSU==I">advokat</W>
@@ -160,7 +160,7 @@
 <W lemma="modtage" msd="VADR=----A-">modtager</W>
 <W lemma="Andersen" msd="NP--U==-">Andersen</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="Vedersø" msd="NP--U==-">Vedersø</W>
+<W lemma="VedersÃ¸" msd="NP--U==-">VedersÃ¸</W>
 <W lemma="i_dag" msd="RGU">i_dag</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="brev" msd="NCNSU==I">brev</W>
@@ -168,7 +168,7 @@
 <W lemma="hvori" msd="RGU">hvori</W>
 <W lemma="Copenhagen" msd="NP--U==-">Copenhagen</W>
 <W lemma="Jazzhouse" msd="NP--U==-">Jazzhouse</W>
-<W lemma="nægte" msd="VADR=----A-">nægter</W>
+<W lemma="nÃ¦gte" msd="VADR=----A-">nÃ¦gter</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="betale" msd="VAF-=----A-">betale</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
@@ -195,15 +195,15 @@
 <p>
 <s>
 <W lemma="han" msd="PP3CSN-NU">Han</W>
-<W lemma="hæfte" msd="VADR=----A-">hæfter</W>
+<W lemma="hÃ¦fte" msd="VADR=----A-">hÃ¦fter</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="pengekrævende" msd="ANP[CN][SP]U=[DI]U">pengekrævende</W>
+<W lemma="pengekrÃ¦vende" msd="ANP[CN][SP]U=[DI]U">pengekrÃ¦vende</W>
 <W lemma="selskab" msd="NCNSU==I">selskab</W>
-<W lemma="først" msd="RGU">først</W>
+<W lemma="fÃ¸rst" msd="RGU">fÃ¸rst</W>
 <W lemma="tegne" msd="VADA=----A-">tegnede</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="for" msd="SP">for</W>
@@ -215,7 +215,7 @@
 <W lemma="house" msd="XF">house</W>
 <W lemma="omkring" msd="SP">omkring</W>
 <W lemma="ti" msd="AC---U=--">ti</W>
-<W lemma="måned" msd="NCCPU==I">måneder</W>
+<W lemma="mÃ¥ned" msd="NCCPU==I">mÃ¥neder</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
@@ -234,25 +234,25 @@
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="finde" msd="VADR=----A-">finder</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="sær" msd="ANPNSU=IU">sært</W>
+<W lemma="sÃ¦r" msd="ANPNSU=IU">sÃ¦rt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="selve" msd="ANP[CN][SP]U=[DI]U">selve</W>
 <W lemma="krav" msd="NCNSU==D">kravet</W>
-<W lemma="først" msd="RGU">først</W>
+<W lemma="fÃ¸rst" msd="RGU">fÃ¸rst</W>
 <W lemma="komme" msd="VADR=----A-">kommer</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="maj" msd="NCCSU==I">maj</W>
-<W lemma="måned" msd="NCCSU==I">måned</W>
-<W lemma="i_år" msd="RGU">i_år</W>
+<W lemma="mÃ¥ned" msd="NCCSU==I">mÃ¥ned</W>
+<W lemma="i_Ã¥r" msd="RGU">i_Ã¥r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="halv" msd="ANPNSU=IU">halvt</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="selve" msd="ANP[CN][SP]U=[DI]U">selve</W>
-<W lemma="åbning" msd="NCCSU==D">åbningen</W>
+<W lemma="Ã¥bning" msd="NCCSU==D">Ã¥bningen</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="Copenhagen" msd="NP--U==-">Copenhagen</W>
 <W lemma="Jazz" msd="NP--U==-">Jazz</W>

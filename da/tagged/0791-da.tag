@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Skudkampe fortsætter i Afghanistan'</title>
+        <title>Tagged sample of: 'Skudkampe fortsÃ¦tter i Afghanistan'</title>
       </titleStmt>
       <extent words=154>154 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Skudkampe fortsætter i Afghanistan</title>
+            <title>Skudkampe fortsÃ¦tter i Afghanistan</title>
             <author>UNKNOWN</author>
           </analytic>
           <monogr>
@@ -41,10 +41,10 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="præsident" msd="NCCSU==I">Præsident</W>
+<W lemma="prÃ¦sident" msd="NCCSU==I">PrÃ¦sident</W>
 <W lemma="Mojadidi" msd="NP--U==-">Mojadidi</W>
-<W lemma="mødes" msd="VEDA=----A-">mødtes</W>
-<W lemma="i_går" msd="RGU">i_går</W>
+<W lemma="mÃ¸des" msd="VEDA=----A-">mÃ¸dtes</W>
+<W lemma="i_gÃ¥r" msd="RGU">i_gÃ¥r</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="udenlandsk" msd="ANP[CN]PU=[DI]U">udenlandske</W>
 <W lemma="diplomat" msd="NCCPU==I">diplomater</W>
@@ -61,7 +61,7 @@
 <W lemma="USA" msd="NP--U==-">USA</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="støtte" msd="NCCSU==I">støtte</W>
+<W lemma="stÃ¸tte" msd="NCCSU==I">stÃ¸tte</W>
 <W lemma="gennem" msd="SP">gennem</W>
 <W lemma="borgerkrig" msd="NCCSU==D">borgerkrigen</W>
 <W lemma="." msd="XP">.</W>
@@ -71,16 +71,16 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="fattig" msd="ANP[CN]PU=[DI]U">fattige</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
-<W lemma="ærlig" msd="ANP[CN]PU=[DI]U">ærlige</W>
+<W lemma="Ã¦rlig" msd="ANP[CN]PU=[DI]U">Ã¦rlige</W>
 <W lemma="folk" msd="NCNPU==I">folk</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
-<W lemma="håbe" msd="VADR=----A-">håber</W>
+<W lemma="hÃ¥be" msd="VADR=----A-">hÃ¥ber</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="bevare" msd="VAF-=----A-">bevare</W>
 <W lemma="vores" msd="PO1[CN]PUPNF">vore</W>
@@ -99,8 +99,8 @@
 </p>
 <p>
 <s>
-<W lemma="før" msd="CS">Før</W>
-<W lemma="regeringsmøde" msd="NCNSU==D">regeringsmødet</W>
+<W lemma="fÃ¸r" msd="CS">FÃ¸r</W>
+<W lemma="regeringsmÃ¸de" msd="NCNSU==D">regeringsmÃ¸det</W>
 <W lemma="begynde" msd="VADA=----A-">begyndte</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="opfordre" msd="VADA=----A-">opfordrede</W>
@@ -114,20 +114,20 @@
 <W lemma="udland" msd="NCNSU==D">udlandet</W>
 <W lemma="sende" msd="VADR=----A-">sender</W>
 <W lemma="international" msd="ANPCSU=IU">international</W>
-<W lemma="hjælp" msd="NCCSU==I">hjælp</W>
+<W lemma="hjÃ¦lp" msd="NCCSU==I">hjÃ¦lp</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="hjælpe" msd="VAF-=----A-">hjælpe</W>
+<W lemma="hjÃ¦lpe" msd="VAF-=----A-">hjÃ¦lpe</W>
 <W lemma="Afghanistan" msd="NP--U==-">Afghanistan</W>
-<W lemma="på_fode" msd="RGU">på_fode</W>
+<W lemma="pÃ¥_fode" msd="RGU">pÃ¥_fode</W>
 <W lemma="igen" msd="RGU">igen</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="og" msd="CC">Og</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="første" msd="ANP[CN][SP]U=[DI]U">første</W>
+<W lemma="fÃ¸rste" msd="ANP[CN][SP]U=[DI]U">fÃ¸rste</W>
 <W lemma="land" msd="NCNPU==I">lande</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="melde" msd="VAPA=S[CN]I[ARU]-U">meldt</W>
@@ -136,14 +136,14 @@
 </s>
 <s>
 <W lemma="Pakistan" msd="NP--G==-">Pakistans</W>
-<W lemma="ministerpræsident" msd="NCCSU==I">ministerpræsident</W>
+<W lemma="ministerprÃ¦sident" msd="NCCSU==I">ministerprÃ¦sident</W>
 <W lemma="Nawas" msd="NP--U==-">Nawas</W>
 <W lemma="Sharif" msd="NP--U==-">Sharif</W>
 <W lemma="ankomme" msd="VADA=----A-">ankom</W>
 <W lemma="overraske" msd="VAPR=[SP][CN][DI][ARU]-U">overraskende</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="Kabul" msd="NP--U==-">Kabul</W>
-<W lemma="i_går" msd="RGU">i_går</W>
+<W lemma="i_gÃ¥r" msd="RGU">i_gÃ¥r</W>
 <W lemma="ledsage" msd="VAPA=S[CN]I[ARU]-U">ledsaget</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="medlem" msd="NCNPU==I">medlemmer</W>
@@ -156,7 +156,7 @@
 </p>
 <p>
 <s>
-<W lemma="ifølge" msd="SP">Ifølge</W>
+<W lemma="ifÃ¸lge" msd="SP">IfÃ¸lge</W>
 <W lemma="DPA" msd="NP--U==-">DPA</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="Pakistan" msd="NP--U==-">Pakistan</W>
@@ -166,7 +166,7 @@
 <W lemma="regering" msd="NCCSU==I">regering</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="danne" msd="VAPA=S[CN]I[ARU]-U">dannet</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
@@ -182,7 +182,7 @@
 </s>
 <s>
 <W lemma="Sharif" msd="NP--U==-">Sharif</W>
-<W lemma="erklære" msd="VADA=----A-">erklærede</W>
+<W lemma="erklÃ¦re" msd="VADA=----A-">erklÃ¦rede</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="statslig" msd="ANP[CN]SU=DU">statslige</W>
@@ -190,7 +190,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="Pakistan" msd="NP--U==-">Pakistan</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="parat" msd="ANP[CN]SU=IU">parat</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -211,7 +211,7 @@
 <s>
 <W lemma="Sharif" msd="NP--U==-">Sharif</W>
 <W lemma="sige" msd="VADA=----A-">sagde</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
@@ -224,7 +224,7 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="understrege" msd="VAPA=S[CN]I[ARU]-U">understreget</W>
-<W lemma="nødvendighed" msd="NCCSU==D">nødvendigheden</W>
+<W lemma="nÃ¸dvendighed" msd="NCCSU==D">nÃ¸dvendigheden</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="samarbejde" msd="NCNSU==I">samarbejde</W>
 <W lemma="for" msd="SP">for</W>

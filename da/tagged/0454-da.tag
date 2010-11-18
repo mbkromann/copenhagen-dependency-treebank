@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Viden på tværs'</title>
+        <title>Tagged sample of: 'Viden pÃ¥ tvÃ¦rs'</title>
       </titleStmt>
       <extent words=158>158 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Viden på tværs</title>
+            <title>Viden pÃ¥ tvÃ¦rs</title>
             <author gender=m born=1927>Plenov, Leif</author>
           </analytic>
           <monogr>
@@ -53,12 +53,12 @@
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
 <W lemma="bygge" msd="VAPA=S[CN]I[ARU]-U">bygget</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="J.A." msd="NP--U==-">J.A.</W>
 <W lemma="Maffei" msd="NP--G==-">Maffeis</W>
 <W lemma="fabrik" msd="NCCSU==I">fabrik</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="München" msd="NP--U==-">München</W>
+<W lemma="MÃ¼nchen" msd="NP--U==-">MÃ¼nchen</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="med" msd="SP">med</W>
@@ -67,7 +67,7 @@
 </s>
 <s>
 <W lemma="de" msd="PP3[CN]PN-NU">De</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="elegant" msd="ANP[CN]PU=[DI]U">elegante</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="hurtig" msd="ANP[CN]PU=[DI]U">hurtige</W>
@@ -82,7 +82,7 @@
 <W lemma="midte" msd="NCCSU==D">midten</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="denne" msd="PD-NSU--U">dette</W>
-<W lemma="århundrede" msd="NCNSU==I">århundrede</W>
+<W lemma="Ã¥rhundrede" msd="NCNSU==I">Ã¥rhundrede</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="oprindelig" msd="ANP[CN]PU=[DI]U">oprindelige</W>
@@ -91,7 +91,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="sikker" msd="ANP---=-R">sikkert</W>
-<W lemma="fortrænge" msd="VAPA=S[CN]I[ARU]-U">fortrængt</W>
+<W lemma="fortrÃ¦nge" msd="VAPA=S[CN]I[ARU]-U">fortrÃ¦ngt</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="diesel-elektrisk" msd="ANP[CN]PU=[DI]U">diesel-elektriske</W>
 <W lemma="og" msd="CC">og</W>
@@ -115,7 +115,7 @@
 <W lemma="have" msd="VADA=----A-">havde</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="tophastighed" msd="NCCSU==I">tophastighed</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="god" msd="ANP---=-R">godt</W>
 <W lemma="30" msd="AC---U=--">30</W>
 <W lemma="kilometer" msd="NCCPU==I">kilometer</W>
@@ -128,7 +128,7 @@
 <W lemma="udgave" msd="NCCPU==I">udgaver</W>
 <W lemma="komme" msd="VAF-=----A-">komme</W>
 <W lemma="op" msd="RGU">op</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="tidobbelt" msd="ANP[CN]SU=DU">tidobbelte</W>
 <W lemma="." msd="XP">.</W>
@@ -148,7 +148,7 @@
 <W lemma="sporbygning" msd="NCCSU==D">sporbygningen</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="køretøj" msd="NCNSG==D">køretøjets</W>
+<W lemma="kÃ¸retÃ¸j" msd="NCNSG==D">kÃ¸retÃ¸jets</W>
 <W lemma="aerodynamisk" msd="ANP[CN]PU=[DI]U">aerodynamiske</W>
 <W lemma="egenskab" msd="NCCPU==I">egenskaber</W>
 <W lemma="." msd="XP">.</W>
@@ -224,7 +224,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="dekupørudgave" msd="NCCSU==D">Dekupørudgaven</W>
+<W lemma="dekupÃ¸rudgave" msd="NCCSU==D">DekupÃ¸rudgaven</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="lave" msd="VAF-=----A-">lave</W>
 <W lemma="bred" msd="ANP[CN]PU=[DI]U">brede</W>
@@ -254,12 +254,12 @@
 <W lemma="udgave" msd="NCCPU==I">udgaver</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="redskab" msd="NCNSU==D">redskabet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="farlig" msd="ANP[CN]PU=[DI]U">farlige</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="navnlig" msd="RGU">navnlig</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="motorisere" msd="VAPA=P[CN][DI]A-U">motoriserede</W>
@@ -267,10 +267,10 @@
 </s>
 <s>
 <W lemma="eventuel" msd="ANP[CN]PU=[DI]U">Eventuelle</W>
-<W lemma="dæksel" msd="NCNPU==I">dæksler</W>
+<W lemma="dÃ¦ksel" msd="NCNPU==I">dÃ¦ksler</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="skærm" msd="NCCPU==I">skærme</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="skÃ¦rm" msd="NCCPU==I">skÃ¦rme</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="fjerne" msd="VAF-=----P-">fjernes</W>
 <W lemma="." msd="XP">.</W>

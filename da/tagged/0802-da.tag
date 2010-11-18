@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Munke går disko-vejen'</title>
+        <title>Tagged sample of: 'Munke gÃ¥r disko-vejen'</title>
       </titleStmt>
       <extent words=167>167 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Munke går disko-vejen</title>
+            <title>Munke gÃ¥r disko-vejen</title>
             <author gender=f born=1959>Terkelsen, Mette</author>
           </analytic>
           <monogr>
@@ -45,7 +45,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="virkelighed" msd="NCCSU==D">virkeligheden</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
@@ -53,11 +53,11 @@
 <W lemma="historie" msd="NCCSU==I">historie</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="hel" msd="ANP---=-R">helt</W>
 <W lemma="tilbage" msd="RGU">tilbage</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="1032" msd="AC---U=--">1032</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -66,20 +66,20 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="gå" msd="VAF-=----A-">gå</W>
+<W lemma="gÃ¥" msd="VAF-=----A-">gÃ¥</W>
 <W lemma="lige" msd="RGU">lige</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="sag" msd="NCCSU==D">sagen</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="handle" msd="VADR=----A-">handler</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="gul" msd="ANP[CN]SU=DU">gule</W>
 <W lemma="eller" msd="CC">eller</W>
-<W lemma="grøn" msd="ANP[CN]SU=DU">grønne</W>
-<W lemma="Chartreuse-likør" msd="NCCSU==I">Chartreuse-likør</W>
+<W lemma="grÃ¸n" msd="ANP[CN]SU=DU">grÃ¸nne</W>
+<W lemma="Chartreuse-likÃ¸r" msd="NCCSU==I">Chartreuse-likÃ¸r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -99,7 +99,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="Frankrig" msd="NP--U==-">Frankrig</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="nær" msd="SP">nær</W>
+<W lemma="nÃ¦r" msd="SP">nÃ¦r</W>
 <W lemma="Grenoble" msd="NP--U==-">Grenoble</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -111,15 +111,15 @@
 <W lemma="absolut" msd="ANP---=-R">absolut</W>
 <W lemma="anbefale" msd="VAF-=----P-">anbefales</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="aflægge" msd="VAF-=----A-">aflægge</W>
-<W lemma="både" msd="RGU">både</W>
-<W lemma="likørkælder" msd="NCCPU==D">likørkældrene</W>
+<W lemma="aflÃ¦gge" msd="VAF-=----A-">aflÃ¦gge</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
+<W lemma="likÃ¸rkÃ¦lder" msd="NCCPU==D">likÃ¸rkÃ¦ldrene</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="nærliggende" msd="ANP[CN][SP]U=[DI]U">nærliggende</W>
+<W lemma="nÃ¦rliggende" msd="ANP[CN][SP]U=[DI]U">nÃ¦rliggende</W>
 <W lemma="museum" msd="NCNSU==I">museum</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="besøg" msd="NCNSU==I">besøg</W>
+<W lemma="besÃ¸g" msd="NCNSU==I">besÃ¸g</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -132,30 +132,30 @@
 <W lemma="nej" msd="I=">Nej</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="de" msd="PP3[CN]PU-NU">dem</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="opleve" msd="VAF-=----A-">opleve</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="besøg" msd="NCNSU==I">besøg</W>
+<W lemma="besÃ¸g" msd="NCNSU==I">besÃ¸g</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="uvejsom" msd="ANP[CN]SU=DU">uvejsomme</W>
-<W lemma="bjergterræn" msd="NCNSU==I">bjergterræn</W>
+<W lemma="bjergterrÃ¦n" msd="NCNSU==I">bjergterrÃ¦n</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="men" msd="CC">Men</W>
 <W lemma="diskotek" msd="NCNPU==D">diskotekerne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="område" msd="NCNSU==I">område</W>
+<W lemma="omrÃ¥de" msd="NCNSU==I">omrÃ¥de</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="modhvilket" msd="XX">modhvilket</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="kutteklædt" msd="ANP[CN]PU=[DI]U">kutteklædte</W>
+<W lemma="kutteklÃ¦dt" msd="ANP[CN]PU=[DI]U">kutteklÃ¦dte</W>
 <W lemma="munk" msd="NCCPU==I">munke</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="rette" msd="VAPA=S[CN]I[ARU]-U">rettet</W>
@@ -170,7 +170,7 @@
 <W lemma="oprindelig" msd="ANP---=-R">Oprindelig</W>
 <W lemma="starte" msd="VADA=----A-">startede</W>
 <W lemma="munk" msd="NCCPG==D">munkenes</W>
-<W lemma="likør" msd="NCCSU==I">likør</W>
+<W lemma="likÃ¸r" msd="NCCSU==I">likÃ¸r</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -182,11 +182,11 @@
 <W lemma="den" msd="PD-CSU--U">Den</W>
 <W lemma="hemmelig" msd="ANP[CN]SU=DU">hemmelige</W>
 <W lemma="opskrift" msd="NCCSU==I">opskrift</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="eliksir" msd="NCCSU==D">eliksiren</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="munk" msd="NCCPU==D">munkene</W>
-<W lemma="overrække" msd="VAPA=S[CN]I[ARU]-U">overrakt</W>
+<W lemma="overrÃ¦kke" msd="VAPA=S[CN]I[ARU]-U">overrakt</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="1605" msd="AC---U=--">1605</W>
 <W lemma="." msd="XP">.</W>
@@ -200,11 +200,11 @@
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="øde" msd="ANP[CN][SP]U=[DI]U">øde</W>
-<W lemma="bjergområde" msd="NCNSU==I">bjergområde</W>
+<W lemma="Ã¸de" msd="ANP[CN][SP]U=[DI]U">Ã¸de</W>
+<W lemma="bjergomrÃ¥de" msd="NCNSU==I">bjergomrÃ¥de</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="521" msd="AC---U=--">521</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -219,7 +219,7 @@
 </s>
 <s>
 <W lemma="i" msd="SP">I</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="1084" msd="AC---U=--">1084</W>
 <W lemma="vandre" msd="VADA=----A-">vandrede</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
@@ -230,7 +230,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="bjerg" msd="NCNPU==D">bjergene</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="grundlægge" msd="VADA=----A-">grundlagde</W>
+<W lemma="grundlÃ¦gge" msd="VADA=----A-">grundlagde</W>
 <W lemma="sin" msd="PO3NSUSYU">sit</W>
 <W lemma="munkekloster" msd="NCNSU==I">munkekloster</W>
 <W lemma="." msd="XP">.</W>
@@ -246,8 +246,8 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="skabe" msd="VADA=----A-">skabte</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="grøn" msd="ANP[CN]SU=DU">grønne</W>
-<W lemma="Chartreuse-likør" msd="NCCSU==I">Chartreuse-likør</W>
+<W lemma="grÃ¸n" msd="ANP[CN]SU=DU">grÃ¸nne</W>
+<W lemma="Chartreuse-likÃ¸r" msd="NCCSU==I">Chartreuse-likÃ¸r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -255,11 +255,11 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="1838" msd="AC---U=--">1838</W>
 <W lemma="komme" msd="VADA=----A-">kom</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="gul" msd="ANP[CN]SU=DU">gule</W>
-<W lemma="Chartreuse-likør" msd="NCCSU==I">Chartreuse-likør</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="Chartreuse-likÃ¸r" msd="NCCSU==I">Chartreuse-likÃ¸r</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="marked" msd="NCNSU==D">markedet</W>
 <W lemma="." msd="XP">.</W>
 </s>

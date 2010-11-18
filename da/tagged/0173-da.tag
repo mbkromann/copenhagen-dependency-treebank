@@ -43,7 +43,7 @@
 <s>
 <W lemma="den" msd="PD-CSU--U">Den</W>
 <W lemma="melankolsk" msd="ANP[CN]SU=DU">melankolske</W>
-<W lemma="mørk" msd="ANP[CN]SU=DU">mørke</W>
+<W lemma="mÃ¸rk" msd="ANP[CN]SU=DU">mÃ¸rke</W>
 <W lemma="mand" msd="NCCSU==I">mand</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="Canada" msd="NP--U==-">Canada</W>
@@ -72,7 +72,7 @@
 <W lemma="sang" msd="NCCPU==I">sange</W>
 <W lemma="ville" msd="VADA=----A-">ville</W>
 <W lemma="leve" msd="VAF-=----A-">leve</W>
-<W lemma="længe" msd="RGC">længere</W>
+<W lemma="lÃ¦nge" msd="RGC">lÃ¦ngere</W>
 <W lemma="end" msd="CS">end</W>
 <W lemma="hans" msd="PO3[CN][SP]USNU">hans</W>
 <W lemma="egen" msd="ANPCSU=[DI]U">egen</W>
@@ -85,9 +85,9 @@
 <s>
 <W lemma="men" msd="CC">Men</W>
 <W lemma="nu" msd="RGU">nu</W>
-<W lemma="forelægge" msd="VADR=----A-">forelægger</W>
+<W lemma="forelÃ¦gge" msd="VADR=----A-">forelÃ¦gger</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="håndgribelig" msd="ANPNSU=IU">håndgribeligt</W>
+<W lemma="hÃ¥ndgribelig" msd="ANPNSU=IU">hÃ¥ndgribeligt</W>
 <W lemma="bevis" msd="NCNSU==I">bevis</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -96,7 +96,7 @@
 <s>
 <W lemma="en" msd="PI-CSU--U">En</W>
 <W lemma="dobbelt-cd" msd="NCCSU==I">dobbelt-cd</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="netop" msd="RGU">netop</W>
 <W lemma="udkomme" msd="VAPA=S[CN]I[ARU]-U">udkommet</W>
 <W lemma="med" msd="SP">med</W>
@@ -110,15 +110,15 @@
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="Cohen" msd="NP--G==-">Cohens</W>
 <W lemma="meget" msd="ANS---=-R">mest</W>
-<W lemma="fremtrædende" msd="ANP[CN][SP]U=[DI]U">fremtrædende</W>
+<W lemma="fremtrÃ¦dende" msd="ANP[CN][SP]U=[DI]U">fremtrÃ¦dende</W>
 <W lemma="sang" msd="NCCPU==I">sange</W>
 <W lemma="nyfortolke" msd="VADR=----P-">nyfortolkes</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="mild" msd="ANP---=-R">mildt</W>
 <W lemma="sige" msd="VAPA=S[CN]I[ARU]-U">sagt</W>
-<W lemma="usædvanlig" msd="ANPCSU=IU">usædvanlig</W>
-<W lemma="række" msd="NCCSU==I">række</W>
+<W lemma="usÃ¦dvanlig" msd="ANPCSU=IU">usÃ¦dvanlig</W>
+<W lemma="rÃ¦kke" msd="NCCSU==I">rÃ¦kke</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="navn" msd="NCNPU==I">navne</W>
 <W lemma="." msd="XP">.</W>
@@ -180,7 +180,7 @@
 <s>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">Alle</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="vælge" msd="VAPA=S[CN]I[ARU]-U">valgt</W>
+<W lemma="vÃ¦lge" msd="VAPA=S[CN]I[ARU]-U">valgt</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
 <W lemma="egen" msd="ANPNSU=[DI]U">eget</W>
 <W lemma="nummer" msd="NCNSU==I">nummer</W>
@@ -249,7 +249,7 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="Suzanne" msd="NP--U==-">Suzanne</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="fremføre" msd="VADR=----P-">fremføres</W>
+<W lemma="fremfÃ¸re" msd="VADR=----P-">fremfÃ¸res</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="Geoffrey" msd="NP--U==-">Geoffrey</W>
 <W lemma="Oryema" msd="NP--U==-">Oryema</W>

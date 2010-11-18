@@ -43,7 +43,7 @@
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="mange" msd="ANC[CN]PU=[DI]U">flere</W>
 <W lemma="udsolgt" msd="ANP[CN]PU=[DI]U">udsolgte</W>
@@ -53,19 +53,19 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="Kolding" msd="NP--U==-">Kolding</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="Sønderborg" msd="NP--U==-">Sønderborg</W>
+<W lemma="SÃ¸nderborg" msd="NP--U==-">SÃ¸nderborg</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="København" msd="NP--U==-">København</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="adskillig" msd="ANP[CN]PU=[DI]U">adskillige</W>
-<W lemma="tv-optrædende" msd="NCNPU==I">tv-optrædender</W>
+<W lemma="tv-optrÃ¦dende" msd="NCNPU==I">tv-optrÃ¦dender</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="sidst" msd="RGU">sidst</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Danmark" msd="NP--G==-">Danmarks</W>
 <W lemma="radio" msd="NCCSG==I">Radios</W>
 <W lemma="tv" msd="NCNSU==I">tv</W>
-<W lemma="nytårsdag" msd="NCCSU==I">nytårsdag</W>
+<W lemma="nytÃ¥rsdag" msd="NCCSU==I">nytÃ¥rsdag</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="Stig" msd="NP--U==-">Stig</W>
@@ -89,12 +89,12 @@
 <W lemma="ned" msd="RGU">ned</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="erklære" msd="VADR=----A-">erklærer</W>
+<W lemma="erklÃ¦re" msd="VADR=----A-">erklÃ¦rer</W>
 <W lemma="Stig" msd="NP--U==-">Stig</W>
 <W lemma="Rossen" msd="NP--U==-">Rossen</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
-<W lemma="bopæl" msd="NCCSU==I">bopæl</W>
+<W lemma="bopÃ¦l" msd="NCCSU==I">bopÃ¦l</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="London" msd="NP--U==-">London</W>
 <W lemma="." msd="XP">.</W>
@@ -102,7 +102,7 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="i_morgen" msd="RGU">I_morgen</W>
-<W lemma="optræde" msd="VADR=----A-">optræder</W>
+<W lemma="optrÃ¦de" msd="VADR=----A-">optrÃ¦der</W>
 <W lemma="jeg" msd="PP1CSN-NU">jeg</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
@@ -146,15 +146,15 @@
 <W lemma="men" msd="CC">Men</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="lettelse" msd="NCCSU==I">lettelse</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="slippe" msd="VAF-=----A-">slippe</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="stå" msd="VAF-=----A-">stå</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="stÃ¥" msd="VAF-=----A-">stÃ¥</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="scene" msd="NCCSU==D">scenen</W>
 <W lemma="hver" msd="PI-CSU--U">hver</W>
 <W lemma="aften" msd="NCCSU==I">aften</W>
@@ -167,7 +167,7 @@
 <W lemma="men" msd="CC">Men</W>
 <W lemma="Stig" msd="NP--U==-">Stig</W>
 <W lemma="Rossen" msd="NP--U==-">Rossen</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="nogen" msd="PI-CSU--U">nogen</W>
 <W lemma="lang" msd="ANPCSU=IU">lang</W>
@@ -182,7 +182,7 @@
 <W lemma="drage" msd="VADR=----A-">drager</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="næsten" msd="RGU">næsten</W>
+<W lemma="nÃ¦sten" msd="RGU">nÃ¦sten</W>
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="uge" msd="NCCPU==I">uger</W>
 <W lemma="til" msd="SP">til</W>
@@ -200,18 +200,18 @@
 <W lemma="under" msd="SP">under</W>
 <W lemma="ledelse" msd="NCCSU==I">ledelse</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="Børge" msd="NP--U==-">Børge</W>
+<W lemma="BÃ¸rge" msd="NP--U==-">BÃ¸rge</W>
 <W lemma="Wagner" msd="NP--U==-">Wagner</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="lille" msd="ANS---=-R">mindst</W>
-<W lemma="en" msd="PI-CSU--U">én</W>
-<W lemma="tv-optræden" msd="NCCSU==I">tv-optræden</W>
+<W lemma="en" msd="PI-CSU--U">Ã©n</W>
+<W lemma="tv-optrÃ¦den" msd="NCCSU==I">tv-optrÃ¦den</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -219,16 +219,16 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
 <W lemma="igen" msd="RGU">igen</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="løs" msd="ANP---=-R">løs</W>
+<W lemma="lÃ¸s" msd="ANP---=-R">lÃ¸s</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="ekstraudgave" msd="NCCPU==I">ekstraudgaver</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="efterår" msd="NCNSG==D">efterårets</W>
+<W lemma="efterÃ¥r" msd="NCNSG==D">efterÃ¥rets</W>
 <W lemma="koncertsucces" msd="NCCSU==I">koncertsucces</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="Sønderjylland" msd="NP--G==-">Sønderjyllands</W>
+<W lemma="SÃ¸nderjylland" msd="NP--G==-">SÃ¸nderjyllands</W>
 <W lemma="symfoniorkester" msd="NCNSU==I">Symfoniorkester</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="i" msd="SP">I</W>
@@ -238,7 +238,7 @@
 <W lemma="januar" msd="NCCSU==I">januar</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Århus" msd="NP--U==-">Århus</W>
+<W lemma="Ã…rhus" msd="NP--U==-">Ã…rhus</W>
 <W lemma="musikhus" msd="NCNSU==I">Musikhus</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="25." msd="AO---U=--">25.</W>

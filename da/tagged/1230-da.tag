@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Billige kul fortrænger miljøvenligt bræn'</title>
+        <title>Tagged sample of: 'Billige kul fortrÃ¦nger miljÃ¸venligt brÃ¦n'</title>
       </titleStmt>
       <extent words=162>162 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Billige kul fortrænger miljøvenligt bræn</title>
+            <title>Billige kul fortrÃ¦nger miljÃ¸venligt brÃ¦n</title>
             <author gender=f>Faringer, Gunilla</author>
           </analytic>
           <monogr>
@@ -42,23 +42,23 @@
 <p>
 <s>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="næsten" msd="RGU">Næsten</W>
+<W lemma="nÃ¦sten" msd="RGU">NÃ¦sten</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
-<W lemma="videnskabsmand" msd="NCCPU==I">videnskabsmænd</W>
+<W lemma="videnskabsmand" msd="NCCPU==I">videnskabsmÃ¦nd</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="verden" msd="NCCSU==I">verden</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="enig" msd="ANP[CN]PU=[DI]U">enige</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="kuldioxid" msd="NCNSU==I">kuldioxid</W>
-<W lemma="forårsage" msd="VADR=----A-">forårsager</W>
+<W lemma="forÃ¥rsage" msd="VADR=----A-">forÃ¥rsager</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="drivhuseffekt" msd="NCCSU==I">drivhuseffekt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="hæve" msd="VADR=----A-">hæver</W>
+<W lemma="hÃ¦ve" msd="VADR=----A-">hÃ¦ver</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="global" msd="ANP[CN]SU=DU">globale</W>
 <W lemma="temperatur" msd="NCCSU==I">temperatur</W>
@@ -74,10 +74,10 @@
 <W lemma="par" msd="NCNSU==I">par</W>
 <W lemma="grad" msd="NCCPU==I">grader</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="føre" msd="VAF-=----A-">føre</W>
+<W lemma="fÃ¸re" msd="VAF-=----A-">fÃ¸re</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="pol" msd="NCCPU==D">polerne</W>
@@ -85,7 +85,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="hvilken" msd="PT-NSU--U">hvilket</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="alvorlig" msd="ANPCSU=IU">alvorlig</W>
 <W lemma="effekt" msd="NCCSU==I">effekt</W>
@@ -93,7 +93,7 @@
 <W lemma="speciel" msd="ANP---=-R">specielt</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="lavtliggende" msd="ANP[CN][SP]U=[DI]U">lavtliggende</W>
-<W lemma="område" msd="NCNPU==I">områder</W>
+<W lemma="omrÃ¥de" msd="NCNPU==I">omrÃ¥der</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="Florida" msd="NP--U==-">Florida</W>
 <W lemma="," msd="XP">,</W>
@@ -114,14 +114,14 @@
 <W lemma="kul" msd="NCNSU==I">kul</W>
 <W lemma="vente" msd="VADR=----P-">ventes</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="nå" msd="VAF-=----A-">nå</W>
+<W lemma="nÃ¥" msd="VAF-=----A-">nÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="rekordstor" msd="ANPNSU=IU">rekordstort</W>
 <W lemma="omfang" msd="NCNSU==I">omfang</W>
-<W lemma="i_år" msd="RGU">i_år</W>
+<W lemma="i_Ã¥r" msd="RGU">i_Ã¥r</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="over" msd="SP">over</W>
-<W lemma="en" msd="PI-CSU--U">én</W>
+<W lemma="en" msd="PI-CSU--U">Ã©n</W>
 <W lemma="million" msd="NCCSU==I">million</W>
 <W lemma="ton" msd="NCNPU==I">ton</W>
 <W lemma="," msd="XP">,</W>
@@ -135,24 +135,24 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="kul" msd="NCNSU==I">kul</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="billig" msd="ANS[CN][SP]U=DU">billigste</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="meget" msd="ANS---=-R">mest</W>
 <W lemma="anvende" msd="VAPA=S[CN]DA-U">anvendte</W>
-<W lemma="brændsel" msd="NCNSU==I">brændsel</W>
+<W lemma="brÃ¦ndsel" msd="NCNSU==I">brÃ¦ndsel</W>
 <W lemma="efter" msd="SP">efter</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="2000" msd="AC---U=--">2000</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="ifølge" msd="SP">Ifølge</W>
+<W lemma="ifÃ¸lge" msd="SP">IfÃ¸lge</W>
 <W lemma="beregning" msd="NCCPU==D">beregningerne</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="pris" msd="NCCPU==D">priserne</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="olie" msd="NCCSU==I">olie</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="gas" msd="NCCSU==I">gas</W>
@@ -162,7 +162,7 @@
 <W lemma="hurtig" msd="ANC---=-R">hurtigere</W>
 <W lemma="end" msd="CS">end</W>
 <W lemma="pris" msd="NCCPU==D">priserne</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="kul" msd="NCNSU==I">kul</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="en" msd="PI-NSU--U">et</W>
@@ -188,38 +188,38 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="kun" msd="RGU">kun</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvis" msd="CS">hvis</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="betragte" msd="VADR=----A-">betragter</W>
-<W lemma="miljø" msd="NCNSU==D">miljøet</W>
+<W lemma="miljÃ¸" msd="NCNSU==D">miljÃ¸et</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="gratis" msd="ANP[CN][SP]U=[DI]U">gratis</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="hævde" msd="VAF-=----A-">hævde</W>
+<W lemma="hÃ¦vde" msd="VAF-=----A-">hÃ¦vde</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="kul" msd="NCNSU==I">kul</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="billig" msd="ANC[CN][SP]U=[DI]U">billigere</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="drift" msd="NCCSU==I">drift</W>
 <W lemma="end" msd="CS">end</W>
 <W lemma="naturgas" msd="NCCSU==I">naturgas</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="især" msd="RGU">især</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="isÃ¦r" msd="RGU">isÃ¦r</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="medtage" msd="VADR=----A-">medtager</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="kulindustri" msd="NCCSU==D">kulindustrien</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="tilskud" msd="NCNSU==I">tilskud</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="stat" msd="NCCSU==D">staten</W>
@@ -229,9 +229,9 @@
 <p>
 <s>
 <W lemma="hvis" msd="CS">Hvis</W>
-<W lemma="kulkraftværk" msd="NCNPU==D">kulkraftværkerne</W>
+<W lemma="kulkraftvÃ¦rk" msd="NCNPU==D">kulkraftvÃ¦rkerne</W>
 <W lemma="skulle" msd="VADA=----A-">skulle</W>
-<W lemma="bære" msd="VAF-=----A-">bære</W>
+<W lemma="bÃ¦re" msd="VAF-=----A-">bÃ¦re</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
 <W lemma="denne" msd="PD-[CN]PU--U">disse</W>
 <W lemma="omkostning" msd="NCCPU==I">omkostninger</W>
@@ -239,7 +239,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="ville" msd="VADA=----A-">ville</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
 <W lemma="dyr" msd="ANC[CN][SP]U=[DI]U">dyrere</W>
 <W lemma="," msd="XP">,</W>

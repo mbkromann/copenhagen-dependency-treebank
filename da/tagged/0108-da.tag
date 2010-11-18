@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Taxi-chauffør tævet af tre fyldebøtter'</title>
+        <title>Tagged sample of: 'Taxi-chauffÃ¸r tÃ¦vet af tre fyldebÃ¸tter'</title>
       </titleStmt>
       <extent words=167>167 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Taxi-chauffør tævet af tre fyldebøtter</title>
+            <title>Taxi-chauffÃ¸r tÃ¦vet af tre fyldebÃ¸tter</title>
             <author gender=m born=1932>Thomsen, Bertel</author>
           </analytic>
           <monogr>
@@ -43,7 +43,7 @@
 <s>
 <W lemma="i" msd="SP">I</W>
 <W lemma="landdistrikt" msd="NCNPU==D">landdistrikterne</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="let" msd="ANP---=-R">let</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -88,7 +88,7 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
 <W lemma="bede" msd="VADA=----A-">bad</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="retsudvalg" msd="NCNSU==D">Retsudvalget</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -127,8 +127,8 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="du" msd="PP2CSN-NU">Du</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
-<W lemma="tærsk" msd="NCCPU==I">tærsk</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
+<W lemma="tÃ¦rsk" msd="NCCPU==I">tÃ¦rsk</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="sted" msd="NCNSU==D">stedet</W>
 <W lemma="." msd="XP">.</W>
@@ -136,15 +136,15 @@
 </s>
 <s>
 <W lemma="forbund" msd="NCNSU==D">Forbundet</W>
-<W lemma="ønske" msd="VADR=----A-">ønsker</W>
+<W lemma="Ã¸nske" msd="VADR=----A-">Ã¸nsker</W>
 <W lemma="ingen" msd="PI-CSU--U">ingen</W>
-<W lemma="bevæbning" msd="NCCSU==I">bevæbning</W>
+<W lemma="bevÃ¦bning" msd="NCCSU==I">bevÃ¦bning</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="taxichauffør" msd="NCCPU==I">taxichauffører</W>
+<W lemma="taxichauffÃ¸r" msd="NCCPU==I">taxichauffÃ¸rer</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="vognmand" msd="NCCSU==D">vognmanden</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
@@ -170,13 +170,13 @@
 <W lemma="amerikansk" msd="ANP[CN]PU=[DI]U">amerikanske</W>
 <W lemma="tilstand" msd="NCCPU==I">tilstande</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="bevæbnet" msd="ANP[CN]PU=[DI]U">bevæbnede</W>
-<W lemma="taxi-chauffør" msd="NCCPU==I">taxi-chauffører</W>
+<W lemma="bevÃ¦bnet" msd="ANP[CN]PU=[DI]U">bevÃ¦bnede</W>
+<W lemma="taxi-chauffÃ¸r" msd="NCCPU==I">taxi-chauffÃ¸rer</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="for" msd="CC">For</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="bare" msd="RGU">bare</W>
@@ -186,11 +186,11 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="fat" msd="RGU">fat</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="vores" msd="PO1[CN]PUPNF">vore</W>
-<W lemma="våben" msd="NCNPU==I">våben</W>
+<W lemma="vÃ¥ben" msd="NCNPU==I">vÃ¥ben</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
@@ -216,14 +216,14 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="efter" msd="SP">efter</W>
-<W lemma="afhøring" msd="NCCSU==I">afhøring</W>
+<W lemma="afhÃ¸ring" msd="NCCSU==I">afhÃ¸ring</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="tre" msd="AC---U=--">tre</W>
 <W lemma="ung" msd="ANP[CN]PU=[DI]U">unge</W>
-<W lemma="løslade" msd="VAPA=S[CN]I[ARU]-U">løsladt</W>
+<W lemma="lÃ¸slade" msd="VAPA=S[CN]I[ARU]-U">lÃ¸sladt</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -236,8 +236,8 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
-<W lemma="være" msd="VADA=----A-">var</W>
-<W lemma="eftersøge" msd="VAPA=S[CN]I[ARU]-U">eftersøgt</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
+<W lemma="eftersÃ¸ge" msd="VAPA=S[CN]I[ARU]-U">eftersÃ¸gt</W>
 <W lemma="i_forvejen" msd="RGU">i_forvejen</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -245,7 +245,7 @@
 <p>
 <s>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="stå" msd="VADA=----A-">Stod</W>
+<W lemma="stÃ¥" msd="VADA=----A-">Stod</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="jeg" msd="PP1CSU-[YN]U">mig</W>
@@ -274,11 +274,11 @@
 <W lemma="og" msd="CC">Og</W>
 <W lemma="hvis" msd="CS">hvis</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="hjælpe" msd="VADR=----A-">hjælper</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="hjÃ¦lpe" msd="VADR=----A-">hjÃ¦lper</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
-<W lemma="genindføre" msd="VAPA=S[CN]I[ARU]-U">genindført</W>
+<W lemma="genindfÃ¸re" msd="VAPA=S[CN]I[ARU]-U">genindfÃ¸rt</W>
 <W lemma="strafarbejde" msd="NCNSU==I">strafarbejde</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>

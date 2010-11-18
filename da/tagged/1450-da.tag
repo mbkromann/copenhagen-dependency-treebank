@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Sæt selv din Saab sammen'</title>
+        <title>Tagged sample of: 'SÃ¦t selv din Saab sammen'</title>
       </titleStmt>
       <extent words=161>161 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Sæt selv din Saab sammen</title>
+            <title>SÃ¦t selv din Saab sammen</title>
             <author gender=m born=1944>Dam, Morten</author>
           </analytic>
           <monogr>
@@ -73,7 +73,7 @@
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="lav" msd="ANC[CN][SP]U=[DI]U">lavere</W>
 <W lemma="benzinforbrug" msd="NCNSU==I">benzinforbrug</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="9000" msd="AC---U=--">9000</W>
 <W lemma="2,3" msd="AC---U=--">2,3</W>
 <W lemma="turbo" msd="NCCSU==I">Turbo</W>
@@ -84,21 +84,21 @@
 <W lemma="9000-model" msd="NCCPU==I">9000-modeller</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="airconditionering" msd="XX">airconditionering</W>
-<W lemma="køre" msd="VADR=----A-">kører</W>
+<W lemma="kÃ¸re" msd="VADR=----A-">kÃ¸rer</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="freonfri" msd="ANP[CN]PU=[DI]U">freonfri</W>
-<W lemma="anlæg" msd="NCNPU==I">anlæg</W>
+<W lemma="anlÃ¦g" msd="NCNPU==I">anlÃ¦g</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="nu" msd="RGU">Nu</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="også" msd="RGU">også</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
-<W lemma="uldbetræk" msd="NCNSU==I">uldbetræk</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="møblement" msd="NCNSU==D">møblementet</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
+<W lemma="uldbetrÃ¦k" msd="NCNSU==I">uldbetrÃ¦k</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="mÃ¸blement" msd="NCNSU==D">mÃ¸blementet</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="Saab" msd="NP--U==-">Saab</W>
@@ -107,7 +107,7 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="standard" msd="NCCSU==I">standard</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
@@ -128,19 +128,19 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="bagudvendt" msd="ANP[CN]SU=IU">bagudvendt</W>
 <W lemma="barnestol" msd="NCCSU==I">barnestol</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="forrest" msd="ANP[CN]SU=DU">forreste</W>
-<W lemma="passagersæde" msd="NCNSU==I">passagersæde</W>
+<W lemma="passagersÃ¦de" msd="NCNSU==I">passagersÃ¦de</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="standard" msd="NCCSU==I">standard</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="ABS-bremse" msd="NCCPU==I">ABS-bremser</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="standard" msd="NCCSU==I">standard</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="900i" msd="XR">900i</W>
 <W lemma="2,1" msd="AC---U=--">2,1</W>
 <W lemma="og" msd="CC">og</W>
@@ -155,7 +155,7 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="blokeringsfri" msd="ANP[CN]PU=[DI]U">blokeringsfri</W>
 <W lemma="bremse" msd="NCCPU==I">bremser</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="15.000" msd="AC---U=--">15.000</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
 <W lemma="." msd="XP">.</W>
@@ -164,7 +164,7 @@
 <W lemma="Saab" msd="NP--U==-">Saab</W>
 <W lemma="vente" msd="VADR=----A-">venter</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="forstærke" msd="VAPA=S[CN]IA-U">forstærket</W>
+<W lemma="forstÃ¦rke" msd="VAPA=S[CN]IA-U">forstÃ¦rket</W>
 <W lemma="interesse" msd="NCCSU==I">interesse</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="sikkerhed" msd="NCCSU==I">sikkerhed</W>
@@ -180,7 +180,7 @@
 </s>
 <s>
 <W lemma="Saab-program" msd="NCNSU==D">Saab-programmet</W>
-<W lemma="tælle" msd="VADR=----A-">tæller</W>
+<W lemma="tÃ¦lle" msd="VADR=----A-">tÃ¦ller</W>
 <W lemma="i_dag" msd="RGU">i_dag</W>
 <W lemma="13" msd="AC---U=--">13</W>
 <W lemma="basismodel" msd="NCCPU==I">basismodeller</W>
@@ -203,10 +203,10 @@
 </p>
 <p>
 <s>
-<W lemma="i_øvrigt" msd="RGU">I_øvrigt</W>
+<W lemma="i_Ã¸vrigt" msd="RGU">I_Ã¸vrigt</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="Saab" msd="NP--U==-">Saab</W>
-<W lemma="få" msd="VAPA=S[CN]I[ARU]-U">fået</W>
+<W lemma="fÃ¥" msd="VAPA=S[CN]I[ARU]-U">fÃ¥et</W>
 <W lemma="ny" msd="ANPCSU=IU">ny</W>
 <W lemma="chef" msd="NCCSU==I">chef</W>
 <W lemma="." msd="XP">.</W>
@@ -215,7 +215,7 @@
 <W lemma="Keith" msd="NP--U==-">Keith</W>
 <W lemma="Butler-Wheelhouse" msd="NP--U==-">Butler-Wheelhouse</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="afløse" msd="VAPA=S[CN]I[ARU]-U">afløst</W>
+<W lemma="aflÃ¸se" msd="VAPA=S[CN]I[ARU]-U">aflÃ¸st</W>
 <W lemma="David" msd="NP--U==-">David</W>
 <W lemma="Hermann" msd="NP--U==-">Hermann</W>
 <W lemma="," msd="XP">,</W>
@@ -243,12 +243,12 @@
 <s>
 <W lemma="i" msd="SP">I</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="salg" msd="NCNSU==D">salget</W>
 <W lemma="stabil" msd="ANPNSU=IU">stabilt</W>
-<W lemma="skønt" msd="CS">skønt</W>
+<W lemma="skÃ¸nt" msd="CS">skÃ¸nt</W>
 <W lemma="marked" msd="NCNSU==D">markedet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="vige" msd="VAPR=[SP][CN][DI][ARU]-U">vigende</W>
 <W lemma="." msd="XP">.</W>
 </s>

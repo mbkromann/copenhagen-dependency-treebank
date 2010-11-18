@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'GULDREGN OVER VM-BRØDRENE'</title>
+        <title>Tagged sample of: 'GULDREGN OVER VM-BRÃ˜DRENE'</title>
       </titleStmt>
       <extent words=151>151 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>GULDREGN OVER VM-BRØDRENE</title>
+            <title>GULDREGN OVER VM-BRÃ˜DRENE</title>
             <author gender=m born=1955>Uno, Steen</author>
           </analytic>
           <monogr>
@@ -44,7 +44,7 @@
 <W lemma="da" msd="CS">Da</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="to" msd="AC---U=--">to</W>
-<W lemma="Østerbro-broder" msd="NCCPU==I">Østerbro-brødre</W>
+<W lemma="Ã˜sterbro-broder" msd="NCCPU==I">Ã˜sterbro-brÃ¸dre</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="marts" msd="NCCSU==I">marts</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
@@ -72,7 +72,7 @@
 <W lemma="indbringende" msd="ANP[CN][SP]U=[DI]U">indbringende</W>
 <W lemma="EM-titelforsvar" msd="NCNPU==I">EM-titelforsvar</W>
 <W lemma="mod" msd="SP">mod</W>
-<W lemma="håndplukke" msd="VAPA=P[CN][DI]A-U">håndplukkede</W>
+<W lemma="hÃ¥ndplukke" msd="VAPA=P[CN][DI]A-U">hÃ¥ndplukkede</W>
 <W lemma="modstander" msd="NCCPU==I">modstandere</W>
 <W lemma="dukke" msd="VADA=----A-">dukkede</W>
 <W lemma="pludselig" msd="RGU">pludselig</W>
@@ -95,11 +95,11 @@
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="fire" msd="AC---U=--">fire</W>
-<W lemma="måned" msd="NCCPG==I">måneders</W>
+<W lemma="mÃ¥ned" msd="NCCPG==I">mÃ¥neders</W>
 <W lemma="koncentrere" msd="VAPA=S[CN]IA-U">koncentreret</W>
-<W lemma="trænings-slid" msd="NCNSU==I">trænings-slid</W>
+<W lemma="trÃ¦nings-slid" msd="NCNSU==I">trÃ¦nings-slid</W>
 <W lemma="under" msd="SP">under</W>
-<W lemma="træner" msd="NCCPU==D">trænerne</W>
+<W lemma="trÃ¦ner" msd="NCCPU==D">trÃ¦nerne</W>
 <W lemma="Kjeld" msd="NP--U==-">Kjeld</W>
 <W lemma="Krogh" msd="NP--U==-">Krogh</W>
 <W lemma="og" msd="CC">og</W>
@@ -113,7 +113,7 @@
 <p>
 <s>
 <W lemma="nu" msd="RGU">Nu</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="tid" msd="NCCSU==D">tiden</W>
 <W lemma="inde" msd="RGU">inde</W>
 <W lemma="for" msd="SP">for</W>
@@ -130,15 +130,15 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="med" msd="SP">Med</W>
 <W lemma="verdensmester" msd="NCCSU==I">verdensmester</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="visitkort" msd="NCNSU==D">visitkortet</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="basis" msd="NCCSU==I">basis</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="gøre" msd="VAF-=----A-">gøre</W>
+<W lemma="gÃ¸re" msd="VAF-=----A-">gÃ¸re</W>
 <W lemma="nogen" msd="PI-[CN]PU--U">nogle</W>
 <W lemma="god" msd="ANP[CN]PU=[DI]U">go'e</W>
 <W lemma="forretning" msd="NCCPU==I">forretninger</W>
@@ -149,8 +149,8 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="grine" msd="VADA=----A-">grinede</W>
 <W lemma="Johnny" msd="NP--U==-">Johnny</W>
-<W lemma="smørret" msd="ANP---=-R">smørret</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="smÃ¸rret" msd="ANP---=-R">smÃ¸rret</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="sejrsnat" msd="NCCSU==D">sejrsnatten</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -179,8 +179,8 @@
 <W lemma="Rita" msd="NP--U==-">Rita</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="vist" msd="RGU">vist</W>
 <W lemma="osse" msd="RGU">osse</W>
@@ -205,7 +205,7 @@
 <W lemma="ind" msd="RGU">ind</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="Bredahl-broder" msd="NCCPG==D">Bredahl-brødrenes</W>
+<W lemma="Bredahl-broder" msd="NCCPG==D">Bredahl-brÃ¸drenes</W>
 <W lemma="matchmaker" msd="XF">matchmaker</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="promotor" msd="NCCSU==I">promotor</W>
@@ -214,9 +214,9 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="vurdere" msd="VAF-=----A-">vurdere</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="løb" msd="NCNSU==D">løbet</W>
+<W lemma="lÃ¸b" msd="NCNSU==D">lÃ¸bet</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="efterår" msd="NCNSU==D">efteråret</W>
+<W lemma="efterÃ¥r" msd="NCNSU==D">efterÃ¥ret</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -230,22 +230,22 @@
 <W lemma="Johnny" msd="NP--U==-">Johnny</W>
 <W lemma="kunne" msd="VAF-=----A-">kunne</W>
 <W lemma="komme" msd="VAF-=----A-">komme</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="plakat" msd="NCCSU==D">plakaten</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="julestævne" msd="NCNSU==I">julestævne</W>
+<W lemma="julestÃ¦vne" msd="NCNSU==I">julestÃ¦vne</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="december" msd="NCCSU==I">december</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="næppe" msd="RGU">næppe</W>
-<W lemma="før" msd="RGU">før</W>
+<W lemma="nÃ¦ppe" msd="RGU">nÃ¦ppe</W>
+<W lemma="fÃ¸r" msd="RGU">fÃ¸r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="stærk" msd="ANPNSU=IU">STÆRKT</W>
+<W lemma="stÃ¦rk" msd="ANPNSU=IU">STÃ†RKT</W>
 <W lemma="selskab" msd="NCNSU==I">SELSKAB</W>
 </s>
 </p>

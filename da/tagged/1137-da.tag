@@ -45,16 +45,16 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="10" msd="AC---U=--">10</W>
-<W lemma="regulær" msd="ANP[CN]PU=[DI]U">regulære</W>
+<W lemma="regulÃ¦r" msd="ANP[CN]PU=[DI]U">regulÃ¦re</W>
 <W lemma="forretning" msd="NCCPU==I">forretninger</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
-<W lemma="sælge" msd="VAPA=S[CN]I[ARU]-U">solgt</W>
+<W lemma="sÃ¦lge" msd="VAPA=S[CN]I[ARU]-U">solgt</W>
 <W lemma="vare" msd="NCCPU==I">varer</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="præcis" msd="RGU">præcis</W>
+<W lemma="prÃ¦cis" msd="RGU">prÃ¦cis</W>
 <W lemma="samme" msd="ANP[CN][SP]U=[DI]U">samme</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="eller" msd="CC">eller</W>
@@ -67,27 +67,27 @@
 <W lemma="dansk" msd="ANP[CN]PU=[DI]U">danske</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="tysk" msd="ANP[CN]PU=[DI]U">tyske</W>
-<W lemma="sengetøjsbutik" msd="NCCPU==I">sengetøjsbutikker</W>
+<W lemma="sengetÃ¸jsbutik" msd="NCCPU==I">sengetÃ¸jsbutikker</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="en" msd="PI-CSU--U">En</W>
 <W lemma="forretning" msd="NCCSU==I">forretning</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="750" msd="AC---U=--">750</W>
 <W lemma="kvadratmeter" msd="NCCPU==I">kvm</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="beliggende" msd="ANP[CN][SP]U=[DI]U">beliggende</W>
 <W lemma="mange" msd="ANC[CN]PU=[DI]U">flere</W>
 <W lemma="kilometer" msd="NCCPU==I">km.</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="anden" msd="PI-CSU--U">anden</W>
 <W lemma="bebyggelse" msd="NCCSU==I">bebyggelse</W>
-<W lemma="sælge" msd="VADR=----A-">sælger</W>
+<W lemma="sÃ¦lge" msd="VADR=----A-">sÃ¦lger</W>
 <W lemma="i_dag" msd="RGU">i_dag</W>
-<W lemma="sengetøj" msd="NCNSU==I">sengetøj</W>
+<W lemma="sengetÃ¸j" msd="NCNSU==I">sengetÃ¸j</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="10,5" msd="AC---U=--">10,5</W>
 <W lemma="million" msd="NCCPU==I">mill.</W>
@@ -101,13 +101,13 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="god" msd="ANS[CN][SP]U=DU">bedste</W>
 <W lemma="forretning" msd="NCCSU==I">forretning</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="hel" msd="ANP[CN]SU=DU">hele</W>
-<W lemma="Jysk_Sengetøj-koncern" msd="NCCSU==D">Jysk_Sengetøj-koncernen</W>
+<W lemma="Jysk_SengetÃ¸j-koncern" msd="NCCSU==D">Jysk_SengetÃ¸j-koncernen</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -117,7 +117,7 @@
 </p>
 <p>
 <s>
-<W lemma="grænse-købmand" msd="NCCSU==D">Grænse-købmanden</W>
+<W lemma="grÃ¦nse-kÃ¸bmand" msd="NCCSU==D">GrÃ¦nse-kÃ¸bmanden</W>
 <W lemma="Hans" msd="NP--U==-">Hans</W>
 <W lemma="F." msd="NP--U==-">F.</W>
 <W lemma="Fleggaard" msd="NP--U==-">Fleggaard</W>
@@ -126,7 +126,7 @@
 <W lemma="1990" msd="AC---U=--">1990</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="meget" msd="ANS---=-R">mest</W>
-<W lemma="ærgerrrige" msd="XX">ærgerrrige</W>
+<W lemma="Ã¦rgerrrige" msd="XX">Ã¦rgerrrige</W>
 <W lemma="medarbejder" msd="NCCSU==I">medarbejder</W>
 <W lemma="af_sted" msd="RGU">af_sted</W>
 <W lemma="for" msd="SP">for</W>
@@ -152,19 +152,19 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="god" msd="ANPCSU=IU">god</W>
-<W lemma="løn" msd="NCCSU==I">løn</W>
+<W lemma="lÃ¸n" msd="NCCSU==I">lÃ¸n</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="besked" msd="NCCSU==I">besked</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="først" msd="RGU">først</W>
+<W lemma="fÃ¸rst" msd="RGU">fÃ¸rst</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="komme" msd="VAF-=----A-">komme</W>
 <W lemma="hjem" msd="RGU">hjem</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
 <W lemma="finde" msd="VAPA=S[CN]I[ARU]-U">fundet</W>
@@ -191,7 +191,7 @@
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="pakke" msd="NCCSU==I">pakke</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="32" msd="AC---U=--">32</W>
 <W lemma="elektronik-forretning" msd="NCCPU==I">elektronik-forretninger</W>
 <W lemma="." msd="XP">.</W>
@@ -206,7 +206,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="medarbejderantal" msd="NCNSU==D">medarbejderantallet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="reducere" msd="VAPA=S[CN]I[ARU]-U">reduceret</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="384" msd="AC---U=--">384</W>
@@ -217,18 +217,18 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="14" msd="AC---U=--">14</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="lægge" msd="VADR=----A-">lægger</W>
+<W lemma="lÃ¦gge" msd="VADR=----A-">lÃ¦gger</W>
 <W lemma="Hans" msd="NP--U==-">Hans</W>
 <W lemma="F." msd="NP--U==-">F.</W>
 <W lemma="Fleggaard" msd="NP--U==-">Fleggaard</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="skjul" msd="NCNSU==I">skjul</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="gøre" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
+<W lemma="gÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="guldrandet" msd="ANP[CN]SU=IU">guldrandet</W>
 <W lemma="forretning" msd="NCCSU==I">forretning</W>

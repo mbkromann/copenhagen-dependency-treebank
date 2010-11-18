@@ -50,7 +50,7 @@
 <W lemma="bilgigant" msd="NCCSU==D">bilgiganten</W>
 <W lemma="General" msd="NP--U==-">General</W>
 <W lemma="Motors" msd="NP--U==-">Motors</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="Opel-boss" msd="NCCSU==D">Opel-bossen</W>
 <W lemma="Louis" msd="NP--U==-">Louis</W>
 <W lemma="R." msd="NP--U==-">R.</W>
@@ -66,13 +66,13 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="ny" msd="ANP[CN]SU=DU">ny</W>
-<W lemma="præsident" msd="NCCSU==I">præsident</W>
+<W lemma="prÃ¦sident" msd="NCCSU==I">prÃ¦sident</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="samtidig" msd="RGU">samtidig</W>
-<W lemma="få" msd="VAPA=S[CN]I[ARU]-U">fået</W>
-<W lemma="sæde" msd="NCNSU==I">sæde</W>
+<W lemma="fÃ¥" msd="VAPA=S[CN]I[ARU]-U">fÃ¥et</W>
+<W lemma="sÃ¦de" msd="NCNSU==I">sÃ¦de</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="vicepræsident" msd="NCCSU==I">vicepræsident</W>
+<W lemma="viceprÃ¦sident" msd="NCCSU==I">viceprÃ¦sident</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="GM" msd="NP--U==-">GM</W>
 <W lemma="." msd="XP">.</W>
@@ -80,7 +80,7 @@
 <s>
 <W lemma="indtil" msd="SP">Indtil</W>
 <W lemma="videre" msd="RGU">videre</W>
-<W lemma="fortsætte" msd="VADR=----A-">fortsætter</W>
+<W lemma="fortsÃ¦tte" msd="VADR=----A-">fortsÃ¦tter</W>
 <W lemma="Hughes" msd="NP--U==-">Hughes</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="chef" msd="NCCSU==I">chef</W>
@@ -92,20 +92,20 @@
 <W lemma="lede" msd="VADR=----A-">leder</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="afløser" msd="NCCSU==I">afløser</W>
+<W lemma="aflÃ¸ser" msd="NCCSU==I">aflÃ¸ser</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="kun" msd="RGU">kun</W>
-<W lemma="43-årig" msd="ANP[CN]SU=DU">43-årige</W>
+<W lemma="43-Ã¥rig" msd="ANP[CN]SU=DU">43-Ã¥rige</W>
 <W lemma="Hughes" msd="NP--U==-">Hughes</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="ifølge" msd="SP">ifølge</W>
+<W lemma="ifÃ¸lge" msd="SP">ifÃ¸lge</W>
 <W lemma="GM-chef" msd="NCCSU==D">GM-chefen</W>
 <W lemma="Robert" msd="NP--U==-">Robert</W>
 <W lemma="C." msd="NP--U==-">C.</W>
 <W lemma="Stempel" msd="NP--U==-">Stempel</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="logisk" msd="ANP[CN]SU=IU">logisk</W>
 <W lemma="valg" msd="NCNSU==I">valg</W>
@@ -117,12 +117,12 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="for_nylig" msd="RGU">for_nylig</W>
-<W lemma="gå" msd="VADA=----A-">gik</W>
+<W lemma="gÃ¥" msd="VADA=----A-">gik</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="Chrysler" msd="NP--U==-">Chrysler</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="afløse" msd="VAF-=----A-">afløse</W>
+<W lemma="aflÃ¸se" msd="VAF-=----A-">aflÃ¸se</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="dynamisk" msd="ANP[CN]SU=DU">dynamiske</W>
 <W lemma="Lee" msd="NP--U==-">Lee</W>
@@ -130,14 +130,14 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="ifølge" msd="SP">Ifølge</W>
+<W lemma="ifÃ¸lge" msd="SP">IfÃ¸lge</W>
 <W lemma="Stempel" msd="NP--U==-">Stempel</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="Hughes" msd="NP--U==-">Hughes</W>
 <W lemma="erfaring" msd="NCCPU==I">erfaringer</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="arbejde" msd="NCNSU==I">arbejde</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="kontinent" msd="NCNPU==I">kontinenter</W>
 <W lemma="," msd="XP">,</W>
@@ -146,14 +146,14 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="Opel" msd="NP--U==-">Opel</W>
-<W lemma="præstere" msd="VAPA=S[CN]I[ARU]-U">præsteret</W>
+<W lemma="prÃ¦stere" msd="VAPA=S[CN]I[ARU]-U">prÃ¦steret</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="rekordniveau" msd="NCNSU==I">rekordniveau</W>
 <W lemma="gennem" msd="SP">gennem</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
 <W lemma="tre" msd="AC---U=--">tre</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -187,7 +187,7 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="folk" msd="NCNPU==I">folk</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="arbejde" msd="NCNSU==I">arbejde</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="mark" msd="NCCSU==D">marken</W>
@@ -200,7 +200,7 @@
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="særlig" msd="ANPNSU=IU">særligt</W>
+<W lemma="sÃ¦rlig" msd="ANPNSU=IU">sÃ¦rligt</W>
 <W lemma="kontokort" msd="NCNSU==I">kontokort</W>
 <W lemma="leje" msd="VAF-=----A-">leje</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -220,9 +220,9 @@
 <W lemma="kilometer" msd="NCCPU==I">km</W>
 <W lemma="svare" msd="VAPR=[SP][CN][DI][ARU]-U">svarende</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="strækning" msd="NCCSU==D">strækningen</W>
+<W lemma="strÃ¦kning" msd="NCCSU==D">strÃ¦kningen</W>
 <W lemma="fra" msd="SP">fra</W>
-<W lemma="København" msd="NP--G==-">Københavns</W>
+<W lemma="KÃ¸benhavn" msd="NP--G==-">KÃ¸benhavns</W>
 <W lemma="centrum" msd="NCNSU==I">centrum</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="Glostrup" msd="NP--U==-">Glostrup</W>
@@ -230,7 +230,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="Helsingør-retur" msd="XX">Helsingør-retur</W>
+<W lemma="HelsingÃ¸r-retur" msd="XX">HelsingÃ¸r-retur</W>
 <W lemma="koste" msd="VADR=----A-">koster</W>
 <W lemma="540" msd="AC---U=--">540</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>

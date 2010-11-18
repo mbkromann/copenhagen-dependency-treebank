@@ -42,7 +42,7 @@
 <p>
 <s>
 <W lemma="pedal" msd="NCCPU==D">Pedalerne</W>
-<W lemma="kræve" msd="VADR=----A-">kræver</W>
+<W lemma="krÃ¦ve" msd="VADR=----A-">krÃ¦ver</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="stor" msd="ANP[CN]SU=DU">store</W>
@@ -51,7 +51,7 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="styring" msd="NCCSU==D">styringen</W>
 <W lemma="fungere" msd="VADR=----A-">fungerer</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="rimelig" msd="ANP---=-R">rimeligt</W>
 <W lemma="let" msd="ANP---=-R">let</W>
 <W lemma="i" msd="SP">i</W>
@@ -68,16 +68,16 @@
 </s>
 <s>
 <W lemma="den" msd="PD-CSU--U">Den</W>
-<W lemma="i_øvrigt" msd="RGU">i_øvrigt</W>
-<W lemma="særdeles" msd="RGU">særdeles</W>
-<W lemma="præcis" msd="ANP[CN]SU=DU">præcise</W>
+<W lemma="i_Ã¸vrigt" msd="RGU">i_Ã¸vrigt</W>
+<W lemma="sÃ¦rdeles" msd="RGU">sÃ¦rdeles</W>
+<W lemma="prÃ¦cis" msd="ANP[CN]SU=DU">prÃ¦cise</W>
 <W lemma="servo" msd="NCCSU==I">servo</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Vectra" msd="NP--U==-">Vectra</W>
 <W lemma="2.0i" msd="XR">2.0i</W>
-<W lemma="gøre" msd="VADR=----A-">gør</W>
+<W lemma="gÃ¸re" msd="VADR=----A-">gÃ¸r</W>
 <W lemma="dog" msd="RGU">dog</W>
-<W lemma="manøvrering" msd="NCCSU==D">manøvreringen</W>
+<W lemma="manÃ¸vrering" msd="NCCSU==D">manÃ¸vreringen</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="denne" msd="PD-CSU--U">denne</W>
 <W lemma="bil" msd="NCCSU==I">bil</W>
@@ -88,7 +88,7 @@
 </p>
 <p>
 <s>
-<W lemma="økonomi" msd="NCCSU==I">Økonomi</W>
+<W lemma="Ã¸konomi" msd="NCCSU==I">Ã˜konomi</W>
 </s>
 </p>
 <p>
@@ -125,14 +125,14 @@
 <W lemma="Ascona" msd="NP--U==-">Ascona</W>
 <W lemma="1.6S" msd="XR">1.6S</W>
 <W lemma="GL" msd="NP--U==-">GL</W>
-<W lemma="gøre" msd="VADA=----A-">gjorde</W>
+<W lemma="gÃ¸re" msd="VADA=----A-">gjorde</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="samme" msd="ANP[CN][SP]U=[DI]U">samme</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="stort_set" msd="RGU">stort_set</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="2.0i" msd="XR">2.0i</W>
 <W lemma="." msd="XP">.</W>
@@ -141,7 +141,7 @@
 <p>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="vant" msd="ANP[CN]SU=IU">vant</W>
@@ -151,7 +151,7 @@
 <s>
 <W lemma="som" msd="U=">Som</W>
 <W lemma="regel" msd="NCCSU==I">regel</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="ny" msd="ANPCSU=IU">ny</W>
 <W lemma="model" msd="NCCSU==I">model</W>
@@ -167,13 +167,13 @@
 <p>
 <s>
 <W lemma="med_hensyn_til" msd="SP">Med_hensyn_til</W>
-<W lemma="benzinøkonomi" msd="NCCSU==I">benzinøkonomi</W>
+<W lemma="benzinÃ¸konomi" msd="NCCSU==I">benzinÃ¸konomi</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="Vectra" msd="NP--U==-">Vectra</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="fin" msd="ANPNSU=IU">fint</W>
 <W lemma="ECE-gennemsnit" msd="NCNSU==I">ECE-gennemsnit</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="15,1" msd="AC---U=--">15,1</W>
 <W lemma="km/l" msd="XA">km/l</W>
 <W lemma="for" msd="SP">for</W>
@@ -187,7 +187,7 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="god" msd="ANC[CN][SP]U=[DI]U">bedre</W>
 <W lemma="end" msd="CS">end</W>
 <W lemma="Ascona" msd="NP--U==-">Ascona</W>
@@ -217,7 +217,7 @@
 <W lemma="holde" msd="VAF-=----A-">holde</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="gennemsnit" msd="NCNSU==I">gennemsnit</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="12,6" msd="AC---U=--">12,6</W>
 <W lemma="km/l" msd="XA">km/l</W>
 <W lemma="med" msd="SP">med</W>
@@ -233,7 +233,7 @@
 <p>
 <s>
 <W lemma="Vectra-motor" msd="NCCPU==D">Vectra-motorerne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="principiel" msd="ANP---=-R">principielt</W>
 <W lemma="indstille" msd="VAPA=S[CN]I[ARU]-U">indstillet</W>
 <W lemma="til" msd="SP">til</W>
@@ -243,7 +243,7 @@
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="i_dag" msd="RGU">i_dag</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="betragte" msd="VAF-=----A-">betragte</W>
 <W lemma="oktan" msd="NCNSU==I">oktan</W>
 <W lemma="95" msd="AC---U=--">95</W>
@@ -252,7 +252,7 @@
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="normal" msd="ANP[CN]SU=DU">normale</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="ønskværdig" msd="ANP[CN]SU=DU">ønskværdige</W>
+<W lemma="Ã¸nskvÃ¦rdig" msd="ANP[CN]SU=DU">Ã¸nskvÃ¦rdige</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Lægerne strides'</title>
+        <title>Tagged sample of: 'LÃ¦gerne strides'</title>
       </titleStmt>
       <extent words=154>154 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Lægerne strides</title>
+            <title>LÃ¦gerne strides</title>
             <author gender=f>Qvist, Helene</author>
           </analytic>
           <monogr>
@@ -44,7 +44,7 @@
 <W lemma="men" msd="CC">Men</W>
 <W lemma="Bo" msd="NP--U==-">Bo</W>
 <W lemma="Jacobsen" msd="NP--U==-">Jacobsen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="enig" msd="ANPCSU=IU">enig</W>
 <W lemma="i" msd="SP">i</W>
@@ -53,7 +53,7 @@
 <W lemma="metode" msd="NCCSU==D">metoden</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="nyrescreening" msd="NCCSU==I">nyrescreening</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="etablere" msd="VAPA=S[CN]I[ARU]-U">etableret</W>
 <W lemma="endnu" msd="RGU">endnu</W>
 <W lemma="." msd="XP">.</W>
@@ -71,33 +71,33 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="behandling" msd="NCCSU==I">behandling</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="undersøgelse" msd="NCCPU==I">undersøgelser</W>
+<W lemma="undersÃ¸gelse" msd="NCCPU==I">undersÃ¸gelser</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="sådan" msd="ANP[CN]PU=[DI]U">Sådanne</W>
+<W lemma="sÃ¥dan" msd="ANP[CN]PU=[DI]U">SÃ¥danne</W>
 <W lemma="metode" msd="NCCPU==I">metoder</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
-<W lemma="stå" msd="VAPA=S[CN]I[ARU]-U">stået</W>
+<W lemma="stÃ¥" msd="VAPA=S[CN]I[ARU]-U">stÃ¥et</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
-<W lemma="prøve" msd="NCCSU==I">prøve</W>
+<W lemma="prÃ¸ve" msd="NCCSU==I">prÃ¸ve</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="15-20" msd="AC---U=--">15-20</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="før" msd="CS">før</W>
+<W lemma="fÃ¸r" msd="CS">fÃ¸r</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="grundlag" msd="NCNSU==I">grundlag</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="ændre" msd="VAF-=----A-">ændre</W>
+<W lemma="Ã¦ndre" msd="VAF-=----A-">Ã¦ndre</W>
 <W lemma="retningslinie" msd="NCCPU==D">retningslinierne</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="godkendelse" msd="NCCSU==I">godkendelse</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="adoptivforælder" msd="NCCPU==I">adoptivforældre</W>
+<W lemma="adoptivforÃ¦lder" msd="NCCPU==I">adoptivforÃ¦ldre</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="mene" msd="VADR=----A-">mener</W>
@@ -114,17 +114,17 @@
 <W lemma="Thomasen" msd="NP--U==-">Thomasen</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="diabetesforening" msd="NCCSU==D">Diabetesforeningen</W>
-<W lemma="påpege" msd="VADR=----A-">påpeger</W>
+<W lemma="pÃ¥pege" msd="VADR=----A-">pÃ¥peger</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
-<W lemma="adoptionsnævn" msd="NCNSG==D">adoptionsnævnets</W>
-<W lemma="læge" msd="NCCSU==I">læge</W>
+<W lemma="adoptionsnÃ¦vn" msd="NCNSG==D">adoptionsnÃ¦vnets</W>
+<W lemma="lÃ¦ge" msd="NCCSU==I">lÃ¦ge</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="Bo" msd="NP--U==-">Bo</W>
 <W lemma="Jacobsen" msd="NP--U==-">Jacobsen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="specialist" msd="NCCSU==I">specialist</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="sukkersyge" msd="NCCSU==I">sukkersyge</W>
@@ -133,7 +133,7 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="Bo" msd="NP--U==-">Bo</W>
 <W lemma="Jacobsen" msd="NP--U==-">Jacobsen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
 <W lemma="uenig" msd="ANPCSU=IU">uenig</W>
 <W lemma="med" msd="SP">med</W>
@@ -148,13 +148,13 @@
 </p>
 <p>
 <s>
-<W lemma="højesteretsdommer" msd="NCCSU==I">Højesteretsdommer</W>
+<W lemma="hÃ¸jesteretsdommer" msd="NCCSU==I">HÃ¸jesteretsdommer</W>
 <W lemma="Mogens" msd="NP--U==-">Mogens</W>
 <W lemma="Hornslet" msd="NP--U==-">Hornslet</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="adoptionsnævn" msd="NCNSG==D">adoptionsnævnets</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="adoptionsnÃ¦vn" msd="NCNSG==D">adoptionsnÃ¦vnets</W>
 <W lemma="formand" msd="NCCSU==I">formand</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="afvise" msd="VADR=----A-">afviser</W>
@@ -171,8 +171,8 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="nødvendig" msd="ANPNSU=IU">nødvendigt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="nÃ¸dvendig" msd="ANPNSU=IU">nÃ¸dvendigt</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -183,7 +183,7 @@
 <W lemma="at" msd="U=">at</W>
 <W lemma="sidde" msd="VAF-=----A-">sidde</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="nævn" msd="NCNSU==D">nævnet</W>
+<W lemma="nÃ¦vn" msd="NCNSU==D">nÃ¦vnet</W>
 <W lemma=":" msd="XP">:</W>
 </s>
 </p>
@@ -194,12 +194,12 @@
 <W lemma="Bo" msd="NP--U==-">Bo</W>
 <W lemma="Jacobsen" msd="NP--U==-">Jacobsen</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ekspert" msd="NCCSU==I">ekspert</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="diabetes" msd="NCCSU==I">diabetes</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="ekspert" msd="NCCSU==I">ekspert</W>
 <W lemma="i" msd="SP">i</W>
@@ -207,13 +207,13 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="jeg" msd="PP1CSN-NU">jeg</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="overbevise" msd="VAPA=S[CN]I[ARU]-U">overbevist</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="stand" msd="NCCSU==I">stand</W>
 <W lemma="til" msd="SP">til</W>
@@ -227,8 +227,8 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="brug" msd="NCCSU==I">brug</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="sukkersygeområde" msd="NCNSU==D">sukkersygeområdet</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="sukkersygeomrÃ¥de" msd="NCNSU==D">sukkersygeomrÃ¥det</W>
 <W lemma="." msd="XP">.</W>
 <W lemma="&quot;" msd="XP">"</W>
 </s>
@@ -242,7 +242,7 @@
 <W lemma="ord" msd="NCNSU==I">ord</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="sag" msd="NCCSU==D">sagen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="sige" msd="VAPA=S[CN]I[ARU]-U">sagt</W>
 <W lemma="endnu" msd="RGU">endnu</W>

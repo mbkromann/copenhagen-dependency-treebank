@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Samfundsøkonomi'</title>
+        <title>Tagged sample of: 'SamfundsÃ¸konomi'</title>
       </titleStmt>
       <extent words=155>155 running words</extent>
       <publicationStmt>
@@ -14,8 +14,8 @@
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Samfundsøkonomi<title>
-               <author gender=m born=1946>Dalhoff, Jørgen</author>
+            <title>SamfundsÃ¸konomi<title>
+               <author gender=m born=1946>Dalhoff, JÃ¸rgen</author>
             <author gender=m>Grell, Henrik</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
@@ -47,7 +47,7 @@
 <W lemma="boligforlig" msd="NCNSU==I">boligforlig</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="indføre" msd="VADR=----A-">indfører</W>
+<W lemma="indfÃ¸re" msd="VADR=----A-">indfÃ¸rer</W>
 <W lemma="boligsikring" msd="NCCSU==I">boligsikring</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="lejer" msd="NCCPU==I">lejere</W>
@@ -80,14 +80,14 @@
 <W lemma="socialdemokrati" msd="NCNSU==D">Socialdemokratiet</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="SF" msd="NP--U==-">SF</W>
-<W lemma="opnå" msd="VADR=----A-">opnår</W>
+<W lemma="opnÃ¥" msd="VADR=----A-">opnÃ¥r</W>
 <W lemma="flertal" msd="NCNSU==I">flertal</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="folketing" msd="NCNSU==D">Folketinget</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="den" msd="PD-NSU--U">Det</W>
-<W lemma="rød" msd="ANP[CN]SU=DU">røde</W>
+<W lemma="rÃ¸d" msd="ANP[CN]SU=DU">rÃ¸de</W>
 <W lemma="kabinet" msd="NCNSU==I">kabinet</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma=")" msd="XP">)</W>
@@ -105,11 +105,11 @@
 <W lemma="moms" msd="NCCSU==D">moms'en</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="indføre" msd="VADR=----P-">indføres</W>
+<W lemma="indfÃ¸re" msd="VADR=----P-">indfÃ¸res</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="sats" msd="NCCSU==I">sats</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="10" msd="AC---U=--">10</W>
 <W lemma="%" msd="XS">%</W>
 <W lemma="." msd="XP">.</W>
@@ -126,12 +126,12 @@
 </s>
 <s>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
-<W lemma="følge" msd="VADR=----A-">følger</W>
+<W lemma="fÃ¸lge" msd="VADR=----A-">fÃ¸lger</W>
 <W lemma="efter" msd="RGU">efter</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="devaluering" msd="NCCSU==I">devaluering</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="8" msd="AC---U=--">8</W>
 <W lemma="%" msd="XS">%</W>
 <W lemma="." msd="XP">.</W>
@@ -143,7 +143,7 @@
 <s>
 <W lemma="1968" msd="AC---U=--">1968</W>
 <W lemma="moms" msd="NCCSU==D">Momsen</W>
-<W lemma="hæve" msd="VADR=----P-">hæves</W>
+<W lemma="hÃ¦ve" msd="VADR=----P-">hÃ¦ves</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="12,5" msd="AC---U=--">12,5</W>
 <W lemma="%" msd="XS">%</W>
@@ -194,7 +194,7 @@
 <W lemma="del" msd="NCCSU==I">del</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="1969" msd="AC---U=--">1969</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="skattefri" msd="ANPCSU=IU">skattefri</W>
 <W lemma="periode" msd="NCCSU==I">periode</W>
@@ -208,7 +208,7 @@
 <s>
 <W lemma="1970" msd="AC---U=--">1970</W>
 <W lemma="kildeskat" msd="NCCSU==D">Kildeskatten</W>
-<W lemma="indføre" msd="VADR=----P-">indføres</W>
+<W lemma="indfÃ¸re" msd="VADR=----P-">indfÃ¸res</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -224,20 +224,20 @@
 <p>
 <s>
 <W lemma="moms" msd="NCCSU==D">Momsen</W>
-<W lemma="hæve" msd="VADR=----P-">hæves</W>
+<W lemma="hÃ¦ve" msd="VADR=----P-">hÃ¦ves</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="15" msd="AC---U=--">15</W>
 <W lemma="%" msd="XS">%</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="indføre" msd="VADR=----P-">indføres</W>
+<W lemma="indfÃ¸re" msd="VADR=----P-">indfÃ¸res</W>
 <W lemma="fuld" msd="ANPCSU=IU">fuld</W>
 <W lemma="folkepension" msd="NCCSU==I">folkepension</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="67" msd="AC---U=--">67</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -252,18 +252,18 @@
 <W lemma="medlemsskab" msd="NCNSU==I">medlemsskab</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="EF" msd="NP--U==-">EF</W>
-<W lemma="færdigforhandle" msd="VADR=----P-">færdigforhandles</W>
+<W lemma="fÃ¦rdigforhandle" msd="VADR=----P-">fÃ¦rdigforhandles</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="der" msd="U=">Der</W>
-<W lemma="indføre" msd="VADR=----P-">indføres</W>
+<W lemma="indfÃ¸re" msd="VADR=----P-">indfÃ¸res</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="midlertidig" msd="ANPCSU=IU">midlertidig</W>
 <W lemma="importafgift" msd="NCCSU==I">importafgift</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="10" msd="AC---U=--">10</W>
 <W lemma="%" msd="XS">%</W>
 <W lemma="for" msd="SP">for</W>
@@ -282,7 +282,7 @@
 <W lemma="omvekslelighed" msd="NCCSU==I">omvekslelighed</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="guld" msd="NCNSU==I">guld</W>
-<W lemma="ophæve" msd="VADR=----P-">ophæves</W>
+<W lemma="ophÃ¦ve" msd="VADR=----P-">ophÃ¦ves</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

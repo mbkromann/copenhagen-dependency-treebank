@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Ændring af HIV-virus bekymrer eksperter'</title>
+        <title>Tagged sample of: 'Ã†ndring af HIV-virus bekymrer eksperter'</title>
       </titleStmt>
       <extent words=160>160 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Ændring af HIV-virus bekymrer eksperter</title>
+            <title>Ã†ndring af HIV-virus bekymrer eksperter</title>
             <author gender=m born=1930>Ziebe, Henning</author>
           </analytic>
           <monogr>
@@ -43,7 +43,7 @@
 <s>
 <W lemma="ikke" msd="RGU">Ikke</W>
 <W lemma="blot" msd="RGU">blot</W>
-<W lemma="skræmme" msd="VADR=----A-">skræmmer</W>
+<W lemma="skrÃ¦mme" msd="VADR=----A-">skrÃ¦mmer</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="uhyggelig" msd="ANP---=-R">uhyggeligt</W>
 <W lemma="stige" msd="VAPR=[SP][CN][DI]A-U">stigende</W>
@@ -67,29 +67,29 @@
 <W lemma="alvorlig" msd="ANPCSU=IU">alvorlig</W>
 <W lemma="bekymring" msd="NCCSU==I">bekymring</W>
 <W lemma=":" msd="XP">:</W>
-<W lemma="være" msd="VADR=----A-">Er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">Er</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="kendt" msd="ANP[CN]SU=DU">kendte</W>
 <W lemma="HIV" msd="NP--U==-">HIV</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="ændre" msd="VAF-=----A-">ændre</W>
+<W lemma="Ã¦ndre" msd="VAF-=----A-">Ã¦ndre</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="måde" msd="NCCSU==I">måde</W>
+<W lemma="mÃ¥de" msd="NCCSU==I">mÃ¥de</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="CS">så</W>
+<W lemma="sÃ¥" msd="CS">sÃ¥</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="vanskelig" msd="ANC---=-R">vanskeligere</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="opdage" msd="VAF-=----A-">opdage</W>
 <W lemma="smitte" msd="NCCSU==I">smitte</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="måske" msd="RGU">måske</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="mÃ¥ske" msd="RGU">mÃ¥ske</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="behandle" msd="VAF-=----A-">behandle</W>
@@ -99,12 +99,12 @@
 <p>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="spørgsmål" msd="NCNSU==D">spørgsmålet</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="spÃ¸rgsmÃ¥l" msd="NCNSU==D">spÃ¸rgsmÃ¥let</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="drøfte" msd="VADR=----P-">drøftes</W>
-<W lemma="indgående" msd="ANP---=-R">indgående</W>
+<W lemma="drÃ¸fte" msd="VADR=----P-">drÃ¸ftes</W>
+<W lemma="indgÃ¥ende" msd="ANP---=-R">indgÃ¥ende</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -113,12 +113,12 @@
 <W lemma="tidlig" msd="ANC---=-R">tidligere</W>
 <W lemma="se" msd="VAPA=S[CN]I[ARU]-U">set</W>
 <W lemma="eksempel" msd="NCNPU==I">eksempler</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="person" msd="NCCPU==I">personer</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="få" msd="VAPA=S[CN]I[ARU]-U">fået</W>
+<W lemma="fÃ¥" msd="VAPA=S[CN]I[ARU]-U">fÃ¥et</W>
 <W lemma="aids" msd="NCCSU==I">AIDS</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="tilsyneladende" msd="ANP---=-R">tilsyneladende</W>
@@ -127,7 +127,7 @@
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="kunne" msd="VAPA=S[CN]I[ARU]-U">kunnet</W>
-<W lemma="påvise" msd="VAF-=----A-">påvise</W>
+<W lemma="pÃ¥vise" msd="VAF-=----A-">pÃ¥vise</W>
 <W lemma="HIV" msd="NP--U==-">HIV</W>
 <W lemma="inden" msd="RGU">inden</W>
 <W lemma="," msd="XP">,</W>
@@ -167,14 +167,14 @@
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="sammen" msd="RGU">sammen</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="tilbøjelighed" msd="NCCSU==I">tilbøjelighed</W>
+<W lemma="tilbÃ¸jelighed" msd="NCCSU==I">tilbÃ¸jelighed</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="virus" msd="NC[CN]PU==I">virus</W>
-<W lemma="ændre" msd="VADR=----A-">ændrer</W>
+<W lemma="Ã¦ndre" msd="VADR=----A-">Ã¦ndrer</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="potentiel" msd="ANP[CN]SU=IU">potentiel</W>
 <W lemma="risiko" msd="NCCSU==I">risiko</W>
@@ -185,7 +185,7 @@
 <s>
 <W lemma="trods" msd="SP">Trods</W>
 <W lemma="alvor" msd="NCCSU==D">alvoren</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="alligevel" msd="RGU">alligevel</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -196,7 +196,7 @@
 <W lemma="kendt" msd="ANP[CN]SU=DU">kendte</W>
 <W lemma="HIV" msd="NP--U==-">HIV</W>
 <W lemma="smitte" msd="VADR=----A-">smitter</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="relativ" msd="ANP---=-R">relativt</W>
 <W lemma="vanskelig" msd="ANP---=-R">vanskeligt</W>
 <W lemma="og" msd="CC">og</W>
@@ -217,22 +217,22 @@
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="ganske" msd="RGU">ganske</W>
 <W lemma="lille" msd="ANP[CN]SU=[DI]U">lille</W>
-<W lemma="ændring" msd="NCCSU==I">ændring</W>
+<W lemma="Ã¦ndring" msd="NCCSU==I">Ã¦ndring</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="virus" msd="NC[CN]PU==I">virus</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="medføre" msd="VAF-=----A-">medføre</W>
+<W lemma="medfÃ¸re" msd="VAF-=----A-">medfÃ¸re</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="virus" msd="NC[CN]PU==I">virus</W>
-<W lemma="måske" msd="RGU">måske</W>
+<W lemma="mÃ¥ske" msd="RGU">mÃ¥ske</W>
 <W lemma="begynde" msd="VADR=----A-">begynder</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="smitte" msd="VAF-=----A-">smitte</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="gonorre" msd="NCCSU==I">gonorre</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="altså" msd="RGU">altså</W>
+<W lemma="altsÃ¥" msd="RGU">altsÃ¥</W>
 <W lemma="bogstavelig" msd="ANP---=-R">bogstaveligt</W>
 <W lemma="tale" msd="VAPA=S[CN]I[ARU]-U">talt</W>
 <W lemma="ved" msd="SP">ved</W>

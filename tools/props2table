@@ -93,6 +93,7 @@ sub status2int {
 		return $i
 			if ($status eq $statusvalues->[$i]);
 	}
+	return 5 if ($status eq "final1");
 	return -1;
 }
 

@@ -50,18 +50,18 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="opnå" msd="VAPA=S[CN]I[ARU]-U">opnået</W>
+<W lemma="opnÃ¥" msd="VAPA=S[CN]I[ARU]-U">opnÃ¥et</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="pæn" msd="ANPCSU=IU">pæn</W>
+<W lemma="pÃ¦n" msd="ANPCSU=IU">pÃ¦n</W>
 <W lemma="popularitet" msd="NCCSU==I">popularitet</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="fare" msd="NCCSU==I">fare</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="blive" msd="VAF-=----A-">blive</W>
-<W lemma="sløjfe" msd="VAPA=S[CN]I[ARU]-U">sløjfet</W>
+<W lemma="slÃ¸jfe" msd="VAPA=S[CN]I[ARU]-U">slÃ¸jfet</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -78,11 +78,11 @@
 <W lemma="DR" msd="NP--G==-">DRs</W>
 <W lemma="TV-Avis" msd="NCCSU==I">TV-Avis</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
-<W lemma="løse" msd="VAPA=S[CN]I[ARU]-U">løst</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="lÃ¸se" msd="VAPA=S[CN]I[ARU]-U">lÃ¸st</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="sådan" msd="ANPCSU=IU">sådan</W>
-<W lemma="måde" msd="NCCSU==I">måde</W>
+<W lemma="sÃ¥dan" msd="ANPCSU=IU">sÃ¥dan</W>
+<W lemma="mÃ¥de" msd="NCCSU==I">mÃ¥de</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="TV-Avis" msd="NCCSU==D">TV-Avisen</W>
@@ -104,7 +104,7 @@
 <W lemma="Gabold" msd="NP--U==-">Gabold</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="foreslå" msd="VAPA=S[CN]I[ARU]-U">foreslået</W>
+<W lemma="foreslÃ¥" msd="VAPA=S[CN]I[ARU]-U">foreslÃ¥et</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -114,9 +114,9 @@
 <W lemma="give" msd="VADR=----A-">giver</W>
 <W lemma="nemlig" msd="RGU">nemlig</W>
 <W lemma="samtidig" msd="RGU">samtidig</W>
-<W lemma="Jørgen" msd="NP--U==-">Jørgen</W>
+<W lemma="JÃ¸rgen" msd="NP--U==-">JÃ¸rgen</W>
 <W lemma="Schleimann" msd="NP--U==-">Schleimann</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="tv" msd="NCNSU==I">TV</W>
 <W lemma="2" msd="AC---U=--">2</W>
 <W lemma="mulighed" msd="NCCSU==I">mulighed</W>
@@ -125,7 +125,7 @@
 <W lemma="spare" msd="VAF-=----A-">spare</W>
 <W lemma="nogen" msd="PI-[CN]PU--U">nogle</W>
 <W lemma="million" msd="NCCPU==I">millioner</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="sin" msd="PO3NSUSYU">sit</W>
 <W lemma="budget" msd="NCNSU==I">budget</W>
 <W lemma="." msd="XP">.</W>
@@ -137,13 +137,13 @@
 <p>
 <s>
 <W lemma="hjernetrust" msd="NCCSU==D">Hjernetrusten</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="tv" msd="NCNSU==I">TV</W>
 <W lemma="2" msd="AC---U=--">2</W>
-<W lemma="være" msd="VADA=----A-">var</W>
-<W lemma="i_går" msd="RGU">i_går</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
+<W lemma="i_gÃ¥r" msd="RGU">i_gÃ¥r</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="møde" msd="NCNSU==I">møde</W>
+<W lemma="mÃ¸de" msd="NCNSU==I">mÃ¸de</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="kommunikationsminister" msd="NCCSU==I">kommunikationsminister</W>
 <W lemma="Torben" msd="NP--U==-">Torben</W>
@@ -154,8 +154,8 @@
 <W lemma="blive" msd="VADA=----A-">blev</W>
 <W lemma="tv" msd="NCNSU==I">TV</W>
 <W lemma="2" msd="AC---G=--">2s</W>
-<W lemma="spændt" msd="ANP[CN]SU=DU">spændte</W>
-<W lemma="økonomisk" msd="ANP[CN]SU=DU">økonomiske</W>
+<W lemma="spÃ¦ndt" msd="ANP[CN]SU=DU">spÃ¦ndte</W>
+<W lemma="Ã¸konomisk" msd="ANP[CN]SU=DU">Ã¸konomiske</W>
 <W lemma="situation" msd="NCCSU==I">situation</W>
 <W lemma="diskutere" msd="VAPA=S[CN]I[ARU]-U">diskuteret</W>
 <W lemma="." msd="XP">.</W>
@@ -187,10 +187,10 @@
 <W lemma="1993" msd="AC---U=--">1993</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="mulighed" msd="NCCPU==D">mulighederne</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="opbrugt" msd="ANP[CN]SU=IU">opbrugt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
@@ -201,20 +201,20 @@
 <W lemma="programflade" msd="NCCSU==D">programfladen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="blive" msd="VAPA=S[CN]I[ARU]-U">blevet</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="seermæssig" msd="ANPCSU=IU">seermæssig</W>
+<W lemma="seermÃ¦ssig" msd="ANPCSU=IU">seermÃ¦ssig</W>
 <W lemma="succes" msd="NCCSU==I">succes</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvilken" msd="PT-NSU--U">hvilket</W>
 <W lemma="igen" msd="RGU">igen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="betingelse" msd="NCCSU==D">betingelsen</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
-<W lemma="tilstrækkelig" msd="ANPNSU=IU">tilstrækkeligt</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
+<W lemma="tilstrÃ¦kkelig" msd="ANPNSU=IU">tilstrÃ¦kkeligt</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="reklamekrone" msd="NCCPU==I">reklamekroner</W>
 <W lemma="ned" msd="RGU">ned</W>
@@ -230,8 +230,8 @@
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="betale" msd="VAF-=----A-">betale</W>
 <W lemma="tilbage" msd="RGU">tilbage</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="lån" msd="NCNPU==I">lån</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="lÃ¥n" msd="NCNPU==I">lÃ¥n</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="opbygning" msd="NCCSU==D">opbygningen</W>
 <W lemma="af" msd="SP">af</W>
@@ -247,7 +247,7 @@
 <W lemma="sendemast" msd="NCCPU==D">sendemasterne</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="afdrage" msd="VAF-=----P-">afdrages</W>
 <W lemma="." msd="XP">.</W>

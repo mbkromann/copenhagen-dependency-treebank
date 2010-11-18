@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Et minefyldt område!'</title>
+        <title>Tagged sample of: 'Et minefyldt omrÃ¥de!'</title>
       </titleStmt>
       <extent words=160>160 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Et minefyldt område!</title>
+            <title>Et minefyldt omrÃ¥de!</title>
             <author>UNKNOWN</author>
           </analytic>
           <monogr>
@@ -42,7 +42,7 @@
 <p>
 <s>
 <W lemma="herudover" msd="RGU">Herudover</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="domstol" msd="NCCPU==D">domstolene</W>
@@ -50,16 +50,16 @@
 <W lemma="boligret" msd="NCCSU==D">boligretten</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="tilsidesætte" msd="VAF-=----A-">tilsidesætte</W>
+<W lemma="tilsidesÃ¦tte" msd="VAF-=----A-">tilsidesÃ¦tte</W>
 <W lemma="kontrakt" msd="NCCPU==I">kontrakter</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="tidsbegrænsning" msd="NCCSU==I">tidsbegrænsning</W>
+<W lemma="tidsbegrÃ¦nsning" msd="NCCSU==I">tidsbegrÃ¦nsning</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvis" msd="CS">hvis</W>
 <W lemma="den" msd="PP3CSU-NU">den</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="tilstrækkelig" msd="ANP---=-R">tilstrækkelig</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="tilstrÃ¦kkelig" msd="ANP---=-R">tilstrÃ¦kkelig</W>
 <W lemma="begrunde" msd="VAPA=S[CN]I[ARU]-U">begrundet</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="ud-lejer" msd="NCCSG==D">ud-lejerens</W>
@@ -76,10 +76,10 @@
 <W lemma="mange" msd="ANC[CN]PU=[DI]U">flere</W>
 <W lemma="gang" msd="NCCPU==I">gange</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="tidsbegrænset" msd="ANP[CN]SU=IU">tidsbegrænset</W>
-<W lemma="lejemål" msd="NCNSU==I">lejemål</W>
+<W lemma="tidsbegrÃ¦nset" msd="ANP[CN]SU=IU">tidsbegrÃ¦nset</W>
+<W lemma="lejemÃ¥l" msd="NCNSU==I">lejemÃ¥l</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="øge" msd="VADR=----P-">øges</W>
+<W lemma="Ã¸ge" msd="VADR=----P-">Ã¸ges</W>
 <W lemma="sandsynlighed" msd="NCCSU==D">sandsynligheden</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="," msd="XP">,</W>
@@ -91,16 +91,16 @@
 <W lemma="denne" msd="PD-NSU--U">dette</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="forsøg" msd="NCNSU==I">forsøg</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="forsÃ¸g" msd="NCNSU==I">forsÃ¸g</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="omgå" msd="VAF-=----A-">omgå</W>
+<W lemma="omgÃ¥" msd="VAF-=----A-">omgÃ¥</W>
 <W lemma="lejelov" msd="NCCSG==D">lejelovens</W>
 <W lemma="principiel" msd="ANP[CN]SU=DU">principielle</W>
 <W lemma="udgangspunkt" msd="NCNSU==I">udgangspunkt</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="tidsubegrænset" msd="ANP[CN]PU=[DI]U">tidsubegrænsede</W>
-<W lemma="lejemål" msd="NCNPU==I">lejemål</W>
+<W lemma="tidsubegrÃ¦nset" msd="ANP[CN]PU=[DI]U">tidsubegrÃ¦nsede</W>
+<W lemma="lejemÃ¥l" msd="NCNPU==I">lejemÃ¥l</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -109,7 +109,7 @@
 <W lemma="efter" msd="SP">Efter</W>
 <W lemma="min" msd="PO1CSUSNU">min</W>
 <W lemma="mening" msd="NCCSU==I">mening</W>
-<W lemma="gøre" msd="VADR=----A-">gør</W>
+<W lemma="gÃ¸re" msd="VADR=----A-">gÃ¸r</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="nogen" msd="PI-CSU--U">nogen</W>
@@ -135,8 +135,8 @@
 <p>
 <s>
 <W lemma="den" msd="PD-NSU--U">Det</W>
-<W lemma="afgørende" msd="ANP[CN][SP]U=[DI]U">afgørende</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="afgÃ¸rende" msd="ANP[CN][SP]U=[DI]U">afgÃ¸rende</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="baggrund" msd="NCCSU==D">baggrunden</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="udlejning" msd="NCCSU==D">udlejningen</W>
@@ -146,24 +146,24 @@
 <p>
 <s>
 <W lemma="derfor" msd="RGU">Derfor</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="tilråde" msd="VAF-=----P-">tilrådes</W>
+<W lemma="tilrÃ¥de" msd="VAF-=----P-">tilrÃ¥des</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="enhver" msd="PI-CSU--U">enhver</W>
-<W lemma="tidsbegrænset" msd="ANP[CN]SU=IU">tidsbegrænset</W>
+<W lemma="tidsbegrÃ¦nset" msd="ANP[CN]SU=IU">tidsbegrÃ¦nset</W>
 <W lemma="udlejning" msd="NCCSU==I">udlejning</W>
-<W lemma="kræve" msd="VADR=----A-">kræver</W>
+<W lemma="krÃ¦ve" msd="VADR=----A-">krÃ¦ver</W>
 <W lemma="endnu" msd="RGU">endnu</W>
-<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">større</W>
+<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">stÃ¸rre</W>
 <W lemma="omtanke" msd="NCCSU==I">omtanke</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvorfor" msd="RGU">hvorfor</W>
 <W lemma="advokatbistand" msd="NCCSU==I">advokatbistand</W>
 <W lemma="hertil" msd="RGU">hertil</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
-<W lemma="tilråde" msd="VAF-=----P-">tilrådes</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
+<W lemma="tilrÃ¥de" msd="VAF-=----P-">tilrÃ¥des</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -171,8 +171,8 @@
 <s>
 <W lemma="praktisere" msd="VAPR=[SP][CN][DI]A-U">Praktiserende</W>
 <W lemma="advokat" msd="NCCPU==I">advokater</W>
-<W lemma="præsentere" msd="VADR=----P-">præsenteres</W>
-<W lemma="desværre" msd="RGU">desværre</W>
+<W lemma="prÃ¦sentere" msd="VADR=----P-">prÃ¦senteres</W>
+<W lemma="desvÃ¦rre" msd="RGU">desvÃ¦rre</W>
 <W lemma="ofte" msd="RGP">ofte</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="tvistighed" msd="NCCPU==I">tvistigheder</W>
@@ -193,11 +193,11 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="hel" msd="ANP---=-R">helt</W>
 <W lemma="ukompliceret" msd="ANP[CN]SU=IU">ukompliceret</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="indgå" msd="VAF-=----A-">indgå</W>
+<W lemma="indgÃ¥" msd="VAF-=----A-">indgÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="lejeaftale" msd="NCCSU==I">lejeaftale</W>
 <W lemma="." msd="XP">.</W>
@@ -206,10 +206,10 @@
 <p>
 <s>
 <W lemma="ved" msd="SP">Ved</W>
-<W lemma="indgåelse" msd="NCCSU==I">indgåelse</W>
+<W lemma="indgÃ¥else" msd="NCCSU==I">indgÃ¥else</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="kontrakt" msd="NCCSU==D">kontrakten</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="udlejer" msd="NCCSU==I">udlejer</W>
 <W lemma="meget" msd="ANS---=-R">mest</W>
 <W lemma="udsat" msd="ANP[CN]SU=IU">udsat</W>
@@ -219,13 +219,13 @@
 <p>
 <s>
 <W lemma="lejer" msd="NCCSU==I">Lejer</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="lang" msd="ANP---=-R">langt</W>
 <W lemma="hen" msd="RGU">hen</W>
 <W lemma="ad" msd="SP">ad</W>
 <W lemma="vej" msd="NCCSU==D">vejen</W>
 <W lemma="god" msd="ANP---=-R">godt</W>
-<W lemma="hjælpe" msd="VAPA=S[CN]I[ARU]-U">hjulpet</W>
+<W lemma="hjÃ¦lpe" msd="VAPA=S[CN]I[ARU]-U">hjulpet</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="lejelov" msd="NCCSU==D">lejeloven</W>
 <W lemma="," msd="XP">,</W>
@@ -239,17 +239,17 @@
 <p>
 <s>
 <W lemma="ofte" msd="RGS">Oftest</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="lejer" msd="NCCSU==I">lejer</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="opmærksom" msd="ANPCSU=IU">opmærksom</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="opmÃ¦rksom" msd="ANPCSU=IU">opmÃ¦rksom</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="grænse" msd="NCCPU==I">grænser</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="grÃ¦nse" msd="NCCPU==I">grÃ¦nser</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvad" msd="PT-[CN]SU--U">hvad</W>

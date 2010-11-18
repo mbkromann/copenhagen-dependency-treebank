@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Her er edb-kurser, der sætter nogle ting'</title>
+        <title>Tagged sample of: 'Her er edb-kurser, der sÃ¦tter nogle ting'</title>
       </titleStmt>
       <extent words=159>159 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Her er edb-kurser, der sætter nogle ting</title>
+            <title>Her er edb-kurser, der sÃ¦tter nogle ting</title>
             <author>AOF HOVEDSTADEN</author>
           </analytic>
           <monogr>
@@ -46,7 +46,7 @@
 <W lemma="EDB-lokale" msd="NCNPU==I">EDB-lokaler</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="uddannelsescenter" msd="NCNSU==D">uddannelsescentret</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="udstyre" msd="VAPA=S[CN]I[ARU]-U">udstyret</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="med" msd="XX">med</W>
@@ -67,8 +67,8 @@
 <s>
 <W lemma="denne" msd="PD-[CN]PU--U">Disse</W>
 <W lemma="maskine" msd="NCCPG==I">maskiners</W>
-<W lemma="særkende" msd="NCNSU==I">særkende</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="sÃ¦rkende" msd="NCNSU==I">sÃ¦rkende</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
 <W lemma="brugervenlig" msd="ANP[CN]PU=[DI]U">brugervenlige</W>
 <W lemma="program" msd="NCNPU==I">programmer</W>
@@ -76,18 +76,18 @@
 </s>
 <s>
 <W lemma="motto" msd="NCNSU==D">Mottoet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="kunne" msd="VADR=----A-">Ka'</W>
 <W lemma="du" msd="PP2CSN-NU">du</W>
-<W lemma="læse" msd="VAF-=----A-">læse</W>
+<W lemma="lÃ¦se" msd="VAF-=----A-">lÃ¦se</W>
 <W lemma="billede" msd="NCNPU==I">billeder</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="kunne" msd="VADR=----A-">ka'</W>
 <W lemma="du" msd="PP2CSN-NU">du</W>
-<W lemma="også" msd="RGU">også</W>
-<W lemma="lære" msd="VAF-=----A-">lære</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
+<W lemma="lÃ¦re" msd="VAF-=----A-">lÃ¦re</W>
 <W lemma="edb" msd="NCCSU==I">EDB</W>
 <W lemma="." msd="XP">.</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -96,7 +96,7 @@
 <W lemma="vores" msd="PO1[CN][SP]UPNU">Vores</W>
 <W lemma="dygtig" msd="ANP[CN]PU=[DI]U">dygtige</W>
 <W lemma="underviser" msd="NCCPU==I">undervisere</W>
-<W lemma="sørge" msd="VADR=----A-">sørger</W>
+<W lemma="sÃ¸rge" msd="VADR=----A-">sÃ¸rger</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
@@ -116,7 +116,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="ung" msd="ANP[CN]PU=[DI]U">unge</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="gammel" msd="ANC[CN][SP]U=[DI]U">ældre</W>
+<W lemma="gammel" msd="ANC[CN][SP]U=[DI]U">Ã¦ldre</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="gammel" msd="ANP[CN]PU=[DI]U">gamle</W>
 <W lemma="," msd="XP">,</W>
@@ -124,8 +124,8 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="ledig" msd="ANP[CN]PU=[DI]U">ledige</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="ansætte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
-<W lemma="og_så_videre" msd="RGU">osv.</W>
+<W lemma="ansÃ¦tte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
+<W lemma="og_sÃ¥_videre" msd="RGU">osv.</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -143,14 +143,14 @@
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="fremtid" msd="NCCSU==D">Fremtiden</W>
 <W lemma="begynde" msd="VADA=----A-">begyndte</W>
-<W lemma="igår" msd="RGU">igår</W>
+<W lemma="igÃ¥r" msd="RGU">igÃ¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -171,8 +171,8 @@
 <W lemma="tryksag" msd="NCCPU==I">tryksager</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="reklame" msd="NCCPU==I">reklamer</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="primær" msd="ANP---=-R">primært</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="primÃ¦r" msd="ANP---=-R">primÃ¦rt</W>
 <W lemma="lave" msd="VAPA=S[CN]I[ARU]-U">lavet</W>
 <W lemma="via" msd="SP">via</W>
 <W lemma="Desk" msd="NP--U==-">DESK</W>
@@ -185,13 +185,13 @@
 </s>
 <s>
 <W lemma="dtp" msd="NCCSU==I">DTP</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
 <W lemma="enkel" msd="ANPCSU=IU">enkel</W>
-<W lemma="måde" msd="NCCSU==I">måde</W>
+<W lemma="mÃ¥de" msd="NCCSU==I">mÃ¥de</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="trykke" msd="VAPA=P[CN][DI]A-U">trykte</W>
 <W lemma="ting" msd="NCCPU==I">ting</W>
 <W lemma="til" msd="SP">til</W>
@@ -209,19 +209,19 @@
 <W lemma="4.0" msd="AC---U=--">4.0</W>
 <W lemma="samt" msd="CC">samt</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="række" msd="NCCSU==I">række</W>
+<W lemma="rÃ¦kke" msd="NCCSU==I">rÃ¦kke</W>
 <W lemma="tegneprogram" msd="NCNPU==I">tegneprogrammer</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="du" msd="PP2CSN-NU">du</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="denne" msd="PD-NSU--U">dette</W>
 <W lemma="hold" msd="NCNSU==I">hold</W>
-<W lemma="lære" msd="VAF-=----A-">lære</W>
+<W lemma="lÃ¦re" msd="VAF-=----A-">lÃ¦re</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="layoute" msd="VAF-=----A-">layoute</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="løb" msd="NCNSU==D">løbet</W>
+<W lemma="lÃ¸b" msd="NCNSU==D">lÃ¸bet</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="undervisning" msd="NCCSU==D">undervisningen</W>
 <W lemma="producere" msd="VAF-=----A-">producere</W>
@@ -254,7 +254,7 @@
 <W lemma="printe" msd="VAF-=----A-">printe</W>
 <W lemma="resultat" msd="NCNSU==D">resultatet</W>
 <W lemma="ud" msd="RGU">ud</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="vores" msd="PO1[CN][SP]UPNU">vores</W>
 <W lemma="laserprinter" msd="NCCSU==I">laserprinter</W>
 <W lemma="." msd="XP">.</W>

@@ -43,15 +43,15 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="gendrive" msd="VAF-=----A-">gendrive</W>
 <W lemma="myte" msd="NCCSU==D">myten</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="rigshospital" msd="NCNSU==D">Rigshospitalet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="dårlig" msd="ANPNSU=IU">dårligt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="dÃ¥rlig" msd="ANPNSU=IU">dÃ¥rligt</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="drive" msd="VAF-=----A-">drive</W>
@@ -67,75 +67,75 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="gennemføre" msd="VAPA=S[CN]I[ARU]-U">gennemført</W>
+<W lemma="gennemfÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gennemfÃ¸rt</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="kolossal" msd="ANPCSU=IU">kolossal</W>
 <W lemma="effektivisering" msd="NCCSU==I">effektivisering</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="sen" msd="ANC[CN][SP]U=[DI]U">senere</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
 <W lemma="komme" msd="VADA=----A-">kom</W>
 <W lemma="bag" msd="RGU">bag</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="vi" msd="PP1CPU-[YN]U">os</W>
 <W lemma="selv" msd="PD-[CN][SP]U--U">selv</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="problem" msd="NCNSU==D">Problemet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="bare" msd="RGU">bare</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="rationalisering" msd="NCCPU==D">rationaliseringerne</W>
 <W lemma="hidtil" msd="RGU">hidtil</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="lave" msd="VAPA=S[CN]I[ARU]-U">lavet</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="meget" msd="ANS---=-R">mest</W>
 <W lemma="stupid" msd="ANP[CN]SU=DU">stupide</W>
-<W lemma="måde" msd="NCCSU==I">måde</W>
+<W lemma="mÃ¥de" msd="NCCSU==I">mÃ¥de</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="to-tre" msd="AC---U=--">To-tre</W>
 <W lemma="gang" msd="NCCPU==I">gange</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="år" msd="NCNSU==D">året</W>
+<W lemma="Ã¥r" msd="NCNSU==D">Ã¥ret</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
 <W lemma="seks-syv" msd="AC---U=--">seks-syv</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="stille" msd="VAPA=S[CN]I[ARU]-U">stillet</W>
-<W lemma="maskingevær" msd="NCNPU==D">maskingeværerne</W>
+<W lemma="maskingevÃ¦r" msd="NCNPU==D">maskingevÃ¦rerne</W>
 <W lemma="op" msd="RGU">op</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="rigshospital" msd="NCNSG==D">Rigshospitalets</W>
-<W lemma="rød" msd="ANP[CN]SU=DU">røde</W>
+<W lemma="rÃ¸d" msd="ANP[CN]SU=DU">rÃ¸de</W>
 <W lemma="administrationsbygning" msd="NCCSU==I">administrationsbygning</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="skyde" msd="VAPA=S[CN]I[ARU]-U">skudt</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="al" msd="ANPNSU=[DI]U">alt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="bevæge" msd="VAPA=S[CN]I[ARU]-U">bevæget</W>
+<W lemma="bevÃ¦ge" msd="VAPA=S[CN]I[ARU]-U">bevÃ¦get</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -151,44 +151,44 @@
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="uden" msd="SP">uden</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="ødelægge" msd="VAF-=----A-">ødelægge</W>
+<W lemma="Ã¸delÃ¦gge" msd="VAF-=----A-">Ã¸delÃ¦gge</W>
 <W lemma="al" msd="ANPNSU=[DI]U">alt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
-<W lemma="hospitalsdirektør" msd="NCCSU==D">hospitalsdirektøren</W>
+<W lemma="hospitalsdirektÃ¸r" msd="NCCSU==D">hospitalsdirektÃ¸ren</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="handlingsplan" msd="NCCSU==I">Handlingsplan</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="helhedsløsning" msd="NCCSU==I">helhedsløsning</W>
+<W lemma="helhedslÃ¸sning" msd="NCCSU==I">helhedslÃ¸sning</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="handlingsplan" msd="NCCSU==D">Handlingsplanen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="helhedsløsning" msd="NCCSU==I">helhedsløsning</W>
+<W lemma="helhedslÃ¸sning" msd="NCCSU==I">helhedslÃ¸sning</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="på" msd="SP">På</W>
-<W lemma="en" msd="PI-CSU--U">én</W>
+<W lemma="pÃ¥" msd="SP">PÃ¥</W>
+<W lemma="en" msd="PI-CSU--U">Ã©n</W>
 <W lemma="gang" msd="NCCSU==I">gang</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="hospital" msd="NCNSG==D">hospitalets</W>
-<W lemma="økonomisk" msd="ANP[CN]PU=[DI]U">økonomiske</W>
+<W lemma="Ã¸konomisk" msd="ANP[CN]PU=[DI]U">Ã¸konomiske</W>
 <W lemma="problem" msd="NCNPU==I">problemer</W>
-<W lemma="løse" msd="VAF-=----P-">løses</W>
+<W lemma="lÃ¸se" msd="VAF-=----P-">lÃ¸ses</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="hospital" msd="NCNSG==D">Hospitalets</W>
 <W lemma="gammel" msd="ANP[CN]PU=[DI]U">gamle</W>
 <W lemma="urokkelig" msd="ANP[CN]PU=[DI]U">urokkelige</W>
-<W lemma="skillevæg" msd="NCCPU==I">skillevægge</W>
+<W lemma="skillevÃ¦g" msd="NCCPU==I">skillevÃ¦gge</W>
 <W lemma="mellem" msd="SP">mellem</W>
 <W lemma="medicinsk" msd="ANP[CN]PU=[DI]U">medicinske</W>
 <W lemma="og" msd="CC">og</W>
@@ -198,12 +198,12 @@
 <W lemma="bryde" msd="VAF-=----P-">brydes</W>
 <W lemma="ned" msd="RGU">ned</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="CS">så</W>
+<W lemma="sÃ¥" msd="CS">sÃ¥</W>
 <W lemma="patient" msd="NCCPU==D">patienterne</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="undgå" msd="VAF-=----A-">undgå</W>
+<W lemma="undgÃ¥" msd="VAF-=----A-">undgÃ¥</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="ørkesløs" msd="ANP[CN]PU=[DI]U">ørkesløse</W>
+<W lemma="Ã¸rkeslÃ¸s" msd="ANP[CN]PU=[DI]U">Ã¸rkeslÃ¸se</W>
 <W lemma="ventetid" msd="NCCPU==I">ventetider</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="personale" msd="NCNSU==D">personalet</W>
@@ -234,24 +234,24 @@
 <W lemma="rigshospital" msd="NCNSU==D">Rigshospitalet</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="fireårig" msd="ANPCSU=IU">fireårig</W>
+<W lemma="fireÃ¥rig" msd="ANPCSU=IU">fireÃ¥rig</W>
 <W lemma="bevilling" msd="NCCSU==I">bevilling</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="både" msd="RGU">både</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
 <W lemma="DSB" msd="NP--U==-">DSB</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="den" msd="PD-NSU--U">Det</W>
 <W lemma="kongelig" msd="ANP[CN]SU=DU">Kongelige</W>
 <W lemma="teater" msd="NCNSU==I">Teater</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="så" msd="CS">så</W>
+<W lemma="sÃ¥" msd="CS">sÃ¥</W>
 <W lemma="hospital" msd="NCNSU==D">hospitalet</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="arbejdsro" msd="NCCSU==I">arbejdsro</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="planlægge" msd="VAF-=----A-">planlægge</W>
+<W lemma="planlÃ¦gge" msd="VAF-=----A-">planlÃ¦gge</W>
 <W lemma="langsigtet" msd="ANP---=-R">langsigtet</W>
 <W lemma="." msd="XP">.</W>
 </s>

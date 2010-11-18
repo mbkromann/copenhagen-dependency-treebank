@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Kommunedata vil ud til private</title>
-            <author gender=m>Jørgensen, Asbjørn</author>
+            <author gender=m>JÃ¸rgensen, AsbjÃ¸rn</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -42,21 +42,21 @@
 <p>
 <s>
 <W lemma="kommunedata" msd="NCCPG==I">Kommunedatas</W>
-<W lemma="stor" msd="ANS[CN][SP]U=DU">største</W>
+<W lemma="stor" msd="ANS[CN][SP]U=DU">stÃ¸rste</W>
 <W lemma="udgift" msd="NCCSU==I">udgift</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="lønning" msd="NCCPU==I">lønninger</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="lÃ¸nning" msd="NCCPU==I">lÃ¸nninger</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="alt" msd="RGU">alt</W>
 <W lemma="efter" msd="SP">efter</W>
-<W lemma="målemetode" msd="NCCSU==I">målemetode</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="mÃ¥lemetode" msd="NCCSU==I">mÃ¥lemetode</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="produktion" msd="NCCSU==D">produktionen</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
 <W lemma="par" msd="NCNPU==I">par</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="stige" msd="VAPA=S[CN]I[ARU]-U">steget</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="fem-syv" msd="AC---U=--">fem-syv</W>
@@ -68,10 +68,10 @@
 <W lemma="falde" msd="VADR=----A-">falder</W>
 <W lemma="langsom" msd="ANP---=-R">langsomt</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="øjeblik" msd="NCNSU==D">øjeblikket</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="Ã¸jeblik" msd="NCNSU==D">Ã¸jeblikket</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="1.850" msd="AC---U=--">1.850</W>
 <W lemma="medarbejder" msd="NCCPU==I">medarbejdere</W>
 <W lemma="." msd="XP">.</W>
@@ -85,29 +85,29 @@
 <W lemma="med" msd="SP">med</W>
 <W lemma="meget" msd="ANC[CN]SU=IU">mere</W>
 <W lemma="konkurrence" msd="NCCSU==I">konkurrence</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="kommunemarked" msd="NCNSU==D">kommunemarkedet</W>
 <W lemma="presse" msd="VADR=----A-">presser</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="kommunedata" msd="NCCPU==I">Kommunedata</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="søge" msd="VAF-=----A-">søge</W>
+<W lemma="sÃ¸ge" msd="VAF-=----A-">sÃ¸ge</W>
 <W lemma="ny" msd="ANPCSU=IU">ny</W>
-<W lemma="omsætning" msd="NCCSU==I">omsætning</W>
+<W lemma="omsÃ¦tning" msd="NCCSU==I">omsÃ¦tning</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="derfor" msd="RGU">Derfor</W>
-<W lemma="forsøge" msd="VADR=----A-">forsøger</W>
+<W lemma="forsÃ¸ge" msd="VADR=----A-">forsÃ¸ger</W>
 <W lemma="firma" msd="NCNSU==D">firmaet</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="eksport" msd="NCCSU==I">eksport</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="især" msd="RGU">især</W>
+<W lemma="isÃ¦r" msd="RGU">isÃ¦r</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="sygehus-system" msd="NCNPU==D">sygehus-systemerne</W>
 <W lemma="." msd="XP">.</W>
@@ -115,20 +115,20 @@
 </p>
 <p>
 <s>
-<W lemma="også" msd="RGU">Også</W>
+<W lemma="ogsÃ¥" msd="RGU">OgsÃ¥</W>
 <W lemma="kommunedata" msd="NCCPG==I">Kommunedatas</W>
-<W lemma="lønsystem" msd="NCNSU==I">lønsystem</W>
+<W lemma="lÃ¸nsystem" msd="NCNSU==I">lÃ¸nsystem</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
-<W lemma="købe" msd="VAPA=S[CN]I[ARU]-U">købt</W>
+<W lemma="kÃ¸be" msd="VAPA=S[CN]I[ARU]-U">kÃ¸bt</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="lille" msd="ANP[CN]SU=[DI]U">lille</W>
 <W lemma="softwarehus" msd="NCNSU==I">softwarehus</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="sælge" msd="VADR=----P-">sælges</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="sÃ¦lge" msd="VADR=----P-">sÃ¦lges</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="privat" msd="ANP[CN]SU=DU">private</W>
 <W lemma="marked" msd="NCNSU==I">marked</W>
@@ -139,7 +139,7 @@
 <s>
 <W lemma="den" msd="PD-NSU--U">Det</W>
 <W lemma="samme" msd="ANP[CN][SP]U=[DI]U">samme</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="software" msd="NC[CN]SU==I">software</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="EDI" msd="NP--U==-">EDI</W>
@@ -204,7 +204,7 @@
 <W lemma="kommunal" msd="ANP[CN]PU=[DI]U">kommunale</W>
 <W lemma="oplysning" msd="NCCPU==I">oplysninger</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="køreplan" msd="NCCPU==I">køreplaner</W>
+<W lemma="kÃ¸replan" msd="NCCPU==I">kÃ¸replaner</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="bank" msd="NCCSU==D">banken</W>
 <W lemma="," msd="XP">,</W>
@@ -212,7 +212,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="nyhed" msd="NCCPU==I">nyheder</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="videre" msd="RGU">videre</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -232,10 +232,10 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="fornuft" msd="NCCSU==I">fornuft</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="økonomi" msd="NCCSU==I">økonomi</W>
+<W lemma="Ã¸konomi" msd="NCCSU==I">Ã¸konomi</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="give" msd="VAF-=----A-">give</W>

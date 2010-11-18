@@ -46,7 +46,7 @@
 <W lemma="som" msd="U=">som</W>
 <W lemma="kun" msd="RGU">kun</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="dansk" msd="ANP[CN]SU=IU">dansk</W>
 <W lemma="mester" msd="NCCSU==I">mester</W>
 <W lemma="en" msd="PI-CSU--U">een</W>
@@ -57,7 +57,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="1983" msd="AC---U=--">1983</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="inde" msd="RGU">inde</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -67,15 +67,15 @@
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="spillerforening" msd="NCCSU==D">Spillerforeningen</W>
-<W lemma="nykåret" msd="ANP[CN]SU=DU">nykårede</W>
+<W lemma="nykÃ¥ret" msd="ANP[CN]SU=DU">nykÃ¥rede</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="år" msd="NCNSG==D">Årets</W>
+<W lemma="Ã¥r" msd="NCNSG==D">Ã…rets</W>
 <W lemma="spiller" msd="NCCSU==I">Spiller</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="Torben" msd="NP--U==-">Torben</W>
 <W lemma="Frank" msd="NP--U==-">Frank</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="særklasse" msd="NCCSU==I">særklasse</W>
+<W lemma="sÃ¦rklasse" msd="NCCSU==I">sÃ¦rklasse</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -103,7 +103,7 @@
 <W lemma="1976" msd="AC---U=--">1976</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="køre" msd="VAPA=S[CN]I[ARU]-U">kørt</W>
+<W lemma="kÃ¸re" msd="VAPA=S[CN]I[ARU]-U">kÃ¸rt</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="par" msd="NCNSU==I">par</W>
 <W lemma="gang" msd="NCCPU==I">gange</W>
@@ -114,8 +114,8 @@
 <W lemma="uheldig" msd="ANP[CN]PU=[DI]U">uheldige</W>
 <W lemma="helt" msd="NCCPU==I">helte</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Århus" msd="NP--U==-">Århus</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="Ã…rhus" msd="NP--U==-">Ã…rhus</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
 <W lemma="," msd="XP">,</W>
@@ -127,7 +127,7 @@
 <W lemma="skade" msd="VAPA=P[CN][DI]A-U">skadede</W>
 <W lemma="stamspiller" msd="NCCPU==I">stamspillere</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="Lyngby" msd="NP--U==-">Lyngby</W>
 <W lemma="boldklub" msd="NCCSU==I">Boldklub</W>
 <W lemma="min" msd="PO1CSUSNU">min</W>
@@ -142,7 +142,7 @@
 <W lemma="fordi" msd="CS">fordi</W>
 <W lemma="hold" msd="NCNSU==D">holdet</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="nøjes" msd="VEF-=----A-">nøjes</W>
+<W lemma="nÃ¸jes" msd="VEF-=----A-">nÃ¸jes</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="uafgjort" msd="ANP[CN]SU=IU">uafgjort</W>
 <W lemma=" - " msd="XP"> - </W>
@@ -151,10 +151,10 @@
 <W lemma="spille" msd="VADR=----A-">spiller</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="tæt" msd="ANP[CN]SU=IU">tæt</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="tÃ¦t" msd="ANP[CN]SU=IU">tÃ¦t</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="kamp" msd="NCCSU==I">kamp</W>
 <W lemma=" - " msd="XP"> - </W>
@@ -175,26 +175,26 @@
 <p>
 <s>
 <W lemma="B1903" msd="NP--U==-">B1903</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="dog" msd="RGU">dog</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="rutineret" msd="ANP[CN]SU=IU">rutineret</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="talentfuld" msd="ANPCSU=IU">talentfuld</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="farlig" msd="ANPCSU=IU">farlig</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="enhver" msd="PI-CSU--U">enhver</W>
 <W lemma="modstander" msd="NCCSU==I">modstander</W>
 <W lemma="(" msd="XP">(</W>
-<W lemma="spørge" msd="VAM-=------">spørg</W>
+<W lemma="spÃ¸rge" msd="VAM-=------">spÃ¸rg</W>
 <W lemma="bare" msd="RGU">bare</W>
 <W lemma="Aberdeen" msd="NP--U==-">Aberdeen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="Bayern" msd="NP--U==-">Bayern</W>
-<W lemma="München" msd="NP--U==-">München</W>
+<W lemma="MÃ¼nchen" msd="NP--U==-">MÃ¼nchen</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="Trabzonspor" msd="NP--U==-">Trabzonspor</W>
 <W lemma=")" msd="XP">)</W>
@@ -218,12 +218,12 @@
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="summe" msd="VAF-=----A-">summe</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="højspænding" msd="NCCSU==I">højspænding</W>
+<W lemma="hÃ¸jspÃ¦nding" msd="NCCSU==I">hÃ¸jspÃ¦nding</W>
 <W lemma="i_morgen" msd="RGU">i_morgen</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="15-tid" msd="NCCSU==D">15-tiden</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="B1903" msd="NP--U==-">B1903</W>
 <W lemma="takke" msd="VADR=----A-">takker</W>
 <W lemma="af" msd="RGU">af</W>

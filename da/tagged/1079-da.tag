@@ -51,7 +51,7 @@
 <W lemma="forsikringskoncern" msd="NCCSU==D">forsikringskoncernen</W>
 <W lemma="garantere" msd="VADA=----A-">garanterede</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="lån" msd="NCNPU==I">lån</W>
+<W lemma="lÃ¥n" msd="NCNPU==I">lÃ¥n</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="finansmand" msd="NCCSU==D">finansmanden</W>
@@ -62,7 +62,7 @@
 <W lemma="Jensen" msd="NP--U==-">Jensen</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="fodboldklub" msd="NCCSU==D">fodboldklubben</W>
-<W lemma="Brøndbyerne" msd="NP--G==-">Brøndbyernes</W>
+<W lemma="BrÃ¸ndbyerne" msd="NP--G==-">BrÃ¸ndbyernes</W>
 <W lemma="IF" msd="NP--U==-">IF</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
 <W lemma="optage" msd="VAPA=S[CN]I[ARU]-U">optaget</W>
@@ -79,7 +79,7 @@
 <W lemma="Carnegie" msd="NP--U==-">Carnegie</W>
 <W lemma="kreditinstitut" msd="NCNSU==I">Kreditinstitut</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="opkøb" msd="NCNSU==D">opkøbet</W>
+<W lemma="opkÃ¸b" msd="NCNSU==D">opkÃ¸bet</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="aktiemajoritet" msd="NCCSU==D">aktiemajoriteten</W>
 <W lemma="i" msd="SP">i</W>
@@ -92,7 +92,7 @@
 <W lemma="Leif" msd="NP--U==-">Leif</W>
 <W lemma="Jensen" msd="NP--U==-">Jensen</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="Brøndbyerne" msd="NP--G==-">Brøndbyernes</W>
+<W lemma="BrÃ¸ndbyerne" msd="NP--G==-">BrÃ¸ndbyernes</W>
 <W lemma="IF" msd="NP--U==-">IF</W>
 <W lemma="indlede" msd="VADA=----A-">indledte</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
@@ -100,7 +100,7 @@
 <W lemma="mod" msd="SP">mod</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="lille" msd="ANP[CN]SU=[DI]U">lille</W>
-<W lemma="børs" msd="NCCSU==I">børs</W>
+<W lemma="bÃ¸rs" msd="NCCSU==I">bÃ¸rs</W>
 <W lemma="I-noteret" msd="ANP[CN]SU=DU">I-noterede</W>
 <W lemma="specialbank" msd="NCCSU==I">specialbank</W>
 <W lemma="," msd="XP">,</W>
@@ -117,17 +117,17 @@
 <W lemma="blive" msd="VADA=----A-">blev</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="succes" msd="NCCSU==I">succes</W>
-<W lemma="forstå" msd="VAPA=S[CN]I[ARU]-U">forstået</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="forstÃ¥" msd="VAPA=S[CN]I[ARU]-U">forstÃ¥et</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="måde" msd="NCCSU==I">måde</W>
+<W lemma="mÃ¥de" msd="NCCSU==I">mÃ¥de</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="fodboldklub" msd="NCCSU==D">fodboldklubben</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="Leif" msd="NP--U==-">Leif</W>
 <W lemma="Jensen" msd="NP--U==-">Jensen</W>
-<W lemma="opnå" msd="VADA=----A-">opnåede</W>
+<W lemma="opnÃ¥" msd="VADA=----A-">opnÃ¥ede</W>
 <W lemma="kontrol" msd="NCCSU==I">kontrol</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="Interbank" msd="NP--U==-">Interbank</W>
@@ -139,7 +139,7 @@
 <W lemma="dog" msd="RGU">dog</W>
 <W lemma="dog" msd="XX">dog</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="låne" msd="VAPA=P[CN][DI]A-U">lånte</W>
+<W lemma="lÃ¥ne" msd="VAPA=P[CN][DI]A-U">lÃ¥nte</W>
 <W lemma="penge" msd="NCCPU==I">penge</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
@@ -154,13 +154,13 @@
 <W lemma="Leif" msd="NP--U==-">Leif</W>
 <W lemma="Jensen" msd="NP--U==-">Jensen</W>
 <W lemma="eller" msd="CC">eller</W>
-<W lemma="Brøndbyerne" msd="NP--G==-">Brøndbyernes</W>
+<W lemma="BrÃ¸ndbyerne" msd="NP--G==-">BrÃ¸ndbyernes</W>
 <W lemma="IF" msd="NP--U==-">IF</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="betale" msd="VAF-=----A-">betale</W>
 <W lemma="rente" msd="NCCPU==D">renterne</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="millionlån" msd="NCNSU==D">millionlånet</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="millionlÃ¥n" msd="NCNSU==D">millionlÃ¥net</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -188,11 +188,11 @@
 <W lemma="Carnegie" msd="NP--U==-">Carnegie</W>
 <W lemma="kreditinstitut" msd="NCNSU==I">Kreditinstitut</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="købe" msd="VAF-=----A-">købe</W>
+<W lemma="kÃ¸be" msd="VAF-=----A-">kÃ¸be</W>
 <W lemma="Interbank" msd="NP--U==-">Interbank</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvis" msd="CS">hvis</W>
-<W lemma="Brøndbyerne" msd="NP--G==-">Brøndbyernes</W>
+<W lemma="BrÃ¸ndbyerne" msd="NP--G==-">BrÃ¸ndbyernes</W>
 <W lemma="IF" msd="NP--U==-">IF</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="Leif" msd="NP--U==-">Leif</W>
@@ -201,11 +201,11 @@
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
 <W lemma="betale" msd="VAF-=----A-">betale</W>
 <W lemma="af" msd="RGU">af</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
-<W lemma="gæld" msd="NCCSU==I">gæld</W>
+<W lemma="gÃ¦ld" msd="NCCSU==I">gÃ¦ld</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="i_dag" msd="RGU">i_dag</W>
 <W lemma="reel" msd="ANP---=-R">reelt</W>

@@ -47,25 +47,25 @@
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="slag" msd="NCNSU==I">slag</W>
 <W lemma="under" msd="SP">under</W>
-<W lemma="bæltested" msd="NCNSU==D">bæltestedet</W>
+<W lemma="bÃ¦ltested" msd="NCNSU==D">bÃ¦ltestedet</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="den" msd="PD-[CN]PU--U">De</W>
 <W lemma="meget" msd="ANS---=-R">mest</W>
-<W lemma="bagstræberisk" msd="ANP[CN]PU=[DI]U">bagstræberiske</W>
+<W lemma="bagstrÃ¦berisk" msd="ANP[CN]PU=[DI]U">bagstrÃ¦beriske</W>
 <W lemma="folketingsmedlem" msd="NCNPU==I">folketingsmedlemmer</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="erkende" msd="VAPA=S[CN]I[ARU]-U">erkendt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="både" msd="RGU">både</W>
-<W lemma="kræve" msd="VADR=----A-">kræver</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
+<W lemma="krÃ¦ve" msd="VADR=----A-">krÃ¦ver</W>
 <W lemma="tankevirksomhed" msd="NCCSU==I">tankevirksomhed</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="reaktionsevne" msd="NCCSU==I">reaktionsevne</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="færdes" msd="VEF-=----A-">færdes</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="fÃ¦rdes" msd="VEF-=----A-">fÃ¦rdes</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="motorvej" msd="NCCPU==I">motorveje</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="hastighed" msd="NCCPU==I">hastigheder</W>
@@ -77,25 +77,25 @@
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="insistere" msd="VAPA=S[CN]I[ARU]-U">insisteret</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="denne" msd="PD-CSU--U">denne</W>
-<W lemma="hastighedsbegrænsning" msd="NCCSU==I">hastighedsbegrænsning</W>
+<W lemma="hastighedsbegrÃ¦nsning" msd="NCCSU==I">hastighedsbegrÃ¦nsning</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="beskytte" msd="VAF-=----A-">beskytte</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
 <W lemma="egen" msd="ANP[CN]PU=[DI]U">egne</W>
-<W lemma="vælger" msd="NCCPU==I">vælgere</W>
+<W lemma="vÃ¦lger" msd="NCCPU==I">vÃ¦lgere</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="denne" msd="PD-NSU--U">Dette</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="naturligvis" msd="RGU">naturligvis</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="tilfælde" msd="NCNSU==D">tilfældet</W>
+<W lemma="tilfÃ¦lde" msd="NCNSU==D">tilfÃ¦ldet</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -111,17 +111,17 @@
 <W lemma="hel" msd="ANP---=-R">helt</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
 <W lemma="brille" msd="NCCPU==I">briller</W>
-<W lemma="på" msd="RGU">på</W>
+<W lemma="pÃ¥" msd="RGU">pÃ¥</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="der" msd="U=">Der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="tale" msd="NCCSU==I">tale</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="trafikmæssig" msd="ANPCSU=IU">trafikmæssig</W>
+<W lemma="trafikmÃ¦ssig" msd="ANPCSU=IU">trafikmÃ¦ssig</W>
 <W lemma="regulering" msd="NCCSU==I">regulering</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -141,7 +141,7 @@
 <W lemma="forbryder" msd="NCCSU==I">forbryder</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="fræse" msd="VADR=----A-">fræser</W>
+<W lemma="frÃ¦se" msd="VADR=----A-">frÃ¦ser</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="ad" msd="SP">ad</W>
 <W lemma="vores" msd="PO1NSUPNF">vort</W>
@@ -155,7 +155,7 @@
 <W lemma="km/t" msd="XA">km/t</W>
 <W lemma="slippe" msd="VADR=----A-">slipper</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="uændret" msd="ANP[CN]SU=IU">uændret</W>
+<W lemma="uÃ¦ndret" msd="ANP[CN]SU=IU">uÃ¦ndret</W>
 <W lemma="afgift" msd="NCCSU==I">afgift</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="halv" msd="ANPCSU=IU">halv</W>
@@ -182,7 +182,7 @@
 <W lemma="uden" msd="SP">Uden</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="give" msd="VAF-=----A-">give</W>
-<W lemma="køb" msd="NCNSU==I">køb</W>
+<W lemma="kÃ¸b" msd="NCNSU==I">kÃ¸b</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="blot" msd="RGU">blot</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -193,10 +193,10 @@
 <W lemma="time" msd="NCCSU==D">timen</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="få" msd="VAPA=S[CN]I[ARU]-U">fået</W>
+<W lemma="fÃ¥" msd="VAPA=S[CN]I[ARU]-U">fÃ¥et</W>
 <W lemma="brugerbetaling" msd="NCCSU==D">brugerbetalingen</W>
-<W lemma="sætte" msd="VAPA=S[CN]I[ARU]-U">sat</W>
-<W lemma="klækkelig" msd="ANP---=-R">klækkeligt</W>
+<W lemma="sÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">sat</W>
+<W lemma="klÃ¦kkelig" msd="ANP---=-R">klÃ¦kkeligt</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="vejr" msd="NCNSU==D">vejret</W>
 <W lemma="." msd="XP">.</W>
@@ -204,16 +204,16 @@
 <s>
 <W lemma="med_hensyn_til" msd="SP">Med_hensyn_til</W>
 <W lemma="speciel" msd="ANP[CN]PU=[DI]U">specielle</W>
-<W lemma="hastighedsbegrænsning" msd="NCCPU==I">hastighedsbegrænsninger</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="hastighedsbegrÃ¦nsning" msd="NCCPU==I">hastighedsbegrÃ¦nsninger</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="mange" msd="ANS[CN]PU=DU">fleste</W>
 <W lemma="berettige" msd="VAPA=P[CN][DI]A-U">berettigede</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="støde" msd="VADR=----A-">støder</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="stÃ¸de" msd="VADR=----A-">stÃ¸der</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="del" msd="NCCSU==I">del</W>
 <W lemma="," msd="XP">,</W>
@@ -222,13 +222,13 @@
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="nogen" msd="PI-CSU--U">nogen</W>
-<W lemma="trafikmæssig" msd="ANPCSU=IU">trafikmæssig</W>
+<W lemma="trafikmÃ¦ssig" msd="ANPCSU=IU">trafikmÃ¦ssig</W>
 <W lemma="begrundelse" msd="NCCSU==I">begrundelse</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="denne" msd="PD-NSU--U">Dette</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="pengemaskine" msd="NCCPU==D">pengemaskinerne</W>
 <W lemma="." msd="XP">.</W>
 </s>

@@ -59,19 +59,19 @@
 <W lemma="den" msd="PD-CSU--U">Den</W>
 <W lemma="1." msd="AO---U=--">1.</W>
 <W lemma="oktober" msd="NCCSU==I">oktober</W>
-<W lemma="træde" msd="VADR=----A-">træder</W>
+<W lemma="trÃ¦de" msd="VADR=----A-">trÃ¦der</W>
 <W lemma="lov" msd="NCCSU==D">loven</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="betaling" msd="NCCSU==I">betaling</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="varig" msd="ANPCSU=IU">varig</W>
-<W lemma="hjemmehjælp" msd="NCCSU==I">hjemmehjælp</W>
+<W lemma="hjemmehjÃ¦lp" msd="NCCSU==I">hjemmehjÃ¦lp</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="kraft" msd="NCCSU==I">kraft</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="ifølge" msd="SP">Ifølge</W>
+<W lemma="ifÃ¸lge" msd="SP">IfÃ¸lge</W>
 <W lemma="lov" msd="NCCSU==D">loven</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="for_eksempel" msd="RGU">f.eks.</W>
@@ -98,9 +98,9 @@
 <W lemma="maksimal" msd="ANP---=-R">maximalt</W>
 <W lemma="18.000" msd="AC---U=--">18.000</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
-<W lemma="årlig" msd="ANP---=-R">årligt</W>
+<W lemma="Ã¥rlig" msd="ANP---=-R">Ã¥rligt</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="hjemmehjælp" msd="NCCSU==I">hjemmehjælp</W>
+<W lemma="hjemmehjÃ¦lp" msd="NCCSU==I">hjemmehjÃ¦lp</W>
 <W lemma="uanset" msd="SP">uanset</W>
 <W lemma="denne" msd="PD-CSG--U">dennes</W>
 <W lemma="omfang" msd="NCNSU==I">omfang</W>
@@ -125,14 +125,14 @@
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="betale" msd="VAF-=----A-">betale</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="timeløn" msd="NCCSU==I">timeløn</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="timelÃ¸n" msd="NCCSU==I">timelÃ¸n</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="500-800" msd="AC---U=--">500-800</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="nødvendig" msd="ANP[CN]SU=DU">nødvendige</W>
-<W lemma="hjemmehjælp" msd="NCCSU==I">hjemmehjælp</W>
+<W lemma="nÃ¸dvendig" msd="ANP[CN]SU=DU">nÃ¸dvendige</W>
+<W lemma="hjemmehjÃ¦lp" msd="NCCSU==I">hjemmehjÃ¦lp</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -152,23 +152,23 @@
 <W lemma="opsige" msd="VAF-=----A-">opsige</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="kommunal" msd="ANP[CN]SU=DU">kommunale</W>
-<W lemma="hjemmehjælp" msd="NCCSU==I">hjemmehjælp</W>
+<W lemma="hjemmehjÃ¦lp" msd="NCCSU==I">hjemmehjÃ¦lp</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="kaste" msd="VADR=----P-">kastes</W>
 <W lemma="derefter" msd="RGU">derefter</W>
 <W lemma="ud" msd="RGU">ud</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="sort" msd="ANP[CN]SU=DU">sorte</W>
 <W lemma="marked" msd="NCNSU==I">marked</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
-<W lemma="dække" msd="VAPA=S[CN]I[ARU]-U">dækket</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
+<W lemma="dÃ¦kke" msd="VAPA=S[CN]I[ARU]-U">dÃ¦kket</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
 <W lemma="behov" msd="NCNSU==I">behov</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="hjælp" msd="NCCSU==I">hjælp</W>
+<W lemma="hjÃ¦lp" msd="NCCSU==I">hjÃ¦lp</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="rimelig" msd="ANPCSU=IU">rimelig</W>
@@ -188,24 +188,24 @@
 <W lemma="synes" msd="VEDR=----A-">synes</W>
 <W lemma="derfor" msd="RGU">derfor</W>
 <W lemma="liden" msd="ANP---=-R">lidet</W>
-<W lemma="troværdig" msd="ANPNSU=IU">troværdigt</W>
+<W lemma="trovÃ¦rdig" msd="ANPNSU=IU">trovÃ¦rdigt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="idet" msd="CS">idet</W>
 <W lemma="denne" msd="PD-CSU--U">denne</W>
 <W lemma="umoralsk" msd="ANP[CN]SU=DU">umoralske</W>
 <W lemma="ordning" msd="NCCSU==I">ordning</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="socialdemokrati" msd="NCNSG==D">Socialdemokratiets</W>
 <W lemma="fingeraftryk" msd="NCNSU==I">fingeraftryk</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="lov" msd="NCCSU==D">loven</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="varig" msd="ANPCSU=IU">varig</W>
-<W lemma="hjemmehjælp" msd="NCCSU==I">hjemmehjælp</W>
+<W lemma="hjemmehjÃ¦lp" msd="NCCSU==I">hjemmehjÃ¦lp</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="mens" msd="CS">mens</W>
 <W lemma="regeringsparti" msd="NCNPU==D">regeringspartierne</W>
-<W lemma="ønske" msd="VADA=----A-">ønskede</W>
+<W lemma="Ã¸nske" msd="VADA=----A-">Ã¸nskede</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="almindelig" msd="ANPCSU=IU">almindelig</W>
 <W lemma="brugerbetalingsordning" msd="NCCSU==I">brugerbetalingsordning</W>
@@ -220,7 +220,7 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="normal" msd="ANPCSU=IU">normal</W>
-<W lemma="timeløn" msd="NCCSU==I">timeløn</W>
+<W lemma="timelÃ¸n" msd="NCCSU==I">timelÃ¸n</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -228,11 +228,11 @@
 <W lemma="Y." msd="NP--U==-">Y.</W>
 <W lemma="Hansen" msd="NP--U==-">Hansen</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="Hjortevænget" msd="NP--U==-">Hjortevænget</W>
+<W lemma="HjortevÃ¦nget" msd="NP--U==-">HjortevÃ¦nget</W>
 <W lemma="47" msd="AC---U=--">47</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="2880" msd="AC---U=--">2880</W>
-<W lemma="Bagsværd" msd="NP--U==-">Bagsværd</W>
+<W lemma="BagsvÃ¦rd" msd="NP--U==-">BagsvÃ¦rd</W>
 </s>
 </p>
 </div1>

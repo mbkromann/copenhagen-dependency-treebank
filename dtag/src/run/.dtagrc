@@ -79,6 +79,7 @@ style match -label -fonttype bold -color blue
 style ematch -arc -color blue -arclabel -fonttype bold -color blue
 style red -label -color red -arclabel -color red -arc -color red -dash dot
 style redlbl -label -color red -fonttype bold
+style redarc -arc -color red -dash dot
 style blue -label -color blue -arclabel -color blue -arc -color blue -ps "[1 1] 0 setdash"
 style white -arclabel -ps "1 setgray" -arc -ps "1 setgray"
 style label=white -arclabel -ps "1 setgray"

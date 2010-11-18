@@ -46,9 +46,9 @@
 <W lemma="Frankrig" msd="NP--U==-">Frankrig</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="hidtil" msd="RGU">hidtil</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="træg" msd="ANS[CN][SP]U=DU">trægeste</W>
+<W lemma="trÃ¦g" msd="ANS[CN][SP]U=DU">trÃ¦geste</W>
 <W lemma="land" msd="NCNSU==I">land</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Vesteuropa" msd="NP--U==-">Vesteuropa</W>
@@ -76,7 +76,7 @@
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="give" msd="VAPA=S[CN]I[ARU]-U">givet</W>
 <W lemma="skattelettelse" msd="NCCPU==I">skattelettelser</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="2.000" msd="AC---U=--">2.000</W>
 <W lemma="franc" msd="NCCPU==I">francs</W>
 <W lemma="," msd="XP">,</W>
@@ -85,13 +85,13 @@
 <W lemma="krone" msd="NCCPU==I">kr.</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="år" msd="NCNSG==D">årets</W>
+<W lemma="Ã¥r" msd="NCNSG==D">Ã¥rets</W>
 <W lemma="udgang" msd="NCCSU==I">udgang</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="købe" msd="VADR=----A-">køber</W>
+<W lemma="kÃ¸be" msd="VADR=----A-">kÃ¸ber</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="ny" msd="ANPCSU=IU">ny</W>
 <W lemma="bil" msd="NCCSU==I">bil</W>
@@ -102,7 +102,7 @@
 <s>
 <W lemma="i" msd="SP">I</W>
 <W lemma="Frankrig" msd="NP--U==-">Frankrig</W>
-<W lemma="køre" msd="VADR=----A-">kører</W>
+<W lemma="kÃ¸re" msd="VADR=----A-">kÃ¸rer</W>
 <W lemma="endnu" msd="RGU">endnu</W>
 <W lemma="kun" msd="RGU">kun</W>
 <W lemma="to" msd="AC---U=--">to</W>
@@ -118,9 +118,9 @@
 <W lemma="fransk" msd="ANP[CN]SU=IU">Fransk</W>
 <W lemma="bilindustri" msd="NCCSU==I">bilindustri</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="hjemmebane" msd="NCCSU==I">hjemmebane</W>
-<W lemma="kæmpe" msd="VAPA=S[CN]I[ARU]-U">kæmpet</W>
+<W lemma="kÃ¦mpe" msd="VAPA=S[CN]I[ARU]-U">kÃ¦mpet</W>
 <W lemma="voldsom" msd="ANP---=-R">voldsomt</W>
 <W lemma="mod" msd="SP">mod</W>
 <W lemma="kat" msd="NCCSU==D">kat'en</W>
@@ -128,7 +128,7 @@
 </s>
 <s>
 <W lemma="hvor" msd="RGU">Hvor</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="fransk" msd="ANP[CN]SU=IU">fransk</W>
 <W lemma="!" msd="XP">!</W>
@@ -146,7 +146,7 @@
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="nogen" msd="PI-[CN]PU--U">nogle</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="anvende" msd="VAPA=S[CN]I[ARU]-U">anvendt</W>
 <W lemma="udtryk" msd="NCNSU==D">udtrykket</W>
 <W lemma="crash" msd="XF">crash</W>
@@ -155,7 +155,7 @@
 <W lemma="airbag" msd="NCCSU==I">airbag</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="henholdsvis" msd="RGU">henholdsvis</W>
-<W lemma="kollisions-prøve" msd="NCCPU==I">kollisions-prøver</W>
+<W lemma="kollisions-prÃ¸ve" msd="NCCPU==I">kollisions-prÃ¸ver</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="oppustelig" msd="ANP[CN]PU=[DI]U">oppustelige</W>
@@ -163,18 +163,18 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="sikring" msd="NCCSU==I">sikring</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="fører" msd="NCCSU==I">fører</W>
+<W lemma="fÃ¸rer" msd="NCCSU==I">fÃ¸rer</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="eventuel" msd="ANP---=-R">evt.</W>
 <W lemma="passager" msd="NCCSU==I">passager</W>
 <W lemma="ved" msd="SP">ved</W>
-<W lemma="sammenstød" msd="NCNPU==I">sammenstød</W>
+<W lemma="sammenstÃ¸d" msd="NCNPU==I">sammenstÃ¸d</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="regering" msd="NCCSU==D">Regeringen</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="forelægge" msd="VAPA=S[CN]I[ARU]-U">forelagt</W>
+<W lemma="forelÃ¦gge" msd="VAPA=S[CN]I[ARU]-U">forelagt</W>
 <W lemma="udtryk" msd="NCNPU==D">udtrykkene</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="mange" msd="ANC[CN]PU=[DI]U">flere</W>
@@ -185,7 +185,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="nu" msd="RGU">nu</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="ind" msd="RGU">ind</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="fransk" msd="ANP[CN]PU=[DI]U">franske</W>
@@ -208,7 +208,7 @@
 <W lemma="EF-kommission" msd="NCCSU==D">EF-kommissionen</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="via" msd="SP">via</W>
-<W lemma="skattenedsættelse" msd="NCCPU==I">skattenedsættelser</W>
+<W lemma="skattenedsÃ¦ttelse" msd="NCCPU==I">skattenedsÃ¦ttelser</W>
 <W lemma="fremme" msd="VAF-=----A-">fremme</W>
 <W lemma="anvendelse" msd="NCCSU==D">anvendelsen</W>
 <W lemma="af" msd="SP">af</W>
@@ -216,7 +216,7 @@
 <W lemma="drivmiddel" msd="NCNPU==I">drivmidler</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="bil" msd="NCCPU==I">biler</W>
-<W lemma="såsom" msd="CS">såsom</W>
+<W lemma="sÃ¥som" msd="CS">sÃ¥som</W>
 <W lemma="bio-ethanol" msd="NCNSU==I">bio-ethanol</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="methanol" msd="NCNSU==I">methanol</W>
@@ -224,7 +224,7 @@
 <W lemma="rapsolie" msd="NCCSU==I">rapsolie</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="højst" msd="RGU">højst</W>
+<W lemma="hÃ¸jst" msd="RGU">hÃ¸jst</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="beskatte" msd="VAF-=----P-">beskattes</W>
 <W lemma="med" msd="SP">med</W>
@@ -239,22 +239,22 @@
 <s>
 <W lemma="man" msd="PI-C[SP]N--U">Man</W>
 <W lemma="sigte" msd="VADR=----A-">sigter</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="ti-årig" msd="ANPCSU=IU">ti-årig</W>
+<W lemma="ti-Ã¥rig" msd="ANPCSU=IU">ti-Ã¥rig</W>
 <W lemma="aftale" msd="NCCSU==I">aftale</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="den" msd="PP3CSU-NU">den</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="kun" msd="RGU">kun</W>
-<W lemma="gælde" msd="VAF-=----A-">gælde</W>
+<W lemma="gÃ¦lde" msd="VAF-=----A-">gÃ¦lde</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="drivmiddel" msd="NCNPU==I">drivmidler</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="smøringsstof" msd="NCNPU==I">smøringsstoffer</W>
+<W lemma="smÃ¸ringsstof" msd="NCNPU==I">smÃ¸ringsstoffer</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="europæisk" msd="ANP[CN]SU=IU">europæisk</W>
+<W lemma="europÃ¦isk" msd="ANP[CN]SU=IU">europÃ¦isk</W>
 <W lemma="landbrugs-oprindelse" msd="NCCSU==I">landbrugs-oprindelse</W>
 <W lemma="." msd="XP">.</W>
 </s>

@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Selvhjælpsgruppen for FN-soldaternes kon'</title>
+        <title>Tagged sample of: 'SelvhjÃ¦lpsgruppen for FN-soldaternes kon'</title>
       </titleStmt>
       <extent words=162>162 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Selvhjælpsgruppen for FN-soldaternes kon</title>
+            <title>SelvhjÃ¦lpsgruppen for FN-soldaternes kon</title>
             <author>Petersen, Lisbeth Bonde</author>
           </analytic>
           <monogr>
@@ -41,18 +41,18 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="sådan" msd="RGU">Sådan</W>
+<W lemma="sÃ¥dan" msd="RGU">SÃ¥dan</W>
 <W lemma="starte" msd="VADA=----A-">startede</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="en" msd="PI-CSU--U">En</W>
 <W lemma="mor" msd="NCCSU==I">mor</W>
-<W lemma="fortælle" msd="VADA=----A-">fortalte</W>
+<W lemma="fortÃ¦lle" msd="VADA=----A-">fortalte</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="medarbejder" msd="NCCSU==I">medarbejder</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Kolding" msd="NP--U==-">Kolding</W>
-<W lemma="selvhjælp" msd="NCCSU==I">Selvhjælp</W>
+<W lemma="selvhjÃ¦lp" msd="NCCSU==I">SelvhjÃ¦lp</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="bekymring" msd="NCCSU==I">bekymring</W>
@@ -60,7 +60,7 @@
 <W lemma="fordi" msd="CS">fordi</W>
 <W lemma="hendes" msd="PO3[CN][SP]USNU">hendes</W>
 <W lemma="voksen" msd="ANP[CN]SU=DU">voksne</W>
-<W lemma="søn" msd="NCCSU==I">søn</W>
+<W lemma="sÃ¸n" msd="NCCSU==I">sÃ¸n</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
 <W lemma="melde" msd="VAPA=S[CN]I[ARU]-U">meldt</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
@@ -75,17 +75,17 @@
 <s>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
 <W lemma="spidse" msd="VADA=----A-">spidsede</W>
-<W lemma="øre" msd="NCNPU==I">ører</W>
+<W lemma="Ã¸re" msd="NCNPU==I">Ã¸rer</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
-<W lemma="pårørende" msd="NCCPU==[DI]">pårørende</W>
+<W lemma="pÃ¥rÃ¸rende" msd="NCCPU==[DI]">pÃ¥rÃ¸rende</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="FN-soldat" msd="NCCPU==I">FN-soldater</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="føle" msd="VADA=----A-">følte</W>
+<W lemma="fÃ¸le" msd="VADA=----A-">fÃ¸lte</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="samme" msd="ANP[CN][SP]U=[DI]U">samme</W>
 <W lemma="bekymring" msd="NCCSU==I">bekymring</W>
@@ -93,7 +93,7 @@
 </s>
 <s>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
-<W lemma="sætte" msd="VADA=----A-">satte</W>
+<W lemma="sÃ¦tte" msd="VADA=----A-">satte</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="annonce" msd="NCCSU==I">annonce</W>
 <W lemma="i" msd="SP">i</W>
@@ -105,7 +105,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="ægtefælle" msd="NCCSU==I">ægtefælle</W>
+<W lemma="Ã¦gtefÃ¦lle" msd="NCCSU==I">Ã¦gtefÃ¦lle</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="FN-soldat" msd="NCCSU==I">FN-soldat</W>
@@ -148,11 +148,11 @@
 <p>
 <s>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
-<W lemma="ønske" msd="VADA=----A-">ønskede</W>
+<W lemma="Ã¸nske" msd="VADA=----A-">Ã¸nskede</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="starte" msd="VAF-=----A-">starte</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="selvhjælpsgruppe" msd="NCCSU==I">selvhjælpsgruppe</W>
+<W lemma="selvhjÃ¦lpsgruppe" msd="NCCSU==I">selvhjÃ¦lpsgruppe</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
@@ -161,7 +161,7 @@
 <W lemma="nok" msd="RGU">nok</W>
 <W lemma="interessere" msd="VAPA=P[CN][DI]A-U">interesserede</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Koldingområde" msd="NCNSU==D">Koldingområdet</W>
+<W lemma="KoldingomrÃ¥de" msd="NCNSU==D">KoldingomrÃ¥det</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="derfor" msd="RGU">derfor</W>
@@ -171,16 +171,16 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="lokal" msd="ANP[CN]SU=DU">lokale</W>
-<W lemma="redaktør" msd="NCCSU==I">redaktør</W>
+<W lemma="redaktÃ¸r" msd="NCCSU==I">redaktÃ¸r</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="jydsk" msd="ANP[CN]SU=DU">Jydske</W>
 <W lemma="vestkyst" msd="NCCSU==D">Vestkysten</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="bede" msd="VADA=----A-">bad</W>
 <W lemma="blad" msd="NCNSU==D">bladet</W>
-<W lemma="sætte" msd="VAF-=----A-">sætte</W>
+<W lemma="sÃ¦tte" msd="VAF-=----A-">sÃ¦tte</W>
 <W lemma="fokus" msd="NC[CN]SU==I">fokus</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="problem" msd="NCNSU==D">problemet</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -195,7 +195,7 @@
 <W lemma="om" msd="SP">om</W>
 <W lemma="Anette" msd="NP--U==-">Anette</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="søndagsavis" msd="NCCSU==D">søndagsavisen</W>
+<W lemma="sÃ¸ndagsavis" msd="NCCSU==D">sÃ¸ndagsavisen</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -220,8 +220,8 @@
 </s>
 <s>
 <W lemma="Anette" msd="NP--U==-">Anette</W>
-<W lemma="gå" msd="VADA=----A-">gik</W>
-<W lemma="tøve" msd="VAPR=[SP][CN][DI][ARU]-U">tøvende</W>
+<W lemma="gÃ¥" msd="VADA=----A-">gik</W>
+<W lemma="tÃ¸ve" msd="VAPR=[SP][CN][DI][ARU]-U">tÃ¸vende</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="al" msd="ANPCSU=[DI]U">al</W>
@@ -234,7 +234,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="måske" msd="RGU">måske</W>
+<W lemma="mÃ¥ske" msd="RGU">mÃ¥ske</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
 <W lemma="bringe" msd="VAF-=----A-">bringe</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>

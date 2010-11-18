@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Marinens bedste tre-i-en Lotte</title>
-            <author gender=m>Nødskou, Carsten</author>
+            <author gender=m>NÃ¸dskou, Carsten</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -41,7 +41,7 @@
 <p>
 <s>
 <W lemma="Anette" msd="NP--U==-">Anette</W>
-<W lemma="forsøge" msd="VADA=----A-">forsøgte</W>
+<W lemma="forsÃ¸ge" msd="VADA=----A-">forsÃ¸gte</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="kort" msd="ANP[CN]SU=IU">kort</W>
 <W lemma="tid" msd="NCCSU==I">tid</W>
@@ -69,14 +69,14 @@
 <W lemma="og" msd="CC">Og</W>
 <W lemma="flytte" msd="VADA=----A-">flyttede</W>
 <W lemma="ind" msd="RGU">ind</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="værelse" msd="NCNSU==I">værelse</W>
+<W lemma="vÃ¦relse" msd="NCNSU==I">vÃ¦relse</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="selv" msd="PD-[CN][SP]U--U">selv</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Korsør" msd="NP--U==-">Korsør</W>
+<W lemma="KorsÃ¸r" msd="NP--U==-">KorsÃ¸r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="mens" msd="CS">mens</W>
 <W lemma="Bettina" msd="NP--U==-">Bettina</W>
@@ -91,15 +91,15 @@
 <s>
 <W lemma="en" msd="PI-CSU--U">En</W>
 <W lemma="hyggelig" msd="ANPCSU=IU">hyggelig</W>
-<W lemma="fireværelses" msd="ANP[CN][SP]U=[DI]U">fireværelses</W>
+<W lemma="firevÃ¦relses" msd="ANP[CN][SP]U=[DI]U">firevÃ¦relses</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="Anette" msd="NP--U==-">Anette</W>
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="få" msd="VAPA=S[CN]I[ARU]-U">fået</W>
+<W lemma="fÃ¥" msd="VAPA=S[CN]I[ARU]-U">fÃ¥et</W>
 <W lemma="sin" msd="PO3NSUSYU">sit</W>
-<W lemma="værelse" msd="NCNSU==I">værelse</W>
+<W lemma="vÃ¦relse" msd="NCNSU==I">vÃ¦relse</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -107,12 +107,12 @@
 <s>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="jeg" msd="PP1CSN-NU">Jeg</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="atter" msd="RGU">atter</W>
-<W lemma="arbejdsløs" msd="ANPCSU=IU">arbejdsløs</W>
+<W lemma="arbejdslÃ¸s" msd="ANPCSU=IU">arbejdslÃ¸s</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="min" msd="XX">min</W>
-<W lemma="søster" msd="NCCPU==I">søstre</W>
+<W lemma="sÃ¸ster" msd="NCCPU==I">sÃ¸stre</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="komme" msd="VADR=----A-">kommer</W>
 <W lemma="hos" msd="SP">hos</W>
@@ -144,19 +144,19 @@
 </s>
 <s>
 <W lemma="der" msd="U=">Der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ingen" msd="PI-CSU--U">ingen</W>
 <W lemma="grund" msd="NCCSU==I">grund</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
 <W lemma="to" msd="AC---U=--">to</W>
-<W lemma="sæt" msd="NCNPU==I">sæt</W>
+<W lemma="sÃ¦t" msd="NCNPU==I">sÃ¦t</W>
 <W lemma="Shakin'" msd="NP--U==-">Shakin'</W>
 <W lemma="Steven" msd="NP--G==-">Stevens</W>
 <W lemma="plade" msd="NCCPU==I">plader</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="fortælle" msd="VADR=----A-">fortæller</W>
+<W lemma="fortÃ¦lle" msd="VADR=----A-">fortÃ¦ller</W>
 <W lemma="Anette" msd="NP--U==-">Anette</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -165,13 +165,13 @@
 <s>
 <W lemma="som" msd="U=">Som</W>
 <W lemma="barn" msd="NCNSU==I">barn</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="Anette" msd="NP--U==-">Anette</W>
 <W lemma="dog" msd="RGU">dog</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="altid" msd="RGU">altid</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="bølgelængde" msd="NCCSU==I">bølgelængde</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="bÃ¸lgelÃ¦ngde" msd="NCCSU==I">bÃ¸lgelÃ¦ngde</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="to" msd="AC---U=--">to</W>
@@ -193,30 +193,30 @@
 <s>
 <W lemma="i" msd="SP">I</W>
 <W lemma="skole" msd="NCCSU==D">skolen</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="besked" msd="NCCSU==I">besked</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
-<W lemma="navnemærke" msd="NCNSU==I">navnemærke</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="trøje" msd="NCCPU==D">trøjerne</W>
+<W lemma="navnemÃ¦rke" msd="NCNSU==I">navnemÃ¦rke</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="trÃ¸je" msd="NCCPU==D">trÃ¸jerne</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="de" msd="PP3[CN]PN-NU">De</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="altid" msd="RGU">altid</W>
 <W lemma="ens" msd="ANP---=-R">ens</W>
-<W lemma="klæde" msd="VAPA=S[CN]I[ARU]-U">klædt</W>
+<W lemma="klÃ¦de" msd="VAPA=S[CN]I[ARU]-U">klÃ¦dt</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="og" msd="CC">Og</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
 <W lemma="tre" msd="AC---U=--">tre</W>
-<W lemma="møde" msd="VADA=----A-">mødte</W>
+<W lemma="mÃ¸de" msd="VADA=----A-">mÃ¸dte</W>
 <W lemma="op" msd="RGU">op</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="samme" msd="ANP[CN][SP]U=[DI]U">samme</W>
@@ -231,13 +231,13 @@
 <W lemma="derfor" msd="RGU">Derfor</W>
 <W lemma="forlange" msd="VADA=----A-">forlangte</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
-<W lemma="skoleinspektør" msd="NCCSU==I">skoleinspektør</W>
+<W lemma="skoleinspektÃ¸r" msd="NCCSU==I">skoleinspektÃ¸r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="syvende" msd="AO---U=--">syvende</W>
-<W lemma="skoleår" msd="NCNSU==I">skoleår</W>
+<W lemma="skoleÃ¥r" msd="NCNSU==I">skoleÃ¥r</W>
 <W lemma="komme" msd="VADA=----A-">kom</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="her" msd="XX">her</W>

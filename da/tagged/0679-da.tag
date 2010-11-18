@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Gigthospitaler halvtomme på grund af amt'</title>
+        <title>Tagged sample of: 'Gigthospitaler halvtomme pÃ¥ grund af amt'</title>
       </titleStmt>
       <extent words=169>169 running words</extent>
       <publicationStmt>
@@ -14,8 +14,8 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Gigthospitaler halvtomme på grund af amt</title>
-            <author gender=m>Jørgensen, Jens</author>
+            <title>Gigthospitaler halvtomme pÃ¥ grund af amt</title>
+            <author gender=m>JÃ¸rgensen, Jens</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -53,14 +53,14 @@
 <W lemma="den" msd="PD-NSU--U">Det</W>
 <W lemma="ene" msd="ANP[CN][SP]U=[DI]U">ene</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Gråsten" msd="NP--U==-">Gråsten</W>
+<W lemma="GrÃ¥sten" msd="NP--U==-">GrÃ¥sten</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="den" msd="PD-NSU--U">Det</W>
 <W lemma="anden" msd="PI-NSU--U">andet</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Skælskør" msd="NP--U==-">Skælskør</W>
+<W lemma="SkÃ¦lskÃ¸r" msd="NP--U==-">SkÃ¦lskÃ¸r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -81,11 +81,11 @@
 <W lemma="hvis" msd="CS">hvis</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="blot" msd="RGU">blot</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="mulighed" msd="NCCSU==I">mulighed</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="hjælpe" msd="VAF-=----A-">hjælpe</W>
+<W lemma="hjÃ¦lpe" msd="VAF-=----A-">hjÃ¦lpe</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="tide" msd="NC[CN][SP]U==[DI]">tide</W>
 <W lemma="." msd="XP">.</W>
@@ -94,8 +94,8 @@
 <p>
 <s>
 <W lemma="men" msd="CC">Men</W>
-<W lemma="sådan" msd="RGU">sådan</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥dan" msd="RGU">sÃ¥dan</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="situation" msd="NCCSU==D">situationen</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="i" msd="SP">i</W>
@@ -106,19 +106,19 @@
 <s>
 <W lemma="gigthospital" msd="NCNSU==D">Gigthospitalet</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Skælskør" msd="NP--U==-">Skælskør</W>
+<W lemma="SkÃ¦lskÃ¸r" msd="NP--U==-">SkÃ¦lskÃ¸r</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="sagtens" msd="RGU">sagtens</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
 <W lemma="100" msd="AC---U=--">100</W>
-<W lemma="døgnpatient" msd="NCCPU==I">døgnpatienter</W>
+<W lemma="dÃ¸gnpatient" msd="NCCPU==I">dÃ¸gnpatienter</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="og" msd="CC">Og</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="både" msd="RGU">både</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
 <W lemma="plads" msd="NCCSU==I">plads</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="mulighed" msd="NCCSU==I">mulighed</W>
@@ -139,7 +139,7 @@
 </p>
 <p>
 <s>
-<W lemma="Vestsjælland" msd="NP--G==-">Vestsjællands</W>
+<W lemma="VestsjÃ¦lland" msd="NP--G==-">VestsjÃ¦llands</W>
 <W lemma="amtskommune" msd="NCCSU==I">amtskommune</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
@@ -149,11 +149,11 @@
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
 <W lemma="specialhospital" msd="NCNPU==I">specialhospitaler</W>
 <W lemma="indenfor" msd="SP">indenfor</W>
-<W lemma="amtsgrænse" msd="NCCSU==D">amtsgrænsen</W>
+<W lemma="amtsgrÃ¦nse" msd="NCCSU==D">amtsgrÃ¦nsen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="henvise" msd="VADR=----A-">henviser</W>
 <W lemma="velvillig" msd="ANP---=-R">velvilligt</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
 <W lemma="patient" msd="NCCPU==I">patienter</W>
 <W lemma="som" msd="U=">som</W>
@@ -164,15 +164,15 @@
 <W lemma="Roskilde" msd="NP--U==-">Roskilde</W>
 <W lemma="amt" msd="NCNSU==I">amt</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="Storstrøm" msd="NP--G==-">Storstrøms</W>
+<W lemma="StorstrÃ¸m" msd="NP--G==-">StorstrÃ¸ms</W>
 <W lemma="amt" msd="NCNSU==I">Amt</W>
 <W lemma="nogen" msd="PI-[CN]PU--U">nogle</W>
-<W lemma="få" msd="ANP[CN]PU=[DI]U">få</W>
+<W lemma="fÃ¥" msd="ANP[CN]PU=[DI]U">fÃ¥</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="ellers" msd="RGU">Ellers</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="lukke" msd="VAPA=S[CN]I[ARU]-U">lukket</W>
 <W lemma="." msd="XP">.</W>
@@ -180,21 +180,21 @@
 </p>
 <p>
 <s>
-<W lemma="amtsgrænse" msd="NCCPU==D">Amtsgrænserne</W>
+<W lemma="amtsgrÃ¦nse" msd="NCCPU==D">AmtsgrÃ¦nserne</W>
 <W lemma="fungere" msd="VADR=----A-">fungerer</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="sygehusmæssig" msd="ANP[CN]PU=[DI]U">sygehusmæssige</W>
+<W lemma="sygehusmÃ¦ssig" msd="ANP[CN]PU=[DI]U">sygehusmÃ¦ssige</W>
 <W lemma="Berlin-mur" msd="NCCPU==I">Berlin-mure</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="selv" msd="RGU">selv</W>
 <W lemma="inden" msd="RGU">inden</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="gigtområde" msd="NCNSU==D">gigtområdet</W>
+<W lemma="gigtomrÃ¥de" msd="NCNSU==D">gigtomrÃ¥det</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="i_alt" msd="RGU">i_alt</W>
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="hospital" msd="NCNPU==I">hospitaler</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="landsplan" msd="NCNSU==I">landsplan</W>
 <W lemma="!" msd="XP">!</W>
 </s>
@@ -215,21 +215,21 @@
 <W lemma="som" msd="U=">som</W>
 <W lemma="gigthospital" msd="NCNSU==D">gigthospitalet</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="Skælskør" msd="NP--U==-">Skælskør</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="SkÃ¦lskÃ¸r" msd="NP--U==-">SkÃ¦lskÃ¸r</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
 <W lemma="dyr" msd="ANPNSU=IU">dyrt</W>
 <W lemma="?" msd="XP">?</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="spørge" msd="VAF-=----A-">spørge</W>
+<W lemma="spÃ¸rge" msd="VAF-=----A-">spÃ¸rge</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="svar" msd="NCNSU==D">Svaret</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="klar" msd="ANPNSU=IU">klart</W>
 <W lemma="nej" msd="NCNSU==I">nej</W>
@@ -239,11 +239,11 @@
 <p>
 <s>
 <W lemma="en" msd="PI-NSU--U">Et</W>
-<W lemma="sengedøgn" msd="NCNSU==I">sengedøgn</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="sengedÃ¸gn" msd="NCNSU==I">sengedÃ¸gn</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="gigthospital" msd="NCNSU==D">gigthospitalet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="prissætte" msd="VAPA=S[CN]I[ARU]-U">prissat</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="prissÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">prissat</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="1.082" msd="AC---U=--">1.082</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
@@ -252,7 +252,7 @@
 <s>
 <W lemma="og" msd="CC">Og</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="min" msd="PO1CSUSNU">min</W>
 <W lemma="vurdering" msd="NCCSU==I">vurdering</W>
 <W lemma="," msd="XP">,</W>
@@ -270,9 +270,9 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
-<W lemma="næppe" msd="RGU">næppe</W>
+<W lemma="nÃ¦ppe" msd="RGU">nÃ¦ppe</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="prissætte" msd="VAF-=----P-">prissættes</W>
+<W lemma="prissÃ¦tte" msd="VAF-=----P-">prissÃ¦ttes</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="1.500" msd="AC---U=--">1.500</W>
@@ -280,7 +280,7 @@
 <W lemma="2.000" msd="AC---U=--">2.000</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
 <W lemma="per" msd="SP">pr.</W>
-<W lemma="døgn" msd="NCNSU==I">døgn</W>
+<W lemma="dÃ¸gn" msd="NCNSU==I">dÃ¸gn</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

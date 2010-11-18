@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Discount-øl smager godt'</title>
+        <title>Tagged sample of: 'Discount-Ã¸l smager godt'</title>
       </titleStmt>
       <extent words=170>170 running words</extent>
       <publicationStmt>
@@ -14,8 +14,8 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Discount-øl smager godt</title>
-            <author gender=f born=1951>Junø, Pia</author>
+            <title>Discount-Ã¸l smager godt</title>
+            <author gender=f born=1951>JunÃ¸, Pia</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -44,7 +44,7 @@
 <W lemma="Faxe" msd="NP--U==-">FAXE</W>
 <W lemma="fad" msd="NCNSU==I">FAD</W>
 <W lemma=":" msd="XP">:</W>
-<W lemma="mærkevareøl" msd="NCNSU==I">Mærkevareøl</W>
+<W lemma="mÃ¦rkevareÃ¸l" msd="NCNSU==I">MÃ¦rkevareÃ¸l</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -60,7 +60,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="Søs" msd="NP--U==-">Søs</W>
+<W lemma="SÃ¸s" msd="NP--U==-">SÃ¸s</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="smage" msd="VADR=----A-">Smager</W>
 <W lemma="af" msd="SP">af</W>
@@ -89,7 +89,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="Søren" msd="NP--U==-">Søren</W>
+<W lemma="SÃ¸ren" msd="NP--U==-">SÃ¸ren</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="den" msd="PP3CSU-NU">Den</W>
 <W lemma="hverken" msd="RGU">hverken</W>
@@ -97,7 +97,7 @@
 <W lemma="af" msd="SP">af</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="ligne" msd="VADR=----A-">ligner</W>
-<W lemma="øl" msd="NCNSU==I">øl</W>
+<W lemma="Ã¸l" msd="NCNSU==I">Ã¸l</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -109,7 +109,7 @@
 <s>
 <W lemma="smage" msd="VADR=----A-">smager</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="øl" msd="NCNSU==I">øl</W>
+<W lemma="Ã¸l" msd="NCNSU==I">Ã¸l</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -131,7 +131,7 @@
 <W lemma="god" msd="ANC[CN][SP]U=[DI]U">bedre</W>
 <W lemma="smag" msd="NCCSU==I">smag</W>
 <W lemma="end" msd="CS">end</W>
-<W lemma="øl" msd="NCNSU==I">øl</W>
+<W lemma="Ã¸l" msd="NCNSU==I">Ã¸l</W>
 <W lemma="1" msd="AC---U=--">1</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="2" msd="AC---U=--">2</W>
@@ -164,7 +164,7 @@
 <W lemma="ligesom" msd="CS">ligesom</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="to" msd="AC---U=--">to</W>
-<W lemma="første" msd="ANP[CN][SP]U=[DI]U">første</W>
+<W lemma="fÃ¸rste" msd="ANP[CN][SP]U=[DI]U">fÃ¸rste</W>
 <W lemma="blande" msd="VAPA=S[CN]I[ARU]-U">blandet</W>
 <W lemma="sammen" msd="RGU">sammen</W>
 <W lemma="." msd="XP">.</W>
@@ -172,8 +172,8 @@
 </p>
 <p>
 <s>
-<W lemma="både" msd="RGU">Både</W>
-<W lemma="sød" msd="ANPCSU=IU">sød</W>
+<W lemma="bÃ¥de" msd="RGU">BÃ¥de</W>
+<W lemma="sÃ¸d" msd="ANPCSU=IU">sÃ¸d</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="bitter" msd="ANPCSU=IU">bitter</W>
 <W lemma="." msd="XP">.</W>
@@ -198,7 +198,7 @@
 <W lemma="Harboe" msd="NP--U==-">HARBOE</W>
 <W lemma="Silver" msd="NP--U==-">SILVER</W>
 <W lemma=":" msd="XP">:</W>
-<W lemma="discountøl" msd="NCNSU==I">Discountøl</W>
+<W lemma="discountÃ¸l" msd="NCNSU==I">DiscountÃ¸l</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -214,12 +214,12 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="Søs" msd="NP--U==-">Søs</W>
+<W lemma="SÃ¸s" msd="NP--U==-">SÃ¸s</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
 <W lemma="her" msd="RGU">her</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="øl" msd="NCNSU==I">øl</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="Ã¸l" msd="NCNSU==I">Ã¸l</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -235,7 +235,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="Søren" msd="NP--U==-">Søren</W>
+<W lemma="SÃ¸ren" msd="NP--U==-">SÃ¸ren</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="flot" msd="ANP[CN][SP]U=[DI]U">Flot</W>
 <W lemma="skum" msd="NCNSU==I">skum</W>
@@ -247,9 +247,9 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="dufte" msd="VADR=----A-">dufter</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="øl" msd="NCNSU==I">øl</W>
+<W lemma="Ã¸l" msd="NCNSU==I">Ã¸l</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="både" msd="RGU">både</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
 <W lemma="mens" msd="CS">mens</W>
 </s>
 </p>
@@ -276,7 +276,7 @@
 </s>
 <s>
 <W lemma="virke" msd="VADR=----A-">Virker</W>
-<W lemma="stærk" msd="ANC[CN][SP]U=[DI]U">stærkere</W>
+<W lemma="stÃ¦rk" msd="ANC[CN][SP]U=[DI]U">stÃ¦rkere</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -288,7 +288,7 @@
 <W lemma="Andreas" msd="NP--U==-">Andreas</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="den" msd="PP3CSU-NU">Den</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="god" msd="ANC[CN][SP]U=[DI]U">bedre</W>
 <W lemma="end" msd="CS">end</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
@@ -320,9 +320,9 @@
 <p>
 <s>
 <W lemma="Wiibroe" msd="NP--U==-">WIIBROE</W>
-<W lemma="kroneøl" msd="NCNSU==I">KRONEØL</W>
+<W lemma="kroneÃ¸l" msd="NCNSU==I">KRONEÃ˜L</W>
 <W lemma=":" msd="XP">:</W>
-<W lemma="discountøl" msd="NCNSU==I">Discountøl</W>
+<W lemma="discountÃ¸l" msd="NCNSU==I">DiscountÃ¸l</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -338,7 +338,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="Søs" msd="NP--U==-">Søs</W>
+<W lemma="SÃ¸s" msd="NP--U==-">SÃ¸s</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="anonym" msd="ANPCSU=IU">Anonym</W>
 <W lemma="." msd="XP">.</W>
@@ -361,7 +361,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="Søren" msd="NP--U==-">Søren</W>
+<W lemma="SÃ¸ren" msd="NP--U==-">SÃ¸ren</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="frisk" msd="ANP[CN]SU=IU">Frisk</W>
 <W lemma="god" msd="ANPCSU=IU">god</W>
@@ -373,9 +373,9 @@
 <W lemma="anonym" msd="ANPCSU=IU">anonym</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="øl" msd="NCCSU==I">øl</W>
+<W lemma="Ã¸l" msd="NCCSU==I">Ã¸l</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

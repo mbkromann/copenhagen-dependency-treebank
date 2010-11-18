@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'USA skaber bekymring for miljø-konferenc'</title>
+        <title>Tagged sample of: 'USA skaber bekymring for miljÃ¸-konferenc'</title>
       </titleStmt>
       <extent words=174>174 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>USA skaber bekymring for miljø-konferenc</title>
+            <title>USA skaber bekymring for miljÃ¸-konferenc</title>
             <author>UNKNOWN</author>
           </analytic>
           <monogr>
@@ -42,13 +42,13 @@
 <p>
 <s>
 <W lemma="vente" msd="VADR=----A-">Venter</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="svar" msd="NCNSU==I">svar</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="præsident" msd="NCCSU==I">Præsident</W>
+<W lemma="prÃ¦sident" msd="NCCSU==I">PrÃ¦sident</W>
 <W lemma="Bush" msd="NP--U==-">Bush</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="endnu" msd="RGU">endnu</W>
@@ -82,10 +82,10 @@
 <W lemma="som" msd="U=">som</W>
 <W lemma="dramatisk" msd="ANP---=-R">dramatisk</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
-<W lemma="vanskeliggøre" msd="VAF-=----A-">vanskeliggøre</W>
+<W lemma="vanskeliggÃ¸re" msd="VAF-=----A-">vanskeliggÃ¸re</W>
 <W lemma="langsigtet" msd="ANP[CN]SU=IU">langsigtet</W>
-<W lemma="økonomisk" msd="ANP[CN]SU=IU">økonomisk</W>
-<W lemma="vækst" msd="NCCSU==I">vækst</W>
+<W lemma="Ã¸konomisk" msd="ANP[CN]SU=IU">Ã¸konomisk</W>
+<W lemma="vÃ¦kst" msd="NCCSU==I">vÃ¦kst</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="vores" msd="PO1[CN][SP]UPNU">vores</W>
 <W lemma="land" msd="NCNSU==I">land</W>
@@ -109,7 +109,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="hvorvidt" msd="CS">hvorvidt</W>
 <W lemma="Bush-administration" msd="NCCSU==D">Bush-administrationen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="villig" msd="ANPCSU=IU">villig</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
@@ -119,7 +119,7 @@
 <W lemma="mulighed" msd="NCCPU==D">mulighederne</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="underskrive" msd="VAPA=S[CN]I[ARU]-U">underskrevet</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="traktat" msd="NCCSU==I">traktat</W>
@@ -138,12 +138,12 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="USA" msd="NP--U==-">USA</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="påtage" msd="VAF-=----A-">påtage</W>
+<W lemma="pÃ¥tage" msd="VAF-=----A-">pÃ¥tage</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="lederrolle" msd="NCCSU==I">lederrolle</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="miljøspørgsmål" msd="NCNPU==I">miljøspørgsmål</W>
+<W lemma="miljÃ¸spÃ¸rgsmÃ¥l" msd="NCNPU==I">miljÃ¸spÃ¸rgsmÃ¥l</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -155,7 +155,7 @@
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
 <W lemma="land" msd="NCNPU==I">lande</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="planlægge" msd="VAPA=S[CN]I[ARU]-U">planlagt</W>
+<W lemma="planlÃ¦gge" msd="VAPA=S[CN]I[ARU]-U">planlagt</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="tage" msd="VAF-=----A-">tage</W>
 <W lemma="til" msd="SP">til</W>
@@ -170,7 +170,7 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="hvis" msd="CS">Hvis</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="fornemmelse" msd="NCCSU==D">fornemmelsen</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="," msd="XP">,</W>
@@ -178,15 +178,15 @@
 <W lemma="chance" msd="NCCPU==D">chancerne</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="færdiggøre" msd="VAF-=----A-">færdiggøre</W>
+<W lemma="fÃ¦rdiggÃ¸re" msd="VAF-=----A-">fÃ¦rdiggÃ¸re</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="klima-traktat" msd="NCCSU==I">klima-traktat</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="lille" msd="ANP[CN]PU=[DI]U">små</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="lille" msd="ANP[CN]PU=[DI]U">smÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
-<W lemma="måske" msd="RGU">måske</W>
+<W lemma="mÃ¥ske" msd="RGU">mÃ¥ske</W>
 <W lemma="hjemme" msd="RGU">hjemme</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -218,7 +218,7 @@
 <W lemma="hvorfor" msd="RGU">hvorfor</W>
 <W lemma="skulle" msd="VADA=----A-">skulle</W>
 <W lemma="udviklingsland" msd="NCNPU==D">udviklingslandene</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="?" msd="XP">?</W>
 </s>
 <s>
@@ -236,13 +236,13 @@
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="begrænsning" msd="NCCSU==I">begrænsning</W>
+<W lemma="begrÃ¦nsning" msd="NCCSU==I">begrÃ¦nsning</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="udledning" msd="NCCSU==D">udledningen</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="CFC-gas" msd="NCCPU==I">CFC-gasser</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="vække" msd="VAPA=S[CN]I[ARU]-U">vakt</W>
+<W lemma="vÃ¦kke" msd="VAPA=S[CN]I[ARU]-U">vakt</W>
 <W lemma="forundring" msd="NCCSU==I">forundring</W>
 <W lemma="blandt" msd="SP">blandt</W>
 <W lemma="kritiker" msd="NCCPU==I">kritikere</W>
@@ -252,7 +252,7 @@
 <W lemma="idet" msd="CS">idet</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="amerikansk" msd="ANP[CN]SU=DU">amerikanske</W>
-<W lemma="miljøministerium" msd="NCNSU==I">miljøministerium</W>
+<W lemma="miljÃ¸ministerium" msd="NCNSU==I">miljÃ¸ministerium</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="EPA" msd="NP--U==-">EPA</W>
 <W lemma="," msd="XP">,</W>
@@ -276,8 +276,8 @@
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="foreslå" msd="VAPA=P[CN][DI]A-U">foreslåede</W>
-<W lemma="grænse" msd="NCCPU==I">grænser</W>
+<W lemma="foreslÃ¥" msd="VAPA=P[CN][DI]A-U">foreslÃ¥ede</W>
+<W lemma="grÃ¦nse" msd="NCCPU==I">grÃ¦nser</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

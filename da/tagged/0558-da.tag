@@ -46,7 +46,7 @@
 </p>
 <p>
 <s>
-<W lemma="så" msd="RGU">Så</W>
+<W lemma="sÃ¥" msd="RGU">SÃ¥</W>
 <W lemma="vidt" msd="RGU">vidt</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
@@ -63,10 +63,10 @@
 </s>
 <s>
 <W lemma="den" msd="PP3CSU-NU">Den</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="bestemt" msd="ANP---=-R">bestemt</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="længe" msd="RGC">længere</W>
+<W lemma="lÃ¦nge" msd="RGC">lÃ¦ngere</W>
 <W lemma="alene" msd="RGU">alene</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="verden" msd="NCCSU==I">verden</W>
@@ -76,12 +76,12 @@
 <W lemma="men" msd="CC">Men</W>
 <W lemma="hvad" msd="PT-[CN]SU--U">hvad</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="foregå" msd="VAPA=S[CN]I[ARU]-U">foregået</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="foregÃ¥" msd="VAPA=S[CN]I[ARU]-U">foregÃ¥et</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
 <W lemma="100" msd="AC---U=--">100</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="altsammen" msd="XX">altsammen</W>
 <W lemma="udgangspunkt" msd="NCNSU==I">udgangspunkt</W>
@@ -95,27 +95,27 @@
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="lille" msd="ANS---=-R">mindst</W>
 <hi>
-<W lemma="måde" msd="NCCSU==D">måden</W>
+<W lemma="mÃ¥de" msd="NCCSU==D">mÃ¥den</W>
 <W lemma="," msd="XP">,</W>
 </hi>
 <W lemma="alting" msd="PI-NSU--U">alting</W>
 <W lemma="opfatte" msd="VADR=----P-">opfattes</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="den" msd="PD-[CN]PU--U">De</W>
-<W lemma="såkaldt" msd="ANP[CN]PU=[DI]U">såkaldte</W>
+<W lemma="sÃ¥kaldt" msd="ANP[CN]PU=[DI]U">sÃ¥kaldte</W>
 <W lemma="historisk" msd="ANP[CN]PU=[DI]U">historiske</W>
-<W lemma="avantgardebevægelse" msd="NCCPU==I">avantgardebevægelser</W>
+<W lemma="avantgardebevÃ¦gelse" msd="NCCPU==I">avantgardebevÃ¦gelser</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="begyndelse" msd="NCCSU==D">begyndelsen</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="denne" msd="PD-NSU--U">dette</W>
-<W lemma="århundrede" msd="NCNSU==I">århundrede</W>
-<W lemma="forsøge" msd="VADA=----A-">forsøgte</W>
+<W lemma="Ã¥rhundrede" msd="NCNSU==I">Ã¥rhundrede</W>
+<W lemma="forsÃ¸ge" msd="VADA=----A-">forsÃ¸gte</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="radikal" msd="ANPNSU=IU">radikalt</W>
 <W lemma="brud" msd="NCNSU==I">brud</W>
@@ -154,8 +154,8 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="bevægelse" msd="NCCPU==D">Bevægelserne</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="bevÃ¦gelse" msd="NCCPU==D">BevÃ¦gelserne</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="vidt" msd="RGU">vidt</W>
 <W lemma="forskellig" msd="ANP[CN]PU=[DI]U">forskellige</W>
 <W lemma="," msd="XP">,</W>
@@ -171,9 +171,9 @@
 <W lemma="netop" msd="RGU">netop</W>
 <W lemma="denne" msd="PD-NSU--U">dette</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="fælles" msd="ANP[CN][SP]U=[DI]U">fælles</W>
+<W lemma="fÃ¦lles" msd="ANP[CN][SP]U=[DI]U">fÃ¦lles</W>
 <W lemma=":" msd="XP">:</W>
-<W lemma="ønske" msd="NCNSU==D">ønsket</W>
+<W lemma="Ã¸nske" msd="NCNSU==D">Ã¸nsket</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="at" msd="U=">at</W>
 <hi>
@@ -187,7 +187,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="ønske" msd="NCNSU==D">Ønsket</W>
+<W lemma="Ã¸nske" msd="NCNSU==D">Ã˜nsket</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="kunst" msd="NCCSU==D">kunsten</W>
@@ -202,18 +202,18 @@
 <W lemma="gennem" msd="SP">gennem</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="institutionalisere" msd="VAPA=S[CN]IA-U">institutionaliseret</W>
-<W lemma="formålsfrihed" msd="NCCSU==I">formålsfrihed</W>
+<W lemma="formÃ¥lsfrihed" msd="NCCSU==I">formÃ¥lsfrihed</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="dermed" msd="RGU">dermed</W>
-<W lemma="konsekvensløshed" msd="NCCSU==I">konsekvensløshed</W>
+<W lemma="konsekvenslÃ¸shed" msd="NCCSU==I">konsekvenslÃ¸shed</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="blandt" msd="SP">Blandt</W>
-<W lemma="avantgardebevægelse" msd="NCCPG==D">avantgardebevægelsernes</W>
+<W lemma="avantgardebevÃ¦gelse" msd="NCCPG==D">avantgardebevÃ¦gelsernes</W>
 <W lemma="metode" msd="NCCPU==I">metoder</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
@@ -226,8 +226,8 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="livspraksis" msd="NCCSU==I">livspraksis</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="være" msd="VADA=----A-">var</W>
-<W lemma="først" msd="RGU">først</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
+<W lemma="fÃ¸rst" msd="RGU">fÃ¸rst</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="fremmest" msd="ANP[CN]SU=IU">fremmest</W>
 <W lemma="udstillingenaf" msd="XX">udstillingenaf</W>
@@ -260,7 +260,7 @@
 <W lemma="kunstmiddel" msd="NCNPU==I">kunstmidler</W>
 <W lemma="fremfor" msd="XX">fremfor</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="søge" msd="VAF-=----A-">søge</W>
+<W lemma="sÃ¸ge" msd="VAF-=----A-">sÃ¸ge</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="skjule" msd="VAF-=----A-">skjule</W>
 <W lemma="de" msd="PP3[CN]PU-NU">dem</W>
@@ -269,7 +269,7 @@
 <s>
 <W lemma="eller" msd="CC">Eller</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="forsøge" msd="VADA=----A-">forsøgte</W>
+<W lemma="forsÃ¸ge" msd="VADA=----A-">forsÃ¸gte</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="vise" msd="VAF-=----A-">vise</W>
 <W lemma="institution" msd="NCCSG==D">institutionens</W>
@@ -277,19 +277,19 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="forhold" msd="NCNSU==I">forhold</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="enkeltværk" msd="NCNSU==D">enkeltværket</W>
+<W lemma="enkeltvÃ¦rk" msd="NCNSU==D">enkeltvÃ¦rket</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="for_eksempel" msd="RGU">fx</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="udstille" msd="VAF-=----A-">udstille</W>
-<W lemma="såkaldt" msd="ANP[CN]PU=[DI]U">såkaldte</W>
+<W lemma="sÃ¥kaldt" msd="ANP[CN]PU=[DI]U">sÃ¥kaldte</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="ready-mades" msd="XF">ready-mades</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="det_vil_sige" msd="RGU">dvs.</W>
-<W lemma="færdigfremstillet" msd="ANP[CN]PU=[DI]U">færdigfremstillede</W>
+<W lemma="fÃ¦rdigfremstillet" msd="ANP[CN]PU=[DI]U">fÃ¦rdigfremstillede</W>
 <W lemma="industriprodukt" msd="NCNPU==I">industriprodukter</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>

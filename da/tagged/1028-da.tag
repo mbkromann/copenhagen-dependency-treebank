@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Bryggerifamilie klar til ekspansion</title>
-            <author gender=m born=1954>Sørensen, Bent</author>
+            <author gender=m born=1954>SÃ¸rensen, Bent</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -48,7 +48,7 @@
 <s>
 <W lemma="efter" msd="SP">Efter</W>
 <W lemma="tre" msd="AC---U=--">tre</W>
-<W lemma="fusions-år" msd="NCNPU==I">fusions-år</W>
+<W lemma="fusions-Ã¥r" msd="NCNPU==I">fusions-Ã¥r</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="umage" msd="ANP[CN][SP]U=[DI]U">umage</W>
@@ -56,7 +56,7 @@
 <W lemma="Faxe" msd="NP--U==-">Faxe</W>
 <W lemma="jysk" msd="ANP[CN]SU=DU">Jyske</W>
 <W lemma="AS" msd="NP--U==-">AS</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="bryggerifamilie" msd="NCCSU==D">bryggerifamilien</W>
 <W lemma="Faxe" msd="NP--U==-">Faxe</W>
 <W lemma="," msd="XP">,</W>
@@ -84,7 +84,7 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="med" msd="SP">Med</W>
-<W lemma="ændring" msd="NCCSU==D">ændringen</W>
+<W lemma="Ã¦ndring" msd="NCCSU==D">Ã¦ndringen</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="signalere" msd="VAF-=----A-">signalere</W>
@@ -92,7 +92,7 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="fusion" msd="NCCSU==D">fusionen</W>
 <W lemma="nu" msd="RGU">nu</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="fuldende" msd="VAPA=S[CN]I[ARU]-U">fuldendt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
@@ -102,23 +102,23 @@
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="virksomhed" msd="NCCSU==I">virksomhed</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="både" msd="RGU">både</W>
-<W lemma="økonomisk" msd="ANP[CN]SU=IU">økonomisk</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
+<W lemma="Ã¸konomisk" msd="ANP[CN]SU=IU">Ã¸konomisk</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="markedsmæssig" msd="ANPCSU=IU">markedsmæssig</W>
-<W lemma="formå" msd="VAG-=SCI--U">formåen</W>
+<W lemma="markedsmÃ¦ssig" msd="ANPCSU=IU">markedsmÃ¦ssig</W>
+<W lemma="formÃ¥" msd="VAG-=SCI--U">formÃ¥en</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="og" msd="CC">Og</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="jo" msd="RGU">jo</W>
 <W lemma="altid" msd="RGU">altid</W>
 <W lemma="plads" msd="NCCSU==I">plads</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="familieforøgelse" msd="NCCSU==I">familieforøgelse</W>
+<W lemma="familieforÃ¸gelse" msd="NCCSU==I">familieforÃ¸gelse</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="uden" msd="SP">uden</W>
 <W lemma="at" msd="CS">at</W>
@@ -126,15 +126,15 @@
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="ændre" msd="VAF-=----A-">ændre</W>
+<W lemma="Ã¦ndre" msd="VAF-=----A-">Ã¦ndre</W>
 <W lemma="navn" msd="NCNSU==D">navnet</W>
 <W lemma="igen" msd="RGU">igen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
 <W lemma="administrere" msd="VAPR=[SP][CN][DI]A-U">administrerende</W>
-<W lemma="direktør" msd="NCCSU==I">direktør</W>
-<W lemma="Jørgen" msd="NP--U==-">Jørgen</W>
+<W lemma="direktÃ¸r" msd="NCCSU==I">direktÃ¸r</W>
+<W lemma="JÃ¸rgen" msd="NP--U==-">JÃ¸rgen</W>
 <W lemma="Worning" msd="NP--U==-">Worning</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
@@ -144,7 +144,7 @@
 <W lemma="at" msd="U=">at</W>
 <W lemma="afvise" msd="VAF-=----A-">afvise</W>
 <W lemma="aktuel" msd="ANP[CN]PU=[DI]U">aktuelle</W>
-<W lemma="opkøb" msd="NCNPU==I">opkøb</W>
+<W lemma="opkÃ¸b" msd="NCNPU==I">opkÃ¸b</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
 <W lemma="bryggeri" msd="NCNPU==I">bryggerier</W>
@@ -153,8 +153,8 @@
 </p>
 <p>
 <s>
-<W lemma="navne-ændring" msd="NCCSU==D">Navne-ændringen</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="navne-Ã¦ndring" msd="NCCSU==D">Navne-Ã¦ndringen</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="kun" msd="RGU">kun</W>
 <W lemma="selve" msd="ANP[CN][SP]U=[DI]U">selve</W>
 <W lemma="bryggeri-koncern" msd="NCCSU==D">bryggeri-koncernen</W>
@@ -166,7 +166,7 @@
 <W lemma="fastholde" msd="VAF-=----A-">fastholde</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="kendt" msd="ANP[CN]PU=[DI]U">kendte</W>
-<W lemma="mærkevare-logo" msd="NCNPU==I">mærkevare-logoer</W>
+<W lemma="mÃ¦rkevare-logo" msd="NCNPU==I">mÃ¦rkevare-logoer</W>
 <W lemma="Faxe" msd="NP--U==-">Faxe</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="Ceres" msd="NP--U==-">Ceres</W>
@@ -174,12 +174,12 @@
 <W lemma="Thor" msd="NP--U==-">Thor</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="fortsat" msd="RGU">fortsat</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
-<W lemma="markedsføre" msd="VAF-=----P-">markedsføres</W>
+<W lemma="markedsfÃ¸re" msd="VAF-=----P-">markedsfÃ¸res</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="sælge" msd="VAF-=----P-">sælges</W>
+<W lemma="sÃ¦lge" msd="VAF-=----P-">sÃ¦lges</W>
 <W lemma="hver" msd="PI-CSU--U">hver</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
@@ -189,7 +189,7 @@
 <p>
 <s>
 <W lemma="ved" msd="SP">Ved</W>
-<W lemma="sammenlægning" msd="NCCSU==D">sammenlægningen</W>
+<W lemma="sammenlÃ¦gning" msd="NCCSU==D">sammenlÃ¦gningen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="1989" msd="AC---U=--">1989</W>
 <W lemma="skabe" msd="VADA=----A-">skabte</W>
@@ -205,18 +205,18 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="Thor" msd="NP--U==-">Thor</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="næststor" msd="ANS[CN][SP]U=DU">næststørste</W>
+<W lemma="nÃ¦ststor" msd="ANS[CN][SP]U=DU">nÃ¦ststÃ¸rste</W>
 <W lemma="bryggerigruppe" msd="NCCSU==I">bryggerigruppe</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="på" msd="SP">På</W>
+<W lemma="pÃ¥" msd="SP">PÃ¥</W>
 <W lemma="tre" msd="AC---U=--">tre</W>
-<W lemma="år" msd="NCNPU==I">år</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="omsætning" msd="NCCSU==D">omsætningen</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="omsÃ¦tning" msd="NCCSU==D">omsÃ¦tningen</W>
 <W lemma="vokse" msd="VAPA=S[CN]I[ARU]-U">vokset</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="god" msd="ANP---=-R">godt</W>
@@ -226,22 +226,22 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="underskud" msd="NCNSU==I">underskud</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="15" msd="AC---U=--">15</W>
 <W lemma="million" msd="NCCPU==I">millioner</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="vende" msd="VAPA=S[CN]I[ARU]-U">vendt</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="plus" msd="NCNSU==I">plus</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="40" msd="AC---U=--">40</W>
 <W lemma="million" msd="NCCPU==I">mill.</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
-<W lemma="regnskabsår" msd="NCNSU==I">regnskabsår</W>
+<W lemma="regnskabsÃ¥r" msd="NCNSU==I">regnskabsÃ¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

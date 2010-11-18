@@ -41,14 +41,14 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="når" msd="CS">Når</W>
+<W lemma="nÃ¥r" msd="CS">NÃ¥r</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="omsider" msd="RGU">omsider</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Sverige" msd="NP--U==-">Sverige</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="problem" msd="NCNPU==I">problemer</W>
 <W lemma="med" msd="SP">med</W>
@@ -57,16 +57,16 @@
 <W lemma="bygningsarbejderforbund" msd="NCNSU==I">bygningsarbejderforbund</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="kræve" msd="VADR=----A-">kræver</W>
+<W lemma="krÃ¦ve" msd="VADR=----A-">krÃ¦ver</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="ansætte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
+<W lemma="ansÃ¦tte" msd="VAPA=P[CN][DI]A-U">ansatte</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="arbejde" msd="VAF-=----A-">arbejde</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="svensk" msd="ANP[CN]PU=[DI]U">svenske</W>
-<W lemma="ansættelsesvilkår" msd="NCNPU==I">ansættelsesvilkår</W>
+<W lemma="ansÃ¦ttelsesvilkÃ¥r" msd="NCNPU==I">ansÃ¦ttelsesvilkÃ¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -76,12 +76,12 @@
 <W lemma="dansk" msd="ANP[CN]SU=DU">danske</W>
 <W lemma="firma" msd="NCNSU==I">firma</W>
 <W lemma="betale" msd="VAF-=----A-">betale</W>
-<W lemma="næsten" msd="RGU">næsten</W>
+<W lemma="nÃ¦sten" msd="RGU">nÃ¦sten</W>
 <W lemma="40" msd="AC---U=--">40</W>
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="oven" msd="RGU">oven</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="løn" msd="NCCSU==D">lønnen</W>
+<W lemma="lÃ¸n" msd="NCCSU==D">lÃ¸nnen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="svensk" msd="ANP[CN]PU=[DI]U">svenske</W>
 <W lemma="social" msd="ANP[CN]PU=[DI]U">sociale</W>
@@ -95,7 +95,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="ballade" msd="NCCSU==I">ballade</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="fagbevægelse" msd="NCCSU==D">fagbevægelsen</W>
+<W lemma="fagbevÃ¦gelse" msd="NCCSU==D">fagbevÃ¦gelsen</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="papirnusseri" msd="NCNSU==I">papirnusseri</W>
 <W lemma="have" msd="VADR=----A-">har</W>
@@ -112,7 +112,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="sen" msd="ANS[CN][SP]U=DU">seneste</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -120,7 +120,7 @@
 <s>
 <W lemma="ind" msd="RGU">Ind</W>
 <W lemma="imellem" msd="RGU">imellem</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="blive" msd="VAPA=S[CN]I[ARU]-U">blevet</W>
 <W lemma="klage" msd="VAPA=S[CN]I[ARU]-U">klaget</W>
@@ -136,35 +136,35 @@
 <W lemma="stat" msd="NCCSG==D">Statens</W>
 <W lemma="pris-" msd="XX">pris-</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="konkurrenceråd" msd="NCNSU==I">konkurrenceråd</W>
+<W lemma="konkurrencerÃ¥d" msd="NCNSU==I">konkurrencerÃ¥d</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="SPK" msd="NP--U==-">SPK</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="blive" msd="VAPA=S[CN]I[ARU]-U">blevet</W>
-<W lemma="opmærksom" msd="ANPCSU=IU">opmærksom</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="opmÃ¦rksom" msd="ANPCSU=IU">opmÃ¦rksom</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="problem" msd="NCNPU==D">problemerne</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="SPK" msd="NP--U==-">SPK</W>
-<W lemma="overvåge" msd="VADR=----A-">overvåger</W>
+<W lemma="overvÃ¥ge" msd="VADR=----A-">overvÃ¥ger</W>
 <W lemma="pris" msd="NCCPU==I">priser</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="konkurrencespørgsmål" msd="NCNPU==I">konkurrencespørgsmål</W>
+<W lemma="konkurrencespÃ¸rgsmÃ¥l" msd="NCNPU==I">konkurrencespÃ¸rgsmÃ¥l</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="mange" msd="ANC[CN]PU=[DI]U">flere</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="arbejde" msd="VAPA=S[CN]I[ARU]-U">arbejdet</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="øge" msd="VAPA=S[CN]IA-U">øget</W>
+<W lemma="Ã¸ge" msd="VAPA=S[CN]IA-U">Ã¸get</W>
 <W lemma="udenlandsk" msd="ANP[CN]SU=IU">udenlandsk</W>
 <W lemma="konkurrence" msd="NCCSU==I">konkurrence</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="svensk" msd="ANP[CN]SU=DU">svenske</W>
 <W lemma="byggemarked" msd="NCNSU==I">byggemarked</W>
@@ -182,7 +182,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="30" msd="AC---U=--">30</W>
 <W lemma="procent" msd="NCCPU==I">pct.</W>
 <W lemma="lav" msd="ANC[CN][SP]U=[DI]U">lavere</W>
@@ -193,7 +193,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="fordel" msd="NCCSU==I">fordel</W>
 <W lemma="for" msd="SP">for</W>
@@ -210,15 +210,15 @@
 <s>
 <W lemma="i" msd="SP">I</W>
 <W lemma="Sverige" msd="NP--U==-">Sverige</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="få" msd="ANP[CN]PU=[DI]U">få</W>
+<W lemma="fÃ¥" msd="ANP[CN]PU=[DI]U">fÃ¥</W>
 <W lemma="stor" msd="ANP[CN]PU=[DI]U">store</W>
 <W lemma="virksomhed" msd="NCCPU==I">virksomheder</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="byggemarked" msd="NCNSU==D">byggemarkedet</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="næsten" msd="RGU">næsten</W>
+<W lemma="nÃ¦sten" msd="RGU">nÃ¦sten</W>
 <W lemma="monopol" msd="NCNSU==I">monopol</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="branche" msd="NCCSU==D">branchen</W>
@@ -250,10 +250,10 @@
 <W lemma="udenlandsk" msd="ANP[CN]PU=[DI]U">udenlandske</W>
 <W lemma="byggefirma" msd="NCNPU==I">byggefirmaer</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="primær" msd="ANP---=-R">primært</W>
+<W lemma="primÃ¦r" msd="ANP---=-R">primÃ¦rt</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="øvrig" msd="ANP[CN]SU=DU">øvrige</W>
+<W lemma="Ã¸vrig" msd="ANP[CN]SU=DU">Ã¸vrige</W>
 <W lemma="Norden" msd="NP--U==-">Norden</W>
 <W lemma="." msd="XP">.</W>
 </s>

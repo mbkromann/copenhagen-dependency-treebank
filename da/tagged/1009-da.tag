@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Uenighed om sikring af kalk-mine</title>
-            <author gender=m born=1959>Wormslev, Søren</author>
+            <author gender=m born=1959>Wormslev, SÃ¸ren</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -44,7 +44,7 @@
 <W lemma="kalkmine" msd="NCCSG==D">Kalkminens</W>
 <W lemma="ejer" msd="NCCSU==I">ejer</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="læge" msd="NCCSU==I">læge</W>
+<W lemma="lÃ¦ge" msd="NCCSU==I">lÃ¦ge</W>
 <W lemma="Ole" msd="NP--U==-">Ole</W>
 <W lemma="Nielsen" msd="NP--U==-">Nielsen</W>
 <W lemma="," msd="XP">,</W>
@@ -64,8 +64,8 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="cement" msd="NCCSU==I">cement</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="støbe" msd="VAPA=S[CN]I[ARU]-U">støbt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="stÃ¸be" msd="VAPA=S[CN]I[ARU]-U">stÃ¸bt</W>
 <W lemma="fast" msd="ANP---=-R">fast</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="minegang" msd="NCCPG==D">minegangenes</W>
@@ -80,11 +80,11 @@
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="efter" msd="SP">efter</W>
-<W lemma="råd" msd="NCNPU==I">råd</W>
+<W lemma="rÃ¥d" msd="NCNPU==I">rÃ¥d</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="fagfolk" msd="NCNPU==I">fagfolk</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="udføre" msd="VAF-=----A-">udføre</W>
+<W lemma="udfÃ¸re" msd="VAF-=----A-">udfÃ¸re</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="norsk" msd="ANP[CN]SU=DU">norske</W>
@@ -122,7 +122,7 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
 <W lemma="finde" msd="VADR=----A-">finder</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="baggrund" msd="NCCSU==I">baggrund</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="vores" msd="PO1[CN][SP]UPNU">vores</W>
@@ -136,18 +136,18 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="faglig" msd="ANP---=-R">fagligt</W>
 <W lemma="forsvarlig" msd="ANPNSU=IU">forsvarligt</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="genåbne" msd="VAF-=----A-">genåbne</W>
+<W lemma="genÃ¥bne" msd="VAF-=----A-">genÃ¥bne</W>
 <W lemma="mine" msd="NCCSU==D">minen</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="publikum" msd="NCNSU==I">publikum</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
-<W lemma="senioringeniør" msd="NCCSU==I">senioringeniør</W>
+<W lemma="senioringeniÃ¸r" msd="NCCSU==I">senioringeniÃ¸r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="geolog" msd="NCCSU==I">geolog</W>
 <W lemma="Eystein" msd="NP--U==-">Eystein</W>
@@ -156,9 +156,9 @@
 <W lemma="NGI" msd="NP--U==-">NGI</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="såre" msd="RGU">såre</W>
+<W lemma="sÃ¥re" msd="RGU">sÃ¥re</W>
 <W lemma="overraske" msd="VAPA=S[CN]I[ARU]-U">overrasket</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="over" msd="SP">over</W>
@@ -184,19 +184,19 @@
 <p>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="Støvring" msd="NP--U==-">Støvring</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="StÃ¸vring" msd="NP--U==-">StÃ¸vring</W>
 <W lemma="kommune" msd="NCCSU==I">kommune</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="tilsynsmyndighed" msd="NCCSU==I">tilsynsmyndighed</W>
-<W lemma="afgøre" msd="VADR=----A-">afgør</W>
+<W lemma="afgÃ¸re" msd="VADR=----A-">afgÃ¸r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="om" msd="CS">om</W>
 <W lemma="mine" msd="NCCSU==D">minen</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="genåbne" msd="VAF-=----P-">genåbnes</W>
+<W lemma="genÃ¥bne" msd="VAF-=----P-">genÃ¥bnes</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -208,8 +208,8 @@
 <W lemma="selv" msd="PD-[CN][SP]U--U">selv</W>
 <W lemma="ingen" msd="PI-CSU--U">ingen</W>
 <W lemma="ekspertise" msd="NCCSU==I">ekspertise</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="område" msd="NCNSU==D">området</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="omrÃ¥de" msd="NCNSU==D">omrÃ¥det</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="derfor" msd="RGU">derfor</W>
@@ -233,36 +233,36 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="ekspert" msd="NCCPU==D">eksperterne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="uenig" msd="ANP[CN]PU=[DI]U">uenige</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="men" msd="CC">Men</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
-<W lemma="turde" msd="VADR=----A-">tør</W>
+<W lemma="turde" msd="VADR=----A-">tÃ¸r</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="give" msd="VAF-=----A-">give</W>
 <W lemma="tilladelse" msd="NCCSU==I">tilladelse</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="genåbning" msd="NCCSU==I">genåbning</W>
+<W lemma="genÃ¥bning" msd="NCCSU==I">genÃ¥bning</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="før" msd="CS">før</W>
+<W lemma="fÃ¸r" msd="CS">fÃ¸r</W>
 <W lemma="al" msd="ANPCSU=[DI]U">al</W>
 <W lemma="tvivl" msd="NCCSU==I">tvivl</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="væk" msd="RGU">væk</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦k" msd="RGU">vÃ¦k</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
-<W lemma="afdelingsingeniør" msd="NCCSU==I">afdelingsingeniør</W>
+<W lemma="afdelingsingeniÃ¸r" msd="NCCSU==I">afdelingsingeniÃ¸r</W>
 <W lemma="Poul" msd="NP--U==-">Poul</W>
 <W lemma="Erik" msd="NP--U==-">Erik</W>
 <W lemma="Rabs" msd="NP--U==-">Rabs</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="Støvring" msd="NP--U==-">Støvring</W>
+<W lemma="StÃ¸vring" msd="NP--U==-">StÃ¸vring</W>
 <W lemma="kommune" msd="NCCSU==I">kommune</W>
 <W lemma="." msd="XP">.</W>
 </s>

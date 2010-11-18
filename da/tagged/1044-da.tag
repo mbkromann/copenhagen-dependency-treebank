@@ -42,9 +42,9 @@
 <p>
 <s>
 <W lemma="ved" msd="SP">Ved</W>
-<W lemma="København" msd="NP--G==-">Københavns</W>
+<W lemma="KÃ¸benhavn" msd="NP--G==-">KÃ¸benhavns</W>
 <W lemma="venereaklinik" msd="NCCSU==I">Venereaklinik</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="Rudolph" msd="NP--U==-">Rudolph</W>
 <W lemma="Bergh" msd="NP--G==-">Berghs</W>
 <W lemma="hospital" msd="NCNSU==I">Hospital</W>
@@ -52,7 +52,7 @@
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="gennem" msd="SP">gennem</W>
 <W lemma="mange" msd="ANC[CN]PU=[DI]U">flere</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="have" msd="VAPA=S[CN]I[ARU]-U">haft</W>
 <W lemma="erfaring" msd="NCCPU==I">erfaringer</W>
 <W lemma="med" msd="SP">med</W>
@@ -62,7 +62,7 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="overlæge" msd="NCCSU==I">Overlæge</W>
+<W lemma="overlÃ¦ge" msd="NCCSU==I">OverlÃ¦ge</W>
 <W lemma="Anne-Marie" msd="NP--U==-">Anne-Marie</W>
 <W lemma="Worm" msd="NP--U==-">Worm</W>
 <W lemma="ved" msd="SP">ved</W>
@@ -72,26 +72,26 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="hud-" msd="XX">hud-</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="kønssygdom" msd="NCCPU==I">kønssygdomme</W>
+<W lemma="kÃ¸nssygdom" msd="NCCPU==I">kÃ¸nssygdomme</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="Rudolph" msd="NP--U==-">Rudolph</W>
 <W lemma="Bergh" msd="NP--G==-">Berghs</W>
 <W lemma="hospital" msd="NCNSU==I">Hospital</W>
-<W lemma="høre" msd="VADR=----A-">hører</W>
+<W lemma="hÃ¸re" msd="VADR=----A-">hÃ¸rer</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="mene" msd="VADR=----A-">mener</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="brug" msd="NCCSU==I">brug</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="landsdækkende" msd="ANP[CN][SP]U=[DI]U">landsdækkende</W>
-<W lemma="undersøgelse" msd="NCCSU==I">undersøgelse</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="område" msd="NCNSU==D">området</W>
+<W lemma="landsdÃ¦kkende" msd="ANP[CN][SP]U=[DI]U">landsdÃ¦kkende</W>
+<W lemma="undersÃ¸gelse" msd="NCCSU==I">undersÃ¸gelse</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="omrÃ¥de" msd="NCNSU==D">omrÃ¥det</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -105,7 +105,7 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="smitteopsporing" msd="NCCSU==I">Smitteopsporing</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
@@ -122,11 +122,11 @@
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="ofte" msd="RGP">ofte</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="tale" msd="NCCSU==I">tale</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="begrænse" msd="VAPA=S[CN]IA-U">begrænset</W>
+<W lemma="begrÃ¦nse" msd="VAPA=S[CN]IA-U">begrÃ¦nset</W>
 <W lemma="antal" msd="NCNSU==I">antal</W>
 <W lemma="partner" msd="NCCPU==I">partnere</W>
 <W lemma="." msd="XP">.</W>
@@ -134,11 +134,11 @@
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="brugbar" msd="ANPNSU=IU">brugbart</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="undersøgelse" msd="NCCSU==I">undersøgelse</W>
+<W lemma="undersÃ¸gelse" msd="NCCSU==I">undersÃ¸gelse</W>
 <W lemma="herhjemme" msd="RGU">herhjemme</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
@@ -147,8 +147,8 @@
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="udbrede" msd="VAPA=S[CN]I[ARU]-U">udbredt</W>
 <W lemma="smitteopsporing" msd="NCCSU==I">smitteopsporing</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="landsplan" msd="NCNSU==I">landsplan</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
@@ -156,7 +156,7 @@
 <W lemma="erfaring" msd="NCCPU==I">erfaringer</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="gøre" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
+<W lemma="gÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="metode" msd="NCCSU==D">metoden</W>
@@ -166,7 +166,7 @@
 </p>
 <p>
 <s>
-<W lemma="overlæge" msd="NCCSU==I">Overlæge</W>
+<W lemma="overlÃ¦ge" msd="NCCSU==I">OverlÃ¦ge</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="sundhedsstyrelse" msd="NCCSU==D">Sundhedsstyrelsen</W>
 <W lemma="," msd="XP">,</W>
@@ -178,12 +178,12 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="amt" msd="NCNPU==D">amterne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="blive" msd="VAPA=S[CN]I[ARU]-U">blevet</W>
 <W lemma="opfordre" msd="VAPA=S[CN]I[ARU]-U">opfordret</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="ansætte" msd="VAF-=----A-">ansætte</W>
+<W lemma="ansÃ¦tte" msd="VAF-=----A-">ansÃ¦tte</W>
 <W lemma="medarbejder" msd="NCCPU==I">medarbejdere</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="tage" msd="VAF-=----A-">tage</W>
@@ -200,7 +200,7 @@
 <W lemma="de" msd="PP3[CN]PU-NU">dem</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="føre" msd="VAF-=----A-">føre</W>
+<W lemma="fÃ¸re" msd="VAF-=----A-">fÃ¸re</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="i" msd="SP">i</W>
@@ -221,8 +221,8 @@
 <W lemma="lov" msd="NCCSU==I">lov</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="smitteopsporing" msd="NCCSU==I">smitteopsporing</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="HIV-område" msd="NCNSU==D">HIV-området</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="HIV-omrÃ¥de" msd="NCNSU==D">HIV-omrÃ¥det</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="sundhedsminister" msd="NCCSU==I">sundhedsminister</W>
@@ -238,7 +238,7 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="behov" msd="NCNSU==I">behov</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="en" msd="PI-CSU--U">en</W>

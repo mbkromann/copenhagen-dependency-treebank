@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Drivhuseffekt: Grov svindel eller dumhed</title>
-            <author gender=m>Ørum-Hansen, Per</author>
+            <author gender=m>Ã˜rum-Hansen, Per</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -48,15 +48,15 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="eksistere" msd="VADR=----A-">eksisterer</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="såkaldt" msd="ANP[CN]SU=IU">såkaldt</W>
+<W lemma="sÃ¥kaldt" msd="ANP[CN]SU=IU">sÃ¥kaldt</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="storbyeffekt" msd="NCCSU==I">storbyeffekt</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="påvirke" msd="VADR=----A-">påvirker</W>
-<W lemma="måling" msd="NCCPU==D">målingerne</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥virke" msd="VADR=----A-">pÃ¥virker</W>
+<W lemma="mÃ¥ling" msd="NCCPU==D">mÃ¥lingerne</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="landjord" msd="NCCSU==D">landjorden</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -71,7 +71,7 @@
 <W lemma="bygning" msd="NCCPU==I">bygninger</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="samle" msd="VAPA=S[CN]I[ARU]-U">samlet</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="lille" msd="ANP[CN]SU=[DI]U">lille</W>
 <W lemma="sted" msd="NCNSU==I">sted</W>
@@ -84,9 +84,9 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="påvirke" msd="VADR=----A-">påvirker</W>
-<W lemma="måling" msd="NCCPU==I">målinger</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥virke" msd="VADR=----A-">pÃ¥virker</W>
+<W lemma="mÃ¥ling" msd="NCCPU==I">mÃ¥linger</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="landjord" msd="NCCSU==D">landjorden</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -95,14 +95,14 @@
 <W lemma="studie" msd="NCNSU==I">studie</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="foretage" msd="VAPA=S[CN]I[ARU]-U">foretaget</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="amerikansk" msd="ANP[CN]SU=DU">amerikanske</W>
 <W lemma="kontinent" msd="NCNSU==I">kontinent</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="tage" msd="VADA=----A-">tog</W>
-<W lemma="højde" msd="NCCSU==I">højde</W>
+<W lemma="hÃ¸jde" msd="NCCSU==I">hÃ¸jde</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="storbyeffekt" msd="NCCPU==I">storbyeffekter</W>
@@ -119,8 +119,8 @@
 <W lemma="sted" msd="NCNSU==I">sted</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="forløbe" msd="VAPA=SCDA-U">forløbne</W>
-<W lemma="århundrede" msd="NCNSU==I">århundrede</W>
+<W lemma="forlÃ¸be" msd="VAPA=SCDA-U">forlÃ¸bne</W>
+<W lemma="Ã¥rhundrede" msd="NCNSU==I">Ã¥rhundrede</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -135,12 +135,12 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="temperaturmønster" msd="NCNSU==I">temperaturmønster</W>
+<W lemma="temperaturmÃ¸nster" msd="NCNSU==I">temperaturmÃ¸nster</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="kende" msd="VADR=----P-">kendes</W>
 <W lemma="fra" msd="SP">fra</W>
-<W lemma="måling" msd="NCCPU==D">målingerne</W>
+<W lemma="mÃ¥ling" msd="NCCPU==D">mÃ¥lingerne</W>
 <W lemma="siden" msd="SP">siden</W>
 <W lemma="1880" msd="AC---U=--">1880</W>
 <W lemma="ikke" msd="RGU">ikke</W>
@@ -158,16 +158,16 @@
 <s>
 <W lemma="gennem" msd="SP">GENNEM</W>
 <W lemma="1880'er" msd="NCCPU==D">1880'erne</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="periode" msd="NCCSU==I">periode</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="nedkøling" msd="NCCSU==I">nedkøling</W>
+<W lemma="nedkÃ¸ling" msd="NCCSU==I">nedkÃ¸ling</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
-<W lemma="efterfølge" msd="VAPA=S[CN]I[ARU]-U">efterfulgt</W>
+<W lemma="efterfÃ¸lge" msd="VAPA=S[CN]I[ARU]-U">efterfulgt</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="opvarmningstendens" msd="NCCSU==I">opvarmningstendens</W>
@@ -208,9 +208,9 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="når" msd="CS">Når</W>
+<W lemma="nÃ¥r" msd="CS">NÃ¥r</W>
 <W lemma="denne" msd="PD-[CN]PU--U">disse</W>
-<W lemma="temperaturændring" msd="NCCPU==I">temperaturændringer</W>
+<W lemma="temperaturÃ¦ndring" msd="NCCPU==I">temperaturÃ¦ndringer</W>
 <W lemma="analysere" msd="VADR=----P-">analyseres</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fremkomme" msd="VADR=----A-">fremkommer</W>
@@ -218,24 +218,24 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="gennemgående" msd="ANP[CN][SP]U=[DI]U">gennemgående</W>
+<W lemma="gennemgÃ¥ende" msd="ANP[CN][SP]U=[DI]U">gennemgÃ¥ende</W>
 <W lemma="opvarmning" msd="NCCSU==I">opvarmning</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
 <W lemma="50" msd="AC---U=--">50</W>
-<W lemma="år" msd="NCNPU==I">år</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="usandsynlig" msd="ANPCSU=IU">usandsynlig</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="korrigere" msd="VADR=----P-">Korrigeres</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="temperaturmåling" msd="NCCPU==I">temperaturmålinger</W>
+<W lemma="temperaturmÃ¥ling" msd="NCCPU==I">temperaturmÃ¥linger</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="foretage" msd="VAPA=S[CN]I[ARU]-U">foretaget</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
@@ -244,7 +244,7 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="by-effekt" msd="NCCSU==D">by-effekten</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="bare" msd="RGU">bare</W>
@@ -265,7 +265,7 @@
 <W lemma="finde" msd="VAPA=S[CN]I[ARU]-U">fundet</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="lille" msd="ANC[CN][SP]U=[DI]U">mindre</W>
-<W lemma="køling" msd="NCCSU==I">køling</W>
+<W lemma="kÃ¸ling" msd="NCCSU==I">kÃ¸ling</W>
 <W lemma="sted" msd="NCNSU==I">sted</W>
 <W lemma="." msd="XP">.</W>
 </s>

@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Vi Kan Så Meget, Men Skal Vi?'</title>
+        <title>Tagged sample of: 'Vi Kan SÃ¥ Meget, Men Skal Vi?'</title>
       </titleStmt>
       <extent words=175>175 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Vi Kan Så Meget, Men Skal Vi?</title>
+            <title>Vi Kan SÃ¥ Meget, Men Skal Vi?</title>
             <author gender=m born=1956>Hergel, Olav</author>
           </analytic>
           <monogr>
@@ -50,7 +50,7 @@
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="høj" msd="ANP---=-R">højt</W>
+<W lemma="hÃ¸j" msd="ANP---=-R">hÃ¸jt</W>
 <W lemma="oplyse" msd="VAPA=S[CN]IA-U">oplyst</W>
 <W lemma="land" msd="NCNSU==I">land</W>
 <W lemma="som" msd="U=">som</W>
@@ -67,9 +67,9 @@
 <W lemma="industri" msd="NCCSU==D">Industrien</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="folk" msd="NCNSU==D">folket</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="nødvendigvis" msd="RGU">nødvendigvis</W>
+<W lemma="nÃ¸dvendigvis" msd="RGU">nÃ¸dvendigvis</W>
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="modpol" msd="NCCPU==I">modpoler</W>
 <W lemma="," msd="XP">,</W>
@@ -91,19 +91,19 @@
 <W lemma="koste" msd="VADR=----A-">koster</W>
 <W lemma="tid" msd="NCCSU==I">tid</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="oplyse" msd="VAPA=S[CN]IA-U">oplyst</W>
 <W lemma="samfund" msd="NCNSU==I">samfund</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="gøre" msd="VADR=----A-">gør</W>
+<W lemma="gÃ¸re" msd="VADR=----A-">gÃ¸r</W>
 <W lemma="klog" msd="ANP---=-R">klogt</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="forjaget" msd="ANP[CN]SU=IU">forjaget</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -111,7 +111,7 @@
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="tilbøjelighed" msd="NCCSU==I">tilbøjelighed</W>
+<W lemma="tilbÃ¸jelighed" msd="NCCSU==I">tilbÃ¸jelighed</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -132,7 +132,7 @@
 </s>
 <s>
 <W lemma="atomkraft" msd="NCCSU==D">Atomkraften</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="eksempel" msd="NCNSU==D">eksemplet</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -145,16 +145,16 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="måske" msd="RGU">Måske</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="mÃ¥ske" msd="RGU">MÃ¥ske</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="hurtig" msd="ANP[CN]PU=[DI]U">hurtige</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="japaner" msd="NCCPU==D">japanerne</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="måske" msd="RGU">måske</W>
+<W lemma="mÃ¥ske" msd="RGU">mÃ¥ske</W>
 <W lemma="komme" msd="VADR=----A-">kommer</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="i" msd="SP">i</W>
@@ -164,14 +164,14 @@
 <W lemma="betale" msd="VAF-=----A-">betale</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="oplyse" msd="VAPA=P[CN][DI]A-U">oplyste</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
-<W lemma="måske" msd="RGU">måske</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="mÃ¥ske" msd="RGU">mÃ¥ske</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="vi" msd="PP1CPU-[YN]U">os</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
@@ -180,7 +180,7 @@
 <W lemma="op" msd="RGU">op</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="hul" msd="NCNPU==D">hullerne</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="anden" msd="PI-CSU--U">anden</W>
 <W lemma="side" msd="NCCSU==I">side</W>
@@ -188,12 +188,12 @@
 </s>
 <s>
 <W lemma="genteknologi" msd="NCCSU==I">Genteknologi</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="alt" msd="RGU">alt</W>
 <W lemma="for" msd="RGU">for</W>
-<W lemma="dybtgående" msd="ANP[CN][SP]U=[DI]U">dybtgående</W>
-<W lemma="affære" msd="NCCSU==I">affære</W>
+<W lemma="dybtgÃ¥ende" msd="ANP[CN][SP]U=[DI]U">dybtgÃ¥ende</W>
+<W lemma="affÃ¦re" msd="NCCSU==I">affÃ¦re</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="hurtig" msd="ANP[CN]PU=[DI]U">hurtige</W>
 <W lemma="beslutning" msd="NCCPU==I">beslutninger</W>
@@ -216,11 +216,11 @@
 <p>
 <s>
 <W lemma="samtidig" msd="RGU">Samtidig</W>
-<W lemma="føre" msd="VADR=----A-">fører</W>
+<W lemma="fÃ¸re" msd="VADR=----A-">fÃ¸rer</W>
 <W lemma="diskussion" msd="NCCSU==D">diskussionen</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="genteknologi" msd="NCCSU==I">genteknologi</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="del" msd="NCCSU==I">del</W>
 <W lemma="fundamental" msd="ANPCSU=IU">fundamental</W>
@@ -241,20 +241,20 @@
 <W lemma="teknologi" msd="NCCSU==I">teknologi</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="værre" msd="XX">værre</W>
+<W lemma="vÃ¦rre" msd="XX">vÃ¦rre</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="atomkraft" msd="NCCSU==I">atomkraft</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="genteknologi" msd="NCCSU==I">genteknologi</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="anden" msd="PI-[CN]PG--U">andres</W>
-<W lemma="øje" msd="NCNPU==I">øjne</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="Ã¸je" msd="NCNPU==I">Ã¸jne</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="direkte" msd="ANP---=-R">direkte</W>
 <W lemma="stride" msd="VAPR=[SP][CN][DI][ARU]-U">stridende</W>
 <W lemma="mod" msd="SP">mod</W>

@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Åbent brev til amtsborgmesteren i Storst'</title>
+        <title>Tagged sample of: 'Ã…bent brev til amtsborgmesteren i Storst'</title>
       </titleStmt>
       <extent words=155>155 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Åbent brev til amtsborgmesteren i Storst</title>
+            <title>Ã…bent brev til amtsborgmesteren i Storst</title>
             <author gender=m>Lind, Knud</author>
           </analytic>
           <monogr>
@@ -46,7 +46,7 @@
 <W lemma="november" msd="NCCSU==I">november</W>
 <W lemma="1983" msd="AC---U=--">1983</W>
 <W lemma="besigtige" msd="VADA=----A-">besigtigede</W>
-<W lemma="Miljø-" msd="XX">Miljø-</W>
+<W lemma="MiljÃ¸-" msd="XX">MiljÃ¸-</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="vandinspektorat" msd="NCNSU==D">Vandinspektoratet</W>
 <W lemma="Mogenstrup" msd="NP--U==-">Mogenstrup</W>
@@ -54,7 +54,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="matrikel" msd="NCCSU==I">matr.</W>
 <W lemma="nummer" msd="NCNSU==I">nr.</W>
 <W lemma="5a" msd="XR">5a</W>
@@ -65,22 +65,22 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="område" msd="NCNSU==I">område</W>
+<W lemma="omrÃ¥de" msd="NCNSU==I">omrÃ¥de</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="grusgrav" msd="NCCSU==D">grusgraven</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="grus" msd="NCNSU==I">grus</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="udvinde" msd="VAPA=S[CN]I[ARU]-U">udvundet</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="grundvandsspejl" msd="NCNSU==D">grundvandsspejlet</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="deponere" msd="VAPA=S[CN]I[ARU]-U">deponeret</W>
-<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">større</W>
-<W lemma="mængde" msd="NCCPU==I">mængder</W>
+<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">stÃ¸rre</W>
+<W lemma="mÃ¦ngde" msd="NCCPU==I">mÃ¦ngder</W>
 <W lemma="affald" msd="NCNSU==I">affald</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="asfalt" msd="NCCSU==I">asfalt</W>
@@ -90,7 +90,7 @@
 <p>
 <s>
 <W lemma="affald" msd="NCNSU==D">Affaldet</W>
-<W lemma="bestå" msd="VADA=----A-">bestod</W>
+<W lemma="bestÃ¥" msd="VADA=----A-">bestod</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="bygningsaffald" msd="NCNSU==I">bygningsaffald</W>
 <W lemma="," msd="XP">,</W>
@@ -102,11 +102,11 @@
 </s>
 <s>
 <W lemma="herudover" msd="RGU">Herudover</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="deponere" msd="VAPA=S[CN]I[ARU]-U">deponeret</W>
-<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">større</W>
-<W lemma="mængde" msd="NCCPU==I">mængder</W>
+<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">stÃ¸rre</W>
+<W lemma="mÃ¦ngde" msd="NCCPU==I">mÃ¦ngder</W>
 <W lemma="nedknust" msd="ANP[CN]SU=IU">nedknust</W>
 <W lemma="asfalt" msd="NCCSU==I">asfalt</W>
 <W lemma="fra" msd="SP">fra</W>
@@ -118,24 +118,24 @@
 <p>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="Miljø-" msd="XX">Miljø-</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="MiljÃ¸-" msd="XX">MiljÃ¸-</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="vandinspektorat" msd="NCNSG==D">vandinspektoratets</W>
 <W lemma="vurdering" msd="NCCSU==I">vurdering</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="anføre" msd="VAPA=P[CN][DI]A-U">anførte</W>
+<W lemma="anfÃ¸re" msd="VAPA=P[CN][DI]A-U">anfÃ¸rte</W>
 <W lemma="affaldstype" msd="NCCPU==I">affaldstyper</W>
-<W lemma="udgøre" msd="VADR=----A-">udgør</W>
+<W lemma="udgÃ¸re" msd="VADR=----A-">udgÃ¸r</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="potentiel" msd="ANP[CN]SU=IU">potentiel</W>
 <W lemma="forureningsrisiko" msd="NCCSU==I">forureningsrisiko</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="grundvand" msd="NCNSU==D">grundvandet</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="område" msd="NCNSU==D">området</W>
+<W lemma="omrÃ¥de" msd="NCNSU==D">omrÃ¥det</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -168,10 +168,10 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="nedlægge" msd="VADR=----P-">nedlægges</W>
+<W lemma="nedlÃ¦gge" msd="VADR=----P-">nedlÃ¦gges</W>
 <W lemma="forbud" msd="NCNSU==I">forbud</W>
 <W lemma="mod" msd="SP">mod</W>
-<W lemma="fortsætte" msd="VAPA=S[CN]IA-U">fortsat</W>
+<W lemma="fortsÃ¦tte" msd="VAPA=S[CN]IA-U">fortsat</W>
 <W lemma="deponering" msd="NCCSU==I">deponering</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="affald" msd="NCNSU==I">affald</W>
@@ -180,7 +180,7 @@
 <W lemma="grusgrav" msd="NCCSU==I">Grusgrav</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="påbyde" msd="VADA=----A-">påbød</W>
+<W lemma="pÃ¥byde" msd="VADA=----A-">pÃ¥bÃ¸d</W>
 <W lemma="ejer" msd="NCCSU==D">ejeren</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="areal" msd="NCNSU==D">arealet</W>
@@ -199,7 +199,7 @@
 <W lemma="overensstemmelse" msd="NCCSU==I">overensstemmelse</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="gælde" msd="VAPR=[SP][CN][DI]A-U">gældende</W>
+<W lemma="gÃ¦lde" msd="VAPR=[SP][CN][DI]A-U">gÃ¦ldende</W>
 <W lemma="regel" msd="NCCPU==I">regler</W>
 <W lemma="herfor" msd="RGU">herfor</W>
 <W lemma="." msd="XP">.</W>
@@ -215,16 +215,16 @@
 <W lemma="Superfos-koncern" msd="NCCSU==D">Superfos-koncernen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
-<W lemma="redegørelse" msd="NCCSU==I">redegørelse</W>
+<W lemma="redegÃ¸relse" msd="NCCSU==I">redegÃ¸relse</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="miljøforhold" msd="NCNPU==I">miljøforhold</W>
+<W lemma="miljÃ¸forhold" msd="NCNPU==I">miljÃ¸forhold</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="miljøstyrelse" msd="NCCSU==D">miljøstyrelsen</W>
+<W lemma="miljÃ¸styrelse" msd="NCCSU==D">miljÃ¸styrelsen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="år" msd="NCNPU==D">årene</W>
+<W lemma="Ã¥r" msd="NCNPU==D">Ã¥rene</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="1974-1983" msd="AC---U=--">1974-1983</W>
 <W lemma="have" msd="VADA=----A-">havde</W>

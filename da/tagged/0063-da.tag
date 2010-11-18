@@ -47,27 +47,27 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="muslimsk" msd="ANP[CN]PU=[DI]U">muslimske</W>
 <W lemma="styrke" msd="NCCPU==I">styrker</W>
-<W lemma="tælle" msd="VADR=----A-">tæller</W>
+<W lemma="tÃ¦lle" msd="VADR=----A-">tÃ¦ller</W>
 <W lemma="150.000" msd="AC---U=--">150.000</W>
 <W lemma="mand" msd="NCCSU==I">mand</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="saudisk" msd="ANP[CN]SU=DU">saudiske</W>
-<W lemma="generalløjtnant" msd="NCCSU==I">generalløjtnant</W>
+<W lemma="generallÃ¸jtnant" msd="NCCSU==I">generallÃ¸jtnant</W>
 <W lemma="prins" msd="NCCSU==I">prins</W>
 <W lemma="Khalid" msd="NP--U==-">Khalid</W>
 <W lemma="bin" msd="NP--U==-">bin</W>
 <W lemma="Sultan" msd="NP--U==-">Sultan</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="øverstbefalende" msd="ANP[CN][SP]U=[DI]U">øverstbefalende</W>
+<W lemma="Ã¸verstbefalende" msd="ANP[CN][SP]U=[DI]U">Ã¸verstbefalende</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="han" msd="PP3CSN-NU">Han</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="art" msd="NCCSU==I">art</W>
 <W lemma="sidemand" msd="NCCSU==I">sidemand</W>
@@ -86,10 +86,10 @@
 <p>
 <s>
 <W lemma="han" msd="PP3CSN-NU">Han</W>
-<W lemma="være" msd="VADA=----A-">var</W>
-<W lemma="før" msd="SP">før</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
+<W lemma="fÃ¸r" msd="SP">fÃ¸r</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
-<W lemma="udnævnelse" msd="NCCSU==I">udnævnelse</W>
+<W lemma="udnÃ¦vnelse" msd="NCCSU==I">udnÃ¦vnelse</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="forbindelse" msd="NCCSU==I">forbindelse</W>
 <W lemma="med" msd="SP">med</W>
@@ -98,7 +98,7 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="saudi-arabisk" msd="ANP[CN]SU=DU">saudi-arabiske</W>
-<W lemma="luftvåben" msd="NCNSU==I">luftvåben</W>
+<W lemma="luftvÃ¥ben" msd="NCNSU==I">luftvÃ¥ben</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="have" msd="VADR=----A-">har</W>
@@ -112,11 +112,11 @@
 <W lemma="han" msd="PP3CSN-NU">Han</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
-<W lemma="militær" msd="ANP[CN]SU=DU">militære</W>
+<W lemma="militÃ¦r" msd="ANP[CN]SU=DU">militÃ¦re</W>
 <W lemma="uddannelse" msd="NCCSU==I">uddannelse</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="Storbritannien" msd="NP--G==-">Storbritanniens</W>
-<W lemma="berømt" msd="ANP[CN]SU=DU">berømte</W>
+<W lemma="berÃ¸mt" msd="ANP[CN]SU=DU">berÃ¸mte</W>
 <W lemma="officersskole" msd="NCCSU==I">officersskole</W>
 <W lemma="Sandhurst" msd="NP--U==-">Sandhurst</W>
 <W lemma="og" msd="CC">og</W>
@@ -140,7 +140,7 @@
 <W lemma="generalmajor" msd="NCCSU==I">Generalmajor</W>
 <W lemma="Salah" msd="NP--U==-">Salah</W>
 <W lemma="Halaby" msd="NP--U==-">Halaby</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="chef" msd="NCCSU==I">chef</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
@@ -155,8 +155,8 @@
 <W lemma="Golf-styrke" msd="NCCPU==I">Golf-styrker</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="stor" msd="ANS[CN][SP]U=DU">største</W>
-<W lemma="næst" msd="RGU">næst</W>
+<W lemma="stor" msd="ANS[CN][SP]U=DU">stÃ¸rste</W>
+<W lemma="nÃ¦st" msd="RGU">nÃ¦st</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="USA" msd="NP--G==-">USAs</W>
 <W lemma="." msd="XP">.</W>
@@ -172,14 +172,14 @@
 <W lemma="infanteri-general" msd="NCCSU==I">infanteri-general</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="især" msd="RGU">især</W>
-<W lemma="udmærke" msd="VADA=----A-">udmærkede</W>
+<W lemma="isÃ¦r" msd="RGU">isÃ¦r</W>
+<W lemma="udmÃ¦rke" msd="VADA=----A-">udmÃ¦rkede</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="egyptisk" msd="ANP[CN]SU=DU">egyptiske</W>
 <W lemma="storm" msd="NCCSU==I">storm</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="israelsk" msd="ANP[CN]SU=DU">israelske</W>
 <W lemma="Bar-Lev" msd="NP--U==-">Bar-Lev</W>
@@ -200,12 +200,12 @@
 </p>
 <p>
 <s>
-<W lemma="før" msd="SP">Før</W>
+<W lemma="fÃ¸r" msd="SP">FÃ¸r</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="mission" msd="NCCSU==I">mission</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="Golfen" msd="NP--U==-">Golfen</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="departementschef" msd="NCCSU==I">departementschef</W>
 <W lemma="i" msd="SP">i</W>

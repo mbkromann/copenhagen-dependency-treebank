@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'På hat med solen'</title>
+        <title>Tagged sample of: 'PÃ¥ hat med solen'</title>
       </titleStmt>
       <extent words=156>156 running words</extent>
       <publicationStmt>
@@ -14,8 +14,8 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>På hat med solen</title>
-            <author gender=f born=1926>Rønlund, Didder</author>
+            <title>PÃ¥ hat med solen</title>
+            <author gender=f born=1926>RÃ¸nlund, Didder</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -41,13 +41,13 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="Lancôme" msd="NP--G==-">Lancômes</W>
+<W lemma="LancÃ´me" msd="NP--G==-">LancÃ´mes</W>
 <W lemma="Anni" msd="NP--U==-">Anni</W>
 <W lemma="Schmidt" msd="NP--U==-">Schmidt</W>
-<W lemma="lægge" msd="VADR=----A-">lægger</W>
+<W lemma="lÃ¦gge" msd="VADR=----A-">lÃ¦gger</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="skjul" msd="NCNSU==I">skjul</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
@@ -55,7 +55,7 @@
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="passe" msd="VADR=----A-">passer</W>
 <W lemma="god" msd="ANC---=-R">bedre</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="hud" msd="NCCSU==D">huden</W>
 <W lemma="sammen" msd="RGU">sammen</W>
 <W lemma="med" msd="SP">med</W>
@@ -66,30 +66,30 @@
 <W lemma="ny" msd="ANS[CN][SP]U=DU">Nyeste</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="meget" msd="ANS---=-R">mest</W>
-<W lemma="epokegørende" msd="ANP[CN][SP]U=[DI]U">epokegørende</W>
+<W lemma="epokegÃ¸rende" msd="ANP[CN][SP]U=[DI]U">epokegÃ¸rende</W>
 <W lemma="solserie" msd="NCCSU==I">solserie</W>
 <W lemma="hos" msd="SP">hos</W>
-<W lemma="Lancôme" msd="NP--U==-">Lancôme</W>
+<W lemma="LancÃ´me" msd="NP--U==-">LancÃ´me</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="Mélanine" msd="NP--U==-">Mélanine</W>
+<W lemma="MÃ©lanine" msd="NP--U==-">MÃ©lanine</W>
 <W lemma="Pure" msd="NP--U==-">Pure</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="beskytte" msd="VADR=----A-">beskytter</W>
 <W lemma="mod" msd="SP">mod</W>
 <W lemma="UV" msd="NP--U==-">UV</W>
-<W lemma="stråling" msd="NCCSU==I">stråling</W>
+<W lemma="strÃ¥ling" msd="NCCSU==I">strÃ¥ling</W>
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="danne" msd="VAF-=----A-">danne</W>
 <W lemma="melaninkorn" msd="NCNPU==I">melaninkorn</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="vej" msd="NCCSU==I">vej</W>
 <W lemma="op" msd="RGU">op</W>
 <W lemma="gennem" msd="SP">gennem</W>
 <W lemma="cellelag" msd="NCNPU==D">cellelagene</W>
-<W lemma="ændre" msd="VADR=----A-">ændrer</W>
+<W lemma="Ã¦ndre" msd="VADR=----A-">Ã¦ndrer</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="farvestof" msd="NCNSU==D">farvestoffet</W>
@@ -119,7 +119,7 @@
 <W lemma="behov" msd="NCNPU==I">behov</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="Contrôle" msd="NP--U==-">Contrôle</W>
+<W lemma="ContrÃ´le" msd="NP--U==-">ContrÃ´le</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="maksimal" msd="ANPCSU=IU">maksimal</W>
@@ -163,7 +163,7 @@
 <W lemma="mulighed" msd="NCCSU==I">mulighed</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="vælge" msd="VAF-=----A-">vælge</W>
+<W lemma="vÃ¦lge" msd="VAF-=----A-">vÃ¦lge</W>
 <W lemma="olie-fri" msd="ANP[CN]PU=[DI]U">olie-fri</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="vandafvisende" msd="ANP[CN][SP]U=[DI]U">vandafvisende</W>
@@ -187,9 +187,9 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="også" msd="RGU">også</W>
-<W lemma="Lancôme" msd="NP--U==-">Lancôme</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
+<W lemma="LancÃ´me" msd="NP--U==-">LancÃ´me</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="med" msd="SP">med</W>
@@ -197,7 +197,7 @@
 <W lemma="rouge" msd="NCCSU==I">Rouge</W>
 <W lemma="Absolu" msd="NP--U==-">Absolu</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="læbestift" msd="NCCSU==D">læbestiften</W>
+<W lemma="lÃ¦bestift" msd="NCCSU==D">lÃ¦bestiften</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="125" msd="AC---U=--">125</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
@@ -205,7 +205,7 @@
 <W lemma="farve" msd="NCCPU==I">farver</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="beskytte" msd="VADR=----A-">beskytter</W>
-<W lemma="læbe" msd="NCCPU==D">læberne</W>
+<W lemma="lÃ¦be" msd="NCCPU==D">lÃ¦berne</W>
 <W lemma="mod" msd="SP">mod</W>
 <W lemma="UV" msd="NP--U==-">UV</W>
 <W lemma="skade" msd="NCCPU==I">skader</W>
@@ -223,7 +223,7 @@
 <W lemma="ypperlig" msd="ANP[CN]PU=[DI]U">ypperlige</W>
 <W lemma="solserie" msd="NCCPU==I">solserier</W>
 <W lemma="byde" msd="VADR=----A-">byder</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="lip" msd="XF">lip</W>
 <W lemma="balms" msd="XF">balms</W>
@@ -233,7 +233,7 @@
 <W lemma="Helena" msd="NP--U==-">Helena</W>
 <W lemma="Rubinstein" msd="NP--U==-">Rubinstein</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="både" msd="RGU">både</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
 <W lemma="UVA-" msd="XX">UVA-</W>
 <W lemma="&amp;" msd="CC">&amp;</W>
 <W lemma="B" msd="XA">B</W>

@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Jordskælv i snehelvedet'</title>
+        <title>Tagged sample of: 'JordskÃ¦lv i snehelvedet'</title>
       </titleStmt>
       <extent words=150>150 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Jordskælv i snehelvedet</title>
+            <title>JordskÃ¦lv i snehelvedet</title>
             <author gender=m born=1961>Aagaard, Lars Henrik</author>
           </analytic>
           <monogr>
@@ -49,7 +49,7 @@
 <W lemma="at" msd="U=">at</W>
 <W lemma="ligne" msd="VAF-=----A-">ligne</W>
 <W lemma="elefantmand" msd="NCCSU==D">Elefantmanden</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="speed" msd="NCCSU==I">speed</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
@@ -58,7 +58,7 @@
 <W lemma="ad" msd="SP">ad</W>
 <W lemma="Sunset" msd="NP--U==-">Sunset</W>
 <W lemma="Boulevard" msd="NP--U==-">Boulevard</W>
-<W lemma="se" msd="VADA=----A-">så</W>
+<W lemma="se" msd="VADA=----A-">sÃ¥</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -78,12 +78,12 @@
 <W lemma="konferere" msd="VADA=----A-">konfererede</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="dekoderselskab" msd="NCNSG==D">Dekoderselskabets</W>
-<W lemma="tålmodig" msd="ANP[CN]PU=[DI]U">tålmodige</W>
+<W lemma="tÃ¥lmodig" msd="ANP[CN]PU=[DI]U">tÃ¥lmodige</W>
 <W lemma="telefonistdame" msd="NCCPU==I">telefonistdamer</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="så" msd="CS">Så</W>
+<W lemma="sÃ¥" msd="CS">SÃ¥</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="tage" msd="VADA=----A-">tog</W>
 <W lemma="ind" msd="RGU">ind</W>
@@ -92,7 +92,7 @@
 <W lemma="radio" msd="NCCSU==I">Radio</W>
 <W lemma="igen" msd="RGU">igen</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="bytte" msd="VAPA=S[CN]I[ARU]-U">byttet</W>
 <W lemma="apparat" msd="NCNSU==D">apparatet</W>
 <W lemma="." msd="XP">.</W>
@@ -120,7 +120,7 @@
 <W lemma="vores" msd="PO1[CN][SP]UPNU">vores</W>
 <W lemma="antenne" msd="NCCSU==I">antenne</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="kraftig" msd="ANPCSU=IU">kraftig</W>
 <W lemma="nok" msd="RGU">nok</W>
 <W lemma="til" msd="SP">til</W>
@@ -134,17 +134,17 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="nå" msd="I=">Nå</W>
+<W lemma="nÃ¥" msd="I=">NÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="gerne" msd="RGU">gerne</W>
 <W lemma="aflevere" msd="VAF-=----A-">aflevere</W>
 <W lemma="dekoder" msd="NCCSU==D">dekoderen</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="ophæve" msd="VAF-=----A-">ophæve</W>
+<W lemma="ophÃ¦ve" msd="VAF-=----A-">ophÃ¦ve</W>
 <W lemma="kontrakt" msd="NCCSU==D">kontrakten</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="sige" msd="VADA=----A-">sagde</W>
@@ -154,7 +154,7 @@
 </p>
 <p>
 <s>
-<W lemma="på" msd="SP">På</W>
+<W lemma="pÃ¥" msd="SP">PÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="tidspunkt" msd="NCNSU==I">tidspunkt</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
@@ -167,11 +167,11 @@
 <W lemma="slippe" msd="VADR=----A-">slipper</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="startgebyr" msd="NCNSU==D">startgebyret</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="400" msd="AC---U=--">400</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="som" msd="U=">som</W>
@@ -179,17 +179,17 @@
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="bestille" msd="VADR=----A-">bestiller</W>
 <W lemma="12" msd="AC---U=--">12</W>
-<W lemma="måned" msd="NCCPG==I">måneders</W>
+<W lemma="mÃ¥ned" msd="NCCPG==I">mÃ¥neders</W>
 <W lemma="abonnement" msd="NCNSU==I">abonnement</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="en" msd="PI-CSU--U">én</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="en" msd="PI-CSU--U">Ã©n</W>
 <W lemma="gang" msd="NCCSU==I">gang</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="så" msd="RGU">Så</W>
+<W lemma="sÃ¥" msd="RGU">SÃ¥</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="De" msd="PP2C[SP]N-NP">De</W>
 <W lemma="aflevere" msd="VAF-=----A-">aflevere</W>
@@ -202,23 +202,23 @@
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="skriftlig" msd="ANPCSU=IU">skriftlig</W>
 <W lemma="forklaring" msd="NCCSU==I">forklaring</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvorfor" msd="RGU">hvorfor</W>
 <W lemma="De" msd="PP2C[SP]N-NP">De</W>
-<W lemma="ønske" msd="VADR=----A-">ønsker</W>
+<W lemma="Ã¸nske" msd="VADR=----A-">Ã¸nsker</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="ophæve" msd="VAF-=----A-">ophæve</W>
+<W lemma="ophÃ¦ve" msd="VAF-=----A-">ophÃ¦ve</W>
 <W lemma="kontrakt" msd="NCCSU==D">kontrakten</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="sende" msd="VADR=----A-">sender</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="De" msd="PP2C[SP]U-[YN]P">Dem</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="girokort" msd="NCNSU==I">girokort</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="400" msd="AC---U=--">400</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
 <W lemma="for" msd="SP">for</W>
@@ -228,8 +228,8 @@
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="knap" msd="RGU">knap</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="tålmodig" msd="ANP[CN]SU=DU">tålmodige</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="tÃ¥lmodig" msd="ANP[CN]SU=DU">tÃ¥lmodige</W>
 <W lemma="telefondame" msd="NCCSU==I">telefondame</W>
 <W lemma="." msd="XP">.</W>
 </s>

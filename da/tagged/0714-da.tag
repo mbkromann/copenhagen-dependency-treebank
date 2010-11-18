@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Grøn schweizerbank på vej mod økonomisk'</title>
+        <title>Tagged sample of: 'GrÃ¸n schweizerbank pÃ¥ vej mod Ã¸konomisk'</title>
       </titleStmt>
       <extent words=172>172 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Grøn schweizerbank på vej mod økonomisk</title>
+            <title>GrÃ¸n schweizerbank pÃ¥ vej mod Ã¸konomisk</title>
             <author>Neuerbourg, Hanns</author>
           </analytic>
           <monogr>
@@ -47,14 +47,14 @@
 <W lemma="frugtsaft" msd="NCCSU==I">frugtsaft</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="champagne" msd="NCCSU==I">champagne</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="åbningsdag" msd="NCCSU==D">åbningsdagen</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="Ã¥bningsdag" msd="NCCSU==D">Ã¥bningsdagen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="1990" msd="AC---U=--">1990</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="sparsom" msd="ANP---=-R">sparsomt</W>
-<W lemma="møblere" msd="VAPA=S[CN]DA-U">møblerede</W>
+<W lemma="mÃ¸blere" msd="VAPA=S[CN]DA-U">mÃ¸blerede</W>
 <W lemma="hovedkvarter" msd="NCNSU==I">hovedkvarter</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="Alternative" msd="NP--U==-">Alternative</W>
@@ -65,9 +65,9 @@
 <W lemma=")" msd="XP">)</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="ifølge" msd="SP">ifølge</W>
+<W lemma="ifÃ¸lge" msd="SP">ifÃ¸lge</W>
 <W lemma="bank" msd="NCCSG==D">bankens</W>
-<W lemma="grundlægger" msd="NCCPU==I">grundlæggere</W>
+<W lemma="grundlÃ¦gger" msd="NCCPU==I">grundlÃ¦ggere</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="drive" msd="VAF-=----A-">drive</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -80,11 +80,11 @@
 <p>
 <s>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="økonomisk" msd="ANP[CN]SU=IU">Økonomisk</W>
+<W lemma="Ã¸konomisk" msd="ANP[CN]SU=IU">Ã˜konomisk</W>
 <W lemma="fornuft" msd="NCCSU==I">fornuft</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="idealisme" msd="NCCSU==I">idealisme</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="forskellig" msd="ANP[CN]PU=[DI]U">forskellige</W>
 <W lemma="ting" msd="NCCPU==I">ting</W>
@@ -105,7 +105,7 @@
 <W lemma="af" msd="SP">af</W>
 <W lemma="land" msd="NCNSG==D">landets</W>
 <W lemma="meget" msd="ANS---=-R">mest</W>
-<W lemma="fremtrædende" msd="ANP[CN][SP]U=[DI]U">fremtrædende</W>
+<W lemma="fremtrÃ¦dende" msd="ANP[CN][SP]U=[DI]U">fremtrÃ¦dende</W>
 <W lemma="bankfolk" msd="NCNPU==I">bankfolk</W>
 <W lemma="dengang" msd="RGU">dengang</W>
 <W lemma="." msd="XP">.</W>
@@ -129,9 +129,9 @@
 <s>
 <W lemma="men" msd="CC">Men</W>
 <W lemma="halvanden" msd="ANPNSU=IU">halvandet</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="sen" msd="ANC---=-R">senere</W>
-<W lemma="se" msd="VADA=----A-">så</W>
+<W lemma="se" msd="VADA=----A-">sÃ¥</W>
 <W lemma="udsigt" msd="NCCPU==D">udsigterne</W>
 <W lemma="anderledes" msd="ANP---=-R">anderledes</W>
 <W lemma="ud" msd="RGU">ud</W>
@@ -147,20 +147,20 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="pege" msd="VADA=----A-">pegede</W>
 <W lemma="nemlig" msd="RGU">nemlig</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="bank" msd="NCCSU==D">banken</W>
 <W lemma="snart" msd="RGU">snart</W>
 <W lemma="ville" msd="VADA=----A-">ville</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="hård" msd="ANPCSU=IU">hård</W>
+<W lemma="hÃ¥rd" msd="ANPCSU=IU">hÃ¥rd</W>
 <W lemma="konkurrence" msd="NCCSU==I">konkurrence</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="økologisk" msd="ANP[CN]SU=DU">økologiske</W>
-<W lemma="område" msd="NCNSU==I">område</W>
+<W lemma="Ã¸kologisk" msd="ANP[CN]SU=DU">Ã¸kologiske</W>
+<W lemma="omrÃ¥de" msd="NCNSU==I">omrÃ¥de</W>
 <W lemma="." msd="XP">.</W>
 <W lemma="&quot;" msd="XP">"</W>
 </s>
@@ -176,10 +176,10 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="da" msd="CS">da</W>
 <W lemma="land" msd="NCNSG==D">landets</W>
-<W lemma="fjerdestørst" msd="ANP[CN]SU=DU">fjerdestørste</W>
+<W lemma="fjerdestÃ¸rst" msd="ANP[CN]SU=DU">fjerdestÃ¸rste</W>
 <W lemma="bank" msd="NCCSU==I">bank</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="Zürcher" msd="NP--U==-">Zürcher</W>
+<W lemma="ZÃ¼rcher" msd="NP--U==-">ZÃ¼rcher</W>
 <W lemma="Kantonalbank" msd="NP--U==-">Kantonalbank</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="ZKB" msd="NP--U==-">ZKB</W>
@@ -193,7 +193,7 @@
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
 <W lemma="tilbyde" msd="VAF-=----A-">tilbyde</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="miljøvenlig" msd="ANP[CN]PU=[DI]U">miljøvenlige</W>
+<W lemma="miljÃ¸venlig" msd="ANP[CN]PU=[DI]U">miljÃ¸venlige</W>
 <W lemma="opsparingskonto" msd="NCCPU==I">opsparingskonti</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="med" msd="SP">med</W>
@@ -207,11 +207,11 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="ABS" msd="NP--U==-">ABS</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
-<W lemma="indlåner" msd="NCCPU==D">indlånerne</W>
+<W lemma="indlÃ¥ner" msd="NCCPU==D">indlÃ¥nerne</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="ZKB" msd="NP--U==-">ZKB</W>
 <W lemma="nu" msd="RGU">nu</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="garanti" msd="NCCSU==I">garanti</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="," msd="XP">,</W>
@@ -224,13 +224,13 @@
 <W lemma="at" msd="U=">at</W>
 <W lemma="finansiere" msd="VAF-=----A-">finansiere</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="økologisk" msd="ANP[CN]PU=[DI]U">økologiske</W>
+<W lemma="Ã¸kologisk" msd="ANP[CN]PU=[DI]U">Ã¸kologiske</W>
 <W lemma="projekt" msd="NCNPU==I">projekter</W>
 <W lemma="." msd="XP">.</W>
 <W lemma="&quot;" msd="XP">"</W>
 </s>
 <s>
-<W lemma="miljøkonto" msd="NCCPU==I">Miljøkonti</W>
+<W lemma="miljÃ¸konto" msd="NCCPU==I">MiljÃ¸konti</W>
 <W lemma="indtil" msd="SP">Indtil</W>
 <W lemma="da" msd="RGU">da</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
@@ -238,9 +238,9 @@
 <W lemma="almindelig" msd="ANP[CN]PU=[DI]U">almindelige</W>
 <W lemma="schweizisk" msd="ANP[CN]PU=[DI]U">schweiziske</W>
 <W lemma="bank" msd="NCCPG==I">bankers</W>
-<W lemma="miljøinteresse" msd="NCCSU==I">miljøinteresse</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
-<W lemma="begrænse" msd="VAPA=S[CN]I[ARU]-U">begrænset</W>
+<W lemma="miljÃ¸interesse" msd="NCCSU==I">miljÃ¸interesse</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
+<W lemma="begrÃ¦nse" msd="VAPA=S[CN]I[ARU]-U">begrÃ¦nset</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="investeringsfond" msd="NC[CN]PU==I">investeringsfonde</W>
 <W lemma="med" msd="SP">med</W>
@@ -249,30 +249,30 @@
 <W lemma="virksomhed" msd="NCCPU==I">virksomheder</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="aktiv" msd="ANP[CN]PU=[DI]U">aktive</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="miljømæssig" msd="ANP[CN]SU=DU">miljømæssige</W>
-<W lemma="område" msd="NCNSU==I">område</W>
+<W lemma="miljÃ¸mÃ¦ssig" msd="ANP[CN]SU=DU">miljÃ¸mÃ¦ssige</W>
+<W lemma="omrÃ¥de" msd="NCNSU==I">omrÃ¥de</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="ABS" msd="NP--U==-">ABS</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="første" msd="ANP[CN][SP]U=[DI]U">første</W>
+<W lemma="fÃ¸rste" msd="ANP[CN][SP]U=[DI]U">fÃ¸rste</W>
 <W lemma="bank" msd="NCCSU==I">bank</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="gå" msd="VADA=----A-">gik</W>
+<W lemma="gÃ¥" msd="VADA=----A-">gik</W>
 <W lemma="ind" msd="RGU">ind</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="direkte" msd="ANP[CN][SP]U=[DI]U">direkte</W>
 <W lemma="finansiering" msd="NCCSU==I">finansiering</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="område" msd="NCNSU==D">området</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="omrÃ¥de" msd="NCNSU==D">omrÃ¥det</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

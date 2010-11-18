@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Lavenergi-pærer sparer'</title>
+        <title>Tagged sample of: 'Lavenergi-pÃ¦rer sparer'</title>
       </titleStmt>
       <extent words=176>176 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Lavenergi-pærer sparer</title>
+            <title>Lavenergi-pÃ¦rer sparer</title>
             <author>UNKNOWN</author>
           </analytic>
           <monogr>
@@ -42,15 +42,15 @@
 <p>
 <s>
 <W lemma="en" msd="PI-CSU--U">En</W>
-<W lemma="undersøgelse" msd="NCCSU==I">undersøgelse</W>
+<W lemma="undersÃ¸gelse" msd="NCCSU==I">undersÃ¸gelse</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="energiministerium" msd="NCNSU==D">Energiministeriet</W>
 <W lemma="vise" msd="VADR=----A-">viser</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
-<W lemma="lavenergipære" msd="NCCPU==D">lavenergipærerne</W>
+<W lemma="lavenergipÃ¦re" msd="NCCPU==D">lavenergipÃ¦rerne</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="sænke" msd="VAF-=----A-">sænke</W>
+<W lemma="sÃ¦nke" msd="VAF-=----A-">sÃ¦nke</W>
 <W lemma="Danmark" msd="NP--G==-">Danmarks</W>
 <W lemma="samle" msd="VAPA=S[CN]DA-U">samlede</W>
 <W lemma="elforbrug" msd="NCNSU==I">elforbrug</W>
@@ -68,9 +68,9 @@
 <W lemma="nogen" msd="PI-NSU--U">Noget</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="diskussion" msd="NCCSU==D">diskussionen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="gå" msd="VAPA=S[CN]I[ARU]-U">gået</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="gÃ¥" msd="VAPA=S[CN]I[ARU]-U">gÃ¥et</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="elbesparelse" msd="NCCSU==D">elbesparelsen</W>
@@ -81,7 +81,7 @@
 <W lemma="miste" msd="VADR=----A-">mister</W>
 <W lemma="gratisvarme" msd="NCCSU==D">grativarmen</W>
 <W lemma="fra" msd="SP">fra</W>
-<W lemma="glødepære" msd="NCCPU==D">glødepærerne</W>
+<W lemma="glÃ¸depÃ¦re" msd="NCCPU==D">glÃ¸depÃ¦rerne</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="derfor" msd="RGU">derfor</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
@@ -91,8 +91,8 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="først" msd="RGU">Først</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="fÃ¸rst" msd="RGU">FÃ¸rst</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="aflive" msd="VAF-=----A-">aflive</W>
 <W lemma="begreb" msd="NCNSU==D">begrebet</W>
@@ -101,13 +101,13 @@
 </s>
 <s>
 <W lemma="ingen" msd="PI-NSU--U">Intet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="gratis" msd="ANP[CN][SP]U=[DI]U">gratis</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="idet" msd="CS">idet</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="købe" msd="VAPA=S[CN]I[ARU]-U">købt</W>
+<W lemma="kÃ¸be" msd="VAPA=S[CN]I[ARU]-U">kÃ¸bt</W>
 <W lemma="varme" msd="NCCSU==D">varmen</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="omkring" msd="SP">omkring</W>
@@ -124,7 +124,7 @@
 <W lemma="den" msd="PP3CSU-NU">den</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="sin" msd="PO3NSUSYU">sit</W>
 <W lemma="varmeapparat" msd="NCNSU==I">varmeapparat</W>
 <W lemma="." msd="XP">.</W>
@@ -138,7 +138,7 @@
 <W lemma="koste" msd="VADR=----A-">koster</W>
 <W lemma="cirka" msd="RGU">ca.</W>
 <W lemma="50" msd="AC---U=--">50</W>
-<W lemma="øre" msd="NCCPU==I">øre</W>
+<W lemma="Ã¸re" msd="NCCPU==I">Ã¸re</W>
 <W lemma="per" msd="SP">pr.</W>
 <W lemma="kilowatt-time" msd="NCCSU==I">kilowatt-time</W>
 <W lemma="." msd="XP">.</W>
@@ -151,24 +151,24 @@
 <W lemma="af" msd="SP">af</W>
 <W lemma="varme" msd="NCCSU==D">varmen</W>
 <W lemma="fra" msd="SP">fra</W>
-<W lemma="pære" msd="NCCPU==D">pærerne</W>
+<W lemma="pÃ¦re" msd="NCCPU==D">pÃ¦rerne</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="komme" msd="VADR=----A-">kommer</W>
 <W lemma="rum" msd="NCNSU==D">rummet</W>
 <W lemma="til_gode" msd="RGU">til_gode</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="afhænge" msd="VADR=----A-">afhænger</W>
+<W lemma="afhÃ¦nge" msd="VADR=----A-">afhÃ¦nger</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="om" msd="CS">om</W>
 <W lemma="lys" msd="NCNSU==D">lyset</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="tænde" msd="VAPA=S[CN]I[ARU]-U">tændt</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="tÃ¦nde" msd="VAPA=S[CN]I[ARU]-U">tÃ¦ndt</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="varmeapparat" msd="NCNSU==D">varmeapparatet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="tænde" msd="VAPA=S[CN]I[ARU]-U">tændt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="tÃ¦nde" msd="VAPA=S[CN]I[ARU]-U">tÃ¦ndt</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -185,10 +185,10 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="varme" msd="NCCSU==D">varmen</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="lys" msd="NCNSU==D">lyset</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="tænde" msd="VAPA=S[CN]I[ARU]-U">tændt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="tÃ¦nde" msd="VAPA=S[CN]I[ARU]-U">tÃ¦ndt</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -226,7 +226,7 @@
 <W lemma="procent" msd="NCCPU==I">procent</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="elbesparelse" msd="NCCSU==D">elbesparelsen</W>
-<W lemma="tilføre" msd="VAF-=----P-">tilføres</W>
+<W lemma="tilfÃ¸re" msd="VAF-=----P-">tilfÃ¸res</W>
 <W lemma="ekstra" msd="ANP---=-R">ekstra</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="varme" msd="NCCSU==I">varme</W>
@@ -236,7 +236,7 @@
 </s>
 <s>
 <W lemma="her" msd="RGU">Her</W>
-<W lemma="forudsætte" msd="VADA=----A-">forudsatte</W>
+<W lemma="forudsÃ¦tte" msd="VADA=----A-">forudsatte</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
@@ -247,10 +247,10 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="lys" msd="NCNSU==D">lyset</W>
-<W lemma="være" msd="VADA=----A-">var</W>
-<W lemma="tænde" msd="VAPA=S[CN]I[ARU]-U">tændt</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
+<W lemma="tÃ¦nde" msd="VAPA=S[CN]I[ARU]-U">tÃ¦ndt</W>
 <W lemma="dobbelt" msd="ANP---=-R">dobbelt</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="lang" msd="ANPCSU=IU">lang</W>
 <W lemma="tid" msd="NCCSU==I">tid</W>
 <W lemma="om" msd="SP">om</W>
@@ -263,7 +263,7 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="kun" msd="RGU">kun</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="lys" msd="NCNSU==I">lys</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="opvarme" msd="VAPA=P[CN][DI]A-U">opvarmede</W>

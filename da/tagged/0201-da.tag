@@ -19,7 +19,7 @@
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
-              <publisher>Månedsmagasinet BILEN</publisher>
+              <publisher>MÃ¥nedsmagasinet BILEN</publisher>
               <date>1992-10</date>
             </imprint>
           </monogr>
@@ -44,20 +44,20 @@
 <W lemma="have" msd="VADR=----A-">Har</W>
 <W lemma="du" msd="PP2CSN-NU">du</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="spørgsmål" msd="NCNSU==I">spørgsmål</W>
+<W lemma="spÃ¸rgsmÃ¥l" msd="NCNSU==I">spÃ¸rgsmÃ¥l</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="trænge" msd="VADR=----A-">trænger</W>
+<W lemma="trÃ¦nge" msd="VADR=----A-">trÃ¦nger</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
-<W lemma="på" msd="RGU">på</W>
+<W lemma="pÃ¥" msd="RGU">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
-<W lemma="åben" msd="ANP---=-R">åbent</W>
+<W lemma="Ã¥ben" msd="ANP---=-R">Ã¥bent</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="telefonspørgsmål" msd="NCNPU==I">telefonspørgsmål</W>
+<W lemma="telefonspÃ¸rgsmÃ¥l" msd="NCNPU==I">telefonspÃ¸rgsmÃ¥l</W>
 <W lemma="hver" msd="PI-CSU--U">hver</W>
 <W lemma="torsdag" msd="NCCSU==I">torsdag</W>
 <W lemma="mellem" msd="SP">mellem</W>
@@ -67,17 +67,17 @@
 </s>
 <s>
 <W lemma="ringe" msd="VAM-=------">Ring</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="telefon" msd="NCCSU==I">tlf.</W>
 <W lemma="31" msd="AC---U=--">31</W>
 <W lemma="29" msd="AC---U=--">29</W>
 <W lemma="55" msd="AC---U=--">55</W>
 <W lemma="00" msd="AC---U=--">00</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="spørge" msd="VAM-=------">spørg</W>
+<W lemma="spÃ¸rge" msd="VAM-=------">spÃ¸rg</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="bil" msd="NCCSG==D">BILENs</W>
-<W lemma="læser-telefon" msd="NCCSU==I">læser-telefon</W>
+<W lemma="lÃ¦ser-telefon" msd="NCCSU==I">lÃ¦ser-telefon</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -86,12 +86,12 @@
 <p>
 <s>
 <W lemma="her" msd="RGU">Her</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="læser" msd="NCCPG==D">læsernes</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="lÃ¦ser" msd="NCCPG==D">lÃ¦sernes</W>
 <W lemma="egen" msd="ANPCSU=[DI]U">egen</W>
 <W lemma="side" msd="NCCSU==I">side</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="spørgsmål" msd="NCNPU==I">spørgsmål</W>
+<W lemma="spÃ¸rgsmÃ¥l" msd="NCNPU==I">spÃ¸rgsmÃ¥l</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="bil" msd="NCCPU==I">biler</W>
 <W lemma="og" msd="CC">og</W>
@@ -107,7 +107,7 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="give" msd="VADR=----A-">giver</W>
-<W lemma="spørgsmål" msd="NCNSU==D">spørgsmålet</W>
+<W lemma="spÃ¸rgsmÃ¥l" msd="NCNSU==D">spÃ¸rgsmÃ¥let</W>
 <W lemma="videre" msd="RGU">videre</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="ekspert" msd="NCCSU==D">eksperten</W>
@@ -116,7 +116,7 @@
 <s>
 <W lemma="skrive" msd="VAM-=------">Skriv</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="månedsmagasin" msd="NCNSU==D">Månedsmagasinet</W>
+<W lemma="mÃ¥nedsmagasin" msd="NCNSU==D">MÃ¥nedsmagasinet</W>
 <W lemma="bil" msd="NCCSU==D">BILEN</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -127,9 +127,9 @@
 <W lemma="130" msd="AC---U=--">130</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="2100" msd="AC---U=--">2100</W>
-<W lemma="København" msd="NP--U==-">København</W>
-<W lemma="Ø." msd="NP--U==-">Ø.</W>
-<W lemma="vedlægge" msd="VAM-=------">Vedlæg</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
+<W lemma="Ã˜." msd="NP--U==-">Ã˜.</W>
+<W lemma="vedlÃ¦gge" msd="VAM-=------">VedlÃ¦g</W>
 <W lemma="frankere" msd="VAPA=S[CN]IA-U">frankeret</W>
 <W lemma="svarkuvert" msd="NCCSU==I">svarkuvert</W>
 <W lemma="." msd="XP">.</W>
@@ -162,10 +162,10 @@
 <W lemma="Rover" msd="NP--U==-">Rover</W>
 <W lemma="3500" msd="AC---U=--">3500</W>
 <W lemma="Vitesse" msd="NP--U==-">Vitesse</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="frygtindgydende" msd="ANP[CN][SP]U=[DI]U">frygtindgydende</W>
-<W lemma="våben" msd="NCNSU==I">våben</W>
+<W lemma="vÃ¥ben" msd="NCNSU==I">vÃ¥ben</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="standardvogns-klasse" msd="NCCPU==D">standardvogns-klasserne</W>
 <W lemma="i" msd="SP">i</W>
@@ -176,7 +176,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="selv_om" msd="CS">selv_om</W>
 <W lemma="V8-motor" msd="NCCSU==D">V8-motoren</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="1950'er" msd="NCCPU==D">1950'erne</W>
 <W lemma="." msd="XP">.</W>
@@ -187,7 +187,7 @@
 <p>
 <s>
 <hi>
-<W lemma="være" msd="VADR=----A-">Er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">Er</W>
 <W lemma="Rover" msd="NP--G==-">Rover's</W>
 <W lemma="bermte" msd="XX">bermte</W>
 <W lemma="V8'er" msd="NCCSU==I">V8'er</W>
@@ -201,12 +201,12 @@
 <p>
 <s>
 <W lemma="jeg" msd="PP1CSN-NU">Jeg</W>
-<W lemma="køre" msd="VADR=----A-">kører</W>
+<W lemma="kÃ¸re" msd="VADR=----A-">kÃ¸rer</W>
 <W lemma="Rover" msd="NP--U==-">Rover</W>
 <W lemma="3500" msd="AC---U=--">3500</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="især" msd="RGU">især</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="isÃ¦r" msd="RGU">isÃ¦r</W>
 <W lemma="begejstret" msd="ANP[CN]SU=IU">begejstret</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
@@ -216,7 +216,7 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="glæde" msd="VADR=----A-">glæder</W>
+<W lemma="glÃ¦de" msd="VADR=----A-">glÃ¦der</W>
 <W lemma="jeg" msd="PP1CSU-[YN]U">mig</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hver" msd="PI-CSU--U">hver</W>
@@ -224,7 +224,7 @@
 <W lemma="jeg" msd="PP1CSN-NU">jeg</W>
 <W lemma="se" msd="VADR=----A-">ser</W>
 <W lemma="den" msd="PP3CSU-NU">den</W>
-<W lemma="optræde" msd="VAF-=----A-">optræde</W>
+<W lemma="optrÃ¦de" msd="VAF-=----A-">optrÃ¦de</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
 <W lemma="bil" msd="NCCPU==I">biler</W>
@@ -249,7 +249,7 @@
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="virkelighed" msd="NCCSU==D">virkeligheden</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="Buick-motor" msd="NCCSU==I">Buick-motor</W>
 <W lemma="." msd="XP">.</W>
@@ -257,7 +257,7 @@
 <s>
 <W lemma="kunne" msd="VADR=----A-">Kan</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="rigtig" msd="ANPNSU=IU">rigtigt</W>
 <W lemma="?" msd="XP">?</W>
 </s>

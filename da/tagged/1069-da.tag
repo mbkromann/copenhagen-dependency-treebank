@@ -44,13 +44,13 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="Raymonda" msd="NP--U==-">Raymonda</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="fransk-russisk" msd="ANP[CN]SU=DU">fransk-russiske</W>
 <W lemma="Marius" msd="NP--U==-">Marius</W>
 <W lemma="Petipas" msd="NP--U==-">Petipas</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
-<W lemma="storværk" msd="NCNSU==I">storværk</W>
+<W lemma="storvÃ¦rk" msd="NCNSU==I">storvÃ¦rk</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="1898" msd="AC---U=--">1898</W>
 <W lemma="i" msd="SP">i</W>
@@ -63,10 +63,10 @@
 <W lemma="Ballet" msd="NP--U==-">Ballet</W>
 <W lemma="Theatre" msd="NP--G==-">Theatre's</W>
 <W lemma="udgave" msd="NCCSU==I">udgave</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="koreografere" msd="VAPA=S[CN]I[ARU]-U">koreograferet</W>
 <W lemma="sidste" msd="ANP[CN][SP]U=[DI]U">sidste</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="Fernando" msd="NP--U==-">Fernando</W>
 <W lemma="Bujones" msd="NP--U==-">Bujones</W>
@@ -74,8 +74,8 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
-<W lemma="år" msd="NCNPU==I">år</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="kompagni" msd="NCNSG==D">kompagniets</W>
 <W lemma="topsolist" msd="NCCSU==I">topsolist</W>
 <W lemma="og" msd="CC">og</W>
@@ -100,7 +100,7 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="trinopvisning" msd="NCCSU==I">trinopvisning</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="bravour" msd="NCCSU==I">bravour</W>
@@ -111,7 +111,7 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="indre" msd="ANP[CN][SP]U=[DI]U">indre</W>
-<W lemma="åndedrag" msd="NCNSU==I">åndedrag</W>
+<W lemma="Ã¥ndedrag" msd="NCNSU==I">Ã¥ndedrag</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
@@ -124,7 +124,7 @@
 <s>
 <W lemma="klassisk" msd="ANP[CN]PU=[DI]U">Klassiske</W>
 <W lemma="balletelsker" msd="NCCPU==I">balletelskere</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="imidlertid" msd="RGU">imidlertid</W>
 <W lemma="trin" msd="NCNPU==I">trin</W>
 <W lemma="for" msd="SP">for</W>
@@ -138,7 +138,7 @@
 <W lemma="teater" msd="NCNSU==I">Teater</W>
 <W lemma="fortsat" msd="RGU">fortsat</W>
 <W lemma="byde" msd="VAF-=----A-">byde</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="dans" msd="NCCSU==I">dans</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="anden" msd="PI-CSU--U">anden</W>
@@ -146,14 +146,14 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="august" msd="NCCSU==I">august</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="hel" msd="ANP---=-R">helt</W>
-<W lemma="nødvendig" msd="ANP---=-R">nødvendigt</W>
+<W lemma="nÃ¸dvendig" msd="ANP---=-R">nÃ¸dvendigt</W>
 <W lemma="investere" msd="VAF-=----A-">investere</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="airconditionanlæg" msd="NCNSU==I">airconditionanlæg</W>
+<W lemma="airconditionanlÃ¦g" msd="NCNSU==I">airconditionanlÃ¦g</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -225,7 +225,7 @@
 <s>
 <W lemma="musik" msd="NCCSU==I">Musik</W>
 <W lemma=":" msd="XP">:</W>
-<W lemma="Frédéric" msd="NP--U==-">Frédéric</W>
+<W lemma="FrÃ©dÃ©ric" msd="NP--U==-">FrÃ©dÃ©ric</W>
 <W lemma="Chopin" msd="NP--U==-">Chopin</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -274,7 +274,7 @@
 </s>
 <s>
 <W lemma="ABT" msd="NP--U==-">ABT</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">Det</W>
 <W lemma="kongelig" msd="ANP[CN]SU=DU">Kongelige</W>
 <W lemma="teater" msd="NCNSG==I">Teaters</W>

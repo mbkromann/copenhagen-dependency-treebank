@@ -47,25 +47,25 @@
 <p>
 <s>
 <W lemma="gedigen" msd="ANPNSU=IU">Gedigent</W>
-<W lemma="børnetøj" msd="NCNSU==I">børnetøj</W>
+<W lemma="bÃ¸rnetÃ¸j" msd="NCNSU==I">bÃ¸rnetÃ¸j</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="vovet" msd="ANP[CN]PU=[DI]U">vovede</W>
 <W lemma="selskabskjole" msd="NCCPU==I">selskabskjoler</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="farvestrålende" msd="ANP[CN][SP]U=[DI]U">farvestrålende</W>
-<W lemma="tøj" msd="NCNSU==I">tøj</W>
+<W lemma="farvestrÃ¥lende" msd="ANP[CN][SP]U=[DI]U">farvestrÃ¥lende</W>
+<W lemma="tÃ¸j" msd="NCNSU==I">tÃ¸j</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="triatlet" msd="NCCPU==I">triatleter</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="gangsterinspireret" msd="ANP[CN]SU=IU">gangsterinspireret</W>
-<W lemma="herretøj" msd="NCNSU==I">herretøj</W>
+<W lemma="herretÃ¸j" msd="NCNSU==I">herretÃ¸j</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="rokoko" msd="NCCSU==I">rokoko</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="punkerinspireret" msd="ANP[CN]SU=IU">punkerinspireret</W>
-<W lemma="tøj" msd="NCNSU==I">tøj</W>
+<W lemma="tÃ¸j" msd="NCNSU==I">tÃ¸j</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="læder" msd="NCNSU==I">læder</W>
+<W lemma="lÃ¦der" msd="NCNSU==I">lÃ¦der</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="ruskind" msd="NCNSU==I">ruskind</W>
 <W lemma="," msd="XP">,</W>
@@ -78,7 +78,7 @@
 <W lemma="jo" msd="I=">Jo</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="der" msd="RGU">der</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="hel" msd="ANP[CN]SU=DU">hele</W>
@@ -87,9 +87,9 @@
 <W lemma="19" msd="AC---U=--">19</W>
 <W lemma="elev" msd="NCCPU==I">elever</W>
 <W lemma="fra" msd="SP">fra</W>
-<W lemma="beklædningslinie" msd="NCCSU==D">beklædningslinien</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="kunsthåndværkerskole" msd="NCCSU==D">Kunsthåndværkerskolen</W>
+<W lemma="beklÃ¦dningslinie" msd="NCCSU==D">beklÃ¦dningslinien</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="kunsthÃ¥ndvÃ¦rkerskole" msd="NCCSU==D">KunsthÃ¥ndvÃ¦rkerskolen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Kolding" msd="NP--U==-">Kolding</W>
 <W lemma="vise" msd="VADA=----A-">viste</W>
@@ -98,7 +98,7 @@
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="hel" msd="ANP[CN]PU=[DI]U">hele</W>
 <W lemma="fem" msd="AC---U=--">fem</W>
-<W lemma="velbesøgt" msd="ANP[CN]PU=[DI]U">velbesøgte</W>
+<W lemma="velbesÃ¸gt" msd="ANP[CN]PU=[DI]U">velbesÃ¸gte</W>
 <W lemma="modeshow" msd="NCNPU==I">modeshows</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -106,7 +106,7 @@
 <W lemma="uldhal" msd="NCCSU==I">uldhal</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="klædefabrik" msd="NCCSU==I">klædefabrik</W>
+<W lemma="klÃ¦defabrik" msd="NCCSU==I">klÃ¦defabrik</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Kolding" msd="NP--U==-">Kolding</W>
 <W lemma="." msd="XP">.</W>
@@ -118,17 +118,17 @@
 <W lemma="da" msd="CS">Da</W>
 <W lemma="jeg" msd="PP1CSN-NU">jeg</W>
 <W lemma="starte" msd="VADA=----A-">startede</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="skole" msd="NCCSU==D">skolen</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="fire" msd="AC---U=--">fire</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="siden" msd="RGU">siden</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
 <W lemma="jeg" msd="PP1CSN-NU">jeg</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="drøm" msd="NCCSU==I">drøm</W>
+<W lemma="drÃ¸m" msd="NCCSU==I">drÃ¸m</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
@@ -148,7 +148,7 @@
 <W lemma="finde" msd="VAPA=S[CN]I[ARU]-U">fundet</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="hel" msd="ANP---=-R">helt</W>
 <W lemma="forkert" msd="ANP[CN]SU=IU">forkert</W>
 <W lemma="." msd="XP">.</W>
@@ -166,13 +166,13 @@
 <W lemma="fange" msd="VAF-=----P-">fanges</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="forskellig" msd="ANP[CN]PU=[DI]U">forskellige</W>
-<W lemma="strømning" msd="NCCPU==I">strømninger</W>
+<W lemma="strÃ¸mning" msd="NCCPU==I">strÃ¸mninger</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="tid" msd="NCCSU==D">tiden</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
-<W lemma="28-årig" msd="ANP[CN]SU=DU">28-årige</W>
+<W lemma="28-Ã¥rig" msd="ANP[CN]SU=DU">28-Ã¥rige</W>
 <W lemma="Birgitte" msd="NP--U==-">Birgitte</W>
 <W lemma="Holst" msd="NP--U==-">Holst</W>
 <W lemma="," msd="XP">,</W>
@@ -188,10 +188,10 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="og" msd="CC">Og</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
 <W lemma="forskellig" msd="ANP[CN]PU=[DI]U">forskellige</W>
-<W lemma="strømning" msd="NCCPU==I">strømninger</W>
+<W lemma="strÃ¸mning" msd="NCCPU==I">strÃ¸mninger</W>
 <W lemma="for_tiden" msd="RGU">for_tiden</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
@@ -202,7 +202,7 @@
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="bruge" msd="VAF-=----P-">bruges</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="modetøj" msd="NCNSU==D">modetøjet</W>
+<W lemma="modetÃ¸j" msd="NCNSU==D">modetÃ¸jet</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -210,7 +210,7 @@
 <W lemma="blive" msd="VADR=----A-">bliver</W>
 <W lemma="vores" msd="PO1[CN][SP]UPNU">vores</W>
 <W lemma="kollektion" msd="NCCPU==I">kollektioner</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="forskellig" msd="ANP[CN]PU=[DI]U">forskellige</W>
 <W lemma="." msd="XP">.</W>
 <W lemma="&quot;" msd="XP">"</W>
@@ -226,7 +226,7 @@
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="inspirere" msd="VAF-=----A-">inspirere</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="punker-bevægelse" msd="NCCSU==D">punker-bevægelsen</W>
+<W lemma="punker-bevÃ¦gelse" msd="NCCSU==D">punker-bevÃ¦gelsen</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="70'er" msd="NCCPU==D">70'erne</W>
 <W lemma="og" msd="CC">og</W>
@@ -236,7 +236,7 @@
 <W lemma="kollektion" msd="NCCSU==I">kollektion</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="bære" msd="VADR=----A-">bærer</W>
+<W lemma="bÃ¦re" msd="VADR=----A-">bÃ¦rer</W>
 <W lemma="titel" msd="NCCSU==D">titlen</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="&quot;" msd="XP">"</W>

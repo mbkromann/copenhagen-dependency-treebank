@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: '. . . og dansen den går'</title>
+        <title>Tagged sample of: '. . . og dansen den gÃ¥r'</title>
       </titleStmt>
       <extent words=157>157 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>. . . og dansen den går</title>
+            <title>. . . og dansen den gÃ¥r</title>
             <author gender=f born=1960>Duun, Rie</author>
           </analytic>
           <monogr>
@@ -47,7 +47,7 @@
 <W lemma="hendes" msd="PO3[CN][SP]USNU">hendes</W>
 <W lemma="arabisk" msd="ANP[CN]SU=DU">arabiske</W>
 <W lemma="ballet" msd="NCCSU==I">ballet</W>
-<W lemma="optræde" msd="VADR=----A-">optræder</W>
+<W lemma="optrÃ¦de" msd="VADR=----A-">optrÃ¦der</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="30." msd="AO---U=--">30.</W>
 <W lemma="juni" msd="NCCSU==I">juni</W>
@@ -63,14 +63,14 @@
 <p>
 <s>
 <W lemma="i_aften" msd="RGU">I_aften</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="dog" msd="RGU">dog</W>
 <W lemma="stadig" msd="RGU">stadig</W>
 <W lemma="lang" msd="ANP---=-R">langt</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="egyptens" msd="XX">egyptens</W>
-<W lemma="smægtende" msd="ANP[CN][SP]U=[DI]U">smægtende</W>
+<W lemma="smÃ¦gtende" msd="ANP[CN][SP]U=[DI]U">smÃ¦gtende</W>
 <W lemma="rytme" msd="NCCPU==I">rytmer</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="kanontelt" msd="NCNSU==D">Kanonteltet</W>
@@ -78,10 +78,10 @@
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="finsk" msd="ANP[CN]SU=DU">finske</W>
 <W lemma="Minimi" msd="NP--U==-">Minimi</W>
-<W lemma="optræde" msd="VADR=----A-">optræder</W>
+<W lemma="optrÃ¦de" msd="VADR=----A-">optrÃ¦der</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="sær" msd="ANPCSU=IU">sær</W>
+<W lemma="sÃ¦r" msd="ANPCSU=IU">sÃ¦r</W>
 <W lemma="forestilling" msd="NCCSU==I">forestilling</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="tre" msd="AC---U=--">tre</W>
@@ -93,20 +93,20 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="tage" msd="VADR=----A-">tager</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="kærlig" msd="ANP---=-R">kærligt</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="kÃ¦rlig" msd="ANP---=-R">kÃ¦rligt</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
 <W lemma="ung" msd="ANP[CN]SU=DU">unge</W>
 <W lemma="mandlig" msd="ANP[CN]SU=DU">mandlige</W>
-<W lemma="gæst" msd="NCCSU==I">gæst</W>
+<W lemma="gÃ¦st" msd="NCCSU==I">gÃ¦st</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="ende" msd="VADR=----A-">ender</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="afsjælet" msd="ANP[CN]SU=IU">afsjælet</W>
+<W lemma="afsjÃ¦let" msd="ANP[CN]SU=IU">afsjÃ¦let</W>
 <W lemma="legeme" msd="NCNSU==I">legeme</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
@@ -118,7 +118,7 @@
 <s>
 <W lemma="finsk" msd="ANP[CN]SU=DU">Finske</W>
 <W lemma="Minimi" msd="NP--U==-">Minimi</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="dans" msd="NCCSU==D">dansen</W>
 <W lemma="," msd="XP">,</W>
@@ -126,7 +126,7 @@
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="ung" msd="ANP[CN]PU=[DI]U">unge</W>
 <W lemma="vild" msd="ANP[CN]PU=[DI]U">vilde</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="malerkunst" msd="NCCSU==D">malerkunsten</W>
 <W lemma="," msd="XP">,</W>
@@ -139,13 +139,13 @@
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="mangeartet" msd="ANP[CN]PU=[DI]U">mangeartede</W>
-<W lemma="vækst" msd="NCCPU==I">vækster</W>
+<W lemma="vÃ¦kst" msd="NCCPU==I">vÃ¦kster</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="Minimi" msd="NP--G==-">Minimis</W>
 <W lemma="danseteater" msd="NCNSU==I">danseteater</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="grotesk" msd="ANP[CN]SU=IU">grotesk</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="overrumple" msd="VAPR=[SP][CN][DI][ARU]-U">overrumplende</W>
@@ -160,7 +160,7 @@
 <W lemma="sikker" msd="ANPCSU=IU">sikker</W>
 <W lemma="ude" msd="RGU">ude</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="mørke" msd="NCNSU==D">mørket</W>
+<W lemma="mÃ¸rke" msd="NCNSU==D">mÃ¸rket</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
@@ -169,9 +169,9 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="fotografere" msd="VAPA=S[CN]I[ARU]-U">fotograferet</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
-<W lemma="måde" msd="NCCPU==I">måder</W>
+<W lemma="mÃ¥de" msd="NCCPU==I">mÃ¥der</W>
 <W lemma="antaste" msd="VAPA=S[CN]I[ARU]-U">antastet</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
@@ -200,18 +200,18 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="kanontelt" msd="NCNSU==D">Kanonteltet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ramme" msd="NCCSU==D">rammen</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="tre" msd="AC---U=--">tre</W>
 <W lemma="forestilliger" msd="XX">forestilliger</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="en" msd="PI-CSU--U">én</W>
+<W lemma="en" msd="PI-CSU--U">Ã©n</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="idet" msd="CS">idet</W>
 <W lemma="finne" msd="NCCPU==D">finnerne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="sætte" msd="VAPA=S[CN]I[ARU]-U">sat</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="sÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">sat</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="selskab" msd="NCNSU==I">selskab</W>
 <W lemma="med" msd="SP">med</W>

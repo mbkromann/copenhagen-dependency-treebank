@@ -236,7 +236,7 @@
 <W gloss="educational_assistance" lemma="uddannelsesstøtte" morph="støtte -[uddannelse]s/dobj.patient uddanne +else/DERvn&3a;core" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">uddannelsesstøtte</W>
 <W gloss="for" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">én</W>
-<W gloss="month" lemma="måned" morph="si_è_verificato" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">måned</W>
+<W gloss="month" lemma="måned" morph="måned" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">måned</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 </p>
@@ -244,7 +244,3 @@
 </body>
 </text>
 </tei.2>
-<W in="" out="">
-</W>
-<W in="" out="1:+CONJ&3a;add/(e)">si_è_aperta</W>
-<W in="-1:+CONJ&3a;add/(e)" out="">si_è_verificato</W>

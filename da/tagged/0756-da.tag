@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Irere til London for at få abort'</title>
+        <title>Tagged sample of: 'Irere til London for at fÃ¥ abort'</title>
       </titleStmt>
       <extent words=156>156 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Irere til London for at få abort</title>
+            <title>Irere til London for at fÃ¥ abort</title>
             <author>UNKNOWN</author>
           </analytic>
           <monogr>
@@ -44,9 +44,9 @@
 <W lemma="sag" msd="NCCSU==D">Sagen</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="igen" msd="RGU">igen</W>
-<W lemma="sætte" msd="VAPA=S[CN]I[ARU]-U">sat</W>
+<W lemma="sÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">sat</W>
 <W lemma="fokus" msd="NC[CN]SU==I">fokus</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="hvilken" msd="PT-NSU--U">hvilket</W>
@@ -71,7 +71,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="råd" msd="NCNSU==I">råd</W>
+<W lemma="rÃ¥d" msd="NCNSU==I">rÃ¥d</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="foretage" msd="VAF-=----A-">foretage</W>
@@ -114,13 +114,13 @@
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="tusinde" msd="NCNPU==I">tusinder</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="europæisk" msd="ANP[CN]PU=[DI]U">europæiske</W>
+<W lemma="europÃ¦isk" msd="ANP[CN]PU=[DI]U">europÃ¦iske</W>
 <W lemma="kvinde" msd="NCCPU==I">kvinder</W>
-<W lemma="få" msd="VAPA=S[CN]I[ARU]-U">fået</W>
+<W lemma="fÃ¥" msd="VAPA=S[CN]I[ARU]-U">fÃ¥et</W>
 <W lemma="foretage" msd="VAPA=S[CN]I[ARU]-U">foretaget</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="abort" msd="NCCSU==I">abort</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="klinik" msd="NCCPU==I">klinikker</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Storbritannien" msd="NP--U==-">Storbritannien</W>
@@ -132,15 +132,15 @@
 <W lemma="i" msd="SP">I</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="sen" msd="ANC[CN][SP]U=[DI]U">senere</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
-<W lemma="europæisk" msd="ANP[CN]PU=[DI]U">europæiske</W>
+<W lemma="europÃ¦isk" msd="ANP[CN]PU=[DI]U">europÃ¦iske</W>
 <W lemma="land" msd="NCNPU==I">lande</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="heriblandt" msd="RGU">heriblandt</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="katolsk" msd="ANP[CN]SU=DU">katolske</W>
 <W lemma="Spanien" msd="NP--U==-">Spanien</W>
@@ -153,13 +153,13 @@
 <W lemma="abortlovgivning" msd="NCCSU==D">abortlovgivningen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="tilstrømning" msd="NCCSU==D">tilstrømningen</W>
+<W lemma="tilstrÃ¸mning" msd="NCCSU==D">tilstrÃ¸mningen</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="ikke-britisk" msd="ANP[CN]PU=[DI]U">ikke-britiske</W>
 <W lemma="patient" msd="NCCPU==I">patienter</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="klinik" msd="NCCPU==D">klinikkerne</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="betydelig" msd="ANP---=-R">betydeligt</W>
 <W lemma="falde" msd="VAPR=[SP][CN][DI][ARU]-U">faldende</W>
 <W lemma=" - " msd="XP"> - </W>
@@ -188,17 +188,17 @@
 <W lemma="Axby" msd="NP--U==-">Axby</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="direktør" msd="NCCSU==I">direktør</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="direktÃ¸r" msd="NCCSU==I">direktÃ¸r</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="række" msd="NCCSU==I">række</W>
+<W lemma="rÃ¦kke" msd="NCCSU==I">rÃ¦kke</W>
 <W lemma="britisk" msd="ANP[CN]PU=[DI]U">britiske</W>
 <W lemma="klinik" msd="NCCPU==I">klinikker</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="sundhed" msd="NCCSU==I">sundhed</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="fødselskontrol" msd="NCCSU==I">fødselskontrol</W>
+<W lemma="fÃ¸dselskontrol" msd="NCCSU==I">fÃ¸dselskontrol</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="Marie" msd="NP--U==-">Marie</W>
 <W lemma="Stopes" msd="NP--U==-">Stopes</W>
@@ -226,14 +226,14 @@
 <W lemma="men" msd="CC">men</W>
 <W lemma="Irland" msd="NP--U==-">Irland</W>
 <W lemma="give" msd="VADR=----A-">giver</W>
-<W lemma="nær" msd="ANS---=-R">nærmest</W>
+<W lemma="nÃ¦r" msd="ANS---=-R">nÃ¦rmest</W>
 <W lemma="indtryk" msd="NCNSU==I">indtryk</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
-<W lemma="bevæge" msd="VAPA=S[CN]I[ARU]-U">bevæget</W>
+<W lemma="bevÃ¦ge" msd="VAPA=S[CN]I[ARU]-U">bevÃ¦get</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
-<W lemma="baglæns" msd="ANP---=-R">baglæns</W>
+<W lemma="baglÃ¦ns" msd="ANP---=-R">baglÃ¦ns</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>

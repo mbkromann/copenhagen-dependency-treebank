@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Endnu et slagsmål'</title>
+        <title>Tagged sample of: 'Endnu et slagsmÃ¥l'</title>
       </titleStmt>
       <extent words=171>171 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Endnu et slagsmål</title>
+            <title>Endnu et slagsmÃ¥l</title>
             <author gender=f born=1956>Helleberg, Maria</author>
           </analytic>
           <monogr>
@@ -54,7 +54,7 @@
 <W lemma="formand" msd="NCCSU==I">formand</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="skønlitterær" msd="ANP[CN]SU=DU">skønlitterære</W>
+<W lemma="skÃ¸nlitterÃ¦r" msd="ANP[CN]SU=DU">skÃ¸nlitterÃ¦re</W>
 <W lemma="styrelse" msd="NCCSU==I">styrelse</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="dansk" msd="ANP[CN]SU=IU">Dansk</W>
@@ -66,7 +66,7 @@
 <W lemma="gud" msd="NCCSU==I">GUD</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="nu" msd="RGU">NU</W>
-<W lemma="skændes" msd="VEDR=----A-">skændes</W>
+<W lemma="skÃ¦ndes" msd="VEDR=----A-">skÃ¦ndes</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="igen" msd="RGU">igen</W>
 <W lemma="," msd="XP">,</W>
@@ -76,11 +76,11 @@
 <s>
 <W lemma="endnu" msd="RGU">Endnu</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="opgør" msd="NCNSU==I">opgør</W>
+<W lemma="opgÃ¸r" msd="NCNSU==I">opgÃ¸r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="endnu" msd="RGU">endnu</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="slagsmål" msd="NCNSU==I">slagsmål</W>
+<W lemma="slagsmÃ¥l" msd="NCNSU==I">slagsmÃ¥l</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -109,11 +109,11 @@
 <W lemma="da" msd="CS">Da</W>
 <W lemma="dansk" msd="ANP[CN]SU=IU">Dansk</W>
 <W lemma="forfatterforening" msd="NCCSU==I">Forfatterforening</W>
-<W lemma="sprænge" msd="VADA=----P-">sprængtes</W>
+<W lemma="sprÃ¦nge" msd="VADA=----P-">sprÃ¦ngtes</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="1991" msd="AC---U=--">1991</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="gå" msd="VADA=----A-">gik</W>
+<W lemma="gÃ¥" msd="VADA=----A-">gik</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="250" msd="AC---U=--">250</W>
 <W lemma="medlem" msd="NCNPU==I">medlemmer</W>
@@ -131,7 +131,7 @@
 <W lemma="del" msd="NCCSU==I">del</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="dansk" msd="ANP[CN]PU=[DI]U">Danske</W>
-<W lemma="skønlitterær" msd="ANP[CN]PU=[DI]U">Skønlitterære</W>
+<W lemma="skÃ¸nlitterÃ¦r" msd="ANP[CN]PU=[DI]U">SkÃ¸nlitterÃ¦re</W>
 <W lemma="forfatter" msd="NCCPU==I">Forfattere</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="DSF" msd="NP--U==-">DSF</W>
@@ -140,14 +140,14 @@
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="stå" msd="VAF-=----A-">stå</W>
+<W lemma="stÃ¥" msd="VAF-=----A-">stÃ¥</W>
 <W lemma="fri" msd="ANP---=-R">frit</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="forud" msd="RGU">Forud</W>
-<W lemma="være" msd="VADA=----A-">var</W>
-<W lemma="gå" msd="VAPA=S[CN]I[ARU]-U">gået</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
+<W lemma="gÃ¥" msd="VAPA=S[CN]I[ARU]-U">gÃ¥et</W>
 <W lemma="vild" msd="ANP[CN]PU=[DI]U">vilde</W>
 <W lemma="stridighed" msd="NCCPU==I">stridigheder</W>
 <W lemma="om" msd="SP">om</W>
@@ -175,7 +175,7 @@
 <W lemma="antipati" msd="NCCSU==I">antipati</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="fuld" msd="ANPCSU=IU">fuld</W>
-<W lemma="udblæsning" msd="NCCSU==I">udblæsning</W>
+<W lemma="udblÃ¦sning" msd="NCCSU==I">udblÃ¦sning</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -188,10 +188,10 @@
 <W lemma="alene" msd="RGU">alene</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="objektiv" msd="ANP[CN]PU=[DI]U">objektive</W>
-<W lemma="tilhørsforhold" msd="NCNPU==I">tilhørsforhold</W>
+<W lemma="tilhÃ¸rsforhold" msd="NCNPU==I">tilhÃ¸rsforhold</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="venskab" msd="NCNSU==I">venskab</W>
 <W lemma="(" msd="XP">(</W>
@@ -210,7 +210,7 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="hele" msd="VAF-=----A-">hele</W>
-<W lemma="sår" msd="NCNPU==D">sårene</W>
+<W lemma="sÃ¥r" msd="NCNPU==D">sÃ¥rene</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -220,10 +220,10 @@
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="synke" msd="VAPR=[SP][CN][DI]A-U">synkende</W>
 <W lemma="skude" msd="NCCSU==I">skude</W>
-<W lemma="så" msd="CS">så</W>
+<W lemma="sÃ¥" msd="CS">sÃ¥</W>
 <W lemma="hun" msd="PP3CSN-NU">hun</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
-<W lemma="fortsætte" msd="VAF-=----A-">fortsætte</W>
+<W lemma="fortsÃ¦tte" msd="VAF-=----A-">fortsÃ¦tte</W>
 <W lemma="mod" msd="SP">mod</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="eller" msd="CC">eller</W>
@@ -242,7 +242,7 @@
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
 <W lemma="lykkes" msd="VEF-=----A-">lykkes</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="nu" msd="RGU">nu</W>
 <W lemma="adskille" msd="VAPA=S[CN]DA-U">adskilte</W>
@@ -251,11 +251,11 @@
 <W lemma="gro" msd="VAF-=----A-">gro</W>
 <W lemma="sammen" msd="RGU">sammen</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="en" msd="PI-CSU--U">én</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="en" msd="PI-CSU--U">Ã©n</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="anden" msd="PI-CSU--U">anden</W>
-<W lemma="måde" msd="NCCSU==I">måde</W>
+<W lemma="mÃ¥de" msd="NCCSU==I">mÃ¥de</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -263,7 +263,7 @@
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="separat" msd="ANP[CN]PU=[DI]U">separate</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="suveræn" msd="ANP[CN]PU=[DI]U">suveræne</W>
+<W lemma="suverÃ¦n" msd="ANP[CN]PU=[DI]U">suverÃ¦ne</W>
 <W lemma="forening" msd="NCCPU==I">foreninger</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="eller" msd="CC">eller</W>

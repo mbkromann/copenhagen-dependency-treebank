@@ -18,7 +18,7 @@
                <author gender=m>Bager, Kaj</author>
             <author gender=m>Bollerslev, Peter</author>
             <author gender=f>Clausen, Birgitte</author>
-            <author gender=m>Sørensen, Erik</author>
+            <author gender=m>SÃ¸rensen, Erik</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1991</date>
@@ -55,7 +55,7 @@
 <W lemma="=" msd="XS">=</W>
 <W lemma="20" msd="AC---U=--">20</W>
 <W lemma="centimeter" msd="NCCPU==I">cm</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="kort" msd="NCNSU==D">kortet</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -65,7 +65,7 @@
 <p>
 <s>
 <hi>
-<W lemma="øvelse" msd="NCCSU==I">Øvelse</W>
+<W lemma="Ã¸velse" msd="NCCSU==I">Ã˜velse</W>
 <W lemma="3" msd="AC---U=--">3</W>
 </hi>
 </s>
@@ -76,7 +76,7 @@
 <W lemma="mellem" msd="SP">mellem</W>
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="by" msd="NCCPU==I">byer</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="145" msd="AC---U=--">145</W>
 <W lemma="kilometer" msd="NCCPU==I">km.</W>
 <W lemma="." msd="XP">.</W>
@@ -86,27 +86,27 @@
 <W lemma="afstand" msd="NCCSU==D">afstanden</W>
 <W lemma="mellem" msd="SP">mellem</W>
 <W lemma="by" msd="NCCPU==D">byerne</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="kort" msd="NCNSU==I">kort</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="tegne" msd="VAPA=S[CN]I[ARU]-U">tegnet</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="målestoksforhold" msd="NCNSU==D">målestoksforholdet</W>
+<W lemma="mÃ¥lestoksforhold" msd="NCNSU==D">mÃ¥lestoksforholdet</W>
 <W lemma="1:2500000" msd="AC---U=--">1:2500000</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="på" msd="SP">På</W>
+<W lemma="pÃ¥" msd="SP">PÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="kort" msd="NCNSU==I">kort</W>
 <W lemma="tegne" msd="VAPA=S[CN]I[ARU]-U">tegnet</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="målestoksforhold" msd="NCNSU==D">målestoksforholdet</W>
+<W lemma="mÃ¥lestoksforhold" msd="NCNSU==D">mÃ¥lestoksforholdet</W>
 <W lemma="1:50000" msd="AC---U=--">1:50000</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="2" msd="AC---U=--">2</W>
@@ -118,7 +118,7 @@
 <W lemma="afstand" msd="NCCSU==D">Afstanden</W>
 <W lemma="mellem" msd="SP">mellem</W>
 <W lemma="mast" msd="NCCPU==D">masterne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="200" msd="AC---U=--">200</W>
 <W lemma="meter" msd="NCCPU==I">m.</W>
 <W lemma="." msd="XP">.</W>
@@ -130,7 +130,7 @@
 <W lemma="afstand" msd="NCCSU==D">afstanden</W>
 <W lemma="mellem" msd="SP">mellem</W>
 <W lemma="mast" msd="NCCPU==D">masterne</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="kort" msd="NCNSU==D">kortet</W>
 <W lemma="?" msd="XP">?</W>
 </s>
@@ -143,24 +143,24 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="længde" msd="NCCSU==I">længde</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="lÃ¦ngde" msd="NCCSU==I">lÃ¦ngde</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="2" msd="AC---U=--">2</W>
 <W lemma="meter" msd="NCCPU==I">m</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="bredde" msd="NCCSU==I">bredde</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="0,75" msd="AC---U=--">0,75</W>
 <W lemma="meter" msd="NCCSU==I">m</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="indtegne" msd="VAF-=----P-">indtegnes</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="værelsesplan" msd="NCCSU==I">værelsesplan</W>
+<W lemma="vÃ¦relsesplan" msd="NCCSU==I">vÃ¦relsesplan</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="målestoksforhold" msd="NCNSU==D">målestoksforholdet</W>
+<W lemma="mÃ¥lestoksforhold" msd="NCNSU==D">mÃ¥lestoksforholdet</W>
 <W lemma="1:25" msd="AC---U=--">1:25</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -172,7 +172,7 @@
 <W lemma="bred" msd="ANPNSU=IU">bredt</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="tegning" msd="NCCSU==D">tegningen</W>
 <W lemma="?" msd="XP">?</W>
 </s>
@@ -194,16 +194,16 @@
 <W lemma="Holstebro" msd="NP--U==-">Holstebro</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="Randers" msd="NP--U==-">Randers</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="92" msd="AC---U=--">92</W>
 <W lemma="kilometer" msd="NCCPU==I">km.</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="på" msd="SP">På</W>
+<W lemma="pÃ¥" msd="SP">PÃ¥</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="kort" msd="NCNSU==I">kort</W>
-<W lemma="måle" msd="VADR=----P-">måles</W>
+<W lemma="mÃ¥le" msd="VADR=----P-">mÃ¥les</W>
 <W lemma="denne" msd="PD-CSU--U">denne</W>
 <W lemma="afstand" msd="NCCSU==I">afstand</W>
 <W lemma="til" msd="SP">til</W>
@@ -214,10 +214,10 @@
 <s>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
 <W lemma="finde" msd="VADR=----A-">finder</W>
-<W lemma="målestoksforhold" msd="NCNSU==D">målestoksforholdet</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="mÃ¥lestoksforhold" msd="NCNSU==D">mÃ¥lestoksforholdet</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="denne" msd="PD-CSU--U">denne</W>
-<W lemma="måde" msd="NCCSU==I">måde</W>
+<W lemma="mÃ¥de" msd="NCCSU==I">mÃ¥de</W>
 <W lemma=":" msd="XP">:</W>
 </s>
 </p>
@@ -227,7 +227,7 @@
 <s>
 <W lemma="46" msd="AC---U=--">46</W>
 <W lemma="centimeter" msd="NCCPU==I">cm</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="kort" msd="NCNSU==D">kortet</W>
 <W lemma="svare" msd="VADR=----A-">svarer</W>
 <W lemma="til" msd="SP">til</W>
@@ -241,7 +241,7 @@
 <s>
 <W lemma="46" msd="AC---U=--">46</W>
 <W lemma="centimeter" msd="NCCPU==I">cm</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="kort" msd="NCNSU==D">kortet</W>
 <W lemma="svare" msd="VADR=----A-">svarer</W>
 <W lemma="til" msd="SP">til</W>
@@ -255,7 +255,7 @@
 <s>
 <W lemma="1" msd="AC---U=--">1</W>
 <W lemma="centimeter" msd="NCCSU==I">cm</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="kort" msd="NCNSU==D">kortet</W>
 <W lemma="svare" msd="VADR=----A-">svarer</W>
 <W lemma="til" msd="SP">til</W>
@@ -271,7 +271,7 @@
 <s>
 <W lemma="1" msd="AC---U=--">1</W>
 <W lemma="centimeter" msd="NCCSU==I">cm</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="kort" msd="NCNSU==D">kortet</W>
 <W lemma="svare" msd="VADR=----A-">svarer</W>
 <W lemma="til" msd="SP">til</W>

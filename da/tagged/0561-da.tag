@@ -46,7 +46,7 @@
 </s>
 <s>
 <W lemma="denne" msd="PD-NSU--U">Dette</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="egentlig" msd="ANPCSU=IU">egentlig</W>
@@ -54,14 +54,14 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="hovedpart" msd="NCCSU==D">hovedparten</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="nutid" msd="NCCSG==D">nutidens</W>
 <W lemma="psykolog" msd="NCCPU==I">psykologer</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="videreføre" msd="VADR=----A-">viderefører</W>
+<W lemma="viderefÃ¸re" msd="VADR=----A-">viderefÃ¸rer</W>
 <W lemma="psykologi" msd="NCCSU==D">psykologien</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
@@ -76,7 +76,7 @@
 </s>
 <s>
 <W lemma="gruppe" msd="NCCSU==D">Gruppen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="opdele" msd="VAPA=S[CN]I[ARU]-U">opdelt</W>
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="specialisering" msd="NCCSU==D">specialiseringen</W>
@@ -91,10 +91,10 @@
 <p>
 <s>
 <hi>
-<W lemma="læreprocespsykologi" msd="NCCSU==D">Læreprocespsykologien</W>
+<W lemma="lÃ¦reprocespsykologi" msd="NCCSU==D">LÃ¦reprocespsykologien</W>
 </hi>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="især" msd="RGU">især</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="isÃ¦r" msd="RGU">isÃ¦r</W>
 <W lemma="inspirere" msd="VAPA=S[CN]I[ARU]-U">inspireret</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="tidlig" msd="ANC[CN][SP]U=[DI]U">tidligere</W>
@@ -105,8 +105,8 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="hovedrepræsentant" msd="NCCPU==I">Hovedrepræsentanter</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="hovedreprÃ¦sentant" msd="NCCPU==I">HovedreprÃ¦sentanter</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <hi>
 <W lemma="N." msd="NP--U==-">N.</W>
 <W lemma="E." msd="NP--U==-">E.</W>
@@ -128,18 +128,18 @@
 <hi>
 <W lemma="motivationspsykologi" msd="NCCSU==D">Motivationspsykologien</W>
 </hi>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="især" msd="RGU">især</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="isÃ¦r" msd="RGU">isÃ¦r</W>
 <W lemma="inspirere" msd="VAPA=S[CN]I[ARU]-U">inspireret</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="psykoanalyse" msd="NCCSU==D">psykoanalysen</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="læreprocespsykologi" msd="NCCSU==I">læreprocespsykologi</W>
+<W lemma="lÃ¦reprocespsykologi" msd="NCCSU==I">lÃ¦reprocespsykologi</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="hovedrepræsentant" msd="NCCPU==I">Hovedrepræsentanter</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="hovedreprÃ¦sentant" msd="NCCPU==I">HovedreprÃ¦sentanter</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <hi>
 <W lemma="J." msd="NP--U==-">J.</W>
 <W lemma="W." msd="NP--U==-">W.</W>
@@ -161,7 +161,7 @@
 <hi>
 <W lemma="personlighedspsykologi" msd="NCCSU==D">Personlighedspsykologien</W>
 </hi>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="inspirere" msd="VAPA=S[CN]I[ARU]-U">inspireret</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="psykoanalyse" msd="NCCSU==D">psykoanalysen</W>
@@ -172,8 +172,8 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="hovedrepræsentant" msd="NCCPU==I">Hovedrepræsentanter</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="hovedreprÃ¦sentant" msd="NCCPU==I">HovedreprÃ¦sentanter</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <hi>
 <W lemma="R." msd="NP--U==-">R.</W>
 <W lemma="B." msd="NP--U==-">B.</W>
@@ -200,15 +200,15 @@
 <W lemma="kognitiv" msd="ANPCSU=IU">Kognitiv</W>
 <W lemma="psykologi" msd="NCCSU==I">psykologi</W>
 </hi>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="inspirere" msd="VAPA=S[CN]I[ARU]-U">inspireret</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="gestaltpsykologi" msd="NCCSU==D">gestaltpsykologien</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="hovedrepræsentant" msd="NCCPU==I">Hovedrepræsentanter</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="hovedreprÃ¦sentant" msd="NCCPU==I">HovedreprÃ¦sentanter</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <hi>
 <W lemma="J." msd="NP--U==-">J.</W>
 <W lemma="Piaget" msd="NP--U==-">Piaget</W>
@@ -275,7 +275,7 @@
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
 <W lemma="vove" msd="VAF-=----A-">vove</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="fremsætte" msd="VAF-=----A-">fremsætte</W>
+<W lemma="fremsÃ¦tte" msd="VAF-=----A-">fremsÃ¦tte</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <hi>
 <W lemma="forudsigelse" msd="NCCSU==I">forudsigelse</W>
@@ -294,7 +294,7 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="blive" msd="VAF-=----A-">blive</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="grundlag" msd="NCNSU==I">grundlag</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-CSU--U">den</W>

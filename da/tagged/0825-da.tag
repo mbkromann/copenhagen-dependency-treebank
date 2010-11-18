@@ -41,20 +41,20 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="ifølge" msd="SP">Ifølge</W>
+<W lemma="ifÃ¸lge" msd="SP">IfÃ¸lge</W>
 <W lemma="Topdanmark" msd="NP--U==-">Topdanmark</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="nutidsværdi" msd="NCCSU==D">nutidsværdien</W>
+<W lemma="nutidsvÃ¦rdi" msd="NCCSU==D">nutidsvÃ¦rdien</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="foretage" msd="VAPA=P[CN][DI]A-U">foretagne</W>
 <W lemma="rationalisering" msd="NCCPU==I">rationaliseringer</W>
-<W lemma="beløbe" msd="VAF-=----A-">beløbe</W>
+<W lemma="belÃ¸be" msd="VAF-=----A-">belÃ¸be</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="gevinst" msd="NCCSU==I">gevinst</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="mellem" msd="SP">mellem</W>
 <W lemma="730" msd="AC---U=--">730</W>
 <W lemma="og" msd="CC">og</W>
@@ -63,7 +63,7 @@
 <W lemma="krone" msd="NCCPU==I">kroner</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="fem-årsperiode" msd="NCCSU==I">fem-årsperiode</W>
+<W lemma="fem-Ã¥rsperiode" msd="NCCSU==I">fem-Ã¥rsperiode</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -71,10 +71,10 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="i" msd="SP">I</W>
-<W lemma="løb" msd="NCNSU==D">løbet</W>
+<W lemma="lÃ¸b" msd="NCNSU==D">lÃ¸bet</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="to" msd="AC---U=--">to</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
@@ -88,7 +88,7 @@
 <W lemma="som" msd="U=">som</W>
 <W lemma="ligge" msd="VADR=----A-">ligger</W>
 <W lemma="over" msd="XX">over</W>
-<W lemma="pæn" msd="ANP---=-R">pænt</W>
+<W lemma="pÃ¦n" msd="ANP---=-R">pÃ¦nt</W>
 <W lemma="over" msd="SP">over</W>
 <W lemma="ti" msd="AC---U=--">ti</W>
 <W lemma="procent" msd="NCCPU==I">procent</W>
@@ -114,7 +114,7 @@
 <W lemma="fremvise" msd="VAF-=----A-">fremvise</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="overskud" msd="NCNSU==I">overskud</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="200" msd="AC---U=--">200</W>
@@ -126,9 +126,9 @@
 <W lemma="1993" msd="AC---U=--">1993</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="overskud" msd="NCNSU==D">overskuddet</W>
-<W lemma="nå" msd="VAF-=----A-">nå</W>
+<W lemma="nÃ¥" msd="VAF-=----A-">nÃ¥</W>
 <W lemma="op" msd="RGU">op</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="300" msd="AC---U=--">300</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="400" msd="AC---U=--">400</W>
@@ -144,7 +144,7 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="samle" msd="VAPA=S[CN]DA-U">samlede</W>
-<W lemma="omsætning" msd="NCCSU==I">omsætning</W>
+<W lemma="omsÃ¦tning" msd="NCCSU==I">omsÃ¦tning</W>
 <W lemma="stige" msd="VADA=----A-">steg</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="knap" msd="RGU">knap</W>
@@ -167,8 +167,8 @@
 <W lemma="hovedpart" msd="NCCSU==D">hovedparten</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="omsætning" msd="NCCSU==I">omsætning</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="omsÃ¦tning" msd="NCCSU==I">omsÃ¦tning</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="knap" msd="RGU">knap</W>
 <W lemma="2,7" msd="AC---U=--">2,7</W>
 <W lemma="milliard" msd="NCCPU==I">mia.</W>
@@ -181,7 +181,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="division" msd="NCCSU==D">divisionen</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="knap" msd="RGU">knap</W>
 <W lemma="1,8" msd="AC---U=--">1,8</W>
 <W lemma="milliard" msd="NCCPU==I">mia.</W>
@@ -196,7 +196,7 @@
 <W lemma="omkostning" msd="NCCPU==D">Omkostningerne</W>
 <W lemma="stige" msd="VADA=----A-">steg</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="gengæld" msd="NCCSU==I">gengæld</W>
+<W lemma="gengÃ¦ld" msd="NCCSU==I">gengÃ¦ld</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="1,9" msd="AC---U=--">1,9</W>
 <W lemma="milliard" msd="NCCPU==I">mia.</W>
@@ -213,20 +213,20 @@
 <W lemma="give" msd="VADR=----A-">giver</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="nettounderskud" msd="NCNSU==I">nettounderskud</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="273" msd="AC---U=--">273</W>
 <W lemma="million" msd="NCCPU==I">mill.</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="aktionær" msd="NCCPU==D">aktionærerne</W>
+<W lemma="aktionÃ¦r" msd="NCCPU==D">aktionÃ¦rerne</W>
 <W lemma="alligevel" msd="RGU">alligevel</W>
 <W lemma="se" msd="VAF-=----A-">se</W>
 <W lemma="frem" msd="RGU">frem</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="udbytte" msd="NCNSU==I">udbytte</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="ti" msd="AC---U=--">ti</W>
 <W lemma="procent" msd="NCCPU==I">procent</W>
 <W lemma="." msd="XP">.</W>

@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="bekæmpelse" msd="NCCSU==I">Bekæmpelse</W>
+<W lemma="bekÃ¦mpelse" msd="NCCSU==I">BekÃ¦mpelse</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="elmesyge" msd="NCCSU==I">elmesyge</W>
 <W lemma="." msd="XP">.</W>
@@ -52,7 +52,7 @@
 <W lemma="idag" msd="RGU">idag</W>
 <W lemma="rigtig" msd="ANP---=-R">rigtig</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
-<W lemma="elmetræ" msd="NCNPU==I">elmetræer</W>
+<W lemma="elmetrÃ¦" msd="NCNPU==I">elmetrÃ¦er</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="sygdom" msd="NCCSU==D">sygdommen</W>
 <W lemma="fremkalde" msd="VADR=----P-">fremkaldes</W>
@@ -70,7 +70,7 @@
 <W lemma=")" msd="XP">)</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="forsøge" msd="VAPA=S[CN]I[ARU]-U">forsøgt</W>
+<W lemma="forsÃ¸ge" msd="VAPA=S[CN]I[ARU]-U">forsÃ¸gt</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="udnytte" msd="VAF-=----A-">udnytte</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -87,7 +87,7 @@
 </s>
 <s>
 <W lemma="ved" msd="SP">Ved</W>
-<W lemma="hjælp" msd="NCCSU==I">hjælp</W>
+<W lemma="hjÃ¦lp" msd="NCCSU==I">hjÃ¦lp</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="genteknologi" msd="NCCSU==I">genteknologi</W>
 <W lemma="have" msd="VADR=----A-">har</W>
@@ -114,7 +114,7 @@
 <W lemma="bakterier" msd="XX">bakterier</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="drivhusforsøg" msd="NCNPU==I">drivhusforsøg</W>
+<W lemma="drivhusforsÃ¸g" msd="NCNPU==I">drivhusforsÃ¸g</W>
 <W lemma="vise" msd="VAPA=S[CN]I[ARU]-U">vist</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="at" msd="U=">at</W>
@@ -125,8 +125,8 @@
 <W lemma="hvis" msd="CS">hvis</W>
 <W lemma="den" msd="PP3CSU-NU">den</W>
 <W lemma="pode" msd="VADR=----P-">podes</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="træ" msd="NCNPU==D">træerne</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="trÃ¦" msd="NCNPU==D">trÃ¦erne</W>
 <W lemma="inden" msd="SP">inden</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
@@ -150,13 +150,13 @@
 <W lemma="betragte" msd="VAF-=----P-">betragtes</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="gensplejsningsforsøg" msd="NCNSU==I">gensplejsningsforsøg</W>
+<W lemma="gensplejsningsforsÃ¸g" msd="NCNSU==I">gensplejsningsforsÃ¸g</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
-<W lemma="tilføje" msd="VAPA=S[CN]I[ARU]-U">tilføjet</W>
+<W lemma="tilfÃ¸je" msd="VAPA=S[CN]I[ARU]-U">tilfÃ¸jet</W>
 <W lemma="ny" msd="ANPNSU=IU">nyt</W>
 <W lemma="arvemateriale" msd="NCNSU==I">arvemateriale</W>
 <W lemma="," msd="XP">,</W>
@@ -168,7 +168,7 @@
 <W lemma="anmelde" msd="VADA=----A-">anmeldte</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="forsøg" msd="NCNSU==D">forsøget</W>
+<W lemma="forsÃ¸g" msd="NCNSU==D">forsÃ¸get</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="national" msd="ANP[CN]PU=[DI]U">nationale</W>
@@ -178,7 +178,7 @@
 <W lemma="!" msd="XP">!</W>
 </s>
 <s>
-<W lemma="forsøg" msd="NCNSU==D">Forsøget</W>
+<W lemma="forsÃ¸g" msd="NCNSU==D">ForsÃ¸get</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
 <W lemma="derimod" msd="RGU">derimod</W>
 <W lemma="anmelde" msd="VAPA=S[CN]I[ARU]-U">anmeldt</W>
@@ -189,7 +189,7 @@
 <W lemma="til" msd="SP">til</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="amerikansk" msd="ANP[CN]SU=DU">amerikanske</W>
-<W lemma="miljøministerium" msd="NCNSU==I">miljøministerium</W>
+<W lemma="miljÃ¸ministerium" msd="NCNSU==I">miljÃ¸ministerium</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="EPA" msd="NP--U==-">EPA</W>
 <W lemma=")" msd="XP">)</W>
@@ -199,22 +199,22 @@
 <W lemma="EPA" msd="NP--U==-">EPA</W>
 <W lemma="mene" msd="VADA=----A-">mente</W>
 <W lemma="at" msd="CS">at</W>
-<W lemma="forsøg" msd="NCNSU==D">forsøget</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="forsÃ¸g" msd="NCNSU==D">forsÃ¸get</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="gensplejsningsforsøg" msd="NCNSU==I">gensplejsningsforsøg</W>
+<W lemma="gensplejsningsforsÃ¸g" msd="NCNSU==I">gensplejsningsforsÃ¸g</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="hvorfor" msd="RGU">hvorfor</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="skulle" msd="VADA=----A-">skulle</W>
 <W lemma="have" msd="VAF-=----A-">have</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="anmelde" msd="VAPA=S[CN]I[ARU]-U">anmeldt</W>
 <W lemma="90" msd="AC---U=--">90</W>
 <W lemma="dag" msd="NCCPU==I">dage</W>
 <W lemma="forud" msd="RGU">forud</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="forsøg" msd="NCNSU==D">forsøget</W>
+<W lemma="forsÃ¸g" msd="NCNSU==D">forsÃ¸get</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -225,8 +225,8 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADA=----A-">var</W>
-<W lemma="overtræde" msd="VAPA=S[CN]I[ARU]-U">overtrådt</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
+<W lemma="overtrÃ¦de" msd="VAPA=S[CN]I[ARU]-U">overtrÃ¥dt</W>
 <W lemma="nogen" msd="PI-CSU--U">nogen</W>
 <W lemma="regel" msd="NCCPU==I">regler</W>
 <W lemma="," msd="XP">,</W>
@@ -245,7 +245,7 @@
 <W lemma="bakterie" msd="NCCSU==I">bakterie</W>
 <W lemma="endnu" msd="RGU">endnu</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="naturlig" msd="ANP---=-R">naturligt</W>
 <W lemma="forekommende" msd="ANP[CN][SP]U=[DI]U">forekommende</W>
 <W lemma=")" msd="XP">)</W>

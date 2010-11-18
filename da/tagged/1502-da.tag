@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Guldsmeden har kronprinsessen</title>
-            <author gender=m born=1951>Bøgh, Poul</author>
+            <author gender=m born=1951>BÃ¸gh, Poul</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -43,15 +43,15 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
-<W lemma="fortrøstningsfuld" msd="ANP[CN]PU=[DI]U">fortrøstningsfulde</W>
+<W lemma="fortrÃ¸stningsfuld" msd="ANP[CN]PU=[DI]U">fortrÃ¸stningsfulde</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="føle" msd="VADR=----A-">føler</W>
+<W lemma="fÃ¸le" msd="VADR=----A-">fÃ¸ler</W>
 <W lemma="vi" msd="PP1CPU-[YN]U">os</W>
 <W lemma="allerede" msd="RGU">allerede</W>
 <W lemma="sikker" msd="ANP[CN]PU=[DI]U">sikre</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="serie" msd="NCCSU==D">serien</W>
@@ -62,45 +62,45 @@
 </s>
 <s>
 <W lemma="smykke" msd="NCNPU==D">Smykkerne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="blive" msd="VAPA=S[CN]I[ARU]-U">blevet</W>
-<W lemma="præsentere" msd="VAPA=S[CN]I[ARU]-U">præsenteret</W>
+<W lemma="prÃ¦sentere" msd="VAPA=S[CN]I[ARU]-U">prÃ¦senteret</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="vores" msd="PO1[CN]PUPNF">vore</W>
 <W lemma="medlem" msd="NCNPU==I">medlemmer</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="messe" msd="NCCPU==I">messer</W>
 <W lemma="rundt" msd="RGU">rundt</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="land" msd="NCNSU==D">landet</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="forhåndsbestilling" msd="NCCPU==D">forhåndsbestillingerne</W>
-<W lemma="strømme" msd="VADR=----A-">strømmer</W>
+<W lemma="forhÃ¥ndsbestilling" msd="NCCPU==D">forhÃ¥ndsbestillingerne</W>
+<W lemma="strÃ¸mme" msd="VADR=----A-">strÃ¸mmer</W>
 <W lemma="ind" msd="RGU">ind</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="øjeblik" msd="NCNSU==D">øjeblikket</W>
+<W lemma="Ã¸jeblik" msd="NCNSU==D">Ã¸jeblikket</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
-<W lemma="direktør" msd="NCCSU==I">direktør</W>
+<W lemma="direktÃ¸r" msd="NCCSU==I">direktÃ¸r</W>
 <W lemma="Leif" msd="NP--U==-">Leif</W>
-<W lemma="Törnblad" msd="NP--U==-">Törnblad</W>
+<W lemma="TÃ¶rnblad" msd="NP--U==-">TÃ¶rnblad</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="smykkekæde" msd="NCCSU==D">Smykkekæden</W>
+<W lemma="smykkekÃ¦de" msd="NCCSU==D">SmykkekÃ¦den</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="serie" msd="NCCSU==D">Serien</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="speciel" msd="ANPCSU=IU">speciel</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
 <W lemma="den" msd="PP3CSU-NU">den</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="sige" msd="VAF-=----A-">sige</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="stand" msd="NCCSU==I">stand</W>
 <W lemma="til" msd="SP">til</W>
@@ -124,7 +124,7 @@
 <s>
 <W lemma="man" msd="PI-C[SP]N--U">Man</W>
 <W lemma="begynde" msd="VADR=----A-">begynder</W>
-<W lemma="måske" msd="RGU">måske</W>
+<W lemma="mÃ¥ske" msd="RGU">mÃ¥ske</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="ring" msd="NCCSU==D">ringen</W>
 <W lemma="og" msd="CC">og</W>
@@ -140,18 +140,18 @@
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="hvis" msd="CS">hvis</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="lyst" msd="NCCSU==I">lyst</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="råd" msd="NCNSU==I">råd</W>
+<W lemma="rÃ¥d" msd="NCNSU==I">rÃ¥d</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="smykke" msd="NCNSG==D">smykkets</W>
 <W lemma="brillant" msd="NCCSU==I">brillant</W>
 <W lemma="udskifte" msd="VAPA=S[CN]I[ARU]-U">udskiftet</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">større</W>
+<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">stÃ¸rre</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -173,7 +173,7 @@
 <W lemma="inden" msd="RGU">inden</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="to" msd="AC---U=--">to</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="bytte" msd="VAF-=----A-">bytte</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
@@ -184,7 +184,7 @@
 <W lemma="ny" msd="ANPNSU=IU">nyt</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">større</W>
+<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">stÃ¸rre</W>
 <W lemma="brilliant" msd="XX">brilliant</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -204,13 +204,13 @@
 </s>
 <s>
 <W lemma="smykke" msd="NCNPU==D">Smykkerne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="i_øvrigt" msd="RGU">i_øvrigt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="i_Ã¸vrigt" msd="RGU">i_Ã¸vrigt</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="efter" msd="SP">efter</W>
-<W lemma="købsdato" msd="NCCSU==D">købsdatoen</W>
+<W lemma="kÃ¸bsdato" msd="NCCSU==D">kÃ¸bsdatoen</W>
 <W lemma="forsikre" msd="VAPA=S[CN]I[ARU]-U">forsikret</W>
 <W lemma="mod" msd="SP">mod</W>
 <W lemma="brand" msd="NCCSU==I">brand</W>
@@ -226,26 +226,26 @@
 <p>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="smykkekæde" msd="NCCSU==D">Smykkekæden</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="smykkekÃ¦de" msd="NCCSU==D">SmykkekÃ¦den</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="bede" msd="VAPA=S[CN]I[ARU]-U">bedt</W>
 <W lemma="designer" msd="NCCSU==D">designeren</W>
 <W lemma="Jan" msd="NP--U==-">Jan</W>
-<W lemma="Jørgensen" msd="NP--U==-">Jørgensen</W>
+<W lemma="JÃ¸rgensen" msd="NP--U==-">JÃ¸rgensen</W>
 <W lemma="udforme" msd="VAF-=----A-">udforme</W>
 <W lemma="kronprinsessesmykke" msd="NCNPU==D">kronprinsessesmykkerne</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="mens" msd="CS">mens</W>
 <W lemma="selve" msd="ANP[CN][SP]U=[DI]U">selve</W>
-<W lemma="guldsmedehåndværk" msd="NCNSU==D">guldsmedehåndværket</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="lægge" msd="VAPA=S[CN]I[ARU]-U">lagt</W>
+<W lemma="guldsmedehÃ¥ndvÃ¦rk" msd="NCNSU==D">guldsmedehÃ¥ndvÃ¦rket</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="lÃ¦gge" msd="VAPA=S[CN]I[ARU]-U">lagt</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="hændere" msd="XX">hændere</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="hÃ¦ndere" msd="XX">hÃ¦ndere</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="guldsmed" msd="NCCSU==I">guldsmed</W>
 <W lemma="Gert" msd="NP--U==-">Gert</W>
 <W lemma="Jansen" msd="NP--U==-">Jansen</W>

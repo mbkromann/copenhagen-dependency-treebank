@@ -63,21 +63,21 @@
 </s>
 <s>
 <W lemma="og" msd="CC">Og</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="satse" msd="VADR=----A-">satser</W>
 <W lemma="vi" msd="PP1CPN-NU">vi</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="befolkning" msd="NCCSU==D">befolkningen</W>
 <W lemma="allerede" msd="RGU">allerede</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="god" msd="ANP---=-R">godt</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="grundig" msd="ANP---=-R">grundigt</W>
 <W lemma="vaccinere" msd="VAPA=S[CN]I[ARU]-U">vaccineret</W>
 <W lemma="mod" msd="SP">mod</W>
-<W lemma="både" msd="RGU">både</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
 <W lemma="Uffe" msd="NP--U==-">Uffe</W>
 <W lemma="Ellemann" msd="NP--U==-">Ellemann</W>
 <W lemma="og" msd="CC">og</W>
@@ -86,8 +86,8 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="så" msd="RGU">Så</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">SÃ¥</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="nej" msd="NCNSU==D">nej'et</W>
 <W lemma="hjemme" msd="RGU">hjemme</W>
 <W lemma="," msd="XP">,</W>
@@ -101,24 +101,24 @@
 <p>
 <s>
 <W lemma="hvad" msd="PT-[CN]SU--U">Hvad</W>
-<W lemma="angå" msd="VADR=----A-">angår</W>
+<W lemma="angÃ¥" msd="VADR=----A-">angÃ¥r</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="indenrigspolitisk" msd="ANP[CN]SU=DU">indenrigspolitiske</W>
 <W lemma="front" msd="NCCSU==I">front</W>
-<W lemma="fremhæve" msd="VADA=----A-">fremhævede</W>
+<W lemma="fremhÃ¦ve" msd="VADA=----A-">fremhÃ¦vede</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="SF" msd="NP--U==-">SF</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="hel" msd="ANP[CN]SU=DU">hele</W>
 <W lemma="Danmark" msd="NP--G==-">Danmarks</W>
-<W lemma="tænketank" msd="NCCSU==I">tænketank</W>
+<W lemma="tÃ¦nketank" msd="NCCSU==I">tÃ¦nketank</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="fornyelse" msd="NCCSU==I">fornyelse</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="forandring" msd="NCCSU==I">forandring</W>
@@ -166,17 +166,17 @@
 <W lemma="skred" msd="NCNSU==I">skred</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ske" msd="VAPA=S[CN]I[ARU]-U">sket</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="almindelig" msd="ANPCSU=IU">almindelig</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="hæderlig" msd="ANPCSU=IU">hæderlig</W>
+<W lemma="hÃ¦derlig" msd="ANPCSU=IU">hÃ¦derlig</W>
 <W lemma="parlamentarisk" msd="ANP[CN]SU=IU">parlamentarisk</W>
-<W lemma="opførsel" msd="NCCSU==I">opførsel</W>
+<W lemma="opfÃ¸rsel" msd="NCCSU==I">opfÃ¸rsel</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="påtage" msd="VADR=----A-">påtager</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="pÃ¥tage" msd="VADR=----A-">pÃ¥tager</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="tre" msd="AC---U=--">tre</W>
 <W lemma="parti" msd="NCNPU==I">partier</W>
@@ -189,7 +189,7 @@
 <W lemma="skred" msd="NCNSU==I">skred</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="fastslå" msd="VADA=----A-">fastslog</W>
+<W lemma="fastslÃ¥" msd="VADA=----A-">fastslog</W>
 <W lemma="Steen" msd="NP--U==-">Steen</W>
 <W lemma="Gade" msd="NP--U==-">Gade</W>
 <W lemma="." msd="XP">.</W>
@@ -205,7 +205,7 @@
 <W lemma="at" msd="CS">at</W>
 <W lemma="regering" msd="NCCSU==D">regeringen</W>
 <W lemma="&quot;" msd="XP">"</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="gennemsyre" msd="VAPA=S[CN]I[ARU]-U">gennemsyret</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="skandalesag" msd="NCCPU==I">skandalesager</W>
@@ -219,11 +219,11 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="den" msd="PP3CSU-NU">den</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="skvatte" msd="VAPA=S[CN]I[ARU]-U">skvattet</W>
 <W lemma="omkuld" msd="RGU">omkuld</W>
 <W lemma="for" msd="SP">for</W>
-<W lemma="længe" msd="RGP">længe</W>
+<W lemma="lÃ¦nge" msd="RGP">lÃ¦nge</W>
 <W lemma="siden" msd="RGU">siden</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="." msd="XP">.</W>
@@ -239,25 +239,25 @@
 <W lemma="tvinge" msd="VAPA=S[CN]I[ARU]-U">tvunget</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="gå" msd="VAF-=----A-">gå</W>
+<W lemma="gÃ¥" msd="VAF-=----A-">gÃ¥</W>
 <W lemma="af" msd="RGU">af</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="efterår" msd="NCNSU==D">efteråret</W>
+<W lemma="efterÃ¥r" msd="NCNSU==D">efterÃ¥ret</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="SF-formand" msd="NCCSU==D">SF-formanden</W>
-<W lemma="foreslå" msd="VADA=----A-">foreslog</W>
+<W lemma="foreslÃ¥" msd="VADA=----A-">foreslog</W>
 <W lemma="parti" msd="NCNSG==D">partiets</W>
 <W lemma="hovedbestyrelse" msd="NCCSU==I">hovedbestyrelse</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="efterår" msd="NCNSU==D">efteråret</W>
-<W lemma="fremlægge" msd="VADR=----P-">fremlægges</W>
+<W lemma="efterÃ¥r" msd="NCNSU==D">efterÃ¥ret</W>
+<W lemma="fremlÃ¦gge" msd="VADR=----P-">fremlÃ¦gges</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="regeringsprogram" msd="NCNSU==I">regeringsprogram</W>
@@ -265,10 +265,10 @@
 <W lemma="som" msd="U=">som</W>
 <W lemma="SF" msd="NP--U==-">SF</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="gå" msd="VAF-=----A-">gå</W>
+<W lemma="gÃ¥" msd="VAF-=----A-">gÃ¥</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="valg" msd="NCNSU==I">valg</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="." msd="XP">.</W>
 </s>

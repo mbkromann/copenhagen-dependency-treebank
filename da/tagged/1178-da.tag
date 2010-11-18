@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>I anledning af Columbus. . .</title>
-            <author gender=m born=1935>Siegumfeldt, Jørgen</author>
+            <author gender=m born=1935>Siegumfeldt, JÃ¸rgen</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -46,7 +46,7 @@
 <W lemma="denne" msd="PD-NSU--U">dette</W>
 <W lemma="syv-mand" msd="NCCSG==I">syv-mands</W>
 <W lemma="ensemble" msd="NCNSU==I">ensemble</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="kollektiv-musik" msd="NCCSU==I">kollektiv-musik</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
@@ -79,21 +79,21 @@
 <W lemma="selv_om" msd="CS">selv_om</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
-<W lemma="svær" msd="ANPNSU=IU">svært</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
+<W lemma="svÃ¦r" msd="ANPNSU=IU">svÃ¦rt</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="denne" msd="PD-[CN]PU--U">disse</W>
 <W lemma="afsnit" msd="NCNPU==I">afsnit</W>
 <W lemma="hel" msd="ANP---=-R">helt</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="nærmere" msd="XX">nærmere</W>
+<W lemma="nÃ¦rmere" msd="XX">nÃ¦rmere</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="inderlighed" msd="NCCSU==I">inderlighed</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="møde" msd="VADR=----A-">møder</W>
+<W lemma="mÃ¸de" msd="VADR=----A-">mÃ¸der</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="kapelmester" msd="NCCSG==D">kapelmesterens</W>
 <W lemma="egen" msd="ANPNSU=[DI]U">eget</W>
@@ -104,16 +104,16 @@
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="to" msd="AC---U=--">to</W>
 <W lemma="uforglemmelig" msd="ANP[CN]PU=[DI]U">uforglemmelige</W>
-<W lemma="lille" msd="ANP[CN]PU=[DI]U">små</W>
+<W lemma="lille" msd="ANP[CN]PU=[DI]U">smÃ¥</W>
 <W lemma="solo-stykke" msd="NCNPU==I">solo-stykker</W>
 <W lemma="Nocturno" msd="NP--U==-">Nocturno</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="Elegia" msd="NP--U==-">Elegia</W>
 <W lemma=" - " msd="XP"> - </W>
-<W lemma="så" msd="RGU">så</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="immervæk" msd="RGU">immervæk</W>
+<W lemma="immervÃ¦k" msd="RGU">immervÃ¦k</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="musik" msd="NCCSU==I">musik</W>
 <W lemma="," msd="XP">,</W>
@@ -130,11 +130,11 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="karakterisere" msd="VADR=----A-">karakteriserer</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="meget" msd="ANP[CN]SU=IU">meget</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="såkaldt" msd="ANP[CN]SU=DU">såkaldte</W>
+<W lemma="sÃ¥kaldt" msd="ANP[CN]SU=DU">sÃ¥kaldte</W>
 <W lemma="verdens-" msd="XX">verdens-</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="new_age-musik" msd="NCCSU==I">new_age-musik</W>
@@ -142,7 +142,7 @@
 </s>
 <s>
 <W lemma="denne" msd="PD-NSU--U">Dette</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="musik" msd="NCCSU==I">musik</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
@@ -159,7 +159,7 @@
 <p>
 <s>
 <W lemma="hel" msd="ANP---=-R">Helt</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="ligetil" msd="ANP---=-R">ligetil</W>
 <W lemma="udtrykke" msd="VADR=----A-">udtrykker</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
@@ -169,7 +169,7 @@
 <W lemma="Gismonti" msd="NP--U==-">Gismonti</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="hverken" msd="RGU">hverken</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="Academia" msd="NP--U==-">Academia</W>
@@ -197,7 +197,7 @@
 <W lemma="guitar-" msd="XX">guitar-</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="klaverspil" msd="NCNSU==I">klaverspil</W>
-<W lemma="træde" msd="VADR=----A-">træder</W>
+<W lemma="trÃ¦de" msd="VADR=----A-">trÃ¦der</W>
 <W lemma="her" msd="RGU">her</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="baggrund" msd="NCCSU==D">baggrunden</W>
@@ -207,7 +207,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="nok" msd="RGU">nok</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="raffineret" msd="ANP---=-R">raffineret</W>
 <W lemma="arrangere" msd="VAPA=S[CN]I[ARU]-U">arrangeret</W>
 <W lemma="," msd="XP">,</W>

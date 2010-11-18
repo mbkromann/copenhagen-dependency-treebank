@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Kartoffelpriser</title>
-            <author gender=m born=1925>Stegelmann, Jørgen</author>
+            <author gender=m born=1925>Stegelmann, JÃ¸rgen</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -47,24 +47,24 @@
 <W lemma="holde" msd="VAF-=----A-">holde</W>
 <W lemma="fast" msd="ANP---=-R">fast</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="tråd" msd="NCCSU==D">tråden</W>
+<W lemma="trÃ¥d" msd="NCCSU==D">trÃ¥den</W>
 <W lemma=":" msd="XP">:</W>
 <W lemma="den" msd="PD-[CN]PU--U">De</W>
 <W lemma="underlig" msd="ANP[CN]PU=[DI]U">underlige</W>
 <W lemma="pris" msd="NCCPU==I">priser</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="fem-øre" msd="NCCPU==I">fem-ører</W>
+<W lemma="fem-Ã¸re" msd="NCCPU==I">fem-Ã¸rer</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="tilbage" msd="RGU">tilbage</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="skønt" msd="CS">skønt</W>
+<W lemma="skÃ¸nt" msd="CS">skÃ¸nt</W>
 <W lemma="pris" msd="NCCSU==D">prisen</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="10" msd="AC---U=--">10</W>
 <W lemma="krone" msd="NCCPU==I">kr.</W>
 <W lemma="," msd="XP">,</W>
@@ -74,7 +74,7 @@
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="befinde" msd="VADR=----A-">befinder</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
 <W lemma="plan" msd="NCNPU==I">planer</W>
 <W lemma="." msd="XP">.</W>
@@ -94,7 +94,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="nære" msd="VADR=----A-">nærer</W>
+<W lemma="nÃ¦re" msd="VADR=----A-">nÃ¦rer</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="overbevisning" msd="NCCSU==I">overbevisning</W>
 <W lemma="," msd="XP">,</W>
@@ -102,16 +102,16 @@
 <W lemma="bare" msd="RGU">bare</W>
 <W lemma="pris" msd="NCCSU==D">prisen</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="hel" msd="ANP---=-R">helt</W>
 <W lemma="deroppe" msd="RGU">deroppe</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="den" msd="PP3CSU-NU">den</W>
 <W lemma="alligevel" msd="RGU">alligevel</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="flokke" msd="VADR=----P-">flokkes</W>
 <W lemma="kunde" msd="NCCPU==D">kunderne</W>
 <W lemma="om" msd="SP">om</W>
@@ -139,20 +139,20 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="først" msd="RGU">Først</W>
+<W lemma="fÃ¸rst" msd="RGU">FÃ¸rst</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
 <W lemma="jeg" msd="PP1CSN-NU">jeg</W>
-<W lemma="gøre" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
-<W lemma="opmærksom" msd="ANPCSU=IU">opmærksom</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="gÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
+<W lemma="opmÃ¦rksom" msd="ANPCSU=IU">opmÃ¦rksom</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="komme" msd="VADR=----A-">kommer</W>
-<W lemma="søndagsavis" msd="NCCSU==D">søndagsavisen</W>
+<W lemma="sÃ¸ndagsavis" msd="NCCSU==D">sÃ¸ndagsavisen</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="fortælle" msd="VADR=----A-">fortæller</W>
+<W lemma="fortÃ¦lle" msd="VADR=----A-">fortÃ¦ller</W>
 <W lemma="om" msd="SP">om</W>
 <W lemma="ny" msd="ANP[CN]PU=[DI]U">nye</W>
 <W lemma="bil" msd="NCCPU==I">biler</W>
@@ -165,10 +165,10 @@
 <W lemma="kartoffelpris" msd="NCCPU==D">kartoffelpriserne</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
-<W lemma="fem-øre" msd="NCCSG==I">fem-øres</W>
-<W lemma="blændværk" msd="NCNSU==I">blændværk</W>
+<W lemma="fem-Ã¸re" msd="NCCSG==I">fem-Ã¸res</W>
+<W lemma="blÃ¦ndvÃ¦rk" msd="NCNSU==I">blÃ¦ndvÃ¦rk</W>
 <W lemma="have" msd="VADR=----A-">har</W>
-<W lemma="sætte" msd="VAPA=S[CN]I[ARU]-U">sat</W>
+<W lemma="sÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">sat</W>
 <W lemma="deres" msd="PO3[CN][SP]UPNU">deres</W>
 <W lemma="spor" msd="NCNPU==I">spor</W>
 <W lemma="i" msd="SP">i</W>
@@ -187,7 +187,7 @@
 </s>
 <s>
 <W lemma="bil" msd="NCCPU==I">Biler</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="gerne" msd="RGU">gerne</W>
 <W lemma="meget" msd="ANP---=-R">meget</W>
 <W lemma="ny" msd="ANP[CN]PU=[DI]U">nye</W>
@@ -195,7 +195,7 @@
 <W lemma="meget" msd="ANP---=-R">meget</W>
 <W lemma="blank" msd="ANP[CN]PU=[DI]U">blanke</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="strålende" msd="ANP[CN][SP]U=[DI]U">strålende</W>
+<W lemma="strÃ¥lende" msd="ANP[CN][SP]U=[DI]U">strÃ¥lende</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="ny" msd="ANPCSU=IU">ny</W>
 <W lemma="teknik" msd="NCCSU==I">teknik</W>
@@ -204,9 +204,9 @@
 <W lemma="elegance" msd="NCCSU==I">elegance</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
-<W lemma="måde" msd="NCCPU==I">måder</W>
+<W lemma="mÃ¥de" msd="NCCPU==I">mÃ¥der</W>
 <W lemma="kostbar" msd="ANP[CN]PU=[DI]U">kostbare</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="dyr" msd="ANP[CN]PU=[DI]U">dyre</W>
@@ -222,12 +222,12 @@
 <W lemma="men" msd="CC">men</W>
 <W lemma="pris" msd="NCCSU==D">prisen</W>
 <W lemma="flygte" msd="VADR=----A-">flygter</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="gammel" msd="ANPCSU=IU">gammel</W>
-<W lemma="kræmmervis" msd="NCNSU==I">kræmmervis</W>
+<W lemma="krÃ¦mmervis" msd="NCNSU==I">krÃ¦mmervis</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="økonomisk" msd="ANP[CN]SU=DU">økonomiske</W>
+<W lemma="Ã¸konomisk" msd="ANP[CN]SU=DU">Ã¸konomiske</W>
 <W lemma="sandhed" msd="NCCSU==I">sandhed</W>
 <W lemma="." msd="XP">.</W>
 </s>

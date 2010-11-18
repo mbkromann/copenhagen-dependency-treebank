@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Turister må jages hele året'</title>
+        <title>Tagged sample of: 'Turister mÃ¥ jages hele Ã¥ret'</title>
       </titleStmt>
       <extent words=163>163 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Turister må jages hele året</title>
+            <title>Turister mÃ¥ jages hele Ã¥ret</title>
             <author gender=m born=1936>Olesen, Ejvind</author>
           </analytic>
           <monogr>
@@ -41,12 +41,12 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="ifølge" msd="SP">Ifølge</W>
+<W lemma="ifÃ¸lge" msd="SP">IfÃ¸lge</W>
 <W lemma="biolog" msd="NCCPU==D">biologerne</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="for" msd="RGU">for</W>
-<W lemma="få" msd="ANP[CN]PU=[DI]U">få</W>
+<W lemma="fÃ¥" msd="ANP[CN]PU=[DI]U">fÃ¥</W>
 <W lemma="fisk" msd="NCCPU==I">fisk</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="verdenshav" msd="NCNPU==D">verdenshavene</W>
@@ -63,7 +63,7 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="give" msd="VADR=----P-">gives</W>
-<W lemma="støtte" msd="NCCSU==I">støtte</W>
+<W lemma="stÃ¸tte" msd="NCCSU==I">stÃ¸tte</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="ophugning" msd="NCCSU==I">ophugning</W>
 <W lemma="af" msd="SP">af</W>
@@ -75,7 +75,7 @@
 <W lemma="fisker" msd="NCCPU==D">fiskerne</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="sørgelig" msd="ANPCSU=IU">sørgelig</W>
+<W lemma="sÃ¸rgelig" msd="ANPCSU=IU">sÃ¸rgelig</W>
 <W lemma="situation" msd="NCCSU==I">situation</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -89,14 +89,14 @@
 </s>
 <s>
 <W lemma="de" msd="PP3[CN]PN-NU">De</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="jage" msd="VAF-=----P-">jages</W>
 <W lemma="hel" msd="ANP[CN]SU=DU">hele</W>
-<W lemma="år" msd="NCNSU==D">året</W>
+<W lemma="Ã¥r" msd="NCNSU==D">Ã¥ret</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="nok" msd="RGU">nok</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="de" msd="PP3[CN]PU-NU">dem</W>
@@ -112,12 +112,12 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="så" msd="RGU">Så</W>
+<W lemma="sÃ¥" msd="RGU">SÃ¥</W>
 <W lemma="meget" msd="ANP[CN]SU=IU">meget</W>
 <W lemma="desto" msd="RGU">desto</W>
 <W lemma="meget" msd="ANC---=-R">mere</W>
-<W lemma="mærkelig" msd="ANPNSU=IU">mærkeligt</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="mÃ¦rkelig" msd="ANPNSU=IU">mÃ¦rkeligt</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
@@ -125,35 +125,35 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="skulle" msd="VADA=----A-">skulle</W>
-<W lemma="gå" msd="VAF-=----A-">gå</W>
+<W lemma="gÃ¥" msd="VAF-=----A-">gÃ¥</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="front" msd="NCCSU==I">front</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="sælge" msd="VAF-=----A-">sælge</W>
+<W lemma="sÃ¦lge" msd="VAF-=----A-">sÃ¦lge</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="tom" msd="ANP[CN]PU=[DI]U">tomme</W>
 <W lemma="seng" msd="NCCPU==I">senge</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="nemlig" msd="RGU">nemlig</W>
 <W lemma="Danmark" msd="NP--G==-">Danmarks</W>
-<W lemma="turistråd" msd="NCNSU==I">Turistråd</W>
+<W lemma="turistrÃ¥d" msd="NCNSU==I">TuristrÃ¥d</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="marketingafdeling" msd="NCCSU==D">marketingafdelingen</W>
 <W lemma="hos" msd="SP">hos</W>
-<W lemma="hotelvært" msd="NCCPU==D">Hotelværterne</W>
+<W lemma="hotelvÃ¦rt" msd="NCCPU==D">HotelvÃ¦rterne</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="nu" msd="RGU">nu</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="spids" msd="NCCSU==D">spidsen</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="anbefale" msd="VADR=----A-">anbefaler</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="ophugnings-støtte" msd="NCCSU==I">ophugnings-støtte</W>
+<W lemma="ophugnings-stÃ¸tte" msd="NCCSU==I">ophugnings-stÃ¸tte</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="overflødig" msd="ANP[CN]PU=[DI]U">overflødige</W>
+<W lemma="overflÃ¸dig" msd="ANP[CN]PU=[DI]U">overflÃ¸dige</W>
 <W lemma="hotel" msd="NCNPU==I">hoteller</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -163,9 +163,9 @@
 <W lemma="man" msd="PI-C[SP]N--U">Man</W>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
 <W lemma="jo" msd="RGU">jo</W>
-<W lemma="prøve" msd="VAF-=----A-">prøve</W>
+<W lemma="prÃ¸ve" msd="VAF-=----A-">prÃ¸ve</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="sælge" msd="VAF-=----A-">sælge</W>
+<W lemma="sÃ¦lge" msd="VAF-=----A-">sÃ¦lge</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="tom" msd="ANP[CN]PU=[DI]U">tomme</W>
 <W lemma="seng" msd="NCCPU==I">senge</W>
@@ -173,7 +173,7 @@
 <W lemma="og" msd="CC">og</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="lille" msd="ANS---=-R">mindst</W>
-<W lemma="ydersæson" msd="NCCSU==D">ydersæsonen</W>
+<W lemma="ydersÃ¦son" msd="NCCSU==D">ydersÃ¦sonen</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="sted" msd="NCNSU==D">stedet</W>
@@ -190,7 +190,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="begrundet" msd="ANP[CN]SU=IU">begrundet</W>
 <W lemma="formodning" msd="NCCSU==I">formodning</W>
@@ -201,7 +201,7 @@
 <W lemma="nedslide" msd="VADR=----P-">nedslides</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="sårbar" msd="ANP[CN]SU=DU">sårbare</W>
+<W lemma="sÃ¥rbar" msd="ANP[CN]SU=DU">sÃ¥rbare</W>
 <W lemma="tid" msd="NCCSU==I">tid</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -212,12 +212,12 @@
 <W lemma="det" msd="PP3NSU-NU">Det</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="blive" msd="VAF-=----A-">blive</W>
-<W lemma="nødvendig" msd="ANPNSU=IU">nødvendigt</W>
+<W lemma="nÃ¸dvendig" msd="ANPNSU=IU">nÃ¸dvendigt</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="aktiv" msd="ANPCSU=IU">aktiv</W>
-<W lemma="ophugnings-støtte" msd="NCCSU==I">ophugnings-støtte</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="hotelområde" msd="NCNSU==D">hotelområdet</W>
+<W lemma="ophugnings-stÃ¸tte" msd="NCCSU==I">ophugnings-stÃ¸tte</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="hotelomrÃ¥de" msd="NCNSU==D">hotelomrÃ¥det</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="stil" msd="NCCSU==I">stil</W>
 <W lemma="med" msd="SP">med</W>
@@ -231,19 +231,19 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="sige" msd="VADR=----A-">siger</W>
 <W lemma="administrere" msd="VAPR=[SP][CN][DI]A-U">adm.</W>
-<W lemma="direktør" msd="NCCSU==I">direktør</W>
-<W lemma="Jørgen" msd="NP--U==-">Jørgen</W>
+<W lemma="direktÃ¸r" msd="NCCSU==I">direktÃ¸r</W>
+<W lemma="JÃ¸rgen" msd="NP--U==-">JÃ¸rgen</W>
 <W lemma="Bertelsen" msd="NP--U==-">Bertelsen</W>
 <W lemma="fra" msd="SP">fra</W>
 <W lemma="Danmark" msd="NP--G==-">Danmarks</W>
-<W lemma="turistråd" msd="NCNSU==I">Turistråd</W>
+<W lemma="turistrÃ¥d" msd="NCNSU==I">TuristrÃ¥d</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvis" msd="PT-[CN][SP]G--U">hvis</W>
 <W lemma="eneste" msd="ANP[CN][SP]U=[DI]U">eneste</W>
-<W lemma="formål" msd="NCNSU==I">formål</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="formÃ¥l" msd="NCNSU==I">formÃ¥l</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="sælge" msd="VAF-=----A-">sælge</W>
+<W lemma="sÃ¦lge" msd="VAF-=----A-">sÃ¦lge</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="turist" msd="NCCPU==D">turisterne</W>

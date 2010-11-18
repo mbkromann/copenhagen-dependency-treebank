@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Hejs hulen op i træet'</title>
+        <title>Tagged sample of: 'Hejs hulen op i trÃ¦et'</title>
       </titleStmt>
       <extent words=175>175 running words</extent>
       <publicationStmt>
@@ -14,12 +14,12 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Hejs hulen op i træet</title>
+            <title>Hejs hulen op i trÃ¦et</title>
             <author>UNKNOWN</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
-              <publisher>Gør Det Selv</publisher>
+              <publisher>GÃ¸r Det Selv</publisher>
               <date>1992-05</date>
             </imprint>
           </monogr>
@@ -53,7 +53,7 @@
 <p>
 <s>
 <hi>
-<W lemma="læse" msd="VAM-=------">Læs</W>
+<W lemma="lÃ¦se" msd="VAM-=------">LÃ¦s</W>
 <W lemma="her" msd="RGU">her</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvordan" msd="RGU">hvordan</W>
@@ -63,7 +63,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="telt" msd="NCNSU==D">teltet</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="hejseværk" msd="NCNSU==D">hejseværket</W>
+<W lemma="hejsevÃ¦rk" msd="NCNSU==D">hejsevÃ¦rket</W>
 <W lemma="konstruere" msd="VADR=----P-">konstrueres</W>
 <W lemma="." msd="XP">.</W>
 </hi>
@@ -82,7 +82,7 @@
 <s>
 <W lemma="tegne" msd="VAM-=------">Tegn</W>
 <W lemma="diagonal" msd="NCCPU==I">diagonaler</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="bundplade" msd="NCCSU==D">bundpladen</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="D" msd="XA">D</W>
@@ -98,12 +98,12 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="skære" msd="VAM-=------">Skær</W>
+<W lemma="skÃ¦re" msd="VAM-=------">SkÃ¦r</W>
 <W lemma="kantliste" msd="NCCPU==D">kantlisterne</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="C" msd="XA">C</W>
 <W lemma=")" msd="XP">)</W>
-<W lemma="skrå" msd="ANP---=-R">skråt</W>
+<W lemma="skrÃ¥" msd="ANP---=-R">skrÃ¥t</W>
 <W lemma="af" msd="RGU">af</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="ende" msd="NCCPU==D">enderne</W>
@@ -114,23 +114,23 @@
 <W lemma="de" msd="PP3[CN]PU-NU">dem</W>
 <W lemma="fast" msd="ANP---=-R">fast</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="så" msd="CS">så</W>
+<W lemma="sÃ¥" msd="CS">sÃ¥</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
 <W lemma="hakke" msd="NCCPU==I">hakker</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="spær" msd="NCNPU==D">spærene</W>
+<W lemma="spÃ¦r" msd="NCNPU==D">spÃ¦rene</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="A" msd="XA">A</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="hver" msd="PI-NSU--U">hvert</W>
-<W lemma="hjørne" msd="NCNSU==I">hjørne</W>
+<W lemma="hjÃ¸rne" msd="NCNSU==I">hjÃ¸rne</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="skære" msd="VAM-=------">Skær</W>
-<W lemma="spær" msd="NCNPU==D">spærene</W>
+<W lemma="skÃ¦re" msd="VAM-=------">SkÃ¦r</W>
+<W lemma="spÃ¦r" msd="NCNPU==D">spÃ¦rene</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="smig" msd="NCCSU==I">smig</W>
 <W lemma="foroven" msd="RGU">foroven</W>
@@ -149,14 +149,14 @@
 <W lemma="H" msd="XA">H</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="spær" msd="NCNPU==D">spærene</W>
+<W lemma="spÃ¦r" msd="NCNPU==D">spÃ¦rene</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="stikke" msd="VAM-=------">Stik</W>
-<W lemma="plastrør" msd="NCNSU==D">plastrøret</W>
+<W lemma="plastrÃ¸r" msd="NCNSU==D">plastrÃ¸ret</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="F" msd="XA">F</W>
 <W lemma=")" msd="XP">)</W>
@@ -165,23 +165,23 @@
 <W lemma="center-hul" msd="NCNSU==I">center-hul</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
-<W lemma="skære" msd="VAM-=------">skær</W>
-<W lemma="først" msd="RGU">først</W>
+<W lemma="skÃ¦re" msd="VAM-=------">skÃ¦r</W>
+<W lemma="fÃ¸rst" msd="RGU">fÃ¸rst</W>
 <W lemma="samle-muffe" msd="NCCSU==D">samle-muffen</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="rør" msd="NCNSG==D">rørets</W>
+<W lemma="rÃ¸r" msd="NCNSG==D">rÃ¸rets</W>
 <W lemma="ene" msd="ANP[CN][SP]U=[DI]U">ene</W>
 <W lemma="ende" msd="NCCSU==I">ende</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="skære" msd="VAM-=------">Skær</W>
+<W lemma="skÃ¦re" msd="VAM-=------">SkÃ¦r</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="ring" msd="NCCSU==I">ring</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="U" msd="XA">U</W>
 <W lemma=")" msd="XP">)</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="3" msd="AC---U=--">3</W>
 <W lemma="centimeter" msd="NCCPU==I">cm</W>
 <W lemma="ud" msd="RGU">ud</W>
@@ -192,10 +192,10 @@
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="bruge" msd="VAF-=----P-">bruges</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="telt" msd="NCNSU==D">teltet</W>
-<W lemma="sætte" msd="VADR=----P-">sættes</W>
-<W lemma="på" msd="RGU">på</W>
+<W lemma="sÃ¦tte" msd="VADR=----P-">sÃ¦ttes</W>
+<W lemma="pÃ¥" msd="RGU">pÃ¥</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -206,13 +206,13 @@
 <W lemma="nederst" msd="ANP[CN]PU=[DI]U">nederste</W>
 <W lemma="ende" msd="NCCPU==I">ender</W>
 <W lemma="af" msd="SP">af</W>
-<W lemma="spær" msd="NCNPU==D">spærene</W>
+<W lemma="spÃ¦r" msd="NCNPU==D">spÃ¦rene</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="samle" msd="VAM-=------">saml</W>
 <W lemma="derefter" msd="RGU">derefter</W>
-<W lemma="spær" msd="NCNPU==D">spærene</W>
+<W lemma="spÃ¦r" msd="NCNPU==D">spÃ¦rene</W>
 <W lemma="omkring" msd="SP">omkring</W>
-<W lemma="rør" msd="NCNSU==D">røret</W>
+<W lemma="rÃ¸r" msd="NCNSU==D">rÃ¸ret</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="vinkelbeslag" msd="NCNPU==I">vinkelbeslag</W>
 <W lemma="og" msd="CC">og</W>
@@ -239,16 +239,16 @@
 </p>
 <p>
 <s>
-<W lemma="skære" msd="VAM-=------">Skær</W>
+<W lemma="skÃ¦re" msd="VAM-=------">SkÃ¦r</W>
 <W lemma="bundplade" msd="NCCSG==D">bundpladens</W>
 <W lemma="stiver" msd="NCCPU==I">stivere</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="B" msd="XA">B</W>
 <W lemma=")" msd="XP">)</W>
-<W lemma="skrå" msd="ANP---=-R">skråt</W>
+<W lemma="skrÃ¥" msd="ANP---=-R">skrÃ¥t</W>
 <W lemma="af" msd="RGU">af</W>
 <W lemma="mod" msd="SP">mod</W>
-<W lemma="spær" msd="NCNPU==D">spærene</W>
+<W lemma="spÃ¦r" msd="NCNPU==D">spÃ¦rene</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="lime" msd="VAM-=------">lim</W>
 <W lemma="og" msd="CC">og</W>
@@ -261,10 +261,10 @@
 <s>
 <W lemma="i" msd="SP">I</W>
 <W lemma="midte" msd="NCCSU==D">midten</W>
-<W lemma="støde" msd="VADR=----A-">støder</W>
+<W lemma="stÃ¸de" msd="VADR=----A-">stÃ¸der</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="mod" msd="SP">mod</W>
-<W lemma="rør" msd="NCNSU==D">røret</W>
+<W lemma="rÃ¸r" msd="NCNSU==D">rÃ¸ret</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -272,13 +272,13 @@
 <W lemma="samle" msd="VADR=----P-">samles</W>
 <W lemma="stiver" msd="NCCPU==I">stivere</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="spær" msd="NCNPU==I">spær</W>
+<W lemma="spÃ¦r" msd="NCNPU==I">spÃ¦r</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="ligejern" msd="NCNPU==I">ligejern</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="G" msd="XA">G</W>
 <W lemma=")" msd="XP">)</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="begge" msd="PD-[CN]PU--U">begge</W>
 <W lemma="side" msd="NCCPU==I">sider</W>
 <W lemma="." msd="XP">.</W>
@@ -297,7 +297,7 @@
 <W lemma="millimeter" msd="NCCPU==I">mm</W>
 <W lemma="bolt" msd="NCCSU==I">bolt</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="spær" msd="NCNPU==D">spærene</W>
+<W lemma="spÃ¦r" msd="NCNPU==D">spÃ¦rene</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

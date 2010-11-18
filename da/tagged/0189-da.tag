@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Transportbranchen splittes op</title>
-            <author gender=m born=1967>Jørgensen, Asbjørn</author>
+            <author gender=m born=1967>JÃ¸rgensen, AsbjÃ¸rn</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -44,12 +44,12 @@
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="om" msd="SP">Om</W>
 <W lemma="nogen" msd="PI-[CN]PU--U">nogle</W>
-<W lemma="år" msd="NCNPU==I">år</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="kun" msd="RGU">kun</W>
 <W lemma="fem-seks" msd="AC---U=--">fem-seks</W>
-<W lemma="europæisk" msd="ANP[CN]PU=[DI]U">europæiske</W>
+<W lemma="europÃ¦isk" msd="ANP[CN]PU=[DI]U">europÃ¦iske</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="global" msd="XF">global</W>
 <W lemma="carriers" msd="XF">carriers</W>
@@ -59,17 +59,17 @@
 <s>
 <W lemma="for" msd="SP">For</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="betegnelse" msd="NCCSU==I">betegnelse</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
-<W lemma="stærk" msd="ANPCSU=IU">stærk</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
+<W lemma="stÃ¦rk" msd="ANPCSU=IU">stÃ¦rk</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="marked" msd="NCNPU==D">markederne</W>
-<W lemma="både" msd="RGU">både</W>
+<W lemma="bÃ¥de" msd="RGU">bÃ¥de</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Europa" msd="NP--U==-">Europa</W>
 <W lemma="," msd="XP">,</W>
@@ -86,7 +86,7 @@
 <W lemma="ved" msd="SP">ved</W>
 <W lemma="Kalmar" msd="NP--U==-">Kalmar</W>
 <W lemma="teknisk" msd="ANP[CN]SU=DU">Tekniske</W>
-<W lemma="højskole" msd="NCCSU==I">Højskole</W>
+<W lemma="hÃ¸jskole" msd="NCCSU==I">HÃ¸jskole</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Sverige" msd="NP--U==-">Sverige</W>
 <W lemma="." msd="XP">.</W>
@@ -94,7 +94,7 @@
 <s>
 <W lemma="han" msd="PP3CSN-NU">Han</W>
 <W lemma="deltage" msd="VADA=----A-">deltog</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="EuroTraffic-konference" msd="NCCSU==D">EuroTraffic-konferencen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Aalborg" msd="NP--U==-">Aalborg</W>
@@ -106,7 +106,7 @@
 <W lemma="ingen" msd="PI-CSU--U">Ingen</W>
 <W lemma="dansk" msd="ANP[CN]PU=[DI]U">danske</W>
 <W lemma="landtransportfirma" msd="NCNPU==I">landtransportfirmaer</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="blandt" msd="SP">blandt</W>
 <W lemma="de" msd="PP3[CN]PU-NU">dem</W>
@@ -123,7 +123,7 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="derimod" msd="RGU">derimod</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="svensk" msd="ANP[CN]SU=DU">svenske</W>
@@ -145,11 +145,11 @@
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="nødvendigvis" msd="RGU">nødvendigvis</W>
+<W lemma="nÃ¸dvendigvis" msd="RGU">nÃ¸dvendigvis</W>
 <W lemma="se" msd="VAF-=----A-">se</W>
 <W lemma="fusion" msd="NCCPU==I">fusioner</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="opkøb" msd="NCNPU==I">opkøb</W>
+<W lemma="opkÃ¸b" msd="NCNPU==I">opkÃ¸b</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -158,7 +158,7 @@
 <W lemma="gruppe" msd="NCCPU==I">grupper</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
 <W lemma="lige" msd="RGU">lige</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="god" msd="ANP---=-R">godt</W>
 <W lemma="danne" msd="VAF-=----P-">dannes</W>
 <W lemma="ved" msd="SP">ved</W>
@@ -180,9 +180,9 @@
 <W lemma="den" msd="PD-CSU--U">Den</W>
 <W lemma="vokse" msd="VAPR=[SP][CN][DI]A-U">voksende</W>
 <W lemma="konkurrence" msd="NCCSU==I">konkurrence</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="transportområde" msd="NCNSU==D">transportområdet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="transportomrÃ¥de" msd="NCNSU==D">transportomrÃ¥det</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
@@ -190,11 +190,11 @@
 <W lemma="presse" msd="VAF-=----A-">presse</W>
 <W lemma="opsplitning" msd="NCCSU==D">opsplitningen</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="få" msd="ANP[CN]PU=[DI]U">få</W>
+<W lemma="fÃ¥" msd="ANP[CN]PU=[DI]U">fÃ¥</W>
 <W lemma="stor" msd="ANP[CN]PU=[DI]U">store</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
-<W lemma="lille" msd="ANP[CN]PU=[DI]U">små</W>
+<W lemma="lille" msd="ANP[CN]PU=[DI]U">smÃ¥</W>
 <W lemma="igennem" msd="RGU">igennem</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -216,21 +216,21 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="satellitkommunikation" msd="NCCSU==I">satellitkommunikation</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="videre" msd="RGU">videre</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="industri" msd="NCCSU==D">Industrien</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="vælge" msd="VAF-=----A-">vælge</W>
+<W lemma="vÃ¦lge" msd="VAF-=----A-">vÃ¦lge</W>
 <W lemma="billig" msd="ANP---=-R">billigt</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="uanset" msd="SP">uanset</W>
 <W lemma="nationalitet" msd="NCCSU==I">nationalitet</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="når" msd="CS">når</W>
+<W lemma="nÃ¥r" msd="CS">nÃ¥r</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="enkelt" msd="ANP[CN]SU=DU">enkelte</W>
 <W lemma="transportfirma" msd="NCNSU==I">transportfirma</W>
@@ -242,7 +242,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="presse" msd="VADR=----P-">presses</W>
 <W lemma="pris" msd="NCCPU==D">priserne</W>
-<W lemma="lang" msd="ANC---=-R">længere</W>
+<W lemma="lang" msd="ANC---=-R">lÃ¦ngere</W>
 <W lemma="ned" msd="RGU">ned</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -251,7 +251,7 @@
 <s>
 <W lemma="for" msd="SP">For</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="lille" msd="ANP[CN]PU=[DI]U">små</W>
+<W lemma="lille" msd="ANP[CN]PU=[DI]U">smÃ¥</W>
 <W lemma="transportfirma" msd="NCNPU==I">transportfirmaer</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
 <W lemma="chance" msd="NCCSU==D">chancen</W>

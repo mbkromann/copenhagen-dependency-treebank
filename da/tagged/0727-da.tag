@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Vinderne skal sikre erhvervsudvikling</title>
-            <author>Madsen, Ole Øhlenschlæger</author>
+            <author>Madsen, Ole Ã˜hlenschlÃ¦ger</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -42,7 +42,7 @@
 <p>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="eksempelvis" msd="RGU">eksempelvis</W>
 <W lemma="stor" msd="ANP[CN]PU=[DI]U">store</W>
 <W lemma="del" msd="NCCPU==I">dele</W>
@@ -56,19 +56,19 @@
 </p>
 <p>
 <s>
-<W lemma="spørgsmål" msd="NCNSU==D">Spørgsmålet</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="spÃ¸rgsmÃ¥l" msd="NCNSU==D">SpÃ¸rgsmÃ¥let</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="hvordan" msd="RGU">hvordan</W>
 <W lemma="man" msd="PI-C[SP]N--U">man</W>
-<W lemma="få" msd="VADR=----A-">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-">fÃ¥r</W>
 <W lemma="fremme" msd="VAPA=S[CN]I[ARU]-U">fremmet</W>
 <W lemma="udvikling" msd="NCCSU==D">udviklingen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="SMV'er" msd="NCCPU==D">SMV'erne</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="således" msd="RGU">således</W>
+<W lemma="sÃ¥ledes" msd="RGU">sÃ¥ledes</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="fortsat" msd="RGU">fortsat</W>
@@ -80,8 +80,8 @@
 <W lemma="konkurrenceevne" msd="NCCSU==I">konkurrenceevne</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="primær" msd="ANP---=-R">primært</W>
-<W lemma="bestå" msd="VADR=----A-">består</W>
+<W lemma="primÃ¦r" msd="ANP---=-R">primÃ¦rt</W>
+<W lemma="bestÃ¥" msd="VADR=----A-">bestÃ¥r</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="betydelig" msd="ANP[CN]SU=DU">betydelige</W>
@@ -95,7 +95,7 @@
 <W lemma="erindre" msd="VAF-=----P-">erindres</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
-<W lemma="vækst" msd="NCCSU==I">vækst</W>
+<W lemma="vÃ¦kst" msd="NCCSU==I">vÃ¦kst</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="denne" msd="PD-[CN]PU--U">disse</W>
 <W lemma="SMV'er" msd="NCCPU==I">SMV'er</W>
@@ -106,9 +106,9 @@
 <W lemma="virksomhed" msd="NCCPU==I">virksomheder</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="mål" msd="NCNSU==I">mål</W>
+<W lemma="mÃ¥l" msd="NCNSU==I">mÃ¥l</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="selv" msd="PD-[CN][SP]U--U">selv</W>
@@ -120,9 +120,9 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="igennem" msd="SP">igennem</W>
-<W lemma="vækst" msd="NCCSU==I">vækst</W>
+<W lemma="vÃ¦kst" msd="NCCSU==I">vÃ¦kst</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="virksomhed" msd="NCCSU==I">virksomhed</W>
@@ -130,7 +130,7 @@
 <W lemma="mulighed" msd="NCCSU==I">mulighed</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="opnå" msd="VAF-=----A-">opnå</W>
+<W lemma="opnÃ¥" msd="VAF-=----A-">opnÃ¥</W>
 <W lemma="frihedsgrad" msd="NCCPU==I">frihedsgrader</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="ledelse" msd="NCCSU==D">ledelsen</W>
@@ -147,8 +147,8 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="vækst" msd="NCCSU==I">vækst</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦kst" msd="NCCSU==I">vÃ¦kst</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
@@ -169,7 +169,7 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="produktudvikling" msd="NCCSU==I">produktudvikling</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="markedsføring" msd="NCCSU==I">markedsføring</W>
+<W lemma="markedsfÃ¸ring" msd="NCCSU==I">markedsfÃ¸ring</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="fremstillingsteknologi" msd="NCCSU==I">fremstillingsteknologi</W>
 <W lemma="." msd="XP">.</W>
@@ -179,12 +179,12 @@
 <s>
 <W lemma="hvilken" msd="PT-[CN]PU--U">Hvilke</W>
 <W lemma="barriere" msd="NCCPU==I">barrierer</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="så" msd="RGU">så</W>
+<W lemma="sÃ¥" msd="RGU">sÃ¥</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="sådan" msd="ANPCSU=IU">sådan</W>
+<W lemma="sÃ¥dan" msd="ANPCSU=IU">sÃ¥dan</W>
 <W lemma="positiv" msd="ANPCSU=IU">positiv</W>
 <W lemma="udvikling" msd="NCCSU==I">udvikling</W>
 <W lemma="?" msd="XP">?</W>
@@ -194,8 +194,8 @@
 <s>
 <W lemma="for" msd="SP">For</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
-<W lemma="første" msd="ANP[CN][SP]U=[DI]U">første</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="fÃ¸rste" msd="ANP[CN][SP]U=[DI]U">fÃ¸rste</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="ydre" msd="ANP[CN][SP]U=[DI]U">ydre</W>
@@ -214,18 +214,18 @@
 <W lemma="jo" msd="RGU">jo</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="påvirke" msd="VAF-=----A-">påvirke</W>
+<W lemma="pÃ¥virke" msd="VAF-=----A-">pÃ¥virke</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="den" msd="PP3CSU-NU">Den</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="tilpasse" msd="VAF-=----A-">tilpasse</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="sådan" msd="ANPCSU=IU">sådan</W>
-<W lemma="måde" msd="NCCSU==I">måde</W>
+<W lemma="sÃ¥dan" msd="ANPCSU=IU">sÃ¥dan</W>
+<W lemma="mÃ¥de" msd="NCCSU==I">mÃ¥de</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="der" msd="U=">der</W>
@@ -235,16 +235,16 @@
 <W lemma="konsolidere" msd="VADR=----P-">konsolideres</W>
 <W lemma="igennem" msd="SP">igennem</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="høj" msd="ANPCSU=IU">høj</W>
+<W lemma="hÃ¸j" msd="ANPCSU=IU">hÃ¸j</W>
 <W lemma="indtjening" msd="NCCSU==I">indtjening</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="hjælpe" msd="VAF-=----A-">hjælpe</W>
+<W lemma="hjÃ¦lpe" msd="VAF-=----A-">hjÃ¦lpe</W>
 <W lemma="virksomhed" msd="NCCSU==D">virksomheden</W>
 <W lemma="igennem" msd="SP">igennem</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="dårlig" msd="ANP[CN]PU=[DI]U">dårlige</W>
+<W lemma="dÃ¥rlig" msd="ANP[CN]PU=[DI]U">dÃ¥rlige</W>
 <W lemma="tid" msd="NCCPU==I">tider</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="en" msd="PI-CSU--U">en</W>

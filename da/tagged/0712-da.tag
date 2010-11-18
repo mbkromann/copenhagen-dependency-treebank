@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Dansk Idræts-Forbund mod år 2000'</title>
+        <title>Tagged sample of: 'Dansk IdrÃ¦ts-Forbund mod Ã¥r 2000'</title>
       </titleStmt>
       <extent words=158>158 running words</extent>
       <publicationStmt>
@@ -14,8 +14,8 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Dansk Idræts-Forbund mod år 2000</title>
-            <author gender=m>Pilegård, Vagn</author>
+            <title>Dansk IdrÃ¦ts-Forbund mod Ã¥r 2000</title>
+            <author gender=m>PilegÃ¥rd, Vagn</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -51,53 +51,53 @@
 <W lemma="nu" msd="RGU">Nu</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="forslag" msd="NCNPU==D">forslagene</W>
-<W lemma="føre" msd="VAF-=----P-">føres</W>
+<W lemma="fÃ¸re" msd="VAF-=----P-">fÃ¸res</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="liv" msd="NCNSU==D">livet</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="Dansk_Idræts-forbund" msd="NCNSU==I">Dansk_Idræts-Forbund</W>
-<W lemma="ønske" msd="VADR=----A-">ønsker</W>
+<W lemma="Dansk_IdrÃ¦ts-forbund" msd="NCNSU==I">Dansk_IdrÃ¦ts-Forbund</W>
+<W lemma="Ã¸nske" msd="VADR=----A-">Ã¸nsker</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="støtte" msd="VAF-=----A-">støtte</W>
+<W lemma="stÃ¸tte" msd="VAF-=----A-">stÃ¸tte</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="forening" msd="NCCPU==I">foreninger</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="idrætssamvirke" msd="NCNPU==I">idrætssamvirker</W>
+<W lemma="idrÃ¦tssamvirke" msd="NCNPU==I">idrÃ¦tssamvirker</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="specialforbund" msd="NCNPU==I">specialforbund</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="aktiv" msd="ANP---=-R">aktivt</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="ind" msd="RGU">ind</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="nødvendig" msd="ANP[CN]SU=DU">nødvendige</W>
+<W lemma="nÃ¸dvendig" msd="ANP[CN]SU=DU">nÃ¸dvendige</W>
 <W lemma="omstillingsproces" msd="NCCSU==I">omstillingsproces</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="foreløbig" msd="ANP---=-R">Foreløbig</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="forelÃ¸big" msd="ANP---=-R">ForelÃ¸big</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="afsætte" msd="VAPA=S[CN]I[ARU]-U">afsat</W>
-<W lemma="en" msd="PI-CSU--U">én</W>
+<W lemma="afsÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">afsat</W>
+<W lemma="en" msd="PI-CSU--U">Ã©n</W>
 <W lemma="million" msd="NCCSU==I">mill.</W>
 <W lemma="krone" msd="NCCPU==I">kroner</W>
 <W lemma="om" msd="SP">om</W>
-<W lemma="år" msd="NCNSU==D">året</W>
+<W lemma="Ã¥r" msd="NCNSU==D">Ã¥ret</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="denne" msd="PD-NSU--U">dette</W>
-<W lemma="formål" msd="NCNSU==I">formål</W>
+<W lemma="formÃ¥l" msd="NCNSU==I">formÃ¥l</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="desuden" msd="RGU">Desuden</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="Dansk_Idræts-forbund" msd="NCNSU==I">Dansk_Idræts-Forbund</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="Dansk_IdrÃ¦ts-forbund" msd="NCNSU==I">Dansk_IdrÃ¦ts-Forbund</W>
 <W lemma="klar" msd="ANPCSU=IU">klar</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
@@ -113,7 +113,7 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="uddannelse" msd="NCCSU==I">uddannelse</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="konsulentstøtte" msd="NCCSU==I">konsulentstøtte</W>
+<W lemma="konsulentstÃ¸tte" msd="NCCSU==I">konsulentstÃ¸tte</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -123,8 +123,8 @@
 <W lemma="tro" msd="VADR=----A-">tror</W>
 <W lemma="nemlig" msd="RGU">nemlig</W>
 <W lemma="fortsat" msd="RGU">fortsat</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="idrætsforening" msd="NCCSU==D">idrætsforeningen</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="idrÃ¦tsforening" msd="NCCSU==D">idrÃ¦tsforeningen</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="sted" msd="NCNSU==I">sted</W>
@@ -135,24 +135,24 @@
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
 <W lemma="alder" msd="NCCPU==I">aldre</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="god" msd="ANP[CN]PU=[DI]U">gode</W>
 <W lemma="oplevelse" msd="NCCPU==I">oplevelser</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
-<W lemma="afprøve" msd="VAPA=S[CN]I[ARU]-U">afprøvet</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
+<W lemma="afprÃ¸ve" msd="VAPA=S[CN]I[ARU]-U">afprÃ¸vet</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="personlig" msd="ANP[CN]PU=[DI]U">personlige</W>
-<W lemma="grænse" msd="NCCPU==I">grænser</W>
+<W lemma="grÃ¦nse" msd="NCCPU==I">grÃ¦nser</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="få" msd="VAF-=----A-">få</W>
+<W lemma="fÃ¥" msd="VAF-=----A-">fÃ¥</W>
 <W lemma="etablere" msd="VAPA=S[CN]I[ARU]-U">etableret</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="god" msd="ANP[CN]PU=[DI]U">gode</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="ofte" msd="RGP">ofte</W>
 <W lemma="livsvarende" msd="XX">livsvarende</W>
-<W lemma="fællesskab" msd="NCNPU==I">fællesskaber</W>
+<W lemma="fÃ¦llesskab" msd="NCNPU==I">fÃ¦llesskaber</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -163,7 +163,7 @@
 <p>
 <s>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="ind" msd="RGU">ind</W>
 <W lemma="i" msd="SP">i</W>
@@ -175,7 +175,7 @@
 <W lemma="fordi" msd="CS">fordi</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="etablere" msd="VAPA=S[CN]DA-U">etablerede</W>
-<W lemma="idræt" msd="NCCSU==I">idræt</W>
+<W lemma="idrÃ¦t" msd="NCCSU==I">idrÃ¦t</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="enhver" msd="PI-CSU--U">enhver</W>
 <W lemma="pris" msd="NCCSU==I">pris</W>
@@ -190,17 +190,17 @@
 <W lemma="der" msd="U=">der</W>
 <W lemma="skulle" msd="VADR=----A-">skal</W>
 <W lemma="da" msd="RGU">da</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="nok" msd="RGU">nok</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="del" msd="NCCSU==I">del</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="ikke" msd="RGU">ikke</W>
-<W lemma="ønske" msd="VADR=----A-">ønsker</W>
+<W lemma="Ã¸nske" msd="VADR=----A-">Ã¸nsker</W>
 <W lemma="at" msd="U=">at</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
 <W lemma="med" msd="RGU">med</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="forskellig" msd="ANP[CN]PU=[DI]U">forskellige</W>
@@ -209,7 +209,7 @@
 </s>
 <s>
 <W lemma="vi" msd="PP1CPN-NU">Vi</W>
-<W lemma="gøre" msd="VADR=----A-">gør</W>
+<W lemma="gÃ¸re" msd="VADR=----A-">gÃ¸r</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fordi" msd="CS">fordi</W>
@@ -222,7 +222,7 @@
 <W lemma="anden" msd="PI-CSU--U">anden</W>
 <W lemma="kulturinstitution" msd="NCCSU==I">kulturinstitution</W>
 <W lemma="end" msd="CS">end</W>
-<W lemma="idrætsforening" msd="NCCSU==D">idrætsforeningen</W>
+<W lemma="idrÃ¦tsforening" msd="NCCSU==D">idrÃ¦tsforeningen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="lokalsamfund" msd="NCNSU==D">lokalsamfundet</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
@@ -233,9 +233,9 @@
 <W lemma="skabe" msd="VAF-=----A-">skabe</W>
 <W lemma="bredde-" msd="XX">bredde-</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="længdeidræt" msd="NCCSU==I">længdeidræt</W>
+<W lemma="lÃ¦ngdeidrÃ¦t" msd="NCCSU==I">lÃ¦ngdeidrÃ¦t</W>
 <W lemma=":" msd="XP">:</W>
-<W lemma="idræt" msd="NCCSU==I">Idræt</W>
+<W lemma="idrÃ¦t" msd="NCCSU==I">IdrÃ¦t</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U">alle</W>
 <W lemma=" - " msd="XP"> - </W>

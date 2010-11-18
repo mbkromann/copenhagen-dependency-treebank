@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Rigets bedste mænd. Da det store erhverv'</title>
+        <title>Tagged sample of: 'Rigets bedste mÃ¦nd. Da det store erhverv'</title>
       </titleStmt>
       <extent words=147>147 running words</extent>
       <publicationStmt>
@@ -14,8 +14,8 @@
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Rigets bedste mænd. Da det store erhverv<title>
-               <author gender=m born=1937>Tjørnehøj, Henning</author>
+            <title>Rigets bedste mÃ¦nd. Da det store erhverv<title>
+               <author gender=m born=1937>TjÃ¸rnehÃ¸j, Henning</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1990</date>
@@ -55,7 +55,7 @@
 <W lemma="efter" msd="SP">efter</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="tysk" msd="ANP[CN]SU=DU">tyske</W>
-<W lemma="besættelse" msd="NCCSU==I">besættelse</W>
+<W lemma="besÃ¦ttelse" msd="NCCSU==I">besÃ¦ttelse</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="Danmark" msd="NP--U==-">Danmark</W>
 <W lemma="," msd="XP">,</W>
@@ -87,11 +87,11 @@
 <W lemma="svare" msd="VAPR=[SP][CN][DI][ARU]-U">svarende</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="nuværende" msd="ANP[CN][SP]U=[DI]U">nuværende</W>
+<W lemma="nuvÃ¦rende" msd="ANP[CN][SP]U=[DI]U">nuvÃ¦rende</W>
 <W lemma="bistandslov" msd="NCCSU==I">Bistandslov</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="arbejdsløshedslov" msd="NCCSU==D">Arbejdsløshedsloven</W>
+<W lemma="arbejdslÃ¸shedslov" msd="NCCSU==D">ArbejdslÃ¸shedsloven</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -123,25 +123,25 @@
 <W lemma="ikke" msd="RGU">ikke</W>
 </hi>
 <W lemma="kunne" msd="VADA=----A-">kunne</W>
-<W lemma="påvise" msd="VAF-=----P-">påvises</W>
+<W lemma="pÃ¥vise" msd="VAF-=----P-">pÃ¥vises</W>
 <W lemma="under" msd="SP">under</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="udvalgsarbejde" msd="NCNSU==I">udvalgsarbejde</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="foregå" msd="VADA=----A-">foregik</W>
+<W lemma="foregÃ¥" msd="VADA=----A-">foregik</W>
 <W lemma="fra" msd="SP">fra</W>
-<W lemma="forår" msd="NCNSU==D">foråret</W>
+<W lemma="forÃ¥r" msd="NCNSU==D">forÃ¥ret</W>
 <W lemma="1941" msd="AC---U=--">1941</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="år" msd="NCNSU==I">år</W>
+<W lemma="Ã¥r" msd="NCNSU==I">Ã¥r</W>
 <W lemma="frem" msd="RGU">frem</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="alligevel" msd="RGU">Alligevel</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="venstre" msd="NCNSU==I">Venstre</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="vilje" msd="NCCSU==I">vilje</W>
@@ -150,7 +150,7 @@
 <s>
 <W lemma="forringelse" msd="NCCPU==D">Forringelserne</W>
 <W lemma="blive" msd="VADA=----A-">blev</W>
-<W lemma="gennemføre" msd="VAPA=S[CN]I[ARU]-U">gennemført</W>
+<W lemma="gennemfÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gennemfÃ¸rt</W>
 <W lemma="!" msd="XP">!</W>
 </s>
 <s>
@@ -163,7 +163,7 @@
 <W lemma="socialreform" msd="NCCSU==D">Socialreformen</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="1933" msd="AC---U=--">1933</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="blive" msd="VAPA=S[CN]I[ARU]-U">blevet</W>
 <hi>
 <W lemma="undtagelse" msd="NCCSU==D">undtagelsen</W>
@@ -173,33 +173,33 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="modtage" msd="VADA=----A-">modtog</W>
-<W lemma="socialhjælp" msd="NCCSU==I">socialhjælp</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="socialhjÃ¦lp" msd="NCCSU==I">socialhjÃ¦lp</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="fratage" msd="VAPA=S[CN]I[ARU]-U">frataget</W>
 <W lemma="denne" msd="PD-CSU--U">denne</W>
 <W lemma="stemmeret" msd="NCCSU==I">stemmeret</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="såkaldt" msd="ANP[CN]SU=DU">såkaldte</W>
+<W lemma="sÃ¥kaldt" msd="ANP[CN]SU=DU">sÃ¥kaldte</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="retsvirkning" msd="NCCSU==I">retsvirkning</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma=" - " msd="XP"> - </W>
 <W lemma="hvor" msd="RGU">hvor</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="før" msd="RGU">før</W>
+<W lemma="fÃ¸r" msd="RGU">fÃ¸r</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <hi>
 <W lemma="regel" msd="NCCSU==D">reglen</W>
 </hi>
 <W lemma="," msd="XP">,</W>
-<W lemma="få" msd="VADA=----A-">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-">fik</W>
 <W lemma="venstre" msd="NCNSU==I">Venstre</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="1942" msd="AC---U=--">1942</W>
 <hi>
-<W lemma="genindføre" msd="VAPA=S[CN]I[ARU]-U">genindført</W>
+<W lemma="genindfÃ¸re" msd="VAPA=S[CN]I[ARU]-U">genindfÃ¸rt</W>
 <W lemma="fortabelse" msd="NCCSU==I">fortabelse</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="stemmeret" msd="NCCSU==I">stemmeret</W>
@@ -210,7 +210,7 @@
 <W lemma="af" msd="SP">af</W>
 <W lemma="syge-" msd="XX">syge-</W>
 <W lemma="eller" msd="CC">eller</W>
-<W lemma="socialhjælp" msd="NCCSU==I">socialhjælp</W>
+<W lemma="socialhjÃ¦lp" msd="NCCSU==I">socialhjÃ¦lp</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -222,19 +222,19 @@
 <W lemma="person" msd="NCCPU==I">personer</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="på_grund_af" msd="SP">på_grund_af</W>
+<W lemma="pÃ¥_grund_af" msd="SP">pÃ¥_grund_af</W>
 <W lemma="stor" msd="ANP[CN]PU=[DI]U">store</W>
-<W lemma="forsørgerpligt" msd="NCCPU==I">forsørgerpligter</W>
+<W lemma="forsÃ¸rgerpligt" msd="NCCPU==I">forsÃ¸rgerpligter</W>
 <W lemma="eller" msd="CC">eller</W>
-<W lemma="længerevarende" msd="ANP[CN][SP]U=[DI]U">længerevarende</W>
-<W lemma="arbejdsløshed" msd="NCCSU==I">arbejdsløshed</W>
+<W lemma="lÃ¦ngerevarende" msd="ANP[CN][SP]U=[DI]U">lÃ¦ngerevarende</W>
+<W lemma="arbejdslÃ¸shed" msd="NCCSU==I">arbejdslÃ¸shed</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="periode" msd="NCCSU==I">periode</W>
 <W lemma="kontinuerlig" msd="ANP---=-R">kontinuerligt</W>
 <W lemma="have" msd="VADA=----A-">havde</W>
-<W lemma="få" msd="VAPA=S[CN]I[ARU]-U">fået</W>
-<W lemma="socialhjælp" msd="NCCSU==I">socialhjælp</W>
+<W lemma="fÃ¥" msd="VAPA=S[CN]I[ARU]-U">fÃ¥et</W>
+<W lemma="socialhjÃ¦lp" msd="NCCSU==I">socialhjÃ¦lp</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>

@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Skræddersyet sommerhus'</title>
+        <title>Tagged sample of: 'SkrÃ¦ddersyet sommerhus'</title>
       </titleStmt>
       <extent words=151>151 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Skræddersyet sommerhus</title>
+            <title>SkrÃ¦ddersyet sommerhus</title>
             <author gender=m born=1922>Hartung, Martin</author>
           </analytic>
           <monogr>
@@ -68,7 +68,7 @@
 <W lemma="areal" msd="NCNSU==D">arealet</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="stor" msd="ANPCSU=IU">stor</W>
-<W lemma="køkkenstue" msd="NCCSU==I">køkkenstue</W>
+<W lemma="kÃ¸kkenstue" msd="NCCSU==I">kÃ¸kkenstue</W>
 <W lemma="(" msd="XP">(</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="lys" msd="NCNSU==I">lys</W>
@@ -85,9 +85,9 @@
 <W lemma="ligge" msd="VADR=----A-">ligger</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="to" msd="AC---U=--">to</W>
-<W lemma="gæsteværelse" msd="NCNPU==I">gæsteværelser</W>
+<W lemma="gÃ¦stevÃ¦relse" msd="NCNPU==I">gÃ¦stevÃ¦relser</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="fælles" msd="ANP[CN][SP]U=[DI]U">fælles</W>
+<W lemma="fÃ¦lles" msd="ANP[CN][SP]U=[DI]U">fÃ¦lles</W>
 <W lemma="bad/toilet" msd="XX">bad/toilet</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -97,9 +97,9 @@
 <W lemma="den" msd="PD-NSU--U">Det</W>
 <W lemma="ny" msd="ANP[CN]SU=DU">ny</W>
 <W lemma="hus" msd="NCNSU==I">hus</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="dele" msd="VAPA=S[CN]I[ARU]-U">delt</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="langs" msd="RGU">langs</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
@@ -117,11 +117,11 @@
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="anden" msd="PI-CSU--U">anden</W>
-<W lemma="fortsætte" msd="VADR=----A-">fortsætter</W>
+<W lemma="fortsÃ¦tte" msd="VADR=----A-">fortsÃ¦tter</W>
 <W lemma="ud" msd="RGU">ud</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="overdække" msd="VAPA=S[CN]IA-U">overdækket</W>
+<W lemma="overdÃ¦kke" msd="VAPA=S[CN]IA-U">overdÃ¦kket</W>
 <W lemma="terrasse" msd="NCCSU==I">terrasse</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="videre" msd="RGU">videre</W>
@@ -147,9 +147,9 @@
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="fri" msd="ANP[CN]SU=DU">fri</W>
 <W lemma=")" msd="XP">)</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="placere" msd="VAPA=S[CN]I[ARU]-U">placeret</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="ene" msd="ANP[CN][SP]U=[DI]U">ene</W>
 <W lemma="side" msd="NCCSU==I">side</W>
@@ -157,19 +157,19 @@
 <W lemma="gang" msd="NCCSU==D">gangen</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="anden" msd="PI-CSU--U">anden</W>
 <W lemma="side" msd="NCCSU==I">side</W>
 <W lemma="ligge" msd="VADR=----A-">ligger</W>
-<W lemma="arbejdsværelse" msd="NCNSU==D">arbejdsværelset</W>
+<W lemma="arbejdsvÃ¦relse" msd="NCNSU==D">arbejdsvÃ¦relset</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
-<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">større</W>
+<W lemma="stor" msd="ANC[CN][SP]U=[DI]U">stÃ¸rre</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="lille" msd="ANC[CN][SP]U=[DI]U">mindre</W>
-<W lemma="soveværelse" msd="NCNSU==I">soveværelse</W>
+<W lemma="sovevÃ¦relse" msd="NCNSU==I">sovevÃ¦relse</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="samt" msd="CC">samt</W>
 <W lemma="pejsestue" msd="NCCSU==I">pejsestue</W>
@@ -179,11 +179,11 @@
 <p>
 <s>
 <W lemma="fritids-stemning" msd="NCCSU==D">Fritids-stemningen</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="effektfuld" msd="ANP---=-R">effektfuldt</W>
-<W lemma="slå" msd="VAPA=S[CN]I[ARU]-U">slået</W>
+<W lemma="slÃ¥" msd="VAPA=S[CN]I[ARU]-U">slÃ¥et</W>
 <W lemma="an" msd="RGU">an</W>
-<W lemma="også" msd="RGU">også</W>
+<W lemma="ogsÃ¥" msd="RGU">ogsÃ¥</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="valg" msd="NCNSU==D">valget</W>
 <W lemma="af" msd="SP">af</W>
@@ -196,7 +196,7 @@
 <s>
 <W lemma="de" msd="PP3[CN]PN-NU">De</W>
 <W lemma="give" msd="VADR=----A-">giver</W>
-<W lemma="interiør" msd="NCNPU==D">interiørerne</W>
+<W lemma="interiÃ¸r" msd="NCNPU==D">interiÃ¸rerne</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="smuk" msd="ANPCSU=IU">smuk</W>
 <W lemma="," msd="XP">,</W>
@@ -204,26 +204,26 @@
 <W lemma="karakter" msd="NCCSU==I">karakter</W>
 <W lemma=";" msd="XP">;</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
-<W lemma="tåle" msd="VADR=----A-">tåler</W>
+<W lemma="tÃ¥le" msd="VADR=----A-">tÃ¥ler</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="blive" msd="VAF-=----A-">blive</W>
 <W lemma="slide" msd="VAPA=S[CN]I[ARU]-U">slidt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="ja" msd="I=">ja</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="erfaringsmæssig" msd="ANP---=-R">erfaringsmæssigt</W>
+<W lemma="erfaringsmÃ¦ssig" msd="ANP---=-R">erfaringsmÃ¦ssigt</W>
 <W lemma="blive" msd="VADR=----A-">bliver</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
 <W lemma="smuk" msd="ANC[CN][SP]U=[DI]U">smukkere</W>
 <W lemma="med" msd="SP">med</W>
-<W lemma="år" msd="NCNPU==D">årene</W>
+<W lemma="Ã¥r" msd="NCNPU==D">Ã¥rene</W>
 <W lemma=";" msd="XP">;</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="de" msd="PP3[CN]PN-NU">de</W>
-<W lemma="kræve" msd="VADR=----A-">kræver</W>
+<W lemma="krÃ¦ve" msd="VADR=----A-">krÃ¦ver</W>
 <W lemma="hverken" msd="RGU">hverken</W>
 <W lemma="meget" msd="ANPCSU=[DI]U">megen</W>
-<W lemma="rengøring" msd="NCCSU==I">rengøring</W>
+<W lemma="rengÃ¸ring" msd="NCCSU==I">rengÃ¸ring</W>
 <W lemma="eller" msd="CC">eller</W>
 <W lemma="vedligeholdelse" msd="NCCSU==I">vedligeholdelse</W>
 <W lemma="." msd="XP">.</W>

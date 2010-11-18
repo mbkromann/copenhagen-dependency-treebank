@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Naturen her er ægte buddhistisk'</title>
+        <title>Tagged sample of: 'Naturen her er Ã¦gte buddhistisk'</title>
       </titleStmt>
       <extent words=174>174 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Naturen her er ægte buddhistisk</title>
+            <title>Naturen her er Ã¦gte buddhistisk</title>
             <author gender=m>Rose, Flemming</author>
           </analytic>
           <monogr>
@@ -43,15 +43,15 @@
 <s>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="jeg" msd="PP1CSN-NU">Jeg</W>
-<W lemma="forstå" msd="VADR=----A-">forstår</W>
+<W lemma="forstÃ¥" msd="VADR=----A-">forstÃ¥r</W>
 <W lemma="historie" msd="NCCSU==D">historien</W>
-<W lemma="således" msd="RGU">således</W>
+<W lemma="sÃ¥ledes" msd="RGU">sÃ¥ledes</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="praksis" msd="NCCSU==I">praksis</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="vores" msd="PO1[CN][SP]UPNU">vores</W>
 <W lemma="liv" msd="NCNPU==I">liv</W>
 <W lemma="," msd="XP">,</W>
@@ -74,9 +74,9 @@
 </s>
 <s>
 <W lemma="han" msd="PP3CSN-NU">Han</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="buddhistisk" msd="ANP[CN]SU=IU">buddhistisk</W>
-<W lemma="præst" msd="NCCSU==I">præst</W>
+<W lemma="prÃ¦st" msd="NCCSU==I">prÃ¦st</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="kunstner" msd="NCCSU==I">kunstner</W>
 <W lemma="," msd="XP">,</W>
@@ -90,7 +90,7 @@
 <s>
 <W lemma="offerfest" msd="NCCSU==D">Offerfesten</W>
 <W lemma="i" msd="SP">I</W>
-<W lemma="modsætning" msd="NCCSU==I">modsætning</W>
+<W lemma="modsÃ¦tning" msd="NCCSU==I">modsÃ¦tning</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="mange" msd="ANS[CN]PU=DU">fleste</W>
@@ -134,11 +134,11 @@
 <W lemma="ej" msd="RGU">ej</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
-<W lemma="måtte" msd="VADR=----A-">må</W>
+<W lemma="mÃ¥tte" msd="VADR=----A-">mÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="enkelt" msd="ANP[CN]SU=DU">enkelte</W>
 <W lemma="menneske" msd="NCNSU==I">menneske</W>
-<W lemma="afgøre" msd="VAF-=----A-">afgøre</W>
+<W lemma="afgÃ¸re" msd="VAF-=----A-">afgÃ¸re</W>
 <W lemma="med" msd="SP">med</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="selv" msd="PD-[CN][SP]U--U">selv</W>
@@ -146,7 +146,7 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU">Det</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="buddhist" msd="NCCPG==D">buddhisternes</W>
@@ -167,7 +167,7 @@
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="fjor" msd="NC[CN][SP]U==[DI]">fjor</W>
-<W lemma="besøge" msd="VADA=----A-">besøgte</W>
+<W lemma="besÃ¸ge" msd="VADA=----A-">besÃ¸gte</W>
 <W lemma="Burjatien" msd="NP--U==-">Burjatien</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -175,7 +175,7 @@
 <p>
 <s>
 <W lemma="buddhisme" msd="NCCSU==D">Buddhismen</W>
-<W lemma="forsøge" msd="VADR=----A-">forsøger</W>
+<W lemma="forsÃ¸ge" msd="VADR=----A-">forsÃ¸ger</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="integrere" msd="VAF-=----A-">integrere</W>
 <W lemma="lokal" msd="ANP[CN]PU=[DI]U">lokale</W>
@@ -199,20 +199,20 @@
 <s>
 <W lemma="i" msd="SP">I</W>
 <W lemma="Burjatien" msd="NP--U==-">Burjatien</W>
-<W lemma="gælde" msd="VADR=----A-">gælder</W>
+<W lemma="gÃ¦lde" msd="VADR=----A-">gÃ¦lder</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="blandt_andet" msd="RGU">bl.a.</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
-<W lemma="ældgammel" msd="ANP[CN]SU=DU">ældgamle</W>
+<W lemma="Ã¦ldgammel" msd="ANP[CN]SU=DU">Ã¦ldgamle</W>
 <W lemma="offerfest" msd="NCCSU==I">offerfest</W>
 <W lemma="Obo" msd="NP--U==-">Obo</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="som" msd="U=">som</W>
-<W lemma="ifølge" msd="SP">ifølge</W>
+<W lemma="ifÃ¸lge" msd="SP">ifÃ¸lge</W>
 <W lemma="lokal" msd="ANP[CN]PU=[DI]U">lokale</W>
 <W lemma="etnograf" msd="NCCPU==I">etnografer</W>
-<W lemma="gå" msd="VADR=----A-">går</W>
-<W lemma="længe" msd="RGC">længere</W>
+<W lemma="gÃ¥" msd="VADR=----A-">gÃ¥r</W>
+<W lemma="lÃ¦nge" msd="RGC">lÃ¦ngere</W>
 <W lemma="tilbage" msd="RGU">tilbage</W>
 <W lemma="end" msd="CS">end</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
@@ -221,23 +221,23 @@
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
 <W lemma="hvile" msd="VADR=----A-">hviler</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="forestilling" msd="NCCSU==I">forestilling</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="shaman" msd="NCCPU==I">shamaner</W>
 <W lemma="(" msd="XP">(</W>
-<W lemma="særlig" msd="ANP---=-R">særligt</W>
-<W lemma="udvælge" msd="VAPA=P[CN][DI]A-U">udvalgte</W>
+<W lemma="sÃ¦rlig" msd="ANP---=-R">sÃ¦rligt</W>
+<W lemma="udvÃ¦lge" msd="VAPA=P[CN][DI]A-U">udvalgte</W>
 <W lemma="person" msd="NCCPU==I">personer</W>
 <W lemma=")" msd="XP">)</W>
 <W lemma="kunne" msd="VADR=----A-">kan</W>
-<W lemma="påvirke" msd="VAF-=----A-">påvirke</W>
+<W lemma="pÃ¥virke" msd="VAF-=----A-">pÃ¥virke</W>
 <W lemma="god" msd="ANP[CN]PU=[DI]U">gode</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="ond" msd="ANP[CN]PU=[DI]U">onde</W>
-<W lemma="ånd" msd="NCCPU==I">ånder</W>
+<W lemma="Ã¥nd" msd="NCCPU==I">Ã¥nder</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -249,7 +249,7 @@
 <W lemma="buddhisme" msd="NCCSU==D">buddhismen</W>
 <W lemma="overtage" msd="VAPA=S[CN]I[ARU]-U">overtaget</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="gøre" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
+<W lemma="gÃ¸re" msd="VAPA=S[CN]I[ARU]-U">gjort</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="organisk" msd="ANP[CN]SU=IU">organisk</W>
@@ -257,7 +257,7 @@
 <W lemma="af" msd="SP">af</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
 <W lemma="egen" msd="ANPCSU=[DI]U">egen</W>
-<W lemma="lære" msd="NCCSU==I">lære</W>
+<W lemma="lÃ¦re" msd="NCCSU==I">lÃ¦re</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Burjatien" msd="NP--U==-">Burjatien</W>
 <W lemma="." msd="XP">.</W>

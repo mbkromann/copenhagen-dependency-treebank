@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Rige lande må sikre elefanten mod udrydd'</title>
+        <title>Tagged sample of: 'Rige lande mÃ¥ sikre elefanten mod udrydd'</title>
       </titleStmt>
       <extent words=170>170 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Rige lande må sikre elefanten mod udrydd</title>
+            <title>Rige lande mÃ¥ sikre elefanten mod udrydd</title>
             <author>Kiley, Sam</author>
           </analytic>
           <monogr>
@@ -43,9 +43,9 @@
 <s>
 <W lemma="i" msd="SP">I</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
-<W lemma="indtrængende" msd="ANP[CN][SP]U=[DI]U">indtrængende</W>
+<W lemma="indtrÃ¦ngende" msd="ANP[CN][SP]U=[DI]U">indtrÃ¦ngende</W>
 <W lemma="tale" msd="NCCSU==I">tale</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="konference" msd="NCCSU==I">konference</W>
 <W lemma="i" msd="SP">i</W>
@@ -53,7 +53,7 @@
 <W lemma="om" msd="SP">om</W>
 <W lemma="elefant" msd="NCCSG==D">elefantens</W>
 <W lemma="fremtid" msd="NCCSU==I">fremtid</W>
-<W lemma="fortælle" msd="VADA=----A-">fortalte</W>
+<W lemma="fortÃ¦lle" msd="VADA=----A-">fortalte</W>
 <W lemma="doktor" msd="NCCSU==I">dr.</W>
 <W lemma="Tolba" msd="NP--U==-">Tolba</W>
 <W lemma="delegere" msd="VAPA=P[CN][DI]A-U">delegerede</W>
@@ -76,13 +76,13 @@
 <W lemma="krone" msd="NCCPU==I">kr.</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="der" msd="U=">der</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="brug" msd="NCCSU==I">brug</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
-<W lemma="være" msd="VAF-=----A-">være</W>
-<W lemma="nødt" msd="ANP[CN][SP]U=[DI]U">nødt</W>
+<W lemma="vÃ¦re" msd="VAF-=----A-">vÃ¦re</W>
+<W lemma="nÃ¸dt" msd="ANP[CN][SP]U=[DI]U">nÃ¸dt</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="at" msd="U=">at</W>
 <W lemma="komme" msd="VAF-=----A-">komme</W>
@@ -90,7 +90,7 @@
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
 <W lemma="rig" msd="ANP[CN]PU=[DI]U">rige</W>
 <W lemma="land" msd="NCNPU==I">lande</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-CSU--U">den</W>
 <W lemma="nordlig" msd="ANP[CN]SU=DU">nordlige</W>
 <W lemma="halvkugle" msd="NCCSU==I">halvkugle</W>
@@ -99,7 +99,7 @@
 <s>
 <W lemma="hvis" msd="CS">Hvis</W>
 <W lemma="verden" msd="NCCSG==I">verdens</W>
-<W lemma="velstående" msd="ANP[CN][SP]U=[DI]U">velstående</W>
+<W lemma="velstÃ¥ende" msd="ANP[CN][SP]U=[DI]U">velstÃ¥ende</W>
 <W lemma="land" msd="NCNPU==I">lande</W>
 <W lemma="ikke" msd="RGU">ikke</W>
 <W lemma="komme" msd="VADR=----A-">kommer</W>
@@ -107,7 +107,7 @@
 <W lemma="tykhudet" msd="ANP[CN]PU=[DI]U">tykhudede</W>
 <W lemma="dyr" msd="NCNPU==I">dyr</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="hjælp" msd="NCCSU==I">hjælp</W>
+<W lemma="hjÃ¦lp" msd="NCCSU==I">hjÃ¦lp</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="&quot;" msd="XP">"</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
@@ -116,7 +116,7 @@
 <W lemma="dens" msd="PO3[CN][SP]USNU">dens</W>
 <W lemma="levested" msd="NCNPU==I">levesteder</W>
 <W lemma="blive" msd="VAF-=----A-">blive</W>
-<W lemma="ødelægge" msd="VAPA=S[CN]I[ARU]-U">ødelagt</W>
+<W lemma="Ã¸delÃ¦gge" msd="VAPA=S[CN]I[ARU]-U">Ã¸delagt</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="bestand" msd="NCCSU==D">bestanden</W>
@@ -128,7 +128,7 @@
 <W lemma="mindske" msd="VAPA=S[CN]I[ARU]-U">mindsket</W>
 <W lemma="til" msd="SP">til</W>
 <W lemma="nogen" msd="PI-[CN]PU--U">nogle</W>
-<W lemma="få" msd="ANP[CN]PU=[DI]U">få</W>
+<W lemma="fÃ¥" msd="ANP[CN]PU=[DI]U">fÃ¥</W>
 <W lemma="isolere" msd="VAPA=P[CN][DI]A-U">isolerede</W>
 <W lemma="eksemplar" msd="NCNPU==I">eksemplarer</W>
 <W lemma="," msd="XP">,</W>
@@ -138,39 +138,39 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="befolkningsvækst" msd="NCCSU==I">Befolkningsvækst</W>
+<W lemma="befolkningsvÃ¦kst" msd="NCCSU==I">BefolkningsvÃ¦kst</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="befolkningstal" msd="NCNSU==D">Befolkningstallet</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="afrikansk" msd="ANP[CN]SU=DU">afrikanske</W>
 <W lemma="kontinent" msd="NCNSU==I">kontinent</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="i_dag" msd="RGU">i_dag</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="en" msd="PI-CSU--U">en</W>
 <W lemma="halv" msd="ANPCSU=IU">halv</W>
 <W lemma="milliard" msd="NCCSU==I">milliard</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
 <W lemma="FN" msd="NP--U==-">FN</W>
-<W lemma="skønne" msd="VADR=----A-">skønner</W>
+<W lemma="skÃ¸nne" msd="VADR=----A-">skÃ¸nner</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
 <W lemma="ville" msd="VADR=----A-">vil</W>
 <W lemma="stige" msd="VAF-=----A-">stige</W>
 <W lemma="til" msd="SP">til</W>
-<W lemma="en" msd="PI-CSU--U">én</W>
+<W lemma="en" msd="PI-CSU--U">Ã©n</W>
 <W lemma="milliard" msd="NCCSU==I">milliard</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="den" msd="PD-[CN]PU--U">de</W>
-<W lemma="næste" msd="ANP[CN][SP]U=[DI]U">næste</W>
+<W lemma="nÃ¦ste" msd="ANP[CN][SP]U=[DI]U">nÃ¦ste</W>
 <W lemma="23" msd="AC---U=--">23</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -196,7 +196,7 @@
 <W lemma="sige" msd="VADA=----A-">sagde</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="efterhånden" msd="RGU">efterhånden</W>
+<W lemma="efterhÃ¥nden" msd="RGU">efterhÃ¥nden</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="vokse" msd="VAPR=[SP][CN][DI]A-U">voksende</W>
@@ -216,9 +216,9 @@
 <s>
 <W lemma="doktor" msd="NCCSU==I">Dr.</W>
 <W lemma="Tolba" msd="NP--U==-">Tolba</W>
-<W lemma="gøre" msd="VADA=----A-">gjorde</W>
-<W lemma="opmærksom" msd="ANPCSU=IU">opmærksom</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="gÃ¸re" msd="VADA=----A-">gjorde</W>
+<W lemma="opmÃ¦rksom" msd="ANPCSU=IU">opmÃ¦rksom</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="at" msd="CS">at</W>
 <W lemma="det" msd="PP3NSU-NU">det</W>
@@ -239,12 +239,12 @@
 <W lemma="afrikaner" msd="NCCPU==I">afrikanere</W>
 <W lemma="bruge" msd="VADR=----A-">bruger</W>
 <W lemma="lang" msd="ANP---=-R">langt</W>
-<W lemma="få" msd="ANC[CN]PU=[DI]U">færre</W>
+<W lemma="fÃ¥" msd="ANC[CN]PU=[DI]U">fÃ¦rre</W>
 <W lemma="ressource" msd="NCCPU==I">ressourcer</W>
 <W lemma="end" msd="CS">end</W>
 <W lemma="nogen" msd="PI-CSU--U">nogen</W>
 <W lemma="anden" msd="PI-[CN]PU--U">andre</W>
-<W lemma="på" msd="SP">på</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
 <W lemma="planet" msd="NCCSU==D">planeten</W>
 <W lemma="." msd="XP">.</W>
 </s>

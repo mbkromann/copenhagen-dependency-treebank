@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="fødselsdag" msd="NCCSU==I">Fødselsdag</W>
+<W lemma="fÃ¸dselsdag" msd="NCCSU==I">FÃ¸dselsdag</W>
 </s>
 </p>
 <p>
@@ -58,7 +58,7 @@
 <W lemma="fylde" msd="VADR=----A-">fylder</W>
 <W lemma="i_morgen" msd="RGU">i_morgen</W>
 <W lemma="102" msd="AC---U=--">102</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -72,7 +72,7 @@
 <W lemma="af" msd="SP">af</W>
 <W lemma="liv" msd="NCNSU==D">livet</W>
 <W lemma="i" msd="SP">i</W>
-<W lemma="København" msd="NP--U==-">København</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -81,12 +81,12 @@
 <W lemma="Erik" msd="NP--U==-">Erik</W>
 <W lemma="Jelstrup" msd="NP--U==-">Jelstrup</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="direktør" msd="NCCSU==I">direktør</W>
+<W lemma="direktÃ¸r" msd="NCCSU==I">direktÃ¸r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fylde" msd="VADR=----A-">fylder</W>
 <W lemma="i_morgen" msd="RGU">i_morgen</W>
 <W lemma="80" msd="AC---U=--">80</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
@@ -95,19 +95,19 @@
 <W lemma="hel" msd="ANP[CN]SU=DU">hele</W>
 <W lemma="sin" msd="PO3NSUSYU">sit</W>
 <W lemma="liv" msd="NCNSU==I">liv</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="interessere" msd="VAPA=S[CN]I[ARU]-U">interesseret</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="tennis" msd="NCCSU==I">tennis</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="kasserer" msd="NCCSU==I">kasserer</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="Holte" msd="NP--U==-">Holte</W>
 <W lemma="tennisklub" msd="NCCSU==I">Tennisklub</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="26" msd="AC---U=--">26</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="dansk" msd="ANP[CN]SU=IU">Dansk</W>
@@ -120,10 +120,10 @@
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
-<W lemma="åben" msd="ANPNSU=IU">Åbent</W>
+<W lemma="Ã¥ben" msd="ANPNSU=IU">Ã…bent</W>
 <W lemma="hus" msd="NCNSU==I">hus</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="Nørgaards-vej" msd="NP--U==-">Nørgaards-vej</W>
+<W lemma="NÃ¸rgaards-vej" msd="NP--U==-">NÃ¸rgaards-vej</W>
 <W lemma="29" msd="AC---U=--">29</W>
 <W lemma="D" msd="XA">D</W>
 <W lemma="," msd="XP">,</W>
@@ -139,23 +139,23 @@
 <W lemma="Ernst" msd="NP--U==-">Ernst</W>
 <W lemma="Kristoffersen" msd="NP--U==-">Kristoffersen</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="Høyensgade" msd="NP--U==-">Høyensgade</W>
+<W lemma="HÃ¸yensgade" msd="NP--U==-">HÃ¸yensgade</W>
 <W lemma="27" msd="AC---U=--">27</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="København" msd="NP--U==-">København</W>
+<W lemma="KÃ¸benhavn" msd="NP--U==-">KÃ¸benhavn</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fylde" msd="VADR=----A-">fylder</W>
 <W lemma="70" msd="AC---U=--">70</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="i_morgen" msd="RGU">i_morgen</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="han" msd="PP3CSN-NU">Han</W>
-<W lemma="være" msd="VADA=----A-">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-">var</W>
 <W lemma="i" msd="SP">i</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U">mange</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="kontorchef" msd="NCCSU==I">kontorchef</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="sen" msd="ANC---=-R">senere</W>
@@ -166,14 +166,14 @@
 </s>
 <s>
 <W lemma="han" msd="PP3CSN-NU">Han</W>
-<W lemma="trække" msd="VADA=----A-">trak</W>
+<W lemma="trÃ¦kke" msd="VADA=----A-">trak</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU">sig</W>
 <W lemma="tilbage" msd="RGU">tilbage</W>
 <W lemma="ved" msd="SP">ved</W>
-<W lemma="årsskifte" msd="NCNSU==D">årsskiftet</W>
+<W lemma="Ã¥rsskifte" msd="NCNSU==D">Ã¥rsskiftet</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="men" msd="CC">men</W>
-<W lemma="fortsætte" msd="VADR=----A-">fortsætter</W>
+<W lemma="fortsÃ¦tte" msd="VADR=----A-">fortsÃ¦tter</W>
 <W lemma="og" msd="CC">og</W>
 <W lemma="koncentrere" msd="VADR=----A-">koncentrerer</W>
 <W lemma="sin" msd="PO3CSUSYU">sin</W>
@@ -181,14 +181,14 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-NSU--U">det</W>
 <W lemma="social" msd="ANP[CN]SU=DU">sociale</W>
-<W lemma="miljø" msd="NCNSU==I">miljø</W>
+<W lemma="miljÃ¸" msd="NCNSU==I">miljÃ¸</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="formand" msd="NCCSU==I">formand</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="den" msd="PD-NSU--U">Det</W>
-<W lemma="kriminalpræventiv" msd="ANP[CN]SU=DU">Kriminalpræventive</W>
-<W lemma="råd" msd="NCNSG==I">Råds</W>
-<W lemma="miljøplanlægningsudvalg" msd="NCNSU==I">miljøplanlægningsudvalg</W>
+<W lemma="kriminalprÃ¦ventiv" msd="ANP[CN]SU=DU">KriminalprÃ¦ventive</W>
+<W lemma="rÃ¥d" msd="NCNSG==I">RÃ¥ds</W>
+<W lemma="miljÃ¸planlÃ¦gningsudvalg" msd="NCNSU==I">miljÃ¸planlÃ¦gningsudvalg</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="for" msd="SP">for</W>
 <W lemma="landsforening" msd="NCCSU==D">Landsforeningen</W>
@@ -199,7 +199,7 @@
 <W lemma="for" msd="SP">for</W>
 <W lemma="fond" msd="NCCSU==D">Fonden</W>
 <W lemma="ny" msd="ANPCSU=IU">Ny</W>
-<W lemma="Allerødgård" msd="NP--G==-">Allerødgårds</W>
+<W lemma="AllerÃ¸dgÃ¥rd" msd="NP--G==-">AllerÃ¸dgÃ¥rds</W>
 <W lemma="ven" msd="NCCPU==I">Venner</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -214,36 +214,36 @@
 <W lemma="Heimdalsvej" msd="NP--U==-">Heimdalsvej</W>
 <W lemma="4" msd="AC---U=--">4</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="Holbæk" msd="NP--U==-">Holbæk</W>
+<W lemma="HolbÃ¦k" msd="NP--U==-">HolbÃ¦k</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fylde" msd="VADR=----A-">fylder</W>
 <W lemma="i_morgen" msd="RGU">i_morgen</W>
 <W lemma="50" msd="AC---U=--">50</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="." msd="XP">.</W>
 </s>
 <s>
 <W lemma="han" msd="PP3CSN-NU">Han</W>
-<W lemma="være" msd="VADR=----A-">er</W>
-<W lemma="ansætte" msd="VAPA=S[CN]I[ARU]-U">ansat</W>
-<W lemma="på" msd="SP">på</W>
-<W lemma="Holbæk" msd="NP--U==-">Holbæk</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
+<W lemma="ansÃ¦tte" msd="VAPA=S[CN]I[ARU]-U">ansat</W>
+<W lemma="pÃ¥" msd="SP">pÃ¥</W>
+<W lemma="HolbÃ¦k" msd="NP--U==-">HolbÃ¦k</W>
 <W lemma="amt" msd="NCNSG==I">Amts</W>
 <W lemma="venstreblad" msd="NCNSU==I">Venstreblad</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="kendt" msd="ANP[CN]SU=IU">kendt</W>
 <W lemma="som" msd="U=">som</W>
 <W lemma="cykelrytter" msd="NCCSU==I">cykelrytter</W>
 <W lemma="og" msd="CC">og</W>
-<W lemma="være" msd="VADR=----A-">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-">er</W>
 <W lemma="leder" msd="NCCSU==I">leder</W>
 <W lemma="af" msd="SP">af</W>
 <W lemma="en" msd="PI-NSU--U">et</W>
 <W lemma="stor" msd="ANPNSU=IU">stort</W>
-<W lemma="motionscykelløb" msd="NCNSU==I">motionscykelløb</W>
+<W lemma="motionscykellÃ¸b" msd="NCNSU==I">motionscykellÃ¸b</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="Lammefjords-løb" msd="NCNSU==D">Lammefjords-løbet</W>
+<W lemma="Lammefjords-lÃ¸b" msd="NCNSU==D">Lammefjords-lÃ¸bet</W>
 <W lemma="." msd="XP">.</W>
 </s>
 </p>
@@ -257,13 +257,13 @@
 <W lemma="Pellemarken" msd="NP--U==-">Pellemarken</W>
 <W lemma="4" msd="AC---U=--">4</W>
 <W lemma="," msd="XP">,</W>
-<W lemma="Tullebølle" msd="NP--U==-">Tullebølle</W>
+<W lemma="TullebÃ¸lle" msd="NP--U==-">TullebÃ¸lle</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="Langeland" msd="NP--U==-">Langeland</W>
 <W lemma="," msd="XP">,</W>
 <W lemma="fylde" msd="VADR=----A-">fylder</W>
 <W lemma="50" msd="AC---U=--">50</W>
-<W lemma="år" msd="NCNPU==I">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I">Ã¥r</W>
 <W lemma="i_morgen" msd="RGU">i_morgen</W>
 <W lemma="." msd="XP">.</W>
 </s>
@@ -272,7 +272,7 @@
 <W lemma="1969" msd="AC---U=--">1969</W>
 <W lemma="have" msd="VADR=----A-">har</W>
 <W lemma="han" msd="PP3CSN-NU">han</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U">vÃ¦ret</W>
 <W lemma="tilknytte" msd="VAPA=S[CN]I[ARU]-U">tilknyttet</W>
 <W lemma="Langeland" msd="NP--G==-">Langelands</W>
 <W lemma="el-forsyning" msd="NCCSU==I">el-forsyning</W>
