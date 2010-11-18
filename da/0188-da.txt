@@ -1,28 +1,14 @@
-
-Vejviser: Der ER liv i dansk softwareudvikling. Med forsinkelse er et 
-program klar til at hjælpe kunder rundt i museer, supermarkeder, 
-rådhuse  -  og MikroData i Bella Center.
+Vejviser: Der ER liv i dansk softwareudvikling. Med forsinkelse er et program klar til at hjælpe kunder rundt i museer, supermarkeder, rådhuse - og MikroData i Bella Center.
 
 Europæerne skulle være intelligente nok.
 
-Det mener idémændene bag programmet Scout, der ved indgangen til 
-MikroData-messen viser vej i junglen af udstillere.
+Det mener idémændene bag programmet Scout, der ved indgangen til MikroData-messen viser vej i junglen af udstillere.
 
-Og med den rosende omtale henviser de til, at de godt tør overlade 
-til os at stave selv ved hjælp af tastaturet.
+Og med den rosende omtale henviser de til, at de godt tør overlade til os at stave selv ved hjælp af tastaturet.
 
-Med Scout skulle der heller ikke være noget at tage fejl af: Tast 
-firmanavn eller tast et søgeord, og skærmen viser meget pædagogisk 
-nærmeste vej til den eller de aktuelle stande. En forløber hjalp 
-besøgende ved sidste MikroData for to år siden.
+Med Scout skulle der heller ikke være noget at tage fejl af: Tast firmanavn eller tast et søgeord, og skærmen viser meget pædagogisk nærmeste vej til den eller de aktuelle stande. En forløber hjalp besøgende ved sidste MikroData for to år siden.
 
-" Vi har programmeret det hele fra bunden i Turbo Pascal, og det 
-har nok snydt os lidt med tiden, " fortæller John Marrot fra firmaet
- Scansoft, der har stået for programmeringen.
+"Vi har programmeret det hele fra bunden i Turbo Pascal, og det har nok snydt os lidt med tiden," fortæller John Marrot fra firmaet Scansoft, der har stået for programmeringen.
 
-Oprindelig havde hans bekendte Steen Olsen, der arbejder i et 
-kontorvarefirma i København, bestilt programmet for prisen på 100 
-programmørtimer. De 100 timer blev i stedet til 5.000 timer.
-
-
+Oprindelig havde hans bekendte Steen Olsen, der arbejder i et kontorvarefirma i København, bestilt programmet for prisen på 100 programmørtimer. De 100 timer blev i stedet til 5.000 timer.
 

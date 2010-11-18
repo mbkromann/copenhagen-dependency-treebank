@@ -1,0 +1,106 @@
+#!/usr/bin/perl
+# (c) Matthias Buch-Kromann 2010: open-source tokenizer (under LGPL license)
+
+# Characters that should be separated from the beginning/end of a word
+my $splitB = '-\[{(\\`"‚„†‡‹‘’“”•–—›««\'';
+my $splitE = '-\]}\'\`\"),;:\!\?\%‚„…†‡‰‹‘’“”•–—›»\'';
+my $quoteE = '\'\`\")‹‘’“”›»';
+my $cliticsE = '(\'s|\')';
+
+# Read abbreviation table
+my $abbreviations = {};
+if ($ARGV[0] =~ /^-abbr=([^ ]*)$/) {
+	my $afile = $1;	
+	shift(@ARGV);
+	if (open(ABBR, "<$afile")) {
+		print STDERR "using abbreviation table $afile";
+		while (my $line = <ABBR>) {
+			chomp($line);
+			$line =~ s/\s+//g;
+			$abbreviations->{$line} = 1;
+		}
+		close(ABBR);
+	} else {
+		warn "cannot open abbreviation table $afile";
+	}
+}
+
+# Read space-delimited tokens from file
+my @tokens = ();
+while (my $line = <>) {
+	if ($line =~ /^\s*$/) {
+		push @tokens, "\n";
+	} else {
+		foreach my $token (split(/\s+/, $line)) {
+			push @tokens, $token;
+		}
+	}
+}
+
+# Now try to decompose these tokens
+for (my $i = 0; $i <= $#tokens; ++$i) {
+	# Find token and adjacent tokens
+	my $token = $tokens[$i];
+	my $prev = $i > 0 ? $tokens[$i - 1] : "";
+	my $next = $i < $#tokens ? $tokens[$i + 1] : "";
+
+	# Split up token
+	my $token0 = "";
+	my $eos = "";
+	while ($token ne $token0) {
+		$token0 = $token;
+		my @parts = ();
+		foreach my $part (split(/ +/, $token)) {
+			# Do nothing for abbreviations, numbers, etc.
+			if (! ($abbreviations->{lc($part)}
+				|| $part =~ /^[+-]?[0-9.,]*[0-9]%?$/
+				|| $part =~ /^([A-Za-z-]\.)+$/
+			)) {
+				# Split off characters from beginning and end of word
+				$part =~ s/^([$splitB])(\S)/$1 $2/g;
+				$part =~ s/(\S)([$splitE])$/$1 $2/g;
+				$part =~ s/($cliticsE)$/ $1/g;
+
+				# Fix 's and 'S
+				$part =~ s/\b' +s\b/'s/g;
+				$part =~ s/^' +s\b/'s/g;
+
+				# Disambiguate periods
+				if ($part =~ /(\s|[^.])\.[ $quoteE]*$/) {
+					if ($next =~ /^\s*[[:upper:]]/
+						|| $next =~ /'/ || $next eq "") {
+						$part =~ s/\.([ $quoteE]*)$/ .$1/g;
+						#$part =~ s/\.( [$quoteE]*)$/ .$1/g;
+						$eos = "\n";
+					}
+				} elsif ($part =~ /\b\.$/) {
+					print "Noperiod: $part\n";
+				}
+
+				# Multiple periods
+				$part =~ s/([^.])(\.\.+)/$1 $2 /g;
+
+				# Fix question marks and exclamation marks
+				while ($part =~ s/([?!]) ([?!])/ $1$2/g) {};
+				$eos = "\n" if ($part =~ /[?!]+/);
+			}
+			$part =~ s/^ *//g;
+			$part =~ s/ *$//g;
+			push @parts, $part;
+		}
+		$token = join(" ", @parts);
+	}
+
+	# Save token
+	$tokens[$i] = $token . $eos;
+}
+
+# Print tokens
+my $prev = "\n";
+foreach my $token (@tokens) {
+	print " " if ($prev !~ /\n\s*$/ && $token !~ /^\s+$/);
+	print $token;
+	$prev = $token;
+}
+print "\n";
+

@@ -12,7 +12,10 @@ da-stanford-tagger.model: da-stanford-tagger.train
 
 da-stanford-tagger.train:
 	cat ${CDT}/da/[0-9][0-9][0-9][0-9]-da.tag ${CDT}/da/tagged/*.tag \
-		| ${TOOLS}/tag2pos > da-stanford-tagger.train
+		| ${TOOLS}/tag2pos -mw=da-multiword-tagged.txt > da-stanford-tagger.train
+
+da-stanford-tagger.train.in: da-stanford-tagger.train
+	cat da-stanford-tagger.train | ../tools/pos2tok > da-stanford-tagger.train.in
 
 da-stanford-tagger.closed: 
 	cat ${CDT}/da/[0-9][0-9][0-9][0-9]-da.tag ${CDT}/da/tagged/*.tag \

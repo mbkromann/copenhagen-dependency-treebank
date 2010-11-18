@@ -5,7 +5,6 @@ ang.
 ass.
 bl.a.
 ca.
-cand.
 chr.
 cm.
 co.
@@ -37,7 +36,6 @@ instr.
 jan.
 jf.
 jfr.
-jur.
 jvf.
 kgl.
 kgs.
@@ -45,13 +43,9 @@ kl.
 kons.
 kr.
 kvm.
-lic.
-mag.
 maks.
 mar.
 matr.
-med.
-merc.
 m.fl.
 m.h.t.
 mia.
@@ -72,10 +66,6 @@ pct.
 pcts.
 p.g.a.
 pga.
-phil.
-pol.
-polit.
-polyt.
 postnr.
 pr.
 psych.
@@ -83,7 +73,6 @@ p.t.
 pt.
 red.
 rich.
-scient.
 sct.
 sek.
 skt.
@@ -91,10 +80,8 @@ spsk.
 st.
 stk.
 str.
-techn.
 temp.
 t.h.
-theol.
 tidl.
 tlf.
 tsk.

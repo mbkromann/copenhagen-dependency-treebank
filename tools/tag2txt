@@ -1,0 +1,65 @@
+#!/usr/bin/perl
+
+# Characters that should be separated from the beginning/end of a word
+my $splitB = '-\[{(\\`"‚„†‡‹‘’“”•–—›««\'';
+my $splitE = '\]}\'\`\"),;:\!\?\%‚„…†‡‰‹‘’“”•–—›»\'';
+my $quoteE = '\'\`\")‹‘’“”›»';
+my $cliticsE = '(\'s|\')';
+
+# Read conversion table for multiwords
+my $mwtable = {};
+if ($ARGV[0] =~ /^-mw=([^ ]+)$/) {
+    shift(@ARGV);
+    my $mwfname = $1;
+    if (open(MW, "<$mwfname")) {
+        print STDERR "using multiword table: $mwfname\n";
+        while(my $line = <MW>) {
+            chomp($line);
+            my ($token, $tags) = split(/\t/, $line);
+			$tags =~ s/\/[^ ]*//g;
+			$tags = $token if (length($token) < length($tags)
+				|| (length($token) == length($tags)
+					&& $token !~ /_/));
+            $mwtable->{$token} = $tags;
+        }
+        close(MW);
+    } else {
+        warn "cannot open multiword file $mwfname for reading";
+    }
+}
+
+# Convert text
+my $sep = "";
+my $prev = "";
+while (my $line = <>) {
+	chomp($line);
+	if ($line =~ /^\s*<W.*>(.*)<\/W>\s*/) {
+		# Extract token
+		my $token = $1;
+		$token = $mwtable->{$token} if ($mwtable->{$token});
+		$token =~ s/_//g;
+		$token =~ s/^ //g;
+		$token =~ s/ $//g;
+		my $nsep = " ";
+
+		# Determine whether to insert space before and after token
+		my $left = ($line =~ /in="-/);
+		my $right = ($line =~ /in="[^"-]/);
+		$sep = "" if ($left && $token =~ /^[$splitE]+$/);
+		$sep = "" if ($left && $token =~ /^($cliticsE)$/);
+		$nsep = "" if ($right && $token =~ /^[$splitB]+$/);
+		$sep = "" if ($left && $token =~ /^\.$/);
+
+		# Replace periods with "" if previous token ends in a period
+		$token = "" if ($token eq "." && $prev =~ /\.$/);
+
+		# Print token
+		print $sep . $token;
+		$prev = $token;
+		$sep = $nsep;
+	} elsif ($line =~ /^\s*<\/p>/) {
+		print "\n\n";
+		$sep = "";
+		$prev = "";
+	}
+}

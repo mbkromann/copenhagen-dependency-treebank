@@ -1,0 +1,43 @@
+#!/usr/bin/perl
+
+# Convert .tag format from standard input to postagging format: one line per
+# sentence in space-separated "word/tag" format
+
+# Read conversion table for multiwords
+my $mwtable = {};
+if ($ARGV[0] =~ /^-mw=([^ ]+)$/) {
+	shift(@ARGV);
+	my $mwfname = $1;
+	if (open(MW, "<$mwfname")) {
+		print STDERR "using multiword table: $mwfname\n";
+		while(my $line = <MW>) {
+			chomp($line);
+			my ($token, $tags) = split(/\t/, $line);
+			$mwtable->{$token} = $tags;
+		}
+		close(MW);
+	} else {
+		warn "cannot open multiword file $mwfname for reading";
+	}
+}
+
+# Convert standard input
+my $sep = "";
+while (my $line = <>) {
+	if ($line =~ /^\s*<W.*msd="([^"]*)".*>([^<]+)<\/W>\s*$/) {
+		my ($msd, $token) = ($1, $2);
+		if ($mwtable->{$token}) {
+			print $sep . $mwtable->{$token};
+		} else {
+			$token =~ s/\//\&\#47;/g;
+			$token =~ s/ //g;
+			print $sep . "$token/$msd";
+		}
+		$sep = " ";
+	} elsif ($line =~ /^\s*<\/[sSpP]>\s*/) {
+		print "\n";
+		$sep = "";
+	}
+}
+print "\n";
+
