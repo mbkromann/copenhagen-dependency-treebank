@@ -12,6 +12,7 @@ use Cwd;
 
 # Find DTAGHOME
 my $DTAGHOME = $ENV{'DTAGHOME'} || "";
+my $CDTHOME = $ENV{'CDTHOME'} = $ENV{'CDTHOME'} || "~/cdt";
 if (! ($DTAGHOME && -r $DTAGHOME)) {
 	# Find directory path to this script
 	my $script = $0;

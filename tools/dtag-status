@@ -27,6 +27,7 @@ echo "  sentences: $sents"
 efile=`echo $file | sed -e 's/.tag$/.err/g'`
 echo ""
 echo "Error counts (use \"errors\" command for details): "
-cat $efile | grep -v '>' | awk -F": " '{ print $2 }' | sed -e "s/ /\n/g" | sed -e 's/$/ error/' | sort | uniq -c | grep -v redirect
-
+if [ -f "$efile" ] ; then 
+	cat $efile | grep -v '>' | awk -F": " '{ print $2 }' | sed -e "s/ /\n/g" | sed -e 's/$/ error/' | sort | uniq -c | grep -v redirect 
+fi
 

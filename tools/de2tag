@@ -9,7 +9,7 @@ export EOSREGEXP="[^	]*	SENT	.*"
 # Check arguments
 export file=$1
 if [ -z "$file" ] ; then
-	echo "Usage: it2tag <file>"
+	echo "Usage: de2tag <file>"
 	echo "The file must be utf8 encoded"
 	exit 0
 fi

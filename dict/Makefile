@@ -4,7 +4,7 @@ TOOLS=${CDT}/tools
 all: da-abbr-auto.txt da-multiword-tagged-auto.txt
 
 da-stanford-tagger.model: da-stanford-tagger.train
-	java -classpath ../tools/stanford-postagger.jar \
+	java -classpath ../lib/stanford-postagger.jar \
 		edu.stanford.nlp.tagger.maxent.MaxentTagger \
 		-prop da-stanford-tagger.prop \
 		-model da-stanford-tagger.model \

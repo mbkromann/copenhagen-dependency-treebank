@@ -1,6 +1,12 @@
 #!/usr/bin/perl
 # (c) Matthias Buch-Kromann 2010: open-source tokenizer (under LGPL license)
 
+use Encode;
+#use open ':encoding(utf8)';
+#use open OUT => ':utf8';
+#use open IN => ':utf8';
+
+
 # Characters that should be separated from the beginning/end of a word
 my $splitB = '-\[{(\\`"‚„†‡‹‘’“”•–—›««\'';
 my $splitE = '-\]}\'\`\"),;:\!\?\%‚„…†‡‰‹‘’“”•–—›»\'';
@@ -12,7 +18,7 @@ my $abbreviations = {};
 if ($ARGV[0] =~ /^-abbr=([^ ]*)$/) {
 	my $afile = $1;	
 	shift(@ARGV);
-	if (open(ABBR, "<$afile")) {
+	if (open(ABBR, "<", $afile)) {
 		print STDERR "using abbreviation table $afile";
 		while (my $line = <ABBR>) {
 			chomp($line);
@@ -28,8 +34,9 @@ if ($ARGV[0] =~ /^-abbr=([^ ]*)$/) {
 # Read space-delimited tokens from file
 my @tokens = ();
 while (my $line = <>) {
+	$line =~ s/^\x{FEFF}//;
 	if ($line =~ /^\s*$/) {
-		push @tokens, "\n";
+		push @tokens, "\n\n";
 	} else {
 		foreach my $token (split(/\s+/, $line)) {
 			push @tokens, $token;
@@ -52,6 +59,7 @@ for (my $i = 0; $i <= $#tokens; ++$i) {
 		my @parts = ();
 		foreach my $part (split(/ +/, $token)) {
 			# Do nothing for abbreviations, numbers, etc.
+	#		print STDERR "part: $part\n";
 			if (! ($abbreviations->{lc($part)}
 				|| $part =~ /^[+-]?[0-9.,]*[0-9]%?$/
 				|| $part =~ /^([A-Za-z-]\.)+$/
@@ -74,7 +82,7 @@ for (my $i = 0; $i <= $#tokens; ++$i) {
 						$eos = "\n";
 					}
 				} elsif ($part =~ /\b\.$/) {
-					print "Noperiod: $part\n";
+					#print "Noperiod: $part\n";
 				}
 
 				# Multiple periods
@@ -97,10 +105,12 @@ for (my $i = 0; $i <= $#tokens; ++$i) {
 
 # Print tokens
 my $prev = "\n";
+my $s = "";
 foreach my $token (@tokens) {
-	print " " if ($prev !~ /\n\s*$/ && $token !~ /^\s+$/);
-	print $token;
+	$s .= " " if ($prev !~ /\n\s*$/ && $token !~ /^\s+$/);
+	$s .= $token;
 	$prev = $token;
 }
-print "\n";
+$s .= "\n";
+print $s;
 
