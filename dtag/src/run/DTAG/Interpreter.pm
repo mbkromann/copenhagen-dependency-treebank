@@ -7368,7 +7368,7 @@ sub relset2latex_visit {
 sub nopct {
 	my $rel = shift;
 	$rel =~ s/%//g;
-	return $rel;
+	return int($rel+0.5);
 }
 
 sub texrel {
