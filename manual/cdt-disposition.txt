@@ -1,35 +1,37 @@
-ANY-!DIM:LEVEL-!DIM:TYPE-!RULE-!TOPIC: Top-level relations
-> DIM:LEVEL-!SYNTAX-!MORPHOLOGY-!DISCOURSE-!ANAPHORA-!SEMANTICS-!ALIGNMENT-!ONTOLOGY-!RULE-!TOPICS: Linguistic level dimension
-> DIM:TYPE-!SYNTAX-!MORPHOLOGY-!DISCOURSE-!ANAPHORA-!SEMANTICS-!ALIGNMENT-!ONTOLOGY-!TOPICS: Annotation type dimension
+ANY-!DIM:LEVEL-!DIM:TYPE-!RULE-!TOPIC-!CDT1: Top-level relations
+> DIM:LEVEL-!SYNTAX-!MORPHOLOGY-!DISCOURSE-!ANAPHORA-!SEMANTICS-!ALIGNMENT-!ONTOLOGY-!RULE-!TOPICS-!CDT1: Linguistic level dimension
+> DIM:TYPE-!SYNTAX-!MORPHOLOGY-!DISCOURSE-!ANAPHORA-!SEMANTICS-!ALIGNMENT-!ONTOLOGY-!TOPICS-!CDT1: Annotation type dimension
 
-SYNTAX-!SYNCOMP-!SYNADJ-TOPIC: Syntactic relations
-> SYNCOMP-TOPIC: Complement relations
-> SYNADJ-!ADVERB-TOPIC: Non-adverbial adjunct relations
-> ADVERB-TOPIC: Adverbial adjunct relations
+SYNTAX-!SYNCOMP-!SYNADJ-!CDT1-TOPIC: Syntactic relations
+> SYNCOMP-!CDT1-TOPIC: Complement relations
+> SYNADJ-!CDT1-!ADVERB-TOPIC: Non-adverbial adjunct relations
+> ADVERB-!CDT1-TOPIC: Adverbial adjunct relations
 
-MORPHOLOGY-!MORPHCOMP-!MORPHDERIV-TOPIC: Morphological relations
-> MORPHCOMP-TOPIC: Compositional relations
-> MORPHDERIV-!PREFIX-!SUFFIX-TOPIC: Derivational relations
-> > PREFIX-TOPIC: Prefix relations
-> > SUFFIX-TOPIC: Suffix relations
+MORPHOLOGY-!CDT1-!MORPHCOMP-!MORPHDERIV-TOPIC: Morphological relations
+> MORPHCOMP-!CDT1-TOPIC: Compositional relations
+> MORPHDERIV-!CDT1-!PREFIX-!SUFFIX-TOPIC: Derivational relations
+> > PREFIX-!CDT1-TOPIC: Prefix relations
+> > SUFFIX-!CDT1-TOPIC: Suffix relations
 
-DISCOURSE-!DISCFUNC-!DISCSEM-TOPIC: Discourse relations
-> DISCFUNC-TOPIC: Functional relations
-> DISCSEM-TOPIC: Semantic relations
+DISCOURSE-!CDT1-!DISCFUNC-!DISCSEM-TOPIC: Discourse relations
+> DISCFUNC-!CDT1-TOPIC: Functional relations
+> DISCSEM-!CDT1-TOPIC: Semantic relations
 
-ANAPHORA-!coref-!assoc-TOPIC: Anaphor relations
-> coref-TOPIC: Coreference relations
-> assoc-TOPIC: Associative anaphor relations
+ANAPHORA-!CDT1-!coref-!assoc-TOPIC: Anaphor relations
+> coref-!CDT1-TOPIC: Coreference relations
+> assoc-!CDT1-TOPIC: Associative anaphor relations
 
-SEMANTICS-!QUALIA-!SEMROLE-TOPIC: Semantic relations
-> QUALIA: Qualia relations
-> SEMROLE: Thematic role relations
+SEMANTICS-!CDT1-!QUALIA-!SEMROLE-TOPIC: Semantic relations
+> QUALIA-!CDT1: Qualia relations
+> SEMROLE-!CDT1: Thematic role relations
 
-ALIGNMENT-TOPIC: Word alignment relations
+ALIGNMENT-!CDT1-TOPIC: Word alignment relations
 
-RULE-TOPIC: Rule schemata for complex relations
+RULE-!CDT1-TOPIC: Rule schemata for complex relations
 
-ONTOLOGY-TOPIC: Ontological relations
+ONTOLOGY-!CDT1-TOPIC: Ontological relations
+
+CDT1: Deprecated relations from the CDT1 annotation
 
 -ANY: Relations misplaced outside the ANY hierarchy
 
