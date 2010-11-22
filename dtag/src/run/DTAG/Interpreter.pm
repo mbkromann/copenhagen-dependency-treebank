@@ -7341,8 +7341,9 @@ sub relset2latex_visit {
 	if (@$confuse) {
 		print $ofh "	\\confusions{" . shift(@$confuse) . "}{";
 		foreach my $c (@$confuse) {
-			$c =~ /^([0-9]+)\%=(.*)$/;
-			print $ofh "\\confuse{$1}{" . texrelref($2, $relset) . "}" 
+			$c =~ /^([0-9.]+)\%=(.*)$/;
+			my $freq = int($1 + 0.5);
+			print $ofh "\\confuse{$freq}{" . texrelref($2, $relset) . "}" 
 				if (defined($1) && defined($2));
 		}
 		print $ofh "}\n";
