@@ -6901,12 +6901,12 @@ sub cmd_relhelp {
 	print "SEE ALSO:\n" .
 		join("", map {countname($relset, $_)} 
 			@$seealso) . "\n" if (@$seealso);
-	my $confusion = [@{$self->{'confusion'}{$relsetname}{$sname}}] || [0 0 0 0];
+	my $confusion = [@{$self->{'confusion'}{$relsetname}{$sname}}] || [0, 0, 0, 0];
 	my $confcount = shift(@$confusion);
 	my $Aall = shift(@$confusion);
 	my $Aout = shift(@$confusion);
 	my $Arel = shift(@$confusion);
-	print "CONFUSION ($confcount nodes, A(all/node/label)=$Aall/$Aout/$Arel:\n    "
+	print "CONFUSION ($confcount nodes, agreement all/node/label=$Aall/$Aout/$Arel:\n    "
 		. join(" ", @$confusion) . "\n";
 
 	# Examples
