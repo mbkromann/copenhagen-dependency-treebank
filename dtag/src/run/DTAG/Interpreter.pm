@@ -7342,7 +7342,7 @@ sub relset2latex_visit {
 		sorted_relations($relset, split(/\s+/, $see))) . "}%\n" if ($see);
 	my $confuse = [@{$confusion->{$sname} || []}];
 	if (@$confuse) {
-		print $ofh "	\\confusions{" . join("}{", shift(@$confuse), shift(@$confuse), shift(@$confuse), shift(@$confuse)) . "}{";
+		print $ofh "	\\confusions{" . join("}{", shift(@$confuse), nopct(shift(@$confuse)), nopct(shift(@$confuse)), nopct(shift(@$confuse)) . "}{";
 		foreach my $c (@$confuse) {
 			$c =~ /^([0-9.]+)\%=(.*)$/;
 			my $freq = int($1 + 0.5);
@@ -7363,6 +7363,12 @@ sub relset2latex_visit {
 		$self->relset2latex_visit($graph, $ofh, $relset, $confusion, $subrel, $type, $visited,
 		$indent . $relset_indent);
 	}
+}
+
+sub nopct {
+	my $rel = shift;
+	$rel =~ s/%//g;
+	return $rel;
 }
 
 sub texrel {
