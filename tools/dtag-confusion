@@ -25,18 +25,31 @@ while (my $line = <>) {
 
 # Compile confusion matrix
 my $counts = {};
+my $allagree = {};
+my $outagree = {};
+my $relagree = {};
+my $total = {};
 foreach my $id (keys(%$annotations)) {
 	my $list = $annotations->{$id};
 	for (my $i = 0; $i <= $#$list; ++$i) {
 		my $irel = $list->[$i][0];
+		my $iout = $list->[$i][2];
 		if ($#$list > 0 && $confusion->{$irel}) {
 			# Update confusion counts (divided evenly among
 			# alternative annotations)
 			if (! $counts->{$irel}{$id}) {
 				for (my $j = 0; $j <= $#$list; ++$j) {
 					if ($i != $j) {
+						# Update confusion
 						my $jrel = $list->[$j][0];
+						my $jout = $list->[$j][2];
 						$confusion->{$irel}{$jrel} += 1.0/$#$list;
+
+						# Update agree/disagree
+						$total->{$irel} += 1.0/$#$list;
+						$outagree->{$irel} += 1.0/$#$list if ($iout == $jout);
+						$allagree->{$irel} += 1.0/$#$list if ($iout == $jout && $irel eq $jrel);
+						$relagree->{$irel} += 1.0/$#$list if ($irel eq $jrel);
 					}
 				}
 			}
@@ -52,6 +65,9 @@ foreach my $id (keys(%$annotations)) {
 # Print confusion matrix
 foreach my $rel (sort(keys(%$confusion))) {
 	my $relcount = scalar(keys(%{$counts->{$rel}}));
+	my $allagree = $allagree->{$rel} / ($total->{$rel} || 1);
+	my $outagree = $outagree->{$rel} / ($total->{$rel} || 1);
+	my $relagree = $relagree->{$rel} / ($total->{$rel} || 1);
 	next if (! $relcount);
 
 	# Find sum of all relations
@@ -60,7 +76,10 @@ foreach my $rel (sort(keys(%$confusion))) {
 
 	# Print normalized relation probabilities in falling order
 	print $rel . "\t" . count($relcount) . "\t" 
-		.  join("\t", map {percentage($confusion->{$rel}{$_} / $relsum) 
+		. percentage($allagree) . "%\t"
+		. percentage($outagree) . "%\t"
+		. percentage($relagree) . "%\t"
+		. join("\t", map {percentage($confusion->{$rel}{$_} / $relsum) 
 						. "%=" . $_} 
 				sort {$confusion->{$rel}{$b} <=> $confusion->{$rel}{$a}}
 				(keys(%{$confusion->{$rel}}))) . "\n";

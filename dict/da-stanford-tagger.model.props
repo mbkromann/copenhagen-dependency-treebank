@@ -1,0 +1,37 @@
+## tagger training invoked at Thu Nov 18 01:54:24 CET 2010 with arguments:
+                   model = da-stanford-tagger.model
+                    arch = generic
+               trainFile = da-stanford-tagger.train
+         closedClassTags = CC CS I= PC--PG--- PC--PU--- PD-[CN]PG--U PD-[CN]PU--U PD-[CN][SP]U--U PD-CSG--U PD-CSU--O PD-CSU--U PD-NSU--U PI-[CN]PG--U PI-[CN]PU--O PI-[CN]PU--U PI-[CN][SP]G--U PI-CSG--U PI-C[SP]N--U PI-CSU--U PI-NSU--U PO1[CN]PUPNF PO1[CN]PUSNU PO1[CN][SP]UPNU PO1CSUPNF PO1CSUSNU PO1NSUPNF PO1NSUSNU PO2[CN]PUSNU PO2[CN][SP]UPNU PO2[CN][SP]U[SP]NP PO2CSUSNU PO2NSUSNU PO3[CN]PUSYU PO3[CN][SP]UPNU PO3[CN][SP]USNU PO3CSUSYU PO3NSUSYU PP1CPN-NU PP1CPU-[YN]U PP1CSN-NU PP1CSU-[YN]U PP2CPN-NU PP2CPU-[YN]U PP2CSN-NU PP2C[SP]N-NP PP2C[SP]U-[YN]P PP2CSU-[YN]U PP3[CN]PN-NU PP3[CN]PU-NU PP3[CN][SP]U-YU PP3CSN-NU PP3CSU-NU PP3NSU-NU PT-[CN]PU--U PT-[CN][SP]G--U PT-[CN]SU--U PT-C[SP]U--U PT-CSU--U PT-NSU--U RGA RGC RGP RGS SP U= VEDA=----A- VEDR=----A- VEF-=----A- VEPA=[SP][CN][DI][ARU]-U XA XP XS
+ closedClassTagThreshold = 40
+ curWordMinFeatureThresh = 2
+                   debug = false
+             debugPrefix = 
+            tagSeparator = /
+                encoding = UTF-8
+           initFromTrees = false
+              iterations = 100
+                    lang = 
+    learnClosedClassTags = false
+        minFeatureThresh = 5
+           openClassTags = 
+rareWordMinFeatureThresh = 10
+          rareWordThresh = 5
+                  search = qn
+                    sgml = false
+            sigmaSquared = 0.5
+                   regL1 = 1.0
+               tagInside = 
+                tokenize = false
+        tokenizerFactory = 
+        tokenizerOptions = 
+               treeRange = 
+          treeNormalizer = 
+         treeTransformer = 
+                 verbose = false
+          verboseResults = true
+    veryCommonWordThresh = 250
+                xmlInput = 
+              outputFile = 
+            outputFormat = slashTags
+     outputFormatOptions = 

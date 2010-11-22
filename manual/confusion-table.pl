@@ -5,13 +5,23 @@ my $name= shift(@ARGV);
 
 # Print header
 print "\\section{Confusion table: $name}\n\n";
-print "\\begin{longtable}{lllllp{80mm}}\n";
-print "\\textbf{R} & \\textbf{N} & \\textbf{A\$_\\text{all}\$} & \\textbf{A\$_\\text{out}\$} & \\textbf{A\$_\\text{rel}\$} & 
+print "\\begin{longtable}{p{30mm}llp{80mm}}\n";
+print "\\textbf{R} & \\textbf{N} & \\textbf{A/A\$_U\$/A\$_L\$} & 
 	\\textbf{Confusion list} \\\\ \\hline\n";
 
+# Print percentages
+sub pct {
+	my $x = shift;
+	$x =~ s/.$//g;
+	return $x;
+}
+
+sub rnd {
+	return int(0.5 + shift);
+}
+
 # Process lines
-my $sum = 0;
-my $wsum = 0;
+my ($sumCount, $sumAall, $sumAout, $sumArel) = (0.00001, 0, 0, 0);
 my @entries = ();
 while (my $line = <>) {
 	# Read line
@@ -19,9 +29,15 @@ while (my $line = <>) {
 	my @fields = split(/\t/, $line);
 	my $rel = shift(@fields);
 	my $count = shift(@fields);
-	my $Aall = shift(@fields);
-	my $Aout = shift(@fields);
-	my $Arel = shift(@fields);
+	my $Aall = pct(shift(@fields));
+	my $Aout = pct(shift(@fields));
+	my $Arel = pct(shift(@fields));
+
+	# Update weighted sums
+	$sumCount += $count;
+	$sumAall += $count * $Aall;
+	$sumAout += $count * $Aout;
+	$sumArel += $count * $Arel;
 
 	# Process confusion relations
 	my @freqs = ();
@@ -45,14 +61,20 @@ while (my $line = <>) {
 	#my $A3 = $A2 + $freqs[1];
 	
 	# Store result
-	push @entries, [$allagree, 
+	push @entries, [$Aall, 
 		"\\rel{$rel} & $count & " 
-			. int($allagree+0.5) . "\\\\% & " 
-			. int($outagree+0.5) . "\\\\% & " 
-			. int($relagree+0.5) . "\\\\% & " 
+			. rnd($Aall) . "/"
+			. rnd($Aout) . "/"
+			. rnd($Arel) . "\\% & " 
 			. "\\small $conflist \\\\\n"];
 }
 
 # Print table
-print join("", map {$_->[1]} sort {$b->[0] <=> $a->[0]} @entries);
+print join("", map {$_->[1]} (sort {$b->[0] <=> $a->[0]} @entries));
+print "\\hline \\\\\n";
+print "TOTAL & "
+	. rnd($sumCount) . " & " 
+	. rnd($sumAall / $sumCount) . "/"
+	. rnd($sumAout / $sumCount) . "/"
+	. rnd($sumArel / $sumCount) . "\\% & \\\\\n";
 print "\\end{longtable}\n";

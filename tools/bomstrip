@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+# Taken from the bomstrip-9.tgz package
+
+my $buf;
+if (read STDIN, $buf, 3) {
+	print $buf if $buf ne "\xef\xbb\xbf";
+	undef $/;
+	print <STDIN>;
+}
+

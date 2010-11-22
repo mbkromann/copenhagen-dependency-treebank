@@ -1,0 +1,22 @@
+#!/usr/bin/perl
+
+my @left = (); 
+my @right = ();
+while (my $line = <>) {
+	chomp($line);
+	if ($line =~ /^---$/) {
+		# Do nothing
+	} elsif ($line =~ /^< (.*)$/) {
+		push @left, $1;
+	} elsif ($line =~ /^> (.*)$/) {
+		push @right, $1;
+	} else {
+		# Output
+		print ((join(" ", @left)  || "--")
+			. "===" . 
+			(join(" ", @right) || "--") . "\n")
+			if (@left || @right);
+		 @left = ();
+		 @right = ();
+	}
+}

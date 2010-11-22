@@ -1,0 +1,24 @@
+#!/usr/bin/perl
+
+my $insideparagraph = 0;
+while (my $line = <>) {
+	chomp($line);
+	if ($line =~ /^\s*$/) {
+		print "</p>\n" if ($insideparagraph);
+		$insideparagraph = 0;
+	} else {
+		if (! $insideparagraph) {
+			print "<p>\n";
+			$insideparagraph = 1;
+		}
+		print "<s>\n";
+		foreach my $pair (split(/\s+/, $line)) {
+			my ($token, $tag) = split(/\//, $pair);
+			print "<W msd=\"$tag\">$token</W>\n";
+		}
+		print "</s>\n";
+	}
+}
+print "</p>\n" if ($insideparagraph);
+
+

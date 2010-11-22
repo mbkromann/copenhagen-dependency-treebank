@@ -2,9 +2,6 @@
 # (c) Matthias Buch-Kromann 2010: open-source tokenizer (under LGPL license)
 
 use Encode;
-#use open ':encoding(utf8)';
-#use open OUT => ':utf8';
-#use open IN => ':utf8';
 
 
 # Characters that should be separated from the beginning/end of a word

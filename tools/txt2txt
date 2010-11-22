@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+
+binmode STDIN;
+binmode STDOUT;
+
+my $content = "";
+while (read(STDIN, $buff, 8 * 2**10)) {
+    $content .= $buff;
+}
+my $seq = "\xC2\xA0\x0A";
+$content =~ s/\x0A$seq($seq)+/\n\n/g;
+$content =~ s/\x0A$seq/\n/g;
+print STDOUT $content;

@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Check arguments
+text=$1
+base=`echo $text | sed -e 's/.txt//g'`
+if [ -z "$text" ] ; then
+	print "Usage: da2tag $text"
+	exit 1
+fi
+
+# Find CDTHOME
+if [ -z "$CDTHOME" ] ; then
+	CDTHOME=~/cdt
+fi
+
+# Sentence detection and tokenization 
+tok="$base.tok~"
+cat $text | $CDTHOME/tools/bomstrip | $CDTHOME/tools/txt2tok -abbr=$CDTHOME/dict/da-abbr.txt $text | sed -e 's/^\s*$/<new-paragraph>/' > $tok
+
+# Create tagged file
+tag="$base-tagged.tag"
+java -mx300m \
+	-classpath $CDTHOME/lib/stanford-postagger.jar \
+	 edu.stanford.nlp.tagger.maxent.MaxentTagger \
+	 -model $CDTHOME/dict/da-stanford-tagger.model \
+	 -textFile $tok | sed -e 's/^<new-paragraph>\/[^ ]*$//g' \
+ | $CDTHOME/tools/pos2tag > $tag
+
