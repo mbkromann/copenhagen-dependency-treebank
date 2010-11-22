@@ -10,6 +10,7 @@
 \usepackage{a4}
 \usepackage{sectsty}
 \usepackage{longtable}
+\usepackage{amsmath}
 \allsectionsfont{\sffamily}
 
 \hypersetup{
@@ -72,7 +73,7 @@
 \def\connectives#1{\par\footnotesize\hangindent=5mm\noindent Typical connectives: #1. }
 \def\subtypes#1{\par\footnotesize\hangindent=5mm\noindent Subtypes: #1. }
 \def\related#1{\par\footnotesize\hangindent=5mm\noindent Related types: #1. }
-\def\confusions#1#2{\par\footnotesize\hangindent=5mm\noindent Confusion$_{#1}$: #2. }
+\def\confusions#1#2#3#4#5{\par\footnotesize\hangindent=5mm\noindent Confusion$^{#1}_{#2/#3/#4\%}$: #5. }
 \def\confuse#1#2{#2$_{#1\%}$ }
 \def\tparents#1{}
 \def\cmdsummary#1#2#3{\small\phantom{.}#1#2: #3\newline}
@@ -152,6 +153,14 @@
 			are closely related to this relation, in some way or
 			another, and which you might want to consult for
 			clarification or additional information;
+		\item \textit{confusion}: lists relations that
+			are confused with this relation with percentages (ie, the
+			probability that other annotators will use another
+			relation name); the numbers in ``Confusion$^N_{A,A_U,A_L}$
+			list the number of times the relation name has been
+			used for a multiply-annotated in-node, and the labeled
+			agreement $A$, the unlabeled agreement $A_U$, and the
+			label agreement $A_L$ for the relation.
 		\item \textit{examples}: small annotated text examples that
 			illustrate how the relation is used;
 	\end{itemize}
@@ -182,10 +191,16 @@
 	In the following tables, the columns are interpreted as follows:
 	\begin{itemize}
 		\item \textit{Relation name $R$:} the name of the relation.
-		\item \textit{Agreement $A$:} the estimated level of agreement, defined
-			as the probability that another annotator assigns the same
-			label to the relation (this number may be inaccurate if
-			$N$ is small).
+		\item \textit{Full labeled agreement $A$:} the probability that
+			another annotator assigns the same label and out-node to
+			the relation.
+		\item \textit{Unlabeled agreement $A_U$:} the probability that
+			another annotator assigns the same out-node (but not
+			necessarily label) to the relation.
+		\item \textit{Label agreement $A_L$:} the probability that
+			another annotator assigns the same label (but not
+			necessarily out-node) to
+			the relation.
 		\item \textit{Relation count $N$:} the number of distinct
 			multiply annotated tokens in the corpus that were
 			annotated with the relation by at least one annotator.
@@ -194,6 +209,8 @@
 			probability that each relation was used by the other annotator 
 			instead of $R$.
 	\end{itemize}
+	Note that nodes with multiple incoming relations (eg, secondary
+	relations) will lower the agreement artificially.
 
 	\input{build/confusion-syntax.csv.tex}
 	\input{build/confusion-semantics.csv.tex}
