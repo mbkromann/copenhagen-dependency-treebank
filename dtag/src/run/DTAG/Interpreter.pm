@@ -6901,9 +6901,12 @@ sub cmd_relhelp {
 	print "SEE ALSO:\n" .
 		join("", map {countname($relset, $_)} 
 			@$seealso) . "\n" if (@$seealso);
-	my $confusion = $self->{'confusion'}{$relsetname}{$sname} || [0];
+	my $confusion = [@{$self->{'confusion'}{$relsetname}{$sname}}] || [0 0 0 0];
 	my $confcount = shift(@$confusion);
-	print "CONFUSION ($confcount nodes):\n    "
+	my $Aall = shift(@$confusion);
+	my $Aout = shift(@$confusion);
+	my $Arel = shift(@$confusion);
+	print "CONFUSION ($confcount nodes, A(all/node/label)=$Aall/$Aout/$Arel:\n    "
 		. join(" ", @$confusion) . "\n";
 
 	# Examples
@@ -7339,7 +7342,7 @@ sub relset2latex_visit {
 		sorted_relations($relset, split(/\s+/, $see))) . "}%\n" if ($see);
 	my $confuse = [@{$confusion->{$sname} || []}];
 	if (@$confuse) {
-		print $ofh "	\\confusions{" . shift(@$confuse) . "}{";
+		print $ofh "	\\confusions{" . join("}{", shift(@$confuse), shift(@$confuse), shift(@$confuse), shift(@$confuse)) . "}{";
 		foreach my $c (@$confuse) {
 			$c =~ /^([0-9.]+)\%=(.*)$/;
 			my $freq = int($1 + 0.5);
