@@ -111,21 +111,26 @@ partexts:
 examples: .DUMMY
 	rm -r examples
 	mkdir -p examples
+	tmp="/tmp/pdfs.$$$$" ; \
+	props="/tmp/svnprops.$$$$" ; \
 	for id in `head -20 src/mini1.ids` ; do \
 		for dir in `echo da de en es it da-de da-en da-es da-it` ; do \
-			syntax=`svn propget syntax $$dir/$$id*tag` ; \
-			alignment=`svn propget alignment $$dir/$$id*tag` ; \
-			echo $$syntax | grep final | grep -v outdated > /tmp/pdfs.$$ ; \
-			echo $$alignment | grep final | grep -v outdated >> /tmp/pdfs.$$ ; \
-			echo $$syntax | grep discussed >> /tmp/pdfs.$$ ; \
-			echo $$alignment | grep discussed >> /tmp/pdfs.$$ ; \
-			echo $$syntax | grep first >> /tmp/pdfs.$$ ; \
-			echo $$alignment | grep first >> /tmp/pdfs.$$ ; \
-			echo $$syntax | grep outdated-final >> /tmp/pdfs.$$ ; \
-			echo $$alignment | grep outdated-final >> /tmp/pdfs.$$ ; \
-			file=`cat /tmp/pdfs.$$ | head -1 | awk '{ print $$1}'` ; \
+			files=`ls $$dir/$$id*tag | grep -v auto | grep -v tagged` ; \
+			nfiles=`echo $$files | wc -w` ; \
+			svnprops=`(svn propget syntax $$files ; svn propget alignment $$files) > $$props` ; \
+			if [ $$nfiles -gt 1 ] ; then \
+				rm -f $$tmp ; \
+				cat $$props | grep final | grep -v outdated > $$tmp ; \
+				cat $$props | grep discussed >> $$tmp ; \
+				cat $$props | grep first >> $$tmp ; \
+				cat $$props | grep outdated-final >> $$tmp ; \
+				file=`cat $$tmp | head -1 | awk '{ print $$1}'` ; \
+				rm -f $$tmp ; \
+			else \
+				echo "=== FILE: $$files ===" ; \
+				file="$$files"; \
+			fi ; \
 			pdf=`echo $$file | sed -e 's/\.atag/.pdf/g' -e 's/\.tag/.pdf/g'`; \
-			rm /tmp/pdfs.$$ ; \
 			if [ ! -z "$$pdf" ] ; then echo ; echo "=== $$file : $$pdf ===" ; make -f Makefile $$pdf ; mv -f $$pdf examples ; cp $$file examples ; fi ; \
 		done ; \
 	done
