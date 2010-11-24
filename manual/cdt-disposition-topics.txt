@@ -1,2 +1,2 @@
-TOPICS-DIM: Annotation topics:: special constructions
+TOPIC-DIM: Annotation topics:: special constructions
 

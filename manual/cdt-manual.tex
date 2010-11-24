@@ -209,9 +209,14 @@
 			probability that each relation was used by the other annotator 
 			instead of $R$.
 	\end{itemize}
-	Note that nodes with multiple incoming relations (eg, secondary
-	relations) will lower the agreement artificially.
-
+	Agreement is computed differently for morphology than for the
+	other linguistic levels (by comparing label sequences), and the
+	scores for morphology are therefore used differently: in
+	particular, $A=A_L$ always denotes the probability that the other
+	annotator selects the same label in the sequence of labels (but no
+	claim about outnode), and $A_U=100\%$ always because out-nodes
+	cannot be compared. 
+	
 	\input{build/confusion-syntax.csv.tex}
 	\input{build/confusion-semantics.csv.tex}
 	\input{build/confusion-discourse.csv.tex}

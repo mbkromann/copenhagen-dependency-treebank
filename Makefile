@@ -108,3 +108,35 @@ partexts:
 	 tools/partexts da en
 
 
+examples: .DUMMY
+	mkdir -p examples
+	for id in `head -20 src/mini1.ids` ; do \
+		for dir in `echo da de en es it da-de da-en da-es da-it` ; do \
+			svn propget syntax $$dir/$$id*tag | grep final | grep -v outdated > /tmp/pdfs.$$ ; \
+			svn propget alignment $$dir/$$id*tag | grep final | grep -v outdated >> /tmp/pdfs.$$ ; \
+			svn propget syntax $$dir/$$id*tag | grep discussed >> /tmp/pdfs.$$ ; \
+			svn propget alignment $$dir/$$id*tag | grep discussed >> /tmp/pdfs.$$ ; \
+			svn propget syntax $$dir/$$id*tag | grep first >> /tmp/pdfs.$$ ; \
+			svn propget alignment $$dir/$$id*tag | grep first >> /tmp/pdfs.$$ ; \
+			file=`cat /tmp/pdfs.$$ | head -1 | awk '{ print $$1}'` ; \
+			pdf=`echo $$file | sed -e 's/\.atag/.pdf/g' -e 's/\.tag/.pdf/g'`; \
+			rm /tmp/pdfs.$$ ; \
+			if [ ! -z "$$pdf" ] ; then echo ; echo "=== $$file : $$pdf ===" ; make -f Makefile $$pdf ; mv -f $$pdf examples ; cp $$file examples ; fi ; \
+		done ; \
+	done
+	zip docs/cdt-examples.zip examples/*
+	svn add docs/cdt-examples.zip
+
+.DUMMY:
+
+
+%.ps: %.tag
+	dtag -u -q -e "layout -vars /stream:.*/|cat|msd|lexeme|gloss" -e "load $*.tag" -e "print $*.ps" -e "exit"
+
+%.ps: %.atag
+	dtag -u -q -e "load $*.atag" -e "print $*.ps" -e "exit"
+
+%.pdf: %.ps
+	ps2pdf $*.ps $*.pdf
+
+

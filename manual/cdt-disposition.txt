@@ -1,37 +1,37 @@
 ANY-!DIM:LEVEL-!DIM:TYPE-!RULE-!TOPIC-!CDT1: Top-level relations
-> DIM:LEVEL-!SYNTAX-!MORPHOLOGY-!DISCOURSE-!ANAPHORA-!SEMANTICS-!ALIGNMENT-!ONTOLOGY-!RULE-!TOPICS-!CDT1: Linguistic level dimension
-> DIM:TYPE-!SYNTAX-!MORPHOLOGY-!DISCOURSE-!ANAPHORA-!SEMANTICS-!ALIGNMENT-!ONTOLOGY-!TOPICS-!CDT1: Annotation type dimension
+> DIM:LEVEL-!SYNTAX-!MORPH-!DISC-!ANA-!SEM-!ALIGN-!ONTO-!RULE-!TOPIC-!CDT1: Linguistic level dimension
+> DIM:TYPE-!SYNTAX-!MORPH-!DISC-!ANA-!SEM-!ALIGN-!ONTO-!TOPIC-!CDT1: Annotation type dimension
 
 SYNTAX-!SYNCOMP-!SYNADJ-!CDT1-TOPIC: Syntactic relations
 > SYNCOMP-!CDT1-TOPIC: Complement relations
 > SYNADJ-!CDT1-!ADVERB-TOPIC: Non-adverbial adjunct relations
 > ADVERB-!CDT1-TOPIC: Adverbial adjunct relations
 
-MORPHOLOGY-!CDT1-!MORPHCOMP-!MORPHDERIV-TOPIC: Morphological relations
+MORPH-!CDT1-!MORPHCOMP-!MORPHDERIV-TOPIC: Morphological relations
 > MORPHCOMP-!CDT1-TOPIC: Compositional relations
 > MORPHDERIV-!CDT1-!PREFIX-!SUFFIX-TOPIC: Derivational relations
 > > PREFIX-!CDT1-TOPIC: Prefix relations
 > > SUFFIX-!CDT1-TOPIC: Suffix relations
 
-DISCOURSE-!CDT1-!DISCFUNC-!DISCSEM-TOPIC: Discourse relations
+DISC-!CDT1-!DISCFUNC-!DISCSEM-TOPIC: Discourse relations
 > DISCFUNC-!CDT1-TOPIC: Functional relations
 > DISCSEM-!CDT1-TOPIC: Semantic relations
 
-ANAPHORA-!CDT1-!coref-!assoc-TOPIC: Anaphor relations
+ANA-!CDT1-!coref-!assoc-TOPIC: Anaphor relations
 > coref-!CDT1-TOPIC: Coreference relations
 > assoc-!CDT1-TOPIC: Associative anaphor relations
 
-SEMANTICS-!CDT1-!QUALIA-!SEMROLE-TOPIC: Semantic relations
+SEM-!CDT1-!QUALIA-!SEMROLE-TOPIC: Semantic relations
 > QUALIA-!CDT1: Qualia relations
 > SEMROLE-!CDT1: Thematic role relations
 
-ALIGNMENT-!CDT1-TOPIC: Word alignment relations
+ALIGN-!CDT1-TOPIC: Word alignment relations
 
 RULE-!CDT1-TOPIC: Rule schemata for complex relations
 
-ONTOLOGY-!CDT1-TOPIC: Ontological relations
+ONTO-!CDT1-TOPIC: Ontological relations
 
-CDT1: Deprecated relations from the CDT1 annotation
+CDT1: Deprecated relations from DDT
 
 -ANY: Relations misplaced outside the ANY hierarchy
 
