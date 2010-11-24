@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0152-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/0152-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="../it/0152-it-tagged.tag" sign="_input"/>
 <align out="a48" type="" in="b3 b4" creator="-1" insign="programma alimentare" outsign="madplan"/>
 <align out="a43 a44" type="f" in="b17 b18" creator="-1" insign="si prevede" outsign="Forude venter"/>
 <align out="a45" type="" in="b0" creator="-1" insign="Settimane" outsign="uger"/>

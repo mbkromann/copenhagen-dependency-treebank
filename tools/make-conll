@@ -10,7 +10,7 @@ cd $cdt
 #for dir in `echo . ./releases/cdt2` ; do
 #	for lang in `echo da de en es it` ; do 
 for dir in `echo ./releases/cdt2` ; do
-	for lang in `echo en` ; do 
+	for lang in `echo da de en es it` ; do 
 		echo "=== $dir/$lang ==="
 
 		# Compute relation statistics

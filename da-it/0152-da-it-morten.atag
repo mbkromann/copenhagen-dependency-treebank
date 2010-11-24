@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0152-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/0152-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="../it/0152-it-tagged.tag" sign="_input"/>
 <align out="a45" type="" in="b0" creator="0" insign="Settimane" outsign="uger"/>
 <align out="a48" type="" in="b3 b4" creator="0" insign="programma alimentare" outsign="madplan"/>
 <align out="a50 a51 a52" type="mcn" in="b5 b6 b7" creator="0" insign="a base di" outsign="der består af"/>

@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0596-da.tag" sign="_input"/>
-<alignFile key="b" href="../es/0596-es-auto.tag" sign="_input"/>
+<alignFile key="b" href="../es/0596-es-tagged.tag" sign="_input"/>
 <align out="a51" type="" in="b13" creator="-101" insign="de" outsign="af"/>
 <align out="a52" type="" in="b14" creator="-101" insign="medicamentos" outsign="lægemidler"/>
 <align out="a53" type="" in="b15" creator="-101" insign="y" outsign="og"/>

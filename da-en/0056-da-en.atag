@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0056-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/0056-en.tag" sign="_input"/>
+<alignFile key="b" href="../en/0056-en-tagged.tag" sign="_input"/>
 <align out="a44" type="" in="b3" creator="-1" insign="continued" outsign="fortsatte"/>
 <align out="a47" type="" in="b7" creator="-1" insign="20" outsign="20"/>
 <align out="a48" type="" in="b8" creator="-1" insign="minutes" outsign="minutter"/>

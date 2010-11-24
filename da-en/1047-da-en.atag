@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1047-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/1047-en.tag" sign="_input"/>
+<alignFile key="b" href="../en/1047-en-tagged.tag" sign="_input"/>
 <align out="a43" type="" in="b1 b2 b3" creator="-1" insign="County Council Chairperson" outsign="Amtsborgmester"/>
 <align out="a44" type="" in="b4" creator="-1" insign="Per" outsign="Per"/>
 <align out="a45" type="" in="b5" creator="-1" insign="Kaalund" outsign="Kaalund"/>

@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0837-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/0837-en-auto.tag" sign="_input"/>
+<alignFile key="b" href="../en/0837-en-tagged.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="Several" outsign="Flere"/>
 <align out="a44" type="" in="b2 b3" creator="-1" insign="bank employees" outsign="bank-ansatte"/>
 <align out="a45" type="" in="b4" creator="-1" insign="tried" outsign="forsøgte"/>

@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0705-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/0705-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="../it/0705-it-tagged.tag" sign="_input"/>
 <align out="a43" type="s" in="b0 b1" creator="0" insign="La stampa" outsign="Pressen"/>
 <align out="a47 a48 a49 a50" type="f" in="b5" creator="0" insign="parlarne" outsign="lægge mærke til ham"/>
 <align out="a57" type="" in="b14" creator="0" insign="recensiti" outsign="anmeldt"/>

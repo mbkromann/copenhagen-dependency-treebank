@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0184-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/0184-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="../it/0184-it-tagged.tag" sign="_input"/>
 <align out="a48" type="" in="b7" creator="0" insign="ed" outsign="og"/>
 <align out="a49" type="" in="b8" creator="0" insign="in" outsign="i"/>
 <align out="a50" type="" in="b9 b10 b11 b12 b13" creator="0" insign="piatti già confezionati per l’uso" outsign="færdigretter"/>

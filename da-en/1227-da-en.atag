@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1227-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/1227-en.tag" sign="_input"/>
+<alignFile key="b" href="../en/1227-en-tagged.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a44" type="" in="b2" creator="-1" insign="But" outsign="Men"/>
 <align out="a48" type="" in="b8" creator="-1" insign="the" outsign="det"/>

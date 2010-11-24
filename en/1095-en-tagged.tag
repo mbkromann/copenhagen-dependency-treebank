@@ -1,0 +1,214 @@
+<s>
+<W id="1" msd="NC=P" tag="NNS" in="" out="">Conditions</W>
+<W id="2" msd="VADA" tag="VBD" in="" out="">were</W>
+<W id="3" msd="ANP" tag="JJ" in="" out="">horrifying</W>
+<W id="4" msd="SP" tag="IN" in="" out="">in</W>
+<W id="5" msd="PD" tag="DT" in="" out="">the</W>
+<W id="6" msd="NP=S" tag="NNP" in="" out="">DDR's</W>
+<W id="7" msd="ANP" tag="RB" in="" out="">only</W>
+<W id="8" msd="VADA" tag="VBD" in="" out="">closed</W>
+<W id="9" msd="ANP" tag="JJ" in="" out="">juvenile</W>
+<W id="10" msd="NC=S" tag="NN" in="" out="">prison</W>
+<W id="11" msd="XP" tag="," in="" out="">,</W>
+<W id="12" msd="VAP" tag="VBN" in="" out="">located</W>
+<W id="13" msd="SP" tag="IN" in="" out="">in</W>
+<W id="14" msd="NP=S" tag="NNP" in="" out="">Torgau</W>
+<W id="15" msd="SP" tag="IN" in="" out="">on</W>
+<W id="16" msd="PD" tag="DT" in="" out="">the</W>
+<W id="17" msd="NP=S" tag="NNP" in="" out="">Elbe</W>
+<W id="18" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="21" msd="AC" tag="CD" in="" out="">60</W>
+<W id="22" msd="NC=P" tag="NNS" in="" out="">children</W>
+<W id="23" msd="SP" tag="IN" in="" out="">between</W>
+<W id="24" msd="AC" tag="CD" in="" out="">14</W>
+<W id="25" msd="CC" tag="CC" in="" out="">and</W>
+<W id="26" msd="AC" tag="CD" in="" out="">18</W>
+<W id="27" msd="VADA" tag="VBD" in="" out="">were</W>
+<W id="28" msd="VAP" tag="VBN" in="" out="">locked</W>
+<W id="29" msd="RG" tag="RP" in="" out="">up</W>
+<W id="30" msd="ANP" tag="RB" in="" out="">here</W>
+<W id="31" msd="XP" tag="," in="" out="">,</W>
+<W id="32" msd="CS" tag="IN" in="" out="">because</W>
+<W id="33" msd="VAG" tag="VBG" in="" out="">according</W>
+<W id="34" msd="U=" tag="TO" in="" out="">to</W>
+<W id="35" msd="PD" tag="DT" in="" out="">the</W>
+<W id="36" msd="NC=S" tag="NN" in="" out="">regime</W>
+<W id="37" msd="PP" tag="PRP" in="" out="">they</W>
+<W id="38" msd="VADA" tag="VBD" in="" out="">had</W>
+<W id="39" msd="VAP" tag="VBN" in="" out="">demonstrated</W>
+<W id="40" msd="PI" tag="DT" in="" out="">a</W>
+<W id="41" msd="ANP" tag="JJ" in="" out="">high</W>
+<W id="42" msd="NC=S" tag="NN" in="" out="">degree</W>
+<W id="43" msd="SP" tag="IN" in="" out="">of</W>
+<W id="44" msd="ANP" tag="JJ" in="" out="">asocial</W>
+<W id="45" msd="NC=S" tag="NN" in="" out="">behaviour</W>
+<W id="46" msd="CC" tag="CC" in="" out="">and</W>
+<W id="47" msd="VADA" tag="VBD" in="" out="">proved</W>
+<W id="48" msd="PP" tag="PRP" in="" out="">themselves</W>
+<W id="49" msd="ANP" tag="JJ" in="" out="">incorrigible</W>
+<W id="50" msd="SP" tag="IN" in="" out="">at</W>
+<W id="51" msd="ANC" tag="RBR" in="" out="">more</W>
+<W id="52" msd="ANP" tag="JJ" in="" out="">normal</W>
+<W id="53" msd="NC=S" tag="NN" in="" out="">youth</W>
+<W id="54" msd="NC=P" tag="NNS" in="" out="">institutions</W>
+<W id="55" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="58" msd="SP" tag="IN" in="" out="">Behind</W>
+<W id="59" msd="ANP" tag="JJ" in="" out="">high</W>
+<W id="60" msd="NC=P" tag="NNS" in="" out="">walls</W>
+<W id="61" msd="SP" tag="IN" in="" out="">with</W>
+<W id="62" msd="VAP" tag="VBN" in="" out="">barbed</W>
+<W id="63" msd="NC=S" tag="NN" in="" out="">wire</W>
+<W id="64" msd="XP" tag="," in="" out="">,</W>
+<W id="65" msd="PD" tag="DT" in="" out="">the</W>
+<W id="66" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="67" msd="NC=P" tag="NNS" in="" out="">educators</W>
+<W id="68" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="69" msd="XP" tag="," in="" out="">,</W>
+<W id="70" msd="PT" tag="WP" in="" out="">who</W>
+<W id="71" msd="SP" tag="IN" in="" out="">in</W>
+<W id="72" msd="NC=S" tag="NN" in="" out="">reality</W>
+<W id="73" msd="VADA" tag="VBD" in="" out="">were</W>
+<W id="74" msd="NC=S" tag="NN" in="" out="">prison</W>
+<W id="75" msd="NC=P" tag="NNS" in="" out="">guards</W>
+<W id="76" msd="XP" tag="," in="" out="">,</W>
+<W id="77" msd="VADA" tag="VBD" in="" out="">gave</W>
+<W id="78" msd="NC=S" tag="NN" in="" out="">outlet</W>
+<W id="79" msd="U=" tag="TO" in="" out="">to</W>
+<W id="80" msd="PO" tag="PRP$" in="" out="">their</W>
+<W id="81" msd="ANP" tag="JJ" in="" out="">sadistic</W>
+<W id="82" msd="NC=P" tag="NNS" in="" out="">inclinations</W>
+<W id="83" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="86" msd="PD" tag="DT" in="" out="">The</W>
+<W id="87" msd="NC=P" tag="NNS" in="" out="">accounts</W>
+<W id="88" msd="SP" tag="IN" in="" out="">of</W>
+<W id="89" msd="PT" tag="WRB" in="" out="">how</W>
+<W id="90" msd="PD" tag="DT" in="" out="">the</W>
+<W id="91" msd="NC=P" tag="NNS" in="" out="">children</W>
+<W id="92" msd="VADA" tag="VBD" in="" out="">were</W>
+<W id="93" msd="VAP" tag="VBN" in="" out="">mistreated</W>
+<W id="94" msd="VADR" tag="VBP" in="" out="">are</W>
+<W id="95" msd="ANP" tag="JJ" in="" out="">hair-raising</W>
+<W id="96" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="99" msd="VAG" tag="VBG" in="" out="">According</W>
+<W id="100" msd="U=" tag="TO" in="" out="">to</W>
+<W id="101" msd="PI" tag="DT" in="" out="">an</W>
+<W id="102" msd="ANP" tag="JJ" in="" out="">official</W>
+<W id="103" msd="NC=S" tag="NN" in="" out="">report</W>
+<W id="104" msd="SP" tag="IN" in="" out="">from</W>
+<W id="105" msd="PD" tag="DT" in="" out="">the</W>
+<W id="106" msd="NC=S" tag="NN" in="" out="">city</W>
+<W id="107" msd="NC=S" tag="NN" in="" out="">government</W>
+<W id="108" msd="XP" tag="," in="" out="">,</W>
+<W id="109" msd="NC=P" tag="NNS" in="" out="">conditions</W>
+<W id="110" msd="SP" tag="IN" in="" out="">in</W>
+<W id="111" msd="PD" tag="DT" in="" out="">the</W>
+<W id="112" msd="NC=S" tag="NN" in="" out="">prison</W>
+<W id="113" msd="VADA" tag="VBD" in="" out="">were</W>
+<W id="114" msd="ANP" tag="RB" in="" out="">significantly</W>
+<W id="115" msd="ANC" tag="JJR" in="" out="">worse</W>
+<W id="116" msd="SP" tag="IN" in="" out="">than</W>
+<W id="117" msd="SP" tag="IN" in="" out="">in</W>
+<W id="118" msd="ANP" tag="JJ" in="" out="">normal</W>
+<W id="119" msd="NP=S" tag="NNP" in="" out="">DDR</W>
+<W id="120" msd="NC=P" tag="NNS" in="" out="">prisons</W>
+<W id="121" msd="SP" tag="IN" in="" out="">for</W>
+<W id="122" msd="NC=P" tag="NNS" in="" out="">adults</W>
+<W id="123" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="126" msd="PD" tag="DT" in="" out="">The</W>
+<W id="127" msd="NC=S" tag="NN" in="" out="">material</W>
+<W id="128" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="129" msd="VAP" tag="VBN" in="" out="">based</W>
+<W id="130" msd="SP" tag="IN" in="" out="">in</W>
+<W id="131" msd="NC=S" tag="NN" in="" out="">part</W>
+<W id="132" msd="SP" tag="IN" in="" out="">on</W>
+<W id="133" msd="NC=P" tag="NNS" in="" out="">documents</W>
+<W id="134" msd="XP" tag="," in="" out="">,</W>
+<W id="135" msd="PT" tag="WDT" in="" out="">which</W>
+<W id="136" msd="PD" tag="DT" in="" out="">the</W>
+<W id="137" msd="NC=P" tag="NNS" in="" out="">prison's</W>
+<W id="138" msd="NC=S" tag="NN" in="" out="">management</W>
+<W id="139" msd="VADA" tag="VBD" in="" out="">was</W>
+<W id="140" msd="ANP" tag="JJ" in="" out="">unable</W>
+<W id="141" msd="U=" tag="TO" in="" out="">to</W>
+<W id="142" msd="VAF" tag="VB" in="" out="">destroy</W>
+<W id="143" msd="SP" tag="IN" in="" out="">in</W>
+<W id="144" msd="NC=S" tag="NN" in="" out="">time</W>
+<W id="145" msd="XP" tag="," in="" out="">,</W>
+<W id="146" msd="SP" tag="IN" in="" out="">in</W>
+<W id="147" msd="NC=S" tag="NN" in="" out="">part</W>
+<W id="148" msd="SP" tag="IN" in="" out="">on</W>
+<W id="149" msd="NC=P" tag="NNS" in="" out="">statements</W>
+<W id="150" msd="SP" tag="IN" in="" out="">of</W>
+<W id="151" msd="NC=P" tag="NNS" in="" out="">witnesses</W>
+<W id="152" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="155" msd="ANP" tag="JJ" in="" out="">Many</W>
+<W id="156" msd="NC=P" tag="NNS" in="" out="">children</W>
+<W id="157" msd="VADA" tag="VBD" in="" out="">tried</W>
+<W id="158" msd="U=" tag="TO" in="" out="">to</W>
+<W id="159" msd="VAF" tag="VB" in="" out="">escape</W>
+<W id="160" msd="PD" tag="DT" in="" out="">the</W>
+<W id="161" msd="NC=P" tag="NNS" in="" out="">horrors</W>
+<W id="162" msd="SP" tag="IN" in="" out="">by</W>
+<W id="163" msd="NC=S" tag="NN" in="" out="">suicide</W>
+<W id="164" msd="NC=P" tag="NNS" in="" out="">attempts</W>
+<W id="165" msd="CC" tag="CC" in="" out="">or</W>
+<W id="166" msd="SP" tag="IN" in="" out="">by</W>
+<W id="167" msd="VAG" tag="VBG" in="" out="">inflicting</W>
+<W id="168" msd="NC=P" tag="NNS" in="" out="">injuries</W>
+<W id="169" msd="SP" tag="IN" in="" out="">upon</W>
+<W id="170" msd="PP" tag="PRP" in="" out="">themselves</W>
+<W id="171" msd="SP" tag="IN" in="" out="">in</W>
+<W id="172" msd="NC=S" tag="NN" in="" out="">order</W>
+<W id="173" msd="U=" tag="TO" in="" out="">to</W>
+<W id="174" msd="VAF" tag="VB" in="" out="">get</W>
+<W id="175" msd="SP" tag="IN" in="" out="">into</W>
+<W id="176" msd="PI" tag="DT" in="" out="">a</W>
+<W id="177" msd="NC=S" tag="NN" in="" out="">hospital</W>
+<W id="178" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="181" msd="AC" tag="CD" in="" out="">One</W>
+<W id="182" msd="NC=S" tag="NN" in="" out="">boy</W>
+<W id="183" msd="VADA" tag="VBD" in="" out="">stuck</W>
+<W id="184" msd="PI" tag="DT" in="" out="">an</W>
+<W id="185" msd="NC=S" tag="NN" in="" out="">iron</W>
+<W id="186" msd="NC=S" tag="NN" in="" out="">bar</W>
+<W id="187" msd="RG" tag="RP" in="" out="">up</W>
+<W id="188" msd="PO" tag="PRP$" in="" out="">his</W>
+<W id="189" msd="NC=S" tag="NN" in="" out="">rectum</W>
+<W id="190" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="193" msd="PD" tag="DT" in="" out="">Another</W>
+<W id="194" msd="VAP" tag="VBN" in="" out="">set</W>
+<W id="195" msd="NC=S" tag="NN" in="" out="">fire</W>
+<W id="196" msd="U=" tag="TO" in="" out="">to</W>
+<W id="197" msd="PP" tag="PRP" in="" out="">himself</W>
+<W id="198" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="201" msd="NC=P" tag="NNS" in="" out="">Others</W>
+<W id="202" msd="VADA" tag="VBD" in="" out="">swallowed</W>
+<W id="203" msd="NC=P" tag="NNS" in="" out="">nails</W>
+<W id="204" msd="CC" tag="CC" in="" out="">and</W>
+<W id="205" msd="NC=P" tag="NNS" in="" out="">pieces</W>
+<W id="206" msd="SP" tag="IN" in="" out="">of</W>
+<W id="207" msd="NC=S" tag="NN" in="" out="">glass</W>
+<W id="208" msd="CC" tag="CC" in="" out="">or</W>
+<W id="209" msd="VAF" tag="VB" in="" out="">cut</W>
+<W id="210" msd="PO" tag="PRP$" in="" out="">their</W>
+<W id="211" msd="NC=P" tag="NNS" in="" out="">veins</W>
+<W id="212" msd="XP" tag="." in="" out="">.</W>
+</s>

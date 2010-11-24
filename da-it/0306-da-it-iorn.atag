@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="/home/cdt/cdt/da-it/../da/0306-da.tag" sign="_input"/>
-<alignFile key="b" href="/home/cdt/cdt/da-it/../it/0306-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="/home/cdt/cdt/da-it/../it/0306-it-tagged.tag" sign="_input"/>
 <align out="b0" type="" in="b0" creator="0" insign="Se" outsign="Se"/>
 <align out="a48" type="" in="b6" creator="0" insign="allora" outsign="så"/>
 <align out="a49" type="" in="b7" creator="0" insign="scrivete" outsign="skriv"/>

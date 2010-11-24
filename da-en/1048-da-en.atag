@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1048-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/1048-en.tag" sign="_input"/>
+<alignFile key="b" href="../en/1048-en-tagged.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="Upturn" outsign="Opsving"/>
 <align out="a44" type="" in="b2" creator="-1" insign="for" outsign="for"/>
 <align out="a45" type="" in="b3 b4" creator="-1" insign="boating equipment" outsign="bådudstyr"/>

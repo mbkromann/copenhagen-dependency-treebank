@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0596-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/0596-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="../it/0596-it-tagged.tag" sign="_input"/>
 <align out="a42" type="s" in="b0" creator="0" insign="Il" outsign="Arbejdsgruppen"/>
 <align out="a42" type="" in="b1 b2 b3" creator="0" insign="gruppo di lavoro" outsign="Arbejdsgruppen"/>
 <align out="a43 a44 a45 a46 a47" type="" in="b4 b5 b6 b7" creator="0" insign="si deve basare sulla" outsign="skal tage sit udgangspunkt i"/>

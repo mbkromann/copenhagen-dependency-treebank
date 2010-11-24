@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0881-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/0881-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="../it/0881-it-tagged.tag" sign="_input"/>
 <align out="a52" type="s" in="b10 b11" creator="0" insign="della strada" outsign="gaden"/>
 <align out="a51" type="" in="b10" creator="0" insign="della" outsign="af"/>
 <align out="a50" type="" in="b9" creator="0" insign="lato" outsign="side"/>

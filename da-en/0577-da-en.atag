@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0577-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/0577-en.tag" sign="_input"/>
+<alignFile key="b" href="../en/0577-en-tagged.tag" sign="_input"/>
 <align out="a41" type="" in="b1 b2" creator="-1" insign="Physical therapy" outsign="Fysioterapi"/>
 <align out="a43" type="" in="b3" creator="-1" insign="," outsign=","/>
 <align out="a44" type="" in="b4" creator="-1" insign="which" outsign="der"/>

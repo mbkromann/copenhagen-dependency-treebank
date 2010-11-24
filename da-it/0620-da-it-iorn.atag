@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0620-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/0620-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="../it/0620-it-tagged.tag" sign="_input"/>
 <align out="a43 a44" type="" in="b1" creator="0" insign="Sentivo" outsign="Jeg følte"/>
 <align out="a45" type="" in="a45" creator="0" insign="," outsign=","/>
 <align out="a51 a52" type="" in="b8 b9" creator="0" insign="avrebbero dovuto" outsign="det skulle"/>

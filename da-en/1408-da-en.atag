@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1408-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/1408-en.tag" sign="_input"/>
+<alignFile key="b" href="../en/1408-en-tagged.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="What" outsign="Hvad"/>
 <align out="a44" type="" in="b2 b3 b4" creator="-1" insign="the Social Democrats" outsign="Socialdemokratiet"/>
 <align out="a45" type="" in="b5" creator="-1" insign="believe" outsign="mener"/>

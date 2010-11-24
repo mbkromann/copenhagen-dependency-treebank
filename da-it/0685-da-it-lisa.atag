@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0685-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/0685-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="../it/0685-it-tagged.tag" sign="_input"/>
 <align out="a46" type="" in="b3 b4 b5" creator="0" insign="abuso di stupefacenti" outsign="narkomisbrug"/>
 <align out="b6" type="" in="b6" creator="0" insign="." outsign="."/>
 <align out="a48" type="" in="b8" creator="0" insign=":" outsign=":"/>

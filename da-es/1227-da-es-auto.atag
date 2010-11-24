@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1227-da.tag" sign="_input"/>
-<alignFile key="b" href="../es/1227-es-auto.tag" sign="_input"/>
+<alignFile key="b" href="../es/1227-es-tagged.tag" sign="_input"/>
 <align out="a45" type="" in="b2+b3" creator="-101" outsign="færøerne" insign="las islas"/>
 <align out="a46" type="" in="b5+b6" creator="-101" outsign="tilhører" insign="pertenecen a"/>
 <align out="a48" type="" in="b7" creator="-101" outsign="det" insign="la"/>

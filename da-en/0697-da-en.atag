@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0697-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/0697-en.tag" sign="_input"/>
+<alignFile key="b" href="../en/0697-en-tagged.tag" sign="_input"/>
 <align out="a43" type="" in="b1 b2" creator="-1" insign="The country" outsign="Landet"/>
 <align out="a44" type="" in="b3" creator="-1" insign="as" outsign="som"/>
 <align out="a47" type="" in="b9" creator="-1" insign="neither" outsign="hverken"/>

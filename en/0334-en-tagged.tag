@@ -1,0 +1,195 @@
+<s>
+<W id="1" msd="PP" tag="PRP" in="" out="">I</W>
+<W id="2" msd="VADR" tag="VBP" in="" out="">don't</W>
+<W id="3" msd="VAF" tag="VB" in="" out="">know</W>
+<W id="4" msd="SP" tag="IN" in="" out="">whether</W>
+<W id="5" msd="PP" tag="PRP" in="" out="">I</W>
+<W id="6" msd="VADR" tag="VBP" in="" out="">am</W>
+<W id="7" msd="VAG" tag="VBG" in="" out="">getting</W>
+<W id="8" msd="VAP" tag="VBN" in="" out="">bored</W>
+<W id="9" msd="CC" tag="CC" in="" out="">or</W>
+<W id="10" msd="SP" tag="IN" in="" out="">whether</W>
+<W id="11" msd="PP" tag="PRP" in="" out="">I</W>
+<W id="12" msd="VADR" tag="VBP" in="" out="">am</W>
+<W id="13" msd="ANP" tag="RB" in="" out="">just</W>
+<W id="14" msd="ANP" tag="JJ" in="" out="">lazy</W>
+<W id="15" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="18" msd="PP" tag="PRP" in="" out="">I</W>
+<W id="19" msd="VA" tag="MD" in="" out="">should</W>
+<W id="20" msd="VAF" tag="VB" in="" out="">look</W>
+<W id="21" msd="SP" tag="IN" in="" out="">around</W>
+<W id="22" msd="NC=S" tag="NN" in="" out="">town</W>
+<W id="23" msd="XP" tag="," in="" out="">,</W>
+<W id="24" msd="CC" tag="CC" in="" out="">but</W>
+<W id="25" msd="PP" tag="PRP" in="" out="">I</W>
+<W id="26" msd="VADR" tag="VBP" in="" out="">can't</W>
+<W id="27" msd="NC=S" tag="NN" in="" out="">pull</W>
+<W id="28" msd="PP" tag="PRP" in="" out="">myself</W>
+<W id="29" msd="ANP" tag="RB" in="" out="">together</W>
+<W id="30" msd="CC" tag="CC" in="" out="">and</W>
+<W id="31" msd="NC=S" tag="NN" in="" out="">content</W>
+<W id="32" msd="PP" tag="PRP" in="" out="">myself</W>
+<W id="33" msd="SP" tag="IN" in="" out="">with</W>
+<W id="34" msd="VAG" tag="VBG" in="" out="">looking</W>
+<W id="35" msd="ANP" tag="RB" in="" out="">kindly</W>
+<W id="36" msd="SP" tag="IN" in="" out="">on</W>
+<W id="37" msd="PI" tag="DT" in="" out="">an</W>
+<W id="38" msd="NP=S" tag="NNP" in="" out="">Englishman</W>
+<W id="39" msd="PT" tag="WP" in="" out="">who</W>
+<W id="40" msd="VADR" tag="VBZ" in="" out="">has</W>
+<W id="41" msd="VAP" tag="VBN" in="" out="">arrived</W>
+<W id="42" msd="ANP" tag="RB" in="" out="">too</W>
+<W id="43" msd="ANP" tag="RB" in="" out="">late</W>
+<W id="44" msd="SP" tag="IN" in="" out="">for</W>
+<W id="45" msd="PD" tag="DT" in="" out="">the</W>
+<W id="46" msd="NC=S" tag="NN" in="" out="">plane</W>
+<W id="47" msd="U=" tag="TO" in="" out="">to</W>
+<W id="48" msd="NP=S" tag="NNP" in="" out="">Botswana</W>
+<W id="49" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="52" msd="PP" tag="PRP" in="" out="">He</W>
+<W id="53" msd="VADR" tag="VBP" in="" out="">cannot</W>
+<W id="54" msd="VAF" tag="VB" in="" out="">see</W>
+<W id="55" msd="NC=S" tag="NN" in="" out="">anything</W>
+<W id="56" msd="SP" tag="IN" in="" out="">at</W>
+<W id="57" msd="PD" tag="DT" in="" out="">all</W>
+<W id="58" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="61" msd="PP" tag="PRP" in="" out="">He</W>
+<W id="62" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="63" msd="NC=S" tag="NN" in="" out="">way</W>
+<W id="64" msd="ANP" tag="RB" in="" out="">too</W>
+<W id="65" msd="ANP" tag="JJ" in="" out="">drunk</W>
+<W id="66" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="69" msd="ANP" tag="RB" in="" out="">Perhaps</W>
+<W id="70" msd="XP" tag="," in="" out="">,</W>
+<W id="71" msd="PP" tag="PRP" in="" out="">it</W>
+<W id="72" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="73" msd="CS" tag="IN" in="" out="">because</W>
+<W id="74" msd="SP" tag="IN" in="" out="">of</W>
+<W id="75" msd="PD" tag="DT" in="" out="">the</W>
+<W id="76" msd="NP=P" tag="NNPS" in="" out="">Norwegians</W>
+<W id="77" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="80" msd="PP" tag="PRP" in="" out="">They</W>
+<W id="81" msd="PD" tag="DT" in="" out="">all</W>
+<W id="82" msd="VAF" tag="VB" in="" out="">speak</W>
+<W id="83" msd="NP=S" tag="NNP" in="" out="">Swahili</W>
+<W id="84" msd="U=" tag="TO" in="" out="">to</W>
+<W id="85" msd="PD" tag="DT" in="" out="">each</W>
+<W id="86" msd="NC=S" tag="NN" in="" out="">other</W>
+<W id="87" msd="XP" tag="," in="" out="">,</W>
+<W id="88" msd="CC" tag="CC" in="" out="">and</W>
+<W id="89" msd="PP" tag="PRP" in="" out="">I</W>
+<W id="90" msd="VADR" tag="VBP" in="" out="">assume</W>
+<W id="91" msd="SP" tag="IN" in="" out="">that</W>
+<W id="92" msd="PP" tag="PRP" in="" out="">they</W>
+<W id="93" msd="VADR" tag="VBP" in="" out="">have</W>
+<W id="94" msd="VAP" tag="VBN" in="" out="">been</W>
+<W id="95" msd="U=" tag="TO" in="" out="">to</W>
+<W id="96" msd="PI" tag="DT" in="" out="">a</W>
+<W id="97" msd="NC=S" tag="NN" in="" out="">language</W>
+<W id="98" msd="NC=S" tag="NN" in="" out="">course</W>
+<W id="99" msd="XP" tag="," in="" out="">,</W>
+<W id="100" msd="PT" tag="WDT" in="" out="">which</W>
+<W id="101" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="102" msd="ANP" tag="RB" in="" out="">very</W>
+<W id="103" msd="ANP" tag="JJ" in="" out="">commendable</W>
+<W id="104" msd="XP" tag="," in="" out="">,</W>
+<W id="105" msd="CC" tag="CC" in="" out="">but</W>
+<W id="106" msd="NP=S" tag="NNP" in="" out="">Swahili</W>
+<W id="107" msd="SP" tag="IN" in="" out="">with</W>
+<W id="108" msd="PI" tag="DT" in="" out="">a</W>
+<W id="109" msd="ANP" tag="JJ" in="" out="">Norwegian</W>
+<W id="110" msd="NC=S" tag="NN" in="" out="">accent</W>
+<W id="111" msd="VADR" tag="VBZ" in="" out="">sounds</W>
+<W id="112" msd="ANP" tag="JJ" in="" out="">strange</W>
+<W id="113" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="116" msd="PP" tag="PRP" in="" out="">It</W>
+<W id="117" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="118" msd="ANP" tag="JJ" in="" out="">bad</W>
+<W id="119" msd="ANP" tag="RB" in="" out="">enough</W>
+<W id="120" msd="SP" tag="IN" in="" out="">that</W>
+<W id="121" msd="PD" tag="DT" in="" out="">the</W>
+<W id="122" msd="NC=P" tag="NNS" in="" out="">natives</W>
+<W id="123" msd="VADR" tag="VBP" in="" out="">speak</W>
+<W id="124" msd="NP=S" tag="NNP" in="" out="">English</W>
+<W id="125" msd="SP" tag="IN" in="" out="">with</W>
+<W id="126" msd="PI" tag="DT" in="" out="">a</W>
+<W id="127" msd="NP=S" tag="NNP" in="" out="">Swahili</W>
+<W id="128" msd="NC=S" tag="NN" in="" out="">accent</W>
+<W id="129" msd="XP" tag="," in="" out="">,</W>
+<W id="130" msd="CC" tag="CC" in="" out="">but</W>
+<W id="131" msd="ANP" tag="RB" in="" out="">here</W>
+<W id="132" msd="SP" tag="IN" in="" out="">at</W>
+<W id="133" msd="PD" tag="DT" in="" out="">the</W>
+<W id="134" msd="NC=S" tag="NN" in="" out="">hotel</W>
+<W id="135" msd="XP" tag="," in="" out="">,</W>
+<W id="136" msd="PD" tag="DT" in="" out="">the</W>
+<W id="137" msd="ANP" tag="JJ" in="" out="">black</W>
+<W id="138" msd="NC=P" tag="NNS" in="" out="">waiters</W>
+<W id="139" msd="VADR" tag="VBP" in="" out="">have</W>
+<W id="140" msd="VAP" tag="VBN" in="" out="">begun</W>
+<W id="141" msd="U=" tag="TO" in="" out="">to</W>
+<W id="142" msd="VAF" tag="VB" in="" out="">speak</W>
+<W id="143" msd="NP=S" tag="NNP" in="" out="">English</W>
+<W id="144" msd="SP" tag="IN" in="" out="">with</W>
+<W id="145" msd="PI" tag="DT" in="" out="">a</W>
+<W id="146" msd="NP=S" tag="NNP" in="" out="">Norwegian</W>
+<W id="147" msd="NP=S" tag="NNP" in="" out="">Swahili</W>
+<W id="148" msd="NC=S" tag="NN" in="" out="">accent</W>
+<W id="149" msd="XP" tag="," in="" out="">,</W>
+<W id="150" msd="CC" tag="CC" in="" out="">and</W>
+<W id="151" msd="PD" tag="DT" in="" out="">that</W>
+<W id="152" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="153" msd="ANP" tag="RB" in="" out="">rather</W>
+<W id="154" msd="ANP" tag="JJ" in="" out="">stiff</W>
+<W id="155" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="158" msd="SP" tag="IN" in="" out="">From</W>
+<W id="159" msd="PD" tag="DT" in="" out="">the</W>
+<W id="160" msd="NC=S" tag="NN" in="" out="">terrace</W>
+<W id="161" msd="XP" tag="," in="" out="">,</W>
+<W id="162" msd="PP" tag="PRP" in="" out="">I</W>
+<W id="163" msd="VA" tag="MD" in="" out="">can</W>
+<W id="164" msd="VAF" tag="VB" in="" out="">look</W>
+<W id="165" msd="SP" tag="IN" in="" out="">out</W>
+<W id="166" msd="SP" tag="IN" in="" out="">on</W>
+<W id="167" msd="PD" tag="DT" in="" out="">the</W>
+<W id="168" msd="NC=S" tag="NN" in="" out="">parking</W>
+<W id="169" msd="NC=S" tag="NN" in="" out="">lot</W>
+<W id="170" msd="XP" tag="," in="" out="">,</W>
+<W id="171" msd="PT" tag="WRB" in="" out="">where</W>
+<W id="172" msd="NC=S" tag="NN" in="" out="">nothing</W>
+<W id="173" msd="SP" tag="IN" in="" out="">at</W>
+<W id="174" msd="PD" tag="DT" in="" out="">all</W>
+<W id="175" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="176" msd="VAG" tag="VBG" in="" out="">happening</W>
+<W id="177" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="180" msd="PD" tag="DT" in="" out="">No</W>
+<W id="181" msd="XP" tag="," in="" out="">,</W>
+<W id="182" msd="ANP" tag="RB" in="" out="">now</W>
+<W id="183" msd="U=" tag="EX" in="" out="">there</W>
+<W id="184" msd="VADR" tag="VBZ" in="" out="">comes</W>
+<W id="185" msd="PI" tag="DT" in="" out="">a</W>
+<W id="186" msd="NC=S" tag="NN" in="" out="">girl</W>
+<W id="187" msd="PT" tag="WP" in="" out="">who</W>
+<W id="188" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="189" msd="ANP" tag="RB" in="" out="">quite</W>
+<W id="190" msd="ANP" tag="RB" in="" out="">certainly</W>
+<W id="191" msd="ANP" tag="RB" in="" out="">not</W>
+<W id="192" msd="ANP" tag="JJ" in="" out="">Norwegian</W>
+<W id="193" msd="XP" tag="." in="" out="">.</W>
+</s>

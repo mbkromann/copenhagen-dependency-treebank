@@ -1,0 +1,230 @@
+<s>
+<W id="1" msd="NP=S" tag="NNP" in="" out="">Lehder</W>
+<W id="2" msd="VADR" tag="VBZ" in="" out="">has</W>
+<W id="3" msd="AC" tag="CD" in="" out="">two</W>
+<W id="4" msd="ANP" tag="JJ" in="" out="">great</W>
+<W id="5" msd="NC=P" tag="NNS" in="" out="">passions</W>
+<W id="6" msd="XP" tag="&3a;" in="" out="">:</W>
+<W id="7" msd="NP=P" tag="NNPS" in="" out="">Beatles</W>
+<W id="8" msd="NC=S" tag="NN" in="" out="">music</W>
+<W id="9" msd="CC" tag="CC" in="" out="">and</W>
+<W id="10" msd="NC=P" tag="NNS" in="" out="">politics</W>
+<W id="11" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="14" msd="NP=S" tag="NNP" in="" out="">John</W>
+<W id="15" msd="NP=S" tag="NNP" in="" out="">Lennon</W>
+<W id="16" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="17" msd="PO" tag="PRP$" in="" out="">his</W>
+<W id="18" msd="ANP" tag="JJ" in="" out="">musical</W>
+<W id="19" msd="NC=S" tag="NN" in="" out="">idol</W>
+<W id="20" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="23" msd="SP" tag="IN" in="" out="">Outside</W>
+<W id="24" msd="AC" tag="CD" in="" out="">one</W>
+<W id="25" msd="SP" tag="IN" in="" out="">of</W>
+<W id="26" msd="PO" tag="PRP$" in="" out="">his</W>
+<W id="27" msd="NC=P" tag="NNS" in="" out="">hotels</W>
+<W id="28" msd="XP" tag="," in="" out="">,</W>
+<W id="29" msd="PP" tag="PRP" in="" out="">he</W>
+<W id="30" msd="VADR" tag="VBZ" in="" out="">has</W>
+<W id="31" msd="VAP" tag="VBN" in="" out="">erected</W>
+<W id="32" msd="PI" tag="DT" in="" out="">a</W>
+<W id="33" msd="NC=S" tag="NN" in="" out="">statute</W>
+<W id="34" msd="SP" tag="IN" in="" out="">of</W>
+<W id="35" msd="PI" tag="DT" in="" out="">a</W>
+<W id="36" msd="ANP" tag="JJ" in="" out="">naked</W>
+<W id="37" msd="NP=S" tag="NNP" in="" out="">John</W>
+<W id="38" msd="NP=S" tag="NNP" in="" out="">Lennon</W>
+<W id="39" msd="SP" tag="IN" in="" out="">with</W>
+<W id="40" msd="PI" tag="DT" in="" out="">a</W>
+<W id="41" msd="NC=S" tag="NN" in="" out="">steel</W>
+<W id="42" msd="NC=S" tag="NN" in="" out="">helmet</W>
+<W id="43" msd="SP" tag="IN" in="" out="">on</W>
+<W id="44" msd="PO" tag="PRP$" in="" out="">his</W>
+<W id="45" msd="NC=S" tag="NN" in="" out="">head</W>
+<W id="46" msd="XP" tag="," in="" out="">,</W>
+<W id="47" msd="PI" tag="DT" in="" out="">a</W>
+<W id="48" msd="NC=S" tag="NN" in="" out="">guitar</W>
+<W id="49" msd="SP" tag="IN" in="" out="">in</W>
+<W id="50" msd="PO" tag="PRP$" in="" out="">his</W>
+<W id="51" msd="NC=P" tag="NNS" in="" out="">arms</W>
+<W id="52" msd="XP" tag="," in="" out="">,</W>
+<W id="53" msd="CC" tag="CC" in="" out="">and</W>
+<W id="54" msd="PI" tag="DT" in="" out="">a</W>
+<W id="55" msd="NC=S" tag="NN" in="" out="">bullet</W>
+<W id="56" msd="NC=S" tag="NN" in="" out="">hole</W>
+<W id="57" msd="SP" tag="IN" in="" out="">in</W>
+<W id="58" msd="PO" tag="PRP$" in="" out="">his</W>
+<W id="59" msd="NC=S" tag="NN" in="" out="">chest</W>
+<W id="60" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="63" msd="NP=S" tag="NNP" in="" out="">Adolf</W>
+<W id="64" msd="NP=S" tag="NNP" in="" out="">Hitler</W>
+<W id="65" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="66" msd="NP=S" tag="NNP" in="" out="">Lehder's</W>
+<W id="67" msd="ANP" tag="JJ" in="" out="">political</W>
+<W id="68" msd="NC=S" tag="NN" in="" out="">idol</W>
+<W id="69" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="72" msd="PP" tag="PRP" in="" out="">He</W>
+<W id="73" msd="VADR" tag="VBZ" in="" out="">has</W>
+<W id="74" msd="VAP" tag="VBN" in="" out="">established</W>
+<W id="75" msd="PO" tag="PRP$" in="" out="">his</W>
+<W id="76" msd="ANP" tag="JJ" in="" out="">own</W>
+<W id="77" msd="NC=S" tag="NN" in="" out="">neo-Nazi</W>
+<W id="78" msd="ANP" tag="JJ" in="" out="">political</W>
+<W id="79" msd="NC=S" tag="NN" in="" out="">party</W>
+<W id="80" msd="XP" tag="," in="" out="">,</W>
+<W id="81" msd="PT" tag="WDT" in="" out="">which</W>
+<W id="82" msd="VADR" tag="VBZ" in="" out="">has</W>
+<W id="83" msd="PO" tag="PRP$" in="" out="">its</W>
+<W id="84" msd="ANP" tag="JJ" in="" out="">own</W>
+<W id="85" msd="NC=S" tag="NN" in="" out="">newspaper</W>
+<W id="86" msd="SP" tag="IN" in="" out="">with</W>
+<W id="87" msd="PI" tag="DT" in="" out="">a</W>
+<W id="88" msd="NC=S" tag="NN" in="" out="">circulation</W>
+<W id="89" msd="SP" tag="IN" in="" out="">of</W>
+<W id="90" msd="AC" tag="CD" in="" out="">60,000</W>
+<W id="91" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="94" msd="CS" tag="IN" in="" out="">As</W>
+<W id="95" msd="PI" tag="DT" in="" out="">a</W>
+<W id="96" msd="NC=S" tag="NN" in="" out="">nationalist</W>
+<W id="97" msd="XP" tag="," in="" out="">,</W>
+<W id="98" msd="PP" tag="PRP" in="" out="">he</W>
+<W id="99" msd="VADR" tag="VBZ" in="" out="">harbors</W>
+<W id="100" msd="NC=S" tag="NN" in="" out="">hatred</W>
+<W id="101" msd="SP" tag="IN" in="" out="">towards</W>
+<W id="102" msd="PD" tag="DT" in="" out="">the</W>
+<W id="103" msd="PP" tag="PRP" in="" out="">US</W>
+<W id="104" msd="XP" tag="," in="" out="">,</W>
+<W id="105" msd="CC" tag="CC" in="" out="">and</W>
+<W id="106" msd="PP" tag="PRP" in="" out="">he</W>
+<W id="107" msd="VADR" tag="VBZ" in="" out="">sees</W>
+<W id="108" msd="PP" tag="PRP" in="" out="">himself</W>
+<W id="109" msd="CS" tag="IN" in="" out="">as</W>
+<W id="110" msd="PI" tag="DT" in="" out="">a</W>
+<W id="111" msd="NC=S" tag="NN" in="" out="">general</W>
+<W id="112" msd="SP" tag="IN" in="" out="">in</W>
+<W id="113" msd="PI" tag="DT" in="" out="">a</W>
+<W id="114" msd="NC=S" tag="NN" in="" out="">neo-Nazi</W>
+<W id="115" msd="NC=S" tag="NN" in="" out="">struggle</W>
+<W id="116" msd="SP" tag="IN" in="" out="">against</W>
+<W id="117" msd="PD" tag="DT" in="" out="">the</W>
+<W id="118" msd="NP=P" tag="NNPS" in="" out="">Americans</W>
+<W id="119" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="122" msd="XP" tag="&3a;" in="" out="">-</W>
+<W id="123" msd="NC=S" tag="NN" in="" out="">Cocaine</W>
+<W id="124" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="125" msd="NP=S" tag="NNP" in="" out="">Latin</W>
+<W id="126" msd="NP=S" tag="NNP" in="" out="">America's</W>
+<W id="127" msd="NC=S" tag="NN" in="" out="">atom</W>
+<W id="128" msd="NC=S" tag="NN" in="" out="">bomb</W>
+<W id="129" msd="SP" tag="IN" in="" out="">in</W>
+<W id="130" msd="PD" tag="DT" in="" out="">the</W>
+<W id="131" msd="NC=S" tag="NN" in="" out="">war</W>
+<W id="132" msd="SP" tag="IN" in="" out="">against</W>
+<W id="133" msd="PD" tag="DT" in="" out="">the</W>
+<W id="134" msd="PP" tag="PRP" in="" out="">US</W>
+<W id="135" msd="XP" tag="," in="" out="">,</W>
+<W id="136" msd="PP" tag="PRP" in="" out="">he</W>
+<W id="137" msd="VADA" tag="VBD" in="" out="">said</W>
+<W id="138" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="141" msd="SP" tag="IN" in="" out="">At</W>
+<W id="142" msd="PD" tag="DT" in="" out="">the</W>
+<W id="143" msd="NC=S" tag="NN" in="" out="">beginning</W>
+<W id="144" msd="SP" tag="IN" in="" out="">of</W>
+<W id="145" msd="AC" tag="CD" in="" out="">1986,</W>
+<W id="146" msd="PD" tag="DT" in="" out="">the</W>
+<W id="147" msd="NC=S" tag="NN" in="" out="">cartel</W>
+<W id="148" msd="VADA" tag="VBD" in="" out="">seemed</W>
+<W id="149" msd="ANC" tag="JJR" in="" out="">stronger</W>
+<W id="150" msd="CC" tag="CC" in="" out="">and</W>
+<W id="151" msd="ANC" tag="RBR" in="" out="">more</W>
+<W id="152" msd="ANP" tag="JJ" in="" out="">untouchable</W>
+<W id="153" msd="SP" tag="IN" in="" out="">than</W>
+<W id="154" msd="ANP" tag="RB" in="" out="">ever</W>
+<W id="155" msd="XP" tag="," in="" out="">,</W>
+<W id="156" msd="CC" tag="CC" in="" out="">and</W>
+<W id="157" msd="NC=S" tag="NN" in="" out="">cocaine</W>
+<W id="158" msd="VADA" tag="VBD" in="" out="">was</W>
+<W id="159" msd="VAG" tag="VBG" in="" out="">streaming</W>
+<W id="160" msd="SP" tag="IN" in="" out="">into</W>
+<W id="161" msd="PD" tag="DT" in="" out="">the</W>
+<W id="162" msd="PP" tag="PRP" in="" out="">US</W>
+<W id="163" msd="CS" tag="IN" in="" out="">as</W>
+<W id="164" msd="ANP" tag="RB" in="" out="">never</W>
+<W id="165" msd="ANP" tag="RB" in="" out="">before</W>
+<W id="166" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="169" msd="ANP" tag="RB" in="" out="">Now</W>
+<W id="170" msd="PD" tag="DT" in="" out="">the</W>
+<W id="171" msd="ANP" tag="JJ" in="" out="">American</W>
+<W id="172" msd="NC=P" tag="NNS" in="" out="">narcotics</W>
+<W id="173" msd="NC=S" tag="NN" in="" out="">police</W>
+<W id="174" msd="XP" tag="," in="" out="">,</W>
+<W id="175" msd="PD" tag="DT" in="" out="">the</W>
+<W id="176" msd="NP=S" tag="NNP" in="" out="">DEA</W>
+<W id="177" msd="XP" tag="," in="" out="">,</W>
+<W id="178" msd="VADR" tag="VBP" in="" out="">have</W>
+<W id="179" msd="U=" tag="TO" in="" out="">to</W>
+<W id="180" msd="VAF" tag="VB" in="" out="">conduct</W>
+<W id="181" msd="PD" tag="DT" in="" out="">the</W>
+<W id="182" msd="NC=S" tag="NN" in="" out="">war</W>
+<W id="183" msd="SP" tag="IN" in="" out="">on</W>
+<W id="184" msd="PD" tag="DT" in="" out="">the</W>
+<W id="185" msd="NC=S" tag="NN" in="" out="">home</W>
+<W id="186" msd="NC=S" tag="NN" in="" out="">front</W>
+<W id="187" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="190" msd="PP" tag="PRP" in="" out="">They</W>
+<W id="191" msd="VADA" tag="VBD" in="" out="">did</W>
+<W id="192" msd="PP" tag="PRP" in="" out="">it</W>
+<W id="193" msd="SP" tag="IN" in="" out="">with</W>
+<W id="194" msd="ANP" tag="JJ" in="" out="">great</W>
+<W id="195" msd="NC=S" tag="NN" in="" out="">success</W>
+<W id="196" msd="SP" tag="IN" in="" out="">for</W>
+<W id="197" msd="PI" tag="DT" in="" out="">a</W>
+<W id="198" msd="NC=S" tag="NN" in="" out="">period</W>
+<W id="199" msd="SP" tag="IN" in="" out="">at</W>
+<W id="200" msd="PD" tag="DT" in="" out="">the</W>
+<W id="201" msd="NC=S" tag="NN" in="" out="">end</W>
+<W id="202" msd="SP" tag="IN" in="" out="">of</W>
+<W id="203" msd="AC" tag="CD" in="" out="">1985</W>
+<W id="204" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="207" msd="ANP" tag="JJ" in="" out="">Many</W>
+<W id="208" msd="NC=P" tag="NNS" in="" out="">shipments</W>
+<W id="209" msd="VADA" tag="VBD" in="" out="">were</W>
+<W id="210" msd="VAP" tag="VBN" in="" out="">intercepted</W>
+<W id="211" msd="XP" tag="," in="" out="">,</W>
+<W id="212" msd="CC" tag="CC" in="" out="">and</W>
+<W id="213" msd="PD" tag="DT" in="" out="">the</W>
+<W id="214" msd="NC=S" tag="NN" in="" out="">cartel</W>
+<W id="215" msd="NC=P" tag="NNS" in="" out="">bosses</W>
+<W id="216" msd="VA" tag="MD" in="" out="">could</W>
+<W id="217" msd="ANP" tag="RB" in="" out="">not</W>
+<W id="218" msd="VAF" tag="VB" in="" out="">understand</W>
+<W id="219" msd="SP" tag="IN" in="" out="">from</W>
+<W id="220" msd="PT" tag="WRB" in="" out="">where</W>
+<W id="221" msd="PD" tag="DT" in="" out="">the</W>
+<W id="222" msd="NP=S" tag="NNP" in="" out="">DEA</W>
+<W id="223" msd="VADA" tag="VBD" in="" out="">got</W>
+<W id="224" msd="ANP" tag="RB" in="" out="">so</W>
+<W id="225" msd="ANP" tag="JJ" in="" out="">much</W>
+<W id="226" msd="SP" tag="IN" in="" out="">inside</W>
+<W id="227" msd="NC=S" tag="NN" in="" out="">knowledge</W>
+<W id="228" msd="XP" tag="." in="" out="">.</W>
+</s>

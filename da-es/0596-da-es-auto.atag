@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0596-da.tag" sign="_input"/>
-<alignFile key="b" href="../es/0596-es-auto.tag" sign="_input"/>
+<alignFile key="b" href="../es/0596-es-tagged.tag" sign="_input"/>
 <align out="a42+a45" type="" in="b0+b1+b3" creator="-101" outsign="arbejdsgruppen sit" insign="el grupo trabajo"/>
 <align out="a43" type="" in="b4" creator="-101" outsign="skal" insign="tieneque"/>
 <align out="a44" type="" in="b5" creator="-101" outsign="tage" insign="tener"/>

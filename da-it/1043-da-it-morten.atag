@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1043-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/1043-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="../it/1043-it-tagged.tag" sign="_input"/>
 <align out="a48 a49" type="mvg" in="b0" creator="0" insign="Essendo" outsign="den er"/>
 <align out="a46" type="f" in="b7 b9 b1 b2 b3 b4 b5" creator="0" insign="il governo in una condizione di minoranza" outsign="mindretalsregering"/>
 <align out="a55" type="" in="b8" creator="0" insign="quarto" outsign="IV"/>

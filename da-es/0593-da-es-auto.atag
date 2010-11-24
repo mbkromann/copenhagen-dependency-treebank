@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0593-da.tag" sign="_input"/>
-<alignFile key="b" href="../es/0593-es-auto.tag" sign="_input"/>
+<alignFile key="b" href="../es/0593-es-tagged.tag" sign="_input"/>
 <align out="a42+a48+a50" type="" in="b13+b15" creator="-101" outsign="søges enlige ægtepar" insign="solteros matrimonios"/>
 <align out="a43" type="" in="b7" creator="-101" outsign="af" insign="por"/>
 <align out="a44" type="" in="b8" creator="-101" outsign="alle" insign="todos"/>

@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0848-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/0848-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="../it/0848-it-tagged.tag" sign="_input"/>
 <align out="a43" type="s" in="b9" creator="0" insign="la" outsign="Overfarten"/>
 <align out="a43" type="f" in="b10 b11 b12 b13" creator="0" insign="linea di comunicazione marittima" outsign="Overfarten"/>
 <align out="a44" type="f" in="b14" creator="0" insign="del" outsign="på"/>

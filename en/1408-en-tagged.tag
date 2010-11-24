@@ -1,0 +1,211 @@
+<s>
+<W id="1" msd="PT" tag="WP" in="" out="">What</W>
+<W id="2" msd="PD" tag="DT" in="" out="">the</W>
+<W id="3" msd="NP=S" tag="NNP" in="" out="">Social</W>
+<W id="4" msd="NP=P" tag="NNPS" in="" out="">Democrats</W>
+<W id="5" msd="VADR" tag="VBP" in="" out="">believe</W>
+<W id="6" msd="SP" tag="IN" in="" out="">about</W>
+<W id="7" msd="NP=S" tag="NNP" in="" out="">Denmark</W>
+<W id="8" msd="CS" tag="IN" in="" out="">after</W>
+<W id="9" msd="PD" tag="DT" in="" out="">the</W>
+<W id="10" msd="NP=S" tag="NNP" in="" out="">EC-no</W>
+<W id="11" msd="NC=S" tag="NN" in="" out="">vote</W>
+<W id="12" msd="VADR" tag="VBZ" in="" out="">depends</W>
+<W id="13" msd="SP" tag="IN" in="" out="">on</W>
+<W id="14" msd="PT" tag="WP" in="" out="">who</W>
+<W id="15" msd="PP" tag="PRP" in="" out="">you</W>
+<W id="16" msd="VADR" tag="VBP" in="" out="">ask</W>
+<W id="17" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="20" msd="PD" tag="DT" in="" out="">The</W>
+<W id="21" msd="NC=S" tag="NN" in="" out="">party</W>
+<W id="22" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="23" msd="ANP" tag="JJ" in="" out="">capable</W>
+<W id="24" msd="SP" tag="IN" in="" out="">of</W>
+<W id="25" msd="VAG" tag="VBG" in="" out="">supplying</W>
+<W id="26" msd="ANP" tag="JJ" in="" out="">many</W>
+<W id="27" msd="ANP" tag="JJ" in="" out="">interesting</W>
+<W id="28" msd="NC=P" tag="NNS" in="" out="">points</W>
+<W id="29" msd="SP" tag="IN" in="" out="">of</W>
+<W id="30" msd="NC=S" tag="NN" in="" out="">view</W>
+<W id="31" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="34" msd="SP" tag="IN" in="" out="">At</W>
+<W id="35" msd="NP=S" tag="NNP" in="" out="">Christiansborg</W>
+<W id="36" msd="XP" tag="," in="" out="">,</W>
+<W id="37" msd="PD" tag="DT" in="" out="">the</W>
+<W id="38" msd="ANP" tag="JJ" in="" out="">new</W>
+<W id="39" msd="NC=S" tag="NN" in="" out="">chairman</W>
+<W id="40" msd="NP=S" tag="NNP" in="" out="">Poul</W>
+<W id="41" msd="NP=S" tag="NNP" in="" out="">Nyrup</W>
+<W id="42" msd="NP=S" tag="NNP" in="" out="">Rasmussen</W>
+<W id="43" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="44" msd="VAG" tag="VBG" in="" out="">endorsing</W>
+<W id="45" msd="PD" tag="DT" in="" out="">the</W>
+<W id="46" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="47" msd="NC=S" tag="NN" in="" out="">official</W>
+<W id="48" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="49" msd="NC=S" tag="NN" in="" out="">viewpoint</W>
+<W id="50" msd="SP" tag="IN" in="" out="">that</W>
+<W id="51" msd="PP" tag="PRP" in="" out="">we</W>
+<W id="52" msd="VA" tag="MD" in="" out="">must</W>
+<W id="53" msd="ANP" tag="RB" in="" out="">not</W>
+<W id="54" msd="VAF" tag="VB" in="" out="">propose</W>
+<W id="55" msd="PI" tag="DT" in="" out="">a</W>
+<W id="56" msd="NC=S" tag="NN" in="" out="">solution</W>
+<W id="57" msd="CS" tag="IN" in="" out="">before</W>
+<W id="58" msd="PP" tag="PRP" in="" out="">we</W>
+<W id="59" msd="VADR" tag="VBP" in="" out="">have</W>
+<W id="60" msd="VAP" tag="VBN" in="" out="">seen</W>
+<W id="61" msd="SP" tag="IN" in="" out="">whether</W>
+<W id="62" msd="NP=S" tag="NNP" in="" out="">France</W>
+<W id="63" msd="CC" tag="CC" in="" out="">and</W>
+<W id="64" msd="NP=S" tag="NNP" in="" out="">England</W>
+<W id="65" msd="VA" tag="MD" in="" out="">will</W>
+<W id="66" msd="VAF" tag="VB" in="" out="">approve</W>
+<W id="67" msd="PD" tag="DT" in="" out="">the</W>
+<W id="68" msd="NP=S" tag="NNP" in="" out="">Maastricht</W>
+<W id="69" msd="NP=S" tag="NNP" in="" out="">Treaty</W>
+<W id="70" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="73" msd="PI" tag="DT" in="" out="">A</W>
+<W id="74" msd="VAG" tag="VBG" in="" out="">negotiating</W>
+<W id="75" msd="NC=S" tag="NN" in="" out="">tactic</W>
+<W id="76" msd="VAP" tag="VBN" in="" out="">shared</W>
+<W id="77" msd="SP" tag="IN" in="" out="">by</W>
+<W id="78" msd="PD" tag="DT" in="" out="">the</W>
+<W id="79" msd="VAG" tag="VBG" in="" out="">governing</W>
+<W id="80" msd="NC=P" tag="NNS" in="" out="">parties</W>
+<W id="81" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="84" msd="SP" tag="IN" in="" out="">In</W>
+<W id="85" msd="NP=S" tag="NNP" in="" out="">Det</W>
+<W id="86" msd="NP=S" tag="NNP" in="" out="">Fri</W>
+<W id="87" msd="NP=S" tag="NNP" in="" out="">Aktuelt</W>
+<W id="88" msd="XP" tag="," in="" out="">,</W>
+<W id="89" msd="NP=S" tag="NNP" in="" out="">Ritt</W>
+<W id="90" msd="NP=S" tag="NNP" in="" out="">Bjerregaard</W>
+<W id="91" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="92" msd="VAG" tag="VBG" in="" out="">encouraging</W>
+<W id="93" msd="PI" tag="DT" in="" out="">a</W>
+<W id="94" msd="ANP" tag="JJ" in="" out="">new</W>
+<W id="95" msd="NC=S" tag="NN" in="" out="">referendum</W>
+<W id="96" msd="SP" tag="IN" in="" out="">on</W>
+<W id="97" msd="NC=S" tag="NN" in="" out="">something</W>
+<W id="98" msd="PT" tag="WDT" in="" out="">that</W>
+<W id="99" msd="VADR" tag="VBZ" in="" out="">resembles</W>
+<W id="100" msd="PD" tag="DT" in="" out="">the</W>
+<W id="101" msd="NP=S" tag="NNP" in="" out="">Maastricht</W>
+<W id="102" msd="NP=S" tag="NNP" in="" out="">Treaty</W>
+<W id="103" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="106" msd="PP" tag="PRP" in="" out="">She</W>
+<W id="107" msd="VADR" tag="VBZ" in="" out="">does</W>
+<W id="108" msd="ANP" tag="RB" in="" out="">not</W>
+<W id="109" msd="ANP" tag="RB" in="" out="">even</W>
+<W id="110" msd="VAF" tag="VB" in="" out="">take</W>
+<W id="111" msd="NC=S" tag="NN" in="" out="">cognizance</W>
+<W id="112" msd="SP" tag="IN" in="" out="">of</W>
+<W id="113" msd="PD" tag="DT" in="" out="">the</W>
+<W id="114" msd="NC=S" tag="NN" in="" out="">referendum</W>
+<W id="115" msd="NC=S" tag="NN" in="" out="">result</W>
+<W id="116" msd="XP" tag="," in="" out="">,</W>
+<W id="117" msd="CS" tag="IN" in="" out="">because</W>
+<W id="118" msd="U=" tag="EX" in="" out="">there</W>
+<W id="119" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="120" msd="PD" tag="DT" in="" out="">no</W>
+<W id="121" msd="NC=S" tag="NN" in="" out="">middle</W>
+<W id="122" msd="NC=S" tag="NN" in="" out="">solution</W>
+<W id="123" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="126" msd="CC" tag="CC" in="" out="">Either</W>
+<W id="127" msd="NC=S" tag="NN" in="" out="">we're</W>
+<W id="128" msd="SP" tag="IN" in="" out="">out</W>
+<W id="129" msd="CC" tag="CC" in="" out="">or</W>
+<W id="130" msd="NC=S" tag="NN" in="" out="">we're</W>
+<W id="131" msd="SP" tag="IN" in="" out="">in</W>
+<W id="132" msd="XP" tag="," in="" out="">,</W>
+<W id="133" msd="VADR" tag="VBZ" in="" out="">says</W>
+<W id="134" msd="NP=S" tag="NNP" in="" out="">Mrs.</W>
+<W id="135" msd="NP=S" tag="NNP" in="" out="">Bjerregaard</W>
+<W id="136" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="139" msd="PI" tag="DT" in="" out="">A</W>
+<W id="140" msd="ANP" tag="JJ" in="" out="">third</W>
+<W id="141" msd="ANP" tag="JJ" in="" out="">prominent</W>
+<W id="142" msd="NP=S" tag="NNP" in="" out="">Social</W>
+<W id="143" msd="NP=S" tag="NNP" in="" out="">Democrat</W>
+<W id="144" msd="XP" tag="," in="" out="">,</W>
+<W id="145" msd="ANP" tag="RB" in="" out="">namely</W>
+<W id="146" msd="XP" tag="," in="" out="">,</W>
+<W id="147" msd="PD" tag="DT" in="" out="">the</W>
+<W id="148" msd="VAP" tag="VBN" in="" out="">dethroned</W>
+<W id="149" msd="NC=S" tag="NN" in="" out="">chairman</W>
+<W id="150" msd="NP=S" tag="NNP" in="" out="">Svend</W>
+<W id="151" msd="NP=S" tag="NNP" in="" out="">Auken</W>
+<W id="152" msd="XP" tag="," in="" out="">,</W>
+<W id="153" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="154" msd="VAG" tag="VBG" in="" out="">disseminating</W>
+<W id="155" msd="PI" tag="DT" in="" out="">a</W>
+<W id="156" msd="ANP" tag="JJ" in="" out="">third</W>
+<W id="157" msd="ANP" tag="RB" in="" out="">completely</W>
+<W id="158" msd="ANP" tag="JJ" in="" out="">different</W>
+<W id="159" msd="NC=S" tag="NN" in="" out="">point</W>
+<W id="160" msd="SP" tag="IN" in="" out="">of</W>
+<W id="161" msd="NC=S" tag="NN" in="" out="">view</W>
+<W id="162" msd="SP" tag="IN" in="" out="">in</W>
+<W id="163" msd="PD" tag="DT" in="" out="">the</W>
+<W id="164" msd="NP=S" tag="NNP" in="" out="">English</W>
+<W id="165" msd="NP=S" tag="NNP" in="" out="">Parliament's</W>
+<W id="166" msd="NC=S" tag="NN" in="" out="">bulletin</W>
+<W id="167" msd="XP" tag="," in="" out="">,</W>
+<W id="168" msd="ANP" tag="JJ" in="" out="">Parliamentary</W>
+<W id="169" msd="NP=S" tag="NNP" in="" out="">Brief</W>
+<W id="170" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="173" msd="ANP" tag="RB" in="" out="">Here</W>
+<W id="174" msd="XP" tag="," in="" out="">,</W>
+<W id="175" msd="PP" tag="PRP" in="" out="">he</W>
+<W id="176" msd="VADR" tag="VBZ" in="" out="">calls</W>
+<W id="177" msd="PD" tag="PDT" in="" out="">all</W>
+<W id="178" msd="PD" tag="DT" in="" out="">the</W>
+<W id="179" msd="NC=S" tag="NN" in="" out="">speculation</W>
+<W id="180" msd="SP" tag="IN" in="" out="">about</W>
+<W id="181" msd="PI" tag="DT" in="" out="">a</W>
+<W id="182" msd="ANP" tag="JJ" in="" out="">new</W>
+<W id="183" msd="NC=S" tag="NN" in="" out="">referendum</W>
+<W id="184" msd="ANP" tag="JJ" in="" out="">pure</W>
+<W id="185" msd="ANP" tag="JJ" in="" out="">wishful</W>
+<W id="186" msd="NC=S" tag="NN" in="" out="">thinking</W>
+<W id="187" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="190" msd="CS" tag="IN" in="" out="">Because</W>
+<W id="191" msd="XP" tag="&3a;" in="" out="">:</W>
+<W id="192" msd="PD" tag="DT" in="" out="">the</W>
+<W id="193" msd="ANP" tag="JJ" in="" out="">Danish</W>
+<W id="194" msd="NC=S" tag="NN" in="" out="">referendum</W>
+<W id="195" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="196" msd="ANP" tag="RB" in="" out="">legally</W>
+<W id="197" msd="ANP" tag="JJ" in="" out="">binding</W>
+<W id="198" msd="XP" tag="," in="" out="">,</W>
+<W id="199" msd="CC" tag="CC" in="" out="">and</W>
+<W id="200" msd="NP=S" tag="NNP" in="" out="">Denmark</W>
+<W id="201" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="202" msd="ANP" tag="RB" in="" out="">therefore</W>
+<W id="203" msd="NC=S" tag="NN" in="" out="">incapable</W>
+<W id="204" msd="SP" tag="IN" in="" out="">of</W>
+<W id="205" msd="VAG" tag="VBG" in="" out="">ratifying</W>
+<W id="206" msd="PD" tag="DT" in="" out="">the</W>
+<W id="207" msd="NP=S" tag="NNP" in="" out="">Maastricht</W>
+<W id="208" msd="NP=S" tag="NNP" in="" out="">Treaty</W>
+<W id="209" msd="XP" tag="." in="" out="">.</W>
+</s>

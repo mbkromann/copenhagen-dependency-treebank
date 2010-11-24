@@ -1,0 +1,230 @@
+<s>
+<W id="1" msd="PT" tag="WP" in="" out="">What</W>
+<W id="2" msd="VADR" tag="VBZ" in="" out="">constitutes</W>
+<W id="3" msd="ANP" tag="JJ" in="" out="">poor</W>
+<W id="4" msd="NC=S" tag="NN" in="" out="">blood</W>
+<W id="5" msd="NC=S" tag="NN" in="" out="">circulation</W>
+<W id="6" msd="SP" tag="IN" in="" out="">in</W>
+<W id="7" msd="PD" tag="DT" in="" out="">the</W>
+<W id="8" msd="NC=P" tag="NNS" in="" out="">legs</W>
+<W id="9" msd="XP" tag="." in="" out="">?</W>
+</s>
+<s>
+<W id="12" msd="PT" tag="WP" in="" out="">What</W>
+<W id="13" msd="VADR" tag="VBZ" in="" out="">does</W>
+<W id="14" msd="PP" tag="PRP" in="" out="">it</W>
+<W id="15" msd="VADR" tag="VBP" in="" out="">come</W>
+<W id="16" msd="SP" tag="IN" in="" out="">from</W>
+<W id="17" msd="XP" tag="&3a;" in="" out="">-</W>
+<W id="18" msd="CC" tag="CC" in="" out="">and</W>
+<W id="19" msd="VA" tag="MD" in="" out="">can</W>
+<W id="20" msd="PP" tag="PRP" in="" out="">you</W>
+<W id="21" msd="VAF" tag="VB" in="" out="">do</W>
+<W id="22" msd="NC=S" tag="NN" in="" out="">anything</W>
+<W id="23" msd="U=" tag="TO" in="" out="">to</W>
+<W id="24" msd="VAF" tag="VB" in="" out="">get</W>
+<W id="25" msd="PD" tag="DT" in="" out="">the</W>
+<W id="26" msd="NC=S" tag="NN" in="" out="">blood</W>
+<W id="27" msd="U=" tag="TO" in="" out="">to</W>
+<W id="28" msd="VAF" tag="VB" in="" out="">circulate</W>
+<W id="29" msd="ANC" tag="RBR" in="" out="">more</W>
+<W id="30" msd="ANP" tag="RB" in="" out="">quickly</W>
+<W id="31" msd="XP" tag="." in="" out="">?</W>
+</s>
+<s>
+<W id="34" msd="CS" tag="IN" in="" out="">If</W>
+<W id="35" msd="PD" tag="DT" in="" out="">the</W>
+<W id="36" msd="NC=P" tag="NNS" in="" out="">arteries</W>
+<W id="37" msd="VADR" tag="VBP" in="" out="">are</W>
+<W id="38" msd="VAP" tag="VBN" in="" out="">calcified</W>
+<W id="39" msd="XP" tag="," in="" out="">,</W>
+<W id="40" msd="NC=S" tag="NN" in="" out="">blood</W>
+<W id="41" msd="NC=S" tag="NN" in="" out="">cannot</W>
+<W id="42" msd="VAF" tag="VB" in="" out="">convey</W>
+<W id="43" msd="ANP" tag="JJ" in="" out="">sufficient</W>
+<W id="44" msd="NC=S" tag="NN" in="" out="">oxygen</W>
+<W id="45" msd="CC" tag="CC" in="" out="">and</W>
+<W id="46" msd="NC=S" tag="NN" in="" out="">nutrition</W>
+<W id="47" msd="U=" tag="TO" in="" out="">to</W>
+<W id="48" msd="PD" tag="DT" in="" out="">the</W>
+<W id="49" msd="NC=P" tag="NNS" in="" out="">muscles</W>
+<W id="50" msd="CC" tag="CC" in="" out="">and</W>
+<W id="51" msd="NC=S" tag="NN" in="" out="">skin</W>
+<W id="52" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="55" msd="CC" tag="CC" in="" out="">And</W>
+<W id="56" msd="CS" tag="IN" in="" out="">so</W>
+<W id="57" msd="PP" tag="PRP" in="" out="">you</W>
+<W id="58" msd="VADR" tag="VBP" in="" out="">get</W>
+<W id="59" msd="ANP" tag="JJ" in="" out="">cold</W>
+<W id="60" msd="NC=P" tag="NNS" in="" out="">feet</W>
+<W id="61" msd="SP" tag="IN" in="" out="">without</W>
+<W id="62" msd="PI" tag="DT" in="" out="">a</W>
+<W id="63" msd="NC=S" tag="NN" in="" out="">pulse</W>
+<W id="64" msd="XP" tag="," in="" out="">,</W>
+<W id="65" msd="NC=S" tag="NN" in="" out="">loss</W>
+<W id="66" msd="SP" tag="IN" in="" out="">of</W>
+<W id="67" msd="NC=S" tag="NN" in="" out="">sensation</W>
+<W id="68" msd="XP" tag="," in="" out="">,</W>
+<W id="69" msd="CC" tag="CC" in="" out="">and</W>
+<W id="70" msd="ANP" tag="JJ" in="" out="">poor</W>
+<W id="71" msd="NC=S" tag="NN" in="" out="">healing</W>
+<W id="72" msd="SP" tag="IN" in="" out="">of</W>
+<W id="73" msd="NC=P" tag="NNS" in="" out="">wounds</W>
+<W id="74" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="77" msd="PD" tag="DT" in="" out="">The</W>
+<W id="78" msd="NC=P" tag="NNS" in="" out="">veins</W>
+<W id="79" msd="VA" tag="MD" in="" out="">can</W>
+<W id="80" msd="ANP" tag="RB" in="" out="">also</W>
+<W id="81" msd="VAF" tag="VB" in="" out="">have</W>
+<W id="82" msd="NC=S" tag="NN" in="" out="">difficulty</W>
+<W id="83" msd="VAG" tag="VBG" in="" out="">taking</W>
+<W id="84" msd="PD" tag="DT" in="" out="">the</W>
+<W id="85" msd="NC=S" tag="NN" in="" out="">blood</W>
+<W id="86" msd="ANP" tag="RB" in="" out="">back</W>
+<W id="87" msd="U=" tag="TO" in="" out="">to</W>
+<W id="88" msd="PD" tag="DT" in="" out="">the</W>
+<W id="89" msd="NC=S" tag="NN" in="" out="">heart</W>
+<W id="90" msd="CC" tag="CC" in="" out="">and</W>
+<W id="91" msd="XP" tag="," in="" out="">,</W>
+<W id="92" msd="SP" tag="IN" in="" out="">in</W>
+<W id="93" msd="PD" tag="DT" in="" out="">that</W>
+<W id="94" msd="NC=S" tag="NN" in="" out="">case</W>
+<W id="95" msd="XP" tag="," in="" out="">,</W>
+<W id="96" msd="NC=S" tag="NN" in="" out="">blood</W>
+<W id="97" msd="VADR" tag="VBZ" in="" out="">accumulates</W>
+<W id="98" msd="CC" tag="CC" in="" out="">and</W>
+<W id="99" msd="PD" tag="DT" in="" out="">the</W>
+<W id="100" msd="NC=P" tag="NNS" in="" out="">legs</W>
+<W id="101" msd="VADR" tag="VBP" in="" out="">swell</W>
+<W id="102" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="105" msd="NC=S" tag="NN" in="" out="">Result</W>
+<W id="106" msd="XP" tag="&3a;" in="" out="">:</W>
+<W id="107" msd="ANP" tag="JJ" in="" out="">Sensitive</W>
+<W id="108" msd="CC" tag="CC" in="" out="">and</W>
+<W id="109" msd="ANP" tag="JJ" in="" out="">tired</W>
+<W id="110" msd="NC=P" tag="NNS" in="" out="">legs</W>
+<W id="111" msd="CC" tag="CC" in="" out="">and</W>
+<W id="112" msd="ANP" tag="RB" in="" out="">often</W>
+<W id="113" msd="ANP" tag="JJ" in="" out="">nightly</W>
+<W id="114" msd="NC=S" tag="NN" in="" out="">discomfort</W>
+<W id="115" msd="CC" tag="CC" in="" out="">and</W>
+<W id="116" msd="NC=P" tag="NNS" in="" out="">cramps</W>
+<W id="117" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="120" msd="U=" tag="EX" in="" out="">There</W>
+<W id="121" msd="VADR" tag="VBP" in="" out="">are</W>
+<W id="122" msd="ANP" tag="JJ" in="" out="">several</W>
+<W id="123" msd="ANP" tag="JJ" in="" out="">possible</W>
+<W id="124" msd="NC=P" tag="NNS" in="" out="">treatments</W>
+<W id="125" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="128" msd="ANP" tag="JJ" in="" out="">Large</W>
+<W id="129" msd="XP" tag="," in="" out="">,</W>
+<W id="130" msd="VAP" tag="VBN" in="" out="">calcified</W>
+<W id="131" msd="NC=P" tag="NNS" in="" out="">vessels</W>
+<W id="132" msd="VA" tag="MD" in="" out="">can</W>
+<W id="133" msd="VAF" tag="VB" in="" out="">be</W>
+<W id="134" msd="VAP" tag="VBN" in="" out="">widened</W>
+<W id="135" msd="XP" tag="," in="" out="">,</W>
+<W id="136" msd="SP" tag="IN" in="" out="">by</W>
+<W id="137" msd="VAG" tag="VBG" in="" out="">leading</W>
+<W id="138" msd="PI" tag="DT" in="" out="">a</W>
+<W id="139" msd="NC=S" tag="NN" in="" out="">balloon</W>
+<W id="140" msd="ANP" tag="RB" in="" out="">down</W>
+<W id="141" msd="SP" tag="IN" in="" out="">into</W>
+<W id="142" msd="PP" tag="PRP" in="" out="">them</W>
+<W id="143" msd="CC" tag="CC" in="" out="">and</W>
+<W id="144" msd="VAG" tag="VBG" in="" out="">blowing</W>
+<W id="145" msd="PP" tag="PRP" in="" out="">it</W>
+<W id="146" msd="RG" tag="RP" in="" out="">up</W>
+<W id="147" msd="SP" tag="IN" in="" out="">in</W>
+<W id="148" msd="PD" tag="DT" in="" out="">the</W>
+<W id="149" msd="ANP" tag="JJ" in="" out="">narrow</W>
+<W id="150" msd="NC=P" tag="NNS" in="" out="">places</W>
+<W id="151" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="154" msd="CC" tag="CC" in="" out="">But</W>
+<W id="155" msd="ANS" tag="RBS" in="" out="">most</W>
+<W id="156" msd="ANP" tag="RB" in="" out="">often</W>
+<W id="157" msd="XP" tag="," in="" out="">,</W>
+<W id="158" msd="ANP" tag="JJ" in="" out="">vascular</W>
+<W id="159" msd="NC=P" tag="NNS" in="" out="">surgeons</W>
+<W id="160" msd="VA" tag="MD" in="" out="">will</W>
+<W id="161" msd="VAF" tag="VB" in="" out="">replace</W>
+<W id="162" msd="PI" tag="DT" in="" out="">an</W>
+<W id="163" msd="ANP" tag="JJ" in="" out="">old</W>
+<W id="164" msd="XP" tag="," in="" out="">,</W>
+<W id="165" msd="VAP" tag="VBN" in="" out="">destroyed</W>
+<W id="166" msd="NC=S" tag="NN" in="" out="">artery</W>
+<W id="167" msd="SP" tag="IN" in="" out="">with</W>
+<W id="168" msd="PI" tag="DT" in="" out="">an</W>
+<W id="169" msd="ANP" tag="JJ" in="" out="">artificial</W>
+<W id="170" msd="AC" tag="CD" in="" out="">one</W>
+<W id="171" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="174" msd="ANP" tag="JJ" in="" out="">Poor</W>
+<W id="175" msd="NC=P" tag="NNS" in="" out="">veins</W>
+<W id="176" msd="SP" tag="IN" in="" out="">with</W>
+<W id="177" msd="NC=S" tag="NN" in="" out="">varicose</W>
+<W id="178" msd="NC=P" tag="NNS" in="" out="">veins</W>
+<W id="179" msd="VA" tag="MD" in="" out="">can</W>
+<W id="180" msd="VAF" tag="VB" in="" out="">be</W>
+<W id="181" msd="VAP" tag="VBN" in="" out="">treated</W>
+<W id="182" msd="SP" tag="IN" in="" out="">with</W>
+<W id="183" msd="NC=S" tag="NN" in="" out="">support</W>
+<W id="184" msd="NC=S" tag="NN" in="" out="">hose</W>
+<W id="185" msd="XP" tag="," in="" out="">,</W>
+<W id="186" msd="ANP" tag="RB" in="" out="">so</W>
+<W id="187" msd="SP" tag="IN" in="" out="">that</W>
+<W id="188" msd="PD" tag="DT" in="" out="">the</W>
+<W id="189" msd="NC=P" tag="NNS" in="" out="">veins</W>
+<W id="190" msd="VADR" tag="VBP" in="" out="">are</W>
+<W id="191" msd="VAP" tag="VBN" in="" out="">pushed</W>
+<W id="192" msd="ANP" tag="RB" in="" out="">together</W>
+<W id="193" msd="XP" tag="," in="" out="">,</W>
+<W id="194" msd="CC" tag="CC" in="" out="">and</W>
+<W id="195" msd="PD" tag="DT" in="" out="">the</W>
+<W id="196" msd="NC=S" tag="NN" in="" out="">blood</W>
+<W id="197" msd="VADR" tag="VBZ" in="" out="">does</W>
+<W id="198" msd="ANP" tag="RB" in="" out="">not</W>
+<W id="199" msd="VAF" tag="VB" in="" out="">accumulate</W>
+<W id="200" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="203" msd="CC" tag="CC" in="" out="">But</W>
+<W id="204" msd="PP" tag="PRP" in="" out="">it</W>
+<W id="205" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="206" msd="ANS" tag="JJS" in="" out="">best</W>
+<W id="207" msd="U=" tag="TO" in="" out="">to</W>
+<W id="208" msd="VAF" tag="VB" in="" out="">remove</W>
+<W id="209" msd="ANP" tag="JJ" in="" out="">poor</W>
+<W id="210" msd="NC=P" tag="NNS" in="" out="">veins</W>
+<W id="211" msd="XP" tag="," in="" out="">,</W>
+<W id="212" msd="ANP" tag="RB" in="" out="">so</W>
+<W id="213" msd="NC=S" tag="NN" in="" out="">blood</W>
+<W id="214" msd="VA" tag="MD" in="" out="">can</W>
+<W id="215" msd="VAF" tag="VB" in="" out="">run</W>
+<W id="216" msd="SP" tag="IN" in="" out="">through</W>
+<W id="217" msd="PD" tag="DT" in="" out="">the</W>
+<W id="218" msd="ANP" tag="JJ" in="" out="">deep</W>
+<W id="219" msd="NC=S" tag="NN" in="" out="">leg</W>
+<W id="220" msd="NC=P" tag="NNS" in="" out="">veins</W>
+<W id="221" msd="XP" tag="," in="" out="">,</W>
+<W id="222" msd="PT" tag="WDT" in="" out="">which</W>
+<W id="223" msd="CS" tag="IN" in="" out="">as</W>
+<W id="224" msd="PI" tag="DT" in="" out="">a</W>
+<W id="225" msd="NC=S" tag="NN" in="" out="">rule</W>
+<W id="226" msd="NC=S" tag="NN" in="" out="">function</W>
+<W id="227" msd="ANP" tag="RB" in="" out="">normally</W>
+<W id="228" msd="XP" tag="." in="" out="">.</W>
+</s>

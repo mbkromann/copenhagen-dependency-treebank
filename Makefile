@@ -109,15 +109,20 @@ partexts:
 
 
 examples: .DUMMY
+	rm -r examples
 	mkdir -p examples
 	for id in `head -20 src/mini1.ids` ; do \
 		for dir in `echo da de en es it da-de da-en da-es da-it` ; do \
-			svn propget syntax $$dir/$$id*tag | grep final | grep -v outdated > /tmp/pdfs.$$ ; \
-			svn propget alignment $$dir/$$id*tag | grep final | grep -v outdated >> /tmp/pdfs.$$ ; \
-			svn propget syntax $$dir/$$id*tag | grep discussed >> /tmp/pdfs.$$ ; \
-			svn propget alignment $$dir/$$id*tag | grep discussed >> /tmp/pdfs.$$ ; \
-			svn propget syntax $$dir/$$id*tag | grep first >> /tmp/pdfs.$$ ; \
-			svn propget alignment $$dir/$$id*tag | grep first >> /tmp/pdfs.$$ ; \
+			syntax=`svn propget syntax $$dir/$$id*tag` ; \
+			alignment=`svn propget alignment $$dir/$$id*tag` ; \
+			echo $$syntax | grep final | grep -v outdated > /tmp/pdfs.$$ ; \
+			echo $$alignment | grep final | grep -v outdated >> /tmp/pdfs.$$ ; \
+			echo $$syntax | grep discussed >> /tmp/pdfs.$$ ; \
+			echo $$alignment | grep discussed >> /tmp/pdfs.$$ ; \
+			echo $$syntax | grep first >> /tmp/pdfs.$$ ; \
+			echo $$alignment | grep first >> /tmp/pdfs.$$ ; \
+			echo $$syntax | grep outdated-final >> /tmp/pdfs.$$ ; \
+			echo $$alignment | grep outdated-final >> /tmp/pdfs.$$ ; \
 			file=`cat /tmp/pdfs.$$ | head -1 | awk '{ print $$1}'` ; \
 			pdf=`echo $$file | sed -e 's/\.atag/.pdf/g' -e 's/\.tag/.pdf/g'`; \
 			rm /tmp/pdfs.$$ ; \

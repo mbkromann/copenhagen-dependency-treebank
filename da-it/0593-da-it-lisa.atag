@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0593-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/0593-it-auto.tag" sign="_input"/>
+<alignFile key="b" href="../it/0593-it-tagged.tag" sign="_input"/>
 <align out="a40" type="dns" in="b0" creator="0" insign="I" outsign="Boligydelse"/>
 <align out="a40" type="" in="b1 b2 b3 b4 b5" creator="0" insign="contributi comunali per l' affitto" outsign="Boligydelse"/>
 <align out="a45" type="" in="b12" creator="0" insign="pensionati" outsign="pensionister"/>

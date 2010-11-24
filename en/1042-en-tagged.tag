@@ -1,0 +1,212 @@
+<s>
+<W id="1" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="2" msd="PD" tag="DT" in="" out="">The</W>
+<W id="3" msd="NC=P" tag="NNS" in="" out="">people</W>
+<W id="4" msd="PT" tag="WP" in="" out="">who</W>
+<W id="5" msd="VADR" tag="VBP" in="" out="">finance</W>
+<W id="6" msd="NC=S" tag="NN" in="" out="">film</W>
+<W id="7" msd="SP" tag="IN" in="" out="">in</W>
+<W id="8" msd="NP=S" tag="NNP" in="" out="">Sweden</W>
+<W id="9" msd="XP" tag="&3a;" in="" out="">-</W>
+<W id="10" msd="CC" tag="CC" in="" out="">and</W>
+<W id="11" msd="ANP" tag="RB" in="" out="">here</W>
+<W id="12" msd="NP=S" tag="NNP" in="" out="">I'm</W>
+<W id="13" msd="VAG" tag="VBG" in="" out="">thinking</W>
+<W id="14" msd="ANP" tag="RB" in="" out="">particularly</W>
+<W id="15" msd="SP" tag="IN" in="" out="">of</W>
+<W id="16" msd="PD" tag="DT" in="" out="">the</W>
+<W id="17" msd="NP=S" tag="NNP" in="" out="">Swedish</W>
+<W id="18" msd="NP=S" tag="NNP" in="" out="">Film</W>
+<W id="19" msd="NP=S" tag="NNP" in="" out="">Institute</W>
+<W id="20" msd="XP" tag="&3a;" in="" out="">-</W>
+<W id="21" msd="VADR" tag="VBP" in="" out="">do</W>
+<W id="22" msd="ANP" tag="RB" in="" out="">not</W>
+<W id="23" msd="VAF" tag="VB" in="" out="">take</W>
+<W id="24" msd="NC=S" tag="NN" in="" out="">film</W>
+<W id="25" msd="ANP" tag="RB" in="" out="">seriously</W>
+<W id="26" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="29" msd="PP" tag="PRP" in="" out="">They</W>
+<W id="30" msd="VADR" tag="VBP" in="" out="">want</W>
+<W id="31" msd="NC=S" tag="NN" in="" out="">film</W>
+<W id="32" msd="U=" tag="TO" in="" out="">to</W>
+<W id="33" msd="VAF" tag="VB" in="" out="">be</W>
+<W id="34" msd="PI" tag="DT" in="" out="">an</W>
+<W id="35" msd="NC=S" tag="NN" in="" out="">entertainment</W>
+<W id="36" msd="NC=S" tag="NN" in="" out="">medium</W>
+<W id="37" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="40" msd="PP" tag="PRP" in="" out="">I</W>
+<W id="41" msd="VADR" tag="VBP" in="" out="">maintain</W>
+<W id="42" msd="PD" tag="DT" in="" out="">that</W>
+<W id="43" msd="NC=S" tag="NN" in="" out="">film</W>
+<W id="44" msd="VADR" tag="VBZ" in="" out="">has</W>
+<W id="45" msd="CC" tag="CC" in="" out="">and</W>
+<W id="46" msd="VA" tag="MD" in="" out="">must</W>
+<W id="47" msd="VAF" tag="VB" in="" out="">have</W>
+<W id="48" msd="PD" tag="DT" in="" out="">the</W>
+<W id="49" msd="ANP" tag="JJ" in="" out="">same</W>
+<W id="50" msd="NC=S" tag="NN" in="" out="">power</W>
+<W id="51" msd="CS" tag="IN" in="" out="">as</W>
+<W id="52" msd="NC=S" tag="NN" in="" out="">literature</W>
+<W id="53" msd="CC" tag="CC" in="" out="">and</W>
+<W id="54" msd="NC=S" tag="NN" in="" out="">art</W>
+<W id="55" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="58" msd="CC" tag="CC" in="" out="">But</W>
+<W id="59" msd="CS" tag="IN" in="" out="">if</W>
+<W id="60" msd="NC=S" tag="NN" in="" out="">film</W>
+<W id="61" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="62" msd="U=" tag="TO" in="" out="">to</W>
+<W id="63" msd="VAF" tag="VB" in="" out="">be</W>
+<W id="64" msd="VAP" tag="VBN" in="" out="">taken</W>
+<W id="65" msd="ANP" tag="RB" in="" out="">seriously</W>
+<W id="66" msd="XP" tag="," in="" out="">,</W>
+<W id="67" msd="PP" tag="PRP" in="" out="">you</W>
+<W id="68" msd="ANP" tag="RB" in="" out="">also</W>
+<W id="69" msd="VADR" tag="VBP" in="" out="">have</W>
+<W id="70" msd="U=" tag="TO" in="" out="">to</W>
+<W id="71" msd="VAF" tag="VB" in="" out="">deal</W>
+<W id="72" msd="SP" tag="IN" in="" out="">with</W>
+<W id="73" msd="ANP" tag="JJ" in="" out="">important</W>
+<W id="74" msd="NC=P" tag="NNS" in="" out="">subjects</W>
+<W id="75" msd="SP" tag="IN" in="" out="">in</W>
+<W id="76" msd="NC=S" tag="NN" in="" out="">film</W>
+<W id="77" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="80" msd="PD" tag="DT" in="" out="">This</W>
+<W id="81" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="82" msd="XP" tag="," in="" out="">,</W>
+<W id="83" msd="NC=S" tag="NN" in="" out="">mind</W>
+<W id="84" msd="PP" tag="PRP" in="" out="">you</W>
+<W id="85" msd="XP" tag="," in="" out="">,</W>
+<W id="86" msd="ANP" tag="RB" in="" out="">not</W>
+<W id="87" msd="ANP" tag="JJ" in="" out="">synonymous</W>
+<W id="88" msd="SP" tag="IN" in="" out="">with</W>
+<W id="89" msd="NC=S" tag="NN" in="" out="">film</W>
+<W id="90" msd="VAG" tag="VBG" in="" out="">being</W>
+<W id="91" msd="ANP" tag="JJ" in="" out="">boring</W>
+<W id="92" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="95" msd="PP" tag="PRP" in="" out="">I</W>
+<W id="96" msd="VADR" tag="VBP" in="" out="">have</W>
+<W id="97" msd="VAP" tag="VBN" in="" out="">taken</W>
+<W id="98" msd="ANP" tag="RB" in="" out="">just</W>
+<W id="99" msd="CS" tag="IN" in="" out="">as</W>
+<W id="100" msd="ANP" tag="JJ" in="" out="">long</W>
+<W id="101" msd="U=" tag="TO" in="" out="">to</W>
+<W id="102" msd="VAF" tag="VB" in="" out="">create</W>
+<W id="103" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="104" msd="ANP" tag="RB" in="" out="">Lovely</W>
+<W id="105" msd="VADR" tag="VBZ" in="" out="">Is</W>
+<W id="106" msd="NP=S" tag="NNP" in="" out="">Earth</W>
+<W id="107" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="108" msd="CS" tag="IN" in="" out="">as</W>
+<W id="109" msd="PI" tag="DT" in="" out="">a</W>
+<W id="110" msd="ANP" tag="JJ" in="" out="">whole</W>
+<W id="111" msd="NC=S" tag="NN" in="" out="">feature</W>
+<W id="112" msd="NC=S" tag="NN" in="" out="">film</W>
+<W id="113" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="116" msd="PD" tag="DT" in="" out="">Each</W>
+<W id="117" msd="NC=S" tag="NN" in="" out="">scene</W>
+<W id="118" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="119" msd="VAP" tag="VBN" in="" out="">built</W>
+<W id="120" msd="SP" tag="IN" in="" out="">on</W>
+<W id="121" msd="PI" tag="DT" in="" out="">a</W>
+<W id="122" msd="NC=S" tag="NN" in="" out="">studio</W>
+<W id="123" msd="NC=S" tag="NN" in="" out="">stage</W>
+<W id="124" msd="SP" tag="IN" in="" out="">in</W>
+<W id="125" msd="NC=S" tag="NN" in="" out="">order</W>
+<W id="126" msd="U=" tag="TO" in="" out="">to</W>
+<W id="127" msd="VAF" tag="VB" in="" out="">get</W>
+<W id="128" msd="PP" tag="PRP" in="" out="">it</W>
+<W id="129" msd="ANP" tag="RB" in="" out="">completely</W>
+<W id="130" msd="ANP" tag="JJ" in="" out="">accurate</W>
+<W id="131" msd="XP" tag="," in="" out="">,</W>
+<W id="132" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="133" msd="VADR" tag="VBZ" in="" out="">says</W>
+<W id="134" msd="PD" tag="DT" in="" out="">the</W>
+<W id="135" msd="NC=S" tag="NN" in="" out="">director</W>
+<W id="136" msd="XP" tag="," in="" out="">,</W>
+<W id="137" msd="PT" tag="WP" in="" out="">who</W>
+<W id="138" msd="VADR" tag="VBZ" in="" out="">is</W>
+<W id="139" msd="PI" tag="DT" in="" out="">a</W>
+<W id="140" msd="NC=S" tag="NN" in="" out="">perfectionist</W>
+<W id="141" msd="SP" tag="IN" in="" out="">with</W>
+<W id="142" msd="NC=S" tag="NN" in="" out="">respect</W>
+<W id="143" msd="U=" tag="TO" in="" out="">to</W>
+<W id="144" msd="NC=S" tag="NN" in="" out="">composition</W>
+<W id="145" msd="CC" tag="CC" in="" out="">and</W>
+<W id="146" msd="NC=S" tag="NN" in="" out="">statement</W>
+<W id="147" msd="SP" tag="IN" in="" out="">in</W>
+<W id="148" msd="PD" tag="DT" in="" out="">each</W>
+<W id="149" msd="NC=S" tag="NN" in="" out="">image</W>
+<W id="150" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="153" msd="SP" tag="IN" in="" out="">In</W>
+<W id="154" msd="PD" tag="DT" in="" out="">the</W>
+<W id="155" msd="VAP" tag="VBN" in="" out="">fifteen</W>
+<W id="156" msd="NC=P" tag="NNS" in="" out="">years</W>
+<W id="157" msd="CS" tag="IN" in="" out="">since</W>
+<W id="158" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="159" msd="NP=S" tag="NNP" in="" out="">Giliap</W>
+<W id="160" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="161" msd="XP" tag="," in="" out="">,</W>
+<W id="162" msd="PP" tag="PRP" in="" out="">he</W>
+<W id="163" msd="VADR" tag="VBZ" in="" out="">has</W>
+<W id="164" msd="VAP" tag="VBN" in="" out="">worked</W>
+<W id="165" msd="SP" tag="IN" in="" out="">with</W>
+<W id="166" msd="NC=S" tag="NN" in="" out="">advertising</W>
+<W id="167" msd="NC=S" tag="NN" in="" out="">film</W>
+<W id="168" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="171" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="172" msd="NP=S" tag="NNP" in="" out="">Advertising</W>
+<W id="173" msd="NC=P" tag="NNS" in="" out="">films</W>
+<W id="174" msd="VADR" tag="VBP" in="" out="">are</W>
+<W id="175" msd="ANP" tag="JJ" in="" out="">honest</W>
+<W id="176" msd="XP" tag="." in="" out="">.</W>
+</s>
+<s>
+<W id="179" msd="PP" tag="PRP" in="" out="">They</W>
+<W id="180" msd="VADR" tag="VBP" in="" out="">don't</W>
+<W id="181" msd="VAF" tag="VB" in="" out="">pretend</W>
+<W id="182" msd="U=" tag="TO" in="" out="">to</W>
+<W id="183" msd="VAF" tag="VB" in="" out="">be</W>
+<W id="184" msd="NC=S" tag="NN" in="" out="">something</W>
+<W id="185" msd="ANP" tag="RB" in="" out="">else</W>
+<W id="186" msd="CC" tag="CC" in="" out="">and</W>
+<W id="187" msd="XP" tag="," in="" out="">,</W>
+<W id="188" msd="SP" tag="IN" in="" out="">in</W>
+<W id="189" msd="ANP" tag="JJ" in="" out="">commercial</W>
+<W id="190" msd="NC=S" tag="NN" in="" out="">film</W>
+<W id="191" msd="XP" tag="," in="" out="">,</W>
+<W id="192" msd="PP" tag="PRP" in="" out="">I</W>
+<W id="193" msd="VADR" tag="VBP" in="" out="">have</W>
+<W id="194" msd="VAP" tag="VBN" in="" out="">experienced</W>
+<W id="195" msd="ANC" tag="JJR" in="" out="">greater</W>
+<W id="196" msd="NC=S" tag="NN" in="" out="">latitude</W>
+<W id="197" msd="U=" tag="TO" in="" out="">to</W>
+<W id="198" msd="VAF" tag="VB" in="" out="">experiment</W>
+<W id="199" msd="SP" tag="IN" in="" out="">with</W>
+<W id="200" msd="NC=S" tag="NN" in="" out="">film</W>
+<W id="201" msd="NC=S" tag="NN" in="" out="">language</W>
+<W id="202" msd="SP" tag="IN" in="" out="">than</W>
+<W id="203" msd="PD" tag="DT" in="" out="">any</W>
+<W id="204" msd="NC=S" tag="NN" in="" out="">place</W>
+<W id="205" msd="ANP" tag="RB" in="" out="">else</W>
+<W id="206" msd="XP" tag="," in="" out="">,</W>
+<W id="207" msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W id="208" msd="PP" tag="PRP" in="" out="">he</W>
+<W id="209" msd="VADR" tag="VBZ" in="" out="">says</W>
+<W id="210" msd="XP" tag="." in="" out="">.</W>
+</s>
