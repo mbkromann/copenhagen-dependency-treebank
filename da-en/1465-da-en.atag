@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1465-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/1465-en-tagged.tag" sign="_input"/>
+<alignFile key="b" href="../en/1465-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1 b2" creator="-1" insign="The Chairperson" outsign="Formanden"/>
 <align out="a44" type="" in="b3" creator="-1" insign="for" outsign="for"/>
 <align out="a45" type="" in="b4" creator="-1" insign="Parliament's" outsign="Folketingets"/>

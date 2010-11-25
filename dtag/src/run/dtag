@@ -22,7 +22,7 @@
 #!/usr/bin/perl -w
 
 # Version
-my $RELEASE = ' (2010-11-09 14:22:34)';
+my $RELEASE = ' (2010-11-25 12:45:35)';
 
 use strict;
 use File::Basename;
@@ -33,6 +33,7 @@ use Cwd;
 
 # Find DTAGHOME
 my $DTAGHOME = $ENV{'DTAGHOME'} || "";
+my $CDTHOME = $ENV{'CDTHOME'} = $ENV{'CDTHOME'} || "~/cdt";
 if (! ($DTAGHOME && -r $DTAGHOME)) {
 	# Find directory path to this script
 	my $script = $0;
@@ -47,7 +48,7 @@ if (! ($DTAGHOME && -r $DTAGHOME)) {
 	}
 
 	# Find absolute path and save in DTAGHOME
-	$DTAGHOME = Cwd::abs_path(dirname($script)) if (-r $script) || "";
+	$ENV{'DTAGHOME'} = $DTAGHOME = Cwd::abs_path(dirname($script)) if (-r $script) || "";
 }
 
 # Add $DTAGHOME to @INC, and load modules
@@ -90,8 +91,12 @@ if (! $quiet) {
 # Process rc-file
 $inter->quiet(1);
 if ($init) {
-	foreach my $rcfile (($DTAGHOME || "XXX") . "/.dtagrc", 
-			($ENV{'HOME'} || "XXX") . "/.dtagrc", ".dtagrc") {
+	foreach my $rcfile (($DTAGHOME || "XXX") . "/dtagrc", 
+			($DTAGHOME || "XXX") . "/.dtagrc", 
+			($ENV{'HOME'} || ".") . "/dtagrc",
+			($ENV{'HOME'} || ".") . "/.dtagrc", 
+			"dtagrc", 
+			".dtagrc") {
 		if (-r $rcfile) {
 			print "Using rcfile $rcfile\n" if (! $quiet);
 			$inter->do("script $rcfile");

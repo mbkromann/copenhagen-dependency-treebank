@@ -48,10 +48,6 @@ sub cmd_corpus_apply {
 	print "corpus-apply took " . seconds2hhmmss($time) 
 		. " seconds to execute \"$cmd\".\n" if (! $self->quiet());
 
-
-	# Restore old fpsfile
-	#$self->{'fpsfile'} = $oldfpsfile;
-
 	# Return
 	return 1;
 }

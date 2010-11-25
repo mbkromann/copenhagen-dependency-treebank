@@ -1,0 +1,36 @@
+# System styles
+style title -label -fonttype bold
+style speaker:1 -label -fonttype bold -color blue -arclabel -color blue -arc -color blue
+style speaker:2 -label -fonttype bold -color green -arclabel -color green -arc -color green
+style speaker:A -label -fonttype bold -color red -arclabel -color red -arc -color red
+style match -label -fonttype bold -color blue
+style ematch -arc -color blue -arclabel -fonttype bold -color blue
+style hide -arc -ps "0 setlinewidth" -arclabel -ps "0 setlinewidth"
+style secondary -arc -ps "[1 4] 0 setdash"
+style default -label -color black -arc -color black -arclabel -color black
+style fixation -label -color black -ps "4 setlinewidth" -arc -color gray -ps "0.3 setlinewidth" -arclabel -color black -ps "6 setfontsize setupfont"
+
+# Animations
+style newborn -arclabel -ps "0 0.5 0 setrgbcolor" -arc -ps "0 0.5 0 setrgbcolor"
+style dying -arclabel -ps "1 0.2 0.2 setrgbcolor" -arc -ps "1 0.2 0.2 setrgbcolor" 
+style dead -arclabel -ps "1 0.2 0.2 setrgbcolor" -arc -ps "1 0.2 0.2 setrgbcolor [1 2] 0 setdash" 
+
+# Custom styles
+style small -label -ps "7 setfontsize setupfont"
+style tiny -label -ps "5 setfontsize setupfont"
+style xland -arc -color red
+style red -label -color red -arclabel -color red -arc -color red -dash dot
+style redlbl -label -color red -fonttype bold
+style redarc -arc -color red -dash dot
+style blue -label -color blue -arclabel -color blue -arc -color blue -ps "[1 1] 0 setdash"
+style white -arclabel -ps "1 setgray" -arc -ps "1 setgray"
+style label=white -arclabel -ps "1 setgray"
+style light -arclabel -ps "0.7 setgray" -arc -ps "0.7 setgray"
+style arc=red -arclabel -color red -arc -color red -dash dot
+style arc=blue -arclabel -color blue -arc -color blue -dash dot
+style error -label -color red
+
+#style discourse -label -color green -arc -color green -arclabel -color green
+#style default -label -color gray -arc -color yellow -arclabel -color cyan
+#style discourse -arc -color darkgreen -ps "[5 2] 0 setdash 2 setlinewidth" -arclabel -color darkgreen -fonttype bold -label -fonttype bold
+

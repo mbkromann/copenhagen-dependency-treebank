@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0862-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/0862-en-tagged.tag" sign="_input"/>
+<alignFile key="b" href="../en/0862-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="Consciousness" outsign="Bevidstheden"/>
 <align out="a44" type="" in="b2" creator="-1" insign="must" outsign="skal"/>
 <align out="a46" type="" in="b5" creator="-1" insign="&quot;" outsign="&quot;"/>

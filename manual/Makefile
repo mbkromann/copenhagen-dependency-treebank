@@ -13,7 +13,7 @@ cdt-manual.pdf: DUMMY
 cdt-files: cdt-compile confusion status
 
 cdt-compile:
-	svn update ~/cdt
+	svn update ~/cdt/manual ~/cdt/confusion ~/cdt/docs
 	mkdir -p build
 	rm -f build/build
 	cd build ; ln -s . build

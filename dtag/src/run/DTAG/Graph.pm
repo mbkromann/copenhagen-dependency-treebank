@@ -871,23 +871,6 @@ sub file {
 }
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Graph/fileshort.pl
-## ------------------------------------------------------------
-
-=item $graph->fileshort() = $file
-
-Get/set file associated with graph.
-
-=cut
-
-sub fileshort {
-	my $self = shift;
-	my $file = $self->file();
-	$file =~ s/^.*\/([^\/]+)$/$1/g;
-	return $file;
-}
-
-## ------------------------------------------------------------
 ##  auto-inserted from: Graph/find_first_node_before_value.pl
 ## ------------------------------------------------------------
 
@@ -1239,6 +1222,14 @@ sub is_adjunct {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/is_alignment.pl
+## ------------------------------------------------------------
+
+sub is_alignment {
+	return 0;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/is_complement.pl
 ## ------------------------------------------------------------
 
@@ -1298,6 +1289,14 @@ sub is_dependent {
 	return $self->is_complement($edge) || $self->is_adjunct($edge);
 }
 
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/is_graph.pl
+## ------------------------------------------------------------
+
+sub is_graph {
+	return 1;
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Graph/is_known_edge.pl
@@ -1768,31 +1767,6 @@ Return the maximum of $a and $b.
 sub max {
 	return ($_[0] > $_[1]) ? $_[0] : $_[1];
 }
-
-## ------------------------------------------------------------
-##  auto-inserted from: Graph/merge_alt_attributes.pl
-## ------------------------------------------------------------
-
-sub merge_alt_attributes {
-	my ($graph, $nodeid, $attr, $value, $pair) = @_;
-	my $nodeids = $graph->var("merge.alt.attrs");
-
-	# Set value
-	if ($pair) {
-		my $attrs = $nodeids->{$nodeid};
-		$attrs = $nodeids->{$nodeid} = {} if (! $attrs);
-
-		my $values = $attrs->{$attr};
-		$values = $attrs->{$attr} = {} if (! $values);
-
-		$values->{$value} = $pair;
-	}
-
-	# Retrieve value
-	return $nodeids->{$nodeid}{$attr}{$value}
-		if (exists $nodeids->{$nodeid}{$attr}{$value});
-}
-
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Graph/min.pl

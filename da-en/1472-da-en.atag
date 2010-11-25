@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1472-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/1472-en-tagged.tag" sign="_input"/>
+<alignFile key="b" href="../en/1472-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1 b2" creator="-1" insign="RALLY ROUTE" outsign="RALLY-RUTEN"/>
 <align out="a48" type="" in="b5" creator="-1" insign="A" outsign="Et"/>
 <align out="a49 a50" type="" in="b6" creator="-1" insign="half-year" outsign="halvt år"/>

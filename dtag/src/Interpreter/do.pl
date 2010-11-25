@@ -65,9 +65,22 @@ sub do {
 		$success = $self->cmd_replace($graph, $1)
 			if ($cmd =~ /^=(.*)\s*$/);
 
+		# Macro: macro $macro $cmd
+		$success = $self->cmd_macro($1, $2) 
+			if ($cmd =~ /^\s*macro\s+(\w+)\s+(.*)$/ ||
+				$cmd =~ /^\s*macro\s+(\w+)\s*$/);
+
 		# Unix shell: ! $cmd
 		$success = $self->cmd_shell($1)
 			if ($cmd =~ /^\s*!\s*(.*)$/);
+
+		# Replace variables in command
+		my $DTAGHOME = $ENV{'DTAGHOME'} || '$DTAGHOME';
+		my $CDTHOME = $ENV{'CDTHOME'} || '$CDTHOME';
+		my $HOME = $ENV{'HOME'} || '$HOME';
+		$cmd =~ s/\$DTAGHOME/$DTAGHOME/g;
+		$cmd =~ s/\$CDTHOME/$CDTHOME/g;
+		$cmd =~ s/\$HOME/$HOME/g;
 
 		# Help search relation command: ??$relation
 		$success = $self->cmd_relhelpsearch($graph, $1) 
@@ -371,11 +384,6 @@ sub do {
 		$success = $self->cmd_lookupw($graph, $1) 
 			if ($cmd =~ /^\s*lookupw\s+(.*)\s*$/);
 
-		# Macro: macro $macro $cmd
-		$success = $self->cmd_macro($1, $2) 
-			if ($cmd =~ /^\s*macro\s+(\w+)\s+(.*)$/ ||
-				$cmd =~ /^\s*macro\s+(\w+)\s*$/);
-
 		# Macros: macros
 		$success = $self->cmd_macros($1, $2) 
 			if ($cmd =~ /^\s*macros\s*$/);
@@ -439,17 +447,17 @@ sub do {
 
 		# Option: option $option=$value
 		$success = $self->cmd_option($1, $2)
-			if ($cmd =~ /^\s*option\s*(\S+)\s*=\s*(\S.*)\s*$/
-				|| $cmd =~ /^\s*option\s*(\S+)\s+(\S.*)\s*$/
-				|| $cmd =~ /^\s*option\s*(\S+)\s*$/);
+			if ($cmd =~ /^\s*option\s+(\S+)\s*=\s*(\S.*)\s*$/
+				|| $cmd =~ /^\s*option\s+(\S+)\s+(\S.*)\s*$/
+				|| $cmd =~ /^\s*option\s+(\S+)\s*$/);
 
 		# Offset and show: oshow $offset
-		if (UNIVERSAL::isa($graph, 'DTAG::Graph') 
-				&& $cmd =~ /^\s*oshow(\s+([-+=])?([0-9]+))?\s*$/) {
-			my ($sign, $offset) = ($2, $3);
-			$success = $self->cmd_offset($graph, $sign, $offset);
-			$success = $self->cmd_show($graph, " 0");
-		}
+		#if (UNIVERSAL::isa($graph, 'DTAG::Graph') 
+		#		&& $cmd =~ /^\s*oshow(\s+([-+=])?([0-9]+))?\s*$/) {
+		#	my ($sign, $offset) = ($2, $3);
+		#	$success = $self->cmd_offset($graph, $sign, $offset);
+		#	$success = $self->cmd_show($graph, " 0");
+		#}
 		
 		if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
 			$cmd =~ /^\s*oshow(\s+[+-]?[0-9]+)\s*$/) {
@@ -632,7 +640,7 @@ sub do {
 
 		# Viewer: viewer
 		$success = $self->cmd_viewer($graph, $2) 
-			if ($cmd =~ /^\s*viewer(\s+(-e(xample)?))?\s*$/);
+			if ($cmd =~ /^\s*viewer(\s+(-e(xample)?|-a(ll)?))?\s*$/);
 
 		# Webmap
 		$success = $self->cmd_webmap($graph, $2)

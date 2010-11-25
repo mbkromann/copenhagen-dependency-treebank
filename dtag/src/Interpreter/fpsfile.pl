@@ -1,4 +1,6 @@
 sub fpsfile {
 	my $self = shift;
-	return $self->var('fpsfile', @_);
+	my $type = shift;
+	$type = "" if (! defined($type));
+	return $self->var('fpsfile:' . $type, @_);
 }

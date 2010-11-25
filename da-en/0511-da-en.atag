@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0511-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/0511-en-tagged.tag" sign="_input"/>
+<alignFile key="b" href="../en/0511-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1 b2" creator="-1" insign="The flooring" outsign="Gulvbelægningen"/>
 <align out="a45" type="" in="b3" creator="-1" insign="must" outsign="skal"/>
 <align out="a46" type="" in="b4" creator="-1" insign="be" outsign="være"/>

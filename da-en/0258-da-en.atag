@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0258-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/0258-en-tagged.tag" sign="_input"/>
+<alignFile key="b" href="../en/0258-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1 b2" creator="-1" insign="According to" outsign="Ifølge"/>
 <align out="a44" type="" in="b3 b4" creator="-1" insign="the government" outsign="regeringen"/>
 <align out="a51" type="" in="b14" creator="-1" insign="toxic" outsign="giftigt"/>

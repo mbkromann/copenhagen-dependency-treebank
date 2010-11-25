@@ -1,0 +1,3 @@
+# Default search corpus
+corpus $CDTHOME/{da,de,en,es,it}/*.tag
+

@@ -1,0 +1,15 @@
+# UNIX commands for opening viewers ("viewer"=graph, "viewer:"=alignment, "viewer:a"=a-graph, etc.)
+option viewer gv -geometry 1020x600-0+0 --spartan --nocenter --scale=2 --quiet --watch $file &
+option viewer: gv -geometry 240x600+490+0 --widgetless --nocenter --scale=0.5 --quiet --watch $file &
+option viewer:a gv -geometry 480x600+0+0 --widgetless --nocenter --scale=0.5 --quiet --watch $file &
+option viewer:b gv -geometry 480x600-0+0 --widgetless --nocenter --scale=0.5 --quiet --watch $file &
+
+# UNIX command for converting from utf8 to iso8859‐1 with forced
+# transliteration (used for PostScript generation)
+option iconv iconv -c -f UTF-8 -t ISO_8859-1//TRANSLIT
+
+#option post-start
+#option post-save
+#option post-exit
+#option post-print
+

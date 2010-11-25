@@ -2,34 +2,55 @@ sub cmd_viewer {
 	my $self = shift;
 	my $graph = shift;
 	my $option = shift || "";
+	#print "option: $option\n";
 
 	# Specify new follow file
+	$self->{'viewer'} = 1;
 	++$viewer;
 	my $fpsfile = "/tmp/dtag-$$-$viewer.ps";
+	my $fpsfiles = {"" => $fpsfile};
 	if ($graph->var("example") || $option eq "-e" || $option eq "-example") {
 		$self->var("exfpsfile", $fpsfile);
 		$graph = $self->var("examplegraph") || DTAG::Graph->new($self)
 			if (! $graph->var("example"));
-	} else {
-		$self->fpsfile($fpsfile);
+	} elsif ($option =~ /^-a/ && $graph->is_alignment()) {
+		# Add fpsfiles for subgraphs
+		delete $fpsfiles->{""};
+		$fpsfiles->{":"} = $fpsfile;
+		foreach my $key (sort(keys(%{($graph->graphs())}))) {
+			my $f = "/tmp/dtag-$$-$viewer-$key.ps";
+			my $subgraph = $graph->graph($key);
+			$subgraph->fpsfile($f);
+			$self->fpsfile($key, $f);
+			$fpsfiles->{":" . $key} = $f;
+			#print "Subgraph: $subgraph $f\n";
+			$self->cmd_return($subgraph);
+		}
 	}
+
+	# Add fpsfile
+	$self->fpsfile("", $fpsfile);
+	$graph->fpsfile($fpsfile);
 
 	# Record fpsfile as a viewed file
 	$self->{'viewfiles'} = {} 
 		if (! defined($self->{'viewfiles'}));
-	$self->{'viewfiles'}->{$fpsfile} = 1;
+	map {$self->{'viewfiles'}->{$fpsfiles->{$_}} = 1} keys(%$fpsfiles);
 
 	# Update graph and viewer
-	$self->{'viewer'} = 1;
-	$graph->fpsfile($fpsfile);
 	$self->cmd_return($graph);
 
 	# Call viewer on $fpsfile
-	my $viewcmd = "" . ($self->var('options')->{'viewer'} || 'gv $file &');
-	$viewcmd =~ s/\$file/$fpsfile/g;
-	print "opening viewer with \"$viewcmd\"\n" if ($self->debug());
-	system($viewcmd);
+	foreach my $key (sort(keys(%$fpsfiles))) {
+		my $f = $fpsfiles->{$key};
+		my $viewcmd = "" . ($self->option('viewer' . $key)
+			|| $self->option('viewer') 
+			|| 'gv $file &');
+		$viewcmd =~ s/\$file/$f/g;
+		print "opening viewer with \"$viewcmd\"\n" if ($self->debug());
+		system($viewcmd);
+	}
 
-	# Set follow file for current graph
+	# Return
 	return 1;
 }

@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0770-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/0770-en-tagged.tag" sign="_input"/>
+<alignFile key="b" href="../en/0770-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1 b2" creator="-1" insign="The television" outsign="Fjernsynet"/>
 <align out="a47" type="" in="b5 b6" creator="-1" insign="at least" outsign="mindst"/>
 <align out="a48" type="" in="b7" creator="-1" insign="500" outsign="500"/>

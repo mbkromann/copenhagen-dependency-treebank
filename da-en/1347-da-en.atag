@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1347-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/1347-en-tagged.tag" sign="_input"/>
+<alignFile key="b" href="../en/1347-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1 b2 b3" creator="-1" insign="The EC countries" outsign="EF-landene"/>
 <align out="a44" type="" in="b4" creator="-1" insign="have" outsign="har"/>
 <align out="a45" type="" in="b5" creator="-1" insign="," outsign=","/>

@@ -96,8 +96,8 @@ sub cmd_find {
 	# Reset found matches and disable follow
 	my $matches = $self->{'matches'} = {};
 	my $maxsols = 100000;				# Maximal number of full solutions
-	my $oldfpsfile = $self->{'fpsfile'};
-	$self->{'fpsfile'} = undef;
+	my $oldfpsfile = $self->fpsfile();
+	$self->fpsfile("", undef);
 
 	# Solve DNF-query for all files in corpus
 	my $iostatus = $|; $| = 1; my $c = 0;
@@ -164,9 +164,9 @@ sub cmd_find {
 				if ($ask && $action->ask()) {
 					# Update graph
 					++$match;
-					$self->{'fpsfile'} = $oldfpsfile;
+					$self->fpsfile("", $oldfpsfile);
 					$self->cmd_goto($graph, "M$match");
-					$self->{'fpsfile'} = undef;
+					$self->fpsfile("", undef);
 
 					# Print replace operations
 					print "Replace operations for ",
@@ -194,9 +194,9 @@ sub cmd_find {
 				# Manual edit or automatic replacement
 				if ($choice eq "E") {
 					# Manual edit
-					$self->{'fpsfile'} = $oldfpsfile;
+					$self->fpsfile("", $oldfpsfile);
 					$self->loop();
-					$self->{'fpsfile'} = undef;
+					$self->fpsfile("", undef);
 					next();
 				} elsif ($choice eq "A" || $choice eq "Y") {
 					$binding->{'$FILE'} = $graph->file();
@@ -237,7 +237,7 @@ sub cmd_find {
 
 
 	# Restore old fpsfile
-	$self->{'fpsfile'} = $oldfpsfile;
+	$self->fpsfile("", $oldfpsfile);
 
 	# Show first match
 	$self->cmd_goto($graph, 'M1') if ($count);

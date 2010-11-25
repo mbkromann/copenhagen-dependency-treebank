@@ -1,0 +1,28 @@
+# Turning off error visualization
+macro errors $DTAGHOME/dtagrc.errors
+macro noerrors style error ;; style error:nogov ;; style error:manygovs ;; style error:noante ;; style error:nosubj ;; style error:nonobj ;; style error:badtype
+
+# Shortcuts for noerror
+macro nosubj noerror {ARGS} nosubj
+macro nonobj noerror {ARGS} nonobj
+macro noante noerror {ARGS} noante
+
+# Error marking: nodes
+errordef -node nogov ! defined($egov)
+errordef -node manygovs scalar(grep {$G->is_dependent($_) && $_->in() != $_->out() && $_->svar("diff")} @{$n->in()}) > 1
+errordef -node nosubj my $msd = $n->svar("msd"); $msd =~ /^V/ && scalar(grep {$_->type() =~ /(subj|expl)/} @{$n->out()}) == 0
+errordef -node nonobj my $msd = $n->svar("msd"); $msd =~ /^SP/ && scalar(grep {$_->type() =~ /nobj/} @{$n->out()}) == 0
+errordef -node noante my $msd = $n->svar("msd"); my $govmsd = $gov ? $gov->svar("msd") : ""; $msd =~ /^[NP]/ && ! ($msd =~ /^(NP|PI|NC.*I)/ || $G->has_inedge($n, "ANA", "possd") || ($G->has_inedge($n, "nobj") && $govmsd =~ /^(N|P|A)/))
+
+# Error marking: edges
+errordef -edge badtype $G->isarel($e->type(), "CDT1") || ! $G->is_known_edge($e->type())
+errordef -edge manygovs scalar(grep {$G->is_dependent($_) && $_->in() != $_->out()} @{$G->node($e->in())->in()}) > 1
+
+# Error styles
+style error:nogov -label -color red -fonttype bold
+style error:manygovs -label -color red -fonttype bold -arclabel -color red -fonttype bold -arc -color red
+style error:noante -label -color lightred -fonttype bold
+style error:nosubj -label -color lightred -fonttype bold
+style error:nonobj -label -color lightred -fonttype bold
+style error:badtype -arclabel -color red -fonttype bold -arc -ps "0 0 0 setrgbcolor"
+

@@ -1,0 +1,54 @@
+# Define default variables for graphs
+vars msd:m lemma:l gloss:g speaker:s lexeme:x sdeps:d compound:c omorph:o
+
+# Useful commands
+macro cdt cd $CDTHOME/{ARGS}
+
+# Autotagging for morphology
+macro autotagm find $X[msd] =~ /^(NC|V|AN)/ ;; autotag morph -matches -default *.tag
+
+# TransLog-related stuff
+macro loadfix load {ARGS}.src ;; graphs ;; fixations {ARGS}.fix dur cur
+
+# SVN interface
+macro update !$CDTHOME/tools/dtag-update
+macro commit !$CDTHOME/tools/dtag-commit {ARGS}
+macro svnfix !$CDTHOME/tools/dtag-svnfix {ARGS}
+
+# Tasks
+macro tasks !$CDTHOME/tools/dtag-tasks
+macro opentask !$CDTHOME/tools/dtag-opentask ;; script ~/.script 
+macro closetask save ;; !$CDTHOME/tools/dtag-closetask {FILE} {ARGS} ;; script ~/.script
+
+# Annotation status
+macro status !$CDTHOME/tools/dtag-status {FILE}
+macro setstatus !$CDTHOME/tools/dtag-setstatus {FILE} {ARGS}
+macro statusall !$CDTHOME/tools/dtag-statusall {ARGS}
+macro findfiles !$CDTHOME/tools/dtag-findfiles {ARGS}
+
+# CDT manual
+macro cdtmanual !$CDTHOME/tools/dtag-cdtmanual &
+macro makemanual !export DTAGCOMMITDIR="manual" ; cd $CDTHOME/manual ; make all ; ../tools/dtag-commit "compiled CDT manual"
+macro cdtmanualsetup style nogoverror ;; nonumbernodes
+macro rmcdtmanual !rm $CDTHOME/docs/cdt-manual.pdf 
+
+# Webmap
+macro makewebmap !cd $CDTHOME ; make webmap
+macro cdtmap !$CDTHOME/tools/dtag-cdtmap
+
+# Wiki
+macro wiki !$CDTHOME/tools/dtag-wiki
+
+# Tests and agreement
+macro test !$CDTHOME/tools/dtag-testcmp {ARGS}
+macro testresults !cat {ARGS}.log
+macro agreement !$CDTHOME/tools/dtag-agreement {ARGS} ;; load /tmp/cdtA.tag ;; diff /tmp/cdtB.tag ;; agreementdiff
+macro agreementdiff load /tmp/cdtA.tag;;diff /tmp/cdtB.tag
+
+# CDT username
+user -f $HOME/.cdtname
+macro setname !$CDTHOME/tools/dtag-setname
+
+# Start command log for user
+cmdlog $CDTHOME/logs/{USER}
+

@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0510-da.tag" sign="_input"/>
-<alignFile key="b" href="../en/0510-en-tagged.tag" sign="_input"/>
+<alignFile key="b" href="../en/0510-en.tag" sign="_input"/>
 <align out="a45" type="" in="b6" creator="-1" insign="an" outsign="et"/>
 <align out="a46" type="" in="b7 b8" creator="-1" insign="orienteering race" outsign="orienteringsløb"/>
 <align out="a47" type="" in="b9" creator="-1" insign="with" outsign="med"/>

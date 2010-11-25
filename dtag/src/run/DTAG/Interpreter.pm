@@ -2227,6 +2227,8 @@ sub cmd_cmdlog {
 	if ($file =~ /{USER}/) {
 		$file =~ s/{USER}/$user/g;
 	}
+	my $HOME = $ENV{'HOME'};
+	$file =~ s/\s*\~\//$HOME\//g;
 
 	# Open file for appending
 	my $fh;
@@ -2491,10 +2493,6 @@ sub cmd_corpus_apply {
 	$time += time();
 	print "corpus-apply took " . seconds2hhmmss($time) 
 		. " seconds to execute \"$cmd\".\n" if (! $self->quiet());
-
-
-	# Restore old fpsfile
-	#$self->{'fpsfile'} = $oldfpsfile;
 
 	# Return
 	return 1;
@@ -3674,8 +3672,8 @@ sub cmd_find {
 	# Reset found matches and disable follow
 	my $matches = $self->{'matches'} = {};
 	my $maxsols = 100000;				# Maximal number of full solutions
-	my $oldfpsfile = $self->{'fpsfile'};
-	$self->{'fpsfile'} = undef;
+	my $oldfpsfile = $self->fpsfile();
+	$self->fpsfile("", undef);
 
 	# Solve DNF-query for all files in corpus
 	my $iostatus = $|; $| = 1; my $c = 0;
@@ -3742,9 +3740,9 @@ sub cmd_find {
 				if ($ask && $action->ask()) {
 					# Update graph
 					++$match;
-					$self->{'fpsfile'} = $oldfpsfile;
+					$self->fpsfile("", $oldfpsfile);
 					$self->cmd_goto($graph, "M$match");
-					$self->{'fpsfile'} = undef;
+					$self->fpsfile("", undef);
 
 					# Print replace operations
 					print "Replace operations for ",
@@ -3772,9 +3770,9 @@ sub cmd_find {
 				# Manual edit or automatic replacement
 				if ($choice eq "E") {
 					# Manual edit
-					$self->{'fpsfile'} = $oldfpsfile;
+					$self->fpsfile("", $oldfpsfile);
 					$self->loop();
-					$self->{'fpsfile'} = undef;
+					$self->fpsfile("", undef);
 					next();
 				} elsif ($choice eq "A" || $choice eq "Y") {
 					$binding->{'$FILE'} = $graph->file();
@@ -3815,7 +3813,7 @@ sub cmd_find {
 
 
 	# Restore old fpsfile
-	$self->{'fpsfile'} = $oldfpsfile;
+	$self->fpsfile("", $oldfpsfile);
 
 	# Show first match
 	$self->cmd_goto($graph, 'M1') if ($count);
@@ -6128,17 +6126,21 @@ sub cmd_option {
 	my $self = shift;
 	my $option = shift;
 	my $value = shift;
-	$value =~ s/\s*$//;
+	$value =~ s/\s*$// if (defined($value));
 
 	if (defined($value)) {
 		# Set option (if value given)
 		$self->option($option, $value);
-	}#} else {
+	} elsif ($option eq "*") {
+		foreach my $opt (sort(keys(%{$self->{"options"}}))) {
+			$self->cmd_option($opt);
+		}
+	} else {
 		# Print option
 		$value = $self->option($option);
 		$value = 'undef' if (! defined($value));
 		print "option $option=", $value, "\n";
-	#}
+	}
 
 	# Exit
 	return 1;
@@ -6901,12 +6903,11 @@ sub cmd_relhelp {
 	print "SEE ALSO:\n" .
 		join("", map {countname($relset, $_)} 
 			@$seealso) . "\n" if (@$seealso);
-	my $confusion = [@{$self->{'confusion'}{$relsetname}{$sname}}] || [0, 0, 0, 0];
+	my $confusion = [@{$self->{'confusion'}{$relsetname}{$sname}}] || [0,0,0,0];
 	my $confcount = shift(@$confusion);
-	my $Aall = shift(@$confusion);
-	my $Aout = shift(@$confusion);
-	my $Arel = shift(@$confusion);
-	print "CONFUSION ($confcount nodes, agreement all/node/label=$Aall/$Aout/$Arel:\n    "
+	my $agreement = join("/", shift(@$confusion), shift(@$confusion),
+		shift(@$confusion));
+	print "CONFUSION ($confcount nodes, $agreement full/unlabeled/label agreement):\n    "
 		. join(" ", @$confusion) . "\n";
 
 	# Examples
@@ -7342,11 +7343,10 @@ sub relset2latex_visit {
 		sorted_relations($relset, split(/\s+/, $see))) . "}%\n" if ($see);
 	my $confuse = [@{$confusion->{$sname} || []}];
 	if (@$confuse) {
-		print $ofh "	\\confusions{" . join("}{", shift(@$confuse), nopct(shift(@$confuse)), nopct(shift(@$confuse)), nopct(shift(@$confuse))) . "}{";
+		print $ofh "	\\confusions{" . shift(@$confuse) . "}{";
 		foreach my $c (@$confuse) {
-			$c =~ /^([0-9.]+)\%=(.*)$/;
-			my $freq = int($1 + 0.5);
-			print $ofh "\\confuse{$freq}{" . texrelref($2, $relset) . "}" 
+			$c =~ /^([0-9]+)\%=(.*)$/;
+			print $ofh "\\confuse{$1}{" . texrelref($2, $relset) . "}" 
 				if (defined($1) && defined($2));
 		}
 		print $ofh "}\n";
@@ -7363,12 +7363,6 @@ sub relset2latex_visit {
 		$self->relset2latex_visit($graph, $ofh, $relset, $confusion, $subrel, $type, $visited,
 		$indent . $relset_indent);
 	}
-}
-
-sub nopct {
-	my $rel = shift;
-	$rel =~ s/%//g;
-	return int($rel+0.5);
 }
 
 sub texrel {
@@ -9147,35 +9141,56 @@ sub cmd_viewer {
 	my $self = shift;
 	my $graph = shift;
 	my $option = shift || "";
+	#print "option: $option\n";
 
 	# Specify new follow file
+	$self->{'viewer'} = 1;
 	++$viewer;
 	my $fpsfile = "/tmp/dtag-$$-$viewer.ps";
+	my $fpsfiles = {"" => $fpsfile};
 	if ($graph->var("example") || $option eq "-e" || $option eq "-example") {
 		$self->var("exfpsfile", $fpsfile);
 		$graph = $self->var("examplegraph") || DTAG::Graph->new($self)
 			if (! $graph->var("example"));
-	} else {
-		$self->fpsfile($fpsfile);
+	} elsif ($option =~ /^-a/ && $graph->is_alignment()) {
+		# Add fpsfiles for subgraphs
+		delete $fpsfiles->{""};
+		$fpsfiles->{":"} = $fpsfile;
+		foreach my $key (sort(keys(%{($graph->graphs())}))) {
+			my $f = "/tmp/dtag-$$-$viewer-$key.ps";
+			my $subgraph = $graph->graph($key);
+			$subgraph->fpsfile($f);
+			$self->fpsfile($key, $f);
+			$fpsfiles->{":" . $key} = $f;
+			#print "Subgraph: $subgraph $f\n";
+			$self->cmd_return($subgraph);
+		}
 	}
+
+	# Add fpsfile
+	$self->fpsfile("", $fpsfile);
+	$graph->fpsfile($fpsfile);
 
 	# Record fpsfile as a viewed file
 	$self->{'viewfiles'} = {} 
 		if (! defined($self->{'viewfiles'}));
-	$self->{'viewfiles'}->{$fpsfile} = 1;
+	map {$self->{'viewfiles'}->{$fpsfiles->{$_}} = 1} keys(%$fpsfiles);
 
 	# Update graph and viewer
-	$self->{'viewer'} = 1;
-	$graph->fpsfile($fpsfile);
 	$self->cmd_return($graph);
 
 	# Call viewer on $fpsfile
-	my $viewcmd = "" . ($self->var('options')->{'viewer'} || 'gv $file &');
-	$viewcmd =~ s/\$file/$fpsfile/g;
-	print "opening viewer with \"$viewcmd\"\n" if ($self->debug());
-	system($viewcmd);
+	foreach my $key (sort(keys(%$fpsfiles))) {
+		my $f = $fpsfiles->{$key};
+		my $viewcmd = "" . ($self->option('viewer' . $key)
+			|| $self->option('viewer') 
+			|| 'gv $file &');
+		$viewcmd =~ s/\$file/$f/g;
+		print "opening viewer with \"$viewcmd\"\n" if ($self->debug());
+		system($viewcmd);
+	}
 
-	# Set follow file for current graph
+	# Return
 	return 1;
 }
 
@@ -9207,21 +9222,6 @@ sub cmd_webmap {
 	$graph->wikidoc($tagvar, $wikidir, $exdir, $termexcount, $excount, 
 		$mincount, $url);
 }
-
-## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/cmp_ids.pl
-## ------------------------------------------------------------
-
-sub cmp_ids {
-	my ($a, $b) = @_;
-	$a =~ /^(-?[0-9]*)(.*)$/;
-	my ($a1, $a2) = ($1, $2);
-	$b =~ /^(-?[0-9]*)(.*)$/;
-	my ($b1, $b2) = ($1, $2);
-
-	return ($a1 <=> $b1) || ($a2 cmp $b2);
-}
-
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/compound_autonumber.pl
@@ -9469,9 +9469,22 @@ sub do {
 		$success = $self->cmd_replace($graph, $1)
 			if ($cmd =~ /^=(.*)\s*$/);
 
+		# Macro: macro $macro $cmd
+		$success = $self->cmd_macro($1, $2) 
+			if ($cmd =~ /^\s*macro\s+(\w+)\s+(.*)$/ ||
+				$cmd =~ /^\s*macro\s+(\w+)\s*$/);
+
 		# Unix shell: ! $cmd
 		$success = $self->cmd_shell($1)
 			if ($cmd =~ /^\s*!\s*(.*)$/);
+
+		# Replace variables in command
+		my $DTAGHOME = $ENV{'DTAGHOME'} || '$DTAGHOME';
+		my $CDTHOME = $ENV{'CDTHOME'} || '$CDTHOME';
+		my $HOME = $ENV{'HOME'} || '$HOME';
+		$cmd =~ s/\$DTAGHOME/$DTAGHOME/g;
+		$cmd =~ s/\$CDTHOME/$CDTHOME/g;
+		$cmd =~ s/\$HOME/$HOME/g;
 
 		# Help search relation command: ??$relation
 		$success = $self->cmd_relhelpsearch($graph, $1) 
@@ -9775,11 +9788,6 @@ sub do {
 		$success = $self->cmd_lookupw($graph, $1) 
 			if ($cmd =~ /^\s*lookupw\s+(.*)\s*$/);
 
-		# Macro: macro $macro $cmd
-		$success = $self->cmd_macro($1, $2) 
-			if ($cmd =~ /^\s*macro\s+(\w+)\s+(.*)$/ ||
-				$cmd =~ /^\s*macro\s+(\w+)\s*$/);
-
 		# Macros: macros
 		$success = $self->cmd_macros($1, $2) 
 			if ($cmd =~ /^\s*macros\s*$/);
@@ -9843,17 +9851,17 @@ sub do {
 
 		# Option: option $option=$value
 		$success = $self->cmd_option($1, $2)
-			if ($cmd =~ /^\s*option\s*(\S+)\s*=\s*(\S.*)\s*$/
-				|| $cmd =~ /^\s*option\s*(\S+)\s+(\S.*)\s*$/
-				|| $cmd =~ /^\s*option\s*(\S+)\s*$/);
+			if ($cmd =~ /^\s*option\s+(\S+)\s*=\s*(\S.*)\s*$/
+				|| $cmd =~ /^\s*option\s+(\S+)\s+(\S.*)\s*$/
+				|| $cmd =~ /^\s*option\s+(\S+)\s*$/);
 
 		# Offset and show: oshow $offset
-		if (UNIVERSAL::isa($graph, 'DTAG::Graph') 
-				&& $cmd =~ /^\s*oshow(\s+([-+=])?([0-9]+))?\s*$/) {
-			my ($sign, $offset) = ($2, $3);
-			$success = $self->cmd_offset($graph, $sign, $offset);
-			$success = $self->cmd_show($graph, " 0");
-		}
+		#if (UNIVERSAL::isa($graph, 'DTAG::Graph') 
+		#		&& $cmd =~ /^\s*oshow(\s+([-+=])?([0-9]+))?\s*$/) {
+		#	my ($sign, $offset) = ($2, $3);
+		#	$success = $self->cmd_offset($graph, $sign, $offset);
+		#	$success = $self->cmd_show($graph, " 0");
+		#}
 		
 		if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
 			$cmd =~ /^\s*oshow(\s+[+-]?[0-9]+)\s*$/) {
@@ -10036,7 +10044,7 @@ sub do {
 
 		# Viewer: viewer
 		$success = $self->cmd_viewer($graph, $2) 
-			if ($cmd =~ /^\s*viewer(\s+(-e(xample)?))?\s*$/);
+			if ($cmd =~ /^\s*viewer(\s+(-e(xample)?|-a(ll)?))?\s*$/);
 
 		# Webmap
 		$success = $self->cmd_webmap($graph, $2)
@@ -10285,7 +10293,9 @@ sub find_key {
 
 sub fpsfile {
 	my $self = shift;
-	return $self->var('fpsfile', @_);
+	my $type = shift;
+	$type = "" if (! defined($type));
+	return $self->var('fpsfile:' . $type, @_);
 }
 
 ## ------------------------------------------------------------
@@ -10546,182 +10556,6 @@ sub loop {
 	# Decrease the loop count
 	$self->{'loop_count'} -= 1;
 }
-
-## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/merge_edges.pl
-## ------------------------------------------------------------
-
-sub merge_edges {
-	my ($self, $graph, $graphs) = @_;
-	my $innodes = {};
-
-	# Iterate over graphs
-	my $inserted = {};
-	my $primary = {};
-	foreach my $g (@$graphs) {
-		# Iterate over nodes
-		for (my $i = 0; $i < $g->size(); ++$i) {
-			# Skip comment nodes
-			my $node = $g->node($i);
-			next if ($node->comment());
-
-			# Process in-edges at content node
-			my $idin = $node->var("id");
-			my $in = $graph->id2node($idin);
-			foreach my $e (@{$node->in()}) {
-				my $idout = $g->node($e->out())->var("id");
-				my $out = $graph->id2node($idout);
-				my $etype = $e->type();
-				my $insertkey = "$in $etype $out";
-				if (defined($in) && defined($out) && defined($etype)
-						&& ! $inserted->{$insertkey}) {
-					# Insert edge once
-					#print "insertkey: $insertkey\n";
-					$inserted->{$insertkey} = 1;
-					if ($graph->isarel($etype, "PRIMARY")) {
-						# Primary edge: must be unique, place in queue
-						my $inedges = $primary->{$in};
-						$inedges = $primary->{$in} = {} if (! $inedges);
-						if (! exists $inedges->{$insertkey}) {
-							$inedges->{$insertkey} = [$out, $etype, $g];
-						} else {
-							push @{$inedges->{$insertkey}}, $g;
-						}
-					} else {
-						# Non-primary edge: insert right away
-						my $edge = Edge->new($in, $out, $etype);
-						$graph->edge_add($edge);
-					}
-				}
-			}
-		}
-	}
-
-	# Process primary edges
-	foreach my $in (sort(keys(%$primary))) {
-		my $inedges = $primary->{$in};
-		my ($out, $etype);
-		my @ekeys = keys(%$inedges); 
-		if (scalar(@ekeys) == 1) {
-			# Primary edge is unique: just add
-			my $edgeinfo = $inedges->{$ekeys[0]};
-			$out = $edgeinfo->[0];
-			$etype = $edgeinfo->[1];
-		} else {
-			# Primary edge is in conflict: disambiguate
-			my $edgeinfo = $inedges->{$ekeys[0]};
-			$out = $edgeinfo->[0];
-			$etype = $edgeinfo->[1];
-			print "edge conflict $in: "
-				. join(" || ", 
-					map {$inedges->{$_}[1] . " " . $inedges->{$_}[0]}
-						sort(keys(%$inedges))) . "\n";
-		}
-
-		# Add edge to graph
-		#print "insertedge: $in $etype $out\n";
-		my $edge = Edge->new($in, $out, $etype);
-		$graph->edge_add($edge);
-	}
-}
-
-
-## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/merge_nodes.pl
-## ------------------------------------------------------------
-
-sub merge_nodes {
-	my ($self, $graph, $graphs) = @_;
-
-	# Node data structure
-	my $nodes = {};
-	my $nodecomments = {};
-	my $vars = {};
-
-	# Iterate over graphs
-	my $startid = "-1";
-	foreach my $g (@$graphs) {
-		# Iterate over nodes
-		my $id = $startid;
-		for (my $i = 0; $i < $g->size(); ++$i) {
-			my $node = $g->node($i);
-			if ($node->comment()) {
-				# Comment
-				my $comment = $node->input();
-				my $comments = $nodecomments->{$id} = $nodecomments->{$id} || [];
-				if (! grep {$_ eq $comment} @$comments) {
-					# Add comment without duplicates (may mess up <xml> tags)
-					push @$comments, $comment;
-				}
-			} else {
-				# Content nodes: process attributes
-				$id = $node->var("id");
-				my $attributes = $nodes->{$id} = $nodes->{$id} || {};
-				foreach my $attr (grep {$_ !~ /^_/ || $_ eq "_input"} 
-						keys(%$node)) {
-					$vars->{$attr} = 1 if ($attr !~ /^_/);
-					my $values = $attributes->{$attr} = $attributes->{$attr} || {};
-					my $value = $node->var($attr);
-					my $voters = $values->{$value} = $values->{$value} || [];
-					push @$voters, $g;
-				}
-			}
-		}
-	}
-
-	# Add nodes to graph
-	$self->cmd_vars($graph, join(" ", sort(keys(%$vars))));
-	foreach my $id ($startid, sort {cmp_ids($a,$b)} keys(%$nodes)) {
-		# Create content node
-		my $nodehash = $nodes->{$id};
-		if (defined($nodehash)) {
-			my $node = Node->new();
-			foreach my $attr (sort(keys(%$nodehash))) {
-				# Compute value votes
-				my $values = $nodehash->{$attr};
-				my $votes = {};
-				foreach my $value (keys(%$values)) {
-					foreach my $voter (@{$values->{$value}}) {
-						my $vote = $votes->{$value} = $votes->{$value} || [];
-						$vote->[0] += 
-							$self->voting_weight_attr($voter, $attr, $value);
-						$vote->[1] .= 
-							$voter->fileshort() . " ";
-					}
-				}
-
-				# Sort values by score
-				my @sortedvalues = sort {$votes->{$b}[0] <=> $votes->{$a}[0]} 
-					keys(%$votes);
-
-				# Set value
-				$node->var($attr, $sortedvalues[0]);
-
-				# Store alternatives if non-unique
-				if ($#sortedvalues > 0) {
-					print "attr conflict: " . $graph->size() . "[$attr]: " 
-						. join(" ", @sortedvalues) . "\n";
-					foreach my $v (@sortedvalues) {
-						$graph->merge_alt_attributes($id, $attr, $v, 
-							$votes->{$v});
-					}
-				}
-			}
-
-			# Add content node to graph
-			$graph->node_add(undef, $node);
-		}
-		
-		# Add comment nodes to graph
-		foreach my $comment (@{$nodecomments->{$id} || []}) {
-			my $node = Node->new();
-			$node->input($comment);
-			$node->comment(1);
-			$graph->node_add(undef, $node);
-		}
-	}
-}
-
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/mid2mspec.pl
@@ -11801,26 +11635,6 @@ sub varparse {
 
 	# Return hash
 	return $hash;
-}
-
-
-## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/voting_weight_attr.pl
-## ------------------------------------------------------------
-
-sub voting_weight_attr {
-	my ($self, $graphvoter, $attribute, $value) = @_;
-	return 1;
-}
-
-
-## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/voting_weight_edge.pl
-## ------------------------------------------------------------
-
-sub voting_weight_edge {
-	my ($self, $graphvoter, $edgetype) = @_;
-	return 1;
 }
 
 

@@ -13,7 +13,7 @@ code: serverdirs
 	mkdir -p ${RUNDIR}/DTAG
 	RELEASE=`cat .release` ; DATE=`date +"%Y-%m-%d %k:%M:%S"`; echo $$RELEASE; (head -1 dtag; cat LICENSE dtag) | sed -e "s/RELEASE = ''/RELEASE = '$$RELEASE ($$DATE)'/" > ${RUNDIR}/dtag
 	chmod 755 ${RUNDIR}/dtag
-	cp dtagrc ${RUNDIR}/.dtagrc
+	cp dtagrc* ${RUNDIR}/
 	cp dtag-cgi ${RUNDIR}
 	cp PostScript/arcs.header PostScript/arcs.trailer ${RUNDIR}
 	cp PostScript/align.header PostScript/align.trailer ${RUNDIR}
@@ -100,7 +100,7 @@ testlearn:
 
 dtag.tar.gz: 
 	make
-	tar cvzf dtag.tar.gz /opt/dtag/* /opt/dtag/.dtagrc
+	tar cvzf dtag.tar.gz /opt/dtag/*
 	md5sum dtag.tar.gz > dtag.tar.gz.md5.txt
 	chmod 755 dtag.tar.gz*
 

@@ -7,6 +7,8 @@ sub cmd_cmdlog {
 	if ($file =~ /{USER}/) {
 		$file =~ s/{USER}/$user/g;
 	}
+	my $HOME = $ENV{'HOME'};
+	$file =~ s/\s*\~\//$HOME\//g;
 
 	# Open file for appending
 	my $fh;
