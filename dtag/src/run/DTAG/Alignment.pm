@@ -886,7 +886,9 @@ Get/set follow postscript file associated with graph.
 
 sub fpsfile {
 	my $self = shift;
-	return $self->var('fpsfile', @_);
+	my $key = shift;
+	$key = "" if (! defined($key));
+	return $self->var('fpsfile' . $key, @_);
 }
 
 ## ------------------------------------------------------------
@@ -898,6 +900,21 @@ sub graph {
 	my $key = shift;
 	$key = "" if (! defined($key));
 	return $self->{'graphs'}{$key};
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Alignment/graph2key.pl
+## ------------------------------------------------------------
+
+sub graph2key {
+	my $self = shift;
+	my $graph = shift;
+	my $graphs = $self->var('graphs');
+
+	foreach my $key (keys(%$graphs)) {
+		return $key if ($graphs->{$key} eq $graph);
+	}
+	return undef;
 }
 
 ## ------------------------------------------------------------
@@ -2411,6 +2428,9 @@ sub signature {
 		} @$nodes);
 }
 
+## ------------------------------------------------------------
+##  start auto-insert from directory: .svn
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2431,6 +2451,9 @@ sub signature {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2451,8 +2474,12 @@ sub signature {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2473,8 +2500,12 @@ sub signature {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2495,8 +2526,12 @@ sub signature {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: tmp
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2517,6 +2552,9 @@ sub signature {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2537,8 +2575,12 @@ sub signature {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2559,8 +2601,12 @@ sub signature {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2581,12 +2627,18 @@ sub signature {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
-
-1;
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: tmp
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: .svn
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: AEdge
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -3053,6 +3105,9 @@ sub vars {
 	$self->[5] = shift if (@_);
 	return $self->[5] || "§";
 }
+## ------------------------------------------------------------
+##  start auto-insert from directory: .svn
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -3073,6 +3128,9 @@ sub vars {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -3093,8 +3151,12 @@ sub vars {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -3115,8 +3177,12 @@ sub vars {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -3137,8 +3203,12 @@ sub vars {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: tmp
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -3159,6 +3229,9 @@ sub vars {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -3179,8 +3252,12 @@ sub vars {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -3201,8 +3278,12 @@ sub vars {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -3223,13 +3304,17 @@ sub vars {
 # Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
-
-1;
-
-1;
-
-1;
-
-1;
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: tmp
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: .svn
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: AEdge
+## ------------------------------------------------------------
 
 1;

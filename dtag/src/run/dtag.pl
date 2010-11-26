@@ -22,7 +22,7 @@
 #!/usr/bin/perl -w
 
 # Version
-my $RELEASE = '..10 (2010-11-22  4:05:12)';
+my $RELEASE = ' (2010-11-26 11:29:44)';
 
 use strict;
 use File::Basename;
@@ -48,7 +48,7 @@ if (! ($DTAGHOME && -r $DTAGHOME)) {
 	}
 
 	# Find absolute path and save in DTAGHOME
-	$DTAGHOME = Cwd::abs_path(dirname($script)) if (-r $script) || "";
+	$ENV{'DTAGHOME'} = $DTAGHOME = Cwd::abs_path(dirname($script)) if (-r $script) || "";
 }
 
 # Add $DTAGHOME to @INC, and load modules
@@ -91,8 +91,12 @@ if (! $quiet) {
 # Process rc-file
 $inter->quiet(1);
 if ($init) {
-	foreach my $rcfile (($DTAGHOME || "XXX") . "/.dtagrc", 
-			($ENV{'HOME'} || "XXX") . "/.dtagrc", ".dtagrc") {
+	foreach my $rcfile (($DTAGHOME || "XXX") . "/dtagrc", 
+			($DTAGHOME || "XXX") . "/.dtagrc", 
+			($ENV{'HOME'} || ".") . "/dtagrc",
+			($ENV{'HOME'} || ".") . "/.dtagrc", 
+			"dtagrc", 
+			".dtagrc") {
 		if (-r $rcfile) {
 			print "Using rcfile $rcfile\n" if (! $quiet);
 			$inter->do("script $rcfile");
