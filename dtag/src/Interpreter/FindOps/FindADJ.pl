@@ -30,7 +30,7 @@ sub next {
     my $graph = shift;
     my $bindings = shift;
     my $bind = shift;
-    my $U = shift;
+    my $U = pop;
 
     # Decline answer if constraint is negated
     return undef if ($self->{'neg'});

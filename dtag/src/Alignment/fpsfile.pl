@@ -6,5 +6,7 @@ Get/set follow postscript file associated with graph.
 
 sub fpsfile {
 	my $self = shift;
-	return $self->var('fpsfile', @_);
+	my $key = shift;
+	$key = "" if (! defined($key));
+	return $self->var('fpsfile' . $key, @_);
 }

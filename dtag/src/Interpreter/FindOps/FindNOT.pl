@@ -31,3 +31,9 @@ sub unbound {
     return $unbound;
 }
 
+sub _pprint {
+    my $self = shift;
+    my $args = $self->{'args'};
+       return ($self->utf8print() ? "¬" : "!" ) . $args->[0]->pprint();
+}
+

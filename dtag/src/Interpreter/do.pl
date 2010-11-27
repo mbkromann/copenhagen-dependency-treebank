@@ -451,18 +451,10 @@ sub do {
 				|| $cmd =~ /^\s*option\s+(\S+)\s+(\S.*)\s*$/
 				|| $cmd =~ /^\s*option\s+(\S+)\s*$/);
 
-		# Offset and show: oshow $offset
-		#if (UNIVERSAL::isa($graph, 'DTAG::Graph') 
-		#		&& $cmd =~ /^\s*oshow(\s+([-+=])?([0-9]+))?\s*$/) {
-		#	my ($sign, $offset) = ($2, $3);
-		#	$success = $self->cmd_offset($graph, $sign, $offset);
-		#	$success = $self->cmd_show($graph, " 0");
+		#if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
+		#	$cmd =~ /^\s*oshow(\s+[+-]?[0-9]+)\s*$/) {
+		#	my $offset = $1;
 		#}
-		
-		if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
-			$cmd =~ /^\s*oshow(\s+[+-]?[0-9]+)\s*$/) {
-			my $offset = $1;
-		}
 
 		# Tell: tell [-name=$name] $file
 		$success = $self->cmd_tell($2, $3) 
@@ -554,14 +546,14 @@ sub do {
 		$success = $self->cmd_shift($graph, $1, $2, $3)
 			if ($cmd =~ /^\s*shift\s+([a-z])([0-9]+)\s+([-+]?[0-9]+)\s*$/);
 
-		# Show: show [-component] $imin1[-$imax1] $imin2[-$imax2]
+		# Show: show [-component] $imin1[..$imax1] $imin2[..$imax2]
 		# $success = $self->cmd_show($graph, $3, $5)
 		if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
 			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-]?[0-9]+(-[0-9]+)?)*)\s*$/) {
 			$success = $self->cmd_show($graph, $5, $2);
 		}
 		if (UNIVERSAL::isa($graph, 'DTAG::Alignment') &&
-			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-]?[a-z][0-9]+(-[0-9]+)?)*)\s*$/) {
+			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+=?[+-]?[a-z][0-9]+(-[0-9]+)?)*)\s*$/) {
 			$success = $self->cmd_show_align($graph, $5, $2);
 		}
 

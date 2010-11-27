@@ -5,31 +5,39 @@ sub cmd_show_align {
 	my $option = shift() || "";
 
 	# Process argument string
+	my @graphs = ($graph);
 	while ($args !~ /^\s*$/) {
 		my ($imin, $imax) = (-1, -1);
-		if ($args =~ s/^\s*([a-z])([0-9]+)(-([0-9]+))?([^0-9])/$5/) {
+		if ($args =~ s/^\s*(=?)([a-z])([-+]?[0-9]+)(\.\.([+-]?[0-9]+))?([^0-9])/$6/) {
 			# Retrieve values
-			my $key = $1;
+			my $key = $2;
+			my $offset = $1 ? 0 : $graph->offset($key);
 			my $keygraph = $graph->graph($key);
 			next if (! $keygraph);
-			$imin = ($imin == -1) 
-				? $2 + $graph->offset($key) 
-				: min($imin, $2 + $graph->offset($key));
-			$imax = max($imax, $4 + $graph->offset($key)) if (defined($4));
+
+			# Compute $imin and $imax
+			$imin = $3 + $offset;
+			$imin = 0 if ($imin < 0);
+			$imax = max($imax, $5 + $offset) if (defined($5));
 			$imax = $graph->graph($key)->size()
 				if ($imax < 0);
-				
 
-			# Set values in graph
+			# Set values in graph and keygraph
 			$graph->var("imin")->{$key} = $imin;
 			$graph->var("imax")->{$key} = $imax;
+			$keygraph->var("imin", $imin);
+			$keygraph->var("imax", $imax);
+			push @graphs, $keygraph if (! grep {$_ eq $keygraph} @graphs);
 		} else {
 			$args =~ s/^.//;
 		}
 	}
 
-	# Redisplay
-	$self->cmd_return($graph);
+	# Redisplay all graphs and keygraphs
+	#print "Updating " . join(" ", map {$_->id()} @graphs) . "\n";
+	foreach my $g (@graphs) {
+		$self->cmd_return($g);
+	}
 
 	# Return
 	return 1;

@@ -2,6 +2,9 @@ sub cmd_return {
 	my $self = shift;
 	my $graph = shift || $self->graph();
 
+	# Do nothing if "noview" is set
+	return 1 if ($self->var("noview"));
+
 	# Send update command to graph
 	$graph->update();
 

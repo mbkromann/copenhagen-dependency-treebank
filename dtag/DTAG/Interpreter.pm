@@ -203,6 +203,10 @@ my $query_grammar = q{
 						{{'maxtime' => $item[2]}}
 		| '-maxmatch=' /[0-9]+/
 						{{'maxmatch' => $item[2]}}
+		| '-onOpen(' <leftop: DTAGCommand ";" DTAGCommand> ')'
+			{ 'opOpen' => FindActionDTAG->new(@{$item[2]}) }
+		| '-onClose(' <leftop: DTAGCommand ";" DTAGCommand> ')'
+			{ 'onClose' => FindActionDTAG->new(@{$item[2]}) }
 		| '-vars(' <leftop: NodeVariableDeclaration "," NodeVariableDeclaration > ')'
 			{	my $hash = {}; 
 				map {$hash->{$_->[0]} = ($_->[1] || "")} @{$item[2]};
@@ -318,7 +322,9 @@ my $query_grammar = q{
 		| Identifier
 
 	NodeList : 
-		<leftop: Node "," Node>
+		"!" <leftop: Node "," Node>
+			{ ("!", $item[2]) }
+		| <leftop: Node "," Node>
 			{ $item[1] }
 	
 	Type : 
@@ -404,13 +410,6 @@ my $query_grammar = q{
 		| "is(" Query ")"
 			{ FindNumberValueQuery->new($item[2]) }
 	
-	TableColumn :
-		  Value
-			{ [$item[1]] }
-		| '"' StringWithNoDoubleQuotes '"=' Value
-			{ [$item[4], $item[2]] }
-
-
 	Range :
 		<leftop: SimpleRange "," SimpleRange>
 
@@ -2227,6 +2226,8 @@ sub cmd_cmdlog {
 	if ($file =~ /{USER}/) {
 		$file =~ s/{USER}/$user/g;
 	}
+	my $HOME = $ENV{'HOME'};
+	$file =~ s/\s*\~\//$HOME\//g;
 
 	# Open file for appending
 	my $fh;
@@ -2491,10 +2492,6 @@ sub cmd_corpus_apply {
 	$time += time();
 	print "corpus-apply took " . seconds2hhmmss($time) 
 		. " seconds to execute \"$cmd\".\n" if (! $self->quiet());
-
-
-	# Restore old fpsfile
-	#$self->{'fpsfile'} = $oldfpsfile;
 
 	# Return
 	return 1;
@@ -3674,8 +3671,8 @@ sub cmd_find {
 	# Reset found matches and disable follow
 	my $matches = $self->{'matches'} = {};
 	my $maxsols = 100000;				# Maximal number of full solutions
-	my $oldfpsfile = $self->{'fpsfile'};
-	$self->{'fpsfile'} = undef;
+	my $noview = $self->var("noview");
+	$self->var("noview", 1);
 
 	# Solve DNF-query for all files in corpus
 	my $iostatus = $|; $| = 1; my $c = 0;
@@ -3742,9 +3739,7 @@ sub cmd_find {
 				if ($ask && $action->ask()) {
 					# Update graph
 					++$match;
-					$self->{'fpsfile'} = $oldfpsfile;
 					$self->cmd_goto($graph, "M$match");
-					$self->{'fpsfile'} = undef;
 
 					# Print replace operations
 					print "Replace operations for ",
@@ -3772,9 +3767,9 @@ sub cmd_find {
 				# Manual edit or automatic replacement
 				if ($choice eq "E") {
 					# Manual edit
-					$self->{'fpsfile'} = $oldfpsfile;
+					$self->var("noview", 0);
 					$self->loop();
-					$self->{'fpsfile'} = undef;
+					$self->var("noview", 1);
 					next();
 				} elsif ($choice eq "A" || $choice eq "Y") {
 					$binding->{'$FILE'} = $graph->file();
@@ -3814,8 +3809,8 @@ sub cmd_find {
 		. " for query \"$cmd\".\n" if (! $self->quiet());
 
 
-	# Restore old fpsfile
-	$self->{'fpsfile'} = $oldfpsfile;
+	# Restore viewing
+	$self->var("noview", 0);
 
 	# Show first match
 	$self->cmd_goto($graph, 'M1') if ($count);
@@ -4337,6 +4332,8 @@ sub cmd_load_atag {
 	my $file = shift;
 
 	# Disable viewer and close current graph, if unmodified
+	my $noview = $self->var("noview");
+	$self->var("noview", 1);
 	my $viewer = $self->{'viewer'};
 	$self->cmd_load_closegraph($graph) if ($graph);
 
@@ -4350,6 +4347,7 @@ sub cmd_load_atag {
 		|| return error("cannot open atag-file for reading: $file");
 	$self->{'viewer'} = 0;
 	my $lineno = 0;
+	my @graphs = ($alignment);
     while (my $line = <ATAG>) {
         chomp($line);
 
@@ -4378,6 +4376,13 @@ sub cmd_load_atag {
 
 			# Add graph to alignment
 			$alignment->add_graph($key, $graph);
+			$graph->var("imin", 0);
+			$graph->var("imax", $graph->size());
+			push @graphs, $graph;
+
+			# Specify follow psfile
+			$graph->fpsfile($self->fpsfile($key))
+				if ($self->fpsfile($key));
 		} elsif ( $line =~
 				/^<align out="([^"]+)" type="([^"]*)" in="([^"]+)" creator="([0-9-]+)".*\/>$/ 
 			|| $line =~
@@ -4411,7 +4416,12 @@ sub cmd_load_atag {
 	$self->{'viewer'} = $viewer;
 	push @{$self->{'graphs'}}, $alignment;
 	$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
-	$self->cmd_return($self->graph());
+
+	# View alignments
+	$self->var("noview", $noview);
+	foreach my $g (@graphs) {
+		$self->cmd_return($g);
+	}
 	return $alignment;
 }
 
@@ -5729,13 +5739,33 @@ sub cmd_matches {
 
 sub cmd_merge {
 	my $self = shift;
-	my $graph = shift;
-	my $filenames = shift;
+	my $oldgraph = shift;
+	my $files = shift;
 
+	# Load all files and compute reliability scores
 	my $graphs = [];
+	foreach my $file (glob($files)) {
+		# Load file
+		print "Loading $file\n";
+		$self->cmd_load(DTAG::Graph->new($self), undef, $file);
+		push @$graphs, $self->graph();
+	}
 
+	# Create new graph
+	$self->cmd_new();
+	my $graph = $self->graph();
+
+	# Create nodes in new graph
+	$self->merge_nodes($graph, $graphs);
+
+	# Create edges in new graph
+	$self->merge_edges($graph, $graphs);
+
+	# Return
 	return 1;
 }
+
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_move.pl
@@ -6108,17 +6138,21 @@ sub cmd_option {
 	my $self = shift;
 	my $option = shift;
 	my $value = shift;
-	$value =~ s/\s*$//;
+	$value =~ s/\s*$// if (defined($value));
 
 	if (defined($value)) {
 		# Set option (if value given)
 		$self->option($option, $value);
-	}#} else {
+	} elsif ($option eq "*") {
+		foreach my $opt (sort(keys(%{$self->{"options"}}))) {
+			$self->cmd_option($opt);
+		}
+	} else {
 		# Print option
 		$value = $self->option($option);
 		$value = 'undef' if (! defined($value));
 		print "option $option=", $value, "\n";
-	#}
+	}
 
 	# Exit
 	return 1;
@@ -6881,9 +6915,11 @@ sub cmd_relhelp {
 	print "SEE ALSO:\n" .
 		join("", map {countname($relset, $_)} 
 			@$seealso) . "\n" if (@$seealso);
-	my $confusion = $self->{'confusion'}{$relsetname}{$sname} || [0];
+	my $confusion = [@{$self->{'confusion'}{$relsetname}{$sname}}] || [0,0,0,0];
 	my $confcount = shift(@$confusion);
-	print "CONFUSION ($confcount nodes):\n    "
+	my $agreement = join("/", shift(@$confusion), shift(@$confusion),
+		shift(@$confusion));
+	print "CONFUSION ($confcount nodes, $agreement full/unlabeled/label agreement):\n    "
 		. join(" ", @$confusion) . "\n";
 
 	# Examples
@@ -7521,6 +7557,9 @@ sub cmd_resume {
 sub cmd_return {
 	my $self = shift;
 	my $graph = shift || $self->graph();
+
+	# Do nothing if "noview" is set
+	return 1 if ($self->var("noview"));
 
 	# Send update command to graph
 	$graph->update();
@@ -8575,31 +8614,39 @@ sub cmd_show_align {
 	my $option = shift() || "";
 
 	# Process argument string
+	my @graphs = ($graph);
 	while ($args !~ /^\s*$/) {
 		my ($imin, $imax) = (-1, -1);
-		if ($args =~ s/^\s*([a-z])([0-9]+)(-([0-9]+))?([^0-9])/$5/) {
+		if ($args =~ s/^\s*(=?)([a-z])([-+]?[0-9]+)(\.\.([+-]?[0-9]+))?([^0-9])/$6/) {
 			# Retrieve values
-			my $key = $1;
+			my $key = $2;
+			my $offset = $1 ? 0 : $graph->offset($key);
 			my $keygraph = $graph->graph($key);
 			next if (! $keygraph);
-			$imin = ($imin == -1) 
-				? $2 + $graph->offset($key) 
-				: min($imin, $2 + $graph->offset($key));
-			$imax = max($imax, $4 + $graph->offset($key)) if (defined($4));
+
+			# Compute $imin and $imax
+			$imin = $3 + $offset;
+			$imin = 0 if ($imin < 0);
+			$imax = max($imax, $5 + $offset) if (defined($5));
 			$imax = $graph->graph($key)->size()
 				if ($imax < 0);
-				
 
-			# Set values in graph
+			# Set values in graph and keygraph
 			$graph->var("imin")->{$key} = $imin;
 			$graph->var("imax")->{$key} = $imax;
+			$keygraph->var("imin", $imin);
+			$keygraph->var("imax", $imax);
+			push @graphs, $keygraph if (! grep {$_ eq $keygraph} @graphs);
 		} else {
 			$args =~ s/^.//;
 		}
 	}
 
-	# Redisplay
-	$self->cmd_return($graph);
+	# Redisplay all graphs and keygraphs
+	#print "Updating " . join(" ", map {$_->id()} @graphs) . "\n";
+	foreach my $g (@graphs) {
+		$self->cmd_return($g);
+	}
 
 	# Return
 	return 1;
@@ -9117,35 +9164,57 @@ sub cmd_viewer {
 	my $self = shift;
 	my $graph = shift;
 	my $option = shift || "";
+	#print "option: $option\n";
 
 	# Specify new follow file
+	$self->{'viewer'} = 1;
 	++$viewer;
 	my $fpsfile = "/tmp/dtag-$$-$viewer.ps";
+	my $fpsfiles = {"" => $fpsfile};
 	if ($graph->var("example") || $option eq "-e" || $option eq "-example") {
 		$self->var("exfpsfile", $fpsfile);
 		$graph = $self->var("examplegraph") || DTAG::Graph->new($self)
 			if (! $graph->var("example"));
-	} else {
-		$self->fpsfile($fpsfile);
+	} elsif ($option =~ /^-a/ && $graph->is_alignment()) {
+		# Add fpsfiles for subgraphs
+		delete $fpsfiles->{""};
+		$fpsfiles->{":"} = $fpsfile;
+		foreach my $key (sort(keys(%{($graph->graphs())}))) {
+			my $f = "/tmp/dtag-$$-$viewer-$key.ps";
+			my $subgraph = $graph->graph($key);
+			$subgraph->fpsfile($f);
+			$self->fpsfile($key, $f);
+			$graph->fpsfile($key, $f);
+			$fpsfiles->{":" . $key} = $f;
+			#print "Subgraph: $subgraph $f\n";
+			$self->cmd_return($subgraph);
+		}
 	}
+
+	# Add fpsfile
+	$self->fpsfile("", $fpsfile);
+	$graph->fpsfile($fpsfile);
 
 	# Record fpsfile as a viewed file
 	$self->{'viewfiles'} = {} 
 		if (! defined($self->{'viewfiles'}));
-	$self->{'viewfiles'}->{$fpsfile} = 1;
+	map {$self->{'viewfiles'}->{$fpsfiles->{$_}} = 1} keys(%$fpsfiles);
 
 	# Update graph and viewer
-	$self->{'viewer'} = 1;
-	$graph->fpsfile($fpsfile);
 	$self->cmd_return($graph);
 
 	# Call viewer on $fpsfile
-	my $viewcmd = "" . ($self->var('options')->{'viewer'} || 'gv $file &');
-	$viewcmd =~ s/\$file/$fpsfile/g;
-	print "opening viewer with \"$viewcmd\"\n" if ($self->debug());
-	system($viewcmd);
+	foreach my $key (sort(keys(%$fpsfiles))) {
+		my $f = $fpsfiles->{$key};
+		my $viewcmd = "" . ($self->option('viewer' . $key)
+			|| $self->option('viewer') 
+			|| 'gv $file &');
+		$viewcmd =~ s/\$file/$f/g;
+		print "opening viewer with \"$viewcmd\"\n" if ($self->debug());
+		system($viewcmd);
+	}
 
-	# Set follow file for current graph
+	# Return
 	return 1;
 }
 
@@ -9424,9 +9493,22 @@ sub do {
 		$success = $self->cmd_replace($graph, $1)
 			if ($cmd =~ /^=(.*)\s*$/);
 
+		# Macro: macro $macro $cmd
+		$success = $self->cmd_macro($1, $2) 
+			if ($cmd =~ /^\s*macro\s+(\w+)\s+(.*)$/ ||
+				$cmd =~ /^\s*macro\s+(\w+)\s*$/);
+
 		# Unix shell: ! $cmd
 		$success = $self->cmd_shell($1)
 			if ($cmd =~ /^\s*!\s*(.*)$/);
+
+		# Replace variables in command
+		my $DTAGHOME = $ENV{'DTAGHOME'} || '$DTAGHOME';
+		my $CDTHOME = $ENV{'CDTHOME'} || '$CDTHOME';
+		my $HOME = $ENV{'HOME'} || '$HOME';
+		$cmd =~ s/\$DTAGHOME/$DTAGHOME/g;
+		$cmd =~ s/\$CDTHOME/$CDTHOME/g;
+		$cmd =~ s/\$HOME/$HOME/g;
 
 		# Help search relation command: ??$relation
 		$success = $self->cmd_relhelpsearch($graph, $1) 
@@ -9730,11 +9812,6 @@ sub do {
 		$success = $self->cmd_lookupw($graph, $1) 
 			if ($cmd =~ /^\s*lookupw\s+(.*)\s*$/);
 
-		# Macro: macro $macro $cmd
-		$success = $self->cmd_macro($1, $2) 
-			if ($cmd =~ /^\s*macro\s+(\w+)\s+(.*)$/ ||
-				$cmd =~ /^\s*macro\s+(\w+)\s*$/);
-
 		# Macros: macros
 		$success = $self->cmd_macros($1, $2) 
 			if ($cmd =~ /^\s*macros\s*$/);
@@ -9746,6 +9823,10 @@ sub do {
 		# Matches: matches
 		$success = $self->cmd_matches($1)
 			if ($cmd =~ /^\s*matches\s*(.*)$/);
+
+		# Merge: merge $fileglob
+		$success = $self->cmd_merge($graph, $1) 
+			if ($cmd =~ /^\s*merge\s+(.+)$/);
 
 		# Move node: move $pos1 $pos2
 		$success = $self->cmd_move($graph, $1, $2)
@@ -9794,22 +9875,14 @@ sub do {
 
 		# Option: option $option=$value
 		$success = $self->cmd_option($1, $2)
-			if ($cmd =~ /^\s*option\s*(\S+)\s*=\s*(\S.*)\s*$/
-				|| $cmd =~ /^\s*option\s*(\S+)\s+(\S.*)\s*$/
-				|| $cmd =~ /^\s*option\s*(\S+)\s*$/);
+			if ($cmd =~ /^\s*option\s+(\S+)\s*=\s*(\S.*)\s*$/
+				|| $cmd =~ /^\s*option\s+(\S+)\s+(\S.*)\s*$/
+				|| $cmd =~ /^\s*option\s+(\S+)\s*$/);
 
-		# Offset and show: oshow $offset
-		if (UNIVERSAL::isa($graph, 'DTAG::Graph') 
-				&& $cmd =~ /^\s*oshow(\s+([-+=])?([0-9]+))?\s*$/) {
-			my ($sign, $offset) = ($2, $3);
-			$success = $self->cmd_offset($graph, $sign, $offset);
-			$success = $self->cmd_show($graph, " 0");
-		}
-		
-		if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
-			$cmd =~ /^\s*oshow(\s+[+-]?[0-9]+)\s*$/) {
-			my $offset = $1;
-		}
+		#if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
+		#	$cmd =~ /^\s*oshow(\s+[+-]?[0-9]+)\s*$/) {
+		#	my $offset = $1;
+		#}
 
 		# Tell: tell [-name=$name] $file
 		$success = $self->cmd_tell($2, $3) 
@@ -9901,14 +9974,14 @@ sub do {
 		$success = $self->cmd_shift($graph, $1, $2, $3)
 			if ($cmd =~ /^\s*shift\s+([a-z])([0-9]+)\s+([-+]?[0-9]+)\s*$/);
 
-		# Show: show [-component] $imin1[-$imax1] $imin2[-$imax2]
+		# Show: show [-component] $imin1[..$imax1] $imin2[..$imax2]
 		# $success = $self->cmd_show($graph, $3, $5)
 		if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
 			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-]?[0-9]+(-[0-9]+)?)*)\s*$/) {
 			$success = $self->cmd_show($graph, $5, $2);
 		}
 		if (UNIVERSAL::isa($graph, 'DTAG::Alignment') &&
-			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-]?[a-z][0-9]+(-[0-9]+)?)*)\s*$/) {
+			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+=?[+-]?[a-z][0-9]+(-[0-9]+)?)*)\s*$/) {
 			$success = $self->cmd_show_align($graph, $5, $2);
 		}
 
@@ -9987,7 +10060,7 @@ sub do {
 
 		# Viewer: viewer
 		$success = $self->cmd_viewer($graph, $2) 
-			if ($cmd =~ /^\s*viewer(\s+(-e(xample)?))?\s*$/);
+			if ($cmd =~ /^\s*viewer(\s+(-e(xample)?|-a(ll)?))?\s*$/);
 
 		# Webmap
 		$success = $self->cmd_webmap($graph, $2)
@@ -10112,8 +10185,9 @@ sub edge_filter {
 	return $filter if (defined($filter));
 
 	# Create new filter
-	my $xstring = " $string ";
-	$filter = $table->{$string} = $self->query_parser()->RelationPattern(\$xstring);
+	my $xstring = $string ? " $string " : "  ";
+	$filter = $table->{$string} = 
+		$self->query_parser()->RelationPattern(\$xstring);
 	#print "Defined filter: $filter\n";
 	return $filter;
 }
@@ -10235,7 +10309,9 @@ sub find_key {
 
 sub fpsfile {
 	my $self = shift;
-	return $self->var('fpsfile', @_);
+	my $type = shift;
+	$type = "" if (! defined($type));
+	return $self->var('fpsfile:' . $type, @_);
 }
 
 ## ------------------------------------------------------------
@@ -10307,17 +10383,26 @@ sub goto_match {
 	}
 
 	# Find position of first node in $binding
-	my $min = 1e100;
-	grep {
-		my $v = $binding->{$_};
-		$min = $v if (defined($v) && $v =~ /^[0-9]+$/ && $v < $min);
-	} keys(%$binding);
+	my $minhash = {};
+	foreach my $v (keys(%$binding)) {
+		if ($v =~ /^\$/) {
+			my $k = $self->varkey($binding, $v);
+			my $n = $binding->{$v};
+			$minhash->{$k} = $n if (
+				defined($n) && 
+				((! defined($minhash->{$k}))
+					|| ($n =~ /^[0-9]+$/ && $n < $minhash->{$k})));
+		}
+	} 
 
 	# Goto this position
 	if (UNIVERSAL::isa($graph, "DTAG::Graph")) {
+		my $min = $minhash->{""} || 0;
 		$self->cmd_show($graph, $min - $self->var('goto_context'), "", $min);
 	} elsif (UNIVERSAL::isa($graph, "DTAG::Alignment")) {
-		$self->cmd_show_align($graph, 0);
+		$self->cmd_show_align($graph, join(" ", 
+			map {"=" . $_ . ($minhash->{$_} 
+				- $self->var('goto_context'))} sort(keys(%$minhash))));
 	}
 
 	# Print new match
@@ -10428,6 +10513,27 @@ sub is_relset_etype {
 	my $classname = $relset->{$class}[$REL_SNAME];
 	return $info->[$REL_SNAME] eq $classname 
 		|| $tparents->{$classname};
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/keygraph.pl
+## ------------------------------------------------------------
+
+sub keygraph {
+	my ($self, $graph, $bindings) = (shift, shift, shift);
+	my @vars = @_;
+	my $key = $self->varkey($bindings, @vars);
+	my $var1 = shift(@vars);
+	foreach my $var (@vars) {
+		my $nkey = $self->varkey($bindings, $var);
+		if ($key ne $nkey) {
+			$self->error($graph, "Variables " . join(" ", $var1, @vars) 
+				. " must have the same key, but didn't: "
+				. $var1 . "@" . $key . ","
+				. $var . "@" . $nkey);
+		}
+	}
+	return $graph->graph($key);
 }
 
 ## ------------------------------------------------------------
@@ -10657,13 +10763,16 @@ sub print_match {
 	# Print match
 	my $string = "";
 	if (! $options->{'nomatch'}) {
+		my $varstr = join(", ", map {
+				$self->varkey($binding, $_) . $binding->{$_}
+			} (@vars));
 		$string .=	sprintf '%sM%-3d match at %s:%s %s' . "\n",
 				(($self->{'match'} || 0) == $match ? "*" : " "),
 				$match,
 				$file,
 				$position,
 				"(" . join(", ", @vars) . ")"
-					. " = (" . join(", ", map {$binding->{$_}} (@vars)) . ")";
+					. " = (" . $varstr  . ")";
 	}
 
 	# Print key and text
@@ -11337,7 +11446,7 @@ sub pslabels {
 
 sub query_parser {
 	my $self = shift;
-	$query_parser = new Parse::RecDescent ($query_grammar)
+	$query_parser = new Parse::RecDescent($query_grammar)
 		if (! $query_parser);
 	
 	return $query_parser;
@@ -11517,6 +11626,17 @@ sub var {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/varkey.pl
+## ------------------------------------------------------------
+
+sub varkey {
+	my ($self, $bindings, $var) = @_;
+	my $key = $bindings->{'vars'}{defined($var) ? $var : ""};
+	return defined($key) ? $key : "";
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/varparse.pl
 ## ------------------------------------------------------------
 
@@ -11663,6 +11783,217 @@ sub xml2node {
 	return $node;
 }
 
+## ------------------------------------------------------------
+##  start auto-insert from directory: .svn
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: tmp
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: tmp
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: .svn
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: FindOps
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -11720,7 +12051,7 @@ sub next {
     my $graph = shift;
     my $bindings = shift;
     my $bind = shift;
-    my $U = shift;
+    my $U = pop;
 
     # Decline answer if constraint is negated
     return undef if ($self->{'neg'});
@@ -12030,6 +12361,217 @@ sub do {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/FindOps/FindAlign.pl
+## ------------------------------------------------------------
+
+package FindAlign;
+@FindAlign::ISA = qw(FindOp);
+
+sub _pprint {
+	my $self = shift;
+	my $outvars = $self->{'args'}[0];
+	my $invars = $self->{'args'}[1];
+	my $relpattern = $self->{'args'}[2];
+	return "@" 
+		. (defined($relpattern) ? $relpattern->pprint() : "")
+		. "(" 
+		. join(",", @$outvars)
+		. ";"
+		. join(",", @$invars)
+		. ")";
+}
+
+sub unbound {
+    # Return all unbound variables
+    my $self = shift;
+    my $unbound = shift;
+    
+	# Mark all unbound variables in hash $unbound
+	my $args = $self->{'args'};
+    map {$unbound->{$_} = 1} 
+		(@{$args->[0]}, @{$args->[1]});
+
+    # Return
+    return $unbound;
+}
+
+sub match {
+	my $self = shift;
+	my $graph = shift;
+	my $bindings = shift;
+	my $bind = shift;
+
+	#print "match: " 
+	#	. join(" ", map {$_ . "=" . $bindings->{$_}} sort(keys(%$bindings))) 
+	#	. " / "
+	#	. join(" ", map {$_ . "=" . $bind->{$_}} sort(keys(%$bind))) . "\n";
+
+	# Out- and in-variables
+	my $outvars = [@{$self->{'args'}[0]}];
+	my $invars = [@{$self->{'args'}[1]}];
+	my $outfullmatch = $outvars->[0] eq "!" ? shift(@$outvars) : 0;
+	my $infullmatch = $invars->[0] eq "!" ? shift(@$invars) : 0;
+
+	# Find graphs and keys for nodes
+	my $outgraph = $self->keygraph($graph, $bindings, @$outvars);
+	my $ingraph = $self->keygraph($graph, $bindings, @$invars);
+	my $outkey = $self->varkey($bindings, $outvars->[0]);
+	my $inkey = $self->varkey($bindings, $invars->[0]);
+	
+	# Find potential edges (based on first out-node and outkey), 
+	# and filter all potential edges
+	my $out1 = $self->varbind($bindings, $bind, $outvars->[0]);
+	my $edges = [];
+	EDGE : foreach my $e (@{$graph->node_edges($outkey, $out1) || []}) {
+		# Check edge
+		my $edge = $graph->edge($e);
+		next EDGE if (! defined($edge));
+
+		# Check in- and outkey of edge
+		next EDGE if ($edge->inkey() ne $inkey
+			|| $edge->outkey() ne $outkey);
+
+		# Check number of in- and out-nodes on the edge
+		next EDGE if (($outfullmatch 
+				&& scalar(@{$edge->outArray()}) != scalar(@$outvars)) ||
+			($infullmatch 
+				&& scalar(@{$edge->inArray()}) != scalar(@$invars)));
+
+		# Check each outnode is unique and valid on edge
+		my $counts = {};
+		map {$counts->{$_} = 0} @{$edge->outArray()};
+		foreach my $outvar (@$outvars) {
+			# Skip if not on outedge, or if outnode is non-unique
+			my $out = $self->varbind($bindings, $bind, $outvar);
+			next EDGE if (! defined($counts->{$out}));
+			next EDGE if ($counts->{$out}++);
+		}
+
+		# Check each innode is unique and valid on edge
+		$counts = {};
+		map {$counts->{$_} = 0} @{$edge->inArray()};
+		foreach my $invar (@$invars) {
+			# Skip if not on inedge, or if innode is non-unique
+			my $in = $self->varbind($bindings, $bind, $invar);
+			next EDGE if (! defined($counts->{$in}));
+			next EDGE if ($counts->{$in}++);
+		}
+
+		# Edge matches, so constraint is satisfied
+		push @$edges, $edge;
+	}
+
+	# Check that there is an edge whose type matches given relation condition
+	my $relpattern = $self->{'args'}[2];
+	foreach my $edge (@$edges) {
+		return 1 if ((! defined($relpattern)) 
+			|| $relpattern->match($graph, $edge->type()));
+	}
+
+	# Otherwise return 0
+	return 0;
+}
+
+sub next { 
+    my $self = shift;
+    my $graph = shift;
+    my $bindings = shift;
+    my $bind = shift;
+    my @vars = @_;
+
+	#print "vars: " . join(" ", @vars) . "\n";
+	# Exit if constraint is negated
+	return undef if ($self->{'neg'});
+	
+	# Out- and in-variables
+	my $outvars = [@{$self->{'args'}[0]}];
+	my $invars = [@{$self->{'args'}[1]}];
+
+	# Find graphs and keys for nodes
+	my $outgraph = $self->keygraph($graph, $bindings, @$outvars);
+	my $ingraph = $self->keygraph($graph, $bindings, @$invars);
+	my $outkey = $self->varkey($bindings, $outvars->[0]);
+	my $inkey = $self->varkey($bindings, $invars->[0]);
+
+	# Convert invar and outvar lists to hash tables
+	my $invarhash = {};
+	my $outvarhash = {};
+	map {$outvarhash->{$_} = 1} (@$outvars);
+	map {$invarhash->{$_} = 1} (@$invars);
+
+	#
+
+	# Find earliest variable in @vars on edge, remove all variables
+	# from @vars that are not after this variable
+	my ($var1) = grep {($outvarhash->{$_} || $invarhash->{$_})
+			&& ! defined($bind->{$_})}
+		sort(keys(%$bindings));
+	my $key1 = $var1 ? $self->varkey($bindings, $var1) : undef;
+	while (@vars && ! $var1) {
+		my $v = shift(@vars);
+		($var1, $key1) = ($v, $outkey) if ($outvarhash->{$v});
+		($var1, $key1) = ($v, $inkey) if ($invarhash->{$v});
+	}
+
+	# Find value of earliest variable in binding
+	my $val1 = $self->varbind($bindings, $bind, $var1);
+
+	# Find alignment edges containing the node
+	my $edges = $graph->node_edges($key1, $val1);
+	if (! @$edges) {
+		#print "return: $var1/" . join(",", @vars) . " " . join(" ", map {$_ . "=" . $bind->{$_}} keys(%$bind)) . "\n";
+		$bind->{$var1}++;
+		foreach my $v (@vars) {
+			$bind->{$v} = 0;
+		}
+		return 1;
+	}
+
+	# Record all possible in- and out-nodes on alignment edges
+	# connected to $var1
+	my $outvals = {};
+	my $invals = $outkey eq $inkey ? $outvals : {};
+	foreach my $e (@$edges) {
+		# Get alignment edge
+		my $edge = $graph->edge($e);
+		next if (! defined($edge));
+
+		# Record node ids on alignment edge
+		map {$outvals->{$_} = 1} @{$edge->outArray()};
+		map {$invals->{$_} = 1} @{$edge->inArray()};
+	}
+
+	# Sort values in $invals and $outvals
+	my @insort = sort(keys(%$invals));
+	my @outsort = sort(keys(%$outvals));
+
+	# Update variables in @vars
+	foreach my $var (@vars) {
+		my $val = $bind->{$var};
+		$bind->{$var} = nextInArray($val, @insort)
+			if ($invarhash->{$var});
+		$bind->{$var} = nextInArray($val, @outsort, 1e100)
+			if ($outvarhash->{$var});
+	}
+
+	
+	# Return
+	return 1;
+}
+
+sub nextInArray {
+	my $value = shift;
+	foreach my $v (@_) {
+		return $v if ($v >= $value);
+	}
+	return 1e100;
+}
+
+
+
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/FindOps/FindEXIST.pl
 ## ------------------------------------------------------------
 
@@ -12200,7 +12742,7 @@ sub next {
     my $graph = shift;
     my $bindings = shift;
     my $bind = shift;
-    my $var = shift;
+    my $var = pop;
 
 	my $var1 = $self->{'args'}[0];
 	my $var2 = $self->{'args'}[1];
@@ -12375,6 +12917,12 @@ sub unbound {
 
     # Return
     return $unbound;
+}
+
+sub _pprint {
+    my $self = shift;
+    my $args = $self->{'args'};
+       return ($self->utf8print() ? "¬" : "!" ) . $args->[0]->pprint();
 }
 
 
@@ -12608,26 +13156,38 @@ sub nvalue {
 	my $bindings = shift;
 	my $bind = shift;
 
-	# Variables
+   	# Variables
 	my $nodevar = $self->{'args'}[0];
 	my $feat = $self->{'args'}[1];
-	my $nodeid = $self->varbind($bindings, $bind, $nodevar);
-	my $node = $graph->node($nodeid);
-	my $value = defined($node) ? $node->var($feat) : "NA";
+
+ 	# Find key graph
+    my $keygraph = $self->keygraph($graph, $bindings, $nodevar);
+    return undef if (! defined($keygraph));
+
+    # Find node id and node
+    my $nodeid = $nodevar->nvalue($graph, $bindings, $bind);
+    return undef if (! defined($nodeid));
+
+    # Find node
+    my $node = $keygraph->node($nodeid);
+    return undef if (! defined($node));
+	print "keygraph=$keygraph node=$node\n";
+
+    # Find value
+    my $value = defined($feat)
+        ? $node->var($feat)
+        : $node->input();
 	$value = "" if (! defined($value));
+
 
 	# Check for valid number
 	if ($value =~ /^-?\d+\.?\d*$/) {
 		return $value;
 	} else {
-		DTAG::Interpreter::warning("non-number in $nodeid" . "[$feat]: using 0 instead");
+		DTAG::Interpreter::warning("non-number in $nodeid" . "[$feat]: using 0 instead of " . ($value || "undef"));
 		return 0;
 	}
 }
-
-
-
-
 
 
 ## ------------------------------------------------------------
@@ -12792,6 +13352,8 @@ sub find_next {
 	# Loop through all possible variable bindings
 	my $result = {};
 	while(1) {
+	    #print "FO: " . join(" ", map {$_ . "=" . $bind->{$_}} keys(%$bind)) .  "\n";
+
 		# Find first solution that does not precede current bindings
 		my $bound = 0;
 		while (! $bound) {
@@ -12823,7 +13385,7 @@ sub find_next {
 			# other bindings of the current free variable, and 1 if it
 			# found a possible candidate for binding.
 			$bound = 1;
-			my $next = $self->next($graph, $bindings, $bind, $vars[$#vars]);
+			my $next = $self->next($graph, $bindings, $bind, @vars);
 			if (defined($next) && $next == 0) {
 				# Custom binder exhausted all bindings of last variable
 				$bind->{$vars[$#vars]} = $self->graphsize($graph, $bindings, $vars[$#vars]);
@@ -12832,7 +13394,7 @@ sub find_next {
 		}
 
 		# Return undef if we have exhausted all bindings
-		if ($bind->{$vars[0]} == $self->graphsize($graph, $bindings, $vars[0])) {
+		if ($bind->{$vars[0]} >= $self->graphsize($graph, $bindings, $vars[0])) {
 			$self->{'done'} = 1;
 			return undef;
 		}
@@ -12973,8 +13535,8 @@ sub _pprint {
 sub keygraph {
 	my ($self, $graph, $bindings) = (shift, shift, shift);
 	my @vars = @_;
-	my $var1 = shift(@vars);
 	my $key = $self->varkey($bindings, @vars);
+	my $var1 = shift(@vars);
 	foreach my $var (@vars) {
 		my $nkey = $self->varkey($bindings, $var);
 		if ($key ne $nkey) {
@@ -13164,7 +13726,7 @@ sub svalue {
 	}
 
 	# Find value
-	return join(" ", @etypes);
+	return join(" ", sort(@etypes));
 }
 
 
@@ -13204,10 +13766,12 @@ sub svalue {
 	# Variables
 	my $nodevar = $self->{'args'}[0];
 	my $featvar = $self->{'args'}[1];
+	#print "nodevar=$nodevar featvar=" . ($featvar || "") . "\n";
 	return undef if (! defined($nodevar));
 
 	# Find key graph
 	my $keygraph = $self->keygraph($graph, $bindings, $nodevar);
+	#print "keygraph=" . ($keygraph || "undef") . "\n";
 	return undef if (! defined($keygraph));
 
 	# Find node id and node
@@ -13454,7 +14018,216 @@ sub value {
 	return undef;
 }
 
+## ------------------------------------------------------------
+##  start auto-insert from directory: .svn
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
 
-1;
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: tmp
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: tmp
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: .svn
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: FindOps
+## ------------------------------------------------------------
 
 1;

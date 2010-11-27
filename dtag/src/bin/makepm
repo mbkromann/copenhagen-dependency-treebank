@@ -29,14 +29,24 @@ for file in `echo $header ; (find -follow -maxdepth 1 \( \( -type d -name 'CVS' 
 done
 
 # Process each subdirectory recursively
+INSUBDIR=$MAKEPMSUBDIR
+export MAKEPMSUBDIR=1
 for dir in `find -follow -maxdepth 1 -type d \( -name test -o -name CVS -o -name testlex -o -name '.' -o -print \) \
 		| sed -e 's/\.\///g' | sort` ; do
+	echo "## ------------------------------------------------------------"
+	echo "##  start auto-insert from directory: $dir"
+	echo "## ------------------------------------------------------------"
 	cd $dir ; $DTAGBINDIR/makepm "$path$dir/"
+	echo "## ------------------------------------------------------------"
+	echo "##  stop auto-insert from directory: $dir"
+	echo "## ------------------------------------------------------------"
 	cd $pwd
 done
 
 # End module
-echo
-echo "1;"
+if [ -z "$INSUBDIR" ] ; then
+	echo
+	echo "1;"
+fi
 
 echo "$path" >&2

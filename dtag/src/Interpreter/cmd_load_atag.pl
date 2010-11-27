@@ -4,6 +4,8 @@ sub cmd_load_atag {
 	my $file = shift;
 
 	# Disable viewer and close current graph, if unmodified
+	my $noview = $self->var("noview");
+	$self->var("noview", 1);
 	my $viewer = $self->{'viewer'};
 	$self->cmd_load_closegraph($graph) if ($graph);
 
@@ -17,6 +19,7 @@ sub cmd_load_atag {
 		|| return error("cannot open atag-file for reading: $file");
 	$self->{'viewer'} = 0;
 	my $lineno = 0;
+	my @graphs = ($alignment);
     while (my $line = <ATAG>) {
         chomp($line);
 
@@ -45,6 +48,13 @@ sub cmd_load_atag {
 
 			# Add graph to alignment
 			$alignment->add_graph($key, $graph);
+			$graph->var("imin", 0);
+			$graph->var("imax", $graph->size());
+			push @graphs, $graph;
+
+			# Specify follow psfile
+			$graph->fpsfile($self->fpsfile($key))
+				if ($self->fpsfile($key));
 		} elsif ( $line =~
 				/^<align out="([^"]+)" type="([^"]*)" in="([^"]+)" creator="([0-9-]+)".*\/>$/ 
 			|| $line =~
@@ -78,7 +88,12 @@ sub cmd_load_atag {
 	$self->{'viewer'} = $viewer;
 	push @{$self->{'graphs'}}, $alignment;
 	$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
-	$self->cmd_return($self->graph());
+
+	# View alignments
+	$self->var("noview", $noview);
+	foreach my $g (@graphs) {
+		$self->cmd_return($g);
+	}
 	return $alignment;
 }
 

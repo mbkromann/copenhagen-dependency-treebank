@@ -19,17 +19,26 @@ sub goto_match {
 	}
 
 	# Find position of first node in $binding
-	my $min = 1e100;
-	grep {
-		my $v = $binding->{$_};
-		$min = $v if (defined($v) && $v =~ /^[0-9]+$/ && $v < $min);
-	} keys(%$binding);
+	my $minhash = {};
+	foreach my $v (keys(%$binding)) {
+		if ($v =~ /^\$/) {
+			my $k = $self->varkey($binding, $v);
+			my $n = $binding->{$v};
+			$minhash->{$k} = $n if (
+				defined($n) && 
+				((! defined($minhash->{$k}))
+					|| ($n =~ /^[0-9]+$/ && $n < $minhash->{$k})));
+		}
+	} 
 
 	# Goto this position
 	if (UNIVERSAL::isa($graph, "DTAG::Graph")) {
+		my $min = $minhash->{""} || 0;
 		$self->cmd_show($graph, $min - $self->var('goto_context'), "", $min);
 	} elsif (UNIVERSAL::isa($graph, "DTAG::Alignment")) {
-		$self->cmd_show_align($graph, 0);
+		$self->cmd_show_align($graph, join(" ", 
+			map {"=" . $_ . ($minhash->{$_} 
+				- $self->var('goto_context'))} sort(keys(%$minhash))));
 	}
 
 	# Print new match

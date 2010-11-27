@@ -46,7 +46,7 @@ sub svalue {
 	}
 
 	# Find value
-	return join(" ", @etypes);
+	return join(" ", sort(@etypes));
 }
 
 

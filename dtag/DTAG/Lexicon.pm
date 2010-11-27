@@ -1553,6 +1553,217 @@ sub xvar {
 }
 
 
+## ------------------------------------------------------------
+##  start auto-insert from directory: .svn
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: tmp
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: tmp
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: .svn
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: CostOps
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -1843,8 +2054,220 @@ package SelfOp;
 package SemOp;
 @SemOp::ISA = qw(CostOp);
 
+## ------------------------------------------------------------
+##  start auto-insert from directory: .svn
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
 
-1;
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: tmp
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: tmp
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: .svn
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: CostOps
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: Objects
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2028,8 +2451,220 @@ sub value {
 	# Return value
 	return DTAG::Lexicon->copy_obj($src);
 }
+## ------------------------------------------------------------
+##  start auto-insert from directory: .svn
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
 
-1;
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: tmp
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: tmp
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: .svn
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: Objects
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: Type
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2523,8 +3158,220 @@ sub vars {
 	my $self = shift;
 	return [ grep !/^_/, sort(keys(%$self)) ];
 }
+## ------------------------------------------------------------
+##  start auto-insert from directory: .svn
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
 
-1;
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: tmp
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: tmp
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: .svn
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: Type
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: TypeOps
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2689,8 +3536,220 @@ sub print {
 }
 
 
+## ------------------------------------------------------------
+##  start auto-insert from directory: .svn
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
 
-1;
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: tmp
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: tmp
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: .svn
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: TypeOps
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: ValOps
+## ------------------------------------------------------------
 # 
 # LICENSE
 # Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
@@ -2930,7 +3989,216 @@ sub print {
 		join(",", @{$self->minus()}) . "], " . $self->inherit() . ")";
 }
 		
+## ------------------------------------------------------------
+##  start auto-insert from directory: .svn
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
 
-1;
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: tmp
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  start auto-insert from directory: prop-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: prop-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: props
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: props
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  start auto-insert from directory: text-base
+## ------------------------------------------------------------
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
+
+## ------------------------------------------------------------
+##  stop auto-insert from directory: text-base
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: tmp
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: .svn
+## ------------------------------------------------------------
+## ------------------------------------------------------------
+##  stop auto-insert from directory: ValOps
+## ------------------------------------------------------------
 
 1;

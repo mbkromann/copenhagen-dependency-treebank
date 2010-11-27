@@ -32,8 +32,8 @@ sub _pprint {
 sub keygraph {
 	my ($self, $graph, $bindings) = (shift, shift, shift);
 	my @vars = @_;
-	my $var1 = shift(@vars);
 	my $key = $self->varkey($bindings, @vars);
+	my $var1 = shift(@vars);
 	foreach my $var (@vars) {
 		my $nkey = $self->varkey($bindings, $var);
 		if ($key ne $nkey) {

@@ -25,24 +25,36 @@ sub nvalue {
 	my $bindings = shift;
 	my $bind = shift;
 
-	# Variables
+   	# Variables
 	my $nodevar = $self->{'args'}[0];
 	my $feat = $self->{'args'}[1];
-	my $nodeid = $self->varbind($bindings, $bind, $nodevar);
-	my $node = $graph->node($nodeid);
-	my $value = defined($node) ? $node->var($feat) : "NA";
+
+ 	# Find key graph
+    my $keygraph = $self->keygraph($graph, $bindings, $nodevar);
+    return undef if (! defined($keygraph));
+
+    # Find node id and node
+    my $nodeid = $nodevar->nvalue($graph, $bindings, $bind);
+    return undef if (! defined($nodeid));
+
+    # Find node
+    my $node = $keygraph->node($nodeid);
+    return undef if (! defined($node));
+	print "keygraph=$keygraph node=$node\n";
+
+    # Find value
+    my $value = defined($feat)
+        ? $node->var($feat)
+        : $node->input();
 	$value = "" if (! defined($value));
+
 
 	# Check for valid number
 	if ($value =~ /^-?\d+\.?\d*$/) {
 		return $value;
 	} else {
-		DTAG::Interpreter::warning("non-number in $nodeid" . "[$feat]: using 0 instead");
+		DTAG::Interpreter::warning("non-number in $nodeid" . "[$feat]: using 0 instead of " . ($value || "undef"));
 		return 0;
 	}
 }
-
-
-
-
 

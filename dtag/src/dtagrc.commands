@@ -1,8 +1,10 @@
 # Reload dtagrc files
 macro defaults script -q $CDTHOME/dtag/dtagrc
 
-# Useful shorthand for show+offset
+# Useful shorthands
 macro oshow show {ARGS} ;; offset {ARGS} ;; 
+macro n next
+macro p prev
 
 # Exporting to various graphics formats and printing
 macro savepdfnotitle title -auto ;; print /tmp/x.ps ;; !$CDTHOME/tools/dtag-savepdf /tmp/x.ps {ARGS} {FILE}

@@ -25,10 +25,12 @@ sub svalue {
 	# Variables
 	my $nodevar = $self->{'args'}[0];
 	my $featvar = $self->{'args'}[1];
+	#print "nodevar=$nodevar featvar=" . ($featvar || "") . "\n";
 	return undef if (! defined($nodevar));
 
 	# Find key graph
 	my $keygraph = $self->keygraph($graph, $bindings, $nodevar);
+	#print "keygraph=" . ($keygraph || "undef") . "\n";
 	return undef if (! defined($keygraph));
 
 	# Find node id and node

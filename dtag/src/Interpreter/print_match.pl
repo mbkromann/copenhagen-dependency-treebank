@@ -23,13 +23,16 @@ sub print_match {
 	# Print match
 	my $string = "";
 	if (! $options->{'nomatch'}) {
+		my $varstr = join(", ", map {
+				$self->varkey($binding, $_) . $binding->{$_}
+			} (@vars));
 		$string .=	sprintf '%sM%-3d match at %s:%s %s' . "\n",
 				(($self->{'match'} || 0) == $match ? "*" : " "),
 				$match,
 				$file,
 				$position,
 				"(" . join(", ", @vars) . ")"
-					. " = (" . join(", ", map {$binding->{$_}} (@vars)) . ")";
+					. " = (" . $varstr  . ")";
 	}
 
 	# Print key and text

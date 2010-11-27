@@ -69,6 +69,8 @@ sub find_next {
 	# Loop through all possible variable bindings
 	my $result = {};
 	while(1) {
+	    #print "FO: " . join(" ", map {$_ . "=" . $bind->{$_}} keys(%$bind)) .  "\n";
+
 		# Find first solution that does not precede current bindings
 		my $bound = 0;
 		while (! $bound) {
@@ -100,7 +102,7 @@ sub find_next {
 			# other bindings of the current free variable, and 1 if it
 			# found a possible candidate for binding.
 			$bound = 1;
-			my $next = $self->next($graph, $bindings, $bind, $vars[$#vars]);
+			my $next = $self->next($graph, $bindings, $bind, @vars);
 			if (defined($next) && $next == 0) {
 				# Custom binder exhausted all bindings of last variable
 				$bind->{$vars[$#vars]} = $self->graphsize($graph, $bindings, $vars[$#vars]);
@@ -109,7 +111,7 @@ sub find_next {
 		}
 
 		# Return undef if we have exhausted all bindings
-		if ($bind->{$vars[0]} == $self->graphsize($graph, $bindings, $vars[0])) {
+		if ($bind->{$vars[0]} >= $self->graphsize($graph, $bindings, $vars[0])) {
 			$self->{'done'} = 1;
 			return undef;
 		}

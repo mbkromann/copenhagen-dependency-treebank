@@ -42,7 +42,7 @@ sub next {
     my $graph = shift;
     my $bindings = shift;
     my $bind = shift;
-    my $var = shift;
+    my $var = pop;
 
 	my $var1 = $self->{'args'}[0];
 	my $var2 = $self->{'args'}[1];

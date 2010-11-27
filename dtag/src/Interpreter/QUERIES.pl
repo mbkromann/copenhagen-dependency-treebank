@@ -25,6 +25,10 @@ my $query_grammar = q{
 						{{'maxtime' => $item[2]}}
 		| '-maxmatch=' /[0-9]+/
 						{{'maxmatch' => $item[2]}}
+		| '-onOpen(' <leftop: DTAGCommand ";" DTAGCommand> ')'
+			{ 'opOpen' => FindActionDTAG->new(@{$item[2]}) }
+		| '-onClose(' <leftop: DTAGCommand ";" DTAGCommand> ')'
+			{ 'onClose' => FindActionDTAG->new(@{$item[2]}) }
 		| '-vars(' <leftop: NodeVariableDeclaration "," NodeVariableDeclaration > ')'
 			{	my $hash = {}; 
 				map {$hash->{$_->[0]} = ($_->[1] || "")} @{$item[2]};
@@ -140,7 +144,9 @@ my $query_grammar = q{
 		| Identifier
 
 	NodeList : 
-		<leftop: Node "," Node>
+		"!" <leftop: Node "," Node>
+			{ ("!", $item[2]) }
+		| <leftop: Node "," Node>
 			{ $item[1] }
 	
 	Type : 
@@ -226,13 +232,6 @@ my $query_grammar = q{
 		| "is(" Query ")"
 			{ FindNumberValueQuery->new($item[2]) }
 	
-	TableColumn :
-		  Value
-			{ [$item[1]] }
-		| '"' StringWithNoDoubleQuotes '"=' Value
-			{ [$item[4], $item[2]] }
-
-
 	Range :
 		<leftop: SimpleRange "," SimpleRange>
 

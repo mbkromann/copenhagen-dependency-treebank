@@ -22,6 +22,7 @@ sub cmd_viewer {
 			my $subgraph = $graph->graph($key);
 			$subgraph->fpsfile($f);
 			$self->fpsfile($key, $f);
+			$graph->fpsfile($key, $f);
 			$fpsfiles->{":" . $key} = $f;
 			#print "Subgraph: $subgraph $f\n";
 			$self->cmd_return($subgraph);
