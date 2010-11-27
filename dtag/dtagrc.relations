@@ -1,0 +1,23 @@
+# Specify relation spreadsheets (using CDT relations)
+macro cdtrels script $CDTHOME/tools/dtag-cdtrels
+macro cdtrelsreload !rm $CDTHOME/docs/relations-cdt.csv ;; cdtrels
+cdtrels
+
+# Specify confusion tables (shown in help function)
+confusion cdt $CDTHOME/confusion/confusion-discourse.csv $CDTHOME/confusion/confusion-syntax.csv $CDTHOME/confusion/confusion-morphology.csv $CDTHOME/confusion/confusion-alignment.csv $CDTHOME/confusion/confusion-anaphora.csv $CDTHOME/confusion/confusion-semantics.csv
+
+# Automatic edge splitting (to allow multiple edges to be specified as
+# a single edge, ie, "abc{xyz}" becomes two edges "abc" and "{xyz}")
+edgesplit s/{/ {/g
+
+# Manually specify edge types (if you do not have a relation spreadsheet)
+# -comp=complement -adj=adjuncts -ref=coreference
+#etypes --comp subj dobj vobj
+#etypes -add -comp subj dobj vobj
+#etypes -add -adj attr rel relp
+#etypes -add -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-cause assoc-const assoc-agent assoc-form assoc-scope assoc-loc
+
+# Debugging commands
+#macro _viewex perl print dumper($I->var("relsets")->{"cdt"}{"{ARGS}"}[7])
+
+

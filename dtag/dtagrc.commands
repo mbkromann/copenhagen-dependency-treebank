@@ -1,0 +1,32 @@
+# Reload dtagrc files
+macro defaults script -q $CDTHOME/dtag/dtagrc
+
+# Useful shorthands
+macro oshow show {ARGS} ;; offset {ARGS} ;; 
+macro n next
+macro p prev
+
+# Exporting to various graphics formats and printing
+macro savepdfnotitle title -auto ;; print /tmp/x.ps ;; !$CDTHOME/tools/dtag-savepdf /tmp/x.ps {ARGS} {FILE}
+macro savepdf title -auto ;; print /tmp/x.ps ;; !$CDTHOME/tools/dtag-savepdf /tmp/x.ps {ARGS} {FILE}
+macro saveeps title -off ;; print /tmp/x.ps ;; !$CDTHOME/tools/dtag-saveeps /tmp/x.ps {ARGS} {FILE}
+macro savepng title -off ;; print /tmp/x.ps ;; !$CDTHOME/tools/dtag-savepng /tmp/x.ps {ARGS} {FILE}
+macro lpr title -auto ;; print /tmp/x.ps ;; !$CDTHOME/tools/dtag-lpr /tmp/x.ps
+
+# Turning node numbers on/off
+macro numbers layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps|_position
+macro nonumbers layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps 
+
+# Turning node ids on/off
+macro ids vars +id
+macro noids vars -id
+
+# Turning auto-deletion on⁄off
+macro autodelete option autodelete=on
+macro noautodelete option autodelete=off
+
+# Printing hostname information for debugging and remote administation
+macro hostname !echo "$USER@"`ifconfig | grep "inet addr" |grep -v 127.0.0.1 | awk -F":" '{ print $2}' | awk '{ print $1}'`" ("`hostname`")"
+
+# Printing all options
+macro options option *

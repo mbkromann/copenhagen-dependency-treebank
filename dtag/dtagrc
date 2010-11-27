@@ -1,0 +1,11 @@
+# Load the different dtagrc files
+script $DTAGHOME/dtagrc.commands
+script $DTAGHOME/dtagrc.styles
+script $DTAGHOME/dtagrc.layout
+script $DTAGHOME/dtagrc.display
+script $DTAGHOME/dtagrc.languages
+script $DTAGHOME/dtagrc.errors
+script $DTAGHOME/dtagrc.options
+script $DTAGHOME/dtagrc.relations
+script $DTAGHOME/dtagrc.search
+script $DTAGHOME/dtagrc.cdt

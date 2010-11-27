@@ -1,0 +1,63 @@
+# Clear layout
+layout -clear
+
+# Specify variables that must be displayed in the graphs
+layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps|_position
+
+# How to compute the stream name associated with a node
+layout -stream $n->svar('speaker')
+
+# Regular expressions that must be applied to individual variables
+# msd: show only the first two characters
+# sdeps: ѕhow all relation names in bar-separated "sdeps" list that
+#     do not appear as relations on an in-edge
+layout -var msd s/(..).*/$1/
+layout -var sdeps sub { \
+	my ($v,$G,$n) = @_; \
+	my $sdeps = {}; \
+	map {$sdeps->{$_} = 1} split('\|', $v); \
+	map {delete $sdeps->{$_->type()}} @{$G->node($n)->in()}; \
+	return join("|", sort(keys(%$sdeps))); \
+}
+
+# Nodes to hide: hide comment nodes
+layout -nhide $n->comment()
+
+# Edges to hide: hide those that do not exist at the current step
+layout -ehide \
+	$e->type() =~ /:([0-9]+)(-([0-9]+))?$/;\
+	my ($s1, $s2, $s) = ($1, $3, $G->pstep());\
+	$s && (($s1 && (abs($s) < $s1)) || ($s2 && ($s > $s2)))
+
+# Calculating the placement of an edge (bottom=1 or top=0)
+layout -pos  (! $G->is_dependent($e)) || ($e->in() == $e->out()) || (($G->node($e->in())->svar('estyles') || "") =~ /bottom/)
+
+# How to compute the style associated with a node or label
+layout -nstyles ["default", \
+	(map {"error:" . $_} map {$_->[0]} @{$G->errors_node($n)}),\
+	(scalar(grep {$_->type() =~ /[A-Z]/} @{$n->in()}) ? "discourse" : ""),\
+	($l =~ /^stream:.*$/) ? 'speaker:' .  ($n->svar('speaker') || 0): 0,\
+	map {my $s = $_; $s =~ s/^$l://g; $s} split('\|', $n->svar('styles') || ""), \
+	split('\|', $n->svar('styles') || ""), \
+	($l eq "sdeps" ? "redlbl" : "")]
+
+# How to compute the style associated with an edge
+layout -estyles \
+	my $etype = $e->type();\
+	$etype =~ s/[+:*]//g;\
+	$etype =~ /:([0-9]+)(-([0-9]+))?$/;\
+	my ($s1, $s2, $s) = ($1, $3, $G->pstep() || 0);\
+	my $discourse = ($etype =~ /[A-Z]/) ? "discourse" : ""; \
+	my $newborn = ($s && $s1 && ($s == $s1)) ? "newborn" : ""; \
+	my $dying = ($s && $s2 && ($s == $s2)) ? "dying" : ""; \
+	my $dead = ($s1 && $s2 && ($s < $s1 || $s > $s2 || $s < 1)) ? "dead" : "";\
+	[	"default", \
+		'speaker:' . ($G->node($e->in())->svar('speaker') || 0),\
+		$discourse, \
+		(map {"error:" . $_} map {$_->[0]} @{$G->errors_edge($e)}),\
+		split('\|', $G->node($e->in())->svar('styles') || ""),\
+		map {split(':', $_)} \
+			(grep {$_ =~ /^[^:]*:(.*)$/; $etype =~ /\Q$1\E/} \
+				split('\|', $G->node($e->in())->svar('estyles') || "")),\
+		$newborn, $dying, $dead]
+

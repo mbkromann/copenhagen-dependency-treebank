@@ -1,0 +1,8 @@
+<DTAGalign>
+<alignFile key="a" href="tests/ex1.tag" sign="_input"/>
+<alignFile key="b" href="tests/ex2.tag" sign="_input"/>
+<align out="a1" type="" in="b1 b2" creator="0" insign="y z" outsign="b"/>
+<align out="a0" type="" in="b3" creator="0" insign="w" outsign="a"/>
+<align out="a2 a3 a4" type="" in="b0" creator="0" insign="x" outsign="c d e"/>
+<align out="a5" type="" in="b3" creator="0" insign="w" outsign="f"/>
+</DTAGalign>

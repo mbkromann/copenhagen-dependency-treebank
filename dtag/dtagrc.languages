@@ -1,0 +1,18 @@
+# Character sets
+
+# PostScript does not provide native support for character sets with
+# more than 255 characters, so UTF8 is not directly supported by
+# PostScript. However, PostScript can support non-isolatin1 character
+# sets (like Russian, Greek, etc.). The following macros show
+# demonstrate how to switch to these non-isolatin1 fonts in PostScript.
+# You will have to use the exact font names supported by your 
+# GhostScript system; see the GhostScript documentation for details.
+
+macro latin layout -graph -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
+macro latinall layout -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
+
+#macro cyrillic layout -graph -pssetup "true (cyr) /NimbusRomanCYR-Regu /NimbusRomanCYR-Medi /NimbusRomanCYR-ReguItal /NimbusRomanCYR-MediItal createfontfamily setfontfamily setupfont"
+#macro greek layout -graph -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
+#macro greekall layout -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
+#macro russian layout -graph -pssetup "true (rus) /Cyrillic /Cyrillic /Cyrillic-Ital /Cyrillic-Ital createfontfamily setfontfamily setupfont"
+
