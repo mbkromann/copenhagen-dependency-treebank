@@ -9019,7 +9019,7 @@ sub cmd_user {
 			$username = `cat $userfile` || "none";
 			chomp($username);
 		} else {
-			warning("Non-existent file $userfile\n");
+			warning("Non-existent file $userfile");
 		}
 	} elsif ($user =~ /^\s*(\S+)\s*$/) {
 		$username = $user;
