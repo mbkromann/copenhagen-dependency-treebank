@@ -9008,9 +9008,11 @@ sub cmd_undiff {
 sub cmd_user {
 	my $self = shift;
 	my $user = shift;
+	$user = "" if (! defined($user));
 
 	# Try to set user from $ENV{'USER'}
-	my $username = $ENV{'USER'} || "unknown";
+	my $username = $self->var("user");
+	$username = $ENV{'USER'} if (! defined($username));
 
 	# Try to read user from command options
 	if ($user =~ /^-f\s+(\S+)\s*$/) {
@@ -10041,7 +10043,7 @@ sub do {
 
 		# User name: user [-f $file] $name
 		$success = $self->cmd_user($1) 
-			if ($cmd =~ /^\s*user\s+(.*\S)\s*$/);
+			if ($cmd =~ /^\s*user(\s+(.*\S))?\s*$/);
 
 		# Vars: vars [+$var[:$abbrev]] [-$var] ... 
 		#	var +gloss:g +lexeme:x -glss

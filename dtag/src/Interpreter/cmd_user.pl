@@ -1,9 +1,11 @@
 sub cmd_user {
 	my $self = shift;
 	my $user = shift;
+	$user = "" if (! defined($user));
 
 	# Try to set user from $ENV{'USER'}
-	my $username = $ENV{'USER'} || "unknown";
+	my $username = $self->var("user");
+	$username = $ENV{'USER'} if (! defined($username));
 
 	# Try to read user from command options
 	if ($user =~ /^-f\s+(\S+)\s*$/) {

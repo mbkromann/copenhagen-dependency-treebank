@@ -603,7 +603,7 @@ sub do {
 
 		# User name: user [-f $file] $name
 		$success = $self->cmd_user($1) 
-			if ($cmd =~ /^\s*user\s+(.*\S)\s*$/);
+			if ($cmd =~ /^\s*user(\s+(.*\S))?\s*$/);
 
 		# Vars: vars [+$var[:$abbrev]] [-$var] ... 
 		#	var +gloss:g +lexeme:x -glss
