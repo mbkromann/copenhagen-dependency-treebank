@@ -903,21 +903,6 @@ sub graph {
 }
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Alignment/graph2key.pl
-## ------------------------------------------------------------
-
-sub graph2key {
-	my $self = shift;
-	my $graph = shift;
-	my $graphs = $self->var('graphs');
-
-	foreach my $key (keys(%$graphs)) {
-		return $key if ($graphs->{$key} eq $graph);
-	}
-	return undef;
-}
-
-## ------------------------------------------------------------
 ##  auto-inserted from: Alignment/graphs.pl
 ## ------------------------------------------------------------
 

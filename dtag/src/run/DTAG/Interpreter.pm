@@ -9009,16 +9009,26 @@ sub cmd_user {
 	my $self = shift;
 	my $user = shift;
 
+	# Try to set user from $ENV{'USER'}
+	my $username = $ENV{'USER'} || "unknown";
+
+	# Try to read user from command options
 	if ($user =~ /^-f\s+(\S+)\s*$/) {
 		my $userfile = $1;
 		if ( -r $userfile) {
-			my $username = `cat $userfile` || "none";
+			$username = `cat $userfile` || "none";
 			chomp($username);
-			$self->var("user", $username);
+		} else {
+			warning("Non-existent file $userfile\n");
 		}
 	} elsif ($user =~ /^\s*(\S+)\s*$/) {
-		$self->var("user", $user);
+		$username = $user;
 	}
+
+	# Set username
+	$self->var("user", $username);
+
+	# Print user and exit
 	print "User: " . $self->var("user") . "\n";
 	return 1;
 }
