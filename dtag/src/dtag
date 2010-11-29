@@ -49,8 +49,7 @@ if (! ($DTAGHOME && -r $DTAGHOME)) {
 }
 
 # Find CDTHOME
-print "FINDING CDTHOME\n";
-$DTAGHOME = "XXX" if (! defined($DTAGHOME));
+$DTAGHOME = "/" if (! defined($DTAGHOME));
 my $CDTHOME = "";
 my @CDTHOMEDIRS = ($ENV{'CDTHOME'} || "/", 
 	"$DTAGHOME/..", "$DTAGHOME/../..", "$DTAGHOME/../../..",
@@ -58,12 +57,11 @@ my @CDTHOMEDIRS = ($ENV{'CDTHOME'} || "/",
 my $HOME = $ENV{'HOME'};
 while (@CDTHOMEDIRS) {
 	$CDTHOME = shift(@CDTHOMEDIRS);
-	print "CDTHOME=$CDTHOME ";
 	$CDTHOME =~ s/\~\//$HOME/g;
 	$CDTHOME = Cwd::abs_path($CDTHOME)
 		if ($CDTHOME =~ /\.\.$/);
-	$CDTHOME = "XXX" if (! $CDTHOME);
-	print $CDTHOME . " " . (-d $CDTHOME ? "yes" : "no")  . " " . (-d "$CDTHOME/tools" ? "yes" : "no") . "\n";
+	$CDTHOME = "/" if (! $CDTHOME);
+	#print $CDTHOME . " " . (-d $CDTHOME ? "yes" : "no")  . " " . (-d "$CDTHOME/tools" ? "yes" : "no") . "\n";
 	last if (-d $CDTHOME && -d "$CDTHOME/tools");
 }
 $ENV{'CDTHOME'} = $CDTHOME;
