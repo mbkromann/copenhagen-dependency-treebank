@@ -9028,6 +9028,7 @@ sub cmd_user {
 	}
 
 	# Set username
+	print "CDTUSER=" . ($ENV{'CDTUSER'} = $username));
 	$self->var("user", $username);
 
 	# Print user and exit

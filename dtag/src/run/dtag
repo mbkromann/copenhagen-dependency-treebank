@@ -148,7 +148,7 @@ if ($init) {
 	}
 }
 $inter->quiet($quiet);
-$inter->var("user", "none");
+$ENV{'CDTUSER'} = $inter->var("user", $ENV{'USER'});
 
 # Process command line arguments
 while (@ARGV) {
