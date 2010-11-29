@@ -20,9 +20,28 @@
 #
 
 #!/usr/bin/perl -w
+# 
+# LICENSE
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
+# 
+# The code in this package is free software: You can redistribute it
+# and/or modify it under the terms of the GNU General Public License 
+# published by the Free Software Foundation. This package is
+# distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY or any implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. 
+# 
+# The GNU General Public License is contained in the file LICENSE-GPL.
+# Please consult the DTAG homepages for more information about DTAG:
+#
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
+# 
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
+#
 
 # Version
-my $RELEASE = ' (2010-11-26 11:29:44)';
+my $RELEASE = '2.0.12 (2010-11-27  6:30:18)';
 
 use strict;
 use File::Basename;
@@ -33,7 +52,6 @@ use Cwd;
 
 # Find DTAGHOME
 my $DTAGHOME = $ENV{'DTAGHOME'} || "";
-my $CDTHOME = $ENV{'CDTHOME'} = $ENV{'CDTHOME'} || "~/cdt";
 if (! ($DTAGHOME && -r $DTAGHOME)) {
 	# Find directory path to this script
 	my $script = $0;
@@ -50,6 +68,26 @@ if (! ($DTAGHOME && -r $DTAGHOME)) {
 	# Find absolute path and save in DTAGHOME
 	$ENV{'DTAGHOME'} = $DTAGHOME = Cwd::abs_path(dirname($script)) if (-r $script) || "";
 }
+
+# Find CDTHOME
+print "FINDING CDTHOME\n";
+$DTAGHOME = "XXX" if (! defined($DTAGHOME));
+my $CDTHOME = "";
+my @CDTHOMEDIRS = ($ENV{'CDTHOME'} || "/", 
+	"$DTAGHOME/..", "$DTAGHOME/../..", "$DTAGHOME/../../..",
+	"~/cdt", "/opt/cdt");
+my $HOME = $ENV{'HOME'};
+while (@CDTHOMEDIRS) {
+	$CDTHOME = shift(@CDTHOMEDIRS);
+	print "CDTHOME=$CDTHOME ";
+	$CDTHOME =~ s/\~\//$HOME/g;
+	$CDTHOME = Cwd::abs_path($CDTHOME)
+		if ($CDTHOME =~ /\.\.$/);
+	$CDTHOME = "XXX" if (! $CDTHOME);
+	print $CDTHOME . " " . (-d $CDTHOME ? "yes" : "no")  . " " . (-d "$CDTHOME/tools" ? "yes" : "no") . "\n";
+	last if (-d $CDTHOME && -d "$CDTHOME/tools");
+}
+$ENV{'CDTHOME'} = $CDTHOME;
 
 # Add $DTAGHOME to @INC, and load modules
 push @INC, $DTAGHOME;
@@ -86,6 +124,14 @@ if (! $quiet) {
 	print "Welcome to DTAG dependency tagger v. $RELEASE\n";
 	print "Copyright (c) 2002-2010 Matthias Buch-Kromann\n";
 	print "Using DTAG directory $DTAGHOME\n";
+}
+
+# Print warnings
+if (-d $CDTHOME) {
+	print STDERR "Using CDTHOME directory $CDTHOME";
+} else {
+	DTAG::Interpreter::warning(
+		"Cannot find CDTHOME directory $CDTHOME. Please set the \$CDTHOME path\nexplicitly from your shell, or some commands may fail to work.");
 }
 
 # Process rc-file
