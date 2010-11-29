@@ -49,7 +49,7 @@
 <W gloss="V" id="48" lemma="V" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">V</W>
 <W gloss="and" id="49" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="K" id="50" lemma="K" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">K</W>
-<W gloss="is" id="51" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-8:subj|1:neg|3:preds|4:pnct">er</W>
+<W gloss="is" id="51" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="1:neg|3:preds|4:pnct|-8:subj">er</W>
 <W gloss="not" id="52" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="entirely" id="53" lemma="hel" morph="&lt;unknown&gt;" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
 <W gloss="new" id="54" lemma="ny" morph="&lt;unknown&gt;" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:quant">nyt</W>
