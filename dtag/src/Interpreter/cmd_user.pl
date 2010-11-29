@@ -10,8 +10,8 @@ sub cmd_user {
 	# Try to read user from command options
 	if ($user =~ /^-f\s+(\S+)\s*$/) {
 		my $userfile = $1;
-		if ( -r $userfile) {
-			$username = `cat $userfile` || "none";
+		if (-r $userfile) {
+			$username = `cat $userfile` || $ENV{'user'} || "none";
 			chomp($username);
 		} else {
 			warning("Non-existent file $userfile");
