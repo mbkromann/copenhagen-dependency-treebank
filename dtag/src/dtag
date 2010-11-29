@@ -107,7 +107,7 @@ if (! $quiet) {
 
 # Print warnings
 if (-d $CDTHOME) {
-	print STDERR "Using CDTHOME directory $CDTHOME";
+	print STDERR "Using CDTHOME directory $CDTHOME\n";
 } else {
 	DTAG::Interpreter::warning(
 		"Cannot find CDTHOME directory $CDTHOME. Please set the \$CDTHOME path\nexplicitly from your shell, or some commands may fail to work.");
