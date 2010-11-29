@@ -15,7 +15,10 @@ echo "Downloading files from CDT repository"
 svn update --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`
 
 # Find user name
-name=`cat ~/.cdtname`
+name=$CDTUSER
+if [ -z "$name" ] ; then
+	name=`cat ~/.cdtname`
+fi
 if [ -z "$name" ] ; then
 	echo "Cannot find your name. Please contact Matthias"
 	exit 1

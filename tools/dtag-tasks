@@ -17,6 +17,9 @@ if [ -z "$editor" ] ; then
 	echo "you are asked for it."
 	sudo apt-get install mousepad
 fi
-
-$editor "$HOME/cdt/todo/`cat ~/.cdtname`" &
+user=$CDTUSER
+if [ -z "$user" ] ; then
+	user=`cat ~/.cdtname`
+fi
+$editor "$HOME/cdt/todo/$user" &
 

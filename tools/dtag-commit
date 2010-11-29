@@ -4,7 +4,10 @@ echo "DTAG commit version 2010-04-23"
 message=$*
 cd "$HOME"
 
-name=`cat .cdtname`
+name=$CDTUSER
+if [ -z "$name" ] ; then
+	name=`cat ~/.cdtname`
+fi
 if [ -d cdt ] ; then
 	cd cdt
 fi

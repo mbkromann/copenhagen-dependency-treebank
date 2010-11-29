@@ -53,7 +53,7 @@ if ( ! -f $fname ) {
 						$copyfname =~ s/^([^-]*-[^-]*).*.tag/\1/;
 
 						# Add name of annotator
-						my $annotator = `cat ~/.cdtname`;
+						my $annotator = $ENV{'CDTUSER'} || `cat ~/.cdtname`;
 						chomp($annotator);
 						$copyfname = "$copypath/$copyfname-$annotator.tag";
 					}

@@ -2,7 +2,10 @@
 
 # Find name and exit if missing
 echo > "$HOME/.script"
-name=`cat ~/.cdtname` 
+name=$CDTUSER
+if [ -z "$name" ] ; then
+	name=`cat ~/.cdtname`
+fi
 if [ -z "$name" ] ; then
 	echo "Please provide your first name with the command 'setname your-name'"
 	echo "using small letters only, then try the 'opentask' command again."
