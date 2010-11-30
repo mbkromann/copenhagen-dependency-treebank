@@ -20,7 +20,7 @@ code: serverdirs
 	cp PostScript/box.header PostScript/box.trailer ${RUNDIR}
 	cp LICENSE* ${RUNDIR}
 	export LICENSE="`pwd`/LICENSE"; for dir in `echo ${SRCDIRS}` ; do \
-		(cd $$dir; export DTAGBINDIR=${BINDIR}; ${BINDIR}/makepm $$dir/) > ${RUNDIR}/DTAG/$$dir.pm ; \
+		(cd $$dir; export DTAGBINDIR=${BINDIR}; ${BINDIR}/makepm $$dir/; echo "\n1;\n") > ${RUNDIR}/DTAG/$$dir.pm ; \
 	done
 
 serverdirs:

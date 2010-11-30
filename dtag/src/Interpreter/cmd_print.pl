@@ -6,7 +6,7 @@ sub cmd_print {
 
 	# Update follow or print file
 	if ($follow) {
-		$file = $graph->fpsfile() || $self->fpsfile();
+		$file = $graph->fpsfile() || $self->fpsfile("");
 	} else {
 		$graph->psfile($file) if ($file);
 		$file = $graph->psfile();

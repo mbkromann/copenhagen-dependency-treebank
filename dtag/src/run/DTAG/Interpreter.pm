@@ -6652,7 +6652,7 @@ sub cmd_print {
 
 	# Update follow or print file
 	if ($follow) {
-		$file = $graph->fpsfile() || $self->fpsfile();
+		$file = $graph->fpsfile() || $self->fpsfile("");
 	} else {
 		$graph->psfile($file) if ($file);
 		$file = $graph->psfile();
@@ -6915,7 +6915,7 @@ sub cmd_relhelp {
 	print "SEE ALSO:\n" .
 		join("", map {countname($relset, $_)} 
 			@$seealso) . "\n" if (@$seealso);
-	my $confusion = [@{$self->{'confusion'}{$relsetname}{$sname}}] || [0,0,0,0];
+	my $confusion = [@{$self->{'confusion'}{$relsetname}{$sname} || [0,0,0,0]}];
 	my $confcount = shift(@$confusion);
 	my $agreement = join("/", shift(@$confusion), shift(@$confusion),
 		shift(@$confusion));
@@ -6946,7 +6946,7 @@ sub cmd_relhelp {
 		my $exfpsfile = $self->var("exfpsfile");
 		if (! $exfpsfile) {
 			# Creating new example viewer
-			$self->do("viewer");
+			$self->do("viewer -e");
 		} elsif (! `ps e -w | grep $exfpsfile | grep -v grep`) {
 			# Reopening closed example viewer
 			$self->do("viewer");
@@ -9185,10 +9185,12 @@ sub cmd_viewer {
 	++$viewer;
 	my $fpsfile = "/tmp/dtag-$$-$viewer.ps";
 	my $fpsfiles = {"" => $fpsfile};
+	my $example = 0;
 	if ($graph->var("example") || $option eq "-e" || $option eq "-example") {
 		$self->var("exfpsfile", $fpsfile);
 		$graph = $self->var("examplegraph") || DTAG::Graph->new($self)
 			if (! $graph->var("example"));
+		$example = 1;
 	} elsif ($option =~ /^-a/ && $graph->is_alignment()) {
 		# Add fpsfiles for subgraphs
 		delete $fpsfiles->{""};
@@ -9206,7 +9208,9 @@ sub cmd_viewer {
 	}
 
 	# Add fpsfile
-	$self->fpsfile("", $fpsfile);
+	if (! $example) {
+		$self->fpsfile("", $fpsfile);
+	}
 	$graph->fpsfile($fpsfile);
 
 	# Record fpsfile as a viewed file
@@ -14253,4 +14257,6 @@ sub value {
 ##  stop auto-insert from directory: FindOps
 ## ------------------------------------------------------------
 
+
 1;
+

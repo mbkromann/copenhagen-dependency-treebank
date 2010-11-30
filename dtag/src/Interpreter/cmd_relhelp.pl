@@ -50,7 +50,7 @@ sub cmd_relhelp {
 	print "SEE ALSO:\n" .
 		join("", map {countname($relset, $_)} 
 			@$seealso) . "\n" if (@$seealso);
-	my $confusion = [@{$self->{'confusion'}{$relsetname}{$sname}}] || [0,0,0,0];
+	my $confusion = [@{$self->{'confusion'}{$relsetname}{$sname} || [0,0,0,0]}];
 	my $confcount = shift(@$confusion);
 	my $agreement = join("/", shift(@$confusion), shift(@$confusion),
 		shift(@$confusion));
@@ -81,7 +81,7 @@ sub cmd_relhelp {
 		my $exfpsfile = $self->var("exfpsfile");
 		if (! $exfpsfile) {
 			# Creating new example viewer
-			$self->do("viewer");
+			$self->do("viewer -e");
 		} elsif (! `ps e -w | grep $exfpsfile | grep -v grep`) {
 			# Reopening closed example viewer
 			$self->do("viewer");

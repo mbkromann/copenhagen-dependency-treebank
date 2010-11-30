@@ -42,10 +42,10 @@ layout -nstyles ["default", \
 	($l eq "sdeps" ? "redlbl" : "")]
 
 # How to compute the style associated with an edge
+#	$etype =~ /:([0-9]+)(-([0-9]+))?$/;\
 layout -estyles \
 	my $etype = $e->type();\
 	$etype =~ s/[+:*]//g;\
-	$etype =~ /:([0-9]+)(-([0-9]+))?$/;\
 	my ($s1, $s2, $s) = ($1, $3, $G->pstep() || 0);\
 	my $discourse = ($etype =~ /[A-Z]/) ? "discourse" : ""; \
 	my $newborn = ($s && $s1 && ($s == $s1)) ? "newborn" : ""; \

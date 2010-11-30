@@ -3302,4 +3302,6 @@ sub vars {
 ##  stop auto-insert from directory: AEdge
 ## ------------------------------------------------------------
 
+
 1;
+

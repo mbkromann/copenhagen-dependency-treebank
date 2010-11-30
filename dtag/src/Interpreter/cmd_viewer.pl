@@ -9,10 +9,12 @@ sub cmd_viewer {
 	++$viewer;
 	my $fpsfile = "/tmp/dtag-$$-$viewer.ps";
 	my $fpsfiles = {"" => $fpsfile};
+	my $example = 0;
 	if ($graph->var("example") || $option eq "-e" || $option eq "-example") {
 		$self->var("exfpsfile", $fpsfile);
 		$graph = $self->var("examplegraph") || DTAG::Graph->new($self)
 			if (! $graph->var("example"));
+		$example = 1;
 	} elsif ($option =~ /^-a/ && $graph->is_alignment()) {
 		# Add fpsfiles for subgraphs
 		delete $fpsfiles->{""};
@@ -30,7 +32,9 @@ sub cmd_viewer {
 	}
 
 	# Add fpsfile
-	$self->fpsfile("", $fpsfile);
+	if (! $example) {
+		$self->fpsfile("", $fpsfile);
+	}
 	$graph->fpsfile($fpsfile);
 
 	# Record fpsfile as a viewed file

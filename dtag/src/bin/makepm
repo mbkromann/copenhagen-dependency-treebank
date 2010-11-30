@@ -46,7 +46,7 @@ done
 # End module
 if [ -z "$INSUBDIR" ] ; then
 	echo
-	echo "1;"
+#	echo "1;"
 fi
 
 echo "$path" >&2
