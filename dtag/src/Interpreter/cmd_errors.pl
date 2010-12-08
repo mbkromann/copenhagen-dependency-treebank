@@ -1,5 +1,5 @@
 sub cmd_errors {
-	my ($self, $graph, $from, $to) = @_;
+	my ($self, $graph, $from, $to, $noprint) = @_;
 	$from = 0 if (! defined($from));
 	$to = $graph->size() - 1 if (! defined($to));
 
@@ -39,6 +39,9 @@ sub cmd_errors {
 		#	print @edgeerrors;
 		#}
 	}
+
+	# Return without printing if $noprint is set
+	return 1 if ($noprint);
 
 	# Print all node errors
 	foreach my $error (sort(keys(%$errors))) {

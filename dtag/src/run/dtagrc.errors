@@ -6,6 +6,8 @@ macro noerrors style error ;; style error:nogov ;; style error:manygovs ;; style
 macro nosubj noerror {ARGS} nosubj
 macro nonobj noerror {ARGS} nonobj
 macro noante noerror {ARGS} noante
+macro nogov noerror {ARGS} nogov
+macro manygovs noerror {ARGS} manygovs
 
 # Error marking: nodes
 errordef -node nogov ! defined($egov)

@@ -31,6 +31,6 @@ style arc=blue -arclabel -color blue -arc -color blue -dash dot
 style error -label -color red
 
 #style discourse -label -color green -arc -color green -arclabel -color green
-#style default -label -color gray -arc -color yellow -arclabel -color cyan
-#style discourse -arc -color darkgreen -ps "[5 2] 0 setdash 2 setlinewidth" -arclabel -color darkgreen -fonttype bold -label -fonttype bold
+style default -label -color gray -arc -color yellow -arclabel -color cyan
+style discourse -arc -color darkgreen -ps "[5 2] 0 setdash 2 setlinewidth" -arclabel -color darkgreen -fonttype bold -label -fonttype bold
 

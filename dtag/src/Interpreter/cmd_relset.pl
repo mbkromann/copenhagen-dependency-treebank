@@ -64,6 +64,9 @@ sub cmd_relset {
 		my ($comment, $shortname, $longname, $deprecatednames, 
 			$supertypes, $shortdescription, $longdescription, $seealso, 
 			$examples, $connectives) = @$row;
+		($shortname, $longname, $supertypes) 
+			= map {$_ =~ s/[^ -~]/_/g if (defined($_)); $_} 
+				($shortname, $longname, $supertypes);
 		$longname = $shortname if ((! defined($longname)) || $longname =~ /^\s*$/);
 
 		# Skip line if short name or long name are undefined

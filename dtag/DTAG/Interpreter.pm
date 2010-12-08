@@ -3293,7 +3293,7 @@ sub cmd_errordefs {
 ## ------------------------------------------------------------
 
 sub cmd_errors {
-	my ($self, $graph, $from, $to) = @_;
+	my ($self, $graph, $from, $to, $noprint) = @_;
 	$from = 0 if (! defined($from));
 	$to = $graph->size() - 1 if (! defined($to));
 
@@ -3333,6 +3333,9 @@ sub cmd_errors {
 		#	print @edgeerrors;
 		#}
 	}
+
+	# Return without printing if $noprint is set
+	return 1 if ($noprint);
 
 	# Print all node errors
 	foreach my $error (sort(keys(%$errors))) {
@@ -7094,6 +7097,9 @@ sub cmd_relset {
 		my ($comment, $shortname, $longname, $deprecatednames, 
 			$supertypes, $shortdescription, $longdescription, $seealso, 
 			$examples, $connectives) = @$row;
+		($shortname, $longname, $supertypes) 
+			= map {$_ =~ s/[^ -~]/_/g if (defined($_)); $_} 
+				($shortname, $longname, $supertypes);
 		$longname = $shortname if ((! defined($longname)) || $longname =~ /^\s*$/);
 
 		# Skip line if short name or long name are undefined
@@ -9028,6 +9034,7 @@ sub cmd_user {
 	}
 
 	# Set username
+	$username =~ s/\s+//g;
 	$ENV{'CDTUSER'} = $username;
 	print "CDTUSER=" . $username . "\n";
 	$self->var("user", $username);

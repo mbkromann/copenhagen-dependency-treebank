@@ -715,10 +715,15 @@ sub errors_edge {
 	# Retrieve errordefs and sort them according to priority (array index 2)
 	my $errordefs = $self->errordefs()->{"edge"};
 	my $errornames = $self->errordefs()->{'@edge'};
+	my $node = $self->node($e->in());
+	my $noerror = $node ? $node->var("_noerror") || "" : "";
 
 	# Process nodes
 	my $results = [];
 	foreach my $error (@$errornames) {
+		# Skip errors listed in $noerror
+		next if ($noerror =~ /:$error:/);
+
 		# Call error definition subroutine
 		my $sub = $errordefs->{$error}[1];
         if ($sub) {
@@ -743,13 +748,22 @@ sub errors_edge {
 sub errors_node {
 	my ($self, $n) = @_;
 
+	# Initialize results and node
+	my $results = [];
+	return $results if (! $n);
+
 	# Retrieve errordefs and sort them according to priority (array index 2)
 	my $errordefs = $self->errordefs()->{"node"};
 	my $errornames = $self->errordefs()->{'@node'};
 
+	# Retrieve list of noerrors
+	my $noerror = $n->var("_noerror") || "";
+
 	# Process nodes
-	my $results = [];
 	foreach my $error (@$errornames) {
+		# Skip if error is marked as noerror
+		next if ($noerror =~ /:$error:/);
+
 		# Call error definition subroutine
 		my $sub = $errordefs->{$error}[1];
         if ($sub) {
@@ -2348,7 +2362,6 @@ sub postscript {
 			if (defined($nodes->{$e->out()}) && ! (&$ehide($self, $e))) {
 				# Calculate edge layouts
 				my $type = $e->type();
-				my @est = &$estyles($self, $e);
 				my $alayout = $self->psstyle($interpreter, 'arc', 
 					&$estyles($self, $e));
 				my $llayout = $self->psstyle($interpreter, 'arclabel', 

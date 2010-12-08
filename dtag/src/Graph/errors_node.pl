@@ -4,13 +4,22 @@
 sub errors_node {
 	my ($self, $n) = @_;
 
+	# Initialize results and node
+	my $results = [];
+	return $results if (! $n);
+
 	# Retrieve errordefs and sort them according to priority (array index 2)
 	my $errordefs = $self->errordefs()->{"node"};
 	my $errornames = $self->errordefs()->{'@node'};
 
+	# Retrieve list of noerrors
+	my $noerror = $n->var("_noerror") || "";
+
 	# Process nodes
-	my $results = [];
 	foreach my $error (@$errornames) {
+		# Skip if error is marked as noerror
+		next if ($noerror =~ /:$error:/);
+
 		# Call error definition subroutine
 		my $sub = $errordefs->{$error}[1];
         if ($sub) {

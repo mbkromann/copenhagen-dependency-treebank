@@ -180,7 +180,6 @@ sub postscript {
 			if (defined($nodes->{$e->out()}) && ! (&$ehide($self, $e))) {
 				# Calculate edge layouts
 				my $type = $e->type();
-				my @est = &$estyles($self, $e);
 				my $alayout = $self->psstyle($interpreter, 'arc', 
 					&$estyles($self, $e));
 				my $llayout = $self->psstyle($interpreter, 'arclabel', 
