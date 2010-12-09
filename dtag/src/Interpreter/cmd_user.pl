@@ -8,7 +8,7 @@ sub cmd_user {
 	$username = $ENV{'USER'} if (! defined($username));
 
 	# Try to read user from command options
-	if ($user =~ /^-f\s+(\S+)\s*$/) {
+	if ($user =~ /^\s*-f\s+(\S+)\s*$/) {
 		my $userfile = $1;
 		if (-r $userfile) {
 			$username = `cat $userfile` || $ENV{'user'} || "none";
@@ -23,7 +23,6 @@ sub cmd_user {
 	# Set username
 	$username =~ s/\s+//g;
 	$ENV{'CDTUSER'} = $username;
-	print "CDTUSER=" . $username . "\n";
 	$self->var("user", $username);
 
 	# Print user and exit
