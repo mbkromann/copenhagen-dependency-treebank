@@ -7416,6 +7416,7 @@ sub tex {
 	$s =~ s/&/\\&/g;
 	$s =~ s/~/\\~/g;
 	$s =~ s/%/\\%/g;
+	$s =~ s/_/\\_/g;
 	return (length($s) != 0) ? $s : $relset_undef;
 }
 
