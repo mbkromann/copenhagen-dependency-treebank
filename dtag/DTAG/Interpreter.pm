@@ -7366,9 +7366,10 @@ sub relset2latex_visit {
 			. "{" . tex(shift(@$confuse)) . "}"
 			. "{" . tex(shift(@$confuse)) . "}{";
 		foreach my $c (@$confuse) {
-			$c =~ /^([0-9]+)\%=(.*)$/;
-			print $ofh "\\confuse{$1}{" . texrelref($2, $relset) . "}" 
-				if (defined($1) && defined($2));
+			if ($c =~ /^([0-9]+)\%=(.*)$/) {
+				print $ofh "\\confuse{$1}{" . texrelref($2, $relset) . "}";
+			#	if (defined($1) && defined($2));
+			}
 		}
 		print $ofh "}\n";
 	}
