@@ -160,9 +160,9 @@ sub relset2latex_visit {
 	my $confuse = [@{$confusion->{$sname} || []}];
 	if (scalar(@$confuse) > 4) {
 		print $ofh "	\\confusions{" . shift(@$confuse) . "}"
-			. "{" . shift(@$confuse) . "}"
-			. "{" . shift(@$confuse) . "}"
-			. "{" . shift(@$confuse) . "}{";
+			. "{" . tex(shift(@$confuse)) . "}"
+			. "{" . tex(shift(@$confuse)) . "}"
+			. "{" . tex(shift(@$confuse)) . "}{";
 		foreach my $c (@$confuse) {
 			$c =~ /^([0-9]+)\%=(.*)$/;
 			print $ofh "\\confuse{$1}{" . texrelref($2, $relset) . "}" 
