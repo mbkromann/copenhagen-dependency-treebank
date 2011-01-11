@@ -158,8 +158,11 @@ sub relset2latex_visit {
 	print $ofh "	\\related{" . join(" ", map {texrelref($_, $relset)} 
 		sorted_relations($relset, split(/\s+/, $see))) . "}%\n" if ($see);
 	my $confuse = [@{$confusion->{$sname} || []}];
-	if (@$confuse) {
-		print $ofh "	\\confusions{" . shift(@$confuse) . "}{";
+	if (scalar(@$confuse) > 4) {
+		print $ofh "	\\confusions{" . shift(@$confuse) . "}"
+			. "{" . shift(@$confuse) . "}"
+			. "{" . shift(@$confuse) . "}"
+			. "{" . shift(@$confuse) . "}{";
 		foreach my $c (@$confuse) {
 			$c =~ /^([0-9]+)\%=(.*)$/;
 			print $ofh "\\confuse{$1}{" . texrelref($2, $relset) . "}" 
