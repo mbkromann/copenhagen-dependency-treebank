@@ -2,9 +2,9 @@
 
 # Find name and exit if missing
 echo > "$HOME/.script"
-name=$CDTUSER
+name=`cat ~/.cdtname`
 if [ -z "$name" ] ; then
-	name=`cat ~/.cdtname`
+	name=$CDTUSER
 fi
 if [ -z "$name" ] ; then
 	echo "Please provide your first name with the command 'setname your-name'"
