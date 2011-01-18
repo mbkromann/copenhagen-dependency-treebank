@@ -1,225 +1,225 @@
 <p>
 <s>
-<W msd="NP--U==-">Tariq</W>
-<W msd="NP--U==-">Aziz</W>
-<W msd="XP">:</W>
-<W msd="NP--U==-">Saddam</W>
-<W msd="NP--G==-">Husseins</W>
-<W msd="NCCSU==I">udenrigsminister</W>
-<W msd="VAPA=S[CN]I[ARU]-U">dømt</W>
-<W msd="SP">til</W>
-<W msd="NCCSU==D">døden</W>
+<W id="2" msd="NP--U==-" in="" out="">Tariq</W>
+<W id="3" msd="NP--U==-" in="" out="3:coref-var|13:coref-iden">Aziz</W>
+<W id="4" msd="XP" in="" out="">:</W>
+<W id="5" msd="NP--U==-" in="" out="">Saddam</W>
+<W id="6" msd="NP--G==-" in="-3:coref-var" out="">Husseins</W>
+<W id="7" msd="NCCSU==I" in="" out="">udenrigsminister</W>
+<W id="8" msd="VAPA=S[CN]I[ARU]-U" in="" out="">dømt</W>
+<W id="9" msd="SP" in="" out="">til</W>
+<W id="10" msd="NCCSU==D" in="" out="">døden</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="NP--U==-">Tariq</W>
-<W msd="NP--U==-">Aziz</W>
-<W msd="XP">,</W>
-<W msd="U=">der</W>
-<W msd="VADA=----A-">var</W>
-<W msd="NCCSU==I">udenrigsminister</W>
-<W msd="CC">og</W>
-<W msd="NCCSU==I">vicepremierminister</W>
-<W msd="SP">under</W>
-<W msd="PD-CSU--U">den</W>
-<W msd="ANP[CN]SU=DU">irakiske</W>
-<W msd="NCCSU==I">diktator</W>
-<W msd="NP--U==-">Saddam</W>
-<W msd="NP--U==-">Hussein</W>
-<W msd="XP">,</W>
-<W msd="VADR=----A-">er</W>
-<W msd="VAPA=S[CN]I[ARU]-U">dømt</W>
-<W msd="SP">til</W>
-<W msd="NCCSU==D">døden</W>
-<W msd="XP">,</W>
-<W msd="VADR=----A-">oplyser</W>
-<W msd="ANP[CN]SU=IU">irakisk</W>
-<W msd="RGU">tv.</W>
-<W msd="NP--G==-">Iraks</W>
-<W msd="ANS[CN][SP]U=DU">øverste</W>
-<W msd="ANP[CN]SU=DU">straffedomstol</W>
-<W msd="NCCSU==I">afsagde</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==I">går</W>
-<W msd="NCCSU==D">dommen</W>
-<W msd="SP">over</W>
-<W msd="NCCSU==D">Aziz</W>
-<W msd="XP">,</W>
-<W msd="U=">der</W>
-<W msd="VADA=----A-">fungerede</W>
-<W msd="U=">som</W>
-<W msd="NP--U==-">Saddam</W>
-<W msd="NP--G==-">Husseins</W>
-<W msd="NCNSU==I">ansigt</W>
-<W msd="RGU">udadtil</W>
-<W msd="XP">.</W>
+<W id="15" msd="NP--U==-" in="" out="">Tariq</W>
+<W id="16" msd="NP--U==-" in="-13:coref-iden" out="2:ref|42:coref-var">Aziz</W>
+<W id="17" msd="XP" in="" out="">,</W>
+<W id="18" msd="U=" in="-2:ref" out="">der</W>
+<W id="19" msd="VADA=----A-" in="" out="">var</W>
+<W id="20" msd="NCCSU==I" in="" out="">udenrigsminister</W>
+<W id="21" msd="CC" in="" out="">og</W>
+<W id="22" msd="NCCSU==I" in="" out="">vicepremierminister</W>
+<W id="23" msd="SP" in="" out="">under</W>
+<W id="24" msd="PD-CSU--U" in="" out="">den</W>
+<W id="25" msd="ANP[CN]SU=DU" in="" out="">irakiske</W>
+<W id="26" msd="NCCSU==I" in="" out="">diktator</W>
+<W id="27" msd="NP--U==-" in="" out="">Saddam</W>
+<W id="28" msd="NP--U==-" in="" out="">Hussein</W>
+<W id="29" msd="XP" in="" out="">,</W>
+<W id="30" msd="VADR=----A-" in="" out="14:coref-res">er</W>
+<W id="31" msd="VAPA=S[CN]I[ARU]-U" in="" out="">dømt</W>
+<W id="32" msd="SP" in="" out="">til</W>
+<W id="33" msd="NCCSU==D" in="" out="">døden</W>
+<W id="34" msd="XP" in="" out="">,</W>
+<W id="35" msd="VADR=----A-" in="" out="">oplyser</W>
+<W id="36" msd="ANP[CN]SU=IU" in="" out="">irakisk</W>
+<W id="37" msd="RGU" in="" out="">tv.</W>
+<W id="38" msd="NP--G==-" in="" out="">Iraks</W>
+<W id="39" msd="ANS[CN][SP]U=DU" in="" out="">øverste</W>
+<W id="40" msd="ANP[CN]SU=DU" in="" out="">straffedomstol</W>
+<W id="41" msd="NCCSU==I" in="" out="">afsagde</W>
+<W id="42" msd="SP" in="" out="">i</W>
+<W id="43" msd="NCCSU==I" in="" out="">går</W>
+<W id="44" msd="NCCSU==D" in="-14:coref-res" out="18:coref-var">dommen</W>
+<W id="45" msd="SP" in="" out="">over</W>
+<W id="46" msd="NCCSU==D" in="" out="2:ref">Aziz</W>
+<W id="47" msd="XP" in="" out="">,</W>
+<W id="48" msd="U=" in="-2:ref" out="">der</W>
+<W id="49" msd="VADA=----A-" in="" out="">fungerede</W>
+<W id="50" msd="U=" in="" out="">som</W>
+<W id="51" msd="NP--U==-" in="" out="">Saddam</W>
+<W id="52" msd="NP--G==-" in="" out="">Husseins</W>
+<W id="53" msd="NCNSU==I" in="" out="">ansigt</W>
+<W id="54" msd="RGU" in="" out="">udadtil</W>
+<W id="55" msd="XP" in="" out="">.</W>
 </s>
 <s>
-<W msd="PD-CSU--U">Den</W>
-<W msd="ANP[CN]SU=DU">74-årige</W>
-<W msd="NCCSU==I">Aziz</W>
-<W msd="VADR=----A-">modtager</W>
-<W msd="NCCSU==D">dødsdommen</W>
-<W msd="SP">for</W>
-<W msd="PO3CSUSYU">sin</W>
-<W msd="NCCSU==I">rolle</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==D">udryddelsen</W>
-<W msd="SP">af</W>
-<W msd="ANP[CN]PU=[DI]U">religiøse</W>
-<W msd="NCNPU==I">partier</W>
-<W msd="SP">i</W>
-<W msd="NP--U==-">Irak</W>
-<W msd="XP">,</W>
-<W msd="VADR=----A-">rapporterer</W>
-<W msd="ANP[CN]SU=IU">irakisk</W>
-<W msd="RGU">tv.</W>
-</s>
-</p>
-<p>
-<s>
-<W msd="NP--U==-">Tariq</W>
-<W msd="NP--U==-">Aziz</W>
-<W msd="VADA=----A-">var</W>
-<W msd="NCCSU==I">udenrigsminister</W>
-<W msd="SP">i</W>
-<W msd="NP--U==-">Saddam</W>
-<W msd="NP--G==-">Husseins</W>
-<W msd="NCCSU==I">regering</W>
-<W msd="SP">under</W>
-<W msd="NP--G==-">Iraks</W>
-<W msd="NCCSU==I">invasion</W>
-<W msd="SP">af</W>
-<W msd="NP--U==-">Kuwait</W>
-<W msd="SP">i</W>
-<W msd="AC---U=--">1990</W>
-<W msd="CC">og</W>
-<W msd="PD-CSU--U">den</W>
-<W msd="ANP---=-R">efterfølgende</W>
-<W msd="ANP[CN][SP]U=[DI]U">Første</W>
-<W msd="NCCSU==I">Golfkrig</W>
-<W msd="SP">i</W>
-<W msd="AC---U=--">1991</W>
-<W msd="XP">.</W>
-</s>
-<s>
-<W msd="U=">Som</W>
-<W msd="PD-CSU--U">den</W>
-<W msd="ANP[CN][SP]U=[DI]U">eneste</W>
-<W msd="ANP[CN]SU=DU">kristne</W>
-<W msd="SP">i</W>
-<W msd="NP--U==-">Saddam</W>
-<W msd="NP--G==-">Husseins</W>
-<W msd="NCCSU==I">inderkreds</W>
-<W msd="VADA=----A-">spillede</W>
-<W msd="PD-CSU--U">den</W>
-<W msd="ANP[CN]SU=DU">gråhårede</W>
-<W msd="NCCSU==I">minister</W>
-<W msd="SP">med</W>
-<W msd="PD-[CN]PU--U">de</W>
-<W msd="ANP[CN]PU=[DI]U">store</W>
-<W msd="NCCPU==I">briller</W>
-<W msd="CC">og</W>
-<W msd="PD-NSU--U">det</W>
-<W msd="ANP[CN]SU=DU">fejlfrie</W>
-<W msd="NCNSU==I">engelsk</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="VAPR=[SP][CN][DI]A-U">ledende</W>
-<W msd="ANP[CN]SU=IU">diplomatisk</W>
-<W msd="NCCSU==I">rolle</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==D">optakten</W>
-<W msd="SP">til</W>
-<W msd="NCCSU==D">Golfkrigen</W>
-<W msd="SP">i</W>
-<W msd="AC---U=--">1991</W>
-<W msd="XP">,</W>
-<W msd="RGU">hvor</W>
-<W msd="PP3CSN-NU">han</W>
-<W msd="VADA=----A-">blev</W>
-<W msd="PI-NSU--U">et</W>
-<W msd="ANP[CN]SU=IU">kendt</W>
-<W msd="NCNSU==I">ansigt</W>
-<W msd="SP">i</W>
-<W msd="PD-[CN]PU--U">de</W>
-<W msd="ANP[CN]PU=[DI]U">internationale</W>
-<W msd="NCCPU==I">medier.</W>
+<W id="58" msd="PD-CSU--U" in="-42:coref-var" out="6:coref">Den</W>
+<W id="59" msd="ANP[CN]SU=DU" in="" out="">74-årige</W>
+<W id="60" msd="NCCSU==I" in="" out="">Aziz</W>
+<W id="61" msd="VADR=----A-" in="" out="">modtager</W>
+<W id="62" msd="NCCSU==D" in="-18:coref-var" out="">dødsdommen</W>
+<W id="63" msd="SP" in="" out="">for</W>
+<W id="64" msd="PO3CSUSYU" in="-6:coref" out="18:coref-var">sin</W>
+<W id="65" msd="NCCSU==I" in="" out="">rolle</W>
+<W id="66" msd="SP" in="" out="">i</W>
+<W id="67" msd="NCCSU==D" in="" out="">udryddelsen</W>
+<W id="68" msd="SP" in="" out="">af</W>
+<W id="69" msd="ANP[CN]PU=[DI]U" in="" out="">religiøse</W>
+<W id="70" msd="NCNPU==I" in="" out="">partier</W>
+<W id="71" msd="SP" in="" out="">i</W>
+<W id="72" msd="NP--U==-" in="" out="">Irak</W>
+<W id="73" msd="XP" in="" out="">,</W>
+<W id="74" msd="VADR=----A-" in="" out="">rapporterer</W>
+<W id="75" msd="ANP[CN]SU=IU" in="" out="">irakisk</W>
+<W id="76" msd="RGU" in="" out="">tv.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="PP3CSN-NU">Han</W>
-<W msd="VADA=----A-">tjente</W>
-<W msd="RGU">også</W>
-<W msd="U=">som</W>
-<W msd="NCCPU==I">vicepremierminister</W>
-<W msd="SP">før</W>
-<W msd="PD-CSU--U">den</W>
-<W msd="ANP[CN]SU=DU">amerikanskledede</W>
-<W msd="NCCSU==I">invasion</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==D">2003</W>
-<W msd="XP">.</W>
+<W id="81" msd="NP--U==-" in="" out="">Tariq</W>
+<W id="82" msd="NP--U==-" in="-18:coref-var" out="33:coref-var">Aziz</W>
+<W id="83" msd="VADA=----A-" in="" out="">var</W>
+<W id="84" msd="NCCSU==I" in="" out="">udenrigsminister</W>
+<W id="85" msd="SP" in="" out="">i</W>
+<W id="86" msd="NP--U==-" in="" out="">Saddam</W>
+<W id="87" msd="NP--G==-" in="" out="">Husseins</W>
+<W id="88" msd="NCCSU==I" in="" out="">regering</W>
+<W id="89" msd="SP" in="" out="">under</W>
+<W id="90" msd="NP--G==-" in="" out="">Iraks</W>
+<W id="91" msd="NCCSU==I" in="" out="">invasion</W>
+<W id="92" msd="SP" in="" out="">af</W>
+<W id="93" msd="NP--U==-" in="" out="">Kuwait</W>
+<W id="94" msd="SP" in="" out="">i</W>
+<W id="95" msd="AC---U=--" in="" out="">1990</W>
+<W id="96" msd="CC" in="" out="">og</W>
+<W id="97" msd="PD-CSU--U" in="" out="">den</W>
+<W id="98" msd="ANP---=-R" in="" out="">efterfølgende</W>
+<W id="99" msd="ANP[CN][SP]U=[DI]U" in="" out="">Første</W>
+<W id="100" msd="NCCSU==I" in="" out="">Golfkrig</W>
+<W id="101" msd="SP" in="" out="">i</W>
+<W id="102" msd="AC---U=--" in="" out="">1991</W>
+<W id="103" msd="XP" in="" out="">.</W>
 </s>
 <s>
-<W msd="NCCSU==D">Aziz</W>
-<W msd="VADA=----A-">blev</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==I">august</W>
-<W msd="ANP[CN][SP]U=[DI]U">sidste</W>
-<W msd="NCNSU==I">år</W>
-<W msd="VAPA=S[CN]I[ARU]-U">idømt</W>
-<W msd="AC---U=--">syv</W>
-<W msd="NCNPG==I">års</W>
-<W msd="NCNSU==I">fængsel</W>
-<W msd="SP">for</W>
-<W msd="PO3CSUSYU">sin</W>
-<W msd="NCCSU==I">rolle</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==D">fordrivelsen</W>
-<W msd="SP">af</W>
-<W msd="NCCPU==I">kurdere</W>
-<W msd="SP">fra</W>
-<W msd="PD-NSU--U">det</W>
-<W msd="ANP[CN]SU=DU">olierige</W>
-<W msd="ANP[CN]SU=DU">nordøstlige</W>
-<W msd="NP--U==-">Irak</W>
-<W msd="SP">under</W>
-<W msd="NP--U==-">Saddam</W>
-<W msd="NP--G==-">Husseins</W>
-<W msd="NCNSU==I">regime</W>
-<W msd="XP">.</W>
+<W id="106" msd="U=" in="" out="">Som</W>
+<W id="107" msd="PD-CSU--U" in="" out="">den</W>
+<W id="108" msd="ANP[CN][SP]U=[DI]U" in="" out="">eneste</W>
+<W id="109" msd="ANP[CN]SU=DU" in="" out="">kristne</W>
+<W id="110" msd="SP" in="" out="">i</W>
+<W id="111" msd="NP--U==-" in="" out="">Saddam</W>
+<W id="112" msd="NP--G==-" in="" out="">Husseins</W>
+<W id="113" msd="NCCSU==I" in="" out="">inderkreds</W>
+<W id="114" msd="VADA=----A-" in="" out="">spillede</W>
+<W id="115" msd="PD-CSU--U" in="-33:coref-var" out="23:coref">den</W>
+<W id="116" msd="ANP[CN]SU=DU" in="" out="">gråhårede</W>
+<W id="117" msd="NCCSU==I" in="" out="">minister</W>
+<W id="118" msd="SP" in="" out="">med</W>
+<W id="119" msd="PD-[CN]PU--U" in="" out="">de</W>
+<W id="120" msd="ANP[CN]PU=[DI]U" in="" out="">store</W>
+<W id="121" msd="NCCPU==I" in="" out="">briller</W>
+<W id="122" msd="CC" in="" out="">og</W>
+<W id="123" msd="PD-NSU--U" in="" out="">det</W>
+<W id="124" msd="ANP[CN]SU=DU" in="" out="">fejlfrie</W>
+<W id="125" msd="NCNSU==I" in="" out="">engelsk</W>
+<W id="126" msd="PI-CSU--U" in="" out="">en</W>
+<W id="127" msd="VAPR=[SP][CN][DI]A-U" in="" out="">ledende</W>
+<W id="128" msd="ANP[CN]SU=IU" in="" out="">diplomatisk</W>
+<W id="129" msd="NCCSU==I" in="" out="">rolle</W>
+<W id="130" msd="SP" in="" out="">i</W>
+<W id="131" msd="NCCSU==D" in="" out="">optakten</W>
+<W id="132" msd="SP" in="" out="">til</W>
+<W id="133" msd="NCCSU==D" in="" out="">Golfkrigen</W>
+<W id="134" msd="SP" in="" out="">i</W>
+<W id="135" msd="AC---U=--" in="" out="">1991</W>
+<W id="136" msd="XP" in="" out="">,</W>
+<W id="137" msd="RGU" in="" out="">hvor</W>
+<W id="138" msd="PP3CSN-NU" in="-23:coref" out="13:coref">han</W>
+<W id="139" msd="VADA=----A-" in="" out="">blev</W>
+<W id="140" msd="PI-NSU--U" in="" out="">et</W>
+<W id="141" msd="ANP[CN]SU=IU" in="" out="">kendt</W>
+<W id="142" msd="NCNSU==I" in="" out="">ansigt</W>
+<W id="143" msd="SP" in="" out="">i</W>
+<W id="144" msd="PD-[CN]PU--U" in="" out="">de</W>
+<W id="145" msd="ANP[CN]PU=[DI]U" in="" out="">internationale</W>
+<W id="146" msd="NCCPU==I" in="" out="">medier.</W>
+</s>
+</p>
+<p>
+<s>
+<W id="151" msd="PP3CSN-NU" in="-13:coref" out="14:coref">Han</W>
+<W id="152" msd="VADA=----A-" in="" out="">tjente</W>
+<W id="153" msd="RGU" in="" out="">også</W>
+<W id="154" msd="U=" in="" out="">som</W>
+<W id="155" msd="NCCPU==I" in="" out="">vicepremierminister</W>
+<W id="156" msd="SP" in="" out="">før</W>
+<W id="157" msd="PD-CSU--U" in="" out="">den</W>
+<W id="158" msd="ANP[CN]SU=DU" in="" out="">amerikanskledede</W>
+<W id="159" msd="NCCSU==I" in="" out="">invasion</W>
+<W id="160" msd="SP" in="" out="">i</W>
+<W id="161" msd="NCCSU==D" in="" out="">2003</W>
+<W id="162" msd="XP" in="" out="">.</W>
 </s>
 <s>
-<W msd="PI-NSU--U">Et</W>
-<W msd="ANPNSU=IU">halvt</W>
-<W msd="NCNSU==I">år</W>
-<W msd="RGU">forinden</W>
-<W msd="VADA=----A-">fik</W>
-<W msd="PP3CSN-NU">han</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="NCCSU==I">dom</W>
-<W msd="SP">på</W>
-<W msd="AC---U=--">15</W>
-<W msd="NCNPG==I">års</W>
-<W msd="NCNSU==I">fængsel</W>
-<W msd="SP">for</W>
-<W msd="PO3CSUSYU">sin</W>
-<W msd="NCCSU==I">rolle</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==D">drabene</W>
-<W msd="SP">på</W>
-<W msd="RGU">snesevis</W>
-<W msd="SP">af</W>
-<W msd="NCCSU==D">handlende</W>
-<W msd="XP">,</W>
-<W msd="U=">der</W>
-<W msd="VADA=----A-">brød</W>
-<W msd="NCCSG==D">statens</W>
-<W msd="NCCSU==I">priskontrol</W>
-<W msd="SP">i</W>
-<W msd="AC---U=--">1992</W>
-<W msd="XP">.</W>
+<W id="165" msd="NCCSU==D" in="-14:coref" out="11:coref">Aziz</W>
+<W id="166" msd="VADA=----A-" in="" out="">blev</W>
+<W id="167" msd="SP" in="" out="">i</W>
+<W id="168" msd="NCCSU==I" in="" out="">august</W>
+<W id="169" msd="ANP[CN][SP]U=[DI]U" in="" out="">sidste</W>
+<W id="170" msd="NCNSU==I" in="" out="">år</W>
+<W id="171" msd="VAPA=S[CN]I[ARU]-U" in="" out="">idømt</W>
+<W id="172" msd="AC---U=--" in="" out="">syv</W>
+<W id="173" msd="NCNPG==I" in="" out="">års</W>
+<W id="174" msd="NCNSU==I" in="" out="">fængsel</W>
+<W id="175" msd="SP" in="" out="">for</W>
+<W id="176" msd="PO3CSUSYU" in="-11:coref" out="23:coref">sin</W>
+<W id="177" msd="NCCSU==I" in="" out="">rolle</W>
+<W id="178" msd="SP" in="" out="">i</W>
+<W id="179" msd="NCCSU==D" in="" out="">fordrivelsen</W>
+<W id="180" msd="SP" in="" out="">af</W>
+<W id="181" msd="NCCPU==I" in="" out="">kurdere</W>
+<W id="182" msd="SP" in="" out="">fra</W>
+<W id="183" msd="PD-NSU--U" in="" out="">det</W>
+<W id="184" msd="ANP[CN]SU=DU" in="" out="">olierige</W>
+<W id="185" msd="ANP[CN]SU=DU" in="" out="">nordøstlige</W>
+<W id="186" msd="NP--U==-" in="" out="">Irak</W>
+<W id="187" msd="SP" in="" out="">under</W>
+<W id="188" msd="NP--U==-" in="" out="">Saddam</W>
+<W id="189" msd="NP--G==-" in="" out="">Husseins</W>
+<W id="190" msd="NCNSU==I" in="" out="">regime</W>
+<W id="191" msd="XP" in="" out="">.</W>
+</s>
+<s>
+<W id="194" msd="PI-NSU--U" in="" out="">Et</W>
+<W id="195" msd="ANPNSU=IU" in="" out="">halvt</W>
+<W id="196" msd="NCNSU==I" in="" out="">år</W>
+<W id="197" msd="RGU" in="" out="">forinden</W>
+<W id="198" msd="VADA=----A-" in="" out="">fik</W>
+<W id="199" msd="PP3CSN-NU" in="-23:coref" out="8:coref">han</W>
+<W id="200" msd="PI-CSU--U" in="" out="">en</W>
+<W id="201" msd="NCCSU==I" in="" out="">dom</W>
+<W id="202" msd="SP" in="" out="">på</W>
+<W id="203" msd="AC---U=--" in="" out="">15</W>
+<W id="204" msd="NCNPG==I" in="" out="">års</W>
+<W id="205" msd="NCNSU==I" in="" out="">fængsel</W>
+<W id="206" msd="SP" in="" out="">for</W>
+<W id="207" msd="PO3CSUSYU" in="-8:coref" out="">sin</W>
+<W id="208" msd="NCCSU==I" in="" out="">rolle</W>
+<W id="209" msd="SP" in="" out="">i</W>
+<W id="210" msd="NCCSU==D" in="" out="">drabene</W>
+<W id="211" msd="SP" in="" out="">på</W>
+<W id="212" msd="RGU" in="" out="4:ref">snesevis</W>
+<W id="213" msd="SP" in="" out="">af</W>
+<W id="214" msd="NCCSU==D" in="" out="">handlende</W>
+<W id="215" msd="XP" in="" out="">,</W>
+<W id="216" msd="U=" in="-4:ref" out="">der</W>
+<W id="217" msd="VADA=----A-" in="" out="">brød</W>
+<W id="218" msd="NCCSG==D" in="" out="">statens</W>
+<W id="219" msd="NCCSU==I" in="" out="">priskontrol</W>
+<W id="220" msd="SP" in="" out="">i</W>
+<W id="221" msd="AC---U=--" in="" out="">1992</W>
+<W id="222" msd="XP" in="" out="">.</W>
 </s>
 </p>
