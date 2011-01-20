@@ -1,303 +1,303 @@
 <p>
 <s>
-<W msd="NP--U==-">EM</W>
-<W msd="NP--U==-">2012</W>
-<W msd="VAPA=S[CN]I[ARU]-U">truet</W>
-<W msd="SP">af</W>
-<W msd="NCCSU==I">skandale</W>
-<W msd="SP">om</W>
-<W msd="NCCSU==I">bestikkelse</W>
+<W id="2" msd="NP--U==-" in="" out="15:assoc-const|94:assoc-telic|130:coref-var">EM</W>
+<W id="3" msd="NP--U==-" in="" out="">2012</W>
+<W id="4" msd="VAPA=S[CN]I[ARU]-U" in="" out="">truet</W>
+<W id="5" msd="SP" in="" out="">af</W>
+<W id="6" msd="NCCSU==I" in="" out="">skandale</W>
+<W id="7" msd="SP" in="" out="">om</W>
+<W id="8" msd="NCCSU==I" in="" out="">bestikkelse</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="NCCSU==D">FODBOLD</W>
-<W msd="XP">.</W>
+<W id="13" msd="NCCSU==D" in="" out="">FODBOLD</W>
+<W id="14" msd="XP" in="" out="">.</W>
 </s>
 <s>
-<W msd="NCCSU==D">EM-slutrunden</W>
-<W msd="SP">i</W>
-<W msd="NP--U==-">Polen</W>
-<W msd="CC">og</W>
-<W msd="NP--U==-">Ukraine</W>
-<W msd="SP">i</W>
-<W msd="NP--U==-">2012</W>
-<W msd="VADR=----A-">har</W>
-<W msd="ANP[CN]PU=[DI]U">adskillige</W>
-<W msd="NCCPU==I">gange</W>
-<W msd="VAPA=S[CN]I[ARU]-U">været</W>
-<W msd="SP">under</W>
-<W msd="NCCSU==I">beskydning.</W>
-</s>
-</p>
-<p>
-<s>
-<W msd="CC">Og</W>
-<W msd="RGU">nu</W>
-<W msd="VADR=----A-">sker</W>
-<W msd="PD-NSU--U">det</W>
-<W msd="NCNSU==I">igen.</W>
+<W id="17" msd="NCCSU==D" in="-15:assoc-const" out="">EM-slutrunden</W>
+<W id="18" msd="SP" in="" out="">i</W>
+<W id="19" msd="NP--U==-" in="" out="34:coref-var">Polen</W>
+<W id="20" msd="CC" in="" out="">og</W>
+<W id="21" msd="NP--U==-" in="" out="">Ukraine</W>
+<W id="22" msd="SP" in="188:coref" out="">i</W>
+<W id="23" msd="NP--U==-" in="" out="">2012</W>
+<W id="24" msd="VADR=----A-" in="" out="13:coref-res">har</W>
+<W id="25" msd="ANP[CN]PU=[DI]U" in="" out="">adskillige</W>
+<W id="26" msd="NCCPU==I" in="" out="">gange</W>
+<W id="27" msd="VAPA=S[CN]I[ARU]-U" in="" out="">været</W>
+<W id="28" msd="SP" in="" out="">under</W>
+<W id="29" msd="NCCSU==I" in="" out="">beskydning.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="PP3NSU-NU">Det</W>
-<W msd="ANP[CN]PU=[DI]U">europæiske</W>
-<W msd="NCNPU==I">fodboldforbund</W>
-<W msd="XP">(</W>
-<W msd="AC---U=--">Uefa</W>
-<W msd="XP">)</W>
-<W msd="VADR=----A-">har</W>
-<W msd="VAPA=S[CN]I[ARU]-U">bl.</W>
-<W msd="XA">a.</W>
-<W msd="VAPA=S[CN]I[ARU]-U">kritiseret</W>
-<W msd="ANP[CN]PU=[DI]U">værtslandenes</W>
-<W msd="NCCPU==I">byggeplaner</W>
-<W msd="CC">og</W>
-<W msd="ANC[CN]PU=[DI]U">flere</W>
-<W msd="NCCPU==I">gange</W>
-<W msd="VADA=----A-">sået</W>
-<W msd="NCCSU==I">tvivl</W>
-<W msd="SP">om</W>
-<W msd="XP">,</W>
-<W msd="CS">hvorvidt</W>
-<W msd="NP--U==-">Polen</W>
-<W msd="CC">og</W>
-<W msd="NP--U==-">Ukraine</W>
-<W msd="RGU">overhovedet</W>
-<W msd="VADR=----A-">kan</W>
-<W msd="VAF-=----A-">nå</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">blive</W>
-<W msd="VAPA=S[CN]I[ARU]-U">EM-klar</W>
-<W msd="SP">om</W>
-<W msd="ANP[CN]PU=[DI]U">små</W>
-<W msd="AC---U=--">19</W>
-<W msd="NCCPU==I">måneder.</W>
+<W id="34" msd="CC" in="" out="">Og</W>
+<W id="35" msd="RGU" in="" out="">nu</W>
+<W id="36" msd="VADR=----A-" in="" out="">sker</W>
+<W id="37" msd="PD-NSU--U" in="-13:coref-res" out="">det</W>
+<W id="38" msd="NCNSU==I" in="" out="">igen.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="CC">Men</W>
-<W msd="U=">der</W>
-<W msd="VADR=----A-">har</W>
-<W msd="RGU">måske</W>
-<W msd="VAPA=S[CN]I[ARU]-U">været</W>
-<W msd="VAPA=S[CN]I[ARU]-U">ugler</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==D">mosen</W>
-<W msd="RGP">længe</W>
-<W msd="XP">,</W>
-<W msd="CS">inden</W>
-<W msd="NP--U==-">Polen</W>
-<W msd="CC">og</W>
-<W msd="NP--U==-">Ukraine</W>
-<W msd="VADA=----A-">fik</W>
-<W msd="VAPA=S[CN]I[ARU]-U">tildelt</W>
-<W msd="NCCSU==I">værtskabet.</W>
+<W id="43" msd="PP3NSU-NU" in="" out="115:coref-var">Det</W>
+<W id="44" msd="ANP[CN]PU=[DI]U" in="" out="">europæiske</W>
+<W id="45" msd="NCNPU==I" in="" out="">fodboldforbund</W>
+<W id="46" msd="XP" in="" out="">(</W>
+<W id="47" msd="AC---U=--" in="" out="">Uefa</W>
+<W id="48" msd="XP" in="" out="">)</W>
+<W id="49" msd="VADR=----A-" in="" out="">har</W>
+<W id="50" msd="VAPA=S[CN]I[ARU]-U" in="" out="">bl.</W>
+<W id="51" msd="XA" in="" out="">a.</W>
+<W id="52" msd="VAPA=S[CN]I[ARU]-U" in="" out="">kritiseret</W>
+<W id="53" msd="ANP[CN]PU=[DI]U" in="-34:coref-var" out="10:coref-var">værtslandenes</W>
+<W id="54" msd="NCCPU==I" in="" out="">byggeplaner</W>
+<W id="55" msd="CC" in="" out="">og</W>
+<W id="56" msd="ANC[CN]PU=[DI]U" in="" out="">flere</W>
+<W id="57" msd="NCCPU==I" in="" out="">gange</W>
+<W id="58" msd="VADA=----A-" in="" out="">sået</W>
+<W id="59" msd="NCCSU==I" in="" out="">tvivl</W>
+<W id="60" msd="SP" in="" out="">om</W>
+<W id="61" msd="XP" in="" out="">,</W>
+<W id="62" msd="CS" in="" out="">hvorvidt</W>
+<W id="63" msd="NP--U==-" in="-10:coref-var" out="28:coref-iden">Polen</W>
+<W id="64" msd="CC" in="" out="">og</W>
+<W id="65" msd="NP--U==-" in="" out="">Ukraine</W>
+<W id="66" msd="RGU" in="" out="">overhovedet</W>
+<W id="67" msd="VADR=----A-" in="" out="">kan</W>
+<W id="68" msd="VAF-=----A-" in="" out="">nå</W>
+<W id="69" msd="U=" in="" out="">at</W>
+<W id="70" msd="VAF-=----A-" in="" out="">blive</W>
+<W id="71" msd="VAPA=S[CN]I[ARU]-U" in="" out="">EM-klar</W>
+<W id="72" msd="SP" in="" out="">om</W>
+<W id="73" msd="ANP[CN]PU=[DI]U" in="" out="">små</W>
+<W id="74" msd="AC---U=--" in="" out="">19</W>
+<W id="75" msd="NCCPU==I" in="" out="">måneder.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="PI-CSU--U">En</W>
-<W msd="ANC[CN][SP]U=[DI]U">tidligere</W>
-<W msd="NCCSU==I">leder</W>
-<W msd="SP">i</W>
-<W msd="PD-NSU--U">det</W>
-<W msd="ANP[CN]PU=[DI]U">cypriotiske</W>
-<W msd="NCNPU==I">fodboldforbund</W>
-<W msd="XP">,</W>
-<W msd="NP--U==-">Spyros</W>
-<W msd="NP--U==-">Marangos</W>
-<W msd="XP">,</W>
-<W msd="VADR=----A-">siger</W>
-<W msd="XP">,</W>
-<W msd="CS">at</W>
-<W msd="PP3CSN-NU">han</W>
-<W msd="VADR=----A-">kan</W>
-<W msd="VAF-=----A-">bevise</W>
-<W msd="XP">,</W>
-<W msd="CS">at</W>
-<W msd="U=">der</W>
-<W msd="VADR=----A-">er</W>
-<W msd="VAPA=S[CN]I[ARU]-U">blevet</W>
-<W msd="VAPA=S[CN]I[ARU]-U">betalt</W>
-<W msd="NCCPU==I">penge</W>
-<W msd="SP">under</W>
-<W msd="NCNSU==D">bordet</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==I">forbindelse</W>
-<W msd="SP">med</W>
-<W msd="NCCSU==I">tildelingen</W>
-<W msd="SP">af</W>
-<W msd="PD-NSU--U">det</W>
-<W msd="ANP[CN]SU=DU">store</W>
-<W msd="NCNSU==I">fodboldarrangement.</W>
+<W id="80" msd="CC" in="" out="">Men</W>
+<W id="81" msd="U=" in="" out="">der</W>
+<W id="82" msd="VADR=----A-" in="" out="">har</W>
+<W id="83" msd="RGU" in="" out="">måske</W>
+<W id="84" msd="VAPA=S[CN]I[ARU]-U" in="" out="">været</W>
+<W id="85" msd="VAPA=S[CN]I[ARU]-U" in="" out="">ugler</W>
+<W id="86" msd="SP" in="" out="">i</W>
+<W id="87" msd="NCCSU==D" in="" out="">mosen</W>
+<W id="88" msd="RGP" in="" out="">længe</W>
+<W id="89" msd="XP" in="" out="">,</W>
+<W id="90" msd="CS" in="" out="">inden</W>
+<W id="91" msd="NP--U==-" in="-28:coref-iden" out="">Polen</W>
+<W id="92" msd="CC" in="" out="">og</W>
+<W id="93" msd="NP--U==-" in="" out="">Ukraine</W>
+<W id="94" msd="VADA=----A-" in="" out="36:coref-res">fik</W>
+<W id="95" msd="VAPA=S[CN]I[ARU]-U" in="" out="">tildelt</W>
+<W id="96" msd="NCCSU==I" in="-94:assoc-telic" out="">værtskabet.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="AC---U=--">Marangos</W>
-<W msd="ANP[CN]PU=[DI]U">'</W>
-<W msd="NCCPU==I">advokater</W>
-<W msd="VADR=----A-">hævder</W>
-<W msd="SP">ifølge</W>
-<W msd="NP--U==-">BBC</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">have</W>
-<W msd="NCNPU==I">vidner</W>
-<W msd="SP">til</W>
-<W msd="PD-[CN]PU--U">de</W>
-<W msd="ANP[CN][SP]U=[DI]U">lyssky</W>
-<W msd="NCCPU==I">pengetransaktioner</W>
-<W msd="CC">og</W>
-<W msd="VADR=----A-">har</W>
-<W msd="ANP---=-R">angiveligt</W>
-<W msd="VAPA=S[CN]I[ARU]-U">prøvet</W>
-<W msd="SP">af</W>
-<W msd="ANP[CN]PU=[DI]U">få</W>
-<W msd="NCCPU==I">Uefa</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==I">tale</W>
-<W msd="SP">i</W>
-<W msd="AC---U=--">to</W>
-<W msd="NCNPU==I">år</W>
-<W msd="XP">.</W>
-</s>
-<s>
-<W msd="PI-NSU--U">Et</W>
-<W msd="NCNSU==I">møde</W>
-<W msd="SP">mellem</W>
-<W msd="NP--U==-">Marangos</W>
-<W msd="CC">og</W>
-<W msd="NP--U==-">Uefa</W>
-<W msd="VADA=----A-">var</W>
-<W msd="RGU">da</W>
-<W msd="RGU">også</W>
-<W msd="VAPA=S[CN]I[ARU]-U">arrangeret</W>
-<W msd="CC">og</W>
-<W msd="VAPA=S[CN]I[ARU]-U">planlagt</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==I">august</W>
-<W msd="XP">,</W>
-<W msd="CC">men</W>
-<W msd="NCCSU==D">Uefa</W>
-<W msd="VADA=----A-">aflyste</W>
-<W msd="NCNSU==D">mødet</W>
-<W msd="SP">med</W>
-<W msd="AC---U=--">fire</W>
-<W msd="NCCPG==I">dages</W>
-<W msd="NCNSU==I">varsel</W>
-<W msd="CC">og</W>
-<W msd="VADR=----A-">har</W>
-<W msd="RGU">nu</W>
-<W msd="VAPA=S[CN]I[ARU]-U">givet</W>
-<W msd="ANP[CN]PU=[DI]U">Spyros</W>
-<W msd="NCCPU==I">Marangos</W>
-<W msd="SP">til</W>
-<W msd="NCCSU==I">onsdag</W>
-<W msd="SP">til</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">forklare</W>
-<W msd="PP3[CN][SP]U-YU">sig</W>
-<W msd="ANC---=-R">yderligere</W>
-<W msd="XP">.</W>
-</s>
-<s>
-<W msd="CS">Hvis</W>
-<W msd="RGU">ikke</W>
-<W msd="XP">,</W>
-<W msd="VADR=----A-">sætter</W>
-<W msd="NP--U==-">Uefa</W>
-<W msd="PO3[CN]PUSYU">sine</W>
-<W msd="NCCPU==I">advokater</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==I">gang</W>
-<W msd="SP">med</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">sagsøge</W>
-<W msd="NCCSU==D">cyprioten</W>
-<W msd="SP">for</W>
-<W msd="NP--U==-">injurier.</W>
-<W msd="NP--U==-">�</W>
-<W msd="NP--U==-">�Vi</W>
-<W msd="VADR=----A-">tager</W>
-<W msd="NCCSU==D">kampen</W>
-<W msd="SP">mod</W>
-<W msd="NCCSU==I">korruption</W>
-<W msd="ANP---=-R">meget</W>
-<W msd="ANPNSU=IU">alvorligt«</W>
-<W msd="XP">,</W>
-<W msd="VADR=----A-">hedder</W>
-<W msd="PP3NSU-NU">det</W>
-<W msd="SP">i</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="NCCSU==I">meddelelse</W>
-<W msd="SP">fra</W>
-<W msd="NP--U==-">Uefa.</W>
+<W id="101" msd="PI-CSU--U" in="" out="14:coref">En</W>
+<W id="102" msd="ANC[CN][SP]U=[DI]U" in="" out="">tidligere</W>
+<W id="103" msd="NCCSU==I" in="" out="">leder</W>
+<W id="104" msd="SP" in="" out="">i</W>
+<W id="105" msd="PD-NSU--U" in="" out="">det</W>
+<W id="106" msd="ANP[CN]PU=[DI]U" in="" out="">cypriotiske</W>
+<W id="107" msd="NCNPU==I" in="" out="">fodboldforbund</W>
+<W id="108" msd="XP" in="" out="">,</W>
+<W id="109" msd="NP--U==-" in="" out="">Spyros</W>
+<W id="110" msd="NP--U==-" in="" out="">Marangos</W>
+<W id="111" msd="XP" in="" out="">,</W>
+<W id="112" msd="VADR=----A-" in="" out="">siger</W>
+<W id="113" msd="XP" in="" out="">,</W>
+<W id="114" msd="CS" in="" out="">at</W>
+<W id="115" msd="PP3CSN-NU" in="-14:coref" out="24:coref-var">han</W>
+<W id="116" msd="VADR=----A-" in="" out="">kan</W>
+<W id="117" msd="VAF-=----A-" in="" out="">bevise</W>
+<W id="118" msd="XP" in="" out="">,</W>
+<W id="119" msd="CS" in="" out="">at</W>
+<W id="120" msd="U=" in="" out="">der</W>
+<W id="121" msd="VADR=----A-" in="" out="28:coref-res">er</W>
+<W id="122" msd="VAPA=S[CN]I[ARU]-U" in="" out="">blevet</W>
+<W id="123" msd="VAPA=S[CN]I[ARU]-U" in="" out="">betalt</W>
+<W id="124" msd="NCCPU==I" in="" out="">penge</W>
+<W id="125" msd="SP" in="" out="">under</W>
+<W id="126" msd="NCNSU==D" in="" out="">bordet</W>
+<W id="127" msd="SP" in="" out="">i</W>
+<W id="128" msd="NCCSU==I" in="" out="">forbindelse</W>
+<W id="129" msd="SP" in="" out="">med</W>
+<W id="130" msd="NCCSU==I" in="-36:coref-res" out="">tildelingen</W>
+<W id="131" msd="SP" in="" out="">af</W>
+<W id="132" msd="PD-NSU--U" in="-130:coref-var" out="">det</W>
+<W id="133" msd="ANP[CN]SU=DU" in="" out="">store</W>
+<W id="134" msd="NCNSU==I" in="" out="">fodboldarrangement.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="PP3NSU-NU">Det</W>
-<W msd="ANP[CN]PU=[DI]U">internationale</W>
-<W msd="NCNPU==I">fodboldforbund</W>
-<W msd="XP">(</W>
-<W msd="AC---U=--">Fifa</W>
-<W msd="XP">)</W>
-<W msd="VADA=----A-">blev</W>
-<W msd="SP">for</W>
-<W msd="PI-NSU--U">et</W>
-<W msd="NCNSU==I">par</W>
-<W msd="NCCPU==I">uger</W>
-<W msd="RGU">siden</W>
-<W msd="VAPA=S[CN]I[ARU]-U">ramt</W>
-<W msd="SP">af</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="ANPCSU=IU">bestikkelses-og</W>
-<W msd="NCCSU==I">korruptionsskandale</W>
-<W msd="CC">og</W>
-<W msd="VADR=----A-">er</W>
-<W msd="SP">i</W>
-<W msd="NCNSU==D">øjeblikket</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==I">gang</W>
-<W msd="SP">med</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">kulegrave</W>
-<W msd="NCCSU==D">sagen</W>
-<W msd="XP">,</W>
-<W msd="U=">der</W>
-<W msd="VADR=----A-">handler</W>
-<W msd="SP">om</W>
-<W msd="XP">,</W>
-<W msd="CS">at</W>
-<W msd="AC---U=--">to</W>
-<W msd="NCNPU==I">medlemmer</W>
-<W msd="SP">af</W>
-<W msd="ANP[CN]PU=[DI]U">Fifas</W>
-<W msd="NCCPU==I">eksekutivkomité</W>
-<W msd="VADA=----A-">blev</W>
-<W msd="VAPA=S[CN]I[ARU]-U">taget</W>
-<W msd="SP">på</W>
-<W msd="NCCSG==D">fersk</W>
-<W msd="NCCSU==I">gerning</W>
-<W msd="XP">,</W>
-<W msd="CS">da</W>
-<W msd="PP3[CN]PN-NU">de</W>
-<W msd="VADA=----A-">ville</W>
-<W msd="VAF-=----A-">sælge</W>
-<W msd="PO3[CN][SP]UPNU">deres</W>
-<W msd="NCCPU==I">stemmer</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==I">forbindelse</W>
-<W msd="SP">med</W>
-<W msd="NCNSU==D">valget</W>
-<W msd="SP">af</W>
-<W msd="NCCSU==D">VMvært</W>
-<W msd="SP">i</W>
-<W msd="NP--U==-">2018</W>
-<W msd="CC">og</W>
-<W msd="NP--U==-">2022.</W>
+<W id="139" msd="AC---U=--" in="-24:coref-var" out="31:coref-iden">Marangos</W>
+<W id="140" msd="ANP[CN]PU=[DI]U" in="" out="">'</W>
+<W id="141" msd="NCCPU==I" in="" out="">advokater</W>
+<W id="142" msd="VADR=----A-" in="" out="">hævder</W>
+<W id="143" msd="SP" in="" out="">ifølge</W>
+<W id="144" msd="NP--U==-" in="" out="">BBC</W>
+<W id="145" msd="U=" in="" out="">at</W>
+<W id="146" msd="VAF-=----A-" in="" out="">have</W>
+<W id="147" msd="NCNPU==I" in="" out="">vidner</W>
+<W id="148" msd="SP" in="" out="">til</W>
+<W id="149" msd="PD-[CN]PU--U" in="-28:coref-res" out="">de</W>
+<W id="150" msd="ANP[CN][SP]U=[DI]U" in="" out="">lyssky</W>
+<W id="151" msd="NCCPU==I" in="" out="">pengetransaktioner</W>
+<W id="152" msd="CC" in="" out="">og</W>
+<W id="153" msd="VADR=----A-" in="" out="">har</W>
+<W id="154" msd="ANP---=-R" in="" out="">angiveligt</W>
+<W id="155" msd="VAPA=S[CN]I[ARU]-U" in="" out="">prøvet</W>
+<W id="156" msd="SP" in="" out="">af</W>
+<W id="157" msd="ANP[CN]PU=[DI]U" in="" out="">få</W>
+<W id="158" msd="NCCPU==I" in="-115:coref-var" out="14:coref-iden">Uefa</W>
+<W id="159" msd="SP" in="" out="">i</W>
+<W id="160" msd="NCCSU==I" in="" out="">tale</W>
+<W id="161" msd="SP" in="" out="">i</W>
+<W id="162" msd="AC---U=--" in="" out="">to</W>
+<W id="163" msd="NCNPU==I" in="" out="">år</W>
+<W id="164" msd="XP" in="" out="">.</W>
+</s>
+<s>
+<W id="167" msd="PI-NSU--U" in="" out="18:coref-iden">Et</W>
+<W id="168" msd="NCNSU==I" in="" out="">møde</W>
+<W id="169" msd="SP" in="" out="">mellem</W>
+<W id="170" msd="NP--U==-" in="-31:coref-iden" out="25:coref-var">Marangos</W>
+<W id="171" msd="CC" in="" out="">og</W>
+<W id="172" msd="NP--U==-" in="-14:coref-iden" out="11:coref-iden">Uefa</W>
+<W id="173" msd="VADA=----A-" in="" out="">var</W>
+<W id="174" msd="RGU" in="" out="">da</W>
+<W id="175" msd="RGU" in="" out="">også</W>
+<W id="176" msd="VAPA=S[CN]I[ARU]-U" in="" out="">arrangeret</W>
+<W id="177" msd="CC" in="" out="">og</W>
+<W id="178" msd="VAPA=S[CN]I[ARU]-U" in="" out="">planlagt</W>
+<W id="179" msd="SP" in="" out="">i</W>
+<W id="180" msd="NCCSU==I" in="" out="">august</W>
+<W id="181" msd="XP" in="" out="">,</W>
+<W id="182" msd="CC" in="" out="">men</W>
+<W id="183" msd="NCCSU==D" in="-11:coref-iden" out="27:coref-iden">Uefa</W>
+<W id="184" msd="VADA=----A-" in="" out="">aflyste</W>
+<W id="185" msd="NCNSU==D" in="-18:coref-iden" out="">mødet</W>
+<W id="186" msd="SP" in="" out="">med</W>
+<W id="187" msd="AC---U=--" in="" out="">fire</W>
+<W id="188" msd="NCCPG==I" in="" out="">dages</W>
+<W id="189" msd="NCNSU==I" in="" out="">varsel</W>
+<W id="190" msd="CC" in="" out="">og</W>
+<W id="191" msd="VADR=----A-" in="" out="">har</W>
+<W id="192" msd="RGU" in="" out="">nu</W>
+<W id="193" msd="VAPA=S[CN]I[ARU]-U" in="" out="">givet</W>
+<W id="194" msd="ANP[CN]PU=[DI]U" in="" out="">Spyros</W>
+<W id="195" msd="NCCPU==I" in="-25:coref-var" out="6:coref|23:coref-var">Marangos</W>
+<W id="196" msd="SP" in="" out="">til</W>
+<W id="197" msd="NCCSU==I" in="" out="">onsdag</W>
+<W id="198" msd="SP" in="" out="">til</W>
+<W id="199" msd="U=" in="" out="">at</W>
+<W id="200" msd="VAF-=----A-" in="" out="">forklare</W>
+<W id="201" msd="PP3[CN][SP]U-YU" in="-6:coref" out="">sig</W>
+<W id="202" msd="ANC---=-R" in="" out="">yderligere</W>
+<W id="203" msd="XP" in="" out="">.</W>
+</s>
+<s>
+<W id="206" msd="CS" in="" out="">Hvis</W>
+<W id="207" msd="RGU" in="" out="">ikke</W>
+<W id="208" msd="XP" in="" out="">,</W>
+<W id="209" msd="VADR=----A-" in="" out="">sætter</W>
+<W id="210" msd="NP--U==-" in="-27:coref-iden" out="-188:coref">Uefa</W>
+<W id="211" msd="PO3[CN]PUSYU" in="" out="">sine</W>
+<W id="212" msd="NCCPU==I" in="" out="">advokater</W>
+<W id="213" msd="SP" in="" out="">i</W>
+<W id="214" msd="NCCSU==I" in="" out="">gang</W>
+<W id="215" msd="SP" in="" out="">med</W>
+<W id="216" msd="U=" in="" out="">at</W>
+<W id="217" msd="VAF-=----A-" in="" out="">sagsøge</W>
+<W id="218" msd="NCCSU==D" in="-23:coref-var" out="">cyprioten</W>
+<W id="219" msd="SP" in="" out="">for</W>
+<W id="220" msd="NP--U==-" in="" out="">injurier.</W>
+<W id="221" msd="NP--U==-" in="" out="">�</W>
+<W id="222" msd="NP--U==-" in="" out="14:coref">�Vi</W>
+<W id="223" msd="VADR=----A-" in="" out="">tager</W>
+<W id="224" msd="NCCSU==D" in="" out="">kampen</W>
+<W id="225" msd="SP" in="" out="">mod</W>
+<W id="226" msd="NCCSU==I" in="" out="">korruption</W>
+<W id="227" msd="ANP---=-R" in="" out="">meget</W>
+<W id="228" msd="ANPNSU=IU" in="" out="">alvorligt«</W>
+<W id="229" msd="XP" in="" out="">,</W>
+<W id="230" msd="VADR=----A-" in="" out="">hedder</W>
+<W id="231" msd="PP3NSU-NU" in="" out="">det</W>
+<W id="232" msd="SP" in="" out="">i</W>
+<W id="233" msd="PI-CSU--U" in="" out="">en</W>
+<W id="234" msd="NCCSU==I" in="" out="">meddelelse</W>
+<W id="235" msd="SP" in="" out="">fra</W>
+<W id="236" msd="NP--U==-" in="-14:coref" out="">Uefa.</W>
+</s>
+</p>
+<p>
+<s>
+<W id="241" msd="PP3NSU-NU" in="" out="36:coref-var">Det</W>
+<W id="242" msd="ANP[CN]PU=[DI]U" in="" out="">internationale</W>
+<W id="243" msd="NCNPU==I" in="" out="">fodboldforbund</W>
+<W id="244" msd="XP" in="" out="">(</W>
+<W id="245" msd="AC---U=--" in="" out="">Fifa</W>
+<W id="246" msd="XP" in="" out="">)</W>
+<W id="247" msd="VADA=----A-" in="" out="">blev</W>
+<W id="248" msd="SP" in="" out="">for</W>
+<W id="249" msd="PI-NSU--U" in="" out="">et</W>
+<W id="250" msd="NCNSU==I" in="" out="">par</W>
+<W id="251" msd="NCCPU==I" in="" out="">uger</W>
+<W id="252" msd="RGU" in="" out="">siden</W>
+<W id="253" msd="VAPA=S[CN]I[ARU]-U" in="" out="">ramt</W>
+<W id="254" msd="SP" in="" out="">af</W>
+<W id="255" msd="PI-CSU--U" in="" out="12:coref-var">en</W>
+<W id="256" msd="ANPCSU=IU" in="" out="">bestikkelses-og</W>
+<W id="257" msd="NCCSU==I" in="" out="">korruptionsskandale</W>
+<W id="258" msd="CC" in="" out="">og</W>
+<W id="259" msd="VADR=----A-" in="" out="">er</W>
+<W id="260" msd="SP" in="" out="">i</W>
+<W id="261" msd="NCNSU==D" in="" out="">øjeblikket</W>
+<W id="262" msd="SP" in="" out="">i</W>
+<W id="263" msd="NCCSU==I" in="" out="">gang</W>
+<W id="264" msd="SP" in="" out="">med</W>
+<W id="265" msd="U=" in="" out="">at</W>
+<W id="266" msd="VAF-=----A-" in="" out="">kulegrave</W>
+<W id="267" msd="NCCSU==D" in="-12:coref-var" out="2:ref">sagen</W>
+<W id="268" msd="XP" in="" out="">,</W>
+<W id="269" msd="U=" in="-2:ref" out="">der</W>
+<W id="270" msd="VADR=----A-" in="" out="">handler</W>
+<W id="271" msd="SP" in="" out="">om</W>
+<W id="272" msd="XP" in="" out="">,</W>
+<W id="273" msd="CS" in="" out="">at</W>
+<W id="274" msd="AC---U=--" in="" out="12:coref">to</W>
+<W id="275" msd="NCNPU==I" in="" out="">medlemmer</W>
+<W id="276" msd="SP" in="" out="">af</W>
+<W id="277" msd="ANP[CN]PU=[DI]U" in="-36:coref-var" out="">Fifas</W>
+<W id="278" msd="NCCPU==I" in="" out="">eksekutivkomité</W>
+<W id="279" msd="VADA=----A-" in="" out="">blev</W>
+<W id="280" msd="VAPA=S[CN]I[ARU]-U" in="" out="">taget</W>
+<W id="281" msd="SP" in="" out="">på</W>
+<W id="282" msd="NCCSG==D" in="" out="">fersk</W>
+<W id="283" msd="NCCSU==I" in="" out="">gerning</W>
+<W id="284" msd="XP" in="" out="">,</W>
+<W id="285" msd="CS" in="" out="">da</W>
+<W id="286" msd="PP3[CN]PN-NU" in="-12:coref" out="3:coref">de</W>
+<W id="287" msd="VADA=----A-" in="" out="">ville</W>
+<W id="288" msd="VAF-=----A-" in="" out="">sælge</W>
+<W id="289" msd="PO3[CN][SP]UPNU" in="-3:coref" out="">deres</W>
+<W id="290" msd="NCCPU==I" in="" out="">stemmer</W>
+<W id="291" msd="SP" in="" out="">i</W>
+<W id="292" msd="NCCSU==I" in="" out="">forbindelse</W>
+<W id="293" msd="SP" in="" out="">med</W>
+<W id="294" msd="NCNSU==D" in="" out="">valget</W>
+<W id="295" msd="SP" in="" out="">af</W>
+<W id="296" msd="NCCSU==D" in="" out="">VMvært</W>
+<W id="297" msd="SP" in="" out="">i</W>
+<W id="298" msd="NP--U==-" in="" out="">2018</W>
+<W id="299" msd="CC" in="" out="">og</W>
+<W id="300" msd="NP--U==-" in="" out="">2022.</W>
 </s>
 </p>

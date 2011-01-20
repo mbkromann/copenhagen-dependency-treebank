@@ -1,353 +1,353 @@
 <p>
 <s>
-<W msd="NP--U==-">Paul</W>
-<W msd="VADR=----A-">skal</W>
-<W msd="VAF-=----A-">leve</W>
-<W msd="RGU">videre</W>
+<W id="2" msd="NP--U==-" in="8:coref-var" out="">Paul</W>
+<W id="3" msd="VADR=----A-" in="" out="">skal</W>
+<W id="4" msd="VAF-=----A-" in="" out="">leve</W>
+<W id="5" msd="RGU" in="" out="">videre</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="PD-CSU--U">Den</W>
-<W msd="ANP[CN]SU=DU">berømte</W>
-<W msd="NCCSU==I">blæksprutte</W>
-<W msd="VADR=----A-">ligger</W>
-<W msd="SP">på</W>
-<W msd="NCCSU==I">køl</W>
-<W msd="XP">,</W>
-<W msd="CS">indtil</W>
-<W msd="PD-NSU--U">det</W>
-<W msd="NCNSU==I">besluttes</W>
-<W msd="XP">,</W>
-<W msd="PT-[CN]SU--U">hvad</W>
-<W msd="U=">der</W>
-<W msd="VADR=----A-">skal</W>
-<W msd="VAF-=----A-">ske</W>
-<W msd="SP">med</W>
-<W msd="PO3[CN][SP]USNU">dens</W>
-<W msd="ANP[CN]SU=DU">afsjælede</W>
-<W msd="NCNSU==I">legeme</W>
+<W id="10" msd="PD-CSU--U" in="" out="-8:coref-var|16:coref">Den</W>
+<W id="11" msd="ANP[CN]SU=DU" in="" out="">berømte</W>
+<W id="12" msd="NCCSU==I" in="" out="">blæksprutte</W>
+<W id="13" msd="VADR=----A-" in="" out="">ligger</W>
+<W id="14" msd="SP" in="" out="">på</W>
+<W id="15" msd="NCCSU==I" in="" out="">køl</W>
+<W id="16" msd="XP" in="" out="">,</W>
+<W id="17" msd="CS" in="" out="">indtil</W>
+<W id="18" msd="PD-NSU--U" in="" out="">det</W>
+<W id="19" msd="NCNSU==I" in="" out="">besluttes</W>
+<W id="20" msd="XP" in="" out="">,</W>
+<W id="21" msd="PT-[CN]SU--U" in="" out="">hvad</W>
+<W id="22" msd="U=" in="" out="">der</W>
+<W id="23" msd="VADR=----A-" in="" out="">skal</W>
+<W id="24" msd="VAF-=----A-" in="" out="">ske</W>
+<W id="25" msd="SP" in="" out="">med</W>
+<W id="26" msd="PO3[CN][SP]USNU" in="-16:coref" out="14:coref-var">dens</W>
+<W id="27" msd="ANP[CN]SU=DU" in="" out="">afsjælede</W>
+<W id="28" msd="NCNSU==I" in="" out="">legeme</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="SP">Af</W>
-<W msd="NP--U==-">KENAN</W>
-<W msd="NP--U==-">SEEBERG</W>
+<W id="33" msd="SP" in="" out="">Af</W>
+<W id="34" msd="NP--U==-" in="" out="">KENAN</W>
+<W id="35" msd="NP--U==-" in="" out="">SEEBERG</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="PD-CSU--U">Den</W>
-<W msd="ANP[CN]SU=DU">verdensberømte</W>
-<W msd="NCCSU==I">blæksprutte</W>
-<W msd="NP--U==-">Paul</W>
-<W msd="VADA=----A-">døde</W>
-<W msd="SP">af</W>
-<W msd="ANP[CN]PU=[DI]U">naturlige</W>
-<W msd="NCCPU==I">årsager</W>
-<W msd="SP">i</W>
-<W msd="PO3NSUSYU">sit</W>
-<W msd="NCNSU==I">akvarium</W>
-<W msd="NCCSU==D">natten</W>
-<W msd="SP">til</W>
-<W msd="NP--U==-">tirsdag.</W>
-<W msd="NP--U==-">�</W>
-<W msd="NP--U==-">�Ledelse</W>
-<W msd="CC">og</W>
-<W msd="VAPA=P[CN][DI]A-U">ansatte</W>
-<W msd="SP">på</W>
-<W msd="NCCSU==D">Oberhausen</W>
-<W msd="NP--U==-">Sea</W>
-<W msd="NP--U==-">Life</W>
-<W msd="NCNSU==I">Center</W>
-<W msd="VADR=----A-">er</W>
-<W msd="VAPA=S[CN]I[ARU]-U">forfærdede</W>
-<W msd="SP">over</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">erfare</W>
-<W msd="XP">,</W>
-<W msd="CS">at</W>
-<W msd="NCCSU==D">oraklet</W>
-<W msd="NP--U==-">Paul</W>
-<W msd="VADR=----A-">er</W>
-<W msd="ANPCSU=IU">død</W>
-<W msd="SP">i</W>
-<W msd="NCNSU==D">løbet</W>
-<W msd="SP">af</W>
-<W msd="NP--U==-">natten,«</W>
-<W msd="VADA=----A-">meddelte</W>
-<W msd="PD-NSU--U">det</W>
-<W msd="ANP[CN]SU=DU">tyske</W>
-<W msd="ANP[CN]SU=DU">akvariums</W>
-<W msd="NCCSU==I">chef</W>
-<W msd="NP--U==-">Stefan</W>
-<W msd="NP--U==-">Porwoll</W>
-<W msd="NCCSU==I">tirsdag</W>
-<W msd="SP">i</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="ANPCSU=IU">dyster</W>
-<W msd="NCCSU==I">pressemeddelelse.</W>
+<W id="40" msd="PD-CSU--U" in="-14:coref-var" out="9:coref">Den</W>
+<W id="41" msd="ANP[CN]SU=DU" in="" out="">verdensberømte</W>
+<W id="42" msd="NCCSU==I" in="" out="">blæksprutte</W>
+<W id="43" msd="NP--U==-" in="" out="">Paul</W>
+<W id="44" msd="VADA=----A-" in="" out="">døde</W>
+<W id="45" msd="SP" in="" out="">af</W>
+<W id="46" msd="ANP[CN]PU=[DI]U" in="" out="">naturlige</W>
+<W id="47" msd="NCCPU==I" in="" out="">årsager</W>
+<W id="48" msd="SP" in="" out="">i</W>
+<W id="49" msd="PO3NSUSYU" in="-9:coref" out="21:coref-var">sit</W>
+<W id="50" msd="NCNSU==I" in="" out="">akvarium</W>
+<W id="51" msd="NCCSU==D" in="" out="">natten</W>
+<W id="52" msd="SP" in="" out="">til</W>
+<W id="53" msd="NP--U==-" in="" out="">tirsdag.</W>
+<W id="54" msd="NP--U==-" in="" out="">�</W>
+<W id="55" msd="NP--U==-" in="" out="">�Ledelse</W>
+<W id="56" msd="CC" in="" out="">og</W>
+<W id="57" msd="VAPA=P[CN][DI]A-U" in="" out="">ansatte</W>
+<W id="58" msd="SP" in="" out="">på</W>
+<W id="59" msd="NCCSU==D" in="" out="20:coref-var|124:coref-iden">Oberhausen</W>
+<W id="60" msd="NP--U==-" in="" out="">Sea</W>
+<W id="61" msd="NP--U==-" in="" out="">Life</W>
+<W id="62" msd="NCNSU==I" in="" out="">Center</W>
+<W id="63" msd="VADR=----A-" in="" out="">er</W>
+<W id="64" msd="VAPA=S[CN]I[ARU]-U" in="" out="">forfærdede</W>
+<W id="65" msd="SP" in="" out="">over</W>
+<W id="66" msd="U=" in="" out="">at</W>
+<W id="67" msd="VAF-=----A-" in="" out="">erfare</W>
+<W id="68" msd="XP" in="" out="">,</W>
+<W id="69" msd="CS" in="" out="">at</W>
+<W id="70" msd="NCCSU==D" in="-21:coref-var" out="24:coref-var">oraklet</W>
+<W id="71" msd="NP--U==-" in="" out="">Paul</W>
+<W id="72" msd="VADR=----A-" in="" out="">er</W>
+<W id="73" msd="ANPCSU=IU" in="" out="">død</W>
+<W id="74" msd="SP" in="" out="">i</W>
+<W id="75" msd="NCNSU==D" in="" out="">løbet</W>
+<W id="76" msd="SP" in="" out="">af</W>
+<W id="77" msd="NP--U==-" in="" out="">natten,«</W>
+<W id="78" msd="VADA=----A-" in="" out="">meddelte</W>
+<W id="79" msd="PD-NSU--U" in="-20:coref-var" out="">det</W>
+<W id="80" msd="ANP[CN]SU=DU" in="" out="">tyske</W>
+<W id="81" msd="ANP[CN]SU=DU" in="" out="">akvariums</W>
+<W id="82" msd="NCCSU==I" in="" out="">chef</W>
+<W id="83" msd="NP--U==-" in="" out="">Stefan</W>
+<W id="84" msd="NP--U==-" in="" out="">Porwoll</W>
+<W id="85" msd="NCCSU==I" in="" out="">tirsdag</W>
+<W id="86" msd="SP" in="" out="">i</W>
+<W id="87" msd="PI-CSU--U" in="" out="">en</W>
+<W id="88" msd="ANPCSU=IU" in="" out="">dyster</W>
+<W id="89" msd="NCCSU==I" in="" out="">pressemeddelelse.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="NP--U==-">Blæksprutten</W>
-<W msd="NP--U==-">Paul</W>
-<W msd="VADA=----A-">blev</W>
-<W msd="ANP[CN]SU=IU">verdensberømt</W>
-<W msd="SP">under</W>
-<W msd="NCCSU==D">VMslutrunden</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==I">fodbold</W>
-<W msd="XP">,</W>
-<W msd="CS">da</W>
-<W msd="PP3CSU-NU">den</W>
-<W msd="VADA=----A-">forudsagde</W>
-<W msd="NCNSU==D">udfaldet</W>
-<W msd="SP">af</W>
-<W msd="ANP[CN]PU=[DI]U">alle</W>
-<W msd="NP--G==-">Tysklands</W>
-<W msd="NCCPU==I">kampe</W>
-<W msd="XP">.</W>
+<W id="94" msd="NP--U==-" in="-24:coref-var" out="10:coref">Blæksprutten</W>
+<W id="95" msd="NP--U==-" in="" out="">Paul</W>
+<W id="96" msd="VADA=----A-" in="" out="">blev</W>
+<W id="97" msd="ANP[CN]SU=IU" in="" out="">verdensberømt</W>
+<W id="98" msd="SP" in="" out="">under</W>
+<W id="99" msd="NCCSU==D" in="" out="16:assoc-telic.agent|18:assoc-const|80:assoc-const">VMslutrunden</W>
+<W id="100" msd="SP" in="" out="">i</W>
+<W id="101" msd="NCCSU==I" in="" out="">fodbold</W>
+<W id="102" msd="XP" in="" out="">,</W>
+<W id="103" msd="CS" in="" out="">da</W>
+<W id="104" msd="PP3CSU-NU" in="-10:coref" out="19:coref">den</W>
+<W id="105" msd="VADA=----A-" in="" out="45:coref-res.prg">forudsagde</W>
+<W id="106" msd="NCNSU==D" in="" out="">udfaldet</W>
+<W id="107" msd="SP" in="" out="">af</W>
+<W id="108" msd="ANP[CN]PU=[DI]U" in="" out="">alle</W>
+<W id="109" msd="NP--G==-" in="" out="">Tysklands</W>
+<W id="110" msd="NCCPU==I" in="" out="">kampe</W>
+<W id="111" msd="XP" in="" out="">.</W>
 </s>
 <s>
-<W msd="CC">Samt</W>
-<W msd="NCCSU==D">vinderen</W>
-<W msd="SP">af</W>
-<W msd="NCCSU==D">finalen</W>
-<W msd="XP">.</W>
+<W id="114" msd="CC" in="" out="">Samt</W>
+<W id="115" msd="NCCSU==D" in="-16:assoc-telic.agent" out="">vinderen</W>
+<W id="116" msd="SP" in="" out="">af</W>
+<W id="117" msd="NCCSU==D" in="-18:assoc-const" out="">finalen</W>
+<W id="118" msd="XP" in="" out="">.</W>
 </s>
 <s>
-<W msd="PP3NSU-NU">Det</W>
-<W msd="VADA=----A-">gjorde</W>
-<W msd="PD-CSU--U">den</W>
-<W msd="SP">ved</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">vælge</W>
-<W msd="PD-CSU--U">den</W>
-<W msd="ANP[CN]SU=DU">rigtige</W>
-<W msd="NCCSU==I">boks</W>
-<W msd="SP">under</W>
-<W msd="NCNSU==D">vandet</W>
-<W msd="SP">med</W>
-<W msd="PD-NSU--U">det</W>
-<W msd="VAPR=[SP][CN][DI]A-U">vindende</W>
-<W msd="NCNSG==I">holds</W>
-<W msd="NCNSU==I">flag</W>
-<W msd="AC---U=--">indeni.</W>
-</s>
-</p>
-<p>
-<s>
-<W msd="PD-CSU--U">Den</W>
-<W msd="ANP[CN]SU=DU">clairvoyante</W>
-<W msd="NCCSU==I">blæksprutte</W>
-<W msd="ANP[CN]PU=[DI]U">begejstrede</W>
-<W msd="CC">og</W>
-<W msd="VAPA=P[CN][DI]A-U">forundrede</W>
-<W msd="NCCSU==I">verden</W>
-<W msd="SP">med</W>
-<W msd="PD-[CN]PU--U">de</W>
-<W msd="ANP[CN]SU=DU">usædvanlige</W>
-<W msd="NCCSU==I">�</W>
-<W msd="NP--U==-">�forudsigelser«</W>
-<W msd="XP">,</W>
-<W msd="CC">men</W>
-<W msd="VADA=----A-">vakte</W>
-<W msd="RGU">også</W>
-<W msd="NCCSU==I">vrede</W>
-<W msd="SP">blandt</W>
-<W msd="PD-[CN]PU--U">de</W>
-<W msd="ANP[CN]PU=[DI]U">tyske</W>
-<W msd="NCCPU==I">fodboldfans</W>
-<W msd="XP">,</W>
-<W msd="CS">da</W>
-<W msd="PP3CSU-NU">den</W>
-<W msd="XP">-</W>
-<W msd="RGU">ganske</W>
-<W msd="ANP---=-R">rigtigt</W>
-<W msd="XP">-</W>
-<W msd="VADA=----A-">spåede</W>
-<W msd="XP">,</W>
-<W msd="CS">at</W>
-<W msd="NP--U==-">Tyskland</W>
-<W msd="VADA=----A-">ville</W>
-<W msd="VAF-=----A-">tabe</W>
-<W msd="SP">til</W>
-<W msd="NP--U==-">Spanien</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==D">semifinalen</W>
-<W msd="XP">.</W>
-</s>
-<s>
-<W msd="NP--U==-">Oberhausen</W>
-<W msd="NP--U==-">Sea</W>
-<W msd="NP--U==-">Life</W>
-<W msd="NCNSU==I">Center</W>
-<W msd="VADA=----A-">modtog</W>
-<W msd="NCCSU==D">dødstrusler</W>
-<W msd="SP">via</W>
-<W msd="NCCPU==I">email</W>
-<W msd="XP">,</W>
-<W msd="RGU">hvori</W>
-<W msd="PP3NSU-NU">det</W>
-<W msd="VADA=----A-">blev</W>
-<W msd="VAPA=S[CN]I[ARU]-U">forlangt</W>
-<W msd="XP">,</W>
-<W msd="CS">at</W>
-<W msd="NCCSU==D">blæksprutten</W>
-<W msd="VADA=----A-">blev</W>
-<W msd="VAPA=S[CN]I[ARU]-U">udleveret</W>
-<W msd="XP">,</W>
-<W msd="CS">så</W>
-<W msd="PP3CSU-NU">den</W>
-<W msd="VADA=----A-">kunne</W>
-<W msd="VAF-=----A-">steges</W>
-<W msd="XP">.</W>
-</s>
-<s>
-<W msd="CC">Og</W>
-<W msd="ANC[CN]PU=[DI]U">flere</W>
-<W msd="NCCPU==I">fodboldfans</W>
-<W msd="VADA=----A-">sang</W>
-<W msd="NCCSU==D">antiblæksprutte-sange</W>
-<W msd="SP">foran</W>
-<W msd="VAPA=P[CN][DI]A-U">opstillede</W>
-<W msd="NCCPU==I">storskærme</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==I">Tyskland.</W>
+<W id="121" msd="PP3NSU-NU" in="" out="">Det</W>
+<W id="122" msd="VADA=----A-" in="" out="">gjorde</W>
+<W id="123" msd="PD-CSU--U" in="-19:coref" out="19:coref-var">den</W>
+<W id="124" msd="SP" in="" out="">ved</W>
+<W id="125" msd="U=" in="" out="">at</W>
+<W id="126" msd="VAF-=----A-" in="" out="">vælge</W>
+<W id="127" msd="PD-CSU--U" in="" out="">den</W>
+<W id="128" msd="ANP[CN]SU=DU" in="" out="">rigtige</W>
+<W id="129" msd="NCCSU==I" in="" out="">boks</W>
+<W id="130" msd="SP" in="" out="">under</W>
+<W id="131" msd="NCNSU==D" in="" out="">vandet</W>
+<W id="132" msd="SP" in="" out="">med</W>
+<W id="133" msd="PD-NSU--U" in="" out="">det</W>
+<W id="134" msd="VAPR=[SP][CN][DI]A-U" in="" out="">vindende</W>
+<W id="135" msd="NCNSG==I" in="" out="">holds</W>
+<W id="136" msd="NCNSU==I" in="" out="">flag</W>
+<W id="137" msd="AC---U=--" in="" out="">indeni.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="NCCSU==D">Stemplet</W>
-<W msd="U=">som</W>
-<W msd="NCCSU==I">landsforræder</W>
+<W id="142" msd="PD-CSU--U" in="-19:coref-var" out="23:coref">Den</W>
+<W id="143" msd="ANP[CN]SU=DU" in="" out="">clairvoyante</W>
+<W id="144" msd="NCCSU==I" in="" out="">blæksprutte</W>
+<W id="145" msd="ANP[CN]PU=[DI]U" in="" out="">begejstrede</W>
+<W id="146" msd="CC" in="" out="">og</W>
+<W id="147" msd="VAPA=P[CN][DI]A-U" in="" out="">forundrede</W>
+<W id="148" msd="NCCSU==I" in="" out="">verden</W>
+<W id="149" msd="SP" in="" out="">med</W>
+<W id="150" msd="PD-[CN]PU--U" in="-45:coref-res.prg" out="">de</W>
+<W id="151" msd="ANP[CN]SU=DU" in="" out="">usædvanlige</W>
+<W id="152" msd="NCCSU==I" in="" out="">�</W>
+<W id="153" msd="NP--U==-" in="" out="">�forudsigelser«</W>
+<W id="154" msd="XP" in="" out="">,</W>
+<W id="155" msd="CC" in="" out="">men</W>
+<W id="156" msd="VADA=----A-" in="" out="">vakte</W>
+<W id="157" msd="RGU" in="" out="">også</W>
+<W id="158" msd="NCCSU==I" in="" out="">vrede</W>
+<W id="159" msd="SP" in="" out="">blandt</W>
+<W id="160" msd="PD-[CN]PU--U" in="" out="">de</W>
+<W id="161" msd="ANP[CN]PU=[DI]U" in="" out="">tyske</W>
+<W id="162" msd="NCCPU==I" in="" out="">fodboldfans</W>
+<W id="163" msd="XP" in="" out="">,</W>
+<W id="164" msd="CS" in="" out="">da</W>
+<W id="165" msd="PP3CSU-NU" in="-23:coref" out="33:coref-var">den</W>
+<W id="166" msd="XP" in="" out="">-</W>
+<W id="167" msd="RGU" in="" out="">ganske</W>
+<W id="168" msd="ANP---=-R" in="" out="">rigtigt</W>
+<W id="169" msd="XP" in="" out="">-</W>
+<W id="170" msd="VADA=----A-" in="" out="">spåede</W>
+<W id="171" msd="XP" in="" out="">,</W>
+<W id="172" msd="CS" in="" out="">at</W>
+<W id="173" msd="NP--U==-" in="" out="">Tyskland</W>
+<W id="174" msd="VADA=----A-" in="" out="">ville</W>
+<W id="175" msd="VAF-=----A-" in="" out="">tabe</W>
+<W id="176" msd="SP" in="" out="">til</W>
+<W id="177" msd="NP--U==-" in="" out="">Spanien</W>
+<W id="178" msd="SP" in="" out="">i</W>
+<W id="179" msd="NCCSU==D" in="-80:assoc-const" out="">semifinalen</W>
+<W id="180" msd="XP" in="" out="">.</W>
+</s>
+<s>
+<W id="183" msd="NP--U==-" in="-124:coref-iden" out="96:coref-var">Oberhausen</W>
+<W id="184" msd="NP--U==-" in="" out="">Sea</W>
+<W id="185" msd="NP--U==-" in="" out="">Life</W>
+<W id="186" msd="NCNSU==I" in="" out="">Center</W>
+<W id="187" msd="VADA=----A-" in="" out="">modtog</W>
+<W id="188" msd="NCCSU==D" in="" out="">dødstrusler</W>
+<W id="189" msd="SP" in="" out="">via</W>
+<W id="190" msd="NCCPU==I" in="" out="">email</W>
+<W id="191" msd="XP" in="" out="">,</W>
+<W id="192" msd="RGU" in="" out="">hvori</W>
+<W id="193" msd="PP3NSU-NU" in="" out="">det</W>
+<W id="194" msd="VADA=----A-" in="" out="">blev</W>
+<W id="195" msd="VAPA=S[CN]I[ARU]-U" in="" out="">forlangt</W>
+<W id="196" msd="XP" in="" out="">,</W>
+<W id="197" msd="CS" in="" out="">at</W>
+<W id="198" msd="NCCSU==D" in="-33:coref-var" out="5:coref">blæksprutten</W>
+<W id="199" msd="VADA=----A-" in="" out="">blev</W>
+<W id="200" msd="VAPA=S[CN]I[ARU]-U" in="" out="">udleveret</W>
+<W id="201" msd="XP" in="" out="">,</W>
+<W id="202" msd="CS" in="" out="">så</W>
+<W id="203" msd="PP3CSU-NU" in="-5:coref" out="27:coref-var">den</W>
+<W id="204" msd="VADA=----A-" in="" out="">kunne</W>
+<W id="205" msd="VAF-=----A-" in="" out="">steges</W>
+<W id="206" msd="XP" in="" out="">.</W>
+</s>
+<s>
+<W id="209" msd="CC" in="" out="">Og</W>
+<W id="210" msd="ANC[CN]PU=[DI]U" in="" out="">flere</W>
+<W id="211" msd="NCCPU==I" in="" out="">fodboldfans</W>
+<W id="212" msd="VADA=----A-" in="" out="">sang</W>
+<W id="213" msd="NCCSU==D" in="" out="">antiblæksprutte-sange</W>
+<W id="214" msd="SP" in="" out="">foran</W>
+<W id="215" msd="VAPA=P[CN][DI]A-U" in="" out="">opstillede</W>
+<W id="216" msd="NCCPU==I" in="" out="">storskærme</W>
+<W id="217" msd="SP" in="" out="">i</W>
+<W id="218" msd="NCCSU==I" in="" out="">Tyskland.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="NP--U==-">Paul</W>
-<W msd="XP">,</W>
-<W msd="U=">der</W>
-<W msd="VADA=----A-">blev</W>
-<W msd="VAPA=S[CN]I[ARU]-U">født</W>
-<W msd="SP">i</W>
-<W msd="NP--U==-">England</W>
-<W msd="XP">,</W>
-<W msd="VADA=----A-">fik</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="ANPCSU=IU">hård</W>
-<W msd="NCCSU==I">medfart</W>
-<W msd="SP">af</W>
-<W msd="PD-CSU--U">den</W>
-<W msd="ANP[CN]SU=DU">engelske</W>
-<W msd="NCCSU==I">presse</W>
-<W msd="XP">,</W>
-<W msd="U=">der</W>
-<W msd="VADA=----A-">kaldte</W>
-<W msd="PD-CSU--U">den</W>
-<W msd="NCCSU==I">landsforræder</W>
-<W msd="XP">,</W>
-<W msd="CS">da</W>
-<W msd="PP3CSU-NU">den</W>
-<W msd="RGU">ganske</W>
-<W msd="ANP---=-R">korrekt</W>
-<W msd="VAPA=S[CN]I[ARU]-U">forudsagde</W>
-<W msd="XP">,</W>
-<W msd="CS">at</W>
-<W msd="NCCPU==D">briterne</W>
-<W msd="VADA=----A-">ville</W>
-<W msd="VAF-=----A-">få</W>
-<W msd="VAPA=S[CN]I[ARU]-U">prygl</W>
-<W msd="SP">af</W>
-<W msd="NCCSU==I">tyskerne.</W>
+<W id="223" msd="NCCSU==D" in="" out="">Stemplet</W>
+<W id="224" msd="U=" in="" out="">som</W>
+<W id="225" msd="NCCSU==I" in="" out="">landsforræder</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="RGU">Nu</W>
-<W msd="VADR=----A-">er</W>
-<W msd="NP--G==-">Pauls</W>
-<W msd="ANP[CN]SU=DU">afdøde</W>
-<W msd="NCNSU==I">legeme</W>
-<W msd="VAPA=S[CN]I[ARU]-U">lagt</W>
-<W msd="SP">på</W>
-<W msd="NCCSU==I">køl</W>
-<W msd="XP">,</W>
-<W msd="CS">mens</W>
-<W msd="NP--U==-">akvariet</W>
-<W msd="VADR=----A-">overvejer</W>
-<W msd="XP">,</W>
-<W msd="RGU">hvordan</W>
-<W msd="PD-CSU--U">den</W>
-<W msd="ANP[CN]SU=DU">clairvoyante</W>
-<W msd="NCCSU==I">blæksprutte</W>
-<W msd="VADR=----A-">skal</W>
-<W msd="VAF-=----P-">mindes</W>
-<W msd="XP">.</W>
-</s>
-<s>
-<W msd="SP">Ifølge</W>
-<W msd="NCCSG==D">Oberhausens</W>
-<W msd="NCCSU==I">direktør</W>
-<W msd="VADR=----A-">overvejer</W>
-<W msd="PI-C[SP]N--U">man</W>
-<W msd="VAF-=----A-">udstopning</W>
-<W msd="XP">,</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="NCCSU==I">begravelsesplads</W>
-<W msd="CC">eller</W>
-<W msd="PI-NSU--U">et</W>
-<W msd="NCNSU==I">mindesmærke.</W>
+<W id="230" msd="NP--U==-" in="-27:coref-var" out="19:coref">Paul</W>
+<W id="231" msd="XP" in="" out="">,</W>
+<W id="232" msd="U=" in="" out="">der</W>
+<W id="233" msd="VADA=----A-" in="" out="">blev</W>
+<W id="234" msd="VAPA=S[CN]I[ARU]-U" in="" out="">født</W>
+<W id="235" msd="SP" in="" out="">i</W>
+<W id="236" msd="NP--U==-" in="" out="23:assoc-loc">England</W>
+<W id="237" msd="XP" in="" out="">,</W>
+<W id="238" msd="VADA=----A-" in="" out="">fik</W>
+<W id="239" msd="PI-CSU--U" in="" out="">en</W>
+<W id="240" msd="ANPCSU=IU" in="" out="">hård</W>
+<W id="241" msd="NCCSU==I" in="" out="">medfart</W>
+<W id="242" msd="SP" in="" out="">af</W>
+<W id="243" msd="PD-CSU--U" in="" out="">den</W>
+<W id="244" msd="ANP[CN]SU=DU" in="" out="">engelske</W>
+<W id="245" msd="NCCSU==I" in="" out="">presse</W>
+<W id="246" msd="XP" in="" out="">,</W>
+<W id="247" msd="U=" in="" out="">der</W>
+<W id="248" msd="VADA=----A-" in="" out="">kaldte</W>
+<W id="249" msd="PD-CSU--U" in="-19:coref" out="4:coref|22:coref">den</W>
+<W id="250" msd="NCCSU==I" in="" out="">landsforræder</W>
+<W id="251" msd="XP" in="" out="">,</W>
+<W id="252" msd="CS" in="" out="">da</W>
+<W id="253" msd="PP3CSU-NU" in="-4:coref" out="">den</W>
+<W id="254" msd="RGU" in="" out="">ganske</W>
+<W id="255" msd="ANP---=-R" in="" out="">korrekt</W>
+<W id="256" msd="VAPA=S[CN]I[ARU]-U" in="" out="">forudsagde</W>
+<W id="257" msd="XP" in="" out="">,</W>
+<W id="258" msd="CS" in="" out="">at</W>
+<W id="259" msd="NCCPU==D" in="-23:assoc-loc" out="">briterne</W>
+<W id="260" msd="VADA=----A-" in="" out="">ville</W>
+<W id="261" msd="VAF-=----A-" in="" out="">få</W>
+<W id="262" msd="VAPA=S[CN]I[ARU]-U" in="" out="">prygl</W>
+<W id="263" msd="SP" in="" out="">af</W>
+<W id="264" msd="NCCSU==I" in="" out="">tyskerne.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="NP--U==-">�</W>
-<W msd="NP--U==-">�Det</W>
-<W msd="VADR=----A-">virker</W>
-<W msd="RGU">måske</W>
-<W msd="ANPNSU=IU">underligt</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">gå</W>
-<W msd="RGU">så</W>
-<W msd="RGU">vidt</W>
-<W msd="SP">for</W>
-<W msd="PI-NSU--U">et</W>
-<W msd="NCNSU==I">havvæsen</W>
-<W msd="XP">,</W>
-<W msd="CC">men</W>
-<W msd="NP--U==-">Paul</W>
-<W msd="VADA=----A-">betød</W>
-<W msd="RGU">så</W>
-<W msd="ANP---=-R">meget</W>
-<W msd="CC">og</W>
-<W msd="VADA=----A-">blev</W>
-<W msd="RGU">så</W>
-<W msd="ANPCSU=IU">populær</W>
-<W msd="SP">i</W>
-<W msd="PO3CSUSYU">sin</W>
-<W msd="ANP[CN]SU=DU">korte</W>
-<W msd="NCCSU==I">levetid</W>
-<W msd="XP">,</W>
-<W msd="CS">at</W>
-<W msd="PP1CPN-NU">vi</W>
-<W msd="VEDR=----A-">synes</W>
-<W msd="XP">,</W>
-<W msd="PP3NSU-NU">det</W>
-<W msd="VADR=----A-">er</W>
-<W msd="ANP[CN][SP]U=[DI]U">passende</W>
-<W msd="U=">at</W>
-<W msd="VEF-=----A-">mindes</W>
-<W msd="PP3CSU-NU">ham</W>
-<W msd="SP">for</W>
-<W msd="NCCSU==I">eftertiden,«</W>
-<W msd="VADR=----A-">siger</W>
-<W msd="NP--U==-">Porwoll</W>
-<W msd="SP">ifølge</W>
-<W msd="NCNSU==D">nyhedsbureauet</W>
-<W msd="NP--U==-">AFP.</W>
+<W id="269" msd="RGU" in="" out="">Nu</W>
+<W id="270" msd="VADR=----A-" in="" out="">er</W>
+<W id="271" msd="NP--G==-" in="-22:coref" out="12:coref-var">Pauls</W>
+<W id="272" msd="ANP[CN]SU=DU" in="" out="">afdøde</W>
+<W id="273" msd="NCNSU==I" in="" out="">legeme</W>
+<W id="274" msd="VAPA=S[CN]I[ARU]-U" in="" out="">lagt</W>
+<W id="275" msd="SP" in="" out="">på</W>
+<W id="276" msd="NCCSU==I" in="" out="">køl</W>
+<W id="277" msd="XP" in="" out="">,</W>
+<W id="278" msd="CS" in="" out="">mens</W>
+<W id="279" msd="NP--U==-" in="-96:coref-var" out="13:coref-var">akvariet</W>
+<W id="280" msd="VADR=----A-" in="" out="">overvejer</W>
+<W id="281" msd="XP" in="" out="">,</W>
+<W id="282" msd="RGU" in="" out="">hvordan</W>
+<W id="283" msd="PD-CSU--U" in="-12:coref-var" out="38:coref-var">den</W>
+<W id="284" msd="ANP[CN]SU=DU" in="" out="">clairvoyante</W>
+<W id="285" msd="NCCSU==I" in="" out="">blæksprutte</W>
+<W id="286" msd="VADR=----A-" in="" out="">skal</W>
+<W id="287" msd="VAF-=----P-" in="" out="">mindes</W>
+<W id="288" msd="XP" in="" out="">.</W>
+</s>
+<s>
+<W id="291" msd="SP" in="" out="">Ifølge</W>
+<W id="292" msd="NCCSG==D" in="-13:coref-var" out="43:assoc-loc">Oberhausens</W>
+<W id="293" msd="NCCSU==I" in="" out="">direktør</W>
+<W id="294" msd="VADR=----A-" in="" out="">overvejer</W>
+<W id="295" msd="PI-C[SP]N--U" in="" out="">man</W>
+<W id="296" msd="VAF-=----A-" in="" out="">udstopning</W>
+<W id="297" msd="XP" in="" out="">,</W>
+<W id="298" msd="PI-CSU--U" in="" out="">en</W>
+<W id="299" msd="NCCSU==I" in="" out="">begravelsesplads</W>
+<W id="300" msd="CC" in="" out="">eller</W>
+<W id="301" msd="PI-NSU--U" in="" out="">et</W>
+<W id="302" msd="NCNSU==I" in="" out="">mindesmærke.</W>
+</s>
+</p>
+<p>
+<s>
+<W id="307" msd="NP--U==-" in="" out="">�</W>
+<W id="308" msd="NP--U==-" in="" out="">�Det</W>
+<W id="309" msd="VADR=----A-" in="" out="">virker</W>
+<W id="310" msd="RGU" in="" out="">måske</W>
+<W id="311" msd="ANPNSU=IU" in="" out="">underligt</W>
+<W id="312" msd="U=" in="" out="">at</W>
+<W id="313" msd="VAF-=----A-" in="" out="">gå</W>
+<W id="314" msd="RGU" in="" out="">så</W>
+<W id="315" msd="RGU" in="" out="">vidt</W>
+<W id="316" msd="SP" in="" out="">for</W>
+<W id="317" msd="PI-NSU--U" in="" out="">et</W>
+<W id="318" msd="NCNSU==I" in="" out="">havvæsen</W>
+<W id="319" msd="XP" in="" out="">,</W>
+<W id="320" msd="CC" in="" out="">men</W>
+<W id="321" msd="NP--U==-" in="-38:coref-var" out="9:coref">Paul</W>
+<W id="322" msd="VADA=----A-" in="" out="">betød</W>
+<W id="323" msd="RGU" in="" out="">så</W>
+<W id="324" msd="ANP---=-R" in="" out="">meget</W>
+<W id="325" msd="CC" in="" out="">og</W>
+<W id="326" msd="VADA=----A-" in="" out="">blev</W>
+<W id="327" msd="RGU" in="" out="">så</W>
+<W id="328" msd="ANPCSU=IU" in="" out="">populær</W>
+<W id="329" msd="SP" in="" out="">i</W>
+<W id="330" msd="PO3CSUSYU" in="-9:coref" out="13:coref">sin</W>
+<W id="331" msd="ANP[CN]SU=DU" in="" out="">korte</W>
+<W id="332" msd="NCCSU==I" in="" out="">levetid</W>
+<W id="333" msd="XP" in="" out="">,</W>
+<W id="334" msd="CS" in="" out="">at</W>
+<W id="335" msd="PP1CPN-NU" in="-43:assoc-loc" out="">vi</W>
+<W id="336" msd="VEDR=----A-" in="" out="">synes</W>
+<W id="337" msd="XP" in="" out="">,</W>
+<W id="338" msd="PP3NSU-NU" in="" out="">det</W>
+<W id="339" msd="VADR=----A-" in="" out="">er</W>
+<W id="340" msd="ANP[CN][SP]U=[DI]U" in="" out="">passende</W>
+<W id="341" msd="U=" in="" out="">at</W>
+<W id="342" msd="VEF-=----A-" in="" out="">mindes</W>
+<W id="343" msd="PP3CSU-NU" in="-13:coref" out="">ham</W>
+<W id="344" msd="SP" in="" out="">for</W>
+<W id="345" msd="NCCSU==I" in="" out="">eftertiden,«</W>
+<W id="346" msd="VADR=----A-" in="" out="">siger</W>
+<W id="347" msd="NP--U==-" in="" out="">Porwoll</W>
+<W id="348" msd="SP" in="" out="">ifølge</W>
+<W id="349" msd="NCNSU==D" in="" out="">nyhedsbureauet</W>
+<W id="350" msd="NP--U==-" in="" out="">AFP.</W>
 </s>
 </p>

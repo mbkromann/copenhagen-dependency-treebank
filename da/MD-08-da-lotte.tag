@@ -1,255 +1,255 @@
 <p>
 <s>
-<W msd="RGU">Høreapparater</W>
-<W msd="RGU">ikke</W>
-<W msd="PI-NSU--U">et</W>
-<W msd="NCNSU==I">forbrugsgode</W>
+<W id="2" msd="RGU" in="" out="">Høreapparater</W>
+<W id="3" msd="RGU" in="" out="">ikke</W>
+<W id="4" msd="PI-NSU--U" in="" out="">et</W>
+<W id="5" msd="NCNSU==I" in="" out="">forbrugsgode</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="NCCSU==D">Debatten</W>
-<W msd="SP">om</W>
-<W msd="NCCSU==I">behandling</W>
-<W msd="SP">af</W>
-<W msd="NCCSU==D">høretab</W>
-<W msd="VADR=----A-">har</W>
-<W msd="VAPA=S[CN]I[ARU]-U">taget</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="ANP[CN]SU=IU">forkert</W>
-<W msd="NCCSU==I">drejning</W>
-<W msd="CC">og</W>
-<W msd="VADR=----A-">handler</W>
-<W msd="RGU">nu</W>
-<W msd="RGU">ikke</W>
-<W msd="RGC">længere</W>
-<W msd="SP">om</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">hjælpe</W>
-<W msd="NCNPU==I">mennesker</W>
-<W msd="SP">med</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">kunne</W>
-<W msd="VAF-=----A-">høre</W>
-<W msd="ANP---=-R">ordentligt</W>
-<W msd="XP">,</W>
-<W msd="CC">men</W>
-<W msd="RGU">udelukkende</W>
-<W msd="SP">om</W>
-<W msd="XP">"</W>
-<W msd="NCNSU==I">køb</W>
-<W msd="CC">og</W>
-<W msd="NCCSU==I">annoncér</W>
-<W msd="XP">"</W>
-<W msd="CC">og</W>
-<W msd="SP">for</W>
-<W msd="ANP[CN]PU=[DI]U">høje</W>
-<W msd="ANP[CN]PU=[DI]U">private</W>
-<W msd="NCNPU==I">tilskud</W>
-<W msd="XP">,</W>
-<W msd="U=">der</W>
-<W msd="VADR=----A-">dræner</W>
-<W msd="NCCSG==D">kommunens</W>
-<W msd="NCCSU==I">pengekasse</W>
-<W msd="XP">.</W>
+<W id="10" msd="NCCSU==D" in="" out="">Debatten</W>
+<W id="11" msd="SP" in="" out="">om</W>
+<W id="12" msd="NCCSU==I" in="" out="69:coref-iden">behandling</W>
+<W id="13" msd="SP" in="" out="">af</W>
+<W id="14" msd="NCCSU==D" in="" out="">høretab</W>
+<W id="15" msd="VADR=----A-" in="" out="">har</W>
+<W id="16" msd="VAPA=S[CN]I[ARU]-U" in="" out="">taget</W>
+<W id="17" msd="PI-CSU--U" in="" out="">en</W>
+<W id="18" msd="ANP[CN]SU=IU" in="" out="">forkert</W>
+<W id="19" msd="NCCSU==I" in="" out="">drejning</W>
+<W id="20" msd="CC" in="" out="">og</W>
+<W id="21" msd="VADR=----A-" in="" out="">handler</W>
+<W id="22" msd="RGU" in="" out="">nu</W>
+<W id="23" msd="RGU" in="" out="">ikke</W>
+<W id="24" msd="RGC" in="" out="">længere</W>
+<W id="25" msd="SP" in="" out="">om</W>
+<W id="26" msd="U=" in="" out="">at</W>
+<W id="27" msd="VAF-=----A-" in="" out="">hjælpe</W>
+<W id="28" msd="NCNPU==I" in="" out="">mennesker</W>
+<W id="29" msd="SP" in="" out="">med</W>
+<W id="30" msd="U=" in="" out="">at</W>
+<W id="31" msd="VAF-=----A-" in="" out="">kunne</W>
+<W id="32" msd="VAF-=----A-" in="" out="">høre</W>
+<W id="33" msd="ANP---=-R" in="" out="">ordentligt</W>
+<W id="34" msd="XP" in="" out="">,</W>
+<W id="35" msd="CC" in="" out="">men</W>
+<W id="36" msd="RGU" in="" out="">udelukkende</W>
+<W id="37" msd="SP" in="" out="">om</W>
+<W id="38" msd="XP" in="" out="">"</W>
+<W id="39" msd="NCNSU==I" in="" out="">køb</W>
+<W id="40" msd="CC" in="" out="">og</W>
+<W id="41" msd="NCCSU==I" in="" out="">annoncér</W>
+<W id="42" msd="XP" in="" out="">"</W>
+<W id="43" msd="CC" in="" out="">og</W>
+<W id="44" msd="SP" in="" out="">for</W>
+<W id="45" msd="ANP[CN]PU=[DI]U" in="" out="">høje</W>
+<W id="46" msd="ANP[CN]PU=[DI]U" in="" out="">private</W>
+<W id="47" msd="NCNPU==I" in="" out="">tilskud</W>
+<W id="48" msd="XP" in="" out="">,</W>
+<W id="49" msd="U=" in="" out="">der</W>
+<W id="50" msd="VADR=----A-" in="" out="">dræner</W>
+<W id="51" msd="NCCSG==D" in="" out="">kommunens</W>
+<W id="52" msd="NCCSU==I" in="" out="">pengekasse</W>
+<W id="53" msd="XP" in="" out="">.</W>
 </s>
 <s>
-<W msd="RGU">Dermed</W>
-<W msd="VADR=----A-">opstår</W>
-<W msd="U=">der</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="NCCSU==I">forestilling</W>
-<W msd="SP">om</W>
-<W msd="XP">,</W>
-<W msd="CS">at</W>
-<W msd="NCNPU==I">høreapparater</W>
-<W msd="VADR=----A-">er</W>
-<W msd="PI-NSU--U">et</W>
-<W msd="NCNSU==I">forbrugsgode</W>
-<W msd="CC">og</W>
-<W msd="RGU">ikke</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="NCCSU==I">behandling.</W>
-</s>
-</p>
-<p>
-<s>
-<W msd="NCCSU==D">Høreapparater</W>
-<W msd="VADR=----A-">er</W>
-<W msd="ANP---=-R">helt</W>
-<W msd="VAPA=S[CN]I[ARU]-U">essentielle</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==D">behandlingen</W>
-<W msd="SP">af</W>
-<W msd="NCCSU==D">høretab</W>
-<W msd="XP">,</W>
-<W msd="RGU">derfor</W>
-<W msd="VADR=----A-">er</W>
-<W msd="U=">der</W>
-<W msd="ANP---=-R">absolut</W>
-<W msd="PI-CSU--U">ingen</W>
-<W msd="NCCSU==I">fornuft</W>
-<W msd="SP">i</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">skulle</W>
-<W msd="VAF-=----A-">købe</W>
-<W msd="PP3NSU-NU">det</W>
-<W msd="XP">.</W>
-</s>
-<s>
-<W msd="NCCSU==D">Høreforeningen</W>
-<W msd="VADR=----A-">sætter</W>
-<W msd="RGU">derfor</W>
-<W msd="NCCSU==I">pris</W>
-<W msd="SP">på</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="NCCSU==I">kulegravning</W>
-<W msd="SP">af</W>
-<W msd="NCNSU==D">området</W>
-<W msd="CC">og</W>
-<W msd="VADR=----A-">forventer</W>
-<W msd="XP">,</W>
-<W msd="CS">at</W>
-<W msd="PP3NSU-NU">det</W>
-<W msd="VADR=----A-">medfører</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="PI-CSU--U">anden</W>
-<W msd="NCCSU==I">struktur</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==D">behandlingen</W>
-<W msd="SP">af</W>
-<W msd="NCCSU==I">høretab.</W>
+<W id="56" msd="RGU" in="" out="">Dermed</W>
+<W id="57" msd="VADR=----A-" in="" out="">opstår</W>
+<W id="58" msd="U=" in="" out="">der</W>
+<W id="59" msd="PI-CSU--U" in="" out="">en</W>
+<W id="60" msd="NCCSU==I" in="" out="">forestilling</W>
+<W id="61" msd="SP" in="" out="">om</W>
+<W id="62" msd="XP" in="" out="">,</W>
+<W id="63" msd="CS" in="" out="">at</W>
+<W id="64" msd="NCNPU==I" in="" out="">høreapparater</W>
+<W id="65" msd="VADR=----A-" in="" out="">er</W>
+<W id="66" msd="PI-NSU--U" in="" out="">et</W>
+<W id="67" msd="NCNSU==I" in="" out="">forbrugsgode</W>
+<W id="68" msd="CC" in="" out="">og</W>
+<W id="69" msd="RGU" in="" out="">ikke</W>
+<W id="70" msd="PI-CSU--U" in="" out="">en</W>
+<W id="71" msd="NCCSU==I" in="" out="">behandling.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="PI-CSU--U">En</W>
-<W msd="ANP[CN]SU=IU">korrekt</W>
-<W msd="NCCSU==I">behandling</W>
-<W msd="SP">af</W>
-<W msd="NCCPU==I">borgere</W>
-<W msd="SP">med</W>
-<W msd="NCCSU==D">høretab</W>
-<W msd="VADR=----A-">skal</W>
-<W msd="VAF-=----P-">sidestilles</W>
-<W msd="SP">med</W>
-<W msd="PI-[CN]PU--U">andre</W>
-<W msd="VAPR=[SP][CN][DI]A-U">eksisterende</W>
-<W msd="NCCSU==I">sundhedsydelser.</W>
+<W id="76" msd="NCCSU==D" in="" out="">Høreapparater</W>
+<W id="77" msd="VADR=----A-" in="" out="">er</W>
+<W id="78" msd="ANP---=-R" in="" out="">helt</W>
+<W id="79" msd="VAPA=S[CN]I[ARU]-U" in="" out="">essentielle</W>
+<W id="80" msd="SP" in="" out="">i</W>
+<W id="81" msd="NCCSU==D" in="-69:coref-iden" out="26:coref-var">behandlingen</W>
+<W id="82" msd="SP" in="" out="">af</W>
+<W id="83" msd="NCCSU==D" in="" out="">høretab</W>
+<W id="84" msd="XP" in="" out="">,</W>
+<W id="85" msd="RGU" in="" out="">derfor</W>
+<W id="86" msd="VADR=----A-" in="" out="">er</W>
+<W id="87" msd="U=" in="" out="">der</W>
+<W id="88" msd="ANP---=-R" in="" out="">absolut</W>
+<W id="89" msd="PI-CSU--U" in="" out="">ingen</W>
+<W id="90" msd="NCCSU==I" in="" out="">fornuft</W>
+<W id="91" msd="SP" in="" out="">i</W>
+<W id="92" msd="U=" in="" out="">at</W>
+<W id="93" msd="VAF-=----A-" in="" out="">skulle</W>
+<W id="94" msd="VAF-=----A-" in="" out="">købe</W>
+<W id="95" msd="PP3NSU-NU" in="" out="">det</W>
+<W id="96" msd="XP" in="" out="">.</W>
+</s>
+<s>
+<W id="99" msd="NCCSU==D" in="" out="">Høreforeningen</W>
+<W id="100" msd="VADR=----A-" in="" out="">sætter</W>
+<W id="101" msd="RGU" in="" out="">derfor</W>
+<W id="102" msd="NCCSU==I" in="" out="">pris</W>
+<W id="103" msd="SP" in="" out="">på</W>
+<W id="104" msd="PI-CSU--U" in="" out="8:coref">en</W>
+<W id="105" msd="NCCSU==I" in="" out="">kulegravning</W>
+<W id="106" msd="SP" in="" out="">af</W>
+<W id="107" msd="NCNSU==D" in="-26:coref-var" out="11:coref-var">området</W>
+<W id="108" msd="CC" in="" out="">og</W>
+<W id="109" msd="VADR=----A-" in="" out="">forventer</W>
+<W id="110" msd="XP" in="" out="">,</W>
+<W id="111" msd="CS" in="" out="">at</W>
+<W id="112" msd="PP3NSU-NU" in="-8:coref" out="">det</W>
+<W id="113" msd="VADR=----A-" in="" out="">medfører</W>
+<W id="114" msd="PI-CSU--U" in="" out="">en</W>
+<W id="115" msd="PI-CSU--U" in="" out="">anden</W>
+<W id="116" msd="NCCSU==I" in="" out="">struktur</W>
+<W id="117" msd="SP" in="" out="">i</W>
+<W id="118" msd="NCCSU==D" in="-11:coref-var" out="">behandlingen</W>
+<W id="119" msd="SP" in="" out="">af</W>
+<W id="120" msd="NCCSU==I" in="" out="">høretab.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="CS">Hvis</W>
-<W msd="NCCSU==D">ventetiden</W>
-<W msd="SP">på</W>
-<W msd="PD-[CN]PU--U">de</W>
-<W msd="ANP[CN]PU=[DI]U">offentlige</W>
-<W msd="NCNPU==I">sygehuse</W>
-<W msd="VADR=----A-">er</W>
-<W msd="RGU">for</W>
-<W msd="ANPCSU=IU">lang</W>
-<W msd="XP">,</W>
-<W msd="VADR=----A-">bør</W>
-<W msd="NCCSU==D">behandlingsgarantien</W>
-<W msd="VAF-=----A-">træde</W>
-<W msd="SP">i</W>
-<W msd="NCCSU==I">kraft</W>
-<W msd="XP">,</W>
-<W msd="CS">så</W>
-<W msd="NCNSU==D">borgeren</W>
-<W msd="VADR=----A-">får</W>
-<W msd="NCCSU==I">ret</W>
-<W msd="SP">til</W>
-<W msd="NCCSU==I">behandling</W>
-<W msd="SP">på</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="ANP[CN]SU=IU">privat</W>
-<W msd="NCCSU==I">klinik</W>
-<W msd="XP">.</W>
-</s>
-<s>
-<W msd="PD-CSU--U">Denne</W>
-<W msd="NCCSU==I">behandling</W>
-<W msd="VADR=----A-">skal</W>
-<W msd="VAF-=----P-">sidestilles</W>
-<W msd="SP">med</W>
-<W msd="PD-NSU--U">det</W>
-<W msd="ANP[CN]SU=DU">offentlige</W>
-<W msd="NCNSU==I">tilbud.</W>
+<W id="125" msd="PI-CSU--U" in="" out="18:assoc-telic">En</W>
+<W id="126" msd="ANP[CN]SU=IU" in="" out="">korrekt</W>
+<W id="127" msd="NCCSU==I" in="" out="">behandling</W>
+<W id="128" msd="SP" in="" out="">af</W>
+<W id="129" msd="NCCPU==I" in="" out="">borgere</W>
+<W id="130" msd="SP" in="" out="">med</W>
+<W id="131" msd="NCCSU==D" in="" out="">høretab</W>
+<W id="132" msd="VADR=----A-" in="" out="">skal</W>
+<W id="133" msd="VAF-=----P-" in="" out="">sidestilles</W>
+<W id="134" msd="SP" in="" out="">med</W>
+<W id="135" msd="PI-[CN]PU--U" in="" out="">andre</W>
+<W id="136" msd="VAPR=[SP][CN][DI]A-U" in="" out="">eksisterende</W>
+<W id="137" msd="NCCSU==I" in="" out="">sundhedsydelser.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="PI-CSU--U">En</W>
-<W msd="NCCSU==I">del</W>
-<W msd="NCCPU==I">regioner</W>
-<W msd="VADR=----A-">har</W>
-<W msd="RGU">allerede</W>
-<W msd="NCCPU==I">aftaler</W>
-<W msd="SP">med</W>
-<W msd="ANP[CN]PU=[DI]U">private</W>
-<W msd="NCCPU==I">høreklinikker</W>
-<W msd="SP">om</W>
-<W msd="U=">at</W>
-<W msd="VAF-=----A-">foretage</W>
-<W msd="NCCSU==I">behandling</W>
-<W msd="SP">af</W>
-<W msd="NCCSU==D">høretab</W>
-<W msd="SP">til</W>
-<W msd="NCCSU==I">aflastning</W>
-<W msd="SP">af</W>
-<W msd="PD-[CN]PU--U">de</W>
-<W msd="ANP[CN]PU=[DI]U">offentlige</W>
-<W msd="NCCPU==I">klinikker</W>
-<W msd="XP">.</W>
+<W id="142" msd="CS" in="" out="">Hvis</W>
+<W id="143" msd="NCCSU==D" in="-18:assoc-telic" out="10:assoc-telic">ventetiden</W>
+<W id="144" msd="SP" in="" out="">på</W>
+<W id="145" msd="PD-[CN]PU--U" in="" out="31:assoc-telic.patient|56:coref-var">de</W>
+<W id="146" msd="ANP[CN]PU=[DI]U" in="" out="">offentlige</W>
+<W id="147" msd="NCNPU==I" in="" out="">sygehuse</W>
+<W id="148" msd="VADR=----A-" in="" out="">er</W>
+<W id="149" msd="RGU" in="" out="">for</W>
+<W id="150" msd="ANPCSU=IU" in="" out="">lang</W>
+<W id="151" msd="XP" in="" out="">,</W>
+<W id="152" msd="VADR=----A-" in="" out="">bør</W>
+<W id="153" msd="NCCSU==D" in="-10:assoc-telic" out="">behandlingsgarantien</W>
+<W id="154" msd="VAF-=----A-" in="" out="">træde</W>
+<W id="155" msd="SP" in="" out="">i</W>
+<W id="156" msd="NCCSU==I" in="" out="">kraft</W>
+<W id="157" msd="XP" in="" out="">,</W>
+<W id="158" msd="CS" in="" out="">så</W>
+<W id="159" msd="NCNSU==D" in="" out="">borgeren</W>
+<W id="160" msd="VADR=----A-" in="" out="">får</W>
+<W id="161" msd="NCCSU==I" in="" out="">ret</W>
+<W id="162" msd="SP" in="" out="">til</W>
+<W id="163" msd="NCCSU==I" in="" out="8:coref-var">behandling</W>
+<W id="164" msd="SP" in="" out="">på</W>
+<W id="165" msd="PI-CSU--U" in="" out="">en</W>
+<W id="166" msd="ANP[CN]SU=IU" in="" out="">privat</W>
+<W id="167" msd="NCCSU==I" in="" out="">klinik</W>
+<W id="168" msd="XP" in="" out="">.</W>
 </s>
 <s>
-<W msd="PD-[CN]PU--U">Disse</W>
-<W msd="NCCPU==I">aftaler</W>
-<W msd="VADR=----A-">er</W>
-<W msd="RGU">ikke</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="NCCSU==I">del</W>
-<W msd="SP">af</W>
-<W msd="PD-CSU--U">den</W>
-<W msd="ANP[CN]SU=DU">private</W>
-<W msd="NCCSU==I">tilskudsordning</W>
-<W msd="XP">,</W>
-<W msd="CC">men</W>
-<W msd="RGU">alene</W>
-<W msd="PI-CSU--U">en</W>
-<W msd="ANPCSU=IU">offentlig</W>
-<W msd="VAPA=S[CN]I[ARU]-U">finansieret</W>
-<W msd="NCCSU==I">behandling</W>
-<W msd="XP">.</W>
-</s>
-<s>
-<W msd="NCCSU==D">Borgeren</W>
-<W msd="VADR=----A-">undgår</W>
-<W msd="RGU">dermed</W>
-<W msd="ANP[CN]SU=IU">privat</W>
-<W msd="NCNSU==I">køb</W>
-<W msd="CC">og</W>
-<W msd="VADR=----A-">forbliver</W>
-<W msd="VAPA=S[CN]I[ARU]-U">omfattet</W>
-<W msd="SP">af</W>
-<W msd="NCCSU==I">sundhedslovgivningen</W>
-<W msd="CC">og</W>
-<W msd="NCCSU==I">Patientklagenævnet.</W>
+<W id="171" msd="PD-CSU--U" in="-8:coref-var" out="">Denne</W>
+<W id="172" msd="NCCSU==I" in="" out="">behandling</W>
+<W id="173" msd="VADR=----A-" in="" out="">skal</W>
+<W id="174" msd="VAF-=----P-" in="" out="">sidestilles</W>
+<W id="175" msd="SP" in="" out="">med</W>
+<W id="176" msd="PD-NSU--U" in="-31:assoc-telic.patient" out="">det</W>
+<W id="177" msd="ANP[CN]SU=DU" in="" out="">offentlige</W>
+<W id="178" msd="NCNSU==I" in="" out="">tilbud.</W>
 </s>
 </p>
 <p>
 <s>
-<W msd="NP--U==-">Søren</W>
-<W msd="NP--U==-">Dalmark</W>
-<W msd="NCCSU==I">landsformand</W>
-<W msd="XP">,</W>
-<W msd="NP--U==-">Høreforeningen</W>
-<W msd="NP--U==-">Kløverprisvej</W>
-<W msd="AC---U=--">10</W>
-<W msd="XP">,</W>
-<W msd="NP--U==-">Hvidovre</W>
-<W msd="XP">.</W>
+<W id="183" msd="PI-CSU--U" in="" out="">En</W>
+<W id="184" msd="NCCSU==I" in="" out="">del</W>
+<W id="185" msd="NCCPU==I" in="" out="">regioner</W>
+<W id="186" msd="VADR=----A-" in="" out="">har</W>
+<W id="187" msd="RGU" in="" out="20:coref-iden">allerede</W>
+<W id="188" msd="NCCPU==I" in="" out="">aftaler</W>
+<W id="189" msd="SP" in="" out="">med</W>
+<W id="190" msd="ANP[CN]PU=[DI]U" in="" out="">private</W>
+<W id="191" msd="NCCPU==I" in="" out="">høreklinikker</W>
+<W id="192" msd="SP" in="" out="">om</W>
+<W id="193" msd="U=" in="" out="">at</W>
+<W id="194" msd="VAF-=----A-" in="" out="">foretage</W>
+<W id="195" msd="NCCSU==I" in="" out="">behandling</W>
+<W id="196" msd="SP" in="" out="">af</W>
+<W id="197" msd="NCCSU==D" in="" out="">høretab</W>
+<W id="198" msd="SP" in="" out="">til</W>
+<W id="199" msd="NCCSU==I" in="" out="">aflastning</W>
+<W id="200" msd="SP" in="" out="">af</W>
+<W id="201" msd="PD-[CN]PU--U" in="-56:coref-var" out="">de</W>
+<W id="202" msd="ANP[CN]PU=[DI]U" in="" out="">offentlige</W>
+<W id="203" msd="NCCPU==I" in="" out="">klinikker</W>
+<W id="204" msd="XP" in="" out="">.</W>
+</s>
+<s>
+<W id="207" msd="PD-[CN]PU--U" in="-20:coref-iden" out="">Disse</W>
+<W id="208" msd="NCCPU==I" in="" out="">aftaler</W>
+<W id="209" msd="VADR=----A-" in="" out="">er</W>
+<W id="210" msd="RGU" in="" out="">ikke</W>
+<W id="211" msd="PI-CSU--U" in="" out="">en</W>
+<W id="212" msd="NCCSU==I" in="" out="">del</W>
+<W id="213" msd="SP" in="" out="">af</W>
+<W id="214" msd="PD-CSU--U" in="" out="">den</W>
+<W id="215" msd="ANP[CN]SU=DU" in="" out="">private</W>
+<W id="216" msd="NCCSU==I" in="" out="">tilskudsordning</W>
+<W id="217" msd="XP" in="" out="">,</W>
+<W id="218" msd="CC" in="" out="">men</W>
+<W id="219" msd="RGU" in="" out="">alene</W>
+<W id="220" msd="PI-CSU--U" in="" out="">en</W>
+<W id="221" msd="ANPCSU=IU" in="" out="">offentlig</W>
+<W id="222" msd="VAPA=S[CN]I[ARU]-U" in="" out="">finansieret</W>
+<W id="223" msd="NCCSU==I" in="" out="">behandling</W>
+<W id="224" msd="XP" in="" out="">.</W>
+</s>
+<s>
+<W id="227" msd="NCCSU==D" in="" out="">Borgeren</W>
+<W id="228" msd="VADR=----A-" in="" out="">undgår</W>
+<W id="229" msd="RGU" in="" out="">dermed</W>
+<W id="230" msd="ANP[CN]SU=IU" in="" out="">privat</W>
+<W id="231" msd="NCNSU==I" in="" out="">køb</W>
+<W id="232" msd="CC" in="" out="">og</W>
+<W id="233" msd="VADR=----A-" in="" out="">forbliver</W>
+<W id="234" msd="VAPA=S[CN]I[ARU]-U" in="" out="">omfattet</W>
+<W id="235" msd="SP" in="" out="">af</W>
+<W id="236" msd="NCCSU==I" in="" out="">sundhedslovgivningen</W>
+<W id="237" msd="CC" in="" out="">og</W>
+<W id="238" msd="NCCSU==I" in="" out="">Patientklagenævnet.</W>
+</s>
+</p>
+<p>
+<s>
+<W id="243" msd="NP--U==-" in="" out="">Søren</W>
+<W id="244" msd="NP--U==-" in="" out="">Dalmark</W>
+<W id="245" msd="NCCSU==I" in="" out="">landsformand</W>
+<W id="246" msd="XP" in="" out="">,</W>
+<W id="247" msd="NP--U==-" in="" out="">Høreforeningen</W>
+<W id="248" msd="NP--U==-" in="" out="">Kløverprisvej</W>
+<W id="249" msd="AC---U=--" in="" out="">10</W>
+<W id="250" msd="XP" in="" out="">,</W>
+<W id="251" msd="NP--U==-" in="" out="">Hvidovre</W>
+<W id="252" msd="XP" in="" out="">.</W>
 </s>
 </p>
