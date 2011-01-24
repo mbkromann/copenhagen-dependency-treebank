@@ -1,0 +1,32 @@
+AGENTIVE	5	0%	59%	0%	24%=CONJ:elab	24%=AGENTIVE:sbj	20%=AGENTIVE:expl	10%=CONST:rest	8%=DISJ:dir	5%=CONTR:sbj	5%=CONC	4%=CONJ
+AGENTIVE:expl	11	54.5%	100%	54.5%	54.5%=AGENTIVE:expl	9.1%=CONTR	9.1%=AGENTIVE:reas	9.1%=AGENTIVE	9.1%=CONST:rest	9.1%=AGENTIVE:sbj
+AGENTIVE:reas	11	27.3%	72.7%	27.3%	36.4%=AGENTIVE:sbj	27.3%=AGENTIVE:reas	18.2%=CONJ:elab	9.1%=AGENTIVE:expl	9.1%=TELIC:cons.dir
+AGENTIVE:sbj	16	0%	65.8%	0%	25%=AGENTIVE:reas	18.8%=CONJ:add	17.9%=CONJ	12.5%=CONSOL:source	9.6%=CONJ:elab	7.5%=AGENTIVE	6.3%=AGENTIVE:expl	2.5%=DISJ:dir
+ANSW	1	100%	100%	100%	100%=ANSW
+CONC	19	36.8%	59.2%	36.8%	36.8%=CONC	17.5%=CONJ:add	7.9%=CONJ:elab	5.3%=CONTR	5.3%=FORMAL:eval	5.3%=subj	5.3%=CONJ	5.3%=CONST:exem	3.5%=TELIC:cons.sbj	2.6%=conj	2.6%=CONTR:prg	1.3%=AGENTIVE	1.3%=CONTR:sbj
+COND	1	50%	50%	50%	50%=conj	50%=COND
+CONJ	48	5.6%	42.3%	15.4%	28.2%=CONJ:add	26.1%=CONJ:elab	15.4%=CONJ	5.7%=SCENE	5.3%=AGENTIVE:sbj	2.6%=TELIC:cons.dir	2.1%=TELIC:goal	2.1%=TELIC:cons.sbj	2.1%=FORMAL:eval	2.1%=CONSOL:source	2.1%=TELIC	2.1%=CONC	1.4%=qobj	0.8%=DISJ:dir	0.5%=CONTR	0.5%=CONST:apart	0.5%=CONTR:dir	0.4%=AGENTIVE
+CONJ:add	127	38.6%	63.8%	47.8%	47.8%=CONJ:add	14.6%=CONJ:elab	10.2%=CONJ	5.4%=conj	4.7%=JOINT	2.6%=CONC	2.4%=AGENTIVE:sbj	2.1%=TELIC:cons.sbj	1.8%=CONST:apart	1.6%=CONJ:seq	1%=CONTR:dir	0.8%=CONTR	0.8%=TIME:pre	0.8%=CONTR:prg	0.8%=CONTR:sbj	0.8%=TELIC:cons.dir	0.8%=DISJ:dir	0.8%=vobj	0.2%=SCENE
+CONJ:elab	109	22.9%	48.2%	35.3%	35.3%=CONJ:elab	17.5%=CONJ:add	12.6%=CONJ	3.7%=FORMAL:eval	2.8%=FORMAL:descr	2.8%=CONST:apart	2.3%=CONST:rest	2%=qobj	1.8%=TELIC:cons.sbj	1.8%=CONST:elab	1.8%=subj	1.8%=AGENTIVE:reas	1.8%=DIREC	1.8%=CONSOL	1.4%=AGENTIVE:sbj	1.1%=CONTR:sbj	1.1%=CONC	1.1%=CONTR:dir	0.9%=CONJ:seq	0.9%=CONTR:prg	0.9%=CONST:exem	0.9%=AGENTIVE	0.7%=TELIC:cons.dir	0.5%=SCENE	0.4%=DISJ:dir	0.2%=CONTR
+CONJ:seq	13	61.5%	92.3%	69.2%	69.2%=CONJ:seq	15.4%=CONJ:add	7.7%=CONJ:elab	7.7%=DIREC
+CONSOL	2	0%	50%	0%	100%=CONJ:elab
+CONSOL:source	5	20%	60%	20%	40%=AGENTIVE:sbj	20%=CONJ	20%=CONST:exem	20%=CONSOL:source
+CONST:apart	12	16.7%	52.1%	25%	25%=CONJ:elab	25%=CONST:apart	20.8%=CONJ:add	16.7%=CONST:exem	8.3%=nobj	2.1%=CONJ	2.1%=SCENE
+CONST:elab	3	0%	100%	0%	66.7%=CONJ:elab	33.3%=CONST:rest
+CONST:exem	16	37.5%	75%	56.3%	56.3%=CONST:exem	12.5%=CONST:apart	6.3%=CONJ:elab	6.3%=JOINT	6.3%=CONSOL:source	6.3%=CONST:rest	6.3%=CONC
+CONST:rest	11	13.6%	59.1%	16.7%	22.7%=CONJ:elab	18.2%=TELIC:cons.sbj	16.7%=CONST:rest	9.1%=CONST:elab	9.1%=AGENTIVE:expl	9.1%=CONST:exem	6.1%=conj	4.5%=AGENTIVE	4.5%=qobj
+CONTR	4	0%	81.3%	0%	25%=CONJ:add	25%=AGENTIVE:expl	25%=CONC	6.3%=CONJ	6.3%=CONJ:elab	6.3%=TELIC:cons.dir	6.3%=CONTR:dir
+CONTR:dir	15	15.6%	30.6%	28.9%	28.9%=CONTR:dir	18.9%=conj	10%=CONTR:prg	8.9%=CONJ:add	8.3%=CONJ:elab	8.3%=TELIC:cons.dir	6.7%=TELIC:cons.sbj	6.7%=CONTR:sbj	1.7%=CONTR	1.7%=CONJ
+CONTR:prg	7	0%	14.3%	0%	28.6%=conj	21.4%=CONTR:dir	14.3%=CONTR:sbj	14.3%=CONJ:add	14.3%=CONJ:elab	7.1%=CONC
+CONTR:sbj	10	26.7%	49.2%	36.7%	36.7%=CONTR:sbj	15%=CONJ:elab	13.3%=conj	10%=CONJ:add	10%=CONTR:prg	10%=CONTR:dir	2.5%=AGENTIVE	2.5%=CONC
+DIREC	3	0%	66.7%	0%	66.7%=CONJ:elab	33.3%=CONJ:seq
+DISJ:dir	2	0%	50%	10%	50%=CONJ:add	10%=CONJ	10%=DISJ:dir	10%=CONJ:elab	10%=AGENTIVE	10%=AGENTIVE:sbj
+FORMAL:descr	4	25%	50%	25%	75%=CONJ:elab	25%=FORMAL:descr
+FORMAL:eval	9	22.2%	55.6%	33.3%	44.4%=CONJ:elab	33.3%=FORMAL:eval	11.1%=CONJ	11.1%=CONC
+JOINT	15	30%	50%	43.3%	43.3%=JOINT	40%=CONJ:add	6.7%=SCENE	6.7%=CONST:exem	3.3%=xpl
+SCENE	19	64.4%	64.4%	78.9%	78.9%=SCENE	9.2%=CONJ	5.3%=JOINT	2.6%=CONJ:add	2.6%=CONJ:elab	1.3%=CONST:apart
+TELIC	1	0%	0%	0%	100%=CONJ
+TELIC:cons.dir	17	37.3%	59.3%	49%	49%=TELIC:cons.dir	11.8%=TELIC:cons.sbj	7.4%=CONJ	7.4%=CONTR:dir	5.9%=CONJ:add	5.9%=AGENTIVE:reas	4.4%=CONJ:elab	3.9%=conj	2.9%=qobj	1.5%=CONTR
+TELIC:cons.sbj	15	26.7%	66.7%	28.9%	28.9%=TELIC:cons.sbj	15.6%=CONJ:add	13.3%=CONJ:elab	13.3%=TELIC:cons.dir	13.3%=CONST:rest	6.7%=CONJ	6.7%=CONTR:dir	2.2%=CONC
+TELIC:goal	1	0%	100%	0%	100%=CONJ
+TIME:pre	1	0%	100%	0%	100%=CONJ:add

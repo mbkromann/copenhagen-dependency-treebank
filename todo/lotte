@@ -1,15 +1,21 @@
-[*] da/0005-da-lotte.tag
+[*] da/MD-01-da-tagged.tag
+[*] da/MD-02-da-tagged.tag
+[*] da/MD-03-da-tagged.tag
+[*] da/MD-04-da-tagged.tag
+[ ] da/MD-05-da-tagged.tag
 
-[*] da/MD-01-da-lotte.tag
-[*] da/MD-02-da-lotte.tag
-[*] da/MD-03-da-lotte.tag
-[*] da/MD-04-da-lotte.tag
-[*] da/MD-05-da-lotte.tag
-[*] da/MD-06-da-lotte.tag
-[*] da/MD-07-da-lotte.tag
-[*] da/MD-08-da-lotte.tag
-[*] da/MD-09-da-lotte.tag
-[*] da/MD-10-da-lotte.tag
+[ ] da/MD-01-da.tag
+[ ] da/MD-02-da.tag
+[ ] da/MD-03-da.tag
+[ ] da/MD-04-da.tag
+[ ] da/MD-05-da.tag
+[ ] da/MD-06-da.tag
+[ ] da/MD-07-da.tag
+[ ] da/MD-08-da.tag
+[ ] da/MD-09-da.tag
+[ ] da/MD-10-da.tag
+
+[*] da/0005-da-lotte.tag
 
 [*] da/0104-da-lotte.tag
 [*] en/0104-en-lotte.tag
