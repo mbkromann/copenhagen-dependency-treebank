@@ -1,10 +1,137 @@
+[*] da/0021-da-lotte.tag
+[*] da/0037-da-lotte.tag
+[*] da/0056-da-lotte.tag
+[*] da/0072-da-lotte.tag
+[*] da/0073-da-lotte.tag
+[*] da/0083-da-lotte.tag
+[*] da/0085-da-lotte.tag
+[*] da/0120-da-lotte.tag
+[*] da/0132-da-lotte.tag
+[*] da/0155-da-lotte.tag
+[*] da/0166-da-lotte.tag
+[ ] da/0202-da-lotte.tag
+[ ] da/0203-da-lotte.tag
+[ ] da/0209-da-lotte.tag
+[ ] da/0214-da-lotte.tag
+[ ] da/0220-da-lotte.tag
+[ ] da/0232-da-lotte.tag
+[ ] da/0240-da-lotte.tag
+[ ] da/0267-da-lotte.tag
+[ ] da/0279-da-lotte.tag
+[ ] da/0281-da-lotte.tag
+[ ] da/0284-da-lotte.tag
+[ ] da/0286-da-lotte.tag
+[ ] da/0287-da-lotte.tag
+[ ] da/0288-da-lotte.tag
+[ ] da/0304-da-lotte.tag
+[ ] da/0314-da-lotte.tag
+[ ] da/0316-da-lotte.tag
+[ ] da/0319-da-lotte.tag
+[ ] da/0324-da-lotte.tag
+[ ] da/0334-da-lotte.tag
+[ ] da/0337-da-lotte.tag
+[ ] da/0357-da-lotte.tag
+[ ] da/0394-da-lotte.tag
+[ ] da/0429-da-lotte.tag
+[ ] da/0441-da-lotte.tag
+[ ] da/0453-da-lotte.tag
+[ ] da/0455-da-lotte.tag
+[ ] da/0484-da-lotte.tag
+[ ] da/0496-da-lotte.tag
+[ ] da/0498-da-lotte.tag
+[ ] da/0524-da-lotte.tag
+[ ] da/0526-da-lotte.tag
+[ ] da/0530-da-lotte.tag
+[ ] da/0535-da-lotte.tag
+[ ] da/0544-da-lotte.tag
+[ ] da/0548-da-lotte.tag
+[ ] da/0563-da-lotte.tag
+[ ] da/0564-da-lotte.tag
+[ ] da/0571-da-lotte.tag
+[ ] da/0580-da-lotte.tag
+[ ] da/0586-da-lotte.tag
+[ ] da/0587-da-lotte.tag
+[ ] da/0590-da-lotte.tag
+[ ] da/0597-da-lotte.tag
+[ ] da/0604-da-lotte.tag
+[ ] da/0612-da-lotte.tag
+[ ] da/0614-da-lotte.tag
+[ ] da/0627-da-lotte.tag
+[ ] da/0630-da-lotte.tag
+[ ] da/0641-da-lotte.tag
+[ ] da/0643-da-lotte.tag
+[ ] da/0656-da-lotte.tag
+[ ] da/0660-da-lotte.tag
+[ ] da/0674-da-lotte.tag
+[ ] da/0691-da-lotte.tag
+[ ] da/0694-da-lotte.tag
+[ ] da/0696-da-lotte.tag
+[ ] da/0697-da-lotte.tag
+[ ] da/0704-da-lotte.tag
+[ ] da/0715-da-lotte.tag
+[ ] da/0730-da-lotte.tag
+[ ] da/0733-da-lotte.tag
+[ ] da/0752-da-lotte.tag
+[ ] da/0763-da-lotte.tag
+[ ] da/0771-da-lotte.tag
+[ ] da/0778-da-lotte.tag
+[ ] da/0839-da-lotte.tag
+[ ] da/0855-da-lotte.tag
+[ ] da/0862-da-lotte.tag
+[ ] da/0877-da-lotte.tag
+[ ] da/0884-da-lotte.tag
+[ ] da/0895-da-lotte.tag
+[ ] da/0931-da-lotte.tag
+[ ] da/0943-da-lotte.tag
+[ ] da/0957-da-lotte.tag
+[ ] da/0962-da-lotte.tag
+[ ] da/0965-da-lotte.tag
+[ ] da/0974-da-lotte.tag
+[ ] da/1023-da-lotte.tag
+[ ] da/1040-da-lotte.tag
+[ ] da/1049-da-lotte.tag
+[ ] da/1071-da-lotte.tag
+[ ] da/1094-da-lotte.tag
+[ ] da/1100-da-lotte.tag
+[ ] da/1126-da-lotte.tag
+[ ] da/1128-da-lotte.tag
+[ ] da/1143-da-lotte.tag
+[ ] da/1170-da-lotte.tag
+[ ] da/1172-da-lotte.tag
+[ ] da/1186-da-lotte.tag
+[ ] da/1223-da-lotte.tag
+[ ] da/1237-da-lotte.tag
+[ ] da/1244-da-lotte.tag
+[ ] da/1287-da-lotte.tag
+[ ] da/1355-da-lotte.tag
+[ ] da/1357-da-lotte.tag
+[ ] da/1382-da-lotte.tag
+[ ] da/1386-da-lotte.tag
+[ ] da/1419-da-lotte.tag
+[ ] da/1421-da-lotte.tag
+[ ] da/1427-da-lotte.tag
+[ ] da/1436-da-lotte.tag
+[ ] da/1437-da-lotte.tag
+[ ] da/1456-da-lotte.tag
+[ ] da/1459-da-lotte.tag
+[ ] da/1466-da-lotte.tag
+[ ] da/1468-da-lotte.tag
+[ ] da/1481-da-lotte.tag
+[ ] da/1500-da-lotte.tag
+[ ] da/1503-da-lotte.tag
+[ ] da/1513-da-lotte.tag
+[ ] da/1548-da-lotte.tag
+[ ] da/1551-da-lotte.tag
+
+
+[ ] da/MD-01-da-lotte.tag
 [*] da/MD-01-da-tagged.tag
 [*] da/MD-02-da-tagged.tag
 [*] da/MD-03-da-tagged.tag
 [*] da/MD-04-da-tagged.tag
 [ ] da/MD-05-da-tagged.tag
 
-[ ] da/MD-01-da.tag
+
 [ ] da/MD-02-da.tag
 [ ] da/MD-03-da.tag
 [ ] da/MD-04-da.tag
