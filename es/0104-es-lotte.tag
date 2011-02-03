@@ -1,9 +1,9 @@
-<W id="0" lemma="el" msd="PD" tag="ART" in="12:subj" out="1:nobj">La</W>
+<W _noerror="&3a;noante&3a;" id="0" lemma="el" msd="PD" tag="ART" in="12:subj" out="1:nobj">La</W>
 <W id="1" lemma="propuesta" morph="proponer +Ø/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">propuesta</W>
 <W id="2" lemma="sobre" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">sobre</W>
-<W id="3" lemma="sesin" morph="sesión" msd="NC" tag="NC" in="-1:nobj" out="3:attr|17:coref-iden|1:attr|1:{form}#|4:attr|4:{agent}">sesiones</W>
+<W _noerror="&3a;noante&3a;" id="3" lemma="sesin" morph="sesión" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{form}#|3:attr|4:attr|4:{agent}|17:coref-iden">sesiones</W>
 <W id="4" lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{form}#" out="1:nobj">de</W>
-<W id="5" lemma="grupo" morph="grupo" msd="NC" tag="NC" in="-1:nobj" out="">grupo</W>
+<W _noerror="&3a;noante&3a;" id="5" lemma="grupo" morph="grupo" msd="NC" tag="NC" in="-1:nobj" out="">grupo</W>
 <W id="6" lemma="colectivo" msd="AN" tag="ADJ" in="-3:attr" out="">colectivas</W>
 <W id="7" lemma="entre" msd="SP" tag="SCENE" in="-4:attr|-4:{agent}" out="1:nobj">entre</W>
 <W id="8" lemma="V" msd="XS" tag="ALFS" in="-1:nobj" out="2:conj|61:coref-var">V</W>
@@ -16,20 +16,20 @@
 <W id="15" lemma="novedoso" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">novedoso</W>
 <W id="16" lemma="." msd="XP" tag="FS" in="-4:pnct" out="">.</W>
 <W id="17" lemma="de~hecho" msd="RG" tag="ADV" in="1:eval" out="">De hecho</W>
-<W id="18" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="1:*[subj]" out="-1:eval|1:vobj|17:pnct|22:conj|54:pnct|8:time">ha</W>
+<W id="18" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="1:*[subj]" out="-1:eval|1:vobj|8:time|17:pnct|22:conj|54:pnct">ha</W>
 <W _noerror="&3a;nosubj&3a;" id="19" lemma="haber" morph="haber" msd="VAF" tag="VHadj" in="-1:vobj" out="-1:*[subj]|1:dobj">habido</W>
 <W id="20" lemma="un" msd="PD" tag="ART" in="-1:dobj|-17:coref-iden" out="2:nobj|20:coref">una</W>
 <W id="21" lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attr" out="">histórica</W>
-<W id="22" lemma="&lt;unknown&gt;" morph="sesión" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|3:attr|1:attr|1:{form}#">sesión</W>
+<W id="22" lemma="&lt;unknown&gt;" morph="sesión" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:attr|1:{form}#|3:attr">sesión</W>
 <W id="23" lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{form}#" out="1:nobj">de</W>
 <W id="24" lemma="grupo" morph="grupo" msd="NC" tag="NC" in="-1:nobj" out="">grupo</W>
 <W id="25" lemma="colectivo" msd="AN" tag="ADJ" in="-3:attr" out="">colectiva</W>
 <W id="26" lemma="con" msd="SP" tag="SCENE" in="-8:time" out="1:nobj">con</W>
 <W id="27" lemma="&lt;unknown&gt;" morph="anticipar +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">anticipación</W>
 <W id="28" lemma="del" msd="SP" tag="PDEL" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">del</W>
-<W id="29" lemma="lanzamiento" morph="lanzar +miento/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}|4:attr|4:{time}">lanzamiento</W>
+<W _noerror="&3a;noante&3a;" id="29" lemma="lanzamiento" morph="lanzar +miento/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}|4:attr|4:{time}">lanzamiento</W>
 <W id="30" lemma="del" msd="SP" tag="PDEL" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">del</W>
-<W id="31" lemma="plan" morph="plan" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{agent}">plan</W>
+<W _noerror="&3a;noante&3a;" id="31" lemma="plan" morph="plan" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{agent}">plan</W>
 <W id="32" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:attr|-1:{agent}" out="">KV</W>
 <W id="33" lemma="en" msd="SP" tag="SCENE" in="-4:attr|-4:{time}" out="1:nobj">en</W>
 <W id="34" lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">1964</W>
@@ -101,7 +101,7 @@
 <W id="100" lemma="en~todo~caso" msd="RG" tag="ADV" in="1:eval" out="">En todo caso</W>
 <W id="101" lemma="deber" morph="deber" msd="VAD" tag="VLfin" in="-32:coref|2:*[subj]" out="-1:eval|1:time|2:vobj|22:pnct">debemos</W>
 <W id="102" lemma="primero" msd="RG" tag="ADV" in="-1:time" out="">primero</W>
-<W _noerror="&3a;nosubj&3a;" id="103" lemma="pasar" morph="paso +ar /DERnv" msd="VAF lexical verb infinite" tag="VLinf" in="-2:vobj" out="1:@dir|-2:*[subj]">pasar</W>
+<W _noerror="&3a;nosubj&3a;" id="103" lemma="pasar" morph="paso +ar /DERnv" msd="VAF lexical verb infinite" tag="VLinf" in="-2:vobj" out="-2:*[subj]|1:@dir">pasar</W>
 <W id="104" lemma="por" msd="SP" tag="SCENE" in="-1:@dir" out="1:nobj">por</W>
 <W id="105" lemma="un" msd="PD" tag="ART" in="-1:nobj" out="2:nobj|3:ref|10:relr">un</W>
 <W id="106" lemma="&lt;unknown&gt;" msd="AN" note="stavefejl&3a; larguísimo" tag="ADJ" in="1:attr" out="">largísimo</W>
@@ -127,7 +127,7 @@
 <W id="126" lemma="sentido" morph="sentido" msd="NC" tag="NC" in="-1:nobj" out="">sentido</W>
 <W id="127" lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W id="128" lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attr" out="">periódicas</W>
-<W id="129" lemma="sesin" morph="sesión" msd="NC" tag="NC" in="7:subj|8:[subj]" out="-1:attr|4:conj|1:attr|1:{form}#">sesiones</W>
+<W id="129" lemma="sesin" morph="sesión" msd="NC" tag="NC" in="7:subj|8:[subj]" out="-1:attr|1:attr|1:{form}#|4:conj">sesiones</W>
 <W id="130" lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{form}#" out="1:nobj">de</W>
 <W id="131" lemma="grupo" morph="grupo" msd="NC" tag="NC" in="-1:nobj" out="">grupo</W>
 <W id="132" lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
