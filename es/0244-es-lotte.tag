@@ -1,20 +1,20 @@
 <W id="0" lemma="y" msd="CC" tag="CC" in="2:coord" out="">Y</W>
 <W id="1" lemma="luego" msd="CS" tag="CSUBF" in="1:scene" out="">luego</W>
-<W id="2" lemma="&lt;unknown&gt;" morph="haber" msd="VAD" tag="VLfin" in="" out="-1:scene|1:dobj|-2:coord">habÃ­a</W>
-<W id="3" lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">el</W>
+<W id="2" lemma="&lt;unknown&gt;" morph="haber" msd="VAD" tag="VLfin" in="" out="-1:scene|-2:coord|1:dobj">habÃ­a</W>
+<W _noerror="&3a;noante&3a;" id="3" lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">el</W>
 <W id="4" lemma="tema" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{about}">tema</W>
 <W id="5" lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{about}" out="1:nobj">de</W>
-<W id="6" lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|4:ref|5:relr">las</W>
+<W _noerror="&3a;noante&3a;" id="6" lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|4:ref|5:relr">las</W>
 <W id="7" lemma="lista" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{about}#">listas</W>
 <W id="8" lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{about}#" out="1:nobj">de</W>
-<W id="9" lemma="espera" morph="esperar +Ø/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">espera</W>
+<W _noerror="&3a;noante&3a;" id="9" lemma="espera" morph="esperar +Ø/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">espera</W>
 <W id="10" lemma="que" msd="CS" tag="CQUE" in="-4:ref|1:subj|2:[subj]" out="">que</W>
 <W id="11" lemma="&lt;unknown&gt;" morph="deber" msd="VAD" tag="VLfin" in="-5:relr" out="-1:subj|1:vobj|2:pnct|3:coref-res">debÃ­an</W>
 <W id="12" lemma="eliminarse" morph="" msd="VA" tag="VCLI" in="-1:vobj" out="-2:[subj]">eliminarse</W>
 <W id="13" lemma="." msd="XP" tag="FS" in="-2:pnct" out="">.</W>
 <W id="14" lemma="este" msd="" tag="DM" in="-3:coref-res|2:xtop" out="1:ref">Esto</W>
 <W id="15" lemma="él" msd="PP" tag="PPO" in="-1:ref|1:dobj" out="">lo</W>
-<W id="16" lemma="solucionar" morph="solución +ar/DERnv" msd="VAD" tag="VLfin" in="" out="-2:xtop|-1:dobj|3:pnct|4:scene|9:pnct|2:subj|10:inst">soluciona</W>
+<W id="16" lemma="solucionar" morph="solución +ar/DERnv" msd="VAD" tag="VLfin" in="" out="-2:xtop|-1:dobj|2:subj|3:pnct|4:scene|9:pnct|10:inst">soluciona</W>
 <W id="17" lemma="John" msd="NP" tag="NP" in="1:namef" out="">John</W>
 <W id="18" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:subj" out="-1:namef">Winther</W>
 <W id="19" lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
@@ -24,7 +24,7 @@
 <W id="23" lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W id="24" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">TEBA</W>
 <W id="25" lemma="," msd="XP" tag="CM" in="-9:pnct" out="">,</W>
-<W id="26" lemma="incorporar" morph="incorporar" msd="VAF" tag="VLadj" in="-10:inst" out="22:coref-res|1:dobj">incorporando</W>
+<W id="26" lemma="incorporar" morph="incorporar" msd="VAF" tag="VLadj" in="-10:inst" out="1:dobj|22:coref-res">incorporando</W>
 <W id="27" lemma="a" msd="SP" tag="SCENE" in="-1:dobj" out="1:nobj">a</W>
 <W id="28" lemma="todo" msd="AN" tag="QU" in="-1:nobj" out="1:nobj">todos</W>
 <W id="29" lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|2:ref|3:relr">los</W>
@@ -48,22 +48,22 @@
 <W id="47" lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj" out="35:coref-iden">TEBA</W>
 <W id="48" lemma="este" msd="" tag="DM" in="-22:coref-res|1:subj" out="">esto</W>
 <W id="49" lemma="significar" morph="significar" msd="VAD" tag="VLfin" in="" out="-1:subj|-6:scene|1:dobj|14:pnct">significa</W>
-<W id="50" lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="8:vobj|1:pnct">que</W>
+<W id="50" lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="1:pnct|8:vobj">que</W>
 <W id="51" lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W id="52" lemma="de" msd="CS" tag="CSUBI" in="6:other" out="1:vobj">de</W>
-<W _noerror="&3a;nosubj&3a;" id="53" lemma="ser" morph="" msd="VAF" tag="VSinf" in="-1:vobj" out="3:time|1:preds">ser</W>
+<W _noerror="&3a;nosubj&3a;" id="53" lemma="ser" morph="" msd="VAF" tag="VSinf" in="-1:vobj" out="1:preds|3:time">ser</W>
 <W id="54" lemma="@card@" msd="AC" tag="CARD" in="-1:preds" out="1:nobj">45</W>
 <W id="55" lemma="&lt;unknown&gt;" morph="niño" msd="NC" tag="NC" in="-1:nobj" out="">niÃ±os</W>
 <W id="56" lemma="en" msd="SP" tag="SCENE" in="-3:time" out="1:nobj">en</W>
 <W id="57" lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">1991</W>
-<W id="58" lemma="&lt;unknown&gt;" morph="ser" msd="NC" tag="NC" in="-8:vobj" out="3:time|-6:other|1:preds">serÃ¡n</W>
+<W id="58" lemma="&lt;unknown&gt;" morph="ser" msd="NC" tag="NC" in="-8:vobj" out="-6:other|1:preds|3:time">serÃ¡n</W>
 <W id="59" lemma="@card@" msd="XS" tag="CODE" in="-1:preds" out="1:nobj">55</W>
 <W id="60" lemma="&lt;unknown&gt;" morph="niño" msd="NC" tag="NC" in="-1:nobj" out="">niÃ±os</W>
 <W id="61" lemma="en" msd="SP" tag="SCENE" in="-3:time" out="1:nobj">en</W>
 <W id="62" lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">1992</W>
 <W id="63" lemma="." msd="XP" tag="FS" in="-14:pnct" out="">.</W>
-<W id="64" lemma="estar" morph="estar" msd="VAD" tag="VLfin" in="1:*[subj]" out="1:vobj|2:cons|23:assoc-cause|11:²pnct">Estamos</W>
-<W _noerror="&3a;nosubj&3a;" id="65" lemma="hablar" morph="hablar" msd="VAG" tag="VLger" in="-1:vobj" out="2:pobj|-1:*[subj]">hablando</W>
+<W id="64" lemma="estar" morph="estar" msd="VAD" tag="VLfin" in="1:*[subj]" out="1:vobj|2:cons|11:²pnct|23:assoc-cause">Estamos</W>
+<W _noerror="&3a;nosubj&3a;" id="65" lemma="hablar" morph="hablar" msd="VAG" tag="VLger" in="-1:vobj" out="-1:*[subj]|2:pobj">hablando</W>
 <W id="66" lemma="entonces" msd="RG" tag="ADV" in="-2:cons" out="">entonces</W>
 <W id="67" lemma="de" msd="SP" tag="SCENE" in="-2:pobj" out="1:nobj">de</W>
 <W id="68" lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
@@ -106,7 +106,7 @@
 <W id="105" lemma="en" msd="SP" tag="SCENE" in="3:time" out="1:nobj">En</W>
 <W id="106" lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">1992</W>
 <W id="107" lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
-<W id="108" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="" out="-3:time|-1:robj|1:vobj|8:pnct|5:other">han</W>
+<W id="108" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="" out="-3:time|-1:robj|1:vobj|5:other|8:pnct">han</W>
 <W _noerror="&3a;nosubj&3a;" id="109" lemma="destinar" morph="destinar" msd="VAF" tag="VLadj" in="-1:vobj" out="1:dobj">destinado</W>
 <W id="110" lemma="dos" msd="AC" tag="CARD" in="-1:dobj" out="1:nobj">dos</W>
 <W id="111" lemma="metro" morph="metro" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{form}#">metros</W>
@@ -117,7 +117,7 @@
 <W id="116" lemma="." msd="XP" tag="FS" in="-8:pnct" out="">.</W>
 <W id="117" lemma="y" msd="CC" tag="CC" in="2:coord" out="">Y</W>
 <W id="118" lemma="se" msd="PC" tag="SE" in="1:subj" out="">se</W>
-<W id="119" lemma="calcular" morph="calcular" msd="VAD" tag="VLfin" in="" out="-1:subj|1:man|7:pnct|9:xpl|-2:coord">calcula</W>
+<W id="119" lemma="calcular" morph="calcular" msd="VAD" tag="VLfin" in="" out="-1:subj|-2:coord|1:man|7:pnct|9:xpl">calcula</W>
 <W id="120" lemma="de" msd="SP" tag="SCENE" in="-1:man" out="2:nobj">de</W>
 <W id="121" lemma="igual" msd="AN" tag="ADJ" in="1:attr" out="2:nobj">igual</W>
 <W id="122" lemma="manera" morph="" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">manera</W>
@@ -154,13 +154,13 @@
 <W id="153" lemma="pesar" morph="pesar" msd="VAD" tag="VLfin" in="" out="-7:subj|1:quant|14:pnct">pesa</W>
 <W id="154" lemma="alrededor" msd="SP" tag="SCENE" in="-1:quant" out="1:pobj#">alrededor</W>
 <W id="155" lemma="de" msd="SP" tag="SCENE" in="-1:pobj#" out="1:nobj">de</W>
-<W id="156" lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj|3:ref|6:relr|2:pnct">19</W>
+<W id="156" lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj|2:pnct|3:ref|6:relr">19</W>
 <W id="157" lemma="kilo" morph="kilo" msd="NC" tag="NC" in="-1:nobj" out="">kilos</W>
 <W id="158" lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
 <W id="159" lemma="que" msd="CS" tag="CQUE" in="-3:ref|3:subj" out="">que</W>
 <W compound="¹por² lo³ tanto" id="160" lemma="por~lo~tanto" msd="CS" tag="CSUBF" in="2:¹cause|0:²nobj¹|0:³nobj²" out="0:²nobj¹|0:³nobj²">por lo tanto</W>
 <W id="161" lemma="se" msd="PC" tag="SE" in="1:dobj" out="">se</W>
-<W id="162" lemma="repartir" morph="partir -re/OTHER" msd="VAD" tag="VLfin" in="-6:relr" out="-3:subj|-1:dobj|1:pobj|-2:¹cause">reparten</W>
+<W id="162" lemma="repartir" morph="partir -re/OTHER" msd="VAD" tag="VLfin" in="-6:relr" out="-3:subj|-1:dobj|-2:¹cause|1:pobj">reparten</W>
 <W id="163" lemma="en" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">en</W>
 <W id="164" lemma="2" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">2</W>
 <W id="165" lemma="metro" morph="metro" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{form}#">metros</W>
@@ -175,7 +175,7 @@
 <W id="174" lemma="." msd="XP" tag="FS" in="-6:pnct" out="">.</W>
 <W id="175" lemma="o" msd="CC" tag="CC" in="2:coord" out="">O</W>
 <W id="176" lemma="aproximadamente" msd="RG" tag="ADV" in="1:quant" out="">aproximadamente</W>
-<W id="177" lemma="@card@" msd="AC" tag="CARD" in="" out="-1:quant|1:nobj|3:attr|3:{other}|7:pnct|-2:coord">1050</W>
+<W id="177" lemma="@card@" msd="AC" tag="CARD" in="" out="-1:quant|-2:coord|1:nobj|3:attr|3:{other}|7:pnct">1050</W>
 <W id="178" lemma="&lt;unknown&gt;" morph="metro -centi/MOD&3a;quant" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{form}#">centÃ­metros</W>
 <W id="179" lemma="cuadrar" morph="cuadro +ar/DERnv +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr|-1:{form}#" out="">cuadrados</W>
 <W id="180" lemma="por" msd="SP" tag="SCENE" in="-3:attr|-3:{other}" out="1:nobj">por</W>
