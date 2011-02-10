@@ -1,4 +1,5 @@
-[ ] da/0166-da-lotte.tag
+[*] da/MD-02-da-lotte.tag
+
 [*] da/0104-da-lotte.tag
 [*] en/0104-en-lotte.tag
 [*] es/0104-es-lotte.tag
@@ -223,7 +224,7 @@
 [ ] da/MD-05-da-tagged.tag
 
 
-[ ] da/MD-02-da.tag
+[*] da/MD-02-da-lotte.tag
 [ ] da/MD-03-da.tag
 [ ] da/MD-04-da.tag
 [ ] da/MD-05-da.tag
