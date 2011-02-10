@@ -150,9 +150,6 @@ if ($init) {
 $inter->quiet($quiet);
 $ENV{'CDTUSER'} = $inter->var("user", $ENV{'USER'});
 
-#Ad hoc solution by Martin
-$ENV{'CDTUSER'} = "lotte";
-
 # Process command line arguments
 while (@ARGV) {
 	my $arg = shift(@ARGV);
