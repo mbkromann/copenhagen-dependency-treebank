@@ -1,5 +1,5 @@
 <s>
-<W id="1" msd="PI" tag="DT" in="3:subj|4:[subj]" out="26:coref-iden|2:nobj">A</W>
+<W id="1" msd="PI" tag="DT" in="3:subj|4:[subj]" out="2:nobj|26:coref-iden">A</W>
 <W _noerror="&3a;noante&3a;" id="2" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="">rent</W>
 <W id="3" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{goal}#">allowance</W>
 <W _noerror="&3a;nogov&3a;" id="4" msd="VA" tag="MD" in="" out="-3:subj|1:vobj|7:pnct|20:pnct|26:CONJ&3a;add/(and)">may</W>
@@ -153,7 +153,7 @@
 <W id="152" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
 <W id="153" msd="PO" tag="PRP$" in="-1:nobj|1:{poss}|74:assoc" out="1:possd">your</W>
 <W id="154" msd="NC=S" tag="NN" in="-1:possd" out="-1:{poss}">residence</W>
-<W id="155" msd="VADR" tag="VBZ" in="-7:vobj" out="-6:subj|1:dobj|8:conj|69:coref-res|48:CONJ&3a;add/(and)">exceeds</W>
+<W id="155" msd="VADR" tag="VBZ" in="-7:vobj" out="-6:subj|1:dobj|8:conj|48:CONJ&3a;add/(and)|69:coref-res">exceeds</W>
 <W id="156" msd="AC" tag="CD" in="-1:dobj" out="1:nobj">65</W>
 <W id="157" msd="AC" tag="CD" in="-1:nobj" out="">sq.m</W>
 <W id="158" msd="XP" tag="." in="0:err" out="0:err">.</W>
@@ -198,11 +198,11 @@
 <W id="197" msd="AC" tag="CD" in="-1:dobj" out="1:nobj">85</W>
 <W id="198" msd="AC" tag="CD" in="-1:nobj" out="">sq.m.</W>
 <W id="199" msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W _noerror="&3a;noante&3a;" id="200" msd="PO" tag="PRP$" in="2:[iobj]|4:[subj]|3:subj|2:{recipient}" out="2:possd">your</W>
+<W _noerror="&3a;noante&3a;" id="200" msd="PO" tag="PRP$" in="2:[iobj]|2:{recipient}|3:subj|4:[subj]" out="2:possd">your</W>
 <W _noerror="&3a;noante&3a;" id="201" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="">rent</W>
 <W id="202" msd="NC=S" tag="NN" in="-2:possd" out="-1:attr|-1:{goal}#|-2:[iobj]|-2:{recipient}">allowance</W>
-<W id="203" msd="VA" tag="MD" in="-48:CONJ&3a;add/(and)" out="-10:cond|1:vobj|17:pnct|52:CONC/(however)|-3:subj">will</W>
-<W id="204" msd="VAF" tag="VB" in="-1:vobj" out="1:preds|-4:[subj]">be</W>
+<W id="203" msd="VA" tag="MD" in="-48:CONJ&3a;add/(and)" out="-10:cond|-3:subj|1:vobj|17:pnct|52:CONC/(however)">will</W>
+<W id="204" msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds">be</W>
 <W _noerror="&3a;nosubj&3a;" id="205" msd="VAP" tag="VBN" in="-1:preds" out="1:pobj|11:scene">reduced</W>
 <W id="206" msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W id="207" msd="AC" tag="CD" in="-1:nobj" out="1:pobj|1:{arg}">50%</W>
