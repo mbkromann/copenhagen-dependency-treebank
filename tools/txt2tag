@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#echo "lang=$lang"
-#echo "bindir=$bindir"
-#echo "tagger=$tagger"
-#echo "EOSREGEXP=$EOSREGEXP"
-#echo "file=$file"
+echo "lang=$lang"
+echo "bindir=$bindir"
+echo "tagger=$tagger"
+echo "EOSREGEXP=$EOSREGEXP"
+echo "file=$file"
 
 # File names
 base=`echo $file | sed -e 's/.txt$//'`

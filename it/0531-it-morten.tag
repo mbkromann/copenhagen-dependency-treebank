@@ -37,7 +37,7 @@
 <W id="36" lemma="Johan" msd="NP" tag="NPR" in="-1:namef" out="">Johan</W>
 <W id="37" lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-8:appr" out="-2:namef">Leer</W>
 <W id="38" lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W id="39" lemma="il" msd="PD" tag="DET&3a;def" in="-10:conj" out="-1:coord|1:nobj|3:appr|84:coref-var">il</W>
+<W id="39" lemma="il" msd="PD" tag="DET&3a;def" in="-10:conj|19:[subj]" out="-1:coord|1:nobj|3:appr|84:coref-var">il</W>
 <W id="40" lemma="direttore" msd="NC" tag="NOM" in="-1:nobj" out="">direttore</W>
 <W id="41" lemma="John" msd="NP" tag="NPR" in="1:namef" out="">John</W>
 <W id="42" lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:appr" out="-1:namef">Olsdorff</W>
@@ -56,7 +56,7 @@
 <W id="55" lemma="grado" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">grado</W>
 <W id="56" lemma="di" msd="SP" tag="PRE" in="-4:attr|-4:{loc}" out="1:nobj">di</W>
 <W id="57" lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Copenaghen</W>
-<W id="58" lemma="chiedere" msd="VAG" tag="VER&3a;geru" in="-15:concom" out="-39:[subj]|1:dobj">chiedendo</W>
+<W id="58" lemma="chiedere" msd="VAG" tag="VER&3a;geru" in="-15:concom" out="-39:[subj]|1:dobj|-19:[subj]">chiedendo</W>
 <W id="59" lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj|-14:assoc-telic" out="1:nobj|172:coref-iden">l'</W>
 <W id="60" lemma="assoluzione" msd="NC" tag="NOM" in="-1:nobj" out="">assoluzione</W>
 <W id="61" lemma="." msd="XP" tag="SENT" in="-18:pnct" out="">.</W>
@@ -169,7 +169,7 @@
 <W id="168" lemma="prestito" msd="NC" tag="NOM" in="-1:nobj.dobj|-1:{patient}#" out="">prestiti</W>
 <W id="169" lemma="." msd="XP" tag="SENT" in="-24:pnct" out="">.</W>
 <W id="170" lemma="inoltre" msd="RG" tag="ADV" in="1:add" out="">Inoltre</W>
-<W id="171" lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-27:*coref|1:*[subj]|-24:CONJ&3a;add/inoltre" out="-1:add|1:vobj|11:pnct">hanno</W>
+<W id="171" lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-27:*coref|-24:CONJ&3a;add/inoltre|1:*[subj]" out="-1:add|1:vobj|11:pnct">hanno</W>
 <W id="172" lemma="defraudare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:*[subj]|1:iobj|3:dobj">defraudato</W>
 <W id="173" lemma="il" msd="PD" tag="DET&3a;def" in="-1:iobj" out="1:nobj">il</W>
 <W id="174" lemma="fisco" msd="NC" tag="NOM" in="-1:nobj" out="">fisco</W>
@@ -187,7 +187,7 @@
 <W id="186" lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{goal}#">consiglio</W>
 <W id="187" lemma="d'" msd="SP" tag="PRE" in="-1:attr|-1:{goal}#" out="1:nobj">d'</W>
 <W id="188" lemma="amministrazione" msd="NC" tag="NOM" in="-1:nobj" out="">amministrazione</W>
-<W id="189" lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-63:+CONJ&3a;add/(e)" out="-6:subj|1:vobj|3:pnct|42:coref-res|20:CONC/tuttavia">sono</W>
+<W id="189" lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-63:+CONJ&3a;add/(e)" out="-6:subj|1:vobj|3:pnct|20:CONC/tuttavia|42:coref-res">sono</W>
 <W id="190" lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:preds">stati</W>
 <W id="191" lemma="assolvere" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="">assolti</W>
 <W id="192" lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
