@@ -1,0 +1,16 @@
+assoc	7	28.6%	85.7%	28.6%	57.1%=assoc-const	28.6%=assoc	14.3%=coref-var
+assoc-agentive	4	25%	50%	50%	50%=assoc-agentive	25%=assoc-telic	25%=assoc-const
+assoc-agentive.agent	1	0%	100%	0%	100%=assoc-telic
+assoc-const	44	52.3%	77.3%	59.1%	59.1%=assoc-const	13.6%=coref-var	9.1%=assoc	6.8%=assoc-telic	4.5%=assoc-loc	2.3%=assoc-agentive	2.3%=coref-iden	2.3%=coref
+assoc-event	3	100%	100%	100%	100%=assoc-event
+assoc-formal	1	100%	100%	100%	100%=assoc-formal
+assoc-loc	7	71.4%	100%	71.4%	71.4%=assoc-loc	28.6%=assoc-const
+assoc-telic	27	59.3%	81.5%	74.1%	74.1%=assoc-telic	11.1%=assoc-const	3.7%=assoc-agentive.agent	3.7%=coref-res	3.7%=assoc-agentive	3.7%=assoc-telic.agent
+assoc-telic.agent	1	0%	100%	0%	100%=assoc-telic
+coref	184	78.7%	81%	91.3%	91.3%=coref	6.6%=coref-var	1.1%=ref	0.5%=coref-res	0.3%=assoc-const	0.2%=coref-iden
+coref-evol	1	0%	100%	0%	100%=coref-var
+coref-iden	67	76.1%	84.1%	82.1%	82.1%=coref-iden	15.4%=coref-var	1.5%=assoc-const	1%=coref
+coref-res	31	70%	76.5%	77.4%	77.4%=coref-res	12.9%=coref-var	3.2%=assoc-telic	3.2%=coref	3.2%=coref-res.prg
+coref-res.prg	1	0%	0%	0%	100%=coref-res
+coref-var	138	64.3%	75.6%	74.8%	74.8%=coref-var	9.1%=coref	7.5%=coref-iden	4.3%=assoc-const	2.9%=coref-res	0.7%=coref-evol	0.7%=assoc
+ref	66	95.5%	97%	97%	97%=ref	3%=coref

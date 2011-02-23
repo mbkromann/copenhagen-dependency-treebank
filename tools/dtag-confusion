@@ -7,10 +7,13 @@ while (my $line = <>) {
 	# Read input line
 	chomp($line);
 	my ($file, $relation, $in, $out, $include) = split(/\t/, $line);
-	$file =~ /^.*\/([0-9]+-[a-z]+)(\S+).tag/;
-	my ($text, $user) = ($1, $2);
-	$user =~ s/^-disc-//g;
+	$file =~ s/-disc-/-/g;
+	$file =~ /^.*\/([^0-9]*[0-9]+(-\S\S(-\S\S)?[-.])?)(\S*).tag/;
+	my ($text, $user) = ($1, $4);
+	$text =~ s/^-disc-//g;
+	$text =~ s/[-.]$//g;
 	$user =~ s/^-//g;
+	# print STDERR "ERROR: parsing $file as text=$text user=$user\n" if (1);
 
 	# Initialize confusion table
 	$confusion->{$relation} = {}
@@ -18,9 +21,12 @@ while (my $line = <>) {
 
 	# Compute identifier and update annotations
 	my $id = $in . "@" . $text;
+	#print STDERR "id=$id user=$user \n";
 	my $list = $annotations->{$id} = $annotations->{$id} // [];
-	push @$list, [$relation, $in, $out, $user]
+	push @$list, [$relation, $in, $out, $text, $user]
 		if ($relation);
+	#print STDERR join(" ", map {join(":", @$_)} @$list) . "\n"
+	#	if ($relation eq "DISJ:dir");
 }
 
 # Compile confusion matrix
