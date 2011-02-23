@@ -2274,6 +2274,7 @@ sub postscript {
 	# Add position and streams to possible labels
 	my $match = regexp_match($regexps, '_position');
 	$labels->{'_position'} = $match if ($match);
+	#print "_position match: $match\n";
 	foreach my $s (keys(%$streams)) {
 		$match = regexp_match($regexps, "stream:$s");
 		$labels->{"stream:$s"} = $match if ($match);
