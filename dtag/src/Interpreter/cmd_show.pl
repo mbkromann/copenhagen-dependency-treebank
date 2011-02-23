@@ -12,7 +12,7 @@ sub cmd_show {
 
 	# Process argument string
 	while ($args !~ /^\s*$/) {
-		if ($args =~ s/^\s*([0-9]+)(-([0-9]+))?([^0-9])/$4/) {
+		if ($args =~ s/^\s*=?([0-9]+)(-([0-9]+))?([^0-9])/$4/) {
 			$imin = ($imin == -1) 
 				? $1 + $graph->offset() 
 				: min($imin, $1 + $graph->offset());

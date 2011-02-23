@@ -2,7 +2,7 @@
 macro defaults script -q $CDTHOME/dtag/dtagrc
 
 # Useful shorthands
-macro oshow show {ARGS} ;; offset {ARGS} ;; 
+macro oshow offset {ARGS} ;; show 0
 macro n next
 macro p prev
 

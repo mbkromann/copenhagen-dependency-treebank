@@ -8561,7 +8561,7 @@ sub cmd_show {
 
 	# Process argument string
 	while ($args !~ /^\s*$/) {
-		if ($args =~ s/^\s*([0-9]+)(-([0-9]+))?([^0-9])/$4/) {
+		if ($args =~ s/^\s*=?([0-9]+)(-([0-9]+))?([^0-9])/$4/) {
 			$imin = ($imin == -1) 
 				? $1 + $graph->offset() 
 				: min($imin, $1 + $graph->offset());
@@ -10015,7 +10015,7 @@ sub do {
 		# Show: show [-component] $imin1[..$imax1] $imin2[..$imax2]
 		# $success = $self->cmd_show($graph, $3, $5)
 		if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
-			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-]?[0-9]+(-[0-9]+)?)*)\s*$/) {
+			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-=]?[0-9]+(-[0-9]+)?)*)\s*$/) {
 			$success = $self->cmd_show($graph, $5, $2);
 		}
 		if (UNIVERSAL::isa($graph, 'DTAG::Alignment') &&
