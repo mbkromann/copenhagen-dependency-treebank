@@ -6,7 +6,7 @@
 <W _noerror="&3a;noante&3a;" id="5" lemma="grupo" morph="grupo" msd="NC" tag="NC" in="-1:nobj" out="">grupo</W>
 <W id="6" lemma="colectivo" msd="AN" tag="ADJ" in="-3:attr" out="">colectivas</W>
 <W id="7" lemma="entre" msd="SP" tag="SCENE" in="-4:attr|-4:{agent}" out="1:nobj">entre</W>
-<W id="8" lemma="V" msd="XS" tag="ALFS" in="-1:nobj" out="2:conj|61:coref-var|37:coref-var|61:coref-var">V</W>
+<W id="8" lemma="V" msd="XS" tag="ALFS" in="-1:nobj" out="2:conj|37:coref-var|61:coref-var|61:coref-var">V</W>
 <W id="9" lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W id="10" lemma="K" msd="XS" tag="ALFS" in="-2:conj" out="-1:coord">K</W>
 <W id="11" lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
@@ -16,7 +16,7 @@
 <W id="15" lemma="novedoso" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">novedoso</W>
 <W id="16" lemma="." msd="XP" tag="FS" in="-4:pnct" out="">.</W>
 <W id="17" lemma="de~hecho" msd="RG" tag="ADV" in="1:eval" out="">De hecho</W>
-<W _noerror="&3a;nosubj&3a;" id="18" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="1:*[subj]|-6:+AGENTIVE&3a;expl/de_hecho" out="-1:eval|1:vobj|8:time|17:pnct|22:conj|54:pnct">ha</W>
+<W _noerror="&3a;nosubj&3a;" id="18" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="-6:+AGENTIVE&3a;expl/de_hecho|1:*[subj]" out="-1:eval|1:vobj|8:time|17:pnct|22:conj|54:pnct">ha</W>
 <W _noerror="&3a;nosubj&3a;" id="19" lemma="haber" morph="haber" msd="VAF" tag="VHadj" in="-1:vobj" out="-1:*[subj]|1:dobj">habido</W>
 <W id="20" lemma="un" msd="PD" tag="ART" in="-1:dobj|-17:coref-iden" out="2:nobj|20:coref">una</W>
 <W id="21" lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attr" out="">histórica</W>
@@ -50,7 +50,7 @@
 <W _noerror="&3a;noante&3a;" id="49" lemma="ministro" morph="ministro" msd="NC" tag="NC" in="-6:conj" out="-3:coord|-1:attr#|-2:attr|-2:{time}|2:appr">ministro</W>
 <W id="50" lemma="Erik" msd="NP" tag="NP" in="1:namef" out="">Erik</W>
 <W _noerror="&3a;nosubj&3a;" id="51" lemma="&lt;unknown&gt;" morph="Eriksen" msd="VAD" tag="VLfin" in="-2:appr" out="-1:namef">Eriksen</W>
-<W _noerror="&3a;noante&3a;" id="52" lemma="suyo" msd="PP" tag="PPO" in="-12:dobj|1:{arg}|-11:coref" out="1:possd|10:coref">su</W>
+<W _noerror="&3a;noante&3a;" id="52" lemma="suyo" msd="PP" tag="PPO" in="-12:dobj|-11:coref|1:{arg}" out="1:possd|10:coref">su</W>
 <W id="53" lemma="&lt;unknown&gt;" morph="rol" msd="NC" tag="NC" in="-1:possd" out="-1:{arg}|1:pobj|1:{arg}">rol</W>
 <W id="54" lemma="como" msd="CS" tag="CSUBX" in="-1:pobj|-1:{arg}" out="1:nobj">como</W>
 <W _noerror="&3a;noante&3a;" id="55" lemma="personaje" morph="persona +aje /DERnn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:attr|2:{const}">personaje</W>
@@ -60,7 +60,7 @@
 <W id="59" lemma="," msd="XP" tag="CM" in="-19:pnct" out="">,</W>
 <W id="60" lemma="cuando" msd="CS" tag="CSUBX" in="-20:time" out="3:vobj">cuando</W>
 <W id="61" lemma="directamente" msd="RG" tag="ADV" in="2:man" out="">directamente</W>
-<W id="62" lemma="se" msd="PC" tag="SE" in="1:robj|-10:coref" out="">se</W>
+<W id="62" lemma="se" msd="PC" tag="SE" in="-10:coref|1:robj" out="">se</W>
 <W _noerror="&3a;nosubj&3a;" id="63" lemma="&lt;unknown&gt;" morph="mostrar" msd="VAD" tag="VLfin" in="-3:vobj|-20:coref" out="-2:man|-1:robj|1:preds">mostró</W>
 <W _noerror="&3a;noante&3a;" id="64" lemma="partidario" morph="partido +ario /DERna&3a;rel.norm" msd="NC" tag="NC" in="-1:preds" out="1:pobj|1:{arg}">partidario</W>
 <W id="65" lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
@@ -99,7 +99,7 @@
 <W id="98" lemma="ahora" msd="RG" tag="ADV" in="-3:time" out="">ahora</W>
 <W id="99" lemma="." msd="XP" tag="FS" in="-4:pnct" out="">.</W>
 <W id="100" lemma="en~todo~caso" msd="RG" tag="ADV" in="1:eval" out="">En todo caso</W>
-<W _noerror="&3a;nosubj&3a;" id="101" lemma="deber" morph="deber" msd="VAD" tag="VLfin" in="-32:coref|2:*[subj]|-6:CONC/en_todo_caso/ATTR" out="-1:eval|1:time|2:vobj|22:pnct|35:CONJ&3a;elab/en_este_sentido/ATTR">debemos</W>
+<W _noerror="&3a;nosubj&3a;" id="101" lemma="deber" morph="deber" msd="VAD" tag="VLfin" in="-32:coref|-6:CONC/en_todo_caso/ATTR|2:*[subj]" out="-1:eval|1:time|2:vobj|22:pnct|35:CONJ&3a;elab/en_este_sentido/ATTR">debemos</W>
 <W id="102" lemma="primero" msd="RG" tag="ADV" in="-1:time" out="">primero</W>
 <W _noerror="&3a;nosubj&3a;" id="103" lemma="pasar" morph="paso +ar /DERnv" msd="VAF lexical verb infinite" tag="VLinf" in="-2:vobj" out="-2:*[subj]|1:@dir">pasar</W>
 <W id="104" lemma="por" msd="SP" tag="SCENE" in="-1:@dir" out="1:nobj">por</W>
@@ -146,11 +146,11 @@
 <W _noerror="&3a;nosubj&3a;" id="145" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="-1:vobj" out="1:dobj">hayan</W>
 <W id="146" lemma="malentender" morph="malentender +ido/DERvn&3a;core -mal/MOD&3a;mal" msd="VAF" tag="VLadj" in="-1:dobj" out="1:pobj.subj|1:{agent}">malentendidos</W>
 <W id="147" lemma="entre" msd="SP" tag="SCENE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">entre</W>
-<W id="148" lemma="nosotros" msd="PP" tag="PPX" in="-1:nobj|-36:coref-var|1:{const}|-35:coref-var" out="1:possd|4:coref|4:*coref">nuestros</W>
+<W id="148" lemma="nosotros" msd="PP" tag="PPX" in="-1:nobj|-36:coref-var|-35:coref-var|1:{const}" out="1:possd|4:coref|4:*coref">nuestros</W>
 <W id="149" lemma="dos" msd="AC" tag="CARD" in="-1:possd" out="-1:{const}|1:nobj">dos</W>
 <W id="150" lemma="partido" morph="partido" msd="NC" tag="NC" in="-1:nobj" out="">partidos</W>
 <W id="151" lemma="." msd="XP" tag="FS" in="-8:pnct" out="">.</W>
-<W id="152" lemma="deber" morph="deber" msd="VAD" tag="VLfin" in="-4:coref|1:*[subj]|-57:+CONJ/ATTR|-4:*coref" out="1:vobj|12:pnct|14:CONJ&3a;elab/ATTR">Debemos</W>
+<W id="152" lemma="deber" morph="deber" msd="VAD" tag="VLfin" in="-4:coref|-57:+CONJ/ATTR|-4:*coref|1:*[subj]" out="1:vobj|12:pnct|14:CONJ&3a;elab/ATTR">Debemos</W>
 <W _noerror="&3a;nosubj&3a;" id="153" lemma="pensar" morph="pensar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-1:*[subj]|1:pobj">pensar</W>
 <W id="154" lemma="en" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">en</W>
 <W _noerror="&3a;noante&3a;" id="155" lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|20:coref-iden">la</W>
@@ -177,8 +177,8 @@
 <W id="176" lemma="&lt;unknown&gt;" morph="colaborar +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">colaboración</W>
 <W id="177" lemma="en" msd="SP" tag="SCENE" in="-3:predo" out="1:¹nobj">en</W>
 <W _noerror="&3a;noante&3a;manygovs&3a;" compound="¹marcha²,³”" id="178" lemma="&lt;unknown&gt;" morph="marchar +Ø/DERvn&3a;core" msd="NC" tag="NC" in="-1:¹nobj|-4:²pnct|-12:³pnct" out="">marcha,”</W>
-<W id="179" lemma="decir" morph="decir" msd="VAD" tag="VLfin" in="-100:+TIME&3a;post/ahora/ATTR*" out="1:subj|5:pnct|-84:+qobj|20:+CONJ">dice</W>
-<W _noerror="&3a;noante&3a;" id="180" lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj|19:coref|12:coref">el</W>
+<W id="179" lemma="decir" morph="decir" msd="VAD" tag="VLfin" in="-100:+TIME&3a;post/ahora/ATTR*" out="-84:+qobj|1:subj|5:pnct|20:+CONJ">dice</W>
+<W _noerror="&3a;noante&3a;" id="180" lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj|12:coref|19:coref">el</W>
 <W id="181" lemma="ministro" morph="ministro" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#">ministro</W>
 <W id="182" lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W _noerror="&3a;nosubj&3a;" id="183" lemma="pescar" morph="pescar +Ø/DERvn&3a;core" msd="VAD" tag="VLfin" in="-1:nobj" out="">pesca</W>
@@ -190,14 +190,14 @@
 <W id="189" lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W _noerror="&3a;noante&3a;" id="190" lemma="semana" morph="semana" msd="NC" tag="NC" in="-1:nobj" out="">semana</W>
 <W id="191" lemma="con" msd="SP" tag="SCENE" in="-3:attr|-3:{loc}" out="1:nobj">con</W>
-<W id="192" lemma="suyo" msd="PP" tag="PPO" in="-1:nobj|1:{arg}|-12:coref" out="1:possd|7:*coref">su</W>
+<W id="192" lemma="suyo" msd="PP" tag="PPO" in="-1:nobj|-12:coref|1:{arg}" out="1:possd|7:*coref">su</W>
 <W id="193" lemma="familia" morph="familia" msd="NC" tag="NC" in="-1:possd" out="-1:{arg}|1:attr|1:{source}">familia</W>
 <W id="194" lemma="en" msd="SP" tag="SCENE" in="-1:attr|-1:{source}" out="1:nobj">en</W>
 <W _noerror="&3a;noante&3a;" id="195" lemma="&lt;unknown&gt;" morph="Fanø" msd="NC" tag="NC" in="-1:nobj" out="">Fanø</W>
 <W id="196" lemma="," msd="XP" tag="CM" in="-11:pnct" out="">,</W>
 <W _noerror="&3a;noante&3a;" id="197" lemma="el" msd="PD" tag="ART" in="2:time" out="1:nobj">el</W>
 <W id="198" lemma="lunes" morph="lunes" msd="NC" tag="NC" in="-1:nobj" out="">lunes</W>
-<W id="199" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="-19:coref|1:*[subj]|-7:*coref|-20:+CONJ" out="-2:time|-14:time|1:vobj|15:pnct">ha</W>
+<W id="199" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="-19:coref|-7:*coref|-20:+CONJ|1:*[subj]" out="-2:time|-14:time|1:vobj|15:pnct">ha</W>
 <W _noerror="&3a;nosubj&3a;" id="200" lemma="participar" morph="participar" msd="VAF" tag="VLadj" in="-1:vobj" out="-1:*[subj]|1:pobj">participado</W>
 <W id="201" lemma="en" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">en</W>
 <W _noerror="&3a;noante&3a;" id="202" lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
