@@ -51,7 +51,7 @@
 <W gloss="to" id="50" lemma="at" msd="U=" tag="TO" in="-1:other" out="1:vobj">at</W>
 <W _noerror="&3a;nosubj&3a;" gloss="undertake" id="51" lemma="foretage" morph="foretage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[dobj]">foretage</W>
 <W gloss="from" id="52" lemma="fra" msd="SP" tag="IN" in="-5:time" out="1:nobj">fra</W>
-<W gloss="the_education" id="53" lemma="uddannelse" morph="uddanne +else/DERvn&3a;core" msd="NCCSG==D" tag="NN" in="-1:nobj|1:[subj]|1:{agent}|-7:assoc-telic" out="1:possd">uddannelsens</W>
+<W gloss="the_education" id="53" lemma="uddannelse" morph="uddanne +else/DERvn&3a;core" msd="NCCSG==D" tag="NN" in="-1:nobj|-7:assoc-telic|1:[subj]|1:{agent}" out="1:possd">uddannelsens</W>
 <W gloss="start" id="54" lemma="start" morph="starte +Ø/DERvn&3a;core" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:[subj]|-1:{agent}">start</W>
 <W gloss="." id="55" lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
@@ -100,7 +100,7 @@
 <W gloss="," id="99" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="which" id="100" lemma="der" msd="U=" tag="WDT" in="-4:ref|1:subj" out="">der</W>
 <W gloss="makes_possible" id="101" lemma="muliggøre" morph="gøre -[mulig@ADJ]/dobj.patient" msd="VADR=----A-" tag="VBD" in="-5:relr" out="-1:subj|1:dobj|3:pnct">muliggør</W>
-<W gloss="a" id="102" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj|15:CONJ&3a;elab|14:coref-iden">en</W>
+<W gloss="a" id="102" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj|14:coref-iden|15:CONJ&3a;elab">en</W>
 <W gloss="studieaktivitetskontrol" id="103" lemma="studieaktivitetskontrol" morph="kontrol -[studieaktivitet]s/dobj.patient aktivitet -studie/arg aktiv +itet/DERan&3a;qual studere +ium/DERvn&3a;loc" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">studieaktivitetskontrol</W>
 <W gloss="," id="104" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="and" id="105" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
@@ -114,7 +114,7 @@
 <W gloss="." id="113" lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Studieaktivitetskontrollen" id="116" lemma="studieaktivitetskontrol" morph="kontrol -[studieaktivitet]s/dobj.patient aktivitet -studie/arg aktiv +itet/DERan&3a;qual studere +ium/DERvn&3a;loc" msd="NCCSU==D" tag="NN" in="1:subj|-14:coref-iden" out="19:coref-var">Studieaktivitetskontrollen</W>
+<W gloss="Studieaktivitetskontrollen" id="116" lemma="studieaktivitetskontrol" morph="kontrol -[studieaktivitet]s/dobj.patient aktivitet -studie/arg aktiv +itet/DERan&3a;qual studere +ium/DERvn&3a;loc" msd="NCCSU==D" tag="NN" in="-14:coref-iden|1:subj" out="19:coref-var">Studieaktivitetskontrollen</W>
 <W gloss="lie" id="117" lemma="ligge" morph="ligge" msd="VADR=----A-" tag="VBD" in="-15:CONJ&3a;elab" out="-1:subj|1:@loc|3:pnct|7:CONJ&3a;add/(og)">ligger</W>
 <W gloss="in" id="118" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W _noerror="&3a;noante&3a;" gloss="the_educational_institutions" id="119" lemma="uddannelsesinstitution" morph="institution -[uddannelse]s/func uddanne +else/DERvn&3a;core" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="13:coref-var">uddannelsesinstitutionerne</W>
@@ -130,7 +130,7 @@
 <W gloss="believe" id="129" lemma="tro" morph="tro" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|1:pnct|2:dobj">tro</W>
 <W gloss="," id="130" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="131" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
-<W gloss="the_institutions" id="132" lemma="institution" morph="institution" msd="NCCPU==D" tag="NNP" in="2:subj|-13:coref-var" out="34:coref-iden">institutionerne</W>
+<W gloss="the_institutions" id="132" lemma="institution" morph="institution" msd="NCCPU==D" tag="NNP" in="-13:coref-var|2:subj" out="34:coref-iden">institutionerne</W>
 <W gloss="not" id="133" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="do_take" id="134" lemma="tage" morph="tage" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:dobj|3:aobj">tager</W>
 <W gloss="this" id="135" lemma="denne" msd="PD-CSU--U" tag="DT" in="-1:dobj|-19:coref-var" out="1:nobj">denne</W>
@@ -155,7 +155,7 @@
 <W gloss="." id="154" lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="I" id="157" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|3:[subj]|-34:coref" out="">Jeg</W>
+<W gloss="I" id="157" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-34:coref|1:subj|3:[subj]" out="">Jeg</W>
 <W gloss="want_to" id="158" lemma="ville" morph="ville" msd="VADR=----A-" tag="VBD" in="-13:TELIC&3a;cons.dir/derfor" out="-1:subj|1:cause|2:vobj|19:pnct">vil</W>
 <W gloss="Therefore" id="159" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
 <W gloss="introduce" id="160" lemma="indføre" morph="føre -ind/LOC&3a;dir" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">indføre</W>
@@ -164,7 +164,7 @@
 <W gloss="on_the" id="163" lemma="om" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:pnct|2:nobj">om</W>
 <W gloss="," id="164" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="165" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="2:vobj">at</W>
-<W gloss="institutions" id="166" lemma="institution" morph="institution" msd="NCCPU==D" tag="NNP" in="1:subj|2:[subj]|-34:coref-iden" out="">institutionerne</W>
+<W gloss="institutions" id="166" lemma="institution" morph="institution" msd="NCCPU==D" tag="NNP" in="-34:coref-iden|1:subj|2:[subj]" out="">institutionerne</W>
 <W gloss="require" id="167" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|7:time">skal</W>
 <W gloss="conduct" id="168" lemma="gennemføre" morph="gennemføre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:dobj">gennemføre</W>
 <W gloss="first" id="169" lemma="første" morph="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">første</W>
@@ -205,14 +205,14 @@
 <W _noerror="&3a;noante&3a;" gloss="year" id="204" lemma="år" morph="år" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">året</W>
 <W gloss="without" id="205" lemma="uden" msd="SP" tag="IN" in="-9:man" out="1:nobj|7:conj">uden</W>
 <W gloss="that" id="206" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="demonstrate" id="207" lemma="vise" morph="vise" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:@loc|-13:[subj]">vise</W>
+<W gloss="demonstrate" id="207" lemma="vise" morph="vise" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-13:[subj]|1:dobj|2:@loc">vise</W>
 <W _noerror="&3a;noante&3a;" gloss="themselves" id="208" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="in" id="209" lemma="på" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">på</W>
 <W _noerror="&3a;noante&3a;" gloss="place_in_education" id="210" lemma="uddannelsessted" morph="sted -[uddannelse]s/func uddanne +else/DERvn&3a;core" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">uddannelsesstedet</W>
 <W gloss="and" id="211" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="without" id="212" lemma="uden" msd="SP" tag="IN" in="-7:conj" out="-1:coord|1:nobj">uden</W>
 <W gloss="that" id="213" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="opening" id="214" lemma="åbne" morph="åben +ne/DERav" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|-20:[subj]">åbne</W>
+<W gloss="opening" id="214" lemma="åbne" morph="åben +ne/DERav" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-20:[subj]|1:dobj">åbne</W>
 <W gloss="a" id="215" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="book" id="216" lemma="bog" morph="bog" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">bog</W>
 <W gloss="." id="217" lemma="." msd="XP" tag="." in="-32:pnct" out="">.</W>
