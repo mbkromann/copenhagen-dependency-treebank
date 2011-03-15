@@ -4,3 +4,374 @@ Thu Sep  2 20:14:32 CEST 2010
 
 
 
+Tue Sep 14 19:44:40 CEST 2010
+cd ../en
+svn update
+At revision 1321.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 45 en > 45-en.findFiles.out 2> 45-en.findFiles.err
+perl convertToConll.pl 45 en tag > 45-en.convertToConnl.out 2> 45-en.convertToConnl.err
+perl createSegmenterFileLists.pl 45 en 2> 45-en.createSegmenterFileLists.err > 45-en.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 45-en.toParseFiles.lst.abs 2> 45-en.createtoSegmentFiles.err > 45-en.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 45-en.toParseFiles.lst.abs it 2> 45-en.segmentFiles.err > 45-en.segmentFiles.out
+perl segmentConllFiles.pl 45 en > 45-en.segmentConllFiles.out 2> 45-en.segmentConllFiles.err
+perl cleanupConll.pl 45 en > 45-en.cleanupConll.out 2> 45-en.cleanupConll.err
+perl createParserFiles.pl 45 en > 45-en.createParserFiles.out 2> 45-en.createParserFiles.err
+perl createParserScripts.pl 45 en > 45-en.createParserScripts.out 2> 45-en.createParserScripts.err
+qsub -cwd -sync y ./R45-en.train.sh
+Your job 21170 ("R45-en.train.sh") has been submitted
+Job 21170 exited with exit code 0.
+Wed Sep 15 09:50:25 CEST 2010
+cd ../en
+svn update
+At revision 1321.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 46 en > 46-en.findFiles.out 2> 46-en.findFiles.err
+perl convertToConll.pl 46 en tag > 46-en.convertToConnl.out 2> 46-en.convertToConnl.err
+perl createSegmenterFileLists.pl 46 en 2> 46-en.createSegmenterFileLists.err > 46-en.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 46-en.toParseFiles.lst.abs 2> 46-en.createtoSegmentFiles.err > 46-en.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 46-en.toParseFiles.lst.abs it 2> 46-en.segmentFiles.err > 46-en.segmentFiles.out
+perl segmentConllFiles.pl 46 en > 46-en.segmentConllFiles.out 2> 46-en.segmentConllFiles.err
+perl cleanupConll.pl 46 en > 46-en.cleanupConll.out 2> 46-en.cleanupConll.err
+perl createParserFiles.pl 46 en > 46-en.createParserFiles.out 2> 46-en.createParserFiles.err
+perl createParserScripts.pl 46 en > 46-en.createParserScripts.out 2> 46-en.createParserScripts.err
+qsub -cwd -sync y ./R46-en.train.sh
+Your job 21176 ("R46-en.train.sh") has been submitted
+Job 21176 exited with exit code 0.
+qsub -cwd -sync y ./R46-en.parse.sh
+Your job 21177 ("R46-en.parse.sh") has been submitted
+Job 21177 exited with exit code 1.
+qsub -cwd -sync y ./R46-en.parse-trainingdata.sh
+Your job 21178 ("R46-en.parse-trainingdata.sh") has been submitted
+Job 21178 exited with exit code 0.
+perl createStats.pl 46-en.train.conll 46-en.training.out.conll > 46-en.stats
+Use of uninitialized value $c in division (/) at createStats.pl line 57.
+Use of uninitialized value $c in division (/) at createStats.pl line 57.
+Use of uninitialized value $c in division (/) at createStats.pl line 57.
+perl prune.pl 46-en.stats 46-en.out.conll 0.8 > 46-en.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 46 en > 46-en.splitParsedFiles.out 2> 46-en.splitParsedFiles.err
+perl mergeAll.pl 46 en > 46-en.mergeAll.out 2> 46-en.mergeAll.err
+perl mergeAllTag.pl 46 en > 46-en.mergeAllTag.out 2> 46-en.mergeAllTag.err
+perl updateAllTag.pl 46 en > 46-en.updateAllTag.out 2> 46-en.updateAllTag.err
+perl copyTagFiles.pl 46 en > 46-en.copyTagFiles.out 2> 46-en.copyTagFiles.err
+cd ../en
+svn update
+At revision 1321.
+svn add *auto*.tag
+svn: warning: '0114-en-auto.tag' is already under version control
+svn: warning: '0119-en-auto.tag' is already under version control
+svn: warning: '0132-en-auto.tag' is already under version control
+svn: warning: '0133-en-auto.tag' is already under version control
+svn: warning: '0155-en-auto.tag' is already under version control
+svn: warning: '0197-en-auto.tag' is already under version control
+svn: warning: '0211-en-auto.tag' is already under version control
+svn: warning: '0215-en-auto.tag' is already under version control
+svn: warning: '0259-en-auto.tag' is already under version control
+svn: warning: '0318-en-auto.tag' is already under version control
+svn: warning: '0351-en-auto.tag' is already under version control
+svn: warning: '0357-en-auto.tag' is already under version control
+svn: warning: '0375-en-auto.tag' is already under version control
+svn: warning: '0394-en-auto.tag' is already under version control
+svn: warning: '0395-en-auto.tag' is already under version control
+svn: warning: '0438-en-auto.tag' is already under version control
+svn: warning: '0472-en-auto.tag' is already under version control
+svn: warning: '0519-en-auto.tag' is already under version control
+svn: warning: '0538-en-auto.tag' is already under version control
+svn: warning: '0573-en-auto.tag' is already under version control
+svn: warning: '0596-en-auto.tag' is already under version control
+svn: warning: '0612-en-auto.tag' is already under version control
+svn: warning: '0613-en-auto.tag' is already under version control
+svn: warning: '0614-en-auto.tag' is already under version control
+svn: warning: '0671-en-auto.tag' is already under version control
+svn: warning: '0694-en-auto.tag' is already under version control
+svn: warning: '0696-en-auto.tag' is already under version control
+svn: warning: '0735-en-auto.tag' is already under version control
+svn: warning: '0738-en-auto.tag' is already under version control
+svn: warning: '0752-en-auto.tag' is already under version control
+svn: warning: '0754-en-auto.tag' is already under version control
+svn: warning: '0759-en-auto.tag' is already under version control
+svn: warning: '0771-en-auto.tag' is already under version control
+svn: warning: '0790-en-auto.tag' is already under version control
+svn: warning: '0793-en-auto.tag' is already under version control
+svn: warning: '0795-en-auto.tag' is already under version control
+svn: warning: '0837-en-auto.tag' is already under version control
+svn: warning: '0848-en-auto.tag' is already under version control
+svn: warning: '0851-en-auto.tag' is already under version control
+svn: warning: '0870-en-auto.tag' is already under version control
+svn: warning: '0873-en-auto.tag' is already under version control
+svn: warning: '0877-en-auto.tag' is already under version control
+svn: warning: '0893-en-auto.tag' is already under version control
+svn: warning: '0895-en-auto.tag' is already under version control
+svn: warning: '0917-en-auto.tag' is already under version control
+svn: warning: '0931-en-auto.tag' is already under version control
+svn: warning: '0951-en-auto.tag' is already under version control
+svn: warning: '0975-en-auto.tag' is already under version control
+svn: warning: '0978-en-auto.tag' is already under version control
+svn: warning: '0992-en-auto.tag' is already under version control
+svn: warning: '1010-en-auto.tag' is already under version control
+svn: warning: '1031-en-auto.tag' is already under version control
+svn: warning: '1039-en-auto.tag' is already under version control
+svn: warning: '1055-en-auto.tag' is already under version control
+svn: warning: '1057-en-auto.tag' is already under version control
+svn: warning: '1058-en-auto.tag' is already under version control
+svn: warning: '1130-en-auto.tag' is already under version control
+svn: warning: '1175-en-auto.tag' is already under version control
+svn: warning: '1190-en-auto.tag' is already under version control
+svn: warning: '1237-en-auto.tag' is already under version control
+svn: warning: '1255-en-auto.tag' is already under version control
+svn: warning: '1276-en-auto.tag' is already under version control
+svn: warning: '1333-en-auto.tag' is already under version control
+svn: warning: '1337-en-auto.tag' is already under version control
+svn: warning: '1338-en-auto.tag' is already under version control
+svn: warning: '1373-en-auto.tag' is already under version control
+svn: warning: '1375-en-auto.tag' is already under version control
+svn: warning: '1377-en-auto.tag' is already under version control
+svn: warning: '1399-en-auto.tag' is already under version control
+svn: warning: '1410-en-auto.tag' is already under version control
+svn: warning: '1436-en-auto.tag' is already under version control
+svn: warning: '1437-en-auto.tag' is already under version control
+svn: warning: '1456-en-auto.tag' is already under version control
+svn: warning: '1490-en-auto.tag' is already under version control
+svn: warning: '1493-en-auto.tag' is already under version control
+svn: warning: '1497-en-auto.tag' is already under version control
+svn: warning: '1514-en-auto.tag' is already under version control
+svn: warning: '1536-en-auto.tag' is already under version control
+A         wsj_0324.auto.tag
+A         wsj_0510.auto.tag
+A         wsj_0570.auto.tag
+A         wsj_0657.auto.tag
+A         wsj_0747.auto.tag
+A         wsj_0788.auto.tag
+A         wsj_1074.auto.tag
+A         wsj_2332.auto.tag
+A         wsj_2355.auto.tag
+A         wsj_2366.auto.tag
+A         wsj_2368.auto.tag
+A         wsj_2375.auto.tag
+svn commit -m 'Automatic annotations, 46-en'
+Adding         en/wsj_0324.auto.tag
+Adding         en/wsj_0324.tagged.tag
+Adding         en/wsj_0510.auto.tag
+Adding         en/wsj_0510.tagged.tag
+Adding         en/wsj_0570.auto.tag
+Adding         en/wsj_0570.tagged.tag
+Adding         en/wsj_0657.auto.tag
+Adding         en/wsj_0657.tagged.tag
+Adding         en/wsj_0747.auto.tag
+Adding         en/wsj_0747.tagged.tag
+Adding         en/wsj_0788.auto.tag
+Adding         en/wsj_0788.tagged.tag
+Adding         en/wsj_1074.auto.tag
+Adding         en/wsj_1074.tagged.tag
+Adding         en/wsj_2332.auto.tag
+Adding         en/wsj_2332.tagged.tag
+Adding         en/wsj_2355.auto.tag
+Adding         en/wsj_2355.tagged.tag
+Adding         en/wsj_2366.auto.tag
+Adding         en/wsj_2366.tagged.tag
+Adding         en/wsj_2368.auto.tag
+Adding         en/wsj_2368.tagged.tag
+Adding         en/wsj_2375.auto.tag
+Adding         en/wsj_2375.tagged.tag
+Transmitting file data ........................
+Committed revision 1322.
+-------------------------------------------
+Fri Oct  1 21:23:57 CEST 2010
+cd ../en
+svn update
+D    wsj_2332.auto.tag
+D    wsj_2375.auto.tag
+D    wsj_0324.auto.tag
+D    wsj_0570.auto.tag
+D    wsj_0510.auto.tag
+D    wsj_0788.auto.tag
+D    wsj_2366.auto.tag
+D    wsj_0657.auto.tag
+D    wsj_0747.auto.tag
+D    wsj_1074.auto.tag
+D    wsj_2355.auto.tag
+D    wsj_2368.auto.tag
+D    wsj_2332.tagged.tag
+D    wsj_0510.tagged.tag
+D    wsj_2366.tagged.tag
+D    wsj_0788.tagged.tag
+D    wsj_0570.tagged.tag
+D    wsj_2355.tagged.tag
+D    wsj_2368.tagged.tag
+D    wsj_0324.tagged.tag
+D    wsj_1074.tagged.tag
+D    wsj_2375.tagged.tag
+D    wsj_0657.tagged.tag
+D    wsj_0747.tagged.tag
+A    wsj-0570-tagged.tag
+A    wsj-2355-tagged.tag
+A    wsj-2368-lotte.tag
+A    wsj-2332-lotte.tag
+A    wsj-0324-auto.tag
+A    wsj-0570-auto.tag
+A    wsj-2368-tagged.tag
+A    wsj-0510-auto.tag
+A    wsj-0788-auto.tag
+A    wsj-0324-lotte.tag
+A    wsj-1074-lotte.tag
+A    wsj-0324-tagged.tag
+UU   1077-en-lotte.tag
+A    wsj-1074-tagged.tag
+A    wsj-2375-tagged.tag
+A    wsj-2366-auto.tag
+A    1090-en-lotte.tag
+A    wsj-0747-lotte.tag
+A    wsj-0510-lotte.tag
+A    wsj-2355-lotte.tag
+A    wsj-0570-lotte.tag
+A    wsj-0657-auto.tag
+A    wsj-0657-tagged.tag
+A    wsj-0747-auto.tag
+A    wsj-0747-tagged.tag
+A    wsj-1074-auto.tag
+A    wsj-2355-auto.tag
+A    wsj-2332-tagged.tag
+A    wsj-2368-auto.tag
+A    wsj-2366-lotte.tag
+A    wsj-0788-lotte.tag
+A    wsj-2375-lotte.tag
+A    wsj-2332-auto.tag
+A    wsj-0510-tagged.tag
+A    wsj-2366-tagged.tag
+A    wsj-0657-lotte.tag
+A    wsj-2375-auto.tag
+A    1057-en-lotte.tag
+A    wsj-0788-tagged.tag
+Updated to revision 1368.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 54 en > 54-en.findFiles.out 2> 54-en.findFiles.err
+perl convertToConll.pl 54 en tag > 54-en.convertToConnl.out 2> 54-en.convertToConnl.err
+perl createSegmenterFileLists.pl 54 en 2> 54-en.createSegmenterFileLists.err > 54-en.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 54-en.toParseFiles.lst.abs 2> 54-en.createtoSegmentFiles.err > 54-en.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 54-en.toParseFiles.lst.abs it 2> 54-en.segmentFiles.err > 54-en.segmentFiles.out
+perl segmentConllFiles.pl 54 en > 54-en.segmentConllFiles.out 2> 54-en.segmentConllFiles.err
+perl cleanupConll.pl 54 en > 54-en.cleanupConll.out 2> 54-en.cleanupConll.err
+perl createParserFiles.pl 54 en > 54-en.createParserFiles.out 2> 54-en.createParserFiles.err
+perl createParserScripts.pl 54 en > 54-en.createParserScripts.out 2> 54-en.createParserScripts.err
+./R54-en.train.sh
+./R54-en.parse.sh
+./R54-en.parse-trainingdata.sh
+perl createStats.pl 54-en.train.conll 54-en.training.out.conll > 54-en.stats
+perl prune.pl 54-en.stats 54-en.out.conll 0.8 > 54-en.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 54 en > 54-en.splitParsedFiles.out 2> 54-en.splitParsedFiles.err
+perl mergeAll.pl 54 en > 54-en.mergeAll.out 2> 54-en.mergeAll.err
+perl mergeAllTag.pl 54 en > 54-en.mergeAllTag.out 2> 54-en.mergeAllTag.err
+perl updateAllTag.pl 54 en > 54-en.updateAllTag.out 2> 54-en.updateAllTag.err
+perl copyTagFiles.pl 54 en > 54-en.copyTagFiles.out 2> 54-en.copyTagFiles.err
+cd ../en
+svn update
+At revision 1368.
+svn add *auto*.tag
+svn: warning: '0114-en-auto.tag' is already under version control
+svn: warning: '0119-en-auto.tag' is already under version control
+svn: warning: '0132-en-auto.tag' is already under version control
+svn: warning: '0133-en-auto.tag' is already under version control
+svn: warning: '0155-en-auto.tag' is already under version control
+svn: warning: '0197-en-auto.tag' is already under version control
+svn: warning: '0211-en-auto.tag' is already under version control
+svn: warning: '0215-en-auto.tag' is already under version control
+svn: warning: '0259-en-auto.tag' is already under version control
+svn: warning: '0318-en-auto.tag' is already under version control
+svn: warning: '0351-en-auto.tag' is already under version control
+svn: warning: '0357-en-auto.tag' is already under version control
+svn: warning: '0375-en-auto.tag' is already under version control
+svn: warning: '0394-en-auto.tag' is already under version control
+svn: warning: '0395-en-auto.tag' is already under version control
+svn: warning: '0438-en-auto.tag' is already under version control
+svn: warning: '0472-en-auto.tag' is already under version control
+svn: warning: '0519-en-auto.tag' is already under version control
+svn: warning: '0538-en-auto.tag' is already under version control
+svn: warning: '0573-en-auto.tag' is already under version control
+svn: warning: '0596-en-auto.tag' is already under version control
+svn: warning: '0612-en-auto.tag' is already under version control
+svn: warning: '0613-en-auto.tag' is already under version control
+svn: warning: '0614-en-auto.tag' is already under version control
+svn: warning: '0671-en-auto.tag' is already under version control
+svn: warning: '0694-en-auto.tag' is already under version control
+svn: warning: '0696-en-auto.tag' is already under version control
+svn: warning: '0735-en-auto.tag' is already under version control
+svn: warning: '0738-en-auto.tag' is already under version control
+svn: warning: '0752-en-auto.tag' is already under version control
+svn: warning: '0754-en-auto.tag' is already under version control
+svn: warning: '0759-en-auto.tag' is already under version control
+svn: warning: '0771-en-auto.tag' is already under version control
+svn: warning: '0790-en-auto.tag' is already under version control
+svn: warning: '0793-en-auto.tag' is already under version control
+svn: warning: '0795-en-auto.tag' is already under version control
+svn: warning: '0837-en-auto.tag' is already under version control
+svn: warning: '0848-en-auto.tag' is already under version control
+svn: warning: '0851-en-auto.tag' is already under version control
+svn: warning: '0870-en-auto.tag' is already under version control
+svn: warning: '0873-en-auto.tag' is already under version control
+svn: warning: '0877-en-auto.tag' is already under version control
+svn: warning: '0893-en-auto.tag' is already under version control
+svn: warning: '0895-en-auto.tag' is already under version control
+svn: warning: '0917-en-auto.tag' is already under version control
+svn: warning: '0931-en-auto.tag' is already under version control
+svn: warning: '0951-en-auto.tag' is already under version control
+svn: warning: '0975-en-auto.tag' is already under version control
+svn: warning: '0978-en-auto.tag' is already under version control
+svn: warning: '0992-en-auto.tag' is already under version control
+svn: warning: '1010-en-auto.tag' is already under version control
+svn: warning: '1031-en-auto.tag' is already under version control
+svn: warning: '1039-en-auto.tag' is already under version control
+svn: warning: '1055-en-auto.tag' is already under version control
+svn: warning: '1057-en-auto.tag' is already under version control
+svn: warning: '1058-en-auto.tag' is already under version control
+svn: warning: '1130-en-auto.tag' is already under version control
+svn: warning: '1175-en-auto.tag' is already under version control
+svn: warning: '1190-en-auto.tag' is already under version control
+svn: warning: '1237-en-auto.tag' is already under version control
+svn: warning: '1255-en-auto.tag' is already under version control
+svn: warning: '1276-en-auto.tag' is already under version control
+svn: warning: '1333-en-auto.tag' is already under version control
+svn: warning: '1337-en-auto.tag' is already under version control
+svn: warning: '1338-en-auto.tag' is already under version control
+svn: warning: '1373-en-auto.tag' is already under version control
+svn: warning: '1375-en-auto.tag' is already under version control
+svn: warning: '1377-en-auto.tag' is already under version control
+svn: warning: '1399-en-auto.tag' is already under version control
+svn: warning: '1410-en-auto.tag' is already under version control
+svn: warning: '1436-en-auto.tag' is already under version control
+svn: warning: '1437-en-auto.tag' is already under version control
+svn: warning: '1456-en-auto.tag' is already under version control
+svn: warning: '1490-en-auto.tag' is already under version control
+svn: warning: '1493-en-auto.tag' is already under version control
+svn: warning: '1497-en-auto.tag' is already under version control
+svn: warning: '1514-en-auto.tag' is already under version control
+svn: warning: '1536-en-auto.tag' is already under version control
+svn: warning: 'wsj-0324-auto.tag' is already under version control
+svn: warning: 'wsj-0510-auto.tag' is already under version control
+svn: warning: 'wsj-0570-auto.tag' is already under version control
+svn: warning: 'wsj-0657-auto.tag' is already under version control
+svn: warning: 'wsj-0747-auto.tag' is already under version control
+svn: warning: 'wsj-0788-auto.tag' is already under version control
+svn: warning: 'wsj-1074-auto.tag' is already under version control
+svn: warning: 'wsj-2332-auto.tag' is already under version control
+svn: warning: 'wsj-2355-auto.tag' is already under version control
+svn: warning: 'wsj-2366-auto.tag' is already under version control
+svn: warning: 'wsj-2368-auto.tag' is already under version control
+svn: warning: 'wsj-2375-auto.tag' is already under version control
+svn commit -m 'Automatic annotations, 54-en'
+Sending        en/wsj-0324-auto.tag
+Sending        en/wsj-0510-auto.tag
+Sending        en/wsj-0570-auto.tag
+Sending        en/wsj-0657-auto.tag
+Sending        en/wsj-0747-auto.tag
+Sending        en/wsj-0788-auto.tag
+Sending        en/wsj-1074-auto.tag
+Sending        en/wsj-2332-auto.tag
+Sending        en/wsj-2355-auto.tag
+Sending        en/wsj-2366-auto.tag
+Sending        en/wsj-2368-auto.tag
+Sending        en/wsj-2375-auto.tag
+Transmitting file data ............
+Committed revision 1369.
+-------------------------------------------

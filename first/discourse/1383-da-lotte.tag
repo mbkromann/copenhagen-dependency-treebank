@@ -244,7 +244,3 @@
 </body>
 </text>
 </tei.2>
-<W in="" out="">
-</W>
-<W id="248" in="" out="1:+CONJ&3a;add/(e)">si_è_aperta</W>
-<W id="249" in="-1:+CONJ&3a;add/(e)" out="">si_è_verificato</W>

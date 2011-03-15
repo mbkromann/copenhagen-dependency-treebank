@@ -10,6 +10,9 @@ system(". /srv/sge6-2/sge_login/common/settings.sh");
 
 my $language = $ARGV[0];
 
+# Use tag-feauture in conll-output instead of msd-feature
+my $tagType = $ARGV[1];
+
 # If 0 all commands are only printed - not executed. Used for debugging.
 my $execute = 1;
 
@@ -65,7 +68,8 @@ if ($execute) {
 
 
 # Convert files to CoNNL-format
-$cmd = "perl convertToConll.pl $sessionID $language > $ID.convertToConnl.out 2> $ID.convertToConnl.err";
+$cmd = "perl convertToConll.pl $sessionID $language $tagType > $ID.convertToConnl.out 2> $ID.convertToConnl.err";
+
 print "$cmd\n";
 if ($execute) {
     system($cmd);
