@@ -1,7 +1,7 @@
 <W id="0" lemma="pero" msd="CC" tag="CCAD" in="1:discmark" out="">Pero</W>
 <W _noerror="&3a;nogov&3a;nosubj&3a;" id="1" lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-1:discmark|1:preds|9:nobj|15:pnct|26:CONJ|39:CONJ&3a;add/(y)">fue</W>
 <W id="2" lemma="con" msd="SP" tag="SCENE" in="-1:preds" out="1:nobj">con</W>
-<W _noerror="&3a;noante&3a;" id="3" lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|38:assoc-telic.inst/(preparar)">el</W>
+<W _noerror="&3a;noante&3a;" id="3" lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|38:assoc-agentive.inst/(preparar)">el</W>
 <W id="4" lemma="plato" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:appr">plato</W>
 <W id="5" lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:appr" out="1:attr|1:{const}">fricasé</W>
 <W id="6" lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{const}" out="1:nobj">de</W>
@@ -12,7 +12,7 @@
 <W _noerror="&3a;nosubj&3a;" id="11" lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="1:namef" out="">Preben</W>
 <W id="12" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="-1:namef|26:coref-var|213:+FORMAL&3a;eval">Madsen</W>
 <W id="13" lemma="&lt;unknown&gt;" morph="conseguir" msd="VAD" tag="VLfin" in="-3:vobj" out="-1:subj|1:dobj">consiguió</W>
-<W _noerror="&3a;noante&3a;" id="14" lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj|9:assoc-telic.agent/(conceder)">la</W>
+<W _noerror="&3a;noante&3a;" id="14" lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">la</W>
 <W id="15" lemma="victoria" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">victoria</W>
 <W id="16" lemma="." msd="XP" tag="FS" in="-15:pnct" out="">.</W>
 <W _noerror="&3a;noante&3a;" id="17" lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="10:scene" out="1:pobj#|5:pnct">Además</W>
@@ -21,7 +21,7 @@
 <W id="20" lemma="juez" morph="juez" msd="NC" tag="NC" in="-1:nobj" out="1:attr">jueces</W>
 <W id="21" lemma="local" morph="local" msd="AN" tag="ADJ" in="-1:attr" out="">locales</W>
 <W id="22" lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
-<W _noerror="&3a;noante&3a;" id="23" lemma="el" msd="PD" tag="ART" in="-9:assoc-telic.agent/(conceder)|4:subj" out="1:nobj">el</W>
+<W _noerror="&3a;noante&3a;" id="23" lemma="el" msd="PD" tag="ART" in="4:subj" out="1:nobj">el</W>
 <W id="24" lemma="panel" morph="panel" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{const}">panel</W>
 <W id="25" lemma="del" msd="SP" tag="PDEL" in="-1:attr|-1:{const}" out="1:nobj">del</W>
 <W id="26" lemma="jurado" morph="jurar !! +ado/DERvn&3a;agent" msd="AN" tag="ADJ" in="-1:nobj" out="">jurado</W>
@@ -39,7 +39,7 @@
 <W id="38" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-26:coref-var|2:subj" out="180:coref-var">Madsen</W>
 <W _noerror="&3a;noante&3a;" id="39" lemma="yo" msd="PP" tag="PPX" in="1:iobj" out="">me</W>
 <W id="40" lemma="dar" morph="dar" msd="VAD" tag="VLfin" in="-39:CONJ&3a;add/(y)" out="-2:subj|-1:iobj|1:dobj|3:pnct|6:CONJ&3a;add/(y)">dio</W>
-<W _noerror="&3a;noante&3a;" id="41" lemma="el" msd="PD" tag="ART" in="-1:dobj|-38:assoc-telic.inst/(preparar)" out="1:nobj|3:assoc-const|101:assoc-const">la</W>
+<W _noerror="&3a;noante&3a;" id="41" lemma="el" msd="PD" tag="ART" in="-1:dobj|-38:assoc-agentive.inst/(preparar)" out="1:nobj|3:assoc-const|101:assoc-const">la</W>
 <W id="42" lemma="receta" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">receta</W>
 <W id="43" lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>
 <W id="44" lemma="el" msd="PD" tag="ART" in="-3:assoc-const|2:subj" out="1:nobj">Los</W>
@@ -119,7 +119,7 @@
 <W id="118" lemma="en" msd="SP" tag="SCENE" in="-3:man" out="1:nobj">en</W>
 <W _noerror="&3a;noante&3a;" id="119" lemma="cuadrado" morph="cuadro ! +ado/DERnn&3a;other ! +ito/DIMIN ~s" msd="NC" tag="NC" in="-1:nobj" out="">cuadraditos</W>
 <W id="120" lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
-<W _noerror="&3a;nosubj&3a;" compound="¹hornear²lo" id="121" lemma="&lt;unknown&gt;" morph="horno ! +ear/DERnv" msd="VAF lexical verb infinite" tag="VLinf" in="-6:¹conj|0:²dobj¹|-5:²coref-evol" out="1:loc¹|6:loc|9:other|0:²dobj¹">hornearlo</W>
+<W _noerror="&3a;nosubj&3a;" compound="¹hornear²lo" id="121" lemma="&lt;unknown&gt;" morph="horno ! +ear/DERnv" msd="VAF lexical verb infinite" tag="VLinf" in="-6:¹conj|-5:²coref-evol|0:²dobj¹" out="1:loc¹|6:loc|9:other|0:²dobj¹">hornearlo</W>
 <W id="122" lemma="en" msd="SP" tag="SCENE" in="-1:loc¹" out="1:nobj">en</W>
 <W _noerror="&3a;noante&3a;" id="123" lemma="placa" morph="placa" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{goal}#|3:attr">placas</W>
 <W id="124" lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{goal}#" out="1:nobj">de</W>
@@ -216,7 +216,7 @@
 <W _noerror="&3a;noante&3a;" id="215" lemma="horno" morph="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">horno</W>
 <W id="216" lemma="." msd="XP" tag="FS" in="-6:pnct" out="">.</W>
 <W id="217" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Preben</W>
-<W id="218" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="7:subj|-180:coref-var" out="-1:namef|1:pnct|2:ref|3:relpa|16:*coref">Madsen</W>
+<W id="218" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-180:coref-var|7:subj" out="-1:namef|1:pnct|2:ref|3:relpa|16:*coref">Madsen</W>
 <W id="219" lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W id="220" lemma="que" msd="CS" tag="CQUE" in="-2:ref|1:subj" out="">que</W>
 <W id="221" lemma="tener" morph="tener" msd="VAD" tag="VLfin" in="-3:relpa" out="-1:subj|1:dobj|3:pnct">tiene</W>
@@ -232,7 +232,7 @@
 <W id="231" lemma="." msd="XP" tag="FS" in="-6:pnct" out="">.</W>
 <W compound="¹A ²partir ³de" id="232" lemma="a~partir~de" msd="SP" tag="SCENE" in="2:¹time|0:²nobj#¹|0:³pobj#²" out="1:nobj³|0:²nobj#¹|0:³pobj#²">A partir de</W>
 <W id="233" lemma="entonces" msd="RG" tag="ADV" in="-1:nobj³" out="">entonces</W>
-<W _noerror="&3a;nosubj&3a;" id="234" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="1:[*subj]|-16:*coref|-9:CONJ&3a;elab" out="-2:¹time|1:vobj|2:loc|4:exem|18:pnct">ha</W>
+<W _noerror="&3a;nosubj&3a;" id="234" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="-16:*coref|-9:CONJ&3a;elab|1:[*subj]" out="-2:¹time|1:vobj|2:loc|4:exem|18:pnct">ha</W>
 <W id="235" lemma="trabajar" morph="trabajar" msd="VAF" tag="VLadj" in="-1:vobj" out="-1:[*subj]">trabajado</W>
 <W id="236" lemma="en" msd="SP" tag="SCENE" in="-2:loc" out="1:nobj">en</W>
 <W _noerror="&3a;noante&3a;" id="237" lemma="establecimiento" morph="establecer !!i +miento/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="">establecimientos</W>

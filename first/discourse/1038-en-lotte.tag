@@ -3,7 +3,7 @@
 <W _noerror="&3a;noante&3a;" id="2" msd="PP" tag="PRP" in="1:subj" out="12:vobj">it</W>
 <W _noerror="&3a;nogov&3a;" id="3" msd="VADA" tag="VBD" in="" out="-2:coord|-1:subj|1:preds|14:pnct|31:CONJ/(and)|41:CONJ&3a;add/(and)">was</W>
 <W id="4" msd="SP" tag="IN" in="-1:preds" out="1:nobj">with</W>
-<W _noerror="&3a;noante&3a;" id="5" msd="PD" tag="DT" in="-1:nobj" out="1:attr|6:nobj|41:assoc-telic.inst/(prepare)">the</W>
+<W _noerror="&3a;noante&3a;" id="5" msd="PD" tag="DT" in="-1:nobj" out="1:attr|6:nobj|41:assoc-agentive.inst/(prepare)">the</W>
 <W _noerror="&3a;noante&3a;" id="6" msd="NC=S" tag="NN" in="-1:attr|5:{const}" out="1:attr|1:{const}">fricassee</W>
 <W id="7" msd="SP" tag="IN" in="-1:attr|-1:{const}" out="1:nobj">of</W>
 <W _noerror="&3a;noante&3a;" id="8" msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">pike</W>
@@ -13,7 +13,7 @@
 <W id="12" msd="NP=S" tag="NNP" in="1:namef" out="">Preben</W>
 <W id="13" msd="NP=S" tag="NNP" in="1:subj" out="-1:namef|2:coref|212:FORMAL&3a;descr">Madsen</W>
 <W id="14" msd="VADA" tag="VBD" in="-12:vobj" out="-1:subj|1:dobj">landed</W>
-<W id="15" msd="PO" tag="PRP$" in="-1:dobj|-2:coref|1:{arg}" out="1:possd|21:assoc-telic.agent/(award)|28:coref-var">his</W>
+<W id="15" msd="PO" tag="PRP$" in="-1:dobj|-2:coref|1:{arg}" out="1:possd|28:coref-var">his</W>
 <W id="16" msd="NC=S" tag="NN" in="-1:possd" out="-1:{arg}">victory</W>
 <W id="17" msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
@@ -34,17 +34,17 @@
 <W id="33" msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W id="34" msd="VADA" tag="VBD" in="-31:CONJ/(and)" out="-7:subj|-14:scene|1:@loc|6:pnct">was</W>
 <W id="35" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
-<W _noerror="&3a;noante&3a;" id="36" msd="PD" tag="DT" in="-1:nobj|-21:assoc-telic.agent/(award)" out="1:nobj">the</W>
+<W _noerror="&3a;noante&3a;" id="36" msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W id="37" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">panel</W>
 <W id="38" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
 <W _noerror="&3a;noante&3a;" id="39" msd="NC=P" tag="NNS" in="-1:nobj" out="">judges</W>
 <W id="40" msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W id="43" msd="NP=S" tag="NNP" in="1:subj|-28:coref-var" out="174:coref-var">Madsen</W>
+<W id="43" msd="NP=S" tag="NNP" in="-28:coref-var|1:subj" out="174:coref-var">Madsen</W>
 <W id="44" msd="VADA" tag="VBD" in="-41:CONJ&3a;add/(and)" out="-1:subj|1:iobj|2:dobj|4:pnct|9:CONJ&3a;add/(and)">gave</W>
 <W _noerror="&3a;noante&3a;" id="45" msd="PP" tag="PRP" in="-1:iobj" out="">me</W>
-<W _noerror="&3a;noante&3a;" id="46" msd="PD" tag="DT" in="-2:dobj|-41:assoc-telic.inst/(prepare)" out="1:nobj|5:assoc-const">the</W>
+<W _noerror="&3a;noante&3a;" id="46" msd="PD" tag="DT" in="-2:dobj|-41:assoc-agentive.inst/(prepare)" out="1:nobj|5:assoc-const">the</W>
 <W id="47" msd="NC=S" tag="NN" in="-1:nobj" out="">recipe</W>
 <W id="48" msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
@@ -131,7 +131,7 @@
 <W id="130" msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W id="133" msd="PD" tag="DT" in="2:subj|-63:coref-var" out="1:nobj">The</W>
+<W id="133" msd="PD" tag="DT" in="-63:coref-var|2:subj" out="1:nobj">The</W>
 <W id="134" msd="NC=S" tag="NN" in="-1:nobj" out="46:coref-iden">cabbage</W>
 <W id="135" msd="VADR" tag="VBZ" in="-23:CONJ&3a;seq/(and)" out="-2:subj|1:preds|2:time|4:pnct|7:CONJ&3a;seq/(and)">is</W>
 <W _noerror="&3a;nosubj&3a;" id="136" msd="VAP" tag="VBN" in="-1:preds" out="">cooked</W>
@@ -144,7 +144,7 @@
 <W id="143" msd="NC=S" tag="NN" in="-1:nobj" out="">sauce</W>
 <W id="144" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W id="145" msd="NP=S" tag="NNP" in="-3:other" out="1:dobj|4:inst|7:pnct|8:conj|10:pnct|11:conj|14:pnct|15:conj|19:pnct|20:conj|23:pnct|24:conj">Steam</W>
-<W id="146" msd="PD" tag="DT" in="-1:dobj|-61:coref-var" out="2:nobj|37:coref|8:coref">the</W>
+<W id="146" msd="PD" tag="DT" in="-1:dobj|-61:coref-var" out="2:nobj|8:coref|37:coref">the</W>
 <W _noerror="&3a;noante&3a;" id="147" msd="NC=S" tag="NN" in="1:attr|1:{const}#" out="">leek</W>
 <W id="148" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{const}#">rings</W>
 <W id="149" msd="SP" tag="IN" in="-4:inst" out="2:nobj">in</W>
