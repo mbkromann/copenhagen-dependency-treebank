@@ -104,6 +104,8 @@
 [*] en/0339-en-lotte.tag
 [*] es/0339-es-lotte.tag
 [*] da/0351-da-lotte.tag
+[*] en/0351-en-lotte.tag
+[ ] es/0351-es-soren.tag
 [*] da/0376-da-lotte.tag
 [*] en/0376-en-lotte.tag
 [*] es/0376-es-jonas.tag
@@ -205,15 +207,14 @@
 [*] es/1398-es-soren.tag
 [*] da/1420-da-lotte.tag
 [*] en/1420-en-lotte.tag
-[ ] es/1420-es-lotte.tag
-[ ] da/1497-da-lotte.tag
-[ ] en/1497-en-lotte.tag
-[ ] es/1497-es-jonas.tag
-[ ] da/1536-da-lotte.tag
-[ ] en/1536-en-lotte.tag
-[ ] es/1536-es-lotte.tag
-[ ] en/0351-en-lotte.tag
-[ ] es/0351-es-soren.tag
+[*] es/1420-es-lotte.tag
+[*] da/1497-da-lotte.tag
+[*] en/1497-en-lotte.tag
+[*] es/1497-es-jonas.tag
+[*] da/1536-da-lotte.tag
+[*] en/1536-en-lotte.tag
+[*] es/1536-es-lotte.tag
+
 
 [*] da/0021-da-lotte.tag
 [*] da/0037-da-lotte.tag
