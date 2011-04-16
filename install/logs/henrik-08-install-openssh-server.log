@@ -1,0 +1,18 @@
+p   openssh-server                  - secure shell server, an rshd replacement  
+Installing openssh-server
+Please enter your password below
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  libssl0.9.8 openssh-blacklist openssh-client
+Suggested packages:
+  keychain libpam-ssh molly-guard rssh
+The following NEW packages will be installed:
+  openssh-blacklist openssh-server
+The following packages will be upgraded:
+  libssl0.9.8 openssh-client
+2 upgraded, 2 newly installed, 0 to remove and 447 not upgraded.
+Need to get 5959kB of archives.
+After this operation, 5034kB of additional disk space will be used.
+Do you want to continue [Y/n]? Abort.

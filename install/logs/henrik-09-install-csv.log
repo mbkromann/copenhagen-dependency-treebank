@@ -1,0 +1,17 @@
+p   libtext-csv-perl                - perl Text::CSV_XS - comma-separated values
+Installing libtext-csv-perl
+Please enter your password below
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libtext-csv-perl
+0 upgraded, 1 newly installed, 0 to remove and 449 not upgraded.
+Need to get 47.3kB of archives.
+After this operation, 168kB of additional disk space will be used.
+Get:1 http://dk.archive.ubuntu.com hardy/universe libtext-csv-perl 0.32-1 [47.3kB]
+Fetched 47.3kB in 0s (223kB/s)
+Selecting previously deselected package libtext-csv-perl.
+(Reading database ... 107246 files and directories currently installed.)
+Unpacking libtext-csv-perl (from .../libtext-csv-perl_0.32-1_i386.deb) ...
+Setting up libtext-csv-perl (0.32-1) ...
