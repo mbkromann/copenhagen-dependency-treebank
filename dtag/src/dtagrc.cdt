@@ -52,3 +52,10 @@ macro setname !$CDTHOME/tools/dtag-setname
 # Start command log for user
 cmdlog $CDTHOME/logs/{USER}
 
+# Tagging and loading text
+macro da2tag !$CDTHOME/tools/da2tag {ARGS}
+macro de2tag !$CDTHOME/tools/de2tag {ARGS}
+macro en2tag !$CDTHOME/tools/en2tag {ARGS}
+macro es2tag !$CDTHOME/tools/es2tag {ARGS}
+macro it2tag !$CDTHOME/tools/it2tag {ARGS}
+
