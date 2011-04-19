@@ -48,12 +48,12 @@
 <p>
 <s>
 <W id="49" lemma="así" msd="CS" tag="CSUBX" in="" out="">Así</W>
-<W id="50" lemma="opinar" morph="" msd="VAD" tag="VLfin" in="" out="">opina</W>
+<W id="50" lemma="opinar" morph="opinión !!! +ar/DERnv" msd="VAD" tag="VLfin" in="" out="">opina</W>
 <W id="51" lemma="el" msd="PD" tag="ART" in="" out="">la</W>
-<W id="52" lemma="vicepresidente" morph="presidenta -vice/MOD&3a;qual" msd="NC" tag="NC" in="" out="">vicepresidenta</W>
+<W id="52" lemma="vicepresidente" morph="presidir !!e +nte/DERvn&3a;agent ! ~a -vice/MOD&3a;qual" msd="NC" tag="NC" in="" out="">vicepresidenta</W>
 <W id="53" lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
 <W id="54" lemma="partido" morph="partir !! +ido/DERvn&3a;other" msd="NC" tag="NC" in="" out="">Partido</W>
-<W id="55" lemma="&lt;unknown&gt;" morph="cracia -demo/AGENT&3a;MC !!!!!!!ócr +ata/DERna&3a;rel -social/MOD&3a;qual" msd="NP" tag="NP" in="" out="">Socialdemócrata</W>
+<W id="55" lemma="&lt;unknown&gt;" morph="democracia !!!!!!!ócra +ta/DERna&3a;rel -[socio ! +al/DERna&3a;rel]/OTHER" msd="NP" tag="NP" in="" out="">Socialdemócrata</W>
 <W id="56" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Birte</W>
 <W id="57" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Weiss</W>
 <W id="58" lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -72,9 +72,9 @@
 <W id="71" lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W id="72" lemma="comité" morph="" msd="NC" tag="NC" in="" out="">comité</W>
 <W id="73" lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
-<W id="74" lemma="igualdad" morph="igual +dad/DERan&3a;rel" msd="NC" tag="NC" in="" out="">igualdad</W>
+<W id="74" lemma="igualdad" morph="igual +dad/DERan&3a;qual" msd="NC" tag="NC" in="" out="">igualdad</W>
 <W id="75" lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
-<W id="76" lemma="trato" morph="" msd="NC" tag="NC" in="" out="">trato</W>
+<W id="76" lemma="trato" morph="tratar !! +o/DERvn&3a;core" msd="NC" tag="NC" in="" out="">trato</W>
 <W id="77" lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W id="78" lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W id="79" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Parlamento</W>
@@ -92,7 +92,7 @@
 <W id="91" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Birte</W>
 <W id="92" lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Weiss</W>
 <W id="93" lemma="hacer" morph="" msd="VAD" tag="VLfin" in="" out="">hace</W>
-<W id="94" lemma="referencia" morph="referir !!e +nte/DERva&3a;act !!! +ncia/DERan&3a;qual" msd="NC" tag="NC" in="" out="">referencia</W>
+<W id="94" lemma="referencia" morph="referir !!e +ncia/DERvn&3a;patient" msd="NC" tag="NC" in="" out="">referencia</W>
 <W id="95" lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W id="96" lemma="Alemania" msd="NP" tag="NP" in="" out="">Alemania</W>
 <W id="97" lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -104,10 +104,10 @@
 <W id="103" lemma="interrumpir" morph="" msd="VAF" tag="VLadj" in="" out="">interrumpido</W>
 <W id="104" lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W id="105" lemma="bomba" morph="" msd="NC" tag="NC" in="" out="">bombas</W>
-<W id="106" lemma="&lt;unknown&gt;" morph="incendio ! +aria/DERna&3a;telic ~s" msd="AN" tag="ADJ" in="" out="">incendiarias</W>
+<W id="106" lemma="&lt;unknown&gt;" morph="incendio ! +ario/DERna&3a;telic ! ~as" msd="AN" tag="ADJ" in="" out="">incendiarias</W>
 <W id="107" lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W id="108" lemma="dramático" morph="drama !át +ico/DERna&3a;rel ~s" msd="AN" tag="ADJ" in="" out="">dramáticos</W>
-<W id="109" lemma="enfrentamiento" morph="enfrentar ! +miento/DERvn&3a;core ~s" msd="NC" tag="NC" in="" out="">enfrentamientos</W>
+<W id="109" lemma="enfrentamiento" morph="frente ! -+[en][ar]/DERnv -en/AGENT ! +miento/DERvn&3a;core ~s" msd="NC" tag="NC" in="" out="">enfrentamientos</W>
 <W id="110" lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
@@ -122,7 +122,7 @@
 <W id="121" lemma="Dinamarca" msd="NP" tag="NP" in="" out="">Dinamarca</W>
 <W id="122" lemma="&amp;quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W id="123" lemma="," msd="XP" tag="CM" in="" out="">,</W>
-<W id="124" lemma="afirmar" morph="firma ! -+[a][ar]/DERnv -a/AGENT !! ~a" msd="VAD" tag="VLfin" in="" out="">afirma</W>
+<W id="124" lemma="afirmar" morph="firme ! -+[a][ar]/DERnv -a/AGENT" msd="VAD" tag="VLfin" in="" out="">afirma</W>
 <W id="125" lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
@@ -135,7 +135,7 @@
 <W id="134" lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W id="135" lemma="el" msd="PD" tag="ART" in="" out="">las</W>
 <W id="136" lemma="juventud" morph="joven !!!!uven +tud/DERan&3a;qual ~es" msd="NC" tag="NC" in="" out="">Juventudes</W>
-<W id="137" lemma="&lt;unknown&gt;" morph="cracia -demo/AGENT&3a;MC !!!!!!!ócr +ata/DERna&3a;rel -social/MOD&3a;qual ~s" msd="NP" tag="NP" in="" out="">Socialdemócratas</W>
+<W id="137" lemma="&lt;unknown&gt;" morph="democracia !!!!!!!ócra +ta/DERna&3a;rel -[socio ! +al/DERna&3a;rel]/OTHER ~s" msd="NP" tag="NP" in="" out="">Socialdemócratas</W>
 <W id="138" lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W id="139" lemma="Dinamarca" msd="NP" tag="NP" in="" out="">Dinamarca</W>
 <W id="140" lemma="(" msd="XP" tag="LP" in="" out="">(</W>
@@ -169,8 +169,8 @@
 <W id="168" lemma="opinión" morph="opinar !! +ión/DERvn&3a;patient" msd="NC" tag="NC" in="" out="">opinión</W>
 <W id="169" lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W id="170" lemma="el" msd="PD" tag="ART" in="" out="">el</W>
-<W id="171" lemma="partido" morph="partir !! +ido/DERvn&3a;other" msd="NC" tag="NC" in="" out="">partido</W>
-<W id="172" lemma="socialdemócrata" morph="cracia -demo/AGENT&3a;MC !!!!!!!ócr +ata/DERna&3a;rel -social/MOD&3a;qual" msd="NC" tag="NC" in="" out="">socialdemócrata</W>
+<W id="171" lemma="partido" morph="partir ! +do/DERvn&3a;other" msd="NC" tag="NC" in="" out="">partido</W>
+<W id="172" lemma="socialdemócrata" morph="democracia !!!!!!!ócra +ta/DERna&3a;rel -[socio ! +al/DERna&3a;rel]/OTHER" msd="NC" tag="NC" in="" out="">socialdemócrata</W>
 <W id="173" lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W id="174" lemma="haber" morph="" msd="VAD" tag="VHfin" in="" out="">ha</W>
 <W id="175" lemma="mantener" morph="" msd="VAF" tag="VLadj" in="" out="">mantenido</W>
@@ -180,7 +180,7 @@
 <W id="179" lemma="debatir" morph="debatir !! +e/DERvn&3a;core" msd="VAD" tag="VLfin" in="" out="">debate</W>
 <W id="180" lemma="sobre" msd="SP" tag="SCENE" in="" out="">sobre</W>
 <W id="181" lemma="el" msd="PD" tag="ART" in="" out="">la</W>
-<W id="182" lemma="extranjería" morph="extranjero ! +ía/DERan&3a;qual" msd="NC" tag="NC" in="" out="">extranjería</W>
+<W id="182" lemma="extranjería" morph="extranjero ! +ía/DERnn&3a;assoc" msd="NC" tag="NC" in="" out="">extranjería</W>
 <W id="183" lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
@@ -213,7 +213,7 @@
 <W id="212" lemma="gente" morph="" msd="NC" tag="NC" in="" out="">gente</W>
 <W id="213" lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W id="214" lemma="tomar" morph="" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">tomar</W>
-<W id="215" lemma="partido" morph="partir !! +ido/DERvn&3a;other" msd="NC" tag="NC" in="" out="">partido</W>
+<W id="215" lemma="partido" morph="partir ! +do/DERvn&3a;other" msd="NC" tag="NC" in="" out="">partido</W>
 <W id="216" lemma="mediante" msd="SP" tag="SCENE" in="" out="">mediante</W>
 <W id="217" lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="" out="">pósters</W>
 <W id="218" lemma="y" msd="CC" tag="CC" in="" out="">y</W>
@@ -255,8 +255,8 @@
 <W id="254" lemma="vez" morph="" msd="NC" tag="NC" in="" out="">vez</W>
 <W id="255" lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W id="256" lemma="el" msd="PD" tag="ART" in="" out="">el</W>
-<W id="257" lemma="partido" morph="partir !! +ido/DERvn&3a;other" msd="NC" tag="NC" in="" out="">partido</W>
-<W id="258" lemma="socialdemócrata" morph="cracia -demo/AGENT&3a;MC !!!!!!!ócr +ata/DERna&3a;rel -social/MOD&3a;qual" msd="NC" tag="NC" in="" out="">socialdemócrata</W>
+<W id="257" lemma="partido" morph="partir ! +do/DERvn&3a;other" msd="NC" tag="NC" in="" out="">partido</W>
+<W id="258" lemma="socialdemócrata" morph="democracia !!!!!!!ócra +ta/DERna&3a;rel -[socio ! +al/DERna&3a;rel]/OTHER" msd="NC" tag="NC" in="" out="">socialdemócrata</W>
 <W id="259" lemma="lanzar" morph="" msd="VAD" tag="VLfin" in="" out="">lanza</W>
 <W id="260" lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W id="261" lemma="mensaje" morph="" msd="NC" tag="NC" in="" out="">mensaje</W>
