@@ -2,9 +2,9 @@
 
 # Options
 export lang=de
-export bindir=~/svn/cdt/trunk/tools/
-export tagger=/home/matthias/research/statmt/treetagger/cmd/tree-tagger-german
-export EOSREGEXP="[^	]*	SENT	.*"
+export bindir=~/cdt/tools
+export tagger=~/cdt/lib/treetagger/cmd/tree-tagger-german
+export EOSREGEXP="[^	]*	\$\.	[^ 	]*"
 
 # Check arguments
 export file=$1

@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Options
-export lang=es
+export lang=en
 export bindir=~/cdt/tools
-export tagger=~/cdt/lib/treetagger/cmd/tree-tagger-spanish
-export EOSREGEXP=".*	FS	.*"
+export tagger=~/cdt/lib/treetagger/cmd/tree-tagger-english
+export EOSREGEXP="[^	]*	SENT	.*"
 
 # Check arguments
 export file=$1
 if [ -z "$file" ] ; then
-	echo "Usage: es2tag <file>"
+	echo "Usage: en2tag <file>"
 	echo "The file must be utf8 encoded"
 	exit 0
 fi

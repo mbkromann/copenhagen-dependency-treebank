@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# Temporary file
+cdt=~/cdt
+tmp=/tmp/make-conll.$$
+echo > $tmp
+
+# Create script that creates CONLL versions of all .tag files
+cd $cdt
+for dir in `echo ./releases/cdt2` ; do
+	for lang in `echo da en` ; do 
+		echo "=== $dir/$lang ==="
+
+		# Compute relation statistics
+		grep ' in="' $dir/$lang/*.tag | sed -e 's/^.*in="\([^"]*\)".*$/\1/g' \
+			-e 's/|/\n/g' -e 's/[-0-9][0-9]*://g' -e 's/&lt;/</g' \
+			-e 's/&gt;/>/g' -e 's/&3a;/:/g' | sort | uniq -c | sort -nr \
+			> $dir/$lang/relation-counts.txt
+
+		# Set conll conversion options
+		if [ "$lang" = "da" ] ; then 
+			echo "option conll_postag=msd" >> $tmp
+		else 
+			echo "option conll_postag=tag" >> $tmp
+			echo "option conll_cpostag=tag" >> $tmp
+		fi
+
+		# Convert files
+		for f in `ls $dir/$lang/*.tag | egrep -v '(tagged|auto)' | sed -e 's/.tag//g'` ; do 
+			echo "$f";
+			echo "load $f.tag" >> $tmp ; 	
+			echo "redirect $f.err" >> $tmp ; 
+			echo "errors" >> $tmp ; 
+			echo "redirect $f.info" >> $tmp ; 
+			echo "status" >> $tmp ; 
+			echo "redirect" >> $tmp ; 
+			echo "save -conll $f.conll" >> $tmp ;
+		done
+	done
+done
+
+# Execute script
+dtag -e "script $tmp" -e 'quit'
+
+# Filter all conll-files
+sh $cdt/tools/filter-conll
+
+# Remove script
+rm $tmp
+

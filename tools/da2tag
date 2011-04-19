@@ -25,4 +25,4 @@ java -mx300m \
 	 -model $CDTHOME/dict/da-stanford-tagger.model \
 	 -textFile $tok | sed -e 's/^<new-paragraph>\/[^ ]*$//g' \
  | $CDTHOME/tools/pos2tag > $tag
-
+echo "File $text tagged and converted to tag-file $tag"

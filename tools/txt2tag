@@ -34,8 +34,10 @@ dtag -e "load $tmptag" -e "maptags -map $bindir/msd-$lang.map tag msd" -e "save 
 if [ -f "$tag" ] ; then
 	echo "ERROR: skipping $tag ... it already exists!"
 else
+	echo "File $file tagged and converted to tag-file $tag"
 	mv $tmpmapped $tag
 fi
 
 # Clean up
 rm $tmp.*
+

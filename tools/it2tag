@@ -2,8 +2,8 @@
 
 # Options
 export lang=it
-export bindir=~/cdt/tools/
-export tagger=$bindir/tree-tagger-italian
+export bindir=~/cdt/tools
+export tagger=~/cdt/lib/treetagger/cmd/tree-tagger-italian
 export EOSREGEXP="[^	]*	SENT	.*"
 
 # Check arguments
