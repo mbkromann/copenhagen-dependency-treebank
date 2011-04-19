@@ -26,6 +26,13 @@ my @entries = ();
 while (my $line = <>) {
 	# Read line
 	chomp($line);
+
+	# Fix escaped characters
+	$line =~ s/\&gt;/>/g;
+	$line =~ s/\&lt;/</g;
+	$line =~ s/\&amp;/\\&/g;
+
+	# Read fields
 	my @fields = split(/\t/, $line);
 	my $rel = shift(@fields);
 	my $count = shift(@fields);

@@ -27,6 +27,7 @@ cdt-compile:
 
 confusion:
 	for f in `cd ~/cdt/confusion ; ls confusion-*` ; do \
+		echo "confusion $$f.tex" ; \
 		g=`echo $$f | sed -e 's/^confusion-//g' -e 's/.csv$$//g'` ; \
 		cat ~/cdt/confusion/$$f | ./confusion-table.pl $$g > build/$$f.tex ; \
 	done
