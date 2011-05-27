@@ -43,40 +43,40 @@
 <s>
 <W gloss="As" id="43" lemma="som" msd="U=" tag="WDT" in="8:prg" out="1:nobj">Som</W>
 <W gloss="the" id="44" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj|5:[pred]|8:coref-var" out="1:attr|2:nobj|3:pnct|5:relr">den</W>
-<W gloss="seasoned" id="45" lemma="dreven" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">drevne</W>
-<W gloss="minority_government" id="46" lemma="mindretalsregering" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">mindretalsregering</W>
+<W gloss="seasoned" id="45" lemma="dreven" morph="driv !!ev +en/DERva&3a;pas.part !! ~ne" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">drevne</W>
+<W gloss="minority_government" id="46" lemma="mindretalsregering" morph="regering -[tal -mindre/MOD&3a;quant]s/CONST" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">mindretalsregering</W>
 <W gloss="," id="47" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="it" id="48" lemma="den" msd="PP3CSU-NU" tag="PRP" in="1:subj|4:coref" out="">den</W>
-<W gloss="is" id="49" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:relr" out="-1:subj|-5:[pred]|1:pnct">er</W>
+<W gloss="is" id="49" lemma="være" morph="" msd="VADR=----A-" tag="VBD" in="-5:relr" out="-1:subj|-5:[pred]|1:pnct">er</W>
 <W gloss="," id="50" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W _noerror="&3a;nogov&3a;" gloss="has" id="51" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-8:prg|1:subj|5:time|6:vobj|10:pnct|43:pnct|79:assoc-time">har</W>
-<W _noerror="&3a;noante&3a;" gloss="ministry_the" id="52" lemma="ministerium" msd="NCNSU==D" tag="NN" in="-1:subj|5:[subj]" out="-30:coref-var|-4:coref|-8:coref-var|2:appr|12:assoc-telic">ministeriet</W>
+<W _noerror="&3a;nogov&3a;" gloss="has" id="51" lemma="have" morph="" msd="VADR=----A-" tag="VBD" in="" out="-8:prg|1:subj|5:time|6:vobj|10:pnct|43:pnct|79:assoc-time">har</W>
+<W _noerror="&3a;noante&3a;" gloss="ministry_the" id="52" lemma="ministerium" morph="minister +ium/DERnn&3a;assoc !! ~et" msd="NCNSU==D" tag="NN" in="-1:subj|5:[subj]" out="-30:coref-var|-4:coref|-8:coref-var|2:appr|12:assoc-telic">ministeriet</W>
 <W gloss="Poul" id="53" lemma="Poul" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul</W>
 <W gloss="Schlüter" id="54" lemma="Schlüter" msd="NP--U==-" tag="NNP" in="-2:appr" out="-1:namef|1:name">Schlüter</W>
 <W gloss="IV" id="55" lemma="IV" msd="AC---U=--" tag="CD" in="-1:name" out="">IV</W>
 <W gloss="just" id="56" lemma="netop" msd="RGU" tag="RP" in="-5:time" out="">netop</W>
-<W gloss="placed" id="57" lemma="lægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:vobj" out="-5:[subj]|1:dobj|3:part">lagt</W>
+<W gloss="placed" id="57" lemma="lægge" morph="" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:vobj" out="-5:[subj]|1:dobj|3:part">lagt</W>
 <W gloss="a" id="58" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:nobj|4:ref|5:relr">et</W>
-<W gloss="finance_bill" id="59" lemma="finanslovforslag" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">finanslovforslag</W>
+<W gloss="finance_bill" id="59" lemma="finanslovforslag" morph="forslag -[lov -finans/ABOUT]/ABOUT" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">finanslovforslag</W>
 <W gloss="above" id="60" lemma="frem" msd="RGU" tag="RP" in="-3:part" out="">frem</W>
 <W gloss="," id="61" lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W gloss="that" id="62" lemma="som" msd="U=" tag="WDT" in="-4:ref|1:subj" out="">som</W>
-<W gloss="continues" id="63" lemma="fortsætte" msd="VADR=----A-" tag="VBD" in="-5:relr" out="-1:subj|1:dobj|9:pnct|10:&lt;coord&3a;2&gt;|11:&lt;accom&3a;2&gt;">fortsætter</W>
+<W gloss="continues" id="63" lemma="fortsætte" morph="" msd="VADR=----A-" tag="VBD" in="-5:relr" out="-1:subj|1:dobj|9:pnct|10:&lt;coord&3a;2&gt;|11:&lt;accom&3a;2&gt;">fortsætter</W>
 <W _noerror="&3a;noante&3a;" gloss="the" id="64" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj|-12:assoc-telic" out="1:attr|3:nobj|4:attr">den</W>
-<W gloss="moderate" id="65" lemma="moderat" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">moderate</W>
-<W gloss="economic" id="66" lemma="økonomisk" msd="ANP[CN]SU=DU" tag="JJ" in="1:aobj|1:{about}" out="">økonomiske</W>
-<W gloss="policy" id="67" lemma="politik" msd="NCCSU==I" tag="NN" in="-3:nobj" out="-1:aobj|-1:{about}|1:{time}">politik</W>
+<W gloss="moderate" id="65" lemma="moderat" morph="" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">moderate</W>
+<W gloss="economic" id="66" lemma="økonomisk" morph="økonomi +sk/DERna&3a;rel ~e" msd="ANP[CN]SU=DU" tag="JJ" in="1:aobj|1:{about}" out="">økonomiske</W>
+<W gloss="policy" id="67" lemma="politik" morph="" msd="NCCSU==I" tag="NN" in="-3:nobj" out="-1:aobj|-1:{about}|1:{time}">politik</W>
 <W gloss="of" id="68" lemma="fra" msd="SP" tag="IN" in="-4:attr|-1:{time}" out="1:nobj">fra</W>
 <W _noerror="&3a;noante&3a;" gloss="they" id="69" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
-<W gloss="later" id="70" lemma="sen" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">senere</W>
-<W gloss="the_year" id="71" lemma="år" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">år</W>
+<W gloss="later" id="70" lemma="sen" morph="" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">senere</W>
+<W gloss="the_year" id="71" lemma="år" morph="" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">år</W>
 <W gloss="-" id="72" lemma="-" msd="XP" tag="-" in="-9:pnct" out=""> - </W>
 <W gloss="but" id="73" lemma="men" msd="CC" tag="CC" in="-10:&lt;coord&3a;2&gt;" out="27:+CONC/alligevel">men</W>
 <W gloss="without" id="74" lemma="uden" msd="SP" tag="IN" in="-11:&lt;accom&3a;2&gt;" out="4:nobj">uden</W>
-<W _noerror="&3a;nosubj&3a;" gloss="provocative" id="75" lemma="provokere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="3:attr" out="2:conj">provokerende</W>
+<W _noerror="&3a;nosubj&3a;" gloss="provocative" id="75" lemma="provokere" morph="provoker +ende/DERva&3a;act" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="3:attr" out="2:conj">provokerende</W>
 <W gloss="or" id="76" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W gloss="ideological" id="77" lemma="ideologisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">ideologiske</W>
-<W gloss="savings_proposals" id="78" lemma="spareforslag" msd="NCNPU==I" tag="NNP" in="-4:nobj" out="-3:attr|1:pnct|2:ref|5:relr">spareforslag</W>
+<W gloss="ideological" id="77" lemma="ideologisk" morph="ideologi +sk/DERna&3a;rel ~e" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">ideologiske</W>
+<W gloss="savings_proposals" id="78" lemma="spareforslag" morph="forslag -spare/ABOUT" msd="NCNPU==I" tag="NNP" in="-4:nobj" out="-3:attr|1:pnct|2:ref|5:relr">spareforslag</W>
 <W gloss="," id="79" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="80" lemma="som" msd="U=" tag="WDT" in="-2:ref|3:subj|4:[subj]" out="">som</W>
 <W gloss="in" id="81" lemma="på" msd="SP" tag="IN" in="2:other" out="1:nobj">på</W>
