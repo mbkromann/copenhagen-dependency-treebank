@@ -68,11 +68,11 @@
 <W gloss="for_example" id="67" lemma="for_eksempel" msd="RGU" tag="RP" in="-2:exem" out="">f.eks.</W>
 <W gloss="created" id="68" lemma="lave" morph="" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|1:dobj">lavet</W>
 <W gloss="a" id="69" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj|5:coref-iden">en</W>
-<W gloss="giant_mouse" id="70" lemma="kæmpemus" morph="mus -kæmpe/MOD&3a;quant" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kæmpemus</W>
+<W gloss="giant_mouse" id="70" lemma="kæmpemus" morph="mus -[kæmpe /DERna&3a;other]/MOD&3a;quant" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kæmpemus</W>
 <W gloss="." id="71" lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="The_giant_mouse" id="74" lemma="kæmpemus" morph="mus -kæmpe/MOD&3a;quant ~en" msd="NCCSU==D" tag="NN" in="-5:coref-iden|1:subj" out="">Kæmpemusen</W>
+<W gloss="The_giant_mouse" id="74" lemma="kæmpemus" morph="mus -[kæmpe /DERna&3a;other]/MOD&3a;quant ~en" msd="NCCSU==D" tag="NN" in="-5:coref-iden|1:subj" out="">Kæmpemusen</W>
 <W gloss="was" id="75" lemma="blive" morph="" msd="VADA=----A-" tag="VBD" in="-10:CONJ&3a;elab" out="-1:subj|1:preds|17:pnct|21:TELIC&3a;cons.dir/resultatet_blev">blev</W>
 <W _noerror="&3a;nosubj&3a;" gloss="constructed" id="76" lemma="konstruere" morph="" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:man">konstrueret</W>
 <W gloss="by" id="77" lemma="ved" msd="SP" tag="IN" in="-1:man" out="1:nobj">ved</W>
@@ -189,7 +189,7 @@
 </s>
 <s>
 <W gloss="All" id="190" lemma="al" morph="" msd="ANP[CN]PU=[DI]U" tag="JJ" in="5:subj" out="1:nobj">Alle</W>
-<W gloss="forecasts" id="191" lemma="forudsigelse" morph="forudsig +else/DERvn&3a;patient ~r" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="3:conj">forudsigelser</W>
+<W gloss="forecasts" id="191" lemma="forudsigelse" morph="sig -forud/TIME&3a;pre +else/DERvn&3a;patient ~r" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="3:conj">forudsigelser</W>
 <W gloss="and" id="192" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="foreign" id="193" lemma="udenlandsk" morph="" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">udenlandske</W>
 <W gloss="experiences" id="194" lemma="erfaring" morph="erfar +ing/DERvn&3a;patient ~er" msd="NCCPU==I" tag="NNP" in="-3:conj" out="-1:attr|-2:coord">erfaringer</W>
@@ -217,7 +217,7 @@
 <W gloss="there" id="216" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
 <W gloss="Research_is_being_done" id="217" lemma="forske" morph="" msd="VADR=----P-" tag="VBD" in="-22:CONJ&3a;elab" out="-1:expl|1:loc|4:pnct|7:conj|21:pnct">forskes</W>
 <W gloss="in" id="218" lemma="på" msd="SP" tag="IN" in="-1:loc" out="2:nobj">på</W>
-<W gloss="countless" id="219" lemma="utallig" morph="" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">utallige</W>
+<W gloss="countless" id="219" lemma="utallig" morph="tal -u/PRE&3a;other +lig/DERna&3a;other ~e" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">utallige</W>
 <W gloss="areas" id="220" lemma="område" morph="" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr">områder</W>
 <W gloss="," id="221" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="and" id="222" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
