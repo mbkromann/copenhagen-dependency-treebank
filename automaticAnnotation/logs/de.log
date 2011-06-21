@@ -10937,3 +10937,633 @@ to get a newer Subversion client, or to downgrade this working copy.
 See http://subversion.tigris.org/faq.html#working-copy-format-change
 for details.
 -------------------------------------------
+Mon Mar 21 23:55:02 CET 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 128 de > 128-de.findFiles.out 2> 128-de.findFiles.err
+perl convertToConll.pl 128 de tag > 128-de.convertToConnl.out 2> 128-de.convertToConnl.err
+perl createSegmenterFileLists.pl 128 de 2> 128-de.createSegmenterFileLists.err > 128-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 128-de.toParseFiles.lst.abs 2> 128-de.createtoSegmentFiles.err > 128-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 128-de.toParseFiles.lst.abs it 2> 128-de.segmentFiles.err > 128-de.segmentFiles.out
+perl segmentConllFiles.pl 128 de > 128-de.segmentConllFiles.out 2> 128-de.segmentConllFiles.err
+perl cleanupConll.pl 128 de > 128-de.cleanupConll.out 2> 128-de.cleanupConll.err
+perl createParserFiles.pl 128 de > 128-de.createParserFiles.out 2> 128-de.createParserFiles.err
+perl createParserScripts.pl 128 de > 128-de.createParserScripts.out 2> 128-de.createParserScripts.err
+./R128-de.train.sh
+./R128-de.parse.sh
+./R128-de.parse-trainingdata.sh
+perl createStats.pl 128-de.train.conll 128-de.training.out.conll > 128-de.stats
+perl prune.pl 128-de.stats 128-de.out.conll 0.8 > 128-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 128 de > 128-de.splitParsedFiles.out 2> 128-de.splitParsedFiles.err
+perl mergeAll.pl 128 de > 128-de.mergeAll.out 2> 128-de.mergeAll.err
+perl mergeAllTag.pl 128 de > 128-de.mergeAllTag.out 2> 128-de.mergeAllTag.err
+perl updateAllTag.pl 128 de > 128-de.updateAllTag.out 2> 128-de.updateAllTag.err
+perl copyTagFiles.pl 128 de > 128-de.copyTagFiles.out 2> 128-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 128-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon Mar 28 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 131 de > 131-de.findFiles.out 2> 131-de.findFiles.err
+perl convertToConll.pl 131 de tag > 131-de.convertToConnl.out 2> 131-de.convertToConnl.err
+perl createSegmenterFileLists.pl 131 de 2> 131-de.createSegmenterFileLists.err > 131-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 131-de.toParseFiles.lst.abs 2> 131-de.createtoSegmentFiles.err > 131-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 131-de.toParseFiles.lst.abs it 2> 131-de.segmentFiles.err > 131-de.segmentFiles.out
+perl segmentConllFiles.pl 131 de > 131-de.segmentConllFiles.out 2> 131-de.segmentConllFiles.err
+perl cleanupConll.pl 131 de > 131-de.cleanupConll.out 2> 131-de.cleanupConll.err
+perl createParserFiles.pl 131 de > 131-de.createParserFiles.out 2> 131-de.createParserFiles.err
+perl createParserScripts.pl 131 de > 131-de.createParserScripts.out 2> 131-de.createParserScripts.err
+./R131-de.train.sh
+./R131-de.parse.sh
+./R131-de.parse-trainingdata.sh
+perl createStats.pl 131-de.train.conll 131-de.training.out.conll > 131-de.stats
+perl prune.pl 131-de.stats 131-de.out.conll 0.8 > 131-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 131 de > 131-de.splitParsedFiles.out 2> 131-de.splitParsedFiles.err
+perl mergeAll.pl 131 de > 131-de.mergeAll.out 2> 131-de.mergeAll.err
+perl mergeAllTag.pl 131 de > 131-de.mergeAllTag.out 2> 131-de.mergeAllTag.err
+perl updateAllTag.pl 131 de > 131-de.updateAllTag.out 2> 131-de.updateAllTag.err
+perl copyTagFiles.pl 131 de > 131-de.copyTagFiles.out 2> 131-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 131-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon Apr  4 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 134 de > 134-de.findFiles.out 2> 134-de.findFiles.err
+perl convertToConll.pl 134 de tag > 134-de.convertToConnl.out 2> 134-de.convertToConnl.err
+perl createSegmenterFileLists.pl 134 de 2> 134-de.createSegmenterFileLists.err > 134-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 134-de.toParseFiles.lst.abs 2> 134-de.createtoSegmentFiles.err > 134-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 134-de.toParseFiles.lst.abs it 2> 134-de.segmentFiles.err > 134-de.segmentFiles.out
+perl segmentConllFiles.pl 134 de > 134-de.segmentConllFiles.out 2> 134-de.segmentConllFiles.err
+perl cleanupConll.pl 134 de > 134-de.cleanupConll.out 2> 134-de.cleanupConll.err
+perl createParserFiles.pl 134 de > 134-de.createParserFiles.out 2> 134-de.createParserFiles.err
+perl createParserScripts.pl 134 de > 134-de.createParserScripts.out 2> 134-de.createParserScripts.err
+./R134-de.train.sh
+./R134-de.parse.sh
+./R134-de.parse-trainingdata.sh
+perl createStats.pl 134-de.train.conll 134-de.training.out.conll > 134-de.stats
+perl prune.pl 134-de.stats 134-de.out.conll 0.8 > 134-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 134 de > 134-de.splitParsedFiles.out 2> 134-de.splitParsedFiles.err
+perl mergeAll.pl 134 de > 134-de.mergeAll.out 2> 134-de.mergeAll.err
+perl mergeAllTag.pl 134 de > 134-de.mergeAllTag.out 2> 134-de.mergeAllTag.err
+perl updateAllTag.pl 134 de > 134-de.updateAllTag.out 2> 134-de.updateAllTag.err
+perl copyTagFiles.pl 134 de > 134-de.copyTagFiles.out 2> 134-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 134-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon Apr 11 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 137 de > 137-de.findFiles.out 2> 137-de.findFiles.err
+perl convertToConll.pl 137 de tag > 137-de.convertToConnl.out 2> 137-de.convertToConnl.err
+perl createSegmenterFileLists.pl 137 de 2> 137-de.createSegmenterFileLists.err > 137-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 137-de.toParseFiles.lst.abs 2> 137-de.createtoSegmentFiles.err > 137-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 137-de.toParseFiles.lst.abs it 2> 137-de.segmentFiles.err > 137-de.segmentFiles.out
+perl segmentConllFiles.pl 137 de > 137-de.segmentConllFiles.out 2> 137-de.segmentConllFiles.err
+perl cleanupConll.pl 137 de > 137-de.cleanupConll.out 2> 137-de.cleanupConll.err
+perl createParserFiles.pl 137 de > 137-de.createParserFiles.out 2> 137-de.createParserFiles.err
+perl createParserScripts.pl 137 de > 137-de.createParserScripts.out 2> 137-de.createParserScripts.err
+./R137-de.train.sh
+./R137-de.parse.sh
+./R137-de.parse-trainingdata.sh
+perl createStats.pl 137-de.train.conll 137-de.training.out.conll > 137-de.stats
+perl prune.pl 137-de.stats 137-de.out.conll 0.8 > 137-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 137 de > 137-de.splitParsedFiles.out 2> 137-de.splitParsedFiles.err
+perl mergeAll.pl 137 de > 137-de.mergeAll.out 2> 137-de.mergeAll.err
+perl mergeAllTag.pl 137 de > 137-de.mergeAllTag.out 2> 137-de.mergeAllTag.err
+perl updateAllTag.pl 137 de > 137-de.updateAllTag.out 2> 137-de.updateAllTag.err
+perl copyTagFiles.pl 137 de > 137-de.copyTagFiles.out 2> 137-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 137-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon Apr 18 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 140 de > 140-de.findFiles.out 2> 140-de.findFiles.err
+perl convertToConll.pl 140 de tag > 140-de.convertToConnl.out 2> 140-de.convertToConnl.err
+perl createSegmenterFileLists.pl 140 de 2> 140-de.createSegmenterFileLists.err > 140-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 140-de.toParseFiles.lst.abs 2> 140-de.createtoSegmentFiles.err > 140-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 140-de.toParseFiles.lst.abs it 2> 140-de.segmentFiles.err > 140-de.segmentFiles.out
+perl segmentConllFiles.pl 140 de > 140-de.segmentConllFiles.out 2> 140-de.segmentConllFiles.err
+perl cleanupConll.pl 140 de > 140-de.cleanupConll.out 2> 140-de.cleanupConll.err
+perl createParserFiles.pl 140 de > 140-de.createParserFiles.out 2> 140-de.createParserFiles.err
+perl createParserScripts.pl 140 de > 140-de.createParserScripts.out 2> 140-de.createParserScripts.err
+./R140-de.train.sh
+./R140-de.parse.sh
+./R140-de.parse-trainingdata.sh
+perl createStats.pl 140-de.train.conll 140-de.training.out.conll > 140-de.stats
+perl prune.pl 140-de.stats 140-de.out.conll 0.8 > 140-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 140 de > 140-de.splitParsedFiles.out 2> 140-de.splitParsedFiles.err
+perl mergeAll.pl 140 de > 140-de.mergeAll.out 2> 140-de.mergeAll.err
+perl mergeAllTag.pl 140 de > 140-de.mergeAllTag.out 2> 140-de.mergeAllTag.err
+perl updateAllTag.pl 140 de > 140-de.updateAllTag.out 2> 140-de.updateAllTag.err
+perl copyTagFiles.pl 140 de > 140-de.copyTagFiles.out 2> 140-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 140-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon Apr 25 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 143 de > 143-de.findFiles.out 2> 143-de.findFiles.err
+perl convertToConll.pl 143 de tag > 143-de.convertToConnl.out 2> 143-de.convertToConnl.err
+perl createSegmenterFileLists.pl 143 de 2> 143-de.createSegmenterFileLists.err > 143-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 143-de.toParseFiles.lst.abs 2> 143-de.createtoSegmentFiles.err > 143-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 143-de.toParseFiles.lst.abs it 2> 143-de.segmentFiles.err > 143-de.segmentFiles.out
+perl segmentConllFiles.pl 143 de > 143-de.segmentConllFiles.out 2> 143-de.segmentConllFiles.err
+perl cleanupConll.pl 143 de > 143-de.cleanupConll.out 2> 143-de.cleanupConll.err
+perl createParserFiles.pl 143 de > 143-de.createParserFiles.out 2> 143-de.createParserFiles.err
+perl createParserScripts.pl 143 de > 143-de.createParserScripts.out 2> 143-de.createParserScripts.err
+./R143-de.train.sh
+./R143-de.parse.sh
+./R143-de.parse-trainingdata.sh
+perl createStats.pl 143-de.train.conll 143-de.training.out.conll > 143-de.stats
+perl prune.pl 143-de.stats 143-de.out.conll 0.8 > 143-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 143 de > 143-de.splitParsedFiles.out 2> 143-de.splitParsedFiles.err
+perl mergeAll.pl 143 de > 143-de.mergeAll.out 2> 143-de.mergeAll.err
+perl mergeAllTag.pl 143 de > 143-de.mergeAllTag.out 2> 143-de.mergeAllTag.err
+perl updateAllTag.pl 143 de > 143-de.updateAllTag.out 2> 143-de.updateAllTag.err
+perl copyTagFiles.pl 143 de > 143-de.copyTagFiles.out 2> 143-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 143-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon May  2 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 146 de > 146-de.findFiles.out 2> 146-de.findFiles.err
+perl convertToConll.pl 146 de tag > 146-de.convertToConnl.out 2> 146-de.convertToConnl.err
+perl createSegmenterFileLists.pl 146 de 2> 146-de.createSegmenterFileLists.err > 146-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 146-de.toParseFiles.lst.abs 2> 146-de.createtoSegmentFiles.err > 146-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 146-de.toParseFiles.lst.abs it 2> 146-de.segmentFiles.err > 146-de.segmentFiles.out
+perl segmentConllFiles.pl 146 de > 146-de.segmentConllFiles.out 2> 146-de.segmentConllFiles.err
+perl cleanupConll.pl 146 de > 146-de.cleanupConll.out 2> 146-de.cleanupConll.err
+perl createParserFiles.pl 146 de > 146-de.createParserFiles.out 2> 146-de.createParserFiles.err
+perl createParserScripts.pl 146 de > 146-de.createParserScripts.out 2> 146-de.createParserScripts.err
+./R146-de.train.sh
+./R146-de.parse.sh
+./R146-de.parse-trainingdata.sh
+perl createStats.pl 146-de.train.conll 146-de.training.out.conll > 146-de.stats
+perl prune.pl 146-de.stats 146-de.out.conll 0.8 > 146-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 146 de > 146-de.splitParsedFiles.out 2> 146-de.splitParsedFiles.err
+perl mergeAll.pl 146 de > 146-de.mergeAll.out 2> 146-de.mergeAll.err
+perl mergeAllTag.pl 146 de > 146-de.mergeAllTag.out 2> 146-de.mergeAllTag.err
+perl updateAllTag.pl 146 de > 146-de.updateAllTag.out 2> 146-de.updateAllTag.err
+perl copyTagFiles.pl 146 de > 146-de.copyTagFiles.out 2> 146-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 146-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon May  9 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 149 de > 149-de.findFiles.out 2> 149-de.findFiles.err
+perl convertToConll.pl 149 de tag > 149-de.convertToConnl.out 2> 149-de.convertToConnl.err
+perl createSegmenterFileLists.pl 149 de 2> 149-de.createSegmenterFileLists.err > 149-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 149-de.toParseFiles.lst.abs 2> 149-de.createtoSegmentFiles.err > 149-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 149-de.toParseFiles.lst.abs it 2> 149-de.segmentFiles.err > 149-de.segmentFiles.out
+perl segmentConllFiles.pl 149 de > 149-de.segmentConllFiles.out 2> 149-de.segmentConllFiles.err
+perl cleanupConll.pl 149 de > 149-de.cleanupConll.out 2> 149-de.cleanupConll.err
+perl createParserFiles.pl 149 de > 149-de.createParserFiles.out 2> 149-de.createParserFiles.err
+perl createParserScripts.pl 149 de > 149-de.createParserScripts.out 2> 149-de.createParserScripts.err
+./R149-de.train.sh
+./R149-de.parse.sh
+./R149-de.parse-trainingdata.sh
+perl createStats.pl 149-de.train.conll 149-de.training.out.conll > 149-de.stats
+perl prune.pl 149-de.stats 149-de.out.conll 0.8 > 149-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 149 de > 149-de.splitParsedFiles.out 2> 149-de.splitParsedFiles.err
+perl mergeAll.pl 149 de > 149-de.mergeAll.out 2> 149-de.mergeAll.err
+perl mergeAllTag.pl 149 de > 149-de.mergeAllTag.out 2> 149-de.mergeAllTag.err
+perl updateAllTag.pl 149 de > 149-de.updateAllTag.out 2> 149-de.updateAllTag.err
+perl copyTagFiles.pl 149 de > 149-de.copyTagFiles.out 2> 149-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 149-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon May 16 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 152 de > 152-de.findFiles.out 2> 152-de.findFiles.err
+perl convertToConll.pl 152 de tag > 152-de.convertToConnl.out 2> 152-de.convertToConnl.err
+perl createSegmenterFileLists.pl 152 de 2> 152-de.createSegmenterFileLists.err > 152-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 152-de.toParseFiles.lst.abs 2> 152-de.createtoSegmentFiles.err > 152-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 152-de.toParseFiles.lst.abs it 2> 152-de.segmentFiles.err > 152-de.segmentFiles.out
+perl segmentConllFiles.pl 152 de > 152-de.segmentConllFiles.out 2> 152-de.segmentConllFiles.err
+perl cleanupConll.pl 152 de > 152-de.cleanupConll.out 2> 152-de.cleanupConll.err
+perl createParserFiles.pl 152 de > 152-de.createParserFiles.out 2> 152-de.createParserFiles.err
+perl createParserScripts.pl 152 de > 152-de.createParserScripts.out 2> 152-de.createParserScripts.err
+./R152-de.train.sh
+./R152-de.parse.sh
+./R152-de.parse-trainingdata.sh
+perl createStats.pl 152-de.train.conll 152-de.training.out.conll > 152-de.stats
+perl prune.pl 152-de.stats 152-de.out.conll 0.8 > 152-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 152 de > 152-de.splitParsedFiles.out 2> 152-de.splitParsedFiles.err
+perl mergeAll.pl 152 de > 152-de.mergeAll.out 2> 152-de.mergeAll.err
+perl mergeAllTag.pl 152 de > 152-de.mergeAllTag.out 2> 152-de.mergeAllTag.err
+perl updateAllTag.pl 152 de > 152-de.updateAllTag.out 2> 152-de.updateAllTag.err
+perl copyTagFiles.pl 152 de > 152-de.copyTagFiles.out 2> 152-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 152-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon May 23 23:55:02 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 155 de > 155-de.findFiles.out 2> 155-de.findFiles.err
+perl convertToConll.pl 155 de tag > 155-de.convertToConnl.out 2> 155-de.convertToConnl.err
+perl createSegmenterFileLists.pl 155 de 2> 155-de.createSegmenterFileLists.err > 155-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 155-de.toParseFiles.lst.abs 2> 155-de.createtoSegmentFiles.err > 155-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 155-de.toParseFiles.lst.abs it 2> 155-de.segmentFiles.err > 155-de.segmentFiles.out
+perl segmentConllFiles.pl 155 de > 155-de.segmentConllFiles.out 2> 155-de.segmentConllFiles.err
+perl cleanupConll.pl 155 de > 155-de.cleanupConll.out 2> 155-de.cleanupConll.err
+perl createParserFiles.pl 155 de > 155-de.createParserFiles.out 2> 155-de.createParserFiles.err
+perl createParserScripts.pl 155 de > 155-de.createParserScripts.out 2> 155-de.createParserScripts.err
+./R155-de.train.sh
+./R155-de.parse.sh
+./R155-de.parse-trainingdata.sh
+perl createStats.pl 155-de.train.conll 155-de.training.out.conll > 155-de.stats
+perl prune.pl 155-de.stats 155-de.out.conll 0.8 > 155-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 155 de > 155-de.splitParsedFiles.out 2> 155-de.splitParsedFiles.err
+perl mergeAll.pl 155 de > 155-de.mergeAll.out 2> 155-de.mergeAll.err
+perl mergeAllTag.pl 155 de > 155-de.mergeAllTag.out 2> 155-de.mergeAllTag.err
+perl updateAllTag.pl 155 de > 155-de.updateAllTag.out 2> 155-de.updateAllTag.err
+perl copyTagFiles.pl 155 de > 155-de.copyTagFiles.out 2> 155-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 155-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon May 30 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 158 de > 158-de.findFiles.out 2> 158-de.findFiles.err
+perl convertToConll.pl 158 de tag > 158-de.convertToConnl.out 2> 158-de.convertToConnl.err
+perl createSegmenterFileLists.pl 158 de 2> 158-de.createSegmenterFileLists.err > 158-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 158-de.toParseFiles.lst.abs 2> 158-de.createtoSegmentFiles.err > 158-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 158-de.toParseFiles.lst.abs it 2> 158-de.segmentFiles.err > 158-de.segmentFiles.out
+perl segmentConllFiles.pl 158 de > 158-de.segmentConllFiles.out 2> 158-de.segmentConllFiles.err
+perl cleanupConll.pl 158 de > 158-de.cleanupConll.out 2> 158-de.cleanupConll.err
+perl createParserFiles.pl 158 de > 158-de.createParserFiles.out 2> 158-de.createParserFiles.err
+perl createParserScripts.pl 158 de > 158-de.createParserScripts.out 2> 158-de.createParserScripts.err
+./R158-de.train.sh
+./R158-de.parse.sh
+./R158-de.parse-trainingdata.sh
+perl createStats.pl 158-de.train.conll 158-de.training.out.conll > 158-de.stats
+perl prune.pl 158-de.stats 158-de.out.conll 0.8 > 158-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 158 de > 158-de.splitParsedFiles.out 2> 158-de.splitParsedFiles.err
+perl mergeAll.pl 158 de > 158-de.mergeAll.out 2> 158-de.mergeAll.err
+perl mergeAllTag.pl 158 de > 158-de.mergeAllTag.out 2> 158-de.mergeAllTag.err
+perl updateAllTag.pl 158 de > 158-de.updateAllTag.out 2> 158-de.updateAllTag.err
+perl copyTagFiles.pl 158 de > 158-de.copyTagFiles.out 2> 158-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 158-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon Jun  6 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 161 de > 161-de.findFiles.out 2> 161-de.findFiles.err
+perl convertToConll.pl 161 de tag > 161-de.convertToConnl.out 2> 161-de.convertToConnl.err
+perl createSegmenterFileLists.pl 161 de 2> 161-de.createSegmenterFileLists.err > 161-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 161-de.toParseFiles.lst.abs 2> 161-de.createtoSegmentFiles.err > 161-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 161-de.toParseFiles.lst.abs it 2> 161-de.segmentFiles.err > 161-de.segmentFiles.out
+perl segmentConllFiles.pl 161 de > 161-de.segmentConllFiles.out 2> 161-de.segmentConllFiles.err
+perl cleanupConll.pl 161 de > 161-de.cleanupConll.out 2> 161-de.cleanupConll.err
+perl createParserFiles.pl 161 de > 161-de.createParserFiles.out 2> 161-de.createParserFiles.err
+perl createParserScripts.pl 161 de > 161-de.createParserScripts.out 2> 161-de.createParserScripts.err
+./R161-de.train.sh
+./R161-de.parse.sh
+./R161-de.parse-trainingdata.sh
+perl createStats.pl 161-de.train.conll 161-de.training.out.conll > 161-de.stats
+perl prune.pl 161-de.stats 161-de.out.conll 0.8 > 161-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 161 de > 161-de.splitParsedFiles.out 2> 161-de.splitParsedFiles.err
+perl mergeAll.pl 161 de > 161-de.mergeAll.out 2> 161-de.mergeAll.err
+perl mergeAllTag.pl 161 de > 161-de.mergeAllTag.out 2> 161-de.mergeAllTag.err
+perl updateAllTag.pl 161 de > 161-de.updateAllTag.out 2> 161-de.updateAllTag.err
+perl copyTagFiles.pl 161 de > 161-de.copyTagFiles.out 2> 161-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 161-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon Jun 13 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 164 de > 164-de.findFiles.out 2> 164-de.findFiles.err
+perl convertToConll.pl 164 de tag > 164-de.convertToConnl.out 2> 164-de.convertToConnl.err
+perl createSegmenterFileLists.pl 164 de 2> 164-de.createSegmenterFileLists.err > 164-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 164-de.toParseFiles.lst.abs 2> 164-de.createtoSegmentFiles.err > 164-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 164-de.toParseFiles.lst.abs it 2> 164-de.segmentFiles.err > 164-de.segmentFiles.out
+perl segmentConllFiles.pl 164 de > 164-de.segmentConllFiles.out 2> 164-de.segmentConllFiles.err
+perl cleanupConll.pl 164 de > 164-de.cleanupConll.out 2> 164-de.cleanupConll.err
+perl createParserFiles.pl 164 de > 164-de.createParserFiles.out 2> 164-de.createParserFiles.err
+perl createParserScripts.pl 164 de > 164-de.createParserScripts.out 2> 164-de.createParserScripts.err
+./R164-de.train.sh
+./R164-de.parse.sh
+./R164-de.parse-trainingdata.sh
+perl createStats.pl 164-de.train.conll 164-de.training.out.conll > 164-de.stats
+perl prune.pl 164-de.stats 164-de.out.conll 0.8 > 164-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 164 de > 164-de.splitParsedFiles.out 2> 164-de.splitParsedFiles.err
+perl mergeAll.pl 164 de > 164-de.mergeAll.out 2> 164-de.mergeAll.err
+perl mergeAllTag.pl 164 de > 164-de.mergeAllTag.out 2> 164-de.mergeAllTag.err
+perl updateAllTag.pl 164 de > 164-de.updateAllTag.out 2> 164-de.updateAllTag.err
+perl copyTagFiles.pl 164 de > 164-de.copyTagFiles.out 2> 164-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 164-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
+Mon Jun 20 23:55:01 CEST 2011
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 167 de > 167-de.findFiles.out 2> 167-de.findFiles.err
+perl convertToConll.pl 167 de tag > 167-de.convertToConnl.out 2> 167-de.convertToConnl.err
+perl createSegmenterFileLists.pl 167 de 2> 167-de.createSegmenterFileLists.err > 167-de.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 167-de.toParseFiles.lst.abs 2> 167-de.createtoSegmentFiles.err > 167-de.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 167-de.toParseFiles.lst.abs it 2> 167-de.segmentFiles.err > 167-de.segmentFiles.out
+perl segmentConllFiles.pl 167 de > 167-de.segmentConllFiles.out 2> 167-de.segmentConllFiles.err
+perl cleanupConll.pl 167 de > 167-de.cleanupConll.out 2> 167-de.cleanupConll.err
+perl createParserFiles.pl 167 de > 167-de.createParserFiles.out 2> 167-de.createParserFiles.err
+perl createParserScripts.pl 167 de > 167-de.createParserScripts.out 2> 167-de.createParserScripts.err
+./R167-de.train.sh
+./R167-de.parse.sh
+./R167-de.parse-trainingdata.sh
+perl createStats.pl 167-de.train.conll 167-de.training.out.conll > 167-de.stats
+perl prune.pl 167-de.stats 167-de.out.conll 0.8 > 167-de.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 167 de > 167-de.splitParsedFiles.out 2> 167-de.splitParsedFiles.err
+perl mergeAll.pl 167 de > 167-de.mergeAll.out 2> 167-de.mergeAll.err
+perl mergeAllTag.pl 167 de > 167-de.mergeAllTag.out 2> 167-de.mergeAllTag.err
+perl updateAllTag.pl 167 de > 167-de.updateAllTag.out 2> 167-de.updateAllTag.err
+perl copyTagFiles.pl 167 de > 167-de.copyTagFiles.out 2> 167-de.copyTagFiles.err
+cd ../de
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 167-de'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/de'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
