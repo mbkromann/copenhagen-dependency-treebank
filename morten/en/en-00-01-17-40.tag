@@ -1,266 +1,266 @@
 <s>
-<W msd="NN" tag="NN">﻿</W>
-<W msd="NNP" tag="NNP">Madam</W>
-<W msd="NNP" tag="NNP">President</W>
-<W msd="," tag=",">,</W>
-<W msd="JJ" tag="JJ">first</W>
-<W msd="IN" tag="IN">of</W>
-<W msd="DT" tag="DT">all</W>
-<W msd="PRP" tag="PRP">I</W>
-<W msd="MD" tag="MD">should</W>
-<W msd="VB" tag="VB">like</W>
-<W msd="TO" tag="TO">to</W>
-<W msd="VB" tag="VB">thank</W>
-<W msd="NNP" tag="NNP">Mr</W>
-<W msd="NNP" tag="NNP">Koch</W>
-<W msd="IN" tag="IN">for</W>
-<W msd="PRP$" tag="PRP$">his</W>
-<W msd="NN" tag="NN">report</W>
-<W msd="WDT" tag="WDT">which</W>
-<W msd="VBZ" tag="VBZ">has</W>
-<W msd="," tag=",">,</W>
-<W msd="IN" tag="IN">at</W>
-<W msd="PRP$" tag="PRP$">its</W>
-<W msd="NN" tag="NN">heart</W>
-<W msd="," tag=",">,</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NN" tag="NN">issue</W>
-<W msd="IN" tag="IN">of</W>
-<W msd="NN" tag="NN">transport</W>
-<W msd="NN" tag="NN">safety</W>
-<W msd="." tag=".">.</W>
-<W msd="DT" tag="DT">The</W>
-<W msd="NN" tag="NN">report</W>
-<W msd="VBZ" tag="VBZ">looks</W>
-<W msd="IN" tag="IN">at</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NN" tag="NN">issue</W>
-<W msd="IN" tag="IN">of</W>
-<W msd="VBG" tag="VBG">harmonising</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NN" tag="NN">examination</W>
-<W msd="NNS" tag="NNS">requirements</W>
-<W msd="IN" tag="IN">for</W>
-<W msd="NN" tag="NN">safety</W>
-<W msd="NNS" tag="NNS">advisors</W>
-<W msd="VBG" tag="VBG">working</W>
-<W msd="IN" tag="IN">in</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NNS" tag="NNS">areas</W>
-<W msd="IN" tag="IN">of</W>
-<W msd="NN" tag="NN">transportation</W>
-<W msd="IN" tag="IN">of</W>
-<W msd="JJ" tag="JJ">dangerous</W>
-<W msd="NNS" tag="NNS">goods</W>
-<W msd="IN" tag="IN">by</W>
-<W msd="NN" tag="NN">road</W>
-<W msd="," tag=",">,</W>
-<W msd="NN" tag="NN">rail</W>
-<W msd="CC" tag="CC">and</W>
-<W msd="RB" tag="RB">inland</W>
-<W msd="JJ" tag="JJ">waterway</W>
-<W msd="." tag=".">.</W>
-<W msd="PRP" tag="PRP">I</W>
-<W msd="VBP" tag="VBP">congratulate</W>
-<W msd="PRP" tag="PRP">him</W>
-<W msd="IN" tag="IN">on</W>
-<W msd="PRP$" tag="PRP$">his</W>
-<W msd="JJ" tag="JJ">excellent</W>
-<W msd="NN" tag="NN">report</W>
-<W msd="." tag=".">.</W>
+<W id="1" msd="NN" tag="NN" in="" out="">﻿</W>
+<W id="2" msd="NNP" tag="NNP" in="1:title" out="">Madam</W>
+<W id="3" msd="NNP" tag="NNP" in="6:voc" out="-1:title|1:pnct">President</W>
+<W id="4" msd="," tag="," in="-1:pnct" out="">,</W>
+<W id="5" msd="JJ" tag="JJ" in="4:mod" out="1:pobj">first</W>
+<W id="6" msd="IN" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="7" msd="DT" tag="DT" in="-1:nobj" out="">all</W>
+<W id="8" msd="PRP" tag="PRP" in="1:subj" out="54:coref">I</W>
+<W id="9" msd="MD" tag="MD" in="" out="-6:voc|-1:subj|-4:mod|1:vobj|21:pnct|54:EVALUATION">should</W>
+<W id="10" msd="VB" tag="VB" in="-1:vobj" out="1:pobj">like</W>
+<W id="11" msd="TO" tag="TO" in="-1:pobj" out="1:vobj">to</W>
+<W id="12" msd="VB" tag="VB" in="-1:vobj" out="2:dobj|3:pobj">thank</W>
+<W id="13" msd="NNP" tag="NNP" in="1:title" out="">Mr</W>
+<W id="14" msd="NNP" tag="NNP" in="-2:dobj" out="-1:title|2:coref|50:coref">Koch</W>
+<W id="15" msd="IN" tag="IN" in="-3:pobj" out="1:nobj">for</W>
+<W id="16" msd="PRP$" tag="PRP$" in="-1:nobj|-2:coref" out="1:nobj|2:ref|3:ELABORATION|17:ELABORATION">his</W>
+<W id="17" msd="NN" tag="NN" in="-1:nobj" out="">report</W>
+<W id="18" msd="WDT" tag="WDT" in="-2:ref|1:subj" out="4:coref">which</W>
+<W id="19" msd="VBZ" tag="VBZ" in="-3:ELABORATION" out="-1:subj|6:dobj|2:mod">has</W>
+<W id="20" msd="," tag="," in="1:pnct" out="">,</W>
+<W id="21" msd="IN" tag="IN" in="-2:mod" out="-1:pnct|1:nobj|3:pnct">at</W>
+<W id="22" msd="PRP$" tag="PRP$" in="-1:nobj|-4:coref" out="1:possd|9:coref">its</W>
+<W id="23" msd="NN" tag="NN" in="-1:possd" out="">heart</W>
+<W id="24" msd="," tag="," in="-3:pnct" out="">,</W>
+<W id="25" msd="DT" tag="DT" in="-6:dobj" out="1:nobj|48:coref-var|49:+ELABORATION">the</W>
+<W id="26" msd="NN" tag="NN" in="-1:nobj" out="1:pobj">issue</W>
+<W id="27" msd="IN" tag="IN" in="-1:pobj" out="2:nobj">of</W>
+<W id="28" msd="NN" tag="NN" in="1:mod" out="">transport</W>
+<W id="29" msd="NN" tag="NN" in="-2:nobj" out="-1:mod">safety</W>
+<W id="30" msd="." tag="." in="-21:pnct" out="">.</W>
+<W id="31" msd="DT" tag="DT" in="-9:coref|2:subj" out="1:nobj|35:coref-var">The</W>
+<W id="32" msd="NN" tag="NN" in="-1:nobj" out="">report</W>
+<W id="33" msd="VBZ" tag="VBZ" in="-17:ELABORATION" out="-2:subj|1:dobj|28:pnct">looks</W>
+<W id="34" msd="IN" tag="IN" in="-1:dobj" out="1:nobj">at</W>
+<W id="35" msd="DT" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="36" msd="NN" tag="NN" in="-1:nobj" out="1:pobj">issue</W>
+<W id="37" msd="IN" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="38" msd="VBG" tag="VBG" in="-1:nobj" out="1:dobj">harmonising</W>
+<W id="39" msd="DT" tag="DT" in="-1:dobj" out="2:nobj">the</W>
+<W id="40" msd="NN" tag="NN" in="1:mod" out="">examination</W>
+<W id="41" msd="NNS" tag="NNS" in="-2:nobj" out="-1:mod|1:mod">requirements</W>
+<W id="42" msd="IN" tag="IN" in="-1:mod" out="2:nobj">for</W>
+<W id="43" msd="NN" tag="NN" in="1:mod" out="">safety</W>
+<W id="44" msd="NNS" tag="NNS" in="-2:nobj|1:[subj]" out="1:ELABORATION|-1:mod">advisors</W>
+<W id="45" msd="VBG" tag="VBG" in="-1:ELABORATION" out="-1:[subj]|1:pobj">working</W>
+<W id="46" msd="IN" tag="IN" in="-1:pobj" out="1:nobj">in</W>
+<W id="47" msd="DT" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="48" msd="NNS" tag="NNS" in="-1:nobj" out="1:pobj">areas</W>
+<W id="49" msd="IN" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="50" msd="NN" tag="NN" in="-1:nobj" out="1:pobj|4:mod">transportation</W>
+<W id="51" msd="IN" tag="IN" in="-1:pobj" out="2:nobj">of</W>
+<W id="52" msd="JJ" tag="JJ" in="1:mod" out="">dangerous</W>
+<W id="53" msd="NNS" tag="NNS" in="-2:nobj" out="-1:mod">goods</W>
+<W id="54" msd="IN" tag="IN" in="-4:mod" out="1:nobj">by</W>
+<W id="55" msd="NN" tag="NN" in="-1:nobj" out="1:pnct|2:conj|5:conj">road</W>
+<W id="56" msd="," tag="," in="-1:pnct" out="">,</W>
+<W id="57" msd="NN" tag="NN" in="-2:conj" out="">rail</W>
+<W id="58" msd="CC" tag="CC" in="2:coord" out="">and</W>
+<W id="59" msd="RB" tag="RB" in="1:mod" out="">inland</W>
+<W id="60" msd="JJ" tag="JJ" in="-5:conj" out="-2:coord|-1:mod">waterway</W>
+<W id="61" msd="." tag="." in="-28:pnct" out="">.</W>
+<W id="62" msd="PRP" tag="PRP" in="-54:coref|1:subj" out="128:coref">I</W>
+<W id="63" msd="VBP" tag="VBP" in="-54:EVALUATION" out="-1:subj|1:dobj|2:pobj|6:pnct">congratulate</W>
+<W id="64" msd="PRP" tag="PRP" in="-1:dobj|-50:coref" out="85:coref-var">him</W>
+<W id="65" msd="IN" tag="IN" in="-2:pobj" out="1:nobj">on</W>
+<W id="66" msd="PRP$" tag="PRP$" in="-1:nobj|-35:coref-var" out="2:nobj|1:mod">his</W>
+<W id="67" msd="JJ" tag="JJ" in="-1:mod" out="">excellent</W>
+<W id="68" msd="NN" tag="NN" in="-2:nobj" out="">report</W>
+<W id="69" msd="." tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NN" tag="NN">Transport</W>
-<W msd="NN" tag="NN">safety</W>
-<W msd="VBZ" tag="VBZ">has</W>
-<W msd="RB" tag="RB">sadly</W>
-<W msd="VBN" tag="VBN">been</W>
-<W msd="IN" tag="IN">in</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NN" tag="NN">news</W>
-<W msd="RB" tag="RB">recently</W>
-<W msd=":" tag=":">:</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NNP" tag="NNP">Paddington</W>
-<W msd="NN" tag="NN">rail</W>
-<W msd="NN" tag="NN">crash</W>
-<W msd="IN" tag="IN">in</W>
-<W msd="NNP" tag="NNP">London</W>
-<W msd="," tag=",">,</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="JJ" tag="JJ">terrible</W>
-<W msd="NN" tag="NN">rail</W>
-<W msd="NN" tag="NN">crash</W>
-<W msd="IN" tag="IN">in</W>
-<W msd="NNP" tag="NNP">Norway</W>
-<W msd="," tag=",">,</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="CD" tag="CD">two</W>
-<W msd="NN" tag="NN">aviation</W>
-<W msd="NNS" tag="NNS">crashes</W>
-<W msd="VBG" tag="VBG">involving</W>
-<W msd="NNP" tag="NNP">EU</W>
-<W msd="NNS" tag="NNS">citizens</W>
-<W msd="CC" tag="CC">and</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="JJ" tag="JJ">natural</W>
-<W msd="NN" tag="NN">disaster</W>
-<W msd="VBG" tag="VBG">involving</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NNP" tag="NNP">Erika</W>
-<W msd="RP" tag="RP">off</W>
-<W msd="NNP" tag="NNP">Brittany</W>
-<W msd=":" tag=":">-</W>
-<W msd="DT" tag="DT">all</W>
-<W msd="IN" tag="IN">within</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="JJ" tag="JJ">last</W>
-<W msd="CD" tag="CD">four</W>
-<W msd="NNS" tag="NNS">months</W>
-<W msd=":" tag=":">-</W>
-<W msd="VB" tag="VB">remind</W>
-<W msd="PRP" tag="PRP">us</W>
-<W msd="IN" tag="IN">that</W>
-<W msd="NN" tag="NN">transport</W>
-<W msd="NN" tag="NN">safety</W>
-<W msd="MD" tag="MD">can</W>
-<W msd="RB" tag="RB">never</W>
-<W msd="VB" tag="VB">be</W>
-<W msd="VBN" tag="VBN">taken</W>
-<W msd="IN" tag="IN">for</W>
-<W msd="VBN" tag="VBN">granted</W>
-<W msd="CC" tag="CC">and</W>
-<W msd="IN" tag="IN">that</W>
-<W msd="DT" tag="DT">those</W>
-<W msd="VBN" tag="VBN">charged</W>
-<W msd="IN" tag="IN">with</W>
-<W msd="VBG" tag="VBG">protecting</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NN" tag="NN">public</W>
-<W msd="MD" tag="MD">must</W>
-<W msd="VB" tag="VB">be</W>
-<W msd="RB" tag="RB">highly</W>
-<W msd="VBN" tag="VBN">motivated</W>
-<W msd="CC" tag="CC">and</W>
-<W msd="RB" tag="RB">highly</W>
-<W msd="VBN" tag="VBN">qualified</W>
-<W msd="." tag=".">.</W>
+<W id="72" msd="NN" tag="NN" in="1:mod" out="">Transport</W>
+<W id="73" msd="NN" tag="NN" in="-48:coref-var|1:subj" out="51:coref-iden|-1:mod">safety</W>
+<W id="74" msd="VBZ" tag="VBZ" in="-49:+ELABORATION" out="-1:subj|1:mod|2:vobj|7:pnct|46:ELABORATION|6:mod">has</W>
+<W id="75" msd="RB" tag="RB" in="-1:mod" out="">sadly</W>
+<W id="76" msd="VBN" tag="VBN" in="-2:vobj" out="1:preds">been</W>
+<W id="77" msd="IN" tag="IN" in="-1:preds" out="1:nobj">in</W>
+<W id="78" msd="DT" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="79" msd="NN" tag="NN" in="-1:nobj" out="">news</W>
+<W id="80" msd="RB" tag="RB" in="-6:mod" out="">recently</W>
+<W id="81" msd="&3a;" tag="&3a;" in="-7:pnct" out="">:</W>
+<W id="82" msd="DT" tag="DT" in="18:[subj]|38:subj" out="3:nobj|6:pnct|7:conj|13:pnct|14:conj|18:ELABORATION|22:conj|31:appa|179:coref-var">the</W>
+<W id="83" msd="NNP" tag="NNP" in="2:mod" out="">Paddington</W>
+<W id="84" msd="NN" tag="NN" in="1:mod" out="">rail</W>
+<W id="85" msd="NN" tag="NN" in="-3:nobj" out="-2:mod|-1:mod|1:mod">crash</W>
+<W id="86" msd="IN" tag="IN" in="-1:mod" out="1:nobj">in</W>
+<W id="87" msd="NNP" tag="NNP" in="-1:nobj" out="">London</W>
+<W id="88" msd="," tag="," in="-6:pnct" out="">,</W>
+<W id="89" msd="DT" tag="DT" in="-7:conj" out="3:nobj">the</W>
+<W id="90" msd="JJ" tag="JJ" in="2:mod" out="">terrible</W>
+<W id="91" msd="NN" tag="NN" in="1:mod" out="">rail</W>
+<W id="92" msd="NN" tag="NN" in="-3:nobj" out="-2:mod|-1:mod|1:mod">crash</W>
+<W id="93" msd="IN" tag="IN" in="-1:mod" out="1:nobj">in</W>
+<W id="94" msd="NNP" tag="NNP" in="-1:nobj" out="">Norway</W>
+<W id="95" msd="," tag="," in="-13:pnct" out="">,</W>
+<W id="96" msd="DT" tag="DT" in="-14:conj" out="1:nobj">the</W>
+<W id="97" msd="CD" tag="CD" in="-1:nobj" out="2:nobj">two</W>
+<W id="98" msd="NN" tag="NN" in="1:attr" out="">aviation</W>
+<W id="99" msd="NNS" tag="NNS" in="-2:nobj" out="-1:attr">crashes</W>
+<W id="100" msd="VBG" tag="VBG" in="-18:ELABORATION" out="-18:[subj]|2:dobj">involving</W>
+<W id="101" msd="NNP" tag="NNP" in="1:attr" out="">EU</W>
+<W id="102" msd="NNS" tag="NNS" in="-2:dobj" out="-1:attr">citizens</W>
+<W id="103" msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W id="104" msd="DT" tag="DT" in="-22:conj|3:[subj]" out="-1:coord|2:nobj|3:ELABORATION">the</W>
+<W id="105" msd="JJ" tag="JJ" in="1:attr" out="">natural</W>
+<W id="106" msd="NN" tag="NN" in="-2:nobj" out="-1:attr">disaster</W>
+<W id="107" msd="VBG" tag="VBG" in="-3:ELABORATION" out="-3:[subj]|1:dobj">involving</W>
+<W id="108" msd="DT" tag="DT" in="-1:dobj" out="1:nobj">the</W>
+<W id="109" msd="NNP" tag="NNP" in="-1:nobj" out="1:attr">Erika</W>
+<W id="110" msd="RP" tag="RP" in="-1:attr" out="1:nobj">off</W>
+<W id="111" msd="NNP" tag="NNP" in="-1:nobj" out="">Brittany</W>
+<W id="112" msd="&3a;" tag="&3a;" in="1:pnct" out="">-</W>
+<W id="113" msd="DT" tag="DT" in="-31:appa" out="-1:pnct|1:attr|6:pnct">all</W>
+<W id="114" msd="IN" tag="IN" in="-1:attr" out="1:nobj">within</W>
+<W id="115" msd="DT" tag="DT" in="-1:nobj" out="2:nobj">the</W>
+<W id="116" msd="JJ" tag="JJ" in="1:attr" out="">last</W>
+<W id="117" msd="CD" tag="CD" in="-2:nobj" out="-1:attr|1:nobj">four</W>
+<W id="118" msd="NNS" tag="NNS" in="-1:nobj" out="">months</W>
+<W id="119" msd="&3a;" tag="&3a;" in="-6:pnct" out="">-</W>
+<W id="120" msd="VB" tag="VB" in="-46:ELABORATION|2:[ATTRIBUTION]" out="-38:subj|1:iobj|2:dobj|26:pnct">remind</W>
+<W id="121" msd="PRP" tag="PRP" in="-1:iobj" out="">us</W>
+<W id="122" msd="IN" tag="IN" in="-2:dobj" out="-2:[ATTRIBUTION]|3:vobj|10:JOINT|29:+JOINT">that</W>
+<W id="123" msd="NN" tag="NN" in="1:attr" out="">transport</W>
+<W id="124" msd="NN" tag="NN" in="-51:coref-iden|1:subj" out="-1:attr">safety</W>
+<W id="125" msd="MD" tag="MD" in="-3:vobj" out="-1:subj|1:neg|2:vobj">can</W>
+<W id="126" msd="RB" tag="RB" in="-1:neg" out="">never</W>
+<W id="127" msd="VB" tag="VB" in="-2:vobj" out="1:preds">be</W>
+<W id="128" msd="VBN" tag="VBN" in="-1:preds" out="1:pobj">taken</W>
+<W id="129" msd="IN" tag="IN" in="-1:pobj" out="1:vobj">for</W>
+<W id="130" msd="VBN" tag="VBN" in="-1:vobj" out="">granted</W>
+<W id="131" msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W id="132" msd="IN" tag="IN" in="-10:JOINT" out="-1:coord|7:vobj">that</W>
+<W id="133" msd="DT" tag="DT" in="6:subj" out="1:ELABORATION|1:[preds]">those</W>
+<W id="134" msd="VBN" tag="VBN" in="-1:ELABORATION|-1:[preds]" out="1:pobj">charged</W>
+<W id="135" msd="IN" tag="IN" in="-1:pobj" out="1:vobj">with</W>
+<W id="136" msd="VBG" tag="VBG" in="-1:vobj" out="1:dobj">protecting</W>
+<W id="137" msd="DT" tag="DT" in="-1:dobj" out="1:nobj">the</W>
+<W id="138" msd="NN" tag="NN" in="-1:nobj" out="">public</W>
+<W id="139" msd="MD" tag="MD" in="-7:vobj" out="-6:subj|1:vobj">must</W>
+<W id="140" msd="VB" tag="VB" in="-1:vobj" out="2:preds">be</W>
+<W id="141" msd="RB" tag="RB" in="1:mod" out="">highly</W>
+<W id="142" msd="VBN" tag="VBN" in="-2:preds" out="-1:mod|3:conj">motivated</W>
+<W id="143" msd="CC" tag="CC" in="2:coord" out="">and</W>
+<W id="144" msd="RB" tag="RB" in="1:mod" out="">highly</W>
+<W id="145" msd="VBN" tag="VBN" in="-3:conj" out="-2:coord|-1:mod">qualified</W>
+<W id="146" msd="." tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>
-<W msd="DT" tag="DT">The</W>
-<W msd="NN" tag="NN">rapporteur</W>
-<W msd="VBZ" tag="VBZ">has</W>
-<W msd="VBN" tag="VBN">pointed</W>
-<W msd="RP" tag="RP">out</W>
-<W msd="TO" tag="TO">to</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NNP" tag="NNP">House</W>
-<W msd="IN" tag="IN">that</W>
-<W msd="IN" tag="IN">in</W>
-<W msd="PRP$" tag="PRP$">its</W>
-<W msd="JJ" tag="JJ">common</W>
-<W msd="NN" tag="NN">position</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NNP" tag="NNP">Council</W>
-<W msd="VBZ" tag="VBZ">has</W>
-<W msd="VBN" tag="VBN">accepted</W>
-<W msd="CD" tag="CD">six</W>
-<W msd="IN" tag="IN">of</W>
-<W msd="NNP" tag="NNP">Parliament</W>
-<W msd="POS" tag="POS">'s</W>
-<W msd="JJ" tag="JJ">ten</W>
-<W msd="NNS" tag="NNS">amendments</W>
-<W msd="VBD" tag="VBD">put</W>
-<W msd="RB" tag="RB">forward</W>
-<W msd="IN" tag="IN">at</W>
-<W msd="JJ" tag="JJ">first</W>
-<W msd="NN" tag="NN">reading</W>
-<W msd="CC" tag="CC">and</W>
-<W msd="IN" tag="IN">that</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NN" tag="NN">substance</W>
-<W msd="IN" tag="IN">of</W>
-<W msd="NNP" tag="NNP">Parliament</W>
-<W msd="POS" tag="POS">'s</W>
-<W msd="JJ" tag="JJ">other</W>
-<W msd="NNS" tag="NNS">amendments</W>
-<W msd="VBZ" tag="VBZ">has</W>
-<W msd="VBN" tag="VBN">been</W>
-<W msd="VBN" tag="VBN">retained</W>
-<W msd="." tag=".">.</W>
-<W msd="PRP$" tag="PRP$">My</W>
-<W msd="NNP" tag="NNP">Group</W>
-<W msd="MD" tag="MD">will</W>
-<W msd="RB" tag="RB">therefore</W>
-<W msd="VB" tag="VB">support</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="JJ" tag="JJ">common</W>
-<W msd="NN" tag="NN">position</W>
-<W msd="CC" tag="CC">and</W>
-<W msd="VBZ" tag="VBZ">looks</W>
-<W msd="RB" tag="RB">forward</W>
-<W msd="TO" tag="TO">to</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NN" tag="NN">enactment</W>
-<W msd="IN" tag="IN">of</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NN" tag="NN">legislation</W>
-<W msd="WDT" tag="WDT">which</W>
-<W msd="MD" tag="MD">will</W>
-<W msd="VB" tag="VB">provide</W>
-<W msd="PRP" tag="PRP">us</W>
-<W msd="IN" tag="IN">with</W>
-<W msd="RB" tag="RB">yet</W>
-<W msd="DT" tag="DT">another</W>
-<W msd="NN" tag="NN">tool</W>
-<W msd="IN" tag="IN">in</W>
-<W msd="PRP$" tag="PRP$">our</W>
-<W msd="NN" tag="NN">fight</W>
-<W msd="TO" tag="TO">to</W>
-<W msd="VB" tag="VB">make</W>
-<W msd="NN" tag="NN">transport</W>
-<W msd="IN" tag="IN">in</W>
-<W msd="DT" tag="DT">the</W>
-<W msd="NNP" tag="NNP">European</W>
-<W msd="NNP" tag="NNP">Union</W>
-<W msd="RB" tag="RB">as</W>
-<W msd="JJ" tag="JJ">safe</W>
-<W msd="IN" tag="IN">as</W>
-<W msd="JJ" tag="JJ">possible</W>
-<W msd="." tag=".">.</W>
-<W msd="WRB" tag="WRB">When</W>
-<W msd="PRP" tag="PRP">it</W>
-<W msd="VBZ" tag="VBZ">comes</W>
-<W msd="TO" tag="TO">to</W>
-<W msd="VB" tag="VB">safety</W>
-<W msd="PRP$" tag="PRP$">my</W>
-<W msd="NNP" tag="NNP">Group</W>
-<W msd="MD" tag="MD">will</W>
-<W msd="RB" tag="RB">always</W>
-<W msd="VB" tag="VB">support</W>
-<W msd="DT" tag="DT">any</W>
-<W msd="NNS" tag="NNS">initiatives</W>
-<W msd="TO" tag="TO">to</W>
-<W msd="VB" tag="VB">improve</W>
-<W msd="NN" tag="NN">transport</W>
-<W msd="NN" tag="NN">safety</W>
-<W msd="." tag=".">.</W>
-<W msd="PRP" tag="PRP">We</W>
-<W msd="RB" tag="RB">still</W>
-<W msd="VBP" tag="VBP">have</W>
-<W msd="DT" tag="DT">a</W>
-<W msd="NN" tag="NN">lot</W>
-<W msd="IN" tag="IN">of</W>
-<W msd="NN" tag="NN">work</W>
-<W msd="TO" tag="TO">to</W>
-<W msd="VB" tag="VB">do</W>
-<W msd="IN" tag="IN">in</W>
-<W msd="DT" tag="DT">this</W>
-<W msd="NN" tag="NN">area</W>
-<W msd="IN" tag="IN">as</W>
-<W msd="JJ" tag="JJ">recent</W>
-<W msd="NNS" tag="NNS">events</W>
-<W msd="VBP" tag="VBP">have</W>
-<W msd="VBN" tag="VBN">proved</W>
-<W msd="." tag=".">.</W>
+<W id="149" msd="DT" tag="DT" in="-85:coref-var|2:subj" out="1:nobj">The</W>
+<W id="150" msd="NN" tag="NN" in="-1:nobj" out="">rapporteur</W>
+<W id="151" msd="VBZ" tag="VBZ" in="-29:+JOINT|6:[ATTRIBUTION]" out="-2:subj|1:vobj|38:pnct|41:CAUSE">has</W>
+<W id="152" msd="VBN" tag="VBN" in="-1:vobj" out="1:part|2:pobj|5:dobj">pointed</W>
+<W id="153" msd="RP" tag="RP" in="-1:part" out="">out</W>
+<W id="154" msd="TO" tag="TO" in="-2:pobj" out="1:nobj">to</W>
+<W id="155" msd="DT" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="156" msd="NNP" tag="NNP" in="-1:nobj" out="">House</W>
+<W id="157" msd="IN" tag="IN" in="-5:dobj" out="-6:[ATTRIBUTION]|7:vobj|21:JOINT">that</W>
+<W id="158" msd="IN" tag="IN" in="6:mod" out="1:nobj">in</W>
+<W id="159" msd="PRP$" tag="PRP$" in="-1:nobj|3:coref" out="2:possd|36:coref-iden">its</W>
+<W id="160" msd="JJ" tag="JJ" in="1:attr" out="">common</W>
+<W id="161" msd="NN" tag="NN" in="-2:possd" out="-1:attr">position</W>
+<W id="162" msd="DT" tag="DT" in="2:subj" out="-3:coref|1:nobj">the</W>
+<W id="163" msd="NNP" tag="NNP" in="-1:nobj" out="">Council</W>
+<W id="164" msd="VBZ" tag="VBZ" in="-7:vobj" out="-6:mod|-2:subj|1:vobj">has</W>
+<W id="165" msd="VBN" tag="VBN" in="-1:vobj" out="1:dobj">accepted</W>
+<W id="166" msd="CD" tag="CD" in="-1:dobj" out="1:pobj">six</W>
+<W id="167" msd="IN" tag="IN" in="-1:pobj" out="2:nobj">of</W>
+<W id="168" msd="NNP" tag="NNP" in="1:possr" out="">Parliament</W>
+<W id="169" msd="POS" tag="POS" in="-2:nobj" out="-1:possr|1:possd|3:ELABORATION|3:[preds]|14:coref-other">'s</W>
+<W id="170" msd="JJ" tag="JJ" in="-1:possd" out="1:nobj">ten</W>
+<W id="171" msd="NNS" tag="NNS" in="-1:nobj" out="">amendments</W>
+<W id="172" msd="VBD" tag="VBD" in="-3:ELABORATION|-3:[preds]" out="1:loc|2:mod">put</W>
+<W id="173" msd="RB" tag="RB" in="-1:loc" out="">forward</W>
+<W id="174" msd="IN" tag="IN" in="-2:mod" out="1:nobj">at</W>
+<W id="175" msd="JJ" tag="JJ" in="-1:nobj" out="1:nobj">first</W>
+<W id="176" msd="NN" tag="NN" in="-1:nobj" out="">reading</W>
+<W id="177" msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W id="178" msd="IN" tag="IN" in="-21:JOINT" out="-1:coord|8:vobj">that</W>
+<W id="179" msd="DT" tag="DT" in="7:subj" out="1:nobj">the</W>
+<W id="180" msd="NN" tag="NN" in="-1:nobj" out="1:pobj">substance</W>
+<W id="181" msd="IN" tag="IN" in="-1:pobj" out="2:nobj">of</W>
+<W id="182" msd="NNP" tag="NNP" in="1:possr" out="">Parliament</W>
+<W id="183" msd="POS" tag="POS" in="-2:nobj|-14:coref-other" out="-1:possr|1:possd">'s</W>
+<W id="184" msd="JJ" tag="JJ" in="-1:possd" out="1:nobj">other</W>
+<W id="185" msd="NNS" tag="NNS" in="-1:nobj" out="">amendments</W>
+<W id="186" msd="VBZ" tag="VBZ" in="-8:vobj" out="-7:subj|1:vobj">has</W>
+<W id="187" msd="VBN" tag="VBN" in="-1:vobj" out="1:preds">been</W>
+<W id="188" msd="VBN" tag="VBN" in="-1:preds" out="">retained</W>
+<W id="189" msd="." tag="." in="-38:pnct" out="">.</W>
+<W id="190" msd="PRP$" tag="PRP$" in="-128:coref|2:subj" out="1:nobj|45:coref-iden">My</W>
+<W id="191" msd="NNP" tag="NNP" in="-1:nobj" out="">Group</W>
+<W id="192" msd="MD" tag="MD" in="-41:CAUSE" out="-2:subj|1:cons|2:vobj|7:JOINT|45:EXPLANATION">will</W>
+<W id="193" msd="RB" tag="RB" in="-1:cons" out="">therefore</W>
+<W id="194" msd="VB" tag="VB" in="-2:vobj" out="1:dobj">support</W>
+<W id="195" msd="DT" tag="DT" in="-1:dobj|-36:coref-iden" out="2:nobj">the</W>
+<W id="196" msd="JJ" tag="JJ" in="1:attr" out="">common</W>
+<W id="197" msd="NN" tag="NN" in="-2:nobj" out="-1:attr">position</W>
+<W id="198" msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W id="199" msd="VBZ" tag="VBZ" in="-7:JOINT" out="-1:coord|1:mod|30:pnct">looks</W>
+<W id="200" msd="RB" tag="RB" in="-1:mod" out="1:pobj">forward</W>
+<W id="201" msd="TO" tag="TO" in="-1:pobj" out="1:nobj">to</W>
+<W id="202" msd="DT" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W id="203" msd="NN" tag="NN" in="-1:nobj" out="1:pobj">enactment</W>
+<W id="204" msd="IN" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="205" msd="DT" tag="DT" in="-1:nobj" out="1:nobj|2:ref|3:ELABORATION">the</W>
+<W id="206" msd="NN" tag="NN" in="-1:nobj" out="">legislation</W>
+<W id="207" msd="WDT" tag="WDT" in="-2:ref|1:subj" out="">which</W>
+<W id="208" msd="MD" tag="MD" in="-3:ELABORATION" out="-1:subj|1:vobj">will</W>
+<W id="209" msd="VB" tag="VB" in="-1:vobj" out="1:dobj|2:pobj">provide</W>
+<W id="210" msd="PRP" tag="PRP" in="-1:dobj" out="">us</W>
+<W id="211" msd="IN" tag="IN" in="-2:pobj" out="2:nobj">with</W>
+<W id="212" msd="RB" tag="RB" in="1:mod" out="">yet</W>
+<W id="213" msd="DT" tag="DT" in="-2:nobj" out="-1:mod|1:nobj">another</W>
+<W id="214" msd="NN" tag="NN" in="-1:nobj" out="1:attr">tool</W>
+<W id="215" msd="IN" tag="IN" in="-1:attr" out="1:nobj">in</W>
+<W id="216" msd="PRP$" tag="PRP$" in="-1:nobj" out="1:nobj|2:ENABLEMENT">our</W>
+<W id="217" msd="NN" tag="NN" in="-1:nobj" out="">fight</W>
+<W id="218" msd="TO" tag="TO" in="-2:ENABLEMENT" out="1:vobj">to</W>
+<W id="219" msd="VB" tag="VB" in="-1:vobj" out="1:dobj|7:predo">make</W>
+<W id="220" msd="NN" tag="NN" in="-1:dobj" out="1:attr">transport</W>
+<W id="221" msd="IN" tag="IN" in="-1:attr" out="1:nobj">in</W>
+<W id="222" msd="DT" tag="DT" in="-1:nobj" out="2:nobj">the</W>
+<W id="223" msd="NNP" tag="NNP" in="1:attr" out="">European</W>
+<W id="224" msd="NNP" tag="NNP" in="-2:nobj" out="-1:attr">Union</W>
+<W id="225" msd="RB" tag="RB" in="2:correl" out="">as</W>
+<W id="226" msd="JJ" tag="JJ" in="-7:predo" out="2:conj">safe</W>
+<W id="227" msd="IN" tag="IN" in="1:coord" out="-2:correl">as</W>
+<W id="228" msd="JJ" tag="JJ" in="-2:conj" out="-1:coord">possible</W>
+<W id="229" msd="." tag="." in="-30:pnct" out="">.</W>
+<W id="230" msd="WRB" tag="WRB" in="7:BACKGROUND" out="2:vobj">When</W>
+<W id="231" msd="PRP" tag="PRP" in="1:subj" out="">it</W>
+<W id="232" msd="VBZ" tag="VBZ" in="-2:vobj" out="-1:subj|1:pobj">comes</W>
+<W id="233" msd="TO" tag="TO" in="-1:pobj" out="1:nobj">to</W>
+<W id="234" msd="VB" tag="VB" in="-1:nobj" out="">safety</W>
+<W id="235" msd="PRP$" tag="PRP$" in="-45:coref-iden|2:subj" out="1:nobj">my</W>
+<W id="236" msd="NNP" tag="NNP" in="-1:nobj" out="">Group</W>
+<W id="237" msd="MD" tag="MD" in="-45:EXPLANATION" out="-7:BACKGROUND|-2:subj|1:mod|2:vobj|9:pnct|12:JOINT">will</W>
+<W id="238" msd="RB" tag="RB" in="-1:mod" out="">always</W>
+<W id="239" msd="VB" tag="VB" in="-2:vobj" out="1:dobj">support</W>
+<W id="240" msd="DT" tag="DT" in="-1:dobj|3:[subj]" out="1:nobj|2:ENABLEMENT">any</W>
+<W id="241" msd="NNS" tag="NNS" in="-1:nobj" out="">initiatives</W>
+<W id="242" msd="TO" tag="TO" in="-2:ENABLEMENT" out="1:vobj">to</W>
+<W id="243" msd="VB" tag="VB" in="-1:vobj" out="-3:[subj]|2:dobj">improve</W>
+<W id="244" msd="NN" tag="NN" in="1:attr" out="">transport</W>
+<W id="245" msd="NN" tag="NN" in="-2:dobj" out="-1:attr|12:coref-var">safety</W>
+<W id="246" msd="." tag="." in="-9:pnct" out="">.</W>
+<W id="247" msd="PRP" tag="PRP" in="2:subj" out="">We</W>
+<W id="248" msd="RB" tag="RB" in="1:mod" out="">still</W>
+<W id="249" msd="VBP" tag="VBP" in="-12:JOINT" out="-2:subj|-1:mod|1:dobj|7:loc|10:EXPLANATION|15:pnct">have</W>
+<W id="250" msd="DT" tag="DT" in="-1:dobj" out="1:nobj">a</W>
+<W id="251" msd="NN" tag="NN" in="-1:nobj" out="1:pobj">lot</W>
+<W id="252" msd="IN" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W id="253" msd="NN" tag="NN" in="-1:nobj" out="1:attr">work</W>
+<W id="254" msd="TO" tag="TO" in="-1:attr" out="1:nobj">to</W>
+<W id="255" msd="VB" tag="VB" in="-1:nobj" out="">do</W>
+<W id="256" msd="IN" tag="IN" in="-7:loc" out="1:nobj">in</W>
+<W id="257" msd="DT" tag="DT" in="-1:nobj|-12:coref-var" out="1:nobj">this</W>
+<W id="258" msd="NN" tag="NN" in="-1:nobj" out="">area</W>
+<W id="259" msd="IN" tag="IN" in="-10:EXPLANATION" out="3:vobj">as</W>
+<W id="260" msd="JJ" tag="JJ" in="2:subj" out="1:nobj">recent</W>
+<W id="261" msd="NNS" tag="NNS" in="-1:nobj|-179:coref-var" out="">events</W>
+<W id="262" msd="VBP" tag="VBP" in="-3:vobj" out="-2:subj|1:vobj">have</W>
+<W id="263" msd="VBN" tag="VBN" in="-1:vobj" out="">proved</W>
+<W id="264" msd="." tag="." in="-15:pnct" out="">.</W>
 </s>

@@ -28,7 +28,10 @@ $bindir/tagged2tag $tagged | sed -e 's/ msd=/ tag=/g' \
 	| iconv -f latin1 -t utf8 > $tmptag
 
 # Convert tags in .tag file to PAROLE tags
+echo 'dtag -e "load $tmptag" -e "maptags -map $bindir/msd-$lang.map tag msd" -e "save $tmpmapped" -e "exit"'
+
 dtag -e "load $tmptag" -e "maptags -map $bindir/msd-$lang.map tag msd" -e "save $tmpmapped" -e "exit"
+
 
 # Move files to final location
 if [ -f "$tag" ] ; then
