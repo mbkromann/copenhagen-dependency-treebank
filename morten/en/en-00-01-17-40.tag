@@ -72,7 +72,7 @@
 <s>
 <W id="72" msd="NN" tag="NN" in="1:mod" out="">Transport</W>
 <W id="73" msd="NN" tag="NN" in="-48:coref-var|1:subj" out="-1:mod|51:coref-iden">safety</W>
-<W id="74" msd="VBZ" tag="VBZ" in="-49:+ELABORATION" out="-1:subj|1:mod|2:vobj|6:mod|7:pnct|46:ELABORATION">has</W>
+<W id="74" msd="VBZ" tag="VBZ" in="-49:+ELABORATION" out="-1:subj|1:mod|2:vobj|6:mod|7:pnct|46:&3a;ELABORATION">has</W>
 <W id="75" msd="RB" tag="RB" in="-1:mod" out="">sadly</W>
 <W id="76" msd="VBN" tag="VBN" in="-2:vobj" out="1:preds">been</W>
 <W id="77" msd="IN" tag="IN" in="-1:preds" out="1:nobj">in</W>
@@ -111,14 +111,14 @@
 <W id="110" msd="RP" tag="RP" in="-1:mod" out="1:nobj">off</W>
 <W id="111" msd="NNP" tag="NNP" in="-1:nobj" out="">Brittany</W>
 <W id="112" msd="&3a;" tag="&3a;" in="1:pnct" out="">-</W>
-<W id="113" msd="DT" tag="DT" in="-31:appa" out="-1:pnct|6:pnct|1:mod">all</W>
+<W id="113" msd="DT" tag="DT" in="-31:appa" out="-1:pnct|1:mod|6:pnct">all</W>
 <W id="114" msd="IN" tag="IN" in="-1:mod" out="1:nobj">within</W>
-<W id="115" msd="DT" tag="DT" in="-1:nobj" out="2:nobj|1:mod">the</W>
+<W id="115" msd="DT" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
 <W id="116" msd="JJ" tag="JJ" in="-1:mod" out="">last</W>
 <W id="117" msd="CD" tag="CD" in="-2:nobj" out="1:nobj">four</W>
 <W id="118" msd="NNS" tag="NNS" in="-1:nobj" out="">months</W>
 <W id="119" msd="&3a;" tag="&3a;" in="-6:pnct" out="">-</W>
-<W id="120" msd="VB" tag="VB" in="-46:ELABORATION|2:[ATTRIBUTION]" out="-38:subj|1:iobj|2:dobj|26:pnct">remind</W>
+<W id="120" msd="VB" tag="VB" in="2:[ATTRIBUTION]|-46:&3a;ELABORATION" out="-38:subj|1:iobj|2:dobj|26:pnct">remind</W>
 <W id="121" msd="PRP" tag="PRP" in="-1:iobj" out="">us</W>
 <W id="122" msd="IN" tag="IN" in="-2:dobj" out="-2:[ATTRIBUTION]|3:vobj|10:JOINT|29:+JOINT">that</W>
 <W id="123" msd="NN" tag="NN" in="1:mod" out="">transport</W>
@@ -157,7 +157,7 @@
 <W id="156" msd="NNP" tag="NNP" in="-1:nobj" out="">House</W>
 <W id="157" msd="IN" tag="IN" in="-5:dobj" out="-6:[ATTRIBUTION]|7:vobj|21:JOINT">that</W>
 <W id="158" msd="IN" tag="IN" in="6:mod" out="1:nobj">in</W>
-<W id="159" msd="PRP$" tag="PRP$" in="-1:nobj|3:coref" out="2:possd|36:coref-iden|1:mod">its</W>
+<W id="159" msd="PRP$" tag="PRP$" in="-1:nobj|3:coref" out="1:mod|2:possd|36:coref-iden">its</W>
 <W id="160" msd="JJ" tag="JJ" in="-1:mod" out="">common</W>
 <W id="161" msd="NN" tag="NN" in="-2:possd" out="">position</W>
 <W id="162" msd="DT" tag="DT" in="2:subj" out="-3:coref|1:nobj">the</W>
@@ -170,7 +170,7 @@
 <W id="169" msd="POS" tag="POS" in="-2:nobj" out="-1:possr|1:possd|3:ELABORATION|3:[preds]|14:coref-other">'s</W>
 <W id="170" msd="JJ" tag="JJ" in="-1:possd" out="1:nobj">ten</W>
 <W id="171" msd="NNS" tag="NNS" in="-1:nobj" out="">amendments</W>
-<W id="172" msd="VBD" tag="VBD" in="-3:ELABORATION|-3:[preds]" out="2:mod|1:mod">put</W>
+<W id="172" msd="VBD" tag="VBD" in="-3:ELABORATION|-3:[preds]" out="1:mod|2:mod">put</W>
 <W id="173" msd="RB" tag="RB" in="-1:mod" out="">forward</W>
 <W id="174" msd="IN" tag="IN" in="-2:mod" out="1:nobj">at</W>
 <W id="175" msd="JJ" tag="JJ" in="-1:nobj" out="1:nobj">first</W>
@@ -193,7 +193,7 @@
 <W id="192" msd="MD" tag="MD" in="-41:CAUSE" out="-2:subj|1:cons|2:vobj|7:JOINT|45:EXPLANATION">will</W>
 <W id="193" msd="RB" tag="RB" in="-1:cons" out="">therefore</W>
 <W id="194" msd="VB" tag="VB" in="-2:vobj" out="1:dobj">support</W>
-<W id="195" msd="DT" tag="DT" in="-1:dobj|-36:coref-iden" out="2:nobj|1:mod">the</W>
+<W id="195" msd="DT" tag="DT" in="-1:dobj|-36:coref-iden" out="1:mod|2:nobj">the</W>
 <W id="196" msd="JJ" tag="JJ" in="-1:mod" out="">common</W>
 <W id="197" msd="NN" tag="NN" in="-2:nobj" out="">position</W>
 <W id="198" msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -243,11 +243,11 @@
 <W id="242" msd="TO" tag="TO" in="-2:ENABLEMENT" out="1:vobj">to</W>
 <W id="243" msd="VB" tag="VB" in="-1:vobj" out="-3:[subj]|2:dobj">improve</W>
 <W id="244" msd="NN" tag="NN" in="1:mod" out="">transport</W>
-<W id="245" msd="NN" tag="NN" in="-2:dobj" out="12:coref-var|-1:mod">safety</W>
+<W id="245" msd="NN" tag="NN" in="-2:dobj" out="-1:mod|12:coref-var">safety</W>
 <W id="246" msd="." tag="." in="-9:pnct" out="">.</W>
 <W id="247" msd="PRP" tag="PRP" in="2:subj" out="">We</W>
 <W id="248" msd="RB" tag="RB" in="1:mod" out="">still</W>
-<W id="249" msd="VBP" tag="VBP" in="-12:JOINT" out="-2:subj|-1:mod|1:dobj|10:EXPLANATION|15:pnct|7:mod">have</W>
+<W id="249" msd="VBP" tag="VBP" in="-12:JOINT" out="-2:subj|-1:mod|1:dobj|7:mod|10:EXPLANATION|15:pnct">have</W>
 <W id="250" msd="DT" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W id="251" msd="NN" tag="NN" in="-1:nobj" out="1:pobj">lot</W>
 <W id="252" msd="IN" tag="IN" in="-1:pobj" out="1:nobj">of</W>
