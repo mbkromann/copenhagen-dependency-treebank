@@ -15717,3 +15717,48 @@ to get a newer Subversion client, or to downgrade this working copy.
 See http://subversion.tigris.org/faq.html#working-copy-format-change
 for details.
 -------------------------------------------
+Sat Jun 25 23:55:01 CEST 2011
+cd ../es
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+cd /srv/dgs2/mwh/cdtParsing/cdt/automaticAnnotation
+perl findFiles.pl 169 es > 169-es.findFiles.out 2> 169-es.findFiles.err
+perl convertToConll.pl 169 es tag > 169-es.convertToConnl.out 2> 169-es.convertToConnl.err
+perl createSegmenterFileLists.pl 169 es 2> 169-es.createSegmenterFileLists.err > 169-es.createSegmenterFileLists.out
+perl ../automaticSentenceSegmentation/createtoSegmentFiles.pl 169-es.toParseFiles.lst.abs 2> 169-es.createtoSegmentFiles.err > 169-es.createtoSegmentFiles.out
+perl ../automaticSentenceSegmentation/segmentFiles.pl 169-es.toParseFiles.lst.abs it 2> 169-es.segmentFiles.err > 169-es.segmentFiles.out
+perl segmentConllFiles.pl 169 es > 169-es.segmentConllFiles.out 2> 169-es.segmentConllFiles.err
+perl cleanupConll.pl 169 es > 169-es.cleanupConll.out 2> 169-es.cleanupConll.err
+perl createParserFiles.pl 169 es > 169-es.createParserFiles.out 2> 169-es.createParserFiles.err
+perl createParserScripts.pl 169 es > 169-es.createParserScripts.out 2> 169-es.createParserScripts.err
+./R169-es.train.sh
+./R169-es.parse.sh
+./R169-es.parse-trainingdata.sh
+perl createStats.pl 169-es.train.conll 169-es.training.out.conll > 169-es.stats
+perl prune.pl 169-es.stats 169-es.out.conll 0.8 > 169-es.out.conll.pruned
+readline() on closed filehandle CONLL at prune.pl line 26.
+perl splitParsedFiles.pl 169 es > 169-es.splitParsedFiles.out 2> 169-es.splitParsedFiles.err
+perl mergeAll.pl 169 es > 169-es.mergeAll.out 2> 169-es.mergeAll.err
+perl mergeAllTag.pl 169 es > 169-es.mergeAllTag.out 2> 169-es.mergeAllTag.err
+perl updateAllTag.pl 169 es > 169-es.updateAllTag.out 2> 169-es.updateAllTag.err
+perl copyTagFiles.pl 169 es > 169-es.copyTagFiles.out 2> 169-es.copyTagFiles.err
+cd ../es
+svn update
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn add *auto*.tag
+svn: This client is too old to work with working copy '.'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+svn commit -m 'Automatic annotations, 169-es'
+svn: This client is too old to work with working copy '/srv/dgs2/mwh/cdtParsing/cdt/es'.  You need
+to get a newer Subversion client, or to downgrade this working copy.
+See http://subversion.tigris.org/faq.html#working-copy-format-change
+for details.
+-------------------------------------------
