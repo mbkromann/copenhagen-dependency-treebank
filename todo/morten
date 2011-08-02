@@ -1,12 +1,11 @@
 # Indsæt "*" når annotationen er afsluttet
 
-[ ] morten/en/en-00-01-17-40.tag 
-
-
 load ../morten/en/..
+load ../morten/da/..
+load ../morten/it/..
 
 ./en:
-en-00-01-17-40.tag	ok
+load ../morten/en/en-00-01-17-40.tag	ok
 en-00-02-02-32.tag
 en-00-05-03-120.tag
 en-00-09-04-46.tag
@@ -58,19 +57,19 @@ en-99-09-13-59.tag
 en-99-11-03-27.tag
 
 ./it:
-it-00-02-02-27.tag
-it-00-04-12-41.tag
-it-00-06-14-176.tag
-it-00-09-04-38.tag
-it-00-10-02-102.tag
-it-00-11-13-31.tag
-it-00-12-13-20.tag
-it-01-01-15-80.tag
-it-01-02-12-64.tag
-it-01-04-02-42.tag
-it-01-09-04-150.tag
-it-01-10-01-26.tag
-it-01-12-11-105.tag
+load ../morten/it/it-00-02-02-27.tag  ok
+load ../morten/it/it-00-04-12-41.tag  ok
+load ../morten/it/it-00-06-14-176.tag ok
+load ../morten/it/it-00-09-04-38.tag  ok
+load ../morten/it/it-00-10-02-102.tag ok
+load ../morten/it/it-00-11-13-31.tag  ok
+load ../morten/it/it-00-12-13-20.tag  ok
+load ../morten/it/it-01-01-15-80.tag
+load ../morten/it/it-01-02-12-64.tag
+load ../morten/it/it-01-04-02-42.tag
+load ../morten/it/it-01-09-04-150.tag
+load ../morten/it/it-01-10-01-26.tag
+load ../morten/it/it-01-12-11-105.tag
 it-02-03-14-124.tag
 it-02-04-11-39.tag
 it-02-04-11-43.tag
@@ -109,22 +108,22 @@ it-99-10-05-135.tag
 it-99-11-03-59.tag
 it-99-12-14-40.tag
 
-da-00-01-18-255.tag ok  da-02-11-21-34.tag   da-97-07-15-277.tag
-da-00-02-02-76.tag   da-02-12-18-195.tag  da-97-10-22-259.tag
-da-00-02-14-70.tag   da-03-01-13-129.tag  da-97-11-19-161.tag
-da-00-02-15-141.tag  da-03-02-11-38.tag   da-98-01-13-232.tag
-da-00-03-13-27.tag   da-03-04-08-158.tag  da-98-02-16-20.tag
-da-00-04-11-271.tag  da-03-05-13-28.tag   da-98-05-02-64.tag
-da-00-05-16-52.tag   da-03-06-02-67.tag   da-98-06-16-34.tag
-da-01-05-17-43.tag   da-03-09-03-262.tag  da-98-09-15-97.tag
-da-01-07-05-33.tag   da-96-04-15-56.tag   da-98-11-16-45.tag
-da-01-09-05-351.tag  da-96-06-19-226.tag  da-99-01-13-44.tag
-da-01-10-24-27.tag   da-96-07-04-52.tag   da-99-03-10-31.tag
-da-01-11-13-318.tag  da-96-09-18-157.tag  da-99-04-13-31.tag
-da-01-12-11-98.tag   da-96-10-23-28.tag   da-99-05-06-42.tag
-da-02-09-04-160.tag  da-96-12-11-268.tag  da-99-09-14-25.tag
-da-02-09-26-25.tag   da-97-01-15-207.tag  da-99-10-05-160.tag
-da-02-10-23-238.tag  da-97-03-11-126.tag  da-99-11-18-143.tag
-da-02-11-07-11.tag   da-97-06-09-51.tag
+load ../morten/da/da-00-01-18-255.tag ok  da-02-11-21-34.tag   da-97-07-15-277.tag
+load ../morten/da/da-00-02-02-76.tag  ok  da-02-12-18-195.tag  da-97-10-22-259.tag
+load ../morten/da/da-00-02-14-70.tag  ok  da-03-01-13-129.tag  da-97-11-19-161.tag
+load ../morten/da/da-00-02-15-141.tag ok  da-03-02-11-38.tag   da-98-01-13-232.tag
+load ../morten/da/da-00-03-13-27.tag  ok  da-03-04-08-158.tag  da-98-02-16-20.tag
+load ../morten/da/da-00-04-11-271.tag ok  da-03-05-13-28.tag   da-98-05-02-64.tag
+load ../morten/da/da-00-05-16-52.tag  ok  da-03-06-02-67.tag   da-98-06-16-34.tag
+load ../morten/da/da-01-05-17-43.tag  ok  da-03-09-03-262.tag  da-98-09-15-97.tag
+load ../morten/da/da-01-07-05-33.tag   da-96-04-15-56.tag   da-98-11-16-45.tag
+load ../morten/da/da-01-09-05-351.tag  da-96-06-19-226.tag  da-99-01-13-44.tag
+load ../morten/da/da-01-10-24-27.tag   da-96-07-04-52.tag   da-99-03-10-31.tag
+load ../morten/da/da-01-11-13-318.tag  da-96-09-18-157.tag  da-99-04-13-31.tag
+load ../morten/da/da-01-12-11-98.tag   da-96-10-23-28.tag   da-99-05-06-42.tag
+load ../morten/da/da-02-09-04-160.tag  da-96-12-11-268.tag  da-99-09-14-25.tag
+load ../morten/da/da-02-09-26-25.tag   da-97-01-15-207.tag  da-99-10-05-160.tag
+load ../morten/da/da-02-10-23-238.tag  da-97-03-11-126.tag  da-99-11-18-143.tag
+load ../morten/da/da-02-11-07-11.tag   da-97-06-09-51.tag
 
 

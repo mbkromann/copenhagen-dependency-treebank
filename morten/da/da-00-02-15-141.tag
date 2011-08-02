@@ -1,224 +1,224 @@
 <s>
-<W msd="NP" tag="NP">Hr.</W>
-<W msd="NC" tag="NC">formand</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="PD" tag="PD">dette</W>
-<W msd="NC" tag="NC">direktivs</W>
-<W msd="NC" tag="NC">formål</W>
-<W msd="VA" tag="VA">bør</W>
-<W msd="VA" tag="VA">være</W>
-<W msd="U=" tag="U=">at</W>
-<W msd="VA" tag="VA">sikre</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="NC" tag="NC">medlemslandene</W>
-<W msd="VA" tag="VA">foretager</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="VA" tag="VA">samlet</W>
-<W msd="NC" tag="NC">beskyttelse</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="XX" tag="XX">grund-</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="XX" tag="XX">drikke-</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="NC" tag="NC">overfladevand</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="NC" tag="NC">beskyttelsesniveauet</W>
-<W msd="VA" tag="VA">svarer</W>
-<W msd="SP" tag="SP">til</W>
-<W msd="AN" tag="AN">eksisterende</W>
-<W msd="NC" tag="NC">EU-miljølovgivning</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="VA" tag="VA">Må</W>
-<W msd="PP" tag="PP">jeg</W>
-<W msd="RG" tag="RG">her</W>
-<W msd="NC" tag="NC">minde</W>
-<W msd="SP" tag="SP">om</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="AN" tag="AN">tidligere</W>
-<W msd="NC" tag="NC">beslutninger</W>
-<W msd="SP" tag="SP">om</W>
-<W msd="NC" tag="NC">nitratdirektivet</W>
-<W msd="RG" tag="RG">endnu</W>
-<W msd="RG" tag="RG">ikke</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="VA" tag="VA">implementeret</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="AN" tag="AN">samtlige</W>
-<W msd="NC" tag="NC">medlemslande</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="SP" tag="SP">på</W>
-<W msd="NC" tag="NC">trods</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="AN" tag="AN">fælles</W>
-<W msd="NC" tag="NC">EU-beslutning</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="PD" tag="PD">Dette</W>
-<W msd="NC" tag="NC">forslag</W>
-<W msd="VA" tag="VA">indeholder</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="NC" tag="NC">række</W>
-<W msd="NC" tag="NC">opstramninger</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="NC" tag="NC">beskyttelsen</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="NC" tag="NC">vandmiljøet</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="U=" tag="U=">der</W>
-<W msd="VA" tag="VA">overstiger</W>
-<W msd="PO" tag="PO">vores</W>
-<W msd="AN" tag="AN">nuværende</W>
-<W msd="NC" tag="NC">miljømål</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="PP" tag="PP">Det</W>
-<W msd="VA" tag="VA">foreslås</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="PI" tag="PI">man</W>
-<W msd="VA" tag="VA">skal</W>
-<W msd="VA" tag="VA">nå</W>
-<W msd="PI" tag="PI">et</W>
-<W msd="NC" tag="NC">endemål</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="NC" tag="NC">koncentrationer</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">havmiljøet</W>
-<W msd="SP" tag="SP">nær</W>
-<W msd="NC" tag="NC">baggrundsværdierne</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="AN" tag="AN">naturligt</W>
-<W msd="VA" tag="VA">forekommende</W>
-<W msd="NC" tag="NC">stoffer</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="SP" tag="SP">nær</W>
-<W msd="AC" tag="AC">0</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="AN" tag="AN">menneskeskabte</W>
-<W msd="AN" tag="AN">syntetiske</W>
-<W msd="NC" tag="NC">stoffer</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="PP" tag="PP">Det</W>
-<W msd="VA" tag="VA">kan</W>
-<W msd="RG" tag="RG">ikke</W>
-<W msd="VA" tag="VA">lade</W>
-<W msd="PP" tag="PP">sig</W>
-<W msd="VA" tag="VA">gøre</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="RG" tag="RG">endda</W>
-<W msd="RG" tag="RG">også</W>
-<W msd="AN" tag="AN">naturstridigt</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="NC" tag="NC">Vedtagelsen</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="PD" tag="PD">denne</W>
-<W msd="NC" tag="NC">betænkning</W>
-<W msd="VA" tag="VA">vil</W>
-<W msd="VA" tag="VA">få</W>
-<W msd="AN" tag="AN">alvorlige</W>
-<W msd="NC" tag="NC">konsekvenser</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="NC" tag="NC">landbrugserhvervet</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NP" tag="NP">EU</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="AN" tag="AN">såfremt</W>
-<W msd="NC" tag="NC">koncentrationen</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="RG" tag="RG">f.eks.</W>
-<W msd="NC" tag="NC">fosfor</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="NC" tag="NC">kvælstof</W>
-<W msd="RG" tag="RG">ikke</W>
-<W msd="VA" tag="VA">må</W>
-<W msd="VA" tag="VA">overskride</W>
-<W msd="NC" tag="NC">baggrundsværdierne</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="PD" tag="PD">disse</W>
-<W msd="NC" tag="NC">stoffer</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">vandmiljøet</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="AN" tag="AN">såfremt</W>
-<W msd="PI" tag="PI">man</W>
-<W msd="VA" tag="VA">vil</W>
-<W msd="VA" tag="VA">fastsætte</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="NC" tag="NC">grænseværdi</W>
-<W msd="SP" tag="SP">på</W>
-<W msd="AC" tag="AC">0</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="NC" tag="NC">pesticider</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">vandmiljøet</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="NC" tag="NC">Landbruget</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NP" tag="NP">Europa</W>
-<W msd="VA" tag="VA">vil</W>
-<W msd="RG" tag="RG">f.eks.</W>
-<W msd="RG" tag="RG">ikke</W>
-<W msd="VA" tag="VA">kunne</W>
-<W msd="VA" tag="VA">avle</W>
-<W msd="NC" tag="NC">brødkorn</W>
-<W msd="SP" tag="SP">med</W>
-<W msd="PI" tag="PI">et</W>
-<W msd="AN" tag="AN">højt</W>
-<W msd="NC" tag="NC">proteinindhold</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="RG" tag="RG">således</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="NC" tag="NC">kornet</W>
-<W msd="VA" tag="VA">kan</W>
-<W msd="VA" tag="VA">bruges</W>
-<W msd="SP" tag="SP">til</W>
-<W msd="NC" tag="NC">brød</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="NC" tag="NC">Resultatet</W>
-<W msd="VA" tag="VA">vil</W>
-<W msd="VA" tag="VA">være</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="NC" tag="NC">landbrugsproduktionen</W>
-<W msd="VA" tag="VA">flytter</W>
-<W msd="SP" tag="SP">til</W>
-<W msd="PI" tag="PI">andre</W>
-<W msd="NC" tag="NC">lande</W>
-<W msd="RG" tag="RG">uden</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="NP" tag="NP">EU</W>
-<W msd="SP" tag="SP">med</W>
-<W msd="AN" tag="AN">store</W>
-<W msd="XX" tag="XX">beskæftigelses-</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="AN" tag="AN">samfundsøkonomiske</W>
-<W msd="NC" tag="NC">omkostninger</W>
-<W msd="SP" tag="SP">til</W>
-<W msd="NC" tag="NC">følge</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="PP" tag="PP">Jeg</W>
-<W msd="VA" tag="VA">kan</W>
-<W msd="RG" tag="RG">ikke</W>
-<W msd="VA" tag="VA">stemme</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="PD" tag="PD">de</W>
-<W msd="NC" tag="NC">afsnit</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">vandrammedirektivet</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="U=" tag="U=">der</W>
-<W msd="VA" tag="VA">omhandler</W>
-<W msd="PD" tag="PD">disse</W>
-<W msd="NC" tag="NC">forhold</W>
-<W msd="XP" tag="XP">.</W>
+<W id="1" msd="NP" tag="NP" in="1:title" out="">Hr.</W>
+<W id="2" msd="NC" tag="NC" in="5:voc" out="-1:title|1:pnct">formand</W>
+<W id="3" msd="XP" tag="XP" in="-1:pnct" out="">,</W>
+<W id="4" msd="PD" tag="PD" in="3:subj" out="1:nobj|39:coref-var">dette</W>
+<W id="5" msd="NC" tag="NC" in="-1:nobj" out="1:possd">direktivs</W>
+<W id="6" msd="NC" tag="NC" in="-1:possd" out="">formål</W>
+<W id="7" msd="VA" tag="VA" in="" out="-5:voc|-3:subj|1:vobj|25:pnct">bør</W>
+<W id="8" msd="VA" tag="VA" in="-1:vobj" out="1:preds">være</W>
+<W id="9" msd="U=" tag="U=" in="-1:preds" out="1:vobj">at</W>
+<W id="10" msd="VA" tag="VA" in="-1:vobj" out="1:pnct|2:dobj">sikre</W>
+<W id="11" msd="XP" tag="XP" in="-1:pnct" out="">,</W>
+<W id="12" msd="CS" tag="CS" in="-2:dobj" out="2:vobj|12:pnct|13:JOINT">at</W>
+<W id="13" msd="NC" tag="NC" in="1:subj" out="">medlemslandene</W>
+<W id="14" msd="VA" tag="VA" in="-2:vobj" out="-1:subj|1:dobj">foretager</W>
+<W id="15" msd="PI" tag="PI" in="-1:dobj" out="1:mod|2:nobj|12:assoc">en</W>
+<W id="16" msd="VA" tag="VA" in="-1:mod" out="">samlet</W>
+<W id="17" msd="NC" tag="NC" in="-2:nobj" out="1:pobj">beskyttelse</W>
+<W id="18" msd="SP" tag="SP" in="-1:pobj" out="1:conj">af</W>
+<W id="19" msd="XX" tag="XX" in="-1:conj" out="2:conj|1:pnct">grund-</W>
+<W id="20" msd="XP" tag="XP" in="-1:pnct" out="">,</W>
+<W id="21" msd="XX" tag="XX" in="-2:conj" out="1:coord">drikke-</W>
+<W id="22" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
+<W id="23" msd="NC" tag="NC" in="-1:conj" out="">overfladevand</W>
+<W id="24" msd="XP" tag="XP" in="-12:pnct" out="">,</W>
+<W id="25" msd="CC" tag="CC" in="-13:JOINT" out="1:conj">og</W>
+<W id="26" msd="CS" tag="CS" in="-1:conj" out="2:vobj">at</W>
+<W id="27" msd="NC" tag="NC" in="1:subj|-12:assoc" out="">beskyttelsesniveauet</W>
+<W id="28" msd="VA" tag="VA" in="-2:vobj" out="-1:subj|1:pobj">svarer</W>
+<W id="29" msd="SP" tag="SP" in="-1:pobj" out="2:nobj">til</W>
+<W id="30" msd="AN" tag="AN" in="1:mod" out="">eksisterende</W>
+<W id="31" msd="NC" tag="NC" in="-2:nobj" out="-1:mod">EU-miljølovgivning</W>
+<W id="32" msd="XP" tag="XP" in="-25:pnct" out="">.</W>
+<W id="33" msd="VA" tag="VA" in="" out="1:subj|2:mod|3:vobj|28:pnct">Må</W>
+<W id="34" msd="PP" tag="PP" in="-1:subj" out="">jeg</W>
+<W id="35" msd="RG" tag="RG" in="-2:mod" out="">her</W>
+<W id="36" msd="NC" tag="NC" in="-3:vobj" out="1:pobj">minde</W>
+<W id="37" msd="SP" tag="SP" in="-1:pobj" out="1:nobj|2:ATTRIBUTION">om</W>
+<W id="38" msd="XP" tag="XP" in="-1:nobj" out="">,</W>
+<W id="39" msd="CS" tag="CS" in="-2:ATTRIBUTION" out="7:vobj">at</W>
+<W id="40" msd="AN" tag="AN" in="1:mod" out="">tidligere</W>
+<W id="41" msd="NC" tag="NC" in="5:subj" out="-1:mod|1:mod">beslutninger</W>
+<W id="42" msd="SP" tag="SP" in="-1:mod" out="1:nobj">om</W>
+<W id="43" msd="NC" tag="NC" in="-1:nobj|-39:coref-var" out="13:coref">nitratdirektivet</W>
+<W id="44" msd="RG" tag="RG" in="1:mod" out="">endnu</W>
+<W id="45" msd="RG" tag="RG" in="1:neg" out="-1:mod">ikke</W>
+<W id="46" msd="VA" tag="VA" in="-7:vobj" out="-5:subj|-1:neg|1:preds|5:pnct|6:CONTRAST">er</W>
+<W id="47" msd="VA" tag="VA" in="-1:preds" out="1:mod">implementeret</W>
+<W id="48" msd="SP" tag="SP" in="-1:mod" out="1:nobj">i</W>
+<W id="49" msd="AN" tag="AN" in="-1:nobj" out="1:nobj">samtlige</W>
+<W id="50" msd="NC" tag="NC" in="-1:nobj" out="">medlemslande</W>
+<W id="51" msd="XP" tag="XP" in="-5:pnct" out="">,</W>
+<W id="52" msd="SP" tag="SP" in="-6:CONTRAST" out="1:nobj">på</W>
+<W id="53" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">trods</W>
+<W id="54" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">af</W>
+<W id="55" msd="CS" tag="CS" in="-1:nobj" out="2:vobj">at</W>
+<W id="56" msd="PP" tag="PP" in="1:subj|-13:coref" out="">det</W>
+<W id="57" msd="VA" tag="VA" in="-2:vobj" out="-1:subj|1:preds">er</W>
+<W id="58" msd="PI" tag="PI" in="-1:preds" out="1:mod|2:nobj">en</W>
+<W id="59" msd="AN" tag="AN" in="-1:mod" out="">fælles</W>
+<W id="60" msd="NC" tag="NC" in="-2:nobj" out="">EU-beslutning</W>
+<W id="61" msd="XP" tag="XP" in="-28:pnct" out="">.</W>
+<W id="62" msd="PD" tag="PD" in="2:subj" out="1:nobj">Dette</W>
+<W id="63" msd="NC" tag="NC" in="-1:nobj" out="">forslag</W>
+<W id="64" msd="VA" tag="VA" in="" out="-2:subj|1:dobj|14:pnct">indeholder</W>
+<W id="65" msd="PI" tag="PI" in="-1:dobj" out="1:nobj|7:pnct|8:ref|9:ELABORATION">en</W>
+<W id="66" msd="NC" tag="NC" in="-1:nobj" out="1:nobj">række</W>
+<W id="67" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">opstramninger</W>
+<W id="68" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">af</W>
+<W id="69" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">beskyttelsen</W>
+<W id="70" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">af</W>
+<W id="71" msd="NC" tag="NC" in="-1:nobj" out="">vandmiljøet</W>
+<W id="72" msd="XP" tag="XP" in="-7:pnct" out="">,</W>
+<W id="73" msd="U=" tag="U=" in="-8:ref|1:subj" out="">der</W>
+<W id="74" msd="VA" tag="VA" in="-9:ELABORATION" out="-1:subj|1:dobj">overstiger</W>
+<W id="75" msd="PO" tag="PO" in="-1:dobj" out="1:mod|2:possd">vores</W>
+<W id="76" msd="AN" tag="AN" in="-1:mod" out="">nuværende</W>
+<W id="77" msd="NC" tag="NC" in="-2:possd" out="">miljømål</W>
+<W id="78" msd="XP" tag="XP" in="-14:pnct" out="">.</W>
+<W id="79" msd="PP" tag="PP" in="1:subj" out="">Det</W>
+<W id="80" msd="VA" tag="VA" in="" out="-1:subj|1:pnct|2:dobj|25:pnct">foreslås</W>
+<W id="81" msd="XP" tag="XP" in="-1:pnct" out="">,</W>
+<W id="82" msd="CS" tag="CS" in="-2:dobj" out="2:vobj">at</W>
+<W id="83" msd="PI" tag="PI" in="1:subj" out="">man</W>
+<W id="84" msd="VA" tag="VA" in="-2:vobj" out="-1:subj|1:vobj">skal</W>
+<W id="85" msd="VA" tag="VA" in="-1:vobj" out="1:dobj|21:coref-res">nå</W>
+<W id="86" msd="PI" tag="PI" in="-1:dobj" out="1:nobj|6:mod">et</W>
+<W id="87" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">endemål</W>
+<W id="88" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">for</W>
+<W id="89" msd="NC" tag="NC" in="-1:nobj" out="1:mod">koncentrationer</W>
+<W id="90" msd="SP" tag="SP" in="-1:mod" out="1:nobj">i</W>
+<W id="91" msd="NC" tag="NC" in="-1:nobj" out="">havmiljøet</W>
+<W id="92" msd="SP" tag="SP" in="-6:mod" out="1:nobj|6:coord">nær</W>
+<W id="93" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">baggrundsværdierne</W>
+<W id="94" msd="SP" tag="SP" in="-1:pobj" out="3:nobj">for</W>
+<W id="95" msd="AN" tag="AN" in="1:mod" out="">naturligt</W>
+<W id="96" msd="VA" tag="VA" in="1:mod" out="-1:mod">forekommende</W>
+<W id="97" msd="NC" tag="NC" in="-3:nobj" out="-1:mod">stoffer</W>
+<W id="98" msd="CC" tag="CC" in="-6:coord" out="1:conj">og</W>
+<W id="99" msd="SP" tag="SP" in="-1:conj" out="1:nobj">nær</W>
+<W id="100" msd="AC" tag="AC" in="-1:nobj" out="1:pobj">0</W>
+<W id="101" msd="SP" tag="SP" in="-1:pobj" out="3:nobj">for</W>
+<W id="102" msd="AN" tag="AN" in="2:mod" out="">menneskeskabte</W>
+<W id="103" msd="AN" tag="AN" in="1:mod" out="">syntetiske</W>
+<W id="104" msd="NC" tag="NC" in="-3:nobj" out="-2:mod|-1:mod">stoffer</W>
+<W id="105" msd="XP" tag="XP" in="-25:pnct" out="">.</W>
+<W id="106" msd="PP" tag="PP" in="-21:coref-res|1:subj" out="8:coref">Det</W>
+<W id="107" msd="VA" tag="VA" in="" out="-1:subj|1:neg|2:vobj|5:pnct|6:JOINT">kan</W>
+<W id="108" msd="RG" tag="RG" in="-1:neg" out="">ikke</W>
+<W id="109" msd="VA" tag="VA" in="-2:vobj" out="1:dobj|2:vobj">lade</W>
+<W id="110" msd="PP" tag="PP" in="-1:dobj" out="">sig</W>
+<W id="111" msd="VA" tag="VA" in="-2:vobj" out="">gøre</W>
+<W id="112" msd="XP" tag="XP" in="-5:pnct" out="">,</W>
+<W id="113" msd="CC" tag="CC" in="-6:JOINT" out="2:conj">og</W>
+<W id="114" msd="PP" tag="PP" in="-8:coref|1:subj" out="">det</W>
+<W id="115" msd="VA" tag="VA" in="-2:conj" out="-1:subj|3:preds|4:pnct|2:add|1:mod">er</W>
+<W id="116" msd="RG" tag="RG" in="-1:mod" out="">endda</W>
+<W id="117" msd="RG" tag="RG" in="-2:add" out="">også</W>
+<W id="118" msd="AN" tag="AN" in="-3:preds" out="">naturstridigt</W>
+<W id="119" msd="XP" tag="XP" in="-4:pnct" out="">.</W>
+<W id="120" msd="NC" tag="NC" in="4:subj" out="1:pobj">Vedtagelsen</W>
+<W id="121" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">af</W>
+<W id="122" msd="PD" tag="PD" in="-1:nobj" out="1:nobj">denne</W>
+<W id="123" msd="NC" tag="NC" in="-1:nobj" out="">betænkning</W>
+<W id="124" msd="VA" tag="VA" in="" out="-4:subj|1:vobj|8:pnct|9:CONDITION|39:pnct">vil</W>
+<W id="125" msd="VA" tag="VA" in="-1:vobj" out="2:dobj">få</W>
+<W id="126" msd="AN" tag="AN" in="1:mod" out="">alvorlige</W>
+<W id="127" msd="NC" tag="NC" in="-2:dobj" out="-1:mod|1:pobj">konsekvenser</W>
+<W id="128" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">for</W>
+<W id="129" msd="NC" tag="NC" in="-1:nobj" out="1:mod">landbrugserhvervet</W>
+<W id="130" msd="SP" tag="SP" in="-1:mod" out="1:nobj">i</W>
+<W id="131" msd="NP" tag="NP" in="-1:nobj" out="">EU</W>
+<W id="132" msd="XP" tag="XP" in="-8:pnct" out="">,</W>
+<W id="133" msd="AN" tag="AN" in="-9:CONDITION" out="17:JOINT|8:vobj">såfremt</W>
+<W id="134" msd="NC" tag="NC" in="7:subj" out="1:pobj">koncentrationen</W>
+<W id="135" msd="SP" tag="SP" in="-1:pobj" out="2:nobj">af</W>
+<W id="136" msd="RG" tag="RG" in="1:mod" out="">f.eks.</W>
+<W id="137" msd="NC" tag="NC" in="-2:nobj" out="-1:mod|1:coord|8:coref-var">fosfor</W>
+<W id="138" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
+<W id="139" msd="NC" tag="NC" in="-1:conj" out="">kvælstof</W>
+<W id="140" msd="RG" tag="RG" in="1:neg" out="">ikke</W>
+<W id="141" msd="VA" tag="VA" in="-8:vobj" out="-7:subj|-1:neg|1:vobj|8:pnct">må</W>
+<W id="142" msd="VA" tag="VA" in="-1:vobj" out="1:dobj">overskride</W>
+<W id="143" msd="NC" tag="NC" in="-1:dobj" out="1:pobj">baggrundsværdierne</W>
+<W id="144" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">for</W>
+<W id="145" msd="PD" tag="PD" in="-1:nobj|-8:coref-var" out="1:nobj|2:mod">disse</W>
+<W id="146" msd="NC" tag="NC" in="-1:nobj" out="">stoffer</W>
+<W id="147" msd="SP" tag="SP" in="-2:mod" out="1:nobj">i</W>
+<W id="148" msd="NC" tag="NC" in="-1:nobj" out="">vandmiljøet</W>
+<W id="149" msd="XP" tag="XP" in="-8:pnct" out="">,</W>
+<W id="150" msd="CC" tag="CC" in="-17:JOINT" out="1:conj">og</W>
+<W id="151" msd="AN" tag="AN" in="-1:conj" out="2:vobj">såfremt</W>
+<W id="152" msd="PI" tag="PI" in="1:subj" out="">man</W>
+<W id="153" msd="VA" tag="VA" in="-2:vobj" out="-1:subj|1:vobj">vil</W>
+<W id="154" msd="VA" tag="VA" in="-1:vobj" out="1:dobj">fastsætte</W>
+<W id="155" msd="PI" tag="PI" in="-1:dobj" out="1:nobj|2:mod">en</W>
+<W id="156" msd="NC" tag="NC" in="-1:nobj" out="3:pobj">grænseværdi</W>
+<W id="157" msd="SP" tag="SP" in="-2:mod" out="1:nobj">på</W>
+<W id="158" msd="AC" tag="AC" in="-1:nobj" out="">0</W>
+<W id="159" msd="SP" tag="SP" in="-3:pobj" out="1:nobj">for</W>
+<W id="160" msd="NC" tag="NC" in="-1:nobj" out="1:mod">pesticider</W>
+<W id="161" msd="SP" tag="SP" in="-1:mod" out="1:nobj">i</W>
+<W id="162" msd="NC" tag="NC" in="-1:nobj" out="">vandmiljøet</W>
+<W id="163" msd="XP" tag="XP" in="-39:pnct" out="">.</W>
+<W id="164" msd="NC" tag="NC" in="3:subj" out="1:mod">Landbruget</W>
+<W id="165" msd="SP" tag="SP" in="-1:mod" out="1:nobj">i</W>
+<W id="166" msd="NP" tag="NP" in="-1:nobj" out="">Europa</W>
+<W id="167" msd="VA" tag="VA" in="" out="-3:subj|1:mod|2:neg|3:vobj|10:pnct|11:CAUSE|18:pnct|19:assoc">vil</W>
+<W id="168" msd="RG" tag="RG" in="-1:mod" out="">f.eks.</W>
+<W id="169" msd="RG" tag="RG" in="-2:neg" out="">ikke</W>
+<W id="170" msd="VA" tag="VA" in="-3:vobj" out="1:vobj">kunne</W>
+<W id="171" msd="VA" tag="VA" in="-1:vobj" out="1:dobj">avle</W>
+<W id="172" msd="NC" tag="NC" in="-1:dobj" out="1:mod|8:coref-var">brødkorn</W>
+<W id="173" msd="SP" tag="SP" in="-1:mod" out="1:nobj">med</W>
+<W id="174" msd="PI" tag="PI" in="-1:nobj" out="1:mod|2:nobj">et</W>
+<W id="175" msd="AN" tag="AN" in="-1:mod" out="">højt</W>
+<W id="176" msd="NC" tag="NC" in="-2:nobj" out="">proteinindhold</W>
+<W id="177" msd="XP" tag="XP" in="-10:pnct" out="">,</W>
+<W id="178" msd="RG" tag="RG" in="-11:CAUSE" out="1:nobj">således</W>
+<W id="179" msd="CS" tag="CS" in="-1:nobj" out="2:vobj">at</W>
+<W id="180" msd="NC" tag="NC" in="1:subj|-8:coref-var" out="">kornet</W>
+<W id="181" msd="VA" tag="VA" in="-2:vobj" out="-1:subj|1:vobj">kan</W>
+<W id="182" msd="VA" tag="VA" in="-1:vobj" out="1:pobj">bruges</W>
+<W id="183" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">til</W>
+<W id="184" msd="NC" tag="NC" in="-1:nobj" out="">brød</W>
+<W id="185" msd="XP" tag="XP" in="-18:pnct" out="">.</W>
+<W id="186" msd="NC" tag="NC" in="1:subj|-19:assoc" out="">Resultatet</W>
+<W id="187" msd="VA" tag="VA" in="" out="-1:subj|1:vobj|20:pnct">vil</W>
+<W id="188" msd="VA" tag="VA" in="-1:vobj" out="1:pnct|2:preds">være</W>
+<W id="189" msd="XP" tag="XP" in="-1:pnct" out="">,</W>
+<W id="190" msd="CS" tag="CS" in="-2:preds" out="2:vobj">at</W>
+<W id="191" msd="NC" tag="NC" in="1:subj" out="">landbrugsproduktionen</W>
+<W id="192" msd="VA" tag="VA" in="-2:vobj" out="-1:subj|1:lobj|7:mod">flytter</W>
+<W id="193" msd="SP" tag="SP" in="-1:lobj" out="1:nobj">til</W>
+<W id="194" msd="PI" tag="PI" in="-1:nobj" out="1:nobj|2:mod">andre</W>
+<W id="195" msd="NC" tag="NC" in="-1:nobj" out="">lande</W>
+<W id="196" msd="RG" tag="RG" in="-2:mod" out="1:avobj">uden</W>
+<W id="197" msd="SP" tag="SP" in="-1:avobj" out="1:nobj">for</W>
+<W id="198" msd="NP" tag="NP" in="-1:nobj" out="">EU</W>
+<W id="199" msd="SP" tag="SP" in="-7:mod" out="5:nobj">med</W>
+<W id="200" msd="AN" tag="AN" in="1:mod" out="">store</W>
+<W id="201" msd="XX" tag="XX" in="3:mod" out="1:coord|-1:mod">beskæftigelses-</W>
+<W id="202" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
+<W id="203" msd="AN" tag="AN" in="-1:conj" out="">samfundsøkonomiske</W>
+<W id="204" msd="NC" tag="NC" in="-5:nobj" out="-3:mod|1:mod">omkostninger</W>
+<W id="205" msd="SP" tag="SP" in="-1:mod" out="1:nobj">til</W>
+<W id="206" msd="NC" tag="NC" in="-1:nobj" out="">følge</W>
+<W id="207" msd="XP" tag="XP" in="-20:pnct" out="">.</W>
+<W id="208" msd="PP" tag="PP" in="1:subj" out="">Jeg</W>
+<W id="209" msd="VA" tag="VA" in="" out="-1:subj|1:neg|2:vobj|13:pnct">kan</W>
+<W id="210" msd="RG" tag="RG" in="-1:neg" out="">ikke</W>
+<W id="211" msd="VA" tag="VA" in="-2:vobj" out="1:pobj">stemme</W>
+<W id="212" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">for</W>
+<W id="213" msd="PD" tag="PD" in="-1:nobj" out="1:nobj|2:mod|4:pnct|5:ref|6:ELABORATION">de</W>
+<W id="214" msd="NC" tag="NC" in="-1:nobj" out="">afsnit</W>
+<W id="215" msd="SP" tag="SP" in="-2:mod" out="1:nobj">i</W>
+<W id="216" msd="NC" tag="NC" in="-1:nobj" out="">vandrammedirektivet</W>
+<W id="217" msd="XP" tag="XP" in="-4:pnct" out="">,</W>
+<W id="218" msd="U=" tag="U=" in="-5:ref|1:subj" out="">der</W>
+<W id="219" msd="VA" tag="VA" in="-6:ELABORATION" out="-1:subj|1:dobj">omhandler</W>
+<W id="220" msd="PD" tag="PD" in="-1:dobj" out="1:nobj">disse</W>
+<W id="221" msd="NC" tag="NC" in="-1:nobj" out="">forhold</W>
+<W id="222" msd="XP" tag="XP" in="-13:pnct" out="">.</W>
 </s>
