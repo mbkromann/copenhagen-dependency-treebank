@@ -127,10 +127,10 @@ load ../morten/da/da-00-04-11-271.tag ok
 load ../morten/da/da-03-05-13-28.tag  ok 
 da-98-05-02-64.tag
 load ../morten/da/da-00-05-16-52.tag  ok  
-load ../morten/da/da-03-06-02-67.tag   
+load ../morten/da/da-03-06-02-67.tag  ok 
 da-98-06-16-34.tag
 load ../morten/da/da-01-05-17-43.tag  ok  
-load ../morten/da/da-03-09-03-262.tag  
+load ../morten/da/da-03-09-03-262.tag ok 
 da-98-09-15-97.tag
 load ../morten/da/da-01-07-05-33.tag  ok  
 da-96-04-15-56.tag   
@@ -147,7 +147,7 @@ da-99-04-13-31.tag
 load ../morten/da/da-01-12-11-98.tag  ok  
 da-96-10-23-28.tag   
 da-99-05-06-42.tag
-load ../morten/da/da-02-09-04-160.tag  
+load ../morten/da/da-02-09-04-160.tag ok 
 da-96-12-11-268.tag  
 da-99-09-14-25.tag
 load ../morten/da/da-02-09-26-25.tag   
