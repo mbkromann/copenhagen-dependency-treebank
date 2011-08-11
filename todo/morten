@@ -70,8 +70,8 @@ load ../morten/it/it-01-04-02-42.tag  ok
 load ../morten/it/it-01-09-04-150.tag ok
 load ../morten/it/it-01-10-01-26.tag  ok
 load ../morten/it/it-01-12-11-105.tag ok
-load ../morten/it/it-02-03-14-124.tag
-load ../morten/it/it-02-04-11-39.tag
+load ../morten/it/it-02-03-14-124.tag ok
+load ../morten/it/it-02-04-11-39.tag  ok
 load ../morten/it/it-02-04-11-43.tag
 load ../morten/it/it-02-05-14-71.tag
 load ../morten/it/it-02-10-21-49.tag
@@ -150,13 +150,13 @@ da-99-05-06-42.tag
 load ../morten/da/da-02-09-04-160.tag ok 
 da-96-12-11-268.tag  
 da-99-09-14-25.tag
-load ../morten/da/da-02-09-26-25.tag   
+load ../morten/da/da-02-09-26-25.tag  ok
 da-97-01-15-207.tag  
 da-99-10-05-160.tag
-load ../morten/da/da-02-10-23-238.tag  
+load ../morten/da/da-02-10-23-238.tag ok
 da-97-03-11-126.tag  
 da-99-11-18-143.tag
-load ../morten/da/da-02-11-07-11.tag   
+load ../morten/da/da-02-11-07-11.tag  ok
 da-97-06-09-51.tag
 
 
