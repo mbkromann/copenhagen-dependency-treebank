@@ -72,8 +72,8 @@ load ../morten/it/it-01-10-01-26.tag  ok
 load ../morten/it/it-01-12-11-105.tag ok
 load ../morten/it/it-02-03-14-124.tag ok
 load ../morten/it/it-02-04-11-39.tag  ok
-load ../morten/it/it-02-04-11-43.tag
-load ../morten/it/it-02-05-14-71.tag
+load ../morten/it/it-02-04-11-43.tag  ok
+load ../morten/it/it-02-05-14-71.tag  ok
 load ../morten/it/it-02-10-21-49.tag
 load ../morten/it/it-02-12-05-14.tag
 load ../morten/it/it-03-01-13-73.tag
