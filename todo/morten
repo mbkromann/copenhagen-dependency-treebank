@@ -74,9 +74,9 @@ load ../morten/it/it-02-03-14-124.tag ok
 load ../morten/it/it-02-04-11-39.tag  ok
 load ../morten/it/it-02-04-11-43.tag  ok
 load ../morten/it/it-02-05-14-71.tag  ok
-load ../morten/it/it-02-10-21-49.tag
-load ../morten/it/it-02-12-05-14.tag
-load ../morten/it/it-03-01-13-73.tag
+load ../morten/it/it-02-10-21-49.tag ok
+load ../morten/it/it-02-12-05-14.tag ok
+load ../morten/it/it-03-01-13-73.tag ok
 load ../morten/it/it-03-02-11-273.tag
 load ../morten/it/it-03-03-11-149.tag
 load ../morten/it/it-03-04-09-235.tag
