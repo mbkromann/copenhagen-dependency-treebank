@@ -77,11 +77,11 @@ load ../morten/it/it-02-05-14-71.tag  ok
 load ../morten/it/it-02-10-21-49.tag ok
 load ../morten/it/it-02-12-05-14.tag ok
 load ../morten/it/it-03-01-13-73.tag ok
-load ../morten/it/it-03-02-11-273.tag
-load ../morten/it/it-03-03-11-149.tag
-load ../morten/it/it-03-04-09-235.tag
-load ../morten/it/it-03-05-13-150.tag
-load ../morten/it/it-03-07-01-51.tag
+load ../morten/it/it-03-02-11-273.tag ok
+load ../morten/it/it-03-03-11-149.tag ok
+load ../morten/it/it-03-04-09-235.tag ok
+load ../morten/it/it-03-05-13-150.tag ok
+load ../morten/it/it-03-07-01-51.tag ok
 it-96-04-15-59.tag
 it-96-05-08-115.tag
 it-96-06-05-85.tag
