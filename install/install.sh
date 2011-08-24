@@ -12,11 +12,11 @@ installdir=$cdtdir/install
 # Prompt for Google user name and password
 if [ ! -f $svnuser ] ; then
 	echo "Enter your user name and password. Please be very careful when typing!"
-	echo -n "Google code username (email): "
+	echo -n "Google code username (email OR blank if unknown): "
 	read guser
 	echo $guser > $svnuser
 
-	echo -n "Google code password: "
+	echo -n "Google code password (blank if username is blank): "
 	read gpasswd
 	echo $gpasswd > $svnpasswd
 
@@ -35,7 +35,11 @@ password=`cat $svnpasswd`
 # Checkout CDT repositorym -r $home/cdt
 if [ ! -d cdt-all ] ; then
 	rm -rf cdt
-	svn checkout https://copenhagen-dependency-treebank.googlecode.com/svn cdt-all --username $username --password $password
+	if [ -z "$username" ] ; then
+		svn checkout http://copenhagen-dependency-treebank.googlecode.com/svn cdt-all
+	else 
+		svn checkout https://copenhagen-dependency-treebank.googlecode.com/svn cdt-all --username $username --password $password
+	fi		
 	ln -s $home/cdt-all/trunk $home/cdt
 	ln -s $home/cdt-all/wiki $home/cdt/wiki
 else
