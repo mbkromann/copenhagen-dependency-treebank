@@ -14,7 +14,7 @@ macro savepng title -off ;; print /tmp/x.ps ;; !$CDTHOME/tools/dtag-savepng /tmp
 macro lpr title -auto ;; print /tmp/x.ps ;; !$CDTHOME/tools/dtag-lpr /tmp/x.ps
 
 # Turning node numbers on/off
-macro numbers layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps|_position
+macro numbers layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps|_position|ids
 macro nonumbers layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps ;; layout -graph -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps ;; noids
 
 # Turning node ids on/off
