@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Check arguments
+text=$1
+base=`echo $text | sed -e 's/.txt//g'`
+if [ -z "$text" ] ; then
+	print "Usage: any2tag $text"
+	exit 1
+fi
+
+# Find CDTHOME
+if [ -z "$CDTHOME" ] ; then
+	CDTHOME=~/cdt
+fi
+
+# Sentence detection and tokenization 
+tok="$base.tok~"
+cat $text | $CDTHOME/tools/bomstrip | $CDTHOME/tools/txt2tok $text | sed -e 's/^\s*$/<new-paragraph>/' > $tok
+
+# Create tagged file
+tag="$base-tokens.tag"
+cat  $tok | sed -e 's/^<new-paragraph>$//g' | $CDTHOME/tools/pos2tag > $tag
+echo "File $text tokenized and converted to tag-file $tag"
