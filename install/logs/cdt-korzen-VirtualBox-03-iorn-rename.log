@@ -1,0 +1,9 @@
+cat: /home/cdt/.cdtname: No such file or directory
+cat: /home/cdt/.cdtname: No such file or directory
+03-iorn-rename.sh: line 13: cd: /home/cdt/cdt-all/trunk: No such file or directory
+find: `/home/cdt/cdt-all/trunk/': No such file or directory
+svn mv /home/cdt/cdt-all/trunk/todo/iørn /home/cdt/cdt-all/trunk/todo/iorn
+03-iorn-rename.sh: line 20: /home/cdt/.cdtname: Permission denied
+cat: /home/cdt/cdt-all/trunk/todo/iorn: No such file or directory
+mv: cannot move `/tmp/iorn' to `/home/cdt/cdt-all/trunk/todo/iorn': No such file or directory
+PLEASE restart DTAG now

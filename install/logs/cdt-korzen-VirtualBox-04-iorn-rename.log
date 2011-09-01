@@ -1,0 +1,10 @@
+cat: /home/cdt/.cdtname: No such file or directory
+cat: /home/cdt/.cdtname: No such file or directory
+Updating Iørn's computer
+04-iorn-rename.sh: line 16: cd: /home/cdt/cdt-all/trunk: No such file or directory
+ls: cannot access /home/cdt/cdt-all/trunk/todo/i*rn: No such file or directory
+find: `/home/cdt/cdt-all/trunk/': No such file or directory
+04-iorn-rename.sh: line 24: /home/cdt/.cdtname: Permission denied
+cat: /home/cdt/cdt-all/trunk/todo/i?rn: No such file or directory
+mv: cannot move `/tmp/iorn' to `/home/cdt/cdt-all/trunk/todo/iorn': No such file or directory
+PLEASE restart DTAG now

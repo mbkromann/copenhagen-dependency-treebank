@@ -1,0 +1,21 @@
+--2011-02-08 11:45:25--  http://ftp.dk.debian.org/debian/pool/main/libp/libparse-recdescent-perl/libparse-recdescent-perl_1.965001+dfsg-1_all.deb
+Resolving ftp.dk.debian.org... 130.225.254.116, 2001:878:346::116
+Connecting to ftp.dk.debian.org|130.225.254.116|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 157046 (153K) [application/x-debian-package]
+Saving to: `libparse-recdescent-perl_1.965001+dfsg-1_all.deb'
+
+     0K .......... .......... .......... .......... .......... 32%  995K 0s
+    50K .......... .......... .......... .......... .......... 65% 2.01M 0s
+   100K .......... .......... .......... .......... .......... 97% 1.86M 0s
+   150K ...                                                   100%  405K=0.1s
+
+2011-02-08 11:45:25 (1.37 MB/s) - `libparse-recdescent-perl_1.965001+dfsg-1_all.deb' saved [157046/157046]
+
+Update libparse-recdescent-perl to newest version
+Please enter your password below
+(Reading database ... 176154 files and directories currently installed.)
+Preparing to replace libparse-recdescent-perl 1.965001+dfsg-1 (using libparse-recdescent-perl_1.965001+dfsg-1_all.deb) ...
+Unpacking replacement libparse-recdescent-perl ...
+Setting up libparse-recdescent-perl (1.965001+dfsg-1) ...
+Processing triggers for man-db ...
