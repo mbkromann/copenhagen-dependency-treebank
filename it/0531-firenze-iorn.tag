@@ -3,7 +3,11 @@
 <W lemma="fare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-2:[subj]|1:dobj">fatto</W>
 <W lemma="ricorso" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj">ricorso</W>
 <W lemma="contro" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">contro</W>
+<<<<<<< .mine
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|27:CONJ&3a;elab">la</W>
+=======
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|27:+CONJ&3a;elab">la</W>
+>>>>>>> .r1149
 <W lemma="sentenza" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">sentenza</W>
 <W lemma="emettere" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:pobj">emessa</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">dal</W>
@@ -30,7 +34,11 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj|4:[subj]|5:[subj]" out="1:nobj|2:appr">Il</W>
 <W lemma="presidente" msd="NC" tag="NOM" in="-1:nobj" out="">presidente</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appr" out="">Leer</W>
+<<<<<<< .mine
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-27:CONJ&3a;elab" out="-3:subj|1:vobj|10:pnct|14:CONJ&3a;add/(e)">è</W>
+=======
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-27:+CONJ&3a;elab" out="-3:subj|1:vobj|10:pnct|14:CONJ&3a;add/(e)">è</W>
+>>>>>>> .r1149
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:vobj">stato</W>
 <W lemma="condannare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-5:[subj]|1:pobj">condannato</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
