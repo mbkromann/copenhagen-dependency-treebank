@@ -13,15 +13,20 @@
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="strada" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">strada</W>
 <W lemma="laterale" msd="AN" tag="ADJ" in="-1:attr" out="">laterale</W>
-<W lemma="notare" msd="VADR" tag="VER&3a;pres" in="-15:JOINT" out="-4:loc|1:dobj|6:pnct|8:&3a;CONS">notiamo</W>
+<W lemma="notare" msd="VADR" tag="VER&3a;pres" in="-15:JOINT" out="-4:loc|1:dobj|6:pnct|8:TELIC&3a;cons.sbj">notiamo</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj|-10:assoc-const" out="1:nobj|16:²assoc">un</W>
 <W lemma="neon" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:ref|3:relr">neon</W>
 <W lemma="verde" msd="AN" tag="ADJ" in="-1:attr" out="">verde</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:ref|1:subj" out="">che</W>
 <W lemma="&lt;unknown&gt;" msd="VADR" tag="VER&3a;pres" in="-3:relr" out="-1:subj">lampeggia</W>
 <W lemma=";" msd="XP" tag="PON" in="-6:pnct" out="">;</W>
+<<<<<<< .mine
+<W lemma="qui" msd="RG" tag="ADV" in="1:loc" out="14:FORMAL&3a;qual">qui</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;futu" in="1:[subj]|-8:TELIC&3a;cons.sbj" out="-1:loc|1:vobj|4:pnct|6:conj">potremo</W>
+=======
 <W lemma="qui" msd="RG" tag="ADV" in="1:loc" out="14:FORMAL&3a;descr">qui</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;futu" in="-8:&3a;CONS|1:[subj]" out="-1:loc|1:vobj|4:pnct|6:conj">potremo</W>
+>>>>>>> .r1149
 <W lemma="avere&7c;riavere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-1:[subj]|1:pobj">avere</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">da</W>
 <W lemma="mangiare" msd="VAF" tag="VER&3a;infi" in="-1:nobj" out="">mangiare</W>
@@ -34,14 +39,18 @@
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="bar" msd="NC" tag="NOM" in="-1:nobj" out="">bar</W>
+<<<<<<< .mine
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:FORMAL&3a;qual" out="-2:subj|1:preds|10:pnct|18:CONJ&3a;elab|27:TELIC&3a;cons.sbj">è</W>
+=======
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:FORMAL&3a;descr" out="-2:subj|1:preds|10:pnct|18:;CONJ&3a;elab|27:TELIC&3a;cons.sbj">è</W>
+>>>>>>> .r1149
 <W lemma="buio" msd="AN" tag="ADJ" in="-1:preds" out="2:conj|4:conj">buio</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="lungo" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">lungo</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="pieno" msd="AN" tag="ADJ" in="-4:conj" out="-1:coord|1:pobj.dobj|1:{patient}">pieno</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
-<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="14:coref-var|1:pobj|1:{arg}#">uomini</W>
+<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#|14:coref-var">uomini</W>
 <W lemma="d'" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">d'</W>
 <W lemma="affare" msd="NC" tag="NOM" in="-1:nobj" out="">affari</W>
 <W lemma=";" msd="XP" tag="PON" in="-10:pnct" out="">;</W>
@@ -52,7 +61,11 @@
 <W lemma="in" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">in</W>
 <W lemma="abito" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">abiti</W>
 <W lemma="aderente" msd="AN" tag="ADJ" in="-1:attr" out="">aderenti</W>
+<<<<<<< .mine
+<W lemma="circolare" msd="VADR" tag="VER&3a;pres" in="-18:CONJ&3a;elab" out="-7:subj|1:dir|8:pnct">circolano</W>
+=======
 <W lemma="circolare" msd="VADR" tag="VER&3a;pres" in="-18:;CONJ&3a;elab" out="-7:subj|1:dir|8:pnct">circolano</W>
+>>>>>>> .r1149
 <W lemma="tra" msd="SP" tag="PRE" in="-1:dir" out="1:nobj">tra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">gli</W>
 <W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj|-14:coref-var" out="1:attr">uomini</W>
