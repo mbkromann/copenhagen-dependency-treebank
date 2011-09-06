@@ -4,7 +4,7 @@
 <W id="3" msd="PON" tag="PON" in="" out="">,</W>
 <W id="4" msd="VER&3a;cond" tag="VER&3a;cond" in="" out="">vorrei</W>
 <W id="5" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">tornare</W>
-<W id="6" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="8:coref|31:coref-var">sulle</W>
+<W id="6" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="8:coref|31:coref-iden.sb">sulle</W>
 <W id="7" msd="NOM" tag="NOM" in="" out="">dichiarazioni</W>
 <W id="8" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dell'</W>
 <W id="9" msd="ADJ" tag="ADJ" in="" out="">onorevole</W>
@@ -35,7 +35,7 @@
 <W id="34" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="35" msd="NOM" tag="NOM" in="" out="">governo</W>
 <W id="36" msd="PRE" tag="PRE" in="" out="">a</W>
-<W id="37" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-31:coref-var" out="30:coref-var">tali</W>
+<W id="37" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-31:coref-iden.sb" out="30:coref-iden.sb">tali</W>
 <W id="38" msd="NOM" tag="NOM" in="" out="">dichiarazioni</W>
 <W id="39" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="40" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">Devo</W>
@@ -65,14 +65,14 @@
 <W id="64" msd="NOM" tag="NOM" in="" out="">disagio</W>
 <W id="65" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="66" msd="NOM" tag="NOM" in="" out="">fronte</W>
-<W id="67" msd="PRE&3a;det" tag="PRE&3a;det" in="-30:coref-var" out="7:coref-var">alle</W>
+<W id="67" msd="PRE&3a;det" tag="PRE&3a;det" in="-30:coref-iden.sb" out="7:coref-iden.sb">alle</W>
 <W id="68" msd="NOM" tag="NOM" in="" out="">dichiarazioni</W>
 <W id="69" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="23:coref-iden">del</W>
 <W id="70" msd="NOM" tag="NOM" in="" out="">Presidente</W>
 <W id="71" msd="NPR" tag="NPR" in="" out="">Berlusconi</W>
 <W id="72" msd="PON" tag="PON" in="" out="">,</W>
 <W id="73" msd="NOM" tag="NOM" in="" out="">perché</W>
-<W id="74" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-7:coref-var" out="24:coref">queste</W>
+<W id="74" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-7:coref-iden.sb" out="24:coref">queste</W>
 <W id="75" msd="NOM" tag="NOM" in="" out="">dichiarazioni</W>
 <W id="76" msd="ADV" tag="ADV" in="" out="">non</W>
 <W id="77" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">costituiscono</W>

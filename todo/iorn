@@ -1,5 +1,6 @@
 # Indsæt "*" når annotationen er afsluttet
 
+
 [*] da-it/0306-da-it-iorn.atag
 [*] it/0306-it-iorn.tag
 [*] da-it/1252-da-it-iorn.atag
@@ -72,9 +73,11 @@
 
  
 # Added discourse tasks on Mon May  4 10:01:07 CEST 2009
-[ ] it/0235-it-disc-iorn.tag
-[ ] it/0593-it-disc-iorn.tag
-[ ] it/0596-it-disc-iorn.tag
+[*] it/0848-it-disc-iorn.tag
+[*] it/0531-it-disc-iorn.tag
+[*] it/0235-it-disc-iorn.tag
+[*] it/0593-it-disc-iorn.tag
+[*] it/0596-it-disc-iorn.tag
 [ ] it/0620-it-disc-iorn.tag
 [ ] it/0647-it-disc-iorn.tag
 [ ] it/0781-it-disc-iorn.tag
@@ -91,7 +94,7 @@
 
 
 
-[ ] it/0531-it-disc-iorn.tag
+
 [ ] it/0602-it-disc-iorn.tag
 [ ] it/0848-it-disc-iorn.tag
 [ ] it/0915-it-disc-iorn.tag

@@ -1,0 +1,34 @@
+v   ttf-linux-libertine             -                                           
+Installing ttf-linux-libertine
+Please enter your password below
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Note, selecting linux-libertine instead of ttf-linux-libertine
+The following packages were automatically installed and are no longer required:
+  xserver-xorg-video-amd linux-headers-2.6.24-17-generic
+  linux-headers-2.6.24-17
+Use 'apt-get autoremove' to remove them.
+The following NEW packages will be installed:
+  linux-libertine
+0 upgraded, 1 newly installed, 0 to remove and 26 not upgraded.
+Need to get 1201kB of archives.
+After this operation, 3027kB of additional disk space will be used.
+Get:1 http://dk.archive.ubuntu.com hardy/universe linux-libertine 2.7-1 [1201kB]
+Fetched 1201kB in 2s (586kB/s)
+Selecting previously deselected package linux-libertine.
+(Reading database ... 159135 files and directories currently installed.)
+Unpacking linux-libertine (from .../linux-libertine_2.7-1_all.deb) ...
+Setting up linux-libertine (2.7-1) ...
+Regenerating fonts cache... done.
+Updating fontconfig cache for /usr/share/fonts/truetype/linux-libertine
+No CIDSupplement specified for KochiMincho-Regular, defaulting to 0.
+No CIDSupplement specified for Dotum-Regular, defaulting to 0.
+No CIDSupplement specified for Batang-Regular, defaulting to 0.
+No CIDSupplement specified for Dotum-Bold, defaulting to 0.
+No CIDSupplement specified for UMingCN, defaulting to 0.
+No CIDSupplement specified for KochiGothic-Regular-JaH, defaulting to 0.
+No CIDSupplement specified for KochiMincho-Regular-JaH, defaulting to 0.
+No CIDSupplement specified for KochiGothic-Regular, defaulting to 0.
+No CIDSupplement specified for Batang-Bold, defaulting to 0.
+
