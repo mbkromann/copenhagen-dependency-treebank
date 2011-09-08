@@ -11,7 +11,7 @@
 <W id="10" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">associo</W>
 <W id="11" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">al</W>
 <W id="12" msd="NOM" tag="NOM" in="" out="">ringraziamento</W>
-<W id="13" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="0:assoc-frame|12:coref">al</W>
+<W id="13" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="12:coref|0:assoc-frame">al</W>
 <W id="14" msd="NOM" tag="NOM" in="" out="">collega</W>
 <W id="15" msd="NPR" tag="NPR" in="" out="">Trentin</W>
 <W id="16" msd="PRE" tag="PRE" in="" out="">per</W>
@@ -410,7 +410,7 @@
 <W id="409" msd="ADV" tag="ADV" in="" out="">bene</W>
 <W id="410" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">ha</W>
 <W id="411" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">fatto</W>
-<W id="412" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame|6:coref">il</W>
+<W id="412" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="6:coref|0:assoc-frame">il</W>
 <W id="413" msd="NOM" tag="NOM" in="" out="">collega</W>
 <W id="414" msd="NPR" tag="NPR" in="" out="">Trentin</W>
 <W id="415" msd="PRE" tag="PRE" in="" out="">a</W>
@@ -418,7 +418,7 @@
 <W id="417" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nella</W>
 <W id="418" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-6:coref" out="">sua</W>
 <W id="419" msd="NOM" tag="NOM" in="" out="">raccomandazione</W>
-<W id="420" msd="DET&3a;def" tag="DET&3a;def" in="" out="">i</W>
+<W id="420" msd="DET&3a;def" tag="DET&3a;def" in="" out="21:coref-var">i</W>
 <W id="421" msd="NOM" tag="NOM" in="" out="4:ref">valori</W>
 <W id="422" msd="ADJ" tag="ADJ" in="" out="">antichi</W>
 <W id="423" msd="CON" tag="CON" in="" out="">e</W>
@@ -439,7 +439,7 @@
 <W id="438" msd="NOM" tag="NOM" in="" out="">commissione</W>
 <W id="439" msd="ADJ" tag="ADJ" in="" out="">economica</W>
 <W id="440" msd="PRE" tag="PRE" in="" out="">in</W>
-<W id="441" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">questa</W>
+<W id="441" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-21:coref-var" out="">questa</W>
 <W id="442" msd="NOM" tag="NOM" in="" out="">direzione</W>
 <W id="443" msd="PON" tag="PON" in="" out="">,</W>
 <W id="444" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
@@ -450,16 +450,16 @@
 <W id="449" msd="ADJ" tag="ADJ" in="" out="">effettiva</W>
 <W id="450" msd="NOM" tag="NOM" in="" out="">creazione</W>
 <W id="451" msd="PRE" tag="PRE" in="" out="">di</W>
-<W id="452" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">uno</W>
+<W id="452" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="5:assoc-const|9:assoc-const">uno</W>
 <W id="453" msd="NOM" tag="NOM" in="" out="">Stato</W>
 <W id="454" msd="ADJ" tag="ADJ" in="" out="">europeo</W>
 <W id="455" msd="PON" tag="PON" in="" out="">,</W>
 <W id="456" msd="ADJ" tag="ADJ" in="" out="">forte</W>
-<W id="457" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nell'</W>
+<W id="457" msd="PRE&3a;det" tag="PRE&3a;det" in="-5:assoc-const" out="">nell'</W>
 <W id="458" msd="NOM" tag="NOM" in="" out="">economia</W>
 <W id="459" msd="CON" tag="CON" in="" out="">e</W>
 <W id="460" msd="ADJ" tag="ADJ" in="" out="">solidale</W>
-<W id="461" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nei</W>
+<W id="461" msd="PRE&3a;det" tag="PRE&3a;det" in="-9:assoc-const" out="">nei</W>
 <W id="462" msd="NOM" tag="NOM" in="" out="">contenuti</W>
 <W id="463" msd="SENT" tag="SENT" in="" out="">.</W>
 </s>
