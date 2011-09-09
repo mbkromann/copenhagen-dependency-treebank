@@ -347,7 +347,7 @@
 <W id="346" msd="ADJ" tag="ADJ" in="" out="">sufficiente</W>
 <W id="347" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="348" msd="PRO&3a;refl" tag="PRO&3a;refl" in="" out="">Se</W>
-<W id="349" msd="VER&3a;pres" tag="VER&3a;pres" in="-21:coref" out="">vogliamo</W>
+<W id="349" msd="VER&3a;pres" tag="VER&3a;pres" in="-21:coref" out="21:coref">vogliamo</W>
 <W id="350" msd="ADV" tag="ADV" in="" out="">veramente</W>
 <W id="351" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="26:²coref">un'</W>
 <W id="352" msd="NOM" tag="NOM" in="" out="">Unione</W>
@@ -368,7 +368,7 @@
 <W id="367" msd="PRE" tag="PRE" in="" out="">verso</W>
 <W id="368" msd="DET&3a;def" tag="DET&3a;def" in="-13:ref" out="">la</W>
 <W id="369" msd="PRO&3a;inter" tag="PRO&3a;inter" in="" out="">quale</W>
-<W id="370" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">noi</W>
+<W id="370" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-21:coref" out="21:coref">noi</W>
 <W id="371" msd="PRO&3a;indef" tag="PRO&3a;indef" in="" out="">tutti</W>
 <W id="372" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">tendiamo</W>
 <W id="373" msd="PON" tag="PON" in="" out="">-</W>
@@ -389,7 +389,7 @@
 <W id="388" msd="PRE" tag="PRE" in="" out="">a</W>
 <W id="389" msd="NOM" tag="NOM" in="" out="">compimento</W>
 <W id="390" msd="DET&3a;def" tag="DET&3a;def" in="" out="">i</W>
-<W id="391" msd="PRO&3a;poss" tag="PRO&3a;poss" in="" out="">nostri</W>
+<W id="391" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-21:coref" out="">nostri</W>
 <W id="392" msd="NOM" tag="NOM" in="" out="">obiettivi</W>
 <W id="393" msd="SENT" tag="SENT" in="" out="">.</W>
 </s>
