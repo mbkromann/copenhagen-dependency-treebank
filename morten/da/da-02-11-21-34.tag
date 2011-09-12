@@ -9,19 +9,19 @@
 <W id="8" msd="NC" tag="NC" in="1:title" out="">kommissær</W>
 <W id="9" msd="NP" tag="NP" in="-7:conj" out="-2:mod|-1:title">Monti</W>
 <W id="10" msd="XP" tag="XP" in="-8:pnct" out="">,</W>
-<W id="11" msd="CS" tag="CS" in="12:mod" out="1:nobj">om</W>
-<W id="12" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">betænkningen</W>
-<W id="13" msd="VA" tag="VA" in="-1:pobj" out="1:nobj">vedrørende</W>
+<W id="11" msd="CS" tag="CS" in="12:pobj" out="1:nobj">om</W>
+<W id="12" msd="NC" tag="NC" in="-1:nobj" out="1:mod|46:coref-var">betænkningen</W>
+<W id="13" msd="VA" tag="VA" in="-1:mod" out="1:nobj">vedrørende</W>
 <W id="14" msd="NC" tag="NC" in="-1:nobj" out="58:coref-iden">resultattavlen</W>
 <W id="15" msd="VA" tag="VA" in="" out="-13:voc|1:subj|8:vobj">vil</W>
-<W id="16" msd="PP" tag="PP" in="-1:subj" out="">jeg</W>
+<W id="16" msd="PP" tag="PP" in="-1:subj" out="47:coref">jeg</W>
 <W id="17" msd="SP" tag="SP" in="6:mod" out="1:nobj">på</W>
 <W id="18" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">vegne</W>
 <W id="19" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">af</W>
 <W id="20" msd="PD" tag="PD" in="-1:nobj" out="1:mod|2:nobj|5:coref">den</W>
 <W id="21" msd="AN" tag="AN" in="-1:mod" out="">liberale</W>
 <W id="22" msd="NC" tag="NC" in="-2:nobj" out="">gruppe</W>
-<W id="23" msd="VA" tag="VA" in="-8:vobj" out="-12:mod|-6:mod|1:pnct|3:&3a;ATTRIBUTION">sige</W>
+<W id="23" msd="VA" tag="VA" in="-8:vobj" out="-6:mod|1:pnct|3:&3a;ATTRIBUTION|-12:pobj">sige</W>
 <W id="24" msd="XP" tag="XP" in="-1:pnct" out="">:</W>
 <W id="25" msd="PP" tag="PP" in="-5:coref|1:subj" out="30:coref">Vi</W>
 <W id="26" msd="VA" tag="VA" in="-3:&3a;ATTRIBUTION" out="-1:subj|1:neg|2:preds|9:JOINT">er</W>
@@ -56,13 +56,13 @@
 <W id="55" msd="PP" tag="PP" in="-30:coref|1:subj" out="">vi</W>
 <W id="56" msd="NC" tag="NC" in="-2:vobj" out="-1:subj|1:pobj">stemme</W>
 <W id="57" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">for</W>
-<W id="58" msd="NC" tag="NC" in="-1:nobj" out="">betænkningen</W>
+<W id="58" msd="NC" tag="NC" in="-1:nobj|-46:coref-var" out="">betænkningen</W>
 <W id="59" msd="XP" tag="XP" in="-5:pnct" out="">.</W>
 <W id="60" msd="SP" tag="SP" in="2:add" out="1:aobj">I</W>
 <W id="61" msd="AN" tag="AN" in="-1:aobj" out="">øvrigt</W>
 <W id="62" msd="VA" tag="VA" in="" out="-2:add|1:subj|3:pobj|28:pnct">takker</W>
-<W id="63" msd="PP" tag="PP" in="-1:subj" out="1:dobj">jeg</W>
-<W id="64" msd="NC" tag="NC" in="-1:dobj" out="">Kommissionen</W>
+<W id="63" msd="PP" tag="PP" in="-1:subj|-47:coref" out="1:dobj|38:coref">jeg</W>
+<W id="64" msd="NC" tag="NC" in="-1:dobj" out="31:coref-iden">Kommissionen</W>
 <W id="65" msd="SP" tag="SP" in="-3:pobj" out="1:nobj">for</W>
 <W id="66" msd="PD" tag="PD" in="-1:nobj" out="1:nobj|2:pnct|3:ref|4:ELABORATION">det</W>
 <W id="67" msd="NC" tag="NC" in="-1:nobj" out="">arbejde</W>
@@ -93,13 +93,13 @@
 <s>
 <W id="93" msd="NC" tag="NC" in="7:dobj" out="1:pobj">Betænkningen</W>
 <W id="94" msd="SP" tag="SP" in="-1:pobj" out="1:nobj">om</W>
-<W id="95" msd="NC" tag="NC" in="-1:nobj" out="1:possd">Kommissionens</W>
+<W id="95" msd="NC" tag="NC" in="-1:nobj|-31:coref-iden" out="1:possd">Kommissionens</W>
 <W id="96" msd="AO" tag="AO" in="-1:possd" out="1:nobj">31.</W>
 <W id="97" msd="NC" tag="NC" in="-1:nobj" out="1:mod">rapport</W>
 <W id="98" msd="SP" tag="SP" in="-1:mod" out="1:nobj">om</W>
 <W id="99" msd="NC" tag="NC" in="-1:nobj" out="">konkurrencepolitik</W>
 <W id="100" msd="VA" tag="VA" in="" out="-7:dobj|1:subj|2:aobj|3:pnct|5:ELABORATION">hilser</W>
-<W id="101" msd="PP" tag="PP" in="-1:subj" out="3:coref">jeg</W>
+<W id="101" msd="PP" tag="PP" in="-1:subj|-38:coref" out="3:coref">jeg</W>
 <W id="102" msd="AN" tag="AN" in="-2:aobj" out="">velkommen</W>
 <W id="103" msd="XP" tag="XP" in="-3:pnct" out="">.</W>
 <W id="104" msd="PP" tag="PP" in="-3:coref|1:subj" out="11:coref">Jeg</W>
@@ -262,7 +262,7 @@
 </s>
 <s>
 <W id="263" msd="PP" tag="PP" in="-15:coref|1:subj" out="">Jeg</W>
-<W id="264" msd="VA" tag="VA" in="" out="1:add|2:mod|3:vobj|17:pnct|-1:subj">vil</W>
+<W id="264" msd="VA" tag="VA" in="" out="-1:subj|1:add|2:mod|3:vobj|17:pnct">vil</W>
 <W id="265" msd="RG" tag="RG" in="-1:add" out="">også</W>
 <W id="266" msd="RG" tag="RG" in="-2:mod" out="">gerne</W>
 <W id="267" msd="VA" tag="VA" in="-3:vobj" out="1:dobj|6:JOINT">have</W>
@@ -284,7 +284,7 @@
 <W id="283" msd="AN" tag="AN" in="-1:nobj" out="1:nobj">hele</W>
 <W id="284" msd="NC" tag="NC" in="-1:nobj" out="">reformprocessen</W>
 <W id="285" msd="VA" tag="VA" in="" out="-3:mod|1:subj|4:vobj|13:pnct">har</W>
-<W id="286" msd="PD" tag="PD" in="-1:subj" out="13:coref|1:mod|2:nobj">den</W>
+<W id="286" msd="PD" tag="PD" in="-1:subj" out="1:mod|2:nobj|13:coref">den</W>
 <W id="287" msd="AN" tag="AN" in="-1:mod" out="">liberale</W>
 <W id="288" msd="NC" tag="NC" in="-2:nobj" out="">gruppe</W>
 <W id="289" msd="VA" tag="VA" in="-4:vobj" out="1:dobj|2:pobj">støttet</W>
@@ -319,9 +319,9 @@
 <W id="318" msd="PP" tag="PP" in="-1:iobj" out="">os</W>
 <W id="319" msd="XP" tag="XP" in="-2:pnct" out="">,</W>
 <W id="320" msd="CS" tag="CS" in="-3:ATTRIBUTION" out="3:vobj">at</W>
-<W id="321" msd="PP" tag="PP" in="2:subj|-13:coref-res" out="">det</W>
+<W id="321" msd="PP" tag="PP" in="-13:coref-res|2:subj" out="">det</W>
 <W id="322" msd="RG" tag="RG" in="1:neg" out="">ikke</W>
-<W id="323" msd="VA" tag="VA" in="-3:vobj" out="-2:subj|1:vobj|-1:neg|2:pnct">vil</W>
+<W id="323" msd="VA" tag="VA" in="-3:vobj" out="-2:subj|-1:neg|1:vobj|2:pnct">vil</W>
 <W id="324" msd="VA" tag="VA" in="-1:vobj" out="">ske</W>
 <W id="325" msd="XP" tag="XP" in="-2:pnct" out="">,</W>
 <W id="326" msd="CC" tag="CC" in="-10:JOINT" out="2:conj">og</W>
@@ -357,7 +357,7 @@
 <W id="356" msd="U=" tag="U=" in="-1:nobj" out="1:vobj">at</W>
 <W id="357" msd="VA" tag="VA" in="-1:vobj" out="">fungere</W>
 <W id="358" msd="XP" tag="XP" in="-5:pnct" out="">,</W>
-<W id="359" msd="PP" tag="PP" in="1:subj|-14:coref" out="10:coref">jeg</W>
+<W id="359" msd="PP" tag="PP" in="-14:coref|1:subj" out="10:coref">jeg</W>
 <W id="360" msd="VA" tag="VA" in="-14:CONTRAST" out="-1:subj|1:conc|2:add|3:vobj|15:pnct">vil</W>
 <W id="361" msd="RG" tag="RG" in="-1:conc" out="">dog</W>
 <W id="362" msd="RG" tag="RG" in="-2:add" out="">samtidig</W>
@@ -367,8 +367,8 @@
 <W id="366" msd="NC" tag="NC" in="-1:nobj" out="">forslag</W>
 <W id="367" msd="XP" tag="XP" in="-2:pnct" out="">,</W>
 <W id="368" msd="U=" tag="U=" in="-3:ref|2:dobj" out="8:coref-iden">som</W>
-<W id="369" msd="PP" tag="PP" in="1:subj|-10:coref" out="">jeg</W>
-<W id="370" msd="VA" tag="VA" in="-5:EVALUATION" out="-1:subj|3:ATTRIBUTION|-2:dobj|1:pnct">håber</W>
+<W id="369" msd="PP" tag="PP" in="-10:coref|1:subj" out="">jeg</W>
+<W id="370" msd="VA" tag="VA" in="-5:EVALUATION" out="-1:subj|-2:dobj|1:pnct|3:ATTRIBUTION">håber</W>
 <W id="371" msd="XP" tag="XP" in="-1:pnct" out="">,</W>
 <W id="372" msd="NC" tag="NC" in="1:subj" out="">Kommissionen</W>
 <W id="373" msd="VA" tag="VA" in="-3:ATTRIBUTION" out="-1:subj|1:vobj">vil</W>
@@ -395,8 +395,8 @@
 <W id="394" msd="XP" tag="XP" in="-12:pnct" out="">,</W>
 <W id="395" msd="CS" tag="CS" in="-13:ref|2:xtop" out="1:possd|2:ref">hvis</W>
 <W id="396" msd="NC" tag="NC" in="-1:possd" out="">opgave</W>
-<W id="397" msd="PP" tag="PP" in="1:subj|-2:ref" out="-2:xtop">det</W>
-<W id="398" msd="VA" tag="VA" in="-16:ELABORATION" out="1:vobj|-1:subj|15:coref-res">vil</W>
+<W id="397" msd="PP" tag="PP" in="-2:ref|1:subj" out="-2:xtop">det</W>
+<W id="398" msd="VA" tag="VA" in="-16:ELABORATION" out="-1:subj|1:vobj|15:coref-res">vil</W>
 <W id="399" msd="VA" tag="VA" in="-1:vobj" out="1:preds">være</W>
 <W id="400" msd="U=" tag="U=" in="-1:preds" out="1:vobj">at</W>
 <W id="401" msd="VA" tag="VA" in="-1:vobj" out="1:coord|3:pnct|4:dobj">påse</W>
@@ -413,13 +413,13 @@
 <W id="412" msd="XP" tag="XP" in="-35:pnct" out="">.</W>
 <W id="413" msd="PP" tag="PP" in="-15:coref-res|1:subj" out="">Det</W>
 <W id="414" msd="VA" tag="VA" in="" out="-1:subj|1:preds|20:coref-res">er</W>
-<W id="415" msd="PI" tag="PI" in="-1:preds" out="1:mod|4:nobj|5:pnct|7:ELABORATION|6:ref">en</W>
+<W id="415" msd="PI" tag="PI" in="-1:preds" out="1:mod|4:nobj|5:pnct|6:ref|7:ELABORATION">en</W>
 <W id="416" msd="AN" tag="AN" in="-1:mod" out="1:coord">stor</W>
 <W id="417" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
 <W id="418" msd="AN" tag="AN" in="-1:conj" out="">vigtig</W>
 <W id="419" msd="NC" tag="NC" in="-4:nobj" out="">opgave</W>
 <W id="420" msd="XP" tag="XP" in="-5:pnct" out="">,</W>
-<W id="421" msd="U=" tag="U=" in="1:subj|-6:ref" out="">som</W>
+<W id="421" msd="U=" tag="U=" in="-6:ref|1:subj" out="">som</W>
 <W id="422" msd="VA" tag="VA" in="-7:ELABORATION" out="-1:subj|1:vobj|8:pnct">vil</W>
 <W id="423" msd="VA" tag="VA" in="-1:vobj" out="1:mod|2:preds|3:BACKGROUND">blive</W>
 <W id="424" msd="RG" tag="RG" in="-1:mod" out="">endnu</W>
