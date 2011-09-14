@@ -1,0 +1,70 @@
+accom	15	33.3%	80%	40%	46.7%=man	40%=accom	6.7%=other	6.7%=pobj
+add	59	74.6%	100%	74.6%	74.6%=add	11.9%=other	5.1%=discmark	3.4%=scene	1.7%=prg	1.7%=correl	1.7%=neg
+agent	15	40%	100%	40%	53.3%=pobj	40%=agent	6.7%=attr
+aobj	31	38.7%	71%	38.7%	38.7%=aobj	22.6%=nobj	22.6%=attr	6.5%=preds	3.2%=man	3.2%=avobj	3.2%=focal
+appa	27	88.9%	88.9%	100%	100%=appa
+appr	36	88.9%	94.4%	88.9%	88.9%=appr	2.8%=nobj	2.8%=pnct	2.8%=title	2.8%=subj
+att	1	100%	100%	100%	100%=att
+attr	987	77.9%	89.5%	82.3%	82.3%=attr	5%=pobj	3.6%=nobj	2%=loc	1.6%=other	1.2%=time	0.7%=aobj	0.5%=quant	0.4%=focal	0.4%=goal	0.4%=man	0.3%=conj	0.2%=cause	0.1%=prg	0.1%=relr	0.1%=predo	0.1%=dir	0.1%=pnct	0.1%=iter	0.1%=conc	0.1%=name	0.1%=scene	0.1%=subj	0.1%=possd	0.1%=inst	0.1%=agent
+avobj	34	67.6%	97.1%	67.6%	67.6%=avobj	11.8%=other	5.9%=part	5.9%=quant	2.9%=aobj	2.9%=loc	2.9%=pobj
+cause	48	79.2%	87.5%	87.5%	87.5%=cause	4.2%=attr	2.1%=conj	2.1%=time	2.1%=cons	2.1%=pobj
+conc	13	38.5%	92.3%	38.5%	38.5%=conc	23.1%=contr	15.4%=prg	15.4%=other	7.7%=attr
+concom	4	25%	100%	25%	25%=source	25%=concom	25%=man	25%=inst
+cond	30	83.3%	90%	90%	90%=cond	3.3%=nobj	3.3%=man	3.3%=time
+conj	552	92.1%	93.2%	94.7%	94.7%=conj	1.4%=CONJ:add	0.9%=qobj	0.5%=nobj	0.5%=attr	0.4%=CONTR:sbj	0.4%=CONTR:dir	0.2%=CONST:rest	0.2%=TELIC:cons.dir	0.2%=coord	0.2%=cause	0.2%=vobj	0.2%=xpl	0.1%=pnct
+cons	14	50%	85.7%	64.3%	64.3%=cons	21.4%=time	7.1%=inst	7.1%=cause
+contr	22	40.9%	100%	40.9%	40.9%=contr	18.2%=discmark	13.6%=conc	9.1%=coord	9.1%=scene	4.5%=prg	4.5%=other
+coord	400	92%	97%	93.3%	93.3%=coord	4.5%=discmark	1.3%=qobj	0.5%=contr	0.3%=conj	0.3%=neg
+correl	9	55.6%	77.8%	55.6%	55.6%=correl	11.1%=add	11.1%=other	11.1%=focal	11.1%=subj
+degr	2	0%	50%	0%	100%=quant
+dir	74	40.5%	95.9%	40.5%	40.5%=dir	39.2%=loc	12.2%=pobj	2.7%=other	1.4%=man	1.4%=part	1.4%=attr	1.4%=dobj
+discmark	32	15.6%	90.6%	15.6%	56.3%=coord	15.6%=discmark	12.5%=contr	9.4%=add	6.3%=qobj
+dobj	726	93.8%	98.3%	94.5%	94.5%=dobj	1.7%=nobj	1%=pobj	0.8%=robj	0.7%=iobj	0.3%=preds	0.3%=goal	0.3%=pnct	0.1%=predo	0.1%=dir	0.1%=quant	0.1%=vobj
+elab	4	50%	75%	50%	50%=elab	25%=prg	25%=quant
+epi	14	50%	92.9%	57.1%	57.1%=epi	14.3%=man	14.3%=other	14.3%=eval
+eval	47	57.4%	93.6%	59.6%	59.6%=eval	14.9%=prg	6.4%=quant	4.3%=epi	4.3%=other	2.1%=iter	2.1%=time	2.1%=focal	2.1%=man	2.1%=neg
+event	4	0%	75%	0%	50%=time	50%=loc
+ex	1	0%	100%	0%	100%=exem
+exem	14	71.4%	78.6%	92.9%	92.9%=exem	7.1%=ex
+expl	60	91.7%	100%	91.7%	91.7%=expl	8.3%=subj
+focal	31	45.2%	64.5%	61.3%	61.3%=focal	12.9%=attr	9.7%=other	6.5%=loc	3.2%=aobj	3.2%=correl	3.2%=eval
+fpredo	6	0%	66.7%	0%	33.3%=loc	16.7%=goal	16.7%=man	16.7%=preds	16.7%=predo
+fpreds	3	0%	100%	0%	66.7%=man	33.3%=vobj
+goal	43	34.9%	86%	41.9%	41.9%=goal	32.6%=pobj	9.3%=attr	4.7%=scene	4.7%=dobj	2.3%=man	2.3%=other	2.3%=fpredo
+inst	25	36%	88%	40%	40%=inst	12%=man	12%=loc	8%=predo	8%=pobj	4%=concom	4%=scene	4%=preds	4%=attr	4%=cons
+iobj	24	70.8%	100%	70.8%	70.8%=iobj	20.8%=dobj	8.3%=robj
+iter	21	19%	81%	23.8%	57.1%=time	23.8%=iter	9.5%=other	4.8%=attr	4.8%=eval
+loc	218	53.7%	92.7%	56.4%	56.4%=loc	13.3%=dir	9.2%=attr	5.5%=preds	5.5%=other	3.2%=pobj	1.4%=inst	0.9%=nobj	0.9%=scene	0.9%=focal	0.9%=event	0.9%=fpredo	0.5%=time	0.5%=avobj
+man	106	55.7%	88.7%	61.3%	61.3%=man	6.6%=accom	3.8%=attr	3.8%=quant	3.8%=other	2.8%=time	2.8%=inst	1.9%=epi	1.9%=fpreds	0.9%=source	0.9%=prg	0.9%=dir	0.9%=aobj	0.9%=eval	0.9%=cond	0.9%=concom	0.9%=scene	0.9%=fpredo	0.9%=goal	0.9%=resem	0.9%=pobj
+name	27	70.4%	77.8%	74.1%	74.1%=name	22.2%=nobj	3.7%=attr
+namef	146	97.9%	97.9%	100%	100%=namef
+namel	8	100%	100%	100%	100%=namel
+neg	105	94.3%	98.1%	96.2%	96.2%=neg	1%=add	1%=time	1%=coord	1%=eval
+nobj	2782	95.2%	97.6%	96%	96%=nobj	1.3%=attr	0.4%=dobj	0.3%=aobj	0.3%=vobj	0.2%=preds	0.2%=name	0.2%=time	0.2%=subj	0.2%=pobj	0.1%=conj	0.1%=pnct	0.1%=possd	0.1%=other	0.1%=title	0.1%=loc	0%=numa	0%=quant	0%=cond	0%=appr
+numa	5	80%	100%	80%	80%=numa	20%=nobj
+numm	12	100%	100%	100%	100%=numm
+other	115	22.6%	91.3%	22.6%	22.6%=other	13.9%=attr	10.4%=loc	9.6%=pobj	6.1%=add	4.3%=prg	3.5%=avobj	3.5%=quant	3.5%=man	2.6%=nobj	2.6%=focal	1.7%=epi	1.7%=source	1.7%=dir	1.7%=eval	1.7%=iter	1.7%=conc	0.9%=time	0.9%=contr	0.9%=correl	0.9%=part	0.9%=scene	0.9%=goal	0.9%=accom	0.9%=xpl
+part	19	78.9%	100%	78.9%	78.9%=part	10.5%=avobj	5.3%=other	5.3%=dir
+pnct	1799	92.6%	92.6%	99.3%	99.3%=pnct	0.2%=nobj	0.2%=vobj	0.1%=dobj	0.1%=conj	0.1%=attr	0.1%=possd	0.1%=appr
+pobj	588	78.7%	94.4%	79.4%	79.4%=pobj	8.3%=attr	2.4%=goal	1.9%=other	1.5%=dir	1.4%=agent	1.2%=dobj	1.2%=loc	0.9%=nobj	0.5%=source	0.3%=preds	0.3%=inst	0.2%=avobj	0.2%=man	0.2%=cause	0.2%=accom
+possd	240	95.6%	96.5%	98.1%	98.1%=possd	1.3%=nobj	0.4%=attr	0.2%=pnct
+predo	21	9.5%	85.7%	9.5%	57.1%=preds	9.5%=inst	9.5%=predo	9.5%=vobj	4.8%=attr	4.8%=fpredo	4.8%=dobj
+preds	430	78.8%	99.3%	78.8%	78.8%=preds	10.9%=vobj	2.8%=predo	2.8%=loc	1.4%=nobj	0.7%=time	0.5%=dobj	0.5%=subj	0.5%=aobj	0.5%=pobj	0.2%=fpredo	0.2%=inst	0.2%=resem
+prg	27	14.8%	100%	14.8%	25.9%=eval	18.5%=other	14.8%=prg	7.4%=conc	7.4%=time	7.4%=quant	3.7%=add	3.7%=elab	3.7%=attr	3.7%=man	3.7%=contr
+qobj	70	75%	75%	75%	75%=qobj	7.1%=conj	7.1%=coord	2.9%=discmark	2.1%=CONJ:add	1.4%=TELIC:goal	1.4%=CONJ:elab	1.4%=CONST:rest	1.4%=AGENTIVE:reas
+quant	153	80.4%	93.5%	82.4%	82.4%=quant	3.3%=attr	2.6%=man	2.6%=other	2%=eval	1.3%=prg	1.3%=time	1.3%=avobj	1.3%=degr	0.7%=nobj	0.7%=elab	0.7%=dobj
+rel	79	3.8%	94.9%	3.8%	88.6%=relr	5.1%=relelab	3.8%=rel	1.3%=relpa	1.3%=vobj
+relelab	6	0%	100%	0%	66.7%=rel	33.3%=relr
+relpa	17	29.4%	100%	29.4%	64.7%=relr	29.4%=relpa	5.9%=rel
+relr	145	37.2%	93.8%	40.7%	48.3%=rel	40.7%=relr	7.6%=relpa	1.4%=relelab	1.4%=vobj	0.7%=attr
+resem	6	33.3%	33.3%	66.7%	66.7%=resem	16.7%=man	16.7%=preds
+robj	9	11.1%	100%	11.1%	66.7%=dobj	22.2%=iobj	11.1%=robj
+scene	31	54.8%	93.5%	58.1%	58.1%=scene	6.5%=add	6.5%=goal	6.5%=contr	6.5%=loc	3.2%=time	3.2%=attr	3.2%=man	3.2%=other	3.2%=inst
+source	11	36.4%	100%	36.4%	36.4%=source	27.3%=pobj	18.2%=other	9.1%=concom	9.1%=man
+subj	1172	98.5%	99.3%	98.7%	98.7%=subj	0.4%=nobj	0.4%=expl	0.2%=preds	0.1%=attr	0.1%=appr	0.1%=correl	0%=CONJ:elab
+time	245	73.5%	89.8%	79.2%	79.2%=time	4.9%=attr	4.9%=iter	2%=nobj	1.2%=preds	1.2%=cons	1.2%=man	0.8%=prg	0.8%=quant	0.8%=event	0.4%=cause	0.4%=neg	0.4%=eval	0.4%=cond	0.4%=scene	0.4%=loc	0.4%=other
+title	30	86.7%	90%	86.7%	86.7%=title	10%=nobj	3.3%=appr
+vobj	895	91.6%	98.5%	92.6%	92.6%=vobj	5.3%=preds	0.8%=nobj	0.3%=pnct	0.2%=relr	0.2%=predo	0.1%=rel	0.1%=conj	0.1%=TIME:post	0.1%=dobj	0.1%=fpreds
+voc	3	100%	100%	100%	100%=voc
+xpl	18	88.9%	100%	88.9%	88.9%=xpl	5.6%=conj	5.6%=other
+xtop	4	100%	100%	100%	100%=xtop

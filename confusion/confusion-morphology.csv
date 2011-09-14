@@ -1,0 +1,366 @@
+--	732	0%	100%	0%	11.1%=DERvn:core	10.1%=DERnv	5.7%=TELIC	5.6%=DERna:rel.deono.loc	4.5%=DERna:rel.norm	4.4%=DERva:act	4.4%=TRANS	3.6%=DERva:pas.part	3%=MOD:quant	2.7%=DERan:qual	2.6%=DERvn:patient	2.6%=OTHER	2.6%=DERvn:agent	2%=DERnn:other	1.9%=PRE:other	1.4%=DERav	1.4%=DERnn:agent	1.1%=LOC:loc	1.1%=DERna:rel	1%=DOBJ.patient	0.8%=DERna:resem	0.8%=DERvn:other	0.8%=func DERvn:core	0.8%=DENOM:eff	0.8%=MOD:qual	0.7%=DERnn:assoc	0.7%=func DERnn:capac	0.7%=func	0.5%=DERna:disp	0.5%=poss	0.5%=agent	0.5%=LOC:dir	0.5%=SPACE:loc	0.4%=NEG:contr	0.4%=TRANS DERva:act	0.4%=DERna:other	0.4%=time	0.4%=DERvn:core LOC:dir	0.4%=TELIC]n	0.4%=const	0.4%=NEG:priv	0.4%=GOAL	0.4%=DENUM:ord	0.3%=DERvn:core TRANS	0.3%=loc	0.3%=DERva:pas.epi	0.3%=CONST	0.3%=DERna:poss	0.3%=SPACE:dir	0.3%=DERnn:loc	0.3%=ARG	0.3%=ABOUT	0.3%=source	0.3%=DERvn:loc	0.3%=ITER	0.3%=DERna:telic	0.3%=TELIC DERvn:core	0.3%=LOC:loc DERvn:core	0.1%=agent.subj	0.1%=DERvn:core TELIC	0.1%=PRED:Core	0.1%=DERva:act DERvn:core	0.1%=about LOC:dir DERvn:core	0.1%=DERvn:core SPACE:source	0.1%=QUANT	0.1%=agent func	0.1%=SOURCE	0.1%=NEG:contr DERvn:core	0.1%=DER:aa	0.1%=DERnv DERvn:core	0.1%=DERan:qual ARG	0.1%=DERav TRANS]g	0.1%=arg	0.1%=DERvn:agent LOC:loc	0.1%=TIME:pre	0.1%=DERaa	0.1%=NOPRED:core	0.1%=DERvn:core func	0.1%=source DERan:qual	0.1%=DERav]g	0.1%=DOBJ.patient FORM	0.1%=type	0.1%=resem DERva:pas.part	0.1%=MOD:qual DERvn:core	0.1%=GOAL SUBJ.agent	0.1%=DErva:pas.part	0.1%=NEG:rev	0.1%=DERvn:core MOD:qual	0.1%=tei.2&gt;	0.1%=PRED:reult	0.1%=DERvv	0.1%=TIME:pre DERva:act	0.1%=DERvn:core NEG:rev TELIC	0.1%=poss DERvn:core	0.1%=DEVERV:act.pure	0.1%=DERvn:core LOC:loc	0.1%=TIME:time	0.1%=iden	0.1%=SPACE:source	0.1%=DERvn:core MOD:quant	0.1%=DERvn:patient TRANS	0.1%=const DERvn:agent	0.1%=DERva:act.epi	0.1%=DERnv DERva:act	0.1%=DERvn	0.1%=DERnv TELIC DERvn:core	0.1%=func func	0.1%=func.dobj	0.1%=DERva:act PRE:other	0.1%=func NEG:contr	0.1%=poss type	0.1%=arg DERvn:agent	0.1%=DERvn:patient func DERvn:agent	0.1%=DERvn:agent OTHER	0.1%=DERna:rel.deono.pers	0.1%=MOD:eval	0.1%=DERvn:other TELIC	0.1%=about	0.1%=DERnv DERva:pas.epi	0.1%=func DERvn:agent DERnv	0.1%=DERvn:patient TELIC	0.1%=other	0.1%=arg DERan:qual DERvn:loc	0.1%=AGENT:MC	0.1%=DEVERB:act:pure	0.1%=DENUM:apart	0.1%=ASPEC:result	0.1%=resem DERvn:other	0.1%=NEG:priv DERna:rel.norm	0.1%=DERvn:agent DERnn:assoc	0.1%=TELIC DERvn:patient	0.1%=DERva:pas.part TRANS	0.1%=FORM
+ABOUT	39	0%	100%	0%	35.9%=about	17.9%=func	7.7%=arg	7.7%=const	7.7%=agent	5.1%=--	2.6%=func time	2.6%=func arg DERvn:patient	2.6%=dobj.patient DERvn:patient	2.6%=NEG:priv	2.6%=DERvn:agent dobj.patient	2.6%=DERna:other	2.6%=subj.agent
+ABOUT]k	2	0%	100%	0%	100%=about
+AGENT	8	12.5%	100%	12.5%	37.5%=SUBJ.agent]l	25%=agent	12.5%=DERvn:core LOC:dir subj.agent func	12.5%=PRE:other]t	12.5%=AGENT
+AGENT:MC	3	0%	100%	0%	66.7%=agent	33.3%=--
+AGENT:MC DERna:rel PRE:other	1	0%	100%	0%	100%=MOD:qual DERna:rel.norm
+AGENT:MC MOD:qual DERna:rel	1	0%	100%	0%	100%=DERna:rel.norm about
+AGENT:MC PRE:other	3	0%	100%	0%	100%=about
+AGENT:MC PRE:other DERna:rel	1	0%	100%	0%	100%=DERna:rel.norm about
+ARG	55	0%	100%	0%	47.3%=arg	14.5%=func	12.7%=about	7.3%=other	3.6%=--	3.6%=const	1.8%=about DERvn:core	1.8%=DERnn:assoc	1.8%=const LOC:dir	1.8%=TELIC MOD:qual	1.8%=agent	1.8%=about DERvn:core TELIC
+ARG DERna:rel	1	0%	100%	0%	100%=DERna:rel.norm
+ARG]m	1	0%	100%	0%	100%=poss
+ASPEC:core NEG:priv	3	0%	100%	0%	100%=DERvn:core MOD:eval
+ASPEC:other	1	0%	100%	0%	100%=PRE:other
+ASPEC:result	5	0%	100%	0%	20%=--	20%=PRE:other	20%=TELIC	20%=TELIC]g	20%=TELIC DERva:pas.part
+ASPEC:resutl	1	0%	100%	0%	100%=TELIC
+CONST	39	0%	100%	0%	66.7%=const	12.8%=agent	5.1%=--	2.6%=source	2.6%=MOD:qual	2.6%=arg	2.6%=arg loc	2.6%=func	2.6%=apart
+CONST]p	1	0%	100%	0%	100%=const DERvn:agent DERnv
+DENOM:eff	12	0%	100%	0%	50%=--	33.3%=DERna:rel	8.3%=DERna:telic	8.3%=DERnv DERva:pas.epi
+DENOM:rel.deono	1	0%	100%	0%	100%=DERna:rel
+DENUM:apart	1	0%	100%	0%	100%=--
+DENUM:ord	5	0%	100%	0%	60%=--	20%=MOD:quant	20%=QUANT
+DER:aa	3	66.7%	100%	66.7%	66.7%=DER:aa	33.3%=--
+DERaa	1	0%	100%	0%	100%=--
+DERan:qual	65	63.1%	100%	63.1%	63.1%=DERan:qual	30.8%=--	1.5%=DERnn:loc	1.5%=DERna:rel.deono.loc	1.5%=DEran:qual	1.5%=DERnn:agent
+DERan:qual ARG	1	0%	100%	0%	100%=--
+DERan:qual OTHER	2	0%	100%	0%	100%=agent
+DERan:rel DERav DERvn:core	1	0%	100%	0%	100%=DERna:rel.norm
+DERav	24	54.2%	100%	54.2%	54.2%=DERav	41.7%=--	4.2%=inst
+DERav DERva:patient	1	0%	100%	0%	100%=DERvn:core
+DERav DERvn:patient	2	0%	100%	0%	100%=DERvn:core
+DERav TRANS]g	1	0%	100%	0%	100%=--
+DERav]g	1	0%	100%	0%	100%=--
+DERna:deono.loc	4	0%	100%	0%	100%=DERna:rel.deono.loc
+DERna:deono.pers	1	0%	100%	0%	100%=const DERna:rel.norm
+DERna:deono.pers MOD:qual	1	0%	100%	0%	100%=DERna:rel.deono.pers about
+DERna:disp	10	0%	100%	0%	40%=--	30%=DERna:rel	20%=DERna:poss	10%=DERva:pas.part
+DERna:other	6	16.7%	100%	16.7%	50%=--	16.7%=func	16.7%=ABOUT	16.7%=DERna:other
+DERna:other DERvn:patient	1	0%	100%	0%	100%=DERvn:core OTHER
+DERna:poss	11	36.4%	100%	36.4%	36.4%=DERna:poss	27.3%=DERna:rel.norm	18.2%=--	18.2%=DERna:disp
+DERna:rel	45	0%	100%	0%	55.6%=DERna:rel.norm	17.8%=--	8.9%=DENOM:eff	6.7%=DERna:disp	4.4%=DERna:rel.norm DENOM:rel.place	2.2%=DERna:rel.norm DERnn:assoc	2.2%=DERna:rel.deono.loc	2.2%=DENOM:rel.deono
+DERna:rel DERan:qual	1	0%	100%	0%	100%=DERna:rel.norm DER:aa
+DERna:rel.deono.loc	49	0%	100%	0%	83.7%=--	8.2%=DERna:deono.loc	2%=DERan:qual	2%=DERnn:deono.loc	2%=DERnn:agent	2%=DERna:rel
+DERna:rel.deono.pers	1	0%	100%	0%	100%=--
+DERna:rel.deono.pers DERna:rel.norm about	1	0%	100%	0%	100%=DERva:deono.pers PRE:other
+DERna:rel.deono.pers about	1	0%	100%	0%	100%=DERna:deono.pers MOD:qual
+DERna:rel.norm	67	1.5%	100%	1.5%	49.3%=--	37.3%=DERna:rel	4.5%=DERna:poss	3%=DERva:rel	1.5%=DErna:rel	1.5%=DERan:rel DERav DERvn:core	1.5%=DERna:rel.norm	1.5%=ARG DERna:rel
+DERna:rel.norm DENOM:rel.place	3	0%	100%	0%	66.7%=DERna:rel	33.3%=DERnn:assoc DERna:rel
+DERna:rel.norm DER:aa	1	0%	100%	0%	100%=DERna:rel DERan:qual
+DERna:rel.norm DERnn:assoc	1	0%	100%	0%	100%=DERna:rel
+DERna:rel.norm MOD:qual	2	0%	100%	0%	50%=OTHER	50%=DErna:rel PRE:other
+DERna:rel.norm about	3	0%	100%	0%	33.3%=AGENT:MC MOD:qual DERna:rel	33.3%=PRE:other	33.3%=AGENT:MC PRE:other DERna:rel
+DERna:rel.norm arg	1	0%	100%	0%	100%=OTHER
+DERna:rel.norm func	1	0%	100%	0%	100%=DERva:act.epi GOAL
+DERna:resem	6	0%	100%	0%	100%=--
+DERna:telic	3	0%	100%	0%	66.7%=--	33.3%=DENOM:eff
+DERnn:agent	32	53.1%	100%	53.1%	53.1%=DERnn:agent	31.3%=--	9.4%=DERvn:agent	3.1%=DERan:qual	3.1%=DERna:rel.deono.loc
+DERnn:agent func	1	0%	100%	0%	100%=GOAL
+DERnn:assoc	12	33.3%	100%	33.3%	41.7%=--	33.3%=DERnn:assoc	8.3%=DERnv PRE:other DERvn:agent	8.3%=DERnn:loc	8.3%=ARG
+DERnn:assoc DERna:rel	1	0%	100%	0%	100%=DERna:rel.norm DENOM:rel.place
+DERnn:assoc MOD:quant	1	0%	100%	0%	100%=DERvn:patient OTHER
+DERnn:deono.loc	1	0%	100%	0%	100%=DERna:rel.deono.loc
+DERnn:loc	4	0%	100%	0%	50%=--	25%=DERan:qual	25%=DERnn:assoc
+DERnn:other	16	0%	100%	0%	93.8%=--	6.3%=DERvn:core
+DERnn:other SOURCE	1	0%	100%	0%	100%=agent DERnn:quant
+DERnv	127	33.1%	100%	33.1%	58.3%=--	33.1%=DERnv	1.6%=DERvn:core	1.6%=DERva:pas.part	1.6%=func	0.8%=OTHER	0.8%=arg	0.8%=loc	0.8%=type	0.8%=SOURCE
+DERnv DERva:act	1	0%	100%	0%	100%=--
+DERnv DERva:pas.epi	2	0%	100%	0%	50%=--	50%=DENOM:eff
+DERnv DERvn:core	1	0%	100%	0%	100%=--
+DERnv DERvn:patient	1	0%	100%	0%	100%=DERvn:core
+DERnv NEG:priv	1	0%	100%	0%	100%=DERva:pas.part
+DERnv NEG:priv DERvn:patient	1	0%	100%	0%	100%=DERvn:core TELIC
+DERnv PRE:other	1	0%	100%	0%	100%=MOD:qual
+DERnv PRE:other DERvn:agent	1	0%	100%	0%	100%=DERnn:assoc
+DERnv SPACE:loc	1	0%	100%	0%	100%=LOC:loc
+DERnv TELIC DERvn:core	1	0%	100%	0%	100%=--
+DERnv inst	1	0%	100%	0%	100%=DOBJ.patient
+DERva	2	0%	100%	0%	50%=DERva:act	50%=DERva:pas.part
+DERva:act	62	32.3%	100%	32.3%	51.6%=--	32.3%=DERva:act	3.2%=DERva:pas.part	3.2%=DEVERB:rel.norm	1.6%=DERvn:agent	1.6%=DERva:pas.epi	1.6%=TRANS	1.6%=DERvn:other DERna:rel	1.6%=func	1.6%=DERva
+DERva:act DERvn:core	1	0%	100%	0%	100%=--
+DERva:act PRE:other	1	0%	100%	0%	100%=--
+DERva:act.epi	1	0%	100%	0%	100%=--
+DERva:act.epi GOAL	1	0%	100%	0%	100%=DERna:rel.norm func
+DERva:deono.pers PRE:other	1	0%	100%	0%	100%=DERna:rel.deono.pers DERna:rel.norm about
+DERva:pas.epi	3	0%	100%	0%	66.7%=--	33.3%=DERva:act
+DERva:pas.part	54	33.3%	100%	33.3%	48.1%=--	33.3%=DERva:pas.part	3.7%=DERnv	3.7%=DERva:act	1.9%=DERnv NEG:priv	1.9%=DERna:disp	1.9%=LOC:loc	1.9%=DERvn:patient	1.9%=DERvn:pas.part	1.9%=DERva
+DERva:pas.part PRE:other	2	0%	100%	0%	50%=MOD:qual DERva:act	50%=LOC:loc DERnv
+DERva:pas.part TRANS	1	0%	100%	0%	100%=--
+DERva:rel	2	0%	100%	0%	100%=DERna:rel.norm
+DERvn	1	0%	100%	0%	100%=--
+DERvn PRE:other	1	0%	100%	0%	100%=DERvn:core LOC:loc
+DERvn.core	2	0%	100%	0%	100%=DERvn:core
+DERvn:agent	99	64.6%	100%	64.6%	64.6%=DERvn:agent	19.2%=--	4%=DERvn:core	3%=DERnn:agent	1%=OTHER	1%=DERvn:core DERnn:agent	1%=DERvn:agent~ns	1%=DERvn:exper	1%=DERva:act	1%=DERvn:recip	1%=DERvn:patient	1%=SUBJ.agent	1%=DERvn:inst
+DERvn:agent DERnn:assoc	1	0%	100%	0%	100%=--
+DERvn:agent DOBJ.patient	1	0%	100%	0%	100%=DERvn:exper
+DERvn:agent LOC:loc	1	0%	100%	0%	100%=--
+DERvn:agent OTHER	2	0%	100%	0%	50%=--	50%=DERvn:exper
+DERvn:agent agent DERan:qual	1	0%	100%	0%	100%=DERvn:other CONST
+DERvn:agent arg	1	0%	100%	0%	100%=OTHER
+DERvn:agent dobj.patient	1	0%	100%	0%	100%=ABOUT
+DERvn:agent~ns	1	0%	100%	0%	100%=DERvn:agent
+DERvn:core	279	43.7%	100%	43.7%	43.7%=DERvn:core	29%=--	16.5%=DERvn:patient	2.5%=DERvn:other	1.4%=DERvn:agent	0.7%=DErvn:core	0.7%=DERvn.core	0.7%=DERav DERvn:patient	0.7%=DERnv	0.7%=DErvn:patient	0.4%=TELIC]l DERvn:patient	0.4%=DERav DERva:patient	0.4%=TELIC	0.4%=DERnv DERvn:patient	0.4%=DERvn:patient LOC:loc	0.4%=TELIC]n DERvn:patient	0.4%=TELIC DERvn:patient	0.4%=PRE:other DERvn:patient	0.4%=DERnn:other
+DERvn:core ASPEC:TRANS	1	0%	100%	0%	100%=DERvn:patient
+DERvn:core DERnn:agent	1	0%	100%	0%	100%=DERvn:agent
+DERvn:core DOBJ.patient	2	0%	100%	0%	100%=about
+DERvn:core IOBJ.exper	1	0%	100%	0%	100%=DERvn:patient iobj.recipient
+DERvn:core LOC:dir	4	0%	100%	0%	75%=--	25%=SPACE:dir DERvn:patient
+DERvn:core LOC:dir subj.agent func	1	0%	100%	0%	100%=AGENT
+DERvn:core LOC:loc	2	0%	100%	0%	50%=--	50%=DERvn PRE:other
+DERvn:core MOD:eval	3	0%	100%	0%	100%=ASPEC:core NEG:priv
+DERvn:core MOD:qual	3	0%	100%	0%	66.7%=PRE:other	33.3%=--
+DERvn:core MOD:qual]	1	0%	100%	0%	100%=func about
+DERvn:core MOD:quant	1	0%	100%	0%	100%=--
+DERvn:core NEG:rev TELIC	1	0%	100%	0%	100%=--
+DERvn:core OTHER	1	0%	100%	0%	100%=DERna:other DERvn:patient
+DERvn:core PRE:other	1	0%	100%	0%	100%=TRANS DERvn:patient
+DERvn:core SPACE:source	1	0%	100%	0%	100%=--
+DERvn:core SUBJ.agent	1	0%	100%	0%	100%=arg.subj DERvn:patient DERnn:assoc DERvn:agent
+DERvn:core TELIC	6	0%	100%	0%	50%=PRE:other DERvn:patient	16.7%=--	16.7%=DERvn:other	16.7%=DERnv NEG:priv DERvn:patient
+DERvn:core TRANS	5	0%	100%	0%	60%=DERvn:patient	40%=--
+DERvn:core agent	1	0%	100%	0%	100%=GOAL
+DERvn:core arg	1	0%	100%	0%	100%=GOAL
+DERvn:core dobj.patient	2	0%	100%	0%	100%=DERvn:other GOAL
+DERvn:core dobj.recip DERvn:core	2	0%	100%	0%	100%=DERvn:patient DOBJ.patient
+DERvn:core eval	2	0%	100%	0%	50%=DERvn:patient MOD:eval	50%=MOD:eval
+DERvn:core func	2	0%	100%	0%	50%=--	50%=DERvn:other MOD:qual
+DERvn:core iobj.recipient	7	0%	100%	0%	100%=DERvn:patient GOAL
+DERvn:core subj.agent	1	0%	100%	0%	100%=DERvn:other ABOUT
+DERvn:exper	3	0%	100%	0%	33.3%=DERvn:agent DOBJ.patient	33.3%=DERvn:agent OTHER	33.3%=DERvn:agent
+DERvn:inst	4	0%	100%	0%	75%=DERvn:patient	25%=DERvn:agent
+DERvn:loc	6	50%	100%	50%	50%=DERvn:loc	33.3%=--	16.7%=DERvn:patient TELIC
+DERvn:loc LOC:loc	1	0%	100%	0%	100%=LOC
+DERvn:other	15	0%	100%	0%	46.7%=DERvn:core	40%=--	6.7%=DERvn:patient	6.7%=DERvn:core TELIC
+DERvn:other ABOUT	1	0%	100%	0%	100%=DERvn:core subj.agent
+DERvn:other CONST	1	0%	100%	0%	100%=DERvn:agent agent DERan:qual
+DERvn:other DERna:rel	1	0%	100%	0%	100%=DERva:act
+DERvn:other GOAL	2	0%	100%	0%	100%=DERvn:core dobj.patient
+DERvn:other MOD:qual	1	0%	100%	0%	100%=DERvn:core func
+DERvn:other TELIC	1	0%	100%	0%	100%=--
+DERvn:other]s pobj.other	3	0%	100%	0%	100%=func DERvn:agent agent DERan:qual
+DERvn:pas.part	1	0%	100%	0%	100%=DERva:pas.part
+DERvn:patient	94	20.2%	100%	20.2%	48.9%=DERvn:core	20.2%=--	20.2%=DERvn:patient	3.2%=DERvn:core TRANS	3.2%=DERvn:inst	1.1%=DERvn:core ASPEC:TRANS	1.1%=DERvn:other	1.1%=DERvn:agent	1.1%=DERva:pas.part
+DERvn:patient ABOUT	1	0%	100%	0%	100%=arg DERvn:core TRANS
+DERvn:patient AGENT	1	0%	100%	0%	100%=TELIC]g DERvn:core
+DERvn:patient ARG	1	0%	100%	0%	100%=pobj:dobj DERvn:core
+DERvn:patient ARG]m	1	0%	100%	0%	100%=poss about DERvn:agent TELIC
+DERvn:patient DOBJ.patient	2	0%	100%	0%	100%=DERvn:core dobj.recip DERvn:core
+DERvn:patient GOAL	12	0%	100%	0%	58.3%=DERvn:core iobj.recipient	41.7%=func DERvn:agent
+DERvn:patient LOC:loc	1	0%	100%	0%	100%=DERvn:core
+DERvn:patient MOD:eval	1	0%	100%	0%	100%=DERvn:core eval
+DERvn:patient OTHER	1	0%	100%	0%	100%=DERnn:assoc MOD:quant
+DERvn:patient PRE:other	1	0%	100%	0%	100%=SPEC:term DERvn:core
+DERvn:patient TELIC	3	0%	100%	0%	33.3%=--	33.3%=DERvn:loc	33.3%=NEG:priv DERvn:core
+DERvn:patient TELIC]n GOAL	1	0%	100%	0%	100%=dobj.patient DERvn:core
+DERvn:patient TRANS	1	0%	100%	0%	100%=--
+DERvn:patient about DERvn:core	1	0%	100%	0%	100%=TELIC ARG
+DERvn:patient func DERvn:agent	1	0%	100%	0%	100%=--
+DERvn:patient iobj.recipient	1	0%	100%	0%	100%=DERvn:core IOBJ.exper
+DERvn:recip	2	0%	100%	0%	50%=DOBJ.patient	50%=DERvn:agent
+DERvn:recip TELIC	1	0%	100%	0%	100%=PRE:other DERva:pas.part
+DERvv	2	0%	100%	0%	50%=--	50%=PRE:other
+DEVERB:act:pure	1	0%	100%	0%	100%=--
+DEVERB:rel.norm	2	0%	100%	0%	100%=DERva:act
+DEVERV:act.pure	1	0%	100%	0%	100%=--
+DEran:qual	1	0%	100%	0%	100%=DERan:qual
+DErna:rel	1	0%	100%	0%	100%=DERna:rel.norm
+DErna:rel PRE:other	1	0%	100%	0%	100%=DERna:rel.norm MOD:qual
+DErva:pas.part	1	0%	100%	0%	100%=--
+DErvn:core	2	0%	100%	0%	100%=DERvn:core
+DErvn:patient	2	0%	100%	0%	100%=DERvn:core
+DOBJ.patient	26	0%	100%	0%	65.4%=dobj.patient	26.9%=--	3.8%=DERvn:recip	3.8%=DERnv inst
+DOBJ.patient FORM	1	0%	100%	0%	100%=--
+DOBJ.patient]l	2	0%	100%	0%	50%=dobj.patient arg DERan:qual DERvn:loc	50%=dobj.patient DERan:qual
+EVAL	3	0%	100%	0%	66.7%=eval	33.3%=LOC:loc
+FORM	11	0%	100%	0%	18.2%=type DERvn:core	9.1%=OTHER	9.1%=form	9.1%=MOD:eval	9.1%=func const DERvn:core	9.1%=--	9.1%=func DERvn:patient DERvn:core	9.1%=loc	9.1%=const const	9.1%=about
+FUNC	1	0%	100%	0%	100%=iden
+FUNC]FUNC	1	0%	100%	0%	100%=const type
+GOAL	109	0%	100%	0%	53.2%=func	7.3%=func DERvn:core	3.7%=arg	3.7%=func DERvn:agent	2.8%=--	2.8%=poss	1.8%=iden	1.8%=const	1.8%=loc	0.9%=type DERvn:core	0.9%=loc MOD:qual	0.9%=func time func DERnn:other	0.9%=func MOD:qual	0.9%=type DERvn:agent	0.9%=LOC:loc	0.9%=other	0.9%=arg DERvn:loc DERan:qual	0.9%=type	0.9%=about DERvn:core	0.9%=DERvn:core agent	0.9%=dobj.patient	0.9%=func.dobj	0.9%=func loc	0.9%=func DERav	0.9%=MOD:qual	0.9%=arg.patient DERnn:agent	0.9%=func DERan:qual	0.9%=DERvn:core arg	0.9%=DERnn:agent func	0.9%=func DERvn:loc	0.9%=agent	0.9%=func iden
+GOAL SOURCE	1	0%	100%	0%	100%=MOD:qual arg
+GOAL SUBJ.agent	1	0%	100%	0%	100%=--
+GOAL]k	1	0%	100%	0%	100%=func
+GOAL]m	1	0%	100%	0%	100%=func
+GOAL]t	1	0%	100%	0%	100%=func loc
+GOAl	1	0%	100%	0%	100%=func
+IDEN	4	0%	100%	0%	75%=func	25%=iden
+IDEN]k	1	0%	100%	0%	100%=func
+ITER	5	40%	100%	40%	40%=--	40%=ITER	20%=PRE:other DERva:pas.part
+LOC	29	0%	100%	0%	79.3%=loc	3.4%=source	3.4%=agent	3.4%=agent DERna:rel.deono.loc	3.4%=poss	3.4%=eval	3.4%=DERvn:loc LOC:loc
+LOC:dir	23	13%	100%	13%	21.7%=SPACE:dir	21.7%=TELIC	17.4%=--	13%=LOC:dir	8.7%=SPACE.dir	8.7%=PRE:other	4.3%=TELIC]m	4.3%=SPACE:source
+LOC:dir DERav	1	0%	100%	0%	100%=TELIC]t DERva:pas.part
+LOC:loc	21	0%	100%	0%	38.1%=--	33.3%=SPACE:loc	9.5%=PRE:other	4.8%=DERva:pas.part	4.8%=EVAL	4.8%=DERnv SPACE:loc	4.8%=GOAL
+LOC:loc DERnv	1	0%	100%	0%	100%=DERva:pas.part PRE:other
+LOC:loc DERvn:core	2	0%	100%	0%	100%=--
+LOC:loc LOC:loc	1	0%	100%	0%	100%=SPACE:loc MOD:qual
+MOD:eval	14	42.9%	100%	42.9%	42.9%=MOD:eval	14.3%=MOD:qual	7.1%=NEG:contr	7.1%=MOD:quant	7.1%=--	7.1%=DERvn:core eval	7.1%=TELIC	7.1%=FORM
+MOD:eval LOC:dir	1	0%	100%	0%	100%=TELIC]l DERva:act
+MOD:eval]b	1	0%	100%	0%	100%=eval
+MOD:qual	39	46.2%	100%	46.2%	46.2%=MOD:qual	15.4%=--	7.7%=TELIC	5.1%=OTHER	5.1%=MOD:eval	5.1%=MOD:quant	2.6%=CONST	2.6%=const	2.6%=loc	2.6%=SOURCE	2.6%=DERnv PRE:other	2.6%=GOAL
+MOD:qual DERna:rel.norm	1	0%	100%	0%	100%=AGENT:MC DERna:rel PRE:other
+MOD:qual DERva:act	1	0%	100%	0%	100%=DERva:pas.part PRE:other
+MOD:qual DERvn:core	1	0%	100%	0%	100%=--
+MOD:qual DERvn:recip	1	0%	100%	0%	100%=TIME:time
+MOD:qual arg	1	0%	100%	0%	100%=GOAL SOURCE
+MOD:qual poss DERvn:agent	1	0%	100%	0%	100%=OTHER MOD:eval
+MOD:quant	41	29.3%	100%	29.3%	53.7%=--	29.3%=MOD:quant	4.9%=MOD:qual	4.9%=QUANT	2.4%=DENUM:ord	2.4%=MOD:quant]l	2.4%=MOD:eval
+MOD:quant DERvn:core TELIC	1	0%	100%	0%	100%=QUANT
+MOD:quant]l	1	0%	100%	0%	100%=MOD:quant
+NEG:contr	23	73.9%	100%	73.9%	73.9%=NEG:contr	13%=--	4.3%=NEG:priv	4.3%=MOD:eval	4.3%=TELIC
+NEG:contr DERvn:core	1	0%	100%	0%	100%=--
+NEG:priv	8	25%	100%	25%	37.5%=--	25%=NEG:priv	12.5%=NEG:contr	12.5%=ABOUT	12.5%=TELIC
+NEG:priv DERna:rel.norm	1	0%	100%	0%	100%=--
+NEG:priv DERvn:core	1	0%	100%	0%	100%=DERvn:patient TELIC
+NEG:priv TIME:pre	1	0%	100%	0%	100%=TIME:pre]s NEG:contr
+NEG:rev	2	0%	100%	0%	50%=--	50%=TELIC
+NEG:rev TRANS	1	0%	100%	0%	100%=PRE:other
+NOPRED:core	1	0%	100%	0%	100%=--
+OTHER	69	8.7%	100%	8.7%	27.5%=--	14.5%=func	8.7%=arg	8.7%=OTHER	5.8%=iden	2.9%=about	2.9%=poss	2.9%=MOD:qual	2.9%=other	2.9%=type	1.4%=type type	1.4%=type DERvn:core	1.4%=DERvn:agent arg	1.4%=iden DERnn:assoc DERvn:agent	1.4%=DERvn:agent	1.4%=DERna:rel.norm arg	1.4%=dobj.patient DERvn:core	1.4%=DERnv	1.4%=DERna:rel.norm MOD:qual	1.4%=type DERnn:agent	1.4%=inst	1.4%=class	1.4%=apart	1.4%=FORM
+OTHER FUNC	1	0%	100%	0%	100%=const add type
+OTHER MOD:eval	1	0%	100%	0%	100%=MOD:qual poss DERvn:agent
+OTHER OTHER	1	0%	100%	0%	100%=type inst
+POS:dir	1	0%	100%	0%	100%=PRE:other
+PRE:other	45	0%	100%	0%	31.1%=--	26.7%=TELIC	6.7%=TRANS	4.4%=LOC:loc	4.4%=DERvn:core MOD:qual	4.4%=about	4.4%=LOC:dir	2.2%=TELIC DERvn:core	2.2%=DERna:rel.norm about	2.2%=ASPEC:result	2.2%=ASPEC:other	2.2%=NEG:rev TRANS	2.2%=POS:dir	2.2%=DERvv	2.2%=func
+PRE:other ARG	1	0%	100%	0%	100%=func DERvn:agent LOC:loc
+PRE:other DERva:pas.part	6	0%	100%	0%	50%=TELIC	16.7%=ITER	16.7%=DERvn:recip TELIC	16.7%=TELIC DEVERB:act:pure
+PRE:other DERvn:patient	4	0%	100%	0%	75%=DERvn:core TELIC	25%=DERvn:core
+PRE:other DOBJ.patient	1	0%	100%	0%	100%=func.dobj DERvn:core TELIC
+PRE:other MOD:qual	2	0%	100%	0%	100%=type DERvn:core
+PRE:other]g	1	0%	100%	0%	100%=TRANS
+PRE:other]t	1	0%	100%	0%	100%=AGENT
+PRED:Core	1	0%	100%	0%	100%=--
+PRED:reult	1	0%	100%	0%	100%=--
+QUANT	6	0%	100%	0%	33.3%=MOD:quant	16.7%=DENUM:ord	16.7%=--	16.7%=func	16.7%=MOD:quant DERvn:core TELIC
+RESEM	2	0%	100%	0%	50%=resem	50%=eval
+SOURCE	18	0%	100%	0%	44.4%=source	16.7%=agent	11.1%=type	5.6%=MOD:qual	5.6%=DERnv	5.6%=--	5.6%=const	5.6%=poss
+SPACE.dir	2	0%	100%	0%	100%=LOC:dir
+SPACE:dir	7	0%	100%	0%	71.4%=LOC:dir	28.6%=--
+SPACE:dir DERvn:patient	1	0%	100%	0%	100%=DERvn:core LOC:dir
+SPACE:loc	11	0%	100%	0%	63.6%=LOC:loc	36.4%=--
+SPACE:loc ARG	1	0%	100%	0%	100%=func.iobj MOD:qual
+SPACE:loc MOD:qual	1	0%	100%	0%	100%=LOC:loc LOC:loc
+SPACE:source	3	0%	100%	0%	33.3%=--	33.3%=TELIC	33.3%=LOC:dir
+SPACE:source DERva:pas.part	1	0%	100%	0%	100%=TELIC
+SPEC:term DERvn:core	1	0%	100%	0%	100%=DERvn:patient PRE:other
+SUBJ.agent	10	0%	100%	0%	60%=subj.agent	30%=agent	10%=DERvn:agent
+SUBJ.agent]l	3	0%	100%	0%	100%=AGENT
+SUBJ.patient	1	0%	100%	0%	100%=subj.agent DERvn:patient
+TELIC	119	28.6%	100%	28.6%	35.3%=--	28.6%=TELIC	10.1%=PRE:other	4.2%=TRANS	4.2%=LOC:dir	2.5%=PRE:other DERva:pas.part	2.5%=TELIC]t	2.5%=MOD:qual	0.8%=NEG:contr	0.8%=ASPEC:resutl	0.8%=TELIC]l	0.8%=DERvn:core	0.8%=MOD:eval	0.8%=NEG:rev	0.8%=dobj.patient	0.8%=TELIC]k DERva.pas.part	0.8%=SPACE:source	0.8%=SPACE:source DERva:pas.part	0.8%=ASPEC:result	0.8%=NEG:priv
+TELIC ARG	1	0%	100%	0%	100%=DERvn:patient about DERvn:core
+TELIC DERva:pas.part	4	0%	100%	0%	50%=TRANS	25%=ASPEC:result	25%=func
+TELIC DERvn:agent CAUSE	1	0%	100%	0%	100%=agent DERvn:core MOD:eval
+TELIC DERvn:core	4	0%	100%	0%	50%=--	25%=PRE:other	25%=TELIC]n DERvn:patient
+TELIC DERvn:patient	2	0%	100%	0%	50%=--	50%=DERvn:core
+TELIC DEVERB:act:pure	1	0%	100%	0%	100%=PRE:other DERva:pas.part
+TELIC MOD:qual	1	0%	100%	0%	100%=ARG
+TELIC]g	1	0%	100%	0%	100%=ASPEC:result
+TELIC]g DERvn:core	1	0%	100%	0%	100%=DERvn:patient AGENT
+TELIC]k DERva.pas.part	1	0%	100%	0%	100%=TELIC
+TELIC]l	1	0%	100%	0%	100%=TELIC
+TELIC]l DERva:act	1	0%	100%	0%	100%=MOD:eval LOC:dir
+TELIC]l DERvn:patient	1	0%	100%	0%	100%=DERvn:core
+TELIC]l DERvn:patient TIME:MC	1	0%	100%	0%	100%=type DERvn:core TELIC DERvn:core
+TELIC]l GOAL	2	0%	100%	0%	50%=func DERvn:core TELIC	50%=func DERvn:core
+TELIC]m	1	0%	100%	0%	100%=LOC:dir
+TELIC]n	3	0%	100%	0%	100%=--
+TELIC]n DERvn:patient	2	0%	100%	0%	50%=TELIC DERvn:core	50%=DERvn:core
+TELIC]n GOAL	3	0%	100%	0%	100%=func DERvn:core
+TELIC]t	8	0%	100%	0%	62.5%=TRANS	37.5%=TELIC
+TELIC]t DERva:pas.part	1	0%	100%	0%	100%=LOC:dir DERav
+TIME	1	0%	100%	0%	100%=time
+TIME:MC	6	0%	100%	0%	100%=time
+TIME:post	3	66.7%	100%	66.7%	66.7%=TIME:post	33.3%=TRANS
+TIME:pre	4	50%	100%	50%	50%=TIME:pre	25%=--	25%=time
+TIME:pre DERva:act	1	0%	100%	0%	100%=--
+TIME:pre]s NEG:contr	1	0%	100%	0%	100%=NEG:priv TIME:pre
+TIME:time	2	0%	100%	0%	50%=--	50%=MOD:qual DERvn:recip
+TRANS	53	5.7%	100%	5.7%	60.4%=--	9.4%=TELIC	9.4%=TELIC]t	5.7%=TRANS	5.7%=PRE:other	3.8%=TELIC DERva:pas.part	1.9%=DERva:act	1.9%=TIME:post	1.9%=PRE:other]g
+TRANS DERva:act	3	0%	100%	0%	100%=--
+TRANS DERvn:patient	1	0%	100%	0%	100%=DERvn:core PRE:other
+about	34	0%	100%	0%	41.2%=ABOUT	20.6%=ARG	8.8%=AGENT:MC PRE:other	5.9%=OTHER	5.9%=DERvn:core DOBJ.patient	5.9%=ABOUT]k	5.9%=PRE:other	2.9%=--	2.9%=FORM
+about DERvn:core	2	0%	100%	0%	50%=ARG	50%=GOAL
+about DERvn:core TELIC	1	0%	100%	0%	100%=ARG
+about LOC:dir DERvn:core	1	0%	100%	0%	100%=--
+agent	27	0%	100%	0%	18.5%=CONST	14.8%=--	11.1%=SUBJ.agent	11.1%=SOURCE	11.1%=ABOUT	7.4%=AGENT:MC	7.4%=AGENT	7.4%=DERan:qual OTHER	3.7%=LOC	3.7%=ARG	3.7%=GOAL
+agent DERna:rel.deono.loc	1	0%	100%	0%	100%=LOC
+agent DERnn:quant	1	0%	100%	0%	100%=DERnn:other SOURCE
+agent DERvn:core MOD:eval	1	0%	100%	0%	100%=TELIC DERvn:agent CAUSE
+agent func	1	0%	100%	0%	100%=--
+agent.subj	1	0%	100%	0%	100%=--
+apart	2	0%	100%	0%	50%=OTHER	50%=CONST
+arg	43	0%	100%	0%	60.5%=ARG	14%=OTHER	9.3%=GOAL	7%=ABOUT	2.3%=goal	2.3%=--	2.3%=DERnv	2.3%=CONST
+arg DERan:qual DERvn:loc	1	0%	100%	0%	100%=--
+arg DERvn:agent	1	0%	100%	0%	100%=--
+arg DERvn:core TRANS	1	0%	100%	0%	100%=DERvn:patient ABOUT
+arg DERvn:loc DERan:qual	1	0%	100%	0%	100%=GOAL
+arg loc	1	0%	100%	0%	100%=CONST
+arg.patient DERnn:agent	1	0%	100%	0%	100%=GOAL
+arg.subj DERvn:patient DERnn:assoc DERvn:agent	1	0%	100%	0%	100%=DERvn:core SUBJ.agent
+class	1	0%	100%	0%	100%=OTHER
+const	38	0%	100%	0%	68.4%=CONST	7.9%=--	7.9%=ABOUT	5.3%=GOAL	5.3%=ARG	2.6%=MOD:qual	2.6%=SOURCE
+const DERna:rel.norm	1	0%	100%	0%	100%=DERna:deono.pers
+const DERvn:agent	1	0%	100%	0%	100%=--
+const DERvn:agent DERnv	1	0%	100%	0%	100%=CONST]p
+const LOC:dir	1	0%	100%	0%	100%=ARG
+const add type	1	0%	100%	0%	100%=OTHER FUNC
+const const	1	0%	100%	0%	100%=FORM
+const type	1	0%	100%	0%	100%=FUNC]FUNC
+dobj.patient	19	0%	100%	0%	89.5%=DOBJ.patient	5.3%=TELIC	5.3%=GOAL
+dobj.patient DERan:qual	1	0%	100%	0%	100%=DOBJ.patient]l
+dobj.patient DERvn:core	2	0%	100%	0%	50%=DERvn:patient TELIC]n GOAL	50%=OTHER
+dobj.patient DERvn:patient	1	0%	100%	0%	100%=ABOUT
+dobj.patient arg DERan:qual DERvn:loc	1	0%	100%	0%	100%=DOBJ.patient]l
+eval	5	0%	100%	0%	40%=EVAL	20%=MOD:eval]b	20%=RESEM	20%=LOC
+form	1	0%	100%	0%	100%=FORM
+func	103	0%	100%	0%	56.3%=GOAL	9.7%=OTHER	7.8%=ARG	6.8%=ABOUT	4.9%=--	2.9%=IDEN	1.9%=DERnv	1%=GOAL]m	1%=DERva:act	1%=PRE:other	1%=IDEN]k	1%=TELIC DERva:pas.part	1%=GOAl	1%=CONST	1%=GOAL]k	1%=QUANT	1%=DERna:other
+func DERan:qual	1	0%	100%	0%	100%=GOAL
+func DERav	1	0%	100%	0%	100%=GOAL
+func DERnn:capac	5	0%	100%	0%	100%=--
+func DERvn:agent	9	0%	100%	0%	55.6%=DERvn:patient GOAL	44.4%=GOAL
+func DERvn:agent DERnv	1	0%	100%	0%	100%=--
+func DERvn:agent LOC:loc	1	0%	100%	0%	100%=PRE:other ARG
+func DERvn:agent agent DERan:qual	3	0%	100%	0%	100%=DERvn:other]s pobj.other
+func DERvn:core	18	0%	100%	0%	44.4%=GOAL	33.3%=--	16.7%=TELIC]n GOAL	5.6%=TELIC]l GOAL
+func DERvn:core TELIC	1	0%	100%	0%	100%=TELIC]l GOAL
+func DERvn:loc	1	0%	100%	0%	100%=GOAL
+func DERvn:patient DERvn:core	1	0%	100%	0%	100%=FORM
+func MOD:qual	1	0%	100%	0%	100%=GOAL
+func NEG:contr	1	0%	100%	0%	100%=--
+func about	1	0%	100%	0%	100%=DERvn:core MOD:qual]
+func arg DERvn:patient	1	0%	100%	0%	100%=ABOUT
+func const DERvn:core	1	0%	100%	0%	100%=FORM
+func func	1	0%	100%	0%	100%=--
+func iden	1	0%	100%	0%	100%=GOAL
+func loc	2	0%	100%	0%	50%=GOAL	50%=GOAL]t
+func time	1	0%	100%	0%	100%=ABOUT
+func time func DERnn:other	1	0%	100%	0%	100%=GOAL
+func.dobj	2	0%	100%	0%	50%=--	50%=GOAL
+func.dobj DERvn:core TELIC	1	0%	100%	0%	100%=PRE:other DOBJ.patient
+func.iobj MOD:qual	1	0%	100%	0%	100%=SPACE:loc ARG
+goal	1	0%	100%	0%	100%=arg
+iden	9	0%	100%	0%	44.4%=OTHER	22.2%=GOAL	11.1%=--	11.1%=IDEN	11.1%=FUNC
+iden DERnn:assoc DERvn:agent	1	0%	100%	0%	100%=OTHER
+inst	2	0%	100%	0%	50%=OTHER	50%=DERav
+loc	30	0%	100%	0%	76.7%=LOC	6.7%=--	6.7%=GOAL	3.3%=MOD:qual	3.3%=DERnv	3.3%=FORM
+loc MOD:qual	1	0%	100%	0%	100%=GOAL
+other	8	0%	100%	0%	50%=ARG	25%=OTHER	12.5%=--	12.5%=GOAL
+pobj:dobj DERvn:core	1	0%	100%	0%	100%=DERvn:patient ARG
+poss	12	0%	100%	0%	33.3%=--	25%=GOAL	16.7%=OTHER	8.3%=ARG]m	8.3%=LOC	8.3%=SOURCE
+poss DERvn:core	1	0%	100%	0%	100%=--
+poss about DERvn:agent TELIC	1	0%	100%	0%	100%=DERvn:patient ARG]m
+poss type	1	0%	100%	0%	100%=--
+resem	1	0%	100%	0%	100%=RESEM
+resem DERva:pas.part	1	0%	100%	0%	100%=--
+resem DERvn:other	1	0%	100%	0%	100%=--
+source	12	0%	100%	0%	66.7%=SOURCE	16.7%=--	8.3%=CONST	8.3%=LOC
+source DERan:qual	1	0%	100%	0%	100%=--
+subj.agent	7	0%	100%	0%	85.7%=SUBJ.agent	14.3%=ABOUT
+subj.agent DERvn:patient	1	0%	100%	0%	100%=SUBJ.patient
+tei.2&gt;	1	0%	100%	0%	100%=--
+time	11	0%	100%	0%	54.5%=TIME:MC	27.3%=--	9.1%=TIME	9.1%=TIME:pre
+type	7	0%	100%	0%	28.6%=OTHER	28.6%=SOURCE	14.3%=--	14.3%=DERnv	14.3%=GOAL
+type DERnn:agent	1	0%	100%	0%	100%=OTHER
+type DERvn:agent	1	0%	100%	0%	100%=GOAL
+type DERvn:core	6	0%	100%	0%	33.3%=PRE:other MOD:qual	33.3%=FORM	16.7%=OTHER	16.7%=GOAL
+type DERvn:core TELIC DERvn:core	1	0%	100%	0%	100%=TELIC]l DERvn:patient TIME:MC
+type inst	1	0%	100%	0%	100%=OTHER OTHER
+type type	1	0%	100%	0%	100%=OTHER
