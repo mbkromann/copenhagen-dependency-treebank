@@ -1,352 +1,352 @@
 <s>
-<W msd="NOM" tag="NOM">Signora</W>
-<W msd="ADJ" tag="ADJ">Presidente</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="ADJ" tag="ADJ">onorevoli</W>
-<W msd="NOM" tag="NOM">colleghi</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRO:refl" tag="PRO:refl">ci</W>
-<W msd="VER:pres" tag="VER:pres">auguriamo</W>
-<W msd="PRO:rela" tag="PRO:rela">che</W>
-<W msd="DET:def" tag="DET:def">i</W>
-<W msd="NOM" tag="NOM">partecipanti</W>
-<W msd="PRE:det" tag="PRE:det">al</W>
-<W msd="NOM" tag="NOM">vertice</W>
-<W msd="PRE" tag="PRE">di</W>
-<W msd="NOM" tag="NOM">Tampere</W>
-<W msd="VER:cpre" tag="VER:cpre">ricordino</W>
-<W msd="PRE" tag="PRE">come</W>
-<W msd="DET:def" tag="DET:def">i</W>
-<W msd="NOM" tag="NOM">movimenti</W>
-<W msd="ADJ" tag="ADJ">migratori</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="ADV" tag="ADV">comunque</W>
-<W msd="ADJ" tag="ADJ">inarrestabili</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="VER:cpre" tag="VER:cpre">siano</W>
-<W msd="PRE:det" tag="PRE:det">alla</W>
-<W msd="NOM" tag="NOM">base</W>
-<W msd="PRE:det" tag="PRE:det">della</W>
-<W msd="NOM" tag="NOM">storia</W>
-<W msd="NOM" tag="NOM">dell</W>
-<W msd="PON" tag="PON">'</W>
-<W msd="NOM" tag="NOM">umanità</W>
-<W msd="NUM" tag="NUM">3</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRE:det" tag="PRE:det">nel</W>
-<W msd="ADJ" tag="ADJ">lungo</W>
-<W msd="NOM" tag="NOM">periodo</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="DET:def" tag="DET:def">il</W>
-<W msd="NOM" tag="NOM">presupposto</W>
-<W msd="PRE:det" tag="PRE:det">della</W>
-<W msd="PRO:poss" tag="PRO:poss">sua</W>
-<W msd="NOM" tag="NOM">salvezza</W>
-<W msd="ADJ" tag="ADJ">collettiva</W>
-<W msd="SENT" tag="SENT">.</W>
-<W msd="PRO:refl" tag="PRO:refl">Ci</W>
-<W msd="VER:pres" tag="VER:pres">auguriamo</W>
-<W msd="ADV" tag="ADV">anche</W>
-<W msd="PRO:rela" tag="PRO:rela">che</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRE" tag="PRE">su</W>
-<W msd="PRO:demo" tag="PRO:demo">queste</W>
-<W msd="NOM" tag="NOM">basi</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRE:det" tag="PRE:det">nel</W>
-<W msd="VER:infi" tag="VER:infi">tentare</W>
-<W msd="PRE" tag="PRE">di</W>
-<W msd="VER:infi" tag="VER:infi">creare</W>
-<W msd="DET:indef" tag="DET:indef">uno</W>
-<W msd="NOM" tag="NOM">spazio</W>
-<W msd="ADJ" tag="ADJ">comune</W>
-<W msd="PRE" tag="PRE">di</W>
-<W msd="NOM" tag="NOM">libertà</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="NOM" tag="NOM">sicurezza</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="NOM" tag="NOM">giustizia</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRO:pers" tag="PRO:pers">essi</W>
-<W msd="PRO:refl" tag="PRO:refl">si</W>
-<W msd="VER:cpre" tag="VER:cpre">ispirino</W>
-<W msd="PRE:det" tag="PRE:det">ai</W>
-<W msd="NOM" tag="NOM">principi</W>
-<W msd="PRE:det" tag="PRE:det">della</W>
-<W msd="NOM" tag="NOM">solidarietà</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="NOM" tag="NOM">dell</W>
-<W msd="PON" tag="PON">'</W>
-<W msd="NOM" tag="NOM">inclusione</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="ADV" tag="ADV">non</W>
-<W msd="VER:cpre" tag="VER:cpre">pensino</W>
-<W msd="PRE" tag="PRE">a</W>
-<W msd="VER:infi" tag="VER:infi">realizzare</W>
-<W msd="DET:indef" tag="DET:indef">un</W>
-<W msd="PON" tag="PON">'</W>
-<W msd="NPR" tag="NPR">Europa</W>
-<W msd="ADJ" tag="ADJ">comunitaria</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="ADJ" tag="ADJ">pacifica</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="ADJ" tag="ADJ">opulenta</W>
-<W msd="PRE:det" tag="PRE:det">al</W>
-<W msd="PRO:poss" tag="PRO:poss">suo</W>
-<W msd="NOM" tag="NOM">interno</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="ADJ" tag="ADJ">impenetrabile</W>
-<W msd="PRE" tag="PRE">per</W>
-<W msd="NOM" tag="NOM">quanti</W>
-<W msd="VER:pres" tag="VER:pres">premono</W>
-<W msd="NOM" tag="NOM">dall</W>
-<W msd="PON" tag="PON">'</W>
-<W msd="ADJ" tag="ADJ">esterno</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="VER:pper" tag="VER:pper">spinti</W>
-<W msd="PRE:det" tag="PRE:det">dalla</W>
-<W msd="NOM" tag="NOM">fame</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRE:det" tag="PRE:det">dalla</W>
-<W msd="NOM" tag="NOM">guerra</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="PRE:det" tag="PRE:det">dal</W>
-<W msd="NOM" tag="NOM">disagio</W>
-<W msd="ADJ" tag="ADJ">sociale</W>
-<W msd="SENT" tag="SENT">.</W>
-<W msd="NOM" tag="NOM">Pace</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="NOM" tag="NOM">benessere</W>
-<W msd="ADJ" tag="ADJ">interni</W>
-<W msd="ADV" tag="ADV">non</W>
-<W msd="VER:pres" tag="VER:pres">sono</W>
-<W msd="VER:pper" tag="VER:pper">destinati</W>
-<W msd="PRE" tag="PRE">a</W>
-<W msd="VER:infi" tag="VER:infi">durare</W>
-<W msd="PRE" tag="PRE">a</W>
-<W msd="ADJ" tag="ADJ">lungo</W>
-<W msd="ADJ" tag="ADJ">proprio</W>
-<W msd="NOM" tag="NOM">perché</W>
-<W msd="ADV" tag="ADV">non</W>
-<W msd="NOM" tag="NOM">è</W>
-<W msd="VER:pper" tag="VER:pper">destinata</W>
-<W msd="PRE" tag="PRE">a</W>
-<W msd="VER:infi" tag="VER:infi">durare</W>
-<W msd="PRE" tag="PRE">a</W>
-<W msd="ADJ" tag="ADJ">lungo</W>
-<W msd="DET:def" tag="DET:def">la</W>
-<W msd="NOM" tag="NOM">rassegnazione</W>
-<W msd="PRE" tag="PRE">di</W>
-<W msd="DET:indef" tag="DET:indef">un</W>
-<W msd="NOM" tag="NOM">mondo</W>
-<W msd="ADJ" tag="ADJ">circostante</W>
-<W msd="CON" tag="CON">che</W>
-<W msd="ADJ" tag="ADJ">vive</W>
-<W msd="NOM" tag="NOM">nell</W>
-<W msd="PON" tag="PON">'</W>
-<W msd="NOM" tag="NOM">insicurezza</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRE:det" tag="PRE:det">nel</W>
-<W msd="NOM" tag="NOM">bisogno</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="PRE:det" tag="PRE:det">nel</W>
-<W msd="NOM" tag="NOM">caos</W>
-<W msd="SENT" tag="SENT">.</W>
-<W msd="VER:cond" tag="VER:cond">Sarebbe</W>
-<W msd="DET:indef" tag="DET:indef">una</W>
-<W msd="ADJ" tag="ADJ">grande</W>
-<W msd="NOM" tag="NOM">ipocrisia</W>
-<W msd="VER:infi" tag="VER:infi">assumere</W>
-<W msd="DET:def" tag="DET:def">la</W>
-<W msd="NOM" tag="NOM">lotta</W>
-<W msd="PRE:det" tag="PRE:det">alla</W>
-<W msd="NOM" tag="NOM">discriminazione</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRE:det" tag="PRE:det">al</W>
-<W msd="NOM" tag="NOM">razzismo</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRE:det" tag="PRE:det">alla</W>
-<W msd="NOM" tag="NOM">xenofobia</W>
-<W msd="PRE" tag="PRE">come</W>
-<W msd="NOM" tag="NOM">principio</W>
-<W msd="VER:ppre" tag="VER:ppre">fondante</W>
-<W msd="NOM" tag="NOM">dell</W>
-<W msd="PON" tag="PON">'</W>
-<W msd="NPR" tag="NPR">Europa</W>
-<W msd="ADJ" tag="ADJ">comunitaria</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="ADV" tag="ADV">poi</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRE:det" tag="PRE:det">nella</W>
-<W msd="NOM" tag="NOM">prassi</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="VER:infi" tag="VER:infi">attuare</W>
-<W msd="NOM" tag="NOM">politiche</W>
-<W msd="PRE" tag="PRE">di</W>
-<W msd="NOM" tag="NOM">esclusione</W>
-<W msd="PRO:rela" tag="PRO:rela">che</W>
-<W msd="VER:cpre" tag="VER:cpre">rafforzino</W>
-<W msd="PRE:det" tag="PRE:det">nei</W>
-<W msd="NOM" tag="NOM">cittadini</W>
-<W msd="NOM" tag="NOM">dell</W>
-<W msd="PON" tag="PON">'</W>
-<W msd="NOM" tag="NOM">Unione</W>
-<W msd="DET:def" tag="DET:def">le</W>
-<W msd="NOM" tag="NOM">paure</W>
-<W msd="PRE:det" tag="PRE:det">della</W>
-<W msd="NOM" tag="NOM">contaminazione</W>
-<W msd="PRE" tag="PRE">con</W>
-<W msd="DET:def" tag="DET:def">i</W>
-<W msd="ADJ" tag="ADJ">diversi</W>
-<W msd="PRE" tag="PRE">da</W>
-<W msd="PRO:pers" tag="PRO:pers">noi</W>
-<W msd="SENT" tag="SENT">.</W>
-<W msd="PRE" tag="PRE">In</W>
-<W msd="PRO:rela" tag="PRO:rela">che</W>
-<W msd="NOM" tag="NOM">cosa</W>
-<W msd="ADJ" tag="ADJ">diversi</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="ADV" tag="ADV">poi</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="NOM" tag="NOM">è</W>
-<W msd="NOM" tag="NOM">riflessione</W>
-<W msd="PRO:rela" tag="PRO:rela">che</W>
-<W msd="VER:cpre" tag="VER:cpre">lasciamo</W>
-<W msd="ADV" tag="ADV">volentieri</W>
-<W msd="PRE:det" tag="PRE:det">ai</W>
-<W msd="NOM" tag="NOM">razzisti</W>
-<W msd="SENT" tag="SENT">.</W>
-<W msd="VER:cond" tag="VER:cond">Vorremmo</W>
-<W msd="ADV" tag="ADV">anche</W>
-<W msd="PRO:rela" tag="PRO:rela">che</W>
-<W msd="DET:def" tag="DET:def">lo</W>
-<W msd="NOM" tag="NOM">spazio</W>
-<W msd="PRE" tag="PRE">di</W>
-<W msd="NOM" tag="NOM">libertà</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="NOM" tag="NOM">sicurezza</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="NOM" tag="NOM">giustizia</W>
-<W msd="VER:cimp" tag="VER:cimp">tendesse</W>
-<W msd="PRE" tag="PRE">ad</W>
-<W msd="VER:infi" tag="VER:infi">innalzare</W>
-<W msd="DET:def" tag="DET:def">il</W>
-<W msd="NOM" tag="NOM">livello</W>
-<W msd="PRE:det" tag="PRE:det">delle</W>
-<W msd="NOM" tag="NOM">garanzie</W>
-<W msd="PRE" tag="PRE">per</W>
-<W msd="PRO:indef" tag="PRO:indef">tutti</W>
-<W msd="PON" tag="PON">-</W>
-<W msd="CON" tag="CON">sia</W>
-<W msd="PRE" tag="PRE">per</W>
-<W msd="DET:def" tag="DET:def">i</W>
-<W msd="NOM" tag="NOM">cittadini</W>
-<W msd="NOM" tag="NOM">dell</W>
-<W msd="PON" tag="PON">'</W>
-<W msd="NOM" tag="NOM">Unione</W>
-<W msd="CON" tag="CON">che</W>
-<W msd="PRE" tag="PRE">per</W>
-<W msd="DET:def" tag="DET:def">gli</W>
-<W msd="ADJ" tag="ADJ">extracomunitari</W>
-<W msd="PON" tag="PON">-</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="PRO:rela" tag="PRO:rela">che</W>
-<W msd="ADV" tag="ADV">non</W>
-<W msd="PRO:refl" tag="PRO:refl">ci</W>
-<W msd="PRO:refl" tag="PRO:refl">si</W>
-<W msd="VER:cimp" tag="VER:cimp">fermasse</W>
-<W msd="PRE" tag="PRE">ad</W>
-<W msd="VER:infi" tag="VER:infi">enunciare</W>
-<W msd="DET:def" tag="DET:def">le</W>
-<W msd="NOM" tag="NOM">garanzie</W>
-<W msd="ADJ" tag="ADJ">formali</W>
-<W msd="CON" tag="CON">ma</W>
-<W msd="PRO:pers" tag="PRO:pers">si</W>
-<W msd="VER:cimp" tag="VER:cimp">pensasse</W>
-<W msd="ADV" tag="ADV">anche</W>
-<W msd="PRE" tag="PRE">a</W>
-<W msd="VER:infi" tag="VER:infi">realizzare</W>
-<W msd="DET:def" tag="DET:def">le</W>
-<W msd="NOM" tag="NOM">garanzie</W>
-<W msd="ADJ" tag="ADJ">sostanziali</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="CON" tag="CON">come</W>
-<W msd="PRO:demo" tag="PRO:demo">quelle</W>
-<W msd="PRE:det" tag="PRE:det">del</W>
-<W msd="NOM" tag="NOM">lavoro</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRE:det" tag="PRE:det">della</W>
-<W msd="NOM" tag="NOM">sicurezza</W>
-<W msd="ADJ" tag="ADJ">sociale</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRE:det" tag="PRE:det">della</W>
-<W msd="NOM" tag="NOM">libertà</W>
-<W msd="ADJ" tag="ADJ">personale</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="NOM" tag="NOM">dell</W>
-<W msd="PON" tag="PON">'</W>
-<W msd="NOM" tag="NOM">uguaglianza</W>
-<W msd="PRE" tag="PRE">tra</W>
-<W msd="NOM" tag="NOM">donne</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="NOM" tag="NOM">uomini</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="PRE" tag="PRE">di</W>
-<W msd="ADJ" tag="ADJ">tante</W>
-<W msd="ADJ" tag="ADJ">altre</W>
-<W msd="ADV" tag="ADV">oggi</W>
-<W msd="ADJ" tag="ADJ">sacrificate</W>
-<W msd="NOM" tag="NOM">sull</W>
-<W msd="PON" tag="PON">'</W>
-<W msd="NOM" tag="NOM">altare</W>
-<W msd="PRE:det" tag="PRE:det">della</W>
-<W msd="NOM" tag="NOM">competizione</W>
-<W msd="PON" tag="PON">:</W>
-<W msd="DET:indef" tag="DET:indef">una</W>
-<W msd="NOM" tag="NOM">competizione</W>
-<W msd="ADJ" tag="ADJ">globale</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="ADV" tag="ADV">tanto</W>
-<W msd="ADJ" tag="ADJ">cara</W>
-<W msd="PRE:det" tag="PRE:det">alla</W>
-<W msd="NOM" tag="NOM">Commissione</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="PRE:det" tag="PRE:det">al</W>
-<W msd="PRO:poss" tag="PRO:poss">suo</W>
-<W msd="NOM" tag="NOM">Presidente</W>
-<W msd="SENT" tag="SENT">.</W>
-<W msd="CON" tag="CON">E</W>
-<W msd="PON" tag="PON">'</W>
-<W msd="PRO:demo" tag="PRO:demo">questa</W>
-<W msd="NOM" tag="NOM">strategia</W>
-<W msd="ADJ" tag="ADJ">neoliberista</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="DET:indef" tag="DET:indef">una</W>
-<W msd="ADJ" tag="ADJ">tipica</W>
-<W msd="NOM" tag="NOM">strategia</W>
-<W msd="PRE" tag="PRE">di</W>
-<W msd="NOM" tag="NOM">esclusione</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="PRO:rela" tag="PRO:rela">che</W>
-<W msd="PRO:refl" tag="PRO:refl">ci</W>
-<W msd="VER:pres" tag="VER:pres">rende</W>
-<W msd="ADJ" tag="ADJ">scettici</W>
-<W msd="ADV" tag="ADV">anche</W>
-<W msd="PRE:det" tag="PRE:det">sul</W>
-<W msd="NOM" tag="NOM">Vertice</W>
-<W msd="PRE" tag="PRE">di</W>
-<W msd="NOM" tag="NOM">Tampere</W>
-<W msd="PON" tag="PON">,</W>
-<W msd="CON" tag="CON">e</W>
-<W msd="VER:cond" tag="VER:cond">saremmo</W>
-<W msd="NOM" tag="NOM">ingenui</W>
-<W msd="PRE" tag="PRE">a</W>
-<W msd="VER:infi" tag="VER:infi">sperare</W>
-<W msd="PRO:rela" tag="PRO:rela">che</W>
-<W msd="DET:def" tag="DET:def">il</W>
-<W msd="PRO:poss" tag="PRO:poss">nostro</W>
-<W msd="NOM" tag="NOM">scetticismo</W>
-<W msd="NOM" tag="NOM">sarà</W>
-<W msd="VER:pper" tag="VER:pper">smentito</W>
-<W msd="SENT" tag="SENT">.</W>
+<W id="1" msd="NOM" tag="NOM" in="" out="">Signora</W>
+<W id="2" msd="ADJ" tag="ADJ" in="" out="">Presidente</W>
+<W id="3" msd="PON" tag="PON" in="" out="">,</W>
+<W id="4" msd="ADJ" tag="ADJ" in="" out="">onorevoli</W>
+<W id="5" msd="NOM" tag="NOM" in="" out="">colleghi</W>
+<W id="6" msd="PON" tag="PON" in="" out="">,</W>
+<W id="7" msd="PRO&3a;refl" tag="PRO&3a;refl" in="" out="">ci</W>
+<W id="8" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="39:coref">auguriamo</W>
+<W id="9" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="10" msd="DET&3a;def" tag="DET&3a;def" in="" out="">i</W>
+<W id="11" msd="NOM" tag="NOM" in="" out="">partecipanti</W>
+<W id="12" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">al</W>
+<W id="13" msd="NOM" tag="NOM" in="" out="">vertice</W>
+<W id="14" msd="PRE" tag="PRE" in="" out="">di</W>
+<W id="15" msd="NOM" tag="NOM" in="" out="">Tampere</W>
+<W id="16" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">ricordino</W>
+<W id="17" msd="PRE" tag="PRE" in="" out="">come</W>
+<W id="18" msd="DET&3a;def" tag="DET&3a;def" in="" out="51:coref">i</W>
+<W id="19" msd="NOM" tag="NOM" in="" out="">movimenti</W>
+<W id="20" msd="ADJ" tag="ADJ" in="" out="">migratori</W>
+<W id="21" msd="PON" tag="PON" in="" out="">,</W>
+<W id="22" msd="ADV" tag="ADV" in="" out="">comunque</W>
+<W id="23" msd="ADJ" tag="ADJ" in="" out="">inarrestabili</W>
+<W id="24" msd="PON" tag="PON" in="" out="">,</W>
+<W id="25" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="27:assoc-telic">siano</W>
+<W id="26" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">alla</W>
+<W id="27" msd="NOM" tag="NOM" in="" out="">base</W>
+<W id="28" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
+<W id="29" msd="NOM" tag="NOM" in="" out="">storia</W>
+<W id="30" msd="NOM" tag="NOM" in="" out="12:coref">dell</W>
+<W id="31" msd="PON" tag="PON" in="" out="">'</W>
+<W id="32" msd="NOM" tag="NOM" in="" out="">umanità</W>
+<W id="33" msd="NUM" tag="NUM" in="" out="">3</W>
+<W id="34" msd="PON" tag="PON" in="" out="">,</W>
+<W id="35" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nel</W>
+<W id="36" msd="ADJ" tag="ADJ" in="" out="">lungo</W>
+<W id="37" msd="NOM" tag="NOM" in="" out="">periodo</W>
+<W id="38" msd="PON" tag="PON" in="" out="">,</W>
+<W id="39" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
+<W id="40" msd="NOM" tag="NOM" in="" out="">presupposto</W>
+<W id="41" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
+<W id="42" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-12:coref" out="">sua</W>
+<W id="43" msd="NOM" tag="NOM" in="" out="">salvezza</W>
+<W id="44" msd="ADJ" tag="ADJ" in="" out="">collettiva</W>
+<W id="45" msd="SENT" tag="SENT" in="" out="">.</W>
+<W id="46" msd="PRO&3a;refl" tag="PRO&3a;refl" in="" out="">Ci</W>
+<W id="47" msd="VER&3a;pres" tag="VER&3a;pres" in="-39:coref" out="154:coref">auguriamo</W>
+<W id="48" msd="ADV" tag="ADV" in="" out="">anche</W>
+<W id="49" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="50" msd="PON" tag="PON" in="" out="">,</W>
+<W id="51" msd="PRE" tag="PRE" in="" out="">su</W>
+<W id="52" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-27:assoc-telic" out="">queste</W>
+<W id="53" msd="NOM" tag="NOM" in="" out="">basi</W>
+<W id="54" msd="PON" tag="PON" in="" out="">,</W>
+<W id="55" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nel</W>
+<W id="56" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">tentare</W>
+<W id="57" msd="PRE" tag="PRE" in="" out="">di</W>
+<W id="58" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">creare</W>
+<W id="59" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">uno</W>
+<W id="60" msd="NOM" tag="NOM" in="" out="">spazio</W>
+<W id="61" msd="ADJ" tag="ADJ" in="" out="">comune</W>
+<W id="62" msd="PRE" tag="PRE" in="" out="">di</W>
+<W id="63" msd="NOM" tag="NOM" in="" out="">libertà</W>
+<W id="64" msd="PON" tag="PON" in="" out="">,</W>
+<W id="65" msd="NOM" tag="NOM" in="" out="">sicurezza</W>
+<W id="66" msd="CON" tag="CON" in="" out="">e</W>
+<W id="67" msd="NOM" tag="NOM" in="" out="">giustizia</W>
+<W id="68" msd="PON" tag="PON" in="" out="">,</W>
+<W id="69" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-51:coref" out="">essi</W>
+<W id="70" msd="PRO&3a;refl" tag="PRO&3a;refl" in="" out="">si</W>
+<W id="71" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">ispirino</W>
+<W id="72" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">ai</W>
+<W id="73" msd="NOM" tag="NOM" in="" out="">principi</W>
+<W id="74" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
+<W id="75" msd="NOM" tag="NOM" in="" out="">solidarietà</W>
+<W id="76" msd="CON" tag="CON" in="" out="">e</W>
+<W id="77" msd="NOM" tag="NOM" in="" out="">dell</W>
+<W id="78" msd="PON" tag="PON" in="" out="">'</W>
+<W id="79" msd="NOM" tag="NOM" in="" out="">inclusione</W>
+<W id="80" msd="CON" tag="CON" in="" out="">e</W>
+<W id="81" msd="ADV" tag="ADV" in="" out="">non</W>
+<W id="82" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">pensino</W>
+<W id="83" msd="PRE" tag="PRE" in="" out="">a</W>
+<W id="84" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">realizzare</W>
+<W id="85" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="9:coref">un</W>
+<W id="86" msd="PON" tag="PON" in="" out="">'</W>
+<W id="87" msd="NPR" tag="NPR" in="" out="">Europa</W>
+<W id="88" msd="ADJ" tag="ADJ" in="" out="">comunitaria</W>
+<W id="89" msd="PON" tag="PON" in="" out="">,</W>
+<W id="90" msd="ADJ" tag="ADJ" in="" out="">pacifica</W>
+<W id="91" msd="CON" tag="CON" in="" out="">e</W>
+<W id="92" msd="ADJ" tag="ADJ" in="" out="">opulenta</W>
+<W id="93" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">al</W>
+<W id="94" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-9:coref" out="78:coref-var">suo</W>
+<W id="95" msd="NOM" tag="NOM" in="" out="">interno</W>
+<W id="96" msd="CON" tag="CON" in="" out="">e</W>
+<W id="97" msd="ADJ" tag="ADJ" in="" out="">impenetrabile</W>
+<W id="98" msd="PRE" tag="PRE" in="" out="">per</W>
+<W id="99" msd="NOM" tag="NOM" in="" out="">quanti</W>
+<W id="100" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">premono</W>
+<W id="101" msd="NOM" tag="NOM" in="" out="">dall</W>
+<W id="102" msd="PON" tag="PON" in="" out="">'</W>
+<W id="103" msd="ADJ" tag="ADJ" in="" out="">esterno</W>
+<W id="104" msd="PON" tag="PON" in="" out="">,</W>
+<W id="105" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">spinti</W>
+<W id="106" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dalla</W>
+<W id="107" msd="NOM" tag="NOM" in="" out="">fame</W>
+<W id="108" msd="PON" tag="PON" in="" out="">,</W>
+<W id="109" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dalla</W>
+<W id="110" msd="NOM" tag="NOM" in="" out="">guerra</W>
+<W id="111" msd="CON" tag="CON" in="" out="">e</W>
+<W id="112" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dal</W>
+<W id="113" msd="NOM" tag="NOM" in="" out="">disagio</W>
+<W id="114" msd="ADJ" tag="ADJ" in="" out="">sociale</W>
+<W id="115" msd="SENT" tag="SENT" in="" out="">.</W>
+<W id="116" msd="NOM" tag="NOM" in="" out="">Pace</W>
+<W id="117" msd="CON" tag="CON" in="" out="">e</W>
+<W id="118" msd="NOM" tag="NOM" in="" out="">benessere</W>
+<W id="119" msd="ADJ" tag="ADJ" in="" out="">interni</W>
+<W id="120" msd="ADV" tag="ADV" in="" out="">non</W>
+<W id="121" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">sono</W>
+<W id="122" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">destinati</W>
+<W id="123" msd="PRE" tag="PRE" in="" out="">a</W>
+<W id="124" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">durare</W>
+<W id="125" msd="PRE" tag="PRE" in="" out="">a</W>
+<W id="126" msd="ADJ" tag="ADJ" in="" out="">lungo</W>
+<W id="127" msd="ADJ" tag="ADJ" in="" out="">proprio</W>
+<W id="128" msd="NOM" tag="NOM" in="" out="">perché</W>
+<W id="129" msd="ADV" tag="ADV" in="" out="">non</W>
+<W id="130" msd="NOM" tag="NOM" in="" out="">è</W>
+<W id="131" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">destinata</W>
+<W id="132" msd="PRE" tag="PRE" in="" out="">a</W>
+<W id="133" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">durare</W>
+<W id="134" msd="PRE" tag="PRE" in="" out="">a</W>
+<W id="135" msd="ADJ" tag="ADJ" in="" out="">lungo</W>
+<W id="136" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
+<W id="137" msd="NOM" tag="NOM" in="" out="">rassegnazione</W>
+<W id="138" msd="PRE" tag="PRE" in="" out="">di</W>
+<W id="139" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">un</W>
+<W id="140" msd="NOM" tag="NOM" in="" out="">mondo</W>
+<W id="141" msd="ADJ" tag="ADJ" in="" out="">circostante</W>
+<W id="142" msd="CON" tag="CON" in="" out="">che</W>
+<W id="143" msd="ADJ" tag="ADJ" in="" out="">vive</W>
+<W id="144" msd="NOM" tag="NOM" in="" out="">nell</W>
+<W id="145" msd="PON" tag="PON" in="" out="">'</W>
+<W id="146" msd="NOM" tag="NOM" in="" out="">insicurezza</W>
+<W id="147" msd="PON" tag="PON" in="" out="">,</W>
+<W id="148" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nel</W>
+<W id="149" msd="NOM" tag="NOM" in="" out="">bisogno</W>
+<W id="150" msd="CON" tag="CON" in="" out="">e</W>
+<W id="151" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nel</W>
+<W id="152" msd="NOM" tag="NOM" in="" out="">caos</W>
+<W id="153" msd="SENT" tag="SENT" in="" out="">.</W>
+<W id="154" msd="VER&3a;cond" tag="VER&3a;cond" in="" out="">Sarebbe</W>
+<W id="155" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
+<W id="156" msd="ADJ" tag="ADJ" in="" out="">grande</W>
+<W id="157" msd="NOM" tag="NOM" in="" out="">ipocrisia</W>
+<W id="158" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">assumere</W>
+<W id="159" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
+<W id="160" msd="NOM" tag="NOM" in="" out="">lotta</W>
+<W id="161" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">alla</W>
+<W id="162" msd="NOM" tag="NOM" in="" out="">discriminazione</W>
+<W id="163" msd="PON" tag="PON" in="" out="">,</W>
+<W id="164" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">al</W>
+<W id="165" msd="NOM" tag="NOM" in="" out="">razzismo</W>
+<W id="166" msd="PON" tag="PON" in="" out="">,</W>
+<W id="167" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">alla</W>
+<W id="168" msd="NOM" tag="NOM" in="" out="">xenofobia</W>
+<W id="169" msd="PRE" tag="PRE" in="" out="">come</W>
+<W id="170" msd="NOM" tag="NOM" in="" out="">principio</W>
+<W id="171" msd="VER&3a;ppre" tag="VER&3a;ppre" in="" out="">fondante</W>
+<W id="172" msd="NOM" tag="NOM" in="-78:coref-var" out="18:coref-var">dell</W>
+<W id="173" msd="PON" tag="PON" in="" out="">'</W>
+<W id="174" msd="NPR" tag="NPR" in="" out="">Europa</W>
+<W id="175" msd="ADJ" tag="ADJ" in="" out="">comunitaria</W>
+<W id="176" msd="CON" tag="CON" in="" out="">e</W>
+<W id="177" msd="ADV" tag="ADV" in="" out="">poi</W>
+<W id="178" msd="PON" tag="PON" in="" out="">,</W>
+<W id="179" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nella</W>
+<W id="180" msd="NOM" tag="NOM" in="" out="">prassi</W>
+<W id="181" msd="PON" tag="PON" in="" out="">,</W>
+<W id="182" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">attuare</W>
+<W id="183" msd="NOM" tag="NOM" in="" out="">politiche</W>
+<W id="184" msd="PRE" tag="PRE" in="" out="">di</W>
+<W id="185" msd="NOM" tag="NOM" in="" out="">esclusione</W>
+<W id="186" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="187" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">rafforzino</W>
+<W id="188" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nei</W>
+<W id="189" msd="NOM" tag="NOM" in="" out="">cittadini</W>
+<W id="190" msd="NOM" tag="NOM" in="-18:coref-var" out="53:coref-iden">dell</W>
+<W id="191" msd="PON" tag="PON" in="" out="">'</W>
+<W id="192" msd="NOM" tag="NOM" in="" out="">Unione</W>
+<W id="193" msd="DET&3a;def" tag="DET&3a;def" in="" out="">le</W>
+<W id="194" msd="NOM" tag="NOM" in="" out="">paure</W>
+<W id="195" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
+<W id="196" msd="NOM" tag="NOM" in="" out="">contaminazione</W>
+<W id="197" msd="PRE" tag="PRE" in="" out="">con</W>
+<W id="198" msd="DET&3a;def" tag="DET&3a;def" in="" out="">i</W>
+<W id="199" msd="ADJ" tag="ADJ" in="" out="">diversi</W>
+<W id="200" msd="PRE" tag="PRE" in="" out="">da</W>
+<W id="201" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-154:coref" out="12:coref">noi</W>
+<W id="202" msd="SENT" tag="SENT" in="" out="">.</W>
+<W id="203" msd="PRE" tag="PRE" in="" out="">In</W>
+<W id="204" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="205" msd="NOM" tag="NOM" in="" out="">cosa</W>
+<W id="206" msd="ADJ" tag="ADJ" in="" out="">diversi</W>
+<W id="207" msd="PON" tag="PON" in="" out="">,</W>
+<W id="208" msd="ADV" tag="ADV" in="" out="">poi</W>
+<W id="209" msd="PON" tag="PON" in="" out="">,</W>
+<W id="210" msd="NOM" tag="NOM" in="" out="">è</W>
+<W id="211" msd="NOM" tag="NOM" in="" out="">riflessione</W>
+<W id="212" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="213" msd="VER&3a;cpre" tag="VER&3a;cpre" in="-12:coref" out="5:coref">lasciamo</W>
+<W id="214" msd="ADV" tag="ADV" in="" out="">volentieri</W>
+<W id="215" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">ai</W>
+<W id="216" msd="NOM" tag="NOM" in="" out="">razzisti</W>
+<W id="217" msd="SENT" tag="SENT" in="" out="">.</W>
+<W id="218" msd="VER&3a;cond" tag="VER&3a;cond" in="-5:coref" out="112:coref">Vorremmo</W>
+<W id="219" msd="ADV" tag="ADV" in="" out="">anche</W>
+<W id="220" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="221" msd="DET&3a;def" tag="DET&3a;def" in="" out="">lo</W>
+<W id="222" msd="NOM" tag="NOM" in="" out="">spazio</W>
+<W id="223" msd="PRE" tag="PRE" in="" out="">di</W>
+<W id="224" msd="NOM" tag="NOM" in="" out="">libertà</W>
+<W id="225" msd="PON" tag="PON" in="" out="">,</W>
+<W id="226" msd="NOM" tag="NOM" in="" out="">sicurezza</W>
+<W id="227" msd="CON" tag="CON" in="" out="">e</W>
+<W id="228" msd="NOM" tag="NOM" in="" out="">giustizia</W>
+<W id="229" msd="VER&3a;cimp" tag="VER&3a;cimp" in="" out="">tendesse</W>
+<W id="230" msd="PRE" tag="PRE" in="" out="">ad</W>
+<W id="231" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">innalzare</W>
+<W id="232" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
+<W id="233" msd="NOM" tag="NOM" in="" out="">livello</W>
+<W id="234" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">delle</W>
+<W id="235" msd="NOM" tag="NOM" in="" out="">garanzie</W>
+<W id="236" msd="PRE" tag="PRE" in="" out="">per</W>
+<W id="237" msd="PRO&3a;indef" tag="PRO&3a;indef" in="" out="">tutti</W>
+<W id="238" msd="PON" tag="PON" in="" out="">-</W>
+<W id="239" msd="CON" tag="CON" in="" out="">sia</W>
+<W id="240" msd="PRE" tag="PRE" in="" out="">per</W>
+<W id="241" msd="DET&3a;def" tag="DET&3a;def" in="" out="">i</W>
+<W id="242" msd="NOM" tag="NOM" in="" out="">cittadini</W>
+<W id="243" msd="NOM" tag="NOM" in="-53:coref-iden" out="">dell</W>
+<W id="244" msd="PON" tag="PON" in="" out="">'</W>
+<W id="245" msd="NOM" tag="NOM" in="" out="">Unione</W>
+<W id="246" msd="CON" tag="CON" in="" out="">che</W>
+<W id="247" msd="PRE" tag="PRE" in="" out="">per</W>
+<W id="248" msd="DET&3a;def" tag="DET&3a;def" in="" out="">gli</W>
+<W id="249" msd="ADJ" tag="ADJ" in="" out="">extracomunitari</W>
+<W id="250" msd="PON" tag="PON" in="" out="">-</W>
+<W id="251" msd="CON" tag="CON" in="" out="">e</W>
+<W id="252" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="253" msd="ADV" tag="ADV" in="" out="">non</W>
+<W id="254" msd="PRO&3a;refl" tag="PRO&3a;refl" in="" out="">ci</W>
+<W id="255" msd="PRO&3a;refl" tag="PRO&3a;refl" in="" out="">si</W>
+<W id="256" msd="VER&3a;cimp" tag="VER&3a;cimp" in="" out="">fermasse</W>
+<W id="257" msd="PRE" tag="PRE" in="" out="">ad</W>
+<W id="258" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">enunciare</W>
+<W id="259" msd="DET&3a;def" tag="DET&3a;def" in="" out="">le</W>
+<W id="260" msd="NOM" tag="NOM" in="" out="">garanzie</W>
+<W id="261" msd="ADJ" tag="ADJ" in="" out="">formali</W>
+<W id="262" msd="CON" tag="CON" in="" out="">ma</W>
+<W id="263" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">si</W>
+<W id="264" msd="VER&3a;cimp" tag="VER&3a;cimp" in="" out="">pensasse</W>
+<W id="265" msd="ADV" tag="ADV" in="" out="">anche</W>
+<W id="266" msd="PRE" tag="PRE" in="" out="">a</W>
+<W id="267" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">realizzare</W>
+<W id="268" msd="DET&3a;def" tag="DET&3a;def" in="" out="">le</W>
+<W id="269" msd="NOM" tag="NOM" in="" out="4:coref-ell">garanzie</W>
+<W id="270" msd="ADJ" tag="ADJ" in="" out="">sostanziali</W>
+<W id="271" msd="PON" tag="PON" in="" out="">,</W>
+<W id="272" msd="CON" tag="CON" in="" out="">come</W>
+<W id="273" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-4:coref-ell" out="">quelle</W>
+<W id="274" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">del</W>
+<W id="275" msd="NOM" tag="NOM" in="" out="">lavoro</W>
+<W id="276" msd="PON" tag="PON" in="" out="">,</W>
+<W id="277" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
+<W id="278" msd="NOM" tag="NOM" in="" out="">sicurezza</W>
+<W id="279" msd="ADJ" tag="ADJ" in="" out="">sociale</W>
+<W id="280" msd="PON" tag="PON" in="" out="">,</W>
+<W id="281" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
+<W id="282" msd="NOM" tag="NOM" in="" out="">libertà</W>
+<W id="283" msd="ADJ" tag="ADJ" in="" out="">personale</W>
+<W id="284" msd="PON" tag="PON" in="" out="">,</W>
+<W id="285" msd="NOM" tag="NOM" in="" out="">dell</W>
+<W id="286" msd="PON" tag="PON" in="" out="">'</W>
+<W id="287" msd="NOM" tag="NOM" in="" out="">uguaglianza</W>
+<W id="288" msd="PRE" tag="PRE" in="" out="">tra</W>
+<W id="289" msd="NOM" tag="NOM" in="" out="">donne</W>
+<W id="290" msd="CON" tag="CON" in="" out="">e</W>
+<W id="291" msd="NOM" tag="NOM" in="" out="">uomini</W>
+<W id="292" msd="CON" tag="CON" in="" out="">e</W>
+<W id="293" msd="PRE" tag="PRE" in="" out="">di</W>
+<W id="294" msd="ADJ" tag="ADJ" in="" out="">tante</W>
+<W id="295" msd="ADJ" tag="ADJ" in="" out="">altre</W>
+<W id="296" msd="ADV" tag="ADV" in="" out="">oggi</W>
+<W id="297" msd="ADJ" tag="ADJ" in="" out="22:coref-res">sacrificate</W>
+<W id="298" msd="NOM" tag="NOM" in="" out="">sull</W>
+<W id="299" msd="PON" tag="PON" in="" out="">'</W>
+<W id="300" msd="NOM" tag="NOM" in="" out="">altare</W>
+<W id="301" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
+<W id="302" msd="NOM" tag="NOM" in="" out="">competizione</W>
+<W id="303" msd="PON" tag="PON" in="" out="">:</W>
+<W id="304" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
+<W id="305" msd="NOM" tag="NOM" in="" out="">competizione</W>
+<W id="306" msd="ADJ" tag="ADJ" in="" out="">globale</W>
+<W id="307" msd="PON" tag="PON" in="" out="">,</W>
+<W id="308" msd="ADV" tag="ADV" in="" out="">tanto</W>
+<W id="309" msd="ADJ" tag="ADJ" in="" out="">cara</W>
+<W id="310" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="0:assoc-frame|4:coref">alla</W>
+<W id="311" msd="NOM" tag="NOM" in="" out="">Commissione</W>
+<W id="312" msd="CON" tag="CON" in="" out="">e</W>
+<W id="313" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">al</W>
+<W id="314" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-4:coref" out="">suo</W>
+<W id="315" msd="NOM" tag="NOM" in="" out="">Presidente</W>
+<W id="316" msd="SENT" tag="SENT" in="" out="">.</W>
+<W id="317" msd="CON" tag="CON" in="" out="">E</W>
+<W id="318" msd="PON" tag="PON" in="" out="">'</W>
+<W id="319" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-22:coref-res" out="">questa</W>
+<W id="320" msd="NOM" tag="NOM" in="" out="">strategia</W>
+<W id="321" msd="ADJ" tag="ADJ" in="" out="">neoliberista</W>
+<W id="322" msd="PON" tag="PON" in="" out="">,</W>
+<W id="323" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
+<W id="324" msd="ADJ" tag="ADJ" in="" out="">tipica</W>
+<W id="325" msd="NOM" tag="NOM" in="" out="">strategia</W>
+<W id="326" msd="PRE" tag="PRE" in="" out="">di</W>
+<W id="327" msd="NOM" tag="NOM" in="" out="">esclusione</W>
+<W id="328" msd="PON" tag="PON" in="" out="">,</W>
+<W id="329" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="330" msd="PRO&3a;refl" tag="PRO&3a;refl" in="-112:coref" out="10:coref">ci</W>
+<W id="331" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">rende</W>
+<W id="332" msd="ADJ" tag="ADJ" in="" out="">scettici</W>
+<W id="333" msd="ADV" tag="ADV" in="" out="">anche</W>
+<W id="334" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">sul</W>
+<W id="335" msd="NOM" tag="NOM" in="" out="">Vertice</W>
+<W id="336" msd="PRE" tag="PRE" in="" out="">di</W>
+<W id="337" msd="NOM" tag="NOM" in="" out="">Tampere</W>
+<W id="338" msd="PON" tag="PON" in="" out="">,</W>
+<W id="339" msd="CON" tag="CON" in="" out="">e</W>
+<W id="340" msd="VER&3a;cond" tag="VER&3a;cond" in="-10:coref" out="6:coref">saremmo</W>
+<W id="341" msd="NOM" tag="NOM" in="" out="">ingenui</W>
+<W id="342" msd="PRE" tag="PRE" in="" out="">a</W>
+<W id="343" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">sperare</W>
+<W id="344" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="345" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
+<W id="346" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-6:coref" out="">nostro</W>
+<W id="347" msd="NOM" tag="NOM" in="" out="">scetticismo</W>
+<W id="348" msd="NOM" tag="NOM" in="" out="">sarà</W>
+<W id="349" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">smentito</W>
+<W id="350" msd="SENT" tag="SENT" in="" out="">.</W>
 </s>
