@@ -39,7 +39,7 @@
 <W id="38" msd="NOM" tag="NOM" in="" out="">vicenda</W>
 <W id="39" msd="ADJ" tag="ADJ" in="" out="">belga</W>
 <W id="40" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">presenta</W>
-<W id="41" msd="NOM" tag="NOM" in="" out="">aspetti</W>
+<W id="41" msd="NOM" tag="NOM" in="" out="27:assoc-const|67:assoc-const|97:assoc-const">aspetti</W>
 <W id="42" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="43" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
 <W id="44" msd="NOM" tag="NOM" in="" out="">così</W>
@@ -66,7 +66,7 @@
 <W id="65" msd="DET&3a;def" tag="DET&3a;def" in="-13:assoc-agentive" out="">le</W>
 <W id="66" msd="NOM" tag="NOM" in="" out="">radici</W>
 <W id="67" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="68" msd="ADJ" tag="ADJ" in="" out="">Primo</W>
+<W id="68" msd="ADJ" tag="ADJ" in="-27:assoc-const" out="">Primo</W>
 <W id="69" msd="NOM" tag="NOM" in="" out="">aspetto</W>
 <W id="70" msd="PON" tag="PON" in="" out="">:</W>
 <W id="71" msd="DET&3a;def" tag="DET&3a;def" in="" out="70:coref-var">le</W>
@@ -106,7 +106,7 @@
 <W id="105" msd="PRE" tag="PRE" in="" out="">tra</W>
 <W id="106" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-5:coref" out="">loro</W>
 <W id="107" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="108" msd="PRE" tag="PRE" in="" out="">Secondo</W>
+<W id="108" msd="PRE" tag="PRE" in="-67:assoc-const" out="">Secondo</W>
 <W id="109" msd="NOM" tag="NOM" in="" out="">aspetto</W>
 <W id="110" msd="PON" tag="PON" in="" out="">:</W>
 <W id="111" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">sembra</W>
@@ -136,7 +136,7 @@
 <W id="135" msd="NOM" tag="NOM" in="" out="">livello</W>
 <W id="136" msd="ADJ" tag="ADJ" in="" out="">internazionale</W>
 <W id="137" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="138" msd="ADJ" tag="ADJ" in="" out="">Terzo</W>
+<W id="138" msd="ADJ" tag="ADJ" in="-97:assoc-const" out="">Terzo</W>
 <W id="139" msd="NOM" tag="NOM" in="" out="">aspetto</W>
 <W id="140" msd="PON" tag="PON" in="" out="">:</W>
 <W id="141" msd="DET&3a;def" tag="DET&3a;def" in="-70:coref-var" out="23:coref-iden">i</W>
@@ -274,7 +274,7 @@
 <W id="273" msd="NOM" tag="NOM" in="" out="">pornografia</W>
 <W id="274" msd="ADJ" tag="ADJ" in="" out="">infantile</W>
 <W id="275" msd="PON" tag="PON" in="" out="">,</W>
-<W id="276" msd="PRO&3a;pers" tag="PRO&3a;pers" in="0:assoc-frame" out="0:assoc-frame|73:coref">ci</W>
+<W id="276" msd="PRO&3a;pers" tag="PRO&3a;pers" in="0:assoc-frame" out="73:coref|0:assoc-frame">ci</W>
 <W id="277" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">imponga</W>
 <W id="278" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
 <W id="279" msd="NOM" tag="NOM" in="" out="">coerenza</W>

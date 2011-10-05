@@ -6,7 +6,7 @@
 <W id="5" msd="NOM" tag="NOM" in="" out="">colleghi</W>
 <W id="6" msd="PON" tag="PON" in="" out="">,</W>
 <W id="7" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nel</W>
-<W id="8" msd="PRO&3a;poss" tag="PRO&3a;poss" in="0:assoc-frame" out="0:assoc-frame|15:coref">nostro</W>
+<W id="8" msd="PRO&3a;poss" tag="PRO&3a;poss" in="0:assoc-frame" out="15:coref|0:assoc-frame">nostro</W>
 <W id="9" msd="NOM" tag="NOM" in="" out="">gruppo</W>
 <W id="10" msd="ADV" tag="ADV" in="" out="">non</W>
 <W id="11" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">c'</W>
@@ -26,7 +26,7 @@
 <W id="25" msd="ADJ" tag="ADJ" in="" out="">arditi</W>
 <W id="26" msd="PRE" tag="PRE" in="" out="">da</W>
 <W id="27" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">bollare</W>
-<W id="28" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame|85:coref-iden|247:coref-iden">la</W>
+<W id="28" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="85:coref-iden|247:coref-iden|0:assoc-frame">la</W>
 <W id="29" msd="NOM" tag="NOM" in="" out="">Commissione</W>
 <W id="30" msd="PRE" tag="PRE" in="" out="">come</W>
 <W id="31" msd="NOM" tag="NOM" in="" out="">irresponsabile</W>
@@ -94,8 +94,8 @@
 <W id="93" msd="PON" tag="PON" in="" out="">,</W>
 <W id="94" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">riguarda</W>
 <W id="95" msd="DET&3a;def" tag="DET&3a;def" in="" out="">gli</W>
-<W id="96" msd="NOM" tag="NOM" in="" out="">aspetti</W>
-<W id="97" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="96" msd="NOM" tag="NOM" in="" out="1:ref">aspetti</W>
+<W id="97" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="98" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">interagiscono</W>
 <W id="99" msd="PRE" tag="PRE" in="" out="">con</W>
 <W id="100" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">un'</W>
@@ -172,9 +172,9 @@
 <W id="171" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">si</W>
 <W id="172" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">va</W>
 <W id="173" msd="PRE" tag="PRE" in="" out="">verso</W>
-<W id="174" msd="NOM" tag="NOM" in="" out="">decisioni</W>
-<W id="175" msd="PRO&3a;rela" tag="PRO&3a;rela" in="1:ref" out="">che</W>
-<W id="176" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="-1:ref">avallano</W>
+<W id="174" msd="NOM" tag="NOM" in="" out="1:ref">decisioni</W>
+<W id="175" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
+<W id="176" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">avallano</W>
 <W id="177" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">un</W>
 <W id="178" msd="NOM" tag="NOM" in="" out="">aumento</W>
 <W id="179" msd="ADJ" tag="ADJ" in="" out="">massiccio</W>
@@ -185,8 +185,8 @@
 <W id="184" msd="ADJ" tag="ADJ" in="" out="">certa</W>
 <W id="185" msd="NOM" tag="NOM" in="" out="">tossina</W>
 <W id="186" msd="PON" tag="PON" in="" out="">,</W>
-<W id="187" msd="NOM" tag="NOM" in="" out="">tossina</W>
-<W id="188" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="187" msd="NOM" tag="NOM" in="" out="1:ref">tossina</W>
+<W id="188" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="189" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">comporta</W>
 <W id="190" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
 <W id="191" msd="NOM" tag="NOM" in="" out="">rischio</W>
@@ -272,7 +272,7 @@
 <W id="271" msd="NOM" tag="NOM" in="" out="">È</W>
 <W id="272" msd="ADJ" tag="ADJ" in="" out="">proprio</W>
 <W id="273" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nella</W>
-<W id="274" msd="NOM" tag="NOM" in="" out="">comunicazione</W>
+<W id="274" msd="NOM" tag="NOM" in="" out="10:ref">comunicazione</W>
 <W id="275" msd="PRE&3a;det" tag="PRE&3a;det" in="-247:coref-iden" out="">della</W>
 <W id="276" msd="NOM" tag="NOM" in="" out="">Commissione</W>
 <W id="277" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">del</W>
@@ -282,7 +282,7 @@
 <W id="281" msd="NOM" tag="NOM" in="" out="">futuro</W>
 <W id="282" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="11:coref-var">delle</W>
 <W id="283" msd="NOM" tag="NOM" in="" out="">biotecnologie</W>
-<W id="284" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="284" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-10:ref" out="">che</W>
 <W id="285" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">si</W>
 <W id="286" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">mette</W>
 <W id="287" msd="PRE" tag="PRE" in="" out="">in</W>

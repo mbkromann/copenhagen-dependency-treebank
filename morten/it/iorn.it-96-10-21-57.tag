@@ -30,7 +30,7 @@
 <W id="29" msd="NOM" tag="NOM" in="" out="">programma</W>
 <W id="30" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="31" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">Mi</W>
-<W id="32" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">riferisco</W>
+<W id="32" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="156:coref">riferisco</W>
 <W id="33" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">alla</W>
 <W id="34" msd="NOM" tag="NOM" in="" out="">cultura</W>
 <W id="35" msd="PON" tag="PON" in="" out="">,</W>
@@ -106,7 +106,7 @@
 <W id="105" msd="NOM" tag="NOM" in="" out="">è</W>
 <W id="106" msd="NOM" tag="NOM" in="" out="">più</W>
 <W id="107" msd="NOM" tag="NOM" in="" out="">proprietà</W>
-<W id="108" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="0:assoc-frame|46:coref-iden">dei</W>
+<W id="108" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="0:assoc-frame|46:coref-iden.sb">dei</W>
 <W id="109" msd="ADJ" tag="ADJ" in="" out="">singoli</W>
 <W id="110" msd="NOM" tag="NOM" in="" out="">Stati</W>
 <W id="111" msd="NOM" tag="NOM" in="" out="">membri</W>
@@ -114,10 +114,10 @@
 <W id="113" msd="NOM" tag="NOM" in="" out="">bensì</W>
 <W id="114" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="115" msd="ADJ" tag="ADJ" in="" out="">tutta</W>
-<W id="116" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame">la</W>
+<W id="116" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame|3:assoc-const">la</W>
 <W id="117" msd="NOM" tag="NOM" in="" out="">Comunità</W>
 <W id="118" msd="PON" tag="PON" in="" out="">;</W>
-<W id="119" msd="ADJ" tag="ADJ" in="0:assoc-frame" out="0:assoc-frame">tutte</W>
+<W id="119" msd="ADJ" tag="ADJ" in="-3:assoc-const" out="">tutte</W>
 <W id="120" msd="DET&3a;def" tag="DET&3a;def" in="" out="">le</W>
 <W id="121" msd="NOM" tag="NOM" in="" out="">nazioni</W>
 <W id="122" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="36:coref-res">hanno</W>
@@ -152,7 +152,7 @@
 <W id="151" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">ospitati</W>
 <W id="152" msd="CON" tag="CON" in="" out="">e</W>
 <W id="153" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">gestiti</W>
-<W id="154" msd="PRE&3a;det" tag="PRE&3a;det" in="-46:coref-iden" out="">dagli</W>
+<W id="154" msd="PRE&3a;det" tag="PRE&3a;det" in="-46:coref-iden.sb" out="">dagli</W>
 <W id="155" msd="ADJ" tag="ADJ" in="" out="">Stati</W>
 <W id="156" msd="NOM" tag="NOM" in="" out="">membri</W>
 <W id="157" msd="SENT" tag="SENT" in="" out="">.</W>
@@ -186,7 +186,7 @@
 <W id="185" msd="ADJ" tag="ADJ" in="" out="">europeo</W>
 <W id="186" msd="PRE" tag="PRE" in="" out="">in</W>
 <W id="187" msd="NOM" tag="NOM" in="" out="">proposito</W>
-<W id="188" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">ritengo</W>
+<W id="188" msd="VER&3a;pres" tag="VER&3a;pres" in="-156:coref" out="">ritengo</W>
 <W id="189" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="190" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="6:assoc-telic">abbia</W>
 <W id="191" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">fornito</W>
@@ -196,7 +196,7 @@
 <W id="195" msd="PRE" tag="PRE" in="" out="">Per</W>
 <W id="196" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-22:assoc-telic|-6:assoc-telic" out="">tali</W>
 <W id="197" msd="NOM" tag="NOM" in="" out="">motivi</W>
-<W id="198" msd="VER&3a;futu" tag="VER&3a;futu" in="" out="">voteremo</W>
+<W id="198" msd="VER&3a;futu" tag="VER&3a;futu" in="" out="8:coref">voteremo</W>
 <W id="199" msd="PRE" tag="PRE" in="" out="">a</W>
 <W id="200" msd="NOM" tag="NOM" in="" out="">favore</W>
 <W id="201" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dell'</W>
@@ -204,7 +204,7 @@
 <W id="203" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="7:coref-var">della</W>
 <W id="204" msd="NOM" tag="NOM" in="" out="">dotazione</W>
 <W id="205" msd="CON" tag="CON" in="" out="">e</W>
-<W id="206" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">insistiamo</W>
+<W id="206" msd="VER&3a;cpre" tag="VER&3a;cpre" in="-8:coref" out="">insistiamo</W>
 <W id="207" msd="NOM" tag="NOM" in="" out="">affinché</W>
 <W id="208" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
 <W id="209" msd="NOM" tag="NOM" in="" out="">metà</W>
