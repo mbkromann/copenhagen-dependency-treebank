@@ -82,7 +82,7 @@
 <W id="81" msd="CON" tag="CON" in="" out="">ed</W>
 <W id="82" msd="ADJ" tag="ADJ" in="" out="">altre</W>
 <W id="83" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="84" msd="NOM" tag="NOM" in="" out="">Tratto</W>
+<W id="84" msd="NOM" tag="NOM" in="" out="39:coref">Tratto</W>
 <W id="85" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
 <W id="86" msd="ADJ" tag="ADJ" in="" out="">problematica</W>
 <W id="87" msd="NOM" tag="NOM" in="" out="">già</W>
@@ -100,9 +100,9 @@
 <W id="99" msd="NOM" tag="NOM" in="" out="">Alleanza</W>
 <W id="100" msd="ADJ" tag="ADJ" in="" out="">Nazionale</W>
 <W id="101" msd="VER&3a;futu" tag="VER&3a;futu" in="" out="">voteremo</W>
-<W id="102" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">quegli</W>
-<W id="103" msd="NOM" tag="NOM" in="" out="">emendamenti</W>
-<W id="104" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="102" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="24:assoc-const|55:assoc-const">quegli</W>
+<W id="103" msd="NOM" tag="NOM" in="" out="1:ref">emendamenti</W>
+<W id="104" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="105" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">hanno</W>
 <W id="106" msd="PRE" tag="PRE" in="" out="">per</W>
 <W id="107" msd="NOM" tag="NOM" in="" out="">obiettivo</W>
@@ -121,10 +121,10 @@
 <W id="120" msd="NOM" tag="NOM" in="" out="">Unione</W>
 <W id="121" msd="ADJ" tag="ADJ" in="" out="">europea</W>
 <W id="122" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="123" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">Voglio</W>
+<W id="123" msd="VER&3a;pres" tag="VER&3a;pres" in="-39:coref" out="85:coref">Voglio</W>
 <W id="124" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">ricordare</W>
 <W id="125" msd="ADV" tag="ADV" in="" out="">quindi</W>
-<W id="126" msd="DET&3a;def" tag="DET&3a;def" in="" out="">l'</W>
+<W id="126" msd="DET&3a;def" tag="DET&3a;def" in="-24:assoc-const" out="">l'</W>
 <W id="127" msd="NOM" tag="NOM" in="" out="4:ref">emendamento</W>
 <W id="128" msd="ABR" tag="ABR" in="" out="">n.</W>
 <W id="129" msd="NUM" tag="NUM" in="" out="">7</W>
@@ -155,7 +155,7 @@
 <W id="154" msd="adj" tag="adj" in="" out="">transfrontalieri</W>
 <W id="155" msd="PON" tag="PON" in="" out="">,</W>
 <W id="156" msd="CON" tag="CON" in="" out="">e</W>
-<W id="157" msd="DET&3a;def" tag="DET&3a;def" in="" out="">l'</W>
+<W id="157" msd="DET&3a;def" tag="DET&3a;def" in="-55:assoc-const" out="">l'</W>
 <W id="158" msd="NOM" tag="NOM" in="" out="5:ref">emendamento</W>
 <W id="159" msd="ABR" tag="ABR" in="" out="">n.</W>
 <W id="160" msd="NUM" tag="NUM" in="" out="">5</W>
@@ -175,7 +175,7 @@
 <W id="174" msd="PON" tag="PON" in="" out="">,</W>
 <W id="175" msd="CON" tag="CON" in="" out="">come</W>
 <W id="176" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">sostiene</W>
-<W id="177" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame|42:coref-iden">il</W>
+<W id="177" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="42:coref-iden|0:assoc-frame">il</W>
 <W id="178" msd="NOM" tag="NOM" in="" out="">Parlamento</W>
 <W id="179" msd="PON" tag="PON" in="" out="">,</W>
 <W id="180" msd="PRE" tag="PRE" in="" out="">con</W>
@@ -206,7 +206,7 @@
 <W id="205" msd="CON" tag="CON" in="" out="">e</W>
 <W id="206" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">me</W>
 <W id="207" msd="ADV" tag="ADV" in="-6:assoc" out="">ne</W>
-<W id="208" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">compiaccio</W>
+<W id="208" msd="VER&3a;pres" tag="VER&3a;pres" in="-85:coref" out="">compiaccio</W>
 <W id="209" msd="PON" tag="PON" in="" out="">-</W>
 <W id="210" msd="PRE" tag="PRE" in="" out="">a</W>
 <W id="211" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">raccomandare</W>
