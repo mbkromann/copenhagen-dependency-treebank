@@ -114,7 +114,7 @@
 <W id="113" msd="PRE&3a;det" tag="PRE&3a;det" in="-85:coref-iden" out="">della</W>
 <W id="114" msd="NOM" tag="NOM" in="" out="">Commissione</W>
 <W id="115" msd="PON" tag="PON" in="" out="">;</W>
-<W id="116" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
+<W id="116" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame">la</W>
 <W id="117" msd="NOM" tag="NOM" in="" out="">sensazione</W>
 <W id="118" msd="NOM" tag="NOM" in="" out="">è</W>
 <W id="119" msd="NOM" tag="NOM" in="" out="">però</W>
@@ -272,7 +272,7 @@
 <W id="271" msd="NOM" tag="NOM" in="" out="">È</W>
 <W id="272" msd="ADJ" tag="ADJ" in="" out="">proprio</W>
 <W id="273" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nella</W>
-<W id="274" msd="NOM" tag="NOM" in="" out="10:ref">comunicazione</W>
+<W id="274" msd="NOM" tag="NOM" in="" out="">comunicazione</W>
 <W id="275" msd="PRE&3a;det" tag="PRE&3a;det" in="-247:coref-iden" out="">della</W>
 <W id="276" msd="NOM" tag="NOM" in="" out="">Commissione</W>
 <W id="277" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">del</W>
@@ -282,7 +282,7 @@
 <W id="281" msd="NOM" tag="NOM" in="" out="">futuro</W>
 <W id="282" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="11:coref-var">delle</W>
 <W id="283" msd="NOM" tag="NOM" in="" out="">biotecnologie</W>
-<W id="284" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-10:ref" out="">che</W>
+<W id="284" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="285" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">si</W>
 <W id="286" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">mette</W>
 <W id="287" msd="PRE" tag="PRE" in="" out="">in</W>
@@ -325,15 +325,15 @@
 <W id="324" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="325" msd="NOM" tag="NOM" in="" out="">razza</W>
 <W id="326" msd="PRE" tag="PRE" in="" out="">di</W>
-<W id="327" msd="NPR" tag="NPR" in="" out="3:coref-ell|8:coref-var">Europa</W>
+<W id="327" msd="NPR" tag="NPR" in="" out="3:coref-ell">Europa</W>
 <W id="328" msd="CON" tag="CON" in="" out="">sia</W>
 <W id="329" msd="ADV" tag="ADV" in="" out="">mai</W>
-<W id="330" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-3:coref-ell" out="">questa</W>
+<W id="330" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-3:coref-ell" out="5:coref-var">questa</W>
 <W id="331" msd="CON" tag="CON" in="" out="">e</W>
 <W id="332" msd="CON" tag="CON" in="" out="">se</W>
 <W id="333" msd="PRE" tag="PRE" in="" out="">per</W>
 <W id="334" msd="NOM" tag="NOM" in="" out="">caso</W>
-<W id="335" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-8:coref-var" out="">quest'</W>
+<W id="335" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-5:coref-var" out="">quest'</W>
 <W id="336" msd="NPR" tag="NPR" in="" out="">Europa</W>
 <W id="337" msd="ADV" tag="ADV" in="" out="">non</W>
 <W id="338" msd="VER&3a;impe" tag="VER&3a;impe" in="" out="">abbia</W>
