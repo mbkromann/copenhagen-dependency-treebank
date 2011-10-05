@@ -30,7 +30,7 @@
 <W id="29" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="30" msd="NOM" tag="NOM" in="" out="">preadesione</W>
 <W id="31" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="32" msd="VER&3a;pres" tag="VER&3a;pres" in="-27:coref" out="53:coref">Ritengo</W>
+<W id="32" msd="VER&3a;pres" tag="VER&3a;pres" in="-27:coref" out="35:coref">Ritengo</W>
 <W id="33" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="34" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-16:coref-res" out="">lo</W>
 <W id="35" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">sia</W>
@@ -58,14 +58,14 @@
 <W id="57" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">chiesto</W>
 <W id="58" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="59" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">aderire</W>
-<W id="60" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">all'</W>
+<W id="60" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="197:coref-iden">all'</W>
 <W id="61" msd="NOM" tag="NOM" in="" out="">Unione</W>
 <W id="62" msd="ADJ" tag="ADJ" in="" out="">europea</W>
 <W id="63" msd="CON" tag="CON" in="" out="">mentre</W>
 <W id="64" msd="PON" tag="PON" in="" out="">-</W>
 <W id="65" msd="CON" tag="CON" in="" out="">e</W>
 <W id="66" msd="ADV" tag="ADV" in="" out="">qui</W>
-<W id="67" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">concordo</W>
+<W id="67" msd="VER&3a;pres" tag="VER&3a;pres" in="-35:coref" out="18:coref">concordo</W>
 <W id="68" msd="PRE" tag="PRE" in="" out="">con</W>
 <W id="69" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame">il</W>
 <W id="70" msd="NOM" tag="NOM" in="" out="">relatore</W>
@@ -83,7 +83,7 @@
 <W id="82" msd="ADJ" tag="ADJ" in="" out="">secondo</W>
 <W id="83" msd="NOM" tag="NOM" in="" out="">piano</W>
 <W id="84" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="85" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-53:coref" out="">Io</W>
+<W id="85" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-18:coref" out="">Io</W>
 <W id="86" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">credo</W>
 <W id="87" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="88" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">sia</W>
@@ -184,7 +184,7 @@
 <W id="183" msd="PON" tag="PON" in="" out="">,</W>
 <W id="184" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="185" msd="ADV" tag="ADV" in="" out="">non</W>
-<W id="186" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">possiamo</W>
+<W id="186" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="0:assoc-frame|29:coref">possiamo</W>
 <W id="187" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">accettare</W>
 <W id="188" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="189" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nella</W>
@@ -213,7 +213,7 @@
 <W id="212" msd="NOM" tag="NOM" in="" out="">è</W>
 <W id="213" msd="ADJ" tag="ADJ" in="" out="">possibile</W>
 <W id="214" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="215" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="0:assoc-frame|19:coref-res|58:coref">Riteniamo</W>
+<W id="215" msd="VER&3a;pres" tag="VER&3a;pres" in="-29:coref" out="19:coref-res|58:coref">Riteniamo</W>
 <W id="216" msd="NOM" tag="NOM" in="" out="">altresì</W>
 <W id="217" msd="ADJ" tag="ADJ" in="" out="">indispensabile</W>
 <W id="218" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
@@ -255,7 +255,7 @@
 <W id="254" msd="PON" tag="PON" in="" out="">,</W>
 <W id="255" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="256" msd="NOM" tag="NOM" in="" out="">allargamento</W>
-<W id="257" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dell'</W>
+<W id="257" msd="PRE&3a;det" tag="PRE&3a;det" in="-197:coref-iden" out="">dell'</W>
 <W id="258" msd="NOM" tag="NOM" in="" out="">Unione</W>
 <W id="259" msd="ADJ" tag="ADJ" in="" out="">europea</W>
 <W id="260" msd="CON" tag="CON" in="" out="">ed</W>
