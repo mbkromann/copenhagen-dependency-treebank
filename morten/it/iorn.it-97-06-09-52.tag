@@ -17,7 +17,7 @@
 <W id="16" msd="ADJ" tag="ADJ" in="" out="">ottima</W>
 <W id="17" msd="NOM" tag="NOM" in="" out="1:ref">relazione</W>
 <W id="18" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
-<W id="19" msd="PRO&3a;refl" tag="PRO&3a;refl" in="" out="56:coref">ci</W>
+<W id="19" msd="PRO&3a;refl" tag="PRO&3a;refl" in="0:assoc-frame" out="56:coref|0:assoc-frame">ci</W>
 <W id="20" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">ha</W>
 <W id="21" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">presentato</W>
 <W id="22" msd="CON" tag="CON" in="" out="">e</W>
@@ -137,7 +137,7 @@
 <W id="136" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nell'</W>
 <W id="137" msd="NOM" tag="NOM" in="" out="">attuazione</W>
 <W id="138" msd="PRE" tag="PRE" in="" out="">di</W>
-<W id="139" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-58:coref-iden" out="54:coref-iden|19:assoc-formal">questo</W>
+<W id="139" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-58:coref-iden" out="19:assoc-formal|54:coref-iden">questo</W>
 <W id="140" msd="NOM" tag="NOM" in="" out="">diritto</W>
 <W id="141" msd="PON" tag="PON" in="" out="">-</W>
 <W id="142" msd="ADV" tag="ADV" in="" out="">non</W>
