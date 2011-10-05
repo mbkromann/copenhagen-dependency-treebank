@@ -5,7 +5,7 @@
 <W id="4" msd="PRE" tag="PRE" in="" out="">fra</W>
 <W id="5" msd="ADJ" tag="ADJ" in="" out="">pochi</W>
 <W id="6" msd="NOM" tag="NOM" in="" out="">mesi</W>
-<W id="7" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame|18:coref">gli</W>
+<W id="7" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="18:coref|0:assoc-frame">gli</W>
 <W id="8" msd="ADJ" tag="ADJ" in="" out="">Stati</W>
 <W id="9" msd="NOM" tag="NOM" in="" out="">membri</W>
 <W id="10" msd="PON" tag="PON" in="" out="">,</W>
@@ -86,11 +86,11 @@
 <W id="85" msd="NOM" tag="NOM" in="" out="">attività</W>
 <W id="86" msd="ADJ" tag="ADJ" in="" out="">sociale</W>
 <W id="87" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="88" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="0:assoc-frame|12:coref|60:coref-res">Dobbiamo</W>
+<W id="88" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="12:coref|60:coref-res|0:assoc-frame">Dobbiamo</W>
 <W id="89" msd="ADV" tag="ADV" in="" out="">dunque</W>
 <W id="90" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">guardare</W>
 <W id="91" msd="PRE" tag="PRE" in="" out="">a</W>
-<W id="92" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-33:coref|-31:coref" out="25:coref">loro</W>
+<W id="92" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-33:coref|-31:coref" out="9:²coref">loro</W>
 <W id="93" msd="PRE" tag="PRE" in="" out="">con</W>
 <W id="94" msd="ADV" tag="ADV" in="" out="">sempre</W>
 <W id="95" msd="ADJ" tag="ADJ" in="" out="">maggiore</W>
@@ -98,8 +98,8 @@
 <W id="97" msd="CON" tag="CON" in="" out="">e</W>
 <W id="98" msd="NOM" tag="NOM" in="" out="">disponibilità</W>
 <W id="99" msd="PON" tag="PON" in="" out="">,</W>
-<W id="100" msd="VER&3a;pres" tag="VER&3a;pres" in="-12:coref" out="83:coref">dobbiamo</W>
-<W id="101" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">aiutarle</W>
+<W id="100" msd="VER&3a;pres" tag="VER&3a;pres" in="-12:coref" out="81:coref">dobbiamo</W>
+<W compound="¹aiutar ²le" id="101" msd="VER&3a;infi" tag="VER&3a;infi" in="-9:²coref" out="16:coref²">aiutarle</W>
 <W id="102" msd="PRE" tag="PRE" in="" out="">a</W>
 <W id="103" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">sviluppare</W>
 <W id="104" msd="NOM" tag="NOM" in="" out="">sinergie</W>
@@ -115,7 +115,7 @@
 <W id="114" msd="DET&3a;def" tag="DET&3a;def" in="" out="">le</W>
 <W id="115" msd="NOM" tag="NOM" in="" out="">richieste</W>
 <W id="116" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dei</W>
-<W id="117" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-25:coref" out="18:coref">loro</W>
+<W id="117" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-16:coref²" out="18:coref">loro</W>
 <W id="118" msd="NOM" tag="NOM" in="" out="">iscritti</W>
 <W id="119" msd="PON" tag="PON" in="" out="">,</W>
 <W id="120" msd="PRE" tag="PRE" in="" out="">in</W>
@@ -179,9 +179,9 @@
 <W id="178" msd="NOM" tag="NOM" in="" out="2:ref">relatrice</W>
 <W id="179" msd="PON" tag="PON" in="" out="">,</W>
 <W id="180" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-2:ref" out="">che</W>
-<W id="181" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">ringraziamo</W>
+<W id="181" msd="VER&3a;cpre" tag="VER&3a;cpre" in="-81:coref" out="2:coref">ringraziamo</W>
 <W id="182" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="183" msd="VER&3a;pres" tag="VER&3a;pres" in="-83:coref" out="">Aspettiamo</W>
+<W id="183" msd="VER&3a;pres" tag="VER&3a;pres" in="-2:coref" out="">Aspettiamo</W>
 <W id="184" msd="ADV" tag="ADV" in="" out="">quindi</W>
 <W id="185" msd="PRE" tag="PRE" in="" out="">con</W>
 <W id="186" msd="NOM" tag="NOM" in="" out="">attenzione</W>
