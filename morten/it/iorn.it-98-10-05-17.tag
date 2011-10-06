@@ -21,7 +21,7 @@
 <W id="20" msd="NOM" tag="NOM" in="" out="">Alleanza</W>
 <W id="21" msd="ADJ" tag="ADJ" in="" out="">radicale</W>
 <W id="22" msd="ADJ" tag="ADJ" in="" out="">europea</W>
-<W id="23" msd="NOM" tag="NOM" in="" out="">voterà</W>
+<W id="23" msd="NOM" tag="NOM" in="" out="18:coref">voterà</W>
 <W id="24" msd="ADV" tag="ADV" in="" out="">domani</W>
 <W id="25" msd="PRE" tag="PRE" in="" out="">per</W>
 <W id="26" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
@@ -39,7 +39,7 @@
 <W id="38" msd="NOM" tag="NOM" in="" out="">però</W>
 <W id="39" msd="ADJ" tag="ADJ" in="" out="">convinto</W>
 <W id="40" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
-<W id="41" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">sia</W>
+<W id="41" msd="VER&3a;cpre" tag="VER&3a;cpre" in="-18:coref" out="">sia</W>
 <W id="42" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
 <W id="43" msd="NOM" tag="NOM" in="" out="">modo</W>
 <W id="44" msd="ADJ" tag="ADJ" in="" out="">migliore</W>
@@ -78,13 +78,13 @@
 <W id="77" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="78" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">confrontarsi</W>
 <W id="79" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">sul</W>
-<W id="80" msd="NOM" tag="NOM" in="" out="">terreno</W>
+<W id="80" msd="NOM" tag="NOM" in="" out="5:ref">terreno</W>
 <W id="81" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
 <W id="82" msd="NOM" tag="NOM" in="" out="">libertà</W>
 <W id="83" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="84" msd="NOM" tag="NOM" in="" out="">opinione</W>
-<W id="85" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
-<W id="86" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="0:assoc-frame|2:coref">offriamo</W>
+<W id="85" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-5:ref" out="">che</W>
+<W id="86" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="2:coref|0:assoc-frame">offriamo</W>
 <W id="87" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nel</W>
 <W id="88" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-2:coref" out="11:coref">nostro</W>
 <W id="89" msd="NOM" tag="NOM" in="" out="">sistema</W>
@@ -92,7 +92,7 @@
 <W id="91" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="92" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-41:coref" out="5:coref">Lui</W>
 <W id="93" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">vuole</W>
-<W id="94" msd="NOM" tag="NOM" in="" out="">intolleranza</W>
+<W id="94" msd="NOM" tag="NOM" in="" out="8:coref-iden.sb">intolleranza</W>
 <W id="95" msd="PON" tag="PON" in="" out="">,</W>
 <W id="96" msd="CON" tag="CON" in="" out="">e</W>
 <W id="97" msd="VER&3a;pres" tag="VER&3a;pres" in="-5:coref" out="27:coref">vuole</W>
@@ -100,7 +100,7 @@
 <W id="99" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-11:coref" out="104:²coref">noi</W>
 <W id="100" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">rispondiamo</W>
 <W id="101" msd="PRE" tag="PRE" in="" out="">con</W>
-<W id="102" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
+<W id="102" msd="DET&3a;def" tag="DET&3a;def" in="-8:coref-iden.sb" out="">la</W>
 <W id="103" msd="ADJ" tag="ADJ" in="" out="">stessa</W>
 <W id="104" msd="NOM" tag="NOM" in="" out="">intolleranza</W>
 <W id="105" msd="PRE" tag="PRE" in="" out="">per</W>
@@ -131,8 +131,8 @@
 <W id="130" msd="PON" tag="PON" in="" out="">,</W>
 <W id="131" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">quelle</W>
 <W id="132" msd="ADJ" tag="ADJ" in="" out="">tragiche</W>
-<W id="133" msd="NOM" tag="NOM" in="" out="">frasi</W>
-<W id="134" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="133" msd="NOM" tag="NOM" in="" out="1:ref">frasi</W>
+<W id="134" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="135" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">ha</W>
 <W id="136" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">pronunciato</W>
 <W id="137" msd="CON" tag="CON" in="" out="">e</W>
@@ -151,7 +151,7 @@
 <W id="150" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="151" msd="NOM" tag="NOM" in="" out="">Anni</W>
 <W id="152" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">fa</W>
-<W id="153" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame|16:coref">la</W>
+<W id="153" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="16:coref|0:assoc-frame">la</W>
 <W id="154" msd="NOM" tag="NOM" in="" out="">commissione</W>
 <W id="155" msd="ADJ" tag="ADJ" in="" out="">pr</W>
 <W id="156" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
@@ -184,12 +184,12 @@
 <W id="183" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">andare</W>
 <W id="184" msd="PRE" tag="PRE" in="" out="">contro</W>
 <W id="185" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">quel</W>
-<W id="186" msd="NOM" tag="NOM" in="" out="">principio</W>
+<W id="186" msd="NOM" tag="NOM" in="" out="5:ref">principio</W>
 <W id="187" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
-<W id="188" msd="NOM" tag="NOM" in="" out="3:ref">libertà</W>
+<W id="188" msd="NOM" tag="NOM" in="" out="">libertà</W>
 <W id="189" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="190" msd="NOM" tag="NOM" in="" out="">opinione</W>
-<W id="191" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-3:ref" out="">che</W>
+<W id="191" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-5:ref" out="">che</W>
 <W id="192" msd="PON" tag="PON" in="" out="">,</W>
 <W id="193" msd="ADV" tag="ADV" in="" out="">appunto</W>
 <W id="194" msd="PON" tag="PON" in="" out="">,</W>
@@ -238,12 +238,12 @@
 <W id="237" msd="NOM" tag="NOM" in="" out="6:ref">posizione</W>
 <W id="238" msd="ADJ" tag="ADJ" in="" out="">minoritaria</W>
 <W id="239" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">del</W>
-<W id="240" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-7:coref" out="">mio</W>
+<W id="240" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-7:coref" out="5:coref">mio</W>
 <W id="241" msd="NOM" tag="NOM" in="" out="">gruppo</W>
 <W id="242" msd="PON" tag="PON" in="" out="">,</W>
 <W id="243" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-6:ref" out="">che</W>
 <W id="244" msd="ADV" tag="ADV" in="" out="">comunque</W>
-<W id="245" msd="VER&3a;impf" tag="VER&3a;impf" in="" out="">volevo</W>
+<W id="245" msd="VER&3a;impf" tag="VER&3a;impf" in="-5:coref" out="">volevo</W>
 <W id="246" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">esprimere</W>
 <W id="247" msd="SENT" tag="SENT" in="" out="">.</W>
 </s>
