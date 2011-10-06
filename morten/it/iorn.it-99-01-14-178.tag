@@ -89,7 +89,7 @@
 <W id="88" msd="NOM" tag="NOM" in="" out="3:ref">scontri</W>
 <W id="89" msd="ADJ" tag="ADJ" in="" out="">sanguinossisimi</W>
 <W id="90" msd="PON" tag="PON" in="" out="">,</W>
-<W id="91" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-3:ref" out="">che</W>
+<W id="91" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-3:ref" out="8:coref">che</W>
 <W id="92" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">hanno</W>
 <W id="93" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">prodotto</W>
 <W id="94" msd="ADJ" tag="ADJ" in="" out="">altre</W>
@@ -97,7 +97,7 @@
 <W id="96" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="97" msd="NOM" tag="NOM" in="" out="">vittime</W>
 <W id="98" msd="CON" tag="CON" in="" out="">e</W>
-<W id="99" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">hanno</W>
+<W id="99" msd="VER&3a;pres" tag="VER&3a;pres" in="-8:coref" out="">hanno</W>
 <W id="100" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">reso</W>
 <W id="101" msd="ADV" tag="ADV" in="" out="">ancora</W>
 <W id="102" msd="NOM" tag="NOM" in="" out="">più</W>
@@ -235,7 +235,7 @@
 <W id="234" msd="ADJ" tag="ADJ" in="" out="">pari</W>
 <W id="235" msd="NOM" tag="NOM" in="" out="">passo</W>
 <W id="236" msd="PRE" tag="PRE" in="" out="">con</W>
-<W id="237" msd="DET&3a;def" tag="DET&3a;def" in="" out="">l'</W>
+<W id="237" msd="DET&3a;def" tag="DET&3a;def" in="" out="45:coref-var">l'</W>
 <W id="238" msd="NOM" tag="NOM" in="" out="">avvio</W>
 <W id="239" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="240" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
@@ -280,7 +280,7 @@
 <W id="279" msd="PON" tag="PON" in="" out="">,</W>
 <W id="280" msd="ADV" tag="ADV" in="" out="">anche</W>
 <W id="281" msd="PRE" tag="PRE" in="" out="">in</W>
-<W id="282" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">questo</W>
+<W id="282" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-45:coref-var" out="">questo</W>
 <W id="283" msd="NOM" tag="NOM" in="" out="">caso</W>
 <W id="284" msd="PON" tag="PON" in="" out="">,</W>
 <W id="285" msd="PRE" tag="PRE" in="" out="">in</W>
