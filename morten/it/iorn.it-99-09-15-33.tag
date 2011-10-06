@@ -209,8 +209,8 @@
 <W id="208" msd="ADV" tag="ADV" in="" out="">poi</W>
 <W id="209" msd="PON" tag="PON" in="" out="">,</W>
 <W id="210" msd="NOM" tag="NOM" in="" out="">è</W>
-<W id="211" msd="NOM" tag="NOM" in="" out="">riflessione</W>
-<W id="212" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="211" msd="NOM" tag="NOM" in="" out="1:ref">riflessione</W>
+<W id="212" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="213" msd="VER&3a;cpre" tag="VER&3a;cpre" in="-12:coref" out="5:coref">lasciamo</W>
 <W id="214" msd="ADV" tag="ADV" in="" out="">volentieri</W>
 <W id="215" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">ai</W>
@@ -308,7 +308,7 @@
 <W id="307" msd="PON" tag="PON" in="" out="">,</W>
 <W id="308" msd="ADV" tag="ADV" in="" out="">tanto</W>
 <W id="309" msd="ADJ" tag="ADJ" in="" out="">cara</W>
-<W id="310" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="0:assoc-frame|4:coref">alla</W>
+<W id="310" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="4:coref|0:assoc-frame">alla</W>
 <W id="311" msd="NOM" tag="NOM" in="" out="">Commissione</W>
 <W id="312" msd="CON" tag="CON" in="" out="">e</W>
 <W id="313" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">al</W>
