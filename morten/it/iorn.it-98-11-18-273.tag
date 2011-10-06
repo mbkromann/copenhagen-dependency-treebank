@@ -80,7 +80,7 @@
 <W id="79" msd="NOM" tag="NOM" in="" out="">valutazione</W>
 <W id="80" msd="ADJ" tag="ADJ" in="" out="">realistica</W>
 <W id="81" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="82" msd="DET&3a;def" tag="DET&3a;def" in="" out="">Il</W>
+<W id="82" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame">Il</W>
 <W id="83" msd="NOM" tag="NOM" in="" out="">cofinanziamento</W>
 <W id="84" msd="NOM" tag="NOM" in="" out="">può</W>
 <W id="85" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">permettere</W>
@@ -95,10 +95,10 @@
 <W id="94" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">sulla</W>
 <W id="95" msd="NOM" tag="NOM" in="" out="">contribuzione</W>
 <W id="96" msd="ADJ" tag="ADJ" in="" out="">netta</W>
-<W id="97" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="0:assoc-frame">dei</W>
+<W id="97" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="0:assoc-frame|3:assoc-loc">dei</W>
 <W id="98" msd="NOM" tag="NOM" in="" out="">paesi</W>
 <W id="99" msd="NOM" tag="NOM" in="" out="">membri</W>
-<W id="100" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">al</W>
+<W id="100" msd="PRE&3a;det" tag="PRE&3a;det" in="-3:assoc-loc" out="">al</W>
 <W id="101" msd="NOM" tag="NOM" in="" out="">bilancio</W>
 <W id="102" msd="ADJ" tag="ADJ" in="" out="">agricolo</W>
 <W id="103" msd="SENT" tag="SENT" in="" out="">.</W>
@@ -153,12 +153,12 @@
 <W id="152" msd="ADJ" tag="ADJ" in="" out="">coerente</W>
 <W id="153" msd="ADJ" tag="ADJ" in="0:assoc-frame" out="0:assoc-frame">tutti</W>
 <W id="154" msd="DET&3a;def" tag="DET&3a;def" in="" out="">i</W>
-<W id="155" msd="NOM" tag="NOM" in="" out="">colleghi</W>
+<W id="155" msd="NOM" tag="NOM" in="" out="5:coref-ell">colleghi</W>
 <W id="156" msd="PON" tag="PON" in="" out="">,</W>
 <W id="157" msd="PRE" tag="PRE" in="" out="">a</W>
 <W id="158" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">partire</W>
 <W id="159" msd="PRE" tag="PRE" in="" out="">da</W>
-<W id="160" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">quelli</W>
+<W id="160" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-5:coref-ell" out="">quelli</W>
 <W id="161" msd="ADJ" tag="ADJ" in="" out="">italiani</W>
 <W id="162" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="163" msd="ADJ" tag="ADJ" in="" out="">Cari</W>
