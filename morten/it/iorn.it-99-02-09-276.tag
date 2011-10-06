@@ -15,12 +15,12 @@
 <W id="14" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="15" msd="ADV" tag="ADV" in="" out="">Bene</W>
 <W id="16" msd="PON" tag="PON" in="" out="">,</W>
-<W id="17" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="13:coref">siamo</W>
+<W id="17" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="13:coref|0:assoc-frame">siamo</W>
 <W id="18" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">arrivati</W>
 <W id="19" msd="PRE" tag="PRE" in="" out="">in</W>
 <W id="20" msd="NOM" tag="NOM" in="" out="">fondo</W>
 <W id="21" msd="PRE" tag="PRE" in="" out="">a</W>
-<W id="22" msd="PRO&3a;demo" tag="PRO&3a;demo" in="0:assoc-frame" out="0:assoc-frame|17:²coref">questa</W>
+<W id="22" msd="PRO&3a;demo" tag="PRO&3a;demo" in="0:assoc-frame" out="17:²coref|0:assoc-frame|212:assoc-loc">questa</W>
 <W id="23" msd="NOM" tag="NOM" in="" out="">bottiglia</W>
 <W id="24" msd="CON" tag="CON" in="" out="">e</W>
 <W id="25" msd="PON" tag="PON" in="" out="">,</W>
@@ -32,8 +32,8 @@
 <W id="31" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">un</W>
 <W id="32" msd="NOM" tag="NOM" in="" out="">pò</W>
 <W id="33" msd="PRE" tag="PRE" in="" out="">di</W>
-<W id="34" msd="NOM" tag="NOM" in="" out="">deposito</W>
-<W id="35" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="34" msd="NOM" tag="NOM" in="" out="1:ref">deposito</W>
+<W id="35" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="36" msd="VER&3a;cond" tag="VER&3a;cond" in="" out="">avrebbe</W>
 <W id="37" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">potuto</W>
 <W id="38" msd="ADV" tag="ADV" in="" out="">anche</W>
@@ -42,9 +42,9 @@
 <W id="41" msd="ADV" tag="ADV" in="" out="">Meno</W>
 <W id="42" msd="NOM" tag="NOM" in="" out="">male</W>
 <W id="43" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
-<W id="44" msd="VER&3a;pres" tag="VER&3a;pres" in="-34:coref" out="12:coref">sono</W>
+<W id="44" msd="VER&3a;pres" tag="VER&3a;pres" in="-34:coref" out="2:coref">sono</W>
 <W id="45" msd="PON" tag="PON" in="" out="">,</W>
-<W id="46" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">ripeto</W>
+<W id="46" msd="VER&3a;pres" tag="VER&3a;pres" in="-2:coref" out="10:coref">ripeto</W>
 <W id="47" msd="PON" tag="PON" in="" out="">,</W>
 <W id="48" msd="DET&3a;def" tag="DET&3a;def" in="" out="">l'</W>
 <W id="49" msd="NOM" tag="NOM" in="" out="">ultimo</W>
@@ -54,7 +54,7 @@
 <W id="53" msd="NOM" tag="NOM" in="" out="">sì</W>
 <W id="54" msd="PON" tag="PON" in="" out="">,</W>
 <W id="55" msd="NOM" tag="NOM" in="" out="">perché</W>
-<W id="56" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-12:coref" out="8:coref">io</W>
+<W id="56" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-10:coref" out="8:coref">io</W>
 <W id="57" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">considero</W>
 <W id="58" msd="ADJ" tag="ADJ" in="" out="">buona</W>
 <W id="59" msd="DET&3a;def" tag="DET&3a;def" in="" out="32:coref-evol&7c;coref-var">la</W>
@@ -232,7 +232,7 @@
 <W id="231" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">intorbidire</W>
 <W id="232" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">del</W>
 <W id="233" msd="ADJ" tag="ADJ" in="" out="">tutto</W>
-<W id="234" msd="PRO&3a;demo" tag="PRO&3a;demo" in="0:assoc-frame" out="0:assoc-frame|25:coref-iden">questo</W>
+<W id="234" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-212:assoc-loc" out="25:coref-iden">questo</W>
 <W id="235" msd="NOM" tag="NOM" in="" out="">vino</W>
 <W id="236" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="237" msd="ADJ" tag="ADJ" in="" out="6:assoc">Qualche</W>
