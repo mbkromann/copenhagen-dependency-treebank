@@ -108,6 +108,8 @@ it-99-10-05-135.tag
 it-99-11-03-59.tag
 it-99-12-14-40.tag
 
+ load ../morten/da/da-97-07-15-277.tag
+
 load ../morten/da/da-00-01-18-255.tag ok  
 load ../morten/da/da-02-11-21-34.tag  ok 
 da-97-07-15-277.tag
