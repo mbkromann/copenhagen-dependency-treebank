@@ -108,8 +108,8 @@ cdt: code
 	echo `awk -F. '{ print $$1"."$$2"."$$3+1 }' .release` > .newrelease
 	mv .newrelease .release
 	cd run ; tar cf - --exclude=.svn . | tar xvf - -C ../..
-	cd /home/matthias/svn/cdt/trunk/dtag ; mv dtag dtag.pl
+	cd  ~/cdt/dtag ; mv dtag dtag.pl
 	cd .. ; svn add .
-	cd .. ; svng -m 'Automatic_DTAG_update' commit
+	cd .. ; svn -m 'Automatic_DTAG_update' commit
 
 
