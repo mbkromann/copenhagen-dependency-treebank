@@ -1,7 +1,7 @@
 <s>
 <W msd="PO" tag="PRP$" in="3:xtop" out="1:possd|2:pnct|4:ref">Your</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">precision</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="VADR" tag="VBZ" in="" out="-3:xtop|1:expl|2:dobj|14:pnct">is</W>
 <W msd="ANP" tag="RB" in="-4:ref|-1:expl" out="">there</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="1:mod|5:ref|7:rel">something</W>
@@ -19,7 +19,7 @@
 <W msd="XP" tag="." in="-14:pnct" out="">?</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="" out="-1:pnct|1:pnct|8:conj">No</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="2:[dobj]|6:subj" out="2:rel">what</W>

@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="proposal" id="43" lemma="udspil" msd="NCNSU==I" tag="NN" in="" out="1:pnct|2:other|3:other">Udspil</W>
-<W gloss="&3a;" id="44" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="44" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="DD" id="45" lemma="Ru" msd="XX" tag="FW" in="-2:other" out="">Ru</W>
 <W gloss="CL" id="46" lemma="K." msd="XX" tag="FW" in="-3:other" out="">K.</W>
 </s>
@@ -156,11 +156,11 @@
 <s>
 <W gloss="After" id="156" lemma="efter" msd="SP" tag="IN" in="4:time" out="1:nobj">Efter</W>
 <W gloss="East's" id="157" lemma="øst" msd="NCNSG==I" tag="NN" in="-1:nobj" out="1:attr|2:possd">Østs</W>
-<W _noerror="&3a;nosubj&3a;" gloss="preference" id="158" lemma="præferere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">præfererende</W>
+<W _noerror=":nosubj:" gloss="preference" id="158" lemma="præferere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">præfererende</W>
 <W gloss="pass" id="159" lemma="pas" msd="NCCSU==I" tag="NN" in="-2:possd" out="">pas</W>
 <W gloss="doubled" id="160" lemma="doble" msd="VADA=----A-" tag="VBD" in="" out="-4:time|1:subj|2:man|4:conj|9:pnct">doblede</W>
 <W gloss="North" id="161" lemma="nord" msd="NC[CN][SP]U==I" tag="NN" in="-1:subj|3:[subj]" out="">Nord</W>
-<W _noerror="&3a;nosubj&3a;" gloss="enlightening" id="162" lemma="oplyse" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-2:man" out="">oplysende</W>
+<W _noerror=":nosubj:" gloss="enlightening" id="162" lemma="oplyse" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-2:man" out="">oplysende</W>
 <W gloss="and" id="163" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="showed" id="164" lemma="vise" msd="VADA=----A-" tag="VBD" in="-4:conj" out="-3:[subj]|-1:coord|1:cause|2:dobj">viste</W>
 <W gloss="thereby" id="165" lemma="dermed" msd="RGU" tag="RP" in="-1:cause" out="">dermed</W>

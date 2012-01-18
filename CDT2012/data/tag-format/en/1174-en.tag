@@ -71,10 +71,10 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="5:subj" out="1:pnct|2:mod|3:nobj|4:pnct">The</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="">Scandinavian</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="">Star</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="52:qobj" out="-5:subj|1:lobj|8:mod|30:conj">sailed</W>
 <W msd="PO" tag="PRP$" in="-1:lobj" out="2:possd">its</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">maiden</W>
@@ -165,10 +165,10 @@
 <W msd="SP" tag="IN" in="-8:mod" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">board</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:pnct|2:mod|3:nobj|4:pnct">the</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="">Scandinavian</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="">Star</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="AC" tag="CD" in="5:tobj" out="1:pobj">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>

@@ -118,7 +118,7 @@
 <W gloss="costs" id="117" lemma="koste" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:dobj|5:pnct|8:conj|12:pnct">koster</W>
 <W gloss="90" id="118" lemma="90" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj|2:other">90</W>
 <W gloss="DKK" id="119" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
-<W _noerror="&3a;nosubj&3a;" gloss="per" id="120" lemma="per" msd="SP" tag="IN" in="-2:other" out="1:nobj">pr.</W>
+<W _noerror=":nosubj:" gloss="per" id="120" lemma="per" msd="SP" tag="IN" in="-2:other" out="1:nobj">pr.</W>
 <W gloss="kg" id="121" lemma="kilo" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kg</W>
 <W gloss="," id="122" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="but" id="123" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
@@ -132,15 +132,15 @@
 <s>
 <W gloss="Danish" id="132" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">Danske</W>
 <W gloss="culotter" id="133" lemma="culotte" msd="NCCPU==I" tag="NNP" in="1:subj" out="-1:attr">culotter</W>
-<W gloss="are_sold" id="134" lemma="sælge" msd="VADR=----P-" tag="VBD" in="" out="-1:subj|1:pobj|6:pnct|13:pnct|7:&lt;subj&3a;2&gt;|8:&lt;pobj&3a;2&gt;">sælges</W>
+<W gloss="are_sold" id="134" lemma="sælge" msd="VADR=----P-" tag="VBD" in="" out="-1:subj|1:pobj|6:pnct|13:pnct|7:&lt;subj:2&gt;|8:&lt;pobj:2&gt;">sælges</W>
 <W gloss="for" id="135" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="150" id="136" lemma="150" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|2:other">150</W>
 <W gloss="DKK" id="137" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="per" id="138" lemma="per" msd="SP" tag="IN" in="-2:other" out="1:nobj">pr.</W>
 <W gloss="kg" id="139" lemma="kilo" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kg</W>
 <W gloss="," id="140" lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="calves'_liver" id="141" lemma="kalvelever" msd="NCCSU==I" tag="NN" in="-7:&lt;subj&3a;2&gt;" out="">kalvelever</W>
-<W gloss="for" id="142" lemma="for" msd="SP" tag="IN" in="-8:&lt;pobj&3a;2&gt;" out="1:nobj">for</W>
+<W gloss="calves'_liver" id="141" lemma="kalvelever" msd="NCCSU==I" tag="NN" in="-7:&lt;subj:2&gt;" out="">kalvelever</W>
+<W gloss="for" id="142" lemma="for" msd="SP" tag="IN" in="-8:&lt;pobj:2&gt;" out="1:nobj">for</W>
 <W gloss="60" id="143" lemma="60" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|2:other">60</W>
 <W gloss="DKK" id="144" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="per" id="145" lemma="per" msd="SP" tag="IN" in="-2:other" out="1:nobj">pr.</W>
@@ -181,7 +181,7 @@
 </s>
 <s>
 <W gloss="Cheap" id="182" lemma="billig" msd="ANPCSU=IU" tag="JJ" in="1:preds" out="">Billig</W>
-<W gloss="are" id="183" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:preds|1:add|2:subj|8:pnct|15:pnct|9:&lt;subj&3a;2&gt;">er</W>
+<W gloss="are" id="183" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:preds|1:add|2:subj|8:pnct|15:pnct|9:&lt;subj:2&gt;">er</W>
 <W gloss="too" id="184" lemma="også" msd="RGU" tag="RP" in="-1:add" out="">også</W>
 <W gloss="two" id="185" lemma="to" msd="AC---U=--" tag="CD" in="-2:subj" out="1:attr|2:nobj|3:other">to</W>
 <W gloss="large" id="186" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">store</W>
@@ -190,8 +190,8 @@
 <W gloss="35," id="189" lemma="35" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">35</W>
 <W gloss="DKK" id="190" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="," id="191" lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="two" id="192" lemma="to" msd="AC---U=--" tag="CD" in="-9:&lt;subj&3a;2&gt;" out="1:attr|2:nobj|5:other">to</W>
-<W _noerror="&3a;nosubj&3a;" gloss="smoked" id="193" lemma="røge" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">røgede</W>
+<W gloss="two" id="192" lemma="to" msd="AC---U=--" tag="CD" in="-9:&lt;subj:2&gt;" out="1:attr|2:nobj|5:other">to</W>
+<W _noerror=":nosubj:" gloss="smoked" id="193" lemma="røge" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">røgede</W>
 <W gloss="lumpsuckers" id="194" lemma="stenbider" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">stenbidere</W>
 <W gloss="a" id="195" lemma="en" msd="PI-CSU--U" tag="DT" in="2:quant" out="1:nobj">en</W>
 <W gloss="fiver" id="196" lemma="femmer" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">femmer</W>
@@ -200,7 +200,7 @@
 </s>
 <s>
 <W gloss="Or" id="201" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">Eller</W>
-<W _noerror="&3a;nosubj&3a;" gloss="try" id="202" lemma="prøve" msd="VAM-=------" tag="VB" in="" out="1:dobj|-1:coord|7:pnct">prøv</W>
+<W _noerror=":nosubj:" gloss="try" id="202" lemma="prøve" msd="VAM-=------" tag="VB" in="" out="1:dobj|-1:coord|7:pnct">prøv</W>
 <W gloss="a" id="203" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj|2:attr">en</W>
 <W gloss="swordfish_steak" id="204" lemma="sværdfiskbøf" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:{other}">sværdfiskbøf</W>
 <W gloss="at" id="205" lemma="til" msd="SP" tag="IN" in="-2:attr|-1:{other}" out="1:nobj">til</W>
@@ -228,7 +228,7 @@
 <W gloss="more" id="227" lemma="meget" msd="ANC---=-R" tag="JJR" in="-10:conj" out="1:other|-2:quant">mere</W>
 <W gloss="for" id="228" lemma="for" msd="SP" tag="IN" in="-1:other" out="1:nobj">for</W>
 <W gloss="a" id="229" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr">den</W>
-<W _noerror="&3a;nosubj&3a;" gloss="cut_up" id="230" lemma="udskære" msd="VAPA=SCDA-U" tag="VBN" in="-1:attr" out="">udskårne</W>
+<W _noerror=":nosubj:" gloss="cut_up" id="230" lemma="udskære" msd="VAPA=SCDA-U" tag="VBN" in="-1:attr" out="">udskårne</W>
 <W gloss="." id="231" lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>

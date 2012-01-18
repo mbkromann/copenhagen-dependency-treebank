@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="8:qobj" out="-1:pnct|1:dobj|6:pnct|7:pnct">Spare</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">us</W>
 <W msd="PD" tag="DT" in="" out="">any</W>
@@ -7,7 +7,7 @@
 <W msd="ANP" tag="JJ" in="-1:mod" out="">useless</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">talk</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-8:qobj|2:subj|11:mod|22:pnct">asked</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Enzo</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:appa">Biagi</W>

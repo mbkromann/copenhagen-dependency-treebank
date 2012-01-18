@@ -71,9 +71,9 @@
 <W gloss="in" id="70" lemma="i" msd="SP" tag="IN" in="-5:attr|-3:{time}" out="1:nobj">i</W>
 <W gloss="1987" id="71" lemma="1987" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1987</W>
 <W gloss="behaved" id="72" lemma="optræde" msd="VADA=----A-" tag="VBD" in="-10:vobj" out="-9:subj|-8:event|2:man">optrådte</W>
-<W gloss="&amp;quot;" id="73" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="73" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="improperly" id="74" lemma="usømmelig" msd="ANP---=-R" tag="JJ" in="-2:man" out="-1:pnct|1:pnct">usømmeligt</W>
-<W gloss="&amp;quot;" id="75" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="75" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="." id="76" lemma="." msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 </p>
@@ -119,13 +119,13 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="121" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="121" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="Dignity" id="122" lemma="værdighed" msd="NCCSU==I" tag="NN" in="6:qobj" out="-1:pnct|4:pnct|5:pnct|1:prg">Værdighed</W>
 <W gloss="above" id="123" lemma="frem" msd="RGU" tag="RP" in="-1:prg" out="1:pobj">frem</W>
 <W gloss="for" id="124" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="all" id="125" lemma="al" msd="ANPNSU=[DI]U" tag="JJ" in="-1:nobj" out="">alt</W>
 <W gloss="!" id="126" lemma="!" msd="XP" tag="!" in="-4:pnct" out="">!</W>
-<W gloss="&amp;quot;" id="127" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W gloss="&quot;" id="127" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W gloss="thundered" id="128" lemma="buldre" msd="VADA=----A-" tag="VBD" in="" out="-6:qobj|1:subj|11:pnct|6:prg">buldrede</W>
 <W gloss="the" id="129" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj|3:appr">det</W>
 <W gloss="respected" id="130" lemma="anset" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">ansete</W>
@@ -162,7 +162,7 @@
 <W gloss="before" id="161" lemma="før" msd="CS" tag="IN" in="-8:time" out="2:vobj">før</W>
 <W gloss="one" id="162" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
 <W gloss="is" id="163" lemma="blive" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="1:preds|-1:subj|3:loc">bliver</W>
-<W _noerror="&3a;nosubj&3a;" gloss="judged" id="164" lemma="dømme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:preds">dømt</W>
+<W _noerror=":nosubj:" gloss="judged" id="164" lemma="dømme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:preds">dømt</W>
 <W gloss="undignified" id="165" lemma="uværdig" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">uværdig</W>
 <W gloss="in" id="166" lemma="i" msd="SP" tag="IN" in="-3:loc" out="1:nobj">i</W>
 <W gloss="the" id="167" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">det</W>
@@ -222,7 +222,7 @@
 <W gloss="Finally" id="221" lemma="tilsidst" msd="RGU" tag="RP" in="1:time" out="">Tilsidst</W>
 <W gloss="began" id="222" lemma="begynde" msd="VADA=----A-" tag="VBD" in="" out="1:subj|4:dobj|10:conj|23:pnct|-1:time">begyndte</W>
 <W gloss="the" id="223" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj|4:[subj]|9:[subj]|11:[subj]|15:[subj]" out="2:nobj">den</W>
-<W _noerror="&3a;nosubj&3a;" gloss="frustrated" id="224" lemma="frustrere" msd="VAPA=S[CN]DA-U" tag="VBN" in="0:attr" out="0:attr">frustrerede</W>
+<W _noerror=":nosubj:" gloss="frustrated" id="224" lemma="frustrere" msd="VAPA=S[CN]DA-U" tag="VBN" in="0:attr" out="0:attr">frustrerede</W>
 <W gloss="Fergie" id="225" lemma="Fergie" msd="NP--U==-" tag="NNP" in="-2:nobj" out="">Fergie</W>
 <W gloss="to" id="226" lemma="at" msd="U=" tag="TO" in="-4:dobj" out="1:vobj">at</W>
 <W gloss="go" id="227" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|2:@loc">gå</W>

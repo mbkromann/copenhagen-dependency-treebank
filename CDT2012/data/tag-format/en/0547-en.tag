@@ -1,9 +1,9 @@
 <s>
 <W msd="NP=S" tag="NNP" in="5:attr" out="">Big</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">trailer</W>
 <W msd="NC=S" tag="NN" in="2:nobj" out="-1:mod|-2:pnct|1:pnct">rock</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="-2:nobj|-5:attr">tours</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|8:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|3:mod">become</W>
@@ -75,7 +75,7 @@
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:dobj|26:pnct">believe</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="1:pnct|12:vobj">that</W>

@@ -119,14 +119,14 @@
 <W gloss="," id="118" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="there" id="119" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
 <W gloss="are" id="120" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:relr" out="-1:subj|5:pnct|1:preds">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="mentioned" id="121" lemma="nævne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">nævnt</W>
+<W _noerror=":nosubj:" gloss="mentioned" id="121" lemma="nævne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">nævnt</W>
 <W gloss="in" id="122" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="§" id="123" lemma="§" msd="XS" tag="SYM" in="-1:nobj" out="1:nobj">§</W>
 <W gloss="99" id="124" lemma="99" msd="AC---U=--" tag="CD" in="-1:nobj" out="">99</W>
 <W gloss="," id="125" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="are" id="126" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="1:neg|2:preds|-12:subj">er</W>
 <W gloss="not" id="127" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W _noerror="&3a;nosubj&3a;" gloss="covered" id="128" lemma="omfatte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:pobj">omfattet</W>
+<W _noerror=":nosubj:" gloss="covered" id="128" lemma="omfatte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:pobj">omfattet</W>
 <W gloss="by" id="129" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_provision" id="130" lemma="bestemmelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:attr|1:{source}">bestemmelsen</W>
 <W gloss="in" id="131" lemma="i" msd="SP" tag="IN" in="-1:attr|-1:{source}" out="1:nobj">i</W>
@@ -164,7 +164,7 @@
 <W gloss="," id="163" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="must" id="164" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-18:subj|1:vobj|14:pnct">skal</W>
 <W gloss="be" id="165" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-19:[subj]|1:preds">være</W>
-<W _noerror="&3a;nosubj&3a;" gloss="brought" id="166" lemma="anlægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:time">anlagt</W>
+<W _noerror=":nosubj:" gloss="brought" id="166" lemma="anlægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:time">anlagt</W>
 <W gloss="within" id="167" lemma="inden" msd="SP" tag="IN" in="-1:time" out="3:time">inden</W>
 <W gloss="6" id="168" lemma="6" msd="AC---U=--" tag="CD" in="2:@time" out="1:nobj">6</W>
 <W gloss="months" id="169" lemma="måned" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">måneder</W>
@@ -175,7 +175,7 @@
 <W gloss="or" id="174" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="the_resolution" id="175" lemma="beslutning" msd="NCCSU==D" tag="NN" in="-2:conj" out="-1:coord">beslutningen</W>
 <W gloss="has_been" id="176" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="1:preds|-3:subj">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="reported" id="177" lemma="meddele" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">meddelt</W>
+<W _noerror=":nosubj:" gloss="reported" id="177" lemma="meddele" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">meddelt</W>
 <W gloss="." id="178" lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
@@ -184,7 +184,7 @@
 <W gloss="or" id="183" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="the_resolution" id="184" lemma="beslutning" msd="NCCSU==D" tag="NN" in="-2:conj" out="-1:coord">beslutningen</W>
 <W gloss="publicly" id="185" lemma="offentlig" msd="ANP---=-R" tag="JJ" in="1:attr" out="">offentligt</W>
-<W _noerror="&3a;nosubj&3a;" gloss="promulgated" id="186" lemma="bekendtgøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:preds" out="-1:attr">bekendtgjort</W>
+<W _noerror=":nosubj:" gloss="promulgated" id="186" lemma="bekendtgøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:preds" out="-1:attr">bekendtgjort</W>
 <W gloss="," id="187" lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="shall_be_calculated" id="188" lemma="regne" msd="VADR=----P-" tag="VBD" in="" out="-7:cond|1:subj|3:time|4:pobj|6:pnct|2:conc">regnes</W>
 <W gloss="the_deadline_for_commencing_an_action" id="189" lemma="søgsmålsfrist" msd="NCCSU==D" tag="NN" in="-1:subj" out="">søgsmålsfristen</W>

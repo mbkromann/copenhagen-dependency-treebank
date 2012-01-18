@@ -199,12 +199,12 @@
 <W gloss="mother" id="198" lemma="mor" msd="NCCSU==I" tag="NN" in="1:subj" out="">mor</W>
 <W gloss="was" id="199" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds">var</W>
 <W gloss="young" id="200" lemma="ung" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">ung</W>
-<W gloss="cost" id="201" lemma="koste" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:dobj|3:pnct|7:pnct|4:&lt;subj&3a;2&gt;|5:&lt;dobj&3a;2&gt;">koster</W>
+<W gloss="cost" id="201" lemma="koste" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:dobj|3:pnct|7:pnct|4:&lt;subj:2&gt;|5:&lt;dobj:2&gt;">koster</W>
 <W gloss="399" id="202" lemma="399" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">399</W>
 <W gloss="DKK" id="203" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="-" id="204" lemma="-" msd="XP" tag="-" in="-3:pnct" out=""> - </W>
-<W gloss="the_booties" id="205" lemma="støvlet" msd="NCCPU==D" tag="NNP" in="-4:&lt;subj&3a;2&gt;" out="">støvletterne</W>
-<W gloss="499" id="206" lemma="499" msd="AC---U=--" tag="CD" in="-5:&lt;dobj&3a;2&gt;" out="1:nobj">499</W>
+<W gloss="the_booties" id="205" lemma="støvlet" msd="NCCPU==D" tag="NNP" in="-4:&lt;subj:2&gt;" out="">støvletterne</W>
+<W gloss="499" id="206" lemma="499" msd="AC---U=--" tag="CD" in="-5:&lt;dobj:2&gt;" out="1:nobj">499</W>
 <W gloss="DKK" id="207" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="." id="208" lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
@@ -245,7 +245,7 @@
 <W gloss="couple" id="244" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">par</W>
 <W gloss="hundred" id="245" lemma="hundrede" msd="NCNPU==I" tag="NNP" in="-3:dobj" out="-2:numm|1:other">hundrede</W>
 <W gloss="that" id="246" lemma="at" msd="U=" tag="TO" in="-1:other" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="save" id="247" lemma="spare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:other|6:loc">spare</W>
+<W _noerror=":nosubj:" gloss="save" id="247" lemma="spare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:other|6:loc">spare</W>
 <W gloss="on" id="248" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
 <W gloss="other" id="249" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:pobj">andre</W>
 <W gloss="by" id="250" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>

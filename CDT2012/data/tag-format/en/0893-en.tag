@@ -68,7 +68,7 @@
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="28:qobj" out="-1:pnct|2:conj|27:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">it</W>
 <W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|2:preds">is</W>
@@ -96,7 +96,7 @@
 <W msd="NP=S" tag="NNP" in="" out="">Protection</W>
 <W msd="NP=S" tag="NNP" in="" out="">Agency</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-27:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-27:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-28:qobj|3:subj|27:pnct">says</W>
 <W msd="NC=S" tag="NN" in="2:title" out="">director</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Leif</W>
@@ -140,7 +140,7 @@
 <W msd="SP" tag="IN" in="-8:mod" out="1:lobj">within</W>
 <W msd="AC" tag="CD" in="-1:lobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
-<W msd="XP" tag="&3a;" in="-11:pnct" out="">;</W>
+<W msd="XP" tag=":" in="-11:pnct" out="">;</W>
 <W msd="ANP" tag="RB" in="-12:mod" out="">otherwise</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="5:subj" out="1:nobj|7:mod">that</W>

@@ -163,7 +163,7 @@
 <W gloss="helped" id="162" lemma="bidrage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:pobj|-11:[subj]">bidraget</W>
 <W gloss="in" id="163" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" id="164" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="maintain" id="165" lemma="fastholde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">fastholde</W>
+<W _noerror=":nosubj:" gloss="maintain" id="165" lemma="fastholde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">fastholde</W>
 <W gloss="the_Government's" id="166" lemma="regering" msd="NCCSG==D" tag="NN" in="-1:dobj|1:{agent}" out="1:possd|2:other">regeringens</W>
 <W gloss="line" id="167" lemma="linie" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{agent}">linie</W>
 <W gloss="for" id="168" lemma="for" msd="SP" tag="IN" in="-2:other" out="1:nobj">for</W>
@@ -171,7 +171,7 @@
 <W gloss="by" id="170" lemma="af" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">af</W>
 <W gloss="Danish" id="171" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">dansk</W>
 <W gloss="economy" id="172" lemma="økonomi" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">økonomi</W>
-<W gloss="&3a;" id="173" lemma="&3a;" msd="XP" tag="&3a;" in="-24:pnct" out="">:</W>
+<W gloss=":" id="173" lemma=":" msd="XP" tag=":" in="-24:pnct" out="">:</W>
 </s>
 </p>
 <div1 type=external>
@@ -189,7 +189,7 @@
 <s>
 <W gloss="NET" id="189" lemma="netto" msd="RGU" tag="RP" in="" out="2:conj">NETTO</W>
 <W gloss="=" id="190" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
-<W gloss="04_&3a;_30" id="191" lemma="04&3a;30" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">04:30</W>
+<W gloss="04_:_30" id="191" lemma="04:30" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">04:30</W>
 </s>
 </p>
 </div1>
@@ -228,7 +228,7 @@
 <W gloss="in" id="227" lemma="i" msd="SP" tag="IN" in="-7:event" out="1:nobj">i</W>
 <W gloss="magazine" id="228" lemma="magasin" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:time">magasinet</W>
 <W gloss="a_._m." id="229" lemma="klokke" msd="NCCSU==D" tag="NN" in="-1:time" out="1:nobj">kl.</W>
-<W gloss="7_&3a;_00_p.m." id="230" lemma="19" msd="AC---U=--" tag="CD" in="-1:nobj" out="">19</W>
+<W gloss="7_:_00_p.m." id="230" lemma="19" msd="AC---U=--" tag="CD" in="-1:nobj" out="">19</W>
 <W gloss="." id="231" lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
@@ -251,7 +251,7 @@
 <s>
 <W gloss="GROSS" id="251" lemma="brutto" msd="RGU" tag="RP" in="" out="2:conj">BRUTTO</W>
 <W gloss="=" id="252" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
-<W gloss="05_&3a;_12" id="253" lemma="05&3a;12" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">05:12</W>
+<W gloss="05_:_12" id="253" lemma="05:12" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">05:12</W>
 </s>
 </p>
 </div1>
@@ -310,7 +310,7 @@
 <W gloss="for" id="309" lemma="ved" msd="SP" tag="IN" in="-1:other" out="1:nobj">ved</W>
 <W gloss="such" id="310" lemma="sådan" msd="ANPCSU=IU" tag="JJ" in="-1:nobj" out="1:nobj">sådan</W>
 <W gloss="a" id="311" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="">en</W>
-<W gloss="&3a;" id="312" lemma="&3a;" msd="XP" tag="&3a;" in="-27:pnct" out="">:</W>
+<W gloss=":" id="312" lemma=":" msd="XP" tag=":" in="-27:pnct" out="">:</W>
 </s>
 </p>
 </div1>

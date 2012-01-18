@@ -174,7 +174,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cushion</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-15:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-15:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-16:qobj|1:subj|4:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">orthopaedic</W>

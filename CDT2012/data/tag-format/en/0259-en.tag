@@ -2,7 +2,7 @@
 <W msd="SP" tag="IN" in="" out="1:nobj|3:pnct|5:xpl">In</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">words</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="">smoking</W>
 <W msd="VADR" tag="VBZ" in="-5:xpl" out="-1:subj|1:preds|2:mod|5:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:preds" out="">forbidden</W>
@@ -71,17 +71,17 @@
 <W msd="SP" tag="IN" in="-3:mod" out="2:nobj">in</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">government</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">locales</W>
-<W msd="XP" tag="&3a;" in="-35:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-35:pnct" out="">:</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="">Ministry</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct">Environment</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">We're</W>
 <W msd="VAG" tag="VBG" in="" out="-2:pnct|-1:subj">going</W>
 <W msd="U=" tag="TO" in="" out="1:vobj|4:time|9:pnct">to</W>
@@ -151,10 +151,10 @@
 <W msd="NP=S" tag="NNP" in="" out="">Ministry</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct">Housing</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">You</W>
 <W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|1:vobj|5:pnct">should</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj">talk</W>
@@ -166,10 +166,10 @@
 <s>
 <W msd="AC" tag="CD" in="1:attr" out="">2nd</W>
 <W msd="NC=S" tag="NN" in="" out="-1:attr|1:pnct">office</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="3:[subj]" out="-1:pnct">We're</W>
 <W msd="VAG" tag="VBG" in="" out="1:dobj|13:pnct">trying</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -216,10 +216,10 @@
 <W msd="NP=S" tag="NNP" in="" out="">Ministry</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct">State</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="I=" tag="UH" in="" out="-1:pnct|1:pnct|3:conj|13:pnct">Yes</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Poul</W>

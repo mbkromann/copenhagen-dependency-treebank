@@ -68,7 +68,7 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="">36</W>
 <W msd="U=" tag="TO" in="-3:pobj" out="1:nobj|2:pnct|8:conj">to</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">41</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="5:coord" out="1:pnct">or</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="3:mod" out="1:avobj|2:pnct">at</W>
@@ -146,7 +146,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">behind</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>
 <W msd="AC" tag="CD" in="-12:list" out="-1:nobj|1:pnct|2:ref|3:rel">299</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">which</W>
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:add|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
@@ -181,7 +181,7 @@
 <W msd="NC=S" tag="NN" in="" out="-10:subj|2:dobj|3:pnct|4:&lt;subj&gt;|7:&lt;dobj&gt;|8:pnct">cost</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="-1:nobj">399</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="-4:&lt;subj&gt;" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">booties</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>

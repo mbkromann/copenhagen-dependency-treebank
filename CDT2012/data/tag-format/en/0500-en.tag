@@ -195,7 +195,7 @@
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">asked</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:pnct|4:xpl">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">question</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W msd="PT" tag="WP" in="6:nobj" out="">What</W>
 <W msd="VADR" tag="VBZ" in="-4:xpl" out="1:subj|2:preds|6:pnct">is</W>
 <W msd="PP" tag="PRP" in="-1:subj|2:[subj]|3:[subj]" out="">it</W>
@@ -227,5 +227,5 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">letter</W>
-<W msd="XP" tag="&3a;" in="-11:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-11:pnct" out="">:</W>
 </s>

@@ -1,12 +1,12 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:[subj]|8:qobj" out="-1:pnct|1:vobj|5:pnct|6:pnct">I'll</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-1:[subj]|1:dobj|2:lobj">see</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">you</W>
 <W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">in</W>
 <W msd="I=" tag="UH" in="-1:nobj" out="">Hell</W>
 <W msd="XP" tag="." in="-5:pnct" out="">!</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-8:qobj|1:iobj|3:conj|12:pnct">answered</W>
 <W msd="PO" tag="PRP$" in="-1:iobj" out="">her</W>
@@ -117,7 +117,7 @@
 <W msd="NP=S" tag="NNP" in="" out="-2:subj">BROKE</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="3:mod" out="1:pnct">Tonight</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
@@ -127,7 +127,7 @@
 <W msd="VA" tag="MD" in="-2:rel" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">die</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-8:qobj|-1:subj|2:conj|15:pnct">said</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -147,14 +147,14 @@
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
 <W msd="VADA" tag="VBD" in="6:qobj" out="-2:pnct|-1:subj|1:dobj|4:pnct|5:pnct">wanted</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">scare</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="">her</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-6:qobj|1:subj|4:mod|8:pnct">explained</W>
 <W msd="PD" tag="DT" in="-1:subj" out="2:attr">the</W>
 <W msd="AC" tag="CD" in="1:mod" out="">19-year</W>
@@ -197,7 +197,7 @@
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="12:qobj" out="-2:pnct|-1:subj|1:preds|10:pnct|11:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
@@ -210,7 +210,7 @@
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">kill</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="">her</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-11:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-12:qobj|7:subj|8:pnct">believes</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Detective</W>
 <W msd="NP=S" tag="NNP" in="5:title" out="-1:mod">Inspector</W>

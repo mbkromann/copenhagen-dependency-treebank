@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|11:[subj]|12:[subj]" out="">They</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:dobj|10:conj|14:pnct">begin</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -68,7 +68,7 @@
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|2:lobj|12:pnct">travels</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
 <W msd="ANP" tag="RB" in="-2:lobj" out="-1:mod|1:pnct|2:modp">afield</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-2:modp" out="2:nobj|3:pobj|5:pobj">from</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">sexual</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">fantasies</W>
@@ -103,10 +103,10 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj">decided</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-10:dobj|-5:[subj]|1:pnct|2:xpl">preclude</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="-2:xpl" out="">AIDS</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">:</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="-8:xpl" out="-1:pnct|1:preds|15:pnct">we're</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">tired</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="5:nobj">of</W>

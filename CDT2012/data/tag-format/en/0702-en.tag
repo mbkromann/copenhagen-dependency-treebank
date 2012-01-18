@@ -153,7 +153,7 @@
 <W msd="CC" tag="CC" in="" out="1:conj">But</W>
 <W msd="CS" tag="IN" in="-1:conj" out="1:vobj">as</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="1:pnct|4:xpl">mentioned</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">circle</W>
 <W msd="VADR" tag="VBZ" in="-4:xpl" out="-2:subj|1:neg|2:preds|4:pnct">is</W>
@@ -167,7 +167,7 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="-2:conj" out="-1:subj|1:vobj">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:pnct|3:xpl">admit</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="1:subj" out="">this</W>
 <W msd="VADA" tag="VBD" in="-3:xpl" out="-1:subj|1:preds">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj|3:ref|5:rel">the</W>

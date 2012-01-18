@@ -48,7 +48,7 @@
 <W gloss="Danish" id="47" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">danske</W>
 <W gloss="elves" id="48" lemma="nisse" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">nisser</W>
 <W gloss="and" id="49" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="pay" id="50" lemma="betale" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-7:[subj]|-1:coord|1:eval|2:dobj|4:pobj|8:pnct|9:coord|10:&lt;dobj&3a;2&gt;|12:&lt;pobj&3a;2&gt;">betaler</W>
+<W gloss="pay" id="50" lemma="betale" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-7:[subj]|-1:coord|1:eval|2:dobj|4:pobj|8:pnct|9:coord|10:&lt;dobj:2&gt;|12:&lt;pobj:2&gt;">betaler</W>
 <W gloss="gladly" id="51" lemma="gerne" msd="RGU" tag="RP" in="-1:eval" out="">gerne</W>
 <W gloss="50" id="52" lemma="50" msd="AC---U=--" tag="CD" in="-2:dobj" out="1:nobj">50</W>
 <W gloss="DKK" id="53" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kroner</W>
@@ -58,9 +58,9 @@
 <W gloss="elves" id="57" lemma="nisse" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">nisser</W>
 <W gloss="," id="58" lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="and" id="59" lemma="og" msd="CC" tag="CC" in="-9:coord" out="">og</W>
-<W gloss="150" id="60" lemma="150" msd="AC---U=--" tag="CD" in="-10:&lt;dobj&3a;2&gt;" out="1:nobj">150</W>
+<W gloss="150" id="60" lemma="150" msd="AC---U=--" tag="CD" in="-10:&lt;dobj:2&gt;" out="1:nobj">150</W>
 <W gloss="DKK" id="61" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kroner</W>
-<W gloss="for" id="62" lemma="for" msd="SP" tag="IN" in="-12:&lt;pobj&3a;2&gt;" out="1:nobj">for</W>
+<W gloss="for" id="62" lemma="for" msd="SP" tag="IN" in="-12:&lt;pobj:2&gt;" out="1:nobj">for</W>
 <W gloss="the" id="63" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr">de</W>
 <W gloss="big" id="64" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">store</W>
 <W gloss="," id="65" lemma="," msd="XP" tag="," in="-21:pnct" out="">,</W>
@@ -216,15 +216,15 @@
 <W gloss="good" id="215" lemma="godt" msd="XX" note="god" tag="FW" in="-1:preds" out="1:pobj">godt</W>
 <W gloss="at" id="216" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" id="217" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="knitting" id="218" lemma="strikke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">strikke</W>
+<W _noerror=":nosubj:" gloss="knitting" id="218" lemma="strikke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">strikke</W>
 <W gloss="and" id="219" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="has_had" id="220" lemma="have" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:conj" out="-7:[subj]|-1:coord|1:dobj">haft</W>
 <W gloss="aptitude" id="221" lemma="anlæg" msd="NCNSU==I" tag="NN" in="-1:dobj" out="1:pobj">anlæg</W>
 <W gloss="for" id="222" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="that" id="223" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="sewing" id="224" lemma="sy" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:conj">sy</W>
+<W _noerror=":nosubj:" gloss="sewing" id="224" lemma="sy" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:conj">sy</W>
 <W gloss="and" id="225" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W _noerror="&3a;nosubj&3a;" gloss="embroidering" id="226" lemma="brodere" msd="VAF-=----A-" tag="VB" in="-2:conj" out="-1:coord">brodere</W>
+<W _noerror=":nosubj:" gloss="embroidering" id="226" lemma="brodere" msd="VAF-=----A-" tag="VB" in="-2:conj" out="-1:coord">brodere</W>
 <W gloss="," id="227" lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W gloss="and" id="228" lemma="og" msd="CC" tag="CC" in="15:coord" out="">og</W>
 <W gloss="after" id="229" lemma="efter" msd="SP" tag="IN" in="14:time" out="1:nobj">efter</W>

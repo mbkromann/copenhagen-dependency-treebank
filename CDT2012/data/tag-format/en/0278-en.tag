@@ -36,14 +36,14 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|3:list|4:pnct">Photo</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jan</W>
 <W msd="NP=S" tag="NNP" in="-3:list" out="-1:namef">Knudsen</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="">Rudbjerg</W>
-<W msd="XP" tag="&3a;" in="13:pnct" out="">-</W>
+<W msd="XP" tag=":" in="13:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="12:mod" out="1:nobj|9:preds|10:pnct">With</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">formation</W>
@@ -131,7 +131,7 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">They</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:dobj|7:mod|9:pnct">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
@@ -197,7 +197,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Nakskov</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|8:[subj]|14:[subj]" out="">I</W>
 <W msd="NC=S" tag="NN" in="19:qobj" out="-2:pnct|-1:subj|1:dobj|4:mod|7:conj|18:pnct">coach</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>

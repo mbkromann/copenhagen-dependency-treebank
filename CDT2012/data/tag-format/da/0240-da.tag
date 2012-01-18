@@ -134,7 +134,7 @@
 <W gloss="psychological" id="133" lemma="psykologisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">psykologiske</W>
 <W gloss="aspect" id="134" lemma="aspekt" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">aspekt</W>
 <W gloss="is" id="135" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="5:pnct|1:preds|-3:subj">bliver</W>
-<W _noerror="&3a;nosubj&3a;" gloss="touched_on" id="136" lemma="berøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:loc">berørt</W>
+<W _noerror=":nosubj:" gloss="touched_on" id="136" lemma="berøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:loc">berørt</W>
 <W gloss="in" id="137" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="every" id="138" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">alle</W>
 <W gloss="chapter" id="139" lemma="kapitel" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">kapitler</W>
@@ -153,7 +153,7 @@
 <W gloss="preclude" id="152" lemma="udelukke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:dobj|1:pnct|2:xpl|-4:[subj]">udelukke</W>
 <W gloss="-" id="153" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="AIDS" id="154" lemma="aids" msd="NCCSU==I" tag="NN" in="-2:xpl" out="">AIDS</W>
-<W gloss="&3a;" id="155" lemma="&3a;" msd="XP" tag="&3a;" in="-8:pnct" out="">:</W>
+<W gloss=":" id="155" lemma=":" msd="XP" tag=":" in="-8:pnct" out="">:</W>
 <W gloss="-" id="156" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
 <W gloss="we" id="157" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
 <W gloss="are" id="158" lemma="være" msd="VADR=----A-" tag="VBD" in="-11:xpl" out="-1:subj|-2:pnct|1:preds|13:pnct">er</W>

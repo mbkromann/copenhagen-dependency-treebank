@@ -46,9 +46,9 @@
 <W msd="XP" tag="." in="-32:pnct" out="">?</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="" out="-1:pnct">No.</W>
-<W msd="XP" tag="&3a;" in="6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="6:pnct" out="">-</W>
 <W msd="CS" tag="IN" in="5:cond" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:pnct">had</W>
@@ -102,11 +102,11 @@
 <W msd="SP" tag="IN" in="-5:lobj" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">face</W>
-<W msd="XP" tag="&3a;" in="-8:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-8:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:neg">unnecessarily</W>
 <W msd="ANP" tag="JJ" in="-11:modp" out="-1:mod|1:pnct">hard</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADA" tag="VBD" in="-17:conj" out="-18:[subj]|-1:coord|1:@loc">walked</W>
 <W msd="RG" tag="RP" in="-1:@loc" out="1:nobj">out</W>

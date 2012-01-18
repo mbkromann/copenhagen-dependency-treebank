@@ -75,9 +75,9 @@
 <W msd="VADA" tag="VBD" in="-1:rel" out="-1:[subj]|1:vobj">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">needed</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="2:vobj">to</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:vobj" out="-1:pnct|1:pnct|2:dobj">light</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">dynamite</W>
 <W msd="CC" tag="CC" in="10:coord" out="1:pnct">and</W>
@@ -101,7 +101,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">field</W>
-<W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-10:pnct" out="">-</W>
 <W msd="PI" tag="DT" in="-11:modp|8:[nobj]" out="1:nobj|5:rel">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">style</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -187,7 +187,7 @@
 <W msd="NC=S" tag="NN" in="-1:preds" out="1:mod">something</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pnct|21:xpl">see</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
 <W msd="CS" tag="IN" in="17:cond" out="3:vobj">If</W>

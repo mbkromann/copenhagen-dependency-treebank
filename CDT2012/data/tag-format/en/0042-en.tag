@@ -27,7 +27,7 @@
 <W msd="ANP" tag="JJ" in="-1:mod" out="">explosive</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">political</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="1:pnct|2:appa">areas</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="-2:appa" out="1:pnct|2:conj|6:conj">education</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="-2:conj" out="2:nobj">the</W>
@@ -38,7 +38,7 @@
 <W msd="XP" tag="." in="-31:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:dobj|18:pnct">aim</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -88,7 +88,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">bargaining</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">agreements</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-23:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-23:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-24:qobj|2:subj|3:mod|5:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Henning</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Dyremose</W>
@@ -175,7 +175,7 @@
 <W msd="NP=S" tag="NNP" in="" out="-1:mod">VAT</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="5:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">Honestly</W>
 <W msd="VAG" tag="VBG" in="3:mod" out="-1:mod|1:pnct">speaking</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -200,7 +200,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">fees</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-20:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-20:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-21:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Henning</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Dyremose</W>

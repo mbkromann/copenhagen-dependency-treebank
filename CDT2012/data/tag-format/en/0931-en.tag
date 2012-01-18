@@ -159,11 +159,11 @@
 <W msd="NC=S" tag="NN" in="" out="">year</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">birthday</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-10:dobj" out="-1:pnct|1:nobj|2:nobj|3:pnct">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Gremlin</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Prize</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
@@ -206,11 +206,11 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="" out="-4:subj|1:vobj|39:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|2:dobj">written</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:dobj" out="-1:pnct|3:pnct|4:pnct|5:appa">Jutlandese</W>
 <W msd="SP" tag="IN" in="" out="">for</W>
 <W msd="NP=S" tag="NNP" in="" out="">Travellers</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PI" tag="DT" in="-5:appa|6:[dobj]" out="1:attr|2:nobj|6:rel">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">little</W>

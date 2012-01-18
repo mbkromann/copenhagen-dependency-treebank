@@ -41,11 +41,11 @@
 <div1 type=main>
 <p>
 <s>
-<W _noerror="&3a;nosubj&3a;" gloss="were" id="43" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="1:preds|7:pnct">var</W>
+<W _noerror=":nosubj:" gloss="were" id="43" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="1:preds|7:pnct">var</W>
 <W gloss="afraid" id="44" lemma="bange" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:preds" out="1:pobj">bange</W>
 <W gloss="of" id="45" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="that" id="46" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="being" id="47" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds">blive</W>
+<W _noerror=":nosubj:" gloss="being" id="47" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds">blive</W>
 <W gloss="the" id="48" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:preds" out="1:attr">de</W>
 <W gloss="next" id="49" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">næste</W>
 <W gloss="." id="50" lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
@@ -58,7 +58,7 @@
 <W gloss="in" id="57" lemma="i" msd="SP" tag="IN" in="-3:loc" out="1:nobj">i</W>
 <W gloss="Paris." id="58" lemma="Paris" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Paris</W>
 <W gloss="." id="59" lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="60" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W gloss="&quot;" id="60" lemma="&quot;" msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -115,7 +115,7 @@
 <W gloss="effect" id="114" lemma="effekt" msd="NCCSU==I" tag="NN" in="-2:possd" out="-2:{arg}">effekt</W>
 <W gloss="showed" id="115" lemma="vise" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:dobj|3:preds|6:pnct|2:prg">viste</W>
 <W gloss="themselves" id="116" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
-<W gloss="&3a;" id="117" lemma="nemlig" msd="RGU" tag="RP" in="-2:prg" out="">nemlig</W>
+<W gloss=":" id="117" lemma="nemlig" msd="RGU" tag="RP" in="-2:prg" out="">nemlig</W>
 <W gloss="to" id="118" lemma="at" msd="U=" tag="TO" in="-3:preds" out="1:vobj">at</W>
 <W gloss="be" id="119" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds|-7:[subj]">blive</W>
 <W gloss="brief" id="120" lemma="kortvarig" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">kortvarig</W>
@@ -206,7 +206,7 @@
 <W gloss="business_closings" id="205" lemma="virksomhedslukning" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="2:conj">virksomhedslukninger</W>
 <W gloss="and" id="206" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="a" id="207" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:conj" out="-1:coord|2:nobj|1:attr">et</W>
-<W _noerror="&3a;nosubj&3a;" gloss="rising" id="208" lemma="stige" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">stigende</W>
+<W _noerror=":nosubj:" gloss="rising" id="208" lemma="stige" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">stigende</W>
 <W gloss="number" id="209" lemma="antal" msd="NCNSU==I" tag="NN" in="-2:nobj" out="1:nobj">antal</W>
 <W gloss="unemployed" id="210" lemma="arbejdsløs" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="">arbejdsløse</W>
 <W gloss="." id="211" lemma="." msd="XP" tag="." in="-37:pnct" out="">.</W>
@@ -244,7 +244,7 @@
 </s>
 <s>
 <W gloss="To" id="245" lemma="at" msd="U=" tag="TO" in="4:subj" out="1:vobj">At</W>
-<W _noerror="&3a;nosubj&3a;" gloss="win" id="246" lemma="sejre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:loc">sejre</W>
+<W _noerror=":nosubj:" gloss="win" id="246" lemma="sejre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:loc">sejre</W>
 <W gloss="in" id="247" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Texas" id="248" lemma="Texas" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Texas</W>
 <W gloss="is" id="249" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|2:preds|7:pnct|1:eval">er</W>

@@ -58,7 +58,7 @@
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="2:subj|3:[subj]" out="1:possd">Children's</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">circumstances</W>
 <W msd="VADR" tag="VBP" in="20:qobj" out="-3:pnct|-2:subj|1:vobj|17:pnct|18:pnct">have</W>
@@ -79,13 +79,13 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">comparison</W>
 <W msd="XP" tag="," in="-17:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-18:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-18:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="" out="-20:qobj|-1:subj|1:pnct">says</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="9:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="9:pnct" out="">"</W>
 <W msd="PO" tag="PRP$" in="8:subj" out="1:possd">Our</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:pobj">view</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -136,7 +136,7 @@
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">that</W>
 <W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:loc|2:pnct">fall</W>
 <W msd="SP" tag="IN" in="-1:loc" out="">outside</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="-8:mod" out="1:pobj">instead</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="2:conj|3:dobj">using</W>

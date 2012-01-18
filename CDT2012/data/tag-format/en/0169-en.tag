@@ -136,7 +136,7 @@
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:subj|1:[subj]" out="">Abuse</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|-1:[subj]|1:avobj|4:pnct|5:cause|17:pnct">sneaks</W>
 <W msd="RG" tag="RP" in="-1:avobj" out="1:mod">up</W>
@@ -202,7 +202,7 @@
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">day.</W>
-<W msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-11:pnct" out="">"</W>
 </s>
 <s>
 <W msd="SP" tag="IN" in="6:mod" out="1:nobj|3:pnct">Like</W>
@@ -245,5 +245,5 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">evenings</W>
 <W msd="PI" tag="DT" in="-2:mod" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">week</W>
-<W msd="XP" tag="&3a;" in="-13:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-13:pnct" out="">:</W>
 </s>

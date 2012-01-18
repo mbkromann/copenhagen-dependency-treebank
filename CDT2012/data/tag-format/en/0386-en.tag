@@ -153,13 +153,13 @@
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:[subj]|7:qobj" out="-1:pnct|1:vobj|4:pnct|5:pnct">Let's</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-1:[subj]|1:dobj">grab</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">taxi</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-7:qobj|-1:subj|1:pobj|4:mod|8:pnct|17:conj">shouted</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -180,8 +180,8 @@
 <W msd="NC=S" tag="NN" in="-6:possd" out="-1:attr">offspring</W>
 <W msd="VADA" tag="VBD" in="-17:conj" out="-7:subj|-8:coord|1:time|2:pnct|4:qobj">answered</W>
 <W msd="ANP" tag="RB" in="-1:time" out="">immediately</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-4:qobj" out="-1:pnct|1:subj|2:vobj|5:attr|6:pnct|7:pnct">Shouldn't</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">we</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|1:dobj">grab</W>
@@ -189,7 +189,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hotdog</W>
 <W msd="ANP" tag="RB" in="-5:attr" out="">instead</W>
 <W msd="XP" tag="." in="-6:pnct" out="">?</W>
-<W msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>

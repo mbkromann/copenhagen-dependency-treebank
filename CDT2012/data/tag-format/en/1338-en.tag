@@ -21,7 +21,7 @@
 <W msd="VADA" tag="VBD" in="-8:vobj" out="1:tobj">happened</W>
 <W msd="SP" tag="IN" in="-1:tobj" out="4:mod">at</W>
 <W msd="AC" tag="CD" in="" out="">11</W>
-<W msd="XP" tag="&3a;" in="" out="">:</W>
+<W msd="XP" tag=":" in="" out="">:</W>
 <W msd="AC" tag="CD" in="" out="">32</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Monday</W>
@@ -59,7 +59,7 @@
 <W msd="PT" tag="WP" in="-3:ref|7:subj" out="">who</W>
 <W msd="SP" tag="IN" in="6:mod" out="">at</W>
 <W msd="AC" tag="CD" in="" out="">8</W>
-<W msd="XP" tag="&3a;" in="" out="">:</W>
+<W msd="XP" tag=":" in="" out="">:</W>
 <W msd="AC" tag="CD" in="" out="">45</W>
 <W msd="SP" tag="IN" in="" out="">on</W>
 <W msd="NP=S" tag="NNP" in="" out="">Monday</W>
@@ -73,10 +73,10 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">post-box</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="">of</W>
 <W msd="PD" tag="DT" in="" out="1:pnct|2:mod">the</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="">International</W>
 <W msd="NC=P" tag="NNS" in="" out="1:pnct">Socialists</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-47:pnct" out="">.</W>
 </s>
 <s>
@@ -84,7 +84,7 @@
 <W msd="NP=S" tag="NNP" in="" out="-1:mod">CRATER</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="" out="">The</W>
 <W msd="NC=S" tag="NN" in="" out="">table</W>
 <W msd="NC=S" tag="NN" in="" out="1:mod">surface</W>
@@ -122,7 +122,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">package</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-12:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-12:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-13:qobj|5:subj|9:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="" out="">Chief</W>
 <W msd="NP=S" tag="NNP" in="" out="">Criminal</W>

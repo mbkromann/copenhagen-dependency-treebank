@@ -73,11 +73,11 @@
 <W msd="VADR" tag="VBZ" in="16:qobj" out="-2:subj|-5:cause|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|4:dobj">cover</W>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">special</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">household</W>
 <W msd="NC=P" tag="NNS" in="-4:dobj" out="-1:mod|-3:pnct|-2:attr|1:pnct|2:ref|3:rel">effects</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:vobj|6:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">stolen</W>
@@ -101,11 +101,11 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">Special</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">household</W>
 <W msd="NC=P" tag="NNS" in="2:subj" out="-1:mod|-3:pnct|-2:attr|1:pnct">effects</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:pnct|6:dobj|17:pnct">means</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="4:mod" out="1:nobj|3:pnct">among</W>

@@ -81,13 +81,13 @@
 <W msd="PT" tag="WDT" in="-3:ref|1:subj|2:[subj]" out="">which</W>
 <W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:vobj">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:dobj">called</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="XF" tag="FW" in="-2:dobj" out="-1:pnct|1:name|5:pnct">Il</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="1:name">Cimento</W>
 <W msd="NC=S" tag="NN" in="-1:name" out="1:name">dell'Armonia</W>
 <W msd="NC=S" tag="NN" in="-1:name" out="1:name">e</W>
 <W msd="NC=S" tag="NN" in="-1:name" out="">dell'Invenzione</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
@@ -134,7 +134,7 @@
 <W msd="PD" tag="DT" in="" out="1:nobj|3:pnct|10:list|43:pnct">THE</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">FOUR</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">SEASONS</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 </s>
 <s>
 <W msd="XP" tag="(" in="1:pnct" out="">(</W>

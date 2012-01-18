@@ -166,7 +166,7 @@
 <W gloss="to" id="165" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="themselves" id="166" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:nobj" out="1:focal">sig</W>
 <W gloss="even" id="167" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-1:focal" out="">selv</W>
-<W gloss="&3a;" id="168" lemma="&3a;" msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
+<W gloss=":" id="168" lemma=":" msd="XP" tag=":" in="-4:pnct" out="">:</W>
 </s>
 </p>
 <p>
@@ -190,14 +190,14 @@
 </s>
 <s>
 <W gloss="It" id="191" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="boils" id="192" lemma="koge" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:conj|5:pnct|6:coord|10:pnct|7:&lt;time&3a;2&gt;">koger</W>
+<W gloss="boils" id="192" lemma="koge" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:conj|5:pnct|6:coord|10:pnct|7:&lt;time:2&gt;">koger</W>
 <W gloss="and" id="193" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="you" id="194" lemma="du" msd="PP2CSN-NU" tag="PRP" in="1:subj" out="">du</W>
 <W gloss="are" id="195" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-1:subj|-2:coord|1:preds">er</W>
 <W gloss="happy" id="196" lemma="lykkelig" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">lykkelig</W>
 <W gloss="," id="197" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" id="198" lemma="og" msd="CC" tag="CC" in="-6:coord" out="">og</W>
-<W gloss="the" id="199" lemma="den" msd="PD-NSU--U" tag="DT" in="-7:&lt;time&3a;2&gt;" out="1:attr|2:nobj">det</W>
+<W gloss="the" id="199" lemma="den" msd="PD-NSU--U" tag="DT" in="-7:&lt;time:2&gt;" out="1:attr|2:nobj">det</W>
 <W gloss="next" id="200" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">næste</W>
 <W gloss="moment" id="201" lemma="øjeblik" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">øjeblik</W>
 <W gloss="..." id="202" lemma="..." msd="XP" tag="..." in="-10:pnct" out="">...</W>

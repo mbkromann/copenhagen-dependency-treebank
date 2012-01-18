@@ -211,7 +211,7 @@
 <W gloss="taxi" id="210" lemma="taxa" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">taxa</W>
 <W gloss="for" id="211" lemma="til" msd="SP" tag="IN" in="-3:goal" out="1:nobj">til</W>
 <W gloss="a_._m." id="212" lemma="klokke" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:nobj">kl.</W>
-<W gloss="9_&3a;_00_p.m" id="213" lemma="21&3a;00" msd="AC---U=--" tag="CD" in="-1:nobj" out="">21:00</W>
+<W gloss="9_:_00_p.m" id="213" lemma="21:00" msd="AC---U=--" tag="CD" in="-1:nobj" out="">21:00</W>
 <W gloss="." id="214" lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 </p>

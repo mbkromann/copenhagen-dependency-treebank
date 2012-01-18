@@ -22,11 +22,11 @@
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj">with</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd|3:appr|7:pnct|8:ref|9:rel">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">film</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-3:appr" out="-1:pnct|2:conj|3:pnct">Shadows</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">Fog</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-8:ref|1:subj" out="">which</W>
 <W msd="VADR" tag="VBZ" in="-9:rel" out="-1:subj|4:mod|5:mod">has</W>
@@ -46,17 +46,17 @@
 <W msd="XP" tag="." in="-44:pnct" out="">?</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="11:subj" out="-1:pnct|2:conj|3:pnct|6:appa">Shadows</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">Fog</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="XP" tag="(" in="2:pnct" out="">(</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-6:appa" out="-2:pnct|-1:pnct|2:conj|3:pnct|4:pnct">Shadows</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">Fog</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="XP" tag=")" in="-4:pnct" out="">)</W>
 <W msd="VADR" tag="VBZ" in="" out="-11:subj">takes</W>
 <W msd="NC=S" tag="NN" in="" out="1:tobj|4:lobj|15:pnct">place</W>

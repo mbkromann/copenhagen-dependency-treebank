@@ -137,7 +137,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">IBM</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">property</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="-14:vobj" out="-13:subj|-1:pnct|1:mod|4:preds|8:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -146,7 +146,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">consideration</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Parliament</W>
-<W msd="XP" tag="&amp;quot;" in="-8:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-8:pnct" out="">"</W>
 <W msd="XP" tag="." in="-46:pnct" out="">.</W>
 </s>
 <s>

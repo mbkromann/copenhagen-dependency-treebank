@@ -42,10 +42,10 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
 <W msd="VA" tag="MD" in="" out="-9:mod|-1:subj|1:vobj|14:pnct">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|3:mod|5:dobj">read</W>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Heidi</W>
 <W msd="VA" tag="MD" in="-3:mod" out="-2:pnct|-1:subj|1:pnct">could</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="PT" tag="WDT" in="-5:dobj" out="3:vobj">that</W>
 <W msd="VAF" tag="VB" in="1:mod" out="">coloured</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="-1:mod">lenses</W>
@@ -117,7 +117,7 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="7:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="6:mod" out="1:nobj|4:pnct">In</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="AC" tag="CD" in="-1:attr" out="">2nd</W>

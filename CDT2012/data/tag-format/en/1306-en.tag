@@ -201,12 +201,12 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Queen's</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="1:pobj">scenography</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PI" tag="DT" in="-2:nobj" out="-1:pnct|2:nobj|3:pnct">A</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Folk</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">Tale</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
-<W msd="XP" tag="&3a;" in="-20:pnct" out="">;</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-20:pnct" out="">;</W>
 <W msd="CC" tag="CC" in="1:coord" out="">nor</W>
 <W msd="VADR" tag="VBZ" in="-22:conj" out="-1:coord|1:subj|2:mod|5:vobj">has</W>
 <W msd="NP=S" tag="NNP" in="-1:subj|4:[subj]" out="">Margrethe</W>

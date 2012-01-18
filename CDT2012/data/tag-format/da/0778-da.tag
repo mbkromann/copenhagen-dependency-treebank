@@ -46,17 +46,17 @@
 <W gloss="in" id="45" lemma="i" msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">i</W>
 <W gloss="Aalborg" id="46" lemma="Aalborg" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Aalborg</W>
 <W gloss="AALBORG" id="47" lemma="Aalborg" msd="NP--U==-" tag="NNP" in="" out="1:pnct|25:other">AALBORG</W>
-<W gloss="&3a;" id="48" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="48" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="In" id="49" lemma="i" msd="SP" tag="IN" in="3:time" out="1:nobj">I</W>
 <W gloss="January" id="50" lemma="januar" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">januar</W>
 <W gloss="1993," id="51" lemma="1993" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1993</W>
 <W gloss="will_open" id="52" lemma="åbne" msd="VADR=----A-" tag="VBD" in="20:qobj" out="-3:time|1:subj">åbner</W>
 <W gloss="Denmark's" id="53" lemma="Danmark" msd="NP--G==-" tag="NNP" in="-1:subj|4:{loc}" out="1:attr|2:pnct|3:attr|4:possd|5:pnct|6:loc|8:pnct|9:ref|13:relr">Danmarks</W>
 <W gloss="first" id="54" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
-<W gloss="&amp;quot;" id="55" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W gloss="&quot;" id="55" lemma="&quot;" msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W gloss="green" id="56" lemma="grøn" msd="ANP[CN]SU=DU" tag="JJ" in="-3:attr" out="">grønne</W>
 <W gloss="dormitory" id="57" lemma="kollegium" msd="NCNSU==I" tag="NN" in="-4:possd" out="-4:{loc}">kollegium</W>
-<W gloss="&amp;quot;" id="58" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W gloss="&quot;" id="58" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W gloss="in" id="59" lemma="i" msd="SP" tag="IN" in="-6:loc" out="1:nobj">i</W>
 <W gloss="Aalborg" id="60" lemma="Aalborg" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Aalborg</W>
 <W gloss="," id="61" lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
@@ -106,7 +106,7 @@
 <s>
 <W gloss="The_building" id="106" lemma="byggeri" msd="NCNSU==D" tag="NN" in="1:subj" out="">Byggeriet</W>
 <W gloss="is" id="107" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="8:pnct|-1:subj|1:preds">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="designed" id="108" lemma="tegne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:agent">tegnet</W>
+<W _noerror=":nosubj:" gloss="designed" id="108" lemma="tegne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:agent">tegnet</W>
 <W gloss="by" id="109" lemma="af" msd="SP" tag="IN" in="-1:agent" out="2:nobj">af</W>
 <W gloss="Arne" id="110" lemma="Arne" msd="NP--U==-" tag="NNP" in="1:namef" out="">Arne</W>
 <W gloss="Kjær" id="111" lemma="Kjær" msd="NP--G==-" tag="NNP" in="-2:nobj|1:{other}" out="-1:namef|1:possd|2:pnct|3:other">Kjærs</W>
@@ -123,14 +123,14 @@
 </p>
 <p>
 <s>
-<W _noerror="&3a;nosubj&3a;" gloss="goes" id="125" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="1:other">Går</W>
+<W _noerror=":nosubj:" gloss="goes" id="125" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="1:other">Går</W>
 <W gloss="in" id="126" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="protests" id="127" lemma="protest" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">protest</W>
 <W gloss="from" id="128" lemma="mod" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">mod</W>
 <W gloss="cancer_association" id="129" lemma="kræft" msd="NCCSG==D" tag="NN" in="-1:nobj|1:[dobj]|1:{patient}#" out="1:possd">Kræftens</W>
 <W gloss="the_fight" id="130" lemma="bekæmpelse" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:[dobj]|-1:{patient}#">Bekæmpelse</W>
 <W gloss="ELSINORE" id="131" lemma="Helsingør" msd="NP--U==-" tag="NNP" in="" out="1:pnct|24:pnct|11:other">HELSINGØR</W>
-<W gloss="&3a;" id="132" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="132" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="The_board" id="133" lemma="bestyrelse" msd="NCCSU==D" tag="NN" in="9:subj|11:[subj]" out="1:pobj|1:{arg}">Bestyrelsen</W>
 <W gloss="of" id="134" lemma="for" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
 <W gloss="the_local_association" id="135" lemma="lokalforening" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}|4:attr|4:{loc}">lokalforeningen</W>
@@ -157,7 +157,7 @@
 </s>
 <s>
 <W gloss="The" id="158" lemma="den" msd="PD-CSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Den</W>
-<W _noerror="&3a;nosubj&3a;" gloss="resigning" id="159" lemma="fratræde" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">fratrådte</W>
+<W _noerror=":nosubj:" gloss="resigning" id="159" lemma="fratræde" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">fratrådte</W>
 <W gloss="board" id="160" lemma="bestyrelse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">bestyrelse</W>
 <W gloss="is" id="161" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:preds|18:pnct">er</W>
 <W gloss="dissatisfied" id="162" lemma="utilfreds" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:pobj">utilfreds</W>
@@ -188,7 +188,7 @@
 <W gloss="False" id="187" lemma="falsk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">Falsk</W>
 <W gloss="theft_report" id="188" lemma="tyverianmeldelse" msd="NCCSU==I" tag="NN" in="" out="-1:attr">tyverianmeldelse</W>
 <W gloss="AALBORG" id="189" lemma="Aalborg" msd="NP--U==-" tag="NNP" in="" out="1:pnct|28:pnct|7:other">AALBORG</W>
-<W gloss="&3a;" id="190" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="190" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="A" id="191" lemma="en" msd="PI-NSU--U" tag="DT" in="5:subj|6:[subj]" out="1:attr|2:nobj|3:attr">Et</W>
 <W gloss="younger" id="192" lemma="ung" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">yngre</W>
 <W gloss="couple" id="193" lemma="ægtepar" msd="NCNSU==I" tag="NN" in="-2:nobj" out="1:{source}">ægtepar</W>
@@ -225,7 +225,7 @@
 <W gloss="they" id="224" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">de</W>
 <W gloss="had" id="225" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|8:pnct">var</W>
 <W gloss="been" id="226" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds">blevet</W>
-<W _noerror="&3a;nosubj&3a;" gloss="robbed" id="227" lemma="bestjæle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">bestjålet</W>
+<W _noerror=":nosubj:" gloss="robbed" id="227" lemma="bestjæle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">bestjålet</W>
 <W gloss="of" id="228" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="household_effects" id="229" lemma="indbo" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:attr|1:{other}">indbo</W>
 <W gloss="in" id="230" lemma="til" msd="SP" tag="IN" in="-1:attr|-1:{other}" out="1:nobj">til</W>
@@ -241,11 +241,11 @@
 <W gloss="themselves" id="240" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-1:focal" out="">selv</W>
 <W gloss="sold" id="241" lemma="sælge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|-6:dobj|1:inst">solgt</W>
 <W gloss="through" id="242" lemma="gennem" msd="SP" tag="IN" in="-1:inst" out="2:nobj">gennem</W>
-<W gloss="&amp;quot;" id="243" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="243" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="The" id="244" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:nobj" out="-1:pnct|1:attr|2:nobj|3:pnct">Den</W>
 <W gloss="Blue" id="245" lemma="blå" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">blå</W>
 <W gloss="Paper" id="246" lemma="avis" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">Avis</W>
-<W gloss="&amp;quot;" id="247" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W gloss="&quot;" id="247" lemma="&quot;" msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W gloss="," id="248" lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W gloss="writes" id="249" lemma="skrive" msd="VADR=----A-" tag="VBD" in="" out="-28:qobj|1:subj|3:pnct">skriver</W>
 <W gloss="Aalborg" id="250" lemma="Aalborg" msd="NP--U==-" tag="NNP" in="-1:subj" out="1:nobj">Aalborg</W>

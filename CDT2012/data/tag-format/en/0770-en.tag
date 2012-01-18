@@ -112,13 +112,13 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="I=" tag="UH" in="7:qobj" out="-1:pnct|1:pnct|2:conj|5:pnct">Oh</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PO" tag="PRP$" in="-2:conj" out="1:possd|2:pnct">my</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">children</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-7:qobj|-1:subj|1:pnct">cried</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>

@@ -74,7 +74,7 @@
 <W msd="XP" tag="." in="-33:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Modern</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]" out="-1:mod">dance</W>
 <W msd="VADR" tag="VBZ" in="" out="-3:pnct|-1:subj|1:vobj|23:conj|41:pnct">has</W>
@@ -161,7 +161,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">dancers</W>
 <W msd="VADR" tag="VBP" in="-16:rel" out="-3:dobj|-2:subj">lack</W>
 <W msd="XP" tag="," in="-36:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-37:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-37:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADR" tag="VBZ" in="" out="-39:qobj|-1:subj|1:pnct">says</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -184,10 +184,10 @@
 <W msd="ANP" tag="RB" in="-1:avobj" out="1:pobj">together</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:pnct|2:mod|3:nobj|4:pnct|5:mod">the</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VAG" tag="VBG" in="-2:mod" out="">fluctuating</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">level</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-5:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
@@ -196,7 +196,7 @@
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">You</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:dobj|14:conj|39:pnct#|40:pnct">have</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -238,5 +238,5 @@
 <W msd="SP" tag="IN" in="-5:mod" out="2:nobj">in</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">modern</W>
 <W msd="ANP" tag="JJ" in="-2:nobj|-39:pnct#" out="-1:mod">dance.</W>
-<W msd="XP" tag="&amp;quot;" in="-40:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-40:pnct" out="">"</W>
 </s>

@@ -36,10 +36,10 @@
 <W msd="VADA" tag="VBD" in="" out="-5:subj|-3:mod|1:@dir|7:mod|29:conj">went</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:pnct|3:nobj|4:pnct">the</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="1:mod" out="">in</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">spot</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">car</W>
@@ -150,7 +150,7 @@
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:vobj|5:pnct">don't</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:vobj?">know</W>
@@ -170,7 +170,7 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADA" tag="VBD" in="-6:conj" out="-1:subj|-2:coord|1:dobj">followed</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
-<W msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-10:pnct" out="">"</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="" out="-12:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Margie</W>

@@ -168,7 +168,7 @@
 <W msd="CC" tag="CC" in="4:coord" out="-1:pnct|1:mod|3:pnct|6:pnct">and</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">through</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">it</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="-6:conj" out="-4:coord|1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">heart</W>
 <W msd="XP" tag=")" in="-6:pnct" out="">)</W>

@@ -16,7 +16,7 @@
 <W msd="VADR" tag="VBZ" in="-4:rel" out="-2:subj|-1:mod|-4:[pred]|1:mod|2:pnct#|3:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj|-2:pnct#" out="">Paris.</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 </s>
 <s>
 <W msd="ANP" tag="RB" in="1:neg" out="">Not</W>

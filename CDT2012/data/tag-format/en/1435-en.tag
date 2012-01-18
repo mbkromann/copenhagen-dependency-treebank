@@ -28,16 +28,16 @@
 <W msd="ANP" tag="JJ" in="-2:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">travel</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-1:mod">agencies</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj|2:pnct">among</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">them</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-9:modp" out="-3:mod|1:nobj">Larsen</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Travel</W>
-<W msd="XP" tag="&3a;" in="-12:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-12:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
 <W msd="VADR" tag="VBP" in="36:qobj" out="-2:pnct|-1:subj|1:mod|3:dobj|5:@dir|15:pnct|18:conj|34:pnct|35:pnct">send</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
@@ -74,7 +74,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">local</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">police</W>
 <W msd="XP" tag="," in="-34:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-35:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-35:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-36:qobj|2:subj|9:mod|45:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jens</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:title">Veino</W>
@@ -188,5 +188,5 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Spanish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">policeman</W>
-<W msd="XP" tag="&3a;" in="-9:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-9:pnct" out="">:</W>
 </s>

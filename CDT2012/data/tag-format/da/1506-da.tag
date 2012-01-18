@@ -71,7 +71,7 @@
 <W gloss="According_to" id="70" lemma="ifølge" msd="SP" tag="IN" in="9:source" out="1:nobj">Ifølge</W>
 <W gloss="an" id="71" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:attr">en</W>
 <W gloss="Observa_survey" id="72" lemma="Observa-undersøgelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">Observa-undersøgelse</W>
-<W _noerror="&3a;nosubj&3a;" gloss="done" id="73" lemma="foretage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:attr" out="1:pobj|4:pobj">foretaget</W>
+<W _noerror=":nosubj:" gloss="done" id="73" lemma="foretage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:attr" out="1:pobj|4:pobj">foretaget</W>
 <W gloss="by" id="74" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_analysis_institute" id="75" lemma="analyse-institut" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:appr">analyse-instituttet</W>
 <W gloss="GfK" id="76" lemma="GfK" msd="NP--U==-" tag="NNP" in="-1:appr" out="">GfK</W>

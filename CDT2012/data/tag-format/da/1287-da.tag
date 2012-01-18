@@ -61,10 +61,10 @@
 <W gloss="1994," id="60" lemma="1994" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1994</W>
 <W gloss="must" id="61" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|1:vobj|6:pnct|-4:time|7:cons">skal</W>
 <W gloss="be" id="62" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:preds">være</W>
-<W _noerror="&3a;nosubj&3a;" gloss="equipped" id="63" lemma="udstyre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">udstyret</W>
+<W _noerror=":nosubj:" gloss="equipped" id="63" lemma="udstyre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">udstyret</W>
 <W gloss="with" id="64" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="a" id="65" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
-<W _noerror="&3a;nosubj&3a;" gloss="speed_control_device" id="66" lemma="fartbegrænse" msd="VADR=----A-" tag="VBD" in="-1:nobj" out="">fartbegrænser</W>
+<W _noerror=":nosubj:" gloss="speed_control_device" id="66" lemma="fartbegrænse" msd="VADR=----A-" tag="VBD" in="-1:nobj" out="">fartbegrænser</W>
 <W gloss="," id="67" lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="so" id="68" lemma="så" msd="CS" tag="IN" in="-7:cons" out="3:vobj">så</W>
 <W gloss="there" id="69" lemma="der" msd="U=" tag="WDT" in="2:expl|3:[expl]" out="">der</W>
@@ -91,21 +91,21 @@
 <W gloss="that" id="90" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="meeting" id="91" lemma="møde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|-9:[subj]">møde</W>
 <W gloss="the" id="92" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:dobj" out="2:nobj|1:attr">det</W>
-<W _noerror="&3a;nosubj&3a;" gloss="future" id="93" lemma="komme" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">kommende</W>
+<W _noerror=":nosubj:" gloss="future" id="93" lemma="komme" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">kommende</W>
 <W gloss="legal_requirements" id="94" lemma="lovkrav" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">lovkrav</W>
 <W gloss="be_done" id="95" lemma="klare" msd="VAF-=----P-" tag="VB" in="-9:vobj" out="-8:[subj]|1:other">klares</W>
 <W gloss="for" id="96" lemma="for" msd="SP" tag="IN" in="-1:other" out="2:nobj">for</W>
 <W gloss="around" id="97" lemma="omkring" msd="SP" tag="IN" in="1:quant" out="">omkring</W>
 <W gloss="a" id="98" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:nobj" out="2:nobj|-1:quant">en</W>
-<W gloss="&amp;quot;" id="99" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="99" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="thou" id="100" lemma="tusse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct">tusse</W>
-<W gloss="&amp;quot;" id="101" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="101" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="," id="102" lemma="," msd="XP" tag="," in="-16:pnct" out="">,</W>
 <W gloss="as" id="103" lemma="idet" msd="CS" tag="IN" in="-17:cause" out="3:vobj">idet</W>
 <W gloss="Scania_cars" id="104" lemma="Scania-bil" msd="NCCPG==D" tag="NNP" in="2:subj|1:{const}" out="1:possd">Scania-bilernes</W>
 <W gloss="EDC_engines" id="105" lemma="EDC-motor" msd="NCCPU==I" tag="NNP" in="-1:possd" out="-1:{const}">EDC-motorer</W>
 <W gloss="are" id="106" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:preds">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="prepared" id="107" lemma="forberede" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:inst">forberedt</W>
+<W _noerror=":nosubj:" gloss="prepared" id="107" lemma="forberede" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:inst">forberedt</W>
 <W gloss="via" id="108" lemma="via" msd="SP" tag="IN" in="-1:inst" out="3:nobj">via</W>
 <W gloss="electronic" id="109" lemma="elektronisk" msd="ANP---=-R" tag="JJ" in="1:man" out="">elektronisk</W>
 <W gloss="the_regime" id="110" lemma="styre" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="-1:man">styret</W>
@@ -187,7 +187,7 @@
 <W gloss="He" id="186" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
 <W gloss="was" id="187" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="1:quant|6:pnct|2:preds|-1:subj">blev</W>
 <W gloss="only" id="188" lemma="kun" msd="RGU" tag="RP" in="-1:quant" out="">kun</W>
-<W _noerror="&3a;nosubj&3a;" gloss="delayed" id="189" lemma="forsinke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:time">forsinket</W>
+<W _noerror=":nosubj:" gloss="delayed" id="189" lemma="forsinke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:time">forsinket</W>
 <W gloss="a" id="190" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:time" out="1:nobj">et</W>
 <W gloss="couple" id="191" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:nobj">par</W>
 <W gloss="days" id="192" lemma="dag" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">dage</W>
@@ -197,7 +197,7 @@
 <W gloss="The_Japanese" id="196" lemma="japaner" msd="NCCSU==D" tag="NN" in="1:subj" out="">Japaneren</W>
 <W gloss="was" id="197" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="10:pnct|-1:subj|1:preds">blev</W>
 <W gloss="escorted" id="198" lemma="ledsage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:agent">ledsaget</W>
-<W _noerror="&3a;nosubj&3a;" gloss="by" id="199" lemma="af" msd="SP" tag="IN" in="-1:agent" out="1:nobj">af</W>
+<W _noerror=":nosubj:" gloss="by" id="199" lemma="af" msd="SP" tag="IN" in="-1:agent" out="1:nobj">af</W>
 <W gloss="a" id="200" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:attr">en</W>
 <W gloss="belt-driven" id="201" lemma="bæltetrukket" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">bæltetrukket</W>
 <W gloss="snowmobile" id="202" lemma="snemobil" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:{other}">snemobil</W>
@@ -220,7 +220,7 @@
 <W gloss="it" id="219" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="2:nobj">det</W>
 <W gloss="easier" id="220" lemma="let" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:predo" out="">lettere</W>
 <W gloss="to" id="221" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="force" id="222" lemma="forcere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">forcere</W>
+<W _noerror=":nosubj:" gloss="force" id="222" lemma="forcere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">forcere</W>
 <W gloss="the_terrain" id="223" lemma="terræn" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">terrænet</W>
 <W gloss="." id="224" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>

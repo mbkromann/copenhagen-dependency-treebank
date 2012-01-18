@@ -50,7 +50,7 @@
 <W gloss="that" id="49" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="11:vobj">at</W>
 <W gloss="the_process_of_shifting" id="50" lemma="omstillingsproces" msd="NCCSU==D" tag="NN" in="10:subj|11:[subj]" out="1:pobj|9:pnct|1:{arg}">omstillingsprocessen</W>
 <W gloss="from" id="51" lemma="fra" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="3:nobj|4:pobj">fra</W>
-<W _noerror="&3a;nosubj&3a;" gloss="effervescent" id="52" lemma="boble" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="2:attr" out="">boblende</W>
+<W _noerror=":nosubj:" gloss="effervescent" id="52" lemma="boble" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="2:attr" out="">boblende</W>
 <W gloss="European" id="53" lemma="europæisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">europæisk</W>
 <W gloss="euphoria" id="54" lemma="eufori" msd="NCCSU==I" tag="NN" in="-3:nobj" out="-1:attr|-2:attr">eufori</W>
 <W gloss="to" id="55" lemma="til" msd="SP" tag="IN" in="-4:pobj" out="3:nobj">til</W>
@@ -83,12 +83,12 @@
 <W gloss="it" id="82" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="2:nobj">det</W>
 <W gloss="worth" id="83" lemma="værd" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:preds" out="">værd</W>
 <W gloss="that" id="84" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="remembering" id="85" lemma="erindre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj">erindre</W>
+<W _noerror=":nosubj:" gloss="remembering" id="85" lemma="erindre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj">erindre</W>
 <W gloss="on_the" id="86" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">om</W>
 <W gloss="," id="87" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="88" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="19:vobj">at</W>
 <W gloss="the" id="89" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="18:subj" out="2:pnct|3:attr|6:nobj|7:possd|1:attr">de</W>
-<W _noerror="&3a;nosubj&3a;" gloss="celebrated" id="90" lemma="fetere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">feterede</W>
+<W _noerror=":nosubj:" gloss="celebrated" id="90" lemma="fetere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">feterede</W>
 <W gloss="," id="91" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="Copenhagen" id="92" lemma="københavnsk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:attr" out="">københavnske</W>
 <W gloss="UEFA" id="93" lemma="UEFA" msd="NP--U==-" tag="NNP" in="2:name" out="1:nobj">UEFA</W>
@@ -214,10 +214,10 @@
 <W gloss="which" id="213" lemma="som" msd="U=" tag="WDT" in="-4:ref|17:dobj" out="">som</W>
 <W gloss="enough" id="214" lemma="nok" msd="RGU" tag="RP" in="1:eval" out="">nok</W>
 <W gloss="so" id="215" lemma="så" msd="RGU" tag="RP" in="1:quant" out="-1:eval">så</W>
-<W _noerror="&3a;nosubj&3a;" gloss="many" id="216" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="6:[subj]|14:subj" out="2:pnct|4:nobj|5:pnct|-1:quant|1:attr|3:attr|6:attr">mange</W>
+<W _noerror=":nosubj:" gloss="many" id="216" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="6:[subj]|14:subj" out="2:pnct|4:nobj|5:pnct|-1:quant|1:attr|3:attr|6:attr">mange</W>
 <W gloss="academic" id="217" lemma="akademisk" msd="ANP---=-R" note="akademiske" tag="JJ" in="-1:attr" out="">akademisk</W>
 <W gloss="," id="218" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W _noerror="&3a;nosubj&3a;" gloss="soothing" id="219" lemma="udglatte" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-3:attr" out="">udglattende</W>
+<W _noerror=":nosubj:" gloss="soothing" id="219" lemma="udglatte" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-3:attr" out="">udglattende</W>
 <W gloss="explanations" id="220" lemma="forklaring" msd="NCCPU==I" tag="NNP" in="-4:nobj" out="">forklaringer</W>
 <W gloss="," id="221" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="issued" id="222" lemma="udsende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:attr" out="-6:[subj]|1:pobj">udsendt</W>

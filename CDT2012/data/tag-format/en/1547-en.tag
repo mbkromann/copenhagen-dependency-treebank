@@ -8,9 +8,9 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">successful</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">production</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">Hamlet</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|4:mod">the</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Betty</W>
@@ -18,7 +18,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Theatre</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Frederiksberg</W>
-<W msd="XP" tag="&3a;" in="-18:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-18:pnct" out="">:</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
@@ -84,9 +84,9 @@
 <W msd="PO" tag="PRP$" in="6:subj|8:[subj]|9:[subj]" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:pobj">engagement</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">in</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">Hamlet</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VA" tag="MD" in="-21:conj" out="-6:subj|-7:coord|2:vobj|1:quant">can</W>
 <W msd="ANP" tag="RB" in="-1:quant" out="">almost</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-8:[subj]|1:vobj">be</W>
@@ -129,7 +129,7 @@
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:dobj|3:mod|15:pnct|19:conj|28:pnct">had</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|5:pnct|7:ref|9:rel">a</W>

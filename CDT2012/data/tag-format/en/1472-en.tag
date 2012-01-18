@@ -77,7 +77,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">Uzbekistan</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Kazakhstan</W>
-<W msd="XP" tag="&3a;" in="-17:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-17:pnct" out="">-</W>
 <W msd="ANC" tag="JJR" in="-18:attr" out="1:pobj">less</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">than</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:mod">350</W>
@@ -134,10 +134,10 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">radio</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">telephone</W>
-<W msd="XP" tag="&3a;" in="-18:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-18:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="3:voc" out="1:pnct">Sasha</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
@@ -155,7 +155,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="VAP" tag="VBN" in="-1:nobj" out="">left</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="-41:xpl" out="-16:qobj|-1:subj|1:mod|4:pnct">said</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">in</W>
@@ -194,10 +194,10 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">car</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">further</W>
 <W msd="ANP" tag="RB" in="-3:attr" out="-1:mod">away</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-10:qobj" out="-1:pnct|1:pnct|2:voc|3:pnct|5:conj|16:pnct#|17:pnct">No</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:voc" out="">Renney</W>
@@ -215,5 +215,5 @@
 <W msd="U=" tag="TO" in="-4:pobj" out="-3:mod|1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:nobj|-16:pnct#" out="">right.</W>
-<W msd="XP" tag="&amp;quot;" in="-17:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-17:pnct" out="">"</W>
 </s>

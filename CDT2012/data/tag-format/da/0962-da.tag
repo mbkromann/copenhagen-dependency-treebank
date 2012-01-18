@@ -43,7 +43,7 @@
 <s>
 <W gloss="Are" id="43" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="3:pnct|2:preds|1:subj">Er</W>
 <W gloss="you" id="44" lemma="De" msd="PP2C[SP]N-NP" tag="PRP" in="-1:subj" out="">De</W>
-<W _noerror="&3a;nosubj&3a;" gloss="confused" id="45" lemma="forvirre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="">forvirret</W>
+<W _noerror=":nosubj:" gloss="confused" id="45" lemma="forvirre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="">forvirret</W>
 <W gloss="?" id="46" lemma="?" msd="XP" tag="?" in="-3:pnct" out="">?</W>
 </s>
 <s>
@@ -65,9 +65,9 @@
 <W gloss="knew" id="64" lemma="ane" msd="VADA=----A-" tag="VBD" in="-7:conj" out="-10:[subj]|-1:neg|-2:coord|1:pnct|2:dobj">anede</W>
 <W gloss="," id="65" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="66" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="4:vobj">at</W>
-<W gloss="&amp;quot;" id="67" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="67" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="tomorrow" id="68" lemma="i_morgen" msd="RGU" tag="RP" in="2:subj|3:[subj]" out="-1:pnct|1:pnct">i_morgen</W>
-<W gloss="&amp;quot;" id="69" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="69" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="could" id="70" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-2:subj|1:vobj">kunne</W>
 <W gloss="mean" id="71" lemma="betyde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">betyde</W>
 <W gloss="a" id="72" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:other|4:nobj|5:attr">et</W>
@@ -86,7 +86,7 @@
 <W gloss="Chinese" id="85" lemma="kinesisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">Kinesisk</W>
 <W gloss="New_Year" id="86" lemma="nytår" msd="NCNSU==I" tag="NN" in="1:subj" out="-1:attr">nytår</W>
 <W gloss="has_been" id="87" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="34:pnct|1:preds|-1:subj">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="celebrated" id="88" lemma="fejre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:inst|7:time|9:pnct|18:pnct|23:pnct|28:coord|3:agent|10:&lt;agent&3a;2&gt;|16:&lt;time&3a;2&gt;|19:&lt;agent&3a;3&gt;|21:&lt;time&3a;3&gt;|24:&lt;agent&3a;4&gt;|26:&lt;time&3a;4&gt;|29:&lt;agent&3a;5&gt;|31:&lt;time&3a;5&gt;">fejret</W>
+<W _noerror=":nosubj:" gloss="celebrated" id="88" lemma="fejre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:inst|7:time|9:pnct|18:pnct|23:pnct|28:coord|3:agent|10:&lt;agent:2&gt;|16:&lt;time:2&gt;|19:&lt;agent:3&gt;|21:&lt;time:3&gt;|24:&lt;agent:4&gt;|26:&lt;time:4&gt;|29:&lt;agent:5&gt;|31:&lt;time:5&gt;">fejret</W>
 <W gloss="with" id="89" lemma="med" msd="SP" tag="IN" in="-1:inst" out="1:nobj">med</W>
 <W gloss="stamps" id="90" lemma="frimærke" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">frimærker</W>
 <W gloss="by" id="91" lemma="af" msd="SP" tag="IN" in="-3:agent" out="1:nobj">af</W>
@@ -96,28 +96,28 @@
 <W gloss="since" id="95" lemma="siden" msd="SP" tag="IN" in="-7:time" out="1:nobj">siden</W>
 <W gloss="1967," id="96" lemma="1967" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1967</W>
 <W gloss="," id="97" lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W gloss="that" id="98" lemma="at" msd="CS" note="af" tag="IN" in="-10:&lt;agent&3a;2&gt;" out="1:nobj">at</W>
+<W gloss="that" id="98" lemma="at" msd="CS" note="af" tag="IN" in="-10:&lt;agent:2&gt;" out="1:nobj">at</W>
 <W gloss="republic" id="99" lemma="Republic" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:pobj|3:attr">Republic</W>
 <W gloss="of" id="100" lemma="of" msd="XF" tag="FW" in="-1:pobj" out="1:nobj">of</W>
 <W gloss="china" id="101" lemma="China" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">China</W>
 <W gloss="in" id="102" lemma="på" msd="SP" tag="IN" in="-3:attr" out="1:nobj">på</W>
 <W gloss="Taiwan" id="103" lemma="Taiwan" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Taiwan</W>
-<W gloss="since" id="104" lemma="siden" msd="SP" tag="IN" in="-16:&lt;time&3a;2&gt;" out="1:nobj">siden</W>
+<W gloss="since" id="104" lemma="siden" msd="SP" tag="IN" in="-16:&lt;time:2&gt;" out="1:nobj">siden</W>
 <W gloss="1969," id="105" lemma="1969" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1969</W>
 <W gloss="," id="106" lemma="," msd="XP" tag="," in="-18:pnct" out="">,</W>
-<W gloss="by" id="107" lemma="af" msd="SP" tag="IN" in="-19:&lt;agent&3a;3&gt;" out="1:nobj">af</W>
+<W gloss="by" id="107" lemma="af" msd="SP" tag="IN" in="-19:&lt;agent:3&gt;" out="1:nobj">af</W>
 <W gloss="Japan" id="108" lemma="Japan" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Japan</W>
-<W gloss="since" id="109" lemma="siden" msd="SP" tag="IN" in="-21:&lt;time&3a;3&gt;" out="1:nobj">siden</W>
+<W gloss="since" id="109" lemma="siden" msd="SP" tag="IN" in="-21:&lt;time:3&gt;" out="1:nobj">siden</W>
 <W gloss="1976," id="110" lemma="1976" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1976</W>
 <W gloss="," id="111" lemma="," msd="XP" tag="," in="-23:pnct" out="">,</W>
-<W gloss="by" id="112" lemma="af" msd="SP" tag="IN" in="-24:&lt;agent&3a;4&gt;" out="1:nobj">af</W>
+<W gloss="by" id="112" lemma="af" msd="SP" tag="IN" in="-24:&lt;agent:4&gt;" out="1:nobj">af</W>
 <W gloss="Macau" id="113" lemma="Macau" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Macau</W>
-<W gloss="since" id="114" lemma="siden" msd="SP" tag="IN" in="-26:&lt;time&3a;4&gt;" out="1:nobj">siden</W>
+<W gloss="since" id="114" lemma="siden" msd="SP" tag="IN" in="-26:&lt;time:4&gt;" out="1:nobj">siden</W>
 <W gloss="1984" id="115" lemma="1984" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1984</W>
 <W gloss="and" id="116" lemma="og" msd="CC" tag="CC" in="-28:coord" out="">og</W>
-<W gloss="by" id="117" lemma="af" msd="SP" tag="IN" in="-29:&lt;agent&3a;5&gt;" out="1:nobj">af</W>
+<W gloss="by" id="117" lemma="af" msd="SP" tag="IN" in="-29:&lt;agent:5&gt;" out="1:nobj">af</W>
 <W gloss="Communist_China" id="118" lemma="Kommunist-China" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Kommunist-China</W>
-<W gloss="since" id="119" lemma="siden" msd="SP" tag="IN" in="-31:&lt;time&3a;5&gt;" out="1:nobj">siden</W>
+<W gloss="since" id="119" lemma="siden" msd="SP" tag="IN" in="-31:&lt;time:5&gt;" out="1:nobj">siden</W>
 <W gloss="1992" id="120" lemma="1992" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1992</W>
 <W gloss="." id="121" lemma="." msd="XP" tag="." in="-34:pnct" out="">.</W>
 </s>
@@ -140,7 +140,7 @@
 <W gloss="the" id="139" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">den</W>
 <W gloss="idea" id="140" lemma="idé" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">idé</W>
 <W gloss="that" id="141" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="setting_up" id="142" lemma="opstille" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:@loc">opstille</W>
+<W _noerror=":nosubj:" gloss="setting_up" id="142" lemma="opstille" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:@loc">opstille</W>
 <W gloss="bags" id="143" lemma="pose" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="1:attr|1:{goal}">poser</W>
 <W gloss="for" id="144" lemma="til" msd="SP" tag="IN" in="-1:attr|-1:{goal}" out="1:nobj">til</W>
 <W gloss="recycling_paper" id="145" lemma="genbrugspapir" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">genbrugspapir</W>

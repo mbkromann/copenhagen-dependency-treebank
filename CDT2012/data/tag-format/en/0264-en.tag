@@ -77,7 +77,7 @@
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="22:qobj" out="-2:pnct|-1:subj|1:vobj|5:inst|7:time|12:pnct|17:conj|21:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:dobj">driven</W>
@@ -146,7 +146,7 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jørn</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="-1:namef">Grønkjær</W>
 <W msd="NP=S" tag="NNP" in="-7:appa" out="-1:namel">Jensen</W>
-<W msd="XP" tag="&3a;" in="4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="4:pnct" out="">-</W>
 <W msd="PT" tag="WP" in="-9:ref|2:subj|3:[subj]" out="">who</W>
 <W msd="PP" tag="PRP" in="1:focal" out="">himself</W>
 <W msd="VADR" tag="VBZ" in="-11:relpa" out="-2:subj|-1:focal|1:vobj">has</W>
@@ -154,7 +154,7 @@
 <W msd="SP" tag="IN" in="-1:part" out="">around</W>
 <W msd="SP" tag="IN" in="-2:inst" out="1:nobj">with</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Citroëns</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="VADA" tag="VBD" in="" out="-17:subj|1:vobj|5:pnct">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-18:[subj]|1:dobj">assembled</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>

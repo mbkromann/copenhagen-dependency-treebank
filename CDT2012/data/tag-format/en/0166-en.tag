@@ -12,7 +12,7 @@
 <W msd="VADR" tag="VBP" in="" out="-10:mod|-1:subj|1:dobj|16:pnct">meet</W>
 <W msd="ANP" tag="JJ" in="-1:dobj" out="1:nobj|2:pnct|7:conj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">peoples</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="4:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:attr" out="1:pnct">particularly</W>
@@ -59,7 +59,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sightseeing</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">DSB</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-5:appa" out="1:nobj|5:mod">out</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">airing</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:attr|2:nobj">your</W>
@@ -121,9 +121,9 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-10:rel" out="-2:mod|-1:subj|-15:mod|-11:mod|1:dobj|7:pnct|8:cause|13:pnct">save</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:attr|5:nobj">an</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:pnct|1:pnct">expensive</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">hotel</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-1:mod">stay</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -159,7 +159,7 @@
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:@dir">get</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="-6:[nobj]">into</W>
-<W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-10:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="4:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="3:time" out="">yet</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>

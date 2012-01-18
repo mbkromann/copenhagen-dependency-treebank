@@ -84,7 +84,7 @@
 <W gloss="can" id="83" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:relr" out="-1:subj|1:vobj">kan</W>
 <W gloss="be" id="84" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|-3:[preds]">være</W>
 <W gloss="to" id="85" lemma="at" msd="U=" tag="TO" in="-4:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="get" id="86" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:avobj">få</W>
+<W _noerror=":nosubj:" gloss="get" id="86" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:avobj">få</W>
 <W gloss="out" id="87" lemma="af" msd="RGU" tag="RP" in="-1:avobj" out="">af</W>
 <W gloss="," id="88" lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W gloss="but" id="89" lemma="men" msd="CC" tag="CC" in="19:coord" out="">men</W>
@@ -163,7 +163,7 @@
 <W gloss="help" id="162" lemma="hjælp" msd="NCCSU==I" tag="NN" in="-2:dobj" out="">hjælp</W>
 <W gloss="in" id="163" lemma="til" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">til</W>
 <W gloss="to" id="164" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="break_up" id="165" lemma="opløse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">opløse</W>
+<W _noerror=":nosubj:" gloss="break_up" id="165" lemma="opløse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">opløse</W>
 <W gloss="the_mucus_particles" id="166" lemma="slimpartikel" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">slimpartiklerne</W>
 <W gloss="." id="167" lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
@@ -176,7 +176,7 @@
 <W gloss="a" id="175" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:attr|4:nobj|5:pnct|6:ref|14:ref|7:relr">et</W>
 <W gloss="new" id="176" lemma="ny" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="2:conj">nyt</W>
 <W gloss="and" id="177" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W _noerror="&3a;nosubj&3a;" gloss="recognised" id="178" lemma="anerkende" msd="VAPA=S[CN]IA-U" tag="VBN" in="-2:conj" out="-1:coord">anerkendt</W>
+<W _noerror=":nosubj:" gloss="recognised" id="178" lemma="anerkende" msd="VAPA=S[CN]IA-U" tag="VBN" in="-2:conj" out="-1:coord">anerkendt</W>
 <W gloss="cough_medicine" id="179" lemma="hostemiddel" msd="NCNSU==I" tag="NN" in="-4:nobj" out="">hostemiddel</W>
 <W gloss="," id="180" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="that" id="181" lemma="der" msd="U=" tag="WDT" in="-6:ref|1:subj|2:[subj]" out="">der</W>

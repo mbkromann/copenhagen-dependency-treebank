@@ -104,7 +104,7 @@
 <W msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|19:[subj]|21:[subj]|24:[subj]|28:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="35:qobj" out="-2:pnct|-1:subj|1:vobj|18:conj|32:pnct|33:pnct">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
@@ -139,7 +139,7 @@
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:expl|1:dobj">was</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">blood</W>
 <W msd="XP" tag="," in="-32:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-33:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-33:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">HOPKINS</W>
 <W msd="VADR" tag="VBZ" in="" out="-35:qobj|-1:subj|1:pnct">says</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>

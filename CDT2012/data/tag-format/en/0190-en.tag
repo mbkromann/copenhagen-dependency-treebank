@@ -20,10 +20,10 @@
 <W msd="VADR" tag="VBP" in="" out="-7:qobj|1:subj|7:pnct">say</W>
 <W msd="AC" tag="CD" in="-1:subj" out="4:nobj|1:attr">three</W>
 <W msd="NP=S" tag="NNP" in="-1:attr" out="">American</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">garlic</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-1:mod|-2:pnct|1:pnct">doctors</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
@@ -85,7 +85,7 @@
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">US</W>
-<W msd="XP" tag="&3a;" in="-24:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-24:pnct" out="">:</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">They</W>
@@ -152,7 +152,7 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="16:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="16:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="15:cond" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|9:mod|11:pnct">take</W>
@@ -184,7 +184,7 @@
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="U=" tag="TO" in="-5:mod" out="1:nobj">to</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="">boot</W>
-<W msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 <W msd="XP" tag="," in="-17:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="" out="-18:qobj|3:subj|16:pnct">believes</W>
 <W msd="NP=S" tag="NNP" in="2:title" out="">Doctor</W>
@@ -202,5 +202,5 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">US</W>
-<W msd="XP" tag="&3a;" in="-16:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-16:pnct" out="">:</W>
 </s>

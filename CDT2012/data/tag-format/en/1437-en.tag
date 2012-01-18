@@ -8,7 +8,7 @@
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stand</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|2:mod|8:time">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]">going</W>
@@ -104,10 +104,10 @@
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|3:pnct|4:xtop|6:pnct|7:&lt;mod&gt;|7:&lt;dobj&gt;|9:pnct">is</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="ANP" tag="JJ" in="" out="">military</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="-4:xtop" out="-5:ref|1:attr">this</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">here</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="-7:&lt;mod&gt;|-7:&lt;dobj&gt;" out="1:nobj">not</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">business-class</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
@@ -139,7 +139,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="">on</W>
 <W msd="PO" tag="PRP$" in="" out="">their</W>
 <W msd="NC=P" tag="NNS" in="" out="">hands</W>
-<W msd="XP" tag="&3a;" in="-9:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-9:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="" out="">and</W>
 <W msd="SP" tag="IN" in="-11:&lt;dobj&gt;" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
@@ -183,7 +183,7 @@
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">You</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj">don't</W>
 <W msd="VAF" tag="VB" in="" out="-2:[subj]|1:dobj|3:pnct|41:pnct">know</W>
@@ -227,5 +227,5 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
 <W msd="ANP" tag="JJ" in="-1:possd|-9:pnct" out="">culture.</W>
-<W msd="XP" tag="&amp;quot;" in="-41:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-41:pnct" out="">"</W>
 </s>

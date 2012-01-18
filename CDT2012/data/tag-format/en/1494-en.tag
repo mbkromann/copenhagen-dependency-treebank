@@ -57,7 +57,7 @@
 <W msd="NP=S" tag="NNP" in="" out="">REVENGE</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:dobj|3:pobj|6:mod|12:pnct">took</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">some</W>
@@ -120,7 +120,7 @@
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]">lose</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-5:qobj|2:subj|3:pnct">stressed</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jesper</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Bank</W>

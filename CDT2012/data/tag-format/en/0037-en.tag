@@ -38,7 +38,7 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">Customers</W>
 <W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|1:vobj|13:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
@@ -68,7 +68,7 @@
 <W msd="VA" tag="MD" in="4:qobj" out="-1:subj|-9:cond|1:vobj|2:pnct|3:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">follow</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-4:qobj|1:subj|4:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">FDB</W>

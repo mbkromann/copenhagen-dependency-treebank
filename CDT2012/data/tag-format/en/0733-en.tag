@@ -112,10 +112,10 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Road</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="-1:mod">Safety</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod">Research</W>
-<W msd="XP" tag="&3a;" in="-8:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-8:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="6:mod" out="1:nobj|4:pnct">In</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:possd">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Council's</W>
@@ -198,7 +198,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">speed</W>
 <W msd="VA" tag="MD" in="-7:rel" out="-5:mod|-3:subj|1:vobj">will</W>
 <W msd="AC" tag="CD" in="-1:vobj|-24:pnct#" out="-4:[subj]">increase.</W>
-<W msd="XP" tag="&amp;quot;" in="-25:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-25:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="6:subj|8:[subj]" out="5:nobj">The</W>
@@ -233,5 +233,5 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-16:conj" out="-1:subj|-2:coord">adds</W>
-<W msd="XP" tag="&3a;" in="-17:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-17:pnct" out="">:</W>
 </s>

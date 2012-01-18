@@ -156,7 +156,7 @@
 <W msd="VAP" tag="VBN" in="-1:mod" out="">revamped</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">museum</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-13:dobj" out="-1:pnct|4:vobj|21:pnct">that</W>
 <W msd="ANP" tag="RB" in="3:mod" out="">here</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
@@ -178,7 +178,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">guest</W>
 <W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">workers</W>
-<W msd="XP" tag="&amp;quot;" in="-21:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-21:pnct" out="">"</W>
 <W msd="XP" tag="." in="-35:pnct" out="">.</W>
 </s>
 <s>
@@ -201,11 +201,11 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|2:list">Photo</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="-2:list" out="">AP</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Imelda</W>
 <W msd="NP=S" tag="NNP" in="" out="-1:namef|1:pnct|3:list">Marcos</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">shoe</W>
 <W msd="ANP" tag="JJ" in="-3:list" out="-1:mod">happy</W>
 </s>

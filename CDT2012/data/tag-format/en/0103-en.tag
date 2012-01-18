@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|2:preds|4:pnct">was</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">purely</W>
@@ -13,7 +13,7 @@
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">don't</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">know</W>
 <W msd="AC" tag="CD" in="-1:dobj|-4:pnct#" out="">why.</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="6:preds" out="2:nobj|3:mod">The</W>
@@ -66,7 +66,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj">pursued</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">problems</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="4:subj|6:[subj]" out="1:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Urd</W>
 <W msd="NC=S" tag="NN" in="1:time" out="">yesterday</W>
@@ -95,10 +95,10 @@
 <W msd="NC=S" tag="NN" in="2:title" out="-1:mod">manager</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Ivan</W>
 <W msd="NP=S" tag="NNP" in="" out="-2:title|-1:namef|1:pnct|6:xpl">Madsen</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="-6:xpl" out="-2:pnct|-1:subj|1:vobj|3:pnct">don't</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">know</W>
@@ -129,7 +129,7 @@
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">tugboats</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">nearby</W>
 <W msd="AC" tag="CD" in="-3:mod|-22:pnct#" out="">anyway.</W>
-<W msd="XP" tag="&amp;quot;" in="-23:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-23:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>

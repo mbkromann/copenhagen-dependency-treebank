@@ -136,7 +136,7 @@
 <W gloss="." id="135" lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="&amp;quot;" id="138" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="138" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="I" id="139" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|2:[subj]|16:[subj]|20:[subj]|23:[subj]|27:[subj]" out="">Jeg</W>
 <W gloss="could" id="140" lemma="kunne" msd="VADA=----A-" tag="VBD" in="34:qobj" out="-1:subj|-2:pnct|1:vobj|15:conj|33:pnct">ku'</W>
 <W gloss="be" id="141" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">blive</W>
@@ -171,7 +171,7 @@
 <W gloss="was" id="170" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:dobj|2:pnct">var</W>
 <W gloss="blood" id="171" lemma="blod" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">blod</W>
 <W gloss="," id="172" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="173" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-33:pnct" out="">"</W>
+<W gloss="&quot;" id="173" lemma="&quot;" msd="XP" tag="&quot;" in="-33:pnct" out="">"</W>
 <W gloss="says" id="174" lemma="fortælle" msd="VADR=----A-" tag="VBD" in="" out="-34:qobj|1:subj|2:pnct">fortæller</W>
 <W gloss="HOPKINS" id="175" lemma="Hopkins" msd="NP--U==-" tag="NNP" in="-1:subj" out="">HOPKINS</W>
 <W gloss="." id="176" lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -197,7 +197,7 @@
 <W gloss="nephew" id="196" lemma="nevø" msd="NCCSU==I" tag="NN" in="-2:possd" out="-2:{arg}">nevø</W>
 <W gloss="Christopher" id="197" lemma="Christopher" msd="NP--U==-" tag="NNP" in="-3:appr" out="">Christopher</W>
 <W gloss="had" id="198" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-4:subj|2:vobj|11:pnct|23:conj|31:pnct|1:prg|3:event">var</W>
-<W gloss="&3a;" id="199" lemma="nemlig" msd="RGU" tag="RP" in="-1:prg" out="">nemlig</W>
+<W gloss=":" id="199" lemma="nemlig" msd="RGU" tag="RP" in="-1:prg" out="">nemlig</W>
 <W gloss="disappeared" id="200" lemma="forsvinde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-6:[subj]">forsvundet</W>
 <W gloss="on" id="201" lemma="under" msd="SP" tag="IN" in="-3:event" out="1:nobj">under</W>
 <W gloss="a" id="202" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:attr">en</W>

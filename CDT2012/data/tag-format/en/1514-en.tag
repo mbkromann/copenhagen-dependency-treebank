@@ -1,12 +1,12 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="I=" tag="UH" in="" out="-1:pnct|1:pnct|13:pnct|14:pnct">Okay</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="" out="">we'll</W>
 <W msd="VAF" tag="VB" in="" out="1:mod">meet</W>
 <W msd="SP" tag="IN" in="-1:mod" out="5:time">at</W>
 <W msd="AC" tag="CD" in="" out="">2</W>
-<W msd="XP" tag="&3a;" in="" out="">:</W>
+<W msd="XP" tag=":" in="" out="">:</W>
 <W msd="AC" tag="CD" in="" out="">00</W>
 <W msd="ANP" tag="RB" in="" out="">p.m.</W>
 <W msd="NC=S" tag="NN" in="-5:time" out="">tomorrow</W>
@@ -14,7 +14,7 @@
 <W msd="PD" tag="DT" in="-1:mod" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">usual</W>
 <W msd="AC" tag="CD" in="-2:nobj|-13:pnct" out="">place.</W>
-<W msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="4:mod" out="1:pnct">Cryptic</W>
@@ -35,9 +35,9 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VAG" tag="VBG" in="" out="">according</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="9:nobj" out="-1:pnct|1:pnct">Lonne</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="," in="7:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="3:namef" out="1:namef">Leon</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Erling</W>
@@ -60,9 +60,9 @@
 <W msd="XP" tag="." in="-26:pnct" out="">!</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="-1:pnct|1:pnct">Lonne</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|1:time|2:mod|42:pnct">claimed</W>
 <W msd="NC=S" tag="NN" in="-1:time" out="">yesterday</W>
 <W msd="SP" tag="IN" in="-2:mod" out="">in</W>
@@ -127,9 +127,9 @@
 <W msd="AC" tag="CD" in="-3:nobj|-1:[nobj]" out="">1991</W>
 <W msd="NC=S" tag="NN" in="-13:vobj" out="-12:subj|1:dobj">show</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="28:vobj">that</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="26:subj" out="-1:pnct|1:pnct">Lonne</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="24:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">collaboration</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>

@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VAF" tag="VB" in="" out="-1:pnct|2:lobj|3:pnct">Look</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">straight</W>
 <W msd="ANP" tag="RB" in="-2:lobj" out="-1:mod">ahead</W>
@@ -19,7 +19,7 @@
 <W msd="NC=S" tag="NN" in="-2:rel|1:[subj]" out="1:vobj">you're</W>
 <W msd="VADA" tag="VBD" in="-1:vobj" out="-3:[dobj]|-1:[subj]">told</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-7:qobj|1:subj|4:pnct">were</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj|2:possd">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">gunman's</W>
@@ -114,7 +114,7 @@
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VAF" tag="VB" in="14:qobj" out="-1:pnct|1:dobj|2:pnct|5:conj|12:pnct|13:pnct">Thank</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">you</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -128,7 +128,7 @@
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[dobj]|-3:[subj]">do</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-13:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-13:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-14:qobj|1:subj|17:pnct">said</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj|2:pnct|3:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">gunman</W>
@@ -233,7 +233,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">police</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">at</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pnct|2:attr|3:mod">5</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:attr" out="">48</W>
 <W msd="NC=S" tag="NN" in="-3:mod" out="">pm</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>

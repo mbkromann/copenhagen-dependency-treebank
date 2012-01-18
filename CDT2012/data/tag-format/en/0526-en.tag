@@ -61,7 +61,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|1:dobj">be</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">some</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sun</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VA" tag="MD" in="-7:conj" out="-1:subj|-2:coord|1:vobj">will</W>
@@ -89,7 +89,7 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="" out="-1:pnct|1:pnct|2:&lt;pred&gt;|6:&lt;mod&gt;|8:&lt;pred&gt;|9:&lt;mod&gt;|15:list">Wind</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-2:&lt;pred&gt;" out="1:mod|3:pnct">light</W>
@@ -181,7 +181,7 @@
 <W msd="NP=S" tag="NNP" in="" out="2:conj">GROSS</W>
 <W msd="XS" tag="SYM" in="1:coord" out="">=</W>
 <W msd="AC" tag="CD" in="-2:conj" out="-1:coord|1:pnct|2:mod">00</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">35</W>
 </s>
 <s>
@@ -205,7 +205,7 @@
 <W msd="NP=S" tag="NNP" in="-1:vobj" out="2:conj">BROADCAST</W>
 <W msd="XS" tag="SYM" in="1:coord" out="">=</W>
 <W msd="AC" tag="CD" in="-2:conj" out="-1:coord|1:pnct|2:mod|3:mod">6</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">30</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">p.m</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
@@ -232,7 +232,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Soviet</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Union</W>
-<W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-10:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="10:coord" out="1:pnct">but</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="8:mod" out="1:nobj|4:pnct">at</W>

@@ -66,8 +66,8 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj|23:dobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">negative</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">trend</W>
-<W _noerror="&3a;nosubj&3a;" msd="VADR" tag="VBZ" in="" out="-5:cause|-3:subj|1:vobj|2:man|5:pnct">is</W>
-<W _noerror="&3a;nosubj&3a;" msd="VAP" tag="VBN" in="-1:vobj" out="">noted</W>
+<W _noerror=":nosubj:" msd="VADR" tag="VBZ" in="" out="-5:cause|-3:subj|1:vobj|2:man|5:pnct">is</W>
+<W _noerror=":nosubj:" msd="VAP" tag="VBN" in="-1:vobj" out="">noted</W>
 <W msd="SP" tag="IN" in="-2:man" out="2:nobj">with</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">great</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">attention</W>

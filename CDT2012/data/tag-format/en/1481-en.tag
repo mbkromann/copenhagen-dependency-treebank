@@ -113,7 +113,7 @@
 <W msd="NP=S" tag="NNP" in="" out="-1:mod">FUND</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="3:subj|3:[subj]" out="1:attr|2:nobj">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">other</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">porters</W>
@@ -166,7 +166,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">porter</W>
 <W msd="PP" tag="PRP" in="-3:focal" out="">himself</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-17:qobj|4:subj|5:pobj|7:pnct">says</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">hospital</W>
 <W msd="NC=S" tag="NN" in="2:title" out="-1:mod">director</W>
@@ -177,7 +177,7 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="11:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="11:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="10:contr" out="1:pnct">However</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="8:subj" out="2:vobj">whether</W>

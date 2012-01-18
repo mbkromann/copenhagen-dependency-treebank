@@ -101,7 +101,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|4:mod|10:conj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">well-established</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">firm</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj|4:pnct">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">Denmark</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
@@ -114,7 +114,7 @@
 <W msd="SP" tag="IN" in="-3:modp" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">that</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">matter</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-21:pobj" out="1:nobj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:nobj|6:pnct|7:mod">an</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">expanded</W>
@@ -185,17 +185,17 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">sailing</W>
 <W msd="NC=P" tag="NNS" in="-4:conj" out="-1:mod|-2:mod|-3:coord">abilities</W>
 <W msd="SP" tag="IN" in="-7:mod" out="2:nobj">of</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-2:nobj" out="-1:pnct|2:nobj|3:pnct">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">whale</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">boats</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="VADR" tag="VBP" in="" out="-13:subj|1:vobj|5:pnct|8:conj|14:conj|16:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-14:[subj]|1:pobj">appealed</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">sailors</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">;</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">;</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">boats</W>
 <W msd="VADR" tag="VBP" in="-8:conj" out="-2:subj|2:preds|3:pnct">are</W>
@@ -246,9 +246,9 @@
 <W msd="SP" tag="IN" in="5:mod" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">Zealand</W>
 <W msd="NP=S" tag="NNP" in="-7:avobj" out="-5:mod|-2:pnct|-1:nobj|1:pnct">Round</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-40:pnct" out="">.</W>
 </s>

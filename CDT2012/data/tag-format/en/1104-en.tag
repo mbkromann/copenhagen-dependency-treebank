@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Hash</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:add|2:preds|4:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
@@ -67,7 +67,7 @@
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:nobj|-18:pnct#" out="">city.</W>
-<W msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
 </s>
 <s>
 <W msd="SP" tag="IN" in="10:mod" out="1:nobj|3:pnct">For</W>
@@ -149,14 +149,14 @@
 <W msd="PD" tag="DT" in="-2:preds" out="1:attr|2:nobj|3:pnct|4:attr|5:possd|6:pnct">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">free</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">state's</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-4:attr" out="">true</W>
 <W msd="NC=S" tag="NN" in="-5:possd" out="">scourge</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">We</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:time|2:vobj|9:pnct|12:conj|24:pnct">have</W>
 <W msd="ANP" tag="RB" in="-1:time" out="">now</W>

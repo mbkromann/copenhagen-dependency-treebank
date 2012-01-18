@@ -15,13 +15,13 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANC" tag="JJR" in="-1:attr" out="">shorter</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pnct|5:attr">duration</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="AC" tag="CD" in="-5:attr" out="-3:mod|1:nobj|2:pnct">13</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">weeks</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="VA" tag="MD" in="-16:vobj" out="-15:subj|1:mod|2:vobj">will</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">seldom</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-17:[subj]|2:dobj">provide</W>
@@ -120,7 +120,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">UTB</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">ATB</W>
-<W msd="XP" tag="&3a;" in="-13:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-13:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="2:add" out="1:pnct">also</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-16:cause" out="-2:add|7:vobj">because</W>

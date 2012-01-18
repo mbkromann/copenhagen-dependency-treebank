@@ -39,7 +39,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|4:appa">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Hafnia</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="-4:appa" out="1:nobj|2:mod">Hafnia</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="3:nobj">Holding</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
@@ -131,7 +131,7 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="6:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="5:mod" out="1:nobj|3:pnct">In</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">case</W>
@@ -196,7 +196,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">old</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="1:nobj">Hafnia</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Holding</W>
-<W msd="XP" tag="&amp;quot;" in="-38:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-38:pnct" out="">"</W>
 <W msd="XP" tag="," in="-39:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="" out="-40:qobj|2:subj|18:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Henrik</W>

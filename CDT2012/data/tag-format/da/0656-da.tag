@@ -61,12 +61,12 @@
 <W gloss="Jørgensen's" id="60" lemma="Jørgensen" msd="NP--G==-" tag="NNP" in="-2:nobj|2:{agent}" out="-1:namef|1:attr|2:possd|4:appr">Jørgensens</W>
 <W gloss="excellent" id="61" lemma="glimrende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">glimrende</W>
 <W gloss="pictorial_collage" id="62" lemma="billedcollage" msd="NCCSU==I" tag="NN" in="-2:possd" out="-2:{agent}">billedcollage</W>
-<W gloss="&amp;quot;" id="63" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="63" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="Queen" id="64" lemma="dronning" msd="NCCSU==I" tag="NN" in="-4:appr" out="-1:pnct|4:pnct|1:attr|1:{time}">Dronning</W>
 <W gloss="for" id="65" lemma="i" msd="SP" tag="IN" in="-1:attr|-1:{time}" out="1:nobj">i</W>
 <W gloss="20" id="66" lemma="20" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">20</W>
 <W gloss="years" id="67" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
-<W gloss="&amp;quot;" id="68" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W gloss="&quot;" id="68" lemma="&quot;" msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W gloss="." id="69" lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
@@ -96,12 +96,12 @@
 <W gloss="." id="95" lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="&3a;" id="98" lemma="nemlig" msd="RGU" tag="RP" in="2:scene" out="">Nemlig</W>
-<W gloss="&amp;quot;" id="99" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss=":" id="98" lemma="nemlig" msd="RGU" tag="RP" in="2:scene" out="">Nemlig</W>
+<W gloss="&quot;" id="99" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="Sports" id="100" lemma="sport" msd="NCCSU==I" tag="NN" in="" out="-1:pnct|-2:scene|2:conj|3:pnct|4:pnct">Sport</W>
 <W gloss="and" id="101" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Sprut" id="102" lemma="sprut" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">Sprut</W>
-<W gloss="&amp;quot;" id="103" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W gloss="&quot;" id="103" lemma="&quot;" msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W gloss="." id="104" lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
@@ -143,12 +143,12 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="145" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="145" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="Queen" id="146" lemma="dronning" msd="NCCSU==I" tag="NN" in="5:subj" out="-1:pnct|4:pnct|1:attr|1:{time}">Dronning</W>
 <W gloss="for" id="147" lemma="i" msd="SP" tag="IN" in="-1:attr|-1:{time}" out="1:nobj">i</W>
 <W gloss="20" id="148" lemma="20" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">20</W>
 <W gloss="years" id="149" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
-<W gloss="&amp;quot;" id="150" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W gloss="&quot;" id="150" lemma="&quot;" msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W gloss="marked" id="151" lemma="markere" msd="VADA=----A-" tag="VBD" in="" out="-5:subj|1:pnct|2:ref|6:dobj|8:pnct|4:relpa">markerede</W>
 <W gloss="," id="152" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="as" id="153" lemma="som" msd="U=" tag="WDT" in="-2:ref|2:dobj" out="">som</W>
@@ -179,7 +179,7 @@
 <W gloss="be" id="178" lemma="være" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:preds">være</W>
 <W gloss="easy" id="179" lemma="nem" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">nemt</W>
 <W gloss="to" id="180" lemma="at" msd="U=" tag="TO" in="-5:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="be" id="181" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds|2:cause">være</W>
+<W _noerror=":nosubj:" gloss="be" id="181" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds|2:cause">være</W>
 <W gloss="queen" id="182" lemma="dronning" msd="NCCSU==I" tag="NN" in="-1:preds" out="">dronning</W>
 <W gloss="with" id="183" lemma="med" msd="SP" tag="IN" in="-2:cause" out="1:nobj">med</W>
 <W gloss="the" id="184" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj|10:[dobj]" out="1:nobj|2:pnct|10:relr">den</W>

@@ -141,7 +141,7 @@
 <W gloss="," id="140" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" id="141" lemma="som" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">som</W>
 <W gloss="is" id="142" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:relr" out="-1:subj|1:preds">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="connected_to" id="143" lemma="tilknytte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:dobj">tilknyttet</W>
+<W _noerror=":nosubj:" gloss="connected_to" id="143" lemma="tilknytte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:dobj">tilknyttet</W>
 <W gloss="a" id="144" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:nobj|7:attr">et</W>
 <W gloss="research_project" id="145" lemma="forskningsprojekt" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj|1:{about}|6:{loc}">forskningsprojekt</W>
 <W gloss="on" id="146" lemma="om" msd="SP" tag="IN" in="-1:pobj|-1:{about}" out="1:nobj">om</W>
@@ -216,7 +216,7 @@
 <W gloss="opportunities" id="215" lemma="mulighed" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="1:pobj|1:{arg}">muligheder</W>
 <W gloss="for" id="216" lemma="for" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
 <W gloss="that" id="217" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="bringing_in" id="218" lemma="inddrage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:dobj|3:pobj">inddrage</W>
+<W _noerror=":nosubj:" gloss="bringing_in" id="218" lemma="inddrage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:dobj|3:pobj">inddrage</W>
 <W gloss="international" id="219" lemma="international" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">internationale</W>
 <W gloss="contacts" id="220" lemma="kontakt" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr">kontakter</W>
 <W gloss="in" id="221" lemma="i" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">i</W>
@@ -232,7 +232,7 @@
 <W gloss="view" id="231" lemma="mening" msd="NCCSU==I" tag="NN" in="-3:dobj" out="-1:attr|1:pobj">mening</W>
 <W gloss="in" id="232" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="to" id="233" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="use" id="234" lemma="bruge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|6:scene">bruge</W>
+<W _noerror=":nosubj:" gloss="use" id="234" lemma="bruge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|6:scene">bruge</W>
 <W gloss="one's" id="235" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:dobj|1:{other}" out="1:attr|3:conj">sit</W>
 <W gloss="English" id="236" lemma="engelsk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="-1:{other}">engelske</W>
 <W gloss="or" id="237" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>

@@ -14,7 +14,7 @@
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="NC=P" tag="NNS" in="" out="">activities</W>
 <W msd="ANP" tag="RB" in="" out="">abroad</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">;</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">;</W>
 <W msd="CC" tag="CC" in="13:coord" out="1:pnct">but</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="11:mod" out="">with</W>
@@ -103,7 +103,7 @@
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="VADA" tag="VBD" in="" out="-3:pnct|-2:subj|1:dobj">included</W>
@@ -173,7 +173,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">daily</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">work</W>
 <W msd="XP" tag="," in="-19:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-40:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-40:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-41:qobj|4:subj|10:pnct">relates</W>
 <W msd="ANP" tag="JJ" in="" out="">educational</W>
 <W msd="NC=S" tag="NN" in="" out="">manager</W>

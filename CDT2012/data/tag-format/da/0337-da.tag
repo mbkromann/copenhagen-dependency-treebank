@@ -176,7 +176,7 @@
 <W gloss="," id="175" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="well" id="176" lemma="vel" msd="RGU" tag="RP" in="-4:prg" out="1:nobj">vel</W>
 <W gloss="that" id="177" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="label" id="178" lemma="mærke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">mærke</W>
+<W _noerror=":nosubj:" gloss="label" id="178" lemma="mærke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">mærke</W>
 <W gloss="." id="179" lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 </p>

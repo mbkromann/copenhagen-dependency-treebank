@@ -18,7 +18,7 @@
 <W msd="NC=S" tag="NN" in="-3:conj" out="-1:attr">music</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-5:conj" out="-1:coord">culture</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="2:subj" out="1:nobj">something</W>
 <W msd="ANP" tag="RB" in="-1:nobj" out="">else</W>
@@ -78,17 +78,17 @@
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-7:conj" out="">pop</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-10:conj" out="-1:pnct|1:pnct">Orientation</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">You</W>
 <W msd="VAF" tag="VB" in="-15:conj" out="-2:pnct|-1:subj|-3:coord|1:pnct|3:conj|4:pnct">Call</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
 <W msd="NP=S" tag="NNP" in="-3:conj" out="-1:subj">Play</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="XP" tag="." in="-35:pnct" out="">.</W>
 </s>
 <s>
@@ -140,10 +140,10 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">opinion-makers</W>
 <W msd="U=" tag="TO" in="-3:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|2:dobj|5:aobj|7:conj">take</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="-1:pnct|1:mod|2:pnct">the</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">light</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="-5:aobj" out="">seriously</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAF" tag="VB" in="-7:conj" out="-10:[subj]|-1:coord|1:dobj|2:pobj">treat</W>

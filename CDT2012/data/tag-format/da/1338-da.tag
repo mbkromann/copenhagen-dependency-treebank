@@ -55,7 +55,7 @@
 <W gloss="Socialists" id="54" lemma="socialist" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">Socialister</W>
 <W gloss="happened" id="55" lemma="ske" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-12:man|1:@time">skete</W>
 <W gloss="m." id="56" lemma="klokke" msd="NCCSU==D" tag="NN" in="-1:@time" out="1:nobj|2:attr|2:{time}">klokken</W>
-<W gloss="11_&3a;_32" id="57" lemma="11.32" msd="AC---U=--" tag="CD" in="-1:nobj" out="">11.32</W>
+<W gloss="11_:_32" id="57" lemma="11.32" msd="AC---U=--" tag="CD" in="-1:nobj" out="">11.32</W>
 <W gloss="on_Monday" id="58" lemma="i_mandags" msd="RGU" tag="RP" in="-2:attr|-2:{time}" out="">i_mandags</W>
 <W gloss="." id="59" lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
@@ -85,23 +85,23 @@
 <W gloss="that" id="84" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="2:vobj">at</W>
 <W gloss="the_bomb" id="85" lemma="bombe" msd="NCCSU==D" tag="NN" in="1:subj" out="">bomben</W>
 <W gloss="was" id="86" lemma="blive" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="1:preds|-1:subj">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="delivered" id="87" lemma="aflevere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:agent">afleveret</W>
+<W _noerror=":nosubj:" gloss="delivered" id="87" lemma="aflevere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:agent">afleveret</W>
 <W gloss="by" id="88" lemma="af" msd="SP" tag="IN" in="-1:agent" out="1:nobj">af</W>
 <W gloss="the_postman" id="89" lemma="postbud" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pnct|2:ref|6:relr">postbudet</W>
 <W gloss="," id="90" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" id="91" lemma="der" msd="U=" tag="WDT" in="-2:ref|4:subj" out="">der</W>
 <W gloss="m." id="92" lemma="klokke" msd="NCCSU==D" tag="NN" in="3:time" out="1:nobj|2:attr|2:{time}">klokken</W>
-<W gloss="8_&3a;_45" id="93" lemma="8.45" msd="AC---U=--" tag="CD" in="-1:nobj" out="">8.45</W>
+<W gloss="8_:_45" id="93" lemma="8.45" msd="AC---U=--" tag="CD" in="-1:nobj" out="">8.45</W>
 <W gloss="Monday" id="94" lemma="mandag" msd="NCCSU==I" tag="NN" in="-2:attr|-2:{time}" out="">mandag</W>
 <W gloss="put" id="95" lemma="lægge" msd="VADA=----A-" tag="VBD" in="-6:relr" out="-4:subj|-3:time|1:dobj|4:@loc">lagde</W>
 <W gloss="the" id="96" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">den</W>
 <W gloss="thick" id="97" lemma="tyk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">tykke</W>
 <W gloss="sample_envelope" id="98" lemma="prøvekuvert" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">prøvekuvert</W>
 <W gloss="in" id="99" lemma="i" msd="SP" tag="IN" in="-4:@loc" out="3:nobj">i</W>
-<W gloss="&amp;quot;" id="100" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="100" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="International" id="101" lemma="international" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">Internationale</W>
 <W gloss="Socialists" id="102" lemma="socialist" msd="NCCPG==I" tag="NNP" in="-3:nobj|2:{goal}" out="-2:pnct|-1:attr|1:pnct|2:possd">Socialisters</W>
-<W gloss="&amp;quot;" id="103" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="103" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="post-box" id="104" lemma="postkasse" msd="NCCSU==I" tag="NN" in="-2:possd" out="-2:{goal}">postkasse</W>
 <W gloss="." id="105" lemma="." msd="XP" tag="." in="-39:pnct" out="">.</W>
 </s>
@@ -113,12 +113,12 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="115" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W gloss="&quot;" id="115" lemma="&quot;" msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W gloss="The_table_surface" id="116" lemma="bordplade" msd="NCCSU==D" tag="NN" in="3:subj" out="1:attr|1:{const}">Bordpladen</W>
 <W gloss="on" id="117" lemma="på" msd="SP" tag="IN" in="-1:attr|-1:{const}" out="1:nobj">på</W>
 <W gloss="the_desk" id="118" lemma="skrivebord" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">skrivebordet</W>
 <W gloss="was" id="119" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-4:pnct|2:pnct|5:conj|13:pnct|1:preds|-3:subj">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="pulverised" id="120" lemma="pulverisere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">pulveriseret</W>
+<W _noerror=":nosubj:" gloss="pulverised" id="120" lemma="pulverisere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">pulveriseret</W>
 <W gloss="," id="121" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="and" id="122" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="the_bomb" id="123" lemma="bombe" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">bomben</W>
@@ -148,7 +148,7 @@
 <W gloss="opened" id="147" lemma="åbne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">åbnet</W>
 <W gloss="the_package" id="148" lemma="pakke" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">pakken</W>
 <W gloss="," id="149" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="150" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
+<W gloss="&quot;" id="150" lemma="&quot;" msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
 <W gloss="says" id="151" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-15:qobj|3:subj|6:pnct">siger</W>
 <W gloss="Chief_Criminal_Superintendent" id="152" lemma="kriminalinspektør" msd="NCCSU==I" tag="NN" in="2:title" out="">kriminalinspektør</W>
 <W gloss="Bent" id="153" lemma="Bent" msd="NP--U==-" tag="NNP" in="1:namef" out="">Bent</W>
@@ -177,7 +177,7 @@
 <W gloss="," id="176" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="which" id="177" lemma="der" msd="U=" tag="WDT" in="-4:ref|1:subj" out="">der</W>
 <W gloss="have" id="178" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:relr" out="-1:subj|4:pnct|1:preds">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="accumulated" id="179" lemma="samle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@loc">samlet</W>
+<W _noerror=":nosubj:" gloss="accumulated" id="179" lemma="samle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@loc">samlet</W>
 <W gloss="at" id="180" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="the_scene" id="181" lemma="sted" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">stedet</W>
 <W gloss="," id="182" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -249,7 +249,7 @@
 <W gloss="attempt" id="248" lemma="forsøg" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">forsøget</W>
 <W gloss="in" id="249" lemma="på" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">på</W>
 <W gloss="that" id="250" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="ascertain" id="251" lemma="fastslå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">fastslå</W>
+<W _noerror=":nosubj:" gloss="ascertain" id="251" lemma="fastslå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">fastslå</W>
 <W gloss="the_type_of_explosive" id="252" lemma="sprængstof-type" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">sprængstof-typen</W>
 <W gloss="." id="253" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>

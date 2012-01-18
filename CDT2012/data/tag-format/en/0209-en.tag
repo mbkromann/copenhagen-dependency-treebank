@@ -1,7 +1,7 @@
 <s>
 <W msd="AC" tag="CD" in="0:pnct#" out="0:pnct#">4.</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|2:xpl|23:pnct">Product</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PI" tag="DT" in="-2:xpl" out="1:nobj|3:conj|5:ref|6:rel|18:ref">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">preparation</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
@@ -28,7 +28,7 @@
 <s>
 <W msd="AC" tag="CD" in="0:pnct#" out="0:pnct#">5.</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|2:xpl|21:pnct">Marketing</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="VAG" tag="VBG" in="-2:xpl" out="1:pobj|3:conj|8:mod">supplying</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="6:nobj">of</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
@@ -56,7 +56,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|2:xpl|50:pnct">Notification</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="-2:xpl" out="1:nobj|3:ref|36:rel">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">papers</W>
 <W msd="SP" tag="IN" in="34:mod" out="1:nobj">with</W>
@@ -115,15 +115,15 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj">designated</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="1:nobj">as</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="ANC" tag="JJR" in="-2:nobj" out="-1:pnct|1:pnct">notifier</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
 <W msd="AC" tag="CD" in="0:pnct#" out="0:pnct#">7.</W>
 <W msd="NC=S" tag="NN" in="" out="1:pnct|2:xpl|9:pnct">Use</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NC=S" tag="NN" in="-2:xpl" out="1:pobj">release</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:ref|3:rel">a</W>
@@ -144,9 +144,9 @@
 <W msd="VA" tag="MD" in="" out="-7:subj|1:vobj|6:pnct">shall</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-9:[subj]|2:dobj">designated</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:pnct|1:pnct">users</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>

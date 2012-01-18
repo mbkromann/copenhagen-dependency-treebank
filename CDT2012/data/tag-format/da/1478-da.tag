@@ -70,7 +70,7 @@
 <W gloss="saved" id="69" lemma="redde" msd="VADA=----A-" tag="VBD" in="-8:relr" out="-7:subj|1:dobj|6:pobj|-6:event|-8:[man]">reddede</W>
 <W gloss="a" id="70" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj|7:[subj]" out="1:attr|2:nobj">en</W>
 <W gloss="45-year_-_old" id="71" lemma="45-årig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">45-årig</W>
-<W _noerror="&3a;nosubj&3a;" gloss="employed" id="72" lemma="ansætte" msd="VAPA=S[CN]IA-U" tag="VBN" in="-2:nobj" out="1:pobj|1:{arg}">ansat</W>
+<W _noerror=":nosubj:" gloss="employed" id="72" lemma="ansætte" msd="VAPA=S[CN]IA-U" tag="VBN" in="-2:nobj" out="1:pobj|1:{arg}">ansat</W>
 <W gloss="by" id="73" lemma="i" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">i</W>
 <W gloss="the_Royal_Danish_Navy" id="74" lemma="søværn" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">Søværnet</W>
 <W gloss="from" id="75" lemma="fra" msd="SP" tag="IN" in="-6:pobj" out="1:nobj">fra</W>
@@ -98,9 +98,9 @@
 <W gloss="Poulsen" id="97" lemma="Poulsen" msd="NP--U==-" tag="NNP" in="-3:subj" out="-2:namef|1:attr|1:{other}">Poulsen</W>
 <W gloss="with" id="98" lemma="med" msd="SP" tag="IN" in="-1:attr|-1:{other}" out="1:nobj">med</W>
 <W gloss="epithet" id="99" lemma="tilnavn" msd="NCNSU==D" tag="NN" in="-1:nobj" out="2:appr">tilnavnet</W>
-<W gloss="&amp;quot;" id="100" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="100" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="Kesse" id="101" lemma="Kesse" msd="NP--U==-" tag="NNP" in="-2:appr" out="-1:pnct|1:pnct">Kesse</W>
-<W gloss="&amp;quot;" id="102" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="102" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="aboard" id="103" lemma="om_bord" msd="RGU" tag="RP" in="-9:loc" out="1:pobj">om_bord</W>
 <W gloss="in" id="104" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="home_guard_cutter" id="105" lemma="hjemmeværnskutter" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:appr">hjemmeværnskutter</W>
@@ -129,16 +129,16 @@
 <W gloss="there" id="128" lemma="der" msd="U=" tag="WDT" in="1:expl|2:[expl]" out="">der</W>
 <W gloss="being" id="129" lemma="blive" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:vobj">blev</W>
 <W gloss="shouted" id="130" lemma="råbe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[expl]|2:dobj">råbt</W>
-<W gloss="&amp;quot;" id="131" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="131" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="man" id="132" lemma="mand" msd="NCCSU==I" tag="NN" in="-2:dobj" out="-1:pnct|2:pnct|1:attr#">mand</W>
 <W gloss="overboard" id="133" lemma="over_bord" msd="RGU" tag="RP" in="-1:attr#" out="">over_bord</W>
-<W gloss="&amp;quot;" id="134" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W gloss="&quot;" id="134" lemma="&quot;" msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W gloss="." id="135" lemma="." msd="XP" tag="." in="-41:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="140" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="140" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="I" id="141" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|7:[subj]|5:[subj]" out="">Jeg</W>
 <W gloss="went" id="142" lemma="gå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:@dir|6:conj|15:pnct|2:goal">gik</W>
 <W gloss="out" id="143" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="">ud</W>

@@ -50,7 +50,7 @@
 <W msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Otherwise</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="">I</W>
@@ -62,7 +62,7 @@
 <W msd="SP" tag="IN" in="" out="">with</W>
 <W msd="PP" tag="PRP" in="" out="">it</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="1:subj|2:pnct">explained</W>
 <W msd="NP=S" tag="NNP" in="-1:subj" out="">Samsel</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>

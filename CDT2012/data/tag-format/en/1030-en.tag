@@ -19,7 +19,7 @@
 <W msd="VADA" tag="VBD" in="-12:vobj" out="-11:subj|2:preds|3:pnct|6:xpl">was</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">palpable</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="ANP" tag="RB" in="2:epi" out="1:pnct">maybe</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-6:xpl" out="1:nobj|-2:epi">like</W>

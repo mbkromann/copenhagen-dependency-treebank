@@ -141,7 +141,7 @@
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:pobj|3:pnct|4:xpl">teeming</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">museums</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="-4:xpl" out="2:nobj|3:pnct|4:conj|7:pnct|8:conj|13:pnct|14:conj|18:conj|22:pnct|24:mod">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">bunker</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">museum</W>
@@ -232,10 +232,10 @@
 <W msd="AC" tag="CD" in="-2:nobj" out="-1:numm|1:nobj">million</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">pounds</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">Living</W>
 <W msd="NP=S" tag="NNP" in="2:subj|3:[subj]" out="-2:pnct|-1:mod|1:pnct|4:pnct|5:ref|7:rel">Legend</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-9:mod|-2:subj|1:vobj|26:pnct">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]">built</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>

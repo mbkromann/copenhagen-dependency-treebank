@@ -112,7 +112,7 @@
 <W gloss="VIII" id="111" lemma="VIII" msd="AC---U=--" tag="CD" in="-1:nobj" out="">VIII</W>
 <W gloss="which" id="112" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
 <W gloss="is_called" id="113" lemma="hedde" msd="VADR=----A-" tag="VBD" in="-3:relr" out="-1:subj|2:dobj">hedder</W>
-<W gloss="&amp;quot;" id="114" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="114" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="Il" id="115" lemma="Il" msd="NP--U==-" tag="NNP" in="-2:dobj" out="-1:pnct|1:name">Il</W>
 <W gloss="Cimento" id="116" lemma="Cimento" msd="NP--U==-" tag="NNP" in="-1:name" out="1:name">Cimento</W>
 <W gloss="dell'Armonia" id="117" lemma="dell'Armonia" msd="XF" tag="FW" in="-1:name" out="1:name">dell'Armonia</W>
@@ -134,7 +134,7 @@
 <W gloss="but" id="133" lemma="men" msd="CC" tag="CC" in="1:coord" out="">men</W>
 <W gloss="were" id="134" lemma="blive" msd="VADA=----A-" tag="VBD" in="-10:conj" out="-11:[subj]|-1:coord|1:man|2:¹preds">blev</W>
 <W gloss="quickly" id="135" lemma="hurtig" msd="ANP---=-R" tag="JJ" in="-1:man" out="">hurtigt</W>
-<W _noerror="&3a;nosubj&3a;" compound="¹samlet².³I" gloss="overall_._in" id="136" lemma="samlet.I" msd="XX" tag="FW" in="-2:¹preds|-12:²pnct|0:³err³" out="-13:[subj]|0:³err³">samlet.I</W>
+<W _noerror=":nosubj:" compound="¹samlet².³I" gloss="overall_._in" id="136" lemma="samlet.I" msd="XX" tag="FW" in="-2:¹preds|-12:²pnct|0:³err³" out="-13:[subj]|0:³err³">samlet.I</W>
 <W gloss="Amsterdam" id="137" lemma="Amsterdam" msd="NP--U==-" tag="NNP" in="3:subj" out="2:conj">Amsterdam</W>
 <W gloss="and" id="138" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Paris" id="139" lemma="Paris" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Paris</W>
@@ -168,7 +168,7 @@
 <W gloss="." id="167" lemma="." msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="&3a;" id="170" lemma="&3a;" msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
+<W gloss=":" id="170" lemma=":" msd="XP" tag=":" in="-6:pnct" out="">:</W>
 </s>
 </p>
 <p>

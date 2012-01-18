@@ -216,11 +216,11 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:dobj">resembles</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PI" tag="DT" in="-2:dobj" out="-1:pnct|1:mod|2:pnct|3:mod|4:nobj|5:pnct">a</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">ghost-like</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="VAP" tag="VBN" in="-3:mod" out="">ravaged</W>
 <W msd="ANP" tag="JJ" in="-4:nobj|-16:pnct#?" out="">landscape.</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 </s>

@@ -125,9 +125,9 @@
 <W gloss="in" id="124" lemma="til" msd="RGU" tag="RP" in="-1:pobj" out="">til</W>
 <W gloss="for" id="125" lemma="for" msd="SP" tag="IN" in="-2:goal" out="1:nobj">for</W>
 <W gloss="that" id="126" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="2:vobj">at</W>
-<W gloss="&amp;quot;" id="127" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W _noerror="&3a;nosubj&3a;" gloss="light" id="128" lemma="tænde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:pnct|1:pnct|2:dobj">tænde</W>
-<W gloss="&amp;quot;" id="129" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="127" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W _noerror=":nosubj:" gloss="light" id="128" lemma="tænde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:pnct|1:pnct|2:dobj">tænde</W>
+<W gloss="&quot;" id="129" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="the_dynamite" id="130" lemma="dynamit" msd="NCCSU==D" tag="NN" in="-2:dobj" out="">dynamitten</W>
 <W gloss="," id="131" lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="and" id="132" lemma="og" msd="CC" tag="CC" in="6:coord" out="">og</W>
@@ -224,8 +224,8 @@
 <W gloss="was" id="223" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:preds|-2:coord">var</W>
 <W gloss="in" id="224" lemma="til" msd="SP" tag="IN" in="-1:preds" out="1:nobj">til</W>
 <W gloss="that" id="225" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="see" id="226" lemma="se" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|18:xpl">se</W>
-<W gloss="&3a;" id="227" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W _noerror=":nosubj:" gloss="see" id="226" lemma="se" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|18:xpl">se</W>
+<W gloss=":" id="227" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 </p>
 <p>

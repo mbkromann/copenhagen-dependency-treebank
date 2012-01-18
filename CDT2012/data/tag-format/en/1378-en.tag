@@ -48,7 +48,7 @@
 <W msd="SP" tag="IN" in="-1:pobj|-1:{apart}" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">every</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">meal</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="6:coord" out="">and</W>
 <W msd="SP" tag="IN" in="5:scene" out="2:nobj|3:pnct">for</W>
 <W msd="ANP" tag="JJ" in="1:attr|1:{time}" out="">between-meal</W>
@@ -141,7 +141,7 @@
 <W msd="ANP" tag="JJ" in="1:attr|1:{const}#" out="">fatty</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:attr|-1:{const}#|-2:attr">acids</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|3:eval|11:conj|33:pnct">are</W>
-<W _noerror="&3a;nosubj&3a;" msd="VAP" tag="VBN" in="-1:vobj" out="6:@loc">found</W>
+<W _noerror=":nosubj:" msd="VAP" tag="VBN" in="-1:vobj" out="6:@loc">found</W>
 <W msd="XP" tag="," in="1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="-3:eval" out="-1:pnct|2:conj|3:pnct">first</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -183,7 +183,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Protein</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|2:quant|9:pnct">is</W>
-<W _noerror="&3a;nosubj&3a;" msd="VAP" tag="VBN" in="-1:vobj" out="2:@loc">found</W>
+<W _noerror=":nosubj:" msd="VAP" tag="VBN" in="-1:vobj" out="2:@loc">found</W>
 <W msd="ANP" tag="RB" in="-2:quant" out="">primarily</W>
 <W msd="SP" tag="IN" in="-2:@loc" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pnct|2:conj|4:conj">protein</W>

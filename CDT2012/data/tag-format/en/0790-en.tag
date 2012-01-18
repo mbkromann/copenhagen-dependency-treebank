@@ -51,7 +51,7 @@
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">Our</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">goal</W>
 <W msd="VADR" tag="VBZ" in="37:qobj" out="-3:pnct|-2:subj|1:preds|7:pnct|8:cause|36:pnct">is</W>
@@ -90,7 +90,7 @@
 <W msd="ANP" tag="JJ" in="" out="">communist</W>
 <W msd="NC=S" tag="NN" in="" out="">party</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-36:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-36:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-37:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Abduzahim</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Pulatov</W>
@@ -117,7 +117,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">explosion</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="-10:cause" out="-1:pnct|21:vobj|26:pnct">because</W>
 <W msd="PT" tag="WRB" in="20:time" out="">when</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
@@ -144,7 +144,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="">seize</W>
 <W msd="PO" tag="PRP$" in="" out="">their</W>
 <W msd="AC" tag="CD" in="-45:pnct" out="">weapons.</W>
-<W msd="XP" tag="&amp;quot;" in="-26:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-26:pnct" out="">"</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:list">Forbidden</W>
@@ -182,10 +182,10 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|4:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Islamic</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Rebirth</W>
 <W msd="NP=S" tag="NNP" in="-4:nobj" out="-1:mod|-2:pnct|1:pnct">Party</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="-9:coord" out="">and</W>
 <W msd="XP" tag="," in="-30:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="" out="1:nobj|3:pnct">along</W>
@@ -212,7 +212,7 @@
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="1:subj|2:[subj]|8:[subj]" out="">That</W>
 <W msd="VA" tag="MD" in="27:qobj" out="-2:pnct|-1:subj|7:conj|26:pnct">may</W>
 <W msd="VAF" tag="VB" in="" out="-2:[subj]">sound</W>
@@ -240,7 +240,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">communists</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-26:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-26:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-27:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Pulatov</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Abduzahim</W>

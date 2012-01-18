@@ -69,11 +69,11 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">lock</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="4:subj" out="-1:pnct|2:nobj|3:pnct">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">tumbler</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">lock</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-4:subj|1:preds|8:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|4:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="2:conj">simple</W>
@@ -116,10 +116,10 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">key</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="3:nobj">a</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">tumbler</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod|-2:pnct|1:pnct">lock</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="-9:vobj" out="-8:subj|1:vobj|6:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-9:[subj]|1:pobj">turned</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -151,11 +151,11 @@
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]" out="-1:pnct|2:nobj|3:pnct">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">cylinder</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">lock</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="VA" tag="MD" in="" out="-4:subj|1:vobj|16:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|8:mod">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">an</W>
@@ -191,7 +191,7 @@
 <W msd="VADR" tag="VBP" in="" out="-1:expl|1:dobj|19:pnct">are</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:nobj|2:pnct|3:xpl">2</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">types</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W msd="CS" tag="IN" in="-3:xpl" out="2:nobj|11:conj">As</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">rim</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|1:mod">locks</W>
@@ -244,5 +244,5 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Rim</W>
 <W msd="NC=P" tag="NNS" in="" out="-1:mod|1:pnct">locks</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>

@@ -28,7 +28,7 @@
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj">by</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">games</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">between</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="1:pnct|3:conj|4:pnct|5:conj|7:conj">Ikast-Lyngby</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:err" out="">B</W>
@@ -74,7 +74,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds|3:pnct|6:xpl">look</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">like</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">this</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="-6:xpl" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|9:conj">Lyngby-Brøndby</W>

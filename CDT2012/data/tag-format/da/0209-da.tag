@@ -43,7 +43,7 @@
 </s>
 <s>
 <W gloss="Product" id="44" lemma="produkt" msd="NCNSU==I" tag="NN" in="" out="1:pnct|2:xpl|24:pnct">Produkt</W>
-<W gloss="&3a;" id="45" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="45" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="a" id="46" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:xpl" out="1:nobj|3:conj|5:pnct|6:ref|20:ref|7:relr">et</W>
 <W gloss="preparation" id="47" lemma="præparat" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">præparat</W>
 <W gloss="or" id="48" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
@@ -78,11 +78,11 @@
 </s>
 <s>
 <W gloss="Marketing" id="79" lemma="markedsføring" msd="NCCSU==I" tag="NN" in="" out="1:pnct|2:xpl|20:pnct">Markedsføring</W>
-<W gloss="&3a;" id="80" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="80" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="supplying" id="81" lemma="forsyning" msd="NCCSU==I" tag="NN" in="-2:xpl" out="3:conj|1:pobj.iobj|1:{recipient}|8:attr|8:{goal}">forsyning</W>
 <W gloss="of" id="82" lemma="af" msd="SP" tag="IN" in="-1:pobj.iobj|-1:{recipient}" out="6:nobj">af</W>
 <W gloss="or" id="83" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W _noerror="&3a;nosubj&3a;" gloss="table" id="84" lemma="stille" msd="VAG-=SCI--U" tag="VBG" in="-3:conj" out="-1:coord|1:pobj">stillen</W>
+<W _noerror=":nosubj:" gloss="table" id="84" lemma="stille" msd="VAG-=SCI--U" tag="VBG" in="-3:conj" out="-1:coord|1:pobj">stillen</W>
 <W gloss="in" id="85" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj#">til</W>
 <W gloss="disposal" id="86" lemma="rådighed" msd="NCCSU==I" tag="NN" in="-1:nobj#" out="1:{arg}|1:pobj#">rådighed</W>
 <W gloss="to" id="87" lemma="for" msd="SP" tag="IN" in="-1:{arg}|-1:pobj#" out="1:[nobj]">for</W>
@@ -109,7 +109,7 @@
 </s>
 <s>
 <W gloss="Notification" id="110" lemma="anmeldelse" msd="NCCSU==I" tag="NN" in="" out="1:pnct|2:xpl|47:pnct">Anmeldelse</W>
-<W gloss="&3a;" id="111" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="111" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="the" id="112" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-2:xpl" out="1:nobj|2:pnct|3:ref|34:relr">de</W>
 <W gloss="papers" id="113" lemma="papir" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">papirer</W>
 <W gloss="," id="114" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -146,7 +146,7 @@
 <W gloss="," id="145" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="provides" id="146" lemma="forelægge" msd="VADR=----A-" tag="VBD" in="-34:relr" out="-30:subj|-31:inst|1:dobj|4:pobj">forelægger</W>
 <W gloss="the" id="147" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">de</W>
-<W _noerror="&3a;nosubj&3a;" gloss="required" id="148" lemma="kræve" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">krævede</W>
+<W _noerror=":nosubj:" gloss="required" id="148" lemma="kræve" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">krævede</W>
 <W gloss="information" id="149" lemma="oplysning" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">oplysninger</W>
 <W gloss="to" id="150" lemma="for" msd="SP" tag="IN" in="-4:pobj" out="1:nobj|4:attr">for</W>
 <W gloss="the" id="151" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
@@ -161,9 +161,9 @@
 <W gloss="This" id="160" lemma="denne" msd="PD-CSU--U" tag="DT" in="2:subj" out="1:nobj">Denne</W>
 <W gloss="person" id="161" lemma="person" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">person</W>
 <W gloss="shall_be_designated" id="162" lemma="benævne" msd="VADR=----P-" tag="VBD" in="" out="-2:subj|2:dobj|4:pnct">benævnes</W>
-<W gloss="&amp;quot;" id="163" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="163" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="the_notifier" id="164" lemma="anmelder" msd="NCCSU==D" tag="NN" in="-2:dobj" out="-1:pnct|1:pnct">anmelderen</W>
-<W gloss="&amp;quot;" id="165" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="165" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="." id="166" lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 </p>
@@ -176,7 +176,7 @@
 </s>
 <s>
 <W gloss="Use" id="177" lemma="brug" msd="NCCSU==I" tag="NN" in="" out="1:pnct|2:xpl|10:pnct">Brug</W>
-<W gloss="&3a;" id="178" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="178" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="release" id="179" lemma="udsætning" msd="NCCSU==I" tag="NN" in="-2:xpl" out="1:pobj.dobj|1:{patient}">udsætning</W>
 <W gloss="of" id="180" lemma="af" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">af</W>
 <W gloss="a" id="181" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|4:relr">et</W>
@@ -198,9 +198,9 @@
 <W gloss="sense" id="197" lemma="forstand" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forstand</W>
 <W gloss="," id="198" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="shall_be_designated" id="199" lemma="benævne" msd="VADR=----P-" tag="VBD" in="" out="-9:subj|2:dobj|4:pnct">benævnes</W>
-<W gloss="&amp;quot;" id="200" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="200" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="users" id="201" lemma="bruger" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:pnct|1:pnct">brugere</W>
-<W gloss="&amp;quot;" id="202" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="202" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="." id="203" lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 </p>

@@ -1,6 +1,6 @@
 <s>
 <W msd="NP=S" tag="NNP" in="2:dobj" out="1:pnct">Unforgettable</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:dobj|1:vobj|2:subj|23:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="1:[subj]">called</W>
 <W msd="PD" tag="DT" in="-2:subj|-1:[subj]" out="1:mod|2:nobj">the</W>

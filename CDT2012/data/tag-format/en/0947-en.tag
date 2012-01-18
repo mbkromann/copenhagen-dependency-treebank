@@ -132,7 +132,7 @@
 <W msd="XP" tag="." in="-49:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]|5:[subj]" out="">We</W>
 <W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|1:mod|3:vobj|9:pnct">must</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
@@ -182,7 +182,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">referendum</W>
 <W msd="XP" tag="," in="-34:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-35:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-35:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-36:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Steen</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Gade</W>

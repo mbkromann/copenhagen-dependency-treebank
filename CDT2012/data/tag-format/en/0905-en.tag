@@ -138,9 +138,9 @@
 <W msd="SP" tag="IN" in="-14:mod" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd|3:appr|5:mod">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">debut</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-3:appr" out="-1:pnct|1:pnct">Shine</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-5:mod" out="1:nobj">from</W>
 <W msd="AC" tag="CD" in="-1:nobj|-21:pnct#" out="">1990,</W>
 <W msd="VADA" tag="VBD" in="" out="-22:subj|1:iobj|4:dobj|15:pnct">got</W>
@@ -164,10 +164,10 @@
 <W msd="ANP" tag="RB" in="7:time" out="">Now</W>
 <W msd="PO" tag="PRP$" in="6:subj" out="1:possd|4:appr">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">follow-up</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Electric</W>
 <W msd="NP=S" tag="NNP" in="-4:appr" out="-2:pnct|-1:mod|1:pnct">Eel</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-6:subj|-7:time|1:preds|2:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">out</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>

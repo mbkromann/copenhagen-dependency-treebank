@@ -18,7 +18,7 @@
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VAF" tag="VB" in="11:qobj" out="-1:pnct|1:dobj|2:pobj|4:pnct|5:conj|10:pnct">Give</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>
@@ -29,7 +29,7 @@
 <W msd="VAF" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj">have</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-10:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-11:qobj|1:subj|8:mod|30:pnct">shouted</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:attr|2:nobj|3:pnct|5:appa">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">desperate</W>
@@ -85,7 +85,7 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">He</W>
 <W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|1:vobj|12:pnct">should</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>
@@ -122,7 +122,7 @@
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">liquidate</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-6:qobj|2:subj|3:pnct">said</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Nina</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Belovetskaya</W>
@@ -153,7 +153,7 @@
 <W msd="PO" tag="PRP$" in="-3:dobj|-1:[dobj]" out="1:attr|2:possd">his</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">gruesome</W>
 <W msd="NC=P" tag="NNS" in="-2:possd" out="">crimes</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="1:time">and</W>
 <W msd="ANP" tag="RB" in="-1:time" out="">afterwards</W>
 <W msd="VAP" tag="VBN" in="-9:conj" out="-16:[subj]|-2:coord|1:part|2:dobj">cleaned</W>

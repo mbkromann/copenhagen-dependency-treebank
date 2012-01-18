@@ -29,7 +29,7 @@
 <W msd="PD" tag="DT" in="-2:dobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">windshield</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">wipers</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="U=" tag="EX" in="1:expl|4:[expl]" out="">there</W>
 <W msd="VADR" tag="VBP" in="-8:conj" out="-1:expl|2:dobj|3:vobj">are</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Danish</W>
@@ -72,7 +72,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">at</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">rush</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">hour</W>
-<W msd="XP" tag="&3a;" in="-8:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-8:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="4:coord" out="">but</W>
 <W msd="PD" tag="PDT" in="3:subj|4:[subj]" out="1:nobj">all</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -233,12 +233,12 @@
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:quant|2:pobj|9:pnct">sounds</W>
 <W msd="ANP" tag="RB" in="-1:quant" out="">almost</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="2:nobj">like</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:pnct|1:@dir|4:pnct">sailing</W>
 <W msd="RG" tag="RP" in="-1:@dir" out="1:nobj">up</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">creek</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>

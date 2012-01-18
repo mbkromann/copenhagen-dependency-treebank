@@ -54,11 +54,11 @@
 <W gloss="of" id="53" lemma="af" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">af</W>
 <W gloss="the" id="54" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:pnct|3:attr|4:attr|5:nobj|6:pnct">det</W>
 <W gloss="so-called" id="55" lemma="såkaldt" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">såkaldte</W>
-<W gloss="&amp;quot;" id="56" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W gloss="&quot;" id="56" lemma="&quot;" msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W gloss="Japanese" id="57" lemma="japansk" msd="ANP[CN]SU=DU" tag="JJ" in="-3:attr" out="">japanske</W>
 <W gloss="economic" id="58" lemma="økonomisk" msd="ANP[CN]SU=DU" tag="JJ" in="-4:attr" out="">økonomiske</W>
 <W gloss="miracle" id="59" lemma="mirakel" msd="NCNSU==I" tag="NN" in="-5:nobj" out="">mirakel</W>
-<W gloss="&amp;quot;" id="60" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W gloss="&quot;" id="60" lemma="&quot;" msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W gloss="." id="61" lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 </p>
@@ -69,11 +69,11 @@
 <W gloss="the_explanation" id="68" lemma="forklaring" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">forklaringen</W>
 <W gloss="for" id="69" lemma="på" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">på</W>
 <W gloss="the" id="70" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:pnct|2:attr|3:attr|4:nobj|5:pnct">det</W>
-<W gloss="&amp;quot;" id="71" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="71" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="Japanese" id="72" lemma="japansk" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="">japanske</W>
 <W gloss="economic" id="73" lemma="økonomisk" msd="ANP[CN]SU=DU" tag="JJ" in="-3:attr" out="">økonomiske</W>
 <W gloss="miracle" id="74" lemma="mirakel" msd="NCNSU==I" tag="NN" in="-4:nobj" out="">mirakel</W>
-<W gloss="&amp;quot;" id="75" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W gloss="&quot;" id="75" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W gloss="has" id="76" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-10:subj|1:eval|2:vobj|36:pnct">har</W>
 <W gloss="particularly" id="77" lemma="især" msd="RGU" tag="RP" in="-1:eval" out="">især</W>
 <W gloss="turned" id="78" lemma="dreje" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-12:[subj]|2:pobj|1:robj">drejet</W>
@@ -158,11 +158,11 @@
 <W gloss="one" id="157" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|2:[subj]" out="">man</W>
 <W gloss="will" id="158" lemma="ville" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">vil</W>
 <W gloss="explain" id="159" lemma="forklare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:dobj">forklare</W>
-<W gloss="&amp;quot;" id="160" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="160" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="the" id="161" lemma="den" msd="PD-NSU--U" tag="DT" in="-2:dobj" out="-1:pnct|1:attr|2:nobj|3:pnct">det</W>
 <W gloss="Japanese" id="162" lemma="japansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">japanske</W>
 <W gloss="miracle" id="163" lemma="mirakel" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">mirakel</W>
-<W gloss="&amp;quot;" id="164" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W gloss="&quot;" id="164" lemma="&quot;" msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W gloss="." id="165" lemma="." msd="XP" tag="." in="-45:pnct" out="">.</W>
 </s>
 </p>
@@ -172,7 +172,7 @@
 <s>
 <W gloss="pages" id="172" lemma="side" msd="NCCSU==I" tag="NN" in="" out="1:nobj|2:pnct">side</W>
 <W gloss="63-74" id="173" lemma="63-74" msd="AC---U=--" tag="CD" in="-1:nobj" out="">63-74</W>
-<W gloss="&3a;" id="174" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W gloss=":" id="174" lemma=":" msd="XP" tag=":" in="-2:pnct" out="">:</W>
 </s>
 </note>
 </div1>

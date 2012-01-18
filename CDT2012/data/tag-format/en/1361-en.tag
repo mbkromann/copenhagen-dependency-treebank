@@ -10,7 +10,7 @@
 <W msd="ANP" tag="RB" in="1:quant" out="">too</W>
 <W msd="VADR" tag="VBP" in="-3:conj" out="-2:coord|-1:quant">smartass</W>
 <W msd="U=" tag="TO" in="-8:nobj" out="1:vobj">to</W>
-<W _noerror="&3a;nosubj&3a;" msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:loc">put</W>
+<W _noerror=":nosubj:" msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:loc">put</W>
 <W msd="PD" tag="PDT" in="-1:dobj" out="1:nobj">all</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">blame</W>
@@ -35,10 +35,10 @@
 <W msd="PD" tag="DT" in="2:preds" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">truth</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:preds|2:eval|5:subj|21:pnct">is</W>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-2:eval" out="-1:pnct|1:nobj#|2:pnct">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj#" out="">course</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-5:subj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|2:vobj">do</W>
@@ -104,7 +104,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">obvious</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj|1:{arg}">opportunity</W>
 <W msd="U=" tag="TO" in="-1:pobj|-1:{arg}" out="1:vobj">to</W>
-<W _noerror="&3a;nosubj&3a;" msd="VAF" tag="VB" in="-1:vobj" out="2:dobj|4:conj|7:time">take</W>
+<W _noerror=":nosubj:" msd="VAF" tag="VB" in="-1:vobj" out="2:dobj|4:conj|7:time">take</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">new</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">roads</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

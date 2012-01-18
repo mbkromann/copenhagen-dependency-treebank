@@ -84,9 +84,9 @@
 <W gloss="but" id="83" lemma="men" msd="CC" tag="CC" in="12:coord" out="">men</W>
 <W gloss="whereas" id="84" lemma="hvor" msd="RGU" tag="RP" in="11:scene" out="6:relr">hvor</W>
 <W gloss="the" id="85" lemma="den" msd="PD-CSU--U" tag="DT" in="5:subj" out="2:attr|4:nobj">den</W>
-<W gloss="&amp;quot;" id="86" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="86" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="little" id="87" lemma="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-2:attr" out="-1:pnct|1:pnct">lille</W>
-<W gloss="&amp;quot;" id="88" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="88" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="RSs" id="89" lemma="RS'er" msd="NCCSU==I" tag="NN" in="-4:nobj" out="">RS'er</W>
 <W gloss="have" id="90" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:relr" out="-5:subj|1:dobj|2:@loc|4:pnct">har</W>
 <W gloss="engine" id="91" lemma="motor" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">motoren</W>
@@ -164,7 +164,7 @@
 <W gloss="a" id="163" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="power_distribution" id="164" lemma="kraftfordeling" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">kraftfordeling</W>
 <W gloss="of" id="165" lemma="på" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">på</W>
-<W gloss="34_&3a;_66" id="166" lemma="34&3a;66" msd="AC---U=--" tag="CD" in="-1:nobj" out="">34:66</W>
+<W gloss="34_:_66" id="166" lemma="34:66" msd="AC---U=--" tag="CD" in="-1:nobj" out="">34:66</W>
 <W gloss="front" id="167" lemma="for" msd="RGU" tag="RP" in="-5:preds" out="2:conj">for</W>
 <W gloss="and" id="168" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="back" id="169" lemma="bag" msd="RGU" tag="RP" in="-2:conj" out="-1:coord">bag</W>
@@ -195,10 +195,10 @@
 <W gloss="apart_from" id="194" lemma="bortset_fra" msd="SP" tag="IN" in="-2:scene" out="1:nobj|15:pnct">bortset_fra</W>
 <W gloss="the" id="195" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:pnct|4:nobj|5:pnct|9:pnct|10:conj|12:conj|6:attr">det</W>
 <W gloss="horrible" id="196" lemma="skrækkelig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">skrækkelige</W>
-<W gloss="&amp;quot;" id="197" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W gloss="&quot;" id="197" lemma="&quot;" msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W gloss="Dutch" id="198" lemma="hollandsk" msd="ANP[CN]SU=DU" tag="JJ" in="1:attr#" out="">hollandske</W>
 <W gloss="extension" id="199" lemma="udtræk" msd="NCNSU==I" tag="NN" in="-4:nobj" out="2:{loc}|-1:attr#">udtræk</W>
-<W gloss="&amp;quot;" id="200" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W gloss="&quot;" id="200" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W gloss="behind" id="201" lemma="bag" msd="RGU" tag="RP" in="-6:attr|-2:{loc}" out="1:other">bag</W>
 <W gloss="in" id="202" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
 <W gloss="the_Cosworth" id="203" lemma="Cosworth" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Cosworth'en</W>

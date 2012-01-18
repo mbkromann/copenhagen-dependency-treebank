@@ -59,7 +59,7 @@
 <W gloss="what" id="58" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-2:dobj|4:[nobj]" out="2:relr">hvad</W>
 <W gloss="he" id="59" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
 <W gloss="was" id="60" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:relr" out="3:pnct|-1:subj|1:preds">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="accused" id="61" lemma="beskylde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">beskyldt</W>
+<W _noerror=":nosubj:" gloss="accused" id="61" lemma="beskylde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">beskyldt</W>
 <W gloss="of" id="62" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="-4:[nobj]">for</W>
 <W gloss="," id="63" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="and" id="64" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -177,7 +177,7 @@
 <W gloss="the_background" id="176" lemma="baggrund" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">baggrund</W>
 <W gloss="is" id="177" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="9:pnct|12:conj|22:pnct|-3:cause|2:preds|1:subj">er</W>
 <W gloss="she" id="178" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj|4:[subj]" out="">hun</W>
-<W _noerror="&3a;nosubj&3a;" gloss="obligated" id="179" lemma="forpligtige" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:pobj">forpligtiget</W>
+<W _noerror=":nosubj:" gloss="obligated" id="179" lemma="forpligtige" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:pobj">forpligtiget</W>
 <W gloss="in" id="180" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" id="181" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="inform" id="182" lemma="underrette" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|-4:[subj]">underrette</W>
@@ -218,7 +218,7 @@
 <W gloss="until" id="217" lemma="indtil" msd="CS" tag="IN" in="-10:time" out="2:vobj">indtil</W>
 <W gloss="the_case" id="218" lemma="sag" msd="NCCSU==D" tag="NN" in="1:subj" out="">sagen</W>
 <W gloss="was" id="219" lemma="blive" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="1:preds|-1:subj">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="decided" id="220" lemma="afgøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:loc">afgjort</W>
+<W _noerror=":nosubj:" gloss="decided" id="220" lemma="afgøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:loc">afgjort</W>
 <W gloss="by" id="221" lemma="ved" msd="SP" tag="IN" in="-1:loc" out="1:nobj">ved</W>
 <W gloss="the_municipal_court" id="222" lemma="byrretten" msd="XX" tag="FW" in="-1:nobj" out="">byrretten</W>
 <W gloss="." id="223" lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>

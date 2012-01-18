@@ -74,10 +74,10 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|42:pnct">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj|4:possd|6:pnct|7:appa">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">province's</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">art</W>
 <W msd="NC=S" tag="NN" in="-4:possd" out="-1:mod|-2:pnct|1:pnct">foundation</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="-7:appa" out="1:mod|2:nobj|3:pnct">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Canadian</W>

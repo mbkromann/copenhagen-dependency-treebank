@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">He</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:tobj|2:vobj|5:conj|8:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:tobj" out="">always</W>
@@ -16,7 +16,7 @@
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:iobj|2:dobj|16:conj|23:pnct">gives</W>
 <W msd="PP" tag="PRP" in="-1:iobj" out="">me</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="1:pnct|2:xpl">everything</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NC=S" tag="NN" in="-2:xpl" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|8:conj|9:pnct">car</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="">video</W>
@@ -120,7 +120,7 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="3:pnct" out="">-</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">My</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">lovers</W>
 <W msd="VADR" tag="VBP" in="" out="-3:pnct|-2:subj|2:preds|9:pnct">are</W>
@@ -157,7 +157,7 @@
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:dobj|2:mod|3:mod|6:pnct">met</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Kurt</W>

@@ -113,7 +113,7 @@
 <W gloss="are_divided" id="112" lemma="dele" msd="VADR=----P-" tag="VBD" in="" out="-1:subj|1:avobj|9:pnct">deles</W>
 <W gloss="up" id="113" lemma="op" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">op</W>
 <W gloss="in" id="114" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="6:nobj">i</W>
-<W _noerror="&3a;nosubj&3a;" gloss="saturated" id="115" lemma="mætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="5:attr" out="1:pnct|2:conj|4:conj">mættede</W>
+<W _noerror=":nosubj:" gloss="saturated" id="115" lemma="mætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="5:attr" out="1:pnct|2:conj|4:conj">mættede</W>
 <W gloss="," id="116" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="fleurmættede" id="117" lemma="flerumættet" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="">fleurmættede</W>
 <W gloss="and" id="118" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -139,7 +139,7 @@
 <W gloss="eat" id="138" lemma="spise" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|2:dobj|12:pnct">spiser</W>
 <W gloss="too" id="139" lemma="for" msd="RGU" tag="RP" in="1:eval" out="">for</W>
 <W gloss="many" id="140" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:dobj" out="2:nobj|3:pnct|4:ref|-1:eval|5:relpa|1:attr">mange</W>
-<W _noerror="&3a;nosubj&3a;" gloss="saturated" id="141" lemma="mætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">mættede</W>
+<W _noerror=":nosubj:" gloss="saturated" id="141" lemma="mætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">mættede</W>
 <W gloss="fatty_acids" id="142" lemma="fedtsyre" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">fedtsyrer</W>
 <W gloss="," id="143" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="which" id="144" lemma="der" msd="U=" tag="WDT" in="-4:ref|1:subj" out="">der</W>

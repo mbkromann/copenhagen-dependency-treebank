@@ -77,9 +77,9 @@
 <W gloss="The_reserve" id="76" lemma="reserve" msd="NCCSU==D" tag="NN" in="2:subj|8:[subj]" out="1:appr">Reserven</W>
 <W gloss="Onyszko" id="77" lemma="Onyszko" msd="NP--U==-" tag="NNP" in="-1:appr" out="">Onyszko</W>
 <W gloss="was" id="78" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|2:preds|8:pnct|28:pnct|9:time">var</W>
-<W gloss="&amp;quot;" id="79" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="79" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="cold" id="80" lemma="kold" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:pnct|1:pnct|4:conj">kold</W>
-<W gloss="&amp;quot;" id="81" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="81" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="and" id="82" lemma="og" msd="CC" tag="CC" in="2:coord" out="1:neg">og</W>
 <W gloss="not" id="83" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="played" id="84" lemma="spille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:conj" out="-8:[subj]|-2:coord|1:avobj">spillet</W>
@@ -203,7 +203,7 @@
 <W gloss="that" id="202" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="few" id="203" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|-22:[subj]|2:predo">få</W>
 <W gloss="the_ball" id="204" lemma="bold" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">bolden</W>
-<W _noerror="&3a;nosubj&3a;" gloss="pushed" id="205" lemma="skubbe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:predo" out="1:@loc">skubbet</W>
+<W _noerror=":nosubj:" gloss="pushed" id="205" lemma="skubbe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:predo" out="1:@loc">skubbet</W>
 <W gloss="over" id="206" lemma="over" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">over</W>
 <W gloss="the_line" id="207" lemma="streg" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">stregen</W>
 <W gloss="." id="208" lemma="." msd="XP" tag="." in="-37:pnct" out="">.</W>

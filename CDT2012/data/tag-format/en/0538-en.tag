@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&3a;" in="3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="3:pnct" out="">-</W>
 <W msd="ANS" tag="JJS" in="" out="">Most</W>
 <W msd="NC=P" tag="NNS" in="" out="">people</W>
 <W msd="VADR" tag="VBP" in="" out="-3:pnct|1:neg|2:vobj|7:pnct|10:conj|16:pnct">do</W>
@@ -78,7 +78,7 @@
 <W msd="ANP" tag="RB" in="1:attr" out="">almost</W>
 <W msd="PD" tag="DT" in="-2:nobj" out="-1:attr|1:nobj">all</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">tasks</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">:</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">They</W>
 <W msd="VA" tag="MD" in="-7:xpl" out="-1:subj|1:vobj|6:pnct|9:conj|18:pnct">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj|2:mod">be</W>
@@ -139,7 +139,7 @@
 <W msd="PD" tag="DT" in="" out="1:attr">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">narrow</W>
 <W msd="NC=S" tag="NN" in="" out="">sense</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="-7:mod">and</W>
 <W msd="SP" tag="IN" in="-6:conj" out="-1:coord">in</W>
 <W msd="PD" tag="DT" in="" out="1:nobj">the</W>

@@ -169,10 +169,10 @@
 <W gloss="he" id="168" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
 <W gloss="transforms" id="169" lemma="omdanne" msd="VADR=----A-" tag="VBD" in="-7:relelab" out="-1:subj|-2:dobj|1:pobj">omdanner</W>
 <W gloss="into" id="170" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="3:nobj">til</W>
-<W gloss="&amp;quot;" id="171" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="171" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="good" id="172" lemma="god" msd="ANPNSU=IU" tag="JJ" in="1:attr" out="">godt</W>
 <W gloss="material" id="173" lemma="stof" msd="NCNSU==I" tag="NN" in="-3:nobj" out="-2:pnct|-1:attr|1:pnct|2:pnct|3:appa">stof</W>
-<W gloss="&amp;quot;" id="174" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="174" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="," id="175" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="stories" id="176" lemma="historie" msd="NCCPU==I" tag="NNP" in="-3:appa" out="1:pnct|2:ref|5:relr">historier</W>
 <W gloss="," id="177" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -236,8 +236,8 @@
 <W gloss="either" id="235" lemma="heller" msd="RGU" tag="RP" in="1:add" out="">heller</W>
 <W gloss="not" id="236" lemma="ikke" msd="RGU" tag="RP" in="-4:neg" out="-1:add">ikke</W>
 <W gloss="that" id="237" lemma="at" msd="U=" tag="TO" in="-4:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="few" id="238" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:vobj">få</W>
-<W _noerror="&3a;nosubj&3a;" gloss="settled" id="239" lemma="bilægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:dobj">bilagt</W>
+<W _noerror=":nosubj:" gloss="few" id="238" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:vobj">få</W>
+<W _noerror=":nosubj:" gloss="settled" id="239" lemma="bilægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:dobj">bilagt</W>
 <W gloss="the_conflict" id="240" lemma="strid" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">striden</W>
 <W gloss="." id="241" lemma="." msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>

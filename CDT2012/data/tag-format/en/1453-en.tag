@@ -17,7 +17,7 @@
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]" out="">We</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:time|2:vobj|26:pnct">have</W>
 <W msd="ANP" tag="RB" in="-1:time" out="">often</W>
@@ -148,7 +148,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:@dir">pulled</W>
 <W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-7:qobj|3:subj|4:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Finn</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Rønlov</W>
@@ -186,7 +186,7 @@
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="U=" tag="EX" in="1:expl|2:[expl]" out="">There</W>
 <W msd="VA" tag="MD" in="" out="-2:pnct|-1:expl|1:vobj|16:pnct">should</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|1:dobj|4:mod|10:mod">be</W>

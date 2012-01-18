@@ -57,7 +57,7 @@
 <W msd="NP=S" tag="NNP" in="" out="">First</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="PD" tag="DT" in="" out="1:pnct|4:xpl">all</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Mental</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]" out="-1:mod">illness</W>
 <W msd="VA" tag="MD" in="-4:xpl" out="-1:subj|1:vobj|17:pnct">can</W>
@@ -81,7 +81,7 @@
 </s>
 <s>
 <W msd="ANP" tag="JJ" in="" out="1:pnct|3:xpl">Second</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="">People</W>
 <W msd="VADR" tag="VBP" in="-3:xpl" out="-1:subj|1:dobj|3:mod|4:pnct">experience</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -182,7 +182,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Klaus</W>
 <W msd="NP=S" tag="NNP" in="" out="-1:namef|1:pnct|2:list|10:pnct|12:conj|18:pnct|20:conj|27:pnct|29:list|30:list">Aarsleff</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="-2:list" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">Mystery</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
@@ -194,7 +194,7 @@
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Kristian</W>
 <W msd="NP=S" tag="NNP" in="-12:conj" out="-1:namef|1:pnct|2:list">Kristiansen</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="-2:list" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">Mystery</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -202,7 +202,7 @@
 <W msd="XP" tag="," in="-18:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Nicolas</W>
 <W msd="NP=S" tag="NNP" in="-20:conj" out="-1:namef|1:pnct|2:list">Barbano</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="-2:list" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">Mystery</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

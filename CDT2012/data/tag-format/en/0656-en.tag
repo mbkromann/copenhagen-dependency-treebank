@@ -20,12 +20,12 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">excellent</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">pictorial</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">collage</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-5:appr" out="-1:pnct|1:list|4:pnct">Queen</W>
 <W msd="SP" tag="IN" in="-1:list" out="1:nobj">for</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">20</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>
@@ -36,12 +36,12 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:avobj|5:conj">miss</W>
 <W msd="SP" tag="IN" in="-1:avobj" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:pnct|7:nobj">on</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="4:pnct">or</W>
 <W msd="PT" tag="WDT" in="-5:conj|2:[dobj]" out="-1:coord|1:rel">whatever</W>
 <W msd="NC=P" tag="NNS" in="-1:rel" out="1:vobj">it's</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[dobj]">called</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="-7:nobj" out="2:nobj|3:pnct|4:ref|5:rel">Højlund</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Assembly</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Hall</W>
@@ -55,12 +55,12 @@
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|4:xpl">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">agenda</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=P" tag="NNPS" in="-4:xpl" out="-1:pnct|2:conj|3:pnct|4:pnct">Sports</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=P" tag="NNPS" in="-2:conj" out="-1:coord">Spirits</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
@@ -76,7 +76,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">bold</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">question</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="6:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="4:mod" out="1:nobj|2:pnct">of</W>
@@ -107,12 +107,12 @@
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="5:subj" out="-1:pnct|1:list|4:pnct">Queen</W>
 <W msd="SP" tag="IN" in="-1:list" out="1:nobj">for</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">20</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-5:subj|1:pnct|2:ref|5:rel|7:dobj|10:pnct">marked</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-2:ref|3:dobj" out="">as</W>
@@ -189,9 +189,9 @@
 <W msd="CS" tag="IN" in="-4:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:pnct|2:mod|7:preds">is</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="1:pnct">exactly</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">very</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="-1:quant">pleasant</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">family</W>

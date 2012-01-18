@@ -197,7 +197,7 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Dane</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:pnct|2:qobj">asks</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="-2:qobj" out="1:subj|2:vobj|6:pnct|7:mod">Shouldn't</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">we</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|1:dobj">have</W>

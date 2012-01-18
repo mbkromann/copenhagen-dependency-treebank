@@ -66,9 +66,9 @@
 <W gloss="chairman" id="65" lemma="formand" msd="NCCSU==I" tag="NN" in="-2:title" out="1:pobj|10:pnct|1:{arg}">formand</W>
 <W gloss="of" id="66" lemma="for" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
 <W gloss="the_shooting_club" id="67" lemma="skytteklub" msd="NCCSU==D" tag="NN" in="-1:nobj" out="2:appr|4:attr|4:{loc}">skytteklubben</W>
-<W gloss="&amp;quot;" id="68" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="68" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="quick" id="69" lemma="plet" msd="NCCSU==D" tag="NN" in="-2:appr" out="-1:pnct|1:pnct">Pletten</W>
-<W gloss="&amp;quot;" id="70" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="70" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="on" id="71" lemma="på" msd="SP" tag="IN" in="-4:attr|-4:{loc}" out="1:nobj">på</W>
 <W gloss="Øresundsvej" id="72" lemma="Øresundsvej" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:attr|1:{loc}">Øresundsvej</W>
 <W gloss="on" id="73" lemma="på" msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">på</W>
@@ -94,7 +94,7 @@
 <W gloss="Thursday" id="93" lemma="torsdag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">torsdag</W>
 <W gloss="from" id="94" lemma="fra" msd="SP" tag="IN" in="-2:time" out="1:nobj">fra</W>
 <W gloss="m." id="95" lemma="klokke" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:nobj">klokken</W>
-<W gloss="6_&3a;_00_p.m." id="96" lemma="18" msd="AC---U=--" tag="CD" in="-1:nobj" out="">18</W>
+<W gloss="6_:_00_p.m." id="96" lemma="18" msd="AC---U=--" tag="CD" in="-1:nobj" out="">18</W>
 <W gloss="," id="97" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="where" id="98" lemma="hvor" msd="RGU" tag="RP" in="-6:ref|3:time" out="">hvor</W>
 <W gloss="whole" id="99" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="2:subj|6:[subj]" out="1:nobj">hele</W>
@@ -119,7 +119,7 @@
 <W gloss="basis" id="118" lemma="basis" msd="NCCSU==I" tag="NN" in="-2:dobj" out="1:pobj|1:{arg}">basis</W>
 <W gloss="for" id="119" lemma="for" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
 <W gloss="a" id="120" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:¹nobj">et</W>
-<W _noerror="&3a;nosubj&3a;" gloss="combined" id="121" lemma="kombinere" msd="VAPA=S[CN]IA-U" tag="VBN" in="-1:attr" out="">kombineret</W>
+<W _noerror=":nosubj:" gloss="combined" id="121" lemma="kombinere" msd="VAPA=S[CN]IA-U" tag="VBN" in="-1:attr" out="">kombineret</W>
 <W compound="¹ungdoms-²og" gloss="youth_and" id="122" lemma="ungdoms-og" msd="XX" tag="FW" in="-2:¹nobj|1:²coord" out="1:conj¹">ungdoms-og</W>
 <W gloss="family_team" id="123" lemma="familiehold" msd="NCNSU==I" tag="NN" in="-1:conj¹" out="-1:²coord">familiehold</W>
 <W gloss="." id="124" lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
@@ -178,7 +178,7 @@
 <W gloss="was" id="177" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="1:loc|12:pnct|3:preds|-5:subj">blev</W>
 <W gloss="in" id="178" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Barcelona" id="179" lemma="Barcelona" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Barcelona</W>
-<W _noerror="&3a;nosubj&3a;" gloss="challenged" id="180" lemma="udfordre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="1:pobj|3:agent">udfordret</W>
+<W _noerror=":nosubj:" gloss="challenged" id="180" lemma="udfordre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="1:pobj|3:agent">udfordret</W>
 <W gloss="to" id="181" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="fist_fight" id="182" lemma="nævekamp" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">nævekamp</W>
 <W gloss="by" id="183" lemma="af" msd="SP" tag="IN" in="-3:agent" out="1:nobj">af</W>
@@ -203,7 +203,7 @@
 <W gloss="getting" id="202" lemma="få" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|5:pnct|6:xtop">fik</W>
 <W gloss="a" id="203" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:nobj">et</W>
 <W gloss="couple" id="204" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj|1:{quant}" out="1:attr|2:nobj">par</W>
-<W _noerror="&3a;nosubj&3a;" gloss="bent" id="205" lemma="bøje" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="-1:{quant}">bøjede</W>
+<W _noerror=":nosubj:" gloss="bent" id="205" lemma="bøje" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="-1:{quant}">bøjede</W>
 <W gloss="ribs" id="206" lemma="ribben" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">ribben</W>
 <W gloss="-" id="207" lemma="-" msd="XP" tag="-" in="-5:pnct" out=""> - </W>
 <W gloss="Finn" id="208" lemma="Finn" msd="NP--U==-" tag="NNP" in="-6:xtop" out="-7:ref|1:scene">Finn</W>

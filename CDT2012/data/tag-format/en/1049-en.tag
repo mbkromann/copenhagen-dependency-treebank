@@ -26,11 +26,11 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|4:appr|8:mod">the</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">shooting</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">club</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-4:appr" out="-1:pnct|1:nobj|2:possd|3:pnct">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">Bulls</W>
 <W msd="NP=S" tag="NNP" in="-2:possd" out="">Eye</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-8:mod" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:mod">Øresundsvej</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
@@ -58,7 +58,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Thursday</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">from</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:pnct|2:mod|3:mod">6</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">00</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">p.m.</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -177,7 +177,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:mod|2:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">bent</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">ribs</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="-7:xtop|3:[pred]" out="-8:ref|1:pnct|3:mod">Finn</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="1:subj" out="">that</W>

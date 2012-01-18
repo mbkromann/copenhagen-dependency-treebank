@@ -103,7 +103,7 @@
 <W gloss="with" id="102" lemma="med" msd="SP" tag="IN" in="-4:man" out="1:nobj|3:preds">med</W>
 <W gloss="Dolly's" id="103" lemma="Dolly" msd="NP--G==-" tag="NNP" in="-1:nobj|1:{poss}" out="1:possd">Dollys</W>
 <W gloss="bra" id="104" lemma="bh" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{poss}">BH</W>
-<W _noerror="&3a;nosubj&3a;" gloss="flying" id="105" lemma="flagre" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-3:preds" out="1:resem|4:loc">flagrende</W>
+<W _noerror=":nosubj:" gloss="flying" id="105" lemma="flagre" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-3:preds" out="1:resem|4:loc">flagrende</W>
 <W gloss="like" id="106" lemma="som" msd="U=" tag="WDT" in="-1:resem" out="1:nobj">som</W>
 <W gloss="a" id="107" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="banner" id="108" lemma="fane" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fane</W>
@@ -163,7 +163,7 @@
 <W gloss="is" id="162" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|6:pnct">er</W>
 <W gloss="difficult" id="163" lemma="svær" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">svært</W>
 <W gloss="to" id="164" lemma="at" msd="U=" tag="TO" in="-3:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="fall" id="165" lemma="falde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj">falde</W>
+<W _noerror=":nosubj:" gloss="fall" id="165" lemma="falde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj">falde</W>
 <W gloss="in" id="166" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="sleep" id="167" lemma="søvn" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">søvn</W>
 <W gloss="." id="168" lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
@@ -208,7 +208,7 @@
 <W gloss="father" id="207" lemma="far" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{arg}">far</W>
 <W gloss="is_standing" id="208" lemma="stå" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:man|5:@loc|8:conj">står</W>
 <W gloss="with" id="209" lemma="med" msd="SP" tag="IN" in="-1:man" out="2:nobj">med</W>
-<W _noerror="&3a;nosubj&3a;" gloss="scattered" id="210" lemma="sprede" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">spredte</W>
+<W _noerror=":nosubj:" gloss="scattered" id="210" lemma="sprede" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">spredte</W>
 <W gloss="legs" id="211" lemma="goal" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr">ben</W>
 <W gloss="in_the_middle" id="212" lemma="midt" msd="RGU" tag="RP" in="1:other" out="">midt</W>
 <W gloss="in" id="213" lemma="på" msd="SP" tag="IN" in="-5:@loc" out="-1:other|1:nobj">på</W>

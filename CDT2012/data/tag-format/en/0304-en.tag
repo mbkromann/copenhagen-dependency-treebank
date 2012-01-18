@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="I=" tag="UH" in="" out="-1:pnct|1:pnct|3:conj|12:pnct">Yes</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
@@ -54,7 +54,7 @@
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="4:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">The</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">funniest</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">thing</W>
@@ -76,7 +76,7 @@
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="I=" tag="UH" in="25:qobj" out="-1:pnct|1:pnct|3:conj|23:pnct">Yes</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|4:[subj]" out="">we</W>
@@ -116,7 +116,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">kitchen</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="7:pnct" out="">-</W>
 <W msd="PT" tag="WRB" in="6:mod" out="2:vobj">When</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:part|2:pnct">woke</W>

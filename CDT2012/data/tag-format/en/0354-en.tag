@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&3a;" in="7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="7:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="6:mod" out="1:nobj|3:pnct">In</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bit</W>
@@ -60,7 +60,7 @@
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Fine</W>
 <W msd="NC=S" tag="NN" in="2:[dobj]" out="-2:pnct|-1:mod|2:rel|3:pnct">bishop</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
@@ -86,7 +86,7 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:iobj|3:dobj|6:pnct">asked</W>
 <W msd="PP" tag="PRP" in="-1:iobj|3:[subj]" out="">me</W>
@@ -127,7 +127,7 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="" out="-1:pnct|1:conj|11:pnct">And</W>
 <W msd="NC=S" tag="NN" in="-1:conj" out="1:attr|2:preds">you're</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">just</W>
@@ -142,7 +142,7 @@
 <W msd="XP" tag="." in="-11:pnct" out="">?</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="4:qobj" out="-1:pnct|1:list|2:pnct">Certainly</W>
 <W msd="ANP" tag="RB" in="-1:list" out="">not</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -162,7 +162,7 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="NC=P" tag="NNS" in="" out="-1:pnct|1:dobj|22:pnct">There's</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">something</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
@@ -195,12 +195,12 @@
 <W msd="XP" tag="." in="-4:pnct" out="">?</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="" out="-1:pnct|1:pnct">No</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">It</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:vobj|2:pnct">doesn't</W>
 <W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]">matter</W>

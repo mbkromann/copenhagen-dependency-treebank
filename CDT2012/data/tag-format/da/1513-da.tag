@@ -56,11 +56,11 @@
 <W gloss="that_is_why" id="55" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">derfor</W>
 <W gloss="was" id="56" lemma="blive" msd="VADA=----A-" tag="VBD" in="-11:conj" out="-2:coord|-1:cause|2:preds|1:subj">blev</W>
 <W gloss="he" id="57" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
-<W _noerror="&3a;nosubj&3a;" gloss="elected" id="58" lemma="vælge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:pobj">valgt</W>
+<W _noerror=":nosubj:" gloss="elected" id="58" lemma="vælge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:pobj">valgt</W>
 <W gloss="in" id="59" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="chairman." id="60" lemma="formand" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">formand</W>
 <W gloss="." id="61" lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="62" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-17:pnct" out="">"</W>
+<W gloss="&quot;" id="62" lemma="&quot;" msd="XP" tag="&quot;" in="-17:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -72,7 +72,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="74" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="74" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="It" id="75" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">Det</W>
 <W gloss="is" id="76" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:preds|2:pnct|16:pnct">er</W>
 <W gloss="incredible" id="77" lemma="utrolig" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">utroligt</W>
@@ -220,7 +220,7 @@
 <W gloss="done" id="219" lemma="gøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj">gjort</W>
 <W gloss="wonders" id="220" lemma="underværk" msd="NCNPU==I" tag="NNP" in="-1:dobj" out="">underværker</W>
 <W gloss="," id="221" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="222" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-17:pnct" out="">"</W>
+<W gloss="&quot;" id="222" lemma="&quot;" msd="XP" tag="&quot;" in="-17:pnct" out="">"</W>
 <W gloss="stresses" id="223" lemma="understrege" msd="VADR=----A-" tag="VBD" in="" out="-18:qobj|2:subj|3:pnct">understreger</W>
 <W gloss="Peter" id="224" lemma="Peter" msd="NP--U==-" tag="NNP" in="1:namef" out="">Peter</W>
 <W gloss="Freil" id="225" lemma="Freil" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Freil</W>

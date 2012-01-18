@@ -142,7 +142,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">bite</W>
 <W msd="VADA" tag="VBD" in="-2:nobj" out="-1:mod">wound</W>
 <W msd="VADR" tag="VBZ" in="-4:rel" out="-4:[pred]|-3:subj|1:pnct">is</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">;</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">;</W>
 <W msd="CC" tag="CC" in="21:coord" out="1:pnct">but</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="19:focal" out="1:pobj">even</W>
@@ -175,7 +175,7 @@
 <W msd="XP" tag="." in="-41:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="6:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:neg|2:preds|15:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
@@ -257,7 +257,7 @@
 <W msd="PI" tag="DT" in="-5:nobj" out="-3:mod|2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">dog</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">bite</W>
-<W msd="XP" tag="&amp;quot;" in="-42:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-42:pnct" out="">"</W>
 <W msd="XP" tag="," in="-43:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="" out="-44:qobj|3:subj|4:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="1:namef">Ib</W>

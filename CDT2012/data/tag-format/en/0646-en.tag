@@ -50,7 +50,7 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">mid-size</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:attr">car</W>
 <W msd="NP=S" tag="NNP" in="-4:appr" out="">Croma</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">-</W>
 <W msd="PT" tag="WDT" in="-6:ref|1:subj" out="">which</W>
 <W msd="VADR" tag="VBZ" in="-7:rel" out="-1:subj|1:dobj|3:pobj|7:pnct">shares</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
@@ -59,7 +59,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:name">Saab</W>
 <W msd="AC" tag="CD" in="-1:name" out="">9000</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">-</W>
 <W msd="VADR" tag="VBZ" in="" out="-19:subj|2:vobj|6:conj|19:pnct|1:time">has</W>
 <W msd="ANP" tag="RB" in="-1:time" out="">recently</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-21:[subj]|1:dobj">had</W>
@@ -174,7 +174,7 @@
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:pnct|4:xpl">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">premiere</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="-4:xpl" out="1:attr|2:nobj|3:appr|4:pnct|5:appa">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">minibus</W>
@@ -196,7 +196,7 @@
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="U=" tag="EX" in="1:expl" out="">There</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:expl|1:add|2:dobj|55:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>

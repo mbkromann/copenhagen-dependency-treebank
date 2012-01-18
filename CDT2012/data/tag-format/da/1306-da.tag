@@ -232,10 +232,10 @@
 <W gloss="the_Queen's" id="231" lemma="dronning" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">Dronningens</W>
 <W gloss="scenography" id="232" lemma="sceneografi" msd="XX" tag="FW" in="-1:possd" out="1:pobj|1:{arg}">sceneografi</W>
 <W gloss="for" id="233" lemma="på" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="2:nobj">på</W>
-<W gloss="&amp;quot;" id="234" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="234" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="A" id="235" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:nobj" out="-1:pnct|1:nobj|2:pnct">Et</W>
 <W gloss="Folk_Tale" id="236" lemma="folkesagn" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">Folkesagn</W>
-<W gloss="&amp;quot;" id="237" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W gloss="&quot;" id="237" lemma="&quot;" msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W gloss=";" id="238" lemma="," msd="XP" tag="," in="-16:pnct" out="">,</W>
 <W gloss="and" id="239" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="Margrethe" id="240" lemma="Margrethe" msd="NP--U==-" tag="NNP" in="1:subj|7:[subj]" out="">Margrethe</W>

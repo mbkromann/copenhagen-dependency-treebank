@@ -76,12 +76,12 @@
 <W gloss="the_human_mind's" id="75" lemma="menneskesind" msd="NCNSG==D" tag="NN" in="-1:nobj|1:{source}" out="1:possd|2:pnct|3:conj">menneskesindets</W>
 <W gloss="multiplicity_of_expression" id="76" lemma="udtryksmangfoldighed" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{source}">udtryksmangfoldighed</W>
 <W gloss="," id="77" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="its" id="78" lemma="dets" msd="PO3[CN][SP]USNU" tag="PRP$" in="-3:conj|2:{other}" out="1:attr|2:possd|4:coord|5:&lt;possd&3a;2&gt;">dets</W>
+<W gloss="its" id="78" lemma="dets" msd="PO3[CN][SP]USNU" tag="PRP$" in="-3:conj|2:{other}" out="1:attr|2:possd|4:coord|5:&lt;possd:2&gt;">dets</W>
 <W gloss="external" id="79" lemma="ydre" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">ydre</W>
 <W gloss="expression" id="80" lemma="tilkendegivelse" msd="NCCPG==I" tag="NNP" in="-2:possd|1:{arg}" out="1:possd|-2:{other}">tilkendegivelsers</W>
 <W gloss="possibilities" id="81" lemma="mulighed" msd="NCCPU==I" tag="NNP" in="-1:possd" out="-1:{arg}">muligheder</W>
 <W gloss="and" id="82" lemma="og" msd="CC" tag="CC" in="-4:coord" out="">og</W>
-<W gloss="personified" id="83" lemma="ytring" msd="NCCPG==I" tag="NNP" in="-5:&lt;possd&3a;2&gt;|1:{other}" out="1:possd">ytringers</W>
+<W gloss="personified" id="83" lemma="ytring" msd="NCCPG==I" tag="NNP" in="-5:&lt;possd:2&gt;|1:{other}" out="1:possd">ytringers</W>
 <W gloss="facets" id="84" lemma="facettering" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{other}">facettering</W>
 <W gloss="," id="85" lemma="," msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W gloss="and" id="86" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -232,9 +232,9 @@
 <W gloss="now" id="231" lemma="nu" msd="RGU" tag="RP" in="1:time" out="">nu</W>
 <W gloss="sees" id="232" lemma="se" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-2:subj|-1:time|-3:coord|1:dobj|3:vobj">ser</W>
 <W gloss="it" id="233" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj|2:[dobj]" out="">det</W>
-<W gloss="&amp;quot;" id="234" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="234" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="realized" id="235" lemma="virkeliggøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-1:pnct|-2:[dobj]|1:pnct|2:man">virkeliggjort</W>
-<W gloss="&amp;quot;" id="236" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="236" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="in" id="237" lemma="i" msd="SP" tag="IN" in="-2:man" out="4:nobj">i</W>
 <W gloss="ever" id="238" lemma="stedse" msd="RGU" tag="RP" in="1:iter" out="">stedse</W>
 <W gloss="more" id="239" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="-1:iter">mere</W>

@@ -158,9 +158,9 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="5:subj" out="2:mod|4:nobj">The</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VAP" tag="VBN" in="-2:mod" out="-1:pnct|1:pnct">busted</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="">grapes</W>
 <W msd="VADR" tag="VBP" in="" out="-5:subj|1:@dir|8:pnct|12:conj|18:pnct">come</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="2:nobj">from</W>
@@ -170,7 +170,7 @@
 <W msd="NP=S" tag="NNP" in="-2:conj" out="">Chile</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-4:conj" out="-1:coord">Brazil</W>
-<W msd="XP" tag="&3a;" in="-8:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-8:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">problem</W>
@@ -199,7 +199,7 @@
 <W msd="ANP" tag="JJ" in="2:attr" out="">European</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">producer</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod|-2:attr">countries</W>
-<W msd="XP" tag="&3a;" in="-12:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-12:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="7:coord" out="1:pnct">but</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="5:mod" out="1:pnct">here</W>

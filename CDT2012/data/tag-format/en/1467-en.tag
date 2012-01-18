@@ -1,6 +1,6 @@
 <s>
 <W msd="VAP" tag="VBN" in="" out="1:pnct|2:xpl|3:pnct">Wanted</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NC=S" tag="NN" in="-2:xpl" out="">confidence</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
@@ -63,10 +63,10 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>
 <W msd="U=" tag="TO" in="-5:mod" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">B.T.</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="11:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="11:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="10:mod" out="1:nobj|8:pnct">In</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:pobj">each</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -105,7 +105,7 @@
 <W msd="NC=S" tag="NN" in="-1:dobj" out="2:conj">confidence</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-5:pnct#|-2:conj" out="-1:coord">credibility.</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 </s>
 <s>
 <W msd="SP" tag="IN" in="9:mod" out="1:nobj|5:mod|7:pnct">On</W>
@@ -132,7 +132,7 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:nobj">their</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">second-lowest</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">level</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">:</W>
 <W msd="SP" tag="IN" in="-5:appa" out="1:nobj">at</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">price</W>

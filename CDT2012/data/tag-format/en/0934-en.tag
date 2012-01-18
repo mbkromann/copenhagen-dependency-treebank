@@ -50,7 +50,7 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">world</W>
 <W msd="VA" tag="MD" in="" out="-3:pnct|-2:subj|1:vobj|6:pnct">can</W>
@@ -93,7 +93,7 @@
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">guarantee</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="">this</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-7:qobj|1:pnct">said</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -175,7 +175,7 @@
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">They</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:vobj|3:pnct">cannot</W>
 <W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]|1:dobj">overthrow</W>
@@ -203,5 +203,5 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:preds">made</W>
 <W msd="AC" tag="CD" in="-18:pnct#|-1:preds" out="">irreversible.</W>
-<W msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
 </s>

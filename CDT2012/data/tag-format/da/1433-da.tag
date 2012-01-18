@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&amp;quot;" id="43" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="1:subj">"</W>
+<W gloss="&quot;" id="43" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="1:subj">"</W>
 <W gloss="It" id="44" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">Det</W>
 <W gloss="is" id="45" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:pnct|2:preds|17:pnct|3:other">er</W>
 <W gloss="so" id="46" lemma="så" msd="RGU" tag="RP" in="1:eval" out="">så</W>
@@ -86,12 +86,12 @@
 <W gloss="from" id="85" lemma="af" msd="SP" tag="IN" in="-2:cause" out="1:nobj">af</W>
 <W gloss="emotion." id="86" lemma="bevægelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">bevægelse</W>
 <W gloss="." id="87" lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="88" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-22:pnct" out="">"</W>
+<W gloss="&quot;" id="88" lemma="&quot;" msd="XP" tag="&quot;" in="-22:pnct" out="">"</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="93" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="11:pnct" out="">"</W>
+<W gloss="&quot;" id="93" lemma="&quot;" msd="XP" tag="&quot;" in="11:pnct" out="">"</W>
 <W gloss="For" id="94" lemma="for" msd="SP" tag="IN" in="10:scene" out="1:nobj">For</W>
 <W gloss="those" id="95" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:nobj" out="1:pnct|2:ref|3:relr">dem</W>
 <W gloss="," id="96" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -130,11 +130,11 @@
 <W gloss="that" id="129" lemma="at" msd="CS" tag="IN" in="-2:preds" out="2:vobj">at</W>
 <W gloss="they" id="130" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
 <W gloss="are" id="131" lemma="blive" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="4:pnct|1:preds|-1:subj">bliver</W>
-<W _noerror="&3a;nosubj&3a;" gloss="told" id="132" lemma="fortælle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="2:conj">fortalt</W>
+<W _noerror=":nosubj:" gloss="told" id="132" lemma="fortælle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="2:conj">fortalt</W>
 <W gloss="and" id="133" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W _noerror="&3a;nosubj&3a;" gloss="read" id="134" lemma="læse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:conj" out="-1:coord">læst</W>
+<W _noerror=":nosubj:" gloss="read" id="134" lemma="læse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:conj" out="-1:coord">læst</W>
 <W gloss="," id="135" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="136" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-15:pnct" out="">"</W>
+<W gloss="&quot;" id="136" lemma="&quot;" msd="XP" tag="&quot;" in="-15:pnct" out="">"</W>
 <W gloss="says" id="137" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-16:qobj|2:subj|25:pnct">siger</W>
 <W gloss="Victor" id="138" lemma="Victor" msd="NP--U==-" tag="NNP" in="1:namef" out="">Victor</W>
 <W gloss="Borge" id="139" lemma="Borge" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|4:relr">Borge</W>
@@ -165,7 +165,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="167" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W gloss="&quot;" id="167" lemma="&quot;" msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W gloss="h." id="168" lemma="H." msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">H.</W>
 <W gloss="C." id="169" lemma="C." msd="NP--U==-" tag="NNP" in="-1:namef" out="">C.</W>
 <W gloss="Andersen" id="170" lemma="Andersen" msd="NP--U==-" tag="NNP" in="1:subj" out="-2:namef">Andersen</W>
@@ -178,7 +178,7 @@
 <W gloss="forfatterskab" id="177" lemma="forfatterskab" msd="NCNSU==I" tag="NN" in="-1:possd" out="-1:{arg}">forfatterskab</W>
 <W gloss="have" id="178" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">er</W>
 <W gloss="been" id="179" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:preds">blevet</W>
-<W _noerror="&3a;nosubj&3a;" gloss="translated" id="180" lemma="oversætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">oversat</W>
+<W _noerror=":nosubj:" gloss="translated" id="180" lemma="oversætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">oversat</W>
 <W gloss="into" id="181" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="every" id="182" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">alle</W>
 <W gloss="language" id="183" lemma="sprog" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">sprog</W>
@@ -202,7 +202,7 @@
 <W gloss="is" id="201" lemma="være" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-1:subj|-2:coord|1:preds">er</W>
 <W gloss="difficult" id="202" lemma="svær" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">svært</W>
 <W gloss="to" id="203" lemma="at" msd="U=" tag="TO" in="-3:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="say" id="204" lemma="sige" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|3:dobj">sige</W>
+<W _noerror=":nosubj:" gloss="say" id="204" lemma="sige" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|3:dobj">sige</W>
 <W gloss="," id="205" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="how" id="206" lemma="hvor" msd="RGU" tag="RP" in="1:quant" out="">hvor</W>
 <W gloss="many" id="207" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:dobj" out="1:ref|-1:quant|3:relr">mange</W>
@@ -244,7 +244,7 @@
 <W gloss="him" id="243" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">ham</W>
 <W gloss="popular" id="244" lemma="populær" msd="ANPCSU=IU" tag="JJ" in="-2:predo" out="">populær</W>
 <W gloss="," id="245" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="246" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
+<W gloss="&quot;" id="246" lemma="&quot;" msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
 <W gloss="says" id="247" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-15:qobj|2:subj|11:pnct">siger</W>
 <W gloss="Victor" id="248" lemma="Victor" msd="NP--U==-" tag="NNP" in="1:namef" out="">Victor</W>
 <W gloss="Borge" id="249" lemma="Borge" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef|1:elab">Borge</W>

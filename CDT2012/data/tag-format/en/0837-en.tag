@@ -13,7 +13,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">shareholders</W>
 <W msd="U=" tag="TO" in="-3:pobj" out="2:vobj">to</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:vobj" out="-1:pnct|1:dobj|4:attr|5:pobj|8:pnct">share</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="2:conj">sun</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -22,7 +22,7 @@
 <W msd="SP" tag="IN" in="-5:pobj" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="AC" tag="CD" in="-1:nobj|-19:pnct" out="">employees.</W>
-<W msd="XP" tag="&amp;quot;" in="-8:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-8:pnct" out="">"</W>
 </s>
 <s>
 <W msd="SP" tag="IN" in="9:mod" out="">On</W>
@@ -55,7 +55,7 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="21:qobj" out="-1:pnct|3:conj|19:pnct">But</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">means</W>
@@ -75,7 +75,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">customers</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-21:qobj|-1:subj|1:pnct">said</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -139,7 +139,7 @@
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="18:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="18:pnct" out="">"</W>
 <W msd="VA" tag="MD" in="17:mod" out="12:vobj|15:pnct">Should</W>
 <W msd="ANC" tag="RBR" in="1:mod" out="">less</W>
 <W msd="ANP" tag="JJ" in="8:mod" out="-1:mod|1:coord|2:pnct">healthy</W>
@@ -178,7 +178,7 @@
 <W msd="ANP" tag="JJ" in="" out="">financial</W>
 <W msd="NC=P" tag="NNS" in="" out="">institutions</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-21:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-21:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="4:nobj" out="2:nobj|3:possd|1:attr">Den</W>
 <W msd="NP=S" tag="NNP" in="-1:attr" out="">Danske</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Bank's</W>

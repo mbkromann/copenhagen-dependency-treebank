@@ -18,7 +18,7 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="VAG" tag="VBG" in="" out="">shelling</W>
 <W msd="VADA" tag="VBD" in="-7:vobj" out="2:preds">was</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="U=" tag="TO" in="-2:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:pnct|1:dobj|7:conj|11:pnct">end</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -31,7 +31,7 @@
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="2:possd">Hekmatyar's</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">antiaircraft</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="-1:mod">artillery</W>
-<W msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-11:pnct" out="">"</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
 <s>

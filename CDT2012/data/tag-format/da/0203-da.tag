@@ -75,7 +75,7 @@
 <W gloss="see" id="74" lemma="se" msd="VADR=----A-" tag="VBD" in="" out="-15:cond|1:subj|2:pnct|5:dobj|11:pnct|3:eval">ser</W>
 <W gloss="we" id="75" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
 <W gloss="-" id="76" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
-<W _noerror="&3a;nosubj&3a;" gloss="surprisingly" id="77" lemma="overraske" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-3:eval" out="1:pnct">overraskende</W>
+<W _noerror=":nosubj:" gloss="surprisingly" id="77" lemma="overraske" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-3:eval" out="1:pnct">overraskende</W>
 <W gloss="-" id="78" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="that" id="79" lemma="at" msd="CS" tag="IN" in="-5:dobj" out="2:vobj">at</W>
 <W gloss="the_cabin" id="80" lemma="kabine" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">kabinen</W>
@@ -116,7 +116,7 @@
 <W gloss="the_intransigence" id="115" lemma="stejl" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">stejle</W>
 <W gloss="rear_seat_back" id="116" lemma="bagsæde-ryglæn" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">bagsæde-ryglæn</W>
 <W gloss="is" id="117" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="1:preds|-4:subj">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="shot" id="118" lemma="skyde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:dobj|3:part">skudt</W>
+<W _noerror=":nosubj:" gloss="shot" id="118" lemma="skyde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:dobj|3:part">skudt</W>
 <W gloss="15" id="119" lemma="15" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">15</W>
 <W gloss="mm" id="120" lemma="millimeter" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">mm</W>
 <W gloss="forward" id="121" lemma="frem" msd="RGU" tag="RP" in="-3:part" out="">frem</W>
@@ -130,7 +130,7 @@
 <W gloss="and" id="129" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="back_seats" id="130" lemma="bagsæde" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">bagsæde</W>
 <W gloss="has" id="131" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|1:preds|8:pnct">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="diminished" id="132" lemma="mindske" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">mindsket</W>
+<W _noerror=":nosubj:" gloss="diminished" id="132" lemma="mindske" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">mindsket</W>
 <W gloss="by" id="133" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">med</W>
 <W gloss="respectively" id="134" lemma="henholdsvis" msd="RGU" tag="RP" in="1:scene" out="">hhv.</W>
 <W gloss="10" id="135" lemma="10" msd="AC---U=--" tag="CD" in="-2:nobj" out="2:conj|3:nobj|-1:scene">10</W>

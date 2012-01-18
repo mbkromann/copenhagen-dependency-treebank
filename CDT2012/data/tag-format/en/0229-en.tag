@@ -37,9 +37,9 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">concept</W>
 <W msd="SP" tag="IN" in="-2:loc" out="1:nobj">behind</W>
 <W msd="PD" tag="DT" in="-1:nobj|9:[dobj]" out="2:nobj|8:rel">the</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">Kronkycklinger</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]" out="2:nobj|3:appr">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">poultry</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">producer</W>
@@ -126,11 +126,11 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">producers</W>
 <W msd="VADR" tag="VBZ" in="" out="-7:mod|-4:subj|1:preds|17:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:pnct|7:vobj">that</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:tobj" out="">immediately</W>
 <W msd="CS" tag="IN" in="4:modp" out="-1:tobj|1:nobj|2:pnct">before</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">slaughter</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBP" in="-7:vobj" out="-1:expl|-4:modp|1:dobj">are</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:nobj|4:mod">42</W>

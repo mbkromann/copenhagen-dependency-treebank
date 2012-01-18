@@ -164,9 +164,9 @@
 <div1 type=main>
 <p>
 <s>
-<W _noerror="&3a;nosubj&3a;" gloss="turning" id="166" lemma="vende" msd="VADR=----A-" tag="VBD" in="" out="2:conj|3:pnct">Vender</W>
+<W _noerror=":nosubj:" gloss="turning" id="166" lemma="vende" msd="VADR=----A-" tag="VBD" in="" out="2:conj|3:pnct">Vender</W>
 <W gloss="and" id="167" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W _noerror="&3a;nosubj&3a;" gloss="are" id="168" lemma="dreje" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:coord">drejer</W>
+<W _noerror=":nosubj:" gloss="are" id="168" lemma="dreje" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:coord">drejer</W>
 <W gloss="." id="169" lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
@@ -195,14 +195,14 @@
 <W gloss="," id="194" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="and" id="195" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="Bente's" id="196" lemma="Bente" msd="NP--G==-" tag="NNP" in="1:subj" out="">Bentes</W>
-<W gloss="is" id="197" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-1:subj|-2:coord|1:preds|4:pnct|5:coord|6:&lt;subj&3a;2&gt;|7:&lt;preds&3a;2&gt;">er</W>
+<W gloss="is" id="197" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-1:subj|-2:coord|1:preds|4:pnct|5:coord|6:&lt;subj:2&gt;|7:&lt;preds:2&gt;">er</W>
 <W gloss="a" id="198" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj">en</W>
 <W gloss="the_second" id="199" lemma="anden" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">anden</W>
 <W gloss="variant" id="200" lemma="variant" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">variant</W>
 <W gloss="," id="201" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="and" id="202" lemma="og" msd="CC" tag="CC" in="-5:coord" out="4:pnct">og</W>
-<W gloss="Inger's" id="203" lemma="Inger" msd="NP--G==-" tag="NNP" in="-6:&lt;subj&3a;2&gt;" out="">Ingers</W>
-<W gloss="a" id="204" lemma="en" msd="PI-CSU--U" tag="DT" in="-7:&lt;preds&3a;2&gt;" out="1:nobj">en</W>
+<W gloss="Inger's" id="203" lemma="Inger" msd="NP--G==-" tag="NNP" in="-6:&lt;subj:2&gt;" out="">Ingers</W>
+<W gloss="a" id="204" lemma="en" msd="PI-CSU--U" tag="DT" in="-7:&lt;preds:2&gt;" out="1:nobj">en</W>
 <W gloss="third" id="205" lemma="tredje" msd="AO---U=--" tag="JJ" in="-1:nobj" out="">tredje</W>
 <W gloss="," id="206" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="is" id="207" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-19:cause|1:subj|2:preds|10:pnct">er</W>

@@ -105,7 +105,7 @@
 <s>
 <W gloss="He" id="105" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
 <W gloss="was" id="106" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="13:pnct|1:preds|-1:subj">var</W>
-<W _noerror="&3a;nosubj&3a;" gloss="dressed_in" id="107" lemma="iføre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:dobj">iført</W>
+<W _noerror=":nosubj:" gloss="dressed_in" id="107" lemma="iføre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:dobj">iført</W>
 <W gloss="a" id="108" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj|4:pnct|5:conj|10:conj">en</W>
 <W gloss="perhaps" id="109" lemma="muligvis" msd="RGU" tag="RP" in="1:epi" out="">muligvis</W>
 <W gloss="red" id="110" lemma="rød" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:epi">rød</W>
@@ -183,7 +183,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="185" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="185" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="It" id="186" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="9:nobj">Det</W>
 <W gloss="is" id="187" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|3:neg|4:preds|7:pnct|16:pnct|1:eval">er</W>
 <W gloss="of_course" id="188" lemma="jo" msd="RGU" tag="RP" in="-1:eval" out="">jo</W>
@@ -197,9 +197,9 @@
 <W gloss="men" id="196" lemma="mand" msd="NCCPU==I" tag="NNP" in="1:subj|2:[subj]" out="">mænd</W>
 <W gloss="have" id="197" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">er</W>
 <W gloss="been" id="198" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds">blevet</W>
-<W _noerror="&3a;nosubj&3a;" gloss="bitten" id="199" lemma="bide" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">bidt</W>
+<W _noerror=":nosubj:" gloss="bitten" id="199" lemma="bide" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">bidt</W>
 <W gloss="in" id="200" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">i</W>
-<W _noerror="&3a;nosubj&3a;" gloss="mentioned" id="201" lemma="nævne" msd="VAPA=S[CN]DA-U" tag="VBN" in="1:attr" out="">nævnte</W>
+<W _noerror=":nosubj:" gloss="mentioned" id="201" lemma="nævne" msd="VAPA=S[CN]DA-U" tag="VBN" in="1:attr" out="">nævnte</W>
 <W gloss="body_part" id="202" lemma="legemsdel" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">legemsdel</W>
 <W gloss="." id="203" lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
@@ -215,7 +215,7 @@
 <W gloss="part" id="214" lemma="del" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">del</W>
 <W gloss="has" id="215" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|5:concom">er</W>
 <W gloss="been" id="216" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:preds">blevet</W>
-<W _noerror="&3a;nosubj&3a;" gloss="bitten" id="217" lemma="bide" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:part|2:pnct">bidt</W>
+<W _noerror=":nosubj:" gloss="bitten" id="217" lemma="bide" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:part|2:pnct">bidt</W>
 <W gloss="off" id="218" lemma="af" msd="RGU" tag="RP" in="-1:part" out="">af</W>
 <W gloss="," id="219" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="without" id="220" lemma="uden" msd="SP" tag="IN" in="-5:concom" out="1:nobj">uden</W>
@@ -269,7 +269,7 @@
 <W gloss="a" id="268" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:nobj" out="1:nobj|-2:exem">et</W>
 <W gloss="dog_bite" id="269" lemma="hundebid" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">hundebid</W>
 <W gloss="," id="270" lemma="," msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W gloss="'" id="271" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-40:pnct" out="">"</W>
+<W gloss="'" id="271" lemma="&quot;" msd="XP" tag="&quot;" in="-40:pnct" out="">"</W>
 <W gloss="says" id="272" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-41:qobj|3:subj|4:pnct">siger</W>
 <W gloss="Ib" id="273" lemma="Ib" msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">Ib</W>
 <W gloss="Steen" id="274" lemma="Steen" msd="NP--U==-" tag="NNP" in="-1:namef" out="">Steen</W>

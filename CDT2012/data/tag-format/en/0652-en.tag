@@ -12,7 +12,7 @@
 <W msd="SP" tag="IN" in="-1:mod" out="">under</W>
 <W msd="AC" tag="CD" in="-3:nobj" out="-2:mod|1:nobj|2:pnct|4:ref|7:rel">8,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">pages</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="2:pobj" out="1:nobj">of</W>
 <W msd="PT" tag="WDT" in="-1:nobj|-4:ref" out="">which</W>
 <W msd="AC" tag="CD" in="2:subj" out="-2:pobj|1:nobj">40</W>
@@ -41,7 +41,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">into</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:pnct|4:ref|8:rel">12,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">pages</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="3:pobj" out="1:nobj">of</W>
 <W msd="PT" tag="WDT" in="-1:nobj|-4:ref" out="">which</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
@@ -75,7 +75,7 @@
 <W msd="SP" tag="IN" in="-1:obl" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:possd">Lademann's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">lexicon</W>
-<W msd="XP" tag="&3a;" in="-16:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-16:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="4:modp" out="1:nobj|3:pnct">among</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">things</W>
@@ -115,10 +115,10 @@
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="">Encyclopaedia</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="NC=P" tag="NNS" in="" out="-11:subj|1:pnct|10:qobj">comments</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="6:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="5:mod" out="1:nobj|3:pnct">With</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">our</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">lexicon</W>
@@ -198,5 +198,5 @@
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:attr">the</W>
 <W msd="ANP" tag="JJ" in="-18:pnct#|-1:attr" out="">best.</W>
-<W msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
 </s>

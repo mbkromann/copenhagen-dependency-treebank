@@ -43,7 +43,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">comradely</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">spirit</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">:</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADA" tag="VBD" in="-8:conj" out="-1:expl|1:dobj">was</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">no</W>
@@ -74,7 +74,7 @@
 <W msd="PI" tag="DT" in="2:tobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bit</W>
 <W msd="ANC" tag="RBR" in="-4:mod" out="-2:tobj|1:pnct|2:mod">earlier</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj|10:pnct">at</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|4:pnct|5:mod">ten</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">minutes</W>
@@ -85,7 +85,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:mod">five</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">o'clock</W>
-<W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-10:pnct" out="">-</W>
 <W msd="PT" tag="WDT" in="-17:ref|1:subj" out="">which</W>
 <W msd="VADA" tag="VBD" in="-18:rel" out="-1:subj|1:dobj">promoted</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|4:ref|6:rel">a</W>
@@ -208,8 +208,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
 <W msd="ANP" tag="JJ" in="-4:mod" out="-1:quant">overwrought</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">:</W>
-<W msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">:</W>
+<W msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="6:voc" out="1:mod|3:pnct">People</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Germany</W>
@@ -223,7 +223,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">important</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">announcement</W>
 <W msd="XP" tag="." in="-6:pnct" out="">!</W>
-<W msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
 </s>
 <s>
 <W msd="SP" tag="IN" in="10:mod" out="1:nobj">In</W>

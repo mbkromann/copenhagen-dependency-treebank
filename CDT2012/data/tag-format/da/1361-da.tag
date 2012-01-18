@@ -53,7 +53,7 @@
 <W gloss="too" id="52" lemma="for" msd="RGU" tag="RP" in="1:quant" out="">for</W>
 <W gloss="smartass" id="53" lemma="dumsmart" msd="ANP[CN]SU=IU" tag="JJ" in="-3:conj" out="-2:coord|-1:quant">dumsmart</W>
 <W gloss="to" id="54" lemma="at" msd="U=" tag="TO" in="-8:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="shoot" id="55" lemma="skyde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:pobj">skyde</W>
+<W _noerror=":nosubj:" gloss="shoot" id="55" lemma="skyde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:pobj">skyde</W>
 <W gloss="the_blame" id="56" lemma="skyld" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">skylden</W>
 <W gloss="on" id="57" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="3:nobj">på</W>
 <W gloss="Richard" id="58" lemma="Richard" msd="NP--U==-" tag="NNP" in="2:namef" out="">Richard</W>
@@ -135,11 +135,11 @@
 <W gloss="opportunity" id="134" lemma="mulighed" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj|1:{arg}">mulighed</W>
 <W gloss="in" id="135" lemma="til" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">til</W>
 <W gloss="that" id="136" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="go" id="137" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="4:conj|2:@loc|7:time">gå</W>
+<W _noerror=":nosubj:" gloss="go" id="137" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="4:conj|2:@loc|7:time">gå</W>
 <W gloss="new" id="138" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">nye</W>
 <W gloss="roads" id="139" lemma="vej" msd="NCCPU==I" tag="NNP" in="-2:@loc" out="-1:attr">veje</W>
 <W gloss="and" id="140" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W _noerror="&3a;nosubj&3a;" gloss="try" id="141" lemma="prøve" msd="VAF-=----A-" tag="VB" in="-4:conj" out="-1:coord|2:dobj">prøve</W>
+<W _noerror=":nosubj:" gloss="try" id="141" lemma="prøve" msd="VAF-=----A-" tag="VB" in="-4:conj" out="-1:coord|2:dobj">prøve</W>
 <W gloss="new" id="142" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">nye</W>
 <W gloss="players" id="143" lemma="spiller" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr">spillere</W>
 <W gloss="before" id="144" lemma="før" msd="SP" tag="IN" in="-7:time" out="1:nobj">før</W>

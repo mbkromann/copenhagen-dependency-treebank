@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&amp;quot;" id="43" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="21:pnct" out="">"</W>
+<W gloss="&quot;" id="43" lemma="&quot;" msd="XP" tag="&quot;" in="21:pnct" out="">"</W>
 <W gloss="But" id="44" lemma="men" msd="CC" tag="CC" in="20:coord" out="40:pnct">Men</W>
 <W gloss="when" id="45" lemma="da" msd="CS" tag="IN" in="19:time" out="2:vobj">da</W>
 <W gloss="it" id="46" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="6:nobj">det</W>
@@ -82,7 +82,7 @@
 <W gloss="several" id="81" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-1:nobj" out="1:nobj">flere</W>
 <W gloss="years" id="82" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="," id="83" lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="84" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-40:pnct" out="">"</W>
+<W gloss="&quot;" id="84" lemma="&quot;" msd="XP" tag="&quot;" in="-40:pnct" out="">"</W>
 <W gloss="adds" id="85" lemma="tilføje" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:pnct|-21:qobj">tilføjer</W>
 <W gloss="she" id="86" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="." id="87" lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -118,7 +118,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="120" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="120" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="I" id="121" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
 <W gloss="had_been_serving" id="122" lemma="servere" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:dobj|2:pobj|4:pnct|7:conj|12:pnct">serverede</W>
 <W gloss="mulled_wine" id="123" lemma="gløgg" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">gløgg</W>
@@ -186,7 +186,7 @@
 <W gloss="of" id="185" lemma="for" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
 <W gloss="criminality" id="186" lemma="kriminalitet" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kriminalitet</W>
 <W gloss="," id="187" lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="188" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-27:pnct" out="">"</W>
+<W gloss="&quot;" id="188" lemma="&quot;" msd="XP" tag="&quot;" in="-27:pnct" out="">"</W>
 <W gloss="says" id="189" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-28:qobj|4:subj|5:pnct">siger</W>
 <W gloss="Carsten" id="190" lemma="Carsten" msd="NP--U==-" tag="NNP" in="3:namef" out="1:namef">Carsten</W>
 <W gloss="Ove" id="191" lemma="Ove" msd="NP--U==-" tag="NNP" in="-1:namef" out="">Ove</W>

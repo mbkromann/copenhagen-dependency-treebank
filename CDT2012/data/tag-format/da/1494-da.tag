@@ -97,7 +97,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="99" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="99" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="I" id="100" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
 <W gloss="took" id="101" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:prg|2:dobj|4:pobj|7:event|11:pnct">fik</W>
 <W gloss="of_course" id="102" lemma="jo" msd="RGU" tag="RP" in="-1:prg" out="">jo</W>
@@ -167,7 +167,7 @@
 <W gloss="that" id="166" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="lose" id="167" lemma="tabe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]">tabe</W>
 <W gloss="," id="168" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="169" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W gloss="&quot;" id="169" lemma="&quot;" msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W gloss="stressed" id="170" lemma="understrege" msd="VADR=----A-" tag="VBD" in="" out="-7:qobj|2:subj|3:pnct">understreger</W>
 <W gloss="Jesper" id="171" lemma="Jesper" msd="NP--U==-" tag="NNP" in="1:namef" out="">Jesper</W>
 <W gloss="Bank" id="172" lemma="Bank" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Bank</W>

@@ -1,7 +1,7 @@
 <s>
 <W msd="VAG" tag="VBG" in="1:mod" out="">Opening</W>
 <W msd="NC=S" tag="NN" in="" out="-1:mod|1:pnct|2:list|3:list|4:pnct">bid</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="-2:list" out="">DD</W>
 <W msd="NP=S" tag="NNP" in="-3:list" out="">CL</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -18,7 +18,7 @@
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">over</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">weekend</W>
-<W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-10:pnct" out="">-</W>
 <W msd="VAF" tag="VB" in="-11:conj" out="1:dobj|3:mod">see</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">summary</W>

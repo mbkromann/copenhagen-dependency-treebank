@@ -60,7 +60,7 @@
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
 <W msd="VADR" tag="VBZ" in="26:qobj" out="-2:pnct|-1:subj|1:preds|25:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:mod|2:nobj|7:rel">a</W>
@@ -87,7 +87,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">knee</W>
 <W msd="XP" tag="," in="-16:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-25:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-25:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-26:qobj|4:subj|7:pnct">informs</W>
 <W msd="ANP" tag="JJ" in="" out="">criminal</W>
 <W msd="NC=S" tag="NN" in="" out="">superintendent</W>
@@ -141,7 +141,7 @@
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="" out="-1:pnct|2:conj|16:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="7:ref|8:rel">it</W>
 <W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:eval|2:preds">is</W>
@@ -171,7 +171,7 @@
 <W msd="PD" tag="DT" in="" out="">any</W>
 <W msd="NC=S" tag="NN" in="" out="">rate</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-9:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-10:qobj|4:pnct">assures</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="ANP" tag="JJ" in="" out="">criminal</W>
@@ -179,7 +179,7 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|12:[subj]" out="">We</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:vobj|11:conj|24:pnct">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj">interrogating</W>

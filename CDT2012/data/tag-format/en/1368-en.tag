@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:neg|2:vobj|13:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
@@ -44,7 +44,7 @@
 <W msd="ANP" tag="RB" in="-2:mod" out="">particularly</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]">agree</W>
 <W msd="XP" tag="," in="-25:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-26:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-26:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-27:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Uffe</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Ellemann-Jensen</W>
@@ -79,7 +79,7 @@
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:neg|2:vobj|20:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
@@ -174,7 +174,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">brain</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-9:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-10:qobj|1:subj|13:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="3:nobj|9:pnct|11:appa">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Social</W>

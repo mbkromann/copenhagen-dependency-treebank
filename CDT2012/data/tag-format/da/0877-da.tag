@@ -81,7 +81,7 @@
 <W gloss="for_example" id="80" lemma="for_eksempel" msd="RGU" tag="RP" in="1:exem" out="">f.eks.</W>
 <W gloss="believe" id="81" lemma="mene" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-2:subj|-3:[mod]|1:dobj|-1:exem">mener</W>
 <W gloss="that" id="82" lemma="at" msd="CS" tag="IN" in="-1:dobj" out="3:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="divided_into_levels" id="83" lemma="niveaudele" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="">niveaudelt</W>
+<W _noerror=":nosubj:" gloss="divided_into_levels" id="83" lemma="niveaudele" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="">niveaudelt</W>
 <W gloss="education" id="84" lemma="undervisning" msd="NCCSU==I" tag="NN" in="1:subj" out="-1:attr">undervisning</W>
 <W gloss="is" id="85" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:preds">er</W>
 <W gloss="better" id="86" lemma="god" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:preds" out="">bedre</W>
@@ -211,7 +211,7 @@
 <W gloss="," id="210" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="there" id="211" lemma="der" msd="U=" tag="WDT" in="-7:ref|1:subj" out="">der</W>
 <W gloss="is_being" id="212" lemma="blive" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:preds">bliver</W>
-<W _noerror="&3a;nosubj&3a;" gloss="assessed" id="213" lemma="bedømme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:man|2:loc">bedømt</W>
+<W _noerror=":nosubj:" gloss="assessed" id="213" lemma="bedømme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:man|2:loc">bedømt</W>
 <W gloss="uniformly" id="214" lemma="ensartet" msd="ANP---=-R" tag="JJ" in="-1:man" out="">ensartet</W>
 <W gloss="in" id="215" lemma="på" msd="SP" tag="IN" in="-2:loc" out="1:nobj">på</W>
 <W gloss="level" id="216" lemma="landsplan" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">landsplan</W>
@@ -233,7 +233,7 @@
 <W gloss="there" id="232" lemma="der" msd="U=" tag="WDT" in="-4:ref|2:subj" out="">der</W>
 <W gloss="really" id="233" lemma="egentlig" msd="RGU" tag="RP" in="1:epi" out="">egentlig</W>
 <W gloss="were_being" id="234" lemma="blive" msd="VADA=----A-" tag="VBD" in="-6:relr" out="-2:subj|-1:epi|1:preds">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="assessed" id="235" lemma="bedømme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:event">bedømt</W>
+<W _noerror=":nosubj:" gloss="assessed" id="235" lemma="bedømme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:event">bedømt</W>
 <W gloss="in" id="236" lemma="ved" msd="SP" tag="IN" in="-1:event" out="1:nobj">ved</W>
 <W gloss="karaktergivningen" id="237" lemma="karaktergivning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">karaktergivningen</W>
 <W gloss="." id="238" lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>

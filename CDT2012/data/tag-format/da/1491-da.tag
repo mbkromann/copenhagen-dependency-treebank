@@ -49,9 +49,9 @@
 <W gloss="on" id="48" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_hunt" id="49" lemma="jagt" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">jagten</W>
 <W gloss="for" id="50" lemma="på" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">på</W>
-<W gloss="&amp;quot;" id="51" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="51" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="Basse" id="52" lemma="basse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct">Basse</W>
-<W gloss="&amp;quot;" id="53" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="53" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="," id="54" lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="because" id="55" lemma="fordi" msd="CS" tag="IN" in="-10:cause" out="2:vobj">fordi</W>
 <W gloss="the_police" id="56" lemma="politi" msd="NCNSU==D" tag="NN" in="1:subj" out="">politiet</W>
@@ -106,7 +106,7 @@
 <W gloss="there" id="105" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="however" id="106" lemma="imidlertid" msd="RGU" tag="RP" in="-2:contr" out="">imidlertid</W>
 <W gloss="a" id="107" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:dobj" out="2:nobj|1:attr">en</W>
-<W _noerror="&3a;nosubj&3a;" gloss="surprising" id="108" lemma="overraske" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">overraskende</W>
+<W _noerror=":nosubj:" gloss="surprising" id="108" lemma="overraske" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">overraskende</W>
 <W gloss="development" id="109" lemma="udvikling" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">udvikling</W>
 <W gloss="." id="110" lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
@@ -127,9 +127,9 @@
 <W gloss="eight" id="126" lemma="otte" msd="AC---U=--" tag="CD" in="2:@time" out="1:nobj">otte</W>
 <W gloss="months" id="127" lemma="måned" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">måneder</W>
 <W gloss="after" id="128" lemma="efter" msd="RGU" tag="RP" in="-3:time" out="2:nobj|-2:@time">efter</W>
-<W gloss="&amp;quot;" id="129" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="129" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="Basse" id="130" lemma="basse" msd="NCCSG==I" tag="NN" in="-2:nobj|2:[subj]|2:{patient}" out="-1:pnct|1:pnct|2:possd">Basses</W>
-<W gloss="&amp;quot;" id="131" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="131" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="disappearance_down" id="132" lemma="bortkomst" msd="NCCSU==I" tag="NN" in="-2:possd" out="-2:[subj]|-2:{patient}">bortkomst</W>
 <W gloss="," id="133" lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="that" id="134" lemma="at" msd="CS" tag="IN" in="-9:dobj" out="2:vobj">at</W>
@@ -178,7 +178,7 @@
 <W gloss="time" id="177" lemma="gang" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">gang</W>
 <W gloss="both" id="178" lemma="både" msd="RGU" tag="RP" in="4:correl" out="">både</W>
 <W gloss="breathe" id="179" lemma="ånde" msd="VAF-=----A-" tag="VB" in="-5:vobj" out="-7:[subj]|1:aobj|2:avobj|5:conj">ånde</W>
-<W _noerror="&3a;nosubj&3a;" gloss="facilitated" id="180" lemma="lette" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:aobj" out="">lettet</W>
+<W _noerror=":nosubj:" gloss="facilitated" id="180" lemma="lette" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:aobj" out="">lettet</W>
 <W gloss="up" id="181" lemma="op" msd="RGU" tag="RP" in="-2:avobj" out="">op</W>
 <W gloss="and" id="182" lemma="og" msd="CC" tag="CC" in="2:coord" out="-4:correl">og</W>
 <W gloss="once_again" id="183" lemma="på_ny" msd="RGU" tag="RP" in="1:iter" out="">på_ny</W>
@@ -209,7 +209,7 @@
 <W gloss="force" id="208" lemma="kraft" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">kræfter</W>
 <W gloss="had" id="209" lemma="have" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:vobj">havde</W>
 <W gloss="been" id="210" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:preds">været</W>
-<W _noerror="&3a;nosubj&3a;" gloss="put" id="211" lemma="sætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@dir|7:mod|3:loc|9:inst">sat</W>
+<W _noerror=":nosubj:" gloss="put" id="211" lemma="sætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@dir|7:mod|3:loc|9:inst">sat</W>
 <W gloss="in" id="212" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="">ind</W>
 <W gloss="as_well" id="213" lemma="såvel" msd="RGU" tag="RP" in="2:correl" out="">såvel</W>
 <W gloss="locally" id="214" lemma="lokal" msd="ANP---=-R" tag="JJ" in="-3:loc" out="2:conj">lokalt</W>

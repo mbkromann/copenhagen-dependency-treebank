@@ -52,10 +52,10 @@
 <W msd="AC" tag="CD" in="-3:nobj" out="-1:numm|1:mod">million</W>
 <W msd="NC=P" tag="NNS" in="-1:mod" out="">minors</W>
 <W msd="VADA" tag="VBD" in="-10:vobj" out="-9:subj|-8:time|1:pnct|5:qobj">said</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="-5:qobj" out="-1:pnct|2:conj">And</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">now</W>
 <W msd="NC=S" tag="NN" in="-2:conj|1:[subj]|3:[subj]" out="-1:attr|1:vobj">we're</W>

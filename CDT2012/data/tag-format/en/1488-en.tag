@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="15:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="15:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="14:mod" out="1:nobj|11:pnct">On</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">basis</W>
@@ -46,7 +46,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:attr">care</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">relationship</W>
 <W msd="AC" tag="CD" in="-10:mod|-31:pnct#" out="">now.</W>
-<W msd="XP" tag="&amp;quot;" in="-32:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-32:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="7:subj" out="1:nobj|6:possd">The</W>

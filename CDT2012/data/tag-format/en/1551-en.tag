@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="38:qobj" out="-1:pnct|17:conj|35:pnct|36:pnct">But</W>
 <W msd="PT" tag="WRB" in="16:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
@@ -36,7 +36,7 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="XP" tag="," in="-35:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-36:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-36:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADR" tag="VBZ" in="" out="-38:qobj|-1:subj|1:pnct">adds</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -67,7 +67,7 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:vobj|8:pnct|12:conj|18:pnct">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:vobj">been</W>
@@ -137,7 +137,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">criminality</W>
 <W msd="XP" tag="," in="-24:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-25:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-25:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-26:qobj|4:subj|5:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="3:namef" out="1:namef">Carsten</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Ove</W>

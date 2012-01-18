@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&3a;" in="24:pnct" out="">-</W>
+<W msd="XP" tag=":" in="24:pnct" out="">-</W>
 <W msd="NC=P" tag="NNS" in="1:subj|8:[subj]" out="">Tourists</W>
 <W msd="VADR" tag="VBP" in="22:qobj" out="-1:subj|1:preds|7:conj|21:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">wild</W>

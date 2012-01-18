@@ -95,7 +95,7 @@
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="13:qobj" out="-1:pnct|2:conj|10:pnct|11:pnct">But</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBZ" in="-2:conj" out="-1:expl|1:dobj">is</W>
@@ -107,7 +107,7 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">things</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-11:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="" out="-13:qobj|-1:subj|1:pnct">stresses</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -162,7 +162,7 @@
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj|3:pnct|5:conj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">candidate</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="6:nobj">for</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PI" tag="DT" in="-5:conj" out="-1:coord|1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">initiator</W>

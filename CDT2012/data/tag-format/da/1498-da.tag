@@ -224,7 +224,7 @@
 <W gloss="afford" id="223" lemma="råd" msd="NCNSU==I" tag="NN" in="-3:dobj" out="1:pobj">råd</W>
 <W gloss="in" id="224" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" id="225" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="preserve" id="226" lemma="bevare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">bevare</W>
+<W _noerror=":nosubj:" gloss="preserve" id="226" lemma="bevare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">bevare</W>
 <W gloss="a" id="227" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">en</W>
 <W gloss="beautiful" id="228" lemma="smuk" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">smuk</W>
 <W gloss="tradition" id="229" lemma="tradition" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">tradition</W>
@@ -233,12 +233,12 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="235" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W gloss="&quot;" id="235" lemma="&quot;" msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W gloss="brave" id="236" lemma="fager" msd="ANP[CN]PU=[DI]U" tag="JJ" in="2:attr" out="">Fagre</W>
 <W gloss="new" id="237" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">nye</W>
 <W gloss="times" id="238" lemma="tid" msd="NCCPU==I" tag="NNP" in="3:qobj" out="-3:pnct|-2:attr|-1:attr|1:pnct|2:pnct">tider</W>
 <W gloss="," id="239" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="240" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W gloss="&quot;" id="240" lemma="&quot;" msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W gloss="promised" id="241" lemma="love" msd="VADA=----A-" tag="VBD" in="" out="-3:qobj|1:subj|2:pnct|15:pnct|3:time">lovede</W>
 <W gloss="football_managers" id="242" lemma="fodboldleder" msd="NCCPU==I" tag="NNP" in="-1:subj" out="">fodboldledere</W>
 <W gloss="," id="243" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -246,7 +246,7 @@
 <W gloss="the_agreements" id="245" lemma="aftale" msd="NCCPU==D" tag="NNP" in="8:subj" out="1:pobj.dobj|1:{patient}">aftalerne</W>
 <W gloss="on_the" id="246" lemma="om" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">om</W>
 <W gloss="that" id="247" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="build" id="248" lemma="bygge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:man">bygge</W>
+<W _noerror=":nosubj:" gloss="build" id="248" lemma="bygge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:man">bygge</W>
 <W gloss="large" id="249" lemma="stor" msd="ANPNSU=IU" tag="JJ" in="-1:man" out="2:conj">stort</W>
 <W gloss="and" id="250" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="in" id="251" lemma="i" msd="SP" tag="IN" in="-2:conj" out="-1:coord|1:nobj">i</W>

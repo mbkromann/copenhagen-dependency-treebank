@@ -4,7 +4,7 @@
 <W msd="VADA" tag="VBD" in="-2:conj" out="-1:dobj|1:subj|2:vobj|3:pnct|5:xpl">did</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">we</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]">achieve</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
 <W msd="VADA" tag="VBD" in="-5:xpl" out="-1:subj|1:dobj|6:vobj|8:pnct">got</W>
 <W msd="PI" tag="DT" in="-1:dobj|5:[subj]" out="1:attr|2:nobj">a</W>
@@ -100,7 +100,7 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">our</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">forefathers</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">:</W>
 <W msd="U=" tag="TO" in="-7:xpl" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="2:conj|3:mod">think</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -120,7 +120,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="PI" tag="DT" in="-3:conj" out="-1:coord|1:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">yea-sayer</W>
-<W msd="XP" tag="&3a;" in="-8:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-8:pnct" out="">:</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]" out="">everyone</W>
 <W msd="VA" tag="MD" in="-10:xpl" out="-1:subj|1:vobj|9:conj|17:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">acknowledge</W>

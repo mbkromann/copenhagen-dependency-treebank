@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="">Everything</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj">went</W>
 <W msd="ANP" tag="RB" in="" out="1:pnct">well</W>
@@ -60,7 +60,7 @@
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Olympic</W>
 <W msd="NP=P" tag="NNPS" in="-2:nobj" out="">Games</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-37:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-37:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-38:qobj|3:subj|4:pnct">said</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Jesper</W>
 <W msd="NP=S" tag="NNP" in="1:name" out="">D.</W>
@@ -104,7 +104,7 @@
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj">will</W>
 <W msd="VAF" tag="VB" in="" out="">have</W>
@@ -121,7 +121,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="-2:list" out="">ed.</W>
 <W msd="XP" tag=")" in="-3:pnct" out="">)</W>
-<W msd="XP" tag="&amp;quot;" in="-13:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-13:pnct" out="">"</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
@@ -153,7 +153,7 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|1:man|21:pnct">might</W>
 <W msd="ANP" tag="RB" in="-1:man" out="">well</W>
@@ -195,7 +195,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">honour</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-17:qobj|3:subj|4:pnct">said</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Jesper</W>
 <W msd="NP=S" tag="NNP" in="1:name" out="">D.</W>

@@ -122,7 +122,7 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|2:pnct|10:pnct">would</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">ask</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W msd="PT" tag="WP" in="6:nobj" out="">What</W>
 <W msd="VADR" tag="VBP" in="" out="1:subj|1:[subj]">do</W>
 <W msd="PP" tag="PRP" in="-1:subj|-1:[subj]|1:[subj]|1:[subj]" out="">we</W>
@@ -221,9 +221,9 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-4:loc" out="1:nobj">outside</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|4:ref|5:rel">the</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct">wall</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="PT" tag="WDT" in="-4:ref|1:subj|2:[subj]|3:[subj]" out="">that</W>
 <W msd="VA" tag="MD" in="-5:rel" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>

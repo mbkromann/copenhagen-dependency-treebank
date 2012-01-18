@@ -2,15 +2,15 @@
 <W msd="PD" tag="DT" in="7:subj" out="1:nobj|2:mod">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">message</W>
 <W msd="SP" tag="IN" in="-2:mod" out="3:nobj">in</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">Medicine</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-2:pnct|-1:nobj|1:pnct">Man</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-7:subj|1:preds|4:pnct|6:conj|20:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="2:conj">big</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">inescapable</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-6:conj" out="-1:subj|1:preds">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">about</W>
@@ -165,7 +165,7 @@
 <W msd="VADR" tag="VBZ" in="-8:conj" out="-5:mod|-2:subj|-7:coord|1:preds|3:pnct|8:conj">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">girl</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="4:subj" out="1:pnct">she</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:quant" out="1:pnct">too</W>

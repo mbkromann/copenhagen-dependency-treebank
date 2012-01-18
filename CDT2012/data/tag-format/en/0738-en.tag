@@ -54,7 +54,7 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="5:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="4:mod" out="1:nobj|2:pnct">Several</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">times</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -134,7 +134,7 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">fire</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-17:qobj|2:subj|14:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Brian</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:rel">Lentz</W>
@@ -198,10 +198,10 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|1:possd">Lentz's</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">words</W>
 <W msd="VADR" tag="VBZ" in="-7:rel" out="-5:subj|-4:mod|2:preds">is</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-2:preds" out="-1:pnct|1:nobj|2:possd|3:pnct">every</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">athlete's</W>
 <W msd="VADR" tag="VBP" in="-2:possd" out="">dream</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>

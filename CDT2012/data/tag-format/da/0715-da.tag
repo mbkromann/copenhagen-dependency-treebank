@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&amp;quot;" id="43" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W gloss="&quot;" id="43" lemma="&quot;" msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W gloss="No_one" id="44" lemma="ingen" msd="PI-CSU--U" tag="DT" in="3:subj" out="1:attr">Ingen</W>
 <W gloss="in" id="45" lemma="i" msd="SP" tag="IN" in="-1:attr" out="1:nobj">i</W>
 <W gloss="the_group" id="46" lemma="gruppe" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">gruppen</W>
@@ -107,7 +107,7 @@
 <W gloss="into" id="106" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_country" id="107" lemma="land" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">landet</W>
 <W gloss="," id="108" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="109" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
+<W gloss="&quot;" id="109" lemma="&quot;" msd="XP" tag="&quot;" in="-10:pnct" out="">"</W>
 <W gloss="explained" id="110" lemma="forklare" msd="VADA=----A-" tag="VBD" in="" out="-11:qobj|2:subj|8:pnct">forklarede</W>
 <W gloss="Police_Commissioner" id="111" lemma="politimester" msd="NCCSU==I" tag="NN" in="1:title" out="">politimester</W>
 <W gloss="Dahlfelt" id="112" lemma="Dahlfelt" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:title|1:pnct|2:ref|3:relpa">Dahlfelt</W>
@@ -145,7 +145,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="147" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="5:pnct" out="">"</W>
+<W gloss="&quot;" id="147" lemma="&quot;" msd="XP" tag="&quot;" in="5:pnct" out="">"</W>
 <W gloss="At" id="148" lemma="på" msd="SP" tag="IN" in="4:other" out="1:nobj">På</W>
 <W gloss="the_meeting" id="149" lemma="møde" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:attr|1:{time}">mødet</W>
 <W gloss="in" id="150" lemma="i" msd="SP" tag="IN" in="-1:attr|-1:{time}" out="1:nobj">i</W>
@@ -190,7 +190,7 @@
 <W gloss="He" id="189" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|5:[subj]" out="">Han</W>
 <W gloss="had" id="190" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|4:vobj|14:pnct|15:pnct|1:iter">har</W>
 <W gloss="at" id="191" lemma="på" msd="SP" tag="IN" in="-1:iter" out="2:nobj">på</W>
-<W _noerror="&3a;nosubj&3a;" gloss="repeated" id="192" lemma="gentage" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">gentagne</W>
+<W _noerror=":nosubj:" gloss="repeated" id="192" lemma="gentage" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">gentagne</W>
 <W gloss="meetings" id="193" lemma="møde" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr">møder</W>
 <W gloss="said" id="194" lemma="sige" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:vobj" out="-5:[subj]|1:pnct|2:dobj">sagt</W>
 <W gloss="," id="195" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -203,7 +203,7 @@
 <W gloss="the_minister" id="202" lemma="minister" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">ministeren</W>
 <W gloss="again." id="203" lemma="igen" msd="RGU" tag="RP" in="-5:iter" out="">igen</W>
 <W gloss="." id="204" lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="205" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-15:pnct" out="">"</W>
+<W gloss="&quot;" id="205" lemma="&quot;" msd="XP" tag="&quot;" in="-15:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -240,7 +240,7 @@
 <W gloss="plan" id="239" lemma="plan" msd="NCCSU==I" tag="NN" in="-1:nobj|1:{about}" out="1:pobj">plan</W>
 <W gloss="on_the" id="240" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj|-1:{about}">om</W>
 <W gloss="that" id="241" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="send_home_forcibly" id="242" lemma="tvangshjemsende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">tvangshjemsende</W>
+<W _noerror=":nosubj:" gloss="send_home_forcibly" id="242" lemma="tvangshjemsende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">tvangshjemsende</W>
 <W gloss="they" id="243" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="2:nobj|5:pnct|6:ref|7:relr">de</W>
 <W gloss="just_under" id="244" lemma="knap" msd="RGU" tag="RP" in="1:quant" out="">knap</W>
 <W gloss="3,000" id="245" lemma="3.000" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:quant|1:attr|2:nobj">3.000</W>

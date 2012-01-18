@@ -13,7 +13,7 @@
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">ambitious</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">record</W>
 <W msd="NC=P" tag="NNS" in="-4:possd" out="-1:mod">projects</W>
-<W msd="XP" tag="&3a;" in="-12:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-12:pnct" out="">:</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
 <W msd="VADR" tag="VBZ" in="-14:xpl" out="-1:subj|1:dobj">contains</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj|6:mod">the</W>
@@ -102,7 +102,7 @@
 <W msd="NC=P" tag="NNS" in="-30:conj" out="">notes</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-32:conj" out="-1:coord">biographies</W>
-<W msd="XP" tag="&3a;" in="-43:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-43:pnct" out="">-</W>
 <W msd="PI" tag="DT" in="-44:appa" out="2:attr|3:mod|4:nobj">a</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">breathtakingly</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">beautiful</W>
@@ -212,7 +212,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-15:[subj]|1:mod">released</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">record</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="U=" tag="TO" in="-5:mod" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj|3:pobj">enthusiasm</W>

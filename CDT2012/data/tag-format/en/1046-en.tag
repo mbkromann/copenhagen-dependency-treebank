@@ -148,7 +148,7 @@
 <W msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">debate</W>
 <W msd="VA" tag="MD" in="41:qobj" out="-3:pnct|-2:subj|1:vobj|39:pnct|40:pnct">must</W>
@@ -191,7 +191,7 @@
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]">permitted</W>
 <W msd="XP" tag="," in="-39:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-40:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-40:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-41:qobj|1:subj|7:pnct">said</W>
 <W msd="NP=S" tag="NNP" in="-1:subj" out="2:possd|3:pnct|5:appa">Turkey's</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">UN</W>

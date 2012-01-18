@@ -61,7 +61,7 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="RB" in="-2:man" out="-1:mod">well</W>
 <W msd="ANP" tag="RB" in="-3:accom" out="">alone</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">-</W>
 <W msd="CS" tag="IN" in="-8:cond" out="1:pnct|6:vobj">if</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="1:subj" out="">that</W>
@@ -140,7 +140,7 @@
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">mixed</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">percussion</W>
 <W msd="NC=S" tag="NN" in="-4:possd" out="-1:mod">arsenal</W>
-<W msd="XP" tag="&3a;" in="-9:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-9:pnct" out="">-</W>
 <W msd="PT" tag="WDT" in="-10:ref|1:subj|3:[subj]|4:[subj]" out="">which</W>
 <W msd="VA" tag="MD" in="-11:rel" out="-1:subj|1:add|2:vobj|4:pnct|5:time">could</W>
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
@@ -194,7 +194,7 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">numbers</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="-5:coord" out="1:pnct|2:&lt;mod&gt;|9:&lt;subj&gt;">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-2:&lt;mod&gt;" out="1:nobj|4:pnct">on</W>

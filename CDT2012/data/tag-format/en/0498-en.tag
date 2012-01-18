@@ -17,7 +17,7 @@
 <W msd="NC=S" tag="NN" in="-3:mod" out="2:conj">TIME</W>
 <W msd="XS" tag="SYM" in="1:coord" out="">=</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord|1:pnct|2:attr">5</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:attr" out="">00pm</W>
 <W msd="NP=S" tag="NNP" in="-10:conj" out="1:coord">READER</W>
 <W msd="XS" tag="SYM" in="-1:coord" out="">=</W>
@@ -87,7 +87,7 @@
 <W msd="NP=S" tag="NNP" in="" out="2:conj">GROSS</W>
 <W msd="XS" tag="SYM" in="1:coord" out="">=</W>
 <W msd="AC" tag="CD" in="-2:conj" out="-1:coord|1:pnct|2:mod">00</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">18</W>
 </s>
 <s>
@@ -109,7 +109,7 @@
 <W msd="NC=S" tag="NN" in="-1:mod" out="2:conj">TIME</W>
 <W msd="XS" tag="SYM" in="1:coord" out="">=</W>
 <W msd="AC" tag="CD" in="-2:conj" out="-1:coord|1:pnct|2:mod">4</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">30pm</W>
 <W msd="NP=S" tag="NNP" in="-8:conj" out="2:conj">READER</W>
 <W msd="XS" tag="SYM" in="1:coord" out="">=</W>
@@ -166,7 +166,7 @@
 <W msd="NP=S" tag="NNP" in="" out="2:conj">GROSS</W>
 <W msd="XS" tag="SYM" in="1:coord" out="">=</W>
 <W msd="AC" tag="CD" in="-2:conj" out="-1:coord|1:pnct|2:mod">00</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">14</W>
 </s>
 <s>
@@ -197,7 +197,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">city</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="6:time" out="1:pnct">today</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="AC" tag="CD" in="4:subj|5:[subj]" out="3:nobj">18</W>

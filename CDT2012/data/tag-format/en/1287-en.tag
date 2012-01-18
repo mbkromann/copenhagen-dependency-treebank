@@ -62,9 +62,9 @@
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">for</W>
 <W msd="SP" tag="IN" in="1:mod" out="">around</W>
 <W msd="PI" tag="DT" in="-2:nobj" out="-1:mod|2:nobj">a</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="-2:nobj" out="-1:pnct|1:pnct">thou</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-10:mod" out="7:vobj">as</W>
 <W msd="PD" tag="DT" in="6:subj|7:[subj]" out="2:nobj|3:mod">the</W>
@@ -122,7 +122,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">North</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Pole</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:add" out="">also</W>
 <W msd="SP" tag="IN" in="-9:mod" out="-1:add|1:nobj">on</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>

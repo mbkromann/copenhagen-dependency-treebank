@@ -198,10 +198,10 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">connection</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="4:nobj">with</W>
 <W msd="ANP" tag="JJ" in="3:attr" out="">international</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">crisis</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod|-2:pnct|-3:attr|1:pnct">management</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>

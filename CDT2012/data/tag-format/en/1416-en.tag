@@ -1,6 +1,6 @@
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|6:list|23:pnct">ODENSE</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">Not</W>
 <W msd="CS" tag="IN" in="3:mod" out="-1:neg|2:nobj">until</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">next</W>
@@ -81,7 +81,7 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="17:qobj" out="-2:pnct|-1:subj|1:pobj|15:pnct|16:pnct">depends</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
@@ -99,7 +99,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="PT" tag="WP" in="-8:conj" out="-1:coord">what</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-17:qobj|1:subj|6:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">chairman</W>
@@ -133,7 +133,7 @@
 <W msd="ANP" tag="JJ" in="1:mod" out="">old</W>
 <W msd="AC" tag="CD" in="-2:nobj" out="-1:mod">one</W>
 <W msd="VADR" tag="VBZ" in="-13:vobj" out="-3:subj|-11:time|1:pnct|2:mod">leaves</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="1:pobj">regardless</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">whether</W>

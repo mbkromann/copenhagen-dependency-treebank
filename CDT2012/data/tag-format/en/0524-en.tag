@@ -138,7 +138,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">economy</W>
-<W msd="XP" tag="&3a;" in="-27:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-27:pnct" out="">:</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">CONCLUDING</W>
@@ -151,7 +151,7 @@
 <W msd="ANP" tag="JJ" in="" out="2:conj">NET</W>
 <W msd="XS" tag="SYM" in="1:coord" out="">=</W>
 <W msd="AC" tag="CD" in="-2:conj" out="-1:coord|1:pnct|2:mod">04</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">30</W>
 </s>
 <s>
@@ -192,7 +192,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">magazine</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">at</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:pnct|2:mod|3:mod">7</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">00</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">p.m.</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jette</W>
@@ -215,7 +215,7 @@
 <W msd="NP=S" tag="NNP" in="" out="2:conj">GROSS</W>
 <W msd="XS" tag="SYM" in="1:coord" out="">=</W>
 <W msd="AC" tag="CD" in="-2:conj" out="-1:coord|1:pnct|2:mod">05</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">12</W>
 </s>
 <s>
@@ -266,5 +266,5 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">such</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">government</W>
-<W msd="XP" tag="&3a;" in="-30:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-30:pnct" out="">:</W>
 </s>

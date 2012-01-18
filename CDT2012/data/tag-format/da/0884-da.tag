@@ -184,7 +184,7 @@
 <W gloss="It" id="183" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
 <W gloss="was" id="184" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="1:time|9:pnct|2:preds|-1:subj">blev</W>
 <W gloss="then" id="185" lemma="dengang" msd="RGU" tag="RP" in="-1:time" out="">dengang</W>
-<W _noerror="&3a;nosubj&3a;" gloss="rejected" id="186" lemma="afvise" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="4:pobj|1:agent">afvist</W>
+<W _noerror=":nosubj:" gloss="rejected" id="186" lemma="afvise" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="4:pobj|1:agent">afvist</W>
 <W gloss="by" id="187" lemma="af" msd="SP" tag="IN" in="-1:agent" out="2:nobj">af</W>
 <W gloss="Minister_for_the_Interior" id="188" lemma="indenrigsminister" msd="NCCSU==I" tag="NN" in="1:title" out="">indenrigsminister</W>
 <W gloss="Seiters" id="189" lemma="Seiters" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:title">Seiters</W>
@@ -263,7 +263,7 @@
 <W gloss="in" id="262" lemma="på" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">på</W>
 <W gloss="750" id="263" lemma="750" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">750</W>
 <W gloss="tons" id="264" lemma="ton" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:attr|2:nobj">ton</W>
-<W _noerror="&3a;nosubj&3a;" gloss="accumulated" id="265" lemma="ophobe" msd="VAPA=S[CN]IA-U" tag="VBN" in="-1:attr" out="">ophobet</W>
+<W _noerror=":nosubj:" gloss="accumulated" id="265" lemma="ophobe" msd="VAPA=S[CN]IA-U" tag="VBN" in="-1:attr" out="">ophobet</W>
 <W gloss="garbage" id="266" lemma="skrald" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">skrald</W>
 <W gloss="." id="267" lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>

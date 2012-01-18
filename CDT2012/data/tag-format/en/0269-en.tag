@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&3a;" in="4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="4:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="3:subj|4:[subj]" out="1:pobj">None</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">us</W>
@@ -177,10 +177,10 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-5:mod|1:preds|14:pnct">became</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:nobj|4:pnct|5:appa">a</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct">refusenik</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="PI" tag="DT" in="-5:appa" out="1:nobj|2:ref|3:rel">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">person</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj|3:[subj]" out="">who</W>

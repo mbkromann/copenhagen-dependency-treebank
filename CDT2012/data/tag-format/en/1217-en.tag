@@ -164,7 +164,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="-3:mod">and</W>
 <W msd="PD" tag="DT" in="-3:conj" out="-1:coord|1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">table</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PD" tag="DT" in="-7:conj" out="-1:coord|1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">space</W>

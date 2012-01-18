@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="The" id="43" lemma="den" msd="PD-CSU--U" tag="DT" in="21:subj" out="2:attr|3:nobj|4:pnct|6:appa|8:attr|10:ref|1:attr|13:relr">Den</W>
-<W _noerror="&3a;nosubj&3a;" gloss="surviving" id="44" lemma="overleve" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">overlevende</W>
+<W _noerror=":nosubj:" gloss="surviving" id="44" lemma="overleve" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">overlevende</W>
 <W gloss="Polish" id="45" lemma="polsk" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="">polske</W>
 <W gloss="seaman" id="46" lemma="matros" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">matros</W>
 <W gloss="," id="47" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -55,7 +55,7 @@
 <W gloss="by" id="54" lemma="med" msd="SP" tag="IN" in="2:inst" out="1:nobj">med</W>
 <W gloss="helicopter" id="55" lemma="helikopter" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">helikopter</W>
 <W gloss="was" id="56" lemma="blive" msd="VADA=----A-" tag="VBD" in="-13:relr" out="-3:subj|7:pnct|-2:inst|1:preds">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="flown" id="57" lemma="flyve" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@dir">fløjet</W>
+<W _noerror=":nosubj:" gloss="flown" id="57" lemma="flyve" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@dir">fløjet</W>
 <W gloss="to" id="58" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the" id="59" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:appr">den</W>
 <W gloss="Norwegian" id="60" lemma="norsk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">norske</W>
@@ -85,23 +85,23 @@
 <W gloss="away" id="84" lemma="væk" msd="RGU" tag="RP" in="-2:@dir" out="1:pobj">væk</W>
 <W gloss="from" id="85" lemma="fra" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">fra</W>
 <W gloss="the" id="86" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="2:nobj|1:attr">det</W>
-<W _noerror="&3a;nosubj&3a;" gloss="sinking" id="87" lemma="synke" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">synkende</W>
+<W _noerror=":nosubj:" gloss="sinking" id="87" lemma="synke" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">synkende</W>
 <W gloss="ship" id="88" lemma="skib" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">skib</W>
 <W gloss="." id="89" lemma="." msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="94" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="94" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="Otherwise" id="95" lemma="ellers" msd="RGU" tag="RP" in="1:contr" out="">Ellers</W>
 <W gloss="would_have" id="96" lemma="være" msd="VADA=----A-" tag="VBD" in="8:qobj" out="-2:pnct|2:vobj|6:pnct|7:pnct|-1:contr|1:subj">var</W>
 <W gloss="I" id="97" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="was" id="98" lemma="blev" msd="XX" note="blevet" tag="FW" in="-2:vobj" out="1:preds">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="sucked" id="99" lemma="suge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="2:@dir|1:other">suget</W>
+<W _noerror=":nosubj:" gloss="sucked" id="99" lemma="suge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="2:@dir|1:other">suget</W>
 <W gloss="with" id="100" lemma="med" msd="RGU" tag="RP" in="-1:other" out="">med</W>
 <W gloss="down" id="101" lemma="ned" msd="RGU" tag="RP" in="-2:@dir" out="">ned</W>
 <W gloss="," id="102" lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="103" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
+<W gloss="&quot;" id="103" lemma="&quot;" msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
 <W gloss="explained" id="104" lemma="forklare" msd="VADA=----A-" tag="VBD" in="" out="-8:qobj|1:subj|2:pnct">forklarede</W>
 <W gloss="Samsel" id="105" lemma="Samsel" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Samsel</W>
 <W gloss="." id="106" lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -189,7 +189,7 @@
 <W gloss="wreckage" id="188" lemma="vraggods" msd="NCNSU==I" tag="NN" in="-1:nobj" out="-1:{quant}|1:{source}">vraggods</W>
 <W gloss="from" id="189" lemma="fra" msd="SP" tag="IN" in="-3:attr|-1:{source}" out="1:nobj">fra</W>
 <W gloss="the" id="190" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="2:nobj|1:attr">det</W>
-<W _noerror="&3a;nosubj&3a;" gloss="sunken" id="191" lemma="forlise" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">forliste</W>
+<W _noerror=":nosubj:" gloss="sunken" id="191" lemma="forlise" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">forliste</W>
 <W gloss="ship" id="192" lemma="skib" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">skib</W>
 <W gloss="," id="193" lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="among_other_things" id="194" lemma="blandt_andet" msd="RGU" tag="RP" in="1:exem" out="">bl.a.</W>

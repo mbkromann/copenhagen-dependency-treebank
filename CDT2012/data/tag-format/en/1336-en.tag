@@ -22,9 +22,9 @@
 <W msd="PT" tag="WRB" in="-8:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:mod|4:time">behaved</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="-1:pnct|1:pnct">improperly</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-4:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj|4:mod|6:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">renowned</W>
@@ -76,12 +76,12 @@
 <W msd="XP" tag="." in="-31:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="7:qobj" out="-1:pnct|3:pnct|4:pnct|1:loc">Dignity</W>
 <W msd="SP" tag="IN" in="-1:loc" out="1:nobj">above</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">all</W>
 <W msd="XP" tag="." in="-3:pnct" out="">!</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 </s>
 <s>
 <W msd="VADA" tag="VBD" in="" out="-7:qobj|1:subj|6:mod|11:pnct">thundered</W>

@@ -242,7 +242,7 @@
 <s>
 <W gloss="Biologists" id="242" lemma="biolog" msd="NCCPU==I" tag="NNP" in="1:subj" out="">Biologer</W>
 <W gloss="are_equipping" id="243" lemma="udstyre" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:dobj|3:pobj|5:pnct|6:goal">udstyrer</W>
-<W _noerror="&3a;nosubj&3a;" gloss="threatened" id="244" lemma="true" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">truede</W>
+<W _noerror=":nosubj:" gloss="threatened" id="244" lemma="true" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">truede</W>
 <W gloss="animals" id="245" lemma="dyr" msd="NCNPU==I" tag="NNP" in="-2:dobj" out="-1:attr">dyr</W>
 <W gloss="with" id="246" lemma="med" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">med</W>
 <W gloss="radio_transmitters" id="247" lemma="radiosender" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">radiosendere</W>
@@ -282,7 +282,7 @@
 <W gloss="of" id="281" lemma="af" msd="SP" tag="IN" in="-2:attr|-1:{const}" out="2:nobj">af</W>
 <W gloss="large" id="282" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">store</W>
 <W gloss="stone_spheres" id="283" lemma="stenkugle" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:attr">stenkugler</W>
-<W _noerror="&3a;nosubj&3a;" gloss="created" id="284" lemma="skabe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:attr" out="1:time">skabt</W>
+<W _noerror=":nosubj:" gloss="created" id="284" lemma="skabe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:attr" out="1:time">skabt</W>
 <W gloss="over" id="285" lemma="gennem" msd="SP" tag="IN" in="-1:time" out="2:nobj">gennem</W>
 <W gloss="a_and_a_half" id="286" lemma="halvanden" msd="ANPCSU=IU" tag="JJ" in="1:numm" out="">halvanden</W>
 <W gloss="billion" id="287" lemma="milliard" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:numm|1:nobj">milliard</W>

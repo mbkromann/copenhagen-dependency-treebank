@@ -109,10 +109,10 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
 <W msd="VAG" tag="VBG" in="-1:mod" out="">following</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">statement</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="U=" tag="EX" in="1:expl" out="">There</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:expl|1:dobj|15:pnct">was</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:ref|2:rel">nothing</W>
@@ -177,7 +177,7 @@
 <W msd="U=" tag="TO" in="-8:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:vobj">become</W>
 <W msd="ANP" tag="JJ" in="-1:vobj" out="">dislocated</W>
-<W msd="XP" tag="&amp;quot;" in="-26:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-26:pnct" out="">"</W>
 <W msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 <s>
@@ -191,7 +191,7 @@
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="30:pnct" out="">-</W>
+<W msd="XP" tag=":" in="30:pnct" out="">-</W>
 <W msd="CS" tag="IN" in="29:cond" out="2:vobj">If</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:dobj|4:mod">is</W>

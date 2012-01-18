@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|2:preds|3:mod|18:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
@@ -42,10 +42,10 @@
 <W msd="NC=S" tag="NN" in="-2:vobj" out="-1:subj|1:mod">collapse</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="ANP" tag="JJ" in="-1:nobj|-18:pnct#" out="">emotion.</W>
-<W msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="12:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="12:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="11:mod" out="1:nobj">For</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:ref|2:rel">those</W>
 <W msd="PT" tag="WP" in="-1:ref|1:subj|2:[subj]" out="">who</W>
@@ -91,7 +91,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAF" tag="VB" in="-2:conj" out="-4:[subj]|-1:coord">read</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-17:qobj|2:subj|24:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Victor</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:rel">Borge</W>
@@ -119,7 +119,7 @@
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="1:namef">Hans</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Christian</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-2:namef">Andersen</W>
@@ -199,7 +199,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">popularize</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-15:qobj|2:subj|11:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Victor</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|2:ref|6:rel">Borge</W>

@@ -60,7 +60,7 @@
 <W gloss="together" id="59" lemma="sammen" msd="RGU" tag="RP" in="-3:accom" out="">sammen</W>
 <W gloss="," id="60" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="were" id="61" lemma="blive" msd="VADA=----A-" tag="VBD" in="-13:vobj" out="-7:event|1:preds|-12:subj|2:event">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="arrested" id="62" lemma="anholde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">anholdt</W>
+<W _noerror=":nosubj:" gloss="arrested" id="62" lemma="anholde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">anholdt</W>
 <W gloss="in" id="63" lemma="ved" msd="SP" tag="IN" in="-2:event" out="1:nobj">ved</W>
 <W gloss="a" id="64" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:attr">en</W>
 <W gloss="major" id="65" lemma="stor" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">større</W>
@@ -174,8 +174,8 @@
 <W gloss="," id="173" lemma="," msd="XP" tag="," in="" out="">,</W>
 <W gloss="Holger" id="174" lemma="Holger" msd="NP--U==-" tag="NNP" in="1:namef" out="">Holger</W>
 <W gloss="Lindholt" id="175" lemma="Lindholt" msd="NP--U==-" tag="NNP" in="-4:appa" out="-1:namef">Lindholt</W>
-<W gloss="&3a;" id="176" lemma="&3a;" msd="XP" tag="&3a;" in="-5:pnct" out="">:</W>
-<W gloss="&amp;quot;" id="177" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W gloss=":" id="176" lemma=":" msd="XP" tag=":" in="-5:pnct" out="">:</W>
+<W gloss="&quot;" id="177" lemma="&quot;" msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W gloss="This" id="178" lemma="denne" msd="PD-CSU--U" tag="DT" in="2:subj" out="1:nobj">Denne</W>
 <W gloss="decision" id="179" lemma="afgørelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">afgørelse</W>
 <W gloss="is" id="180" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:xpl" out="-3:pnct|-2:subj|2:preds|8:pnct|1:eval|4:goal">er</W>

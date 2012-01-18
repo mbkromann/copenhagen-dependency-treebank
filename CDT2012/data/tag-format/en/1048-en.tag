@@ -15,7 +15,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">relatively</W>
 <W msd="ANP" tag="JJ" in="-3:conj" out="-1:mod|-2:coord|1:pnct|2:mod">little</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-2:mod" out="3:nobj|4:pobj">from</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">DKK</W>
 <W msd="AC" tag="CD" in="1:numm" out="">44</W>
@@ -105,7 +105,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">export</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pnct|2:mod">equipment</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="VAG" tag="VBG" in="-2:mod" out="1:pobj|15:pnct">stretching</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|4:pobj|8:pobj">from</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">masts</W>
@@ -121,7 +121,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">sailing</W>
 <W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">clothes</W>
-<W msd="XP" tag="&3a;" in="-15:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-15:pnct" out="">-</W>
 <W msd="VADR" tag="VBZ" in="-22:vobj" out="-21:subj|1:time|2:vobj">has</W>
 <W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-23:[subj]|1:dobj">reached</W>

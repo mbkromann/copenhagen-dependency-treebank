@@ -4,7 +4,7 @@
 <W msd="AC" tag="CD" in="-1:dobj" out="1:mod|2:nobj|3:pnct|5:xpl">two</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">great</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">passions</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="NP=P" tag="NNPS" in="1:mod" out="">Beatles</W>
 <W msd="NC=S" tag="NN" in="-5:xpl" out="-1:mod|2:conj">music</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -120,7 +120,7 @@
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="">Cocaine</W>
 <W msd="VADR" tag="VBZ" in="13:qobj" out="-2:pnct|-1:subj|2:preds|5:mod|11:pnct">is</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Latin</W>

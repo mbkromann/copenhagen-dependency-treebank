@@ -54,7 +54,7 @@
 <W msd="U=" tag="TO" in="-2:pobj" out="2:dobj">to</W>
 <W msd="VAF" tag="VB" in="1:mod" out="">climate-related</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod|1:pnct|2:xpl|21:conj">matters</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NC=S" tag="NN" in="-2:xpl" out="1:pnct|2:conj|3:pnct|4:mod|5:pnct|6:mod|11:pnct|12:conj|16:pnct">harvest</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="">sowing</W>
@@ -75,7 +75,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="-22:mod">or</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">customer</W>
 <W msd="NC=P" tag="NNS" in="-21:conj" out="-1:mod|-2:coord|1:pnct|3:xpl">preferences</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Christmas</W>
 <W msd="NC=P" tag="NNS" in="-3:xpl" out="-1:mod|1:pnct|3:conj|6:pnct|7:conj|12:pnct|13:conj|15:pnct|16:mod">trees</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -244,10 +244,10 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">possibility</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:pnct|3:nobj|4:pnct|5:attr|9:pnct|10:mod">a</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">factory</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">shutdown</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-5:attr" out="1:nobj|2:mod">2-3</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">weeks</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>

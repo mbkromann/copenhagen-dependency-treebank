@@ -78,7 +78,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="80" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="80" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="Customers" id="81" lemma="kunde" msd="NCCPU==D" tag="NNP" in="1:subj|2:[subj]" out="">Kunderne</W>
 <W gloss="must" id="82" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:vobj|14:pnct">skal</W>
 <W gloss="be" id="83" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">være</W>
@@ -107,7 +107,7 @@
 <W gloss="we" id="106" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
 <W gloss="with" id="107" lemma="med" msd="RGU" tag="RP" in="-2:pobj" out="">med</W>
 <W gloss="," id="108" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="109" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W gloss="&quot;" id="109" lemma="&quot;" msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W gloss="says" id="110" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-5:qobj|1:subj|2:pnct">siger</W>
 <W gloss="the_FDB_boss" id="111" lemma="FDBchef" msd="NCCSU==D" tag="NN" in="-1:subj" out="">FDBchefen</W>
 <W gloss="." id="112" lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -212,7 +212,7 @@
 <s>
 <W gloss="for" id="212" lemma="for" msd="SP" tag="IN" in="3:goal" out="1:nobj">For</W>
 <W gloss="that" id="213" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="save" id="214" lemma="spare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">spare</W>
+<W _noerror=":nosubj:" gloss="save" id="214" lemma="spare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">spare</W>
 <W gloss="will_be_cut" id="215" lemma="skære" msd="VADR=----P-" tag="VBD" in="" out="-3:goal|1:subj|2:avobj|5:pnct">skæres</W>
 <W gloss="the_number" id="216" lemma="antal" msd="NCNSU==D" tag="NN" in="-1:subj" out="">antallet</W>
 <W gloss="down" id="217" lemma="ned" msd="RGU" tag="RP" in="-2:avobj" out="1:other">ned</W>

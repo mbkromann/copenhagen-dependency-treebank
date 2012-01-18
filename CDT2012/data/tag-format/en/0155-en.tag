@@ -10,7 +10,7 @@
 <W msd="SP" tag="IN" in="-3:mod" out="-1:mod|2:nobj">at</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">luxury</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|1:pnct|3:appa">prices</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>
 <W msd="AC" tag="CD" in="-3:appa" out="-1:nobj|1:mod">35</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>

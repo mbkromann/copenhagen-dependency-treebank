@@ -4,13 +4,13 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{func}#">magnets</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-4:ref|8:subj" out="">which</W>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="6:focal" out="">each</W>
 <W msd="SP" tag="IN" in="5:man" out="-2:pnct|1:dobj|4:pnct">in</W>
 <W msd="PO" tag="PRP$" in="-1:dobj|2:{arg}" out="1:attr|2:possd">their</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">own</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="-2:{arg}">way</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="VAF" tag="VB" in="-12:relr" out="-8:subj|-5:man|-6:focal|2:dobj|3:pnct">portray</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">modern</W>
 <W msd="NP=S" tag="NNP" in="-2:dobj" out="-1:attr">Paris</W>
@@ -40,7 +40,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|5:appa">any</W>
 <W msd="ANP" tag="JJ" in="-1:attr|1:{source}" out="">French</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:{source}">film</W>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="1:attr|1:{about}#" out="">detective</W>
 <W msd="NC=S" tag="NN" in="-5:appa" out="-2:pnct|-1:attr|-1:{about}#|1:pnct|3:conj|7:conj">movie</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -68,12 +68,12 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj|2:{agent}" out="-1:namef|1:attr|2:possd|5:appr|10:ref|12:relpa">Miller's</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">juicy</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="-2:{agent}">novel</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:attr" out="">Quiet</W>
 <W msd="NP=S" tag="NNP" in="-5:appr" out="-2:pnct|-1:attr|1:attr|1:{loc}|3:pnct">Days</W>
 <W msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Clichy</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-10:ref|2:loc" out="">where</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
@@ -86,13 +86,13 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj|5:conj">whores</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">pimps</W>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-5:conj" out="-2:pnct|-1:coord|1:attr|1:{other}|4:pnct">artists</W>
 <W msd="SP" tag="IN" in="-1:attr|-1:{other}" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">every</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sort</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-14:attr|-12:{time}" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|4:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="2:conj">hectic</W>
@@ -126,7 +126,7 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="VAG" tag="VBG" in="1:attr" out="">thriving</W>
 <W msd="NC=S" tag="NN" in="-9:conj" out="-1:attr">business</W>
-<W msd="XP" tag="&3a;" in="7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="7:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="6:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="5:add" out="">then</W>
 <W msd="XP" tag="," in="1:pnct" out="">,</W>
@@ -137,7 +137,7 @@
 <W msd="SP" tag="IN" in="-1:attr|-1:{eval}" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">easy</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">virtue</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="VAF" tag="VB" in="" out="-22:subj|1:dobj|18:pnct">create</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:ref|3:relr|8:ref">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cocktail</W>
@@ -170,7 +170,7 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">great</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">advantage</W>
 <W msd="VAF" tag="VB" in="-4:vobj" out="-10:[subj]|1:vobj">be</W>
-<W _noerror="&3a;nosubj&3a;" msd="VAP" tag="VBN" in="-1:vobj" out="1:pobj">introduced</W>
+<W _noerror=":nosubj:" msd="VAP" tag="VBN" in="-1:vobj" out="1:pobj">introduced</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:attr">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:{loc}">dinner</W>

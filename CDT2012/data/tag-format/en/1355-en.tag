@@ -78,10 +78,10 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:vobj">was</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|-4:[lobj]|1:pnct">going</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">evidence</W>
 <W msd="VA" tag="MD" in="-14:xpl" out="-3:pnct|-2:subj|1:vobj|11:pnct">must</W>
@@ -155,7 +155,7 @@
 <W msd="SP" tag="IN" in="-4:pobj" out="2:nobj">than</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">too</W>
 <W msd="AC" tag="CD" in="-2:nobj|-5:pnct#" out="-1:quant">few.</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="3:subj" out="1:mod|2:nobj">The</W>

@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|1:[subj]" out="">We</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|-1:[subj]|3:dobj|5:pnct|6:cause|12:pnct">chose</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Jette</W>
@@ -166,8 +166,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|6:xpl">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">happy</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">message</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="-6:xpl" out="-2:pnct|-1:subj|1:dobj|12:pnct">have</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:mod|5:pnct|6:appa">the</W>
@@ -175,7 +175,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">man</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">for</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">you</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">:</W>
 <W msd="PI" tag="DT" in="-6:appa" out="2:nobj|3:mod">A</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">bank</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">director</W>
@@ -198,6 +198,6 @@
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:attr|2:possd">his</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">former</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">wife</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>

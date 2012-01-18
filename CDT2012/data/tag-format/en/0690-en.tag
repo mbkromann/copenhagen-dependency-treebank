@@ -39,10 +39,10 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:vobj">being</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="3:preds">considered</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">exotic</W>
 <W msd="NC=P" tag="NNS" in="-3:preds" out="-2:pnct|-1:attr|1:pnct|2:pnct|3:ref|6:rel">oddities</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-3:ref|3:subj|6:[subj]|7:[subj]|8:[subj]" out="">which</W>
 <W msd="SP" tag="IN" in="2:mod" out="1:nobj">by</W>
@@ -56,7 +56,7 @@
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="26:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="26:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="25:cond" out="7:vobj">If</W>
 <W msd="NC=P" tag="NNS" in="6:subj|8:[subj]" out="">people</W>
 <W msd="SP" tag="IN" in="5:mod" out="1:nobj">from</W>
@@ -88,7 +88,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">self-reinforcing</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">effect</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-7:qobj|1:subj|3:pnct">concludes</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">report</W>
@@ -101,7 +101,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">education</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">system</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="12:subj|14:[subj]" out="1:nobj">13</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">percent</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

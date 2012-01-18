@@ -110,7 +110,7 @@
 <s>
 <W gloss="easiest" id="110" lemma="nem" msd="ANS[CN][SP]U=[DI]U" tag="JJS" in="5:preds" out="1:nobj">Nemmest</W>
 <W gloss="to" id="111" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="pull" id="112" lemma="trække" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir">trække</W>
+<W _noerror=":nosubj:" gloss="pull" id="112" lemma="trække" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir">trække</W>
 <W gloss="through" id="113" lemma="igennem" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">igennem</W>
 <W gloss="the_earth" id="114" lemma="jord" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">jorden</W>
 <W gloss="is" id="115" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-5:preds|1:subj|5:pnct|11:conj|14:pnct">er</W>
@@ -146,8 +146,8 @@
 </p>
 <p>
 <s>
-<W _noerror="&3a;nosubj&3a;" gloss="Must" id="148" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="1:vobj">Skal</W>
-<W _noerror="&3a;nosubj&3a;" gloss="cut" id="149" lemma="skære" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:man">skære</W>
+<W _noerror=":nosubj:" gloss="Must" id="148" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="1:vobj">Skal</W>
+<W _noerror=":nosubj:" gloss="cut" id="149" lemma="skære" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:man">skære</W>
 <W gloss="sharply" id="150" lemma="skarp" msd="ANP---=-R" tag="JJ" in="-1:man" out="">skarpt</W>
 </s>
 </p>
@@ -185,7 +185,7 @@
 <W gloss="not" id="184" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="let" id="185" lemma="lade" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:vobj">lade</W>
 <W gloss="yourself" id="186" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj|1:[dobj]" out="">sig</W>
-<W _noerror="&3a;nosubj&3a;" gloss="be_tempted" id="187" lemma="friste" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[dobj]|1:pobj">friste</W>
+<W _noerror=":nosubj:" gloss="be_tempted" id="187" lemma="friste" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[dobj]|1:pobj">friste</W>
 <W gloss="by" id="188" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="a" id="189" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:attr">en</W>
 <W gloss="pair_of_pruning_shears" id="190" lemma="beskærersaks" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:{other}">beskærersaks</W>
@@ -198,7 +198,7 @@
 <W gloss="As" id="197" lemma="som" msd="U=" tag="WDT" in="2:fpredo" out="1:nobj">Som</W>
 <W gloss="test_purchase" id="198" lemma="prøvekøb" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">prøvekøb</W>
 <W gloss="has" id="199" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:dobj|7:pnct|-2:fpredo">har</W>
-<W _noerror="&3a;nosubj&3a;" gloss="the_undersigned" id="200" lemma="undertegne" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:subj" out="">undertegnede</W>
+<W _noerror=":nosubj:" gloss="the_undersigned" id="200" lemma="undertegne" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:subj" out="">undertegnede</W>
 <W gloss="two" id="201" lemma="to" msd="AC---U=--" tag="CD" in="-2:dobj" out="1:nobj|2:attr">to</W>
 <W gloss="pruning_shears" id="202" lemma="beskærersaks" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:{source}">beskærersakse</W>
 <W gloss="from" id="203" lemma="fra" msd="SP" tag="IN" in="-2:attr|-1:{source}" out="1:nobj">fra</W>

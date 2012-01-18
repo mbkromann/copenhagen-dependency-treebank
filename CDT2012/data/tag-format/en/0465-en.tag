@@ -80,16 +80,16 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|9:xpl">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">reply</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">Too</W>
 <W msd="ANP" tag="JJ" in="2:subj" out="-1:mod|1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">immigrants</W>
 <W msd="VADR" tag="VBP" in="-9:xpl" out="-4:pnct|-2:subj|1:lobj|2:pnct">live</W>
 <W msd="ANP" tag="JJ" in="-1:lobj" out="">there.</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">He</W>
@@ -114,7 +114,7 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="" out="-1:pnct|2:conj|14:conj|16:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VA" tag="MD" in="-2:conj" out="-1:subj|1:vobj|6:pnct">can</W>
@@ -131,7 +131,7 @@
 <W msd="PP" tag="PRP" in="-1:nobj" out="">them</W>
 <W msd="VADR" tag="VBP" in="-14:conj" out="-4:subj|1:dobj|1:pnct#">speak</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj|-1:pnct#" out="">Danish.</W>
-<W msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 </s>
 <s>
 <W msd="CC" tag="CC" in="1:mod" out="">Nor</W>
@@ -142,7 +142,7 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">They</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:dobj|2:mod|4:pnct|6:conj|9:pnct|11:conj|15:pnct|17:conj|21:pnct|24:conj|30:pnct">speak</W>
 <W msd="ANP" tag="JJ" in="-1:dobj" out="">Turkish</W>
@@ -174,7 +174,7 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj">forget</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Danish.</W>
-<W msd="XP" tag="&amp;quot;" in="-30:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-30:pnct" out="">"</W>
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="5:conj|24:pnct">And</W>

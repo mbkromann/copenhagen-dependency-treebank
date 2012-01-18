@@ -190,11 +190,11 @@
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">morally</W>
 <W msd="ANP" tag="JJ" in="-3:conj" out="-1:mod|-2:coord">debatable</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-7:possd" out="-1:pnct|1:pobj|2:nobj|3:pnct|4:pobj">seizure</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">of</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">power</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="2:nobj">by</W>
 <W msd="SP" tag="IN" in="1:namef" out="">Per</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef">Pedersen</W>

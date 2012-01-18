@@ -49,7 +49,7 @@
 <W msd="NC=P" tag="NNS" in="-3:possd" out="">qualifications</W>
 <W msd="VADR" tag="VBP" in="" out="-8:mod|-4:subj|1:vobj|13:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]">assessed</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -80,7 +80,7 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="12:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="12:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="11:cond" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj|7:pnct">are</W>
@@ -131,7 +131,7 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|-4:[dobj]|1:pnct">have</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-12:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-12:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-13:qobj|1:subj|13:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="2:nobj|9:pnct|11:appa">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Deputy</W>
@@ -164,7 +164,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|4:list">Graphics</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Grade</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">point</W>
 <W msd="ANP" tag="JJ" in="-4:list" out="-1:mod|1:mod">average</W>

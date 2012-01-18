@@ -15,7 +15,7 @@
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">it</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|1:pobj">come</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="-4:nobj">from</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VA" tag="MD" in="-6:conj" out="-1:coord|1:subj|2:vobj">can</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">you</W>
@@ -104,7 +104,7 @@
 </s>
 <s>
 <W msd="NC=S" tag="NN" in="" out="1:pnct|5:xpl|12:pnct">Result</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="ANP" tag="JJ" in="3:attr" out="2:conj">Sensitive</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">tired</W>

@@ -133,10 +133,10 @@
 <W msd="VADA" tag="VBD" in="-5:rel" out="-1:subj|1:dobj|5:preds|8:pobj">named</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="VADA" tag="VBD" in="-1:nobj" out="">rose</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Diligent</W>
 <W msd="NP=S" tag="NNP" in="-5:preds" out="-2:pnct|-1:mod|1:pnct|2:pnct">Tove</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-8:pobj" out="1:nobj">after</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>

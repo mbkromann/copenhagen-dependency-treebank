@@ -95,7 +95,7 @@
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">We</W>
 <W msd="VA" tag="MD" in="12:qobj" out="-2:pnct|-1:subj|1:neg|2:vobj|9:pnct|10:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
@@ -107,7 +107,7 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-10:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADR" tag="VBZ" in="" out="-12:qobj|-1:subj|1:pnct">says</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -192,13 +192,13 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">take</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">position</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">:</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PT" tag="WP" in="3:dobj" out="">Who</W>
 <W msd="VADR" tag="VBP" in="4:subj" out="-2:pnct|1:subj|2:vobj|3:pnct">do</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">you</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-1:[subj]|-3:dobj">support</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="-13:xpl" out="-4:subj|1:preds|13:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj|2:loc">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">text</W>
@@ -215,7 +215,7 @@
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="1:subj" out="6:rel">This</W>
 <W msd="VADR" tag="VBZ" in="17:qobj" out="-2:pnct|-1:subj|1:preds|16:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:nobj">the</W>
@@ -233,7 +233,7 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Social</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="-1:mod">Democratic</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="">Party</W>
-<W msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-17:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Hans</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Stavnsager</W>

@@ -48,7 +48,7 @@
 <W gloss="same" id="47" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="">samme</W>
 <W gloss="-" id="48" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="the" id="49" lemma="den" msd="PD-NSU--U" tag="DT" in="-3:appa" out="4:pnct|1:attr">det</W>
-<W _noerror="&3a;nosubj&3a;" gloss="being_caught_off-guard" id="50" lemma="overrumple" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="1:pnct|2:conj">overrumplende</W>
+<W _noerror=":nosubj:" gloss="being_caught_off-guard" id="50" lemma="overrumple" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="1:pnct|2:conj">overrumplende</W>
 <W gloss="," id="51" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="crazy" id="52" lemma="gal" msd="ANP[CN]SU=DU" tag="JJ" in="-2:conj" out="">gale</W>
 <W gloss="-" id="53" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
@@ -127,7 +127,7 @@
 <W gloss="and" id="126" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="much" id="127" lemma="meget" msd="ANP---=-R" tag="JJ" in="-7:conj" out="-1:coord|1:nobj|4:xpl|2:pnct">meget</W>
 <W gloss="more" id="128" lemma="meget" msd="ANC[CN]SU=IU" tag="JJR" in="-1:nobj" out="">mere</W>
-<W gloss="&3a;" id="129" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W gloss=":" id="129" lemma=":" msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W gloss="Among_other_things" id="130" lemma="blandt_andet" msd="RGU" tag="RP" in="1:exem" out="">Blandt_andet</W>
 <W gloss="sing" id="131" lemma="synge" msd="VAF-=----A-" tag="VB" in="-4:xpl" out="-1:exem|1:dobj|-15:[subj]|2:man">synge</W>
 <W gloss="rock" id="132" lemma="rock" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">rock</W>
@@ -150,7 +150,7 @@
 <W gloss="team" id="149" lemma="hold" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">hold</W>
 <W gloss="as" id="150" lemma="som" msd="U=" tag="WDT" in="-5:preds" out="1:nobj">som</W>
 <W gloss="this" id="151" lemma="denne" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:pnct|3:xpl">dette</W>
-<W gloss="&3a;" id="152" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="152" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="Therese" id="153" lemma="Therese" msd="NP--U==-" tag="NNP" in="1:namef" out="">Therese</W>
 <W gloss="Damsholt" id="154" lemma="Damsholt" msd="NP--U==-" tag="NNP" in="-3:xpl" out="-1:namef|1:pnct|3:conj|4:pnct|6:conj|7:pnct|9:conj|12:conj|13:pnct">Damsholt</W>
 <W gloss="," id="155" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -192,7 +192,7 @@
 <W gloss="the_range" id="191" lemma="spændvidde" msd="NCCSU==D" tag="NN" in="-1:dobj" out="1:pobj|1:{arg}">spændvidden</W>
 <W gloss="of" id="192" lemma="i" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">i</W>
 <W gloss="their" id="193" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:nobj|2:{arg}" out="2:possd|1:attr">deres</W>
-<W _noerror="&3a;nosubj&3a;" gloss="collective" id="194" lemma="sammenlægge" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">sammenlagte</W>
+<W _noerror=":nosubj:" gloss="collective" id="194" lemma="sammenlægge" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">sammenlagte</W>
 <W gloss="talents" id="195" lemma="talent" msd="NCNPU==I" tag="NNP" in="-2:possd" out="-2:{arg}">talenter</W>
 <W gloss="." id="196" lemma="." msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>

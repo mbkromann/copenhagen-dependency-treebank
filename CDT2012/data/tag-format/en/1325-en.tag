@@ -41,11 +41,11 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">believe</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Italians</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-8:conj" out="-1:subj|-2:coord|1:pnct">shouldn't</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="-12:ref|5:mod" out="1:pnct">then</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="I=" tag="UH" in="3:mod" out="1:pnct">yes</W>
@@ -178,7 +178,7 @@
 <W msd="VA" tag="MD" in="-10:conj" out="-1:subj|-2:coord|1:mod|1:pnct#|4:neg|5:vobj">should</W>
 <W msd="VAF" tag="VB" in="-1:mod|-1:pnct#" out="1:mod|2:pnct">-judged</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">soberly</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="-4:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-5:vobj" out="-6:[subj]|1:pobj">meet</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">with</W>

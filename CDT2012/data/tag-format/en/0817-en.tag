@@ -59,9 +59,9 @@
 <W msd="PD" tag="DT" in="-5:conj" out="-1:coord|2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">attorney</W>
 <W msd="ANP" tag="JJ" in="-2:nobj" out="-1:mod">general</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VAP" tag="VBN" in="" out="-1:pnct|-21:mod|-9:subj|1:pnct|2:dobj|4:mod|8:conj|43:pnct">acquitted</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">police</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">on</W>
@@ -156,7 +156,7 @@
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="5:pnct" out="">"</W>
 <W msd="PI" tag="DT" in="4:subj" out="1:nobj">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">court</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -196,7 +196,7 @@
 <W msd="NC=S" tag="NN" in="-7:vobj" out="-6:subj|1:preds">stand</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">unrefuted</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-13:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-13:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-14:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Frank</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Jensen</W>
@@ -214,10 +214,10 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Ebba</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Strange</W>
 <W msd="VADR" tag="VBZ" in="-5:rel" out="-3:mod|-1:subj|1:pnct|6:qobj">says</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|8:[subj]|10:[subj]|11:[subj]|13:[subj]" out="">We</W>
 <W msd="VA" tag="MD" in="-6:qobj" out="-2:pnct|-1:subj|1:neg|2:vobj|7:conj|16:pnct|19:conj|24:pnct#|25:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
@@ -244,5 +244,5 @@
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">take</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:nobj|-24:pnct#" out="">initiative.</W>
-<W msd="XP" tag="&amp;quot;" in="-25:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-25:pnct" out="">"</W>
 </s>

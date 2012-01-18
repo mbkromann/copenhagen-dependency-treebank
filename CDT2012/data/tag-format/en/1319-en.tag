@@ -1,14 +1,14 @@
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|4:list">ODENSE</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
 <W msd="VADR" tag="VBZ" in="-4:list" out="-2:pnct|-1:subj|2:preds|4:pnct#|5:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|2:conj">meaningless</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="AC" tag="CD" in="-4:pnct#|-2:conj" out="-1:coord">incomprehensible.</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">That</W>
@@ -90,7 +90,7 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd|3:pnct|4:mod">their</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">medical</W>
 <W msd="NC=P" tag="NNS" in="-2:possd" out="">studies</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="PI" tag="DT" in="-4:mod" out="1:nobj|2:ref|4:rel">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">education</W>
 <W msd="SP" tag="IN" in="-2:ref|7:dobj" out="">that</W>
@@ -146,7 +146,7 @@
 <W msd="XP" tag="." in="-29:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:dobj|2:pobj|9:pnct">knew</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Betina</W>
@@ -181,7 +181,7 @@
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:part">brushed</W>
 <W msd="RG" tag="RP" in="-1:part" out="">off</W>
 <W msd="XP" tag="," in="-19:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-20:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-20:pnct" out="">"</W>
 <W msd="VADR" tag="VBP" in="" out="-21:qobj|1:subj|3:pnct">say</W>
 <W msd="PO" tag="PRP$" in="-1:subj" out="1:possd">her</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">classmates</W>

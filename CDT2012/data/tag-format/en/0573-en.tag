@@ -21,7 +21,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Skalk</W>
 <W msd="XP" tag="(" in="1:pnct" out="">(</W>
 <W msd="AC" tag="CD" in="" out="-1:pnct">1986</W>
-<W msd="XP" tag="&3a;" in="" out="">:</W>
+<W msd="XP" tag=":" in="" out="">:</W>
 <W msd="NC=S" tag="NN" in="" out="1:pnct">5</W>
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
@@ -100,7 +100,7 @@
 <W msd="ANP" tag="JJ" in="" out="">dead</W>
 <W msd="NC=S" tag="NN" in="" out="">person</W>
 <W msd="PP" tag="PRP" in="-3:focal" out="">himself</W>
-<W msd="XP" tag="&3a;" in="-14:pnct" out="">;</W>
+<W msd="XP" tag=":" in="-14:pnct" out="">;</W>
 <W msd="PD" tag="PDT" in="3:subj|3:[subj]" out="">all</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=P" tag="NNS" in="" out="">bones</W>
@@ -153,13 +153,13 @@
 <W msd="ANP" tag="JJ" in="" out="">small</W>
 <W msd="NC=P" tag="NNS" in="" out="">items</W>
 <W msd="CC" tag="CC" in="8:coord" out="1:pnct|2:mod">and</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="CS" tag="IN" in="-2:mod" out="1:vobj|5:pnct">as</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="1:mod">indicated</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">introduction</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">-</W>
 <W msd="PI" tag="DT" in="-46:conj" out="-8:coord|1:attr|2:attr">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">large</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">indeterminate</W>

@@ -138,7 +138,7 @@
 <W gloss="when" id="137" lemma="da" msd="CS" tag="IN" in="-14:time" out="2:vobj">da</W>
 <W gloss="she" id="138" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">hun</W>
 <W gloss="was" id="139" lemma="blive" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="1:preds|-1:subj">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="honoured" id="140" lemma="hædre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">hædret</W>
+<W _noerror=":nosubj:" gloss="honoured" id="140" lemma="hædre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">hædret</W>
 <W gloss="with" id="141" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="Bakken's" id="142" lemma="bakke" msd="NCCSG==D" tag="NN" in="-1:nobj|1:{source}" out="1:possd|2:pnct|3:appa">Bakkens</W>
 <W gloss="Oscar" id="143" lemma="Oscar" msd="NP--U==-" tag="NNP" in="-1:possd" out="-1:{source}">Oscar</W>
@@ -168,10 +168,10 @@
 <W gloss="a" id="167" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="rose" id="168" lemma="rose" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">rose</W>
 <W gloss="," id="169" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="170" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="170" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="Diligent" id="171" lemma="flittig" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">Flittig</W>
 <W gloss="Tove" id="172" lemma="Tove" msd="NP--U==-" tag="NNP" in="-6:preds" out="-2:pnct|-1:attr|1:pnct|2:pnct">Tove</W>
-<W gloss="&amp;quot;" id="173" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="173" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="," id="174" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="after" id="175" lemma="efter" msd="SP" tag="IN" in="-9:pobj" out="1:nobj">efter</W>
 <W gloss="his" id="176" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj|1:{arg}" out="1:possd">sin</W>

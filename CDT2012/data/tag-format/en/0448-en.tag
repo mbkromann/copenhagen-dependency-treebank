@@ -51,7 +51,7 @@
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:nobj">no</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">small</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">thing</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">:</W>
 </s>
 <s>
 <W msd="SP" tag="IN" in="5:mod" out="1:nobj|3:pnct">For</W>
@@ -72,7 +72,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:pnct|5:modp">both</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">my</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">legs</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:eval" out="">especially</W>
 <W msd="SP" tag="IN" in="-5:modp" out="1:nobj|-1:eval">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -122,12 +122,12 @@
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">inner</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">warmth</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:eval" out="">especially</W>
 <W msd="SP" tag="IN" in="-6:modp" out="1:nobj|3:pnct|-1:eval">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">hips</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">pain</W>

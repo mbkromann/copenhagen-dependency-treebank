@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:vobj|24:pnct">am</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:@dir">looking</W>
@@ -53,7 +53,7 @@
 <W msd="PT" tag="WP" in="-1:dobj|2:[dobj]" out="2:rel">what</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="-2:rel" out="-2:[dobj]|-1:subj|1:pnct">want</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="VADR" tag="VBP" in="-5:conj" out="-6:[subj]|1:dobj">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">handle</W>
@@ -160,20 +160,20 @@
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">studies</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:vobj">are</W>
 <W msd="ANP" tag="JJ" in="-32:pnct#|-1:vobj" out="-3:[subj]">finished.</W>
-<W msd="XP" tag="&amp;quot;" in="-33:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-33:pnct" out="">"</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Henrik</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Mortensen</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:pnct|2:modp|10:dobj|13:lobj|16:pnct">has</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-2:modp" out="1:nobj|6:pnct">like</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj|4:attr">all</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">other</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">Danish</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">professionals</W>
 <W msd="ANP" tag="RB" in="-4:attr" out="">abroad</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">quite</W>
 <W msd="PI" tag="DT" in="-10:dobj" out="-1:attr|1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">few</W>

@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="6:voc" out="2:conj|3:pnct">Ladies</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Gentlemen</W>
@@ -11,7 +11,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stadium</W>
 <W msd="XP" tag="." in="-4:pnct" out="">!</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="" out="1:nobj|3:ref|4:rel|16:pnct">The</W>
@@ -41,15 +41,15 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj|6:mod|10:pnct">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]">called</W>
 <W msd="PI" tag="DT" in="" out="1:pnct">a</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="" out="1:pnct">building</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="-6:mod" out="1:pobj">instead</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">of</W>
 <W msd="PI" tag="DT" in="" out="1:pnct">a</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-10:pnct" out="1:pnct">stadium.</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|10:pnct">But</W>
@@ -163,7 +163,7 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="3:pnct|7:modp">two</W>
 <W msd="ANP" tag="JJ" in="" out="">big</W>
 <W msd="NC=P" tag="NNS" in="" out="">rigs</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="7:pobj" out="1:nobj">of</W>
 <W msd="PT" tag="WDT" in="-1:nobj" out="">which</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
@@ -181,7 +181,7 @@
 <W msd="SP" tag="IN" in="-3:@dir" out="1:nobj">around</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">continent</W>
-<W msd="XP" tag="&3a;" in="-14:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-14:pnct" out="">-</W>
 <W msd="AC" tag="CD" in="-49:conj" out="2:nobj|3:pnct|4:mod|1:attr">two</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">large</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">generators</W>

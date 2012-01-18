@@ -8,7 +8,7 @@
 <W msd="XP" tag="(" in="1:pnct" out="">(</W>
 <W msd="NP=S" tag="NNP" in="-5:list" out="-1:pnct|1:pnct">Politiken</W>
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="21:subj|22:[subj]" out="1:attr|2:nobj|9:pnct|10:ref|11:rel">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">upcoming</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj|3:pobj">exchange</W>
@@ -83,7 +83,7 @@
 <W msd="CS" tag="IN" in="-8:pobj" out="1:nobj">as</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">saying</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:pnct|-1:subj|2:preds|12:pnct">are</W>
 <W msd="ANC" tag="RBR" in="1:quant" out="6:pobj">more</W>
@@ -97,7 +97,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">successful</W>
 <W msd="NC=P" tag="NNS" in="1:mod" out="">media</W>
 <W msd="VADR" tag="VBP" in="-3:nobj" out="-1:mod">show</W>
-<W msd="XP" tag="&amp;quot;" in="-12:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-12:pnct" out="">"</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>

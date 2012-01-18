@@ -30,7 +30,7 @@
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
 <W msd="VADR" tag="VBP" in="24:qobj" out="-2:pnct|-1:subj|1:dobj|3:pobj|5:pnct|7:conj|22:pnct|23:pnct">hear</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
@@ -55,7 +55,7 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">places</W>
 <W msd="XP" tag="," in="-22:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-23:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-23:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-24:qobj|1:subj|24:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj|8:pnct|12:appa|14:ref|15:rel?">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">head</W>

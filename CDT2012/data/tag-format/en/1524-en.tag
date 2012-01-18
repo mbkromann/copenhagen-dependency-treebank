@@ -19,7 +19,7 @@
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:attr|2:possd">my</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">true</W>
 <W msd="AC" tag="CD" in="-2:possd|-14:pnct#" out="">calling.</W>
-<W msd="XP" tag="&amp;quot;" in="-15:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-15:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
@@ -49,7 +49,7 @@
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="8:[subj]|9:[subj]" out="-1:pnct|2:preds|8:conj|16:pnct#|17:pnct">I'm</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">very</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:nobj">happy</W>
@@ -67,7 +67,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">summer</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="AC" tag="CD" in="-1:nobj|-16:pnct#" out="">1997.</W>
-<W msd="XP" tag="&amp;quot;" in="-17:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-17:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="13:subj|14:[subj]" out="1:nobj">The</W>
@@ -98,7 +98,7 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">JOB</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:dobj|6:pnct">know</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd|2:attr">my</W>
@@ -203,7 +203,7 @@
 <W msd="CS" tag="IN" in="-3:mod" out="1:nobj">after</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:possd">Piechnik's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">entry</W>
-<W msd="XP" tag="&amp;quot;" in="-13:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-13:pnct" out="">"</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>

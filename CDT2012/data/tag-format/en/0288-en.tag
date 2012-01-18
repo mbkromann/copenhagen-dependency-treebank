@@ -90,7 +90,7 @@
 <W msd="VADA" tag="VBD" in="-6:rel" out="-6:[dobj]|-1:subj">knew</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-9:mod" out="1:pnct|2:list">so</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="JJ" in="-2:list" out="1:mod">OK</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">with</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">me</W>
@@ -165,7 +165,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">taxi</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">for</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:pnct|2:mod|3:mod">9</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">00</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">p.m</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>

@@ -53,10 +53,10 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">question</W>
 <W msd="PD" tag="DT" in="-3:mod" out="1:nobj|2:pnct|6:xpl">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="-6:xpl" out="-1:pnct|1:subj|3:preds|10:pnct|11:pnct">Is</W>
 <W msd="PP" tag="PRP" in="-1:subj" out="3:nobj">it</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">too</W>
@@ -68,7 +68,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">national</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">scandal</W>
 <W msd="XP" tag="." in="-10:pnct" out="">?</W>
-<W msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-11:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">Every</W>
@@ -114,7 +114,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">love</W>
 <W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">scenes</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PD" tag="DT" in="-6:conj" out="-1:coord|1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">errors</W>
@@ -221,10 +221,10 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">continuation</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:vobj|14:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pnct|3:mod|5:pobj">based</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">very</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="-1:quant|1:pnct">freely</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-5:pobj" out="2:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Carit</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|1:possd|2:mod">Etlar's</W>

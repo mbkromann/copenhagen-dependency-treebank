@@ -13,8 +13,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bouillon</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">supper</W>
-<W msd="XP" tag="&3a;" in="-11:pnct" out="">...</W>
-<W msd="XP" tag="&amp;quot;" in="-12:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-11:pnct" out="">...</W>
+<W msd="XP" tag="&quot;" in="-12:pnct" out="">"</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="">PARADISE</W>
@@ -53,9 +53,9 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">buy</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">strange</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:pnct|1:pnct">bumpkin</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
@@ -207,7 +207,7 @@
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Marseille</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:mod|3:preds|4:mod|6:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">just</W>

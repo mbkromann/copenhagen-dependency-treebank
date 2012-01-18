@@ -129,7 +129,7 @@
 <W msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">We</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:mod|2:vobj|10:pnct">have</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">deliberately</W>
@@ -168,7 +168,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Serbs</W>
 <W msd="XP" tag="," in="-23:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-24:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-24:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-25:qobj|2:subj|3:pnct">said</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Lynge</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namel">Nielsen</W>

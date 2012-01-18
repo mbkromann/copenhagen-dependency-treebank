@@ -67,7 +67,7 @@
 <p>
 <s>
 <W gloss="The" id="68" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="2:subj" out="1:attr">De</W>
-<W _noerror="&3a;nosubj&3a;" gloss="killed" id="69" lemma="dræbe" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">dræbte</W>
+<W _noerror=":nosubj:" gloss="killed" id="69" lemma="dræbe" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">dræbte</W>
 <W gloss="are" id="70" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:preds|30:pnct">er</W>
 <W gloss="the" id="71" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:preds" out="1:attr|3:nobj|4:pnct|10:conj|18:conj|5:attr">den</W>
 <W gloss="42-year_old" id="72" lemma="42-årig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">42-årige</W>
@@ -154,7 +154,7 @@
 <W gloss="whether" id="153" lemma="om" msd="CS" tag="IN" in="-2:pobj" out="2:vobj">om</W>
 <W gloss="she" id="154" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">hun</W>
 <W gloss="was" id="155" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|8:pnct">var</W>
-<W _noerror="&3a;nosubj&3a;" gloss="interested" id="156" lemma="interessere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">interesseret</W>
+<W _noerror=":nosubj:" gloss="interested" id="156" lemma="interessere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">interesseret</W>
 <W gloss="in" id="157" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="a" id="158" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
 <W gloss="picture" id="159" lemma="billede" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">billede</W>
@@ -166,7 +166,7 @@
 <W gloss="when" id="165" lemma="da" msd="CS" tag="IN" in="5:cause" out="2:vobj">da</W>
 <W gloss="she" id="166" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">hun</W>
 <W gloss="answered" id="167" lemma="svare" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:pnct|1:man">svarede</W>
-<W _noerror="&3a;nosubj&3a;" gloss="in_the_affirmative" id="168" lemma="bekræfte" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-1:man" out="">bekræftende</W>
+<W _noerror=":nosubj:" gloss="in_the_affirmative" id="168" lemma="bekræfte" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-1:man" out="">bekræftende</W>
 <W gloss="," id="169" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="agreed" id="170" lemma="aftale" msd="VADA=----A-" tag="VBD" in="-19:conj" out="-6:coord|1:subj|2:pnct|3:dobj|-5:cause">aftalte</W>
 <W gloss="they" id="171" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
@@ -184,7 +184,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="186" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="186" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="I" id="187" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|6:[subj]" out="">Jeg</W>
 <W gloss="was_standing" id="188" lemma="stå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:@loc|5:conj|11:pnct|17:pnct|12:time">stod</W>
 <W gloss="in" id="189" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
@@ -223,14 +223,14 @@
 <W gloss="thought" id="222" lemma="tænke" msd="VADA=----A-" tag="VBD" in="4:qobj" out="-13:qobj|1:subj|2:pnct|3:pnct">tænkte</W>
 <W gloss="I" id="223" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="," id="224" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="225" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W gloss="&quot;" id="225" lemma="&quot;" msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W gloss="says" id="226" lemma="fortælle" msd="VADR=----A-" tag="VBD" in="" out="-4:qobj|2:subj|8:pnct">fortæller</W>
 <W gloss="Christian" id="227" lemma="Christian" msd="NP--U==-" tag="NNP" in="1:namef" out="">Christian</W>
 <W gloss="Knudsen" id="228" lemma="Knudsen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|5:title|2:attr|2:{quant}">Knudsen</W>
 <W gloss="," id="229" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="71," id="230" lemma="71" msd="AC---U=--" tag="CD" in="-2:attr|-2:{quant}" out="1:pnct">71</W>
 <W gloss="," id="231" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W _noerror="&3a;nosubj&3a;" gloss="retired" id="232" lemma="pensionere" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="">pensioneret</W>
+<W _noerror=":nosubj:" gloss="retired" id="232" lemma="pensionere" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="">pensioneret</W>
 <W gloss="engineer" id="233" lemma="ingeniør" msd="NCCSU==I" tag="NN" in="-5:title" out="-1:attr">ingeniør</W>
 <W gloss="." id="234" lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>

@@ -46,7 +46,7 @@
 <W gloss="Gheorge" id="45" lemma="Gheorge" msd="NP--U==-" tag="NNP" in="1:namef" out="">Gheorge</W>
 <W gloss="Funar" id="46" lemma="Funar" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:namef">Funar</W>
 <W gloss="is" id="47" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:preds|3:conj|22:pnct">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="surprising" id="48" lemma="overraske" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-1:preds" out="">overraskende</W>
+<W _noerror=":nosubj:" gloss="surprising" id="48" lemma="overraske" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-1:preds" out="">overraskende</W>
 <W gloss="and" id="49" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="evidence" id="50" lemma="vidne" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-7:[subj]|-1:coord|1:pobj">vidner</W>
 <W gloss="of" id="51" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
@@ -117,7 +117,7 @@
 <W gloss="." id="116" lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="&amp;quot;" id="119" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
+<W gloss="&quot;" id="119" lemma="&quot;" msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
 <W gloss="If" id="120" lemma="hvis" msd="CS" tag="IN" in="6:cond" out="3:vobj">Hvis</W>
 <W gloss="not" id="121" lemma="ikke" msd="RGU" tag="RP" in="2:neg" out="">ikke</W>
 <W gloss="we" id="122" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">vi</W>
@@ -129,7 +129,7 @@
 <W gloss="Yugoslavian" id="128" lemma="jugoslavisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">jugoslaviske</W>
 <W gloss="condition" id="129" lemma="tilstand" msd="NCCPU==I" tag="NNP" in="-3:dobj" out="-1:attr">tilstande</W>
 <W gloss="," id="130" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="131" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W gloss="&quot;" id="131" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W gloss="says" id="132" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-6:qobj|1:subj|2:pnct">siger</W>
 <W gloss="Funar" id="133" lemma="Funar" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Funar</W>
 <W gloss="." id="134" lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>

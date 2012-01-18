@@ -64,9 +64,9 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">wire</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="12:subj" out="1:pnct|2:nobj|3:pnct|4:pnct|5:ref|8:rel">the</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">educators</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-5:ref|3:subj" out="">who</W>
 <W msd="SP" tag="IN" in="2:mod" out="1:nobj">in</W>

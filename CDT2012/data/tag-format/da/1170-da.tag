@@ -105,7 +105,7 @@
 <s>
 <W gloss="Stenbjerre" id="105" lemma="Stenbjerre" msd="NP--U==-" tag="NNP" in="1:subj|2:[subj]" out="">Stenbjerre</W>
 <W gloss="has" id="106" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|29:pnct">har</W>
-<W gloss="been" id="107" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|15:pnct|16:coord|11:time|17:&lt;add&3a;2&gt;|18:&lt;preds&3a;2&gt;|21:&lt;other&3a;2&gt;">været</W>
+<W gloss="been" id="107" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|15:pnct|16:coord|11:time|17:&lt;add:2&gt;|18:&lt;preds:2&gt;|21:&lt;other:2&gt;">været</W>
 <W gloss="the_partners" id="108" lemma="makkerpar" msd="NCNSU==D" tag="NN" in="-1:preds|5:{arg}" out="1:appr|4:attr|5:possd|6:attr">makkerparret</W>
 <W gloss="Lavesen" id="109" lemma="Lavesen" msd="NP--U==-" tag="NNP" in="-1:appr" out="2:conj">Lavesen</W>
 <W gloss="and" id="110" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -122,11 +122,11 @@
 <W gloss="June" id="121" lemma="juni" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">juni</W>
 <W gloss="," id="122" lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W gloss="and" id="123" lemma="og" msd="CC" tag="CC" in="-16:coord" out="">og</W>
-<W gloss="also" id="124" lemma="også" msd="RGU" tag="RP" in="-17:&lt;add&3a;2&gt;" out="">også</W>
-<W gloss="the" id="125" lemma="den" msd="PD-CSU--U" tag="DT" in="-18:&lt;preds&3a;2&gt;" out="1:attr|2:nobj">den</W>
+<W gloss="also" id="124" lemma="også" msd="RGU" tag="RP" in="-17:&lt;add:2&gt;" out="">også</W>
+<W gloss="the" id="125" lemma="den" msd="PD-CSU--U" tag="DT" in="-18:&lt;preds:2&gt;" out="1:attr|2:nobj">den</W>
 <W gloss="legal" id="126" lemma="juridisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">juridiske</W>
 <W gloss="architect" id="127" lemma="arkitekt" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">arkitekt</W>
-<W gloss="behind" id="128" lemma="bag" msd="SP" tag="IN" in="-21:&lt;other&3a;2&gt;" out="1:nobj">bag</W>
+<W gloss="behind" id="128" lemma="bag" msd="SP" tag="IN" in="-21:&lt;other:2&gt;" out="1:nobj">bag</W>
 <W gloss="the" id="129" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:ref|4:relr">den</W>
 <W gloss="solution" id="130" lemma="løsning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">løsning</W>
 <W gloss="that" id="131" lemma="som" msd="U=" tag="WDT" in="-2:ref|2:dobj" out="">som</W>
@@ -171,7 +171,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="173" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W gloss="&quot;" id="173" lemma="&quot;" msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W gloss="In" id="174" lemma="i" msd="SP" tag="IN" in="3:scene" out="1:nobj">I</W>
 <W gloss="this" id="175" lemma="denne" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">dette</W>
 <W gloss="case" id="176" lemma="tilfælde" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">tilfælde</W>
@@ -223,7 +223,7 @@
 <W gloss="old" id="222" lemma="gammel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">gamle</W>
 <W gloss="Hafnia" id="223" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="-2:nobj" out="1:nobj">Hafnia</W>
 <W gloss="Holding" id="224" lemma="Holding" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Holding</W>
-<W gloss="&amp;quot;" id="225" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-28:pnct" out="">"</W>
+<W gloss="&quot;" id="225" lemma="&quot;" msd="XP" tag="&quot;" in="-28:pnct" out="">"</W>
 <W gloss="," id="226" lemma="," msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W gloss="says" id="227" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-30:qobj|2:subj|4:conj|15:pnct">siger</W>
 <W gloss="Henrik" id="228" lemma="Henrik" msd="NP--U==-" tag="NNP" in="1:namef" out="">Henrik</W>

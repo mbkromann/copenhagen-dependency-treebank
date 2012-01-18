@@ -103,10 +103,10 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="2:nobj">with</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:pnct|1:conj|2:pnct">Bang</W>
 <W msd="NP=S" tag="NNP" in="-1:conj" out="">Bang</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pobj">just</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">under</W>
 <W msd="AC" tag="CD" in="2:nobj" out="-2:mod|1:nobj">three</W>
@@ -208,10 +208,10 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Park's</W>
 <W msd="ANS" tag="JJS" in="-2:attr" out="">latest</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">recording</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Moscow</W>
 <W msd="VAG" tag="VBG" in="-6:appr" out="-2:pnct|-1:subj|1:pnct">Calling</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="-13:conj" out="-8:subj">has</W>
 <W msd="VAP" tag="VBN" in="" out="-9:[subj]">proved</W>
 <W msd="PI" tag="DT" in="" out="">a</W>

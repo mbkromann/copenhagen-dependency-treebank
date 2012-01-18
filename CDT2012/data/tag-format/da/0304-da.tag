@@ -251,7 +251,7 @@
 <W gloss="was" id="250" lemma="blive" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-2:coord|3:preds|-1:subj">blev</W>
 <W gloss="so" id="251" lemma="så" msd="RGU" tag="RP" in="1:quant" out="4:nobj">så</W>
 <W gloss="well" id="252" lemma="god" msd="ANP---=-R" tag="JJ" in="1:man" out="-1:quant">godt</W>
-<W _noerror="&3a;nosubj&3a;" gloss="serviced" id="253" lemma="betjene" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="-1:man|1:pnct">betjent</W>
+<W _noerror=":nosubj:" gloss="serviced" id="253" lemma="betjene" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="-1:man|1:pnct">betjent</W>
 <W gloss="," id="254" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="255" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="3:vobj">at</W>
 <W gloss="he" id="256" lemma="han" msd="PP3CSN-NU" tag="PRP" in="2:subj|3:[subj]" out="">han</W>

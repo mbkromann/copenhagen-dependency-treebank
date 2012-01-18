@@ -40,9 +40,9 @@
 <W msd="PP" tag="PRP" in="1:focal" out="">himself</W>
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-3:[dobj]|-2:subj|1:preds|-1:focal">calls</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:nobj">a</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct|2:pobj">directive</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="3:vobj|10:conj">that</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">family</W>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]|4:[subj]" out="-1:mod">reunifications</W>
@@ -239,12 +239,12 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">family</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">reunification</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-1:mod">cases</W>
-<W msd="XP" tag="&3a;" in="-13:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-13:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="-14:appa" out="1:attr|2:attr|3:nobj|4:pnct">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">so-called</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">false</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">melody</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="VADA" tag="VBD" in="" out="-19:subj|1:mod|2:preds|9:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">precisely</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:nobj|4:mod">a</W>

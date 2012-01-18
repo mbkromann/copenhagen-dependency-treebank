@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|1:vobj|2:pnct|6:conj|18:pnct">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">sue</W>
@@ -36,7 +36,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:@dir|2:mod">look</W>
 <W msd="ANP" tag="RB" in="-1:@dir" out="">forward</W>
 <W msd="AC" tag="CD" in="-12:pnct#|-2:mod" out="">now.</W>
-<W msd="XP" tag="&amp;quot;" in="-13:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-13:pnct" out="">"</W>
 </s>
 <s>
 <W msd="VADR" tag="VBP" in="" out="1:subj|2:vobj|8:pnct">Do</W>
@@ -50,7 +50,7 @@
 <W msd="XP" tag="." in="-8:pnct" out="">?</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="2:attr" out="1:pnct">Now</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="" out="-3:pnct|-2:attr|1:preds|4:pnct">I'm</W>
@@ -96,7 +96,7 @@
 <W msd="ANP" tag="JJ" in="-1:mod" out="">empty</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">buildings</W>
 <W msd="ANP" tag="JJ" in="-13:pnct#|-5:preds" out="">around.</W>
-<W msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PT" tag="WRB" in="1:aobj" out="">How</W>
@@ -113,7 +113,7 @@
 <W msd="XP" tag="." in="-10:pnct" out="">?</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="" out="-1:pnct|1:attr|2:preds|3:pnct|7:conj|14:pnct">We're</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">bitter</W>
@@ -155,7 +155,7 @@
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">your</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">friends</W>
 <W msd="AC" tag="CD" in="-3:rel|-4:pnct#" out="-2:subj|-3:[pred]">are.</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 </s>
 <s>
 <W msd="NC=S" tag="NN" in="" out="1:mod">Loss</W>

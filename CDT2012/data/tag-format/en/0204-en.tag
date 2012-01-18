@@ -50,10 +50,10 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:attr|5:possd">a</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">rat's</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">genetic</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">growth</W>
 <W msd="NC=P" tag="NNS" in="-5:possd" out="-1:mod|-2:pnct|1:pnct">traits</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="U=" tag="TO" in="-10:pobj" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mouse</W>

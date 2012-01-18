@@ -216,7 +216,7 @@
 <W msd="ANP" tag="JJ" in="-2:attr" out="">environmental</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">education</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod">project</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="-6:appa" out="3:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Baltic</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="-1:mod">Sea</W>

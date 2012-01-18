@@ -38,7 +38,7 @@
 <s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Electronic</W>
 <W msd="NC=S" tag="NN" in="" out="-1:attr|1:pnct|3:conj">network</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-3:conj" out="-1:coord|1:pobj">network</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

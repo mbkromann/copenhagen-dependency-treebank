@@ -56,7 +56,7 @@
 <W gloss="." id="55" lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W _noerror="&3a;nosubj&3a;" gloss="Look" id="58" lemma="se" msd="VAM-=------" tag="VB" in="" out="1:pobj|5:pnct">Se</W>
+<W _noerror=":nosubj:" gloss="Look" id="58" lemma="se" msd="VAM-=------" tag="VB" in="" out="1:pobj|5:pnct">Se</W>
 <W gloss="at" id="59" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="the_newscasters" id="60" lemma="nyhedsoplæser" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:attr|1:{source}">nyhedsoplæserne</W>
 <W gloss="on" id="61" lemma="i" msd="SP" tag="IN" in="-1:attr|-1:{source}" out="1:nobj">i</W>

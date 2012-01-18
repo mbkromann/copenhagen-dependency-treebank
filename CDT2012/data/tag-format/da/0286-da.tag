@@ -92,7 +92,7 @@
 <W gloss="rotates" id="91" lemma="rotere" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:pnct|2:conj">roterer</W>
 <W gloss="," id="92" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="gets" id="93" lemma="blive" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-4:[subj]|2:pnct|1:preds">bliver</W>
-<W _noerror="&3a;nosubj&3a;" gloss="twisted" id="94" lemma="dreje" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">drejet</W>
+<W _noerror=":nosubj:" gloss="twisted" id="94" lemma="dreje" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">drejet</W>
 <W gloss="," id="95" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="will_be_cut_off" id="96" lemma="afskære" msd="VADR=----P-" tag="VBD" in="" out="-8:cond|1:subj|2:pnct">afskæres</W>
 <W gloss="blodtilføelsen" id="97" lemma="blodtilføelsen" msd="XX" note="blodtilførelsen" tag="FW" in="-1:subj" out="">blodtilføelsen</W>
@@ -199,12 +199,12 @@
 </p>
 <p>
 <s>
-<W _noerror="&3a;nosubj&3a;" gloss="Finding" id="201" lemma="finde" msd="VAM-=------" tag="VB" in="" out="1:dobj">Find</W>
+<W _noerror=":nosubj:" gloss="Finding" id="201" lemma="finde" msd="VAM-=------" tag="VB" in="" out="1:dobj">Find</W>
 <W gloss="some" id="202" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">nogle</W>
 <W gloss="new" id="203" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">nye</W>
 <W gloss="places" id="204" lemma="sted" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="1:other">steder</W>
 <W gloss="to" id="205" lemma="at" msd="U=" tag="TO" in="-1:other" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="make_love" id="206" lemma="elske" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">elske</W>
+<W _noerror=":nosubj:" gloss="make_love" id="206" lemma="elske" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">elske</W>
 </s>
 </p>
 <p>

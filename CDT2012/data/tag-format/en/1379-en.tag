@@ -62,7 +62,7 @@
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="18:qobj" out="-1:pnct|1:nobj|2:pnct|3:&lt;dobj&gt;|16:pnct|17:pnct">Above</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">all</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -80,7 +80,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">native</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">land</W>
 <W msd="XP" tag="," in="-16:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-17:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-17:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-18:qobj|1:subj|3:pnct|4:mod|19:pnct">said</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">minister</W>
@@ -137,11 +137,11 @@
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:appr">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">film</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-3:appr" out="-1:pnct|1:mod|3:pnct">Judgment</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Nuremberg</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-20:subj|1:pnct|2:time|16:qobj|32:mod|56:pnct">said</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-2:time" out="3:vobj">when</W>
@@ -154,10 +154,10 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">ground</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Dear</W>
 <W msd="NP=S" tag="NNP" in="2:voc" out="-1:mod|1:pnct">Marlene</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="JJ" in="-16:qobj" out="-4:pnct|-2:voc|1:@dir|2:pnct">welcome</W>
 <W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -172,7 +172,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ovations</W>
-<W msd="XP" tag="&amp;quot;" in="-8:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-8:pnct" out="">"</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="VAG" tag="VBG" in="-32:mod" out="2:dobj">addressing</W>
 <W msd="SP" tag="IN" in="1:mod" out="">over</W>

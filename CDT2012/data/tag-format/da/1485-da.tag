@@ -75,14 +75,14 @@
 <W gloss="way" id="74" lemma="måde" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">måde</W>
 <W gloss="was" id="75" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="19:pnct|-3:man|2:preds|1:subj">blev</W>
 <W gloss="news" id="76" lemma="nyhed" msd="NCCPU==I" tag="NNP" in="-1:subj" out="">nyheder</W>
-<W _noerror="&3a;nosubj&3a;" gloss="received" id="77" lemma="modtage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="7:pnct|9:conj|1:man|3:man">modtaget</W>
+<W _noerror=":nosubj:" gloss="received" id="77" lemma="modtage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="7:pnct|9:conj|1:man|3:man">modtaget</W>
 <W gloss="in" id="78" lemma="i" msd="SP" tag="IN" in="-1:man" out="1:nobj">i</W>
 <W gloss="community" id="79" lemma="fællesskab" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">fællesskab</W>
 <W gloss="in" id="80" lemma="i" msd="SP" tag="IN" in="-3:man" out="1:nobj">i</W>
 <W gloss="a" id="81" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">en</W>
 <W gloss="comradely" id="82" lemma="kammeratlig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">kammeratlig</W>
 <W gloss="spirit" id="83" lemma="ånd" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">ånd</W>
-<W gloss="&3a;" id="84" lemma="&3a;" msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
+<W gloss=":" id="84" lemma=":" msd="XP" tag=":" in="-7:pnct" out="">:</W>
 <W gloss="there" id="85" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
 <W gloss="was" id="86" lemma="være" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-1:expl|1:dobj">var</W>
 <W gloss="no" id="87" lemma="ingen" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">ingen</W>
@@ -231,8 +231,8 @@
 <W gloss="," id="230" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="completely" id="231" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
 <W gloss="overwrought" id="232" lemma="eksalteret" msd="ANP[CN]SU=IU" tag="JJ" in="-7:fpreds" out="-1:quant">eksalteret</W>
-<W gloss="&3a;" id="233" lemma="&3a;" msd="XP" tag="&3a;" in="-8:pnct" out="">:</W>
-<W gloss="&amp;quot;" id="234" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
+<W gloss=":" id="233" lemma=":" msd="XP" tag=":" in="-8:pnct" out="">:</W>
+<W gloss="&quot;" id="234" lemma="&quot;" msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
 <W gloss="it" id="235" lemma="det" msd="PP3NSU-NU" tag="PRP" in="6:voc" out="1:attr|2:nobj|3:pnct">Det</W>
 <W gloss="of_Germany" id="236" lemma="tysk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">tyske</W>
 <W gloss="People" id="237" lemma="folk" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">folk</W>
@@ -248,7 +248,7 @@
 <W gloss="!" id="247" lemma="!" msd="XP" tag="!" in="-6:pnct" out="">!</W>
 </s>
 <s>
-<W gloss="&amp;quot;" id="250" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
+<W gloss="&quot;" id="250" lemma="&quot;" msd="XP" tag="&quot;" in="-9:pnct" out="">"</W>
 <W gloss="In" id="251" lemma="i" msd="SP" tag="IN" in="7:time" out="2:nobj|3:pnct">I</W>
 <W gloss="old" id="252" lemma="gammel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">gamle</W>
 <W gloss="days" id="253" lemma="dag" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">dage</W>

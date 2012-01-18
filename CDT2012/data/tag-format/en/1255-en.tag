@@ -3,7 +3,7 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">job</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|1:preds|2:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">clear</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W msd="NC=S" tag="NN" in="3:dobj" out="5:pobj">pressure</W>
 <W msd="VADA" tag="VBD" in="" out="">was</W>
 <W msd="U=" tag="TO" in="" out="1:expl|1:vobj|22:pnct">to</W>

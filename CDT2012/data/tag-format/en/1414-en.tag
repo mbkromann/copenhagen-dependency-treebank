@@ -140,8 +140,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Holger</W>
 <W msd="NP=S" tag="NNP" in="-4:appa" out="-1:namef">Lindholt</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">:</W>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">:</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">This</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">decision</W>
 <W msd="VADR" tag="VBZ" in="-9:xpl" out="-3:pnct|-2:subj|1:mod|2:preds|4:mod|8:pnct">is</W>

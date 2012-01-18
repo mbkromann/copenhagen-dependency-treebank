@@ -157,13 +157,13 @@
 <W gloss="In_the_event" id="156" lemma="såfremt" msd="CS" tag="IN" in="5:cond" out="2:vobj">Såfremt</W>
 <W gloss="they" id="157" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
 <W gloss="are" id="158" lemma="blive" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="2:pnct|1:preds|-1:subj">bliver</W>
-<W _noerror="&3a;nosubj&3a;" gloss="blended" id="159" lemma="blande" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">blandet</W>
+<W _noerror=":nosubj:" gloss="blended" id="159" lemma="blande" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">blandet</W>
 <W gloss="," id="160" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="is" id="161" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-5:cond|1:subj|2:preds|6:pnct">er</W>
 <W gloss="it" id="162" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="2:nobj">det</W>
 <W gloss="impossible" id="163" lemma="umulig" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="">umuligt</W>
 <W gloss="to" id="164" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="determine" id="165" lemma="fastslå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">fastslå</W>
+<W _noerror=":nosubj:" gloss="determine" id="165" lemma="fastslå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">fastslå</W>
 <W gloss="the_point_at_which_there_is_security_against_freezing_temperatures" id="166" lemma="frostsikringspunkt" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">frostsikringspunktet</W>
 <W gloss="." id="167" lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
@@ -177,7 +177,7 @@
 <W gloss="ability" id="176" lemma="evne" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:pobj|-1:{arg}|1:{arg}">evne</W>
 <W gloss="in" id="177" lemma="til" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">til</W>
 <W gloss="that" id="178" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="fight" id="179" lemma="modvirke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:pnct|4:loc">modvirke</W>
+<W _noerror=":nosubj:" gloss="fight" id="179" lemma="modvirke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:pnct|4:loc">modvirke</W>
 <W gloss="corrosion" id="180" lemma="korrosion" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">korrosion</W>
 <W gloss="-" id="181" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="either" id="182" lemma="hverken" msd="RGU" tag="RP" in="3:neg" out="">hverken</W>
@@ -194,13 +194,13 @@
 <W gloss="diesel" id="193" lemma="diesel" msd="NCCSU==I" tag="NN" in="-1:preds" out="2:conj">diesel</W>
 <W gloss="or" id="194" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="gasoline" id="195" lemma="benzin" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">benzin</W>
-<W gloss="makes" id="196" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-7:subj|1:dobj|3:pnct|4:&lt;neg&3a;2&gt;|6:&lt;subj&3a;2&gt;">gør</W>
+<W gloss="makes" id="196" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-7:subj|1:dobj|3:pnct|4:&lt;neg:2&gt;|6:&lt;subj:2&gt;">gør</W>
 <W gloss="no" id="197" lemma="ingen" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">ingen</W>
 <W gloss="difference" id="198" lemma="forskel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forskel</W>
 <W gloss="," id="199" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="not" id="200" lemma="ej" msd="RGU" tag="RP" in="-4:&lt;neg&3a;2&gt;" out="1:other">ej</W>
+<W gloss="not" id="200" lemma="ej" msd="RGU" tag="RP" in="-4:&lt;neg:2&gt;" out="1:other">ej</W>
 <W gloss="nor" id="201" lemma="heller" msd="RGU" tag="RP" in="-1:other" out="">heller</W>
-<W gloss="on_the" id="202" lemma="om" msd="CS" tag="IN" in="-6:&lt;subj&3a;2&gt;" out="2:vobj">om</W>
+<W gloss="on_the" id="202" lemma="om" msd="CS" tag="IN" in="-6:&lt;subj:2&gt;" out="2:vobj">om</W>
 <W gloss="there" id="203" lemma="der" msd="U=" tag="WDT" in="1:expl|2:[expl]" out="">der</W>
 <W gloss="are" id="204" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:vobj">er</W>
 <W gloss="used" id="205" lemma="anvende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[expl]|1:dobj|2:loc">anvendt</W>
@@ -247,13 +247,13 @@
 <W gloss="arise" id="246" lemma="opstå" msd="VADR=----A-" tag="VBD" in="-4:relr" out="-1:subj|1:loc">opstår</W>
 <W gloss="in" id="247" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="diesel_fuel_tanks" id="248" lemma="dieselbrændstoftank" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">dieselbrændstoftanke</W>
-<W gloss="&3a;" id="249" lemma="&3a;" msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
+<W gloss=":" id="249" lemma=":" msd="XP" tag=":" in="-7:pnct" out="">:</W>
 <W gloss="in" id="250" lemma="i" msd="SP" tag="IN" in="4:elab" out="2:nobj">i</W>
 <W gloss="everyday" id="251" lemma="daglig" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">daglig</W>
 <W gloss="speech" id="252" lemma="tale" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">tale</W>
-<W gloss="&amp;quot;" id="253" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="253" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="diesel_plague" id="254" lemma="dieselpest" msd="NCCSU==I" tag="NN" in="-12:appa" out="-1:pnct|-4:elab|1:pnct">dieselpest</W>
-<W gloss="&amp;quot;" id="255" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="255" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="." id="256" lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 </p>

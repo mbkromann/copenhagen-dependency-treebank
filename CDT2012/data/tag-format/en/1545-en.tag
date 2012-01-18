@@ -149,7 +149,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">million</W>
-<W msd="XP" tag="&3a;" in="-15:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-15:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PI" tag="DT" in="-17:conj" out="-1:coord|1:attr|2:nobj|4:attr">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">financial</W>
@@ -218,5 +218,5 @@
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">four</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">categories</W>
-<W msd="XP" tag="&3a;" in="-14:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-14:pnct" out="">:</W>
 </s>

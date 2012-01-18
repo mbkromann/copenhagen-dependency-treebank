@@ -105,12 +105,12 @@
 <W gloss="over" id="104" lemma="over" msd="RGU" tag="RP" in="-3:goal" out="1:pobj">over</W>
 <W gloss="for" id="105" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="B.T." id="106" lemma="B.T." msd="NP--U==-" tag="NNP" in="-1:nobj" out="">B.T.</W>
-<W gloss="&3a;" id="107" lemma="&3a;" msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
+<W gloss=":" id="107" lemma=":" msd="XP" tag=":" in="-6:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="112" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="8:pnct" out="">"</W>
+<W gloss="&quot;" id="112" lemma="&quot;" msd="XP" tag="&quot;" in="8:pnct" out="">"</W>
 <W gloss="In" id="113" lemma="i" msd="SP" tag="IN" in="7:loc" out="1:nobj">I</W>
 <W gloss="the" id="114" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
 <W gloss="latest" id="115" lemma="sen" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">seneste</W>
@@ -144,13 +144,13 @@
 <W gloss="are" id="143" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|2:neg|3:preds|8:pnct|9:pnct|1:eval">er</W>
 <W gloss="of_course" id="144" lemma="naturligvis" msd="RGU" tag="RP" in="-1:eval" out="">naturligvis</W>
 <W gloss="not" id="145" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
-<W _noerror="&3a;nosubj&3a;" gloss="promotional" id="146" lemma="fremme" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-3:preds" out="1:pobj">fremmende</W>
+<W _noerror=":nosubj:" gloss="promotional" id="146" lemma="fremme" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-3:preds" out="1:pobj">fremmende</W>
 <W gloss="for" id="147" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="confidence" id="148" lemma="tillid" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">tillid</W>
 <W gloss="and" id="149" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="credibility." id="150" lemma="troværdighed" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">troværdighed</W>
 <W gloss="." id="151" lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="152" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
+<W gloss="&quot;" id="152" lemma="&quot;" msd="XP" tag="&quot;" in="-9:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -176,7 +176,7 @@
 <W gloss="second-lowest" id="175" lemma="næstlav" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">næstlaveste</W>
 <W gloss="level" id="176" lemma="niveau" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-2:{arg}">niveau</W>
 <W gloss="," id="177" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="&3a;" id="178" lemma="nemlig" msd="RGU" tag="RP" in="1:prg" out="">nemlig</W>
+<W gloss=":" id="178" lemma="nemlig" msd="RGU" tag="RP" in="1:prg" out="">nemlig</W>
 <W gloss="at" id="179" lemma="på" msd="SP" tag="IN" in="-6:appa" out="1:nobj|-1:prg">på</W>
 <W gloss="price" id="180" lemma="kurs" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">kurs</W>
 <W gloss="156" id="181" lemma="156" msd="AC---U=--" tag="CD" in="-1:nobj" out="">156</W>
@@ -198,7 +198,7 @@
 <s>
 <W gloss="Unibank" id="198" lemma="Unibank" msd="NP--U==-" tag="NNP" in="1:subj" out="">Unibank</W>
 <W gloss="has_been" id="199" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="10:pnct|1:preds|-1:subj">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="put" id="200" lemma="sætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@loc|3:agent">sat</W>
+<W _noerror=":nosubj:" gloss="put" id="200" lemma="sætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@loc|3:agent">sat</W>
 <W gloss="on" id="201" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="the_observation_list" id="202" lemma="observationsliste" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">observationslisten</W>
 <W gloss="of" id="203" lemma="af" msd="SP" tag="IN" in="-3:agent" out="1:nobj">af</W>

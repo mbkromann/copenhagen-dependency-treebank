@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">personnel</W>
 <W msd="VADA" tag="VBD" in="" out="-3:pnct|-2:subj|1:dobj|21:conj|30:pnct#|31:pnct">had</W>
@@ -33,7 +33,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">few</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">minutes</W>
 <W msd="ANP" tag="JJ" in="-30:pnct#|-3:possd" out="">delay.</W>
-<W msd="XP" tag="&amp;quot;" in="-31:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-31:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="5:subj" out="1:nobj">The</W>
@@ -67,7 +67,7 @@
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">moonlighting</W>
 <W msd="VADA" tag="VBD" in="43:qobj" out="-3:pnct|-2:subj|1:@loc|2:mod|12:pnct|15:conj|41:pnct|42:pnct">came</W>
@@ -112,7 +112,7 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">Næstved</W>
 <W msd="XP" tag="," in="-41:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-42:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-42:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-43:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Henrik</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Nørgaard</W>

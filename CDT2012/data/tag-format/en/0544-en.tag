@@ -17,11 +17,11 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:pnct|3:attr|4:attr|5:nobj|6:pnct">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">so-called</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-3:attr" out="">Japanese</W>
 <W msd="ANP" tag="JJ" in="-4:attr" out="">economic</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="">miracle</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
@@ -32,11 +32,11 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">explanation</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:pnct|2:attr|3:attr|4:nobj|5:pnct">the</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">Japanese</W>
 <W msd="ANP" tag="JJ" in="-3:attr" out="">economic</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="">miracle</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-12:subj|1:mod|2:vobj|37:pnct">has</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">particularly</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-14:[subj]|1:@loc">turned</W>
@@ -127,17 +127,17 @@
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|2:dobj">explain</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="-1:pnct|1:attr|2:nobj|3:pnct">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Japanese</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">miracle</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="XP" tag="." in="-45:pnct" out="">.</W>
 </s>
 <s>
 <W msd="NC=P" tag="NNS" in="" out="1:nobj|2:pnct">pages</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">63-74</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|5:list">VI</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>

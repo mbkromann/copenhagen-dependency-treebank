@@ -40,7 +40,7 @@
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">our</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">feet</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
 <W msd="VADR" tag="VBP" in="-8:conj" out="-1:subj|1:preds|21:conj">are</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>

@@ -61,7 +61,7 @@
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="5:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="4:mod" out="1:avobj|2:pnct">By</W>
 <W msd="ANP" tag="RB" in="-1:avobj" out="">now</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -92,7 +92,7 @@
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">harmless</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-10:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-11:qobj|2:subj|3:pnct|4:mod|27:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Niels</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Agdal</W>
@@ -142,13 +142,13 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">active</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">substances</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Acetylsalicylic</W>
 <W msd="NC=S" tag="NN" in="-7:modp" out="-1:mod|2:conj|3:pnct">acid</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Paracetamol</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="13:qobj" out="-1:pnct|3:conj|12:pnct">and</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">quantity</W>
@@ -161,7 +161,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">abuse</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-12:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-12:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="-28:conj" out="-13:qobj|2:subj">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Niels</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Agdal</W>
@@ -200,7 +200,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">tablets</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|1:vobj|2:pnct|6:conj|21:pnct">were</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]">sold</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="2:subj" out="1:nobj">several</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">pharmacies</W>

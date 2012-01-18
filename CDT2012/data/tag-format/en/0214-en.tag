@@ -53,14 +53,14 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Sheila</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|3:list|22:list|24:list|24:pnct#|25:list">Jasanoff</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Technological</W>
 <W msd="NP=S" tag="NNP" in="-3:list" out="-2:pnct|-1:mod|1:mod|5:pnct|6:xpl|16:pnct|17:pnct">Innovation</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Corporate</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">State</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="-6:xpl" out="1:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pobj">Case</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -71,7 +71,7 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="1:pobj">Republic</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Germany</W>
-<W msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 <W msd="XP" tag="," in="-17:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">Research</W>
 <W msd="NP=S" tag="NNP" in="-22:list" out="-1:nobj|1:list|1:pnct#">Policy</W>

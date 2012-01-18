@@ -93,7 +93,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">of</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">sense</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">illusions</W>
-<W msd="XP" tag="&3a;" in="-34:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-34:pnct" out="">-</W>
 <W msd="CS" tag="IN" in="2:mod" out="">since</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-62:vobj" out="-2:mod|-1:subj|-61:cond|1:preds">is</W>
@@ -115,7 +115,7 @@
 <W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:vobj|3:pnct">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:pobj">looking</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="-4:[nobj]">for</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">;</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">;</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
 <W msd="ANP" tag="RB" in="-20:mod" out="-1:mod|1:pobj">away</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
@@ -159,8 +159,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">omnipotence</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-5:conj" out="-1:coord">desire</W>
-<W msd="XP" tag="&3a;" in="-18:pnct" out="">;</W>
-<W msd="XP" tag="&3a;" in="-19:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-18:pnct" out="">;</W>
+<W msd="XP" tag=":" in="-19:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="1:mod">and</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">thus</W>
 <W msd="NC=S" tag="NN" in="-22:conj" out="-2:coord|1:nobj">anything</W>
@@ -232,9 +232,9 @@
 <W msd="ANP" tag="RB" in="1:time" out="">now</W>
 <W msd="VADR" tag="VBZ" in="-15:conj" out="-2:subj|-3:coord|-1:time|1:dobj|3:vobj|5:mod">sees</W>
 <W msd="PP" tag="PRP" in="-1:dobj|2:[dobj]" out="">it</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-2:[dobj]|-1:pnct|1:pnct">realized</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-5:mod" out="4:nobj">in</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">ever</W>
 <W msd="ANC" tag="JJR" in="1:quant" out="-1:mod">more</W>

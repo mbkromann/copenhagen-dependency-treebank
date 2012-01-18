@@ -15,7 +15,7 @@
 <W msd="ANP" tag="RB" in="-2:time" out="">again</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1996</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-6:mod" out="-1:pnct|1:nobj|45:pnct">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">basis</W>
@@ -61,7 +61,7 @@
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">that</W>
 <W msd="ANP" tag="JJ" in="-53:pnct#|-1:nobj" out="">point.</W>
-<W msd="XP" tag="&amp;quot;" in="-45:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-45:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="10:subj|18:[subj]" out="1:nobj|4:ref|5:rel">The</W>
@@ -96,10 +96,10 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">revision</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1996</W>
-<W msd="XP" tag="&3a;" in="-14:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-14:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="5:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="4:subj" out="3:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">WEU</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">member</W>
@@ -151,7 +151,7 @@
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Atlantic</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Alliance</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">defence</W>
-<W msd="XP" tag="&amp;quot;" in="-47:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-47:pnct" out="">"</W>
 <W msd="XP" tag="(" in="1:pnct" out="">(</W>
 <W msd="NP=S" tag="NNP" in="-6:appa" out="-1:pnct|1:pnct">NATO</W>
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
@@ -167,7 +167,7 @@
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|-6:mod|1:vobj|31:pnct">is</W>
 <W msd="VADA" tag="VBD" in="-1:vobj" out="-2:[subj]">said</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="4:vobj">that</W>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]|5:[subj]" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">WEU</W>
 <W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:pnct|-2:subj|1:preds">is</W>
@@ -229,6 +229,6 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">its</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">operational</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">role</W>
-<W msd="XP" tag="&amp;quot;" in="-23:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-23:pnct" out="">"</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>

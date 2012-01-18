@@ -1,9 +1,9 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="3:subj" out="49:coref">I</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">no</W>
 <W msd="ANP" tag="RB" in="1:time" out="-1:neg">longer</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|-1:time|-4:pnct|2:vobj|14:pnct|45:*CONTR&3a;sbj/nevertheless/ATTR">believe</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|-1:time|-4:pnct|2:vobj|14:pnct|45:*CONTR:sbj/nevertheless/ATTR">believe</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:expl|1:dobj">are</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="3:nobj|4:ref|5:relr|16:coref|154:coref-var">any</W>
@@ -47,8 +47,8 @@
 <W msd="SP" tag="IN" in="-1:attr|-1:{const}#" out="1:nobj">of</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Ministers</W>
 <W msd="XP" tag="," in="-23:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-24:pnct" out="">"</W>
-<W msd="VADR" tag="VBZ" in="-45:*CONTR&3a;sbj/nevertheless/ATTR" out="-25:qobj|1:subj|2:pnct|10:CONST&3a;exem/among_other_things">says</W>
+<W msd="XP" tag="&quot;" in="-24:pnct" out="">"</W>
+<W msd="VADR" tag="VBZ" in="-45:*CONTR:sbj/nevertheless/ATTR" out="-25:qobj|1:subj|2:pnct|10:CONST:exem/among_other_things">says</W>
 <W msd="NP=S" tag="NNP" in="-1:subj|-49:coref" out="8:coref">Duetoft</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -58,12 +58,12 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">things</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="-8:coref|1:subj" out="117:coref">he</W>
-<W msd="VADR" tag="VBZ" in="-10:CONST&3a;exem/among_other_things" out="-5:exem|-1:subj|1:pobj|29:pnct|117:CONJ&3a;add/(and)">refers</W>
+<W msd="VADR" tag="VBZ" in="-10:CONST:exem/among_other_things" out="-5:exem|-1:subj|1:pobj|29:pnct|117:CONJ:add/(and)">refers</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj|1:[subj]|1:{agent}" out="1:possd">B.T.'s</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="-1:[subj]|-1:{agent}|1:pobj.dobj|1:{patient}">revelation</W>
 <W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">of</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|3:ref|11:relr|83:coref-var|85:CONJ&3a;elab">an</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|3:ref|11:relr|83:coref-var|85:CONJ:elab">an</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{source}#" out="">EC</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr|-1:{source}#">Directive</W>
 <W msd="SP" tag="IN" in="-3:ref|8:subj" out="">that</W>
@@ -74,7 +74,7 @@
 <W msd="ANP" tag="JJ" in="1:aobj|1:{arg}#" out="">public</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:aobj|-1:{arg}#|19:coref-iden">health</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-11:relr" out="-8:subj|-6:cause|2:dobj|3:pobj|18:AGENTIVE&3a;reas/(since)">forbids</W>
+<W msd="VADR" tag="VBZ" in="-11:relr" out="-8:subj|-6:cause|2:dobj|3:pobj|18:AGENTIVE:reas/(since)">forbids</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">private</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj|2:[subj]" out="-1:attr">slaughterhouses</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="1:vobj">from</W>
@@ -92,7 +92,7 @@
 <s>
 <W msd="ANP" tag="JJ" in="1:aobj|1:{arg}#" out="">Public</W>
 <W msd="NC=S" tag="NN" in="-19:coref-iden|1:subj" out="-1:aobj|-1:{arg}#">health</W>
-<W msd="VADR" tag="VBZ" in="-18:AGENTIVE&3a;reas/(since)" out="-1:subj|1:dobj|4:cond|14:pnct|27:CONTR&3a;dir/(but)">suffers</W>
+<W msd="VADR" tag="VBZ" in="-18:AGENTIVE:reas/(since)" out="-1:subj|1:dobj|4:cond|14:pnct|27:CONTR:dir/(but)">suffers</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">no</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">harm</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">as</W>
@@ -119,7 +119,7 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj|-8:assoc-agentive" out="">slaughterhouse</W>
-<W msd="VA" tag="MD" in="-27:CONTR&3a;dir/(but)" out="-10:cond|-2:subj|1:vobj|10:pnct|21:TELIC&3a;cons.dir/thus">must</W>
+<W msd="VA" tag="MD" in="-27:CONTR:dir/(but)" out="-10:cond|-2:subj|1:vobj|10:pnct|21:TELIC:cons.dir/thus">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">have</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:attr|3:nobj|4:resem">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">same</W>
@@ -140,7 +140,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="-1:{quant}|1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr|1:{source}" out="">Danish</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:{source}">slaughterhouses</W>
-<W msd="VA" tag="MD" in="-21:TELIC&3a;cons.dir/thus" out="-8:coord|-6:cons|-4:subj|1:vobj|3:pnct">will</W>
+<W msd="VA" tag="MD" in="-21:TELIC:cons.dir/thus" out="-8:coord|-6:cons|-4:subj|1:vobj|3:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:pred">be</W>
 <W msd="VAP" tag="VBN" in="-1:pred" out="">closed</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -148,7 +148,7 @@
 <s>
 <W msd="PD" tag="DT" in="-83:coref-var|2:subj" out="1:nobj|20:coref">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Directive</W>
-<W msd="VADA" tag="VBD" in="-85:CONJ&3a;elab" out="-2:subj|1:preds|2:time|7:pnct|15:CONTR&3a;sbj/however">was</W>
+<W msd="VADA" tag="VBD" in="-85:CONJ:elab" out="-2:subj|1:preds|2:time|7:pnct|15:CONTR:sbj/however">was</W>
 <W msd="VAP" tag="VBN" in="-1:preds" out="">ratified</W>
 <W msd="SP" tag="IN" in="-2:time" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr|1:{time}">July</W>
@@ -163,7 +163,7 @@
 <W msd="PD" tag="DT" in="-154:coref-var|3:subj|5:[subj]" out="2:nobj|27:assoc-const">the</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{goal}#" out="">Market</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr|-1:{goal}#">Committee</W>
-<W msd="VADA" tag="VBD" in="-15:CONTR&3a;sbj/however" out="-5:conc|-3:subj|1:neg|2:vobj|5:time|8:pnct">did</W>
+<W msd="VADA" tag="VBD" in="-15:CONTR:sbj/however" out="-5:conc|-3:subj|1:neg|2:vobj|5:time|8:pnct">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">discover</W>
 <W msd="PO" tag="PRP$" in="-1:dobj|-20:coref|1:{arg}" out="1:possd">its</W>
@@ -175,7 +175,7 @@
 </s>
 <s>
 <W msd="ANP" tag="JJ" in="-117:coref|1:subj" out="3:coref">Duetoft</W>
-<W msd="NC=P" tag="NNS" in="-117:CONJ&3a;add/(and)" out="-1:subj|1:part|2:dobj|7:loc|20:pnct|40:CONJ&3a;elab">sets</W>
+<W msd="NC=P" tag="NNS" in="-117:CONJ:add/(and)" out="-1:subj|1:part|2:dobj|7:loc|20:pnct|40:CONJ:elab">sets</W>
 <W msd="SP" tag="IN" in="-1:part" out="">out</W>
 <W msd="PO" tag="PRP$" in="-2:dobj|-3:coref|2:{agent}" out="1:attr|2:nobj|22:coref">his</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">controversial</W>
@@ -215,7 +215,7 @@
 <W msd="NP=S" tag="NNP" in="1:aobj|1:{arg}#" out="">European</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:aobj|-1:{arg}#">Parliament</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-40:CONJ&3a;elab" out="-16:subj|1:vobj|16:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="-40:CONJ:elab" out="-16:subj|1:vobj|16:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-17:[subj]|1:dobj|3:accom">written</W>
 <W msd="PD" tag="DT" in="-1:dobj|-34:coref-var" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">book</W>

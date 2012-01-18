@@ -57,7 +57,7 @@
 <s>
 <W msd="PI" tag="DT" in="" out="1:nobj|2:pnct|4:mod|12:pnct">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">crime</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="4:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj|4:conj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr">a</W>
@@ -84,13 +84,13 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Arthur</W>
 <W msd="NP=S" tag="NNP" in="9:subj" out="-1:namef|1:possd|3:appr">Miller's</W>
 <W msd="VAF" tag="VB" in="-1:possd" out="">play</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PI" tag="DT" in="-3:appr" out="-1:pnct|1:nobj|2:mod|5:pnct">A</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">View</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bridge</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-9:subj|1:preds|5:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|3:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">modern</W>
@@ -135,9 +135,9 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="4:vobj">that</W>
 <W msd="PO" tag="PRP$" in="3:subj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">daughter</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="-4:vobj" out="-1:pnct|-3:subj|1:pnct|2:dobj|3:mod">deserts</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="-2:dobj" out="">him</W>
 <W msd="U=" tag="TO" in="-3:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">marry</W>
@@ -215,10 +215,10 @@
 <s>
 <W msd="PI" tag="DT" in="" out="1:nobj|2:pnct|3:appa|6:ref|7:rel|10:pnct">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">drama</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="PI" tag="DT" in="-3:appa" out="1:nobj|2:pnct">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">duel</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="PT" tag="WDT" in="-6:ref|1:subj" out="">that</W>
 <W msd="VADR" tag="VBZ" in="-7:rel" out="-1:subj|1:pobj">ends</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>

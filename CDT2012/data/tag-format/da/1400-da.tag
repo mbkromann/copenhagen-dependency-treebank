@@ -156,7 +156,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="158" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="158" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="I" id="159" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
 <W gloss="visited" id="160" lemma="besøge" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:dobj|15:pnct|3:time">besøgte</W>
 <W gloss="him" id="161" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">ham</W>
@@ -199,7 +199,7 @@
 <W gloss="and" id="198" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="foodstuffs" id="199" lemma="fødevare" msd="NCCPU==I" tag="NNP" in="-4:conj" out="-1:coord">fødevarer</W>
 <W gloss="," id="200" lemma="," msd="XP" tag="," in="-21:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="201" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-22:pnct" out="">"</W>
+<W gloss="&quot;" id="201" lemma="&quot;" msd="XP" tag="&quot;" in="-22:pnct" out="">"</W>
 <W gloss="says" id="202" lemma="oplyse" msd="VADR=----A-" tag="VBD" in="" out="-23:qobj|1:subj|6:pobj|8:pnct">oplyser</W>
 <W gloss="the" id="203" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj|4:appr">den</W>
 <W gloss="Danish" id="204" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">danske</W>
@@ -213,7 +213,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="215" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="215" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="Among_other_things" id="216" lemma="blandt_andet" msd="RGU" tag="RP" in="1:exem" out="">Blandt_andet</W>
 <W gloss="asks" id="217" lemma="bede" msd="VADR=----A-" tag="VBD" in="" out="-2:pnct|-1:exem|1:subj|2:dobj|3:vobj|13:pnct|21:pnct|14:cause">beder</W>
 <W gloss="he" id="218" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
@@ -247,7 +247,7 @@
 <W gloss="become" id="246" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:preds">blevet</W>
 <W gloss="more_difficult" id="247" lemma="svær" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:preds" out="">sværere</W>
 <W gloss="by" id="248" lemma="af" msd="SP" note="at" tag="IN" in="-3:nobj" out="1:vobj">af</W>
-<W _noerror="&3a;nosubj&3a;" gloss="get" id="249" lemma="skaffe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">skaffe</W>
+<W _noerror=":nosubj:" gloss="get" id="249" lemma="skaffe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">skaffe</W>
 <W gloss="food" id="250" lemma="mad" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">mad</W>
 <W gloss="," id="251" lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="and" id="252" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
@@ -265,7 +265,7 @@
 <W gloss="and" id="264" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="gas" id="265" lemma="benzin" msd="NCCSU==I" tag="NN" in="-4:conj" out="-1:coord">benzin</W>
 <W gloss="," id="266" lemma="," msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="267" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-23:pnct" out="">"</W>
+<W gloss="&quot;" id="267" lemma="&quot;" msd="XP" tag="&quot;" in="-23:pnct" out="">"</W>
 <W gloss="adds" id="268" lemma="tilføje" msd="VADR=----A-" tag="VBD" in="" out="-24:qobj|1:subj|2:pnct">tilføjer</W>
 <W gloss="the_diplomat" id="269" lemma="diplomat" msd="NCCSU==D" tag="NN" in="-1:subj" out="">diplomaten</W>
 <W gloss="." id="270" lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>

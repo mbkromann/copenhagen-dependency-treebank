@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&amp;quot;" id="43" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="43" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="We" id="44" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Vi</W>
 <W gloss="have" id="45" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:vobj|7:pnct|8:cause|13:pnct|1:time">har</W>
 <W gloss="just" id="46" lemma="netop" msd="RGU" tag="RP" in="-1:time" out="">netop</W>
@@ -54,7 +54,7 @@
 <W gloss="because" id="53" lemma="fordi" msd="CS" tag="IN" in="-8:cause" out="2:vobj">fordi</W>
 <W gloss="she" id="54" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">hun</W>
 <W gloss="is" id="55" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="trained" id="56" lemma="uddanne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:dobj">uddannet</W>
+<W _noerror=":nosubj:" gloss="trained" id="56" lemma="uddanne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:dobj">uddannet</W>
 <W gloss="psychologist" id="57" lemma="psykolog" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">psykolog</W>
 <W gloss="." id="58" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
@@ -210,14 +210,14 @@
 <W gloss="later" id="209" lemma="efter" msd="RGU" tag="RP" in="1:time" out="-2:@time">efter</W>
 <W gloss="was" id="210" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:time|2:preds|1:subj|4:other">blev</W>
 <W gloss="she" id="211" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
-<W _noerror="&3a;nosubj&3a;" gloss="sounded" id="212" lemma="ringe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:part">ringet</W>
+<W _noerror=":nosubj:" gloss="sounded" id="212" lemma="ringe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:part">ringet</W>
 <W gloss="up" id="213" lemma="op" msd="RGU" tag="RP" in="-1:part" out="">op</W>
 <W gloss="with" id="214" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj">med</W>
 <W gloss="the" id="215" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|6:xpl">det</W>
 <W gloss="happy" id="216" lemma="glad" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">glade</W>
 <W gloss="message" id="217" lemma="budskab" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">budskab</W>
-<W gloss="&3a;" id="218" lemma="&3a;" msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
-<W gloss="&amp;quot;" id="219" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss=":" id="218" lemma=":" msd="XP" tag=":" in="-3:pnct" out="">:</W>
+<W gloss="&quot;" id="219" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="I" id="220" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
 <W gloss="have" id="221" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:xpl" out="-1:subj|-2:pnct|1:dobj|12:pnct">har</W>
 <W gloss="the" id="222" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj|6:pnct|7:appa|4:attr">den</W>
@@ -226,7 +226,7 @@
 <W gloss="man" id="225" lemma="mand" msd="NCCSU==I" tag="NN" in="-3:nobj" out="1:{goal}">mand</W>
 <W gloss="for" id="226" lemma="til" msd="SP" tag="IN" in="-4:attr|-1:{goal}" out="1:nobj">til</W>
 <W gloss="you" id="227" lemma="du" msd="PP2CSU-[YN]U" tag="PRP" in="-1:nobj" out="">dig</W>
-<W gloss="&3a;" id="228" lemma="&3a;" msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
+<W gloss=":" id="228" lemma=":" msd="XP" tag=":" in="-6:pnct" out="">:</W>
 <W gloss="A" id="229" lemma="en" msd="PI-CSU--U" tag="DT" in="-7:appa" out="1:nobj|2:attr">En</W>
 <W gloss="bank_director" id="230" lemma="bankdirektør" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:{source}">bankdirektør</W>
 <W gloss="in" id="231" lemma="i" msd="SP" tag="IN" in="-2:attr|-1:{source}" out="1:nobj">i</W>
@@ -248,7 +248,7 @@
 <W gloss="his" id="247" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-2:dobj|2:{arg}" out="1:attr|2:possd">sin</W>
 <W gloss="former" id="248" lemma="tidlig" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">tidligere</W>
 <W gloss="wife" id="249" lemma="kone" msd="NCCSU==I" tag="NN" in="-2:possd" out="-2:{arg}">kone</W>
-<W gloss="&amp;quot;" id="250" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W gloss="&quot;" id="250" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W gloss="." id="251" lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 </p>

@@ -63,7 +63,7 @@
 <s>
 <W gloss="at_noon" id="63" lemma="klokke" msd="NCCSU==D" tag="NN" in="-7:time" out="2:conj">KL</W>
 <W gloss="=" id="64" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
-<W gloss="5_&3a;_00pm" id="65" lemma="17" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">17</W>
+<W gloss="5_:_00pm" id="65" lemma="17" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">17</W>
 <W gloss="READER" id="66" lemma="oplæser" msd="NCCSU==I" tag="NN" in="-10:conj" out="1:coord">OPLÆSER</W>
 <W gloss="=" id="67" lemma="=" msd="XS" tag="SYM" in="-1:coord" out="">=</W>
 </s>
@@ -141,7 +141,7 @@
 <s>
 <W gloss="GROSS" id="141" lemma="brutto" msd="RGU" tag="RP" in="" out="2:conj">BRUTTO</W>
 <W gloss="=" id="142" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
-<W gloss="00_&3a;_18" id="143" lemma="00&3a;18" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">00:18</W>
+<W gloss="00_:_18" id="143" lemma="00:18" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">00:18</W>
 </s>
 </p>
 </div1>
@@ -170,7 +170,7 @@
 <W gloss="TO_BE_BROADCAST" id="169" lemma="udsende" msd="VADR=----P-" tag="VBD" in="" out="1:time|4:conj">UDSENDES</W>
 <W gloss="at_noon" id="170" lemma="klokke" msd="NCCSU==D" tag="NN" in="-1:time" out="2:conj">KL</W>
 <W gloss="=" id="171" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
-<W gloss="4_&3a;_30pm" id="172" lemma="1630" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">1630</W>
+<W gloss="4_:_30pm" id="172" lemma="1630" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">1630</W>
 <W gloss="READER" id="173" lemma="oplæser" msd="NCCSU==I" tag="NN" in="-4:conj" out="2:conj">OPLÆSER</W>
 <W gloss="=" id="174" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
 <W gloss="CEG" id="175" lemma="CEG" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">CEG</W>
@@ -214,7 +214,7 @@
 <W gloss="is" id="213" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds">er</W>
 <W gloss="about_time" id="214" lemma="på_tide" msd="RGU" tag="RP" in="-1:preds" out="">på_tide</W>
 <W gloss="to" id="215" lemma="at" msd="U=" tag="TO" in="-3:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="ask" id="216" lemma="bede" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:pobj">bede</W>
+<W _noerror=":nosubj:" gloss="ask" id="216" lemma="bede" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:pobj">bede</W>
 <W gloss="the_US" id="217" lemma="USA" msd="NP--U==-" tag="NNP" in="-1:dobj|3:[subj]" out="">USA</W>
 <W gloss="on_the" id="218" lemma="om" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">om</W>
 <W gloss="to" id="219" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -229,7 +229,7 @@
 <s>
 <W gloss="GROSS" id="229" lemma="brutto" msd="RGU" tag="RP" in="" out="2:conj">BRUTTO</W>
 <W gloss="=" id="230" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
-<W gloss="00_&3a;_14" id="231" lemma="00&3a;14" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">00:14</W>
+<W gloss="00_:_14" id="231" lemma="00:14" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">00:14</W>
 </s>
 </p>
 </div1>

@@ -54,7 +54,7 @@
 <W gloss="her" id="53" lemma="sin" msd="PO3[CN]PUSYU" tag="PRP$" in="-1:nobj|1:{const}" out="1:possd">sine</W>
 <W gloss="eyes" id="54" lemma="øje" msd="NCNPU==I" tag="NNP" in="-1:possd" out="-1:{const}">øjne</W>
 <W gloss="inflexible" id="55" lemma="stiv" msd="ANP---=-R" tag="JJ" in="1:man" out="">stift</W>
-<W _noerror="&3a;nosubj&3a;" gloss="directed" id="56" lemma="rette" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:preds" out="-1:man|1:pobj">rettet</W>
+<W _noerror=":nosubj:" gloss="directed" id="56" lemma="rette" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:preds" out="-1:man|1:pobj">rettet</W>
 <W gloss="towards" id="57" lemma="mod" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mod</W>
 <W gloss="the_area" id="58" lemma="område" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:attr|1:{loc}|3:attr|3:{loc}">området</W>
 <W gloss="around" id="59" lemma="omkring" msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">omkring</W>
@@ -134,7 +134,7 @@
 <W gloss="with" id="133" lemma="med" msd="SP" tag="IN" in="-6:conj" out="-1:coord|1:nobj|3:preds">med</W>
 <W gloss="a" id="134" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
 <W gloss="towel" id="135" lemma="håndklæde" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">håndklæde</W>
-<W _noerror="&3a;nosubj&3a;" gloss="slung" id="136" lemma="slynge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="1:@dir">slynget</W>
+<W _noerror=":nosubj:" gloss="slung" id="136" lemma="slynge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="1:@dir">slynget</W>
 <W gloss="around" id="137" lemma="rundt" msd="RGU" tag="RP" in="-1:@dir" out="1:other">rundt</W>
 <W gloss="on_the" id="138" lemma="om" msd="SP" tag="IN" in="-1:other" out="1:nobj">om</W>
 <W gloss="neck" id="139" lemma="nakke" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">nakken</W>

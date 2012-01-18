@@ -3,7 +3,7 @@
 <W msd="NP=S" tag="NNP" in="" out="-1:mod">AFRAID</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
 <W msd="VADR" tag="VBZ" in="9:qobj" out="-2:pnct|-1:subj|2:preds|7:pnct|8:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:pobj">so</W>
@@ -13,7 +13,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">incomprehensible</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-8:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-8:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-9:qobj|1:subj|12:pnct">says</W>
 <W msd="PI" tag="DT" in="-1:subj" out="1:nobj|4:pnct|5:ref|6:rel">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">mother</W>
@@ -29,7 +29,7 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="6:pnct" out="">"</W>
 <W msd="PO" tag="PRP$" in="5:subj" out="1:attr|2:possd|3:mod">My</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">own</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">son</W>
@@ -98,7 +98,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">same</W>
 <W msd="AC" tag="CD" in="-2:nobj|-18:pnct#" out="">reason.</W>
-<W msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">It</W>
@@ -144,7 +144,7 @@
 <W msd="ANP" tag="RB" in="-4:lobj" out="1:mod|3:pnct|10:conj">away</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="U=" tag="EX" in="-1:nobj" out="">there</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="6:coord" out="">and</W>
 <W msd="PI" tag="DT" in="3:numm" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
@@ -190,7 +190,7 @@
 <W msd="VADA" tag="VBD" in="-4:rel" out="-2:mod|-1:subj|2:vobj|1:epi">was</W>
 <W msd="ANP" tag="RB" in="-1:epi" out="">presumably</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]">strangled</W>
-<W msd="XP" tag="&3a;" in="-13:pnct" out="">;</W>
+<W msd="XP" tag=":" in="-13:pnct" out="">;</W>
 <W msd="CC" tag="CC" in="8:coord" out="">but</W>
 <W msd="ANP" tag="RB" in="1:tobj" out="">shortly</W>
 <W msd="CS" tag="IN" in="6:mod" out="-1:tobj|1:pnct">after</W>

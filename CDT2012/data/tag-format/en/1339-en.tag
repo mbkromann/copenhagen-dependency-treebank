@@ -142,12 +142,12 @@
 <W msd="PD" tag="DT" in="-29:conj" out="-1:coord|1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">farcical</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pnct|3:conj|7:pobj">exploitation</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="4:pnct">or</W>
 <W msd="NC=S" tag="NN" in="-3:conj" out="-1:coord|1:pobj">lack</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">same</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-7:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj|4:appr">the</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">hired</W>

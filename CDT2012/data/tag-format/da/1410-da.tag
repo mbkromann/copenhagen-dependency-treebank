@@ -248,17 +248,17 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="250" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="250" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="you" id="251" lemma="du" msd="PP2CSN-NU" tag="PRP" in="1:subj" out="">Du</W>
 <W gloss="are" id="252" lemma="være" msd="VADR=----A-" tag="VBD" in="4:qobj" out="-1:subj|-2:pnct|1:preds|2:pnct|3:pnct">er</W>
 <W gloss="welcome" id="253" lemma="velkommen" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">velkommen</W>
 <W gloss="," id="254" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="255" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W gloss="&quot;" id="255" lemma="&quot;" msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W gloss="says" id="256" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-4:qobj|1:subj|3:pnct|4:pnct|2:man">siger</W>
 <W gloss="he" id="257" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="obligingly" id="258" lemma="imødekommende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:man" out="">imødekommende</W>
 <W gloss="." id="259" lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="260" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W gloss="&quot;" id="260" lemma="&quot;" msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -275,7 +275,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="277" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="277" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="Denmark" id="278" lemma="Danmark" msd="NP--U==-" tag="NNP" in="1:subj" out="">Danmark</W>
 <W gloss="has" id="279" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:dobj|4:pnct">har</W>
 <W gloss="a" id="280" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">et</W>

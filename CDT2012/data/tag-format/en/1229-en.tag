@@ -102,7 +102,7 @@
 <W msd="NP=S" tag="NNP" in="-4:conj" out="">Tesanj</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-6:conj" out="-1:coord">Travnik</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="-8:modp" out="1:&lt;pred&gt;">all</W>
 <W msd="NC=P" tag="NNS" in="-1:&lt;pred&gt;" out="1:mod">cities</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>

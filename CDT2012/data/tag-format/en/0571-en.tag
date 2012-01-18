@@ -88,7 +88,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|5:list|6:pnct">Dir.</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Michael</W>
@@ -137,9 +137,9 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Sweden</W>
 <W msd="AC" tag="CD" in="-2:list" out="-1:mod">2</W>
 <W msd="AC" tag="CD" in="-3:list" out="1:pnct|2:mod">10</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="1:pnct|2:mod">45-0</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">10</W>
 </s>
 <s>

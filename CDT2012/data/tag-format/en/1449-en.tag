@@ -167,11 +167,11 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Violence</W>
 <W msd="NC=S" tag="NN" in="5:dobj" out="-1:mod|-2:pnct|1:pnct|2:pnct">tourism</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|2:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:dobj|-2:[subj]">called</W>

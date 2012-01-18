@@ -81,7 +81,7 @@
 <W gloss="his" id="80" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj|1:{arg}" out="1:possd">hans</W>
 <W gloss="mother" id="81" lemma="mor" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{arg}">mor</W>
 <W gloss="was" id="82" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-8:subj|4:pnct|1:preds">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="wiped_out" id="83" lemma="udslette" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:loc">udslettet</W>
+<W _noerror=":nosubj:" gloss="wiped_out" id="83" lemma="udslette" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:loc">udslettet</W>
 <W gloss="at" id="84" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Auschwitz" id="85" lemma="Auschwitz" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Auschwitz</W>
 <W gloss="." id="86" lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -152,7 +152,7 @@
 <W gloss="Sætter-Lassen" id="151" lemma="Sætter-Lassen" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Sætter-Lassen</W>
 <W gloss="plays" id="152" lemma="spille" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|13:conj|33:pnct">spiller</W>
 <W gloss="the" id="153" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">den</W>
-<W _noerror="&3a;nosubj&3a;" gloss="tormented" id="154" lemma="lide" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">lidende</W>
+<W _noerror=":nosubj:" gloss="tormented" id="154" lemma="lide" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">lidende</W>
 <W gloss="Goldberg" id="155" lemma="Goldberg" msd="NP--U==-" tag="NNP" in="-2:nobj" out="">Goldberg</W>
 <W gloss="and" id="156" lemma="og" msd="CC" tag="CC" in="9:coord" out="">og</W>
 <W gloss="in" id="157" lemma="i" msd="SP" tag="IN" in="8:other" out="1:nobj">i</W>
@@ -205,7 +205,7 @@
 <W gloss="the" id="204" lemma="den" msd="PD-CSU--U" tag="DT" in="-11:conj" out="-1:coord|1:attr|2:pnct|3:attr|5:nobj">den</W>
 <W gloss="newly-qualified" id="205" lemma="nyuddannet" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">nyuddannede</W>
 <W gloss="," id="206" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W _noerror="&3a;nosubj&3a;" gloss="debuting" id="207" lemma="debutere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-3:attr" out="">debuterende</W>
+<W _noerror=":nosubj:" gloss="debuting" id="207" lemma="debutere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-3:attr" out="">debuterende</W>
 <W gloss="Rikke" id="208" lemma="Rikke" msd="NP--U==-" tag="NNP" in="1:namef" out="">Rikke</W>
 <W gloss="Weissfeld" id="209" lemma="Weissfeld" msd="NP--U==-" tag="NNP" in="-5:nobj" out="-1:namef">Weissfeld</W>
 <W gloss="." id="210" lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>

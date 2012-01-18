@@ -52,7 +52,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:mod|3:pnct|5:dobj">called</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">PC</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">home</W>
 <W msd="NC=S" tag="NN" in="-5:dobj" out="-1:mod|1:pnct|3:conj|6:conj">imprisonment</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -86,7 +86,7 @@
 <W msd="SP" tag="IN" in="" out="1:nobj|3:pnct|4:xpl">In</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">words</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="NC=P" tag="NNS" in="-4:xpl" out="1:attr|3:preds|4:nobj|7:pnct">it's</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
@@ -140,12 +140,12 @@
 <W msd="NC=S" tag="NN" in="-1:preds" out="">white</W>
 <W msd="VADR" tag="VBZ" in="" out="-3:subj|1:preds|14:conj|23:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pnct|2:modp">bad</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="-2:modp" out="1:mod|4:pnct">PI</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:aobj">for</W>
 <W msd="ANP" tag="RB" in="1:man" out="">politically</W>
 <W msd="ANP" tag="JJ" in="-2:aobj" out="-1:man">incorrect</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="6:coord" out="">but</W>
 <W msd="U=" tag="TO" in="5:subj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:preds">be</W>

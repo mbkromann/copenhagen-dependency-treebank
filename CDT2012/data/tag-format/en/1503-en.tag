@@ -51,7 +51,7 @@
 <W msd="VADR" tag="VBZ" in="" out="-3:subj|-5:cause|1:add|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">relevant</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">:</W>
 </s>
 <s>
 <W msd="VADR" tag="VBZ" in="-9:xpl" out="1:subj|2:preds|22:pnct">Is</W>
@@ -98,9 +98,9 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">bruises</W>
 <W msd="SP" tag="IN" in="-4:preds" out="1:nobj">from</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:pnct|2:possd|3:pnct">their</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="2:pobj|7:mod">clash</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:possd">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Glasgow</W>
@@ -145,7 +145,7 @@
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">It</W>
 <W msd="VADR" tag="VBZ" in="20:qobj" out="-2:pnct|-1:subj|1:vobj|19:pnct">is</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:vobj">being</W>
@@ -166,7 +166,7 @@
 <W msd="NC=P" tag="NNS" in="-6:conj" out="-1:coord">spectators</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">optimal</W>
 <W msd="NC=P" tag="NNS" in="-9:dobj" out="-1:attr">conditions</W>
-<W msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="" out="-20:qobj|2:subj|3:pnct">states</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Claus</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Nielsen</W>

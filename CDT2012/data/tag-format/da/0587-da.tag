@@ -238,7 +238,7 @@
 <W gloss="other" id="237" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">andre</W>
 <W gloss="Danish" id="238" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">danske</W>
 <W gloss="schools" id="239" lemma="skole" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">skoler</W>
-<W _noerror="&3a;nosubj&3a;" gloss="invited" id="240" lemma="invitere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-9:preds" out="1:pobj">inviteret</W>
+<W _noerror=":nosubj:" gloss="invited" id="240" lemma="invitere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-9:preds" out="1:pobj">inviteret</W>
 <W gloss="in" id="241" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" id="242" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="be" id="243" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds|-11:[subj]">være</W>
@@ -247,7 +247,7 @@
 <W gloss="an" id="246" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|5:appa">et</W>
 <W gloss="international" id="247" lemma="international" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">internationalt</W>
 <W gloss="environmental_education_project" id="248" lemma="miljøundervisningsprojekt" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">miljøundervisningsprojekt</W>
-<W gloss="&3a;" id="249" lemma="&3a;" msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W gloss=":" id="249" lemma=":" msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W gloss="Baltic" id="250" lemma="Baltic" msd="NP--U==-" tag="NNP" in="1:attr" out="">Baltic</W>
 <W gloss="Sea" id="251" lemma="Sea" msd="NP--U==-" tag="NNP" in="-5:appa" out="-1:attr|1:nobj">Sea</W>
 <W gloss="Project" id="252" lemma="Project" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Project</W>

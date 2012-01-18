@@ -48,12 +48,12 @@
 <W gloss="home" id="47" lemma="hjem" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">hjemmet</W>
 <W gloss="was" id="48" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="13:pnct|-4:loc|2:preds|1:subj">blev</W>
 <W gloss="Munni" id="49" lemma="Munni" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Munni</W>
-<W _noerror="&3a;nosubj&3a;" gloss="hit" id="50" lemma="ramme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:dir|2:agent">ramt</W>
+<W _noerror=":nosubj:" gloss="hit" id="50" lemma="ramme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:dir|2:agent">ramt</W>
 <W gloss="from_behind" id="51" lemma="bagfra" msd="RGU" tag="RP" in="-1:dir" out="">bagfra</W>
 <W gloss="by" id="52" lemma="af" msd="SP" tag="IN" in="-2:agent" out="1:nobj">af</W>
 <W gloss="a" id="53" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:attr">en</W>
 <W gloss="passenger_car" id="54" lemma="personbil" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">personbil</W>
-<W _noerror="&3a;nosubj&3a;" gloss="driven" id="55" lemma="føre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:attr" out="1:agent">ført</W>
+<W _noerror=":nosubj:" gloss="driven" id="55" lemma="føre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:attr" out="1:agent">ført</W>
 <W gloss="by" id="56" lemma="af" msd="SP" tag="IN" in="-1:agent" out="1:nobj">af</W>
 <W gloss="a" id="57" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj">en</W>
 <W gloss="30-year_old" id="58" lemma="30-årig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">30-årig</W>
@@ -98,13 +98,13 @@
 <W gloss="," id="97" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" id="98" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj|7:[subj]" out="">der</W>
 <W gloss="was" id="99" lemma="blive" msd="VADA=----A-" tag="VBD" in="-3:relelab" out="-1:subj|6:conj|1:preds">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="slung" id="100" lemma="slynge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@loc">slynget</W>
+<W _noerror=":nosubj:" gloss="slung" id="100" lemma="slynge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@loc">slynget</W>
 <W gloss="up" id="101" lemma="op" msd="RGU" tag="RP" in="-1:@loc" out="1:other">op</W>
 <W gloss="against" id="102" lemma="mod" msd="SP" tag="IN" in="-1:other" out="1:nobj">mod</W>
 <W gloss="the_windshield" id="103" lemma="forrude" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">forruden</W>
 <W gloss="and" id="104" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="was" id="105" lemma="være" msd="VADA=----A-" tag="VBD" in="-6:conj" out="-7:[subj]|-1:coord|1:preds">var</W>
-<W _noerror="&3a;nosubj&3a;" gloss="killed" id="106" lemma="dræbe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:man">dræbt</W>
+<W _noerror=":nosubj:" gloss="killed" id="106" lemma="dræbe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:man">dræbt</W>
 <W gloss="on" id="107" lemma="på" msd="SP" tag="IN" in="-1:man" out="1:nobj">på</W>
 <W gloss="the_spot" id="108" lemma="sted" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">stedet</W>
 <W gloss="." id="109" lemma="." msd="XP" tag="." in="-25:pnct" out="">.</W>
@@ -135,7 +135,7 @@
 <W gloss="could" id="134" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-2:relr" out="-1:subj|1:vobj|-2:[man]">kunne</W>
 <W gloss="overlooked" id="135" lemma="overse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|4:loc">overse</W>
 <W gloss="the" id="136" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="2:nobj|1:attr">den</W>
-<W _noerror="&3a;nosubj&3a;" gloss="biking" id="137" lemma="cykle" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">cyklende</W>
+<W _noerror=":nosubj:" gloss="biking" id="137" lemma="cykle" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">cyklende</W>
 <W gloss="girl" id="138" lemma="pige" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">pige</W>
 <W gloss="on" id="139" lemma="på" msd="SP" tag="IN" in="-4:loc" out="1:nobj">på</W>
 <W gloss="the" id="140" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">det</W>
@@ -204,7 +204,7 @@
 <W gloss="had" id="203" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="1:subj|2:vobj|35:pnct|-2:time">var</W>
 <W gloss="Munni" id="204" lemma="Munni" msd="NP--U==-" tag="NNP" in="-1:subj|1:[subj]" out="">Munni</W>
 <W gloss="been" id="205" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:preds">blevet</W>
-<W _noerror="&3a;nosubj&3a;" gloss="overtaken" id="206" lemma="overhale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">overhalet</W>
+<W _noerror=":nosubj:" gloss="overtaken" id="206" lemma="overhale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">overhalet</W>
 <W gloss="by" id="207" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_school_principal" id="208" lemma="skoleinspektør" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj|3:pnct|4:ref|1:{arg}|9:relelab">skoleinspektøren</W>
 <W gloss="at" id="209" lemma="på" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">på</W>
@@ -213,7 +213,7 @@
 <W gloss="who" id="212" lemma="som" msd="U=" tag="WDT" in="-4:ref|5:subj" out="">som</W>
 <W gloss="in" id="213" lemma="i" msd="SP" tag="IN" in="4:scene" out="1:nobj">i</W>
 <W gloss="a" id="214" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="2:nobj|1:attr">en</W>
-<W _noerror="&3a;nosubj&3a;" gloss="passing" id="215" lemma="henkaste" msd="VAPA=S[CN]IA-U" tag="VBN" in="-1:attr" out="">henkastet</W>
+<W _noerror=":nosubj:" gloss="passing" id="215" lemma="henkaste" msd="VAPA=S[CN]IA-U" tag="VBN" in="-1:attr" out="">henkastet</W>
 <W gloss="comment" id="216" lemma="bemærkning" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">bemærkning</W>
 <W gloss="said" id="217" lemma="sige" msd="VADA=----A-" tag="VBD" in="-9:relelab" out="-5:subj|1:pnct|2:dobj|-4:scene">sagde</W>
 <W gloss="," id="218" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

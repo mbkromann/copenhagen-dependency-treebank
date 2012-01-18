@@ -45,10 +45,10 @@
 <W msd="PT" tag="WDT" in="-4:ref|1:subj" out="">that</W>
 <W msd="VADR" tag="VBZ" in="-5:rel" out="-1:subj|4:dobj|6:mod">produces</W>
 <W msd="ANP" tag="JJ" in="3:attr" out="">sharp</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">killer</W>
 <W msd="NC=P" tag="NNS" in="-4:dobj" out="-1:mod|-2:pnct|-3:attr|1:pnct">crystals</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-6:mod" out="">into</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">tobacco</W>

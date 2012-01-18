@@ -59,7 +59,7 @@
 </s>
 <s>
 <W gloss="they" id="60" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="4:time" out="1:attr|2:nobj">De</W>
-<W _noerror="&3a;nosubj&3a;" gloss="the_following" id="61" lemma="følge" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">følgende</W>
+<W _noerror=":nosubj:" gloss="the_following" id="61" lemma="følge" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">følgende</W>
 <W gloss="10" id="62" lemma="10" msd="AC---U=--" tag="CD" in="-2:nobj" out="1:nobj">10</W>
 <W gloss="the_year" id="63" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="have_been" id="64" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-4:time|1:expl|2:vobj|11:pnct">er</W>
@@ -81,20 +81,20 @@
 <W gloss="from" id="80" lemma="fra" msd="SP" tag="IN" in="-1:attr|-1:{time}" out="1:nobj">fra</W>
 <W gloss="1972-82" id="81" lemma="1972-82" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1972-82</W>
 <W gloss="are" id="82" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="38:pnct|1:preds|-3:subj">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="estimated" id="83" lemma="skønne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:man">skønnet</W>
+<W _noerror=":nosubj:" gloss="estimated" id="83" lemma="skønne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:man">skønnet</W>
 <W gloss="on" id="84" lemma="på" msd="SP" tag="IN" in="-1:man" out="1:nobj#">på</W>
 <W gloss="basis" id="85" lemma="baggrund" msd="NCCSU==I" tag="NN" in="-1:nobj#" out="1:pobj#">baggrund</W>
 <W gloss="of" id="86" lemma="af" msd="SP" tag="IN" in="-1:pobj#" out="2:nobj">af</W>
 <W gloss="Sheila" id="87" lemma="Sheila" msd="NP--U==-" tag="NNP" in="1:namef" out="">Sheila</W>
 <W gloss="Jasanoff" id="88" lemma="Jasanoff" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:namef|3:other|22:other|25:other|27:other">Jasanoff</W>
-<W gloss="&amp;quot;" id="89" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="89" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="Technological" id="90" lemma="Tecnological" msd="XX" tag="FW" in="1:attr" out="">Tecnological</W>
 <W gloss="Innovation" id="91" lemma="innovation" msd="XF" tag="FW" in="-3:other" out="-2:pnct|-1:attr|5:pnct|6:xpl|16:pnct|17:pnct|1:attr|1:{loc}">innovation</W>
 <W gloss="in" id="92" lemma="in" msd="XF" tag="FW" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
 <W gloss="a" id="93" lemma="a" msd="XF" tag="FW" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W gloss="Corporate" id="94" lemma="corporate" msd="XF" tag="FW" in="-1:attr" out="">corporate</W>
 <W gloss="State" id="95" lemma="state" msd="XF" tag="FW" in="-2:nobj" out="">state</W>
-<W gloss="&3a;" id="96" lemma="&3a;" msd="XP" tag="&3a;" in="-5:pnct" out="">:</W>
+<W gloss=":" id="96" lemma=":" msd="XP" tag=":" in="-5:pnct" out="">:</W>
 <W gloss="The" id="97" lemma="The" msd="NP--U==-" tag="NNP" in="-6:xpl" out="1:nobj">The</W>
 <W gloss="Case" id="98" lemma="case" msd="XF" tag="FW" in="-1:nobj" out="1:pobj|1:{arg}">case</W>
 <W gloss="of" id="99" lemma="of" msd="XF" tag="FW" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
@@ -105,7 +105,7 @@
 <W gloss="Republic" id="104" lemma="Republic" msd="NP--U==-" tag="NNP" in="-2:nobj" out="1:pobj">Republic</W>
 <W gloss="of" id="105" lemma="of" msd="XF" tag="FW" in="-1:pobj" out="1:nobj">of</W>
 <W gloss="Germany" id="106" lemma="Germany" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Germany</W>
-<W gloss="&amp;quot;" id="107" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
+<W gloss="&quot;" id="107" lemma="&quot;" msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 <W gloss="," id="108" lemma="," msd="XP" tag="," in="-17:pnct" out="">,</W>
 <W gloss="Research" id="109" lemma="Research" msd="NP--U==-" tag="NNP" in="1:nobj" out="">Research</W>
 <W gloss="Policy" id="110" lemma="Policy" msd="NP--U==-" tag="NNP" in="-22:other" out="-1:nobj|2:pnct|1:other">Policy</W>
@@ -181,13 +181,13 @@
 <W gloss="German" id="180" lemma="tysk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">tyske</W>
 <W gloss="support_programmes" id="181" lemma="støtteprogram" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">støtteprogrammer</W>
 <W gloss="seem" id="182" lemma="synes" msd="VEDR=----A-" tag="VBN" in="-5:vobj" out="21:pnct|1:preds|-3:subj">synes</W>
-<W _noerror="&3a;nosubj&3a;" gloss="drawn_up" id="183" lemma="udforme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="2:conj|3:man">udformet</W>
+<W _noerror=":nosubj:" gloss="drawn_up" id="183" lemma="udforme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="2:conj|3:man">udformet</W>
 <W gloss="and" id="184" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W _noerror="&3a;nosubj&3a;" gloss="distributed" id="185" lemma="fordele" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:conj" out="-1:coord">fordelt</W>
+<W _noerror=":nosubj:" gloss="distributed" id="185" lemma="fordele" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:conj" out="-1:coord">fordelt</W>
 <W gloss="in" id="186" lemma="i" msd="SP" tag="IN" in="-3:man" out="1:nobj">i</W>
 <W gloss="a" id="187" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">et</W>
 <W gloss="relatively" id="188" lemma="forholdsvis" msd="ANP---=-R" tag="JJ" in="1:quant" out="">forholdsvis</W>
-<W _noerror="&3a;nosubj&3a;" gloss="closed" id="189" lemma="lukke" msd="VAPA=S[CN]IA-U" tag="VBN" in="-2:attr" out="-1:quant">lukket</W>
+<W _noerror=":nosubj:" gloss="closed" id="189" lemma="lukke" msd="VAPA=S[CN]IA-U" tag="VBN" in="-2:attr" out="-1:quant">lukket</W>
 <W gloss="interplay" id="190" lemma="samspil" msd="NCNSU==I" tag="NN" in="-3:nobj" out="1:pobj|1:{arg}">samspil</W>
 <W gloss="between" id="191" lemma="mellem" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">mellem</W>
 <W gloss="Research" id="192" lemma="forsknings-" msd="XX" tag="FW" in="-1:nobj" out="2:conj|3:pnct|7:conj|10:conj">forsknings-</W>
@@ -223,7 +223,7 @@
 <s>
 <W gloss="It" id="223" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
 <W gloss="was" id="224" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="19:pnct|-1:subj|1:preds|4:time">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="put_into_motion" id="225" lemma="igangsætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:inst">igangsat</W>
+<W _noerror=":nosubj:" gloss="put_into_motion" id="225" lemma="igangsætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:inst">igangsat</W>
 <W gloss="by" id="226" lemma="ved" msd="SP" tag="IN" in="-1:inst" out="1:nobj">ved</W>
 <W gloss="parliamentary_resolution" id="227" lemma="folketingsbeslutning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">folketingsbeslutning</W>
 <W gloss="after" id="228" lemma="efter" msd="SP" tag="IN" in="-4:time" out="1:nobj">efter</W>
@@ -233,7 +233,7 @@
 <W gloss="that" id="232" lemma="som" msd="U=" tag="WDT" in="-3:ref|2:subj" out="">som</W>
 <W gloss="originally" id="233" lemma="oprindelig" msd="ANP---=-R" tag="JJ" in="1:time" out="">oprindelig</W>
 <W gloss="was" id="234" lemma="blive" msd="VADA=----A-" tag="VBD" in="-5:relr" out="-2:subj|-1:time|1:preds">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="introduced" id="235" lemma="fremsætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:time|4:pobj">fremsat</W>
+<W _noerror=":nosubj:" gloss="introduced" id="235" lemma="fremsætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:time|4:pobj">fremsat</W>
 <W gloss="in" id="236" lemma="i" msd="SP" tag="IN" in="-1:time" out="1:nobj">i</W>
 <W gloss="November" id="237" lemma="november" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">november</W>
 <W gloss="1986" id="238" lemma="1986" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1986</W>

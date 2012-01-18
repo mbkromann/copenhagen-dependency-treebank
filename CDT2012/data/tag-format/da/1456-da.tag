@@ -47,19 +47,19 @@
 <W gloss="in" id="46" lemma="i" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">i</W>
 <W gloss="the_article" id="47" lemma="artikel" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">artiklen</W>
 <W gloss="(" id="48" lemma="(" msd="XP" tag="(" in="5:pnct" out="">(</W>
-<W gloss="&amp;quot;" id="49" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W gloss="&quot;" id="49" lemma="&quot;" msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W gloss="As" id="50" lemma="som" msd="U=" tag="WDT" in="3:fpredo" out="1:nobj">Som</W>
 <W gloss="a" id="51" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
 <W gloss="curiosity" id="52" lemma="kuriosum" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kuriosum</W>
-<W _noerror="&3a;nosubj&3a;" gloss="may" id="53" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-8:appa" out="-4:pnct|-5:pnct|1:vobj|2:pnct|3:pnct|4:pnct|-3:fpredo">kan</W>
-<W _noerror="&3a;nosubj&3a;" gloss="be_mentioned" id="54" lemma="nævne" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="">nævnes</W>
+<W _noerror=":nosubj:" gloss="may" id="53" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-8:appa" out="-4:pnct|-5:pnct|1:vobj|2:pnct|3:pnct|4:pnct|-3:fpredo">kan</W>
+<W _noerror=":nosubj:" gloss="be_mentioned" id="54" lemma="nævne" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="">nævnes</W>
 <W gloss="..." id="55" lemma="..." msd="XP" tag="..." in="-2:pnct" out="">...</W>
-<W gloss="&amp;quot;" id="56" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W gloss="&quot;" id="56" lemma="&quot;" msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W gloss=")" id="57" lemma=")" msd="XP" tag=")" in="-4:pnct" out="">)</W>
 <W gloss="is" id="58" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-13:subj|-15:pnct|2:preds|3:pnct|14:xpl">er</W>
 <W gloss="downright" id="59" lemma="regulær" msd="ANPNSU=IU" tag="JJ" in="1:attr" out="">regulært</W>
 <W gloss="quote_out_of_context" id="60" lemma="citatfusk" msd="NCNSU==I" tag="NN" in="-2:preds" out="-1:attr">citatfusk</W>
-<W gloss="&3a;" id="61" lemma="&3a;" msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W gloss=":" id="61" lemma=":" msd="XP" tag=":" in="-3:pnct" out="">:</W>
 </s>
 </p>
 <p>
@@ -71,7 +71,7 @@
 <W gloss="Totalenterprise" id="70" lemma="Totalenterprise" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Totalenterprise</W>
 <W gloss="a/s" id="71" lemma="aktieselskab" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">A/S</W>
 <W gloss="is_stated" id="72" lemma="anføre" msd="VADR=----P-" tag="VBD" in="-14:xpl" out="14:subj|-6:loc">anføres</W>
-<W gloss="&amp;quot;" id="73" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="13:pnct" out="">"</W>
+<W gloss="&quot;" id="73" lemma="&quot;" msd="XP" tag="&quot;" in="13:pnct" out="">"</W>
 <W gloss="The" id="74" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="12:subj|15:[subj]" out="1:attr|2:attr|5:nobj|6:pnct|7:ref|8:relr">De</W>
 <W gloss="difficult" id="75" lemma="vanskelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">vanskelige</W>
 <W gloss="domestic" id="76" lemma="indenlandsk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="2:conj">indenlandske</W>
@@ -98,7 +98,7 @@
 <W gloss="as" id="97" lemma="som" msd="U=" tag="WDT" in="1:coord" out="-2:correl">som</W>
 <W gloss="England." id="98" lemma="England" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">England</W>
 <W gloss="." id="99" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="100" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
+<W gloss="&quot;" id="100" lemma="&quot;" msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
 </s>
 <s>
 <W gloss="Nowhere" id="103" lemma="intetsteds" msd="RGU" tag="RP" in="9:loc" out="1:pnct|3:elab">Intetsteds</W>
@@ -113,7 +113,7 @@
 <W gloss="are_expressed" id="112" lemma="udtrykke" msd="VADR=----P-" tag="VBD" in="" out="1:subj|13:pnct|-9:loc">udtrykkes</W>
 <W gloss="expectations" id="113" lemma="forventning" msd="NCCPU==I" tag="NNP" in="-1:subj" out="1:pobj.dobj|1:{patient}">forventninger</W>
 <W gloss="for" id="114" lemma="om" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">om</W>
-<W gloss="&amp;quot;" id="115" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="115" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="a" id="116" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:nobj" out="-1:pnct|1:attr|2:nobj|8:pnct|5:attr">en</W>
 <W gloss="general" id="117" lemma="generel" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">generel</W>
 <W gloss="increase" id="118" lemma="stigning" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj|1:{arg}|3:{time}">stigning</W>
@@ -122,7 +122,7 @@
 <W gloss="for" id="121" lemma="for" msd="SP" tag="IN" in="-5:attr|-3:{time}" out="2:nobj">for</W>
 <W gloss="this" id="122" lemma="indeværende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">indeværende</W>
 <W gloss="year." id="123" lemma="år" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">år</W>
-<W gloss="&amp;quot;" id="124" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-8:pnct" out="">"</W>
+<W gloss="&quot;" id="124" lemma="&quot;" msd="XP" tag="&quot;" in="-8:pnct" out="">"</W>
 <W gloss="." id="125" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 </p>
@@ -135,7 +135,7 @@
 <W gloss="told" id="134" lemma="oplyse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|5:time|1:event">oplyst</W>
 <W gloss="at" id="135" lemma="på" msd="SP" tag="IN" in="-1:event" out="1:nobj">på</W>
 <W gloss="the" id="136" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="2:nobj|1:attr">det</W>
-<W _noerror="&3a;nosubj&3a;" gloss="held" id="137" lemma="afholde" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">afholdte</W>
+<W _noerror=":nosubj:" gloss="held" id="137" lemma="afholde" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">afholdte</W>
 <W gloss="press_conference" id="138" lemma="pressemøde" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">pressemøde</W>
 <W gloss="Monday" id="139" lemma="mandag" msd="NCCSU==I" tag="NN" in="-5:time" out="1:nobj">mandag</W>
 <W gloss="the" id="140" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
@@ -169,7 +169,7 @@
 <W gloss="conclusions" id="168" lemma="konklusion" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="1:{source}">konklusioner</W>
 <W gloss="in" id="169" lemma="i" msd="SP" tag="IN" in="-4:attr|-1:{source}" out="1:nobj">i</W>
 <W gloss="their" id="170" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:nobj|2:{agent}" out="2:possd|1:attr">Deres</W>
-<W _noerror="&3a;nosubj&3a;" gloss="above-referenced" id="171" lemma="nævne" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">nævnte</W>
+<W _noerror=":nosubj:" gloss="above-referenced" id="171" lemma="nævne" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">nævnte</W>
 <W gloss="article" id="172" lemma="artikel" msd="NCCSU==I" tag="NN" in="-2:possd" out="-2:{agent}">artikel</W>
 <W gloss="have" id="173" lemma="have" msd="VAF-=----A-" tag="VB" in="-9:vobj" out="-8:[subj]|1:vobj">have</W>
 <W gloss="been" id="174" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-9:[subj]|1:vobj">været</W>
@@ -220,7 +220,7 @@
 <W gloss="by" id="219" lemma="ved" msd="SP" tag="IN" in="-5:man" out="1:nobj|6:conj">ved</W>
 <W gloss="participation" id="220" lemma="deltagelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj.pobj|1:{event}">deltagelse</W>
 <W gloss="at" id="221" lemma="på" msd="SP" tag="IN" in="-1:pobj.pobj|-1:{event}" out="2:nobj">på</W>
-<W _noerror="&3a;nosubj&3a;" gloss="previously_mentioned" id="222" lemma="nævne" msd="VAPA=S[CN]DA-U" tag="VBN" in="1:attr" out="">nævnte</W>
+<W _noerror=":nosubj:" gloss="previously_mentioned" id="222" lemma="nævne" msd="VAPA=S[CN]DA-U" tag="VBN" in="1:attr" out="">nævnte</W>
 <W gloss="press_conference" id="223" lemma="pressemøde" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">pressemøde</W>
 <W gloss="or" id="224" lemma="eller" msd="CC" tag="CC" in="1:coord" out="-6:correl">eller</W>
 <W gloss="by" id="225" lemma="gennem" msd="SP" tag="IN" in="-6:conj" out="-1:coord|1:nobj">gennem</W>

@@ -30,14 +30,14 @@
 <W msd="ANP" tag="JJ" in="-2:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">breakthrough</W>
 <W msd="NP=S" tag="NNP" in="-4:possd" out="-1:mod">LP</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-6:appr" out="-1:pnct|1:nobj|2:mod|6:pnct">No</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Fuel</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="1:pobj">Left</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">For</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Pilgrims</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="-31:conj" out="-13:subj|-14:coord|1:preds|8:pnct">was</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-15:[subj]|1:vobj">be</W>
@@ -99,7 +99,7 @@
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="8:qobj" out="-1:pnct|2:conj|6:pnct|7:pnct">But</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBZ" in="-2:conj" out="-1:expl|1:dobj|2:mod">is</W>
@@ -107,7 +107,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">repairs</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-8:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jesper</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Binzer</W>
@@ -131,14 +131,14 @@
 <s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Wonderful</W>
 <W msd="NC=S" tag="NN" in="" out="-1:attr">world</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="7:subj|8:[subj]" out="-1:pnct|1:nobj|2:mod|6:pnct">No</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Fuel</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="1:pobj">Left</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">For</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Pilgrims</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-7:subj|1:vobj|11:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]|5:dobj|9:mod">sold</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
@@ -156,7 +156,7 @@
 <W msd="ANP" tag="RB" in="" out="1:mod|3:pnct|4:appa|7:time|28:pnct">Mostly</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-4:appa" out="1:nobj|2:pnct">100,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">copies</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -184,7 +184,7 @@
 <W msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
 <W msd="VADA" tag="VBD" in="48:qobj" out="-2:pnct|-1:subj|1:preds|4:mod|37:mod|46:pnct|47:pnct">were</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
@@ -233,7 +233,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">radio</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">stations</W>
 <W msd="XP" tag="," in="-46:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-47:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-47:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-48:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jesper</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Binzer</W>

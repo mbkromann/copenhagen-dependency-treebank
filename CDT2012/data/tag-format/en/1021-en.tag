@@ -150,9 +150,9 @@
 <W msd="SP" tag="IN" in="-13:mod" out="1:nobj">with</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">70</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">percent</W>
-<W msd="CC" tag="CC" in="-16:coord" out="2:&lt;pobj&3a;nobj&gt;|13:pnct|15:&lt;mod&gt;">and</W>
+<W msd="CC" tag="CC" in="-16:coord" out="2:&lt;pobj:nobj&gt;|13:pnct|15:&lt;mod&gt;">and</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Kosan</W>
-<W msd="NC=P" tag="NNS" in="-2:&lt;pobj&3a;nobj&gt;" out="-1:mod|2:appr">directors</W>
+<W msd="NC=P" tag="NNS" in="-2:&lt;pobj:nobj&gt;" out="-1:mod|2:appr">directors</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Mogens</W>
 <W msd="NP=S" tag="NNP" in="-2:appr" out="-1:namef|1:pnct|3:conj|8:conj">Petersen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -199,13 +199,13 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="2:nobj|6:appa">four</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Kosan</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">directors</W>
-<W msd="XP" tag="&3a;" in="3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="3:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:attr">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">fourth</W>
 <W msd="VADA" tag="VBD" in="-6:appa" out="-3:pnct|-2:subj|2:preds|3:pnct">was</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Robert</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="-1:namef">Storm</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="-13:dobj" out="1:attr|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
 <W msd="NC=S" tag="NN" in="1:nobj" out="">management</W>

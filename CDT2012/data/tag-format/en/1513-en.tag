@@ -15,7 +15,7 @@
 <W msd="VADA" tag="VBD" in="-2:rel" out="-1:subj|1:vobj">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|-3:[mod]|1:preds">elected</W>
 <W msd="AC" tag="CD" in="-13:pnct#|-1:preds" out="">chairman.</W>
-<W msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:mod|3:pnct">End</W>
@@ -24,7 +24,7 @@
 <W msd="XP" tag="." in="-3:pnct" out="">!</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:preds|11:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">incredible</W>
@@ -166,7 +166,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj">done</W>
 <W msd="VADR" tag="VBZ" in="-1:dobj" out="">wonders</W>
 <W msd="XP" tag="," in="-21:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-22:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-22:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-23:qobj|2:subj|3:pnct">stresses</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Peter</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Freil</W>

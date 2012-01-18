@@ -95,9 +95,9 @@
 <W gloss="," id="94" lemma="," msd="XP" tag="," in="-18:pnct" out="">,</W>
 <W gloss="dolma" id="95" lemma="dolma" msd="XF" tag="FW" in="-19:conj" out="3:appa">dolma</W>
 <W gloss="(" id="96" lemma="(" msd="XP" tag="(" in="2:pnct" out="">(</W>
-<W _noerror="&3a;nosubj&3a;" gloss="marinaded" id="97" lemma="marinere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">marinerede</W>
+<W _noerror=":nosubj:" gloss="marinaded" id="97" lemma="marinere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">marinerede</W>
 <W gloss="vinblade" id="98" lemma="vinblad" msd="NCNPU==I" tag="NNP" in="-3:appa" out="-2:pnct|-1:attr|1:attr|6:pnct">vinblade</W>
-<W _noerror="&3a;nosubj&3a;" gloss="filled" id="99" lemma="fylde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:attr" out="1:pobj">fyldt</W>
+<W _noerror=":nosubj:" gloss="filled" id="99" lemma="fylde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:attr" out="1:pobj">fyldt</W>
 <W gloss="with" id="100" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="rice" id="101" lemma="ris" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="2:conj">ris</W>
 <W gloss="and" id="102" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -165,11 +165,11 @@
 <W gloss="in" id="164" lemma="i" msd="SP" tag="IN" in="-1:attr|-1:{form}" out="2:nobj">i</W>
 <W gloss="small" id="165" lemma="lille" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">små</W>
 <W gloss="cubes" id="166" lemma="terning" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">terninger</W>
-<W _noerror="&3a;nosubj&3a;" gloss="drenched" id="167" lemma="overhælde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:preds" out="1:pobj">overhældt</W>
+<W _noerror=":nosubj:" gloss="drenched" id="167" lemma="overhælde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:preds" out="1:pobj">overhældt</W>
 <W gloss="with" id="168" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="treacle" id="169" lemma="sirup" msd="NCCSU==I" tag="NN" in="-1:nobj" out="3:conj">sirup</W>
 <W gloss="and" id="170" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W _noerror="&3a;nosubj&3a;" gloss="chopped" id="171" lemma="hakke" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">hakkede</W>
+<W _noerror=":nosubj:" gloss="chopped" id="171" lemma="hakke" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">hakkede</W>
 <W gloss="nuts" id="172" lemma="nød" msd="NCCPU==I" tag="NNP" in="-3:conj" out="-1:attr|-2:coord">nødder</W>
 <W gloss="." id="173" lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>

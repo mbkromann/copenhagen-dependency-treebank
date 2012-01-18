@@ -124,7 +124,7 @@
 <W gloss="," id="123" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="Knud" id="124" lemma="Knud" msd="NP--U==-" tag="NNP" in="1:namef" out="">Knud</W>
 <W gloss="Vilby" id="125" lemma="Vilby" msd="NP--U==-" tag="NNP" in="-6:appa" out="-1:namef">Vilby</W>
-<W gloss="&3a;" id="126" lemma="&3a;" msd="XP" tag="&3a;" in="-8:pnct" out="">:</W>
+<W gloss=":" id="126" lemma=":" msd="XP" tag=":" in="-8:pnct" out="">:</W>
 </s>
 </p>
 <div1 type=external>
@@ -145,7 +145,7 @@
 <s>
 <W gloss="NET" id="145" lemma="netto" msd="RGU" tag="RP" in="" out="2:conj">NETTO</W>
 <W gloss="=" id="146" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
-<W gloss="1_&3a;_35" id="147" lemma="1&3a;35" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">1:35</W>
+<W gloss="1_:_35" id="147" lemma="1:35" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">1:35</W>
 </s>
 </p>
 </div1>
@@ -178,7 +178,7 @@
 <s>
 <W gloss="GROSS" id="178" lemma="brutto" msd="RGU" tag="RP" in="" out="2:conj">BRUTTO</W>
 <W gloss="=" id="179" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
-<W gloss="02_&3a;_03" id="180" lemma="02&3a;03" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">02:03</W>
+<W gloss="02_:_03" id="180" lemma="02:03" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">02:03</W>
 </s>
 </p>
 </div1>

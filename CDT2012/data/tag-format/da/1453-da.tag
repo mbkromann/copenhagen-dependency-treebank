@@ -59,7 +59,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="61" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="61" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="We" id="62" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="">Vi</W>
 <W gloss="have" id="63" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:vobj|22:pnct|1:iter">har</W>
 <W gloss="often" id="64" lemma="ofte" msd="RGP" tag="RP" in="-1:iter" out="">ofte</W>
@@ -82,7 +82,7 @@
 <W gloss="must" id="81" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-11:vobj" out="-10:xtop|1:subj|2:vobj|-1:cons">skal</W>
 <W gloss="the_filter" id="82" lemma="filter" msd="NCNSU==D" tag="NN" in="-1:subj|1:[subj]" out="">filtret</W>
 <W gloss="be" id="83" lemma="blive" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:preds">blive</W>
-<W _noerror="&3a;nosubj&3a;" gloss="seated" id="84" lemma="sidde" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-1:preds" out="">siddende</W>
+<W _noerror=":nosubj:" gloss="seated" id="84" lemma="sidde" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-1:preds" out="">siddende</W>
 <W gloss="." id="85" lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
@@ -186,7 +186,7 @@
 <W gloss="be_pulled" id="185" lemma="trække" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-6:[subj]|1:@dir">trækkes</W>
 <W gloss="up" id="186" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="">op</W>
 <W gloss="," id="187" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="188" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W gloss="&quot;" id="188" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W gloss="says" id="189" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-6:qobj|3:subj|4:pnct">siger</W>
 <W gloss="Finn" id="190" lemma="Finn" msd="NP--U==-" tag="NNP" in="2:namef" out="">Finn</W>
 <W gloss="Rønlov" id="191" lemma="Rønlov" msd="NP--U==-" tag="NNP" in="1:namel" out="">Rønlov</W>
@@ -224,7 +224,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="226" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="226" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="There" id="227" lemma="der" msd="U=" tag="WDT" in="1:expl|2:[expl]" out="">Der</W>
 <W gloss="should" id="228" lemma="burde" msd="VADA=----A-" tag="VBD" in="" out="-1:expl|-2:pnct|1:vobj|13:pnct|8:accom">burde</W>
 <W gloss="be" id="229" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[expl]|1:dobj">være</W>

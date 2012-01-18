@@ -20,7 +20,7 @@
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="11:qobj" out="-1:pnct|1:pnct|2:conj|10:pnct">Well</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="I=" tag="UH" in="-2:conj" out="1:pnct|2:conj">yes</W>
@@ -220,7 +220,7 @@
 <W msd="XP" tag="." in="-52:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="1:[subj]" out="-1:pnct|1:vobj|3:pnct|4:mod|5:pnct">They've</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-1:[subj]|1:part">run</W>
 <W msd="RG" tag="RP" in="-1:part" out="">off</W>

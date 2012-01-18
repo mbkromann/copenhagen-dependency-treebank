@@ -155,7 +155,7 @@
 <W gloss="heard" id="154" lemma="høre" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|9:pnct|11:conj|16:pnct">hørte</W>
 <W gloss="the" id="155" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">den</W>
 <W gloss="light" id="156" lemma="svag" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">svage</W>
-<W _noerror="&3a;nosubj&3a;" gloss="hvislen" id="157" lemma="hvisle" msd="VAG-=SCI--U" tag="VBG" in="-2:nobj" out="1:pobj.subj|1:{agent}">hvislen</W>
+<W _noerror=":nosubj:" gloss="hvislen" id="157" lemma="hvisle" msd="VAG-=SCI--U" tag="VBG" in="-2:nobj" out="1:pobj.subj|1:{agent}">hvislen</W>
 <W gloss="of" id="158" lemma="af" msd="SP" tag="IN" in="-1:pobj.subj|-1:{agent}" out="1:nobj">af</W>
 <W gloss="his" id="159" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj|1:[subj]|1:{agent}" out="1:possd|2:attr">hans</W>
 <W gloss="step" id="160" lemma="skridt" msd="NCNPU==I" tag="NNP" in="-1:possd" out="-1:[subj]|-1:{agent}|1:{loc}">skridt</W>
@@ -191,7 +191,7 @@
 <W gloss="be" id="190" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">være</W>
 <W gloss="sin_." id="191" lemma="synd" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:preds" out="">synd</W>
 <W gloss="to" id="192" lemma="at" msd="U=" tag="TO" in="-4:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="wake" id="193" lemma="vække" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">vække</W>
+<W _noerror=":nosubj:" gloss="wake" id="193" lemma="vække" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">vække</W>
 <W gloss="the_boy" id="194" lemma="dreng" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">drengen</W>
 <W gloss="," id="195" lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="when" id="196" lemma="når" msd="CS" tag="IN" in="-7:time" out="3:vobj">når</W>

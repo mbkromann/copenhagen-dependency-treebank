@@ -80,7 +80,7 @@
 <W msd="PT" tag="WP$" in="-2:ref|2:subj" out="1:possd">whose</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">engine</W>
 <W msd="VADA" tag="VBD" in="-4:rel" out="-2:subj|1:pnct">died</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADA" tag="VBD" in="-15:conj" out="-17:[subj]|-1:coord|1:mod|2:vobj">had</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">then</W>

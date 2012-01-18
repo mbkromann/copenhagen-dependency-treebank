@@ -17,7 +17,7 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
 <W msd="VADR" tag="VBP" in="14:qobj" out="-2:pnct|-1:subj|1:preds|13:pnct">are</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
@@ -32,7 +32,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">dynamite</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">pool</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-13:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-13:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-14:qobj|1:subj|11:pobj|13:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="2:attr|4:nobj|6:appr|7:pnct|8:list">the</W>
 <W msd="AC" tag="CD" in="1:mod" out="">29-year</W>
@@ -49,7 +49,7 @@
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">China</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">match</W>
@@ -136,7 +136,7 @@
 <W msd="VADA" tag="VBD" in="-4:conj" out="-10:[subj]|-1:coord|1:dobj">acknowledged</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">our</W>
 <W msd="AC" tag="CD" in="-1:possd|-11:pnct#" out="">performance.</W>
-<W msd="XP" tag="&amp;quot;" in="-12:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-12:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">THE</W>
@@ -173,7 +173,7 @@
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:dobj|5:mod|10:pnct">shook</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="3:nobj">the</W>
@@ -220,7 +220,7 @@
 <W msd="AC" tag="CD" in="-1:mod" out="1:nobj">100</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">percent</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-6:qobj|2:subj|3:pnct">stressed</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Susan</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Mackensie</W>

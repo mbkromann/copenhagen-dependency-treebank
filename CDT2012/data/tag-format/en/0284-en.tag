@@ -158,7 +158,7 @@
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|2:pnct|4:mod">fight</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">corrosion</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="3:mod" out="">either</W>
 <W msd="SP" tag="IN" in="-4:mod" out="4:nobj|5:pnct|12:conj|25:pnct">in</W>
 <W msd="ANP" tag="JJ" in="3:attr" out="2:conj">small</W>
@@ -185,7 +185,7 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">engine</W>
-<W msd="XP" tag="&3a;" in="-25:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-25:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="12:coord" out="">but</W>
 <W msd="CS" tag="IN" in="11:mod" out="6:vobj">since</W>
 <W msd="PD" tag="DT" in="5:subj" out="1:nobj|2:ref|3:rel">the</W>
@@ -226,14 +226,14 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">diesel</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">fuel</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">tanks</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">:</W>
 <W msd="SP" tag="IN" in="6:mod" out="2:nobj|3:pnct">in</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">everyday</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">language</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">diesel</W>
 <W msd="NC=S" tag="NN" in="-14:appa" out="-1:mod|-6:mod|-2:pnct|1:pnct">plague</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>

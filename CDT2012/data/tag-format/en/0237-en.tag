@@ -82,7 +82,7 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">theories</W>
 <W msd="VADR" tag="VBP" in="" out="-5:subj|1:vobj|2:pnct|4:xpl">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]">confirmed</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W msd="PP" tag="PRP" in="1:subj" out="7:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="-4:xpl" out="-1:subj|1:pnct|2:mod|5:preds|21:pnct">is</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -113,9 +113,9 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">woman</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:vobj|8:pnct">is</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|2:mod|4:@loc">sitting</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VAF" tag="VB" in="-2:mod" out="-1:pnct|1:pnct">reverse</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-4:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">man</W>
@@ -149,11 +149,11 @@
 <W msd="PD" tag="DT" in="8:subj" out="1:nobj|2:possd|3:pnct|4:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">vagina's</W>
 <W msd="NC=P" tag="NNS" in="-2:possd" out="">walls</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-4:mod" out="2:nobj|3:pnct">except</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">upper</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">walls</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="VADR" tag="VBP" in="" out="-11:mod|-8:subj|2:preds|3:time|5:pnct">are</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">entirely</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">passive</W>
@@ -182,7 +182,7 @@
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj">given</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">birth</W>
-<W msd="XP" tag="&3a;" in="-16:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-16:pnct" out="">:</W>
 <W msd="SP" tag="IN" in="8:mod" out="1:nobj|5:pnct">In</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:mod|3:nobj">the</W>
 <W msd="ANC" tag="RBR" in="1:quant" out="">more</W>

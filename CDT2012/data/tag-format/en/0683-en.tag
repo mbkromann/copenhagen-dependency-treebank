@@ -65,7 +65,7 @@
 <W msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="" out="-1:pnct|1:pnct|7:conj|18:pnct">But</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANS" tag="JJS" in="5:quant" out="1:pobj|3:pnct">most</W>
@@ -139,7 +139,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">rhythm</W>
 <W msd="XP" tag="," in="-23:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-24:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-24:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-25:qobj|1:subj|23:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:attr|3:nobj|4:pnct|5:ref|6:rel">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">likeable</W>
@@ -200,13 +200,13 @@
 <W msd="ANP" tag="JJ" in="-2:attr" out="">direct</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">entertainment</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod">programme</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-6:appr" out="-1:pnct|1:nobj|2:pnct|4:mod|6:pnct">Rio</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bio</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">Only</W>
 <W msd="SP" tag="IN" in="-4:mod" out="-1:mod|1:nobj">for</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Ottomans</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="XP" tag="." in="-31:pnct" out="">.</W>
 </s>

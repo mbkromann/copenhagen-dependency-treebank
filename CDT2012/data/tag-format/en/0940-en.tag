@@ -37,7 +37,7 @@
 <W msd="ANS" tag="JJS" in="-1:avobj" out="">least</W>
 <W msd="AC" tag="CD" in="-4:mod" out="-2:mod|1:nobj">three</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">times</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="PI" tag="DT" in="-7:modp" out="1:nobj|4:mod|9:pnct|11:conj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -47,7 +47,7 @@
 <W msd="CS" tag="IN" in="-2:preds" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">result</W>
-<W msd="XP" tag="&3a;" in="-9:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-9:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="AC" tag="CD" in="-11:conj|3:[mod]" out="-1:coord|1:nobj|3:rel">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">time</W>
@@ -97,7 +97,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:appr">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">dictator</W>
 <W msd="NP=S" tag="NNP" in="-2:appr" out="">Napoleon</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="4:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">subsequently</W>
@@ -149,7 +149,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">negotiated</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">solution</W>
-<W msd="XP" tag="&3a;" in="-21:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-21:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="3:coord" out="1:pnct#">and</W>
 <W msd="ANP" tag="RB" in="-1:pnct#|2:mod" out="1:pnct">,subsequently</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>

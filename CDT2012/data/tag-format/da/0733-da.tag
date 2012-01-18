@@ -108,7 +108,7 @@
 <W gloss="other" id="107" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">andre</W>
 <W gloss="countries" id="108" lemma="land" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">lande</W>
 <W gloss="about" id="109" lemma="om" msd="SP" tag="IN" in="-5:attr|-5:{about}" out="2:nobj">om</W>
-<W _noerror="&3a;nosubj&3a;" gloss="changing" id="110" lemma="skifte" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">skiftende</W>
+<W _noerror=":nosubj:" gloss="changing" id="110" lemma="skifte" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">skiftende</W>
 <W gloss="speed_limits" id="111" lemma="hastighedsbegrænsning" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr|2:conj">hastighedsbegrænsninger</W>
 <W gloss="and" id="112" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="accident_numbers" id="113" lemma="ulykkestal" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">ulykkestal</W>
@@ -136,12 +136,12 @@
 <W gloss="the_Council" id="135" lemma="råd" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Rådet</W>
 <W gloss="for" id="136" lemma="for" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
 <W gloss="Road_Safety_Research" id="137" lemma="trafiksikkerhedsforskning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">Trafiksikkerhedsforskning</W>
-<W gloss="&3a;" id="138" lemma="&3a;" msd="XP" tag="&3a;" in="-5:pnct" out="">:</W>
+<W gloss=":" id="138" lemma=":" msd="XP" tag=":" in="-5:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="143" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W gloss="&quot;" id="143" lemma="&quot;" msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W gloss="In" id="144" lemma="i" msd="SP" tag="IN" in="3:loc" out="1:nobj">I</W>
 <W gloss="the_Council's" id="145" lemma="råd" msd="NCNSG==D" tag="NN" in="-1:nobj|1:{agent}" out="1:possd">Rådets</W>
 <W gloss="memo" id="146" lemma="notat" msd="NCNSU==I" tag="NN" in="-1:possd" out="-1:{agent}">notat</W>
@@ -205,7 +205,7 @@
 <W gloss="will" id="204" lemma="ville" msd="VADR=----A-" tag="VBD" in="-4:relr" out="-1:subj|1:vobj">vil</W>
 <W gloss="increase." id="205" lemma="stige" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|-5:[quant]">stige</W>
 <W gloss="." id="206" lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="207" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-22:pnct" out="">"</W>
+<W gloss="&quot;" id="207" lemma="&quot;" msd="XP" tag="&quot;" in="-22:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -233,12 +233,12 @@
 <W gloss="than" id="232" lemma="end" msd="CS" tag="IN" in="-2:pobj" out="2:vobj">end</W>
 <W gloss="it" id="233" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
 <W gloss="is" id="234" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|2:pnct">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="permitted" id="235" lemma="tillade" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">tilladt</W>
+<W _noerror=":nosubj:" gloss="permitted" id="235" lemma="tillade" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">tilladt</W>
 <W gloss="," id="236" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="and" id="237" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="it" id="238" lemma="den" msd="PP3CSU-NU" tag="PRP" in="1:subj" out="">den</W>
 <W gloss="adds" id="239" lemma="tilføje" msd="VADR=----A-" tag="VBD" in="-18:conj" out="-1:subj|-2:coord">tilføjer</W>
-<W gloss="&3a;" id="240" lemma="&3a;" msd="XP" tag="&3a;" in="-19:pnct" out="">:</W>
+<W gloss=":" id="240" lemma=":" msd="XP" tag=":" in="-19:pnct" out="">:</W>
 </s>
 </p>
 </div1>

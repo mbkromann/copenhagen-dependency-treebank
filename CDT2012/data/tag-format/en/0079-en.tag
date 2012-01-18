@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="PO" tag="PRP$" in="2:subj|3:[subj]" out="1:possd">My</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">father</W>
 <W msd="VADR" tag="VBZ" in="9:qobj" out="-3:pnct|-2:subj|1:vobj|7:pnct|8:pnct">has</W>
@@ -10,7 +10,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">into</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">me</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-8:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-8:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-9:qobj|1:subj|4:mod|8:pnct|11:conj|20:pnct">reported</W>
 <W msd="PI" tag="DT" in="-1:subj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">retarded</W>
@@ -88,13 +88,13 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pobj">communicate</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="7:nobj">with</W>
 <W msd="ANP" tag="JJ" in="6:attr" out="">so-called</W>
-<W msd="XP" tag="&amp;quot;" in="5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="5:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">severely</W>
 <W msd="ANP" tag="RB" in="3:mod" out="-1:mod|2:conj">physically</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="-2:conj" out="-1:coord">psychically</W>
 <W msd="ANP" tag="JJ" in="-7:nobj" out="-5:pnct|-3:mod|-6:attr|1:pnct">handicapped</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-39:pnct" out="">.</W>
 </s>
 <s>

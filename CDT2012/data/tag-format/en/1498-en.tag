@@ -77,7 +77,7 @@
 <W msd="PD" tag="DT" in="-7:mod" out="2:avobj">every</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
 <W msd="ANP" tag="RB" in="-2:avobj" out="-1:mod">often</W>
-<W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-10:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="2:attr" out="1:pnct">maybe</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PI" tag="DT" in="-13:conj" out="-2:attr|1:nobj|2:mod|9:pnct">an</W>
@@ -89,7 +89,7 @@
 <W msd="SP" tag="IN" in="-4:preds" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">middle</W>
-<W msd="XP" tag="&3a;" in="-9:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-9:pnct" out="">-</W>
 <W msd="VADA" tag="VBD" in="" out="-23:subj|1:preds|6:pnct">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj|2:possd">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">players'</W>
@@ -153,7 +153,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">last</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">kick</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="-8:conj" out="-1:subj|1:dobj|2:pnct">receives</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
@@ -184,12 +184,12 @@
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">Lean</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">new</W>
 <W msd="NC=P" tag="NNS" in="3:qobj" out="-3:pnct|-2:mod|-1:attr|1:pnct|2:pnct">times</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-3:qobj|1:subj|4:pnct|5:time|18:pnct">promised</W>
 <W msd="PD" tag="DT" in="-1:subj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">football</W>

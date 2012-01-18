@@ -45,15 +45,15 @@
 <W gloss="indkvarteres" id="44" lemma="indkvartere" msd="VADR=----P-" tag="VBD" in="" out="-1:subj|14:pnct|1:loc">indkvarteres</W>
 <W gloss="in" id="45" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="huts" id="46" lemma="hytte" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:attr|1:{const}">hytter</W>
-<W gloss="with" id="47" lemma="med" msd="SP" tag="IN" in="-1:attr|-1:{const}" out="1:nobj|4:coord|6:&lt;nobj&3a;2&gt;|8:&lt;preds&3a;2&gt;|2:²preds">med</W>
+<W gloss="with" id="47" lemma="med" msd="SP" tag="IN" in="-1:attr|-1:{const}" out="1:nobj|4:coord|6:&lt;nobj:2&gt;|8:&lt;preds:2&gt;|2:²preds">med</W>
 <W gloss="four" id="48" lemma="fire" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:¹nobj">fire</W>
 <W compound="¹ferieboliger²i" gloss="vacation_residences" id="49" lemma="ferieboligeri" msd="XX" tag="FW" in="-2:²preds|-1:¹nobj" out="1:nobj²">ferieboligeri</W>
 <W gloss="each" id="50" lemma="hver" msd="PI-CSU--U" tag="DT" in="-1:nobj²" out="">hver</W>
 <W gloss="and" id="51" lemma="og" msd="CC" tag="CC" in="-4:coord" out="">og</W>
 <W gloss="maximum" id="52" lemma="maksimal" msd="ANP---=-R" tag="JJ" in="1:prg" out="">maksimalt</W>
-<W gloss="six" id="53" lemma="seks" msd="AC---U=--" tag="CD" in="-6:&lt;nobj&3a;2&gt;" out="1:nobj|-1:prg">seks</W>
+<W gloss="six" id="53" lemma="seks" msd="AC---U=--" tag="CD" in="-6:&lt;nobj:2&gt;" out="1:nobj|-1:prg">seks</W>
 <W gloss="persons" id="54" lemma="person" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">personer</W>
-<W gloss="in" id="55" lemma="i" msd="SP" tag="IN" in="-8:&lt;preds&3a;2&gt;" out="1:nobj">i</W>
+<W gloss="in" id="55" lemma="i" msd="SP" tag="IN" in="-8:&lt;preds:2&gt;" out="1:nobj">i</W>
 <W gloss="each" id="56" lemma="hver" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">hver</W>
 <W gloss="residence" id="57" lemma="bolig" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">bolig</W>
 <W gloss="." id="58" lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
@@ -179,7 +179,7 @@
 <s>
 <W gloss="It" id="179" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|2:[subj]" out="">Det</W>
 <W gloss="may" id="180" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|27:pnct">kan</W>
-<W gloss="be" id="181" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|2:pnct|3:cond|15:coord|16:&lt;preds&3a;2&gt;|18:&lt;cond&3a;2&gt;">blive</W>
+<W gloss="be" id="181" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|2:pnct|3:cond|15:coord|16:&lt;preds:2&gt;|18:&lt;cond:2&gt;">blive</W>
 <W gloss="cheaper" id="182" lemma="billig" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:preds" out="">billigere</W>
 <W gloss="," id="183" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="if" id="184" lemma="hvis" msd="CS" tag="IN" in="-3:cond" out="3:vobj">hvis</W>
@@ -195,9 +195,9 @@
 <W gloss="the_boat" id="194" lemma="båd" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">båden</W>
 <W gloss="," id="195" lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="and" id="196" lemma="og" msd="CC" tag="CC" in="-15:coord" out="2:pnct">og</W>
-<W gloss="more_expensive" id="197" lemma="dyr" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-16:&lt;preds&3a;2&gt;" out="">dyrere</W>
+<W gloss="more_expensive" id="197" lemma="dyr" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-16:&lt;preds:2&gt;" out="">dyrere</W>
 <W gloss="," id="198" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="if" id="199" lemma="hvis" msd="CS" tag="IN" in="-18:&lt;cond&3a;2&gt;" out="3:vobj">hvis</W>
+<W gloss="if" id="199" lemma="hvis" msd="CS" tag="IN" in="-18:&lt;cond:2&gt;" out="3:vobj">hvis</W>
 <W gloss="you" id="200" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj|3:[subj]" out="">man</W>
 <W gloss="for_example" id="201" lemma="for_eksempel" msd="RGU" tag="RP" in="1:exem" out="">f.eks.</W>
 <W gloss="want" id="202" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:exem|1:vobj">vil</W>

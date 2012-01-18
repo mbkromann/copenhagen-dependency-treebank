@@ -32,7 +32,7 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Finally</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
@@ -62,7 +62,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">way</W>
 <W msd="ANP" tag="RB" in="1:quant" out="-1:mod">too</W>
 <W msd="AC" tag="CD" in="-5:pnct#|-3:lobj" out="-1:quant">far.</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Eva</W>
@@ -170,7 +170,7 @@
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="2:subj|10:[subj]|16:[subj]" out="">Eva</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
 <W msd="VADA" tag="VBD" in="" out="-3:pnct|-2:subj|-1:mod|1:@loc|2:pnct|3:mods|8:mods|14:conj|20:pnct">sat</W>
@@ -198,10 +198,10 @@
 <s>
 <W msd="ANP" tag="RB" in="" out="1:pnct|2:pnct">Definitively</W>
 <W msd="XP" tag="." in="-1:pnct" out="">!</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="25:qobj" out="-1:pnct|1:subj|2:vobj|20:pnct|21:pnct">Did</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|1:pobj|3:dobj">say</W>
@@ -223,7 +223,7 @@
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">father</W>
 <W msd="XP" tag="." in="-20:pnct" out="">?</W>
-<W msd="XP" tag="&amp;quot;" in="-21:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-21:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>

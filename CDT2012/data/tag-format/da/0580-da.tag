@@ -74,7 +74,7 @@
 <W gloss="quite" id="73" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
 <W gloss="as" id="74" lemma="så" msd="RGU" tag="RP" in="1:quant" out="-1:quant">så</W>
 <W gloss="many" id="75" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:dobj" out="-1:quant|1:attr|2:nobj">mange</W>
-<W _noerror="&3a;nosubj&3a;" gloss="paying" id="76" lemma="betale" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">betalende</W>
+<W _noerror=":nosubj:" gloss="paying" id="76" lemma="betale" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">betalende</W>
 <W gloss="guests" id="77" lemma="gæst" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">gæster</W>
 <W gloss="." id="78" lemma="." msd="XP" tag="." in="-34:pnct" out="">.</W>
 </s>

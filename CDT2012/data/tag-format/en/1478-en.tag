@@ -67,10 +67,10 @@
 <W msd="NP=S" tag="NNP" in="7:subj" out="-2:namef|1:pnct|2:mod">Poulsen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VAP" tag="VBN" in="-2:mod" out="2:dobj">nicknamed</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:dobj" out="-1:pnct|1:pnct|2:pnct">Kesse</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-18:mod|-7:subj|1:mod|11:preds|13:mod|23:pnct|24:time|40:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">aboard</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="3:nobj|4:pnct|5:appa">a</W>
@@ -105,16 +105,16 @@
 <W msd="PP" tag="PRP" in="2:subj" out="">he</W>
 <W msd="ANP" tag="RB" in="1:man" out="">suddenly</W>
 <W msd="VADA" tag="VBD" in="-9:vobj" out="-2:subj|-8:mod|-1:man|5:dobj">heard</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="3:subj|4:[subj]" out="-1:pnct|1:list|2:pnct">man</W>
 <W msd="ANP" tag="RB" in="-1:list" out="">overboard</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W msd="VAG" tag="VBG" in="-5:dobj" out="-3:subj|1:vobj">being</W>
 <W msd="VADA" tag="VBD" in="-1:vobj" out="-4:[subj]">shouted</W>
 <W msd="XP" tag="." in="-40:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|10:[subj]" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:@loc|2:mod|9:conj|18:pnct">went</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="">out</W>

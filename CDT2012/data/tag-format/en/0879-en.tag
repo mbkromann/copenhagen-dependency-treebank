@@ -4,20 +4,20 @@
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">deserve</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="4:nobj|6:pnct|7:ref|15:rel">this</W>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">hot</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:attr">dog</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod|-3:pnct|1:pnct">tax</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-7:ref|11:nobj" out="">which</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="6:subj|7:[subj]|8:[subj]" out="-1:pnct|1:pnct|4:nobj|5:pnct">No</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
 <W msd="AC" tag="CD" in="-4:nobj" out="">742</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="VA" tag="MD" in="-15:rel" out="-6:subj|1:vobj">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]|1:pobj">viewed</W>
@@ -54,7 +54,7 @@
 <W msd="SP" tag="IN" in="-5:mod" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cafeteria</W>
-<W msd="XP" tag="&3a;" in="-26:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-26:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Regulatory</W>
 <W msd="NC=S" tag="NN" in="-28:xpl" out="-1:mod|2:list|3:pnct">fee</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">DKK</W>
@@ -91,7 +91,7 @@
 <W msd="PI" tag="DT" in="-6:conj" out="-1:coord|1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">little</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">candy</W>
-<W msd="XP" tag="&3a;" in="-13:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-13:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Regulatory</W>
 <W msd="NC=S" tag="NN" in="-15:xpl" out="-1:mod|2:list|3:pnct">fee</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">DKK</W>
@@ -135,10 +135,10 @@
 <W msd="PT" tag="WDT" in="-1:nobj|-3:ref" out="">which</W>
 <W msd="PD" tag="DT" in="6:subj|7:[subj]" out="1:attr|4:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">relevant</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">food</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod|-2:pnct|1:pnct">establishment</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="-10:rel" out="-6:subj|1:vobj">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|-9:@dir">placed</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>

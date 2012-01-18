@@ -45,7 +45,7 @@
 <W gloss="two" id="44" lemma="to" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:attr|2:nobj|3:pnct|4:xpl">to</W>
 <W gloss="great" id="45" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">store</W>
 <W gloss="passions" id="46" lemma="lidenskab" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">lidenskaber</W>
-<W gloss="&3a;" id="47" lemma="&3a;" msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W gloss=":" id="47" lemma=":" msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W gloss="Beatles_music" id="48" lemma="beatles-musik" msd="NCCSU==I" tag="NN" in="-4:xpl" out="2:conj">Beatles-musik</W>
 <W gloss="and" id="49" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="politics" id="50" lemma="politik" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">politik</W>
@@ -76,18 +76,18 @@
 <W gloss="naked" id="75" lemma="nøgen" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">nøgen</W>
 <W gloss="John" id="76" lemma="John" msd="NP--U==-" tag="NNP" in="1:namef" out="">John</W>
 <W gloss="Lennon" id="77" lemma="Lennon" msd="NP--U==-" tag="NNP" in="-3:nobj" out="-1:namef|1:{form}">Lennon</W>
-<W gloss="with" id="78" lemma="med" msd="SP" tag="IN" in="-4:attr|-1:{form}" out="1:nobj|2:preds|4:pnct|8:coord|5:&lt;nobj&3a;2&gt;|6:&lt;preds&3a;2&gt;|9:&lt;nobj&3a;3&gt;|11:&lt;preds&3a;3&gt;">med</W>
+<W gloss="with" id="78" lemma="med" msd="SP" tag="IN" in="-4:attr|-1:{form}" out="1:nobj|2:preds|4:pnct|8:coord|5:&lt;nobj:2&gt;|6:&lt;preds:2&gt;|9:&lt;nobj:3&gt;|11:&lt;preds:3&gt;">med</W>
 <W gloss="steel_helmet" id="79" lemma="stålhjelm" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">stålhjelm</W>
 <W gloss="on" id="80" lemma="på" msd="SP" tag="IN" in="-2:preds" out="1:nobj">på</W>
 <W gloss="head" id="81" lemma="hoved" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">hovedet</W>
 <W gloss="," id="82" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="guitar" id="83" lemma="guitar" msd="NCCSU==I" tag="NN" in="-5:&lt;nobj&3a;2&gt;" out="">guitar</W>
-<W gloss="in" id="84" lemma="i" msd="SP" tag="IN" in="-6:&lt;preds&3a;2&gt;" out="1:nobj">i</W>
+<W gloss="guitar" id="83" lemma="guitar" msd="NCCSU==I" tag="NN" in="-5:&lt;nobj:2&gt;" out="">guitar</W>
+<W gloss="in" id="84" lemma="i" msd="SP" tag="IN" in="-6:&lt;preds:2&gt;" out="1:nobj">i</W>
 <W gloss="favnen" id="85" lemma="favn" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">favnen</W>
 <W gloss="and" id="86" lemma="og" msd="CC" tag="CC" in="-8:coord" out="">og</W>
-<W gloss="a" id="87" lemma="en" msd="PI-NSU--U" tag="DT" in="-9:&lt;nobj&3a;3&gt;" out="1:nobj">et</W>
+<W gloss="a" id="87" lemma="en" msd="PI-NSU--U" tag="DT" in="-9:&lt;nobj:3&gt;" out="1:nobj">et</W>
 <W gloss="bullet_hole" id="88" lemma="kuglehul" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kuglehul</W>
-<W gloss="in" id="89" lemma="i" msd="SP" tag="IN" in="-11:&lt;preds&3a;3&gt;" out="1:nobj">i</W>
+<W gloss="in" id="89" lemma="i" msd="SP" tag="IN" in="-11:&lt;preds:3&gt;" out="1:nobj">i</W>
 <W gloss="chest" id="90" lemma="bryst" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">brystet</W>
 <W gloss="." id="91" lemma="." msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>

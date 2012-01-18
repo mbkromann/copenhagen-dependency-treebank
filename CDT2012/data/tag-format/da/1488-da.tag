@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&amp;quot;" id="43" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="9:pnct" out="">"</W>
+<W gloss="&quot;" id="43" lemma="&quot;" msd="XP" tag="&quot;" in="9:pnct" out="">"</W>
 <W gloss="On" id="44" lemma="på" msd="SP" tag="IN" in="8:cause" out="1:nobj#">På</W>
 <W gloss="basis" id="45" lemma="baggrund" msd="NCCSU==I" tag="NN" in="-1:nobj#" out="1:pobj#">baggrund</W>
 <W gloss="of" id="46" lemma="af" msd="SP" tag="IN" in="-1:pobj#" out="1:nobj">af</W>
@@ -79,7 +79,7 @@
 <W gloss="the_foster_care_relationship" id="78" lemma="plejeforhold" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">plejeforholdet</W>
 <W gloss="now." id="79" lemma="nu" msd="RGU" tag="RP" in="-7:time" out="">nu</W>
 <W gloss="." id="80" lemma="." msd="XP" tag="." in="-28:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="81" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-29:pnct" out="">"</W>
+<W gloss="&quot;" id="81" lemma="&quot;" msd="XP" tag="&quot;" in="-29:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -196,7 +196,7 @@
 <W gloss="kidnapping-like" id="195" lemma="kidnapningslignende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">kidnapningslignende</W>
 <W gloss="action" id="196" lemma="aktion" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">aktion</W>
 <W gloss="is" id="197" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="2:pnct|1:preds|-3:subj">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="paid" id="198" lemma="betale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">betalt</W>
+<W _noerror=":nosubj:" gloss="paid" id="198" lemma="betale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">betalt</W>
 <W gloss="." id="199" lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 </p>
@@ -210,7 +210,7 @@
 <W gloss="Diemar" id="209" lemma="Diemar" msd="NP--U==-" tag="NNP" in="-3:dobj" out="-2:title|-1:namef">Diemar</W>
 <W gloss="for" id="210" lemma="om" msd="SP" tag="IN" in="-4:pobj" out="1:nobj">om</W>
 <W gloss="some" id="211" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="2:nobj|1:attr">nogle</W>
-<W _noerror="&3a;nosubj&3a;" gloss="probing" id="212" lemma="uddybe" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">uddybende</W>
+<W _noerror=":nosubj:" gloss="probing" id="212" lemma="uddybe" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">uddybende</W>
 <W gloss="comments" id="213" lemma="kommentar" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">kommentarer</W>
 <W gloss="," id="214" lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="but" id="215" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
@@ -251,7 +251,7 @@
 <W gloss="Mona" id="250" lemma="Mona" msd="NP--U==-" tag="NNP" in="2:subj" out="1:namef">Mona</W>
 <W gloss="Lisa" id="251" lemma="Lisa" msd="NP--U==-" tag="NNP" in="-1:namef" out="">Lisa</W>
 <W gloss="being" id="252" lemma="blive" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="1:preds|-2:subj">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="removed" id="253" lemma="fjerne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@dir">fjernet</W>
+<W _noerror=":nosubj:" gloss="removed" id="253" lemma="fjerne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@dir">fjernet</W>
 <W gloss="from" id="254" lemma="fra" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">fra</W>
 <W gloss="her" id="255" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj|1:{arg}" out="1:possd">sin</W>
 <W gloss="father" id="256" lemma="far" msd="NCCSU==I" tag="NN" in="-1:possd" out="2:conj|-1:{arg}">far</W>

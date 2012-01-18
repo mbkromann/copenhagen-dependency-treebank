@@ -156,7 +156,7 @@
 <W msd="XP" tag="." in="-33:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|7:[subj]" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:vobj|5:pnct|6:coord|13:pnct|20:pnct|14:time">was</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:lobj">standing</W>
@@ -197,7 +197,7 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="3:qobj" out="-13:qobj|-1:subj|1:pnct|2:pnct">thought</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-3:qobj|2:subj|7:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Christian</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:list|4:title">Knudsen</W>

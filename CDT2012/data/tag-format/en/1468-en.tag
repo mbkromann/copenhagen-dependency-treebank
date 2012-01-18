@@ -1,12 +1,12 @@
 <s>
 <W msd="CC" tag="CC" in="" out="1:conj">And</W>
 <W msd="VADR" tag="VBZ" in="-1:conj" out="1:pnct|3:qobj">says</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-3:qobj" out="-1:pnct|2:pnct#|2:preds|3:pnct">It's</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">steady</W>
 <W msd="AC" tag="CD" in="-2:pnct#|-2:preds" out="-1:mod">work.</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 </s>
 <s>
 <W msd="ANP" tag="JJ" in="1:subj" out="">Svendsen</W>

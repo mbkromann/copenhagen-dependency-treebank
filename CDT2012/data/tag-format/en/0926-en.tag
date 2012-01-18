@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">enamel</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">paintings</W>

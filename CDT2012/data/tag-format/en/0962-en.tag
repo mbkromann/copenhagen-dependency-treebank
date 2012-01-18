@@ -23,9 +23,9 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">no</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">idea</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="4:vobj">that</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="2:subj|3:[subj]" out="-1:pnct|1:pnct">tomorrow</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VA" tag="MD" in="-4:vobj" out="-2:subj|1:vobj">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">mean</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:mod">any</W>

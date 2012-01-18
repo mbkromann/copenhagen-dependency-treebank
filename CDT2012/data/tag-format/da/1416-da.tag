@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="ODENSE" id="43" lemma="Odense" msd="NP--U==-" tag="NNP" in="" out="1:pnct|22:pnct|6:other">ODENSE</W>
-<W gloss="&3a;" id="44" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="44" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="Not_until" id="45" lemma="først" msd="RGU" tag="RP" in="4:time" out="1:time">Først</W>
 <W gloss="in" id="46" lemma="i" msd="SP" tag="IN" in="-1:time" out="2:nobj">i</W>
 <W gloss="next" id="47" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">næste</W>
@@ -129,7 +129,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="131" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="131" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="It" id="132" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
 <W gloss="depends" id="133" lemma="afhænge" msd="VADR=----A-" tag="VBD" in="18:qobj" out="-1:subj|-2:pnct|1:pobj|3:pnct|17:pnct">afhænger</W>
 <W gloss="on" id="134" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -148,7 +148,7 @@
 <W gloss="or" id="147" lemma="eller" msd="CC" tag="CC" in="1:coord" out="2:pnct">eller</W>
 <W gloss="what" id="148" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-8:conj" out="-1:coord">hvad</W>
 <W gloss="," id="149" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="150" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-17:pnct" out="">"</W>
+<W gloss="&quot;" id="150" lemma="&quot;" msd="XP" tag="&quot;" in="-17:pnct" out="">"</W>
 <W gloss="says" id="151" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-18:qobj|1:subj|2:pnct">siger</W>
 <W gloss="the_chairman_of_the_board" id="152" lemma="bestyrelsesformand" msd="NCCSU==D" tag="NN" in="-1:subj" out="">bestyrelsesformanden</W>
 <W gloss="." id="153" lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -237,7 +237,7 @@
 <W gloss="The_TV_2_board" id="236" lemma="TV_2-bestyrelse" msd="NCCSU==D" tag="NN" in="1:subj" out="">TV_2-bestyrelsen</W>
 <W gloss="was" id="237" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:time|2:preds|3:pnct|12:conj|36:pnct">var</W>
 <W gloss="yesterday" id="238" lemma="i_går" msd="RGU" tag="RP" in="-1:time" out="">i_går</W>
-<W _noerror="&3a;nosubj&3a;" gloss="assembled" id="239" lemma="samle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="">samlet</W>
+<W _noerror=":nosubj:" gloss="assembled" id="239" lemma="samle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="">samlet</W>
 <W gloss="," id="240" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="and" id="241" lemma="og" msd="CC" tag="CC" in="8:coord" out="">og</W>
 <W gloss="even_though" id="242" lemma="selv_om" msd="CS" tag="IN" in="7:xtop" out="2:vobj|6:ref">selv_om</W>

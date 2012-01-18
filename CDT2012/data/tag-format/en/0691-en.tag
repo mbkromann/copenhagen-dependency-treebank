@@ -37,7 +37,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">palette</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">hummingbirds</W>
-<W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-10:pnct" out="">-</W>
 <W msd="NC=P" tag="NNS" in="7:subj" out="1:mod">stamps</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
@@ -91,7 +91,7 @@
 <W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:dobj">bears</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:pnct|3:xpl">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">text</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W msd="VAF" tag="VB" in="-3:xpl" out="1:dobj|2:preds|3:pnct">Keep</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Denmark</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">clean</W>
@@ -102,7 +102,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">illustration</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|2:pnct|5:xpl">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">simple</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W msd="PI" tag="DT" in="2:subj" out="1:nobj">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">dog</W>
 <W msd="VADR" tag="VBZ" in="-5:xpl" out="-2:subj|1:dobj|3:pobj|29:pnct">turns</W>
@@ -203,7 +203,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:xpl">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">message</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="-3:xpl" out="1:pnct">PS</W>
 <W msd="XP" tag="." in="-1:pnct" out="">!</W>
 </s>

@@ -21,7 +21,7 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">L.</W>
 <W msd="NP=S" tag="NNP" in="" out="-1:namef">P.</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|5:xpl">Answer</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">It</W>
@@ -36,9 +36,9 @@
 <W msd="U=" tag="TO" in="" out="1:vobj|9:pnct">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="5:dobj|6:mod">take</W>
 <W msd="ANP" tag="JJ" in="4:attr" out="">special</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VAP" tag="VBN" in="2:mod" out="-1:pnct|1:pnct">handpicked</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="-5:dobj" out="-2:mod|-4:attr">effects</W>
 <W msd="SP" tag="IN" in="-6:mod" out="1:nobj">with</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">them</W>
@@ -181,10 +181,10 @@
 <W msd="CS" tag="IN" in="-1:pobj" out="">as</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">fixture</W>
-<W msd="XP" tag="&3a;" in="-36:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-36:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W msd="XP" tag="&quot;" in="" out="">"</W>
 <W msd="U=" tag="TO" in="4:[mod]" out="1:nobj|4:rel">To</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">extent</W>
@@ -230,7 +230,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="VAP" tag="VBN" in="1:mod" out="">fixed</W>
 <W msd="ANP" tag="JJ" in="-36:conj" out="-1:mod|-2:coord">carpets.</W>
-<W msd="XP" tag="&amp;quot;" in="" out="">"</W>
+<W msd="XP" tag="&quot;" in="" out="">"</W>
 </s>
 <s>
 <W msd="SP" tag="IN" in="6:mod" out="1:nobj|4:pnct">In</W>

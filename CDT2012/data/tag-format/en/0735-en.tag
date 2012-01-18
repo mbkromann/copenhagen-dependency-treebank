@@ -151,7 +151,7 @@
 <W msd="XP" tag="." in="-34:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="20:pnct">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="20:pnct">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">You</W>
 <W msd="VA" tag="MD" in="19:qobj" out="-2:pnct|-1:subj|2:vobj|1:quant">can</W>
 <W msd="ANP" tag="RB" in="-1:quant" out="">almost</W>
@@ -168,10 +168,10 @@
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-2:mod|-1:attr">nails</W>
 <W msd="VADR" tag="VBP" in="-10:vobj" out="-9:subj|1:vobj|2:pnct|4:pnct">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-10:[subj]|2:qobj">thinking</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="-2:qobj" out="">Jee-zus</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-20:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-20:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-19:qobj|1:subj|8:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="4:nobj|5:mod">the</W>
 <W msd="ANP" tag="JJ" in="" out="">25-year</W>

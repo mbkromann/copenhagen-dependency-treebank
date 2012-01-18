@@ -165,7 +165,7 @@
 <W gloss="is" id="164" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="4:pnct|2:man|3:preds|1:subj">bliver</W>
 <W gloss="it" id="165" lemma="denne" msd="PD-NSU--U" tag="DT" in="-1:subj" out="">dette</W>
 <W gloss="contemptuous" id="166" lemma="hånlig" msd="ANP---=-R" tag="JJ" in="-2:man" out="">hånligt</W>
-<W _noerror="&3a;nosubj&3a;" gloss="called" id="167" lemma="kalde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="-6:dobj">kaldt</W>
+<W _noerror=":nosubj:" gloss="called" id="167" lemma="kalde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="-6:dobj">kaldt</W>
 <W gloss="." id="168" lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
@@ -216,7 +216,7 @@
 <W gloss="never" id="215" lemma="aldrig" msd="RGU" tag="RP" in="1:neg" out="">aldrig</W>
 <W gloss="has" id="216" lemma="have" msd="VADR=----A-" tag="VBD" in="-7:relr" out="-2:subj|1:vobj|5:pnct|-1:neg">har</W>
 <W gloss="been" id="217" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:preds">været</W>
-<W _noerror="&3a;nosubj&3a;" gloss="represented" id="218" lemma="repræsentere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:loc">repræsenteret</W>
+<W _noerror=":nosubj:" gloss="represented" id="218" lemma="repræsentere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:loc">repræsenteret</W>
 <W gloss="in" id="219" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Parliament" id="220" lemma="parlament" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">parlamentet</W>
 <W gloss="," id="221" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
@@ -267,7 +267,7 @@
 <W gloss="The" id="266" lemma="den" msd="PD-NSU--U" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">Det</W>
 <W gloss="largest" id="267" lemma="stor" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">største</W>
 <W gloss="party" id="268" lemma="parti" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">parti</W>
-<W gloss="must" id="269" lemma="måtte" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|8:pnct|9:coord|14:pnct|5:time|10:&lt;subj&3a;2&gt;|12:&lt;dobj&3a;2&gt;">må</W>
+<W gloss="must" id="269" lemma="måtte" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|8:pnct|9:coord|14:pnct|5:time|10:&lt;subj:2&gt;|12:&lt;dobj:2&gt;">må</W>
 <W gloss="have" id="270" lemma="have" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">have</W>
 <W gloss="the" id="271" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:nobj">de</W>
 <W gloss="most" id="272" lemma="mange" msd="ANS[CN]PU=DU" tag="JJS" in="-1:nobj" out="1:nobj">fleste</W>
@@ -277,9 +277,9 @@
 <W gloss="election" id="276" lemma="valg" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">valg</W>
 <W gloss="," id="277" lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="and" id="278" lemma="og" msd="CC" tag="CC" in="-9:coord" out="">og</W>
-<W gloss="the" id="279" lemma="den" msd="PD-NSU--U" tag="DT" in="-10:&lt;subj&3a;2&gt;" out="1:attr">det</W>
+<W gloss="the" id="279" lemma="den" msd="PD-NSU--U" tag="DT" in="-10:&lt;subj:2&gt;" out="1:attr">det</W>
 <W gloss="smallest" id="280" lemma="lille" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">mindste</W>
-<W gloss="the" id="281" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-12:&lt;dobj&3a;2&gt;" out="1:attr">de</W>
+<W gloss="the" id="281" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-12:&lt;dobj:2&gt;" out="1:attr">de</W>
 <W gloss="fewest" id="282" lemma="få" msd="ANS[CN]PU=DU" tag="JJS" in="-1:attr" out="">færreste</W>
 <W gloss="." id="283" lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>

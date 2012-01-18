@@ -117,10 +117,10 @@
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">among</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">ordinary</W>
 <W msd="NP=P" tag="NNPS" in="-2:nobj" out="-1:attr">Croatians</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="8:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="-11:xpl" out="-2:pnct|-1:subj|1:preds|10:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
@@ -160,7 +160,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Palestinians</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-10:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-11:qobj|2:subj|10:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Darko</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:rel">Richter</W>
@@ -198,10 +198,10 @@
 <W msd="ANP" tag="JJ" in="-2:preds" out="">independent</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">last</W>
 <W msd="NC=S" tag="NN" in="-4:mod" out="-1:attr">year</W>
-<W msd="XP" tag="&3a;" in="-17:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-17:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">We</W>
 <W msd="VA" tag="MD" in="-22:xpl" out="-2:pnct|-1:subj|2:mod|3:vobj|10:pnct">can</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">no</W>
@@ -220,7 +220,7 @@
 <W msd="PP" tag="PRP" in="-1:iobj" out="">us</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="">weapons</W>
 <W msd="XP" tag="." in="-3:pnct" out="">!</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 </s>
 <s>
 <W msd="VADR" tag="VBZ" in="" out="-7:qobj|2:subj|3:pnct">says</W>

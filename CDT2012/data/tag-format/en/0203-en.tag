@@ -2,12 +2,12 @@
 <W msd="PD" tag="DT" in="9:subj" out="1:nobj|3:pnct|5:conj">All</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">gains</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="4:pnct">and</W>
 <W msd="PI" tag="DT" in="-5:conj" out="-1:coord|1:nobj|2:attr">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bit</W>
 <W msd="ANC" tag="JJR" in="-2:attr" out="">more</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="VADA" tag="VBD" in="" out="-9:subj|1:pobj">went</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -34,9 +34,9 @@
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|-19:cond|1:pnct|2:modp|4:dobj|11:pnct">see</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="-2:modp" out="1:pnct">surprisingly</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-4:dobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cabin</W>

@@ -104,7 +104,7 @@
 <W msd="U=" tag="TO" in="" out="">to</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">law</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="" out="2:nobj">with</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">retroactive</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">effect</W>

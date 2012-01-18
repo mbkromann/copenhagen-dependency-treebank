@@ -80,7 +80,7 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:avobj">at</W>
 <W msd="ANS" tag="JJS" in="-1:avobj" out="">least</W>
 <W msd="PD" tag="DT" in="-3:dobj" out="1:pnct|4:xpl">these</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
 <W msd="AC" tag="CD" in="-4:xpl" out="1:pnct">1</W>

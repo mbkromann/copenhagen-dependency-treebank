@@ -91,7 +91,7 @@
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:mod">stray</W>
 <W msd="SP" tag="IN" in="-1:mod" out="">around</W>
-<W msd="XP" tag="&3a;" in="-9:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-9:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="1:subj" out="">this</W>
 <W msd="VADR" tag="VBZ" in="-11:conj" out="-1:subj|1:dobj|4:pobj">places</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>

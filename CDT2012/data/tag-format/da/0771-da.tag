@@ -43,11 +43,11 @@
 <s>
 <W gloss="Parents" id="43" lemma="forælder" msd="NCCPU==I" tag="NNP" in="1:subj" out="">Forældre</W>
 <W gloss="have" id="44" lemma="få" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:predo">får</W>
-<W _noerror="&3a;nosubj&3a;" gloss="tvangsnavngivet" id="45" lemma="tvangsnavngivet" msd="ANP[CN]SU=IU" tag="JJ" in="-1:predo" out="1:dobj">tvangsnavngivet</W>
+<W _noerror=":nosubj:" gloss="tvangsnavngivet" id="45" lemma="tvangsnavngivet" msd="ANP[CN]SU=IU" tag="JJ" in="-1:predo" out="1:dobj">tvangsnavngivet</W>
 <W gloss="their" id="46" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:dobj|1:{arg}" out="1:possd">deres</W>
 <W gloss="child" id="47" lemma="barn" msd="NCNSU==I" tag="NN" in="-1:possd" out="-1:{arg}">barn</W>
 <W gloss="ÅRHUS" id="48" lemma="Århus" msd="NP--U==-" tag="NNP" in="" out="1:pnct|34:pnct|19:other">ÅRHUS</W>
-<W gloss="&3a;" id="49" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="49" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="The_parents" id="50" lemma="forælder" msd="NCCPU==D" tag="NNP" in="17:subj|18:[subj]" out="1:pobj|6:pnct|8:appa|1:{arg}">Forældrene</W>
 <W gloss="of" id="51" lemma="til" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="4:nobj">til</W>
 <W gloss="11" id="52" lemma="11" msd="AC---U=--" tag="CD" in="2:quant" out="1:nobj">11</W>
@@ -126,7 +126,7 @@
 <W gloss="give" id="125" lemma="give" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:iobj|2:dobj">give</W>
 <W gloss="Camilla" id="126" lemma="Camilla" msd="NP--U==-" tag="NNP" in="-1:iobj" out="">Camilla</W>
 <W gloss="the" id="127" lemma="den" msd="PD-NSU--U" tag="DT" in="-2:dobj" out="1:attr|2:nobj|4:appa|6:resem|3:pnct">det</W>
-<W _noerror="&3a;nosubj&3a;" gloss="desired" id="128" lemma="ønske" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">ønskede</W>
+<W _noerror=":nosubj:" gloss="desired" id="128" lemma="ønske" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">ønskede</W>
 <W gloss="surname" id="129" lemma="efternavn" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">efternavn</W>
 <W gloss="-" id="130" lemma="-" msd="XP" tag="-" in="-3:pnct" out=""> - </W>
 <W gloss="Bech-Illum" id="131" lemma="Bech-Illum" msd="NP--U==-" tag="NNP" in="-4:appa" out="1:pnct">Bech-Illum</W>
@@ -147,7 +147,7 @@
 <W gloss="the_sea" id="146" lemma="hav" msd="NCNSG==D" tag="NN" in="-1:nobj|1:{source}" out="1:possd">havets</W>
 <W gloss="gifts" id="147" lemma="gave" msd="NCCPU==I" tag="NNP" in="-1:possd" out="-1:{source}">gaver</W>
 <W gloss="ESBJERG" id="148" lemma="Esbjerg" msd="NP--U==-" tag="NNP" in="" out="1:pnct|7:pnct|3:other">ESBJERG</W>
-<W gloss="&3a;" id="149" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="149" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="The_sea" id="150" lemma="hav" msd="NCNSU==D" tag="NN" in="1:subj" out="">Havet</W>
 <W gloss="takes" id="151" lemma="tage" msd="VADR=----A-" tag="VBD" in="-3:other" out="-1:subj|3:conj">tager</W>
 <W gloss="and" id="152" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
@@ -174,16 +174,16 @@
 <s>
 <W gloss="They" id="174" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|4:[subj]" out="">De</W>
 <W gloss="have" id="175" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:eval|2:other|3:vobj|18:pnct">er</W>
-<W gloss="&3a;" id="176" lemma="nemlig" msd="RGU" tag="RP" in="-1:eval" out="">nemlig</W>
+<W gloss=":" id="176" lemma="nemlig" msd="RGU" tag="RP" in="-1:eval" out="">nemlig</W>
 <W gloss="all" id="177" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:other" out="">alle</W>
 <W gloss="become" id="178" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-4:[subj]|1:preds|3:cause">blevet</W>
 <W gloss="richer" id="179" lemma="rig" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:preds" out="">rigere</W>
 <W gloss="thanks" id="180" lemma="takke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="1:preds" out="">takket</W>
 <W gloss="be" id="181" lemma="være" msd="VAF-=----A-" tag="VB" in="-3:cause" out="-1:preds|1:subj">være</W>
 <W gloss="the_sea's" id="182" lemma="hav" msd="NCNSG==D" tag="NN" in="-1:subj|2:{source}" out="2:possd">havets</W>
-<W gloss="&amp;quot;" id="183" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="183" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="harvest" id="184" lemma="høst" msd="NCCSU==I" tag="NN" in="-2:possd" out="-1:pnct|1:pnct|-2:{source}|2:pobj.dobj|2:{patient}">høst</W>
-<W gloss="&amp;quot;" id="185" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="185" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="of" id="186" lemma="af" msd="SP" tag="IN" in="-2:pobj.dobj|-2:{patient}" out="1:nobj">af</W>
 <W gloss="a" id="187" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="cargo" id="188" lemma="skibsladning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:attr|2:nobj|2:{arg}">skibsladning</W>

@@ -42,9 +42,9 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">editor</W>
 <W msd="VADR" tag="VBZ" in="-9:rel|6:[subj]" out="-3:subj|-5:mod|1:iobj|5:dobj">uses</W>
 <W msd="NC=P" tag="NNS" in="-1:iobj" out="1:pnct|2:appa">specialists</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="NC=P" tag="NNS" in="-2:appa" out="1:pnct">referees</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="U=" tag="TO" in="-5:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:dobj">assess</W>
 <W msd="PD" tag="DT" in="-1:dobj|2:[subj]" out="1:nobj|2:rel">the</W>
@@ -94,7 +94,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">topic</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:preds|2:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">important</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="SP" tag="IN" in="-7:conj" out="-1:coord|3:vobj">whether</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
@@ -183,9 +183,9 @@
 <W msd="PI" tag="DT" in="2:subj|4:[subj]" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">colleague</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|2:vobj">can</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:vobj" out="-4:[subj]|-1:pnct|1:pnct|2:dobj|4:accom">slaughter</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="PI" tag="DT" in="-2:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">manuscript</W>
 <W msd="SP" tag="IN" in="-4:accom" out="1:nobj">without</W>

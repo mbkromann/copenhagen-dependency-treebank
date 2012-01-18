@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="7:qobj" out="-2:pnct|-1:subj|1:mod|2:preds|5:pnct|6:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">just</W>
@@ -7,7 +7,7 @@
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">convert</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-7:qobj|1:subj|6:pobj|12:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:attr|2:nobj|4:appr">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">gay</W>
@@ -76,10 +76,10 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|1:mod">interest</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">journalists</W>
-<W msd="XP" tag="&3a;" in="-8:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-8:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="-13:xpl" out="-2:pnct|-1:subj|1:vobj|21:pnct|26:conj|35:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|17:mod">been</W>
@@ -219,7 +219,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">kind</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="AC" tag="CD" in="-1:nobj|-10:pnct#" out="">programme.</W>
-<W msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-11:pnct" out="">"</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Johnny</W>
@@ -248,5 +248,5 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cause</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">:</W>
 </s>

@@ -127,7 +127,7 @@
 <W msd="VADR" tag="VBZ" in="" out="-4:preds|1:subj|12:pnct|17:conj|25:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj|2:pnct|4:modp">the</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="">flounder</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">DKK</W>
 <W msd="AC" tag="CD" in="-4:modp" out="-1:mod|1:mod">25</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>

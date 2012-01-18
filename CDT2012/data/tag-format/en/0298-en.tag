@@ -59,7 +59,7 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="7:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="6:mod" out="1:nobj|2:pnct">For</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">me</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -140,13 +140,13 @@
 <W msd="VAG" tag="VBG" in="-2:preds" out="1:pobj">teeming</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pnct|5:modp">children</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Elise</W>
 <W msd="NC" tag="NP--U==-" in="2:subj" out="-1:namef">Gug</W>
 <W msd="PP" tag="PRP" in="1:focal" out="">herself</W>
 <W msd="VADR" tag="VBZ" in="-5:modp" out="-2:subj|1:dobj|2:pnct|-1:focal">has</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="">three</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="4:coord" out="">and</W>
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">housing</W>

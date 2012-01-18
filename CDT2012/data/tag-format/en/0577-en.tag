@@ -51,14 +51,14 @@
 <W msd="VAG" tag="VBG" in="11:subj|17:[subj]" out="2:conj|4:mod">Riding</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAG" tag="VBG" in="-2:conj" out="-1:coord">swimming</W>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-4:mod" out="-1:pnct|1:nobj|6:pnct">under</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">control</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">physical</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">therapists</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="VAF" tag="VB" in="" out="-11:subj|1:mod|4:add|5:dobj|13:pnct">prove</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">many</W>
@@ -103,7 +103,7 @@
 <W msd="SP" tag="IN" in="-3:pobj" out="2:nobj">with</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">meaningful</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">work</W>
-<W msd="XP" tag="&3a;" in="-8:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-8:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:time" out="">often</W>
 <W msd="SP" tag="IN" in="-10:mod" out="1:nobj|4:preds|-1:time">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>

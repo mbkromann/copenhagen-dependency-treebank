@@ -73,7 +73,7 @@
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="3:pnct" out="">-</W>
 <W msd="NP=P" tag="NNPS" in="2:xtop" out="1:pnct|6:ref">Dreams</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=P" tag="NNS" in="" out="-3:pnct|-2:xtop|1:attr|2:preds|5:pnct">it's</W>
@@ -111,7 +111,7 @@
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">You</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:pobj|4:pnct|7:conj|8:pnct">survive</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>

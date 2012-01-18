@@ -74,7 +74,7 @@
 <W gloss="there" id="73" lemma="der" msd="RGU" tag="RP" in="-2:other" out="">der</W>
 <W gloss="with" id="74" lemma="med" msd="SP" tag="IN" in="-3:other" out="1:nobj">med</W>
 <W gloss="that" id="75" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="cultivating" id="76" lemma="dyrke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|-7:[subj]">dyrke</W>
+<W _noerror=":nosubj:" gloss="cultivating" id="76" lemma="dyrke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|-7:[subj]">dyrke</W>
 <W gloss="one's" id="77" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:dobj|1:{const}" out="1:possd">sin</W>
 <W gloss="body" id="78" lemma="krop" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{const}">krop</W>
 <W gloss="." id="79" lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
@@ -221,7 +221,7 @@
 <W gloss="so" id="220" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
 <W gloss="fun" id="221" lemma="sjov" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:quant">sjovt</W>
 <W gloss="to" id="222" lemma="at" msd="U=" tag="TO" in="-4:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="be" id="223" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds|2:loc">være</W>
+<W _noerror=":nosubj:" gloss="be" id="223" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds|2:loc">være</W>
 <W gloss="boy" id="224" lemma="dreng" msd="NCCSU==I" tag="NN" in="-1:preds" out="">dreng</W>
 <W gloss="in" id="225" lemma="på" msd="SP" tag="IN" in="-2:loc" out="1:nobj">på</W>
 <W gloss="a" id="226" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>

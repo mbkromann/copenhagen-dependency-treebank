@@ -42,7 +42,7 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="4:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">ink</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">cap</W>
@@ -201,7 +201,7 @@
 <W msd="NP=S" tag="NNP" in="" out="-1:mod|-2:attr">YEAR</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="" out="-1:pnct|3:conj|12:pnct">And</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">year</W>

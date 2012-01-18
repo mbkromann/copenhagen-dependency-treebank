@@ -3,7 +3,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">THE</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">COUNTRY</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|7:list">COPENHAGEN</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PI" tag="DT" in="5:subj|8:[subj]|9:[subj]" out="1:nobj|2:mod">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">dip</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">in</W>
@@ -91,7 +91,7 @@
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Limfjord</W>
 <W msd="NP=S" tag="NNP" in="-6:list" out="1:pnct|7:list">AALBORG</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="5:subj|6:[subj]" out="1:nobj|2:mod">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">County</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">of</W>
@@ -161,7 +161,7 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Vejle</W>
 <W msd="NP=S" tag="NNP" in="-3:list" out="1:pnct|8:list">VEJLE</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PI" tag="DT" in="6:subj|7:[subj]" out="3:nobj|4:mod">A</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">water</W>
 <W msd="NC=P" tag="NNS" in="1:mod" out="-1:mod">savings</W>

@@ -15,9 +15,9 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">studio</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">scenography</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="2:subj|12:[subj]|13:[subj]" out="-1:pnct|1:pnct">Synnøve's</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-19:mod|-2:subj|1:mod|10:vobj|18:pnct">has</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:attr|4:possd">the</W>
@@ -61,7 +61,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">own</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">load-bearing</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">role</W>
-<W msd="XP" tag="&3a;" in="-8:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-8:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-9:mod" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pnct|6:list">example</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -115,7 +115,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">previous</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">day's</W>
 <W msd="VADR" tag="VBP" in="-3:possd" out="">show</W>
-<W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-10:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="2:epi" out="1:pnct">perhaps</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-13:cause" out="5:vobj|-2:epi">because</W>
@@ -159,7 +159,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">material</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">;</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">;</W>
 <W msd="PT" tag="WRB" in="-9:conj" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:dobj|4:pobj">uses</W>

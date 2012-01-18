@@ -43,11 +43,11 @@
 <s>
 <W gloss="(" id="43" lemma="(" msd="XP" tag="(" in="2:pnct" out="">(</W>
 <W gloss="2nd" id="44" lemma="2." msd="AO---U=--" tag="JJ" in="1:attr" out="">2.</W>
-<W gloss="edition" id="45" lemma="udgave" morph="giv -ud/TELIC !!ave/DERvn&3a;patient" msd="NCCSU==I" tag="NN" in="4:SCENE" out="-2:pnct|-1:attr|1:pnct">udgave</W>
+<W gloss="edition" id="45" lemma="udgave" morph="giv -ud/TELIC !!ave/DERvn:patient" msd="NCCSU==I" tag="NN" in="4:SCENE" out="-2:pnct|-1:attr|1:pnct">udgave</W>
 <W gloss=")" id="46" lemma=")" msd="XP" tag=")" in="-1:pnct" out="">)</W>
-<W _noerror="&3a;noante&3a;" gloss="The_real_estate_company" id="47" lemma="ejendomsselskab" morph="selskab -[ejendom]s/GOAL ~et" msd="NCNSU==D" tag="NN" in="2:subj|4:[subj]" out="1:appr|5:coref">Ejendomsselskabet</W>
+<W _noerror=":noante:" gloss="The_real_estate_company" id="47" lemma="ejendomsselskab" morph="selskab -[ejendom]s/GOAL ~et" msd="NCNSU==D" tag="NN" in="2:subj|4:[subj]" out="1:appr|5:coref">Ejendomsselskabet</W>
 <W gloss="Norden" id="48" lemma="Norden" msd="NP--U==-" tag="NNP" in="-1:appr" out="">Norden</W>
-<W _noerror="&3a;nogov&3a;" gloss="wants" id="49" lemma="ønske" morph="ønske /DERnv ~r" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|-4:SCENE|1:dobj|23:pnct|30:CONJ&3a;add/(og)|66:+CONST&3a;rest/(mao)/ATTR*">ønsker</W>
+<W _noerror=":nogov:" gloss="wants" id="49" lemma="ønske" morph="ønske /DERnv ~r" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|-4:SCENE|1:dobj|23:pnct|30:CONJ:add/(og)|66:+CONST:rest/(mao)/ATTR*">ønsker</W>
 <W gloss="to" id="50" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="grow" id="51" lemma="vokse" morph="" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:robj|3:preds">vokse</W>
 <W gloss="themselves" id="52" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:robj|-5:coref" out="5:coref">sig</W>
@@ -58,14 +58,14 @@
 <W gloss="it" id="57" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-5:coref|1:subj" out="">det</W>
 <W gloss="will_be" id="58" lemma="blive" morph="" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:time">bliver</W>
 <W gloss="after" id="59" lemma="efter" msd="SP" tag="IN" in="-1:time" out="1:nobj">efter</W>
-<W _noerror="&3a;noante&3a;" gloss="the_merger" id="60" lemma="fusion" morph="" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj.pobj|1:{patient}|31:coref-var">fusionen</W>
+<W _noerror=":noante:" gloss="the_merger" id="60" lemma="fusion" morph="" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj.pobj|1:{patient}|31:coref-var">fusionen</W>
 <W gloss="with" id="61" lemma="med" msd="SP" tag="IN" in="-1:pobj.pobj|-1:{patient}" out="1:nobj">med</W>
 <W gloss="one" id="62" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj|1:{quant}" out="1:pobj|4:pnct|5:appa">et</W>
 <W gloss="of" id="63" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="-1:{quant}|1:nobj">af</W>
-<W _noerror="&3a;noante&3a;" gloss="the_Hafnia_group's" id="64" lemma="Hafnia-koncern" morph="" msd="NCCSG==D" tag="NN" in="-1:nobj|1:{poss}" out="1:possd">Hafnia-koncernens</W>
+<W _noerror=":noante:" gloss="the_Hafnia_group's" id="64" lemma="Hafnia-koncern" morph="" msd="NCCSG==D" tag="NN" in="-1:nobj|1:{poss}" out="1:possd">Hafnia-koncernens</W>
 <W gloss="companies" id="65" lemma="selskab" morph="" msd="NCNPU==I" tag="NNP" in="-1:possd" out="-1:{poss}">selskaber</W>
 <W gloss="," id="66" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W _noerror="&3a;noante&3a;" gloss="Public_Limited_Company" id="67" lemma="aktieselskab" morph="selskab -aktie/FORM ~et" msd="NCNSU==D" tag="NN" in="-5:appa" out="1:attr|1:{time}|26:coref-var">Aktieselskabet</W>
+<W _noerror=":noante:" gloss="Public_Limited_Company" id="67" lemma="aktieselskab" morph="selskab -aktie/FORM ~et" msd="NCNSU==D" tag="NN" in="-5:appa" out="1:attr|1:{time}|26:coref-var">Aktieselskabet</W>
 <W gloss="of" id="68" lemma="af" msd="SP" tag="IN" in="-1:attr|-1:{time}" out="2:nobj">af</W>
 <W gloss="15" id="69" lemma="15." msd="AO---U=--" tag="JJ" in="1:attr" out="">15.</W>
 <W gloss="April" id="70" lemma="april" morph="" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|1:nobj">april</W>
@@ -73,11 +73,11 @@
 <W gloss="." id="72" lemma="." msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
 <s>
-<W _noerror="&3a;noante&3a;" gloss="The" id="75" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="4:subj|6:[subj]" out="1:attr|2:attr|3:nobj|7:coref">De</W>
+<W _noerror=":noante:" gloss="The" id="75" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="4:subj|6:[subj]" out="1:attr|2:attr|3:nobj|7:coref">De</W>
 <W gloss="first" id="76" lemma="første" morph="" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
-<W _noerror="&3a;nosubj&3a;" gloss="interested" id="77" lemma="interessere" morph="interesser +et/DERva&3a;pas.part ! ~de" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-2:attr" out="">interesserede</W>
+<W _noerror=":nosubj:" gloss="interested" id="77" lemma="interessere" morph="interesser +et/DERva:pas.part ! ~de" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-2:attr" out="">interesserede</W>
 <W gloss="companies" id="78" lemma="selskab" morph="" msd="NCNPU==I" tag="NNP" in="-3:nobj" out="">selskaber</W>
-<W gloss="have" id="79" lemma="have" morph="" msd="VADR=----A-" tag="VBD" in="-30:CONJ&3a;add/(og)" out="-4:subj|1:time|2:vobj|19:pnct|57:+CONJ&3a;add/(og)">har</W>
+<W gloss="have" id="79" lemma="have" morph="" msd="VADR=----A-" tag="VBD" in="-30:CONJ:add/(og)" out="-4:subj|1:time|2:vobj|19:pnct|57:+CONJ:add/(og)">har</W>
 <W gloss="already" id="80" lemma="allerede" msd="RGU" tag="RP" in="-1:time" out="">allerede</W>
 <W gloss="shown" id="81" lemma="vise" morph="" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-6:[subj]|1:robj|2:pnct|3:time">vist</W>
 <W gloss="themselves" id="82" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:robj|-7:coref" out="">sig</W>
@@ -89,11 +89,11 @@
 <W gloss="announced" id="88" lemma="meddele" morph="" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:time|-1:man|1:pnct|2:dobj">meddelte</W>
 <W gloss="," id="89" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="90" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="4:vobj">at</W>
-<W gloss="the_consolidation" id="91" lemma="sammenlægning" morph="læg -sammen/TELIC +ning/DERvn&3a;patient ~en" msd="NCCSU==D" tag="NN" in="-31:coref-var|3:subj" out="1:pobj.pobj|1:{patient}|44:coref-var">sammenlægningen</W>
+<W gloss="the_consolidation" id="91" lemma="sammenlægning" morph="læg -sammen/TELIC +ning/DERvn:patient ~en" msd="NCCSU==D" tag="NN" in="-31:coref-var|3:subj" out="1:pobj.pobj|1:{patient}|44:coref-var">sammenlægningen</W>
 <W gloss="with" id="92" lemma="med" msd="SP" tag="IN" in="-1:pobj.pobj|-1:{patient}" out="1:nobj">med</W>
 <W gloss="the_Hafnia_company" id="93" lemma="Hafnia-selskab" morph="" msd="NCNSU==D" tag="NN" in="-1:nobj|-26:coref-var" out="">Hafnia-selskabet</W>
 <W gloss="are" id="94" lemma="være" morph="" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:preds">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="negotiated" id="95" lemma="forhandle" morph="" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">forhandlet</W>
+<W _noerror=":nosubj:" gloss="negotiated" id="95" lemma="forhandle" morph="" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">forhandlet</W>
 <W gloss="in" id="96" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="seats" id="97" lemma="plads" morph="" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">plads</W>
 <W gloss="." id="98" lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
@@ -101,19 +101,19 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="103" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W gloss="&quot;" id="103" lemma="&quot;" msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
 <W gloss="Hafnia" id="104" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="3:subj" out="2:conj">Hafnia</W>
 <W gloss="and" id="105" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Norden" id="106" lemma="Norden" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Norden</W>
 <W gloss="seems" id="107" lemma="lade" morph="" msd="VADR=----A-" tag="VBD" in="8:qobj" out="-3:subj|-4:pnct|1:dobj|2:vobj|6:pnct|7:pnct">lader</W>
-<W _noerror="&3a;noante&3a;" gloss="the_door" id="108" lemma="dør" morph="" msd="NCCSU==D" tag="NN" in="-1:dobj|1:[subj]" out="">døren</W>
+<W _noerror=":noante:" gloss="the_door" id="108" lemma="dør" morph="" msd="NCCSU==D" tag="NN" in="-1:dobj|1:[subj]" out="">døren</W>
 <W gloss="stand" id="109" lemma="stå" morph="" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:preds|2:goal">stå</W>
 <W gloss="open" id="110" lemma="åben" morph="" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">åben</W>
 <W gloss="to" id="111" lemma="for" msd="SP" tag="IN" in="-2:goal" out="1:nobj">for</W>
 <W gloss="others" id="112" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="">andre</W>
 <W gloss="," id="113" lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="114" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
-<W gloss="says" id="115" lemma="sige" morph="" msd="VADR=----A-" tag="VBD" in="-66:+CONST&3a;rest/(mao)/ATTR*" out="-8:qobj|2:subj|14:pnct">siger</W>
+<W gloss="&quot;" id="114" lemma="&quot;" msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
+<W gloss="says" id="115" lemma="sige" morph="" msd="VADR=----A-" tag="VBD" in="-66:+CONST:rest/(mao)/ATTR*" out="-8:qobj|2:subj|14:pnct">siger</W>
 <W gloss="Preben" id="116" lemma="Preben" msd="NP--U==-" tag="NNP" in="1:namef" out="">Preben</W>
 <W gloss="Nygaard" id="117" lemma="Nygaard" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:relr|110:coref-iden">Nygaard</W>
 <W gloss="," id="118" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -122,7 +122,7 @@
 <W gloss="director" id="121" lemma="direktør" morph="" msd="NCCSU==I" tag="NN" in="-1:preds" out="1:pobj|1:{arg}">direktør</W>
 <W gloss="of" id="122" lemma="i" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">i</W>
 <W gloss="Norden's" id="123" lemma="Norden" msd="NP--G==-" tag="NNP" in="-1:nobj|1:{arg}" out="1:possd|3:appr">Nordens</W>
-<W gloss="parent_company" id="124" lemma="moderselskab" morph="selskab -moder/MOD&3a;qual" msd="NCNSU==I" tag="NN" in="-1:possd" out="-1:{arg}">moderselskab</W>
+<W gloss="parent_company" id="124" lemma="moderselskab" morph="selskab -moder/MOD:qual" msd="NCNSU==I" tag="NN" in="-1:possd" out="-1:{arg}">moderselskab</W>
 <W gloss="Commercial" id="125" lemma="Commercial" msd="NP--U==-" tag="NNP" in="1:attr" out="">Commercial</W>
 <W gloss="Holding" id="126" lemma="Holding" msd="NP--U==-" tag="NNP" in="-3:appr" out="-1:attr|1:attr|2:nobj">Holding</W>
 <W gloss="International" id="127" lemma="International" msd="NP--U==-" tag="NNP" in="-1:attr" out="">International</W>
@@ -134,21 +134,21 @@
 <s>
 <W gloss="After" id="134" lemma="efter" msd="SP" tag="IN" in="2:time" out="1:nobj">Efter</W>
 <W gloss="the_merger" id="135" lemma="fusion" morph="" msd="NCCSU==D" tag="NN" in="-1:nobj|-44:coref-var" out="14:assoc-telic">fusionen</W>
-<W gloss="advise" id="136" lemma="råde" morph="" msd="VADR=----A-" tag="VBD" in="-57:+CONJ&3a;add/(og)" out="-2:time|1:subj|2:pobj|16:pnct|23:CONC/men">råder</W>
+<W gloss="advise" id="136" lemma="råde" morph="" msd="VADR=----A-" tag="VBD" in="-57:+CONJ:add/(og)" out="-2:time|1:subj|2:pobj|16:pnct|23:CONC/men">råder</W>
 <W gloss="Hafnia" id="137" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Hafnia</W>
 <W gloss="over" id="138" lemma="over" msd="SP" tag="IN" in="-2:pobj" out="2:nobj">over</W>
 <W gloss="approximately" id="139" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">ca.</W>
 <W gloss="40" id="140" lemma="40" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">40</W>
 <W gloss="percent" id="141" lemma="procent" morph="" msd="NCCPU==I" tag="NNP" in="-1:nobj|1:{quant}" out="1:pobj">procent</W>
 <W gloss="of" id="142" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="-1:{quant}|1:nobj">af</W>
-<W _noerror="&3a;noante&3a;" gloss="the_shares" id="143" lemma="aktie" morph="" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:attr|1:{source}">aktierne</W>
+<W _noerror=":noante:" gloss="the_shares" id="143" lemma="aktie" morph="" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:attr|1:{source}">aktierne</W>
 <W gloss="in" id="144" lemma="i" msd="SP" tag="IN" in="-1:attr|-1:{source}" out="1:nobj">i</W>
 <W gloss="Norden" id="145" lemma="Norden" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|3:relr">Norden</W>
 <W gloss="," id="146" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="which" id="147" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
 <W gloss="will_be" id="148" lemma="blive" morph="" msd="VADR=----A-" tag="VBD" in="-3:relr" out="-1:subj|1:preds">bliver</W>
-<W _noerror="&3a;noante&3a;" gloss="the" id="149" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:preds|-14:assoc-telic" out="1:attr|2:nobj">det</W>
-<W _noerror="&3a;nosubj&3a;" gloss="continuing" id="150" lemma="fortsætte" morph="[fortsæt]t +ende/DERva&3a;act" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">fortsættende</W>
+<W _noerror=":noante:" gloss="the" id="149" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:preds|-14:assoc-telic" out="1:attr|2:nobj">det</W>
+<W _noerror=":nosubj:" gloss="continuing" id="150" lemma="fortsætte" morph="[fortsæt]t +ende/DERva:act" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">fortsættende</W>
 <W gloss="company" id="151" lemma="selskab" morph="" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">selskab</W>
 <W gloss="." id="152" lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
@@ -156,9 +156,9 @@
 <p>
 <s>
 <W gloss="But" id="157" lemma="men" msd="CC" tag="CC" in="2:coord" out="">Men</W>
-<W _noerror="&3a;noante&3a;" gloss="it" id="158" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">det</W>
-<W gloss="is" id="159" lemma="være" morph="" msd="VADR=----A-" tag="VBD" in="-23:CONC/men" out="-1:subj|-2:coord|1:preds|2:pnct|24:pnct|28:AGENTIVE&3a;expl/(nemlig)">er</W>
-<W _noerror="&3a;noante&3a;" gloss="the_intent" id="160" lemma="hensigt" morph="" msd="NCCSU==D" tag="NN" in="-1:preds" out="">hensigten</W>
+<W _noerror=":noante:" gloss="it" id="158" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">det</W>
+<W gloss="is" id="159" lemma="være" morph="" msd="VADR=----A-" tag="VBD" in="-23:CONC/men" out="-1:subj|-2:coord|1:preds|2:pnct|24:pnct|28:AGENTIVE:expl/(nemlig)">er</W>
+<W _noerror=":noante:" gloss="the_intent" id="160" lemma="hensigt" morph="" msd="NCCSU==D" tag="NN" in="-1:preds" out="">hensigten</W>
 <W gloss="," id="161" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" id="162" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="4:vobj">at</W>
 <W gloss="Hafnia's" id="163" lemma="Hafnia" msd="NP--G==-" tag="NNP" in="1:{arg}|3:subj|4:[subj]" out="1:possd">Hafnias</W>
@@ -180,14 +180,14 @@
 <W gloss="come" id="179" lemma="komme" morph="" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:@loc">kommer</W>
 <W gloss="in" id="180" lemma="inden" msd="RGU" tag="RP" in="-1:@loc" out="1:pobj">inden</W>
 <W gloss="for" id="181" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W _noerror="&3a;noante&3a;" gloss="the_door" id="182" lemma="dør" morph="" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">døren</W>
+<W _noerror=":noante:" gloss="the_door" id="182" lemma="dør" morph="" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">døren</W>
 <W gloss="." id="183" lemma="." msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 <s>
-<W _noerror="&3a;noante&3a;" gloss="It" id="186" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" id="187" lemma="være" morph="" msd="VADR=----A-" tag="VBD" in="-28:AGENTIVE&3a;expl/(nemlig)" out="-1:subj|1:neg|2:preds|3:pnct|17:pnct|22:AGENTIVE&3a;reas/(fordi)">er</W>
+<W _noerror=":noante:" gloss="It" id="186" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
+<W gloss="is" id="187" lemma="være" morph="" msd="VADR=----A-" tag="VBD" in="-28:AGENTIVE:expl/(nemlig)" out="-1:subj|1:neg|2:preds|3:pnct|17:pnct|22:AGENTIVE:reas/(fordi)">er</W>
 <W gloss="not" id="188" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W _noerror="&3a;noante&3a;" gloss="the_intent" id="189" lemma="hensigt" morph="" msd="NCCSU==D" tag="NN" in="-2:preds" out="">hensigten</W>
+<W _noerror=":noante:" gloss="the_intent" id="189" lemma="hensigt" morph="" msd="NCCSU==D" tag="NN" in="-2:preds" out="">hensigten</W>
 <W gloss="," id="190" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" id="191" lemma="at" msd="CS" tag="IN" in="-5:nobj" out="2:vobj">at</W>
 <W gloss="Hafnia" id="192" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="1:subj|2:[subj]|9:[subj]|10:[subj]|11:[subj]" out="">Hafnia</W>
@@ -205,9 +205,9 @@
 <W gloss="." id="204" lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W _noerror="&3a;nosubj&3a;" gloss="Future" id="207" lemma="komme" morph="[kom]m +ende/DERva&3a;act" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">Kommende</W>
+<W _noerror=":nosubj:" gloss="Future" id="207" lemma="komme" morph="[kom]m +ende/DERva:act" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">Kommende</W>
 <W gloss="merger_partners" id="208" lemma="fusions-partner" morph="partner -[fusion]s_/GOAL" msd="NCCPU==I" tag="NNP" in="1:subj|3:[subj]|9:[subj]" out="-1:attr">fusions-partnere</W>
-<W gloss="are_to_be" id="209" lemma="skulle" morph="" msd="VADR=----A-" tag="VBD" in="-22:AGENTIVE&3a;reas/(fordi)" out="-1:subj|1:neg|2:vobj|12:pnct|15:CONST&3a;rest/(mao)/ATTR*">skal</W>
+<W gloss="are_to_be" id="209" lemma="skulle" morph="" msd="VADR=----A-" tag="VBD" in="-22:AGENTIVE:reas/(fordi)" out="-1:subj|1:neg|2:vobj|12:pnct|15:CONST:rest/(mao)/ATTR*">skal</W>
 <W gloss="not" id="210" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="chased" id="211" lemma="jage" morph="" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-3:[subj]|1:@dir|2:cause">jages</W>
 <W gloss="away" id="212" lemma="væk" msd="RGU" tag="RP" in="-1:@dir" out="">væk</W>
@@ -216,23 +216,23 @@
 <W gloss="of" id="215" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="that" id="216" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="being" id="217" lemma="blive" morph="" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-9:[subj]|1:preds">blive</W>
-<W _noerror="&3a;nosubj&3a;" gloss="subject_to" id="218" lemma="underlægge" morph="læg -under/PRE&3a;other !!ag ~t" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:dobj">underlagt</W>
+<W _noerror=":nosubj:" gloss="subject_to" id="218" lemma="underlægge" morph="læg -under/PRE:other !!ag ~t" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:dobj">underlagt</W>
 <W gloss="others" id="219" lemma="anden" msd="PI-[CN]PG--U" tag="DT" in="-1:dobj|1:[subj]|1:{agent}" out="1:possd">andres</W>
 <W gloss="control" id="220" lemma="kontrol" morph="" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:[subj]|-1:{agent}">kontrol</W>
 <W gloss="." id="221" lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Or" id="224" lemma="eller" msd="CC" tag="CC" in="-15:CONST&3a;rest/(mao)/ATTR*" out="1:conj">Eller</W>
+<W gloss="Or" id="224" lemma="eller" msd="CC" tag="CC" in="-15:CONST:rest/(mao)/ATTR*" out="1:conj">Eller</W>
 <W gloss="in" id="225" lemma="med" msd="SP" tag="IN" in="-1:conj" out="2:nobj">med</W>
 <W gloss="Preben" id="226" lemma="Preben" msd="NP--U==-" tag="NNP" in="1:namef|2:{source}" out="">Preben</W>
 <W gloss="Nygaard's" id="227" lemma="Nygaard" msd="NP--G==-" tag="NNP" in="-2:nobj|-110:coref-iden" out="-1:namef|1:possd|2:pnct|14:xpl">Nygaards</W>
 <W gloss="words" id="228" lemma="ord" morph="" msd="NCNPU==I" tag="NNP" in="-1:possd" out="-2:{source}">ord</W>
-<W gloss="&3a;" id="229" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W gloss=":" id="229" lemma=":" msd="XP" tag=":" in="-2:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="234" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
+<W gloss="&quot;" id="234" lemma="&quot;" msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
 <W gloss="If" id="235" lemma="hvis" msd="CS" tag="IN" in="6:cond" out="2:vobj">Hvis</W>
 <W gloss="Hafnia" id="236" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="1:subj" out="">Hafnia</W>
 <W gloss="has" id="237" lemma="have" morph="" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|3:pnct|5:coref-res">har</W>
@@ -248,7 +248,7 @@
 <W gloss="stay" id="247" lemma="blive" morph="" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds">blive</W>
 <W gloss="away." id="248" lemma="væk" msd="RGU" tag="RP" in="-1:preds" out="">væk</W>
 <W gloss="." id="249" lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="250" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
+<W gloss="&quot;" id="250" lemma="&quot;" msd="XP" tag="&quot;" in="-9:pnct" out="">"</W>
 </s>
 </p>
 </div1>

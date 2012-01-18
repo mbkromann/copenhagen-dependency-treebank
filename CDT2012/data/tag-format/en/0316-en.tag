@@ -1,15 +1,15 @@
 <s>
-<W msd="XP" tag="&3a;" in="12:pnct" out="">-</W>
+<W msd="XP" tag=":" in="12:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="11:mod" out="1:nobj|2:pnct|3:voc|4:pnct|6:modp">Apropos</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">collective</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-3:voc" out="">Regitze</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Loa</W>
 <W msd="NC=P" tag="NNS" in="-6:modp" out="-1:subj|1:pobj|3:pnct">smiles</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">me</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-12:pnct|-1:subj|-11:mod|1:dobj|19:pnct">know</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:mod|4:pnct|5:ref|7:rel">one</W>
@@ -104,14 +104,14 @@
 <W msd="XP" tag="." in="-10:pnct" out="">!</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">Very</W>
 <W msd="ANP" tag="JJ" in="" out="-2:pnct|-1:mod|1:pnct">funny</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="1:pnct|2:conj|6:pnct">But</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="I=" tag="UH" in="-2:conj" out="1:pnct|2:conj">yes</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-2:conj" out="1:list">why</W>
@@ -187,7 +187,7 @@
 <W msd="ANP" tag="RB" in="-2:preds" out="-1:mod">alike</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-4:contr" out="1:pnct">nevertheless</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-6:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">spite</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

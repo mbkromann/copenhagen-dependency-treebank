@@ -175,10 +175,10 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">Just</W>
 <W msd="VAF" tag="VB" in="" out="-1:mod|1:pobj|12:pnct">look</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">at</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Wood</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod|-2:pnct|1:pnct|2:pnct|3:ref|4:rel">Personage</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj" out="">which</W>
 <W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:lobj">goes</W>
@@ -203,15 +203,15 @@
 <W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="-1:quant">recent</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">lithographs</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="AC" tag="CD" in="-7:appa" out="1:mod|7:nobj">three</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="3:conj">colourful</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">very</W>
 <W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:quant">spontaneous</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">Dream</W>
 <W msd="NP=P" tag="NNPS" in="-7:nobj" out="-1:mod|-2:pnct|1:pnct">Pictures</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>

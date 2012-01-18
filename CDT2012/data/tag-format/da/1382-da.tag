@@ -155,7 +155,7 @@
 <W gloss="rush" id="154" lemma="hastværk" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:{about}">hastværk</W>
 <W gloss="with" id="155" lemma="med" msd="SP" tag="IN" in="-2:attr|-1:{about}" out="1:nobj">med</W>
 <W gloss="that" id="156" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="flood" id="157" lemma="overfylde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:other">overfylde</W>
+<W _noerror=":nosubj:" gloss="flood" id="157" lemma="overfylde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:other">overfylde</W>
 <W gloss="the" id="158" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">de</W>
 <W gloss="Danish" id="159" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">danske</W>
 <W gloss="stocks" id="160" lemma="lager" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">lagre</W>

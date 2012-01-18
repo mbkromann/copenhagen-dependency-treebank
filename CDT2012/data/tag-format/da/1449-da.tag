@@ -55,7 +55,7 @@
 <W gloss="have" id="54" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:vobj|9:pnct|-4:time">har</W>
 <W gloss="the_Nazis" id="55" lemma="nazist" msd="NCCPU==D" tag="NNP" in="-1:subj|1:[subj]|6:[subj]" out="">nazisterne</W>
 <W gloss="spent" id="56" lemma="bruge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|2:dobj|3:pobj">brugt</W>
-<W _noerror="&3a;nosubj&3a;" gloss="parked" id="57" lemma="parkere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">parkerede</W>
+<W _noerror=":nosubj:" gloss="parked" id="57" lemma="parkere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">parkerede</W>
 <W gloss="Trabants" id="58" lemma="Trabant" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr">Trabanter</W>
 <W gloss="in" id="59" lemma="til" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">til</W>
 <W gloss="that" id="60" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -68,12 +68,12 @@
 <W gloss="small" id="67" lemma="lille" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">små</W>
 <W gloss="plastic_cars" id="68" lemma="plasticbil" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">plasticbiler</W>
 <W gloss="were" id="69" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="10:pnct|1:preds|-3:subj|4:goal">bliver</W>
-<W _noerror="&3a;nosubj&3a;" gloss="bolted" id="70" lemma="stikke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:other">stukket</W>
+<W _noerror=":nosubj:" gloss="bolted" id="70" lemma="stikke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:other">stukket</W>
 <W gloss="in" id="71" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="fire" id="72" lemma="brand" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">brand</W>
 <W gloss="for" id="73" lemma="for" msd="SP" tag="IN" in="-4:goal" out="1:nobj">for</W>
 <W gloss="that" id="74" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="keep" id="75" lemma="holde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:predo">holde</W>
+<W _noerror=":nosubj:" gloss="keep" id="75" lemma="holde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:predo">holde</W>
 <W gloss="the_police" id="76" lemma="politi" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">politiet</W>
 <W gloss="at" id="77" lemma="på" msd="SP" tag="IN" in="-2:predo" out="1:nobj">på</W>
 <W gloss="distance" id="78" lemma="afstand" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">afstand</W>
@@ -198,9 +198,9 @@
 <W gloss="." id="197" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="&amp;quot;" id="200" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="200" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="Violence_tourism" id="201" lemma="voldsturisme" msd="NCCSU==I" tag="NN" in="4:dobj" out="-1:pnct|1:pnct">Voldsturisme</W>
-<W gloss="&amp;quot;" id="202" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="202" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="is" id="203" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="3:pnct|2:preds|1:subj">bliver</W>
 <W gloss="it" id="204" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="called" id="205" lemma="kalde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="-4:dobj">kaldt</W>
@@ -241,7 +241,7 @@
 <W gloss="Second" id="240" lemma="anden" msd="AO---U=--" tag="JJ" in="1:attr" out="">Anden</W>
 <W gloss="World_War" id="241" lemma="verdenskrig" msd="NCCSU==I" tag="NN" in="1:subj" out="-1:attr">Verdenskrig</W>
 <W gloss="was" id="242" lemma="blive" msd="VADA=----A-" tag="VBD" in="-6:relr" out="-3:time|1:preds|-1:subj|2:time">blev</W>
-<W _noerror="&3a;nosubj&3a;" gloss="started" id="243" lemma="starte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">startet</W>
+<W _noerror=":nosubj:" gloss="started" id="243" lemma="starte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">startet</W>
 <W gloss="in" id="244" lemma="i" msd="SP" tag="IN" in="-2:time" out="1:nobj">i</W>
 <W gloss="1939" id="245" lemma="1939" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1939</W>
 <W gloss="." id="246" lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>

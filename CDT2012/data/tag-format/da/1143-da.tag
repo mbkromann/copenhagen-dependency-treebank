@@ -57,7 +57,7 @@
 <W gloss="fee" id="56" lemma="afgift" msd="NCCSU==I" tag="NN" in="-3:nobj" out="1:pobj|1:{arg}">afgift</W>
 <W gloss="for" id="57" lemma="på" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">på</W>
 <W gloss="that" id="58" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="transporting" id="59" lemma="transportere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:accom|5:loc">transportere</W>
+<W _noerror=":nosubj:" gloss="transporting" id="59" lemma="transportere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:accom|5:loc">transportere</W>
 <W gloss="a" id="60" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="dog" id="61" lemma="hund" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">hund</W>
 <W gloss="along" id="62" lemma="med" msd="SP" tag="IN" in="-3:accom" out="1:nobj">med</W>
@@ -147,7 +147,7 @@
 <W gloss="Kapel" id="146" lemma="kapel" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">Kapel</W>
 <W gloss="and" id="147" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Cristofoli" id="148" lemma="Christofoli" msd="NP--U==-" tag="NNP" in="-4:conj" out="-1:coord">Christofoli</W>
-<W _noerror="&3a;nosubj&3a;" gloss="discussed" id="149" lemma="omtale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-10:preds" out="1:man">omtalt</W>
+<W _noerror=":nosubj:" gloss="discussed" id="149" lemma="omtale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-10:preds" out="1:man">omtalt</W>
 <W gloss="in" id="150" lemma="i" msd="SP" tag="IN" in="-1:man" out="3:nobj">i</W>
 <W gloss="very" id="151" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
 <W gloss="unfortunate" id="152" lemma="uheldig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:quant">uheldige</W>

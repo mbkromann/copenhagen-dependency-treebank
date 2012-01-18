@@ -7,7 +7,7 @@
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">child</W>
 <W msd="NC=S" tag="NN" in="" out="1:pnct|19:list|38:pnct">ÅRHUS</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="17:subj|18:[subj]" out="1:nobj|6:pnct">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj|7:appa">parents</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">of</W>
@@ -96,9 +96,9 @@
 <W msd="PD" tag="DT" in="-2:dobj" out="1:mod|2:nobj|4:appa|6:mod">the</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">desired</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">surname</W>
-<W msd="XP" tag="&3a;" in="" out="">-</W>
+<W msd="XP" tag=":" in="" out="">-</W>
 <W msd="NP=S" tag="NNP" in="-4:appa" out="1:pnct">Bech-Illum</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-6:mod" out="">like</W>
 <W msd="PO" tag="PRP$" in="" out="">her</W>
 <W msd="ANP" tag="JJ" in="" out="">big</W>
@@ -115,7 +115,7 @@
 <W msd="PD" tag="DT" in="" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sea</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|4:list|9:pnct">ESBJERG</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sea</W>
 <W msd="VADR" tag="VBZ" in="-4:list" out="-2:subj|4:conj">takes</W>
@@ -154,9 +154,9 @@
 <W msd="U=" tag="TO" in="" out="">to</W>
 <W msd="PD" tag="DT" in="-2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:possd">sea's</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="-1:pnct|1:pnct|2:pobj">harvest</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">of</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">cargo</W>

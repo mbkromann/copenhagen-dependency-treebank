@@ -89,7 +89,7 @@
 <W gloss="million" id="88" lemma="million" msd="NCCSU==I" tag="NN" in="-3:nobj" out="-2:numm|1:attr">million</W>
 <W gloss="minors" id="89" lemma="mindreårig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">mindreårige</W>
 <W gloss="said" id="90" lemma="sige" msd="VADA=----A-" tag="VBD" in="-9:vobj" out="-8:subj|1:pnct|7:qobj|-7:scene">sagde</W>
-<W gloss="&3a;" id="91" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="91" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 </p>
 <p>
@@ -119,7 +119,7 @@
 <W gloss="?" id="118" lemma="?" msd="XP" tag="?" in="-5:pnct" out="">?</W>
 </s>
 <s>
-<W _noerror="&3a;nosubj&3a;" gloss="Read" id="121" lemma="læse" msd="VAM-=------" tag="VB" in="" out="1:prg|2:dobj|6:pnct|3:iter">Læs</W>
+<W _noerror=":nosubj:" gloss="Read" id="121" lemma="læse" msd="VAM-=------" tag="VB" in="" out="1:prg|2:dobj|6:pnct|3:iter">Læs</W>
 <W gloss="just" id="122" lemma="lige" msd="RGU" tag="RP" in="-1:prg" out="">lige</W>
 <W gloss="the_sentence" id="123" lemma="sætning" msd="NCCSU==D" tag="NN" in="-2:dobj" out="">sætningen</W>
 <W gloss="one" id="124" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:iter" out="1:nobj|2:other">een</W>
@@ -191,7 +191,7 @@
 <W gloss="at_times" id="190" lemma="indimellem" msd="RGU" tag="RP" in="1:iter" out="">indimellem</W>
 <W gloss="has" id="191" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|-1:iter">har</W>
 <W gloss="been" id="192" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:preds">været</W>
-<W _noerror="&3a;nosubj&3a;" gloss="affected" id="193" lemma="påvirke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:agent">påvirket</W>
+<W _noerror=":nosubj:" gloss="affected" id="193" lemma="påvirke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:agent">påvirket</W>
 <W gloss="by" id="194" lemma="af" msd="SP" tag="IN" in="-1:agent" out="1:nobj">af</W>
 <W gloss="the" id="195" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj|3:pnct|4:ref|6:relr">de</W>
 <W gloss="many" id="196" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">mange</W>

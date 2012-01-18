@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
 <W msd="VADR" tag="VBP" in="20:qobj" out="-1:subj|-2:pnct|1:dobj|18:pnct|19:pnct">believe</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
@@ -20,7 +20,7 @@
 <W msd="NC=S" tag="NN" in="-1:coord" out="">service</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-3:mod">obligations</W>
 <W msd="XP" tag="," in="-18:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-20:qobj|4:subj|5:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="3:namef" out="1:namef">Jens</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Holger</W>
@@ -73,7 +73,7 @@
 <W msd="XP" tag="." in="-39:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="9:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="9:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="8:mod" out="1:nobj|4:pnct">Before</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">duty</W>
@@ -149,7 +149,7 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">great</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">quantities</W>
 <W msd="XP" tag="," in="-22:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-23:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-23:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-24:qobj|4:subj|5:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="3:namef" out="1:namef">Jens</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Holger</W>

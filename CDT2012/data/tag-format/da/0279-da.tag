@@ -279,7 +279,7 @@
 <W gloss="strange" id="278" lemma="sær" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">sært</W>
 <W gloss="place" id="279" lemma="sted" msd="NCNSU==I" tag="NN" in="-2:nobj" out="1:nobj">sted</W>
 <W gloss="to" id="280" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="meet" id="281" lemma="mødes" msd="VEF-=----A-" tag="VB" in="-1:vobj" out="">mødes</W>
+<W _noerror=":nosubj:" gloss="meet" id="281" lemma="mødes" msd="VEF-=----A-" tag="VB" in="-1:vobj" out="">mødes</W>
 <W gloss="." id="282" lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 </p>

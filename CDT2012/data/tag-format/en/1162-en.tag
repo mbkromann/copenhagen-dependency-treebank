@@ -5,9 +5,9 @@
 <W msd="VADR" tag="VBZ" in="36:qobj" out="-3:mod|-1:subj|1:preds|34:pnct|35:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">important</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="2:vobj|10:conj">to</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:vobj" out="-1:pnct|1:pnct|2:dobj|5:mod">gear</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">projects</W>
@@ -37,7 +37,7 @@
 <W msd="NP=S" tag="NNP" in="-5:appa" out="-1:pnct|1:pnct">EBRD</W>
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
 <W msd="XP" tag="," in="-34:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-35:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-35:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-36:qobj|3:subj|11:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="1:namef">Jens</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Erik</W>
@@ -95,7 +95,7 @@
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">banks</W>
 <W msd="VADR" tag="VBP" in="33:qobj" out="-3:pnct|-2:subj|1:vobj|14:conj|31:pnct|32:pnct">have</W>
@@ -130,7 +130,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="-4:mod">and</W>
 <W msd="NP=S" tag="NNP" in="-4:conj" out="-1:coord">EBRD</W>
 <W msd="XP" tag="," in="-31:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-32:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-32:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-33:qobj|3:subj|4:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="1:namef">Jens</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Erik</W>
@@ -167,7 +167,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">examples</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">:</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">central</W>
 <W msd="NC=S" tag="NN" in="-6:xpl" out="-1:attr|1:mod|5:list|10:pnct|11:conj|24:pnct|26:conj">heating</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>

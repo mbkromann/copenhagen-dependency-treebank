@@ -67,7 +67,7 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="3:pnct" out="">-</W>
+<W msd="XP" tag=":" in="3:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">No</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Armenians</W>
 <W msd="VADA" tag="VBD" in="" out="-3:pnct|-2:subj|1:vobj|4:pnct">were</W>

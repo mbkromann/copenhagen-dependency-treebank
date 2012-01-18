@@ -71,14 +71,14 @@
 <s>
 <W gloss="From" id="71" lemma="fra" msd="SP" tag="IN" in="2:@dir" out="1:nobj">Fra</W>
 <W gloss="Hungary" id="72" lemma="Ungarn" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Ungarn</W>
-<W gloss="come" id="73" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="1:subj|4:coord|11:pnct|16:conj|21:pnct|-2:@dir|5:&lt;@dir&3a;2&gt;|7:&lt;subj&3a;2&gt;">kommer</W>
+<W gloss="come" id="73" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="1:subj|4:coord|11:pnct|16:conj|21:pnct|-2:@dir|5:&lt;@dir:2&gt;|7:&lt;subj:2&gt;">kommer</W>
 <W gloss="they" id="74" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj">de</W>
 <W gloss="healthy" id="75" lemma="rask" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">raske</W>
 <W gloss="athletes" id="76" lemma="atlet" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">atleter</W>
 <W gloss="and" id="77" lemma="og" msd="CC" tag="CC" in="-4:coord" out="">og</W>
-<W gloss="from" id="78" lemma="fra" msd="SP" tag="IN" in="-5:&lt;@dir&3a;2&gt;" out="">fra</W>
+<W gloss="from" id="78" lemma="fra" msd="SP" tag="IN" in="-5:&lt;@dir:2&gt;" out="">fra</W>
 <W gloss="Africa" id="79" lemma="Afrika" msd="NP--U==-" tag="NNP" in="" out="">Afrika</W>
-<W gloss="a" id="80" lemma="en" msd="PI-CSU--U" tag="DT" in="-7:&lt;subj&3a;2&gt;" out="1:nobj|2:attr">en</W>
+<W gloss="a" id="80" lemma="en" msd="PI-CSU--U" tag="DT" in="-7:&lt;subj:2&gt;" out="1:nobj|2:attr">en</W>
 <W gloss="palette" id="81" lemma="palet" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:{const}">palet</W>
 <W gloss="with" id="82" lemma="med" msd="SP" tag="IN" in="-2:attr|-1:{const}" out="1:nobj">med</W>
 <W gloss="hummingbirds" id="83" lemma="kolibri" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kolibrier</W>
@@ -128,7 +128,7 @@
 <W gloss="bears" id="127" lemma="bære" msd="VADR=----A-" tag="VBD" in="-3:relr" out="-1:subj|1:pobj">bærer</W>
 <W gloss="in" id="128" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="the_text" id="129" lemma="tekst" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pnct|2:xpl">teksten</W>
-<W gloss="&3a;" id="130" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="130" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="Keep" id="131" lemma="holde" msd="VAM-=------" tag="VB" in="-2:xpl" out="1:dobj|3:pnct|2:predo">Hold</W>
 <W gloss="Denmark" id="132" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:dobj" out="">Danmark</W>
 <W gloss="clean" id="133" lemma="ren" msd="ANPNSU=IU" tag="JJ" in="-2:predo" out="">rent</W>
@@ -140,7 +140,7 @@
 <W gloss="The_illustration" id="139" lemma="illustration" msd="NCCSU==D" tag="NN" in="1:subj" out="">Illustrationen</W>
 <W gloss="is" id="140" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|2:pnct|5:xpl">er</W>
 <W gloss="simple" id="141" lemma="enkel" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">enkel</W>
-<W gloss="&3a;" id="142" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W gloss=":" id="142" lemma=":" msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W gloss="A" id="143" lemma="en" msd="PI-CSU--U" tag="DT" in="2:subj" out="1:nobj">En</W>
 <W gloss="dog" id="144" lemma="hund" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">hund</W>
 <W gloss="turns" id="145" lemma="vende" msd="VADR=----A-" tag="VBD" in="-5:xpl" out="-2:subj|1:dobj|2:pobj|21:pnct">vender</W>
@@ -229,7 +229,7 @@
 <W gloss="letter" id="228" lemma="brev" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:{about}">brev</W>
 <W gloss="with" id="229" lemma="med" msd="SP" tag="IN" in="-2:attr|-1:{about}" out="1:nobj">med</W>
 <W gloss="the_wording" id="230" lemma="ordlyd" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pnct|2:xpl">ordlyden</W>
-<W gloss="&3a;" id="231" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="231" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="PS" id="232" lemma="postscriptum" msd="NCNSU==I" tag="NN" in="-2:xpl" out="1:pnct">PS</W>
 <W gloss="!" id="233" lemma="!" msd="XP" tag="!" in="-1:pnct" out="">!</W>
 </s>

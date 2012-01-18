@@ -60,7 +60,7 @@
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="11:qobj" out="-1:pnct|2:conj|9:pnct|10:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:dobj|3:vobj">let</W>
@@ -71,7 +71,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">dirty</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">work</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-10:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-11:qobj|1:subj|4:pnct|5:time|28:pnct">commented</W>
 <W msd="PI" tag="DT" in="-1:subj" out="1:mod|2:nobj">a</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Croatian</W>
@@ -188,10 +188,10 @@
 <s>
 <W msd="PD" tag="DT" in="14:subj" out="1:nobj|6:mod|11:pnct">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pnct|3:conj">satisfaction</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="2:pnct">and</W>
 <W msd="ANP" tag="JJ" in="-3:conj" out="-1:coord">self-satisfaction</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-6:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="2:conj">Croatians</W>
@@ -228,10 +228,10 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">country</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PO" tag="PRP$" in="-3:conj" out="-1:coord|1:pnct|2:attr|5:possd|6:pnct">its</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="2:conj">successful</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">realistic</W>
 <W msd="AC" tag="CD" in="-5:possd|-15:pnct#" out="">policies.</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 </s>

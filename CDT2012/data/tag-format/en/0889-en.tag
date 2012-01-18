@@ -152,11 +152,11 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj|4:[subj]|13:[subj]" out="">SF</W>
 <W msd="VADR" tag="VBZ" in="" out="-4:mod|-1:subj|1:pnct|2:neg|3:vobj|4:pnct|5:pnct|19:pnct">is</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-4:[subj]|3:ref|5:rel|8:dobj">obligated</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="-3:ref|3:mod" out="">as</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-5:rel" out="-1:subj|1:vobj|2:pnct">is</W>
@@ -205,7 +205,7 @@
 <W msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">We</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:vobj|11:pnct">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:pobj|5:accom">complying</W>
@@ -226,7 +226,7 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">deeply</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">humiliating</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-5:qobj|2:subj|3:pnct">thought</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Kaj</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Poulsen</W>
@@ -237,10 +237,10 @@
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Risgaard</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-2:namef|-1:namel">Knudsen</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:pnct|6:qobj|13:pnct">said</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="-6:qobj" out="-2:pnct|-1:subj|2:preds">am</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">extremely</W>
@@ -277,5 +277,5 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">political</W>
 <W msd="AC" tag="CD" in="-2:nobj" out="-1:attr">mess.</W>
-<W msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
 </s>

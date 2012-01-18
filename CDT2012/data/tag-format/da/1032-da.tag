@@ -41,19 +41,19 @@
 <div1 type=main>
 <p>
 <s>
-<W _noerror="&3a;noante&3a;" gloss="It" id="43" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">Det</W>
-<W _noerror="&3a;nogov&3a;" gloss="has_been" id="44" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|2:pnct|21:pnct|27:+CONST&3a;exem/(fx)">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="demonstrated" id="45" lemma="påvise" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">påvist</W>
+<W _noerror=":noante:" gloss="It" id="43" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">Det</W>
+<W _noerror=":nogov:" gloss="has_been" id="44" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|2:pnct|21:pnct|27:+CONST:exem/(fx)">er</W>
+<W _noerror=":nosubj:" gloss="demonstrated" id="45" lemma="påvise" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">påvist</W>
 <W gloss="," id="46" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" id="47" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="2:vobj">at</W>
-<W _noerror="&3a;noante&3a;" gloss="g-days" id="48" lemma="g-dag" msd="NCCPU==D" tag="NNP" in="1:subj" out="">g-dagene</W>
+<W _noerror=":noante:" gloss="g-days" id="48" lemma="g-dag" msd="NCCPU==D" tag="NNP" in="1:subj" out="">g-dagene</W>
 <W gloss="have" id="49" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:dobj">har</W>
 <W gloss="unreasonable" id="50" lemma="urimelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">urimelige</W>
 <W gloss="the_consequences" id="51" lemma="konsekvens" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr|1:pobj|1:{arg}">konsekvenser</W>
 <W gloss="on" id="52" lemma="for" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
 <W gloss="businesses" id="53" lemma="virksomhed" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:attr|1:{other}">virksomheder</W>
 <W gloss="with" id="54" lemma="med" msd="SP" tag="IN" in="-1:attr|-1:{other}" out="2:nobj">med</W>
-<W _noerror="&3a;nosubj&3a;" gloss="varying" id="55" lemma="variere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="6:coref">varierende</W>
+<W _noerror=":nosubj:" gloss="varying" id="55" lemma="variere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="6:coref">varierende</W>
 <W gloss="labor_force_requirements" id="56" lemma="arbejdskraftbehov" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:pnct|2:ref|4:relr">arbejdskraftbehov</W>
 <W gloss="," id="57" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="58" lemma="som" msd="U=" tag="WDT" in="-2:ref|2:subj|4:[subj]" out="">som</W>
@@ -69,7 +69,7 @@
 <p>
 <s>
 <W gloss="For_example" id="70" lemma="for_eksempel" msd="RGU" tag="RP" in="1:exem" out="">Fx</W>
-<W gloss="seasonal_swings" id="71" lemma="sæsonsvingning" msd="NCCPU==I" tag="NNP" in="-27:+CONST&3a;exem/(fx)" out="-1:exem|1:attr|1:{loc}|5:conj|13:pnct|19:+CONJ&3a;elab">sæsonsvingninger</W>
+<W gloss="seasonal_swings" id="71" lemma="sæsonsvingning" msd="NCCPU==I" tag="NNP" in="-27:+CONST:exem/(fx)" out="-1:exem|1:attr|1:{loc}|5:conj|13:pnct|19:+CONJ:elab">sæsonsvingninger</W>
 <W gloss="in" id="72" lemma="i" msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">i</W>
 <W gloss="certain" id="73" lemma="vis" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj|34:assoc-telic.agent/(handle)|9:assoc-telic.agent">visse</W>
 <W gloss="businesses" id="74" lemma="erhverv" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">erhverv</W>
@@ -81,18 +81,18 @@
 <W gloss="safety_regulations" id="80" lemma="sikkerhedsbestemmelse" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="1:pobj|1:{arg}">sikkerhedsbestemmelser</W>
 <W gloss="for" id="81" lemma="for" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
 <W gloss="they" id="82" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj|-9:assoc-telic.agent" out="1:attr">de</W>
-<W _noerror="&3a;nosubj&3a;" gloss="employees" id="83" lemma="ansætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">ansatte</W>
+<W _noerror=":nosubj:" gloss="employees" id="83" lemma="ansætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">ansatte</W>
 <W gloss="." id="84" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
 <W gloss="Seasonal_swings" id="89" lemma="sæsonsvingning" msd="NCCPU==I" tag="NNP" in="1:subj" out="">Sæsonsvingninger</W>
-<W gloss="are_due_to" id="90" lemma="skyldes" msd="VEDR=----A-" tag="VBN" in="-19:+CONJ&3a;elab" out="-1:subj|3:dobj|33:pnct|52:+CONJ&3a;elab">skyldes</W>
+<W gloss="are_due_to" id="90" lemma="skyldes" msd="VEDR=----A-" tag="VBN" in="-19:+CONJ:elab" out="-1:subj|3:dobj|33:pnct|52:+CONJ:elab">skyldes</W>
 <W gloss="either" id="91" lemma="enten" msd="RGU" tag="RP" in="15:correl" out="">enten</W>
 <W gloss="climate-related" id="92" lemma="klimamæssig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">klimamæssige</W>
 <W gloss="matters" id="93" lemma="forhold" msd="NCNPU==I" tag="NNP" in="-3:dobj" out="-1:attr|1:pnct|2:xpl|14:conj">forhold</W>
-<W gloss="&3a;" id="94" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="94" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="harvest" id="95" lemma="høst" msd="NCCSU==I" tag="NN" in="-2:xpl" out="1:pnct|2:conj|3:other|4:attr|4:{goal}|7:pnct|8:conj|10:pnct">høst</W>
 <W gloss="," id="96" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="sowing" id="97" lemma="såning" msd="NCCSU==I" tag="NN" in="-2:conj" out="">såning</W>
@@ -105,14 +105,14 @@
 <W gloss=")" id="104" lemma=")" msd="XP" tag=")" in="-1:pnct" out="">)</W>
 <W gloss="," id="105" lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W gloss="or" id="106" lemma="eller" msd="CC" tag="CC" in="1:coord" out="-15:correl">eller</W>
-<W _noerror="&3a;noante&3a;" gloss="customer" id="107" lemma="kunde" msd="NCCPG==D" tag="NNP" in="-14:conj|1:[subj]|1:{agent}|-34:assoc-telic.agent/(handle)" out="-1:coord|1:possd|2:pnct|3:xpl">kundernes</W>
+<W _noerror=":noante:" gloss="customer" id="107" lemma="kunde" msd="NCCPG==D" tag="NNP" in="-14:conj|1:[subj]|1:{agent}|-34:assoc-telic.agent/(handle)" out="-1:coord|1:possd|2:pnct|3:xpl">kundernes</W>
 <W gloss="preferences" id="108" lemma="præference" msd="NCCPU==I" tag="NNP" in="-1:possd" out="-1:[subj]|-1:{agent}">præferencer</W>
-<W gloss="&3a;" id="109" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W gloss=":" id="109" lemma=":" msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W gloss="Christmas_trees" id="110" lemma="juletræ" msd="NCNPU==I" tag="NNP" in="-3:xpl" out="1:pnct|2:conj|5:pnct|6:conj|9:pnct|10:conj|12:other">juletræer</W>
 <W gloss="," id="111" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="decorative_greenery" id="112" lemma="pyntegrønt" msd="NCNSU==I" tag="NN" in="-2:conj" out="1:attr|1:{loc}">pyntegrønt</W>
 <W gloss="in" id="113" lemma="i" msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">i</W>
-<W _noerror="&3a;noante&3a;" gloss="forestry" id="114" lemma="skovbrug" msd="NCNSU==D" tag="NN" in="-1:nobj" out="20:coref-iden">skovbruget</W>
+<W _noerror=":noante:" gloss="forestry" id="114" lemma="skovbrug" msd="NCNSU==D" tag="NN" in="-1:nobj" out="20:coref-iden">skovbruget</W>
 <W gloss="," id="115" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="cultivation_of_flowers" id="116" lemma="blomsterdyrkning" msd="NCCSU==I" tag="NN" in="-6:conj" out="1:attr|1:{goal}">blomsterdyrkning</W>
 <W gloss="for" id="117" lemma="til" msd="SP" tag="IN" in="-1:attr|-1:{goal}" out="1:nobj">til</W>
@@ -128,26 +128,26 @@
 <s>
 <W gloss="in" id="128" lemma="inden" msd="RGU" tag="RP" in="14:loc" out="1:pobj">Inden</W>
 <W gloss="for" id="129" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W _noerror="&3a;noante&3a;" gloss="agriculture" id="130" lemma="landbrug" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|7:pnct|8:conj|9:pnct|10:conj|11:other">landbruget</W>
+<W _noerror=":noante:" gloss="agriculture" id="130" lemma="landbrug" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|7:pnct|8:conj|9:pnct|10:conj|11:other">landbruget</W>
 <W gloss="," id="131" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W _noerror="&3a;noante&3a;" gloss="the_equipment_pool_area" id="132" lemma="maskinstationsområde" msd="NCNSU==D" tag="NN" in="-2:conj" out="61:coref-var">maskinstationsområdet</W>
+<W _noerror=":noante:" gloss="the_equipment_pool_area" id="132" lemma="maskinstationsområde" msd="NCNSU==D" tag="NN" in="-2:conj" out="61:coref-var">maskinstationsområdet</W>
 <W gloss="," id="133" lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="forestry" id="134" lemma="skovbrug" msd="NCNSU==D" tag="NN" in="-4:conj|-20:coref-iden" out="">skovbruget</W>
 <W gloss="," id="135" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W _noerror="&3a;noante&3a;" gloss="gardening" id="136" lemma="gartneribrug" msd="NCNSU==D" tag="NN" in="-6:conj" out="">gartneribruget</W>
+<W _noerror=":noante:" gloss="gardening" id="136" lemma="gartneribrug" msd="NCNSU==D" tag="NN" in="-6:conj" out="">gartneribruget</W>
 <W gloss="," id="137" lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W _noerror="&3a;noante&3a;" gloss="nurseries" id="138" lemma="planteskole" msd="NCCPU==D" tag="NNP" in="-8:conj" out="">planteskolerne</W>
+<W _noerror=":noante:" gloss="nurseries" id="138" lemma="planteskole" msd="NCCPU==D" tag="NNP" in="-8:conj" out="">planteskolerne</W>
 <W gloss="," id="139" lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W _noerror="&3a;noante&3a;" gloss="anlægsgartnerne" id="140" lemma="anlægsgartner" msd="NCCPU==D" tag="NNP" in="-10:conj" out="">anlægsgartnerne</W>
+<W _noerror=":noante:" gloss="anlægsgartnerne" id="140" lemma="anlægsgartner" msd="NCCPU==D" tag="NNP" in="-10:conj" out="">anlægsgartnerne</W>
 <W gloss="etc." id="141" lemma="med_videre" msd="RGU" tag="RP" in="-11:other" out="">m.v.</W>
-<W gloss="have_been" id="142" lemma="være" msd="VADR=----A-" tag="VBD" in="-52:+CONJ&3a;elab" out="-14:loc|1:expl|2:vobj|14:pnct|21:conj|26:pnct|33:+CONJ&3a;elab">er</W>
+<W gloss="have_been" id="142" lemma="være" msd="VADR=----A-" tag="VBD" in="-52:+CONJ:elab" out="-14:loc|1:expl|2:vobj|14:pnct|21:conj|26:pnct|33:+CONJ:elab">er</W>
 <W gloss="there" id="143" lemma="der" msd="U=" tag="WDT" in="-1:expl|1:[expl]" out="">der</W>
 <W gloss="deployed" id="144" lemma="udfolde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[expl]|2:dobj">udfoldet</W>
 <W gloss="great" id="145" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">store</W>
 <W gloss="efforts" id="146" lemma="bestræbelse" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr|1:pobj.pobj|1:{patient}">bestræbelser</W>
 <W gloss="in" id="147" lemma="på" msd="SP" tag="IN" in="-1:pobj.pobj|-1:{patient}" out="1:nobj">på</W>
 <W gloss="that" id="148" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="achieve" id="149" lemma="opnå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">opnå</W>
+<W _noerror=":nosubj:" gloss="achieve" id="149" lemma="opnå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">opnå</W>
 <W gloss="a" id="150" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">en</W>
 <W gloss="more" id="151" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mere</W>
 <W gloss="even" id="152" lemma="jævn" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:quant">jævn</W>
@@ -159,7 +159,7 @@
 <W gloss="circumstances" id="158" lemma="forhold" msd="NCNPU==I" tag="NNP" in="5:subj" out="1:attr|1:{other}">forhold</W>
 <W gloss="without" id="159" lemma="uden" msd="RGU" tag="RP" in="-1:attr|-1:{other}" out="1:pobj">uden</W>
 <W gloss="for" id="160" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W _noerror="&3a;noante&3a;" gloss="the_employer's" id="161" lemma="arbejdsgiver" msd="NCCPG==D" tag="NNP" in="-1:nobj|1:{arg}" out="1:possd">arbejdsgivernes</W>
+<W _noerror=":noante:" gloss="the_employer's" id="161" lemma="arbejdsgiver" msd="NCCPG==D" tag="NNP" in="-1:nobj|1:{arg}" out="1:possd">arbejdsgivernes</W>
 <W gloss="influence" id="162" lemma="indflydelse" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{arg}">indflydelse</W>
 <W gloss="set" id="163" lemma="sætte" msd="VADR=----A-" tag="VBD" in="-21:conj" out="-5:subj|-6:coord|1:dobj">sætter</W>
 <W gloss="limits" id="164" lemma="grænse" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="1:pobj|1:{arg}">grænser</W>
@@ -173,11 +173,11 @@
 <s>
 <W gloss="A" id="173" lemma="en" msd="PI-CSU--U" tag="DT" in="2:subj|3:[subj]" out="1:nobj">En</W>
 <W gloss="study" id="174" lemma="undersøgelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">undersøgelse</W>
-<W gloss="has" id="175" lemma="have" msd="VADR=----A-" tag="VBD" in="-33:+CONJ&3a;elab" out="-2:subj|1:vobj|23:conj|31:pnct|51:+CONJ">har</W>
+<W gloss="has" id="175" lemma="have" msd="VADR=----A-" tag="VBD" in="-33:+CONJ:elab" out="-2:subj|1:vobj|23:conj|31:pnct|51:+CONJ">har</W>
 <W gloss="shown" id="176" lemma="vise" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pnct|2:dobj">vist</W>
 <W gloss="," id="177" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="178" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="6:vobj">at</W>
-<W _noerror="&3a;noante&3a;" gloss="the" id="179" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="5:subj|6:[subj]" out="1:nobj">de</W>
+<W _noerror=":noante:" gloss="the" id="179" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="5:subj|6:[subj]" out="1:nobj">de</W>
 <W gloss="two" id="180" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:attr|2:attr|3:nobj">to</W>
 <W gloss="first" id="181" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
 <W gloss="employer-paid" id="182" lemma="arbejdsgiverbetalt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="">arbejdsgiverbetalte</W>
@@ -188,7 +188,7 @@
 <W gloss="better" id="187" lemma="god" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">bedre</W>
 <W gloss="planning" id="188" lemma="planlægning" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj.dobj|1:{patient}">planlægning</W>
 <W gloss="of" id="189" lemma="af" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">af</W>
-<W _noerror="&3a;noante&3a;" gloss="labor_force_consumption" id="190" lemma="arbejdskraftforbrug" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">arbejdskraftforbruget</W>
+<W _noerror=":noante:" gloss="labor_force_consumption" id="190" lemma="arbejdskraftforbrug" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">arbejdskraftforbruget</W>
 <W gloss="(" id="191" lemma="(" msd="XP" tag="(" in="2:pnct" out="">(</W>
 <W gloss="the_former_." id="192" lemma="eksempel" msd="NCNSU==I" tag="NN" in="1:exem" out="">eks.</W>
 <W gloss="equipment_pools" id="193" lemma="maskinsation" msd="NCCPU==D" tag="NNP" in="-9:elab|-61:coref-var" out="-2:pnct|-1:exem|1:pnct">maskinsationerne</W>
@@ -210,7 +210,7 @@
 <p>
 <s>
 <W gloss="Since" id="211" lemma="da" msd="CS" tag="IN" in="15:cause" out="10:vobj">Da</W>
-<W _noerror="&3a;noante&3a;" gloss="the_deliveries" id="212" lemma="leverance" msd="NCCPU==D" tag="NNP" in="9:subj" out="1:pobj.dobj|1:{patient}|5:pobj">leverancerne</W>
+<W _noerror=":noante:" gloss="the_deliveries" id="212" lemma="leverance" msd="NCCPU==D" tag="NNP" in="9:subj" out="1:pobj.dobj|1:{patient}|5:pobj">leverancerne</W>
 <W gloss="of" id="213" lemma="af" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">af</W>
 <W gloss="milk" id="214" lemma="mælk" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">mælk</W>
 <W gloss="and" id="215" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -221,20 +221,20 @@
 <W gloss="slaughterhouses" id="220" lemma="slagteri" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">slagterier</W>
 <W gloss="happen" id="221" lemma="ske" msd="VADR=----A-" tag="VBD" in="-10:vobj" out="-9:subj|1:man|2:iter|4:pnct">sker</W>
 <W gloss="continuously" id="222" lemma="løbende" msd="ANP---=-R" tag="JJ" in="-1:man" out="">løbende</W>
-<W _noerror="&3a;noante&3a;" gloss="the_year" id="223" lemma="år" msd="NCNSU==D" tag="NN" in="-2:iter" out="1:other">året</W>
+<W _noerror=":noante:" gloss="the_year" id="223" lemma="år" msd="NCNSU==D" tag="NN" in="-2:iter" out="1:other">året</W>
 <W gloss="round" id="224" lemma="rundt" msd="RGU" tag="RP" in="-1:other" out="">rundt</W>
 <W gloss="," id="225" lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="arise" id="226" lemma="opstå" msd="VADR=----A-" tag="VBD" in="-51:+CONJ" out="-15:cause|1:expl|3:dobj|4:time|6:pnct|7:time|21:pnct|27:AGENTIVE&3a;reas/(fordi)">opstår</W>
+<W gloss="arise" id="226" lemma="opstå" msd="VADR=----A-" tag="VBD" in="-51:+CONJ" out="-15:cause|1:expl|3:dobj|4:time|6:pnct|7:time|21:pnct|27:AGENTIVE:reas/(fordi)">opstår</W>
 <W gloss="there" id="227" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="special" id="228" lemma="særlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">særlige</W>
 <W gloss="problems" id="229" lemma="problem" msd="NCNPU==I" tag="NNP" in="-3:dobj" out="-1:attr">problemer</W>
 <W gloss="in" id="230" lemma="i" msd="SP" tag="IN" in="-4:time" out="1:nobj">i</W>
-<W _noerror="&3a;noante&3a;" gloss="the_summer_period" id="231" lemma="sommerperiode" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">sommerperioden</W>
+<W _noerror=":noante:" gloss="the_summer_period" id="231" lemma="sommerperiode" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">sommerperioden</W>
 <W gloss="," id="232" lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="when" id="233" lemma="når" msd="CS" tag="IN" in="-7:time" out="7:vobj">når</W>
-<W _noerror="&3a;noante&3a;" gloss="employees" id="234" lemma="medarbejder" msd="NCCPU==D" tag="NNP" in="6:subj|8:[subj]" out="1:pobj|1:{arg}">medarbejderne</W>
+<W _noerror=":noante:" gloss="employees" id="234" lemma="medarbejder" msd="NCCPU==D" tag="NNP" in="6:subj|8:[subj]" out="1:pobj|1:{arg}">medarbejderne</W>
 <W gloss="at" id="235" lemma="på" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">på</W>
-<W _noerror="&3a;noante&3a;" gloss="processing_plants" id="236" lemma="forædlingsvirksomhed" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">forædlingsvirksomhederne</W>
+<W _noerror=":noante:" gloss="processing_plants" id="236" lemma="forædlingsvirksomhed" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">forædlingsvirksomhederne</W>
 <W gloss="to" id="237" lemma="i" msd="SP" tag="IN" in="3:quant" out="2:nobj">i</W>
 <W gloss="great" id="238" lemma="stor" msd="ANPNSU=IU" tag="JJ" in="1:attr" out="">stort</W>
 <W gloss="extent" id="239" lemma="omfang" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">omfang</W>
@@ -251,14 +251,14 @@
 <W gloss="Dairies" id="250" lemma="mejeri" msd="NCNPU==I" tag="NNP" in="3:subj|9:[subj]" out="2:conj">Mejerier</W>
 <W gloss="and" id="251" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="slaughterhouses" id="252" lemma="slagteri" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">slagterier</W>
-<W gloss="do_have" id="253" lemma="have" msd="VADR=----A-" tag="VBD" in="-27:AGENTIVE&3a;reas/(fordi)" out="-3:subj|1:neg|2:dobj|18:pnct">har</W>
+<W gloss="do_have" id="253" lemma="have" msd="VADR=----A-" tag="VBD" in="-27:AGENTIVE:reas/(fordi)" out="-3:subj|1:neg|2:dobj|18:pnct">har</W>
 <W gloss="not" id="254" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="possibility" id="255" lemma="mulighed" msd="NCCSU==I" tag="NN" in="-2:dobj" out="1:pobj|1:{arg}">mulighed</W>
 <W gloss="for" id="256" lemma="for" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
 <W gloss="that" id="257" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="2:vobj">at</W>
-<W gloss="&amp;quot;" id="258" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="258" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="fabrikslukke" id="259" lemma="fabrikslukke" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:pnct|-9:[subj]|1:pnct|2:time|6:pnct|7:resem">fabrikslukke</W>
-<W gloss="&amp;quot;" id="260" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="260" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="2-3" id="261" lemma="2-3" msd="AC---U=--" tag="CD" in="-2:time" out="1:nobj|2:attr">2-3</W>
 <W gloss="weeks" id="262" lemma="uge" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:{time}">uger</W>
 <W gloss="in" id="263" lemma="i" msd="SP" tag="IN" in="-2:attr|-1:{time}" out="1:nobj">i</W>

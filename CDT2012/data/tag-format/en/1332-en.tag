@@ -32,9 +32,9 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">reserve</W>
 <W msd="NP=S" tag="NNP" in="-2:appr" out="">Onyszko</W>
 <W msd="VADA" tag="VBD" in="" out="-3:subj|2:preds|5:conj|10:pnct|11:time|30:pnct">was</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:pnct|1:pnct">cold</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADA" tag="VBD" in="-5:conj" out="-8:[subj]|-1:coord|1:neg|2:vobj">had</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>

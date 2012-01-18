@@ -36,7 +36,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="16:subj" out="1:nobj|2:pnct|6:modp|15:conj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">siblings</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -46,7 +46,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Swedish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">study</W>
-<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">especially</W>
 <W msd="NC=P" tag="NNS" in="-15:conj" out="-2:coord|-1:attr">sisters</W>
@@ -186,13 +186,13 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">woman</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|2:pnct|4:conj|11:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="8:nobj">like</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="5:pnct">and</W>
 <W msd="VADR" tag="VBZ" in="-4:conj" out="-6:[subj]|-1:coord|1:mod|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:pobj">different</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:[nobj]">from</W>
-<W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-5:pnct" out="">-</W>
 <W msd="PO" tag="PRP$" in="-2:[nobj]|-8:nobj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">sister</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>

@@ -50,7 +50,7 @@
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="31:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="31:pnct" out="">"</W>
 <W msd="PT" tag="WRB" in="30:xtop" out="8:vobj|26:ref">When</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
 <W msd="AC" tag="CD" in="6:subj" out="-1:quant|1:nobj">40</W>
@@ -94,7 +94,7 @@
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">care</W>
 <W msd="SP" tag="IN" in="-2:part" out="">of</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-13:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-13:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-14:qobj|2:subj|18:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Erlings</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:mod">Olsen</W>
@@ -119,7 +119,7 @@
 <W msd="NP=S" tag="NNP" in="" out="1:pobj">Placement</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">responsibility</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">You</W>
 <W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|2:mod|3:vobj|11:conj|21:pnct">can</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">no</W>
@@ -153,7 +153,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">tightened</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-5:qobj|1:subj|4:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">S</W>
@@ -179,7 +179,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:nobj">Copenhagen</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Stock</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Exchange</W>
-<W msd="XP" tag="&3a;" in="-14:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-14:pnct" out="">:</W>
 </s>
 <s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">New</W>

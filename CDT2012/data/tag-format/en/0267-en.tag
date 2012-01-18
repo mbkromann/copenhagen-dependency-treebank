@@ -20,16 +20,16 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="-11:rel" out="-6:mod|-5:subj|-3:mod|1:@dir|7:conj|11:pnct">goes</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="3:nobj">to</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">Jungle</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-2:pnct|-1:nobj|1:pnct">Club</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADR" tag="VBZ" in="-7:conj" out="-12:[subj]|-1:coord|1:dobj">watches</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">male</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">stripper</W>
-<W msd="XP" tag="&3a;" in="-11:pnct" out="">;</W>
+<W msd="XP" tag=":" in="-11:pnct" out="">;</W>
 <W msd="CC" tag="CC" in="22:coord" out="1:pnct">but</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="20:mod" out="1:pobj">apart</W>
@@ -59,10 +59,10 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pobj">laugh</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">at</W>
 <W msd="SP" tag="IN" in="-6:mod" out="3:nobj">in</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Black</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-2:pnct|-1:mod|1:pnct">Celebration</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-62:pnct" out="">.</W>
 </s>
 <s>
@@ -193,8 +193,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">way</W>
 <W msd="SP" tag="IN" in="-8:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Information</W>
-<W msd="XP" tag="&3a;" in="-10:pnct" out="">:</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-10:pnct" out="">:</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PI" tag="DT" in="-12:xpl" out="-1:pnct|1:nobj|6:mod|22:pnct">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">tribute</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>

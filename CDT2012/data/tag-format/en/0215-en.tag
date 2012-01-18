@@ -139,15 +139,15 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="3:qobj">words</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="-3:qobj" out="-2:pnct|-1:pnct|1:conj|6:pnct">and</W>
 <W msd="PO" tag="PRP$" in="-1:conj" out="1:possd|2:mod">their</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">effects</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">environment</W>
-<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">therein</W>
@@ -192,7 +192,7 @@
 <W msd="VAF" tag="VB" in="" out="">stick</W>
 <W msd="U=" tag="TO" in="" out="1:nobj|2:pnct|5:conj">to</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="">that</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-5:conj" out="-33:[subj]|-2:coord|-1:neg|1:dobj">begin</W>

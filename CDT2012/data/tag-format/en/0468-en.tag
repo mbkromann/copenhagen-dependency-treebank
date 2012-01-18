@@ -189,8 +189,8 @@
 <W msd="PD" tag="DT" in="-5:mod" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">other</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">day</W>
-<W msd="XP" tag="&3a;" in="-8:pnct" out="">:</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-8:pnct" out="">:</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-10:xpl" out="-1:pnct|9:vobj|19:pnct|20:pnct|23:conj|47:pnct">that</W>
 <W msd="NP=S" tag="NNP" in="4:title" out="1:pobj">Minister</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -210,10 +210,10 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">his</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">own</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">ministry</W>
-<W msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
-<W msd="XP" tag="&3a;" in="-20:pnct" out="">-</W>
+<W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
+<W msd="XP" tag=":" in="-20:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-23:conj" out="-1:pnct|-2:coord|2:vobj|23:pnct">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:time|2:vobj">has</W>
@@ -237,6 +237,6 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pobj">Ministry</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Justice</W>
-<W msd="XP" tag="&amp;quot;" in="-23:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-23:pnct" out="">"</W>
 <W msd="XP" tag="." in="-47:pnct" out="">.</W>
 </s>

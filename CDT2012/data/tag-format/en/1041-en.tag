@@ -68,7 +68,7 @@
 <W msd="ANP" tag="JJ" in="-4:attr" out="">main</W>
 <W msd="NC=S" tag="NN" in="-5:mod" out="">governing</W>
 <W msd="NC=S" tag="NN" in="-6:possd" out="">body</W>
-<W msd="XP" tag="&3a;" in="-9:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-9:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-27:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">same</W>

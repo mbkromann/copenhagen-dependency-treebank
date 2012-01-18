@@ -147,7 +147,7 @@
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">Investors</W>
 <W msd="VA" tag="MD" in="15:qobj" out="-2:pnct|-1:subj|1:vobj|13:pnct|14:pnct">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:preds|3:mod|8:time">become</W>
@@ -163,7 +163,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">recovery</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj">appears</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-15:qobj|2:subj|20:time|21:mod|27:pnct">wrote</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Edward</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:rel">Hadas</W>
@@ -194,7 +194,7 @@
 <W msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="U=" tag="EX" in="1:expl|3:[expl]" out="">There</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:expl|1:neg|2:vobj|15:pnct#|16:pnct">need</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
@@ -212,5 +212,5 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">impending</W>
 <W msd="ANP" tag="JJ" in="-2:nobj|-15:pnct#" out="">improvement.</W>
-<W msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 </s>

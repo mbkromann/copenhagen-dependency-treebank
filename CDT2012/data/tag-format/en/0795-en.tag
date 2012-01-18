@@ -125,7 +125,7 @@
 <W msd="XP" tag="." in="-43:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="15:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="15:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="14:subj" out="1:ref|2:rel">Anyone</W>
 <W msd="PT" tag="WP" in="-1:ref|1:subj|2:[subj]" out="">who</W>
 <W msd="VADR" tag="VBZ" in="-2:rel" out="-1:subj|1:vobj">has</W>
@@ -161,7 +161,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">life-threatening</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-5:qobj|3:subj|4:pobj|7:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="">A.</W>
 <W msd="NP=S" tag="NNP" in="1:name" out="">B.</W>

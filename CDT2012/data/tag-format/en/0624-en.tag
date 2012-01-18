@@ -20,7 +20,7 @@
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj">going</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|-6:dobj">have</W>
-<W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-4:pnct" out="">-</W>
 <W msd="VAG" tag="VBG" in="-8:appa" out="1:dobj">hearing</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="">her</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>

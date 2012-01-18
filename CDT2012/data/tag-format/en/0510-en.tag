@@ -135,7 +135,7 @@
 <W msd="VADA" tag="VBD" in="" out="-2:subj|1:mod|6:pobj|12:pnct|15:conj|52:pnct">started</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:pnct|2:mod|3:mod">8</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">00</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">p.m.</W>
 <W msd="SP" tag="IN" in="-6:pobj" out="1:nobj|3:preds">with</W>
@@ -155,7 +155,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:tobj">finish</W>
 <W msd="SP" tag="IN" in="-1:tobj" out="1:nobj">around</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:pnct|2:mod|3:mod">9</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">00</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">p.m.</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -172,7 +172,7 @@
 <W msd="VADA" tag="VBD" in="-22:conj" out="-1:subj|-10:coord|-9:cause|1:preds|6:pnct|7:time">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">around</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:pnct|2:mod|3:mod">10</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:mod" out="">00</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">p.m.</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>

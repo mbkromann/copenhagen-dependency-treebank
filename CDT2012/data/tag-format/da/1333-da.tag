@@ -82,7 +82,7 @@
 <W gloss="she" id="81" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]|9:[subj]" out="">hun</W>
 <W gloss="had" id="82" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|8:conj">var</W>
 <W gloss="been" id="83" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds">blevet</W>
-<W _noerror="&3a;nosubj&3a;" gloss="used" id="84" lemma="bruge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">brugt</W>
+<W _noerror=":nosubj:" gloss="used" id="84" lemma="bruge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">brugt</W>
 <W gloss="as" id="85" lemma="som" msd="U=" tag="WDT" in="-1:pobj" out="2:nobj">som</W>
 <W gloss="living" id="86" lemma="levende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">levende</W>
 <W gloss="pincushion" id="87" lemma="nålepude" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">nålepude</W>
@@ -97,7 +97,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="99" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="99" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="It" id="100" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
 <W gloss="is" id="101" lemma="være" msd="VADR=----A-" tag="VBD" in="25:qobj" out="-1:subj|-2:pnct|1:preds|24:pnct">er</W>
 <W gloss="a" id="102" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj|3:pnct|4:ref|8:relr">en</W>
@@ -109,7 +109,7 @@
 <W gloss="small" id="108" lemma="lille" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">små</W>
 <W gloss="needles" id="109" lemma="nål" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">nåle</W>
 <W gloss="have_been" id="110" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:relr" out="14:pnct|-4:other|1:preds|-3:subj">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="stuck" id="111" lemma="stikke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@dir">stukket</W>
+<W _noerror=":nosubj:" gloss="stuck" id="111" lemma="stikke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:@dir">stukket</W>
 <W gloss="in_favour" id="112" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ind</W>
 <W gloss="in" id="113" lemma="i" msd="SP" tag="IN" in="-1:other" out="6:conj|9:conj|1:nobj">i</W>
 <W gloss="the_girl's" id="114" lemma="pige" msd="NCCSG==D" tag="NN" in="-1:nobj|1:{const}" out="1:possd">pigens</W>
@@ -123,7 +123,7 @@
 <W gloss="in" id="122" lemma="i" msd="SP" tag="IN" in="-9:conj" out="-1:coord|1:nobj">i</W>
 <W gloss="the_knee" id="123" lemma="knæ" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">knæet</W>
 <W gloss="," id="124" lemma="," msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="125" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-24:pnct" out="">"</W>
+<W gloss="&quot;" id="125" lemma="&quot;" msd="XP" tag="&quot;" in="-24:pnct" out="">"</W>
 <W gloss="informs" id="126" lemma="oplyse" msd="VADR=----A-" tag="VBD" in="" out="-25:qobj|3:subj|6:pnct">oplyser</W>
 <W gloss="criminal_superintendent" id="127" lemma="kriminalinspektør" msd="NCCSU==I" tag="NN" in="2:title" out="">kriminalinspektør</W>
 <W gloss="Jørgen" id="128" lemma="Jørgen" msd="NP--U==-" tag="NNP" in="1:namef" out="">Jørgen</W>
@@ -182,7 +182,7 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="184" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="184" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="But" id="185" lemma="men" msd="CC" tag="CC" in="" out="-1:pnct|2:conj|16:pnct">Men</W>
 <W gloss="it" id="186" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="6:ref|8:relr">det</W>
 <W gloss="is" id="187" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|2:preds|4:pnct|1:neg">er</W>
@@ -209,7 +209,7 @@
 <W gloss="not" id="208" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>
 <W gloss="in" id="209" lemma="på" msd="SP" tag="IN" in="-4:pobj" out="-5:nobj">på</W>
 <W gloss="," id="210" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="&amp;quot;" id="211" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
+<W gloss="&quot;" id="211" lemma="&quot;" msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 <W gloss="assures" id="212" lemma="forsikre" msd="VADR=----A-" tag="VBD" in="" out="-7:qobj|1:subj|2:pnct">forsikrer</W>
 <W gloss="the_criminal_superintendent" id="213" lemma="kriminalinspektør" msd="NCCSU==D" tag="NN" in="-1:subj" out="">kriminalinspektøren</W>
 <W gloss="." id="214" lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -217,11 +217,11 @@
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="219" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="219" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="We" id="220" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|8:[subj]" out="">Vi</W>
 <W gloss="are_interrogating" id="221" lemma="afhøre" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:dobj|7:conj|19:pnct">afhører</W>
 <W gloss="the" id="222" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="2:nobj|1:attr|3:attr">den</W>
-<W _noerror="&3a;nosubj&3a;" gloss="limited" id="223" lemma="begrænse" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">begrænsede</W>
+<W _noerror=":nosubj:" gloss="limited" id="223" lemma="begrænse" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">begrænsede</W>
 <W gloss="circle_of_persons" id="224" lemma="personkreds" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:{other}">personkreds</W>
 <W gloss="around" id="225" lemma="omkring" msd="SP" tag="IN" in="-3:attr|-1:{other}" out="1:nobj">omkring</W>
 <W gloss="the_girl" id="226" lemma="pige" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">pigen</W>

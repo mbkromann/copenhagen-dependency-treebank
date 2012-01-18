@@ -44,7 +44,7 @@
 <W gloss="THE_COUNTRY" id="43" lemma="land" msd="NCNSU==D" tag="NN" in="1:nobj" out="">LANDET</W>
 <W gloss="AROUND" id="44" lemma="rundt" msd="RGU" tag="RP" in="" out="-1:nobj">RUNDT</W>
 <W gloss="COPENHAGEN" id="45" lemma="København" msd="NP--U==-" tag="NNP" in="" out="1:pnct|6:other">KØBENHAVN</W>
-<W gloss="&3a;" id="46" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="46" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="A" id="47" lemma="en" msd="PI-CSU--U" tag="DT" in="4:subj|6:[subj]" out="1:nobj|2:attr">En</W>
 <W gloss="dip" id="48" lemma="dukkert" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:{loc}">dukkert</W>
 <W gloss="in" id="49" lemma="i" msd="SP" tag="IN" in="-2:attr|-1:{loc}" out="1:nobj">i</W>
@@ -76,7 +76,7 @@
 <W gloss="June" id="75" lemma="juni" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">juni</W>
 <W gloss="was" id="76" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-2:time|6:pnct|2:preds|1:subj">blev</W>
 <W gloss="bathing" id="77" lemma="badning" msd="NCCSU==I" tag="NN" in="-1:subj" out="">badning</W>
-<W _noerror="&3a;nosubj&3a;" gloss="advised_against" id="78" lemma="fraråde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:¹cause">frarådet</W>
+<W _noerror=":nosubj:" gloss="advised_against" id="78" lemma="fraråde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="1:¹cause">frarådet</W>
 <W compound="¹på_²grund_³af" gloss="due_to" id="79" lemma="på_grund_af" msd="SP" tag="IN" in="-1:¹cause|0:²nobj#¹|0:³pobj#²" out="2:nobj|0:²nobj#¹|0:³pobj#²">på_grund_af</W>
 <W gloss="blågrønne" id="80" lemma="blågrøn" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">blågrønne</W>
 <W gloss="algae" id="81" lemma="alge" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">alger</W>
@@ -121,7 +121,7 @@
 <W gloss="in" id="120" lemma="i" msd="SP" tag="IN" in="-3:attr|-3:{loc}" out="1:nobj">i</W>
 <W gloss="Limfjord" id="121" lemma="Limfjorden" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Limfjorden</W>
 <W gloss="AALBORG" id="122" lemma="Aalborg" msd="NP--U==-" tag="NNP" in="-5:other" out="1:pnct|4:other">AALBORG</W>
-<W gloss="&3a;" id="123" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="123" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="Northern_Jutland" id="124" lemma="Nordjylland" msd="NP--G==-" tag="NNP" in="2:subj|5:[subj]|1:{arg}" out="1:possd">Nordjyllands</W>
 <W gloss="County" id="125" lemma="amt" msd="NCNSU==I" tag="NN" in="-1:possd" out="-1:{arg}">Amt</W>
 <W gloss="has" id="126" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:other" out="-2:subj|3:vobj|1:¹cause">har</W>
@@ -181,7 +181,7 @@
 <W gloss="in" id="180" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Vejle" id="181" lemma="Vejle" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Vejle</W>
 <W gloss="VEJLE" id="182" lemma="Vejle" msd="NP--U==-" tag="NNP" in="-3:other" out="1:pnct|6:other">VEJLE</W>
-<W gloss="&3a;" id="183" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W gloss=":" id="183" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W gloss="A" id="184" lemma="en" msd="PI-CSU--U" tag="DT" in="4:subj|5:[subj]" out="1:nobj|2:attr">En</W>
 <W gloss="water_savings_campaign" id="185" lemma="vandsparekampagne" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:{loc}">vandsparekampagne</W>
 <W gloss="in" id="186" lemma="i" msd="SP" tag="IN" in="-2:attr|-1:{loc}" out="1:nobj">i</W>

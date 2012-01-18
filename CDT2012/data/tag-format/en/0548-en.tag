@@ -47,9 +47,9 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Earth</W>
 <W msd="VAP" tag="VBN" in="-9:vobj" out="-13:[subj]|2:vobj">been</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-15:[subj]|-1:pnct|1:pnct">reversed</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
@@ -84,7 +84,7 @@
 <W msd="PP" tag="PRP" in="-2:focal" out="">themselves</W>
 <W msd="VADR" tag="VBP" in="" out="-10:mod|-3:subj|1:tobj">happen</W>
 <W msd="ANP" tag="RB" in="-1:tobj" out="1:pnct|4:xpl">quickly</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="ANP" tag="RB" in="2:quant" out="">only</W>
 <W msd="SP" tag="IN" in="1:mod" out="">around</W>
 <W msd="AC" tag="CD" in="-4:xpl" out="-1:mod|-2:quant|1:nobj|2:pnct">10,000</W>
@@ -113,7 +113,7 @@
 <W msd="SP" tag="IN" in="-4:mod" out="2:nobj">over</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">long</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">distances</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:focal" out="">even</W>
 <W msd="SP" tag="IN" in="-9:&lt;mod&gt;" out="-1:focal|1:nobj">from</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj|4:[pred]" out="2:rel">places</W>

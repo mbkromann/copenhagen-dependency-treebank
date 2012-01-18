@@ -210,7 +210,7 @@
 <s>
 <W gloss="GROSS" id="210" lemma="brutto" msd="RGU" tag="RP" in="" out="2:conj">BRUTTO</W>
 <W gloss="=" id="211" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
-<W gloss="00_&3a;_35" id="212" lemma="00&3a;35" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">00:35</W>
+<W gloss="00_:_35" id="212" lemma="00:35" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">00:35</W>
 </s>
 </p>
 </div1>
@@ -247,7 +247,7 @@
 <W gloss="TO_BE_BROADCAST" id="246" lemma="udsende" msd="VADR=----P-" tag="VBD" in="" out="1:time">UDSENDES</W>
 <W gloss="at_noon" id="247" lemma="klokke" msd="NCCSU==D" tag="NN" in="-1:time" out="2:conj">KL</W>
 <W gloss="=" id="248" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
-<W gloss="6_&3a;_30_p.m" id="249" lemma="1830" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">1830</W>
+<W gloss="6_:_30_p.m" id="249" lemma="1830" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">1830</W>
 </s>
 </p>
 </div1>

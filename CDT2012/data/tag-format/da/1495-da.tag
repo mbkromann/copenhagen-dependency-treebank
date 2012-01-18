@@ -79,9 +79,9 @@
 <W gloss="the" id="78" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">de</W>
 <W gloss="other" id="79" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|3:nobj">andre</W>
 <W gloss="big" id="80" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">store</W>
-<W gloss="&amp;quot;" id="81" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="81" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="Lego_blocks" id="82" lemma="Lego-klods" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="-1:pnct|1:pnct|2:{const}">Lego-klodser</W>
-<W gloss="&amp;quot;" id="83" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="83" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="in" id="84" lemma="i" msd="SP" tag="IN" in="-8:attr|-2:{const}" out="1:nobj">i</W>
 <W gloss="the_crisis_plan" id="85" lemma="kriseplan" msd="NCCSU==D" tag="NN" in="-1:nobj" out="2:ref|8:relr">kriseplanen</W>
 <W gloss="," id="86" lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
@@ -92,7 +92,7 @@
 <W gloss="the" id="91" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr">det</W>
 <W gloss="contrary" id="92" lemma="modsat" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">modsatte</W>
 <W gloss="will_remain" id="93" lemma="forblive" msd="VADR=----A-" tag="VBD" in="-8:relr" out="-5:conc|-6:subj|1:preds|3:time">forbliver</W>
-<W _noerror="&3a;nosubj&3a;" gloss="under_wraps" id="94" lemma="mørklægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">mørklagt</W>
+<W _noerror=":nosubj:" gloss="under_wraps" id="94" lemma="mørklægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">mørklagt</W>
 <W gloss="the_weekend" id="95" lemma="weekend" msd="NCCSU==D" tag="NN" in="1:nobj" out="">weekenden</W>
 <W gloss="over" id="96" lemma="over" msd="SP" tag="IN" in="-3:time" out="-1:nobj">over</W>
 <W gloss="." id="97" lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
@@ -188,7 +188,7 @@
 <W gloss="Brøndby's" id="187" lemma="Brøndby" msd="NP--G==-" tag="NNP" in="-4:dobj|2:{goal}" out="1:attr|2:possd">Brøndbys</W>
 <W gloss="highest" id="188" lemma="øvre" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">øverste</W>
 <W gloss="stratum_of_sponsors" id="189" lemma="sponsorluftlag" msd="NCNSU==I" tag="NN" in="-2:possd" out="-2:{goal}">sponsorluftlag</W>
-<W gloss="&3a;" id="190" lemma="&3a;" msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
+<W gloss=":" id="190" lemma=":" msd="XP" tag=":" in="-7:pnct" out="">:</W>
 <W gloss="Unibank" id="191" lemma="Unibank" msd="NP--U==-" tag="NNP" in="-8:xpl" out="1:attr|1:{other}|4:conj">Unibank</W>
 <W gloss="as" id="192" lemma="som" msd="U=" tag="WDT" in="-1:attr|-1:{other}" out="1:nobj">som</W>
 <W gloss="Eurosponsor" id="193" lemma="eurosponsor" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">eurosponsor</W>
@@ -201,10 +201,10 @@
 <W gloss="of" id="200" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="the" id="201" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:pnct|4:nobj|5:pnct">den</W>
 <W gloss="so-called" id="202" lemma="såkaldt" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">såkaldte</W>
-<W gloss="&amp;quot;" id="203" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W gloss="&quot;" id="203" lemma="&quot;" msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W gloss="Exclusive" id="204" lemma="Exclusive" msd="NP--U==-" tag="NNP" in="1:attr#" out="">Exclusive</W>
 <W gloss="Club" id="205" lemma="Club" msd="NP--U==-" tag="NNP" in="-4:nobj" out="-1:attr#">Club</W>
-<W gloss="&amp;quot;" id="206" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W gloss="&quot;" id="206" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W gloss="." id="207" lemma="." msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 </p>
@@ -215,9 +215,9 @@
 <W gloss="two" id="214" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
 <W gloss="banks'" id="215" lemma="bank" msd="NCCPG==I" tag="NNP" in="-1:nobj|3:[subj]|3:{agent}" out="">bankers</W>
 <W gloss="financial" id="216" lemma="økonomisk" msd="ANP[CN]SU=DU" tag="JJ" in="-4:attr" out="">økonomiske</W>
-<W gloss="&amp;quot;" id="217" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&quot;" id="217" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="commitment" id="218" lemma="engagement" msd="NCNSU==I" tag="NN" in="-6:possd" out="-1:pnct|-3:[subj]|-3:{agent}|1:pnct|2:pobj.pobj|2:{patient}">engagement</W>
-<W gloss="&amp;quot;" id="219" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="&quot;" id="219" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W gloss="to" id="220" lemma="i" msd="SP" tag="IN" in="-2:pobj.pobj|-2:{patient}" out="1:nobj">i</W>
 <W gloss="Brøndby" id="221" lemma="Brøndby" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Brøndby</W>
 <W gloss="is" id="222" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-10:subj|1:time|4:preds|27:pnct">er</W>

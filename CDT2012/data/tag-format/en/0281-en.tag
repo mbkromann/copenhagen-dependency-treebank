@@ -148,14 +148,14 @@
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|5:conj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">drink</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="-1:pnct|3:pnct">but</W>
 <W msd="VAF" tag="VB" in="-5:conj" out="-1:coord|1:avobj">watch</W>
 <W msd="ANP" tag="RB" in="-1:avobj" out="">out</W>
 <W msd="XP" tag="." in="-3:pnct" out="">!</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="5:pnct" out="">-</W>
+<W msd="XP" tag=":" in="5:pnct" out="">-</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Turkish</W>
 <W msd="NC=P" tag="NNS" in="3:subj" out="-1:attr">men</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">almost</W>

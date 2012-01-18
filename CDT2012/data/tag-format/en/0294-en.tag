@@ -147,7 +147,7 @@
 <W msd="XP" tag="." in="-36:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">Not</W>
 <W msd="ANP" tag="JJ" in="" out="-2:pnct|-1:neg|1:pnct|2:conj|3:pnct">guilty</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -161,7 +161,7 @@
 <W msd="VAP" tag="VBN" in="-1:mod" out="">accused</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Brian</W>
 <W msd="NP=S" tag="NNP" in="-3:appr" out="-1:namef">Rasmussen</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct?" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct?" out="">"</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADA" tag="VBD" in="-8:modp" out="-1:subj|1:mod|2:pnct">said</W>
@@ -176,24 +176,24 @@
 <W msd="SP" tag="IN" in="-5:conj" out="1:nobj|3:pnct|5:xpl">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">court</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">two</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:quant" out="">NOT</W>
 <W msd="ANP" tag="JJ" in="-5:xpl" out="-1:quant">guilty</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-12:conj" out="1:nobj|3:pnct|5:xpl">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">count</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">three</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:quant" out="">NOT</W>
 <W msd="ANP" tag="JJ" in="-5:xpl" out="-1:quant">guilty</W>
 <W msd="XP" tag="," in="-18:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-19:conj" out="1:nobj|3:pnct|5:xpl">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">count</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">four</W>
-<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:quant" out="">NOT</W>
 <W msd="ANP" tag="JJ" in="-5:xpl|-36:pnct#" out="-1:quant">guilty.</W>
-<W msd="XP" tag="&amp;quot;" in="-37:pnct?" out="">"</W>
+<W msd="XP" tag="&quot;" in="-37:pnct?" out="">"</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
@@ -204,7 +204,7 @@
 <W msd="NP=S" tag="NNP" in="2:namef" out="1:namef">Bent</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Erik</W>
 <W msd="NP=S" tag="NNP" in="-5:appr" out="-2:namef">Mortensen</W>
-<W msd="XP" tag="&amp;quot;" in="-7:pnct?" out="">"</W>
+<W msd="XP" tag="&quot;" in="-7:pnct?" out="">"</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">she</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-10:qobj|1:pnct|3:conj|8:pnct">continued</W>
@@ -220,7 +220,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Bent</W>
 <W msd="NP=S" tag="NNP" in="" out="-1:namef|1:pnct|3:xpl|4:pnct">Nissen</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:quant" out="">NOT</W>
 <W msd="ANP" tag="JJ" in="-3:xpl" out="-1:quant">guilty</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -229,7 +229,7 @@
 <W msd="NP=S" tag="NNP" in="2:namef" out="1:namef">Martin</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Sten</W>
 <W msd="NP=S" tag="NNP" in="" out="-2:namef|1:pnct|3:xpl|4:pnct">Rasmussen</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:quant" out="">NOT</W>
 <W msd="ANP" tag="JJ" in="-3:xpl" out="-1:quant">guilty</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>

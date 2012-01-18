@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&amp;quot;" id="43" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="43" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="I" id="44" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
 <W gloss="am_looking" id="45" lemma="se" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:@dir|28:pnct">ser</W>
 <W gloss="forward" id="46" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="1:pobj">frem</W>
@@ -203,7 +203,7 @@
 <W gloss="are" id="202" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:preds">er</W>
 <W gloss="finished." id="203" lemma="færdig" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">færdigt</W>
 <W gloss="." id="204" lemma="." msd="XP" tag="." in="-32:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="205" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-33:pnct" out="">"</W>
+<W gloss="&quot;" id="205" lemma="&quot;" msd="XP" tag="&quot;" in="-33:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -232,7 +232,7 @@
 <W gloss="," id="231" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="232" lemma="som" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">som</W>
 <W gloss="is" id="233" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:relr" out="-1:subj|2:pnct|9:conj|1:preds">er</W>
-<W _noerror="&3a;nosubj&3a;" gloss="invested" id="234" lemma="investere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">investeret</W>
+<W _noerror=":nosubj:" gloss="invested" id="234" lemma="investere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">investeret</W>
 <W gloss="," id="235" lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="and" id="236" lemma="og" msd="CC" tag="CC" in="6:coord" out="">og</W>
 <W gloss="which" id="237" lemma="som" msd="U=" tag="WDT" in="-7:ref|7:dobj" out="">som</W>
@@ -244,7 +244,7 @@
 <W gloss="to" id="243" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="touch" id="244" lemma="røre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:dobj|-6:[subj]|1:time">røre</W>
 <W gloss="the" id="245" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:time" out="2:nobj|1:attr">de</W>
-<W _noerror="&3a;nosubj&3a;" gloss="coming" id="246" lemma="komme" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">kommende</W>
+<W _noerror=":nosubj:" gloss="coming" id="246" lemma="komme" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">kommende</W>
 <W gloss="years" id="247" lemma="år" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">år</W>
 <W gloss="." id="248" lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>

@@ -21,7 +21,7 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:avobj">at</W>
 <W msd="ANP" tag="RB" in="-1:avobj" out="">once</W>
 <W msd="U=" tag="TO" in="-5:@dir" out="1:pnct|4:nobj">to</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="-4:nobj" out="1:pnct|2:list">Home</W>
@@ -37,10 +37,10 @@
 <W msd="NP=S" tag="NNP" in="" out="1:iobj|4:dobj">Mark</W>
 <W msd="PD" tag="DT" in="-1:iobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">envelope</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-4:dobj" out="-1:pnct|1:nobj|2:pnct">DUPLO</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">toys</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
@@ -147,18 +147,18 @@
 </s>
 <s>
 <W msd="NC=S" tag="NN" in="" out="1:pnct">Name</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct">Address</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
 <W msd="ANP" tag="JJ" in="" out="">Zip</W>
 <W msd="NC=S" tag="NN" in="" out="1:pnct">code</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct">City</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
 <s>
 <W msd="I=" tag="UH" in="1:mod" out="">Please</W>
@@ -168,7 +168,7 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">letters</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Expiration</W>
 <W msd="NC=S" tag="NN" in="" out="-1:mod|1:pnct|3:list">date</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="1:attr" out="">25</W>
 <W msd="NP=S" tag="NNP" in="-3:list" out="-1:attr|1:nobj">November</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1992</W>
@@ -179,11 +179,11 @@
 <W msd="ANP" tag="RB" in="1:add" out="">also</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:add|1:pobj|9:pnct#">participate</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">in</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-2:nobj" out="-1:pnct|1:nobj|2:possd|3:pnct|4:mod">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Week's</W>
 <W msd="NP=S" tag="NNP" in="-2:possd" out="">Surprise</W>
-<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">page</W>
 <W msd="AC" tag="CD" in="-1:nobj|-9:pnct#" out="">47,</W>
@@ -198,18 +198,18 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:mod">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">envelope</W>
 <W msd="VADA" tag="VBD" in="-2:mod" out="2:dobj">marked</W>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">:</W>
+<W msd="XP" tag=":" in="1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="-2:dobj" out="-1:pnct|1:possd|2:pnct|3:list|5:pnct|8:conj">Week's</W>
 <W msd="NP=S" tag="NNP" in="-1:possd" out="">Surprise</W>
-<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="-3:list" out="1:nobj">Week</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">47</W>
-<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-8:conj" out="-1:pnct|-2:coord|1:nobj|2:pnct">DUPLO</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">toy</W>
-<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>

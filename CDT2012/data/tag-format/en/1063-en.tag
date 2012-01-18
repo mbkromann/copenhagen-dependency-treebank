@@ -23,9 +23,9 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|3:nobj|8:ref|9:rel">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">overwhelming</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:pnct|1:pnct|3:conj">drive</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PI" tag="DT" in="-3:conj" out="-1:coord|1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">commitment</W>
@@ -40,15 +40,15 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">He</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|11:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|3:dobj">called</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">extremely</W>
 <W msd="ANP" tag="JJ" in="-3:dobj" out="-2:pnct|-1:mod|1:pnct|5:conj">professional</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
-<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">professionally</W>
 <W msd="ANP" tag="JJ" in="-5:conj" out="-2:pnct|-1:mod|-3:coord|1:pnct">honest</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>

@@ -19,7 +19,7 @@
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="ANP" tag="JJ" in="2:qobj" out="-1:pnct|1:pnct">Miraculous</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VADR" tag="VBP" in="" out="-2:qobj|1:subj|5:pnct">say</W>
@@ -48,7 +48,7 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="ANP" tag="RB" in="-1:nobj" out="">well</W>
-<W msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
+<W msd="XP" tag=":" in="-7:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-8:xpl" out="1:nobj">25</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">m</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
@@ -213,7 +213,7 @@
 <s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Grim</W>
 <W msd="NC=P" tag="NNS" in="" out="-1:attr|1:pnct|5:conj|15:pnct">reminders</W>
-<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">improbably</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="-1:mod">lucky</W>

@@ -46,7 +46,7 @@
 <W gloss="sequence_of_numbers" id="45" lemma="talrække" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">talrække</W>
 <W gloss="is" id="46" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="1:time|3:pnct|2:preds|-3:subj">er</W>
 <W gloss="now" id="47" lemma="nu" msd="RGU" tag="RP" in="-1:time" out="">nu</W>
-<W _noerror="&3a;nosubj&3a;" gloss="broken" id="48" lemma="bryde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="">brudt</W>
+<W _noerror=":nosubj:" gloss="broken" id="48" lemma="bryde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="">brudt</W>
 <W gloss="." id="49" lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
@@ -113,12 +113,12 @@
 <W gloss="it" id="112" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
 <W gloss="bar" id="113" lemma="bære" msd="VADA=----A-" tag="VBD" in="-2:relr" out="-1:subj|2:pnct|-2:[@loc]|1:avobj">bar</W>
 <W gloss="towards" id="114" lemma="hen" msd="RGU" tag="RP" in="-1:avobj" out="">hen</W>
-<W gloss="&3a;" id="115" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
+<W gloss=":" id="115" lemma=":" msd="XP" tag=":" in="-2:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&amp;quot;" id="120" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="&quot;" id="120" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="The_evidence" id="121" lemma="bevis" msd="NCNSU==D" tag="NN" in="1:subj|2:[subj]" out="">Beviset</W>
 <W gloss="must" id="122" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-15:xpl" out="-1:subj|-2:pnct|1:vobj|12:pnct">skal</W>
 <W gloss="be" id="123" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:preds">være</W>
@@ -140,7 +140,7 @@
 <W gloss="not" id="139" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="enough" id="140" lemma="nok" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:preds" out="">nok</W>
 <W gloss="to" id="141" lemma="at" msd="U=" tag="TO" in="-4:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="say" id="142" lemma="sige" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|2:dobj">sige</W>
+<W _noerror=":nosubj:" gloss="say" id="142" lemma="sige" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|2:dobj">sige</W>
 <W gloss="," id="143" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="144" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="9:vobj">at</W>
 <W gloss="if" id="145" lemma="hvis" msd="CS" tag="IN" in="8:xtop" out="10:ref">hvis</W>
@@ -189,7 +189,7 @@
 <W gloss="too" id="188" lemma="for" msd="RGU" tag="RP" in="1:eval" out="">for</W>
 <W gloss="few." id="189" lemma="få" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:nobj" out="-1:eval">få</W>
 <W gloss="." id="190" lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="191" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
+<W gloss="&quot;" id="191" lemma="&quot;" msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -204,11 +204,11 @@
 <W gloss="the_jury's" id="203" lemma="nævning" msd="NCCPG==D" tag="NNP" in="-1:preds|1:{arg}" out="1:possd">nævningenes</W>
 <W gloss="task" id="204" lemma="opgave" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{arg}">opgave</W>
 <W gloss="to" id="205" lemma="at" msd="U=" tag="TO" in="-5:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="solve" id="206" lemma="opklare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:conj">opklare</W>
+<W _noerror=":nosubj:" gloss="solve" id="206" lemma="opklare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:conj">opklare</W>
 <W gloss="a" id="207" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="murder_mystery" id="208" lemma="mordgåde" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">mordgåde</W>
 <W gloss="or" id="209" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W _noerror="&3a;nosubj&3a;" gloss="tie_up" id="210" lemma="samle" msd="VAF-=----A-" tag="VB" in="-4:conj" out="-1:coord|1:dobj">samle</W>
+<W _noerror=":nosubj:" gloss="tie_up" id="210" lemma="samle" msd="VAF-=----A-" tag="VB" in="-4:conj" out="-1:coord|1:dobj">samle</W>
 <W gloss="all" id="211" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:dobj|8:[dobj]" out="1:nobj|4:pnct|7:relr">alle</W>
 <W gloss="the" id="212" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
 <W gloss="loose" id="213" lemma="løs" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">løse</W>
@@ -237,7 +237,7 @@
 <W gloss="no" id="236" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="was" id="237" lemma="foreligge" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-4:expl|-1:neg|5:dobj|9:pnct|-3:source">forelå</W>
 <W gloss="directly" id="238" lemma="direkte" msd="ANP---=-R" tag="JJ" in="1:man" out="">direkte</W>
-<W _noerror="&3a;nosubj&3a;" gloss="incriminating" id="239" lemma="fælde" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="3:attr" out="-1:man|1:pnct">fældende</W>
+<W _noerror=":nosubj:" gloss="incriminating" id="239" lemma="fælde" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="3:attr" out="-1:man|1:pnct">fældende</W>
 <W gloss="," id="240" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="technical" id="241" lemma="teknisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">tekniske</W>
 <W gloss="evidence" id="242" lemma="bevis" msd="NCNPU==I" tag="NNP" in="-5:dobj" out="-1:attr|1:pobj|-3:attr|1:{arg}">beviser</W>
@@ -255,7 +255,7 @@
 <W gloss="," id="254" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="whether" id="255" lemma="om" msd="CS" tag="IN" in="-2:dobj" out="6:vobj">om</W>
 <W gloss="the" id="256" lemma="den" msd="PD-CSU--U" tag="DT" in="5:subj" out="1:attr|2:nobj">den</W>
-<W _noerror="&3a;nosubj&3a;" gloss="total" id="257" lemma="samle" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">samlede</W>
+<W _noerror=":nosubj:" gloss="total" id="257" lemma="samle" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">samlede</W>
 <W gloss="sum" id="258" lemma="sum" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj|1:{arg}">sum</W>
 <W gloss="of" id="259" lemma="af" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">af</W>
 <W gloss="circumstantial_evidence" id="260" lemma="indicium" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">indicier</W>
@@ -264,7 +264,7 @@
 <W gloss="enough" id="263" lemma="nok" msd="RGU" tag="RP" in="-1:eval" out="1:pobj">nok</W>
 <W gloss="in" id="264" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" id="265" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W _noerror="&3a;nosubj&3a;" gloss="say" id="266" lemma="sige" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|2:dobj">sige</W>
+<W _noerror=":nosubj:" gloss="say" id="266" lemma="sige" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|2:dobj">sige</W>
 <W gloss="," id="267" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" id="268" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="Pedal-Ove" id="269" lemma="Pedal-Ove" msd="NP--U==-" tag="NNP" in="1:subj" out="">Pedal-Ove</W>

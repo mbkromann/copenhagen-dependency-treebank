@@ -67,7 +67,7 @@
 <W gloss="New" id="66" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="2:attr" out="">Nye</W>
 <W gloss="Danish" id="67" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">danske</W>
 <W gloss="eels" id="68" lemma="ål" msd="NCCPU==I" tag="NNP" in="1:subj" out="-2:attr|-1:attr">ål</W>
-<W gloss="cost" id="69" lemma="koste" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|13:pnct|9:&lt;subj&3a;2&gt;|11:&lt;dobj&3a;2&gt;">koster</W>
+<W gloss="cost" id="69" lemma="koste" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|13:pnct|9:&lt;subj:2&gt;|11:&lt;dobj:2&gt;">koster</W>
 <W gloss="85" id="70" lemma="85" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj|2:other|5:conj">85</W>
 <W gloss="DKK" id="71" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="per" id="72" lemma="per" msd="SP" tag="IN" in="-2:other" out="1:nobj">pr.</W>
@@ -76,9 +76,9 @@
 <W gloss="30" id="75" lemma="30" msd="AC---U=--" tag="CD" in="-5:conj" out="-1:coord|1:nobj|2:other">30</W>
 <W gloss="DKK" id="76" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="a_piece" id="77" lemma="styk" msd="NCNSU==I" tag="NN" in="-2:other" out="">stk.</W>
-<W gloss="3" id="78" lemma="3" msd="AC---U=--" tag="CD" in="-9:&lt;subj&3a;2&gt;" out="1:nobj">3</W>
+<W gloss="3" id="78" lemma="3" msd="AC---U=--" tag="CD" in="-9:&lt;subj:2&gt;" out="1:nobj">3</W>
 <W gloss="redfish_fillets" id="79" lemma="rødfiskefilet" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">rødfiskefileter</W>
-<W gloss="60" id="80" lemma="60" msd="AC---U=--" tag="CD" in="-11:&lt;dobj&3a;2&gt;" out="1:nobj">60</W>
+<W gloss="60" id="80" lemma="60" msd="AC---U=--" tag="CD" in="-11:&lt;dobj:2&gt;" out="1:nobj">60</W>
 <W gloss="DKK" id="81" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="." id="82" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
@@ -89,7 +89,7 @@
 <W gloss=")" id="88" lemma=")" msd="XP" tag=")" in="-2:pnct" out="">)</W>
 <W gloss="and" id="89" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="3" id="90" lemma="3" msd="AC---U=--" tag="CD" in="" out="1:attr|2:nobj|-1:coord|8:pnct|3:attr|6:other">3</W>
-<W _noerror="&3a;nosubj&3a;" gloss="smoked" id="91" lemma="røge" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">røgede</W>
+<W _noerror=":nosubj:" gloss="smoked" id="91" lemma="røge" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">røgede</W>
 <W gloss="herring" id="92" lemma="sild" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="1:{goal}">sild</W>
 <W gloss="as" id="93" lemma="til" msd="SP" tag="IN" in="-3:attr|-1:{goal}" out="1:nobj">til</W>
 <W gloss="appetiser" id="94" lemma="forret" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:time">forretten</W>
@@ -127,8 +127,8 @@
 <W gloss="the_butcher" id="126" lemma="slagter" msd="NCCSU==D" tag="NN" in="1:subj" out="">slagteren</W>
 <W gloss="suggests" id="127" lemma="foreslå" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-1:subj|-2:coord|2:vobj|1:dobj">foreslår</W>
 <W gloss="it" id="128" lemma="den" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">den</W>
-<W _noerror="&3a;nosubj&3a;" gloss="be_served" id="129" lemma="servere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="1:fpredo">serveret</W>
-<W _noerror="&3a;nosubj&3a;" gloss="fried" id="130" lemma="stege" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:fpredo" out="1:accom">stegt</W>
+<W _noerror=":nosubj:" gloss="be_served" id="129" lemma="servere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="1:fpredo">serveret</W>
+<W _noerror=":nosubj:" gloss="fried" id="130" lemma="stege" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:fpredo" out="1:accom">stegt</W>
 <W gloss="with" id="131" lemma="med" msd="SP" tag="IN" in="-1:accom" out="1:nobj">med</W>
 <W gloss="heaps" id="132" lemma="dynge" msd="NCCPU==I" tag="NNP" in="-1:nobj|1:{quant}" out="1:pobj">dynger</W>
 <W gloss="of" id="133" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj|-1:{quant}">af</W>
@@ -141,16 +141,16 @@
 <W gloss="for" id="140" lemma="til" msd="SP" tag="IN" in="-1:attr|-1:{goal}" out="1:nobj">til</W>
 <W gloss="Thursday's" id="141" lemma="torsdag" msd="NCCSG==D" tag="NN" in="-1:nobj|1:{time}" out="1:possd">torsdagens</W>
 <W gloss="second_course" id="142" lemma="efterret" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{time}">efterret</W>
-<W gloss="cost" id="143" lemma="koste" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:dobj|5:coord|11:pnct|6:&lt;subj&3a;2&gt;|9:&lt;dobj&3a;2&gt;">koster</W>
+<W gloss="cost" id="143" lemma="koste" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:dobj|5:coord|11:pnct|6:&lt;subj:2&gt;|9:&lt;dobj:2&gt;">koster</W>
 <W gloss="78" id="144" lemma="78" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj|2:other">78</W>
 <W gloss="DKK" id="145" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="per" id="146" lemma="per" msd="SP" tag="IN" in="-2:other" out="1:nobj">pr.</W>
 <W gloss="kg" id="147" lemma="kilo" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kg</W>
 <W gloss="and" id="148" lemma="og" msd="CC" tag="CC" in="-5:coord" out="">og</W>
-<W gloss="the_lamb_meatballs" id="149" lemma="lammefrikadelle" msd="NCCPU==D" tag="NNP" in="-6:&lt;subj&3a;2&gt;" out="1:attr|1:{goal}">lammefrikadellerne</W>
+<W gloss="the_lamb_meatballs" id="149" lemma="lammefrikadelle" msd="NCCPU==D" tag="NNP" in="-6:&lt;subj:2&gt;" out="1:attr|1:{goal}">lammefrikadellerne</W>
 <W gloss="for" id="150" lemma="til" msd="SP" tag="IN" in="-1:attr|-1:{goal}" out="1:nobj">til</W>
 <W gloss="Friday" id="151" lemma="fredag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fredag</W>
-<W gloss="70" id="152" lemma="70" msd="AC---U=--" tag="CD" in="-9:&lt;dobj&3a;2&gt;" out="1:nobj">70</W>
+<W gloss="70" id="152" lemma="70" msd="AC---U=--" tag="CD" in="-9:&lt;dobj:2&gt;" out="1:nobj">70</W>
 <W gloss="DKK" id="153" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="." id="154" lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
@@ -221,7 +221,7 @@
 <W gloss="." id="220" lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W _noerror="&3a;nosubj&3a;" gloss="Use" id="223" lemma="bruge" msd="VAM-=------" tag="VB" in="" out="1:dobj|2:man|5:pobj|10:coord|15:pnct|11:&lt;man&3a;2&gt;|13:&lt;goal&3a;2&gt;">Brug</W>
+<W _noerror=":nosubj:" gloss="Use" id="223" lemma="bruge" msd="VAM-=------" tag="VB" in="" out="1:dobj|2:man|5:pobj|10:coord|15:pnct|11:&lt;man:2&gt;|13:&lt;goal:2&gt;">Brug</W>
 <W gloss="it" id="224" lemma="den" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">den</W>
 <W gloss="in" id="225" lemma="i" msd="SP" tag="IN" in="-2:man" out="2:nobj">i</W>
 <W gloss="thin" id="226" lemma="tynd" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">tynde</W>
@@ -232,9 +232,9 @@
 <W gloss="a" id="231" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="casserole" id="232" lemma="ovnret" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">ovnret</W>
 <W gloss="or" id="233" lemma="eller" msd="CC" tag="CC" in="-10:coord" out="">eller</W>
-<W gloss="in" id="234" lemma="i" msd="SP" tag="IN" in="-11:&lt;man&3a;2&gt;" out="1:nobj">i</W>
+<W gloss="in" id="234" lemma="i" msd="SP" tag="IN" in="-11:&lt;man:2&gt;" out="1:nobj">i</W>
 <W gloss="cubes" id="235" lemma="tern" msd="NC[CN]PU==I" tag="NNP" in="-1:nobj" out="">tern</W>
-<W gloss="in" id="236" lemma="i" msd="SP" tag="IN" in="-13:&lt;goal&3a;2&gt;" out="1:nobj">i</W>
+<W gloss="in" id="236" lemma="i" msd="SP" tag="IN" in="-13:&lt;goal:2&gt;" out="1:nobj">i</W>
 <W gloss="the_salad_bowl" id="237" lemma="salatskål" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">salatskålen</W>
 <W gloss="." id="238" lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>

@@ -42,8 +42,8 @@
 <p>
 <s>
 <W gloss="Michael" id="43" lemma="Michael" msd="NP--U==-" tag="NNP" in="" out="1:pnct|3:xpl">Michael</W>
-<W gloss="&3a;" id="44" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
-<W gloss="&amp;quot;" id="45" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss=":" id="44" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W gloss="&quot;" id="45" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="Yes" id="46" lemma="ja" msd="I=" tag="UH" in="-3:xpl" out="-1:pnct|1:pnct|2:conj|21:pnct">Ja</W>
 <W gloss="," id="47" lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="because" id="48" lemma="for" msd="CC" tag="CC" in="-2:conj" out="2:vobj">for</W>
@@ -76,8 +76,8 @@
 <W gloss="pieces" id="75" lemma="stykke" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">stykker</W>
 <W gloss="," id="76" lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="then" id="77" lemma="så" msd="RGU" tag="RP" in="-7:ref|1:cons" out="">så</W>
-<W _noerror="&3a;nosubj&3a;" gloss="let" id="78" lemma="lade" msd="VAM-=------" tag="VB" in="" out="-8:xtop|1:vobj|2:pnct|4:conc|13:pnct|-1:cons">lad</W>
-<W _noerror="&3a;nosubj&3a;" gloss="go" id="79" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">gå</W>
+<W _noerror=":nosubj:" gloss="let" id="78" lemma="lade" msd="VAM-=------" tag="VB" in="" out="-8:xtop|1:vobj|2:pnct|4:conc|13:pnct|-1:cons">lad</W>
+<W _noerror=":nosubj:" gloss="go" id="79" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">gå</W>
 <W gloss="-" id="80" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="the_osce" id="81" lemma="osse" msd="RGU" tag="RP" in="1:add" out="">osse</W>
 <W gloss="even_though" id="82" lemma="selv_om" msd="CS" tag="IN" in="-4:conc" out="4:vobj|-1:add">selv_om</W>
@@ -154,14 +154,14 @@
 <W gloss="a_lot" id="153" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-2:dobj" out="">meget</W>
 <W gloss="on" id="154" lemma="på" msd="SP" tag="IN" in="-3:pobj" out="-4:nobj">på</W>
 <W gloss="." id="155" lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="156" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
+<W gloss="&quot;" id="156" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 </s>
 </p>
 <p>
 <s>
 <W gloss="Anders" id="161" lemma="Anders" msd="NP--U==-" tag="NNP" in="" out="1:pnct|3:xpl">Anders</W>
-<W gloss="&3a;" id="162" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
-<W gloss="&amp;quot;" id="163" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss=":" id="162" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W gloss="&quot;" id="163" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W gloss="And" id="164" lemma="og" msd="CC" tag="CC" in="-3:xpl" out="-1:pnct|2:conj|28:pnct">Og</W>
 <W gloss="then" id="165" lemma="så" msd="RGU" tag="RP" in="1:scene" out="">så</W>
 <W gloss="has_to" id="166" lemma="måtte" msd="VADR=----A-" tag="VBD" in="-2:conj" out="1:subj|2:vobj|-1:scene">må</W>
@@ -213,7 +213,7 @@
 <W gloss="whole" id="212" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="" out="1:nobj|5:pnct|6:conj|11:pnct|13:conj|28:pnct|2:attr">Hele</W>
 <W gloss="team" id="213" lemma="hold" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:{form}">holdet</W>
 <W gloss="in" id="214" lemma="i" msd="SP" tag="IN" in="-2:attr|-1:{form}" out="2:nobj">i</W>
-<W _noerror="&3a;nosubj&3a;" gloss="designer" id="215" lemma="designe" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">designede</W>
+<W _noerror=":nosubj:" gloss="designer" id="215" lemma="designe" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">designede</W>
 <W gloss="Carola_jackets" id="216" lemma="Carola-jakke" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">Carola-jakker</W>
 <W gloss="," id="217" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="cocktail_parties" id="218" lemma="cocktail-party" msd="NCNPU==I" tag="NNP" in="-6:conj" out="1:pnct|2:ref|3:relr">cocktail-parties</W>
@@ -255,7 +255,7 @@
 <W gloss="just" id="254" lemma="bare" msd="RGU" tag="RP" in="-1:eval" out="">bare</W>
 <W gloss="the_result." id="255" lemma="resultat" msd="NCNSU==D" tag="NN" in="-2:dobj" out="">resultatet</W>
 <W gloss="." id="256" lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
-<W gloss="&amp;quot;" id="257" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
+<W gloss="&quot;" id="257" lemma="&quot;" msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
 </s>
 </p>
 </div1>

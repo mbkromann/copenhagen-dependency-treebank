@@ -7,9 +7,9 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">hunt</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">Basse</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-10:cause" out="3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
@@ -90,9 +90,9 @@
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">eight</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">months</W>
 <W msd="CS" tag="IN" in="-3:mod" out="-2:tobj|2:nobj">after</W>
-<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct|2:err|3:possd?">Basse</W>
-<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="U=" tag="POS" in="-2:err" out="">'s</W>
 <W msd="NC=S" tag="NN" in="-3:possd?" out="">kidnapping</W>
 <W msd="SP" tag="IN" in="-9:dobj" out="2:vobj">that</W>
