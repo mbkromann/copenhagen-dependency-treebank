@@ -1,0 +1,46 @@
+
+11 Induction
+
+
+Purpose 
+
+To describe the magnetic field around an electronic current and the electronic field around a magnet in motion.
+
+
+Apparatus
+
+Voltage source (AC and DC), wires, compass needle, bar magnet, sensitive voltmeter, coils (200 wind., 400 wind. and 1600 wind.), iron core, iron plumb and weights.
+
+
+Setup
+
+
+Procedure 
+
+Induction of magnetic fields:
+
+Use the setup in fig. 11.1.  The magnet must stand along the wire before the current is closed.  Turn on the current and observe what happens.  Switch the current direction and observe.
+
+Then do a series of experiments that can reveal what things have influence on the strength of the magnetic fields.  Use the coils, iron plumbs and weights (fig. 11.2).
+
+
+Induction of electronic fields:
+
+Use the setup in fig. 11.3.  Move the magnet in relationship to the wire and observe what happens to the voltmeter.
+
+Then do a series of experiments that can reveal what things have an influence on the strength of the electro-field.  Use the spools, voltmeter and the magnets as in fig. 11.4.
+
+
+Results 
+
+Magnetic fields:
+
+Describe the magnetic field around a conducting wire:
+
+
+Describe the experimental procedure in your investigation of what determines the strength of the magnetic field:
+
+
+
+
+
