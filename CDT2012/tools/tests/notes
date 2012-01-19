@@ -1,0 +1,36 @@
+tag files
+
+1 id attribute
+each <W> has an id that is equal to one less than the line number in
+the file (maybe this can be ignored)
+
+2 in and out links
+each link is of this form [offset]:[name]
+if id n has an in link with offset o and name n, then there must be an
+out link for id n+o with offset o*-1 with the same name
+
+links are surrounded by double quotes, delimited by |
+
+3 msd and tag attributes
+i think tag is a more general form of msd, so tag should be derivable
+from msd
+both msd and tag should be selected from a fixed set of possibilities
+
+4 lemma 
+could check that lemma is a valid choice for the given token
+
+
+
+
+atag files
+
+
+alignfile must exist
+align 
+out and in attributes look like this: a43, where a is the key of an
+alignfile, and 43 is an id in that file
+
+so if there is an out attribute a43, then in file a, there must be a W
+with id 43 whose value is equal to the outsign in the alignfile. if
+there is an in attribute b1, then in file b, there must be a W with id
+1 whose value is equal to the insign in the alignfile.
