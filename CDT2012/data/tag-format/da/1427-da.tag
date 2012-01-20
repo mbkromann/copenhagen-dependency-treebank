@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'KRUKKE- BRYLLUP'</title>
       </titleStmt>
-      <extent words=156>156 running words</extent>
+      <extent words="156">156 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-07-27</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G8.6">
-        <catRef target="P.T1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G8.6"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B179492>
+<text id="B179492">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="ANTHONY" id="43" lemma="Anthony" msd="NP--U==-" tag="NNP" in="1:namef" out="">ANTHONY</W>

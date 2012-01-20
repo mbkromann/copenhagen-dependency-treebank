@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Hurra for farverne'</title>
       </titleStmt>
-      <extent words=161>161 running words</extent>
+      <extent words="161">161 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Hurra for farverne</title>
-            <author gender=m>Rasmussen, Palle</author>
+            <author gender="m">Rasmussen, Palle</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-03-16</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G4.2">
-        <catRef target="P.T4.4">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T4.4"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=LtLP>
+<text id="LtLP">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="just" id="42" lemma="lige" msd="RGU" tag="RP" in="1:resem" out="">Lige</W>

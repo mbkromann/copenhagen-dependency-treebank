@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="AC" tag="CD" in="" out="1:pnct|7:list|15:pnct">2</W>
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
 <W msd="CS" tag="IN" in="5:cond" out="1:pobj|4:pnct">If</W>
@@ -256,3 +256,4 @@
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Voigt</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
+</root>

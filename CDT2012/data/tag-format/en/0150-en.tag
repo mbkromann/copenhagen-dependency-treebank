@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="(" in="2:pnct" out="">(</W>
 <W msd="AC" tag="CD" in="1:attr" out="">2nd</W>
 <W msd="NC=S" tag="NN" in="" out="-2:pnct|-1:attr|1:pnct">edition</W>
@@ -215,3 +215,4 @@
 <W msd="AC" tag="CD" in="-1:lobj|-4:pnct#" out="">away.</W>
 <W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 </s>
+</root>

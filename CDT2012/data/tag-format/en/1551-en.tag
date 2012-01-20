@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="38:qobj" out="-1:pnct|17:conj|35:pnct|36:pnct">But</W>
 <W msd="PT" tag="WRB" in="16:time" out="2:vobj">when</W>
@@ -214,3 +214,4 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">NEWSPAPERS</W>
 <W msd="XP" tag="." in="-4:pnct" out="">?</W>
 </s>
+</root>

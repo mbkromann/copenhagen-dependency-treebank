@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Skæld ud til danske krav'</title>
       </titleStmt>
-      <extent words=158>158 running words</extent>
+      <extent words="158">158 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Skæld ud til danske krav</title>
-            <author gender=m born=1961>Nielsen, Ole Bang</author>
+            <author gender="m" born="1961">Nielsen, Ole Bang</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-11-19</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B206466>
+<text id="B206466">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="&quot;" id="43" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>

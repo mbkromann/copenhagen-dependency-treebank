@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="&quot;" in="6:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="9:xtop" out="5:vobj">Since</W>
 <W msd="PD" tag="DT" in="4:subj" out="1:nobj|24:coref-var">the</W>
@@ -252,3 +252,4 @@
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">money</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
+</root>

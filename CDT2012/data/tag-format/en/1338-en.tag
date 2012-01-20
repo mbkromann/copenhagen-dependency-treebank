@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="" out="">That</W>
 <W msd="VADR" tag="VBZ" in="" out="">is</W>
 <W msd="PT" tag="WP" in="" out="">what</W>
@@ -237,3 +237,4 @@
 <W msd="NC=S" tag="NN" in="" out="">explosive</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
+</root>

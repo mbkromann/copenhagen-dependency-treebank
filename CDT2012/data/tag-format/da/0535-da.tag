@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Antonio Vivaldi'</title>
       </titleStmt>
-      <extent words=162>162 running words</extent>
+      <extent words="162">162 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Antonio Vivaldi<title>
-               <author gender=m born=1975>UNKNOWN</author>
+            <title>Antonio Vivaldi</title>
+               <author gender="m" born="1975">UNKNOWN</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <date>1992</date>
             </imprint>
@@ -25,17 +25,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.3">
-        <catRef target="P.G8.8">
-        <catRef target="P.T6.14">
+        <catRef target="P.M4.3"/>
+        <catRef target="P.G8.8"/>
+        <catRef target="P.T6.14"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=PXEQ>
+<text id="PXEQ">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The_year" id="40" lemma="år" msd="NCNSU==D" tag="NN" in="2:subj" out="1:nobj">Året</W>
@@ -159,7 +159,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="THE" id="164" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="" out="1:nobj|6:pnct|54:pnct|15:xpl">DE</W>
@@ -220,7 +220,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The_mood" id="225" lemma="Stemmningen" msd="XX" tag="FW" in="1:subj" out="">Stemmningen</W>

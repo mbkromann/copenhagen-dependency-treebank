@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Bridge'</title>
       </titleStmt>
-      <extent words=149>149 running words</extent>
+      <extent words="149">149 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Bridge</title>
-            <author gender=m>Dam, Villy</author>
+            <author gender="m">Dam, Villy</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-10-06</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G6.20">
-        <catRef target="P.T7.7">
+        <catRef target="P.M2"/>
+        <catRef target="P.G6.20"/>
+        <catRef target="P.T7.7"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=NDHx>
+<text id="NDHx">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="proposal" id="43" lemma="udspil" msd="NCNSU==I" tag="NN" in="" out="1:pnct|2:other|3:other">Udspil</W>

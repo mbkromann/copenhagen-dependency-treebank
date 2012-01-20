@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="11:mod" out="1:nobj|2:pnct">For</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">comparison</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -231,3 +231,4 @@
 <W msd="NP=S" tag="NNP" in="-5:nobj" out="-1:namef|-4:title">Haarder</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
+</root>

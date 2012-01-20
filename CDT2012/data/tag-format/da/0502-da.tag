@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Hvor Nilen vander, venter eventyret og S'</title>
       </titleStmt>
-      <extent words=155>155 running words</extent>
+      <extent words="155">155 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1990-01-03</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.2">
-        <catRef target="P.G6.21">
-        <catRef target="P.T3.3">
+        <catRef target="P.M3.2"/>
+        <catRef target="P.G6.21"/>
+        <catRef target="P.T3.3"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=ObvP>
+<text id="ObvP">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -205,7 +205,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Pharaohs'" id="210" lemma="farao" morph="&lt;unknown&gt;" msd="NCCSG==I" tag="NN" in="1:{other}|9:subj" out="1:possd|2:appr|3:pnct|4:appa">Faraos</W>
@@ -227,7 +227,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="On" id="232" lemma="på" msd="SP" tag="IN" in="-13:+CONJ:add/(og)" out="1:nobj|2:loc|5:pnct|12:+CONJ:add/(og)">På</W>
@@ -239,7 +239,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The_travel_writer" id="244" lemma="rejseskribent" morph="skribent -rejse/ABOUT ~en" msd="NCCSU==D" tag="NN" in="-12:+CONJ:add/(og)" out="1:attr|1:{loc}|5:pnct|10:+CONJ:add/(og)">Rejseskribenten</W>

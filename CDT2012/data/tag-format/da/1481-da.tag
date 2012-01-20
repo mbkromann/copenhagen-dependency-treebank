@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Tjente sorte penge på lig'</title>
       </titleStmt>
-      <extent words=177>177 running words</extent>
+      <extent words="177">177 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Tjente sorte penge på lig</title>
-            <author gender=m born=1958>Braarup, Jens</author>
+            <author gender="m" born="1958">Braarup, Jens</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-09-26</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B193997>
+<text id="B193997">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="According_to" id="43" lemma="ifølge" msd="SP" tag="IN" in="13:source" out="1:nobj">Ifølge</W>

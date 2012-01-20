@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="" out="1:nobj">Subsection</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="">5</W>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]" out="1:attr|3:nobj">The</W>
@@ -250,3 +250,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">legislation</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
+</root>

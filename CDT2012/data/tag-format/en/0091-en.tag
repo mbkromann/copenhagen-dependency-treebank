@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="JJ" in="2:attr" out="">DANISH</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">rock</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:mod|-2:attr">musicians</W>
@@ -240,3 +240,4 @@
 <W msd="AC" tag="CD" in="-1:list|-6:pnct#" out="">la.</W>
 <W msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
 </s>
+</root>

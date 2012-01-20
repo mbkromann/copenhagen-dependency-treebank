@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=S" tag="NN" in="6:time" out="1:pnct">Yesterday</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="4:subj" out="1:nobj">the</W>
@@ -267,3 +267,4 @@
 <W msd="ANP" tag="JJ" in="-1:preds" out="">dark</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="19:mod" out="1:nobj|8:coord|15:pnct">With</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:pnct|3:attr|4:pnct|5:attr|6:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
@@ -237,3 +237,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>
 <W msd="XP" tag="." in="-55:pnct" out="">.</W>
 </s>
+</root>

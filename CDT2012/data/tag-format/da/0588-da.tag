@@ -1,20 +1,20 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Indbrudssikring af hus og hjem ...'</title>
       </titleStmt>
-      <extent words=151>151 running words</extent>
+      <extent words="151">151 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Indbrudssikring af hus og hjem ...<title>
+            <title>Indbrudssikring af hus og hjem ...</title>
                <author>Det kriminalpræventive Råd</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <date>1989</date>
@@ -25,17 +25,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1989</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.3">
-        <catRef target="P.G6.9">
-        <catRef target="P.T7.2">
+        <catRef target="P.M4.3"/>
+        <catRef target="P.G6.9"/>
+        <catRef target="P.T7.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=QXwL>
+<text id="QXwL">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Doors" id="40" lemma="dør" morph="" msd="NCCPU==I" tag="NNP" in="13:subj|14:[subj]|17:[subj]" out="1:attr|1:{goal}|3:pnct|4:elab">Døre</W>
@@ -96,7 +96,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -166,7 +166,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -259,7 +259,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>

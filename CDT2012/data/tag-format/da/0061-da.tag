@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Bagdad bombet klokken 00.32'</title>
       </titleStmt>
-      <extent words=166>166 running words</extent>
+      <extent words="166">166 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Bagdad bombet klokken 00.32</title>
-            <author gender=m born=1960>Lemche, Lars</author>
+            <author gender="m" born="1960">Lemche, Lars</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-01-17</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T9.8">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T9.8"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=AbEM>
+<text id="AbEM">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="m." id="43" lemma="klokke" morph="" msd="NCCSU==D" tag="NN" in="4:time" out="1:nobj|3:elab">Klokken</W>

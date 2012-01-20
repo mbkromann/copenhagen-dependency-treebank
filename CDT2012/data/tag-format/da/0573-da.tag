@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Langebladsøksen'</title>
       </titleStmt>
-      <extent words=166>166 running words</extent>
+      <extent words="166">166 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Langebladsøksen</title>
-            <author gender=m born=1955>Nielsen, Bjarne Henning</author>
+            <author gender="m" born="1955">Nielsen, Bjarne Henning</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-04</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.4">
-        <catRef target="P.G4.2">
-        <catRef target="P.T5.1">
+        <catRef target="P.M3.4"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T5.1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=PzZK>
+<text id="PzZK">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The" id="42" lemma="den" msd="PD-CSU--U" tag="DT" in="10:subj|12:[subj]" out="1:attr|2:nobj|3:attr|50:assoc-const">Den</W>

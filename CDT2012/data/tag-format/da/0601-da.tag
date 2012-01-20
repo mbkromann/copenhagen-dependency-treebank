@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Kampen om Saïd'</title>
       </titleStmt>
-      <extent words=147>147 running words</extent>
+      <extent words="147">147 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Kampen om Saïd<title>
-               <author gender=f born=1961>Kruuse, Pia Maria</author>
+            <title>Kampen om Saïd</title>
+               <author gender="f" born="1961">Kruuse, Pia Maria</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1985</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1985</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.4">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.4"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Qulb>
+<text id="Qulb">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Odd-Catla" id="41" lemma="Odd-Catla" msd="NP--U==-" tag="NNP" in="1:subj" out="7:coref">Odd-Catla</W>

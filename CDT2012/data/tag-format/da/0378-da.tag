@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Øst-Vest udveksling fremrykkes muligvis'</title>
       </titleStmt>
-      <extent words=155>155 running words</extent>
+      <extent words="155">155 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Øst-Vest udveksling fremrykkes muligvis</title>
-            <author gender=m born=1949>Groes-Petersen, Henrik</author>
+            <author gender="m" born="1949">Groes-Petersen, Henrik</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1986-02-09</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.2">
-        <catRef target="P.T9.3">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T9.3"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=KRNo>
+<text id="KRNo">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="By" id="43" lemma="af" msd="SP" tag="IN" in="32:+SCENE" out="2:nobj">Af</W>
@@ -47,7 +47,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Bonn" id="52" lemma="Bonn" msd="NP--U==-" tag="NNP" in="23:+SCENE" out="2:other|4:pnct">Bonn</W>

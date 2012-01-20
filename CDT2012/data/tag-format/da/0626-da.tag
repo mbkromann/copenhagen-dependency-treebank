@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Bomuldens Dronning'</title>
       </titleStmt>
-      <extent words=169>169 running words</extent>
+      <extent words="169">169 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Bomuldens Dronning<title>
-               <author gender=m born=1959>Bluitgen, Kåre</author>
+            <title>Bomuldens Dronning</title>
+               <author gender="m" born="1959">Bluitgen, Kåre</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1988</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.11">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.11"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=RQKM>
+<text id="RQKM">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="For" id="41" lemma="i" msd="SP" tag="IN" in="3:time" out="2:nobj">I</W>

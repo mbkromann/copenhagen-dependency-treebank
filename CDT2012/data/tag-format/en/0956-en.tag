@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
 <W _noerror=":nogov:" id="2" msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|25:conj|68:pnct|78:+JOINT|39:elab">is</W>
 <W id="3" msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
@@ -203,3 +203,4 @@
 <W _noerror=":noante:" id="202" msd="NC=S" tag="NN" in="-1:nobj" out="">consideration</W>
 <W id="203" msd="XP" tag="." in="-24:pnct" out="">?</W>
 </s>
+</root>

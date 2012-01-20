@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]|3:[subj]|5:[subj]|7:[subj]|10:[subj]" out="-1:attr|17:coref">culture</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|13:pnct|17:AGENTIVE:sbj/(because)|38:+CONJ:add/(and)">must</W>
@@ -224,3 +224,4 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">cow</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
+</root>

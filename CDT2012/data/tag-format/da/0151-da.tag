@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Pladsernes by'</title>
       </titleStmt>
-      <extent words=173>173 running words</extent>
+      <extent words="173">173 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Pladsernes by</title>
-            <author gender=m born=1937>Rydung, Niels</author>
+            <author gender="m" born="1937">Rydung, Niels</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-04-20</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T3.3">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T3.3"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=EPrj>
+<text id="EPrj">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":nogov:" gloss="Two" id="43" lemma="to" msd="AC---U=--" tag="CD" in="" out="1:attr|2:nobj|3:pnct|4:ref|8:coref|11:relr|15:pnct|22:CONJ">To</W>

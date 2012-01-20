@@ -1,20 +1,20 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Forslag Til Rådets Direktiv Om Indeslutt'</title>
       </titleStmt>
-      <extent words=165>165 running words</extent>
+      <extent words="165">165 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Forslag Til Rådets Direktiv Om Indeslutt<title>
+            <title>Forslag Til Rådets Direktiv Om Indeslutt</title>
                <author>UNKNOWN</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <date>1988</date>
@@ -25,17 +25,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.3">
-        <catRef target="P.G9.8">
-        <catRef target="P.T8.8">
+        <catRef target="P.M4.3"/>
+        <catRef target="P.G9.8"/>
+        <catRef target="P.T8.8"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=HAYO>
+<text id="HAYO">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="4." id="40" lemma="4" msd="AC---U=--" tag="CD" in="" out="1:pnct">4</W>
@@ -70,7 +70,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="5." id="75" lemma="5" msd="AC---U=--" tag="CD" in="" out="1:pnct">5</W>
@@ -101,7 +101,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="6" id="106" lemma="6" msd="AC---U=--" tag="CD" in="" out="1:pnct">6</W>
@@ -168,7 +168,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="7." id="173" lemma="7" msd="AC---U=--" tag="CD" in="" out="1:pnct">7</W>
@@ -205,7 +205,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="ARTICLE" id="210" lemma="artikel" msd="NCCSU==I" tag="NN" in="" out="1:nobj">ARTIKEL</W>

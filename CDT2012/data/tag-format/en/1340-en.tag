@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="VADA" tag="VBD" in="" out="1:part">BUTTONED</W>
 <W msd="SP" tag="IN" in="-1:part" out="">UP</W>
 </s>
@@ -217,3 +217,4 @@
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod">superpower</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
+</root>

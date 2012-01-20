@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Georg Brandes. I modsigelsernes tegn'</title>
       </titleStmt>
-      <extent words=159>159 running words</extent>
+      <extent words="159">159 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Georg Brandes. I modsigelsernes tegn<title>
-               <author gender=m born=1926>Knudsen, Jørgen</author>
+            <title>Georg Brandes. I modsigelsernes tegn</title>
+               <author gender="m" born="1926">Knudsen, Jørgen</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1988</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G8.2">
-        <catRef target="P.T6.15">
+        <catRef target="P.M1"/>
+        <catRef target="P.G8.2"/>
+        <catRef target="P.T6.15"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=QtgR>
+<text id="QtgR">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="At_the_same_time" id="41" lemma="samtidig" msd="RGU" tag="RP" in="1:time" out="">Samtidig</W>

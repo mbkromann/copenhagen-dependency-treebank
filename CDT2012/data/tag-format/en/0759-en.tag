@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="2:dobj" out="1:pnct">Unforgettable</W>
 <W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:dobj|1:vobj|2:subj|23:pnct">is</W>
@@ -207,3 +207,4 @@
 <W msd="PD" tag="DT" in="" out="">that</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
+</root>

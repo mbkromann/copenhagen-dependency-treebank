@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'De kender kun én vej'</title>
       </titleStmt>
-      <extent words=159>159 running words</extent>
+      <extent words="159">159 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>De kender kun én vej</title>
-            <author gender=m>Kastrup, Mads</author>
+            <author gender="m">Kastrup, Mads</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-05-03</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G3.4">
-        <catRef target="P.T6.14">
+        <catRef target="P.M2"/>
+        <catRef target="P.G3.4"/>
+        <catRef target="P.T6.14"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B160059>
+<text id="B160059">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="For" id="43" lemma="af" msd="SP" tag="IN" in="8:scene" out="5:nobj|7:pnct">Af</W>

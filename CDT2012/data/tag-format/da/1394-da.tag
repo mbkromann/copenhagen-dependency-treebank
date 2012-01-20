@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Denne gang kostede det hende livet'</title>
       </titleStmt>
-      <extent words=159>159 running words</extent>
+      <extent words="159">159 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Denne gang kostede det hende livet</title>
-            <author gender=m born=1958>Gade, John</author>
+            <author gender="m" born="1958">Gade, John</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-05-06</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T9.10">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T9.10"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B160835>
+<text id="B160835">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Five" id="43" lemma="fem" msd="AC---U=--" tag="CD" in="1:numm" out="">Fem</W>

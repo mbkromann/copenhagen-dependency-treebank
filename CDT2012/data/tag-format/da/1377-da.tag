@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Tvivl om Olsens fremtid'</title>
       </titleStmt>
-      <extent words=157>157 running words</extent>
+      <extent words="157">157 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Tvivl om Olsens fremtid</title>
-            <author gender=m born=1955>Uno, Steen</author>
+            <author gender="m" born="1955">Uno, Steen</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-05-19</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T7.6">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T7.6"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B164207>
+<text id="B164207">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The_situation" id="43" lemma="situation" msd="NCCSU==D" tag="NN" in="1:subj" out="">Situationen</W>

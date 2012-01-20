@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Den første forelskelse'</title>
       </titleStmt>
-      <extent words=164>164 running words</extent>
+      <extent words="164">164 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Den første forelskelse</title>
-            <author gender=m>Berg, Robert C.</author>
+            <author gender="m">Berg, Robert C.</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1990-07-18</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G5.10">
-        <catRef target="P.T1">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G5.10"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=RPnL>
+<text id="RPnL">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="She" id="42" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|5:[subj]" out="23:coref">Hun</W>
@@ -105,7 +105,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="She" id="110" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-9:coref|1:subj" out="2:coref">Hun</W>

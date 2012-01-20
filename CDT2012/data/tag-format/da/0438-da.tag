@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Hejsa, Majsa!'</title>
       </titleStmt>
-      <extent words=175>175 running words</extent>
+      <extent words="175">175 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Hejsa, Majsa!<title>
-               <author gender=f born=1959>Holst, Hanne-Vibeke</author>
+            <title>Hejsa, Majsa!</title>
+               <author gender="f" born="1959">Holst, Hanne-Vibeke</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1988</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G7.12">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G7.12"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=LiOX>
+<text id="LiOX">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="&quot;" id="41" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>

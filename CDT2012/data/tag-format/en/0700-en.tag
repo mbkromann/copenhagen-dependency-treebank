@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CC" tag="CC" in="" out="14:conj">But</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">days</W>
@@ -250,3 +250,4 @@
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Greve</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
+</root>

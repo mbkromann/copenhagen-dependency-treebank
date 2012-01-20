@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W id="2" msd="CC" tag="CC" in="1:neg" out="">Nor</W>
 <W id="3" msd="VADR" tag="VBP" in="11:qobj" out="-2:pnct|-1:neg|1:²pnct|1:¹subj|4:¹TELIC:cons.sbj/ATTR">do</W>
@@ -197,3 +197,4 @@
 <W _noerror=":noante:" id="196" msd="NC=S" tag="NN" in="-1:preds" out="">fine</W>
 <W id="197" msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
+</root>

@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Torino er bedre end de prøver at bilde o'</title>
       </titleStmt>
-      <extent words=159>159 running words</extent>
+      <extent words="159">159 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Torino er bedre end de prøver at bilde o</title>
-            <author gender=m>Nielsen, Flemming</author>
+            <author gender="m">Nielsen, Flemming</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-03-04</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T7.6">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T7.6"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B146685>
+<text id="B146685">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="And" id="43" lemma="og" msd="CC" tag="CC" in="2:coord" out="">Og</W>

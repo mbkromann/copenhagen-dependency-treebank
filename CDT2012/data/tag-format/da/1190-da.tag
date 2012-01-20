@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Finansansatte vil have forbund til at sp'</title>
       </titleStmt>
-      <extent words=161>161 running words</extent>
+      <extent words="161">161 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Finansansatte vil have forbund til at sp</title>
-            <author gender=f born=1962>Wihre, Dorte Skovgaard</author>
+            <author gender="f" born="1962">Wihre, Dorte Skovgaard</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-10-08</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B196655>
+<text id="B196655">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="the_Financial_Services_Union" id="43" lemma="finansforbund" msd="NCNSG==D" tag="NN" in="1:{arg}|6:subj" out="1:possd|2:pnct|4:appa|25:coref|31:coref-iden">Finansforbundets</W>

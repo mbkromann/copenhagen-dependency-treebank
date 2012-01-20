@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="ANP" tag="JJ" in="1:attr" out="">Warm</W>
 <W _noerror=":noante:" id="2" msd="NC=P" tag="NNS" in="13:+SCENE" out="-1:attr|3:conj|7:coref-var|221:+CONJ">waffles</W>
 <W id="3" msd="CC" tag="CC" in="2:coord" out="">and</W>
@@ -231,3 +231,4 @@
 <W id="230" msd="SP" tag="IN" in="-4:accom" out="1:nobj">with</W>
 <W _noerror=":nosubj:" id="231" msd="VAG" tag="VBG" in="-1:nobj" out="">stuffing</W>
 </s>
+</root>

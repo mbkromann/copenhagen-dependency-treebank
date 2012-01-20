@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|30:pnct">remained</W>
 <W msd="VAG" tag="VBG" in="-1:preds" out="1:@loc">standing</W>
@@ -216,3 +216,4 @@
 <W msd="NC=S" tag="NN" in="-2:possd" out="">mother</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
+</root>

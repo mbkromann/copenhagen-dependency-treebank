@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'RØ`E TÆSK OG RØ'E KORT TIL DE STRIBEDE'</title>
       </titleStmt>
-      <extent words=171>171 running words</extent>
+      <extent words="171">171 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>RØ`E TÆSK OG RØ'E KORT TIL DE STRIBEDE</title>
-            <author gender=m>Larsen, Torben</author>
+            <author gender="m">Larsen, Torben</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-05-11</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T7.6">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T7.6"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B162270>
+<text id="B162270">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="ODENSE" id="43" lemma="Odense" msd="NP--U==-" tag="NNP" in="" out="1:pnct|12:pnct|3:other">ODENSE</W>

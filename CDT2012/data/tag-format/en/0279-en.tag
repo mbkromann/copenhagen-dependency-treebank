@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="4:qobj" out="-2:pnct|-1:subj|1:dobj|2:pnct">love</W>
@@ -221,3 +221,4 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="">meet</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
+</root>

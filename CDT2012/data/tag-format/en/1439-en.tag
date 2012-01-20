@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="VADA" tag="VBD" in="" out="1:pobj">BEGAN</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">WITH</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">THE</W>
@@ -203,3 +203,4 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">year</W>
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
+</root>

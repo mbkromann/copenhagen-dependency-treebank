@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:title" out="">President</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:title">Yeltsin</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|5:pnct|6:time|27:pnct">received</W>
@@ -205,3 +205,4 @@
 <W msd="AC" tag="CD" in="-18:pnct#|-1:preds" out="">irreversible.</W>
 <W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="VAG" tag="VBG" in="7:mod" out="1:pobj|5:pnct">According</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="3:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="1:namef">H.</W>
@@ -202,3 +202,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">ombudsman</W>
 <W msd="XP" tag="." in="-38:pnct" out="">.</W>
 </s>
+</root>

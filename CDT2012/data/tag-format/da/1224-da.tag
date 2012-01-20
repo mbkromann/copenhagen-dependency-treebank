@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Gentlemanden'</title>
       </titleStmt>
-      <extent words=169>169 running words</extent>
+      <extent words="169">169 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-11-22</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T7.6">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T7.6"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B207236>
+<text id="B207236">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="&quot;" id="43" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>

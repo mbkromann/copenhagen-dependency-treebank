@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PT" tag="WP" in="1:subj" out="">What</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|3:dobj|7:pnct">constitutes</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">poor</W>
@@ -228,3 +228,4 @@
 <W msd="ANP" tag="RB" in="-1:attr" out="">normally</W>
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
+</root>

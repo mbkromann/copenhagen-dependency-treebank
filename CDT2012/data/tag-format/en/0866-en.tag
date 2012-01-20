@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="NP=S" tag="NNP" in="1:namef" out="">Steen</W>
 <W id="2" msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Gade</W>
 <W _noerror=":nogov:" id="3" msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|33:pnct|3:pobj|90:+CONTR:sbj/(but)/ATTR1*|105:+CONJ:add/(and)/ATTR1">prepared</W>
@@ -245,3 +245,4 @@
 <W id="244" msd="NC=S" tag="NN" in="-1:nobj" out="">fall</W>
 <W id="245" msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="RB" in="2:attr" out="1:pnct">So</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="13:time" out="-2:attr|2:vobj">when</W>
@@ -200,3 +200,4 @@
 <W msd="ANP" tag="JJ" in="-1:avobj" out="">past</W>
 <W msd="XP" tag="." in="-56:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="" out="">LONDON</W>
 </s>
 <s>
@@ -214,3 +214,4 @@
 <W msd="ANP" tag="JJ" in="-2:nobj|-15:pnct#" out="">improvement.</W>
 <W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 </s>
+</root>

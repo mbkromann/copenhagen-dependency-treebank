@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W _noerror=":nogov:" id="2" msd="ANP" tag="RB" in="" out="-1:pnct|1:other|2:pnct|7:CONJ/ATTR1">Not</W>
 <W _noerror=":noante:" id="3" msd="NC=S" tag="NN" in="-1:other" out="">everyone</W>
@@ -241,3 +241,4 @@
 <W id="240" msd="PP" tag="PRP" in="-1:nobj|-12:coref" out="">you</W>
 <W id="241" msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
+</root>

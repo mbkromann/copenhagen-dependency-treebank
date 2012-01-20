@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: '30 år efter'</title>
       </titleStmt>
-      <extent words=142>142 running words</extent>
+      <extent words="142">142 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>30 år efter</title>
-            <author gender=m>Sørensen, Villy</author>
+            <author gender="m">Sørensen, Villy</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1989-02-22</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G5.10">
-        <catRef target="P.T1">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G5.10"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=IljO>
+<text id="IljO">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="42" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>

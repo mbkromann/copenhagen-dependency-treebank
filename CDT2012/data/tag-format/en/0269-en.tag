@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag=":" in="4:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="3:subj|4:[subj]" out="1:pobj">None</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -191,3 +191,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">exile</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
+</root>

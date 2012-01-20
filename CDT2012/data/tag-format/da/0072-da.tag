@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'JEG INDGÅR I MORTENS PLANER'</title>
       </titleStmt>
-      <extent words=161>161 running words</extent>
+      <extent words="161">161 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>JEG INDGÅR I MORTENS PLANER</title>
-            <author gender=m born=1955>Uno, Steen</author>
+            <author gender="m" born="1955">Uno, Steen</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-06-24</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T7.6">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T7.6"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Bhbp>
+<text id="Bhbp">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="&quot;" id="43" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
@@ -235,7 +235,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Steen" id="240" lemma="Steen" msd="NP--U==-" tag="NNP" in="1:namef" out="">Steen</W>
@@ -243,7 +243,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W gloss="Everybody" id="248" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:subj|2:[subj]" out="">Alle</W>

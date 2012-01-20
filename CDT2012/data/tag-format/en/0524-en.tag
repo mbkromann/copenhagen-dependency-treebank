@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="" out="">HEADLINE</W>
 </s>
 <s>
@@ -268,3 +268,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">government</W>
 <W msd="XP" tag=":" in="-30:pnct" out="">:</W>
 </s>
+</root>

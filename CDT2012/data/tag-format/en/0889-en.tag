@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="AC" tag="CD" in="" out="2:nobj|3:pnct|1:attr">Eight</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">political</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">parties</W>
@@ -279,3 +279,4 @@
 <W msd="AC" tag="CD" in="-2:nobj" out="-1:attr">mess.</W>
 <W msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
 </s>
+</root>

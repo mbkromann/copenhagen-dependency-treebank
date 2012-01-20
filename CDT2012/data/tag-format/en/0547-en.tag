@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="5:attr" out="">Big</W>
 <W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">trailer</W>
@@ -235,3 +235,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">rest</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
+</root>

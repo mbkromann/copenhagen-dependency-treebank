@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Frugter fra dårskabens træ'</title>
       </titleStmt>
-      <extent words=157>157 running words</extent>
+      <extent words="157">157 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Frugter fra dårskabens træ<title>
-               <author gender=m born=1920>Rehbrandt, Bert</author>
+            <title>Frugter fra dårskabens træ</title>
+               <author gender="m" born="1920">Rehbrandt, Bert</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Chr. Eriksens Forlag</publisher>
               <date>1988</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.11">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.11"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JKnF>
+<text id="JKnF">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="there" id="41" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
@@ -75,7 +75,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="In" id="80" lemma="i" msd="SP" tag="IN" in="3:goal" out="1:nobj">I</W>
@@ -154,7 +154,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="This" id="159" lemma="denne" msd="PD-CSU--U" tag="DT" in="-36:coref-res|2:subj" out="1:nobj">Denne</W>
@@ -197,7 +197,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="In" id="202" lemma="i" msd="SP" tag="IN" in="3:scene" out="2:nobj">I</W>

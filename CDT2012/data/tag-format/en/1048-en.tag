@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=P" tag="NNS" in="" out="1:mod">Upturn</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">for</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">boating</W>
@@ -207,3 +207,4 @@
 <W msd="AC" tag="CD" in="-3:nobj" out="-1:numm|-2:mod">million</W>
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
+</root>

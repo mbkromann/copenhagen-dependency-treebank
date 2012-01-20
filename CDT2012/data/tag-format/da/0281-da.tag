@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Derfor elsker jeg Tyrkiet'</title>
       </titleStmt>
-      <extent words=173>173 running words</extent>
+      <extent words="173">173 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Derfor elsker jeg Tyrkiet</title>
-            <author gender=f>Moes, Bodil</author>
+            <author gender="f">Moes, Bodil</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1989-06-01</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G3.4">
-        <catRef target="P.T3.3">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G3.4"/>
+        <catRef target="P.T3.3"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=InOK>
+<text id="InOK">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The_meal" id="42" lemma="måltid" msd="NCNSU==D" tag="NN" in="1:subj" out="">Måltidet</W>

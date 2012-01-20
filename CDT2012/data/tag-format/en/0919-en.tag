@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">traffic</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:quant|2:pnct">stops</W>
@@ -256,3 +256,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">night</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
+</root>

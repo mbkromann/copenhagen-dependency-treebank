@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Kitt</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:vobj|11:pnct">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
@@ -230,3 +230,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hour</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
+</root>

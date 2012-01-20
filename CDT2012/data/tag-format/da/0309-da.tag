@@ -1,20 +1,20 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Lykke til låns'</title>
       </titleStmt>
-      <extent words=145>145 running words</extent>
+      <extent words="145">145 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Lykke til låns<title>
+            <title>Lykke til låns</title>
                <author>Fogelström, Hans</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Aller Læser Service</publisher>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1987</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.11">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.11"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JFQM>
+<text id="JFQM">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="41" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>
@@ -88,7 +88,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="93" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>
@@ -111,7 +111,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="116" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
@@ -142,7 +142,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Liselotte" id="147" lemma="Liselotte" msd="NP--U==-" tag="NNP" in="-79:coref|1:subj" out="9:coref">Liselotte</W>
@@ -169,7 +169,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Birte" id="174" lemma="Birte" msd="NP--U==-" tag="NNP" in="1:subj" out="9:coref">Birte</W>
@@ -205,7 +205,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Liselotte" id="210" lemma="Liselotte" msd="NP--U==-" tag="NNP" in="-46:coref|1:subj|3:[subj]|5:[subj]" out="8:coref">Liselotte</W>

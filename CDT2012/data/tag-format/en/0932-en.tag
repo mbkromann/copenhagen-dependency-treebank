@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|7:[subj]|13:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">lady</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:vobj|4:pnct|5:conj|9:pnct|11:conj|23:pnct">is</W>
@@ -240,3 +240,4 @@
 <W msd="ANP" tag="JJ" in="-2:nobj|-39:pnct#" out="-1:mod">dance.</W>
 <W msd="XP" tag="&quot;" in="-40:pnct" out="">"</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Karadzic</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|33:pnct">said</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="25:vobj">that</W>
@@ -198,3 +198,4 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bosnia</W>
 <W msd="XP" tag="." in="-38:pnct" out="">.</W>
 </s>
+</root>

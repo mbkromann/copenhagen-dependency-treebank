@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'På livstid'</title>
       </titleStmt>
-      <extent words=163>163 running words</extent>
+      <extent words="163">163 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>På livstid<title>
-               <author gender=m born=1958>Jørgensen, Jens C.</author>
+            <title>På livstid</title>
+               <author gender="m" born="1958">Jørgensen, Jens C.</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Fremad</publisher>
               <date>1989</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1989</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.11">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.11"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JHva>
+<text id="JHva">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="it" id="41" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
@@ -107,7 +107,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="112" lemma="-" msd="XP" tag="-" in="4:pnct" out=""> - </W>
@@ -149,7 +149,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="154" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
@@ -218,7 +218,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="A" id="223" lemma="en" msd="PI-NSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Et</W>

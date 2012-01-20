@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'B1903: Intet mesterskab uden stabilitet'</title>
       </titleStmt>
-      <extent words=152>152 running words</extent>
+      <extent words="152">152 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>B1903: Intet mesterskab uden stabilitet</title>
-            <author gender=m born=1944>Pihl, Jørgen</author>
+            <author gender="m" born="1944">Pihl, Jørgen</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-03-17</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T7.6">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T7.6"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B149828>
+<text id="B149828">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="be_precluded" id="43" lemma="udelukke" msd="VAF-=----P-" tag="VB" in="1:vobj" out="2:[subj]">Udelukkes</W>

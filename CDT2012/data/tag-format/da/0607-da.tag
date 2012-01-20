@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Maven og tarmsystemet'</title>
       </titleStmt>
-      <extent words=158>158 running words</extent>
+      <extent words="158">158 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Maven og tarmsystemet</title>
-            <author gender=m born=1948>Sandberg, Finn</author>
+            <author gender="m" born="1948">Sandberg, Finn</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1983-03-24</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G4.2">
-        <catRef target="P.T4.4">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T4.4"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=REFZ>
+<text id="REFZ">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="..." id="42" lemma="..." msd="XP" tag="..." in="1:pnct" out="">...</W>
@@ -64,7 +64,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="..." id="69" lemma="..." msd="XP" tag="..." in="1:pnct" out="">...</W>
@@ -93,7 +93,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="..." id="98" lemma="..." msd="XP" tag="..." in="1:pnct" out="">...</W>
@@ -111,7 +111,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="..." id="116" lemma="..." msd="XP" tag="..." in="1:pnct" out="">...</W>
@@ -124,7 +124,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="most_important" id="129" lemma="vigtig" morph="" msd="ANS[CN][SP]U=[DI]U" tag="JJS" in="1:preds" out="">Vigtigst</W>

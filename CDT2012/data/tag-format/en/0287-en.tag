@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Lehder</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:dobj|9:pnct">has</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:mod|2:nobj|3:pnct|5:xpl">two</W>
@@ -228,3 +228,4 @@
 <W msd="NC=S" tag="NN" in="-4:dobj" out="-1:mod|-2:attr">knowledge</W>
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
+</root>

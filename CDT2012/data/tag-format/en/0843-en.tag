@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="5:subj|7:[subj]" out="1:attr|2:possd|3:mod">Pio's</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">appearance</W>
@@ -211,3 +211,4 @@
 <W msd="NC=S" tag="NN" in="-3:possd" out="">martyrdom</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
+</root>

@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Stenen fra Magnesia'</title>
       </titleStmt>
-      <extent words=163>163 running words</extent>
+      <extent words="163">163 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Stenen fra Magnesia<title>
-               <author gender=m born=1945>Schultz, Henry</author>
+            <title>Stenen fra Magnesia</title>
+               <author gender="m" born="1945">Schultz, Henry</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1991</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G7.12">
-        <catRef target="P.T8.5">
+        <catRef target="P.M1"/>
+        <catRef target="P.G7.12"/>
+        <catRef target="P.T8.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Peek>
+<text id="Peek">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="They" id="41" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">Man</W>
@@ -75,7 +75,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The_Earth's" id="80" lemma="Jorden" msd="NC[CN][SP]G==[DI]" tag="NN" in="2:subj|8:[subj]|10:[subj]|1:{arg}" out="1:possd">Jordens</W>
@@ -135,7 +135,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -148,7 +148,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W gloss="Homing_pigeons" id="153" lemma="brevdue" msd="NCCPU==I" tag="NNP" in="1:subj|2:[subj]" out="">Brevduer</W>
@@ -172,7 +172,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="birds" id="177" lemma="fugl" msd="NCCPU==I" tag="NNP" in="1:subj|7:[subj]" out="">Fugle</W>
@@ -197,7 +197,7 @@
 <W gloss="." id="196" lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="One" id="202" lemma="en" msd="PI-CSU--U" tag="DT" in="5:subj" out="1:pobj">En</W>

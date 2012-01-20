@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|4:pnct|11:conj|21:pnct">sounds</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">like</W>
@@ -202,3 +202,4 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Texas</W>
 <W msd="XP" tag="." in="-37:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="9:subj" out="1:pnct|2:ref|3:relpa">Carbohydrates</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">which</W>
@@ -230,3 +230,4 @@
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">pork</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="" out="">Yugo</W>
 <W msd="ANP" tag="JJ" in="" out="">alert</W>
 </s>
@@ -211,3 +211,4 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">airport</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
+</root>

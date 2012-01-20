@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="8:mod" out="1:nobj|2:pnct">With</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">that</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -222,3 +222,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">nucleus</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
+</root>

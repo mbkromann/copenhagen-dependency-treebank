@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="NP=S" tag="NNP" in="9:+JOINT" out="1:nobj|4:other|5:pnct|6:other">Box</W>
 <W id="2" msd="AC" tag="CD" in="-1:nobj" out="">64</W>
 </s>
@@ -234,3 +234,4 @@
 <W id="233" msd="NC=S" tag="NN" in="-1:nobj" out="">computation</W>
 <W id="234" msd="XP" tag=":" in="-3:pnct" out="">:</W>
 </s>
+</root>

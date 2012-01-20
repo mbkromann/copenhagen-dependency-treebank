@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="AC" tag="CD" in="1:{quant}|12:preds" out="1:pobj">One</W>
 <W id="2" msd="SP" tag="IN" in="-1:pobj" out="-1:{quant}|1:nobj">of</W>
 <W _noerror=":noante:" id="3" msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -230,3 +230,4 @@
 <W _noerror=":noante:" id="229" msd="NC=P" tag="NNS" in="-2:dobj" out="-1:nobj|-1:{arg}#">problems</W>
 <W id="230" msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
+</root>

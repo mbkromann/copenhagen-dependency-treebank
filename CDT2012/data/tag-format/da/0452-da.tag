@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Vind julegaven, som er godt skruet samme'</title>
       </titleStmt>
-      <extent words=152>152 running words</extent>
+      <extent words="152">152 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-11-16</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G1">
-        <catRef target="P.T7.7">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T7.7"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=MBBE>
+<text id="MBBE">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":nosubj:nogov:" gloss="Fill_out" id="42" lemma="udfylde" morph="fyld -ud/TELIC" msd="VAM-=------" tag="VB" in="" out="1:dobj|2:pobj|9:pnct|12:DIREC">Udfyld</W>
@@ -151,7 +151,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="COUPON" id="156" lemma="kupon" morph="" msd="NCCSU==I" tag="NN" in="9:+SCENE" out="1:other|91:coref-iden">KUPON</W>
@@ -188,7 +188,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Name" id="193" lemma="navn" morph="" msd="NCNSU==I" tag="NN" in="-9:+CONJ" out="1:pnct|6:+CONJ">Navn</W>
@@ -226,7 +226,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="participate" id="231" lemma="deltage" morph="tag -del/DOBJ.patient ~er" msd="VADR=----A-" tag="VBD" in="13:xtop" out="1:subj|2:add|3:pobj|11:pnct|12:ref">Deltager</W>
@@ -266,7 +266,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="WEEK'S" id="271" lemma="uge" morph="" msd="NCCSG==D" tag="NN" in="1:{time}|9:+SCENE" out="1:possd">UGENS</W>
@@ -274,7 +274,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The_screws" id="279" lemma="skrue" morph="" msd="NCCPU==D" tag="NNP" in="1:subj|5:[subj]|7:[subj]" out="11:coref">Skruerne</W>

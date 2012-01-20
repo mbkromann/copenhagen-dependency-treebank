@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'BESÆTNING TAVS OM KOLLISION I NORDSØEN'</title>
       </titleStmt>
-      <extent words=150>150 running words</extent>
+      <extent words="150">150 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>BESÆTNING TAVS OM KOLLISION I NORDSØEN</title>
-            <author gender=m born=1958>Braarup, Jens</author>
+            <author gender="m" born="1958">Braarup, Jens</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-07-21</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T7.1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T7.1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B178289>
+<text id="B178289">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The" id="43" lemma="den" msd="PD-CSU--U" tag="DT" in="21:subj" out="2:attr|3:nobj|4:pnct|6:appa|8:attr|10:ref|1:attr|13:relr">Den</W>

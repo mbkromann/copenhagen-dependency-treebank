@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Pia</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|3:pnct">shrugged</W>
 <W msd="PO" tag="PRP$" in="" out="">her</W>
@@ -227,3 +227,4 @@
 <W msd="ANP" tag="JJ" in="-2:preds" out="">boring</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
+</root>

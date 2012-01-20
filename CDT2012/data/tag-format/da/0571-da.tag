@@ -1,24 +1,24 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Se og Hørs TV- og radio-magasin'</title>
       </titleStmt>
-      <extent words=154>154 running words</extent>
+      <extent words="154">154 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Se og Hørs TV- og radio-magasin</title>
-            <author gender=m born=1953>Kirk, Jørn</author>
-            <author gender=m born=1948>Madsen, Kenneth</author>
-            <author gender=m born=1949>Rasmussen, Irving</author>
-            <author gender=m born=1929>Valentiner, Ulrik</author>
+            <author gender="m" born="1953">Kirk, Jørn</author>
+            <author gender="m" born="1948">Madsen, Kenneth</author>
+            <author gender="m" born="1949">Rasmussen, Irving</author>
+            <author gender="m" born="1929">Valentiner, Ulrik</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -30,17 +30,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1985-05-09</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G4.9">
-        <catRef target="P.T7.5">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G4.9"/>
+        <catRef target="P.T7.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=PuYz>
+<text id="PuYz">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Rocky" id="45" lemma="Rocky" msd="NP--U==-" tag="NNP" in="1:namef" out="">Rocky</W>
@@ -168,7 +168,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="SAT" id="173" lemma="lørdag" msd="NCCSU==I" tag="NN" in="" out="2:other|3:other">LØR</W>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="5:subj" out="1:attr|2:nobj">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">current</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">shift</W>
@@ -248,3 +248,4 @@
 <W msd="NP=S" tag="NNP" in="-9:appa" out="-1:namef">Hasselriis</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
+</root>

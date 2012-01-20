@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Sådan blev lille Anders tævet ihjel'</title>
       </titleStmt>
-      <extent words=153>153 running words</extent>
+      <extent words="153">153 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Sådan blev lille Anders tævet ihjel</title>
-            <author gender=m born=1943>Hørdum, Poul</author>
+            <author gender="m" born="1943">Hørdum, Poul</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-06-23</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T9.7">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T9.7"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=BgrC>
+<text id="BgrC">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="At" id="43" lemma="på" msd="SP" tag="IN" in="3:time" out="1:nobj">På</W>

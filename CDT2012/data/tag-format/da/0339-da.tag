@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Engang'</title>
       </titleStmt>
-      <extent words=163>163 running words</extent>
+      <extent words="163">163 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Engang<title>
-               <author gender=m born=1945>Metz, Georg</author>
+            <title>Engang</title>
+               <author gender="m" born="1945">Metz, Georg</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Nyt Nordisk Forlag</publisher>
               <date>1988</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.11">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.11"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JKRY>
+<text id="JKRY">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Oluf" id="41" lemma="Oluf" msd="NP--U==-" tag="NNP" in="1:namef" out="">Oluf</W>
@@ -115,7 +115,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The_enemy" id="120" lemma="fjende" morph="" msd="NCCSU==D" tag="NN" in="1:subj" out="16:coref-iden">Fjenden</W>
@@ -162,7 +162,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="Those" id="167" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="7:subj" out="1:pnct|2:ref|3:relr|15:coref">De</W>
@@ -192,7 +192,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Oluf" id="197" lemma="Oluf" msd="NP--U==-" tag="NNP" in="1:namef" out="">Oluf</W>
@@ -229,7 +229,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="And" id="234" lemma="og" msd="CC" tag="CC" in="2:coord" out="">Og</W>
@@ -244,7 +244,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="249" lemma="-" msd="XP" tag="-" in="8:pnct" out=""> - </W>

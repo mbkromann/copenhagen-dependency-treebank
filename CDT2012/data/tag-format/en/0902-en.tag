@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="VAF" tag="VB" in="" out="1:dobj|5:pobj|7:mod|8:pnct">Cut</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">zucchini</W>
@@ -259,3 +259,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">meat</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
+</root>

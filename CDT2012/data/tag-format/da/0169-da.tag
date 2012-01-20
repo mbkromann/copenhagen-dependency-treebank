@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Når 70 øl bliver daglig kost'</title>
       </titleStmt>
-      <extent words=168>168 running words</extent>
+      <extent words="168">168 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Når 70 øl bliver daglig kost</title>
-            <author gender=f born=1967>Fleischer, Louise</author>
+            <author gender="f" born="1967">Fleischer, Louise</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-10-03</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T4.4">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T4.4"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=FiWV>
+<text id="FiWV">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="For" id="43" lemma="i" msd="SP" tag="IN" in="5:time" out="1:nobj">I</W>

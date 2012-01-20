@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Hotel Donau. Essay om det andet Europa'</title>
       </titleStmt>
-      <extent words=175>175 running words</extent>
+      <extent words="175">175 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Hotel Donau. Essay om det andet Europa<title>
-               <author gender=m born=1931>Barfoed, Niels</author>
+            <title>Hotel Donau. Essay om det andet Europa</title>
+               <author gender="m" born="1931">Barfoed, Niels</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1988</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G4.5">
-        <catRef target="P.T9.2">
+        <catRef target="P.M1"/>
+        <catRef target="P.G4.5"/>
+        <catRef target="P.T9.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Ldjt>
+<text id="Ldjt">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>

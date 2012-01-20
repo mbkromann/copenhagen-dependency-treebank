@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Te hos dr. Munch'</title>
       </titleStmt>
-      <extent words=147>147 running words</extent>
+      <extent words="147">147 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Te hos dr. Munch<title>
-               <author gender=m born=1924>Rasmussen, Bent William</author>
+            <title>Te hos dr. Munch</title>
+               <author gender="m" born="1924">Rasmussen, Bent William</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Borgen</publisher>
               <date>1990</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1990</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.11">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.11"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JMvt>
+<text id="JMvt">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The_collar" id="41" lemma="flip" morph="" msd="NCCSU==D" tag="NN" in="1:subj" out="106:coref-iden">Flippen</W>
@@ -83,7 +83,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="88" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>
@@ -140,7 +140,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Peter" id="145" lemma="Peter" msd="NP--U==-" tag="NNP" in="-22:coref|1:subj|4:[subj]" out="11:coref">Peter</W>
@@ -226,7 +226,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="231" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>

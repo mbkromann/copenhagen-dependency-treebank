@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="PD" tag="DT" in="10:subj" out="1:nobj">The</W>
 <W id="2" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">proposal</W>
 <W id="3" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="3:nobj">for</W>
@@ -237,3 +237,4 @@
 <W id="236" msd="NC=S" tag="NN" in="-5:nobj" out="-3:nobj.subj|-3:{agent}#">meeting</W>
 <W id="237" msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
+</root>

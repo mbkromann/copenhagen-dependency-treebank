@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="4:subj" out="3:conj">Art</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">artistic</W>
@@ -215,3 +215,4 @@
 <W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
+</root>

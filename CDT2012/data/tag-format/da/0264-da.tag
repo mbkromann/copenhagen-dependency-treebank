@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Prinsen skiftede fra helikopter til vete'</title>
       </titleStmt>
-      <extent words=160>160 running words</extent>
+      <extent words="160">160 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988-06-24</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G6.20">
-        <catRef target="P.T7.1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G6.20"/>
+        <catRef target="P.T7.1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=IUdE>
+<text id="IUdE">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":nosubj:" gloss="Got" id="43" lemma="stige" morph="" msd="VADA=----A-" tag="VBD" in="12:+SCENE" out="1:@dir">Steg</W>

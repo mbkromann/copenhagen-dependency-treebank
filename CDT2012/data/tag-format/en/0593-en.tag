@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="PI" tag="DT" in="3:subj|4:[subj]" out="2:nobj|26:coref-iden">A</W>
 <W _noerror=":noante:" id="2" msd="NC=S" tag="NN" in="1:attr|1:{goal}#" out="">rent</W>
 <W id="3" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{goal}#">allowance</W>
@@ -263,3 +263,4 @@
 <W id="262" msd="NC=S" tag="NN" in="-2:possd" out="-2:[iobj]|-2:{recipient}|-1:attr|-1:{goal}#">allowance</W>
 <W id="263" msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
+</root>

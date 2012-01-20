@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="6:subj" out="2:attr|3:nobj|4:mod">The</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">8-year</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">old</W>
@@ -229,3 +229,4 @@
 <W msd="ANP" tag="RB" in="-4:mod" out="-2:tobj">ago</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
+</root>

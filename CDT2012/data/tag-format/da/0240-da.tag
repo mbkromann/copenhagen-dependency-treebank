@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Kend din krop - mand!'</title>
       </titleStmt>
-      <extent words=155>155 running words</extent>
+      <extent words="155">155 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Kend din krop - mand!</title>
-            <author gender=m>Nielsen, Stig</author>
+            <author gender="m">Nielsen, Stig</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-11-26</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G4.2">
-        <catRef target="P.T4.5">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T4.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=HkvG>
+<text id="HkvG">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="42" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
@@ -100,7 +100,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="XP" tag="&quot;" in="6:pnct" out="">"</W>
 <W id="2" msd="SP" tag="IN" in="5:time" out="1:nobj|3:pnct">At</W>
 <W _noerror=":noante:" id="3" msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -230,3 +230,4 @@
 <W id="229" msd="VADR" tag="VBZ" in="-50:+TELIC:cons.sbj/(therefore)/ATTR*" out="-24:qobj|-1:subj|1:pnct">says</W>
 <W id="230" msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
+</root>

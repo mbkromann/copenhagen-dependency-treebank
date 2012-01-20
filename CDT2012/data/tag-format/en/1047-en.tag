@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">County</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="-1:mod">Council</W>
 <W msd="NP=S" tag="NNP" in="2:title" out="-1:mod">Chairperson</W>
@@ -278,3 +278,4 @@
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Raaschou</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
+</root>

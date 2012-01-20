@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Vandring gennem sind og sogne'</title>
       </titleStmt>
-      <extent words=152>152 running words</extent>
+      <extent words="152">152 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Vandring gennem sind og sogne<title>
-               <author gender=m born=1930>Geil, Georg S.</author>
+            <title>Vandring gennem sind og sogne</title>
+               <author gender="m" born="1930">Geil, Georg S.</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Poul Kristensens For</publisher>
               <date>1989</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1989</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G8.12">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G8.12"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JHTc>
+<text id="JHTc">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The_popular_wisdom" id="41" lemma="folkevisdom" msd="NCCSU==D" tag="NN" in="1:subj" out="">Folkevisdommen</W>
@@ -133,7 +133,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Worse" id="138" lemma="slem" msd="ANS[CN][SP]U=[DI]U" tag="JJS" in="1:preds" out="">Værst</W>
@@ -174,7 +174,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="This" id="179" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
@@ -192,7 +192,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Perhaps" id="197" lemma="måske" msd="RGU" tag="RP" in="2:epi" out="">Måske</W>
@@ -241,7 +241,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="But" id="246" lemma="men" msd="CC" tag="CC" in="" out="">Men</W>

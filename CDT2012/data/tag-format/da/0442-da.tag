@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Den lille seje mand'</title>
       </titleStmt>
-      <extent words=176>176 running words</extent>
+      <extent words="176">176 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Den lille seje mand</title>
-            <author gender=m>Rosenkvist, Ove</author>
+            <author gender="m">Rosenkvist, Ove</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-01-15</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.2">
-        <catRef target="P.G8.9">
-        <catRef target="P.T5.2">
+        <catRef target="P.M3.2"/>
+        <catRef target="P.G8.9"/>
+        <catRef target="P.T5.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Limr>
+<text id="Limr">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="On" id="43" lemma="på" msd="SP" tag="IN" in="2:time" out="1:nobj">På</W>
@@ -100,7 +100,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>

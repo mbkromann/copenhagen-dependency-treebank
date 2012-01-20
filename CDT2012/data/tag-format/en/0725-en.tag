@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="RB" in="1:mod" out="">Everywhere</W>
 <W msd="SP" tag="IN" in="10:mod" out="-1:mod|1:nobj|8:pnct">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:mod|3:nobj">the</W>
@@ -214,3 +214,4 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">world</W>
 <W msd="XP" tag="." in="-32:pnct" out="">.</W>
 </s>
+</root>

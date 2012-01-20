@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="5:mod" out="1:avobj|2:pnct">At</W>
 <W msd="ANP" tag="JJ" in="-1:avobj" out="">first</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -230,3 +230,4 @@
 <W msd="VADA" tag="VBD" in="" out="-25:qobj|-1:subj|1:pnct">asked</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
+</root>

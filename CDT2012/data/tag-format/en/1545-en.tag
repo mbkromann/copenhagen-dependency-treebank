@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="JJ" in="11:mod" out="1:pobj">Parallel</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">preparations</W>
@@ -220,3 +220,4 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">categories</W>
 <W msd="XP" tag=":" in="-14:pnct" out="">:</W>
 </s>
+</root>

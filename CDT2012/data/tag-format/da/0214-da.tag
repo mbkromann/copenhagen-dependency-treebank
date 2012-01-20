@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Folketinget Og Bioteknologien'</title>
       </titleStmt>
-      <extent words=157>157 running words</extent>
+      <extent words="157">157 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Folketinget Og Bioteknologien</title>
-            <author gender=m>Arnfred, Niels</author>
+            <author gender="m">Arnfred, Niels</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1987</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.1">
-        <catRef target="P.G4.2">
-        <catRef target="P.T8.8">
+        <catRef target="P.M3.1"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T8.8"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=HFFq>
+<text id="HFFq">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="For" id="43" lemma="til" msd="SP" tag="IN" in="2:scene" out="1:nobj">Til</W>
@@ -75,7 +75,7 @@
 <W gloss="research_institutes" id="74" lemma="forskningsinstitut" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">forskningsinstitutter</W>
 <W gloss="." id="75" lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
-<note resp=auth>
+<note resp="auth">
 <s>
 <W gloss="The_numbers" id="79" lemma="tal" msd="NCNPU==D" tag="NNP" in="3:subj" out="1:attr|1:{time}">Tallene</W>
 <W gloss="from" id="80" lemma="fra" msd="SP" tag="IN" in="-1:attr|-1:{time}" out="1:nobj">fra</W>
@@ -140,7 +140,7 @@
 <W gloss="for" id="139" lemma="til" msd="SP" tag="IN" in="-11:pobj" out="1:nobj">til</W>
 <W gloss="support_programmes" id="140" lemma="støtteprogram" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">støtteprogrammer</W>
 <W gloss="." id="141" lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
-<note resp=auth>
+<note resp="auth">
 <s>
 <W gloss="Comments" id="144" lemma="bemærkning" msd="NCCPU==I" tag="NNP" in="12:[subj]" out="1:pobj|11:pnct|20:pnct|1:{arg}|12:attr">Bemærkninger</W>
 <W gloss="on" id="145" lemma="til" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">til</W>

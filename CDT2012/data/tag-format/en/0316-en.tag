@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag=":" in="12:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="11:mod" out="1:nobj|2:pnct|3:voc|4:pnct|6:modp">Apropos</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">collective</W>
@@ -211,3 +211,4 @@
 <W msd="ANP" tag="RB" in="-1:avobj" out="">together</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
+</root>

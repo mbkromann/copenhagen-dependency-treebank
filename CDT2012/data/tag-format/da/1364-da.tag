@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Schlüter stempler sin topchef som utrovæ'</title>
       </titleStmt>
-      <extent words=148>148 running words</extent>
+      <extent words="148">148 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Schlüter stempler sin topchef som utrovæ</title>
-            <author gender=m>Aae, Michael</author>
+            <author gender="m">Aae, Michael</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-04-03</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T9.5">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T9.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B153690>
+<text id="B153690">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="it" id="43" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|6:[subj]|7:[subj]" out="">Det</W>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="" out="1:dobj">ASK</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">US</W>
 </s>
@@ -233,3 +233,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">half</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="">years</W>
 </s>
+</root>

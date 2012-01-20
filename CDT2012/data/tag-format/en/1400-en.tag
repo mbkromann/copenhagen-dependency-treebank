@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="" out="1:other">FOOD</W>
 <W msd="NP=S" tag="NNP" in="-1:other" out="">SCARCE</W>
 </s>
@@ -257,3 +257,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">diplomat</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
+</root>

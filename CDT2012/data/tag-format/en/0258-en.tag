@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="VAG" tag="VBG" in="6:mod" out="1:pobj|4:pnct">According</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -244,3 +244,4 @@
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-2:[subj]">confiscated</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
+</root>

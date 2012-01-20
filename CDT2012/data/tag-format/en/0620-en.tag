@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="XP" tag=":" in="2:pnct" out="">-</W>
 <W _noerror=":noante:" id="2" msd="PP" tag="PRP" in="1:subj" out="11:coref">I</W>
 <W id="3" msd="VADA" tag="VBD" in="11:qobj" out="-2:pnct|-1:subj|1:dobj|9:pnct|17:conj">felt</W>
@@ -213,3 +213,4 @@
 <W id="212" msd="NC=P" tag="NNS" in="-1:possd" out="-1:{const}">cheeks</W>
 <W id="213" msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="14:mod" out="1:nobj|10:pnct">For</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:preds">being</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr|3:nobj|4:mod">the</W>
@@ -228,3 +228,4 @@
 <W msd="PP" tag="PRP" in="-4:focal" out="">themselves</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
+</root>

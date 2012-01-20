@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="6:subj" out="1:attr|2:nobj">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">popular</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">wisdom</W>
@@ -211,3 +211,4 @@
 <W msd="ANP" tag="RB" in="-6:preds" out="-5:tobj">ago</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
+</root>

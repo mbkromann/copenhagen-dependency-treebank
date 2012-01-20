@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Fræk og farlig'</title>
       </titleStmt>
-      <extent words=154>154 running words</extent>
+      <extent words="154">154 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Fræk og farlig</title>
-            <author gender=f born=1949>Spangsberg, Vibeke</author>
+            <author gender="f" born="1949">Spangsberg, Vibeke</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1990-04-26</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G4.2">
-        <catRef target="P.T6.12">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T6.12"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JADZ>
+<text id="JADZ">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="And" id="42" lemma="og" msd="CC" tag="CC" in="2:coord" out="">Og</W>

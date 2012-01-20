@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="21:mod" out="1:pobj|4:pnct">Cater-corner</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -246,3 +246,4 @@
 <W msd="AC" tag="CD" in="-2:dobj" out="-1:mod">18,000</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
+</root>

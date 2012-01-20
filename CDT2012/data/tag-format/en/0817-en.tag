@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="3:subj" out="1:mod|2:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Social</W>
 <W msd="NP=P" tag="NNPS" in="-2:nobj" out="">Democrats</W>
@@ -246,3 +246,4 @@
 <W msd="ANP" tag="JJ" in="-1:nobj|-24:pnct#" out="">initiative.</W>
 <W msd="XP" tag="&quot;" in="-25:pnct" out="">"</W>
 </s>
+</root>

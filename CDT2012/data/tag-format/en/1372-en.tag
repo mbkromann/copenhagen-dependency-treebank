@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="8:mod" out="1:nobj|6:pnct">For</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:mod">four</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">weeks</W>
@@ -230,3 +230,4 @@
 <W msd="AC" tag="CD" in="-1:vobj|-17:pnct#" out="-2:[subj]">rap.</W>
 <W msd="XP" tag="&quot;" in="-18:pnct" out="">"</W>
 </s>
+</root>

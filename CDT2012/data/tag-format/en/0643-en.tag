@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="ANP" tag="JJ" in="1:attr" out="">Double</W>
 <W _noerror=":noante:" id="2" msd="NC=S" tag="NN" in="5:+SCENE" out="-1:attr">life</W>
 </s>
@@ -218,3 +218,4 @@
 <W id="217" msd="NC=S" tag="NN" in="-2:nobj" out="">girl</W>
 <W id="218" msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
+</root>

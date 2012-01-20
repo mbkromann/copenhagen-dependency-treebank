@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="9:subj|11:[subj]" out="1:pnct|2:ref|6:rel">Kampangpetch</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-2:ref|5:nobj" out="">where</W>
@@ -255,3 +255,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">order</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="PD" tag="DT" in="2:subj|3:[subj]|5:[subj]" out="1:nobj">The</W>
 <W id="2" msd="NC=S" tag="NN" in="-1:nobj" out="">press</W>
 <W _noerror=":nogov:" id="3" msd="VADR" tag="VBZ" in="" out="-2:subj|1:vobj|7:pnct|50:CONJ:add/and|12:CONST:rest/(i.e.)">has</W>
@@ -247,3 +247,4 @@
 <W id="246" msd="NC=P" tag="NNS" in="-1:nobj" out="">copies</W>
 <W id="247" msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
+</root>

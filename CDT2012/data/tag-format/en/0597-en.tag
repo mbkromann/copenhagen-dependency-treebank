@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="7:mod" out="1:nobj|4:pnct">At</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">same</W>
@@ -196,3 +196,4 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">literature</W>
 <W msd="XP" tag="." in="-87:pnct" out="">.</W>
 </s>
+</root>

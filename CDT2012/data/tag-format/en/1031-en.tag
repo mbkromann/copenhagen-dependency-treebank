@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=S" tag="NN" in="4:subj" out="1:attr|1:{loc}">Growth</W>
 <W msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="2:nobj">in</W>
 <W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="">world</W>
@@ -264,3 +264,4 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="">1992</W>
 <W msd="XP" tag="." in="-37:pnct" out="">.</W>
 </s>
+</root>

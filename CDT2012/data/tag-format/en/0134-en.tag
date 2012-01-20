@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PI" tag="DT" in="9:subj|11:[subj]" out="1:nobj|2:time|3:mod|116:coref-var">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">meeting</W>
 <W msd="NC=S" tag="NN" in="-2:time" out="">yesterday</W>
@@ -230,3 +230,4 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">captain</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
+</root>

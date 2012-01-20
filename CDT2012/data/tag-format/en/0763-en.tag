@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="2:subj|9:[subj]" out="1:nobj|24:mod">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">butcher</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|2:dobj|3:mod|7:conj|27:pnct">received</W>
@@ -222,3 +222,4 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">unrinsed</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
+</root>

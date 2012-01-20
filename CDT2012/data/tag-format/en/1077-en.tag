@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="CC" tag="CC" in="3:discmark" out="">But</W>
 <W _noerror=":noante:" id="2" msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W id="3" msd="NC=S" tag="NN" in="-1:nobj" out="">argument</W>
@@ -236,3 +236,4 @@
 <W id="235" msd="NC=S" tag="NN" in="-7:appa|-93:coref-iden" out="">hunting</W>
 <W id="236" msd="XP" tag="." in="-48:pnct" out="">.</W>
 </s>
+</root>

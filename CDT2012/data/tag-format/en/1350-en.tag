@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CC" tag="CC" in="" out="4:conj|16:pnct">And</W>
 <W msd="PO" tag="PRP$" in="3:subj" out="2:possd">his</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">music</W>
@@ -215,3 +215,4 @@
 <W msd="NC=P" tag="NNS" in="-4:vobj" out="-3:subj">gossips</W>
 <W msd="XP" tag="." in="-14:pnct" out="">?</W>
 </s>
+</root>

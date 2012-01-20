@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Arbejder fredsbevægelser og Socialdemokr'</title>
       </titleStmt>
-      <extent words=173>173 running words</extent>
+      <extent words="173">173 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Arbejder fredsbevægelser og Socialdemokr</title>
-            <author gender=m>Nielsen, Egon</author>
+            <author gender="m">Nielsen, Egon</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1983-11-09</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G3.1">
-        <catRef target="P.T9.3">
+        <catRef target="P.M2"/>
+        <catRef target="P.G3.1"/>
+        <catRef target="P.T9.3"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JXzv>
+<text id="JXzv">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="By" id="43" lemma="af" msd="SP" tag="IN" in="35:+SCENE" out="2:nobj">Af</W>
@@ -57,7 +57,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The" id="62" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="16:subj" out="1:nobj|2:pnct|3:ref|7:relr">De</W>

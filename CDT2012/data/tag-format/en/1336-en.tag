@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:title" out="">Queen</W>
 <W msd="NP=S" tag="NNP" in="9:subj|11:[subj]" out="-1:title|1:attr|2:possd">Elizabeth's</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">perpetual</W>
@@ -194,3 +194,4 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">own</W>
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
+</root>

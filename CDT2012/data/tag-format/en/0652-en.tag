@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="3:subj" out="2:possd|1:attr">Lademann's</W>
 <W msd="NP=S" tag="NNP" in="-1:attr" out="">Big</W>
 <W msd="NP=S" tag="NNP" in="-2:possd" out="">Encyclopaedia</W>
@@ -200,3 +200,4 @@
 <W msd="ANP" tag="JJ" in="-18:pnct#|-1:attr" out="">best.</W>
 <W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
 </s>
+</root>

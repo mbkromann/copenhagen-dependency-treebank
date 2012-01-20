@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="6:subj|7:[subj]" out="2:nobj|3:mod">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">currency</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">instability</W>
@@ -202,3 +202,4 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">markets</W>
 <W msd="XP" tag="." in="-39:pnct" out="">.</W>
 </s>
+</root>

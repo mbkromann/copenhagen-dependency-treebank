@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Gems Eller Skovle? Er Stadigvæk Spørgsmå'</title>
       </titleStmt>
-      <extent words=157>157 running words</extent>
+      <extent words="157">157 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Gems Eller Skovle? Er Stadigvæk Spørgsmå</title>
-            <author gender=m>Breck, Thomas</author>
+            <author gender="m">Breck, Thomas</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1989</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.4">
-        <catRef target="P.G4.2">
-        <catRef target="P.T8.8">
+        <catRef target="P.M3.4"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T8.8"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=HFae>
+<text id="HFae">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":nogov:nosubj:" gloss="Let" id="42" lemma="lade" morph="" msd="VAM-=------" tag="VB" in="" out="1:dobj|2:vobj|37:pnct">Lad</W>

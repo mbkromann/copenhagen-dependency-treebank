@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Igen nye ejere i Kosan-selskaber'</title>
       </titleStmt>
-      <extent words=150>150 running words</extent>
+      <extent words="150">150 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Igen nye ejere i Kosan-selskaber</title>
-            <author gender=m born=1960>Snitkjær, Klavs</author>
+            <author gender="m" born="1960">Snitkjær, Klavs</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-07-04</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T2.2">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T2.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B174515>
+<text id="B174515">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The" id="43" lemma="den" msd="PD-CSU--U" tag="DT" in="5:subj" out="3:attr|4:nobj|15:assoc-const|24:coref-var">Den</W>

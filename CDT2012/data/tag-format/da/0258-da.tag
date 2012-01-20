@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Hans have er fuld af gift'</title>
       </titleStmt>
-      <extent words=172>172 running words</extent>
+      <extent words="172">172 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Hans have er fuld af gift</title>
-            <author gender=m>Kotch, Nicolas</author>
+            <author gender="m">Kotch, Nicolas</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988-06-21</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.2">
-        <catRef target="P.T8.12">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T8.12"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=ILvJ>
+<text id="ILvJ">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="According_to" id="43" lemma="ifølge" msd="SP" tag="IN" in="2:source" out="1:nobj">Ifølge</W>

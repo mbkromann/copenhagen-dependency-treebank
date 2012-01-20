@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Øst for nydelsen'</title>
       </titleStmt>
-      <extent words=154>154 running words</extent>
+      <extent words="154">154 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Øst for nydelsen</title>
-            <author gender=f>Uldall-Jessen, Gritt</author>
+            <author gender="f">Uldall-Jessen, Gritt</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-10</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.1">
-        <catRef target="P.G4.2">
-        <catRef target="P.T4.5">
+        <catRef target="P.M3.1"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T4.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=HYll>
+<text id="HYll">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="We" id="43" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|4:[subj]" out="26:coref">Vi</W>

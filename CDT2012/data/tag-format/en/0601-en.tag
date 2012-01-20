@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Odd-Catla</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|2:pnct|3:mod|4:pnct|6:conj|15:pnct">considered</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
@@ -181,3 +181,4 @@
 <W msd="VADA" tag="VBD" in="-5:rel" out="-2:mod|-1:subj">happened</W>
 <W msd="XP" tag="." in="-69:pnct" out="">.</W>
 </s>
+</root>

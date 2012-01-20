@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'UNTITLED'</title>
       </titleStmt>
-      <extent words=159>159 running words</extent>
+      <extent words="159">159 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,24 +28,24 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-09-04</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.2">
-        <catRef target="P.G6.16">
-        <catRef target="P.T1">
+        <catRef target="P.M4.2"/>
+        <catRef target="P.G6.16"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=PULs>
+<text id="PULs">
 <body>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="6_p.m._weather" id="43" lemma="18-vejr" msd="NCNSU==I" tag="NN" in="" out="">18-vejr</W>
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="EMPL" id="50" lemma="MEDARB" msd="XX" tag="FW" in="" out="2:conj|3:conj">MEDARB</W>
@@ -57,7 +57,7 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="TO_BE_BROADCAST" id="62" lemma="udsende" msd="VADR=----P-" tag="VBD" in="" out="1:time|4:conj">UDSENDES</W>
@@ -69,7 +69,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The_weather" id="74" lemma="vejr" msd="NCNSU==D" tag="NN" in="" out="1:attr|1:{time}">Vejret</W>
@@ -78,7 +78,7 @@
 <W gloss="afternoon" id="77" lemma="eftermiddag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">eftermiddag</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="tonight" id="83" lemma="i_nat" msd="RGU" tag="RP" in="1:time" out="">I_nat</W>
@@ -148,7 +148,7 @@
 <W gloss="north-west" id="147" lemma="nordvest" msd="NC[CN][SP]U==I" tag="NN" in="-2:conj" out="-1:coord">nordvest</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Gale_warning" id="153" lemma="kulingvarsel" msd="NCNSU==I" tag="NN" in="" out="1:attr|1:{about}">Kulingvarsel</W>
@@ -205,7 +205,7 @@
 <W gloss="metres/sec" id="204" lemma="m/sek" msd="XA" tag="XA" in="-1:nobj" out="">m/sek</W>
 </s>
 </p>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="GROSS" id="210" lemma="brutto" msd="RGU" tag="RP" in="" out="2:conj">BRUTTO</W>
@@ -214,7 +214,7 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="O" id="219" lemma="O" msd="XA" tag="XA" in="" out="2:conj">O</W>
@@ -223,7 +223,7 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="EMPL" id="228" lemma="MEDARB" msd="XX" tag="FW" in="" out="2:conj">MEDARB</W>
@@ -232,7 +232,7 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="DATE" id="237" lemma="dato" msd="NCCSU==I" tag="NN" in="" out="2:conj">DATO</W>
@@ -241,7 +241,7 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="TO_BE_BROADCAST" id="246" lemma="udsende" msd="VADR=----P-" tag="VBD" in="" out="1:time">UDSENDES</W>
@@ -251,7 +251,7 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="READER" id="256" lemma="oplæser" msd="NCCSU==I" tag="NN" in="" out="1:coord">OPLÆSER</W>
@@ -259,14 +259,14 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="HEADING" id="264" lemma="rubrik" msd="NCCSU==I" tag="NN" in="" out="">RUBRIK</W>
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="(" id="271" lemma="(" msd="XP" tag="(" in="4:pnct" out="">(</W>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="RB" in="2:time" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|-2:time|1:vobj|2:pnct|6:conj|7:pnct">is</W>
@@ -238,3 +238,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fire</W>
 <W msd="XP" tag="." in="-48:pnct" out="">.</W>
 </s>
+</root>

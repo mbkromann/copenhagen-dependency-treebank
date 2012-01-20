@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":nogov:" id="1" msd="PI" tag="DT" in="" out="1:nobj|2:attr|20:pnct|31:+CONC/even_though">A</W>
 <W id="2" msd="NC=S" tag="NN" in="-1:nobj" out="1:{loc}">shock</W>
 <W id="3" msd="SP" tag="IN" in="-2:attr|-1:{loc}" out="1:nobj">in</W>
@@ -242,3 +242,4 @@
 <W id="241" msd="NC=S" tag="NN" in="-1:nobj" out="">moment</W>
 <W id="242" msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
+</root>

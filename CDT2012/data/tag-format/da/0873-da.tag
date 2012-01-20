@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Danmark har ingen tiggere'</title>
       </titleStmt>
-      <extent words=176>176 running words</extent>
+      <extent words="176">176 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-05-14</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G3.1">
-        <catRef target="P.T9.3">
+        <catRef target="P.M2"/>
+        <catRef target="P.G3.1"/>
+        <catRef target="P.T9.3"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B162637>
+<text id="B162637">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Something" id="43" lemma="nogen" msd="PI-NSU--U" tag="DT" in="10:subj" out="1:nobj|2:pnct|3:ref|4:relr">Noget</W>

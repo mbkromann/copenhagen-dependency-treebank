@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="(" in="1:pnct" out="">(</W>
 <W msd="AC" tag="CD" in="" out="-1:pnct|1:nobj|2:pnct">3</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">stars</W>
@@ -220,3 +220,4 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{source}#">smoke</W>
 <W msd="XP" tag="." in="-14:pnct" out="">!</W>
 </s>
+</root>

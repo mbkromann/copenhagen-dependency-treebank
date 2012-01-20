@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Pastaen presser kartoflen'</title>
       </titleStmt>
-      <extent words=157>157 running words</extent>
+      <extent words="157">157 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Pastaen presser kartoflen</title>
-            <author gender=f born=1962>Harbo, Marianne</author>
+            <author gender="f" born="1962">Harbo, Marianne</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-10-18</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T7.3">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T7.3"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=FmcX>
+<text id="FmcX">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Pasta" id="43" lemma="pasta" morph="&lt;unknown&gt;" msd="NCCSU==I" tag="NN" in="1:subj|9:[subj]" out="">Pasta</W>

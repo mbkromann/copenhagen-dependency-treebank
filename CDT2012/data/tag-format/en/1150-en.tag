@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="25:mod" out="1:nobj">By</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">giving</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">notice</W>
@@ -207,3 +207,4 @@
 <W msd="NC=S" tag="NN" in="-5:mod" out="-1:attr">week</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
+</root>

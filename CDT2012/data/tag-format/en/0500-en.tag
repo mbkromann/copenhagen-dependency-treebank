@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANC" tag="RBR" in="1:mod" out="">More</W>
 <W msd="ANP" tag="JJ" in="3:attr" out="-1:mod">harmonious</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">final</W>
@@ -229,3 +229,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">letter</W>
 <W msd="XP" tag=":" in="-11:pnct" out="">:</W>
 </s>
+</root>

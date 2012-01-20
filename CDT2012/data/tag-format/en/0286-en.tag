@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CC" tag="CC" in="" out="1:conj|6:pnct">But</W>
 <W msd="VAF" tag="VB" in="-1:conj" out="1:dobj|3:vobj">let</W>
 <W msd="PD" tag="DT" in="-1:dobj|2:[subj]" out="1:nobj">the</W>
@@ -236,3 +236,4 @@
 <W msd="PP" tag="PRP" in="-4:conj" out="-1:coord">I</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Elise</W>
 <W msd="NC" tag="NP--U==-" in="2:subj" out="-1:namef|1:possd">Gug's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">workplace</W>
@@ -196,3 +196,4 @@
 <W msd="NC=P" tag="NNS" in="-5:conj" out="-1:coord">drapes</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CC" tag="CC" in="" out="4:conj|12:pnct">But</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
 <W msd="CS" tag="IN" in="2:time" out="-1:neg|1:obl">before</W>
@@ -159,7 +159,7 @@
 <W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PI" tag="DT" in="-2:appr" out="-1:pnct|1:nobj|5:pnct">An</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">Officer</W>
-<W msd="CC" tag="CC" in="1:coord" out="">&</W>
+<W msd="CC" tag="CC" in="1:coord" out="">&amp;</W>
 <W msd="PI" tag="DT" in="-2:conj" out="-1:coord|1:nobj">A</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Gentleman</W>
 <W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
@@ -252,3 +252,4 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">six</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">film</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="PD" tag="DT" in="5:[subj]|3:subj" out="2:nobj|6:coref|83:coref-iden">The</W>
 <W _noerror=":nosubj:" id="2" msd="VAG" tag="VBG" in="1:attr|1:{goal}#" out="">working</W>
 <W id="3" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{goal}#">group</W>
@@ -236,3 +236,4 @@
 <W id="235" msd="NC=P" tag="NNS" in="-2:nobj" out="">preconditions</W>
 <W id="236" msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
+</root>

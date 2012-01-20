@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Dansk mini-satellit skal kortlægge magne'</title>
       </titleStmt>
-      <extent words=163>163 running words</extent>
+      <extent words="163">163 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Dansk mini-satellit skal kortlægge magne</title>
-            <author gender=m born=1933>Kjærgaard, Jens Jørgen</author>
+            <author gender="m" born="1933">Kjærgaard, Jens Jørgen</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-01-27</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T8.4">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T8.4"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B137856>
+<text id="B137856">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The_country" id="43" lemma="land" msd="NCNSU==D" tag="NN" in="3:subj" out="1:attr|1:{other}">Landet</W>

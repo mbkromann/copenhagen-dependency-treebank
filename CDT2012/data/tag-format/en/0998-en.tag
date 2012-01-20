@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="NP=S" tag="NNP" in="1:namef" out="">Torben</W>
 <W id="2" msd="NP=S" tag="NNP" in="13:subj" out="-1:namef|1:pnct|2:ref|3:relr">Vest</W>
 <W id="3" msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -95,7 +95,7 @@
 <W id="94" msd="ANP" tag="JJ" in="-1:nobj" out="">Århus</W>
 <W id="95" msd="XP" tag=":" in="-5:pnct" out="">:</W>
 <W id="96" msd="NP=S" tag="NNP" in="-6:xpl" out="2:conj|3:pnct|4:conj|7:conj|8:attr|8:{loc}|10:pnct">Hennes</W>
-<W id="97" msd="CC" tag="CC" in="1:coord" out="">&</W>
+<W id="97" msd="CC" tag="CC" in="1:coord" out="">&amp;</W>
 <W id="98" msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Mauritz</W>
 <W id="99" msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W id="100" msd="NP=S" tag="NNP" in="-4:conj" out="1:nobj">EBM</W>
@@ -199,3 +199,4 @@
 <W id="198" msd="NP=S" tag="NNP" in="-4:subj" out="-2:title|-1:namef">Schiøtt</W>
 <W id="199" msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
+</root>

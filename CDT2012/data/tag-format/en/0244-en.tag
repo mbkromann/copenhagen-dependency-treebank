@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="CC" tag="CC" in="3:coord" out="">And</W>
 <W id="2" msd="ANP" tag="RB" in="2:scene" out="">then</W>
 <W id="3" msd="U=" tag="EX" in="1:expl" out="">there</W>
@@ -205,3 +205,4 @@
 <W _noerror=":noante:" id="204" msd="NC=S" tag="NN" in="-1:nobj" out="">child</W>
 <W id="205" msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
+</root>

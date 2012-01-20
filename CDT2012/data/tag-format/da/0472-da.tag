@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'UNTITLED'</title>
       </titleStmt>
-      <extent words=169>169 running words</extent>
+      <extent words="169">169 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-06</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.3">
-        <catRef target="P.G7.13">
-        <catRef target="P.T6.5">
+        <catRef target="P.M4.3"/>
+        <catRef target="P.G7.13"/>
+        <catRef target="P.T6.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=MsFy>
+<text id="MsFy">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="they" id="42" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="5:subj" out="1:attr|2:nobj|3:attr">De</W>
@@ -95,7 +95,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="In" id="100" lemma="i" msd="SP" tag="IN" in="11:scene" out="1:nobj">I</W>
@@ -135,7 +135,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="there" id="140" lemma="der" msd="U=" tag="WDT" in="1:expl|6:[expl]" out="">Der</W>
@@ -178,7 +178,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The_possibility" id="183" lemma="mulighed" morph="mulig +hed/DERan:qual ~en" msd="NCCSU==D" tag="NN" in="3:subj" out="1:pobj|1:{arg}">Muligheden</W>
@@ -211,7 +211,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="this" id="216" lemma="denne" msd="PD-NSU--U" tag="DT" in="-27:coref-res|1:subj|3:[subj]|4:[subj]" out="">Dette</W>

@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Gode redskaber gør det sjovere'</title>
       </titleStmt>
-      <extent words=151>151 running words</extent>
+      <extent words="151">151 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Gode redskaber gør det sjovere</title>
-            <author gender=m born=1934>Rasmussen, Erik Bendt</author>
+            <author gender="m" born="1934">Rasmussen, Erik Bendt</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-05-06</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T7.2">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T7.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B160757>
+<text id="B160757">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="the_cultivator" id="43" lemma="kultivator" msd="NCCSU==D" tag="NN" in="15:nobj" out="1:pnct|2:ref|4:relr">Kultivatoren</W>

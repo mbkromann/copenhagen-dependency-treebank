@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Jeltsins skæbnetime'</title>
       </titleStmt>
-      <extent words=158>158 running words</extent>
+      <extent words="158">158 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Jeltsins skæbnetime</title>
-            <author gender=m born=1925>Nikulin, Leon</author>
+            <author gender="m" born="1925">Nikulin, Leon</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-12-01</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.8">
-        <catRef target="P.T9.3">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.8"/>
+        <catRef target="P.T9.3"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=AJK>
+<text id="AJK">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Two" id="43" lemma="to" msd="AC---U=--" tag="CD" in="9:subj" out="1:attr|2:attr|3:nobj|5:appr|24:coref">To</W>

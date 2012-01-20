@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Ny TV 2-boss kan få Schleimann til at gå'</title>
       </titleStmt>
-      <extent words=168>168 running words</extent>
+      <extent words="168">168 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Ny TV 2-boss kan få Schleimann til at gå</title>
-            <author gender=m born=1944>Andersen, Erling</author>
+            <author gender="m" born="1944">Andersen, Erling</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-06-16</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B170400>
+<text id="B170400">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="ODENSE" id="43" lemma="Odense" msd="NP--U==-" tag="NNP" in="" out="1:pnct|22:pnct|6:other">ODENSE</W>

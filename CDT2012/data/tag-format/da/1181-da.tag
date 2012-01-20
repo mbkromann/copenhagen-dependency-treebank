@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'EF skal være med til at bekæmpe arbejdsl'</title>
       </titleStmt>
-      <extent words=158>158 running words</extent>
+      <extent words="158">158 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>EF skal være med til at bekæmpe arbejdsl</title>
-            <author gender=m born=1942>Kirkegaard, Knud Erik</author>
+            <author gender="m" born="1942">Kirkegaard, Knud Erik</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-10-13</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G3.1">
-        <catRef target="P.T1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G3.1"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B197710>
+<text id="B197710">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="they" id="43" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="4:subj|5:[subj]" out="1:attr|2:nobj|3:possd|27:coref-var">De</W>

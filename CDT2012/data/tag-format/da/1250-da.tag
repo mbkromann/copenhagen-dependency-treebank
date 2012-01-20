@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'En country- stjerne er født'</title>
       </titleStmt>
-      <extent words=161>161 running words</extent>
+      <extent words="161">161 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>En country- stjerne er født</title>
-            <author gender=m>Jakobsen, Lars Lønstrup</author>
+            <author gender="m">Jakobsen, Lars Lønstrup</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-11-08</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G3.4">
-        <catRef target="P.T6.14">
+        <catRef target="P.M2"/>
+        <catRef target="P.G3.4"/>
+        <catRef target="P.T6.14"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B203835>
+<text id="B203835">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="What" id="43" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="1:dobj" out="">Hvad</W>

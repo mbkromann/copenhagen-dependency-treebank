@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="JJ" in="2:subj" out="1:nobj">Maribo</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">Seeds</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|31:pnct">is</W>
@@ -228,3 +228,4 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">genes</W>
 <W msd="XP" tag="." in="-40:pnct" out="">.</W>
 </s>
+</root>

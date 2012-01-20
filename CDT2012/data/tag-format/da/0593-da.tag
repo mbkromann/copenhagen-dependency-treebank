@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'DEN SOCIALE LINJE'</title>
       </titleStmt>
-      <extent words=162>162 running words</extent>
+      <extent words="162">162 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>DEN SOCIALE LINJE<title>
-               <author gender=m born=1953>Jappe, Erik</author>
+            <title>DEN SOCIALE LINJE</title>
+               <author gender="m" born="1953">Jappe, Erik</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <date>1992</date>
             </imprint>
@@ -25,17 +25,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.2">
-        <catRef target="P.G7.10">
-        <catRef target="P.T9.7">
+        <catRef target="P.M4.2"/>
+        <catRef target="P.G7.10"/>
+        <catRef target="P.T9.7"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=QdCl>
+<text id="QdCl">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="rent_allowance" id="40" lemma="boligydelse" morph="yd +else/DERvn:patient -bolig/GOAL" msd="NCCSU==I" tag="NN" in="1:subj|2:[subj]" out="23:coref-iden">Boligydelse</W>

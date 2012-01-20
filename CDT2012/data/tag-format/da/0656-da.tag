@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Åh, disse minder ...'</title>
       </titleStmt>
-      <extent words=154>154 running words</extent>
+      <extent words="154">154 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Åh, disse minder ...</title>
-            <author gender=m>Weirup, Torben</author>
+            <author gender="m">Weirup, Torben</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-01-15</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.1">
-        <catRef target="P.T7.5">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.1"/>
+        <catRef target="P.T7.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B135008>
+<text id="B135008">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Genkaldelse" id="43" lemma="genkaldelse" msd="NCCSU==I" tag="NN" in="14:dobj" out="3:pnct|4:ref|6:rel|1:pobj.dobj|1:{patient}">Genkaldelse</W>

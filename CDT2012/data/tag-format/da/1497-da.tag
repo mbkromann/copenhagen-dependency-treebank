@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Derfor har Schlüter holdt ud i 10 år'</title>
       </titleStmt>
-      <extent words=169>169 running words</extent>
+      <extent words="169">169 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Derfor har Schlüter holdt ud i 10 år</title>
-            <author gender=m born=1939>Christophersen, Henning</author>
+            <author gender="m" born="1939">Christophersen, Henning</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-09-10</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G3.1">
-        <catRef target="P.T1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G3.1"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B190170>
+<text id="B190170">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="When" id="43" lemma="da" msd="CS" tag="IN" in="7:time" out="2:vobj">DA</W>

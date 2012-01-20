@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Min søn levede kun en time'</title>
       </titleStmt>
-      <extent words=169>169 running words</extent>
+      <extent words="169">169 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Min søn levede kun en time</title>
-            <author gender=f born=1958>Henriksen, Lilli Meldgaard</author>
+            <author gender="f" born="1958">Henriksen, Lilli Meldgaard</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1990-07-18</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G4.2">
-        <catRef target="P.T4.2">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T4.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=RPXp>
+<text id="RPXp">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Kitt" id="42" lemma="Kitt" msd="NP--U==-" tag="NNP" in="1:subj" out="5:coref">Kitt</W>
@@ -231,7 +231,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W gloss="-" id="236" lemma="-" msd="XP" tag="-" in="9:pnct" out=""> - </W>

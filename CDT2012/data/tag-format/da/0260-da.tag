@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'UNTITLED'</title>
       </titleStmt>
-      <extent words=163>163 running words</extent>
+      <extent words="163">163 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988-07-05</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G3.6">
-        <catRef target="P.T1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G3.6"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=IPmi>
+<text id="IPmi">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Box" id="43" lemma="Box" msd="NP--U==-" tag="NNP" in="13:+JOINT" out="1:other|6:other|7:pnct|8:other">Box</W>
@@ -87,7 +87,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W gloss="To" id="92" lemma="at" msd="U=" tag="TO" in="6:subj|7:[subj]" out="1:vobj|4:goal|19:coref-res">At</W>
@@ -119,7 +119,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="I" id="124" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="15:coref">Jeg</W>
@@ -175,7 +175,7 @@
 <W gloss="." id="174" lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="At" id="180" lemma="på" msd="SP" tag="IN" in="3:time" out="1:nobj">På</W>
@@ -208,7 +208,7 @@
 <W gloss="." id="207" lemma="." msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="I" id="213" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-11:coref|1:subj|7:[subj]" out="14:coref">Jeg</W>
@@ -235,7 +235,7 @@
 <W gloss="." id="234" lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="As" id="240" lemma="som" msd="U=" tag="WDT" in="5:cond" out="1:nobj">Som</W>

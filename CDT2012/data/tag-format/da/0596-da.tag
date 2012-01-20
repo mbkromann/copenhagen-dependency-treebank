@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Lægemiddelberedskab til krise eller krig'</title>
       </titleStmt>
-      <extent words=154>154 running words</extent>
+      <extent words="154">154 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1984</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.3">
-        <catRef target="P.G6.10">
-        <catRef target="P.T4.4">
+        <catRef target="P.M4.3"/>
+        <catRef target="P.G6.10"/>
+        <catRef target="P.T4.4"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=QrQK>
+<text id="QrQK">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The_working_group" id="42" lemma="arbejdsgruppe" morph="gruppe -[arbejd]s/GOAL ~n" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="3:coref|63:coref-iden">Arbejdsgruppen</W>

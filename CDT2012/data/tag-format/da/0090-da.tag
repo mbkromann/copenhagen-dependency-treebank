@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Gå dog i byen !'</title>
       </titleStmt>
-      <extent words=163>163 running words</extent>
+      <extent words="163">163 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Gå dog i byen !</title>
-            <author gender=m born=1940>Michelsen, Ole</author>
+            <author gender="m" born="1940">Michelsen, Ole</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-07-02</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.7">
-        <catRef target="P.T6.8">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.7"/>
+        <catRef target="P.T6.8"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Bkhi>
+<text id="Bkhi">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Danish" id="43" lemma="dansk" morph="" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">Dansk</W>

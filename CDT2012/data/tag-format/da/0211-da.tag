@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Fagre Nye Dyreverden'</title>
       </titleStmt>
-      <extent words=151>151 running words</extent>
+      <extent words="151">151 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Fagre Nye Dyreverden</title>
-            <author gender=m born=1956>Godsk, Frede</author>
+            <author gender="m" born="1956">Godsk, Frede</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988-06-22</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.2">
-        <catRef target="P.T8.8">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T8.8"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=HBcw>
+<text id="HBcw">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="*" id="43" lemma="*" msd="XS" tag="SYM" in="3:pnct" out="">*</W>

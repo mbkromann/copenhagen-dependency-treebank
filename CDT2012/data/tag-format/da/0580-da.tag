@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'De unge laver deres egen messe'</title>
       </titleStmt>
-      <extent words=172>172 running words</extent>
+      <extent words="172">172 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>De unge laver deres egen messe</title>
-            <author gender=f born=1969>Jespersen, Hanne Skibsted</author>
+            <author gender="f" born="1969">Jespersen, Hanne Skibsted</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-10-05</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G6.20">
-        <catRef target="P.T2.5">
+        <catRef target="P.M2"/>
+        <catRef target="P.G6.20"/>
+        <catRef target="P.T2.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=QJQd>
+<text id="QJQd">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="the_accounts" id="43" lemma="regnskab" msd="NCNSU==D" tag="NN" in="1:subj|4:[subj]" out="">Regnskabet</W>

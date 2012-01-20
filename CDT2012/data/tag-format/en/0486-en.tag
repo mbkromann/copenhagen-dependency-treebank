@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=S" tag="NN" in="1:mod" out="">Family</W>
 <W msd="NC=P" tag="NNS" in="" out="-1:mod|2:list">outbreaks</W>
 <W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
@@ -240,3 +240,4 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">illnesses</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
+</root>

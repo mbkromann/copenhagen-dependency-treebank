@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Kvinde bed sig friaf voldtægtsmand'</title>
       </titleStmt>
-      <extent words=177>177 running words</extent>
+      <extent words="177">177 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Kvinde bed sig friaf voldtægtsmand</title>
-            <author gender=m born=1958>Brønd, Jørgen</author>
+            <author gender="m" born="1958">Brønd, Jørgen</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-06-12</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T9.6">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T9.6"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B169400>
+<text id="B169400">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The_criminal_police" id="43" lemma="kriminalpoliti" msd="NCNSU==D" tag="NN" in="3:subj|6:[subj]|7:[subj]" out="1:attr|1:{source}">Kriminalpolitiet</W>

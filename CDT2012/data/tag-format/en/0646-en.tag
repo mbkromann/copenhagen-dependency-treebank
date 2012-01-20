@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="RB" in="" out="1:list">Not</W>
 <W msd="ANP" tag="RB" in="-1:list" out="2:list">just</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">everyday</W>
@@ -255,3 +255,4 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">body</W>
 <W msd="XP" tag="." in="-55:pnct" out="">.</W>
 </s>
+</root>

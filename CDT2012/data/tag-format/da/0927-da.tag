@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Fupz' helt personlige fiduser'</title>
       </titleStmt>
-      <extent words=170>170 running words</extent>
+      <extent words="170">170 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Fupz' helt personlige fiduser</title>
-            <author gender=m born=1961>Aagaard, Lars Henrik</author>
+            <author gender="m" born="1961">Aagaard, Lars Henrik</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-06-21</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G8.6">
-        <catRef target="P.T6.15">
+        <catRef target="P.M2"/>
+        <catRef target="P.G8.6"/>
+        <catRef target="P.T6.15"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B171360>
+<text id="B171360">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="This" id="43" lemma="denne" msd="PD-CSU--U" tag="DT" in="3:subj|5:[subj]" out="1:attr|2:nobj">Denne</W>

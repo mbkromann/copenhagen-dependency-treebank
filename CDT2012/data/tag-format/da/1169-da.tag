@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Barndomsbyen forbereder sig på sejren'</title>
       </titleStmt>
-      <extent words=164>164 running words</extent>
+      <extent words="164">164 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Barndomsbyen forbereder sig på sejren</title>
-            <author gender=m born=1954>Ehrenreich, Michael</author>
+            <author gender="m" born="1954">Ehrenreich, Michael</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-10-20</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T9.3">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T9.3"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B199404>
+<text id="B199404">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="a" id="43" lemma="en" msd="PI-NSU--U" tag="DT" in="8:subj" out="1:nobj">Et</W>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="2:subj|6:[subj]|14:[subj]" out="">Birlik</W>
 <W msd="PP" tag="PRP" in="1:focal" out="">itself</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:focal|4:vobj|5:mod|17:pnct">has</W>
@@ -246,3 +246,4 @@
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Abduzahim</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
+</root>

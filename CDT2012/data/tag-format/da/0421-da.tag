@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Statholderens hustru'</title>
       </titleStmt>
-      <extent words=150>150 running words</extent>
+      <extent words="150">150 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Statholderens hustru<title>
-               <author gender=f born=1956>Helleberg, Maria</author>
+            <title>Statholderens hustru</title>
+               <author gender="f" born="1956">Helleberg, Maria</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1992</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.11">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.11"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=LcGJ>
+<text id="LcGJ">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="41" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>

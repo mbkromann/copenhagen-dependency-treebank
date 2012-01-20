@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Green</W>
 <W msd="NC=S" tag="NN" in="" out="-1:attr|1:mod">dormitory</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
@@ -242,3 +242,4 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Stiftstidende</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
+</root>

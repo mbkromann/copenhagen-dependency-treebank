@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="VAP" tag="VBN" in="" out="1:pnct|2:xpl|3:pnct">Wanted</W>
 <W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="NC=S" tag="NN" in="-2:xpl" out="">confidence</W>
@@ -210,3 +210,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">year</W>
 <W msd="XP" tag="." in="-33:pnct" out="">.</W>
 </s>
+</root>

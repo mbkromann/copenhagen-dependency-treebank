@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Det ny Japan'</title>
       </titleStmt>
-      <extent words=173>173 running words</extent>
+      <extent words="173">173 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Det ny Japan<title>
-               <author gender=m born=1924>Jørgensen, Helmer</author>
+            <title>Det ny Japan</title>
+               <author gender="m" born="1924">Jørgensen, Helmer</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1988</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G7.7">
-        <catRef target="P.T5.1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G7.7"/>
+        <catRef target="P.T5.1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Pdvr>
+<text id="Pdvr">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="the_above" id="41" lemma="ovennævnt" msd="ANP[CN]SU=DU" tag="JJ" in="2:attr" out="">Ovennævnte</W>
@@ -167,8 +167,8 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
-<note resp=comp>
+<div1 type="main">
+<note resp="comp">
 <s>
 <W gloss="pages" id="172" lemma="side" msd="NCCSU==I" tag="NN" in="" out="1:nobj|2:pnct">side</W>
 <W gloss="63-74" id="173" lemma="63-74" msd="AC---U=--" tag="CD" in="-1:nobj" out="">63-74</W>
@@ -176,7 +176,7 @@
 </s>
 </note>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -191,7 +191,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>

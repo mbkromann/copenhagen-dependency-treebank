@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jan</W>
 <W msd="NP=S" tag="NNP" in="5:subj|6:[subj]" out="-1:namef|1:pnct|3:title">Caroc</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -256,3 +256,4 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|-5:[dobj]">signed</W>
 <W msd="XP" tag="." in="-38:pnct" out="">.</W>
 </s>
+</root>

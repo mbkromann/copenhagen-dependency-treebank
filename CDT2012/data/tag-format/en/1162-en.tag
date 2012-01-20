@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Finally</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">it</W>
@@ -47,7 +47,7 @@
 <W msd="NC=S" tag="NN" in="-3:title" out="-1:attr|1:pobj">engineer</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">Birch</W>
-<W msd="CC" tag="CC" in="1:coord" out="">&</W>
+<W msd="CC" tag="CC" in="1:coord" out="">&amp;</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Krogboe</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
@@ -200,7 +200,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bulgaria</W>
 <W msd="XP" tag="(" in="1:pnct" out="">(</W>
 <W msd="NP=S" tag="NNP" in="-4:list" out="-1:pnct|2:conj|4:conj|8:pnct">Birch</W>
-<W msd="CC" tag="CC" in="1:coord" out="">&</W>
+<W msd="CC" tag="CC" in="1:coord" out="">&amp;</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Krogboe</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PD" tag="DT" in="-4:conj" out="-1:coord|1:attr|3:nobj">the</W>
@@ -241,3 +241,4 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Europe</W>
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
+</root>

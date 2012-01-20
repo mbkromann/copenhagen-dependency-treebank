@@ -1,22 +1,22 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Overlev dit første studieår'</title>
       </titleStmt>
-      <extent words=179>179 running words</extent>
+      <extent words="179">179 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Overlev dit første studieår<title>
-               <author gender=m>Kristiansen, Bo</author>
-            <author gender=f born=1953>Marcussen, Alice</author>
+            <title>Overlev dit første studieår</title>
+               <author gender="m">Kristiansen, Bo</author>
+            <author gender="f" born="1953">Marcussen, Alice</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1987</date>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1987</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G7.6">
-        <catRef target="P.T6.5">
+        <catRef target="P.M1"/>
+        <catRef target="P.G7.6"/>
+        <catRef target="P.T6.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=LhuB>
+<text id="LhuB">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="You" id="42" lemma="du" msd="PP2CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Du</W>

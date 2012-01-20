@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Eddie</W>
 <W msd="NP=S" tag="NNP" in="" out="-1:namef|1:pnct|4:title|8:pnct">Carbone</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -225,3 +225,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">death</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
+</root>

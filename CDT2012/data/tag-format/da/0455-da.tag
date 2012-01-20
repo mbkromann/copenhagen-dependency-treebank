@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Indhold'</title>
       </titleStmt>
-      <extent words=151>151 running words</extent>
+      <extent words="151">151 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-11</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.1">
-        <catRef target="P.G6.19">
-        <catRef target="P.T1">
+        <catRef target="P.M3.1"/>
+        <catRef target="P.G6.19"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=MRlw>
+<text id="MRlw">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="ASK" id="43" lemma="spørge" msd="VAM-=------" tag="VB" in="" out="1:dobj">SPØRG</W>
@@ -66,7 +66,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="BAMBOO" id="71" lemma="bambus" msd="NCCSU==I" tag="NN" in="" out="">BAMBUS</W>
@@ -93,7 +93,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="NEW" id="98" lemma="ny" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">NY</W>
@@ -119,7 +119,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="CAVE_PAINTINGS" id="124" lemma="hulemaleri" msd="NCNPU==I" tag="NNP" in="" out="">HULEMALERIER</W>
@@ -148,7 +148,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="TREE_FROGS" id="153" lemma="træfrø" msd="NCCSU==I" tag="NN" in="" out="">TRÆFRØ</W>
@@ -177,7 +177,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="RECYCLING" id="182" lemma="genbrug" msd="NCNSU==I" tag="NN" in="" out="">GENBRUG</W>
@@ -202,7 +202,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="METEOR" id="207" lemma="meteor" msd="NCNSU==I" tag="NN" in="" out="">METEOR</W>
@@ -232,7 +232,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="ZOOLOGY" id="237" lemma="zoologi" msd="NCCSU==I" tag="NN" in="" out="">ZOOLOGI</W>
@@ -264,7 +264,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="GEOLOGY" id="269" lemma="geologi" msd="NCCSU==I" tag="NN" in="" out="">GEOLOGI</W>

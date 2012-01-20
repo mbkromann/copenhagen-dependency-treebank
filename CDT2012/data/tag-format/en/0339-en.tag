@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="NP=S" tag="NNP" in="1:namef" out="">Oluf</W>
 <W id="2" msd="NP=S" tag="NNP" in="1:subj|2:[subj]|6:[subj]|7:[subj]" out="-1:namef|3:coref">Terp</W>
 <W _noerror=":nogov:" id="3" msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|5:conj|10:pnct|16:CONJ:add/and">has</W>
@@ -222,3 +222,4 @@
 <W id="221" msd="VADR" tag="VBZ" in="-2:relr" out="-1:subj|-2:[dobj]">needs</W>
 <W id="222" msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
+</root>

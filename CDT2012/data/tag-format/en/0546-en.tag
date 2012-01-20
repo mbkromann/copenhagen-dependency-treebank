@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CC" tag="CC" in="" out="15:conj|27:pnct">But</W>
 <W msd="ANP" tag="JJ" in="14:preds" out="1:pobj">common</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -193,3 +193,4 @@
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">after-effects</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
+</root>

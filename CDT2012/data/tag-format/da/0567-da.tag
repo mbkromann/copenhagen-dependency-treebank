@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Palle har orden i sagerne'</title>
       </titleStmt>
-      <extent words=173>173 running words</extent>
+      <extent words="173">173 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Palle har orden i sagerne</title>
-            <author gender=f born=1962>Krag, Søsser</author>
+            <author gender="f" born="1962">Krag, Søsser</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1984-10-04</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G8.9">
-        <catRef target="P.T4.2">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G8.9"/>
+        <catRef target="P.T4.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=PjdJ>
+<text id="PjdJ">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="so" id="42" lemma="så" msd="RGU" tag="RP" in="1:discmark" out="">Så</W>
@@ -64,7 +64,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -83,7 +83,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="88" lemma="-" msd="XP" tag="-" in="3:pnct" out=""> - </W>
@@ -116,7 +116,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="first" id="121" lemma="første" morph="" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">Første</W>

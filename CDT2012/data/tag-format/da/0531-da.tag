@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'UNTITLED'</title>
       </titleStmt>
-      <extent words=167>167 running words</extent>
+      <extent words="167">167 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-09-04</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.2">
-        <catRef target="P.G6.16">
-        <catRef target="P.T1">
+        <catRef target="P.M4.2"/>
+        <catRef target="P.G6.16"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=PUvt>
+<text id="PUvt">
 <body>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="EMPL" id="43" lemma="MEDARB" msd="XX" tag="FW" in="38:+SCENE" out="2:conj|3:conj|6:conj|10:conj">MEDARB</W>
@@ -58,7 +58,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="they" id="63" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="18:subj" out="1:nobj|8:pnct|12:appa">De</W>
@@ -102,7 +102,7 @@
 <W gloss="." id="101" lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The_chairman_of_the_board" id="107" lemma="bestyrelsesformand" morph="mand -for/SPACE:loc -[bestyr +else/DERvn:agent]s/ARG ~en" msd="NCCSU==D" tag="NN" in="1:subj|-32:coref-var" out="50:coref">Bestyrelsesformanden</W>
@@ -152,7 +152,7 @@
 <W gloss="." id="151" lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Both" id="157" lemma="begge" msd="PD-[CN]PU--U" tag="DT" in="1:subj|5:[subj]|6:[subj]|-16:coref|-50:coref" out="23:coref">Begge</W>
@@ -189,7 +189,7 @@
 <W gloss="." id="188" lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Two" id="194" lemma="to" msd="AC---U=--" tag="CD" in="3:subj" out="1:attr|2:nobj|19:coref-var">To</W>
@@ -222,7 +222,7 @@
 <W gloss="." id="221" lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="227" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>

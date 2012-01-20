@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Min søster - mit spejl'</title>
       </titleStmt>
-      <extent words=170>170 running words</extent>
+      <extent words="170">170 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Min søster - mit spejl</title>
-            <author gender=f born=1940>Arcel, Libby Tata</author>
+            <author gender="f" born="1940">Arcel, Libby Tata</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-04-12</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G6.1">
-        <catRef target="P.T4.1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G6.1"/>
+        <catRef target="P.T4.1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B155711>
+<text id="B155711">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="In" id="43" lemma="i" msd="SP" tag="IN" in="3:scene" out="1:nobj">I</W>

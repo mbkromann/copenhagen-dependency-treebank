@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="VAF" tag="VB" in="" out="1:dobj|2:vobj|39:pnct">Let</W>
 <W msd="PP" tag="PRP" in="-1:dobj|1:[subj]" out="">us</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj">imagine</W>
@@ -212,3 +212,4 @@
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">animals</W>
 <W msd="XP" tag="." in="-5:pnct" out="">?</W>
 </s>
+</root>

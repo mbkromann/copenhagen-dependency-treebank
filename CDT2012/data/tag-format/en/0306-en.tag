@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="CS" tag="IN" in="7:cond" out="2:vobj">If</W>
 <W _noerror=":noante:" id="2" msd="PP" tag="PRP" in="1:subj|2:[subj]|6:[subj]" out="">you</W>
 <W id="3" msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj|4:pnct">are</W>
@@ -244,3 +244,4 @@
 <W id="243" msd="NC=P" tag="NNS" in="-2:possd" out="-2:{const}">shoulders</W>
 <W id="244" msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
+</root>

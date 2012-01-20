@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Dødsfald'</title>
       </titleStmt>
-      <extent words=158>158 running words</extent>
+      <extent words="158">158 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1986-08-02</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G8.7">
-        <catRef target="P.T5.2">
+        <catRef target="P.M2"/>
+        <catRef target="P.G8.7"/>
+        <catRef target="P.T5.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=KLJE>
+<text id="KLJE">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="H.L." id="43" lemma="H.L." msd="NP--U==-" tag="NNP" in="1:namef" out="">H.L.</W>

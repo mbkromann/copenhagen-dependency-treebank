@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W id="2" msd="I=" tag="UH" in="14:qobj" out="-1:pnct|1:pnct|5:conj|13:pnct">Yes</W>
 <W id="3" msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -235,3 +235,4 @@
 <W id="234" msd="NP=S" tag="NNP" in="-3:conj" out="-1:namef|-2:coord">Schwarzenegger</W>
 <W id="235" msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">RALLY</W>
 <W msd="NP=S" tag="NNP" in="" out="-1:mod">ROUTE</W>
 </s>
@@ -217,3 +217,4 @@
 <W msd="ANP" tag="JJ" in="-1:nobj|-16:pnct#" out="">right.</W>
 <W msd="XP" tag="&quot;" in="-17:pnct" out="">"</W>
 </s>
+</root>

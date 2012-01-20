@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="CC" tag="CC" in="4:coord" out="">But</W>
 <W _noerror=":noante:" id="2" msd="PO" tag="PRP$" in="2:{arg}|3:subj|4:[subj]" out="1:attr|2:possd|9:coref">their</W>
 <W id="3" msd="ANP" tag="JJ" in="-1:attr" out="">mutual</W>
@@ -223,3 +223,4 @@
 <W id="222" msd="SP" tag="IN" in="-4:preds" out="-6:nobj">on</W>
 <W id="223" msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
+</root>

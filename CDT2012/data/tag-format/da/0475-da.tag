@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Imelda Marcos' sko fjernet'</title>
       </titleStmt>
-      <extent words=152>152 running words</extent>
+      <extent words="152">152 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Imelda Marcos' sko fjernet</title>
-            <author gender=m born=1939>Svejstrup, Poul E.</author>
+            <author gender="m" born="1939">Svejstrup, Poul E.</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-12-13</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G6.14">
-        <catRef target="P.T1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G6.14"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Myjt>
+<text id="Myjt">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="now" id="43" lemma="nu" msd="RGU" tag="RP" in="1:time" out="">Nu</W>
@@ -225,7 +225,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <hi>

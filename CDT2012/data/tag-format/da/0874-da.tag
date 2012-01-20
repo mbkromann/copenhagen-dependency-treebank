@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Gæster i jazzhuset'</title>
       </titleStmt>
-      <extent words=157>157 running words</extent>
+      <extent words="157">157 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Gæster i jazzhuset</title>
-            <author gender=m born=1935>Siegumfeldt, Jørgen</author>
+            <author gender="m" born="1935">Siegumfeldt, Jørgen</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-05-13</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.1">
-        <catRef target="P.T6.14">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.1"/>
+        <catRef target="P.T6.14"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B162396>
+<text id="B162396">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Houmark's" id="43" lemma="Houmark" msd="NP--G==-" tag="NNP" in="2:{agent}|9:+SCENE" out="1:attr|2:possd">Houmarks</W>

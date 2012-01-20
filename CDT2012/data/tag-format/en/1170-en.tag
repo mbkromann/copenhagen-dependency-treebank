@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CC" tag="CC" in="" out="2:conj|26:pnct">But</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Stenbjerre</W>
 <W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:dobj|5:accom|10:pnct|14:conj">chose</W>
@@ -18,7 +18,7 @@
 <W msd="VADA" tag="VBD" in="-14:conj" out="-2:subj|-3:coord|1:preds">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="4:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="3:subj|5:[subj]" out="2:conj">Brüel</W>
-<W msd="CC" tag="CC" in="1:coord" out="">&</W>
+<W msd="CC" tag="CC" in="1:coord" out="">&amp;</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Kjær</W>
 <W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|1:time|2:vobj">is</W>
 <W msd="NC=S" tag="NN" in="-1:time" out="">today</W>
@@ -218,3 +218,4 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]">involved</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
+</root>

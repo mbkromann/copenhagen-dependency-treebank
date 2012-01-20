@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="AC" tag="CD" in="0:pnct#" out="0:pnct#">4.</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|2:xpl|23:pnct">Product</W>
 <W msd="XP" tag=":" in="-1:pnct" out="">:</W>
@@ -225,3 +225,4 @@
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">appendices</W>
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
+</root>

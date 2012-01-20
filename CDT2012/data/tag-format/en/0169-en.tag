@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="6:mod" out="1:nobj|5:pnct">For</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">last</W>
@@ -101,7 +101,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">bottle</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">Galle</W>
-<W msd="CC" tag="CC" in="1:coord" out="">&</W>
+<W msd="CC" tag="CC" in="1:coord" out="">&amp;</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Jessen</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
@@ -247,3 +247,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">week</W>
 <W msd="XP" tag=":" in="-13:pnct" out="">:</W>
 </s>
+</root>

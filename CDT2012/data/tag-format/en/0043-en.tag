@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="" out="1:mod">MEET</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">TWICE</W>
 </s>
@@ -263,3 +263,4 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">playoff</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
+</root>

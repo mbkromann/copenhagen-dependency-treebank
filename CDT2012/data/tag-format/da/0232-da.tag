@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Nobody's Perfect'</title>
       </titleStmt>
-      <extent words=149>149 running words</extent>
+      <extent words="149">149 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Nobody's Perfect</title>
-            <author gender=f>Hansen, Katrine</author>
+            <author gender="f">Hansen, Katrine</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-10</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G1">
-        <catRef target="P.T4.4">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T4.4"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=HThu>
+<text id="HThu">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="3." id="42" lemma="3." msd="AO---U=--" tag="JJ" in="" out="1:pnct|15:pnct|4:other">3.</W>

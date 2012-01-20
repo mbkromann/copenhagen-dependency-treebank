@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="14:subj|14:[subj]" out="1:nobj|6:mod">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">discovery</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -220,3 +220,4 @@
 <s>
 <W msd="VADA" tag="VBD" in="" out="">INTERROGATED</W>
 </s>
+</root>

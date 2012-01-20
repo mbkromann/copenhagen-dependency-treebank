@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="5:subj|7:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">sequence</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
@@ -238,3 +238,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">killer</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
+</root>

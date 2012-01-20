@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="NP=S" tag="NNP" in="1:subj|14:[subj]" out="">Pasta</W>
 <W _noerror=":nogov:" id="2" msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|13:conj|24:pnct|61:+CONJ/ATTR*">is</W>
 <W _noerror=":nosubj:" id="3" msd="VAP" tag="VBN" in="-1:preds" out="2:fpreds">sold</W>
@@ -205,3 +205,4 @@
 <W id="204" msd="NC=P" tag="NNS" in="-1:possd" out="-1:{agent}">goods</W>
 <W id="205" msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
+</root>

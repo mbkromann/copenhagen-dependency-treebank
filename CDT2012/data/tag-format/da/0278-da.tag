@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'To klubber er én for mange'</title>
       </titleStmt>
-      <extent words=171>171 running words</extent>
+      <extent words="171">171 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1989-03-18</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.2">
-        <catRef target="P.T7.6">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T7.6"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=IhmZ>
+<text id="IhmZ">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Rudbjerg" id="43" lemma="Rudbjerg" msd="NP--U==-" tag="NNP" in="1:subj|2:[subj]" out="">Rudbjerg</W>
@@ -49,7 +49,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W gloss="there" id="54" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
@@ -85,7 +85,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Rudbjerg" id="90" lemma="Rudbjerg" msd="NP--U==-" tag="NNP" in="10:SCENE" out="">Rudbjerg</W>
@@ -133,7 +133,7 @@
 <W gloss="." id="132" lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Rudbjerg" id="138" lemma="Rudbjerg" msd="NP--U==-" tag="NNP" in="-11:assoc-const|2:{source}|3:subj|6:[subj]|7:[subj]" out="1:nobj|2:possd">Rudbjerg</W>
@@ -175,7 +175,7 @@
 <W gloss="." id="174" lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="180" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
@@ -234,7 +234,7 @@
 <W gloss="." id="233" lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Coach" id="239" lemma="træner" morph="træn +er/DERvn:agent" msd="NCCSU==I" tag="NN" in="-14:+CONJ" out="1:attr|1:{source}|9:coref|28:+CONJ:elab/ATTR2">Træner</W>
@@ -242,7 +242,7 @@
 <W gloss="Nakskov" id="241" lemma="Nakskov" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Nakskov</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="247" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>

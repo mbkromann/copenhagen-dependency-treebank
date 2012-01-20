@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Bare underholdning'</title>
       </titleStmt>
-      <extent words=167>167 running words</extent>
+      <extent words="167">167 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Bare underholdning</title>
-            <author gender=f born=1944>Boye-Møller, Zita</author>
+            <author gender="f" born="1944">Boye-Møller, Zita</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-07-09</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.7">
-        <catRef target="P.T7.5">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.7"/>
+        <catRef target="P.T7.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=BmqU>
+<text id="BmqU">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Throughout" id="43" lemma="gennem" msd="SP" tag="IN" in="2:time" out="1:nobj">Gennem</W>

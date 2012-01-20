@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Søndags læger'</title>
       </titleStmt>
-      <extent words=160>160 running words</extent>
+      <extent words="160">160 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1990-02-25</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G7.2">
-        <catRef target="P.T4.4">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G7.2"/>
+        <catRef target="P.T4.4"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JEUt>
+<text id="JEUt">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="are" id="42" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="7:xtop" out="1:expl|2:dobj|5:pnct">Er</W>

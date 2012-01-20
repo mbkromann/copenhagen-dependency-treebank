@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Isen måtte vente længe'</title>
       </titleStmt>
-      <extent words=148>148 running words</extent>
+      <extent words="148">148 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Isen måtte vente længe</title>
-            <author gender=m born=1957>Høj, Iver</author>
+            <author gender="m" born="1957">Høj, Iver</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-04-21</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T3.3">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T3.3"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=EPvN>
+<text id="EPvN">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Ahead" id="43" lemma="forude" msd="RGU" tag="RP" in="1:time" out="">Forude</W>
@@ -177,7 +177,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Iver" id="182" lemma="iver" morph="" msd="NCCSU==I" tag="NN" in="1:namef" out="">Iver</W>
@@ -189,7 +189,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W gloss="In" id="194" lemma="i" msd="SP" tag="IN" in="2:time" out="1:nobj">I</W>

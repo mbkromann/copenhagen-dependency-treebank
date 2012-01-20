@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="NC=S" tag="NN" in="41:+SCENE" out="1:nobj">Chapter</W>
 <W id="2" msd="PP" tag="PRP" in="-1:nobj" out="">I</W>
 </s>
@@ -228,3 +228,4 @@
 <W id="227" msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">difficult</W>
 <W id="228" msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
+</root>

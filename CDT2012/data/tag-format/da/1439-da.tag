@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'LILLE STOR MAND I RINGOS BAND'</title>
       </titleStmt>
-      <extent words=151>151 running words</extent>
+      <extent words="151">151 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>LILLE STOR MAND I RINGOS BAND</title>
-            <author gender=m born=1958>Jungersen, Steffen</author>
+            <author gender="m" born="1958">Jungersen, Steffen</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-07-18</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G3.4">
-        <catRef target="P.T6.14">
+        <catRef target="P.M2"/>
+        <catRef target="P.G3.4"/>
+        <catRef target="P.T6.14"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B177565>
+<text id="B177565">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="BEGAN" id="43" lemma="begynde" msd="VADA=----A-" tag="VBD" in="" out="1:pobj">BEGYNDTE</W>

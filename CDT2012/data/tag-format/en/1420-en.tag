@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="PD" tag="DT" in="3:subj|5:[subj]|6:[subj]" out="1:attr|2:nobj">The</W>
 <W id="2" msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W id="3" msd="NC=P" tag="NNS" in="-2:nobj" out="">businesses</W>
@@ -261,3 +261,4 @@
 <W id="260" msd="NP=S" tag="NNP" in="-1:nobj" out="">Tårnby</W>
 <W id="261" msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">temptation</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|2:pnct">is</W>
@@ -249,3 +249,4 @@
 <W msd="NC=S" tag="NN" in="-6:conj" out="-1:mod|-2:coord">acceleration</W>
 <W msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
+</root>

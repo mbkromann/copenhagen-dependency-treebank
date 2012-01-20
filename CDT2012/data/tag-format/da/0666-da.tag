@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Herren giver, Herren tager'</title>
       </titleStmt>
-      <extent words=147>147 running words</extent>
+      <extent words="147">147 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Herren giver, Herren tager</title>
-            <author gender=f born=1967>Fleischer, Louise</author>
+            <author gender="f" born="1967">Fleischer, Louise</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-01-11</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G6.1">
-        <catRef target="P.T2.2">
+        <catRef target="P.M2"/>
+        <catRef target="P.G6.1"/>
+        <catRef target="P.T2.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B134147>
+<text id="B134147">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:nogov:" gloss="The_time" id="43" lemma="tid" morph="" msd="NCCSU==D" tag="NN" in="" out="1:pnct|2:ref|7:relr|15:pnct|18:CONJ:add/(og)">Tiden</W>

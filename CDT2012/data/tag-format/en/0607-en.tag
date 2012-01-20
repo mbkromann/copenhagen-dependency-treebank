@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="XP" tag="." in="3:pnct" out="">?</W>
 </s>
 <s>
@@ -240,3 +240,4 @@
 <W _noerror=":nosubj:" id="239" msd="VAP" tag="VBN" in="-1:preds" out="">achieved</W>
 <W id="240" msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
+</root>

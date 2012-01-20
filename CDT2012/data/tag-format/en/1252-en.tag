@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="ANP" tag="JJ" in="1:{arg}|20:subj|21:[subj]|22:[subj]" out="1:possd|4:pnct">Denmark's</W>
 <W id="2" msd="NC=S" tag="NN" in="-1:possd" out="-1:{arg}|1:pobj|1:{arg}">attitude</W>
 <W id="3" msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">towards</W>
@@ -209,3 +209,4 @@
 <W id="208" msd="NP=S" tag="NNP" in="-1:nobj" out="">Spain</W>
 <W id="209" msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
+</root>

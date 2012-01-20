@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="8:subj|10:[subj]" out="1:nobj|2:mod|19:assoc-const|62:coref-var">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">ham</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:vobj">to</W>
@@ -212,3 +212,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bit</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
+</root>

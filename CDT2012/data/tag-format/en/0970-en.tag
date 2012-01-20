@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="&quot;" in="33:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="32:xtop" out="2:vobj|18:ref">If</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
@@ -261,3 +261,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fall</W>
 <W msd="XP" tag="." in="-31:pnct" out="">.</W>
 </s>
+</root>

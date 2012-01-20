@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PI" tag="DT" in="2:subj|3:[subj]" out="1:nobj">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">dream</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:vobj|3:pnct">has</W>
@@ -238,3 +238,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">past</W>
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
+</root>

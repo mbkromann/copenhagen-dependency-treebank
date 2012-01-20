@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Han har jo ikke noget på!'</title>
       </titleStmt>
-      <extent words=154>154 running words</extent>
+      <extent words="154">154 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Han har jo ikke noget på!</title>
-            <author gender=f>Corfitsen, Marianne</author>
+            <author gender="f">Corfitsen, Marianne</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-05-12</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G3.1">
-        <catRef target="P.T6.5">
+        <catRef target="P.M2"/>
+        <catRef target="P.G3.1"/>
+        <catRef target="P.T6.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B162088>
+<text id="B162088">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Luftsteg" id="43" lemma="luftsteg" msd="NCCSU==I" tag="NN" in="" out="2:conj|3:pnct">Luftsteg</W>

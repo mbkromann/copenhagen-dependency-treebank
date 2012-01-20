@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="2:subj|3:[subj]" out="">Depeche</W>
 <W msd="PP" tag="PRP" in="1:focal" out="">themselves</W>
 <W msd="VADR" tag="VBP" in="" out="-2:subj|1:vobj|3:pnct|4:time|51:conj|62:pnct|-1:focal">are</W>
@@ -223,3 +223,4 @@
 <W msd="I=" tag="UH" in="" out="1:pnct">Yes</W>
 <W msd="XP" tag="." in="-1:pnct" out="">!</W>
 </s>
+</root>

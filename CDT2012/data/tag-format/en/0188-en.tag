@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="NP=S" tag="NNP" in="42:+SCENE" out="1:pnct|3:xpl|9:pnct">Guide</W>
 <W id="2" msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W id="3" msd="U=" tag="EX" in="1:expl" out="">There</W>
@@ -245,3 +245,4 @@
 <W id="244" msd="NC=P" tag="NNS" in="-1:nobj" out="">hours</W>
 <W id="245" msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
+</root>

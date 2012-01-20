@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="6:subj" out="1:possd|2:pnct|4:appa">Syria's</W>
 <W msd="NP=S" tag="NNP" in="-1:possd" out="">President</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -211,3 +211,4 @@
 <W msd="PP" tag="PRP" in="-1:nobj" out="">it</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
+</root>

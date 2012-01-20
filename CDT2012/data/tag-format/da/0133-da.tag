@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'KØB DIN EGEN UBÅD'</title>
       </titleStmt>
-      <extent words=157>157 running words</extent>
+      <extent words="157">157 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>KØB DIN EGEN UBÅD</title>
-            <author gender=m born=1932>Thomsen, Bertel</author>
+            <author gender="m" born="1932">Thomsen, Bertel</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-11-27</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T9.8">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T9.8"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=CxTI>
+<text id="CxTI">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="only" id="43" lemma="eneste" morph="" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="14:subj" out="1:pobj|6:pnct|7:ref|10:relr">Eneste</W>

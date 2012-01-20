@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="U=" tag="EX" in="1:expl" out="">There</W>
 <W msd="VADA" tag="VBD" in="" out="-1:expl|1:dobj|4:pobj|9:pnct|13:conj|19:pnct">was</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
@@ -249,3 +249,4 @@
 <W msd="ANC" tag="JJR" in="-1:preds" out="">closer</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
+</root>

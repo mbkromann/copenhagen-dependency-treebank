@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="" out="1:nobj">Against</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">impotence</W>
 </s>
@@ -211,3 +211,4 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">tumours</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
+</root>

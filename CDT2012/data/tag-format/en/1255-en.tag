@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">My</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">job</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|1:preds|2:pnct">was</W>
@@ -234,3 +234,4 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]">intensified</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
+</root>

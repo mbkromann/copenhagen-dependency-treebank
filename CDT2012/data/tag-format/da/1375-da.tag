@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Bid og vanvid REVY'</title>
       </titleStmt>
-      <extent words=161>161 running words</extent>
+      <extent words="161">161 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Bid og vanvid REVY</title>
-            <author gender=f born=1945>Grue, Birgitte</author>
+            <author gender="f" born="1945">Grue, Birgitte</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-05-22</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.1">
-        <catRef target="P.T6.11">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.1"/>
+        <catRef target="P.T6.11"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B164699>
+<text id="B164699">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="JESS" id="43" lemma="Jess" msd="NP--U==-" tag="NNP" in="1:namef" out="">JESS</W>

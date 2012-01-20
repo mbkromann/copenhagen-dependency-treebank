@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="PD" tag="DT" in="12:subj" out="1:nobj|29:coref">The</W>
 <W id="2" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">collection</W>
 <W id="3" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">of</W>
@@ -190,3 +190,4 @@
 <W id="189" msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">hopeless</W>
 <W id="190" msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
+</root>

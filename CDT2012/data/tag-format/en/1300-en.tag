@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CC" tag="CC" in="" out="2:conj|9:pnct">But</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBP" in="-2:conj" out="-1:expl|1:dobj">are</W>
@@ -209,3 +209,4 @@
 <W msd="AC" tag="CD" in="-14:pnct#|-1:preds" out="">sexy.</W>
 <W msd="XP" tag="&quot;" in="-15:pnct" out="">"</W>
 </s>
+</root>

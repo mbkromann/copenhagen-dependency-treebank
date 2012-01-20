@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=P" tag="NNS" in="" out="3:conj">Dogs</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">atomic</W>
@@ -210,3 +210,4 @@
 <W msd="NP=S" tag="NNP" in="-13:list" out="1:pnct">K</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
+</root>

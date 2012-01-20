@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Om at ta' tyren ved...'</title>
       </titleStmt>
-      <extent words=158>158 running words</extent>
+      <extent words="158">158 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Om at ta' tyren ved...</title>
-            <author gender=m>Nielsen, Keld Løvetand</author>
+            <author gender="m">Nielsen, Keld Løvetand</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1987</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.10">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.10"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JJSZ>
+<text id="JJSZ">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="They" id="43" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|4:[subj]" out="">Man</W>
@@ -88,7 +88,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The_head_nurse" id="93" lemma="oversygeplejerske" morph="plej +er/DERvn:agent +ske/DERnn:other -[syg]e/GOAL -over/MOD:qual ~n" msd="NCCSU==D" tag="NN" in="1:subj" out="22:coref">Oversygeplejersken</W>
@@ -124,7 +124,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="&quot;" id="129" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
@@ -163,7 +163,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="&quot;" id="168" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
@@ -190,7 +190,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="it" id="195" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-14:coref-res|1:dobj" out="">Det</W>
@@ -202,7 +202,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="&quot;" id="207" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>

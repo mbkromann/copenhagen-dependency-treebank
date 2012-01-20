@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Andres køer har større yver - og 814 and'</title>
       </titleStmt>
-      <extent words=155>155 running words</extent>
+      <extent words="155">155 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Andres køer har større yver - og 814 and<title>
-               <author gender=m born=1944>Villum, Erik</author>
+            <title>Andres køer har større yver - og 814 and</title>
+               <author gender="m" born="1944">Villum, Erik</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1984</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1984</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G8.1">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G8.1"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=LiYM>
+<text id="LiYM">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="bad" id="41" lemma="ond" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">Ond</W>

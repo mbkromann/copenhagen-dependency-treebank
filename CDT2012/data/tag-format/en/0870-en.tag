@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="2:subj|5:[subj]" out="1:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Union</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|15:pnct">is</W>
@@ -208,3 +208,4 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:{loc}">country</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
+</root>

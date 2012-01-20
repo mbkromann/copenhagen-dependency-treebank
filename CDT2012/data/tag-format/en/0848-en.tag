@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="NC=S" tag="NN" in="5:subj|6:[subj]" out="1:pobj.pobj|1:{location}">Passage</W>
 <W id="2" msd="SP" tag="IN" in="-1:pobj.pobj|-1:{location}" out="1:nobj">across</W>
 <W _noerror=":noante:" id="3" msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
@@ -234,3 +234,4 @@
 <W id="233" msd="ANP" tag="JJ" in="-1:preds" out="">superfluous</W>
 <W id="234" msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
+</root>

@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Brødrene løvehjerte'</title>
       </titleStmt>
-      <extent words=160>160 running words</extent>
+      <extent words="160">160 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Brødrene løvehjerte</title>
-            <author gender=m born=1962>Buckhøj, Morten</author>
+            <author gender="m" born="1962">Buckhøj, Morten</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-11-17</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T6.11">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T6.11"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=CtRw>
+<text id="CtRw">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":nogov:" gloss="ODENSE" id="43" lemma="Odense" msd="NP--U==-" tag="NNP" in="" out="1:pnct|3:other|19:pnct|26:+*CONJ:add/også&amp;CONTR:sbj/men">ODENSE</W>

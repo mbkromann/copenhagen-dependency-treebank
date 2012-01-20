@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="NP=S" tag="NNP" in="41:+SCENE" out="2:conj|3:conj|6:conj|14:conj">EMPL</W>
 <W id="2" msd="XS" tag="SYM" in="1:coord" out="">=</W>
 <W id="3" msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">AGG</W>
@@ -268,3 +268,4 @@
 <W id="267" msd="NC=S" tag="NN" in="-1:nobj" out="">judgment</W>
 <W id="268" msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|32:coref" out="9:coref|29:+CONJ:elab">He</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|6:pnct|7:time|23:pnct|51:+CONST:rest/and">was</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
@@ -199,3 +199,4 @@
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <W in="-15:err" out="">179</W>
+</root>

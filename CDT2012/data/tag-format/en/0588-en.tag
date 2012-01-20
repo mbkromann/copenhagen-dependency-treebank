@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=P" tag="NNS" in="18:subj|19:[subj]" out="1:mod|3:pnct|5:modp">Doors</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">residences</W>
@@ -246,3 +246,4 @@
 <W msd="NC=P" tag="NNS" in="" out="-1:mod|1:pnct">locks</W>
 <W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 </s>
+</root>

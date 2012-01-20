@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="PI" tag="DT" in="18:+SCENE" out="1:nobj|7:pnct">A</W>
 <W id="2" msd="NC=S" tag="NN" in="-1:nobj" out="1:{arg}|1:pobj">couple</W>
 <W id="3" msd="SP" tag="IN" in="-1:{arg}|-1:pobj" out="1:nobj">of</W>
@@ -254,3 +254,4 @@
 <W id="253" msd="ANP" tag="JJ" in="-1:nobj" out="">dead.</W>
 <W id="254" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 </s>
+</root>

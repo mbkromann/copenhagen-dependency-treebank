@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Højfjelds-fristelser'</title>
       </titleStmt>
-      <extent words=167>167 running words</extent>
+      <extent words="167">167 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Højfjelds-fristelser</title>
-            <author gender=f>Rewers, Christa</author>
+            <author gender="f">Rewers, Christa</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1990-11-01</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G4.1">
-        <catRef target="P.T3.3">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G4.1"/>
+        <catRef target="P.T3.3"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=PMgl>
+<text id="PMgl">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The_boots" id="42" lemma="støvle" morph="" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Støvlerne</W>
@@ -123,7 +123,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>

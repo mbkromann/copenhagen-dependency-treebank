@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="" out="1:possd|2:pobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">chairman</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="">of</W>
@@ -237,3 +237,4 @@
 <W msd="VADR" tag="VBZ" in="" out="-26:qobj|-1:subj|1:pnct">believes</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
+</root>

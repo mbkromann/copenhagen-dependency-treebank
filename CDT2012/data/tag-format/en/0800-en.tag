@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="NC=S" tag="NN" in="3:time" out="1:pnct">Today</W>
 <W id="2" msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W _noerror=":noante:" id="3" msd="PP" tag="PRP" in="1:subj" out="21:coref">she</W>
@@ -221,3 +221,4 @@
 <W id="220" msd="NP=S" tag="NNP" in="-2:subj|-12:coref" out="-1:namef">Rothmann</W>
 <W id="221" msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
+</root>

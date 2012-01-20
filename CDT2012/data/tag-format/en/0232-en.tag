@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="AC" tag="CD" in="" out="1:pnct|4:list|16:pnct">3.</W>
 <W msd="XP" tag=":" in="-1:pnct" out="">-</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">My</W>
@@ -215,3 +215,4 @@
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="">girls</W>
 <W msd="XP" tag="." in="-13:pnct" out="">?</W>
 </s>
+</root>

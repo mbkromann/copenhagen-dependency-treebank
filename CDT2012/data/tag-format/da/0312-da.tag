@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Nøgent sår'</title>
       </titleStmt>
-      <extent words=174>174 running words</extent>
+      <extent words="174">174 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Nøgent sår<title>
-               <author gender=f born=1950>Lundsted, Lene</author>
+            <title>Nøgent sår</title>
+               <author gender="f" born="1950">Lundsted, Lene</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1987</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1987</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.11">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.11"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JFnn>
+<text id="JFnn">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="But" id="41" lemma="men" msd="CC" tag="CC" in="2:discmark" out="">Men</W>
@@ -69,7 +69,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="You" id="74" lemma="du" msd="PP2CSN-NU" tag="PRP" in="1:subj|4:[subj]" out="7:coref">Du</W>
@@ -162,7 +162,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="you" id="167" lemma="du" msd="PP2CSN-NU" tag="PRP" in="-15:coref|1:subj|4:[subj]" out="11:coref">Du</W>
@@ -241,7 +241,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Mette" id="246" lemma="Mette" msd="NP--U==-" tag="NNP" in="1:subj" out="15:coref">Mette</W>

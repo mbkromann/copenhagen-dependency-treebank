@@ -1,22 +1,22 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Folk  Firma  Forretninger'</title>
       </titleStmt>
-      <extent words=165>165 running words</extent>
+      <extent words="165">165 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Folk  Firma  Forretninger</title>
-            <author gender=m born=1922>Bech-Thostrup, Bendix</author>
-            <author gender=f born=1936>Svellov, Kirsten</author>
+            <author gender="m" born="1922">Bech-Thostrup, Bendix</author>
+            <author gender="f" born="1936">Svellov, Kirsten</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -29,17 +29,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-11</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.1">
-        <catRef target="P.G6.17">
-        <catRef target="P.T2.8">
+        <catRef target="P.M3.1"/>
+        <catRef target="P.G6.17"/>
+        <catRef target="P.T2.8"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Lgzb>
+<text id="Lgzb">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Rensch" id="44" lemma="Rensch" msd="NP--U==-" tag="NNP" in="1:namel" out="">Rensch</W>
@@ -79,7 +79,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -116,7 +116,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -164,7 +164,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -195,7 +195,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -257,7 +257,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="New" id="262" lemma="ny" morph="&lt;unknown&gt;" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">Nye</W>

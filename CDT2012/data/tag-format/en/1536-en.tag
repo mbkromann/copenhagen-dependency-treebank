@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W compound="¹I²'ve" id="2" msd="NP=S" tag="NNP" in="1:¹[subj]|22:coref|0:¹subj²|20:qobj" out="-1:pnct|1:vobj|4:coref|9:pnct|0:¹subj²|12:AGENTIVE:reas/(because)/ATTR1">I've</W>
 <W id="3" msd="VADA" tag="VBD" in="-1:vobj" out="-1:¹[subj]|1:dobj|2:loc|5:iter">got</W>
@@ -224,3 +224,4 @@
 <W id="223" msd="NC=S" tag="NN" in="-1:nobj" out="">night</W>
 <W id="224" msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]" out="1:nobj|13:assoc-telic|20:assoc-agentive">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:possd">weekend's</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">division</W>
@@ -198,3 +198,4 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-9:[subj]">used</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
+</root>

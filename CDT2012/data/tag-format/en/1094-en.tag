@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="5:subj" out="1:nobj|2:mod">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">support</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">for</W>
@@ -233,3 +233,4 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]|1:dobj">attributed</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="">eleven</W>
 </s>
+</root>

@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Kunst sprænger rammerne'</title>
       </titleStmt>
-      <extent words=156>156 running words</extent>
+      <extent words="156">156 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Kunst sprænger rammerne</title>
-            <author gender=m born=1956>Heldgaard, Jesper</author>
+            <author gender="m" born="1956">Heldgaard, Jesper</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-02-16</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G6.1">
-        <catRef target="P.T1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G6.1"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B142594>
+<text id="B142594">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Horsens" id="43" lemma="Horsens" msd="NP--U==-" tag="NNP" in="2:subj|6:[subj]|1:{loc}#" out="1:possd">Horsens</W>

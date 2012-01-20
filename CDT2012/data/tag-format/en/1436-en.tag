@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="21:subj" out="1:mod|2:attr|3:nobj|4:pnct|6:appa|8:attr|9:ref|10:rel">The</W>
 <W msd="VAG" tag="VBG" in="-1:mod" out="">surviving</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">Polish</W>
@@ -214,3 +214,4 @@
 <W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">representatives</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
+</root>

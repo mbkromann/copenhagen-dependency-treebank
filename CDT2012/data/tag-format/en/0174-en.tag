@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PT" tag="WRB" in="49:mod" out="8:vobj">When</W>
 <W msd="PD" tag="DT" in="7:subj" out="1:attr|2:attr|4:nobj|5:appr">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">multinational</W>
@@ -239,3 +239,4 @@
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Binzer</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
+</root>

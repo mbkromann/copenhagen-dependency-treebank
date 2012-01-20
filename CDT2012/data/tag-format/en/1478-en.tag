@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="RB" in="21:mod" out="5:conj|9:pnct">Modestly</W>
 <W msd="CC" tag="CC" in="4:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">still</W>
@@ -226,3 +226,4 @@
 <W msd="SP" tag="IN" in="-1:list" out="1:nobj">UNDER</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">WATER</W>
 </s>
+</root>

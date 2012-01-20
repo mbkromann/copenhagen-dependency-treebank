@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="19:subj" out="1:nobj|2:ref|3:rel">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">clubs</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|8:[subj]|10:[subj]" out="">that</W>
@@ -219,3 +219,4 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">event</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="AC" tag="CD" in="1:subj" out="">11</W>
 <W id="2" msd="ANP" tag="JJ" in="4:+SCENE" out="1:pobj|-1:subj">dead</W>
 <W id="3" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">from</W>
@@ -220,3 +220,4 @@
 <s>
 <W _noerror=":nosubj:" id="220" msd="VAF" tag="VB" in="-29:SCENE" out="">hel</W>
 </s>
+</root>

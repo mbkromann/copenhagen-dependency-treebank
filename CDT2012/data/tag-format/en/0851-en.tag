@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="11:mod" out="1:nobj">At</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">age</W>
@@ -78,7 +78,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">publishing</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="-1:mod">house</W>
 <W msd="NP=S" tag="NNP" in="-4:appa" out="2:conj">Lindhardt</W>
-<W msd="CC" tag="CC" in="1:coord" out="">&</W>
+<W msd="CC" tag="CC" in="1:coord" out="">&amp;</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Ringhof</W>
 <W msd="XP" tag="," in="-16:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
@@ -240,3 +240,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">danger</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
+</root>

@@ -1,20 +1,20 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Sclerosen rammer én om dagen'</title>
       </titleStmt>
-      <extent words=158>158 running words</extent>
+      <extent words="158">158 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Sclerosen rammer én om dagen<title>
+            <title>Sclerosen rammer én om dagen</title>
                <author>Scleroseforeningen</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <date>1990</date>
@@ -25,17 +25,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1990</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.3">
-        <catRef target="P.G6.9">
-        <catRef target="P.T4.4">
+        <catRef target="P.M4.3"/>
+        <catRef target="P.G6.9"/>
+        <catRef target="P.T4.4"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=QCYd>
+<text id="QCYd">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>

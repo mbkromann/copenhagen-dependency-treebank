@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Super-Poul skal redde Brugsen'</title>
       </titleStmt>
-      <extent words=152>152 running words</extent>
+      <extent words="152">152 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Super-Poul skal redde Brugsen</title>
-            <author gender=m born=1951>Christensen, Hans Uffe</author>
+            <author gender="m" born="1951">Christensen, Hans Uffe</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-01-03</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T2.2">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T2.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=AVyh>
+<text id="AVyh">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="It" id="43" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|3:[subj]" out="12:nobj">Det</W>
@@ -241,7 +241,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Hans" id="246" lemma="Hans" msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">Hans</W>
@@ -250,7 +250,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W gloss="A" id="255" lemma="en" msd="PI-CSU--U" tag="DT" in="4:subj" out="1:attr|3:nobj|2:attr">En</W>

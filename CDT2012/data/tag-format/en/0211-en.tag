@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="," in="5:pnct" out="">*</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">Even</W>
 <W msd="PD" tag="DT" in="3:subj|5:[subj]|7:[subj]" out="-1:attr|1:nobj">the</W>
@@ -201,3 +201,4 @@
 <W msd="NC=S" tag="NN" in="" out="">fertiliser</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
+</root>

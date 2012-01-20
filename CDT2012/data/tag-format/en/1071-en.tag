@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="" out="1:nobj|2:pobj">From</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">poetry</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>
@@ -211,3 +211,4 @@
 <W msd="VADR" tag="VBZ" in="" out="-21:qobj|1:subj?">says</W>
 <W msd="PD" tag="DT" in="-1:subj?" out="">the</W>
 </s>
+</root>

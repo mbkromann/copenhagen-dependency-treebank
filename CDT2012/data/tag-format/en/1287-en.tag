@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=S" tag="NN" in="" out="1:list">Speed</W>
 <W msd="ANP" tag="RB" in="-1:list" out="">down</W>
 </s>
@@ -221,3 +221,4 @@
 <W msd="NC=S" tag="NN" in="-4:nobj" out="">trip</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
+</root>

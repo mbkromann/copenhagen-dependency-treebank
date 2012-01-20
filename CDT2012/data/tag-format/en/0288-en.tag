@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="I=" tag="UH" in="" out="1:pobj|12:conj|25:pnct">Hi</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:ref|3:rel">Bente</W>
@@ -217,3 +217,4 @@
 <W msd="NC=P" tag="NNS" in="-2:preds" out="">boys</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
+</root>

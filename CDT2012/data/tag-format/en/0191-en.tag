@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CC" tag="CC" in="1:mod" out="">Nor</W>
 <W msd="VADA" tag="VBD" in="" out="-1:mod|1:expl|2:dobj|33:pnct">was</W>
 <W msd="U=" tag="EX" in="-1:expl" out="">there</W>
@@ -246,3 +246,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">advertising</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
+</root>

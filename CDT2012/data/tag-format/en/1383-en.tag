@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="SP" tag="IN" in="9:loc" out="1:nobj|4:pnct">AT</W>
 <W id="2" msd="ANS" tag="RBS" in="-1:nobj" out="2:nobj|16:assoc-telic|99:coref-iden">most</W>
 <W id="3" msd="ANP" tag="JJ" in="1:attr" out="">educational</W>
@@ -241,3 +241,4 @@
 <W id="240" msd="NC=S" tag="NN" in="-1:nobj" out="">month</W>
 <W id="241" msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
+</root>

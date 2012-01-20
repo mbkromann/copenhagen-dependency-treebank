@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="CS" tag="IN" in="10:cond" out="2:vobj">If</W>
 <W _noerror=":noante:" id="2" msd="NC=S" tag="NN" in="1:subj" out="">everything</W>
 <W id="3" msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:avobj|5:pnct">goes</W>
@@ -227,3 +227,4 @@
 <W id="226" msd="VAF" note="exists" tag="VB" in="-33:CONJ:elab" out="-17:subj|1:pnct">exist</W>
 <W id="227" msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
+</root>

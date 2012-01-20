@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="&quot;" in="12:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="11:mod" out="2:nobj|9:pnct">After</W>
 <W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
@@ -217,3 +217,4 @@
 <W msd="NP=S" tag="NNP" in="-4:subj" out="-2:title|-1:namef">Petersen</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
+</root>

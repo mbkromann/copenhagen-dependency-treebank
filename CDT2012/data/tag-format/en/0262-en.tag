@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="17:mod" out="1:nobj">In</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|5:rel">Korovabad</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -194,3 +194,4 @@
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod">Ministry</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
+</root>

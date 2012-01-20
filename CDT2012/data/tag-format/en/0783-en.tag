@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="PD" tag="DT" in="14:subj|15:[subj]" out="1:nobj|3:pnct|4:appa|29:coref-var">The</W>
 <W id="2" msd="AC" tag="CD" in="-1:nobj" out="1:nobj">two</W>
 <W id="3" msd="NC=P" tag="NNS" in="-1:nobj" out="">periodicals</W>
@@ -248,3 +248,4 @@
 <W id="247" msd="NP=S" tag="NNP" in="-5:appa" out="-2:title|-1:namef">Rostock</W>
 <W id="248" msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
+</root>

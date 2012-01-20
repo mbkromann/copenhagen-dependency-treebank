@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="3:subj|6:[subj]|7:[subj]" out="2:possd">Horsens</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Art</W>
 <W msd="NP=S" tag="NNP" in="-2:possd" out="-1:mod">Museum</W>
@@ -230,3 +230,4 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Grove</W>
 <W msd="XP" tag="." in="-29:pnct" out="">.</W>
 </s>
+</root>

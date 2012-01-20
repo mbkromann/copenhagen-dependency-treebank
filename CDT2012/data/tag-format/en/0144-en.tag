@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="3:subj|4:[subj]|5:[subj]" out="2:conj">Day</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">night</W>
@@ -244,3 +244,4 @@
 <W msd="NC=P" tag="NNS" in="-2:possd" out="">thighs</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
+</root>

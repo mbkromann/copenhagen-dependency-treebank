@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="" out="">Over</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=P" tag="NNS" in="" out="1:pnct">years</W>
@@ -224,3 +224,4 @@
 <W msd="NP=S" tag="NNP" in="-4:appr" out="">Sopot</W>
 <W msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
+</root>

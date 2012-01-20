@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="RB" in="1:dobj" out="">So</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:dobj|4:subj|25:pnct">slays</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">42-year</W>
@@ -207,3 +207,4 @@
 <W msd="AC" tag="CD" in="-1:nobj|-24:pnct#" out="">hell.</W>
 <W msd="XP" tag="&quot;" in="-25:pnct" out="">"</W>
 </s>
+</root>

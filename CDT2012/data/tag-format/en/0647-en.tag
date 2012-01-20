@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="CS" tag="IN" in="32:cond" out="1:pnct|10:vobj">If</W>
 <W id="2" msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W id="3" msd="SP" tag="IN" in="8:time" out="1:nobj|6:pnct">over</W>
@@ -197,3 +197,4 @@
 <W _noerror=":nonobj:" id="196" msd="SP" tag="IN" in="-1:dobj|-25:coref-res" out="">that</W>
 <W id="197" msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
+</root>

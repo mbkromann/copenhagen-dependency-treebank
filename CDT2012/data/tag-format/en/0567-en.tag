@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="U=" tag="EX" in="1:expl|2:[expl]|4:[expl]" out="">There</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:expl|1:vobj|11:pnct">is</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[expl]|1:dobj">going</W>
@@ -268,3 +268,4 @@
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">horrible</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="PT" tag="WRB" in="10:time" out="4:vobj">When</W>
 <W _noerror=":noante:" id="2" msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W id="3" msd="NP=S" tag="NNP" in="1:attr" out="">Social</W>
@@ -239,3 +239,4 @@
 <W _noerror=":noante:" id="238" msd="NC=S" tag="NN" in="-1:nobj" out="">business</W>
 <W id="239" msd="XP" tag="." in="-39:pnct" out="">.</W>
 </s>
+</root>

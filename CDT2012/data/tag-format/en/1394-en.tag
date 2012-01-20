@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="AC" tag="CD" in="1:numm" out="">Five</W>
 <W msd="AC" tag="CD" in="6:mod" out="-1:numm|1:nobj|4:pnct">hundred</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">metres</W>
@@ -208,3 +208,4 @@
 <W msd="VADA" tag="VBD" in="-7:vobj" out="-6:subj">rang</W>
 <W msd="XP" tag="." in="-37:pnct" out="">.</W>
 </s>
+</root>

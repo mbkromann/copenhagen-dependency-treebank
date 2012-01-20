@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Feature-uge afføder appel om skoleform'</title>
       </titleStmt>
-      <extent words=156>156 running words</extent>
+      <extent words="156">156 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Feature-uge afføder appel om skoleform</title>
-            <author gender=m born=1941>Ipsen, Arne Walther</author>
+            <author gender="m" born="1941">Ipsen, Arne Walther</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1986-04-02</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.2">
-        <catRef target="P.G4.2">
-        <catRef target="P.T6.5">
+        <catRef target="P.M3.2"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T6.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=OKbm>
+<text id="OKbm">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="More" id="43" lemma="meget" morph="" msd="ANC---=-R" tag="JJR" in="1:quant" out="">Mere</W>

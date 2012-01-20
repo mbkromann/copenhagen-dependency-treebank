@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Kemi for FsA  Grundbog'</title>
       </titleStmt>
-      <extent words=152>152 running words</extent>
+      <extent words="152">152 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Kemi for FsA  Grundbog<title>
-               <author gender=m born=1953>Bernitt, Preben</author>
+            <title>Kemi for FsA  Grundbog</title>
+               <author gender="m" born="1953">Bernitt, Preben</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1988</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G7.7">
-        <catRef target="P.T8.6">
+        <catRef target="P.M1"/>
+        <catRef target="P.G7.7"/>
+        <catRef target="P.T8.6"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=PdJD>
+<text id="PdJD">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="the_experiment" id="41" lemma="forsøg" morph="søg -for/PRE:other /DERvn:patient ~ets" msd="NCNSG==D" tag="NN" in="1:{arg}|2:subj" out="1:possd">Forsøgets</W>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Physical</W>
 <W msd="NC=S" tag="NN" in="17:subj" out="-1:attr|1:pnct|2:ref|3:rel">therapy</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -222,3 +222,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">county</W>
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="JJ" in="2:subj" out="1:nobj">Many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">thousands</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|1:mod|9:pnct|10:cause|30:pnct">came</W>
@@ -240,3 +240,4 @@
 <W msd="ANP" tag="JJ" in="-3:mod" out="-2:mod">little</W>
 <W msd="XP" tag="." in="-35:pnct" out="">.</W>
 </s>
+</root>

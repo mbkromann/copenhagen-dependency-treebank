@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'idé-ekstra'</title>
       </titleStmt>
-      <extent words=153>153 running words</extent>
+      <extent words="153">153 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1986-02-26</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G6.7">
-        <catRef target="P.T9.9">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G6.7"/>
+        <catRef target="P.T9.9"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=RClL>
+<text id="RClL">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Susanne" id="42" lemma="Susanne" msd="NP--U==-" tag="NNP" in="" out="1:pnct|2:appa">Susanne</W>
@@ -46,7 +46,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -134,7 +134,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="coughs" id="139" lemma="hoste" msd="VAM-=------" tag="VB" in="" out="1:dobj|2:predo">Host</W>

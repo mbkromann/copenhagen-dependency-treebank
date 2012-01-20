@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="XP" tag=":" in="5:pnct" out="">-</W>
 <W id="2" msd="CC" tag="CC" in="4:discmark" out="1:voc|2:pnct">But</W>
 <W _noerror=":noante:" id="3" msd="NC=S" tag="NN" in="-1:voc" out="4:coref">darling</W>
@@ -193,3 +193,4 @@
 <W id="192" msd="NC=S" tag="NN" in="-1:nobj" out="">warning</W>
 <W id="193" msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
+</root>

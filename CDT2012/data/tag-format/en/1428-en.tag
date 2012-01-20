@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":nogov:" id="1" msd="VA" tag="MD" in="" out="1:subj|2:vobj|44:pnct|47:+ANSW|53:+CONJ">Can</W>
 <W _noerror=":noante:" id="2" msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">you</W>
 <W id="3" msd="VAF" tag="VB" in="-2:vobj" out="-1:[subj]|1:preds|2:loc|6:other|11:time">be</W>
@@ -110,7 +110,7 @@
 <W id="109" msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W id="110" msd="NP=S" tag="NNP" in="-10:conj" out="-5:coord|1:nobj|3:conj">Sea</W>
 <W id="111" msd="NP=S" tag="NNP" in="-1:nobj" out="">Bee</W>
-<W id="112" msd="CC" tag="CC" in="1:coord" out="">&</W>
+<W id="112" msd="CC" tag="CC" in="1:coord" out="">&amp;</W>
 <W _noerror=":noante:" id="113" msd="PD" tag="DT" in="-3:conj" out="-1:coord|1:nobj">The</W>
 <W id="114" msd="NP=S" tag="NNP" in="-1:nobj" out="">D'Generation</W>
 <W id="115" msd="XP" tag="." in="-27:pnct" out="">.</W>
@@ -216,3 +216,4 @@
 <W id="215" msd="NC=S" tag="NN" in="-1:possd" out="-1:{const}">mouth</W>
 <W id="216" msd="XP" tag="." in="-59:pnct" out="">.</W>
 </s>
+</root>

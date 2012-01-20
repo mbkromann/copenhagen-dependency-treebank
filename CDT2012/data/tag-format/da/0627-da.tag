@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Afsind'</title>
       </titleStmt>
-      <extent words=165>165 running words</extent>
+      <extent words="165">165 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Afsind<title>
-               <author gender=m born=1911>Lunn, Villars</author>
+            <title>Afsind</title>
+               <author gender="m" born="1911">Lunn, Villars</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1987</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1987</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G8.12">
-        <catRef target="P.T4.1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G8.12"/>
+        <catRef target="P.T4.1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=RQNs>
+<text id="RQNs">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="for" id="41" lemma="for" msd="CC" tag="CC" in="" out="5:vobj|15:pnct">For</W>

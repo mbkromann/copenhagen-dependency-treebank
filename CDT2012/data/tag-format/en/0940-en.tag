@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=S" tag="NN" in="1:subj" out="">History</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:dobj|6:pnct">shows</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">this</W>
@@ -197,3 +197,4 @@
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-3:attr|-1:attr">nations</W>
 <W msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
+</root>

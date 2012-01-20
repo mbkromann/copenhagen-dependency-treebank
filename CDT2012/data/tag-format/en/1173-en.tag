@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Popular</W>
 <W msd="NC=S" tag="NN" in="" out="-1:attr">support</W>
 <W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
@@ -227,3 +227,4 @@
 <W msd="VAP" tag="VBN" in="-6:vobj" out="-5:[subj]">solved</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
+</root>

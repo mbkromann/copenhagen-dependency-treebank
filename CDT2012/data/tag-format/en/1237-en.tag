@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=P" tag="NNS" in="" out="">Accommodations</W>
 <W msd="VADR" tag="VBP" in="" out="1:mod|18:pnct">are</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
@@ -247,3 +247,4 @@
 <W msd="NP=S" tag="NNP" in="-6:conj" out="-1:coord">Italy</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
+</root>

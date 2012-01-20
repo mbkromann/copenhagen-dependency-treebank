@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W _noerror=":noante:" compound="¹We²'ve" id="2" msd="NC=S" tag="NN" in="0:¹subj²|1:¹[subj]|36:²qobj" out="-1:pnct|1:vobj|7:time|8:pnct|0:¹subj²|12:CONJ:elab/ATTR1">We've</W>
 <W id="3" msd="VAP" tag="VBN" in="-1:vobj" out="1:dobj|-1:¹[subj]">taken</W>
@@ -209,3 +209,4 @@
 <W id="208" msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{other}">event</W>
 <W id="209" msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
+</root>

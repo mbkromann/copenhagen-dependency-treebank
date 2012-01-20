@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="5:subj|12:[subj]" out="">All</W>
 <W msd="NC=P" tag="NNS" in="" out="">directors</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
@@ -210,3 +210,4 @@
 <W msd="NC=S" tag="NN" in="-3:conj" out="-2:coord|-1:attr">care</W>
 <W msd="XP" tag="." in="-51:pnct" out="">.</W>
 </s>
+</root>

@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Timen før daggry'</title>
       </titleStmt>
-      <extent words=164>164 running words</extent>
+      <extent words="164">164 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Timen før daggry<title>
-               <author gender=m born=1921>Thomsen, Knud H.</author>
+            <title>Timen før daggry</title>
+               <author gender="m" born="1921">Thomsen, Knud H.</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1986</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1986</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.11">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.11"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Ldbq>
+<text id="Ldbq">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Some" id="41" lemma="enkelt" morph="" msd="ANP[CN]PU=[DI]U" tag="JJ" in="2:subj" out="1:nobj|7:coref">Enkelte</W>

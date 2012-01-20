@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Indledning'</title>
       </titleStmt>
-      <extent words=161>161 running words</extent>
+      <extent words="161">161 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1986</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.3">
-        <catRef target="P.G7.13">
-        <catRef target="P.T8.8">
+        <catRef target="P.M4.3"/>
+        <catRef target="P.G7.13"/>
+        <catRef target="P.T8.8"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=HCZs>
+<text id="HCZs">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="In_the_event" id="42" lemma="såfremt" msd="CS" tag="IN" in="14:cond" out="4:vobj">Såfremt</W>
@@ -118,7 +118,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="5.2" id="123" lemma="5.2" msd="AC---U=--" tag="CD" in="10:+SCENE" out="-9:pobj.dobj|-9:{patient}|1:attr|1:{about}">5.2</W>

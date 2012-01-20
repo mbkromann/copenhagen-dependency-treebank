@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="-1:attr">humour</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|3:preds|21:pnct">is</W>
@@ -214,3 +214,4 @@
 <W msd="ANP" tag="JJ" in="-3:mod" out="">first</W>
 <W msd="XP" tag="." in="-25:pnct" out="">!</W>
 </s>
+</root>

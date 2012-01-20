@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="" out="1:subj|2:mod|6:vobj|44:pnct">Shouldn't</W>
 <W msd="PP" tag="PRP" in="-1:subj|5:[subj]|15:[subj]" out="">we</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
@@ -209,3 +209,4 @@
 <W msd="NC=S" tag="NN" in="" out="">shop</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="ANP" tag="RB" in="1:quant" out="">So</W>
 <W id="2" msd="ANP" tag="RB" in="1:quant" out="-1:quant">much</W>
 <W id="3" msd="ANC" tag="RBR" in="1:quant" out="-1:quant">more</W>
@@ -204,3 +204,4 @@
 <W id="203" msd="NC=P" tag="NNS" in="-2:nobj" out="-1:{arg}">peoples</W>
 <W id="204" msd="XP" tag="." in="-39:pnct" out="">.</W>
 </s>
+</root>

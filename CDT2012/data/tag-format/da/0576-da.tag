@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Fagre nye verden'</title>
       </titleStmt>
-      <extent words=177>177 running words</extent>
+      <extent words="177">177 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Fagre nye verden</title>
-            <author gender=m born=1947>Rachlin, Samuel</author>
+            <author gender="m" born="1947">Rachlin, Samuel</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-02-01</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.3">
-        <catRef target="P.G6.9">
-        <catRef target="P.T9.4">
+        <catRef target="P.M4.3"/>
+        <catRef target="P.G6.9"/>
+        <catRef target="P.T9.4"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=QBao>
+<text id="QBao">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The_US" id="42" lemma="USA" msd="NP--U==-" tag="NNP" in="1:subj" out="4:coref">USA</W>

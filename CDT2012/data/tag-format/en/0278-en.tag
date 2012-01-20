@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Rudbjerg</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj">collaborate</W>
@@ -235,3 +235,4 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Nakskov</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
+</root>

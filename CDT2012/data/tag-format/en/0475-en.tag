@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="RB" in="7:mod" out="">Soon</W>
 <W msd="PD" tag="DT" in="6:subj|7:[subj]|8:[subj]" out="1:nobj">no</W>
 <W msd="ANC" tag="JJR" in="-1:nobj" out="1:nobj">more</W>
@@ -209,3 +209,4 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">shoe</W>
 <W msd="ANP" tag="JJ" in="-3:list" out="-1:mod">happy</W>
 </s>
+</root>

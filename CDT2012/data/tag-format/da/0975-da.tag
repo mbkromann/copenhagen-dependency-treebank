@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Økonomi-chefen tager scenen'</title>
       </titleStmt>
-      <extent words=164>164 running words</extent>
+      <extent words="164">164 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Økonomi-chefen tager scenen</title>
-            <author gender=f born=1960>Duun, Rie</author>
+            <author gender="f" born="1960">Duun, Rie</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-07-25</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G8.6">
-        <catRef target="P.T2.2">
+        <catRef target="P.M2"/>
+        <catRef target="P.G8.6"/>
+        <catRef target="P.T2.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B178946>
+<text id="B178946">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Mai" id="43" lemma="Mai" msd="NP--U==-" tag="NNP" in="1:namef" out="">Mai</W>

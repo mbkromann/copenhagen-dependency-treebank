@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'I år kom heksen af sted'</title>
       </titleStmt>
-      <extent words=168>168 running words</extent>
+      <extent words="168">168 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1985-09</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.3">
-        <catRef target="P.G6.20">
-        <catRef target="P.T7.2">
+        <catRef target="P.M4.3"/>
+        <catRef target="P.G6.20"/>
+        <catRef target="P.T7.2"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=OxNB>
+<text id="OxNB">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The_party" id="42" lemma="fest" morph="" msd="NCCSU==D" tag="NN" in="1:subj" out="">Festen</W>
@@ -101,7 +101,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -131,7 +131,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="DEN" id="136" lemma="den" msd="PD-CSU--U" tag="DT" in="-7:nobj" out="1:attr|2:nobj|7:conj|13:conj|19:conj|24:conj|31:conj|44:coref-var">DEN</W>
@@ -171,7 +171,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Thank_you" id="176" lemma="tak" morph="" msd="NCCSU==I" tag="NN" in="-61:+EXPR/ATTR" out="1:attr|1:{source}|3:attr|3:{goal}|7:pnct">Tak</W>
@@ -260,7 +260,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Bonfire_speech" id="265" lemma="båltale" morph="tale -bål/LOC" msd="NCCSU==I" tag="NN" in="12:+SCENE" out="">Båltale</W>

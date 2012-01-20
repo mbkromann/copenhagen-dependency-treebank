@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="4:mod" out="1:nobj|2:pnct">For</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -220,3 +220,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">country</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
+</root>

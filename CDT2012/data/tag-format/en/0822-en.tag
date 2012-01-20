@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CS" tag="IN" in="25:mod" out="2:vobj">Since</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:lobj">live</W>
@@ -241,3 +241,4 @@
 <W msd="NC=S" tag="NN" in="-5:nobj|-2:[nobj]" out="">version</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
+</root>

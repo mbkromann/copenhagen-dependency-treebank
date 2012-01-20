@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CC" tag="CC" in="" out="2:conj|33:pnct">But</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Lars</W>
 <W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:preds|12:time">was</W>
@@ -197,3 +197,4 @@
 <W msd="NC=S" tag="NN" in="-1:conj" out="">21-10</W>
 <W msd="XP" tag="." in="-45:pnct" out="">.</W>
 </s>
+</root>

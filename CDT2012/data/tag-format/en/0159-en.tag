@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CC" tag="CC" in="" out="4:conj|9:pnct">And</W>
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">so</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -267,3 +267,4 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">VI</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
+</root>

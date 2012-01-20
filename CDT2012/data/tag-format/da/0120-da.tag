@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Susan: Den VM-kamp glemmer vi aldrig'</title>
       </titleStmt>
-      <extent words=149>149 running words</extent>
+      <extent words="149">149 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Susan: Den VM-kamp glemmer vi aldrig</title>
-            <author gender=m born=1945>Fredberg, Peter</author>
+            <author gender="m" born="1945">Fredberg, Peter</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-11-20</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T7.6">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T7.6"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=CuWL>
+<text id="CuWL">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="same" id="43" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="7:[nobj]" out="1:nobj|2:pnct|12:pnct|6:relr">Samme</W>

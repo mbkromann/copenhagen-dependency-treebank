@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Danske politikeres lovsjusk - som sædvan'</title>
       </titleStmt>
-      <extent words=162>162 running words</extent>
+      <extent words="162">162 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Danske politikeres lovsjusk - som sædvan</title>
-            <author gender=m>Brandt, Arne</author>
+            <author gender="m">Brandt, Arne</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-08-16</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G3.1">
-        <catRef target="P.T9.7">
+        <catRef target="P.M2"/>
+        <catRef target="P.G3.1"/>
+        <catRef target="P.T9.7"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B184008>
+<text id="B184008">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="All" id="43" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="2:subj|6:[subj]" out="1:nobj">Alle</W>

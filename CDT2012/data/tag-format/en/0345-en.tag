@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PP" tag="PRP" in="1:subj|6:[subj]" out="">She</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:@dir|5:conj|14:pnct">turns</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="1:mod">around</W>
@@ -230,3 +230,4 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj|-4:pnct#" out="">Friday.</W>
 <W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
 </s>
+</root>

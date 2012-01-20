@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":noante:" id="1" msd="PD" tag="DT" in="3:subj" out="1:nobj">The</W>
 <W id="2" msd="NC=S" tag="NN" in="-1:nobj" out="">letter</W>
 <W id="3" msd="ANP" tag="RB" in="1:man" out="">officially</W>
@@ -222,3 +222,4 @@
 <W id="221" msd="NP=P" tag="NNPS" in="-3:nobj" out="">Emirates</W>
 <W id="222" msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
+</root>

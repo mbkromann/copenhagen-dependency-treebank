@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="NP=S" tag="NNP" in="2:attr" out="">Dear</W>
 <W id="2" msd="ANP" tag="RB" in="1:man" out="">deeply</W>
 <W _noerror=":nosubj:" id="3" msd="VADA" tag="VBD" in="4:+SCENE" out="-2:attr|-1:man">confused</W>
@@ -212,3 +212,4 @@
 <W id="211" msd="PP" tag="PRP" in="-1:dobj|-137:coref" out="">you</W>
 <W id="212" msd="XP" tag="." in="-38:pnct" out="">.</W>
 </s>
+</root>

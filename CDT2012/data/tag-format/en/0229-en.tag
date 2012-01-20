@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=S" tag="NN" in="1:mod" out="">Opinion</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:mod">surveys</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|24:pnct">show</W>
@@ -216,3 +216,4 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">animals</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
+</root>

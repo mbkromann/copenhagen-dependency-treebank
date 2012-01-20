@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="5:subj" out="1:nobj|2:mod">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">purpose</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
@@ -231,3 +231,4 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">materials</W>
 <W msd="XP" tag="." in="-9:pnct" out="">?</W>
 </s>
+</root>

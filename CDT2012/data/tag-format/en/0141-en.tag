@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CS" tag="IN" in="17:mod" out="1:nobj|11:pnct">After</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|5:nobj|6:possd|7:mod|9:time|15:assoc-telic|105:coref-var">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">national</W>
@@ -242,3 +242,4 @@
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Eindhoven</W>
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
+</root>

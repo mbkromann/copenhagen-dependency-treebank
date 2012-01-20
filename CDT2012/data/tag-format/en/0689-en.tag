@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="10:subj" out="1:pnct|2:mod|7:mod">Prioritisation</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VAP" tag="VBN" in="-2:mod" out="1:pobj|4:pnct">derived</W>
@@ -233,3 +233,4 @@
 <W msd="NP=S" tag="NNP" in="-7:nobj" out="">Copenhagen</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
+</root>

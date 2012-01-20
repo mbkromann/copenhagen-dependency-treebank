@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="" out="-1:pnct|1:pnct|3:conj|5:pnct">No</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -248,3 +248,4 @@
 <W msd="AC" tag="CD" in="-2:nobj|-10:pnct" out="-1:mod">benevolence.</W>
 <W msd="XP" tag="&quot;" in="-11:pnct" out="">"</W>
 </s>
+</root>

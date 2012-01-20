@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W _noerror=":nogov:" id="1" msd="VADR" tag="VBZ" in="" out="1:subj|2:preds|6:pnct|12:+ANSW/ATTR">Is</W>
 <W id="2" msd="NP=S" tag="NNP" in="-1:subj" out="25:coref">Larsen</W>
 <W id="3" msd="ANC" tag="JJR" in="-2:preds" out="1:pobj">tougher</W>
@@ -201,3 +201,4 @@
 <W id="200" msd="NC=S" tag="NN" in="-1:nobj" out="">mistake</W>
 <W id="201" msd="XP" tag="." in="-21:pnct" out="">?</W>
 </s>
+</root>

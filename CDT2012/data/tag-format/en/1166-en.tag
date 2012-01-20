@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANC" tag="JJR" in="5:subj|6:[subj]" out="1:pobj">More</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">than</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">every</W>
@@ -236,3 +236,4 @@
 <W msd="AC" tag="CD" in="-1:nobj|-13:pnct#" out="">bank.</W>
 <W msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="" out="1:attr|2:possd">Houmark's</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">beautiful</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">play</W>
@@ -207,3 +207,4 @@
 <W msd="NP=S" tag="NNP" in="-9:&lt;subj&gt;" out="-1:namef|-2:title">Clausen</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
+</root>

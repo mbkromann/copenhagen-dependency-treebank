@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">year</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">1716-1717</W>
@@ -230,3 +230,4 @@
 <W msd="AC" tag="CD" in="" out="-1:pnct|1:pnct">14</W>
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
 </s>
+</root>

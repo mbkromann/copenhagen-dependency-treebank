@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="2:tobj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">year</W>
 <W msd="CS" tag="IN" in="3:mod" out="-2:tobj|1:pnct">after</W>
@@ -224,3 +224,4 @@
 <W msd="NC=S" tag="NN" in="-4:time" out="">tonight</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
+</root>

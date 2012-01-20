@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Spørg FDM'</title>
       </titleStmt>
-      <extent words=168>168 running words</extent>
+      <extent words="168">168 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Spørg FDM</title>
-            <author gender=m>Bambino, Rainer</author>
+            <author gender="m">Bambino, Rainer</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1989-04-14</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G7.2">
-        <catRef target="P.T7.1">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G7.2"/>
+        <catRef target="P.T7.1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Iobo>
+<text id="Iobo">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="1,435,585," id="42" lemma="1.435.585" msd="AC---U=--" tag="CD" in="" out="1:pnct|2:other">1.435.585</W>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Henning</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef|7:coref|8:FORMAL:eval/ATTR1">Dyremose</W>
@@ -236,3 +236,4 @@
 <W msd="NP=S" tag="NNP" in="-2:subj|-100:coref-iden" out="-1:namef">Brusgaard</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
+</root>

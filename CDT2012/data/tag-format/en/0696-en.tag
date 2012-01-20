@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="VADR" tag="VBP" in="" out="1:subj|4:pnct">Are</W>
 <W msd="PP" tag="PRP" in="-1:subj" out="">they</W>
 <W msd="ANP" tag="RB" in="" out="">completely</W>
@@ -209,3 +209,4 @@
 <W msd="AC" tag="CD" in="-2:list" out="1:list">3060</W>
 <W msd="NP=S" tag="NNP" in="-1:list" out="">Espergærde</W>
 </s>
+</root>

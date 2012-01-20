@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'UNTITLED'</title>
       </titleStmt>
-      <extent words=179>179 running words</extent>
+      <extent words="179">179 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,24 +28,24 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-10-01</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.2">
-        <catRef target="P.G6.16">
-        <catRef target="P.T1">
+        <catRef target="P.M4.2"/>
+        <catRef target="P.G6.16"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=PUFb>
+<text id="PUFb">
 <body>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="HEADLINE" id="43" lemma="rubrik" msd="NCCSU==I" tag="NN" in="" out="">RUBRIK</W>
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="(" id="50" lemma="(" msd="XP" tag="(" in="4:pnct" out="">(</W>
@@ -88,14 +88,14 @@
 <W gloss=")" id="87" lemma=")" msd="XP" tag=")" in="-8:pnct" out="">)</W>
 </s>
 </p>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="submission" id="93" lemma="oplæg" msd="NCNSU==I" tag="NN" in="" out="">OPLÆG</W>
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="It" id="100" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|12:[dobj]" out="12:relr">Det</W>
@@ -174,7 +174,7 @@
 <W gloss=":" id="173" lemma=":" msd="XP" tag=":" in="-24:pnct" out="">:</W>
 </s>
 </p>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="CONCLUDING_WORDS" id="179" lemma="slutord" msd="NCNPU==I" tag="NNP" in="" out="3:conj">SLUTORD</W>
@@ -184,7 +184,7 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="NET" id="189" lemma="netto" msd="RGU" tag="RP" in="" out="2:conj">NETTO</W>
@@ -193,14 +193,14 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="decommission" id="198" lemma="nedlægge" msd="VAM-=------" tag="VB" in="" out="">NEDLÆG</W>
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Prime_Minister" id="205" lemma="statsminister" msd="NCCSU==I" tag="NN" in="2:title" out="">Statsminister</W>
@@ -246,7 +246,7 @@
 <W gloss="." id="245" lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="GROSS" id="251" lemma="brutto" msd="RGU" tag="RP" in="" out="2:conj">BRUTTO</W>
@@ -255,14 +255,14 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="M-opening" id="260" lemma="M-åbning" msd="NCCSU==I" tag="NN" in="" out="">M-åbning</W>
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="pip" id="267" lemma="pip" msd="NCNSU==I" tag="NN" in="" out="1:other">pip</W>
@@ -272,7 +272,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The" id="277" lemma="den" msd="PD-CSU--U" tag="DT" in="8:subj" out="1:attr|2:nobj">Den</W>

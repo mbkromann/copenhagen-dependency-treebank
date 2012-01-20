@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="11:subj" out="1:pnct|2:ref|3:rel">Garlic</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">which</W>
@@ -204,3 +204,4 @@
 <W msd="PP" tag="PRP" in="-1:nobj" out="">US</W>
 <W msd="XP" tag=":" in="-16:pnct" out="">:</W>
 </s>
+</root>

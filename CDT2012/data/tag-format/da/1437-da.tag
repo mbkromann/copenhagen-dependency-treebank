@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Når krigen bliver hverdag'</title>
       </titleStmt>
-      <extent words=162>162 running words</extent>
+      <extent words="162">162 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Når krigen bliver hverdag</title>
-            <author gender=m>Brinch, Niels</author>
+            <author gender="m">Brinch, Niels</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-07-21</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.7">
-        <catRef target="P.T9.8">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.7"/>
+        <catRef target="P.T9.8"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B178278>
+<text id="B178278">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="The" id="43" lemma="den" msd="PD-NSU--U" tag="DT" in="4:subj" out="1:attr|3:nobj">Det</W>

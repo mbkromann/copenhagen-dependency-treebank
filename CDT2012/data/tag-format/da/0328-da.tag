@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Sommerfesten'</title>
       </titleStmt>
-      <extent words=151>151 running words</extent>
+      <extent words="151">151 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Sommerfesten</title>
-            <author gender=m born=1947>Brovst, Bjarne Nielsen</author>
+            <author gender="m" born="1947">Brovst, Bjarne Nielsen</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1990</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G5.10">
-        <catRef target="P.T1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G5.10"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=JILX>
+<text id="JILX">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="43" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
@@ -79,7 +79,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="84" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
@@ -95,7 +95,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="100" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
@@ -119,7 +119,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Astma-Bodil" id="124" lemma="Astma-Bodil" msd="NP--U==-" tag="NNP" in="3:subj" out="2:conj|6:coref|11:coref-iden|12:FORMAL:descr">Astma-Bodil</W>
@@ -151,7 +151,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="moment" id="156" lemma="øjeblik" morph="" msd="NCNSU==D" tag="NN" in="-14:assoc-time|1:@time" out="">Øjeblikket</W>
@@ -175,7 +175,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="-" id="180" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>
@@ -199,7 +199,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="I" id="204" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-113:coref|1:subj|4:[subj]" out="43:coref">Jeg</W>

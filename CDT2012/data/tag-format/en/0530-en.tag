@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="" out="">READER</W>
 </s>
 <s>
@@ -259,3 +259,4 @@
 <W msd="XS" tag="SYM" in="1:coord" out="">=</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">sdt</W>
 </s>
+</root>

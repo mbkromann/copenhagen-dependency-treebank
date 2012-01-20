@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="VAG" tag="VBG" in="1:mod" out="">Opening</W>
 <W msd="NC=S" tag="NN" in="" out="-1:mod|1:pnct|2:list|3:list|4:pnct">bid</W>
 <W msd="XP" tag=":" in="-1:pnct" out="">:</W>
@@ -203,3 +203,4 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">South</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
+</root>

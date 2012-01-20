@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="" out="-1:pnct|10:vobj|24:pnct">That</W>
 <W msd="PP" tag="PRP" in="9:subj|11:[subj]" out="1:pnct|7:appa">we</W>
@@ -237,3 +237,4 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj|-7:pnct#" out="">Christmas.</W>
 <W msd="XP" tag="&quot;" in="-8:pnct" out="">"</W>
 </s>
+</root>

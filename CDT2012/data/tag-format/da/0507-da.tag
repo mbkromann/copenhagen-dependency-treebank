@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Bog til tiden på biblioteket'</title>
       </titleStmt>
-      <extent words=149>149 running words</extent>
+      <extent words="149">149 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Bog til tiden på biblioteket</title>
-            <author gender=m born=1933>Gyllun, Leif</author>
+            <author gender="m" born="1933">Gyllun, Leif</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-11-25</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.2">
-        <catRef target="P.G4.2">
-        <catRef target="P.T6.15">
+        <catRef target="P.M3.2"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T6.15"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=OrLE>
+<text id="OrLE">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="At" id="43" lemma="på" msd="SP" tag="IN" in="5:loc" out="1:nobj">På</W>

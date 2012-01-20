@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Videnskabsvurdering'</title>
       </titleStmt>
-      <extent words=149>149 running words</extent>
+      <extent words="149">149 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Videnskabsvurdering<title>
-               <author gender=m born=1955>Nørretranders, Tor</author>
+            <title>Videnskabsvurdering</title>
+               <author gender="m" born="1955">Nørretranders, Tor</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1987</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1987</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G7.5">
-        <catRef target="P.T9.1">
+        <catRef target="P.M1"/>
+        <catRef target="P.G7.5"/>
+        <catRef target="P.T9.1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=PeJw>
+<text id="PeJw">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="But" id="41" lemma="men" msd="CC" tag="CC" in="20:coord" out="">Men</W>

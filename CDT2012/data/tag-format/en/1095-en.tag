@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=P" tag="NNS" in="1:subj" out="">Conditions</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|2:mod|16:pnct">were</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">horrifying</W>
@@ -212,3 +212,4 @@
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">veins</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
+</root>

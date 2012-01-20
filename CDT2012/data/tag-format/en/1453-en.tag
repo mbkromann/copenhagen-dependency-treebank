@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="CC" tag="CC" in="" out="2:conj|15:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="9:ref|10:rel">it</W>
 <W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:neg|2:mod|3:preds">is</W>
@@ -242,3 +242,4 @@
 <W msd="ANP" tag="RB" in="-1:nobj" out="">back</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
+</root>

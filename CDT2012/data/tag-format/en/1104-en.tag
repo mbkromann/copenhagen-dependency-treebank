@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Hash</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:add|2:preds|4:pnct">is</W>
@@ -213,3 +213,4 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">trade</W>
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
+</root>

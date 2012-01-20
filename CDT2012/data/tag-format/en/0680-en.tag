@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="RB" in="15:mod" out="1:pnct">Thus</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=P" tag="NNS" in="13:subj" out="1:pobj">months</W>
@@ -235,3 +235,4 @@
 <W msd="AC" tag="CD" in="-5:possd|-15:pnct#" out="">policies.</W>
 <W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
 </s>
+</root>

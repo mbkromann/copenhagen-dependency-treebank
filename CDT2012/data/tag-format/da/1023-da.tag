@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Så kan der atter bades i Furesø'</title>
       </titleStmt>
-      <extent words=167>167 running words</extent>
+      <extent words="167">167 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-07-04</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G6.14">
-        <catRef target="P.T1">
+        <catRef target="P.M2"/>
+        <catRef target="P.G6.14"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B174401>
+<text id="B174401">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="THE_COUNTRY" id="43" lemma="land" msd="NCNSU==D" tag="NN" in="1:nobj" out="">LANDET</W>

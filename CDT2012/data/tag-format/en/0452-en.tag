@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="VAF" tag="VB" in="" out="1:part|2:dobj|4:pobj|13:pnct">Fill</W>
 <W msd="RG" tag="RP" in="-1:part" out="">out</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:nobj">the</W>
@@ -239,3 +239,4 @@
 <W msd="VAP" tag="VBN" in="-7:conj" out="-9:[subj]|-4:mod|-5:coord">destroyed</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
+</root>

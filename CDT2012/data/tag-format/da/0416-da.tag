@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'De sorte huller. Om tilblivelsen af et s'</title>
       </titleStmt>
-      <extent words=154>154 running words</extent>
+      <extent words="154">154 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>De sorte huller. Om tilblivelsen af et s<title>
-               <author gender=m born=1937>Bredsdorff, Thomas</author>
+            <title>De sorte huller. Om tilblivelsen af et s</title>
+               <author gender="m" born="1937">Bredsdorff, Thomas</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1991</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1991</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G7.5">
-        <catRef target="P.T6.15">
+        <catRef target="P.M1"/>
+        <catRef target="P.G7.5"/>
+        <catRef target="P.T6.15"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Lamw>
+<text id="Lamw">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -220,7 +220,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="such" id="225" lemma="sådan" morph="" msd="ANPCSU=IU" tag="JJ" in="4:dobj" out="1:nobj">Sådan</W>

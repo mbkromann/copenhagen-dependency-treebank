@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="AC" tag="CD" in="" out="2:nobj|3:pnct|4:ref|12:relr">Two</W>
 <W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="">crowd</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{func}#">magnets</W>
@@ -230,3 +230,4 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">taste</W>
 <W msd="XP" tag="." in="-34:pnct" out="">.</W>
 </s>
+</root>

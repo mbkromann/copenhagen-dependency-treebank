@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Police</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:@dir|2:mod|8:mod|18:pnct|19:time|27:pnct">drove</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
@@ -212,3 +212,4 @@
 <W msd="ANP" tag="RB" in="" out="">away</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
+</root>

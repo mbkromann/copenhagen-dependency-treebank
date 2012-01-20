@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=S" tag="NN" in="" out="1:pnct|12:list">KOLDING</W>
 <W msd="XP" tag=":" in="-1:pnct" out="">:</W>
 <W msd="ANP" tag="RB" in="10:mod" out="">So</W>
@@ -230,3 +230,4 @@
 <W msd="NC=S" tag="NN" in="" out="">salesman</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
+</root>

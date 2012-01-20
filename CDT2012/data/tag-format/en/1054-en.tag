@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W _noerror=":noante:" id="2" msd="PO" tag="PRP$" in="1:[subj]|1:{agent}|2:subj" out="1:possd|8:coref">His</W>
 <W id="3" msd="VADR" tag="VBP" in="-1:possd" out="-1:[subj]|-1:{agent}">hope</W>
@@ -213,3 +213,4 @@
 <W id="212" msd="NP=S" tag="NNP" in="-31:conj" out="-1:namef|-8:title|-12:coord">Powell</W>
 <W id="213" msd="XP" tag="." in="-44:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">UN</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:attr">sources</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|8:pnct">say</W>
@@ -201,3 +201,4 @@
 <W msd="NP=S" tag="NNP" in="-5:appa" out="-1:namef">Aksin</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
+</root>

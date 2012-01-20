@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Da Hitler vandt 2. verdenskrig'</title>
       </titleStmt>
-      <extent words=174>174 running words</extent>
+      <extent words="174">174 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-09-20</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G1">
-        <catRef target="P.T9.8">
+        <catRef target="P.M2"/>
+        <catRef target="P.G1"/>
+        <catRef target="P.T9.8"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B192459>
+<text id="B192459">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="They" id="43" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">DE</W>

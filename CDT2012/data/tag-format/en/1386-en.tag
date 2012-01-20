@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">TERRIBLY</W>
 <W msd="NP=S" tag="NNP" in="" out="-1:mod">AFRAID</W>
 </s>
@@ -218,3 +218,4 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]">called</W>
 <W msd="XP" tag="." in="-39:pnct" out="">.</W>
 </s>
+</root>

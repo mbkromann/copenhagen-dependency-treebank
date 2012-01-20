@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Fysik og Kemi for FsU  Forsøgshæfte'</title>
       </titleStmt>
-      <extent words=152>152 running words</extent>
+      <extent words="152">152 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <title>Fysik og Kemi for FsU  Forsøgshæfte<title>
-               <author gender=m born=1953>Bernitt, Preben</author>
+            <title>Fysik og Kemi for FsU  Forsøgshæfte</title>
+               <author gender="m" born="1953">Bernitt, Preben</author>
             <imprint><pubPlace>Denmark</pubPlace>
               <publisher>Gyldendal</publisher>
               <date>1988</date>
@@ -26,17 +26,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M1">
-        <catRef target="P.G7.7">
-        <catRef target="P.T8.5">
+        <catRef target="P.M1"/>
+        <catRef target="P.G7.7"/>
+        <catRef target="P.T8.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=Pdwk>
+<text id="Pdwk">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -46,7 +46,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -74,7 +74,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -121,7 +121,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -130,7 +130,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -220,7 +220,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Induction" id="225" lemma="induktion" morph="" msd="NCCSU==I" tag="NN" in="-17:+CONJ" out="1:pobj|1:{arg}|3:pnct|8:expl">Induktion</W>
@@ -291,7 +291,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>
@@ -319,7 +319,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":nosubj:" gloss="Describe" id="324" lemma="beskrive" morph="" msd="VAM-=------" tag="VB" in="-13:expl" out="1:dobj|12:pnct">Beskriv</W>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="AC" tag="CD" in="2:mod" out="1:mod">6</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">p.m.</W>
 <W msd="VADR" tag="VBP" in="" out="-2:mod">weather</W>
@@ -260,3 +260,4 @@
 <W msd="VADR" tag="VBZ" in="-2:dobj" out="-1:mod">votes</W>
 <W msd="XP" tag=")" in="-36:pnct" out="">)</W>
 </s>
+</root>

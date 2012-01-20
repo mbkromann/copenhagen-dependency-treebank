@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]|5:[subj]" out="">Garfish</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:man">are</W>
 <W msd="ANP" tag="RB" in="-1:man" out="">gradually</W>
@@ -212,3 +212,4 @@
 <W msd="NC=S" tag="NN" in="" out="">bowl</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
+</root>

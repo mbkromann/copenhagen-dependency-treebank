@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">meal</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:pobj|5:pnct|9:conj|25:pnct">begins</W>
@@ -247,3 +247,4 @@
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-5:[mod]|-1:coord">Lövenbräu</W>
 <W msd="XP" tag="." in="-33:pnct" out="">.</W>
 </s>
+</root>

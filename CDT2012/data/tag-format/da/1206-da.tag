@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Faderhjertets forbrydelse'</title>
       </titleStmt>
-      <extent words=152>152 running words</extent>
+      <extent words="152">152 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Faderhjertets forbrydelse</title>
-            <author gender=m born=1925>Kistrup, Jens</author>
+            <author gender="m" born="1925">Kistrup, Jens</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-11-29</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.1">
-        <catRef target="P.T6.11">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.1"/>
+        <catRef target="P.T6.11"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B209586>
+<text id="B209586">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Eddie" id="43" lemma="Eddie" msd="NP--U==-" tag="NNP" in="1:namef" out="">Eddie</W>

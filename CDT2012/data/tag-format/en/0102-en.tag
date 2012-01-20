@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="4:mod" out="1:nobj|2:pnct">Throughout</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">generations</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -201,3 +201,4 @@
 <W msd="VAP" tag="VBN" in="-4:vobj" out="-5:[subj]|-3:mod">executed</W>
 <W msd="XP" tag="." in="-31:pnct" out="">.</W>
 </s>
+</root>

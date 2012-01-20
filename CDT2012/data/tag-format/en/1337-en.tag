@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
 <W id="2" msd="PO" tag="PRP$" in="1:{poss}|6:subj|24:coref|39:assoc-agentive.agent/(perpetrate)" out="1:possd|2:pnct|3:appa|14:assoc-telic.patient/(have)">Our</W>
 <W id="3" msd="NC=S" tag="NN" in="-1:possd" out="-1:{poss}">dog</W>
@@ -262,3 +262,4 @@
 <W id="261" msd="AC" tag="CD" in="-2:nobj" out="-1:nobj">155,000</W>
 <W id="262" msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
+</root>

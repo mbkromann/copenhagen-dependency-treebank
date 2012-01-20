@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="6:voc" out="2:conj|3:pnct">Ladies</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -263,3 +263,4 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">untouchability</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
+</root>

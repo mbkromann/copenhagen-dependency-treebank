@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="ANP" tag="RB" in="5:mod" out="1:pnct">Internally</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
@@ -234,3 +234,4 @@
 <W msd="ANP" tag="RB" in="-2:mod" out="">diplomatically</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
+</root>

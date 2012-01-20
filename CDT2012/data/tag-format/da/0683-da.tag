@@ -1,21 +1,21 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Fjernsyn for ottomanerne'</title>
       </titleStmt>
-      <extent words=158>158 running words</extent>
+      <extent words="158">158 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>98-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Fjernsyn for ottomanerne</title>
-            <author gender=m born=1961>Aagaard, Lars Henrik</author>
+            <author gender="m" born="1961">Aagaard, Lars Henrik</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -28,17 +28,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-01-24</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M2">
-        <catRef target="P.G4.9">
-        <catRef target="P.T7.5">
+        <catRef target="P.M2"/>
+        <catRef target="P.G4.9"/>
+        <catRef target="P.T7.5"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=B137036>
+<text id="B137036">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Hans" id="43" lemma="Hans" msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">Hans</W>

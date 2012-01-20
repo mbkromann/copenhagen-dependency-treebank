@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="I=" tag="UH" in="" out="-1:pnct|1:pnct|13:pnct|14:pnct">Okay</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -226,3 +226,4 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="XP" tag="." in="-38:pnct" out="">.</W>
 </s>
+</root>

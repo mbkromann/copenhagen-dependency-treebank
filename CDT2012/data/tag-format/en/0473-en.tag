@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="" out="4:nobj|9:pnct">By</W>
 </s>
 <s>
@@ -234,3 +234,4 @@
 <W msd="VAP" tag="VBN" in="-1:mod" out="">abandoned</W>
 <W msd="XP" tag="." in="-31:pnct" out="">.</W>
 </s>
+</root>

@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="XP" tag=":" in="1:pnct" out="">-</W>
 <W msd="I=" tag="UH" in="" out="-1:pnct|1:pnct|3:conj|4:pnct">Yes</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -238,3 +238,4 @@
 <W msd="ANP" tag="JJ" in="-7:conj" out="-1:mod|-2:coord">unfair</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
+</root>

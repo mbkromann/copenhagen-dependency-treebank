@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="5:title" out="1:pobj">Minister</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Industry</W>
@@ -231,3 +231,4 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">firm</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
+</root>

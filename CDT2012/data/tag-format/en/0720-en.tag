@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="6:mod" out="1:nobj|3:pnct">In</W>
 <W msd="ANS" tag="JJS" in="-1:nobj" out="1:nobj">most</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">studies</W>
@@ -263,3 +263,4 @@
 <W msd="AC" tag="CD" in="-56:conj" out="1:list">9.8</W>
 <W msd="NP=S" tag="NNP" in="-1:list" out="">Psychology</W>
 </s>
+</root>

@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Jeg er ovenpå igen'</title>
       </titleStmt>
-      <extent words=162>162 running words</extent>
+      <extent words="162">162 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -27,17 +27,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1988-06-16</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.3">
-        <catRef target="P.G4.2">
-        <catRef target="P.T4.4">
+        <catRef target="P.M3.3"/>
+        <catRef target="P.G4.2"/>
+        <catRef target="P.T4.4"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=IYxJ>
+<text id="IYxJ">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W _noerror=":noante:" gloss="The" id="42" lemma="den" msd="PD-CSU--U" tag="DT" in="5:subj" out="1:attr|2:nobj|3:attr|30:coref-var">Den</W>
@@ -81,7 +81,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W gloss="this" id="86" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">Så</W>
@@ -107,7 +107,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W _noerror=":nosubj:" gloss="Buckled" id="112" lemma="fastspænde" morph="spænd -fast/TELIC +t/DERva:pas.part" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="7:other" out="1:loc|4:pobj">Fastspændt</W>
@@ -139,7 +139,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W gloss="Here" id="144" lemma="her" msd="RGU" tag="RP" in="7:preds" out="3:loc">Her</W>
@@ -176,7 +176,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W gloss="Even" id="181" lemma="selv" msd="RGU" tag="RP" in="1:focal" out="">Selv</W>
@@ -189,7 +189,7 @@
 </s>
 </p>
 </div1>
-<div1 type=caption>
+<div1 type="caption">
 <p>
 <s>
 <W gloss="The_mini-miniput_player" id="194" lemma="mini-miniput-spiller" morph="[spil]l +er/DERvn:agent [miniput -mini_/MOD:quant]/QUANT ~en" msd="NCCSU==D" tag="NN" in="-38:coref-var|3:subj|5:[subj]|8:[subj]" out="1:attr|1:{source}|27:coref-var">Mini-miniput-spilleren</W>
@@ -215,7 +215,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="At" id="220" lemma="i" msd="SP" tag="IN" in="3:loc" out="1:nobj">I</W>
@@ -252,7 +252,7 @@
 <W gloss="." id="251" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Grim" id="257" lemma="grim" morph="" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">Grimme</W>

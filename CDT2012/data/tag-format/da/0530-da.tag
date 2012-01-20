@@ -1,15 +1,15 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'UNTITLED'</title>
       </titleStmt>
-      <extent words=145>145 running words</extent>
+      <extent words="145">145 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -28,31 +28,31 @@
     </fileDesc>
     <profileDesc>
       <creation>1991-10-17</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M4.2">
-        <catRef target="P.G6.16">
-        <catRef target="P.T1">
+        <catRef target="P.M4.2"/>
+        <catRef target="P.G6.16"/>
+        <catRef target="P.T1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=PUaV>
+<text id="PUaV">
 <body>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="READER" id="43" lemma="oplæser" msd="NCCSU==I" tag="NN" in="" out="">OPLÆSER</W>
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="submission" id="50" lemma="oplæg" msd="NCNSU==I" tag="NN" in="" out="">OPLÆG</W>
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="prior" id="57" lemma="forud" msd="RGU" tag="RP" in="9:time" out="1:pobj">Forud</W>
@@ -127,7 +127,7 @@
 <W gloss=":" id="126" lemma=":" msd="XP" tag=":" in="-8:pnct" out="">:</W>
 </s>
 </p>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="CONCLUDING_WORDS" id="132" lemma="slutord" msd="NCNPU==I" tag="NNP" in="" out="5:conj|6:pnct">SLUTORD</W>
@@ -140,7 +140,7 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="NET" id="145" lemma="netto" msd="RGU" tag="RP" in="" out="2:conj">NETTO</W>
@@ -149,14 +149,14 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="decommission" id="154" lemma="nedlægge" msd="VAM-=------" tag="VB" in="" out="">NEDLÆG</W>
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="Said" id="161" lemma="sige" msd="VADA=----A-" tag="VBD" in="" out="2:subj|8:pobj|11:pnct">Sagde</W>
@@ -173,7 +173,7 @@
 <W gloss="." id="172" lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 </p>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="GROSS" id="178" lemma="brutto" msd="RGU" tag="RP" in="" out="2:conj">BRUTTO</W>
@@ -182,14 +182,14 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="r-nato" id="187" lemma="r-nato" msd="XX" tag="FW" in="" out="">r-nato</W>
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="EMP" id="194" lemma="MEDARB" msd="XX" tag="FW" in="" out="2:conj|3:conj">MEDARB</W>
@@ -201,7 +201,7 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="TO_BE_BROADCAST" id="206" lemma="udsende" msd="VADR=----P-" tag="VBD" in="" out="1:time|4:conj">UDSENDES</W>
@@ -213,7 +213,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="the_NATO_countries" id="218" lemma="NATO-land" msd="NCNPG==D" tag="NNP" in="2:subj|7:[subj]|1:{source}" out="1:possd">NATO-landenes</W>
@@ -269,7 +269,7 @@
 <W gloss="t-boret20" id="268" lemma="t-boret20" msd="XX" tag="FW" in="" out="">t-boret20</W>
 </s>
 </p>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="EMP" id="274" lemma="MEDARB" msd="XX" tag="FW" in="" out="2:conj|3:conj">MEDARB</W>
@@ -281,7 +281,7 @@
 </s>
 </p>
 </div1>
-<div1 type=external>
+<div1 type="external">
 <p>
 <s>
 <W gloss="TO_BE_BROADCAST" id="286" lemma="udsende" msd="VADR=----P-" tag="VBD" in="" out="1:time|4:conj">UDSENDES</W>

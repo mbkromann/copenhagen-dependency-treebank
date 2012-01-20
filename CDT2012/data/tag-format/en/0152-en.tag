@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W id="1" msd="NP=S" tag="NNP" in="14:time" out="1:pnct">Ahead</W>
 <W id="2" msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W _noerror=":noante:" id="3" msd="NC=P" tag="NNS" in="12:subj" out="1:attr|1:{other}">weeks</W>
@@ -204,3 +204,4 @@
 <W id="203" msd="NP=S" tag="NNP" in="-1:nobj" out="-1:pobj.pobj|-1:{location}">Greenland</W>
 <W id="204" msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
+</root>

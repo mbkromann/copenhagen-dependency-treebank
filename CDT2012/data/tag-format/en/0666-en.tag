@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="PD" tag="DT" in="" out="1:nobj|2:ref|10:rel|19:pnct">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">time</W>
 <W msd="PT" tag="WRB" in="-2:ref|8:time" out="1:pnct">when</W>
@@ -218,3 +218,4 @@
 <W msd="NP=S" tag="NNP" in="-2:appr" out="-1:namef">Juhl-Jørgensen</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
+</root>

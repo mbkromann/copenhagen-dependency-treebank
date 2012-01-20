@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:subj|8:[subj]|9:[subj]|11:[subj]" out="">Tabori</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|5:pnct|7:conj|29:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj|2:mod">a</W>
@@ -213,3 +213,4 @@
 <W msd="AC" tag="CD" in="-2:mod" out="">1</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
+</root>

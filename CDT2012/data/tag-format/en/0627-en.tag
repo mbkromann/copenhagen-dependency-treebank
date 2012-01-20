@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="SP" tag="IN" in="9:mod" out="1:nobj|4:pnct">With</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">its</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">derivative</W>
@@ -242,3 +242,4 @@
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-1:mod">shapes</W>
 <W msd="XP" tag="." in="-43:pnct" out="">.</W>
 </s>
+</root>

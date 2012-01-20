@@ -1,23 +1,23 @@
 <tei.2>
-  <teiHeader type=text>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Tagged sample of: 'Duel på finesser'</title>
       </titleStmt>
-      <extent words=157>157 running words</extent>
+      <extent words="157">157 running words</extent>
       <publicationStmt>
          <distributor>PAROLE-DK</distributor>
-         <address><addrline>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
+         <address>Christians Brygge 1,1., DK-1219 Copenhagen K.</address>
          <date>1998-06-02</date>
-         <availability status=restricted><p>by agreement with distributor</availability>
+         <availability status="restricted">by agreement with distributor</availability>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
           <analytic>
             <title>Duel på finesser</title>
-            <author gender=m born=1959>Nissen, Kris</author>
-            <author gender=m>Nygaard, Peter</author>
-            <author gender=m born=1958>Thiim, Kurt</author>
+            <author gender="m" born="1959">Nissen, Kris</author>
+            <author gender="m">Nygaard, Peter</author>
+            <author gender="m" born="1958">Thiim, Kurt</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -30,17 +30,17 @@
     </fileDesc>
     <profileDesc>
       <creation>1992-10</creation>
-      <langUsage><language>Danish</langUsage>
+      <langUsage>Danish</langUsage>
       <textClass>
-        <catRef target="P.M3.1">
-        <catRef target="P.G3.4">
-        <catRef target="P.T7.1">
+        <catRef target="P.M3.1"/>
+        <catRef target="P.G3.4"/>
+        <catRef target="P.T7.1"/>
       </textClass>
     </profileDesc>
   </teiHeader>
-<text id=GwjD>
+<text id="GwjD">
 <body>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <W gloss="He" id="45" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|7:[subj]" out="">Han</W>
@@ -113,7 +113,7 @@
 </s>
 </p>
 </div1>
-<div1 type=main>
+<div1 type="main">
 <p>
 <s>
 <hi>

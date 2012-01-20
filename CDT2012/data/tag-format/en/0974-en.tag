@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Paul-Loup</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Sulitzer</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:dobj|4:mod|7:pnct">delivers</W>
@@ -233,3 +233,4 @@
 <W msd="ANP" tag="JJ" in="-7:preds" out="-1:quant">insoluble</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
+</root>

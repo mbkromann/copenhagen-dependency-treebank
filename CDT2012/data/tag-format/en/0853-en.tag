@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NP=S" tag="NNP" in="" out="">Steffensen</W>
 <W msd="NP=S" tag="NNP" in="3:title" out="">Director</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Paul</W>
@@ -146,7 +146,7 @@
 <W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
 <W msd="ANP" tag="RB" in="1:attr" out="-1:quant">recently</W>
 <W msd="NP=S" tag="NNP" in="-12:conj" out="-1:attr|2:conj|3:name|4:pnct|5:ref|8:rel|15:conj">Bing</W>
-<W msd="CC" tag="CC" in="1:coord" out="">&</W>
+<W msd="CC" tag="CC" in="1:coord" out="">&amp;</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Grøndahl</W>
 <W msd="NP=S" tag="NNP" in="-3:name" out="">Inc.</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -229,3 +229,4 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bronxville</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
+</root>

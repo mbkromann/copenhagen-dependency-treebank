@@ -1,4 +1,4 @@
-<s>
+<root><s>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]" out="">Parents</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj">have</W>
 <W msd="NC=S" tag="NN" in="" out="">name</W>
@@ -244,3 +244,4 @@
 <W msd="NP=S" tag="NNP" in="" out="-1:pnct|1:pnct">RB</W>
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
 </s>
+</root>
