@@ -78,6 +78,7 @@
 <W gloss="afternoon" id="77" lemma="eftermiddag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">eftermiddag</W>
 </s>
 </p>
+</div1>
 <div1 type="main">
 <p>
 <s>
@@ -148,6 +149,7 @@
 <W gloss="north-west" id="147" lemma="nordvest" msd="NC[CN][SP]U==I" tag="NN" in="-2:conj" out="-1:coord">nordvest</W>
 </s>
 </p>
+</div1>
 <div1 type="main">
 <p>
 <s>
@@ -205,6 +207,7 @@
 <W gloss="metres/sec" id="204" lemma="m/sek" msd="XA" tag="XA" in="-1:nobj" out="">m/sek</W>
 </s>
 </p>
+</div1>
 <div1 type="external">
 <p>
 <s>

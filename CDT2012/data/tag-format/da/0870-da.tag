@@ -240,5 +240,3 @@
 </body>
 </text>
 </tei.2>
-<W id="242" in="" out="">assoc-const</W>
-<W id="243" in="" out="">assoc-formal</W>

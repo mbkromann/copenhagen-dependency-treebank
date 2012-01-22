@@ -133,6 +133,7 @@
 <W gloss="." id="132" lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 </p>
+</div1>
 <div1 type="main">
 <p>
 <s>
@@ -175,6 +176,7 @@
 <W gloss="." id="174" lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 </p>
+</div1>
 <div1 type="main">
 <p>
 <s>
@@ -234,6 +236,7 @@
 <W gloss="." id="233" lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 </p>
+</div1>
 <div1 type="main">
 <p>
 <s>
@@ -242,6 +245,7 @@
 <W gloss="Nakskov" id="241" lemma="Nakskov" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Nakskov</W>
 </s>
 </p>
+</div1>
 <div1 type="main">
 <p>
 <s>

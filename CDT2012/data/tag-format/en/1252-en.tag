@@ -18,7 +18,7 @@
 <W id="17" msd="NP=S" tag="NNP" in="1:name" out="">Tiananmen</W>
 <W id="18" msd="NP=S" tag="NNP" in="-2:nobj" out="-1:name">Square</W>
 <W id="19" msd="SP" tag="IN" in="-10:{time}|-12:attr" out="1:¹nobj">in</W>
-<W _noerror=":manygovs:" compound="�²�1989³�," id="20" msd="AC" note="skal adskilles" tag="CD" in="-14:²pnct|-1:¹nobj" out="">1989,</W>
+<W _noerror=":manygovs:" compound="1989" id="20" msd="AC" note="skal adskilles" tag="CD" in="-14:²pnct|-1:¹nobj" out="">1989,</W>
 <W _noerror=":nogov:" id="21" msd="VADR" tag="VBZ" in="" out="-20:subj|-15:time|1:vobj|9:pnct|13:CONST:rest/(i.e.)|69:+CONJ:add/(and)/ATTR*">has</W>
 <W id="22" msd="VAP" tag="VBN" in="-1:vobj" out="-21:[subj]|1:vobj">been</W>
 <W id="23" msd="VAG" tag="VBG" in="-1:vobj" out="-22:[subj]|1:man">simmering</W>

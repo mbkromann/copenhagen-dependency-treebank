@@ -102,6 +102,7 @@
 <W gloss="." id="101" lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 </p>
+</div1>
 <div1 type="main">
 <p>
 <s>
@@ -152,6 +153,7 @@
 <W gloss="." id="151" lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 </p>
+</div1>
 <div1 type="main">
 <p>
 <s>
@@ -189,6 +191,7 @@
 <W gloss="." id="188" lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 </p>
+</div1>
 <div1 type="main">
 <p>
 <s>
@@ -222,6 +225,7 @@
 <W gloss="." id="221" lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 </p>
+</div1>
 <div1 type="main">
 <p>
 <s>

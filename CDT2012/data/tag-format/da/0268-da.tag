@@ -252,6 +252,7 @@
 <W gloss="." id="251" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 </p>
+</div1>
 <div1 type="main">
 <p>
 <s>
