@@ -6,9 +6,11 @@ use warnings;
 use File::Slurp;
 
 my $maindir = '../../../';
-my @languages = qw(de es it);
+my @languages = qw(de es it ru);
 
 my %pattern2score = (
+
+    # copied from the handwritten list of files to be preferred, written by Lotte
     '0184-es-soren.tag' => 100,
     '0187-es-jonas.tag' => 100,
     '0307-es-jonas.tag' => 100,
@@ -18,10 +20,17 @@ my %pattern2score = (
     '0620-es-soren.tag' => 100,
     '0781-es-jonas.tag' => 100,
     '0863-es-soren.tag' => 100,
+
     'lotte' => 10,
     'morten' => 5,
-    'disc' => 2,
+
+    # Lotte said that file names matching "lotte" should have higher prority than "disc-lotte", and the same holds for Mortnen's
+    'disc' => -2,
+
+    # tagged and auto seem to have the same value
     'tagged' => 1,
+
+    # there is usually just one file for ru
     'ru.tag' => 1,
 );
 
@@ -54,8 +63,14 @@ foreach my $number (sort keys %numbers) {
 
     print "number: $number\n";
     foreach my $language (@languages) {
+        system "mkdir -p ../../data/tag-format/$language";
         my @files = keys %{$tag_files{$language}{$number}||{}};
         my $choice = choose_file(\@files) || '';
+        if (defined $choice) {
+            my $command = "cp $maindir/$language/$choice ../../data/tag-format/$language";
+#            print $command;
+            system $command;
+        }
         print "  selected for $language: $choice\t".( @files ? (" ignored: ".(join " ",grep{$_ ne $choice}@files)) : '')."\n";
     }
 
