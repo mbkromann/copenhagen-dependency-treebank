@@ -9,7 +9,7 @@ my $datadir = '../../data/';
 
 foreach my $filename (glob "$datadir/tag-format/*/*.tag") {
     edit_file {
-        if ( not /<tei.2>/ ) {
+        if ( not /(<tei.2>|<root>)/ ) {
             s/(.*)/<root>$1<\/root>/sxm;
         }
     }

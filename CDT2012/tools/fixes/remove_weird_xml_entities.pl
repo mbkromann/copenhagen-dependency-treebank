@@ -12,6 +12,8 @@ foreach my $filename (glob "$datadir/tag-format/*/*") {
         s/&3a;/:/g;
         s/&7c;/|/g;
         s/&amp;quot;/&quot;/g;
+        s/&nbsp;/ /g;
+        s/(&\w+)([^\w;])/$1;$2/g; # missing ';' in entity, e.g. ...&amp...
     }
         $filename;
 }

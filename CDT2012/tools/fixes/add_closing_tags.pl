@@ -26,13 +26,32 @@ foreach my $filename (glob "$datadir/tag-format/*/*.tag") {
         my ($slash_before, $tag, $attribs, $slash_after) = ($1,$2,$3,$5);
 #        print "$segment\n  slashbefore:$slash_before  slash_after:$slash_after  tag: $tag\n\n";
 
+        # there should be no recursive elements, so if a structure <xyz><xyz> is found,
+        # a closing tag is inserted between them
         if (not $slash_before and not $slash_after) {
-            if ($tag eq 'div1' and defined $stack[-1] and $stack[-1] eq 'div1') {
-                print "div1 not closed, stack top: $stack[-1] \n";
-                push @new_segments, "/div1>\n";
+
+            if (defined $stack[-1] and $tag eq 'p' and $stack[-1] eq 's' ) {
+
+                print "seen <p>, but previous <s> not closed, so </s> must be added \n";
+                push @new_segments, "/s>\n";
+                pop @stack;
+
+                if (defined $stack[-2] and $stack[-2] eq 'p' ) {
+                    print "seen <p>, but previous <p> not closed, so </s> must be added \n";
+                    push @new_segments, "/p>\n";
+                    pop @stack;
+                }
+                $file_changed = 1;
+            }
+
+            elsif (defined $stack[-1] and $stack[-1] eq $tag ) { # other mismatches
+                print "$tag not closed, stack top: $stack[-1] \n";
+                push @new_segments, "/$tag>\n";
                 $file_changed = 1;
                 pop @stack;
             }
+
+
             push @stack, $tag;
         }
 
