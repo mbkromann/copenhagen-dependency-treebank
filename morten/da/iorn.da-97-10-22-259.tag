@@ -13,7 +13,7 @@
 <W id="12" msd="PD" tag="PD" in="" out="12:coref">det</W>
 <W id="13" msd="NC" tag="NC" in="" out="1:ref">navn</W>
 <W id="14" msd="XP" tag="XP" in="-1:ref" out="">,</W>
-<W id="15" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|60:coref-iden">kommissæren</W>
+<W id="15" msd="NC" tag="NC" in="0:assoc-frame" out="60:coref-iden|0:assoc-frame">kommissæren</W>
 <W id="16" msd="VA" tag="VA" in="" out="">udtalte</W>
 <W id="17" msd="XP" tag="XP" in="" out="">,</W>
 <W id="18" msd="AN" tag="AN" in="" out="">rent</W>
@@ -131,7 +131,7 @@
 <W id="130" msd="VA" tag="VA" in="" out="">indse</W>
 <W id="131" msd="XP" tag="XP" in="" out="">,</W>
 <W id="132" msd="CS" tag="CS" in="" out="">at</W>
-<W id="133" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|14:coref">de</W>
+<W id="133" msd="PP" tag="PP" in="0:assoc-frame" out="14:coref|0:assoc-frame">de</W>
 <W id="134" msd="RG" tag="RG" in="" out="">her</W>
 <W id="135" msd="VA" tag="VA" in="" out="">direktiver</W>
 <W id="136" msd="RG" tag="RG" in="" out="">simpelt</W>
@@ -171,7 +171,7 @@
 <W id="170" msd="PP" tag="PP" in="-8:coref" out="">jeg</W>
 <W id="171" msd="XP" tag="XP" in="" out="">:</W>
 <W id="172" msd="CS" tag="CS" in="" out="">Når</W>
-<W id="173" msd="PD" tag="PD" in="0:assoc-frame" out="0:assoc-frame|9:coref">det</W>
+<W id="173" msd="PD" tag="PD" in="0:assoc-frame" out="9:coref|0:assoc-frame">det</W>
 <W id="174" msd="NC" tag="NC" in="" out="">direktiv</W>
 <W id="175" msd="RG" tag="RG" in="" out="">alligevel</W>
 <W id="176" msd="VA" tag="VA" in="" out="4:coref-res">skal</W>

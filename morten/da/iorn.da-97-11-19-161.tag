@@ -10,7 +10,7 @@
 <W id="9" msd="XP" tag="XP" in="" out="">,</W>
 <W id="10" msd="CS" tag="CS" in="" out="">at</W>
 <W id="11" msd="SP" tag="SP" in="" out="">for</W>
-<W id="12" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|77:coref">os</W>
+<W id="12" msd="PP" tag="PP" in="0:assoc-frame" out="77:coref|0:assoc-frame">os</W>
 <W id="13" msd="U=" tag="U=" in="" out="">at</W>
 <W id="14" msd="VA" tag="VA" in="" out="">se</W>
 <W id="15" msd="VA" tag="VA" in="" out="9:coref-res">er</W>
@@ -91,9 +91,9 @@
 <W id="90" msd="PI" tag="PI" in="" out="">noget</W>
 <W id="91" msd="NC" tag="NC" in="" out="">besvær</W>
 <W id="92" msd="SP" tag="SP" in="" out="">med</W>
-<W id="93" msd="NC" tag="NC" in="" out="">betænkningen</W>
+<W id="93" msd="NC" tag="NC" in="" out="62:coref-iden.sb">betænkningen</W>
 <W id="94" msd="SP" tag="SP" in="" out="">om</W>
-<W id="95" msd="NC" tag="NC" in="-58:coref-iden" out="32:assoc-const|262:coref-var">Amsterdamtraktaten</W>
+<W id="95" msd="NC" tag="NC" in="-58:coref-iden" out="32:assoc-const|262:coref-var|11:assoc-const">Amsterdamtraktaten</W>
 <W id="96" msd="XP" tag="XP" in="" out="">.</W>
 <W id="97" msd="PP" tag="PP" in="-8:coref" out="11:coref">Vi</W>
 <W id="98" msd="VA" tag="VA" in="" out="">er</W>
@@ -104,7 +104,7 @@
 <W id="103" msd="SP" tag="SP" in="" out="">imod</W>
 <W id="104" msd="PI" tag="PI" in="" out="">nogle</W>
 <W id="105" msd="SP" tag="SP" in="" out="">af</W>
-<W id="106" msd="NC" tag="NC" in="" out="">områderne</W>
+<W id="106" msd="NC" tag="NC" in="-11:assoc-const" out="">områderne</W>
 <W id="107" msd="XP" tag="XP" in="" out="">.</W>
 <W id="108" msd="PP" tag="PP" in="-11:coref" out="37:coref">Vi</W>
 <W id="109" msd="VA" tag="VA" in="" out="">mener</W>
@@ -140,7 +140,7 @@
 <W id="139" msd="NC" tag="NC" in="" out="">plads</W>
 <W id="140" msd="XP" tag="XP" in="" out="">,</W>
 <W id="141" msd="CS" tag="CS" in="" out="">inden</W>
-<W id="142" msd="NC" tag="NC" in="-15:coref-iden" out="13:assoc-agentive.inst">udvidelsen</W>
+<W id="142" msd="NC" tag="NC" in="-15:coref-iden" out="">udvidelsen</W>
 <W id="143" msd="VA" tag="VA" in="" out="">påbegyndes</W>
 <W id="144" msd="XP" tag="XP" in="" out="">.</W>
 <W id="145" msd="PP" tag="PP" in="-37:coref" out="74:coref">Vi</W>
@@ -153,7 +153,7 @@
 <W id="152" msd="AN" tag="AN" in="" out="">kritisabelt</W>
 <W id="153" msd="XP" tag="XP" in="" out="">,</W>
 <W id="154" msd="CS" tag="CS" in="" out="">at</W>
-<W id="155" msd="NC" tag="NC" in="-13:assoc-agentive.inst" out="48:coref-iden">betænkningen</W>
+<W id="155" msd="NC" tag="NC" in="-62:coref-iden.sb" out="48:coref-iden">betænkningen</W>
 <W id="156" msd="NC" tag="NC" in="" out="">sammenkæder</W>
 <W id="157" msd="NP" tag="NP" in="" out="12:coref-iden">Danmark</W>
 <W id="158" msd="SP" tag="SP" in="" out="">med</W>
@@ -254,7 +254,7 @@
 <W id="253" msd="RG" tag="RG" in="" out="">også</W>
 <W id="254" msd="RG" tag="RG" in="" out="">op</W>
 <W id="255" msd="SP" tag="SP" in="" out="">til</W>
-<W id="256" msd="PI" tag="PI" in="" out="">et</W>
+<W id="256" msd="PI" tag="PI" in="" out="10:coref">et</W>
 <W id="257" msd="AN" tag="AN" in="" out="">yderligere</W>
 <W id="258" msd="NC" tag="NC" in="" out="">samarbejde</W>
 <W id="259" msd="SP" tag="SP" in="" out="">på</W>
@@ -264,7 +264,7 @@
 <W id="263" msd="AN" tag="AN" in="" out="">sikkerhedspolitiske</W>
 <W id="264" msd="NC" tag="NC" in="" out="">område</W>
 <W id="265" msd="XP" tag="XP" in="" out="">.</W>
-<W id="266" msd="PP" tag="PP" in="" out="">Det</W>
+<W id="266" msd="PP" tag="PP" in="-10:coref" out="">Det</W>
 <W id="267" msd="VA" tag="VA" in="" out="">er</W>
 <W id="268" msd="PP" tag="PP" in="5:coref" out="13:coref">vi</W>
 <W id="269" msd="RG" tag="RG" in="" out="">ikke</W>
@@ -350,7 +350,7 @@
 <W id="349" msd="SP" tag="SP" in="" out="">på</W>
 <W id="350" msd="XP" tag="XP" in="" out="">,</W>
 <W id="351" msd="CS" tag="CS" in="" out="">at</W>
-<W id="352" msd="NC" tag="NC" in="" out="">perspektivet</W>
+<W id="352" msd="NC" tag="NC" in="" out="46:coref-iden">perspektivet</W>
 <W id="353" msd="SP" tag="SP" in="" out="">i</W>
 <W id="354" msd="PI" tag="PI" in="" out="">et</W>
 <W id="355" msd="NC" tag="NC" in="" out="">ja</W>
@@ -361,7 +361,7 @@
 <W id="360" msd="RG" tag="RG" in="" out="">bare</W>
 <W id="361" msd="PP" tag="PP" in="" out="1:ref">det</W>
 <W id="362" msd="XP" tag="XP" in="-1:ref" out="">,</W>
-<W id="363" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|38:coref">vi</W>
+<W id="363" msd="PP" tag="PP" in="0:assoc-frame" out="38:coref|0:assoc-frame">vi</W>
 <W id="364" msd="VA" tag="VA" in="" out="">diskuterer</W>
 <W id="365" msd="RG" tag="RG" in="" out="">her</W>
 <W id="366" msd="SP" tag="SP" in="" out="">i</W>
@@ -396,7 +396,7 @@
 <W id="395" msd="AN" tag="AN" in="" out="">helt</W>
 <W id="396" msd="NP" tag="NP" in="" out="">Europa</W>
 <W id="397" msd="XP" tag="XP" in="" out="">.</W>
-<W id="398" msd="PD" tag="PD" in="" out="">Det</W>
+<W id="398" msd="PD" tag="PD" in="-46:coref-iden" out="">Det</W>
 <W id="399" msd="NC" tag="NC" in="" out="">perspektiv</W>
 <W id="400" msd="VA" tag="VA" in="" out="">må</W>
 <W id="401" msd="PP" tag="PP" in="-38:coref" out="">vi</W>

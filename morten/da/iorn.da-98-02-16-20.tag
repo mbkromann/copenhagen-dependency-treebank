@@ -8,7 +8,7 @@
 <W id="7" msd="AN" tag="AN" in="" out="">gammel</W>
 <W id="8" msd="NC" tag="NC" in="" out="1:ref">sag</W>
 <W id="9" msd="XP" tag="XP" in="-1:ref" out="">,</W>
-<W id="10" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|139:coref">vi</W>
+<W id="10" msd="PP" tag="PP" in="0:assoc-frame" out="139:coref|0:assoc-frame">vi</W>
 <W id="11" msd="VA" tag="VA" in="" out="">debatterer</W>
 <W id="12" msd="SP" tag="SP" in="" out="">i</W>
 <W id="13" msd="NC" tag="NC" in="" out="">dag</W>
@@ -20,7 +20,7 @@
 <W id="19" msd="VA" tag="VA" in="" out="">har</W>
 <W id="20" msd="VA" tag="VA" in="" out="">kendt</W>
 <W id="21" msd="SP" tag="SP" in="" out="">til</W>
-<W id="22" msd="NC" tag="NC" in="-16:coref-iden.sb" out="18:coref">sagen</W>
+<W id="22" msd="NC" tag="NC" in="-16:coref-iden.sb" out="11:coref">sagen</W>
 <W id="23" msd="XP" tag="XP" in="" out="">,</W>
 <W id="24" msd="VA" tag="VA" in="" out="">er</W>
 <W id="25" msd="PP" tag="PP" in="-8:coref" out="101:coref">jeg</W>
@@ -31,14 +31,14 @@
 <W id="30" msd="PD" tag="PD" in="" out="">den</W>
 <W id="31" msd="NC" tag="NC" in="" out="1:ref">måde</W>
 <W id="32" msd="XP" tag="XP" in="-1:ref" out="">,</W>
-<W id="33" msd="PP" tag="PP" in="" out="">den</W>
+<W id="33" msd="PP" tag="PP" in="-11:coref" out="7:coref">den</W>
 <W id="34" msd="VA" tag="VA" in="" out="">er</W>
 <W id="35" msd="NC" tag="NC" in="" out="">forløbet</W>
 <W id="36" msd="SP" tag="SP" in="" out="">på</W>
 <W id="37" msd="XP" tag="XP" in="" out="">.</W>
 <W id="38" msd="NP" tag="NP" in="" out="">Sager</W>
 <W id="39" msd="U=" tag="U=" in="" out="">som</W>
-<W id="40" msd="PD" tag="PD" in="-18:coref" out="">denne</W>
+<W id="40" msd="PD" tag="PD" in="-7:coref" out="">denne</W>
 <W id="41" msd="VA" tag="VA" in="" out="">underbygger</W>
 <W id="42" msd="PD" tag="PD" in="" out="">de</W>
 <W id="43" msd="AN" tag="AN" in="" out="">mange</W>
@@ -63,7 +63,7 @@
 <W id="62" msd="VA" tag="VA" in="" out="">tror</W>
 <W id="63" msd="XP" tag="XP" in="" out="">,</W>
 <W id="64" msd="CS" tag="CS" in="" out="">at</W>
-<W id="65" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|74:coref-iden">Kommissionen</W>
+<W id="65" msd="NC" tag="NC" in="0:assoc-frame" out="74:coref-iden|0:assoc-frame|18:coref">Kommissionen</W>
 <W id="66" msd="VA" tag="VA" in="" out="63:coref-res.prg">er</W>
 <W id="67" msd="PI" tag="PI" in="" out="">et</W>
 <W id="68" msd="VA" tag="VA" in="" out="">lukket</W>
@@ -81,7 +81,7 @@
 <W id="80" msd="NC" tag="NC" in="" out="">krav</W>
 <W id="81" msd="XP" tag="XP" in="" out="">.</W>
 <W id="82" msd="CS" tag="CS" in="" out="">At</W>
-<W id="83" msd="PP" tag="PP" in="" out="">det</W>
+<W id="83" msd="PP" tag="PP" in="-18:coref" out="">det</W>
 <W id="84" msd="VA" tag="VA" in="" out="">er</W>
 <W id="85" msd="PI" tag="PI" in="" out="">et</W>
 <W id="86" msd="AN" tag="AN" in="" out="">gigantisk</W>
@@ -196,11 +196,11 @@
 <W id="195" msd="RG" tag="RG" in="" out="">Desværre</W>
 <W id="196" msd="VA" tag="VA" in="" out="">er</W>
 <W id="197" msd="U=" tag="U=" in="" out="">der</W>
-<W id="198" msd="NC" tag="NC" in="" out="8:coref">folk</W>
+<W id="198" msd="NC" tag="NC" in="" out="8:coref|4:ref">folk</W>
 <W id="199" msd="SP" tag="SP" in="" out="">i</W>
-<W id="200" msd="NC" tag="NC" in="-56:coref-var" out="2:ref|148:coref-iden">Kommissionen</W>
+<W id="200" msd="NC" tag="NC" in="-56:coref-var" out="148:coref-iden">Kommissionen</W>
 <W id="201" msd="XP" tag="XP" in="" out="">,</W>
-<W id="202" msd="U=" tag="U=" in="-2:ref" out="">der</W>
+<W id="202" msd="U=" tag="U=" in="-4:ref" out="">der</W>
 <W id="203" msd="RG" tag="RG" in="" out="">ikke</W>
 <W id="204" msd="VA" tag="VA" in="" out="">har</W>
 <W id="205" msd="VA" tag="VA" in="" out="">gjort</W>
