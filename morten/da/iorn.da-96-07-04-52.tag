@@ -1,227 +1,227 @@
 <s>
-<W msd="PO" tag="PO">Vort</W>
-<W msd="NC" tag="NC">kendskab</W>
-<W msd="SP" tag="SP">til</W>
-<W msd="NC" tag="NC">behovet</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="AN" tag="AN">konsekvent</W>
-<W msd="NC" tag="NC">omlægning</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="NC" tag="NC">energiforbruget</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="RG" tag="RG">ikke</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="AN" tag="AN">nyere</W>
-<W msd="NC" tag="NC">dato</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="NP" tag="NP">Nogenlunde</W>
-<W msd="RG" tag="RG">samtidig</W>
-<W msd="SP" tag="SP">med</W>
-<W msd="AC" tag="AC">1970</W>
-<W msd="NC" tag="NC">'</W>
-<W msd="NC" tag="NC">ernes</W>
-<W msd="NC" tag="NC">olieprischok</W>
-<W msd="VA" tag="VA">erkendte</W>
-<W msd="PD" tag="PD">de</W>
-<W msd="AN" tag="AN">vestlige</W>
-<W msd="NC" tag="NC">industrilande</W>
-<W msd="NC" tag="NC">behovet</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="VA" tag="VA">øget</W>
-<W msd="NC" tag="NC">forskning</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">anvendelse</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="AN" tag="AN">vedvarende</W>
-<W msd="NC" tag="NC">energi</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="PP" tag="PP">Det</W>
-<W msd="VA" tag="VA">skete</W>
-<W msd="RG" tag="RG">først</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="AN" tag="AN">fremmest</W>
-<W msd="RG" tag="RG">ud</W>
-<W msd="SP" tag="SP">fra</W>
-<W msd="PI" tag="PI">et</W>
-<W msd="NC" tag="NC">hensyn</W>
-<W msd="SP" tag="SP">til</W>
-<W msd="NC" tag="NC">forsyningssikkerheden</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="RG" tag="RG">ud</W>
-<W msd="SP" tag="SP">fra</W>
-<W msd="NC" tag="NC">erkendelsen</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="PO" tag="PO">vort</W>
-<W msd="NC" tag="NC">energibehov</W>
-<W msd="RG" tag="RG">ikke</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="PD" tag="PD">det</W>
-<W msd="AN" tag="AN">uendelige</W>
-<W msd="VA" tag="VA">ville</W>
-<W msd="VA" tag="VA">kunne</W>
-<W msd="VA" tag="VA">dækkes</W>
-<W msd="SP" tag="SP">via</W>
-<W msd="NC" tag="NC">brugen</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="AN" tag="AN">fossile</W>
-<W msd="NC" tag="NC">brændstoffer</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="SP" tag="SP">Siden</W>
-<W msd="RG" tag="RG">da</W>
-<W msd="VA" tag="VA">har</W>
-<W msd="AN" tag="AN">miljøpolitiske</W>
-<W msd="NC" tag="NC">hensyn</W>
-<W msd="AN" tag="AN">forståeligt</W>
-<W msd="RG" tag="RG">nok</W>
-<W msd="VA" tag="VA">spillet</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="AN" tag="AN">mindst</W>
-<W msd="RG" tag="RG">lige</W>
-<W msd="RG" tag="RG">så</W>
-<W msd="AN" tag="AN">stor</W>
-<W msd="NC" tag="NC">rolle</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">overvejelserne</W>
-<W msd="XP" tag="XP">-</W>
-<W msd="RG" tag="RG">ikke</W>
-<W msd="AN" tag="AN">mindst</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">lyset</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="PD" tag="PD">den</W>
-<W msd="NC" tag="NC">kendsgerning</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="NC" tag="NC">verdens</W>
-<W msd="VA" tag="VA">samlede</W>
-<W msd="NC" tag="NC">energiforbrug</W>
-<W msd="VA" tag="VA">forventes</W>
-<W msd="U=" tag="U=">at</W>
-<W msd="VA" tag="VA">stige</W>
-<W msd="AN" tag="AN">eksplosivt</W>
-<W msd="RG" tag="RG">inden</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="VA" tag="VA">kommende</W>
-<W msd="AN" tag="AN">kvarte</W>
-<W msd="NC" tag="NC">århundrede</W>
-<W msd="U=" tag="U=">som</W>
-<W msd="NC" tag="NC">følge</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="NC" tag="NC">industrialiseringen</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="AN" tag="AN">lang</W>
-<W msd="NC" tag="NC">række</W>
-<W msd="NC" tag="NC">tredjeverdenslande</W>
-<W msd="XP" tag="XP">.</W>
+<W id="1" msd="PO" tag="PO" in="0:assoc-frame" out="0:assoc-frame">Vort</W>
+<W id="2" msd="NC" tag="NC" in="" out="">kendskab</W>
+<W id="3" msd="SP" tag="SP" in="" out="">til</W>
+<W id="4" msd="NC" tag="NC" in="" out="">behovet</W>
+<W id="5" msd="SP" tag="SP" in="" out="">for</W>
+<W id="6" msd="PI" tag="PI" in="" out="">en</W>
+<W id="7" msd="AN" tag="AN" in="" out="">konsekvent</W>
+<W id="8" msd="NC" tag="NC" in="" out="">omlægning</W>
+<W id="9" msd="SP" tag="SP" in="" out="">af</W>
+<W id="10" msd="NC" tag="NC" in="" out="">energiforbruget</W>
+<W id="11" msd="VA" tag="VA" in="" out="">er</W>
+<W id="12" msd="RG" tag="RG" in="" out="">ikke</W>
+<W id="13" msd="SP" tag="SP" in="" out="">af</W>
+<W id="14" msd="AN" tag="AN" in="" out="">nyere</W>
+<W id="15" msd="NC" tag="NC" in="" out="">dato</W>
+<W id="16" msd="XP" tag="XP" in="" out="">.</W>
+<W id="17" msd="NP" tag="NP" in="" out="">Nogenlunde</W>
+<W id="18" msd="RG" tag="RG" in="" out="">samtidig</W>
+<W id="19" msd="SP" tag="SP" in="" out="">med</W>
+<W id="20" msd="AC" tag="AC" in="" out="">1970</W>
+<W id="21" msd="NC" tag="NC" in="" out="">'</W>
+<W id="22" msd="NC" tag="NC" in="" out="">ernes</W>
+<W id="23" msd="NC" tag="NC" in="" out="">olieprischok</W>
+<W id="24" msd="VA" tag="VA" in="" out="14:coref-res">erkendte</W>
+<W id="25" msd="PD" tag="PD" in="" out="">de</W>
+<W id="26" msd="AN" tag="AN" in="" out="">vestlige</W>
+<W id="27" msd="NC" tag="NC" in="" out="">industrilande</W>
+<W id="28" msd="NC" tag="NC" in="" out="">behovet</W>
+<W id="29" msd="SP" tag="SP" in="" out="">for</W>
+<W id="30" msd="VA" tag="VA" in="" out="">øget</W>
+<W id="31" msd="NC" tag="NC" in="" out="">forskning</W>
+<W id="32" msd="SP" tag="SP" in="" out="">i</W>
+<W id="33" msd="NC" tag="NC" in="" out="">anvendelse</W>
+<W id="34" msd="SP" tag="SP" in="" out="">af</W>
+<W id="35" msd="AN" tag="AN" in="" out="">vedvarende</W>
+<W id="36" msd="NC" tag="NC" in="" out="">energi</W>
+<W id="37" msd="XP" tag="XP" in="" out="">.</W>
+<W id="38" msd="PP" tag="PP" in="-14:coref-res" out="">Det</W>
+<W id="39" msd="VA" tag="VA" in="" out="">skete</W>
+<W id="40" msd="RG" tag="RG" in="" out="">først</W>
+<W id="41" msd="CC" tag="CC" in="" out="">og</W>
+<W id="42" msd="AN" tag="AN" in="" out="">fremmest</W>
+<W id="43" msd="RG" tag="RG" in="" out="">ud</W>
+<W id="44" msd="SP" tag="SP" in="" out="">fra</W>
+<W id="45" msd="PI" tag="PI" in="" out="">et</W>
+<W id="46" msd="NC" tag="NC" in="" out="">hensyn</W>
+<W id="47" msd="SP" tag="SP" in="" out="">til</W>
+<W id="48" msd="NC" tag="NC" in="" out="">forsyningssikkerheden</W>
+<W id="49" msd="CC" tag="CC" in="" out="">og</W>
+<W id="50" msd="RG" tag="RG" in="" out="">ud</W>
+<W id="51" msd="SP" tag="SP" in="" out="">fra</W>
+<W id="52" msd="NC" tag="NC" in="" out="34:coref-var">erkendelsen</W>
+<W id="53" msd="SP" tag="SP" in="" out="">af</W>
+<W id="54" msd="XP" tag="XP" in="" out="">,</W>
+<W id="55" msd="CS" tag="CS" in="" out="">at</W>
+<W id="56" msd="PO" tag="PO" in="0:assoc-frame" out="0:assoc-frame">vort</W>
+<W id="57" msd="NC" tag="NC" in="" out="">energibehov</W>
+<W id="58" msd="RG" tag="RG" in="" out="">ikke</W>
+<W id="59" msd="SP" tag="SP" in="" out="">i</W>
+<W id="60" msd="PD" tag="PD" in="" out="">det</W>
+<W id="61" msd="AN" tag="AN" in="" out="">uendelige</W>
+<W id="62" msd="VA" tag="VA" in="" out="">ville</W>
+<W id="63" msd="VA" tag="VA" in="" out="">kunne</W>
+<W id="64" msd="VA" tag="VA" in="" out="">dækkes</W>
+<W id="65" msd="SP" tag="SP" in="" out="">via</W>
+<W id="66" msd="NC" tag="NC" in="" out="">brugen</W>
+<W id="67" msd="SP" tag="SP" in="" out="">af</W>
+<W id="68" msd="AN" tag="AN" in="" out="">fossile</W>
+<W id="69" msd="NC" tag="NC" in="" out="">brændstoffer</W>
+<W id="70" msd="XP" tag="XP" in="" out="">.</W>
+<W id="71" msd="SP" tag="SP" in="" out="">Siden</W>
+<W id="72" msd="RG" tag="RG" in="" out="">da</W>
+<W id="73" msd="VA" tag="VA" in="" out="">har</W>
+<W id="74" msd="AN" tag="AN" in="" out="">miljøpolitiske</W>
+<W id="75" msd="NC" tag="NC" in="" out="">hensyn</W>
+<W id="76" msd="AN" tag="AN" in="" out="">forståeligt</W>
+<W id="77" msd="RG" tag="RG" in="" out="">nok</W>
+<W id="78" msd="VA" tag="VA" in="" out="">spillet</W>
+<W id="79" msd="PI" tag="PI" in="" out="">en</W>
+<W id="80" msd="AN" tag="AN" in="" out="">mindst</W>
+<W id="81" msd="RG" tag="RG" in="" out="">lige</W>
+<W id="82" msd="RG" tag="RG" in="" out="">så</W>
+<W id="83" msd="AN" tag="AN" in="" out="">stor</W>
+<W id="84" msd="NC" tag="NC" in="" out="">rolle</W>
+<W id="85" msd="SP" tag="SP" in="" out="">i</W>
+<W id="86" msd="NC" tag="NC" in="-34:coref-var" out="">overvejelserne</W>
+<W id="87" msd="XP" tag="XP" in="" out="">-</W>
+<W id="88" msd="RG" tag="RG" in="" out="">ikke</W>
+<W id="89" msd="AN" tag="AN" in="" out="">mindst</W>
+<W id="90" msd="SP" tag="SP" in="" out="">i</W>
+<W id="91" msd="NC" tag="NC" in="" out="">lyset</W>
+<W id="92" msd="SP" tag="SP" in="" out="">af</W>
+<W id="93" msd="PD" tag="PD" in="" out="">den</W>
+<W id="94" msd="NC" tag="NC" in="" out="">kendsgerning</W>
+<W id="95" msd="XP" tag="XP" in="" out="">,</W>
+<W id="96" msd="CS" tag="CS" in="" out="">at</W>
+<W id="97" msd="NC" tag="NC" in="" out="">verdens</W>
+<W id="98" msd="VA" tag="VA" in="" out="">samlede</W>
+<W id="99" msd="NC" tag="NC" in="" out="">energiforbrug</W>
+<W id="100" msd="VA" tag="VA" in="" out="23:coref-res">forventes</W>
+<W id="101" msd="U=" tag="U=" in="" out="">at</W>
+<W id="102" msd="VA" tag="VA" in="" out="">stige</W>
+<W id="103" msd="AN" tag="AN" in="" out="">eksplosivt</W>
+<W id="104" msd="RG" tag="RG" in="" out="">inden</W>
+<W id="105" msd="SP" tag="SP" in="" out="">for</W>
+<W id="106" msd="PP" tag="PP" in="" out="">det</W>
+<W id="107" msd="VA" tag="VA" in="" out="">kommende</W>
+<W id="108" msd="AN" tag="AN" in="" out="">kvarte</W>
+<W id="109" msd="NC" tag="NC" in="" out="">århundrede</W>
+<W id="110" msd="U=" tag="U=" in="" out="">som</W>
+<W id="111" msd="NC" tag="NC" in="" out="">følge</W>
+<W id="112" msd="SP" tag="SP" in="" out="">af</W>
+<W id="113" msd="NC" tag="NC" in="" out="">industrialiseringen</W>
+<W id="114" msd="SP" tag="SP" in="" out="">af</W>
+<W id="115" msd="PI" tag="PI" in="" out="">en</W>
+<W id="116" msd="AN" tag="AN" in="" out="">lang</W>
+<W id="117" msd="NC" tag="NC" in="" out="">række</W>
+<W id="118" msd="NC" tag="NC" in="" out="">tredjeverdenslande</W>
+<W id="119" msd="XP" tag="XP" in="" out="">.</W>
 </s>
 <s>
-<W msd="SP" tag="SP">På</W>
-<W msd="PD" tag="PD">denne</W>
-<W msd="NC" tag="NC">baggrund</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="SP" tag="SP">på</W>
-<W msd="AN" tag="AN">høje</W>
-<W msd="NC" tag="NC">tid</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="PD" tag="PD">Den</W>
-<W msd="AN" tag="AN">Europæiske</W>
-<W msd="NC" tag="NC">Union</W>
-<W msd="VA" tag="VA">gennemfører</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="NC" tag="NC">handlingsplan</W>
-<W msd="SP" tag="SP">til</W>
-<W msd="RG" tag="RG">fremme</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="AN" tag="AN">vedvarende</W>
-<W msd="NC" tag="NC">energikilder</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="RG" tag="RG">hvori</W>
-<W msd="U=" tag="U=">der</W>
-<W msd="VA" tag="VA">tages</W>
-<W msd="AN" tag="AN">særligt</W>
-<W msd="NC" tag="NC">hensyn</W>
-<W msd="SP" tag="SP">til</W>
-<W msd="PD" tag="PD">de</W>
-<W msd="AN" tag="AN">enkelte</W>
-<W msd="NC" tag="NC">EU-landes</W>
-<W msd="AN" tag="AN">særlige</W>
-<W msd="NC" tag="NC">forudsætninger</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="NC" tag="NC">anvendelse</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="AN" tag="AN">bestemte</W>
-<W msd="NC" tag="NC">former</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="AN" tag="AN">vedvarende</W>
-<W msd="NC" tag="NC">energi</W>
-<W msd="XP" tag="XP">(</W>
-<W msd="RG" tag="RG">f.eks.</W>
-<W msd="VA" tag="VA">øget</W>
-<W msd="NC" tag="NC">anvendelse</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="NC" tag="NC">solenergi</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">Middelhavslandene</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="VA" tag="VA">udvidet</W>
-<W msd="NC" tag="NC">brug</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="NC" tag="NC">vindenergi</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="PD" tag="PD">de</W>
-<W msd="AN" tag="AN">nordvestlige</W>
-<W msd="NC" tag="NC">EU-lande</W>
-<W msd="NC" tag="NC">etc.</W>
-<W msd="XP" tag="XP">)</W>
-<W msd="XP" tag="XP">.</W>
+<W id="122" msd="SP" tag="SP" in="" out="">På</W>
+<W id="123" msd="PD" tag="PD" in="-23:coref-res" out="">denne</W>
+<W id="124" msd="NC" tag="NC" in="" out="">baggrund</W>
+<W id="125" msd="VA" tag="VA" in="" out="">er</W>
+<W id="126" msd="PP" tag="PP" in="" out="">det</W>
+<W id="127" msd="SP" tag="SP" in="" out="">på</W>
+<W id="128" msd="AN" tag="AN" in="" out="">høje</W>
+<W id="129" msd="NC" tag="NC" in="" out="">tid</W>
+<W id="130" msd="XP" tag="XP" in="" out="">,</W>
+<W id="131" msd="CS" tag="CS" in="" out="">at</W>
+<W id="132" msd="PD" tag="PD" in="" out="">Den</W>
+<W id="133" msd="AN" tag="AN" in="" out="">Europæiske</W>
+<W id="134" msd="NC" tag="NC" in="" out="">Union</W>
+<W id="135" msd="VA" tag="VA" in="" out="">gennemfører</W>
+<W id="136" msd="PI" tag="PI" in="" out="">en</W>
+<W id="137" msd="NC" tag="NC" in="" out="">handlingsplan</W>
+<W id="138" msd="SP" tag="SP" in="" out="">til</W>
+<W id="139" msd="RG" tag="RG" in="" out="">fremme</W>
+<W id="140" msd="SP" tag="SP" in="" out="">af</W>
+<W id="141" msd="AN" tag="AN" in="" out="">vedvarende</W>
+<W id="142" msd="NC" tag="NC" in="" out="">energikilder</W>
+<W id="143" msd="XP" tag="XP" in="" out="">,</W>
+<W id="144" msd="RG" tag="RG" in="" out="">hvori</W>
+<W id="145" msd="U=" tag="U=" in="" out="">der</W>
+<W id="146" msd="VA" tag="VA" in="" out="">tages</W>
+<W id="147" msd="AN" tag="AN" in="" out="">særligt</W>
+<W id="148" msd="NC" tag="NC" in="" out="">hensyn</W>
+<W id="149" msd="SP" tag="SP" in="" out="">til</W>
+<W id="150" msd="PD" tag="PD" in="" out="">de</W>
+<W id="151" msd="AN" tag="AN" in="" out="">enkelte</W>
+<W id="152" msd="NC" tag="NC" in="" out="">EU-landes</W>
+<W id="153" msd="AN" tag="AN" in="" out="">særlige</W>
+<W id="154" msd="NC" tag="NC" in="" out="">forudsætninger</W>
+<W id="155" msd="SP" tag="SP" in="" out="">for</W>
+<W id="156" msd="NC" tag="NC" in="" out="">anvendelse</W>
+<W id="157" msd="SP" tag="SP" in="" out="">af</W>
+<W id="158" msd="AN" tag="AN" in="" out="">bestemte</W>
+<W id="159" msd="NC" tag="NC" in="" out="">former</W>
+<W id="160" msd="SP" tag="SP" in="" out="">for</W>
+<W id="161" msd="AN" tag="AN" in="" out="">vedvarende</W>
+<W id="162" msd="NC" tag="NC" in="" out="">energi</W>
+<W id="163" msd="XP" tag="XP" in="" out="">(</W>
+<W id="164" msd="RG" tag="RG" in="" out="">f.eks.</W>
+<W id="165" msd="VA" tag="VA" in="" out="">øget</W>
+<W id="166" msd="NC" tag="NC" in="" out="">anvendelse</W>
+<W id="167" msd="SP" tag="SP" in="" out="">af</W>
+<W id="168" msd="NC" tag="NC" in="" out="">solenergi</W>
+<W id="169" msd="SP" tag="SP" in="" out="">i</W>
+<W id="170" msd="NC" tag="NC" in="" out="">Middelhavslandene</W>
+<W id="171" msd="XP" tag="XP" in="" out="">,</W>
+<W id="172" msd="VA" tag="VA" in="" out="">udvidet</W>
+<W id="173" msd="NC" tag="NC" in="" out="">brug</W>
+<W id="174" msd="SP" tag="SP" in="" out="">af</W>
+<W id="175" msd="NC" tag="NC" in="" out="">vindenergi</W>
+<W id="176" msd="SP" tag="SP" in="" out="">i</W>
+<W id="177" msd="PD" tag="PD" in="" out="">de</W>
+<W id="178" msd="AN" tag="AN" in="" out="">nordvestlige</W>
+<W id="179" msd="NC" tag="NC" in="" out="">EU-lande</W>
+<W id="180" msd="NC" tag="NC" in="" out="">etc.</W>
+<W id="181" msd="XP" tag="XP" in="" out="">)</W>
+<W id="182" msd="XP" tag="XP" in="" out="">.</W>
 </s>
 <s>
-<W msd="PD" tag="PD">Den</W>
-<W msd="AN" tag="AN">foreliggende</W>
-<W msd="NC" tag="NC">betænkning</W>
-<W msd="SP" tag="SP">fra</W>
-<W msd="NC" tag="NC">Udvalget</W>
-<W msd="SP" tag="SP">om</W>
-<W msd="NC" tag="NC">Forskning</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="AN" tag="AN">Teknologisk</W>
-<W msd="NP" tag="NP">Udvikling</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="NP" tag="NP">Energi</W>
-<W msd="VA" tag="VA">rummer</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="AN" tag="AN">glimrende</W>
-<W msd="NC" tag="NC">analyse</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="PP" tag="PP">de</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="NC" tag="NC">Kommissionen</W>
-<W msd="VA" tag="VA">stillede</W>
-<W msd="NC" tag="NC">forslag</W>
-<W msd="XP" tag="XP">-</W>
-<W msd="RG" tag="RG">hvoraf</W>
-<W msd="RG" tag="RG">ikke</W>
-<W msd="AN" tag="AN">mindst</W>
-<W msd="NC" tag="NC">forslagene</W>
-<W msd="VA" tag="VA">vedrørende</W>
-<W msd="NC" tag="NC">foranstaltninger</W>
-<W msd="SP" tag="SP">til</W>
-<W msd="NC" tag="NC">forbedring</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="PD" tag="PD">de</W>
-<W msd="AN" tag="AN">vedvarende</W>
-<W msd="NC" tag="NC">energikilders</W>
-<W msd="NC" tag="NC">konkurrencedygtighed</W>
-<W msd="VA" tag="VA">påkalder</W>
-<W msd="PP" tag="PP">sig</W>
-<W msd="AN" tag="AN">særlig</W>
-<W msd="NC" tag="NC">interesse</W>
-<W msd="XP" tag="XP">.</W>
+<W id="185" msd="PD" tag="PD" in="0:assoc-frame" out="0:assoc-frame">Den</W>
+<W id="186" msd="AN" tag="AN" in="" out="">foreliggende</W>
+<W id="187" msd="NC" tag="NC" in="" out="">betænkning</W>
+<W id="188" msd="SP" tag="SP" in="" out="">fra</W>
+<W id="189" msd="NC" tag="NC" in="" out="">Udvalget</W>
+<W id="190" msd="SP" tag="SP" in="" out="">om</W>
+<W id="191" msd="NC" tag="NC" in="" out="">Forskning</W>
+<W id="192" msd="XP" tag="XP" in="" out="">,</W>
+<W id="193" msd="AN" tag="AN" in="" out="">Teknologisk</W>
+<W id="194" msd="NP" tag="NP" in="" out="">Udvikling</W>
+<W id="195" msd="CC" tag="CC" in="" out="">og</W>
+<W id="196" msd="NP" tag="NP" in="" out="">Energi</W>
+<W id="197" msd="VA" tag="VA" in="" out="">rummer</W>
+<W id="198" msd="PI" tag="PI" in="" out="">en</W>
+<W id="199" msd="AN" tag="AN" in="" out="">glimrende</W>
+<W id="200" msd="NC" tag="NC" in="" out="">analyse</W>
+<W id="201" msd="SP" tag="SP" in="" out="">af</W>
+<W id="202" msd="PP" tag="PP" in="" out="">de</W>
+<W id="203" msd="SP" tag="SP" in="" out="">af</W>
+<W id="204" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame">Kommissionen</W>
+<W id="205" msd="VA" tag="VA" in="" out="">stillede</W>
+<W id="206" msd="NC" tag="NC" in="" out="">forslag</W>
+<W id="207" msd="XP" tag="XP" in="" out="">-</W>
+<W id="208" msd="RG" tag="RG" in="" out="">hvoraf</W>
+<W id="209" msd="RG" tag="RG" in="" out="">ikke</W>
+<W id="210" msd="AN" tag="AN" in="" out="">mindst</W>
+<W id="211" msd="NC" tag="NC" in="" out="">forslagene</W>
+<W id="212" msd="VA" tag="VA" in="" out="">vedrørende</W>
+<W id="213" msd="NC" tag="NC" in="" out="">foranstaltninger</W>
+<W id="214" msd="SP" tag="SP" in="" out="">til</W>
+<W id="215" msd="NC" tag="NC" in="" out="">forbedring</W>
+<W id="216" msd="SP" tag="SP" in="" out="">af</W>
+<W id="217" msd="PD" tag="PD" in="" out="">de</W>
+<W id="218" msd="AN" tag="AN" in="" out="">vedvarende</W>
+<W id="219" msd="NC" tag="NC" in="" out="">energikilders</W>
+<W id="220" msd="NC" tag="NC" in="" out="">konkurrencedygtighed</W>
+<W id="221" msd="VA" tag="VA" in="" out="">påkalder</W>
+<W id="222" msd="PP" tag="PP" in="" out="">sig</W>
+<W id="223" msd="AN" tag="AN" in="" out="">særlig</W>
+<W id="224" msd="NC" tag="NC" in="" out="">interesse</W>
+<W id="225" msd="XP" tag="XP" in="" out="">.</W>
 </s>

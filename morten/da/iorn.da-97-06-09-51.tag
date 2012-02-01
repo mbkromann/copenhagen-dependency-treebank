@@ -1,340 +1,340 @@
 <s>
-<W msd="NP" tag="NP">Hr.</W>
-<W msd="NC" tag="NC">formand</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="PP" tag="PP">jeg</W>
-<W msd="VA" tag="VA">vil</W>
-<W msd="RG" tag="RG">gerne</W>
-<W msd="VA" tag="VA">takke</W>
-<W msd="NC" tag="NC">hr.</W>
-<W msd="NP" tag="NP">Perry</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="NC" tag="NC">betænkningen</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="U=" tag="U=">som</W>
-<W msd="PP" tag="PP">jeg</W>
-<W msd="VE" tag="VE">synes</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="PI" tag="PI">et</W>
-<W msd="AN" tag="AN">excellent</W>
-<W msd="NC" tag="NC">stykke</W>
-<W msd="NC" tag="NC">arbejde</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="RG" tag="RG">så</W>
-<W msd="VA" tag="VA">vil</W>
-<W msd="PP" tag="PP">jeg</W>
-<W msd="VA" tag="VA">sige</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="RG" tag="RG">vel</W>
-<W msd="AN" tag="AN">rigtigt</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="U=" tag="U=">som</W>
-<W msd="AN" tag="AN">hr.</W>
-<W msd="NP" tag="NP">Perry</W>
-<W msd="VA" tag="VA">siger</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="PI" tag="PI">man</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="AN" tag="AN">tilbøjelig</W>
-<W msd="SP" tag="SP">til</W>
-<W msd="U=" tag="U=">at</W>
-<W msd="VA" tag="VA">betragte</W>
-<W msd="PD" tag="PD">det</W>
-<W msd="NC" tag="NC">udvalg</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="PI" tag="PI">man</W>
-<W msd="RG" tag="RG">nu</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="NC" tag="NC">gang</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="AN" tag="AN">aktiv</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="U=" tag="U=">som</W>
-<W msd="PD" tag="PD">det</W>
-<W msd="AN" tag="AN">vigtigste</W>
-<W msd="NC" tag="NC">udvalg</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="CC" tag="CC">Men</W>
-<W msd="PP" tag="PP">jeg</W>
-<W msd="VE" tag="VE">synes</W>
-<W msd="RG" tag="RG">sådan</W>
-<W msd="VA" tag="VA">set</W>
-<W msd="AN" tag="AN">godt</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="PI" tag="PI">man</W>
-<W msd="VA" tag="VA">kan</W>
-<W msd="VA" tag="VA">tillade</W>
-<W msd="PP" tag="PP">sig</W>
-<W msd="U=" tag="U=">at</W>
-<W msd="VA" tag="VA">sige</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="NC" tag="NC">Udvalget</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="NP" tag="NP">Andragender</W>
-<W msd="RG" tag="RG">sammen</W>
-<W msd="SP" tag="SP">med</W>
-<W msd="NC" tag="NC">Ombudsmanden</W>
-<W msd="AN" tag="AN">faktisk</W>
-<W msd="VA" tag="VA">vedrører</W>
-<W msd="PD" tag="PD">den</W>
-<W msd="AN" tag="AN">mest</W>
-<W msd="AN" tag="AN">jordnære</W>
-<W msd="NC" tag="NC">del</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="NP" tag="NP">Unionens</W>
-<W msd="VA" tag="VA">virke</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="U=" tag="U=">Der</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="AN" tag="AN">meget</W>
-<W msd="AN" tag="AN">få</W>
-<W msd="PI" tag="PI">andre</W>
-<W msd="NC" tag="NC">steder</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="RG" tag="RG">hvor</W>
-<W msd="NC" tag="NC">borgerne</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="AN" tag="AN">samme</W>
-<W msd="NC" tag="NC">grad</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="AN" tag="AN">direkte</W>
-<W msd="NC" tag="NC">kontakt</W>
-<W msd="SP" tag="SP">med</W>
-<W msd="NC" tag="NC">Unionen</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="PP" tag="PP">Det</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="RG" tag="RG">her</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="PD" tag="PD">den</W>
-<W msd="AN" tag="AN">enkelte</W>
-<W msd="NC" tag="NC">borger</W>
-<W msd="VA" tag="VA">har</W>
-<W msd="NC" tag="NC">mulighed</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="U=" tag="U=">at</W>
-<W msd="VA" tag="VA">få</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="NC" tag="NC">sag</W>
-<W msd="VA" tag="VA">behandlet</W>
-<W msd="AN" tag="AN">fuldstændig</W>
-<W msd="NC" tag="NC">konkret</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="AN" tag="AN">Ganske</W>
-<W msd="RG" tag="RG">vist</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="RG" tag="RG">desværre</W>
-<W msd="RG" tag="RG">ofte</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">fordi</W>
-<W msd="U=" tag="U=">der</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="PI" tag="PI">et</W>
-<W msd="CC" tag="CC">eller</W>
-<W msd="PI" tag="PI">andet</W>
-<W msd="AN" tag="AN">galt</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">forholdet</W>
-<W msd="SP" tag="SP">mellem</W>
-<W msd="NC" tag="NC">landene</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CC" tag="CC">for</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="RG" tag="RG">jo</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="NC" tag="NC">Udvalget</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="NC" tag="NC">Andragender</W>
-<W msd="VA" tag="VA">tager</W>
-<W msd="PP" tag="PP">sig</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CC" tag="CC">men</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="RG" tag="RG">dog</W>
-<W msd="AN" tag="AN">muligt</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="NC" tag="NC">borgeren</W>
-<W msd="U=" tag="U=">at</W>
-<W msd="VA" tag="VA">indgive</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="NC" tag="NC">klage</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="VA" tag="VA">rejse</W>
-<W msd="NC" tag="NC">sager</W>
-<W msd="AN" tag="AN">stort</W>
-<W msd="VA" tag="VA">set</W>
-<W msd="AN" tag="AN">gratis</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="RG" tag="RG">Hvor</W>
-<W msd="RG" tag="RG">ellers</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">Unionen</W>
-<W msd="VA" tag="VA">kan</W>
-<W msd="PI" tag="PI">man</W>
-<W msd="VA" tag="VA">slippe</W>
-<W msd="RG" tag="RG">afsted</W>
-<W msd="SP" tag="SP">med</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="SP" tag="SP">uden</W>
-<W msd="AN" tag="AN">voldsom</W>
-<W msd="NC" tag="NC">advokatbistand</W>
-<W msd="XP" tag="XP">?</W>
-<W msd="PP" tag="PP">Det</W>
-<W msd="VA" tag="VA">kan</W>
-<W msd="PI" tag="PI">man</W>
-<W msd="AN" tag="AN">faktisk</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">hvis</W>
-<W msd="PI" tag="PI">man</W>
-<W msd="VA" tag="VA">rejser</W>
-<W msd="PI" tag="PI">en</W>
-<W msd="NC" tag="NC">sag</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">Udvalget</W>
-<W msd="SP" tag="SP">for</W>
-<W msd="NP" tag="NP">Andragender</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="CC" tag="CC">Men</W>
-<W msd="RG" tag="RG">netop</W>
-<W msd="CS" tag="CS">fordi</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="RG" tag="RG">her</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="PD" tag="PD">den</W>
-<W msd="AN" tag="AN">enkelte</W>
-<W msd="NC" tag="NC">borger</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="AN" tag="AN">direkte</W>
-<W msd="NC" tag="NC">kontakt</W>
-<W msd="SP" tag="SP">med</W>
-<W msd="NC" tag="NC">Unionen</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="AN" tag="AN">vigtigt</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="NC" tag="NC">arbejdsgangen</W>
-<W msd="VA" tag="VA">bliver</W>
-<W msd="RG" tag="RG">så</W>
-<W msd="AN" tag="AN">effektiv</W>
-<W msd="U=" tag="U=">som</W>
-<W msd="AN" tag="AN">mulig</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="CC" tag="CC">Og</W>
-<W msd="CS" tag="CS">da</W>
-<W msd="PP" tag="PP">vi</W>
-<W msd="RG" tag="RG">nu</W>
-<W msd="VA" tag="VA">har</W>
-<W msd="NC" tag="NC">formanden</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">formandssædet</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="VA" tag="VA">vil</W>
-<W msd="PP" tag="PP">jeg</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">idet</W>
-<W msd="PP" tag="PP">jeg</W>
-<W msd="VA" tag="VA">håber</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="NC" tag="NC">formanden</W>
-<W msd="RG" tag="RG">også</W>
-<W msd="VA" tag="VA">hører</W>
-<W msd="SP" tag="SP">efter</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="PD" tag="PD">selv</W>
-<W msd="CS" tag="CS">om</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="SP" tag="SP">på</W>
-<W msd="NC" tag="NC">dansk</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="RG" tag="RG">gerne</W>
-<W msd="VA" tag="VA">sige</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="CS" tag="CS">når</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="VA" tag="VA">drejer</W>
-<W msd="PP" tag="PP">sig</W>
-<W msd="SP" tag="SP">om</W>
-<W msd="PD" tag="PD">den</W>
-<W msd="AN" tag="AN">edb-mæssige</W>
-<W msd="NC" tag="NC">side</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="NC" tag="NC">sagsbehandlingen</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">Parlamentet</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="VA" tag="VA">mangler</W>
-<W msd="PP" tag="PP">vi</W>
-<W msd="RG" tag="RG">altså</W>
-<W msd="AN" tag="AN">meget</W>
-<W msd="XP" tag="XP">.</W>
-<W msd="PP" tag="PP">Det</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="RG" tag="RG">næsten</W>
-<W msd="AN" tag="AN">fuldstændigt</W>
-<W msd="AN" tag="AN">uoverkommeligt</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">hvis</W>
-<W msd="PI" tag="PI">man</W>
-<W msd="VA" tag="VA">begiver</W>
-<W msd="PP" tag="PP">sig</W>
-<W msd="RG" tag="RG">ind</W>
-<W msd="SP" tag="SP">på</W>
-<W msd="PD" tag="PD">dette</W>
-<W msd="NC" tag="NC">område</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="PP" tag="PP">jeg</W>
-<W msd="VA" tag="VA">vil</W>
-<W msd="VA" tag="VA">sige</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="CS" tag="CS">at</W>
-<W msd="RG" tag="RG">netop</W>
-<W msd="CS" tag="CS">når</W>
-<W msd="PP" tag="PP">det</W>
-<W msd="VA" tag="VA">drejer</W>
-<W msd="PP" tag="PP">sig</W>
-<W msd="SP" tag="SP">om</W>
-<W msd="AC" tag="AC">femten</W>
-<W msd="NC" tag="NC">lande</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="U=" tag="U=">der</W>
-<W msd="VA" tag="VA">skal</W>
-<W msd="NC" tag="NC">samarbejde</W>
-<W msd="XP" tag="XP">,</W>
-<W msd="RG" tag="RG">så</W>
-<W msd="VA" tag="VA">er</W>
-<W msd="NC" tag="NC">edb</W>
-<W msd="CC" tag="CC">og</W>
-<W msd="NC" tag="NC">infoteknikken</W>
-<W msd="PI" tag="PI">noget</W>
-<W msd="SP" tag="SP">af</W>
-<W msd="PD" tag="PD">det</W>
-<W msd="AN" tag="AN">mest</W>
-<W msd="AN" tag="AN">afgørende</W>
-<W msd="U=" tag="U=">at</W>
-<W msd="VA" tag="VA">få</W>
-<W msd="VA" tag="VA">sat</W>
-<W msd="SP" tag="SP">i</W>
-<W msd="NC" tag="NC">værk</W>
-<W msd="XP" tag="XP">.</W>
+<W id="1" msd="NP" tag="NP" in="" out="">Hr.</W>
+<W id="2" msd="NC" tag="NC" in="" out="">formand</W>
+<W id="3" msd="XP" tag="XP" in="" out="">,</W>
+<W id="4" msd="PP" tag="PP" in="" out="10:coref">jeg</W>
+<W id="5" msd="VA" tag="VA" in="" out="">vil</W>
+<W id="6" msd="RG" tag="RG" in="" out="">gerne</W>
+<W id="7" msd="VA" tag="VA" in="" out="">takke</W>
+<W id="8" msd="NC" tag="NC" in="" out="27:coref-iden">hr.</W>
+<W id="9" msd="NP" tag="NP" in="" out="">Perry</W>
+<W id="10" msd="SP" tag="SP" in="" out="">for</W>
+<W id="11" msd="NC" tag="NC" in="" out="2:ref">betænkningen</W>
+<W id="12" msd="XP" tag="XP" in="" out="">,</W>
+<W id="13" msd="U=" tag="U=" in="-2:ref" out="">som</W>
+<W id="14" msd="PP" tag="PP" in="-10:coref" out="11:coref">jeg</W>
+<W id="15" msd="VE" tag="VE" in="" out="">synes</W>
+<W id="16" msd="VA" tag="VA" in="" out="">er</W>
+<W id="17" msd="PI" tag="PI" in="" out="">et</W>
+<W id="18" msd="AN" tag="AN" in="" out="">excellent</W>
+<W id="19" msd="NC" tag="NC" in="" out="">stykke</W>
+<W id="20" msd="NC" tag="NC" in="" out="">arbejde</W>
+<W id="21" msd="XP" tag="XP" in="" out="">,</W>
+<W id="22" msd="CC" tag="CC" in="" out="">og</W>
+<W id="23" msd="RG" tag="RG" in="" out="">så</W>
+<W id="24" msd="VA" tag="VA" in="" out="">vil</W>
+<W id="25" msd="PP" tag="PP" in="-11:coref" out="38:coref">jeg</W>
+<W id="26" msd="VA" tag="VA" in="" out="">sige</W>
+<W id="27" msd="XP" tag="XP" in="" out="">,</W>
+<W id="28" msd="CS" tag="CS" in="" out="">at</W>
+<W id="29" msd="PP" tag="PP" in="" out="">det</W>
+<W id="30" msd="VA" tag="VA" in="" out="4:ref">er</W>
+<W id="31" msd="RG" tag="RG" in="" out="">vel</W>
+<W id="32" msd="AN" tag="AN" in="" out="">rigtigt</W>
+<W id="33" msd="XP" tag="XP" in="" out="">,</W>
+<W id="34" msd="U=" tag="U=" in="-4:ref" out="">som</W>
+<W id="35" msd="AN" tag="AN" in="-27:coref-iden" out="">hr.</W>
+<W id="36" msd="NP" tag="NP" in="" out="">Perry</W>
+<W id="37" msd="VA" tag="VA" in="" out="">siger</W>
+<W id="38" msd="XP" tag="XP" in="" out="">,</W>
+<W id="39" msd="CS" tag="CS" in="" out="">at</W>
+<W id="40" msd="PI" tag="PI" in="" out="">man</W>
+<W id="41" msd="VA" tag="VA" in="" out="">er</W>
+<W id="42" msd="AN" tag="AN" in="" out="">tilbøjelig</W>
+<W id="43" msd="SP" tag="SP" in="" out="">til</W>
+<W id="44" msd="U=" tag="U=" in="" out="">at</W>
+<W id="45" msd="VA" tag="VA" in="" out="">betragte</W>
+<W id="46" msd="PD" tag="PD" in="" out="">det</W>
+<W id="47" msd="NC" tag="NC" in="" out="1:ref">udvalg</W>
+<W id="48" msd="XP" tag="XP" in="-1:ref" out="">,</W>
+<W id="49" msd="PI" tag="PI" in="" out="">man</W>
+<W id="50" msd="RG" tag="RG" in="" out="">nu</W>
+<W id="51" msd="PI" tag="PI" in="" out="">en</W>
+<W id="52" msd="NC" tag="NC" in="" out="">gang</W>
+<W id="53" msd="VA" tag="VA" in="" out="">er</W>
+<W id="54" msd="AN" tag="AN" in="" out="">aktiv</W>
+<W id="55" msd="SP" tag="SP" in="" out="">i</W>
+<W id="56" msd="XP" tag="XP" in="" out="">,</W>
+<W id="57" msd="U=" tag="U=" in="" out="">som</W>
+<W id="58" msd="PD" tag="PD" in="" out="">det</W>
+<W id="59" msd="AN" tag="AN" in="" out="">vigtigste</W>
+<W id="60" msd="NC" tag="NC" in="" out="">udvalg</W>
+<W id="61" msd="XP" tag="XP" in="" out="">.</W>
+<W id="62" msd="CC" tag="CC" in="" out="">Men</W>
+<W id="63" msd="PP" tag="PP" in="-38:coref" out="186:coref">jeg</W>
+<W id="64" msd="VE" tag="VE" in="" out="">synes</W>
+<W id="65" msd="RG" tag="RG" in="" out="">sådan</W>
+<W id="66" msd="VA" tag="VA" in="" out="">set</W>
+<W id="67" msd="AN" tag="AN" in="" out="">godt</W>
+<W id="68" msd="XP" tag="XP" in="" out="">,</W>
+<W id="69" msd="CS" tag="CS" in="" out="">at</W>
+<W id="70" msd="PI" tag="PI" in="" out="">man</W>
+<W id="71" msd="VA" tag="VA" in="" out="">kan</W>
+<W id="72" msd="VA" tag="VA" in="" out="">tillade</W>
+<W id="73" msd="PP" tag="PP" in="" out="">sig</W>
+<W id="74" msd="U=" tag="U=" in="" out="">at</W>
+<W id="75" msd="VA" tag="VA" in="" out="">sige</W>
+<W id="76" msd="XP" tag="XP" in="" out="">,</W>
+<W id="77" msd="CS" tag="CS" in="" out="">at</W>
+<W id="78" msd="NC" tag="NC" in="" out="78:coref-iden">Udvalget</W>
+<W id="79" msd="SP" tag="SP" in="" out="">for</W>
+<W id="80" msd="NP" tag="NP" in="" out="">Andragender</W>
+<W id="81" msd="RG" tag="RG" in="" out="">sammen</W>
+<W id="82" msd="SP" tag="SP" in="" out="">med</W>
+<W id="83" msd="NC" tag="NC" in="" out="">Ombudsmanden</W>
+<W id="84" msd="AN" tag="AN" in="" out="">faktisk</W>
+<W id="85" msd="VA" tag="VA" in="" out="">vedrører</W>
+<W id="86" msd="PD" tag="PD" in="" out="">den</W>
+<W id="87" msd="AN" tag="AN" in="" out="">mest</W>
+<W id="88" msd="AN" tag="AN" in="" out="">jordnære</W>
+<W id="89" msd="NC" tag="NC" in="" out="">del</W>
+<W id="90" msd="SP" tag="SP" in="" out="">af</W>
+<W id="91" msd="NP" tag="NP" in="0:assoc-frame" out="0:assoc-frame|20:coref-iden">Unionens</W>
+<W id="92" msd="VA" tag="VA" in="" out="">virke</W>
+<W id="93" msd="XP" tag="XP" in="" out="">.</W>
+<W id="94" msd="U=" tag="U=" in="" out="">Der</W>
+<W id="95" msd="VA" tag="VA" in="" out="">er</W>
+<W id="96" msd="AN" tag="AN" in="" out="">meget</W>
+<W id="97" msd="AN" tag="AN" in="" out="">få</W>
+<W id="98" msd="PI" tag="PI" in="" out="">andre</W>
+<W id="99" msd="NC" tag="NC" in="" out="">steder</W>
+<W id="100" msd="XP" tag="XP" in="" out="">,</W>
+<W id="101" msd="RG" tag="RG" in="" out="">hvor</W>
+<W id="102" msd="NC" tag="NC" in="" out="">borgerne</W>
+<W id="103" msd="SP" tag="SP" in="" out="">i</W>
+<W id="104" msd="AN" tag="AN" in="" out="">samme</W>
+<W id="105" msd="NC" tag="NC" in="" out="">grad</W>
+<W id="106" msd="VA" tag="VA" in="" out="">er</W>
+<W id="107" msd="SP" tag="SP" in="" out="">i</W>
+<W id="108" msd="AN" tag="AN" in="" out="">direkte</W>
+<W id="109" msd="NC" tag="NC" in="" out="">kontakt</W>
+<W id="110" msd="SP" tag="SP" in="" out="">med</W>
+<W id="111" msd="NC" tag="NC" in="-20:coref-iden" out="73:coref-iden">Unionen</W>
+<W id="112" msd="XP" tag="XP" in="" out="">.</W>
+<W id="113" msd="PP" tag="PP" in="" out="">Det</W>
+<W id="114" msd="VA" tag="VA" in="" out="">er</W>
+<W id="115" msd="RG" tag="RG" in="" out="">her</W>
+<W id="116" msd="XP" tag="XP" in="" out="">,</W>
+<W id="117" msd="PD" tag="PD" in="" out="52:coref-iden.sb">den</W>
+<W id="118" msd="AN" tag="AN" in="" out="">enkelte</W>
+<W id="119" msd="NC" tag="NC" in="" out="">borger</W>
+<W id="120" msd="VA" tag="VA" in="" out="">har</W>
+<W id="121" msd="NC" tag="NC" in="" out="">mulighed</W>
+<W id="122" msd="SP" tag="SP" in="" out="">for</W>
+<W id="123" msd="U=" tag="U=" in="" out="">at</W>
+<W id="124" msd="VA" tag="VA" in="" out="">få</W>
+<W id="125" msd="PI" tag="PI" in="" out="">en</W>
+<W id="126" msd="NC" tag="NC" in="" out="">sag</W>
+<W id="127" msd="VA" tag="VA" in="" out="">behandlet</W>
+<W id="128" msd="AN" tag="AN" in="" out="">fuldstændig</W>
+<W id="129" msd="NC" tag="NC" in="" out="">konkret</W>
+<W id="130" msd="XP" tag="XP" in="" out="">.</W>
+<W id="131" msd="AN" tag="AN" in="" out="">Ganske</W>
+<W id="132" msd="RG" tag="RG" in="" out="">vist</W>
+<W id="133" msd="VA" tag="VA" in="" out="">er</W>
+<W id="134" msd="PP" tag="PP" in="" out="">det</W>
+<W id="135" msd="RG" tag="RG" in="" out="">desværre</W>
+<W id="136" msd="RG" tag="RG" in="" out="">ofte</W>
+<W id="137" msd="XP" tag="XP" in="" out="">,</W>
+<W id="138" msd="CS" tag="CS" in="" out="">fordi</W>
+<W id="139" msd="U=" tag="U=" in="" out="">der</W>
+<W id="140" msd="VA" tag="VA" in="" out="14:coref-res">er</W>
+<W id="141" msd="PI" tag="PI" in="" out="">et</W>
+<W id="142" msd="CC" tag="CC" in="" out="">eller</W>
+<W id="143" msd="PI" tag="PI" in="" out="">andet</W>
+<W id="144" msd="AN" tag="AN" in="" out="">galt</W>
+<W id="145" msd="SP" tag="SP" in="" out="">i</W>
+<W id="146" msd="NC" tag="NC" in="" out="">forholdet</W>
+<W id="147" msd="SP" tag="SP" in="" out="">mellem</W>
+<W id="148" msd="NC" tag="NC" in="" out="">landene</W>
+<W id="149" msd="XP" tag="XP" in="" out="">,</W>
+<W id="150" msd="CC" tag="CC" in="" out="">for</W>
+<W id="151" msd="PP" tag="PP" in="" out="">det</W>
+<W id="152" msd="VA" tag="VA" in="" out="">er</W>
+<W id="153" msd="RG" tag="RG" in="" out="">jo</W>
+<W id="154" msd="PP" tag="PP" in="-14:coref-res" out="1:ref">det</W>
+<W id="155" msd="XP" tag="XP" in="-1:ref" out="">,</W>
+<W id="156" msd="NC" tag="NC" in="-78:coref-iden" out="50:coref-iden">Udvalget</W>
+<W id="157" msd="SP" tag="SP" in="" out="">for</W>
+<W id="158" msd="NC" tag="NC" in="" out="">Andragender</W>
+<W id="159" msd="VA" tag="VA" in="" out="">tager</W>
+<W id="160" msd="PP" tag="PP" in="" out="">sig</W>
+<W id="161" msd="SP" tag="SP" in="" out="">af</W>
+<W id="162" msd="XP" tag="XP" in="" out="">,</W>
+<W id="163" msd="CC" tag="CC" in="" out="">men</W>
+<W id="164" msd="PP" tag="PP" in="" out="">det</W>
+<W id="165" msd="VA" tag="VA" in="" out="">er</W>
+<W id="166" msd="RG" tag="RG" in="" out="">dog</W>
+<W id="167" msd="AN" tag="AN" in="" out="">muligt</W>
+<W id="168" msd="SP" tag="SP" in="" out="">for</W>
+<W id="169" msd="NC" tag="NC" in="-52:coref-iden.sb" out="">borgeren</W>
+<W id="170" msd="U=" tag="U=" in="" out="">at</W>
+<W id="171" msd="VA" tag="VA" in="" out="">indgive</W>
+<W id="172" msd="PI" tag="PI" in="" out="">en</W>
+<W id="173" msd="NC" tag="NC" in="" out="">klage</W>
+<W id="174" msd="CC" tag="CC" in="" out="">og</W>
+<W id="175" msd="VA" tag="VA" in="" out="">rejse</W>
+<W id="176" msd="NC" tag="NC" in="" out="">sager</W>
+<W id="177" msd="AN" tag="AN" in="" out="">stort</W>
+<W id="178" msd="VA" tag="VA" in="" out="">set</W>
+<W id="179" msd="AN" tag="AN" in="" out="">gratis</W>
+<W id="180" msd="XP" tag="XP" in="" out="">.</W>
+<W id="181" msd="RG" tag="RG" in="" out="">Hvor</W>
+<W id="182" msd="RG" tag="RG" in="" out="">ellers</W>
+<W id="183" msd="SP" tag="SP" in="" out="">i</W>
+<W id="184" msd="NC" tag="NC" in="-73:coref-iden" out="41:coref-iden">Unionen</W>
+<W id="185" msd="VA" tag="VA" in="" out="">kan</W>
+<W id="186" msd="PI" tag="PI" in="" out="">man</W>
+<W id="187" msd="VA" tag="VA" in="" out="8:coref-res">slippe</W>
+<W id="188" msd="RG" tag="RG" in="" out="">afsted</W>
+<W id="189" msd="SP" tag="SP" in="" out="">med</W>
+<W id="190" msd="PP" tag="PP" in="" out="">det</W>
+<W id="191" msd="SP" tag="SP" in="" out="">uden</W>
+<W id="192" msd="AN" tag="AN" in="" out="">voldsom</W>
+<W id="193" msd="NC" tag="NC" in="" out="">advokatbistand</W>
+<W id="194" msd="XP" tag="XP" in="" out="">?</W>
+<W id="195" msd="PP" tag="PP" in="-8:coref-res" out="">Det</W>
+<W id="196" msd="VA" tag="VA" in="" out="">kan</W>
+<W id="197" msd="PI" tag="PI" in="" out="">man</W>
+<W id="198" msd="AN" tag="AN" in="" out="">faktisk</W>
+<W id="199" msd="XP" tag="XP" in="" out="">,</W>
+<W id="200" msd="CS" tag="CS" in="" out="">hvis</W>
+<W id="201" msd="PI" tag="PI" in="" out="">man</W>
+<W id="202" msd="VA" tag="VA" in="" out="">rejser</W>
+<W id="203" msd="PI" tag="PI" in="" out="">en</W>
+<W id="204" msd="NC" tag="NC" in="" out="">sag</W>
+<W id="205" msd="SP" tag="SP" in="" out="">i</W>
+<W id="206" msd="NC" tag="NC" in="-50:coref-iden" out="">Udvalget</W>
+<W id="207" msd="SP" tag="SP" in="" out="">for</W>
+<W id="208" msd="NP" tag="NP" in="" out="">Andragender</W>
+<W id="209" msd="XP" tag="XP" in="" out="">.</W>
+<W id="210" msd="CC" tag="CC" in="" out="">Men</W>
+<W id="211" msd="RG" tag="RG" in="" out="">netop</W>
+<W id="212" msd="CS" tag="CS" in="" out="">fordi</W>
+<W id="213" msd="PP" tag="PP" in="" out="">det</W>
+<W id="214" msd="VA" tag="VA" in="" out="">er</W>
+<W id="215" msd="RG" tag="RG" in="" out="">her</W>
+<W id="216" msd="XP" tag="XP" in="" out="">,</W>
+<W id="217" msd="PD" tag="PD" in="" out="">den</W>
+<W id="218" msd="AN" tag="AN" in="" out="">enkelte</W>
+<W id="219" msd="NC" tag="NC" in="" out="">borger</W>
+<W id="220" msd="VA" tag="VA" in="" out="">er</W>
+<W id="221" msd="SP" tag="SP" in="" out="">i</W>
+<W id="222" msd="AN" tag="AN" in="" out="">direkte</W>
+<W id="223" msd="NC" tag="NC" in="" out="">kontakt</W>
+<W id="224" msd="SP" tag="SP" in="" out="">med</W>
+<W id="225" msd="NC" tag="NC" in="-41:coref-iden" out="">Unionen</W>
+<W id="226" msd="XP" tag="XP" in="" out="">,</W>
+<W id="227" msd="VA" tag="VA" in="" out="">er</W>
+<W id="228" msd="PP" tag="PP" in="" out="">det</W>
+<W id="229" msd="AN" tag="AN" in="" out="">vigtigt</W>
+<W id="230" msd="XP" tag="XP" in="" out="">,</W>
+<W id="231" msd="CS" tag="CS" in="" out="">at</W>
+<W id="232" msd="NC" tag="NC" in="" out="">arbejdsgangen</W>
+<W id="233" msd="VA" tag="VA" in="" out="">bliver</W>
+<W id="234" msd="RG" tag="RG" in="" out="">så</W>
+<W id="235" msd="AN" tag="AN" in="" out="">effektiv</W>
+<W id="236" msd="U=" tag="U=" in="" out="">som</W>
+<W id="237" msd="AN" tag="AN" in="" out="">mulig</W>
+<W id="238" msd="XP" tag="XP" in="" out="">.</W>
+<W id="239" msd="CC" tag="CC" in="" out="">Og</W>
+<W id="240" msd="CS" tag="CS" in="" out="">da</W>
+<W id="241" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|44:coref">vi</W>
+<W id="242" msd="RG" tag="RG" in="" out="">nu</W>
+<W id="243" msd="VA" tag="VA" in="" out="">har</W>
+<W id="244" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|11:coref-iden">formanden</W>
+<W id="245" msd="SP" tag="SP" in="" out="">i</W>
+<W id="246" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame">formandssædet</W>
+<W id="247" msd="XP" tag="XP" in="" out="">,</W>
+<W id="248" msd="VA" tag="VA" in="" out="">vil</W>
+<W id="249" msd="PP" tag="PP" in="-186:coref" out="3:coref">jeg</W>
+<W id="250" msd="XP" tag="XP" in="" out="">,</W>
+<W id="251" msd="CS" tag="CS" in="" out="">idet</W>
+<W id="252" msd="PP" tag="PP" in="-3:coref" out="53:coref">jeg</W>
+<W id="253" msd="VA" tag="VA" in="" out="">håber</W>
+<W id="254" msd="XP" tag="XP" in="" out="">,</W>
+<W id="255" msd="NC" tag="NC" in="-11:coref-iden" out="">formanden</W>
+<W id="256" msd="RG" tag="RG" in="" out="">også</W>
+<W id="257" msd="VA" tag="VA" in="" out="">hører</W>
+<W id="258" msd="SP" tag="SP" in="" out="">efter</W>
+<W id="259" msd="XP" tag="XP" in="" out="">,</W>
+<W id="260" msd="PD" tag="PD" in="" out="">selv</W>
+<W id="261" msd="CS" tag="CS" in="" out="">om</W>
+<W id="262" msd="PP" tag="PP" in="" out="">det</W>
+<W id="263" msd="VA" tag="VA" in="" out="">er</W>
+<W id="264" msd="SP" tag="SP" in="" out="">på</W>
+<W id="265" msd="NC" tag="NC" in="" out="">dansk</W>
+<W id="266" msd="XP" tag="XP" in="" out="">,</W>
+<W id="267" msd="RG" tag="RG" in="" out="">gerne</W>
+<W id="268" msd="VA" tag="VA" in="" out="">sige</W>
+<W id="269" msd="XP" tag="XP" in="" out="">,</W>
+<W id="270" msd="CS" tag="CS" in="" out="">at</W>
+<W id="271" msd="CS" tag="CS" in="" out="">når</W>
+<W id="272" msd="PP" tag="PP" in="" out="">det</W>
+<W id="273" msd="VA" tag="VA" in="" out="">drejer</W>
+<W id="274" msd="PP" tag="PP" in="" out="">sig</W>
+<W id="275" msd="SP" tag="SP" in="" out="">om</W>
+<W id="276" msd="PD" tag="PD" in="" out="25:coref-var">den</W>
+<W id="277" msd="AN" tag="AN" in="" out="">edb-mæssige</W>
+<W id="278" msd="NC" tag="NC" in="" out="">side</W>
+<W id="279" msd="SP" tag="SP" in="" out="">af</W>
+<W id="280" msd="NC" tag="NC" in="" out="">sagsbehandlingen</W>
+<W id="281" msd="SP" tag="SP" in="" out="">i</W>
+<W id="282" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame">Parlamentet</W>
+<W id="283" msd="XP" tag="XP" in="" out="">,</W>
+<W id="284" msd="VA" tag="VA" in="" out="">mangler</W>
+<W id="285" msd="PP" tag="PP" in="-44:coref" out="">vi</W>
+<W id="286" msd="RG" tag="RG" in="" out="">altså</W>
+<W id="287" msd="AN" tag="AN" in="" out="">meget</W>
+<W id="288" msd="XP" tag="XP" in="" out="">.</W>
+<W id="289" msd="PP" tag="PP" in="" out="">Det</W>
+<W id="290" msd="VA" tag="VA" in="" out="">er</W>
+<W id="291" msd="RG" tag="RG" in="" out="">næsten</W>
+<W id="292" msd="AN" tag="AN" in="" out="">fuldstændigt</W>
+<W id="293" msd="AN" tag="AN" in="" out="">uoverkommeligt</W>
+<W id="294" msd="XP" tag="XP" in="" out="">,</W>
+<W id="295" msd="CS" tag="CS" in="" out="">hvis</W>
+<W id="296" msd="PI" tag="PI" in="" out="">man</W>
+<W id="297" msd="VA" tag="VA" in="" out="">begiver</W>
+<W id="298" msd="PP" tag="PP" in="" out="">sig</W>
+<W id="299" msd="RG" tag="RG" in="" out="">ind</W>
+<W id="300" msd="SP" tag="SP" in="" out="">på</W>
+<W id="301" msd="PD" tag="PD" in="-25:coref-var" out="">dette</W>
+<W id="302" msd="NC" tag="NC" in="" out="">område</W>
+<W id="303" msd="XP" tag="XP" in="" out="">,</W>
+<W id="304" msd="CC" tag="CC" in="" out="">og</W>
+<W id="305" msd="PP" tag="PP" in="-53:coref" out="">jeg</W>
+<W id="306" msd="VA" tag="VA" in="" out="">vil</W>
+<W id="307" msd="VA" tag="VA" in="" out="">sige</W>
+<W id="308" msd="XP" tag="XP" in="" out="">,</W>
+<W id="309" msd="CS" tag="CS" in="" out="">at</W>
+<W id="310" msd="RG" tag="RG" in="" out="">netop</W>
+<W id="311" msd="CS" tag="CS" in="" out="">når</W>
+<W id="312" msd="PP" tag="PP" in="" out="">det</W>
+<W id="313" msd="VA" tag="VA" in="" out="">drejer</W>
+<W id="314" msd="PP" tag="PP" in="" out="">sig</W>
+<W id="315" msd="SP" tag="SP" in="" out="">om</W>
+<W id="316" msd="AC" tag="AC" in="" out="">femten</W>
+<W id="317" msd="NC" tag="NC" in="" out="2:ref">lande</W>
+<W id="318" msd="XP" tag="XP" in="" out="">,</W>
+<W id="319" msd="U=" tag="U=" in="-2:ref" out="">der</W>
+<W id="320" msd="VA" tag="VA" in="" out="">skal</W>
+<W id="321" msd="NC" tag="NC" in="" out="">samarbejde</W>
+<W id="322" msd="XP" tag="XP" in="" out="">,</W>
+<W id="323" msd="RG" tag="RG" in="" out="">så</W>
+<W id="324" msd="VA" tag="VA" in="" out="">er</W>
+<W id="325" msd="NC" tag="NC" in="" out="">edb</W>
+<W id="326" msd="CC" tag="CC" in="" out="">og</W>
+<W id="327" msd="NC" tag="NC" in="" out="">infoteknikken</W>
+<W id="328" msd="PI" tag="PI" in="" out="">noget</W>
+<W id="329" msd="SP" tag="SP" in="" out="">af</W>
+<W id="330" msd="PD" tag="PD" in="" out="">det</W>
+<W id="331" msd="AN" tag="AN" in="" out="">mest</W>
+<W id="332" msd="AN" tag="AN" in="" out="">afgørende</W>
+<W id="333" msd="U=" tag="U=" in="" out="">at</W>
+<W id="334" msd="VA" tag="VA" in="" out="">få</W>
+<W id="335" msd="VA" tag="VA" in="" out="">sat</W>
+<W id="336" msd="SP" tag="SP" in="" out="">i</W>
+<W id="337" msd="NC" tag="NC" in="" out="">værk</W>
+<W id="338" msd="XP" tag="XP" in="" out="">.</W>
 </s>
