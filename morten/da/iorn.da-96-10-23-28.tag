@@ -98,7 +98,7 @@
 <W id="97" msd="SP" tag="SP" in="" out="">for</W>
 <W id="98" msd="XP" tag="XP" in="" out="">,</W>
 <W id="99" msd="CS" tag="CS" in="" out="">at</W>
-<W id="100" msd="PP" tag="PP" in="2:assoc" out="">vi</W>
+<W id="100" msd="PP" tag="PP" in="2:assoc" out="31:coref">vi</W>
 <W id="101" msd="SP" tag="SP" in="" out="">i</W>
 <W id="102" msd="NP" tag="NP" in="" out="-2:assoc">Danmark</W>
 <W id="103" msd="VA" tag="VA" in="" out="">skal</W>
@@ -129,7 +129,7 @@
 <W id="128" msd="SP" tag="SP" in="" out="">for</W>
 <W id="129" msd="XP" tag="XP" in="" out="">,</W>
 <W id="130" msd="CS" tag="CS" in="" out="">at</W>
-<W id="131" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|10:coref">vi</W>
+<W id="131" msd="PP" tag="PP" in="-31:coref" out="10:coref">vi</W>
 <W id="132" msd="VA" tag="VA" in="" out="">skal</W>
 <W id="133" msd="VA" tag="VA" in="" out="">behandles</W>
 <W id="134" msd="SP" tag="SP" in="" out="">mod</W>
@@ -184,7 +184,7 @@
 <W id="183" msd="AN" tag="AN" in="" out="">ensartet</W>
 <W id="184" msd="NC" tag="NC" in="" out="">lovgivning</W>
 <W id="185" msd="XP" tag="XP" in="" out="">:</W>
-<W id="186" msd="VA" tag="VA" in="" out="13:coref-var">ønsket</W>
+<W id="186" msd="VA" tag="VA" in="" out="13:coref-res.prg">ønsket</W>
 <W id="187" msd="SP" tag="SP" in="" out="">om</W>
 <W id="188" msd="U=" tag="U=" in="" out="">at</W>
 <W id="189" msd="VA" tag="VA" in="" out="">skabe</W>
@@ -197,7 +197,7 @@
 <W id="196" msd="XP" tag="XP" in="" out="">.</W>
 <W id="197" msd="PP" tag="PP" in="" out="">Det</W>
 <W id="198" msd="VA" tag="VA" in="" out="">er</W>
-<W id="199" msd="PD" tag="PD" in="-13:coref-var" out="">denne</W>
+<W id="199" msd="PD" tag="PD" in="-13:coref-res.prg" out="">denne</W>
 <W id="200" msd="NC" tag="NC" in="" out="7:ref">tvangstanke</W>
 <W id="201" msd="SP" tag="SP" in="" out="">om</W>
 <W id="202" msd="NP" tag="NP" in="" out="">Europas</W>

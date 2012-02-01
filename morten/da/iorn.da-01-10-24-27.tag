@@ -7,7 +7,7 @@
 <W id="6" msd="VA" tag="VA" in="" out="">sige</W>
 <W id="7" msd="XP" tag="XP" in="" out="">,</W>
 <W id="8" msd="CS" tag="CS" in="" out="">at</W>
-<W id="9" msd="NC" tag="NC" in="" out="16:assoc-const|11:assoc-formal|24:coref|40:assoc-formal">topmødet</W>
+<W id="9" msd="NC" tag="NC" in="" out="11:assoc-formal|16:assoc-const|24:coref|40:assoc-formal">topmødet</W>
 <W id="10" msd="SP" tag="SP" in="" out="">i</W>
 <W id="11" msd="NP" tag="NP" in="" out="">Gent</W>
 <W id="12" msd="VA" tag="VA" in="" out="">var</W>
@@ -78,7 +78,7 @@
 <W id="77" msd="U=" tag="U=" in="-2:ref" out="">der</W>
 <W id="78" msd="AN" tag="AN" in="" out="">effektivt</W>
 <W id="79" msd="VA" tag="VA" in="" out="18:coref-res">hindrer</W>
-<W id="80" msd="PD" tag="PD" in="0:assoc-frame" out="0:assoc-frame|7:coref">de</W>
+<W id="80" msd="PD" tag="PD" in="0:assoc-frame" out="7:coref|0:assoc-frame">de</W>
 <W id="81" msd="AN" tag="AN" in="" out="">små</W>
 <W id="82" msd="NC" tag="NC" in="" out="">lande</W>
 <W id="83" msd="SP" tag="SP" in="" out="">i</W>
@@ -125,7 +125,7 @@
 <W id="124" msd="XX" tag="XX" in="" out="">total</W>
 <W id="125" msd="NC" tag="NC" in="" out="">accept</W>
 <W id="126" msd="SP" tag="SP" in="" out="">af</W>
-<W id="127" msd="NP" tag="NP" in="" out="">USA</W>
+<W id="127" msd="NP" tag="NP" in="" out="64:coref-iden">USA</W>
 <W id="128" msd="NC" tag="NC" in="" out="">'</W>
 <W id="129" msd="AN" tag="AN" in="" out="">s</W>
 <W id="130" msd="NC" tag="NC" in="" out="">dispositioner</W>
@@ -189,7 +189,7 @@
 <W id="188" msd="XP" tag="XP" in="" out="">.</W>
 <W id="189" msd="PP" tag="PP" in="-7:coref-res" out="">Det</W>
 <W id="190" msd="VA" tag="VA" in="" out="">burde</W>
-<W id="191" msd="NP" tag="NP" in="" out="">USA</W>
+<W id="191" msd="NP" tag="NP" in="-64:coref-iden" out="">USA</W>
 <W id="192" msd="AN" tag="AN" in="" out="">'</W>
 <W id="193" msd="NC" tag="NC" in="" out="">s</W>
 <W id="194" msd="VA" tag="VA" in="" out="">allierede</W>

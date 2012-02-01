@@ -144,7 +144,7 @@
 <W id="143" msd="NC" tag="NC" in="" out="2:ref|9:ref">krav</W>
 <W id="144" msd="XP" tag="XP" in="" out="">,</W>
 <W id="145" msd="U=" tag="U=" in="-2:ref" out="">som</W>
-<W id="146" msd="NP" tag="NP" in="" out="">EU</W>
+<W id="146" msd="NP" tag="NP" in="" out="70:coref-iden">EU</W>
 <W id="147" msd="RG" tag="RG" in="" out="">nu</W>
 <W id="148" msd="NC" tag="NC" in="" out="">barsler</W>
 <W id="149" msd="SP" tag="SP" in="" out="">med</W>
@@ -214,7 +214,7 @@
 <W id="213" msd="NC" tag="NC" in="" out="">drikkevandet</W>
 <W id="214" msd="XP" tag="XP" in="" out="">,</W>
 <W id="215" msd="CS" tag="CS" in="" out="">dengang</W>
-<W id="216" msd="NP" tag="NP" in="" out="">EU</W>
+<W id="216" msd="NP" tag="NP" in="-70:coref-iden" out="">EU</W>
 <W id="217" msd="VA" tag="VA" in="" out="">forhandlede</W>
 <W id="218" msd="SP" tag="SP" in="" out="">om</W>
 <W id="219" msd="NC" tag="NC" in="" out="">drikkevandsdirektivet</W>

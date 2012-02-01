@@ -19,7 +19,7 @@
 <W id="18" msd="NP" tag="NP" in="" out="">Cusí</W>
 <W id="19" msd="AN" tag="AN" in="" out="">velkommen</W>
 <W id="20" msd="XP" tag="XP" in="" out="">.</W>
-<W id="21" msd="PP" tag="PP" in="-7:coref" out="145:coref-var|69:coref-var">Det</W>
+<W id="21" msd="PP" tag="PP" in="-7:coref" out="69:coref-var|145:coref-var">Det</W>
 <W id="22" msd="VA" tag="VA" in="" out="">er</W>
 <W id="23" msd="PI" tag="PI" in="" out="">en</W>
 <W id="24" msd="AN" tag="AN" in="" out="">vigtig</W>
@@ -61,7 +61,7 @@
 <W id="60" msd="VA" tag="VA" in="" out="7:coref-res">er</W>
 <W id="61" msd="VA" tag="VA" in="" out="">gældende</W>
 <W id="62" msd="SP" tag="SP" in="" out="">i</W>
-<W id="63" msd="AN" tag="AN" in="0:assoc-frame" out="0:assoc-frame|153:coref-iden">alle</W>
+<W id="63" msd="AN" tag="AN" in="0:assoc-frame" out="153:coref-iden|0:assoc-frame">alle</W>
 <W id="64" msd="NC" tag="NC" in="" out="">medlemsstaterne</W>
 <W id="65" msd="XP" tag="XP" in="" out="">,</W>
 <W id="66" msd="CC" tag="CC" in="" out="">og</W>
@@ -256,7 +256,7 @@
 <W id="255" msd="AN" tag="AN" in="" out="">godt</W>
 <W id="256" msd="VA" tag="VA" in="" out="">modtaget</W>
 <W id="257" msd="SP" tag="SP" in="" out="">i</W>
-<W id="258" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|24:coref-iden">Rådet</W>
+<W id="258" msd="NC" tag="NC" in="0:assoc-frame" out="24:coref-iden|0:assoc-frame">Rådet</W>
 <W id="259" msd="SP" tag="SP" in="" out="">med</W>
 <W id="260" msd="NC" tag="NC" in="" out="">henblik</W>
 <W id="261" msd="SP" tag="SP" in="" out="">på</W>

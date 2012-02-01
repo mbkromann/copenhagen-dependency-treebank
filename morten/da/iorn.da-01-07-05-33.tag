@@ -33,7 +33,7 @@
 <W id="32" msd="VA" tag="VA" in="" out="">vil</W>
 <W id="33" msd="RG" tag="RG" in="" out="">gerne</W>
 <W id="34" msd="VA" tag="VA" in="" out="">rose</W>
-<W id="35" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|13:coref">ordføreren</W>
+<W id="35" msd="NC" tag="NC" in="0:assoc-frame" out="13:coref|0:assoc-frame">ordføreren</W>
 <W id="36" msd="SP" tag="SP" in="" out="">for</W>
 <W id="37" msd="U=" tag="U=" in="" out="">at</W>
 <W id="38" msd="VA" tag="VA" in="" out="">have</W>
@@ -66,7 +66,7 @@
 <W id="65" msd="VA" tag="VA" in="" out="">finder</W>
 <W id="66" msd="NC" tag="NC" in="" out="">sted</W>
 <W id="67" msd="SP" tag="SP" in="" out="">i</W>
-<W id="68" msd="NP" tag="NP" in="" out="">Afghanistan</W>
+<W id="68" msd="NP" tag="NP" in="" out="41:coref-iden">Afghanistan</W>
 <W id="69" msd="XP" tag="XP" in="" out="">.</W>
 <W id="70" msd="PP" tag="PP" in="-15:coref" out="105:coref">Jeg</W>
 <W id="71" msd="VA" tag="VA" in="" out="">er</W>
@@ -107,7 +107,7 @@
 <W id="106" msd="NC" tag="NC" in="" out="">million</W>
 <W id="107" msd="VA" tag="VA" in="" out="">fordrevne</W>
 <W id="108" msd="SP" tag="SP" in="" out="">i</W>
-<W id="109" msd="NP" tag="NP" in="" out="">Afghanistan</W>
+<W id="109" msd="NP" tag="NP" in="-41:coref-iden" out="99:coref-iden">Afghanistan</W>
 <W id="110" msd="XP" tag="XP" in="" out="">,</W>
 <W id="111" msd="CC" tag="CC" in="" out="">og</W>
 <W id="112" msd="RG" tag="RG" in="" out="">næsten</W>
@@ -137,7 +137,7 @@
 <W id="136" msd="RG" tag="RG" in="" out="">især</W>
 <W id="137" msd="NC" tag="NC" in="-15:assoc-const" out="">kvinderne</W>
 <W id="138" msd="XP" tag="XP" in="" out="">.</W>
-<W id="139" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|136:coref">Vi</W>
+<W id="139" msd="PP" tag="PP" in="0:assoc-frame" out="136:coref|0:assoc-frame">Vi</W>
 <W id="140" msd="VA" tag="VA" in="" out="">kender</W>
 <W id="141" msd="AN" tag="AN" in="" out="">alle</W>
 <W id="142" msd="PD" tag="PD" in="" out="">de</W>
@@ -173,7 +173,7 @@
 <W id="172" msd="U=" tag="U=" in="" out="">som</W>
 <W id="173" msd="PD" tag="PD" in="-146:coref" out="">dette</W>
 <W id="174" msd="XP" tag="XP" in="" out="">.</W>
-<W id="175" msd="PP" tag="PP" in="-105:coref" out="125:coref">Jeg</W>
+<W id="175" msd="PP" tag="PP" in="-105:coref" out="16:coref">Jeg</W>
 <W id="176" msd="VA" tag="VA" in="" out="">har</W>
 <W id="177" msd="VA" tag="VA" in="" out="">tilføjet</W>
 <W id="178" msd="XP" tag="XP" in="" out="">,</W>
@@ -189,11 +189,11 @@
 <W id="188" msd="SP" tag="SP" in="" out="">på</W>
 <W id="189" msd="NC" tag="NC" in="" out="">stedet</W>
 <W id="190" msd="XP" tag="XP" in="" out="">.</W>
-<W id="191" msd="PP" tag="PP" in="" out="">Jeg</W>
+<W id="191" msd="PP" tag="PP" in="-16:coref" out="109:coref">Jeg</W>
 <W id="192" msd="VA" tag="VA" in="" out="">har</W>
 <W id="193" msd="RG" tag="RG" in="" out="">også</W>
 <W id="194" msd="VA" tag="VA" in="" out="">bedt</W>
-<W id="195" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|109:coref-iden">Kommissionen</W>
+<W id="195" msd="NC" tag="NC" in="0:assoc-frame" out="109:coref-iden|0:assoc-frame">Kommissionen</W>
 <W id="196" msd="SP" tag="SP" in="" out="">om</W>
 <W id="197" msd="U=" tag="U=" in="" out="">at</W>
 <W id="198" msd="VA" tag="VA" in="" out="">svare</W>
@@ -206,7 +206,7 @@
 <W id="205" msd="NC" tag="NC" in="" out="">bistandspenge</W>
 <W id="206" msd="SP" tag="SP" in="" out="">til</W>
 <W id="207" msd="RG" tag="RG" in="" out="">bl.a.</W>
-<W id="208" msd="NP" tag="NP" in="" out="">Afghanistan</W>
+<W id="208" msd="NP" tag="NP" in="-99:coref-iden" out="">Afghanistan</W>
 <W id="209" msd="VA" tag="VA" in="" out="">er</W>
 <W id="210" msd="VA" tag="VA" in="" out="">blevet</W>
 <W id="211" msd="VA" tag="VA" in="" out="">kanaliseret</W>
@@ -298,7 +298,7 @@
 <W id="297" msd="NC" tag="NC" in="" out="">lyset</W>
 <W id="298" msd="XP" tag="XP" in="" out="">,</W>
 <W id="299" msd="CC" tag="CC" in="" out="">og</W>
-<W id="300" msd="PP" tag="PP" in="-125:coref" out="">jeg</W>
+<W id="300" msd="PP" tag="PP" in="-109:coref" out="">jeg</W>
 <W id="301" msd="VA" tag="VA" in="" out="">har</W>
 <W id="302" msd="RG" tag="RG" in="" out="">derfor</W>
 <W id="303" msd="VA" tag="VA" in="" out="">spurgt</W>

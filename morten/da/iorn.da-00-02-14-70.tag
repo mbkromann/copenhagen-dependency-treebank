@@ -54,7 +54,7 @@
 <W id="53" msd="VA" tag="VA" in="" out="">påpege</W>
 <W id="54" msd="XP" tag="XP" in="" out="">,</W>
 <W id="55" msd="CS" tag="CS" in="" out="">at</W>
-<W id="56" msd="PP" tag="PP" in="" out="59:coref">vi</W>
+<W id="56" msd="PP" tag="PP" in="0:assoc-frame" out="59:coref|0:assoc-frame">vi</W>
 <W id="57" msd="RG" tag="RG" in="" out="">ikke</W>
 <W id="58" msd="VA" tag="VA" in="" out="">har</W>
 <W id="59" msd="NC" tag="NC" in="" out="">ligestilling</W>
@@ -80,7 +80,7 @@
 <W id="79" msd="RG" tag="RG" in="" out="">ikke</W>
 <W id="80" msd="XP" tag="XP" in="" out="">,</W>
 <W id="81" msd="CS" tag="CS" in="" out="">at</W>
-<W id="82" msd="PD" tag="PD" in="" out="">begge</W>
+<W id="82" msd="PD" tag="PD" in="" out="10:assoc-telic.patient">begge</W>
 <W id="83" msd="NC" tag="NC" in="" out="">parter</W>
 <W id="84" msd="SP" tag="SP" in="" out="">i</W>
 <W id="85" msd="PI" tag="PI" in="" out="">et</W>
@@ -90,7 +90,7 @@
 <W id="89" msd="NC" tag="NC" in="" out="">tiden</W>
 <W id="90" msd="CC" tag="CC" in="" out="">og</W>
 <W id="91" msd="VA" tag="VA" in="" out="">overlader</W>
-<W id="92" msd="NC" tag="NC" in="" out="">børnene</W>
+<W id="92" msd="NC" tag="NC" in="-10:assoc-telic.patient" out="">børnene</W>
 <W id="93" msd="SP" tag="SP" in="" out="">til</W>
 <W id="94" msd="NC" tag="NC" in="" out="">nanny</W>
 <W id="95" msd="XP" tag="XP" in="" out="">,</W>
@@ -205,11 +205,11 @@
 <W id="204" msd="CS" tag="CS" in="" out="">hvis</W>
 <W id="205" msd="PP" tag="PP" in="-9:coref" out="11:coref">jeg</W>
 <W id="206" msd="RG" tag="RG" in="" out="">ikke</W>
-<W id="207" msd="VA" tag="VA" in="" out="">er</W>
+<W id="207" msd="VA" tag="VA" in="" out="30:coref-res">er</W>
 <W id="208" msd="RG" tag="RG" in="" out="">her</W>
 <W id="209" msd="XP" tag="XP" in="" out="">,</W>
 <W id="210" msd="CS" tag="CS" in="" out="">når</W>
-<W id="211" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|19:coref-iden">Kommissionen</W>
+<W id="211" msd="NC" tag="NC" in="0:assoc-frame" out="19:coref-iden|0:assoc-frame">Kommissionen</W>
 <W id="212" msd="VA" tag="VA" in="" out="">svarer</W>
 <W id="213" msd="XP" tag="XP" in="" out="">-</W>
 <W id="214" msd="RG" tag="RG" in="" out="">ikke</W>
@@ -235,7 +235,7 @@
 <W id="234" msd="XP" tag="XP" in="" out="">-</W>
 <W id="235" msd="RG" tag="RG" in="" out="">så</W>
 <W id="236" msd="VA" tag="VA" in="" out="">er</W>
-<W id="237" msd="PP" tag="PP" in="" out="">det</W>
+<W id="237" msd="PP" tag="PP" in="-30:coref-res" out="">det</W>
 <W id="238" msd="XP" tag="XP" in="" out="">,</W>
 <W id="239" msd="CS" tag="CS" in="" out="">fordi</W>
 <W id="240" msd="U=" tag="U=" in="" out="">der</W>

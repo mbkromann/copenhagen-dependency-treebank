@@ -20,7 +20,7 @@
 <W id="19" msd="RG" tag="RG" in="" out="">nemlig</W>
 <W id="20" msd="NC" tag="NC" in="" out="">spørgsmålet</W>
 <W id="21" msd="SP" tag="SP" in="" out="">om</W>
-<W id="22" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|119:coref-iden|208:coref-iden.sb">Kommissionens</W>
+<W id="22" msd="NC" tag="NC" in="0:assoc-frame" out="119:coref-iden|208:coref-iden.sb|0:assoc-frame">Kommissionens</W>
 <W id="23" msd="NC" tag="NC" in="" out="2:ref">reformer</W>
 <W id="24" msd="XP" tag="XP" in="" out="">,</W>
 <W id="25" msd="U=" tag="U=" in="-2:ref" out="">som</W>
@@ -61,7 +61,7 @@
 <W id="60" msd="XP" tag="XP" in="" out="">,</W>
 <W id="61" msd="CC" tag="CC" in="" out="">og</W>
 <W id="62" msd="CS" tag="CS" in="" out="">at</W>
-<W id="63" msd="NC" tag="NC" in="" out="">institutionerne</W>
+<W id="63" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame">institutionerne</W>
 <W id="64" msd="SP" tag="SP" in="" out="">for</W>
 <W id="65" msd="NC" tag="NC" in="" out="">fremtiden</W>
 <W id="66" msd="VA" tag="VA" in="" out="">burde</W>
@@ -71,7 +71,7 @@
 <W id="70" msd="XP" tag="XP" in="" out="">,</W>
 <W id="71" msd="RG" tag="RG" in="" out="">selv</W>
 <W id="72" msd="SP" tag="SP" in="" out="">om</W>
-<W id="73" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|35:coref">vi</W>
+<W id="73" msd="PP" tag="PP" in="0:assoc-frame" out="35:coref|0:assoc-frame">vi</W>
 <W id="74" msd="SP" tag="SP" in="" out="">i</W>
 <W id="75" msd="PD" tag="PD" in="" out="">denne</W>
 <W id="76" msd="NC" tag="NC" in="" out="">budgetproces</W>
@@ -88,7 +88,7 @@
 <W id="87" msd="AN" tag="AN" in="" out="">dygtigt</W>
 <W id="88" msd="VA" tag="VA" in="" out="">styret</W>
 <W id="89" msd="SP" tag="SP" in="" out="">fra</W>
-<W id="90" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|30:coref-iden">Parlamentets</W>
+<W id="90" msd="NC" tag="NC" in="0:assoc-frame" out="30:coref-iden|0:assoc-frame">Parlamentets</W>
 <W id="91" msd="NC" tag="NC" in="" out="">side</W>
 <W id="92" msd="SP" tag="SP" in="" out="">af</W>
 <W id="93" msd="NC" tag="NC" in="" out="">hr.</W>

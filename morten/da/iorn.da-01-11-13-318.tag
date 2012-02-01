@@ -12,7 +12,7 @@
 <W id="11" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame">hvidbogen</W>
 <W id="12" msd="AN" tag="AN" in="" out="">velkommen</W>
 <W id="13" msd="XP" tag="XP" in="" out="">.</W>
-<W id="14" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|130:coref">Vi</W>
+<W id="14" msd="PP" tag="PP" in="0:assoc-frame" out="130:coref|0:assoc-frame">Vi</W>
 <W id="15" msd="VA" tag="VA" in="" out="">har</W>
 <W id="16" msd="SP" tag="SP" in="" out="">i</W>
 <W id="17" msd="NC" tag="NC" in="" out="">realiteten</W>
@@ -103,12 +103,12 @@
 <W id="102" msd="AN" tag="AN" in="" out="">væsentlige</W>
 <W id="103" msd="NC" tag="NC" in="" out="">opstramninger</W>
 <W id="104" msd="SP" tag="SP" in="" out="">af</W>
-<W id="105" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|105:coref-iden">Kommissionens</W>
+<W id="105" msd="NC" tag="NC" in="0:assoc-frame" out="105:coref-iden|0:assoc-frame">Kommissionens</W>
 <W id="106" msd="NC" tag="NC" in="" out="">udspil</W>
 <W id="107" msd="XP" tag="XP" in="" out="">,</W>
-<W id="108" msd="NC" tag="NC" in="" out="">opstramninger</W>
+<W id="108" msd="NC" tag="NC" in="" out="2:ref">opstramninger</W>
 <W id="109" msd="XP" tag="XP" in="" out="">,</W>
-<W id="110" msd="U=" tag="U=" in="" out="">som</W>
+<W id="110" msd="U=" tag="U=" in="-2:ref" out="">som</W>
 <W id="111" msd="SP" tag="SP" in="" out="">efter</W>
 <W id="112" msd="PO" tag="PO" in="-26:coref" out="54:coref">min</W>
 <W id="113" msd="NC" tag="NC" in="" out="">mening</W>
@@ -136,7 +136,7 @@
 <W id="135" msd="VA" tag="VA" in="" out="">gældende</W>
 <W id="136" msd="RG" tag="RG" in="" out="">her</W>
 <W id="137" msd="SP" tag="SP" in="" out="">i</W>
-<W id="138" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|40:coref-iden">Parlamentet</W>
+<W id="138" msd="NC" tag="NC" in="0:assoc-frame" out="40:coref-iden|0:assoc-frame">Parlamentet</W>
 <W id="139" msd="XP" tag="XP" in="" out="">,</W>
 <W id="140" msd="CC" tag="CC" in="" out="">og</W>
 <W id="141" msd="PD" tag="PD" in="" out="18:coref">det</W>

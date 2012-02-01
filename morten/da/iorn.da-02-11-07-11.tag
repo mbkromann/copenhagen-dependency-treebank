@@ -39,7 +39,7 @@
 <W id="38" msd="PT" tag="PT" in="" out="">hvad</W>
 <W id="39" msd="NC" tag="NC" in="" out="6:coref">formanden</W>
 <W id="40" msd="SP" tag="SP" in="" out="">for</W>
-<W id="41" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|14:coref-iden">Rådet</W>
+<W id="41" msd="NC" tag="NC" in="0:assoc-frame" out="14:coref-iden|0:assoc-frame">Rådet</W>
 <W id="42" msd="RG" tag="RG" in="" out="">ikke</W>
 <W id="43" msd="VA" tag="VA" in="" out="">havde</W>
 <W id="44" msd="SP" tag="SP" in="" out="">i</W>
@@ -48,7 +48,7 @@
 <W id="47" msd="XP" tag="XP" in="" out="">.</W>
 </s>
 <s>
-<W id="50" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|59:coref">Vi</W>
+<W id="50" msd="PP" tag="PP" in="0:assoc-frame" out="59:coref|0:assoc-frame">Vi</W>
 <W id="51" msd="VA" tag="VA" in="" out="">bør</W>
 <W id="52" msd="VA" tag="VA" in="" out="">skubbe</W>
 <W id="53" msd="AN" tag="AN" in="" out="">kraftigt</W>
@@ -69,9 +69,9 @@
 <W id="68" msd="NC" tag="NC" in="" out="">patent</W>
 <W id="69" msd="XP" tag="XP" in="" out="">.</W>
 <W id="70" msd="PD" tag="PD" in="" out="">Det</W>
-<W id="71" msd="NC" tag="NC" in="" out="">problem</W>
+<W id="71" msd="NC" tag="NC" in="" out="2:ref">problem</W>
 <W id="72" msd="XP" tag="XP" in="" out="">,</W>
-<W id="73" msd="U=" tag="U=" in="" out="">som</W>
+<W id="73" msd="U=" tag="U=" in="-2:ref" out="">som</W>
 <W id="74" msd="PP" tag="PP" in="" out="">vi</W>
 <W id="75" msd="VA" tag="VA" in="" out="">forstår</W>
 <W id="76" msd="XP" tag="XP" in="" out="">,</W>

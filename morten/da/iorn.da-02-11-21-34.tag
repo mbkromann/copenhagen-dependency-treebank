@@ -12,7 +12,7 @@
 <W id="11" msd="CS" tag="CS" in="" out="">om</W>
 <W id="12" msd="NC" tag="NC" in="" out="46:coref-iden.sb">betænkningen</W>
 <W id="13" msd="VA" tag="VA" in="" out="">vedrørende</W>
-<W id="14" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|58:coref-iden">resultattavlen</W>
+<W id="14" msd="NC" tag="NC" in="0:assoc-frame" out="58:coref-iden|0:assoc-frame">resultattavlen</W>
 <W id="15" msd="VA" tag="VA" in="" out="">vil</W>
 <W id="16" msd="PP" tag="PP" in="" out="85:coref">jeg</W>
 <W id="17" msd="SP" tag="SP" in="" out="">på</W>
@@ -32,7 +32,7 @@
 <W id="31" msd="SP" tag="SP" in="" out="">af</W>
 <W id="32" msd="NC" tag="NC" in="" out="">afstemningen</W>
 <W id="33" msd="SP" tag="SP" in="" out="">i</W>
-<W id="34" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|78:coref-iden">udvalget</W>
+<W id="34" msd="NC" tag="NC" in="0:assoc-frame" out="78:coref-iden|0:assoc-frame">udvalget</W>
 <W id="35" msd="CC" tag="CC" in="" out="">og</W>
 <W id="36" msd="VA" tag="VA" in="" out="">har</W>
 <W id="37" msd="RG" tag="RG" in="" out="">derfor</W>
@@ -62,7 +62,7 @@
 <W id="61" msd="AN" tag="AN" in="" out="">øvrigt</W>
 <W id="62" msd="VA" tag="VA" in="" out="">takker</W>
 <W id="63" msd="PP" tag="PP" in="" out="">jeg</W>
-<W id="64" msd="NC" tag="NC" in="" out="31:coref-iden">Kommissionen</W>
+<W id="64" msd="NC" tag="NC" in="0:assoc-frame" out="31:coref-iden|0:assoc-frame">Kommissionen</W>
 <W id="65" msd="SP" tag="SP" in="" out="">for</W>
 <W id="66" msd="PD" tag="PD" in="" out="">det</W>
 <W id="67" msd="NC" tag="NC" in="" out="2:ref">arbejde</W>

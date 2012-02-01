@@ -130,7 +130,7 @@
 <W id="129" msd="NC" tag="NC" in="" out="">tid</W>
 <W id="130" msd="XP" tag="XP" in="" out="">,</W>
 <W id="131" msd="CS" tag="CS" in="" out="">at</W>
-<W id="132" msd="PD" tag="PD" in="" out="">Den</W>
+<W id="132" msd="PD" tag="PD" in="" out="18:assoc-const">Den</W>
 <W id="133" msd="AN" tag="AN" in="" out="">Europæiske</W>
 <W id="134" msd="NC" tag="NC" in="" out="">Union</W>
 <W id="135" msd="VA" tag="VA" in="" out="">gennemfører</W>
@@ -148,7 +148,7 @@
 <W id="147" msd="AN" tag="AN" in="" out="">særligt</W>
 <W id="148" msd="NC" tag="NC" in="" out="">hensyn</W>
 <W id="149" msd="SP" tag="SP" in="" out="">til</W>
-<W id="150" msd="PD" tag="PD" in="" out="">de</W>
+<W id="150" msd="PD" tag="PD" in="-18:assoc-const" out="">de</W>
 <W id="151" msd="AN" tag="AN" in="" out="">enkelte</W>
 <W id="152" msd="NC" tag="NC" in="" out="">EU-landes</W>
 <W id="153" msd="AN" tag="AN" in="" out="">særlige</W>

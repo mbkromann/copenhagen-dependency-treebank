@@ -5,7 +5,7 @@
 <W id="4" msd="NC" tag="NC" in="" out="7:ref|30:coref-iden.sb">ændringen</W>
 <W id="5" msd="SP" tag="SP" in="" out="">af</W>
 <W id="6" msd="RG" tag="RG" in="" out="">såvel</W>
-<W id="7" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|292:coref-iden">badevandsdirektivet</W>
+<W id="7" msd="NC" tag="NC" in="0:assoc-frame" out="292:coref-iden|0:assoc-frame">badevandsdirektivet</W>
 <W id="8" msd="U=" tag="U=" in="" out="">som</W>
 <W id="9" msd="NC" tag="NC" in="0:assoc-frame" out="130:coref-iden|0:assoc-frame">drikkevandsdirektivet</W>
 <W id="10" msd="XP" tag="XP" in="" out="">,</W>

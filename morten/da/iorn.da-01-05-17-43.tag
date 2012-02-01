@@ -134,13 +134,13 @@
 <W id="133" msd="VA" tag="VA" in="" out="">er</W>
 <W id="134" msd="PP" tag="PP" in="" out="">det</W>
 <W id="135" msd="RG" tag="RG" in="" out="">alene</W>
-<W id="136" msd="NC" tag="NC" in="" out="">vælgerne</W>
+<W id="136" msd="NC" tag="NC" in="" out="2:ref">vælgerne</W>
 <W id="137" msd="XP" tag="XP" in="" out="">,</W>
-<W id="138" msd="U=" tag="U=" in="" out="">som</W>
+<W id="138" msd="U=" tag="U=" in="-2:ref" out="">som</W>
 <W id="139" msd="VA" tag="VA" in="" out="">afgør</W>
 <W id="140" msd="NC" tag="NC" in="" out="">repræsentationen</W>
 <W id="141" msd="SP" tag="SP" in="" out="">i</W>
-<W id="142" msd="NC" tag="NC" in="-11:assoc-const" out="5:assoc-const">Parlamentet</W>
+<W id="142" msd="NC" tag="NC" in="-11:assoc-const" out="5:assoc-const|33:coref-iden">Parlamentet</W>
 <W id="143" msd="XP" tag="XP" in="" out="">,</W>
 <W id="144" msd="CC" tag="CC" in="" out="">og</W>
 <W id="145" msd="NC" tag="NC" in="" out="">konkurrencen</W>
@@ -173,7 +173,7 @@
 <W id="172" msd="RG" tag="RG" in="" out="">ikke</W>
 <W id="173" msd="NC" tag="NC" in="" out="">flertallet</W>
 <W id="174" msd="SP" tag="SP" in="" out="">i</W>
-<W id="175" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|43:coref-iden">Parlamentet</W>
+<W id="175" msd="NC" tag="NC" in="-33:coref-iden" out="43:coref-iden">Parlamentet</W>
 <W id="176" msd="U=" tag="U=" in="" out="">at</W>
 <W id="177" msd="VA" tag="VA" in="" out="">korrigere</W>
 <W id="178" msd="NC" tag="NC" in="" out="">valgresultaterne</W>
@@ -216,7 +216,7 @@
 <W id="215" msd="AN" tag="AN" in="" out="">ufatteligt</W>
 <W id="216" msd="XP" tag="XP" in="" out="">,</W>
 <W id="217" msd="CS" tag="CS" in="" out="">at</W>
-<W id="218" msd="NC" tag="NC" in="-43:coref-iden" out="29:coref-iden|22:assoc-const">Parlamentet</W>
+<W id="218" msd="NC" tag="NC" in="-43:coref-iden" out="22:assoc-const|29:coref-iden">Parlamentet</W>
 <W id="219" msd="SP" tag="SP" in="" out="">i</W>
 <W id="220" msd="NC" tag="NC" in="" out="">dag</W>
 <W id="221" msd="VA" tag="VA" in="" out="">vil</W>

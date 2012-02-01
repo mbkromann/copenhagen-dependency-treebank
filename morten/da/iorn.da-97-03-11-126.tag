@@ -19,7 +19,7 @@
 <W id="18" msd="PD" tag="PD" in="" out="">den</W>
 <W id="19" msd="NC" tag="NC" in="" out="1:ref">situation</W>
 <W id="20" msd="XP" tag="XP" in="-1:ref" out="">,</W>
-<W id="21" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|17:coref">vi</W>
+<W id="21" msd="PP" tag="PP" in="0:assoc-frame" out="17:coref|0:assoc-frame">vi</W>
 <W id="22" msd="VA" tag="VA" in="" out="">er</W>
 <W id="23" msd="RG" tag="RG" in="" out="">i</W>
 <W id="24" msd="SP" tag="SP" in="" out="">i</W>
@@ -263,8 +263,8 @@
 <W id="262" msd="VA" tag="VA" in="" out="">går</W>
 <W id="263" msd="SP" tag="SP" in="" out="">imod</W>
 <W id="264" msd="PD" tag="PD" in="" out="">den</W>
-<W id="265" msd="NC" tag="NC" in="" out="">politik</W>
-<W id="266" msd="XP" tag="XP" in="" out="">,</W>
+<W id="265" msd="NC" tag="NC" in="" out="1:ref">politik</W>
+<W id="266" msd="XP" tag="XP" in="-1:ref" out="">,</W>
 <W id="267" msd="PP" tag="PP" in="-12:coref" out="39:coref">vi</W>
 <W id="268" msd="RG" tag="RG" in="" out="">egentlig</W>
 <W id="269" msd="VA" tag="VA" in="" out="">ønsker</W>

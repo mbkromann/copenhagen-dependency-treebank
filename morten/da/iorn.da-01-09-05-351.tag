@@ -108,9 +108,9 @@
 <W id="107" msd="VA" tag="VA" in="" out="">har</W>
 <W id="108" msd="VA" tag="VA" in="" out="">fået</W>
 <W id="109" msd="PI" tag="PI" in="" out="">en</W>
-<W id="110" msd="NC" tag="NC" in="" out="">placering</W>
+<W id="110" msd="NC" tag="NC" in="" out="2:ref">placering</W>
 <W id="111" msd="XP" tag="XP" in="" out="">,</W>
-<W id="112" msd="U=" tag="U=" in="" out="">som</W>
+<W id="112" msd="U=" tag="U=" in="-2:ref" out="">som</W>
 <W id="113" msd="RG" tag="RG" in="" out="">nu</W>
 <W id="114" msd="VA" tag="VA" in="" out="">er</W>
 <W id="115" msd="AN" tag="AN" in="" out="">velkendt</W>
@@ -158,7 +158,7 @@
 <W id="157" msd="VA" tag="VA" in="" out="">er</W>
 <W id="158" msd="AN" tag="AN" in="" out="">nødvendigt</W>
 <W id="159" msd="SP" tag="SP" in="" out="">for</W>
-<W id="160" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|10:coref-iden">Kommissionen</W>
+<W id="160" msd="NC" tag="NC" in="0:assoc-frame" out="10:coref-iden|0:assoc-frame">Kommissionen</W>
 <W id="161" msd="U=" tag="U=" in="" out="">at</W>
 <W id="162" msd="VA" tag="VA" in="" out="">få</W>
 <W id="163" msd="NC" tag="NC" in="" out="">adgang</W>

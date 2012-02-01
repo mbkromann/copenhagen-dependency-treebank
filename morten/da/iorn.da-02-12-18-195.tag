@@ -134,7 +134,7 @@
 <W id="133" msd="PD" tag="PD" in="" out="176:coref-iden.sb">Det</W>
 <W id="134" msd="AN" tag="AN" in="" out="">Europæiske</W>
 <W id="135" msd="NC" tag="NC" in="" out="">Råd</W>
-<W id="136" msd="NC" tag="NC" in="" out="">Kommissionen</W>
+<W id="136" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame">Kommissionen</W>
 <W id="137" msd="SP" tag="SP" in="" out="">til</W>
 <W id="138" msd="SP" tag="SP" in="" out="">i</W>
 <W id="139" msd="NC" tag="NC" in="" out="">samarbejde</W>
@@ -168,7 +168,7 @@
 <W id="167" msd="SP" tag="SP" in="" out="">I</W>
 <W id="168" msd="NC" tag="NC" in="" out="">tilknytning</W>
 <W id="169" msd="SP" tag="SP" in="" out="">til</W>
-<W id="170" msd="NC" tag="NC" in="" out="8:assoc-const|5:assoc-agent|90:coref-iden">rådsmødet</W>
+<W id="170" msd="NC" tag="NC" in="" out="5:assoc-agent|8:assoc-const|90:coref-iden">rådsmødet</W>
 <W id="171" msd="PD" tag="PD" in="" out="">den</W>
 <W id="172" msd="AO" tag="AO" in="" out="">19.</W>
 <W id="173" msd="NC" tag="NC" in="" out="">november</W>

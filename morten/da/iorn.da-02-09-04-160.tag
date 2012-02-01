@@ -21,9 +21,9 @@
 <W id="20" msd="SP" tag="SP" in="" out="">med</W>
 <W id="21" msd="NC" tag="NC" in="" out="">udenrigsministrene</W>
 <W id="22" msd="XP" tag="XP" in="" out="">.</W>
-<W id="23" msd="NC" tag="NC" in="-12:coref-iden.sb" out="24:coref-iden">Rådet</W>
+<W id="23" msd="NC" tag="NC" in="-12:coref-iden.sb" out="24:coref-iden|2:coref">Rådet</W>
 <W id="24" msd="VA" tag="VA" in="" out="">udtrykte</W>
-<W id="25" msd="PO" tag="PO" in="" out="">sin</W>
+<W id="25" msd="PO" tag="PO" in="-2:coref" out="">sin</W>
 <W id="26" msd="NC" tag="NC" in="" out="">bekymring</W>
 <W id="27" msd="SP" tag="SP" in="" out="">over</W>
 <W id="28" msd="NC" tag="NC" in="" out="">situationen</W>

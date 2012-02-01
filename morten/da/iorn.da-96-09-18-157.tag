@@ -3,7 +3,7 @@
 <W id="2" msd="NC" tag="NC" in="" out="">formand</W>
 <W id="3" msd="XP" tag="XP" in="" out="">,</W>
 <W id="4" msd="CS" tag="CS" in="" out="">da</W>
-<W id="5" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|40:coref">vi</W>
+<W id="5" msd="PP" tag="PP" in="0:assoc-frame" out="40:coref|0:assoc-frame">vi</W>
 <W id="6" msd="SP" tag="SP" in="" out="">ved</W>
 <W id="7" msd="NC" tag="NC" in="" out="">årsskiftet</W>
 <W id="8" msd="VA" tag="VA" in="" out="">stemte</W>
@@ -89,9 +89,9 @@
 <W id="88" msd="VA" tag="VA" in="" out="">er</W>
 <W id="89" msd="U=" tag="U=" in="" out="">der</W>
 <W id="90" msd="VA" tag="VA" in="" out="">sket</W>
-<W id="91" msd="NC" tag="NC" in="" out="">tilbageskridt</W>
+<W id="91" msd="NC" tag="NC" in="" out="2:ref">tilbageskridt</W>
 <W id="92" msd="XP" tag="XP" in="" out="">,</W>
-<W id="93" msd="U=" tag="U=" in="" out="">som</W>
+<W id="93" msd="U=" tag="U=" in="-2:ref" out="">som</W>
 <W id="94" msd="PP" tag="PP" in="-35:coref" out="125:coref">vi</W>
 <W id="95" msd="RG" tag="RG" in="" out="">ikke</W>
 <W id="96" msd="VA" tag="VA" in="" out="">kan</W>
@@ -171,8 +171,8 @@
 <W id="170" msd="VA" tag="VA" in="" out="40:coref-res">blev</W>
 <W id="171" msd="NC" tag="NC" in="" out="">fængslet</W>
 <W id="172" msd="SP" tag="SP" in="" out="">for</W>
-<W id="173" msd="PI" tag="PI" in="" out="7:ref|14:ref">noget</W>
-<W id="174" msd="XP" tag="XP" in="" out="">,</W>
+<W id="173" msd="PI" tag="PI" in="" out="7:ref|14:ref|1:ref">noget</W>
+<W id="174" msd="XP" tag="XP" in="-1:ref" out="">,</W>
 <W id="175" msd="PP" tag="PP" in="-15:coref" out="">han</W>
 <W id="176" msd="VA" tag="VA" in="" out="">gjorde</W>
 <W id="177" msd="SP" tag="SP" in="" out="">i</W>

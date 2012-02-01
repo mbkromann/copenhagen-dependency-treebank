@@ -18,7 +18,7 @@
 <W id="17" msd="SP" tag="SP" in="" out="">af</W>
 <W id="18" msd="U=" tag="U=" in="" out="">at</W>
 <W id="19" msd="VA" tag="VA" in="" out="">få</W>
-<W id="20" msd="NP" tag="NP" in="" out="">EU</W>
+<W id="20" msd="NP" tag="NP" in="" out="66:coref-iden">EU</W>
 <W id="21" msd="XF" tag="XF" in="" out="">'</W>
 <W id="22" msd="XF" tag="XF" in="" out="">s</W>
 <W id="23" msd="NC" tag="NC" in="" out="">institutioner</W>
@@ -48,7 +48,7 @@
 <W id="47" msd="NC" tag="NC" in="" out="">særdeleshed</W>
 <W id="48" msd="RG" tag="RG" in="" out="">over</W>
 <W id="49" msd="SP" tag="SP" in="" out="">for</W>
-<W id="50" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|2:ref|56:coref-iden">Kommissionen</W>
+<W id="50" msd="NC" tag="NC" in="0:assoc-frame" out="2:ref|56:coref-iden|0:assoc-frame">Kommissionen</W>
 <W id="51" msd="XP" tag="XP" in="" out="">,</W>
 <W id="52" msd="U=" tag="U=" in="-2:ref" out="">som</W>
 <W id="53" msd="RG" tag="RG" in="" out="">ikke</W>
@@ -67,7 +67,7 @@
 <W id="66" msd="VA" tag="VA" in="" out="">opretholde</W>
 <W id="67" msd="NC" tag="NC" in="" out="">optimismen</W>
 <W id="68" msd="XP" tag="XP" in="" out="">.</W>
-<W id="69" msd="PP" tag="PP" in="" out="">Jeg</W>
+<W id="69" msd="PP" tag="PP" in="" out="152:coref">Jeg</W>
 <W id="70" msd="VA" tag="VA" in="" out="">vil</W>
 <W id="71" msd="RG" tag="RG" in="" out="">ikke</W>
 <W id="72" msd="VA" tag="VA" in="" out="">antyde</W>
@@ -84,7 +84,7 @@
 <W id="83" msd="NC" tag="NC" in="" out="">omstændighed</W>
 <W id="84" msd="XP" tag="XP" in="" out="">,</W>
 <W id="85" msd="CS" tag="CS" in="" out="">at</W>
-<W id="86" msd="NP" tag="NP" in="" out="42:coref-iden">EU</W>
+<W id="86" msd="NP" tag="NP" in="-66:coref-iden" out="42:coref-iden.sb|52:coref-iden">EU</W>
 <W id="87" msd="NP" tag="NP" in="" out="">'</W>
 <W id="88" msd="NC" tag="NC" in="" out="">s</W>
 <W id="89" msd="AN" tag="AN" in="" out="">kompetente</W>
@@ -126,7 +126,7 @@
 <W id="125" msd="AN" tag="AN" in="" out="">aktiv</W>
 <W id="126" msd="NC" tag="NC" in="" out="">modarbejdelse</W>
 <W id="127" msd="SP" tag="SP" in="" out="">af</W>
-<W id="128" msd="NC" tag="NC" in="-42:coref-iden" out="79:coref-iden">ombudsmandens</W>
+<W id="128" msd="NC" tag="NC" in="-42:coref-iden.sb" out="79:coref-iden">ombudsmandens</W>
 <W id="129" msd="NC" tag="NC" in="" out="">bestræbelser</W>
 <W id="130" msd="SP" tag="SP" in="" out="">på</W>
 <W id="131" msd="U=" tag="U=" in="" out="">at</W>
@@ -136,7 +136,7 @@
 <W id="135" msd="NC" tag="NC" in="" out="">landes</W>
 <W id="136" msd="NC" tag="NC" in="" out="">forvaltningskultur</W>
 <W id="137" msd="SP" tag="SP" in="" out="">i</W>
-<W id="138" msd="NP" tag="NP" in="" out="">EU</W>
+<W id="138" msd="NP" tag="NP" in="-52:coref-iden" out="25:coref-iden">EU</W>
 <W id="139" msd="NC" tag="NC" in="" out="">'</W>
 <W id="140" msd="AN" tag="AN" in="" out="">s</W>
 <W id="141" msd="NC" tag="NC" in="" out="">institutioner</W>
@@ -161,7 +161,7 @@
 <W id="160" msd="VA" tag="VA" in="" out="">sprede</W>
 <W id="161" msd="NC" tag="NC" in="" out="">propaganda</W>
 <W id="162" msd="SP" tag="SP" in="" out="">for</W>
-<W id="163" msd="NP" tag="NP" in="" out="">EU</W>
+<W id="163" msd="NP" tag="NP" in="-25:coref-iden" out="">EU</W>
 <W id="164" msd="NC" tag="NC" in="" out="">hånd</W>
 <W id="165" msd="SP" tag="SP" in="" out="">i</W>
 <W id="166" msd="NC" tag="NC" in="" out="">hånd</W>
@@ -219,7 +219,7 @@
 <W id="218" msd="SP" tag="SP" in="" out="">af</W>
 <W id="219" msd="NC" tag="NC" in="-17:coref-iden" out="12:coref-iden">Kommissionen</W>
 <W id="220" msd="XP" tag="XP" in="" out="">.</W>
-<W id="221" msd="PP" tag="PP" in="" out="">Jeg</W>
+<W id="221" msd="PP" tag="PP" in="-152:coref" out="">Jeg</W>
 <W id="222" msd="VA" tag="VA" in="" out="">tillader</W>
 <W id="223" msd="PP" tag="PP" in="" out="">mig</W>
 <W id="224" msd="U=" tag="U=" in="" out="">at</W>
@@ -300,7 +300,7 @@
 <W id="299" msd="SP" tag="SP" in="" out="">på</W>
 <W id="300" msd="NC" tag="NC" in="" out="">vejen</W>
 <W id="301" msd="XP" tag="XP" in="" out="">.</W>
-<W id="302" msd="VA" tag="VA" in="" out="">Er</W>
+<W id="302" msd="VA" tag="VA" in="" out="21:assoc-other">Er</W>
 <W id="303" msd="PD" tag="PD" in="" out="">det</W>
 <W id="304" msd="AN" tag="AN" in="" out="">magtfuldkomne</W>
 <W id="305" msd="NC" tag="NC" in="" out="">EU-system</W>
@@ -321,7 +321,7 @@
 <W id="320" msd="SP" tag="SP" in="" out="">om</W>
 <W id="321" msd="XP" tag="XP" in="" out="">,</W>
 <W id="322" msd="CS" tag="CS" in="" out="">at</W>
-<W id="323" msd="NC" tag="NC" in="" out="">svaret</W>
+<W id="323" msd="NC" tag="NC" in="-21:assoc-other" out="">svaret</W>
 <W id="324" msd="VA" tag="VA" in="" out="">kunne</W>
 <W id="325" msd="VA" tag="VA" in="" out="">være</W>
 <W id="326" msd="NC" tag="NC" in="" out="">ja</W>

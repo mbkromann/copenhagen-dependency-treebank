@@ -56,7 +56,7 @@
 <W id="55" msd="SP" tag="SP" in="" out="">i</W>
 <W id="56" msd="NC" tag="NC" in="" out="">resten</W>
 <W id="57" msd="SP" tag="SP" in="" out="">af</W>
-<W id="58" msd="NP" tag="NP" in="" out="">EU</W>
+<W id="58" msd="NP" tag="NP" in="" out="124:coref-iden">EU</W>
 <W id="59" msd="XP" tag="XP" in="" out="">.</W>
 </s>
 <s>
@@ -180,7 +180,7 @@
 <W id="179" msd="AN" tag="AN" in="" out="">øvrige</W>
 <W id="180" msd="NP" tag="NP" in="" out="">EU</W>
 <W id="181" msd="XP" tag="XP" in="" out="">.</W>
-<W id="182" msd="NP" tag="NP" in="" out="19:coref-iden">EU</W>
+<W id="182" msd="NP" tag="NP" in="-124:coref-iden" out="19:coref-iden">EU</W>
 <W id="183" msd="VA" tag="VA" in="" out="">er</W>
 <W id="184" msd="RG" tag="RG" in="" out="">nu</W>
 <W id="185" msd="SP" tag="SP" in="" out="">i</W>

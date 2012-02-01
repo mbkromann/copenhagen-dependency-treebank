@@ -6,7 +6,7 @@
 <W id="5" msd="NC" tag="NC" in="" out="">år</W>
 <W id="6" msd="RG" tag="RG" in="" out="">siden</W>
 <W id="7" msd="XP" tag="XP" in="" out="">,</W>
-<W id="8" msd="NC" tag="NC" in="0:assoc-frame" out="26:coref-iden|0:assoc-frame|4:assoc-agentive.inst">Parlamentet</W>
+<W id="8" msd="NC" tag="NC" in="0:assoc-frame" out="4:assoc-agentive.inst|26:coref-iden|0:assoc-frame">Parlamentet</W>
 <W id="9" msd="VA" tag="VA" in="" out="">påbegyndte</W>
 <W id="10" msd="NC" tag="NC" in="" out="">forhandlingerne</W>
 <W id="11" msd="SP" tag="SP" in="" out="">om</W>
@@ -82,7 +82,7 @@
 <W id="81" msd="AN" tag="AN" in="" out="">egne</W>
 <W id="82" msd="NC" tag="NC" in="" out="">forhold</W>
 <W id="83" msd="VA" tag="VA" in="" out="">finder</W>
-<W id="84" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|130:coref">vi</W>
+<W id="84" msd="PP" tag="PP" in="0:assoc-frame" out="130:coref|0:assoc-frame">vi</W>
 <W id="85" msd="RG" tag="RG" in="" out="">nemlig</W>
 <W id="86" msd="PI" tag="PI" in="" out="5:coref-iden">en</W>
 <W id="87" msd="PI" tag="PI" in="" out="">anden</W>
@@ -275,7 +275,7 @@
 <W id="274" msd="PP" tag="PP" in="-110:coref" out="">jeg</W>
 <W id="275" msd="XP" tag="XP" in="" out="">,</W>
 <W id="276" msd="CS" tag="CS" in="" out="">at</W>
-<W id="277" msd="NC" tag="NC" in="" out="">spørgsmålet</W>
+<W id="277" msd="NC" tag="NC" in="" out="14:coref">spørgsmålet</W>
 <W id="278" msd="SP" tag="SP" in="" out="">om</W>
 <W id="279" msd="AN" tag="AN" in="" out="">national</W>
 <W id="280" msd="NC" tag="NC" in="" out="">beskatning</W>
@@ -289,7 +289,7 @@
 <W id="288" msd="AN" tag="AN" in="" out="">endelige</W>
 <W id="289" msd="NC" tag="NC" in="" out="">udkast</W>
 <W id="290" msd="XP" tag="XP" in="" out="">.</W>
-<W id="291" msd="PP" tag="PP" in="" out="">Det</W>
+<W id="291" msd="PP" tag="PP" in="-14:coref" out="">Det</W>
 <W id="292" msd="VA" tag="VA" in="" out="">er</W>
 <W id="293" msd="XP" tag="XP" in="" out="">-</W>
 <W id="294" msd="SP" tag="SP" in="" out="">i</W>

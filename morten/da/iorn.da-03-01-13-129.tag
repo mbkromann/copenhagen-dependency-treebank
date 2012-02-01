@@ -4,7 +4,7 @@
 <W id="3" msd="NC" tag="NC" in="" out="">tema</W>
 <W id="4" msd="VA" tag="VA" in="" out="">er</W>
 <W id="5" msd="SP" tag="SP" in="" out="">med</W>
-<W id="6" msd="NC" tag="NC" in="" out="34:coref-iden">Kommissionens</W>
+<W id="6" msd="NC" tag="NC" in="0:assoc-frame" out="34:coref-iden|0:assoc-frame">Kommissionens</W>
 <W id="7" msd="AN" tag="AN" in="" out="">egne</W>
 <W id="8" msd="NC" tag="NC" in="" out="">ord</W>
 <W id="9" msd="VA" tag="VA" in="" out="">integreret</W>
@@ -19,7 +19,7 @@
 <W id="18" msd="CC" tag="CC" in="" out="">Og</W>
 <W id="19" msd="PD" tag="PD" in="" out="">selv</W>
 <W id="20" msd="SP" tag="SP" in="" out="">om</W>
-<W id="21" msd="PD" tag="PD" in="0:assoc-frame" out="0:assoc-frame|250:coref-iden">denne</W>
+<W id="21" msd="PD" tag="PD" in="0:assoc-frame" out="250:coref-iden|0:assoc-frame">denne</W>
 <W id="22" msd="NC" tag="NC" in="" out="">betænknings</W>
 <W id="23" msd="NC" tag="NC" in="" out="15:coref-iden.sb">beslutningsforslag</W>
 <W id="24" msd="VA" tag="VA" in="" out="4:coref-res">bliver</W>

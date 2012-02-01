@@ -28,11 +28,11 @@
 <W id="27" msd="XP" tag="XP" in="" out="">,</W>
 <W id="28" msd="CS" tag="CS" in="" out="">at</W>
 <W id="29" msd="PP" tag="PP" in="" out="">det</W>
-<W id="30" msd="VA" tag="VA" in="" out="4:ref">er</W>
+<W id="30" msd="VA" tag="VA" in="" out="">er</W>
 <W id="31" msd="RG" tag="RG" in="" out="">vel</W>
 <W id="32" msd="AN" tag="AN" in="" out="">rigtigt</W>
 <W id="33" msd="XP" tag="XP" in="" out="">,</W>
-<W id="34" msd="U=" tag="U=" in="-4:ref" out="">som</W>
+<W id="34" msd="U=" tag="U=" in="" out="">som</W>
 <W id="35" msd="AN" tag="AN" in="-27:coref-iden" out="">hr.</W>
 <W id="36" msd="NP" tag="NP" in="" out="">Perry</W>
 <W id="37" msd="VA" tag="VA" in="" out="">siger</W>
@@ -89,7 +89,7 @@
 <W id="88" msd="AN" tag="AN" in="" out="">jordnære</W>
 <W id="89" msd="NC" tag="NC" in="" out="">del</W>
 <W id="90" msd="SP" tag="SP" in="" out="">af</W>
-<W id="91" msd="NP" tag="NP" in="0:assoc-frame" out="0:assoc-frame|20:coref-iden">Unionens</W>
+<W id="91" msd="NP" tag="NP" in="0:assoc-frame" out="20:coref-iden|0:assoc-frame">Unionens</W>
 <W id="92" msd="VA" tag="VA" in="" out="">virke</W>
 <W id="93" msd="XP" tag="XP" in="" out="">.</W>
 <W id="94" msd="U=" tag="U=" in="" out="">Der</W>
@@ -239,10 +239,10 @@
 <W id="238" msd="XP" tag="XP" in="" out="">.</W>
 <W id="239" msd="CC" tag="CC" in="" out="">Og</W>
 <W id="240" msd="CS" tag="CS" in="" out="">da</W>
-<W id="241" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|44:coref">vi</W>
+<W id="241" msd="PP" tag="PP" in="0:assoc-frame" out="44:coref|0:assoc-frame">vi</W>
 <W id="242" msd="RG" tag="RG" in="" out="">nu</W>
 <W id="243" msd="VA" tag="VA" in="" out="">har</W>
-<W id="244" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|11:coref-iden">formanden</W>
+<W id="244" msd="NC" tag="NC" in="0:assoc-frame" out="11:coref-iden|0:assoc-frame">formanden</W>
 <W id="245" msd="SP" tag="SP" in="" out="">i</W>
 <W id="246" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame">formandssædet</W>
 <W id="247" msd="XP" tag="XP" in="" out="">,</W>

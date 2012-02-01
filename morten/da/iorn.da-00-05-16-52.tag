@@ -69,7 +69,7 @@
 <W id="68" msd="XP" tag="XP" in="" out="">.</W>
 <W id="69" msd="NC" tag="NC" in="" out="">Reformen</W>
 <W id="70" msd="SP" tag="SP" in="" out="">af</W>
-<W id="71" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|121:coref-iden">Kommissionen</W>
+<W id="71" msd="NC" tag="NC" in="0:assoc-frame" out="121:coref-iden|0:assoc-frame">Kommissionen</W>
 <W id="72" msd="VA" tag="VA" in="" out="">er</W>
 <W id="73" msd="VA" tag="VA" in="" out="">lagt</W>
 <W id="74" msd="SP" tag="SP" in="" out="">på</W>
@@ -87,7 +87,7 @@
 <W id="86" msd="RG" tag="RG" in="" out="">nu</W>
 <W id="87" msd="RG" tag="RG" in="" out="">op</W>
 <W id="88" msd="SP" tag="SP" in="" out="">til</W>
-<W id="89" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|33:coref">os</W>
+<W id="89" msd="PP" tag="PP" in="0:assoc-frame" out="33:coref|0:assoc-frame">os</W>
 <W id="90" msd="U=" tag="U=" in="" out="">at</W>
 <W id="91" msd="VA" tag="VA" in="" out="">komme</W>
 <W id="92" msd="SP" tag="SP" in="" out="">med</W>
@@ -222,11 +222,11 @@
 <W id="221" msd="SP" tag="SP" in="" out="">for</W>
 <W id="222" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame">disciplinærrådet</W>
 <W id="223" msd="XP" tag="XP" in="" out="">.</W>
-<W id="224" msd="PP" tag="PP" in="-14:coref-res" out="">Det</W>
+<W id="224" msd="PP" tag="PP" in="-14:coref-res" out="4:coref">Det</W>
 <W id="225" msd="VA" tag="VA" in="" out="">er</W>
 <W id="226" msd="AN" tag="AN" in="" out="">uholdbart</W>
 <W id="227" msd="XP" tag="XP" in="" out="">.</W>
-<W id="228" msd="PP" tag="PP" in="" out="">Det</W>
+<W id="228" msd="PP" tag="PP" in="-4:coref" out="">Det</W>
 <W id="229" msd="VA" tag="VA" in="" out="">er</W>
 <W id="230" msd="RG" tag="RG" in="" out="">både</W>
 <W id="231" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame">ECHO-sagen</W>
@@ -238,7 +238,7 @@
 <W id="237" msd="NC" tag="NC" in="" out="">eksempler</W>
 <W id="238" msd="SP" tag="SP" in="" out="">på</W>
 <W id="239" msd="XP" tag="XP" in="" out="">.</W>
-<W id="240" msd="PP" tag="PP" in="-71:coref" out="60:coref">Jeg</W>
+<W id="240" msd="PP" tag="PP" in="-71:coref" out="47:coref">Jeg</W>
 <W id="241" msd="VA" tag="VA" in="" out="">er</W>
 <W id="242" msd="RG" tag="RG" in="" out="">også</W>
 <W id="243" msd="AN" tag="AN" in="" out="">enig</W>
@@ -285,7 +285,7 @@
 <W id="284" msd="NC" tag="NC" in="" out="">s</W>
 <W id="285" msd="NC" tag="NC" in="" out="">beføjelser</W>
 <W id="286" msd="XP" tag="XP" in="" out="">.</W>
-<W id="287" msd="PP" tag="PP" in="" out="">Jeg</W>
+<W id="287" msd="PP" tag="PP" in="-47:coref" out="13:coref">Jeg</W>
 <W id="288" msd="VA" tag="VA" in="" out="">kan</W>
 <W id="289" msd="RG" tag="RG" in="" out="">imidlertid</W>
 <W id="290" msd="RG" tag="RG" in="" out="">ikke</W>
@@ -298,7 +298,7 @@
 <W id="297" msd="AN" tag="AN" in="" out="">offentlig</W>
 <W id="298" msd="NC" tag="NC" in="" out="">anklager</W>
 <W id="299" msd="XP" tag="XP" in="" out="">.</W>
-<W id="300" msd="PP" tag="PP" in="-60:coref" out="118:coref">Jeg</W>
+<W id="300" msd="PP" tag="PP" in="-13:coref" out="118:coref">Jeg</W>
 <W id="301" msd="VA" tag="VA" in="" out="">kan</W>
 <W id="302" msd="AN" tag="AN" in="" out="">godt</W>
 <W id="303" msd="VA" tag="VA" in="" out="">forstå</W>
@@ -357,9 +357,9 @@
 <W id="356" msd="RG" tag="RG" in="" out="">kun</W>
 <W id="357" msd="PD" tag="PD" in="" out="13:coref-iden">de</W>
 <W id="358" msd="AN" tag="AN" in="" out="">groveste</W>
-<W id="359" msd="NC" tag="NC" in="" out="">sager</W>
+<W id="359" msd="NC" tag="NC" in="" out="2:ref">sager</W>
 <W id="360" msd="XP" tag="XP" in="" out="">,</W>
-<W id="361" msd="U=" tag="U=" in="" out="">der</W>
+<W id="361" msd="U=" tag="U=" in="-2:ref" out="">der</W>
 <W id="362" msd="VA" tag="VA" in="" out="">vil</W>
 <W id="363" msd="VA" tag="VA" in="" out="">få</W>
 <W id="364" msd="AN" tag="AN" in="" out="">strafferetlige</W>
@@ -399,14 +399,14 @@
 <W id="398" msd="PP" tag="PP" in="-80:coref" out="">Vi</W>
 <W id="399" msd="VA" tag="VA" in="" out="">skal</W>
 <W id="400" msd="VA" tag="VA" in="" out="">have</W>
-<W id="401" msd="VA" tag="VA" in="" out="">ændret</W>
+<W id="401" msd="VA" tag="VA" in="" out="7:coref-res">ændret</W>
 <W id="402" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame">personalevedtægten</W>
 <W id="403" msd="CC" tag="CC" in="" out="">og</W>
 <W id="404" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame">disciplinærproceduren</W>
 <W id="405" msd="XP" tag="XP" in="" out="">,</W>
 <W id="406" msd="RG" tag="RG" in="" out="">sådan</W>
 <W id="407" msd="U=" tag="U=" in="" out="">som</W>
-<W id="408" msd="PP" tag="PP" in="" out="">det</W>
+<W id="408" msd="PP" tag="PP" in="-7:coref-res" out="">det</W>
 <W id="409" msd="RG" tag="RG" in="" out="">også</W>
 <W id="410" msd="VA" tag="VA" in="" out="">er</W>
 <W id="411" msd="VA" tag="VA" in="" out="">foreslået</W>

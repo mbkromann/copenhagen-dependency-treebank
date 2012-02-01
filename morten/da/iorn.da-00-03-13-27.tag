@@ -261,7 +261,7 @@
 <W id="260" msd="PD" tag="PD" in="" out="">den</W>
 <W id="261" msd="AN" tag="AN" in="" out="">danske</W>
 <W id="262" msd="NC" tag="NC" in="" out="">regering</W>
-<W id="263" msd="VA" tag="VA" in="" out="">havde</W>
+<W id="263" msd="VA" tag="VA" in="" out="9:coref-res">havde</W>
 <W id="264" msd="VA" tag="VA" in="" out="">gjort</W>
 <W id="265" msd="PD" tag="PD" in="" out="">det</W>
 <W id="266" msd="AN" tag="AN" in="" out="">samme</W>
@@ -270,7 +270,7 @@
 <W id="269" msd="XP" tag="XP" in="" out="">,</W>
 <W id="270" msd="RG" tag="RG" in="" out="">så</W>
 <W id="271" msd="VA" tag="VA" in="" out="">ville</W>
-<W id="272" msd="PP" tag="PP" in="" out="">det</W>
+<W id="272" msd="PP" tag="PP" in="-9:coref-res" out="">det</W>
 <W id="273" msd="VA" tag="VA" in="" out="">have</W>
 <W id="274" msd="VA" tag="VA" in="" out="">været</W>
 <W id="275" msd="AN" tag="AN" in="" out="">direkte</W>
