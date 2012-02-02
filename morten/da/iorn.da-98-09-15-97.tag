@@ -69,7 +69,7 @@
 <W id="68" msd="VA" tag="VA" in="" out="">sige</W>
 <W id="69" msd="XP" tag="XP" in="" out="">,</W>
 <W id="70" msd="CS" tag="CS" in="" out="">at</W>
-<W id="71" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|104:coref">vi</W>
+<W id="71" msd="PP" tag="PP" in="0:assoc-frame" out="104:coref|0:assoc-frame">vi</W>
 <W id="72" msd="VA" tag="VA" in="" out="">skal</W>
 <W id="73" msd="VA" tag="VA" in="" out="">anvende</W>
 <W id="74" msd="NC" tag="NC" in="" out="56:coref-iden.sb">artiklen</W>
@@ -120,7 +120,7 @@
 <W id="119" msd="VA" tag="VA" in="" out="">skal</W>
 <W id="120" msd="VA" tag="VA" in="" out="">foretages</W>
 <W id="121" msd="SP" tag="SP" in="" out="">i</W>
-<W id="122" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|18:coref-iden">Fællesskabet</W>
+<W id="122" msd="NC" tag="NC" in="0:assoc-frame" out="18:coref-iden|0:assoc-frame">Fællesskabet</W>
 <W id="123" msd="XP" tag="XP" in="" out="">.</W>
 <W id="124" msd="PD" tag="PD" in="" out="">De</W>
 <W id="125" msd="NC" tag="NC" in="" out="2:ref">planer</W>

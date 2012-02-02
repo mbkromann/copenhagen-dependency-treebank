@@ -18,7 +18,7 @@
 <W id="17" msd="AN" tag="AN" in="" out="">'</W>
 <W id="18" msd="NC" tag="NC" in="" out="">arbejde</W>
 <W id="19" msd="SP" tag="SP" in="" out="">med</W>
-<W id="20" msd="PD" tag="PD" in="0:assoc-frame" out="0:assoc-frame|131:coref-iden">denne</W>
+<W id="20" msd="PD" tag="PD" in="0:assoc-frame" out="131:coref-iden|0:assoc-frame">denne</W>
 <W id="21" msd="NC" tag="NC" in="" out="">betænkning</W>
 <W id="22" msd="XP" tag="XP" in="" out="">.</W>
 <W id="23" msd="SP" tag="SP" in="" out="">I</W>
@@ -43,7 +43,7 @@
 <W id="42" msd="SP" tag="SP" in="" out="">af</W>
 <W id="43" msd="NC" tag="NC" in="" out="">tobakssektoren</W>
 <W id="44" msd="XP" tag="XP" in="" out="">,</W>
-<W id="45" msd="VA" tag="VA" in="" out="">har</W>
+<W id="45" msd="VA" tag="VA" in="" out="32:coref-res">har</W>
 <W id="46" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame">vi</W>
 <W id="47" msd="VA" tag="VA" in="" out="">fået</W>
 <W id="48" msd="PI" tag="PI" in="" out="">en</W>
@@ -75,9 +75,9 @@
 <W id="74" msd="RG" tag="RG" in="" out="">ikke</W>
 <W id="75" msd="RG" tag="RG" in="" out="">nok</W>
 <W id="76" msd="SP" tag="SP" in="" out="">med</W>
-<W id="77" msd="PP" tag="PP" in="" out="">det</W>
+<W id="77" msd="PP" tag="PP" in="-32:coref-res" out="">det</W>
 <W id="78" msd="XP" tag="XP" in="" out="">.</W>
-<W id="79" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|134:coref-iden">Ordføreren</W>
+<W id="79" msd="NC" tag="NC" in="0:assoc-frame" out="134:coref-iden|0:assoc-frame">Ordføreren</W>
 <W id="80" msd="VA" tag="VA" in="" out="">lægger</W>
 <W id="81" msd="RG" tag="RG" in="" out="">også</W>
 <W id="82" msd="AN" tag="AN" in="" out="">stor</W>
@@ -216,7 +216,7 @@
 <W id="215" msd="VA" tag="VA" in="" out="">ønsker</W>
 <W id="216" msd="U=" tag="U=" in="" out="">at</W>
 <W id="217" msd="VA" tag="VA" in="" out="">støtte</W>
-<W id="218" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|7:coref-iden">forskningsfonden</W>
+<W id="218" msd="NC" tag="NC" in="0:assoc-frame" out="7:coref-iden|0:assoc-frame">forskningsfonden</W>
 <W id="219" msd="SP" tag="SP" in="" out="">med</W>
 <W id="220" msd="AN" tag="AN" in="" out="">større</W>
 <W id="221" msd="NC" tag="NC" in="" out="">midler</W>

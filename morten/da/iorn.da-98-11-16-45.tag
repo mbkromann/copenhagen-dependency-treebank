@@ -31,7 +31,7 @@
 <W id="30" msd="NC" tag="NC" in="" out="2:ref">ændringsforslag</W>
 <W id="31" msd="XP" tag="XP" in="" out="">,</W>
 <W id="32" msd="U=" tag="U=" in="-2:ref" out="">som</W>
-<W id="33" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|11:coref">vi</W>
+<W id="33" msd="PP" tag="PP" in="0:assoc-frame" out="11:coref|0:assoc-frame">vi</W>
 <W id="34" msd="VA" tag="VA" in="" out="">har</W>
 <W id="35" msd="VA" tag="VA" in="" out="">stillet</W>
 <W id="36" msd="XP" tag="XP" in="" out="">,</W>
@@ -57,7 +57,7 @@
 <W id="56" msd="VA" tag="VA" in="" out="">placeret</W>
 <W id="57" msd="NC" tag="NC" in="" out="">ansvaret</W>
 <W id="58" msd="SP" tag="SP" in="" out="">i</W>
-<W id="59" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|16:coref-iden">Kommissionen</W>
+<W id="59" msd="NC" tag="NC" in="0:assoc-frame" out="16:coref-iden|0:assoc-frame">Kommissionen</W>
 <W id="60" msd="CC" tag="CC" in="" out="">og</W>
 <W id="61" msd="VA" tag="VA" in="" out="">undlade</W>
 <W id="62" msd="U=" tag="U=" in="" out="">at</W>
@@ -175,7 +175,7 @@
 <W id="174" msd="CS" tag="CS" in="" out="">at</W>
 <W id="175" msd="PP" tag="PP" in="-25:coref" out="29:coref">vi</W>
 <W id="176" msd="SP" tag="SP" in="" out="">med</W>
-<W id="177" msd="PD" tag="PD" in="0:assoc-frame" out="0:assoc-frame|73:coref-iden">denne</W>
+<W id="177" msd="PD" tag="PD" in="0:assoc-frame" out="73:coref-iden|0:assoc-frame">denne</W>
 <W id="178" msd="NC" tag="NC" in="" out="">betænkning</W>
 <W id="179" msd="RG" tag="RG" in="" out="">ikke</W>
 <W id="180" msd="VA" tag="VA" in="" out="">kan</W>
@@ -206,7 +206,7 @@
 <W id="205" msd="VA" tag="VA" in="" out="">må</W>
 <W id="206" msd="VA" tag="VA" in="" out="">tage</W>
 <W id="207" msd="SP" tag="SP" in="" out="">fra</W>
-<W id="208" msd="NC" tag="NC" in="0:assoc-frame|84:coref-iden" out="0:assoc-frame">Parlamentets</W>
+<W id="208" msd="NC" tag="NC" in="84:coref-iden|0:assoc-frame" out="0:assoc-frame">Parlamentets</W>
 <W id="209" msd="NC" tag="NC" in="" out="">side</W>
 <W id="210" msd="XP" tag="XP" in="" out="">,</W>
 <W id="211" msd="CS" tag="CS" in="" out="">hvis</W>

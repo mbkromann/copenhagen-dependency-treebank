@@ -307,12 +307,12 @@
 <W id="306" msd="AN" tag="AN" in="" out="">lykkelige</W>
 <W id="307" msd="XP" tag="XP" in="" out="">.</W>
 <W id="308" msd="CS" tag="CS" in="" out="">Da</W>
-<W id="309" msd="NC" tag="NC" in="" out="21:coref-iden">møntunionen</W>
+<W id="309" msd="NC" tag="NC" in="0:assoc-frame" out="21:coref-iden|0:assoc-frame">møntunionen</W>
 <W id="310" msd="VA" tag="VA" in="" out="">blev</W>
 <W id="311" msd="VA" tag="VA" in="" out="">vedtaget</W>
 <W id="312" msd="XP" tag="XP" in="" out="">,</W>
 <W id="313" msd="VA" tag="VA" in="" out="">havde</W>
-<W id="314" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|5:coref">vi</W>
+<W id="314" msd="PP" tag="PP" in="0:assoc-frame" out="5:coref|0:assoc-frame">vi</W>
 <W id="315" msd="AC" tag="AC" in="" out="">12</W>
 <W id="316" msd="NC" tag="NC" in="" out="">millioner</W>
 <W id="317" msd="AN" tag="AN" in="" out="">ledige</W>
