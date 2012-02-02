@@ -12,7 +12,7 @@
 <W id="11" msd="SP" tag="SP" in="" out="">om</W>
 <W id="12" msd="XP" tag="XP" in="" out="">,</W>
 <W id="13" msd="CS" tag="CS" in="" out="">at</W>
-<W id="14" msd="PP" tag="PP" in="0:assoc-frame" out="0:assoc-frame|10:coref">vi</W>
+<W id="14" msd="PP" tag="PP" in="0:assoc-frame" out="10:coref|0:assoc-frame">vi</W>
 <W id="15" msd="VA" tag="VA" in="" out="">skal</W>
 <W id="16" msd="VA" tag="VA" in="" out="">have</W>
 <W id="17" msd="PI" tag="PI" in="" out="">en</W>
@@ -106,12 +106,12 @@
 <W id="105" msd="XP" tag="XP" in="" out="">,</W>
 <W id="106" msd="CS" tag="CS" in="" out="">at</W>
 <W id="107" msd="PD" tag="PD" in="" out="">den</W>
-<W id="108" msd="NC" tag="NC" in="" out="">nedsættelse</W>
+<W id="108" msd="NC" tag="NC" in="" out="4:ref">nedsættelse</W>
 <W id="109" msd="SP" tag="SP" in="" out="">af</W>
-<W id="110" msd="NC" tag="NC" in="" out="2:ref">kornprisen</W>
+<W id="110" msd="NC" tag="NC" in="" out="">kornprisen</W>
 <W id="111" msd="XP" tag="XP" in="" out="">,</W>
-<W id="112" msd="U=" tag="U=" in="-2:ref" out="">som</W>
-<W id="113" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|96:coref-iden">Kommissionen</W>
+<W id="112" msd="U=" tag="U=" in="-4:ref" out="">som</W>
+<W id="113" msd="NC" tag="NC" in="0:assoc-frame" out="96:coref-iden|0:assoc-frame">Kommissionen</W>
 <W id="114" msd="VA" tag="VA" in="" out="">foreslår</W>
 <W id="115" msd="XP" tag="XP" in="" out="">,</W>
 <W id="116" msd="VA" tag="VA" in="" out="">er</W>

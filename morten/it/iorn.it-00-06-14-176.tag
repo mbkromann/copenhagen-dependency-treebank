@@ -7,7 +7,7 @@
 <W id="6" msd="PON" tag="PON" in="" out="">,</W>
 <W id="7" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
 <W id="8" msd="NOM" tag="NOM" in="" out="">situazione</W>
-<W id="9" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
+<W id="9" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="46:coref-iden">della</W>
 <W id="10" msd="NPR" tag="NPR" in="" out="">Tunisia</W>
 <W id="11" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">va</W>
 <W id="12" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">inquadrata</W>
@@ -23,11 +23,11 @@
 <W id="22" msd="NOM" tag="NOM" in="" out="">Mediterraneo</W>
 <W id="23" msd="CON" tag="CON" in="" out="">e</W>
 <W id="24" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dei</W>
-<W id="25" msd="NOM" tag="NOM" in="" out="4:coref">paesi</W>
+<W id="25" msd="NOM" tag="NOM" in="" out="4:ref">paesi</W>
 <W id="26" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">del</W>
 <W id="27" msd="NOM" tag="NOM" in="" out="">Nordafrica</W>
 <W id="28" msd="PRE" tag="PRE" in="" out="">con</W>
-<W id="29" msd="DET&3a;def" tag="DET&3a;def" in="-4:coref" out="23:coref-var">i</W>
+<W id="29" msd="DET&3a;def" tag="DET&3a;def" in="-4:ref" out="23:coref-var">i</W>
 <W id="30" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">quali</W>
 <W id="31" msd="DET&3a;def" tag="DET&3a;def" in="" out="12:coref">l'</W>
 <W id="32" msd="NOM" tag="NOM" in="" out="">Unione</W>
@@ -53,7 +53,7 @@
 <W id="52" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-23:coref-var" out="21:coref-iden">quei</W>
 <W id="53" msd="NOM" tag="NOM" in="" out="">paesi</W>
 <W id="54" msd="PON" tag="PON" in="" out="">,</W>
-<W id="55" msd="DET&3a;def" tag="DET&3a;def" in="" out="21:coref-iden">la</W>
+<W id="55" msd="DET&3a;def" tag="DET&3a;def" in="-46:coref-iden" out="21:coref-iden">la</W>
 <W id="56" msd="NPR" tag="NPR" in="" out="">Tunisia</W>
 <W id="57" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="40:coref-res">ha</W>
 <W id="58" msd="ADV" tag="ADV" in="" out="">certamente</W>
@@ -77,8 +77,8 @@
 <W id="76" msd="DET&3a;def" tag="DET&3a;def" in="-21:coref-iden" out="37:coref-var">la</W>
 <W id="77" msd="NPR" tag="NPR" in="" out="">Tunisia</W>
 <W id="78" msd="NOM" tag="NOM" in="" out="">è</W>
-<W id="79" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-5:coref-ell" out="">quello</W>
-<W id="80" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="79" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-5:coref-ell" out="1:ref">quello</W>
+<W id="80" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="81" msd="ADV" tag="ADV" in="" out="">maggiormente</W>
 <W id="82" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">avverte</W>
 <W id="83" msd="DET&3a;def" tag="DET&3a;def" in="" out="">l'</W>
@@ -105,9 +105,9 @@
 <W id="104" msd="DET&3a;def" tag="DET&3a;def" in="" out="46:coref-var">le</W>
 <W id="105" msd="NOM" tag="NOM" in="" out="">restrizioni</W>
 <W id="106" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">delle</W>
-<W id="107" msd="NOM" tag="NOM" in="" out="">libertà</W>
+<W id="107" msd="NOM" tag="NOM" in="" out="2:ref">libertà</W>
 <W id="108" msd="ADJ" tag="ADJ" in="" out="">civili</W>
-<W id="109" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="109" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-2:ref" out="">che</W>
 <W id="110" msd="PRO&3a;refl" tag="PRO&3a;refl" in="" out="">si</W>
 <W id="111" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">registrano</W>
 <W id="112" msd="PRE" tag="PRE" in="" out="">in</W>
@@ -231,9 +231,9 @@
 <W id="230" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">passare</W>
 <W id="231" msd="PRE" tag="PRE" in="" out="">attraverso</W>
 <W id="232" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
-<W id="233" msd="NOM" tag="NOM" in="" out="">maturazione</W>
+<W id="233" msd="NOM" tag="NOM" in="" out="2:ref">maturazione</W>
 <W id="234" msd="ADJ" tag="ADJ" in="" out="">culturale</W>
-<W id="235" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="235" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-2:ref" out="">che</W>
 <W id="236" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">impone</W>
 <W id="237" msd="NOM" tag="NOM" in="" out="">gradualità</W>
 <W id="238" msd="CON" tag="CON" in="" out="">e</W>
@@ -293,7 +293,7 @@
 <W id="292" msd="NOM" tag="NOM" in="" out="">diritti</W>
 <W id="293" msd="ADJ" tag="ADJ" in="" out="">umani</W>
 <W id="294" msd="PRE" tag="PRE" in="" out="">in</W>
-<W id="295" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-36:coref-iden" out="">quel</W>
+<W id="295" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-36:coref-iden" out="32:coref-var">quel</W>
 <W id="296" msd="NOM" tag="NOM" in="" out="">paese</W>
 <W id="297" msd="PRE" tag="PRE" in="" out="">mediante</W>
 <W id="298" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">un'</W>
@@ -325,6 +325,6 @@
 <W id="324" msd="NOM" tag="NOM" in="" out="">diritti</W>
 <W id="325" msd="ADJ" tag="ADJ" in="" out="">umani</W>
 <W id="326" msd="PRE" tag="PRE" in="" out="">in</W>
-<W id="327" msd="NPR" tag="NPR" in="" out="">Tunisia</W>
+<W id="327" msd="NPR" tag="NPR" in="-32:coref-var" out="">Tunisia</W>
 <W id="328" msd="SENT" tag="SENT" in="" out="">.</W>
 </s>

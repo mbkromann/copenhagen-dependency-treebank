@@ -101,7 +101,7 @@
 <W id="100" msd="AN" tag="AN" in="" out="">største</W>
 <W id="101" msd="NC" tag="NC" in="" out="">problemer</W>
 <W id="102" msd="SP" tag="SP" in="" out="">i</W>
-<W id="103" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|166:coref-iden">direktivet</W>
+<W id="103" msd="NC" tag="NC" in="0:assoc-frame" out="166:coref-iden|0:assoc-frame">direktivet</W>
 <W id="104" msd="VA" tag="VA" in="" out="">er</W>
 <W id="105" msd="XP" tag="XP" in="" out="">,</W>
 <W id="106" msd="CS" tag="CS" in="" out="">at</W>
@@ -274,7 +274,7 @@
 <W id="273" msd="VA" tag="VA" in="" out="">kan</W>
 <W id="274" msd="RG" tag="RG" in="" out="">ikke</W>
 <W id="275" msd="VA" tag="VA" in="" out="">støtte</W>
-<W id="276" msd="AN" tag="AN" in="0:assoc-frame" out="0:assoc-frame|8:coref-iden">hele</W>
+<W id="276" msd="AN" tag="AN" in="0:assoc-frame" out="8:coref-iden|0:assoc-frame">hele</W>
 <W id="277" msd="NC" tag="NC" in="" out="">lovteksten</W>
 <W id="278" msd="XP" tag="XP" in="" out="">,</W>
 <W id="279" msd="CC" tag="CC" in="" out="">og</W>

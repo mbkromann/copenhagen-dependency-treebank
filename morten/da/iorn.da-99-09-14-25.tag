@@ -16,7 +16,7 @@
 <W id="15" msd="AN" tag="AN" in="" out="">nyvalgt</W>
 <W id="16" msd="NC" tag="NC" in="" out="">medlem</W>
 <W id="17" msd="SP" tag="SP" in="" out="">af</W>
-<W id="18" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|119:coref-iden">Parlamentet</W>
+<W id="18" msd="NC" tag="NC" in="0:assoc-frame" out="119:coref-iden|0:assoc-frame">Parlamentet</W>
 <W id="19" msd="VA" tag="VA" in="" out="">havde</W>
 <W id="20" msd="PP" tag="PP" in="-16:coref" out="30:coref">jeg</W>
 <W id="21" msd="VA" tag="VA" in="" out="">set</W>
@@ -42,7 +42,7 @@
 <W id="41" msd="AN" tag="AN" in="" out="">endelig</W>
 <W id="42" msd="NC" tag="NC" in="" out="">stilling</W>
 <W id="43" msd="SP" tag="SP" in="" out="">til</W>
-<W id="44" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|64:coref-iden">Kommissionen</W>
+<W id="44" msd="NC" tag="NC" in="0:assoc-frame" out="64:coref-iden|0:assoc-frame">Kommissionen</W>
 <W id="45" msd="XP" tag="XP" in="" out="">.</W>
 <W id="46" msd="CC" tag="CC" in="" out="">Men</W>
 <W id="47" msd="PD" tag="PD" in="" out="">de</W>
@@ -119,14 +119,14 @@
 </s>
 <s>
 <W id="120" msd="PT" tag="PT" in="" out="">Hvad</W>
-<W id="121" msd="PD" tag="PD" in="" out="53:coref-var">den</W>
+<W id="121" msd="PD" tag="PD" in="" out="53:coref-var|7:coref|194:coref-iden">den</W>
 <W id="122" msd="AN" tag="AN" in="" out="">mundtlige</W>
 <W id="123" msd="NC" tag="NC" in="" out="">runde</W>
 <W id="124" msd="VA" tag="VA" in="" out="">angår</W>
 <W id="125" msd="XP" tag="XP" in="" out="">,</W>
 <W id="126" msd="RG" tag="RG" in="" out="">så</W>
 <W id="127" msd="VA" tag="VA" in="" out="">har</W>
-<W id="128" msd="PP" tag="PP" in="" out="">det</W>
+<W id="128" msd="PP" tag="PP" in="-7:coref" out="">det</W>
 <W id="129" msd="VA" tag="VA" in="" out="">været</W>
 <W id="130" msd="PI" tag="PI" in="" out="">et</W>
 <W id="131" msd="NC" tag="NC" in="" out="">kæmpearbejde</W>
@@ -313,7 +313,7 @@
 <W id="312" msd="SP" tag="SP" in="" out="">i</W>
 <W id="313" msd="NC" tag="NC" in="" out="">udvalget</W>
 <W id="314" msd="SP" tag="SP" in="" out="">under</W>
-<W id="315" msd="PD" tag="PD" in="" out="">den</W>
+<W id="315" msd="PD" tag="PD" in="-194:coref-iden" out="">den</W>
 <W id="316" msd="AN" tag="AN" in="" out="">mundtlige</W>
 <W id="317" msd="NC" tag="NC" in="" out="">høring</W>
 <W id="318" msd="XP" tag="XP" in="" out="">.</W>

@@ -57,9 +57,9 @@
 <W id="56" msd="PD" tag="PD" in="-6:coref-iden.sb" out="285:coref-iden">disse</W>
 <W id="57" msd="NC" tag="NC" in="" out="">institutioner</W>
 <W id="58" msd="XP" tag="XP" in="" out="">-</W>
-<W id="59" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|54:coref-iden">Rådet</W>
+<W id="59" msd="NC" tag="NC" in="0:assoc-frame" out="54:coref-iden|0:assoc-frame">Rådet</W>
 <W id="60" msd="XP" tag="XP" in="" out="">,</W>
-<W id="61" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|50:coref-iden">Kommissionen</W>
+<W id="61" msd="NC" tag="NC" in="0:assoc-frame" out="50:coref-iden|0:assoc-frame">Kommissionen</W>
 <W id="62" msd="CC" tag="CC" in="" out="">og</W>
 <W id="63" msd="PD" tag="PD" in="" out="">dette</W>
 <W id="64" msd="NP" tag="NP" in="" out="">Parlament</W>
@@ -141,11 +141,11 @@
 <W id="140" msd="NC" tag="NC" in="" out="">punkter</W>
 <W id="141" msd="SP" tag="SP" in="" out="">uden</W>
 <W id="142" msd="U=" tag="U=" in="" out="">at</W>
-<W id="143" msd="VA" tag="VA" in="" out="">gå</W>
+<W id="143" msd="VA" tag="VA" in="" out="4:coref-res">gå</W>
 <W id="144" msd="SP" tag="SP" in="" out="">i</W>
 <W id="145" msd="NC" tag="NC" in="" out="">detaljer</W>
 <W id="146" msd="XP" tag="XP" in="" out="">.</W>
-<W id="147" msd="PP" tag="PP" in="" out="">Det</W>
+<W id="147" msd="PP" tag="PP" in="-4:coref-res" out="">Det</W>
 <W id="148" msd="VA" tag="VA" in="" out="">tillader</W>
 <W id="149" msd="PO" tag="PO" in="-13:coref" out="199:coref">min</W>
 <W id="150" msd="NC" tag="NC" in="" out="">taletid</W>
@@ -158,9 +158,9 @@
 <W id="157" msd="PD" tag="PD" in="" out="">det</W>
 <W id="158" msd="AN" tag="AN" in="" out="">første</W>
 <W id="159" msd="VA" tag="VA" in="" out="">har</W>
-<W id="160" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|28:assoc-telic.agent">udvidelsesprojektet</W>
+<W id="160" msd="NC" tag="NC" in="0:assoc-frame" out="28:assoc-telic.agent|0:assoc-frame">udvidelsesprojektet</W>
 <W id="161" msd="SP" tag="SP" in="" out="">efter</W>
-<W id="162" msd="PO" tag="PO" in="0:assoc-frame" out="0:assoc-frame|167:coref">vores</W>
+<W id="162" msd="PO" tag="PO" in="0:assoc-frame" out="167:coref|0:assoc-frame">vores</W>
 <W id="163" msd="NC" tag="NC" in="" out="">opfattelse</W>
 <W id="164" msd="CC" tag="CC" in="" out="">og</W>
 <W id="165" msd="SP" tag="SP" in="" out="">efter</W>

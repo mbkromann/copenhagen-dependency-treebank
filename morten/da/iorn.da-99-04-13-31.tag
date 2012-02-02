@@ -24,13 +24,13 @@
 <W id="23" msd="AN" tag="AN" in="" out="">vanskeligt</W>
 <W id="24" msd="U=" tag="U=" in="" out="">at</W>
 <W id="25" msd="VA" tag="VA" in="" out="">behandle</W>
-<W id="26" msd="PD" tag="PD" in="0:assoc-frame" out="5:coref|0:assoc-frame">disse</W>
+<W id="26" msd="PD" tag="PD" in="0:assoc-frame" out="0:assoc-frame|6:coref">disse</W>
 <W id="27" msd="NC" tag="NC" in="" out="">sager</W>
 <W id="28" msd="SP" tag="SP" in="" out="">uden</W>
 <W id="29" msd="RG" tag="RG" in="" out="">også</W>
 <W id="30" msd="U=" tag="U=" in="" out="">at</W>
-<W id="31" msd="VA" tag="VA" in="-5:coref" out="">se</W>
-<W id="32" msd="PP" tag="PP" in="" out="">dem</W>
+<W id="31" msd="VA" tag="VA" in="" out="">se</W>
+<W id="32" msd="PP" tag="PP" in="-6:coref" out="">dem</W>
 <W id="33" msd="SP" tag="SP" in="" out="">i</W>
 <W id="34" msd="NC" tag="NC" in="" out="">lyset</W>
 <W id="35" msd="SP" tag="SP" in="" out="">af</W>

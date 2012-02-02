@@ -36,7 +36,7 @@
 <W id="35" msd="PP" tag="PP" in="" out="">Det</W>
 <W id="36" msd="VA" tag="VA" in="" out="">er</W>
 <W id="37" msd="RG" tag="RG" in="" out="">samtidig</W>
-<W id="38" msd="NP" tag="NP" in="-19:coref-iden" out="">EU</W>
+<W id="38" msd="NP" tag="NP" in="-19:coref-iden" out="17:coref-iden">EU</W>
 <W id="39" msd="XA" tag="XA" in="" out="">'</W>
 <W id="40" msd="NC" tag="NC" in="" out="">s</W>
 <W id="41" msd="RG" tag="RG" in="" out="">hidtil</W>
@@ -53,7 +53,7 @@
 <W id="52" msd="SP" tag="SP" in="" out="">for</W>
 <W id="53" msd="U=" tag="U=" in="" out="">at</W>
 <W id="54" msd="VA" tag="VA" in="" out="">gøre</W>
-<W id="55" msd="NP" tag="NP" in="" out="-7:assoc-agentive.inst|254:assoc-const|277:coref-iden">EU</W>
+<W id="55" msd="NP" tag="NP" in="-17:coref-iden" out="-7:assoc-agentive.inst|254:assoc-const|277:coref-iden">EU</W>
 <W id="56" msd="AN" tag="AN" in="" out="">klar</W>
 <W id="57" msd="SP" tag="SP" in="" out="">til</W>
 <W id="58" msd="U=" tag="U=" in="" out="">at</W>
@@ -72,8 +72,8 @@
 <W id="71" msd="NC" tag="NC" in="" out="">dage</W>
 <W id="72" msd="AC" tag="AC" in="" out="">10</W>
 <W id="73" msd="NC" tag="NC" in="" out="">år</W>
-<W id="74" msd="RG" tag="RG" in="" out="1:ref">siden</W>
-<W id="75" msd="XP" tag="XP" in="-1:ref" out="">,</W>
+<W id="74" msd="RG" tag="RG" in="" out="">siden</W>
+<W id="75" msd="XP" tag="XP" in="" out="">,</W>
 <W id="76" msd="NP" tag="NP" in="" out="">Berlinmuren</W>
 <W id="77" msd="VA" tag="VA" in="" out="">faldt</W>
 <W id="78" msd="XP" tag="XP" in="" out="">.</W>
@@ -90,7 +90,7 @@
 <W id="89" msd="XP" tag="XP" in="" out="">,</W>
 <W id="90" msd="RG" tag="RG" in="" out="">sådan</W>
 <W id="91" msd="CS" tag="CS" in="" out="">at</W>
-<W id="92" msd="NC" tag="NC" in="0:assoc-frame" out="0:assoc-frame|44:coref-iden">regeringskonferencen</W>
+<W id="92" msd="NC" tag="NC" in="0:assoc-frame" out="44:coref-iden|0:assoc-frame">regeringskonferencen</W>
 <W id="93" msd="VA" tag="VA" in="" out="">kan</W>
 <W id="94" msd="VA" tag="VA" in="" out="">være</W>
 <W id="95" msd="VA" tag="VA" in="" out="">afsluttet</W>
@@ -146,7 +146,7 @@
 <W id="145" msd="VA" tag="VA" in="" out="">kan</W>
 <W id="146" msd="VA" tag="VA" in="" out="">godkendes</W>
 <W id="147" msd="SP" tag="SP" in="" out="">i</W>
-<W id="148" msd="PD" tag="PD" in="" out="8:coref-iden">de</W>
+<W id="148" msd="PD" tag="PD" in="" out="8:coref-iden.sb">de</W>
 <W id="149" msd="AN" tag="AN" in="" out="">enkelte</W>
 <W id="150" msd="NC" tag="NC" in="" out="">lande</W>
 <W id="151" msd="SP" tag="SP" in="" out="">efter</W>
@@ -154,7 +154,7 @@
 <W id="153" msd="SP" tag="SP" in="" out="">i</W>
 <W id="154" msd="PD" tag="PD" in="" out="">de</W>
 <W id="155" msd="AN" tag="AN" in="" out="">respektive</W>
-<W id="156" msd="NC" tag="NC" in="-8:coref-iden" out="">landes</W>
+<W id="156" msd="NC" tag="NC" in="-8:coref-iden.sb" out="">landes</W>
 <W id="157" msd="NC" tag="NC" in="" out="">grundlove</W>
 <W id="158" msd="XP" tag="XP" in="" out="">.</W>
 </s>
