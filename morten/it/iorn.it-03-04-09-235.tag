@@ -190,7 +190,7 @@
 <W id="189" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">rappresentano</W>
 <W id="190" msd="NOM" tag="NOM" in="" out="">però</W>
 <W id="191" msd="NOM" tag="NOM" in="" out="">iniziative</W>
-<W id="192" msd="PRE&3a;det" tag="PRE&3a;det" in="-74:coref-iden.sb" out="40:assoc-loc|44:assoc-loc|59:assoc-const|95:coref-var|85:assoc-const">dell'</W>
+<W id="192" msd="PRE&3a;det" tag="PRE&3a;det" in="-74:coref-iden.sb" out="40:assoc-loc|44:assoc-loc|59:assoc-const|85:assoc-const|95:coref-var">dell'</W>
 <W id="193" msd="NOM" tag="NOM" in="" out="">Unione</W>
 <W id="194" msd="ADJ" tag="ADJ" in="" out="">europea</W>
 <W id="195" msd="SENT" tag="SENT" in="" out="">.</W>
@@ -347,7 +347,7 @@
 <W id="346" msd="PRE" tag="PRE" in="" out="">in</W>
 <W id="347" msd="NOM" tag="NOM" in="" out="">difesa</W>
 <W id="348" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dei</W>
-<W id="349" msd="PRO&3a;poss" tag="PRO&3a;poss" in="0:assoc-frame" out="0:assoc-frame|4:coref">nostri</W>
+<W id="349" msd="PRO&3a;poss" tag="PRO&3a;poss" in="0:assoc-frame" out="4:coref|0:assoc-frame">nostri</W>
 <W id="350" msd="NOM" tag="NOM" in="" out="">valori</W>
 <W id="351" msd="PON" tag="PON" in="" out="">,</W>
 <W id="352" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>

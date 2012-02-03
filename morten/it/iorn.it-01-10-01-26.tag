@@ -100,7 +100,7 @@
 <W id="99" msd="DET&3a;def" tag="DET&3a;def" in="" out="">gli</W>
 <W id="100" msd="NOM" tag="NOM" in="" out="">umori</W>
 <W id="101" msd="PON" tag="PON" in="" out="61:coref">-</W>
-<W id="102" msd="VER&3a;cpre" tag="VER&3a;cpre" in="0:assoc-frame" out="0:assoc-frame|188:coref">speriamo</W>
+<W id="102" msd="VER&3a;cpre" tag="VER&3a;cpre" in="0:assoc-frame" out="188:coref|0:assoc-frame">speriamo</W>
 <W id="103" msd="ADV" tag="ADV" in="" out="">non</W>
 <W id="104" msd="ADV" tag="ADV" in="" out="">ancora</W>
 <W id="105" msd="ADJ" tag="ADJ" in="" out="">prevalenti</W>

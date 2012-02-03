@@ -22,8 +22,8 @@
 <W id="21" msd="PRE" tag="PRE" in="" out="">a</W>
 <W id="22" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">definire</W>
 <W id="23" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">un'</W>
-<W id="24" msd="NOM" tag="NOM" in="" out="">intesa</W>
-<W id="25" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="24" msd="NOM" tag="NOM" in="" out="1:ref">intesa</W>
+<W id="25" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="26" msd="VER&3a;pres" tag="VER&3a;pres" in="-23:coref" out="46:coref">giudico</W>
 <W id="27" msd="ADJ" tag="ADJ" in="" out="">positiva</W>
 <W id="28" msd="CON" tag="CON" in="" out="">e</W>
@@ -108,8 +108,8 @@
 <W id="107" msd="NOM" tag="NOM" in="" out="">interventi</W>
 <W id="108" msd="PON" tag="PON" in="" out="">,</W>
 <W id="109" msd="NOM" tag="NOM" in="" out="">è</W>
-<W id="110" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-15:coref-ell" out="">quella</W>
-<W id="111" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="110" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-15:coref-ell" out="1:ref">quella</W>
+<W id="111" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="112" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">confina</W>
 <W id="113" msd="ADV" tag="ADV" in="" out="">via</W>
 <W id="114" msd="NOM" tag="NOM" in="" out="">terra</W>

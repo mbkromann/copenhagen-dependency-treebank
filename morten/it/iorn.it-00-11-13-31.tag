@@ -58,8 +58,8 @@
 <W id="57" msd="CON" tag="CON" in="" out="">come</W>
 <W id="58" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">dicono</W>
 <W id="59" msd="DET&3a;def" tag="DET&3a;def" in="" out="">i</W>
-<W id="60" msd="NOM" tag="NOM" in="" out="">neofascisti</W>
-<W id="61" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="60" msd="NOM" tag="NOM" in="" out="1:ref">neofascisti</W>
+<W id="61" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="62" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">sono</W>
 <W id="63" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">al</W>
 <W id="64" msd="NOM" tag="NOM" in="" out="">governo</W>
@@ -82,7 +82,7 @@
 <W id="81" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">presentano</W>
 <W id="82" msd="ADV" tag="ADV" in="" out="">soltanto</W>
 <W id="83" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
-<W id="84" msd="NOM" tag="NOM" in="" out="">storia</W>
+<W id="84" msd="NOM" tag="NOM" in="" out="19:ref">storia</W>
 <W id="85" msd="PRE" tag="PRE" in="" out="">d'</W>
 <W id="86" msd="NPR" tag="NPR" in="" out="">Italia</W>
 <W id="87" msd="PON" tag="PON" in="" out="">,</W>
@@ -101,7 +101,7 @@
 <W id="100" msd="CON" tag="CON" in="" out="">come</W>
 <W id="101" msd="ADJ" tag="ADJ" in="" out="">ovvio</W>
 <W id="102" msd="PON" tag="PON" in="" out="">,</W>
-<W id="103" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="103" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-19:ref" out="">che</W>
 <W id="104" msd="ADV" tag="ADV" in="" out="">non</W>
 <W id="105" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">si</W>
 <W id="106" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">possono</W>
@@ -199,8 +199,8 @@
 <W id="198" msd="PON" tag="PON" in="" out="">,</W>
 <W id="199" msd="CON" tag="CON" in="" out="">ma</W>
 <W id="200" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">segnali</W>
-<W id="201" msd="PRO&3a;indef" tag="PRO&3a;indef" in="" out="">qualcosa</W>
-<W id="202" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="201" msd="PRO&3a;indef" tag="PRO&3a;indef" in="" out="1:ref">qualcosa</W>
+<W id="202" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="203" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">concerne</W>
 <W id="204" msd="ADJ" tag="ADJ" in="" out="">tutta</W>
 <W id="205" msd="DET&3a;def" tag="DET&3a;def" in="" out="">l'</W>
@@ -212,8 +212,8 @@
 <W id="211" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="212" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">firmare</W>
 <W id="213" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">un</W>
-<W id="214" msd="NOM" tag="NOM" in="" out="">appello</W>
-<W id="215" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="214" msd="NOM" tag="NOM" in="" out="1:ref">appello</W>
+<W id="215" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="216" msd="VER&3a;pres" tag="VER&3a;pres" in="-8:coref" out="">sto</W>
 <W id="217" msd="VER&3a;geru" tag="VER&3a;geru" in="" out="">facendo</W>
 <W id="218" msd="NOM" tag="NOM" in="" out="">circolare</W>

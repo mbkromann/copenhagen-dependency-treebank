@@ -225,8 +225,8 @@
 <W id="224" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dell'</W>
 <W id="225" msd="ADJ" tag="ADJ" in="" out="">unica</W>
 <W id="226" msd="ADJ" tag="ADJ" in="" out="">vera</W>
-<W id="227" msd="NOM" tag="NOM" in="" out="">politica</W>
-<W id="228" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="227" msd="NOM" tag="NOM" in="" out="1:ref">politica</W>
+<W id="228" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="229" msd="ADV" tag="ADV" in="" out="">finora</W>
 <W id="230" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">ha</W>
 <W id="231" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">consentito</W>
@@ -317,8 +317,8 @@
 <W id="316" msd="PON" tag="PON" in="" out="">:</W>
 <W id="317" msd="NOM" tag="NOM" in="" out="">è</W>
 <W id="318" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
-<W id="319" msd="NOM" tag="NOM" in="" out="">politica</W>
-<W id="320" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="319" msd="NOM" tag="NOM" in="" out="1:ref">politica</W>
+<W id="320" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="321" msd="ADV" tag="ADV" in="" out="">veramente</W>
 <W id="322" msd="ADV" tag="ADV" in="" out="">non</W>
 <W id="323" msd="VER&3a;pres" tag="VER&3a;pres" in="-80:coref" out="">comprendo</W>

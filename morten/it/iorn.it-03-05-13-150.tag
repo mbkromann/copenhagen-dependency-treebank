@@ -5,7 +5,7 @@
 <W id="4" msd="ADJ" tag="ADJ" in="" out="">onorevoli</W>
 <W id="5" msd="NOM" tag="NOM" in="" out="">colleghi</W>
 <W id="6" msd="PON" tag="PON" in="" out="">,</W>
-<W compound="¹permettete ²mi" id="7" msd="VER&3a;impe" tag="VER&3a;impe" in="" out="226:coref²">permettetemi</W>
+<W compound="¹permettete ²mi" id="7" msd="VER&3a;impe" tag="VER&3a;impe" in="" out="141:coref²">permettetemi</W>
 <W id="8" msd="ADV" tag="ADV" in="" out="">innanzitutto</W>
 <W id="9" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="10" msd="ADJ" tag="ADJ" in="" out="">salutare</W>
@@ -146,7 +146,7 @@
 <W id="145" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-2:ref" out="">che</W>
 <W id="146" msd="PON" tag="PON" in="" out="">,</W>
 <W id="147" msd="PRE" tag="PRE" in="" out="">a</W>
-<W id="148" msd="PRO&3a;poss" tag="PRO&3a;poss" in="" out="">mio</W>
+<W id="148" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-141:coref²" out="85:coref">mio</W>
 <W id="149" msd="NOM" tag="NOM" in="" out="">parere</W>
 <W id="150" msd="PON" tag="PON" in="" out="">,</W>
 <W id="151" msd="ADV" tag="ADV" in="" out="">non</W>
@@ -231,7 +231,7 @@
 <W id="230" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="231" msd="PRO&3a;indef" tag="PRO&3a;indef" in="-55:coref-res" out="">Tutto</W>
 <W id="232" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">questo</W>
-<W id="233" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-226:coref²" out="107:coref">mi</W>
+<W id="233" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-85:coref" out="107:coref">mi</W>
 <W id="234" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">sembra</W>
 <W id="235" msd="ADJ" tag="ADJ" in="" out="">assurdo</W>
 <W id="236" msd="SENT" tag="SENT" in="" out="">.</W>

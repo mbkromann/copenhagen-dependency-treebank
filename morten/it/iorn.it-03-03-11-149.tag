@@ -15,7 +15,7 @@
 <W id="14" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="15" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">ha</W>
 <W id="16" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">raggiunto</W>
-<W id="17" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">un</W>
+<W id="17" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="16:ref">un</W>
 <W id="18" msd="ADJ" tag="ADJ" in="" out="">solo</W>
 <W id="19" msd="NOM" tag="NOM" in="" out="3:coref-ell|18:coref-ell">obiettivo</W>
 <W id="20" msd="ADJ" tag="ADJ" in="" out="">chiaro</W>
@@ -31,7 +31,7 @@
 <W id="30" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dei</W>
 <W id="31" msd="NOM" tag="NOM" in="" out="">governatori</W>
 <W id="32" msd="PON" tag="PON" in="" out="">,</W>
-<W id="33" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="33" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-16:ref" out="">che</W>
 <W id="34" msd="ADV" tag="ADV" in="" out="">non</W>
 <W id="35" msd="NOM" tag="NOM" in="" out="">è</W>
 <W id="36" msd="ADV" tag="ADV" in="" out="">esattamente</W>

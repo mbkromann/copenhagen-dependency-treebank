@@ -18,7 +18,7 @@
 <W id="17" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">venuta</W>
 <W id="18" msd="ADV" tag="ADV" in="" out="">oggi</W>
 <W id="19" msd="PRE" tag="PRE" in="" out="">a</W>
-<W compound="¹riferir ²ci" id="20" msd="VER&3a;infi" tag="VER&3a;infi" in="0:²assoc-frame²" out="0:²assoc-frame²|33:coref²">riferirci</W>
+<W compound="¹riferir ²ci" id="20" msd="VER&3a;infi" tag="VER&3a;infi" in="0:²assoc-frame²" out="33:coref²|0:²assoc-frame²">riferirci</W>
 <W id="21" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">sulle</W>
 <W id="22" msd="NOM" tag="NOM" in="" out="">strategie</W>
 <W id="23" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">poste</W>
@@ -39,7 +39,7 @@
 <W id="38" msd="PON" tag="PON" in="" out="">,</W>
 <W id="39" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="40" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-3:ref" out="">cui</W>
-<W compound="¹affrontar ²lo" id="41" msd="VER&3a;pres" tag="VER&3a;pres" in="-34:coref" out="124:coref">ho</W>
+<W compound="¹affrontar ²lo" id="41" msd="VER&3a;pres" tag="VER&3a;pres" in="-34:coref" out="22:coref">ho</W>
 <W id="42" msd="ADV" tag="ADV" in="" out="">vivamente</W>
 <W id="43" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">sollecitato</W>
 <W id="44" msd="DET&3a;def" tag="DET&3a;def" in="" out="">l'</W>
@@ -61,7 +61,7 @@
 <W id="60" msd="ADJ" tag="ADJ" in="" out="">europea</W>
 <W id="61" msd="PON" tag="PON" in="" out="">,</W>
 <W id="62" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-3:ref" out="">che</W>
-<W id="63" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">ritengo</W>
+<W id="63" msd="VER&3a;pres" tag="VER&3a;pres" in="-22:coref" out="102:coref">ritengo</W>
 <W id="64" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">debba</W>
 <W id="65" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">mostrare</W>
 <W id="66" msd="ADJ" tag="ADJ" in="" out="">più</W>
@@ -92,8 +92,8 @@
 <W id="91" msd="ADJ" tag="ADJ" in="" out="">efficace</W>
 <W id="92" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">alle</W>
 <W id="93" msd="ADJ" tag="ADJ" in="" out="">nuove</W>
-<W id="94" msd="NOM" tag="NOM" in="" out="">sfide</W>
-<W id="95" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="94" msd="NOM" tag="NOM" in="" out="1:ref">sfide</W>
+<W id="95" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="96" msd="DET&3a;def" tag="DET&3a;def" in="" out="">l'</W>
 <W id="97" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">allungarsi</W>
 <W id="98" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dell'</W>
@@ -163,7 +163,7 @@
 <W id="162" msd="NOM" tag="NOM" in="" out="">iniziative</W>
 <W id="163" msd="ADJ" tag="ADJ" in="" out="">diversi</W>
 <W id="164" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="165" msd="VER&3a;pres" tag="VER&3a;pres" in="-124:coref" out="204:coref">Ritengo</W>
+<W id="165" msd="VER&3a;pres" tag="VER&3a;pres" in="-102:coref" out="204:coref">Ritengo</W>
 <W id="166" msd="PON" tag="PON" in="" out="">,</W>
 <W id="167" msd="ADV" tag="ADV" in="" out="">allora</W>
 <W id="168" msd="PON" tag="PON" in="" out="">,</W>

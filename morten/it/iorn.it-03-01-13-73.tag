@@ -204,9 +204,9 @@
 <W id="203" msd="NOM" tag="NOM" in="" out="">intesa</W>
 <W id="204" msd="PRE" tag="PRE" in="" out="">su</W>
 <W id="205" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-23:coref-var" out="">questa</W>
-<W id="206" msd="NOM" tag="NOM" in="" out="">relazione</W>
+<W id="206" msd="NOM" tag="NOM" in="" out="2:ref">relazione</W>
 <W id="207" msd="PON" tag="PON" in="" out="">,</W>
-<W id="208" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="208" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-2:ref" out="">che</W>
 <W id="209" msd="ADV" tag="ADV" in="" out="">giustamente</W>
 <W id="210" msd="DET&3a;def" tag="DET&3a;def" in="-201:coref-iden.sb" out="">il</W>
 <W id="211" msd="NOM" tag="NOM" in="" out="">presidente</W>

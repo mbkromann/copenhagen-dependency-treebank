@@ -47,8 +47,8 @@
 <W id="46" msd="ADJ" tag="ADJ" in="" out="">seconda</W>
 <W id="47" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">riguarda</W>
 <W id="48" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
-<W id="49" msd="NOM" tag="NOM" in="" out="">direttiva</W>
-<W id="50" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="49" msd="NOM" tag="NOM" in="" out="1:ref">direttiva</W>
+<W id="50" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="51" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">modifica</W>
 <W id="52" msd="DET&3a;def" tag="DET&3a;def" in="" out="">le</W>
 <W id="53" msd="NOM" tag="NOM" in="" out="">direttive</W>
@@ -177,12 +177,12 @@
 <W id="176" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dell'</W>
 <W id="177" msd="NOM" tag="NOM" in="" out="">inquinamento</W>
 <W id="178" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="179" msd="VER&3a;impe" tag="VER&3a;impe" in="" out="">Permettetemi</W>
+<W compound="¹permettete ²mi" id="179" msd="VER&3a;impe" tag="VER&3a;impe" in="" out="5:²coref²">Permettetemi</W>
 <W id="180" msd="PON" tag="PON" in="" out="">,</W>
 <W id="181" msd="ADV" tag="ADV" in="" out="">infine</W>
 <W id="182" msd="PON" tag="PON" in="" out="">,</W>
 <W id="183" msd="PRE" tag="PRE" in="" out="">di</W>
-<W id="184" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">soffermarmi</W>
+<W compound="¹soffermar ²mi" id="184" msd="VER&3a;infi" tag="VER&3a;infi" in="-5:²coref²" out="">soffermarmi</W>
 <W id="185" msd="PRE" tag="PRE" in="" out="">in</W>
 <W id="186" msd="NOM" tag="NOM" in="" out="">particolare</W>
 <W id="187" msd="PRE" tag="PRE" in="" out="">su</W>

@@ -11,7 +11,7 @@
 <W id="10" msd="CON" tag="CON" in="" out="">se</W>
 <W id="11" msd="PRO&3a;refl" tag="PRO&3a;refl" in="" out="">si</W>
 <W id="12" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">denunciano</W>
-<W id="13" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="101:coref-iden.sb|11:assoc-const">dei</W>
+<W id="13" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="11:assoc-const|101:coref-iden.sb">dei</W>
 <W id="14" msd="NOM" tag="NOM" in="" out="">comportamenti</W>
 <W id="15" msd="ADJ" tag="ADJ" in="" out="">arbitrari</W>
 <W id="16" msd="PON" tag="PON" in="" out="">,</W>
@@ -65,7 +65,7 @@
 <W id="64" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="11:coref">un</W>
 <W id="65" msd="NOM" tag="NOM" in="" out="">parlamentare</W>
 <W id="66" msd="ADJ" tag="ADJ" in="" out="">europeo</W>
-<W id="67" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">viene</W>
+<W id="67" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="34:coref-res">viene</W>
 <W id="68" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">invitato</W>
 <W id="69" msd="PRE" tag="PRE" in="" out="">da</W>
 <W id="70" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="16:coref-iden">un</W>
@@ -99,7 +99,7 @@
 <W id="98" msd="ADV" tag="ADV" in="" out="">Quindi</W>
 <W id="99" msd="PON" tag="PON" in="" out="">,</W>
 <W id="100" msd="ADV" tag="ADV" in="" out="">non</W>
-<W id="101" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">sono</W>
+<W id="101" msd="VER&3a;pres" tag="VER&3a;pres" in="-34:coref-res" out="">sono</W>
 <W id="102" msd="NOM" tag="NOM" in="" out="">cose</W>
 <W id="103" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="104" msd="ADJ" tag="ADJ" in="" out="">secondo</W>
@@ -152,8 +152,8 @@
 <W id="151" msd="CON" tag="CON" in="" out="">e</W>
 <W id="152" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="153" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="5:coref">quei</W>
-<W id="154" msd="NOM" tag="NOM" in="" out="">funzionari</W>
-<W id="155" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="154" msd="NOM" tag="NOM" in="" out="1:ref">funzionari</W>
+<W id="155" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="156" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">fanno</W>
 <W id="157" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
 <W id="158" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-9:coref|-5:coref" out="">loro</W>

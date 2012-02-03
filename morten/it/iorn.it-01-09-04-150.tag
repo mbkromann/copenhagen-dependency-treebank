@@ -137,7 +137,7 @@
 <W id="136" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-50:coref-var" out="">questi</W>
 <W id="137" msd="NOM" tag="NOM" in="" out="">pilastri</W>
 <W id="138" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dei</W>
-<W id="139" msd="PRO&3a;poss" tag="PRO&3a;poss" in="0:assoc-frame" out="0:assoc-frame|92:coref">nostri</W>
+<W id="139" msd="PRO&3a;poss" tag="PRO&3a;poss" in="0:assoc-frame" out="92:coref|0:assoc-frame">nostri</W>
 <W id="140" msd="NOM" tag="NOM" in="" out="2:ref">Stati</W>
 <W id="141" msd="ADJ" tag="ADJ" in="" out="">nazionali</W>
 <W id="142" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-2:ref" out="">che</W>
@@ -201,7 +201,7 @@
 <W id="200" msd="ADJ" tag="ADJ" in="" out="">Presidente</W>
 <W id="201" msd="PON" tag="PON" in="" out="">,</W>
 <W id="202" msd="NOM" tag="NOM" in="" out="">è</W>
-<W id="203" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-11:coref-ell" out="36:coref|1:ref">quella</W>
+<W id="203" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-11:coref-ell" out="1:ref|36:coref">quella</W>
 <W id="204" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="205" msd="PRE" tag="PRE" in="" out="">a</W>
 <W id="206" msd="NOM" tag="NOM" in="" out="">Durban</W>

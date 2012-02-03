@@ -3,13 +3,13 @@
 <W id="2" msd="ADJ" tag="ADJ" in="" out="">Presidente</W>
 <W id="3" msd="PON" tag="PON" in="" out="">,</W>
 <W id="4" msd="DET&3a;def" tag="DET&3a;def" in="" out="11:coref|125:coref-iden">la</W>
-<W id="5" msd="NOM" tag="NOM" in="" out="">risoluzione</W>
-<W id="6" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="5" msd="NOM" tag="NOM" in="" out="1:ref">risoluzione</W>
+<W id="6" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="7" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">viene</W>
 <W id="8" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">sottoposta</W>
 <W id="9" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">all'</W>
 <W id="10" msd="NOM" tag="NOM" in="" out="">attenzione</W>
-<W id="11" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="0:assoc-frame|24:coref-iden.sb">del</W>
+<W id="11" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="24:coref-iden.sb|0:assoc-frame">del</W>
 <W id="12" msd="NOM" tag="NOM" in="" out="">Parlamento</W>
 <W id="13" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">trae</W>
 <W id="14" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
@@ -180,7 +180,7 @@
 <W id="179" msd="NOM" tag="NOM" in="" out="1:ref">pericolo</W>
 <W id="180" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="181" msd="PON" tag="PON" in="" out="">,</W>
-<W id="182" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="76:coref-var">nella</W>
+<W id="182" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="76:assoc-agentive.inst">nella</W>
 <W id="183" msd="NOM" tag="NOM" in="" out="">pratica</W>
 <W id="184" msd="NOM" tag="NOM" in="" out="">applicazione</W>
 <W id="185" msd="PRE" tag="PRE" in="" out="">di</W>
@@ -189,7 +189,7 @@
 <W id="188" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="189" msd="NOM" tag="NOM" in="" out="">sostegno</W>
 <W id="190" msd="PRE" tag="PRE" in="" out="">a</W>
-<W id="191" msd="PRO" tag="PRO" in="" out="13:coref-var|1:ref">coloro</W>
+<W id="191" msd="PRO" tag="PRO" in="" out="1:ref|13:coref-var">coloro</W>
 <W id="192" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="193" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">collaborano</W>
 <W id="194" msd="PON" tag="PON" in="" out="">,</W>
@@ -256,7 +256,7 @@
 <W id="255" msd="NOM" tag="NOM" in="" out="">iter</W>
 <W id="256" msd="ADJ" tag="ADJ" in="" out="">giuridico</W>
 <W id="257" msd="PRE" tag="PRE" in="" out="">di</W>
-<W id="258" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-76:coref-var" out="">questa</W>
+<W id="258" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-76:assoc-agentive.inst" out="">questa</W>
 <W id="259" msd="NOM" tag="NOM" in="" out="">procedura</W>
 <W id="260" msd="PON" tag="PON" in="" out="">,</W>
 <W id="261" msd="PRE" tag="PRE" in="" out="">per</W>

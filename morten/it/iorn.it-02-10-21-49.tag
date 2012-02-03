@@ -33,9 +33,9 @@
 <W id="32" msd="NOM" tag="NOM" in="" out="">Solbes</W>
 <W id="33" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="34" msd="DET&3a;def" tag="DET&3a;def" in="" out="">L'</W>
-<W id="35" msd="NOM" tag="NOM" in="" out="">esigenza</W>
+<W id="35" msd="NOM" tag="NOM" in="" out="2:ref">esigenza</W>
 <W id="36" msd="PON" tag="PON" in="" out="">,</W>
-<W id="37" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="37" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-2:ref" out="">che</W>
 <W id="38" msd="VER&3a;pres" tag="VER&3a;pres" in="-23:coref" out="134:coref">faccio</W>
 <W id="39" msd="PRO&3a;poss" tag="PRO&3a;poss" in="" out="">mia</W>
 <W id="40" msd="PON" tag="PON" in="" out="">,</W>

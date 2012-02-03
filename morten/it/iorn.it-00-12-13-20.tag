@@ -42,11 +42,11 @@
 <W id="41" msd="PON" tag="PON" in="" out="">,</W>
 <W id="42" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="-9:[subj]">risoltosi</W>
 <W id="43" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nel</W>
-<W id="44" msd="NOM" tag="NOM" in="" out="">modo</W>
-<W id="45" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="44" msd="NOM" tag="NOM" in="" out="1:ref">modo</W>
+<W id="45" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="46" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="4:coref">constatiamo</W>
 <W id="47" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="48" msd="VER&3a;pres" tag="VER&3a;pres" in="-34:coref" out="133:coref">Penso</W>
+<W id="48" msd="VER&3a;pres" tag="VER&3a;pres" in="-34:coref" out="67:coref">Penso</W>
 <W id="49" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="50" msd="VER&3a;pres" tag="VER&3a;pres" in="-4:coref" out="37:coref">stiamo</W>
 <W id="51" msd="VER&3a;geru" tag="VER&3a;geru" in="" out="">raccogliendo</W>
@@ -54,9 +54,9 @@
 <W id="53" msd="NOM" tag="NOM" in="" out="">frutti</W>
 <W id="54" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="55" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
-<W id="56" msd="NOM" tag="NOM" in="" out="">decisione</W>
+<W id="56" msd="NOM" tag="NOM" in="" out="2:ref">decisione</W>
 <W id="57" msd="ADJ" tag="ADJ" in="" out="">saggia</W>
-<W id="58" msd="CON" tag="CON" in="" out="">che</W>
+<W id="58" msd="CON" tag="CON" in="-2:ref" out="">che</W>
 <W id="59" msd="NOM" tag="NOM" in="" out="">può</W>
 <W id="60" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">far</W>
 <W id="61" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">avanzare</W>
@@ -113,7 +113,7 @@
 <W id="112" msd="PRE" tag="PRE" in="" out="">con</W>
 <W id="113" msd="NOM" tag="NOM" in="" out="">celerità</W>
 <W id="114" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="115" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">Dico</W>
+<W id="115" msd="VER&3a;pres" tag="VER&3a;pres" in="-67:coref" out="66:coref">Dico</W>
 <W id="116" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-23:coref-res" out="">questo</W>
 <W id="117" msd="PRE" tag="PRE" in="" out="">con</W>
 <W id="118" msd="ADJ" tag="ADJ" in="" out="">molta</W>
@@ -179,7 +179,7 @@
 <W id="178" msd="NOM" tag="NOM" in="" out="">così</W>
 <W id="179" msd="ADJ" tag="ADJ" in="" out="">liberista</W>
 <W id="180" msd="CON" tag="CON" in="" out="">come</W>
-<W id="181" msd="VER&3a;pres" tag="VER&3a;pres" in="-133:coref" out="7:coref">ho</W>
+<W id="181" msd="VER&3a;pres" tag="VER&3a;pres" in="-66:coref" out="7:coref">ho</W>
 <W id="182" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">sentito</W>
 <W id="183" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">dire</W>
 <W id="184" msd="SENT" tag="SENT" in="" out="">.</W>
@@ -193,8 +193,8 @@
 <W id="192" msd="ADV" tag="ADV" in="" out="">invece</W>
 <W id="193" msd="PON" tag="PON" in="" out="">,</W>
 <W id="194" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">degli</W>
-<W id="195" msd="NOM" tag="NOM" in="" out="">elementi</W>
-<W id="196" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="195" msd="NOM" tag="NOM" in="" out="1:ref">elementi</W>
+<W id="196" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="197" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">peggiorano</W>
 <W id="198" msd="DET&3a;def" tag="DET&3a;def" in="-28:coref-iden.sb" out="">la</W>
 <W id="199" msd="NOM" tag="NOM" in="" out="">proposta</W>

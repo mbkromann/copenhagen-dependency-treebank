@@ -26,8 +26,8 @@
 <W id="25" msd="NOM" tag="NOM" in="" out="">fine</W>
 <W id="26" msd="PRE" tag="PRE" in="" out="">a</W>
 <W id="27" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
-<W id="28" msd="NOM" tag="NOM" in="" out="">discussione</W>
-<W id="29" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="28" msd="NOM" tag="NOM" in="" out="1:ref">discussione</W>
+<W id="29" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="30" msd="ADV" tag="ADV" in="" out="">ormai</W>
 <W id="31" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">dura</W>
 <W id="32" msd="PRE" tag="PRE" in="" out="">da</W>
@@ -235,10 +235,10 @@
 <W id="234" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="235" msd="ADV" tag="ADV" in="" out="">non</W>
 <W id="236" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">ostacolare</W>
-<W id="237" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">quello</W>
+<W id="237" msd="PRO&3a;demo" tag="PRO&3a;demo" in="3:coref-ell" out="">quello</W>
 <W id="238" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="239" msd="NOM" tag="NOM" in="" out="">è</W>
-<W id="240" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
+<W id="240" msd="DET&3a;def" tag="DET&3a;def" in="" out="-3:coref-ell">il</W>
 <W id="241" msd="NOM" tag="NOM" in="" out="">progresso</W>
 <W id="242" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
 <W id="243" msd="NOM" tag="NOM" in="" out="">scienza</W>

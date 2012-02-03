@@ -43,8 +43,8 @@
 <W id="42" msd="NOM" tag="NOM" in="" out="">posizione</W>
 <W id="43" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dei</W>
 <W id="44" msd="NUM" tag="NUM" in="" out="">14</W>
-<W id="45" msd="NOM" tag="NOM" in="" out="">paesi</W>
-<W id="46" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="45" msd="NOM" tag="NOM" in="" out="1:ref">paesi</W>
+<W id="46" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="47" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">hanno</W>
 <W id="48" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">rifiutato</W>
 <W id="49" msd="NOM" tag="NOM" in="" out="">contatti</W>
@@ -173,8 +173,8 @@
 <W id="172" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">conosciamo</W>
 <W id="173" msd="DET&3a;def" tag="DET&3a;def" in="" out="">le</W>
 <W id="174" msd="NOM" tag="NOM" in="" out="">cause</W>
-<W id="175" msd="ADJ" tag="ADJ" in="" out="">sociali</W>
-<W id="176" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="175" msd="ADJ" tag="ADJ" in="" out="1:ref">sociali</W>
+<W id="176" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="177" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">concorrono</W>
 <W id="178" msd="PON" tag="PON" in="" out="">,</W>
 <W id="179" msd="PRE" tag="PRE" in="" out="">con</W>
@@ -256,7 +256,7 @@
 <W id="255" msd="NOM" tag="NOM" in="" out="2:ref">condizioni</W>
 <W id="256" msd="PRE" tag="PRE" in="" out="">per</W>
 <W id="257" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-2:ref" out="">cui</W>
-<W id="258" msd="NOM" tag="NOM" in="" out="">può</W>
+<W id="258" msd="NOM" tag="NOM" in="" out="23:coref-res.prg">può</W>
 <W id="259" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">rinascere</W>
 <W id="260" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">un</W>
 <W id="261" msd="NOM" tag="NOM" in="" out="">pericolo</W>
@@ -279,7 +279,7 @@
 <W id="278" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">mostrata</W>
 <W id="279" msd="ADJ" tag="ADJ" in="" out="">consapevole</W>
 <W id="280" msd="PRE" tag="PRE" in="" out="">di</W>
-<W id="281" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">questo</W>
+<W id="281" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-23:coref-res.prg" out="">questo</W>
 <W id="282" msd="NOM" tag="NOM" in="" out="">dramma</W>
 <W id="283" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="284" msd="NOM" tag="NOM" in="" out="">civiltà</W>

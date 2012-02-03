@@ -24,7 +24,7 @@
 <W id="23" msd="ADJ" tag="ADJ" in="" out="">strategica</W>
 <W id="24" msd="PON" tag="PON" in="" out="">,</W>
 <W id="25" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-3:ref" out="">che</W>
-<W id="26" msd="PRO&3a;refl" tag="PRO&3a;refl" in="0:assoc-frame" out="0:assoc-frame|85:coref">ci</W>
+<W id="26" msd="PRO&3a;refl" tag="PRO&3a;refl" in="0:assoc-frame" out="85:coref|0:assoc-frame">ci</W>
 <W id="27" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">consente</W>
 <W id="28" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="29" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">guardare</W>
@@ -112,7 +112,7 @@
 <W id="111" msd="VER&3a;pres" tag="VER&3a;pres" in="-85:coref" out="37:coref">possiamo</W>
 <W id="112" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">dire</W>
 <W id="113" msd="PRE" tag="PRE" in="" out="">di</W>
-<W id="114" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="47:coref-res|7:coref-res">essere</W>
+<W id="114" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="7:coref-res|47:coref-res">essere</W>
 <W id="115" msd="NOM" tag="NOM" in="" out="">già</W>
 <W id="116" msd="ADV" tag="ADV" in="" out="">abbondantemente</W>
 <W id="117" msd="PRE" tag="PRE" in="" out="">in</W>

@@ -68,7 +68,7 @@
 <W id="67" msd="NOM" tag="NOM" in="" out="">più</W>
 <W id="68" msd="PON" tag="PON" in="" out="">,</W>
 <W id="69" msd="NOM" tag="NOM" in="" out="">perché</W>
-<W id="70" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-12:coref" out="21:coref|49:coref">mi</W>
+<W id="70" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-12:coref" out="21:coref">mi</W>
 <W id="71" msd="VER&3a;impf" tag="VER&3a;impf" in="" out="">pareva</W>
 <W id="72" msd="PRE" tag="PRE" in="" out="">tra</W>
 <W id="73" msd="DET&3a;def" tag="DET&3a;def" in="" out="">l'</W>
@@ -89,7 +89,7 @@
 <W id="88" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="89" msd="PRO&3a;indef" tag="PRO&3a;indef" in="" out="">tutto</W>
 <W id="90" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="91" msd="VER&3a;pres" tag="VER&3a;pres" in="-21:coref" out="">Sono</W>
+<W id="91" msd="VER&3a;pres" tag="VER&3a;pres" in="-21:coref" out="28:coref">Sono</W>
 <W id="92" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">rimasto</W>
 <W id="93" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">stupito</W>
 <W id="94" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dalla</W>
@@ -117,7 +117,7 @@
 <W id="116" msd="NOM" tag="NOM" in="" out="">Stati</W>
 <W id="117" msd="PON" tag="PON" in="" out="">-</W>
 <W id="118" msd="CON" tag="CON" in="" out="">e</W>
-<W id="119" msd="VER&3a;pres" tag="VER&3a;pres" in="-49:coref" out="51:coref">ho</W>
+<W id="119" msd="VER&3a;pres" tag="VER&3a;pres" in="-28:coref" out="51:coref">ho</W>
 <W id="120" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">notato</W>
 <W id="121" msd="ADJ" tag="ADJ" in="" out="">clamorose</W>
 <W id="122" msd="NOM" tag="NOM" in="" out="">assenze</W>
@@ -217,7 +217,7 @@
 <W id="216" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="217" msd="ADV" tag="ADV" in="" out="">Ecco</W>
 <W id="218" msd="NOM" tag="NOM" in="" out="">perché</W>
-<W id="219" msd="VER&3a;pres" tag="VER&3a;pres" in="-49:coref" out="83:coref">ho</W>
+<W id="219" msd="VER&3a;pres" tag="VER&3a;pres" in="-49:coref" out="52:coref">ho</W>
 <W id="220" msd="NOM" tag="NOM" in="" out="">timore</W>
 <W id="221" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="222" msd="PRO&3a;refl" tag="PRO&3a;refl" in="" out="">si</W>
@@ -269,7 +269,7 @@
 <W id="268" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">degli</W>
 <W id="269" msd="NOM" tag="NOM" in="" out="">strumenti</W>
 <W id="270" msd="PON" tag="PON" in="" out="">:</W>
-<W id="271" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">ricordo</W>
+<W id="271" msd="VER&3a;pres" tag="VER&3a;pres" in="-52:coref" out="31:coref">ricordo</W>
 <W id="272" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
 <W id="273" msd="NOM" tag="NOM" in="" out="">fatto</W>
 <W id="274" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
@@ -300,7 +300,7 @@
 <W id="299" msd="NOM" tag="NOM" in="" out="">spunto</W>
 <W id="300" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">esiste</W>
 <W id="301" msd="PON" tag="PON" in="" out="">:</W>
-<W id="302" msd="NOM" tag="NOM" in="-83:coref" out="">ricordo</W>
+<W id="302" msd="NOM" tag="NOM" in="-31:coref" out="">ricordo</W>
 <W id="303" msd="CON" tag="CON" in="" out="">come</W>
 <W id="304" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">debba</W>
 <W id="305" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">esistere</W>

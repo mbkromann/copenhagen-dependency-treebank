@@ -28,7 +28,7 @@
 <W id="27" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
 <W id="28" msd="NOM" tag="NOM" in="" out="">popolazione</W>
 <W id="29" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nei</W>
-<W id="30" msd="PRO&3a;poss" tag="PRO&3a;poss" in="0:assoc-frame" out="0:assoc-frame|4:coref">nostri</W>
+<W id="30" msd="PRO&3a;poss" tag="PRO&3a;poss" in="0:assoc-frame" out="4:coref|0:assoc-frame">nostri</W>
 <W id="31" msd="NOM" tag="NOM" in="" out="">paesi</W>
 <W id="32" msd="PON" tag="PON" in="" out="">,</W>
 <W id="33" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nel</W>
@@ -284,8 +284,8 @@
 <W id="283" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="284" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
 <W id="285" msd="ADJ" tag="ADJ" in="" out="">grande</W>
-<W id="286" msd="NOM" tag="NOM" in="" out="">sfida</W>
-<W id="287" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="286" msd="NOM" tag="NOM" in="" out="1:ref">sfida</W>
+<W id="287" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="288" msd="PRO&3a;indef" tag="PRO&3a;indef" in="-204:coref" out="">tutti</W>
 <W id="289" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">noi</W>
 <W id="290" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">abbiamo</W>
