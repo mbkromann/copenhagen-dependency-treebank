@@ -1,4 +1,4 @@
-<root>﻿	S	﻿
+<root>
 <W lemma="СОТР" msd="S" romanized="SOTR" sdeps="" in="" out="2:conj">СОТР</W>
 <W lemma="=" msd="PUNCT" romanized="=" sdeps="coord" in="1:coord" out="">=</W>
 <W lemma="АГГ" msd="S" romanized="АGG" sdeps="conj" in="-2:conj" out="-1:coord">АГГ</W>

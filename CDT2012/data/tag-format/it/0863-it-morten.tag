@@ -52,7 +52,7 @@
 <W id="51" lemma="abbondanza" msd="NC" tag="NOM" in="-1:nobj" out="">abbondanza</W>
 <W id="52" lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W id="53" lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:conj" out="-1:coord|1:²attr|1:{iden}">personalità</W>
-<W compound="�²�di³�ingegno" id="54" lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:²attr|-1:{iden}|0:³nobj²" out="1:resem³|0:³nobj²">d’ingegno</W>
+<W compound="di_ingegno" id="54" lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:²attr|-1:{iden}|0:³nobj²" out="1:resem³|0:³nobj²">d_ingegno</W>
 <W id="55" lemma="come" msd="CS" tag="CON" in="-1:resem³" out="5:nobj">come</W>
 <W id="56" lemma="per" msd="SP" tag="PRE" in="4:exem" out="1:nobj">per</W>
 <W id="57" lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+">es</W>
@@ -228,5 +228,5 @@
 <W id="227" lemma="al" msd="SP+P" tag="PRE:det" in="-5:conj" out="-1:coord|2:nobj">alla</W>
 <W id="228" lemma="generale" msd="AN" tag="ADJ" in="1:attr" out="">generale</W>
 <W id="229" lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:²pobj|1:{arg}">libertà</W>
-<W compound="�²�d'³�insediamento�^��.^�^�^��&quot;" id="230" lemma="&lt;unknown&gt;" msd="NC" note="skal deles" tag="NOM" in="-1:²pobj|-1:{arg}|-21:⁴pnct|-21:⁵pnct|0:³nobj²" out="0:³nobj²">d’insediamento.”</W>
+<W compound="d'_insediamento.&quot;" id="230" lemma="&lt;unknown&gt;" msd="NC" note="skal deles" tag="NOM" in="-1:²pobj|-1:{arg}|-21:⁴pnct|-21:⁵pnct|0:³nobj²" out="0:³nobj²">d_insediamento.</W>
 </root>

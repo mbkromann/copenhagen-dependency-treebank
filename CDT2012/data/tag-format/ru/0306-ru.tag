@@ -1,4 +1,4 @@
-<root>﻿	S	﻿
+<root>
 <W lemma="если" msd="CONJ" romanized="Esli" sdeps="" in="7:mod" out="1:&lt;pred&gt;|3:&lt;subj&gt;|6:pnct">Если</W>
 <W lemma="у" msd="PR" romanized="u" sdeps="" in="-1:&lt;pred&gt;" out="1:nobj">у</W>
 <W lemma="вы" msd="S-PRO" romanized="Vas" sdeps="" in="-1:nobj" out="">Вас</W>
@@ -19,7 +19,7 @@
 <W lemma="@card@" msd="NUM" romanized="16" sdeps="list" in="-1:list" out="">16</W>
 <W lemma="," msd="PUNCT" romanized="," sdeps="pnct" in="-2:pnct" out="">,</W>
 <W lemma="@card@" msd="NUM" romanized="1505" sdeps="list" in="-3:list" out="1:list">1505</W>
-<W lemma="K�benhavn" msd="S" romanized="K�benhavn" sdeps="list" in="-1:list" out="1:list">K�benhavn</W>
+<W lemma="Kobenhavn" msd="S" romanized="Kobenhavn" sdeps="list" in="-1:list" out="1:list">Kobenhavn</W>
 <W lemma="V." msd="S" romanized="V." sdeps="list" in="-1:list" out="">V.</W>
 <W lemma="Вскрыть" msd="V" romanized="Vskryt'" sdeps="vobj" in="4:vobj" out="2:dobj">Вскрыть</W>
 <W lemma="ваш" msd="A-PRO" romanized="Vase" sdeps="dobj" in="1:possr" out="">Ваше</W>

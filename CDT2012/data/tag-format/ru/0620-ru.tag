@@ -1,4 +1,4 @@
-<root>Я	S-PRO	я
+<root>
 <W msd="V" romanized="cuvstvoval" lemma="чувствовать">чувствовал</W>
 <W msd="PUNCT" romanized="," lemma=",">,</W>
 <W msd="CONJ" romanized="cto" lemma="что">что</W>

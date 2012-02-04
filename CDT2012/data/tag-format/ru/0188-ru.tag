@@ -1,4 +1,4 @@
-<root>﻿	S	﻿
+<root>
 <W msd="S" romanized="Putevoditel'" lemma="путеводитель">Путеводитель</W>
 <W msd="SENT" romanized="." lemma=".">.</W>
 <W msd="PUNCT" romanized="–" lemma="–">–</W>

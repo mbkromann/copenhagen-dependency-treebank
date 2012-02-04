@@ -1,4 +1,4 @@
-<root>﻿	S	﻿
+<root>
 <W lemma="после" msd="PR" romanized="Posle" sdeps="mod" in="17:mod" out="2:nobj">После</W>
 <W lemma="жестокий" msd="A" romanized="zestokogo" sdeps="mod" in="1:mod" out="">жестокого</W>
 <W lemma="подавление" msd="S" romanized="podavlenia" sdeps="nobj" in="-2:nobj" out="-1:mod|1:possr|5:mod|8:nid">подавления</W>
@@ -131,7 +131,7 @@
 <W lemma="рыночный" msd="A" romanized="rynocnye" sdeps="" in="1:mod" out="">рыночные</W>
 <W lemma="сила" msd="S" romanized="sily" sdeps="" in="-2:dobj" out="-1:mod">силы</W>
 <W lemma="." msd="SENT" romanized="." sdeps="" in="-13:&lt;pnct&gt;" out="">.</W>
-<W lemma="�" msd="PUNCT" romanized="�" sdeps="" in="2:pnct" out="">�</W>
+<W lemma="?" msd="PUNCT" romanized="?" sdeps="" in="2:pnct" out="">?</W>
 <W lemma="FLS" msd="S" romanized="FLS" sdeps="" in="1:subj" out="">FLS</W>
 <W lemma="развивать" msd="V" romanized="razvivaet" sdeps="" in="" out="-1:subj|-2:pnct|2:dobj|5:mod|8:pnct|9:mods|17:pnct">развивает</W>
 <W lemma="деловой" msd="A" romanized="delovuu" sdeps="" in="1:mod" out="">деловую</W>

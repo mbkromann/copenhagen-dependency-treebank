@@ -1,4 +1,4 @@
-<root>﻿	S	﻿
+<root>
 <W lemma="предложение" msd="S" romanized="Predlozenie" sdeps="subj" in="12:&lt;subj&gt;" out="1:pobj">Предложение</W>
 <W lemma="о" msd="PR" romanized="o" sdeps="pobj" in="-1:pobj" out="2:nobj">о</W>
 <W lemma="совместный" msd="A" romanized="sovmestnyh" sdeps="mod" in="1:mod" out="">совместных</W>
