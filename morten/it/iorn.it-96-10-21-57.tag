@@ -18,8 +18,8 @@
 <W id="17" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="18" msd="ADJ" tag="ADJ" in="" out="">intensi</W>
 <W id="19" msd="NOM" tag="NOM" in="" out="">lavori</W>
-<W id="20" msd="ADJ" tag="ADJ" in="" out="">parlamentari</W>
-<W id="21" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="20" msd="ADJ" tag="ADJ" in="" out="1:ref">parlamentari</W>
+<W id="21" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="22" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">toccano</W>
 <W id="23" msd="ADJ" tag="ADJ" in="" out="">tutti</W>
 <W id="24" msd="DET&3a;def" tag="DET&3a;def" in="" out="">i</W>
@@ -106,7 +106,7 @@
 <W id="105" msd="NOM" tag="NOM" in="" out="">è</W>
 <W id="106" msd="NOM" tag="NOM" in="" out="">più</W>
 <W id="107" msd="NOM" tag="NOM" in="" out="">proprietà</W>
-<W id="108" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="0:assoc-frame|46:coref-iden.sb">dei</W>
+<W id="108" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="46:coref-iden.sb|0:assoc-frame">dei</W>
 <W id="109" msd="ADJ" tag="ADJ" in="" out="">singoli</W>
 <W id="110" msd="NOM" tag="NOM" in="" out="">Stati</W>
 <W id="111" msd="NOM" tag="NOM" in="" out="">membri</W>
@@ -114,7 +114,7 @@
 <W id="113" msd="NOM" tag="NOM" in="" out="">bensì</W>
 <W id="114" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="115" msd="ADJ" tag="ADJ" in="" out="">tutta</W>
-<W id="116" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame|3:assoc-const">la</W>
+<W id="116" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="3:assoc-const|0:assoc-frame">la</W>
 <W id="117" msd="NOM" tag="NOM" in="" out="">Comunità</W>
 <W id="118" msd="PON" tag="PON" in="" out="">;</W>
 <W id="119" msd="ADJ" tag="ADJ" in="-3:assoc-const" out="">tutte</W>
@@ -204,7 +204,7 @@
 <W id="203" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="7:coref-var">della</W>
 <W id="204" msd="NOM" tag="NOM" in="" out="">dotazione</W>
 <W id="205" msd="CON" tag="CON" in="" out="">e</W>
-<W id="206" msd="VER&3a;cpre" tag="VER&3a;cpre" in="-8:coref" out="">insistiamo</W>
+<W id="206" msd="VER&3a;cpre" tag="VER&3a;cpre" in="-8:coref" out="58:coref">insistiamo</W>
 <W id="207" msd="NOM" tag="NOM" in="" out="">affinché</W>
 <W id="208" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
 <W id="209" msd="NOM" tag="NOM" in="" out="">metà</W>
@@ -262,7 +262,7 @@
 <W id="261" msd="PRE" tag="PRE" in="" out="">per</W>
 <W id="262" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">lasciare</W>
 <W id="263" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
-<W id="264" msd="PRO&3a;poss" tag="PRO&3a;poss" in="" out="">nostro</W>
+<W id="264" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-58:coref" out="">nostro</W>
 <W id="265" msd="ADJ" tag="ADJ" in="" out="">attuale</W>
 <W id="266" msd="NOM" tag="NOM" in="" out="">patrimonio</W>
 <W id="267" msd="ADJ" tag="ADJ" in="" out="">culturale</W>

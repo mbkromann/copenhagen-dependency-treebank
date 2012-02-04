@@ -184,7 +184,7 @@
 <W id="183" msd="PON" tag="PON" in="" out="">,</W>
 <W id="184" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="185" msd="ADV" tag="ADV" in="" out="">non</W>
-<W id="186" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="0:assoc-frame|29:coref">possiamo</W>
+<W id="186" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="29:coref|0:assoc-frame">possiamo</W>
 <W id="187" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">accettare</W>
 <W id="188" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="189" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nella</W>

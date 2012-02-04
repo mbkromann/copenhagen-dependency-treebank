@@ -8,7 +8,7 @@
 <W id="7" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">ha</W>
 <W id="8" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">premuto</W>
 <W id="9" msd="PRE" tag="PRE" in="" out="">in</W>
-<W id="10" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">questi</W>
+<W id="10" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="24:coref-iden">questi</W>
 <W id="11" msd="NOM" tag="NOM" in="" out="">anni</W>
 <W id="12" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">sui</W>
 <W id="13" msd="NOM" tag="NOM" in="" out="">governi</W>
@@ -32,7 +32,7 @@
 <W id="31" msd="NPR" tag="NPR" in="" out="">Jugoslavia</W>
 <W id="32" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="33" msd="PRE" tag="PRE" in="" out="">In</W>
-<W id="34" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">questi</W>
+<W id="34" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-24:coref-iden" out="">questi</W>
 <W id="35" msd="NOM" tag="NOM" in="" out="">anni</W>
 <W id="36" msd="ADV" tag="ADV" in="" out="">non</W>
 <W id="37" msd="VER&3a;pres" tag="VER&3a;pres" in="-32:coref" out="20:coref">abbiamo</W>

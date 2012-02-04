@@ -76,9 +76,9 @@
 <W id="75" msd="ADJ" tag="ADJ" in="" out="">meridionali</W>
 <W id="76" msd="PRE&3a;det" tag="PRE&3a;det" in="-11:coref-var" out="70:coref-iden">del</W>
 <W id="77" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-44:coref" out="">mio</W>
-<W id="78" msd="NOM" tag="NOM" in="" out="2:ref">paese</W>
+<W id="78" msd="NOM" tag="NOM" in="" out="">paese</W>
 <W id="79" msd="PON" tag="PON" in="" out="">,</W>
-<W id="80" msd="ADV" tag="ADV" in="-2:ref" out="">dove</W>
+<W id="80" msd="ADV" tag="ADV" in="" out="">dove</W>
 <W id="81" msd="DET&3a;def" tag="DET&3a;def" in="" out="">la</W>
 <W id="82" msd="NOM" tag="NOM" in="" out="">disoccupazione</W>
 <W id="83" msd="NOM" tag="NOM" in="" out="148:coref-res">è</W>

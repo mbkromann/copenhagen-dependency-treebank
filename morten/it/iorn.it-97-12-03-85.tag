@@ -50,7 +50,7 @@
 <W id="49" msd="PRE" tag="PRE" in="" out="">ad</W>
 <W id="50" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">accogliere</W>
 <W id="51" msd="ADV" tag="ADV" in="" out="">positivamente</W>
-<W id="52" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="14:coref-iden|0:assoc-frame|2:assoc-const|6:assoc-const">nell'</W>
+<W id="52" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="2:assoc-const|6:assoc-const|14:coref-iden|0:assoc-frame">nell'</W>
 <W id="53" msd="NOM" tag="NOM" in="" out="">Unione</W>
 <W id="54" msd="DET&3a;def" tag="DET&3a;def" in="-2:assoc-const" out="">le</W>
 <W id="55" msd="ADJ" tag="ADJ" in="" out="">nuove</W>
@@ -144,7 +144,7 @@
 <W id="143" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-2:coref-ell" out="">quella</W>
 <W id="144" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="145" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">allargare</W>
-<W id="146" msd="DET&3a;def" tag="DET&3a;def" in="-13:coref-iden.sb" out="21:assoc-const|5:coref-iden.sb">l'</W>
+<W id="146" msd="DET&3a;def" tag="DET&3a;def" in="-13:coref-iden.sb" out="5:coref-iden.sb|21:assoc-const">l'</W>
 <W id="147" msd="NPR" tag="NPR" in="" out="">Europa</W>
 <W id="148" msd="ADJ" tag="ADJ" in="" out="">occidentale</W>
 <W id="149" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">ai</W>

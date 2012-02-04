@@ -5,7 +5,7 @@
 <W id="4" msd="ADJ" tag="ADJ" in="" out="">onorevoli</W>
 <W id="5" msd="NOM" tag="NOM" in="" out="">colleghi</W>
 <W id="6" msd="PON" tag="PON" in="" out="">,</W>
-<W id="7" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="0:assoc-frame|68:coref">siamo</W>
+<W id="7" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="68:coref|0:assoc-frame">siamo</W>
 <W id="8" msd="ADV" tag="ADV" in="" out="">oggi</W>
 <W id="9" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">riusciti</W>
 <W id="10" msd="PRE" tag="PRE" in="" out="">a</W>
@@ -35,7 +35,7 @@
 <W id="34" msd="NOM" tag="NOM" in="" out="">impegno</W>
 <W id="35" msd="ADJ" tag="ADJ" in="" out="">comune</W>
 <W id="36" msd="CON" tag="CON" in="" out="">e</W>
-<W id="37" msd="NOM" tag="NOM" in="" out="4:coref-ell|2:ref">logica</W>
+<W id="37" msd="NOM" tag="NOM" in="" out="2:ref|4:coref-ell">logica</W>
 <W id="38" msd="ADJ" tag="ADJ" in="" out="">collettiva</W>
 <W id="39" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-2:ref" out="">che</W>
 <W id="40" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">superi</W>
@@ -261,7 +261,7 @@
 <W id="260" msd="NOM" tag="NOM" in="" out="">moneta</W>
 <W id="261" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="262" msd="ADV" tag="ADV" in="" out="">Oggi</W>
-<W id="263" msd="VER&3a;pres" tag="VER&3a;pres" in="-27:coref" out="24:coref|6:coref">abbiamo</W>
+<W id="263" msd="VER&3a;pres" tag="VER&3a;pres" in="-27:coref" out="6:coref|24:coref">abbiamo</W>
 <W id="264" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">realizzato</W>
 <W id="265" msd="DET&3a;def" tag="DET&3a;def" in="-6:coref-iden.sb" out="">la</W>
 <W id="266" msd="NOM" tag="NOM" in="" out="">moneta</W>
