@@ -1,13 +1,75 @@
-<!ELEMENT root (p+ | s+ | W+)>
+<!ELEMENT root (p | s | W)+>
 
-<!ELEMENT p (s+)>
+<!ELEMENT tei.2 ( teiHeader, text )>
 
-<!ELEMENT s (W*)>
+<!ELEMENT teiHeader ( fileDesc, profileDesc )>
+<!ATTLIST teiHeader type CDATA #IMPLIED>
+
+
+<!ELEMENT fileDesc ( titleStmt, extent, publicationStmt, sourceDesc )>
+
+<!ELEMENT titleStmt ( title )>
+<!ELEMENT extent ( #PCDATA )>
+<!ATTLIST extent words CDATA #IMPLIED>
+
+<!ELEMENT publicationStmt ( distributor, address, date, availability )>
+<!ELEMENT sourceDesc ( biblStruct )>
+
+<!ELEMENT distributor ( #PCDATA )>
+<!ELEMENT address ( #PCDATA )>
+<!ELEMENT date ( #PCDATA )>
+<!ELEMENT availability ( #PCDATA )>
+<!ATTLIST availability status CDATA #IMPLIED>
+
+<!ELEMENT title ( #PCDATA )>
+
+
+<!ELEMENT text ( body )>
+<!ATTLIST text id CDATA #IMPLIED>
+
+<!ELEMENT body ( div1+ )>
+
+<!ELEMENT catRef EMPTY>
+<!ATTLIST catRef target CDATA #IMPLIED>
+
+<!ELEMENT div1 ( p+ | note)>
+<!ATTLIST div1 type CDATA #IMPLIED>
+
+<!ELEMENT author ( #PCDATA )>
+<!ATTLIST author gender CDATA #IMPLIED
+                 born CDATA #IMPLIED>
+
+
+<!ELEMENT textClass ( catRef+ )>
+<!ELEMENT pubPlace ( #PCDATA )>
+<!ELEMENT profileDesc ( creation, langUsage, textClass )>
+<!ELEMENT monogr ( title?, author*, imprint )>
+<!ELEMENT langUsage ( #PCDATA )>
+<!ELEMENT imprint ( pubPlace, publisher?, date )>
+<!ELEMENT creation ( #PCDATA )>
+<!ELEMENT biblStruct ( analytic?, monogr? )>
+<!ELEMENT analytic ( title, author* )>
+<!ELEMENT publisher ( #PCDATA )>
+<!ELEMENT hi ( W+ )>
+<!ELEMENT note ( s+ )>
+<!ATTLIST note resp CDATA #IMPLIED>
+
+
+
+
+
+
+
+
+
+<!ELEMENT p (s|W|note)+>
+
+<!ELEMENT s (W|hi)*>
 
 <!ELEMENT W (#PCDATA)>
 
 <!ATTLIST W lemma CDATA #IMPLIED
-            msd CDATA #REQUIRED
+            msd CDATA #IMPLIED
             tag CDATA #IMPLIED
             in CDATA #IMPLIED
             out CDATA #IMPLIED
