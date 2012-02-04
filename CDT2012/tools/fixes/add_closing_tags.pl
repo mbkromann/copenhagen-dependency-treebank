@@ -6,8 +6,9 @@ use warnings;
 use File::Slurp;
 
 my $datadir = '../../data/';
+my $regexp_mask = $ARGV[0] || '.';
 
-foreach my $filename (glob "$datadir/tag-format/*/*.tag") {
+foreach my $filename (grep {/$regexp_mask/} glob "$datadir/tag-format/*/*.tag") {
 
     my $content = File::Slurp::read_file( $filename );
 

@@ -5,9 +5,10 @@ use warnings;
 
 use File::Slurp qw( :edit );
 
+my $regexp_mask = $ARGV[0] || '.';
 my $datadir = '../../data/';
 
-foreach my $filename (glob "$datadir/tag-format/*/*") {
+foreach my $filename (grep {/$regexp_mask/} glob "$datadir/tag-format/*/*") {
     edit_file {
         s/&3a;/:/g;
         s/&7c;/|/g;
