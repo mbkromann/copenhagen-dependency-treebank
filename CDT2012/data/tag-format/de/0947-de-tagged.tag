@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">SFs</W>
 <W lemma="Vorschlag" msd="NC" tag="NN" in="" out="">Vorschlag</W>
@@ -123,7 +123,7 @@
 <W lemma="gut" msd="AN" tag="ADJA" in="" out="">bessere</W>
 <W lemma="Umweltbestimmung" msd="NC" tag="NN" in="" out="">Umweltbestimmungen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="Recht&7c;Rechte" msd="NC" tag="NN" in="" out="">Rechte</W>
+<W lemma="Recht|Rechte" msd="NC" tag="NN" in="" out="">Rechte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Gehaltsempfänger" msd="NC" tag="NN" in="" out="">Gehaltsempfänger</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
@@ -133,7 +133,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">Diese</W>
 <W lemma="Dreiteilung" msd="NC" tag="NN" in="" out="">Dreiteilung</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">müssen</W>
@@ -178,7 +178,7 @@
 <W lemma="anfangen" msd="VAF" tag="VVINF" in="" out="">anfangen</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">sollen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="meinen" msd="VA" tag="VVFIN" in="" out="">meint</W>
 <W lemma="Steen" msd="NP" tag="NE" in="" out="">Steen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Gade</W>
@@ -234,3 +234,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

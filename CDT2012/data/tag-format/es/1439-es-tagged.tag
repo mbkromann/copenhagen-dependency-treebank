@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="comenzar" msd="VAD" tag="VLfin" in="" out="">COMENZÓ</W>
 <W lemma="CON" msd="XA" tag="ACRNM" in="" out="">CON</W>
@@ -208,3 +208,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">Mit</W>
 <W lemma="Hilfe" msd="NC" tag="NN" in="" out="">Hilfe</W>
@@ -42,7 +42,7 @@
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,magere</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="" out="">Jahre</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="sparen" msd="VAF" tag="VVINF" in="" out="">sparen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -53,7 +53,7 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Durchschnittsprinzip</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
 <W lemma="stimmen" msd="VA" tag="VVFIN" in="" out="">stimmt</W>
@@ -91,11 +91,11 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,fetten</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="" out="">Jahren</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,magere</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="" out="">Jahre</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sparen" msd="VAP" tag="VVPP" in="" out="">gespart</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -215,3 +215,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

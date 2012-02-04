@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="Ganze" msd="NC" tag="NN" in="" out="">Ganze</W>
@@ -21,7 +21,7 @@
 <W lemma="L." msd="NP" tag="NE" in="" out="">L.</W>
 <W lemma="P." msd="NP" tag="NE" in="" out="">P.</W>
 <W lemma="Antwort" msd="NC" tag="NN" in="" out="">Antwort</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -36,7 +36,7 @@
 <W lemma="gerne" msd="RG" tag="ADV" in="" out="">gerne</W>
 <W lemma="gewiß" msd="AN" tag="ADJA" in="" out="">gewisse</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,handverlesene</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Effekt" msd="NC" tag="NN" in="" out="">Effekte</W>
 <W lemma="mitnehmen" msd="VAF" tag="VVINF" in="" out="">mitnehmen</W>
 <W lemma="mögen" msd="VA" tag="VMFIN" in="" out="">möchte</W>
@@ -128,7 +128,7 @@
 <W lemma="besichtigen" msd="VA" tag="VVFIN" in="" out="">besichtigt</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
-<W lemma="Mauer&7c;Mauern" msd="NC" tag="NN" in="" out="">Mauern</W>
+<W lemma="Mauer|Mauern" msd="NC" tag="NN" in="" out="">Mauern</W>
 <W lemma="niet-" msd="XA" tag="TRUNC" in="" out="">niet-</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">nagelfestem</W>
@@ -150,12 +150,12 @@
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="Zubehör" msd="NC" tag="NN" in="" out="">Zubehör</W>
 <W lemma="zählen" msd="VA" tag="VVFIN" in="" out="">zählt</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="Umfang" msd="NC" tag="NN" in="" out="">Umfang</W>
@@ -205,7 +205,7 @@
 <W lemma="Teppich" msd="NC" tag="NN" in="" out="">Teppiche</W>
 <W lemma="dazu" msd="RG" tag="PAV" in="" out="">dazu</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -224,3 +224,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

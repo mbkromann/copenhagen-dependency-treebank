@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="23:cond" out="1:subj|2:time|21:vobj|22:pnct">Sollte</W>
 <W lemma="man" msd="PP" tag="PIS" in="-1:subj|20:[subj]" out="">man</W>
@@ -32,14 +32,14 @@
 <W lemma="oder" msd="CC" tag="KON" in="1:coord" out="">oder</W>
 <W lemma="erschreckt" msd="AN" tag="ADJD" in="-2:conj" out="-1:coord">erschreckt</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-5:nobj" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="sein" msd="VAF" tag="VAINF" in="-1:vobj" out="-4:preds">sein</W>
+<W _noerror=":nosubj:" lemma="sein" msd="VAF" tag="VAINF" in="-1:vobj" out="-4:preds">sein</W>
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
 <W lemma="bei" msd="SP" tag="APPR" in="3:scene" out="1:nobj">Bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-29:coref-iden" out="1:nobj|32:coref">den</W>
 <W lemma="Mann" msd="NC" tag="NN" in="-1:nobj" out="">Männern</W>
 <W lemma="handeln" msd="VA" tag="VVFIN" in="" out="-3:scene|1:subj|2:robj|3:pobj|7:pnct">handelt</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-2:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-2:robj" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="-3:pobj" out="3:nobj">um</W>
 <W lemma="völlig" msd="AN" tag="ADJD" in="1:quant" out="">völlig</W>
 <W lemma="harmlos" msd="AN" tag="ADJA" in="1:attr" out="-1:quant">harmlose</W>
@@ -49,7 +49,7 @@
 </p>
 <p>
 <s>
-<W lemma="Ihr&7c;ihr" msd="PO" tag="PPOSAT" in="1:{agent}|4:{agent}|5:subj" out="1:possd">Ihr</W>
+<W lemma="Ihr|ihr" msd="PO" tag="PPOSAT" in="1:{agent}|4:{agent}|5:subj" out="1:possd">Ihr</W>
 <W lemma="Umherirren" msd="NC" tag="NN" in="-1:possd" out="-1:{agent}|3:conj">Umherirren</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="ziellos" msd="AN" tag="ADJA" in="1:attr" out="">zielloses</W>
@@ -58,7 +58,7 @@
 <W lemma="darauf" msd="RG" tag="PAV" in="3:pobj" out="5:nobj">darauf</W>
 <W lemma="zurück" msd="RG" tag="PTKVZ" in="2:part" out="">zurück</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-3:nobj" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="führen" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:part|-3:pobj">führen</W>
+<W _noerror=":nosubj:" lemma="führen" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:part|-3:pobj">führen</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-5:nobj" out="8:vobj">dass</W>
 <W lemma="heute" msd="RG" tag="ADV" in="7:subj" out="">heute</W>
@@ -149,8 +149,8 @@
 <W lemma="in" msd="SP" tag="APPR" in="3:loc" out="1:nobj">in</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">einer</W>
 <W lemma="Kritik" msd="NC" tag="NN" in="-1:nobj" out="">Kritik</W>
-<W _noerror="&3a;nosubj&3a;" lemma="schreiben" msd="VAP" tag="VVPP" in="1:vobj" out="-3:loc|-4:dobj">geschrieben</W>
-<W _noerror="&3a;nosubj&3a;" lemma="werden" msd="VAF" tag="VAINF" in="-9:vobj" out="-1:vobj">werden</W>
+<W _noerror=":nosubj:" lemma="schreiben" msd="VAP" tag="VVPP" in="1:vobj" out="-3:loc|-4:dobj">geschrieben</W>
+<W _noerror=":nosubj:" lemma="werden" msd="VAF" tag="VAINF" in="-9:vobj" out="-1:vobj">werden</W>
 <W lemma="," msd="XP" tag="$," in="-10:pnct" out="">,</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-11:cond|1:subj|2:eval|3:neg|9:nobj|11:pnct|13:conc|28:pnct">ist</W>
 <W lemma="d" msd="PP" tag="PDS" in="-1:subj" out="">das</W>
@@ -162,7 +162,7 @@
 <W lemma="Zeit" msd="NC" tag="NN" in="-2:nobj" out="">Zeit</W>
 <W lemma="zurück" msd="RG" tag="PTKVZ" in="2:part" out="">zurück</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-9:nobj" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="führen" msd="VAF" tag="VVINF" in="-1:vobj" out="-6:pobj|-2:part">führen</W>
+<W _noerror=":nosubj:" lemma="führen" msd="VAF" tag="VVINF" in="-1:vobj" out="-6:pobj|-2:part">führen</W>
 <W lemma="," msd="XP" tag="$," in="-11:pnct" out="">,</W>
 <W lemma="auch" msd="RG" tag="ADV" in="1:add" out="">auch</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-13:conc" out="-1:add|8:vobj">wenn</W>
@@ -183,3 +183,4 @@
 <W lemma="." msd="XP" tag="$." in="-28:pnct" out="">.</W>
 </s>
 </p>
+</root>

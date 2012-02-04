@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="" out="">große</W>
@@ -59,7 +59,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="Grab" msd="NC" tag="NN" in="" out="">Grab</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="recht" msd="AN" tag="ADJD" in="" out="">recht</W>
 <W lemma="groß" msd="AN" tag="ADJD" in="" out="">groß</W>
@@ -79,13 +79,13 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gab</W>
-<W lemma="Spur&7c;Spuren" msd="NC" tag="NN" in="" out="">Spuren</W>
+<W lemma="Spur|Spuren" msd="NC" tag="NN" in="" out="">Spuren</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eines</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Holzsargs</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="aber" msd="RG" tag="ADV" in="" out="">aber</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="" out="">keine</W>
-<W lemma="Spur&7c;Spuren" msd="NC" tag="NN" in="" out="">Spuren</W>
+<W lemma="Spur|Spuren" msd="NC" tag="NN" in="" out="">Spuren</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="Tote" msd="NC" tag="NN" in="" out="">Toten</W>
 <W lemma="selbst" msd="RG" tag="ADV" in="" out="">selbst</W>
@@ -110,7 +110,7 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="Silberdraht" msd="NC" tag="NN" in="" out="">Silberdraht</W>
 <W lemma="umwickelt" msd="AN" tag="ADJA" in="" out="">umwickelten</W>
-<W lemma="Silberfade&7c;Silberfäden" msd="NC" tag="NN" in="" out="">Silberfaden</W>
+<W lemma="Silberfade|Silberfäden" msd="NC" tag="NN" in="" out="">Silberfaden</W>
 <W lemma="(" msd="XP" tag="$(" in="" out="">(</W>
 <W lemma="schon" msd="RG" tag="ADV" in="" out="">schon</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">das</W>
@@ -212,3 +212,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

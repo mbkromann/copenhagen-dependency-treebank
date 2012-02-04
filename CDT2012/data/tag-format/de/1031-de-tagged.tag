@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="Wachstum" msd="NC" tag="NN" in="" out="">Wachstum</W>
@@ -66,7 +66,7 @@
 <W lemma="Abbau" msd="NC" tag="NN" in="" out="">Abbau</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="letzt" msd="AN" tag="ADJA" in="" out="">letzten</W>
-<W lemma="Zollmauer&7c;Zollmauern" msd="NC" tag="NN" in="" out="">Zollmauern</W>
+<W lemma="Zollmauer|Zollmauern" msd="NC" tag="NN" in="" out="">Zollmauern</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="gering" msd="AN" tag="ADJA" in="" out="">geringere</W>
 <W lemma="Unterstützung" msd="NC" tag="NN" in="" out="">Unterstützung</W>
@@ -137,7 +137,7 @@
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">Bei</W>
 <W lemma="rückläufig" msd="AN" tag="ADJA" in="" out="">rückläufigem</W>
 <W lemma="Produktionswachstum" msd="NC" tag="NN" in="" out="">Produktionswachstum</W>
-<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
+<W lemma="fallen|fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Bedarf" msd="NC" tag="NN" in="" out="">Bedarf</W>
@@ -215,3 +215,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

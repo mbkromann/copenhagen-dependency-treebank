@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Birlik</W>
 <W lemma="selbst" msd="RG" tag="ADV" in="" out="">selbst</W>
@@ -50,7 +50,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="unser" msd="PO" tag="PPOSAT" in="" out="">Unser</W>
 <W lemma="Ziel" msd="NC" tag="NN" in="" out="">Ziel</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
@@ -72,11 +72,11 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihre</W>
-<W lemma="Recht&7c;Rechte" msd="NC" tag="NN" in="" out="">Rechte</W>
+<W lemma="Recht|Rechte" msd="NC" tag="NN" in="" out="">Rechte</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="einfordern" msd="VA" tag="VVFIN" in="" out="">einfordert</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="kommunistisch" msd="AN" tag="ADJA" in="" out="">kommunistischen</W>
@@ -84,7 +84,7 @@
 <W lemma="führen" msd="VAF" tag="VVINF" in="" out="">führen</W>
 <W lemma="lassen" msd="VA" tag="VVFIN" in="" out="">lässt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Abduzahim</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Pulatov</W>
@@ -123,7 +123,7 @@
 <W lemma="verstehen" msd="VA" tag="VVFIN" in="" out="">verstehen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihre</W>
-<W lemma="Recht&7c;Rechte" msd="NC" tag="NN" in="" out="">Rechte</W>
+<W lemma="Recht|Rechte" msd="NC" tag="NN" in="" out="">Rechte</W>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">durch</W>
 <W lemma="politisch" msd="AN" tag="ADJA" in="" out="">politischen</W>
 <W lemma="Dialog" msd="NC" tag="NN" in="" out="">Dialog</W>
@@ -143,7 +143,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Waffe" msd="NC" tag="NN" in="" out="">Waffen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -178,7 +178,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="islamisch" msd="AN" tag="ADJA" in="" out="">islamischen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Auferstehungspartei</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="um" msd="CS" tag="KOUI" in="" out="">um</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
@@ -228,10 +228,11 @@
 <W lemma="Kommunist" msd="NC" tag="NN" in="" out="">Kommunisten</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Pulatov</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Abduzahim</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

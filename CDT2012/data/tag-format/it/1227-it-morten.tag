@@ -1,4 +1,4 @@
-<W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
+<root><W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">Le</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Faroer</W>
 <W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="">sono</W>
@@ -189,3 +189,4 @@
 <W lemma="straniero" msd="AN" tag="ADJ" in="" out="">straniera</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
+</root>

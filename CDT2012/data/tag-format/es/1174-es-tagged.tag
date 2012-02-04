@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="nunca" msd="RG" tag="ADV" in="" out="">Nunca</W>
 <W lemma="ver" msd="VAD" tag="VLfin" in="" out="">vio</W>
@@ -206,3 +206,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

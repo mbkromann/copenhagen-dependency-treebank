@@ -1,7 +1,7 @@
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Steen</W>
+<root><W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Steen</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="-1:namef">Gade</W>
-<W lemma="prevenir" msd="VAD" tag="VLfin" in="" out="-1:subj|1:dobj&3a;mærke|4:pobj|33:pnct">previno</W>
-<W lemma="a" msd="SP" tag="SCENE" in="-1:dobj&3a;mærke" out="1:nobj">a</W>
+<W lemma="prevenir" msd="VAD" tag="VLfin" in="" out="-1:subj|1:dobj:mærke|4:pobj|33:pnct">previno</W>
+<W lemma="a" msd="SP" tag="SCENE" in="-1:dobj:mærke" out="1:nobj">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="delegar" msd="VAF" tag="VLadj" in="-1:nobj" out="">delegados</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-4:pobj" out="1:dobj">de</W>
@@ -28,8 +28,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Europea</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-6:time" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj&3a;nobj">referéndum</W>
-<W lemma="del" msd="SP" tag="PDEL" in="-1:pobj&3a;nobj" out="1:nobj">del</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj:nobj">referéndum</W>
+<W lemma="del" msd="SP" tag="PDEL" in="-1:pobj:nobj" out="1:nobj">del</W>
 <W lemma="2" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">2</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:nobj" out="1:nobj">de</W>
 <W lemma="junio" msd="NC" tag="NMON" in="-1:nobj" out="">junio</W>
@@ -42,9 +42,9 @@
 <W lemma="ese" msd="" tag="DM" in="-1:nobj" out="">eso</W>
 <W lemma="y" msd="CC" tag="CC" in="6:coord" out="">y</W>
 <W lemma="el" msd="PD" tag="ART" in="5:subj" out="1:nobj">la</W>
-<W lemma="gente" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:pobj&3a;attrr">gente</W>
+<W lemma="gente" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:pobj:attrr">gente</W>
 <W lemma="activo" msd="AN" tag="ADJ" in="-1:attr" out="">activa</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-2:pobj&3a;attrr" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-2:pobj:attrr" out="">en</W>
 <W lemma="contra" msd="SP" tag="SCENE" in="" out="">contra</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-12:conj" out="-6:coord|-5:subj|1:loc">están</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">por</W>
@@ -196,3 +196,4 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:attr" out="">próximo</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-2:nobj" out="-1:attr">otoño</W>
 <W lemma="." msd="XP" tag="FS" in="-11:pnct" out="">.</W>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:dobj" out="1:attr|2:attr|3:nobj">Die</W>
 <W lemma="fehlend" msd="AN" tag="ADJA" in="-1:attr" out="">fehlenden</W>
@@ -92,9 +92,9 @@
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj" out="">wir</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="-2:preds" out="1:attr|2:nobj">viele</W>
 <W lemma="verschieden" msd="AN" tag="ADJA" in="-1:attr" out="">verschiedene</W>
-<W lemma="Schotte&7c;Schotten" msd="NC" tag="NN" in="-2:nobj" out="">Schotten</W>
+<W lemma="Schotte|Schotten" msd="NC" tag="NN" in="-2:nobj" out="">Schotten</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="8:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="8:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -164,7 +164,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="2:loc" out="1:nobj">in</W>
 <W lemma="Schottland" msd="NP" tag="NE" in="-1:nobj" out="">Schottland</W>
 <W lemma="mißglücken" msd="VA" tag="VVFIN" in="-5:conj" out="-3:coord|-10:[subj]|-2:loc">missglückte</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-15:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-15:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
 </s>
 </p>
@@ -245,7 +245,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-4:conj" out="-1:coord|1:attr|2:nobj">der</W>
 <W lemma="allgemein" msd="AN" tag="ADJA" in="-1:attr" out="">allgemeinen</W>
 <W lemma="Niederlassungsfreiheit" msd="NC" tag="NN" in="-2:nobj" out="">Niederlassungsfreiheit</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-21:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-21:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="-22:pnct" out="">,</W>
 <W lemma="fahren" msd="VA" tag="VVFIN" in="" out="-23:qobj|2:subj|3:part|4:pnct">fährt</W>
 <W lemma="James" msd="NP" tag="NE" in="1:namef" out="">James</W>
@@ -254,3 +254,4 @@
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<W lemma="el" msd="PD" tag="ART" in="" out="">El</W>
+<root><W lemma="el" msd="PD" tag="ART" in="" out="">El</W>
 <W lemma="grupo" msd="NC" tag="NC" in="" out="">grupo</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="trabajo" msd="NC" tag="NC" in="" out="">trabajo</W>
@@ -258,3 +258,4 @@
 <W lemma="condicin" msd="NC" tag="NC" in="" out="">condiciones</W>
 <W lemma="mencionar" msd="VAF" tag="VLadj" in="" out="">mencionadas</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+</root>

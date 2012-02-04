@@ -1,4 +1,4 @@
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">E'</W>
+<root><W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">E'</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
 <W lemma="potere" msd="NC" tag="NOM" in="" out="">potere</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">del</W>
@@ -216,3 +216,4 @@
 <W lemma="una" msd="PI" tag="DET:indef" in="" out="">una</W>
 <W lemma="scelta" msd="NC" tag="NOM" in="" out="">scelta</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="du" msd="PP" tag="PPER" in="" out="">Du</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">sollst</W>
@@ -132,7 +132,7 @@
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einem</W>
 <W lemma="leicht" msd="AN" tag="ADJD" in="" out="">leichter</W>
-<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
+<W lemma="fallen|fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="abziehen" msd="VAF" tag="VVIZU" in="" out="">abzuziehen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -212,3 +212,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

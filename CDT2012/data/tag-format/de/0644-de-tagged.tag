@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Versuchung" msd="NC" tag="NN" in="" out="">Versuchung</W>
@@ -47,8 +47,8 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="somit" msd="RG" tag="ADV" in="" out="">somit</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="problemlos" msd="AN" tag="ADJD" in="" out="">problemlos</W>
 <W lemma="einen" msd="AN" tag="ADJA" in="" out="">einen</W>
 <W lemma="oder" msd="CC" tag="KON" in="" out="">oder</W>
@@ -60,10 +60,10 @@
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="Angebot" msd="NC" tag="NN" in="" out="">Angebot</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="schlafen" msd="VAF" tag="VVINF" in="" out="">schlafen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -72,7 +72,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Zeit" msd="NC" tag="NN" in="" out="">Zeit</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">sollten</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="ganz" msd="AN" tag="ADJA" in="" out="">ganzen</W>
@@ -83,7 +83,7 @@
 <W lemma="folgend" msd="AN" tag="ADJA" in="" out="">folgende</W>
 <W lemma="Punkt" msd="NC" tag="NN" in="" out="">Punkte</W>
 <W lemma="abwägen" msd="VAF" tag="VVIZU" in="" out="">abzuwägen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -118,7 +118,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Dieselbetrieb" msd="NC" tag="NN" in="" out="">Dieselbetrieb</W>
 <W lemma="lohnen" msd="VA" tag="VVFIN" in="" out="">lohnt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="erst" msd="AN" tag="ADJD" in="" out="">erst</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">wenn</W>
@@ -221,3 +221,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

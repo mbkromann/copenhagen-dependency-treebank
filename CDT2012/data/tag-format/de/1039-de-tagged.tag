@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="">Wollen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
@@ -21,11 +21,11 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="" out="">seinem</W>
 <W lemma="Film" msd="NC" tag="NN" in="" out="">Film</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Schatten" msd="NC" tag="NN" in="" out="">Schatten</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Nebel" msd="NC" tag="NN" in="" out="">Nebel</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="befassen" msd="VAF" tag="VVINF" in="" out="">befassen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">der</W>
@@ -49,17 +49,17 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Schatten" msd="NC" tag="NN" in="" out="">Schatten</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Nebel" msd="NC" tag="NN" in="" out="">Nebel</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="(" msd="XP" tag="$(" in="" out="">(</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Shadows</W>
 <W lemma="and" msd="XF" tag="FM" in="" out="">and</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Fog</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma=")" msd="XP" tag="$(" in="" out="">)</W>
 <W lemma="spielen" msd="VA" tag="VVFIN" in="" out="">spielt</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
@@ -194,3 +194,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

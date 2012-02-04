@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="steigen" msd="VA" tag="VVFIN" in="" out="">Stieg</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
@@ -233,3 +233,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

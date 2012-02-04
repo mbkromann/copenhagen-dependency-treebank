@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Ellen</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="" out="">si</W>
@@ -216,3 +216,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

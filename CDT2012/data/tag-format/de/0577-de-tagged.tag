@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Physiotherapie" msd="NC" tag="NN" in="" out="">Physiotherapie</W>
@@ -60,7 +60,7 @@
 <W lemma="zeigen" msd="VA" tag="VVFIN" in="" out="">zeigen</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">vielen</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="positiv" msd="AN" tag="ADJA" in="" out="">positive</W>
@@ -149,12 +149,12 @@
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="unser" msd="PO" tag="PPOSAT" in="" out="">unserem</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="positiv" msd="AN" tag="ADJD" in="" out="">positiv</W>
 <W lemma="erweisen" msd="VAP" tag="VVPP" in="" out="">erwiesen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Reis&7c;Reise" msd="NC" tag="NN" in="" out="">Reise</W>
+<W lemma="Reis|Reise" msd="NC" tag="NN" in="" out="">Reise</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Aufenthalt" msd="NC" tag="NN" in="" out="">Aufenthalt</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
@@ -204,3 +204,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

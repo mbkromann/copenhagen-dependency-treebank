@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Verbrauch" msd="NC" tag="NN" in="" out="">Verbrauch</W>
@@ -13,7 +13,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="viel" msd="PP" tag="PIS" in="" out="">viele</W>
 <W lemma="dabei" msd="RG" tag="PAV" in="" out="">dabei</W>
@@ -55,7 +55,7 @@
 <W lemma="Verbrauch" msd="NC" tag="NN" in="" out="">Verbrauch</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="160" msd="AC" tag="CARD" in="" out="">160</W>
-<W lemma="Tablett&7c;Tablette" msd="NC" tag="NN" in="" out="">Tabletten</W>
+<W lemma="Tablett|Tablette" msd="NC" tag="NN" in="" out="">Tabletten</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Verlauf" msd="NC" tag="NN" in="" out="">Verlauf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
@@ -68,7 +68,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="allmählich" msd="AN" tag="ADJD" in="" out="">Allmählich</W>
 <W lemma="nehmen" msd="VA" tag="VVFIN" in="" out="">nehmen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -95,7 +95,7 @@
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="ungefährlich" msd="AN" tag="ADJD" in="" out="">ungefährlich</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Niels" msd="NP" tag="NE" in="" out="">Niels</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Agdal</W>
@@ -111,7 +111,7 @@
 <W lemma="Ausgang" msd="NC" tag="NN" in="" out="">Ausgang</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="5" msd="AC" tag="CARD" in="" out="">5</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="" out="">Jahr</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">1980</W>
@@ -151,7 +151,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="deuten" msd="VAF" tag="VVINF" in="" out="">deuten</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Niels" msd="NP" tag="NE" in="" out="">Niels</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Agdal</W>
@@ -190,7 +190,7 @@
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurden</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">31.632</W>
-<W lemma="Tablett&7c;Tablette" msd="NC" tag="NN" in="" out="">Tabletten</W>
+<W lemma="Tablett|Tablette" msd="NC" tag="NN" in="" out="">Tabletten</W>
 <W lemma="verkaufen" msd="VAP" tag="VVPP" in="" out="">verkauft</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -212,3 +212,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

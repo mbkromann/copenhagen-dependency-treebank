@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">È</W>
 <W lemma="quasi" msd="RG" tag="ADV" in="" out="">quasi</W>
@@ -219,3 +219,4 @@
 <W lemma="scarpa" msd="NC" tag="NOM" in="" out="">scarpe</W>
 </s>
 </p>
+</root>

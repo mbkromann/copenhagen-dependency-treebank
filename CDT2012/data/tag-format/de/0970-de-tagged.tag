@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="erforderlich" msd="AN" tag="ADJA" in="" out="">erforderliche</W>
@@ -37,7 +37,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Nytorv</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -61,12 +61,12 @@
 <W lemma="Theaterchef" msd="NC" tag="NN" in="" out="">Theaterchef</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="ernennen" msd="VAF" tag="VVINF" in="" out="">ernennen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="nein" msd="RG" tag="PTKANT" in="" out="">Nein</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="danken" msd="VA" tag="VVFIN" in="" out="">danke</W>
@@ -76,7 +76,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Kg.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Teater</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -226,7 +226,7 @@
 <W lemma="Hafen" msd="NC" tag="NN" in="" out="">Hafen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="mehrere" msd="PI" tag="PIAT" in="" out="">mehrere</W>
-<W lemma="Quelle&7c;Quellen" msd="NC" tag="NN" in="" out="">Quellen</W>
+<W lemma="Quelle|Quellen" msd="NC" tag="NN" in="" out="">Quellen</W>
 <W lemma="verlautbaren" msd="VAF" tag="VVINF" in="" out="">verlautbaren</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
@@ -243,3 +243,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Ziel" msd="NC" tag="NN" in="" out="">Ziel</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
@@ -213,7 +213,8 @@
 <W lemma="alle" msd="PI" tag="PIAT" in="" out="">alle</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">diese</W>
 <W lemma="Stoff" msd="NC" tag="NN" in="" out="">Stoffe</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
 </s>
 </p>
+</root>

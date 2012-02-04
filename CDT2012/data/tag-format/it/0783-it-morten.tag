@@ -1,4 +1,4 @@
-<W lemma="il" msd="PD" tag="DET:def" in="" out="">I</W>
+<root><W lemma="il" msd="PD" tag="DET:def" in="" out="">I</W>
 <W lemma="due" msd="AN" tag="ADJ" in="" out="">due</W>
 <W lemma="quotidiano" msd="NC" tag="NOM" in="" out="">quotidiani</W>
 <W lemma="locale" msd="AN" tag="ADJ" in="" out="">locali</W>
@@ -216,3 +216,4 @@
 <W lemma="Michael" msd="NP" tag="NPR" in="" out="">Michael</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Rostock</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

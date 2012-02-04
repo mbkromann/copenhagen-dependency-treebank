@@ -1,11 +1,11 @@
-<p>
+<root><p>
 <s>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">Als</W>
 <W lemma="Dank" msd="NC" tag="NN" in="" out="">Dank</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
 <W lemma="jung" msd="AN" tag="ADJA" in="" out="">junge</W>
 <W lemma="Frau" msd="NC" tag="NN" in="" out="">Frauen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
 <W lemma="verschwitzt" msd="AN" tag="ADJA" in="" out="">verschwitzten</W>
 <W lemma="Kuß" msd="NC" tag="NN" in="" out="">Kuss</W>
@@ -46,7 +46,7 @@
 <W lemma="lebhaft" msd="AN" tag="ADJD" in="" out="">lebhaft</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Volksfest&7c;Volksfeste" msd="NC" tag="NN" in="" out="">Volksfesten</W>
+<W lemma="Volksfest|Volksfeste" msd="NC" tag="NN" in="" out="">Volksfesten</W>
 <W lemma="teil" msd="RG" tag="PTKVZ" in="" out="">teil</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="ermuntern" msd="VA" tag="VVFIN" in="" out="">ermuntern</W>
@@ -56,7 +56,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="trotz" msd="SP" tag="APPR" in="" out="">trotz</W>
-<W lemma="Schmerz&7c;Schmerzen" msd="NC" tag="NN" in="" out="">Schmerzen</W>
+<W lemma="Schmerz|Schmerzen" msd="NC" tag="NN" in="" out="">Schmerzen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Ermattung" msd="NC" tag="NN" in="" out="">Ermattung</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -79,7 +79,7 @@
 <W lemma="erhalten" msd="VAF" tag="VVINF" in="" out="">erhalten</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
-<W lemma="Zuruf&7c;Zurufen" msd="NC" tag="NN" in="" out="">Zurufen</W>
+<W lemma="Zuruf|Zurufen" msd="NC" tag="NN" in="" out="">Zurufen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -103,7 +103,7 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Läufer" msd="NC" tag="NN" in="" out="">Läufer</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ausrechnen" msd="VAF" tag="VVINF" in="" out="">ausrechnen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -173,13 +173,13 @@
 <W lemma="Hilfe" msd="NC" tag="NN" in="" out="">Hilfe</W>
 <W lemma="Personal" msd="NC" tag="NN" in="" out="">Personal</W>
 <W lemma="nehmen" msd="VA" tag="VVFIN" in="" out="">nimmt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="geplatzt" msd="AN" tag="ADJA" in="" out="">geplatzter</W>
-<W lemma="Blase&7c;Blasen" msd="NC" tag="NN" in="" out="">Blasen</W>
+<W lemma="Blase|Blasen" msd="NC" tag="NN" in="" out="">Blasen</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="kümmern" msd="VA" tag="VVFIN" in="" out="">kümmert</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="Brandwunde" msd="NC" tag="NN" in="" out="">Brandwunden</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -189,3 +189,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

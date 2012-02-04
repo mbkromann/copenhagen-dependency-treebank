@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="alle" msd="PI" tag="PIAT" in="" out="">Alle</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Sozialinspektoren</W>
@@ -201,20 +201,21 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="wie" msd="CS" tag="KOUS" in="" out="">wie</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">viele</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
 <W lemma="leisten" msd="VAP" tag="VVPP" in="" out="">geleistet</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="ob" msd="CS" tag="KOUS" in="" out="">ob</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
-<W lemma="Putz&7c;Putzen" msd="NC" tag="NN" in="" out="">Putzen</W>
+<W lemma="Putz|Putzen" msd="NC" tag="NN" in="" out="">Putzen</W>
 <W lemma="oder" msd="CC" tag="KON" in="" out="">oder</W>
 <W lemma="Körperpflege" msd="NC" tag="NN" in="" out="">Körperpflege</W>
 <W lemma="handeln" msd="VA" tag="VVFIN" in="" out="">handelt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

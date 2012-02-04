@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Steen" msd="NP" tag="NE" in="1:namef" out="">Steen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:subj|5:[subj]" out="-1:namef">Gade</W>
@@ -37,7 +37,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="dagegen" msd="RG" tag="PAV" in="6:pobj" out="">Dagegen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="-2:pnct|1:subj|5:vobj|10:conj|12:pnct">können</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj|4:[subj]" out="">wir</W>
@@ -82,7 +82,7 @@
 <W lemma="Nein" msd="NC" tag="NN" in="-1:nobj" out="">Nein</W>
 <W lemma="sicher" msd="AN" tag="ADJD" in="-3:preds" out="">sicher</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-5:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-5:pnct" out="">"</W>
 <W lemma="meinen" msd="VA" tag="VVFIN" in="" out="-6:qobj|2:subj|3:pnct">meinte</W>
 <W lemma="Steen" msd="NP" tag="NE" in="1:namef" out="">Steen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:subj" out="-1:namef">Gade</W>
@@ -101,7 +101,7 @@
 <W lemma="hervor" msd="RG" tag="PTKVZ" in="-2:part" out="">hervor</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-4:dobj" out="15:vobj">dass</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="14:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="14:pnct" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="13:subj" out="">SF</W>
 <W lemma="," msd="XP" tag="$," in="12:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="11:time" out="6:vobj">wenn</W>
@@ -116,7 +116,7 @@
 <W lemma="Dänemark" msd="NP" tag="NE" in="-1:nobj|1:{poss}" out="1:possd">Dänemarks</W>
 <W lemma="Think-Tank" msd="NC" tag="NN" in="-1:possd" out="-1:{poss}">Think-Tank</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-15:vobj" out="-13:subj|-14:pnct|-12:pnct|-11:time|-3:preds|1:pnct">ist</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="-21:pnct" out="">.</W>
 </s>
 </p>
@@ -128,7 +128,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:dobj" out="1:nobj">die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">KV-Regierung</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="-3:pobj" out="2:nobj">als</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:nobj" out="-1:pnct|1:attr|2:nobj|3:pnct|4:ref|7:relr|8:pnct">die</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="-1:attr" out="">zweifelhafteste</W>
 <W lemma="Regierung" msd="NC" tag="NN" in="-2:nobj" out="">Regierung</W>
@@ -137,16 +137,16 @@
 <W lemma="wir" msd="PP" tag="PPER" in="2:subj" out="">wir</W>
 <W lemma="je" msd="RG" tag="ADV" in="1:time" out="">je</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-7:relr" out="-3:dobj|-2:subj|-1:time">hatten</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-8:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-8:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="-14:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="25:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="25:pnct" out="">"</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="24:xtop" out="22:vobj|28:ref">Wenn</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="21:subj" out="1:attr|2:nobj|3:pnct|4:conj|7:conj">Det</W>
-<W lemma="Radikal&7c;Radikale" msd="NC" tag="NN" in="-1:attr" out="">Radikale</W>
+<W lemma="Radikal|Radikale" msd="NC" tag="NN" in="-1:attr" out="">Radikale</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="">Venstre</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="CD" msd="NC" tag="NN" in="-4:conj" out="">CD</W>
@@ -180,7 +180,7 @@
 <W lemma="dies" msd="PD" tag="PDAT" in="-1:nobj" out="1:nobj">diese</W>
 <W lemma="Entwicklung" msd="NC" tag="NN" in="-1:nobj" out="">Entwicklung</W>
 <W lemma="," msd="XP" tag="$," in="-11:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-12:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-12:pnct" out="">"</W>
 <W lemma="stellen" msd="VA" tag="VVFIN" in="" out="-13:qobj|2:subj|3:part|4:pnct">stellt</W>
 <W lemma="Steen" msd="NP" tag="NE" in="1:namef" out="">Steen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:subj" out="-1:namef">Gade</W>
@@ -200,7 +200,7 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="7:vobj|9:pnct|10:conj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="5:[subj]|6:subj" out="1:nobj">die</W>
 <W lemma="Regierung" msd="NC" tag="NN" in="-1:nobj" out="">Regierung</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="4:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="4:pnct" out="">"</W>
 <W lemma="von" msd="SP" tag="APPR" in="2:pobj" out="1:nobj">von</W>
 <W lemma="Skandal" msd="NC" tag="NN" in="-1:nobj" out="">Skandalen</W>
 <W lemma="durchdringen" msd="VAP" tag="VVPP" in="1:vobj" out="-2:pobj|-5:[subj]">durchdrungen</W>
@@ -223,7 +223,7 @@
 <W lemma="werden" msd="VAF" tag="VAINF" in="1:vobj" out="-1:vobj|-5:[subj]">werden</W>
 <W lemma="müssen" msd="VAF" tag="VMINF" in="-7:vobj" out="-6:subj|-1:vobj|-5:time">müssen</W>
 <W lemma="." msd="XP" tag="$." in="-29:pnct" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-19:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-19:pnct" out="">"</W>
 <W lemma="er" msd="PP" tag="PPER" in="1:subj" out="">Er</W>
 <W lemma="vertreten" msd="VA" tag="VVFIN" in="" out="-1:subj|1:dobj|13:pnct">vertrat</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:dobj" out="1:nobj|2:pnct|3:nobj">die</W>
@@ -241,3 +241,4 @@
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="crear|creer" msd="VAD" tag="VLfin" in="" out="">Creo</W>
@@ -217,3 +217,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

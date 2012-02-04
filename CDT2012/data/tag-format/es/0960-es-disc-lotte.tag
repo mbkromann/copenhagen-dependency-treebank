@@ -1,4 +1,4 @@
-<W lemma="ser" msd="VAD" tag="VSfin" in="" out="">Es</W>
+<root><W lemma="ser" msd="VAD" tag="VSfin" in="" out="">Es</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="poder" msd="NC" tag="NC" in="" out="">poder</W>
 <W lemma="popular" msd="AN" tag="ADJ" in="" out="">popular</W>
@@ -44,7 +44,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Ellemann</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">–</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
-<W lemma="sentar&7c;sentir" msd="VAD" tag="VLfin" in="" out="">sienten</W>
+<W lemma="sentar|sentir" msd="VAD" tag="VLfin" in="" out="">sienten</W>
 <W lemma="impotente" msd="AN" tag="ADJ" in="" out="">impotentes</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
@@ -172,7 +172,7 @@
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="votante" msd="NC" tag="NC" in="" out="">votantes</W>
-<W lemma="sentar&7c;sentir" msd="VAD" tag="VLfin" in="" out="">sienten</W>
+<W lemma="sentar|sentir" msd="VAD" tag="VLfin" in="" out="">sienten</W>
 <W lemma="impotencia" msd="NC" tag="NC" in="" out="">impotencia</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
@@ -220,3 +220,4 @@
 <W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="algo" msd="AN" tag="QU" in="" out="">algo</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+</root>

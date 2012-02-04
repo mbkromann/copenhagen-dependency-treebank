@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="cuando" msd="CS" tag="CSUBX" in="" out="">Cuando</W>
 <W lemma="vivir" msd="VAD" tag="VLfin" in="" out="">vivimos</W>
@@ -221,3 +221,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

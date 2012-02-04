@@ -1,8 +1,8 @@
-<p>
+<root><p>
 <s>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="stellen" msd="VA" tag="VVFIN" in="" out="">stellt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="" out="">große</W>
 <W lemma="Frage" msd="NC" tag="NN" in="" out="">Frage</W>
@@ -11,7 +11,7 @@
 <W lemma="Poul" msd="NP" tag="NE" in="" out="">Poul</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Nyrup</W>
 <W lemma="Rasmussen" msd="NP" tag="NE" in="" out="">Rasmussen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="jetzt" msd="RG" tag="ADV" in="" out="">jetzt</W>
 <W lemma="beschäftigen" msd="VAF" tag="VVINF" in="" out="">beschäftigen</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">soll</W>
@@ -52,7 +52,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">könnte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="aber" msd="RG" tag="ADV" in="" out="">aber</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="dafür" msd="RG" tag="PAV" in="" out="">dafür</W>
@@ -73,7 +73,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="indem" msd="CS" tag="KOUS" in="" out="">indem</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="eingehend" msd="AN" tag="ADJD" in="" out="">eingehend</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -94,7 +94,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="da" msd="CS" tag="KOUS" in="" out="">da</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="mangelnd" msd="AN" tag="ADJA" in="" out="">mangelnden</W>
@@ -161,8 +161,8 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einem</W>
 <W lemma="Leitartikel" msd="NC" tag="NN" in="" out="">Leitartikel</W>
 <W lemma="feststellen" msd="VA" tag="VVFIN" in="" out="">feststellte</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="Justizminister" msd="NC" tag="NN" in="" out="">Justizminister</W>
 <W lemma="Hans" msd="NP" tag="NE" in="" out="">Hans</W>
@@ -180,10 +180,10 @@
 <W lemma="Ministerium" msd="NC" tag="NN" in="" out="">Ministerium</W>
 <W lemma="verlieren" msd="VAP" tag="VVPP" in="" out="">verloren</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="jetzt" msd="RG" tag="ADV" in="" out="">jetzt</W>
@@ -207,7 +207,8 @@
 <W lemma="wieder" msd="RG" tag="ADV" in="" out="">wieder</W>
 <W lemma="herstellen" msd="VAF" tag="VVINF" in="" out="">herstellen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

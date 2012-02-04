@@ -1,4 +1,4 @@
-<W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
+<root><W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">È</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">del</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="" out="">tutto</W>
@@ -181,3 +181,4 @@
 <W lemma="differente" msd="AN" tag="ADJ" in="" out="">differenti</W>
 <W lemma="paese" msd="NC" tag="NOM" in="" out="">paesi</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

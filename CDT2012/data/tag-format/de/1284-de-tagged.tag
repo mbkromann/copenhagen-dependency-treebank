@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="SAS" msd="NP" tag="NE" in="" out="">SAS</W>
 <W lemma="weisen" msd="VA" tag="VVFIN" in="" out="">WEIST</W>
@@ -72,7 +72,7 @@
 <W lemma="Andere" msd="NC" tag="NN" in="" out="">Anderes</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -98,7 +98,7 @@
 <W lemma="Schlußfolgerung" msd="NC" tag="NN" in="" out="">Schlussfolgerungen</W>
 <W lemma="ziehen" msd="VA" tag="VVFIN" in="" out="">ziehen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="stehen" msd="VA" tag="VVFIN" in="" out="">steht</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="keinerlei" msd="PI" tag="PIAT" in="" out="">keinerlei</W>
@@ -114,7 +114,7 @@
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">Im</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Übrigen</W>
 <W lemma="dürfen" msd="VA" tag="VMFIN" in="" out="">darf</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="niemand" msd="PP" tag="PIS" in="" out="">niemand</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -192,6 +192,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="Gerücht" msd="NC" tag="NN" in="" out="">Gerücht</W>
 <W lemma="stammen" msd="VA" tag="VVFIN" in="" out="">stammt</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<W lemma="hoy" msd="RG" tag="ADV" in="" out="">Hoy</W>
+<root><W lemma="hoy" msd="RG" tag="ADV" in="" out="">Hoy</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">día</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
@@ -74,7 +74,7 @@
 <W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="triste" msd="AN" tag="ADJ" in="" out="">tristes</W>
-<W lemma="pasillo&7c;paso" msd="NC" tag="NC" in="" out="">pasillos</W>
+<W lemma="pasillo|paso" msd="NC" tag="NC" in="" out="">pasillos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="oficina" msd="NC" tag="NC" in="" out="">oficina</W>
@@ -196,3 +196,4 @@
 <W lemma="Eva" msd="NP" tag="NP" in="" out="">Eva</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Rothmann</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+</root>

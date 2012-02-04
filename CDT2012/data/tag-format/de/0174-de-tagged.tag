@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">Als</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -24,14 +24,14 @@
 <W lemma="groß" msd="AN" tag="ADJA" in="" out="">große</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="" out="">dänische</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Durchbruchs-LP</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">No</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Fuel</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Left</W>
 <W lemma="for" msd="XF" tag="FM" in="" out="">for</W>
 <W lemma="the" msd="XF" tag="FM" in="" out="">the</W>
 <W lemma="Pilgrim" msd="NC" tag="NN" in="" out="">Pilgrims</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="damit" msd="RG" tag="PAV" in="" out="">damit</W>
 <W lemma="weltweit" msd="AN" tag="ADJD" in="" out="">weltweit</W>
 <W lemma="veröffentlichen" msd="VAP" tag="VVPP" in="" out="">veröffentlicht</W>
@@ -65,7 +65,7 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="" out="">zwei</W>
-<W lemma="Platte&7c;Platten" msd="NC" tag="NN" in="" out="">Platten</W>
+<W lemma="Platte|Platten" msd="NC" tag="NN" in="" out="">Platten</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="machen" msd="VAF" tag="VVINF" in="" out="">machen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -87,7 +87,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">Für</W>
 <W lemma="Reparatur" msd="NC" tag="NN" in="" out="">Reparaturen</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
@@ -95,7 +95,7 @@
 <W lemma="genug" msd="RG" tag="ADV" in="" out="">genug</W>
 <W lemma="übrig" msd="AN" tag="ADJD" in="" out="">übrig</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Jesper" msd="NP" tag="NE" in="" out="">Jesper</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Binzer</W>
@@ -124,14 +124,14 @@
 <W lemma="wunderbar" msd="AN" tag="ADJA" in="" out="">Wunderbare</W>
 <W lemma="Welt" msd="NC" tag="NN" in="" out="">Welt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">No</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Fuel</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Left</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">For</W>
 <W lemma="The" msd="XF" tag="FM" in="" out="">The</W>
 <W lemma="Pilgrim" msd="NC" tag="NN" in="" out="">Pilgrims</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="weltweit" msd="AN" tag="ADJD" in="" out="">weltweit</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
@@ -181,7 +181,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">waren</W>
 <W lemma="ja" msd="RG" tag="PTKANT" in="" out="">ja</W>
@@ -230,10 +230,11 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="bahnen" msd="VAF" tag="VVINF" in="" out="">bahnen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Jesper" msd="NP" tag="NE" in="" out="">Jesper</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Binzer</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

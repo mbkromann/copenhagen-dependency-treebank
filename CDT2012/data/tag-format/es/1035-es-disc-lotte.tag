@@ -1,4 +1,4 @@
-<W lemma="uno" msd="AC" tag="CARD" in="" out="">Uno</W>
+<root><W lemma="uno" msd="AC" tag="CARD" in="" out="">Uno</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="experto" msd="NC" tag="NC" in="" out="">expertos</W>
@@ -60,7 +60,7 @@
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="funcionar" msd="VAD" tag="VLfin" in="" out="">funcionan</W>
 <W lemma="este" msd="" tag="DM" in="" out="">estas</W>
-<W lemma="construccion&7c;construccin" msd="NC" tag="NC" in="" out="">construcciones</W>
+<W lemma="construccion|construccin" msd="NC" tag="NC" in="" out="">construcciones</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">–</W>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">sólo</W>
@@ -213,3 +213,4 @@
 <W lemma="sistema" msd="NC" tag="NC" in="" out="">sistema</W>
 <W lemma="tributario" msd="AN" tag="ADJ" in="" out="">tributario</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+</root>

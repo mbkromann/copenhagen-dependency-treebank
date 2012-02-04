@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="11" msd="AC" tag="CARD" in="" out="">11</W>
 <W lemma="Induktion" msd="NC" tag="NN" in="" out="">Induktion</W>
@@ -25,7 +25,7 @@
 <W lemma="Feld" msd="NC" tag="NN" in="" out="">Feldes</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="bewegend" msd="AN" tag="ADJA" in="" out="">bewegenden</W>
 <W lemma="Magnet" msd="NC" tag="NN" in="" out="">Magneten</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -54,7 +54,7 @@
 <W lemma="empfindlich" msd="AN" tag="ADJA" in="" out="">empfindliches</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Volt-Meter</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="Spule&7c;Spulen" msd="NC" tag="NN" in="" out="">Spulen</W>
+<W lemma="Spule|Spulen" msd="NC" tag="NN" in="" out="">Spulen</W>
 <W lemma="(" msd="XP" tag="$(" in="" out="">(</W>
 <W lemma="200" msd="AC" tag="CARD" in="" out="">200</W>
 <W lemma="Windung" msd="NC" tag="NN" in="" out="">Windungen</W>
@@ -87,7 +87,7 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Magnetfeldinduktion</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -146,7 +146,7 @@
 <W lemma="Magnetfeld" msd="NC" tag="NN" in="" out="">Magnetfelds</W>
 <W lemma="beeinflussen" msd="VAP" tag="VVPP" in="" out="">beeinflusst</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Spule&7c;Spulen" msd="NC" tag="NN" in="" out="">Spulen</W>
+<W lemma="Spule|Spulen" msd="NC" tag="NN" in="" out="">Spulen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Eisenlot</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -163,7 +163,7 @@
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Elektrofeld</W>
 <W lemma="Induktion" msd="NC" tag="NN" in="" out="">Induktion</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -208,7 +208,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Elektrofelds</W>
 <W lemma="beeinflussen" msd="VAP" tag="VVPP" in="" out="">beeinflusst</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Spule&7c;Spulen" msd="NC" tag="NN" in="" out="">Spulen</W>
+<W lemma="Spule|Spulen" msd="NC" tag="NN" in="" out="">Spulen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Voltmesser</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -230,7 +230,7 @@
 <p>
 <s>
 <W lemma="Magnetfeld" msd="NC" tag="NN" in="" out="">Magnetfelder</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -241,7 +241,7 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">stromführende</W>
 <W lemma="Leitung" msd="NC" tag="NN" in="" out="">Leitung</W>
 <W lemma="beschreiben" msd="VA" tag="VVFIN" in="" out="">beschreiben</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -265,3 +265,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

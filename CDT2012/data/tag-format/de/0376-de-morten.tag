@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="wenn" msd="CS" tag="KOUS" in="6:cond" out="4:vobj">Wenn</W>
 <W lemma="alle" msd="PP" tag="PIS" in="3:subj" out="">alles</W>
@@ -56,9 +56,9 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">die</W>
 <W lemma="Initiator" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Initiatoren</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:pobj|-1:{arg}" out="2:nobj">von</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct">Stokken</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="nur" msd="RG" tag="ADV" in="-7:quant" out="">nur</W>
 <W lemma="darauf" msd="RG" tag="PAV" in="-8:pobj" out="1:pnct|2:nobj">darauf</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -209,3 +209,4 @@
 <W lemma="." msd="XP" tag="$." in="-14:pnct" out="">.</W>
 </s>
 </p>
+</root>

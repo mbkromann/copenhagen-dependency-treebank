@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Leiter" msd="NC" tag="NN" in="" out="">Leiter</W>
@@ -20,7 +20,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatten</W>
 <W lemma="aber" msd="RG" tag="ADV" in="" out="">aber</W>
@@ -42,7 +42,7 @@
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="befinden" msd="VA" tag="VVFIN" in="" out="">befinden</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Übrigen</W>
 <W lemma="außerhalb" msd="SP" tag="APPR" in="" out="">außerhalb</W>
@@ -50,7 +50,7 @@
 <W lemma="direkt" msd="AN" tag="ADJA" in="" out="">direkten</W>
 <W lemma="Kontrolle" msd="NC" tag="NN" in="" out="">Kontrolle</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
@@ -224,3 +224,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

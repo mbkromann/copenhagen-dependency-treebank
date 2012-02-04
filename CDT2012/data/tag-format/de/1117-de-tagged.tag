@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">Mit</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="" out="">neuer</W>
@@ -11,9 +11,9 @@
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Studioszenographie</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Synnøve's</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="erst" msd="AN" tag="ADJA" in="" out="">ersten</W>
@@ -182,3 +182,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

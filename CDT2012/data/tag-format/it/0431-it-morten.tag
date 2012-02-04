@@ -1,4 +1,4 @@
-<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">Alla</W>
+<root><W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">Alla</W>
 <W lemma="fiera" msd="NC" tag="NOM" in="" out="">fiera</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Vejle</W>
@@ -253,3 +253,4 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">TOFTESKOV</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">RASMUSSEN</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

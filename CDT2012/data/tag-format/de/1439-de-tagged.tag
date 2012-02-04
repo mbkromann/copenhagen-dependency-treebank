@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="fangen" msd="VA" tag="VVFIN" in="" out="">FING</W>
 <W lemma="MIT" msd="NP" tag="NE" in="" out="">MIT</W>
@@ -29,7 +29,7 @@
 <W lemma="eigen" msd="AN" tag="ADJA" in="" out="">eigenen</W>
 <W lemma="Konzert" msd="NC" tag="NN" in="" out="">Konzerten</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="Platte&7c;Platten" msd="NC" tag="NN" in="" out="">Platten</W>
+<W lemma="Platte|Platten" msd="NC" tag="NN" in="" out="">Platten</W>
 <W lemma="verwenden" msd="VAP" tag="VVPP" in="" out="">verwendet</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
@@ -64,7 +64,7 @@
 <W lemma="Musik" msd="NC" tag="NN" in="" out="">Musik</W>
 <W lemma="lieben" msd="VA" tag="VVFIN" in="" out="">liebe</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -134,9 +134,9 @@
 <W lemma="machen" msd="VAP" tag="VVPP" in="" out="">gemacht</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurde</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
-<W lemma="Nil&7c;Nils" msd="NP" tag="NE" in="" out="">Nils</W>
+<W lemma="Nil|Nils" msd="NP" tag="NE" in="" out="">Nils</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Lofgren</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">Das</W>
@@ -153,13 +153,13 @@
 <W lemma="übersehen" msd="VAP" tag="VVPP" in="" out="">übersehen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
-<W lemma="Nil&7c;Nils" msd="NP" tag="NE" in="" out="">Nils</W>
+<W lemma="Nil|Nils" msd="NP" tag="NE" in="" out="">Nils</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Lofgren</W>
 <W lemma="solo" msd="AN" tag="ADJD" in="" out="">solo</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="paar" msd="PI" tag="PIDAT" in="" out="">paar</W>
 <W lemma="hervorragend" msd="AN" tag="ADJA" in="" out="">hervorragende</W>
-<W lemma="Rockplatte&7c;Rockplatten" msd="NC" tag="NN" in="" out="">Rockplatten</W>
+<W lemma="Rockplatte|Rockplatten" msd="NC" tag="NN" in="" out="">Rockplatten</W>
 <W lemma="machen" msd="VA" tag="VVFIN" in="" out="">macht</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Eine</W>
@@ -171,7 +171,7 @@
 <W lemma="Stil" msd="NC" tag="NN" in="" out="">Stil</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">,,Crooked</W>
 <W lemma="Line" msd="NP" tag="NE" in="" out="">Line</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="gerade" msd="AN" tag="ADJD" in="" out="">gerade</W>
 <W lemma="heraus" msd="RG" tag="PTKVZ" in="" out="">heraus</W>
@@ -190,7 +190,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">,,Whenever</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">We</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Wanted</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="vergangen" msd="AN" tag="ADJA" in="" out="">vergangenen</W>
@@ -198,3 +198,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

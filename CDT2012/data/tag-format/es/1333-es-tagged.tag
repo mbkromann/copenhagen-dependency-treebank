@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="al" msd="CS" tag="CSUBI" in="" out="">Al</W>
 <W lemma="descubrir" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">descubrir</W>
@@ -240,3 +240,4 @@
 <W lemma="interrogar" msd="VAF" tag="VLadj" in="" out="">INTERROGADO</W>
 </s>
 </p>
+</root>

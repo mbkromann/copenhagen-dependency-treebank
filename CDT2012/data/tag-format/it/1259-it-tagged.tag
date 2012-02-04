@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ma" msd="CS" tag="CON" in="" out="">Ma</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="">è</W>
@@ -224,3 +224,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

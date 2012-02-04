@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Ein</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="" out="">Jahr</W>
@@ -15,7 +15,7 @@
 <W lemma="Laufbahn" msd="NC" tag="NN" in="" out="">Laufbahn</W>
 <W lemma="finden" msd="VAP" tag="VVPP" in="" out="">gefunden</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -59,7 +59,7 @@
 <W lemma="1997" msd="AC" tag="CARD" in="" out="">1997</W>
 <W lemma="verlängern" msd="VAP" tag="VVPP" in="" out="">verlängert</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -98,7 +98,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="verstehen" msd="VA" tag="VVFIN" in="" out="">verstehe</W>
 <W lemma="mein" msd="PO" tag="PPOSAT" in="" out="">meinen</W>
@@ -177,9 +177,9 @@
 <W lemma="seither" msd="RG" tag="ADV" in="" out="">seither</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">durch</W>
-<W lemma="solid&7c;solide" msd="AN" tag="ADJA" in="" out="">solides</W>
+<W lemma="solid|solide" msd="AN" tag="ADJA" in="" out="">solides</W>
 <W lemma="Spiel" msd="NC" tag="NN" in="" out="">Spiel</W>
 <W lemma="auszeichnen" msd="VAP" tag="VVPP" in="" out="">ausgezeichnet</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -227,3 +227,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

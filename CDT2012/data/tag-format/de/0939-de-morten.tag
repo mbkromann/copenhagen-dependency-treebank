@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="Schreiben" msd="NC" tag="NN" in="" out="">Schreiben</W>
@@ -14,14 +14,14 @@
 <W lemma="Joint-venture" msd="NC" tag="NN" in="" out="">Joint-Venture</W>
 <W lemma="Abkommen" msd="NC" tag="NN" in="" out="">Abkommens</W>
 <W lemma="zu" msd="RG" tag="PTKVZ" in="" out="">zu</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="diskutieren" msd="VA" tag="VVFIN" in="" out="">diskutieren</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="verhandeln" msd="VAF" tag="VVINF" in="" out="">verhandeln</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Bedingung" msd="NC" tag="NN" in="" out="">Bedingungen</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -32,7 +32,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="diskutieren" msd="VAF" tag="VVINF" in="" out="">diskutieren</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -42,7 +42,7 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="sehr" msd="RG" tag="ADV" in="" out="">sehr</W>
 <W lemma="darauf" msd="RG" tag="PAV" in="" out="">darauf</W>
-<W lemma="bedachen&7c;bedenken" msd="VAP" tag="VVPP" in="" out="">bedacht</W>
+<W lemma="bedachen|bedenken" msd="VAP" tag="VVPP" in="" out="">bedacht</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="" out="">seinen</W>
 <W lemma="irakisch" msd="AN" tag="ADJA" in="" out="">irakischen</W>
@@ -216,3 +216,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

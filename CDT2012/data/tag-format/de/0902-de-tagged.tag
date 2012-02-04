@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Zucchini</W>
@@ -66,7 +66,7 @@
 </p>
 <p>
 <s>
-<W lemma="Zwiebel&7c;Zwiebeln" msd="NC" tag="NN" in="" out="">Zwiebeln</W>
+<W lemma="Zwiebel|Zwiebeln" msd="NC" tag="NN" in="" out="">Zwiebeln</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="klein" msd="AN" tag="ADJD" in="" out="">klein</W>
 <W lemma="schneiden" msd="VA" tag="VVFIN" in="" out="">schneiden</W>
@@ -81,7 +81,7 @@
 <W lemma="Topf" msd="NC" tag="NN" in="" out="">Topf</W>
 <W lemma="erhitzen" msd="VA" tag="VVFIN" in="" out="">erhitzen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Zwiebel&7c;Zwiebeln" msd="NC" tag="NN" in="" out="">Zwiebeln</W>
+<W lemma="Zwiebel|Zwiebeln" msd="NC" tag="NN" in="" out="">Zwiebeln</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Topf" msd="NC" tag="NN" in="" out="">Topf</W>
@@ -109,7 +109,7 @@
 <W lemma="Aubergine" msd="NC" tag="NN" in="" out="">Auberginen</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Zwiebel&7c;Zwiebeln" msd="NC" tag="NN" in="" out="">Zwiebeln</W>
+<W lemma="Zwiebel|Zwiebeln" msd="NC" tag="NN" in="" out="">Zwiebeln</W>
 <W lemma="hinfügen" msd="VAF" tag="VVIZU" in="" out="">hinzufügen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -209,3 +209,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

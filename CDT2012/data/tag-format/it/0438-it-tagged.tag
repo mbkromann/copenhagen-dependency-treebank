@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="pensare" msd="VADR" tag="VER:pres" in="" out="">Penso</W>
@@ -270,3 +270,4 @@
 <W lemma="!" msd="XP" tag="SENT" in="" out="">!</W>
 </s>
 </p>
+</root>

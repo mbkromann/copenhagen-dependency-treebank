@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="außerdem" msd="RG" tag="ADV" in="1:add" out="">Außerdem</W>
 <W lemma="stehen" msd="VA" tag="VVFIN" in="" out="-1:add|1:subj|5:time|14:pnct">stehen</W>
@@ -22,7 +22,7 @@
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:subj" out="">Pemmikan</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|34:pnct">sind</W>
-<W lemma="Platte&7c;Platten" msd="NC" tag="NN" in="-1:preds" out="1:attr|1:{const}|7:pnct|8:ref|22:relr">Platten</W>
+<W lemma="Platte|Platten" msd="NC" tag="NN" in="-1:preds" out="1:attr|1:{const}|7:pnct|8:ref|22:relr">Platten</W>
 <W lemma="aus" msd="SP" tag="APPR" in="-1:attr|-1:{const}" out="1:nobj">aus</W>
 <W lemma="Fett" msd="NC" tag="NN" in="-1:nobj" out="1:pnct|2:conj|4:conj">Fett</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -141,10 +141,12 @@
 <s>
 <W lemma="Iver" msd="NP" tag="NE" in="1:namef" out="">Iver</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="-1:namef">Høj</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="Foto" msd="NC" tag="NN" in="" out="1:pnct|3:agent">Foto</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-1:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-1:pnct" out="">:</W>
 <W lemma="Jan" msd="NP" tag="NE" in="1:namef" out="">Jan</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:agent" out="-1:namef">Jørgensen</W>
 </s>
@@ -204,3 +206,4 @@
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">Aber</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
@@ -16,7 +16,7 @@
 <W lemma="Mann" msd="NC" tag="NN" in="" out="">Mann</W>
 <W lemma="verlieben" msd="VAP" tag="VVPP" in="" out="">verliebt</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="landflüchtig" msd="AN" tag="ADJA" in="" out="">landflüchtigen</W>
@@ -77,7 +77,7 @@
 <W lemma="beide" msd="PI" tag="PIDAT" in="" out="">beiden</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="einander" msd="PR" tag="PRF" in="" out="">einander</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="zögerlich" msd="AN" tag="ADJD" in="" out="">zögerlich</W>
 <W lemma="entwickeln" msd="VAP" tag="VVPP" in="" out="">entwickelt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -86,11 +86,11 @@
 <W lemma="Tatsache" msd="NC" tag="NN" in="" out="">Tatsache</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Sankt" msd="NP" tag="NE" in="" out="">Sankt</W>
 <W lemma="Markus" msd="NP" tag="NE" in="" out="">Markus</W>
 <W lemma="Nacht" msd="NC" tag="NN" in="" out="">Nacht</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="Helle" msd="NC" tag="NN" in="" out="">Helle</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Stangerups</W>
@@ -166,11 +166,11 @@
 <p>
 <s>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Sankt" msd="NP" tag="NE" in="" out="">Sankt</W>
 <W lemma="Markus" msd="NP" tag="NE" in="" out="">Markus</W>
 <W lemma="Nacht" msd="NC" tag="NN" in="" out="">Nacht</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Umschlagrückseite" msd="NC" tag="NN" in="" out="">Umschlagrückseite</W>
@@ -217,3 +217,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

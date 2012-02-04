@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="H." msd="NP" tag="NE" in="" out="">H.</W>
 <W lemma="P." msd="NP" tag="NE" in="" out="">P.</W>
@@ -29,7 +29,7 @@
 <W lemma="klar" msd="AN" tag="ADJA" in="" out="">klare</W>
 <W lemma="Warnung" msd="NC" tag="NN" in="" out="">Warnung</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -106,13 +106,13 @@
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,den</W>
 <W lemma="Chef" msd="NC" tag="NN" in="" out="">Chef</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Ministerpräsident" msd="NC" tag="NN" in="" out="">Ministerpräsident</W>
 <W lemma="Poul" msd="NP" tag="NE" in="" out="">Poul</W>
 <W lemma="Schlüter" msd="NP" tag="NE" in="" out="">Schlüter</W>
 <W lemma="weit" msd="AN" tag="ADJD" in="" out="">weiter</W>
-<W lemma="geleiten&7c;leiten" msd="VAP" tag="VVPP" in="" out="">geleitet</W>
+<W lemma="geleiten|leiten" msd="VAP" tag="VVPP" in="" out="">geleitet</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -122,7 +122,7 @@
 <W lemma="erzählt" msd="AN" tag="ADJA" in="" out="">ERZÄHLTE</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">ÜBER</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,STOLPERSTEINE</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -145,7 +145,7 @@
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="" out="">alle</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Stolpersteine</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Zusammenhang" msd="NC" tag="NN" in="" out="">Zusammenhang</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
@@ -155,7 +155,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Stolpersteine</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="beinhalten" msd="VA" tag="VVFIN" in="" out="">beinhalteten</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="Besprechung" msd="NC" tag="NN" in="" out="">Besprechung</W>
@@ -199,3 +199,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

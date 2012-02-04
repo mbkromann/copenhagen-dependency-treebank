@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">Im</W>
 <W lemma="Lauf" msd="NC" tag="NN" in="" out="">Laufe</W>
@@ -10,7 +10,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Næstved-Schulen</W>
 <W lemma="jed" msd="PP" tag="PIS" in="" out="">jede</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="Reihe" msd="NC" tag="NN" in="" out="">Reihe</W>
 <W lemma="Aktivität" msd="NC" tag="NN" in="" out="">Aktivitäten</W>
@@ -63,7 +63,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Gdynia</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Schule&7c;Schulen" msd="NC" tag="NN" in="" out="">Schulen</W>
+<W lemma="Schule|Schulen" msd="NC" tag="NN" in="" out="">Schulen</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Herbst" msd="NC" tag="NN" in="" out="">Herbst</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="" out="">großen</W>
@@ -77,7 +77,7 @@
 <W lemma="Lehrer" msd="NC" tag="NN" in="" out="">Lehrer</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="technisch" msd="AN" tag="ADJA" in="" out="">technischen</W>
-<W lemma="Schule&7c;Schulen" msd="NC" tag="NN" in="" out="">Schulen</W>
+<W lemma="Schule|Schulen" msd="NC" tag="NN" in="" out="">Schulen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Handelsschulen</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
@@ -188,3 +188,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

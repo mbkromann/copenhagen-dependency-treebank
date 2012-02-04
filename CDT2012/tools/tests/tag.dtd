@@ -1,15 +1,23 @@
-<!ELEMENT root (p+)>
-
+<!ELEMENT root (p+ | s+ | W+)>
 
 <!ELEMENT p (s+)>
 
-<!ELEMENT s (W+)>
+<!ELEMENT s (W*)>
 
 <!ELEMENT W (#PCDATA)>
 
-<!ATTLIST W lemma CDATA #REQUIRED
+<!ATTLIST W lemma CDATA #IMPLIED
             msd CDATA #REQUIRED
-            tag CDATA #REQUIRED
-            in CDATA #REQUIRED
-            out CDATA #REQUIRED
+            tag CDATA #IMPLIED
+            in CDATA #IMPLIED
+            out CDATA #IMPLIED
+            morph CDATA #IMPLIED
+            gloss CDATA #IMPLIED
+            id CDATA #IMPLIED
+            compound CDATA #IMPLIED
+            romanized CDATA #IMPLIED
+            _noerror CDATA #IMPLIED
+            _compound CDATA #IMPLIED
+            sdeps CDATA #IMPLIED
+            note CDATA #IMPLIED
 >

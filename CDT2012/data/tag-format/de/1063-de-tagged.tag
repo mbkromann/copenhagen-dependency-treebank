@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">Als</W>
 <W lemma="Leiter" msd="NC" tag="NN" in="" out="">Leiter</W>
@@ -14,7 +14,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="begeistern" msd="VAF" tag="VVINF" in="" out="">begeistern</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="er&7c;es" msd="PP" tag="PPER" in="" out="">Ihm</W>
+<W lemma="er|es" msd="PP" tag="PPER" in="" out="">Ihm</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
 <W lemma="nachsagen" msd="VAP" tag="VVPP" in="" out="">nachgesagt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -41,16 +41,16 @@
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="" out="">,,außerordentlich</W>
 <W lemma="professionell" msd="AN" tag="ADJD" in="" out="">professionell</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="" out="">,,fachlich</W>
 <W lemma="ehrlich" msd="AN" tag="ADJD" in="" out="">ehrlich</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="bezeichnen" msd="VAP" tag="VVPP" in="" out="">bezeichnet</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="letzter" msd="PP" tag="PIS" in="" out="">Letzteres</W>
 <W lemma="wirken" msd="VA" tag="VVFIN" in="" out="">wirkte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nachteilig" msd="AN" tag="ADJD" in="" out="">nachteilig</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="Politiker" msd="NC" tag="NN" in="" out="">Politiker</W>
@@ -194,3 +194,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

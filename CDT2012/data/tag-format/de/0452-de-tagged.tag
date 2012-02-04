@@ -1,7 +1,7 @@
-<p>
+<root><p>
 <s>
 <W lemma="füllen" msd="VA" tag="VVFIN" in="" out="">Füllen</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Antwortschein</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
@@ -15,11 +15,11 @@
 <W lemma="aus" msd="RG" tag="PTKVZ" in="" out="">aus</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="senden" msd="VA" tag="VVFIN" in="" out="">Senden</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">ihn</W>
 <W lemma="umgehend" msd="AN" tag="ADJD" in="" out="">umgehend</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -37,12 +37,12 @@
 <p>
 <s>
 <W lemma="schreiben" msd="VA" tag="VVFIN" in="" out="">Schreiben</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="Stichwort" msd="NC" tag="NN" in="" out="">Stichwort</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">,,DUPLO</W>
 <W lemma="Spielzeug" msd="NC" tag="NN" in="" out="">Spielzeug</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Umschlag" msd="NC" tag="NN" in="" out="">Umschlag</W>
@@ -66,7 +66,7 @@
 <W lemma="1992" msd="AC" tag="CARD" in="" out="">1992</W>
 <W lemma="vorliegen" msd="VA" tag="VVFIN" in="" out="">vorliegen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Umschlag" msd="NC" tag="NN" in="" out="">Umschlag</W>
@@ -96,7 +96,7 @@
 <W lemma="Ablauf" msd="NC" tag="NN" in="" out="">Ablauf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Frist" msd="NC" tag="NN" in="" out="">Frist</W>
-<W lemma="zeihen&7c;ziehen" msd="VA" tag="VVFIN" in="" out="">ziehen</W>
+<W lemma="zeihen|ziehen" msd="VA" tag="VVFIN" in="" out="">ziehen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
 <W lemma="unter" msd="SP" tag="APPR" in="" out="">unter</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="" out="">allen</W>
@@ -111,7 +111,7 @@
 <W lemma="Preis" msd="NC" tag="NN" in="" out="">Preis</W>
 <W lemma="rechtzeitig" msd="AN" tag="ADJD" in="" out="">rechtzeitig</W>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
-<W lemma="Weihnacht&7c;Weihnachten" msd="NC" tag="NN" in="" out="">Weihnachten</W>
+<W lemma="Weihnacht|Weihnachten" msd="NC" tag="NN" in="" out="">Weihnachten</W>
 <W lemma="zustellen" msd="VAP" tag="VVPP" in="" out="">zugestellt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -152,33 +152,33 @@
 <p>
 <s>
 <W lemma="Name" msd="NC" tag="NN" in="" out="">Name</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="Adresse" msd="NC" tag="NN" in="" out="">Adresse</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="Postleitzahl" msd="NC" tag="NN" in="" out="">Postleitzahl</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="Stadt" msd="NC" tag="NN" in="" out="">Stadt</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="Bitte" msd="RG" tag="ADV" in="" out="">Bitte</W>
 <W lemma="schreiben" msd="VA" tag="VVFIN" in="" out="">schreiben</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="Druckbuchstabe" msd="NC" tag="NN" in="" out="">Druckbuchstaben</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Einsendeschluß" msd="NC" tag="NN" in="" out="">Einsendeschluss</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="25" msd="AC" tag="CARD" in="" out="">25</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="November" msd="NC" tag="NN" in="" out="">November</W>
@@ -189,14 +189,14 @@
 <p>
 <s>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Überraschung</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Woche" msd="NC" tag="NN" in="" out="">Woche</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="Seite" msd="NC" tag="NN" in="" out="">Seite</W>
 <W lemma="47" msd="AC" tag="CARD" in="" out="">47</W>
@@ -212,19 +212,19 @@
 <W lemma="legen" msd="VAF" tag="VVINF" in="" out="">legen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Überraschung" msd="NC" tag="NN" in="" out="">Überraschung</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Woche" msd="NC" tag="NN" in="" out="">Woche</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="Woche" msd="NC" tag="NN" in="" out="">Woche</W>
 <W lemma="47" msd="AC" tag="CARD" in="" out="">47</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">DUPLO</W>
 <W lemma="Spielzeug" msd="NC" tag="NN" in="" out="">Spielzeug</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="beschriften" msd="VA" tag="VVFIN" in="" out="">beschriften</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -239,7 +239,7 @@
 <p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
-<W lemma="Schraube&7c;Schrauben" msd="NC" tag="NN" in="" out="">Schrauben</W>
+<W lemma="Schraube|Schrauben" msd="NC" tag="NN" in="" out="">Schrauben</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="fest" msd="AN" tag="ADJD" in="" out="">fest</W>
 <W lemma="verankern" msd="VAP" tag="VVPP" in="" out="">verankert</W>
@@ -261,3 +261,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

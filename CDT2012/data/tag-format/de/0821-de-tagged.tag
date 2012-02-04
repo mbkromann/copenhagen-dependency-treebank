@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">vielen</W>
@@ -60,7 +60,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">wenn</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="häufig" msd="AN" tag="ADJD" in="" out="">häufig</W>
@@ -144,7 +144,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Eltern" msd="NC" tag="NN" in="" out="">Eltern</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="erträumen" msd="VA" tag="VVFIN" in="" out="">erträumen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -168,7 +168,7 @@
 <W lemma="trotzdem" msd="RG" tag="PAV" in="" out="">trotzdem</W>
 <W lemma="anders" msd="RG" tag="ADV" in="" out="">anders</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="Kind" msd="NC" tag="NN" in="" out="">Kinder</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -203,7 +203,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Erinnerung" msd="NC" tag="NN" in="" out="">Erinnerungen</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
-<W lemma="Fest&7c;Feste" msd="NC" tag="NN" in="" out="">Feste</W>
+<W lemma="Fest|Feste" msd="NC" tag="NN" in="" out="">Feste</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Ferien" msd="NC" tag="NN" in="" out="">Ferien</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -211,3 +211,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

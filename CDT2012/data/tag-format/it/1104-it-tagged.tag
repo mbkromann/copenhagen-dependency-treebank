@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="anche" msd="RG" tag="ADV" in="" out="">Anche</W>
@@ -248,3 +248,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

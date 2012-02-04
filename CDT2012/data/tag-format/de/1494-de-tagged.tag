@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">Auf</W>
 <W lemma="jed" msd="PI" tag="PIDAT" in="" out="">jeden</W>
@@ -45,7 +45,7 @@
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">dem</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="viel" msd="RG" tag="ADV" in="" out="">viel</W>
 <W lemma="erwarten" msd="VA" tag="VVFIN" in="" out="">erwartete</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -58,7 +58,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Hafenwoche</W>
@@ -99,7 +99,7 @@
 <W lemma="wachsen" msd="VA" tag="VVFIN" in="" out="">wachsen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="daher" msd="RG" tag="PAV" in="" out="">Daher</W>
-<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
+<W lemma="fallen|fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="ich" msd="PR" tag="PRF" in="" out="">mir</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
@@ -121,7 +121,7 @@
 <W lemma="mögen" msd="VA" tag="VMFIN" in="" out="">möchte</W>
 <W lemma="verlieren" msd="VAF" tag="VVINF" in="" out="">verlieren</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="unterstreichen" msd="VA" tag="VVFIN" in="" out="">unterstreicht</W>
 <W lemma="Jesper" msd="NP" tag="NE" in="" out="">Jesper</W>
 <W lemma="Bank" msd="NC" tag="NN" in="" out="">Bank</W>
@@ -164,7 +164,7 @@
 <W lemma="Jesper" msd="NP" tag="NE" in="" out="">Jesper</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Seier</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="">wollen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="jetzt" msd="RG" tag="ADV" in="" out="">jetzt</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihre</W>
@@ -222,3 +222,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

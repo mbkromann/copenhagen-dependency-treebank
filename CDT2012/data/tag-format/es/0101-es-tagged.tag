@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="según" msd="CS" tag="CSUBF" in="" out="">Según</W>
 <W lemma="avanzar" msd="VAD" tag="VLfin" in="" out="">avanzaba</W>
@@ -236,3 +236,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

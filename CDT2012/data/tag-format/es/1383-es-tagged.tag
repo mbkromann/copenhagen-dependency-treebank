@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">EN</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
@@ -16,6 +16,8 @@
 <W lemma="fácil" msd="AN" tag="ADJ" in="" out="">fácil</W>
 <W lemma="de" msd="CS" tag="CSUBI" in="" out="">de</W>
 <W lemma="realizar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">realizar</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="desde" msd="SP" tag="SCENE" in="" out="">desde</W>
@@ -133,6 +135,8 @@
 <W lemma="natural" msd="AN" tag="ADJ" in="" out="">natural</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">haya</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="posibilidad" msd="NC" tag="NC" in="" out="">posibilidades</W>
@@ -252,3 +256,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

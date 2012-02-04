@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">..</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -11,7 +11,7 @@
 <W lemma="oder" msd="CC" tag="KON" in="4:coord" out="">oder</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="3:subj" out="1:nobj">der</W>
 <W lemma="Stuhl" msd="NC" tag="NN" in="-1:nobj" out="">Stuhl</W>
-<W lemma="Blutspur&7c;Blutspuren" msd="NC" tag="NN" in="1:dobj" out="">Blutspuren</W>
+<W lemma="Blutspur|Blutspuren" msd="NC" tag="NN" in="1:dobj" out="">Blutspuren</W>
 <W lemma="aufweisen" msd="VA" tag="VVFIN" in="-5:conj" out="-1:dobj|-4:coord|-3:subj">aufweist</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
 <W lemma="oder" msd="CC" tag="KON" in="" out="1:pnct|2:conj|8:pnct">Oder</W>
@@ -30,10 +30,10 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">..</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="1:other|4:nobj|28:pnct">Bei</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:other" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:other" out="">sich</W>
 <W lemma="neuerlich" msd="AN" tag="ADJD" in="2:attr" out="">neuerlich</W>
 <W lemma="ergebend" msd="AN" tag="ADJA" in="1:attr" out="">ergebenden</W>
-<W lemma="Magenschmerz&7c;Magenschmerzen" msd="NC" tag="NN" in="-4:nobj" out="-1:attr|-2:attr|4:modp|4:{elab}|6:modp|6:{elab}">Magenschmerzen</W>
+<W lemma="Magenschmerz|Magenschmerzen" msd="NC" tag="NN" in="-4:nobj" out="-1:attr|-2:attr|4:modp|4:{elab}|6:modp|6:{elab}">Magenschmerzen</W>
 <W lemma="," msd="XP" tag="$," in="3:pnct" out="">,</W>
 <W lemma="auch" msd="RG" tag="ADV" in="2:add" out="">auch</W>
 <W lemma="leicht" msd="AN" tag="ADJA" in="1:attr" out="">leichterer</W>
@@ -51,7 +51,7 @@
 <W lemma="insbesondere" msd="RG" tag="ADV" in="-2:focal" out="1:pnct">insbesondere</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-11:conj" out="6:vobj">wenn</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="5:subj" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="5:subj" out="">Sie</W>
 <W lemma="über" msd="SP" tag="APPR" in="1:quant" out="">über</W>
 <W lemma="40" msd="AC" tag="CARD" in="3:preds" out="-1:quant|1:nobj">40</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="1:aobj">Jahre</W>
@@ -73,7 +73,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="-4:nobj" out="8:vobj">das</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="7:subj" out="1:nobj">der</W>
 <W lemma="Darm" msd="NC" tag="NN" in="-1:nobj" out="">Darm</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="5:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="5:robj" out="">sich</W>
 <W lemma="beim" msd="SP+P" tag="APPRART" in="4:time" out="1:nobj">beim</W>
 <W lemma="Stuhlgang" msd="NC" tag="NN" in="-1:nobj" out="">Stuhlgang</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="2:neg" out="">nicht</W>
@@ -106,7 +106,7 @@
 <W lemma="ungesund" msd="AN" tag="ADJA" in="-1:attr" out="">ungesunden</W>
 <W lemma="Ernährungsgewohnheit" msd="NC" tag="NN" in="-2:nobj" out="">Ernährungsgewohnheiten</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-6:subj" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="ändern" msd="VAF" tag="VVINF" in="-1:vobj" out="-4:dobj">ändern</W>
+<W _noerror=":nosubj:" lemma="ändern" msd="VAF" tag="VVINF" in="-1:vobj" out="-4:dobj">ändern</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-6:ref|4:subj" out="">die</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="2:pobj|2:[subj]" out="1:nobj">zum</W>
@@ -150,7 +150,7 @@
 <W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="">Tag</W>
 <W lemma="," msd="XP" tag="$," in="-10:pnct" out="">,</W>
 <W lemma="ergeben" msd="VA" tag="VVFIN" in="" out="-11:cond|1:dobj|2:time|4:subj|9:pnct">ergibt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:dobj" out="">sich</W>
 <W lemma="pro" msd="SP" tag="APPR" in="-2:time" out="1:nobj">pro</W>
 <W lemma="Monat" msd="NC" tag="NN" in="-1:nobj" out="">Monat</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-4:subj" out="1:nobj|2:attr">ein</W>
@@ -209,7 +209,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="3:dobj" out="1:nobj">das</W>
 <W lemma="Gewicht" msd="NC" tag="NN" in="-1:nobj" out="">Gewicht</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-7:nobj" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="halten" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:dobj|1:pnct|2:time">halten</W>
+<W _noerror=":nosubj:" lemma="halten" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:dobj|1:pnct|2:time">halten</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-2:time" out="6:vobj">wenn</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:[subj]|5:subj" out="1:nobj">das</W>
@@ -221,3 +221,4 @@
 <W lemma="." msd="XP" tag="$." in="-23:pnct" out="">.</W>
 </s>
 </p>
+</root>

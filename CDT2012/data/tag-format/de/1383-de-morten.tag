@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="bei" msd="SP" tag="APPR" in="4:loc" out="1:nobj">Bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
@@ -13,10 +13,10 @@
 <W lemma="vom" msd="SP+P" tag="APPRART" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">vom</W>
 <W lemma="Ausbildungsbeginn" msd="NC" tag="NN" in="-1:nobj" out="">Ausbildungsbeginn</W>
 <W lemma="an" msd="SP" tag="APZR" in="-7:nobj" out="1:vobj">an</W>
-<W _noerror="&3a;nosubj&3a;" lemma="vornehmen" msd="VAF" tag="VVIZU" in="-1:vobj" out="-5:dobj">vorzunehmen</W>
+<W _noerror=":nosubj:" lemma="vornehmen" msd="VAF" tag="VVIZU" in="-1:vobj" out="-5:dobj">vorzunehmen</W>
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
 <W lemma="beteiligen" msd="VA" tag="VVFIN" in="12:cond" out="1:robj|2:subj|4:pobj|11:pnct">Beteiligt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-2:subj" out="1:nobj">ein</W>
 <W lemma="Lernende" msd="NC" tag="NN" in="-1:nobj" out="">Lernender</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="-4:pobj" out="1:nobj|2:pnct|3:conj">am</W>
@@ -129,7 +129,7 @@
 <W lemma="Studienstart" msd="NC" tag="NN" in="-1:nobj" out="">Studienstart</W>
 <W lemma="erst" msd="AN" tag="ADJA" in="2:dobj" out="1:nobj">erste</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Aktivitätskontrollen</W>
-<W lemma="durchfahren&7c;durchführen" msd="VA" tag="VVFIN" in="1:vobj" out="-9:[subj]|-4:time|-2:dobj|-11:source">durchführen</W>
+<W lemma="durchfahren|durchführen" msd="VA" tag="VVFIN" in="1:vobj" out="-9:[subj]|-4:time|-2:dobj|-11:source">durchführen</W>
 <W lemma="sollen" msd="VAF" tag="VMINF" in="-16:relr" out="-10:subj|-1:vobj">sollen</W>
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 </s>
@@ -161,7 +161,7 @@
 <W lemma="können" msd="VA" tag="VMFIN" in="-10:vobj" out="-9:subj|-1:vobj|1:pnct">kann</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="ohne" msd="CS" tag="KOUI" in="-3:man" out="4:nobj">ohne</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="4:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="4:dobj" out="">sich</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="3:@loc" out="1:nobj">am</W>
 <W lemma="Ausbildungsort" msd="NC" tag="NN" in="-1:nobj" out="">Ausbildungsort</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-4:nobj" out="1:vobj|5:conj">zu</W>
@@ -195,3 +195,4 @@
 <W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
 </s>
 </p>
+</root>

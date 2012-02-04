@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">LONDRA</W>
 </s>
@@ -230,3 +230,4 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 </s>
 </p>
+</root>

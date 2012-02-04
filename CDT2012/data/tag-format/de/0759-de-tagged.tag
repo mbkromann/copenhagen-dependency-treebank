@@ -1,8 +1,8 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Unforgettable</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="heißen" msd="VA" tag="VVFIN" in="" out="">heißt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Grammy-belohnte</W>
@@ -26,7 +26,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="unmittelbar" msd="AN" tag="ADJD" in="" out="">Unmittelbar</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatten</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="viel" msd="PP" tag="PIS" in="" out="">viele</W>
 <W lemma="wohl" msd="RG" tag="ADV" in="" out="">wohl</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
@@ -188,3 +188,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

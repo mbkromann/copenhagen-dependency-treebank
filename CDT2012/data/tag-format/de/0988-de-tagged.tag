@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="außerdem" msd="RG" tag="ADV" in="" out="">Außerdem</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
@@ -26,7 +26,7 @@
 <W lemma="dabei" msd="RG" tag="PAV" in="" out="">dabei</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Touristensaison" msd="NC" tag="NN" in="" out="">Touristensaison</W>
@@ -66,7 +66,7 @@
 <W lemma="Inn" msd="NP" tag="NE" in="" out="">Inn</W>
 <W lemma="mitteilen" msd="VAP" tag="VVPP" in="" out="">mitgeteilt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">müssen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="Hotel" msd="NC" tag="NN" in="" out="">Hotel</W>
@@ -102,12 +102,12 @@
 <W lemma="normal" msd="AN" tag="ADJA" in="" out="">normaler</W>
 <W lemma="Kroate" msd="NC" tag="NN" in="" out="">Kroaten</W>
 <W lemma="gelten" msd="VA" tag="VVFIN" in="" out="">gilt</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="Situation" msd="NC" tag="NN" in="" out="">Situationen</W>
 <W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
@@ -139,7 +139,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="verstehen" msd="VAF" tag="VVINF" in="" out="">verstehen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Darko" msd="NP" tag="NE" in="" out="">Darko</W>
 <W lemma="Richter" msd="NP" tag="NE" in="" out="">Richter</W>
@@ -178,12 +178,12 @@
 <W lemma="Unabhängigkeit" msd="NC" tag="NN" in="" out="">Unabhängigkeit</W>
 <W lemma="erklären" msd="VAP" tag="VVPP" in="" out="">erklärt</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
@@ -198,10 +198,11 @@
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">uns</W>
 <W lemma="Waffe" msd="NC" tag="NN" in="" out="">Waffen</W>
 <W lemma="!" msd="XP" tag="$." in="" out="">!</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Dr." msd="NC" tag="NN" in="" out="">Dr.</W>
 <W lemma="Richter" msd="NP" tag="NE" in="" out="">Richter</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

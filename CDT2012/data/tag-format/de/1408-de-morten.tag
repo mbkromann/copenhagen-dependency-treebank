@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="was" msd="PT" tag="PWS" in="9:[dobj]|11:subj" out="9:relr">Was</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="8:subj" out="1:nobj">die</W>
@@ -31,7 +31,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="2:loc" out="1:nobj">In</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">Christiansborg</W>
 <W lemma="schließen" msd="VA" tag="VVFIN" in="" out="-2:loc|1:robj|2:subj|8:dobj|11:part|34:pnct">schließt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:subj" out="1:attr|2:nobj|5:appr">der</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="-1:attr" out="">neue</W>
 <W lemma="Vorsitzende" msd="NC" tag="NN" in="-2:nobj" out="">Vorsitzende</W>
@@ -98,7 +98,7 @@
 <W lemma="Maastricht-Vertrag" msd="NC" tag="NN" in="-1:nobj" out="">Maastricht-Vertrag</W>
 <W lemma="entsprechen" msd="VA" tag="VVFIN" in="-5:relr" out="-3:subj|-2:dobj">entspricht</W>
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
 <W lemma="denken" msd="VA" tag="VVFIN" in="" out="-1:subj|1:neg|2:pobj|9:cause|14:pnct">denkt</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
 <W lemma="daran" msd="RG" tag="PAV" in="-2:pobj" out="1:pnct|5:nobj">daran</W>
@@ -176,7 +176,7 @@
 <W lemma="Wunschdenken" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Wunschdenken</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
 <W lemma="denn" msd="CC" tag="KON" in="" out="1:pnct|5:xpl">Denn</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-1:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-1:pnct" out="">:</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="3:subj" out="1:attr|2:nobj">die</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="-1:attr" out="">dänische</W>
 <W lemma="Volksabstimmung" msd="NC" tag="NN" in="-2:nobj" out="">Volksabstimmung</W>
@@ -197,3 +197,4 @@
 <W lemma="." msd="XP" tag="$." in="-14:pnct" out="">.</W>
 </s>
 </p>
+</root>

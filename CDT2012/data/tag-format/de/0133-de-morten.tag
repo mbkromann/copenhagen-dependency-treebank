@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="12:subj" out="3:nobj|4:pnct|5:ref|10:relpa">Das</W>
 <W lemma="einzig" msd="AN" tag="ADJA" in="2:attr" out="">einzige</W>
@@ -50,7 +50,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="4:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="4:pnct" out="">"</W>
 <W lemma="in" msd="SP" tag="APPR" in="3:loc" out="1:nobj">In</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Auktionsbedingungen</W>
@@ -75,7 +75,7 @@
 <W lemma="übergeben" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:iobj">übergeben</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-8:vobj" out="-5:subj|-2:preds|-7:time">sind</W>
 <W lemma="," msd="XP" tag="$," in="-20:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-21:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-21:pnct" out="">"</W>
 <W lemma="teilen" msd="VA" tag="VVFIN" in="" out="-22:qobj|2:subj|7:part|8:pnct">teilt</W>
 <W lemma="Fregattenkapitän" msd="NC" tag="NN" in="1:title" out="">Fregattenkapitän</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:subj" out="-1:title|1:loc">Mikkelsen</W>
@@ -148,13 +148,13 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|2:preds|3:pnct">sind</W>
 <W lemma="schnell" msd="AN" tag="ADJA" in="1:attr" out="">schnelle</W>
 <W lemma="Bursche" msd="NC" tag="NN" in="-2:preds" out="-1:attr">Burschen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-3:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-3:pnct" out="">:</W>
 <W lemma="d" msd="PP" tag="PDS" in="-5:coref|1:subj|6:[subj]" out="9:coref">die</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="-1:subj|5:vobj|6:pnct|7:cause|20:pnct">können</W>
 <W lemma="bis" msd="CC" tag="KON" in="2:quant" out="1:pobj">bis</W>
 <W lemma="zu" msd="SP" tag="APPR" in="-1:pobj" out="">zu</W>
 <W lemma="54" msd="AC" tag="CARD" in="2:dobj" out="-2:quant|1:nobj">54</W>
-<W lemma="Knote&7c;Knoten" msd="NC" tag="NN" in="-1:nobj" out="">Knoten</W>
+<W lemma="Knote|Knoten" msd="NC" tag="NN" in="-1:nobj" out="">Knoten</W>
 <W lemma="laufen" msd="VAF" tag="VVINF" in="-5:vobj" out="-6:[subj]|-2:dobj">laufen</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
 <W lemma="denn" msd="CC" tag="KON" in="-7:cause" out="2:vobj">denn</W>
@@ -169,7 +169,7 @@
 <W lemma="auf" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">auf</W>
 <W lemma="drei" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">drei</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Gasturbinenmotoren</W>
-<W lemma="ausgestatten&7c;ausstatten" msd="VAP" tag="VVPP" in="-10:vobj" out="-9:pobj">ausgestattet</W>
+<W lemma="ausgestatten|ausstatten" msd="VAP" tag="VVPP" in="-10:vobj" out="-9:pobj">ausgestattet</W>
 <W lemma="." msd="XP" tag="$." in="-20:pnct" out="">.</W>
 <W lemma="aber" msd="CC" tag="KON" in="2:coord" out="">Aber</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj" out="">es</W>
@@ -224,3 +224,4 @@
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 </s>
 </p>
+</root>

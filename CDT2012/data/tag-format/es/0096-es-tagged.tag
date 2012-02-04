@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ahora" msd="RG" tag="ADV" in="" out="">Ahora</W>
 <W lemma="tener~que" msd="VAD" tag="VMfin" in="" out="">tendrá que</W>
@@ -204,3 +204,4 @@
 <W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>
 </s>
 </p>
+</root>

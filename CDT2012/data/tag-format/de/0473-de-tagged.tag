@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="von" msd="NP" tag="NE" in="" out="">Von</W>
 </s>
@@ -52,7 +52,7 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">,,das</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="" out="">Neue</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ganz" msd="AN" tag="ADJD" in="" out="">ganz</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="" out="">unterwartet</W>
 <W lemma="kommen" msd="VAP" tag="VVPP" in="" out="">gekommen</W>
@@ -116,7 +116,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Egotripper</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="lieb" msd="AN" tag="ADJA" in="" out="">lieben</W>
 <W lemma="lang" msd="AN" tag="ADJA" in="" out="">langen</W>
@@ -135,7 +135,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="laut" msd="AN" tag="ADJD" in="" out="">laut</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="selbst" msd="RG" tag="ADV" in="" out="">selbst</W>
 <W lemma="preisend" msd="AN" tag="ADJD" in="" out="">preisend</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -223,3 +223,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

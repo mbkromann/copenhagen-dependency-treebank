@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="unterirdisch" msd="AN" tag="ADJA" in="" out="">unterirdische</W>
@@ -114,7 +114,7 @@
 <W lemma="Museum" msd="NC" tag="NN" in="" out="">Museen</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="Jersey" msd="NP" tag="NE" in="" out="">Jersey</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Bunkermuseum</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Motormuseum</W>
@@ -204,7 +204,7 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurde</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,Living</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Legend</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="bauen" msd="VAP" tag="VVPP" in="" out="">gebaut</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="wo" msd="PT" tag="PWAV" in="" out="">wo</W>
@@ -230,7 +230,8 @@
 <W lemma="Sturm" msd="NC" tag="NN" in="" out="">Sturm</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="ander" msd="AN" tag="ADJA" in="" out="">anderen</W>
-<W lemma="Effekt&7c;Effekten" msd="NC" tag="NN" in="" out="">Effekten</W>
+<W lemma="Effekt|Effekten" msd="NC" tag="NN" in="" out="">Effekten</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="alle" msd="PI" tag="PIAT" in="2:subj|4:[subj]" out="1:nobj|8:modp|8:{elab}">Alle</W>
 <W lemma="Rentner" msd="NC" tag="NN" in="-1:nobj" out="">Rentner</W>
@@ -33,7 +33,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Der</W>
 <W lemma="Mietkostenzuschuß" msd="NC" tag="NN" in="-1:nobj" out="">Mietkostenzuschuss</W>
 <W lemma="richten" msd="VA" tag="VVFIN" in="" out="-2:subj|1:robj|2:pobj|24:pnct">richtet</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
 <W lemma="nach" msd="SP" tag="APPR" in="-2:pobj" out="1:nobj|16:conj">nach</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|4:pnct|5:conj|9:pnct|10:conj">der</W>
 <W lemma="Höhe" msd="NC" tag="NN" in="-1:nobj" out="1:gobj|1:{arg}">Höhe</W>
@@ -68,6 +68,8 @@
 <W lemma="Höchstbetrag" msd="NC" tag="NN" in="-2:nobj" out="">Höchstbetrag</W>
 <W lemma="ausgehen" msd="VAP" tag="VVPP" in="-4:vobj" out="-3:pobj|-4:[subj]">ausgegangen</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="1:nobj">Der</W>
@@ -112,7 +114,7 @@
 <p>
 <s>
 <W lemma="zu" msd="U=" tag="PTKZU" in="2:subj" out="1:vobj">Zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="beachten" msd="VAF" tag="VVINF" in="-1:vobj" out="">beachten</W>
+<W _noerror=":nosubj:" lemma="beachten" msd="VAF" tag="VVINF" in="-1:vobj" out="">beachten</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:pnct|2:preds|35:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:preds" out="32:vobj">dass</W>
@@ -182,7 +184,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="5:subj" out="1:nobj">der</W>
 <W lemma="Ehepartner" msd="NC" tag="NN" in="-1:nobj" out="2:conj">Ehepartner</W>
 <W lemma="oder" msd="CC" tag="KON" in="1:coord" out="">oder</W>
-<W lemma="Lebensgefährt&7c;Lebensgefährte" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Lebensgefährte</W>
+<W lemma="Lebensgefährt|Lebensgefährte" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Lebensgefährte</W>
 <W lemma="sterben" msd="VAP" tag="VVPP" in="1:preds" out="">gestorben</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-6:vobj" out="-5:subj|-1:preds|1:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -191,7 +193,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="8:[subj]|9:subj" out="1:nobj">der</W>
 <W lemma="Ehepartner" msd="NC" tag="NN" in="-1:nobj" out="2:conj">Ehepartner</W>
 <W lemma="oder" msd="CC" tag="KON" in="1:coord" out="">oder</W>
-<W lemma="Lebensgefährt&7c;Lebensgefährte" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Lebensgefährte</W>
+<W lemma="Lebensgefährt|Lebensgefährte" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Lebensgefährte</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="4:dobj" out="1:nobj">einen</W>
 <W lemma="Platz" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{loc}">Platz</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="-1:attr|-1:{loc}" out="1:nobj">im</W>
@@ -210,3 +212,4 @@
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 </s>
 </p>
+</root>

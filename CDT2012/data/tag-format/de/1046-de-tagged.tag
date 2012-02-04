@@ -1,7 +1,7 @@
-<p>
+<root><p>
 <s>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">Aus</W>
-<W lemma="UN-Kreis&7c;UN-Kreisen" msd="NC" tag="NN" in="" out="">UN-Kreisen</W>
+<W lemma="UN-Kreis|UN-Kreisen" msd="NC" tag="NN" in="" out="">UN-Kreisen</W>
 <W lemma="hören" msd="VA" tag="VVFIN" in="" out="">hört</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -31,7 +31,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Mörserraketen</W>
 <W lemma="bombardieren" msd="VAP" tag="VVPP" in="" out="">bombardiert</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
@@ -93,7 +93,7 @@
 <W lemma="20" msd="AC" tag="CARD" in="" out="">20</W>
 <W lemma="Soldat" msd="NC" tag="NN" in="" out="">Soldaten</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="Zivil&7c;Zivile" msd="NC" tag="NN" in="" out="">Zivile</W>
+<W lemma="Zivil|Zivile" msd="NC" tag="NN" in="" out="">Zivile</W>
 <W lemma="töten" msd="VAP" tag="VVPP" in="" out="">getötet</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
@@ -146,7 +146,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Diskussion" msd="NC" tag="NN" in="" out="">Diskussion</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">muss</W>
@@ -185,7 +185,7 @@
 <W lemma="hinnehmen" msd="VAP" tag="VVPP" in="" out="">hingenommen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="türkisch" msd="AN" tag="ADJA" in="" out="">türkische</W>
@@ -196,3 +196,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

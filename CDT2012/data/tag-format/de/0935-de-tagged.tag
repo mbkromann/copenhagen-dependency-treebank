@@ -1,11 +1,11 @@
-<p>
+<root><p>
 <s>
 <W lemma="und" msd="CC" tag="KON" in="" out="">Und</W>
 <W lemma="was" msd="PT" tag="PWS" in="" out="">was</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
 <W lemma="erreichen" msd="VAP" tag="VVPP" in="" out="">erreicht</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="überall" msd="RG" tag="ADV" in="" out="">überall</W>
@@ -61,7 +61,7 @@
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">dieses</W>
 <W lemma="winzig" msd="AN" tag="ADJA" in="" out="">winzige</W>
 <W lemma="Volk" msd="NC" tag="NN" in="" out="">Volk</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="zäh" msd="AN" tag="ADJA" in="" out="">zähen</W>
@@ -88,10 +88,10 @@
 <W lemma="stolz" msd="AN" tag="ADJA" in="" out="">stolze</W>
 <W lemma="Tradition" msd="NC" tag="NN" in="" out="">Tradition</W>
 <W lemma="unser" msd="PO" tag="PPOSAT" in="" out="">unserer</W>
-<W lemma="Vorfahr&7c;Vorfahren" msd="NC" tag="NN" in="" out="">Vorfahren</W>
+<W lemma="Vorfahr|Vorfahren" msd="NC" tag="NN" in="" out="">Vorfahren</W>
 <W lemma="fortsetzen" msd="VAF" tag="VVINF" in="" out="">fortsetzen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="selbst" msd="RG" tag="ADV" in="" out="">Selbst</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="denken" msd="VAF" tag="VVINF" in="" out="">denken</W>
@@ -109,7 +109,7 @@
 <W lemma="oder" msd="CC" tag="KON" in="" out="">oder</W>
 <W lemma="Jasager" msd="NC" tag="NN" in="" out="">Jasager</W>
 <W lemma="sein" msd="VAF" tag="VAINF" in="" out="">sein</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="alle" msd="PP" tag="PIS" in="" out="">Alle</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">müssen</W>
 <W lemma="erkennen" msd="VAF" tag="VVINF" in="" out="">erkennen</W>
@@ -220,10 +220,11 @@
 <W lemma="was" msd="PT" tag="PRELS" in="" out="">was</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Politiker" msd="NC" tag="NN" in="" out="">Politiker</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">uns</W>
 <W lemma="wünschen" msd="VA" tag="VVFIN" in="" out="">wünschen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

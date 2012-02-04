@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Kampangpetch</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -11,7 +11,7 @@
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Bananenland</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="nennen" msd="VAP" tag="VVPP" in="" out="">genannt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="hier" msd="RG" tag="ADV" in="" out="">Hier</W>
@@ -70,8 +70,8 @@
 <W lemma="Leser" msd="NC" tag="NN" in="" out="">Leser</W>
 <W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="" out="">,,Unter</W>
 <W lemma="wir" msd="PR" tag="PRF" in="" out="">uns</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="religiös" msd="AN" tag="ADJA" in="" out="">religiösen</W>
@@ -103,7 +103,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Derartige" msd="NC" tag="NN" in="" out="">Derartiges</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
-<W lemma="bieten&7c;gebieten" msd="VAP" tag="VVPP" in="" out="">geboten</W>
+<W lemma="bieten|gebieten" msd="VAP" tag="VVPP" in="" out="">geboten</W>
 <W lemma="..." msd="XP" tag="$(" in="" out="">...</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Volkstheater" msd="NC" tag="NN" in="" out="">Volkstheater</W>
@@ -123,7 +123,7 @@
 <p>
 <s>
 <W lemma="rufen" msd="VA" tag="VVFIN" in="" out="">Rufen</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="ab" msd="SP" tag="APPR" in="" out="">ab</W>
 <W lemma="Montag" msd="NC" tag="NN" in="" out="">Montag</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -172,7 +172,7 @@
 <p>
 <s>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="Karte" msd="NC" tag="NN" in="" out="">Karten</W>
 <W lemma="telefonisch" msd="AN" tag="ADJD" in="" out="">telefonisch</W>
 <W lemma="bestellen" msd="VA" tag="VVFIN" in="" out="">bestellen</W>
@@ -192,7 +192,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="senden" msd="VAF" tag="VVINF" in="" out="">senden</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Folketeateret</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Postboks</W>
@@ -202,9 +202,9 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">København</W>
 <W lemma="K." msd="NP" tag="NE" in="" out="">K.</W>
 <W lemma="Stichwort" msd="NC" tag="NN" in="" out="">Stichwort</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Thai" msd="NC" tag="NN" in="" out="">Thai</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Scheck" msd="NC" tag="NN" in="" out="">Scheck</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -220,3 +220,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

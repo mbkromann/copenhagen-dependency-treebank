@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Odd-Catla</W>
 <W lemma="él" msd="PP" tag="PPC" in="" out="">le</W>
@@ -189,3 +189,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

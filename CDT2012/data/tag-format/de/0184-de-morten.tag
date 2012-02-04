@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Pasta" msd="NC" tag="NN" in="1:subj|9:[subj]|18:[subj]" out="">Pasta</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:subj|8:vobj|18:pnct">werden</W>
@@ -218,3 +218,4 @@
 <W lemma="." msd="XP" tag="$." in="-31:pnct" out="">.</W>
 </s>
 </p>
+</root>

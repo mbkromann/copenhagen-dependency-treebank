@@ -1,7 +1,7 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">ODENSE</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Veröffentlichung" msd="NC" tag="NN" in="" out="">Veröffentlichung</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
@@ -107,7 +107,7 @@
 <W lemma="oder" msd="CC" tag="KON" in="" out="">oder</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Vorstandsvorsitzende" msd="NC" tag="NN" in="" out="">Vorstandsvorsitzende</W>
@@ -239,3 +239,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

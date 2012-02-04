@@ -1,4 +1,4 @@
-<W lemma="pero" msd="CC" tag="CCAD" in="1:scene" out="">Pero</W>
+<root><W lemma="pero" msd="CC" tag="CCAD" in="1:scene" out="">Pero</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="12:inst" out="-1:scene|1:pobj">fue</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
@@ -45,7 +45,7 @@
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:nobj">Los</W>
 <W lemma="ingrediente" msd="NC" tag="NC" in="-1:nobj" out="">ingredientes</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|1:pnct">son</W>
-<W lemma="&3a;" msd="XP" tag="COLON" in="-1:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="COLON" in="-1:pnct" out="">:</W>
 <W lemma="@card@" msd="XS" tag="CODE" in="" out="1:nobj|6:pnct|7:conj|66:pnct">400</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">g.</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="">de</W>
@@ -107,7 +107,7 @@
 <W lemma="@card@" msd="XS" tag="CODE" in="-6:conj" out="1:nobj|5:conj">200</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">g.</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="manteca&7c;mantequilla" msd="NC" tag="NC" in="-1:nobj" out="">mantequilla</W>
+<W lemma="manteca|mantequilla" msd="NC" tag="NC" in="-1:nobj" out="">mantequilla</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="sal" msd="NC" tag="NC" in="-5:conj" out="-1:coord|2:conj">sal</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
@@ -141,7 +141,7 @@
 <W lemma="tierno" msd="AN" tag="ADJ" in="-1:preds" out="">tierna</W>
 <W lemma="." msd="XP" tag="FS" in="-7:pnct" out="">.</W>
 <W lemma="salsa" msd="NC" tag="NC" in="" out="">Salsa</W>
-<W lemma="&3a;" msd="XP" tag="COLON" in="" out="">:</W>
+<W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>
 <W lemma="cocer" msd="VAF lexical verb infinite" tag="VLinf" in="" out="1:other|3:dobj|7:loc|12:pnct|13:conj|35:pnct">Cocer</W>
 <W lemma="al" msd="SP" tag="PAL" in="-1:other" out="1:nobj">al</W>
 <W lemma="vapor" msd="NC" tag="NC" in="-1:nobj" out="">vapor</W>
@@ -171,7 +171,7 @@
 <W lemma="batir" msd="VAF lexical verb infinite" tag="VLinf" in="-7:conj" out="1:pobj|5:conj">batir</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="manteca&7c;mantequilla" msd="NC" tag="NC" in="-1:nobj" out="">mantequilla</W>
+<W lemma="manteca|mantequilla" msd="NC" tag="NC" in="-1:nobj" out="">mantequilla</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="agregar" msd="VAF lexical verb infinite" tag="VLinf" in="-5:conj" out="-1:coord|1:nobj">agregar</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
@@ -251,3 +251,4 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:nobj">Kirkeby</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Kro</W>
 <W lemma="." msd="XP" tag="FS" in="-18:pnct" out="">.</W>
+</root>

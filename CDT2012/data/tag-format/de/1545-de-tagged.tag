@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="parallel" msd="AN" tag="ADJD" in="" out="">Parallel</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
@@ -203,6 +203,7 @@
 <W lemma="vier" msd="AC" tag="CARD" in="" out="">vier</W>
 <W lemma="Kategorie" msd="NC" tag="NN" in="" out="">Kategorien</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
+</root>

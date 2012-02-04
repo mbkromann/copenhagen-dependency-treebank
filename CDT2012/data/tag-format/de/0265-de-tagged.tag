@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="merkwürdig" msd="AN" tag="ADJD" in="" out="">Merkwürdig</W>
@@ -58,11 +58,11 @@
 <W lemma="Berg" msd="NC" tag="NN" in="" out="">Berg</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">Das</W>
 <W lemma="wachsen" msd="VA" tag="VVFIN" in="" out="">wächst</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="aus" msd="RG" tag="PTKVZ" in="" out="">aus</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -184,12 +184,12 @@
 <p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
-<W lemma="Stimme&7c;Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
+<W lemma="Stimme|Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Haus" msd="NC" tag="NN" in="" out="">Haus</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Stimme&7c;Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
+<W lemma="Stimme|Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="" out="">seines</W>
 <W lemma="Vater" msd="NC" tag="NN" in="" out="">Vaters</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -204,3 +204,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

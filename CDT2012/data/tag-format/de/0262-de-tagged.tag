@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Korovabad</W>
@@ -191,3 +191,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

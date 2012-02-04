@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">Il</W>
 <W lemma="direttore" msd="NC" tag="NOM" in="" out="">direttore</W>
@@ -163,7 +163,7 @@
 <W lemma="infine" msd="RG" tag="ADV" in="" out="">infine</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Bing</W>
-<W lemma="&" msd="XS" tag="SYM" in="" out="">&</W>
+<W lemma="&amp;" msd="XS" tag="SYM" in="" out="">&amp;</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Grøndahl</W>
 <W lemma="Inc" msd="NP" tag="NPR" in="" out="">Inc</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
@@ -243,3 +243,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
@@ -27,11 +27,11 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">als</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="3er" msd="NC" tag="NN" in="" out="">3er</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="derzeit" msd="RG" tag="ADV" in="" out="">derzeit</W>
 <W lemma="vielleicht" msd="AN" tag="ADJD" in="" out="">vielleicht</W>
 <W lemma="vorstellen" msd="VA" tag="VVFIN" in="" out="">vorstellen</W>
@@ -181,7 +181,7 @@
 <W lemma="akademisch" msd="AN" tag="ADJA" in="" out="">akademische</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Woge&7c;Wogen" msd="NC" tag="NN" in="" out="">Wogen</W>
+<W lemma="Woge|Wogen" msd="NC" tag="NN" in="" out="">Wogen</W>
 <W lemma="glättend" msd="AN" tag="ADJA" in="" out="">glättende</W>
 <W lemma="Erklärung" msd="NC" tag="NN" in="" out="">Erklärungen</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
@@ -195,3 +195,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

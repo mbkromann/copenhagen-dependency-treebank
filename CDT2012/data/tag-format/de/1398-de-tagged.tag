@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="bosnisch" msd="AN" tag="ADJA" in="" out="">bosnische</W>
@@ -112,11 +112,11 @@
 <W lemma="Volksarmee" msd="NC" tag="NN" in="" out="">Volksarmee</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="offensichtlich" msd="AN" tag="ADJD" in="" out="">offensichtlich</W>
 <W lemma="darüber" msd="RG" tag="PAV" in="" out="">darüber</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
-<W lemma="Klar&7c;Klare" msd="NC" tag="NN" in="" out="">Klaren</W>
+<W lemma="Klar|Klare" msd="NC" tag="NN" in="" out="">Klaren</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="" out="">keine</W>
@@ -124,7 +124,7 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="modern" msd="AN" tag="ADJA" in="" out="">modernen</W>
 <W lemma="Gesellschaft" msd="NC" tag="NN" in="" out="">Gesellschaft</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Reaktion" msd="NC" tag="NN" in="" out="">Reaktionen</W>
@@ -162,7 +162,7 @@
 <W lemma="Perspektive" msd="NC" tag="NN" in="" out="">Perspektive</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Partisan&7c;Partisane" msd="NC" tag="NN" in="" out="">Partisanen</W>
+<W lemma="Partisan|Partisane" msd="NC" tag="NN" in="" out="">Partisanen</W>
 <W lemma="noch" msd="RG" tag="ADV" in="" out="">noch</W>
 <W lemma="sekundär" msd="AN" tag="ADJD" in="" out="">sekundär</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -194,3 +194,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="PON" in="" out="">-</W>
 <W lemma="tra" msd="SP" tag="PRE" in="" out="">Tra</W>
@@ -241,3 +241,4 @@
 <W lemma="!" msd="XP" tag="SENT" in="" out="">!</W>
 </s>
 </p>
+</root>

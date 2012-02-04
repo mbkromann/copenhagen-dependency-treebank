@@ -1,4 +1,4 @@
-<W lemma="che" msd="PT" tag="PRO:rela" in="" out="">Che</W>
+<root><W lemma="che" msd="PT" tag="PRO:rela" in="" out="">Che</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="" out="">cosa</W>
 <W lemma="pensare" msd="VADR" tag="VER:pres" in="" out="">pensi</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
@@ -240,3 +240,4 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="Maastricht" msd="NP" tag="NPR" in="" out="">Maastricht</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

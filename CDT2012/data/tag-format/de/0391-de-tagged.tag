@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="ach" msd="I=" tag="ITJ" in="" out="">Ach</W>
@@ -56,7 +56,7 @@
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
 <W lemma="hinlegen" msd="VAF" tag="VVINF" in="" out="">hinlegen</W>
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="schlafen" msd="VA" tag="VVFIN" in="" out="">schläft</W>
 <W lemma="schon" msd="RG" tag="ADV" in="" out="">schon</W>
 <W lemma="wieder" msd="RG" tag="ADV" in="" out="">wieder</W>
@@ -204,3 +204,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

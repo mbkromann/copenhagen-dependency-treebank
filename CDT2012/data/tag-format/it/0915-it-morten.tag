@@ -1,4 +1,4 @@
-<W lemma="gran" msd="AN" tag="ADJ" in="" out="">Gran</W>
+<root><W lemma="gran" msd="AN" tag="ADJ" in="" out="">Gran</W>
 <W lemma="parte" msd="NC" tag="NOM" in="" out="">parte</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">della</W>
 <W lemma="medicina" msd="NC" tag="NOM" in="" out="">medicina</W>
@@ -208,3 +208,4 @@
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="">dal</W>
 <W lemma="lavoro" msd="NC" tag="NOM" in="" out="">lavoro</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

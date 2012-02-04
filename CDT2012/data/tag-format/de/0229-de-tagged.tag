@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Meinungsforschungsuntersuchungen</W>
 <W lemma="zeigen" msd="VA" tag="VVFIN" in="" out="">zeigen</W>
@@ -29,7 +29,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Angst" msd="NC" tag="NN" in="" out="">Angst</W>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
-<W lemma="Bakterie&7c;Bakterium" msd="NC" tag="NN" in="" out="">Bakterien</W>
+<W lemma="Bakterie|Bakterium" msd="NC" tag="NN" in="" out="">Bakterien</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="sowohl" msd="CC" tag="KON" in="" out="">Sowohl</W>
 <W lemma="laut" msd="SP" tag="APPR" in="" out="">laut</W>
@@ -43,9 +43,9 @@
 <W lemma="Konzept" msd="NC" tag="NN" in="" out="">Konzeptes</W>
 <W lemma="hinter" msd="SP" tag="APPR" in="" out="">hinter</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Kronkycklinger</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -94,7 +94,7 @@
 <W lemma="schwedisch" msd="AN" tag="ADJA" in="" out="">schwedischen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Hähnchenproduktion</W>
 <W lemma="zeigen" msd="VA" tag="VVFIN" in="" out="">zeigt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="beim" msd="SP+P" tag="APPRART" in="" out="">beim</W>
 <W lemma="erst" msd="AN" tag="ADJA" in="" out="">ersten</W>
 <W lemma="Blick" msd="NC" tag="NN" in="" out="">Blick</W>
@@ -194,6 +194,7 @@
 <W lemma="groß" msd="AN" tag="ADJA" in="" out="">große</W>
 <W lemma="Bedeutung" msd="NC" tag="NN" in="" out="">Bedeutung</W>
 <W lemma="zukommen" msd="VA" tag="VVFIN" in="" out="">zukommt</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
+</root>

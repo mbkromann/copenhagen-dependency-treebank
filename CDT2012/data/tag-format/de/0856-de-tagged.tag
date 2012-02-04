@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Absicht" msd="NC" tag="NN" in="" out="">Absicht</W>
@@ -46,7 +46,7 @@
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="zunächst" msd="RG" tag="ADV" in="" out="">zunächst</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
-<W lemma="Rund&7c;Runde" msd="NC" tag="NN" in="" out="">Runde</W>
+<W lemma="Rund|Runde" msd="NC" tag="NN" in="" out="">Runde</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Gaskammer" msd="NC" tag="NN" in="" out="">Gaskammer</W>
@@ -126,7 +126,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Zahlung" msd="NC" tag="NN" in="" out="">Zahlung</W>
 <W lemma="erheblich" msd="AN" tag="ADJA" in="" out="">erheblicher</W>
-<W lemma="Strafe&7c;Strafen" msd="NC" tag="NN" in="" out="">Strafen</W>
+<W lemma="Strafe|Strafen" msd="NC" tag="NN" in="" out="">Strafen</W>
 <W lemma="dafür" msd="RG" tag="PAV" in="" out="">dafür</W>
 <W lemma="fordern" msd="VAP" tag="VVPP" in="" out="">gefordert</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
@@ -149,7 +149,7 @@
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,gepfefferten</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Traube" msd="NC" tag="NN" in="" out="">Trauben</W>
 <W lemma="kommen" msd="VA" tag="VVFIN" in="" out="">kommen</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
@@ -198,3 +198,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

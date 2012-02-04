@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Doppelleben" msd="NC" tag="NN" in="" out="">Doppelleben</W>
 </s>
@@ -96,7 +96,7 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|2:pnct">ist</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:preds" out="">Vieles</W>
 <W lemma="." msd="XP" tag="$." in="-2:pnct" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
 <W lemma="verkehren" msd="VA" tag="VVFIN" in="" out="-1:subj|1:@loc|7:pnct">verkehrt</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:@loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">den</W>
@@ -105,7 +105,7 @@
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Bar" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Bars</W>
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
 <W lemma="nehmen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:dobj|10:part|11:pnct|15:conj|26:pnct">nimmt</W>
 <W lemma="Blickkontakt" msd="NC" tag="NN" in="-1:dobj" out="1:pobj">Blickkontakt</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">mit</W>
@@ -115,7 +115,7 @@
 <W lemma="aussehend" msd="AN" tag="ADJA" in="-3:attr" out="-1:man|2:conj">aussehenden</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="elegant" msd="AN" tag="ADJA" in="-2:conj" out="-1:coord">eleganten</W>
-<W lemma="Typ&7c;Type&7c;Typus" msd="NC" tag="NN" in="-6:nobj" out="">Typen</W>
+<W lemma="Typ|Type|Typus" msd="NC" tag="NN" in="-6:nobj" out="">Typen</W>
 <W lemma="auf" msd="RG" tag="PTKVZ" in="-10:part" out="">auf</W>
 <W lemma="," msd="XP" tag="$," in="-11:pnct" out="">,</W>
 <W lemma="nach" msd="SP" tag="APPR" in="3:time" out="1:nobj">nach</W>
@@ -172,7 +172,7 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-10:dobj" out="2:nobj">ein</W>
 <W lemma="gut" msd="AN" tag="ADJA" in="1:attr" out="15:pobj">besseres</W>
-<W lemma="Gewisse&7c;Gewissen" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Gewissen</W>
+<W lemma="Gewisse|Gewissen" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Gewissen</W>
 <W lemma="," msd="XP" tag="$," in="-13:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-14:time" out="7:vobj">wenn</W>
 <W lemma="sie" msd="PP" tag="PPER" in="6:subj" out="">sie</W>
@@ -196,3 +196,4 @@
 <W lemma="." msd="XP" tag="$." in="-33:pnct" out="">.</W>
 </s>
 </p>
+</root>

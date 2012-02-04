@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="beschließen" msd="VAP" tag="VVPP" in="1:subj" out="">Beschlossen</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="46:qobj" out="-2:pnct|-1:subj|3:preds|4:pnct|6:vobj">ist</W>
 <W lemma="zu" msd="RG" tag="PTKA" in="2:quant" out="1:nobj">zu</W>
@@ -47,7 +47,7 @@
 <W lemma="Kündigungsfrist" msd="NC" tag="NN" in="-1:possd" out="">Kündigungsfrist</W>
 <W lemma="verlieren" msd="VAP" tag="VVPP" in="-3:vobj" out="-2:dobj|-8:[subj]">verloren</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-5:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-5:pnct" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-46:qobj|1:subj|5:time|10:pnct">sagten</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:subj" out="2:conj|14:coref">Bjarne</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
@@ -154,7 +154,7 @@
 <W lemma="rausfliegen" msd="VAF" tag="VVINF" in="-5:vobj" out="-4:subj|-3:eval|2:conj">rausfliegen</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="halten" msd="VA" tag="VVFIN" in="-2:conj" out="-1:coord|1:dobj|2:cause|4:time|5:part|6:pnct">halten</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:dobj" out="">sich</W>
 <W lemma="daher" msd="RG" tag="PAV" in="-2:cause" out="">daher</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="1:neg" out="">nicht</W>
 <W lemma="mehr" msd="RG" tag="ADV" in="-4:time" out="-1:neg">mehr</W>
@@ -168,8 +168,8 @@
 <W lemma="Haltung" msd="NC" tag="NN" in="-1:nobj" out="">Haltung</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-3:preds" out="1:nobj">eine</W>
 <W lemma="ander" msd="PP" tag="PIS" in="-1:nobj" out="">andere</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-5:pnct" out="">:</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma=":" msd="XP" tag="$." in="-5:pnct" out="">:</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="1:subj|5:[subj]" out="">Wir</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="-8:xpl" out="-2:pnct|-1:subj|1:neg|4:vobj|5:pnct|9:pnct">wollen</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
@@ -190,9 +190,10 @@
 <W lemma="lösen" msd="VA" tag="VVFIN" in="" out="-6:man|1:subj|3:dobj|4:time|5:part|6:pnct">löst</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">die</W>
 <W lemma="Schar" msd="NC" tag="NN" in="-1:nobj" out="">Schar</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-3:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-3:dobj" out="">sich</W>
 <W lemma="sofort" msd="RG" tag="ADV" in="-4:time" out="">sofort</W>
 <W lemma="auf" msd="RG" tag="PTKVZ" in="-5:part" out="">auf</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 </s>
 </p>
+</root>

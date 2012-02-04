@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Familienausbruch</W>
 <W lemma="am" msd="RG" tag="PTKA" in="" out="">am</W>
@@ -34,7 +34,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="meist" msd="PI" tag="PIDAT" in="" out="">meisten</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">sog.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Familienausbrüche</W>
@@ -89,7 +89,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">allermeisten</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="verlaufen" msd="VA" tag="VVFIN" in="" out="">verläuft</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="Salmonelleninfektion" msd="NC" tag="NN" in="" out="">Salmonelleninfektion</W>
@@ -121,19 +121,19 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="sehr" msd="RG" tag="ADV" in="" out="">sehr</W>
 <W lemma="selten" msd="AN" tag="ADJA" in="" out="">seltenen</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="gehen" msd="VA" tag="VVFIN" in="" out="">gehen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Salmonellenbakterie&7c;Salmonellenbakterium" msd="NC" tag="NN" in="" out="">Salmonellenbakterien</W>
+<W lemma="Salmonellenbakterie|Salmonellenbakterium" msd="NC" tag="NN" in="" out="">Salmonellenbakterien</W>
 <W lemma="ins" msd="SP+P" tag="APPRART" in="" out="">ins</W>
 <W lemma="Blut" msd="NC" tag="NN" in="" out="">Blut</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="fahren&7c;führen" msd="VA" tag="VVFIN" in="" out="">führen</W>
+<W lemma="fahren|führen" msd="VA" tag="VVFIN" in="" out="">führen</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="Blutvergiftung" msd="NC" tag="NN" in="" out="">Blutvergiftung</W>
@@ -170,7 +170,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Infektion" msd="NC" tag="NN" in="" out="">Infektion</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Knud" msd="NP" tag="NE" in="" out="">Knud</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Gaarslev</W>
@@ -179,7 +179,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gibt</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="" out="">keine</W>
@@ -190,7 +190,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Todesfall" msd="NC" tag="NN" in="" out="">Todesfälle</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Hedda" msd="NP" tag="NE" in="" out="">Hedda</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Bille</W>
@@ -228,7 +228,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">vielen</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="bereits" msd="RG" tag="ADV" in="" out="">bereits</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="ander" msd="AN" tag="ADJA" in="" out="">anderen</W>
@@ -237,3 +237,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

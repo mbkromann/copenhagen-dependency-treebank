@@ -1,4 +1,4 @@
-<W lemma="si" msd="CS" tag="CSUBX" in="11:cond" out="4:vobj">Si</W>
+<root><W lemma="si" msd="CS" tag="CSUBX" in="11:cond" out="4:vobj">Si</W>
 <W lemma="el" msd="PD" tag="ART" in="3:subj|10:[subj]|11:[subj]" out="1:nobj">la</W>
 <W lemma="empresa" msd="NC" tag="NC" in="-1:nobj" out="">empresa</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
@@ -9,7 +9,7 @@
 <W lemma="medición" msd="NC" tag="NC" in="-1:nobj" out="1:attr">mediciones</W>
 <W lemma="exigir" msd="VAF" tag="VLadj" in="-1:attr" out="">exigidas</W>
 <W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-11:cond|-10:[subj]|1:vobj|11:pnct|16:CONJ&3a;add/además">deberÃ¡</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-11:cond|-10:[subj]|1:vobj|11:pnct|16:CONJ:add/además">deberÃ¡</W>
 <W lemma="buscar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-11:[subj]|1:man|4:dobj|5:loc">buscar</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:man" out="1:nobj">por</W>
 <W lemma="cuenta" msd="NC" tag="NC" in="-1:nobj" out="1:attr">cuenta</W>
@@ -25,7 +25,7 @@
 <W lemma="autoridad" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">autoridades</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="control" msd="NC" tag="NC" in="-1:nobj" out="">control</W>
-<W lemma="poder" msd="VAD" tag="VMfin" in="-16:CONJ&3a;add/además" out="-4:subj|1:pnct|4:vobj|20:cond|32:pnct|33:DIREC|63:+CONJ&3a;add/(y)">pueden</W>
+<W lemma="poder" msd="VAD" tag="VMfin" in="-16:CONJ:add/además" out="-4:subj|1:pnct|4:vobj|20:cond|32:pnct|33:DIREC|63:+CONJ:add/(y)">pueden</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="1:add">,</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:add" out="1:pnct">ademÃ¡s</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
@@ -88,7 +88,7 @@
 <W lemma="resultado" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">resultados</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">autocontrol</W>
-<W lemma="deber" msd="VAD" tag="VMfin" in="-63:+CONJ&3a;add/(y)" out="-4:subj|1:vobj|41:pnct|-8:+SCENE|46:CONJ&3a;add/además|65:CONJ&3a;elab/(y)">deben</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="-63:+CONJ:add/(y)" out="-4:subj|1:vobj|41:pnct|-8:+SCENE|46:CONJ:add/además|65:CONJ:elab/(y)">deben</W>
 <W lemma="registrarse" msd="VA" tag="VCLI" in="-1:vobj" out="-5:[subj]|2:conj|3:loc">registrarse</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">e</W>
 <W lemma="introducirse" msd="VA" tag="VCLI" in="-2:conj" out="-1:coord|-7:[subj]">introducirse</W>
@@ -134,7 +134,7 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj|-38:coref-iden" out="1:nobj|25:coref-var">el</W>
 <W lemma="libro" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{time}">libro</W>
 <W lemma="diario" msd="AN" tag="ADJ" in="-1:attr|-1:{time}" out="">diario</W>
-<W lemma="deber" msd="VAD" tag="VMfin" in="-46:CONJ&3a;add/además" out="1:vobj|2:add|3:subj|13:²pnct|75:CONJ&3a;elab/(y)">deben</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="-46:CONJ:add/además" out="1:vobj|2:add|3:subj|13:²pnct|75:CONJ:elab/(y)">deben</W>
 <W lemma="registrarse" msd="VA" tag="VCLI" in="-1:vobj" out="-5:loc|2:[subj]">registrarse</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:add" out="">ademÃ¡s</W>
 <W lemma="todo" msd="AN" tag="QU" in="-3:subj|-2:[subj]" out="1:nobj|7:conj">todas</W>
@@ -153,7 +153,7 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|11:assoc-telic|14:assoc-telic|17:coref|21:assoc-inst">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">anÃ¡lisis</W>
-<W lemma="deber" msd="VAD" tag="VMfin" in="-65:CONJ&3a;elab/(y)" out="-6:³subj|1:vobj|23:pnct">deben</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="-65:CONJ:elab/(y)" out="-6:³subj|1:vobj|23:pnct">deben</W>
 <W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-7:³[subj]|1:loc|4:pobj">acompaÃ±arse</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj|-25:coref-var" out="1:nobj">el</W>
@@ -209,7 +209,7 @@
 <W lemma="él" msd="PP" tag="PPX" in="-1:nobj|-22:coref-res" out="">ello</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
 <W lemma="se" msd="PC" tag="SE" in="1:subj|2:[subj]" out="-31:scene">se</W>
-<W lemma="deber" msd="VAD" tag="VMfin" in="-75:CONJ&3a;elab/(y)" out="-1:subj|1:vobj|16:pnct|17:conj|20:pnct">debe</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="-75:CONJ:elab/(y)" out="-1:subj|1:vobj|16:pnct|17:conj|20:pnct">debe</W>
 <W lemma="informar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-2:[subj]|1:man|4:dobj">informar</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:man" out="1:nobj">de</W>
 <W lemma="forma" msd="NC" tag="NC" in="-1:nobj" out="1:attr">forma</W>
@@ -230,3 +230,4 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">Â§20</W>
 <W lemma="." msd="XP" tag="FS" in="-20:pnct" out="">.</W>
+</root>

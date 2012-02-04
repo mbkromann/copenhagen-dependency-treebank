@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="durante" msd="SP" tag="SCENE" in="" out="">Durante</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
@@ -88,7 +88,7 @@
 <W lemma="coñac" msd="NC" tag="NC" in="" out="">coñac</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Galle</W>
-<W lemma="&" msd="XS" tag="SYM" in="" out="">&</W>
+<W lemma="&amp;" msd="XS" tag="SYM" in="" out="">&amp;</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Jessen</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -238,3 +238,4 @@
 <W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>
 </s>
 </p>
+</root>

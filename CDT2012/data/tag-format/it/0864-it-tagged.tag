@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="sembrare" msd="VADR" tag="VER:pres" in="" out="">Sembra</W>
 <W lemma="promettente" msd="AN" tag="ADJ" in="" out="">promettente</W>
@@ -217,3 +217,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

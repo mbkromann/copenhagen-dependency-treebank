@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">ODENSE</W>
 <W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>
@@ -232,3 +232,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

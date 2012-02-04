@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="esto" msd="" tag="DM" in="" out="">Esta</W>
 <W lemma="noche" msd="NC" tag="NC" in="" out="">noche</W>
@@ -237,3 +237,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

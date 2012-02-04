@@ -1,4 +1,4 @@
-<W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
+<root><W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="" out="">Si</W>
 <W lemma="augurare" msd="VADR" tag="VER:pres" in="" out="">augura</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>
@@ -204,3 +204,4 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Colin</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Powell</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

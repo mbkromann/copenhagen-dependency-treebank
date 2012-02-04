@@ -1,18 +1,18 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Sport" msd="NC" tag="NN" in="" out="">Sport</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">diese</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Wurstabgabe</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">als</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">,,Nr</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">742</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="auffassen" msd="VAP" tag="VVPP" in="" out="">aufgefasst</W>
 <W lemma="werden" msd="VAF" tag="VAINF" in="" out="">werden</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">muss</W>
@@ -69,7 +69,7 @@
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Mitglied" msd="NC" tag="NN" in="" out="">Mitglieder</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="Limonade" msd="NC" tag="NN" in="" out="">Limonade</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -79,7 +79,7 @@
 <W lemma="oder" msd="CC" tag="KON" in="" out="">oder</W>
 <W lemma="Süßigkeit" msd="NC" tag="NN" in="" out="">Süßigkeiten</W>
 <W lemma="mästen" msd="VAF" tag="VVINF" in="" out="">mästen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="Kontrollabgabe" msd="NC" tag="NN" in="" out="">Kontrollabgabe</W>
 <W lemma="6000" msd="AC" tag="CARD" in="" out="">6000</W>
 <W lemma="Krone" msd="NC" tag="NN" in="" out="">Kronen</W>
@@ -125,7 +125,7 @@
 <W lemma="Kategorie" msd="NC" tag="NN" in="" out="">Kategorie</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Lebensmittelaktivität</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="einordnen" msd="VAP" tag="VVPP" in="" out="">eingeordnet</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -168,7 +168,7 @@
 <W lemma="auffordern" msd="VAP" tag="VVPP" in="" out="">aufgefordert</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="schriftlich" msd="AN" tag="ADJA" in="" out="">schriftliche</W>
-<W lemma="Klage&7c;Klagen" msd="NC" tag="NN" in="" out="">Klagen</W>
+<W lemma="Klage|Klagen" msd="NC" tag="NN" in="" out="">Klagen</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Umfang" msd="NC" tag="NN" in="" out="">Umfang</W>
@@ -182,7 +182,7 @@
 <s>
 <W lemma="ein" msd="PP" tag="PIS" in="" out="">Eine</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
-<W lemma="Klage&7c;Klagen" msd="NC" tag="NN" in="" out="">Klagen</W>
+<W lemma="Klage|Klagen" msd="NC" tag="NN" in="" out="">Klagen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Handelskreise</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
@@ -215,3 +215,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

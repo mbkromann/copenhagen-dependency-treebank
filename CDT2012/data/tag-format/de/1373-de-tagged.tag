@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="zwei" msd="AC" tag="CARD" in="" out="">Zwei</W>
 <W lemma="RS" msd="NP" tag="NE" in="" out="">RS</W>
@@ -32,7 +32,7 @@
 <W lemma="Motor" msd="NC" tag="NN" in="" out="">Motoren</W>
 <W lemma="handeln" msd="VA" tag="VVFIN" in="" out="">handelt</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">4-Zylinder</W>
 <W lemma="Motor" msd="NC" tag="NN" in="" out="">Motoren</W>
@@ -49,9 +49,9 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="wo" msd="PT" tag="PWAV" in="" out="">wo</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="" out="">kleine</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="RS" msd="NP" tag="NE" in="" out="">RS</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
 <W lemma="querliegend" msd="AN" tag="ADJA" in="" out="">querliegenden</W>
@@ -118,8 +118,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Garret</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Turbolader</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="Ladeluftkühle&7c;Ladeluftkühler" msd="NC" tag="NN" in="" out="">Ladeluftkühler</W>
-<W lemma="ausgestatten&7c;ausstatten" msd="VAP" tag="VVPP" in="" out="">ausgestattet</W>
+<W lemma="Ladeluftkühle|Ladeluftkühler" msd="NC" tag="NN" in="" out="">Ladeluftkühler</W>
+<W lemma="ausgestatten|ausstatten" msd="VAP" tag="VVPP" in="" out="">ausgestattet</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="deswegen" msd="RG" tag="PAV" in="" out="">Deswegen</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gibt</W>
@@ -148,7 +148,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">5-Gang</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">MTX75</W>
 <W lemma="Getriebe" msd="NC" tag="NN" in="" out="">Getriebe</W>
-<W lemma="ausgestatten&7c;ausstatten" msd="VAP" tag="VVPP" in="" out="">ausgestattet</W>
+<W lemma="ausgestatten|ausstatten" msd="VAP" tag="VVPP" in="" out="">ausgestattet</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -158,10 +158,10 @@
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="schrecklich" msd="AN" tag="ADJA" in="" out="">schrecklichen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="holländisch" msd="AN" tag="ADJA" in="" out="">holländischen</W>
 <W lemma="Durchsatz" msd="NC" tag="NN" in="" out="">Durchsatz</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="hinten" msd="RG" tag="ADV" in="" out="">hinten</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="" out="">am</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Cosworth</W>
@@ -209,3 +209,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -58,7 +58,7 @@
 <p>
 <s>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">denen</W>
@@ -89,7 +89,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="meist" msd="PI" tag="PIDAT" in="" out="">meisten</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Lage" msd="NC" tag="NN" in="" out="">Lage</W>
@@ -139,7 +139,7 @@
 <W lemma="Buch" msd="NC" tag="NN" in="" out="">Buch</W>
 <W lemma="zur" msd="SP+P" tag="APPRART" in="" out="">zur</W>
 <W lemma="Zeit" msd="NC" tag="NN" in="" out="">Zeit</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">das</W>
 <W lemma="wirtschaftlich" msd="AN" tag="ADJD" in="" out="">wirtschaftlich</W>
@@ -190,7 +190,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Buch</W>
 <W lemma="zur" msd="SP+P" tag="APPRART" in="" out="">zur</W>
 <W lemma="Zeit" msd="NC" tag="NN" in="" out="">Zeit</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="festhalten" msd="VAP" tag="VVPP" in="" out="">festgehalten</W>
 <W lemma="werden" msd="VAF" tag="VAINF" in="" out="">werden</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
@@ -222,7 +222,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Leihdauer</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="7" msd="AC" tag="CARD" in="" out="">7</W>
-<W lemma="Tag&7c;Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
+<W lemma="Tag|Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

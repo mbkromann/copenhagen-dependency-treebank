@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="noch" msd="RG" tag="ADV" in="" out="">Noch</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
@@ -25,7 +25,7 @@
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="Hof" msd="NC" tag="NN" in="" out="">Hof</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="fern" msd="AN" tag="ADJA" in="" out="">fernen</W>
 <W lemma="Vergangenheit" msd="NC" tag="NN" in="" out="">Vergangenheit</W>
@@ -209,3 +209,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

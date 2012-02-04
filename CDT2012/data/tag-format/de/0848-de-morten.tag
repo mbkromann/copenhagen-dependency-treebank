@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="5:subj|14:[subj]" out="1:nobj">Die</W>
 <W lemma="Überquerung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Überquerung</W>
@@ -85,7 +85,7 @@
 <W lemma="Anteil" msd="NC" tag="NN" in="-2:nobj|1:{apart}" out="1:gobj">Anteil</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:gobj" out="-1:{apart}|1:nobj">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">DSB-Fähren</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="3:robj" out="">sich</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="1:attr" out="">neues</W>
 <W lemma="Fahrwasser" msd="NC" tag="NN" in="1:dobj" out="-1:attr">Fahrwasser</W>
 <W lemma="suchen" msd="VAF" tag="VVINF" in="-9:vobj" out="-8:[subj]|-3:robj|-1:dobj">suchen</W>
@@ -166,7 +166,7 @@
 <W lemma="düster" msd="AN" tag="ADJA" in="-1:attr" out="">düstere</W>
 <W lemma="Prognose" msd="NC" tag="NN" in="-2:nobj" out="">Prognose</W>
 <W lemma="ergeben" msd="VA" tag="VVFIN" in="" out="-3:subj|1:robj|2:pobj|18:pnct">ergibt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
 <W lemma="aus" msd="SP" tag="APPR" in="-2:pobj" out="1:nobj">aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
 <W lemma="Konsequenz" msd="NC" tag="NN" in="-1:nobj" out="1:gobj|1:{arg}">Konsequenzen</W>
@@ -187,7 +187,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj|13:[subj]" out="1:nobj">Die</W>
 <W lemma="Konsequenz" msd="NC" tag="NN" in="-1:nobj" out="">Konsequenzen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-2:subj|11:vobj|25:pnct">werden</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="10:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="10:dobj" out="">sich</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="9:loc" out="1:attr|2:nobj">am</W>
 <W lemma="Große" msd="NC" tag="NN" in="-1:attr" out="">Großen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="">Belt</W>
@@ -197,18 +197,18 @@
 <W lemma="oder" msd="CC" tag="KON" in="1:coord" out="">oder</W>
 <W lemma="1998" msd="AC" tag="CARD" in="-4:conj" out="-1:coord">1998</W>
 <W lemma="bemerkbar" msd="AN" tag="ADJD" in="1:preds" out="">bemerkbar</W>
-<W lemma="machen" msd="VA" tag="VVFIN" in="-11:vobj" out="-1:preds|-10:dobj|-13:[subj]|-6:time|-9:loc|1:pnct|2:&lt;loc&3a;1&gt;|4:&lt;time&3a;1&gt;|8:&lt;loc&3a;2&gt;|11:&lt;time&3a;2&gt;">machen</W>
+<W lemma="machen" msd="VA" tag="VVFIN" in="-11:vobj" out="-1:preds|-10:dobj|-13:[subj]|-6:time|-9:loc|1:pnct|2:&lt;loc:1&gt;|4:&lt;time:1&gt;|8:&lt;loc:2&gt;|11:&lt;time:2&gt;">machen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="-2:&lt;loc&3a;1&gt;" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-2:&lt;loc:1&gt;" out="1:nobj">im</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="-1:nobj" out="">Öresund</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="-4:&lt;time&3a;1&gt;" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-4:&lt;time:1&gt;" out="1:nobj">im</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="1:nobj">Jahr</W>
 <W lemma="2000" msd="AC" tag="CARD" in="-1:nobj" out="">2000</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="auf" msd="SP" tag="APPR" in="-8:&lt;loc&3a;2&gt;" out="-1:coord|1:nobj">auf</W>
+<W lemma="auf" msd="SP" tag="APPR" in="-8:&lt;loc:2&gt;" out="-1:coord|1:nobj">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Ostsee" msd="NC" tag="NN" in="-1:nobj" out="">Ostsee</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="-11:&lt;time&3a;2&gt;" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-11:&lt;time:2&gt;" out="1:nobj">im</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="1:nobj">Jahr</W>
 <W lemma="2005" msd="AC" tag="CARD" in="-1:nobj" out="">2005</W>
 <W lemma="." msd="XP" tag="$." in="-25:pnct" out="">.</W>
@@ -225,3 +225,4 @@
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
 </s>
 </p>
+</root>

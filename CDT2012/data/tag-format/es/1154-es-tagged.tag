@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">Es</W>
 <W lemma="no~obstante" msd="RG" tag="ADV" in="" out="">no obstante</W>
@@ -201,3 +201,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

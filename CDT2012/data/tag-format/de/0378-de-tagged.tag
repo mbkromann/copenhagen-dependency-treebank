@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">Von</W>
 <W lemma="Henrik" msd="NP" tag="NE" in="" out="">Henrik</W>
@@ -104,7 +104,7 @@
 <W lemma="interessieren" msd="VAP" tag="VVPP" in="" out="">interessiert</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -145,10 +145,10 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="" out="">große</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Presseaufgebot</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="unsicher" msd="AN" tag="ADJA" in="" out="">unsicheres</W>
-<W lemma="Warte&7c;Warten" msd="NC" tag="NN" in="" out="">Warten</W>
+<W lemma="Warte|Warten" msd="NC" tag="NN" in="" out="">Warten</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
 <W lemma="groß" msd="AN" tag="ADJD" in="" out="">groß</W>
@@ -198,3 +198,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

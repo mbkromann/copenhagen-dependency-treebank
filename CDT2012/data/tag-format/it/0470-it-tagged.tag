@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="cosa" msd="NC" tag="NOM" in="" out="">Cosa</W>
 <W lemma="significare" msd="VADR" tag="VER:pres" in="" out="">significa</W>
@@ -240,3 +240,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

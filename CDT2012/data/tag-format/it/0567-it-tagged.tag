@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="come" msd="SP" tag="PRE" in="" out="">Come</W>
 <W lemma="giocare" msd="VAF" tag="VER:infi" in="" out="">giocarsi</W>
@@ -257,3 +257,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

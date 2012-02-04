@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="3:subj|13:[subj]" out="1:attr|2:nobj">Die</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="-1:attr" out="">neuen</W>
@@ -76,7 +76,7 @@
 <W lemma="dabei" msd="RG" tag="PAV" in="1:cause" out="">Dabei</W>
 <W lemma="handeln" msd="VA" tag="VVFIN" in="" out="-1:cause|1:subj|2:robj|3:pobj">handelt</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-2:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-2:robj" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="-3:pobj" out="1:nobj">um</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="3:attr|4:nobj|5:pnct|6:ref|13:relr">ein</W>
 <W lemma="240" msd="AC" tag="CARD" in="2:attr|2:{quant}" out="1:nobj">240</W>
@@ -188,7 +188,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:subj|4:[subj]" out="">Amager</W>
 <W lemma="endlich" msd="AN" tag="ADJD" in="-2:eval" out="">endlich</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="1:{poss}|2:dobj" out="1:possd">seine</W>
-<W lemma="S-Bahn&7c;S-Bahnen" msd="NC" tag="NN" in="-1:possd" out="-1:{poss}">S-Bahnen</W>
+<W lemma="S-Bahn|S-Bahnen" msd="NC" tag="NN" in="-1:possd" out="-1:{poss}">S-Bahnen</W>
 <W lemma="bekommen" msd="VAF" tag="VVINF" in="-5:vobj" out="-4:[subj]|-2:dobj">bekommen</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:expl|4:[expl]" out="">Es</W>
@@ -232,3 +232,4 @@
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 </s>
 </p>
+</root>

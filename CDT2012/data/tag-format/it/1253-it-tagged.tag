@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="potere" msd="VA" tag="VER:cond" in="" out="">Potrei</W>
@@ -226,3 +226,4 @@
 <W lemma="?" msd="XP" tag="SENT" in="" out="">?</W>
 </s>
 </p>
+</root>

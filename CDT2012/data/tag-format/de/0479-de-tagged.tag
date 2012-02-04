@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">Viele</W>
 <W lemma="Däne" msd="NC" tag="NN" in="" out="">Dänen</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
@@ -34,7 +34,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">Das</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="ändern" msd="VAP" tag="VVPP" in="" out="">geändert</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -52,7 +52,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="Dänemark" msd="NP" tag="NE" in="" out="">Dänemark</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
@@ -77,7 +77,7 @@
 </p>
 <p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="jedoch" msd="RG" tag="ADV" in="" out="">jedoch</W>
 <W lemma="davon" msd="RG" tag="PAV" in="" out="">davon</W>
@@ -112,7 +112,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Sonderübereinkommen</W>
 <W lemma="scheinen" msd="VA" tag="VVFIN" in="" out="">scheint</W>
@@ -140,7 +140,7 @@
 <W lemma="Unionsbürgerschaft" msd="NC" tag="NN" in="" out="">Unionsbürgerschaft</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="mein" msd="PO" tag="PPOSAT" in="" out="">mein</W>
 <W lemma="Karen" msd="NP" tag="NE" in="" out="">Karen</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Siune</W>
@@ -234,3 +234,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

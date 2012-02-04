@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:subj|8:[subj]" out="1:nobj|14:assoc-agent">Die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:time">Divisionsspiele</W>
@@ -18,7 +18,7 @@
 <W lemma="dänisch" msd="AN" tag="ADJA" in="-1:attr" out="">dänischen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="">Divisionsspieler</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-3:subj|5:vobj|6:pnct|15:conj">haben</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="4:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="4:robj" out="">sich</W>
 <W lemma="mit" msd="SP" tag="APPR" in="3:accom" out="1:nobj">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|37:coref-var">dem</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Divisionsverein</W>
@@ -136,7 +136,7 @@
 <p>
 <s>
 <W lemma="aus" msd="SP" tag="APPR" in="4:cause" out="1:nobj">Aus</W>
-<W lemma="Grund&7c;Gründen" msd="NC" tag="NN" in="-1:nobj" out="1:poss">Gründen</W>
+<W lemma="Grund|Gründen" msd="NC" tag="NN" in="-1:nobj" out="1:poss">Gründen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:poss" out="1:nobj">des</W>
 <W lemma="Verhandlungsklima" msd="NC" tag="NN" in="-1:nobj" out="">Verhandlungsklimas</W>
 <W lemma="fordern" msd="VA" tag="VVFIN" in="" out="-4:cause|1:subj|3:dobj|5:part|6:pnct|13:nobj|15:pnct|21:pnct">fordert</W>
@@ -174,7 +174,7 @@
 <W lemma="beide" msd="PI" tag="PIDAT" in="-114:coref-var|4:subj" out="1:nobj|7:coref-var">beide</W>
 <W lemma="Verein" msd="NC" tag="NN" in="-1:nobj" out="">Vereine</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="2:pobj" out="1:nobj">zum</W>
-<W lemma="Warte&7c;Warten" msd="NC" tag="NN" in="-1:nobj" out="">Warten</W>
+<W lemma="Warte|Warten" msd="NC" tag="NN" in="-1:nobj" out="">Warten</W>
 <W lemma="auffordern" msd="VAF" tag="VVINF" in="-5:vobj" out="-4:subj|-2:pobj">auffordern</W>
 <W lemma="-" msd="XP" tag="$(" in="-6:pnct" out="">-</W>
 <W lemma="empfehlen" msd="VA" tag="VVFIN" in="" out="-16:cond|1:subj|3:man|4:pnct|8:dobj|16:pnct">empfehlen</W>
@@ -196,3 +196,4 @@
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
 </s>
 </p>
+</root>

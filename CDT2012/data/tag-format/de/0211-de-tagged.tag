@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="*" msd="XS" tag="XY" in="" out="">*</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
@@ -22,7 +22,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Pflanze&7c;Pflanzen" msd="NC" tag="NN" in="" out="">Pflanzen</W>
+<W lemma="Pflanze|Pflanzen" msd="NC" tag="NN" in="" out="">Pflanzen</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="" out="">frostunempfindlich</W>
 <W lemma="machen" msd="VA" tag="VVFIN" in="" out="">machen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -32,7 +32,7 @@
 <s>
 <W lemma="*" msd="XS" tag="XY" in="" out="">*</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Den</W>
-<W lemma="Tabakpflanze&7c;Tabakpflanzen" msd="NC" tag="NN" in="" out="">Tabakpflanzen</W>
+<W lemma="Tabakpflanze|Tabakpflanzen" msd="NC" tag="NN" in="" out="">Tabakpflanzen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="besonder" msd="AN" tag="ADJA" in="" out="">besondere</W>
@@ -43,10 +43,10 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Tabakblatt&7c;Tabakblättern" msd="NC" tag="NN" in="" out="">Tabakblättern</W>
+<W lemma="Tabakblatt|Tabakblättern" msd="NC" tag="NN" in="" out="">Tabakblättern</W>
 <W lemma="scharf" msd="AN" tag="ADJA" in="" out="">scharfe</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Killerkristalle</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="erzeugen" msd="VA" tag="VVFIN" in="" out="">erzeugen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
@@ -54,7 +54,7 @@
 <W lemma="Larve" msd="NC" tag="NN" in="" out="">Larve</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Blatt&7c;Blättern" msd="NC" tag="NN" in="" out="">Blättern</W>
+<W lemma="Blatt|Blättern" msd="NC" tag="NN" in="" out="">Blättern</W>
 <W lemma="nagen" msd="VA" tag="VVFIN" in="" out="">nagt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="reißen" msd="VA" tag="VVFIN" in="" out="">reißen</W>
@@ -135,7 +135,7 @@
 <W lemma="erzeugen" msd="VAF" tag="VVINF" in="" out="">erzeugen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Supermarkt" msd="NC" tag="NN" in="" out="">Supermarkt</W>
 <W lemma="stapeln" msd="VAF" tag="VVINF" in="" out="">stapeln</W>
@@ -195,3 +195,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Verabschiedung" msd="NC" tag="NN" in="" out="">Verabschiedung</W>
@@ -42,10 +42,10 @@
 <s>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
 <W lemma="Serbien" msd="NP" tag="NE" in="" out="">Serbien</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="weigern" msd="VA" tag="VVFIN" in="" out="">weigert</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Verwarnung" msd="NC" tag="NN" in="" out="">Verwarnung</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
@@ -135,7 +135,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -173,7 +173,7 @@
 <W lemma="Serbe" msd="NC" tag="NN" in="" out="">Serben</W>
 <W lemma="erschüttern" msd="VA" tag="VVFIN" in="" out="">erschüttert</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">Lynge</W>
 <W lemma="Nielsen" msd="NP" tag="NE" in="" out="">Nielsen</W>
@@ -185,7 +185,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="letzt" msd="AN" tag="ADJA" in="" out="">letzten</W>
-<W lemma="Tag&7c;Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
+<W lemma="Tag|Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
@@ -204,7 +204,7 @@
 <W lemma="bereit" msd="AN" tag="ADJD" in="" out="">bereit</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Verlagerung" msd="NC" tag="NN" in="" out="">Verlagerung</W>
@@ -226,3 +226,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

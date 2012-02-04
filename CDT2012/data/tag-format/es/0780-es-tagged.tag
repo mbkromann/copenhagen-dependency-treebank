@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">El</W>
 <W lemma="importe" msd="NC" tag="NC" in="" out="">importe</W>
@@ -84,6 +84,8 @@
 <W lemma="como" msd="CS" tag="CSUBX" in="" out="">como</W>
 <W lemma="pago" msd="NC" tag="NC" in="" out="">pago</W>
 <W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
@@ -120,6 +122,8 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="anunciar" msd="VAF" tag="VLadj" in="" out="">anunciada</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">racionalización</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
@@ -229,3 +233,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

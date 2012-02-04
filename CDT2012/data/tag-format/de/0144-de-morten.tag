@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="hier" msd="RG" tag="ADV" in="1:loc" out="">Hier</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="-1:loc|1:subj|2:dobj|4:quant|9:pnct">gibt</W>
@@ -21,7 +21,7 @@
 <W lemma="um" msd="SP" tag="APPR" in="-4:pobj" out="1:nobj">um</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|3:xpl">eine</W>
 <W lemma="Sache" msd="NC" tag="NN" in="-1:nobj" out="">Sache</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-7:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-7:pnct" out="">:</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:xpl" out="1:nobj|2:nobj">das</W>
 <W lemma="Überleben" msd="NC" tag="NN" in="-1:nobj" out="">Überleben</W>
 <W lemma="." msd="XP" tag="$." in="-2:nobj" out="">.</W>
@@ -42,15 +42,15 @@
 <W lemma="liegen" msd="VA" tag="VVFIN" in="" out="-4:subj|1:loc|4:pnct">liegen</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">in</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="-1:nobj" out="1:possd|4:assoc-const">ihren</W>
-<W lemma="Zelt&7c;Zelten" msd="NC" tag="NN" in="-1:possd" out="">Zelten</W>
+<W lemma="Zelt|Zelten" msd="NC" tag="NN" in="-1:possd" out="">Zelten</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
 <W lemma="bei" msd="SP" tag="APPR" in="4:scene" out="1:nobj">Bei</W>
 <W lemma="de" msd="NP" tag="NE" in="-1:nobj|-4:assoc-const" out="2:nobj">de</W>
 <W lemma="grün" msd="AN" tag="ADJA" in="1:attr" out="">grünen</W>
-<W lemma="Zelt&7c;Zelten" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Zelten</W>
+<W lemma="Zelt|Zelten" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Zelten</W>
 <W lemma="handeln" msd="VA" tag="VVFIN" in="" out="-4:scene|1:subj|2:robj|3:pobj|17:pnct">handelt</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-2:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-2:robj" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="-3:pobj" out="1:nobj">um</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:attr|3:nobj|4:pnct|5:ref|12:relr">das</W>
 <W lemma="ausgeteilt" msd="AN" tag="ADJA" in="-1:attr" out="">ausgeteilte</W>
@@ -58,7 +58,7 @@
 <W lemma="Modell" msd="NC" tag="NN" in="-3:nobj" out="">Modell</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-5:ref|7:subj" out="">das</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="6:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="6:robj" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="5:loc" out="1:nobj">in</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="-1:nobj" out="1:nobj">diesem</W>
 <W lemma="Klima" msd="NC" tag="NN" in="-1:nobj" out="">Klima</W>
@@ -73,7 +73,7 @@
 <W lemma="wie" msd="CS" tag="KOKOM" in="-1:avobj" out="1:avobj">wie</W>
 <W lemma="vor" msd="RG" tag="ADV" in="-1:avobj" out="">vor</W>
 <W lemma="unter" msd="SP" tag="APPR" in="-4:loc" out="1:nobj">unter</W>
-<W lemma="Plastikplane&7c;Plastikplanen" msd="NC" tag="NN" in="-1:nobj" out="2:conj|3:pnct|4:ref|13:relr">Plastikplanen</W>
+<W lemma="Plastikplane|Plastikplanen" msd="NC" tag="NN" in="-1:nobj" out="2:conj|3:pnct|4:ref|13:relr">Plastikplanen</W>
 <W lemma="oder" msd="CC" tag="KON" in="1:coord" out="">oder</W>
 <W lemma="Teppich" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Teppichen</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
@@ -117,12 +117,12 @@
 <W lemma="leiden" msd="VA" tag="VVFIN" in="" out="-1:subj|1:pobj|5:conj">leidet</W>
 <W lemma="unter" msd="SP" tag="APPR" in="-1:pobj" out="2:nobj">unter</W>
 <W lemma="stark" msd="AN" tag="ADJA" in="1:attr" out="">starken</W>
-<W lemma="Nierenschmerz&7c;Nierenschmerzen" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Nierenschmerzen</W>
+<W lemma="Nierenschmerz|Nierenschmerzen" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Nierenschmerzen</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-5:conj" out="-1:coord|4:vobj|12:pnct">ist</W>
 <W lemma="in" msd="SP" tag="APPR" in="3:pobj" out="1:nobj">in</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="-1:nobj" out="1:nobj|3:pnct|4:ref|7:relr">alle</W>
-<W lemma="Decke&7c;Decken" msd="NC" tag="NN" in="-1:nobj" out="">Decken</W>
+<W lemma="Decke|Decken" msd="NC" tag="NN" in="-1:nobj" out="">Decken</W>
 <W lemma="einwickeln" msd="VAP" tag="VVPP" in="-4:vobj" out="-3:pobj">eingewickelt</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-4:ref|4:dobj" out="">die</W>
@@ -150,11 +150,11 @@
 <W lemma="im" msd="SP+P" tag="APPRART" in="-1:loc" out="1:nobj">im</W>
 <W lemma="Dorf" msd="NC" tag="NN" in="-1:nobj" out="">Dorf</W>
 <W lemma="gegen" msd="SP" tag="APPR" in="2:pobj" out="1:nobj">gegen</W>
-<W lemma="Nierenschmerz&7c;Nierenschmerzen" msd="NC" tag="NN" in="-1:nobj" out="">Nierenschmerzen</W>
+<W lemma="Nierenschmerz|Nierenschmerzen" msd="NC" tag="NN" in="-1:nobj" out="">Nierenschmerzen</W>
 <W lemma="verschreiben" msd="VAP" tag="VVPP" in="1:vobj" out="-7:dobj|-2:pobj|-6:[subj]">verschrieben</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-11:relr" out="-7:subj|-1:vobj">hat</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
-<W lemma="Kopfschmerztablett&7c;Kopfschmerztablette" msd="NC" tag="NN" in="" out="1:pnct">Kopfschmerztabletten</W>
+<W lemma="Kopfschmerztablett|Kopfschmerztablette" msd="NC" tag="NN" in="" out="1:pnct">Kopfschmerztabletten</W>
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
 </s>
 </p>
@@ -206,3 +206,4 @@
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
 </s>
 </p>
+</root>

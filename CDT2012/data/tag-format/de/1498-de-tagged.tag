@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Ein</W>
 <W lemma="Traum" msd="NC" tag="NN" in="" out="">Traum</W>
@@ -126,7 +126,7 @@
 <W lemma="halb" msd="AN" tag="ADJA" in="" out="">halbe</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Wahrheit.Das</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="heute" msd="RG" tag="ADV" in="" out="">heute</W>
 <W lemma="zeigen" msd="VAP" tag="VVPP" in="" out="">gezeigt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -179,12 +179,12 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="schön" msd="AN" tag="ADJA" in="" out="">Schöne</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="" out="">neue</W>
 <W lemma="Zeit" msd="NC" tag="NN" in="" out="">Zeit</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="versprechen" msd="VA" tag="VVFIN" in="" out="">versprachen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Führende" msd="NC" tag="NN" in="" out="">Führenden</W>
@@ -201,7 +201,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Luxusklasse" msd="NC" tag="NN" in="" out="">Luxusklasse</W>
-<W lemma="treffen&7c;triefen" msd="VAP" tag="VVPP" in="" out="">getroffen</W>
+<W lemma="treffen|triefen" msd="VAP" tag="VVPP" in="" out="">getroffen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurden</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -235,3 +235,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

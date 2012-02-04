@@ -1,4 +1,4 @@
-<W lemma="il" msd="PD" tag="DET:def" in="" out="">Gli</W>
+<root><W lemma="il" msd="PD" tag="DET:def" in="" out="">Gli</W>
 <W lemma="argomento" msd="NC" tag="NOM" in="" out="">argomenti</W>
 <W lemma="comunque" msd="RG" tag="ADV" in="" out="">comunque</W>
 <W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="">sono</W>
@@ -266,3 +266,4 @@
 <W lemma="caccia" msd="NC" tag="NOM" in="" out="">caccia</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">I</W>
+</root>

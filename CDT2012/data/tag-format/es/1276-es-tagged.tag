@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="pero" msd="CC" tag="CCAD" in="" out="">Pero</W>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
@@ -252,3 +252,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

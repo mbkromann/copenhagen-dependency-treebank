@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="am" msd="SP+P" tag="APPRART" in="" out="">Am</W>
 <W lemma="Sonntagmittag" msd="NC" tag="NN" in="" out="">Sonntagmittag</W>
@@ -34,10 +34,10 @@
 <s>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">Bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Opfer&7c;Opfern" msd="NC" tag="NN" in="" out="">Opfern</W>
+<W lemma="Opfer|Opfern" msd="NC" tag="NN" in="" out="">Opfern</W>
 <W lemma="handeln" msd="VA" tag="VVFIN" in="" out="">handelt</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="42jährig" msd="AN" tag="ADJA" in="" out="">42jährigen</W>
@@ -195,7 +195,7 @@
 <W lemma="denken" msd="VA" tag="VVFIN" in="" out="">dachte</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">ich</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="erzählen" msd="VA" tag="VVFIN" in="" out="">erzählt</W>
 <W lemma="Christian" msd="NP" tag="NE" in="" out="">Christian</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Knudsen</W>
@@ -239,3 +239,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

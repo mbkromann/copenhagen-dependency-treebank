@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="haber" msd="VAD" tag="VLfin" in="" out="">Hubo</W>
 <W lemma="año" msd="NC" tag="NC" in="" out="">años</W>
@@ -193,3 +193,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">ODENSE</W>
 <W lemma=":" msd="XP" tag="PON" in="" out="">:</W>
@@ -252,3 +252,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

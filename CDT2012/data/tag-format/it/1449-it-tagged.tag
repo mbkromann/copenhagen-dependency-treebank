@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="incendiare" msd="VAP" tag="VER:pper" in="" out="">INCENDIATE</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">LE</W>
@@ -277,3 +277,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

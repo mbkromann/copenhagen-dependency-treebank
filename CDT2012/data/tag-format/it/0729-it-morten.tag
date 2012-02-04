@@ -1,4 +1,4 @@
-<W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
+<root><W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="beh" msd="I=" tag="INT" in="" out="">Beh</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
@@ -198,3 +198,4 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Arnold</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Schwarzenegger</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

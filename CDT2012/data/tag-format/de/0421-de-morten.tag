@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="aber" msd="CC" tag="KON" in="11:qobj" out="1:voc|2:pnct|4:conj|9:pnct|10:pnct">Aber</W>
 <W lemma="Liebste" msd="NC" tag="NN" in="-1:voc" out="">Liebste</W>
@@ -25,7 +25,7 @@
 <W lemma="Blick" msd="NC" tag="NN" in="-2:possd" out="-2:{arg}">Blick</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-3:subj|3:vobj|4:pnct">musste</W>
 <W lemma="er" msd="PP" tag="PPER" in="1:dobj" out="">ihn</W>
-<W lemma="treffen&7c;triefen" msd="VAP" tag="VVPP" in="1:vobj" out="-5:[subj]|-1:dobj">getroffen</W>
+<W lemma="treffen|triefen" msd="VAP" tag="VVPP" in="1:vobj" out="-5:[subj]|-1:dobj">getroffen</W>
 <W lemma="haben" msd="VAF" tag="VAINF" in="-3:vobj" out="-1:vobj|-6:[subj]">haben</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
 <W lemma="er" msd="PP" tag="PPER" in="1:subj" out="">Er</W>
@@ -71,7 +71,7 @@
 </p>
 <p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="1:subj|15:[subj]" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="1:subj|15:[subj]" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:time|3:preds|7:conj|15:pnct">war</W>
 <W lemma="immer" msd="RG" tag="ADV" in="-1:time" out="1:avobj">immer</W>
 <W lemma="noch" msd="RG" tag="ADV" in="-1:avobj" out="">noch</W>
@@ -99,7 +99,7 @@
 <W lemma="nun" msd="RG" tag="ADV" in="1:time" out="">Nun</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:time|1:subj|3:eval|6:vobj|7:pnct|8:goal|18:pnct">hatte</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-1:subj|4:[subj]|5:[subj]|11:[subj]|16:[subj]" out="">sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="3:robj" out="">sich</W>
 <W lemma="gerade" msd="AN" tag="ADJD" in="-3:eval" out="">gerade</W>
 <W lemma="stark" msd="AN" tag="ADJD" in="1:preds" out="">stark</W>
 <W lemma="machen" msd="VAF" tag="VVINF" in="1:vobj" out="-4:[subj]|-1:preds|-3:robj">machen</W>
@@ -171,13 +171,13 @@
 <W lemma="um" msd="SP" tag="APPR" in="-7:goal" out="-1:add|2:nobj">um</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="2:dobj|2:[subj]" out="">Arnalta</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-2:nobj" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="ärgern" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:dobj|-2:[subj]">ärgern</W>
+<W _noerror=":nosubj:" lemma="ärgern" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:dobj|-2:[subj]">ärgern</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
 <W lemma="aber" msd="CC" tag="KON" in="7:coord" out="">Aber</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="6:subj" out="1:nobj">der</W>
 <W lemma="Gedanke" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{about}">Gedanke</W>
 <W lemma="an" msd="SP" tag="APPR" in="-1:attr|-1:{about}" out="1:nobj">an</W>
-<W lemma="Esse&7c;Essen" msd="NC" tag="NN" in="-1:nobj" out="2:conj">Essen</W>
+<W lemma="Esse|Essen" msd="NC" tag="NN" in="-1:nobj" out="2:conj">Essen</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Wein" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Wein</W>
 <W lemma="verursachen" msd="VA" tag="VVFIN" in="" out="-7:coord|-6:subj|1:iobj|2:dobj|3:pnct|4:resem|6:pnct">verursachte</W>
@@ -189,3 +189,4 @@
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 </s>
 </p>
+</root>

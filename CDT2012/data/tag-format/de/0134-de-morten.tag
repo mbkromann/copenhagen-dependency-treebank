@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="9:subj|13:[subj]" out="2:nobj|114:coref-var">Das</W>
 <W lemma="gestrig" msd="AN" tag="ADJA" in="1:attr" out="">gestrige</W>
@@ -33,7 +33,7 @@
 <W lemma="gegenüber" msd="SP" tag="APPO" in="1:pobj" out="-1:nobj">gegenüber</W>
 <W lemma="äußern" msd="VAP" tag="VVPP" in="1:vobj" out="-1:pobj|-4:[subj]">geäußert</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-6:vobj" out="-5:subj|-1:vobj|-4:time">hat</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-12:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-12:pnct" out="">:</W>
 </s>
 </p>
 <p>
@@ -70,6 +70,8 @@
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-3:neg" out="">nicht</W>
 <W lemma="akzeptieren" msd="VAF" tag="VVINF" in="-4:vobj|-3:[subj]" out="-8:dobj">akzeptieren</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="wenn" msd="CS" tag="KOUS" in="11:cond" out="9:vobj">Wenn</W>
@@ -103,7 +105,7 @@
 <W lemma="nennen" msd="VAF" tag="VVINF" in="1:vobj" out="-3:[subj]|-2:dobj|-4:[dobj]">nennen</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="-5:relr" out="-4:subj|-1:vobj|-2:eval">will</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-10:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-10:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -134,7 +136,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="1:subj" out="">Wir</W>
 <W lemma="denken" msd="VA" tag="VVFIN" in="" out="-2:pnct|-1:subj|1:pnct|2:dobj|15:pnct">dachten</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -234,3 +236,4 @@
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 </s>
 </p>
+</root>

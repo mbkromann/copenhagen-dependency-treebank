@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">En</W>
 <W lemma="cualquier" msd="AN" tag="QU" in="" out="">cualquier</W>
@@ -236,3 +236,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

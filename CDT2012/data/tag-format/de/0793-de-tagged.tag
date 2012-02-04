@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Eine</W>
 <W lemma="Quelle" msd="NC" tag="NN" in="" out="">Quelle</W>
@@ -31,7 +31,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="vernichten" msd="VAF" tag="VVINF" in="" out="">vernichten</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -106,6 +106,8 @@
 <W lemma="Kabul" msd="NP" tag="NE" in="" out="">Kabul</W>
 <W lemma="fliegen" msd="VA" tag="VVFIN" in="" out="">flogen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
@@ -203,3 +205,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

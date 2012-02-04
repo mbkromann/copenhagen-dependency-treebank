@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="einige" msd="PI" tag="PIAT" in="2:subj" out="1:nobj">Einige</W>
 <W lemma="Maschine" msd="NC" tag="NN" in="-1:nobj" out="">Maschinen</W>
@@ -8,7 +8,7 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="8:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="7:subj" out="1:nobj|2:attr">die</W>
-<W lemma="Eisenkette&7c;Eisenketten" msd="NC" tag="NN" in="-1:nobj" out="1:{loc}">Eisenketten</W>
+<W lemma="Eisenkette|Eisenketten" msd="NC" tag="NN" in="-1:nobj" out="1:{loc}">Eisenketten</W>
 <W lemma="in" msd="SP" tag="APPR" in="-2:attr|-1:{loc}" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
 <W lemma="Schranke" msd="NC" tag="NN" in="-1:nobj" out="">Schranken</W>
@@ -28,7 +28,7 @@
 <W lemma="bleiben" msd="VA" tag="VVFIN" in="-7:conj" out="-1:subj|1:quant|2:nobj">blieb</W>
 <W lemma="nur" msd="RG" tag="ADV" in="-1:quant" out="">nur</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-2:nobj" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="hoffen" msd="VAF" tag="VVINF" in="-1:vobj" out="1:pnct|2:dobj">hoffen</W>
+<W _noerror=":nosubj:" lemma="hoffen" msd="VAF" tag="VVINF" in="-1:vobj" out="1:pnct|2:dobj">hoffen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:dobj" out="12:vobj">dass</W>
 <W lemma="sie" msd="PP" tag="PPER" in="10:[subj]|11:subj" out="">sie</W>
@@ -129,8 +129,8 @@
 <W lemma="-" msd="XP" tag="$(" in="2:pnct" out="">-</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:add" out="">Übrigens</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="-1:add|-2:pnct|1:subj|3:neg|7:vobj|8:pnct|10:conj|12:pnct">sollten</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-1:subj|6:[subj]" out="">Sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="5:dobj" out="">sich</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="-1:subj|6:[subj]" out="">Sie</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="5:dobj" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-3:neg" out="">nicht</W>
 <W lemma="auf" msd="SP" tag="APPR" in="3:pobj" out="1:nobj">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
@@ -173,7 +173,7 @@
 <W lemma="kommen" msd="VA" tag="VVFIN" in="-7:relr" out="-4:subj|-1:@dir|1:pnct">kam</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-11:conj" out="1:subj|3:vobj">haben</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-1:subj|2:[subj]" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="-1:subj|2:[subj]" out="">Sie</W>
 <W lemma="er" msd="PP" tag="PPER" in="1:dobj" out="">ihn</W>
 <W lemma="fassen" msd="VAP" tag="VVPP" in="-3:vobj" out="-1:dobj|-2:[subj]">gefasst</W>
 <W lemma="?" msd="XP" tag="$." in="-15:pnct" out="">?</W>
@@ -228,3 +228,4 @@
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
 </s>
 </p>
+</root>

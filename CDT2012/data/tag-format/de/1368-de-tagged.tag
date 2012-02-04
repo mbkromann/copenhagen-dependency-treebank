@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="glauben" msd="VA" tag="VVFIN" in="" out="">glaube</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
@@ -38,12 +38,12 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="sonderlich" msd="AN" tag="ADJD" in="" out="">sonderlich</W>
 <W lemma="einig" msd="AN" tag="ADJD" in="" out="">einig</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Uffe" msd="NP" tag="NE" in="" out="">Uffe</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Ellemann-Jensen</W>
@@ -76,7 +76,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="glauben" msd="VA" tag="VVFIN" in="" out="">glaube</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
@@ -163,7 +163,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="vereinen" msd="VAF" tag="VVINF" in="" out="">vereinen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="sozialdemokratisch" msd="AN" tag="ADJA" in="" out="">sozialdemokratische</W>
@@ -206,3 +206,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="">Nella</W>
 <W lemma="maggiore" msd="AN" tag="ADJ" in="" out="">maggior</W>
@@ -288,3 +288,4 @@
 <W lemma="psicologia" msd="NC" tag="NOM" in="" out="">Psicologia</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="¿" msd="XP" tag="FS" in="" out="">¿</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Qué</W>
@@ -33,6 +33,8 @@
 </s>
 <s>
 <W lemma="pero" msd="CC" tag="CCAD" in="" out="">Pero</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="usar" msd="VAD" tag="VLfin" in="" out="">usaba</W>
@@ -118,6 +120,8 @@
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">han</W>
 <W lemma="escuchar" msd="VAF" tag="VLadj" in="" out="">escuchado</W>
 <W lemma="cantar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">cantar</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="hacer" msd="VAD" tag="VLfin" in="" out="">hace</W>
@@ -139,6 +143,8 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="país" msd="NC" tag="NC" in="" out="">país</W>
 <W lemma="junto~con" msd="SP" tag="SCENE" in="" out="">junto con</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="dos" msd="AC" tag="CARD" in="" out="">dos</W>
@@ -200,6 +206,8 @@
 <W lemma="hasta" msd="SP" tag="SCENE" in="" out="">hasta</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="">tenía</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">25</W>
@@ -231,3 +239,4 @@
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">jütländische</W>
@@ -96,7 +96,7 @@
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="ethisch" msd="AN" tag="ADJA" in="" out="">ethischen</W>
-<W lemma="Regel&7c;Regeln" msd="NC" tag="NN" in="" out="">Regeln</W>
+<W lemma="Regel|Regeln" msd="NC" tag="NN" in="" out="">Regeln</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="Verband" msd="NC" tag="NN" in="" out="">Verbandes</W>
 <W lemma="entsprechen" msd="VA" tag="VVFIN" in="" out="">entspricht</W>
@@ -105,7 +105,7 @@
 </p>
 <p>
 <s>
-<W lemma="Ihr&7c;ihr" msd="PO" tag="PPOSAT" in="" out="">Ihrer</W>
+<W lemma="Ihr|ihr" msd="PO" tag="PPOSAT" in="" out="">Ihrer</W>
 <W lemma="eigen" msd="AN" tag="ADJA" in="" out="">eigenen</W>
 <W lemma="Organisation" msd="NC" tag="NN" in="" out="">Organisation</W>
 <W lemma="gegenüber" msd="SP" tag="APPO" in="" out="">gegenüber</W>
@@ -180,7 +180,7 @@
 <W lemma="Sache" msd="NC" tag="NN" in="" out="">Sache</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="Urteil" msd="NC" tag="NN" in="" out="">Urteil</W>
-<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
+<W lemma="fallen|fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="jedoch" msd="RG" tag="ADV" in="" out="">Jedoch</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
@@ -195,3 +195,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

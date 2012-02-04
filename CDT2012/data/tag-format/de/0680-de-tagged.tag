@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="damit" msd="RG" tag="PAV" in="" out="">Damit</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
@@ -55,7 +55,7 @@
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="anerkennen" msd="VAP" tag="VVPP" in="" out="">anerkannt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">Aber</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
@@ -66,7 +66,7 @@
 <W lemma="machen" msd="VAF" tag="VVINF" in="" out="">machen</W>
 <W lemma="lassen" msd="VAF" tag="VVINF" in="" out="">lassen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="kommentieren" msd="VA" tag="VVFIN" in="" out="">kommentierte</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="kroatisch" msd="AN" tag="ADJA" in="" out="">kroatischer</W>
@@ -74,7 +74,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">als</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Sektkork&7c;Sektkorken" msd="NC" tag="NN" in="" out="">Sektkorken</W>
+<W lemma="Sektkork|Sektkorken" msd="NC" tag="NN" in="" out="">Sektkorken</W>
 <W lemma="knallen" msd="VA" tag="VVFIN" in="" out="">knallten</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Bonn" msd="NP" tag="NE" in="" out="">Bonns</W>
@@ -209,13 +209,14 @@
 <W lemma="Land" msd="NC" tag="NN" in="" out="">Land</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="erfolgreich" msd="AN" tag="ADJA" in="" out="">erfolgreiche</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="realistisch" msd="AN" tag="ADJA" in="" out="">realistische</W>
 <W lemma="Politik" msd="NC" tag="NN" in="" out="">Politik</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="zurück" msd="RG" tag="PTKVZ" in="" out="">zurück</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

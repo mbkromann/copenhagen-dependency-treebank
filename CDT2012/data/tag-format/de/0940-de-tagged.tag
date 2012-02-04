@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Geschichte" msd="NC" tag="NN" in="" out="">Geschichte</W>
@@ -177,7 +177,7 @@
 <W lemma="1945" msd="AC" tag="CARD" in="" out="">1945</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Jalta</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="scharf" msd="AN" tag="ADJD" in="" out="">scharf</W>
 <W lemma="abzeichnen" msd="VA" tag="VVFIN" in="" out="">abzeichneten</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -203,3 +203,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">Con</W>
 <W lemma="modestia" msd="NC" tag="NOM" in="" out="">modestia</W>
@@ -228,3 +228,4 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">ACQUA</W>
 </s>
 </p>
+</root>

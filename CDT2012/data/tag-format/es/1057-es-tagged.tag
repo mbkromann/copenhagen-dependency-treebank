@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">Es</W>
 <W lemma="fácil" msd="AN" tag="ADJ" in="" out="">fácil</W>
@@ -39,6 +39,8 @@
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="cultura" msd="NC" tag="NC" in="" out="">cultura</W>
 <W lemma="general" msd="AN" tag="ADJ" in="" out="">general</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="todavía" msd="RG" tag="ADV" in="" out="">todavía</W>
@@ -129,6 +131,8 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
 <W lemma="tendencia" msd="NC" tag="NC" in="" out="">tendencias</W>
 <W lemma="influyente" msd="AN" tag="ADJ" in="" out="">influyentes</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
@@ -247,3 +251,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

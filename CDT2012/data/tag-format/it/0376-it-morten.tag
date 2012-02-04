@@ -1,4 +1,4 @@
-<W lemma="se" msd="CS" tag="CON" in="" out="">Se</W>
+<root><W lemma="se" msd="CS" tag="CON" in="" out="">Se</W>
 <W lemma="tutto" msd="RG" tag="ADV" in="" out="">tutto</W>
 <W lemma="procedere" msd="VADR" tag="VER:pres" in="" out="">procede</W>
 <W lemma="secondo" msd="SP" tag="PRE" in="" out="">secondo</W>
@@ -208,3 +208,4 @@
 <W lemma="comunità" msd="NC" tag="NOM" in="" out="">comunità</W>
 <W lemma="residenziale" msd="AN" tag="ADJ" in="" out="">residenziale</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

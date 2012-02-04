@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Liebe" msd="NC" tag="NN" in="2:attr" out="">Liebe</W>
 <W lemma="zutiefst" msd="RG" tag="ADV" in="1:man" out="">zutiefst</W>
@@ -133,7 +133,7 @@
 <p>
 <s>
 <W lemma="deshalb" msd="RG" tag="PAV" in="1:cause" out="">Deshalb</W>
-<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="-1:cause|1:subj|2:preds|3:pnct|22:pnct">fällt</W>
+<W lemma="fallen|fällen" msd="VA" tag="VVFIN" in="" out="-1:cause|1:subj|2:preds|3:pnct|22:pnct">fällt</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="7:nobj">es</W>
 <W lemma="schwer" msd="AN" tag="ADJD" in="-2:preds" out="">schwer</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
@@ -142,7 +142,7 @@
 <W lemma="alleine" msd="RG" tag="ADV" in="-1:focal" out="">alleine</W>
 <W lemma="darin" msd="RG" tag="PAV" in="-2:pobj" out="13:nobj">darin</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-7:nobj" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="sehen" msd="VAF" tag="VVINF" in="-1:vobj" out="-5:dobj|1:pnct">sehen</W>
+<W _noerror=":nosubj:" lemma="sehen" msd="VAF" tag="VVINF" in="-1:vobj" out="-5:dobj|1:pnct">sehen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="ihr" msd="PP" tag="PPER" in="10:dobj" out="">ihr</W>
 <W lemma="zu" msd="SP" tag="APPR" in="9:pobj" out="1:nobj">zu</W>
@@ -154,7 +154,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">das</W>
 <W lemma="Examen" msd="NC" tag="NN" in="-1:nobj" out="">Examen</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-13:nobj" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="raten" msd="VAF" tag="VVINF" in="-1:vobj" out="-10:dobj|-9:pobj">raten</W>
+<W _noerror=":nosubj:" lemma="raten" msd="VAF" tag="VVINF" in="-1:vobj" out="-10:dobj|-9:pobj">raten</W>
 <W lemma="." msd="XP" tag="$." in="-22:pnct" out="">.</W>
 </s>
 </p>
@@ -203,3 +203,4 @@
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
 </s>
 </p>
+</root>

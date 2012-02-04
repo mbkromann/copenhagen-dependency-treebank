@@ -1,4 +1,4 @@
-<W lemma="@card@" msd="AN" tag="NUM" in="" out="">11</W>
+<root><W lemma="@card@" msd="AN" tag="NUM" in="" out="">11</W>
 <W lemma="morte|morto" msd="NC" tag="NOM" in="" out="">morti</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="abuso" msd="NC" tag="NOM" in="" out="">abuso</W>
@@ -208,3 +208,4 @@
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">alla</W>
 <W lemma="Polonia" msd="NP" tag="NPR" in="" out="">Polonia</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:subj" out="">-Ich</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="15:qobj" out="-1:subj|1:dobj|3:pnct|14:pnct|20:conj">hatte</W>
@@ -164,8 +164,10 @@
 <W lemma="ganz" msd="AN" tag="ADJD" in="1:quant" out="">ganz</W>
 <W lemma="fest" msd="AN" tag="ADJD" in="-4:@dir" out="-1:quant|1:pobj">fest</W>
 <W lemma="an" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">an</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:nobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:nobj" out="">sich</W>
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="6:qobj" out="1:attr|2:attr|3:nobj|4:pnct|5:pnct">-Eine</W>
@@ -197,3 +199,4 @@
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,7 +1,7 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="Zicke" msd="NC" tag="NN" in="" out="">Zicke</W>
@@ -29,11 +29,11 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">waren</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="bücken" msd="VA" tag="VVFIN" in="" out="">bückte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="trocknen" msd="VA" tag="VVFIN" in="" out="">trocknete</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Spitz&7c;Spitze&7c;Spitzen" msd="NC" tag="NN" in="" out="">Spitzen</W>
+<W lemma="Spitz|Spitze|Spitzen" msd="NC" tag="NN" in="" out="">Spitzen</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="" out="">seinem</W>
 <W lemma="Taschentuch" msd="NC" tag="NN" in="" out="">Taschentuch</W>
@@ -83,7 +83,7 @@
 <W lemma="kommen" msd="VA" tag="VVFIN" in="" out="">kamen</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihrer</W>
-<W lemma="Rund&7c;Runde" msd="NC" tag="NN" in="" out="">Runde</W>
+<W lemma="Rund|Runde" msd="NC" tag="NN" in="" out="">Runde</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Luft" msd="NC" tag="NN" in="" out="">Luft</W>
@@ -98,7 +98,7 @@
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Arm&7c;Arme" msd="NC" tag="NN" in="" out="">Armen</W>
+<W lemma="Arm|Arme" msd="NC" tag="NN" in="" out="">Armen</W>
 <W lemma="hinter" msd="SP" tag="APPR" in="" out="">hinter</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Schießzelt</W>
@@ -111,7 +111,7 @@
 <W lemma="danach" msd="RG" tag="PAV" in="" out="">danach</W>
 <W lemma="übergeben" msd="VA" tag="VVFIN" in="" out="">übergab</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
 <W lemma="sehen" msd="VA" tag="VVFIN" in="" out="">sah</W>
@@ -157,7 +157,7 @@
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">mir</W>
 <W lemma="Leid" msd="NC" tag="NN" in="" out="">Leid</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="überhaupt" msd="RG" tag="ADV" in="" out="">überhaupt</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
@@ -165,7 +165,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="wie" msd="CS" tag="KOUS" in="" out="">wie</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gab</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="seitdem" msd="CS" tag="KOUS" in="" out="">Seitdem</W>
@@ -218,3 +218,4 @@
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
 </s>
 </p>
+</root>

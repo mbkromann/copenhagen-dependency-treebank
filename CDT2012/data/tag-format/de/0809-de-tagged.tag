@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Syrien" msd="NP" tag="NE" in="" out="">Syriens</W>
 <W lemma="Präsident" msd="NC" tag="NN" in="" out="">Präsident</W>
@@ -61,7 +61,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="verstecken" msd="VAP" tag="VVPP" in="" out="">versteckt</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="sehr" msd="RG" tag="ADV" in="" out="">sehr</W>
 <W lemma="schnell" msd="AN" tag="ADJD" in="" out="">schnell</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
@@ -83,7 +83,7 @@
 <W lemma="morgen" msd="RG" tag="ADV" in="" out="">morgen</W>
 <W lemma="Syrien" msd="NP" tag="NE" in="" out="">Syrien</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="Diplomat" msd="NC" tag="NN" in="" out="">Diplomat</W>
@@ -161,7 +161,7 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurde</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="schließen" msd="VA" tag="VVFIN" in="" out="">schloss</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Allianz" msd="NC" tag="NN" in="" out="">Allianz</W>
 <W lemma="gegen" msd="SP" tag="APPR" in="" out="">gegen</W>
@@ -228,3 +228,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

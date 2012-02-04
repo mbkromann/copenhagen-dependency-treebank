@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Kapitel" msd="NC" tag="NN" in="" out="1:nobj">Kapitel</W>
 <W lemma="I" msd="XF" tag="FM" in="-1:nobj" out="">I</W>
@@ -8,7 +8,7 @@
 <s>
 <W lemma="wie" msd="CS" tag="KOUS" in="1:man" out="">Wie</W>
 <W lemma="bewegen" msd="VA" tag="VVFIN" in="" out="-1:man|1:robj|2:subj|7:@dir|8:pnct">bewegt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-2:subj" out="1:nobj">ein</W>
 <W lemma="Kind" msd="NC" tag="NN" in="-1:nobj" out="">Kind</W>
 <W lemma="in" msd="SP" tag="APPR" in="3:pobj" out="1:nobj">in</W>
@@ -131,11 +131,11 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">eine</W>
 <W lemma="Mal" msd="NC" tag="NN" in="-1:nobj" out="">Mal</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="-6:vobj" out="-5:subj|-4:dobj|-3:time">können</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-10:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-10:pnct" out="">:</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:dobj" out="1:nobj|5:pnct|17:relr">Die</W>
 <W lemma="Welt" msd="NC" tag="NN" in="-1:nobj" out="">Welt</W>
 <W lemma="so" msd="RG" tag="ADV" in="2:preds" out="1:vobj">so</W>
-<W _noerror="&3a;nosubj&3a;" lemma="kennen" msd="VAF" tag="VVINF" in="-1:vobj" out="">kennen</W>
+<W _noerror=":nosubj:" lemma="kennen" msd="VAF" tag="VVINF" in="-1:vobj" out="">kennen</W>
 <W lemma="lernen" msd="VA" tag="VVFIN" in="-15:xpl" out="-4:dobj|-2:preds">lernen</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="wie" msd="CS" tag="KOUS" in="11:aobj" out="">wie</W>
@@ -224,3 +224,4 @@
 <W lemma="." msd="XP" tag="$." in="-17:pnct" out="">.</W>
 </s>
 </p>
+</root>

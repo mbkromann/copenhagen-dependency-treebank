@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ersparen" msd="VA" tag="VVFIN" in="" out="">Erspare</W>
 <W lemma="wir" msd="PR" tag="PRF" in="" out="">uns</W>
 <W lemma="bitte" msd="RG" tag="ADV" in="" out="">bitte</W>
@@ -8,7 +8,7 @@
 <W lemma="unnütz" msd="AN" tag="ADJA" in="" out="">unnützes</W>
 <W lemma="Gerede" msd="NC" tag="NN" in="" out="">Gerede</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="bitten" msd="VA" tag="VVFIN" in="" out="">bat</W>
 <W lemma="Enzo" msd="NP" tag="NE" in="" out="">Enzo</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Biagi</W>
@@ -51,7 +51,7 @@
 <W lemma="Krieg" msd="NC" tag="NN" in="" out="">Krieg</W>
 <W lemma="erklären" msd="VAP" tag="VVPP" in="" out="">erklärt</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
 <W lemma="gegen" msd="SP" tag="APPR" in="" out="">gegen</W>
@@ -103,11 +103,11 @@
 <W lemma="Palermo" msd="NP" tag="NE" in="" out="">Palermos</W>
 <W lemma="Einwohner" msd="NC" tag="NN" in="" out="">Einwohner</W>
 <W lemma="zeigen" msd="VA" tag="VVFIN" in="" out="">zeigen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="beeindrucken" msd="VA" tag="VVFIN" in="" out="">beeindruckt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="empfinden" msd="VA" tag="VVFIN" in="" out="">empfinden</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
@@ -193,7 +193,7 @@
 <W lemma="Oscar" msd="NP" tag="NE" in="" out="">Oscar</W>
 <W lemma="Luigi" msd="NP" tag="NE" in="" out="">Luigi</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Scalfaro</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="wütend" msd="AN" tag="ADJA" in="" out="">wütenden</W>
@@ -222,7 +222,7 @@
 <W lemma="Zuruf" msd="NC" tag="NN" in="" out="">Zurufe</W>
 <W lemma="ertragen" msd="VAF" tag="VVINF" in="" out="">ertragen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Schlag" msd="NC" tag="NN" in="" out="">Schlägen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -233,3 +233,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">Auf</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Gotland</W>
@@ -94,14 +94,14 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Wind" msd="NC" tag="NN" in="" out="">Wind</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="etwas" msd="RG" tag="ADV" in="" out="">etwas</W>
 <W lemma="legen" msd="VAP" tag="VVPP" in="" out="">gelegt</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Brand" msd="NC" tag="NN" in="" out="">Brand</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="stabilisieren" msd="VAP" tag="VVPP" in="" out="">stabilisiert</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -126,7 +126,7 @@
 <W lemma="noch" msd="RG" tag="ADV" in="" out="">noch</W>
 <W lemma="gestern" msd="RG" tag="ADV" in="" out="">gestern</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
-<W lemma="Freund&7c;Freunden" msd="NC" tag="NN" in="" out="">Freunden</W>
+<W lemma="Freund|Freunden" msd="NC" tag="NN" in="" out="">Freunden</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Bekannte" msd="NC" tag="NN" in="" out="">Bekannten</W>
 <W lemma="unterbringen" msd="VAP" tag="VVPP" in="" out="">untergebracht</W>
@@ -211,8 +211,9 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="verwüstet" msd="AN" tag="ADJA" in="" out="">verwüstete</W>
 <W lemma="Landschaft" msd="NC" tag="NN" in="" out="">Landschaft</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="aussehen" msd="VA" tag="VVFIN" in="" out="">aussieht</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

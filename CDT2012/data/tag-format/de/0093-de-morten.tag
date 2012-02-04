@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="nach" msd="SP" tag="APPR" in="10:time" out="1:nobj">Nach</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|2:possd">einer</W>
@@ -19,7 +19,7 @@
 <W lemma="ganz" msd="AN" tag="ADJD" in="1:quant" out="">ganz</W>
 <W lemma="legal" msd="AN" tag="ADJD" in="-7:man" out="-1:quant">legal</W>
 <W lemma="bei" msd="SP" tag="APPR" in="-8:preds" out="1:nobj">bei</W>
-<W lemma="Ihr&7c;ihr" msd="PO" tag="PPOSAT" in="-1:nobj" out="1:possd|2:pnct|4:appa|8:conj|25:coref-iden">Ihrer</W>
+<W lemma="Ihr|ihr" msd="PO" tag="PPOSAT" in="-1:nobj" out="1:possd|2:pnct|4:appa|8:conj|25:coref-iden">Ihrer</W>
 <W lemma="Mutter" msd="NC" tag="NN" in="-1:possd" out="">Mutter</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="Yvonne" msd="NP" tag="NE" in="1:namef" out="">Yvonne</W>
@@ -87,7 +87,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="1:subj|6:[subj]" out="18:coref">Wir</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-2:pnct|-1:subj|5:vobj|6:pnct|10:conj">haben</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:dobj" out="1:nobj|10:coref">den</W>
@@ -118,7 +118,7 @@
 <W lemma="Bürger" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Bürger</W>
 <W lemma="verhalten" msd="VA" tag="VVFIN" in="-6:conj" out="-5:coord|-4:dobj|-3:pobj|-10:[subj]">verhalten</W>
 <W lemma="," msd="XP" tag="$," in="-12:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-13:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-13:pnct" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-14:qobj|1:subj|5:pnct">sagt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:attr|3:nobj">der</W>
 <W lemma="43jährig" msd="AN" tag="ADJA" in="-1:attr" out="">43jährige</W>
@@ -238,3 +238,4 @@
 <W lemma="." msd="XP" tag="$." in="-20:pnct" out="">.</W>
 </s>
 </p>
+</root>

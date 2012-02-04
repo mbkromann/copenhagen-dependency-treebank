@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="was" msd="PT" tag="PWS" in="" out="">Was</W>
 <W lemma="brauchen" msd="VA" tag="VVFIN" in="" out="">braucht</W>
@@ -92,7 +92,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="ob" msd="CS" tag="KOUS" in="" out="">Ob</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="Schuh" msd="NC" tag="NN" in="" out="">Schuhe</W>
 <W lemma="oder" msd="CC" tag="KON" in="" out="">oder</W>
@@ -172,7 +172,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Kleidung" msd="NC" tag="NN" in="" out="">Kleidung</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="weniger" msd="RG" tag="ADV" in="" out="">weniger</W>
 <W lemma="wichtig" msd="AN" tag="ADJD" in="" out="">wichtig</W>
@@ -192,7 +192,7 @@
 <W lemma="exponiert" msd="AN" tag="ADJA" in="" out="">exponierter</W>
 <W lemma="Stelle" msd="NC" tag="NN" in="" out="">Stelle</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
-<W lemma="Blase&7c;Blasen" msd="NC" tag="NN" in="" out="">Blasen</W>
+<W lemma="Blase|Blasen" msd="NC" tag="NN" in="" out="">Blasen</W>
 <W lemma="führen" msd="VAF" tag="VVINF" in="" out="">führen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">könnte</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -205,3 +205,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

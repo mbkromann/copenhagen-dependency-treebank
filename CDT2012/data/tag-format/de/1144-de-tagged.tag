@@ -1,18 +1,18 @@
-<p>
+<root><p>
 <s>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">Ist</W>
 <W lemma="Larsen" msd="NP" tag="NE" in="" out="">Larsen</W>
 <W lemma="zäh" msd="AN" tag="ADJD" in="" out="">zäher</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">als</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="denken" msd="VA" tag="VVFIN" in="" out="">dachten</W>
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Jütländer</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
@@ -65,7 +65,7 @@
 <W lemma="wecken" msd="VAP" tag="VVPP" in="" out="">geweckt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
-<W lemma="Reise&7c;Reisen" msd="NC" tag="NN" in="" out="">Reisen</W>
+<W lemma="Reise|Reisen" msd="NC" tag="NN" in="" out="">Reisen</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="gehen" msd="VAF" tag="VVINF" in="" out="">gehen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -110,7 +110,7 @@
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">diesem</W>
 <W lemma="Fall" msd="NC" tag="NN" in="" out="">Fall</W>
 <W lemma="stellen" msd="VA" tag="VVFIN" in="" out="">stellt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Frage" msd="NC" tag="NN" in="" out="">Frage</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -127,7 +127,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">der</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Markt" msd="NC" tag="NN" in="" out="">Markt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="derzeit" msd="RG" tag="ADV" in="" out="">derzeit</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="Talfahrt" msd="NC" tag="NN" in="" out="">Talfahrt</W>
@@ -183,19 +183,19 @@
 <W lemma="Gesellschaft" msd="NC" tag="NN" in="" out="">Gesellschaft</W>
 <W lemma="prägen" msd="VA" tag="VVFIN" in="" out="">prägt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="heute" msd="RG" tag="ADV" in="" out="">heute</W>
 <W lemma="zurück" msd="RG" tag="PTKVZ" in="" out="">zurück</W>
 <W lemma="blicken" msd="VA" tag="VVFIN" in="" out="">blicken</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="dann" msd="RG" tag="ADV" in="" out="">dann</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Auffassung" msd="NC" tag="NN" in="" out="">Auffassung</W>
@@ -211,3 +211,4 @@
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
 </s>
 </p>
+</root>

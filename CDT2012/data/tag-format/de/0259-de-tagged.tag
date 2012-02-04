@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">Mit</W>
 <W lemma="ander" msd="AN" tag="ADJA" in="" out="">anderen</W>
@@ -22,7 +22,7 @@
 <s>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">diesen</W>
-<W lemma="Tag&7c;Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
+<W lemma="Tag|Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
 <W lemma="versuchen" msd="VA" tag="VVFIN" in="" out="">versucht</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
@@ -70,13 +70,13 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Aufruhr" msd="NC" tag="NN" in="" out="">Aufruhr</W>
 <W lemma="lauern" msd="VA" tag="VVFIN" in="" out="">lauern</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="Umweltministerium" msd="NC" tag="NN" in="" out="">Umweltministerium</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -125,7 +125,7 @@
 <W lemma="Person" msd="NC" tag="NN" in="" out="">Personen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
-<W lemma="Nerv&7c;Nerven" msd="NC" tag="NN" in="" out="">Nerven</W>
+<W lemma="Nerv|Nerven" msd="NC" tag="NN" in="" out="">Nerven</W>
 <W lemma="liegen" msd="VA" tag="VVFIN" in="" out="">liegen</W>
 <W lemma="jetzt" msd="RG" tag="ADV" in="" out="">jetzt</W>
 <W lemma="bereits" msd="RG" tag="ADV" in="" out="">bereits</W>
@@ -140,13 +140,13 @@
 <W lemma="Ministerium" msd="NC" tag="NN" in="" out="">Ministerium</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="Wohnungsbau" msd="NC" tag="NN" in="" out="">Wohnungsbau</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="reden" msd="VA" tag="VVFIN" in="" out="">Reden</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="2." msd="AN" tag="ADJA" in="" out="">2.</W>
@@ -158,7 +158,7 @@
 <s>
 <W lemma="2." msd="AN" tag="ADJA" in="" out="">2.</W>
 <W lemma="Büro" msd="NC" tag="NN" in="" out="">Büro</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -203,7 +203,7 @@
 <p>
 <s>
 <W lemma="Staatsministerium" msd="NC" tag="NN" in="" out="">Staatsministerium</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -244,3 +244,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="Geld" msd="NC" tag="NN" in="" out="">Geld</W>
@@ -22,7 +22,7 @@
 <W lemma="Bestellte" msd="NC" tag="NN" in="" out="">Bestellte</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="" out="">neue</W>
-<W lemma="Rund&7c;Runde" msd="NC" tag="NN" in="" out="">Runde</W>
+<W lemma="Rund|Runde" msd="NC" tag="NN" in="" out="">Runde</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="schmutzig" msd="AN" tag="ADJA" in="" out="">Schmutziger</W>
 <W lemma="Schnee" msd="NC" tag="NN" in="" out="">Schnee</W>
@@ -206,7 +206,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="fröhlich" msd="AN" tag="ADJA" in="" out="">fröhliche</W>
 <W lemma="Mensch" msd="NC" tag="NN" in="" out="">Menschen</W>
-<W lemma="&amp;" msd="CC" tag="KON" in="" out="">&</W>
+<W lemma="&amp;" msd="CC" tag="KON" in="" out="">&amp;</W>
 <W lemma="..." msd="XP" tag="$(" in="" out="">...</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="viel" msd="RG" tag="ADV" in="" out="">viel</W>
@@ -218,3 +218,4 @@
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
 </s>
 </p>
+</root>

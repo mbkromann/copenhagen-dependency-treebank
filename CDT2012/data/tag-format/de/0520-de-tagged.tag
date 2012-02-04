@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Stiefel" msd="NC" tag="NN" in="" out="">Stiefel</W>
@@ -10,7 +10,7 @@
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">ich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">vielen</W>
-<W lemma="Schicht&7c;Schichten" msd="NC" tag="NN" in="" out="">Schichten</W>
+<W lemma="Schicht|Schichten" msd="NC" tag="NN" in="" out="">Schichten</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Skizeug</W>
 <W lemma="ab" msd="RG" tag="PTKVZ" in="" out="">ab</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -37,14 +37,14 @@
 <W lemma="wohlig" msd="AN" tag="ADJA" in="" out="">wohlige</W>
 <W lemma="Müdigkeit" msd="NC" tag="NN" in="" out="">Müdigkeit</W>
 <W lemma="machen" msd="VA" tag="VVFIN" in="" out="">macht</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="bemerkbar" msd="AN" tag="ADJD" in="" out="">bemerkbar</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">als</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">ich</W>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
-<W lemma="Esse&7c;Essen" msd="NC" tag="NN" in="" out="">Essen</W>
+<W lemma="Esse|Essen" msd="NC" tag="NN" in="" out="">Essen</W>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="Kamin" msd="NC" tag="NN" in="" out="">Kamin</W>
@@ -104,7 +104,7 @@
 <W lemma="klein" msd="AN" tag="ADJA" in="" out="">kleinen</W>
 <W lemma="Tisch" msd="NC" tag="NN" in="" out="">Tische</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
-<W lemma="Namensschild&7c;Namensschildern" msd="NC" tag="NN" in="" out="">Namensschildern</W>
+<W lemma="Namensschild|Namensschildern" msd="NC" tag="NN" in="" out="">Namensschildern</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="" out="">kleinen</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">verkorkten</W>
@@ -115,9 +115,9 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="alle" msd="PP" tag="PIS" in="" out="">Alle</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="" out="">zum</W>
-<W lemma="Esse&7c;Essen" msd="NC" tag="NN" in="" out="">Essen</W>
+<W lemma="Esse|Essen" msd="NC" tag="NN" in="" out="">Essen</W>
 <W lemma="umziehen" msd="VAP" tag="VVPP" in="" out="">umgezogen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
@@ -178,7 +178,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="legendär" msd="AN" tag="ADJA" in="" out="">legendären</W>
 <W lemma="rot" msd="AN" tag="ADJA" in="" out="">roten</W>
-<W lemma="Back&7c;Backe&7c;Backen" msd="NC" tag="NN" in="" out="">Backen</W>
+<W lemma="Back|Backe|Backen" msd="NC" tag="NN" in="" out="">Backen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELAT" in="" out="">deren</W>
 <W lemma="Anblick" msd="NC" tag="NN" in="" out="">Anblick</W>
@@ -203,7 +203,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Müsli" msd="NC" tag="NN" in="" out="">Müsli</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="Backpflaume&7c;Backpflaumen" msd="NC" tag="NN" in="" out="">Backpflaumen</W>
+<W lemma="Backpflaume|Backpflaumen" msd="NC" tag="NN" in="" out="">Backpflaumen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Rosine" msd="NC" tag="NN" in="" out="">Rosinen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -233,3 +233,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

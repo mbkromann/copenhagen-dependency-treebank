@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">Las</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="" out="">grandes</W>
@@ -266,3 +266,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

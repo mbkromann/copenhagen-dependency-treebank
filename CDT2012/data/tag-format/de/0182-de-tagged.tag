@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Dom" msd="NC" tag="NN" in="" out="">Dom</W>
@@ -49,7 +49,7 @@
 <W lemma="Konzertsäle" msd="NC" tag="NN" in="" out="">Konzertsälen</W>
 <W lemma="ziehen" msd="VA" tag="VVFIN" in="" out="">zog</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="zeihen&7c;ziehen" msd="VA" tag="VVFIN" in="" out="">zieht</W>
+<W lemma="zeihen|ziehen" msd="VA" tag="VVFIN" in="" out="">zieht</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">dieses</W>
 <W lemma="Mal" msd="NC" tag="NN" in="" out="">Mal</W>
@@ -175,7 +175,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Roskilde</W>
 <W lemma="unterscheiden" msd="VA" tag="VVFIN" in="" out="">unterscheidet</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="dadurch" msd="RG" tag="PAV" in="" out="">dadurch</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
@@ -206,3 +206,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

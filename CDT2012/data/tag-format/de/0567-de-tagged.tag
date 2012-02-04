@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="dann" msd="RG" tag="ADV" in="" out="">Dann</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">muss</W>
@@ -33,7 +33,7 @@
 <p>
 <s>
 <W lemma="Foto" msd="NC" tag="NN" in="" out="">Foto</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">WINNIFRED</W>
 </s>
 </p>
@@ -53,7 +53,7 @@
 <W lemma="Termin" msd="NC" tag="NN" in="" out="">Termin</W>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">durch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Lappe&7c;Lappen" msd="NC" tag="NN" in="" out="">Lappen</W>
+<W lemma="Lappe|Lappen" msd="NC" tag="NN" in="" out="">Lappen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -133,7 +133,7 @@
 <W lemma="Melchior" msd="NP" tag="NE" in="" out="">Melchior</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
-<W lemma="Esse&7c;Essen" msd="NC" tag="NN" in="" out="">Essen</W>
+<W lemma="Esse|Essen" msd="NC" tag="NN" in="" out="">Essen</W>
 <W lemma="vollkommen" msd="AN" tag="ADJD" in="" out="">vollkommen</W>
 <W lemma="vergessen" msd="VAP" tag="VVPP" in="" out="">vergessen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -216,10 +216,10 @@
 <W lemma="d" msd="PP" tag="PDS" in="" out="">das</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="kommen" msd="VA" tag="VVFIN" in="" out="">kommen</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="heute" msd="RG" tag="ADV" in="" out="">heute</W>
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">müssen</W>
 <W lemma="ich" msd="PR" tag="PRF" in="" out="">mich</W>
 <W lemma="entschuldigen" msd="VAF" tag="VVINF" in="" out="">entschuldigen</W>
@@ -239,3 +239,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">Son</W>
 <W lemma="información" msd="NC" tag="NC" in="" out="">informaciones</W>
@@ -246,3 +246,4 @@
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">).</W>
 </s>
 </p>
+</root>

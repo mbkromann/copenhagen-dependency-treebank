@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="damit" msd="RG" tag="PAV" in="" out="">Damit</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gab</W>
@@ -42,7 +42,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">Aus</W>
 <W lemma="innenpolitisch" msd="AN" tag="ADJA" in="" out="">innenpolitischen</W>
-<W lemma="Grund&7c;Gründen" msd="NC" tag="NN" in="" out="">Gründen</W>
+<W lemma="Grund|Gründen" msd="NC" tag="NN" in="" out="">Gründen</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="Waigel" msd="NP" tag="NE" in="" out="">Waigel</W>
 <W lemma="mehrfach" msd="AN" tag="ADJD" in="" out="">mehrfach</W>
@@ -75,7 +75,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="D-Mark" msd="NC" tag="NN" in="" out="">D-Mark</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">soll</W>
@@ -151,7 +151,7 @@
 <W lemma="Frage" msd="NC" tag="NN" in="" out="">Fragen</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gibt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="nach" msd="RG" tag="ADV" in="" out="">nach</W>
@@ -197,9 +197,10 @@
 <W lemma="aussehen" msd="VAF" tag="VVINF" in="" out="">aussehen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="meinen" msd="VA" tag="VVFIN" in="" out="">meinte</W>
 <W lemma="Lambsdorff" msd="NP" tag="NE" in="" out="">Lambsdorff</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

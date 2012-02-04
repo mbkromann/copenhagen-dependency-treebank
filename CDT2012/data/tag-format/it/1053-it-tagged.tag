@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="potere" msd="VADR" tag="VER:pres" in="" out="">Possiamo</W>
@@ -234,3 +234,4 @@
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 </s>
 </p>
+</root>

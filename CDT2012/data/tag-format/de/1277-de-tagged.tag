@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="Knie" msd="NP" tag="NE" in="" out="">Knie</W>
@@ -138,7 +138,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Königin" msd="NC" tag="NN" in="" out="">Königin</W>
 <W lemma="interessieren" msd="VA" tag="VVFIN" in="" out="">interessiert</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="sehr" msd="RG" tag="ADV" in="" out="">sehr</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">das</W>
@@ -195,7 +195,8 @@
 <W lemma="oder" msd="CC" tag="KON" in="" out="">oder</W>
 <W lemma="mindern" msd="VAM" tag="VVIMP" in="" out="">minder</W>
 <W lemma="offiziell" msd="AN" tag="ADJA" in="" out="">offizieller</W>
-<W lemma="Reise&7c;Reisen" msd="NC" tag="NN" in="" out="">Reisen</W>
+<W lemma="Reise|Reisen" msd="NC" tag="NN" in="" out="">Reisen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

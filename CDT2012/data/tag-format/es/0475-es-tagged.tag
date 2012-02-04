@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ya" msd="RG" tag="ADV" in="" out="">Ya</W>
 <W lemma="casi" msd="RG" tag="ADV" in="" out="">casi</W>
@@ -222,3 +222,4 @@
 <W lemma="zapato" msd="NC" tag="NC" in="" out="">zapatos</W>
 </s>
 </p>
+</root>

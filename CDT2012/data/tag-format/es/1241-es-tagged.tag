@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">Son</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
@@ -33,6 +33,8 @@
 <W lemma="televisión" msd="NC" tag="NC" in="" out="">televisión</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="así~como" msd="CS" tag="CSUBF" in="" out="">así como</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
@@ -68,6 +70,8 @@
 </s>
 <s>
 <W lemma="saber" msd="VAD" tag="VLfin" in="" out="">Sabemos</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
@@ -262,3 +266,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

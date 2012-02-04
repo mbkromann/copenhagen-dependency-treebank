@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="schreiben" msd="VA" tag="VVFIN" in="" out="">schreibe</W>
@@ -58,7 +58,7 @@
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">habe</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">ich</W>
 <W lemma="stark" msd="AN" tag="ADJA" in="" out="">starke</W>
-<W lemma="Schmerz&7c;Schmerzen" msd="NC" tag="NN" in="" out="">Schmerzen</W>
+<W lemma="Schmerz|Schmerzen" msd="NC" tag="NN" in="" out="">Schmerzen</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Hüfte" msd="NC" tag="NN" in="" out="">Hüfte</W>
@@ -118,7 +118,7 @@
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Schmerz&7c;Schmerzen" msd="NC" tag="NN" in="" out="">Schmerzen</W>
+<W lemma="Schmerz|Schmerzen" msd="NC" tag="NN" in="" out="">Schmerzen</W>
 <W lemma="lassen" msd="VA" tag="VVFIN" in="" out="">ließen</W>
 <W lemma="nach" msd="RG" tag="PTKVZ" in="" out="">nach</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -190,3 +190,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

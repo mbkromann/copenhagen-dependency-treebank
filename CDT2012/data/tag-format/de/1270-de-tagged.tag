@@ -1,10 +1,10 @@
-<p>
+<root><p>
 <s>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">Bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Operation" msd="NC" tag="NN" in="" out="">Operation</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
@@ -148,7 +148,7 @@
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Schmerz&7c;Schmerzen" msd="NC" tag="NN" in="" out="">Schmerzen</W>
+<W lemma="Schmerz|Schmerzen" msd="NC" tag="NN" in="" out="">Schmerzen</W>
 <W lemma="befreien" msd="VAP" tag="VVPP" in="" out="">befreit</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -212,3 +212,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

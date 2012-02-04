@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="li" msd="PP" tag="PRO:pers" in="" out="">Li</W>
 <W lemma="raccogliere" msd="VADR" tag="VER:cpre" in="" out="">raccogliamo</W>
@@ -254,3 +254,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

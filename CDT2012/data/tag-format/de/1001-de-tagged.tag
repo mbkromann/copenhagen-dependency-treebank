@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">Das</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
@@ -43,7 +43,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Erleichterung" msd="NC" tag="NN" in="" out="">Erleichterung</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
-<W lemma="Last&7c;Lasten" msd="NC" tag="NN" in="" out="">Lasten</W>
+<W lemma="Last|Lasten" msd="NC" tag="NN" in="" out="">Lasten</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="USA" msd="NP" tag="NE" in="" out="">USA</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
@@ -68,7 +68,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="Amerika" msd="NP" tag="NE" in="" out="">Amerika</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Streitkraft" msd="NC" tag="NN" in="" out="">Streitkräften</W>
@@ -109,7 +109,7 @@
 <W lemma="Verteidigung" msd="NC" tag="NN" in="" out="">Verteidigung</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
-<W lemma="Festhalt&7c;Festhalten" msd="NC" tag="NN" in="" out="">Festhalten</W>
+<W lemma="Festhalt|Festhalten" msd="NC" tag="NN" in="" out="">Festhalten</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="amerikanisch" msd="AN" tag="ADJA" in="" out="">amerikanischen</W>
@@ -229,3 +229,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

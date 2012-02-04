@@ -1,4 +1,4 @@
-<W lemma="molto" msd="RG" tag="ADV" in="" out="">Molto</W>
+<root><W lemma="molto" msd="RG" tag="ADV" in="" out="">Molto</W>
 <W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>
 <W lemma="preoccupante" msd="AN" tag="ADJ" in="" out="">preoccupante</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="">è</W>
@@ -181,3 +181,4 @@
 <W lemma="etnico" msd="AN" tag="ADJ" in="" out="">etnici</W>
 <W lemma="jugoslavo" msd="AN" tag="ADJ" in="" out="">jugoslavi</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

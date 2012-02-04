@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="novedad" msd="NC" tag="NC" in="" out="">Novedades</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
@@ -23,6 +23,8 @@
 <W lemma="británico" msd="AN" tag="ADJ" in="" out="">británicas</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="turismo" msd="NC" tag="NC" in="" out="">turismos</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
@@ -95,6 +97,8 @@
 <W lemma="informar" msd="VAF" tag="VLadj" in="" out="">informado</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">sus</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="piloto" msd="NC" tag="NC" in="" out="">pilotos</W>
@@ -135,6 +139,8 @@
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">sus</W>
 <W lemma="piloto" msd="NC" tag="NC" in="" out="">pilotos</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
@@ -170,6 +176,8 @@
 <W lemma="compañía" msd="NC" tag="NC" in="" out="">compañías</W>
 <W lemma="petrolero" msd="AN" tag="ADJ" in="" out="">petroleras</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="si" msd="CS" tag="CSUBX" in="" out="">si</W>
@@ -190,6 +198,8 @@
 <W lemma="kilómetro" msd="NC" tag="NC" in="" out="">kilómetros</W>
 <W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="litro" msd="NC" tag="NC" in="" out="">litro</W>
@@ -257,3 +267,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

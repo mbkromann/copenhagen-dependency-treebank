@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">Dieses</W>
 <W lemma="global" msd="AN" tag="ADJA" in="" out="">globale</W>
@@ -109,45 +109,45 @@
 <W lemma="überschreitend" msd="AN" tag="ADJA" in="" out="">überschreitende</W>
 <W lemma="Comic" msd="NC" tag="NN" in="" out="">Comics</W>
 <W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Langt</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">ud</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">af</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">halsen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Op</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">og</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">stå</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="beliebt" msd="AN" tag="ADJA" in="" out="">beliebten</W>
 <W lemma="Kinderbuch" msd="NC" tag="NN" in="" out="">Kinderbücher</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Verdens</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">grimmeste</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">pige</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Stor</W>
 <W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="" out="">og</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">stærk</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="komisch" msd="AN" tag="ADJA" in="" out="">komische</W>
 <W lemma="Buch" msd="NC" tag="NN" in="" out="">Buch</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Dengang</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">min</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">onkel</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Kulle</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">blev</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">skør</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="schreiben" msd="VAP" tag="VVPP" in="" out="">geschrieben</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="zeichnen" msd="VAP" tag="VVPP" in="" out="">gezeichnet</W>
@@ -190,7 +190,7 @@
 <W lemma="recht" msd="AN" tag="ADJD" in="" out="">recht</W>
 <W lemma="hübsch" msd="AN" tag="ADJA" in="" out="">hübschen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Silberhochzeitsviertel</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Christiania</W>
 <W lemma="wohnen" msd="VAP" tag="VVPP" in="" out="">gewohnt</W>
@@ -214,3 +214,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

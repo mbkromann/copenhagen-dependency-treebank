@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="pero" msd="CC" tag="CCAD" in="" out="">Pero</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
@@ -110,6 +110,8 @@
 <W lemma="bueno" msd="AN" tag="ADJ" in="" out="">mejor</W>
 <W lemma="novelar" msd="VAD" tag="VLfin" in="" out="">novela</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Helle</W>
@@ -151,6 +153,8 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="verdadero" msd="AN" tag="ADJ" in="" out="">verdadera</W>
 <W lemma="trama" msd="NC" tag="NC" in="" out="">trama</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
@@ -174,6 +178,8 @@
 <W lemma="-" msd="XP" tag="DASH" in="" out="">-</W>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="">pueden</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="separarse" msd="VA" tag="VCLI" in="" out="">separarse</W>
@@ -212,6 +218,8 @@
 <W lemma="caracterizar" msd="VAD" tag="VLfin" in="" out="">caracteriza</W>
 <W lemma="como" msd="CS" tag="CSUBX" in="" out="">como</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="relatar" msd="VAD" tag="VLfin" in="" out="">relato</W>
@@ -255,3 +263,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

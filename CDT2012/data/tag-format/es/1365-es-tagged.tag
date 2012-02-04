@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="siempre" msd="RG" tag="ADV" in="" out="">Siempre</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">ha</W>
@@ -270,3 +270,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

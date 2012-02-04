@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="fonte" msd="NC" tag="NOM" in="" out="">Fonti</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">dell'</W>
@@ -232,3 +232,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

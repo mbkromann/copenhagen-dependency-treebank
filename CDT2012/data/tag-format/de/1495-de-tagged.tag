@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="krisengeschüttelt" msd="AN" tag="ADJA" in="" out="">krisengeschüttelte</W>
@@ -13,7 +13,7 @@
 <W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Brøndby</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">muss</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="trotzdem" msd="RG" tag="PAV" in="" out="">trotzdem</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="mehr" msd="PI" tag="PIAT" in="" out="">mehr</W>
@@ -34,7 +34,7 @@
 <W lemma="ander" msd="AN" tag="ADJA" in="" out="">anderen</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="" out="">großen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Lego-Steine</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Krisenplan" msd="NC" tag="NN" in="" out="">Krisenplan</W>
 <W lemma="heben" msd="VAF" tag="VVINF" in="" out="">heben</W>
@@ -129,7 +129,7 @@
 <W lemma="blaugelb" msd="AN" tag="ADJA" in="" out="">blaugelben</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Ex-Meisterclub</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
-<W lemma="Gut&7c;Gute" msd="NC" tag="NN" in="" out="">Gute</W>
+<W lemma="Gut|Gute" msd="NC" tag="NN" in="" out="">Gute</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -143,7 +143,7 @@
 <p>
 <s>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
-<W lemma="Klammer&7c;Klammern" msd="NC" tag="NN" in="" out="">Klammern</W>
+<W lemma="Klammer|Klammern" msd="NC" tag="NN" in="" out="">Klammern</W>
 <W lemma="bemerken" msd="VAP" tag="VVPP" in="" out="">bemerkt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="gehören" msd="VA" tag="VVFIN" in="" out="">gehören</W>
@@ -167,10 +167,10 @@
 <W lemma="Mitglied" msd="NC" tag="NN" in="" out="">Mitglied</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">sog.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Exclusive</W>
 <W lemma="Club" msd="NC" tag="NN" in="" out="">Club</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -179,7 +179,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="wirtschaftlich" msd="AN" tag="ADJA" in="" out="">wirtschaftliche</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Engagement</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="beide" msd="PI" tag="PIDAT" in="" out="">beider</W>
 <W lemma="Bank" msd="NC" tag="NN" in="" out="">Banken</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
@@ -214,3 +214,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

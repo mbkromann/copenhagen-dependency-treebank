@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="dos" msd="AC" tag="CARD" in="" out="">Dos</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="" out="">grandes</W>
@@ -248,3 +248,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

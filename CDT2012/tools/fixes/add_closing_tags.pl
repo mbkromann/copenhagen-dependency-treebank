@@ -8,6 +8,14 @@ use File::Slurp;
 my $datadir = '../../data/';
 my $regexp_mask = $ARGV[0] || '.';
 
+my %embeding = (
+    W => 1,
+    s => 2,
+    p => 3,
+    root => 4,
+);
+
+
 foreach my $filename (grep {/$regexp_mask/} glob "$datadir/tag-format/*/*.tag") {
 
     my $content = File::Slurp::read_file( $filename );
@@ -27,31 +35,20 @@ foreach my $filename (grep {/$regexp_mask/} glob "$datadir/tag-format/*/*.tag") 
         my ($slash_before, $tag, $attribs, $slash_after) = ($1,$2,$3,$5);
 #        print "$segment\n  slashbefore:$slash_before  slash_after:$slash_after  tag: $tag\n\n";
 
-        # there should be no recursive elements, so if a structure <xyz><xyz> is found,
-        # a closing tag is inserted between them
-        if (not $slash_before and not $slash_after) {
+        my $stacktop = $stack[-1];
 
-            if (defined $stack[-1] and $tag eq 'p' and $stack[-1] eq 's' ) {
+        if (not $slash_before and not $slash_after) { # new opening tag
 
-                print "seen <p>, but previous <s> not closed, so </s> must be added \n";
-                push @new_segments, "/s>\n";
-                pop @stack;
+            if (defined $embeding{$tag} and defined $stacktop and defined $embeding{$stacktop}) { # fixing unexpected opening tag
 
-                if (defined $stack[-2] and $stack[-2] eq 'p' ) {
-                    print "seen <p>, but previous <p> not closed, so </s> must be added \n";
-                    push @new_segments, "/p>\n";
+                while ( $embeding{$tag} >= $embeding{$stacktop} ) { # the same or higher-level element is opened
                     pop @stack;
+#                    print "Inserting tag $stacktop\n";
+                    pushlog(\@new_segments, "/$stacktop>\n"); # as if I have seen the closing tag
+                    $stacktop = $stack[-1];
+                    $file_changed = 1;
                 }
-                $file_changed = 1;
             }
-
-            elsif (defined $stack[-1] and $stack[-1] eq $tag ) { # other mismatches
-                print "$tag not closed, stack top: $stack[-1] \n";
-                push @new_segments, "/$tag>\n";
-                $file_changed = 1;
-                pop @stack;
-            }
-
 
             push @stack, $tag;
         }
@@ -60,13 +57,24 @@ foreach my $filename (grep {/$regexp_mask/} glob "$datadir/tag-format/*/*.tag") 
             if ($stack[-1] eq $tag) {
                 pop @stack;
             }
+
+            # fixing unexpected closing tag
+            elsif ( $embeding{$tag} > $embeding{$stacktop} ) { # e.g. seen </root>, but missing closing </s> and </p>
+                while ($embeding{$tag} > $embeding{$stacktop}) {
+                    pushlog(\@new_segments, "/$stacktop>\n"); # as if I have seen the closing tag
+                    pop @stack;
+                    $stacktop = $stack[-1];
+                    $file_changed = 1;
+                }
+            }
+
             else {
                 print "filename: $filename\n";
                 print "expected closing tag: $stack[-1]    got: $tag\n";
             }
         }
 
-        push @new_segments, $segment;
+        pushlog(\@new_segments, $segment);
 
     }
 
@@ -77,4 +85,12 @@ foreach my $filename (grep {/$regexp_mask/} glob "$datadir/tag-format/*/*.tag") 
         close $OUT;
     }
 
+}
+
+my $line;
+sub pushlog {
+    my ($array_ref, $value) = @_;
+    push @$array_ref, $value;
+    $line++;
+#    print "l$line: <$value";
 }

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="diffusione" msd="NC" tag="NOM" in="" out="">Diffusione</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
@@ -285,3 +285,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

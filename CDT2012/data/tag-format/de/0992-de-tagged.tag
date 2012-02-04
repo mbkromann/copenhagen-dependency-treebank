@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Lady" msd="NC" tag="NN" in="" out="">Ladies</W>
 <W lemma="and" msd="XF" tag="FM" in="" out="">and</W>
 <W lemma="Gentleman" msd="NC" tag="NN" in="" out="">Gentlemen</W>
@@ -12,7 +12,7 @@
 <W lemma="the" msd="XF" tag="FM" in="" out="">the</W>
 <W lemma="Stadium" msd="NC" tag="NN" in="" out="">stadium</W>
 <W lemma="!" msd="XP" tag="$." in="" out="">!</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -43,10 +43,10 @@
 <W lemma="richtig" msd="AN" tag="ADJD" in="" out="">richtig</W>
 <W lemma="noch" msd="RG" tag="ADV" in="" out="">noch</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,building</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="anstatt" msd="CS" tag="KOUI" in="" out="">anstatt</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,stadium</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">Aber</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -251,3 +251,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

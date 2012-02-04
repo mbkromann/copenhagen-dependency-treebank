@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Schinken" msd="NC" tag="NN" in="" out="">Schinken</W>
@@ -33,7 +33,7 @@
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="verwenden" msd="VAF" tag="VVINF" in="" out="">verwenden</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="zu" msd="RG" tag="PTKA" in="" out="">zu</W>
 <W lemma="salzig" msd="AN" tag="ADJD" in="" out="">salzig</W>
@@ -190,3 +190,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

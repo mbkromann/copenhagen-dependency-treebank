@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">In</W>
 <W lemma="altro" msd="PI" tag="PRO:indef" in="" out="">altre</W>
@@ -286,3 +286,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

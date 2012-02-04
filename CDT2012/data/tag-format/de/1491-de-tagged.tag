@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">Viele</W>
 <W lemma="Tausend" msd="NC" tag="NN" in="" out="">Tausend</W>
@@ -9,7 +9,7 @@
 <W lemma="Jagd" msd="NC" tag="NN" in="" out="">Jagd</W>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">nach</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Basse</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="einbeziehen" msd="VAP" tag="VVPP" in="" out="">einbezogen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="da" msd="CS" tag="KOUS" in="" out="">da</W>
@@ -80,7 +80,7 @@
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="Aalborg" msd="NC" tag="NN" in="" out="">Aalborg</W>
 <W lemma="melden" msd="VA" tag="VVFIN" in="" out="">meldete</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Polizei" msd="NC" tag="NN" in="" out="">Polizei</W>
@@ -91,7 +91,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="nachdem" msd="CS" tag="KOUS" in="" out="">nachdem</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Basse</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="verschwinden" msd="VAP" tag="VVPP" in="" out="">verschwunden</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -113,11 +113,11 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="Geständnis" msd="NC" tag="NN" in="" out="">Geständnis</W>
 <W lemma="erweisen" msd="VA" tag="VVFIN" in="" out="">erwies</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">nach</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="gründlich" msd="AN" tag="ADJA" in="" out="">gründlichen</W>
-<W lemma="Verhör&7c;Verhören" msd="NC" tag="NN" in="" out="">Verhören</W>
+<W lemma="Verhör|Verhören" msd="NC" tag="NN" in="" out="">Verhören</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Polizei" msd="NC" tag="NN" in="" out="">Polizei</W>
@@ -230,3 +230,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="bescheiden" msd="AN" tag="ADJD" in="" out="">Bescheiden</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -40,7 +40,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="kalt" msd="AN" tag="ADJA" in="" out="">kalten</W>
-<W lemma="Welle&7c;Wellen" msd="NC" tag="NN" in="" out="">Wellen</W>
+<W lemma="Welle|Wellen" msd="NC" tag="NN" in="" out="">Wellen</W>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Skagen</W>
 <W lemma="retten" msd="VA" tag="VVFIN" in="" out="">rettete</W>
@@ -61,9 +61,9 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="Spitzname" msd="NC" tag="NN" in="" out="">Spitznamen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Kesse" msd="NC" tag="NN" in="" out="">Kesse</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="Bord" msd="NC" tag="NN" in="" out="">Bord</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
@@ -96,7 +96,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">,,Mann</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="Bord" msd="NC" tag="NN" in="" out="">Bord</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="rufen" msd="VAP" tag="VVPP" in="" out="">gerufen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurde</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -131,7 +131,7 @@
 <W lemma="dunkel" msd="AN" tag="ADJD" in="" out="">dunkel</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
-<W lemma="Windeseil&7c;Windeseile" msd="NC" tag="NN" in="" out="">Windeseile</W>
+<W lemma="Windeseil|Windeseile" msd="NC" tag="NN" in="" out="">Windeseile</W>
 <W lemma="ziehen" msd="VA" tag="VVFIN" in="" out="">zog</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">ich</W>
 <W lemma="mein" msd="PO" tag="PPOSAT" in="" out="">meine</W>
@@ -196,3 +196,4 @@
 <W lemma="Wasser" msd="NC" tag="NN" in="" out="">WASSER</W>
 </s>
 </p>
+</root>

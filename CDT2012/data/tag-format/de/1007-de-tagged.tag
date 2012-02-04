@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">Im</W>
 <W lemma="kommend" msd="AN" tag="ADJA" in="" out="">kommenden</W>
@@ -99,7 +99,7 @@
 <W lemma="bergen" msd="VA" tag="VVFIN" in="" out="">birgt</W>
 <W lemma="Möglichkeit" msd="NC" tag="NN" in="" out="">Möglichkeiten</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="dies" msd="PP" tag="PDS" in="" out="">Diese</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">sollen</W>
@@ -144,7 +144,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Industrie" msd="NC" tag="NN" in="" out="">Industrie</W>
-<W lemma="bieten&7c;gebieten" msd="VAP" tag="VVPP" in="" out="">geboten</W>
+<W lemma="bieten|gebieten" msd="VAP" tag="VVPP" in="" out="">geboten</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Qualität" msd="NC" tag="NN" in="" out="">Qualität</W>
@@ -210,8 +210,9 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="gleich" msd="AN" tag="ADJA" in="" out="">gleichen</W>
-<W lemma="Mittel&7c;Mitteln" msd="NC" tag="NN" in="" out="">Mitteln</W>
+<W lemma="Mittel|Mitteln" msd="NC" tag="NN" in="" out="">Mitteln</W>
 <W lemma="ausbilden" msd="VAF" tag="VVIZU" in="" out="">auszubilden</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

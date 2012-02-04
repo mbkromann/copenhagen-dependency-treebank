@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihrer</W>
@@ -135,7 +135,7 @@
 <W lemma="ander" msd="PP" tag="PIS" in="" out="">anderen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Einladung" msd="NC" tag="NN" in="" out="">Einladung</W>
@@ -180,7 +180,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,Ein</W>
 <W lemma="Volksmärchen" msd="NC" tag="NN" in="" out="">Volksmärchen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="zusammenarbeiten" msd="VAP" tag="VVPP" in="" out="">zusammengearbeitet</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -206,3 +206,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

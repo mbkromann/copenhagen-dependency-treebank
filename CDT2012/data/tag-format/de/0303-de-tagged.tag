@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="" out="">Dänischer</W>
 <W lemma="Humor" msd="NC" tag="NN" in="" out="">Humor</W>
@@ -59,7 +59,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">muss</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="daran" msd="RG" tag="PAV" in="" out="">daran</W>
 <W lemma="wirklich" msd="AN" tag="ADJD" in="" out="">wirklich</W>
 <W lemma="noch" msd="RG" tag="ADV" in="" out="">noch</W>
@@ -74,7 +74,7 @@
 <W lemma="Beispiel" msd="NC" tag="NN" in="" out="">Beispiel</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="treffen" msd="VA" tag="VVFIN" in="" out="">treffen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="entspannt" msd="AN" tag="ADJD" in="" out="">entspannter</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
@@ -106,7 +106,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Däne" msd="NC" tag="NN" in="" out="">Dänen</W>
 <W lemma="machen" msd="VA" tag="VVFIN" in="" out="">machen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="gerne" msd="RG" tag="ADV" in="" out="">gerne</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -159,7 +159,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Schwede" msd="NC" tag="NN" in="" out="">Schwede</W>
 <W lemma="bereiten" msd="VA" tag="VVFIN" in="" out="">bereitet</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="gründlich" msd="AN" tag="ADJD" in="" out="">gründlich</W>
 <W lemma="vor" msd="RG" tag="PTKVZ" in="" out="">vor</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -175,7 +175,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Däne" msd="NC" tag="NN" in="" out="">Däne</W>
 <W lemma="fragen" msd="VA" tag="VVFIN" in="" out="">fragt</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="">Wollen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
@@ -191,3 +191,4 @@
 <W lemma="!" msd="XP" tag="$." in="" out="">!</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="heutig" msd="AN" tag="ADJA" in="" out="">heutige</W>
@@ -28,7 +28,7 @@
 <W lemma="alt" msd="AN" tag="ADJA" in="" out="">alte</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="bislang" msd="RG" tag="ADV" in="" out="">bislang</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="" out="">zum</W>
 <W lemma="Kommunismus" msd="NC" tag="NN" in="" out="">Kommunismus</W>
@@ -68,7 +68,7 @@
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einem</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
-<W lemma="Bürgerkrieg&7c;Bürgerkriegen" msd="NC" tag="NN" in="" out="">Bürgerkriegen</W>
+<W lemma="Bürgerkrieg|Bürgerkriegen" msd="NC" tag="NN" in="" out="">Bürgerkriegen</W>
 <W lemma="gebeutelt" msd="AN" tag="ADJA" in="" out="">gebeutelten</W>
 <W lemma="Entwicklungsland" msd="NC" tag="NN" in="" out="">Entwicklungsland</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
@@ -224,3 +224,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="si" msd="CS" tag="CSUBX" in="" out="">Si</W>
 <W lemma="todo" msd="AN" tag="QU" in="" out="">todo</W>
@@ -44,6 +44,8 @@
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">han</W>
 <W lemma="ratificar" msd="VAF" tag="VLadj" in="" out="">ratificando</W>
 <W lemma="así" msd="RG" tag="ADV" in="" out="">así</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
@@ -145,6 +147,8 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
+</s>
+</p>
 <p>
 <s>
 <W lemma="ahora" msd="RG" tag="ADV" in="" out="">Ahora</W>
@@ -247,3 +251,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

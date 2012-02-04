@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Archäologin" msd="NC" tag="NN" in="" out="">Archäologin</W>
@@ -63,7 +63,7 @@
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="gut" msd="AN" tag="ADJD" in="" out="">gut</W>
 <W lemma="erhalten" msd="AN" tag="ADJA" in="" out="">erhaltene</W>
-<W lemma="Münze&7c;Münzen" msd="NC" tag="NN" in="" out="">Münzen</W>
+<W lemma="Münze|Münzen" msd="NC" tag="NN" in="" out="">Münzen</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Zeit" msd="NC" tag="NN" in="" out="">Zeit</W>
@@ -145,7 +145,7 @@
 <W lemma="Kreuz" msd="NC" tag="NN" in="" out="">Kreuzes</W>
 <W lemma="ergreifen" msd="VAP" tag="VVPP" in="" out="">ergriffen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="Reihe" msd="NC" tag="NN" in="" out="">Reihe</W>
@@ -195,11 +195,11 @@
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihre</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="" out="">neue</W>
 <W lemma="Ausstellung" msd="NC" tag="NN" in="" out="">Ausstellung</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Familienbild" msd="NC" tag="NN" in="" out="">Familienbilder</W>
 <W lemma="einmal" msd="RG" tag="ADV" in="" out="">einmal</W>
 <W lemma="anders" msd="RG" tag="ADV" in="" out="">anders</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">Zu</W>
 <W lemma="sehen" msd="VAF" tag="VVINF" in="" out="">sehen</W>
@@ -226,3 +226,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

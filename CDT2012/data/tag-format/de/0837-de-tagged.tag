@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="mehrere" msd="PI" tag="PIAT" in="" out="">Mehrere</W>
 <W lemma="Bankangestellte" msd="NC" tag="NN" in="" out="">Bankangestellte</W>
@@ -20,7 +20,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="teilen" msd="VAF" tag="VVINF" in="" out="">teilen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -49,7 +49,7 @@
 <W lemma="Konsolidierung" msd="NC" tag="NN" in="" out="">Konsolidierung</W>
 <W lemma="zustimmen" msd="VA" tag="VVFIN" in="" out="">zustimmten</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">Aber</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Mittel" msd="NC" tag="NN" in="" out="">Mittel</W>
@@ -66,7 +66,7 @@
 <W lemma="Bank" msd="NC" tag="NN" in="" out="">Bank</W>
 <W lemma="reduzieren" msd="VAF" tag="VVINF" in="" out="">reduzieren</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -123,7 +123,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Bank" msd="NC" tag="NN" in="" out="">Banken</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="Sparkasse&7c;Sparkassen" msd="NC" tag="NN" in="" out="">Sparkassen</W>
+<W lemma="Sparkasse|Sparkassen" msd="NC" tag="NN" in="" out="">Sparkassen</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="wirtschaftlich" msd="AN" tag="ADJA" in="" out="">wirtschaftlichen</W>
 <W lemma="Problem" msd="NC" tag="NN" in="" out="">Problemen</W>
@@ -134,7 +134,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
 <W lemma="wenig" msd="PI" tag="PIAT" in="" out="">weniger</W>
 <W lemma="gesund" msd="AN" tag="ADJA" in="" out="">gesunde</W>
@@ -170,7 +170,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="decken" msd="VAF" tag="VVINF" in="" out="">decken</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="verlautbaren" msd="VA" tag="VVFIN" in="" out="">verlautbarte</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
@@ -196,3 +196,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

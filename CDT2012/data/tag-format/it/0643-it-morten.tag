@@ -1,4 +1,4 @@
-<W lemma="una" msd="PI" tag="DET:indef" in="" out="">Una</W>
+<root><W lemma="una" msd="PI" tag="DET:indef" in="" out="">Una</W>
 <W lemma="doppio" msd="AN" tag="ADJ" in="" out="">doppia</W>
 <W lemma="vita" msd="NC" tag="NOM" in="" out="">vita</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
@@ -174,3 +174,4 @@
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
 <W lemma="caso" msd="NC" tag="NOM" in="" out="">caso</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

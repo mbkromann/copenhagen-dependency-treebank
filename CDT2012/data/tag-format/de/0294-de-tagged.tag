@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">Auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -80,12 +80,12 @@
 <W lemma="werden" msd="VAP" tag="VAPP" in="" out="">worden</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="jetzt" msd="RG" tag="ADV" in="" out="">jetzt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">nach</W>
 <W lemma="15" msd="AC" tag="CARD" in="" out="">15</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
 <W lemma="zermürbender" msd="AN" tag="ADJA" in="" out="">zermürbender</W>
 <W lemma="Abstimmung" msd="NC" tag="NN" in="" out="">Abstimmung</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
@@ -95,7 +95,7 @@
 <W lemma="mehrere" msd="PI" tag="PIAT" in="" out="">Mehreren</W>
 <W lemma="stehen" msd="VA" tag="VVFIN" in="" out="">standen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Träne&7c;Tränen" msd="NC" tag="NN" in="" out="">Tränen</W>
+<W lemma="Träne|Tränen" msd="NC" tag="NN" in="" out="">Tränen</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Auge" msd="NC" tag="NN" in="" out="">Augen</W>
@@ -109,7 +109,7 @@
 <W lemma="vorder" msd="AN" tag="ADJA" in="" out="">vorderen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="beide" msd="PI" tag="PIDAT" in="" out="">beiden</W>
-<W lemma="Reihe&7c;Reihen" msd="NC" tag="NN" in="" out="">Reihen</W>
+<W lemma="Reihe|Reihen" msd="NC" tag="NN" in="" out="">Reihen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Jury-Mitglied" msd="NC" tag="NN" in="" out="">Jury-Mitglieder</W>
 <W lemma="drücken" msd="VA" tag="VVFIN" in="" out="">drückten</W>
@@ -133,7 +133,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">Nicht</W>
 <W lemma="schuldig" msd="AN" tag="ADJD" in="" out="">schuldig</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -151,7 +151,7 @@
 <W lemma="Brian" msd="NP" tag="NE" in="" out="">Brian</W>
 <W lemma="Rasmussen" msd="NP" tag="NE" in="" out="">Rasmussen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
 <W lemma="feierlich" msd="AN" tag="ADJD" in="" out="">feierlich</W>
@@ -170,25 +170,25 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Anklagepunktes</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="" out="">zwei</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">NICHT</W>
 <W lemma="schuldigen" msd="VAM" tag="VVIMP" in="" out="">schuldig</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="Punkt" msd="NC" tag="NN" in="" out="">Punkt</W>
 <W lemma="drei" msd="AC" tag="CARD" in="" out="">drei</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">NICHT</W>
 <W lemma="schuldigen" msd="VAM" tag="VVIMP" in="" out="">schuldig</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="Punkt" msd="NC" tag="NN" in="" out="">Punkt</W>
 <W lemma="vier" msd="AC" tag="CARD" in="" out="">vier</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">NICHT</W>
 <W lemma="schuldigen" msd="VAM" tag="VVIMP" in="" out="">schuldig</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -201,7 +201,7 @@
 <W lemma="Erik" msd="NP" tag="NE" in="" out="">Erik</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Mortensen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="führen" msd="VA" tag="VVFIN" in="" out="">führte</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
 <W lemma="fort" msd="RG" tag="PTKVZ" in="" out="">fort</W>
@@ -214,16 +214,17 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Bent" msd="NP" tag="NE" in="" out="">Bent</W>
 <W lemma="Nissen" msd="NP" tag="NE" in="" out="">Nissen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">NICHT</W>
 <W lemma="schuldigen" msd="VAM" tag="VVIMP" in="" out="">schuldig</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Martin" msd="NP" tag="NE" in="" out="">Martin</W>
 <W lemma="Sten" msd="NP" tag="NE" in="" out="">Sten</W>
 <W lemma="Rasmussen" msd="NP" tag="NE" in="" out="">Rasmussen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">NICHT</W>
 <W lemma="schuldigen" msd="VAM" tag="VVIMP" in="" out="">schuldig</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

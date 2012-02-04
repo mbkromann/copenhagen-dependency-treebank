@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">Bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
@@ -110,10 +110,10 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELAT" in="" out="">deren</W>
 <W lemma="Symptom" msd="NC" tag="NN" in="" out="">Symptome</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="erst" msd="AN" tag="ADJD" in="" out="">erst</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">viele</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
 <W lemma="spät" msd="AN" tag="ADJD" in="" out="">später</W>
 <W lemma="zeigen" msd="VA" tag="VVFIN" in="" out="">zeigen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -124,7 +124,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Alle</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="nahe" msd="RG" tag="PTKVZ" in="" out="">nahe</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
@@ -145,7 +145,7 @@
 <W lemma="innerhalb" msd="SP" tag="APPR" in="" out="">innerhalb</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="24" msd="AC" tag="CARD" in="" out="">24</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
 <W lemma="Wasser" msd="NC" tag="NN" in="" out="">Wasser</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -163,7 +163,7 @@
 <W lemma="lebensbedrohlich" msd="AN" tag="ADJD" in="" out="">lebensbedrohlich</W>
 <W lemma="sein" msd="VAF" tag="VAINF" in="" out="">sein</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="" out="">A.</W>
 <W lemma="B." msd="NP" tag="NE" in="" out="">B.</W>
@@ -210,10 +210,11 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Radioavis</W>
 <W lemma="auffordern" msd="VAP" tag="VVPP" in="" out="">aufgefordert</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="fern" msd="AN" tag="ADJD" in="" out="">fern</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="halten" msd="VAF" tag="VVINF" in="" out="">halten</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">En</W>
 <W lemma="casi" msd="RG" tag="ADV" in="" out="">casi</W>
@@ -276,3 +276,4 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Psicología</W>
 </s>
 </p>
+</root>

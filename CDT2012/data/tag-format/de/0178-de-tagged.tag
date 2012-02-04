@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="kritisch" msd="AN" tag="ADJA" in="" out="">kritische</W>
@@ -210,7 +210,7 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="äußern" msd="VA" tag="VVFIN" in="" out="">äußert</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="unsicher" msd="AN" tag="ADJD" in="" out="">unsicher</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
@@ -238,3 +238,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

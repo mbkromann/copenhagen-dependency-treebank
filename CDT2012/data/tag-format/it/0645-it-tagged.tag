@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="un'" msd="PI" tag="DET:indef" in="" out="">Un'</W>
 <W lemma="auto" msd="NC" tag="NOM" in="" out="">auto</W>
@@ -234,3 +234,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

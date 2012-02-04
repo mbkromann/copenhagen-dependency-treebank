@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">El</W>
 <W lemma="cuello" msd="NC" tag="NC" in="" out="">cuello</W>
@@ -22,6 +22,8 @@
 <W lemma="mover" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">mover</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="cabeza" msd="NC" tag="NC" in="" out="">cabeza</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
@@ -71,6 +73,8 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="desarrollo" msd="NC" tag="NC" in="" out="">desarrollo</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
@@ -102,6 +106,8 @@
 </s>
 <s>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">No</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
@@ -237,6 +243,8 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
+</s>
+</p>
 <p>
 <s>
 <W lemma="ah" msd="NP" tag="NP" in="" out="">Ah</W>
@@ -248,3 +256,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

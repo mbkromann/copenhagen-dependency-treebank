@@ -1,4 +1,4 @@
-﻿	S	﻿
+<root>﻿	S	﻿
 <W msd="S" romanized="Putevoditel'" lemma="путеводитель">Путеводитель</W>
 <W msd="SENT" romanized="." lemma=".">.</W>
 <W msd="PUNCT" romanized="–" lemma="–">–</W>
@@ -195,3 +195,4 @@
 <W msd="NUM" romanized="5000" lemma="@card@">5000</W>
 <W msd="S" romanized="casov" lemma="часы">часов</W>
 <W msd="SENT" romanized="." lemma=".">.</W>
+</root>

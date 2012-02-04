@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="tutto" msd="AN" tag="ADJ" in="" out="">Tutta</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">la</W>
@@ -226,3 +226,4 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 </s>
 </p>
+</root>

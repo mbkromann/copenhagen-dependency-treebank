@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">RALLYE-STRECKE</W>
 </s>
@@ -123,10 +123,10 @@
 <W lemma="Landrover" msd="NC" tag="NN" in="" out="">Landrover</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="schnappen" msd="VA" tag="VVFIN" in="" out="">schnappte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="Funktelefon" msd="NC" tag="NN" in="" out="">Funktelefon</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -145,7 +145,7 @@
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">nach</W>
 <W lemma="links" msd="RG" tag="ADV" in="" out="">links</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
@@ -182,7 +182,7 @@
 <W lemma="etwas" msd="RG" tag="ADV" in="" out="">etwas</W>
 <W lemma="weit" msd="AN" tag="ADJD" in="" out="">weiter</W>
 <W lemma="weg" msd="RG" tag="PTKVZ" in="" out="">weg</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -198,7 +198,7 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="gut" msd="AN" tag="ADJD" in="" out="">besser</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="Bißchen" msd="NC" tag="NN" in="" out="">Bisschen</W>
 <W lemma="weit" msd="AN" tag="ADJD" in="" out="">weiter</W>
@@ -206,6 +206,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="halten" msd="VAF" tag="VVINF" in="" out="">halten</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
+</root>

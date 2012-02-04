@@ -1,4 +1,4 @@
-<W lemma="alcuno" msd="PI" tag="PRO:indef" in="" out="">Alcuni</W>
+<root><W lemma="alcuno" msd="PI" tag="PRO:indef" in="" out="">Alcuni</W>
 <W lemma="aereo" msd="AN" tag="ADJ" in="" out="">aerei</W>
 <W lemma="volare" msd="VADA" tag="VER:impf" in="" out="">volavano</W>
 <W lemma="così" msd="RG" tag="ADV" in="" out="">così</W>
@@ -198,3 +198,4 @@
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="">è</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Maribo</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Frø</W>
@@ -57,7 +57,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">diesen</W>
-<W lemma="Tag&7c;Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
+<W lemma="Tag|Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
 <W lemma="erhalten" msd="VA" tag="VVFIN" in="" out="">erhält</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Maribo</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Frø</W>
@@ -79,7 +79,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">Aber</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
@@ -103,7 +103,7 @@
 <W lemma="Zustimmung" msd="NC" tag="NN" in="" out="">Zustimmung</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gibt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Direktor" msd="NC" tag="NN" in="" out="">Direktor</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">lic.</W>
@@ -210,7 +210,7 @@
 <W lemma="da" msd="CS" tag="KOUS" in="" out="">da</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
 <W lemma="einige" msd="PI" tag="PIAT" in="" out="">einige</W>
-<W lemma="Stadion&7c;Stadium" msd="NC" tag="NN" in="" out="">Stadien</W>
+<W lemma="Stadion|Stadium" msd="NC" tag="NN" in="" out="">Stadien</W>
 <W lemma="überspringen" msd="VAF" tag="VVINF" in="" out="">überspringen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -228,3 +228,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

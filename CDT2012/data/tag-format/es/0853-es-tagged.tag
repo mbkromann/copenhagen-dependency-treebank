@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Paul" msd="NP" tag="NP" in="" out="">Paul</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Berg</W>
@@ -145,7 +145,7 @@
 <W lemma="finalmente" msd="RG" tag="ADV" in="" out="">finalmente</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Bing</W>
-<W lemma="&" msd="XS" tag="SYM" in="" out="">&</W>
+<W lemma="&amp;" msd="XS" tag="SYM" in="" out="">&amp;</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Grøndahl</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Inc.</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -228,3 +228,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

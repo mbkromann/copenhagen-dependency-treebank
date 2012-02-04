@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">Aber</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
@@ -33,7 +33,7 @@
 <W lemma="darauf" msd="RG" tag="PAV" in="" out="">darauf</W>
 <W lemma="achten" msd="VAF" tag="VVINF" in="" out="">achten</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="verletzen" msd="VAF" tag="VVINF" in="" out="">verletzen</W>
@@ -42,7 +42,7 @@
 <W lemma="Körper" msd="NC" tag="NN" in="" out="">Körper</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="rot" msd="AN" tag="ADJA" in="" out="">rote</W>
-<W lemma="Spur&7c;Spuren" msd="NC" tag="NN" in="" out="">Spuren</W>
+<W lemma="Spur|Spuren" msd="NC" tag="NN" in="" out="">Spuren</W>
 <W lemma="hin" msd="SP" tag="APZR" in="" out="">hin</W>
 <W lemma="untersuchen" msd="VA" tag="VVFIN" in="" out="">untersuchen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -55,7 +55,7 @@
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="weil" msd="CS" tag="KOUS" in="" out="">Weil</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="nichts" msd="PP" tag="PIS" in="" out="">nichts</W>
 <W lemma="spüren" msd="VAF" tag="VVINF" in="" out="">spüren</W>
 <W lemma="können" msd="VAF" tag="VMINF" in="" out="">können</W>
@@ -64,7 +64,7 @@
 <W lemma="weil" msd="CS" tag="KOUS" in="" out="">weil</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="Wunde" msd="NC" tag="NN" in="" out="">Wunde</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="mehr" msd="RG" tag="ADV" in="" out="">mehr</W>
 <W lemma="behindern" msd="VAP" tag="VVPP" in="" out="">behindert</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -84,12 +84,12 @@
 <W lemma="Entlastung" msd="NC" tag="NN" in="" out="">Entlastung</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Sitzwunden</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">müssen</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="lange" msd="RG" tag="ADV" in="" out="">lange</W>
 <W lemma="liegen" msd="VAF" tag="VVINF" in="" out="">liegen</W>
@@ -116,7 +116,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Vielleicht" msd="NP" tag="NE" in="" out="">Vielleicht</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
-<W lemma="Ihr&7c;ihr" msd="PO" tag="PPOSAT" in="" out="">Ihr</W>
+<W lemma="Ihr|ihr" msd="PO" tag="PPOSAT" in="" out="">Ihr</W>
 <W lemma="Penis" msd="NC" tag="NN" in="" out="">Penis</W>
 <W lemma="steif" msd="RG" tag="PTKVZ" in="" out="">steif</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -204,9 +204,10 @@
 <W lemma="wenig" msd="PP" tag="PIS" in="" out="">wenigen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="" out="">kleinen</W>
-<W lemma="Lichtblick&7c;Lichtblicken" msd="NC" tag="NN" in="" out="">Lichtblicken</W>
+<W lemma="Lichtblick|Lichtblicken" msd="NC" tag="NN" in="" out="">Lichtblicken</W>
 <W lemma="verstehen" msd="VAF" tag="VVINF" in="" out="">verstehen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

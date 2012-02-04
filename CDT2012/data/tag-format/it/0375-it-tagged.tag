@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="H." msd="XS" tag="LS" in="" out="">H</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
@@ -262,3 +262,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

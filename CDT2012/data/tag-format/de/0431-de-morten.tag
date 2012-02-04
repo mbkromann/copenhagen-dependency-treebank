@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:namel" out="">Rench</W>
 <W lemma="Nielsen" msd="NP" tag="NE" in="4:subj" out="-1:namel|1:pnct|2:attr|2:{source}">Nielsen</W>
@@ -127,6 +127,8 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="7:dobj" out="1:nobj|9:coref-var">den</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Jahreskünstlerschmuck</W>
 <W lemma="für" msd="SP" tag="APPR" in="5:goal" out="3:nobj">für</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" note="skal deles" tag="NE" in="-3:nobj" out="1:pnct">,Smykkekæden</W>
@@ -147,6 +149,8 @@
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="1:pnct">Jubiläumsbriefmarke</W>
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="seit" msd="SP" tag="APPR" in="3:time" out="1:nobj">Seit</W>
@@ -204,8 +208,10 @@
 <p>
 <s>
 <W lemma="neu" msd="AN" tag="ADJA" in="1:attr" out="">Neue</W>
-<W lemma="Gesell&7c;Geselle&7c;Gesellen" msd="NC" tag="NN" in="" out="-1:attr|1:pnct">Gesellen</W>
+<W lemma="Gesell|Geselle|Gesellen" msd="NC" tag="NN" in="" out="-1:attr|1:pnct">Gesellen</W>
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="im" msd="SP+P" tag="APPRART" in="2:time" out="1:nobj">Im</W>
@@ -243,3 +249,4 @@
 <W lemma="." msd="XP" tag="$." in="-12:pnct" out="">.</W>
 </s>
 </p>
+</root>

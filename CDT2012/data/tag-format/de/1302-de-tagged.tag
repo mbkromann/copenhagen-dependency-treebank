@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">,,Wir</W>
 <W lemma="sehen" msd="VA" tag="VVFIN" in="" out="">sehen</W>
@@ -7,7 +7,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Hölle" msd="NC" tag="NN" in="" out="">Hölle</W>
 <W lemma="!" msd="XP" tag="$." in="" out="">!</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="antworten" msd="VA" tag="VVFIN" in="" out="">antwortete</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihr</W>
@@ -120,7 +120,7 @@
 <W lemma="sterben" msd="VA" tag="VVFIN" in="" out="">sterben</W>
 <W lemma="drei" msd="AC" tag="CARD" in="" out="">drei</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -148,7 +148,7 @@
 <W lemma="Angst" msd="NC" tag="NN" in="" out="">Angst</W>
 <W lemma="machen" msd="VAF" tag="VVINF" in="" out="">machen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="erklären" msd="VA" tag="VVFIN" in="" out="">erklärte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="19jährig" msd="AN" tag="ADJA" in="" out="">19jährige</W>
@@ -200,7 +200,7 @@
 <W lemma="umbringen" msd="VAP" tag="VVPP" in="" out="">umgebracht</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="meinen" msd="VA" tag="VVFIN" in="" out="">meint</W>
 <W lemma="Kriminalinspektor" msd="NC" tag="NN" in="" out="">Kriminalinspektor</W>
 <W lemma="Chr." msd="NP" tag="NE" in="" out="">Chr.</W>
@@ -208,3 +208,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

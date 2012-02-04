@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="6:subj" out="1:attr|2:attr|3:loc">Das</W>
 <W lemma="ausschlaggebend" msd="AN" tag="ADJD" in="-1:attr" out="">ausschlaggebend</W>
@@ -39,7 +39,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:possr" out="1:attr|2:nobj">der</W>
 <W lemma="erblich" msd="AN" tag="ADJA" in="-1:attr" out="">erblichen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="1:pnct|2:possr">,,Wachstumseigenschaften</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:possr" out="1:nobj|18:coref-iden">der</W>
 <W lemma="Ratte" msd="NC" tag="NN" in="-1:nobj" out="">Ratte</W>
 <W lemma="auf" msd="SP" tag="APPR" in="3:dir" out="1:nobj">auf</W>
@@ -76,7 +76,7 @@
 <W lemma="Produkt" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Produkte</W>
 <W lemma="verwandeln" msd="VAP" tag="VVPP" in="-5:vobj" out="-4:[subj]|-3:pobj">verwandelt</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
-<W lemma="Sojabohne&7c;Sojabohnen" msd="NC" tag="NN" in="1:subj" out="">Sojabohnen</W>
+<W lemma="Sojabohne|Sojabohnen" msd="NC" tag="NN" in="1:subj" out="">Sojabohnen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:subj|1:pobj|3:pnct">werden</W>
 <W lemma="zu" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">zu</W>
 <W lemma="Salatöl" msd="NC" tag="NN" in="-1:nobj" out="">Salatöl</W>
@@ -179,3 +179,4 @@
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 </s>
 </p>
+</root>

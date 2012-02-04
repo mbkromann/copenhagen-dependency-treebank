@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="(" msd="XP" tag="LP" in="" out="">(</W>
 <W lemma="2a" msd="XS" tag="CODE" in="" out="">2a</W>
@@ -215,3 +215,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

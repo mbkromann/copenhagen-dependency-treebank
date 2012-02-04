@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">El</W>
 <W lemma="deportar" msd="VAD" tag="VLfin" in="" out="">deporte</W>
@@ -259,3 +259,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

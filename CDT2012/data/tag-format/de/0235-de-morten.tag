@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="wir" msd="PP" tag="PPER" in="1:subj|4:[subj]|8:[subj]" out="">Wir</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|3:conj|8:pnct">sind</W>
@@ -63,7 +63,7 @@
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj" out="">Es</W>
 <W lemma="handeln" msd="VA" tag="VVFIN" in="" out="-1:subj|1:robj|3:eval|4:pobj|7:pnct">handelt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
 <W lemma="ganz" msd="AN" tag="ADJD" in="1:quant" out="">ganz</W>
 <W lemma="eindeutig" msd="AN" tag="ADJD" in="-3:eval" out="-1:quant">eindeutig</W>
 <W lemma="um" msd="SP" tag="APPR" in="-4:pobj" out="1:nobj">um</W>
@@ -90,7 +90,7 @@
 <W lemma="ich" msd="PR" tag="PRF" in="-1:dobj" out="">mich</W>
 <W lemma="daran" msd="RG" tag="PAV" in="-2:pobj" out="1:pnct|3:nobj">daran</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="gehören&7c;hören" msd="VAP" tag="VVPP" in="2:vobj" out="-5:[subj]|3:pnct|4:dobj">gehört</W>
+<W lemma="gehören|hören" msd="VAP" tag="VVPP" in="2:vobj" out="-5:[subj]|3:pnct|4:dobj">gehört</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-3:nobj" out="1:vobj">zu</W>
 <W lemma="haben" msd="VAF" tag="VAINF" in="-1:vobj" out="-2:vobj|-7:[subj]">haben</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
@@ -190,3 +190,4 @@
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 </s>
 </p>
+</root>

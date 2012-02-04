@@ -1,4 +1,4 @@
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">“Nemmeno</W>
+<root><W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">“Nemmeno</W>
 <W lemma="io" msd="PP" tag="PRO:pers" in="" out="">io</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 <W lemma="andare" msd="VADR" tag="VER:pres" in="" out="">Andiamo</W>
@@ -141,3 +141,4 @@
 <W lemma="essere" msd="VA" tag="VER:cond" in="" out="">sarebbe</W>
 <W lemma="andare" msd="VAP" tag="VER:pper" in="" out="">andato</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">bene.”</W>
+</root>

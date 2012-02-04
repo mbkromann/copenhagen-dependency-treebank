@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="c'" msd="PD" tag="PRO:demo" in="" out="">C'</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="">è</W>
@@ -256,3 +256,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

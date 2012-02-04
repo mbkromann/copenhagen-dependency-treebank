@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="" out="">,,Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
@@ -32,7 +32,7 @@
 <W lemma="Gefühl" msd="NC" tag="NN" in="" out="">Gefühlen</W>
 <W lemma="zusammen" msd="RG" tag="PTKVZ" in="" out="">zusammen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -79,7 +79,7 @@
 <W lemma="lesen" msd="VAP" tag="VVPP" in="" out="">gelesen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Victor" msd="NP" tag="NE" in="" out="">Victor</W>
 <W lemma="Borg" msd="NC" tag="NN" in="" out="">Borge</W>
@@ -192,7 +192,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="machen" msd="VAF" tag="VVINF" in="" out="">machen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Victor" msd="NP" tag="NE" in="" out="">Victor</W>
 <W lemma="Borg" msd="NC" tag="NN" in="" out="">Borge</W>
@@ -209,3 +209,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

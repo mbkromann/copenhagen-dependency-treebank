@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="doch" msd="RG" tag="ADV" in="" out="">Doch</W>
@@ -105,7 +105,7 @@
 <W lemma="sehen" msd="VA" tag="VVFIN" in="" out="">siehst</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">mir</W>
 <W lemma="beim" msd="SP+P" tag="APPRART" in="" out="">beim</W>
-<W lemma="Spiel&7c;Spielen" msd="NC" tag="NN" in="" out="">Spielen</W>
+<W lemma="Spiel|Spielen" msd="NC" tag="NN" in="" out="">Spielen</W>
 <W lemma="drinnen" msd="RG" tag="ADV" in="" out="">drinnen</W>
 <W lemma="zu" msd="RG" tag="PTKVZ" in="" out="">zu</W>
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
@@ -144,7 +144,7 @@
 <W lemma="um" msd="CS" tag="KOUI" in="" out="">um</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">mir</W>
 <W lemma="beim" msd="SP+P" tag="APPRART" in="" out="">beim</W>
-<W lemma="Spiel&7c;Spielen" msd="NC" tag="NN" in="" out="">Spielen</W>
+<W lemma="Spiel|Spielen" msd="NC" tag="NN" in="" out="">Spielen</W>
 <W lemma="drinnen" msd="RG" tag="ADV" in="" out="">drinnen</W>
 <W lemma="zusehen" msd="VAF" tag="VVIZU" in="" out="">zuzusehen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -255,3 +255,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

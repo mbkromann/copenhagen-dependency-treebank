@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Den</W>
 <W lemma="Körper" msd="NC" tag="NN" in="" out="">Körper</W>
@@ -12,7 +12,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Hand" msd="NC" tag="NN" in="" out="">Hand</W>
 <W lemma="haken" msd="VA" tag="VVFIN" in="" out="">hakte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Adlerkralle</W>
@@ -146,7 +146,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">der</W>
 <W lemma="du" msd="PP" tag="PPER" in="" out="">dir</W>
 <W lemma="etwas" msd="PI" tag="PIAT" in="" out="">etwas</W>
-<W lemma="Gut&7c;Gute" msd="NC" tag="NN" in="" out="">Gutes</W>
+<W lemma="Gut|Gute" msd="NC" tag="NN" in="" out="">Gutes</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="">will</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">..</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -203,3 +203,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

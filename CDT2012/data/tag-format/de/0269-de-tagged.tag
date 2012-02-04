@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="kein" msd="PP" tag="PIS" in="" out="">Keiner</W>
@@ -11,7 +11,7 @@
 <W lemma="sehen" msd="VAP" tag="VVPP" in="" out="">gesehen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auftun" msd="VA" tag="VVFIN" in="" out="">auftaten</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">als</W>
@@ -51,7 +51,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="provozieren" msd="VAF" tag="VVINF" in="" out="">provozieren</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="fragen" msd="VA" tag="VVFIN" in="" out="">fragten</W>
 <W lemma="ich" msd="PR" tag="PRF" in="" out="">mich</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -163,7 +163,7 @@
 <W lemma="sofort" msd="RG" tag="ADV" in="" out="">sofort</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="" out="">zum</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,refusenik</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="Person" msd="NC" tag="NN" in="" out="">Person</W>
@@ -175,3 +175,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Jeß" msd="NP" tag="NE" in="" out="">JESS</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">INGERSLEV</W>
@@ -74,7 +74,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="viel" msd="RG" tag="ADV" in="" out="">viel</W>
 <W lemma="mehr" msd="RG" tag="ADV" in="" out="">mehr</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="unter" msd="SP" tag="APPR" in="" out="">Unter</W>
 <W lemma="ander" msd="PP" tag="PIS" in="" out="">anderem</W>
 <W lemma="Rock" msd="NC" tag="NN" in="" out="">Rock</W>
@@ -95,7 +95,7 @@
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="wunderbar" msd="AN" tag="ADJA" in="" out="">wunderbaren</W>
 <W lemma="Team" msd="NC" tag="NN" in="" out="">Team</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="Therese" msd="NP" tag="NE" in="" out="">Therese</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Damsholt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -193,3 +193,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

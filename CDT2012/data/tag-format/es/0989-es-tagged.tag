@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="medir" msd="VAD" tag="VLfin" in="" out="">Medimos</W>
@@ -222,3 +222,4 @@
 <W lemma="-" msd="XP" tag="DASH" in="" out="">-</W>
 </s>
 </p>
+</root>

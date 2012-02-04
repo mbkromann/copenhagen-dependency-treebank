@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Houmarks</W>
 <W lemma="schön" msd="AN" tag="ADJA" in="" out="">schöne</W>
@@ -103,7 +103,7 @@
 <W lemma="Bassist" msd="NC" tag="NN" in="" out="">Bassist</W>
 <W lemma="Arild" msd="NP" tag="NE" in="" out="">Arild</W>
 <W lemma="Andersen" msd="NP" tag="NE" in="" out="">Andersen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">nach</W>
 <W lemma="einander" msd="PR" tag="PRF" in="" out="">einander</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
@@ -146,9 +146,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Jazzhouse</W>
 <W lemma="spielen" msd="VA" tag="VVFIN" in="" out="">spielte</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="bedienen" msd="VA" tag="VVFIN" in="" out="">bedient</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="ander" msd="AN" tag="ADJA" in="" out="">anderen</W>
@@ -161,7 +161,7 @@
 <W lemma="Alex" msd="NP" tag="NE" in="" out="">Alex</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Riel</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Trommel&7c;Trommeln" msd="NC" tag="NN" in="" out="">Trommeln</W>
+<W lemma="Trommel|Trommeln" msd="NC" tag="NN" in="" out="">Trommeln</W>
 <W lemma="übernehmen" msd="VA" tag="VVFIN" in="" out="">übernimmt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
@@ -195,3 +195,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

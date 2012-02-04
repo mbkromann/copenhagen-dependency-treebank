@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Mir</W>
 <W lemma="laufen" msd="VA" tag="VVFIN" in="" out="">läuft</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
@@ -18,7 +18,7 @@
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">viele</W>
 <W lemma="Tote" msd="NC" tag="NN" in="" out="">Tote</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="Polizeisprecher" msd="NC" tag="NN" in="" out="">Polizeisprecher</W>
@@ -33,7 +33,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="Unglück" msd="NC" tag="NN" in="" out="">Unglück</W>
 <W lemma="ereignen" msd="VA" tag="VVFIN" in="" out="">ereignete</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="zur" msd="SP+P" tag="APPRART" in="" out="">zur</W>
 <W lemma="Essenszeit" msd="NC" tag="NN" in="" out="">Essenszeit</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -95,7 +95,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">habe</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
@@ -151,12 +151,12 @@
 <W lemma="aber" msd="RG" tag="ADV" in="" out="">aber</W>
 <W lemma="plötzlich" msd="AN" tag="ADJD" in="" out="">plötzlich</W>
 <W lemma="fliegen" msd="VA" tag="VVFIN" in="" out="">flogen</W>
-<W lemma="Funke&7c;Funken" msd="NC" tag="NN" in="" out="">Funken</W>
+<W lemma="Funke|Funken" msd="NC" tag="NN" in="" out="">Funken</W>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">durch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Luft" msd="NC" tag="NN" in="" out="">Luft</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Augenzeuge" msd="NC" tag="NN" in="" out="">Augenzeuge</W>
@@ -181,20 +181,20 @@
 <W lemma="dramatisch" msd="AN" tag="ADJA" in="" out="">dramatische</W>
 <W lemma="Entwicklung" msd="NC" tag="NN" in="" out="">Entwicklung</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
-<W lemma="Schreck&7c;Schrecken" msd="NC" tag="NN" in="" out="">Schrecken</W>
+<W lemma="Schreck|Schrecken" msd="NC" tag="NN" in="" out="">Schrecken</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sehen" msd="VA" tag="VVFIN" in="" out="">sahen</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
 <W lemma="riesig" msd="AN" tag="ADJA" in="" out="">riesigen</W>
 <W lemma="Feuerball" msd="NC" tag="NN" in="" out="">Feuerball</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
 <W lemma="ein" msd="PP" tag="PIS" in="" out="">einer</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -222,3 +222,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

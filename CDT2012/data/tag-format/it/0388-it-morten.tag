@@ -1,4 +1,4 @@
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">“Non</W>
+<root><W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">“Non</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="" out="">tutte</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
@@ -196,3 +196,4 @@
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="amor" msd="NC" tag="NOM" in="" out="">amor</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">tuo.”</W>
+</root>

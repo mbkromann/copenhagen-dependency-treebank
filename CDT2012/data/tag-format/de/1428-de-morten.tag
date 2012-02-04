@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="1:subj|8:vobj|9:pnct|10:time|35:pnct">Kann</W>
 <W lemma="man" msd="PP" tag="PIS" in="-1:subj|6:[subj]|7:[subj]" out="">man</W>
@@ -29,7 +29,7 @@
 <W lemma="Zigarette" msd="NC" tag="NN" in="1:dobj" out="">Zigaretten</W>
 <W lemma="rauchen" msd="VA" tag="VVFIN" in="-11:conj" out="-1:dobj">raucht</W>
 <W lemma="und" msd="CC" tag="KON" in="6:coord" out="">und</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="5:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="5:robj" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:dobj" out="1:nobj">die</W>
 <W lemma="Bekenntnis" msd="NC" tag="NN" in="-1:nobj" out="1:gobj|1:{arg}">Bekenntnisse</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:gobj|-1:{arg}" out="1:nobj">eines</W>
@@ -67,7 +67,7 @@
 <W lemma="Erling" msd="NP" tag="NE" in="1:namef" out="">Erling</W>
 <W lemma="Jensen" msd="NP" tag="NE" in="-4:appr" out="-1:namef">Jensen</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
-<W lemma="Dichte&7c;Dichter" msd="NC" tag="NN" in="-7:conj" out="">Dichter</W>
+<W lemma="Dichte|Dichter" msd="NC" tag="NN" in="-7:conj" out="">Dichter</W>
 <W lemma="," msd="XP" tag="$," in="-8:pnct" out="">,</W>
 <W lemma="Popsänger" msd="NC" tag="NN" in="-9:conj" out="">Popsänger</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
@@ -89,7 +89,7 @@
 <W lemma="oder" msd="CC" tag="KON" in="2:coord" out="">oder</W>
 <W lemma="jungüngst" msd="AN" tag="ADJD" in="1:time" out="">jüngst</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-8:conj" out="-2:coord|-1:time|1:nobj">Sea</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="2:conj">Bee&amp</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="2:conj">Bee&amp;</W>
 <W lemma=";" msd="XP" tag="$." in="1:coord" out="">;</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:conj" out="-1:coord|1:nobj">die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">D-Generation</W>
@@ -168,9 +168,9 @@
 <W lemma="," msd="XP" tag="$," in="-17:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-18:conj" out="1:attr|2:attr|5:nobj|6:pnct|13:relr">der</W>
 <W lemma="68er" msd="NC" tag="NN" in="-1:attr" out="">68er</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:attr" out="1:dobj|2:&lt;neg&3a;1&gt;">,make</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:attr" out="1:dobj|2:&lt;neg:1&gt;">,make</W>
 <W lemma="love" msd="XF" tag="FM" in="-1:dobj" out="">love</W>
-<W lemma="not" msd="RG" tag="PTKVZ" in="-2:&lt;neg&3a;1&gt;" out="">not</W>
+<W lemma="not" msd="RG" tag="PTKVZ" in="-2:&lt;neg:1&gt;" out="">not</W>
 <W lemma="&lt;unknown&gt;" msd="NC" note="skal deles" tag="NN" in="-5:nobj" out="">war'-Sonnenbrille</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="5:dobj" out="">die</W>
@@ -189,3 +189,4 @@
 <W lemma="." msd="XP" tag="$." in="-60:pnct" out="">.</W>
 </s>
 </p>
+</root>

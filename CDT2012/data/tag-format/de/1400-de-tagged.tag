@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="knapp" msd="AN" tag="ADJA" in="" out="">KNAPPE</W>
 <W lemma="Versorgungslage" msd="NC" tag="NN" in="" out="">VERSORGUNGSLAGE</W>
@@ -21,7 +21,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="hier" msd="RG" tag="ADV" in="" out="">hier</W>
 <W lemma="widersetzen" msd="VA" tag="VVFIN" in="" out="">widersetzt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="Griechenland" msd="NP" tag="NE" in="" out="">Griechenland</W>
 <W lemma="ganz" msd="AN" tag="ADJD" in="" out="">ganz</W>
 <W lemma="entscheiden" msd="VAP" tag="VVPP" in="" out="">entschieden</W>
@@ -117,7 +117,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">habe</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">ihn</W>
@@ -159,7 +159,7 @@
 <W lemma="Nahrungsmittel" msd="NC" tag="NN" in="" out="">Nahrungsmittel</W>
 <W lemma="stehen" msd="VA" tag="VVFIN" in="" out="">stehen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="teilen" msd="VA" tag="VVFIN" in="" out="">teilt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="" out="">dänische</W>
@@ -176,14 +176,14 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="unter" msd="SP" tag="APPR" in="" out="">Unter</W>
 <W lemma="ander" msd="PP" tag="PIS" in="" out="">anderem</W>
 <W lemma="bitten" msd="VA" tag="VVFIN" in="" out="">bittet</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="wir" msd="PR" tag="PRF" in="" out="">uns</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="Zwiebel&7c;Zwiebeln" msd="NC" tag="NN" in="" out="">Zwiebeln</W>
+<W lemma="Zwiebel|Zwiebeln" msd="NC" tag="NN" in="" out="">Zwiebeln</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Tomate" msd="NC" tag="NN" in="" out="">Tomaten</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -233,7 +233,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="kommen" msd="VAF" tag="VVINF" in="" out="">kommen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="fügen" msd="VA" tag="VVFIN" in="" out="">fügt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Diplomat" msd="NC" tag="NN" in="" out="">Diplomat</W>
@@ -241,3 +241,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

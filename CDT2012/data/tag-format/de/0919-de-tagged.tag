@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Verkehr" msd="NC" tag="NN" in="" out="">Verkehr</W>
@@ -59,6 +59,8 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="klettern" msd="VAF" tag="VVINF" in="" out="">klettern</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Eine</W>
@@ -159,7 +161,7 @@
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
 <W lemma="Kurze" msd="NC" tag="NN" in="" out="">Kurzem</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
-<W lemma="Flamme&7c;Flammen" msd="NC" tag="NN" in="" out="">Flammen</W>
+<W lemma="Flamme|Flammen" msd="NC" tag="NN" in="" out="">Flammen</W>
 <W lemma="aufgehen" msd="VA" tag="VVFIN" in="" out="">aufging</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="hier" msd="RG" tag="ADV" in="" out="">Hier</W>
@@ -182,7 +184,7 @@
 <W lemma="stehen" msd="VA" tag="VVFIN" in="" out="">steht</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">,,Roligan</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Wackelohren</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -216,7 +218,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="Ende" msd="NC" tag="NN" in="" out="">Ende</W>
 <W lemma="hören" msd="VA" tag="VVFIN" in="" out="">hört</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="fast" msd="RG" tag="ADV" in="" out="">fast</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
 <W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
@@ -224,7 +226,7 @@
 <W lemma="Bach" msd="NC" tag="NN" in="" out="">Bach</W>
 <W lemma="hoch" msd="AN" tag="ADJD" in="" out="">hoch</W>
 <W lemma="segeln" msd="VAF" tag="VVINF" in="" out="">segeln</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">Und</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">das</W>
@@ -239,3 +241,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

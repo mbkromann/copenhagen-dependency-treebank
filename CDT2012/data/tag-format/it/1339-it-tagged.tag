@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">Non</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
@@ -247,3 +247,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

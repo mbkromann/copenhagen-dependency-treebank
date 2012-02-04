@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">Von</W>
 <W lemma="Egon" msd="NP" tag="NE" in="" out="">Egon</W>
@@ -91,7 +91,7 @@
 <W lemma=")" msd="XP" tag="$(" in="" out="">)</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">der</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">viele</W>
 <W lemma="wohlgesinnt" msd="AN" tag="ADJA" in="" out="">wohlgesinnte</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
@@ -168,7 +168,7 @@
 <W lemma="schwer" msd="AN" tag="ADJD" in="" out="">schwer</W>
 <W lemma="fallen" msd="VAF" tag="VVINF" in="" out="">fallen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="Genf" msd="NP" tag="NE" in="" out="">Genf</W>
 <W lemma="innerhalb" msd="SP" tag="APPR" in="" out="">innerhalb</W>
@@ -186,14 +186,14 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
-<W lemma="Weste&7c;Westen" msd="NC" tag="NN" in="" out="">Westen</W>
+<W lemma="Weste|Westen" msd="NC" tag="NN" in="" out="">Westen</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
-<W lemma="Friede&7c;Frieden" msd="NC" tag="NN" in="" out="">Frieden</W>
+<W lemma="Friede|Frieden" msd="NC" tag="NN" in="" out="">Frieden</W>
 <W lemma="wünschen" msd="VA" tag="VVFIN" in="" out="">wünscht</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
-<W lemma="Friede&7c;Frieden" msd="NC" tag="NN" in="" out="">Frieden</W>
+<W lemma="Friede|Frieden" msd="NC" tag="NN" in="" out="">Frieden</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="Freiheit" msd="NC" tag="NN" in="" out="">Freiheit</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -223,3 +223,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

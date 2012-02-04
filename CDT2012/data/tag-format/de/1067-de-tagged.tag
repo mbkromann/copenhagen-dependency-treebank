@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Suzanne" msd="NP" tag="NE" in="" out="">Suzanne</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Swannie</W>
@@ -29,11 +29,11 @@
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihrer</W>
 <W lemma="Mutter" msd="NC" tag="NN" in="" out="">Mutter</W>
-<W lemma="Bitte&7c;Bitten" msd="NC" tag="NN" in="" out="">Bitten</W>
+<W lemma="Bitte|Bitten" msd="NC" tag="NN" in="" out="">Bitten</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Mørch</W>
 <W lemma="bringen" msd="VAP" tag="VVPP" in="" out="">gebracht</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="stammen" msd="VA" tag="VVFIN" in="" out="">stammen</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihrem</W>
@@ -70,8 +70,8 @@
 <W lemma="ihr" msd="PP" tag="PPER" in="" out="">ihr</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,staatliche</W>
-<W lemma="Kunstfond&7c;Kunstfonds" msd="NC" tag="NN" in="" out="">Kunstfonds</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="Kunstfond|Kunstfonds" msd="NC" tag="NN" in="" out="">Kunstfonds</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Provinz" msd="NC" tag="NN" in="" out="">Provinz</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -80,7 +80,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="da" msd="CS" tag="KOUS" in="" out="">da</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihre</W>
-<W lemma="Arbeit&7c;Arbeiten" msd="NC" tag="NN" in="" out="">Arbeiten</W>
+<W lemma="Arbeit|Arbeiten" msd="NC" tag="NN" in="" out="">Arbeiten</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihre</W>
 <W lemma="Erfahrung" msd="NC" tag="NN" in="" out="">Erfahrungen</W>
@@ -188,7 +188,7 @@
 <W lemma="am" msd="SP+P" tag="APPRART" in="" out="">A.</W>
 <W lemma="Skizze" msd="NC" tag="NN" in="" out="">Skizzen</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
-<W lemma="Drache&7c;Drachen" msd="NC" tag="NN" in="" out="">Drachen</W>
+<W lemma="Drache|Drachen" msd="NC" tag="NN" in="" out="">Drachen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="Komponente" msd="NC" tag="NN" in="" out="">Komponente</W>
@@ -202,3 +202,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

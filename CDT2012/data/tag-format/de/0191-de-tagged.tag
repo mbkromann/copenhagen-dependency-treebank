@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">Auch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -59,7 +59,7 @@
 <W lemma="weit" msd="AN" tag="ADJD" in="" out="">weit</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Kræftens</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Bekæmpelse</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="gewinnorientiert" msd="AN" tag="ADJA" in="" out="">gewinnorientiertes</W>
 <W lemma="Gewerbe" msd="NC" tag="NN" in="" out="">Gewerbe</W>
@@ -68,7 +68,7 @@
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="Vermittler" msd="NC" tag="NN" in="" out="">Vermittler</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
-<W lemma="Spende&7c;Spenden" msd="NC" tag="NN" in="" out="">Spenden</W>
+<W lemma="Spende|Spenden" msd="NC" tag="NN" in="" out="">Spenden</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Bevölkerung" msd="NC" tag="NN" in="" out="">Bevölkerung</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
@@ -140,9 +140,9 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="modern" msd="AN" tag="ADJA" in="" out="">modernen</W>
 <W lemma="Marketingmethode" msd="NC" tag="NN" in="" out="">Marketingmethoden</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="motivieren" msd="VAP" tag="VVPP" in="" out="">motiviert</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="werden" msd="VAF" tag="VAINF" in="" out="">werden</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">sollen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -167,7 +167,7 @@
 <W lemma="rein" msd="AN" tag="ADJD" in="" out="">rein</W>
 <W lemma="geschäftlich" msd="AN" tag="ADJA" in="" out="">geschäftlicher</W>
 <W lemma="Sicht" msd="NC" tag="NN" in="" out="">Sicht</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="gut" msd="AN" tag="ADJD" in="" out="">gut</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="gerne" msd="RG" tag="ADV" in="" out="">gerne</W>
@@ -176,16 +176,16 @@
 <W lemma="1/3" msd="AC" tag="CARD" in="" out="">1/3</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Verkaufs</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="belaufen" msd="VAF" tag="VVINF" in="" out="">belaufen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
 <W lemma=";" msd="XP" tag="$." in="" out="">;</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Vorschuss</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Spende&7c;Spenden" msd="NC" tag="NN" in="" out="">Spenden</W>
+<W lemma="Spende|Spenden" msd="NC" tag="NN" in="" out="">Spenden</W>
 <W lemma="(" msd="XP" tag="$(" in="" out="">(</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="wirtschaftlich" msd="AN" tag="ADJA" in="" out="">wirtschaftliche</W>
@@ -194,10 +194,10 @@
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,gebratene</W>
 <W lemma="Taube" msd="NC" tag="NN" in="" out="">Tauben</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma=")" msd="XP" tag="$(" in="" out="">)</W>
 <W lemma="belaufen" msd="VA" tag="VVFIN" in="" out="">beläuft</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ja" msd="RG" tag="ADV" in="" out="">ja</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="100" msd="AC" tag="CARD" in="" out="">100</W>
@@ -211,7 +211,7 @@
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Überschuss</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gibt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -238,7 +238,7 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="Drittel" msd="NC" tag="NN" in="" out="">Drittel</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihrer</W>
-<W lemma="Spende&7c;Spenden" msd="NC" tag="NN" in="" out="">Spenden</W>
+<W lemma="Spende|Spenden" msd="NC" tag="NN" in="" out="">Spenden</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="Reklamezweck" msd="NC" tag="NN" in="" out="">Reklamezwecken</W>
 <W lemma="verwenden" msd="VAP" tag="VVPP" in="" out="">verwendet</W>
@@ -246,3 +246,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

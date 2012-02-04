@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Box" msd="NC" tag="NN" in="" out="">Box</W>
@@ -15,7 +15,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="Rock" msd="NC" tag="NN" in="" out="">Rock</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="enthalten" msd="VA" tag="VVFIN" in="" out="">enthält</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="vollständig" msd="AN" tag="ADJA" in="" out="">vollständige</W>
@@ -58,8 +58,8 @@
 </p>
 <p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
-<W lemma="fahren&7c;führen" msd="VA" tag="VVFIN" in="" out="">führen</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="fahren|führen" msd="VA" tag="VVFIN" in="" out="">führen</W>
 <W lemma="hier" msd="RG" tag="ADV" in="" out="">hier</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="fünf" msd="AC" tag="CARD" in="" out="">fünf</W>
@@ -131,7 +131,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
 <W lemma="bisher" msd="RG" tag="ADV" in="" out="">bisher</W>
-<W lemma="gehören&7c;hören" msd="VAP" tag="VVPP" in="" out="">gehört</W>
+<W lemma="gehören|hören" msd="VAP" tag="VVPP" in="" out="">gehört</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Eine</W>
@@ -233,3 +233,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

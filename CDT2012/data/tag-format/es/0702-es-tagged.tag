@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="haber" msd="VAD" tag="VLfin" in="" out="">He</W>
 <W lemma="leer" msd="VAF" tag="VLadj" in="" out="">leído</W>
@@ -213,3 +213,4 @@
 <W lemma="!" msd="XP" tag="FS" in="" out="">!</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="sabato" msd="NC" tag="NOM" in="" out="">Sabato</W>
 <W lemma="venire" msd="VADR" tag="VER:futu" in="" out="">verrà</W>
@@ -205,3 +205,4 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 </s>
 </p>
+</root>

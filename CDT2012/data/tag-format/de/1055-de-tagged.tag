@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">Nach</W>
 <W lemma="knapp" msd="AN" tag="ADJD" in="" out="">knapp</W>
 <W lemma="30" msd="AC" tag="CARD" in="" out="">30</W>
@@ -32,7 +32,7 @@
 <W lemma="ich" msd="PR" tag="PRF" in="" out="">mich</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">viele</W>
-<W lemma="Stelle&7c;Stellen" msd="NC" tag="NN" in="" out="">Stellen</W>
+<W lemma="Stelle|Stellen" msd="NC" tag="NN" in="" out="">Stellen</W>
 <W lemma="bewerben" msd="VAP" tag="VVPP" in="" out="">beworben</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="überall" msd="RG" tag="ADV" in="" out="">überall</W>
@@ -40,11 +40,11 @@
 <W lemma="bekommen" msd="VA" tag="VVFIN" in="" out="">bekam</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">ich</W>
 <W lemma="ein" msd="RG" tag="PTKVZ" in="" out="">ein</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="leider" msd="RG" tag="ADV" in="" out="">leider</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">..</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="zur" msd="SP+P" tag="APPRART" in="" out="">zur</W>
 <W lemma="Antwort" msd="NC" tag="NN" in="" out="">Antwort</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -81,7 +81,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">Vor</W>
 <W lemma="einige" msd="PI" tag="PIAT" in="" out="">einigen</W>
 <W lemma="Woche" msd="NC" tag="NN" in="" out="">Wochen</W>
@@ -111,7 +111,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Warum</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Zeit" msd="NC" tag="NN" in="" out="">Zeit</W>
@@ -139,7 +139,7 @@
 <W lemma="Arbeit" msd="NC" tag="NN" in="" out="">Arbeit</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
 <W lemma="Steen" msd="NP" tag="NE" in="" out="">Steen</W>
 <W lemma="Petersen" msd="NP" tag="NE" in="" out="">Petersen</W>
@@ -160,7 +160,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ja" msd="RG" tag="PTKANT" in="" out="">Ja</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="genau" msd="AN" tag="ADJD" in="" out="">genau</W>
@@ -191,7 +191,7 @@
 <W lemma="Arbeit" msd="NC" tag="NN" in="" out="">Arbeit</W>
 <W lemma="betrachten" msd="VAP" tag="VVPP" in="" out="">betrachtet</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Tagesmütter" msd="NC" tag="NN" in="" out="">Tagesmutter</W>
@@ -200,3 +200,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

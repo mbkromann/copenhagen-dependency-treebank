@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Teilnehmer" msd="NC" tag="NN" in="" out="">Teilnehmer</W>
@@ -35,7 +35,7 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurden</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="Hilfslinie" msd="NC" tag="NN" in="" out="">Hilfslinien</W>
-<W lemma="ausgestatten&7c;ausstatten" msd="VAP" tag="VVPP" in="" out="">ausgestattet</W>
+<W lemma="ausgestatten|ausstatten" msd="VAP" tag="VVPP" in="" out="">ausgestattet</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="damit" msd="CS" tag="KOUS" in="" out="">damit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -80,7 +80,7 @@
 <W lemma="Annahme" msd="NC" tag="NN" in="" out="">Annahmen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
 <W lemma="bestätigen" msd="VAP" tag="VVPP" in="" out="">bestätigt</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="z." msd="SP+P" tag="APPRART" in="" out="">Z.</W>
 <W lemma="B." msd="NC" tag="NN" in="" out="">B.</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
@@ -108,7 +108,7 @@
 <W lemma="Frau" msd="NC" tag="NN" in="" out="">Frau</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,anders</W>
 <W lemma="herum" msd="RG" tag="PTKVZ" in="" out="">herum</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="Mann" msd="NC" tag="NN" in="" out="">Mann</W>
@@ -155,7 +155,7 @@
 <W lemma="lassen" msd="VA" tag="VVFIN" in="" out="">lässt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="G-Punkt" msd="NC" tag="NN" in="" out="">G-Punkt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="tendenziell" msd="AN" tag="ADJD" in="" out="">tendenziell</W>
 <W lemma="gut" msd="AN" tag="ADJD" in="" out="">besser</W>
 <W lemma="stimulieren" msd="VAF" tag="VVINF" in="" out="">stimulieren</W>
@@ -217,3 +217,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

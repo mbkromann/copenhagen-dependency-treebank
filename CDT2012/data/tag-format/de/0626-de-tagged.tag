@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="lang" msd="AN" tag="ADJA" in="" out="">Lange</W>
 <W lemma="Zeit" msd="NC" tag="NN" in="" out="">Zeit</W>
@@ -8,7 +8,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="fern" msd="AN" tag="ADJA" in="" out="">ferne</W>
-<W lemma="Summe&7c;Summen" msd="NC" tag="NN" in="" out="">Summen</W>
+<W lemma="Summe|Summen" msd="NC" tag="NN" in="" out="">Summen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Auto" msd="NC" tag="NN" in="" out="">Autos</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
@@ -17,13 +17,13 @@
 <W lemma="am" msd="SP+P" tag="APPRART" in="" out="">am</W>
 <W lemma="Quartier" msd="NC" tag="NN" in="" out="">Quartier</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
-<W lemma="Weiß&7c;Weiße&7c;Weißen" msd="NC" tag="NN" in="" out="">Weißen</W>
+<W lemma="Weiß|Weiße|Weißen" msd="NC" tag="NN" in="" out="">Weißen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="verbissen" msd="AN" tag="ADJA" in="" out="">verbissene</W>
 <W lemma="Kampf" msd="NC" tag="NN" in="" out="">Kampf</W>
 <W lemma="zweier" msd="AN" tag="ADJA" in="" out="">zweier</W>
-<W lemma="Fliege&7c;Fliegen" msd="NC" tag="NN" in="" out="">Fliegen</W>
+<W lemma="Fliege|Fliegen" msd="NC" tag="NN" in="" out="">Fliegen</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Rest" msd="NC" tag="NN" in="" out="">Reste</W>
@@ -98,7 +98,7 @@
 <W lemma="wie" msd="CS" tag="KOUS" in="" out="">wie</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihr</W>
 <W lemma="Herzschlag" msd="NC" tag="NN" in="" out="">Herzschlag</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="ander" msd="AN" tag="ADJA" in="" out="">anderen</W>
@@ -111,7 +111,7 @@
 <W lemma="bis" msd="CC" tag="KON" in="" out="">bis</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Fingerspitz&7c;Fingerspitze&7c;Fingerspitzen" msd="NC" tag="NN" in="" out="">Fingerspitzen</W>
+<W lemma="Fingerspitz|Fingerspitze|Fingerspitzen" msd="NC" tag="NN" in="" out="">Fingerspitzen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="sehen" msd="VA" tag="VVFIN" in="" out="">sah</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -153,7 +153,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="gespreizt" msd="AN" tag="ADJA" in="" out="">gespreizten</W>
-<W lemma="Bein&7c;Beinen" msd="NC" tag="NN" in="" out="">Beinen</W>
+<W lemma="Bein|Beinen" msd="NC" tag="NN" in="" out="">Beinen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="Hand" msd="NC" tag="NN" in="" out="">Hand</W>
@@ -196,7 +196,7 @@
 <W lemma="Schulter" msd="NC" tag="NN" in="" out="">Schulter</W>
 <W lemma="legen" msd="VAP" tag="VVPP" in="" out="">gelegt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sehen" msd="VA" tag="VVFIN" in="" out="">sah</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">ihn</W>
 <W lemma="fragend" msd="AN" tag="ADJD" in="" out="">fragend</W>
@@ -204,3 +204,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

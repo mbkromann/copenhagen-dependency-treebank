@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Samstag" msd="NC" tag="NN" in="" out="">Samstag</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
@@ -100,7 +100,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">denen</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">diesen</W>
-<W lemma="Tag&7c;Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
+<W lemma="Tag|Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Trailer</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="" out="">dänischer</W>
 <W lemma="Film" msd="NC" tag="NN" in="" out="">Filme</W>
@@ -120,14 +120,14 @@
 <W lemma="Eintrittskarte" msd="NC" tag="NN" in="" out="">Eintrittskarten</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="" out="">dänischen</W>
-<W lemma="Film&7c;Filmen" msd="NC" tag="NN" in="" out="">Filmen</W>
+<W lemma="Film|Filmen" msd="NC" tag="NN" in="" out="">Filmen</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="mögen" msd="VA" tag="VMFIN" in="" out="">möchten</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">uns</W>
@@ -145,7 +145,7 @@
 <W lemma="Institution" msd="NC" tag="NN" in="" out="">Institution</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Leiter" msd="NC" tag="NN" in="" out="">Leiter</W>
@@ -155,7 +155,7 @@
 <W lemma="Bo" msd="NP" tag="NE" in="" out="">Bo</W>
 <W lemma="Christensen" msd="NP" tag="NE" in="" out="">Christensen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="" out="">kein</W>
@@ -202,6 +202,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="ändern" msd="VAF" tag="VVINF" in="" out="">ändern</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
+</root>

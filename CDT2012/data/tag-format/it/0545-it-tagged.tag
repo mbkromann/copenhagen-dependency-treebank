@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">11</W>
 <W lemma="induzione" msd="NC" tag="NOM" in="" out="">Induzione</W>
@@ -304,3 +304,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

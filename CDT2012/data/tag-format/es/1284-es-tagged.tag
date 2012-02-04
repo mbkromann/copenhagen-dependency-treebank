@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">SAS</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">LO</W>
@@ -216,3 +216,4 @@
 <W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>
 </s>
 </p>
+</root>

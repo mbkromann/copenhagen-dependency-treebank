@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="südlich" msd="SP" tag="APPR" in="" out="">Südlich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -117,7 +117,7 @@
 <W lemma="überhaupt" msd="RG" tag="ADV" in="" out="">überhaupt</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="verhöhnen" msd="VA" tag="VVFIN" in="" out="">verhöhnen</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">das</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
@@ -150,7 +150,7 @@
 <W lemma="Partei" msd="NC" tag="NN" in="" out="">Partei</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="zur" msd="SP+P" tag="APPRART" in="" out="">zur</W>
 <W lemma="Wahl" msd="NC" tag="NN" in="" out="">Wahl</W>
 <W lemma="stellen" msd="VA" tag="VVFIN" in="" out="">stellt</W>
@@ -248,3 +248,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

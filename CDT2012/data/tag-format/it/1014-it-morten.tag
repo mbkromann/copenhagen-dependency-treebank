@@ -1,4 +1,4 @@
-<W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
+<root><W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">Al</W>
 <W lemma="momento" msd="NC" tag="NOM" in="" out="">momento</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">la</W>
@@ -214,3 +214,4 @@
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Munck</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="aquí" msd="RG" tag="ADV" in="" out="">Aquí</W>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
@@ -255,3 +255,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

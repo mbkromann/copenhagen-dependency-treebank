@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="11" msd="AC" tag="CARD" in="" out="1:nobj|6:pnct">11</W>
 <W lemma="Tote" msd="NC" tag="NN" in="-1:nobj" out="1:cause">Tote</W>
@@ -6,7 +6,7 @@
 <W lemma="Drogenmißbrauch" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{loc}">Drogenmissbrauch</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">ODENSE</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-6:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-6:pnct" out="">:</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="5:loc" out="2:nobj|3:attr">Im</W>
 <W lemma="polizeilich" msd="AN" tag="ADJA" in="1:attr" out="">polizeilichen</W>
 <W lemma="Einzugsbereich" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|1:{loc}">Einzugsbereich</W>
@@ -33,7 +33,7 @@
 <W lemma="hervor" msd="RG" tag="PTKVZ" in="-1:part" out="">hervor</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:subj" out="10:vobj">dass</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="8:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="8:robj" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="7:[subj]|8:subj" out="1:nobj">die</W>
 <W lemma="Zahl" msd="NC" tag="NN" in="-1:nobj" out="">Zahl</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="6:scene" out="1:nobj">im</W>
@@ -58,7 +58,7 @@
 <W lemma="," msd="XP" tag="$," in="-9:pnct" out="">,</W>
 <W lemma="sondern" msd="CC" tag="KON" in="1:coord" out="">sondern</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="-11:conj" out="-1:coord|3:preds">gibt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
 <W lemma="damit" msd="RG" tag="PAV" in="1:pobj" out="2:vobj">damit</W>
 <W lemma="zufrieden" msd="AN" tag="ADJD" in="-3:preds" out="-2:robj|-1:pobj">zufrieden</W>
 <W lemma="feststellen" msd="VAF" tag="VVIZU" in="-2:vobj" out="-17:[subj]|1:pnct|2:dobj">festzustellen</W>
@@ -69,7 +69,7 @@
 <W lemma="Zusammenhang" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.subj|1:{agent}">Zusammenhang</W>
 <W lemma="zwischen" msd="SP" tag="APPR" in="-1:pobj.subj|-1:{agent}" out="1:nobj">zwischen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
-<W lemma="Todesfall&7c;Todesfällen" msd="NC" tag="NN" in="-1:nobj" out="">Todesfällen</W>
+<W lemma="Todesfall|Todesfällen" msd="NC" tag="NN" in="-1:nobj" out="">Todesfällen</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="-7:vobj" out="-6:expl|-5:dobj|2:pnct">gibt</W>
 <W lemma="und" msd="CC" tag="KON" in="9:coord" out="">und</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
@@ -97,16 +97,16 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">Fyn</W>
 <W lemma="schließen" msd="VA" tag="VVFIN" in="" out="-2:loc|1:subj|3:pnct">schließen</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="-1:subj" out="1:nobj">zwei</W>
-<W lemma="Schule&7c;Schulen" msd="NC" tag="NN" in="-1:nobj" out="">Schulen</W>
+<W lemma="Schule|Schulen" msd="NC" tag="NN" in="-1:nobj" out="">Schulen</W>
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="1:pnct|15:pnct">ÅRUP</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-1:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-1:pnct" out="">:</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="3:time" out="1:nobj">Im</W>
 <W lemma="Sommer" msd="NC" tag="NN" in="-1:nobj" out="1:nobj">Sommer</W>
 <W lemma="1993" msd="AC" tag="CARD" in="-1:nobj" out="">1993</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-3:time|1:subj|9:vobj">werden</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="-1:subj|8:[subj]" out="1:nobj|2:attr">zwei</W>
-<W lemma="Schule&7c;Schulen" msd="NC" tag="NN" in="-1:nobj" out="1:{loc}">Schulen</W>
+<W lemma="Schule|Schulen" msd="NC" tag="NN" in="-1:nobj" out="1:{loc}">Schulen</W>
 <W lemma="in" msd="SP" tag="APPR" in="-2:attr|-1:{loc}" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|3:attr">der</W>
 <W lemma="Gemeinde" msd="NC" tag="NN" in="-1:nobj" out="1:nobj|1:{loc}|2:{loc}">Gemeinde</W>
@@ -121,7 +121,7 @@
 <W lemma="beschließen" msd="VAP" tag="VVPP" in="-1:vobj" out="-3:[subj]|1:pnct|8:dobj">beschlossen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="7:dobj" out="1:nobj|2:attr">die</W>
-<W lemma="Schule&7c;Schulen" msd="NC" tag="NN" in="-1:nobj" out="1:{loc}">Schulen</W>
+<W lemma="Schule|Schulen" msd="NC" tag="NN" in="-1:nobj" out="1:{loc}">Schulen</W>
 <W lemma="in" msd="SP" tag="APPR" in="-2:attr|-1:{loc}" out="1:nobj">in</W>
 <W lemma="Ort" msd="NC" tag="NN" in="-1:nobj" out="2:conj">Orte</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
@@ -146,7 +146,7 @@
 <W lemma="Osteuropa" msd="NP" tag="NE" in="-1:nobj" out="">Osteuropa</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="1:pnct">VEJLE</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-1:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-1:pnct" out="">:</W>
 <W lemma="in" msd="SP" tag="APPR" in="3:time" out="2:nobj">In</W>
 <W lemma="letzt" msd="AN" tag="ADJA" in="1:attr" out="">letzter</W>
 <W lemma="Zeit" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Zeit</W>
@@ -196,3 +196,4 @@
 <W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="" out="">hel</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Vorsitzende" msd="NC" tag="NN" in="" out="">Vorsitzende</W>
@@ -33,7 +33,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Kontakte</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Diskussion" msd="NC" tag="NN" in="" out="">Diskussionen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="lokal" msd="AN" tag="ADJA" in="" out="">lokaler</W>
 <W lemma="Ebene" msd="NC" tag="NN" in="" out="">Ebene</W>
@@ -53,7 +53,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Ziel" msd="NC" tag="NN" in="" out="">Ziel</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="natürlich" msd="AN" tag="ADJD" in="" out="">natürlich</W>
@@ -81,7 +81,7 @@
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
 <W lemma="anstreben" msd="VAF" tag="VVINF" in="" out="">anstreben</W>
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="fragen" msd="VA" tag="VVFIN" in="" out="">fragte</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Dalmark</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -105,24 +105,24 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Mitarbeiter" msd="NC" tag="NN" in="" out="">Mitarbeiter</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Freunde</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Kunde" msd="NC" tag="NN" in="" out="">Kunden</W>
 <W lemma="profilieren" msd="VA" tag="VVFIN" in="" out="">profilieren</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="bislang" msd="RG" tag="ADV" in="" out="">Bislang</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="kosen&7c;kosten" msd="VA" tag="VVFIN" in="" out="">koste</W>
+<W lemma="kosen|kosten" msd="VA" tag="VVFIN" in="" out="">koste</W>
 <W lemma="was" msd="PP" tag="PIS" in="" out="">was</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="">wolle</W>
@@ -163,7 +163,7 @@
 <W lemma="bezahlen" msd="VAF" tag="VVINF" in="" out="">bezahlen</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="">wollen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="meinen" msd="VA" tag="VVFIN" in="" out="">meinte</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -199,3 +199,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

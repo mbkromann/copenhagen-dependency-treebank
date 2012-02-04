@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="bisherig" msd="AN" tag="ADJA" in="" out="">bisherigen</W>
@@ -26,7 +26,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="selten" msd="AN" tag="ADJA" in="" out="">seltensten</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="ausreichend" msd="AN" tag="ADJA" in="" out="">ausreichenden</W>
@@ -35,7 +35,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="um" msd="CS" tag="KOUI" in="" out="">um</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Arbeitslos&7c;Arbeitslose&7c;Arbeitslosen" msd="NC" tag="NN" in="" out="">Arbeitslosen</W>
+<W lemma="Arbeitslos|Arbeitslose|Arbeitslosen" msd="NC" tag="NN" in="" out="">Arbeitslosen</W>
 <W lemma="Arbeit" msd="NC" tag="NN" in="" out="">Arbeit</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="verschaffen" msd="VAF" tag="VVINF" in="" out="">verschaffen</W>
@@ -196,7 +196,7 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Langzeitarbeitslos&7c;Langzeitarbeitslose&7c;Langzeitarbeitslosen" msd="NC" tag="NN" in="" out="">Langzeitarbeitslosen</W>
+<W lemma="Langzeitarbeitslos|Langzeitarbeitslose|Langzeitarbeitslosen" msd="NC" tag="NN" in="" out="">Langzeitarbeitslosen</W>
 <W lemma="bekommen" msd="VA" tag="VVFIN" in="" out="">bekommen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Möglichkeit" msd="NC" tag="NN" in="" out="">Möglichkeit</W>
@@ -218,3 +218,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

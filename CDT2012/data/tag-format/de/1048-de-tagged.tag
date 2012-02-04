@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Aufschwung" msd="NC" tag="NN" in="" out="">Aufschwung</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
@@ -11,7 +11,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Export" msd="NC" tag="NN" in="" out="">Export</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
-<W lemma="Motorboot&7c;Motorbooten" msd="NC" tag="NN" in="" out="">Motorbooten</W>
+<W lemma="Motorboot|Motorbooten" msd="NC" tag="NN" in="" out="">Motorbooten</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">wenn</W>
@@ -108,7 +108,7 @@
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="Mast" msd="NC" tag="NN" in="" out="">Masten</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="Segel&7c;Segeln" msd="NC" tag="NN" in="" out="">Segeln</W>
+<W lemma="Segel|Segeln" msd="NC" tag="NN" in="" out="">Segeln</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="Spiel" msd="NC" tag="NN" in="" out="">Spiele</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -128,7 +128,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Export" msd="NC" tag="NN" in="" out="">Export</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
-<W lemma="Boot&7c;Booten" msd="NC" tag="NN" in="" out="">Booten</W>
+<W lemma="Boot|Booten" msd="NC" tag="NN" in="" out="">Booten</W>
 <W lemma="überschreiten" msd="VA" tag="VVFIN" in="" out="">überschreitet</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -148,7 +148,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="ja" msd="RG" tag="ADV" in="" out="">ja</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Anzahl" msd="NC" tag="NN" in="" out="">Anzahl</W>
@@ -183,7 +183,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">Bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Motorboot&7c;Motorbooten" msd="NC" tag="NN" in="" out="">Motorbooten</W>
+<W lemma="Motorboot|Motorbooten" msd="NC" tag="NN" in="" out="">Motorbooten</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Anzahl" msd="NC" tag="NN" in="" out="">Anzahl</W>
@@ -206,3 +206,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

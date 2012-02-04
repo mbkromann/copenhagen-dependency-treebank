@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
@@ -101,7 +101,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="kein" msd="PP" tag="PIS" in="" out="">keiner</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="etwas" msd="RG" tag="ADV" in="" out="">etwas</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="du" msd="PP" tag="PPER" in="" out="">dir</W>
@@ -178,13 +178,13 @@
 <W lemma="Vater" msd="NC" tag="NN" in="" out="">Vater</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
 <W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="na" msd="I=" tag="ITJ" in="" out="">Na</W>
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="etwas" msd="RG" tag="ADV" in="" out="">etwas</W>
 <W lemma="!" msd="XP" tag="$." in="" out="">!</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Christine" msd="NP" tag="NE" in="" out="">Christine</W>
 <W lemma="greifen" msd="VA" tag="VVFIN" in="" out="">griff</W>
@@ -195,7 +195,7 @@
 <W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="um" msd="CS" tag="KOUI" in="" out="">um</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="Freundin" msd="NC" tag="NN" in="" out="">Freundin</W>
@@ -206,3 +206,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="1:subj" out="">Ich</W>
 <W lemma="glauben" msd="VA" tag="VVFIN" in="" out="-2:pnct|-1:subj|1:neg|2:pnct|3:dobj|15:pnct">glaube</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
@@ -44,7 +44,7 @@
 <W lemma="bindend" msd="AN" tag="ADJA" in="1:attr" out="">bindende</W>
 <W lemma="Mandat" msd="NC" tag="NN" in="-13:dobj" out="-1:attr">Mandate</W>
 <W lemma="," msd="XP" tag="$," in="-14:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-15:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-15:pnct" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-25:qobj|2:subj|3:pnct">sagt</W>
 <W lemma="Peter" msd="NP" tag="NE" in="1:namef" out="">Peter</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:subj" out="-1:namef|6:coref">Duetoft</W>
@@ -67,7 +67,7 @@
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-5:ref|7:subj" out="">die</W>
 <W lemma="aus" msd="SP" tag="APPR" in="6:cause" out="1:nobj">aus</W>
-<W lemma="Grund&7c;Gründen" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Gründen</W>
+<W lemma="Grund|Gründen" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Gründen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:nobj|15:coref-iden">der</W>
 <W lemma="Volksgesundheit" msd="NC" tag="NN" in="-1:nobj" out="">Volksgesundheit</W>
 <W lemma="privat" msd="AN" tag="ADJA" in="1:attr" out="">privaten</W>
@@ -110,7 +110,7 @@
 <W lemma="genauso" msd="RG" tag="ADV" in="1:quant" out="">genauso</W>
 <W lemma="fortschrittlich" msd="AN" tag="ADJA" in="1:attr" out="-1:quant">fortschrittlicher</W>
 <W lemma="Ausrüstung" msd="NC" tag="NN" in="-3:nobj" out="-1:attr">Ausrüstung</W>
-<W lemma="ausgestatten&7c;ausstatten" msd="VAP" tag="VVPP" in="1:vobj" out="-4:pobj|-6:[subj]">ausgestattet</W>
+<W lemma="ausgestatten|ausstatten" msd="VAP" tag="VVPP" in="1:vobj" out="-4:pobj|-6:[subj]">ausgestattet</W>
 <W lemma="werden" msd="VAF" tag="VAINF" in="-8:vobj" out="-1:vobj|-7:[subj]">werden</W>
 <W lemma="," msd="XP" tag="$," in="-9:pnct" out="">,</W>
 <W lemma="wie" msd="CS" tag="KOUS" in="-10:resem" out="2:nobj">wie</W>
@@ -144,7 +144,7 @@
 <W lemma="Europaausschuß" msd="NC" tag="NN" in="-1:nobj" out="">Europaausschuss</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-3:coord|-2:subj|7:time|11:vobj|12:pnct">hat</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="10:dobj" out="4:nobj">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="1:nobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="1:nobj" out="">sich</W>
 <W lemma="daraus" msd="RG" tag="PAV" in="1:pobj" out="-1:nobj">daraus</W>
 <W lemma="ergebend" msd="AN" tag="ADJA" in="1:attr" out="-1:pobj">ergebenden</W>
 <W lemma="Konsequenz" msd="NC" tag="NN" in="-4:nobj" out="-1:attr">Konsequenzen</W>
@@ -214,3 +214,4 @@
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 </s>
 </p>
+</root>

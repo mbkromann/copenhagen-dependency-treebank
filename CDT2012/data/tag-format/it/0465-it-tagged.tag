@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="arrivare" msd="VADA" tag="VER:remo" in="" out="">Arrivò</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
@@ -209,3 +209,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="otto" msd="AN" tag="ADJ" in="" out="">Otto</W>
 <W lemma="partito" msd="NC" tag="NOM" in="" out="">partiti</W>
@@ -288,3 +288,4 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 </s>
 </p>
+</root>

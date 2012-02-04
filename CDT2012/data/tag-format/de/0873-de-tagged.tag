@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="etwas" msd="PI" tag="PIAT" in="" out="">Etwas</W>
 <W lemma="Andere" msd="NC" tag="NN" in="" out="">Anderes</W>
@@ -99,7 +99,7 @@
 <W lemma="mögen" msd="VA" tag="VMFIN" in="" out="">möchte</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">ich</W>
 <W lemma="fragen" msd="VAF" tag="VVINF" in="" out="">fragen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="wozu" msd="PT" tag="PWAV" in="" out="">Wozu</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">sollen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
@@ -187,7 +187,7 @@
 <W lemma="mehr" msd="RG" tag="ADV" in="" out="">mehr</W>
 <W lemma="bedrohen" msd="VAF" tag="VVINF" in="" out="">bedrohen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
 <W lemma="außerhalb" msd="SP" tag="APPR" in="" out="">außerhalb</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -197,7 +197,7 @@
 <W lemma="außerhalb" msd="SP" tag="APPR" in="" out="">außerhalb</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Mauer</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="errichten" msd="VAP" tag="VVPP" in="" out="">errichtet</W>
@@ -205,3 +205,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">Las</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">turbulencias</W>
@@ -218,3 +218,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

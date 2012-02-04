@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">Nicht</W>
 <W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
@@ -72,7 +72,7 @@
 <W lemma="äußer" msd="AN" tag="ADJA" in="" out="">äußere</W>
 <W lemma="Erscheinungsbild" msd="NC" tag="NN" in="" out="">Erscheinungsbild</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="verändern" msd="VAP" tag="VVPP" in="" out="">verändert</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
@@ -163,7 +163,7 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="" out="">dänische</W>
 <W lemma="Premiere" msd="NC" tag="NN" in="" out="">Premiere</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Den</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="" out="">neuen</W>
 <W lemma="Minibus" msd="NC" tag="NN" in="" out="">Minibus</W>
@@ -231,3 +231,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

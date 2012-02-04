@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Bleigehalt" msd="NC" tag="NN" in="" out="">Bleigehalt</W>
@@ -34,7 +34,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">Bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="heutig" msd="AN" tag="ADJA" in="" out="">heutigen</W>
@@ -68,7 +68,7 @@
 <W lemma="Qualität" msd="NC" tag="NN" in="" out="">Qualität</W>
 <W lemma="vermischen" msd="VAP" tag="VVPP" in="" out="">vermischt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="teilen" msd="VA" tag="VVFIN" in="" out="">teilt</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Statoils</W>
 <W lemma="Informationschef" msd="NC" tag="NN" in="" out="">Informationschef</W>
@@ -117,7 +117,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="jedoch" msd="RG" tag="ADV" in="" out="">jedoch</W>
@@ -128,12 +128,12 @@
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="sinkend" msd="AN" tag="ADJA" in="" out="">sinkenden</W>
-<W lemma="Preis&7c;Preisen" msd="NC" tag="NN" in="" out="">Preisen</W>
+<W lemma="Preis|Preisen" msd="NC" tag="NN" in="" out="">Preisen</W>
 <W lemma="profitieren" msd="VAF" tag="VVINF" in="" out="">profitieren</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="lassen" msd="VAF" tag="VVINF" in="" out="">lassen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="stellvertretend" msd="AN" tag="ADJA" in="" out="">stellvertretende</W>
@@ -180,7 +180,7 @@
 <W lemma="Shell" msd="NP" tag="NE" in="" out="">Shell</W>
 <W lemma="zögern" msd="VA" tag="VVFIN" in="" out="">zögert</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">Nicht</W>
 <W lemma="sofort" msd="RG" tag="ADV" in="" out="">sofort</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -201,7 +201,7 @@
 <W lemma="d" msd="PP" tag="PDS" in="" out="">das</W>
 <W lemma="vertragen" msd="VA" tag="VVFIN" in="" out="">vertragen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Informationschef" msd="NC" tag="NN" in="" out="">Informationschef</W>
 <W lemma="Margrethe" msd="NP" tag="NE" in="" out="">Margrethe</W>
@@ -227,3 +227,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

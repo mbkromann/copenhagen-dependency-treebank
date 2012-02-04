@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="aus" msd="SP" tag="APPR" in="11:source" out="1:nobj">Aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|2:attrg">der</W>
@@ -63,7 +63,7 @@
 <W lemma="oder" msd="CC" tag="KON" in="1:coord" out="">oder</W>
 <W lemma="d" msd="PD" tag="PDAT" in="-6:conj" out="-1:coord|1:attr|2:nobj|3:pnct|5:appa">deren</W>
 <W lemma="europäisch" msd="AN" tag="ADJA" in="-1:attr" out="">europäischer</W>
-<W lemma="Verwandte&7c;Verwandter" msd="NC" tag="NN" in="-2:nobj" out="">Verwandter</W>
+<W lemma="Verwandte|Verwandter" msd="NC" tag="NN" in="-2:nobj" out="">Verwandter</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="Italo" msd="NP" tag="NE" in="1:namef" out="">Italo</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-5:appa" out="-1:namef|3:conj">Calvino</W>
@@ -184,3 +184,4 @@
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
 </s>
 </p>
+</root>

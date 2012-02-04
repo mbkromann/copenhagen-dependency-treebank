@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="" out="">,,Ich</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">könnte</W>
@@ -33,13 +33,13 @@
 <W lemma="vorne" msd="RG" tag="ADV" in="" out="">vorne</W>
 <W lemma="sehen" msd="VA" tag="VVFIN" in="" out="">sehen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">Haben</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="Plan" msd="NC" tag="NN" in="" out="">Pläne</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -91,7 +91,7 @@
 <W lemma="leer" msd="AN" tag="ADJA" in="" out="">leere</W>
 <W lemma="Gebäude" msd="NC" tag="NN" in="" out="">Gebäude</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -99,7 +99,7 @@
 <W lemma="wie" msd="PT" tag="PWAV" in="" out="">Wie</W>
 <W lemma="fühlen" msd="VA" tag="VVFIN" in="" out="">fühlt</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="jetzt" msd="RG" tag="ADV" in="" out="">jetzt</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -114,7 +114,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
@@ -148,10 +148,10 @@
 <W lemma="wer" msd="PT" tag="PWS" in="" out="">wer</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Freund&7c;Freunden" msd="NC" tag="NN" in="" out="">Freunden</W>
+<W lemma="Freund|Freunden" msd="NC" tag="NN" in="" out="">Freunden</W>
 <W lemma="gehören" msd="VA" tag="VVFIN" in="" out="">gehört</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -165,19 +165,19 @@
 <p>
 <s>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">Als</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Ihnen</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Ihnen</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Frühjahr" msd="NC" tag="NN" in="" out="">Frühjahr</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Gewinn" msd="NC" tag="NN" in="" out="">Gewinn</W>
-<W lemma="Ihr&7c;ihr" msd="PO" tag="PPOSS" in="" out="">Ihres</W>
+<W lemma="Ihr|ihr" msd="PO" tag="PPOSS" in="" out="">Ihres</W>
 <W lemma="persönlich" msd="AN" tag="ADJA" in="" out="">persönlichen</W>
 <W lemma="Konkurs" msd="NC" tag="NN" in="" out="">Konkurses</W>
 <W lemma="ausbezahlen" msd="VAP" tag="VVPP" in="" out="">ausbezahlt</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurde</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="zahlen" msd="VA" tag="VVFIN" in="" out="">zahlten</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="freiwillig" msd="AN" tag="ADJD" in="" out="">freiwillig</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
 <W lemma="Teil" msd="NC" tag="NN" in="" out="">Teil</W>
@@ -200,7 +200,7 @@
 <W lemma="Auszahlung" msd="NC" tag="NN" in="" out="">Auszahlung</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Gläubige&7c;Gläubiger" msd="NC" tag="NN" in="" out="">Gläubiger</W>
+<W lemma="Gläubige|Gläubiger" msd="NC" tag="NN" in="" out="">Gläubiger</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">dieser</W>
 <W lemma="Sache" msd="NC" tag="NN" in="" out="">Sache</W>
@@ -212,3 +212,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

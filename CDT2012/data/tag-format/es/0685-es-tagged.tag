@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="@card@" msd="XS" tag="CODE" in="" out="">11</W>
 <W lemma="muerto" msd="AN" tag="ADJ" in="" out="">muertos</W>
@@ -199,6 +199,8 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
+</s>
+</p>
 <p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">El</W>
@@ -231,3 +233,4 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">hel</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<W lemma="apartado" msd="NC" tag="NC" in="" out="">Apartado</W>
+<root><W lemma="apartado" msd="NC" tag="NC" in="" out="">Apartado</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="correo" msd="NC" tag="NC" in="" out="">correos</W>
 <W lemma="@card@" msd="XS" tag="CODE" in="" out="">64</W>
@@ -18,7 +18,7 @@
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W lemma="desempleado" msd="NC" tag="NC" in="" out="">desempleado</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
-<W lemma="sentar&7c;sentir" msd="VAD" tag="VLfin" in="" out="">siente</W>
+<W lemma="sentar|sentir" msd="VAD" tag="VLfin" in="" out="">siente</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">ridÃ­culo</W>
 <W lemma="porque" msd="CS" tag="CSUBX" in="" out="">porque</W>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="">tiene</W>
@@ -44,7 +44,7 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 <W lemma="(" msd="XP" tag="LP" in="" out="">(</W>
 <W lemma="foto" msd="NC" tag="NC" in="" out="">Foto</W>
-<W lemma="&3a;" msd="XP" tag="COLON" in="" out="">:</W>
+<W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Bent</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Rej</W>
 <W lemma=")" msd="XP" tag="RP" in="" out="">)</W>
@@ -124,7 +124,7 @@
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="de~modo~que" msd="CS" tag="CSUBF" in="" out="">de modo que</W>
 <W lemma="mío" msd="PP" tag="PPO" in="" out="">mi</W>
-<W lemma="deuda&7c;deudo" msd="NC" tag="NC" in="" out="">deuda</W>
+<W lemma="deuda|deudo" msd="NC" tag="NC" in="" out="">deuda</W>
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="">pudiera</W>
 <W lemma="reducirse" msd="VA" tag="VCLI" in="" out="">reducirse</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -191,4 +191,5 @@
 <W lemma="venir" msd="VAD" tag="VLfin" in="" out="">viene</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="cuenta" msd="NC" tag="NC" in="" out="">cuenta</W>
-<W lemma="&3a;" msd="XP" tag="COLON" in="" out="">:</W>
+<W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>
+</root>

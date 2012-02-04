@@ -1,4 +1,4 @@
-<W lemma="como" msd="CS" tag="CSUBX" in="" out="">Como</W>
+<root><W lemma="como" msd="CS" tag="CSUBX" in="" out="">Como</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Pia</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Kjærsgaard</W>
 <W lemma="deber" msd="VAD" tag="VMfin" in="" out="">debe</W>
@@ -239,3 +239,4 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">interés</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">común</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+</root>

@@ -1,3 +1,3 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 xmllint --noout --dtdvalid tag.dtd ../../data//tag-format/*/*.tag

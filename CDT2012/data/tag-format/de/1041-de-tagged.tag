@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="beispielsweise" msd="AN" tag="ADJD" in="" out="">Beispielsweise</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
@@ -114,9 +114,9 @@
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="Person" msd="NC" tag="NN" in="" out="">Person</W>
 <W lemma="schwer" msd="AN" tag="ADJD" in="" out="">schwer</W>
-<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
+<W lemma="fallen|fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="verabschieden" msd="VAF" tag="VVINF" in="" out="">verabschieden</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -135,7 +135,7 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">diesen</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Außenminister" msd="NC" tag="NN" in="" out="">Außenminister</W>
 <W lemma="Uffe" msd="NP" tag="NE" in="" out="">Uffe</W>
@@ -184,7 +184,7 @@
 <W lemma="oder" msd="CC" tag="KON" in="" out="">oder</W>
 <W lemma="weniger" msd="RG" tag="ADV" in="" out="">weniger</W>
 <W lemma="bekannt" msd="AN" tag="ADJA" in="" out="">bekannten</W>
-<W lemma="Bürger&7c;Bürgern" msd="NC" tag="NN" in="" out="">Bürgern</W>
+<W lemma="Bürger|Bürgern" msd="NC" tag="NN" in="" out="">Bürgern</W>
 <W lemma="sorgfältig" msd="AN" tag="ADJD" in="" out="">sorgfältig</W>
 <W lemma="Blumengruß" msd="NC" tag="NN" in="" out="">Blumengrüße</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -194,3 +194,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

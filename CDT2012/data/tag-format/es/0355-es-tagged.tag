@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ahora" msd="RG" tag="ADV" in="" out="">Ahora</W>
 <W lemma="reír" msd="VAD" tag="VLfin" in="" out="">ríe</W>
@@ -245,3 +245,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">Durch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -36,7 +36,7 @@
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">wenn</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Regierung" msd="NC" tag="NN" in="" out="">Regierung</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Minderheit" msd="NC" tag="NN" in="" out="">Minderheit</W>
@@ -70,7 +70,7 @@
 <W lemma="Taktik" msd="NC" tag="NN" in="" out="">Taktik</W>
 <W lemma="protestieren" msd="VAP" tag="VVPP" in="" out="">protestiert</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="erinnern" msd="VA" tag="VVFIN" in="" out="">erinnerten</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Premierminister" msd="NC" tag="NN" in="" out="">Premierminister</W>
@@ -202,3 +202,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="así" msd="RG" tag="ADV" in="" out="">Así</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
@@ -192,6 +192,8 @@
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">ha</W>
 <W lemma="estar" msd="VAF" tag="VE" in="" out="">estado</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">reprimiendo</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="por~parte~de" msd="SP" tag="SCENE" in="" out="">por parte de</W>
@@ -206,3 +208,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

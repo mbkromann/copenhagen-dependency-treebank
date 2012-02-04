@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="llevar" msd="VAD" tag="VLfin" in="" out="">Llevan</W>
 <W lemma="cuatro" msd="AC" tag="CARD" in="" out="">cuatro</W>
@@ -231,3 +231,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

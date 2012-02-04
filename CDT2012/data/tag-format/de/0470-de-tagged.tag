@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="was" msd="PT" tag="PWS" in="" out="">Was</W>
 <W lemma="verstehen" msd="VA" tag="VVFIN" in="" out="">versteht</W>
@@ -8,7 +8,7 @@
 <W lemma="Blutzirkulation" msd="NC" tag="NN" in="" out="">Blutzirkulation</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Bein&7c;Beinen" msd="NC" tag="NN" in="" out="">Beinen</W>
+<W lemma="Bein|Beinen" msd="NC" tag="NN" in="" out="">Beinen</W>
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
 <W lemma="woher" msd="PT" tag="PWAV" in="" out="">Woher</W>
 <W lemma="kommen" msd="VA" tag="VVFIN" in="" out="">kommt</W>
@@ -84,7 +84,7 @@
 <W lemma="Blut" msd="NC" tag="NN" in="" out="">Blut</W>
 <W lemma="zurück" msd="RG" tag="PTKVZ" in="" out="">zurück</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="" out="">zum</W>
-<W lemma="Herz&7c;Herzen" msd="NC" tag="NN" in="" out="">Herzen</W>
+<W lemma="Herz|Herzen" msd="NC" tag="NN" in="" out="">Herzen</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="leiten" msd="VAF" tag="VVINF" in="" out="">leiten</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -92,7 +92,7 @@
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">diesem</W>
 <W lemma="Fall" msd="NC" tag="NN" in="" out="">Fall</W>
 <W lemma="stauen" msd="VA" tag="VVFIN" in="" out="">staut</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="Blut" msd="NC" tag="NN" in="" out="">Blut</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -102,7 +102,7 @@
 <W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Ergebnis" msd="NC" tag="NN" in="" out="">Ergebnis</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="schmerzhaft" msd="AN" tag="ADJA" in="" out="">Schmerzhafte</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="müde" msd="AN" tag="ADJA" in="" out="">müde</W>
@@ -182,7 +182,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="Blut" msd="NC" tag="NN" in="" out="">Blut</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="stauen" msd="VA" tag="VVFIN" in="" out="">staut</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -217,3 +217,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

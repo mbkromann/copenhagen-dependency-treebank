@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="trotzdem" msd="RG" tag="PAV" in="1:contr" out="">Trotzdem</W>
 <W lemma="haben" morph="haben" msd="VA" tag="VAFIN" in="" out="-1:contr|2:subj|3:time|7:dobj|11:pnct">hatte</W>
@@ -13,13 +13,13 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|3:coref|74:coref-var">die</W>
 <W lemma="Insel" morph="Insel" msd="NC" tag="NN" in="-1:nobj" out="">Insel</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-3:coref|1:subj|6:[subj]|11:[subj]|12:[subj]" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="-3:coref|1:subj|6:[subj]|11:[subj]|12:[subj]" out="">Sie</W>
 <W lemma="sollen" morph="sollen" msd="VA" tag="VMFIN" in="" out="-1:subj|5:vobj|12:pnct|13:goal|23:pnct">sollte</W>
 <W lemma="mit" msd="SP" tag="APPR" in="4:pobj" out="1:nobj">mit</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">einem</W>
-<W lemma="international" morph="national -inter/MOD&3a;qual nation +al/DERna&3a;rel.norm" msd="AN" tag="ADJA" in="-1:attr" out="">internationalen</W>
+<W lemma="international" morph="national -inter/MOD:qual nation +al/DERna:rel.norm" msd="AN" tag="ADJA" in="-1:attr" out="">internationalen</W>
 <W lemma="Spielcasino" morph="casino -spiel/func" msd="NC" tag="NN" in="-2:nobj" out="">Spielcasino</W>
-<W lemma="ausgestatten&7c;ausstatten" morph="ausgestatten&7c;ausstatten" msd="VAP" tag="VVPP" in="-5:vobj" out="-4:pobj|-6:[subj]|6:conj">ausgestattet</W>
+<W lemma="ausgestatten|ausstatten" morph="ausgestatten|ausstatten" msd="VAP" tag="VVPP" in="-5:vobj" out="-4:pobj|-6:[subj]|6:conj">ausgestattet</W>
 <W lemma="und" msd="CC" tag="KON" in="5:coord" out="">und</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="3:pobj" out="1:attr|2:nobj">zum</W>
 <W lemma="steuerfrei" msd="AN" tag="ADJA" in="-1:attr" out="">steuerfreien</W>
@@ -148,12 +148,12 @@
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-4:appa" out="1:possd|2:pnct|7:coref">,,Robinsons</W>
 <W lemma="Höhle" msd="NC" tag="NN" in="-1:possd" out="">Höhle</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-2:pnct" out="">"</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-7:coref|1:subj" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="-7:coref|1:subj" out="">Sie</W>
 <W lemma="liegen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:loc|4:conj|27:pnct">liegt</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="-1:loc" out="1:nobj">am</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Steinstrand</W>
@@ -184,3 +184,4 @@
 <W lemma="." msd="XP" tag="$." in="-27:pnct" out="">.</W>
 </s>
 </p>
+</root>

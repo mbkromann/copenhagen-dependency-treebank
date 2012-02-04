@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="1:nobj|4:pnct">Ein</W>
 <W lemma="paar" msd="PI" tag="PIDAT" in="-1:nobj|2:{apart}" out="2:nobj">paar</W>
@@ -17,7 +17,7 @@
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="6:qobj" out="-6:cond|1:subj|4:vobj|5:pnct">wird</W>
 <W lemma="man" msd="PP" tag="PIS" in="-1:subj|3:[subj]" out="">man</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
 <W lemma="danach" msd="RG" tag="PAV" in="1:@loc" out="">danach</W>
 <W lemma="zurücksehnen" msd="VAF" tag="VVINF" in="-4:vobj" out="-3:[subj]|-2:robj|-1:@loc">zurücksehnen</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
@@ -48,7 +48,7 @@
 <W lemma="man" msd="PP" tag="PIS" in="1:subj" out="">man</W>
 <W lemma="riskieren" msd="VAP" tag="VVPP" in="-2:vobj" out="-1:subj|1:pnct|5:nobj|7:time">riskiert</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="3:robj" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj">einen</W>
 <W lemma="Parasit" msd="NC" tag="NN" in="-1:nobj" out="">Parasiten</W>
 <W lemma="einfangen" msd="VAF" tag="VVIZU" in="-5:nobj" out="-2:dobj|-3:robj|1:pnct">einzufangen</W>
@@ -109,12 +109,12 @@
 <W lemma="d" msd="PT" tag="PRELS" in="-1:nobj|-5:ref" out="">dem</W>
 <W lemma="ich" msd="PP" tag="PPER" in="1:subj" out="">ich</W>
 <W lemma="überleben" msd="VA" tag="VVFIN" in="-7:relr" out="-1:subj|-3:accom">überlebte</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-8:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-8:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="3:time" out="1:time">3x</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="-1:time" out="1:nobj">am</W>
 <W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="">Tag</W>
 <W lemma="2" msd="AC" tag="CARD" in="-12:xpl" out="-3:time|1:nobj|4:conj|9:pnct">2</W>
-<W lemma="Tablett&7c;Tablette" msd="NC" tag="NN" in="-1:nobj|1:{apart}" out="1:nobj">Tabletten</W>
+<W lemma="Tablett|Tablette" msd="NC" tag="NN" in="-1:nobj|1:{apart}" out="1:nobj">Tabletten</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="-1:{apart}">Paragurth</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-4:conj" out="-1:coord|1:attr|2:nobj">einen</W>
@@ -135,7 +135,7 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="5:[subj]|7:dobj" out="1:attr|2:nobj">die</W>
 <W lemma="nah" msd="AN" tag="ADJA" in="-1:attr" out="">nächste</W>
-<W lemma="Reis&7c;Reise" msd="NC" tag="NN" in="-2:nobj" out="">Reise</W>
+<W lemma="Reis|Reise" msd="NC" tag="NN" in="-2:nobj" out="">Reise</W>
 <W lemma="nach" msd="SP" tag="APPR" in="2:@dir" out="1:nobj">nach</W>
 <W lemma="Ägypten" msd="NP" tag="NE" in="-1:nobj" out="">Ägypten</W>
 <W lemma="gehen" msd="VAF" tag="VVINF" in="2:vobj" out="-2:@dir|-5:[subj]">gehen</W>
@@ -211,3 +211,4 @@
 <W lemma="'" msd="XP" tag="$(" in="-4:pnct" out="">'</W>
 </s>
 </p>
+</root>

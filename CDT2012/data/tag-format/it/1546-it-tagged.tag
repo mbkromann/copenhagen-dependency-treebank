@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="raccontare" msd="VADR" tag="VER:pres" in="" out="">Racconta</W>
 <W lemma="anche" msd="RG" tag="ADV" in="" out="">anche</W>
@@ -224,3 +224,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

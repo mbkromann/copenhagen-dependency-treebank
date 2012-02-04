@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="achtjährig" msd="AN" tag="ADJA" in="" out="">achtjährige</W>
@@ -13,7 +13,7 @@
 <W lemma="Schädelbruch" msd="NC" tag="NN" in="" out="">Schädelbruch</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="einige" msd="PI" tag="PIAT" in="" out="">einigen</W>
-<W lemma="Schramme&7c;Schrammen" msd="NC" tag="NN" in="" out="">Schrammen</W>
+<W lemma="Schramme|Schrammen" msd="NC" tag="NN" in="" out="">Schrammen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -21,7 +21,7 @@
 <s>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Ein</W>
-<W lemma="Wunde&7c;Wunder" msd="NC" tag="NN" in="" out="">Wunder</W>
+<W lemma="Wunde|Wunder" msd="NC" tag="NN" in="" out="">Wunder</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -41,7 +41,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
 <W lemma="Brunnen" msd="NC" tag="NN" in="" out="">Brunnen</W>
-<W lemma="fallen&7c;gefallen" msd="VAP" tag="VVPP" in="" out="">gefallen</W>
+<W lemma="fallen|gefallen" msd="VAP" tag="VVPP" in="" out="">gefallen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -54,7 +54,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Brunnen" msd="NC" tag="NN" in="" out="">Brunnen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="25" msd="AC" tag="CARD" in="" out="">25</W>
 <W lemma="m." msd="SP" tag="APPR" in="" out="">m.</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -79,7 +79,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">das</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">dieser</W>
-<W lemma="Wind&7c;Winde" msd="NC" tag="NN" in="" out="">Winde</W>
+<W lemma="Wind|Winde" msd="NC" tag="NN" in="" out="">Winde</W>
 <W lemma="verbinden" msd="VAP" tag="VVPP" in="" out="">verbunden</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -206,7 +206,7 @@
 <W lemma="Oberarm" msd="NC" tag="NN" in="" out="">Oberarm</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Schramme&7c;Schrammen" msd="NC" tag="NN" in="" out="">Schrammen</W>
+<W lemma="Schramme|Schrammen" msd="NC" tag="NN" in="" out="">Schrammen</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="" out="">am</W>
 <W lemma="ganz" msd="AN" tag="ADJA" in="" out="">ganzen</W>
 <W lemma="Körper" msd="NC" tag="NN" in="" out="">Körper</W>
@@ -236,3 +236,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,8 +1,8 @@
-<p>
+<root><p>
 <s>
 <W lemma="Inger" msd="NP" tag="NE" in="" out="">Inger</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">Von</W>
 <W lemma="Seite" msd="NC" tag="NN" in="" out="">Seiten</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -24,7 +24,7 @@
 <W lemma="Bodybuilding" msd="NC" tag="NN" in="" out="">Bodybuilding</W>
 <W lemma="berichten" msd="VAF" tag="VVINF" in="" out="">berichten</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="eifersüchtig" msd="AN" tag="ADJD" in="" out="">eifersüchtig</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -68,9 +68,9 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="wir" msd="PR" tag="PRF" in="" out="">uns</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Eleva2ren</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="" out="">am</W>
 <W lemma="Freitag" msd="NC" tag="NN" in="" out="">Freitag</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -82,25 +82,25 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurde</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="etwas" msd="RG" tag="ADV" in="" out="">etwas</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Lustige" msd="NC" tag="NN" in="" out="">Lustiges</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="unser" msd="PO" tag="PPOSAT" in="" out="">unsere</W>
 <W lemma="Muskel" msd="NC" tag="NN" in="" out="">Muskeln</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="sagen" msd="VAF" tag="VVINF" in="" out="">sagen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="nein" msd="RG" tag="PTKANT" in="" out="">Nein</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="" out="">keine</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Hormonrinder</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">Man</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="überhaupt" msd="RG" tag="ADV" in="" out="">überhaupt</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="vorstellen" msd="VAF" tag="VVINF" in="" out="">vorstellen</W>
@@ -124,7 +124,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="warum" msd="PT" tag="PWAV" in="" out="">Warum</W>
 <W lemma="wählen" msd="VA" tag="VVFIN" in="" out="">wählen</W>
 <W lemma="Mädchen" msd="NC" tag="NN" in="" out="">Mädchen</W>
@@ -135,12 +135,12 @@
 <W lemma="maskulin" msd="AN" tag="ADJA" in="" out="">maskuline</W>
 <W lemma="Sportart" msd="NC" tag="NN" in="" out="">Sportart</W>
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">Als</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">ich</W>
 <W lemma="klein" msd="AN" tag="ADJD" in="" out="">klein</W>
@@ -166,7 +166,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Jazzballet</W>
 <W lemma="tanzen" msd="VAP" tag="VVPP" in="" out="">getanzt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Helle" msd="NC" tag="NN" in="" out="">Helle</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -174,10 +174,10 @@
 <W lemma="normalerweise" msd="AN" tag="ADJD" in="" out="">normalerweise</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="Studio" msd="NC" tag="NN" in="" out="">Studio</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Better</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Bodies</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Køge</W>
 <W lemma="leiten" msd="VA" tag="VVFIN" in="" out="">leitet</W>
@@ -190,7 +190,7 @@
 <W lemma="Bodybuilding" msd="NC" tag="NN" in="" out="">Bodybuilding</W>
 <W lemma="anbieten" msd="VA" tag="VVFIN" in="" out="">anbietet</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="" out="">Zum</W>
 <W lemma="Bodybuilding" msd="NC" tag="NN" in="" out="">Bodybuilding</W>
 <W lemma="kommen" msd="VA" tag="VVFIN" in="" out="">kam</W>
@@ -216,3 +216,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

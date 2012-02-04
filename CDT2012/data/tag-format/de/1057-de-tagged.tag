@@ -1,12 +1,12 @@
-<p>
+<root><p>
 <s>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="leicht" msd="AN" tag="ADJD" in="" out="">leicht</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="fromm" msd="AN" tag="ADJA" in="" out="">frommen</W>
 <W lemma="Ärger" msd="NC" tag="NN" in="" out="">Ärger</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
@@ -16,16 +16,16 @@
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
 <W lemma="selbst" msd="RG" tag="ADV" in="" out="">selbst</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Unwissenheit" msd="NC" tag="NN" in="" out="">Unwissenheit</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="halten" msd="VA" tag="VVFIN" in="" out="">hält</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,die</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="" out="">zum</W>
 <W lemma="Himmel" msd="NC" tag="NN" in="" out="">Himmel</W>
 <W lemma="schreien" msd="VA" tag="VVFIN" in="" out="">schreit</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="(" msd="XP" tag="$(" in="" out="">(</W>
 <W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Beinov</W>
@@ -38,7 +38,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Frage" msd="NC" tag="NN" in="" out="">Frage</W>
 <W lemma="stellen" msd="VA" tag="VVFIN" in="" out="">stellt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="doch" msd="RG" tag="ADV" in="" out="">doch</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="ob" msd="CS" tag="KOUS" in="" out="">ob</W>
@@ -57,7 +57,7 @@
 <W lemma="groß" msd="AN" tag="ADJA" in="" out="">größere</W>
 <W lemma="Menge" msd="NC" tag="NN" in="" out="">Menge</W>
 <W lemma="Däne" msd="NC" tag="NN" in="" out="">Dänen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
 <W lemma="einigermaßen" msd="RG" tag="ADV" in="" out="">einigermaßen</W>
@@ -142,7 +142,7 @@
 <W lemma="Erwachsene" msd="NC" tag="NN" in="" out="">Erwachsener</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="Roman&7c;Romane" msd="NC" tag="NN" in="" out="">Romane</W>
+<W lemma="Roman|Romane" msd="NC" tag="NN" in="" out="">Romane</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="lesen" msd="VAF" tag="VVINF" in="" out="">lesen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -155,9 +155,9 @@
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
 <W lemma="normalerweise" msd="AN" tag="ADJD" in="" out="">normalerweise</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="nachschlagen" msd="VA" tag="VVFIN" in="" out="">nachschlagen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="genau" msd="AN" tag="ADJD" in="" out="">genau</W>
 <W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
@@ -191,7 +191,7 @@
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="Kenntnis" msd="NC" tag="NN" in="" out="">Kenntnissen</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="verändern" msd="VAP" tag="VVPP" in="" out="">verändert</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="manch" msd="PP" tag="PIS" in="" out="">manche</W>
@@ -210,3 +210,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

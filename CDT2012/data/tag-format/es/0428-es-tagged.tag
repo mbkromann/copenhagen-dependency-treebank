@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="alguno" msd="AN" tag="QU" in="" out="">Algunos</W>
 <W lemma="avión" msd="NC" tag="NC" in="" out="">aviones</W>
@@ -127,6 +127,8 @@
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
 <W lemma="deber" msd="VAD" tag="VLfin" in="" out="">deberíais</W>
 <W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">encontraros</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
@@ -154,6 +156,8 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
+</s>
+</p>
 <p>
 <s>
 <W lemma="-" msd="XP" tag="DASH" in="" out="">-</W>
@@ -199,6 +203,8 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
+</s>
+</p>
 <p>
 <s>
 <W lemma="-" msd="XP" tag="DASH" in="" out="">-</W>
@@ -218,6 +224,8 @@
 <s>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">En</W>
 <W lemma="todo" msd="AN" tag="QU" in="" out="">todo</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="caso" msd="NC" tag="NC" in="" out="">caso</W>
@@ -230,3 +238,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

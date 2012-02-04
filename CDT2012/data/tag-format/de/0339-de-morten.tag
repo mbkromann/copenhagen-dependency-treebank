@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Oluf" msd="NP" tag="NE" in="1:namef" out="">Oluf</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:subj|4:[subj]|7:[subj]" out="-1:namef">Terp</W>
@@ -41,7 +41,7 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="-5:relr" out="-4:pnct|-3:subj|-2:time|-1:vobj|1:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dürfen" msd="VA" tag="VMFIN" in="" out="-7:subj|2:neg|3:vobj|4:pnct">darf</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-2:neg" out="">nicht</W>
 <W lemma="wiederholen" msd="VAF" tag="VVINF" in="-3:vobj" out="-10:[subj]|-2:robj">wiederholen</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
@@ -98,7 +98,7 @@
 <W lemma="Art" msd="NC" tag="NN" in="-1:nobj" out="">Art</W>
 <W lemma="," msd="XP" tag="$," in="-7:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="5:subj|4:[subj]|-8:ref" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="3:dobj" out="">sich</W>
 <W lemma="ins" msd="SP+P" tag="APPRART" in="2:@dir" out="1:nobj">ins</W>
 <W lemma="Land" msd="NC" tag="NN" in="-1:nobj" out="">Land</W>
 <W lemma="schleichen" msd="VAP" tag="VVPP" in="1:vobj" out="-4:[subj]|-3:dobj|-2:@dir">geschlichen</W>
@@ -196,7 +196,7 @@
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj" out="">er</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="-3:qobj" out="-8:pnct|-7:subj|6:vobj">müssen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="5:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="5:dobj" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="4:pobj" out="1:nobj">um</W>
 <W lemma="ander" msd="PP" tag="PIS" in="-1:nobj" out="1:attr|2:nobj">andere</W>
 <W lemma="gut" msd="AN" tag="ADJA" in="-1:attr" out="">gute</W>
@@ -216,7 +216,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">das</W>
 <W lemma="Vaterland" msd="NC" tag="NN" in="-1:nobj" out="">Vaterland</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-6:nobj" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="leisten" msd="VAF" tag="VVINF" in="-1:vobj" out="-5:dobj|-4:goal">leisten</W>
+<W _noerror=":nosubj:" lemma="leisten" msd="VAF" tag="VVINF" in="-1:vobj" out="-5:dobj|-4:goal">leisten</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
 <W lemma="worauf" msd="PT" tag="PWAV" in="2:pobj" out="-7:[nobj]">worauf</W>
 <W lemma="es" msd="PP" tag="PPER" in="2:subj" out="">es</W>
@@ -225,3 +225,4 @@
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 </s>
 </p>
+</root>

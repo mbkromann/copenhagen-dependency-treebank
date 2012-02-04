@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Polen" msd="NP" tag="NE" in="" out="">Polen</W>
@@ -30,7 +30,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="Torwart" msd="NC" tag="NN" in="" out="">Torwarts</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Spielablauf" msd="NC" tag="NN" in="" out="">Spielablauf</W>
 <W lemma="vollkommen" msd="AN" tag="ADJD" in="" out="">vollkommen</W>
@@ -44,9 +44,9 @@
 <W lemma="Reservespieler" msd="NC" tag="NN" in="" out="">Reservespieler</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Onyszko</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="kalt" msd="AN" tag="ADJD" in="" out="">kalt</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="einspielen" msd="VAP" tag="VVPP" in="" out="">eingespielt</W>
@@ -82,7 +82,7 @@
 <W lemma="selten" msd="AN" tag="ADJD" in="" out="">selten</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="etwas" msd="PP" tag="PIS" in="" out="">etwas</W>
-<W lemma="fahren&7c;führen" msd="VA" tag="VVFIN" in="" out="">führen</W>
+<W lemma="fahren|führen" msd="VA" tag="VVFIN" in="" out="">führen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="führen" msd="VA" tag="VVFIN" in="" out="">führten</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
@@ -205,7 +205,7 @@
 <W lemma="sowohl" msd="CC" tag="KON" in="" out="">sowohl</W>
 <W lemma="jed" msd="PP" tag="PIS" in="" out="">jeder</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">als</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
@@ -226,9 +226,10 @@
 <W lemma="Aufstellung" msd="NC" tag="NN" in="" out="">Aufstellung</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
-<W lemma="Rückrund&7c;Rückrunde" msd="NC" tag="NN" in="" out="">Rückrunde</W>
+<W lemma="Rückrund|Rückrunde" msd="NC" tag="NN" in="" out="">Rückrunde</W>
 <W lemma="Problem" msd="NC" tag="NN" in="" out="">Probleme</W>
 <W lemma="bekommen" msd="VA" tag="VVFIN" in="" out="">bekommt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

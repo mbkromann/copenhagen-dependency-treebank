@@ -1,8 +1,8 @@
-<p>
+<root><p>
 <s>
 <W lemma="Michael" msd="NP" tag="NE" in="" out="">Michael</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ja" msd="RG" tag="PTKANT" in="" out="">ja</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="denn" msd="CC" tag="KON" in="" out="">denn</W>
@@ -108,7 +108,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="hören" msd="VA" tag="VVFIN" in="" out="">hörte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="einfach" msd="AN" tag="ADJD" in="" out="">einfach</W>
 <W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
 <W lemma="entsetzlich" msd="AN" tag="ADJD" in="" out="">entsetzlich</W>
@@ -125,14 +125,14 @@
 <W lemma="Abschneiden" msd="NC" tag="NN" in="" out="">Abschneiden</W>
 <W lemma="beitragen" msd="VAP" tag="VVPP" in="" out="">beigetragen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="anders" msd="RG" tag="ADV" in="" out="">Anders</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="außerdem" msd="RG" tag="ADV" in="" out="">Außerdem</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">muss</W>
 <W lemma="DR" msd="NP" tag="NE" in="" out="">DR</W>
@@ -143,7 +143,7 @@
 <W lemma="nichts" msd="PP" tag="PIS" in="" out="">nichts</W>
 <W lemma="nützen" msd="VA" tag="VVFIN" in="" out="">nützt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
@@ -219,6 +219,7 @@
 <W lemma="Ergebnis" msd="NC" tag="NN" in="" out="">Ergebnis</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
+</root>

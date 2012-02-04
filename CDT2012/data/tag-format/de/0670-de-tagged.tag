@@ -1,11 +1,11 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Bruderschaft" msd="NC" tag="NN" in="" out="">Bruderschaft</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Johanniter</W>
 <W lemma="treffen" msd="VA" tag="VVFIN" in="" out="">trifft</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="einmal" msd="RG" tag="ADV" in="" out="">einmal</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="" out="">Jahr</W>
@@ -63,7 +63,7 @@
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">dieses</W>
 <W lemma="Krankenhaus" msd="NC" tag="NN" in="" out="">Krankenhaus</W>
 <W lemma="bilden" msd="VA" tag="VVFIN" in="" out="">bildete</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="adelig" msd="AN" tag="ADJA" in="" out="">adeliger</W>
 <W lemma="Ritterorden" msd="NC" tag="NN" in="" out="">Ritterorden</W>
@@ -82,7 +82,7 @@
 <W lemma="krank" msd="AN" tag="ADJA" in="" out="">kranken</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="arm" msd="AN" tag="ADJA" in="" out="">armen</W>
-<W lemma="Pilger&7c;Pilgern" msd="NC" tag="NN" in="" out="">Pilgern</W>
+<W lemma="Pilger|Pilgern" msd="NC" tag="NN" in="" out="">Pilgern</W>
 <W lemma="helfen" msd="VAF" tag="VVINF" in="" out="">halfen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -97,7 +97,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Johanniterritter</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
-<W lemma="Heilige&7c;Heiligen" msd="NC" tag="NN" in="" out="">Heiligen</W>
+<W lemma="Heilige|Heiligen" msd="NC" tag="NN" in="" out="">Heiligen</W>
 <W lemma="Land" msd="NC" tag="NN" in="" out="">Land</W>
 <W lemma="ausweisen" msd="VAP" tag="VVPP" in="" out="">ausgewiesen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -105,7 +105,7 @@
 <W lemma="seither" msd="RG" tag="ADV" in="" out="">seither</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">vielen</W>
-<W lemma="Ort&7c;Orten" msd="NC" tag="NN" in="" out="">Orten</W>
+<W lemma="Ort|Orten" msd="NC" tag="NN" in="" out="">Orten</W>
 <W lemma="Europa" msd="NP" tag="NE" in="" out="">Europas</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="knapp" msd="AN" tag="ADJD" in="" out="">knapp</W>
@@ -196,7 +196,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="offensichtlich" msd="AN" tag="ADJD" in="" out="">offensichtlich</W>
 <W lemma="snobistisch" msd="AN" tag="ADJA" in="" out="">snobistische</W>
-<W lemma="Strebe&7c;Streben" msd="NC" tag="NN" in="" out="">Streben</W>
+<W lemma="Strebe|Streben" msd="NC" tag="NN" in="" out="">Streben</W>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">nach</W>
 <W lemma="Titel" msd="NC" tag="NN" in="" out="">Titeln</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -211,3 +211,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

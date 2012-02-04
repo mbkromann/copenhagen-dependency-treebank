@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Postfach" msd="NC" tag="NN" in="" out="1:nobj|6:other">Postfach</W>
 <W lemma="64" msd="AC" tag="CARD" in="-1:nobj" out="">64</W>
@@ -31,7 +31,7 @@
 <W lemma="wie" msd="CS" tag="KOUS" in="-2:nobj" out="5:vobj">wie</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="3:[subj]|4:subj" out="1:nobj">ein</W>
 <W lemma="Arbeitslose" msd="NC" tag="NN" in="-1:nobj" out="">Arbeitsloser</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
 <W lemma="bloßstellen" msd="VAP" tag="VVPP" in="1:vobj" out="-3:[subj]">bloßgestellt</W>
 <W lemma="fühlen" msd="VA" tag="VVFIN" in="-5:vobj" out="-4:subj|-1:vobj|-2:robj|1:pnct|2:cause">fühlt</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -64,7 +64,7 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|-1:vobj">würde</W>
 <W lemma="(" msd="XP" tag="$(" in="1:pnct" out="">(</W>
 <W lemma="Foto" msd="NC" tag="NN" in="" out="-1:pnct|1:pnct|3:agent|4:pnct">Foto</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-1:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-1:pnct" out="">:</W>
 <W lemma="Bent" msd="NP" tag="NE" in="1:namef" out="">Bent</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:agent" out="-1:namef">Rej</W>
 <W lemma=")" msd="XP" tag="$(" in="-4:pnct" out="">)</W>
@@ -112,10 +112,10 @@
 <W lemma="ich" msd="PR" tag="PRF" in="7:robj" out="">mich</W>
 <W lemma="aufgrund" msd="SP" tag="APPR" in="6:other" out="1:pobj">aufgrund</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">von</W>
-<W lemma="Stellenanzeige&7c;Stellenanzeigen" msd="NC" tag="NN" in="-1:nobj" out="">Stellenanzeigen</W>
+<W lemma="Stellenanzeige|Stellenanzeigen" msd="NC" tag="NN" in="-1:nobj" out="">Stellenanzeigen</W>
 <W lemma="auf" msd="SP" tag="APPR" in="3:pobj" out="2:nobj">auf</W>
 <W lemma="unzählig" msd="AN" tag="ADJA" in="1:attr" out="">unzählige</W>
-<W lemma="Stelle&7c;Stellen" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Stellen</W>
+<W lemma="Stelle|Stellen" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Stellen</W>
 <W lemma="bewerben" msd="VAP" tag="VVPP" in="-9:vobj" out="-7:robj|-8:[subj]|-3:pobj|-6:other|6:conj">beworben</W>
 <W lemma="," msd="XP" tag="$," in="-10:pnct" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="4:coord" out="">aber</W>
@@ -146,7 +146,7 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="um" msd="CS" tag="KOUI" in="-7:goal" out="3:nobj">um</W>
 <W lemma="mein" msd="PO" tag="PPOSAT" in="1:{poss}|3:dobj" out="1:possd">meine</W>
-<W lemma="Schuld&7c;Schulden" msd="NC" tag="NN" in="-1:possd" out="-1:{poss}">Schulden</W>
+<W lemma="Schuld|Schulden" msd="NC" tag="NN" in="-1:possd" out="-1:{poss}">Schulden</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-3:nobj" out="1:vobj">zu</W>
 <W lemma="reduzieren" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:dobj|-16:[subj]|1:pnct">reduzieren</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -214,6 +214,7 @@
 <W lemma="hier" msd="RG" tag="ADV" in="1:focal" out="">Hier</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="-1:focal|1:nobj|2:pnct">die</W>
 <W lemma="Berechnung" msd="NC" tag="NN" in="-1:nobj" out="">Berechnung</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-2:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-2:pnct" out="">:</W>
 </s>
 </p>
+</root>

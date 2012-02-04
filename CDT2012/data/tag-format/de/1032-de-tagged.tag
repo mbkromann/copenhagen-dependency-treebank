@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="nachweislich" msd="AN" tag="ADJD" in="" out="">Nachweislich</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
@@ -26,7 +26,7 @@
 <W lemma="Arbeitskraft" msd="NC" tag="NN" in="" out="">Arbeitskraft</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">der</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">durch</W>
 <W lemma="Planung" msd="NC" tag="NN" in="" out="">Planung</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
@@ -43,7 +43,7 @@
 <W lemma="Schwankung" msd="NC" tag="NN" in="" out="">Schwankungen</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="gewiß" msd="AN" tag="ADJA" in="" out="">gewissen</W>
-<W lemma="Erwerbszweig&7c;Erwerbszweigen" msd="NC" tag="NN" in="" out="">Erwerbszweigen</W>
+<W lemma="Erwerbszweig|Erwerbszweigen" msd="NC" tag="NN" in="" out="">Erwerbszweigen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Witterungsprobleme</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -73,7 +73,7 @@
 <W lemma="zurück" msd="RG" tag="PTKVZ" in="" out="">zurück</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="führen" msd="VAF" tag="VVINF" in="" out="">führen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="Ernte" msd="NC" tag="NN" in="" out="">Ernte</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Saat" msd="NC" tag="NN" in="" out="">Saat</W>
@@ -87,7 +87,7 @@
 <W lemma=")" msd="XP" tag="$(" in="" out="">)</W>
 <W lemma="oder" msd="CC" tag="KON" in="" out="">oder</W>
 <W lemma="Kundenwunsch" msd="NC" tag="NN" in="" out="">Kundenwünsche</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="Weihnachtsbaum" msd="NC" tag="NN" in="" out="">Weihnachtsbäume</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="schmückend" msd="AN" tag="ADJA" in="" out="">schmückendes</W>
@@ -98,7 +98,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Blumenzucht" msd="NC" tag="NN" in="" out="">Blumenzucht</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
-<W lemma="Weihnacht&7c;Weihnachten" msd="NC" tag="NN" in="" out="">Weihnachten</W>
+<W lemma="Weihnacht|Weihnachten" msd="NC" tag="NN" in="" out="">Weihnachten</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Muttertag" msd="NC" tag="NN" in="" out="">Muttertag</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -121,7 +121,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Gärtnerei" msd="NC" tag="NN" in="" out="">Gärtnereien</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="Baumschule&7c;Baumschulen" msd="NC" tag="NN" in="" out="">Baumschulen</W>
+<W lemma="Baumschule|Baumschulen" msd="NC" tag="NN" in="" out="">Baumschulen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Parkgärtnern</W>
 <W lemma="etc." msd="RG" tag="ADV" in="" out="">etc.</W>
@@ -266,3 +266,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

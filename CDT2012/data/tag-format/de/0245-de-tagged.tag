@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="damit" msd="RG" tag="PAV" in="" out="">Damit</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
@@ -55,7 +55,7 @@
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="dafür" msd="RG" tag="PAV" in="" out="">dafür</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="interessieren" msd="VAF" tag="VVINF" in="" out="">interessieren</W>
@@ -73,7 +73,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="wie" msd="CS" tag="KOUS" in="" out="">wie</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="einander" msd="PR" tag="PRF" in="" out="">einander</W>
 <W lemma="bewegen" msd="VAF" tag="VVINF" in="" out="">bewegen</W>
@@ -105,7 +105,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="jeweils" msd="RG" tag="ADV" in="" out="">jeweils</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="Reihe" msd="NC" tag="NN" in="" out="">Reihe</W>
 <W lemma="Beobachtung" msd="NC" tag="NN" in="" out="">Beobachtungen</W>
@@ -124,7 +124,7 @@
 <W lemma="man" msd="PP" tag="PIS" in="" out="">Man</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="" out="">große</W>
-<W lemma="Summe&7c;Summen" msd="NC" tag="NN" in="" out="">Summen</W>
+<W lemma="Summe|Summen" msd="NC" tag="NN" in="" out="">Summen</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Bau" msd="NC" tag="NN" in="" out="">Bau</W>
@@ -200,3 +200,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">Zu</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einem</W>
@@ -21,7 +21,7 @@
 <W lemma="passieren" msd="VA" tag="VVFIN" in="" out="">passierte</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="was" msd="PT" tag="PRELS" in="" out="">was</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Tribüne" msd="NC" tag="NN" in="" out="">Tribünen</W>
@@ -93,9 +93,9 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="Dynamit" msd="NC" tag="NN" in="" out="">Dynamit</W>
 <W lemma="zu" msd="RG" tag="PTKVZ" in="" out="">zu</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="zünden" msd="VA" tag="VVFIN" in="" out="">zünden</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="John" msd="NP" tag="NE" in="" out="">John</W>
@@ -200,7 +200,7 @@
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="deutlich" msd="AN" tag="ADJD" in="" out="">deutlich</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -234,3 +234,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

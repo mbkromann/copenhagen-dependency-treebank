@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="dein" msd="PO" tag="PPOSAT" in="" out="">Deine</W>
 <W lemma="Genauigkeit" msd="NC" tag="NN" in="" out="">Genauigkeit</W>
@@ -19,7 +19,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Golfplatz" msd="NC" tag="NN" in="" out="">Golfplatz</W>
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Nee</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="was" msd="PT" tag="PWS" in="" out="">Was</W>
@@ -143,7 +143,7 @@
 <W lemma="ein" msd="PP" tag="PIS" in="" out="">einer</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="rot" msd="AN" tag="ADJA" in="" out="">roten</W>
-<W lemma="Tür&7c;Türe" msd="NC" tag="NN" in="" out="">Türen</W>
+<W lemma="Tür|Türe" msd="NC" tag="NN" in="" out="">Türen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="dort" msd="RG" tag="ADV" in="" out="">Dort</W>
 <W lemma="wohnen" msd="VA" tag="VVFIN" in="" out="">wohne</W>
@@ -171,7 +171,7 @@
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="Golf" msd="NC" tag="NN" in="" out="">Golf</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="20" msd="AC" tag="CARD" in="" out="">20</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
@@ -198,7 +198,7 @@
 <W lemma="missen" msd="VAF" tag="VVINF" in="" out="">missen</W>
 <W lemma="mögen" msd="VA" tag="VMFIN" in="" out="">möchte</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="unterstützen" msd="VA" tag="VVFIN" in="" out="">unterstützt</W>
 <W lemma="ich" msd="PR" tag="PRF" in="" out="">mich</W>
 <W lemma="immer" msd="RG" tag="ADV" in="" out="">immer</W>
@@ -208,3 +208,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

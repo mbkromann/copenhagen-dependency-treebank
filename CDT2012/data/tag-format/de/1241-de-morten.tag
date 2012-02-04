@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="7:subj" out="1:attr|2:nobj">Die</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="-1:attr" out="">dänischen</W>
@@ -14,7 +14,7 @@
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="3:subj|7:[subj]|8:[subj]" out="1:namef">ABBA</W>
 <W lemma="&lt;unknown&gt;" msd="NP" note="skal deles" tag="NE" in="-1:namef" out="1:pnct">,,Gold</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:subj|5:vobj|6:pnct|16:pnct">ist</W>
 <W lemma="massiv" msd="AN" tag="ADJD" in="3:man" out="">massiv</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="2:@loc" out="1:nobj">im</W>
@@ -30,7 +30,7 @@
 <W lemma="ander" msd="AN" tag="ADJA" in="-2:conj" out="-1:coord|1:attr|2:nobj">andere</W>
 <W lemma="&lt;unknown&gt;" msd="NC" note="skal deles" tag="NN" in="-1:attr" out="">,,greatest</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="-2:nobj" out="1:pnct">hits</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
 </s>
 </p>
@@ -65,7 +65,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="-8:ref|6:subj" out="">die</W>
 <W lemma="nur" msd="RG" tag="ADV" in="5:quant" out="">nur</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="4:dobj" out="1:nobj">3-4</W>
-<W lemma="Platte&7c;Platten" msd="NC" tag="NN" in="-1:nobj" out="">Platten</W>
+<W lemma="Platte|Platten" msd="NC" tag="NN" in="-1:nobj" out="">Platten</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="2:time" out="1:nobj">im</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahr</W>
 <W lemma="kaufen" msd="VA" tag="VVFIN" in="-14:relr" out="-5:quant|-4:dobj|-6:subj|-2:time">kaufen</W>
@@ -96,7 +96,7 @@
 <W lemma="Fernsehen" msd="NC" tag="NN" in="-1:nobj" out="">Fernsehen</W>
 <W lemma="Reklame" msd="NC" tag="NN" in="1:dobj" out="-4:pobj">Reklame</W>
 <W lemma="sehen" msd="VAF" tag="VVINF" in="-7:relr" out="-4:subj|-1:dobj|-3:loc">sehen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-11:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-11:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="-12:pnct" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-13:qobj|2:subj|12:pnct">sagt</W>
 <W lemma="Stefan" msd="NP" tag="NE" in="1:namef" out="">Stefan</W>
@@ -182,7 +182,7 @@
 <W lemma="Fernsehspot" msd="NC" tag="NN" in="2:subj" out="">Fernsehspots</W>
 <W lemma="schädlich" msd="AN" tag="ADJD" in="1:preds" out="">schädlich</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-3:vobj" out="-2:subj|-1:preds">sind</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-11:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-11:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="-12:pnct" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-13:qobj|1:subj|2:pnct">sagt</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj" out="">er</W>
@@ -227,3 +227,4 @@
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="dejar" msd="VAD" tag="VLfin" in="" out="">Dejemos</W>
 <W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
@@ -211,3 +211,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

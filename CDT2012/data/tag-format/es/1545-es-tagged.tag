@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="paralelo" msd="RG" tag="ADV" in="" out="">Paralelamente</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
@@ -231,3 +231,4 @@
 <W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>
 </s>
 </p>
+</root>

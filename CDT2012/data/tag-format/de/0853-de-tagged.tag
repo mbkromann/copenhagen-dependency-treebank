@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">Steffensen</W>
 <W lemma="Direktor" msd="NC" tag="NN" in="" out="">Direktor</W>
@@ -133,7 +133,7 @@
 <W lemma="Schluß" msd="NC" tag="NN" in="" out="">Schluss</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
 <W lemma="Bing" msd="NP" tag="NE" in="" out="">Bing</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">&amp</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">&amp;</W>
 <W lemma=";" msd="XP" tag="$." in="" out="">;</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Grøndahl</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Inc.</W>
@@ -152,7 +152,7 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">Mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="unterschiedlich" msd="AN" tag="ADJA" in="" out="">unterschiedlichen</W>
-<W lemma="Stelle&7c;Stellen" msd="NC" tag="NN" in="" out="">Stellen</W>
+<W lemma="Stelle|Stellen" msd="NC" tag="NN" in="" out="">Stellen</W>
 <W lemma="folgen" msd="VA" tag="VVFIN" in="" out="">folgten</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Vertrauensaufgaben</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
@@ -196,3 +196,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

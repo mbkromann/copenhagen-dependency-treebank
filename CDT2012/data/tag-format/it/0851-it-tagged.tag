@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="">Nel</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">1967</W>
@@ -71,7 +71,7 @@
 <W lemma="nuovo" msd="AN" tag="ADJ" in="" out="">nuovo</W>
 <W lemma="editore" msd="NC" tag="NOM" in="" out="">editore</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Lindhardt</W>
-<W lemma="&" msd="XS" tag="SYM" in="" out="">&</W>
+<W lemma="&amp;" msd="XS" tag="SYM" in="" out="">&amp;</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Ringhof</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
@@ -228,3 +228,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

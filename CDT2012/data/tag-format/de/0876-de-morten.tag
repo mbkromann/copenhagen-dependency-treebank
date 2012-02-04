@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="warm" msd="AN" tag="ADJA" in="1:attr" out="">Warme</W>
 <W lemma="Waffel" msd="NC" tag="NN" in="" out="-1:attr|3:conj">Waffeln</W>
@@ -93,20 +93,20 @@
 <W lemma="1" msd="AC" tag="CARD" in="3:@time" out="-1:quant|1:nobj|2:aobj">1</W>
 <W lemma="Stunde" msd="NC" tag="NN" in="-1:nobj" out="">Stunde</W>
 <W lemma="lang" msd="AN" tag="ADJD" in="-2:aobj" out="">lang</W>
-<W _noerror="&3a;nosubj&3a;" lemma="gehen" msd="VAF" tag="VVINF" in="1:vobj" out="-7:dobj|-5:fpredo|-3:@time">gehen</W>
+<W _noerror=":nosubj:" lemma="gehen" msd="VAF" tag="VVINF" in="1:vobj" out="-7:dobj|-5:fpredo|-3:@time">gehen</W>
 <W lemma="lassen" msd="VA" tag="VVFIN" in="" out="-1:vobj|1:pnct">lassen</W>
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
 <W lemma="er" msd="PP" tag="PPER" in="-10:coref|1:subj|6:[subj]" out="">Er</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="-1:subj|1:add|5:vobj|6:pnct">kann</W>
 <W lemma="auch" msd="RG" tag="ADV" in="-1:add" out="">auch</W>
 <W lemma="mehrere" msd="PI" tag="PIAT" in="3:time" out="1:nobj|2:aobj">mehrere</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="-1:nobj" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="-1:nobj" out="">Stunden</W>
 <W lemma="lang" msd="AN" tag="ADJD" in="-2:aobj" out="">lang</W>
 <W lemma="stehen" msd="VAF" tag="VVINF" in="-5:vobj" out="-3:time|-6:[subj]">stehen</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 <W lemma="vor" msd="SP" tag="APPR" in="8:time" out="1:nobj">Vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
-<W lemma="Back&7c;Backe&7c;Backen" msd="NC" tag="NN" in="-1:nobj" out="1:gobj.dobj|1:{patient}">Backen</W>
+<W lemma="Back|Backe|Backen" msd="NC" tag="NN" in="-1:nobj" out="1:gobj.dobj|1:{patient}">Backen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:gobj.dobj|-1:{patient}" out="1:nobj">der</W>
 <W lemma="Waffel" msd="NC" tag="NN" in="-1:nobj" out="">Waffeln</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="3:dobj" out="1:nobj">den</W>
@@ -115,7 +115,7 @@
 <W lemma="zusammenrühren" msd="VA" tag="VVFIN" in="" out="-3:dobj|-1:man|-8:time|1:pnct">zusammenrühren</W>
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj|4:[subj]" out="1:nobj">Das</W>
-<W lemma="Waffeleise&7c;Waffeleisen" msd="NC" tag="NN" in="-1:nobj" out="">Waffeleisen</W>
+<W lemma="Waffeleise|Waffeleisen" msd="NC" tag="NN" in="-1:nobj" out="">Waffeleisen</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-2:subj|2:vobj|3:pnct">muss</W>
 <W lemma="warm" msd="AN" tag="ADJD" in="1:preds" out="">warm</W>
 <W lemma="sein" msd="VAF" tag="VAINF" in="-2:vobj" out="-4:[subj]|-1:preds">sein</W>
@@ -124,7 +124,7 @@
 <W lemma="mit" msd="SP" tag="APPR" in="2:pobj" out="1:nobj">mit</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Teflon</W>
 <W lemma="beschichtet" msd="AN" tag="ADJA" in="-3:attr" out="-2:pobj">beschichtetes</W>
-<W lemma="Waffeleise&7c;Waffeleisen" msd="NC" tag="NN" in="-4:nobj" out="">Waffeleisen</W>
+<W lemma="Waffeleise|Waffeleisen" msd="NC" tag="NN" in="-4:nobj" out="">Waffeleisen</W>
 <W lemma="brauchen" msd="VA" tag="VVFIN" in="" out="-5:subj|1:neg|3:nobj|5:pnct|17:pnct|6:contr">braucht</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
 <W lemma="fetten" msd="VAP" tag="VVPP" in="2:vobj" out="-7:[subj]">gefettet</W>
@@ -159,7 +159,7 @@
 <W lemma="direkt" msd="AN" tag="ADJD" in="4:man" out="1:@dir">direkt</W>
 <W lemma="aus" msd="SP" tag="APPR" in="-1:@dir" out="1:nobj">aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
-<W lemma="Waffeleise&7c;Waffeleisen" msd="NC" tag="NN" in="-1:nobj" out="">Waffeleisen</W>
+<W lemma="Waffeleise|Waffeleisen" msd="NC" tag="NN" in="-1:nobj" out="">Waffeleisen</W>
 <W lemma="servieren" msd="VA" tag="VVFIN" in="" out="-8:dobj|-4:man|1:pnct">servieren</W>
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
 <W lemma="dazu" msd="RG" tag="PAV" in="8:avobj" out="">Dazu</W>
@@ -188,3 +188,4 @@
 <W lemma="Ofen" msd="NC" tag="NN" in="-1:nobj" out="">Ofen</W>
 </s>
 </p>
+</root>

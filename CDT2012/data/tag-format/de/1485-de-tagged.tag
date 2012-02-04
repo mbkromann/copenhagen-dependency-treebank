@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">SIE</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatten</W>
@@ -34,7 +34,7 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">kameradschaftlichem</W>
 <W lemma="Geist" msd="NC" tag="NN" in="" out="">Geist</W>
 <W lemma="aufnehmen" msd="VAP" tag="VVPP" in="" out="">aufgenommen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gab</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="" out="">keine</W>
@@ -151,13 +151,13 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="jed" msd="PI" tag="PIDAT" in="" out="">jeder</W>
-<W lemma="Eck&7c;Ecke" msd="NC" tag="NN" in="" out="">Ecke</W>
+<W lemma="Eck|Ecke" msd="NC" tag="NN" in="" out="">Ecke</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="zeigen" msd="VA" tag="VVFIN" in="" out="">zeigten</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="Karte" msd="NC" tag="NN" in="" out="">Karte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
-<W lemma="Reich&7c;Reiche" msd="NC" tag="NN" in="" out="">Reiches</W>
+<W lemma="Reich|Reiche" msd="NC" tag="NN" in="" out="">Reiches</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="aufgeklebt" msd="AN" tag="ADJA" in="" out="">aufgeklebtem</W>
 <W lemma="Hakenkreuz" msd="NC" tag="NN" in="" out="">Hakenkreuz</W>
@@ -177,21 +177,21 @@
 <W lemma="völlig" msd="AN" tag="ADJD" in="" out="">völlig</W>
 <W lemma="exaltiert" msd="AN" tag="ADJA" in="" out="">exaltierter</W>
 <W lemma="Stimme" msd="NC" tag="NN" in="" out="">Stimme</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="deutsch" msd="AN" tag="ADJA" in="" out="">Deutsches</W>
 <W lemma="Volk" msd="NC" tag="NN" in="" out="">Volk</W>
 <W lemma="!" msd="XP" tag="$." in="" out="">!</W>
 <W lemma="bereiten" msd="VA" tag="VVFIN" in="" out="">Bereiten</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="wichtig" msd="AN" tag="ADJA" in="" out="">wichtige</W>
 <W lemma="Mitteilung" msd="NC" tag="NN" in="" out="">Mitteilung</W>
 <W lemma="vor" msd="RG" tag="PTKVZ" in="" out="">vor</W>
 <W lemma="!" msd="XP" tag="$." in="" out="">!</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="früh" msd="AN" tag="ADJD" in="" out="">Früher</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
@@ -209,3 +209,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

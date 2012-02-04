@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Schnee" msd="NC" tag="NN" in="" out="">Schnee</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
@@ -129,7 +129,7 @@
 <W lemma="Zug" msd="NC" tag="NN" in="" out="">Zug</W>
 <W lemma="aufgrund" msd="SP" tag="APPR" in="" out="">aufgrund</W>
 <W lemma="eingefroren" msd="AN" tag="ADJA" in="" out="">eingefrorener</W>
-<W lemma="Weiche&7c;Weichen" msd="NC" tag="NN" in="" out="">Weichen</W>
+<W lemma="Weiche|Weichen" msd="NC" tag="NN" in="" out="">Weichen</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="weit" msd="AN" tag="ADJD" in="" out="">weiter</W>
 <W lemma="fahren" msd="VAF" tag="VVINF" in="" out="">fahren</W>
@@ -150,7 +150,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="lassen" msd="VAM" tag="VVIMP" in="" out="">Lass</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">uns</W>
 <W lemma="doch" msd="RG" tag="ADV" in="" out="">doch</W>
@@ -158,7 +158,7 @@
 <W lemma="Taxi" msd="NC" tag="NN" in="" out="">Taxi</W>
 <W lemma="nehmen" msd="VA" tag="VVFIN" in="" out="">nehmen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="rufen" msd="VA" tag="VVFIN" in="" out="">rief</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">ich</W>
 <W lemma="mein" msd="PO" tag="PPOSAT" in="" out="">meiner</W>
@@ -175,8 +175,8 @@
 <W lemma="Sprößling" msd="NC" tag="NN" in="" out="">Sprössling</W>
 <W lemma="antworten" msd="VA" tag="VVFIN" in="" out="">antwortete</W>
 <W lemma="sofort" msd="RG" tag="ADV" in="" out="">sofort</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="">Wollen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
@@ -186,7 +186,7 @@
 <W lemma="essen" msd="VA" tag="VVFIN" in="" out="">essen</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">..</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -212,3 +212,4 @@
 <W lemma="..." msd="XP" tag="$(" in="" out="">...</W>
 </s>
 </p>
+</root>

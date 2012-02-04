@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
@@ -11,7 +11,7 @@
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Erkenntnis" msd="NC" tag="NN" in="" out="">Erkenntnis</W>
-<W lemma="gelangen&7c;langen" msd="VAP" tag="VVPP" in="" out="">gelangt</W>
+<W lemma="gelangen|langen" msd="VAP" tag="VVPP" in="" out="">gelangt</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
@@ -74,7 +74,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Aufgabe" msd="NC" tag="NN" in="" out="">Aufgaben</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="Last&7c;Lasten" msd="NC" tag="NN" in="" out="">Lasten</W>
+<W lemma="Last|Lasten" msd="NC" tag="NN" in="" out="">Lasten</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="öffentlich" msd="AN" tag="ADJA" in="" out="">öffentlichen</W>
 <W lemma="Sektor" msd="NC" tag="NN" in="" out="">Sektors</W>
@@ -213,3 +213,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

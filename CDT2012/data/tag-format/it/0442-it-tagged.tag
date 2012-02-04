@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="venerdì" msd="NC" tag="NOM" in="" out="">Venerdì</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
@@ -228,3 +228,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

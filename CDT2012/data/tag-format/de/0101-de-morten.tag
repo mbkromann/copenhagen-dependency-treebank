@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="spät" msd="AN" tag="ADJD" in="3:time" out="">Später</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="2:time" out="1:nobj">am</W>
@@ -46,9 +46,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-4:conj" out="">Buckler</W>
 <W lemma="und" msd="CC" tag="KON" in="3:coord" out="">und</W>
 <W lemma="überraschend" msd="AN" tag="ADJD" in="2:eval" out="">überraschend</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
 <W lemma="Z" msd="NC" tag="NN" in="-8:conj" out="-3:coord|-1:pnct|-2:eval|1:pnct|2:resem">Z</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-2:resem" out="1:nobj">mit</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:loc">Lemond</W>
 <W lemma="auf" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">auf</W>
@@ -204,8 +204,9 @@
 <W lemma="auch" msd="RG" tag="ADV" in="1:add" out="">auch</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-4:conj" out="-2:coord|-1:add">Cassani</W>
 <W lemma="mit" msd="SP" tag="APPR" in="2:resem" out="1:nobj">mit</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:nobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:nobj" out="">sich</W>
 <W lemma="reißen" msd="VA" tag="VVFIN" in="-11:conj" out="-2:resem">riss</W>
 <W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
 </s>
 </p>
+</root>

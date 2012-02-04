@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="">Podría</W>
@@ -209,3 +209,4 @@
 <W lemma="?" msd="XP" tag="FS" in="" out="">?</W>
 </s>
 </p>
+</root>

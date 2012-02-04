@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Kunst" msd="NC" tag="NN" in="" out="">Kunst</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -56,7 +56,7 @@
 <W lemma="davon" msd="RG" tag="PAV" in="" out="">Davon</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Ausstellung" msd="NC" tag="NN" in="" out="">Ausstellung</W>
@@ -124,7 +124,7 @@
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="schweißen" msd="VAP" tag="VVPP" in="" out="">geschweißt</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="Platte&7c;Platten" msd="NC" tag="NN" in="" out="">Platten</W>
+<W lemma="Platte|Platten" msd="NC" tag="NN" in="" out="">Platten</W>
 <W lemma="ansetzen" msd="VAP" tag="VVPP" in="" out="">angesetzt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
@@ -148,9 +148,9 @@
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">ich</W>
 <W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Holzpersönlichkeit</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="1937" msd="AC" tag="CARD" in="" out="">1937</W>
 <W lemma="ansehen" msd="VAF" tag="VVINF" in="" out="">ansehen</W>
@@ -181,6 +181,7 @@
 <W lemma="sehr" msd="RG" tag="ADV" in="" out="">sehr</W>
 <W lemma="spontan" msd="AN" tag="ADJA" in="" out="">spontanen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Traumbildern</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
+</root>

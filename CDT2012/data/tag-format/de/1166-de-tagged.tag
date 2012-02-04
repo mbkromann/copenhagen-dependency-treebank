@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="mehr" msd="RG" tag="ADV" in="" out="">Mehr</W>
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">als</W>
@@ -112,7 +112,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">Das</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
 <W lemma="aber" msd="RG" tag="ADV" in="" out="">aber</W>
@@ -135,7 +135,7 @@
 <W lemma="erreichen" msd="VAP" tag="VVPP" in="" out="">erreicht</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -198,8 +198,8 @@
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="ausdrücken" msd="VA" tag="VVFIN" in="" out="">ausdrückt</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="10" msd="AC" tag="CARD" in="" out="">10</W>
 <W lemma="Prozent" msd="NC" tag="NN" in="" out="">Prozent</W>
@@ -221,6 +221,7 @@
 <W lemma="d" msd="PP" tag="PDS" in="" out="">das</W>
 <W lemma="erforderlich" msd="AN" tag="ADJD" in="" out="">erforderlich</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
+</root>

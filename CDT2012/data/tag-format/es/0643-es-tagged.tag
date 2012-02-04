@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="doble" msd="AN" tag="QU" in="" out="">Doble</W>
 <W lemma="vida" msd="NC" tag="NC" in="" out="">vida</W>
@@ -25,6 +25,8 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
+</s>
+</p>
 <p>
 <s>
 <W lemma="contar" msd="VAD" tag="VLfin" in="" out="">Contaba</W>
@@ -49,6 +51,8 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="noche" msd="NC" tag="NC" in="" out="">noche</W>
 <W lemma="tomar" msd="VAD" tag="VLfin" in="" out="">tomaba</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
@@ -94,6 +98,8 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
+</s>
+</p>
 <p>
 <s>
 <W lemma="yo" msd="PP" tag="PPX" in="" out="">Yo</W>
@@ -221,3 +227,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

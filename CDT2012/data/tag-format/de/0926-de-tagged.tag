@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Emaillebilder</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">waren</W>
@@ -98,7 +98,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="etwas" msd="PP" tag="PIS" in="" out="">etwas</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="umsetzen" msd="VAF" tag="VVINF" in="" out="">umsetzen</W>
 <W lemma="lassen" msd="VA" tag="VVFIN" in="" out="">lässt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -211,3 +211,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

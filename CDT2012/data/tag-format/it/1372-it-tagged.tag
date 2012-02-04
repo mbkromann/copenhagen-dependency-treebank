@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="">Sono</W>
 <W lemma="essere|stare" msd="VAP" tag="VER:pper" in="" out="">stati</W>
@@ -246,3 +246,4 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 </s>
 </p>
+</root>

@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="schon" msd="RG" tag="ADV" in="" out="">schon</W>
@@ -17,7 +17,7 @@
 <W lemma="draußen" msd="RG" tag="ADV" in="" out="">draußen</W>
 <W lemma="reagieren" msd="VAF" tag="VVINF" in="" out="">reagieren</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="mein" msd="PO" tag="PPOSAT" in="" out="">Meine</W>
 <W lemma="Güte" msd="NC" tag="NN" in="" out="">Güte</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -25,7 +25,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="häßlich" msd="AN" tag="ADJD" in="" out="">hässlich</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="hören" msd="VA" tag="VVFIN" in="" out="">hört</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
 <W lemma="am" msd="RG" tag="PTKA" in="" out="">am</W>
@@ -50,7 +50,7 @@
 <W lemma="häßlich" msd="AN" tag="ADJD" in="" out="">hässlich</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Peter" msd="NP" tag="NE" in="" out="">Peter</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Elmegaard</W>
@@ -100,7 +100,7 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="rund" msd="AN" tag="ADJA" in="" out="">runden</W>
-<W lemma="Spitz&7c;Spitze" msd="NC" tag="NN" in="" out="">Spitze</W>
+<W lemma="Spitz|Spitze" msd="NC" tag="NN" in="" out="">Spitze</W>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">durch</W>
 <W lemma="Kopenhagen" msd="NP" tag="NE" in="" out="">Kopenhagen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -211,8 +211,9 @@
 <W lemma="verkaufen" msd="VAF" tag="VVINF" in="" out="">verkaufen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Foto" msd="NC" tag="NN" in="" out="">Foto</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="Linda" msd="NP" tag="NE" in="" out="">Linda</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Henriksen</W>
 </s>
 </p>
+</root>

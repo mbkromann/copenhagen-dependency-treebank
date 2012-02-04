@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
@@ -65,8 +65,8 @@
 <W lemma="alle" msd="PI" tag="PIAT" in="" out="">alle</W>
 <W lemma="Aufgabe" msd="NC" tag="NN" in="" out="">Aufgaben</W>
 <W lemma="zu" msd="RG" tag="PTKVZ" in="" out="">zu</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="verschieden" msd="AN" tag="ADJA" in="" out="">verschiedene</W>
@@ -198,7 +198,8 @@
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="Sprache" msd="NC" tag="NN" in="" out="">Sprache</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
-<W lemma="Gut&7c;Gute" msd="NC" tag="NN" in="" out="">Gute</W>
+<W lemma="Gut|Gute" msd="NC" tag="NN" in="" out="">Gute</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="drauf" msd="RG" tag="PAV" in="" out="">drauf</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -11,7 +11,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Wut" msd="NC" tag="NN" in="" out="">Wut</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
-<W lemma="Träne&7c;Tränen" msd="NC" tag="NN" in="" out="">Tränen</W>
+<W lemma="Träne|Tränen" msd="NC" tag="NN" in="" out="">Tränen</W>
 <W lemma="ausbrechen" msd="VAF" tag="VVIZU" in="" out="">auszubrechen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
@@ -30,14 +30,14 @@
 <W lemma="d" msd="PP" tag="PDS" in="" out="">dessen</W>
 <W lemma="drehen" msd="VA" tag="VVFIN" in="" out="">drehte</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="Absatz" msd="NC" tag="NN" in="" out="">Absatz</W>
 <W lemma="um" msd="RG" tag="PTKVZ" in="" out="">um</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="beeilen" msd="VA" tag="VVFIN" in="" out="">beeilte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="weg" msd="RG" tag="ADV" in="" out="">weg</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
@@ -71,9 +71,9 @@
 </p>
 <p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="trocknen" msd="VA" tag="VVFIN" in="" out="">trocknete</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihre</W>
 <W lemma="Auge" msd="NC" tag="NN" in="" out="">Augen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -83,7 +83,7 @@
 <W lemma="Wohnung" msd="NC" tag="NN" in="" out="">Wohnung</W>
 <W lemma="aufschließen" msd="VA" tag="VVFIN" in="" out="">aufschloss</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="">wollte</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihren</W>
 <W lemma="Scham" msd="NC" tag="NN" in="" out="">Scham</W>
@@ -99,9 +99,9 @@
 <W lemma="Schau" msd="NC" tag="NN" in="" out="">Schau</W>
 <W lemma="stellen" msd="VAF" tag="VVINF" in="" out="">stellen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">musste</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="fröhlich" msd="AN" tag="ADJD" in="" out="">fröhlich</W>
 <W lemma="geben" msd="VAF" tag="VVINF" in="" out="">geben</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -141,7 +141,7 @@
 <W lemma="lassen" msd="VA" tag="VVFIN" in="" out="">ließ</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Träne&7c;Tränen" msd="NC" tag="NN" in="" out="">Tränen</W>
+<W lemma="Träne|Tränen" msd="NC" tag="NN" in="" out="">Tränen</W>
 <W lemma="frei" msd="AN" tag="ADJA" in="" out="">freien</W>
 <W lemma="Lauf" msd="NC" tag="NN" in="" out="">Lauf</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -160,7 +160,7 @@
 <W lemma="Fernseher" msd="NC" tag="NN" in="" out="">Fernseher</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="kümmern" msd="VA" tag="VVFIN" in="" out="">kümmerten</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="weit" msd="AN" tag="ADJD" in="" out="">weiter</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
@@ -174,7 +174,7 @@
 <W lemma="elend" msd="AN" tag="ADJD" in="" out="">elend</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="noch" msd="RG" tag="ADV" in="" out="">noch</W>
 <W lemma="nie" msd="RG" tag="ADV" in="" out="">nie</W>
 <W lemma="fühlen" msd="VAP" tag="VVPP" in="" out="">gefühlt</W>
@@ -189,7 +189,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="Tag" msd="NC" tag="NN" in="" out="">Tages</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="dunkel" msd="AN" tag="ADJA" in="" out="">dunkle</W>
 <W lemma="Verzweiflung" msd="NC" tag="NN" in="" out="">Verzweiflung</W>
@@ -226,3 +226,4 @@
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
 </s>
 </p>
+</root>

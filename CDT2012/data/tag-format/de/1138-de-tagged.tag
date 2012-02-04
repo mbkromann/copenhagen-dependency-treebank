@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Ende" msd="NC" tag="NN" in="" out="">Ende</W>
 <W lemma="Juni" msd="NC" tag="NN" in="" out="">Juni</W>
@@ -43,7 +43,7 @@
 <W lemma="bis" msd="CS" tag="KOUS" in="" out="">bis</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Industrie" msd="NC" tag="NN" in="" out="">Industrie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Hoffnung" msd="NC" tag="NN" in="" out="">Hoffnung</W>
 <W lemma="machen" msd="VAF" tag="VVINF" in="" out="">machen</W>
@@ -51,7 +51,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">53 000</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="" out="">neue</W>
-<W lemma="Stelle&7c;Stellen" msd="NC" tag="NN" in="" out="">Stellen</W>
+<W lemma="Stelle|Stellen" msd="NC" tag="NN" in="" out="">Stellen</W>
 <W lemma="innerhalb" msd="SP" tag="APPR" in="" out="">innerhalb</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="3" msd="AC" tag="CARD" in="" out="">3</W>
@@ -216,3 +216,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

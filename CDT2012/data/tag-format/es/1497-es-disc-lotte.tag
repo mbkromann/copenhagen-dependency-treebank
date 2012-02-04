@@ -1,4 +1,4 @@
-<W lemma="cuando" msd="CS" tag="CSUBX" in="10:time" out="5:vobj">CUANDO</W>
+<root><W lemma="cuando" msd="CS" tag="CSUBX" in="10:time" out="5:vobj">CUANDO</W>
 <W lemma="el" msd="PD" tag="ART" in="4:subj" out="1:nobj">el</W>
 <W lemma="partido" msd="NC" tag="NC" in="-1:nobj" out="1:nobj">partido</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Socialdemócrata</W>
@@ -208,3 +208,4 @@
 <W lemma="vida" msd="NC" tag="NC" in="-1:nobj" out="1:attr">vida</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">económico-industrial</W>
 <W lemma="." msd="XP" tag="FS" in="-39:pnct" out="">.</W>
+</root>

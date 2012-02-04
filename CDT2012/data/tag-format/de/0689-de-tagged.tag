@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="unter" msd="SP" tag="APPR" in="" out="">Unter</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -35,7 +35,7 @@
 <p>
 <s>
 <W lemma="lassen" msd="VA" tag="VVFIN" in="" out="">Lassen</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="ich" msd="PR" tag="PRF" in="" out="">mich</W>
 <W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
 <W lemma="einige" msd="PI" tag="PIAT" in="" out="">einige</W>
@@ -44,7 +44,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="Alltag" msd="NC" tag="NN" in="" out="">Alltag</W>
 <W lemma="nennen" msd="VAF" tag="VVINF" in="" out="">nennen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Strædet</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -88,7 +88,7 @@
 <W lemma="zwischen" msd="SP" tag="APPR" in="" out="">zwischen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="einzeln" msd="AN" tag="ADJA" in="" out="">einzelnen</W>
-<W lemma="Stein&7c;Steinen" msd="NC" tag="NN" in="" out="">Steinen</W>
+<W lemma="Stein|Steinen" msd="NC" tag="NN" in="" out="">Steinen</W>
 <W lemma="bestehen" msd="VA" tag="VVFIN" in="" out="">besteht</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
@@ -114,7 +114,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="betroffen" msd="AN" tag="ADJA" in="" out="">betroffenen</W>
@@ -130,7 +130,7 @@
 <W lemma="Mensch" msd="NC" tag="NN" in="" out="">Menschen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="Antiquität" msd="NC" tag="NN" in="" out="">Antiquitäten</W>
 <W lemma="interessieren" msd="VA" tag="VVFIN" in="" out="">interessieren</W>
@@ -157,7 +157,7 @@
 <W lemma="ganz" msd="AN" tag="ADJA" in="" out="">ganze</W>
 <W lemma="drei" msd="AC" tag="CARD" in="" out="">drei</W>
 <W lemma="Mensch" msd="NC" tag="NN" in="" out="">Menschen</W>
-<W lemma="treffen&7c;triefen" msd="VAP" tag="VVPP" in="" out="">getroffen</W>
+<W lemma="treffen|triefen" msd="VAP" tag="VVPP" in="" out="">getroffen</W>
 <W lemma="!" msd="XP" tag="$." in="" out="">!</W>
 </s>
 </p>
@@ -165,7 +165,7 @@
 <s>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">Nach</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
-<W lemma="Rund&7c;Runde" msd="NC" tag="NN" in="" out="">Runde</W>
+<W lemma="Rund|Runde" msd="NC" tag="NN" in="" out="">Runde</W>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">durch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Fiolstræde</W>
@@ -182,7 +182,7 @@
 <W lemma="gehören" msd="VA" tag="VVFIN" in="" out="">gehört</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="stellen" msd="VA" tag="VVFIN" in="" out="">stellte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="heraus" msd="RG" tag="PTKVZ" in="" out="">heraus</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
@@ -228,3 +228,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="früher" msd="AN" tag="ADJD" in="" out="">früher</W>
@@ -8,7 +8,7 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="" out="">alle</W>
-<W lemma="Wind&7c;Winde" msd="NC" tag="NN" in="" out="">Winde</W>
+<W lemma="Wind|Winde" msd="NC" tag="NN" in="" out="">Winde</W>
 <W lemma="verwehen" msd="VAP" tag="VVPP" in="" out="">verweht</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="gestern" msd="RG" tag="ADV" in="" out="">Gestern</W>
@@ -196,3 +196,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

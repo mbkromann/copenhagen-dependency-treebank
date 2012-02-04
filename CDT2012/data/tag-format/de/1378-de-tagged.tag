@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Kohlenhydrat" msd="NC" tag="NN" in="" out="">Kohlenhydrate</W>
@@ -29,7 +29,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Getreide" msd="NC" tag="NN" in="" out="">Getreide</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="Nudel&7c;Nudeln" msd="NC" tag="NN" in="" out="">Nudeln</W>
+<W lemma="Nudel|Nudeln" msd="NC" tag="NN" in="" out="">Nudeln</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Reis" msd="NC" tag="NN" in="" out="">Reis</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -41,7 +41,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="finden" msd="VAF" tag="VVINF" in="" out="">finden</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">sollten</W>
 <W lemma="Bestandteil" msd="NC" tag="NN" in="" out="">Bestandteil</W>
 <W lemma="jed" msd="PI" tag="PIDAT" in="" out="">jeder</W>
@@ -81,11 +81,11 @@
 <W lemma="gesättigt" msd="AN" tag="ADJA" in="" out="">gesättigte</W>
 <W lemma="auf" msd="RG" tag="PTKVZ" in="" out="">auf</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">sollen</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="gleich" msd="AN" tag="ADJA" in="" out="">gleichen</W>
-<W lemma="Teil&7c;Teilen" msd="NC" tag="NN" in="" out="">Teilen</W>
+<W lemma="Teil|Teilen" msd="NC" tag="NN" in="" out="">Teilen</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Kost" msd="NC" tag="NN" in="" out="">Kost</W>
@@ -220,3 +220,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

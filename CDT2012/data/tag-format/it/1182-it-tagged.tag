@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">Ha</W>
 <W lemma="svolgere" msd="VAP" tag="VER:pper" in="" out="">svolto</W>
@@ -210,3 +210,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

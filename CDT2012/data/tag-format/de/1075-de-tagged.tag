@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Industrieministerin" msd="NC" tag="NN" in="" out="">Industrieministerin</W>
 <W lemma="Anne" msd="NP" tag="NE" in="" out="">Anne</W>
@@ -44,7 +44,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
 <W lemma="etwa" msd="RG" tag="ADV" in="" out="">etwa</W>
 <W lemma="40" msd="AC" tag="CARD" in="" out="">40</W>
@@ -56,7 +56,7 @@
 <W lemma="besitzen" msd="VA" tag="VVFIN" in="" out="">besitzen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
-<W lemma="Rentenfond&7c;Rentenfonds" msd="NC" tag="NN" in="" out="">Rentenfonds</W>
+<W lemma="Rentenfond|Rentenfonds" msd="NC" tag="NN" in="" out="">Rentenfonds</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Gehaltsempfänger" msd="NC" tag="NN" in="" out="">Gehaltsempfänger</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
@@ -83,7 +83,7 @@
 <W lemma="umgehen" msd="VAP" tag="VVPP" in="" out="">umgegangen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Erling" msd="NP" tag="NE" in="" out="">Erling</W>
 <W lemma="Olsen" msd="NP" tag="NE" in="" out="">Olsen</W>
@@ -126,7 +126,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
 <W lemma="Einzelfall" msd="NC" tag="NN" in="" out="">Einzelfall</W>
@@ -134,7 +134,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Einzelfall&7c;Einzelfällen" msd="NC" tag="NN" in="" out="">Einzelfällen</W>
+<W lemma="Einzelfall|Einzelfällen" msd="NC" tag="NN" in="" out="">Einzelfällen</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="schwer" msd="AN" tag="ADJD" in="" out="">schwer</W>
@@ -150,7 +150,7 @@
 <W lemma="Vorschrift" msd="NC" tag="NN" in="" out="">Vorschriften</W>
 <W lemma="streng" msd="AN" tag="ADJD" in="" out="">strenger</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">S-Sprecher</W>
@@ -172,7 +172,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Börsenfonds</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -218,3 +218,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

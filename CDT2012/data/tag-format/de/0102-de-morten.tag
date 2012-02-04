@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="über" msd="SP" tag="APPR" in="3:time" out="1:nobj">Über</W>
 <W lemma="Generation" msd="NC" tag="NN" in="-1:nobj" out="">Generationen</W>
@@ -75,18 +75,18 @@
 <W lemma="," msd="XP" tag="$," in="-8:pnct" out="">,</W>
 <W lemma="Pop" msd="NP" tag="NE" in="-9:conj" out="">Pop</W>
 <W lemma="," msd="XP" tag="$," in="-10:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
 <W lemma="Orientierung" msd="NC" tag="NN" in="-12:conj" out="-1:pnct|1:pnct">Orientierung</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="3:coord" out="">und</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
 <W lemma="rufen" msd="VA" tag="VVFIN" in="-17:conj" out="-3:coord|-2:pnct|-1:subj|1:part|2:pnct|4:conj">rufen</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="-1:part" out="">an</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="wir" msd="PP" tag="PPER" in="1:subj" out="">wir</W>
 <W lemma="spielen" msd="VA" tag="VVFIN" in="-4:conj" out="-1:subj|1:pnct">spielen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="brauchen" msd="VAF" tag="VVINF" in="-29:relr" out="-25:subj|-23:dobj">brauchen</W>
 <W lemma="." msd="XP" tag="$." in="-36:pnct" out="">.</W>
 <W lemma="denn" msd="CC" tag="KON" in="4:cause" out="">Denn</W>
@@ -95,7 +95,7 @@
 <W lemma="wir" msd="PP" tag="PPER" in="-1:nobj" out="">uns</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:subj|-4:cause|1:time|5:preds|8:pnct">ist</W>
 <W lemma="24" msd="AC" tag="CARD" in="-1:time" out="1:nobj">24</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Stunden</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="-1:pobj" out="1:nobj">am</W>
 <W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="">Tag</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-5:preds" out="2:nobj">ein</W>
@@ -128,17 +128,17 @@
 <W lemma="wir" msd="PR" tag="PRF" in="5:dobj" out="">uns</W>
 <W lemma="mit" msd="SP" tag="APPR" in="4:man" out="2:nobj">mit</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="1:quant" out="">allen</W>
-<W lemma="Mittel&7c;Mitteln" msd="NC" tag="NN" in="-2:nobj" out="-1:quant">Mitteln</W>
+<W lemma="Mittel|Mitteln" msd="NC" tag="NN" in="-2:nobj" out="-1:quant">Mitteln</W>
 <W lemma="dafür" msd="RG" tag="PAV" in="1:pobj" out="3:nobj">dafür</W>
 <W lemma="einsetzen" msd="VAF" tag="VVINF" in="-7:vobj" out="-5:dobj|-4:man|-1:pobj|-6:[subj]">einsetzen</W>
 <W lemma="," msd="XP" tag="$," in="-8:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="8:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="7:subj" out="1:nobj">die</W>
 <W lemma="Meinungsbild" msd="NC" tag="NN" in="-1:nobj" out="">Meinungsbilder</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:dobj" out="-1:pnct|1:nobj|2:pnct">das</W>
 <W lemma="Leichte" msd="NC" tag="NN" in="-1:nobj" out="">Leichte</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-2:pnct" out="">"</W>
 <W lemma="Ernst" msd="NP" tag="NE" in="1:aobj" out="">Ernst</W>
 <W lemma="nehmen" msd="VA" tag="VVFIN" in="-8:vobj" out="-7:subj|-4:dobj|-1:aobj|7:conj">nehmen</W>
 <W lemma="und" msd="CC" tag="KON" in="6:coord" out="">und</W>
@@ -187,3 +187,4 @@
 <W lemma="." msd="XP" tag="$." in="-26:pnct" out="">.</W>
 </s>
 </p>
+</root>

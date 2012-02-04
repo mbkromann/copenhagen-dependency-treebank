@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">In</W>
 <W lemma="definitivo" msd="AN" tag="ADJ" in="" out="">definitiva</W>
@@ -52,7 +52,7 @@
 <W lemma="presso" msd="SP" tag="PRE" in="" out="">presso</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Birch</W>
-<W lemma="&" msd="XS" tag="SYM" in="" out="">&</W>
+<W lemma="&amp;" msd="XS" tag="SYM" in="" out="">&amp;</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Krogboe</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
@@ -218,7 +218,7 @@
 <W lemma="Bulgaria" msd="NP" tag="NPR" in="" out="">Bulgaria</W>
 <W lemma="(" msd="XP" tag="PON" in="" out="">(</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Birch</W>
-<W lemma="&" msd="XS" tag="SYM" in="" out="">&</W>
+<W lemma="&amp;" msd="XS" tag="SYM" in="" out="">&amp;</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Krogboe</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
 <W lemma="gruppo" msd="NC" tag="NOM" in="" out="">Gruppo</W>
@@ -272,3 +272,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

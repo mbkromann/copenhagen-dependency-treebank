@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="A" msd="XS" tag="ALFS" in="" out="">A</W>
 <W lemma="final" msd="AN" tag="ADJ" in="" out="">finales</W>
@@ -239,3 +239,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

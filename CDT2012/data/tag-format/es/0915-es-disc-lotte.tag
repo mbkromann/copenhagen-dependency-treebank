@@ -1,4 +1,4 @@
-<W lemma="mucho" msd="AN" tag="QU" in="" out="">Muchas</W>
+<root><W lemma="mucho" msd="AN" tag="QU" in="" out="">Muchas</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
 <W lemma="medicina" msd="NC" tag="NC" in="" out="">medicinas</W>
@@ -220,3 +220,4 @@
 <W lemma="laboral" msd="AN" tag="ADJ" in="" out="">laboral</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="etc." msd="SP" tag="PE" in="" out="">etc.</W>
+</root>

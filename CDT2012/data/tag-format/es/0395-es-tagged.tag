@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Ellen</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
@@ -134,6 +134,8 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
+</s>
+</p>
 <p>
 <s>
 <W lemma="ahora" msd="RG" tag="ADV" in="" out="">Ahora</W>
@@ -167,6 +169,8 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
+</s>
+</p>
 <p>
 <s>
 <W lemma="todo" msd="AN" tag="QU" in="" out="">Todas</W>
@@ -208,3 +212,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

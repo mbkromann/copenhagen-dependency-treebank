@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="zwei" msd="AC" tag="CARD" in="" out="">Zwei</W>
 <W lemma="Publikumsmagnet" msd="NC" tag="NN" in="" out="">Publikumsmagneten</W>
@@ -61,12 +61,12 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Millers</W>
 <W lemma="saftig" msd="AN" tag="ADJA" in="" out="">saftigen</W>
 <W lemma="Roman" msd="NC" tag="NN" in="" out="">Roman</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Stille" msd="NC" tag="NN" in="" out="">Stille</W>
 <W lemma="Tag" msd="NC" tag="NN" in="" out="">Tage</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Clichy</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="bekennen" msd="VAP" tag="VVPP" in="" out="">bekannt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
@@ -76,7 +76,7 @@
 <W lemma="sein" msd="PO" tag="PPOSAT" in="" out="">sein</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Boheme-Leben</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
-<W lemma="Hure&7c;Huren" msd="NC" tag="NN" in="" out="">Huren</W>
+<W lemma="Hure|Huren" msd="NC" tag="NN" in="" out="">Huren</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Zuhälter" msd="NC" tag="NN" in="" out="">Zuhältern</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -129,7 +129,7 @@
 <W lemma="Mädchen" msd="NC" tag="NN" in="" out="">Mädchen</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="vermischen" msd="VA" tag="VVFIN" in="" out="">vermischen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einem</W>
 <W lemma="Cocktail" msd="NC" tag="NN" in="" out="">Cocktail</W>
@@ -164,7 +164,7 @@
 <W lemma="vorzugsweise" msd="AN" tag="ADJD" in="" out="">vorzugsweise</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einem</W>
-<W lemma="Abendesse&7c;Abendessen" msd="NC" tag="NN" in="" out="">Abendessen</W>
+<W lemma="Abendesse|Abendessen" msd="NC" tag="NN" in="" out="">Abendessen</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einem</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -227,3 +227,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

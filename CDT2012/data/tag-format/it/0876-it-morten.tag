@@ -1,4 +1,4 @@
-<W lemma="cialda" msd="NC" tag="NOM" in="" out="">Cialde</W>
+<root><W lemma="cialda" msd="NC" tag="NOM" in="" out="">Cialde</W>
 <W lemma="caldo" msd="AN" tag="ADJ" in="" out="">calde</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
 <W lemma="fragola" msd="NC" tag="NOM" in="" out="">fragole</W>
@@ -180,3 +180,4 @@
 <W lemma="forno" msd="NC" tag="NOM" in="" out="">forno</W>
 <W lemma="ripieno" msd="AN" tag="ADJ" in="" out="">ripieno</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

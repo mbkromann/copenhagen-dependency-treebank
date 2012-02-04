@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Vorsitzende" msd="NC" tag="NN" in="" out="">Vorsitzende</W>
@@ -42,7 +42,7 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">der</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="ganz" msd="AN" tag="ADJD" in="" out="">ganz</W>
 <W lemma="eindeutig" msd="AN" tag="ADJD" in="" out="">eindeutig</W>
@@ -58,7 +58,7 @@
 <W lemma="ander" msd="PP" tag="PIS" in="" out="">andere</W>
 <W lemma="anstecken" msd="VA" tag="VVFIN" in="" out="">anstecken</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -130,7 +130,7 @@
 <W lemma="Haitianer" msd="NC" tag="NN" in="" out="">Haitianer</W>
 <W lemma="abwarten" msd="VAF" tag="VVINF" in="" out="">abwarten</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Elisabeth" msd="NP" tag="NE" in="" out="">Elisabeth</W>
 <W lemma="Arnold" msd="NP" tag="NE" in="" out="">Arnold</W>
@@ -159,7 +159,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Anklage" msd="NC" tag="NN" in="" out="">Anklage</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="berufen" msd="VA" tag="VVFIN" in="" out="">beruft</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="verurteilen" msd="VAP" tag="VVPP" in="" out="">verurteilt</W>
@@ -226,10 +226,11 @@
 <W lemma="brechen" msd="VAF" tag="VVINF" in="" out="">brechen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Elisabeth" msd="NP" tag="NE" in="" out="">Elisabeth</W>
 <W lemma="Arnold" msd="NP" tag="NE" in="" out="">Arnold</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">Vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
@@ -40,7 +40,7 @@
 <W lemma="selbst" msd="RG" tag="ADV" in="" out="">selbst</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Richtlinie</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="nennen" msd="VA" tag="VVFIN" in="" out="">nennt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="ausgeben" msd="VAP" tag="VVPP" in="" out="">ausgegeben</W>
@@ -159,7 +159,7 @@
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="dies" msd="PP" tag="PDS" in="" out="">diese</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihre</W>
-<W lemma="Sorge&7c;Sorgen" msd="NC" tag="NN" in="" out="">Sorgen</W>
+<W lemma="Sorge|Sorgen" msd="NC" tag="NN" in="" out="">Sorgen</W>
 <W lemma="nie" msd="RG" tag="ADV" in="" out="">nie</W>
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="detaillieren" msd="VA" tag="VVFIN" in="" out="">detailliert</W>
@@ -232,9 +232,10 @@
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">dieser</W>
 <W lemma="Mangel" msd="NC" tag="NN" in="" out="">Mangel</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
-<W lemma="Mittel&7c;Mitteln" msd="NC" tag="NN" in="" out="">Mitteln</W>
+<W lemma="Mittel|Mitteln" msd="NC" tag="NN" in="" out="">Mitteln</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="Ministerium" msd="NC" tag="NN" in="" out="">Ministeriums</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

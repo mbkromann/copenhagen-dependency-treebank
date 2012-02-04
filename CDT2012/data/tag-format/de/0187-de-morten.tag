@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="1:nobj|19:pnct">Ein</W>
 <W lemma="Schock" msd="NC" tag="NN" in="-1:nobj" out="1:loc">Schock</W>
@@ -38,7 +38,7 @@
 <W lemma="deutlich" msd="AN" tag="ADJD" in="5:man" out="">deutlich</W>
 <W lemma="bei" msd="SP" tag="APPR" in="4:goal" out="1:nobj">bei</W>
 <W lemma="gewiß" msd="AN" tag="ADJA" in="-1:nobj" out="1:nobj|4:pnct|6:appa|30:coref-res">gewissen</W>
-<W lemma="Typ&7c;Type&7c;Typus" msd="NC" tag="NN" in="-1:nobj" out="1:nobj|1:{arg}">Typen</W>
+<W lemma="Typ|Type|Typus" msd="NC" tag="NN" in="-1:nobj" out="1:nobj|1:{arg}">Typen</W>
 <W lemma="Hardware" msd="NC" tag="NN" in="-1:nobj|-1:{arg}" out="">Hardware</W>
 <W lemma="steigen" msd="VAP" tag="VVPP" in="-8:vobj" out="-5:man|-7:[subj]|-4:goal">gestiegen</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
@@ -57,7 +57,7 @@
 <W lemma="-" msd="XP" tag="$(" in="-4:pnct" out="">-</W>
 <W lemma="insofern" msd="CS" tag="KOUS" in="-5:scene" out="10:vobj">insofern</W>
 <W lemma="es" msd="PP" tag="PPER" in="9:subj" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="8:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="8:robj" out="">sich</W>
 <W lemma="bei" msd="SP" tag="APPR" in="7:goal" out="1:nobj">bei</W>
 <W lemma="all" msd="PI" tag="PIAT" in="-1:nobj" out="1:nobj">all</W>
 <W lemma="dies" msd="PP" tag="PDS" in="-1:nobj" out="">diesen</W>
@@ -99,7 +99,7 @@
 <W lemma="@card@" msd="AC" tag="CARD" in="2:dobj" out="1:nobj">70-80</W>
 <W lemma="%" msd="NC" tag="NN" in="-1:nobj" out="">%</W>
 <W lemma="betragen" msd="VAF" tag="VVINF" in="-5:vobj" out="-2:dobj|-4:[subj]">betragen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-6:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-6:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="-7:pnct" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-8:qobj|2:subj|8:part|9:pnct">sagt</W>
 <W lemma="Per" msd="NP" tag="NE" in="1:namef" out="">Per</W>
@@ -176,7 +176,7 @@
 <W lemma="ander" msd="AN" tag="ADJA" in="-2:conj" out="-1:coord|1:attr|2:nobj">andere</W>
 <W lemma="einfach" msd="AN" tag="ADJA" in="-1:attr" out="">einfache</W>
 <W lemma="Anwendung" msd="NC" tag="NN" in="-2:nobj" out="">Anwendungen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-17:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-17:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
 <W lemma="Hardware" msd="NC" tag="NN" in="1:subj" out="">Hardware</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|2:pnct">ist</W>
@@ -213,3 +213,4 @@
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
 </s>
 </p>
+</root>

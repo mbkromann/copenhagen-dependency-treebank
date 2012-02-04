@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="cortar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">Cortar</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
@@ -249,3 +249,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

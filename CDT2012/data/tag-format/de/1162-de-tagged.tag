@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="schließlich" msd="RG" tag="ADV" in="" out="">Schließlich</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
@@ -34,7 +34,7 @@
 <W lemma=")" msd="XP" tag="$(" in="" out="">)</W>
 <W lemma="vorbereiten" msd="VAF" tag="VVIZU" in="" out="">vorzubereiten</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Jens" msd="NP" tag="NE" in="" out="">Jens</W>
 <W lemma="Erik" msd="NP" tag="NE" in="" out="">Erik</W>
@@ -44,7 +44,7 @@
 <W lemma="Ingenieur" msd="NC" tag="NN" in="" out="">Ingenieur</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Birch</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">&amp</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">&amp;</W>
 <W lemma=";" msd="XP" tag="$." in="" out="">;</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Krogboe</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -85,7 +85,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">diesen</W>
 <W lemma="Experte" msd="NC" tag="NN" in="" out="">Experten</W>
@@ -99,7 +99,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="meist" msd="PI" tag="PIDAT" in="" out="">meisten</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="Wirtschaftsexperte" msd="NC" tag="NN" in="" out="">Wirtschaftsexperten</W>
 <W lemma="handeln" msd="VA" tag="VVFIN" in="" out="">handelt</W>
@@ -108,7 +108,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">Das</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -117,7 +117,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="daher" msd="RG" tag="PAV" in="" out="">daher</W>
 <W lemma="engagieren" msd="VA" tag="VVFIN" in="" out="">engagiert</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Pool" msd="NC" tag="NN" in="" out="">Pool</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
@@ -141,7 +141,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="EBWE" msd="NP" tag="NE" in="" out="">EBWE</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Jens" msd="NP" tag="NE" in="" out="">Jens</W>
 <W lemma="Erik" msd="NP" tag="NE" in="" out="">Erik</W>
@@ -177,7 +177,7 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Ein</W>
 <W lemma="paar" msd="PI" tag="PIDAT" in="" out="">paar</W>
 <W lemma="Beispiel" msd="NC" tag="NN" in="" out="">Beispiele</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="Fernwärme" msd="NC" tag="NN" in="" out="">Fernwärme</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="Polen" msd="NP" tag="NE" in="" out="">Polen</W>
@@ -205,7 +205,7 @@
 <W lemma="Bulgarien" msd="NP" tag="NE" in="" out="">Bulgarien</W>
 <W lemma="(" msd="XP" tag="$(" in="" out="">(</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Birch</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">&amp</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">&amp;</W>
 <W lemma=";" msd="XP" tag="$." in="" out="">;</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Krogboe</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -214,7 +214,7 @@
 <W lemma=")" msd="XP" tag="$(" in="" out="">)</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Dialog" msd="NC" tag="NN" in="" out="">Dialog</W>
-<W lemma="Fond&7c;Fonds" msd="NC" tag="NN" in="" out="">Fonds</W>
+<W lemma="Fond|Fonds" msd="NC" tag="NN" in="" out="">Fonds</W>
 <W lemma="stellen" msd="VA" tag="VVFIN" in="" out="">stellen</W>
 <W lemma="sicher" msd="AN" tag="ADJD" in="" out="">sicher</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -245,3 +245,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

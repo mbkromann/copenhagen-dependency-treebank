@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="un" msd="PD" tag="ART" in="" out="">Una</W>
 <W lemma="fuente" msd="NC" tag="NC" in="" out="">fuente</W>
@@ -223,3 +223,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

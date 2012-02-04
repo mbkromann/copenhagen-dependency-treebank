@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="modesto" msd="AN" tag="ADJ" in="" out="">Modesto</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
@@ -230,3 +230,4 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">AGUA</W>
 </s>
 </p>
+</root>

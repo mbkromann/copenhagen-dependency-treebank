@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="kommen" msd="VA" tag="VVFIN" in="" out="">Kommst</W>
@@ -92,7 +92,7 @@
 </p>
 <p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="machen" msd="VA" tag="VVFIN" in="" out="">macht</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Zigarettenschachtel" msd="NC" tag="NN" in="" out="">Zigarettenschachtel</W>
@@ -101,7 +101,7 @@
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="liegen" msd="VA" tag="VVFIN" in="" out="">liegen</W>
 <W lemma="vier" msd="AC" tag="CARD" in="" out="">vier</W>
-<W lemma="Kippe&7c;Kippen" msd="NC" tag="NN" in="" out="">Kippen</W>
+<W lemma="Kippe|Kippen" msd="NC" tag="NN" in="" out="">Kippen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="ganz" msd="AN" tag="ADJA" in="" out="">ganze</W>
@@ -225,7 +225,7 @@
 <W lemma="nichts" msd="PP" tag="PIS" in="" out="">nichts</W>
 <W lemma="extra" msd="AN" tag="ADJD" in="" out="">extra</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="holen" msd="VA" tag="VVFIN" in="" out="">holt</W>
 <W lemma="weit" msd="AN" tag="ADJD" in="" out="">weit</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
@@ -235,3 +235,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

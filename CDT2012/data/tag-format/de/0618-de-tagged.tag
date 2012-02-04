@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">Das</W>
@@ -32,12 +32,12 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="Puderzucker" msd="NC" tag="NN" in="" out="">Puderzucker</W>
 <W lemma="überzogen" msd="AN" tag="ADJA" in="" out="">überzogenen</W>
-<W lemma="Baum&7c;Bäumen" msd="NC" tag="NN" in="" out="">Bäumen</W>
+<W lemma="Baum|Bäumen" msd="NC" tag="NN" in="" out="">Bäumen</W>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="Haus" msd="NC" tag="NN" in="" out="">Haus</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="sprachlos" msd="AN" tag="ADJD" in="" out="">sprachlos</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -153,7 +153,7 @@
 <W lemma="Orla" msd="NP" tag="NE" in="" out="">Orla</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="beeilen" msd="VA" tag="VVFIN" in="" out="">beeilte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="Orla" msd="NP" tag="NE" in="" out="">Orla</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="sagen" msd="VAF" tag="VVINF" in="" out="">sagen</W>
@@ -209,9 +209,10 @@
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">Und</W>
 <W lemma="fröhlich" msd="AN" tag="ADJA" in="" out="">fröhliche</W>
-<W lemma="Weihnacht&7c;Weihnachten" msd="NC" tag="NN" in="" out="">Weihnachten</W>
+<W lemma="Weihnacht|Weihnachten" msd="NC" tag="NN" in="" out="">Weihnachten</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="alle" msd="PP" tag="PIS" in="" out="">alle</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

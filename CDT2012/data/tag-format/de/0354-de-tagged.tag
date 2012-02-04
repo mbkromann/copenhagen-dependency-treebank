@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
@@ -218,3 +218,4 @@
 <W lemma="!" msd="XP" tag="$." in="" out="">!</W>
 </s>
 </p>
+</root>

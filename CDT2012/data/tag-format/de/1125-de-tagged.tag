@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="genau" msd="AN" tag="ADJD" in="" out="">Genau</W>
 <W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
@@ -8,7 +8,7 @@
 <W lemma="Form" msd="NC" tag="NN" in="" out="">Formen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="Takt" msd="NC" tag="NN" in="" out="">Takt</W>
-<W lemma="&amp;" msd="CC" tag="KON" in="" out="">&</W>
+<W lemma="&amp;" msd="CC" tag="KON" in="" out="">&amp;</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">amp</W>
 <W lemma="Ton" msd="NC" tag="NN" in="" out="">Tons</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
@@ -27,7 +27,7 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
 <W lemma="bewußt" msd="AN" tag="ADJD" in="" out="">bewusst</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
-<W lemma="Spitz&7c;Spitze" msd="NC" tag="NN" in="" out="">Spitze</W>
+<W lemma="Spitz|Spitze" msd="NC" tag="NN" in="" out="">Spitze</W>
 <W lemma="nutzen" msd="VAP" tag="VVPP" in="" out="">genutzt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="um" msd="CS" tag="KOUI" in="" out="">um</W>
@@ -50,7 +50,7 @@
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="PC" msd="NP" tag="NE" in="" out="">PC</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="Gefängnis" msd="NC" tag="NN" in="" out="">Gefängnis</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="Haus" msd="NC" tag="NN" in="" out="">Hause</W>
@@ -79,7 +79,7 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">Mit</W>
 <W lemma="ander" msd="AN" tag="ADJA" in="" out="">anderen</W>
 <W lemma="Wort" msd="NC" tag="NN" in="" out="">Worten</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="gemeinsam" msd="AN" tag="ADJA" in="" out="">gemeinsame</W>
 <W lemma="Leben" msd="NC" tag="NN" in="" out="">Leben</W>
@@ -203,3 +203,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

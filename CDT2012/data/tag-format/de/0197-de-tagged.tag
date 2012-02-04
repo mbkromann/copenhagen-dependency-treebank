@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gibt</W>
@@ -90,7 +90,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="hören" msd="VA" tag="VVFIN" in="" out="">hört</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
@@ -129,7 +129,7 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einem</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="" out="">Jahr</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">waren</W>
 <W lemma="zwischen" msd="SP" tag="APPR" in="" out="">zwischen</W>
 <W lemma="10" msd="AC" tag="CARD" in="" out="">10</W>
@@ -140,7 +140,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="wobei" msd="PT" tag="PWAV" in="" out="">wobei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
-<W lemma="Durchschnittsalte&7c;Durchschnittsalter" msd="NC" tag="NN" in="" out="">Durchschnittsalter</W>
+<W lemma="Durchschnittsalte|Durchschnittsalter" msd="NC" tag="NN" in="" out="">Durchschnittsalter</W>
 <W lemma="44" msd="AC" tag="CARD" in="" out="">44</W>
 <W lemma="betragen" msd="VA" tag="VVFIN" in="" out="">betrug</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -212,3 +212,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

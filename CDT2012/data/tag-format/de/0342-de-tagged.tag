@@ -1,9 +1,9 @@
-<p>
+<root><p>
 <s>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="" out="">keine</W>
-<W lemma="Spur&7c;Spuren" msd="NC" tag="NN" in="" out="">Spuren</W>
+<W lemma="Spur|Spuren" msd="NC" tag="NN" in="" out="">Spuren</W>
 <W lemma="früh" msd="AN" tag="ADJA" in="" out="">früherer</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Herbstfrische</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
@@ -79,7 +79,7 @@
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gibt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Wind" msd="NC" tag="NN" in="" out="">Wind</W>
@@ -156,7 +156,7 @@
 <W lemma="Rakete" msd="NC" tag="NN" in="" out="">Raketen</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihren</W>
-<W lemma="Startloch&7c;Startlöchern" msd="NC" tag="NN" in="" out="">Startlöchern</W>
+<W lemma="Startloch|Startlöchern" msd="NC" tag="NN" in="" out="">Startlöchern</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Erde" msd="NC" tag="NN" in="" out="">Erde</W>
@@ -185,7 +185,7 @@
 <W lemma="Wunde" msd="NC" tag="NN" in="" out="">Wunden</W>
 <W lemma="Zeit" msd="NC" tag="NN" in="" out="">Zeit</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="" out="">zum</W>
-<W lemma="Heile&7c;Heilen" msd="NC" tag="NN" in="" out="">Heilen</W>
+<W lemma="Heile|Heilen" msd="NC" tag="NN" in="" out="">Heilen</W>
 <W lemma="geben" msd="VAF" tag="VVINF" in="" out="">geben</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="während" msd="CS" tag="KOUS" in="" out="">während</W>
@@ -200,3 +200,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

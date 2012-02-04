@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Hans" msd="NP" tag="NE" in="" out="">Hans</W>
 <W lemma="Otto" msd="NP" tag="NE" in="" out="">Otto</W>
@@ -33,7 +33,7 @@
 <W lemma="bevor" msd="CS" tag="KOUS" in="" out="">bevor</W>
 <W lemma="Dänemark" msd="NP" tag="NE" in="" out="">Dänemarks</W>
 <W lemma="Familie" msd="NC" tag="NN" in="" out="">Familien</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="Kaffee" msd="NC" tag="NN" in="" out="">Kaffee</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -54,7 +54,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="am" msd="RG" tag="PTKA" in="" out="">Am</W>
 <W lemma="lieb" msd="AN" tag="ADJD" in="" out="">liebsten</W>
 <W lemma="putzen" msd="VA" tag="VVFIN" in="" out="">putze</W>
@@ -103,7 +103,7 @@
 <W lemma="einige" msd="PI" tag="PIAT" in="" out="">einige</W>
 <W lemma="mein" msd="PO" tag="PPOSAT" in="" out="">meiner</W>
 <W lemma="glücklich" msd="AN" tag="ADJA" in="" out="">glücklichsten</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
 <W lemma="während" msd="SP" tag="APPR" in="" out="">während</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="Live-Sendung" msd="NC" tag="NN" in="" out="">Live-Sendung</W>
@@ -116,7 +116,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Rhythmus" msd="NC" tag="NN" in="" out="">Rhythmus</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="sympathisch" msd="AN" tag="ADJA" in="" out="">sympathische</W>
@@ -124,7 +124,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">der</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
-<W lemma="Klump&7c;Klumpen" msd="NC" tag="NN" in="" out="">Klumpen</W>
+<W lemma="Klump|Klumpen" msd="NC" tag="NN" in="" out="">Klumpen</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Magen" msd="NC" tag="NN" in="" out="">Magen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -175,8 +175,9 @@
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
-<W lemma="Ottoman&7c;Ottomane" msd="NC" tag="NN" in="" out="">Ottomanen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="Ottoman|Ottomane" msd="NC" tag="NN" in="" out="">Ottomanen</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

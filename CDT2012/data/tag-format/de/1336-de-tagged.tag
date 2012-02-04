@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Königin" msd="NC" tag="NN" in="" out="">Königin</W>
 <W lemma="Elizabeth" msd="NP" tag="NE" in="" out="">Elizabeths</W>
@@ -9,7 +9,7 @@
 <W lemma="Ruhe" msd="NC" tag="NN" in="" out="">Ruhe</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Reihe&7c;Reihen" msd="NC" tag="NN" in="" out="">Reihen</W>
+<W lemma="Reihe|Reihen" msd="NC" tag="NN" in="" out="">Reihen</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihre</W>
 <W lemma="beide" msd="PI" tag="PIDAT" in="" out="">beiden</W>
@@ -31,7 +31,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Ascott</W>
 <W lemma="1987" msd="AC" tag="CARD" in="" out="">1987</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="" out="">,,unziemlich</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="auftreten" msd="VA" tag="VVFIN" in="" out="">auftraten</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -71,7 +71,7 @@
 <W lemma="Mann" msd="NC" tag="NN" in="" out="">Männer</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihren</W>
-<W lemma="Schirm&7c;Schirmen" msd="NC" tag="NN" in="" out="">Schirmen</W>
+<W lemma="Schirm|Schirmen" msd="NC" tag="NN" in="" out="">Schirmen</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="stechen" msd="VAF" tag="VVINF" in="" out="">stechen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -79,12 +79,12 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">Würde</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="alle" msd="PP" tag="PIS" in="" out="">alles</W>
 <W lemma="!" msd="XP" tag="$." in="" out="">!</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="donnern" msd="VA" tag="VVFIN" in="" out="">donnerte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="angesehen" msd="AN" tag="ADJA" in="" out="">angesehene</W>
@@ -147,7 +147,7 @@
 <W lemma="denn" msd="CC" tag="KON" in="" out="">denn</W>
 <W lemma="Königliche" msd="NC" tag="NN" in="" out="">Königliche</W>
 <W lemma="dürfen" msd="VA" tag="VMFIN" in="" out="">dürfen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="zeigen" msd="VAF" tag="VVINF" in="" out="">zeigen</W>
@@ -157,7 +157,7 @@
 <p>
 <s>
 <W lemma="ständig" msd="AN" tag="ADJA" in="" out="">Ständige</W>
-<W lemma="Rüge&7c;Rügen" msd="NC" tag="NN" in="" out="">Rügen</W>
+<W lemma="Rüge|Rügen" msd="NC" tag="NN" in="" out="">Rügen</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="genauso" msd="RG" tag="ADV" in="" out="">genauso</W>
 <W lemma="viel" msd="RG" tag="ADV" in="" out="">viel</W>
@@ -198,3 +198,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

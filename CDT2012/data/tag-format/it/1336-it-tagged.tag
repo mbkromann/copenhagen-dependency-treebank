@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">L'</W>
 <W lemma="incessante" msd="AN" tag="ADJ" in="" out="">incessante</W>
@@ -224,3 +224,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,11 +1,11 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Fund" msd="NC" tag="NN" in="" out="">Fund</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="etwa" msd="RG" tag="ADV" in="" out="">etwa</W>
 <W lemma="zehn" msd="AC" tag="CARD" in="" out="">zehn</W>
-<W lemma="Nadel&7c;Nadeln" msd="NC" tag="NN" in="" out="">Nadeln</W>
+<W lemma="Nadel|Nadeln" msd="NC" tag="NN" in="" out="">Nadeln</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Körper" msd="NC" tag="NN" in="" out="">Körper</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eines</W>
@@ -44,12 +44,12 @@
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="lebendig" msd="AN" tag="ADJA" in="" out="">lebendiges</W>
 <W lemma="Nadelkissen" msd="NC" tag="NN" in="" out="">Nadelkissen</W>
-<W lemma="brauchen&7c;gebrauchen" msd="VAP" tag="VVPP" in="" out="">gebraucht</W>
+<W lemma="brauchen|gebrauchen" msd="VAP" tag="VVPP" in="" out="">gebraucht</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurde</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">u.</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="" out="">A.</W>
-<W lemma="Nadel&7c;Nadeln" msd="NC" tag="NN" in="" out="">Nadeln</W>
+<W lemma="Nadel|Nadeln" msd="NC" tag="NN" in="" out="">Nadeln</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Lunge" msd="NC" tag="NN" in="" out="">Lunge</W>
@@ -59,7 +59,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Ein</W>
 <W lemma="merkwürdig" msd="AN" tag="ADJA" in="" out="">merkwürdiger</W>
 <W lemma="Vorgang" msd="NC" tag="NN" in="" out="">Vorgang</W>
@@ -67,7 +67,7 @@
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="" out="">kleine</W>
-<W lemma="Nadel&7c;Nadeln" msd="NC" tag="NN" in="" out="">Nadeln</W>
+<W lemma="Nadel|Nadeln" msd="NC" tag="NN" in="" out="">Nadeln</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="Hals" msd="NC" tag="NN" in="" out="">Hals</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -81,7 +81,7 @@
 <W lemma="stechen" msd="VAP" tag="VVPP" in="" out="">gestochen</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="teilen" msd="VA" tag="VVFIN" in="" out="">teilt</W>
 <W lemma="Kriminalinspektor" msd="NC" tag="NN" in="" out="">Kriminalinspektor</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Jørgen</W>
@@ -131,7 +131,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="aber" msd="RG" tag="ADV" in="" out="">aber</W>
@@ -140,9 +140,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Zweijährige</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="selbst" msd="RG" tag="ADV" in="" out="">selbst</W>
-<W lemma="Nadel&7c;Nadeln" msd="NC" tag="NN" in="" out="">Nadeln</W>
+<W lemma="Nadel|Nadeln" msd="NC" tag="NN" in="" out="">Nadeln</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Körper" msd="NC" tag="NN" in="" out="">Körper</W>
@@ -157,7 +157,7 @@
 <W lemma="Fall" msd="NC" tag="NN" in="" out="">Fall</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="versichern" msd="VA" tag="VVFIN" in="" out="">versichert</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Kriminalinspektor" msd="NC" tag="NN" in="" out="">Kriminalinspektor</W>
@@ -166,7 +166,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="verhören" msd="VA" tag="VVFIN" in="" out="">verhören</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
@@ -204,3 +204,4 @@
 <W lemma="verhören" msd="VAM" tag="VVIMP" in="" out="">VERHÖRT</W>
 </s>
 </p>
+</root>

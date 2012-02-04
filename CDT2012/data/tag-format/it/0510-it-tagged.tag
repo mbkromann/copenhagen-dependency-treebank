@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">La</W>
 <W lemma="festa" msd="NC" tag="NOM" in="" out="">festa</W>
@@ -300,3 +300,4 @@
 <W lemma="sentire" msd="VAF" tag="VER:infi" in="" out="">sentire</W>
 </s>
 </p>
+</root>

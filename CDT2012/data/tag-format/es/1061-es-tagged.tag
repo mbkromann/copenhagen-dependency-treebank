@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="al~mismo~tiempo" msd="RG" tag="ADV" in="" out="">Al mismo tiempo</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
@@ -258,3 +258,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

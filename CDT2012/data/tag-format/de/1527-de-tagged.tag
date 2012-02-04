@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Situation" msd="NC" tag="NN" in="" out="">Situation</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -55,7 +55,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="holen" msd="VAF" tag="VVINF" in="" out="">holen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Jan" msd="NP" tag="NE" in="" out="">Jan</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Fabricius</W>
@@ -64,7 +64,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="was" msd="PT" tag="PWS" in="" out="">Was</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
@@ -117,7 +117,7 @@
 <W lemma="stehlen" msd="VAF" tag="VVINF" in="" out="">stehlen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -188,7 +188,7 @@
 <W lemma="darüber" msd="RG" tag="PAV" in="" out="">Darüber</W>
 <W lemma="hinaus" msd="RG" tag="ADV" in="" out="">hinaus</W>
 <W lemma="befinden" msd="VA" tag="VVFIN" in="" out="">befinden</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="einige" msd="PI" tag="PIAT" in="" out="">einige</W>
 <W lemma="Passagier" msd="NC" tag="NN" in="" out="">Passagiere</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -204,3 +204,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

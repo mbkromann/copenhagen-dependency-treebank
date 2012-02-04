@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Rudbjerg</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="">will</W>
@@ -34,7 +34,7 @@
 <W lemma="hoch" msd="RG" tag="PTKVZ" in="" out="">hoch</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Foto" msd="NC" tag="NN" in="" out="">Foto</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="Jan" msd="NP" tag="NE" in="" out="">Jan</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Knudsen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -222,3 +222,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

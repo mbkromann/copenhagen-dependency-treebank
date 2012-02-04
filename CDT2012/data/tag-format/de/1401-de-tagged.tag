@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="Jette" msd="NP" tag="NE" in="" out="">Jette</W>
@@ -158,8 +158,8 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="froh" msd="AN" tag="ADJA" in="" out="">frohen</W>
 <W lemma="Botschaft" msd="NC" tag="NN" in="" out="">Botschaft</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="absolut" msd="AN" tag="ADJD" in="" out="">absolut</W>
@@ -169,7 +169,7 @@
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="Du" msd="PP" tag="PPER" in="" out="">Dich</W>
 <W lemma="finden" msd="VAP" tag="VVPP" in="" out="">gefunden</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Einen</W>
 <W lemma="Bankdirektor" msd="NC" tag="NN" in="" out="">Bankdirektor</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
@@ -189,6 +189,7 @@
 <W lemma="sein" msd="PO" tag="PPOSAT" in="" out="">seine</W>
 <W lemma="Ex-Frau" msd="NC" tag="NN" in="" out="">Ex-Frau</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
+</root>

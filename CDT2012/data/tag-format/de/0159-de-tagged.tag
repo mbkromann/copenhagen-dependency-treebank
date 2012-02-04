@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="außerdem" msd="RG" tag="ADV" in="" out="">Außerdem</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
@@ -86,7 +86,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="hier" msd="RG" tag="ADV" in="" out="">Hier</W>
 <W lemma="gelten" msd="VA" tag="VVFIN" in="" out="">gilt</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="klein" msd="AN" tag="ADJD" in="" out="">klein</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
 <W lemma="fein" msd="AN" tag="ADJD" in="" out="">fein</W>
@@ -160,11 +160,11 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Kunstindustrie" msd="NC" tag="NN" in="" out="">Kunstindustrie</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="Papierschnitt&7c;Papierschnitte" msd="NC" tag="NN" in="" out="">Papierschnitte</W>
+<W lemma="Papierschnitt|Papierschnitte" msd="NC" tag="NN" in="" out="">Papierschnitte</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="Japan" msd="NP" tag="NE" in="" out="">Japan</W>
 <W lemma="breiten" msd="VA" tag="VVFIN" in="" out="">breiten</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="fast" msd="RG" tag="ADV" in="" out="">fast</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
@@ -201,7 +201,7 @@
 <W lemma="Schätzung" msd="NC" tag="NN" in="" out="">Schätzungen</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Holzschnitt&7c;Holzschnitte" msd="NC" tag="NN" in="" out="">Holzschnitte</W>
+<W lemma="Holzschnitt|Holzschnitte" msd="NC" tag="NN" in="" out="">Holzschnitte</W>
 <W lemma="gehen" msd="VA" tag="VVFIN" in="" out="">gehen</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="500" msd="AC" tag="CARD" in="" out="">500</W>
@@ -223,3 +223,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

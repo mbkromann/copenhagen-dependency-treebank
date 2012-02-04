@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Kitt" msd="NC" tag="NN" in="" out="">Kitt</W>
 <W lemma="bereuen" msd="VA" tag="VVFIN" in="" out="">bereute</W>
@@ -12,7 +12,7 @@
 <W lemma="durchmachen" msd="VAP" tag="VVPP" in="" out="">durchgemacht</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Tritt" msd="NC" tag="NN" in="" out="">Tritte</W>
@@ -204,3 +204,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

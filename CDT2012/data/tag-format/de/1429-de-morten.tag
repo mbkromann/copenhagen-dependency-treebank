@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="neu" msd="AN" tag="ADJA" in="" out="1:attr|1:{source}">Neue</W>
 <W lemma="bei" msd="SP" tag="APPR" in="-1:attr|-1:{source}" out="1:nobj">bei</W>
@@ -20,7 +20,7 @@
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Renault" msd="NP" tag="NE" in="-4:conj" out="-1:coord">Renault</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-5:subj|2:time|3:time|8:vobj|9:pnct">werden</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="7:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="7:dobj" out="">sich</W>
 <W lemma="1993" msd="AC" tag="CARD" in="-2:time" out="">1993</W>
 <W lemma="voraussichtlich" msd="AN" tag="ADJD" in="-3:time" out="">voraussichtlich</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="4:pobj" out="1:nobj">am</W>
@@ -60,12 +60,14 @@
 <W lemma="aufgeben" msd="VAP" tag="VVPP" in="1:vobj" out="-10:dobj|-6:time|-8:[subj]">aufgegeben</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-15:relpa" out="-9:subj|-1:vobj|-8:time">hat</W>
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="Audi" msd="NP" tag="NE" in="25:subj|35:[subj]" out="1:pnct|2:ref|23:relpa">Audi</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-2:ref|20:[subj]|21:subj" out="">das</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="19:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="19:dobj" out="">sich</W>
 <W lemma="kürzlich" msd="AN" tag="ADJD" in="1:time" out="">kürzlich</W>
 <W lemma="nach" msd="SP" tag="APPR" in="17:cause" out="-1:time|1:nobj">nach</W>
 <W lemma="Streitigkeit" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{about}">Streitigkeiten</W>
@@ -124,7 +126,7 @@
 <W lemma="bitten" msd="VAP" tag="VVPP" in="1:vobj" out="-2:[subj]|6:nobj">gebeten</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-6:conj" out="-1:vobj|-3:subj|-5:coord|1:pnct|-4:cause">hat</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="4:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="4:robj" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="3:neg" out="">nicht</W>
 <W lemma="anderweitig" msd="AN" tag="ADJD" in="2:man" out="">anderweitig</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-6:nobj" out="1:vobj">zu</W>
@@ -139,6 +141,8 @@
 <W lemma="/" msd="XP" tag="$(" in="-2:pnct" out="">/</W>
 <W lemma="100" msd="AC" tag="CARD" in="-3:other" out="">100</W>
 <W lemma="km" msd="NC" tag="NN" in="-4:nobj" out="">km</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="ein" msd="P[ID]" tag="ART" in="6:subj|9:[subj]" out="4:attr|5:nobj">Ein</W>
@@ -216,3 +220,4 @@
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 </s>
 </p>
+</root>

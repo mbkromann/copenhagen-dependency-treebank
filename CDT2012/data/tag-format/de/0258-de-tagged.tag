@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">Nach</W>
 <W lemma="Aussage" msd="NC" tag="NN" in="" out="">Aussage</W>
@@ -6,7 +6,7 @@
 <W lemma="Regierung" msd="NC" tag="NN" in="" out="">Regierung</W>
 <W lemma="handeln" msd="VA" tag="VVFIN" in="" out="">handelt</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">38000</W>
 <W lemma="Tonne" msd="NC" tag="NN" in="" out="">Tonnen</W>
@@ -72,7 +72,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="einige" msd="PI" tag="PIAT" in="" out="">einigen</W>
-<W lemma="Stelle&7c;Stellen" msd="NC" tag="NN" in="" out="">Stellen</W>
+<W lemma="Stelle|Stellen" msd="NC" tag="NN" in="" out="">Stellen</W>
 <W lemma="fließen" msd="VA" tag="VVFIN" in="" out="">fließt</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="zähflüssig" msd="AN" tag="ADJA" in="" out="">zähflüssige</W>
@@ -86,7 +86,7 @@
 <W lemma="chemisch" msd="AN" tag="ADJA" in="" out="">chemischer</W>
 <W lemma="Geruch" msd="NC" tag="NN" in="" out="">Geruch</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ausbreiten" msd="VAP" tag="VVPP" in="" out="">ausgebreitet</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
@@ -106,7 +106,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="daran" msd="RG" tag="PAV" in="" out="">daran</W>
 <W lemma="gewöhnen" msd="VAP" tag="VVPP" in="" out="">gewöhnt</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
@@ -174,7 +174,7 @@
 <W lemma="drohen" msd="VAP" tag="VVPP" in="" out="">gedroht</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Schuldige&7c;Schuldigen" msd="NC" tag="NN" in="" out="">Schuldigen</W>
+<W lemma="Schuldige|Schuldigen" msd="NC" tag="NN" in="" out="">Schuldigen</W>
 <W lemma="hinrichten" msd="VAF" tag="VVIZU" in="" out="">hinzurichten</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -195,13 +195,13 @@
 <W lemma="Schiff" msd="NC" tag="NN" in="" out="">Schiffe</W>
 <W lemma="handeln" msd="VA" tag="VVFIN" in="" out="">handelt</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="" out="">dänischen</W>
 <W lemma="Küstenfrachter" msd="NC" tag="NN" in="" out="">Küstenfrachter</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Danix</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Reederei" msd="NC" tag="NN" in="" out="">Reederei</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Phønix</W>
@@ -210,7 +210,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Danix</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="liegen" msd="VA" tag="VVFIN" in="" out="">liegt</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -229,3 +229,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="yo" msd="PP" tag="PPX" in="" out="">Me</W>
 <W lemma="atrever" msd="VAD" tag="VLfin" in="" out="">atrevo</W>
@@ -212,3 +212,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

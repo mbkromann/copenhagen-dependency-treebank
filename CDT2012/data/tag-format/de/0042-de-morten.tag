@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Finanzminister" msd="NC" tag="NN" in="2:title" out="">Finanzminister</W>
 <W lemma="Henning" msd="NP" tag="NE" in="1:namef" out="">Henning</W>
@@ -34,7 +34,7 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="Arbeitsmarkt" msd="NC" tag="NN" in="-2:conj" out="">Arbeitsmarkt</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="Steuer&7c;Steuern" msd="NC" tag="NN" in="-4:conj" out="-1:coord|1:pnct">Steuern</W>
+<W lemma="Steuer|Steuern" msd="NC" tag="NN" in="-4:conj" out="-1:coord|1:pnct">Steuern</W>
 <W lemma="-" msd="XP" tag="$(" in="-1:pnct" out="">-</W>
 <W lemma="Ergebnis" msd="NC" tag="NN" in="1:[subj]|2:[subj]|3:subj" out="-14:loc">Ergebnisse</W>
 <W lemma="erzielen" msd="VAP" tag="VVPP" in="1:vobj" out="-1:[subj]">erzielt</W>
@@ -101,7 +101,7 @@
 <W lemma="stellen" msd="VAP" tag="VVPP" in="1:vobj" out="-1:man|-9:[subj]">gestellt</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="-11:vobj" out="-10:subj|-1:vobj">wird</W>
 <W lemma="," msd="XP" tag="$," in="-24:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-25:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-25:pnct" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-26:qobj|2:subj|3:iobj|5:pnct">sagt</W>
 <W lemma="Henning" msd="NP" tag="NE" in="1:namef" out="">Henning</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:subj|-102:coref-var" out="-1:namef|23:assoc-const|59:coref-iden">Dyremose</W>
@@ -200,7 +200,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="1:subj" out="">Ich</W>
 <W lemma="bezweifeln" msd="VA" tag="VVFIN" in="25:qobj" out="-2:pnct|-1:subj|2:pnct|3:dobj|23:pnct|24:pnct|1:eval">bezweifle</W>
 <W lemma="wirklich" msd="AN" tag="ADJD" in="-1:eval" out="">wirklich</W>
@@ -226,10 +226,11 @@
 <W lemma="senken" msd="VAF" tag="VVINF" in="1:vobj" out="-4:dobj|-5:[subj]">senken</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="-13:relr" out="-6:subj|-1:vobj|-7:resem">würden</W>
 <W lemma="," msd="XP" tag="$," in="-23:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-24:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-24:pnct" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-25:qobj|2:subj|3:pnct">sagt</W>
 <W lemma="Henning" msd="NP" tag="NE" in="1:namef" out="">Henning</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:subj|-66:coref-iden" out="-1:namef">Dyremose</W>
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
 </s>
 </p>
+</root>

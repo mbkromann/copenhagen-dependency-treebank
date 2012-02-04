@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">Per</W>
 <W lemma="lungo" msd="AN" tag="ADJ" in="" out="">lungo</W>
@@ -241,3 +241,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

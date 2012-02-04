@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">Für</W>
 <W lemma="Freitag" msd="NC" tag="NN" in="" out="">Freitag</W>
@@ -46,7 +46,7 @@
 <W lemma="d" msd="PP" tag="PDS" in="" out="">das</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="praktisch" msd="AN" tag="ADJA" in="" out="">praktischen</W>
-<W lemma="Grund&7c;Gründen" msd="NC" tag="NN" in="" out="">Gründen</W>
+<W lemma="Grund|Gründen" msd="NC" tag="NN" in="" out="">Gründen</W>
 <W lemma="am" msd="RG" tag="PTKA" in="" out="">am</W>
 <W lemma="lieb" msd="AN" tag="ADJD" in="" out="">liebsten</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
@@ -181,7 +181,7 @@
 <W lemma="oft" msd="RG" tag="ADV" in="" out="">oft</W>
 <W lemma="auffordern" msd="VAP" tag="VVPP" in="" out="">aufgefordert</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="wieder" msd="RG" tag="ADV" in="" out="">wieder</W>
 <W lemma="aufstellen" msd="VAF" tag="VVINF" in="" out="">aufstellen</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
@@ -232,3 +232,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

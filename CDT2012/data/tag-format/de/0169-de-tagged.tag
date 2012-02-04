@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
@@ -76,7 +76,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Schokoladenflasche</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="Galle" msd="NC" tag="NN" in="" out="">Galle</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">&amp</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">&amp;</W>
 <W lemma=";" msd="XP" tag="$." in="" out="">;</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Jessen</W>
 <W lemma="trinken" msd="VAP" tag="VVPP" in="" out="">getrunken</W>
@@ -109,11 +109,11 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Mißbrauch" msd="NC" tag="NN" in="" out="">Missbrauch</W>
 <W lemma="stellen" msd="VA" tag="VVFIN" in="" out="">stellt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="schleichend" msd="AN" tag="ADJD" in="" out="">schleichend</W>
 <W lemma="ein" msd="RG" tag="PTKVZ" in="" out="">ein</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -162,7 +162,7 @@
 <W lemma="Bier" msd="NC" tag="NN" in="" out="">Bier</W>
 <W lemma="trinken" msd="VAF" tag="VVINF" in="" out="">trinken</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -203,6 +203,7 @@
 <W lemma="Woche" msd="NC" tag="NN" in="" out="">Woche</W>
 <W lemma="Wache" msd="NC" tag="NN" in="" out="">Wache</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
+</root>

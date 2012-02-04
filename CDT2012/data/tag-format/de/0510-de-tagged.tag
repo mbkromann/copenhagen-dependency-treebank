@@ -1,9 +1,9 @@
-<p>
+<root><p>
 <s>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="" out="">Zum</W>
 <W lemma="Auftakt" msd="NC" tag="NN" in="" out="">Auftakt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
-<W lemma="Fest&7c;Feste" msd="NC" tag="NN" in="" out="">Festes</W>
+<W lemma="Fest|Feste" msd="NC" tag="NN" in="" out="">Festes</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gab</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
@@ -34,7 +34,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">den</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="wiederholen" msd="VAF" tag="VVINF" in="" out="">wiederholen</W>
 <W lemma="lohnen" msd="VA" tag="VVFIN" in="" out="">lohnt</W>
@@ -159,7 +159,7 @@
 <W lemma="bevor" msd="CS" tag="KOUS" in="" out="">bevor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Fackelumzug" msd="NC" tag="NN" in="" out="">Fackelumzug</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="Bewegung" msd="NC" tag="NN" in="" out="">Bewegung</W>
 <W lemma="setzen" msd="VA" tag="VVFIN" in="" out="">setzte</W>
@@ -175,7 +175,7 @@
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="100" msd="AC" tag="CARD" in="" out="">100</W>
-<W lemma="Fackel&7c;Fackeln" msd="NC" tag="NN" in="" out="">Fackeln</W>
+<W lemma="Fackel|Fackeln" msd="NC" tag="NN" in="" out="">Fackeln</W>
 <W lemma="ausgeben" msd="VAP" tag="VVPP" in="" out="">ausgegeben</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -191,7 +191,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">das</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Fackel&7c;Fackeln" msd="NC" tag="NN" in="" out="">Fackeln</W>
+<W lemma="Fackel|Fackeln" msd="NC" tag="NN" in="" out="">Fackeln</W>
 <W lemma="anzünden" msd="VAP" tag="VVPP" in="" out="">angezündet</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurde</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -242,7 +242,7 @@
 <W lemma="am" msd="SP+P" tag="APPRART" in="" out="">am</W>
 <W lemma="Feuer" msd="NC" tag="NN" in="" out="">Feuer</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="fallen" msd="VA" tag="VVFIN" in="" out="">fiel</W>
 <W lemma="löblich" msd="AN" tag="ADJD" in="" out="">löblich</W>
 <W lemma="kurz" msd="AN" tag="ADJD" in="" out="">kurz</W>
@@ -263,3 +263,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

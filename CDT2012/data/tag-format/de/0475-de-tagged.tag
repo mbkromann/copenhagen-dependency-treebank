@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="bald" msd="RG" tag="ADV" in="" out="">Bald</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gibt</W>
@@ -109,7 +109,7 @@
 <W lemma="Museum" msd="NC" tag="NN" in="" out="">Museum</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
-<W lemma="Kulturfond&7c;Kulturfonds" msd="NC" tag="NN" in="" out="">Kulturfonds</W>
+<W lemma="Kulturfond|Kulturfonds" msd="NC" tag="NN" in="" out="">Kulturfonds</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="Land" msd="NC" tag="NN" in="" out="">Landes</W>
 <W lemma="übernehmen" msd="VAP" tag="VVPP" in="" out="">übernommen</W>
@@ -154,7 +154,7 @@
 <W lemma="umgestaltet" msd="AN" tag="ADJA" in="" out="">umgestalteten</W>
 <W lemma="Museum" msd="NC" tag="NN" in="" out="">Museums</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Nation" msd="NC" tag="NN" in="" out="">Nation</W>
@@ -176,7 +176,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Gastarbeiter" msd="NC" tag="NN" in="" out="">Gastarbeiter</W>
 <W lemma="produzieren" msd="VAP" tag="VVPP" in="" out="">produziert</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -186,7 +186,7 @@
 <W lemma="kommend" msd="AN" tag="ADJA" in="" out="">kommenden</W>
 <W lemma="Ausstellung" msd="NC" tag="NN" in="" out="">Ausstellungen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">u.</W>
 <W lemma="A." msd="NP" tag="NE" in="" out="">A.</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
@@ -203,7 +203,7 @@
 <p>
 <s>
 <W lemma="Foto" msd="NC" tag="NN" in="" out="">Foto</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="AP" msd="NP" tag="NE" in="" out="">AP</W>
 <W lemma="Imelda" msd="NP" tag="NE" in="" out="">Imelda</W>
 <W lemma="Marco" msd="NP" tag="NE" in="" out="">Marcos</W>
@@ -211,3 +211,4 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Schuhfanatiker</W>
 </s>
 </p>
+</root>

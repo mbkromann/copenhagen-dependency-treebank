@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="più" msd="RG" tag="ADV" in="" out="">Più</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -253,3 +253,4 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 </s>
 </p>
+</root>

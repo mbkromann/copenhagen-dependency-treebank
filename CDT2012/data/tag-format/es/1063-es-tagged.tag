@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="como" msd="CS" tag="CSUBX" in="" out="">Como</W>
 <W lemma="director" msd="NC" tag="NC" in="" out="">director</W>
@@ -234,3 +234,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

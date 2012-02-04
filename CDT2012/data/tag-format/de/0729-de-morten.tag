@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
 <W lemma="ja" msd="RG" tag="PTKANT" in="11:qobj" out="-1:pnct|1:pnct|4:conj|9:pnct|10:pnct">Ja</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="2:eval" out="1:nobj">im</W>
@@ -11,12 +11,12 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="1:preds" out="">fit</W>
 <W lemma="sein" msd="VAF" tag="VAINF" in="-4:vobj" out="-1:preds|-3:[subj]">sein</W>
 <W lemma="," msd="XP" tag="$," in="-9:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-10:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-10:pnct" out="">"</W>
 <W lemma="antworten" msd="VA" tag="VVFIN" in="" out="-11:qobj|2:subj|3:pnct">antwortet</W>
 <W lemma="Bettina" msd="NP" tag="NE" in="1:namef" out="">Bettina</W>
 <W lemma="Borg" msd="NC" tag="NN" in="-2:subj" out="-1:namef">Borg</W>
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="3:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="3:pnct" out="">"</W>
 <W lemma="aber" msd="CC" tag="KON" in="2:coord" out="">Aber</W>
 <W lemma="sie" msd="PP" tag="PPER" in="1:subj|5:[subj]" out="">sie</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="-2:coord|-1:subj|-3:pnct|4:vobj|5:pnct">wollen</W>
@@ -83,7 +83,7 @@
 <W lemma="Arbeiter" msd="NC" tag="NN" in="-4:conj" out="">Arbeiter</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-21:pnct" out="">..</W>
 <W lemma="." msd="XP" tag="$." in="-22:pnct" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-23:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-23:pnct" out="">"</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="" out="1:nobj|2:attr">Zwei</W>
 <W lemma="Mann" msd="NC" tag="NN" in="-1:nobj" out="1:{loc}">Männer</W>
 <W lemma="in" msd="SP" tag="APPR" in="-2:attr|-1:{loc}" out="1:nobj">in</W>
@@ -98,7 +98,7 @@
 <W lemma="wünschen" msd="VA" tag="VVFIN" in="" out="-2:discmark|-1:dobj|1:subj|3:robj|4:pnct">wünscht</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">die</W>
 <W lemma="Frau" msd="NC" tag="NN" in="-1:nobj" out="">Frau</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-3:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-3:robj" out="">sich</W>
 <W lemma="?" msd="XP" tag="$." in="-4:pnct" out="">?</W>
 <W lemma="Jugend" msd="NC" tag="NN" in="" out="1:pnct">Jugend</W>
 <W lemma="?" msd="XP" tag="$." in="-1:pnct" out="">?</W>
@@ -144,38 +144,38 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:namef" out="">Partick</W>
 <W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="-3:appr" out="-1:namef|3:appa|11:pnct|13:conj|22:conj">Swayze</W>
 <W lemma="(" msd="XP" tag="$(" in="2:pnct" out="">(</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:appa" out="-1:pnct|-2:pnct|1:pnct|5:conj">Ghost</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="3:coord" out="">und</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="Point" msd="NP" tag="NE" in="1:nobj#" out="">Point</W>
 <W lemma="Break" msd="NC" tag="NN" in="-5:conj" out="-3:coord|-2:pnct|-1:nobj#|1:pnct|2:pnct">Break</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma=")" msd="XP" tag="$(" in="-2:pnct" out="">)</W>
 <W lemma="," msd="XP" tag="$," in="-11:pnct" out="">,</W>
 <W lemma="Richard" msd="NP" tag="NE" in="1:namef" out="">Richard</W>
 <W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="-13:conj" out="-1:namef|4:appa">Gere</W>
 <W lemma="(" msd="XP" tag="$(" in="3:pnct" out="">(</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="Pretty" msd="NP" tag="NE" in="1:attr" out="">Pretty</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-4:appa" out="-3:pnct|-2:pnct|-1:attr|1:pnct|2:pnct">Woman</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma=")" msd="XP" tag="$(" in="-2:pnct" out="">)</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="Kevin" msd="NP" tag="NE" in="1:namef" out="">Kevin</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-22:conj" out="-2:coord|-1:namef|3:appa">Costner</W>
 <W lemma="(" msd="XP" tag="$(" in="2:pnct" out="">(</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
 <W lemma="Tanz" msd="NC" tag="NN" in="-3:appa" out="-1:pnct|-2:pnct|1:accom|4:pnct|5:pnct|7:conj|9:pnct">Tanz</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-1:accom" out="1:nobj">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
 <W lemma="Wolf" msd="NP" tag="NE" in="-1:nobj" out="">Wolf</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-4:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-4:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
 <W lemma="JFK" msd="NP" tag="NE" in="-7:conj" out="-1:pnct|1:pnct">JFK</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma=")" msd="XP" tag="$(" in="-9:pnct" out="">)</W>
 <W lemma="," msd="XP" tag="$," in="-38:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-39:ref|3:subj|9:[subj]" out="1:quant">die</W>
@@ -204,9 +204,9 @@
 <W lemma="80er" msd="AN" tag="ADJA" in="-1:nobj" out="">80er</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="Sylvester" msd="NC" tag="NN" in="4:namef" out="">Sylvester</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="2:name" out="-1:pnct|1:pnct">Rambo</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-9:appa" out="-4:namef|-2:name|3:conj">Stallone</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="Arnold" msd="NP" tag="NE" in="1:namef" out="">Arnold</W>
@@ -215,3 +215,4 @@
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 </s>
 </p>
+</root>

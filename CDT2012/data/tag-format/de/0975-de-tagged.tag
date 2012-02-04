@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Mai" msd="NC" tag="NN" in="" out="">Mai</W>
 <W lemma="Buch" msd="NC" tag="NN" in="" out="">Buch</W>
@@ -175,7 +175,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="zeigen" msd="VA" tag="VVFIN" in="" out="">zeigte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="schnell" msd="AN" tag="ADJD" in="" out="">schnell</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
@@ -206,3 +206,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

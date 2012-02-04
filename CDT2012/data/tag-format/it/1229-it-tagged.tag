@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Karadzic" msd="NP" tag="NPR" in="" out="">Karadzic</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">ha</W>
@@ -222,3 +222,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

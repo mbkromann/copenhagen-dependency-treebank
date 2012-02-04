@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="capítulo" msd="NC" tag="NC" in="" out="">Capítulo</W>
 <W lemma="I" msd="AC" tag="CARD" in="" out="">I</W>
@@ -78,6 +78,8 @@
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="él" msd="PP" tag="PPX" in="" out="">ellos</W>
@@ -101,6 +103,8 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
+</s>
+</p>
 <p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">Lo</W>
@@ -146,6 +150,8 @@
 <W lemma="mundo" msd="NC" tag="NC" in="" out="">mundo</W>
 <W lemma="como" msd="CS" tag="CSUBX" in="" out="">como</W>
 <W lemma="él" msd="PP" tag="PPO" in="" out="">lo</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="ver" msd="VAD" tag="VLfin" in="" out="">ven</W>
@@ -185,6 +191,8 @@
 <W lemma="contar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">contar</W>
 <W lemma="cosa" msd="NC" tag="NC" in="" out="">cosas</W>
 <W lemma="sobre" msd="SP" tag="SCENE" in="" out="">sobre</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="él" msd="PP" tag="PPX" in="" out="">ello</W>
@@ -206,6 +214,8 @@
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="aprender" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">aprender</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="lengua" msd="NC" tag="NC" in="" out="">lengua</W>
@@ -230,6 +240,8 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="niño" msd="NC" tag="NC" in="" out="">niños</W>
 <W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Valby</W>
@@ -244,3 +256,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

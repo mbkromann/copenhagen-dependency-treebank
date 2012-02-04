@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="aber" msd="CC" tag="KON" in="3:coord" out="">Aber</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">die</W>
@@ -83,7 +83,7 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="-4:nobj" out="5:vobj">dass</W>
 <W lemma="privat" msd="AN" tag="ADJA" in="1:attr" out="">private</W>
 <W lemma="Jäger" msd="NC" tag="NN" in="3:subj" out="-1:attr">Jäger</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="1:dobj" out="">ihrer</W>
 <W lemma="annehmen" msd="VA" tag="VVFIN" in="-5:vobj" out="-3:subj|-1:dobj|-2:robj">annehmen</W>
 <W lemma="." msd="XP" tag="$." in="-17:pnct" out="">.</W>
@@ -168,7 +168,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Nordseeland</W>
 <W lemma="an" msd="SP" tag="APPR" in="-4:iter" out="1:nobj">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
-<W lemma="Wochentag&7c;Wochentagen" msd="NC" tag="NN" in="-1:nobj" out="">Wochentagen</W>
+<W lemma="Wochentag|Wochentagen" msd="NC" tag="NN" in="-1:nobj" out="">Wochentagen</W>
 <W lemma="," msd="XP" tag="$," in="-7:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-8:time" out="2:vobj">wenn</W>
 <W lemma="ander" msd="PP" tag="PIS" in="1:subj" out="">andere</W>
@@ -207,3 +207,4 @@
 <W lemma="." msd="XP" tag="$." in="-23:pnct" out="">.</W>
 </s>
 </p>
+</root>

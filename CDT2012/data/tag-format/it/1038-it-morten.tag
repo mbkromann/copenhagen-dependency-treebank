@@ -1,4 +1,4 @@
-<W lemma="ma" msd="CS" tag="CON" in="" out="">Ma</W>
+<root><W lemma="ma" msd="CS" tag="CON" in="" out="">Ma</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">è</W>
 <W lemma="essere|stare" msd="VAP" tag="VER:pper" in="" out="">stato</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
@@ -290,3 +290,4 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Kirkeby</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Kro</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

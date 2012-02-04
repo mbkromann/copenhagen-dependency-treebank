@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="amerikanisch" msd="AN" tag="ADJA" in="" out="">amerikanische</W>
@@ -40,7 +40,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">diesen</W>
-<W lemma="Tag&7c;Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
+<W lemma="Tag|Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">denen</W>
@@ -72,9 +72,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Perot</W>
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">viele</W>
-<W lemma="Stimme&7c;Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
+<W lemma="Stimme|Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="vereinen" msd="VAF" tag="VVINF" in="" out="">vereinen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -98,11 +98,11 @@
 <W lemma="jed" msd="PI" tag="PIDAT" in="" out="">jedem</W>
 <W lemma="Bundesland" msd="NC" tag="NN" in="" out="">Bundesland</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="" out="">alle</W>
-<W lemma="Stimme&7c;Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
+<W lemma="Stimme|Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Wahlmann" msd="NC" tag="NN" in="" out="">Wahlmänner</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="vereinigen" msd="VAP" tag="VVPP" in="" out="">vereinigt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="gehen" msd="VA" tag="VVFIN" in="" out="">geht</W>
@@ -201,3 +201,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

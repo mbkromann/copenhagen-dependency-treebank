@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">Auch</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
@@ -59,7 +59,7 @@
 <W lemma="gut" msd="AN" tag="ADJA" in="" out="">guten</W>
 <W lemma="Freundin" msd="NC" tag="NN" in="" out="">Freundin</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="selbst" msd="RG" tag="ADV" in="" out="">selbst</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="seit" msd="SP" tag="APPR" in="" out="">seit</W>
@@ -80,7 +80,7 @@
 <s>
 <W lemma="&lt;unknown&gt;" msd="VAM" tag="VVIMP" in="" out="">,,Wenn</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="tagsüber" msd="RG" tag="ADV" in="" out="">tagsüber</W>
 <W lemma="fast" msd="RG" tag="ADV" in="" out="">fast</W>
 <W lemma="gegenseitig" msd="AN" tag="ADJD" in="" out="">gegenseitig</W>
@@ -105,7 +105,7 @@
 <W lemma="du" msd="PP" tag="PPER" in="" out="">du</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="Art" msd="NC" tag="NN" in="" out="">Art</W>
-<W lemma="Schwarz&7c;Schwarze" msd="NC" tag="NN" in="" out="">Schwarzes</W>
+<W lemma="Schwarz|Schwarze" msd="NC" tag="NN" in="" out="">Schwarzes</W>
 <W lemma="Gold" msd="NC" tag="NN" in="" out="">Gold</W>
 <W lemma="brauchen" msd="VA" tag="VVFIN" in="" out="">brauchst</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -136,12 +136,12 @@
 <W lemma="darüber" msd="RG" tag="PAV" in="" out="">darüber</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">muss</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
-<W lemma="Klar&7c;Klare" msd="NC" tag="NN" in="" out="">Klaren</W>
+<W lemma="Klar|Klare" msd="NC" tag="NN" in="" out="">Klaren</W>
 <W lemma="sein" msd="VAF" tag="VAINF" in="" out="">sein</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Jytte" msd="NP" tag="NE" in="" out="">Jytte</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Hilden</W>
@@ -208,3 +208,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

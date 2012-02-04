@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">Als</W>
 <W lemma="erfahren" msd="AN" tag="ADJA" in="" out="">erfahrene</W>
@@ -46,7 +46,7 @@
 <W lemma="herein" msd="RG" tag="ADV" in="" out="">herein</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Arm&7c;Arme" msd="NC" tag="NN" in="" out="">Arme</W>
+<W lemma="Arm|Arme" msd="NC" tag="NN" in="" out="">Arme</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Sozialdemokrat" msd="NC" tag="NN" in="" out="">Sozialdemokraten</W>
 <W lemma="treiben" msd="VA" tag="VVFIN" in="" out="">treiben</W>
@@ -97,12 +97,12 @@
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="" out="">ihren</W>
 <W lemma="alternativ" msd="AN" tag="ADJA" in="" out="">alternativen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="Vorschlag" msd="NC" tag="NN" in="" out="">Vorschlag</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="Finanzgesetz" msd="NC" tag="NN" in="" out="">Finanzgesetz</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="vorlegen" msd="VAP" tag="VVPP" in="" out="">vorgelegt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
@@ -117,13 +117,13 @@
 <W lemma="folgendermaßen" msd="RG" tag="ADV" in="" out="">folgendermaßen</W>
 <W lemma="formulieren" msd="VAP" tag="VVPP" in="" out="">formuliert</W>
 <W lemma="werden" msd="VAF" tag="VAINF" in="" out="">werden</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="Sozialdemokratie" msd="NC" tag="NN" in="" out="">Sozialdemokratie</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
@@ -132,7 +132,7 @@
 <W lemma="sein" msd="VAF" tag="VAINF" in="" out="">sein</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Arbeitslos&7c;Arbeitslose&7c;Arbeitslosen" msd="NC" tag="NN" in="" out="">Arbeitslosen</W>
+<W lemma="Arbeitslos|Arbeitslose|Arbeitslosen" msd="NC" tag="NN" in="" out="">Arbeitslosen</W>
 <W lemma="nach" msd="SP" tag="APPO" in="" out="">nach</W>
 <W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
@@ -187,7 +187,7 @@
 <W lemma="ansteigen" msd="VAF" tag="VVINF" in="" out="">ansteigen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="dann" msd="RG" tag="ADV" in="" out="">Dann</W>
-<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
+<W lemma="fallen|fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Arbeitslosigkeit" msd="NC" tag="NN" in="" out="">Arbeitslosigkeit</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -198,11 +198,12 @@
 <W lemma="Titel" msd="NC" tag="NN" in="" out="">Titel</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="Plan" msd="NC" tag="NN" in="" out="">Plans</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,Der</W>
 <W lemma="positiv" msd="AN" tag="ADJA" in="" out="">positive</W>
 <W lemma="Kreis" msd="NC" tag="NN" in="" out="">Kreis</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

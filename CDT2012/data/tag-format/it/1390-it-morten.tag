@@ -1,4 +1,4 @@
-<W lemma="il" msd="PD" tag="DET:def" in="" out="">Lo</W>
+<root><W lemma="il" msd="PD" tag="DET:def" in="" out="">Lo</W>
 <W lemma="scopo" msd="NC" tag="NOM" in="" out="">scopo</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="">è</W>
 <W lemma="che" msd="CS" tag="CON" in="" out="">che</W>
@@ -173,3 +173,4 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Claus</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Wulff</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

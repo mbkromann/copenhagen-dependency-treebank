@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">Los</W>
 <W lemma="sondeo" msd="NC" tag="NC" in="" out="">sondeos</W>
@@ -236,3 +236,4 @@
 <W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>
 </s>
 </p>
+</root>

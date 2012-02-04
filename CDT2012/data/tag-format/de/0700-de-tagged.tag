@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="aber" msd="RG" tag="ADV" in="" out="">Aber</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="" out="">zwei</W>
@@ -9,7 +9,7 @@
 <W lemma="Richterkollege" msd="NC" tag="NN" in="" out="">Richterkollege</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Lyngby</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="ähnlich" msd="AN" tag="ADJA" in="" out="">ähnlichen</W>
@@ -18,7 +18,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="normal" msd="AN" tag="ADJA" in="" out="">normale</W>
 <W lemma="Auslegung" msd="NC" tag="NN" in="" out="">Auslegung</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="verstoßen" msd="VA" tag="VVFIN" in="" out="">verstößt</W>
 <W lemma="gegen" msd="SP" tag="APPR" in="" out="">gegen</W>
@@ -40,7 +40,7 @@
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Kulturrassisten</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="nennen" msd="VAF" tag="VVINF" in="" out="">nennen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -65,8 +65,8 @@
 <W lemma="Äußerung" msd="NC" tag="NN" in="" out="">Äußerung</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,gutem</W>
-<W lemma="Glaube&7c;Glauben" msd="NC" tag="NN" in="" out="">Glauben</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="Glaube|Glauben" msd="NC" tag="NN" in="" out="">Glauben</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hätte</W>
 <W lemma="machen" msd="VAP" tag="VVPP" in="" out="">gemacht</W>
 <W lemma="sein" msd="VAF" tag="VAINF" in="" out="">sein</W>
@@ -109,7 +109,7 @@
 <s>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="juristisch" msd="AN" tag="ADJA" in="" out="">juristischen</W>
-<W lemma="Kreis&7c;Kreisen" msd="NC" tag="NN" in="" out="">Kreisen</W>
+<W lemma="Kreis|Kreisen" msd="NC" tag="NN" in="" out="">Kreisen</W>
 <W lemma="halten" msd="VA" tag="VVFIN" in="" out="">hält</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
@@ -141,7 +141,7 @@
 <W lemma="ja" msd="RG" tag="PTKANT" in="" out="">ja</W>
 <W lemma="unterschiedlich" msd="AN" tag="ADJD" in="" out="">unterschiedlich</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="erklären" msd="VA" tag="VVFIN" in="" out="">erklärt</W>
 <W lemma="Professor" msd="NC" tag="NN" in="" out="">Professor</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">lic.</W>
@@ -159,7 +159,7 @@
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="" out="">,,ausgesprochen</W>
 <W lemma="ungewöhnlich" msd="AN" tag="ADJD" in="" out="">ungewöhnlich</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
@@ -220,7 +220,7 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
-<W lemma="Zweifelsfall&7c;Zweifelsfällen" msd="NC" tag="NN" in="" out="">Zweifelsfällen</W>
+<W lemma="Zweifelsfall|Zweifelsfällen" msd="NC" tag="NN" in="" out="">Zweifelsfällen</W>
 <W lemma="kommen" msd="VAF" tag="VVINF" in="" out="">kommen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -244,10 +244,11 @@
 <W lemma="bringen" msd="VAP" tag="VVPP" in="" out="">gebracht</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Vagn</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Greve</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

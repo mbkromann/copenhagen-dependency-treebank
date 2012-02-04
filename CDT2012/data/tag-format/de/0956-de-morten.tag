@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Die</W>
 <W lemma="Voraussetzung" msd="NC" tag="NN" in="-1:nobj" out="">Voraussetzung</W>
@@ -31,7 +31,7 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="-4:nobj" out="5:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="1:attr|2:nobj">die</W>
 <W lemma="unter" msd="AN" tag="ADJA" in="-1:attr" out="">unteren</W>
-<W lemma="Erdschicht&7c;Erdschichten" msd="NC" tag="NN" in="-2:nobj" out="">Erdschichten</W>
+<W lemma="Erdschicht|Erdschichten" msd="NC" tag="NN" in="-2:nobj" out="">Erdschichten</W>
 <W lemma="tragfähig" msd="AN" tag="ADJD" in="1:preds" out="">tragfähig</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|-1:preds">sind</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
@@ -56,13 +56,13 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="-1:attr" out="">ungereinigte</W>
 <W lemma="Wunde" msd="NC" tag="NN" in="-2:nobj" out="">Wunde</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-9:nobj" out="1:vobj|6:conj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="legen" msd="VAF" tag="VVINF" in="-1:vobj" out="-7:dobj|-5:@loc">legen</W>
+<W _noerror=":nosubj:" lemma="legen" msd="VAF" tag="VVINF" in="-1:vobj" out="-7:dobj|-5:@loc">legen</W>
 <W lemma="und" msd="CC" tag="KON" in="4:coord" out="">und</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="4:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="4:robj" out="">sich</W>
 <W lemma="dann" msd="RG" tag="ADV" in="3:scene" out="">dann</W>
 <W lemma="darauf" msd="RG" tag="PAV" in="2:pobj" out="3:pnct|4:nobj">darauf</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-6:conj" out="-4:coord|1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="verlassen" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:pobj|-3:scene|-4:robj">verlassen</W>
+<W _noerror=":nosubj:" lemma="verlassen" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:pobj|-3:scene|-4:robj">verlassen</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-4:nobj" out="5:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="1:nobj">das</W>
@@ -194,3 +194,4 @@
 <W lemma="." msd="XP" tag="$." in="-17:pnct" out="">.</W>
 </s>
 </p>
+</root>

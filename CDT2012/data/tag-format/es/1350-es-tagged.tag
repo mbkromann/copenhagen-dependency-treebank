@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="y" msd="CC" tag="CC" in="" out="">Y</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">sus</W>
@@ -218,3 +218,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

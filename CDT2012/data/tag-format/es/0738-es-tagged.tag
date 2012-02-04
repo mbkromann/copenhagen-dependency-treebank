@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="le" msd="SP" tag="PE" in="" out="">Le</W>
 <W lemma="operar" msd="VAD" tag="VLfin" in="" out="">operaron</W>
@@ -193,3 +193,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

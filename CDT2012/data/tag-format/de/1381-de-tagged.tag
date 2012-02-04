@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="freuen" msd="VA" tag="VVFIN" in="" out="">freue</W>
 <W lemma="ich" msd="PR" tag="PRF" in="" out="">mich</W>
@@ -18,7 +18,7 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="mein" msd="PO" tag="PPOSAT" in="" out="">meinen</W>
-<W lemma="Studie&7c;Studium" msd="NC" tag="NN" in="" out="">Studien</W>
+<W lemma="Studie|Studium" msd="NC" tag="NN" in="" out="">Studien</W>
 <W lemma="anfangen" msd="VAF" tag="VVINF" in="" out="">anfangen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -37,7 +37,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">vielen</W>
 <W lemma="frei" msd="AN" tag="ADJA" in="" out="">freien</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">mir</W>
 <W lemma="jedoch" msd="RG" tag="ADV" in="" out="">jedoch</W>
@@ -162,7 +162,7 @@
 <W lemma="zurück" msd="RG" tag="PTKVZ" in="" out="">zurück</W>
 <W lemma="kommen" msd="VA" tag="VVFIN" in="" out="">komme</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -212,3 +212,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

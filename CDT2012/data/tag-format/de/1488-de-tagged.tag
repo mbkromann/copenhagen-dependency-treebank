@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
@@ -40,7 +40,7 @@
 <W lemma="Pflegeverhältnis" msd="NC" tag="NN" in="" out="">Pflegeverhältnisses</W>
 <W lemma="bestehen" msd="VA" tag="VVFIN" in="" out="">besteht</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -71,7 +71,7 @@
 <W lemma="Familie" msd="NC" tag="NN" in="" out="">Familie</W>
 <W lemma="dürfen" msd="VA" tag="VMFIN" in="" out="">darf</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
-<W lemma="Friede&7c;Frieden" msd="NC" tag="NN" in="" out="">Frieden</W>
+<W lemma="Friede|Frieden" msd="NC" tag="NN" in="" out="">Frieden</W>
 <W lemma="leben" msd="VAF" tag="VVINF" in="" out="">leben</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
@@ -232,3 +232,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="gut" msd="AN" tag="ADJD" in="" out="">gut</W>
@@ -36,7 +36,7 @@
 <W lemma="Spezialist" msd="NC" tag="NN" in="" out="">Spezialisten</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Sachverständige&7c;Sachverständigen" msd="NC" tag="NN" in="" out="">Sachverständigen</W>
+<W lemma="Sachverständige|Sachverständigen" msd="NC" tag="NN" in="" out="">Sachverständigen</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="zur" msd="SP+P" tag="APPRART" in="" out="">zur</W>
 <W lemma="Beurteilung" msd="NC" tag="NN" in="" out="">Beurteilung</W>
@@ -175,7 +175,7 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="Manuskript" msd="NC" tag="NN" in="" out="">Manuskript</W>
 <W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="" out="">,,schlachten</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="ohne" msd="CS" tag="KOUI" in="" out="">ohne</W>
@@ -186,3 +186,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

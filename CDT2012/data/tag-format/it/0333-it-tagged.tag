@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="mi" msd="PP" tag="PRO:pers" in="" out="">Mi</W>
 <W lemma="essere" msd="VADA" tag="VER:impf" in="" out="">ero</W>
@@ -250,3 +250,4 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 </s>
 </p>
+</root>

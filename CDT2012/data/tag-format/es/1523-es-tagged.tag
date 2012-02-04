@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="varios" msd="AN" tag="QU" in="" out="">Varios</W>
 <W lemma="familiar" msd="NC" tag="NC" in="" out="">familiares</W>
@@ -219,3 +219,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

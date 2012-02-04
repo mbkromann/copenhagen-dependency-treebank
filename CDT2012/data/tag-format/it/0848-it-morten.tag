@@ -1,4 +1,4 @@
-<W lemma="il" msd="PD" tag="DET:def" in="" out="">Il</W>
+<root><W lemma="il" msd="PD" tag="DET:def" in="" out="">Il</W>
 <W lemma="primo" msd="AN" tag="ADJ" in="" out="">primo</W>
 <W lemma="dicembre" msd="NC" tag="NOM" in="" out="">dicembre</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">1883</W>
@@ -211,3 +211,4 @@
 <W lemma="diventare" msd="VADR" tag="VER:futu" in="" out="">diventerà</W>
 <W lemma="superfluo" msd="AN" tag="ADJ" in="" out="">superflua</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

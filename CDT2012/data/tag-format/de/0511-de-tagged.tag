@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Fußbodenbelag" msd="NC" tag="NN" in="" out="">Fußbodenbelag</W>
@@ -101,16 +101,16 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="denn" msd="CC" tag="KON" in="" out="">denn</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Fleck&7c;Flecken" msd="NC" tag="NN" in="" out="">Flecken</W>
+<W lemma="Fleck|Flecken" msd="NC" tag="NN" in="" out="">Flecken</W>
 <W lemma="lassen" msd="VA" tag="VVFIN" in="" out="">lassen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="mehr" msd="RG" tag="ADV" in="" out="">mehr</W>
 <W lemma="entfernen" msd="VAF" tag="VVINF" in="" out="">entfernen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="entscheiden" msd="VAM" tag="VVIMP" in="" out="">Entscheidet</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="hingegen" msd="RG" tag="ADV" in="" out="">hingegen</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
@@ -139,7 +139,7 @@
 <W lemma="verwenden" msd="VAP" tag="VVPP" in="" out="">verwendet</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="glänzend" msd="AN" tag="ADJD" in="" out="">glänzend</W>
 <W lemma="bewähren" msd="VAP" tag="VVPP" in="" out="">bewährt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -152,14 +152,14 @@
 <W lemma="sowohl" msd="CC" tag="KON" in="" out="">sowohl</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="ganz" msd="AN" tag="ADJA" in="" out="">ganzen</W>
-<W lemma="Bahn&7c;Bahnen" msd="NC" tag="NN" in="" out="">Bahnen</W>
+<W lemma="Bahn|Bahnen" msd="NC" tag="NN" in="" out="">Bahnen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="Form" msd="NC" tag="NN" in="" out="">Form</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
-<W lemma="Platte&7c;Platten" msd="NC" tag="NN" in="" out="">Platten</W>
+<W lemma="Platte|Platten" msd="NC" tag="NN" in="" out="">Platten</W>
 <W lemma="erhältlich" msd="AN" tag="ADJD" in="" out="">erhältlich</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="einfarbig" msd="AN" tag="ADJD" in="" out="">Einfarbig</W>
@@ -185,7 +185,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Linoleum" msd="NC" tag="NN" in="" out="">Linoleum</W>
 <W lemma="eignen" msd="VA" tag="VVFIN" in="" out="">eignet</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="gut" msd="AN" tag="ADJD" in="" out="">gut</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
@@ -196,3 +196,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

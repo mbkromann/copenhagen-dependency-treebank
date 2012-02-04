@@ -1,4 +1,4 @@
-<W lemma="e" msd="CS" tag="CON" in="" out="">E</W>
+<root><W lemma="e" msd="CS" tag="CON" in="" out="">E</W>
 <W lemma="poi" msd="RG" tag="ADV" in="" out="">poi</W>
 <W lemma="c'" msd="PD" tag="PRO:demo" in="" out="">c'</W>
 <W lemma="essere" msd="VADA" tag="VER:impf" in="" out="">era</W>
@@ -180,3 +180,4 @@
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">chilo-bambini</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

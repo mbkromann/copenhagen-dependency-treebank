@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Baltica</W>
 <W lemma="stehen" msd="VA" tag="VVFIN" in="" out="">steht</W>
@@ -84,7 +84,7 @@
 <s>
 <W lemma="direkt" msd="AN" tag="ADJD" in="" out="">Direkt</W>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
-<W lemma="Weihnacht&7c;Weihnachten" msd="NC" tag="NN" in="" out="">Weihnachten</W>
+<W lemma="Weihnacht|Weihnachten" msd="NC" tag="NN" in="" out="">Weihnachten</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurde</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="Vereinbarung" msd="NC" tag="NN" in="" out="">Vereinbarung</W>
@@ -118,20 +118,20 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Vereinbarung" msd="NC" tag="NN" in="" out="">Vereinbarung</W>
 <W lemma="flach" msd="AN" tag="ADJD" in="" out="">flach</W>
-<W lemma="fallen&7c;gefallen" msd="VAP" tag="VVPP" in="" out="">gefallen</W>
+<W lemma="fallen|gefallen" msd="VAP" tag="VVPP" in="" out="">gefallen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="weit" msd="AN" tag="ADJA" in="" out="">Weitere</W>
 <W lemma="Käufer" msd="NC" tag="NN" in="" out="">Käufer</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Peter" msd="NP" tag="NE" in="" out="">Peter</W>
 <W lemma="Christofferse" msd="NC" tag="NN" in="" out="">Christoffersen</W>
@@ -146,9 +146,9 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Markt" msd="NC" tag="NN" in="" out="">Markt</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">gescant</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -173,7 +173,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Hafnia-Baltica</W>
 <W lemma="Verhandlung" msd="NC" tag="NN" in="" out="">Verhandlungen</W>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
-<W lemma="Weihnacht&7c;Weihnachten" msd="NC" tag="NN" in="" out="">Weihnachten</W>
+<W lemma="Weihnacht|Weihnachten" msd="NC" tag="NN" in="" out="">Weihnachten</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="" out="">zum</W>
 <W lemma="Abschluß" msd="NC" tag="NN" in="" out="">Abschluss</W>
@@ -225,3 +225,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

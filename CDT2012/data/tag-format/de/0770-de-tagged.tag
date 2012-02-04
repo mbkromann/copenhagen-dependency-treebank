@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="Fernsehen" msd="NC" tag="NN" in="" out="">Fernsehen</W>
@@ -74,7 +74,7 @@
 <W lemma="Journalist" msd="NC" tag="NN" in="" out="">Journalist</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">der</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">durch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Ruine" msd="NC" tag="NN" in="" out="">Ruinen</W>
@@ -113,11 +113,11 @@
 <W lemma="weinend" msd="AN" tag="ADJA" in="" out="">weinenden</W>
 <W lemma="Vater" msd="NC" tag="NN" in="" out="">Vater</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="mein" msd="PO" tag="PPOSAT" in="" out="">Meine</W>
 <W lemma="Kind" msd="NC" tag="NN" in="" out="">Kinder</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="schreien" msd="VA" tag="VVFIN" in="" out="">schrie</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -217,3 +217,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="gleichzeitig" msd="AN" tag="ADJD" in="" out="">Gleichzeitig</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
@@ -153,7 +153,7 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="international" msd="AN" tag="ADJA" in="" out="">internationaler</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Krisenbewältigung</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="einsetzen" msd="VAP" tag="VVPP" in="" out="">eingesetzt</W>
 <W lemma="werden" msd="VAF" tag="VAINF" in="" out="">werden</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">sollen</W>
@@ -206,3 +206,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

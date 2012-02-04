@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="al" msd="SP" tag="PAL" in="" out="">Al</W>
 <W lemma="principio" msd="NC" tag="NC" in="" out="">principio</W>
@@ -226,3 +226,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

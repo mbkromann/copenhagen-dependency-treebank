@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="wenn" msd="CS" tag="KOUS" in="15:cond" out="">Wenn</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="6:subj|12:[subj]" out="1:nobj">der</W>
@@ -121,7 +121,7 @@
 <W lemma="aufbewahren" msd="VAF" tag="VVIZU" in="1:preds" out="">aufzubewahren</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-11:conj" out="-10:coord|-9:time|-1:preds">ist</W>
 <W lemma="(" msd="XP" tag="$(" in="2:pnct" out="">(</W>
-<W _noerror="&3a;nosubj&3a;" lemma="empfehlen" msd="VAP" tag="VVPP" in="1:vobj" out="3:[subj]">empfohlen</W>
+<W _noerror=":nosubj:" lemma="empfehlen" msd="VAP" tag="VVPP" in="1:vobj" out="3:[subj]">empfohlen</W>
 <W lemma="werden" msd="VAF" tag="VAINF" in="-11:modp|-11:{elab}" out="-1:vobj|-2:pnct|2:subj|4:pnct">werden</W>
 <W lemma="mindestens" msd="RG" tag="ADV" in="1:quant" out="">mindestens</W>
 <W lemma="5" msd="AC" tag="CARD" in="-2:subj|-3:[subj]" out="-1:quant|1:nobj">5</W>
@@ -162,7 +162,7 @@
 <W lemma="genau" msd="AN" tag="ADJD" in="3:man" out="">genau</W>
 <W lemma="Buch" msd="NC" tag="NN" in="2:dobj" out="-7:pobj">Buch</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-11:preds" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="führen" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:dobj|-3:man">führen</W>
+<W _noerror=":nosubj:" lemma="führen" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:dobj|-3:man">führen</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 <W lemma="bei" msd="SP" tag="APPR" in="22:scene" out="1:nobj">Bei</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|15:relr">allen</W>
@@ -203,3 +203,4 @@
 <W lemma="." msd="XP" tag="$." in="-14:pnct" out="">.</W>
 </s>
 </p>
+</root>

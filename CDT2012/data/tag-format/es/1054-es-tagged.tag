@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">Su</W>
@@ -93,6 +93,8 @@
 <W lemma="junto" msd="AN" tag="ADJ" in="" out="">juntos</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="él" msd="PP" tag="PPO" in="" out="">lo</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
@@ -216,3 +218,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

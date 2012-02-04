@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Karadzic" msd="NP" tag="NE" in="" out="">Karadzic</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagte</W>
@@ -75,7 +75,7 @@
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="400" msd="AC" tag="CARD" in="" out="">400</W>
 <W lemma="Rakete" msd="NC" tag="NN" in="" out="">Raketen</W>
-<W lemma="treffen&7c;triefen" msd="VAP" tag="VVPP" in="" out="">getroffen</W>
+<W lemma="treffen|triefen" msd="VAP" tag="VVPP" in="" out="">getroffen</W>
 <W lemma="werden" msd="VAP" tag="VAPP" in="" out="">worden</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -83,7 +83,7 @@
 </p>
 <p>
 <s>
-<W lemma="Radiobericht&7c;Radioberichten" msd="NC" tag="NN" in="" out="">Radioberichten</W>
+<W lemma="Radiobericht|Radioberichten" msd="NC" tag="NN" in="" out="">Radioberichten</W>
 <W lemma="zufolge" msd="SP" tag="APPO" in="" out="">zufolge</W>
 <W lemma="starten" msd="VA" tag="VVFIN" in="" out="">starteten</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -203,3 +203,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

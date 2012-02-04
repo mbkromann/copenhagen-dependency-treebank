@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="zuknöpfen" msd="VAP" tag="VVPP" in="" out="">ZUGEKNÖPFT</W>
 </s>
@@ -114,7 +114,7 @@
 <p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
-<W lemma="Zeitalte&7c;Zeitalter" msd="NC" tag="NN" in="" out="">Zeitalter</W>
+<W lemma="Zeitalte|Zeitalter" msd="NC" tag="NN" in="" out="">Zeitalter</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Finanzaristokratie" msd="NC" tag="NN" in="" out="">Finanzaristokratie</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
@@ -215,7 +215,7 @@
 <W lemma="aber" msd="RG" tag="ADV" in="" out="">aber</W>
 <W lemma="diskutabel" msd="AN" tag="ADJA" in="" out="">diskutable</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Machtübernahme</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">durch</W>
 <W lemma="Per" msd="NP" tag="NE" in="" out="">Per</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Pedersen</W>
@@ -240,3 +240,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

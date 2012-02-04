@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Torben</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Vest</W>
@@ -107,7 +107,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Århus</W>
 <W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Hennes</W>
-<W lemma="&" msd="XS" tag="SYM" in="" out="">&</W>
+<W lemma="&amp;" msd="XS" tag="SYM" in="" out="">&amp;</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">amp</W>
 <W lemma=";" msd="XP" tag="SEMICOLON" in="" out="">;</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Mauritz</W>
@@ -150,6 +150,8 @@
 <W lemma="junio" msd="NC" tag="NMON" in="" out="">junio</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">e</W>
 <W lemma="hacer" msd="VAD" tag="VLfin" in="" out="">hicimos</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="algo" msd="AN" tag="QU" in="" out="">algo</W>
@@ -214,3 +216,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

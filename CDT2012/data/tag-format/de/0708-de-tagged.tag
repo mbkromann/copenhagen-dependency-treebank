@@ -1,11 +1,11 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Der</W>
 <W lemma="Häuptling" msd="NC" tag="NN" in="" out="">Häuptling</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Gønge</W>
 <W lemma="kämpfen" msd="VA" tag="VVFIN" in="" out="">kämpfte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="heute" msd="RG" tag="ADV" in="" out="">heute</W>
 <W lemma="Abend" msd="NC" tag="NN" in="" out="">Abend</W>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">durch</W>
@@ -13,7 +13,7 @@
 <W lemma="siebt" msd="AN" tag="ADJA" in="" out="">siebte</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="dreizehn" msd="AC" tag="CARD" in="" out="">dreizehn</W>
-<W lemma="Folge&7c;Folgen" msd="NC" tag="NN" in="" out="">Folgen</W>
+<W lemma="Folge|Folgen" msd="NC" tag="NN" in="" out="">Folgen</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Danmark</W>
 <W lemma="Radio" msd="NC" tag="NN" in="" out="">Radios</W>
@@ -36,7 +36,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Fernsehkritiker" msd="NC" tag="NN" in="" out="">Fernsehkritiker</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
-<W lemma="Begeisterungssturm&7c;Begeisterungsstürmen" msd="NC" tag="NN" in="" out="">Begeisterungsstürmen</W>
+<W lemma="Begeisterungssturm|Begeisterungsstürmen" msd="NC" tag="NN" in="" out="">Begeisterungsstürmen</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="bewegen" msd="VAF" tag="VVINF" in="" out="">bewegen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -50,12 +50,12 @@
 <W lemma="Zeitung" msd="NC" tag="NN" in="" out="">Zeitung</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Frage" msd="NC" tag="NN" in="" out="">Frage</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">Ist</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="viel" msd="PP" tag="PIS" in="" out="">viel</W>
@@ -66,7 +66,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Rede" msd="NC" tag="NN" in="" out="">Rede</W>
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -100,7 +100,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Handlung" msd="NC" tag="NN" in="" out="">Handlung</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="verschwinden" msd="VA" tag="VVFIN" in="" out="">verschwindet</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Massenkeilereien</W>
@@ -189,7 +189,7 @@
 <W lemma="Serie" msd="NC" tag="NN" in="" out="">Serie</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELAT" in="" out="">deren</W>
-<W lemma="Folge&7c;Folgen" msd="NC" tag="NN" in="" out="">Folgen</W>
+<W lemma="Folge|Folgen" msd="NC" tag="NN" in="" out="">Folgen</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">14-26</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Gøngehäuptling</W>
 <W lemma="II" msd="AC" tag="CARD" in="" out="">II</W>
@@ -218,3 +218,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

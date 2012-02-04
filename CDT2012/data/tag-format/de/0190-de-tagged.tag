@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Knoblauch" msd="NC" tag="NN" in="" out="">Knoblauch</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -18,13 +18,13 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">als</W>
 <W lemma="frisch" msd="AN" tag="ADJA" in="" out="">frische</W>
-<W lemma="Zeh&7c;Zehe" msd="NC" tag="NN" in="" out="">Zehen</W>
+<W lemma="Zeh|Zehe" msd="NC" tag="NN" in="" out="">Zehen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagen</W>
 <W lemma="drei" msd="AC" tag="CARD" in="" out="">drei</W>
 <W lemma="amerikanisch" msd="AN" tag="ADJA" in="" out="">amerikanische</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Knoblauch-Ärzte</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -82,7 +82,7 @@
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="drei" msd="AC" tag="CARD" in="" out="">drei</W>
 <W lemma="unterschiedlich" msd="AN" tag="ADJA" in="" out="">unterschiedlichen</W>
-<W lemma="Ort&7c;Orten" msd="NC" tag="NN" in="" out="">Orten</W>
+<W lemma="Ort|Orten" msd="NC" tag="NN" in="" out="">Orten</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="USA" msd="NP" tag="NE" in="" out="">USA</W>
@@ -96,7 +96,7 @@
 </p>
 <p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
@@ -106,7 +106,7 @@
 <W lemma="täglich" msd="AN" tag="ADJD" in="" out="">täglich</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="" out="">zwei</W>
 <W lemma="frisch" msd="AN" tag="ADJA" in="" out="">frische</W>
-<W lemma="Knoblauchzeh&7c;Knoblauchzehe" msd="NC" tag="NN" in="" out="">Knoblauchzehen</W>
+<W lemma="Knoblauchzeh|Knoblauchzehe" msd="NC" tag="NN" in="" out="">Knoblauchzehen</W>
 <W lemma="essen" msd="VA" tag="VVFIN" in="" out="">isst</W>
 <W lemma="oder" msd="CC" tag="KON" in="" out="">oder</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="" out="">zwei</W>
@@ -156,7 +156,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
 <W lemma="täglich" msd="AN" tag="ADJD" in="" out="">täglich</W>
@@ -180,7 +180,7 @@
 <W lemma="einige" msd="PI" tag="PIAT" in="" out="">einige</W>
 <W lemma="mehr" msd="PP" tag="PIS" in="" out="">mehr</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="meinen" msd="VA" tag="VVFIN" in="" out="">meint</W>
 <W lemma="Dr." msd="NC" tag="NN" in="" out="">Dr.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Benhamin</W>
@@ -195,6 +195,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="USA" msd="NP" tag="NE" in="" out="">USA</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
+</root>

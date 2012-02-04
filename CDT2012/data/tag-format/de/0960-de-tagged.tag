@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
@@ -12,7 +12,7 @@
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">vielen</W>
 <W lemma="einzeln" msd="AN" tag="ADJA" in="" out="">einzelnen</W>
-<W lemma="Kreuz&7c;Kreuzen" msd="NC" tag="NN" in="" out="">Kreuzen</W>
+<W lemma="Kreuz|Kreuzen" msd="NC" tag="NN" in="" out="">Kreuzen</W>
 <W lemma="bestehen" msd="VA" tag="VVFIN" in="" out="">besteht</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
@@ -47,7 +47,7 @@
 <W lemma="Uffe" msd="NP" tag="NE" in="" out="">Uffe</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Elleman</W>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="machtlos" msd="AN" tag="ADJD" in="" out="">machtlos</W>
 <W lemma="fühlen" msd="VA" tag="VVFIN" in="" out="">fühlen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -157,7 +157,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">Das</W>
 <W lemma="hören" msd="VA" tag="VVFIN" in="" out="">hört</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">nach</W>
 <W lemma="viel" msd="PI" tag="PIAT" in="" out="">viel</W>
 <W lemma="Macht" msd="NC" tag="NN" in="" out="">Macht</W>
@@ -171,13 +171,13 @@
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="meist" msd="PI" tag="PIDAT" in="" out="">meisten</W>
-<W lemma="Wahllokal&7c;Wahllokale" msd="NC" tag="NN" in="" out="">Wahllokalen</W>
+<W lemma="Wahllokal|Wahllokale" msd="NC" tag="NN" in="" out="">Wahllokalen</W>
 <W lemma="hissen" msd="VAP" tag="VVPP" in="" out="">gehisst</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Wähler" msd="NC" tag="NN" in="" out="">Wähler</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="trotz" msd="SP" tag="APPR" in="" out="">trotz</W>
 <W lemma="alle" msd="PP" tag="PIS" in="" out="">allem</W>
 <W lemma="ohnmächtig" msd="AN" tag="ADJD" in="" out="">ohnmächtig</W>
@@ -221,3 +221,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

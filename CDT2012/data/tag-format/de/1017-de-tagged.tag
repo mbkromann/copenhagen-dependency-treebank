@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="fast" msd="RG" tag="ADV" in="" out="">Fast</W>
 <W lemma="gleichzeitig" msd="AN" tag="ADJD" in="" out="">gleichzeitig</W>
@@ -27,7 +27,7 @@
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
 <W lemma="Problem" msd="NC" tag="NN" in="" out="">Problemen</W>
 <W lemma="wenden" msd="VAF" tag="VVINF" in="" out="">wenden</W>
@@ -39,7 +39,7 @@
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Berichterstattung</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="führen" msd="VA" tag="VVFIN" in="" out="">führt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -61,7 +61,7 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="Mittel" msd="NC" tag="NN" in="" out="">Mittel</W>
-<W lemma="denken&7c;gedenken" msd="VAP" tag="VVPP" in="" out="">gedacht</W>
+<W lemma="denken|gedenken" msd="VAP" tag="VVPP" in="" out="">gedacht</W>
 <W lemma="um" msd="CS" tag="KOUI" in="" out="">um</W>
 <W lemma="vorbeugen" msd="VAF" tag="VVIZU" in="" out="">vorzubeugen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -80,7 +80,7 @@
 <W lemma="werden" msd="VAF" tag="VAINF" in="" out="">werden</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="zu" msd="SP" tag="APPR" in="" out="">zu</W>
 <W lemma="etwas" msd="RG" tag="ADV" in="" out="">etwas</W>
 <W lemma="entwickeln" msd="VAF" tag="VVINF" in="" out="">entwickeln</W>
@@ -182,3 +182,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

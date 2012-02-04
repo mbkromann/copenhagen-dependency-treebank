@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="$(" in="1:pnct" out="">-</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="-1:pnct|2:neg|3:pnct">Ich</W>
@@ -21,7 +21,7 @@
 </p>
 <p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|5:pnct">war</W>
 <W lemma="anders" msd="RG" tag="ADV" in="-1:preds" out="1:pobj">anders</W>
 <W lemma="als" msd="CS" tag="KOUS" in="-1:pobj" out="2:dobj">als</W>
@@ -187,3 +187,4 @@
 <W lemma="." msd="XP" tag="$." in="-21:pnct" out="">.</W>
 </s>
 </p>
+</root>

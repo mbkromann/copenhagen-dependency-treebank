@@ -1,4 +1,4 @@
-<W lemma="el" msd="PD" tag="ART" in="5:dobj|15:subj" out="">Lo</W>
+<root><W lemma="el" msd="PD" tag="ART" in="5:dobj|15:subj" out="">Lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="el" msd="PD" tag="ART" in="3:subj" out="1:nobj">el</W>
 <W lemma="partido" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">partido</W>
@@ -25,8 +25,8 @@
 <W lemma="partido" msd="NC" tag="NC" in="-1:nobj" out="">partido</W>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="-2:subj|2:dobj|6:pnct">tiene</W>
 <W lemma="mucho" msd="AN" tag="QU" in="1:time" out="">muchos</W>
-<W lemma="punto" msd="NC" tag="NC" in="-2:dobj" out="-1:time|1:pobj&3a;other#">puntos</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj&3a;other#" out="1:nobj">de</W>
+<W lemma="punto" msd="NC" tag="NC" in="-2:dobj" out="-1:time|1:pobj:other#">puntos</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj:other#" out="1:nobj">de</W>
 <W lemma="vista" msd="NC" tag="NC" in="-1:nobj" out="1:attr">vista</W>
 <W lemma="interesante" msd="AN" tag="ADJ" in="-1:attr" out="">interesantes</W>
 <W lemma="." msd="XP" tag="FS" in="-6:pnct" out="">.</W>
@@ -44,8 +44,8 @@
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="unir" msd="VAD" tag="VLfin" in="" out="-12:loc|-9:subj|-1:robj|1:pobj|6:vobj|27:pnct">une</W>
 <W lemma="al" msd="SP" tag="PAL" in="-1:pobj" out="1:nobj">al</W>
-<W lemma="punto" msd="NC" tag="NC" in="-1:nobj" out="1:pobj&3a;other">punto</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj&3a;other" out="1:nobj">de</W>
+<W lemma="punto" msd="NC" tag="NC" in="-1:nobj" out="1:pobj:other">punto</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj:other" out="1:nobj">de</W>
 <W lemma="vista" msd="NC" tag="NC" in="-1:nobj" out="1:attr">vista</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">“oficial”</W>
 <W lemma="decir" msd="VAF" tag="VLadj" in="-6:vobj" out="1:dobj">diciendo</W>
@@ -71,8 +71,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Maastricht</W>
 <W lemma="." msd="XP" tag="FS" in="-27:pnct" out="">.</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="1:nobj">Un</W>
-<W lemma="punto" msd="NC" tag="NC" in="-1:nobj" out="1:pobj&3a;other#|6:ref|7:relr">punto</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj&3a;other#" out="1:nobj">de</W>
+<W lemma="punto" msd="NC" tag="NC" in="-1:nobj" out="1:pobj:other#|6:ref|7:relr">punto</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj:other#" out="1:nobj">de</W>
 <W lemma="vista" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:attr|2:{about}">vista</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">táctico</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-2:attr|-2:{about}" out="1:nobj">de</W>
@@ -157,8 +157,8 @@
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="tercero" msd="AO" tag="ORD" in="-1:nobj" out="1:nobj">tercer</W>
-<W lemma="punto" msd="NC" tag="NC" in="-1:nobj" out="1:pobj&3a;other#">punto</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj&3a;other#" out="1:nobj">de</W>
+<W lemma="punto" msd="NC" tag="NC" in="-1:nobj" out="1:pobj:other#">punto</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj:other#" out="1:nobj">de</W>
 <W lemma="vista" msd="NC" tag="NC" in="-1:nobj" out="">vista</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-7:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|5:appr|8:coref-res.prg">la</W>
@@ -187,7 +187,7 @@
 <W lemma="aire" msd="NC" tag="NC" in="-1:nobj" out="">aire</W>
 <W lemma="." msd="XP" tag="FS" in="-13:pnct" out="">.</W>
 <W lemma="porque" msd="CS" tag="CSUBX" in="" out="">Porque</W>
-<W lemma="&3a;" msd="XP" tag="COLON" in="" out="">:</W>
+<W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>
 <W lemma="el" msd="PD" tag="ART" in="3:subj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">referéndum</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:attr" out="">danés</W>
@@ -210,3 +210,4 @@
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Maastricht</W>
 <W lemma="." msd="XP" tag="FS" in="-18:pnct" out="">.</W>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="para" msd="CS" tag="CSUBI" in="" out="">Para</W>
 <W lemma="ser" msd="VAF" tag="VSinf" in="" out="">ser</W>
@@ -248,3 +248,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

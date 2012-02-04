@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="así" msd="CS" tag="CSUBX" in="" out="">Así</W>
 <W lemma="cuando" msd="CS" tag="CSUBX" in="" out="">cuando</W>
@@ -212,3 +212,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

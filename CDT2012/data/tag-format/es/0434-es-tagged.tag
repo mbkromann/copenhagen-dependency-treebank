@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">No</W>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="">tienes</W>
@@ -219,3 +219,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

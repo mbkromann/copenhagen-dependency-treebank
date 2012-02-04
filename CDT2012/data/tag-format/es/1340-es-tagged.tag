@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="reservar" msd="VAF" tag="VLadj" in="" out="">RESERVADO</W>
 </s>
@@ -259,3 +259,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

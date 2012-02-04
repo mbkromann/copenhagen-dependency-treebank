@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">Il</W>
 <W lemma="ritrovamento" msd="NC" tag="NOM" in="" out="">ritrovamento</W>
@@ -239,3 +239,4 @@
 <W lemma="interrogare" msd="VAP" tag="VER:pper" in="" out="">INTERROGATO</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="technisch" msd="AN" tag="ADJD" in="" out="">technisch</W>
@@ -49,7 +49,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Prinzipsache</W>
 <W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
 <W lemma="dies" msd="PP" tag="PDS" in="" out="">dieser</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="atemlos" msd="AN" tag="ADJA" in="" out="">atemloser</W>
 <W lemma="Automatik" msd="NC" tag="NN" in="" out="">Automatik</W>
@@ -95,7 +95,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="warum" msd="PT" tag="PWAV" in="" out="">warum</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Radikal&7c;Radikale" msd="NC" tag="NN" in="" out="">Radikalen</W>
+<W lemma="Radikal|Radikale" msd="NC" tag="NN" in="" out="">Radikalen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="linksorientiert" msd="AN" tag="ADJA" in="" out="">linksorientierten</W>
@@ -142,7 +142,7 @@
 <W lemma="Denken" msd="NC" tag="NN" in="" out="">Denken</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="gewohnt" msd="AN" tag="ADJA" in="" out="">gewohnten</W>
-<W lemma="Bahn&7c;Bahnen" msd="NC" tag="NN" in="" out="">Bahnen</W>
+<W lemma="Bahn|Bahnen" msd="NC" tag="NN" in="" out="">Bahnen</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="etwas" msd="PI" tag="PIAT" in="" out="">etwas</W>
 <W lemma="Andere" msd="NC" tag="NN" in="" out="">Anderem</W>
@@ -174,12 +174,13 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einem</W>
 <W lemma="elektronisch" msd="AN" tag="ADJA" in="" out="">elektronischen</W>
-<W lemma="Zeitalte&7c;Zeitalter" msd="NC" tag="NN" in="" out="">Zeitalter</W>
+<W lemma="Zeitalte|Zeitalter" msd="NC" tag="NN" in="" out="">Zeitalter</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Loch&7c;Löchern" msd="NC" tag="NN" in="" out="">Löchern</W>
+<W lemma="Loch|Löchern" msd="NC" tag="NN" in="" out="">Löchern</W>
 <W lemma="kriechen" msd="VAP" tag="VVPP" in="" out="">gekrochen</W>
 <W lemma="kommen" msd="VA" tag="VVFIN" in="" out="">kommen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

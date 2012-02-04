@@ -1,4 +1,4 @@
-<W lemma="quando" msd="CS" tag="CON" in="" out="">Quando</W>
+<root><W lemma="quando" msd="CS" tag="CON" in="" out="">Quando</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
 <W lemma="partito" msd="NC" tag="NOM" in="" out="">Partito</W>
 <W lemma="socialdemocratico" msd="AN" tag="ADJ" in="" out="">socialdemocratico</W>
@@ -203,3 +203,4 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">del</W>
 <W lemma="lavoro" msd="NC" tag="NOM" in="" out="">lavoro</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

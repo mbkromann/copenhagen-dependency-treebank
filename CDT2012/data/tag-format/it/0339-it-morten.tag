@@ -1,4 +1,4 @@
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">E'</W>
+<root><W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">E'</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
 <W lemma="turno" msd="NC" tag="NOM" in="" out="">turno</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -174,3 +174,4 @@
 <W lemma="richiedere" msd="VAP" tag="VER:pper" in="" out="">richiesto</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

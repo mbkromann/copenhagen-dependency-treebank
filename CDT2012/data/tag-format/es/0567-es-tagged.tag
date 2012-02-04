@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="haber~que" msd="VAD" tag="VMfin" in="" out="">Hay que</W>
 <W lemma="discutir" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">discutir</W>
@@ -271,3 +271,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

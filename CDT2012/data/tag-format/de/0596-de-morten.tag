@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj|19:[subj]" out="1:nobj">Die</W>
 <W lemma="Arbeitsgruppe" msd="NC" tag="NN" in="-1:nobj" out="">Arbeitsgruppe</W>
@@ -50,11 +50,11 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj">der</W>
 <W lemma="Kriegshandlung" msd="NC" tag="NN" in="-1:nobj" out="">Kriegshandlungen</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="während" msd="SP" tag="APPR" in="" out="">während</W>
 <W lemma="etwa" msd="RG" tag="ADV" in="1:quant" out="">etwa</W>
 <W lemma="30" msd="AC" tag="CARD" in="" out="-1:quant|1:nobj|4:conj">30</W>
-<W lemma="Tag&7c;Tagen" msd="NC" tag="NN" in="-1:nobj" out="">Tagen</W>
+<W lemma="Tag|Tagen" msd="NC" tag="NN" in="-1:nobj" out="">Tagen</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="etwa" msd="RG" tag="ADV" in="1:quant" out="">etwa</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="-4:conj" out="-2:coord|-1:quant|1:nobj">zwei</W>
@@ -120,7 +120,7 @@
 <W lemma="A." msd="NP" tag="NE" in="-1:nobj" out="">A.</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:exem|1:preds|3:pnct|4:subj|22:pnct">ist</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-1:preds" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="erwägen" msd="VAF" tag="VVINF" in="-1:vobj" out="">erwägen</W>
+<W _noerror=":nosubj:" lemma="erwägen" msd="VAF" tag="VVINF" in="-1:vobj" out="">erwägen</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="wie" msd="CS" tag="KOUS" in="-4:subj" out="17:vobj">wie</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="15:[subj]|16:subj" out="1:nobj">das</W>
@@ -151,7 +151,7 @@
 <W lemma="dies" msd="PD" tag="PDAT" in="11:[subj]|12:subj" out="1:nobj">dieser</W>
 <W lemma="Teil" msd="NC" tag="NN" in="-1:nobj|1:{apart}" out="1:gobj">Teil</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:gobj" out="-1:{apart}|1:nobj">der</W>
-<W lemma="Arbeit&7c;Arbeiten" msd="NC" tag="NN" in="-1:nobj" out="1:gobj.subj|1:{agent}">Arbeiten</W>
+<W lemma="Arbeit|Arbeiten" msd="NC" tag="NN" in="-1:nobj" out="1:gobj.subj|1:{agent}">Arbeiten</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:gobj.subj|-1:{agent}" out="1:nobj">der</W>
 <W lemma="Arbeitsgruppe" msd="NC" tag="NN" in="-1:nobj" out="">Arbeitsgruppe</W>
 <W lemma="bis" msd="CC" tag="KON" in="5:time" out="1:pobj">bis</W>
@@ -182,7 +182,7 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="ob" msd="CS" tag="KOUS" in="-2:dobj" out="6:vobj">ob</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="3:[subj]|4:[subj]|5:subj" out="1:nobj">die</W>
-<W lemma="Arbeit&7c;Arbeiten" msd="NC" tag="NN" in="-1:nobj" out="">Arbeiten</W>
+<W lemma="Arbeit|Arbeiten" msd="NC" tag="NN" in="-1:nobj" out="">Arbeiten</W>
 <W lemma="weit" msd="AN" tag="ADJD" in="1:@time" out="">weiter</W>
 <W lemma="führen" msd="VAP" tag="VVPP" in="1:vobj" out="-1:@time|-3:[subj]|4:goal">geführt</W>
 <W lemma="werden" msd="VAF" tag="VAINF" in="1:vobj" out="-1:vobj|-4:[subj]">werden</W>
@@ -204,3 +204,4 @@
 <W lemma="." msd="XP" tag="$." in="-34:pnct" out="">.</W>
 </s>
 </p>
+</root>

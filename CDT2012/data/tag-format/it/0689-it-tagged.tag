@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="priorità" msd="NC" tag="NOM" in="" out="">Priorità</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
@@ -247,3 +247,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

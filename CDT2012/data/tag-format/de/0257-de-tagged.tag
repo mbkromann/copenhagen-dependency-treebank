@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="schließlich" msd="RG" tag="ADV" in="" out="">Schließlich</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
@@ -13,7 +13,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Entführung" msd="NC" tag="NN" in="" out="">Entführung</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
-<W lemma="Nil&7c;Nils" msd="NP" tag="NE" in="" out="">Nils</W>
+<W lemma="Nil|Nils" msd="NP" tag="NE" in="" out="">Nils</W>
 <W lemma="offenbaren" msd="VA" tag="VVFIN" in="" out="">offenbarte</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Eine</W>
@@ -24,10 +24,10 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="Claudia" msd="NP" tag="NE" in="" out="">Claudia</W>
 <W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="" out="">Hamann-Vogt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="bereits" msd="RG" tag="ADV" in="" out="">bereits</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="" out="">zwei</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">nach</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="behauptet" msd="AN" tag="ADJA" in="" out="">behaupteten</W>
@@ -55,7 +55,7 @@
 <W lemma="Fantasie" msd="NC" tag="NN" in="" out="">Fantasie</W>
 <W lemma="existieren" msd="VA" tag="VVFIN" in="" out="">existierten</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">waren</W>
 <W lemma="weder" msd="CC" tag="KON" in="" out="">weder</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
@@ -91,7 +91,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Lawine" msd="NC" tag="NN" in="" out="">Lawine</W>
 <W lemma="ins" msd="SP+P" tag="APPRART" in="" out="">ins</W>
-<W lemma="Rolle&7c;Rollen" msd="NC" tag="NN" in="" out="">Rollen</W>
+<W lemma="Rolle|Rollen" msd="NC" tag="NN" in="" out="">Rollen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Claudia" msd="NP" tag="NE" in="" out="">Claudia</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Hamann-Vogt</W>
@@ -99,7 +99,7 @@
 <W lemma="verhaften" msd="VAP" tag="VVPP" in="" out="">verhaftet</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="14" msd="AC" tag="CARD" in="" out="">14</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
 <W lemma="spät" msd="AN" tag="ADJD" in="" out="">später</W>
 <W lemma="verhören" msd="VAP" tag="VVPP" in="" out="">verhört</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -108,7 +108,7 @@
 <p>
 <s>
 <W lemma="sechs" msd="AC" tag="CARD" in="" out="">Sechs</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="" out="">Stunden</W>
 <W lemma="lang" msd="AN" tag="ADJD" in="" out="">lang</W>
 <W lemma="verneinen" msd="VA" tag="VVFIN" in="" out="">verneinte</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
@@ -121,7 +121,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="wissen" msd="VAF" tag="VVINF" in="" out="">wissen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="halten" msd="VA" tag="VVFIN" in="" out="">hielt</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -192,3 +192,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

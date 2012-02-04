@@ -1,4 +1,4 @@
-<W lemma="indicatore" msd="NC" tag="NOM" in="" out="">Indicatore</W>
+<root><W lemma="indicatore" msd="NC" tag="NOM" in="" out="">Indicatore</W>
 <W lemma="percorso" msd="AN" tag="ADJ" in="" out="">percorsi</W>
 <W lemma=":" msd="XP" tag="PON" in="" out="">:</W>
 <W lemma="c'" msd="PD" tag="PRO:demo" in="" out="">c'</W>
@@ -242,3 +242,4 @@
 <W lemma="diventare" msd="VAP" tag="VER:pper" in="" out="">diventate</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">5.000</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

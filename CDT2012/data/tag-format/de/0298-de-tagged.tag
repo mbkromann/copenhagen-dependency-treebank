@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Elise" msd="NP" tag="NE" in="" out="">Elise</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Gugs</W>
@@ -33,14 +33,14 @@
 <W lemma="Elise" msd="NP" tag="NE" in="" out="">Elise</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Gug</W>
 <W lemma="interessieren" msd="VA" tag="VVFIN" in="" out="">interessiert</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nämlich" msd="AN" tag="ADJD" in="" out="">nämlich</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
 <W lemma="Wohnungseinrichtung" msd="NC" tag="NN" in="" out="">Wohnungseinrichtungen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">könnte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="gut" msd="AN" tag="ADJD" in="" out="">gut</W>
 <W lemma="vorstellen" msd="VAF" tag="VVINF" in="" out="">vorstellen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -182,7 +182,7 @@
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="" out="">vielen</W>
 <W lemma="alt" msd="AN" tag="ADJA" in="" out="">alten</W>
-<W lemma="Möbel&7c;Möbeln" msd="NC" tag="NN" in="" out="">Möbeln</W>
+<W lemma="Möbel|Möbeln" msd="NC" tag="NN" in="" out="">Möbeln</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Trödlersachen</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -193,3 +193,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

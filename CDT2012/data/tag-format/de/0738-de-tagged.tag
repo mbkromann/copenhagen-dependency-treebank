@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">Er</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurde</W>
@@ -58,7 +58,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="mehrmals" msd="RG" tag="ADV" in="" out="">mehrmals</W>
@@ -124,7 +124,7 @@
 <W lemma="halten" msd="VAP" tag="VVPP" in="" out="">gehalten</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Brian" msd="NP" tag="NE" in="" out="">Brian</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Lentz</W>
@@ -193,8 +193,9 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eines</W>
 <W lemma="jed" msd="PI" tag="PIDAT" in="" out="">jeden</W>
 <W lemma="Sportler" msd="NC" tag="NN" in="" out="">Sportlers</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">Im</W>
 <W lemma="Vorfeld" msd="NC" tag="NN" in="" out="">Vorfeld</W>
@@ -13,7 +13,7 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="Woche" msd="NC" tag="NN" in="" out="">Woche</W>
 <W lemma="nähern" msd="VA" tag="VVFIN" in="" out="">nähert</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="konservativ" msd="AN" tag="ADJA" in="" out="">konservative</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Folkeparti</W>
@@ -61,7 +61,7 @@
 <W lemma="1,2" msd="AC" tag="CARD" in="" out="">1,2</W>
 <W lemma="Prozent" msd="NC" tag="NN" in="" out="">Prozent</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
-<W lemma="Stimme&7c;Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
+<W lemma="Stimme|Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Verhältnis" msd="NC" tag="NN" in="" out="">Verhältnis</W>
 <W lemma="zur" msd="SP+P" tag="APPRART" in="" out="">zur</W>
@@ -155,7 +155,7 @@
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">0,9</W>
 <W lemma="Prozent" msd="NC" tag="NN" in="" out="">Prozent</W>
 <W lemma="mehr" msd="PI" tag="PIAT" in="" out="">mehr</W>
-<W lemma="Stimme&7c;Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
+<W lemma="Stimme|Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
@@ -223,9 +223,10 @@
 <W lemma="3,8" msd="AC" tag="CARD" in="" out="">3,8</W>
 <W lemma="Prozent" msd="NC" tag="NN" in="" out="">Prozent</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
-<W lemma="Stimme&7c;Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
+<W lemma="Stimme|Stimmen" msd="NC" tag="NN" in="" out="">Stimmen</W>
 <W lemma="sieben" msd="AC" tag="CARD" in="" out="">sieben</W>
 <W lemma="Mandat" msd="NC" tag="NN" in="" out="">Mandate</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

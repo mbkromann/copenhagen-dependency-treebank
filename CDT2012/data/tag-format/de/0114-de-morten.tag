@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="8:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="8:pnct" out="">"</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="7:cond" out="5:vobj">Wenn</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="1:nobj|20:coref">der</W>
 <W lemma="Wohnungsbauminister" msd="NC" tag="NN" in="-1:nobj" out="">Wohnungsbauminister</W>
@@ -13,7 +13,7 @@
 <W lemma="es" msd="PP" tag="PPER" in="1:dobj" out="">es</W>
 <W lemma="tun" msd="VAF" tag="VVINF" in="-3:vobj" out="-1:dobj|-2:[subj]">tun</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-5:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-5:pnct" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-6:qobj|2:subj|3:source|32:pnct">sagt</W>
 <W lemma="Kirsten" msd="NP" tag="NE" in="1:namef" out="">Kirsten</W>
 <W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="-2:subj" out="-1:namef|37:coref">Jacobsen</W>
@@ -81,7 +81,7 @@
 <W lemma="Nachricht" msd="NC" tag="NN" in="-1:nobj" out="">Nachrichten</W>
 <W lemma="äußern" msd="VA" tag="VVFIN" in="-13:vobj" out="-12:subj|-6:time|-4:pobj|1:pnct|3:dobj">äußert</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="5:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="5:pnct" out="">"</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:dobj" out="4:pnct">dass</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="2:[subj]|3:subj" out="1:nobj">ein</W>
 <W lemma="Richter" msd="NC" tag="NN" in="-1:nobj" out="">Richter</W>
@@ -100,7 +100,7 @@
 <W lemma="kommen" msd="VAP" tag="VVPP" in="1:vobj" out="-2:dobj|-8:[subj]">gekommen</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-10:vobj" out="-1:vobj|-9:expl">ist</W>
 <W lemma="." msd="XP" tag="$." in="-47:pnct" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-14:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-14:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -122,7 +122,7 @@
 <W lemma="ob" msd="CS" tag="KOUS" in="-2:dobj" out="23:vobj">ob</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-26:coref-var|21:[subj]|22:subj" out="1:appr|35:coref-var">Landsforeningen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:appr" out="">Ungbo</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="19:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="19:dobj" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="19:other" out="1:nobj">in</W>
 <W lemma="Verbindung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Verbindung</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">mit</W>
@@ -247,3 +247,4 @@
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
 </s>
 </p>
+</root>

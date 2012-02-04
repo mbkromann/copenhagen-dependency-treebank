@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Pios</W>
 <W lemma="erst" msd="AN" tag="ADJA" in="" out="">erster</W>
@@ -46,7 +46,7 @@
 <W lemma="nehmen" msd="VA" tag="VVFIN" in="" out="">nahmen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Kopenhagener" msd="NC" tag="NN" in="" out="">Kopenhagener</W>
-<W lemma="Gesell&7c;Geselle&7c;Gesellen" msd="NC" tag="NN" in="" out="">Gesellen</W>
+<W lemma="Gesell|Geselle|Gesellen" msd="NC" tag="NN" in="" out="">Gesellen</W>
 <W lemma="gerne" msd="RG" tag="ADV" in="" out="">gerne</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Pios</W>
@@ -133,7 +133,7 @@
 <s>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="stellen" msd="VA" tag="VVFIN" in="" out="">stellt</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Frage" msd="NC" tag="NN" in="" out="">Frage</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -154,7 +154,7 @@
 <W lemma="Jens" msd="NP" tag="NE" in="" out="">Jens</W>
 <W lemma="Engberg" msd="NP" tag="NE" in="" out="">Engberg</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="seit" msd="SP" tag="APPR" in="" out="">seit</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">1973</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
@@ -194,7 +194,7 @@
 <W lemma="er" msd="PP" tag="PPER" in="" out="">Er</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="" out="">alle</W>
-<W lemma="Quelle&7c;Quellen" msd="NC" tag="NN" in="" out="">Quellen</W>
+<W lemma="Quelle|Quellen" msd="NC" tag="NN" in="" out="">Quellen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Märtyrergeschichte" msd="NC" tag="NN" in="" out="">Märtyrergeschichte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
@@ -204,3 +204,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

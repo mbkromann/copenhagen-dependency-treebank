@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Thomas" msd="NP" tag="NE" in="1:namef" out="">Thomas</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:subj|9:[subj]" out="-1:namef">Stuer</W>
@@ -20,7 +20,7 @@
 <W lemma="Chinese" msd="NC" tag="NN" in="-1:nobj" out="">Chinesen</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:namef" out="">Wan</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:appr" out="-1:namef">Shengwen</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-18:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-18:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="1:subj|5:[subj]" out="">,,Ich</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|4:vobj|5:pnct|6:conj|27:pnct">habe</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="3:dobj" out="1:pnct|2:conj">15-9</W>
@@ -50,6 +50,8 @@
 <W lemma="Griff" msd="NC" tag="NN" in="-1:nobj" out="">Griff</W>
 <W lemma="bekommen" msd="VA" tag="VVFIN" in="-7:vobj" out="-6:subj|-5:dobj|-3:pobj">bekam</W>
 <W lemma="." msd="XP" tag="$." in="-27:pnct" out="">.</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="vor" msd="SP" tag="APPR" in="2:focal" out="1:nobj">Vor</W>
@@ -67,7 +69,7 @@
 <W lemma="?" msd="XP" tag="$." in="-7:conj|-7:[error]" out="-3:coord|-1:subj|-2:pnct|1:pnct|2:man">?</W>
 <W lemma="]" msd="XP" tag="$(" in="-1:pnct" out="">]</W>
 <W lemma="gut" msd="AN" tag="ADJD" in="-2:man" out="">gut</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-10:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-10:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
 </s>
 </p>
@@ -96,14 +98,14 @@
 <W lemma="lauten" msd="VA" tag="VVFIN" in="-18:conj" out="-5:coord|-4:time|1:subj">lautet</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">die</W>
 <W lemma="Taktik" msd="NC" tag="NN" in="-1:nobj" out="">Taktik</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-21:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-21:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:subj|2:[subj]|3:[subj]" out="">,,Andy</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="-1:subj|2:vobj|7:pnct|8:resem|38:pnct">soll</W>
 <W lemma="abwehren" msd="VAP" tag="VVPP" in="1:vobj" out="-2:[subj]|2:inst">abgewehrt</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="-2:vobj" out="-1:vobj|-3:[subj]">werden</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-2:inst" out="1:nobj">mit</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">einem</W>
-<W lemma="solid&7c;solide" msd="AN" tag="ADJA" in="-1:attr" out="">soliden</W>
+<W lemma="solid|solide" msd="AN" tag="ADJA" in="-1:attr" out="">soliden</W>
 <W lemma="Grundlinienspiel" msd="NC" tag="NN" in="-2:nobj" out="">Grundlinienspiel</W>
 <W lemma="," msd="XP" tag="$," in="-7:pnct" out="">,</W>
 <W lemma="so" msd="RG" tag="ADV" in="-8:resem" out="1:ref|5:vobj">so</W>
@@ -197,3 +199,4 @@
 <W lemma="." msd="XP" tag="$." in="-35:pnct" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="H.L." msd="NP" tag="NE" in="" out="">H.L.</W>
 <W lemma="Hansen" msd="NP" tag="NE" in="" out="">Hansen</W>
@@ -86,7 +86,7 @@
 <W lemma="Seite" msd="NC" tag="NN" in="" out="">Seite</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="schieben" msd="VA" tag="VVFIN" in="" out="">schob</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nie" msd="RG" tag="ADV" in="" out="">nie</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
@@ -114,7 +114,7 @@
 <W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="weit" msd="AN" tag="ADJA" in="" out="">weiten</W>
-<W lemma="Kreis&7c;Kreisen" msd="NC" tag="NN" in="" out="">Kreisen</W>
+<W lemma="Kreis|Kreisen" msd="NC" tag="NN" in="" out="">Kreisen</W>
 <W lemma="Respekt" msd="NC" tag="NN" in="" out="">Respekt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -223,3 +223,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

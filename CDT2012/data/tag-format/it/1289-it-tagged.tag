@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="(" msd="XP" tag="PON" in="" out="">(</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">3</W>
@@ -248,3 +248,4 @@
 <W lemma="!" msd="XP" tag="SENT" in="" out="">!</W>
 </s>
 </p>
+</root>

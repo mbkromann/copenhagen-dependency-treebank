@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="gerade" msd="AN" tag="ADJD" in="" out="">gerade</W>
@@ -42,13 +42,13 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="ander" msd="AN" tag="ADJA" in="" out="">anderen</W>
-<W lemma="Ort&7c;Orten" msd="NC" tag="NN" in="" out="">Orten</W>
+<W lemma="Ort|Orten" msd="NC" tag="NN" in="" out="">Orten</W>
 <W lemma="genauso" msd="RG" tag="ADV" in="" out="">genauso</W>
 <W lemma="hart" msd="AN" tag="ADJD" in="" out="">hart</W>
 <W lemma="kämpfen" msd="VAP" tag="VVPP" in="" out="">gekämpft</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Leiter" msd="NC" tag="NN" in="" out="">Leiter</W>
@@ -103,7 +103,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="" out="">allen</W>
 <W lemma="ander" msd="AN" tag="ADJA" in="" out="">anderen</W>
-<W lemma="Krieg&7c;Kriegen" msd="NC" tag="NN" in="" out="">Kriegen</W>
+<W lemma="Krieg|Kriegen" msd="NC" tag="NN" in="" out="">Kriegen</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Wahrheit" msd="NC" tag="NN" in="" out="">Wahrheit</W>
@@ -123,7 +123,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
-<W lemma="Reis&7c;Reise" msd="NC" tag="NN" in="" out="">Reise</W>
+<W lemma="Reis|Reise" msd="NC" tag="NN" in="" out="">Reise</W>
 <W lemma="dorthin" msd="RG" tag="ADV" in="" out="">dorthin</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="" out="">dänischer</W>
@@ -158,7 +158,7 @@
 <W lemma="dabei" msd="RG" tag="PAV" in="" out="">Dabei</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">sollte</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="aber" msd="RG" tag="ADV" in="" out="">aber</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -185,3 +185,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

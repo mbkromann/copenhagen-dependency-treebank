@@ -1,8 +1,8 @@
-<p>
+<root><p>
 <s>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="hören" msd="VA" tag="VVFIN" in="" out="">hört</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">nach</W>
 <W lemma="viel" msd="RG" tag="ADV" in="" out="">viel</W>
 <W lemma="an" msd="SP" tag="APZR" in="" out="">an</W>
@@ -110,7 +110,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="letzt" msd="AN" tag="ADJA" in="" out="">letzten</W>
-<W lemma="Tag&7c;Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
+<W lemma="Tag|Tagen" msd="NC" tag="NN" in="" out="">Tagen</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="Angst" msd="NC" tag="NN" in="" out="">Angst</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -199,3 +199,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="wissen" msd="VA" tag="VVFIN" in="" out="">wissen</W>
 <W lemma="nichts" msd="PP" tag="PIS" in="" out="">nichts</W>
@@ -8,7 +8,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Terrorist" msd="NC" tag="NN" in="" out="">Terroristen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="antworten" msd="VA" tag="VVFIN" in="" out="">antwortet</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="nationalistisch" msd="AN" tag="ADJA" in="" out="">nationalistische</W>
@@ -57,7 +57,7 @@
 <W lemma="Unterhaus" msd="NC" tag="NN" in="" out="">Unterhauses</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Gerry" msd="NP" tag="NE" in="" out="">Gerry</W>
-<W lemma="Adam&7c;Adams" msd="NP" tag="NE" in="" out="">Adams</W>
+<W lemma="Adam|Adams" msd="NP" tag="NE" in="" out="">Adams</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="ober" msd="AN" tag="ADJA" in="" out="">oberster</W>
@@ -70,7 +70,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
 <W lemma="weisen" msd="VA" tag="VVFIN" in="" out="">weisen</W>
 <W lemma="jed" msd="PI" tag="PIDAT" in="" out="">jede</W>
@@ -89,7 +89,7 @@
 <W lemma="paramilitärisch" msd="AN" tag="ADJA" in="" out="">paramilitärischen</W>
 <W lemma="Gruppe" msd="NC" tag="NN" in="" out="">Gruppen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="beteuern" msd="VA" tag="VVFIN" in="" out="">beteuert</W>
 <W lemma="Richard" msd="NP" tag="NE" in="" out="">Richard</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">McCauley</W>
@@ -144,7 +144,7 @@
 <W lemma="genauso" msd="RG" tag="ADV" in="" out="">genauso</W>
 <W lemma="schlimm" msd="AN" tag="ADJD" in="" out="">schlimm</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hätte</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
@@ -196,7 +196,7 @@
 <W lemma="ohne" msd="SP" tag="APPR" in="" out="">ohne</W>
 <W lemma="kriminell" msd="AN" tag="ADJA" in="" out="">kriminelle</W>
 <W lemma="Vergangenheit" msd="NC" tag="NN" in="" out="">Vergangenheit</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="bestehen" msd="VA" tag="VVFIN" in="" out="">besteht</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="bestehen" msd="VA" tag="VVFIN" in="" out="">bestehen</W>
@@ -211,7 +211,8 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="abgestumpft" msd="AN" tag="ADJA" in="" out="">abgestumpften</W>
 <W lemma="Kriminelle" msd="NC" tag="NN" in="" out="">Kriminellen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
 <W lemma="Treibhaus" msd="NC" tag="NN" in="" out="">Treibhaus</W>
@@ -12,7 +12,7 @@
 <W lemma="Jens" msd="NP" tag="NE" in="" out="">Jens</W>
 <W lemma="gehen" msd="VA" tag="VVFIN" in="" out="">ging</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
-<W lemma="Zehenspitz&7c;Zehenspitze" msd="NC" tag="NN" in="" out="">Zehenspitzen</W>
+<W lemma="Zehenspitz|Zehenspitze" msd="NC" tag="NN" in="" out="">Zehenspitzen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="lautlos" msd="AN" tag="ADJD" in="" out="">lautlos</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -21,7 +21,7 @@
 <W lemma="Fluglärm" msd="NC" tag="NN" in="" out="">Fluglärm</W>
 <W lemma="übertönen" msd="VA" tag="VVFIN" in="" out="">übertönte</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="" out="">seine</W>
-<W lemma="spröd&7c;spröde" msd="AN" tag="ADJA" in="" out="">spröden</W>
+<W lemma="spröd|spröde" msd="AN" tag="ADJA" in="" out="">spröden</W>
 <W lemma="Schritt" msd="NC" tag="NN" in="" out="">Schritte</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
@@ -102,7 +102,7 @@
 <W lemma="wie" msd="CS" tag="KOUS" in="" out="">wie</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
 <W lemma="Flugzeug" msd="NC" tag="NN" in="" out="">Flugzeug</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="Bewegung" msd="NC" tag="NN" in="" out="">Bewegung</W>
 <W lemma="setzen" msd="VA" tag="VVFIN" in="" out="">setzte</W>
@@ -181,7 +181,7 @@
 <s>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">Er</W>
 <W lemma="drehen" msd="VA" tag="VVFIN" in="" out="">drehte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="gehen" msd="VA" tag="VVFIN" in="" out="">ging</W>
@@ -217,3 +217,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

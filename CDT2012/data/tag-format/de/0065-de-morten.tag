@@ -1,17 +1,17 @@
-<p>
+<root><p>
 <s>
 <W lemma="zu" msd="SP" tag="APPR" in="3:time" out="1:nobj">Zu</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
 <W lemma="Zeitpunkt" msd="NC" tag="NN" in="-1:nobj" out="">Zeitpunkt</W>
 <W lemma="machen" msd="VA" tag="VVFIN" in="" out="-3:time|1:iobj|2:subj|8:dobj|9:pnct">machten</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:iobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:iobj" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:subj" out="1:nobj|2:possr|8:assoc-const">die</W>
 <W lemma="Eltern" msd="NC" tag="NN" in="-1:nobj" out="">Eltern</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:possr" out="1:attr|2:nobj">des</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="-1:attr" out="">kleinen</W>
 <W lemma="Kind" msd="NC" tag="NN" in="-2:nobj" out="">Kindes</W>
 <W lemma="ernst" msd="AN" tag="ADJA" in="1:attr" out="">ernste</W>
-<W lemma="Sorge&7c;Sorgen" msd="NC" tag="NN" in="-8:dobj" out="-1:attr">Sorgen</W>
+<W lemma="Sorge|Sorgen" msd="NC" tag="NN" in="-8:dobj" out="-1:attr">Sorgen</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-8:assoc-const|3:subj|8:[subj]" out="1:attr|2:nobj|25:coref">Die</W>
 <W lemma="jung" msd="AN" tag="ADJA" in="-1:attr" out="">junge</W>
@@ -38,7 +38,7 @@
 </p>
 <p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-25:coref|1:subj|4:[subj]" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="-25:coref|1:subj|4:[subj]" out="">Sie</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|3:vobj|28:pnct">hat</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="2:dobj|9:[subj]" out="1:possd|146:coref-var">ihren</W>
 <W lemma="Mann" msd="NC" tag="NN" in="-1:possd" out="">Mann</W>
@@ -96,12 +96,12 @@
 <W lemma="erst" msd="AN" tag="ADJA" in="-1:attr" out="">ersten</W>
 <W lemma="richterlich" msd="AN" tag="ADJA" in="-2:attr" out="">richterlichen</W>
 <W lemma="Vernehmung" msd="NC" tag="NN" in="-3:nobj" out="">Vernehmung</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-7:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-7:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="anders" msd="RG" tag="ADV" in="-41:coref-var|1:subj" out="17:coref-var">Anders</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-14:qobj" out="-2:pnct|-1:subj|2:preds|3:vobj|4:pnct|9:pnct">war</W>
 <W lemma="ganz" msd="AN" tag="ADJD" in="1:quant" out="">ganz</W>
@@ -156,7 +156,7 @@
 <W lemma="ganz" msd="AN" tag="ADJD" in="1:quant" out="">ganz</W>
 <W lemma="schlaff" msd="AN" tag="ADJD" in="-2:preds" out="-1:quant">schlaff</W>
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-4:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-4:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -177,12 +177,12 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj">einen</W>
 <W lemma="Krankenwagen" msd="NC" tag="NN" in="-1:nobj" out="">Krankenwagen</W>
 <W lemma="an" msd="RG" tag="PTKVZ" in="-3:part" out="-2:dobj">an</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-15:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-15:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="1:subj|5:[subj]|7:[subj]" out="">Ich</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-2:pnct|-1:subj|1:add|4:vobj|20:pnct|21:pnct">habe</W>
 <W lemma="auch" msd="RG" tag="ADV" in="-1:add" out="">auch</W>
@@ -205,6 +205,7 @@
 <W lemma="Krampf" msd="NC" tag="NN" in="1:dobj" out="">Krämpfe</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|-1:dobj">hat</W>
 <W lemma="." msd="XP" tag="$." in="-20:pnct" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-21:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-21:pnct" out="">"</W>
 </s>
 </p>
+</root>

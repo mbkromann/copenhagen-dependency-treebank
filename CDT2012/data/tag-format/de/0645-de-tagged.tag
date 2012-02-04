@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Ein</W>
 <W lemma="Lieferwagen" msd="NC" tag="NN" in="" out="">Lieferwagen</W>
@@ -69,7 +69,7 @@
 <W lemma="kein" msd="PI" tag="PIAT" in="" out="">keinen</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,besonderen</W>
 <W lemma="Hausrat" msd="NC" tag="NN" in="" out="">Hausrat</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ab" msd="RG" tag="PTKVZ" in="" out="">ab</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">der</W>
@@ -216,3 +216,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="gegen" msd="SP" tag="APPR" in="" out="">Gegen</W>
 <W lemma="Impotenz" msd="NC" tag="NN" in="" out="">Impotenz</W>
@@ -19,7 +19,7 @@
 <W lemma="Jan" msd="NP" tag="NE" in="" out="">Jan</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Fahrenkrug</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">sog.</W>
@@ -155,7 +155,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Patient" msd="NC" tag="NN" in="" out="">Patienten</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="Stoff" msd="NC" tag="NN" in="" out="">Stoff</W>
 <W lemma="selbst" msd="RG" tag="ADV" in="" out="">selbst</W>
@@ -189,3 +189,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

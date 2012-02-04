@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="finden" msd="VA" tag="VVFIN" in="" out="">finde</W>
@@ -28,7 +28,7 @@
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Spiel&7c;Spielen" msd="NC" tag="NN" in="" out="">Spielen</W>
+<W lemma="Spiel|Spielen" msd="NC" tag="NN" in="" out="">Spielen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -205,7 +205,7 @@
 <W lemma="Henrik" msd="NP" tag="NE" in="" out="">Henrik</W>
 <W lemma="Andersen" msd="NP" tag="NE" in="" out="">Andersen</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
 <W lemma="unbefleckt" msd="AN" tag="ADJA" in="" out="">unbefleckter</W>
 <W lemma="Visitenkarte" msd="NC" tag="NN" in="" out="">Visitenkarte</W>
@@ -231,3 +231,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

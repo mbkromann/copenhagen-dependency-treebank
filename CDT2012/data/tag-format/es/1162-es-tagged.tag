@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="finalmente" msd="RG" tag="ADV" in="" out="">Finalmente</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
@@ -50,7 +50,7 @@
 <W lemma="jefe" msd="NC" tag="NC" in="" out="">jefe</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Birch</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">&amp</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">&amp;</W>
 <W lemma=";" msd="XP" tag="SEMICOLON" in="" out="">;</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Krogboe</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -222,7 +222,7 @@
 <W lemma="Bulgaria" msd="NP" tag="NP" in="" out="">Bulgaria</W>
 <W lemma="(" msd="XP" tag="LP" in="" out="">(</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Birch</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">&amp</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">&amp;</W>
 <W lemma=";" msd="XP" tag="SEMICOLON" in="" out="">;</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Krogboe</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
@@ -265,3 +265,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">Als</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -15,9 +15,9 @@
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="taktisch" msd="AN" tag="ADJA" in="" out="">taktischen</W>
-<W lemma="Grund&7c;Gründen" msd="NC" tag="NN" in="" out="">Gründen</W>
+<W lemma="Grund|Gründen" msd="NC" tag="NN" in="" out="">Gründen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="hoffen" msd="VA" tag="VVFIN" in="" out="">hofften</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="nach" msd="SP" tag="APPR" in="" out="">nach</W>
@@ -121,7 +121,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Ehre" msd="NC" tag="NN" in="" out="">Ehre</W>
 <W lemma="dafür" msd="RG" tag="PAV" in="" out="">dafür</W>
-<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
+<W lemma="fallen|fällen" msd="VA" tag="VVFIN" in="" out="">fällt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="Regierungschef" msd="NC" tag="NN" in="" out="">REGIERUNGSCHEF</W>
 <W lemma="zu" msd="RG" tag="PTKVZ" in="" out="">zu</W>
@@ -214,3 +214,6 @@
 <W lemma="ändern" msd="VAF" tag="VVINF" in="" out="">ändern</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">würden</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>
+</root>

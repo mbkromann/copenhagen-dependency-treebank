@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="stören" msd="VA" tag="VVFIN" in="" out="">stört</W>
@@ -52,9 +52,9 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="meist" msd="PI" tag="PIDAT" in="" out="">meisten</W>
 <W lemma="Punkt" msd="NC" tag="NN" in="" out="">Punkten</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="freisprechen" msd="VAP" tag="VVPP" in="" out="">freigesprochen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="kritisieren" msd="VA" tag="VVFIN" in="" out="">kritisierten</W>
 <W lemma="jedoch" msd="RG" tag="ADV" in="" out="">jedoch</W>
@@ -164,7 +164,7 @@
 <W lemma="unwidersprochen" msd="AN" tag="ADJD" in="" out="">unwidersprochen</W>
 <W lemma="bleiben" msd="VA" tag="VVFIN" in="" out="">bleiben</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Frank" msd="NP" tag="NE" in="" out="">Frank</W>
 <W lemma="Jensen" msd="NP" tag="NE" in="" out="">Jensen</W>
@@ -186,7 +186,7 @@
 <W lemma="Ebba" msd="NP" tag="NE" in="" out="">Ebba</W>
 <W lemma="Strang" msd="NC" tag="NN" in="" out="">Strange</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -218,6 +218,7 @@
 <W lemma="kein" msd="PI" tag="PIAT" in="" out="">keine</W>
 <W lemma="Initiative" msd="NC" tag="NN" in="" out="">Initiative</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
+</root>

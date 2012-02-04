@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Währungsunruhe" msd="NC" tag="NN" in="" out="">Währungsunruhe</W>
@@ -59,7 +59,7 @@
 <W lemma="Zins-" msd="XA" tag="TRUNC" in="" out="">Zins-</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="Währungskurs" msd="NC" tag="NN" in="" out="">Währungskurs</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="während" msd="SP" tag="APPR" in="" out="">während</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Währungskrise" msd="NC" tag="NN" in="" out="">Währungskrise</W>
@@ -206,3 +206,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

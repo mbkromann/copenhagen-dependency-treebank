@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Rudbjerg</W>
 <W lemma="desear" msd="VAD" tag="VLfin" in="" out="">desea</W>
@@ -235,3 +235,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

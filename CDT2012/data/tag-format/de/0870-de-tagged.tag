@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Union" msd="NC" tag="NN" in="" out="">Union</W>
@@ -74,7 +74,7 @@
 <W lemma="Staat" msd="NC" tag="NN" in="" out="">Staaten</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="Europa" msd="NP" tag="NE" in="" out="">Europa</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="glauben" msd="VA" tag="VVFIN" in="" out="">glaube</W>
@@ -141,8 +141,8 @@
 <W lemma="Gymnasiast" msd="NC" tag="NN" in="" out="">Gymnasiast</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Værløse</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="glauben" msd="VA" tag="VVFIN" in="" out="">glaube</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -188,3 +188,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

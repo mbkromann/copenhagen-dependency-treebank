@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="geben" msd="VA" tag="VVFIN" in="7:cond" out="1:expl|2:dobj|6:pnct">Gibt</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:expl" out="">es</W>
@@ -8,10 +8,10 @@
 <W lemma="Gesundheit" msd="NC" tag="NN" in="-1:nobj" out="">Gesundheit</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
 <W lemma="schreiben" msd="VA" tag="VVFIN" in="" out="-7:cond|1:subj|2:pobj">schreiben</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-1:subj" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="-1:subj" out="">Sie</W>
 <W lemma="an" msd="SP" tag="APPR" in="-2:pobj" out="1:nobj">an</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:pnct|2:pnct|3:other|5:pnct|6:other|8:pnct|9:other|13:coref-iden">,,Ärzte</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="Wochenmagazin" msd="NC" tag="NN" in="-3:other" out="1:appr">Wochenmagazin</W>
 <W lemma="Sonntag" msd="NC" tag="NN" in="-1:appr" out="">SONNTAG</W>
@@ -29,19 +29,19 @@
 <W lemma="Wochenmagazin" msd="NC" tag="NN" in="-1:nobj" out="1:appr">Wochenmagazin</W>
 <W lemma="Sonntag" msd="NC" tag="NN" in="-1:appr" out="">SONNTAG</W>
 <W lemma="dürfen" msd="VA" tag="VMFIN" in="" out="-5:subj|3:vobj|4:pnct">dürfen</W>
-<W lemma="Ihr&7c;ihr" msd="PO" tag="PPOSAT" in="1:{agent}|2:dobj" out="1:possd">Ihre</W>
+<W lemma="Ihr|ihr" msd="PO" tag="PPOSAT" in="1:{agent}|2:dobj" out="1:possd">Ihre</W>
 <W lemma="Brief" msd="NC" tag="NN" in="-1:possd" out="-1:{agent}">Briefe</W>
 <W lemma="öffnen" msd="VAF" tag="VVINF" in="-3:vobj" out="-8:[subj]|-2:dobj">öffnen</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
 <W lemma="NB" msd="NP" tag="NE" in="" out="1:pnct|4:xpl">NB</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-1:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-1:pnct" out="">:</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-12:coref-iden|2:subj|7:[subj]" out="1:nobj|46:coref-iden">Die</W>
 <W lemma="Arzt" msd="NC" tag="NN" in="-1:nobj" out="">Ärzte</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="-4:xpl" out="-2:subj|1:eval|5:vobj|6:pnct">können</W>
 <W lemma="leider" msd="RG" tag="ADV" in="-1:eval" out="">leider</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="3:dobj" out="1:attr|2:nobj">keine</W>
 <W lemma="privat" msd="AN" tag="ADJA" in="-1:attr" out="">privaten</W>
-<W lemma="Antwort&7c;Antworten" msd="NC" tag="NN" in="-2:nobj" out="">Antworten</W>
+<W lemma="Antwort|Antworten" msd="NC" tag="NN" in="-2:nobj" out="">Antworten</W>
 <W lemma="geben" msd="VAF" tag="VVINF" in="-5:vobj" out="-3:dobj|-7:[subj]">geben</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 </s>
@@ -103,14 +103,14 @@
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|2:pnct">ist</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:preds" out="">49</W>
 <W lemma="." msd="XP" tag="$." in="-2:pnct" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-4:coref|1:subj|5:[subj]" out="7:coref">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="-4:coref|1:subj|5:[subj]" out="7:coref">Sie</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|1:time|4:vobj|5:pnct">hat</W>
 <W lemma="jahrelang" msd="AN" tag="ADJD" in="-1:time" out="">jahrelang</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-16:coref-var|2:dobj" out="1:nobj|34:coref-var">die</W>
 <W lemma="Pille" msd="NC" tag="NN" in="-1:nobj" out="">Pille</W>
 <W lemma="nehmen" msd="VAP" tag="VVPP" in="-4:vobj" out="-5:[subj]|-2:dobj">genommen</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-7:coref|1:subj|6:[subj]|8:[subj]|12:[subj]|23:[subj]" out="16:coref">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="-7:coref|1:subj|6:[subj]|8:[subj]|12:[subj]|23:[subj]" out="16:coref">Sie</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|2:man|5:vobj|6:pnct|7:conj|11:conj|23:pnct">hatte</W>
 <W lemma="kurz" msd="AN" tag="ADJD" in="1:@time" out="">kurz</W>
 <W lemma="hintereinander" msd="RG" tag="ADV" in="-2:man" out="-1:@time">hintereinander</W>
@@ -123,7 +123,7 @@
 <W lemma="weit" msd="AN" tag="ADJA" in="-1:attr" out="">weiteren</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="-11:conj" out="-1:coord|-12:[subj]|3:cause|11:vobj">wollte</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="10:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="10:robj" out="">sich</W>
 <W lemma="," msd="XP" tag="$," in="5:pnct" out="">,</W>
 <W lemma="weil" msd="CS" tag="KOUS" in="-3:cause" out="4:vobj">weil</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-16:coref|3:subj" out="">sie</W>
@@ -138,7 +138,7 @@
 <W lemma="deshalb" msd="RG" tag="PAV" in="1:cause" out="">Deshalb</W>
 <W lemma="entscheiden" msd="VA" tag="VVFIN" in="" out="-1:cause|1:subj|2:robj|3:pobj|15:pnct">entschied</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-21:coref|-1:subj" out="7:coref|20:coref">sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-2:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-2:robj" out="">sich</W>
 <W lemma="für" msd="SP" tag="APPR" in="-3:pobj" out="1:nobj">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-34:coref-var" out="1:nobj|2:pnct|3:ref|10:relpa|30:coref-iden">die</W>
 <W lemma="Antibabypille" msd="NC" tag="NN" in="-1:nobj" out="">Antibabypille</W>
@@ -201,3 +201,4 @@
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 </s>
 </p>
+</root>

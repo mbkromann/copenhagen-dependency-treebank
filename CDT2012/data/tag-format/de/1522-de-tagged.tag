@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">Mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
@@ -65,7 +65,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="117" msd="AC" tag="CARD" in="" out="">117</W>
@@ -78,7 +78,7 @@
 <W lemma="Fall" msd="NC" tag="NN" in="" out="">Fall</W>
 <W lemma="um" msd="SP" tag="APPR" in="" out="">um</W>
 <W lemma="Folgende" msd="NC" tag="NN" in="" out="">Folgende</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
@@ -119,7 +119,7 @@
 <W lemma="aber" msd="RG" tag="ADV" in="" out="">Aber</W>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Spiel&7c;Spielen" msd="NC" tag="NN" in="" out="">Spielen</W>
+<W lemma="Spiel|Spielen" msd="NC" tag="NN" in="" out="">Spielen</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
 <W lemma="FC" msd="NP" tag="NE" in="" out="">FC</W>
 <W lemma="Kopenhagen" msd="NP" tag="NE" in="" out="">Kopenhagen</W>
@@ -205,7 +205,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="wo" msd="PT" tag="PWAV" in="" out="">wo</W>
 <W lemma="mehrere" msd="PI" tag="PIAT" in="" out="">mehrere</W>
-<W lemma="Reihe&7c;Reihen" msd="NC" tag="NN" in="" out="">Reihen</W>
+<W lemma="Reihe|Reihen" msd="NC" tag="NN" in="" out="">Reihen</W>
 <W lemma="aufgrund" msd="SP" tag="APPR" in="" out="">aufgrund</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Stahlgeländer</W>
@@ -221,3 +221,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

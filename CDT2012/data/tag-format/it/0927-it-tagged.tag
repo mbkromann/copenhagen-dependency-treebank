@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="" out="">Questa</W>
 <W lemma="consapevolezza" msd="NC" tag="NOM" in="" out="">consapevolezza</W>
@@ -255,3 +255,4 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">Im</W>
 <W lemma="Herbst" msd="NC" tag="NN" in="" out="">Herbst</W>
@@ -27,7 +27,7 @@
 <W lemma="Kiosk" msd="NC" tag="NN" in="" out="">Kiosk</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">konnten</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="erwachsen" msd="AN" tag="ADJA" in="" out="">erwachsene</W>
 <W lemma="Vertretung" msd="NC" tag="NN" in="" out="">Vertretung</W>
@@ -52,7 +52,7 @@
 <W lemma="ich" msd="PR" tag="PRF" in="" out="">mich</W>
 <W lemma="selbständig" msd="AN" tag="ADJD" in="" out="">selbständig</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">konnte</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="Freundin" msd="NC" tag="NN" in="" out="">Freundin</W>
@@ -93,7 +93,7 @@
 <W lemma="Angst" msd="NC" tag="NN" in="" out="">Angst</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
-<W lemma="Riesenschuld&7c;Riesenschulden" msd="NC" tag="NN" in="" out="">Riesenschulden</W>
+<W lemma="Riesenschuld|Riesenschulden" msd="NC" tag="NN" in="" out="">Riesenschulden</W>
 <W lemma="da" msd="RG" tag="ADV" in="" out="">da</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="sitzen" msd="VAF" tag="VVINF" in="" out="">sitzen</W>
@@ -202,3 +202,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="-" msd="XP" tag="$(" in="" out="">-</W>
 <W lemma="er" msd="PP" tag="PPER" in="" out="">Er</W>
@@ -15,7 +15,7 @@
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gibt</W>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">mir</W>
 <W lemma="alle" msd="PP" tag="PIS" in="" out="">alles</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="Auto" msd="NC" tag="NN" in="" out="">Auto</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="Video" msd="NC" tag="NN" in="" out="">Video</W>
@@ -111,7 +111,7 @@
 <W lemma="gründlich" msd="AN" tag="ADJD" in="" out="">gründlich</W>
 <W lemma="tun" msd="VAP" tag="VVPP" in="" out="">getan</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="weniger" msd="RG" tag="ADV" in="" out="">weniger</W>
@@ -135,7 +135,7 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="machen" msd="VAF" tag="VVINF" in="" out="">machen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="">wollen</W>
 <W lemma="ich" msd="PR" tag="PRF" in="" out="">mich</W>
 <W lemma="alle" msd="PP" tag="PIS" in="" out="">alle</W>
@@ -164,12 +164,12 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einem</W>
 <W lemma="Café" msd="NC" tag="NN" in="" out="">Café</W>
-<W lemma="treffen&7c;triefen" msd="VAP" tag="VVPP" in="" out="">getroffen</W>
+<W lemma="treffen|triefen" msd="VAP" tag="VVPP" in="" out="">getroffen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="" out="">Als</W>
 <W lemma="unser" msd="PO" tag="PPOSAT" in="" out="">unsere</W>
 <W lemma="Blick" msd="NC" tag="NN" in="" out="">Blicke</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="treffen" msd="VA" tag="VVFIN" in="" out="">trafen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="wissen" msd="VA" tag="VVFIN" in="" out="">wusste</W>
@@ -200,3 +200,4 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">gut.</W>
 </s>
 </p>
+</root>

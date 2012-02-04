@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="aber" msd="CC" tag="KON" in="3:discmark" out="">Aber</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj">den</W>
@@ -39,7 +39,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Die</W>
 <W lemma="Zutaten" msd="NC" tag="NN" in="-1:nobj" out="">Zutaten</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:pnct|2:xpl|53:pnct">sind</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-1:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-1:pnct" out="">:</W>
 <W lemma="400" msd="AC" tag="CARD" in="-2:xpl" out="1:nobj|3:pnct|4:conj|7:pnct|8:conj|13:pnct|14:conj|18:pnct|19:conj|22:pnct|23:conj|26:pnct|27:conj|33:pnct|34:conj|38:pnct|39:conj|43:pnct|44:conj|47:pnct|48:conj">400</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj|1:{apart}" out="1:nobj">gr</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="-1:{apart}">Hechtfilet</W>
@@ -104,7 +104,7 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="auf" msd="SP" tag="APPR" in="8:loc" out="2:nobj">auf</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="1:attr" out="">eingefetteten</W>
-<W lemma="Blech&7c;Blechen" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Blechen</W>
+<W lemma="Blech|Blechen" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Blechen</W>
 <W lemma="bei" msd="SP" tag="APPR" in="5:man" out="1:nobj">bei</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">140</W>
 <W lemma="Grad" msd="NC" tag="NN" in="-1:nobj" out="">Grad</W>
@@ -118,7 +118,7 @@
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="1:nobj|2:pnct|8:xpl|29:pnct">Die</W>
 <W lemma="Sauce" msd="NC" tag="NN" in="-1:nobj" out="">Sauce</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-2:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-2:pnct" out="">:</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="5:dobj" out="1:nobj">die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Porreeringe</W>
 <W lemma="in" msd="SP" tag="APPR" in="3:loc" out="1:nobj">in</W>
@@ -229,3 +229,4 @@
 <W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
 </s>
 </p>
+</root>

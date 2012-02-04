@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">Und</W>
 <W lemma="dann" msd="RG" tag="ADV" in="1:scene" out="">dann</W>
@@ -74,7 +74,7 @@
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj" out="6:nobj">Es</W>
 <W lemma="verstehen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:robj|2:focal|4:pnct|15:pnct">versteht</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
 <W lemma="von" msd="SP" tag="APPR" in="-2:focal" out="1:avobj">von</W>
 <W lemma="selbst" msd="RG" tag="ADV" in="-1:avobj" out="">selbst</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
@@ -87,7 +87,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:{poss}|3:dobj" out="1:possd">TEBAs</W>
 <W lemma="Areal" msd="NC" tag="NN" in="-1:possd" out="-1:{poss}">Areal</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-5:nobj" out="1:vobj">zu</W>
-<W _noerror="&3a;nosubj&3a;" lemma="erweitern" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:dobj">erweitern</W>
+<W _noerror=":nosubj:" lemma="erweitern" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:dobj">erweitern</W>
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj" out="6:nobj">Es</W>
 <W lemma="gehen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:eval|2:neg|3:pobj|4:pnct|19:pnct">geht</W>
@@ -185,3 +185,4 @@
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
 </s>
 </p>
+</root>

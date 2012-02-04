@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="stellen" msd="VA" tag="VVFIN" in="" out="">Stellen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
@@ -26,7 +26,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Sprühtank</W>
 <W lemma="voll" msd="AN" tag="ADJA" in="" out="">voller</W>
 <W lemma="genmanipuliert" msd="AN" tag="ADJA" in="" out="">genmanipulierter</W>
-<W lemma="Bakterie&7c;Bakterium" msd="NC" tag="NN" in="" out="">Bakterien</W>
+<W lemma="Bakterie|Bakterium" msd="NC" tag="NN" in="" out="">Bakterien</W>
 <W lemma="aussenden" msd="VAP" tag="VVPP" in="" out="">ausgesandt</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hätte</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -64,8 +64,8 @@
 <W lemma="Zwischenzeit" msd="NC" tag="NN" in="" out="">Zwischenzeit</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">könnten</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Langzeitarbeitslos&7c;Langzeitarbeitslose&7c;Langzeitarbeitslosen" msd="NC" tag="NN" in="" out="">Langzeitarbeitslosen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="Langzeitarbeitslos|Langzeitarbeitslose|Langzeitarbeitslosen" msd="NC" tag="NN" in="" out="">Langzeitarbeitslosen</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="Video" msd="NC" tag="NN" in="" out="">Video</W>
 <W lemma="ansehen" msd="VAF" tag="VVINF" in="" out="">ansehen</W>
@@ -118,7 +118,7 @@
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
 <W lemma="Umwelt" msd="NC" tag="NN" in="" out="">Umwelt</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="genau" msd="AN" tag="ADJD" in="" out="">genau</W>
 <W lemma="da" msd="RG" tag="ADV" in="" out="">da</W>
@@ -133,7 +133,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Bakterie&7c;Bakterium" msd="NC" tag="NN" in="" out="">Bakterien</W>
+<W lemma="Bakterie|Bakterium" msd="NC" tag="NN" in="" out="">Bakterien</W>
 <W lemma="oder" msd="CC" tag="KON" in="" out="">oder</W>
 <W lemma="Virus" msd="NC" tag="NN" in="" out="">Viren</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -154,7 +154,7 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einer</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Ölverunreinigung</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="daran" msd="RG" tag="PAV" in="" out="">daran</W>
 <W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
 <W lemma="halten" msd="VAF" tag="VVINF" in="" out="">halten</W>
@@ -175,3 +175,4 @@
 <W lemma="?" msd="XP" tag="$." in="" out="">?</W>
 </s>
 </p>
+</root>

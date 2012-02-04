@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="USA" msd="NP" tag="NE" in="" out="">USA</W>
@@ -73,9 +73,9 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Amerikaner" msd="NC" tag="NN" in="" out="">Amerikaner</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="fühlen" msd="VA" tag="VVFIN" in="" out="">fühlen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="verdrängen" msd="VAP" tag="VVPP" in="" out="">verdrängt</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="sehen" msd="VAF" tag="VVINF" in="" out="">sehen</W>
@@ -148,10 +148,10 @@
 <W lemma="neu" msd="AN" tag="ADJA" in="" out="">neue</W>
 <W lemma="Weg" msd="NC" tag="NN" in="" out="">Wege</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
-<W lemma="Rolle&7c;Rollen" msd="NC" tag="NN" in="" out="">Rollen</W>
+<W lemma="Rolle|Rollen" msd="NC" tag="NN" in="" out="">Rollen</W>
 <W lemma="sowohl" msd="CC" tag="KON" in="" out="">sowohl</W>
 <W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="selbst" msd="RG" tag="ADV" in="" out="">selbst</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">als</W>
@@ -168,7 +168,7 @@
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">Aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
 <W lemma="jeweilig" msd="AN" tag="ADJA" in="" out="">jeweiligen</W>
-<W lemma="Eck&7c;Ecke&7c;Ecken" msd="NC" tag="NN" in="" out="">Ecken</W>
+<W lemma="Eck|Ecke|Ecken" msd="NC" tag="NN" in="" out="">Ecken</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Welt" msd="NC" tag="NN" in="" out="">Welt</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">werden</W>
@@ -200,3 +200,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

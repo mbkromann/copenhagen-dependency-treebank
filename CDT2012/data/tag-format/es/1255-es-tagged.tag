@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="mío" msd="PP" tag="PPO" in="" out="">Mi</W>
 <W lemma="cometido" msd="NC" tag="NC" in="" out="">cometido</W>
@@ -231,3 +231,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

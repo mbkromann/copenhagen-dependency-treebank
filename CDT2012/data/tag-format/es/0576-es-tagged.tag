@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">EE.UU.</W>
 <W lemma="considerar" msd="VAD" tag="VLfin" in="" out="">considera</W>
@@ -211,3 +211,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

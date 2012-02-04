@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">A</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
@@ -78,7 +78,7 @@
 <W lemma="autor" msd="NC" tag="NC" in="" out="">autora</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Lindhardt</W>
-<W lemma="&" msd="XS" tag="SYM" in="" out="">&</W>
+<W lemma="&amp;" msd="XS" tag="SYM" in="" out="">&amp;</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Ringhof</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
@@ -234,3 +234,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

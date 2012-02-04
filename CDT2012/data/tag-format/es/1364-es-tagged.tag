@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="según" msd="CS" tag="CSUBF" in="" out="">Según</W>
 <W lemma="H." msd="NP" tag="NP" in="" out="">H.</W>
@@ -219,3 +219,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

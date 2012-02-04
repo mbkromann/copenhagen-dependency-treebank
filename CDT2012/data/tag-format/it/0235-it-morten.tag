@@ -1,4 +1,4 @@
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">Abbiamo</W>
+<root><W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">Abbiamo</W>
 <W lemma="appetire" msd="VAP" tag="VER:pper" in="" out="">appetito</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="" out="">ma</W>
@@ -158,3 +158,4 @@
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="">nel</W>
 <W lemma="portafoglio" msd="NC" tag="NOM" in="" out="">portafoglio</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

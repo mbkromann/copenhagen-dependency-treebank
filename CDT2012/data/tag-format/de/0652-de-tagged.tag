@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Lademanns</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Store</W>
@@ -112,12 +112,12 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Store</W>
 <W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="" out="">Danske</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Encyklopædi</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">Mit</W>
 <W lemma="unser" msd="PO" tag="PPOSAT" in="" out="">unserem</W>
 <W lemma="Lexikon" msd="NC" tag="NN" in="" out="">Lexikon</W>
@@ -163,7 +163,7 @@
 <W lemma="Allgemeinheit" msd="NC" tag="NN" in="" out="">Allgemeinheit</W>
 <W lemma="durch" msd="SP" tag="APPR" in="" out="">durch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
-<W lemma="Lese&7c;Lesen" msd="NC" tag="NN" in="" out="">Lesen</W>
+<W lemma="Lese|Lesen" msd="NC" tag="NN" in="" out="">Lesen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Enzyklopädie" msd="NC" tag="NN" in="" out="">Enzyklopädie</W>
 <W lemma="klug" msd="AN" tag="ADJD" in="" out="">klüger</W>
@@ -198,6 +198,7 @@
 <W lemma="gut" msd="AN" tag="ADJD" in="" out="">besten</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
+</root>

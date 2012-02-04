@@ -1,4 +1,4 @@
-<W lemma="il" msd="PD" tag="DET:def" in="" out="">Il</W>
+<root><W lemma="il" msd="PD" tag="DET:def" in="" out="">Il</W>
 <W lemma="loro" msd="PO" tag="PRO:poss" in="" out="">loro</W>
 <W lemma="rapporto" msd="NC" tag="NOM" in="" out="">rapporto</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
@@ -199,3 +199,4 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="" out="">questo</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</root>

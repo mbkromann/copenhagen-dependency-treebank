@@ -7,3 +7,6 @@ fixall:
 	./add_root_element.pl $(MASK) # r1877
 	./resolve_mismatchin_open_end_tags.pl $(MASK) # r1877
 	./add_closing_tags.pl $(MASK) # r1878
+
+revertall:
+	svn revert ../../data/tag-format/*/*

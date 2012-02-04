@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="viel" msd="PI" tag="PIDAT" in="1:{apart}|12:subj" out="1:gobj">Viele</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:gobj|13:[subj]" out="-1:{apart}|1:nobj|2:pnct|3:ref|9:relr">der</W>
@@ -83,7 +83,7 @@
 <W lemma="Fortschritt" msd="NC" tag="NN" in="-3:nobj" out="">Fortschritte</W>
 <W lemma="selbstverständlich" msd="AN" tag="ADJD" in="3:man" out="">selbstverständlich</W>
 <W lemma="mit" msd="SP" tag="APPR" in="2:part" out="">mit</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="1:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="1:dobj" out="">sich</W>
 <W lemma="bringen" msd="VA" tag="VVFIN" in="-11:relr" out="-7:subj|-3:man|-2:part|-1:dobj|1:pnct">bringen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-13:subj|1:neg|2:man|6:preds|7:pnct">sind</W>
@@ -199,3 +199,4 @@
 <W lemma="etc." msd="RG" tag="ADV" in="-5:conj" out="">etc.</W>
 </s>
 </p>
+</root>

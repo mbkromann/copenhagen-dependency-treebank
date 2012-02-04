@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="treffen" msd="VA" tag="VVFIN" in="" out="1:time|2:pobj">TREFFEN</W>
 <W lemma="Zweimal" msd="NC" tag="NN" in="-1:time" out="">ZWEIMAL</W>
@@ -30,7 +30,7 @@
 <W lemma="folgen" msd="VA" tag="VVFIN" in="-17:conj" out="-3:time|1:subj|3:pnct">folgen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj|3:xpl">die</W>
 <W lemma="Spiel" msd="NC" tag="NN" in="-1:nobj" out="">Spiele</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-3:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-3:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-3:xpl" out="1:pnct|2:conj|5:conj|7:conj|8:pnct">Ikast-Lyngby</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="B" msd="NC" tag="NN" in="-2:conj" out="1:+">B</W>
@@ -60,7 +60,7 @@
 <W lemma="führen" msd="VA" tag="VVFIN" in="-8:conj" out="-1:subj|1:pobj|4:pnct|15:pnct">führt</W>
 <W lemma="zu" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">zu</W>
 <W lemma="18" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj|3:ref|12:relr">18</W>
-<W lemma="Runde&7c;Runden" msd="NC" tag="NN" in="-1:nobj" out="">Runden</W>
+<W lemma="Runde|Runden" msd="NC" tag="NN" in="-1:nobj" out="">Runden</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-3:ref|8:[subj]|9:subj" out="">die</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="7:time" out="3:nobj">am</W>
@@ -72,7 +72,7 @@
 <W lemma="Programm" msd="NC" tag="NN" in="-2:nobj" out="">Programm</W>
 <W lemma="abschließen" msd="VAP" tag="VVPP" in="1:vobj" out="-7:time|-8:[subj]|-3:resem">abgeschlossen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="-12:relr" out="-1:vobj|-9:subj|6:xpl">werden</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-15:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-15:pnct" out="">:</W>
 </s>
 </p>
 <p>
@@ -190,7 +190,7 @@
 <W lemma="zu" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">zu</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="2:nobj">den</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:nobj" out="">Europa-Cup</W>
-<W lemma="Turnier&7c;Turnieren" msd="NC" tag="NN" in="-2:nobj" out="-1:nobj">Turnieren</W>
+<W lemma="Turnier|Turnieren" msd="NC" tag="NN" in="-2:nobj" out="-1:nobj">Turnieren</W>
 <W lemma="." msd="XP" tag="$." in="-21:pnct" out="">.</W>
 </s>
 </p>
@@ -245,3 +245,4 @@
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 </s>
 </p>
+</root>

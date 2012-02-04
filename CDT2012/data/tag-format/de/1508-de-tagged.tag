@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Als</W>
 <W lemma="Lady" msd="NC" tag="NN" in="" out="">Lady</W>
@@ -18,7 +18,7 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,gute</W>
 <W lemma="Sache" msd="NC" tag="NN" in="" out="">Sache</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="Diana" msd="NP" tag="NE" in="" out="">Diana</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wurde</W>
@@ -63,7 +63,7 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">Her</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">True</W>
 <W lemma="Story" msd="NC" tag="NN" in="" out="">Story</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="herausgeben" msd="VA" tag="VVFIN" in="" out="">herausgab</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="spielen" msd="VA" tag="VVFIN" in="" out="">spielte</W>
@@ -76,7 +76,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="Buch" msd="NC" tag="NN" in="" out="">Buch</W>
 <W lemma="äußern" msd="VA" tag="VVFIN" in="" out="">äußern</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="namentlich" msd="AN" tag="ADJD" in="" out="">namentlich</W>
 <W lemma="genannt" msd="AN" tag="ADJA" in="" out="">genannte</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -108,7 +108,7 @@
 <W lemma="Gegenangriff" msd="NC" tag="NN" in="" out="">Gegenangriff</W>
 <W lemma="über" msd="RG" tag="PTKVZ" in="" out="">über</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="eng" msd="AN" tag="ADJA" in="" out="">enger</W>
@@ -138,7 +138,7 @@
 <s>
 <W lemma="neu" msd="AN" tag="ADJA" in="" out="">Neue</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Enthüllungen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="über" msd="SP" tag="APPR" in="" out="">über</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
@@ -162,7 +162,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="letzt" msd="AN" tag="ADJA" in="" out="">letzte</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Hit</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -213,3 +213,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

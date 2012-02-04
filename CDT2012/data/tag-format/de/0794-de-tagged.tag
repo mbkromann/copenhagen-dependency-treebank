@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="ganz" msd="AN" tag="ADJA" in="" out="">ganze</W>
@@ -46,7 +46,7 @@
 <W lemma="umfassen" msd="VAF" tag="VVINF" in="" out="">umfassen</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="">soll</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wieder" msd="RG" tag="ADV" in="" out="">wieder</W>
 <W lemma="aufgreifen" msd="VAP" tag="VVPP" in="" out="">aufgegriffen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -78,20 +78,20 @@
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">dieser</W>
 <W lemma="Revision" msd="NC" tag="NN" in="" out="">Revision</W>
 <W lemma="1996" msd="AC" tag="CARD" in="" out="">1996</W>
-<W lemma="denken&7c;gedenken" msd="VAP" tag="VVPP" in="" out="">gedacht</W>
+<W lemma="denken|gedenken" msd="VAP" tag="VVPP" in="" out="">gedacht</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="">wird</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Mitgliedstaat" msd="NC" tag="NN" in="" out="">Mitgliedstaaten</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="WEU" msd="NP" tag="NE" in="" out="">WEU</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="einig" msd="AN" tag="ADJD" in="" out="">einig</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
@@ -200,6 +200,7 @@
 <W lemma="Rolle" msd="NC" tag="NN" in="" out="">Rolle</W>
 <W lemma="fördern" msd="VAF" tag="VVINF" in="" out="">fördern</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
+</root>

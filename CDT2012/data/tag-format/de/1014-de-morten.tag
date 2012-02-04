@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="2:time" out="1:nobj">,,Im</W>
 <W lemma="Augenblick" msd="NC" tag="NN" in="-1:nobj" out="">Augenblick</W>
@@ -27,7 +27,7 @@
 <W lemma="aber" msd="RG" tag="ADV" in="-2:conc" out="">aber</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-3:neg" out="">nicht</W>
 <W lemma="sein" msd="VAF" tag="VAINF" in="-4:vobj" out="-5:preds|-3:[subj]">sein</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-5:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-5:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-7:qobj|2:subj|3:pnct">sagt</W>
 <W lemma="Bente" msd="NP" tag="NE" in="1:namef" out="">Bente</W>
@@ -80,7 +80,7 @@
 <W lemma="selbst" msd="RG" tag="ADV" in="2:man" out="">selbst</W>
 <W lemma="Haushaltshilfe" msd="NC" tag="NN" in="1:dobj" out="">Haushaltshilfen</W>
 <W lemma="einstellen" msd="VAF" tag="VVINF" in="-5:vobj" out="-4:subj|-1:dobj|-2:man">einstellen</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-27:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-27:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="-28:pnct" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-29:qobj|2:subj|3:pnct">sagt</W>
 <W lemma="Bente" msd="NP" tag="NE" in="1:namef" out="">Bente</W>
@@ -143,7 +143,7 @@
 <W lemma="ins" msd="SP+P" tag="APPRART" in="-2:@loc" out="1:nobj">ins</W>
 <W lemma="Krankenhaus" msd="NC" tag="NN" in="-1:nobj" out="">Krankenhaus</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="1:subj|6:[subj]" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="1:subj|6:[subj]" out="">Sie</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="-1:subj|1:neg|5:vobj|6:pnct|7:cause|21:pnct">können</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
 <W lemma="wieder" msd="RG" tag="ADV" in="3:time" out="">wieder</W>
@@ -200,3 +200,4 @@
 <W lemma="." msd="XP" tag="$." in="-25:pnct" out="">.</W>
 </s>
 </p>
+</root>

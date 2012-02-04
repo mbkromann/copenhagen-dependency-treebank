@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">,,Das</W>
 <W lemma="Personal" msd="NC" tag="NN" in="" out="">Personal</W>
@@ -25,7 +25,7 @@
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Nykøbing</W>
 <W lemma="F." msd="NP" tag="NE" in="" out="">F.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -104,7 +104,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Næstved</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="">sagt</W>
 <W lemma="Henrik" msd="NP" tag="NE" in="" out="">Henrik</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Nørgaard</W>
@@ -168,7 +168,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">der</W>
 <W lemma="fast" msd="RG" tag="ADV" in="" out="">fast</W>
 <W lemma="katastrophal" msd="AN" tag="ADJA" in="" out="">katastrophale</W>
-<W lemma="Folge&7c;Folgen" msd="NC" tag="NN" in="" out="">Folgen</W>
+<W lemma="Folge|Folgen" msd="NC" tag="NN" in="" out="">Folgen</W>
 <W lemma="haben" msd="VAP" tag="VAPP" in="" out="">gehabt</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hätte</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
@@ -216,7 +216,7 @@
 <W lemma="Polizist" msd="NC" tag="NN" in="" out="">Polizisten</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="unmittelbar" msd="AN" tag="ADJA" in="" out="">unmittelbarer</W>
 <W lemma="Nähe" msd="NC" tag="NN" in="" out="">Nähe</W>
@@ -250,3 +250,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

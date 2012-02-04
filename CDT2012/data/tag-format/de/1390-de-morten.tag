@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="Ziel" msd="NC" tag="NN" in="1:subj" out="">Ziel</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:pnct|2:preds|43:pnct">ist</W>
@@ -40,7 +40,7 @@
 <W lemma="Geschwindigkeit" msd="NC" tag="NN" in="-1:nobj" out="2:conj">Geschwindigkeit</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Wettrennen" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Wettrennen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:dobj" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="3:dobj" out="">sich</W>
 <W lemma="auch" msd="RG" tag="ADV" in="1:add" out="">auch</W>
 <W lemma="ökonomisch" msd="AN" tag="ADJD" in="1:man" out="-1:add">ökonomisch</W>
 <W lemma="rechnen" msd="VA" tag="VVFIN" in="-10:vobj" out="-9:subj|-1:man|-3:dobj">rechnet</W>
@@ -180,7 +180,7 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="-1:nobj" out="">Roadracing</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="1:neg" out="">nicht</W>
 <W lemma="erlöschen" msd="VA" tag="VVFIN" in="-6:vobj" out="-1:neg|-5:subj">erlischt</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-34:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-34:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="-35:pnct" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-36:qobj|2:subj|3:pnct">sagt</W>
 <W lemma="Claus" msd="NP" tag="NE" in="1:namef" out="">Claus</W>
@@ -188,3 +188,4 @@
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
 </s>
 </p>
+</root>

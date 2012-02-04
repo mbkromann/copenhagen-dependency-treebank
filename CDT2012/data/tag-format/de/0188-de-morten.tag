@@ -1,7 +1,7 @@
-<p>
+<root><p>
 <s>
 <W lemma="Wegweiser" msd="NC" tag="NN" in="" out="1:pnct|3:xpl">Wegweiser</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-1:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-1:pnct" out="">:</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:expl" out="">Es</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="-3:xpl" out="-1:expl|1:dobj|6:pnct">GIBT</W>
 <W lemma="Leben" msd="NC" tag="NN" in="-1:dobj" out="1:pobj">Leben</W>
@@ -115,7 +115,7 @@
 <W lemma="falsch" msd="AN" tag="ADJD" in="1:aobj" out="">falsch</W>
 <W lemma="machen" msd="VAF" tag="VVINF" in="1:vobj" out="-4:[subj]|-1:aobj">machen</W>
 <W lemma="können" msd="VAF" tag="VMINF" in="-6:vobj" out="-1:vobj|-5:[subj]">können</W>
-<W lemma="&3a;" msd="XP" tag="$." in="-7:pnct" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="-7:pnct" out="">:</W>
 <W lemma="man" msd="PP" tag="PIS" in="1:subj" out="">man</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="-1:subj|1:dobj|6:part|7:pnct|11:conj">gibt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:dobj" out="1:nobj|3:conj">den</W>
@@ -178,7 +178,7 @@
 <W lemma="sicher" msd="AN" tag="ADJD" in="-5:epi" out="">sicher</W>
 <W lemma="etwas" msd="RG" tag="ADV" in="1:quant" out="">etwas</W>
 <W lemma="täuschen" msd="VAP" tag="VVPP" in="-7:vobj" out="-6:dobj|-1:quant|-5:time|-8:[subj]">getäuscht</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-21:pnct" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="-21:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="-22:pnct" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-23:qobj|2:subj|14:pnct">sagt</W>
 <W lemma="John" msd="NP" tag="NE" in="1:namef" out="">John</W>
@@ -226,14 +226,17 @@
 <W lemma="aus" msd="SP" tag="APPR" in="4:other" out="1:nobj">Aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-5:coref-iden" out="1:nobj">den</W>
 <W lemma="100" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">100</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="-1:nobj" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="-1:nobj" out="">Stunden</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-4:other|3:contr|4:subj|7:pnct">wurden</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="statt" msd="SP" tag="APPR" in="-3:contr" out="">statt</W>
 <W lemma="d" msd="PD" tag="PDAT" in="-4:subj" out="1:nobj">dessen</W>
 <W lemma="5000" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">5000</W>
-<W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="-1:nobj" out="">Stunden</W>
+<W lemma="Stunde|Stunden" msd="NC" tag="NN" in="-1:nobj" out="">Stunden</W>
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
 </s>
 </p>
+</root>

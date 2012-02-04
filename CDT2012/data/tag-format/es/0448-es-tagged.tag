@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="escribir" msd="VAD" tag="VLfin" in="" out="">Escribo</W>
 <W lemma="para" msd="SP" tag="SCENE" in="" out="">para</W>
@@ -198,3 +198,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

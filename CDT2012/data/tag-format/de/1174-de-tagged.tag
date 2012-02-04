@@ -1,6 +1,6 @@
-<p>
+<root><p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
 <W lemma="nie" msd="RG" tag="ADV" in="" out="">nie</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">irgendeinen</W>
@@ -24,7 +24,7 @@
 <W lemma="immer" msd="RG" tag="ADV" in="" out="">immer</W>
 <W lemma="wieder" msd="RG" tag="ADV" in="" out="">wieder</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
-<W lemma="Träne&7c;Tränen" msd="NC" tag="NN" in="" out="">Tränen</W>
+<W lemma="Träne|Tränen" msd="NC" tag="NN" in="" out="">Tränen</W>
 <W lemma="unterbrechen" msd="VAP" tag="VVPP" in="" out="">unterbrochen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
@@ -45,11 +45,11 @@
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">dem</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
-<W lemma="Arbeit&7c;Arbeiten" msd="NC" tag="NN" in="" out="">Arbeiten</W>
+<W lemma="Arbeit|Arbeiten" msd="NC" tag="NN" in="" out="">Arbeiten</W>
 <W lemma="zur" msd="SP+P" tag="APPRART" in="" out="">zur</W>
 <W lemma="Inbetriebnahme" msd="NC" tag="NN" in="" out="">Inbetriebnahme</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
-<W lemma="Schiff&7c;Schiffes" msd="NC" tag="NN" in="" out="">Schiffes</W>
+<W lemma="Schiff|Schiffes" msd="NC" tag="NN" in="" out="">Schiffes</W>
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="umfangreich" msd="AN" tag="ADJD" in="" out="">umfangreich</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">waren</W>
@@ -60,7 +60,7 @@
 <W lemma="Zeit" msd="NC" tag="NN" in="" out="">Zeit</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="Sicherheitsaufgabe" msd="NC" tag="NN" in="" out="">Sicherheitsaufgaben</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
@@ -70,10 +70,10 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Scandinavian</W>
 <W lemma="Star" msd="NC" tag="NN" in="" out="">Star</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="gehen" msd="VA" tag="VVFIN" in="" out="">ging</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="" out="">am</W>
 <W lemma="1." msd="AN" tag="ADJA" in="" out="">1.</W>
@@ -144,7 +144,7 @@
 </p>
 <p>
 <s>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
 <W lemma="an" msd="SP" tag="APPR" in="" out="">an</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einem</W>
@@ -167,7 +167,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,Scandinavian</W>
 <W lemma="Star" msd="NC" tag="NN" in="" out="">Star</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="teilnehmen" msd="VAP" tag="VVPP" in="" out="">teilgenommen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
@@ -193,3 +193,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

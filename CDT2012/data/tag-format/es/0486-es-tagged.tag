@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="erupción" msd="NC" tag="NC" in="" out="">Erupciones</W>
 <W lemma="familiar" msd="AN" tag="ADJ" in="" out="">familiares</W>
@@ -290,3 +290,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

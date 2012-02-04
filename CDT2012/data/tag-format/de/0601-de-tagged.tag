@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Odd-Catla</W>
 <W lemma="betrachten" msd="VA" tag="VVFIN" in="" out="">betrachtete</W>
@@ -55,7 +55,7 @@
 <W lemma="Wind" msd="NC" tag="NN" in="" out="">Wind</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">den</W>
-<W lemma="Berg&7c;Bergen" msd="NC" tag="NN" in="" out="">Bergen</W>
+<W lemma="Berg|Bergen" msd="NC" tag="NN" in="" out="">Bergen</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">denen</W>
@@ -151,7 +151,7 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="" out="">seine</W>
 <W lemma="Herrscherin" msd="NC" tag="NN" in="" out="">Herrscherin</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
 <W lemma="so" msd="RG" tag="ADV" in="" out="">so</W>
 <W lemma="gut" msd="AN" tag="ADJD" in="" out="">gut</W>
@@ -182,3 +182,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
 <W lemma="man" msd="PP" tag="PIS" in="" out="">man</W>
@@ -108,7 +108,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="nichts" msd="PP" tag="PIS" in="" out="">Nichts</W>
 <W lemma="deuten" msd="VA" tag="VVFIN" in="" out="">deutete</W>
 <W lemma="darauf" msd="RG" tag="PAV" in="" out="">darauf</W>
@@ -141,7 +141,7 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="manch" msd="PI" tag="PIAT" in="" out="">manchen</W>
-<W lemma="Fall&7c;Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
+<W lemma="Fall|Fällen" msd="NC" tag="NN" in="" out="">Fällen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">kann</W>
 <W lemma="d" msd="PP" tag="PDS" in="" out="">das</W>
 <W lemma="sogar" msd="RG" tag="ADV" in="" out="">sogar</W>
@@ -163,7 +163,7 @@
 <W lemma="Gelenk" msd="NC" tag="NN" in="" out="">Gelenk</W>
 <W lemma="springen" msd="VA" tag="VVFIN" in="" out="">springt</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
 <p>
@@ -172,7 +172,7 @@
 <W lemma="dies" msd="PD" tag="PDAT" in="" out="">diesem</W>
 <W lemma="Zusammenhang" msd="NC" tag="NN" in="" out="">Zusammenhang</W>
 <W lemma="stellen" msd="VA" tag="VVFIN" in="" out="">stellen</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="" out="">zwei</W>
 <W lemma="Frage" msd="NC" tag="NN" in="" out="">Fragen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
@@ -231,3 +231,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

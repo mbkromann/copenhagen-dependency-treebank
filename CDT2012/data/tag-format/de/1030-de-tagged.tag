@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ich" msd="PP" tag="PPER" in="" out="">Ich</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">muss</W>
@@ -21,7 +21,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Wolffstones</W>
 <W lemma="spürbar" msd="AN" tag="ADJD" in="" out="">spürbar</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="Vielleicht" msd="AN" tag="ADJD" in="" out="">Vielleicht</W>
 <W lemma="vergleichbar" msd="AN" tag="ADJD" in="" out="">vergleichbar</W>
 <W lemma="mit" msd="SP" tag="APPR" in="" out="">mit</W>
@@ -185,6 +185,8 @@
 <W lemma="regennaß" msd="AN" tag="ADJA" in="" out="">regennassen</W>
 <W lemma="Marsch" msd="NC" tag="NN" in="" out="">Marsch</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>
 <p>
 <s>
 <W lemma="bei" msd="SP" tag="APPR" in="" out="">Bei</W>
@@ -207,3 +209,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

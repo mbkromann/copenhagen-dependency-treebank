@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">Ein</W>
 <W lemma="durchgehend" msd="AN" tag="ADJA" in="" out="">durchgehender</W>
@@ -34,7 +34,7 @@
 <W lemma="als" msd="CS" tag="KOUS" in="" out="">als</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="" out="">,,exotische</W>
 <W lemma="Seltenheit" msd="NC" tag="NN" in="" out="">Seltenheiten</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="betrachten" msd="VAP" tag="VVPP" in="" out="">betrachtet</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="werden" msd="VAF" tag="VAINF" in="" out="">werden</W>
@@ -53,7 +53,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="" out="">Wenn</W>
 <W lemma="wohlmeinend" msd="AN" tag="ADJA" in="" out="">wohlmeinende</W>
 <W lemma="Däne" msd="NC" tag="NN" in="" out="">Dänen</W>
@@ -84,7 +84,7 @@
 <W lemma="Wirkung" msd="NC" tag="NN" in="" out="">Wirkung</W>
 <W lemma="haben" msd="VAF" tag="VAINF" in="" out="">haben</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="schlußfolgern" msd="VA" tag="VVFIN" in="" out="">schlussfolgert</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Bericht" msd="NC" tag="NN" in="" out="">Bericht</W>
@@ -92,7 +92,7 @@
 <W lemma="Einwandererkind" msd="NC" tag="NN" in="" out="">Einwandererkinder</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="" out="">im</W>
 <W lemma="Ausbildungssystem" msd="NC" tag="NN" in="" out="">Ausbildungssystem</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="13" msd="AC" tag="CARD" in="" out="">13</W>
 <W lemma="Prozent" msd="NC" tag="NN" in="" out="">Prozent</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="" out="">aller</W>
@@ -199,3 +199,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="London" msd="NP" tag="NE" in="" out="">LONDON</W>
 </s>
@@ -9,7 +9,7 @@
 <W lemma="europäisch" msd="AN" tag="ADJA" in="" out="">europäischen</W>
 <W lemma="Stahlfabrik" msd="NC" tag="NN" in="" out="">Stahlfabriken</W>
 <W lemma="befinden" msd="VA" tag="VVFIN" in="" out="">befinden</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="schlimm" msd="AN" tag="ADJA" in="" out="">schlimmsten</W>
@@ -81,7 +81,7 @@
 <W lemma="paar" msd="PI" tag="PIDAT" in="" out="">paar</W>
 <W lemma="Monat" msd="NC" tag="NN" in="" out="">Monaten</W>
 <W lemma="wieder" msd="RG" tag="ADV" in="" out="">wieder</W>
-<W lemma="fallen&7c;gefallen" msd="VAP" tag="VVPP" in="" out="">gefallen</W>
+<W lemma="fallen|gefallen" msd="VAP" tag="VVPP" in="" out="">gefallen</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
@@ -135,7 +135,7 @@
 </p>
 <p>
 <s>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
 <W lemma="Investor" msd="NC" tag="NN" in="" out="">Investoren</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">können</W>
@@ -147,13 +147,13 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="lange" msd="RG" tag="ADV" in="" out="">lange</W>
 <W lemma="bevor" msd="CS" tag="KOUS" in="" out="">bevor</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
 <W lemma="wirtschaftlich" msd="AN" tag="ADJA" in="" out="">wirtschaftlicher</W>
 <W lemma="Aufschwung" msd="NC" tag="NN" in="" out="">Aufschwung</W>
 <W lemma="einstellen" msd="VA" tag="VVFIN" in="" out="">einstellt</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="schreiben" msd="VA" tag="VVFIN" in="" out="">schrieb</W>
 <W lemma="Edward" msd="NP" tag="NE" in="" out="">Edward</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Hadas</W>
@@ -178,17 +178,18 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
 <W lemma="London" msd="NP" tag="NE" in="" out="">London</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 <W lemma="es" msd="PP" tag="PPER" in="" out="">Es</W>
 <W lemma="brauchen" msd="VA" tag="VVFIN" in="" out="">braucht</W>
 <W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="">einen</W>
-<W lemma="Funke&7c;Funken" msd="NC" tag="NN" in="" out="">Funken</W>
+<W lemma="Funke|Funken" msd="NC" tag="NN" in="" out="">Funken</W>
 <W lemma="Hoffnung" msd="NC" tag="NN" in="" out="">Hoffnung</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
 <W lemma="baldig" msd="AN" tag="ADJA" in="" out="">baldige</W>
 <W lemma="Besserung" msd="NC" tag="NN" in="" out="">Besserung</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="&quot;" msd="XP" tag="$(" in="" out="">"</W>
 </s>
 </p>
+</root>

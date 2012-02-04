@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="ayer" msd="RG" tag="ADV" in="" out="">Ayer</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
@@ -269,3 +269,4 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 </p>
+</root>

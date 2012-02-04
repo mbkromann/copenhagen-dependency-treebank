@@ -1,4 +1,4 @@
-<p>
+<root><p>
 <s>
 <W lemma="fünfhundert" msd="AC" tag="CARD" in="" out="">Fünfhundert</W>
 <W lemma="Meter" msd="NC" tag="NN" in="" out="">Meter</W>
@@ -92,7 +92,7 @@
 <W lemma="übersehen" msd="VAF" tag="VVINF" in="" out="">übersehen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="">konnte</W>
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
-<W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="" out="">Sie</W>
+<W lemma="Sie|sie" msd="PP" tag="PPER" in="" out="">Sie</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gibt</W>
 <W lemma="jedoch" msd="RG" tag="ADV" in="" out="">jedoch</W>
 <W lemma="zu" msd="RG" tag="PTKVZ" in="" out="">zu</W>
@@ -109,7 +109,7 @@
 <W lemma="d" msd="PT" tag="PRELS" in="" out="">dem</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
 <W lemma="Unfall" msd="NC" tag="NN" in="" out="">Unfall</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="ereignen" msd="VA" tag="VVFIN" in="" out="">ereignete</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
@@ -148,7 +148,7 @@
 <p>
 <s>
 <W lemma="einige" msd="PI" tag="PIAT" in="" out="">Einige</W>
-<W lemma="Sekund&7c;Sekunde" msd="NC" tag="NN" in="" out="">Sekunden</W>
+<W lemma="Sekund|Sekunde" msd="NC" tag="NN" in="" out="">Sekunden</W>
 <W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
 <W lemma="Zusammenstoß" msd="NC" tag="NN" in="" out="">Zusammenstoß</W>
@@ -172,7 +172,7 @@
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
 <W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="">müssten</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="jetzt" msd="RG" tag="ADV" in="" out="">jetzt</W>
 <W lemma="wohl" msd="RG" tag="ADV" in="" out="">wohl</W>
 <W lemma="etwas" msd="RG" tag="ADV" in="" out="">etwas</W>
@@ -189,3 +189,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>

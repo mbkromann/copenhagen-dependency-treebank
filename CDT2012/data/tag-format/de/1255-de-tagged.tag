@@ -1,10 +1,10 @@
-<p>
+<root><p>
 <s>
 <W lemma="mein" msd="PO" tag="PPOSAT" in="" out="">Meine</W>
 <W lemma="Aufgabe" msd="NC" tag="NN" in="" out="">Aufgabe</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="klar" msd="AN" tag="ADJD" in="" out="">klar</W>
-<W lemma="&3a;" msd="XP" tag="$." in="" out="">:</W>
+<W lemma=":" msd="XP" tag="$." in="" out="">:</W>
 <W lemma="auf" msd="SP" tag="APPR" in="" out="">Auf</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Danida</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -177,7 +177,7 @@
 <W lemma="dabei" msd="RG" tag="PAV" in="" out="">dabei</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="">war</W>
 <W lemma="," msd="XP" tag="$," in="" out="">,</W>
-<W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="" out="">sich</W>
+<W lemma="er|es|sie|Sie" msd="PR" tag="PRF" in="" out="">sich</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="" out="">zu</W>
 <W lemma="verbessern" msd="VAF" tag="VVINF" in="" out="">verbessern</W>
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
@@ -225,3 +225,4 @@
 <W lemma="." msd="XP" tag="$." in="" out="">.</W>
 </s>
 </p>
+</root>
