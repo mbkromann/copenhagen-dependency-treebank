@@ -228,5 +228,5 @@
 <W id="227" lemma="al" msd="SP+P" tag="PRE:det" in="-5:conj" out="-1:coord|2:nobj">alla</W>
 <W id="228" lemma="generale" msd="AN" tag="ADJ" in="1:attr" out="">generale</W>
 <W id="229" lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:Â²pobj|1:{arg}">libertÃ </W>
-<W compound="¹Â²¹d'Â³²insediamentoÂ^¹³.^²^Â^³¹&22;" id="230" lemma="&lt;unknown&gt;" msd="NC" note="skal deles" tag="NOM" in="-1:Â²pobj|-1:{arg}|-21:â´pnct|-21:âµpnct|0:Â³nobjÂ²" out="0:Â³nobjÂ²">dâ€™insediamento.â€</W>
+<W compound="¹Â²¹d'Â³²insediamentoÂ^¹³.^²^Â^³¹&quot;" id="230" lemma="&lt;unknown&gt;" msd="NC" note="skal deles" tag="NOM" in="-1:Â²pobj|-1:{arg}|-21:â´pnct|-21:âµpnct|0:Â³nobjÂ²" out="0:Â³nobjÂ²">dâ€™insediamento.â€</W>
 </root>
