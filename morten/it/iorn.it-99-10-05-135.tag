@@ -157,7 +157,7 @@
 <W id="156" msd="NOM" tag="NOM" in="" out="">è</W>
 <W id="157" msd="ADJ" tag="ADJ" in="" out="">uno</W>
 <W id="158" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dei</W>
-<W id="159" msd="NOM" tag="NOM" in="" out="1:ref">discorsi</W>
+<W id="159" msd="NOM" tag="NOM" in="" out="1:ref|8:ref">discorsi</W>
 <W id="160" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="161" msd="VER&3a;pres" tag="VER&3a;pres" in="-100:coref" out="7:coref">dobbiamo</W>
 <W id="162" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">fare</W>
@@ -165,7 +165,7 @@
 <W id="164" msd="NOM" tag="NOM" in="" out="">rivoluzione</W>
 <W id="165" msd="ADJ" tag="ADJ" in="" out="">culturale</W>
 <W id="166" msd="PON" tag="PON" in="" out="">,</W>
-<W id="167" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="167" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-8:ref" out="">che</W>
 <W id="168" msd="VER&3a;pres" tag="VER&3a;pres" in="-7:coref" out="129:²coref">dobbiamo</W>
 <W id="169" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">fare</W>
 <W id="170" msd="PRE" tag="PRE" in="" out="">di</W>

@@ -12,7 +12,7 @@
 <W id="11" msd="ADJ" tag="ADJ" in="" out="">scorsi</W>
 <W id="12" msd="PON" tag="PON" in="" out="">,</W>
 <W id="13" msd="PRO&3a;refl" tag="PRO&3a;refl" in="" out="">ci</W>
-<W id="14" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">siamo</W>
+<W id="14" msd="VER&3a;pres" tag="VER&3a;pres" in="0:assoc-frame" out="0:assoc-frame">siamo</W>
 <W id="15" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">dovuti</W>
 <W id="16" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">occupare</W>
 <W id="17" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">del</W>

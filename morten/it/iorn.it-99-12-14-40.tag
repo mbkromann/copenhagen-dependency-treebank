@@ -172,7 +172,7 @@
 <W id="171" msd="ADJ" tag="ADJ" in="" out="">controverso</W>
 <W id="172" msd="PON" tag="PON" in="" out="">,</W>
 <W id="173" msd="NOM" tag="NOM" in="" out="">cioè</W>
-<W id="174" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="0:assoc-frame|15:coref-iden">la</W>
+<W id="174" msd="DET&3a;def" tag="DET&3a;def" in="0:assoc-frame" out="15:coref-iden|0:assoc-frame">la</W>
 <W id="175" msd="NOM" tag="NOM" in="" out="">Conferenza</W>
 <W id="176" msd="ADJ" tag="ADJ" in="" out="">intergovernativa</W>
 <W id="177" msd="SENT" tag="SENT" in="" out="">.</W>
@@ -227,7 +227,7 @@
 <W id="226" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nel</W>
 <W id="227" msd="NOM" tag="NOM" in="" out="">dibattito</W>
 <W id="228" msd="PRE" tag="PRE" in="" out="">di</W>
-<W id="229" msd="NPR" tag="NPR" in="" out="">Helsinki</W>
+<W id="229" msd="NPR" tag="NPR" in="" out="210:coref-iden">Helsinki</W>
 <W id="230" msd="SENT" tag="SENT" in="" out="">.</W>
 <W id="231" msd="PRO&3a;indef" tag="PRO&3a;indef" in="" out="5:coref">Alcuni</W>
 <W id="232" msd="NOM" tag="NOM" in="" out="">progressi</W>
@@ -301,9 +301,9 @@
 <W id="300" msd="NOM" tag="NOM" in="" out="">è</W>
 <W id="301" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-4:coref-res" out="">questo</W>
 <W id="302" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
-<W id="303" msd="NOM" tag="NOM" in="" out="">messaggio</W>
+<W id="303" msd="NOM" tag="NOM" in="" out="2:ref">messaggio</W>
 <W id="304" msd="ADJ" tag="ADJ" in="" out="">importante</W>
-<W id="305" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="305" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-2:ref" out="">che</W>
 <W id="306" msd="VER&3a;pres" tag="VER&3a;pres" in="-9:coref" out="27:coref">voglio</W>
 <W id="307" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">dare</W>
 <W id="308" msd="PON" tag="PON" in="" out="">-</W>
@@ -437,7 +437,7 @@
 <W id="436" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="42:coref-iden.sb">della</W>
 <W id="437" msd="NOM" tag="NOM" in="" out="">Conferenza</W>
 <W id="438" msd="PRE" tag="PRE" in="" out="">di</W>
-<W id="439" msd="NPR" tag="NPR" in="" out="">Helsinki</W>
+<W id="439" msd="NPR" tag="NPR" in="-210:coref-iden" out="256:coref-iden">Helsinki</W>
 <W id="440" msd="PON" tag="PON" in="" out="">,</W>
 <W id="441" msd="NOM" tag="NOM" in="" out="">era</W>
 <W id="442" msd="ADJ" tag="ADJ" in="" out="">chiusa</W>
@@ -588,11 +588,11 @@
 <W id="587" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">cambiare</W>
 <W id="588" msd="ADV" tag="ADV" in="" out="">molto</W>
 <W id="589" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
-<W id="590" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-4:coref" out="">nostra</W>
+<W id="590" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-4:coref" out="4:coref">nostra</W>
 <W id="591" msd="NOM" tag="NOM" in="" out="">vita</W>
 <W id="592" msd="PON" tag="PON" in="" out="">,</W>
 <W id="593" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">della</W>
-<W id="594" msd="PRO&3a;poss" tag="PRO&3a;poss" in="" out="4:coref">nostra</W>
+<W id="594" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-4:coref" out="4:coref">nostra</W>
 <W id="595" msd="NOM" tag="NOM" in="" out="">cultura</W>
 <W id="596" msd="PON" tag="PON" in="" out="">,</W>
 <W id="597" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">dei</W>
@@ -693,7 +693,7 @@
 <W id="692" msd="VER&3a;pres" tag="VER&3a;pres" in="-6:coref" out="31:coref">abbiamo</W>
 <W id="693" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">deciso</W>
 <W id="694" msd="PRE" tag="PRE" in="" out="">a</W>
-<W id="695" msd="NPR" tag="NPR" in="" out="">Helsinki</W>
+<W id="695" msd="NPR" tag="NPR" in="-256:coref-iden" out="">Helsinki</W>
 <W id="696" msd="VER&3a;futu" tag="VER&3a;futu" in="" out="">avrà</W>
 <W id="697" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">un'</W>
 <W id="698" msd="NOM" tag="NOM" in="" out="">importanza</W>

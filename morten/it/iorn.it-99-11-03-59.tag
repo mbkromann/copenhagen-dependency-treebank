@@ -102,7 +102,7 @@
 <W id="101" msd="VER&3a;pres" tag="VER&3a;pres" in="-58:coref" out="9:coref">sento</W>
 <W id="102" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">parlare</W>
 <W id="103" msd="PRE" tag="PRE" in="" out="">di</W>
-<W id="104" msd="NOM" tag="NOM" in="" out="26:coref-iden|4:assoc-formal">dialogo</W>
+<W id="104" msd="NOM" tag="NOM" in="" out="4:assoc-formal|26:coref-iden">dialogo</W>
 <W id="105" msd="ADJ" tag="ADJ" in="" out="">macroeconomico</W>
 <W id="106" msd="VER&3a;pper" tag="VER&3a;pper" in="" out="">posto</W>
 <W id="107" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
@@ -122,8 +122,8 @@
 <W id="121" msd="PRE" tag="PRE" in="" out="">in</W>
 <W id="122" msd="NPR" tag="NPR" in="" out="25:coref-iden">Italia</W>
 <W id="123" msd="SENT" tag="SENT" in="" out="">.</W>
-<W id="124" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="">Quello</W>
-<W id="125" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="124" msd="PRO&3a;demo" tag="PRO&3a;demo" in="" out="1:ref">Quello</W>
+<W id="125" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-1:ref" out="">che</W>
 <W id="126" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-11:coref" out="134:coref">io</W>
 <W id="127" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">temo</W>
 <W id="128" msd="NOM" tag="NOM" in="" out="">è</W>
@@ -276,7 +276,7 @@
 <W id="275" msd="ADJ" tag="ADJ" in="" out="">particolare</W>
 <W id="276" msd="PON" tag="PON" in="" out="">,</W>
 <W id="277" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
-<W id="278" msd="NOM" tag="NOM" in="" out="7:coref-ell|5:ref">legge</W>
+<W id="278" msd="NOM" tag="NOM" in="" out="5:ref|7:coref-ell">legge</W>
 <W id="279" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">sul</W>
 <W id="280" msd="NOM" tag="NOM" in="" out="">mercato</W>
 <W id="281" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">del</W>

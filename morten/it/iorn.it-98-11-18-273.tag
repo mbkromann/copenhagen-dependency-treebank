@@ -95,7 +95,7 @@
 <W id="94" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">sulla</W>
 <W id="95" msd="NOM" tag="NOM" in="" out="">contribuzione</W>
 <W id="96" msd="ADJ" tag="ADJ" in="" out="">netta</W>
-<W id="97" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="0:assoc-frame|3:assoc-loc">dei</W>
+<W id="97" msd="PRE&3a;det" tag="PRE&3a;det" in="0:assoc-frame" out="3:assoc-loc|0:assoc-frame">dei</W>
 <W id="98" msd="NOM" tag="NOM" in="" out="">paesi</W>
 <W id="99" msd="NOM" tag="NOM" in="" out="">membri</W>
 <W id="100" msd="PRE&3a;det" tag="PRE&3a;det" in="-3:assoc-loc" out="">al</W>

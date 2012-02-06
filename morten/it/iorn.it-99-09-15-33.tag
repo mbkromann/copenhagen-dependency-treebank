@@ -139,8 +139,8 @@
 <W id="138" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="139" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">un</W>
 <W id="140" msd="NOM" tag="NOM" in="" out="">mondo</W>
-<W id="141" msd="ADJ" tag="ADJ" in="" out="">circostante</W>
-<W id="142" msd="CON" tag="CON" in="" out="">che</W>
+<W id="141" msd="ADJ" tag="ADJ" in="" out="1:ref">circostante</W>
+<W id="142" msd="CON" tag="CON" in="-1:ref" out="">che</W>
 <W id="143" msd="ADJ" tag="ADJ" in="" out="">vive</W>
 <W id="144" msd="NOM" tag="NOM" in="" out="">nell</W>
 <W id="145" msd="PON" tag="PON" in="" out="">'</W>
@@ -181,11 +181,11 @@
 <W id="180" msd="NOM" tag="NOM" in="" out="">prassi</W>
 <W id="181" msd="PON" tag="PON" in="" out="">,</W>
 <W id="182" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">attuare</W>
-<W id="183" msd="NOM" tag="NOM" in="" out="">politiche</W>
+<W id="183" msd="NOM" tag="NOM" in="" out="4:ref">politiche</W>
 <W id="184" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="185" msd="NOM" tag="NOM" in="" out="">esclusione</W>
 <W id="186" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
-<W id="187" msd="VER&3a;cpre" tag="VER&3a;cpre" in="" out="">rafforzino</W>
+<W id="187" msd="VER&3a;cpre" tag="VER&3a;cpre" in="-4:ref" out="">rafforzino</W>
 <W id="188" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">nei</W>
 <W id="189" msd="NOM" tag="NOM" in="" out="">cittadini</W>
 <W id="190" msd="NOM" tag="NOM" in="-18:coref-var" out="53:coref-iden">dell</W>
@@ -318,7 +318,7 @@
 <W id="317" msd="CON" tag="CON" in="" out="">E</W>
 <W id="318" msd="PON" tag="PON" in="" out="">'</W>
 <W id="319" msd="PRO&3a;demo" tag="PRO&3a;demo" in="-22:coref-res" out="">questa</W>
-<W id="320" msd="NOM" tag="NOM" in="" out="">strategia</W>
+<W id="320" msd="NOM" tag="NOM" in="" out="9:ref">strategia</W>
 <W id="321" msd="ADJ" tag="ADJ" in="" out="">neoliberista</W>
 <W id="322" msd="PON" tag="PON" in="" out="">,</W>
 <W id="323" msd="DET&3a;indef" tag="DET&3a;indef" in="" out="">una</W>
@@ -327,9 +327,9 @@
 <W id="326" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="327" msd="NOM" tag="NOM" in="" out="">esclusione</W>
 <W id="328" msd="PON" tag="PON" in="" out="">,</W>
-<W id="329" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
+<W id="329" msd="PRO&3a;rela" tag="PRO&3a;rela" in="-9:ref" out="">che</W>
 <W id="330" msd="PRO&3a;refl" tag="PRO&3a;refl" in="-112:coref" out="10:coref">ci</W>
-<W id="331" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">rende</W>
+<W id="331" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="14:coref-res">rende</W>
 <W id="332" msd="ADJ" tag="ADJ" in="" out="">scettici</W>
 <W id="333" msd="ADV" tag="ADV" in="" out="">anche</W>
 <W id="334" msd="PRE&3a;det" tag="PRE&3a;det" in="" out="">sul</W>
@@ -343,7 +343,7 @@
 <W id="342" msd="PRE" tag="PRE" in="" out="">a</W>
 <W id="343" msd="VER&3a;infi" tag="VER&3a;infi" in="" out="">sperare</W>
 <W id="344" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
-<W id="345" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
+<W id="345" msd="DET&3a;def" tag="DET&3a;def" in="-14:coref-res" out="">il</W>
 <W id="346" msd="PRO&3a;poss" tag="PRO&3a;poss" in="-6:coref" out="">nostro</W>
 <W id="347" msd="NOM" tag="NOM" in="" out="">scetticismo</W>
 <W id="348" msd="NOM" tag="NOM" in="" out="">sarà</W>

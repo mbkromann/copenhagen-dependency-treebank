@@ -46,7 +46,7 @@
 <W id="45" msd="NOM" tag="NOM" in="" out="">strada</W>
 <W id="46" msd="CON" tag="CON" in="" out="">e</W>
 <W id="47" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">mi</W>
-<W id="48" msd="VER&3a;pres" tag="VER&3a;pres" in="-17:coref" out="22:coref">chiedo</W>
+<W id="48" msd="VER&3a;pres" tag="VER&3a;pres" in="-17:coref" out="20:coref">chiedo</W>
 <W id="49" msd="PON" tag="PON" in="" out="">,</W>
 <W id="50" msd="ADV" tag="ADV" in="" out="">quindi</W>
 <W id="51" msd="PON" tag="PON" in="" out="">,</W>
@@ -66,9 +66,9 @@
 <W id="65" msd="ADJ" tag="ADJ" in="" out="">prossima</W>
 <W id="66" msd="NOM" tag="NOM" in="" out="">legislatura</W>
 <W id="67" msd="PON" tag="PON" in="" out="">-</W>
-<W id="68" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">io</W>
+<W id="68" msd="PRO&3a;pers" tag="PRO&3a;pers" in="-20:coref" out="32:coref">io</W>
 <W id="69" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">mi</W>
-<W id="70" msd="VER&3a;pres" tag="VER&3a;pres" in="-22:coref" out="30:coref">auguro</W>
+<W id="70" msd="VER&3a;pres" tag="VER&3a;pres" in="" out="">auguro</W>
 <W id="71" msd="PRE" tag="PRE" in="" out="">di</W>
 <W id="72" msd="NOM" tag="NOM" in="" out="">sì</W>
 <W id="73" msd="PON" tag="PON" in="" out="">-</W>
@@ -98,7 +98,7 @@
 <W id="97" msd="PON" tag="PON" in="" out="">,</W>
 <W id="98" msd="CON" tag="CON" in="" out="">ma</W>
 <W id="99" msd="PRO&3a;pers" tag="PRO&3a;pers" in="" out="">mi</W>
-<W id="100" msd="VER&3a;pres" tag="VER&3a;pres" in="-30:coref" out="48:coref">auguro</W>
+<W id="100" msd="VER&3a;pres" tag="VER&3a;pres" in="-32:coref" out="48:coref">auguro</W>
 <W id="101" msd="PRO&3a;rela" tag="PRO&3a;rela" in="" out="">che</W>
 <W id="102" msd="DET&3a;def" tag="DET&3a;def" in="" out="">il</W>
 <W id="103" msd="NOM" tag="NOM" in="" out="">termine</W>
