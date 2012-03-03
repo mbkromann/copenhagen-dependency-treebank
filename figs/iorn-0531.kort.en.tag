@@ -4,7 +4,7 @@
 <W id="3" msd="VAP" tag="VBN" in="-1:attr" out="">convicted</W>
 <W id="4" msd="NC=P" tag="NNS" in="-2:nobj" out="1:pobj">executives</W>
 <W id="5" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W id="6" msd="PD" tag="DT" in="-1:nobj" out="1:nobj|39:assoc-const|61:coref-var">the</W>
+<W id="6" msd="PD" tag="DT" in="-1:nobj" out="1:nobj|39:assoc-const|61:coref-iden.sb">the</W>
 <W id="7" msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr|2:nobj">July</W>
 <W id="8" msd="AC" tag="CD" in="-1:attr" out="">6</W>
 <W id="9" msd="NP=S" tag="NNP" in="-2:nobj" out="">Bank</W>
@@ -21,8 +21,8 @@
 <W id="20" msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr">Court</W>
 <W id="21" msd="SP" tag="IN" in="-11:man" out="1:nobj">with</W>
 <W id="22" msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
-<W id="23" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj">demand</W>
-<W id="24" msd="SP" tag="IN" in="-1:pobj&3a;dobj" out="1:nobj">for</W>
+<W id="23" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">demand</W>
+<W id="24" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W id="25" msd="NC=S" tag="NN" in="-1:nobj" out="">acquittal</W>
 <W id="26" msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
@@ -34,8 +34,8 @@
 <W id="33" msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W id="34" msd="VAP" tag="VBN" in="-2:vobj" out="-5:[subj]|1:dobj">reserved</W>
 <W id="35" msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
-<W id="36" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj&3a;subj">possibility</W>
-<W id="37" msd="SP" tag="IN" in="-1:pobj&3a;subj" out="1:nobj">of</W>
+<W id="36" msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">possibility</W>
+<W id="37" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W id="38" msd="NC=S" tag="NN" in="-1:nobj" out="">appeal</W>
 <W id="39" msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
@@ -65,7 +65,7 @@
 <W id="64" msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W id="67" msd="PD" tag="DT" in="-61:coref-var|3:subj" out="1:nobj">The</W>
+<W id="67" msd="PD" tag="DT" in="3:subj|-61:coref-iden.sb" out="1:nobj">The</W>
 <W id="68" msd="NC=P" tag="NNS" in="-1:nobj" out="1:possd">bank's</W>
 <W id="69" msd="NC=S" tag="NN" in="-1:possd" out="">director</W>
 <W id="70" msd="VADA" tag="VBD" in="-23:CONJ&3a;add/(and)" out="-3:subj|1:dobj|11:pnct">received</W>
