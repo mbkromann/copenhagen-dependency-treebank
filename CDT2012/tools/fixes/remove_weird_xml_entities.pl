@@ -16,6 +16,8 @@ foreach my $filename (grep {/$regexp_mask/} glob "$datadir/tag-format/*/*") {
         s/&amp;quot;/&quot;/g;
         s/&nbsp;/ /g;
         s/(&\w+)([^\w;])/$1;$2/g; # missing ';' in entity, e.g. ...&amp...
+        s/& amp ;/&amp;/g;
+        s/ & / &amp; /g;
     }
         $filename;
 }

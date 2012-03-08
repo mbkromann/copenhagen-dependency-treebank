@@ -26,7 +26,7 @@ my %pattern2score = (
 
     # tagged and auto seem to have the same value
     'tagged' => 1,
-    'auto' => 1,
+#    'auto' => -100, # auto files completely excluded, no annotation, wrong xml
 
 );
 
@@ -37,7 +37,7 @@ my %numbers;
 foreach my $lang_pair (@lang_pairs) {
     print STDERR "Processing files from language pair $lang_pair\n";
 
-    foreach my $tag_file (glob "$maindir/$lang_pair/????-$lang_pair*tag") {
+    foreach my $tag_file (grep {!/auto/} glob "$maindir/$lang_pair/????-$lang_pair*tag") {
         if ( $tag_file =~ /\/((\d{4})-$lang_pair.*)/ ) {
             my ($short_name,$number) = ($1,$2);
             $tag_files{$lang_pair}{$number}{$short_name} = 1;
@@ -65,10 +65,10 @@ foreach my $number (sort keys %numbers) {
 
 
         my $choice = shift @files || '';
-        if (defined $choice) {
-            #            my $command = "cp $maindir/$lang_pair/$choice ../../data/tag-format/$lang_pair";
-            #            print $command;
-            #            system $command;
+        if (defined $choice and (-s "$maindir/$lang_pair/$choice" != 151 ) { # .atag files with no annotation and wrong xml structure
+            my $command = "cp $maindir/$lang_pair/$choice ../../data/tag-format/$lang_pair";
+            print $command;
+            system $command;
         }
         print "  selected for $lang_pair: $choice\t".( @files ? (" ignored: ".(join " ",grep{$_ ne $choice}@files)) : '')."\n";
 
@@ -100,7 +100,7 @@ sub sort_files {
     }
 
 
-    my @files = sort {$score{$b} <=> $score{$a}} @$files_rf;
+    my @files = sort {$score{$b} <=> $score{$a}} grep {} @$files_rf;
 
     if (@files > 1 and $score{$files[0]} == $score{$files[1]}) {
         print STDERR "WARNING: same score:  $files[0] $files[1]\n";

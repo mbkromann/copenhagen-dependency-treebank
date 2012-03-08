@@ -11,6 +11,7 @@ my $regexp_mask = $ARGV[0] || '.';
 foreach my $filename (grep {/$regexp_mask/} glob "$datadir/tag-format/*/*tag") {
     edit_file {
         s/ (\w+)=([^"'\s\>]+)/ $1="$2"/g;
+        s/type="-=""/type=""/g;
     }
         $filename;
 }
