@@ -39,6 +39,27 @@ foreach my $number (sort keys %files) {
         my $zone = $bundle->create_zone($language);
         my $atree = $zone->create_atree;
         my $ord = 0;
+
+        my %sent_number;
+        my %para_number;
+
+        my $para_counter = 0;
+        foreach my $para ($tag_document->descendants('p')) {
+            $para_counter++;
+            foreach my $tag_token ($para->descendants('W')) {
+                $para_number{$tag_token} = $para_counter;
+            }
+        }
+
+        my $sent_counter = 0;
+        foreach my $sent ($tag_document->descendants('s')) {
+            $sent_counter++;
+            foreach my $tag_token ($sent->descendants('W')) {
+                $sent_number{$tag_token} = $sent_counter;
+            }
+        }
+
+
         foreach my $tag_token ($tag_document->descendants('W')) {
             $ord++;
             my $anode = $atree->create_child(
@@ -50,6 +71,8 @@ foreach my $number (sort keys %files) {
             foreach my $attr_name (keys %{$tag_token->{'att'}||{}}) {
                 $anode->wild->{$attr_name} = $tag_token->{'att'}->{$attr_name};
             }
+            $anode->wild->{para_number} = $para_number{$tag_token} || 0;
+            $anode->wild->{sent_number} = $sent_number{$tag_token} || 0;
         }
     }
 
