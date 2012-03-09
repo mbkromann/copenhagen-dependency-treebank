@@ -31,8 +31,19 @@ foreach my $number (sort keys %files) {
     my $bundle = $doc->create_bundle();
 
     foreach my $language (sort keys %{$files{$number}}) {
+
+        open my $TAG,"<:utf8", $files{$number}{$language};
+        my $file_content;
+        my $line_number = -1; # root element line seems not to be counted
+        while (<$TAG>) {
+            $line_number++;
+            s/<W /<W linenumber="$line_number" /;
+            $file_content .= $_;
+        }
+
         my $tag_document=XML::Twig->new();    # create the twig
-        $tag_document->parsefile( $files{$number}{$language});
+        $tag_document->parse( $file_content );
+
         my @sentences = $tag_document->descendants('s');
         print "  $language ".scalar(@sentences)."\n";
 
