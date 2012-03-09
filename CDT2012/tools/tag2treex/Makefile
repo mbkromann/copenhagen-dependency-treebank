@@ -2,7 +2,7 @@ test:	conv1 conv2
 
 
 conv1:
-	./tag2treex.pl ../../data/tag-format/??/0001*tag > tmp
+	./tag2treex.pl ../../data/tag-format/??/0001*tag  ../../data/tag-format/??-??/0001*atag > tmp
 
 conv2:
 	treex --save Misc::CopenhagenDT::BuildTreesFromOffsetIndices -- test.treex.gz

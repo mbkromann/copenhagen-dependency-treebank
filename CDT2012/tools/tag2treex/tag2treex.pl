@@ -14,8 +14,8 @@ my %files;
 
 foreach my $file (@ARGV) {
 
-    if ( $file !~ /(\d{4})-(da|en|es|it|de|ru)[\.\-]/ ) {
-        print "Warning: file name does not match mask: $file";
+    if ( $file !~ /(\d{4})-((da-)?(da|en|es|it|de|ru))[\.\-]/ ) {
+        print STDERR "Warning: file name does not match mask: $file";
     }
     else {
         my ($number,$language) = ($1,$2);
@@ -30,7 +30,7 @@ foreach my $number (sort keys %files) {
     my $doc = Treex::Core::Document->new();
     my $bundle = $doc->create_bundle();
 
-    foreach my $language (sort keys %{$files{$number}}) {
+    foreach my $language (sort grep {/^..$/} keys %{$files{$number}}) {
 
         open my $TAG,"<:utf8", $files{$number}{$language};
         my $file_content;
@@ -84,6 +84,25 @@ foreach my $number (sort keys %files) {
             }
             $anode->wild->{para_number} = $para_number{$tag_token} || 0;
             $anode->wild->{sent_number} = $sent_number{$tag_token} || 0;
+        }
+    }
+
+
+    foreach my $language_pair (sort grep {/-/} keys %{$files{$number}}) {
+
+        my ($danish,$second_language) = split /-/,$language_pair;
+
+        $bundle->wild->{$second_language} = [];
+
+        my $atag_document=XML::Twig->new();
+        $atag_document->parsefile( $files{$number}{$language_pair} );
+
+        foreach my $align_element ($atag_document->descendants('align')) {
+            my %attr_hash = ();
+            foreach my $attr_name (keys %{$align_element->{'att'}||{}}) {
+                $attr_hash{$attr_name} = $align_element->{'att'}->{$attr_name};
+            }
+            push @{$bundle->wild->{$second_language}}, \%attr_hash;
         }
     }
 
