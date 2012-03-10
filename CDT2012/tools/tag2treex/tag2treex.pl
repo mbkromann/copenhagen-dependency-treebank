@@ -106,7 +106,7 @@ foreach my $number (sort keys %files) {
         }
     }
 
-    $doc->save('test.treex.gz');
+    $doc->save("cdt${number}.treex.gz");
 }
 
 
