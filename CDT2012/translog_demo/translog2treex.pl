@@ -59,6 +59,9 @@ sub add_nodes {
                                     }
                                    );
         $node->set_id(old_id_to_new_id($w->{'att'}->{id},$language));
+        foreach my $attr_name (qw(cur space)) {
+            $node->wild->{$attr_name} = $w->{'att'}->{$attr_name};
+        }
     }
 }
 
