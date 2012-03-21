@@ -6,9 +6,7 @@ use warnings;
 use XML::Twig;
 use Treex::Core;
 
-
-
-foreach my $alignment_file (glob "sample/*atag.utf8") {
+foreach my $alignment_file (glob "data/*atag.utf8") {
 
     my $src_file = $alignment_file;
     $src_file =~ s/\.atag/.src/;
@@ -58,6 +56,7 @@ sub add_nodes {
                                         form => $w->text,
                                     }
                                    );
+        $node->set_conll_deprel('?');
         $node->set_id(old_id_to_new_id($w->{'att'}->{id},$language));
         foreach my $attr_name (qw(cur space)) {
             $node->wild->{$attr_name} = $w->{'att'}->{$attr_name};
