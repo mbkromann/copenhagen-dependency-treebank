@@ -16,6 +16,15 @@ totreex:
 segment:
 	treex --save Misc::Translog::SegmentSentences Misc::Translog::MergeSentencesByAlignment -- $(DIR)/*treex.gz
 
+parse:
+	treex --save tag_and_parse_en.scen -- parsed_sample/*treex.gz
+
+transform:
+	treex --save W2A::EN::RehangConllToPdtStyle \
+	Misc::Translog::PdtStyleToCdtStyle \
+	Misc::Translog::ProjectEdgesByAlignment \
+	Misc::Translog::ConllDeprelToCdtDeprel -- parsed_sample/*treex.gz
+
 
 clean:
 	rm $(DIR) -rf
