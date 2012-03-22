@@ -9,9 +9,9 @@ daen:
 	tar -xzf daen.tar.gz
 
 other:
-	ln ../../../it source_data/it -s
-	ln ../../../es source_data/es -s
-	ln ../../../de source_data/de -s
-	ln ../../../da-it source_data/da-it -s
-	ln ../../../da-es source_data/da-es -s
-	ln ../../../da-de source_data/da-de -s
+	ln ../../../it it -s
+	ln ../../../es es -s
+	ln ../../../de de -s
+	ln ../../../da-it da-it -s
+	ln ../../../da-es da-es -s
+	ln ../../../da-de da-de -s
