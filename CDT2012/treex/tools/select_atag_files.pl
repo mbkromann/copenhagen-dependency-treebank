@@ -103,15 +103,30 @@ foreach my $number (sort keys %numbers) {
                 }
             }
 
-            my $guessed_b_tag_file = $atag_filename;
-            $guessed_b_tag_file =~ s/da-//g;
-            $guessed_b_tag_file =~ s/\.atag/.tag/;
-            if (not -f $guessed_b_tag_file) {
-                print STDERR "Guessed b-file needed for $atag_filename doesn't exist: $guessed_b_tag_file\n";
+
+
+            my $pattern_for_b_files = $atag_filename;
+            $pattern_for_b_files =~ s/(da-..-)([^-.]+)/$1*/;
+            $pattern_for_b_files =~ s/da-//g;
+            $pattern_for_b_files =~ s/\.atag/.tag/;
+
+            my @guessed_b_tag_files =  grep {!/tagged|auto/} glob $pattern_for_b_files;
+
+            print STDERR "$pattern_for_b_files: ".(join ' ',@guessed_b_tag_files)."\n";
+            if (@guessed_b_tag_files == 0) {
+                print STDERR "NONE\n";
             }
-            else {
-                print STDERR "OK, guessed b-files exists: $guessed_b_tag_file\n";
-            }
+
+
+#            my $guessed_b_tag_file = $atag_filename;
+#            $guessed_b_tag_file =~ s/da-//g;
+#            $guessed_b_tag_file =~ s/\.atag/.tag/;
+#            if (not -f $guessed_b_tag_file) {
+#                print STDERR "Guessed b-file needed for $atag_filename doesn't exist: $guessed_b_tag_file\n";
+#            }
+#            else {
+#                print STDERR "OK, guessed b-files exists: $guessed_b_tag_file\n";
+#            }
 
         }
 
