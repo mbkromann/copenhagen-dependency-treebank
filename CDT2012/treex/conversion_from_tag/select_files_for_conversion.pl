@@ -3,7 +3,12 @@ use strict;
 use warnings;
 use CheckAlignment;
 
-my $source_dir = '../source_data';
+my ($source_dir,$out_dir) = @ARGV;
+
+if (not -d $source_dir) {
+    die "Directory with source files is expected as the first argument, but got $source_dir";
+}
+
 my @lang_pairs = qw(da-en da-de da-es da-it);
 
 my %atagpattern2score = (
