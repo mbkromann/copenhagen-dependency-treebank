@@ -38,7 +38,7 @@ select_clean:
 
 
 rawtreex:
-
+	ls $(SELECTED_SOURCE_DIR)/*tag | treex Read::CdtPack  from=- Write::Treex clobber=1
 
 
 # --------- STEP 4: changing to proper treex representation -------------------
