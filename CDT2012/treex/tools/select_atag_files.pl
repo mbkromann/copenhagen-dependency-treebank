@@ -1,14 +1,12 @@
 #!/usr/bin/perl
-
 use strict;
 use warnings;
+use CheckAlignment;
 
-my $source_dir = '../source_data/';
+my $source_dir = '../source_data';
 my @lang_pairs = qw(da-en da-de da-es da-it);
 
-use File::Slurp;
-
-my %pattern2score = (
+my %atagpattern2score = (
 
     'lisa' => 10,
     'lotte' => 9,
@@ -29,17 +27,43 @@ my %pattern2score = (
 
 );
 
+my %tagpattern2score = (
 
-my %tag_files;
+    # copied from the handwritten list of files to be preferred, written by Lotte
+    '0184-es-soren.tag' => 100,
+    '0187-es-jonas.tag' => 100,
+    '0307-es-jonas.tag' => 100,
+    '0502-es-soren.tag' => 100,
+    '0531-es-jonas.tag' => 100,
+    '0602-es-jonas.tag' => 100,
+    '0620-es-soren.tag' => 100,
+    '0781-es-jonas.tag' => 100,
+    '0863-es-soren.tag' => 100,
+
+    'lotte' => 10,
+    'morten' => 5,
+
+    # Lotte said that file names matching "lotte" should have higher prority than "disc-lotte", and the same holds for Mortnen's
+    'disc' => -2,
+
+    # tagged and auto seem to have the same value
+    'tagged' => 1,
+
+    # there is usually just one file for ru
+    'ru.tag' => 1,
+);
+
+
+my %atag_files;
 my %numbers;
 
 foreach my $lang_pair (@lang_pairs) {
     print STDERR "Processing files from language pair $lang_pair\n";
 
     foreach my $tag_file (grep {!/auto/} glob "$source_dir/$lang_pair/????-$lang_pair*tag") {
-        if ( $tag_file =~ /\/((\d{4})-$lang_pair.*)/ ) {
+        if ( $tag_file =~ /(.+(\d{4})-$lang_pair.*)/ ) {
             my ($short_name,$number) = ($1,$2);
-            $tag_files{$lang_pair}{$number}{$short_name} = 1;
+            $atag_files{$lang_pair}{$number}{$short_name} = 1;
             $numbers{$number} = 1;
         }
         else {
@@ -50,121 +74,163 @@ foreach my $lang_pair (@lang_pairs) {
 
 foreach my $number (sort keys %numbers) {
 
-    my $danish_file_pattern = "../../data/tag-format/da/$number*.tag";
+    print "number=$number\n";
 
-    my @da_tag_files = glob $danish_file_pattern;
-    print STDERR "Warning: missing Danish file for $danish_file_pattern\n"
-        if @da_tag_files == 0;
+    my $danish_file = "$source_dir/da/$number-da.tag";
+    if (-f $danish_file) {
+        print "    SELECTED tag file\t$danish_file\n";
+    }
+    else {
+        die "missing Danish file $danish_file\n";
+    }
 
-    print "number: $number\n";
+
     foreach my $lang_pair (@lang_pairs) {
-#        system "mkdir -p ../../data/tag-format/$lang_pair";
-        my @files = keys %{$tag_files{$lang_pair}{$number}||{}};
-        @files = sort_files(\@files);
+        print "  language_pair=$lang_pair\n";
 
-        my $choice = shift @files || '';
-#        if (defined $choice ){#and (-s "$source_dir/$lang_pair/$choice" != 151 ) { # .atag files with no annotation and wrong xml structure
-#            my $command = "cp $source_dir/$lang_pair/$choice ../../data/tag-format/$lang_pair";
-#            print $command;
-#            system $command;
-#        }
-        print "  selected for $lang_pair: $choice\t".( @files ? (" ignored: ".(join " ",grep{$_ ne $choice}@files)) : '')."\n";
+        my @atag_files = sort_atag_files( keys %{ $atag_files{$lang_pair}{$number} || {} } );
 
-        if ($choice) {
-            my $atag_filename = "$source_dir/$lang_pair/$choice";
-            my $atag_content = File::Slurp::read_file( $atag_filename ) or die $!;
-            my %tag_file;
+        if ( @atag_files == 0 ) { # no alignment available -> choose an unaligned file
+            my ($language) = reverse split /-/,$lang_pair;
+            choose_unaligned_tag($language,$number);
+        }
 
-            foreach my $direction (qw(a b)) {
+        else {
 
-                if ($atag_content =~ /<alignFile key="$direction" href="(.+)" sign="_input"\/>/) {
-                    my $tagfile = "$source_dir/$lang_pair/$1";
+            my $atag_winner = $atag_files[0];
 
-                    if (not -f $tagfile) {
-                        print STDERR "Warning: can't find $tagfile\n";
-                    }
-
-                    elsif ($tagfile =~ /(.+)tagged(.+)/) {
-                        my @other_files = map {s/.+\///;$_} grep {$_!~/tagged|auto/} glob "$1*$2";
-                        if (@other_files) {
-                            print  "     Warning:  manually annotated files exist besides referenced tagged file: ".
-                                join(' ', @other_files)."\n";
-                        }
-                    }
-
-                    elsif ($tagfile =~ /[^-]{3,}.tag/) {
-                        print STDERR "Other than tagged filed referred to from $tagfile : $choice\n";
-                    }
-
-
+            foreach my $atag_file (@atag_files) {
+                if ($atag_file eq $atag_winner) {
+                    print "    SELECTED atag";
                 }
                 else {
-                    print STDERR "Warning: can't find referenced tag file in $choice, direction $direction\n";
+                    print "    ignored atag";
                 }
+                print "\t",$atag_file,"\n";
             }
 
 
-
-            my $pattern_for_b_files = $atag_filename;
+            my $pattern_for_b_files = $atag_winner;
             $pattern_for_b_files =~ s/(da-..-)([^-.]+)/$1*/;
             $pattern_for_b_files =~ s/da-//g;
             $pattern_for_b_files =~ s/\.atag/.tag/;
 
-            my @guessed_b_tag_files =  grep {!/tagged|auto/} glob $pattern_for_b_files;
 
-            print STDERR "$pattern_for_b_files: ".(join ' ',@guessed_b_tag_files)."\n";
+
+            my @guessed_b_tag_files =  grep {!/auto/} glob $pattern_for_b_files;
+
             if (@guessed_b_tag_files == 0) {
-                print STDERR "NONE\n";
+                print STDERR "Error: no available .tag file matching the expected pattern\n";
             }
 
+            else {
+                my %good_alignments;
+                my %bad_alignments;
+                my %total_score;
+                foreach my $file (@guessed_b_tag_files) {
+                    ($good_alignments{$file},$bad_alignments{$file}) = CheckAlignment::check($atag_winner,$file);
+                    $total_score{$file} = $good_alignments{$file} + tag_file_score($file)/1000;
+                }
 
-#            my $guessed_b_tag_file = $atag_filename;
-#            $guessed_b_tag_file =~ s/da-//g;
-#            $guessed_b_tag_file =~ s/\.atag/.tag/;
-#            if (not -f $guessed_b_tag_file) {
-#                print STDERR "Guessed b-file needed for $atag_filename doesn't exist: $guessed_b_tag_file\n";
-#            }
-#            else {
-#                print STDERR "OK, guessed b-files exists: $guessed_b_tag_file\n";
-#            }
+                my @sorted_candidates = sort {$total_score{$b}<=>$total_score{$a}} keys %total_score;
+                foreach my $file (@sorted_candidates) {
+                    if ($file eq $sorted_candidates[0]) {
+                        print "      SELECTED tag file ";
+                    }
+                    else {
+                        print "      ignored tag file ";
+                    }
+                    print "(good:bad align=$good_alignments{$file}:$bad_alignments{$file}):\t$file\n"
 
+                }
+
+                if ($good_alignments{$sorted_candidates[0]} < $bad_alignments{$sorted_candidates[0]}) {
+                    print STDERR "Even the best tag file does not fit well the atag file\n";
+                }
+            }
         }
-
-
     }
     print "\n";
 }
 
 
+# ------------------------- scoring a-tag files ----------------------
+
 
 
 # how to choose a single .tag file from all available
-sub sort_files {
-    my ($files_rf) = @_;
-
-    my $max_score = 0;
-    my $choice;
+sub sort_atag_files {
+    my @files = @_;
 
     my %score;
 
-    foreach my $file (@$files_rf) {
-#        print "F$file ";
-        foreach my $pattern (keys %pattern2score) {
-#            print "$pattern";
+    foreach my $file (@files) {
+        $score{$file} = 0;
+        foreach my $pattern (keys %atagpattern2score) {
             if ($file =~ /$pattern/) {
-#                print "match $pattern\n";
-                $score{$file} += $pattern2score{$pattern};
+                $score{$file} += $atagpattern2score{$pattern};
             }
         }
     }
 
-
-    my @files = sort {$score{$b} <=> $score{$a}} @$files_rf;
+    @files = sort { $score{$b} <=> $score{$a} } @files;
 
     if (@files > 1 and $score{$files[0]} == $score{$files[1]}) {
-        print STDERR "WARNING: same score:  $files[0] $files[1]\n";
+        print STDERR "WARNING: same score:  $files[0] ($score{$files[0]}) $files[1]  ($score{$files[1]})\n";
     }
 
     return @files;
+}
 
+# ------------------------- scoring tag files ----------------------
+
+
+sub tag_file_score {
+    my ($file) = @_;
+
+    my $score = 0;
+    foreach my $pattern (keys %tagpattern2score) {
+        if ($file =~ /$pattern/) {
+            $score += $tagpattern2score{$pattern};
+        }
+    }
+    return $score;
+
+}
+
+
+# --------------------------
+
+sub choose_unaligned_tag {
+    my ($language,$number) = @_;
+
+    my @tag_candidates = grep {!/auto/} glob "$source_dir/$language/$number*.tag";
+    if (not @tag_candidates) {
+        print "      no tag file found for $language $number\n";
+        return undef;
+    }
+
+    else {
+        my %score;
+
+        foreach my $file (@tag_candidates) {
+            $score{$file} = tag_file_score($file);
+        }
+
+        my @sorted_candidates = sort {$score{$b}<=>$score{$a}} @tag_candidates;
+
+#        print "Unaligned: Chosen unaligned file: $sorted_candidates[0]\n";
+        foreach my $i (0..$#sorted_candidates) {
+            if ($i == 0) {
+                print "      SELECTED tag (unaligned):";
+            }
+            else {
+                print "      ignored unaligned tag (unaligned):";
+            }
+            print "\t".$sorted_candidates[$i]."\n";
+        }
+
+
+        return $sorted_candidates[0];
+    }
 }

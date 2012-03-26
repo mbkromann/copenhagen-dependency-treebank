@@ -47,7 +47,7 @@ sub check {
                     map {$b_line2sign[$_]} map {s/^b//;$_} split ' ',$attr{in};
 
                 if ($expected_sign ne $attr{insign}) {
-                    print "$attr{in} dtag: $expected_sign  atag: $attr{insign}\n";
+#                    print "$attr{in} dtag: $expected_sign  atag: $attr{insign}\n";
                     $bad_cnt++;
                 }
                 else {
