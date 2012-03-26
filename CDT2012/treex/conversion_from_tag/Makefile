@@ -1,9 +1,13 @@
 ALL_SOURCE_DIR=all_source_data
 SELECTED_SOURCE_DIR=selected_source_data
 SELECTION=selection.log
+TREEX_DIR=generated_treex
 
 help:
 	@echo type 'make daen other' to collect all annotated data in this dir
+
+
+clean_all: prepare_clean select_clean rawtreex_clean
 
 
 #---------- STEP 1: preparation of source data --------------
@@ -13,14 +17,14 @@ help:
 prepare:
 	mkdir -p $(ALL_SOURCE_DIR)
 	tar -xzf daen.tar.gz -C  $(ALL_SOURCE_DIR)
-	ln ../../../it  $(ALL_SOURCE_DIR)/it -s
-	ln ../../../es  $(ALL_SOURCE_DIR)/es -s
-	ln ../../../de  $(ALL_SOURCE_DIR)/de -s
-	ln ../../../da-it  $(ALL_SOURCE_DIR)/da-it -s
-	ln ../../../da-es  $(ALL_SOURCE_DIR)/da-es -s
-	ln ../../../da-de  $(ALL_SOURCE_DIR)/da-de -s
+	ln ../../../../it  $(ALL_SOURCE_DIR)/it -s
+	ln ../../../../es  $(ALL_SOURCE_DIR)/es -s
+	ln ../../../../de  $(ALL_SOURCE_DIR)/de -s
+	ln ../../../../da-it  $(ALL_SOURCE_DIR)/da-it -s
+	ln ../../../../da-es  $(ALL_SOURCE_DIR)/da-es -s
+	ln ../../../../da-de  $(ALL_SOURCE_DIR)/da-de -s
 
-prepare_clean:
+clean_prepare:
 	rm -rf ./$(ALL_SOURCE_DIR)
 
 #---------- STEP 2: selection of files for conversion --------------
@@ -30,7 +34,7 @@ select:
 	mkdir -p $(SELECTED_SOURCE_DIR)
 	cat $(SELECTION) | cut -f2 -s | ./create_symlinks_to_selected_files.pl $(SELECTED_SOURCE_DIR) > symlinks.log
 
-select_clean:
+clean_select:
 	rm $(SELECTION)
 	rm -rf ./$(SELECTED_SOURCE_DIR)
 
@@ -38,7 +42,11 @@ select_clean:
 
 
 rawtreex:
-	ls $(SELECTED_SOURCE_DIR)/*tag | treex Read::CdtPack  from=- Write::Treex clobber=1
+	mkdir -p $(TREEX_DIR)
+	ls $(SELECTED_SOURCE_DIR)/*tag | treex Read::CdtPack from=- Util::Eval document="\$$doc->set_path(qw($(TREEX_DIR)))" Write::Treex clobber=1
+
+clean_rawtreex:
+	rm -rf ./$(TREEX_DIR)
 
 
 # --------- STEP 4: changing to proper treex representation -------------------
