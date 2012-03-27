@@ -41,9 +41,9 @@ clean_select:
 # --------- STEP 3: raw conversion to treex -------------------
 
 
-rawtreex: # 863 is bad
+rawtreex:
 	mkdir -p $(TREEX_DIR)
-	ls $(SELECTED_SOURCE_DIR)/093*tag | \
+	ls $(SELECTED_SOURCE_DIR)/*tag | \
 	treex Read::CdtPack from=- Util::Eval document="\$$doc->set_path(qw($(TREEX_DIR)))" \
 	Write::Treex clobber=1 storable=1
 

@@ -56,6 +56,7 @@ my %tagpattern2score = (
 
     # there is usually just one file for ru
     'ru.tag' => 1,
+
 );
 
 
@@ -65,7 +66,11 @@ my %numbers;
 foreach my $lang_pair (@lang_pairs) {
     print STDERR "Processing files from language pair $lang_pair\n";
 
+  FILE:
     foreach my $tag_file (grep {!/auto/} glob "$source_dir/$lang_pair/????-$lang_pair*tag") {
+
+        next FILE if $tag_file =~ /0863-da-it-morten/; # files ignored because of wrong encoding
+
         if ( $tag_file =~ /(.+(\d{4})-$lang_pair.*)/ ) {
             my ($short_name,$number) = ($1,$2);
             $atag_files{$lang_pair}{$number}{$short_name} = 1;
@@ -88,7 +93,6 @@ foreach my $number (sort keys %numbers) {
     else {
         die "missing Danish file $danish_file\n";
     }
-
 
     foreach my $lang_pair (@lang_pairs) {
         print "  language_pair=$lang_pair\n";
@@ -114,15 +118,13 @@ foreach my $number (sort keys %numbers) {
                 print "\t",$atag_file,"\n";
             }
 
-
             my $pattern_for_b_files = $atag_winner;
             $pattern_for_b_files =~ s/(da-..-)([^-.]+)/$1*/;
             $pattern_for_b_files =~ s/da-//g;
             $pattern_for_b_files =~ s/\.atag/.tag/;
 
-
-
-            my @guessed_b_tag_files =  grep {!/auto/} glob $pattern_for_b_files;
+            my @guessed_b_tag_files =  grep {!/0863-it-morten/} # ignored because of wrong encoding
+                grep {!/auto/} glob $pattern_for_b_files;
 
             if (@guessed_b_tag_files == 0) {
                 print STDERR "Error: no available .tag file matching the expected pattern\n";
@@ -209,7 +211,7 @@ sub tag_file_score {
 sub choose_unaligned_tag {
     my ($language,$number) = @_;
 
-    my @tag_candidates = grep {!/auto/} glob "$source_dir/$language/$number*.tag";
+    my @tag_candidates = grep {!/auto/} grep {!/0863-it-morten/} glob "$source_dir/$language/$number*.tag";
     if (not @tag_candidates) {
         print "      no tag file found for $language $number\n";
         return undef;
