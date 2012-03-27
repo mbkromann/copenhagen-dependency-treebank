@@ -43,7 +43,7 @@ clean_select:
 
 rawtreex:
 	mkdir -p $(TREEX_DIR)
-	ls $(SELECTED_SOURCE_DIR)/*tag | \
+	ls $(SELECTED_SOURCE_DIR)/1*tag | \
 	treex Read::CdtPack from=- Util::Eval document="\$$doc->set_path(qw($(TREEX_DIR)))" \
 	Write::Treex clobber=1 storable=1
 
