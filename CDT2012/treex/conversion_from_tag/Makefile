@@ -7,7 +7,7 @@ help:
 	@echo type 'make daen other' to collect all annotated data in this dir
 
 
-clean_all: prepare_clean select_clean rawtreex_clean
+clean_all: clean_prepare clean_select clean_rawtreex
 
 
 #---------- STEP 1: preparation of source data --------------
@@ -32,7 +32,7 @@ clean_prepare:
 select:
 	./select_files_for_conversion.pl $(ALL_SOURCE_DIR) > $(SELECTION)
 	mkdir -p $(SELECTED_SOURCE_DIR)
-	cat $(SELECTION) | cut -f2 -s | ./create_symlinks_to_selected_files.pl $(SELECTED_SOURCE_DIR) > symlinks.log
+	cat $(SELECTION) | grep SELECT | cut -f2 -s | ./create_symlinks_to_selected_files.pl $(SELECTED_SOURCE_DIR) > symlinks.log
 
 clean_select:
 	rm $(SELECTION)
@@ -41,12 +41,15 @@ clean_select:
 # --------- STEP 3: raw conversion to treex -------------------
 
 
-rawtreex:
+rawtreex: # 863 is bad
 	mkdir -p $(TREEX_DIR)
-	ls $(SELECTED_SOURCE_DIR)/*tag | treex Read::CdtPack from=- Util::Eval document="\$$doc->set_path(qw($(TREEX_DIR)))" Write::Treex clobber=1
+	ls $(SELECTED_SOURCE_DIR)/093*tag | \
+	treex Read::CdtPack from=- Util::Eval document="\$$doc->set_path(qw($(TREEX_DIR)))" \
+	Write::Treex clobber=1 storable=1
 
 clean_rawtreex:
 	rm -rf ./$(TREEX_DIR)
+	rm -rf dump*
 
 
 # --------- STEP 4: changing to proper treex representation -------------------
