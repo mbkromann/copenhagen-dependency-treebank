@@ -1,7 +1,8 @@
 ALL_SOURCE_DIR=all_source_data
 SELECTED_SOURCE_DIR=selected_source_data
 SELECTION=selection.log
-TREEX_DIR=generated_treex
+RAW_TREEX_DIR=generated_raw_treex
+FINE_TREEX_DIR=generated_fine_treex
 
 help:
 	@echo type 'make daen other' to collect all annotated data in this dir
@@ -42,9 +43,9 @@ clean_select:
 
 
 rawtreex:
-	mkdir -p $(TREEX_DIR)
+	mkdir -p $(RAW_TREEX_DIR)
 	ls $(SELECTED_SOURCE_DIR)/1*tag | \
-	treex Read::CdtPack from=- Util::Eval document="\$$doc->set_path(qw($(TREEX_DIR)))" \
+	treex Read::CdtPack from=- Util::Eval document="\$$doc->set_path(qw($(RAW_TREEX_DIR)))" \
 	Write::Treex clobber=1 storable=1
 
 clean_rawtreex:
@@ -55,10 +56,16 @@ clean_rawtreex:
 # --------- STEP 4: changing to proper treex representation -------------------
 
 finetreex:
-
-
-
-
+	mkdir -p $(FINE_TREEX_DIR)
+	treex \
+	Misc::CopenhagenDT::BuildTreesFromOffsetIndices \
+	Misc::CopenhagenDT::ReconstructAlignmentLinks \
+	Misc::CopenhagenDT::MoveDanishTreesToSeparateBundles \
+	Misc::CopenhagenDT::MoveTreesToDanishCounterpartIfSameNumber \
+	Misc::CopenhagenDT::MoveTreesToDanishCounterpartByAlignment \
+	Util::Eval document="\$$doc->set_path(qw($(FINE_TREEX_DIR)))" \
+	Write::Treex clobber=1 storable=0 \
+	-- $(RAW_TREEX_DIR)/cdt0001*.streex
 
 
 # ----------------------------------------------
