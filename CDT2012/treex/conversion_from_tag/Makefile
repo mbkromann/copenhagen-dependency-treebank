@@ -60,12 +60,15 @@ finetreex:
 	treex \
 	Misc::CopenhagenDT::BuildTreesFromOffsetIndices \
 	Misc::CopenhagenDT::ReconstructAlignmentLinks \
-	Misc::CopenhagenDT::MoveDanishTreesToSeparateBundles \
-	Misc::CopenhagenDT::MoveTreesToDanishCounterpartIfSameNumber \
-	Misc::CopenhagenDT::MoveTreesToDanishCounterpartByAlignment \
 	Util::Eval document="\$$doc->set_path(qw($(FINE_TREEX_DIR)))" \
 	Write::Treex clobber=1 storable=0 \
-	-- $(RAW_TREEX_DIR)/cdt0001*.streex
+	-- $(RAW_TREEX_DIR)/*.streex
+
+
+#	Misc::CopenhagenDT::ReconstructAlignmentLinks \
+#	Misc::CopenhagenDT::MoveDanishTreesToSeparateBundles \
+#	Misc::CopenhagenDT::MoveTreesToDanishCounterpartIfSameNumber \
+#	Misc::CopenhagenDT::MoveTreesToDanishCounterpartByAlignment \
 
 
 # ----------------------------------------------
