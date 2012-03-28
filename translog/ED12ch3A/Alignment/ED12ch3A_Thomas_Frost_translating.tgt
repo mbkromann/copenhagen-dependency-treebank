@@ -1,0 +1,100 @@
+<W btm="549" cur="0" lft="21" rgt="107" space="" top="516" in="20:conc" out="6:vobj">Selvom</W>
+<W btm="549" cur="7" lft="115" rgt="130" top="516" in="0:err" out="0:err">u</W>
+<W btm="549" cur="9" lft="140" rgt="204" top="516" in="4:subj|9:[subj]" out="">lande</W>
+<W btm="549" cur="15" lft="212" rgt="331" space="\0020" top="516" in="3:eval" out="1:other">forståeligt</W>
+<W btm="549" cur="27" lft="339" rgt="382" space="\0020" top="516" in="-1:other" out="">nok</W>
+<W btm="549" cur="31" lft="390" rgt="504" space="\0020" top="516" in="1:man" out="">modvilligt</W>
+<W btm="549" cur="42" lft="512" rgt="590" space="\0020" top="516" in="-6:vobj" out="-4:subj|-3:eval|-1:man|1:dobj|11:pobj|13:pnct">sætter</W>
+<W btm="549" cur="49" lft="598" rgt="663" space="\0020" top="516" in="-1:dobj|1:{arg}" out="1:possd">deres</W>
+<W btm="549" cur="55" lft="671" rgt="804" space="\0020" top="516" in="-1:possd" out="-1:{arg}|1:pobj|1:{arg}">muligheder</W>
+<W btm="549" cur="66" lft="812" rgt="846" space="\0020" top="516" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
+<W btm="549" cur="70" lft="854" rgt="877" space="\0020" top="516" in="-1:nobj" out="1:vobj">at</W>
+<W btm="549" cur="73" lft="885" rgt="944" space="\0020" top="516" in="-1:vobj" out="-9:[subj]|2:dobj|3:goal">opnå</W>
+<W btm="549" cur="78" lft="952" rgt="1020" space="\0020" top="516" in="1:attr" out="">bedre</W>
+<W btm="549" cur="84" lft="1028" rgt="1203" space="\0020" top="516" in="-2:dobj" out="-1:attr">levestandarder</W>
+<W btm="549" cur="99" lft="1211" rgt="1245" space="\0020" top="516" in="-3:goal" out="1:nobj">for</W>
+<W btm="582" cur="103" lft="21" rgt="50" space="\0020" top="549" in="-1:nobj" out="1:attr">de</W>
+<W btm="582" cur="106" lft="58" rgt="134" space="\0020" top="549" in="-1:attr" out="">fattige</W>
+<W btm="582" cur="114" lft="142" rgt="171" space="\0020" top="549" in="-11:pobj" out="1:nobj">på</W>
+<W btm="582" cur="117" lft="179" rgt="218" space="\0020" top="549" in="-1:nobj" out="">spil</W>
+<W cur="121" in="-13:pnct" out="">,</W>
+<W btm="582" cur="123" lft="234" rgt="330" space="\0020" top="549" in="" out="-20:conc|1:subj|6:neg|7:dobj|12:pnct">behøver</W>
+<W btm="582" cur="131" lft="338" rgt="439" space="\0020" top="549" in="-1:subj|7:[subj]" out="1:attr|1:{goal}">handling</W>
+<W btm="582" cur="140" lft="447" rgt="453" space="\0020" top="549" in="-1:attr|-1:{goal}" out="1:nobj">i</W>
+<W btm="582" cur="142" lft="461" rgt="592" space="\0020" top="549" in="-1:nobj" out="1:pobj.pobj|1:{patient}">forbindelse</W>
+<W btm="582" cur="154" lft="600" rgt="652" space="\0020" top="549" in="-1:pobj.pobj|-1:{patient}" out="1:nobj">med</W>
+<W btm="582" cur="158" lft="660" rgt="846" space="\0020" top="549" in="-1:nobj" out="">klimaændringer</W>
+<W btm="582" cur="173" lft="854" rgt="900" space="\0020" top="549" in="-6:neg" out="">ikke</W>
+<W btm="582" cur="178" lft="908" rgt="931" space="\0020" top="549" in="-7:dobj" out="1:vobj">at</W>
+<W btm="582" cur="181" lft="939" rgt="987" space="\0020" top="549" in="-1:vobj" out="-7:[subj]|1:dobj">true</W>
+<W btm="582" cur="186" lft="995" rgt="1039" space="\0020" top="549" in="-1:dobj" out="2:nobj">den</W>
+<W btm="582" cur="190" lft="1047" rgt="1188" space="\0020" top="549" in="1:attr" out="">økonomiske</W>
+<W btm="615" cur="201" lft="21" rgt="125" space="\0020" top="582" in="-2:nobj" out="-1:attr">udvikling</W>
+<W cur="210" in="-12:pnct" out="">.</W>
+<W btm="615" cur="212" lft="141" rgt="159" top="582" in="0:err" out="0:err">U</W>
+<W btm="615" cur="214" lft="169" rgt="233" top="582" in="1:subj|2:[subj]|5:[subj]|12:[subj]" out="">lande</W>
+<W btm="615" cur="220" lft="241" rgt="286" space="\0020" top="582" in="" out="-1:subj|1:vobj|14:pnct|15:ref|17:relelab|26:pnct">skal</W>
+<W btm="615" cur="225" lft="294" rgt="422" space="\0020" top="582" in="-1:vobj" out="-2:[subj]|1:pobj">opmuntres</W>
+<W btm="615" cur="235" lft="430" rgt="451" space="\0020" top="582" in="-1:pobj" out="1:nobj">til</W>
+<W btm="615" cur="239" lft="459" rgt="482" space="\0020" top="582" in="-1:nobj" out="1:vobj">at</W>
+<W btm="615" cur="242" lft="490" rgt="542" space="\0020" top="582" in="-1:vobj" out="-5:[subj]|1:dobj|5:goal">tage</W>
+<W btm="615" cur="247" lft="550" rgt="588" space="\0020" top="582" in="-1:dobj" out="1:attr|3:nobj">det</W>
+<W btm="615" cur="251" lft="596" rgt="668" space="\0020" top="582" in="-1:attr" out="1:attr">ekstra</W>
+<W btm="615" cur="258" lft="676" rgt="760" space="\0020" top="582" in="-1:attr" out="">grønne</W>
+<W btm="615" cur="265" lft="768" rgt="833" space="\0020" top="582" in="-3:nobj" out="">skridt</W>
+<W btm="615" cur="272" lft="841" rgt="862" space="\0020" top="582" in="-5:goal" out="1:nobj">til</W>
+<W btm="615" cur="276" lft="870" rgt="893" space="\0020" top="582" in="-1:nobj" out="1:vobj">at</W>
+<W btm="615" cur="279" lft="901" rgt="985" space="\0020" top="582" in="-1:vobj" out="2:dobj|-12:[subj]">indføre</W>
+<W btm="615" cur="287" lft="993" rgt="1120" space="\0020" top="582" in="1:attr" out="">miljøvenlig</W>
+<W btm="615" cur="299" lft="1128" rgt="1236" space="\0020" top="582" in="-2:dobj" out="-1:attr">teknologi</W>
+<W cur="308" in="-14:pnct" out="">,</W>
+<W btm="648" cur="310" lft="21" rgt="97" space="\0020" top="615" in="-15:ref|2:subj|3:[subj]|7:[subj]" out="">hvilket</W>
+<W btm="648" cur="318" lft="105" rgt="161" space="\0020" top="615" in="1:add" out="">også</W>
+<W btm="648" cur="323" lft="169" rgt="241" space="\0020" top="615" in="-17:relelab" out="-2:subj|-1:add|1:vobj">kunne</W>
+<W btm="648" cur="329" lft="249" rgt="331" space="\0020" top="615" in="-1:vobj" out="-3:[subj]|1:part|2:pobj">hjælpe</W>
+<W btm="648" cur="336" lft="339" rgt="360" space="\0020" top="615" in="-1:part" out="">til</W>
+<W btm="648" cur="340" lft="368" rgt="420" space="\0020" top="615" in="-2:pobj" out="1:nobj">med</W>
+<W btm="648" cur="344" lft="428" rgt="451" space="\0020" top="615" in="-1:nobj" out="1:vobj">at</W>
+<W btm="648" cur="347" lft="459" rgt="570" space="\0020" top="615" in="-1:vobj" out="-7:[subj]|1:dobj">minimere</W>
+<W btm="648" cur="356" lft="578" rgt="694" space="\0020" top="615" in="-1:dobj" out="1:pobj|1:{arg}">udledning</W>
+<W btm="648" cur="366" lft="702" rgt="735" space="\0020" top="615" in="-1:pobj|-1:{arg}" out="1:nobj">fra</W>
+<W btm="648" cur="370" lft="743" rgt="901" space="\0020" top="615" in="-1:nobj" out="">skovfældning</W>
+<W cur="382" in="-26:pnct" out="">.</W>
+<W btm="648" cur="384" lft="917" rgt="985" space="\0020" top="615" in="6:subj|1:{quant}|7:[subj]" out="1:pobj">Nogle</W>
+<W btm="648" cur="390" lft="993" rgt="1016" space="\0020" top="615" in="-1:pobj" out="-1:{quant}|1:nobj">af</W>
+<W btm="648" cur="393" lft="1024" rgt="1117" space="\0020" top="615" in="-1:nobj|3:{loc}" out="2:attr|3:possd">verdens</W>
+<W btm="648" cur="401" lft="1125" rgt="1183" space="\0020" top="615" in="1:quant" out="">mest</W>
+<W btm="681" cur="406" lft="21" rgt="110" space="\0020" top="648" in="-2:attr" out="-1:quant">sårbare</W>
+<W btm="681" cur="414" lft="118" rgt="182" space="\0020" top="648" in="-3:possd" out="-3:{loc}">lande</W>
+<W btm="681" cur="420" lft="190" rgt="229" space="\0020" top="648" in="" out="-6:subj|1:vobj|5:pnct|8:conj">har</W>
+<W btm="681" cur="424" lft="237" rgt="335" space="\0020" top="648" in="-1:vobj" out="-7:[subj]|1:quant|2:pobj">bidraget</W>
+<W btm="681" cur="433" lft="343" rgt="423" space="\0020" top="648" in="-1:quant" out="">mindst</W>
+<W btm="681" cur="440" lft="431" rgt="452" space="\0020" top="648" in="-2:pobj" out="1:nobj">til</W>
+<W btm="681" cur="444" lft="460" rgt="646" space="\0020" top="648" in="-1:nobj" out="">klimaændringer</W>
+<W cur="458" in="-5:pnct" out="">,</W>
+<W btm="681" cur="460" lft="662" rgt="714" space="\0020" top="648" in="2:coord" out="">men</W>
+<W btm="681" cur="464" lft="722" rgt="751" space="\0020" top="648" in="1:subj" out="">de</W>
+<W btm="681" cur="467" lft="759" rgt="810" space="\0020" top="648" in="-8:conj" out="-2:coord|-1:subj|1:cause|2:pnct">lider</W>
+<W btm="681" cur="473" lft="818" rgt="926" space="\0020" top="648" in="-1:cause" out="">derunder</W>
+<W cur="481" in="-2:pnct" out="">.</W>
+<W btm="681" cur="483" lft="942" rgt="998" space="\0020" top="648" in="2:focal" out="">Især</W>
+<W btm="681" cur="488" lft="1006" rgt="1021" top="648" in="0:err" out="0:err">u</W>
+<W btm="681" cur="490" lft="1031" rgt="1095" top="648" in="1:subj|2:[subj]" out="-2:focal">lande</W>
+<W btm="681" cur="496" lft="1103" rgt="1148" space="\0020" top="648" in="" out="-1:subj|1:vobj|4:pnct">skal</W>
+<W btm="681" cur="501" lft="1156" rgt="1244" space="\0020" top="648" in="-1:vobj" out="-2:[subj]|1:robj|2:dobj">tilpasse</W>
+<W btm="714" cur="510" lft="21" rgt="54" space="\0020" top="681" in="-1:robj" out="">sig</W>
+<W btm="714" cur="514" lft="62" rgt="277" space="\0020" top="681" in="-2:dobj" out="">klimaændringerne</W>
+<W cur="530" in="-4:pnct" out="">.</W>
+<W btm="714" cur="532" lft="293" rgt="425" top="681" in="3:subj|8:[subj]" out="2:conj">Tilpasnings</W>
+<W btm="714" cur="545" lft="443" rgt="473" space="\0020" top="681" in="1:coord" out="">og</W>
+<W btm="714" cur="548" lft="481" rgt="664" space="\0020" top="681" in="-2:conj" out="-1:coord">reduktionstiltag</W>
+<W btm="714" cur="565" lft="672" rgt="696" space="\0020" top="681" in="" out="-3:subj|1:cause|2:preds|9:pnct">er</W>
+<W btm="714" cur="568" lft="704" rgt="777" space="\0020" top="681" in="-1:cause" out="">derfor</W>
+<W btm="714" cur="575" lft="785" rgt="839" space="\0020" top="681" in="-2:preds" out="1:pobj">nødt</W>
+<W btm="714" cur="580" lft="847" rgt="868" space="\0020" top="681" in="-1:pobj" out="1:nobj">til</W>
+<W btm="714" cur="584" lft="876" rgt="899" space="\0020" top="681" in="-1:nobj" out="1:vobj">at</W>
+<W btm="714" cur="587" lft="907" rgt="936" space="\0020" top="681" in="-1:vobj" out="-8:[subj]|1:man">gå</W>
+<W btm="714" cur="590" lft="944" rgt="1003" space="\0020" top="681" in="-1:man" out="1:other#">hånd</W>
+<W btm="714" cur="595" lft="1011" rgt="1017" space="\0020" top="681" in="-1:other#" out="1:nobj">i</W>
+<W btm="714" cur="597" lft="1025" rgt="1084" space="\0020" top="681" in="-1:nobj" out="">hånd</W>
+<W cur="601" in="-9:pnct" out="">.</W>

@@ -1,0 +1,98 @@
+<DTAGalign>
+<alignFile key="a" href="ED12ch3A_Sheila_Kitching_translating.src" sign="_input"/>
+<alignFile key="b" href="ED12ch3A_Sheila_Kitching_translating.tgt" sign="_input"/>
+<align out="a0" type="" in="b0 b1" creator="0" insign="Selv om" outsign="Although"/>
+<align out="a1 a2" type="" in="b2 b3" creator="0" insign="u lande" outsign="developing countries"/>
+<align out="a4" type="" in="b4 b5" creator="0" insign="forståeligt nok" outsign="understandably"/>
+<align out="a3 a5" type="" in="b6 b7" creator="0" insign="tøver med" outsign="are reluctant"/>
+<align out="a6 a7" type="" in="b8 b9 b10 b11 b12" creator="0" insign="at gå på kompromis med" outsign="to compromise"/>
+<align out="a8" type="" in="b13" creator="0" insign="deres" outsign="their"/>
+<align out="a9" type="" in="b14" creator="0" insign="chancer" outsign="chances"/>
+<align out="a10" type="" in="b15" creator="0" insign="for" outsign="of"/>
+<align out="a11 a12" type="" in="b16 b17" creator="0" insign="at forbedre" outsign="achieving better"/>
+<align out="a13 a14 a15" type="" in="b18" creator="0" insign="levestandarden" outsign="standards of living"/>
+<align out="a16" type="" in="b19" creator="0" insign="for" outsign="for"/>
+<align out="a17" type="" in="b20" creator="0" insign="de" outsign="the"/>
+<align out="a18" type="" in="b21" creator="0" insign="fattige" outsign="poor"/>
+<align out="a24" type="" in="b22" creator="0" insign="behøver" outsign="need"/>
+<align out="a20" type="" in="b23" creator="0" insign="kampen" outsign="action"/>
+<align out="a21" type="" in="b24" creator="0" insign="mod" outsign="on"/>
+<align out="a22 a23" type="" in="b25" creator="0" insign="klimaforandringer" outsign="climate change"/>
+<align out="a25" type="" in="b26" creator="0" insign="ikke" outsign="not"/>
+<align out="a26" type="" in="b27 b28" creator="0" insign="at true" outsign="threaten"/>
+<align out="a27" type="" in="b29 b30" creator="0" insign="den økonomiske" outsign="economic"/>
+<align out="a28" type="" in="b31" creator="0" insign="udvikling" outsign="development"/>
+<align out="a30" type="" in="b36" creator="0" insign="incitamenter" outsign="Incentives"/>
+<align out="b33" type="" in="b33" creator="0" insign="Der" outsign="Der"/>
+<align out="a31" type="" in="b34" creator="0" insign="skal" outsign="must"/>
+<align out="a32 a33" type="" in="b35" creator="0" insign="tilbydes" outsign="be offered"/>
+<align out="a34" type="" in="b37" creator="0" insign="til" outsign="to"/>
+<align out="a36 a37" type="" in="b38 b39" creator="0" insign="u landene" outsign="developing countries"/>
+<align out="a35" type="" in="b40 b41 b42 b43" creator="0" insign="for at få dem" outsign="encourage"/>
+<align out="a38" type="" in="b44" creator="0" insign="til" outsign="to"/>
+<align out="a39" type="" in="b45" creator="0" insign="gå" outsign="go"/>
+<align out="a40" type="" in="b46" creator="0" insign="det" outsign="the"/>
+<align out="a41" type="" in="b47" creator="0" insign="ekstra" outsign="extra"/>
+<align out="a42" type="" in="b48" creator="0" insign="grønne" outsign="green"/>
+<align out="a43" type="" in="b49" creator="0" insign="skridt" outsign="mile"/>
+<align out="a44" type="" in="b50" creator="0" insign="og" outsign="and"/>
+<align out="a45" type="" in="b51" creator="0" insign="implementere" outsign="implement"/>
+<align out="a46" type="" in="b52" creator="0" insign="grønne" outsign="clean"/>
+<align out="a47" type="" in="b53" creator="0" insign="teknologier" outsign="technologies"/>
+<align out="a49" type="" in="b54" creator="0" insign="og" outsign="and"/>
+<align out="b55" type="" in="b55" creator="0" insign="disse" outsign="disse"/>
+<align out="a50" type="" in="b56" creator="0" insign="kunne" outsign="could"/>
+<align out="a51" type="" in="b57" creator="0" insign="også" outsign="also"/>
+<align out="a52" type="" in="b58" creator="0" insign="hjælpe" outsign="help"/>
+<align out="a52" type="" in="b59" creator="0" insign="til" outsign="help"/>
+<align out="a53" type="" in="b60 b61" creator="0" insign="at minimere" outsign="minimise"/>
+<align out="a54" type="" in="b62" creator="0" insign="udledninger" outsign="emissions"/>
+<align out="a55" type="" in="b63" creator="0" insign="fra" outsign="from"/>
+<align out="a56" type="" in="b64" creator="0" insign="skovafbrænding" outsign="deforestation"/>
+<align out="a58" type="" in="b66" creator="0" insign="Nogle" outsign="Some"/>
+<align out="a59" type="" in="b67" creator="0" insign="af" outsign="of"/>
+<align out="a60" type="" in="b68" creator="0" insign="de" outsign="the"/>
+<align out="a61" type="" in="b69" creator="0" insign="mest" outsign="most"/>
+<align out="a62" type="" in="b70" creator="0" insign="sårbare" outsign="vulnerable"/>
+<align out="a63" type="" in="b71" creator="0" insign="lande" outsign="countries"/>
+<align out="a64" type="" in="b72" creator="0" insign="i" outsign="of"/>
+<align out="a65 a66" type="" in="b73" creator="0" insign="verden" outsign="the world"/>
+<align out="a67" type="" in="b77" creator="0" insign="har" outsign="have"/>
+<align out="b74 b75 b76" type="" in="b74 b75 b76" creator="0" insign="er dem der" outsign="er dem der"/>
+<align out="a68" type="" in="b78" creator="0" insign="bidraget" outsign="contributed"/>
+<align out="a69 a70" type="" in="b79" creator="0" insign="mindst" outsign="the least"/>
+<align out="a71" type="" in="b80" creator="0" insign="til" outsign="to"/>
+<align out="a72 a73" type="" in="b81" creator="0" insign="klimaforandringerne" outsign="climate change"/>
+<align out="a75" type="" in="b82" creator="0" insign="men" outsign="but"/>
+<align out="a76" type="" in="b83 b84 b85 b86" creator="0" insign="det er dem der" outsign="are"/>
+<align out="a77 a78 a79 a80" type="" in="b87 b88" creator="0" insign="lider under" outsign="bearing the brunt of"/>
+<align out="a81" type="" in="b89" creator="0" insign="disse" outsign="it"/>
+<align out="a86 a87" type="" in="b91" creator="0" insign="Især" outsign="in particular"/>
+<align out="a83 a84" type="" in="b92 b93" creator="0" insign="u lande" outsign="Developing countries"/>
+<align out="a89" type="" in="b94 b95 b96" creator="0" insign="er nødt til" outsign="need"/>
+<align out="a90" type="" in="b97" creator="0" insign="at" outsign="to"/>
+<align out="a91" type="" in="b98 b99" creator="0" insign="tilpasse sig" outsign="adapt"/>
+<align out="a92" type="" in="b100" creator="0" insign="til" outsign="to"/>
+<align out="a93 a94" type="" in="b101" creator="0" insign="effekterne" outsign="the effects"/>
+<align out="a95" type="" in="b102" creator="0" insign="af" outsign="of"/>
+<align out="a96 a97" type="" in="b103" creator="0" insign="klimaforandringerne" outsign="climate change"/>
+<align out="a102" type="" in="b105" creator="0" insign="Anstrengelserne" outsign="efforts"/>
+<align out="a99 a100 a101" type="" in="b106 b107 b108 b109" creator="0" insign="for at tilpasse sig" outsign="Adaptation and mitigation"/>
+<align out="b110 b111" type="" in="b110 b111" creator="0" insign="til klimaforandringerne" outsign="til klimaforandringerne"/>
+<align out="a103" type="" in="b112" creator="0" insign="må" outsign="must"/>
+<align out="a104" type="" in="b113" creator="0" insign="derfor" outsign="therefore"/>
+<align out="a105" type="" in="b114" creator="0" insign="gå" outsign="go"/>
+<align out="a106" type="" in="b115" creator="0" insign="hånd" outsign="hand"/>
+<align out="a107" type="" in="b116" creator="0" insign="i" outsign="in"/>
+<align out="a108" type="" in="b117" creator="0" insign="hånd" outsign="hand"/>
+<align out="a19" type="" in="a19" creator="0" insign="," outsign=","/>
+<align out="a29" type="" in="b32" creator="0" insign="." outsign="."/>
+<align out="a48" type="" in="a48" creator="0" insign="," outsign=","/>
+<align out="a57" type="" in="b65" creator="0" insign="." outsign="."/>
+<align out="a74" type="" in="a74" creator="0" insign="," outsign=","/>
+<align out="a82" type="" in="b90" creator="0" insign="." outsign="."/>
+<align out="a85" type="" in="a85" creator="0" insign="," outsign=","/>
+<align out="a88" type="" in="a88" creator="0" insign="," outsign=","/>
+<align out="a98" type="" in="b104" creator="0" insign="." outsign="."/>
+<align out="a109" type="" in="b118" creator="0" insign="." outsign="."/>
+</DTAGalign>
