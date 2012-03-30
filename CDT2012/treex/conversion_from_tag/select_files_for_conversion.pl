@@ -3,6 +3,8 @@ use strict;
 use warnings;
 use CheckAlignment;
 
+use File::Slurp;
+
 my ($source_dir,$out_dir) = @ARGV;
 
 if (not -d $source_dir) {
@@ -147,7 +149,7 @@ foreach my $number (sort keys %numbers) {
                     else {
                         print "      ignored tag file ";
                     }
-                    print "(good:bad align=$good_alignments{$file}:$bad_alignments{$file}):\t$file\n"
+                    print "(good:bad align=$good_alignments{$file}:$bad_alignments{$file},score=$total_score{$file}):\t$file\n"
 
                 }
 
@@ -201,6 +203,12 @@ sub tag_file_score {
             $score += $tagpattern2score{$pattern};
         }
     }
+
+    my $text = read_file( $file );
+    my $links = $text =~ s/ in="[^"]+"//g;
+#    print STDERR "links: $links\n";
+    $score += $links;
+
     return $score;
 
 }
