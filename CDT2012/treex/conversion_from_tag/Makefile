@@ -67,6 +67,8 @@ finetreex:
 	Misc::CopenhagenDT::SentSegmByTagS \
 	Misc::CopenhagenDT::MoveDanishTreesToSeparateBundles \
 	Misc::CopenhagenDT::MoveTreesToDanishCounterpartByAlignment \
+	Misc::CopenhagenDT::MoveTreesToDanishCounterpartBySizeSimilarity \
+	Misc::CopenhagenDT::DeleteFirstBundle \
 	Util::Eval document="\$$doc->set_path(qw($(FINE_TREEX_DIR)))" \
 	Write::Treex clobber=1 storable=0 \
 	-- $(RAW_TREEX_DIR)/*.streex
