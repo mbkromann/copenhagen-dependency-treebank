@@ -71,6 +71,8 @@ foreach my $lang_pair (@lang_pairs) {
   FILE:
     foreach my $tag_file (grep {!/auto/} glob "$source_dir/$lang_pair/????-$lang_pair*tag") {
 
+        next FILE if -s $tag_file == 151; # empty atag file, even if named by an annotator
+
         next FILE if $tag_file =~ /0863-da-it-morten/; # files ignored because of wrong encoding
 
         if ( $tag_file =~ /(.+(\d{4})-$lang_pair.*)/ ) {
