@@ -78,6 +78,7 @@ finetreex:
 	Misc::CopenhagenDT::MoveTreesToDanishCounterpartBySizeSimilarity \
 	Misc::CopenhagenDT::FixLonelyNodes \
 	Misc::CopenhagenDT::DeleteFirstBundle \
+	Misc::CopenhagenDT::FlattenUnannotatedTrees \
 	Util::Eval document="\$$doc->set_path(qw($(FINE_TREEX_DIR)))" \
 	Write::Treex clobber=1 storable=0 \
 	-- $(RAW_TREEX_DIR)/*.streex
