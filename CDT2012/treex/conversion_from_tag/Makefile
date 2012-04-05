@@ -39,7 +39,7 @@ clean_prepare:
 #---------- STEP 2: selection of files for conversion --------------
 
 select:
-	@echo ------------ Step 2: Preparation ---------------
+	@echo ------------ Step 2: Selection ---------------
 	./select_files_for_conversion.pl $(ALL_SOURCE_DIR) > $(SELECTION)
 	mkdir -p $(SELECTED_SOURCE_DIR)
 	cat $(SELECTION) | grep SELECT | cut -f2 -s | ./create_symlinks_to_selected_files.pl $(SELECTED_SOURCE_DIR) > symlinks.log
