@@ -6,7 +6,7 @@ FINE_TREEX_DIR=fine_treex
 MAIN_LOG=all.log
 
 help:
-	@echo Type 'make all' to run the whole CDT->Treex conversion
+	@echo 'Type "make all" to run the whole CDT->Treex conversion'
 
 
 clean_all: clean_prepare clean_select clean_rawtreex clean_finetreex
