@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileName>C:\Users\michael\Dropbox\IndiaTrans\projects\T2.project</FileName>
+  <Description>example project description</Description>
+  <versionString />
+  <useSourceText>true</useSourceText>
+  <promptSubjectName>false</promptSubjectName>
+  <syncEnabled>false</syncEnabled>
+  <broadcastEnabled>true</broadcastEnabled>
+  <udpIP />
+  <udpPort>18193</udpPort>
+  <signalInterval>10</signalInterval>
+  <useExtendedTranslations>false</useExtendedTranslations>
+  <showTimer>false</showTimer>
+  <maxWindow>false</maxWindow>
+  <ChineseKeys>false</ChineseKeys>
+  <fullScreen>false</fullScreen>
+  <lockWindows>false</lockWindows>
+  <Plugins>
+    <Key_Logger />
+    <EyeSampler />
+  </Plugins>
+  <Interface>
+    <Standard>
+      <pluginDependances />
+      <Settings>
+        <TargetBackgroundColor RGB="-1" />
+        <SourceBackgroundColor RGB="-1" />
+        <lineHeight source="1" target="1" />
+        <SourceText>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fswiss\fprq2\fcharset128 Tahoma;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fswiss\fprq2\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\ltrpar\nowidctlpar\sl360\slmult1\lang1023\f0\fs34 Families hit with increase in cost of living\f1\fs24\par
+\f0\fs34 British families have to cough up an extra \f2\'a3\f0 31,300 a year as food and fuel prices soar at their fastest rate in 17 years. Prices in supermarkets have climbed at an alarming rate over the past year. Analysts have warned that prices will increase further still, making it hard for the Bank of England to cut interest rates as it struggles to keep inflation and the economy under control. To make matters worse, escalating prices are racing ahead of salary increases, especially those of nurses and other healthcare professionals, who have suffered from the \lang1033 government's\lang1023  insistence that those in the public sector have to receive below-inflation salary increases. In addition to fuel and food, electricity bills are also soaring. Five out of the six largest suppliers have increased their customers' bills.\par
+}
+</SourceText>
+        <TargetText>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\nowidctlpar\sl360\slmult1\lang1081\f0\fs34\par
+}
+</TargetText>
+        <TranslationWindow X="-8" Y="-8" Width="1280" Height="1024" Split="450" STO="True" VHO="Horizontal" />
+      </Settings>
+      <SourceField X="2" Y="48" Width="1280" Height="450" />
+      <TargetField X="2" Y="502" Width="1280" Height="484" />
+    </Standard>
+  </Interface>
+</Project>

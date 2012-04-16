@@ -1,0 +1,124 @@
+<DTAGalign>
+<alignFile key="a" href="Lill_tekst_B.src" sign="_input"/>
+<alignFile key="b" href="Lill_tekst_B.tgt" sign="_input"/>
+<align out="a3" type="" in="b3" creator="0" insign="af" outsign="with"/>
+<align out="a5 a6 a7 a8" type="" in="b5" creator="0" insign="leveomkostninger" outsign="in cost of living"/>
+<align out="a2" type="" in="b2" creator="-1" insign="ramt" outsign="hit"/>
+<align out="a4" type="" in="b4" creator="-1" insign="ÃÂÃÂ¸gede" outsign="increase"/>
+<align out="a9" type="" in="b6" creator="-1" insign="Britiske" outsign="British"/>
+<align out="a13" type="" in="b9" creator="-1" insign="hoste" outsign="cough"/>
+<align out="a11 a12" type="" in="b8" creator="-1" insign="skal" outsign="have to"/>
+<align out="a14" type="" in="b10 b11" creator="-1" insign="op med" outsign="up"/>
+<align out="a19" type="" in="b15" creator="-1" insign="om" outsign="a"/>
+<align out="a20" type="" in="b16" creator="-1" insign="ÃÂÃÂ¥ret" outsign="year"/>
+<align out="a1" type="" in="b1" creator="-1" insign="Familier" outsign="Families"/>
+<align out="a10" type="" in="b7" creator="-1" insign="familier" outsign="families"/>
+<align out="a21" type="" in="b17" creator="0" insign="fordi" outsign="as"/>
+<align out="a34" type="" in="b34" creator="0" insign="." outsign="."/>
+<align out="a22" type="" in="b20" creator="-1" insign="mad" outsign="food"/>
+<align out="a24" type="" in="b22" creator="-1" insign="brÃÂÃÂ¦ndstof" outsign="fuel"/>
+<align out="a26" type="" in="b23" creator="-1" insign="stiger" outsign="soar"/>
+<align out="a33" type="" in="b33" creator="-1" insign="ÃÂÃÂ¥r" outsign="years"/>
+<align out="a32" type="" in="b32" creator="-1" insign="17" outsign="17"/>
+<align out="a23" type="" in="b21" creator="-1" insign="og" outsign="and"/>
+<align out="a25" type="" in="b18 b19" creator="-1" insign="priserne pÃÂÃÂ¥" outsign="prices"/>
+<align out="a36" type="" in="b41" creator="0" insign="i" outsign="in"/>
+<align out="a42" type="" in="b46" creator="0" insign="skrÃÂÃÂ¦mmende" outsign="alarming"/>
+<align out="a48" type="" in="b48" creator="0" insign="." outsign="."/>
+<align out="a40" type="" in="b44" creator="0" insign="med" outsign="at"/>
+<align out="a47" type="" in="b38" creator="0" insign="ÃÂÃÂ¥r" outsign="year"/>
+<align out="a41" type="" in="b45" creator="-1" insign="en" outsign="an"/>
+<align out="a43" type="" in="b47" creator="-1" insign="hastighed" outsign="rate"/>
+<align out="a37" type="" in="b42" creator="-1" insign="supermarkederne" outsign="supermarkets"/>
+<align out="a35" type="" in="b40" creator="-1" insign="priserne" outsign="Prices"/>
+<align out="a62" type="" in="b62" creator="0" insign="for" outsign="for"/>
+<align out="a63" type="" in="b63" creator="0" insign="den" outsign="the"/>
+<align out="a67" type="" in="b66" creator="0" insign="at" outsign="to"/>
+<align out="a68" type="" in="b67 b69" creator="0" insign="sÃÂÃÂ¦tte ned" outsign="cut"/>
+<align out="a71" type="" in="b70" creator="0" insign="da" outsign="as"/>
+<align out="a61" type="" in="b61" creator="-1" insign="svÃÂÃÂ¦rt" outsign="hard"/>
+<align out="a64 a65 a66" type="" in="b64 b65" creator="-1" insign="engelske centralbank" outsign="Bank of England"/>
+<align out="a69 a70" type="" in="b68" creator="-1" insign="renten" outsign="interest rates"/>
+<align out="a60" type="" in="b60" creator="-1" insign="det" outsign="it"/>
+<align out="a78 a79" type="" in="b81" creator="0" insign="ÃÂÃÂ¸konomien" outsign="the economy"/>
+<align out="b82" type="" in="b82" creator="0" insign="i" outsign="i"/>
+<align out="b83" type="" in="b83" creator="0" insign="det" outsign="det"/>
+<align out="b84" type="" in="b84" creator="0" insign="hele" outsign="hele"/>
+<align out="b85" type="" in="b85" creator="0" insign="taget" outsign="taget"/>
+<align out="a82" type="" in="b86" creator="0" insign="." outsign="."/>
+<align out="a85" type="" in="b87 b88" creator="0" insign="Det hele" outsign="matters"/>
+<align out="a76" type="" in="b79" creator="-1" insign="inflationen" outsign="inflation"/>
+<align out="a77" type="" in="b80" creator="-1" insign="og" outsign="and"/>
+<align out="a87" type="" in="b94" creator="-1" insign="at" outsign=","/>
+<align out="a93" type="" in="b104" creator="0" insign="end" outsign="of"/>
+<align out="a94 a95" type="" in="b105" creator="-1" insign="lÃÂÃÂ¸nstigningerne" outsign="salary increases"/>
+<align out="a102" type="" in="b113" creator="-1" insign="andre" outsign="other"/>
+<align out="a101" type="" in="b112" creator="-1" insign="og" outsign="and"/>
+<align out="a124 a125" type="" in="b131" creator="0" insign="lÃÂÃÂ¸nstigninger" outsign="salary increases"/>
+<align out="a123" type="" in="b132 b133 b134 b135" creator="0" insign="der ligger under inflationstakten" outsign="below-inflation"/>
+<align out="a126" type="" in="b136" creator="0" insign="." outsign="."/>
+<align out="a107" type="" in="b118" creator="-1" insign="har" outsign="have"/>
+<align out="a108" type="" in="b119" creator="-1" insign="lidt" outsign="suffered"/>
+<align out="a109" type="" in="b120" creator="-1" insign="under" outsign="from"/>
+<align out="a133" type="" in="b142" creator="0" insign="," outsign=","/>
+<align out="a136 a138" type="" in="b143 b146" creator="0" insign="stiger kraftigt" outsign="are soaring"/>
+<align out="a139" type="" in="b147" creator="0" insign="." outsign="."/>
+<align out="a141" type="" in="b149" creator="0" insign="ud" outsign="out"/>
+<align out="a142" type="" in="b150" creator="0" insign="af" outsign="of"/>
+<align out="a143 a144" type="" in="b151 b152 b153" creator="0" insign="seks af de" outsign="the six"/>
+<align out="a146" type="" in="b155" creator="0" insign="elleverandÃÂÃÂ¸rer" outsign="suppliers"/>
+<align out="a127 a128 a129" type="" in="b137 b138" creator="-1" insign="Ud over" outsign="In addition to"/>
+<align out="a130" type="" in="b139" creator="-1" insign="brÃÂÃÂ¦ndstof" outsign="fuel"/>
+<align out="a131" type="" in="b140" creator="-1" insign="og" outsign="and"/>
+<align out="a132" type="" in="b141" creator="-1" insign="mad" outsign="food"/>
+<align out="a140" type="" in="b148" creator="-1" insign="Fem" outsign="Five"/>
+<align out="a145" type="" in="b154" creator="-1" insign="stÃÂÃÂ¸rste" outsign="largest"/>
+<align out="a134 a135" type="" in="b144" creator="-1" insign="elektricitetsregningerne" outsign="electricity bills"/>
+<align out="a137" type="" in="b145" creator="-1" insign="ogsÃÂÃÂ¥" outsign="also"/>
+<align out="a148" type="" in="b157" creator="-1" insign="hÃÂÃÂ¦vet" outsign="increased"/>
+<align out="a147" type="" in="b156" creator="-1" insign="har" outsign="have"/>
+<align out="a152" type="?" in="b159" creator="-1" insign="." outsign="."/>
+<align out="a17" type="" in="b12" creator="0" insign="ÃÂÃÂ£" outsign="ÃÂÃÂÃÂÃÂ£"/>
+<align out="a18" type="" in="b13" creator="0" insign="1.300" outsign="31,300"/>
+<align out="a27 a28 a29 a30" type="f" in="b24 b25 b26 b27 b28 b29" creator="0" insign="hurtigere end det har vÃÂÃÂ¦ret tilfÃÂÃÂ¦ldet" outsign="at their fastest rate"/>
+<align out="a44" type="" in="b35" creator="0" insign="I" outsign="over"/>
+<align out="a45" type="" in="b36" creator="0" insign="det" outsign="the"/>
+<align out="a46" type="" in="b37" creator="0" insign="sidste" outsign="past"/>
+<align out="a38 a39" type="" in="b39 b43" creator="0" insign="er steget" outsign="have climbed"/>
+<align out="a49" type="" in="b50" creator="0" insign="analytikere" outsign="Analysts"/>
+<align out="a50 a51" type="f" in="b49" creator="0" insign="IfÃÂÃÂ¸lge" outsign="have warned"/>
+<align out="a52 a53 a54 a55 a56 a57" type="f" in="b51 b52 b53 b54 b55" creator="0" insign="er det ikke slut endnu" outsign="that prices will increase further still"/>
+<align out="a58" type="" in="a58" creator="0" insign="," outsign=","/>
+<align out="b56" type="" in="b56" creator="0" insign="." outsign="."/>
+<align out="a59" type="" in="b59" creator="0" insign="gÃÂÃÂ¸r" outsign="making"/>
+<align out="b57 b58" type="" in="b57 b58" creator="0" insign="Denne situation" outsign="Denne situation"/>
+<align out="a72" type="f" in="b71" creator="0" insign="centralbanken" outsign="it"/>
+<align out="a73 a74" type="f" in="b72 b73 b74" creator="0" insign="skal sÃÂÃÂ¸rge for" outsign="struggles to"/>
+<align out="a83 a84 a86" type="f" in="b89 b90 b91 b92 b93" creator="0" insign="bliver endnu mere problematisk af" outsign="To make worse"/>
+<align out="a88 a89" type="f" in="b95 b96 b97" creator="0" insign="de lÃÂÃÂ¸bske prisstigninger" outsign="escalating prices"/>
+<align out="a90 a91 a92" type="f" in="b98 b99 b100 b101 b102 b103" creator="0" insign="ligger pÃÂÃÂ¥ et langt hÃÂÃÂ¸jere niveau" outsign="are racing ahead"/>
+<align out="a96" type="" in="a96" creator="0" insign="," outsign=","/>
+<align out="b106" type="" in="b106" creator="0" insign="." outsign="."/>
+<align out="a97" type="" in="b109" creator="0" insign="isÃÂÃÂ¦r" outsign="especially"/>
+<align out="b107 b108" type="" in="b107 b108" creator="0" insign="Dette gÃÂÃÂ¦lder" outsign="Dette gÃÂÃÂ¦lder"/>
+<align out="a98 a99" type="f" in="b110" creator="0" insign="for" outsign="those of"/>
+<align out="a100" type="" in="b111" creator="0" insign="sygeplejersker" outsign="nurses"/>
+<align out="a104" type="f" in="b114" creator="0" insign="ansatte" outsign="professionals"/>
+<align out="b115" type="" in="b115" creator="0" insign="i" outsign="i"/>
+<align out="a103" type="f" in="b116" creator="0" insign="sundhedssektoren" outsign="healthcare"/>
+<align out="a105" type="" in="a105" creator="0" insign="," outsign=","/>
+<align out="a106" type="" in="b117" creator="0" insign="der" outsign="who"/>
+<align out="a110 a111 a112" type="" in="b121" creator="0" insign="regeringens" outsign="the government s"/>
+<align out="a113" type="" in="b122 b123" creator="0" insign="krav om" outsign="insistence"/>
+<align out="a114" type="" in="b124" creator="0" insign="at" outsign="that"/>
+<align out="a115 a116 a117 a118 a119" type="f" in="b125 b126 b127" creator="0" insign="de offentligt ansatte" outsign="those in the public sector"/>
+<align out="a120 a121 a122" type="f" in="b128 b129 b130" creator="0" insign="kun kan forvente" outsign="have to receive"/>
+<align out="a151" type="f" in="b158" creator="0" insign="priserne" outsign="bills"/>
+<align out="a149 a150" type="" in="a149 a150" creator="0" insign="their customers'" outsign="their customers'"/>
+<align out="a15" type="" in="a15" creator="0" insign="an" outsign="an"/>
+<align out="a16" type="" in="b14" creator="0" insign="mere" outsign="extra"/>
+<align out="a16" type="f" in="b14" creator="0" insign="mere" outsign="extra"/>
+<align out="a31" type="" in="a31" creator="0" insign="in" outsign="in"/>
+<align out="b30 b31" type="" in="b30 b31" creator="0" insign="de sidste" outsign="de sidste"/>
+<align out="a75 a80 a81" type="" in="b75 b76 b77 b78" creator="0" insign="at holde styr pÃÂÃÂ¥" outsign="keep under control"/>
+</DTAGalign>

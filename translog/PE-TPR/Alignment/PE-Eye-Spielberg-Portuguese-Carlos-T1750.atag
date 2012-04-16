@@ -2,15 +2,15 @@
 <alignFile key="a" href="PE-Eye-Spielberg-Portuguese-Carlos-T1750.src" sign="_input"/>
 <alignFile key="b" href="PE-Eye-Spielberg-Portuguese-Carlos-T1750.tgt" sign="_input"/>
 <align out="a11" type="" in="b13" creator="0" insign="certamente" outsign="sure"/>
-<align out="a12 a13" type="" in="b12 b14" creator="0" insign="que sacudirá" outsign="to rattle"/>
+<align out="a12 a13" type="" in="b12 b14" creator="0" insign="que sacudirÃ¡" outsign="to rattle"/>
 <align out="a2" type="" in="b2" creator="-1" insign="mostra" outsign="shows"/>
-<align out="a5" type="" in="b3" creator="-1" insign="cartão" outsign="card"/>
+<align out="a5" type="" in="b3" creator="-1" insign="cartÃ£o" outsign="card"/>
 <align out="a6" type="" in="b7" creator="-1" insign="sobre" outsign="over"/>
 <align out="a9" type="" in="b10" creator="-1" insign="um" outsign="a"/>
 <align out="a10" type="" in="b11" creator="-1" insign="gesto" outsign="gesture"/>
 <align out="a4" type="" in="b4" creator="-1" insign="vermelho" outsign="red"/>
 <align out="a14" type="" in="b15" creator="-1" insign="o" outsign="the"/>
-<align out="a15" type="" in="b17" creator="-1" insign="chinês" outsign="Chinese"/>
+<align out="a15" type="" in="b17" creator="-1" insign="chinÃªs" outsign="Chinese"/>
 <align out="a7" type="" in="b8" creator="-1" insign="Darfur" outsign="Darfur"/>
 <align out="a8" type="" in="b9" creator="-1" insign="Em" outsign="In"/>
 <align out="a17" type="" in="b18" creator="-1" insign="," outsign=","/>
@@ -22,21 +22,21 @@
 <align out="a20 a21" type="" in="b21" creator="0" insign="retirou-se" outsign="pulled out"/>
 <align out="a22 a23" type="" in="b22" creator="0" insign="dos" outsign="of the"/>
 <align out="a24" type="" in="b25 b26" creator="0" insign="de Pequim" outsign="Beijing"/>
-<align out="a25" type="" in="b23 b24" creator="0" insign="Jogos Olímpicos" outsign="Olympics"/>
+<align out="a25" type="" in="b23 b24" creator="0" insign="Jogos OlÃ­mpicos" outsign="Olympics"/>
 <align out="a26 a27" type="" in="b27 b28" creator="0" insign="para protestar" outsign="to protest"/>
 <align out="a28" type="" in="b29" creator="0" insign="contra" outsign="against"/>
 <align out="a31" type="" in="b30 b31" creator="0" insign="o apoio" outsign="backing"/>
 <align out="a29 a30" type="" in="b32 b33" creator="0" insign="da China" outsign="China 's"/>
-<align out="a32" type="" in="b34" creator="0" insign="à" outsign="for"/>
-<align out="a35" type="" in="b35" creator="0" insign="política" outsign="policy"/>
-<align out="a33 a34" type="" in="b36 b37" creator="0" insign="do Sudão" outsign="Sudan 's"/>
+<align out="a32" type="" in="b34" creator="0" insign="Ã " outsign="for"/>
+<align out="a35" type="" in="b35" creator="0" insign="polÃ­tica" outsign="policy"/>
+<align out="a33 a34" type="" in="b36 b37" creator="0" insign="do SudÃ£o" outsign="Sudan 's"/>
 <align out="a36" type="" in="b38" creator="-1" insign="em" outsign="in"/>
 <align out="a38" type="" in="b40" creator="-1" insign="." outsign="."/>
 <align out="a37" type="" in="b39" creator="-1" insign="Darfur" outsign="Darfur"/>
 <align out="a39" type="" in="b41" creator="0" insign="Sua" outsign="His"/>
-<align out="a40" type="" in="b42" creator="0" insign="saída" outsign="withdrawal"/>
+<align out="a40" type="" in="b42" creator="0" insign="saÃ­da" outsign="withdrawal"/>
 <align out="a41" type="" in="b43" creator="0" insign="ocorre" outsign="comes"/>
-<align out="a42 a43 a44 a45 a46 a47 a48 a49" type="" in="b44 b45 b46 b47 b48 b49" creator="0" insign="depois da nova intensificação dos combates" outsign="in the wake of fighting flaring up again"/>
+<align out="a42 a43 a44 a45 a46 a47 a48 a49" type="" in="b44 b45 b46 b47 b48 b49" creator="0" insign="depois da nova intensificaÃ§Ã£o dos combates" outsign="in the wake of fighting flaring up again"/>
 <align out="a50" type="" in="b50" creator="-1" insign="em" outsign="in"/>
 <align out="a51" type="" in="b51" creator="-1" insign="Darfur" outsign="Darfur"/>
 <align out="a58" type="" in="b59" creator="-1" insign="," outsign=","/>
@@ -49,24 +49,24 @@
 <align out="a61" type="" in="b62" creator="0" insign="procurado" outsign="sought"/>
 <align out="a62 a63" type="" in="b63" creator="0" insign="evitar" outsign="to halt"/>
 <align out="a64" type="" in="b64" creator="0" insign="as" outsign="the"/>
-<align out="a66" type="" in="b65" creator="0" insign="consequências" outsign="fallout"/>
+<align out="a66" type="" in="b65" creator="0" insign="consequÃªncias" outsign="fallout"/>
 <align out="a65" type="" in="b66" creator="0" insign="negativas" outsign="negative"/>
 <align out="a67" type="" in="b67" creator="0" insign="de" outsign="from"/>
 <align out="a68 a69 a70" type="" in="b68 b69 b70" creator="0" insign="seu estreito envolvimento" outsign="having close ties"/>
 <align out="a71" type="" in="b71" creator="0" insign="com" outsign="to"/>
-<align out="a73" type="" in="b74" creator="0" insign="sudanês" outsign="Sudanese"/>
+<align out="a73" type="" in="b74" creator="0" insign="sudanÃªs" outsign="Sudanese"/>
 <align out="a77" type="" in="a77" creator="0" insign="," outsign=","/>
 <align out="a78" type="" in="a78" creator="0" insign="which" outsign="which"/>
 <align out="a80" type="" in="b79" creator="0" insign="grandes" outsign="extensive"/>
 <align out="a81" type="" in="b80" creator="0" insign="investimentos" outsign="investments"/>
 <align out="a82 a83" type="" in="b81" creator="0" insign="na" outsign="in the"/>
-<align out="a86" type="" in="b82" creator="0" insign="indústria" outsign="industry"/>
-<align out="a85" type="" in="b83" creator="0" insign="petrolífera" outsign="oil"/>
-<align out="a84" type="" in="b84 b85" creator="0" insign="do Sudão" outsign="Sudanese"/>
+<align out="a86" type="" in="b82" creator="0" insign="indÃºstria" outsign="industry"/>
+<align out="a85" type="" in="b83" creator="0" insign="petrolÃ­fera" outsign="oil"/>
+<align out="a84" type="" in="b84 b85" creator="0" insign="do SudÃ£o" outsign="Sudanese"/>
 <align out="a87" type="" in="a87" creator="0" insign="," outsign=","/>
 <align out="b86" type="" in="b86" creator="0" insign="e" outsign="e"/>
-<align out="a88" type="" in="b87" creator="0" insign="mantém" outsign="maintains"/>
-<align out="a90" type="" in="b88" creator="0" insign="laços" outsign="links"/>
+<align out="a88" type="" in="b87" creator="0" insign="mantÃ©m" outsign="maintains"/>
+<align out="a90" type="" in="b88" creator="0" insign="laÃ§os" outsign="links"/>
 <align out="a89" type="" in="b89" creator="0" insign="estreitos" outsign="close"/>
 <align out="a91" type="" in="b90" creator="0" insign="com" outsign="with"/>
 <align out="a79" type="" in="b78" creator="-1" insign="tem" outsign="has"/>
@@ -74,7 +74,7 @@
 <align out="a72" type="" in="b72" creator="-1" insign="o" outsign="the"/>
 <align out="a76" type="" in="b76 b77" creator="-1" insign="A China" outsign="China"/>
 <align out="a75" type="" in="b75" creator="-1" insign="." outsign="."/>
-<align out="a93" type="" in="b92 b93 b94" creator="0" insign="governo do país" outsign="Government"/>
+<align out="a93" type="" in="b92 b93 b94" creator="0" insign="governo do paÃ­s" outsign="Government"/>
 <align out="a96" type="" in="b97 b98" creator="0" insign="conta com" outsign="includes"/>
 <align out="a95" type="" in="b96" creator="-1" insign="que" outsign="which"/>
 <align out="a101" type="" in="b103" creator="-1" insign="crimes" outsign="crimes"/>

@@ -1,7 +1,8 @@
+<Text>
 <W btm="559" cur="0" lft="21" rgt="104" space="" top="526" in="20:conc" out="2:vobj">selvom</W>
 <W btm="559" cur="7" lft="112" rgt="321" space="\0020" top="526" in="1:subj" out="">udviklingslandene</W>
 <W btm="559" cur="25" lft="329" rgt="353" space="\0020" top="526" in="-2:vobj" out="-1:subj|2:preds|17:pnct">er</W>
-<W btm="559" cur="28" lft="361" note="word order &amp;quot;forståeligt er&amp;quot;" rgt="480" space="\0020" top="526" in="0:err" out="0:err">forståeligt</W>
+<W btm="559" cur="28" lft="361" note="word order &amp;quot;forstÃ¥eligt er&amp;quot;" rgt="480" space="\0020" top="526" in="0:err" out="0:err">forstÃ¥eligt</W>
 <W btm="559" cur="40" lft="488" rgt="676" space="\0020" top="526" in="-2:preds" out="">tilbageholdende</W>
 <W btm="559" cur="56" lft="684" rgt="705" space="\0020" top="526" in="0:err" out="0:err">til</W>
 <W btm="559" cur="60" lft="713" rgt="736" space="\0020" top="526" in="0:err" out="0:err">at</W>
@@ -10,21 +11,21 @@
 <W btm="559" cur="73" lft="849" note="spelling" rgt="934" space="\0020" top="526" in="0:err" out="0:err">sjanser</W>
 <W btm="559" cur="81" lft="942" rgt="976" space="\0020" top="526" in="0:err" out="1:nobj|0:err">for</W>
 <W btm="559" cur="85" lft="984" rgt="1007" space="\0020" top="526" in="-1:nobj" out="">at</W>
-<W btm="559" cur="88" lft="1015" rgt="1084" space="\0020" top="526" in="0:err" out="3:loc|0:err">opnår</W>
-<W btm="559" cur="94" lft="1092" rgt="1168" space="\0020" top="526" in="1:attr" out="">højere</W>
+<W btm="559" cur="88" lft="1015" rgt="1084" space="\0020" top="526" in="0:err" out="3:loc|0:err">opnÃ¥r</W>
+<W btm="559" cur="94" lft="1092" rgt="1168" space="\0020" top="526" in="1:attr" out="">hÃ¸jere</W>
 <W btm="592" cur="101" lft="21" rgt="190" space="\0020" top="559" in="0:err" out="-1:attr|0:err">levestandarter</W>
 <W btm="592" cur="116" lft="198" rgt="204" space="\0020" top="559" in="-3:loc" out="1:nobj">i</W>
 <W btm="592" cur="118" lft="212" rgt="241" space="\0020" top="559" in="-1:nobj" out="2:nobj">de</W>
 <W btm="592" cur="121" lft="249" rgt="325" space="\0020" top="559" in="1:attr" out="">fattige</W>
 <W btm="592" cur="129" lft="333" rgt="397" space="\0020" top="559" in="-2:nobj" out="-1:attr">lande</W>
 <W cur="134" in="-17:pnct" out="">,</W>
-<W btm="592" cur="136" lft="413" rgt="509" space="\0020" top="559" in="" out="-20:conc|1:subj|4:neg|8:pnct">behøver</W>
+<W btm="592" cur="136" lft="413" rgt="509" space="\0020" top="559" in="" out="-20:conc|1:subj|4:neg|8:pnct">behÃ¸ver</W>
 <W btm="592" cur="144" lft="517" rgt="618" space="\0020" top="559" in="-1:subj" out="1:attr|1:{goal}">handling</W>
-<W btm="592" cur="153" lft="626" rgt="761" space="\0020" top="559" in="-1:attr|-1:{goal}" out="1:nobj">vedrørende</W>
+<W btm="592" cur="153" lft="626" rgt="761" space="\0020" top="559" in="-1:attr|-1:{goal}" out="1:nobj">vedrÃ¸rende</W>
 <W btm="592" cur="164" lft="769" rgt="955" space="\0020" top="559" in="-1:nobj" out="">klimaforandring</W>
 <W btm="592" cur="180" lft="963" rgt="1009" space="\0020" top="559" in="-4:neg" out="">ikke</W>
 <W cur="185" space="\0020" in="0:err" out="0:err">...</W>
-<W btm="592" cur="189" lft="1049" rgt="1176" space="\0020" top="559" in="1:attr" out="1:err">økonomisk</W>
+<W btm="592" cur="189" lft="1049" rgt="1176" space="\0020" top="559" in="1:attr" out="1:err">Ã¸konomisk</W>
 <W btm="625" cur="199" lft="21" rgt="125" space="\0020" top="592" in="-1:err" out="-1:attr">udvikling</W>
 <W cur="208" in="-8:pnct" out="">.</W>
 <W btm="625" cur="210" lft="141" rgt="173" space="\0020" top="592" in="4:subj|5:[subj]" out="1:nobj|2:ref|3:relr">De</W>
@@ -47,8 +48,8 @@
 <W cur="332" in="-13:pnct" out="">,</W>
 <W btm="658" cur="334" lft="415" rgt="445" space="\0020" top="625" in="1:coord" out="">og</W>
 <W btm="658" cur="337" lft="453" rgt="525" space="\0020" top="625" in="-15:conj" out="-1:coord|1:add|2:vobj">kunne</W>
-<W btm="658" cur="343" lft="533" rgt="589" space="\0020" top="625" in="-1:add" out="">også</W>
-<W btm="658" cur="348" lft="597" rgt="679" space="\0020" top="625" in="-2:vobj" out="">hjælpe</W>
+<W btm="658" cur="343" lft="533" rgt="589" space="\0020" top="625" in="-1:add" out="">ogsÃ¥</W>
+<W btm="658" cur="348" lft="597" rgt="679" space="\0020" top="625" in="-2:vobj" out="">hjÃ¦lpe</W>
 <W btm="658" cur="355" lft="687" rgt="798" space="\0020" top="625" in="0:err" out="1:dobj|0:err">minimere</W>
 <W btm="658" cur="364" lft="806" rgt="933" space="\0020" top="625" in="-1:dobj" out="1:pobj|1:{arg}">emissioner</W>
 <W btm="658" cur="375" lft="941" rgt="974" space="\0020" top="625" in="-1:pobj|-1:{arg}" out="1:nobj">fra</W>
@@ -60,7 +61,7 @@
 <W btm="691" cur="405" lft="97" rgt="120" space="\0020" top="658" in="-1:pobj" out="-1:{quant}|1:nobj">af</W>
 <W btm="691" cur="408" lft="128" rgt="221" space="\0020" top="658" in="-1:nobj|3:{loc}" out="2:attr|3:possd">verdens</W>
 <W btm="691" cur="416" lft="229" rgt="287" space="\0020" top="658" in="1:quant" out="">mest</W>
-<W btm="691" cur="421" lft="295" rgt="384" space="\0020" top="658" in="-2:attr" out="-1:quant">sårbare</W>
+<W btm="691" cur="421" lft="295" rgt="384" space="\0020" top="658" in="-2:attr" out="-1:quant">sÃ¥rbare</W>
 <W btm="691" cur="429" lft="392" rgt="456" space="\0020" top="658" in="-3:possd" out="-3:{loc}">lande</W>
 <W btm="691" cur="435" lft="464" rgt="503" space="\0020" top="658" in="" out="-6:subj|1:vobj|5:pnct|7:conj">har</W>
 <W btm="691" cur="439" lft="511" rgt="609" space="\0020" top="658" in="-1:vobj" out="-7:[subj]|1:quant|2:pobj">bidraget</W>
@@ -69,9 +70,9 @@
 <W btm="691" cur="459" lft="734" rgt="910" space="\0020" top="658" in="-1:nobj" out="">klimaforanding</W>
 <W cur="473" in="-5:pnct" out="">,</W>
 <W btm="691" cur="475" lft="926" rgt="978" space="\0020" top="658" in="1:coord" out="">men</W>
-<W btm="691" cur="479" lft="986" rgt="1059" space="\0020" top="658" in="-7:conj" out="-1:coord">bærer</W>
+<W btm="691" cur="479" lft="986" rgt="1059" space="\0020" top="658" in="-7:conj" out="-1:coord">bÃ¦rer</W>
 <W cur="485" space="\0020" in="0:err" out="0:err">....</W>
-<W btm="691" cur="490" lft="1107" rgt="1163" space="\0020" top="658" in="1:focal" out="">Især</W>
+<W btm="691" cur="490" lft="1107" rgt="1163" space="\0020" top="658" in="1:focal" out="">IsÃ¦r</W>
 <W btm="724" cur="495" lft="21" rgt="230" space="\0020" top="691" in="1:subj|2:[subj]" out="-1:focal">udviklingslandene</W>
 <W btm="724" cur="513" lft="238" rgt="283" space="\0020" top="691" in="" out="-1:subj|1:vobj|8:pnct">skal</W>
 <W btm="724" cur="518" lft="291" rgt="379" space="\0020" top="691" in="-1:vobj" out="-2:[subj]|1:robj">tilpasse</W>
@@ -79,7 +80,7 @@
 <W btm="724" cur="531" lft="428" rgt="449" space="\0020" top="691" in="-1:pobj" out="1:nobj">til</W>
 <W btm="724" cur="535" lft="457" rgt="578" space="\0020" top="691" in="-1:nobj" out="">effekterne</W>
 <W btm="724" cur="546" lft="586" rgt="636" space="\0020" top="691" in="0:err" out="1:nobj|0:err">som</W>
-<W btm="724" cur="550" lft="644" rgt="703" space="\0020" top="691" in="-1:nobj" out="">følge</W>
+<W btm="724" cur="550" lft="644" rgt="703" space="\0020" top="691" in="-1:nobj" out="">fÃ¸lge</W>
 <W btm="724" cur="556" lft="711" rgt="897" space="\0020" top="691" in="0:err" out="0:err">klimaforandring</W>
 <W cur="571" in="-8:pnct" out="">.</W>
 <W btm="724" cur="573" lft="913" rgt="1033" space="\0020" top="691" in="3:subj" out="">Tilpasning</W>
@@ -87,8 +88,9 @@
 <W cur="587" space="\0020" in="0:err" out="-1:coord|0:err">...</W>
 <W btm="724" cur="591" lft="1111" rgt="1156" space="\0020" top="691" in="" out="-3:subj|1:cause|6:pnct">skal</W>
 <W btm="724" cur="596" lft="1164" rgt="1227" space="\0020" top="691" in="-1:cause" out="">defor</W>
-<W btm="757" cur="602" lft="21" rgt="60" space="\0020" top="724" in="0:err" out="1:man|0:err">går</W>
-<W btm="757" cur="606" lft="68" rgt="127" space="\0020" top="724" in="-1:man" out="1:attr|1:{other}#">hånd</W>
+<W btm="757" cur="602" lft="21" rgt="60" space="\0020" top="724" in="0:err" out="1:man|0:err">gÃ¥r</W>
+<W btm="757" cur="606" lft="68" rgt="127" space="\0020" top="724" in="-1:man" out="1:attr|1:{other}#">hÃ¥nd</W>
 <W btm="757" cur="611" lft="135" rgt="141" space="\0020" top="724" in="-1:attr|-1:{other}#" out="1:nobj">i</W>
-<W btm="757" cur="613" lft="149" rgt="208" space="\0020" top="724" in="-1:nobj" out="">hånd</W>
+<W btm="757" cur="613" lft="149" rgt="208" space="\0020" top="724" in="-1:nobj" out="">hÃ¥nd</W>
 <W cur="617" in="-6:pnct" out="">.</W>
+</Text>

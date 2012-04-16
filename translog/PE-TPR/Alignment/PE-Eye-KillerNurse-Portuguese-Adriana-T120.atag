@@ -10,7 +10,7 @@
 <align out="a15" type="" in="a15" creator="0" insign="today" outsign="today"/>
 <align out="a1" type="" in="b2" creator="-1" insign="assassino" outsign="Killer"/>
 <align out="a4" type="" in="b6" creator="-1" insign="quatro" outsign="four"/>
-<align out="a5 a6" type="" in="b7 b8 b9 b10" creator="-1" insign="penas de prisão perpétua" outsign="life sentences"/>
+<align out="a5 a6" type="" in="b7 b8 b9 b10" creator="-1" insign="penas de prisÃ£o perpÃ©tua" outsign="life sentences"/>
 <align out="a11" type="" in="b15" creator="-1" insign="foi" outsign="was"/>
 <align out="a9" type="" in="b13" creator="-1" insign="Colin" outsign="Colin"/>
 <align out="a10" type="" in="b14" creator="-1" insign="Norris" outsign="Norris"/>
@@ -45,7 +45,7 @@
 <align out="a51" type="" in="b60" creator="0" insign="culpado" outsign="guilty"/>
 <align out="a51 a52" type="" in="b60 b61" creator="0" insign="culpado em" outsign="guilty of"/>
 <align out="a56" type="" in="b65" creator="0" insign="assassinato" outsign="murder"/>
-<align out="a57" type="" in="b66" creator="0" insign="após" outsign="following"/>
+<align out="a57" type="" in="b66" creator="0" insign="apÃ³s" outsign="following"/>
 <align out="a58" type="" in="b67" creator="0" insign="uma" outsign="a"/>
 <align out="a59" type="" in="b68" creator="0" insign="longa" outsign="long"/>
 <align out="a60" type="" in="b69 b70 b71" creator="0" insign="sessao de julgamento" outsign="trial"/>
@@ -59,20 +59,20 @@
 <align out="a61" type="" in="b72" creator="-1" insign="." outsign="."/>
 <align out="a46" type="" in="b55" creator="-1" insign="Ontem" outsign="Yesterday"/>
 <align out="a48" type="" in="b57" creator="-1" insign="ele" outsign="he"/>
-<align out="a54" type="" in="b63" creator="-1" insign="acusações" outsign="counts"/>
+<align out="a54" type="" in="b63" creator="-1" insign="acusaÃ§Ãµes" outsign="counts"/>
 <align out="a62" type="" in="b73" creator="-1" insign="Ele" outsign="He"/>
 <align out="a69" type="" in="b83" creator="0" insign="uma" outsign="one"/>
 <align out="a70" type="" in="b84" creator="0" insign="por" outsign="for"/>
 <align out="a71" type="" in="b85" creator="0" insign="cada" outsign="each"/>
 <align out="a71" type="" in="b85 b86" creator="0" insign="cada um" outsign="each"/>
 <align out="a72 a73" type="" in="b87" creator="0" insign="dos" outsign="of the"/>
-<align out="a77 a78 a79" type="" in="b91 b92" creator="0" insign="terá de" outsign="will have to"/>
+<align out="a77 a78 a79" type="" in="b91 b92" creator="0" insign="terÃ¡ de" outsign="will have to"/>
 <align out="a80" type="" in="b93 b98 b99" creator="0" insign="permanecer na prisao" outsign="serve"/>
 <align out="a81" type="" in="b94" creator="0" insign="pelo" outsign="at"/>
 <align out="a82" type="" in="b95" creator="0" insign="menos" outsign="least"/>
 <align out="a84" type="" in="b97" creator="0" insign="anos" outsign="years"/>
 <align out="a85" type="" in="b100" creator="0" insign="." outsign="."/>
-<align out="a66 a67" type="" in="b78 b79 b80 b81" creator="-1" insign="penas de prisão perpétua" outsign="life sentences"/>
+<align out="a66 a67" type="" in="b78 b79 b80 b81" creator="-1" insign="penas de prisÃ£o perpÃ©tua" outsign="life sentences"/>
 <align out="a83" type="" in="b96" creator="-1" insign="30" outsign="30"/>
 <align out="a68" type="" in="b82" creator="-1" insign="," outsign=","/>
 <align out="a75" type="" in="b89" creator="-1" insign="." outsign="."/>
@@ -80,7 +80,7 @@
 <align out="a74" type="" in="b88" creator="-1" insign="assassinatos" outsign="killings"/>
 <align out="a101" type="" in="b118" creator="0" insign="apenas" outsign="Only"/>
 <align out="a105" type="" in="b120" creator="0" insign="outros" outsign="other"/>
-<align out="a107" type="" in="b121" creator="0" insign="funcionários" outsign="staff"/>
+<align out="a107" type="" in="b121" creator="0" insign="funcionÃ¡rios" outsign="staff"/>
 <align out="a106" type="" in="b122 b123" creator="0" insign="do hospital" outsign="hospital"/>
 <align out="a86 a87" type="" in="b101 b102" creator="0" insign="O policial" outsign="Police officer"/>
 <align out="a93 a94 a95 a96" type="" in="b108 b109 b110 b111 b112" creator="0" insign="tinha mostrado um comportamento estranho" outsign="had been acting strangely"/>
@@ -104,12 +104,12 @@
 <align out="a127" type="" in="b146" creator="-1" insign="assassinatos" outsign="killings"/>
 <align out="a117" type="" in="b138" creator="-1" insign="." outsign="."/>
 <align out="a118" type="" in="b139" creator="0" insign="A" outsign="The"/>
-<align out="a119" type="" in="b140" creator="0" insign="polícia" outsign="police"/>
+<align out="a119" type="" in="b140" creator="0" insign="polÃ­cia" outsign="police"/>
 <align out="a120 a121" type="" in="b141" creator="0" insign="descobriu" outsign="have learned"/>
 <align out="a123" type="" in="b143" creator="0" insign="o" outsign="the"/>
 <align out="a124" type="" in="b144" creator="0" insign="motivo" outsign="motive"/>
 <align out="a125 a126" type="" in="b145" creator="0" insign="dos" outsign="for the"/>
-<align out="a131" type="" in="b150 b151 b152" creator="0" insign="não gostava de" outsign="disliked"/>
+<align out="a131" type="" in="b150 b151 b152" creator="0" insign="nÃ£o gostava de" outsign="disliked"/>
 <align out="a134" type="" in="b156" creator="0" insign="idosas" outsign="old"/>
 <align out="a135" type="" in="b155" creator="0" insign="pessoas" outsign="people"/>
 <align out="a132" type="" in="b153" creator="0" insign="trabalhar" outsign="working"/>
@@ -129,7 +129,7 @@
 <align out="a144" type="" in="b165" creator="-1" insign="mulheres" outsign="women"/>
 <align out="a149 a150" type="" in="b173" creator="-1" insign="Todas" outsign="All of"/>
 <align out="a148" type="" in="b172" creator="-1" insign="." outsign="."/>
-<align out="a140" type="" in="b161" creator="-1" insign="vítimas" outsign="victims"/>
+<align out="a140" type="" in="b161" creator="-1" insign="vÃ­timas" outsign="victims"/>
 <align out="a141" type="" in="b162" creator="-1" insign="eram" outsign="were"/>
 <align out="a151" type="" in="b174" creator="0" insign="elas" outsign="them"/>
 <align out="a152 a153 a154" type="" in="b175 b176 b177 b178 b179 b180 b181 b182" creator="0" insign="se encaixavam no que poderia ser chamado de" outsign="could be considered"/>

@@ -4,7 +4,7 @@
 <W id="3" cur="16" space="\0020" x="189" y="372" w="92" h="34">Peking</W>
 <W id="4" cur="23" space="\0020" x="279" y="372" w="56" h="34">rote</W>
 <W id="5" cur="28" space="\0020" x="333" y="372" w="74" h="34">Karte</W>
-<W id="6" cur="34" space="\0020" x="405" y="372" w="41" h="34">für</W>
+<W id="6" cur="34" space="\0020" x="405" y="372" w="41" h="34">fÃ¼r</W>
 <W id="7" cur="38" space="\0020" x="444" y="372" w="85" h="34">Darfur</W>
 <W id="8" cur="45" space="\000a" x="3" y="403" w="32" h="34">In</W>
 <W id="9" cur="48" space="\0020" x="33" y="403" w="69" h="34">einer</W>
@@ -29,13 +29,13 @@
 <W id="28" cur="171" space="\0020" x="391" y="434" w="99" h="34">Spielen</W>
 <W id="29" cur="179" space="\0020" x="488" y="434" w="30" h="34">in</W>
 <W id="30" cur="182" space="\0020" x="516" y="434" w="92" h="34">Peking</W>
-<W id="31" cur="189" space="\0020" x="606" y="434" w="90" h="34">zurück</W>
+<W id="31" cur="189" space="\0020" x="606" y="434" w="90" h="34">zurÃ¼ck</W>
 <W id="32" cur="195" x="687" y="434" w="16" h="34">,</W>
 <W id="33" cur="197" space="\0020" x="702" y="434" w="47" h="34">um</W>
 <W id="34" cur="200" space="\0020" x="746" y="434" w="84" h="34">gegen</W>
 <W id="35" cur="206" space="\0020" x="828" y="434" w="94" h="34">Chinas</W>
-<W id="36" cur="213" space="\0020" x="920" y="434" w="180" h="34">Unterstützung</W>
-<W id="37" cur="227" space="\0020" x="1098" y="434" w="41" h="34">für</W>
+<W id="36" cur="213" space="\0020" x="920" y="434" w="180" h="34">UnterstÃ¼tzung</W>
+<W id="37" cur="227" space="\0020" x="1098" y="434" w="41" h="34">fÃ¼r</W>
 <W id="38" cur="231" space="\0020" x="1137" y="434" w="45" h="34">die</W>
 <W id="39" cur="236" space="\0020\0020" x="3" y="465" w="82" h="34">Politik</W>
 <W id="40" cur="244" space="\0020" x="83" y="465" w="53" h="34">des</W>
@@ -46,7 +46,7 @@
 <W id="45" cur="268" space="\0020" x="380" y="465" w="153" h="34">protestieren</W>
 <W id="46" cur="280" x="524" y="465" w="16" h="34">.</W>
 <W id="47" cur="282" space="\0020" x="539" y="465" w="63" h="34">Sein</W>
-<W id="48" cur="287" space="\0020" x="600" y="465" w="110" h="34">Rücktritt</W>
+<W id="48" cur="287" space="\0020" x="600" y="465" w="110" h="34">RÃ¼cktritt</W>
 <W id="49" cur="297" space="\0020" x="709" y="465" w="112" h="34">geschah</W>
 <W id="50" cur="305" space="\0020" x="819" y="465" w="38" h="34">im</W>
 <W id="51" cur="308" space="\0020" x="854" y="465" w="71" h="34">Zuge</W>
@@ -88,15 +88,15 @@
 <W id="87" cur="542" space="\0020" x="336" y="558" w="80" h="34">China</W>
 <W id="88" cur="547" x="407" y="558" w="16" h="34">,</W>
 <W id="89" cur="549" space="\0020" x="422" y="558" w="178" h="34">verantwortlich</W>
-<W id="90" cur="564" space="\0020" x="598" y="558" w="41" h="34">für</W>
+<W id="90" cur="564" space="\0020" x="598" y="558" w="41" h="34">fÃ¼r</W>
 <W id="91" cur="568" space="\0020" x="637" y="558" w="173" h="34">umfangreiche</W>
 <W id="92" cur="581" space="\0020" x="808" y="558" w="163" h="34">Investitionen</W>
 <W id="93" cur="595" space="\0020" x="969" y="558" w="30" h="34">in</W>
 <W id="94" cur="598" space="\0020" x="997" y="558" w="45" h="34">die</W>
 <W id="95" cur="602" space="\0020" x="3" y="589" w="176" h="34">sudanesische</W>
-<W id="96" cur="615" space="\0020" x="177" y="589" w="139" h="34">Ölindustrie</W>
+<W id="96" cur="615" space="\0020" x="177" y="589" w="139" h="34">Ã–lindustrie</W>
 <W id="97" cur="626" x="307" y="589" w="16" h="34">,</W>
-<W id="98" cur="628" space="\0020" x="322" y="589" w="114" h="34">unterhält</W>
+<W id="98" cur="628" space="\0020" x="322" y="589" w="114" h="34">unterhÃ¤lt</W>
 <W id="99" cur="638" space="\0020" x="435" y="589" w="69" h="34">enge</W>
 <W id="100" cur="643" space="\0020" x="502" y="589" w="167" h="34">Beziehungen</W>
 <W id="101" cur="655" space="\0020" x="667" y="589" w="38" h="34">zu</W>
@@ -135,13 +135,13 @@
 <W id="134" cur="863" space="\0020" x="908" y="651" w="39" h="34">an</W>
 <W id="135" cur="866" space="\0020" x="945" y="651" w="48" h="34">der</W>
 <W id="136" cur="870" space="\0020" x="991" y="651" w="186" h="34">Verantwortung</W>
-<W id="137" cur="884" space="\0020" x="3" y="682" w="41" h="34">für</W>
+<W id="137" cur="884" space="\0020" x="3" y="682" w="41" h="34">fÃ¼r</W>
 <W id="138" cur="888" space="\0020" x="42" y="682" w="74" h="34">diese</W>
 <W id="139" cur="894" space="\0020" x="114" y="682" w="168" h="34">andauernden</W>
-<W id="140" cur="906" space="\0020" x="280" y="682" w="151" h="34">Gräueltaten</W>
-<W id="141" cur="918" space="\0020" x="429" y="682" w="63" h="34">trägt</W>
+<W id="140" cur="906" space="\0020" x="280" y="682" w="151" h="34">GrÃ¤ueltaten</W>
+<W id="141" cur="918" space="\0020" x="429" y="682" w="63" h="34">trÃ¤gt</W>
 <W id="142" cur="923" x="484" y="682" w="16" h="34">,</W>
-<W id="143" cur="925" space="\0020" x="499" y="682" w="52" h="34">hält</W>
+<W id="143" cur="925" space="\0020" x="499" y="682" w="52" h="34">hÃ¤lt</W>
 <W id="144" cur="930" space="\0020" x="550" y="682" w="123" h="34">Spielberg</W>
 <W id="145" cur="940" space="\0020" x="671" y="682" w="107" h="34">aufrecht</W>
 <W id="146" cur="948" x="770" y="682" w="16" h="34">,</W>

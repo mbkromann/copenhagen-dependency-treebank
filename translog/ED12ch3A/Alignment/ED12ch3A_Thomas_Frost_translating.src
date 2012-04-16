@@ -1,3 +1,4 @@
+<Text>
 <W btm="110" cur="0" lft="39" rgt="145" space="" top="76" in="24:conc" out="3:vobj">Although</W>
 <W btm="110" cur="9" lft="153" rgt="281" space="\0020" top="76" in="1:attr#" out="">developing</W>
 <W btm="110" cur="20" lft="289" rgt="397" space="\0020" top="76" in="1:subj" out="-1:attr#">countries</W>
@@ -108,3 +109,4 @@
 <W btm="506" cur="659" lft="1087" rgt="1108" space="\0020" top="472" in="-1:attr|-1:{other}#" out="1:nobj">in</W>
 <W btm="506" cur="662" lft="1116" rgt="1175" space="\0020" top="472" in="-1:nobj" out="">hand</W>
 <W cur="666" in="-6:pnct" out="">.</W>
+</Text>

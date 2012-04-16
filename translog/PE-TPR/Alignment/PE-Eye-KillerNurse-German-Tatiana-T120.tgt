@@ -1,6 +1,6 @@
 <Text>
 <W id="1" cur="0" x="3" y="383" w="303" h="34">Killer-Krankenschwester</W>
-<W id="2" cur="24" space="\0020" x="304" y="383" w="76" h="34">erhält</W>
+<W id="2" cur="24" space="\0020" x="304" y="383" w="76" h="34">erhÃ¤lt</W>
 <W id="3" cur="31" space="\0020" x="379" y="383" w="53" h="34">vier</W>
 <W id="4" cur="36" space="\0020" x="430" y="383" w="155" h="34">lebenslange</W>
 <W id="5" cur="48" space="\0020" x="583" y="383" w="90" h="34">Haefte</W>
@@ -11,20 +11,20 @@
 <W id="10" cur="96" space="\0020" x="384" y="414" w="53" h="34">war</W>
 <W id="11" cur="100" space="\0020" x="435" y="414" w="77" h="34">heute</W>
 <W id="12" cur="106" space="\0020" x="510" y="414" w="140" h="34">lebenslang</W>
-<W id="13" cur="117" space="\0020" x="648" y="414" w="41" h="34">für</W>
+<W id="13" cur="117" space="\0020" x="648" y="414" w="41" h="34">fÃ¼r</W>
 <W id="14" cur="121" space="\0020" x="687" y="414" w="45" h="34">die</W>
-<W id="15" cur="125" space="\0020" x="730" y="414" w="94" h="34">Tötung</W>
+<W id="15" cur="125" space="\0020" x="730" y="414" w="94" h="34">TÃ¶tung</W>
 <W id="16" cur="132" space="\0020" x="822" y="414" w="53" h="34">von</W>
 <W id="17" cur="136" space="\0020" x="873" y="414" w="53" h="34">vier</W>
 <W id="18" cur="141" space="\0020" x="924" y="414" w="83" h="34">seiner</W>
 <W id="19" cur="148" space="\0020" x="1005" y="414" w="124" h="34">Patienten</W>
 <W id="20" cur="158" space="\0020" x="3" y="445" w="144" h="34">eingesperrt</W>
 <W id="21" cur="169" x="139" y="445" w="16" h="34">.</W>
-<W id="22" cur="171" space="\0020" x="154" y="445" w="129" h="34">32-jährige</W>
+<W id="22" cur="171" space="\0020" x="154" y="445" w="129" h="34">32-jÃ¤hrige</W>
 <W id="23" cur="182" space="\0020" x="281" y="445" w="82" h="34">Norris</W>
 <W id="24" cur="189" space="\0020" x="361" y="445" w="53" h="34">aus</W>
 <W id="25" cur="193" space="\0020" x="412" y="445" w="115" h="34">Glasgow</W>
-<W id="26" cur="201" space="\0020" x="525" y="445" w="78" h="34">tötete</W>
+<W id="26" cur="201" space="\0020" x="525" y="445" w="78" h="34">tÃ¶tete</W>
 <W id="27" cur="208" space="\0020" x="601" y="445" w="45" h="34">die</W>
 <W id="28" cur="212" space="\0020" x="644" y="445" w="53" h="34">vier</W>
 <W id="29" cur="217" space="\0020" x="695" y="445" w="95" h="34">Frauen</W>
@@ -35,7 +35,7 @@
 <W id="34" cur="238" space="\0020" x="958" y="445" w="83" h="34">indem</W>
 <W id="35" cur="244" space="\0020" x="1038" y="445" w="44" h="34">sie</W>
 <W id="36" cur="248" space="\0020" x="1080" y="445" w="75" h="34">ihnen</W>
-<W id="37" cur="254" space="\0020" x="3" y="476" w="80" h="34">große</W>
+<W id="37" cur="254" space="\0020" x="3" y="476" w="80" h="34">groÃŸe</W>
 <W id="38" cur="260" space="\0020" x="81" y="476" w="106" h="34">Mengen</W>
 <W id="39" cur="267" space="\0020" x="185" y="476" w="39" h="34">an</W>
 <W id="40" cur="270" space="\0020" x="222" y="476" w="165" h="34">Schlafmitteln</W>
@@ -46,12 +46,12 @@
 <W id="45" cur="303" space="\0020" x="630" y="476" w="33" h="34">er</W>
 <W id="46" cur="306" space="\0020" x="661" y="476" w="39" h="34">an</W>
 <W id="47" cur="309" space="\0020" x="698" y="476" w="53" h="34">vier</W>
-<W id="48" cur="314" space="\0020" x="749" y="476" w="135" h="34">Mordfållen</W>
+<W id="48" cur="314" space="\0020" x="749" y="476" w="135" h="34">MordfÃ¥llen</W>
 <W id="49" cur="325" space="\0020" x="882" y="476" w="68" h="34">nach</W>
 <W id="50" cur="330" space="\0020" x="948" y="476" w="83" h="34">einem</W>
 <W id="51" cur="336" space="\0020" x="1028" y="476" w="90" h="34">langen</W>
 <W id="52" cur="343" space="\0020" x="3" y="507" w="108" h="34">Prozess</W>
-<W id="53" cur="351" space="\0020" x="109" y="507" w="41" h="34">für</W>
+<W id="53" cur="351" space="\0020" x="109" y="507" w="41" h="34">fÃ¼r</W>
 <W id="54" cur="355" space="\0020" x="148" y="507" w="109" h="34">schuldig</W>
 <W id="55" cur="364" space="\0020" x="255" y="507" w="122" h="34">befunden</W>
 <W id="56" cur="372" x="368" y="507" w="16" h="34">.</W>
@@ -64,7 +64,7 @@
 <W id="63" cur="410" space="\0020" x="814" y="507" w="113" h="34">verurteilt</W>
 <W id="64" cur="420" x="919" y="507" w="16" h="34">,</W>
 <W id="65" cur="422" space="\0020" x="934" y="507" w="60" h="34">eine</W>
-<W id="66" cur="427" space="\0020" x="992" y="507" w="41" h="34">für</W>
+<W id="66" cur="427" space="\0020" x="992" y="507" w="41" h="34">fÃ¼r</W>
 <W id="67" cur="431" space="\0020" x="1031" y="507" w="75" h="34">jeden</W>
 <W id="68" cur="437" space="\0020" x="1104" y="507" w="48" h="34">der</W>
 <W id="69" cur="441" space="\0020" x="3" y="538" w="85" h="34">Morde</W>
@@ -119,7 +119,7 @@
 <W id="118" cur="716" space="\0020" x="3" y="631" w="67" h="34">dass</W>
 <W id="119" cur="721" space="\0020" x="68" y="631" w="53" h="34">das</W>
 <W id="120" cur="725" space="\0020" x="119" y="631" w="74" h="34">Motiv</W>
-<W id="121" cur="731" space="\0020" x="191" y="631" w="41" h="34">für</W>
+<W id="121" cur="731" space="\0020" x="191" y="631" w="41" h="34">fÃ¼r</W>
 <W id="122" cur="735" space="\0020" x="230" y="631" w="45" h="34">die</W>
 <W id="123" cur="739" space="\0020" x="273" y="631" w="85" h="34">Morde</W>
 <W id="124" cur="745" space="\0020" x="356" y="631" w="53" h="34">war</W>
@@ -146,11 +146,11 @@
 <W id="145" cur="867" space="\0020" x="675" y="662" w="54" h="34">Alle</W>
 <W id="146" cur="872" space="\0020" x="727" y="662" w="53" h="34">von</W>
 <W id="147" cur="876" space="\0020" x="778" y="662" w="75" h="34">ihnen</W>
-<W id="148" cur="882" space="\0020" x="851" y="662" w="106" h="34">könnten</W>
+<W id="148" cur="882" space="\0020" x="851" y="662" w="106" h="34">kÃ¶nnten</W>
 <W id="149" cur="890" space="\0020" x="955" y="662" w="44" h="34">als</W>
 <W id="150" cur="894" space="\0020" x="997" y="662" w="60" h="34">eine</W>
 <W id="151" cur="899" space="\0020" x="1055" y="662" w="130" h="34">Belastung</W>
-<W id="152" cur="909" space="\0020" x="3" y="693" w="41" h="34">für</W>
+<W id="152" cur="909" space="\0020" x="3" y="693" w="41" h="34">fÃ¼r</W>
 <W id="153" cur="913" space="\0020" x="42" y="693" w="53" h="34">das</W>
 <W id="154" cur="917" space="\0020" x="93" y="693" w="273" h="34">Krankenhauspersonal</W>
 <W id="155" cur="937" space="\0020" x="364" y="693" w="83" h="34">gelten</W>

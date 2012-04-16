@@ -1,21 +1,21 @@
 <Text>
 <W cur="0" id="1">Spielberg</W>
 <W cur="10" id="2" space="\0020">giver</W>
-<W cur="16" id="3" space="\0020">rødt</W>
+<W cur="16" id="3" space="\0020">rÃ¸dt</W>
 <W cur="21" id="4" space="\0020">kort</W>
 <W cur="26" id="5" space="\0020">til</W>
 <W cur="30" id="6" space="\0020">Kina</W>
-<W cur="35" id="7" space="\0020">på</W>
+<W cur="35" id="7" space="\0020">pÃ¥</W>
 <W cur="38" id="8" space="\0020">grund</W>
 <W cur="44" id="9" space="\0020">af</W>
 <W cur="47" id="10" space="\0020">Darfur</W>
-<W cur="54" id="11" space="\000a">På</W>
+<W cur="54" id="11" space="\000a">PÃ¥</W>
 <W cur="57" id="12" space="\0020">en</W>
-<W cur="60" id="13" space="\0020">måde</W>
+<W cur="60" id="13" space="\0020">mÃ¥de</W>
 <W cur="64" id="14">,</W>
 <W cur="66" id="15" space="\0020">der</W>
 <W cur="70" id="16" space="\0020">vil</W>
-<W cur="74" id="17" space="\0020">gøre</W>
+<W cur="74" id="17" space="\0020">gÃ¸re</W>
 <W cur="79" id="18" space="\0020">den</W>
 <W cur="83" id="19" space="\0020">kinesiske</W>
 <W cur="93" id="20" space="\0020">regering</W>
@@ -39,18 +39,18 @@
 <W cur="188" id="38">,</W>
 <W cur="190" id="39" space="\0020">at</W>
 <W cur="193" id="40" space="\0020">Kina</W>
-<W cur="198" id="41" space="\0020">støtter</W>
+<W cur="198" id="41" space="\0020">stÃ¸tter</W>
 <W cur="206" id="42" space="\0020">Sudans</W>
 <W cur="213" id="43" space="\0020">politik</W>
 <W cur="221" id="44" space="\0020">i</W>
 <W cur="223" id="45" space="\0020">Darfur</W>
 <W cur="229" id="46">.</W>
 <W cur="231" id="47" space="\0020">Hans</W>
-<W cur="236" id="48" space="\0020">tilbagetrækning</W>
+<W cur="236" id="48" space="\0020">tilbagetrÃ¦kning</W>
 <W cur="252" id="49" space="\0020">kommer</W>
 <W cur="259" id="50" space="\0020">i</W>
-<W cur="261" id="51" space="\0020">kølvandet</W>
-<W cur="271" id="52" space="\0020">på</W>
+<W cur="261" id="51" space="\0020">kÃ¸lvandet</W>
+<W cur="271" id="52" space="\0020">pÃ¥</W>
 <W cur="274" id="53" space="\0020">kampe</W>
 <W cur="279" id="54">,</W>
 <W cur="281" id="55" space="\0020">der</W>
@@ -67,7 +67,7 @@
 <W cur="334" id="66">,</W>
 <W cur="336" id="67" space="\0020">der</W>
 <W cur="340" id="68" space="\0020">har</W>
-<W cur="344" id="69" space="\0020">søgt</W>
+<W cur="344" id="69" space="\0020">sÃ¸gt</W>
 <W cur="349" id="70" space="\0020">at</W>
 <W cur="352" id="71" space="\0020">stoppe</W>
 <W cur="359" id="72" space="\0020">de</W>
@@ -76,8 +76,8 @@
 <W cur="385" id="75" space="\0020">af</W>
 <W cur="388" id="76" space="\0020">at</W>
 <W cur="391" id="77" space="\0020">have</W>
-<W cur="396" id="78" space="\0020">tætte</W>
-<W cur="402" id="79" space="\0020">bånd</W>
+<W cur="396" id="78" space="\0020">tÃ¦tte</W>
+<W cur="402" id="79" space="\0020">bÃ¥nd</W>
 <W cur="407" id="80" space="\0020">med</W>
 <W cur="411" id="81" space="\0020">den</W>
 <W cur="415" id="82" space="\0020">sudanesiske</W>
@@ -95,8 +95,8 @@
 <W cur="494" id="94" space="\0020">olieindustri</W>
 <W cur="506" id="95">,</W>
 <W cur="508" id="96" space="\0020">har</W>
-<W cur="512" id="97" space="\0020">tætte</W>
-<W cur="518" id="98" space="\0020">bånd</W>
+<W cur="512" id="97" space="\0020">tÃ¦tte</W>
+<W cur="518" id="98" space="\0020">bÃ¥nd</W>
 <W cur="523" id="99" space="\0020">med</W>
 <W cur="527" id="100" space="\0020">regeringen</W>
 <W cur="537" id="101">.</W>
@@ -145,8 +145,8 @@
 <W cur="795" id="144" space="\0020">specielt</W>
 <W cur="804" id="145" space="\0020">Kina</W>
 <W cur="808" id="146">,</W>
-<W cur="810" id="147" space="\0020">bør</W>
-<W cur="814" id="148" space="\0020">gør</W>
+<W cur="810" id="147" space="\0020">bÃ¸r</W>
+<W cur="814" id="148" space="\0020">gÃ¸r</W>
 <W cur="818" id="149" space="\0020">mere</W>
 <W cur="823" id="150" space="\0020">for</W>
 <W cur="827" id="151" space="\0020">at</W>
