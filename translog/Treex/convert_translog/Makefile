@@ -1,0 +1,59 @@
+DIR="data"
+
+all: clean copy merge_atag_trl fix_mod_trl totreex finetreex
+
+
+copy:
+	mkdir -p $(DIR)/EN-HI
+	mkdir -p $(DIR)/EN-ES
+	mkdir -p $(DIR)/EN-DA
+	cp -r ../../EN-DA/Translog-II $(DIR)/EN-DA/Translog-II
+	cp -r ../../EN-DA/Alignment $(DIR)/EN-DA/Alignment
+	cp -r ../../EN-ES/Translog-II $(DIR)/EN-ES/Translog-II
+	cp -r ../../EN-ES/Alignment $(DIR)/EN-ES/Alignment
+#	cp -r ../../EN-HI/Translog-II $(DIR)/EN-HI/Translog-II
+#	cp -r ../../EN-HI/Alignment $(DIR)/EN-HI/Alignment
+
+merge_atag_trl:
+	./MergeAtagTrl.bash
+
+fix_mod_trl:
+	./FixMod2Trl.bash
+
+totreex:
+	./Trl2Treex.bash
+
+finetreex:
+	@echo ----------- Step 4: Refining the data in treex ----------
+	mkdir -p $(DIR)/final
+	treex \
+	Misc::CopenhagenDT::BuildTreesFromOffsetIndices \
+	Misc::CopenhagenDT::ReconstructAlignmentLinks \
+        Misc::CopenhagenDT::ImportSentSegmFromExternalFiles cdt_root_dir=../../../ \
+        Misc::CopenhagenDT::SentSegmByTagS \
+        Misc::CopenhagenDT::MoveDanishTreesToSeparateBundles \
+        Misc::CopenhagenDT::MoveTreesToDanishCounterpartByAlignment \
+        Misc::CopenhagenDT::MoveTreesToDanishCounterpartBySizeSimilarity \
+        Misc::CopenhagenDT::FixLonelyNodes \
+        Misc::CopenhagenDT::FlattenUnannotatedTrees \
+        Util::Eval document="\$$doc->set_path(qw($(DIR)/final))" \
+        Write::Treex clobber=1 storable=0 \
+        -- $(DIR)/Treex/*.treex.gz
+
+        #Misc::CopenhagenDT::DeleteFirstBundle \
+
+segment:
+	treex --save Misc::Translog::SegmentSentences Misc::Translog::MergeSentencesByAlignment -- $(DIR)/*treex.gz
+
+parse:
+	treex --save tag_and_parse_en.scen -- parsed_sample/*treex.gz
+
+transform:
+	treex --save W2A::EN::RehangConllToPdtStyle \
+	Misc::Translog::PdtStyleToCdtStyle totreex \
+	Misc::Translog::ProjectEdgesByAlignment \
+	Misc::Translog::ConllDeprelToCdtDeprel -- parsed_sample/*treex.gz
+
+
+clean:
+	rm $(DIR) -rf
