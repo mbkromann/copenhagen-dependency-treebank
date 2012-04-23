@@ -1,0 +1,96 @@
+<Text>
+<W id="1" btm="544" cur="0" lft="21" rgt="107" space="" top="511" in="20:conc" out="3:vobj">Selvom</W>
+<W id="2" btm="544" cur="7" lft="115" rgt="295" space="\0020" top="511" in="1:subj" out="">udviklingslande</W>
+<W id="3" btm="544" cur="23" lft="303" rgt="349" space="\0020" top="511" in="1:neg" out="-1:subj">ikke</W>
+<W id="4" btm="544" cur="28" lft="357" rgt="381" space="\0020" top="511" in="-3:vobj" out="-1:neg|1:preds|14:pnct">er</W>
+<W id="5" btm="544" cur="31" lft="389" rgt="446" space="\0020" top="511" in="-1:preds" out="1:pobj">klare</W>
+<W id="6" btm="544" cur="37" lft="454" rgt="475" space="\0020" top="511" in="-1:pobj" out="1:nobj">til</W>
+<W id="7" btm="544" cur="41" lft="483" rgt="506" space="\0020" top="511" in="-1:nobj" out="">at</W>
+<W id="8" btm="544" cur="47" lft="538" note="finite verb missing" rgt="603" space="\0020\0020\0020\0020" top="511" in="0:err" out="1:possd|0:err">deres</W>
+<W id="9" btm="544" cur="53" lft="611" rgt="703" space="\0020" top="511" in="-1:possd" out="1:pobj|1:{arg}">chancer</W>
+<W id="10" btm="544" cur="61" lft="711" rgt="745" space="\0020" top="511" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
+<W id="11" btm="544" cur="65" lft="753" rgt="776" space="\0020" top="511" in="-1:nobj" out="1:vobj">at</W>
+<W id="12" btm="544" cur="68" lft="784" rgt="807" space="\0020" top="511" in="-1:vobj" out="2:dobj|3:goal">fÃ¥</W>
+<W id="13" btm="544" cur="71" lft="815" rgt="883" space="\0020" top="511" in="1:attr" out="">bedre</W>
+<W id="14" btm="544" cur="77" lft="891" rgt="1066" space="\0020" top="511" in="-2:dobj" out="-1:attr">levestandarder</W>
+<W id="15" btm="544" cur="92" lft="1074" rgt="1108" space="\0020" top="511" in="-3:goal" out="1:nobj">for</W>
+<W id="16" btm="544" cur="96" lft="1116" rgt="1145" space="\0020" top="511" in="-1:nobj" out="1:attr">de</W>
+<W id="17" btm="544" cur="99" lft="1153" rgt="1229" space="\0020" top="511" in="-1:attr" out="">fattige</W>
+<W id="18" cur="106" in="-14:pnct" out="">,</W>
+<W id="19" btm="577" cur="108" lft="21" rgt="83" space="\0020" top="544" in="0:err" out="0:err">klima</W>
+<W id="20" btm="577" cur="114" lft="91" rgt="187" space="\0020" top="544" in="1:subj" out="">aktioner</W>
+<W id="21" btm="577" cur="127" lft="227" note="wrong word order" rgt="323" space="\0020\0020\0020\0020\0020" top="544" in="" out="-1:subj|-20:conc|1:neg|2:dobj|7:pnct">behÃ¸ver</W>
+<W id="22" btm="577" cur="135" lft="331" rgt="377" space="\0020" top="544" in="-1:neg" out="">ikke</W>
+<W id="23" btm="577" cur="140" lft="385" rgt="408" space="\0020" top="544" in="-2:dobj" out="1:vobj">at</W>
+<W id="24" btm="577" cur="144" lft="424" rgt="472" space="\0020\0020" top="544" in="-1:vobj" out="1:dobj">true</W>
+<W id="25" btm="577" cur="149" lft="480" rgt="524" space="\0020" top="544" in="-1:dobj" out="1:attr|2:nobj">den</W>
+<W id="26" btm="577" cur="153" lft="532" rgt="673" space="\0020" top="544" in="-1:attr" out="">Ã¸konomiske</W>
+<W id="27" btm="577" cur="164" lft="681" rgt="785" space="\0020" top="544" in="-2:nobj" out="">udvikling</W>
+<W id="28" cur="173" in="-7:pnct" out="">.</W>
+<W id="29" btm="577" cur="192" lft="937" note="subject missing" rgt="982" space="\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020" top="544" in="" out="1:vobj|2:goal|16:conj|26:pnct">skal</W>
+<W id="30" btm="577" cur="197" lft="990" rgt="1080" space="\0020" top="544" in="-1:vobj" out="">tilbydes</W>
+<W id="31" btm="577" cur="206" lft="1088" rgt="1122" space="\0020" top="544" in="-2:goal" out="1:nobj">for</W>
+<W id="32" btm="577" cur="210" lft="1130" rgt="1153" space="\0020" top="544" in="-1:nobj" out="">at</W>
+<W id="33" btm="610" cur="217" lft="21" note="finite verb missing in subordinate clause" rgt="230" space="\0020\0020\0020\0020\0020" top="577" in="0:err" out="0:err">udviklingslandene</W>
+<W id="34" btm="610" cur="235" lft="238" rgt="244" space="\0020" top="577" in="0:err" out="1:nobj|0:err">i</W>
+<W id="35" btm="610" cur="237" lft="252" rgt="275" space="\0020" top="577" in="-1:nobj" out="1:vobj">at</W>
+<W id="36" btm="610" cur="240" lft="283" rgt="312" space="\0020" top="577" in="-1:vobj" out="1:@dir|3:conj">gÃ¥</W>
+<W id="37" btm="610" cur="243" lft="320" rgt="405" space="\0020" top="577" in="-1:@dir" out="">fremad</W>
+<W id="38" btm="610" cur="250" lft="413" rgt="443" space="\0020" top="577" in="1:coord" out="">og</W>
+<W id="39" btm="610" cur="253" lft="451" note="implementere" rgt="608" space="\0020" top="577" in="-3:conj" out="-1:coord|2:dobj">impementere</W>
+<W id="40" btm="610" cur="265" lft="616" rgt="669" space="\0020" top="577" in="1:attr" out="">rene</W>
+<W id="41" btm="610" cur="270" lft="677" rgt="809" space="\0020" top="577" in="-2:dobj" out="-1:attr">teknologier</W>
+<W id="42" cur="281" in="0:err" out="0:err">,</W>
+<W id="43" btm="610" cur="283" lft="825" rgt="855" space="\0020" top="577" in="2:coord" out="">og</W>
+<W id="44" btm="610" cur="286" lft="863" rgt="892" space="\0020" top="577" in="1:subj|3:[subj]|6:[subj]" out="">de</W>
+<W id="45" btm="610" cur="289" lft="900" note="?" rgt="972" space="\0020" top="577" in="-16:conj" out="-2:coord|-1:subj|1:add|2:vobj">kunne</W>
+<W id="46" btm="610" cur="295" lft="980" rgt="1036" space="\0020" top="577" in="-1:add" out="">ogsÃ¥</W>
+<W id="47" btm="610" cur="300" lft="1044" rgt="1126" space="\0020" top="577" in="-2:vobj" out="-3:[subj]">hjÃ¦lpe</W>
+<W id="48" btm="610" cur="307" lft="1134" rgt="1140" space="\0020" top="577" in="0:err" out="1:nobj|0:err">i</W>
+<W id="49" btm="610" cur="309" lft="1148" rgt="1171" space="\0020" top="577" in="-1:nobj" out="1:vobj">at</W>
+<W id="50" btm="643" cur="312" lft="21" rgt="132" space="\0020" top="610" in="-1:vobj" out="-6:[subj]|2:dobj">minimere</W>
+<W id="51" btm="643" cur="321" lft="140" note="hyphen missing" rgt="190" space="\0020" top="610" in="0:err" out="0:err">CO2</W>
+<W id="52" btm="643" cur="325" lft="198" rgt="267" space="\0020" top="610" in="-2:dobj" out="1:pobj|1:{arg}">udslip</W>
+<W id="53" btm="643" cur="332" lft="275" rgt="308" space="\0020" top="610" in="-1:pobj|-1:{arg}" out="">fra</W>
+<W id="54" btm="643" cur="336" lft="316" note="" rgt="482" space="\0020" top="610" in="0:err" out="0:err">trÃ¦fÃ¦dninger</W>
+<W id="55" cur="348" in="-26:pnct" out="11:preds">.</W>
+<W id="56" btm="643" cur="350" lft="498" rgt="566" space="\0020" top="610" in="1:{quant}|7:subj|9:[subj]|13:[subj]" out="1:pobj">Nogle</W>
+<W id="57" btm="643" cur="356" lft="574" rgt="597" space="\0020" top="610" in="-1:pobj" out="-1:{quant}">af</W>
+<W id="58" btm="643" cur="359" lft="605" rgt="634" space="\0020" top="610" in="0:err" out="0:err">de</W>
+<W id="59" btm="643" cur="362" lft="642" rgt="714" space="\0020" top="610" in="0:err" out="0:err">meste</W>
+<W id="60" btm="643" cur="372" lft="754" rgt="818" space="\0020\0020\0020\0020\0020" top="610" in="0:err" out="1:attr|1:{loc}|0:err">lande</W>
+<W id="61" btm="643" cur="378" lft="826" rgt="832" space="\0020" top="610" in="-1:attr|-1:{loc}" out="1:nobj">i</W>
+<W id="62" btm="643" cur="380" lft="840" rgt="921" space="\0020" top="610" in="-1:nobj" out="">verden</W>
+<W id="63" btm="643" cur="387" lft="929" rgt="968" space="\0020" top="610" in="" out="-7:subj|1:neg|2:vobj|9:pnct|12:conj|16:pnct">har</W>
+<W id="64" btm="643" cur="391" lft="976" rgt="1022" space="\0020" top="610" in="-1:neg" out="">ikke</W>
+<W id="65" btm="643" cur="396" lft="1030" rgt="1100" space="\0020" top="610" in="-2:vobj" out="-9:[subj]">vÃ¦ret</W>
+<W id="66" btm="643" cur="402" lft="1108" rgt="1160" space="\0020" top="610" in="-11:preds" out="1:pobj">med</W>
+<W id="67" btm="643" cur="406" lft="1168" rgt="1189" space="\0020" top="610" in="-1:pobj" out="1:nobj">til</W>
+<W id="68" btm="643" cur="410" lft="1197" rgt="1220" space="\0020" top="610" in="-1:nobj" out="1:vobj">at</W>
+<W id="69" btm="676" cur="413" lft="21" rgt="103" space="\0020" top="643" in="-1:vobj" out="-13:[subj]|1:pobj">hjÃ¦lpe</W>
+<W id="70" btm="676" cur="420" lft="111" rgt="163" space="\0020" top="643" in="-1:pobj" out="1:nobj">med</W>
+<W id="71" btm="676" cur="424" lft="171" rgt="386" space="\0020" top="643" in="-1:nobj" out="">klimaforandringen</W>
+<W id="72" cur="441" in="-9:pnct" out="">,</W>
+<W id="73" btm="676" cur="443" lft="402" rgt="454" space="\0020" top="643" in="2:coord" out="">men</W>
+<W id="74" btm="676" cur="447" lft="462" rgt="491" space="\0020" top="643" in="1:subj" out="">de</W>
+<W id="75" btm="676" cur="450" lft="499" rgt="561" space="\0020" top="643" in="-12:conj" out="-2:coord|-1:subj|1:dobj">tager</W>
+<W id="76" btm="676" cur="456" lft="569" rgt="657" space="\0020" top="643" in="-1:dobj" out="1:pobj|1:{arg}">skylden</W>
+<W id="77" btm="676" cur="464" lft="665" rgt="699" space="\0020" top="643" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
+<W id="78" btm="676" cur="468" lft="707" rgt="745" space="\0020" top="643" in="-1:nobj" out="">det</W>
+<W id="79" cur="471" in="-16:pnct" out="">.</W>
+<W id="80" btm="676" cur="473" lft="761" rgt="802" space="\0020" top="643" in="1:subj" out="3:ref|4:relr">Det</W>
+<W id="81" btm="676" cur="477" lft="810" rgt="834" space="\0020" top="643" in="" out="-1:subj|1:preds|7:pnct">er</W>
+<W id="82" btm="676" cur="480" lft="842" rgt="1051" space="\0020" top="643" in="-1:preds" out="">udviklingslandene</W>
+<W id="83" btm="676" cur="498" lft="1059" rgt="1109" space="\0020" top="643" in="-3:ref|1:subj" out="">som</W>
+<W id="84" btm="676" cur="502" lft="1117" rgt="1162" space="\0020" top="643" in="-4:relr" out="-1:subj">skal</W>
+<W id="85" btm="676" cur="513" lft="1218" rgt="1239" space="\0020\0020\0020\0020\0020\0020\0020" top="643" in="0:err" out="0:err">til</W>
+<W id="86" btm="709" cur="518" lft="21" rgt="44" space="\0020\0020" top="676" in="0:err" out="0:err">af</W>
+<W id="87" btm="709" cur="521" lft="52" rgt="238" space="\0020" top="676" in="0:err" out="0:err">klimaÃ¦ndringer</W>
+<W id="88" cur="535" in="-7:pnct" out="">.</W>
+<W id="89" btm="709" cur="566" lft="486" note="subject missing" rgt="531" space="\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020\0020" top="676" in="" out="1:vobj|5:pnct">skal</W>
+<W id="90" btm="709" cur="571" lft="539" rgt="568" space="\0020" top="676" in="-1:vobj" out="1:man">gÃ¥</W>
+<W id="91" btm="709" cur="574" lft="576" rgt="635" space="\0020" top="676" in="-1:man" out="1:attr|1:{other}#">hÃ¥nd</W>
+<W id="92" btm="709" cur="579" lft="643" rgt="649" space="\0020" top="676" in="-1:attr|-1:{other}#" out="1:nobj">i</W>
+<W id="93" btm="709" cur="581" lft="657" rgt="716" space="\0020" top="676" in="-1:nobj" out="">hÃ¥nd</W>
+<W id="94" cur="585" in="-5:pnct" out="">.</W>
+</Text>

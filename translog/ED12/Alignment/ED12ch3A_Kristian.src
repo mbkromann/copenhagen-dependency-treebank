@@ -1,0 +1,112 @@
+<Text>
+<W btm="110" cur="0" lft="39" rgt="145" space="" top="76" in="24:conc" out="3:vobj">Although</W>
+<W btm="110" cur="9" lft="153" rgt="281" space="\0020" top="76" in="1:attr#" out="">developing</W>
+<W btm="110" cur="20" lft="289" rgt="397" space="\0020" top="76" in="1:subj" out="-1:attr#">countries</W>
+<W btm="110" cur="30" lft="405" rgt="443" space="\0020" top="76" in="-3:vobj" out="-1:subj|1:eval|2:preds|16:pnct">are</W>
+<W btm="110" cur="34" lft="451" rgt="633" space="\0020" top="76" in="-1:eval" out="">understandably</W>
+<W btm="110" cur="49" lft="641" rgt="745" space="\0020" top="76" in="-2:preds" out="1:pobj">reluctant</W>
+<W btm="110" cur="59" lft="753" rgt="777" space="\0020" top="76" in="-1:pobj" out="1:nobj">to</W>
+<W btm="110" cur="62" lft="785" rgt="930" space="\0020" top="76" in="-1:nobj" out="1:dobj">compromise</W>
+<W btm="110" cur="73" lft="938" rgt="992" space="\0020" top="76" in="-1:dobj|1:{other}" out="1:possd">their</W>
+<W btm="110" cur="79" lft="1000" rgt="1094" space="\0020" top="76" in="-1:possd" out="1:pobj|1:{arg}|-1:{other}">chances</W>
+<W btm="110" cur="87" lft="1102" rgt="1126" space="\0020" top="76" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
+<W btm="176" cur="90" lft="39" rgt="149" space="\0020" top="142" in="-1:nobj" out="2:dobj|5:goal">achieving</W>
+<W btm="176" cur="100" lft="157" rgt="228" space="\0020" top="142" in="1:attr" out="">better</W>
+<W btm="176" cur="107" lft="236" rgt="352" space="\0020" top="142" in="-2:dobj" out="-1:attr|1:pobj|1:{arg}#">standards</W>
+<W btm="176" cur="117" lft="360" rgt="384" space="\0020" top="142" in="-1:pobj|-1:{arg}#" out="1:nobj">of</W>
+<W btm="176" cur="120" lft="392" rgt="453" space="\0020" top="142" in="-1:nobj" out="">living</W>
+<W btm="176" cur="127" lft="461" rgt="495" space="\0020" top="142" in="-5:goal" out="1:nobj">for</W>
+<W btm="176" cur="131" lft="503" rgt="541" space="\0020" top="142" in="-1:nobj" out="1:nobj">the</W>
+<W btm="176" cur="135" lft="549" rgt="604" space="\0020" top="142" in="-1:nobj" out="">poor</W>
+<W cur="139" in="-16:pnct" out="">,</W>
+<W btm="176" cur="141" lft="620" rgt="691" space="\0020" top="142" in="4:subj|6:[subj]" out="1:pobj.pobj|1:{patient}">action</W>
+<W btm="176" cur="148" lft="699" rgt="729" space="\0020" top="142" in="-1:pobj.pobj|-1:{patient}" out="2:nobj">on</W>
+<W btm="176" cur="151" lft="737" rgt="821" space="\0020" top="142" in="1:nobj.subj|1:{patient}#" out="">climate</W>
+<W btm="176" cur="159" lft="829" rgt="914" space="\0020" top="142" in="-2:nobj" out="-1:nobj.subj|-1:{patient}#">change</W>
+<W btm="176" cur="166" lft="922" rgt="980" space="\0020" top="142" in="" out="-24:conc|-4:subj|1:neg|2:vobj|5:pnct">need</W>
+<W btm="176" cur="171" lft="988" rgt="1027" space="\0020" top="142" in="-1:neg" out="">not</W>
+<W btm="176" cur="175" lft="1035" rgt="1135" space="\0020" top="142" in="-2:vobj" out="-6:[subj]|2:dobj">threaten</W>
+<W btm="242" cur="184" lft="39" rgt="151" space="\0020" top="208" in="1:aobj.subj|1:{patient}#" out="">economic</W>
+<W btm="242" cur="193" lft="159" rgt="312" space="\0020" top="208" in="-2:dobj" out="-1:aobj.subj|-1:{patient}#">development</W>
+<W cur="204" in="-5:pnct" out="">.</W>
+<W btm="242" cur="206" lft="328" rgt="448" space="\0020" top="208" in="1:subj|2:[subj]|20:[subj]|22:[subj]|23:[subj]" out="">Incentives</W>
+<W btm="242" cur="217" lft="456" rgt="515" space="\0020" top="208" in="" out="-1:subj|1:vobj|3:goal|17:pnct|19:conj|26:pnct">must</W>
+<W btm="242" cur="222" lft="523" rgt="552" space="\0020" top="208" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
+<W btm="242" cur="225" lft="560" rgt="646" space="\0020" top="208" in="-1:preds" out="">offered</W>
+<W btm="242" cur="233" lft="654" rgt="678" space="\0020" top="208" in="-3:goal" out="1:nobj">to</W>
+<W btm="242" cur="236" lft="686" rgt="810" space="\0020" top="208" in="-1:nobj" out="3:pobj|2:dobj">encourage</W>
+<W btm="242" cur="246" lft="818" rgt="946" space="\0020" top="208" in="1:attr#" out="">developing</W>
+<W btm="242" cur="257" lft="954" rgt="1062" space="\0020" top="208" in="-2:dobj" out="-1:attr#">countries</W>
+<W btm="242" cur="267" lft="1070" rgt="1094" space="\0020" top="208" in="-3:pobj" out="1:nobj">to</W>
+<W btm="242" cur="270" lft="1102" rgt="1132" space="\0020" top="208" in="-1:nobj" out="6:conj|1:@space">go</W>
+<W btm="242" cur="273" lft="1140" rgt="1178" space="\0020" top="208" in="-1:@space" out="1:attr|2:attr|3:nobj">the</W>
+<W btm="308" cur="277" lft="39" rgt="99" space="\0020" top="274" in="-1:attr" out="">extra</W>
+<W btm="308" cur="283" lft="107" rgt="175" space="\0020" top="274" in="-2:attr" out="">green</W>
+<W btm="308" cur="289" lft="183" rgt="232" space="\0020" top="274" in="-3:nobj" out="">mile</W>
+<W btm="308" cur="294" lft="240" rgt="284" space="\0020" top="274" in="1:coord" out="">and</W>
+<W btm="308" cur="298" lft="292" rgt="417" space="\0020" top="274" in="-6:conj" out="2:dobj|-1:coord">implement</W>
+<W btm="308" cur="308" lft="425" rgt="486" space="\0020" top="274" in="1:attr" out="">clean</W>
+<W btm="308" cur="314" lft="494" rgt="642" space="\0020" top="274" in="-2:dobj" out="-1:attr">technologies</W>
+<W cur="326" in="-17:pnct" out="">,</W>
+<W btm="308" cur="328" lft="658" rgt="702" space="\0020" top="274" in="1:coord" out="">and</W>
+<W btm="308" cur="332" lft="710" rgt="773" space="\0020" top="274" in="-19:conj" out="-1:coord|1:add|2:vobj|-20:[subj]">could</W>
+<W btm="308" cur="338" lft="781" rgt="828" space="\0020" top="274" in="-1:add" out="">also</W>
+<W btm="308" cur="343" lft="836" rgt="886" space="\0020" top="274" in="-2:vobj" out="-22:[subj]|1:vobj">help</W>
+<W btm="308" cur="348" lft="894" rgt="999" space="\0020" top="274" in="-1:vobj" out="-23:[subj]|1:dobj">minimise</W>
+<W btm="308" cur="357" lft="1007" rgt="1122" space="\0020" top="274" in="-1:dobj" out="1:attr|1:{source}">emissions</W>
+<W btm="308" cur="367" lft="1130" rgt="1187" space="\0020" top="274" in="-1:attr|-1:{source}" out="1:nobj">from</W>
+<W btm="374" cur="372" lft="39" rgt="196" space="\0020" top="340" in="-1:nobj" out="">deforestation</W>
+<W cur="385" in="-26:pnct" out="">.</W>
+<W btm="374" cur="387" lft="212" rgt="279" space="\0020" top="340" in="9:subj|1:{quant}|10:[subj]" out="1:pobj">Some</W>
+<W btm="374" cur="392" lft="287" rgt="311" space="\0020" top="340" in="-1:pobj" out="-1:{quant}|1:nobj">of</W>
+<W btm="374" cur="395" lft="319" rgt="357" space="\0020" top="340" in="-1:nobj" out="2:attr|3:nobj">the</W>
+<W btm="374" cur="399" lft="365" rgt="424" space="\0020" top="340" in="1:quant" out="">most</W>
+<W btm="374" cur="404" lft="432" rgt="554" space="\0020" top="340" in="-2:attr" out="-1:quant">vulnerable</W>
+<W btm="374" cur="415" lft="562" rgt="670" space="\0020" top="340" in="-3:nobj" out="1:attr|1:{loc}">countries</W>
+<W btm="374" cur="425" lft="678" rgt="702" space="\0020" top="340" in="-1:attr|-1:{loc}" out="1:nobj">of</W>
+<W btm="374" cur="428" lft="710" rgt="748" space="\0020" top="340" in="-1:nobj" out="1:nobj">the</W>
+<W btm="374" cur="432" lft="756" rgt="822" space="\0020" top="340" in="-1:nobj" out="">world</W>
+<W btm="374" cur="438" lft="830" rgt="886" space="\0020" top="340" in="" out="-9:subj|1:vobj|7:pnct|9:conj|15:pnct">have</W>
+<W btm="374" cur="443" lft="894" rgt="1029" space="\0020" top="340" in="-1:vobj" out="-10:[subj]|1:quant|3:pobj">contributed</W>
+<W btm="374" cur="455" lft="1037" rgt="1075" space="\0020" top="340" in="-1:quant" out="1:attr">the</W>
+<W btm="374" cur="459" lft="1083" rgt="1138" space="\0020" top="340" in="-1:attr" out="">least</W>
+<W btm="374" cur="465" lft="1146" rgt="1170" space="\0020" top="340" in="-3:pobj" out="2:nobj">to</W>
+<W btm="440" cur="468" lft="39" rgt="123" space="\0020" top="406" in="1:nobj.subj|1:{patient}#" out="">climate</W>
+<W btm="440" cur="476" lft="131" rgt="216" space="\0020" top="406" in="-2:nobj" out="-1:nobj.subj|-1:{patient}#">change</W>
+<W cur="482" in="-7:pnct" out="">,</W>
+<W btm="440" cur="484" lft="232" rgt="271" space="\0020" top="406" in="1:coord" out="">but</W>
+<W btm="440" cur="488" lft="279" rgt="317" space="\0020" top="406" in="-9:conj" out="-1:coord|1:vobj">are</W>
+<W btm="440" cur="492" lft="325" rgt="414" space="\0020" top="406" in="-1:vobj" out="1:dobj">bearing</W>
+<W btm="440" cur="500" lft="422" rgt="460" space="\0020" top="406" in="-1:dobj" out="1:nobj">the</W>
+<W btm="440" cur="504" lft="468" rgt="532" space="\0020" top="406" in="-1:nobj" out="1:pobj|1:{arg}">brunt</W>
+<W btm="440" cur="510" lft="540" rgt="564" space="\0020" top="406" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
+<W btm="440" cur="513" lft="572" rgt="587" space="\0020" top="406" in="-1:nobj" out="">it</W>
+<W cur="515" in="-15:pnct" out="">.</W>
+<W btm="440" cur="517" lft="603" rgt="734" space="\0020" top="406" in="1:attr#" out="">Developing</W>
+<W btm="440" cur="528" lft="742" rgt="850" space="\0020" top="406" in="5:subj" out="-1:attr#|1:pnct|2:focal">countries</W>
+<W cur="537" in="-1:pnct" out="">,</W>
+<W btm="440" cur="539" lft="866" rgt="887" space="\0020" top="406" in="-2:focal" out="1:nobj|2:pnct">in</W>
+<W btm="440" cur="542" lft="895" rgt="1006" space="\0020" top="406" in="-1:nobj" out="">particular</W>
+<W cur="552" in="-2:pnct" out="">,</W>
+<W btm="440" cur="554" lft="1022" rgt="1080" space="\0020" top="406" in="" out="-5:subj|9:pnct|1:dobj">need</W>
+<W btm="440" cur="559" lft="1088" rgt="1112" space="\0020" top="406" in="-1:dobj" out="1:vobj">to</W>
+<W btm="440" cur="562" lft="1120" rgt="1187" space="\0020" top="406" in="-1:vobj" out="1:pobj">adapt</W>
+<W btm="440" cur="568" lft="1195" rgt="1219" space="\0020" top="406" in="-1:pobj" out="1:nobj">to</W>
+<W btm="506" cur="571" lft="39" rgt="77" space="\0020" top="472" in="-1:nobj" out="1:nobj">the</W>
+<W btm="506" cur="575" lft="85" rgt="164" space="\0020" top="472" in="-1:nobj" out="1:pobj|1:{cause}">effects</W>
+<W btm="506" cur="583" lft="172" rgt="196" space="\0020" top="472" in="-1:pobj|-1:{cause}" out="2:nobj">of</W>
+<W btm="506" cur="586" lft="204" rgt="288" space="\0020" top="472" in="1:nobj.subj|1:{patient}" out="">climate</W>
+<W btm="506" cur="594" lft="296" rgt="381" space="\0020" top="472" in="-2:nobj" out="-1:nobj.subj|-1:{patient}">change</W>
+<W cur="600" in="-9:pnct" out="">.</W>
+<W btm="506" cur="602" lft="397" rgt="525" space="\0020" top="472" in="3:attr|3:{goal}" out="2:conj">Adaptation</W>
+<W btm="506" cur="613" lft="533" rgt="577" space="\0020" top="472" in="1:coord" out="">and</W>
+<W btm="506" cur="617" lft="585" rgt="703" space="\0020" top="472" in="-2:conj" out="-1:coord">mitigation</W>
+<W btm="506" cur="628" lft="711" rgt="789" space="\0020" top="472" in="1:subj|3:[subj]" out="-3:attr|-3:{goal}">efforts</W>
+<W btm="506" cur="636" lft="797" rgt="856" space="\0020" top="472" in="" out="-1:subj|2:vobj|1:cause|6:pnct">must</W>
+<W btm="506" cur="641" lft="864" rgt="974" space="\0020" top="472" in="-1:cause" out="">therefore</W>
+<W btm="506" cur="651" lft="982" rgt="1012" space="\0020" top="472" in="-2:vobj" out="-3:[subj]|1:man">go</W>
+<W btm="506" cur="654" lft="1020" rgt="1079" space="\0020" top="472" in="-1:man" out="1:attr|1:{other}#">hand</W>
+<W btm="506" cur="659" lft="1087" rgt="1108" space="\0020" top="472" in="-1:attr|-1:{other}#" out="1:nobj">in</W>
+<W btm="506" cur="662" lft="1116" rgt="1175" space="\0020" top="472" in="-1:nobj" out="">hand</W>
+<W cur="666" in="-6:pnct" out="">.</W>
+</Text>

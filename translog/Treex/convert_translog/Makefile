@@ -7,10 +7,15 @@ copy:
 	mkdir -p $(DIR)/EN-HI
 	mkdir -p $(DIR)/EN-ES
 	mkdir -p $(DIR)/EN-DA
-	cp -r ../../EN-DA/Translog-II $(DIR)/EN-DA/Translog-II
-	cp -r ../../EN-DA/Alignment $(DIR)/EN-DA/Alignment
-	cp -r ../../EN-ES/Translog-II $(DIR)/EN-ES/Translog-II
-	cp -r ../../EN-ES/Alignment $(DIR)/EN-ES/Alignment
+	mkdir -p $(DIR)/L1L2
+	mkdir -p $(DIR)/ED12
+	cp -r ../../ED12/* $(DIR)/ED12 
+#	cp -r ../../L1L2/Translog-II/ $(DIR)/L1L2/Translog-II
+#	cp -r ../../L1L2/Alignment/ $(DIR)/L1L2/Alignment
+#	cp -r ../../EN-DA/Translog-II/ $(DIR)/EN-DA/Translog-II
+#	cp -r ../../EN-DA/Alignment/ $(DIR)/EN-DA/Alignment
+#	cp -r ../../EN-ES/Translog-II $(DIR)/EN-ES/Translog-II
+#	cp -r ../../EN-ES/Alignment $(DIR)/EN-ES/Alignment
 #	cp -r ../../EN-HI/Translog-II $(DIR)/EN-HI/Translog-II
 #	cp -r ../../EN-HI/Alignment $(DIR)/EN-HI/Alignment
 

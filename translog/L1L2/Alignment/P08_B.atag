@@ -1,0 +1,4 @@
+<DTAGalign>
+    <alignFile key="a" href="P08_B.src" sign="_input"/>
+    <alignFile key="b" href="P08_B.tgt" sign="_input"/>
+</DTAGalign>

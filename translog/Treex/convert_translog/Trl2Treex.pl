@@ -203,11 +203,11 @@ sub CreateTreex {
     elsif($FIX->{$t}{win} == 2) {$id="tgt_".$FIX->{$t}{id};}
     else {next;}
 
-    $doc->wild->{FIX}{$t}{win}  = $FIX->{$t}{'w'};
-    $doc->wild->{FIX}{$t}{dur}  = $FIX->{$t}{'d'};
-    $doc->wild->{FIX}{$t}{cur}  = $FIX->{$t}{'c'};
+    $doc->wild->{FIX}{$t}{win}  = $FIX->{$t}{'win'};
+    $doc->wild->{FIX}{$t}{dur}  = $FIX->{$t}{'dur'};
+    $doc->wild->{FIX}{$t}{cur}  = $FIX->{$t}{'cur'};
     $doc->wild->{FIX}{$t}{id}   = $id;
-    $doc->wild->{FIX}{$t}{unit} = $FIX->{$t}{'fu'};
+#    $doc->wild->{FIX}{$t}{unit} = $FIX->{$t}{'fu'};
   }
 
   foreach my $t (keys %{$KEY}) {
