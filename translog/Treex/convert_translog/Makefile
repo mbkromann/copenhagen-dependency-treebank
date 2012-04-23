@@ -9,7 +9,8 @@ copy:
 	mkdir -p $(DIR)/EN-DA
 	mkdir -p $(DIR)/L1L2
 	mkdir -p $(DIR)/ED12
-	cp -r ../../ED12/* $(DIR)/ED12 
+#	cp -r ../../ED12/* $(DIR)/ED12 
+	cp -r ../../EN-DA/* $(DIR)/EN-DA 
 #	cp -r ../../L1L2/Translog-II/ $(DIR)/L1L2/Translog-II
 #	cp -r ../../L1L2/Alignment/ $(DIR)/L1L2/Alignment
 #	cp -r ../../EN-DA/Translog-II/ $(DIR)/EN-DA/Translog-II

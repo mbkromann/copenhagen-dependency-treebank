@@ -20,6 +20,7 @@
     <ChineseKeys>false</ChineseKeys>
     <fullScreen>false</fullScreen>
     <lockWindows>false</lockWindows>
+    <Languages source="en" target="es" />
     <Plugins>
       <Key_Logger />
       <EyeSampler />
