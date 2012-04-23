@@ -9,8 +9,12 @@ copy:
 	mkdir -p $(DIR)/EN-DA
 	mkdir -p $(DIR)/L1L2
 	mkdir -p $(DIR)/ED12
+	mkdir -p $(DIR)/EN-DE_TPR-PE
+	mkdir -p $(DIR)/EN-PT_TPR-PE
+	cp -r ../../EN-DE_TPR-PE/* $(DIR)/EN-DE_TPR-PE 
+	cp -r ../..//EN-PT_TPR-PE/* $(DIR)/EN-PT_TPR-PE
 #	cp -r ../../ED12/* $(DIR)/ED12 
-	cp -r ../../EN-DA/* $(DIR)/EN-DA 
+#	cp -r ../../EN-DA/* $(DIR)/EN-DA 
 #	cp -r ../../L1L2/Translog-II/ $(DIR)/L1L2/Translog-II
 #	cp -r ../../L1L2/Alignment/ $(DIR)/L1L2/Alignment
 #	cp -r ../../EN-DA/Translog-II/ $(DIR)/EN-DA/Translog-II
