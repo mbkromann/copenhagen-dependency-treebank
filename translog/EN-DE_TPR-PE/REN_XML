@@ -1,0 +1,10 @@
+cp Translog-II/back/PE-Eye-KillerNurse-German-Annie-T2-T1750.xml	Translog-II/P01_P1.xml
+cp Translog-II/back/PE-Eye-KillerNurse-German-Matthias-T2-T1750.xml	Translog-II/P02_P1.xml
+cp Translog-II/back/PE-Eye-KillerNurse-German-Moritz-T2-T1750.xml	Translog-II/P03_P1.xml
+cp Translog-II/back/PE-Eye-KillerNurse-German-Ragnar-T2-T120.xml	Translog-II/P04_P1.xml
+cp Translog-II/back/PE-Eye-KillerNurse-German-Tatiana-T2-T120.xml	Translog-II/P05_P1.xml
+
+cp Translog-II/back/PE-Eye-Spielberg-German-Annie-T2-T1750.xml	Translog-II/P01_P3.xml
+cp Translog-II/back/PE-Eye-Spielberg-German-Mority-T2-T1750.xml	Translog-II/P03_P3.xml
+cp Translog-II/back/PE-Eye-Spielberg-German-Ragnar-T2-T120.xml	Translog-II/P04_P3.xml
+cp Translog-II/back/PE-Eye-Spielberg-German-Tatiana-T2-T120.xml	Translog-II/P05_P3.xml

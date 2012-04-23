@@ -1,0 +1,10 @@
+cp Translog-II/PE-Eye-KillerNurse-Portuguese-Adriana-T2-T120.xml	Translog-II/P01_T1.xml
+cp Translog-II/PE-Eye-KillerNurse-Portuguese-Barto-T2-T1750.xml	Translog-II/P02_T1.xml
+cp Translog-II/PE-Eye-KillerNurse-Portuguese-Carlos-T2-T1750.xml	Translog-II/P03_T1.xml
+cp Translog-II/PE-Eye-KillerNurse-Portuguese-Fabio-T2-T120.xml	Translog-II/P04_T1.xml
+cp Translog-II/PE-Eye-KillerNurse-Portuguese-Marcia-T2-T120.xml	Translog-II/P05_T1.xml
+cp Translog-II/PE-Eye-Spielberg-Portuguese-Adriana-T2-T120.xml	Translog-II/P01_T3.xml
+cp Translog-II/PE-Eye-Spielberg-Portuguese-Barto-T2-T1750.xml	Translog-II/P02_T3.xml
+cp Translog-II/PE-Eye-Spielberg-Portuguese-Carlos-T2-T1750.xml	Translog-II/P03_T3.xml
+cp Translog-II/PE-Eye-Spielberg-Portuguese-Fabio-T2-T120.xml	Translog-II/P04_T3.xml
+cp Translog-II/PE-Eye-Spielberg-Portuguese-Marcia-T2-T120.xml	Translog-II/P05_T3.xml

@@ -1,0 +1,143 @@
+<DTAGalign>
+<alignFile key="a" href="PE-Eye-Spielberg-Portuguese-Fabio-T120.src" sign="_input"/>
+<alignFile key="b" href="PE-Eye-Spielberg-Portuguese-Fabio-T120.tgt" sign="_input"/>
+<align out="a1" type="" in="b1" creator="0" insign="Spielberg" outsign="Spielberg"/>
+<align out="a4 a5" type="" in="b3 b4 b5" creator="0" insign="o cartão vermelho" outsign="red card"/>
+<align out="a3" type="" in="b7" creator="0" insign="Beijing" outsign="Beijing"/>
+<align out="a6" type="" in="b8 b9 b10 b11 b12" creator="0" insign="no caso dos problemas em" outsign="over"/>
+<align out="a7" type="" in="b13" creator="0" insign="Darfur" outsign="Darfur"/>
+<align out="a8" type="" in="b14" creator="0" insign="Em" outsign="In"/>
+<align out="a9" type="" in="b15" creator="0" insign="um" outsign="a"/>
+<align out="a10" type="" in="b16" creator="0" insign="gesto" outsign="gesture"/>
+<align out="a10" type="" in="b17" creator="0" insign="que" outsign="gesture"/>
+<align out="b18" type="" in="b18" creator="0" insign="," outsign=","/>
+<align out="b21" type="" in="b21" creator="0" insign="," outsign=","/>
+<align out="a11" type="" in="b19" creator="0" insign="com" outsign="sure"/>
+<align out="a11" type="" in="b20" creator="0" insign="certeza" outsign="sure"/>
+<align out="a11" type="" in="b22" creator="0" insign="vai" outsign="sure"/>
+<align out="a2" type="" in="b2" creator="0" insign="mostra" outsign="shows"/>
+<align out="a2" type="" in="b6" creator="0" insign="a" outsign="shows"/>
+<align out="a12 a13" type="" in="b23 b24 b25" creator="0" insign="criar embaracis para" outsign="to rattle"/>
+<align out="a14" type="" in="b26" creator="0" insign="o" outsign="the"/>
+<align out="a15" type="" in="b28" creator="0" insign="chinês" outsign="Chinese"/>
+<align out="a16" type="" in="b27" creator="0" insign="governo" outsign="Government"/>
+<align out="a17" type="" in="b29" creator="0" insign="," outsign=","/>
+<align out="a18" type="" in="b30" creator="0" insign="Steven" outsign="Steven"/>
+<align out="a19" type="" in="b31" creator="0" insign="Spielberg" outsign="Spielberg"/>
+<align out="a20 a21 a22" type="" in="b32 b33 b34" creator="0" insign="cancelou sua participacao" outsign="pulled out of"/>
+<align out="a23" type="" in="b35" creator="0" insign="nas" outsign="the"/>
+<align out="a24" type="" in="b37 b38" creator="0" insign="de Pequim" outsign="Beijing"/>
+<align out="a25" type="" in="b36" creator="0" insign="Olimpíadas" outsign="Olympics"/>
+<align out="a26" type="" in="b39 b40 b41 b42" creator="0" insign="com o objetivo de" outsign="to"/>
+<align out="a27" type="" in="b43" creator="0" insign="protestar" outsign="protest"/>
+<align out="a28" type="" in="b44" creator="0" insign="contra" outsign="against"/>
+<align out="a31" type="" in="b45 b46" creator="0" insign="o apoio" outsign="backing"/>
+<align out="a30" type="" in="b47" creator="0" insign="da" outsign="'s"/>
+<align out="a29" type="" in="b48" creator="0" insign="China" outsign="China"/>
+<align out="a32" type="" in="b49" creator="0" insign="a" outsign="for"/>
+<align out="a35" type="" in="b50 b51" creator="0" insign="crise política" outsign="policy"/>
+<align out="a33 a34" type="" in="b53" creator="0" insign="Sudão" outsign="Sudan 's"/>
+<align out="a33 a34" type="" in="b52 b53" creator="0" insign="no Sudão" outsign="Sudan 's"/>
+<align out="a36" type="" in="b56" creator="0" insign="na" outsign="in"/>
+<align out="a37" type="" in="b57 b58 b59" creator="0" insign="cidade de Darfur" outsign="Darfur"/>
+<align out="a38" type="" in="b60" creator="0" insign="." outsign="."/>
+<align out="b54" type="" in="b54" creator="0" insign="," outsign=","/>
+<align out="b55" type="" in="b55" creator="0" insign="particularmente" outsign="particularmente"/>
+<align out="a39" type="" in="b61 b63 b64" creator="0" insign="A de Spielberg" outsign="His"/>
+<align out="a40" type="" in="b62" creator="0" insign="desistencia" outsign="withdrawal"/>
+<align out="a41" type="" in="b66 b67" creator="0" insign="coincide com" outsign="comes"/>
+<align out="b65" type="" in="b65" creator="0" insign="surge" outsign="surge"/>
+<align out="a49" type="" in="b71" creator="0" insign="novamente" outsign="again"/>
+<align out="a50" type="" in="b72" creator="0" insign="em" outsign="in"/>
+<align out="a51" type="" in="b73" creator="0" insign="Darfur" outsign="Darfur"/>
+<align out="a42 a43 a44 a45 a46 a47 a48" type="" in="b68 b69 b70" creator="0" insign="os incidentes registrados" outsign="in the wake of fighting flaring up"/>
+<align out="a52" type="" in="b74" creator="0" insign="e" outsign="and"/>
+<align out="a53 a54 a55 a56" type="" in="b75 b76 b77" creator="0" insign="criara constrangimentos a" outsign="is set to embarrass"/>
+<align out="a57" type="" in="b78" creator="0" insign="China" outsign="China"/>
+<align out="a58" type="" in="b79" creator="0" insign="," outsign=","/>
+<align out="a59" type="" in="b80" creator="0" insign="que" outsign="which"/>
+<align out="a60" type="" in="b81" creator="0" insign="tem" outsign="has"/>
+<align out="a61" type="" in="b82" creator="0" insign="procurado" outsign="sought"/>
+<align out="a62 a63" type="" in="b83" creator="0" insign="evitar" outsign="to halt"/>
+<align out="a64" type="" in="b84" creator="0" insign="as" outsign="the"/>
+<align out="a65" type="" in="b86" creator="0" insign="negativas" outsign="negative"/>
+<align out="a66" type="" in="b85" creator="0" insign="conseqüências" outsign="fallout"/>
+<align out="a67" type="" in="b87" creator="0" insign="sobre" outsign="from"/>
+<align out="a70" type="" in="b88 b90" creator="0" insign="os laços" outsign="ties"/>
+<align out="a69" type="" in="b89" creator="0" insign="estreitos" outsign="close"/>
+<align out="a68" type="" in="b91 b92 b93" creator="0" insign="que o pais" outsign="having"/>
+<align out="a68" type="" in="b94" creator="0" insign="mantem" outsign="having"/>
+<align out="a71" type="" in="b95" creator="0" insign="com" outsign="to"/>
+<align out="a72" type="" in="b96" creator="0" insign="o" outsign="the"/>
+<align out="a73" type="" in="b98" creator="0" insign="sudanês" outsign="Sudanese"/>
+<align out="a74" type="" in="b97" creator="0" insign="governo" outsign="government"/>
+<align out="a75" type="" in="b99" creator="0" insign="." outsign="."/>
+<align out="a76" type="" in="b100 b101" creator="0" insign="A China" outsign="China"/>
+<align out="a77" type="" in="a77" creator="0" insign="," outsign=","/>
+<align out="a79" type="" in="b102" creator="0" insign="tem" outsign="has"/>
+<align out="a80" type="" in="b103" creator="0" insign="grandes" outsign="extensive"/>
+<align out="a81" type="" in="b104" creator="0" insign="investimentos" outsign="investments"/>
+<align out="a82 a83" type="" in="b105" creator="0" insign="na" outsign="in the"/>
+<align out="a86" type="" in="b106" creator="0" insign="indústria" outsign="industry"/>
+<align out="a85" type="" in="b107" creator="0" insign="petrolífera" outsign="oil"/>
+<align out="a84" type="" in="b108 b109" creator="0" insign="do Sudão" outsign="Sudanese"/>
+<align out="a87" type="" in="a87" creator="0" insign="," outsign=","/>
+<align out="b110" type="" in="b110" creator="0" insign="." outsign="."/>
+<align out="a89" type="" in="b112" creator="0" insign="estreitas" outsign="close"/>
+<align out="a90" type="" in="b113" creator="0" insign="ligações" outsign="links"/>
+<align out="a91" type="" in="b114" creator="0" insign="com" outsign="with"/>
+<align out="a92" type="" in="b115" creator="0" insign="o" outsign="the"/>
+<align out="a93" type="" in="b116 b117" creator="0" insign="governo sudanes" outsign="Government"/>
+<align out="a95" type="" in="b113" creator="0" insign="ligações" outsign="which"/>
+<align out="a96" type="" in="b118" creator="0" insign="incluem" outsign="includes"/>
+<align out="a78" type="" in="b111" creator="0" insign="Suas" outsign="which"/>
+<align out="a88" type="" in="a88" creator="0" insign="maintains" outsign="maintains"/>
+<align out="a97" type="" in="b122" creator="0" insign="um" outsign="one"/>
+<align out="a98" type="" in="b123" creator="0" insign="ministro" outsign="minister"/>
+<align out="a99" type="" in="b124" creator="0" insign="acusado" outsign="charged"/>
+<align out="a99 a100" type="" in="b124 b125" creator="0" insign="acusado de" outsign="charged with"/>
+<align out="a101" type="" in="b126" creator="0" insign="crimes" outsign="crimes"/>
+<align out="a102" type="" in="b127" creator="0" insign="contra" outsign="against"/>
+<align out="a103" type="" in="b128 b129" creator="0" insign="a humanidade" outsign="humanity"/>
+<align out="a104 a105" type="" in="b130" creator="0" insign="pela" outsign="by the"/>
+<align out="a106" type="" in="b132" creator="0" insign="Internacional" outsign="International"/>
+<align out="a107 a108" type="" in="b131" creator="0" insign="Corte" outsign="Criminal Court"/>
+<align out="a109" type="" in="b133" creator="0" insign="em" outsign="in"/>
+<align out="a110 a111" type="" in="b134" creator="0" insign="Haia" outsign="The Hague"/>
+<align out="a112" type="" in="b135" creator="0" insign="." outsign="."/>
+<align out="a113" type="" in="b136" creator="0" insign="Embora" outsign="Although"/>
+<align out="a114" type="" in="b137 b138" creator="0" insign="tenha enfatizado" outsign="emphasizing"/>
+<align out="a115" type="" in="b139" creator="0" insign="que" outsign="that"/>
+<align out="a116" type="" in="b140" creator="0" insign="Cartum" outsign="Khartoum"/>
+<align out="a117" type="" in="b141" creator="0" insign="tem" outsign="bears"/>
+<align out="a118" type="" in="b142" creator="0" insign="a" outsign="the"/>
+<align out="a119" type="" in="b143 b144" creator="0" insign="maior parte" outsign="bulk"/>
+<align out="a120 a121" type="" in="b145" creator="0" insign="da" outsign="of the"/>
+<align out="a122" type="" in="b146" creator="0" insign="responsabilidade" outsign="responsibility"/>
+<align out="a126" type="" in="b148" creator="0" insign="atrocidades" outsign="atrocities"/>
+<align out="a123 a124" type="" in="b147" creator="0" insign="pelas" outsign="for these"/>
+<align out="a125" type="" in="a125" creator="0" insign="ongoing" outsign="ongoing"/>
+<align out="a127" type="" in="b149" creator="0" insign="," outsign=","/>
+<align out="a128" type="" in="b150" creator="0" insign="Spielberg" outsign="Spielberg"/>
+<align out="a129" type="" in="b151" creator="0" insign="afirma" outsign="maintains"/>
+<align out="a131" type="" in="b153" creator="0" insign="a" outsign="the"/>
+<align out="a130" type="" in="b152" creator="0" insign="que" outsign="that"/>
+<align out="a133" type="" in="b154" creator="0" insign="comunidade" outsign="community"/>
+<align out="a132" type="" in="b155" creator="0" insign="internacional" outsign="international"/>
+<align out="a134" type="" in="b156" creator="0" insign="," outsign=","/>
+<align out="a135" type="" in="b157" creator="0" insign="e" outsign="and"/>
+<align out="a136" type="" in="b158" creator="0" insign="particularmente" outsign="particularly"/>
+<align out="a137" type="" in="b159 b160" creator="0" insign="a China" outsign="China"/>
+<align out="a138" type="" in="b161" creator="0" insign="," outsign=","/>
+<align out="a139" type="" in="b162" creator="0" insign="deveria" outsign="should"/>
+<align out="a140" type="" in="b163" creator="0" insign="fazer" outsign="do"/>
+<align out="a141" type="" in="b164" creator="0" insign="mais" outsign="more"/>
+<align out="a142" type="" in="b165" creator="0" insign="para" outsign="to"/>
+<align out="a143" type="" in="b166 b167" creator="0" insign="acabar com" outsign="end"/>
+<align out="a144" type="" in="b168" creator="0" insign="o" outsign="the"/>
+<align out="a145" type="" in="b169" creator="0" insign="sofrimento" outsign="suffering"/>
+<align out="b119" type="" in="b119" creator="0" insign="o" outsign="o"/>
+<align out="b120" type="" in="b120" creator="0" insign="problema" outsign="problema"/>
+<align out="b121" type="" in="b121" creator="0" insign="de" outsign="de"/>
+<align out="a94" type="" in="a94" creator="0" insign="," outsign=","/>
+</DTAGalign>
