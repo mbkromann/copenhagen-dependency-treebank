@@ -1,161 +1,162 @@
 <Text>
-<W id="1" cur="0" x="3" y="27" w="69" h="34">Killer</W>
-<W id="2" cur="7" space="\0020" x="70" y="27" w="77" h="34">nurse</W>
-<W id="3" cur="13" space="\0020" x="145" y="27" w="111" h="34">receives</W>
-<W id="4" cur="22" space="\0020" x="254" y="27" w="56" h="34">four</W>
-<W id="5" cur="27" space="\0020" x="308" y="27" w="44" h="34">life</W>
-<W id="6" cur="32" space="\0020" x="350" y="27" w="134" h="34">sentences</W>
-<W id="7" cur="42" space="\000a" x="3" y="65" w="108" h="34">Hospital</W>
-<W id="8" cur="51" space="\0020" x="109" y="65" w="77" h="34">nurse</W>
-<W id="9" cur="57" space="\0020" x="184" y="65" w="71" h="34">Colin</W>
-<W id="10" cur="63" space="\0020" x="253" y="65" w="82" h="34">Norris</W>
-<W id="11" cur="70" space="\0020" x="333" y="65" w="58" h="34">was</W>
-<W id="12" cur="74" space="\0020" x="389" y="65" w="141" h="34">imprisoned</W>
-<W id="13" cur="85" space="\0020" x="528" y="65" w="41" h="34">for</W>
-<W id="14" cur="89" space="\0020" x="567" y="65" w="44" h="34">life</W>
-<W id="15" cur="94" space="\0020" x="609" y="65" w="76" h="34">today</W>
-<W id="16" cur="100" space="\0020" x="683" y="65" w="41" h="34">for</W>
-<W id="17" cur="104" space="\0020" x="722" y="65" w="47" h="34">the</W>
-<W id="18" cur="108" space="\0020" x="767" y="65" w="77" h="34">killing</W>
-<W id="19" cur="116" space="\0020" x="842" y="65" w="31" h="34">of</W>
-<W id="20" cur="119" space="\0020" x="872" y="65" w="56" h="34">four</W>
-<W id="21" cur="124" space="\0020" x="926" y="65" w="31" h="34">of</W>
-<W id="22" cur="127" space="\0020" x="956" y="65" w="44" h="34">his</W>
-<W id="23" cur="131" space="\0020" x="998" y="65" w="105" h="34">patients</W>
-<W id="24" cur="139" x="1094" y="65" w="16" h="34">.</W>
-<W id="25" cur="141" space="\0020" x="1109" y="65" w="39" h="34">32</W>
-<W id="26" cur="144" space="\0020" x="1146" y="65" w="62" h="34">year</W>
-<W id="27" cur="149" space="\0020" x="3" y="96" w="45" h="34">old</W>
-<W id="28" cur="153" space="\0020" x="46" y="96" w="82" h="34">Norris</W>
-<W id="29" cur="160" space="\0020" x="126" y="96" w="64" h="34">from</W>
-<W id="30" cur="165" space="\0020" x="187" y="96" w="115" h="34">Glasgow</W>
-<W id="31" cur="173" space="\0020" x="300" y="96" w="71" h="34">killed</W>
-<W id="32" cur="180" space="\0020" x="369" y="96" w="47" h="34">the</W>
-<W id="33" cur="184" space="\0020" x="414" y="96" w="56" h="34">four</W>
-<W id="34" cur="189" space="\0020" x="468" y="96" w="96" h="34">women</W>
-<W id="35" cur="195" space="\0020" x="562" y="96" w="30" h="34">in</W>
-<W id="36" cur="198" space="\0020" x="590" y="96" w="69" h="34">2002</W>
-<W id="37" cur="203" space="\0020" x="657" y="96" w="38" h="34">by</W>
-<W id="38" cur="206" space="\0020" x="693" y="96" w="80" h="34">giving</W>
-<W id="39" cur="213" space="\0020" x="771" y="96" w="70" h="34">them</W>
-<W id="40" cur="218" space="\0020" x="838" y="96" w="69" h="34">large</W>
-<W id="41" cur="224" space="\0020" x="905" y="96" w="113" h="34">amounts</W>
-<W id="42" cur="232" space="\0020" x="1016" y="96" w="31" h="34">of</W>
-<W id="43" cur="235" space="\0020" x="1046" y="96" w="110" h="34">sleeping</W>
-<W id="44" cur="244" space="\0020" x="3" y="127" w="117" h="34">medicine</W>
-<W id="45" cur="252" x="111" y="127" w="16" h="34">.</W>
-<W id="46" cur="254" space="\0020" x="126" y="127" w="132" h="34">Yesterday</W>
-<W id="47" cur="263" x="249" y="127" w="16" h="34">,</W>
-<W id="48" cur="265" space="\0020" x="264" y="127" w="39" h="34">he</W>
-<W id="49" cur="268" space="\0020" x="301" y="127" w="58" h="34">was</W>
-<W id="50" cur="272" space="\0020" x="357" y="127" w="77" h="34">found</W>
-<W id="51" cur="278" space="\0020" x="432" y="127" w="73" h="34">guilty</W>
-<W id="52" cur="285" space="\0020" x="503" y="127" w="31" h="34">of</W>
-<W id="53" cur="288" space="\0020" x="533" y="127" w="56" h="34">four</W>
-<W id="54" cur="293" space="\0020" x="587" y="127" w="90" h="34">counts</W>
-<W id="55" cur="300" space="\0020" x="675" y="127" w="31" h="34">of</W>
-<W id="56" cur="303" space="\0020" x="705" y="127" w="94" h="34">murder</W>
-<W id="57" cur="310" space="\0020" x="797" y="127" w="115" h="34">following</W>
-<W id="58" cur="320" space="\0020" x="910" y="127" w="24" h="34">a</W>
-<W id="59" cur="322" space="\0020" x="932" y="127" w="60" h="34">long</W>
-<W id="60" cur="327" space="\0020" x="990" y="127" w="53" h="34">trial</W>
-<W id="61" cur="332" x="1034" y="127" w="16" h="34">.</W>
-<W id="62" cur="334" space="\0020" x="1049" y="127" w="44" h="34">He</W>
-<W id="63" cur="337" space="\0020" x="1091" y="127" w="58" h="34">was</W>
-<W id="64" cur="341" space="\0020" x="3" y="158" w="74" h="34">given</W>
-<W id="65" cur="347" space="\0020" x="75" y="158" w="56" h="34">four</W>
-<W id="66" cur="352" space="\0020" x="129" y="158" w="44" h="34">life</W>
-<W id="67" cur="357" space="\0020" x="171" y="158" w="134" h="34">sentences</W>
-<W id="68" cur="366" x="296" y="158" w="16" h="34">,</W>
-<W id="69" cur="368" space="\0020" x="311" y="158" w="54" h="34">one</W>
-<W id="70" cur="372" space="\0020" x="363" y="158" w="41" h="34">for</W>
-<W id="71" cur="376" space="\0020" x="402" y="158" w="68" h="34">each</W>
-<W id="72" cur="381" space="\0020" x="468" y="158" w="31" h="34">of</W>
-<W id="73" cur="384" space="\0020" x="498" y="158" w="47" h="34">the</W>
-<W id="74" cur="388" space="\0020" x="543" y="158" w="91" h="34">killings</W>
-<W id="75" cur="396" x="625" y="158" w="16" h="34">.</W>
-<W id="76" cur="398" space="\0020" x="640" y="158" w="44" h="34">He</W>
-<W id="77" cur="401" space="\0020" x="682" y="158" w="47" h="34">will</W>
-<W id="78" cur="406" space="\0020" x="727" y="158" w="68" h="34">have</W>
-<W id="79" cur="411" space="\0020" x="793" y="158" w="32" h="34">to</W>
-<W id="80" cur="414" space="\0020" x="823" y="158" w="76" h="34">serve</W>
-<W id="81" cur="420" space="\0020" x="897" y="158" w="31" h="34">at</W>
-<W id="82" cur="423" space="\0020" x="927" y="158" w="66" h="34">least</W>
-<W id="83" cur="429" space="\0020" x="992" y="158" w="39" h="34">30</W>
-<W id="84" cur="432" space="\0020" x="1029" y="158" w="76" h="34">years</W>
-<W id="85" cur="437" x="1096" y="158" w="16" h="34">.</W>
-<W id="86" cur="439" space="\0020" x="1111" y="158" w="83" h="34">Police</W>
-<W id="87" cur="446" space="\0020" x="3" y="189" w="84" h="34">officer</W>
-<W id="88" cur="454" space="\0020" x="85" y="189" w="73" h="34">Chris</W>
-<W id="89" cur="460" space="\0020" x="156" y="189" w="84" h="34">Gregg</W>
-<W id="90" cur="466" space="\0020" x="238" y="189" w="59" h="34">said</W>
-<W id="91" cur="471" space="\0020" x="295" y="189" w="54" h="34">that</W>
-<W id="92" cur="476" space="\0020" x="348" y="189" w="82" h="34">Norris</W>
-<W id="93" cur="483" space="\0020" x="428" y="189" w="54" h="34">had</W>
-<W id="94" cur="487" space="\0020" x="480" y="189" w="69" h="34">been</W>
-<W id="95" cur="492" space="\0020" x="547" y="189" w="82" h="34">acting</W>
-<W id="96" cur="499" space="\0020" x="627" y="189" w="120" h="34">strangely</W>
-<W id="97" cur="509" space="\0020" x="745" y="189" w="93" h="34">around</W>
-<W id="98" cur="516" space="\0020" x="836" y="189" w="47" h="34">the</W>
-<W id="99" cur="520" space="\0020" x="881" y="189" w="103" h="34">hospital</W>
-<W id="100" cur="528" x="975" y="189" w="16" h="34">.</W>
-<W id="101" cur="530" space="\0020" x="990" y="189" w="65" h="34">Only</W>
-<W id="102" cur="535" space="\0020" x="1053" y="189" w="47" h="34">the</W>
-<W id="103" cur="539" space="\0020" x="3" y="220" w="141" h="34">awareness</W>
-<W id="104" cur="549" space="\0020" x="142" y="220" w="31" h="34">of</W>
-<W id="105" cur="552" space="\0020" x="172" y="220" w="71" h="34">other</W>
-<W id="106" cur="558" space="\0020" x="241" y="220" w="103" h="34">hospital</W>
-<W id="107" cur="567" space="\0020" x="342" y="220" w="61" h="34">staff</W>
-<W id="108" cur="573" space="\0020" x="402" y="220" w="46" h="34">put</W>
-<W id="109" cur="577" space="\0020" x="447" y="220" w="24" h="34">a</W>
-<W id="110" cur="579" space="\0020" x="469" y="220" w="61" h="34">stop</W>
-<W id="111" cur="584" space="\0020" x="528" y="220" w="32" h="34">to</W>
-<W id="112" cur="587" space="\0020" x="558" y="220" w="53" h="34">him</W>
-<W id="113" cur="591" space="\0020" x="608" y="220" w="54" h="34">and</W>
-<W id="114" cur="595" space="\0020" x="660" y="220" w="32" h="34">to</W>
-<W id="115" cur="598" space="\0020" x="690" y="220" w="47" h="34">the</W>
-<W id="116" cur="602" space="\0020" x="735" y="220" w="91" h="34">killings</W>
-<W id="117" cur="610" x="817" y="220" w="16" h="34">.</W>
-<W id="118" cur="612" space="\0020" x="832" y="220" w="56" h="34">The</W>
-<W id="119" cur="616" space="\0020" x="886" y="220" w="80" h="34">police</W>
-<W id="120" cur="623" space="\0020" x="964" y="220" w="68" h="34">have</W>
-<W id="121" cur="628" space="\0020" x="1030" y="220" w="99" h="34">learned</W>
-<W id="122" cur="636" space="\0020" x="1127" y="220" w="54" h="34">that</W>
-<W id="123" cur="641" space="\0020" x="3" y="251" w="47" h="34">the</W>
-<W id="124" cur="645" space="\0020" x="48" y="251" w="89" h="34">motive</W>
-<W id="125" cur="652" space="\0020" x="135" y="251" w="41" h="34">for</W>
-<W id="126" cur="656" space="\0020" x="174" y="251" w="47" h="34">the</W>
-<W id="127" cur="660" space="\0020" x="219" y="251" w="91" h="34">killings</W>
-<W id="128" cur="669" space="\0020" x="308" y="251" w="58" h="34">was</W>
-<W id="129" cur="673" space="\0020" x="364" y="251" w="54" h="34">that</W>
-<W id="130" cur="678" space="\0020" x="417" y="251" w="82" h="34">Norris</W>
-<W id="131" cur="685" space="\0020" x="497" y="251" w="100" h="34">disliked</W>
-<W id="132" cur="694" space="\0020" x="595" y="251" w="103" h="34">working</W>
-<W id="133" cur="702" space="\0020" x="696" y="251" w="58" h="34">with</W>
-<W id="134" cur="707" space="\0020" x="752" y="251" w="45" h="34">old</W>
-<W id="135" cur="711" space="\0020" x="795" y="251" w="90" h="34">people</W>
-<W id="136" cur="717" x="876" y="251" w="16" h="34">.</W>
-<W id="137" cur="719" space="\0020" x="891" y="251" w="39" h="34">All</W>
-<W id="138" cur="723" space="\0020" x="928" y="251" w="31" h="34">of</W>
-<W id="139" cur="726" space="\0020" x="958" y="251" w="44" h="34">his</W>
-<W id="140" cur="730" space="\0020" x="1000" y="251" w="93" h="34">victims</W>
-<W id="141" cur="738" space="\0020" x="1091" y="251" w="68" h="34">were</W>
-<W id="142" cur="743" space="\0020" x="1157" y="251" w="45" h="34">old</W>
-<W id="143" cur="747" space="\0020" x="3" y="282" w="73" h="34">weak</W>
-<W id="144" cur="752" space="\0020" x="74" y="282" w="96" h="34">women</W>
-<W id="145" cur="758" space="\0020" x="168" y="282" w="58" h="34">with</W>
-<W id="146" cur="763" space="\0020" x="224" y="282" w="70" h="34">heart</W>
-<W id="147" cur="769" space="\0020" x="293" y="282" w="120" h="34">problems</W>
-<W id="148" cur="777" x="404" y="282" w="16" h="34">.</W>
-<W id="149" cur="779" space="\0020" x="419" y="282" w="39" h="34">All</W>
-<W id="150" cur="783" space="\0020" x="456" y="282" w="31" h="34">of</W>
-<W id="151" cur="786" space="\0020" x="486" y="282" w="70" h="34">them</W>
-<W id="152" cur="791" space="\0020" x="553" y="282" w="74" h="34">could</W>
-<W id="153" cur="797" space="\0020" x="625" y="282" w="39" h="34">be</W>
-<W id="154" cur="800" space="\0020" x="662" y="282" w="142" h="34">considered</W>
-<W id="155" cur="811" space="\0020" x="802" y="282" w="24" h="34">a</W>
-<W id="156" cur="813" space="\0020" x="824" y="282" w="93" h="34">burden</W>
-<W id="157" cur="820" space="\0020" x="915" y="282" w="32" h="34">to</W>
-<W id="158" cur="823" space="\0020" x="945" y="282" w="103" h="34">hospital</W>
-<W id="159" cur="832" space="\0020" x="1046" y="282" w="61" h="34">staff</W>
+<W cur="0" id="1">Killer</W>
+<W cur="7" id="2" space="\0020">nurse</W>
+<W cur="13" id="3" space="\0020">receives</W>
+<W cur="22" id="4" space="\0020">four</W>
+<W cur="27" id="5" space="\0020">life</W>
+<W cur="32" id="6" space="\0020">sentences</W>
+<W cur="42" id="7" space="\000a">Hospital</W>
+<W cur="51" id="8" space="\0020">nurse</W>
+<W cur="57" id="9" space="\0020">Colin</W>
+<W cur="63" id="10" space="\0020">Norris</W>
+<W cur="70" id="11" space="\0020">was</W>
+<W cur="74" id="12" space="\0020">imprisoned</W>
+<W cur="85" id="13" space="\0020">for</W>
+<W cur="89" id="14" space="\0020">life</W>
+<W cur="94" id="15" space="\0020">today</W>
+<W cur="100" id="16" space="\0020">for</W>
+<W cur="104" id="17" space="\0020">the</W>
+<W cur="108" id="18" space="\0020">killing</W>
+<W cur="116" id="19" space="\0020">of</W>
+<W cur="119" id="20" space="\0020">four</W>
+<W cur="124" id="21" space="\0020">of</W>
+<W cur="127" id="22" space="\0020">his</W>
+<W cur="131" id="23" space="\0020">patients</W>
+<W cur="139" id="24">.</W>
+<W cur="141" id="25" space="\0020">32</W>
+<W cur="144" id="26" space="\0020">year</W>
+<W cur="149" id="27" space="\0020">old</W>
+<W cur="153" id="28" space="\0020">Norris</W>
+<W cur="160" id="29" space="\0020">from</W>
+<W cur="165" id="30" space="\0020">Glasgow</W>
+<W cur="173" id="31" space="\0020">killed</W>
+<W cur="180" id="32" space="\0020">the</W>
+<W cur="184" id="33" space="\0020">four</W>
+<W cur="189" id="34" space="\0020">women</W>
+<W cur="195" id="35" space="\0020">in</W>
+<W cur="198" id="36" space="\0020">2002</W>
+<W cur="203" id="37" space="\0020">by</W>
+<W cur="206" id="38" space="\0020">giving</W>
+<W cur="213" id="39" space="\0020">them</W>
+<W cur="218" id="40" space="\0020">large</W>
+<W cur="224" id="41" space="\0020">amounts</W>
+<W cur="232" id="42" space="\0020">of</W>
+<W cur="235" id="43" space="\0020">sleeping</W>
+<W cur="244" id="44" space="\0020">medicine</W>
+<W cur="252" id="45">.</W>
+<W cur="254" id="46" space="\0020">Yesterday</W>
+<W cur="263" id="47">,</W>
+<W cur="265" id="48" space="\0020">he</W>
+<W cur="268" id="49" space="\0020">was</W>
+<W cur="272" id="50" space="\0020">found</W>
+<W cur="278" id="51" space="\0020">guilty</W>
+<W cur="285" id="52" space="\0020">of</W>
+<W cur="288" id="53" space="\0020">four</W>
+<W cur="293" id="54" space="\0020">counts</W>
+<W cur="300" id="55" space="\0020">of</W>
+<W cur="303" id="56" space="\0020">murder</W>
+<W cur="310" id="57" space="\0020">following</W>
+<W cur="320" id="58" space="\0020">a</W>
+<W cur="322" id="59" space="\0020">long</W>
+<W cur="327" id="60" space="\0020">trial</W>
+<W cur="332" id="61">.</W>
+<W cur="334" id="62" space="\0020">He</W>
+<W cur="337" id="63" space="\0020">was</W>
+<W cur="341" id="64" space="\0020">given</W>
+<W cur="347" id="65" space="\0020">four</W>
+<W cur="352" id="66" space="\0020">life</W>
+<W cur="357" id="67" space="\0020">sentences</W>
+<W cur="366" id="68">,</W>
+<W cur="368" id="69" space="\0020">one</W>
+<W cur="372" id="70" space="\0020">for</W>
+<W cur="376" id="71" space="\0020">each</W>
+<W cur="381" id="72" space="\0020">of</W>
+<W cur="384" id="73" space="\0020">the</W>
+<W cur="388" id="74" space="\0020">killings</W>
+<W cur="396" id="75">.</W>
+<W cur="398" id="76" space="\0020">He</W>
+<W cur="401" id="77" space="\0020">will</W>
+<W cur="406" id="78" space="\0020">have</W>
+<W cur="411" id="79" space="\0020">to</W>
+<W cur="414" id="80" space="\0020">serve</W>
+<W cur="420" id="81" space="\0020">at</W>
+<W cur="423" id="82" space="\0020">least</W>
+<W cur="429" id="83" space="\0020">30</W>
+<W cur="432" id="84" space="\0020">years</W>
+<W cur="437" id="85">.</W>
+<W cur="439" id="86" space="\0020">Police</W>
+<W cur="446" id="87" space="\0020">officer</W>
+<W cur="454" id="88" space="\0020">Chris</W>
+<W cur="460" id="89" space="\0020">Gregg</W>
+<W cur="466" id="90" space="\0020">said</W>
+<W cur="471" id="91" space="\0020">that</W>
+<W cur="476" id="92" space="\0020">Norris</W>
+<W cur="483" id="93" space="\0020">had</W>
+<W cur="487" id="94" space="\0020">been</W>
+<W cur="492" id="95" space="\0020">acting</W>
+<W cur="499" id="96" space="\0020">strangely</W>
+<W cur="509" id="97" space="\0020">around</W>
+<W cur="516" id="98" space="\0020">the</W>
+<W cur="520" id="99" space="\0020">hospital</W>
+<W cur="528" id="100">.</W>
+<W cur="530" id="101" space="\0020">Only</W>
+<W cur="535" id="102" space="\0020">the</W>
+<W cur="539" id="103" space="\0020">awareness</W>
+<W cur="549" id="104" space="\0020">of</W>
+<W cur="552" id="105" space="\0020">other</W>
+<W cur="558" id="106" space="\0020">hospital</W>
+<W cur="567" id="107" space="\0020">staff</W>
+<W cur="573" id="108" space="\0020">put</W>
+<W cur="577" id="109" space="\0020">a</W>
+<W cur="579" id="110" space="\0020">stop</W>
+<W cur="584" id="111" space="\0020">to</W>
+<W cur="587" id="112" space="\0020">him</W>
+<W cur="591" id="113" space="\0020">and</W>
+<W cur="595" id="114" space="\0020">to</W>
+<W cur="598" id="115" space="\0020">the</W>
+<W cur="602" id="116" space="\0020">killings</W>
+<W cur="610" id="117">.</W>
+<W cur="612" id="118" space="\0020">The</W>
+<W cur="616" id="119" space="\0020">police</W>
+<W cur="623" id="120" space="\0020">have</W>
+<W cur="628" id="121" space="\0020">learned</W>
+<W cur="636" id="122" space="\0020">that</W>
+<W cur="641" id="123" space="\0020">the</W>
+<W cur="645" id="124" space="\0020">motive</W>
+<W cur="652" id="125" space="\0020">for</W>
+<W cur="656" id="126" space="\0020">the</W>
+<W cur="660" id="127" space="\0020">killings</W>
+<W cur="669" id="128" space="\0020">was</W>
+<W cur="673" id="129" space="\0020">that</W>
+<W cur="678" id="130" space="\0020">Norris</W>
+<W cur="685" id="131" space="\0020">disliked</W>
+<W cur="694" id="132" space="\0020">working</W>
+<W cur="702" id="133" space="\0020">with</W>
+<W cur="707" id="134" space="\0020">old</W>
+<W cur="711" id="135" space="\0020">people</W>
+<W cur="717" id="136">.</W>
+<W cur="719" id="137" space="\0020">All</W>
+<W cur="723" id="138" space="\0020">of</W>
+<W cur="726" id="139" space="\0020">his</W>
+<W cur="730" id="140" space="\0020">victims</W>
+<W cur="738" id="141" space="\0020">were</W>
+<W cur="743" id="142" space="\0020">old</W>
+<W cur="747" id="143" space="\0020">weak</W>
+<W cur="752" id="144" space="\0020">women</W>
+<W cur="758" id="145" space="\0020">with</W>
+<W cur="763" id="146" space="\0020">heart</W>
+<W cur="769" id="147" space="\0020">problems</W>
+<W cur="777" id="148">.</W>
+<W cur="779" id="149" space="\0020">All</W>
+<W cur="783" id="150" space="\0020">of</W>
+<W cur="786" id="151" space="\0020">them</W>
+<W cur="791" id="152" space="\0020">could</W>
+<W cur="797" id="153" space="\0020">be</W>
+<W cur="800" id="154" space="\0020">considered</W>
+<W cur="811" id="155" space="\0020">a</W>
+<W cur="813" id="156" space="\0020">burden</W>
+<W cur="820" id="157" space="\0020">to</W>
+<W cur="823" id="158" space="\0020">hospital</W>
+<W cur="832" id="159" space="\0020">staff</W>
+<W cur="837" id="160">.</W>
 </Text>
