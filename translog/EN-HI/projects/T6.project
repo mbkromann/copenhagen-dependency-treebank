@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileName>C:\Users\michael\Dropbox\IndiaTrans\projects\T6.project</FileName>
+  <Description>example project description</Description>
+  <versionString />
+  <useSourceText>true</useSourceText>
+  <promptSubjectName>false</promptSubjectName>
+  <syncEnabled>false</syncEnabled>
+  <broadcastEnabled>true</broadcastEnabled>
+  <udpIP />
+  <udpPort>18193</udpPort>
+  <signalInterval>10</signalInterval>
+  <useExtendedTranslations>false</useExtendedTranslations>
+  <showTimer>false</showTimer>
+  <maxWindow>false</maxWindow>
+  <ChineseKeys>false</ChineseKeys>
+  <fullScreen>false</fullScreen>
+  <lockWindows>false</lockWindows>
+  <Plugins>
+    <Key_Logger />
+    <EyeSampler />
+  </Plugins>
+  <Interface>
+    <Standard>
+      <pluginDependances />
+      <Settings>
+        <TargetBackgroundColor RGB="-1" />
+        <SourceBackgroundColor RGB="-1" />
+        <lineHeight source="1" target="1" />
+        <SourceText>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\ltrpar\nowidctlpar\sl360\slmult1\lang1033\f0\fs35 The majority of hunter-gatherer societies are nomadic. It is difficult to be settled under such a subsistence system as the resources of one region can quickly become exhausted. Hunter-gatherer societies also tend to have very low population densities as a result of their subsistence system. Agricultural subsistence systems can support population densities 60 to 100 times greater than land left uncultivated, resulting in denser populations. Hunter-gatherer societies also tend to have non-hierarchical social structures, though this is not always the case. Because hunter-gatherers tend to be nomadic, they generally do not have the possibility to store surplus food. As a result, full-time leaders, bureaucrats, or artisans are rarely supported by hunter-gatherer societies.\par
+}
+</SourceText>
+        <TargetText>{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\f0\fs41\par
+}
+</TargetText>
+        <TranslationWindow X="-8" Y="-8" Width="1296" Height="1000" Split="415" STO="True" VHO="Horizontal" />
+      </Settings>
+      <SourceField X="2" Y="48" Width="1280" Height="415" />
+      <TargetField X="2" Y="467" Width="1280" Height="519" />
+    </Standard>
+  </Interface>
+</Project>

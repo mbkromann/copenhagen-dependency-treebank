@@ -27,6 +27,8 @@ use Getopt::Std;
 getopts ('T:O:v:t:h');
 
 my $Verbose = 0;
+my $SourceLanguage = '';
+my $TargetLanguage = '';
 my $fn;
 
 my $KEY;
@@ -97,6 +99,10 @@ sub ReadTranslog {
   while(defined($_ = <FILE>)) {
 #printf STDERR "Translog: %s\n",  $_;
 
+    if(/<Languages/) {
+      if(/source="([^"]*)"/) {$SourceLanguage =$1;}
+      if(/target="([^"]*)"/) {$TargetLanguage =$1;}
+    }
     if(/<Events>/) {$type =1; }
     elsif(/<SourceTextChar>/) {$type =2; }
     elsif(/<TranslationChar>/) {$type =3; }
@@ -113,8 +119,8 @@ sub ReadTranslog {
       if(/time="([0-9][0-9]*)"/) {$time =$1;}
       if(/win="([0-9][0-9]*)"/)  {$FIX->{$time}{'win'} = $1;}
       if(/dur="([0-9][0-9]*)"/)  {$FIX->{$time}{'dur'} = $1;}
-      if(/cur="([0-9][0-9]*)"/)  {$FIX->{$time}{'cur'} = $1;}
-      if(/id="([0-9][0-9]*)"/)   {$FIX->{$time}{'id'} = $1;}
+      if(/cur="([-0-9][0-9]*)"/)  {$FIX->{$time}{'cur'} = $1;}
+      if(/id="([-0-9][0-9]*)"/)   {$FIX->{$time}{'id'} = $1;}
 
     }
     elsif($type == 10 && /<Mod /) {  
@@ -183,6 +189,11 @@ sub ReadTranslog {
 sub CreateTreex {
   my ($fn) = @_;
   my $ord;
+
+  if($TargetLanguage eq '' || $SourceLanguage eq '') {
+    print STDERR "$fn Undefined Languages\n";
+    exit 1;
+  }
 
   my $doc = Treex::Core::Document->new;
   my $bundle = $doc->create_bundle;

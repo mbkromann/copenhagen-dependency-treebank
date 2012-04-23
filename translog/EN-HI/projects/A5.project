@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileName>C:\Users\michael\Dropbox\IndiaTrans\projects\A5.project</FileName>
+  <Description>example project description</Description>
+  <versionString />
+  <useSourceText>true</useSourceText>
+  <promptSubjectName>false</promptSubjectName>
+  <syncEnabled>false</syncEnabled>
+  <broadcastEnabled>true</broadcastEnabled>
+  <udpIP />
+  <udpPort>18193</udpPort>
+  <signalInterval>10</signalInterval>
+  <useExtendedTranslations>false</useExtendedTranslations>
+  <showTimer>false</showTimer>
+  <maxWindow>false</maxWindow>
+  <ChineseKeys>false</ChineseKeys>
+  <fullScreen>false</fullScreen>
+  <lockWindows>false</lockWindows>
+  <Plugins>
+    <Key_Logger />
+    <EyeSampler />
+  </Plugins>
+  <Interface>
+    <Standard>
+      <pluginDependances />
+      <Settings>
+        <TargetBackgroundColor RGB="-1" />
+        <SourceBackgroundColor RGB="-1" />
+        <lineHeight source="1" target="1" />
+        <SourceText>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fswiss\fprq2\fcharset128 Tahoma;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+\viewkind4\uc1\pard\ltrpar\nowidctlpar\sl360\slmult1\lang1033\f0\fs34 Sociology is a relatively new academic discipline. It emerged in the early 19th century in response to the challenges of modernity. Increasing mobility and technological advances resulted in the increasing exposure of people to cultures and societies different from their own. The impact of this exposure was varied, but for some people included the breakdown of traditional norms and customs and warranted a revised understanding of how the world works. Sociologists responded to these changes by trying to understand what holds social groups together and also exploring possible solutions to the breakdown of social solidarity. The term sociology was coined by Auguste Comte (1798-1857) in 1838 from the Latin term socius (companion, associate) and the Greek term logia (study of, speech).\lang1023\f1\fs24\par
+\par
+\pard\ltrpar\lang1033\f0\fs34\par
+}
+</SourceText>
+        <TargetText>{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcharset0\cpg-8534 Mangal;}{\f1\fnil\fcharset0 Mangal;}}
+\viewkind4\uc1\pard\sl180\slmult1\lang1081\f0\fs35\u2360?\u2350?\u2366?\u2332? \u2357?\u2367?\u2332?\u2381?\u2334?\u2366?\u2344? \u2319?\u2325? \u2309?\u2346?\u2375?\u2325?\u2381?\u2359?\u2366?\u2325?\u2371?\u2340? \u2344?\u2351?\u2366?\lang1033\u65279? \lang1081\u2358?\u2376?\u2325?\u2381?\u2359?\u2339?\u2367?\u2325?\lang1033  \lang1081\u2309?\u2344?\u2369?\u2358?\u2366?\u2360?\u2344? \u2361?\u2376? \lang1033\f1 .\lang1081\f0\u2351?\u2361? \u2310?\u2343?\u2369?\u2344?\u2367?\u2325?\u2340?\u2366? \u2325?\u2368? \u2330?\u2369?\u2344?\u2380?\u2340?\u2367?\u2351?\u2379?\u2306? \u2340?\u2325? \u2346?\u2381?\u2352?\u2340?\u2367?\u2325?\u2381?\u2352?\u2367?\u2351?\u2366? \u2350?\u2375?\u2306? \u2332?\u2354?\u2381?\u2342?\u2368? \lang1033\f1 19 \lang1081\f0\u2358?\u2340?\u2366?\u2348?\u2381?\u2342?\u2368? \u2350?\u2375?\u2306? \u2346?\u2381?\u2352?\u2325?\u2335? \u2361?\u2369?\u2310? \lang1033\f1 . \lang1081\f0\u2348?\u2338?\u2364?\u2340?\u2366? \u2361?\u2369?\u2310? \u2327?\u2340?\u2367?\u2358?\u2368?\u2354?\u2340?\u2366? \u2324?\u2352? \u2340?\u2325?\u2344?\u2368?\u2325?\u2368? \u2310?\u2327?\u2375? \u2348?\u2338?\u2364? \u2346?\u2352?\u2367?\u2339?\u2340? \u2361?\u2379?  \u2348?\u2338?\u2364?\u2340?\u2366? \u2361?\u2369?\u2310?\lang1033  \lang1081\u2346?\u2381?\u2352?\u2342?\u2352?\u2381?\u2358?\u2344? \u2325?\u2368?\lang1033\u65279? \lang1081\u2360?\u2306?\u2360?\u2381?\u2325?\u2371?\u2340?\u2367? \u2332?\u2368?\u2357?\u2366?\u2339?\u2369? \u2354?\u2379?\u2327? \u2324?\u2352? \u2360?\u2379?\u2360?\u2366?\u2311?\u2335?\u2368? \u2349?\u2367?\u2344?\u2381?\u2344? \u2309?\u2346?\u2344?\u2366? \u2360?\u2381?\u2357?\u2351?\u2306? \lang1033\f1 . \lang1081\f0\u2346?\u2381?\u2352?\u2349?\u2366?\u2357?\lang1033  \lang1081\u2325?\u2375? \u2311?\u2360? \u2346?\u2381?\u2352?\u2342?\u2352?\u2381?\u2358?\u2344? \u2341?\u2366? \u2346?\u2352?\u2367?\u2357?\u2352?\u2381?\u2340?\u2367?\u2340? \u2354?\u2375?\u2325?\u2367?\u2344? \u2325?\u2375? \u2354?\u2367?\u2319? \u2325?\u2369?\u2331? \u2354?\u2379?\u2327? \u2360?\u2350?\u2381?\u2350?\u2367?\u2354?\u2367?\u2340? \u2326?\u2352?\u2366?\u2348?\u2368? \u2325?\u2366? \u2346?\u2366?\u2352?\u2350?\u2381?\u2346?\u2352?\u2367?\u2325? \u2350?\u2366?\u2344?\u2325? \u2324?\u2352? \u2346?\u2381?\u2352?\u2341?\u2366? \u2324?\u2352? \u2357?\u2376?\u2343? \u2360?\u2306?\u2358?\u2379?\u2343?\u2367?\u2340? \u2360?\u2350?\u2333? \u2325?\u2368? \u2325?\u2376?\u2360?\u2375?  \u2342?\u2369?\u2344?\u2367?\u2351?\u2366? \u2325?\u2366?\u2352?\u2381?\u2351? \lang1033\f1 . \lang1081\f0\u2360?\u2379?\u2360?\u2366?\u2351?\u2354?\u2379?\u2327?\u2367?\u2360?\u2381?\u2340?\u2381?\u2360? \u2344?\u2375? \u2325?\u2379?\u2358?\u2367?\u2358? \u2325?\u2352?\u2325?\u2375? \u2311?\u2344? \u2346?\u2352?\u2367?\u2357?\u2352?\u2381?\u2340?\u2344? \u2360?\u2375? \u2325?\u2367?\u2344? \u2346?\u2325?\u2337?\u2364? \u2360?\u2375? \u2360?\u2366?\u2350?\u2366?\u2332?\u2367?\u2325? \u2360?\u2350?\u2333?\u2344?\u2375? \u2325?\u2368? \lang1033  \lang1081\u2313?\u2340?\u2381?\u2340?\u2352? \u2342?\u2367?\u2351?\u2366? \u2324?\u2352? \u2360?\u2366?\u2350?\u2366?\u2332?\u2367?\u2325? \u2349?\u2366?\u2312?\u2330?\u2366?\u2352?\u2375? \u2325?\u2375? \lang1033\f1 ^\u65279? \lang1081\f0\u2326?\u2352?\u2366?\u2348?\u2368? \u2325?\u2375? \u2360?\u2350?\u2381?\u2349?\u2357? \u2360?\u2350?\u2366?\u2343?\u2366?\u2344? \lang1033\f1 | \lang1081\f0\u2326?\u2352?\u2366?\u2348?\u2368? \lang1033  \lang1081\u2325?\u2375?\lang1033  \lang1081\u2360?\u2350?\u2381?\u2349?\u2357? \u2360?\u2350?\u2366?\u2343?\u2366?\u2344? \u2325?\u2379? \lang1033  \lang1081\u2349?\u2368? \u2309?\u2344?\u2381?\u2357?\u2375?\u2359?\u2339? \u2325?\u2352?\u2340?\u2366? \u2361?\u2376? \lang1033\f1 . \lang1081\f0\u2335?\u2352?\u2381?\u2350? \u2325?\u2366? \u2360?\u2350?\u2366?\u2332? \u2357?\u2367?\u2332?\u2381?\u2334?\u2366?\u2344? \u2354?\u2366?\u2340?\u2367?\u2344? \u2360?\u2375? \lang1033\f1 1838\lang1081  \f0\u2350?\u2375?\u2306? \u2321?\u2327?\u2360?\u2381?\u2335? \u2325?\u2377?\u2350?\u2381?\u2335?\u2375? \u2325?\u2375? \u2342?\u2381?\u2357?\u2366?\u2352?\u2366? \u2335?\u2352?\u2381?\u2350? \u2360?\u2379?\u2360?\u2367?\u2313?\u2360? \u2360?\u2366?\u2341?\u2368? \lang1033\f1 , \lang1081\f0\u2360?\u2361?\u2366?\u2351?\u2325? \lang1033\f1 , \lang1081\f0\u2360?\u2366?\u2341?\u2368? \u2324?\u2352? \u2327?\u2381?\u2352?\u2368?\u2325?\u2357?\u2366?\u2360?\u2368? \u2335?\u2352?\u2381?\u2350? \u2354?\u2379?\u2327?\u2367?\u2310? \u2349?\u2366?\u2359?\u2366? \u2325?\u2366? \u2309?\u2343?\u2381?\u2351?\u2351?\u2344? \lang1033\f1 | \lang1081\f0\u2349?\u2366?\u2359?\u2339? \u2325?\u2366? \u2309?\u2343?\u2381?\u2351?\u2351?\u2344? \u2325?\u2352?\u2367?\u2351?\u2375? \lang1033\f1 .\lang1081\par
+}
+</TargetText>
+        <TranslationWindow X="-8" Y="-8" Width="1296" Height="1000" Split="515" STO="True" VHO="Horizontal" />
+      </Settings>
+      <SourceField X="2" Y="48" Width="1280" Height="515" />
+      <TargetField X="2" Y="567" Width="1280" Height="419" />
+    </Standard>
+  </Interface>
+</Project>

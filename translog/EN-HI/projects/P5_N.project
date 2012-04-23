@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileName>C:\Users\michael\Dropbox\EN-HI\projects\P5_N.project</FileName>
+  <Description>example project description</Description>
+  <versionString />
+  <useSourceText>true</useSourceText>
+  <promptSubjectName>false</promptSubjectName>
+  <syncEnabled>false</syncEnabled>
+  <broadcastEnabled>true</broadcastEnabled>
+  <udpIP />
+  <udpPort>18193</udpPort>
+  <signalInterval>10</signalInterval>
+  <useExtendedTranslations>false</useExtendedTranslations>
+  <showTimer>false</showTimer>
+  <maxWindow>false</maxWindow>
+  <ChineseKeys>false</ChineseKeys>
+  <fullScreen>false</fullScreen>
+  <lockWindows>false</lockWindows>
+  <Plugins>
+    <Key_Logger />
+    <EyeSampler />
+  </Plugins>
+  <Interface>
+    <Standard>
+      <pluginDependances />
+      <Settings>
+        <TargetBackgroundColor RGB="-1" />
+        <SourceBackgroundColor RGB="-1" />
+        <lineHeight source="1" target="1" />
+        <SourceText>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fswiss\fprq2\fcharset128 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\ltrpar\nowidctlpar\sl360\slmult1\lang1033\f0\fs34 Sociology is a relatively new academic discipline. It emerged in the early 19th century in response to the challenges of modernity. Increasing mobility and technological advances resulted in the increasing exposure of people to cultures and societies different from their own. The impact of this exposure was varied, but for some people included the breakdown of traditional norms and customs and warranted a revised understanding of how the world works. Sociologists responded to these changes by trying to understand what holds social groups together and also exploring possible solutions to the breakdown of social solidarity. The term sociology was coined by Auguste Comte (1798-1857) in 1838 from the Latin term socius (companion, associate) and the Greek term logia (study of, speech).\lang1023\f1\fs35\par
+}
+</SourceText>
+        <TargetText>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\froman\fprq2\fcharset0\cpg-8534 Times New Roman;}{\f1\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\ltrpar\nowidctlpar\sl360\slmult1\lang1081\f0\fs35\u2360?\u2350?\u2366?\u2332?\u2358?\u2366?\u2360?\u2381?\u2340?\u2381?\u2352?\f1  \f0\u2325?\u2375?\f1  \f0\u2319?\u2325?\f1  \f0\u2309?\u2346?\u2375?\u2325?\u2381?\u2359?\u2366?\u2325?\u2371?\u2340?\f1  \f0\u2344?\u2351?\u2366?\f1  \f0\u2358?\u2376?\u2325?\u2381?\u2359?\u2367?\u2325?\f1  \f0\u2309?\u2344?\u2369?\u2358?\u2366?\u2360?\u2344?\f1  \f0\u2361?\u2376?\f1 . \f0\u2351?\u2361?\f1  \f0\u2310?\u2343?\u2369?\u2344?\u2367?\u2325?\u2340?\u2366?\f1  \f0\u2325?\u2368?\f1  \f0\u2330?\u2369?\u2344?\u2380?\u2340?\u2367?\u2351?\u2379?\u2306?\f1  \f0\u2325?\u2375?\f1  \f0\u2332?\u2357?\u2366?\u2348?\f1  \f0\u2350?\u2375?\u2306?\f1  \f0\u2332?\u2354?\u2381?\u2342?\u2368?\f1  19 \f0\u2357?\u2368?\u2306?\f1  \f0\u2360?\u2342?\u2368?\f1  \f0\u2350?\u2375?\u2306?\f1  \f0\u2313?\u2349?\u2352?\u2366?\f1 . \f0\u2348?\u2338?\u2364?\u2340?\u2368?\f1  \f0\u2327?\u2340?\u2367?\u2358?\u2368?\u2354?\u2340?\u2366?\f1  \f0\u2324?\u2352?\f1  \f0\u2346?\u2381?\u2352?\u2380?\u2342?\u2381?\u2351?\u2379?\u2327?\u2367?\u2325?\u2368?\u2351?\f1  \f0\u2309?\u2327?\u2381?\u2352?\u2367?\u2350?\u2379?\u2306?\f1  \f0\u2325?\u2375?\f1  \f0\u2354?\u2379?\u2327?\u2379?\u2306?\f1  \f0\u2325?\u2368?\f1  \f0\u2348?\u2338?\u2364?\u2340?\u2368?\f1  \f0\u2360?\u2306?\u2360?\u2381?\u2325?\u2371?\u2340?\u2367?\f1  \f0\u2324?\u2352?\f1  \f0\u2360?\u2350?\u2366?\u2332?\f1  \f0\u2309?\u2346?\u2344?\u2375?\f1  \f0\u2360?\u2375?\f1  \f0\u2309?\u2354?\u2327?\f1  \f0\u2325?\u2352?\u2344?\u2375?\f1  \f0\u2325?\u2375?\f1  \f0\u2354?\u2367?\u2319?\f1  \f0\u2332?\u2379?\u2326?\u2367?\u2350?\f1  \f0\u2350?\u2375?\u2306?\f1  \f0\u2361?\u2369?\u2312?\f1 . \f0\u2311?\u2360?\f1  \f0\u2332?\u2379?\u2326?\u2367?\u2350?\f1  \f0\u2325?\u2375?\f1  \f0\u2346?\u2381?\u2352?\u2349?\u2366?\u2357?\f1  \f0\u2357?\u2367?\u2357?\u2367?\u2343?\f1 , \f0\u2354?\u2375?\u2325?\u2367?\u2344?\f1  \f0\u2325?\u2369?\u2331?\f1  \f0\u2354?\u2379?\u2327?\u2379?\u2306?\f1  \f0\u2325?\u2375?\f1  \f0\u2354?\u2367?\u2319?\f1  \f0\u2346?\u2366?\u2352?\u2306?\u2346?\u2352?\u2367?\u2325?\f1  \f0\u2350?\u2366?\u2344?\u2342?\u2306?\u2337?\u2379?\u2306?\f1  \f0\u2324?\u2352?\f1  \f0\u2360?\u2368?\u2350?\u2366?\f1  \f0\u2358?\u2369?\u2354?\u2381?\u2325?\f1  \f0\u2325?\u2375?\f1  \f0\u2335?\u2370?\u2335?\u2344?\u2375?\f1  \f0\u2358?\u2366?\u2350?\u2367?\u2354?\f1  \f0\u2361?\u2376?\f1  \f0\u2324?\u2352?\f1  \f0\u2325?\u2376?\u2360?\u2375?\f1  \f0\u2325?\u2366?\u2350?\f1  \f0\u2325?\u2352?\u2340?\u2366?\f1  \f0\u2361?\u2376?\f1  \f0\u2342?\u2369?\u2344?\u2367?\u2351?\u2366?\f1  \f0\u2325?\u2368?\f1  \f0\u2319?\u2325?\f1  \f0\u2360?\u2306?\u2358?\u2379?\u2343?\u2367?\u2340?\f1  \f0\u2360?\u2350?\u2333?\f1  warranted \f0\u2361?\u2376?\f1 . \f0\u2360?\u2350?\u2366?\u2332?\u2358?\u2366?\u2360?\u2381?\u2340?\u2381?\u2352?\u2367?\u2351?\u2379?\u2306?\f1  \f0\u2325?\u2379?\f1  \f0\u2360?\u2350?\u2333?\u2344?\u2375?\f1  \f0\u2325?\u2375?\f1  \f0\u2354?\u2367?\u2319?\f1  \f0\u2325?\u2381?\u2351?\u2366?\f1  \f0\u2360?\u2366?\u2350?\u2366?\u2332?\u2367?\u2325?\f1  \f0\u2360?\u2350?\u2370?\u2361?\u2379?\u2306?\f1  \f0\u2325?\u2379?\f1  \f0\u2319?\u2325?\f1  \f0\u2360?\u2366?\u2341?\f1  \f0\u2343?\u2366?\u2352?\u2339?\f1  \f0\u2324?\u2352?\f1  \f0\u2349?\u2368?\f1  \f0\u2360?\u2366?\u2350?\u2366?\u2332?\u2367?\u2325?\f1  \f0\u2319?\u2325?\u2332?\u2369?\u2335?\u2340?\u2366?\f1  \f0\u2325?\u2375?\f1  \f0\u2335?\u2370?\u2335?\u2344?\u2375?\f1  \f0\u2325?\u2375?\f1  \f0\u2354?\u2367?\u2319?\f1  \f0\u2360?\u2306?\u2349?\u2357?\f1  \f0\u2360?\u2350?\u2366?\u2343?\u2366?\u2344?\f1  \f0\u2325?\u2368?\f1  \f0\u2326?\u2379?\u2332?\f1  \f0\u2325?\u2352?\u2344?\u2375?\f1  \f0\u2325?\u2368?\f1  \f0\u2325?\u2379?\u2358?\u2367?\u2358?\f1  \f0\u2325?\u2352?\f1  \f0\u2352?\u2361?\u2366?\f1  \f0\u2342?\u2381?\u2357?\u2366?\u2352?\u2366?\f1  \f0\u2311?\u2344?\f1  \f0\u2346?\u2352?\u2367?\u2357?\u2352?\u2381?\u2340?\u2344?\u2379?\u2306?\f1  \f0\u2325?\u2379?\f1  \f0\u2332?\u2357?\u2366?\u2348?\f1  \f0\u2342?\u2367?\u2351?\u2366?\f1 . \f0\u2309?\u2357?\u2343?\u2367?\f1  \f0\u2360?\u2350?\u2366?\u2332?\u2358?\u2366?\u2360?\u2381?\u2340?\u2381?\u2352?\f1  \f0\u2309?\u2327?\u2360?\u2381?\u2335?\u2375?\f1  Comte (1798-1857) \f0\u2342?\u2381?\u2357?\u2366?\u2352?\u2366?\f1  1838 \f0\u2350?\u2375?\u2306?\f1  \f0\u2354?\u2376?\u2335?\u2367?\u2344?\f1  \f0\u2358?\u2348?\u2381?\u2342?\f1  (\f0\u2360?\u2366?\u2341?\u2368?\f1 , \f0\u2360?\u2361?\u2351?\u2379?\u2327?\u2368?\f1 ) socius \f0\u2325?\u2375?\f1  \f0\u2324?\u2352?\f1  \f0\u2327?\u2381?\u2352?\u2368?\u2325?\f1  \f0\u2358?\u2348?\u2381?\u2342?\f1  logia (\f0\u2309?\u2343?\u2381?\u2351?\u2351?\u2344?\f1  \f0\u2325?\u2368?\f1 , \f0\u2349?\u2366?\u2359?\u2339?\f1 ) \f0\u2360?\u2375?\f1  \f0\u2327?\u2338?\u2364?\u2366?\f1  \f0\u2327?\u2351?\u2366?\f1  \f0\u2341?\u2366?\f1 .\lang1031\par
+}
+</TargetText>
+        <SourceUTF8>Sociology is a relatively new academic discipline. It emerged in the early 19th century in response to the challenges of modernity. Increasing mobility and technological advances resulted in the increasing exposure of people to cultures and societies different from their own. The impact of this exposure was varied, but for some people included the breakdown of traditional norms and customs and warranted a revised understanding of how the world works. Sociologists responded to these changes by trying to understand what holds social groups together and also exploring possible solutions to the breakdown of social solidarity. The term sociology was coined by Auguste Comte (1798-1857) in 1838 from the Latin term socius (companion, associate) and the Greek term logia (study of, speech).</SourceUTF8>
+        <TargetUTF8>समाजशास्त्र के एक अपेक्षाकृत नया शैक्षिक अनुशासन है. यह आधुनिकता की चुनौतियों के जवाब में जल्दी 19 वीं सदी में उभरा. बढ़ती गतिशीलता और प्रौद्योगिकीय अग्रिमों के लोगों की बढ़ती संस्कृति और समाज अपने से अलग करने के लिए जोखिम में हुई. इस जोखिम के प्रभाव विविध, लेकिन कुछ लोगों के लिए पारंपरिक मानदंडों और सीमा शुल्क के टूटने शामिल है और कैसे काम करता है दुनिया की एक संशोधित समझ warranted है. समाजशास्त्रियों को समझने के लिए क्या सामाजिक समूहों को एक साथ धारण और भी सामाजिक एकजुटता के टूटने के लिए संभव समाधान की खोज करने की कोशिश कर रहा द्वारा इन परिवर्तनों को जवाब दिया. अवधि समाजशास्त्र अगस्टे Comte (1798-1857) द्वारा 1838 में लैटिन शब्द (साथी, सहयोगी) socius के और ग्रीक शब्द logia (अध्ययन की, भाषण) से गढ़ा गया था.</TargetUTF8>
+        <TranslationWindow X="-8" Y="-8" Width="1296" Height="1000" Split="426" STO="True" VHO="Horizontal" />
+      </Settings>
+      <SourceField X="2" Y="48" Width="1280" Height="426" />
+      <TargetField X="2" Y="478" Width="1280" Height="508" />
+    </Standard>
+  </Interface>
+</Project>

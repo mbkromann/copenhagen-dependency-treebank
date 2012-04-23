@@ -45,8 +45,8 @@ sub InsertLangPair {
   while(defined($_ = <F>)) {
 
     if(/<Languages/) {next;} 
-    if(/<Plugins/) { printf STDOUT "    <Languages source=\"$s\" target=\"$t\" />\n";}
-    printf STDOUT $_;
+    if(/<Plugins/) { print STDOUT "    <Languages source=\"$s\" target=\"$t\" />\n";}
+    print STDOUT $_;
   }
   close(F);
 }
