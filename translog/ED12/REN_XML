@@ -1,0 +1,10 @@
+mv  "Translog-II/ED12ch3A_Anita Waaben_translating_T2.xml"	Translog-II/ED01.xml
+mv  "Translog-II/ED12ch3A_Evita Campbell_translating_T2.xml"	Translog-II/ED02.xml
+mv  "Translog-II/ED12ch3A_Jeanette Fogh_translating_T2.xml"	Translog-II/ED03.xml
+mv  "Translog-II/ED12ch3A_Katrine Wang_translating_T2.xml"	Translog-II/ED04.xml
+mv  "Translog-II/ED12ch3A_Kristian_T2.xml"			Translog-II/ED05.xml
+mv  "Translog-II/ED12ch3A_Lisbet Pals_translating_T2.xml"	Translog-II/ED06.xml
+mv  "Translog-II/ED12ch3A_Mette Melchior_translating_T2.xml"	Translog-II/ED07.xml
+mv  "Translog-II/ED12ch3A_Sarah Quereshi_translating_T2.xml"	Translog-II/ED08.xml
+mv  "Translog-II/ED12ch3A_Thomas Frost_translating_T2.xml"	Translog-II/ED09.xml
+mv  "Translog-II/ED12ch3A_Trine Andersen_translating_T2.xml"	Translog-II/ED10.xml

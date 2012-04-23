@@ -1,0 +1,10 @@
+../Tokenize.pl -T  Translog-II/ED01.xml	-D Alignment/ED01
+../Tokenize.pl -T  Translog-II/ED02.xml	-D Alignment/ED02
+../Tokenize.pl -T  Translog-II/ED03.xml	-D Alignment/ED03
+../Tokenize.pl -T  Translog-II/ED04.xml	-D Alignment/ED04
+../Tokenize.pl -T  Translog-II/ED05.xml	-D Alignment/ED05
+../Tokenize.pl -T  Translog-II/ED06.xml	-D Alignment/ED06
+../Tokenize.pl -T  Translog-II/ED07.xml	-D Alignment/ED07
+../Tokenize.pl -T  Translog-II/ED08.xml	-D Alignment/ED08
+../Tokenize.pl -T  Translog-II/ED09.xml	-D Alignment/ED09
+../Tokenize.pl -T  Translog-II/ED10.xml	-D Alignment/ED10
