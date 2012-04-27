@@ -1,21 +1,28 @@
 DIR="data"
 
-all: clean copy merge_atag_trl fix_mod_trl totreex finetreex
+all: clean merge_atag_trl totreex finetreex
 
 
 copy:
-	mkdir -p $(DIR)/EN-HI
 	mkdir -p $(DIR)/EN-ES
 	mkdir -p $(DIR)/EN-DA
-	mkdir -p $(DIR)/L1L2
-	mkdir -p $(DIR)/ED12
+	mkdir -p $(DIR)/EN-HI
 	mkdir -p $(DIR)/EN-DE_TPR-PE
 	mkdir -p $(DIR)/EN-PT_TPR-PE
+	mkdir -p $(DIR)/L1L2
+	mkdir -p $(DIR)/ED12
 	mkdir -p $(DIR)/Annette_translate
+
+	cp -r ../../{Annette_translate,ED12,L1L2,EN-DA,EN-ES}/{Translog-II,Alignment}/* $(DIR)/
+
+	exit
 	cp -r ../../Annette_translate/* $(DIR)/Annette_translate
-#	cp -r ../../EN-DE_TPR-PE/* $(DIR)/EN-DE_TPR-PE 
-#	cp -r ../../EN-PT_TPR-PE/* $(DIR)/EN-PT_TPR-PE
-#	cp -r ../../ED12/* $(DIR)/ED12 
+	cp -r ../../EN-DE_TPR-PE/* $(DIR)/EN-DE_TPR-PE 
+	cp -r ../../EN-PT_TPR-PE/* $(DIR)/EN-PT_TPR-PE
+	cp -r ../../ED12/* $(DIR)/ED12 
+	cp -r ../../L1L2/* $(DIR)/L1L2
+	cp -r ../../EN-DA/* $(DIR)/EN-DA 
+	cp -r ../../EN-ES/* $(DIR)/EN-DA 
 #	cp -r ../../EN-DA/* $(DIR)/EN-DA 
 
 #	cp -r ../../L1L2/Translog-II/ $(DIR)/L1L2/Translog-II
@@ -29,12 +36,6 @@ copy:
 
 merge_atag_trl:
 	./MergeAtagTrl.bash
-
-fix_mod_trl:
-	./FixMod2Trl.bash
-
-totreex:
-	./Trl2Treex.bash
 
 finetreex:
 	@echo ----------- Step 4: Refining the data in treex ----------

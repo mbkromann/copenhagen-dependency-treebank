@@ -747,7 +747,17 @@ sub FixModTable {
     elsif($FIX->{$t}{w} == 2) {$id=$FIX->{$t}{id};}
     else {next;}
 
-    $TRANSLOG->{$m++} = "    <Fix time=\"$t\" win=\"$FIX->{$t}{w}\" cur=\"$FIX->{$t}{c}\" dur=\"$FIX->{$t}{d}\" id=\"$id\" />\n";
+    my $s = '';
+    if(defined($ALN->{'tid'}) && defined($ALN->{'tid'}{$FIX->{$t}{'id'}})) { 
+      my $k = 0;
+      foreach my $sid (sort  {$a <=> $b} keys %{$ALN->{'tid'}{$FIX->{$t}{'id'}}{'sid'}}) {
+        if($k >0) {$s .= "+";}
+        $s .= $sid;
+        $k++;
+      }
+    }
+
+    $TRANSLOG->{$m++} = "    <Fix time=\"$t\" win=\"$FIX->{$t}{w}\" cur=\"$FIX->{$t}{c}\" dur=\"$FIX->{$t}{d}\" sid=\"$s\" id=\"$id\" />\n";
   }
   $TRANSLOG->{$m++} ="  </Fixations>\n";
 
@@ -760,8 +770,7 @@ sub FixModTable {
     }
 
     my $s = '';
-    if(defined($ALN->{'tid'}) &&
-       defined($ALN->{'tid'}{$KEY->{$t}{'id'}})) { 
+    if(defined($ALN->{'tid'}) && defined($ALN->{'tid'}{$KEY->{$t}{'id'}})) { 
       my $k = 0;
       foreach my $sid (sort  {$a <=> $b} keys %{$ALN->{'tid'}{$KEY->{$t}{'id'}}{'sid'}}) {
         if($k >0) {$s .= "+";}
@@ -773,7 +782,7 @@ sub FixModTable {
     $TRANSLOG->{$m++} = "    <Mod time=\"$t\" type=\"$KEY->{$t}{t}\" cur=\"$KEY->{$t}{c}\" chr=\"$chr\" sid=\"$s\" id=\"$KEY->{$t}{id}\" />\n";
   }
   $TRANSLOG->{$m++} ="  </Modifications>\n";
-  $TRANSLOG->{$m++} ="<\/FinalToken>\n";
+  $TRANSLOG->{$m++} ="<\/LogFile>\n";
 
 }
 

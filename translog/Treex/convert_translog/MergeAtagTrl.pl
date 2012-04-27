@@ -247,37 +247,12 @@ sub ReadAtag {
 ## SourceText Positions
 sub ReadTranslog {
   my ($fn) = @_;
-  my ($cur);
 
-#  open(FILE, $fn) || die ("cannot open file $fn");
   open(FILE, '<:encoding(utf8)', $fn) || die ("cannot open file $fn");
   if($Verbose){printf STDERR "ReadTranslog: $fn\n";}
 
-  my $type = 0;
   my $n = 0;
-  while(defined($_ = <FILE>)) {
-#printf STDERR "Translog: %s\n",  $_;
-
-    if(/<Events>/) {$type =1; }
-    elsif(/<SourceTextChar>/) {$type =2; }
-    elsif(/<TranslationChar>/) {$type =3; }
-    elsif(/<FinalTextChar>/) {$type =4; }
-    elsif(/<FinalText>/) {$type =5; }
-    elsif(/<SourceToken>/) {$type =6; }
-    elsif(/<FinalToken>/) {$type =7; }
-    elsif(/<Alignment>/) {$type =8; }
-
-    if($type != 6 && $type != 7 && $type != 8) { $TRANSLOG->{$n++} = $_; }
-
-    if(/<\/FinalText>/) {$type =0; }
-    if(/<\/SourceTextChar>/) {$type =0; }
-    if(/<\/Events>/) {$type =0; }
-    if(/<\/SourceTextChar>/) {$type =0; }
-    if(/<\/TranslationChar>/) {$type =0; }
-    if(/<\/FinalTextChar>/) {$type =0; }
-    if(/<\/FinalText>/) {$type =0; }
-    if(/<\/LogFile>/) {$type = 0; }
-  }
+  while(defined($_ = <FILE>)) { $TRANSLOG->{$n++} = $_; }
   close(FILE);
   return;
 }
@@ -324,10 +299,17 @@ sub PrintTranslog{
     foreach my $id (sort {$a<=>$b} keys %{$A->{$l}{'D'}}) {
       $A->{$l}{D}{$id}{tok} =~ s/\\([\(\)\\\/])/$1/g;
       my $tok = MSescape($A->{$l}{D}{$id}{tok});
+      my $in='';
+      if(defined($A->{$l}{D}{$id}{in})) { $in =$A->{$l}{D}{$id}{in};}
+      my $out='';
+      if(defined($A->{$l}{D}{$id}{out})) { $out =$A->{$l}{D}{$id}{out};}
       my $space='';
       if(defined($A->{$l}{D}{$id}{space})) { $space =MSescape($A->{$l}{D}{$id}{space});}
 
-      $TRANSLOG->{$m++} = "    <Token id=\"$id\" cur=\"$A->{$l}{D}{$id}{cur}\" space=\"$space\" tok=\"$tok\" />\n";
+      if($in ne '') {
+        $TRANSLOG->{$m++} = "    <Token id=\"$id\" cur=\"$A->{$l}{D}{$id}{cur}\" in=\"$in\" out=\"$out\" space=\"$space\" tok=\"$tok\" />\n";
+      }
+      else {$TRANSLOG->{$m++} = "    <Token id=\"$id\" cur=\"$A->{$l}{D}{$id}{cur}\" space=\"$space\" tok=\"$tok\" />\n";}
     }
     $TRANSLOG->{$m++} ="  </$l"."Token>\n";
   }

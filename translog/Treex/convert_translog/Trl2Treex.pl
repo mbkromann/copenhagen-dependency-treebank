@@ -120,44 +120,48 @@ sub ReadTranslog {
       if(/win="([0-9][0-9]*)"/)  {$FIX->{$time}{'win'} = $1;}
       if(/dur="([0-9][0-9]*)"/)  {$FIX->{$time}{'dur'} = $1;}
       if(/cur="([-0-9][0-9]*)"/)  {$FIX->{$time}{'cur'} = $1;}
-      if(/id="([-0-9][0-9]*)"/)   {$FIX->{$time}{'id'} = $1;}
+      if(/id="([^"]*)"/)   {$FIX->{$time}{'id'} = $1;}
 
     }
     elsif($type == 10 && /<Mod /) {  
       if(/time="([0-9][0-9]*)"/) {$time =$1;}
       if(/cur="([0-9][0-9]*)"/)  {$KEY->{$time}{'cur'} = $1;}
-#      if(/chr="([^"]*)"/)  {$KEY->{$time}{'chr'} = MSunescape($1);}
-      if(/chr="([^"]*)"/)  {$KEY->{$time}{'chr'} = $1;}
+      if(/chr="([^"]*)"/)  {$KEY->{$time}{'chr'} = MSunescape($1);}
+#      if(/chr="([^"]*)"/)  {$KEY->{$time}{'chr'} = $1;}
       if(/type="([^"]*)"/) {$KEY->{$time}{'type'} = $1;}
-      if(/sid="([0-9][0-9]*)"/)  {$KEY->{$time}{'sid'} = $1;}
-      if(/id="([-0-9][0-9]*)"/)  {$KEY->{$time}{'id'} = $1;}
+      if(/sid="([^"]*)"/)  {$KEY->{$time}{'sid'} = $1;}
+      if(/id="([^"]*)"/)  {$KEY->{$time}{'id'} = $1;}
     }
 
     elsif($type == 6 && /<Align /) {
 #print STDERR "ALIGN: $_";
       my ($si, $ti, $ss, $ts);
-      if(/SourceId="([^\"]*)"/) {$si =$1;}
-#      if(/Source="([^\"]*)"/)    {$ss =MSunescape($1);}
-      if(/Source="([^\"]*)"/)    {$ss =$1;}
-      if(/FinalId="([^\"]*)"/)  {$ti =$1;}
-      if(/Final="([^\"]*)"/)     {$ts =$1;}
+      if(/SourceId="([^"]*)"/) {$si =$1;}
+      if(/Source="([^"]*)"/)    {$ss =MSunescape($1);}
+#      if(/Source="([^"]*)"/)    {$ss =$1;}
+      if(/FinalId="([^"]*)"/)  {$ti =$1;}
+      if(/Final="([^"]*)"/)     {$ts =$1;}
       $ALN->{'tid'}{$ti}{'sid'}{$si} = $ss;
     }
     elsif($type == 7 && /<Token/) {
       if(/cur="([0-9][0-9]*)"/) {$cur =$1;}
-#      if(/tok="([^"]*)"/)   {$TOK->{src}{$cur}{tok} = MSunescape($1);}
-#      if(/space="([^"]*)"/) {$TOK->{src}{$cur}{space} = MSunescape($1);}
-      if(/tok="([^"]*)"/)   {$TOK->{src}{$cur}{tok} = $1;}
-      if(/space="([^"]*)"/) {$TOK->{src}{$cur}{space} = $1;}
+#      if(/tok="([^"]*)"/)   {$TOK->{src}{$cur}{tok} = $1;}
+#      if(/space="([^"]*)"/) {$TOK->{src}{$cur}{space} = $1;}
+      if(/tok="([^"]*)"/)   {$TOK->{src}{$cur}{tok} = MSunescape($1);}
+      if(/space="([^"]*)"/) {$TOK->{src}{$cur}{space} = MSunescape($1);}
+      if(/out="([^"]*)"/)   {$TOK->{src}{$cur}{out} = $1;}
+      if(/in="([^"]*)"/)    {$TOK->{src}{$cur}{in} = $1;}
       if(/id="([^"]*)"/)    {$TOK->{src}{$cur}{id} = $1;}
     }
 
     elsif($type == 8 && /<Token/) {
       if(/cur="([0-9][0-9]*)"/) {$cur =$1;}
-#      if(/tok="([^"]*)"/)   {$TOK->{fin}{$cur}{tok} = MSunescape($1);}
-#      if(/space="([^"]*)"/) {$TOK->{fin}{$cur}{space} = MSunescape($1);}
-      if(/tok="([^"]*)"/)   {$TOK->{fin}{$cur}{tok} = $1;}
-      if(/space="([^"]*)"/) {$TOK->{fin}{$cur}{space} = $1;}
+#      if(/tok="([^"]*)"/)   {$TOK->{fin}{$cur}{tok} = $1;}
+#      if(/space="([^"]*)"/) {$TOK->{fin}{$cur}{space} = $1;}
+      if(/tok="([^"]*)"/)   {$TOK->{fin}{$cur}{tok} = MSunescape($1);}
+      if(/space="([^"]*)"/) {$TOK->{fin}{$cur}{space} = MSunescape($1);}
+      if(/out="([^"]*)"/)   {$TOK->{fin}{$cur}{out} = $1;}
+      if(/in="([^"]*)"/)    {$TOK->{fin}{$cur}{in} = $1;}
       if(/id="([^"]*)"/)    {$TOK->{fin}{$cur}{id} = $1;}
     }
 
@@ -249,6 +253,8 @@ sub CreateTreex {
     $node->set_form($TOK->{src}{$cur}{tok});
     $node->set_id("src_$TOK->{src}{$cur}{id}");
     $node->wild->{linenumber} = $TOK->{src}{$cur}{id};
+    if(defined($TOK->{src}{$cur}{in})) {$node->wild->{in} = $TOK->{src}{$cur}{in};}
+    if(defined($TOK->{src}{$cur}{out})) {$node->wild->{out} = $TOK->{src}{$cur}{out};}
 #d($node->wild);
   }
 
@@ -259,6 +265,8 @@ sub CreateTreex {
     $node->set_form($TOK->{fin}{$cur}{tok});
     $node->set_id("tgt_$TOK->{fin}{$cur}{id}");
     $node->wild->{linenumber} = $TOK->{fin}{$cur}{id};
+    if(defined($TOK->{fin}{$cur}{in})) {$node->wild->{in} = $TOK->{fin}{$cur}{in};}
+    if(defined($TOK->{fin}{$cur}{out})) {$node->wild->{out} = $TOK->{fin}{$cur}{out};}
 
 #print STDERR "TGT tgt: $TGT->{$cur}{id} $TGT->{$cur}{tok} $cur\n";
 

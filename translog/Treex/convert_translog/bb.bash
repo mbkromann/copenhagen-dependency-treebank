@@ -2,7 +2,7 @@
 
 mkdir -p data/Treex
 
-for file in data/FixMod/*.xml
+for file in data/Merge/*.xml
 do
         treex=${file%.xml}
         treex=${treex/FixMod/Treex}
