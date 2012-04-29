@@ -29,7 +29,7 @@ getopts ('T:O:v:t:h');
 my $Verbose = 0;
 my $SourceLanguage = '';
 my $TargetLanguage = '';
-my $fn;
+my $OutFile;
 
 my $KEY;
 my $FIX;
@@ -40,11 +40,34 @@ my $ALN;
 die $usage if defined($opt_h);
 die $usage if not defined($opt_T);
 
-if(defined($opt_O)) { $fn = $opt_O;}
-else {$fn = $opt_T; $fn =~ s/.xml$//;}
+if(defined($opt_O)) { $OutFile = $opt_O;}
+else {$OutFile = $opt_T; $OutFile =~ s/.xml$//;}
 
-ReadTranslog($opt_T);
-CreateTreex($fn);
+my $LastSRC;
+my $doc = Treex::Core::Document->new;
+my $F = [split(/\,/, $opt_T)];
+
+ReadTranslogFile($F->[0]); 
+CreateTreex($F->[0]);
+
+for (my $i= 1; $i<= $#{$F}; $i++) {
+#  $KEY = $FIX = $TOK = $ALN = {};
+  $KEY = $FIX = $TOK = $ALN = undef;
+
+  ReadTranslogFile($F->[$i]); 
+  $LastSRC = $TOK->{src};
+  if(CheckSRCToken($LastSRC, $TOK->{src})) {
+    print STDERR "ReadTranslog: TokenDiff $F->[0], $F->[$i]\n";
+    next;
+  }
+  $TOK->{src} = undef;
+  CreateTreex($F->[$i]);
+}
+
+$doc->save("$OutFile.treex.gz");
+
+#ReadTranslog($opt_T);
+#CreateTreex($OutFile);
 
 exit;
 
@@ -82,20 +105,28 @@ sub unescape {
 
 
 ## SourceText Positions
-sub ReadTranslog {
+sub CheckSRCToken {
+  my ($T1, $T2) = @_;
+
+  foreach my $cur (sort {$a <=> $b} keys %{$T1}) { 
+    if(!defined($T2->{$cur})) { print STDERR "CheckSRCToken: undefined cursor $cur\n"; }
+    if($T1->{$cur}{tok} ne $T2->{$cur}{tok}) { print STDERR "CheckSRCToken: unequal token $T1->{$cur}{tok}\t$T2->{$cur}{tok}\n"; }
+  }
+  return 0;
+}
+
+
+
+## SourceText Positions
+sub ReadTranslogFile {
   my ($fn) = @_;
   my ($type, $time, $cur);
 
-  my $KeyLog = {};
-  my $key = 0;
-  my $F = '';
-  my ($lastTime, $t, $lastCursor, $c);
-
   open(FILE, '<:encoding(utf8)', $fn) || die ("cannot open file $fn");
   if($Verbose) {printf STDERR "ReadTranslog Reading: $fn\n";}
+  printf STDERR "ReadTranslog Reading: $fn\n";
 
   $type = 0;
-  my $n = 0;
   while(defined($_ = <FILE>)) {
 #printf STDERR "Translog: %s\n",  $_;
 
@@ -120,7 +151,7 @@ sub ReadTranslog {
       if(/win="([0-9][0-9]*)"/)  {$FIX->{$time}{'win'} = $1;}
       if(/dur="([0-9][0-9]*)"/)  {$FIX->{$time}{'dur'} = $1;}
       if(/cur="([-0-9][0-9]*)"/)  {$FIX->{$time}{'cur'} = $1;}
-      if(/id="([^"]*)"/)   {$FIX->{$time}{'id'} = $1;}
+      if(/\s+id="([^"]*)"/)   {$FIX->{$time}{'id'} = $1;}
 
     }
     elsif($type == 10 && /<Mod /) {  
@@ -130,7 +161,7 @@ sub ReadTranslog {
 #      if(/chr="([^"]*)"/)  {$KEY->{$time}{'chr'} = $1;}
       if(/type="([^"]*)"/) {$KEY->{$time}{'type'} = $1;}
       if(/sid="([^"]*)"/)  {$KEY->{$time}{'sid'} = $1;}
-      if(/id="([^"]*)"/)  {$KEY->{$time}{'id'} = $1;}
+      if(/\s+id="([^"]*)"/)  {$KEY->{$time}{'id'} = $1;}
     }
 
     elsif($type == 6 && /<Align /) {
@@ -183,7 +214,6 @@ sub ReadTranslog {
 #foreach my $f (sort {$a <=> $b} keys %{$TEXT}) { print STDERR "$TEXT->{$f}{c}" }
 #printf STDERR "\n";
 
-  return $KeyLog;
 }
 
 ################################################
@@ -199,11 +229,8 @@ sub CreateTreex {
     exit 1;
   }
 
-  my $doc = Treex::Core::Document->new;
   my $bundle = $doc->create_bundle;
-  my $zone_src = $bundle->create_zone('en');
-  my $zone_tgt = $bundle->create_zone('da');
-  my $root_src = $zone_src->create_atree;
+  my $zone_tgt = $bundle->create_zone($TargetLanguage);
   my $root_tgt = $zone_tgt->create_atree;
 
   foreach my $t (keys %{$FIX}) {
@@ -218,10 +245,10 @@ sub CreateTreex {
     elsif($FIX->{$t}{win} == 2) {$id="tgt_".$FIX->{$t}{id};}
     else {next;}
 
-    $doc->wild->{FIX}{$t}{win}  = $FIX->{$t}{'win'};
-    $doc->wild->{FIX}{$t}{dur}  = $FIX->{$t}{'dur'};
-    $doc->wild->{FIX}{$t}{cur}  = $FIX->{$t}{'cur'};
-    $doc->wild->{FIX}{$t}{id}   = $id;
+    $root_tgt->wild->{FIX}{$t}{win}  = $FIX->{$t}{'win'};
+    $root_tgt->wild->{FIX}{$t}{dur}  = $FIX->{$t}{'dur'};
+    $root_tgt->wild->{FIX}{$t}{cur}  = $FIX->{$t}{'cur'};
+    $root_tgt->wild->{FIX}{$t}{id}   = $id;
 #    $doc->wild->{FIX}{$t}{unit} = $FIX->{$t}{'fu'};
   }
 
@@ -234,28 +261,31 @@ sub CreateTreex {
     if(defined($ALN->{'tid'}) && 
        defined($ALN->{'tid'}{$KEY->{$t}{'id'}})) {
       foreach my $sid (sort  {$a <=> $b} keys %{$ALN->{'tid'}{$KEY->{$t}{'id'}}{'sid'}}) {
-        $doc->wild->{KEY}{$t}{sid}{"src_$sid"} ++;
+        $root_tgt->wild->{KEY}{$t}{sid}{"src_$sid"} ++;
       }
     }
 #print STDERR "XXXXXX $s\n";
 #d($KEY->{$t});
 
-    $doc->wild->{KEY}{$t}{char} = $KEY->{$t}{'chr'};
-    $doc->wild->{KEY}{$t}{type} = $KEY->{$t}{'type'};
-    $doc->wild->{KEY}{$t}{cur}  = $KEY->{$t}{'cur'};
-    $doc->wild->{KEY}{$t}{id} = "tgt_$KEY->{$t}{id}";
+    $root_tgt->wild->{KEY}{$t}{char} = $KEY->{$t}{'chr'};
+    $root_tgt->wild->{KEY}{$t}{type} = $KEY->{$t}{'type'};
+    $root_tgt->wild->{KEY}{$t}{cur}  = $KEY->{$t}{'cur'};
+    $root_tgt->wild->{KEY}{$t}{id} = "tgt_$KEY->{$t}{id}";
   }
 
-  foreach my $cur (sort {$a <=> $b} keys %{$TOK->{src}}) {
-    $ord++;
-    my $node = $root_src->create_child(ord=>$ord);
-
-    $node->set_form($TOK->{src}{$cur}{tok});
-    $node->set_id("src_$TOK->{src}{$cur}{id}");
-    $node->wild->{linenumber} = $TOK->{src}{$cur}{id};
-    if(defined($TOK->{src}{$cur}{in})) {$node->wild->{in} = $TOK->{src}{$cur}{in};}
-    if(defined($TOK->{src}{$cur}{out})) {$node->wild->{out} = $TOK->{src}{$cur}{out};}
-#d($node->wild);
+  if(defined($TOK->{src})) { 
+    my $zone_src = $bundle->create_zone($SourceLanguage);
+    my $root_src = $zone_src->create_atree;
+    foreach my $cur (sort {$a <=> $b} keys %{$TOK->{src}}) {
+      $ord++;
+      my $node = $root_src->create_child(ord=>$ord);
+  
+      $node->set_form($TOK->{src}{$cur}{tok});
+      $node->set_id("src_$TOK->{src}{$cur}{id}");
+      $node->wild->{linenumber} = $TOK->{src}{$cur}{id};
+      if(defined($TOK->{src}{$cur}{in})) {$node->wild->{in} = $TOK->{src}{$cur}{in};}
+      if(defined($TOK->{src}{$cur}{out})) {$node->wild->{out} = $TOK->{src}{$cur}{out};}
+    }
   }
 
   foreach my $cur (sort {$a <=> $b} keys %{$TOK->{fin}}) {
@@ -278,6 +308,6 @@ sub CreateTreex {
       $node->add_aligned_node($doc->get_node_by_id("src_$sid"));
     }
   }
-  $doc->save("$fn.treex.gz");
+#  $doc->save("$fn.treex.gz");
 }
 
