@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for file in ../../*/Translog-II/*.xml
+for file in ../../$1/Translog-II/*.xml
 do
 	sdir=`expr "$file" : '../../\(.*\)/Translog-II'`
         mkdir -p data/${sdir}/Translog-II
@@ -8,7 +8,7 @@ do
         cp -r  $file data/${sdir}/Translog-II/
 done
 
-for file in ../../*/Alignment/*.{src,tgt,atag}
+for file in ../../$1/Alignment/*.{src,tgt,atag}
 do
 	sdir=`expr "$file" : '../../\(.*\)/Alignment'`
         mkdir -p data/${sdir}/Alignment
@@ -17,9 +17,7 @@ do
 done
 
 mkdir -p data/Merged
-
-
-for file in data/*/Translog-II/*.xml
+for file in data/$1/Translog-II/*.xml
 do
         sdir=`expr "$file" : 'data/\(.*\)/Translog-II'`
         root=${file%.xml}
@@ -35,7 +33,7 @@ do
         ./FixMod2Trl.pl -T "$outp.Atag.xml" -O  "$outp.Event.xml"
 
         echo "./ComputeUnits.pl -T $outp.Event.xml > $outp.Units.xml"
-        ./ComputeUnits.pl -T "$outp.Event.xml" > $outp.Units.xml
+        ./PU-FU2Trl.pl -T "$outp.Event.xml" > $outp.Units.xml
 
         echo "./Trl2Treex.pl    -T $outp.Units.xml -O $outp.treex.gz"
         ./Trl2Treex.pl -T $outp.Units.xml -O $outp

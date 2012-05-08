@@ -238,9 +238,7 @@ sub ReadAtag {
 
 sub PrintTokens{
   my ($fn, $A) = @_;
-  my $m;
-
-#  open(T, '>:encoding(utf8)', "$fn.tgtTok") || die ("cannot open file $fn");
+  my $lineBreak=0;
 
   my @L = qw(Source Final);
   foreach my $l (@L) {
@@ -248,11 +246,12 @@ sub PrintTokens{
     foreach my $id (sort {$a<=>$b} keys %{$A->{$l}{'D'}}) {
       $A->{$l}{D}{$id}{tok} =~ s/\\([\(\)\\\/])/$1/g;
       my $tok = $A->{$l}{D}{$id}{tok};
-	  print FILE "$tok ";
 
-      if($tok =~ /^[.?!]$/) { print FILE "\n";}
-      elsif(defined($A->{$l}{D}{$id}{space}) && $A->{$l}{D}{$id}{space} =~ /[\n\r]/)  {print FILE "\n";}
-#	  $A->{$l}{D}{$id}{space} =~ escape($A->{$l}{D}{$id}{space});
+      if(defined($A->{$l}{D}{$id}{space}) && $A->{$l}{D}{$id}{space} =~ /[\n\r]/ && $lineBreak==0)  {print FILE "\n";}
+      print FILE "$tok ";
+
+      if($tok =~ /^[.?!]$/) { print FILE "\n"; $lineBreak = 1;}
+      else {$lineBreak = 0;}
     }
     close (FILE);
   }

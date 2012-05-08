@@ -13,7 +13,7 @@ copy:
 	mkdir -p $(DIR)/ED12
 	mkdir -p $(DIR)/Annette_translate
 
-	cp -r ../../{Annette_translate,ED12,L1L2,EN-DA,EN-ES}/{Translog-II,Alignment}/* $(DIR)/
+	#cp -r ../../{Annette_translate,ED12,L1L2,EN-DA,EN-ES}/{Translog-II,Alignment}/* $(DIR)/
 
 	exit
 	cp -r ../../Annette_translate/* $(DIR)/Annette_translate
@@ -35,7 +35,7 @@ copy:
 #	cp -r ../../EN-HI/Alignment $(DIR)/EN-HI/Alignment
 
 merge_atag_trl:
-	./MergeAtagTrl.bash
+	./MergeAtagTrl.bash EN-HI
 
 finetreex:
 	@echo ----------- Step 4: Refining the data in treex ----------
