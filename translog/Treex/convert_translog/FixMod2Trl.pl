@@ -793,5 +793,7 @@ sub PrintTranslog{
   open(FILE, '>:encoding(utf8)', $fn) || die ("cannot open file $fn");
 
   foreach my $k (sort {$a<=>$b} keys %{$TRANSLOG}) { print FILE "$TRANSLOG->{$k}"; }
+  close(FILE);
+
 }
 

@@ -17,19 +17,20 @@ my $map = { map { $_ => 1 } split( //o, "\\<> \t\n\r\f\"" ) };
 
 
 my $usage =
-  "Produce ProgGraph files: \n".
-  "  -A in:  Alignment file <filename>.{atag,src,tgt}\n".
-  "     out: Write output   <filename>.{srcTok,tgtTok}\n".
+  "Generate atag file from Giza alignments: \n".
+  "  -A in:  Alignment file <fileroot>.{atag,src,tgt}\n".
+  "  -G in:  Giza alignment <filename>\n".
+  "     out: <fileroot>.atag \n".
   "Options:\n".
-  "  -O out: Write output   <filename>.{srcTok,tgtTok}\n".
+  "  -O out: Write output <filename>.{atag}\n".
   "  -v verbose mode [0 ... ]\n".
   "  -h this help \n".
   "\n";
 
-use vars qw ($opt_O $opt_A $opt_v $opt_h);
+use vars qw ($opt_O $opt_A $opt_G $opt_v $opt_h);
 
 use Getopt::Std;
-getopts ('A:O:v:t:h');
+getopts ('A:O:G:v:t:h');
 
 die $usage if defined($opt_h);
 
@@ -38,18 +39,19 @@ my $fn = '';
 
 if (defined($opt_v)) {$Verbose = $opt_v;}
 
-### Read and Tokenize Translog log file
-if(defined($opt_O)) { $fn = $opt_O;}
-else { $fn = $opt_A;}
-if(defined($opt_A)) {
-  my $A=ReadAtag($opt_A);
-  ReadAlign("$opt_A.giza", $A);
-  PrintAtag($fn, $A);
-  exit;
-}
+while (<>) {
+  chomp;
+  my ($atag, $giza, $lang) = split(/\s+\|\|\s+/);
 
-printf STDERR "No Output produced\n";
-die $usage;
+#data/ED12/Translog-II/ED01.xml || data/Giza/ED12_ED01 ||     <Languages source="en" target="da" />
+
+#print "AAA $atag $giza  $lang\n";
+
+  my $A=ReadAtag($atag);
+  if(defined($A)) {
+    if(ReadAlign("$giza.giza", $A) ==1 ) { PrintAtag("$atag.atag", $atag, $A);}
+  }
+}
 
 exit;
 
@@ -106,7 +108,7 @@ sub ReadAlign {
 
   if(!open(DATA, "<:encoding(utf8)", $fn)) {
     printf STDERR "ReadAlign: cannot open: $fn\n";
-    exit ;
+    return 0;
   }
 
   if($Verbose) {printf STDERR "ReadDtag: %s\n", $fn;}
@@ -114,14 +116,12 @@ sub ReadAlign {
   $n = 0;
   while(defined($_ = <DATA>)) {
     chomp;
-    my $L = [split(/\s+/)];
-    for (my $i = 0; $i < $#{$L}; $i++) {
-      my ($in, $out) = split(/-/, $L->[$i]);
-      $A->{'align'}{$n}{$in}{$out} ++;
-printf STDERR "$in-$out ";
-    }
+    my ($in, $out) = split(/-/);
+    $A->{'align'}{$in}{$out} ++;
+#printf STDERR "$in-$out ";
     $n++;
   }
+  return 1;
 }
       
 #printf STDERR "$_\n";
@@ -138,7 +138,7 @@ sub ReadDTAG {
 
   if(!open(DATA, "<:encoding(utf8)", $fn)) {
     printf STDERR "ReadDTAG: cannot open: $fn\n";
-    exit ;
+    return undef;
   }
 
   if($Verbose) {printf STDERR "ReadDtag: %s\n", $fn;}
@@ -189,7 +189,7 @@ sub ReadAtag {
 
   if(!open(ALIGN,  "<:encoding(utf8)", "$fn.atag")) {
     printf STDERR "ReadAtag: cannot open for reading: $fn.atag\n";
-    exit 1;
+    return undef;
   }
 
   if($Verbose) {printf STDERR "ReadAtag: $fn.atag\n";}
@@ -204,6 +204,7 @@ sub ReadAtag {
 #printf STDERR "Alignment %s\n", $_;
 ## read aligned files
     if(/<alignFile/) {
+
       my $path = $fn;
       if(/href="([^"]*)"/) { $fn1 = $1;}
 
@@ -228,6 +229,8 @@ sub ReadAtag {
     }
 
     if(/<align /) {
+#        print STDERR "ReadAtag: skipping $fn already aligned\n";
+
 #printf STDERR "ALN: $_\n";
       if(/in="([^"]*)"/) { $is=$1;}
       if(/out="([^"]*)"/){ $os=$1;}
@@ -265,26 +268,24 @@ sub ReadAtag {
 }
 
 sub PrintAtag{
-  my ($fn, $A) = @_;
+  my ($out, $fn, $A) = @_;
 
-  print STDOUT "<DTAGalign>\n";
-  print STDOUT "<alignFile key=\"a\" href=\"$fn.src\" />\n";
-  print STDOUT "<alignFile key=\"b\" href=\"$fn.tgt\" >\n";
+#print STDERR "AAA $out\n";
+  open(FILE, '>:encoding(utf8)', $out) || die ("cannot open file $out");
 
-  my $m = -1;
+  print FILE "<DTAGalign>\n";
+  print FILE "<alignFile key=\"a\" href=\"$fn.src\" />\n";
+  print FILE "<alignFile key=\"b\" href=\"$fn.tgt\" >\n";
+
   my $type = '';
-  foreach my $n (sort {$a<=>$b} keys %{$A->{align}}) {
 #d($A->{n}{$n}{Source}{id});
-    foreach my $src (sort {$a<=>$b} keys %{$A->{align}{$n}}) {
-      foreach my $tgt (sort {$a<=>$b} keys %{$A->{align}{$n}{$src}}) {
-        if($n != $m) { $type = "first";}
-        else {$type = '';}
-        print STDERR "<atag out=\"a$src\" type=\"$type\" in=\"b$tgt\" />\n";
-        print STDOUT "<atag out=\"a$src\" type=\"$type\" in=\"b$tgt\" />\n";
-        $m=$n;
-      }
-print STDERR "XXX\n";
+  foreach my $src (sort {$a<=>$b} keys %{$A->{align}}) {
+    foreach my $tgt (sort {$a<=>$b} keys %{$A->{align}{$src}}) {
+#      print STDERR "<atag out=\"a$src\" type=\"$type\" in=\"b$tgt\" />\n";
+      print FILE "<align out=\"a$src\" type=\"$type\" in=\"b$tgt\" />\n";
     }
+#print STDERR "XXX\n";
   }
-  print STDOUT "</DTAGalign>\n";
+  print FILE "</DTAGalign>\n";
+  close(FILE);
 }
