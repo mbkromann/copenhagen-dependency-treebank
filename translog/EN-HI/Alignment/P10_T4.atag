@@ -1,4 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign>
-    <alignFile key="a" href="P10_T4.src" sign="_input"/>
-    <alignFile key="b" href="P10_T4.tgt" sign="_input"/>
+<alignFile href="P10_T4.src" key="a" sign="_input"/>
+<alignFile href="P10_T4.tgt" key="b" sign="_input"/>
+<align creator="" in="b1" insign="यद्यपि" out="a1" outsign="Although" type=""/>
+<align creator="" in="b2" insign="विकासशील" out="a2" outsign="developing" type=""/>
+<align creator="" in="b3" insign="देश" out="a3" outsign="countries" type=""/>
+<align creator="" in="b21b22" insign="समझ पाने" out="a5" outsign="understandably" type=""/>
+<align creator="" in="b26" insign="हैं" out="a4" outsign="are" type=""/>
+<align creator="" in="b24b25" insign="नाकाम रहे" out="a6" outsign="reluctant" type=""/>
+<align creator="" in="b23" insign="में" out="a7" outsign="to" type=""/>
+<align creator="" in="b8b9" insign="के लिए" out="a17" outsign="for" type=""/>
+<align creator="" in="b7" insign="गरीबों" out="a18" outsign="the" type=""/>
+<align creator="" in="b7" insign="गरीबों" out="a19" outsign="poor" type=""/>
+<align creator="" in="b10" insign="उनकी" out="a9" outsign="their" type=""/>
+<align creator="" in="b19" insign="अवसर" out="a10" outsign="chances" type=""/>
+<align creator="" in="b20" insign="को" out="a11" outsign="of" type=""/>
+<align creator="" in="b11" insign="मानक" out="a13" outsign="better" type=""/>
+<align creator="" in="b15" insign="को" out="a15" outsign="of" type=""/>
+<align creator="" in="b14" insign="स्तर" out="a14" outsign="standards" type=""/>
+<align creator="" in="b12b13" insign="जीवन निर्वहन" out="a16" outsign="living" type=""/>
+<align creator="" in="b16b17b18" insign="हासिल करने के" out="a12" outsign="achieving" type=""/>
+<align creator="" in="b4b5b6" insign="बौद्धिक रूप से" out="a4" outsign="are" type=""/>
+<align creator="" in="b27" insign="," out="a20" outsign="," type=""/>
+<align creator="" in="b29" insign="पर्यावरण" out="a23" outsign="climate" type=""/>
+<align creator="" in="b32b33b34" insign="आवाज उठाने से" out="a21" outsign="action" type=""/>
+<align creator="" in="b31" insign="पर" out="a22" outsign="on" type=""/>
+<align creator="" in="b30" insign="बदलाव" out="a24" outsign="change" type=""/>
+<align creator="" in="b38" insign="संभव" out="a25" outsign="need" type=""/>
+<align creator="" in="b39b40" insign="नहीं है।" out="a26" outsign="not" type=""/>
+<align creator="" in="b35b36" insign="अर्थव्यवस्था का" out="a28" outsign="economic" type=""/>
+<align creator="" in="b37" insign="विकास" out="a29" outsign="development" type=""/>
+<align creator="" in="b40" insign="है।" out="a30" outsign="." type=""/>
+<align creator="" in="b50" insign="विकासशील" out="a37" outsign="developing" type=""/>
+<align creator="" in="b47b48b49" insign="प्रोत्साहन के लिए" out="a36" outsign="encourage" type=""/>
+<align creator="" in="b51b52" insign="देशों को" out="a38" outsign="countries" type=""/>
+<align creator="" in="b41" insign="अतिरिक्त" out="a42" outsign="extra" type=""/>
+<align creator="" in="b42" insign="ग्रीन" out="a43" outsign="green" type=""/>
+<align creator="" in="b41b42" insign="अतिरिक्त ग्रीन" out="a41" outsign="the" type=""/>
+<align creator="" in="b43" insign="और" out="a45" outsign="and" type=""/>
+<align creator="" in="b44" insign="क्लीन" out="a47" outsign="clean" type=""/>
+<align creator="" in="b45" insign="टेक्नोलाजी" out="a48" outsign="technologies" type=""/>
+<align creator="" in="b57" insign="जाने" out="a40" outsign="go" type=""/>
+<align creator="" in="b52" insign="को" out="a39" outsign="to" type=""/>
+<align creator="" in="b55" insign="जरूर" out="a32" outsign="must" type=""/>
+<align creator="" in="b55" insign="जरूर" out="a33" outsign="be" type=""/>
+<align creator="" in="b58" insign="चाहिए" out="a31" outsign="Incentives" type=""/>
+<align creator="" in="b54" insign="पैकेज" out="a31" outsign="Incentives" type=""/>
+<align creator="" in="b53" insign="राहत" out="a34" outsign="offered" type=""/>
+<align creator="" in="b52" insign="को" out="a35" outsign="to" type=""/>
+<align creator="" in="b59" insign="ताकि" out="a50" outsign="and" type=""/>
+<align creator="" in="b60" insign="निर्जंगलीकरण" out="a57" outsign="deforestation" type=""/>
+<align creator="" in="b61" insign="से" out="a56" outsign="from" type=""/>
+<align creator="" in="b67" insign="कम" out="a54" outsign="minimise" type=""/>
+<align creator="" in="b68b69b70" insign="किया जा सके।" out="a51" outsign="could" type=""/>
+<align creator="" in="b62b63" insign="होने वाले" out="a52" outsign="also" type=""/>
+<align creator="" in="b64b65b66" insign="उनके नुकसान को" out="a55" outsign="emissions" type=""/>
+<align creator="" in="b68b69b70" insign="किया जा सके।" out="a53" outsign="help" type=""/>
+<align creator="" in="b70" insign="सके।" out="a58" outsign="." type=""/>
+<align creator="" in="b73" insign="कुछ" out="a59" outsign="Some" type=""/>
+<align creator="" in="b73" insign="कुछ" out="a60" outsign="of" type=""/>
+<align creator="" in="b74b75b76" insign="बेहद नाजुक देशों" out="a61" outsign="the" type=""/>
+<align creator="" in="b74" insign="बेहद" out="a62" outsign="most" type=""/>
+<align creator="" in="b75" insign="नाजुक" out="a63" outsign="vulnerable" type=""/>
+<align creator="" in="b76" insign="देशों" out="a64" outsign="countries" type=""/>
+<align creator="" in="b77" insign="ने" out="a64" outsign="countries" type=""/>
+<align creator="" in="b72" insign="की" out="a65" outsign="of" type=""/>
+<align creator="" in="b71" insign="विश्व" out="a66" outsign="the" type=""/>
+<align creator="" in="b71" insign="विश्व" out="a67" outsign="world" type=""/>
+<align creator="" in="b82" insign="योगदान" out="a69" outsign="contributed" type=""/>
+<align creator="" in="b84" insign="हैं" out="a68" outsign="have" type=""/>
+<align creator="" in="b78" insign="पर्यावरण" out="a73" outsign="climate" type=""/>
+<align creator="" in="b79" insign="बदलाव" out="a74" outsign="change" type=""/>
+<align creator="" in="b80" insign="पर" out="a72" outsign="to" type=""/>
+<align creator="" in="b81" insign="कुछ" out="a70" outsign="the" type=""/>
+<align creator="" in="b81" insign="कुछ" out="a71" outsign="least" type=""/>
+<align creator="" in="b83" insign="किए" out="a69" outsign="contributed" type=""/>
+<align creator="" in="b85" insign="," out="a75" outsign="," type=""/>
+<align creator="" in="b86" insign="लेकिन" out="a76" outsign="but" type=""/>
+<align creator="" in="b97" insign="है।" out="a77" outsign="are" type=""/>
+<align creator="" in="b94b95b96" insign="नष्ट कर दिया" out="a80" outsign="brunt" type=""/>
+<align creator="" in="b94b95b96" insign="नष्ट कर दिया" out="a81" outsign="of" type=""/>
+<align creator="" in="b92" insign="योगदानों" out="a79" outsign="the" type=""/>
+<align creator="" in="b87b88b89b90" insign="उनके जारी निर्गमन ने" out="a78" outsign="bearing" type=""/>
+<align creator="" in="b91b92b93" insign="उनके योगदानों को" out="a82" outsign="it" type=""/>
+<align creator="" in="b97" insign="है।" out="a83" outsign="." type=""/>
+<align creator="" in="b98" insign="विकासशील" out="a84" outsign="Developing" type=""/>
+<align creator="" in="b99b100" insign="देशों को" out="a85" outsign="countries" type=""/>
+<align creator="" in="b108b109" insign="जरूरत है।" out="a91" outsign="to" type=""/>
+<align creator="" in="b106" insign="ग्रहण" out="a92" outsign="adapt" type=""/>
+<align creator="" in="b108" insign="जरूरत" out="a90" outsign="need" type=""/>
+<align creator="" in="b107" insign="की" out="a93" outsign="to" type=""/>
+<align creator="" in="b104" insign="प्रभावों" out="a94" outsign="the" type=""/>
+<align creator="" in="b104" insign="प्रभावों" out="a95" outsign="effects" type=""/>
+<align creator="" in="b105" insign="को" out="a96" outsign="of" type=""/>
+<align creator="" in="b101" insign="पर्यावरण" out="a97" outsign="climate" type=""/>
+<align creator="" in="b102b103" insign="बदलावों के" out="a98" outsign="change" type=""/>
+<align creator="" in="b109" insign="है।" out="a99" outsign="." type=""/>
+<align creator="" in="b110" insign="ग्रहणता" out="a100" outsign="Adaptation" type=""/>
+<align creator="" in="b111" insign="और" out="a101" outsign="and" type=""/>
+<align creator="" in="b112" insign="मिटीगेशन" out="a102" outsign="mitigation" type=""/>
+<align creator="" in="b115" insign="प्रयास" out="a103" outsign="efforts" type=""/>
+<align creator="" in="b116b117" insign="जरूरी है" out="a104" outsign="must" type=""/>
+<align creator="" in="b118b119" insign="इसलिए इन्हें" out="a105" outsign="therefore" type=""/>
+<align creator="" in="b124b125" insign="चलना चाहिए।" out="a106" outsign="go" type=""/>
+<align creator="" in="b120b121b122b123" insign="साथ - साथ लेकर" out="a107" outsign="hand" type=""/>
+<align creator="" in="b120b121b122b123" insign="साथ - साथ लेकर" out="a108" outsign="in" type=""/>
+<align creator="" in="b120b121b122b123" insign="साथ - साथ लेकर" out="a109" outsign="hand" type=""/>
+<align creator="" in="b125" insign="चाहिए।" out="a110" outsign="." type=""/>
 </DTAGalign>

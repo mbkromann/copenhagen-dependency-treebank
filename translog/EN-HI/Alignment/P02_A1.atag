@@ -1,4 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign>
-    <alignFile key="a" href="P02_A1.src" sign="_input"/>
-    <alignFile key="b" href="P02_A1.tgt" sign="_input"/>
+<alignFile href="P02_A1.src" key="a" sign="_input"/>
+<alignFile href="P02_A1.tgt" key="b" sign="_input"/>
+<align creator="" in="b1" insign="कातिल" out="a1" outsign="Killer" type=""/>
+<align creator="" in="b2" insign="नर्स" out="a2" outsign="nurse" type=""/>
+<align creator="" in="b7" insign="मिली" out="a3" outsign="receives" type=""/>
+<align creator="" in="b3" insign="चार" out="a4" outsign="four" type=""/>
+<align creator="" in="b4b5b6" insign="साल की सज़ा" out="a5a6" outsign="life sentences" type=""/>
+<align creator="" in="b9" insign="चिकित्सालय" out="a7" outsign="Hospital" type=""/>
+<align creator="" in="b10" insign="नर्स" out="a8" outsign="nurse" type=""/>
+<align creator="" in="b11" insign="कॉलिन" out="a9" outsign="Colin" type=""/>
+<align creator="" in="b12" insign="नोरिस" out="a10" outsign="Norris" type=""/>
+<align creator="" in="b14" insign="आज" out="a15" outsign="today" type=""/>
+<align creator="" in="b15" insign="आपने" out="a22" outsign="his" type=""/>
+<align creator="" in="b16" insign="रोगी" out="a23" outsign="patients" type=""/>
+<align creator="" in="b17" insign="की" out="a19" outsign="of" type=""/>
+<align creator="" in="b18b19" insign="हत्या करने" out="a17a18" outsign="the killing" type=""/>
+<align creator="" in="b20b21" insign="के कारण" out="a16" outsign="for" type=""/>
+<align creator="" in="b22b23" insign="उम्रभर की" out="a13a14" outsign="for life" type=""/>
+<align creator="" in="b24b25" insign="कैद मिली" out="a11a12" outsign="was imprisoned" type=""/>
+<align creator="" in="b26" insign="." out="a24" outsign="." type=""/>
+<align creator="" in="b28" insign="32" out="a25" outsign="32" type=""/>
+<align creator="" in="b29b30" insign="साल की" out="a26a27" outsign="year old" type=""/>
+<align creator="" in="b31" insign="नोरिस" out="a28" outsign="Norris" type=""/>
+<align creator="" in="b33" insign="ग्लासगो" out="a30" outsign="Glasgow" type=""/>
+<align creator="" in="b34b35" insign="से है" out="a29" outsign="from" type=""/>
+<align creator="" in="b37" insign="चार" out="a33" outsign="four" type=""/>
+<align creator="" in="b38" insign="महिलों" out="a34" outsign="women" type=""/>
+<align creator="" in="b40" insign="2002" out="a36" outsign="2002" type=""/>
+<align creator="" in="b41" insign="में" out="a35" outsign="in" type=""/>
+<align creator="" in="b47" insign="देकर" out="a37a38" outsign="by giving" type=""/>
+<align creator="" in="b42" insign="ज्यादा" out="a40" outsign="large" type=""/>
+<align creator="" in="b43" insign="मात्रा" out="a41" outsign="amounts" type=""/>
+<align creator="" in="b44" insign="में" out="a42" outsign="of" type=""/>
+<align creator="" in="b45" insign="सोनेवाली" out="a43" outsign="sleeping" type=""/>
+<align creator="" in="b46" insign="दवा" out="a44" outsign="medicine" type=""/>
+<align creator="" in="b51" insign="|" out="a45" outsign="." type=""/>
+<align creator="" in="b36b48b49b50" insign="ने मार डाला था" out="a31" outsign="killed" type=""/>
+<align creator="" in="b52" insign="कल" out="a46" outsign="Yesterday" type=""/>
+<align creator="" in="b53" insign="," out="a47" outsign="," type=""/>
+<align creator="" in="b54" insign="उसे" out="a48" outsign="he" type=""/>
+<align creator="" in="b55" insign="लंबे" out="a58a59" outsign="a long" type=""/>
+<align creator="" in="b56" insign="केस" out="a60" outsign="trial" type=""/>
+<align creator="" in="b57b58" insign="के बाद" out="a57" outsign="following" type=""/>
+<align creator="" in="b59" insign="हत्याओं" out="a54a55a56" outsign="counts of murder" type=""/>
+<align creator="" in="b60b61" insign="के लिए" out="a52" outsign="of" type=""/>
+<align creator="" in="b62" insign="जिम्मेदार" out="a51" outsign="guilty" type=""/>
+<align creator="" in="b63b64" insign="समझा गया" out="a49a50" outsign="was found" type=""/>
+<align creator="" in="b65" insign="." out="a61" outsign="." type=""/>
+<align creator="" in="b66" insign="उसे" out="a62" outsign="He" type=""/>
+<align creator="" in="b67b68" insign="हर एक" out="a71" outsign="each" type=""/>
+<align creator="" in="b69" insign="हत्या" out="a73a74" outsign="the killings" type=""/>
+<align creator="" in="b70b71" insign="के लिए" out="a70" outsign="for" type=""/>
+<align creator="" in="b72b73b74" insign="उम्रकैद की सज़ा" out="a66a67" outsign="life sentences" type=""/>
+<align creator="" in="b75b76" insign="दी गई" out="a63a64" outsign="was given" type=""/>
+<align creator="" in="b77" insign="|" out="a75" outsign="." type=""/>
+<align creator="" in="b78" insign="उसे" out="a76" outsign="He" type=""/>
+<align creator="" in="b79b80b81" insign="कम से कम" out="a81a82" outsign="at least" type=""/>
+<align creator="" in="b82" insign="30" out="a83" outsign="30" type=""/>
+<align creator="" in="b83" insign="साल" out="a84" outsign="years" type=""/>
+<align creator="" in="b84b85" insign="सेवा करनी" out="a79a80" outsign="to serve" type=""/>
+<align creator="" in="b86" insign="होगी" out="a77a78" outsign="will have" type=""/>
+<align creator="" in="b87" insign="|" out="a85" outsign="." type=""/>
+<align creator="" in="b88" insign="पुलिस" out="a86" outsign="Police" type=""/>
+<align creator="" in="b89" insign="अधिकारी" out="a87" outsign="officer" type=""/>
+<align creator="" in="b90" insign="च्रिस" out="a88" outsign="Chris" type=""/>
+<align creator="" in="b91" insign="ग्रेग्ग" out="a89" outsign="Gregg" type=""/>
+<align creator="" in="b92b93" insign="ने कहा" out="a90" outsign="said" type=""/>
+<align creator="" in="b94" insign="कि" out="a91" outsign="that" type=""/>
+<align creator="" in="b95" insign="नोरिस" out="a92" outsign="Norris" type=""/>
+<align creator="" in="b96b97b98" insign="आश्चर्यजनक रूप से" out="a96" outsign="strangely" type=""/>
+<align creator="" in="b100b101" insign="के आसपास" out="a97" outsign="around" type=""/>
+<align creator="" in="b99" insign="चिकित्सालय" out="a98a99" outsign="the hospital" type=""/>
+<align creator="" in="b102b103" insign="काम कर" out="a95" outsign="acting" type=""/>
+<align creator="" in="b104b105" insign="रही था" out="a93a94" outsign="had been" type=""/>
+<align creator="" in="b106" insign="|" out="a100" outsign="." type=""/>
+<align creator="" in="b107" insign="केवल" out="a101" outsign="Only" type=""/>
+<align creator="" in="b108" insign="दूसरा" out="a105" outsign="other" type=""/>
+<align creator="" in="b109" insign="चिकित्सालय" out="a106" outsign="hospital" type=""/>
+<align creator="" in="b110" insign="कर्मचारी" out="a107" outsign="staff" type=""/>
+<align creator="" in="b112" insign="जागरूकता" out="a104" outsign="of" type=""/>
+<align creator="" in="b113" insign="के" out="a104" outsign="of" type=""/>
+<align creator="" in="b112" insign="जागरूकता" out="a103" outsign="awareness" type=""/>
+<align creator="" in="b115" insign="उसको" out="a111a112" outsign="to him" type=""/>
+<align creator="" in="b116" insign="रोका" out="a108a109a110" outsign="put a stop" type=""/>
+<align creator="" in="b117" insign="और" out="a113" outsign="and" type=""/>
+<align creator="" in="b118" insign="हत्या" out="a115a116" outsign="the killings" type=""/>
+<align creator="" in="b122" insign="|" out="a117" outsign="." type=""/>
+<align creator="" in="b123b124" insign="पुलिस को" out="a118a119" outsign="The police" type=""/>
+<align creator="" in="b125b126" insign="पता चला" out="a120a121" outsign="have learned" type=""/>
+<align creator="" in="b127" insign="कि" out="a122" outsign="that" type=""/>
+<align creator="" in="b130" insign="कारण" out="a123a124" outsign="the motive" type=""/>
+<align creator="" in="b129" insign="का" out="a125" outsign="for" type=""/>
+<align creator="" in="b128" insign="हत्याओं" out="a126a127" outsign="the killings" type=""/>
+<align creator="" in="b131" insign="था" out="a128" outsign="was" type=""/>
+<align creator="" in="b132" insign="कि" out="a129" outsign="that" type=""/>
+<align creator="" in="b133" insign="नोरिस" out="a130" outsign="Norris" type=""/>
+<align creator="" in="b134" insign="बड़े" out="a134" outsign="old" type=""/>
+<align creator="" in="b135" insign="लोगों" out="a135" outsign="people" type=""/>
+<align creator="" in="b136b137" insign="के साथ" out="a133" outsign="with" type=""/>
+<align creator="" in="b138b139" insign="कार्य करना" out="a132" outsign="working" type=""/>
+<align creator="" in="b140b142b143" insign="नापसन्द करती थी" out="a131" outsign="disliked" type=""/>
+<align creator="" in="b144" insign="|" out="a136" outsign="." type=""/>
+<align creator="" in="b146" insign="सब" out="a137" outsign="All" type=""/>
+<align creator="" in="b145" insign="उसके" out="a139" outsign="his" type=""/>
+<align creator="" in="b147" insign="पीड़ित" out="a140" outsign="victims" type=""/>
+<align creator="" in="b148b149b150" insign="बड़ी उम्र की" out="a142" outsign="old" type=""/>
+<align creator="" in="b151" insign="महिलाएं" out="a144" outsign="women" type=""/>
+<align creator="" in="b152" insign="जिनको" out="a145" outsign="with" type=""/>
+<align creator="" in="b153b154b155" insign="दिल की समस्याएं" out="a146a147" outsign="heart problems" type=""/>
+<align creator="" in="b158" insign="थीं" out="a141" outsign="were" type=""/>
+<align creator="" in="b159" insign="|" out="a148" outsign="." type=""/>
+<align creator="" in="b160b161b162" insign="उन सब को" out="a149a150a151" outsign="All of them" type=""/>
+<align creator="" in="b168" insign="समझती" out="a154" outsign="considered" type=""/>
+<align creator="" in="b167" insign="बोझ" out="a155a156" outsign="a burden" type=""/>
+<align creator="" in="b166" insign="पर" out="a157" outsign="to" type=""/>
+<align creator="" in="b163b164b165" insign="चिकित्सालय के कर्मचारी" out="a158a159" outsign="hospital staff" type=""/>
+<align creator="" in="b169" insign="थी" out="a152a153" outsign="could be" type=""/>
 </DTAGalign>

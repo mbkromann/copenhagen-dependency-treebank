@@ -1,4 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign>
-    <alignFile key="a" href="P02_T3.src" sign="_input"/>
-    <alignFile key="b" href="P02_T3.tgt" sign="_input"/>
+<alignFile href="P02_T3.src" key="a" sign="_input"/>
+<alignFile href="P02_T3.tgt" key="b" sign="_input"/>
+<align creator="" in="b1" insign="स्पीलबर्ग" out="a1" outsign="Spielberg" type=""/>
+<align creator="" in="b3" insign="डराफ्र" out="a7" outsign="Darfur" type=""/>
+<align creator="" in="b4" insign="पर" out="a6" outsign="over" type=""/>
+<align creator="" in="b5" insign="बीजिंग" out="a3" outsign="Beijing" type=""/>
+<align creator="" in="b6" insign="लाल" out="a4" outsign="red" type=""/>
+<align creator="" in="b7" insign="कार्ड" out="a5" outsign="card" type=""/>
+<align creator="" in="b2b8" insign="ने दिखाया" out="a2" outsign="shows" type=""/>
+<align creator="" in="b10" insign="चीनी" out="a14a15" outsign="the Chinese" type=""/>
+<align creator="" in="b11" insign="सरकार" out="a16" outsign="Government" type=""/>
+<align creator="" in="b12b13b14b15" insign="को हिलाने के लिए" out="a12a13" outsign="to rattle" type=""/>
+<align creator="" in="b16" insign="," out="a17" outsign="," type=""/>
+<align creator="" in="b17" insign="स्टीवन" out="a18" outsign="Steven" type=""/>
+<align creator="" in="b18" insign="स्पीलबर्ग" out="a19" outsign="Spielberg" type=""/>
+<align creator="" in="b19" insign="बीजिंग" out="a23a24" outsign="the Beijing" type=""/>
+<align creator="" in="b20" insign="ओलंपिक्स" out="a25" outsign="Olympics" type=""/>
+<align creator="" in="b21" insign="से" out="a21a22" outsign="out of" type=""/>
+<align creator="" in="b22" insign="डरफ्र" out="a37" outsign="Darfur" type=""/>
+<align creator="" in="b23" insign="में" out="a36" outsign="in" type=""/>
+<align creator="" in="b24" insign="चीन" out="a29" outsign="China" type=""/>
+<align creator="" in="b25" insign="की" out="a30" outsign="'s" type=""/>
+<align creator="" in="b26" insign="सूडान" out="a33a34" outsign="Sudan 's" type=""/>
+<align creator="" in="b27" insign="नीति" out="a35" outsign="policy" type=""/>
+<align creator="" in="b28b29" insign="के खिलाफ" out="a28" outsign="against" type=""/>
+<align creator="" in="b30b31b32" insign="प्रदर्शन के लिए" out="a26a27" outsign="to protest" type=""/>
+<align creator="" in="b21b33b34" insign="से बाहर रहे" out="a20a21a22" outsign="pulled out of" type=""/>
+<align creator="" in="b35" insign="." out="a38" outsign="." type=""/>
+<align creator="" in="b36" insign="उनकी" out="a39" outsign="His" type=""/>
+<align creator="" in="b37" insign="वापसी" out="a40" outsign="withdrawal" type=""/>
+<align creator="" in="b38" insign="डराफ्र" out="a51" outsign="Darfur" type=""/>
+<align creator="" in="b39" insign="में" out="a50" outsign="in" type=""/>
+<align creator="" in="b40" insign="लड़ाई" out="a46" outsign="fighting" type=""/>
+<align creator="" in="b41b42" insign="की ज्वाला" out="a47" outsign="flaring" type=""/>
+<align creator="" in="b44b45" insign="फिर से" out="a49" outsign="again" type=""/>
+<align creator="" in="b46b47b48" insign="जलाने के लिए" out="a48" outsign="up" type=""/>
+<align creator="" in="b46b47b48" insign="जलाने के लिए" out="a43a44a48" outsign="the wake up" type=""/>
+<align creator="" in="b49" insign="और" out="a52" outsign="and" type=""/>
+<align creator="" in="b50" insign="चीन" out="a57" outsign="China" type=""/>
+<align creator="" in="b51" insign="को" out="a55" outsign="to" type=""/>
+<align creator="" in="b52b53b54" insign="शर्मशार करने के" out="a55a56" outsign="to embarrass" type=""/>
+<align creator="" in="b52b53b54b55" insign="शर्मशार करने के लिए" out="a55a56" outsign="to embarrass" type=""/>
+<align creator="" in="b56" insign="हुई" out="a53a54" outsign="is set" type=""/>
+<align creator="" in="b57" insign="." out="a58" outsign="," type=""/>
+<align creator="" in="b58" insign="जो" out="a59" outsign="which" type=""/>
+<align creator="" in="b59" insign="सूडान" out="a72a73" outsign="the Sudanese" type=""/>
+<align creator="" in="b60" insign="सरकार" out="a74" outsign="government" type=""/>
+<align creator="" in="b61b62" insign="के साथ" out="a71" outsign="to" type=""/>
+<align creator="" in="b63" insign="निकट" out="a69" outsign="close" type=""/>
+<align creator="" in="b64" insign="सम्बंधों" out="a70" outsign="ties" type=""/>
+<align creator="" in="b66" insign="बुरे" out="a64a65" outsign="the negative" type=""/>
+<align creator="" in="b67" insign="नतीजों" out="a66" outsign="fallout" type=""/>
+<align creator="" in="b68b69b70b71" insign="को रोकने के लिए" out="a62a63" outsign="to halt" type=""/>
+<align creator="" in="b72" insign="था" out="a60a61" outsign="has sought" type=""/>
+<align creator="" in="b73" insign="." out="a75" outsign="." type=""/>
+<align creator="" in="b74" insign="चीन" out="a76" outsign="China" type=""/>
+<align creator="" in="b75" insign="," out="a77" outsign="," type=""/>
+<align creator="" in="b76" insign="जिसका" out="a78" outsign="which" type=""/>
+<align creator="" in="b77" insign="सूडान" out="a83a84" outsign="the Sudanese" type=""/>
+<align creator="" in="b77b78" insign="सूडान के" out="a83a84" outsign="the Sudanese" type=""/>
+<align creator="" in="b79" insign="तेल" out="a85" outsign="oil" type=""/>
+<align creator="" in="b80" insign="उद्योग" out="a86" outsign="industry" type=""/>
+<align creator="" in="b81" insign="में" out="a82" outsign="in" type=""/>
+<align creator="" in="b82" insign="बहुत" out="a80" outsign="extensive" type=""/>
+<align creator="" in="b83" insign="निवेश" out="a81" outsign="investments" type=""/>
+<align creator="" in="b84" insign="है" out="a79" outsign="has" type=""/>
+<align creator="" in="b85" insign="," out="a87" outsign="," type=""/>
+<align creator="" in="b86" insign="सरकार" out="a92a93" outsign="the Government" type=""/>
+<align creator="" in="b87b88" insign="के साथ" out="a91" outsign="with" type=""/>
+<align creator="" in="b89" insign="निकट" out="a89" outsign="close" type=""/>
+<align creator="" in="b90" insign="सम्बंध" out="a90" outsign="links" type=""/>
+<align creator="" in="b91b92b93b94" insign="बनाए रखने के लिए" out="a88" outsign="maintains" type=""/>
+<align creator="" in="b95" insign="हेग" out="a110a111" outsign="The Hague" type=""/>
+<align creator="" in="b96" insign="में" out="a109" outsign="in" type=""/>
+<align creator="" in="b97" insign="अंतरराष्ट्रीय" out="a106" outsign="International" type=""/>
+<align creator="" in="b98" insign="आपराधिक" out="a107" outsign="Criminal" type=""/>
+<align creator="" in="b99" insign="न्यायालय" out="a108" outsign="Court" type=""/>
+<align creator="" in="b100" insign="ने" out="a104" outsign="by" type=""/>
+<align creator="" in="b101" insign="एक" out="a97" outsign="one" type=""/>
+<align creator="" in="b102" insign="मंत्री" out="a98" outsign="minister" type=""/>
+<align creator="" in="b104" insign="मानवता" out="a103" outsign="humanity" type=""/>
+<align creator="" in="b105b106" insign="के विरूद्ध" out="a102" outsign="against" type=""/>
+<align creator="" in="b107" insign="अपराध" out="a101" outsign="crimes" type=""/>
+<align creator="" in="b108b109" insign="के लिए" out="a100" outsign="with" type=""/>
+<align creator="" in="b110b111" insign="आरोपित किया" out="a99" outsign="charged" type=""/>
+<align creator="" in="b112" insign="." out="a112" outsign="." type=""/>
+<align creator="" in="b113" insign="हालांकि" out="a113" outsign="Although" type=""/>
+<align creator="" in="b114b115b116" insign="इस बात पर" out="a115" outsign="that" type=""/>
+<align creator="" in="b117b118b119" insign="जोर देते हुए" out="a114" outsign="emphasizing" type=""/>
+<align creator="" in="b123b124" insign="चल रहे" out="a125" outsign="ongoing" type=""/>
+<align creator="" in="b125" insign="अत्याचारों" out="a126" outsign="atrocities" type=""/>
+<align creator="" in="b126b127" insign="के लिए" out="a123" outsign="for" type=""/>
+<align creator="" in="b128" insign="खारर्तूम" out="a116" outsign="Khartoum" type=""/>
+<align creator="" in="b121" insign="इन" out="a124" outsign="these" type=""/>
+<align creator="" in="b122" insign="सब" out="a118a119a120" outsign="the bulk of" type=""/>
+<align creator="" in="b129b130" insign="जिम्मेदार है" out="a121a122" outsign="the responsibility" type=""/>
+<align creator="" in="b131" insign="स्पीलबर्ग" out="a128" outsign="Spielberg" type=""/>
+<align creator="" in="b133" insign="यह" out="a130" outsign="that" type=""/>
+<align creator="" in="b132b134b135" insign="ने बनाए रखा" out="a129" outsign="maintains" type=""/>
+<align creator="" in="b137" insign="अंतरराष्ट्रीय" out="a131a132" outsign="the international" type=""/>
+<align creator="" in="b138" insign="समुदाय" out="a133" outsign="community" type=""/>
+<align creator="" in="b139" insign="और" out="a135" outsign="and" type=""/>
+<align creator="" in="b140" insign="खासकर" out="a136" outsign="particularly" type=""/>
+<align creator="" in="b141b142b143" insign="चीनी सरकार को" out="a137" outsign="China" type=""/>
+<align creator="" in="b144b145b146" insign="इस पीड़ा को" out="a144a145" outsign="the suffering" type=""/>
+<align creator="" in="b147b148b149b150" insign="खत्म करने के लिए" out="a142a143" outsign="to end" type=""/>
+<align creator="" in="b151" insign="कुछ" out="a141" outsign="more" type=""/>
+<align creator="" in="b152" insign="करना" out="a140" outsign="do" type=""/>
+<align creator="" in="b153" insign="चाहिए" out="a139" outsign="should" type=""/>
+<align creator="" in="b154" insign="." out="a146" outsign="." type=""/>
 </DTAGalign>

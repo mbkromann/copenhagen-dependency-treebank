@@ -1,4 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign>
-    <alignFile key="a" href="P03_T5.src" sign="_input"/>
-    <alignFile key="b" href="P03_T5.tgt" sign="_input"/>
+<alignFile href="P03_T5.src" key="a" sign="_input"/>
+<alignFile href="P03_T5.tgt" key="b" sign="_input"/>
+<align creator="" in="b1" insign="सामाजिकता" out="a1" outsign="Sociology" type=""/>
+<align creator="" in="b2" insign="नई" out="a5" outsign="new" type=""/>
+<align creator="" in="b3" insign="एकेडेमिक" out="a6" outsign="academic" type=""/>
+<align creator="" in="b4" insign="डिसिप्लीन" out="a7" outsign="discipline" type=""/>
+<align creator="" in="b6" insign="संबंधित" out="a4" outsign="relatively" type=""/>
+<align creator="" in="b7" insign="है।" out="a2" outsign="is" type=""/>
+<align creator="" in="b8" insign="यह" out="a9" outsign="It" type=""/>
+<align creator="" in="b9" insign="आधुनिकता" out="a23" outsign="modernity" type=""/>
+<align creator="" in="b10" insign="की" out="a22" outsign="of" type=""/>
+<align creator="" in="b11" insign="कठिनाइयों" out="a20a21" outsign="the challenges" type=""/>
+<align creator="" in="b14" insign="आरंभिक" out="a12a13" outsign="the early" type=""/>
+<align creator="" in="b15" insign="19" out="a14" outsign="19" type=""/>
+<align creator="" in="b16" insign="वीं" out="a15" outsign="th" type=""/>
+<align creator="" in="b17" insign="शताब्दी" out="a16" outsign="century" type=""/>
+<align creator="" in="b18" insign="में" out="a17" outsign="in" type=""/>
+<align creator="" in="b12b13" insign="के कारण" out="a18a19" outsign="response to" type=""/>
+<align creator="" in="b19b20" insign="उत्पन्न हुई" out="a10" outsign="emerged" type=""/>
+<align creator="" in="b21" insign="." out="a24" outsign="." type=""/>
+<align creator="" in="b22" insign="बढ़ती" out="a25" outsign="Increasing" type=""/>
+<align creator="" in="b22b23" insign="बढ़ती हुई" out="a25" outsign="Increasing" type=""/>
+<align creator="" in="b24" insign="गतिशीलता" out="a26" outsign="mobility" type=""/>
+<align creator="" in="b25" insign="और" out="a27" outsign="and" type=""/>
+<align creator="" in="b26" insign="तकनीकी" out="a28" outsign="technological" type=""/>
+<align creator="" in="b27" insign="उन्नति" out="a29" outsign="advances" type=""/>
+<align creator="" in="b29" insign="लोग" out="a36" outsign="people" type=""/>
+<align creator="" in="b30" insign="अपने" out="a43a44" outsign="their own" type=""/>
+<align creator="" in="b31" insign="से" out="a42" outsign="from" type=""/>
+<align creator="" in="b32" insign="अलग" out="a41" outsign="different" type=""/>
+<align creator="" in="b33" insign="संस्कृतियों" out="a38" outsign="cultures" type=""/>
+<align creator="" in="b34" insign="और" out="a39" outsign="and" type=""/>
+<align creator="" in="b35" insign="समाजों" out="a40" outsign="societies" type=""/>
+<align creator="" in="b38" insign="का" out="a35" outsign="of" type=""/>
+<align creator="" in="b39" insign="एक्सपोज़र" out="a34" outsign="exposure" type=""/>
+<align creator="" in="b40b41" insign="हुआ है।" out="a33" outsign="increasing" type=""/>
+<align creator="" in="b42" insign="इस" out="a49" outsign="this" type=""/>
+<align creator="" in="b43" insign="एक्सपोज़र" out="a50" outsign="exposure" type=""/>
+<align creator="" in="b44" insign="का" out="a48" outsign="of" type=""/>
+<align creator="" in="b45" insign="प्रभाव" out="a46a47" outsign="The impact" type=""/>
+<align creator="" in="b46b47" insign="बहुत बड़ा" out="a52" outsign="varied" type=""/>
+<align creator="" in="b48" insign="था" out="a51" outsign="was" type=""/>
+<align creator="" in="b49" insign="," out="a53" outsign="," type=""/>
+<align creator="" in="b50" insign="कुछ" out="a56" outsign="some" type=""/>
+<align creator="" in="b51" insign="लोगों" out="a57" outsign="people" type=""/>
+<align creator="" in="b55" insign="पारंपरिक" out="a62" outsign="traditional" type=""/>
+<align creator="" in="b57" insign="और" out="a64" outsign="and" type=""/>
+<align creator="" in="b58" insign="रीति" out="a65" outsign="customs" type=""/>
+<align creator="" in="b56" insign="रूढ़ीवाद" out="a63" outsign="norms" type=""/>
+<align creator="" in="b59b60" insign="- रिवाजों" out="a65" outsign="customs" type=""/>
+<align creator="" in="b61" insign="का" out="a61" outsign="of" type=""/>
+<align creator="" in="b62" insign="टूटना" out="a59a60" outsign="the breakdown" type=""/>
+<align creator="" in="b63" insign="और" out="a66" outsign="and" type=""/>
+<align creator="" in="b64" insign="दुनिया" out="a74" outsign="world" type=""/>
+<align creator="" in="b65b66" insign="के कार्य" out="a75" outsign="works" type=""/>
+<align creator="" in="b65b66b67b68" insign="के कार्य करने के" out="a75" outsign="works" type=""/>
+<align creator="" in="b69b70" insign="तरीके की" out="a72" outsign="how" type=""/>
+<align creator="" in="b71" insign="समझ" out="a70" outsign="understanding" type=""/>
+<align creator="" in="b73" insign="पुनरीक्षण" out="a69" outsign="revised" type=""/>
+<align creator="" in="b74b75" insign="शामिल था।" out="a58" outsign="included" type=""/>
+<align creator="" in="b76" insign="समाजशास्त्रियों" out="a77" outsign="Sociologists" type=""/>
+<align creator="" in="b83" insign="सामाजिक" out="a88" outsign="social" type=""/>
+<align creator="" in="b84" insign="समूहों" out="a89" outsign="groups" type=""/>
+<align creator="" in="b85b86" insign="को क्या" out="a86" outsign="what" type=""/>
+<align creator="" in="b87b88" insign="एक साथ" out="a90" outsign="together" type=""/>
+<align creator="" in="b89b90b91" insign="बांधकर रखता है" out="a87" outsign="holds" type=""/>
+<align creator="" in="b92" insign="और" out="a91" outsign="and" type=""/>
+<align creator="" in="b93" insign="सामाजिक" out="a100" outsign="social" type=""/>
+<align creator="" in="b94" insign="मजबूती" out="a101" outsign="solidarity" type=""/>
+<align creator="" in="b95" insign="के" out="a99" outsign="of" type=""/>
+<align creator="" in="b96b97" insign="टूटने के" out="a97a98" outsign="the breakdown" type=""/>
+<align creator="" in="b98" insign="संभव" out="a94" outsign="possible" type=""/>
+<align creator="" in="b99" insign="समाधानों" out="a95" outsign="solutions" type=""/>
+<align creator="" in="b100" insign="को" out="a96" outsign="to" type=""/>
+<align creator="" in="b101b102" insign="खोजने का" out="a93" outsign="exploring" type=""/>
+<align creator="" in="b103b104" insign="प्रयास करके" out="a82a83" outsign="by trying" type=""/>
+<align creator="" in="b106b107" insign="उत्तर दिया।" out="a78" outsign="responded" type=""/>
+<align creator="" in="b108" insign="समाजिकता" out="a105" outsign="sociology" type=""/>
+<align creator="" in="b109" insign="शब्द" out="a103a104" outsign="The term" type=""/>
+<align creator="" in="b111" insign="ऑगस्ट" out="a109" outsign="Auguste" type=""/>
+<align creator="" in="b112" insign="काम्टे" out="a110" outsign="Comte" type=""/>
+<align creator="" in="b113" insign="(" out="a111" outsign="(" type=""/>
+<align creator="" in="b114" insign="1798" out="a112" outsign="1798" type=""/>
+<align creator="" in="b115" insign="-" out="a113" outsign="-" type=""/>
+<align creator="" in="b116" insign="1857" out="a114" outsign="1857" type=""/>
+<align creator="" in="b117" insign=")" out="a115" outsign=")" type=""/>
+<align creator="" in="b118" insign="द्वारा" out="a108" outsign="by" type=""/>
+<align creator="" in="b119" insign="1838" out="a117" outsign="1838" type=""/>
+<align creator="" in="b120" insign="में" out="a116" outsign="in" type=""/>
+<align creator="" in="b121" insign="लेटिन" out="a119a120" outsign="the Latin" type=""/>
+<align creator="" in="b122" insign="शब्द" out="a121" outsign="term" type=""/>
+<align creator="" in="b123" insign="शोसियस" out="a122" outsign="socius" type=""/>
+<align creator="" in="b124" insign="(" out="a123" outsign="(" type=""/>
+<align creator="" in="b125" insign="कंपेनियन" out="a124" outsign="companion" type=""/>
+<align creator="" in="b126" insign="," out="a125" outsign="," type=""/>
+<align creator="" in="b127" insign="संबद्ध" out="a126" outsign="associate" type=""/>
+<align creator="" in="b128" insign=")" out="a127" outsign=")" type=""/>
+<align creator="" in="b129" insign="और" out="a128" outsign="and" type=""/>
+<align creator="" in="b130" insign="ग्रीक" out="a129a130" outsign="the Greek" type=""/>
+<align creator="" in="b131" insign="शब्द" out="a131" outsign="term" type=""/>
+<align creator="" in="b132" insign="लोजिया" out="a132" outsign="logia" type=""/>
+<align creator="" in="b133" insign="(" out="a133" outsign="(" type=""/>
+<align creator="" in="b134" insign="का" out="a135" outsign="of" type=""/>
+<align creator="" in="b135" insign="अध्ययन" out="a134" outsign="study" type=""/>
+<align creator="" in="b136" insign="," out="a136" outsign="," type=""/>
+<align creator="" in="b137" insign="भाषण" out="a137" outsign="speech" type=""/>
+<align creator="" in="b138" insign=")" out="a138" outsign=")" type=""/>
+<align creator="" in="b139" insign="खोजा" out="a107" outsign="coined" type=""/>
+<align creator="" in="b140b141" insign="गया था।" out="a106" outsign="was" type=""/>
 </DTAGalign>

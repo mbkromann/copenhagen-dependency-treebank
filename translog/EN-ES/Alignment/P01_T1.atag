@@ -29,7 +29,7 @@
 <align creator="" in="b25" insign="de" out="a21" outsign="of" type=""/>
 <align creator="" in="b26" insign="sus" out="a22" outsign="his" type=""/>
 <align creator="" in="b27" insign="pacientes" out="a23" outsign="patients" type=""/>
-<align creator="" in="b28" insign="." out="a24" outsign="." type=""/>
+<align creator="" in="b28" insign="." out="a24" outsign="." type="sentence_boundary"/>
 <align creator="" in="b29" insign="Norris" out="a28" outsign="Norris" type=""/>
 <align creator="" in="b32" insign="32" out="a25" outsign="32" type=""/>
 <align creator="" in="b33" insign="años" out="a26" outsign="year" type=""/>

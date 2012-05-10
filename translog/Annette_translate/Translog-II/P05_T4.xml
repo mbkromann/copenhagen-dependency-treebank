@@ -21,8 +21,8 @@
     <ChineseKeys>false</ChineseKeys>
     <fullScreen>false</fullScreen>
     <lockWindows>false</lockWindows>
-    <Languages source="en" target="de" />
-    <Plugins>
+    <Languages source="en" target="da" />
+    aPlugins>
       <Key_Logger />
       <EyeSampler />
     </Plugins>

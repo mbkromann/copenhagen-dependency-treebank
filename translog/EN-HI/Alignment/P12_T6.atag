@@ -1,4 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign>
-    <alignFile key="a" href="P12_T6.src" sign="_input"/>
-    <alignFile key="b" href="P12_T6.tgt" sign="_input"/>
+<alignFile href="P12_T6.src" key="a" sign="_input"/>
+<alignFile href="P12_T6.tgt" key="b" sign="_input"/>
+<align creator="" in="b1" insign="अधिकांशतः" out="a1a2a3" outsign="The majority of" type=""/>
+<align creator="" in="b2" insign="हंटर" out="a4" outsign="hunter" type=""/>
+<align creator="" in="b3" insign="-" out="a5" outsign="-" type=""/>
+<align creator="" in="b4" insign="गैदरर" out="a6" outsign="gatherer" type=""/>
+<align creator="" in="b5" insign="समाज" out="a7" outsign="societies" type=""/>
+<align creator="" in="b6" insign="उन्मादी" out="a9" outsign="nomadic" type=""/>
+<align creator="" in="b7b8" insign="होते हैं।" out="a8" outsign="are" type=""/>
+<align creator="" in="b9b10b11" insign="इस प्रकार के" out="a18a19" outsign="such a" type=""/>
+<align creator="" in="b12" insign="सिस्टम" out="a21" outsign="system" type=""/>
+<align creator="" in="b13" insign="सबसिस्टेंस" out="a20" outsign="subsistence" type=""/>
+<align creator="" in="b14" insign="में" out="a17" outsign="under" type=""/>
+<align creator="" in="b15" insign="रहना" out="a14a15a16" outsign="to be settled" type=""/>
+<align creator="" in="b16b17" insign="कठिन होता" out="a13" outsign="difficult" type=""/>
+<align creator="" in="b18" insign="है" out="a12" outsign="is" type=""/>
+<align creator="" in="b19" insign="क्योंकि" out="a22" outsign="as" type=""/>
+<align creator="" in="b23" insign="संसाधन" out="a23a24" outsign="the resources" type=""/>
+<align creator="" in="b22" insign="के" out="a25" outsign="of" type=""/>
+<align creator="" in="b20" insign="एक" out="a26" outsign="one" type=""/>
+<align creator="" in="b21" insign="क्षेत्र" out="a27" outsign="region" type=""/>
+<align creator="" in="b24b25" insign="जल्दी ही" out="a29" outsign="quickly" type=""/>
+<align creator="" in="b26" insign="थक" out="a31" outsign="exhausted" type=""/>
+<align creator="" in="b27b28" insign="जाते हैं।" out="a28" outsign="can" type=""/>
+<align creator="" in="b29" insign="हंटर" out="a33" outsign="Hunter" type=""/>
+<align creator="" in="b30" insign="-" out="a34" outsign="-" type=""/>
+<align creator="" in="b31" insign="गैदरर" out="a35" outsign="gatherer" type=""/>
+<align creator="" in="b32" insign="समाजों" out="a36" outsign="societies" type=""/>
+<align creator="" in="b34" insign="उनके" out="a49" outsign="their" type=""/>
+<align creator="" in="b35" insign="सिस्टम" out="a51" outsign="system" type=""/>
+<align creator="" in="b36" insign="सबसिस्टेंस" out="a50" outsign="subsistence" type=""/>
+<align creator="" in="b37" insign="के" out="a48" outsign="of" type=""/>
+<align creator="" in="b38" insign="परिणामस्वरूप" out="a45a46a47" outsign="as a result" type=""/>
+<align creator="" in="b39" insign="बहुत" out="a41" outsign="very" type=""/>
+<align creator="" in="b40" insign="कम" out="a42" outsign="low" type=""/>
+<align creator="" in="b41" insign="जनसंख्या" out="a43" outsign="population" type=""/>
+<align creator="" in="b42" insign="घनत्व" out="a44" outsign="densities" type=""/>
+<align creator="" in="b43b44" insign="होने की" out="a39a40" outsign="to have" type=""/>
+<align creator="" in="b45b46b47" insign="संभावना होती है।" out="a38" outsign="tend" type=""/>
+<align creator="" in="b48" insign="कृषि" out="a53" outsign="Agricultural" type=""/>
+<align creator="" in="b49" insign="सबसिस्टेंस" out="a54" outsign="subsistence" type=""/>
+<align creator="" in="b50" insign="सिस्टम" out="a55" outsign="systems" type=""/>
+<align creator="" in="b52" insign="बंजर" out="a67a68" outsign="left uncultivated" type=""/>
+<align creator="" in="b53" insign="भूमि" out="a66" outsign="land" type=""/>
+<align creator="" in="b54b55b56" insign="की तुलना में" out="a65" outsign="than" type=""/>
+<align creator="" in="b57" insign="60" out="a60" outsign="60" type=""/>
+<align creator="" in="b58" insign="से" out="a61" outsign="to" type=""/>
+<align creator="" in="b59" insign="100" out="a62" outsign="100" type=""/>
+<align creator="" in="b60" insign="गुना" out="a63" outsign="times" type=""/>
+<align creator="" in="b61" insign="अधिक" out="a64" outsign="greater" type=""/>
+<align creator="" in="b62" insign="जनसंख्या" out="a58" outsign="population" type=""/>
+<align creator="" in="b63" insign="घनत्व" out="a59" outsign="densities" type=""/>
+<align creator="" in="b64b65b66" insign="हो सकता है" out="a56a57" outsign="can support" type=""/>
+<align creator="" in="b67b68" insign="जिसके कारण" out="a70" outsign="resulting" type=""/>
+<align creator="" in="b70" insign="अधिक" out="a72" outsign="denser" type=""/>
+<align creator="" in="b71" insign="जनसंख्या" out="a73" outsign="populations" type=""/>
+<align creator="" in="b74" insign="हंटर" out="a75" outsign="Hunter" type=""/>
+<align creator="" in="b75" insign="-" out="a76" outsign="-" type=""/>
+<align creator="" in="b76" insign="गैदरर" out="a77" outsign="gatherer" type=""/>
+<align creator="" in="b77" insign="समाजों" out="a78" outsign="societies" type=""/>
+<align creator="" in="b79" insign="गैर" out="a83" outsign="non" type=""/>
+<align creator="" in="b80" insign="वंशानुक्रम" out="a85" outsign="hierarchical" type=""/>
+<align creator="" in="b81" insign="सामाजिक" out="a86" outsign="social" type=""/>
+<align creator="" in="b82" insign="संरचनाओं" out="a87" outsign="structures" type=""/>
+<align creator="" in="b83b84b85b86" insign="के मौजूद होने की" out="a81a82" outsign="to have" type=""/>
+<align creator="" in="b87b89" insign="संभावना है।" out="a80" outsign="tend" type=""/>
+<align creator="" in="b90" insign="क्योंकि" out="a97" outsign="Because" type=""/>
+<align creator="" in="b91" insign="हंटर" out="a98" outsign="hunter" type=""/>
+<align creator="" in="b92" insign="-" out="a99" outsign="-" type=""/>
+<align creator="" in="b93" insign="गैदरर" out="a100" outsign="gatherers" type=""/>
+<align creator="" in="b94" insign="उन्मादी" out="a104" outsign="nomadic" type=""/>
+<align creator="" in="b95b96" insign="होते हैं" out="a101a102a103" outsign="tend to be" type=""/>
+<align creator="" in="b97" insign="," out="a105" outsign="," type=""/>
+<align creator="" in="b98b99" insign="उनके द्वारा" out="a106" outsign="they" type=""/>
+<align creator="" in="b100b101" insign="आमतौर पर" out="a107" outsign="generally" type=""/>
+<align creator="" in="b102" insign="पर्याप्त" out="a115" outsign="surplus" type=""/>
+<align creator="" in="b103" insign="भोजन" out="a116" outsign="food" type=""/>
+<align creator="" in="b104b105" insign="संग्रहित करने" out="a113a114" outsign="to store" type=""/>
+<align creator="" in="b106b107" insign="की संभावना" out="a111a112" outsign="the possibility" type=""/>
+<align creator="" in="b108" insign="नहीं" out="a109" outsign="not" type=""/>
+<align creator="" in="b108" insign="नहीं" out="a108a109" outsign="do not" type=""/>
+<align creator="" in="b109b110" insign="होती है।" out="a110" outsign="have" type=""/>
+<align creator="" in="b111b112" insign="जिसके परिणाम" out="a118a119a120" outsign="As a result" type=""/>
+<align creator="" in="b111b112b113" insign="जिसके परिणाम स्वरूप" out="a118a119a120" outsign="As a result" type=""/>
+<align creator="" in="b114" insign="," out="a121" outsign="," type=""/>
+<align creator="" in="b115" insign="पूर्णकालिक" out="a122a123a124" outsign="full - time" type=""/>
+<align creator="" in="b116" insign="नेता" out="a125" outsign="leaders" type=""/>
+<align creator="" in="b117" insign="," out="a126" outsign="," type=""/>
+<align creator="" in="b118" insign="ब्यूरोक्रेट" out="a127" outsign="bureaucrats" type=""/>
+<align creator="" in="b119" insign="," out="a128" outsign="," type=""/>
+<align creator="" in="b120" insign="या" out="a129" outsign="or" type=""/>
+<align creator="" in="b121" insign="कलाकारों" out="a130" outsign="artisans" type=""/>
+<align creator="" in="b123b124" insign="विरले ही" out="a132" outsign="rarely" type=""/>
+<align creator="" in="b125" insign="हंटर" out="a135" outsign="hunter" type=""/>
+<align creator="" in="b126" insign="-" out="a136" outsign="-" type=""/>
+<align creator="" in="b127" insign="गैदरर" out="a137" outsign="gatherer" type=""/>
+<align creator="" in="b128" insign="समाजों" out="a138" outsign="societies" type=""/>
+<align creator="" in="b129" insign="द्वारा" out="a134" outsign="by" type=""/>
+<align creator="" in="b130b131" insign="समर्थन मिलता" out="a133" outsign="supported" type=""/>
+<align creator="" in="b132" insign="है।" out="a131" outsign="are" type=""/>
 </DTAGalign>

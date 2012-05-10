@@ -1,4 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign>
-    <alignFile key="a" href="P04_T2.src" sign="_input"/>
-    <alignFile key="b" href="P04_T2.tgt" sign="_input"/>
+<alignFile href="P04_T2.src" key="a" sign="_input"/>
+<alignFile href="P04_T2.tgt" key="b" sign="_input"/>
+<align creator="" in="b1" insign="परिवार" out="a1" outsign="Families" type=""/>
+<align creator="" in="b2" insign="बढ़ती" out="a4" outsign="increase" type=""/>
+<align creator="" in="b22b23" insign="परिवारों को" out="a10" outsign="families" type=""/>
+<align creator="" in="b29" insign="£" out="a17" outsign="£" type=""/>
+<align creator="" in="b30" insign="31,300" out="a18" outsign="31,300" type=""/>
+<align creator="" in="b10" insign="में" out="a31" outsign="in" type=""/>
+<align creator="" in="b11" insign="खाद्य" out="a22" outsign="food" type=""/>
+<align creator="" in="b12" insign="और" out="a23" outsign="and" type=""/>
+<align creator="" in="b13" insign="तेल" out="a24" outsign="fuel" type=""/>
+<align creator="" in="b14b15" insign="की कीमतें" out="a25" outsign="prices" type=""/>
+<align creator="" in="b5b6" insign="प्रभावित हैं" out="a2" outsign="hit" type=""/>
+<align creator="" in="b4" insign="से" out="a3" outsign="with" type=""/>
+<align creator="" in="b27b28" insign="प्रति वर्ष" out="a19a20" outsign="a year" type=""/>
+<align creator="" in="b24" insign="अपने" out="a28" outsign="their" type=""/>
+<align creator="" in="b31b32" insign="की बढ़ोतरी" out="a15a16" outsign="an extra" type=""/>
+<align creator="" in="b3" insign="महंगाई" out="a5a6a7" outsign="in cost of" type=""/>
+<align creator="" in="b33b34b35b36" insign="से जूझना पड़ता है।" out="a11a12a13a14" outsign="have to cough up" type=""/>
+<align creator="" in="b11" insign="खाद्य" out="a21" outsign="as" type=""/>
+<align creator="" in="b18b19" insign="बढ़ने के" out="a26a27" outsign="soar at" type=""/>
+<align creator="" in="b21" insign="ब्रिटिश" out="a8a9" outsign="living British" type=""/>
+<align creator="" in="b16b17" insign="तेजी से" out="a29" outsign="fastest" type=""/>
+<align creator="" in="b25b26" insign="खर्च में" out="a30" outsign="rate" type=""/>
+<align creator="" in="b7b8b9" insign="पिछले 17 वर्षों" out="a32a33" outsign="17 years" type=""/>
+<align creator="" in="b38b39" insign="वर्षों में" out="a47" outsign="year" type=""/>
+<align creator="" in="b43" insign="कीमते" out="a35" outsign="Prices" type=""/>
+<align creator="" in="b42" insign="में" out="a36" outsign="in" type=""/>
+<align creator="" in="b41" insign="बाज़ारों" out="a37" outsign="supermarkets" type=""/>
+<align creator="" in="b47" insign="पर" out="a40" outsign="at" type=""/>
+<align creator="" in="b48b49b50" insign="पहुंच गई हैं।" out="a38a39" outsign="have climbed" type=""/>
+<align creator="" in="b44b45" insign="काफी ऊंची" out="a41a42" outsign="an alarming" type=""/>
+<align creator="" in="b46" insign="दरों" out="a43" outsign="rate" type=""/>
+<align creator="" in="b37" insign="बीते" out="a44a45a46" outsign="over the past" type=""/>
+<align creator="" in="b51b52" insign="विशेषज्ञों ने" out="a49" outsign="Analysts" type=""/>
+<align creator="" in="b53b54b55b56" insign="यह चेतावनी दी है" out="a50a51" outsign="have warned" type=""/>
+<align creator="" in="b57" insign="कि" out="a52" outsign="that" type=""/>
+<align creator="" in="b58" insign="कीमतें" out="a53" outsign="prices" type=""/>
+<align creator="" in="b60" insign="और" out="a56" outsign="further" type=""/>
+<align creator="" in="b61" insign="बढ़ेंगी" out="a54a55" outsign="will increase" type=""/>
+<align creator="" in="b59" insign="अभी" out="a57" outsign="still" type=""/>
+<align creator="" in="b62" insign="," out="a58" outsign="," type=""/>
+<align creator="" in="b79" insign="बैंक" out="a63a64" outsign="the Bank" type=""/>
+<align creator="" in="b80" insign="ऑफ" out="a65" outsign="of" type=""/>
+<align creator="" in="b81" insign="इंगलैंड" out="a66" outsign="England" type=""/>
+<align creator="" in="b83b84" insign="अपनी ब्याज" out="a69" outsign="interest" type=""/>
+<align creator="" in="b85" insign="दरें" out="a70" outsign="rates" type=""/>
+<align creator="" in="b82" insign="को" out="a62" outsign="for" type=""/>
+<align creator="" in="b86b87b88" insign="कम करने में" out="a67a68" outsign="to cut" type=""/>
+<align creator="" in="b89b90" insign="कठिनाई आएगी।" out="a59a60a61" outsign="making it hard" type=""/>
+<align creator="" in="b69b70b71" insign="अपनी अर्थव्यवस्था को" out="a78a79" outsign="the economy" type=""/>
+<align creator="" in="b72b73b74b75" insign="नियंत्रण में लाने की" out="a80a81" outsign="under control" type=""/>
+<align creator="" in="b95b96" insign="करते हुए" out="a83a84" outsign="To make" type=""/>
+<align creator="" in="b91b92b93b94" insign="स्थिति को और खराब" out="a85a86" outsign="matters worse" type=""/>
+<align creator="" in="b97" insign="," out="a87" outsign="," type=""/>
+<align creator="" in="b98" insign="बढ़ती" out="a88" outsign="escalating" type=""/>
+<align creator="" in="b102" insign="वेतन" out="a94" outsign="salary" type=""/>
+<align creator="" in="b107" insign="है" out="a90" outsign="are" type=""/>
+<align creator="" in="b103" insign="वृद्धि" out="a95" outsign="increases" type=""/>
+<align creator="" in="b104" insign="से" out="a93" outsign="of" type=""/>
+<align creator="" in="b105b106" insign="अभी तेज़" out="a91a92" outsign="racing ahead" type=""/>
+<align creator="" in="b108" insign="," out="a96" outsign="," type=""/>
+<align creator="" in="b109b110b111" insign="विशेष रूप से" out="a97" outsign="especially" type=""/>
+<align creator="" in="b117b118" insign="के लिए" out="a98a99" outsign="those of" type=""/>
+<align creator="" in="b112" insign="नर्स" out="a100" outsign="nurses" type=""/>
+<align creator="" in="b113" insign="और" out="a101" outsign="and" type=""/>
+<align creator="" in="b114" insign="अन्य" out="a102" outsign="other" type=""/>
+<align creator="" in="b115" insign="स्वास्थ" out="a103" outsign="healthcare" type=""/>
+<align creator="" in="b116" insign="कर्मचारियों" out="a104" outsign="professionals" type=""/>
+<align creator="" in="b119" insign="जो" out="a106" outsign="who" type=""/>
+<align creator="" in="b125b126" insign="इस सरकारी" out="a110a111a112" outsign="the government 's" type=""/>
+<align creator="" in="b127" insign="फैसले" out="a113" outsign="insistence" type=""/>
+<align creator="" in="b122" insign="वेतन" out="a124" outsign="salary" type=""/>
+<align creator="" in="b123b124" insign="वृद्धि के" out="a125" outsign="increases" type=""/>
+<align creator="" in="b120b121" insign="बिना समुचित" out="a123" outsign="below-inflation" type=""/>
+<align creator="" in="b128" insign="के" out="a109" outsign="from" type=""/>
+<align creator="" in="b129b130" insign="अधीन हैं।" out="a107a108" outsign="have suffered" type=""/>
+<align creator="" in="b99b100b101" insign="महंगाई की दर" out="a89" outsign="prices" type=""/>
+<align creator="" in="b63" insign="जिससे" out="a71a72" outsign="as it" type=""/>
+<align creator="" in="b65b66b67b68" insign="का सामना करते हुए" out="a73a74a75" outsign="struggles to keep" type=""/>
+<align creator="" in="b64" insign="महंगाई" out="a76" outsign="inflation" type=""/>
+<align creator="" in="b69" insign="अपनी" out="a77" outsign="and" type=""/>
+<align creator="" in="b134b135" insign="के अलावा" out="a127a128" outsign="In addition" type=""/>
+<align creator="" in="b131" insign="तेल" out="a129a130" outsign="to fuel" type=""/>
+<align creator="" in="b132" insign="और" out="a131" outsign="and" type=""/>
+<align creator="" in="b133" insign="खाद्य" out="a132" outsign="food" type=""/>
+<align creator="" in="b136" insign="बिजली" out="a134" outsign="electricity" type=""/>
+<align creator="" in="b137b138" insign="के बिल" out="a135" outsign="bills" type=""/>
+<align creator="" in="b142" insign="हैं।" out="a136" outsign="are" type=""/>
+<align creator="" in="b139" insign="भी" out="a137" outsign="also" type=""/>
+<align creator="" in="b140b141" insign="बढ़ रहे" out="a138" outsign="soaring" type=""/>
+<align creator="" in="b143" insign="छह" out="a143a144" outsign="the six" type=""/>
+<align creator="" in="b146b147" insign="में से" out="a141a142" outsign="out of" type=""/>
+<align creator="" in="b144" insign="बड़े" out="a145" outsign="largest" type=""/>
+<align creator="" in="b145" insign="आपूर्तिकर्ताओं" out="a146" outsign="suppliers" type=""/>
+<align creator="" in="b150" insign="अपने" out="a149" outsign="their" type=""/>
+<align creator="" in="b151" insign="ग्राहक" out="a150" outsign="customers" type=""/>
+<align creator="" in="b152b153" insign="बिल में" out="a152" outsign="bills" type=""/>
+<align creator="" in="b154b155b156" insign="वृद्धि की है।" out="a147a148" outsign="have increased" type=""/>
+<align creator="" in="b148b149" insign="पांच ने" out="a140" outsign="Five" type=""/>
 </DTAGalign>
