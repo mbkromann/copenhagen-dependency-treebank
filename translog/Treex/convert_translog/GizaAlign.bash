@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ "$1" == "" ] || [ "$2" == "" ]; then
+  echo "Source and target languages requires"
+  exit
+fi
+ 
 rm -r  data/Giza
 mkdir -p  data/Giza
 for file in data/*/Translog-II/*.xml
@@ -20,4 +25,6 @@ do
 done
 
 ./GizaAlign.pl -d data/Giza 
+
+cat data/Giza/$1-$2.sent | ./Giza2Atag.pl 
 

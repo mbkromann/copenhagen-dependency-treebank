@@ -17,7 +17,8 @@ my $map = { map { $_ => 1 } split( //o, "\\<> \t\n\r\f\"" ) };
 
 
 my $usage =
-  "Generate atag file from Giza alignments: \n".
+  "Generate atag file from Giza/L1-L2.sent file \n".
+  "   Giza2Atag.pl < data/Giza/L1-L2.sent\n".
   "  -A in:  Alignment file <fileroot>.{atag,src,tgt}\n".
   "  -G in:  Giza alignment <filename>\n".
   "     out: <fileroot>.atag \n".
@@ -35,7 +36,7 @@ getopts ('A:O:G:v:t:h');
 die $usage if defined($opt_h);
 
 my $Verbose = 0;
-my $fn = '';
+my $extension = '';
 
 if (defined($opt_v)) {$Verbose = $opt_v;}
 
@@ -117,7 +118,7 @@ sub ReadAlign {
   while(defined($_ = <DATA>)) {
     chomp;
     my ($in, $out) = split(/-/);
-    $A->{'align'}{$in}{$out} ++;
+    $A->{'align'}{$in+1}{$out+1} ++;
 #printf STDERR "$in-$out ";
     $n++;
   }
@@ -193,6 +194,7 @@ sub ReadAtag {
   }
 
   if($Verbose) {printf STDERR "ReadAtag: $fn.atag\n";}
+  $extension = "";
 
 ## read alignment file
   $n = 0;
@@ -229,9 +231,7 @@ sub ReadAtag {
     }
 
     if(/<align /) {
-#        print STDERR "ReadAtag: skipping $fn already aligned\n";
-
-#printf STDERR "ALN: $_\n";
+      $extension = ".giza";
       if(/in="([^"]*)"/) { $is=$1;}
       if(/out="([^"]*)"/){ $os=$1;}
 
@@ -241,20 +241,20 @@ sub ReadAtag {
       if(/insign="([^"]*)"/) { $is=$1;}
       if(/outsign="([^"]*)"/){ $os=$1;}
 
-      if(/in="([^"]*)"/) { 
+      if(/in="([^"]*)"/) {
         $K = [split(/\s+/, $1)];
         for($i=0; $i <=$#{$K}; $i++) {
-          if($K->[$i] =~ /([ab])(\d+)/) { 
+          if($K->[$i] =~ /([ab])(\d+)/) {
             $A->{'n'}{$n}{$A->{$1}{'lang'}}{'id'}{$2} ++;
             $A->{'n'}{$n}{$A->{$1}{'lang'}}{'s'}=$is;
           }
 #printf STDERR "IN:  %s\t$1\t$2\n", $K->[$i];
         }
       }
-      if(/out="([^"]*)"/) { 
+      if(/out="([^"]*)"/) {
         $K = [split(/\s+/, $1)];
         for($i=0; $i <=$#{$K}; $i++) {
-          if($K->[$i] =~ /([ab])(\d+)/) { 
+          if($K->[$i] =~ /([ab])(\d+)/) {
             $A->{'n'}{$n}{$A->{$1}{'lang'}}{'id'}{$2} ++;
             $A->{'n'}{$n}{$A->{$1}{'lang'}}{'s'}=$os;
           }
@@ -267,15 +267,18 @@ sub ReadAtag {
   return ($A);
 }
 
+
 sub PrintAtag{
   my ($out, $fn, $A) = @_;
 
-#print STDERR "AAA $out\n";
-  open(FILE, '>:encoding(utf8)', $out) || die ("cannot open file $out");
+  $fn =~ s/^.*\///g;
+  open(FILE, '>:encoding(utf8)', "$out$extension") || die ("cannot open file $out$extension");
 
-  print FILE "<DTAGalign>\n";
+print STDERR "Output:$out$extension Tokenfile:$fn\n";
+
+  print FILE "<DTAGalign alignment=\"giza\" >\n";
   print FILE "<alignFile key=\"a\" href=\"$fn.src\" />\n";
-  print FILE "<alignFile key=\"b\" href=\"$fn.tgt\" >\n";
+  print FILE "<alignFile key=\"b\" href=\"$fn.tgt\" />\n";
 
   my $type = '';
 #d($A->{n}{$n}{Source}{id});
