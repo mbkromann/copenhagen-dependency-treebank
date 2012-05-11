@@ -5,6 +5,8 @@ if [ "$1" == "" ] || [ "$2" == "" ]; then
   exit
 fi
  
+#./CopyExpData.bash
+
 rm -r  data/Giza
 mkdir -p  data/Giza
 for file in data/*/Translog-II/*.xml

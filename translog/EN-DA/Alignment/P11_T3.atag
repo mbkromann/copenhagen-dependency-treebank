@@ -3,14 +3,14 @@
 <alignFile key="b" href="kthj_text_C.tgt" sign="_input"/>
 <align out="a3" type="" in="b3" creator="0" insign="Bejing" outsign="Beijing"/>
 <align out="b4" type="" in="b4" creator="0" insign="det" outsign="det"/>
-<align out="a6" type="" in="b7 b8 b9" creator="0" insign="pÃ¥ grund af" outsign="over"/>
-<align out="a10" type="" in="b13" creator="0" insign="bevÃ¦gelse" outsign="gesture"/>
+<align out="a6" type="" in="b7 b8 b9" creator="0" insign="på grund af" outsign="over"/>
+<align out="a10" type="" in="b13" creator="0" insign="bevægelse" outsign="gesture"/>
 <align out="a11" type="" in="b15 b16 b17" creator="0" insign="som ganske givet" outsign="sure"/>
-<align out="a12 a13" type="" in="b18 b19" creator="0" insign="vil pÃ¥virke" outsign="to rattle"/>
+<align out="a12 a13" type="" in="b18 b19" creator="0" insign="vil påvirke" outsign="to rattle"/>
 <align out="b14" type="" in="b14" creator="0" insign="," outsign=","/>
 <align out="a14" type="" in="b20" creator="0" insign="den" outsign="the"/>
 <align out="a2" type="" in="b2" creator="-1" insign="giver" outsign="shows"/>
-<align out="a4" type="" in="b5" creator="-1" insign="rÃ¸de" outsign="red"/>
+<align out="a4" type="" in="b5" creator="-1" insign="røde" outsign="red"/>
 <align out="a5" type="" in="b6" creator="-1" insign="kort" outsign="card"/>
 <align out="a8" type="" in="b11" creator="-1" insign="Med" outsign="In"/>
 <align out="a9" type="" in="b12" creator="-1" insign="en" outsign="a"/>
@@ -23,7 +23,7 @@
 <align out="b27 b28 b29 b30 b31" type="" in="b27 b28 b29 b30 b31" creator="0" insign="som om , at han" outsign="som om , at han"/>
 <align out="a24" type="" in="b37" creator="0" insign="Bejing" outsign="Beijing"/>
 <align out="a22 a23" type="" in="a22 a23" creator="0" insign="of the" outsign="of the"/>
-<align out="b38 b39 b40" type="" in="b38 b39 b40" creator="0" insign="det rÃ¸de kort" outsign="det rÃ¸de kort"/>
+<align out="b38 b39 b40" type="" in="b38 b39 b40" creator="0" insign="det røde kort" outsign="det røde kort"/>
 <align out="a26" type="f" in="b45" creator="0" insign="i" outsign="to"/>
 <align out="a27" type="" in="b46" creator="0" insign="protest" outsign="protest"/>
 <align out="b36" type="" in="b36" creator="0" insign="i" outsign="i"/>
@@ -35,10 +35,10 @@
 <align out="b41" type="" in="b41" creator="0" insign="og" outsign="og"/>
 <align out="a32" type="" in="b50" creator="0" insign="til" outsign="for"/>
 <align out="a42" type="" in="b59" creator="0" insign="i" outsign="in"/>
-<align out="a43 a44 a45" type="" in="b60 b61" creator="0" insign="kÃ¸lvandet pÃ¥" outsign="the wake of"/>
+<align out="a43 a44 a45" type="" in="b60 b61" creator="0" insign="kølvandet på" outsign="the wake of"/>
 <align out="a40" type="f" in="b57" creator="0" insign="kritik" outsign="withdrawal"/>
 <align out="a29 a30" type="" in="b48" creator="-1" insign="Kinas" outsign="China s"/>
-<align out="a31" type="" in="b49" creator="-1" insign="stÃ¸tte" outsign="backing"/>
+<align out="a31" type="" in="b49" creator="-1" insign="støtte" outsign="backing"/>
 <align out="a33 a34" type="" in="b51" creator="-1" insign="Sudans" outsign="Sudan s"/>
 <align out="a35" type="" in="b52" creator="-1" insign="politik" outsign="policy"/>
 <align out="a37" type="" in="b54" creator="-1" insign="Darfur-provinsen" outsign="Darfur"/>
@@ -51,7 +51,7 @@
 <align out="a47 a48" type="" in="b69 b70" creator="0" insign="blussede op" outsign="flaring up"/>
 <align out="b64 b65 b66 b67 b68" type="" in="b64 b65 b66 b67 b68" creator="0" insign=", som netop for nyligt" outsign=", som netop for nyligt"/>
 <align out="a53 a54" type="" in="b75 b76 b77" creator="0" insign="som ganske givet" outsign="is set"/>
-<align out="a55 a56" type="" in="b78 b79 b81 b82 b83 b84" creator="0" insign="vil sÃ¦tte i et dÃ¥rligt lys" outsign="to embarrass"/>
+<align out="a55 a56" type="" in="b78 b79 b81 b82 b83 b84" creator="0" insign="vil sætte i et dårligt lys" outsign="to embarrass"/>
 <align out="a58" type="" in="a58" creator="0" insign="," outsign=","/>
 <align out="a46" type="" in="b63" creator="-1" insign="kampe" outsign="fighting"/>
 <align out="a49" type="" in="b71" creator="-1" insign="igen" outsign="again"/>
@@ -63,14 +63,14 @@
 <align out="b88" type="" in="b88" creator="0" insign="," outsign=","/>
 <align out="b86 b87" type="" in="b86 b87" creator="0" insign="et Kina" outsign="et Kina"/>
 <align out="a73" type="" in="b104" creator="0" insign="sudaniske" outsign="Sudanese"/>
-<align out="a61" type="" in="b91" creator="-1" insign="forsÃ¸gt" outsign="sought"/>
+<align out="a61" type="" in="b91" creator="-1" insign="forsøgt" outsign="sought"/>
 <align out="a66" type="" in="b96" creator="-1" insign="konsekvenser" outsign="fallout"/>
-<align out="a69" type="" in="b100" creator="-1" insign="tÃ¦tte" outsign="close"/>
+<align out="a69" type="" in="b100" creator="-1" insign="tætte" outsign="close"/>
 <align out="a70" type="" in="b101" creator="-1" insign="relationer" outsign="ties"/>
 <align out="a65" type="" in="b95" creator="-1" insign="negative" outsign="negative"/>
 <align out="a67" type="" in="b97" creator="-1" insign="ved" outsign="from"/>
 <align out="a60" type="" in="b90" creator="-1" insign="har" outsign="has"/>
-<align out="a63" type="" in="b93" creator="-1" insign="begrÃ¦nse" outsign="halt"/>
+<align out="a63" type="" in="b93" creator="-1" insign="begrænse" outsign="halt"/>
 <align out="a62" type="" in="b92" creator="-1" insign="at" outsign="to"/>
 <align out="a71" type="" in="b102" creator="-1" insign="til" outsign="to"/>
 <align out="a68" type="" in="b98 b99" creator="-1" insign="at have" outsign="having"/>
@@ -80,7 +80,7 @@
 <align out="a80" type="" in="b111" creator="-1" insign="omfattende" outsign="extensive"/>
 <align out="a81" type="" in="b112" creator="-1" insign="investeringer" outsign="investments"/>
 <align out="a85 a86" type="" in="b116" creator="-1" insign="olieindustri" outsign="oil industry"/>
-<align out="a89" type="" in="b119" creator="-1" insign="tÃ¦tte" outsign="close"/>
+<align out="a89" type="" in="b119" creator="-1" insign="tætte" outsign="close"/>
 <align out="a76" type="" in="b107" creator="-1" insign="Kina" outsign="China"/>
 <align out="a88" type="" in="b118" creator="-1" insign="opretholder" outsign="maintains"/>
 <align out="a84" type="" in="b115" creator="-1" insign="sudanesiske" outsign="Sudanese"/>
@@ -118,12 +118,12 @@
 <align out="b149 b150" type="" in="b149 b150" creator="0" insign="styret i" outsign="styret i"/>
 <align out="a118 a119 a120 a121 a122" type="" in="b153" creator="0" insign="hovedskylden" outsign="the bulk of the responsibility"/>
 <align out="a123" type="" in="b154" creator="0" insign="for" outsign="for"/>
-<align out="a125" type="" in="b158 b159 b160 b161" creator="0" insign="der foregÃ¥r lige nu" outsign="ongoing"/>
+<align out="a125" type="" in="b158 b159 b160 b161" creator="0" insign="der foregår lige nu" outsign="ongoing"/>
 <align out="b157" type="" in="b157" creator="0" insign="," outsign=","/>
-<align out="b163" type="" in="b163" creator="0" insign="sÃ¥" outsign="sÃ¥"/>
+<align out="b163" type="" in="b163" creator="0" insign="så" outsign="så"/>
 <align out="a113" type="" in="b144" creator="-1" insign="Selvom" outsign="Although"/>
 <align out="a114" type="" in="b146" creator="-1" insign="understreger" outsign="emphasizing"/>
-<align out="a117" type="" in="b152" creator="-1" insign="bÃ¦rer" outsign="bears"/>
+<align out="a117" type="" in="b152" creator="-1" insign="bærer" outsign="bears"/>
 <align out="a126" type="" in="b156" creator="-1" insign="uhyrligheder" outsign="atrocities"/>
 <align out="a116" type="" in="b151" creator="-1" insign="Khartoum" outsign="Khartoum"/>
 <align out="a115" type="" in="b148" creator="-1" insign="at" outsign="that"/>
@@ -135,10 +135,10 @@
 <align out="a142" type="" in="b179 b180" creator="0" insign="for at" outsign="to"/>
 <align out="a143" type="" in="b181" creator="0" insign="afslutte" outsign="end"/>
 <align out="a133" type="" in="b170" creator="-100" insign="samfund" outsign="community"/>
-<align out="a136" type="" in="b173" creator="-100" insign="isÃ¦r" outsign="particularly"/>
+<align out="a136" type="" in="b173" creator="-100" insign="især" outsign="particularly"/>
 <align out="a137" type="" in="b174" creator="-100" insign="Kina" outsign="China"/>
-<align out="a139" type="" in="b176" creator="-100" insign="bÃ¸r" outsign="should"/>
-<align out="a140" type="" in="b177" creator="-100" insign="gÃ¸re" outsign="do"/>
+<align out="a139" type="" in="b176" creator="-100" insign="bør" outsign="should"/>
+<align out="a140" type="" in="b177" creator="-100" insign="gøre" outsign="do"/>
 <align out="a141" type="" in="b178" creator="-100" insign="mere" outsign="more"/>
 <align out="a132" type="" in="b169" creator="-100" insign="internationale" outsign="international"/>
 <align out="a128" type="" in="b165" creator="-100" insign="Spielberg" outsign="Spielberg"/>

@@ -5,8 +5,8 @@
 <align out="a15" type="" in="b12 b13" creator="0" insign="i dag" outsign="today"/>
 <align out="a16" type="" in="b14" creator="0" insign="for" outsign="for"/>
 <align out="a11" type="" in="b8" creator="-1" insign="blev" outsign="was"/>
-<align out="a12" type="" in="b9" creator="-1" insign="fÃ¦ngslet" outsign="imprisoned"/>
-<align out="a13" type="" in="b10" creator="-1" insign="pÃ¥" outsign="for"/>
+<align out="a12" type="" in="b9" creator="-1" insign="fængslet" outsign="imprisoned"/>
+<align out="a13" type="" in="b10" creator="-1" insign="på" outsign="for"/>
 <align out="a4" type="" in="b3" creator="-1" insign="fire" outsign="four"/>
 <align out="a20" type="" in="b18" creator="-1" insign="fire" outsign="four"/>
 <align out="a10" type="" in="b7" creator="-1" insign="Norris" outsign="Norris"/>
@@ -17,7 +17,7 @@
 <align out="a32" type="" in="a32" creator="0" insign="the" outsign="the"/>
 <align out="a22" type="" in="b20" creator="-1" insign="sine" outsign="his"/>
 <align out="a23" type="" in="b21" creator="-1" insign="patienter" outsign="patients"/>
-<align out="a31" type="" in="b28" creator="-1" insign="drÃ¦bte" outsign="killed"/>
+<align out="a31" type="" in="b28" creator="-1" insign="dræbte" outsign="killed"/>
 <align out="a33" type="" in="b29" creator="-1" insign="fire" outsign="four"/>
 <align out="a34" type="" in="b30" creator="-1" insign="kvinder" outsign="women"/>
 <align out="a37" type="" in="b33" creator="-1" insign="ved" outsign="by"/>
@@ -48,7 +48,7 @@
 <align out="a70" type="" in="b65" creator="0" insign="for" outsign="for"/>
 <align out="a75" type="" in="b68" creator="0" insign="." outsign="."/>
 <align out="a63" type="" in="b59" creator="-1" insign="blev" outsign="was"/>
-<align out="a64" type="" in="b60" creator="-1" insign="idÃ¸mt" outsign="given"/>
+<align out="a64" type="" in="b60" creator="-1" insign="idømt" outsign="given"/>
 <align out="a65" type="" in="b61" creator="-1" insign="fire" outsign="four"/>
 <align out="a66 a67" type="" in="b62" creator="-1" insign="livstidsdomme" outsign="life sentences"/>
 <align out="a80" type="" in="b71" creator="-1" insign="afsone" outsign="serve"/>
@@ -62,9 +62,9 @@
 <align out="a100" type="" in="b89" creator="0" insign="." outsign="."/>
 <align out="b90" type="" in="b90" creator="0" insign="Det" outsign="Det"/>
 <align out="b91" type="" in="b91" creator="0" insign="var" outsign="var"/>
-<align out="a84" type="" in="b74" creator="-1" insign="Ã¥r" outsign="years"/>
+<align out="a84" type="" in="b74" creator="-1" insign="år" outsign="years"/>
 <align out="a90" type="" in="b79" creator="-1" insign="sagde" outsign="said"/>
-<align out="a96" type="" in="b86" creator="-1" insign="mÃ¦rkeligt" outsign="strangely"/>
+<align out="a96" type="" in="b86" creator="-1" insign="mærkeligt" outsign="strangely"/>
 <align out="a86 a87" type="" in="b76" creator="-1" insign="Politibetjent" outsign="Police officer"/>
 <align out="a93 a94" type="" in="b83" creator="-1" insign="havde" outsign="had been"/>
 <align out="a98 a99" type="" in="b88" creator="-1" insign="hospitalet" outsign="the hospital"/>
@@ -72,7 +72,7 @@
 <align out="a88" type="" in="b77" creator="-1" insign="Chris" outsign="Chris"/>
 <align out="a89" type="" in="b78" creator="-1" insign="Gregg" outsign="Gregg"/>
 <align out="a92" type="" in="b82" creator="-1" insign="Norris" outsign="Norris"/>
-<align out="a95" type="" in="b84 b85" creator="-1" insign="opfÃ¸rt sig" outsign="acting"/>
+<align out="a95" type="" in="b84 b85" creator="-1" insign="opført sig" outsign="acting"/>
 <align out="a81 a82" type="" in="b72" creator="-1" insign="mindst" outsign="at least"/>
 <align out="a105" type="" in="b96" creator="0" insign="andet" outsign="other"/>
 <align out="a106 a107" type="" in="b97" creator="0" insign="hospitalpersonales" outsign="hospital staff"/>
@@ -82,7 +82,7 @@
 <align out="a117" type="" in="b110" creator="0" insign="." outsign="."/>
 <align out="b95" type="" in="b95" creator="0" insign="af" outsign="af"/>
 <align out="b94" type="" in="b94" creator="0" insign="grund" outsign="grund"/>
-<align out="b93" type="" in="b93" creator="0" insign="pÃ¥" outsign="pÃ¥"/>
+<align out="b93" type="" in="b93" creator="0" insign="på" outsign="på"/>
 <align out="b100" type="" in="b100" creator="0" insign="at" outsign="at"/>
 <align out="a108" type="" in="b103" creator="-1" insign="sat" outsign="put"/>
 <align out="a110" type="" in="b105" creator="-1" insign="stopper" outsign="stop"/>
@@ -100,7 +100,7 @@
 <align out="a130" type="" in="b125" creator="-1" insign="Norris" outsign="Norris"/>
 <align out="a121" type="" in="b114 b115 b116" creator="-1" insign="fundet ud af" outsign="learned"/>
 <align out="a128" type="" in="b122" creator="-1" insign="var" outsign="was"/>
-<align out="a131" type="" in="b126 b127 b128 b129" creator="-1" insign="ikke brÃ¸d sig om" outsign="disliked"/>
+<align out="a131" type="" in="b126 b127 b128 b129" creator="-1" insign="ikke brød sig om" outsign="disliked"/>
 <align out="a132" type="" in="b130 b131" creator="-1" insign="at arbejde" outsign="working"/>
 <align out="a136" type="" in="b135" creator="0" insign="." outsign="."/>
 <align out="b141" type="" in="b141" creator="0" insign="," outsign=","/>
@@ -115,8 +115,8 @@
 <align out="a133" type="" in="b132" creator="-1" insign="med" outsign="with"/>
 <align out="a145" type="" in="b144" creator="-1" insign="med" outsign="with"/>
 <align out="a135" type="" in="b134" creator="-1" insign="mennesker" outsign="people"/>
-<align out="a134" type="" in="b133" creator="-1" insign="Ã¦ldre" outsign="old"/>
-<align out="a142" type="" in="b142" creator="-1" insign="Ã¦ldre" outsign="old"/>
+<align out="a134" type="" in="b133" creator="-1" insign="ældre" outsign="old"/>
+<align out="a142" type="" in="b142" creator="-1" insign="ældre" outsign="old"/>
 <align out="a137 a138" type="" in="b136" creator="-1" insign="Alle" outsign="All of"/>
 <align out="a153 a154" type="" in="b150 b151" creator="0" insign="betragtes som" outsign="be considered"/>
 <align out="a160" type="" in="b156" creator="0" insign="." outsign="."/>
@@ -124,30 +124,30 @@
 <align out="a158 a159" type="" in="b155" creator="-1" insign="hospitalspersonalet" outsign="hospital staff"/>
 <align out="a155" type="" in="b152" creator="-1" insign="en" outsign="a"/>
 <align out="a157" type="" in="b154" creator="-1" insign="for" outsign="to"/>
-<align out="a1 a2" type="f" in="b1" creator="0" insign="DrÃ¦bersygepleske" outsign="Killer nurse"/>
+<align out="a1 a2" type="f" in="b1" creator="0" insign="Dræbersygepleske" outsign="Killer nurse"/>
 <align out="a19" type="" in="a19" creator="0" insign="of" outsign="of"/>
-<align out="a17 a18" type="" in="b15 b16 b17" creator="0" insign="at have drÃ¦bt" outsign="the killing"/>
+<align out="a17 a18" type="" in="b15 b16 b17" creator="0" insign="at have dræbt" outsign="the killing"/>
 <align out="b23" type="" in="b23" creator="0" insign="Den" outsign="Den"/>
-<align out="a25 a26 a27" type="" in="b24" creator="0" insign="32-Ã¥rige" outsign="32 year old"/>
+<align out="a25 a26 a27" type="" in="b24" creator="0" insign="32-årige" outsign="32 year old"/>
 <align out="a40" type="" in="b38" creator="0" insign="stor" outsign="large"/>
 <align out="b37" type="" in="b37" creator="0" insign="en" outsign="en"/>
-<align out="a46" type="" in="b42 b43" creator="0" insign="I gÃ¥r" outsign="Yesterday"/>
+<align out="a46" type="" in="b42 b43" creator="0" insign="I går" outsign="Yesterday"/>
 <align out="a47" type="" in="a47" creator="0" insign="," outsign=","/>
 <align out="a54" type="f" in="b50" creator="0" insign="sigtelser" outsign="counts"/>
 <align out="a91" type="" in="b81" creator="0" insign="at" outsign="that"/>
 <align out="b80" type="" in="b80" creator="0" insign="," outsign=","/>
 <align out="a102 a104 a106 a107" type="s" in="b97" creator="0" insign="hospitalpersonales" outsign="the of hospital staff"/>
-<align out="a103" type="" in="b98" creator="0" insign="opmÃ¦rksomhed" outsign="awareness"/>
+<align out="a103" type="" in="b98" creator="0" insign="opmærksomhed" outsign="awareness"/>
 <align out="a114" type="" in="a114" creator="0" insign="to" outsign="to"/>
 <align out="a115 a116" type="" in="b109" creator="0" insign="drabene" outsign="the killings"/>
 <align out="a122" type="" in="b118" creator="0" insign="at" outsign="that"/>
 <align out="b117" type="" in="b117" creator="0" insign="," outsign=","/>
 <align out="a129" type="" in="b124" creator="0" insign="at" outsign="that"/>
 <align out="b123" type="" in="b123" creator="0" insign="," outsign=","/>
-<align out="a3" type="f" in="b2" creator="0" insign="idÃ¸mt" outsign="receives"/>
+<align out="a3" type="f" in="b2" creator="0" insign="idømt" outsign="receives"/>
 <align out="a41" type="" in="b39" creator="0" insign="dosis" outsign="amounts"/>
 <align out="a42" type="" in="a42" creator="0" insign="of" outsign="of"/>
-<align out="a97" type="f" in="b87" creator="0" insign="pÃ¥" outsign="around"/>
+<align out="a97" type="f" in="b87" creator="0" insign="på" outsign="around"/>
 <align out="a149 a150 a151" type="" in="b149" creator="0" insign="alle" outsign="All of them"/>
 <align out="b147" type="" in="b147" creator="0" insign="De" outsign="De"/>
 </DTAGalign>

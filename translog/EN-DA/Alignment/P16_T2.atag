@@ -13,9 +13,9 @@
 <align out="a6 a7 a8" type="" in="b6" creator="-1" insign="leveomkostninger" outsign="cost of living"/>
 <align out="a9" type="" in="b7" creator="-1" insign="Britiske" outsign="British"/>
 <align out="a13" type="" in="b10" creator="-1" insign="hoste" outsign="cough"/>
-<align out="a11 a12" type="" in="b9" creator="-1" insign="mÃ¥" outsign="have to"/>
+<align out="a11 a12" type="" in="b9" creator="-1" insign="må" outsign="have to"/>
 <align out="a14" type="" in="b11 b12" creator="-1" insign="op med" outsign="up"/>
-<align out="a17" type="" in="b14" creator="-1" insign="pund" outsign="ÃÂ£"/>
+<align out="a17" type="" in="b14" creator="-1" insign="pund" outsign="Â£"/>
 <align out="a18" type="" in="b13" creator="-1" insign="1300" outsign="31,300"/>
 <align out="a1" type="" in="b1" creator="-1" insign="Familier" outsign="Families"/>
 <align out="a10" type="" in="b8" creator="-1" insign="familier" outsign="families"/>
@@ -26,11 +26,11 @@
 <align out="a24" type="" in="b28" creator="-1" insign="benzin" outsign="fuel"/>
 <align out="a26" type="" in="b29" creator="-1" insign="stiger" outsign="soar"/>
 <align out="a19" type="" in="b21" creator="-1" insign="om" outsign="a"/>
-<align out="a20" type="" in="b22" creator="-1" insign="Ã¥ret" outsign="year"/>
-<align out="a33" type="" in="b38" creator="-1" insign="Ã¥r" outsign="years"/>
+<align out="a20" type="" in="b22" creator="-1" insign="året" outsign="year"/>
+<align out="a33" type="" in="b38" creator="-1" insign="år" outsign="years"/>
 <align out="a32" type="" in="b37" creator="-1" insign="17" outsign="17"/>
 <align out="a35" type="" in="b40" creator="-1" insign="Priserne" outsign="Prices"/>
-<align out="a25" type="" in="b24 b25" creator="-1" insign="priserne pÃ¥" outsign="prices"/>
+<align out="a25" type="" in="b24 b25" creator="-1" insign="priserne på" outsign="prices"/>
 <align out="a36" type="" in="b41" creator="0" insign="i" outsign="in"/>
 <align out="a40" type="" in="b45" creator="0" insign="med" outsign="at"/>
 <align out="a37" type="" in="b42" creator="-1" insign="supermarkederne" outsign="supermarkets"/>
@@ -39,7 +39,7 @@
 <align out="a55" type="" in="b59" creator="-1" insign="stige" outsign="increase"/>
 <align out="a54" type="" in="b58" creator="-1" insign="vil" outsign="will"/>
 <align out="a39" type="" in="b44" creator="-1" insign="steget" outsign="climbed"/>
-<align out="a47" type="" in="b51" creator="-1" insign="Ã¥r" outsign="year"/>
+<align out="a47" type="" in="b51" creator="-1" insign="år" outsign="year"/>
 <align out="a38" type="" in="b43" creator="-1" insign="er" outsign="have"/>
 <align out="a46" type="" in="b50" creator="-1" insign="sidste" outsign="past"/>
 <align out="a53" type="" in="b57" creator="-1" insign="priserne" outsign="prices"/>
@@ -48,14 +48,14 @@
 <align out="a48" type="?" in="b52" creator="-1" insign="." outsign="."/>
 <align out="a56 a57" type="" in="b60" creator="0" insign="yderligere" outsign="further still"/>
 <align out="a58" type="" in="b61" creator="0" insign="," outsign=","/>
-<align out="a59" type="" in="b63 b64" creator="0" insign="det gÃ¸r" outsign="making"/>
+<align out="a59" type="" in="b63 b64" creator="0" insign="det gør" outsign="making"/>
 <align out="b62" type="" in="b62" creator="0" insign="og" outsign="og"/>
 <align out="a62" type="" in="b67" creator="0" insign="for" outsign="for"/>
 <align out="a75" type="" in="b78 b79" creator="0" insign="at holde" outsign="keep"/>
-<align out="a61" type="" in="b66" creator="-1" insign="svÃ¦rt" outsign="hard"/>
-<align out="a68" type="" in="b72" creator="-1" insign="sÃ¦nke" outsign="cut"/>
+<align out="a61" type="" in="b66" creator="-1" insign="svært" outsign="hard"/>
+<align out="a68" type="" in="b72" creator="-1" insign="sænke" outsign="cut"/>
 <align out="a69 a70" type="" in="b73" creator="-1" insign="renten" outsign="interest rates"/>
-<align out="a73" type="" in="b76" creator="-1" insign="kÃ¦mper" outsign="struggles"/>
+<align out="a73" type="" in="b76" creator="-1" insign="kæmper" outsign="struggles"/>
 <align out="a71" type="" in="b74" creator="-1" insign="da" outsign="as"/>
 <align out="a67" type="" in="b71" creator="-1" insign="at" outsign="to"/>
 <align out="a74" type="" in="b77" creator="-1" insign="med" outsign="to"/>
@@ -63,18 +63,18 @@
 <align out="a65" type="" in="b69" creator="-1" insign="of" outsign="of"/>
 <align out="a60" type="" in="b65" creator="-1" insign="det" outsign="it"/>
 <align out="a72" type="" in="b75" creator="-1" insign="den" outsign="it"/>
-<align out="a78 a79" type="" in="b82" creator="0" insign="Ã¸konomien" outsign="the economy"/>
+<align out="a78 a79" type="" in="b82" creator="0" insign="økonomien" outsign="the economy"/>
 <align out="a82" type="" in="b85" creator="0" insign="." outsign="."/>
-<align out="a94" type="" in="b99" creator="0" insign="lÃ¸nnen" outsign="salary"/>
+<align out="a94" type="" in="b99" creator="0" insign="lønnen" outsign="salary"/>
 <align out="a76" type="" in="b80" creator="-1" insign="inflationen" outsign="inflation"/>
 <align out="a81" type="" in="b84" creator="-1" insign="kontrol" outsign="control"/>
-<align out="a86" type="" in="b90" creator="-1" insign="vÃ¦rre" outsign="worse"/>
+<align out="a86" type="" in="b90" creator="-1" insign="værre" outsign="worse"/>
 <align out="a88" type="" in="b93" creator="-1" insign="eskalerende" outsign="escalating"/>
 <align out="a77" type="" in="b81" creator="-1" insign="og" outsign="and"/>
-<align out="a83 a84" type="" in="b86 b87 b88" creator="-1" insign="For at gÃ¸re" outsign="To make"/>
+<align out="a83 a84" type="" in="b86 b87 b88" creator="-1" insign="For at gøre" outsign="To make"/>
 <align out="a87" type="" in="a87" creator="0" insign="," outsign=","/>
 <align out="a96" type="" in="b100" creator="0" insign="," outsign=","/>
-<align out="a97" type="" in="b101" creator="-1" insign="isÃ¦r" outsign="especially"/>
+<align out="a97" type="" in="b101" creator="-1" insign="især" outsign="especially"/>
 <align out="a102" type="" in="a102" creator="0" insign="other" outsign="other"/>
 <align out="a103" type="" in="b108" creator="0" insign="sundhedsfagligt" outsign="healthcare"/>
 <align out="a104" type="" in="b109" creator="0" insign="personale" outsign="professionals"/>
@@ -92,10 +92,10 @@
 <align out="a100" type="" in="b106" creator="-1" insign="sygeplejerkser" outsign="nurses"/>
 <align out="a123" type="" in="b130 b131 b132 b133" creator="0" insign="der ligger under inflationen" outsign="below-inflation"/>
 <align out="b137" type="" in="b137" creator="0" insign="prisstigninger" outsign="prisstigninger"/>
-<align out="b138" type="" in="b138" creator="0" insign="pÃ¥" outsign="pÃ¥"/>
+<align out="b138" type="" in="b138" creator="0" insign="på" outsign="på"/>
 <align out="a132" type="" in="b139" creator="-1" insign="mad" outsign="food"/>
-<align out="a124 a125" type="" in="b129" creator="-1" insign="lÃ¸nstigninger" outsign="salary increases"/>
-<align out="a130" type="" in="b141" creator="-1" insign="brÃ¦ndstof" outsign="fuel"/>
+<align out="a124 a125" type="" in="b129" creator="-1" insign="lønstigninger" outsign="salary increases"/>
+<align out="a130" type="" in="b141" creator="-1" insign="brændstof" outsign="fuel"/>
 <align out="a127 a128 a129" type="" in="b135 b136" creator="-1" insign="Ud over" outsign="In addition to"/>
 <align out="a131" type="" in="b140" creator="-1" insign="og" outsign="and"/>
 <align out="a133" type="" in="b142" creator="-1" insign="," outsign=","/>
@@ -105,7 +105,7 @@
 <align out="a149" type="" in="a149" creator="0" insign="their" outsign="their"/>
 <align out="a150" type="" in="a150" creator="0" insign="customers'" outsign="customers'"/>
 <align out="a151" type="" in="a151" creator="0" insign="bills" outsign="bills"/>
-<align out="a137" type="" in="b144" creator="-1" insign="ogsÃ¥" outsign="also"/>
+<align out="a137" type="" in="b144" creator="-1" insign="også" outsign="also"/>
 <align out="a140" type="" in="b149" creator="-1" insign="Fem" outsign="Five"/>
 <align out="a141" type="" in="b150" creator="-1" insign="ud" outsign="out"/>
 <align out="a142" type="" in="b151" creator="-1" insign="af" outsign="of"/>
@@ -126,11 +126,11 @@
 <align out="a92 a93" type="" in="b95 b96" creator="0" insign="hurtigere end" outsign="ahead of"/>
 <align out="b98" type="" in="b98" creator="0" insign="i" outsign="i"/>
 <align out="a95" type="" in="b97" creator="0" insign="stigningerne" outsign="increases"/>
-<align out="a98 a99" type="f" in="b102 b103 b104 b105" creator="0" insign="nÃ¥r det handler om" outsign="those of"/>
+<align out="a98 a99" type="f" in="b102 b103 b104 b105" creator="0" insign="når det handler om" outsign="those of"/>
 <align out="a107 a108" type="f" in="b112" creator="0" insign="lider" outsign="have suffered"/>
-<align out="a113" type="" in="b116 b117" creator="0" insign="insisterer pÃ¥" outsign="insistence"/>
+<align out="a113" type="" in="b116 b117" creator="0" insign="insisterer på" outsign="insistence"/>
 <align out="a115" type="f" in="b119" creator="0" insign="folk" outsign="those"/>
-<align out="a120 a121" type="" in="b124" creator="0" insign="mÃ¥" outsign="have to"/>
+<align out="a120 a121" type="" in="b124" creator="0" insign="må" outsign="have to"/>
 <align out="a122" type="f" in="b125 b126 b127 b128" creator="0" insign="tage til takke med" outsign="receive"/>
 <align out="a134" type="" in="b145" creator="0" insign="elektriciteten" outsign="electricity"/>
 <align out="a135" type="" in="a135" creator="0" insign="bills" outsign="bills"/>

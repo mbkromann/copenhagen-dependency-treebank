@@ -50,7 +50,7 @@ while (<>) {
 
   my $A=ReadAtag($atag);
   if(defined($A)) {
-    if(ReadAlign("$giza.giza", $A) ==1 ) { PrintAtag("$atag.atag", $atag, $A);}
+    if(ReadGizaAlign("$giza.giza", $A) ==1 ) { PrintAtag("$atag.atag", $atag, $A);}
   }
 }
 
@@ -101,14 +101,12 @@ sub MSescape {
   return $in;
 }
 
-
-
-sub ReadAlign {
+sub ReadGizaAlign {
   my ($fn,$A) = @_;
   my ($H, $k, $s, $D, $n);
 
   if(!open(DATA, "<:encoding(utf8)", $fn)) {
-    printf STDERR "ReadAlign: cannot open: $fn\n";
+    printf STDERR "ReadGizaAlign: cannot open: $fn\n";
     return 0;
   }
 

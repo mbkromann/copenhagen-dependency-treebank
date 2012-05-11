@@ -238,7 +238,7 @@ sub ReadAtag {
 
 sub PrintTokens{
   my ($fn, $A) = @_;
-  my $lineBreak=0;
+  my $lineBreak=1;
 
   my @L = qw(Source Final);
   foreach my $l (@L) {
