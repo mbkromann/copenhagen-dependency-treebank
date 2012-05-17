@@ -35,7 +35,7 @@ do
 #        echo "./PU-FU2Trl.pl.pl -T $outp.Event.xml > $outp.Units.xml"
 #        ./PU-FU2Trl.pl -T "$outp.Event.xml" > $outp.Units.xml
 
-        echo "./Trl2Treex.pl    -T $outp.Units.xml -O $outp.treex.gz"
-        ./Trl2Treex.pl -T $outp.Units.xml -O $outp
+#        echo "./Trl2Treex.pl    -T $outp.Units.xml -O $outp.treex.gz"
+#        ./Trl2Treex.pl -T $outp.Units.xml -O $outp
         echo "";
 done    
