@@ -12,8 +12,8 @@ use Data::Dumper; $Data::Dumper::Indent = 1;
 sub d { print STDERR Data::Dumper->Dump([ @_ ]); }
 
 my $usage =
-  "Translog (incl src, tgt, atag) file to Treex: \n".
-  "  -T in:  Translog XML file <filename>.xml\n".
+  "Create Treex file from n Translog-II Event files: \n".
+  "  -T in:  Translog XML file <fn1,fn2,...,fn_n>\n".
   "     out: Write treex file to <filename>.treex.gz\n".
   "Options:\n".
   "  -O <filename>: Write output <filename>.treex.gz\n".
@@ -29,7 +29,6 @@ getopts ('T:O:v:t:h');
 my $Verbose = 0;
 my $SourceLanguage = '';
 my $TargetLanguage = '';
-my $OutFile;
 
 my $KEY;
 my $FIX;
@@ -39,9 +38,9 @@ my $ALN;
 ## Key mapping
 die $usage if defined($opt_h);
 die $usage if not defined($opt_T);
+die $usage if not defined($opt_O);
 
-if(defined($opt_O)) { $OutFile = $opt_O;}
-else {$OutFile = $opt_T; $OutFile =~ s/.xml$//;}
+my $OutFile = $opt_O;
 
 my $LastSRC;
 my $doc = Treex::Core::Document->new;
@@ -49,18 +48,17 @@ my $F = [split(/\,/, $opt_T)];
 
 ReadTranslogFile($F->[0]); 
 CreateTreex($F->[0]);
+$LastSRC = $TOK->{src};
 
 for (my $i= 1; $i<= $#{$F}; $i++) {
-#  $KEY = $FIX = $TOK = $ALN = {};
   $KEY = $FIX = $TOK = $ALN = undef;
 
   ReadTranslogFile($F->[$i]); 
-  $LastSRC = $TOK->{src};
   if(CheckSRCToken($LastSRC, $TOK->{src})) {
     print STDERR "ReadTranslog: TokenDiff $F->[0], $F->[$i]\n";
     next;
   }
-  $TOK->{src} = undef;
+  $LastSRC = $TOK->{src};
   CreateTreex($F->[$i]);
 }
 
@@ -109,8 +107,8 @@ sub CheckSRCToken {
   my ($T1, $T2) = @_;
 
   foreach my $cur (sort {$a <=> $b} keys %{$T1}) { 
-    if(!defined($T2->{$cur})) { print STDERR "CheckSRCToken: undefined cursor $cur\n"; }
-    if($T1->{$cur}{tok} ne $T2->{$cur}{tok}) { print STDERR "CheckSRCToken: unequal token $T1->{$cur}{tok}\t$T2->{$cur}{tok}\n"; }
+    if(!defined($T2->{$cur})) { print STDERR "CheckSRCToken: undefined cursor $cur\n"; return 1;}
+    if($T1->{$cur}{tok} ne $T2->{$cur}{tok}) { print STDERR "CheckSRCToken: unequal token $T1->{$cur}{tok}\t$T2->{$cur}{tok}\n"; return 1;}
   }
   return 0;
 }

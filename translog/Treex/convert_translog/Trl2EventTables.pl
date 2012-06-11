@@ -15,20 +15,24 @@ binmode STDERR, ":utf8";
 # Escape characters 
 my $map = { map { $_ => 1 } split( //o, "\\<> \t\n\r\f\"" ) };
 
+my $MaxFixGap = 400;
+my $MaxKeyGap = 1000;
 
 my $usage =
   "Extract R tables from Translog file: \n".
   "  -T in:  Translog XML file <filename>\n".
   "  -O out: Write output   <filename>.{kd,fd,fu,pu,st}\n".
   "Options:\n".
+  "  -f min fixation unit boundary [$MaxFixGap]\n".
+  "  -p min production unit boundary [$MaxKeyGap]\n".
   "  -v verbose mode [0 ... ]\n".
   "  -h this help \n".
   "\n";
 
-use vars qw ($opt_O $opt_T $opt_v $opt_h);
+use vars qw ($opt_O $opt_T $opt_f $opt_p $opt_v $opt_h);
 
 use Getopt::Std;
-getopts ('T:O:p:v:h');
+getopts ('T:O:p:k:v:h');
 
 die $usage if defined($opt_h);
 
@@ -39,11 +43,9 @@ my $FU = undef;
 my $PU = undef;
 my $Verbose = 0;
         
-my $MaxFixGap = 400;
-my $MaxKeyGap = 1000;
-
-
 if (defined($opt_v)) {$Verbose = $opt_v;}
+if (defined($opt_p)) {$MaxKeyGap = $opt_p;}
+if (defined($opt_f)) {$MaxFixGap = $opt_f;}
 
 
 ### Read and Tokenize Translog log file
@@ -103,7 +105,7 @@ sub Rescape {
 
   $in =~ s/([ \t\n\r\f\#])/_/g;
 # Hack  R does not understand unicode: all -> .
-  $in =~ s/([^a-zA-Z0-9 '"_.;:|!@#$%^&*()+=\\|}{\[\]-])/./g;
+#  $in =~ s/([^a-zA-Z0-9 '"_.;:|!@#$%^&*()+=\\|}{\[\]-])/./g;
 #  $in =~ s/(.)/ToUniCode($1)/ego;
 
 #  $in =~ s/([^\p{IsAlnum} '"_.;:|!@#$%^&*()+=\\|}{\[\]-])/./g;
@@ -147,9 +149,10 @@ sub ReadTranslog {
       if(/win="([^"]*)"/)        {$FIX->{$time}{'win'} = $1;}
       if(/dur="([0-9][0-9]*)"/)  {$FIX->{$time}{'dur'} = $1;}
       if(/cur="([-0-9][0-9]*)"/) {$FIX->{$time}{'cur'} = $1;}
-      if(/ id="([^"]*)"/)         {$FIX->{$time}{'id'} = $1;}
+      if(/tid="([^"]*)"/)        {$FIX->{$time}{'tid'} = $1;}
       if(/sid="([^"]*)"/)        {$FIX->{$time}{'sid'} = $1;}
       if($FIX->{$time}{'sid'} eq '') {$FIX->{$time}{'sid'} = -1;}
+      if($FIX->{$time}{'tid'} eq '') {$FIX->{$time}{'tid'} = -1;}
 
     }
     elsif($type == 3 && /<Mod /) {
@@ -157,9 +160,10 @@ sub ReadTranslog {
       if(/cur="([0-9][0-9]*)"/)  {$KEY->{$time}{'cur'} = $1;}
       if(/chr="([^"]*)"/)        {$KEY->{$time}{'char'} = Rescape(Rescape(MSunescape($1)));}
       if(/type="([^"]*)"/)       {$KEY->{$time}{'type'} = $1;}
-      if(/ id="([^"]*)"/)        {$KEY->{$time}{'tid'} = $1;}
+      if(/tid="([^"]*)"/)        {$KEY->{$time}{'tid'} = $1;}
       if(/sid="([^"]*)"/)        {$KEY->{$time}{'sid'} = $1;}
       if($KEY->{$time}{'sid'} eq '') {$KEY->{$time}{'sid'} = -1;}
+      if($KEY->{$time}{'tid'} eq '') {$KEY->{$time}{'tid'} = -1;}
     }
 #    <PU start="10685" dur="7049" pause="2719" parallel="69.1587" ins="34" del="0" src="3+4" tgt="1+3+4" str="Mordersygeplejerske&nbsp;modtager&nbsp;fire&nbsp;" />
 
@@ -211,54 +215,37 @@ sub FixationUnits {
   my $end = 0;
   my $win = 0;
   my $FUlength = 0;
-  my $SID = {};
-  my $ID = {};
+  my $path ='';
 
   foreach my $t (sort  {$a <=> $b} keys %{$FIX}) {
 #printf STDERR "AAAAA\n";
 #d($FIX->{$t});
     if($FIX->{$t}{'win'} <= 0 ) { next;}
 
-    if($start != 0 && ((($t - $end) > $MaxFixGap) || ($FIX->{$t}{'win'} != $win))) {
+    if($start != 0 && (($t - $end) > $MaxFixGap)) {
       if($FUlength > 2 ) { 
-        my $sid = "";
-        my $id = "";
-        my $n =0;
-        foreach my $s (sort  {$a <=> $b} keys %{$SID}) { if($n++>0) {$sid .= "+";} $sid .= "$s"; } 
-        $n =0;
-        foreach my $s (sort  {$a <=> $b} keys %{$ID}) { if($n++>0) {$id .= "+";} $id .= "$s"; } 
         $FU->{$start}{dur} =$end - $start;
         $FU->{$start}{pause} =$t - $end;
-        $FU->{$start}{win} =$win;
-        $FU->{$start}{id} =$id;
-        $FU->{$start}{sid} =$sid;
+        $FU->{$start}{win}  =$win;
+        $FU->{$start}{path} =$path;
 #printf STDERR "AAAAA\n";
 #d($FU->{$start});
       }
       $start = 0;
     }
-    if($start == 0) {$SID = {}; $ID = {}; $start = $t;  $FUlength=0;}
-    if(defined($FIX->{$t}{'id'})) {
-      foreach my $i (split(/\+/, $FIX->{$t}{'id'})) {$ID->{$i}++; } 
-    }
-    if(defined($FIX->{$t}{'sid'})) {
-      foreach my $i (split(/\+/, $FIX->{$t}{'sid'})) {$SID->{$i}++; } 
-    }
+    if($start == 0) {$path =''; $start = $t;  $FUlength=0;}
+    if($FIX->{$t}{'win'}  == 2 && defined($FIX->{$t}{'tid'})) { $path .= "2:$FIX->{$t}{'tid'}+"; }
+    if($FIX->{$t}{'win'}  == 1 && defined($FIX->{$t}{'sid'})) { $path .= "1:$FIX->{$t}{'sid'}+"; }
     $end = $t + $FIX->{$t}{'dur'};
     $FUlength ++;
     $win = $FIX->{$t}{'win'};
   }
-  my $sid = "";
-  my $id = "";
-  my $n =0;
-  foreach my $s (sort  {$a <=> $b} keys %{$SID}) { if($n++>0) {$sid .= "+";} $sid .= "$s"; } 
-  $n =0;
-  foreach my $s (sort  {$a <=> $b} keys %{$ID}) { if($n++>0) {$id .= "+";} $id .= "$s"; } 
-  $FU->{$start}{dur} =$end - $start;
-  $FU->{$start}{pause} = 0;
-  $FU->{$start}{win} =$win;
-  $FU->{$start}{id} =$id;
-  $FU->{$start}{sid} =$sid;
+  if($end > 0) {
+    $FU->{$start}{dur} =$end - $start;
+    $FU->{$start}{pause} = 0;
+    $FU->{$start}{win} =$win;
+    $FU->{$start}{path} =$path;
+  }
 }
 
 sub ProductionUnits {
@@ -437,9 +424,9 @@ sub PrintFD {
 
   foreach my $t (sort  {$a <=> $b} keys %{$FIX}) {
     my $SID = [split(/\+/, $FIX->{$t}{'sid'})];
-#print STDERR "$n\t$t\t$FIX->{$t}{'win'}\t$FIX->{$t}{'dur'}\t$FIX->{$t}{'cur'}\t$FIX->{$t}{'id'}\t$FIX->{$t}{'sid'}\n";
+#print STDERR "$n\t$t\t$FIX->{$t}{'win'}\t$FIX->{$t}{'dur'}\t$FIX->{$t}{'cur'}\t$FIX->{$t}{'tid'}\t$FIX->{$t}{'sid'}\n";
 #d($FIX->{$t});
-    print FILE "$n\t$t\t$FIX->{$t}{'win'}\t$FIX->{$t}{'dur'}\t$FIX->{$t}{'cur'}\t$FIX->{$t}{'id'}\t$SID->[0]\n";
+    print FILE "$n\t$t\t$FIX->{$t}{'win'}\t$FIX->{$t}{'dur'}\t$FIX->{$t}{'cur'}\t$FIX->{$t}{'tid'}\t$SID->[0]\n";
     $n++;
   }
   close (FILE);
@@ -459,13 +446,13 @@ sub PrintFU {
   }
 
   my $n = 0;
-  printf FILE "n\tstart\tdur\twin\tpause\tpar\tid\n";
+  printf FILE "n\tstart\tdur\twin\tpause\tpar\tpath\n";
 #  printf STDERR "n\tstart\tdur\twin\tpause\tpar\tfixes\n";
 
   foreach my $t (sort  {$a <=> $b} keys %{$FU}) {
 #print STDERR "$n\t$t\t$FU->{$t}{'dur'}\t$FU->{$t}{'win'}\t$FU->{$t}{'pause'}\t$FU->{$t}{'par'}\t$FU->{$t}{'id'}\n";
 #d($FU->{$t});
-    print FILE "$n\t$t\t$FU->{$t}{'dur'}\t$FU->{$t}{'win'}\t$FU->{$t}{'pause'}\t$FU->{$t}{'par'}\t$FU->{$t}{'id'}\n";
+    print FILE "$n\t$t\t$FU->{$t}{'dur'}\t$FU->{$t}{'win'}\t$FU->{$t}{'pause'}\t$FU->{$t}{'par'}\t$FU->{$t}{'path'}\n";
     $n++;
   }
   close (FILE);

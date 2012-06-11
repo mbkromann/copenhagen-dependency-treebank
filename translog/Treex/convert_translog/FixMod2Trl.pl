@@ -4,6 +4,8 @@ use strict;
 use warnings;
 
 use Encode qw(encode decode);
+binmode STDOUT, ":utf8";
+binmode STDERR, ":utf8";
 
 # Escape characters 
 my $map = { map { $_ => 1 } split( //o, "\\<> \t\n\r\f\"" ) };
@@ -55,8 +57,9 @@ else {$fn = $opt_T; $fn =~ s/.xml$/_tab.xml/;}
   CheckForward();
   MapTok2Chr();
   MapSource();
+  UnmapTEXT();
   MapTarget();
-  CheckBackward ();
+#  CheckBackward ();
 
   FixModTable();
   PrintTranslog($fn);
@@ -65,20 +68,6 @@ exit;
 ############################################################
 # escape
 ############################################################
-
-#sub escape {
-#  my ($in) = @_;
-##printf STDERR "in: $in\n";
-#  $in =~ s/(.)/exists($map->{$1})?sprintf('\\%04x',ord($1)):$1/egos;
-#  return $in;
-#}
-#
-#sub unescape {
-#  my ($in) = @_;
-#  $in =~ s/\\([0-9a-f]{4})/sprintf('%c',hex($1))/egos;
-#  return $in;
-#}
-
 
 sub MSunescape {
   my ($in) = @_;
@@ -136,6 +125,7 @@ sub ReadTranslog {
     if(/<Events>/) {$type =1; }
     elsif(/<SourceTextChar>/) {$type =2; }
     elsif(/<TranslationChar>/) {$type =3; }
+    elsif(/<TargetTextChar>/) {$type =3; }
     elsif(/<FinalTextChar>/) {$type =4; }
     elsif(/<FinalText>/)   {$type =5; }
     elsif(/<Alignment>/)   {$type =6; }
@@ -231,6 +221,7 @@ sub ReadTranslog {
       if(/FinalId="([^\"]*)"/)  {$ti =$1;}
       if(/Final="([^\"]*)"/)     {$ts =$1;}
       $ALN->{'tid'}{$ti}{'sid'}{$si} = $ss;
+      $ALN->{'sid'}{$si}{'tid'}{$ti} = $ts;
     }
     elsif($type == 7 && /<Token/) {
       if(/cur="([0-9][0-9]*)"/) {$cur =$1;}
@@ -251,6 +242,7 @@ sub ReadTranslog {
     if(/<\/Events>/) {$type =0; }
     if(/<\/SourceTextChar>/) {$type =0; }
     if(/<\/TranslationChar>/) {$type =0; }
+    if(/<\/TargetTextChar>/) {$type =0; }
     if(/<\/FinalTextChar>/) {$type =0; }
     if(/<\/FinalText>/) {$type =0; }
     if(/<\/Alignment>/) {$type =0; }
@@ -313,13 +305,11 @@ sub KeyLogAnalyse {
 }
 
 sub InsertText {
-  my ($x) = @_;
+  my ($Value) = @_;
   my ($j, $c, $l, $t);
 
   my $s = $_;
-  my $X=[split(//, $x)];
-
-#printf STDERR "InsertText1: $s$x\n";
+  my $X=[split(//, $Value)];
 
   if($s =~ /Cursor="([0-9][0-9]*)"/) {$c = int($1);}
   else { printf STDERR "InsertText1: No Cursor in $s\n";}
@@ -329,30 +319,34 @@ sub InsertText {
   if($t <= $lastKeyTime) { $t = $lastKeyTime+1; }
 
 # make place for insertion in text 
-  for($j=$TextLength; $j > $c; $j--) { $TEXT->{$j+$#{$X}}{'c'} = $TEXT->{$j-1}{'c'}; }
+  for($j=$TextLength; $j > $c; $j--) { 
+    $TEXT->{$j+$#{$X}}{'c'} = $TEXT->{$j-1}{'c'}; 
+  }
 #  insert contents of $X in text 
   for($j=0; $j <= $#{$X}; $j++) { 
-#    print STDERR "         ins   time:$t Log:$x($#{$X})\tLog:$j:$X->[$j]\n"; 
+#    print STDERR "         ins   time:$t Log:$Value($#{$X})\tLog:$j:$X->[$j]\n"; 
     $TEXT->{$c+$j}{'c'} = $X->[$j]; 
-  }
-  $TextLength += $#{$X} +1;
-
-
-# produce keystroke event
-  for($j=0; $j <= $#{$X}; $j++) {
     $KEY->{$t}{'t'} = "ins";
     $KEY->{$t}{'k'} = $X->[$j];
     if(/Cursor="([0-9][0-9]*)"/) {$KEY->{$t}{'c'} = $c+$j;}
+#print STDERR "InsertText1: $t\tv:$Value\tchar:$X->[$j]\n";
     $t++;
   }
+  $TextLength += $#{$X} +1;
+
   $lastCursorPos = $c+$#{$X}+1;
   $lastKeyTime = $t;
+
+#  if($s =~ /Time="([0-9][0-9]*)"/)   {$t = int($1);}
+#  print STDERR "$t\t>";
+#  for($j=0; $j<$TextLength; $j++) { print STDERR "$TEXT->{$j}{'c'}";}
+#  print STDERR "<\n";
 
 }
 
 ## Delete
 sub DeleteText {
-  my ($x) = @_;
+  my ($Value) = @_;
   my ($j, $c, $l, $t);
 
   my $s = $_;
@@ -364,37 +358,35 @@ sub DeleteText {
   # no text to delete (backspace at beginning delete at end of text)
   if($c < 0 || $c >= $TextLength) {return;}
 
-  my $X=[split(//, $x)];
-  $l = $#{$X}+1;
+  my $X=[split(//, $Value)];
 
   if($t <= $lastKeyTime) {$t = $lastKeyTime+1;}
 
-#printf STDERR "DeleteText2: time:$t text:$TextLength cur:$c chunk:$x length:$l/$#{$X}\n";
+#printf STDERR "DeleteText2: time:$t text:$TextLength cur:$c chunk:$Value length:$l/$#{$X}\n";
 
   # check inconsistencies between X (buffer) and TEXT (should be identical)
   my $i =0;
-  for($j=$c; $j<$c+$l; $j++) {
-#      print STDERR "         del   time:$t Log:$x($#{$X})\tLog:$i:$X->[$i]  eq  Text:$j:$TEXT->{$j}{'c'}\n"; 
+  for($j=$c; $j<=$c+$#{$X}; $j++) {
+#      print STDERR "         del   time:$t Log:$Value($#{$X})\tLog:$i:$X->[$i]  eq  Text:$j:$TEXT->{$j}{'c'}\n"; 
     if($X->[$i] eq '#') { $X->[$i] = $TEXT->{$j}{'c'};}
     elsif($TEXT->{$j}{'c'} ne $X->[$i]) {
-      printf STDERR "WARNING Delete time:$t cur:$j Char:%s\tLog:%s($#{$X})\tText:$j:%s\n\t", 
-                     encode('utf8', $X->[$i]), encode('utf8', $x), encode('utf8', $TEXT->{$j}{'c'}); 
-#      $X->[$i] = $TEXT->{$j}{'c'};
-#      $TEXT->{$j}{'c'} = $X->[$i];
-#      last;
+      my $offs = SearchDelChar($TEXT, $j, $X, $i);
+#      for (my $k=0; $k <$offs; $k++) {unshift(@{$X}, $TEXT->{$j+$k}{'c'})}
+      for (my $k=0; $k <$offs; $k++) {unshift(@{$X}, '#')}
+      printf STDERR "WARNING Delete time:$t cur:$j inserted:$offs\tLog:$Value($#{$X})\tText:$j:$TEXT->{$j}{'c'}\t$offs\n\t"; 
       for (my $k=$j-10;$k<$j+10;$k++) { 
         if($k >= $TextLength) {last;}
         if($k == $j) {print STDERR " |";} 
-        if(!defined($TEXT->{$k}{'c'})) {print STDERR "!$k!";}
-        else { printf STDERR "%s", encode('utf8', $TEXT->{$k}{c});}
+        if(defined($TEXT->{$k}{'c'})) { printf STDERR "%s", $TEXT->{$k}{c};}
         if($k == $j) {print STDERR "| ";} 
       }
       print STDERR "\n"; 
       last;
     }
-    elsif($Verbose > 1) { print STDERR "WARNING Delete time:$t cursor:$j buff:$i:%s\n", encode('utf8', $X->[$i]);}  
+    elsif($Verbose > 1) { print STDERR "WARNING Delete time:$t cursor:$j buff:$i:%s\n", $X->[$i];}  
     $i++;
   }
+  $l = $#{$X}+1;
 
   # track deletion in text 
   for($j=$c; $j<$TextLength-$l; $j++) {
@@ -425,30 +417,68 @@ sub DeleteText {
 ##########################################################
 
 sub CheckForward {
+  my $keyOff = 0;
 
-  foreach my $f (sort {$a <=> $b} keys %{$CHR->{fin}}) {
-    if($f>=$TextLength) {last;}
-    if(!defined($TEXT->{$f})) {printf STDERR "CheckForward undefined TEXT: $f\n";d($CHR->{fin}{$f});next;}
+  for (my $f=0; $f<$TextLength; $f++) {
+    if(!defined($CHR->{fin}{$f}) && !defined($TEXT->{$f})) { $TextLength = $f; last;}
+    if(!defined($CHR->{fin}{$f})) {
+      printf STDERR "CheckForward undefined CHR: cursor: $f\t$TEXT->{$f}{c}\n";
+#      $TEXT->{$f}{add}=2;
+      next;
+    }
+    if(!defined($TEXT->{$f})) {printf STDERR "CheckForward undefined TEXT cursor: $f\n";d($CHR->{fin}{$f});last;}
+    if(!defined($TEXT->{$f}{c})) {printf STDERR "CheckForward undefined TEXT char:\n";d($TEXT->{$f});}
+
+#     $TEXT->{$f}{'add'} += $keyOff;
     if($CHR->{fin}{$f}{'c'} ne $TEXT->{$f}{'c'}) {
-      printf STDERR "CheckForward CHR unmatched cursor: $f >%s<\t>%s<\n", encode('utf8', $TEXT->{$f}{'c'}), encode('utf8',$CHR->{fin}{$f}{'c'}); 
+      my $t = SearchSubstring($f);
+      printf STDERR "CheckForward unmatched CHR cursor: $f offset:$t >%s<\t>%s<\n", $TEXT->{$f}{'c'}, $CHR->{fin}{$f}{'c'}; 
       printf STDERR "Prod. TEXT:\t"; 
       foreach my $m (sort {$a <=> $b} keys %{$TEXT}) { 
-        if($m <= $f-20) {next;} 
-        if($m >= $f+20) {last;} 
+        if($m <= $f-10) {next;} 
+        if($m < 0) {next;}
+        if($m >= $f+10) {last;} 
         if($m >= $TextLength) {last;} 
-        if($m == $f) {printf STDERR "#";} 
-        printf STDERR "%s", encode('utf8', $TEXT->{$m}{'c'}); 
-        if($m == $f) {printf STDERR "#";} 
+        if($m == $f) {printf STDERR "|";} 
+        printf STDERR "$TEXT->{$m}{'c'}"; 
+        if($m == $f) {printf STDERR "|";} 
+      }
+      printf STDERR "\n"; 
+
+      if($t > 0) { 
+        for(my $j=$TextLength-1; $j>=$f; $j--) {$TEXT->{$j+$t}{'c'} = $TEXT->{$j}{'c'};}
+        for(my $j=0; $j<$t; $j++) { $TEXT->{$j+$f}{'c'} = $CHR->{fin}{$j+$f}{'c'};  }
+        $TextLength += $t;
+        $TEXT->{$f}{'add'} = $t *-1;
+        $f+=$t-1;
+      }
+      if($t < 0) { 
+        for(my $j=$f; $j<$TextLength+$t; $j++) { $TEXT->{$j}{'c'} = $TEXT->{$j-$t}{'c'};}
+        $TextLength += $t;
+        $TEXT->{$f}{'add'} = $t *-1;
+      }
+      $keyOff += $t;
+
+      printf STDERR "New   TEXT:\t"; 
+      foreach my $m (sort {$a <=> $b} keys %{$TEXT}) { 
+        if($m <= $f-10) {next;} 
+        if($m < 0) {next;}
+        if($m >= $f+10) {last;} 
+        if($m >= $TextLength) {last;} 
+        if($m == $f) {printf STDERR "|";} 
+        printf STDERR "$TEXT->{$m}{'c'}"; 
+        if($m == $f) {printf STDERR "|";} 
       }
       printf STDERR "\n"; 
       printf STDERR "Final TEXT:\t"; 
       foreach my $m (sort {$a <=> $b} keys %{$CHR->{fin}}) { 
-        if($m <= $f-20) {next;} 
-        if($m >= $f+20) {last;} 
+        if($m <= $f-10) {next;} 
+        if($m < 0) {next;}
+        if($m >= $f+10) {last;} 
         if($m >= $TextLength) {last;} 
-        if($m == $f) {printf STDERR "#";} 
-        printf STDERR "%s", encode('utf8', $CHR->{fin}{$m}{'c'}); 
-        if($m == $f) {printf STDERR "#";} 
+        if($m == $f) {printf STDERR "|";} 
+        print STDERR "$CHR->{fin}{$m}{'c'}"; 
+        if($m == $f) {printf STDERR "|";} 
       }
       printf STDERR "\n"; 
 #      d($TEXT->{$f});
@@ -456,6 +486,44 @@ sub CheckForward {
     }
   }
 }
+
+sub SearchSubstring{
+  my ($f) = @_;
+
+  for (my $t=0; $t<5; $t++) { 
+    for (my $c=0; $c<5; $c++) { 
+      if(matchSubstring($f+$t, $f+$c)) { return $c-$t;}
+  }  }  
+  return 0;
+}
+
+sub matchSubstring{
+  my ($txt, $chr) = @_;
+
+  for (my $i=0; $i < 5; $i++) {
+     if(!defined($CHR->{fin}{$chr+$i}) || 
+        !defined($TEXT->{$txt+$i}) ||
+        ($CHR->{fin}{$chr+$i}{'c'} ne $TEXT->{$txt+$i}{'c'})) {return 0;}
+  } 
+  return 1;
+}
+
+sub SearchDelChar {
+   my ($Text, $txt, $X, $x) = @_;
+
+  for (my $t=0; $t<5; $t++) {
+    my $found = 1;
+    for (my $c=0; $c+$x<=$#{$X}; $c++) {
+#print STDERR "SearchDelChar: txt:$txt X:$#{$X} x:$x t:$t c:$c $TEXT->{$txt+$t}{c} $X->[$c+$x]\n";
+       if(!defined($TEXT->{$txt+$t+$c}) ||
+         ($X->[$c+$x] ne $TEXT->{$txt+$t+$c}{'c'})) {$found = 0;last;}
+    }
+    if($found == 1) {return $t}
+  }
+  return 0;
+}
+
+
 
 ##########################################################
 # Map CHR gaze and fixations on ST
@@ -484,8 +552,6 @@ sub MapTok2Chr {
 }
 
 
-
-
 ##########################################################
 # Map CHR gaze and fixations on ST
 ##########################################################
@@ -509,8 +575,8 @@ sub MapSource {
     }
     if($CHR->{fin}{$cur}{'c'} ne $TEXT->{$cur}{'c'}) {
       printf STDERR "$opt_T: MapSource unmatched CHR cursor: $cur: TEXT:>%s<\tCHR:>%s<\n", 
-             encode('utf8', $TEXT->{$cur}{'c'}), encode('utf8',$CHR->{fin}{$cur}{'c'}); 
-      next;
+             $TEXT->{$cur}{'c'}, $CHR->{fin}{$cur}{'c'}; 
+#      next;
     }
     if($CHR->{fin}{$cur}{'id'} != $n) { 
       $c=$cur; 
@@ -521,13 +587,16 @@ sub MapSource {
 #printf STDERR "MapSource $cur %s %s\n", $TEXT->{$cur}{'wcur'}, $TEXT->{$cur}{'id'}; 
   }
 
-## TEXT and CHR should be identical, if not 
+  ## make sure all TEXT chars belong have an id 
+  ## assume previous id if not
   $n=0;
   foreach $cur (sort {$a <=> $b} keys %{$TEXT}) { 
     if($cur>=$TextLength) {last;}
+    if($cur<0) {next;}
     
     if(!defined($TEXT->{$cur}{'id'})) {
-      printf STDERR "$opt_T: MapSource undefined TEXT id $cur\t%s setting to cur:$n wcur:$c\n", encode('utf8', $TEXT->{$cur}{'c'});
+      print STDERR "$opt_T: MapSource undefined TEXT\t$TEXT->{$cur}{'c'} setting cur:$cur wcur:$c to id:$n\n";
+##      d($TEXT->{$cur});
       $TEXT->{$cur}{'id'} = $n;
       $TEXT->{$cur}{'wcur'} = $c;
     } 
@@ -537,19 +606,72 @@ sub MapSource {
     }
   }
 
-  ## initialise TEXT words in KEY
+  ## initialise word id in Eye data on ST
   foreach $cur (sort {$a <=> $b} keys %{$EYE}) { 
     if($EYE->{$cur}{'w'} != 1) {next;}
     $c = $EYE->{$cur}{'c'};
     $EYE->{$cur}{'id'}= $CHR->{src}{$c}{'id'}; 
   }
 
-  ## initialise TEXT words in KEY
+  ## initialise word id in Fix data on ST
   foreach $cur (sort {$a <=> $b} keys %{$FIX}) { 
     if($FIX->{$cur}{'w'} != 1) {next;}
     $c = $FIX->{$cur}{'c'};
-    $FIX->{$cur}{'id'}= $CHR->{src}{$c}{'id'}; 
+    $FIX->{$cur}{'sid'}= $CHR->{src}{$c}{'id'}; 
   }
+}
+
+sub UnmapTEXT {
+
+  foreach my $f (sort {$b <=> $a} keys %{$TEXT}) {
+    if(!defined($TEXT->{$f}{'add'})) { next;}
+    my $t = $TEXT->{$f}{'add'};
+
+      printf STDERR "Map  TEXT:\t";
+      foreach my $m (sort {$a <=> $b} keys %{$TEXT}) {
+        if($m <= $f-10) {next;}
+        if($m < 0) {next;}
+        if($m >= $f+10) {last;}
+        if($m >= $TextLength) {last;}
+        if($m == $f) {printf STDERR "|";}
+        printf STDERR "$TEXT->{$m}{'c'}";
+        if($m == $f) {printf STDERR "|";}
+      }
+      printf STDERR "\n";
+
+    if($t > 0) {
+      my $id = $TEXT->{$f}{id};
+      my $wcur = $TEXT->{$f}{wcur};
+      for(my $j=$TextLength-1; $j>=$f; $j--) {$TEXT->{$j+$t} = $TEXT->{$j}; $TEXT->{$j}={}}
+      for(my $j=0; $j<$t; $j++) { 
+        $TEXT->{$j+$f}{'c'} = '#';  
+        $TEXT->{$j+$f}{'id'} = $id;
+        $TEXT->{$j+$f}{'wcur'} = $wcur;
+      }
+      $TextLength += $t;
+      $f+=$t-1;
+    }
+    if($t < 0) {
+      for(my $j=$f; $j<$TextLength+$t; $j++) { $TEXT->{$j} = $TEXT->{$j-$t}; $TEXT->{$j-$t}={}}
+      $TextLength += $t;
+    }
+
+    printf STDERR "Key  TEXT:\t";
+    foreach my $m (sort {$a <=> $b} keys %{$TEXT}) {
+        if($m <= $f-10) {next;}
+        if($m < 0) {next;}
+        if($m >= $f+10) {last;}
+        if($m >= $TextLength) {last;}
+        if($m == $f) {printf STDERR "|";}
+        printf STDERR "%s", $TEXT->{$m}{'c'};
+        if($m == $f) {printf STDERR "|";}
+      }
+      printf STDERR "\n";
+  }
+
+####################################
+#  foreach my $f (sort {$a <=> $b} keys %{$TEXT}) { printf STDERR "TEXT:\t cur:$f\tid:$TEXT->{$f}{'id'} $TEXT->{$f}{'c'}\n";}
+
 }
 
 
@@ -577,18 +699,15 @@ sub MapTarget {
       if($FIX->{$F->[$f]}{'w'} != 2) { $f++; next;}
 
       my $cur = $FIX->{$F->[$f]}{'c'}; # cursor
-      if(!defined($TEXT->{$cur}{'id'})) {
-        printf STDERR "Undef id in TEXT cur:$cur $TextLength\n"; 
-        d($FIX->{$F->[$f]});
-      }
-      elsif($FIX->{$F->[$f]}{'c'} >= $TextLength) {
-        if($Verbose) {
-          printf STDERR "Target FIX at time:$F->[$f] cur:$FIX->{$F->[$f]}{'c'} >= TEXT:$TextLength\n"; 
-        }
+      if($cur >= $TextLength) {
+        if($Verbose) { printf STDERR "Target FIX at time:$F->[$f] cur:$FIX->{$F->[$f]}{'c'} >= TEXT:$TextLength\n"; }
         $cur = $TextLength-1;
       }
+      if($cur < 0) { $cur = 0;}
+      if(!defined($TEXT->{$cur}{'id'})) { printf STDERR "Fix time $k Undef id in TEXT cur:$cur len:$TextLength\n"; }
+
       ## This is the target ==> source mapping
-      $FIX->{$F->[$f]}{'id'} = $TEXT->{$cur}{'id'}; 
+      $FIX->{$F->[$f]}{'tid'} = $TEXT->{$cur}{'id'}; 
       $f++; 
     }
 
@@ -598,13 +717,12 @@ sub MapTarget {
       if($EYE->{$E->[$e]}{'w'} == 2) {
         my $cur = $EYE->{$E->[$e]}{'c'};
 
-        if(!defined($TEXT->{$cur}{'wcur'})) {
-          printf STDERR "Undef id in TEXT cur:$cur $TextLength\n"; 
-        }
-        if($EYE->{$e1}{'c'} >= $TextLength) {
+        if($cur >= $TextLength) {
           if($Verbose) {printf STDERR "Target EYE at time:$e1 cur:$EYE->{$e1}{'c'} >= TEXT:$TextLength\n"; }
  	  $cur = $TextLength-1;
         }
+        if($cur < 0) { $cur = 0;}
+        if(!defined($TEXT->{$cur}{'id'})) { printf STDERR "Eye time $k Undef id in TEXT cur:$cur len:$TextLength\n"; }
 
         $EYE->{$e1}{'id'} = $TEXT->{$cur}{'id'}; 
       }
@@ -615,68 +733,68 @@ sub MapTarget {
 # Key -> word mapping
 ###########################################
 
+###
+#printf STDERR "MapTarget1 $k $KEY->{$k}{'t'} cur:$c id:$id $KEY->{$k}{'k'} len:$TextLength\t";
+#        foreach my $m (sort {$a <=> $b} keys %{$TEXT}) {
+#          if($m <= $c-10) {next;}
+#          if($m < 0) {next;}
+#          if($m >= $c+10) {last;}
+#          if($m >= $TextLength) {last;}
+#          if($m == $c) {print STDERR "|";}
+#          print STDERR "$TEXT->{$m}{'c'}";
+#          if($m == $c) {print STDERR "|";}
+#        }
+#        printf STDERR "\n";
+###
+
     if($KEY->{$k}{'t'} eq "ins") {
 # Check Consistency of Keys and TEXT
       if(!defined($TEXT->{$c}{'c'})) {printf STDERR "MapTarget undefined ins char: cur:$c $KEY->{$k}{'k'}\n"; next;}
       if(!defined($TEXT->{$c}{'id'})){printf STDERR "MapTarget undefined ins id:   cur:$c $KEY->{$k}{'k'}\n"; next;}
 
-      if($KEY->{$k}{'k'} ne $TEXT->{$c}{'c'}) {
-        printf STDERR "MapTarget no match: $c %s\t%s\n", encode('utf8', $KEY->{$k}{'k'}), encode('utf8', $TEXT->{$c}{'c'}); 
-#        foreach my $m (sort {$a <=> $b} keys %{$TEXT}) { 
-#          if($m >= $TextLength) {last;} 
-#	  if($m == $c) {printf STDERR "#";} 
-#	  printf STDERR "$TEXT->{$m}{'c'}"; 
-#        }
-#        printf STDERR "\n"; 
-        next;
+      if($KEY->{$k}{'k'} ne $TEXT->{$c}{'c'} && $TEXT->{$c}{'c'} ne '#') {
+        printf STDERR "MapTarget no match time:$k cursor:$c key>%s<\ttext:>%s<\n", $KEY->{$k}{'k'}, $TEXT->{$c}{'c'}; 
+        foreach my $m (sort {$a <=> $b} keys %{$TEXT}) {
+          if($m <= $c-10) {next;}
+          if($m < 0) {next;}
+          if($m >= $c+10) {last;}
+          if($m >= $TextLength) {last;}
+          if($m == $c) {print STDERR "|";}
+          print STDERR "$TEXT->{$m}{'c'}";
+          if($m == $c) {print STDERR "|";}
+        }
+        printf STDERR "\n";
       }
+
 # remember last id
       $id = $KEY->{$k}{'id'} = $TEXT->{$c}{'id'};
       $wcur = $KEY->{$k}{'wcur'} = $TEXT->{$c}{'wcur'};
-      for($j=$c; $j<$TextLength-1; $j++) { 
-        $TEXT->{$j}{'c'} = $TEXT->{$j+1}{'c'}; 
-        $TEXT->{$j}{'id'} = $TEXT->{$j+1}{'id'}; 
-        $TEXT->{$j}{'wcur'} = $TEXT->{$j+1}{'wcur'}; 
-      }
+      for($j=$c; $j<$TextLength; $j++) { $TEXT->{$j} = $TEXT->{$j+1}; $TEXT->{$j+1}={};}
       $TextLength--;
+
     }
 
     elsif($KEY->{$k}{'t'} eq "del") {
 
-      if(!defined($TEXT->{$c}) || !defined($TEXT->{$c}{'id'})) {
-        printf STDERR "MapTarget undefined del id:   cur:$c %s\n", encode('utf8',$KEY->{$k}{'k'}); 
-        my $c1 =$c;
-        while(!defined($TEXT->{$c1}) || !defined($TEXT->{$c1}{'id'})) {$c1 --;}
-        $TEXT->{$c}{'wcur'} = $TEXT->{$c1}{'wcur'};
-        $TEXT->{$c}{'id'} = $TEXT->{$c1}{'id'};
-        $TEXT->{$c}{'c'} = $KEY->{$k}{'k'};
-        $TextLength++;
-        next;
-      }
-      elsif(defined($TEXT->{$c-1}) && defined($TEXT->{$c-1}{id}) && 
-        $TEXT->{$c-1}{'id'} == $TEXT->{$c}{'id'}) { 
-        $id = $TEXT->{$c}{'id'}; 
-        $wcur = $TEXT->{$c}{'wcur'};
-      }
-      ## new word
-      elsif(defined($TEXT->{$c-1}) && defined($TEXT->{$c-1}{id}) &&
-        $TEXT->{$c-1}{'id'} > $id || $TEXT->{$c}{'id'} < $id) {
-        if($TEXT->{$c}{'c'} =~ /\s/)      { $id = $TEXT->{$c-1}{'id'}; $wcur = $TEXT->{$c-1}{'wcur'};}
-	elsif($TEXT->{$c-1}{'c'} =~ /\s/) { $id = $TEXT->{$c}{'id'}; $wcur = $TEXT->{$c}{'wcur'};}
-	else { $id = $TEXT->{$c}{'id'}; $wcur = $TEXT->{$c}{'wcur'};}
-      }
-      elsif($id == -1) { $id = $TEXT->{$c}{'id'}; $wcur = $TEXT->{$c}{'wcur'};}
 
-#printf STDERR "DELETED: cur:$c id:$id  $TEXT->{$c-1}{'id'}:$TEXT->{$c-1}{'c'}  $TEXT->{$c}{'id'}:$TEXT->{$c}{'k'}  ins:$KEY->{$k}{'k'} \n"; 
-#for (my $i=$c-3; $i<$c+3; $i++) { printf STDERR "$TEXT->{$i}{'c'}";}
-#printf STDERR "\n";
-
-
-      for($j=$TextLength; $j>$c; $j--) { 
-        $TEXT->{$j}{'id'} = $TEXT->{$j-1}{'id'}; 
-        $TEXT->{$j}{'wcur'} = $TEXT->{$j-1}{'wcur'}; 
-        $TEXT->{$j}{'c'} = $TEXT->{$j-1}{'c'}; 
+## delete the only char in TEXT
+      if($TextLength <= 0) { }
+## delete last char in TEXT
+      elsif(!defined($TEXT->{$c}) || !defined($TEXT->{$c}{id})) {
+        if(defined($TEXT->{$c-1}) && defined($TEXT->{$c-1}{id})) { $id = $TEXT->{$c-1}{'id'}; $wcur = $TEXT->{$c-1}{'wcur'};}
+        else { printf STDERR "MapTarget1 time $k undefined id: cur:%s/$TextLength %s\n", $c-1, $KEY->{$k}{'k'}; }
       }
+## delete first char in TEXT
+      elsif(!defined($TEXT->{$c-1}) || !defined($TEXT->{$c-1}{id})) {
+        if(defined($TEXT->{$c}) && defined($TEXT->{$c}{id})) { $id = $TEXT->{$c}{'id'}; $wcur = $TEXT->{$c}{'wcur'};}
+        else { printf STDERR "MapTarget2 time $k undefined id: cur:%s/$TextLength %s\n", $c, $KEY->{$k}{'k'};}
+      }
+## deletion in the middle of a word
+      elsif($TEXT->{$c-1}{'id'} == $TEXT->{$c}{'id'}) { $id = $TEXT->{$c}{'id'}; $wcur = $TEXT->{$c}{'wcur'}; }
+## delete between two words: assume it's the from the suffix
+      else { $id = $TEXT->{$c-1}{'id'}; $wcur = $TEXT->{$c-1}{'wcur'}; }
+
+      for($j=$TextLength; $j>$c; $j--) { $TEXT->{$j} = $TEXT->{$j-1};$TEXT->{$j-1}= {};}
       $KEY->{$k}{'id'}=$TEXT->{$c}{'id'} = $id;
       $KEY->{$k}{'wcur'}=$TEXT->{$c}{'wcur'} = $wcur;
       $TEXT->{$c}{'c'} = $KEY->{$k}{'k'};
@@ -684,13 +802,27 @@ sub MapTarget {
       $TextLength++;
     }
     else { printf STDERR "ERROR undefined KEYSTROKE:\n"; d($KEY->{$k}); }
+
+###
+#printf STDERR "MapTarget2 $k $KEY->{$k}{'t'} cur:$c id:$id $KEY->{$k}{'k'} len:$TextLength\t";
+#        foreach my $m (sort {$a <=> $b} keys %{$TEXT}) {
+#          if($m <= $c-10) {next;}
+#          if($m < 0) {next;}
+#          if($m >= $c+10) {last;}
+#          if($m >= $TextLength) {last;}
+#          if($m == $c) {print STDERR "|";}
+#          print STDERR "$TEXT->{$m}{'c'}";
+#          if($m == $c) {print STDERR "|";}
+#        }
+#        printf STDERR "\n";
+###
   }
 
 ### fixations after end of typing
   while($f <= $#{$F}) {
     if($FIX->{$F->[$f]}{'w'} == 2) {
       my $cur = $FIX->{$F->[$f]}{'c'}; 
-      $FIX->{$F->[$f]}{'id'} = $TEXT->{$cur}{'id'}; 
+      $FIX->{$F->[$f]}{'tid'} = $TEXT->{$cur}{'id'}; 
     }
     $f++;
   }
@@ -699,7 +831,7 @@ sub MapTarget {
   while($e <= $#{$E}) {
     if($EYE->{$E->[$e]}{'w'} == 2) {
       my $cur = $EYE->{$E->[$e]}{'c'};
-      $EYE->{$E->[$e]}{'id'} = $TEXT->{$cur}{'id'}; 
+      $EYE->{$E->[$e]}{'tid'} = $TEXT->{$cur}{'id'}; 
     }
     $e++; 
   }
@@ -714,11 +846,11 @@ sub CheckBackward {
 
   foreach my $k (sort {$a <=> $b} keys %{$CHR->{tra}}) {
     if(!defined($CHR->{tra}{$k}))     {
-      printf STDERR "CheckBackward CHR: $k $CHR->{tra}{$k}\n"; 
+      print STDERR "CheckBackward CHR: $k $CHR->{tra}{$k}\n"; 
       next;
     }
     if($CHR->{tra}{$k}{'c'} ne $TEXT->{$k}{'c'}) {
-      printf STDERR "CheckBackward CHR: $k %s\t%s\n", encode('utf8', $TEXT->{$k}{'c'}), encode('utf8',$CHR->{tra}{$k}{'c'}); 
+      print STDERR "CheckBackward CHR: $k $TEXT->{$k}{'c'}, $CHR->{tra}{$k}{'c'}\n"; 
       next;
     }
   }
@@ -736,28 +868,36 @@ sub FixModTable {
   $TRANSLOG->{$m++} ="  <Fixations>\n";
 
   foreach my $t (sort {$a<=>$b} keys %{$FIX}) {
-    my $id=0;
 
-    if(!defined($FIX->{$t}{id})) { 
-      next;
-      print STDERR "$fn FIX Undefined $t\n";
-      d($FIX->{$t});
-    }
-    if($FIX->{$t}{w} == 1) {$id=$FIX->{$t}{id};}
-    elsif($FIX->{$t}{w} == 2) {$id=$FIX->{$t}{id};}
-    else {next;}
+    if(!defined($FIX->{$t}{sid}) && !defined($FIX->{$t}{tid})) { next; }
 
-    my $s = '';
-    if(defined($ALN->{'tid'}) && defined($ALN->{'tid'}{$FIX->{$t}{'id'}})) { 
-      my $k = 0;
-      foreach my $sid (sort  {$a <=> $b} keys %{$ALN->{'tid'}{$FIX->{$t}{'id'}}{'sid'}}) {
-        if($k >0) {$s .= "+";}
-        $s .= $sid;
-        $k++;
-      }
-    }
+    if($FIX->{$t}{w} == 1) {
+      $FIX->{$t}{tid} = '';
+      my $id=$FIX->{$t}{'sid'};
+      if(defined($ALN->{'sid'}) && defined($ALN->{'sid'}{$id})) { 
+        my $k = 0;
+        foreach my $sid (sort  {$a <=> $b} keys %{$ALN->{'sid'}{$id}{'tid'}}) {
+          if($k >0) {$FIX->{$t}{tid} .= "+";}
+          $FIX->{$t}{tid} .= $sid;
+          $k++;
+        }
+     }  
+   }
+   elsif ($FIX->{$t}{w} == 2) {
+      $FIX->{$t}{sid} = '';
+      my $id=$FIX->{$t}{'tid'};
+      if(defined($ALN->{'tid'}) && defined($ALN->{'tid'}{$id})) {  
+        my $k = 0;
+        foreach my $sid (sort  {$a <=> $b} keys %{$ALN->{'tid'}{$id}{'sid'}}) {
+          if($k >0) {$FIX->{$t}{sid} .= "+";}
+          $FIX->{$t}{sid} .= $sid;
+          $k++;
+        }
+     }
+   } 
+   else {next;}
 
-    $TRANSLOG->{$m++} = "    <Fix time=\"$t\" win=\"$FIX->{$t}{w}\" cur=\"$FIX->{$t}{c}\" dur=\"$FIX->{$t}{d}\" sid=\"$s\" id=\"$id\" />\n";
+    $TRANSLOG->{$m++} = "    <Fix time=\"$t\" win=\"$FIX->{$t}{w}\" cur=\"$FIX->{$t}{c}\" dur=\"$FIX->{$t}{d}\" sid=\"$FIX->{$t}{sid}\" tid=\"$FIX->{$t}{tid}\" />\n";
   }
   $TRANSLOG->{$m++} ="  </Fixations>\n";
 
@@ -779,7 +919,7 @@ sub FixModTable {
       }
     }
     my $chr = MSescape($KEY->{$t}{k});
-    $TRANSLOG->{$m++} = "    <Mod time=\"$t\" type=\"$KEY->{$t}{t}\" cur=\"$KEY->{$t}{c}\" chr=\"$chr\" sid=\"$s\" id=\"$KEY->{$t}{id}\" />\n";
+    $TRANSLOG->{$m++} = "    <Mod time=\"$t\" type=\"$KEY->{$t}{t}\" cur=\"$KEY->{$t}{c}\" chr=\"$chr\" sid=\"$s\" tid=\"$KEY->{$t}{id}\" />\n";
   }
   $TRANSLOG->{$m++} ="  </Modifications>\n";
   $TRANSLOG->{$m++} ="<\/LogFile>\n";

@@ -37,6 +37,9 @@ copy:
 merge_atag_trl:
 	./MergeAtagTrl.bash EN-HI
 
+totreex:
+	./ToTreex.bash 
+
 finetreex:
 	@echo ----------- Step 4: Refining the data in treex ----------
 	mkdir -p $(DIR)/final
