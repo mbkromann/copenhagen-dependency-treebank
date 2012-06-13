@@ -106,7 +106,7 @@ sub ReadGizaAlign {
   my ($H, $k, $s, $D, $n);
 
   if(!open(DATA, "<:encoding(utf8)", $fn)) {
-    printf STDERR "ReadGizaAlign: cannot open: $fn\n";
+    printf STDERR "Giza2Atag.pl: cannot open: $fn\n";
     return 0;
   }
 

@@ -4,11 +4,16 @@ use strict;
 use Getopt::Long;
 use Encode;
 
+binmode(STDERR, ":utf8");
+binmode(STDOUT, ":utf8");
+
 my $directory;
 my $useAdditionalData;
+my $keepPipe;
 my $help;
 
 my $hunalign = "/srv/tools/hunalign-1.1/src/hunalign/hunalign -utf -realign -text";
+#my $hunalign = "/srv/tools/hunalign-1.1/src/hunalign/hunalign -utf -text";
 # dictionary format: one entry per line, possibly multi word entries, "src-entry @ trg-entry"
 my $hunalignDictionary = "/srv/tools/hunalign-1.1/data/null.dic";
 my $moses = "/srv/tools/moses/scripts/training/train-factored-phrase-model.perl --alignment grow-diag-final-and --parallel --last-step 3";
@@ -18,6 +23,7 @@ if (
          'd=s' => \$directory,
          'dict=s' => \$hunalignDictionary,
          'add!' => \$useAdditionalData,
+         'keepPipe!' => \$keepPipe,
          'h!' => \$help)
     ||
          ($help || ! defined $directory) 
@@ -25,13 +31,22 @@ if (
     print "\nusage: $0 
        -d    <path-to-directory> (required) - directory containing files to be aligned
        -dict <dictionary> - possible hunalign dictionary to be used in sentence alignment
-       -add  include additional data if present
+       -add  include additional data (sentence aligned files called additional.{SourceTok,FinalTok} in directory)
        -h    help\n\n";
     exit(1);
 }
 
 die "directory does not exist: $directory" unless -d $directory;
 die "hunalign dictionary does not exist: $hunalignDictionary" unless -e $hunalignDictionary;
+
+if($useAdditionalData){
+    die "additional data switched on, but additional.{SourceTok,FinalTok} files do not exist in directory or empty" unless -s "$directory/additional.SourceTok" && -s "$directory/additional.FinalTok";
+    my $wcSrc = `wc -l $directory/additional.SourceTok`;
+    my $wcTrg = `wc -l $directory/additional.FinalTok`;
+    $wcSrc =~ s/^\s*(\d+).+\s*/$1/; 
+    $wcTrg =~ s/^\s*(\d+).+\s*/$1/; 
+    die "additional data not sentence aligned!!! Not same number of lines in files." if $wcSrc != $wcTrg;
+}
 
 $directory =~ s/\/$//;
 
@@ -40,6 +55,7 @@ my @filePrefixes;
 foreach(`ls $directory/*.SourceTok`){
     if(/([^\/]+)\.SourceTok$/){
 	my $pre = $1;
+	next if $pre eq "additional";
 	die "Error: .SourceTok or .FinalTok file does not exists or is empty for $pre" unless -s "$directory/$pre.SourceTok" && -s "$directory/$pre.FinalTok";
 	push(@filePrefixes, $pre);
     }
@@ -47,6 +63,8 @@ foreach(`ls $directory/*.SourceTok`){
 	die "could not process file path: $_";
     }
 }
+
+my $pipeTag = $keepPipe ? "<PIPE>" : "";
 
 # create working dir
 my $workdir = "$directory/work-dir";
@@ -86,15 +104,20 @@ sub sentenceAlign(){
     LOOP: foreach my $pre (@filePrefixes){
 	my $fileName1 = "$directory/$pre.SourceTok";
 	my $fileName2 = "$directory/$pre.FinalTok";
+	my $sentAlignFile = "$workdir/$pre.SentAlign";
 
 	die "Files for sentence alignment do not exist or are empty: $fileName1 $fileName2" unless -s $fileName1 && -s $fileName2;
 	
-	my @align = `$hunalign $hunalignDictionary $fileName1 $fileName2 2>> $workdir/LOG-hunalign`;
+#	my @align = `$hunalign $hunalignDictionary $fileName1 $fileName2 2>> $workdir/LOG-hunalign`;
+	system("$hunalign $hunalignDictionary $fileName1 $fileName2 1> $sentAlignFile 2>> $workdir/LOG-hunalign");
 	
+	open(A, $sentAlignFile);
+	binmode(A, ":utf8");
+
 	my $str1 = "";
 	my $str2 = "";
 	my $alignStr = "$directory/$pre\n";
-	foreach (@align){
+	foreach (<A>){
 	    # empty line aligned to empty line (probably doc final newline), just skip
 	    if(/^\t\t[-.\d]+$/){
 		next;
@@ -107,6 +130,9 @@ sub sentenceAlign(){
 		    print STDERR "WARNING: File skipped due to sentence pair not comforming to giza demands in $pre: $_";
 		    next LOOP;
 		}
+		# pipe not allowed in moses training
+		$sent1 =~ s/\|/$pipeTag/g;
+		$sent2 =~ s/\|/$pipeTag/g;
 		# merged sentences are separated by ' ~~~ ' in hunalign
 		my @sent1split = split / [~]{3} /, $sent1;
 		my @sent2split = split / [~]{3} /, $sent2;
@@ -127,6 +153,8 @@ sub sentenceAlign(){
 	    }
 	}
 
+	close(A);
+
 	print S $str1;
 	print T $str2;
 	print R $alignStr;
@@ -135,6 +163,12 @@ sub sentenceAlign(){
     close(S);
     close(T);
     close(R);
+
+    # append additional data to sentence aligned files
+    if($useAdditionalData){
+	system("cat $directory/additional.SourceTok >> $srcSentAlignFile");
+	system("cat $directory/additional.FinalTok >> $trgSentAlignFile");
+    }
 
 }
 

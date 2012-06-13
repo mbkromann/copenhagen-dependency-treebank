@@ -17,11 +17,11 @@ my $map = { map { $_ => 1 } split( //o, "\\<> \t\n\r\f\"" ) };
 
 
 my $usage =
-  "Produce ProgGraph files: \n".
+  "Write tokenized sentences into : \n".
   "  -A in:  Alignment file <filename>.{atag,src,tgt}\n".
-  "     out: Write output   <filename>.{srcTok,tgtTok}\n".
+  "     out: Write output   <filename>.{SourceTok,FinalTok}\n".
   "Options:\n".
-  "  -O out: Write output   <filename>.{srcTok,tgtTok}\n".
+  "  -O out: Write output   <filename>.{SourceTok,FinalTok}\n".
   "  -v verbose mode [0 ... ]\n".
   "  -h this help \n".
   "\n";
@@ -248,9 +248,9 @@ sub PrintTokens{
       my $tok = $A->{$l}{D}{$id}{tok};
 
       if(defined($A->{$l}{D}{$id}{space}) && $A->{$l}{D}{$id}{space} =~ /[\n\r]/ && $lineBreak==0)  {print FILE "\n";}
-      print FILE "$tok ";
+      printf FILE "%s ", lc($tok);
 
-      if($tok =~ /^[.?!]$/) { print FILE "\n"; $lineBreak = 1;}
+      if($tok =~ /[\x{0964}.?!|]$/) { print FILE "\n"; $lineBreak = 1;}
       else {$lineBreak = 0;}
     }
     close (FILE);

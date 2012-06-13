@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$1" == "" ] || [ "$2" == "" ]; then
-  echo "Source and target languages requires"
+  echo "Source and target languages required"
   exit
 fi
  
@@ -9,6 +9,9 @@ fi
 
 rm -r  data/Giza
 mkdir -p  data/Giza
+### Sentence Segmentation
+### get language pair from Translog-II files
+### get tokens from atag files
 for file in data/*/Translog-II/*.xml
 do
         lang1=`grep Languages $file | grep "=.$1"`
@@ -26,7 +29,7 @@ do
 
 done
 
-./GizaAlign.pl -d data/Giza 
+./GizaAlign.pl -d data/Giza  
 
 cat data/Giza/$1-$2.sent | ./Giza2Atag.pl 
 
