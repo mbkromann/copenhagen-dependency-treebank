@@ -24,7 +24,7 @@ do
           outp=${root/$sdir\/Translog-II\//Giza\/${sdir}_}
           echo "$atag || $outp || `grep Languages $file`"
           echo "$atag || $outp || `grep Languages $file`" >> "data/Giza/$1-$2.sent"
-          ./ExtractTokens.pl -A $atag -O $outp
+          ./Atag2Sentences.pl -A $atag -O $outp
         fi
 
 done
