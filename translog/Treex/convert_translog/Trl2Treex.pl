@@ -148,8 +148,9 @@ sub ReadTranslogFile {
       if(/time="([0-9][0-9]*)"/) {$time =$1;}
       if(/win="([0-9][0-9]*)"/)  {$FIX->{$time}{'win'} = $1;}
       if(/dur="([0-9][0-9]*)"/)  {$FIX->{$time}{'dur'} = $1;}
-      if(/cur="([-0-9][0-9]*)"/)  {$FIX->{$time}{'cur'} = $1;}
-      if(/\s+id="([^"]*)"/)   {$FIX->{$time}{'id'} = $1;}
+      if(/cur="([-0-9][0-9]*)"/) {$FIX->{$time}{'cur'} = $1;}
+      if(/sid="([^"]*)"/)        {$FIX->{$time}{'sid'} = $1;}
+      if(/tid="([^"]*)"/)        {$FIX->{$time}{'tid'} = $1;}
 
     }
     elsif($type == 10 && /<Mod /) {  
@@ -159,7 +160,7 @@ sub ReadTranslogFile {
 #      if(/chr="([^"]*)"/)  {$KEY->{$time}{'chr'} = $1;}
       if(/type="([^"]*)"/) {$KEY->{$time}{'type'} = $1;}
       if(/sid="([^"]*)"/)  {$KEY->{$time}{'sid'} = $1;}
-      if(/\s+id="([^"]*)"/)  {$KEY->{$time}{'id'} = $1;}
+      if(/tid="([^"]*)"/)  {$KEY->{$time}{'tid'} = $1;}
     }
 
     elsif($type == 6 && /<Align /) {
@@ -232,33 +233,31 @@ sub CreateTreex {
   my $root_tgt = $zone_tgt->create_atree;
 
   foreach my $t (keys %{$FIX}) {
-    my $id=0;
 
-    if(!defined($FIX->{$t}{id})) { 
-      print STDERR "$fn FIX Undefined $t\n";
-      d($FIX->{$t});
-      next;
-    }
-    if($FIX->{$t}{win} == 1) {$id="src_".$FIX->{$t}{id};}
-    elsif($FIX->{$t}{win} == 2) {$id="tgt_".$FIX->{$t}{id};}
-    else {next;}
+#    if(!defined($FIX->{$t}{tid})) { 
+#      print STDERR "$fn FIX Undefined $t\n";
+#      d($FIX->{$t});
+#      next;
+#    }
+    if($FIX->{$t}{win} != 1 && $FIX->{$t}{win} != 2) {next;}
 
     $root_tgt->wild->{FIX}{$t}{win}  = $FIX->{$t}{'win'};
     $root_tgt->wild->{FIX}{$t}{dur}  = $FIX->{$t}{'dur'};
     $root_tgt->wild->{FIX}{$t}{cur}  = $FIX->{$t}{'cur'};
-    $root_tgt->wild->{FIX}{$t}{id}   = $id;
+    $root_tgt->wild->{FIX}{$t}{sid}  = "src_$FIX->{$t}{'sid'}";
+    $root_tgt->wild->{FIX}{$t}{tid}  = "tgt_$FIX->{$t}{'tid'}";
 #    $doc->wild->{FIX}{$t}{unit} = $FIX->{$t}{'fu'};
   }
 
   foreach my $t (keys %{$KEY}) {
-    if(!defined($KEY->{$t}{'id'})) { 
+    if(!defined($KEY->{$t}{'tid'})) { 
       print STDERR "$fn\t KEY id undefined: $t\n";
       d($KEY->{$t});
       next;
     }
     if(defined($ALN->{'tid'}) && 
-       defined($ALN->{'tid'}{$KEY->{$t}{'id'}})) {
-      foreach my $sid (sort  {$a <=> $b} keys %{$ALN->{'tid'}{$KEY->{$t}{'id'}}{'sid'}}) {
+       defined($ALN->{'tid'}{$KEY->{$t}{'tid'}})) {
+      foreach my $sid (sort  {$a <=> $b} keys %{$ALN->{'tid'}{$KEY->{$t}{'tid'}}{'sid'}}) {
         $root_tgt->wild->{KEY}{$t}{sid}{"src_$sid"} ++;
       }
     }
@@ -268,7 +267,7 @@ sub CreateTreex {
     $root_tgt->wild->{KEY}{$t}{char} = $KEY->{$t}{'chr'};
     $root_tgt->wild->{KEY}{$t}{type} = $KEY->{$t}{'type'};
     $root_tgt->wild->{KEY}{$t}{cur}  = $KEY->{$t}{'cur'};
-    $root_tgt->wild->{KEY}{$t}{id} = "tgt_$KEY->{$t}{id}";
+    $root_tgt->wild->{KEY}{$t}{tid} = "tgt_$KEY->{$t}{tid}";
   }
 
   if(defined($TOK->{src})) { 

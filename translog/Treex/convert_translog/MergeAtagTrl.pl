@@ -209,7 +209,9 @@ sub ReadAtag {
 
       ## aligned to itself
       if($is eq $os) {next;}
+      $is = $os = '---';
 
+      if(/last="([^"]*)"/) { $A->{'e'}{$n} = $1}
       if(/insign="([^"]*)"/) { $is=$1;}
       if(/outsign="([^"]*)"/){ $os=$1;}
 
@@ -274,7 +276,7 @@ sub MergeAtag {
           print STDERR "MergeAtag: Undefined $l: ID:$id\n";
 	  next;
         }
-        if($A->{'n'}{$n}{$l}{'s'} !~ /$A->{$l}{'D'}{$id}{'tok'}/){ 
+        if($A->{'n'}{$n}{$l}{'s'} ne '---' && $A->{'n'}{$n}{$l}{'s'} !~ /$A->{$l}{'D'}{$id}{'tok'}/){ 
           print STDERR "MergeAtag token mismatch $l-$id: atag:$A->{'n'}{$n}{$l}{'s'}\t\ttoken:$A->{$l}{'D'}{$id}{'tok'}\n";
 #d($A->{$l}{'D'}{$id});
         }
@@ -299,17 +301,15 @@ sub PrintTranslog{
     foreach my $id (sort {$a<=>$b} keys %{$A->{$l}{'D'}}) {
       $A->{$l}{D}{$id}{tok} =~ s/\\([\(\)\\\/])/$1/g;
       my $tok = MSescape($A->{$l}{D}{$id}{tok});
-      my $in='';
-      if(defined($A->{$l}{D}{$id}{in})) { $in =$A->{$l}{D}{$id}{in};}
-      my $out='';
-      if(defined($A->{$l}{D}{$id}{out})) { $out =$A->{$l}{D}{$id}{out};}
-      my $space='';
-      if(defined($A->{$l}{D}{$id}{space})) { $space =MSescape($A->{$l}{D}{$id}{space});}
 
-      if($in ne '') {
-        $TRANSLOG->{$m++} = "    <Token id=\"$id\" cur=\"$A->{$l}{D}{$id}{cur}\" in=\"$in\" out=\"$out\" space=\"$space\" tok=\"$tok\" />\n";
-      }
-      else {$TRANSLOG->{$m++} = "    <Token id=\"$id\" cur=\"$A->{$l}{D}{$id}{cur}\" space=\"$space\" tok=\"$tok\" />\n";}
+      my $s = "    <Token id=\"$id\" cur=\"$A->{$l}{D}{$id}{cur}\"";
+
+      if(defined($A->{$l}{D}{$id}{'last'}))   { $s .= " last=\"$A->{$l}{D}{$id}{'last'}\"";}
+      if(defined($A->{$l}{D}{$id}{in}))    { $s .= " in=\"$A->{$l}{D}{$id}{in}\"";}
+      if(defined($A->{$l}{D}{$id}{out}))   { $s .= " out=\"$A->{$l}{D}{$id}{out}\"";}
+      if(defined($A->{$l}{D}{$id}{space})) { my $space =MSescape($A->{$l}{D}{$id}{space}); $s .= " space=\"$space\"";}
+      $s .= " tok=\"$tok\" />\n";
+      $TRANSLOG->{$m++} = $s;
     }
     $TRANSLOG->{$m++} ="  </$l"."Token>\n";
   }
@@ -321,15 +321,20 @@ sub PrintTranslog{
       my $k=0;
       foreach my $id (sort {$a<=>$b} keys %{$A->{'n'}{$n}{$l}{'id'}}) {
         my $s = MSescape($A->{'n'}{$n}{$l}{'s'});
-	$S->{$l}{$k} = $l."Id=\"$id\" $l=\"$s\"";
+#	$S->{$l}{$k} = $l."Id=\"$id\" $l=\"$s\"";
+	$S->{$l}{$k} = $l."Id=\"$id\" ";
 #print STDERR "XXX $S->{$l}{$k}\n";
+        if(defined($A->{'e'}{$n})) {$S->{e}{$k} = $A->{'e'}{$n}}
         $k++;
       }
     }
     foreach my $n (sort {$a<=>$b}keys %{$S->{'Source'}}) {
       foreach my $k (sort {$a<=>$b}keys %{$S->{'Final'}}) {
 #print STDERR "<align $S->{'Source'}{$n} $S->{'Final'}{$k} />\n";
-        $TRANSLOG->{$m++} = "    <Align $S->{'Source'}{$n} $S->{'Final'}{$k} />\n";
+        my $s = "    <Align $S->{'Source'}{$n} $S->{'Final'}{$k}";
+        if(defined($S->{e}{$k})) { $s .= " last=\"$S->{e}{$k}\""}
+        $s .= " />\n";
+        $TRANSLOG->{$m++} = $s;
       }
     }  
   }
