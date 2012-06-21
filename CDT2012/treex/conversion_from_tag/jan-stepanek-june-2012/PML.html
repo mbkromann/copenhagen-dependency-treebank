@@ -1,0 +1,664 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <title>PML Technology: TrEd, PML-TQ</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="copyright" content="Copyright &#169; 2005-2010 W3C (MIT, ERCIM, Keio)">
+    <link rel="stylesheet" href="styles/slidy.css" type="text/css">
+    <link rel="stylesheet" href="styles/orange.css" type="text/css">
+    <script src="scripts/slidy.js" charset="utf-8" type="text/javascript">
+    </script>
+  </head>
+  <body>
+
+    <div class="header">
+      <img
+        style="position:absolute; right:1em; top:0.1em;
+          padding:0.2em 0.2em 0.2em 0.2em; background:white;
+          border:solid 2pt #806a40" src="graphics/logo_ufal_83.png">
+    </div>
+
+    <div class="slide titlepage">
+      <h1>Prague Dependency Treebank Tutorial: Technology</h1>
+      <br>
+      <h2>Prague Markup Language</h2>
+      <br>
+      <h3>Tree Editor TrEd</h3>
+      <br>
+      <h3>PML Tree Query Language and Engines</h3>
+      <br>
+      <h3>Treex - NLP Framework based on PML</h3>
+      <br>
+      <p>Jan Štěpánek, Charles University in Prague, <acronym
+      title="Ústav formální a aplikované lignvistiky/Institute of Formal and Applied Linguistics">ÚFAL</acronym>
+    </div>
+
+    <div class="slide">
+      <h1>Prague Markup Language (PML)</h1>
+      <ul>
+        <li>Based on
+          <acronym title="eXtensible Markup Language">XML</acronym>
+        <li>Designed to capture various types of linguistic annotation
+          in a standardized form
+        <li>Morphology, dependency or phrase structures syntax,
+          coreference, valency, discourse relations&hellip;
+
+        <li>Allows for
+          <ul>
+            <li>stand-off annotation principles
+            <li>multi-layered
+            <li>structured attributes
+            <li>cross-referencing and linking
+            <li>alternatives
+            <li>extensibility
+          </ul>
+    </ul>
+    </div>
+
+    <div class="slide"><h1>PML</h1>
+      <ul><li><strong>PML-Schema</strong>
+          <dl><dt>Data <em>types</em>
+            <dd>atomic, <acronym
+            title="Attribute-Value Structures">AVS</acronym>, list,
+          sequence, alternative, reference
+              <dt>Data <em>roles</em>
+            <dd>root/node of a tree, unique identifier, indexable&hellip;
+          </dl>
+      </ul>
+    </div>
+
+    <div class="slide"><h1>PML&mdash;an Example</h1>
+<table width="90%"><tr><td width="50%" valign="top">
+    <pre><span class="function-name">&lt;sentence</span> <span class="variable-name">id</span><span class="constant">="s5_5"</span><span class="function-name">&gt;</span>
+  <span class="function-name">&lt;chunk</span> <span class="variable-name">id</span><span class="constant">="hic43"</span><span class="function-name">&gt;</span>
+   <span class="function-name">&lt;feats&gt;</span>
+     <span class="function-name">&lt;lemma&gt;</span>&#2361;&#2379;<span class="function-name">&lt;</span><span class="builtin">/lemma</span><span class="function-name">&gt;</span>
+     <span class="function-name">&lt;wxlemma&gt;</span>ho<span class="function-name">&lt;</span><span class="builtin">/wxlemma</span><span class="function-name">&gt;</span>
+     <span class="function-name">&lt;pos&gt;</span>v<span class="function-name">&lt;</span><span class="builtin">/pos</span><span class="function-name">&gt;</span>
+     <span class="function-name">&lt;g&gt;</span>m<span class="function-name">&lt;</span><span class="builtin">/g</span><span class="function-name">&gt;</span>
+     <span class="function-name">&lt;n&gt;</span>s<span class="function-name">&lt;</span><span class="builtin">/n</span><span class="function-name">&gt;</span>
+     <span class="function-name">&lt;p&gt;</span>m<span class="function-name">&lt;</span><span class="builtin">/p</span><span class="function-name">&gt;</span>
+     <span class="function-name">&lt;t&gt;</span>future<span class="function-name">&lt;</span><span class="builtin">/t</span><span class="function-name">&gt;</span>
+   <span class="function-name">&lt;</span><span class="builtin">/feats</span><span class="function-name">&gt;</span>
+   <span class="function-name">&lt;ord&gt;</span>21<span class="function-name">&lt;</span><span class="builtin">/ord</span><span class="function-name">&gt;</span>
+   <span class="function-name">&lt;phrase&gt;</span>VG<span class="function-name">&lt;</span><span class="builtin">/phrase</span><span class="function-name">&gt;</span>
+   <span class="function-name">&lt;children&gt;</span>
+     <span class="function-name">&lt;chunk</span> <span class="variable-name">id</span><span class="constant">="hic37"</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;drel&gt;</span>k7<span class="function-name">&lt;</span><span class="builtin">/drel</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;feats&gt;</span>
+        <span class="function-name">&lt;lemma&gt;</span>&#2309;&#2349;&#2366;&#2357;<span class="function-name">&lt;</span><span class="builtin">/lemma</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;wxlemma&gt;</span>aBAva<span class="function-name">&lt;</span><span class="builtin">/wxlemma</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;pos&gt;</span>n<span class="function-name">&lt;</span><span class="builtin">/pos</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;g&gt;</span>m<span class="function-name">&lt;</span><span class="builtin">/g</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;n&gt;</span>s<span class="function-name">&lt;</span><span class="builtin">/n</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;c&gt;</span>0<span class="function-name">&lt;</span><span class="builtin">/c</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;</span><span class="builtin">/feats</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;ord&gt;</span>4<span class="function-name">&lt;</span><span class="builtin">/ord</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;phrase&gt;</span>NP<span class="function-name">&lt;</span><span class="builtin">/phrase</span><span class="function-name">&gt;</span>
+</pre><td><pre>      <span class="function-name">&lt;children&gt;</span>
+       <span class="function-name">&lt;chunk</span> <span class="variable-name">id</span><span class="constant">="hic36"</span><span class="function-name">&gt;</span>
+         <span class="function-name">&lt;drel&gt;</span>r6<span class="function-name">&lt;</span><span class="builtin">/drel</span><span class="function-name">&gt;</span>
+         <span class="function-name">&lt;feats&gt;</span>
+           <span class="function-name">&lt;lemma&gt;</span>&#2346;&#2366;&#2336;&#2325;<span class="function-name">&lt;</span><span class="builtin">/lemma</span><span class="function-name">&gt;</span>
+           <span class="function-name">&lt;wxlemma&gt;</span>pATaka<span class="function-name">&lt;</span><span class="builtin">/wxlemma</span><span class="function-name">&gt;</span>
+           <span class="function-name">&lt;pos&gt;</span>n<span class="function-name">&lt;</span><span class="builtin">/pos</span><span class="function-name">&gt;</span>
+           <span class="function-name">&lt;g&gt;</span>m<span class="function-name">&lt;</span><span class="builtin">/g</span><span class="function-name">&gt;</span>
+           <span class="function-name">&lt;n&gt;</span>s<span class="function-name">&lt;</span><span class="builtin">/n</span><span class="function-name">&gt;</span>
+           <span class="function-name">&lt;c&gt;</span>0<span class="function-name">&lt;</span><span class="builtin">/c</span><span class="function-name">&gt;</span>
+         <span class="function-name">&lt;</span><span class="builtin">/feats</span><span class="function-name">&gt;</span>
+         <span class="function-name">&lt;ord&gt;</span>1<span class="function-name">&lt;</span><span class="builtin">/ord</span><span class="function-name">&gt;</span>
+         <span class="function-name">&lt;phrase&gt;</span>NP<span class="function-name">&lt;</span><span class="builtin">/phrase</span><span class="function-name">&gt;</span>
+         <span class="function-name">&lt;children&gt;</span>
+           <span class="function-name">&lt;word</span> <span class="variable-name">id</span><span class="constant">="hiw74"</span><span class="function-name">&gt;</span>
+            <span class="function-name">&lt;feats&gt;</span>
+              <span class="function-name">&lt;lemma&gt;</span>&#2346;&#2366;&#2336;&#2325;<span class="function-name">&lt;</span><span class="builtin">/lemma</span><span class="function-name">&gt;</span>
+              <span class="function-name">&lt;wxlemma&gt;</span>pATaka<span class="function-name">&lt;</span><span class="builtin">/wxlemma</span><span class="function-name">&gt;</span>
+              <span class="function-name">&lt;pos&gt;</span>n<span class="function-name">&lt;</span><span class="builtin">/pos</span><span class="function-name">&gt;</span>
+              <span class="function-name">&lt;g&gt;</span>m<span class="function-name">&lt;</span><span class="builtin">/g</span><span class="function-name">&gt;</span>
+              <span class="function-name">&lt;n&gt;</span>s<span class="function-name">&lt;</span><span class="builtin">/n</span><span class="function-name">&gt;</span>
+              <span class="function-name">&lt;c&gt;</span>0<span class="function-name">&lt;</span><span class="builtin">/c</span><span class="function-name">&gt;</span>
+            <span class="function-name">&lt;</span><span class="builtin">/feats</span><span class="function-name">&gt;</span>
+            <span class="xxml-interaction"><span class="function-name">&lt;form&gt;</span></span>&#2346;&#2366;&#2336;&#2325;<span class="xxml-interaction"><span class="function-name">&lt;</span></span><span class="xxml-interaction"><span class="builtin">/form</span></span><span class="xxml-interaction"><span class="function-name">&gt;</span></span>
+            <span class="function-name">&lt;ord&gt;</span>2<span class="function-name">&lt;</span><span class="builtin">/ord</span><span class="function-name">&gt;</span>
+            <span class="function-name">&lt;phrase&gt;</span>NN<span class="function-name">&lt;</span><span class="builtin">/phrase</span><span class="function-name">&gt;</span>
+            <span class="function-name">&lt;wxform&gt;</span>pATaka<span class="function-name">&lt;</span><span class="builtin">/wxform</span><span class="function-name">&gt;</span>
+           <span class="function-name">&lt;</span><span class="builtin">/word</span><span class="function-name">&gt;</span></pre>
+      </table>
+</div>
+
+    <div class="slide">
+      <h1>PML Schema&mdash;an Example</h1>
+    <pre><span class="function-name">&lt;?</span><span class="keyword">xml version="1.0" encoding="utf-8"</span><span class="function-name">?&gt;</span>
+<span class="function-name">&lt;pml_schema</span> <span class="variable-name">xmlns</span><span class="constant">="http://ufal.mff.cuni.cz/pdt/pml/schema/"</span> <span class="variable-name">version</span><span class="constant">="1.1"</span><span class="function-name">&gt;</span>
+  <span class="function-name">&lt;revision&gt;</span>1.0.0<span class="function-name">&lt;</span><span class="builtin">/revision</span><span class="function-name">&gt;</span>
+  <span class="function-name">&lt;description&gt;</span>Converted Hyderabad Treebank morph data<span class="function-name">&lt;</span><span class="builtin">/description</span><span class="function-name">&gt;</span>
+
+
+  <span class="function-name">&lt;root</span> <span class="variable-name">name</span><span class="constant">="hydtmorph"</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;structure&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="meta"</span> <span class="variable-name">required</span><span class="constant">="0"</span> <span class="variable-name">type</span><span class="constant">="meta.type"</span>/<span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="document"</span> <span class="variable-name">required</span><span class="constant">="1"</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;sequence</span> <span class="variable-name">role</span><span class="constant">="#TREES"</span><span class="function-name">&gt;</span>
+          <span class="function-name">&lt;element</span> <span class="variable-name">name</span><span class="constant">="sentence"</span> <span class="variable-name">type</span><span class="constant">="sentence.type"</span>/<span class="function-name">&gt;</span>
+        <span class="function-name">&lt;</span><span class="builtin">/sequence</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;</span><span class="builtin">/structure</span><span class="function-name">&gt;</span>
+  <span class="function-name">&lt;</span><span class="builtin">/root</span><span class="function-name">&gt;</span>
+
+  <span class="function-name">&lt;type</span> <span class="variable-name">name</span><span class="constant">="meta.type"</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;structure&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="annotation_info"</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;structure&gt;</span>
+          <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="version_info"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+          <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="desc"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;</span><span class="builtin">/structure</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;</span><span class="builtin">/structure</span><span class="function-name">&gt;</span>
+  <span class="function-name">&lt;</span><span class="builtin">/type</span><span class="function-name">&gt;</span>
+
+  <span class="function-name">&lt;type</span> <span class="variable-name">name</span><span class="constant">="sentence.type"</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;container</span> <span class="variable-name">role</span><span class="constant">="#NODE"</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;attribute</span> <span class="variable-name">name</span><span class="constant">="id"</span> <span class="variable-name">role</span><span class="constant">="#ID"</span> <span class="variable-name">required</span><span class="constant">="1"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="ID"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/attribute</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;sequence</span> <span class="variable-name">role</span><span class="constant">="#CHILDNODES"</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;element</span> <span class="variable-name">name</span><span class="constant">="chunk"</span> <span class="variable-name">type</span><span class="constant">="chunk.type"</span>/<span class="function-name">&gt;</span>
+        <span class="function-name">&lt;element</span> <span class="variable-name">name</span><span class="constant">="word"</span> <span class="variable-name">type</span><span class="constant">="word.type"</span>/<span class="function-name">&gt;</span>
+      <span class="function-name">&lt;</span><span class="builtin">/sequence</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;</span><span class="builtin">/container</span><span class="function-name">&gt;</span>
+  <span class="function-name">&lt;</span><span class="builtin">/type</span><span class="function-name">&gt;</span>
+
+  <span class="function-name">&lt;type</span> <span class="variable-name">name</span><span class="constant">="children.type"</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;sequence&gt;</span>
+      <span class="function-name">&lt;element</span> <span class="variable-name">name</span><span class="constant">="chunk"</span> <span class="variable-name">type</span><span class="constant">="chunk.type"</span>/<span class="function-name">&gt;</span>
+      <span class="function-name">&lt;element</span> <span class="variable-name">name</span><span class="constant">="word"</span> <span class="variable-name">type</span><span class="constant">="word.type"</span>/<span class="function-name">&gt;</span>
+    <span class="function-name">&lt;</span><span class="builtin">/sequence</span><span class="function-name">&gt;</span>
+  <span class="function-name">&lt;</span><span class="builtin">/type</span><span class="function-name">&gt;</span>
+
+  <span class="function-name">&lt;type</span> <span class="variable-name">name</span><span class="constant">="chunk.type"</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;structure</span> <span class="variable-name">role</span><span class="constant">="#NODE"</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="id"</span> <span class="variable-name">role</span><span class="constant">="#ID"</span> <span class="variable-name">as</span>_attribute="1" <span class="variable-name">required</span><span class="constant">="1"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="ID"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="error"</span> <span class="variable-name">type</span><span class="constant">="error.type"</span>/<span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="feats"</span> <span class="variable-name">type</span><span class="constant">="feats.type"</span>/<span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="drel"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="ord"</span> <span class="variable-name">role</span><span class="constant">="#ORDER"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="integer"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="phrase"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="children"</span> <span class="variable-name">type</span><span class="constant">="children.type"</span> <span class="variable-name">role</span><span class="constant">="#CHILDNODES"</span>/<span class="function-name">&gt;</span>
+    <span class="function-name">&lt;</span><span class="builtin">/structure</span><span class="function-name">&gt;</span>
+  <span class="function-name">&lt;</span><span class="builtin">/type</span><span class="function-name">&gt;</span>
+
+  <span class="function-name">&lt;type</span> <span class="variable-name">name</span><span class="constant">="word.type"</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;structure</span> <span class="variable-name">role</span><span class="constant">="#NODE"</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="id"</span> <span class="variable-name">role</span><span class="constant">="#ID"</span> <span class="variable-name">as</span>_attribute="1" <span class="variable-name">required</span><span class="constant">="1"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="ID"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="head"</span><span class="function-name">&gt;&lt;choice&gt;&lt;value&gt;</span>0<span class="function-name">&lt;</span><span class="builtin">/value</span><span class="function-name">&gt;&lt;value&gt;</span>1<span class="function-name">&lt;</span><span class="builtin">/value</span><span class="function-name">&gt;&lt;</span><span class="builtin">/choice</span><span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="error"</span> <span class="variable-name">type</span><span class="constant">="error.type"</span>/<span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="feats"</span> <span class="variable-name">type</span><span class="constant">="feats.type"</span>/<span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="form"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="wxform"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="ord"</span> <span class="variable-name">role</span><span class="constant">="#ORDER"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="integer"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="phrase"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;</span><span class="builtin">/structure</span><span class="function-name">&gt;</span>
+  <span class="function-name">&lt;</span><span class="builtin">/type</span><span class="function-name">&gt;</span>
+
+  <span class="function-name">&lt;type</span> <span class="variable-name">name</span><span class="constant">="feats.type"</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;structure&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="wxlemma"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="lemma"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="pos"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="g"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="n"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="p"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="c"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="v"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;member</span> <span class="variable-name">name</span><span class="constant">="t"</span><span class="function-name">&gt;&lt;cdata</span> <span class="variable-name">format</span><span class="constant">="any"</span>/<span class="function-name">&gt;&lt;</span><span class="builtin">/member</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;</span><span class="builtin">/structure</span><span class="function-name">&gt;</span>
+  <span class="function-name">&lt;</span><span class="builtin">/type</span><span class="function-name">&gt;</span>
+
+  <span class="function-name">&lt;type</span> <span class="variable-name">name</span><span class="constant">="error.type"</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;list</span> <span class="variable-name">ordered</span><span class="constant">="0"</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;choice&gt;</span>
+        <span class="function-name">&lt;value&gt;</span>not-connected<span class="function-name">&lt;</span><span class="builtin">/value</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;value&gt;</span>inside-chunk<span class="function-name">&lt;</span><span class="builtin">/value</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;value&gt;</span>drel-like-name<span class="function-name">&lt;</span><span class="builtin">/value</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;value&gt;</span>missing-parent<span class="function-name">&lt;</span><span class="builtin">/value</span><span class="function-name">&gt;</span>
+        <span class="function-name">&lt;value&gt;</span>duplicate-name<span class="function-name">&lt;</span><span class="builtin">/value</span><span class="function-name">&gt;</span>
+      <span class="function-name">&lt;</span><span class="builtin">/choice</span><span class="function-name">&gt;</span>
+    <span class="function-name">&lt;</span><span class="builtin">/list</span><span class="function-name">&gt;</span>
+  <span class="function-name">&lt;</span><span class="builtin">/type</span><span class="function-name">&gt;</span>
+
+<span class="function-name">&lt;</span><span class="builtin">/pml_schema</span><span class="function-name">&gt;</span></pre>
+    </div>
+
+
+    <div class="slide">
+      <h1>Why Should I Use PML?</h1>
+      <h2>Tools to</h2>
+      <ul>
+        <li>Browse the data
+        <li>Edit the data
+        <li>Query the data
+        <li>Validate the data (many errors reported during the conversion
+          already)
+      </ul>
+    </div>
+    
+    <div class="slide">
+      <h1>Tree Editor TrEd</h1>
+      <table class="align-top"><tr>
+            <td width="45%">
+              <a href="http://ufal.mff.cuni.cz./tred"><samp>http://ufal.mff.cuni.cz./tred</samp></a>
+              <ul>
+                <li>Written in Perl/Tk: OS independent
+                  (MS Windows, Linux, Mac OS X)
+                <li>Drag-and-drop modification of trees
+                <li>User defined macros and style-sheets
+                <li>Minor modes
+              </ul>
+      <p class="incremental">The word &ldquo;Tree&rdquo; is important.</p>
+            <td><img src="tred.png"></table>
+    </div>
+
+    <div class="slide">
+      <h1>TrEd Extensions</h1>
+      <table><tr>
+            <td>
+              <p>Archive of modules, key-bindings, resources, style-sheets, etc.
+              <ul>
+                <li>PDT 2.0 related (valency lexicon, multi-word expressions,
+                  discourse, coreference, etc.)
+                <li>a parser
+                <li>parallel treebank alignment
+                <li>support for other formats:
+                  <ul>
+                    <li>Prague Arabic Dependency Treebank
+                    <li>Slovene Dependency Treebank
+                    <li>Prague Czech-English Dependency Treebank
+                    <li>CoNLL 2009 ST (2006, 2007)
+                    <li>Penn Treebank (+ Chinese, Arabic)
+                    <li>Tiger
+                    <li>Hyderabad Treebank
+                    <li>Sinica
+                  </ul>
+              </ul>
+            <td><img src="chinese.png"></table>
+    </div>
+
+    <div class="slide">
+      <h1>TrEd Extensions&mdash;Examples</h1>
+      <ul><li>Bridging Anaphora Annotation
+        <li class="incremental">Discourse Annotation
+        <li class="incremental">Right-to-left: Penn Arabic Treebank&nbsp;2
+        <li class="incremental"><span class="non-incremental">Round-tripping:
+            CoNLL (<acronym
+              title="Computational Learning in Adaptive Systems for Spoken Conversation">CLASSiC</acronym>)
+            or Tiger (Berlin)
+          <ul><li>No need to abandon your format if you want PML</ul></span>
+        <li class="incremental">Visualization of errors (on-the-fly checking)
+      </ul>
+    </div>
+
+    
+    <div class="slide"><h1>TrEd without <acronym
+          title="Graphical User Interface">GUI</acronym></h1>
+      <p>
+        <samp>btred</samp>: <em>Batch TrEd</em>
+        <ul><li>Object-oriented <acronym 
+            title="Application Programming Interface">API</acronym>
+          <pre>$this->parent
+$this->root
+$this->rbrother
+$this->firstson
+$this->attr("m/tag")</pre>
+        <li>Can search and/or modify the data directly
+      </ul>
+      <p><strong>Example:</strong> Build a frequency table of POS tags
+        in the WSJ part of the Penn Treebank
+        <pre>btred -q -T -N -e '
+    <span class=string>writeln $this->{pos} unless $this->children</span>
+    ' ??/wsj*.pml \
+    | sort | uniq -c | sort -n</pre>
+    </div>
+    
+    <div class="slide">
+      <h1>Speeding <kbd>btred</kbd> Up</h1>
+      <h2>Parallelization</h2>
+      <dl><dt>ntred
+        <dd><ul><li>works over <em>ssh</em> in a shared file system
+            <li>works in two steps:
+              <ol type="1"><li>load the data into the memory of the servers
+                <li>submit requests serially
+              </ol>
+          </ul>
+        <dt>jtred
+        <dd><ul><li>works on <acronym title="Sun Grid Engine">SGE</acronym>
+              <li>loads the data for each request, but several requests can be
+              submitted at the same time
+          </ul>
+      </dl>
+    </div>
+
+    <div class="slide">
+      <h1>PML Tree Query</h1>
+      <ul><li>Query and report language
+        <li>Two engines
+          <ul><li>SQL
+            <li>Perl ([bnj]tred)
+          </ul>
+        <li>Several clients
+          <ul><li>Browser
+            <li>TrEd
+            <li><acronym title="Command Line Interface">CLI</acronym>
+          </ul>
+      </ul>
+      <p>The SQL engine requires the data to be converted to SQL and
+        loaded into a database &rarr; <em>stable datasets</em>.
+      <p>The Perl engine is slow, but works directly with the data
+        files &rarr; <em>data in progress</em>.
+    </div>
+
+    <div class="slide">
+      <h1>PML-TQ: The Query Language</h1>
+
+      <ul>
+        <li>Selecting all occurrences of nodes with given
+          <strong>properties</strong> and in given
+          <strong>relations</strong> (tree topology,
+          cross-referencing, surface ordering, etc.)
+        <li>(Un)bounded <strong>iteration</strong> of
+          relations (e.g. <samp>descendant{1,3}</samp>,
+          <samp>coref_gram.rf{1,}</samp>, <samp>sibling{-1,1}</samp>,
+          etc.)
+        <li><strong>Multi-layered</strong> or <strong>aligned</strong>
+          treebanks with structured attribute values
+        <li><strong>Quantified</strong> or <strong>negated</strong>
+          subqueries (e.g. &ldquo;find all clauses with exactly three
+          objects but no subject&rdquo;)
+        <li><strong>References</strong> (e.g. &ldquo;find a parent and
+          child that have the same case but different number&rdquo;)
+        <li>Natural textual and graphical
+          <strong>representation</strong> of the query
+        <li>Sublanguage for postprocessing and <strong>generating
+          reports</strong> (filtering, grouping, aggregating, and
+          sorting)
+        <li><strong>Regular expressions</strong>, basic
+          <strong>arithmetic</strong> and <strong>string</strong>
+          operations
+      </ul>
+    </div>
+
+    <div class="slide">
+      <h1>PML-TQ: Basic Syntax</h1>
+<p>Atomic attribute value equality, child relation:
+<pre>nonterminal [
+  cat = 'VP',
+  <span style="color:gray">child</span> terminal [
+    pos = 'VB'
+] ]</pre>
+<p>More relations and operators:
+  <pre>nonterminal <span title="Naming">$n :=</span> [
+  cat <span title="Set membership">in { 'S','VP' }</span>,
+  descendant terminal [
+    pos <span title="Regular expression">~ '^V'</span>,
+    parent nonterminal [
+      cat = <span title="Reference">$n.cat</span>
+] ] ]</pre>
+      <ul><li>Example-based building of queries
+      </ul>
+    </div>
+
+    <div class="slide">
+      <h1>PML-TQ: Basic Syntax (2)</h1>
+      <h2>Relations</h2>
+      <ul><li><samp>child, parent</samp>
+        <li><samp>descendant, ancestor</samp>
+        <li><samp>same-tree-as</samp>
+        <li><samp>sibling</samp>
+        <li><samp>depth-first-precedes, depth-first-follows</samp>
+        <li><samp>order-precedes, order-follows</samp>
+        <li>References
+        <li>Implementation specific
+      </ul>
+      <h2>Predicates</h2>
+      <ul><li>(!) <samp>=, ~, ~*, in</samp>
+          <li><samp>&lt;, &gt;, &lt;=, &gt;=</samp>
+      </ul>
+    </div>
+
+    <div class="slide">
+      <h1>PML-TQ: Basic Syntax (3)</h1>
+      <h2>Operators</h2>
+      <p><samp>+, -, *, div, mod, &</samp></p>
+      <h2>Functions</h2>
+      <ul><li><samp>descendants(), sons()</samp>&hellip;
+        <li><samp>length(), substr(), match()</samp>&hellip;
+        <li><samp>round(), exp(), sqrt()</samp>&hellip;
+        <li><samp>count(), sum(), max(), ration()</samp>&hellip;
+      </ul>
+    </div>
+
+    <div class="slide">
+      <h1>PML-TQ: Verb Clause without a Subject (I)</h1>
+      <table class="aling-top"><tr><td>
+      <h2>Tiger Treebank</h2>
+<pre>nonterminal [
+  cat = 'S', 
+  0x * [ label = 'SB' ], 
+  nonterminal [ 
+    cat = 'VP'
+] ]</pre>
+      <td><img src="tiger_query.png">
+<tr><td>      <h2>Penn Chinese Treebank</h2>
+<pre>nonterminal [
+  cat = 'IP',
+  0x nonterminal [ 
+    functions = 'SBJ' ],
+  nonterminal [ 
+    cat = 'VP'
+] ]</pre>
+<td><img src="chinese_nosbj.png">
+      </table>
+    </div>
+
+    <div class="slide">
+      <h1>PML-TQ: Verb Clause without a Subject (II)</h1>
+      <table class="align-top"><tr><td>
+      <h2>Penn Treebank (WSJ)</h2>
+<pre>nonterminal [
+  cat = 'S', 0x nonterminal [
+    functions = 'SBJ' ],
+  nonterminal [ 
+    cat = 'VP', 
+    coindex.rf nonterminal [
+      cat = 'VP',
+      sibling nonterminal [
+        functions = 'SBJ'
+] ] ] ]
+</pre>
+<img src="petb_query.png">
+
+<td><h2>Penn Arabic Treebank</h2>
+<pre>nonterminal [
+  cat = 'VP',
+  0x nonterminal [
+    cat = 'VP' 
+    or
+    functions = 'SBJ'
+] ]</pre>
+              <img src="arabic_nosbj.png">
+      </table>
+    </div>
+
+    <div class="slide">
+      <h1>PML-TQ: Verb Clause without a Subject (III)</h1>
+      <table class="aling-top"><tr><td>
+              <h2>Prague Dependency Treebank</h2>
+<pre>a-node [
+ $$ = $aux and m/tag ~ '^V[^fs]'
+    or $$ != $aux and m/tag ~ '^V[sf]',
+  0x echild a-node [ afun = 'Sb' ], 
+     ? echild a-node $aux := [
+       afun = 'AuxV', m/tag ~ '^V[^f]' ] ]</pre>
+<img src="pdt_nosbj.png">
+      </table>
+    </div>
+
+    <div class="slide">
+      <h1>PML-TQ: Negation</h1>
+      <h2>Atomic</h2>
+      <table class="compress">
+        <tr><td><pre>cat = 'NP'</pre>
+          <td>is equivalent to
+          <td><pre>&exist; x &isin; cat ( x = 'NP' )</pre>
+        <tr><td><pre>cat != 'NP'</pre>
+          <td>is equivalent to
+          <td><pre>&exist; x &isin; cat ( x &ne; 'NP' )</pre>
+        <tr><td><pre>! cat = 'NP'</pre>
+          <td>is equivalent to
+          <td><pre>&forall; x &isin; cat ( x &ne; 'NP' )</pre>
+        <tr><td><pre>* cat = 'NP'</pre>
+          <td>is equivalent to
+          <td><pre>&forall; x &isin; cat ( x = 'NP' )</pre>
+      </table>
+      <p>Same for <samp>in</samp>, <samp>~</samp>, etc.
+      <h2>Existencial</h2>
+      <pre>nonterminal [ 0x descendant terminal [pos = "NN"]]</pre>
+    </div>
+
+
+    <div class="slide">
+      <h1>Layers in PML-TQ</h1>
+      <pre>t-node [
+  a/lex.rf $n4, 
+  t-node [ a/lex.rf $n3] ];
+a-node $n3 := [
+  a-node $n4 := [  ] ];</pre>
+      <img src="t-a.png">
+    </div>
+
+
+    <div class="slide">
+      <h1>PML-TQ: Grammar Extraction</h1>
+      <p>For Penn Treebank (WSJ), extract the underlying grammar. For
+        each rule, show the number of applications.
+
+<pre>nonterminal $p := [ * $ch := [  ] ]
+>> give $p, $p.cat,
+        first_defined($ch.cat,$ch.pos),
+        lbrothers($ch)
+>> give $2 & " -> " 
+        & concat($3," " over $1 sort by $4)
+>> for $1 give count(),$1 sort by $1 desc</pre>
+
+      <table><tr><th>Number of applications<th>Rule
+          <tr><td class="num">189856 <td> <b>PP</b> &rarr; IN <b>NP</b> 
+          <tr><td class="num">128140 <td> <b>S</b> &rarr; <b>NP</b> <b>VP</b> 
+          <tr><td class="num">87402 <td> <b>NP</b> &rarr; <b>NP</b> <b>PP</b> 
+          <tr><td class="num">72106 <td> <b>NP</b> &rarr; DT NN 
+          <tr><td class="num">65508 <td> <b>S</b> &rarr; <b>NP</b> <b>VP</b> . 
+          <tr><td class="num">45995 <td> <b>NP</b> &rarr; -NONE- 
+          <tr><td class="num">36078 <td> <b>NP</b> &rarr; DT JJ NN 
+          <tr><td class="num">31916 <td> <b>VP</b> &rarr; TO <b>VP</b> 
+          <tr><td class="num">28796 <td> <b>NP</b> &rarr; NNP NNP 
+          <tr><td class="num">23272 <td> <b>SBAR</b> &rarr; IN <b>S</b>
+          <tr><td colspan=2 align="center">&hellip;
+      </table>
+    </div>
+
+    <div class="slide">
+      <h1>PML-TQ: Non-Projectivity</h1>
+      <h2>CoNLL 2009 treebanks</h2>
+<pre>node $upper := [ 
+  same-tree-as $between,
+  node $lower := [ ] ];
+node $between := [ ! ancestor $upper,
+  ( (order-precedes $upper 
+     and order-follows $lower)
+    or (order-follows $upper
+        and order-precedes $lower) ) ]
+</pre>
+      <img src="nonproj.png">
+      <p><em>$upper</em> is not an ancestor of <em>$between</em>
+    </div>
+
+    <div class="slide">
+      <h1>Word Order Typology</h1>
+      <h2>For German</h2>
+      <p>Based on CoNLL ST 2009 data
+        <table class="align-top"><tr><td rowspan=9>
+<pre>node $p := [ substr(pos,0,1) = 'V', 
+  ? node $ch := [
+    deprel in {'SB','OA','OC','OA2','OP'}
+] ];
+>> give $p.xml:id,
+     if($p=$ch,
+       if($p.deprel = 'ROOT','V','v'),
+       substr($ch.deprel,0,1)),
+     $ch.order
+>> give distinct $1,
+     concat($2,'' over $1 sort by $3)
+>> give 
+     substitute($2,'([OS])\\1+','\\1','g')
+>> filter ($1 ~ 'O' and $1 ~ 'S')
+>> for $1 give $1,count() sort by $2 desc</pre>
+          <th>Main clause<th>Num. of occurrences
+            <th>Dependent clause<th>Num. of occurrences
+          <tr><td>SVO  <td class="num"> 11267 <td> SOv  <td class="num"> 7556 
+          <tr><td>VSO  <td class="num"> 7111  <td> SvO  <td class="num"> 2273 
+          <tr><td>OVS  <td class="num"> 2209  <td> vSO  <td class="num"> 1113 
+          <tr><td>VOS  <td class="num"> 625   <td> OSv  <td class="num"> 606  
+          <tr><td>SOV  <td class="num"> 110   <td> OvS  <td class="num"> 109  
+          <tr><td>OVSO <td class="num"> 91    <td> vOS  <td class="num"> 64   
+          <tr><td>VOSO <td class="num"> 64    <td> SOvO <td class="num"> 37   
+          <tr><td>OVOS <td class="num"> 31    <td> OSOv <td class="num"> 34   
+              </table>
+    </div>
+
+    <div class="slide">
+      <h1>Treex &mdash; NLP framework based on PML</h1>
+      <h2>Data format</h2>
+      <ul><li>Subset of PML
+      </ul>
+      <h2>Perl API</h2>
+      <ul><li>Available from CPAN
+        <li>Similar to TrEd API, but some details are different
+          <ul><li>All layers kept in one XML document
+            <li>Bundles (sets of equivalent sentences), zones
+            (correspond to languages)
+          </ul>
+      </ul>
+    </div>
+
+    <div class="slide">
+      <h1>Treex &mdash; NLP framework based on PML</h1>
+      <h2>Why Treex?</h2>
+      <ul><li>Many existing NLP tools integrated (taggers,
+          lemmatizers, NE recognizers, both constituency and dependency
+          parsers, various dictionaries&hellip;)
+        <li>Support for distributed processing (SGE cluster)
+      </ul>
+      <h2>Liaison to TrEd</h2>
+        <ul><li>TrEd can show and edit Treex files
+          <li>Some standard TrEd functions are not available, though
+            (e.g. Undo)
+          <li>Integration still in progress
+        </ul> 
+    </div>
+
+
+    <div class="slide">
+      <h1>Conclusion</h1>
+      <h2>PML Framework</h2>
+      <ul><li>Multi-layered typed XML data format
+        <li><acronym title="Operating System">OS</acronym>
+          independent tree editor TrEd
+        <li>PML-TQ Tree Query Language and Engine(s)
+        <li>Used in development of Prague Dependency Treebank, but tested on
+          <strong>more than ten</strong> different treebanks
+        <li>Related framework: Treex
+      </ul>
+    </div>
+
+    <div class="footer"><table width="98%"><tr><td>Prague Markup
+    Language Toolkit
+<td align="right">Copenhagen, June 2012</table></div>
+
+  </body>
+</html>
