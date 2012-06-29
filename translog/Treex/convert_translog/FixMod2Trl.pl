@@ -113,6 +113,11 @@ sub ReadTranslog {
   my $F = '';
   my ($lastTime, $t, $lastCursor, $c);
 
+#  if($fn ne '-') {
+#    open(FILE, '<:encoding(utf8)', $fn) || die ("cannot open file $fn");
+#    STDIN->fdopen(\*FILE,  'r') or die $!;
+#  }
+
   open(FILE, '<:encoding(utf8)', $fn) || die ("cannot open file $fn");
   if($Verbose) {printf STDERR "ReadTranslog Reading: $fn\n";}
 

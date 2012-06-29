@@ -1,4 +1,6 @@
-./Trl2Treex.pl -O ED12.list -T \
+mkdir -p data/Treex
+
+./Trl2Treex.pl -O data/Treex/ED12 -T \
 data/ED12/Events/ED01.Event.xml,\
 data/ED12/Events/ED02.Event.xml,\
 data/ED12/Events/ED03.Event.xml,\
