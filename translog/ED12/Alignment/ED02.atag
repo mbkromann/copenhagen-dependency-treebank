@@ -1,6 +1,6 @@
-<DTAGalign>
-<alignFile key="a" href="ED12ch3A_Evita_Campbell_translating.src" sign="_input"/>
-<alignFile key="b" href="ED12ch3A_Evita_Campbell_translating.tgt" sign="_input"/>
+﻿<DTAGalign>
+<alignFile key="a" href="ED02.src" sign="_input"/>
+<alignFile key="b" href="ED02.tgt" sign="_input"/>
 <align out="a1" type="" in="b1" creator="0" insign="selvom" outsign="Although"/>
 <align out="a2 a3" type="" in="b2" creator="0" insign="udviklingslandene" outsign="developing countries"/>
 <align out="a4" type="" in="b3" creator="0" insign="er" outsign="are"/>
