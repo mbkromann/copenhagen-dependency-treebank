@@ -221,12 +221,10 @@ sub ReadTranslog {
     elsif($type == 6 && /<Align /) {
 #print STDERR "ALIGN: $_";
       my ($si, $ti, $ss, $ts);
-      if(/SourceId="([^\"]*)"/) {$si =$1;}
-      if(/Source="([^\"]*)"/)    {$ss =$1;}
-      if(/FinalId="([^\"]*)"/)  {$ti =$1;}
-      if(/Final="([^\"]*)"/)     {$ts =$1;}
-      $ALN->{'tid'}{$ti}{'sid'}{$si} = $ss;
-      $ALN->{'sid'}{$si}{'tid'}{$ti} = $ts;
+      if(/sid="([^\"]*)"/) {$si =$1;}
+      if(/tid="([^\"]*)"/)  {$ti =$1;}
+      $ALN->{'tid'}{$ti}{'sid'}{$si} ++;
+      $ALN->{'sid'}{$si}{'tid'}{$ti} ++;
     }
     elsif($type == 7 && /<Token/) {
       if(/cur="([0-9][0-9]*)"/) {$cur =$1;}

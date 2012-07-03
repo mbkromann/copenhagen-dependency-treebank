@@ -302,13 +302,10 @@ sub PrintTranslog{
       $A->{$l}{D}{$id}{tok} =~ s/\\([\(\)\\\/])/$1/g;
       my $tok = MSescape($A->{$l}{D}{$id}{tok});
 
-      my $s = "    <Token id=\"$id\" cur=\"$A->{$l}{D}{$id}{cur}\"";
+      my $s = "    <Token id=\"$id\"";
+      foreach my $attr (sort keys %{$A->{$l}{D}{$id}}) { $s .= " $attr=\"$A->{$l}{D}{$id}{$attr}\"";}
+      $s .= " />\n";
 
-      if(defined($A->{$l}{D}{$id}{'last'}))   { $s .= " last=\"$A->{$l}{D}{$id}{'last'}\"";}
-      if(defined($A->{$l}{D}{$id}{in}))    { $s .= " in=\"$A->{$l}{D}{$id}{in}\"";}
-      if(defined($A->{$l}{D}{$id}{out}))   { $s .= " out=\"$A->{$l}{D}{$id}{out}\"";}
-      if(defined($A->{$l}{D}{$id}{space})) { my $space =MSescape($A->{$l}{D}{$id}{space}); $s .= " space=\"$space\"";}
-      $s .= " tok=\"$tok\" />\n";
       $TRANSLOG->{$m++} = $s;
     }
     $TRANSLOG->{$m++} ="  </$l"."Token>\n";
@@ -321,8 +318,8 @@ sub PrintTranslog{
       my $k=0;
       foreach my $id (sort {$a<=>$b} keys %{$A->{'n'}{$n}{$l}{'id'}}) {
         my $s = MSescape($A->{'n'}{$n}{$l}{'s'});
-#	$S->{$l}{$k} = $l."Id=\"$id\" $l=\"$s\"";
-	$S->{$l}{$k} = $l."Id=\"$id\" ";
+        if($l eq "Source") {$S->{$l}{$k} = "sid=\"$id\" ";}
+        if($l eq "Final")  {$S->{$l}{$k} = "tid=\"$id\" ";}
 #print STDERR "XXX $S->{$l}{$k}\n";
         if(defined($A->{'e'}{$n})) {$S->{e}{$k} = $A->{'e'}{$n}}
         $k++;

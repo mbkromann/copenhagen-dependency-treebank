@@ -1,6 +1,6 @@
 DIR="data"
 
-all: clean merge_atag_trl totreex finetreex
+all: clean copy merge_atag_trl totreex finetreex
 
 
 copy:
@@ -40,19 +40,25 @@ finetreex:
 	mkdir -p $(DIR)/final
 	treex \
 	Misc::CopenhagenDT::BuildTreesFromOffsetIndices \
-	Misc::CopenhagenDT::ReconstructAlignmentLinks \
-        Misc::CopenhagenDT::ImportSentSegmFromExternalFiles cdt_root_dir=../../../ \
-        Misc::CopenhagenDT::SentSegmByTagS \
-        Misc::CopenhagenDT::MoveDanishTreesToSeparateBundles \
-        Misc::CopenhagenDT::MoveTreesToDanishCounterpartByAlignment \
-        Misc::CopenhagenDT::MoveTreesToDanishCounterpartBySizeSimilarity \
-        Misc::CopenhagenDT::FixLonelyNodes \
-        Misc::CopenhagenDT::FlattenUnannotatedTrees \
+        Misc::CopenhagenDT::MoveSLTreesToSeparateBundles \
+	Misc::CopenhagenDT::MoveTLTreesToSLCounterpartByAlignment \
         Util::Eval document="\$$doc->set_path(qw($(DIR)/final))" \
         Write::Treex clobber=1 storable=0 \
-        -- $(DIR)/Treex/*.treex.gz
+        -- $(DIR)/Treex/ED12_Parse.treex.gz
 
+#        -- $(DIR)/Treex/*.treex.gz
+
+        #Misc::CopenhagenDT::FixLonelyNodes \
         #Misc::CopenhagenDT::DeleteFirstBundle \
+        #Misc::CopenhagenDT::FlattenUnannotatedTrees \
+        #Misc::CopenhagenDT::MoveTreesToDanishCounterpartByAlignment \
+        #Misc::CopenhagenDT::MoveTreesToDanishCounterpartBySizeSimilarity \
+	#Misc::CopenhagenDT::ReconstructAlignmentLinks \
+        #Misc::CopenhagenDT::ImportSentSegmFromExternalFiles cdt_root_dir=../../../ \
+        #Misc::CopenhagenDT::SentSegmByTagS \
+
+test:
+	treex --save Misc::Translog::MergeSentencesByAlignment -- $(DIR)/Treex/ED12.treex.gz
 
 segment:
 	treex --save Misc::Translog::SegmentSentences Misc::Translog::MergeSentencesByAlignment -- $(DIR)/*treex.gz
@@ -65,6 +71,7 @@ transform:
 	Misc::Translog::PdtStyleToCdtStyle totreex \
 	Misc::Translog::ProjectEdgesByAlignment \
 	Misc::Translog::ConllDeprelToCdtDeprel -- parsed_sample/*treex.gz
+
 
 
 clean:
