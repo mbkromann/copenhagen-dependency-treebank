@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign source="en" target="da" >
+<alignFile href="P04_T4.src" key="a" sign=""/>
+<alignFile href="P04_T4.tgt" key="b" sign=""/>
+<align creator="" in="b3" insign="hovedkontor" out="a6" outsign="home" type=""/>
+<align creator="" in="b5" insign="Threadneedle" out="a8" outsign="Threadneedle" type=""/>
+<align creator="" in="b6" insign="Street" out="a9" outsign="Street" type=""/>
+<align creator="" in="b8" insign="måske" out="a10" outsign="may" type=""/>
+<align creator="" in="b9" insign="ikke" out="a11" outsign="not" type=""/>
+<align creator="" in="b7" insign="ser" out="a12" outsign="look" type=""/>
+<align creator="" in="b10" insign="ud" out="a12" outsign="look" type=""/>
+<align creator="" in="b11" insign="som" out="a13" outsign="like" type=""/>
+<align creator="" in="b12" insign="et" out="a14" outsign="a" type=""/>
+<align creator="" in="b13" insign="hospital" out="a15" outsign="hospital" type=""/>
+<align creator="" in="b20" insign="de" out="a18" outsign="the" type=""/>
+<align creator="" in="b21" insign="sidste" out="a19" outsign="past" type=""/>
+<align creator="" in="b22" insign="par" out="a20" outsign="few" type=""/>
+<align creator="" in="b23" insign="måneder" out="a21" outsign="months" type=""/>
+<align creator="" in="b16" insign="har" out="a23" outsign="has" type=""/>
+<align creator="" in="b24" insign="." out="a28" outsign="." type=""/>
+<align creator="" in="b25" insign="Da" out="a29" outsign="As" type=""/>
+<align creator="" in="b26" insign="den" out="a30" outsign="the" type=""/>
+<align creator="" in="b27" insign="økonomiske" out="a31" outsign="economic" type=""/>
+<align creator="" in="b28" insign="nedgang" out="a32" outsign="downturn" type=""/>
+<align creator="" in="b29" insign="blev" out="a33" outsign="became" type=""/>
+<align creator="" in="b30" insign="et" out="a34" outsign="a" type=""/>
+<align creator="" in="b32" insign="kollaps" out="a38" outsign="collapse" type=""/>
+<align creator="" in="b37" insign="år" out="a41" outsign="year" type=""/>
+<align creator="" in="b46" insign="og" out="a53" outsign="and" type=""/>
+<align creator="" in="b50" insign="arbejdet" out="a56" outsign="work" type=""/>
+<align creator="" in="b51" insign="." out="a57" outsign="." type=""/>
+<align creator="" in="b52" insign="Først" out="a58" outsign="First" type=""/>
+<align creator="" in="b54" insign="de" out="a59" outsign="they" type=""/>
+<align creator="" in="b76" insign="5" out="a70" outsign="5" type=""/>
+<align creator="" in="b77" insign="%" out="a71" outsign="%" type=""/>
+<align creator="" in="b78" insign="i" out="a72" outsign="in" type=""/>
+<align creator="" in="b79" insign="begyndelsen" out="a73" outsign="early" type=""/>
+<align creator="" in="b67" insign="0,5" out="a82" outsign="0.5" type=""/>
+<align creator="" in="b68" insign="%" out="a83" outsign="%" type=""/>
+<align creator="" in="b69" insign="i" out="a84" outsign="in" type=""/>
+<align creator="" in="b70" insign="marts" out="a85" outsign="March" type=""/>
+<align creator="" in="b82" insign="." out="a86" outsign="." type=""/>
+<align creator="" in="b84" insign="de" out="a88" outsign="content" type=""/>
+<align creator="" in="b86" insign="var" out="a88" outsign="content" type=""/>
+<align creator="" in="b87" insign="tilfredse" out="a88" outsign="content" type=""/>
+<align creator="" in="b88" insign="med" out="a89" outsign="with" type=""/>
+<align creator="" in="b89" insign="dette" out="a90" outsign="that" type=""/>
+<align creator="" in="b91" insign="," out="a91" outsign="," type=""/>
+<align creator="" in="b93" insign="de" out="a92" outsign="they" type=""/>
+<align creator="" in="b92" insign="skiftede" out="a93" outsign="switched" type=""/>
+<align creator="" in="b94" insign="stragegi" out="a99" outsign="syringe" type=""/>
+<align creator="" in="b95" insign="og" out="a100" outsign="and" type=""/>
+<align creator="" in="b96" insign="begyndte" out="a101" outsign="started" type=""/>
+<align creator="" in="b97" insign="at" out="a102" outsign="to" type=""/>
+<align creator="" in="b98" insign="indføre" out="a103" outsign="inject" type=""/>
+<align creator="" in="b99" insign="penge" out="a104" outsign="money" type=""/>
+<align creator="" in="b100" insign="i" out="a105" outsign="into" type=""/>
+<align creator="" in="b101" insign="økonomien" out="a107" outsign="economy" type=""/>
+<align creator="" in="b102" insign="ved" out="a108" outsign="by" type=""/>
+<align creator="" in="b104" insign="opkøbe" out="a109" outsign="buying" type=""/>
+<align creator="" in="b105" insign="aktiver" out="a110" outsign="assets" type=""/>
+<align creator="" in="b106" insign="med" out="a111" outsign="with" type=""/>
+<align creator="" in="b107" insign="frisklavet" out="a112" outsign="freshly" type=""/>
+<align creator="" in="b107" insign="frisklavet" out="a113" outsign="created" type=""/>
+<align creator="" in="b109" insign="penge" out="a117" outsign="money" type=""/>
+<align creator="" in="b110" insign="." out="a118" outsign="." type=""/>
+<align creator="" in="b120" insign="med" out="a120" outsign="with" type=""/>
+<align creator="" in="b121" insign="de" out="a121" outsign="the" type=""/>
+<align creator="" in="b122" insign="nuværende" out="a122" outsign="preceding" type=""/>
+<align creator="" in="b123" insign="rentenedsættelser" out="a123" outsign="rate" type=""/>
+<align creator="" in="b112" insign="nye" out="a127" outsign="new" type=""/>
+<align creator="" in="b113" insign="stragegi" out="a128" outsign="treatment" type=""/>
+<align creator="" in="b114" insign="har" out="a129" outsign="has" type=""/>
+<align creator="" in="b115" insign="været" out="a130" outsign="been" type=""/>
+<align creator="" in="b116" insign="administreret" out="a131" outsign="administered" type=""/>
+<align creator="" in="b117" insign="i" out="a132" outsign="in" type=""/>
+<align creator="" in="b118" insign="store" out="a133" outsign="big" type=""/>
+<align creator="" in="b119" insign="mængder" out="a134" outsign="doses" type=""/>
+<align creator="" in="b124" insign="." out="a135" outsign="." type=""/>
+<align creator="" in="b126" insign="skift" out="a140" outsign="return" type=""/>
+<align creator="" in="b127" insign="tilbage" out="a140" outsign="return" type=""/>
+<align creator="" in="b128" insign="til" out="a141" outsign="to" type=""/>
+<align creator="" in="b132" insign="er" out="a144" outsign="is" type=""/>
+<align creator="" in="b134" insign="højst" out="a145" outsign="highly" type=""/>
+<align creator="" in="b135" insign="usandsynlig" out="a146" outsign="unlikely" type=""/>
+<align creator="" in="b136" insign="efter" out="a147" outsign="after" type=""/>
+<align creator="" in="b137" insign="den" out="a148" outsign="the" type=""/>
+<align creator="" in="b138" insign="finansielle" out="a149" outsign="financial" type=""/>
+<align creator="" in="b139" insign="og" out="a150" outsign="and" type=""/>
+<align creator="" in="b140" insign="økonomiske" out="a151" outsign="economic" type=""/>
+<align creator="" in="b141" insign="nedgang" out="a152" outsign="convulsions" type=""/>
+<align creator="" in="b142" insign="de" out="a154" outsign="the" type=""/>
+<align creator="" in="b143" insign="sidste" out="a155" outsign="past" type=""/>
+<align creator="" in="b146" insign="." out="a158" outsign="." type=""/>
+<align creator="" in="b147" insign="En" out="a159" outsign="A" type=""/>
+<align creator="" in="b148" insign="forlængelse" out="a160" outsign="prolonged" type=""/>
+<align creator="" in="b153" insign="er" out="a162" outsign="is" type=""/>
+<align creator="" in="b154" insign="det" out="a163" outsign="the" type=""/>
+<align creator="" in="b155" insign="bedste" out="a164" outsign="best" type=""/>
+<align creator="" in="b154" insign="det" out="a165" outsign="that" type=""/>
+<align creator="" in="b157" insign="kan" out="a166" outsign="can" type=""/>
+<align creator="" in="b158" insign="håbe" out="a167" outsign="be" type=""/>
+<align creator="" in="b159" insign="for" out="a167" outsign="be" type=""/>
+<align creator="" in="b158" insign="håbe" out="a168" outsign="expected" type=""/>
+<align creator="" in="b160" insign="." out="a169" outsign="." type=""/>
+<align creator="" in="b1b2" insign="Englands Nationalbanks" out="a1a2a3a4a5" outsign="The Bank of England ’s" type=""/>
+<align creator="" in="b4" insign="på" out="a7" outsign="in" type=""/>
+<align creator="" in="b15" insign="men" out="a16" outsign="but" type=""/>
+<align creator="" in="b17" insign="virket" out="a24a25" outsign="been acting" type=""/>
+<align creator="" in="b18" insign="som" out="a26" outsign="like" type=""/>
+<align creator="" in="b19" insign="et" out="a27" outsign="one" type=""/>
+<align creator="" in="b31" insign="fuldstændigt" out="a35a36a37" outsign="full - blown" type=""/>
+<align creator="" in="b33b34b35" insign="i slutningen af" out="a39" outsign="late" type=""/>
+<align creator="" in="b36" insign="sidste" out="a40" outsign="last" type=""/>
+<align creator="" in="b39" insign="Nationalbankens" out="a43a44a45a46" outsign="the central bank ’s" type=""/>
+<align creator="" in="b40" insign="senior" out="a47" outsign="senior" type=""/>
+<align creator="" in="b41" insign="konsulenter" out="a48" outsign="consultants" type=""/>
+<align creator="" in="b38b42b43b44b45" insign="tog sig selv i kraven" out="a49a50a51a52" outsign="donned their white coats" type=""/>
+<align creator="" in="b47b48b49" insign="tog fat på" out="a54a55" outsign="got to" type=""/>
+<align creator="" in="b53b55b56" insign="tog fat på" out="a60a61a62a63" outsign="put their scalpel to" type=""/>
+<align creator="" in="b57" insign="renten" out="a64a65" outsign="interest rates" type=""/>
+<align creator="" in="b80" insign="af" out="a73" outsign="early" type=""/>
+<align creator="" in="b81" insign="oktober" out="a74" outsign="October" type=""/>
+<align creator="" in="b59b60b61" insign="skar den ned" out="a67a68" outsign="slicing them" type=""/>
+<align creator="" in="b62" insign="til" out="a75" outsign="to" type=""/>
+<align creator="" in="b63b64b65" insign="det laveste nogensinde" out="a76a77a78a79a80" outsign="an all - time low" type=""/>
+<align creator="" in="b72b73b74b75" insign="hvor den havde været" out="a69" outsign="from" type=""/>
+<align creator="" in="b90" insign="tiltag" out="a90" outsign="that" type=""/>
+<align creator="" in="b83b85" insign="Da ikke" out="a87" outsign="Not" type=""/>
+<align creator="" in="b94" insign="stragegi" out="a96a97a98a99" outsign="from scalpel to syringe" type=""/>
+<align creator="" in="b101" insign="økonomien" out="a106" outsign="the" type=""/>
+<align creator="" in="b103" insign="at" out="a108" outsign="by" type=""/>
+<align creator="" in="b108" insign="Nationalbank" out="a114a115a116" outsign="central - bank" type=""/>
+<align creator="" in="b111" insign="Denne" out="a126" outsign="the" type=""/>
+<align creator="" in="b123" insign="rentenedsættelser" out="a124" outsign="cuts" type=""/>
+<align creator="" in="b125" insign="Et" out="a138" outsign="a" type=""/>
+<align creator="" in="b129b130b131" insign="en sund økonomi" out="a142a143" outsign="economic health" type=""/>
+<align creator="" in="b144" insign="to" out="a156" outsign="two" type=""/>
+<align creator="" in="b145" insign="år" out="a157" outsign="years" type=""/>
+</DTAGalign>
