@@ -1,29 +1,29 @@
-<DTAGalign>
+<DTAGalign source="en" target="da" >
 <alignFile key="a" href="ED12ch3A_Katrine_Wang_translating.src" sign="_input"/>
 <alignFile key="b" href="ED12ch3A_Katrine_Wang_translating.tgt" sign="_input"/>
 <align out="a1" type="" in="b1" creator="0" insign="Selvom" outsign="Although"/>
 <align out="a2 a3" type="" in="b2 b3 b4" creator="0" insign="lande under udvikling" outsign="developing countries"/>
-<align out="a5" type="" in="b5 b6" creator="0" insign="forstÃ¥eligt nok" outsign="understandably"/>
+<align out="a5" type="" in="b5 b6" creator="0" insign="forståeligt nok" outsign="understandably"/>
 <align out="a4" type="" in="b7" creator="0" insign="er" outsign="are"/>
 <align out="a6" type="" in="b8" creator="0" insign="tilbageholdende" outsign="reluctant"/>
-<align out="a7 a8" type="" in="b9 b10 b11 b12 b13" creator="0" insign="med at risikere at Ã¸delÃ¦gge" outsign="to compromise"/>
+<align out="a7 a8" type="" in="b9 b10 b11 b12 b13" creator="0" insign="med at risikere at ødelægge" outsign="to compromise"/>
 <align out="a9" type="" in="b14" creator="0" insign="deres" outsign="their"/>
 <align out="a10" type="" in="b15" creator="0" insign="chancer" outsign="chances"/>
 <align out="a11" type="" in="b16" creator="0" insign="for" outsign="of"/>
-<align out="a12" type="" in="b17 b18" creator="0" insign="at opnÃ¥" outsign="achieving"/>
+<align out="a12" type="" in="b17 b18" creator="0" insign="at opnå" outsign="achieving"/>
 <align out="a13" type="" in="b19" creator="0" insign="bedre" outsign="better"/>
 <align out="a14 a15 a16" type="" in="b20" creator="0" insign="levestandarder" outsign="standards of living"/>
 <align out="a17" type="" in="b21" creator="0" insign="til" outsign="for"/>
 <align out="a18" type="" in="b22" creator="0" insign="deres" outsign="the"/>
 <align out="a19" type="" in="b23 b24" creator="0" insign="fattige befolkning" outsign="poor"/>
-<align out="b26" type="" in="b26" creator="0" insign="sÃ¥" outsign="sÃ¥"/>
-<align out="a25" type="" in="b27" creator="0" insign="behÃ¸ver" outsign="need"/>
+<align out="b26" type="" in="b26" creator="0" insign="så" outsign="så"/>
+<align out="a25" type="" in="b27" creator="0" insign="behøver" outsign="need"/>
 <align out="a26" type="" in="b32" creator="0" insign="ikke" outsign="not"/>
 <align out="a21" type="" in="b28" creator="0" insign="handlinger" outsign="action"/>
-<align out="a22" type="" in="b29 b30" creator="0" insign="der vedrÃ¸rer" outsign="on"/>
-<align out="a23 a24" type="" in="b31" creator="0" insign="klimaÃ¦ndringer" outsign="climate change"/>
+<align out="a22" type="" in="b29 b30" creator="0" insign="der vedrører" outsign="on"/>
+<align out="a23 a24" type="" in="b31" creator="0" insign="klimaændringer" outsign="climate change"/>
 <align out="a27" type="" in="b33 b34" creator="0" insign="at true" outsign="threaten"/>
-<align out="a28" type="" in="b35 b36" creator="0" insign="den Ã¸konomiske" outsign="economic"/>
+<align out="a28" type="" in="b35 b36" creator="0" insign="den økonomiske" outsign="economic"/>
 <align out="a29" type="" in="b37" creator="0" insign="udvikling" outsign="development"/>
 <align out="a31" type="" in="b42" creator="0" insign="tilbud" outsign="Incentives"/>
 <align out="b39" type="" in="b39" creator="0" insign="Der" outsign="Der"/>
@@ -32,10 +32,10 @@
 <align out="a36" type="" in="b45" creator="0" insign="opfordre" outsign="encourage"/>
 <align out="a37 a38" type="" in="b46 b47 b48" creator="0" insign="lande under udvikling" outsign="developing countries"/>
 <align out="a39" type="" in="b49" creator="0" insign="til" outsign="to"/>
-<align out="a40" type="" in="b50 b51" creator="0" insign="at gÃ¥" outsign="go"/>
+<align out="a40" type="" in="b50 b51" creator="0" insign="at gå" outsign="go"/>
 <align out="a41" type="" in="b52" creator="0" insign="det" outsign="the"/>
 <align out="a42" type="" in="b53" creator="0" insign="ekstra" outsign="extra"/>
-<align out="a43" type="" in="b54" creator="0" insign="grÃ¸nne" outsign="green"/>
+<align out="a43" type="" in="b54" creator="0" insign="grønne" outsign="green"/>
 <align out="a44" type="" in="b55" creator="0" insign="skridt" outsign="mile"/>
 <align out="a45" type="" in="b56" creator="0" insign="og" outsign="and"/>
 <align out="a46" type="" in="b57" creator="0" insign="implementere" outsign="implement"/>
@@ -44,8 +44,8 @@
 <align out="a50" type="" in="b61" creator="0" insign="og" outsign="and"/>
 <align out="b62" type="" in="b62" creator="0" insign="de" outsign="de"/>
 <align out="a51" type="" in="b63" creator="0" insign="kunne" outsign="could"/>
-<align out="a52" type="" in="b64" creator="0" insign="ogsÃ¥" outsign="also"/>
-<align out="a53" type="" in="b65" creator="0" insign="hjÃ¦lpe" outsign="help"/>
+<align out="a52" type="" in="b64" creator="0" insign="også" outsign="also"/>
+<align out="a53" type="" in="b65" creator="0" insign="hjælpe" outsign="help"/>
 <align out="b66" type="" in="b66" creator="0" insign="med" outsign="med"/>
 <align out="a54" type="" in="b67 b68" creator="0" insign="at mindske" outsign="minimise"/>
 <align out="a55" type="" in="b69" creator="0" insign="udsivninger" outsign="emissions"/>
@@ -55,7 +55,7 @@
 <align out="a60" type="" in="b74" creator="0" insign="af" outsign="of"/>
 <align out="a61" type="" in="b75" creator="0" insign="de" outsign="the"/>
 <align out="a62" type="" in="b76" creator="0" insign="mest" outsign="most"/>
-<align out="a63" type="" in="b77" creator="0" insign="skrÃ¸belige" outsign="vulnerable"/>
+<align out="a63" type="" in="b77" creator="0" insign="skrøbelige" outsign="vulnerable"/>
 <align out="a64" type="" in="b78" creator="0" insign="lande" outsign="countries"/>
 <align out="a65" type="" in="b79" creator="0" insign="i" outsign="of"/>
 <align out="a66 a67" type="" in="b80" creator="0" insign="verden" outsign="the world"/>
@@ -63,9 +63,9 @@
 <align out="a69" type="" in="b82" creator="0" insign="bidraget" outsign="contributed"/>
 <align out="a70 a71" type="" in="b83" creator="0" insign="mindst" outsign="the least"/>
 <align out="a72" type="" in="b84" creator="0" insign="til" outsign="to"/>
-<align out="a73 a74" type="" in="b85" creator="0" insign="klimaÃ¦ndringer" outsign="climate change"/>
+<align out="a73 a74" type="" in="b85" creator="0" insign="klimaændringer" outsign="climate change"/>
 <align out="a76" type="" in="b87" creator="0" insign="men" outsign="but"/>
-<align out="b90" type="" in="b90" creator="0" insign="ogsÃ¥" outsign="ogsÃ¥"/>
+<align out="b90" type="" in="b90" creator="0" insign="også" outsign="også"/>
 <align out="a77 a78 a79 a80 a81" type="" in="b88 b89 b91" creator="0" insign="de lider under" outsign="are bearing the brunt of"/>
 <align out="a82" type="" in="b92" creator="0" insign="det" outsign="it"/>
 <align out="a87 a88" type="" in="b94 b95 b96" creator="0" insign="Det er specielt" outsign="in particular"/>
@@ -74,17 +74,17 @@
 <align out="a90 a91" type="" in="b101 b102 b103 b104" creator="0" insign="har et behov for" outsign="need to"/>
 <align out="a92 a93" type="" in="b105 b106 b107" creator="0" insign="at tilpasse sig" outsign="adapt to"/>
 <align out="a94 a95 a96" type="" in="b109" creator="0" insign="konsekvenser" outsign="the effects of"/>
-<align out="a97 a98" type="" in="b108" creator="0" insign="klimaÃ¦ndringernes" outsign="climate change"/>
+<align out="a97 a98" type="" in="b108" creator="0" insign="klimaændringernes" outsign="climate change"/>
 <align out="a100" type="" in="b111" creator="0" insign="Tilpasning" outsign="Adaptation"/>
 <align out="a101" type="" in="b112" creator="0" insign="og" outsign="and"/>
-<align out="a103" type="" in="b113 b114" creator="0" insign="forsÃ¸g pÃ¥" outsign="efforts"/>
+<align out="a103" type="" in="b113 b114" creator="0" insign="forsøg på" outsign="efforts"/>
 <align out="a102" type="" in="b115" creator="0" insign="formidling" outsign="mitigation"/>
 <align out="a104" type="" in="b116" creator="0" insign="skal" outsign="must"/>
 <align out="a105" type="" in="b117" creator="0" insign="derfor" outsign="therefore"/>
-<align out="a106" type="" in="b118" creator="0" insign="gÃ¥" outsign="go"/>
-<align out="a107" type="" in="b119" creator="0" insign="hÃ¥nd" outsign="hand"/>
+<align out="a106" type="" in="b118" creator="0" insign="gå" outsign="go"/>
+<align out="a107" type="" in="b119" creator="0" insign="hånd" outsign="hand"/>
 <align out="a108" type="" in="b120" creator="0" insign="i" outsign="in"/>
-<align out="a109" type="" in="b121" creator="0" insign="hÃ¥nd" outsign="hand"/>
+<align out="a109" type="" in="b121" creator="0" insign="hånd" outsign="hand"/>
 <align out="a20" type="" in="b25" creator="0" insign="," outsign=","/>
 <align out="a30" type="" in="b38" creator="0" insign="." outsign="."/>
 <align out="a49" type="" in="b60" creator="0" insign="," outsign=","/>
