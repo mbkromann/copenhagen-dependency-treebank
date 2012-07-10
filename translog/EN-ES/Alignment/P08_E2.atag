@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign>
+<DTAGalign source="en" target="es" >
 <alignFile href="P08_E2.src" key="a" sign=""/>
 <alignFile href="P08_E2.tgt" key="b" sign=""/>
 <align creator="" in="b1" insign="Las" out="a1" outsign="Families" type=""/>
