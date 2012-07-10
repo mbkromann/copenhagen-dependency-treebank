@@ -1,0 +1,296 @@
+<Text language="en" >
+<W cur="0" id="1">Hydroxyurea</W>
+<W cur="12" id="2" space="\0020">in</W>
+<W cur="15" id="3" space="\0020">patients</W>
+<W cur="24" id="4" space="\0020">with</W>
+<W cur="29" id="5" space="\0020">sickle-cell</W>
+<W cur="41" id="6" space="\0020">disease</W>
+<W cur="49" id="7" space="\0020">followed</W>
+<W cur="58" id="8" space="\0020">at</W>
+<W cur="61" id="9" space="\0020">Hospital</W>
+<W cur="70" id="10" space="\0020">Hemope</W>
+<W cur="76" id="11">,</W>
+<W cur="78" id="12" space="\0020">Recife</W>
+<W cur="85" id="13">(</W>
+<W cur="86" id="14">PE</W>
+<W cur="88" id="15">)</W>
+<W cur="89" id="16">,</W>
+<W cur="91" id="17" space="\0020">Brazil</W>
+<W cur="99" id="18" space="\000a\000a">Sickle-cell</W>
+<W cur="111" id="19" space="\0020">disease</W>
+<W cur="119" id="20">(</W>
+<W cur="120" id="21">SCD</W>
+<W cur="123" id="22">)</W>
+<W cur="125" id="23" space="\0020">is</W>
+<W cur="128" id="24" space="\0020">an</W>
+<W cur="131" id="25" space="\0020">inherited</W>
+<W cur="141" id="26" space="\0020">blood</W>
+<W cur="147" id="27" space="\0020">disorder</W>
+<W cur="156" id="28" space="\0020">associated</W>
+<W cur="167" id="29" space="\0020">with</W>
+<W cur="172" id="30" space="\0020">the</W>
+<W cur="176" id="31" space="\0020">hemoglobin</W>
+<W cur="187" id="32" space="\0020">S</W>
+<W cur="189" id="33" space="\0020">gene</W>
+<W cur="193" id="34">.</W>
+<W cur="195" id="35">[</W>
+<W cur="196" id="36">S</W>
+<W cur="197" id="37">]</W>
+<W cur="199" id="38" space="\0020">The</W>
+<W cur="203" id="39" space="\0020">most</W>
+<W cur="208" id="40" space="\0020">common</W>
+<W cur="215" id="41" space="\0020">type</W>
+<W cur="220" id="42" space="\0020">of</W>
+<W cur="223" id="43" space="\0020">SCD</W>
+<W cur="227" id="44" space="\0020">is</W>
+<W cur="230" id="45" space="\0020">sicke-cell</W>
+<W cur="241" id="46" space="\0020">anemia</W>
+<W cur="248" id="47">(</W>
+<W cur="249" id="48">Hb</W>
+<W cur="252" id="49" space="\0020">SS</W>
+<W cur="254" id="50">)</W>
+<W cur="256" id="51" space="\0020">whose</W>
+<W cur="262" id="52" space="\0020">patients</W>
+<W cur="271" id="53" space="\0020">present</W>
+<W cur="279" id="54" space="\0020">with</W>
+<W cur="284" id="55" space="\0020">a</W>
+<W cur="286" id="56" space="\0020">wide</W>
+<W cur="291" id="57" space="\0020">range</W>
+<W cur="297" id="58" space="\0020">of</W>
+<W cur="300" id="59" space="\0020">clinical</W>
+<W cur="309" id="60" space="\0020">problems</W>
+<W cur="318" id="61" space="\0020">since</W>
+<W cur="324" id="62" space="\0020">childhood</W>
+<W cur="333" id="63">.</W>
+<W cur="335" id="64" space="\0020">These</W>
+<W cur="341" id="65" space="\0020">problems</W>
+<W cur="350" id="66" space="\0020">result</W>
+<W cur="357" id="67" space="\0020">from</W>
+<W cur="362" id="68" space="\0020">repeated</W>
+<W cur="371" id="69" space="\0020">episodes</W>
+<W cur="380" id="70" space="\0020">of</W>
+<W cur="383" id="71" space="\0020">vascular</W>
+<W cur="392" id="72" space="\0020">obstruction</W>
+<W cur="403" id="73">.</W>
+<W cur="405" id="74">[</W>
+<W cur="406" id="75">2</W>
+<W cur="407" id="76">]</W>
+<W cur="409" id="77" space="\0020">Several</W>
+<W cur="417" id="78" space="\0020">studies</W>
+<W cur="425" id="79" space="\0020">with</W>
+<W cur="430" id="80" space="\0020">adult</W>
+<W cur="436" id="81" space="\0020">patients</W>
+<W cur="445" id="82" space="\0020">have</W>
+<W cur="450" id="83" space="\0020">shown</W>
+<W cur="456" id="84" space="\0020">the</W>
+<W cur="460" id="85" space="\0020">efficacy</W>
+<W cur="469" id="86" space="\0020">of</W>
+<W cur="472" id="87" space="\0020">hydroxyurea</W>
+<W cur="484" id="88">(</W>
+<W cur="485" id="89">HU</W>
+<W cur="487" id="90">)</W>
+<W cur="488" id="91">.</W>
+<W cur="490" id="92" space="\0020">HU</W>
+<W cur="493" id="93" space="\0020">increases</W>
+<W cur="503" id="94" space="\0020">the</W>
+<W cur="507" id="95" space="\0020">levels</W>
+<W cur="514" id="96" space="\0020">of</W>
+<W cur="517" id="97" space="\0020">fetal</W>
+<W cur="523" id="98" space="\0020">hemoglobin</W>
+<W cur="534" id="99">(</W>
+<W cur="535" id="100">HbF</W>
+<W cur="538" id="101">)</W>
+<W cur="540" id="102" space="\0020">in</W>
+<W cur="543" id="103" space="\0020">patients</W>
+<W cur="552" id="104" space="\0020">with</W>
+<W cur="557" id="105" space="\0020">SCD</W>
+<W cur="561" id="106" space="\0020">with</W>
+<W cur="566" id="107" space="\0020">little</W>
+<W cur="573" id="108" space="\0020">or</W>
+<W cur="576" id="109" space="\0020">no</W>
+<W cur="579" id="110" space="\0020">side</W>
+<W cur="584" id="111" space="\0020">effects</W>
+<W cur="591" id="112">.</W>
+<W cur="593" id="113">[</W>
+<W cur="594" id="114">3</W>
+<W cur="595" id="115">,</W>
+<W cur="597" id="116" space="\0020">4</W>
+<W cur="598" id="117">,</W>
+<W cur="600" id="118" space="\0020">5</W>
+<W cur="601" id="119">,</W>
+<W cur="603" id="120" space="\0020">6</W>
+<W cur="604" id="121">]</W>
+<W cur="606" id="122" space="\0020">HU</W>
+<W cur="609" id="123" space="\0020">is</W>
+<W cur="612" id="124" space="\0020">a</W>
+<W cur="614" id="125" space="\0020">well-known</W>
+<W cur="625" id="126" space="\0020">chemotherapeutic</W>
+<W cur="642" id="127" space="\0020">agent</W>
+<W cur="648" id="128" space="\0020">used</W>
+<W cur="653" id="129" space="\0020">to</W>
+<W cur="656" id="130" space="\0020">treat</W>
+<W cur="662" id="131" space="\0020">myeloproliferative</W>
+<W cur="681" id="132" space="\0020">disorders</W>
+<W cur="691" id="133" space="\0020">such</W>
+<W cur="696" id="134" space="\0020">as</W>
+<W cur="699" id="135" space="\0020">chronic</W>
+<W cur="707" id="136" space="\0020">myelogenous</W>
+<W cur="719" id="137" space="\0020">leukemia</W>
+<W cur="728" id="138" space="\0020">and</W>
+<W cur="732" id="139" space="\0020">polycythemia</W>
+<W cur="745" id="140" space="\0020">vera</W>
+<W cur="749" id="141">.</W>
+<W cur="751" id="142" space="\0020">The</W>
+<W cur="755" id="143" space="\0020">mechanism</W>
+<W cur="765" id="144" space="\0020">of</W>
+<W cur="768" id="145" space="\0020">HU</W>
+<W cur="771" id="146" space="\0020">is</W>
+<W cur="774" id="147" space="\0020">to</W>
+<W cur="777" id="148" space="\0020">arrest</W>
+<W cur="784" id="149" space="\0020">DNA</W>
+<W cur="788" id="150" space="\0020">replication</W>
+<W cur="800" id="151" space="\0020">by</W>
+<W cur="803" id="152" space="\0020">inhibiting</W>
+<W cur="814" id="153" space="\0020">ribonucleotide</W>
+<W cur="829" id="154" space="\0020">reductase</W>
+<W cur="838" id="155">,</W>
+<W cur="840" id="156" space="\0020">maintaining</W>
+<W cur="852" id="157" space="\0020">cells</W>
+<W cur="858" id="158" space="\0020">at</W>
+<W cur="861" id="159" space="\0020">the</W>
+<W cur="865" id="160" space="\0020">stage</W>
+<W cur="871" id="161" space="\0020">S</W>
+<W cur="872" id="162">.</W>
+<W cur="873" id="163">[</W>
+<W cur="874" id="164">1</W>
+<W cur="875" id="165">]</W>
+<W cur="877" id="166" space="\0020">HU</W>
+<W cur="880" id="167" space="\0020">is</W>
+<W cur="883" id="168" space="\0020">easy</W>
+<W cur="888" id="169" space="\0020">to</W>
+<W cur="891" id="170" space="\0020">administer</W>
+<W cur="901" id="171">,</W>
+<W cur="903" id="172" space="\0020">offers</W>
+<W cur="910" id="173" space="\0020">little</W>
+<W cur="917" id="174" space="\0020">toxic</W>
+<W cur="923" id="175" space="\0020">effects</W>
+<W cur="930" id="176">,</W>
+<W cur="932" id="177" space="\0020">and</W>
+<W cur="936" id="178" space="\0020">the</W>
+<W cur="940" id="179" space="\0020">myelosupression</W>
+<W cur="956" id="180" space="\0020">effect</W>
+<W cur="963" id="181" space="\0020">can</W>
+<W cur="967" id="182" space="\0020">be</W>
+<W cur="970" id="183" space="\0020">easily</W>
+<W cur="977" id="184" space="\0020">reversed</W>
+<W cur="985" id="185">.</W>
+<W cur="987" id="186" space="\0020">The</W>
+<W cur="991" id="187" space="\0020">use</W>
+<W cur="995" id="188" space="\0020">of</W>
+<W cur="998" id="189" space="\0020">HU</W>
+<W cur="1001" id="190" space="\0020">in</W>
+<W cur="1004" id="191" space="\0020">SCD</W>
+<W cur="1008" id="192" space="\0020">treatment</W>
+<W cur="1018" id="193" space="\0020">protocols</W>
+<W cur="1028" id="194" space="\0020">began</W>
+<W cur="1034" id="195" space="\0020">in</W>
+<W cur="1037" id="196" space="\0020">the</W>
+<W cur="1041" id="197" space="\0020">1980</W>
+<W cur="1045" id="198">s</W>
+<W cur="1047" id="199" space="\0020">with</W>
+<W cur="1052" id="200" space="\0020">adult</W>
+<W cur="1058" id="201" space="\0020">patients</W>
+<W cur="1066" id="202">,</W>
+<W cur="1068" id="203" space="\0020">and</W>
+<W cur="1072" id="204" space="\0020">was</W>
+<W cur="1076" id="205" space="\0020">later</W>
+<W cur="1082" id="206" space="\0020">authorized</W>
+<W cur="1093" id="207" space="\0020">for</W>
+<W cur="1097" id="208" space="\0020">use</W>
+<W cur="1101" id="209" space="\0020">with</W>
+<W cur="1106" id="210" space="\0020">children</W>
+<W cur="1114" id="211">.</W>
+<W cur="1116" id="212">[</W>
+<W cur="1117" id="213">7</W>
+<W cur="1118" id="214">]</W>
+<W cur="1120" id="215" space="\0020">Studies</W>
+<W cur="1128" id="216" space="\0020">have</W>
+<W cur="1133" id="217" space="\0020">shown</W>
+<W cur="1139" id="218" space="\0020">the</W>
+<W cur="1143" id="219" space="\0020">same</W>
+<W cur="1148" id="220" space="\0020">efficacy</W>
+<W cur="1157" id="221" space="\0020">of</W>
+<W cur="1160" id="222" space="\0020">HU</W>
+<W cur="1163" id="223" space="\0020">in</W>
+<W cur="1166" id="224" space="\0020">children</W>
+<W cur="1175" id="225" space="\0020">and</W>
+<W cur="1179" id="226" space="\0020">adults</W>
+<W cur="1186" id="227" space="\0020">without</W>
+<W cur="1194" id="228" space="\0020">major</W>
+<W cur="1200" id="229" space="\0020">side</W>
+<W cur="1205" id="230" space="\0020">effects</W>
+<W cur="1212" id="231">.</W>
+<W cur="1214" id="232">[</W>
+<W cur="1215" id="233">2</W>
+<W cur="1216" id="234">,</W>
+<W cur="1218" id="235" space="\0020">7</W>
+<W cur="1219" id="236">,</W>
+<W cur="1221" id="237" space="\0020">8</W>
+<W cur="1222" id="238">,</W>
+<W cur="1224" id="239" space="\0020">9</W>
+<W cur="1225" id="240">,</W>
+<W cur="1227" id="241" space="\0020">10</W>
+<W cur="1229" id="242">]</W>
+<W cur="1231" id="243" space="\000a">Based</W>
+<W cur="1237" id="244" space="\0020">on</W>
+<W cur="1240" id="245" space="\0020">several</W>
+<W cur="1248" id="246" space="\0020">cases</W>
+<W cur="1253" id="247">,</W>
+<W cur="1255" id="248" space="\0020">the</W>
+<W cur="1259" id="249" space="\0020">study</W>
+<W cur="1265" id="250" space="\0020">had</W>
+<W cur="1269" id="251" space="\0020">the</W>
+<W cur="1273" id="252" space="\0020">objective</W>
+<W cur="1283" id="253" space="\0020">of</W>
+<W cur="1286" id="254" space="\0020">investigating</W>
+<W cur="1300" id="255" space="\0020">the</W>
+<W cur="1304" id="256" space="\0020">efficacy</W>
+<W cur="1313" id="257" space="\0020">of</W>
+<W cur="1315" id="258">,</W>
+<W cur="1317" id="259" space="\0020">and</W>
+<W cur="1321" id="260" space="\0020">tolerance</W>
+<W cur="1331" id="261" space="\0020">to</W>
+<W cur="1333" id="262">,</W>
+<W cur="1335" id="263" space="\0020">the</W>
+<W cur="1339" id="264" space="\0020">use</W>
+<W cur="1343" id="265" space="\0020">of</W>
+<W cur="1346" id="266" space="\0020">HU</W>
+<W cur="1349" id="267" space="\0020">in</W>
+<W cur="1352" id="268" space="\0020">pediatric</W>
+<W cur="1362" id="269" space="\0020">and</W>
+<W cur="1366" id="270" space="\0020">adult</W>
+<W cur="1372" id="271" space="\0020">SCD</W>
+<W cur="1376" id="272" space="\0020">patients</W>
+<W cur="1384" id="273">,</W>
+<W cur="1386" id="274" space="\0020">and</W>
+<W cur="1390" id="275" space="\0020">to</W>
+<W cur="1393" id="276" space="\0020">assess</W>
+<W cur="1400" id="277" space="\0020">the</W>
+<W cur="1404" id="278" space="\0020">variations</W>
+<W cur="1415" id="279" space="\0020">in</W>
+<W cur="1418" id="280" space="\0020">blood</W>
+<W cur="1424" id="281" space="\0020">parameters</W>
+<W cur="1435" id="282" space="\0020">in</W>
+<W cur="1438" id="283" space="\0020">both</W>
+<W cur="1443" id="284" space="\0020">age</W>
+<W cur="1447" id="285" space="\0020">groups</W>
+<W cur="1453" id="286">,</W>
+<W cur="1455" id="287" space="\0020">and</W>
+<W cur="1459" id="288" space="\0020">in</W>
+<W cur="1462" id="289" space="\0020">HbF</W>
+<W cur="1466" id="290" space="\0020">in</W>
+<W cur="1469" id="291" space="\0020">the</W>
+<W cur="1473" id="292" space="\0020">pediatric</W>
+<W cur="1483" id="293" space="\0020">group</W>
+<W cur="1488" id="294">.</W>
+</Text>
