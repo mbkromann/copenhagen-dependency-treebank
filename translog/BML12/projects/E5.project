@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileName>C:\Users\michael\Dropbox\IndiaTrans\projects\P5.project</FileName>
+  <Description>example project description</Description>
+  <versionString />
+  <useSourceText>true</useSourceText>
+  <promptSubjectName>false</promptSubjectName>
+  <syncEnabled>false</syncEnabled>
+  <broadcastEnabled>true</broadcastEnabled>
+  <udpIP />
+  <udpPort>18193</udpPort>
+  <signalInterval>10</signalInterval>
+  <useExtendedTranslations>false</useExtendedTranslations>
+  <showTimer>false</showTimer>
+  <maxWindow>false</maxWindow>
+  <ChineseKeys>false</ChineseKeys>
+  <fullScreen>false</fullScreen>
+  <lockWindows>false</lockWindows>
+  <Plugins>
+    <Key_Logger />
+	<EyeSampler />
+  </Plugins>
+  <Interface>
+    <Standard>
+      <pluginDependances />
+      <Settings>
+        <TargetBackgroundColor RGB="-1" />
+        <SourceBackgroundColor RGB="-1" />
+        <lineHeight source="1" target="1" />
+        <SourceText>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\ltrpar\nowidctlpar\sl360\slmult1\lang1033\f0\fs34 Sociology is a relatively new academic discipline. It emerged in the early 19th century in response to the challenges of modernity. Increasing mobility and technological advances resulted in the increasing exposure of people to cultures and societies different from their own. The impact of this exposure was varied, but for some people included the breakdown of traditional norms and customs and warranted a revised understanding of how the world works. Sociologists responded to these changes by trying to understand what holds social groups together and also exploring possible solutions to the breakdown of social solidarity. The term sociology was coined by Auguste Comte (1798-1857) in 1838 from the Latin term socius (companion, associate) and the Greek term logia (study of, speech).\par
+}
+</SourceText>
+        <TargetText>{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\nowidctlpar\sl360\slmult1\lang1081\f0\fs34 La sociolog\'eda es una disciplina acad\'e9mica relativamente nueva. Surgi\'f3 en el siglo 19 en respuesta a los desaf\'edos de la modernidad. Incrementar la movilidad y los avances tecnol\'f3gicos dio lugar a la exposici\'f3n cada vez mayor de personas a las culturas y sociedades diferentes a la suya. El impacto de esta exposici\'f3n era variada, pero para algunas personas inclusive, el desglose de las normas y costumbres tradicionales y se justifica una comprensi\'f3n revisada de c\'f3mo funciona el mundo. Los soci\'f3logos respondido a estos cambios, tratando de entender lo que mantiene los grupos sociales entre s\'ed y tambi\'e9n explorar las posibles soluciones a la ruptura de la solidaridad social. La sociolog\'eda t\'e9rmino fue acu\'f1ado por Auguste Comte (1798-1857) en 1838 de los socius t\'e9rmino latino (compa\'f1ero, socio) y el t\'e9rmino griego logia (estudio de la, del habla).\par
+}
+</TargetText>
+        <TranslationWindow X="-8" Y="-8" Width="1280" Height="1024" Split="0" STO="True" VHO="Horizontal" />
+      </Settings>
+      <SourceField X="2" Y="48" Width="1280" Height="426" />
+      <TargetField X="2" Y="478" Width="1280" Height="508" />
+    </Standard>
+  </Interface>
+</Project>
