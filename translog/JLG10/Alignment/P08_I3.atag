@@ -1,4 +1,4 @@
-<DTAGalign>
+<DTAGalign source="pt" target="en" >
     <alignFile key="a" href="P08_I3.src" sign="_input"/>
     <alignFile key="b" href="P08_I3.tgt" sign="_input"/>
 </DTAGalign>

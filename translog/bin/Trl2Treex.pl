@@ -123,7 +123,7 @@ sub ReadTranslogFile {
 
   open(FILE, '<:encoding(utf8)', $fn) || die ("cannot open file $fn");
   if($Verbose) {printf STDERR "ReadTranslog Reading: $fn\n";}
-  printf STDERR "ReadTranslog Reading: $fn\n";
+#  printf STDERR "ReadTranslog Reading: $fn\n";
 
   $type = 0;
   while(defined($_ = <FILE>)) {
@@ -232,6 +232,7 @@ sub CreateTreex {
 
   $fn =~ s/^.*\///;
   $fn =~ s/.Event.xml//;
+  $fn =~ s/[._]//;
 
   my $zone_tgt = $bundle->create_zone($TargetLanguage, $fn);
   my $root_tgt = $zone_tgt->create_atree;

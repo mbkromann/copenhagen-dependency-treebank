@@ -1,4 +1,4 @@
-<DTAGalign alignment="giza" >
+<DTAGalign alignment="giza"  source="en" target="da" >
 <alignFile key="a" href="ED05.src" />
 <alignFile key="b" href="ED05.tgt" />
 <align out="a1" type="" in="b1" />

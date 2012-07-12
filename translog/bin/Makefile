@@ -5,56 +5,57 @@ all: clean copy events tokenTable totreex finetreex
 
 copy:
 	rm -rf data
-	./CopyTrl.sh ACS08
-	./CopyTrl.sh BD08
-	./CopyTrl.sh BML12
-	./CopyTrl.sh JLG10
-	./CopyTrl.sh KTHJ08
-	./CopyTrl.sh LWB09
-	./CopyTrl.sh MS12
-	./CopyTrl.sh NJ12
-	./CopyTrl.sh SG12
-	./CopyTrl.sh TPR11
+	./CopyTrl.bash ACS08
+	./CopyTrl.bash BD08
+	./CopyTrl.bash BML12
+	./CopyTrl.bash JLG10
+	./CopyTrl.bash KTHJ08
+	./CopyTrl.bash LWB09
+	./CopyTrl.bash MS12
+	./CopyTrl.bash NJ12
+	./CopyTrl.bash SG12
+	./CopyTrl.bash TPR11
 
 
 events:
-	./MergeEvents2Trl.sh ACS08
-	./MergeEvents2Trl.sh BD08
-	./MergeEvents2Trl.sh BML12
-	./MergeEvents2Trl.sh JLG10
-	./MergeEvents2Trl.sh KTHJ08
-	./MergeEvents2Trl.sh LWB09
-	./MergeEvents2Trl.sh MS12
-	./MergeEvents2Trl.sh NJ12
-	./MergeEvents2Trl.sh SG12
-	./MergeEvents2Trl.sh TPR11
+	./MergeEvents2Trl.bash ACS08
+	./MergeEvents2Trl.bash BD08
+	./MergeEvents2Trl.bash BML12
+	./MergeEvents2Trl.bash JLG10
+	./MergeEvents2Trl.bash KTHJ08
+	./MergeEvents2Trl.bash LWB09
+	./MergeEvents2Trl.bash MS12
+	./MergeEvents2Trl.bash NJ12
+	./MergeEvents2Trl.bash SG12
+	./MergeEvents2Trl.bash TPR11
 
 
 tokenTable:
-	./Trl2TokenTables.sh ACS08
-	./Trl2TokenTables.sh BD08
-	./Trl2TokenTables.sh BML12
-	./Trl2TokenTables.sh JLG10
-	./Trl2TokenTables.sh KTHJ08
-	./Trl2TokenTables.sh LWB09
-	./Trl2TokenTables.sh MS12
-	./Trl2TokenTables.sh NJ12
-	./Trl2TokenTables.sh SG12
-	./Trl2TokenTables.sh TPR11
+	./Trl2TokenTables.bash ACS08
+	./Trl2TokenTables.bash BD08
+	./Trl2TokenTables.bash BML12
+	./Trl2TokenTables.bash JLG10
+	./Trl2TokenTables.bash KTHJ08
+	./Trl2TokenTables.bash LWB09
+	./Trl2TokenTables.bash MS12
+	./Trl2TokenTables.bash NJ12
+	./Trl2TokenTables.bash SG12
+	./Trl2TokenTables.bash TPR11
 
-totreex:
+singleTreex:
 	mkdir -p data/$1/Treex 
-	./ED12.ToTreex.sh
+	./ToSingleTreex.bash ACS08
+	./ToSingleTreex.bash BD08
+	./ToSingleTreex.bash BML12
+	./ToSingleTreex.bash JLG10
+	./ToSingleTreex.bash KTHJ08
+	./ToSingleTreex.bash LWB09
+	./ToSingleTreex.bash MS12
+	./ToSingleTreex.bash NJ12
+	./ToSingleTreex.bash SG12
+	./ToSingleTreex.bash TPR11
 
-#	./Annette_translate.ToTreex.sh
-#	./EN-Text1.ToTreex.sh
-#	./EN-Text2.ToTreex.sh
-#	./EN-Text3.ToTreex.sh
-#	./EN-Text4.ToTreex.sh
-#	./EN-Text5.ToTreex.sh
-#	./EN-Text6.ToTreex.sh
-
-finetreex:
+fineTreex:
 	@echo ----------- Step 4: Refining the data in treex ----------
 	mkdir -p $(DIR)/final
 	treex \
@@ -64,35 +65,39 @@ finetreex:
 	Misc::CopenhagenDT::FixLonelyNodes \
         Misc::CopenhagenDT::DeleteFirstBundle \
         Misc::CopenhagenDT::FlattenUnannotatedTrees \
-        Util::Eval document="\$$doc->set_path(qw($(DIR)/final))" \
+        Util::Eval document="\$$doc->set_path(qw($(DIR)/Treex))" \
         Write::Treex clobber=1 storable=0 \
-        -- $(DIR)/Treex/ED12_*.treex.gz
+        -- $(DIR)/Treex/raw/*.treex.gz
+
+testToTreex:
+	mkdir -p data/$1/Treex 
+	./BD08.ToTreex.bash
 
 TargetAUTable:
 	rm -f data/TargetAUTables.tsv
-	./Trl2TargetAUTables.sh ED12
-	./Trl2TargetAUTables.sh Annette_translate
-	./Trl2TargetAUTables.sh ED12
-	./Trl2TargetAUTables.sh EN-DA
-	./Trl2TargetAUTables.sh EN-ES
-	./Trl2TargetAUTables.sh EN-HI
-	./Trl2TargetAUTables.sh EN-ZH
-	./Trl2TargetAUTables.sh Silke
-	./Trl2TargetAUTables.sh L1L2
-	./Trl2TargetAUTables.sh EN-DE_TPR-PE
-	./Trl2TargetAUTables.sh EN-PT_TPR-PE
+	./Trl2TargetAUTables.bash ED12
+	./Trl2TargetAUTables.bash Annette_translate
+	./Trl2TargetAUTables.bash ED12
+	./Trl2TargetAUTables.bash EN-DA
+	./Trl2TargetAUTables.bash EN-ES
+	./Trl2TargetAUTables.bash EN-HI
+	./Trl2TargetAUTables.bash EN-ZH
+	./Trl2TargetAUTables.bash Silke
+	./Trl2TargetAUTables.bash L1L2
+	./Trl2TargetAUTables.bash EN-DE_TPR-PE
+	./Trl2TargetAUTables.bash EN-PT_TPR-PE
 
 
 ProgGraphTable:
-	./Trl2ProgGraphTables.sh Annette_translate
-	./Trl2ProgGraphTables.sh ED12
-	./Trl2ProgGraphTables.sh EN-DA
-	./Trl2ProgGraphTables.sh EN-ES
-	./Trl2ProgGraphTables.sh EN-ZH
-	./Trl2ProgGraphTables.sh EN-HI
-	./Trl2ProgGraphTables.sh Silke
-	./Trl2ProgGraphTables.sh EN-DE_TPR-PE
-	./Trl2ProgGraphTables.sh EN-PT_TPR-PE
+	./Trl2ProgGraphTables.bash Annette_translate
+	./Trl2ProgGraphTables.bash ED12
+	./Trl2ProgGraphTables.bash EN-DA
+	./Trl2ProgGraphTables.bash EN-ES
+	./Trl2ProgGraphTables.bash EN-ZH
+	./Trl2ProgGraphTables.bash EN-HI
+	./Trl2ProgGraphTables.bash Silke
+	./Trl2ProgGraphTables.bash EN-DE_TPR-PE
+	./Trl2ProgGraphTables.bash EN-PT_TPR-PE
 
 
 search:
