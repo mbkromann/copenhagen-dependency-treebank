@@ -1,12 +1,12 @@
 #!/bin/bash
 
 if [ "$1" == "" ] || [ "$2" == "" ]; then
-  echo "Source and target languages required"
+  echo "$0 Path source target "
   exit
 fi
 
 
-for file in Translog-II/*.xml ; do
-   ../bin/LangPair2Trl.pl -T $file -s $1 -t $2 > $file.langPair
+for file in $1/Translog-II/*.xml ; do
+   bin/LangPair2Trl.pl -T $file -s $2 -t $3 > $file.langPair
    mv $file.langPair $file
 done

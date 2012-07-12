@@ -375,7 +375,7 @@ sub PrintAU {
   $fn =~ s/^.*\///g;
   $fn =~ s/.Event.xml//;
 
-  printf STDOUT "AUid\tAUtarget\tAUsource\tSL\tTL\tFile\tLength\tInsertions\tDeletions\tTime1\tPause1\tTime2\tPause2\tTyped\n";
+  printf STDOUT "AUid\tAUtarget\tAUsource\tSL\tTL\tFile\tLength\tInsertion\tDeletion\tTime1\tPause1\tTime2\tPause2\tTyped\n";
   foreach $f (sort {$a <=> $b} keys %{$AU}) {
 
 #print STDERR "TTTT\n";

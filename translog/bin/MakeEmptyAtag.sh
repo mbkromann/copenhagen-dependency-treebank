@@ -9,7 +9,7 @@ fi
 for file in $1/Alignment/*.src
 do
 	atag=${file/.src}
-	root=${atag/Alignment\/}
+	root=${atag/$1\/Alignment\/}
         if [ -f $atag.atag ] 
         then
 		echo skipping $atag.atag 
