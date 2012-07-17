@@ -44,29 +44,35 @@ my $OutFile = $opt_O;
 
 my $LastSRC;
 my $doc = Treex::Core::Document->new;
-  my $bundle = $doc->create_bundle;
+my $bundle = $doc->create_bundle;
+my $first_bundle = $bundle;
+my @unaligned_nodes; 
+
 my $F = [split(/\,/, $opt_T)];
 
+print STDERR "Trl2Treex.pl: creating source $F->[1]\n";
 ReadTranslogFile($F->[0]); 
-CreateTreex($F->[0]);
+FakeSentBoundary();
+CreateSourceZone($F->[0]);
+AppendTargetZone($F->[0]);
 $LastSRC = $TOK->{src};
 
 for (my $i= 1; $i<= $#{$F}; $i++) {
   $KEY = $FIX = $TOK = $ALN = undef;
 
   ReadTranslogFile($F->[$i]); 
+  FakeSentBoundary();
+  print STDERR "Trl2Treex.pl: adding target $F->[$i]\n";
   if(CheckSRCToken($LastSRC, $TOK->{src})) {
     print STDERR "ReadTranslog: TokenDiff $F->[0], $F->[$i]\n";
     next;
   }
-  $TOK->{src} = undef;
-  CreateTreex($F->[$i]);
+  AppendTargetZone($F->[$i]);
 }
 
-$doc->save("$OutFile.treex.gz");
+AttachUnAlignedNodes(@unaligned_nodes);
 
-#ReadTranslog($opt_T);
-#CreateTreex($OutFile);
+$doc->save("$OutFile.treex.gz");
 
 exit;
 
@@ -107,9 +113,9 @@ sub unescape {
 sub CheckSRCToken {
   my ($T1, $T2) = @_;
 
-  foreach my $cur (sort {$a <=> $b} keys %{$T1}) { 
-    if(!defined($T2->{$cur})) { print STDERR "CheckSRCToken: undefined cursor $cur\n"; return 1;}
-    if($T1->{$cur}{tok} ne $T2->{$cur}{tok}) { print STDERR "CheckSRCToken: unequal token $T1->{$cur}{tok}\t$T2->{$cur}{tok}\n"; return 1;}
+  foreach my $id (sort {$a <=> $b} keys %{$T1}) { 
+    if(!defined($T2->{$id})) { print STDERR "CheckSRCToken: undefined token ID $id\n"; return 1;}
+    if($T1->{$id}{tok} ne $T2->{$id}{tok}) { print STDERR "CheckSRCToken: unequal token $T1->{$id}{tok}\t$T2->{$id}{tok}\n"; return 1;}
   }
   return 0;
 }
@@ -119,7 +125,7 @@ sub CheckSRCToken {
 ## SourceText Positions
 sub ReadTranslogFile {
   my ($fn) = @_;
-  my ($type, $time, $cur);
+  my ($type, $time, $id);
 
   open(FILE, '<:encoding(utf8)', $fn) || die ("cannot open file $fn");
   if($Verbose) {printf STDERR "ReadTranslog Reading: $fn\n";}
@@ -175,26 +181,24 @@ sub ReadTranslogFile {
       $ALN->{'tid'}{$ti}{'sid'}{$si} = $ss;
     }
     elsif($type == 7 && /<Token/) {
-      if(/cur="([0-9][0-9]*)"/) {$cur =$1;}
-#      if(/tok="([^"]*)"/)   {$TOK->{src}{$cur}{tok} = $1;}
-      if(/last="([^"]*)"/)  {$TOK->{src}{$cur}{last} = $1;}
-      if(/tok="([^"]*)"/)   {$TOK->{src}{$cur}{tok} = MSunescape($1);}
-      if(/space="([^"]*)"/) {$TOK->{src}{$cur}{space} = MSunescape($1);}
-      if(/out="([^"]*)"/)   {$TOK->{src}{$cur}{out} = $1;}
-      if(/in="([^"]*)"/)    {$TOK->{src}{$cur}{in} = $1;}
-      if(/id="([^"]*)"/)    {$TOK->{src}{$cur}{id} = $1;}
+      if(/id="([^"]*)"/)    {$id = $1;}
+      if(/cur="([0-9][0-9]*)"/) {$TOK->{src}{$id}{cur} = $1;}
+      if(/last="([^"]*)"/)  {$TOK->{src}{$id}{last} = $1;}
+      if(/tok="([^"]*)"/)   {$TOK->{src}{$id}{tok} = MSunescape($1);}
+      if(/space="([^"]*)"/) {$TOK->{src}{$id}{space} = MSunescape($1);}
+      if(/out="([^"]*)"/)   {$TOK->{src}{$id}{out} = $1;}
+      if(/in="([^"]*)"/)    {$TOK->{src}{$id}{in} = $1;}
     }
 
     elsif($type == 8 && /<Token/) {
-      if(/cur="([0-9][0-9]*)"/) {$cur =$1;}
-#      if(/tok="([^"]*)"/)   {$TOK->{fin}{$cur}{tok} = $1;}
-#      if(/space="([^"]*)"/) {$TOK->{fin}{$cur}{space} = $1;}
-      if(/last="([^"]*)"/)  {$TOK->{src}{$cur}{last} = $1;}
-      if(/tok="([^"]*)"/)   {$TOK->{fin}{$cur}{tok} = MSunescape($1);}
-      if(/space="([^"]*)"/) {$TOK->{fin}{$cur}{space} = MSunescape($1);}
-      if(/out="([^"]*)"/)   {$TOK->{fin}{$cur}{out} = $1;}
-      if(/in="([^"]*)"/)    {$TOK->{fin}{$cur}{in} = $1;}
-      if(/id="([^"]*)"/)    {$TOK->{fin}{$cur}{id} = $1;}
+      if(/id="([^"]*)"/)    {$id = $1;}
+      if(/cur="([^"]*)"/) {$TOK->{fin}{$id}{cur} = $1;}
+      if(/last="([^"]*)"/)  {$TOK->{fin}{$id}{last} = $1;}
+      if(/tok="([^"]*)"/)   {$TOK->{fin}{$id}{tok} = MSunescape($1);}
+      if(/space="([^"]*)"/) {$TOK->{fin}{$id}{space} = MSunescape($1);}
+      if(/out="([^"]*)"/)   {$TOK->{fin}{$id}{out} = $1;}
+      if(/in="([^"]*)"/)    {$TOK->{fin}{$id}{in} = $1;}
+      if(/id="([^"]*)"/)    {$TOK->{fin}{$id}{id} = $1;}
     }
 
     if(/<\/FinalText>/) {$type =0; }
@@ -212,16 +216,28 @@ sub ReadTranslogFile {
   }
   close(FILE);
 
-#foreach my $f (sort {$a <=> $b} keys %{$TEXT}) { print STDERR "$TEXT->{$f}{c}" }
-#printf STDERR "\n";
+}
 
+sub FakeSentBoundary {
+
+  foreach my $id (keys %{$TOK->{src}}) {
+    if($TOK->{src}{$id}{tok} =~ /^[.?!]$/) { $TOK->{src}{$id}{"last"} = "sent";}
+#    if($TOK->{src}{$id}{tok} =~ /^[.?!]$/) { print STDERR "last src\n"; }
+  }
+
+  my $xx = 0;
+  foreach my $id (keys %{$TOK->{fin}}) {
+#    if($TOK->{fin}{$id}{tok} =~ /^[.?!]$/ && $xx == 1) { $xx = 0; }
+    if($TOK->{fin}{$id}{tok} =~ /^[.?!]$/) {$TOK->{fin}{$id}{"last"} = "sent";}
+#    if($TOK->{fin}{$id}{tok} =~ /^[.?!]$/) { print STDERR "last tgt\n";}
+  }
 }
 
 ################################################
-#  PRINTING
+#  Create Source Zone
 ################################################
 
-sub CreateTreex {
+sub CreateSourceZone {
   my ($fn) = @_;
   my $ord;
 
@@ -230,90 +246,182 @@ sub CreateTreex {
     exit 1;
   }
 
-  $fn =~ s/^.*\///;
-  $fn =~ s/.Event.xml//;
-  $fn =~ s/[._]//;
+  $doc->wild->{annotation}{sourceLanguage} = $SourceLanguage;
 
-  my $zone_tgt = $bundle->create_zone($TargetLanguage, $fn);
-  my $root_tgt = $zone_tgt->create_atree;
-  $root_tgt->wild->{SourceLanguage} = $SourceLanguage;
+  my $zone_src = $bundle->create_zone($SourceLanguage, "source");
+  my $root_src = $zone_src->create_atree;
 
+#    $root_src->wild->{SourceLanguage} = $SourceLanguage;
+#    $bundle->wild->{SourceLanguage} = $SourceLanguage;
 
   my $sent = 1;
-  if(defined($TOK->{src})) { 
-    my $zone_src = $bundle->create_zone($SourceLanguage);
-    my $root_src = $zone_src->create_atree;
-
-    $root_src->wild->{SourceLanguage} = $SourceLanguage;
-    $bundle->wild->{SourceLanguage} = $SourceLanguage;
-
-    $sent = 1;
-
-    foreach my $cur (sort {$a <=> $b} keys %{$TOK->{src}}) {
-      $ord++;
+  my $first = 0;
+  
+  foreach my $id (sort {$a <=> $b} keys %{$TOK->{src}}) {
+      if($first == 1) {
+        $bundle = $doc->create_bundle();
+        $zone_src = $bundle->create_zone($SourceLanguage, "source");
+        $root_src = $zone_src->create_atree;
+        $sent ++;
+        $first = 0;
+        $doc->wild->{annotation}{segmentation} = "source";
+      }
+      $ord = $id;
       my $node = $root_src->create_child(ord=>$ord);
-      if(defined($TOK->{src}{$cur}{last}) && defined($TOK->{src}{$cur}{last}) eq "sent") { $sent ++;}
-  
-      $node->set_form($TOK->{src}{$cur}{tok});
-      $node->set_id("src_$TOK->{src}{$cur}{id}");
-      $node->wild->{linenumber} = $TOK->{src}{$cur}{id};
+
+      $node->set_form($TOK->{src}{$id}{tok});
+      $node->set_id("src_$id");
+      $node->wild->{linenumber} = $id;
       $node->wild->{sent_number} = $sent;
-      foreach my $attr (keys %{$TOK->{src}{$cur}}) { $node->wild->{$attr} = $TOK->{src}{$cur}{$attr};}
-    }
+      if(defined($TOK->{src}{$id}{"last"}) && $TOK->{src}{$id}{"last"} eq "sent") { 
+        $node->wild->{boundary} = "sent";
+        $first = 1;
+      }
+      foreach my $attr (keys %{$TOK->{src}{$id}}) { $node->wild->{$attr} = $TOK->{src}{$id}{$attr};}
+  }
+}
+
+################################################
+#  Append Target Zone
+################################################
+
+sub AppendTargetZone {
+  my ($fn) = @_;
+  my $ord;
+
+  if($TargetLanguage eq '' || $SourceLanguage eq '') {
+    print STDERR "$fn Undefined Languages\n";
+    exit 1;
   }
 
+  my ($study) = $fn =~ /data\/([a-zA-Z0-9]*)\//;
+  my $recording = $fn;
+  $recording =~ s/^.*\///;
+  $recording =~ s/.Event.xml//;
+  $recording =~ s/[._]//;
 
-  foreach my $t (keys %{$FIX}) {
+  $bundle = $first_bundle;
+  my $zone_tgt = $bundle->create_zone($TargetLanguage, "$study$recording");
+  my $root_tgt = $zone_tgt->create_atree;
+  $zone_tgt->{wild}{annotation}{filename} = $fn;
 
-    if($FIX->{$t}{win} != 1 && $FIX->{$t}{win} != 2) {next;}
+#print STDERR "XXXXXX $study$fn\n";
 
-    foreach my $attr (keys %{$FIX->{$t}}) { 
-      if($attr eq 'tid') { $root_tgt->wild->{FIX}{$t}{tid} = $fn."_".$FIX->{$t}{tid};}
-      elsif($attr eq 'sid') { $root_tgt->wild->{FIX}{$t}{sid} = "src_$FIX->{$t}{sid}";}
-      else { $root_tgt->wild->{FIX}{$t}{$attr} = $FIX->{$t}{$attr};}
-    }
-  }
+#  foreach my $t (keys %{$FIX}) {
+#
+#    if($FIX->{$t}{win} != 1 && $FIX->{$t}{win} != 2) {next;}
+#
+#    foreach my $attr (keys %{$FIX->{$t}}) { 
+#      if($attr eq 'tid') { $root_tgt->wild->{FIX}{$t}{tid} = $fn."_".$FIX->{$t}{tid};}
+#      elsif($attr eq 'sid') { $root_tgt->wild->{FIX}{$t}{sid} = "src_$FIX->{$t}{sid}";}
+#      else { $root_tgt->wild->{FIX}{$t}{$attr} = $FIX->{$t}{$attr};}
+#    }
+#  }
+#
+#  foreach my $t (keys %{$KEY}) {
+#    if(!defined($KEY->{$t}{'tid'})) { 
+#      print STDERR "$fn\t KEY id undefined: $t\n";
+#      d($KEY->{$t});
+#      next;
+#    }
+#
+#    foreach my $attr (keys %{$KEY->{$t}}) { 
+#      if($attr eq 'tid') { $root_tgt->wild->{KEY}{$t}{tid} = $fn."_".$KEY->{$t}{tid};}
+#      elsif($attr eq 'sid') { $root_tgt->wild->{KEY}{$t}{sid} = "src_$KEY->{$t}{sid}";}
+#      else { $root_tgt->wild->{KEY}{$t}{$attr} = $KEY->{$t}{$attr};}
+#    }
+#  }
 
-  foreach my $t (keys %{$KEY}) {
-    if(!defined($KEY->{$t}{'tid'})) { 
-      print STDERR "$fn\t KEY id undefined: $t\n";
-      d($KEY->{$t});
-      next;
-    }
-#print STDERR "XXXXXX $s\n";
-#d($KEY->{$t});
-
-    foreach my $attr (keys %{$KEY->{$t}}) { 
-      if($attr eq 'tid') { $root_tgt->wild->{KEY}{$t}{tid} = $fn."_".$KEY->{$t}{tid};}
-      elsif($attr eq 'sid') { $root_tgt->wild->{KEY}{$t}{sid} = "src_$KEY->{$t}{sid}";}
-      else { $root_tgt->wild->{KEY}{$t}{$attr} = $KEY->{$t}{$attr};}
-    }
-  }
-
-  $sent = 1;
-  
-  foreach my $cur (sort {$a <=> $b} keys %{$TOK->{fin}}) {
-    $ord++;
+  my $sent = 1;
+  foreach my $id (sort {$a <=> $b} keys %{$TOK->{fin}}) {
+    $ord = $id;
     my $node = $root_tgt->create_child(ord=>$ord);
-    if(defined($TOK->{fin}{$cur}{last}) && defined($TOK->{fin}{$cur}{last}) eq "sent") { $sent ++;}
 
-    $node->set_form($TOK->{fin}{$cur}{tok});
-    $node->set_id($fn."_".$TOK->{fin}{$cur}{id});
-    $node->wild->{linenumber} = $TOK->{fin}{$cur}{id};
+    my $tid = $TOK->{fin}{$id}{id};
+    if(defined($ALN->{tid}{$tid})) {
+      foreach my $sid (keys %{$ALN->{tid}{$tid}{sid}}) {
+##printf STDERR "TGT: $TOK->{fin}{$id}{id} $id a:$sid node:%s\n", $doc->get_node_by_id("src_$sid");
+        $node->add_aligned_node($doc->get_node_by_id("src_$sid"), 'alignment');
+      }
+      my @anodes = $node->get_aligned_nodes_of_type("alignment");
+
+      foreach my $anode (@anodes) {
+
+### aligned nodes must be in same bundle printf STDERR "AAAA: %s\t%s\n", $anode->get_bundle()->id(), $bundle->id();
+        if($anode->get_bundle()->id() ne $bundle->id()) {
+          $bundle = $anode->get_bundle();
+          $zone_tgt = $anode->get_bundle()->get_or_create_zone($TargetLanguage, "$study$recording");
+          $zone_tgt->{wild}{annotation}{filename} = $fn;
+          if($zone_tgt->has_atree) {
+            printf STDERR "WARNING: used tree $study$fn\tbundle:%s\ttoken:%s\tform:%s\n", 
+                   $bundle->id(), $tid,  $TOK->{fin}{$id}{tok};
+            $root_tgt = $zone_tgt->get_atree();
+          }
+          else {$root_tgt = $zone_tgt->create_atree;}
+          $node->set_parent($root_tgt);
+          last;
+        }
+      }
+    }
+    else { push(@unaligned_nodes, $node);}
+      
+
+#printf STDERR "TGT: $TOK->{fin}{$id}{id} $id a:$sid node:%s\n", $doc->get_node_by_id("src_$sid");
+
+    if(defined($TOK->{fin}{$id}{last}) && $TOK->{fin}{$id}{last} eq "sent") { $sent ++;}
+
+    $node->set_form($TOK->{fin}{$id}{tok});
+    $node->set_id($fn."_".$TOK->{fin}{$id}{id});
+    $node->wild->{linenumber} = $TOK->{fin}{$id}{id};
     $node->wild->{sent_number} = $sent;
-    foreach my $attr (keys %{$TOK->{fin}{$cur}}) { $node->wild->{$attr} = $TOK->{fin}{$cur}{$attr};}
+    if(defined($TOK->{fin}{$id}{"last"})) { $node->wild->{boundary} = $TOK->{fin}{$id}{"last"}}
 
-    my $tid = $TOK->{fin}{$cur}{id};
+    foreach my $attr (keys %{$TOK->{fin}{$id}}) { $node->wild->{$attr} = $TOK->{fin}{$id}{$attr};}
 
-#print STDERR "TGT tgt: $TOK->{fin}{$cur}{id} $TOK->{fin}{$cur}{tok} $tid\n";
+#print STDERR "TGT tgt: $TOK->{fin}{$id}{id} $TOK->{fin}{$id}{tok} $tid\n";
 #d($ALN->{tid}{$tid});
 
-    if(!defined($ALN->{tid}{$tid})) {next;}
-    foreach my $sid (keys %{$ALN->{tid}{$tid}{sid}}) {
-#printf STDERR "TGT: $TOK->{fin}{$cur}{id} $cur a:$sid node:%s\n", $doc->get_node_by_id("src_$sid");
-      $node->add_aligned_node($doc->get_node_by_id("src_$sid"), 'alignment');
+  }
+  return @unaligned_nodes;
+}
+
+sub AttachUnAlignedNodes {
+  my (@unaligned_nodes) = @_;
+
+  foreach my $node (@unaligned_nodes) {
+    my $left = $node->get_left_neighbor();
+    my $right = $node->get_right_neighbor();
+
+#printf STDERR "Node0 b:%s n:%s n:%s\tf:%s\n", $node->get_bundle()->id(), $node->{wild}{id},  $node->selector, $node->form;
+
+    if (!defined($left)) { next;}   ## first node in tree
+    if (defined($right) && $right->get_aligned_nodes_of_type("alignment")) {next;}
+
+    if(defined($left->wild->{boundary}) && $left->wild->{boundary} eq "sent") {
+      my $next_zone = get_next_zone($node->get_zone());
+      if(!defined($next_zone)){
+        printf STDERR "Undefined Next Zone %s %s\n"; $node->get_bundle()->id(), $node->form;
+        next;
+      }
+      my $first = $next_zone->get_atree()->get_descendants({first_only=>1});
+
+      $node->set_parent($first->get_root);
+      $node->shift_before_node($first);
+      print STDERR "Moving node to next bundle\n"; d($node->wild)
     }
   }
-#  $doc->save("$fn.treex.gz");
+}
+
+sub get_next_zone {
+  my ($zone) = @_;
+
+  my @bundles = $zone->get_document()->get_bundles();
+  my $id = $zone->get_bundle()->id();
+  my $einsmehr = 0;
+  foreach my $bundle (@bundles) {
+      if($einsmehr == 1) { return $bundle->get_zone($zone->language, $zone->selector);}
+      if($bundle->id() eq $id) {$einsmehr = 1;}
+  }
+  return undef;
 }
 

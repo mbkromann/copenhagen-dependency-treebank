@@ -1,6 +1,6 @@
 DIR="data"
 
-all: clean copy events tokenTable totreex finetreex
+all: clean copy events tokenTable totreex fineTreex
 
 
 copy:
@@ -55,6 +55,19 @@ singleTreex:
 	./ToSingleTreex.bash SG12
 	./ToSingleTreex.bash TPR11
 
+multipleTreex:
+	mkdir -p data/$1/Treex 
+	./ToSingleTreex.bash ACS08
+	./ToSingleTreex.bash BD08
+	./ToSingleTreex.bash BML12
+	./ToSingleTreex.bash JLG10
+	./ToSingleTreex.bash KTHJ08
+	./ToSingleTreex.bash LWB09
+	./ToSingleTreex.bash MS12
+	./ToSingleTreex.bash NJ12
+	./ToSingleTreex.bash SG12
+	./ToSingleTreex.bash TPR11
+
 fineTreex:
 	@echo ----------- Step 4: Refining the data in treex ----------
 	mkdir -p $(DIR)/final
@@ -71,7 +84,17 @@ fineTreex:
 
 testToTreex:
 	mkdir -p data/$1/Treex 
-	./BD08.ToTreex.bash
+	./DevelopingCountries.ToTreex.bash
+
+testFineTreex:
+	@echo ----------- Step 4: Refining the data in treex ----------
+	mkdir -p $(DIR)/final
+	treex \
+	Misc::CopenhagenDT::BuildTreesFromOffsetIndices \
+	Util::Eval document="\$$doc->set_path(qw($(DIR)/Treex))" \
+	Write::Treex clobber=1 storable=0 \
+	-- $(DIR)/Treex/raw/Developing*.treex.gz
+
 
 TargetAUTable:
 	rm -f data/TargetAUTables.tsv

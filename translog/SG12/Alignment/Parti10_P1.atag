@@ -1,0 +1,4 @@
+<DTAGalign source="en" target="de" >
+    <alignFile key="a" href="Parti10_P1.src" sign="_input"/>
+    <alignFile key="b" href="Parti10_P1.tgt" sign="_input"/>
+</DTAGalign>

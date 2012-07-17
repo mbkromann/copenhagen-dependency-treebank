@@ -201,7 +201,8 @@ sub ReadTranslog {
       if(!/Block="([0-9][0-9]*)"/) {next;}
       elsif($1 == 0) {next;}
 
-      if(/Time="([0-9][0-9]*)"/)  {$time =$1;}
+      if(/Time="([^"]*)"/)  {$time =$1;}
+      if($time < 0) {next;}
       if(/Cursor="([0-9][0-9]*)"/){$FIX->{$time}{'c'} = $1;}
       else {$FIX->{$time}{'c'} = 0;}
       if(/Block="([0-9][0-9]*)"/) {$FIX->{$time}{'b'} = $1;}
@@ -359,7 +360,13 @@ sub DeleteText {
   else { printf STDERR "InsertText1: No Time in $s\n";}
 
   # no text to delete (backspace at beginning delete at end of text)
-  if($c < 0 || $c >= $TextLength) {return;}
+#  if($c == 0 && $s =~ /Value="\[Back\]"/) { printf STDERR "DeleteText: Backspace skipped at beginning of Text\n"; return;}
+#  if($c ==  $TextLength-1 && $s =~ /Value="\[Delete\]"/) { printf STDERR "DeleteText: Delete skipped at end of Text\n"; return;}
+
+  if($c < 0 || $c >= $TextLength) {
+    printf STDERR "DeleteText: TextLength:$TextLength ceCursor:$c\n";
+    return;
+  }
 
   my $X=[split(//, $Value)];
 
@@ -371,10 +378,10 @@ sub DeleteText {
   my $i =0;
   for($j=$c; $j<=$c+$#{$X}; $j++) {
 #      print STDERR "         del   time:$t Log:$Value($#{$X})\tLog:$i:$X->[$i]  eq  Text:$j:$TEXT->{$j}{'c'}\n"; 
-    if($X->[$i] eq '#') { $X->[$i] = $TEXT->{$j}{'c'};}
+    if($Value  =~ /\#/) { $X->[$i] = $TEXT->{$j}{'c'};}
     elsif($TEXT->{$j}{'c'} ne $X->[$i]) {
+
       my $offs = SearchDelChar($TEXT, $j, $X, $i);
-#      for (my $k=0; $k <$offs; $k++) {unshift(@{$X}, $TEXT->{$j+$k}{'c'})}
       for (my $k=0; $k <$offs; $k++) {unshift(@{$X}, '#')}
       printf STDERR "WARNING Delete time:$t cur:$j inserted:$offs\tLog:$Value($#{$X})\tText:$j:$TEXT->{$j}{'c'}\t$offs\n\t"; 
       for (my $k=$j-10;$k<$j+10;$k++) { 
@@ -413,11 +420,16 @@ sub DeleteText {
   if($TextLength > $c+$l) {$TextLength -= $l;}
   else {$TextLength = $c;}
 
+#  if($s =~ /Time="([0-9][0-9]*)"/)   {$t = int($1);}
+#  print STDERR "$t\t>";
+#  for($j=0; $j<$TextLength; $j++) { print STDERR "$TEXT->{$j}{'c'}";}
+#  print STDERR "<\n";
+
 }
 
-##########################################################
-# Check whether text was correctly reproduced
-##########################################################
+##############################################################
+# Check whether final Text CHR was correctly reproduced (TEXT) 
+##############################################################
 
 sub CheckForward {
   my $keyOff = 0;
@@ -425,8 +437,7 @@ sub CheckForward {
   for (my $f=0; $f<$TextLength; $f++) {
     if(!defined($CHR->{fin}{$f}) && !defined($TEXT->{$f})) { $TextLength = $f; last;}
     if(!defined($CHR->{fin}{$f})) {
-      printf STDERR "CheckForward undefined CHR: cursor: $f\t$TEXT->{$f}{c}\n";
-#      $TEXT->{$f}{add}=2;
+      printf STDERR "CheckForward undefined CHR: cursor: $f\t>$TEXT->{$f}{c}<\n";
       next;
     }
     if(!defined($TEXT->{$f})) {printf STDERR "CheckForward undefined TEXT cursor: $f\n";d($CHR->{fin}{$f});last;}
@@ -598,7 +609,7 @@ sub MapSource {
     if($cur<0) {next;}
     
     if(!defined($TEXT->{$cur}{'id'})) {
-      print STDERR "$opt_T: MapSource undefined TEXT\t$TEXT->{$cur}{'c'} setting cur:$cur wcur:$c to id:$n\n";
+      print STDERR "$opt_T: MapSource undefined TEXT\t>$TEXT->{$cur}{'c'}< setting cur:$cur wcur:$c to id:$n\n";
 ##      d($TEXT->{$cur});
       $TEXT->{$cur}{'id'} = $n;
       $TEXT->{$cur}{'wcur'} = $c;
@@ -735,20 +746,6 @@ sub MapTarget {
 ###########################################
 # Key -> word mapping
 ###########################################
-
-###
-#printf STDERR "MapTarget1 $k $KEY->{$k}{'t'} cur:$c id:$id $KEY->{$k}{'k'} len:$TextLength\t";
-#        foreach my $m (sort {$a <=> $b} keys %{$TEXT}) {
-#          if($m <= $c-10) {next;}
-#          if($m < 0) {next;}
-#          if($m >= $c+10) {last;}
-#          if($m >= $TextLength) {last;}
-#          if($m == $c) {print STDERR "|";}
-#          print STDERR "$TEXT->{$m}{'c'}";
-#          if($m == $c) {print STDERR "|";}
-#        }
-#        printf STDERR "\n";
-###
 
     if($KEY->{$k}{'t'} eq "ins") {
 # Check Consistency of Keys and TEXT
