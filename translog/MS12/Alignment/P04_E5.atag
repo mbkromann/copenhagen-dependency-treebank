@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign source="en" target="zh" >
+<alignFile href="P4_E5_T2.src" key="a" sign=""/>
+<alignFile href="P4_E5_T2.tgt" key="b" sign=""/>
+<align creator="0" in="b3" insign="一个" out="a3" outsign="a" type=""/>
+<align creator="0" in="b4" insign="相对" out="a4" outsign="relatively" type=""/>
+<align creator="0" in="b6" insign="新" out="a5" outsign="new" type=""/>
+<align creator="0" in="b8" insign="学科" out="a7" outsign="discipline" type=""/>
+<align creator="0" in="b10" insign="它" out="a9" outsign="It" type=""/>
+<align creator="0" in="b12" insign="在" out="a11" outsign="in" type=""/>
+<align creator="0" in="b19" insign="初" out="a13" outsign="early" type=""/>
+<align creator="0" in="b18" insign="世纪" out="a16" outsign="century" type=""/>
+<align creator="0" in="b23" insign="流动性" out="a26" outsign="mobility" type=""/>
+<align creator="0" in="b24" insign="和" out="a27" outsign="and" type=""/>
+<align creator="0" in="b25" insign="技术" out="a28" outsign="technological" type=""/>
+<align creator="0" in="b29" insign="人" out="a36" outsign="people" type=""/>
+<align creator="0" in="b30" insign="从" out="a42" outsign="from" type=""/>
+<align creator="0" in="b51" insign="对" out="a55" outsign="for" type=""/>
+<align creator="0" in="b53" insign="人" out="a57" outsign="people" type=""/>
+<align creator="0" in="b71" insign="如何" out="a72" outsign="how" type=""/>
+<align creator="0" in="b79" insign="这些" out="a80" outsign="these" type=""/>
+<align creator="0" in="b82" insign="了解" out="a85" outsign="understand" type=""/>
+<align creator="0" in="b83" insign="什么" out="a86" outsign="what" type=""/>
+<align creator="0" in="b87" insign="一起" out="a90" outsign="together" type=""/>
+<align creator="0" in="b89" insign="并" out="a91" outsign="and" type=""/>
+<align creator="0" in="b89" insign="并" out="a92" outsign="also" type=""/>
+<align creator="0" in="b96" insign="可能" out="a94" outsign="possible" type=""/>
+<align creator="0" in="b95" insign="的" out="a99" outsign="of" type=""/>
+<align creator="" in="b1" insign="社会学" out="a1" outsign="Sociology" type=""/>
+<align creator="" in="b2" insign="是" out="a2" outsign="is" type=""/>
+<align creator="" in="b8" insign="学科" out="a6" outsign="academic" type=""/>
+<align creator="" in="b9" insign="。" out="a8" outsign="." type=""/>
+<align creator="" in="b11" insign="出现" out="a10" outsign="emerged" type=""/>
+<align creator="" in="b17" insign="19" out="a14" outsign="19" type=""/>
+<align creator="" in="b20" insign="。" out="a24" outsign="." type=""/>
+<align creator="" in="b21" insign="增加" out="a25" outsign="Increasing" type=""/>
+<align creator="" in="b27" insign="进步" out="a29" outsign="advances" type=""/>
+<align creator="" in="b28" insign="导致" out="a30" outsign="resulted" type=""/>
+<align creator="" in="b13" insign="面临" out="a17a18a19" outsign="in response to" type=""/>
+<align creator="" in="b18" insign="世纪" out="a12" outsign="the" type=""/>
+<align creator="" in="b15" insign="挑战" out="a20a21" outsign="the challenges" type=""/>
+<align creator="" in="b14" insign="现代" out="a23" outsign="modernity" type=""/>
+<align creator="" in="b31" insign="各自" out="a43" outsign="their" type=""/>
+<align creator="" in="b31" insign="各自" out="a44" outsign="own" type=""/>
+<align creator="" in="b32" insign="不同" out="a41" outsign="different" type=""/>
+<align creator="" in="b36" insign="社会" out="a40" outsign="societies" type=""/>
+<align creator="" in="b35" insign="和" out="a39" outsign="and" type=""/>
+<align creator="" in="b34" insign="文化" out="a38" outsign="cultures" type=""/>
+<align creator="" in="b37" insign="的" out="a35" outsign="of" type=""/>
+<align creator="" in="b38" insign="交流" out="a34" outsign="exposure" type=""/>
+<align creator="" in="b40" insign="增加" out="a33" outsign="increasing" type=""/>
+<align creator="" in="b39" insign="日益" out="a33" outsign="increasing" type=""/>
+<align creator="" in="b41" insign="。" out="a45" outsign="." type=""/>
+<align creator="" in="b42" insign="这" out="a49" outsign="this" type=""/>
+<align creator="" in="b44" insign="交流" out="a50" outsign="exposure" type=""/>
+<align creator="" in="b46" insign="影响" out="a47" outsign="impact" type=""/>
+<align creator="" in="b47b48" insign="不尽 相同" out="a52" outsign="varied" type=""/>
+<align creator="" in="b49" insign="，" out="a53" outsign="," type=""/>
+<align creator="" in="b50" insign="但" out="a54" outsign="but" type=""/>
+<align creator="" in="b52" insign="某些" out="a56" outsign="some" type=""/>
+<align creator="" in="b57" insign="包括" out="a58" outsign="included" type=""/>
+<align creator="" in="b63" insign="崩溃" out="a59a60" outsign="the breakdown" type=""/>
+<align creator="" in="b59" insign="的" out="a61" outsign="of" type=""/>
+<align creator="" in="b58" insign="传统" out="a62" outsign="traditional" type=""/>
+<align creator="" in="b60" insign="规范" out="a63" outsign="norms" type=""/>
+<align creator="" in="b61" insign="习俗" out="a65" outsign="customs" type=""/>
+<align creator="" in="b64" insign="和" out="a66" outsign="and" type=""/>
+<align creator="" in="b65" insign="保证" out="a67" outsign="warranted" type=""/>
+<align creator="" in="b74" insign="了解" out="a70" outsign="understanding" type=""/>
+<align creator="" in="b75" insign="。" out="a76" outsign="." type=""/>
+<align creator="" in="b69" insign="世界" out="a73a74" outsign="the world" type=""/>
+<align creator="" in="b72" insign="运行" out="a75" outsign="works" type=""/>
+<align creator="" in="b77" insign="试图" out="a83" outsign="trying" type=""/>
+<align creator="" in="b76" insign="社会学家" out="a77" outsign="Sociologists" type=""/>
+<align creator="" in="b90" insign="探索" out="a93" outsign="exploring" type=""/>
+<align creator="" in="b98b99" insign="解决 方案" out="a95" outsign="solutions" type=""/>
+<align creator="" in="b94" insign="崩溃" out="a97a98" outsign="the breakdown" type=""/>
+<align creator="" in="b91" insign="社会" out="a100" outsign="social" type=""/>
+<align creator="" in="b100" insign="。" out="a102" outsign="." type=""/>
+<align creator="" in="b84" insign="社会" out="a88" outsign="social" type=""/>
+<align creator="" in="b85" insign="群体" out="a89" outsign="groups" type=""/>
+<align creator="" in="b80b81" insign="变化 中" out="a81" outsign="changes" type=""/>
+<align creator="" in="b78" insign="从" out="a82" outsign="by" type=""/>
+<align creator="" in="b101" insign="在" out="a116" outsign="in" type=""/>
+<align creator="" in="b102" insign="1838" out="a117" outsign="1838" type=""/>
+<align creator="" in="b104" insign="创造" out="a107" outsign="coined" type=""/>
+<align creator="" in="b132" insign="奥古" out="a109" outsign="Auguste" type=""/>
+<align creator="" in="b107" insign="社会学" out="a105" outsign="sociology" type=""/>
+<align creator="" in="b109" insign="词" out="a103a104" outsign="The term" type=""/>
+<align creator="" in="b110" insign="是" out="a106" outsign="was" type=""/>
+<align creator="" in="b111" insign="从" out="a118" outsign="from" type=""/>
+<align creator="" in="b112" insign="拉丁词" out="a119a120a121" outsign="the Latin term" type=""/>
+<align creator="" in="b113" insign="socius" out="a122" outsign="socius" type=""/>
+<align creator="" in="b114" insign="（" out="a123" outsign="(" type=""/>
+<align creator="" in="b115" insign="伴侣" out="a124" outsign="companion" type=""/>
+<align creator="" in="b116" insign="，" out="a125" outsign="," type=""/>
+<align creator="" in="b117" insign="联营" out="a126" outsign="associate" type=""/>
+<align creator="" in="b119" insign="）" out="a127" outsign=")" type=""/>
+<align creator="" in="b120" insign="和" out="a128" outsign="and" type=""/>
+<align creator="" in="b121" insign="希腊" out="a129a130" outsign="the Greek" type=""/>
+<align creator="" in="b124" insign="logia" out="a132" outsign="logia" type=""/>
+<align creator="" in="b129" insign="学习" out="a134" outsign="study" type=""/>
+<align creator="" in="b130" insign="讲话" out="a137" outsign="speech" type=""/>
+<align creator="" in="b82" insign="了解" out="a84" outsign="to" type=""/>
+<align creator="" in="b38" insign="交流" out="a32" outsign="the" type=""/>
+<align creator="" in="b28" insign="导致" out="a31" outsign="in" type=""/>
+</DTAGalign>

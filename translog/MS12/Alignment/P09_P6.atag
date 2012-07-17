@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign source="en" target="zh" >
+<alignFile href="P9_P6_T2.src" key="a" sign=""/>
+<alignFile href="P9_P6_T2.tgt" key="b" sign=""/>
+<align creator="0" in="b26" insign="难" out="a13" outsign="difficult" type=""/>
+<align creator="0" in="b27" insign="在" out="a15" outsign="be" type=""/>
+<align creator="0" in="b29" insign="安定" out="a16" outsign="settled" type=""/>
+<align creator="0" in="b24" insign="下" out="a17" outsign="under" type=""/>
+<align creator="0" in="b23" insign="制度" out="a21" outsign="system" type=""/>
+<align creator="0" in="b12" insign="的" out="a25" outsign="of" type=""/>
+<align creator="0" in="b9" insign="一" out="a26" outsign="one" type=""/>
+<align creator="0" in="b11" insign="地区" out="a27" outsign="region" type=""/>
+<align creator="0" in="b14" insign="可以" out="a28" outsign="can" type=""/>
+<align creator="0" in="b44" insign="非常" out="a41" outsign="very" type=""/>
+<align creator="0" in="b42" insign="人口" out="a43" outsign="population" type=""/>
+<align creator="0" in="b36" insign="系统" out="a51" outsign="system" type=""/>
+<align creator="0" in="b56" insign="可" out="a56" outsign="can" type=""/>
+<align creator="0" in="b57" insign="支持" out="a57" outsign="support" type=""/>
+<align creator="0" in="b68" insign="支持" out="a57" outsign="support" type=""/>
+<align creator="0" in="b63" insign="人口" out="a58" outsign="population" type=""/>
+<align creator="0" in="b59" insign="至" out="a61" outsign="to" type=""/>
+<align creator="0" in="b51" insign="土地" out="a66" outsign="land" type=""/>
+<align creator="0" in="b78" insign="也" out="a79" outsign="also" type=""/>
+<align creator="0" in="b80" insign="有" out="a82" outsign="have" type=""/>
+<align creator="0" in="b87" insign="虽然" out="a89" outsign="though" type=""/>
+<align creator="0" in="b88" insign="这" out="a90" outsign="this" type=""/>
+<align creator="0" in="b90" insign="总是" out="a93" outsign="always" type=""/>
+<align creator="0" in="b93" insign="因为" out="a97" outsign="Because" type=""/>
+<align creator="0" in="b97" insign="是" out="a103" outsign="be" type=""/>
+<align creator="0" in="b101" insign="他们" out="a106" outsign="they" type=""/>
+<align creator="0" in="b103" insign="不" out="a109" outsign="not" type=""/>
+<align creator="0" in="b106" insign="剩余" out="a115" outsign="surplus" type=""/>
+<align creator="0" in="b107" insign="食物" out="a116" outsign="food" type=""/>
+<align creator="0" in="b116" insign="或" out="a129" outsign="or" type=""/>
+<align creator="" in="b126" insign="。" out="a139" outsign="." type=""/>
+<align creator="" in="b125" insign="支持" out="a133" outsign="supported" type=""/>
+<align creator="" in="b118" insign="很" out="a131" outsign="are" type=""/>
+<align creator="" in="b119" insign="少" out="a132" outsign="rarely" type=""/>
+<align creator="" in="b120" insign="得到" out="a134" outsign="by" type=""/>
+<align creator="" in="b121" insign="狩猎" out="a135" outsign="hunter" type=""/>
+<align creator="" in="b122" insign="采集" out="a137" outsign="gatherer" type=""/>
+<align creator="" in="b123" insign="社会" out="a138" outsign="societies" type=""/>
+<align creator="" in="b117" insign="工匠" out="a130" outsign="artisans" type=""/>
+<align creator="" in="b115" insign="，" out="a128" outsign="," type=""/>
+<align creator="" in="b114" insign="官僚" out="a127" outsign="bureaucrats" type=""/>
+<align creator="" in="b113" insign="，" out="a126" outsign="," type=""/>
+<align creator="" in="b112" insign="领导" out="a125" outsign="leaders" type=""/>
+<align creator="" in="b111" insign="专职" out="a122a123a124" outsign="full - time" type=""/>
+<align creator="" in="b110" insign="，" out="a121" outsign="," type=""/>
+<align creator="" in="b109" insign="因此" out="a118a119a120" outsign="As a result" type=""/>
+<align creator="" in="b108" insign="。" out="a117" outsign="." type=""/>
+<align creator="" in="b121" insign="狩猎" out="a136" outsign="-" type=""/>
+<align creator="" in="b1" insign="大部分" out="a1a2" outsign="The majority" type=""/>
+<align creator="" in="b1" insign="大部分" out="a3" outsign="of" type=""/>
+<align creator="" in="b2" insign="狩猎" out="a4a5" outsign="hunter -" type=""/>
+<align creator="" in="b3" insign="采集" out="a6" outsign="gatherer" type=""/>
+<align creator="" in="b4" insign="社会" out="a7" outsign="societies" type=""/>
+<align creator="" in="b5" insign="是" out="a8" outsign="are" type=""/>
+<align creator="" in="b6b7" insign="游牧性 的" out="a9" outsign="nomadic" type=""/>
+<align creator="" in="b8" insign="。" out="a10" outsign="." type=""/>
+<align creator="" in="b13" insign="资源" out="a23a24" outsign="the resources" type=""/>
+<align creator="" in="b15" insign="快速" out="a29" outsign="quickly" type=""/>
+<align creator="" in="b16" insign="耗尽" out="a30a31" outsign="become exhausted" type=""/>
+<align creator="" in="b31" insign="。" out="a32" outsign="." type=""/>
+<align creator="" in="b10" insign="个" out="a26" outsign="one" type=""/>
+<align creator="" in="b25" insign="很" out="a11a12" outsign="It is" type=""/>
+<align creator="" in="b22" insign="生活" out="a20" outsign="subsistence" type=""/>
+<align creator="" in="b20b21" insign="这 种" out="a18" outsign="such" type=""/>
+<align creator="" in="b22" insign="生活" out="a19" outsign="a" type=""/>
+<align creator="" in="b27" insign="在" out="a14" outsign="to" type=""/>
+<align creator="" in="b28b30" insign="某地 下来" out="a16" outsign="settled" type=""/>
+<align creator="" in="b33b34" insign="他们 的" out="a49" outsign="their" type=""/>
+<align creator="" in="b35" insign="生活" out="a50" outsign="subsistence" type=""/>
+<align creator="" in="b32" insign="由于" out="a45a46a47a48" outsign="as a result of" type=""/>
+<align creator="" in="b46" insign="。" out="a52" outsign="." type=""/>
+<align creator="" in="b45" insign="低" out="a42" outsign="low" type=""/>
+<align creator="" in="b43" insign="密度" out="a44" outsign="densities" type=""/>
+<align creator="" in="b41" insign="往往" out="a38a39" outsign="tend to" type=""/>
+<align creator="" in="b38" insign="狩猎" out="a33a34" outsign="Hunter -" type=""/>
+<align creator="" in="b39" insign="采集" out="a35" outsign="gatherer" type=""/>
+<align creator="" in="b40" insign="社会" out="a36" outsign="societies" type=""/>
+<align creator="" in="b48" insign="未" out="a67" outsign="left" type=""/>
+<align creator="" in="b49" insign="开垦" out="a68" outsign="uncultivated" type=""/>
+<align creator="" in="b50" insign="的" out="a68" outsign="uncultivated" type=""/>
+<align creator="" in="b58" insign="60" out="a60" outsign="60" type=""/>
+<align creator="" in="b60" insign="100" out="a62" outsign="100" type=""/>
+<align creator="" in="b61" insign="倍" out="a63" outsign="times" type=""/>
+<align creator="" in="b70" insign="多" out="a64" outsign="greater" type=""/>
+<align creator="" in="b69" insign="更" out="a65" outsign="than" type=""/>
+<align creator="" in="b73" insign="。" out="a74" outsign="." type=""/>
+<align creator="" in="b64" insign="密度" out="a59" outsign="densities" type=""/>
+<align creator="" in="b53" insign="农业" out="a53" outsign="Agricultural" type=""/>
+<align creator="" in="b54" insign="生计" out="a54" outsign="subsistence" type=""/>
+<align creator="" in="b55" insign="系统" out="a55" outsign="systems" type=""/>
+<align creator="" in="b72" insign="人口" out="a73" outsign="populations" type=""/>
+<align creator="" in="b67" insign="能" out="a56" outsign="can" type=""/>
+<align creator="" in="b66" insign="就" out="a70a71" outsign="resulting in" type=""/>
+<align creator="" in="b74" insign="狩猎" out="a75a76" outsign="Hunter -" type=""/>
+<align creator="" in="b75" insign="采集" out="a77" outsign="gatherer" type=""/>
+<align creator="" in="b76" insign="社会" out="a78" outsign="societies" type=""/>
+<align creator="" in="b79" insign="往往" out="a80" outsign="tend" type=""/>
+<align creator="" in="b79" insign="往往" out="a81" outsign="to" type=""/>
+<align creator="" in="b81" insign="非" out="a83" outsign="non" type=""/>
+<align creator="" in="b81" insign="非" out="a84" outsign="-" type=""/>
+<align creator="" in="b82" insign="等级" out="a85" outsign="hierarchical" type=""/>
+<align creator="" in="b83" insign="的" out="a85" outsign="hierarchical" type=""/>
+<align creator="" in="b84" insign="社会" out="a86" outsign="social" type=""/>
+<align creator="" in="b85" insign="结构" out="a87" outsign="structures" type=""/>
+<align creator="" in="b86" insign="，" out="a88" outsign="," type=""/>
+<align creator="" in="b90" insign="总是" out="a91" outsign="is" type=""/>
+<align creator="" in="b89" insign="并非" out="a92" outsign="not" type=""/>
+<align creator="" in="b91" insign="如此" out="a94a95" outsign="the case" type=""/>
+<align creator="" in="b92" insign="。" out="a96" outsign="." type=""/>
+<align creator="" in="b94" insign="狩猎" out="a98a99" outsign="hunter -" type=""/>
+<align creator="" in="b95" insign="采集者" out="a100" outsign="gatherers" type=""/>
+<align creator="" in="b96" insign="往往" out="a101" outsign="tend" type=""/>
+<align creator="" in="b96" insign="往往" out="a102" outsign="to" type=""/>
+<align creator="" in="b98b99" insign="游牧 民族" out="a104" outsign="nomadic" type=""/>
+<align creator="" in="b100" insign="，" out="a105" outsign="," type=""/>
+<align creator="" in="b102" insign="一般" out="a107" outsign="generally" type=""/>
+<align creator="" in="b104" insign="会" out="a110" outsign="have" type=""/>
+<align creator="" in="b105" insign="存储" out="a113a114" outsign="to store" type=""/>
+</DTAGalign>

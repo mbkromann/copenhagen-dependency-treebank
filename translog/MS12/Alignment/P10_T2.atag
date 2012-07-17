@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign source="en" target="zh" >
+<alignFile href="P10_T2_T2.src" key="a" sign=""/>
+<alignFile href="P10_T2_T2.tgt" key="b" sign=""/>
+<align creator="0" in="b29" insign="额外" out="a16" outsign="extra" type=""/>
+<align creator="0" in="b10" insign="食品" out="a22" outsign="food" type=""/>
+<align creator="0" in="b11" insign="和" out="a23" outsign="and" type=""/>
+<align creator="0" in="b39" insign="速度" out="a43" outsign="rate" type=""/>
+<align creator="0" in="b45" insign="年" out="a47" outsign="year" type=""/>
+<align creator="0" in="b57" insign="将" out="a54" outsign="will" type=""/>
+<align creator="0" in="b56" insign="仍" out="a57" outsign="still" type=""/>
+<align creator="0" in="b72" insign="银行" out="a64" outsign="Bank" type=""/>
+<align creator="0" in="b70" insign="的" out="a65" outsign="of" type=""/>
+<align creator="0" in="b66" insign="通货膨胀" out="a76" outsign="inflation" type=""/>
+<align creator="0" in="b69" insign="经济" out="a79" outsign="economy" type=""/>
+<align creator="0" in="b65" insign="控制" out="a81" outsign="control" type=""/>
+<align creator="0" in="b87" insign="的" out="a93" outsign="of" type=""/>
+<align creator="" in="b1" insign="家庭" out="a1" outsign="Families" type=""/>
+<align creator="" in="b3" insign="压力" out="a2" outsign="hit" type=""/>
+<align creator="" in="b2" insign="面临" out="a3" outsign="with" type=""/>
+<align creator="" in="b7b8" insign="不断 上涨" out="a4" outsign="increase" type=""/>
+<align creator="" in="b6" insign="花销" out="a5a6a7" outsign="in cost of" type=""/>
+<align creator="" in="b5" insign="生活" out="a8" outsign="living" type=""/>
+<align creator="" in="b32" insign="英镑" out="a17" outsign="£" type=""/>
+<align creator="" in="b31" insign="三万一千三百" out="a18" outsign="31,300" type=""/>
+<align creator="" in="b30" insign="承担" out="a13a14" outsign="cough up" type=""/>
+<align creator="" in="b28" insign="不得不" out="a11a12" outsign="have to" type=""/>
+<align creator="" in="b29" insign="额外" out="a15" outsign="an" type=""/>
+<align creator="" in="b27" insign="每年" out="a19a20" outsign="a year" type=""/>
+<align creator="" in="b24b25" insign="英国 的" out="a9" outsign="British" type=""/>
+<align creator="" in="b26" insign="家庭" out="a10" outsign="families" type=""/>
+<align creator="" in="b12" insign="燃料" out="a24" outsign="fuel" type=""/>
+<align creator="" in="b13" insign="的" out="a24" outsign="fuel" type=""/>
+<align creator="" in="b14" insign="价格" out="a25" outsign="prices" type=""/>
+<align creator="" in="b15" insign="涨幅" out="a26" outsign="soar" type=""/>
+<align creator="" in="b19" insign="17" out="a32" outsign="17" type=""/>
+<align creator="" in="b20" insign="年" out="a33" outsign="years" type=""/>
+<align creator="" in="b33" insign="。" out="a34" outsign="." type=""/>
+<align creator="" in="b34" insign="超市" out="a37" outsign="supermarkets" type=""/>
+<align creator="" in="b37" insign="价格" out="a35" outsign="Prices" type=""/>
+<align creator="" in="b21" insign="之" out="a27a28" outsign="at their" type=""/>
+<align creator="" in="b22" insign="最" out="a29" outsign="fastest" type=""/>
+<align creator="" in="b9" insign="由于" out="a21" outsign="as" type=""/>
+<align creator="" in="b15" insign="涨幅" out="a30" outsign="rate" type=""/>
+<align creator="" in="b18" insign="近" out="a31" outsign="in" type=""/>
+<align creator="" in="b40" insign="已" out="a38" outsign="have" type=""/>
+<align creator="" in="b41" insign="攀至" out="a39" outsign="climbed" type=""/>
+<align creator="" in="b43b44" insign="近 些" out="a46" outsign="past" type=""/>
+<align creator="" in="b46" insign="吃惊" out="a42" outsign="alarming" type=""/>
+<align creator="" in="b49" insign="。" out="a48" outsign="." type=""/>
+<align creator="" in="b50b51" insign="分析 师" out="a49" outsign="Analysts" type=""/>
+<align creator="" in="b52" insign="警告" out="a50a51" outsign="have warned" type=""/>
+<align creator="" in="b55" insign="价格" out="a53" outsign="prices" type=""/>
+<align creator="" in="b58" insign="上涨" out="a55" outsign="increase" type=""/>
+<align creator="" in="b56" insign="仍" out="a56" outsign="further" type=""/>
+<align creator="" in="b42" insign="让" out="a44" outsign="over" type=""/>
+<align creator="" in="b46" insign="吃惊" out="a41" outsign="an" type=""/>
+<align creator="" in="b59" insign="，" out="a58" outsign="," type=""/>
+<align creator="" in="b60" insign="这" out="a60" outsign="it" type=""/>
+<align creator="" in="b62" insign="让" out="a59" outsign="making" type=""/>
+<align creator="" in="b73" insign="难以" out="a61" outsign="hard" type=""/>
+<align creator="" in="b73" insign="难以" out="a62" outsign="for" type=""/>
+<align creator="" in="b72" insign="银行" out="a63" outsign="the" type=""/>
+<align creator="" in="b71" insign="英格兰" out="a66" outsign="England" type=""/>
+<align creator="" in="b76" insign="。" out="a82" outsign="." type=""/>
+<align creator="" in="b138" insign="。" out="a153" outsign="." type=""/>
+<align creator="" in="b130" insign="六分之五" out="a140a141a142a143a144" outsign="Five out of the six" type=""/>
+<align creator="" in="b132" insign="消费者" out="a150" outsign="customers" type=""/>
+<align creator="" in="b133" insign="的" out="a151" outsign="'" type=""/>
+<align creator="" in="b135" insign="都" out="a152" outsign="bills" type=""/>
+<align creator="" in="b137" insign="增长" out="a148" outsign="increased" type=""/>
+<align creator="" in="b129" insign="。" out="a139" outsign="." type=""/>
+<align creator="" in="b127b128" insign="大幅 增长" out="a138" outsign="soaring" type=""/>
+<align creator="" in="b126" insign="也" out="a137" outsign="also" type=""/>
+<align creator="" in="b123" insign="电费" out="a134" outsign="electricity" type=""/>
+<align creator="" in="b124" insign="单" out="a135" outsign="bills" type=""/>
+<align creator="" in="b125" insign="金额" out="a135" outsign="bills" type=""/>
+<align creator="" in="b122" insign="，" out="a133" outsign="," type=""/>
+<align creator="" in="b121" insign="食物" out="a132" outsign="food" type=""/>
+<align creator="" in="b120" insign="和" out="a131" outsign="and" type=""/>
+<align creator="" in="b119" insign="燃料" out="a130" outsign="fuel" type=""/>
+<align creator="" in="b118" insign="除了" out="a127a128a129" outsign="In addition to" type=""/>
+<align creator="" in="b117" insign="。" out="a126" outsign="." type=""/>
+<align creator="" in="b74" insign="减少" out="a67a68" outsign="to cut" type=""/>
+<align creator="" in="b75" insign="利率" out="a69a70" outsign="interest rates" type=""/>
+<align creator="" in="b64" insign="努力" out="a73a74" outsign="struggles to" type=""/>
+<align creator="" in="b67" insign="，" out="a77" outsign="and" type=""/>
+<align creator="" in="b68" insign="发展" out="a75" outsign="keep" type=""/>
+<align creator="" in="b77b78" insign="更 糟" out="a86" outsign="worse" type=""/>
+<align creator="" in="b80" insign="是" out="a83a84a85" outsign="To make matters" type=""/>
+<align creator="" in="b81" insign="，" out="a87" outsign="," type=""/>
+<align creator="" in="b88" insign="增长" out="a95" outsign="increases" type=""/>
+<align creator="" in="b89" insign="。" out="a96" outsign="," type=""/>
+<align creator="" in="b90" insign="尤其" out="a97" outsign="especially" type=""/>
+<align creator="" in="b69" insign="经济" out="a78" outsign="the" type=""/>
+<align creator="" in="b65" insign="控制" out="a80" outsign="under" type=""/>
+<align creator="" in="b85" insign="远高过" out="a91a92" outsign="racing ahead" type=""/>
+<align creator="" in="b86" insign="薪金" out="a94" outsign="salary" type=""/>
+<align creator="" in="b101" insign="和" out="a101" outsign="and" type=""/>
+<align creator="" in="b100" insign="护士" out="a100" outsign="nurses" type=""/>
+<align creator="" in="b102" insign="其他" out="a102" outsign="other" type=""/>
+<align creator="" in="b103" insign="健康" out="a103" outsign="healthcare" type=""/>
+<align creator="" in="b106b107" insign="专业 人士" out="a104" outsign="professionals" type=""/>
+<align creator="" in="b108" insign="，" out="a105" outsign="," type=""/>
+<align creator="" in="b104b105" insign="中心 的" out="a103" outsign="healthcare" type=""/>
+<align creator="" in="b93" insign="政府" out="a111" outsign="government" type=""/>
+<align creator="" in="b97" insign="区域" out="a117a119" outsign="the sector" type=""/>
+<align creator="" in="b96" insign="公共" out="a118" outsign="public" type=""/>
+<align creator="" in="b95" insign="的" out="a112" outsign="'s" type=""/>
+<align creator="" in="b113b114" insign="低于 通货膨胀" out="a123" outsign="below-inflation" type=""/>
+<align creator="" in="b111" insign="工资" out="a124" outsign="salary" type=""/>
+<align creator="" in="b112" insign="增长" out="a125" outsign="increases" type=""/>
+<align creator="" in="b109b110" insign="他们 的" out="a115" outsign="those" type=""/>
+<align creator="" in="b93" insign="政府" out="a110" outsign="the" type=""/>
+<align creator="" in="b92" insign="接受" out="a121a122" outsign="to receive" type=""/>
+<align creator="" in="b91" insign="是" out="a120" outsign="have" type=""/>
+<align creator="" in="b94" insign="保障" out="a113" outsign="insistence" type=""/>
+</DTAGalign>

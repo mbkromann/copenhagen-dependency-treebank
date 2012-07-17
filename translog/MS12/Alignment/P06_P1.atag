@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign source="en" target="zh" >
+<alignFile href="P6_P1_T2.src" key="a" sign=""/>
+<alignFile href="P6_P1_T2.tgt" key="b" sign=""/>
+<align creator="0" in="b2" insign="护士" out="a2" outsign="nurse" type=""/>
+<align creator="0" in="b9" insign="医院" out="a7" outsign="Hospital" type=""/>
+<align creator="0" in="b14" insign="今天" out="a15" outsign="today" type=""/>
+<align creator="0" in="b22" insign="他" out="a22" outsign="his" type=""/>
+<align creator="0" in="b30" insign="岁" out="a26" outsign="year" type=""/>
+<align creator="0" in="b35" insign="在" out="a35" outsign="in" type=""/>
+<align creator="0" in="b40" insign="他们" out="a39" outsign="them" type=""/>
+<align creator="0" in="b41" insign="大量" out="a40" outsign="large" type=""/>
+<align creator="0" in="b57" insign="他" out="a48" outsign="he" type=""/>
+<align creator="0" in="b55" insign="之后" out="a57" outsign="following" type=""/>
+<align creator="" in="b1" insign="杀手" out="a1" outsign="Killer" type=""/>
+<align creator="" in="b7" insign="终身" out="a5" outsign="life" type=""/>
+<align creator="" in="b8" insign="监禁" out="a6" outsign="sentences" type=""/>
+<align creator="" in="b10" insign="护士" out="a8" outsign="nurse" type=""/>
+<align creator="" in="b11" insign="科林" out="a9" outsign="Colin" type=""/>
+<align creator="" in="b13" insign="诺里斯" out="a10" outsign="Norris" type=""/>
+<align creator="" in="b18" insign="监禁" out="a12" outsign="imprisoned" type=""/>
+<align creator="" in="b17" insign="终身" out="a13a14" outsign="for life" type=""/>
+<align creator="" in="b20" insign="由于" out="a16" outsign="for" type=""/>
+<align creator="" in="b21" insign="杀害" out="a17a18" outsign="the killing" type=""/>
+<align creator="" in="b24" insign="四" out="a20" outsign="four" type=""/>
+<align creator="" in="b23" insign="的" out="a22" outsign="his" type=""/>
+<align creator="" in="b26" insign="病人" out="a23" outsign="patients" type=""/>
+<align creator="" in="b5" insign="四" out="a4" outsign="four" type=""/>
+<align creator="" in="b27" insign="。" out="a24" outsign="." type=""/>
+<align creator="" in="b29" insign="32" out="a25" outsign="32" type=""/>
+<align creator="" in="b30" insign="岁" out="a27" outsign="old" type=""/>
+<align creator="" in="b32" insign="诺里斯" out="a28" outsign="Norris" type=""/>
+<align creator="" in="b33" insign="来自" out="a29" outsign="from" type=""/>
+<align creator="" in="b34" insign="格拉斯哥" out="a30" outsign="Glasgow" type=""/>
+<align creator="" in="b36" insign="2002" out="a36" outsign="2002" type=""/>
+<align creator="" in="b54" insign="审判" out="a60" outsign="trial" type=""/>
+<align creator="" in="b52" insign="长期" out="a59" outsign="long" type=""/>
+<align creator="" in="b60" insign="犯有" out="a50" outsign="found" type=""/>
+<align creator="" in="b64" insign="罪名" out="a51" outsign="guilty" type=""/>
+<align creator="" in="b65" insign="。" out="a61" outsign="." type=""/>
+<align creator="" in="b61" insign="四" out="a53" outsign="four" type=""/>
+<align creator="" in="b62" insign="项" out="a54" outsign="counts" type=""/>
+<align creator="" in="b63" insign="谋杀" out="a56" outsign="murder" type=""/>
+<align creator="" in="b49" insign="昨天" out="a46" outsign="Yesterday" type=""/>
+<align creator="" in="b50" insign="，" out="a47" outsign="," type=""/>
+<align creator="" in="b44" insign="杀害" out="a31" outsign="killed" type=""/>
+<align creator="" in="b41" insign="大量" out="a41" outsign="amounts" type=""/>
+<align creator="" in="b42" insign="的" out="a42" outsign="of" type=""/>
+<align creator="" in="b43" insign="安眠药" out="a43a44" outsign="sleeping medicine" type=""/>
+<align creator="" in="b48" insign="。" out="a45" outsign="." type=""/>
+<align creator="" in="b45" insign="四" out="a33" outsign="four" type=""/>
+<align creator="" in="b47" insign="妇女" out="a34" outsign="women" type=""/>
+<align creator="" in="b38" insign="通过" out="a37" outsign="by" type=""/>
+<align creator="" in="b39" insign="给" out="a38" outsign="giving" type=""/>
+<align creator="" in="b66" insign="给" out="a64" outsign="given" type=""/>
+<align creator="" in="b69" insign="四" out="a64" outsign="given" type=""/>
+<align creator="" in="b71" insign="终身" out="a66" outsign="life" type=""/>
+<align creator="" in="b72b73" insign="监禁 刑罚" out="a67" outsign="sentences" type=""/>
+<align creator="" in="b68" insign="他" out="a62" outsign="He" type=""/>
+<align creator="" in="b74" insign="。" out="a75" outsign="." type=""/>
+<align creator="" in="b75" insign="他" out="a76" outsign="He" type=""/>
+<align creator="" in="b76" insign="将" out="a77" outsign="will" type=""/>
+<align creator="" in="b77" insign="不得不" out="a78a79" outsign="have to" type=""/>
+<align creator="" in="b78" insign="坐牢" out="a80" outsign="serve" type=""/>
+<align creator="" in="b79" insign="至少" out="a81a82" outsign="at least" type=""/>
+<align creator="" in="b80" insign="30" out="a83" outsign="30" type=""/>
+<align creator="" in="b81" insign="年" out="a84" outsign="years" type=""/>
+<align creator="" in="b82" insign="。" out="a85" outsign="." type=""/>
+<align creator="" in="b83" insign="警官" out="a86a87" outsign="Police officer" type=""/>
+<align creator="" in="b84" insign="克里斯" out="a88" outsign="Chris" type=""/>
+<align creator="" in="b86" insign="格雷格" out="a89" outsign="Gregg" type=""/>
+<align creator="" in="b87" insign="说" out="a90" outsign="said" type=""/>
+<align creator="" in="b89" insign="诺里斯" out="a92" outsign="Norris" type=""/>
+<align creator="" in="b90" insign="在" out="a97" outsign="around" type=""/>
+<align creator="" in="b91" insign="医院" out="a98a99" outsign="the hospital" type=""/>
+<align creator="" in="b92" insign="行为" out="a95" outsign="acting" type=""/>
+<align creator="" in="b93" insign="古怪" out="a96" outsign="strangely" type=""/>
+<align creator="" in="b94" insign="。" out="a100" outsign="." type=""/>
+<align creator="" in="b101" insign="发现" out="a102a103" outsign="the awareness" type=""/>
+<align creator="" in="b97" insign="其他" out="a105" outsign="other" type=""/>
+<align creator="" in="b96" insign="医院" out="a106" outsign="hospital" type=""/>
+<align creator="" in="b98b99" insign="工作 人员" out="a107" outsign="staff" type=""/>
+<align creator="" in="b100" insign="的" out="a104" outsign="of" type=""/>
+<align creator="" in="b103" insign="制止" out="a108a109a110" outsign="put a stop" type=""/>
+<align creator="" in="b104b105" insign="他 的" out="a112" outsign="him" type=""/>
+<align creator="" in="b106" insign="杀戮" out="a115a116" outsign="the killings" type=""/>
+<align creator="" in="b107" insign="。" out="a117" outsign="." type=""/>
+<align creator="" in="b108" insign="警方" out="a118a119" outsign="The police" type=""/>
+<align creator="" in="b109" insign="已" out="a120" outsign="have" type=""/>
+<align creator="" in="b110b111" insign="了解 到" out="a121" outsign="learned" type=""/>
+<align creator="" in="b116" insign="动机" out="a123a124" outsign="the motive" type=""/>
+<align creator="" in="b114" insign="杀人" out="a126a127" outsign="the killings" type=""/>
+<align creator="" in="b117" insign="是" out="a128" outsign="was" type=""/>
+<align creator="" in="b119" insign="诺里斯" out="a130" outsign="Norris" type=""/>
+<align creator="" in="b120b121" insign="不 喜欢" out="a131" outsign="disliked" type=""/>
+<align creator="" in="b124" insign="服务" out="a132" outsign="working" type=""/>
+<align creator="" in="b122" insign="为" out="a133" outsign="with" type=""/>
+<align creator="" in="b123" insign="老人" out="a134a135" outsign="old people" type=""/>
+<align creator="" in="b125" insign="。" out="a136" outsign="." type=""/>
+<align creator="" in="b126b127" insign="他 的" out="a139" outsign="his" type=""/>
+<align creator="" in="b128" insign="受害者" out="a140" outsign="victims" type=""/>
+<align creator="" in="b129" insign="都" out="a137" outsign="All" type=""/>
+<align creator="" in="b130" insign="是" out="a141" outsign="were" type=""/>
+<align creator="" in="b131" insign="老弱" out="a142a143" outsign="old weak" type=""/>
+<align creator="" in="b133" insign="有" out="a145" outsign="with" type=""/>
+<align creator="" in="b134" insign="心脏" out="a146" outsign="heart" type=""/>
+<align creator="" in="b135" insign="问题" out="a147" outsign="problems" type=""/>
+<align creator="" in="b137" insign="妇女" out="a144" outsign="women" type=""/>
+<align creator="" in="b138" insign="。" out="a148" outsign="." type=""/>
+<align creator="" in="b139" insign="他们" out="a151" outsign="them" type=""/>
+<align creator="" in="b140" insign="都" out="a149" outsign="All" type=""/>
+<align creator="" in="b142" insign="认为" out="a154" outsign="considered" type=""/>
+<align creator="" in="b143" insign="是" out="a153" outsign="be" type=""/>
+<align creator="" in="b148" insign="负担" out="a156" outsign="burden" type=""/>
+<align creator="" in="b144" insign="医院" out="a158" outsign="hospital" type=""/>
+<align creator="" in="b145b146" insign="工作 人员" out="a159" outsign="staff" type=""/>
+<align creator="" in="b149" insign="。" out="a160" outsign="." type=""/>
+<align creator="" in="b4" insign="判处" out="a3" outsign="receives" type=""/>
+</DTAGalign>

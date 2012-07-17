@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign source="en" target="zh" >
+<alignFile href="P10_P3_T2.src" key="a" sign=""/>
+<alignFile href="P10_P3_T2.tgt" key="b" sign=""/>
+<align creator="0" in="b4" insign="在" out="a6" outsign="over" type=""/>
+<align creator="0" in="b11" insign="政府" out="a16" outsign="Government" type=""/>
+<align creator="0" in="b28" insign="对" out="a28" outsign="against" type=""/>
+<align creator="0" in="b24" insign="中国" out="a29" outsign="China" type=""/>
+<align creator="0" in="b28" insign="对" out="a32" outsign="for" type=""/>
+<align creator="0" in="b32" insign="政策" out="a35" outsign="policy" type=""/>
+<align creator="0" in="b25" insign="在" out="a36" outsign="in" type=""/>
+<align creator="0" in="b34" insign="他" out="a39" outsign="His" type=""/>
+<align creator="0" in="b35" insign="的" out="a39" outsign="His" type=""/>
+<align creator="0" in="b56" insign="密切" out="a69" outsign="close" type=""/>
+<align creator="" in="b1" insign="斯皮尔伯格" out="a1" outsign="Spielberg" type=""/>
+<align creator="" in="b2" insign="表明" out="a2" outsign="shows" type=""/>
+<align creator="" in="b3" insign="北京" out="a3" outsign="Beijing" type=""/>
+<align creator="" in="b5" insign="达尔富尔" out="a7" outsign="Darfur" type=""/>
+<align creator="" in="b6" insign="红牌" out="a4a5" outsign="red card" type=""/>
+<align creator="" in="b7" insign="明确" out="a11" outsign="sure" type=""/>
+<align creator="" in="b10" insign="中国" out="a15" outsign="Chinese" type=""/>
+<align creator="" in="b14" insign="，" out="a17" outsign="," type=""/>
+<align creator="" in="b13" insign="姿态" out="a9a10" outsign="a gesture" type=""/>
+<align creator="" in="b15b16" insign="史蒂文 ｷ" out="a18" outsign="Steven" type=""/>
+<align creator="" in="b17" insign="斯皮尔伯格" out="a19" outsign="Spielberg" type=""/>
+<align creator="" in="b18" insign="退出" out="a20a21" outsign="pulled out" type=""/>
+<align creator="" in="b18" insign="退出" out="a22" outsign="of" type=""/>
+<align creator="" in="b20" insign="奥运会" out="a23a25" outsign="the Olympics" type=""/>
+<align creator="" in="b19" insign="北京" out="a24" outsign="Beijing" type=""/>
+<align creator="" in="b22" insign="以" out="a26" outsign="to" type=""/>
+<align creator="" in="b11" insign="政府" out="a14" outsign="the" type=""/>
+<align creator="" in="b30" insign="的" out="a30" outsign="'s" type=""/>
+<align creator="" in="b31" insign="支持" out="a31" outsign="backing" type=""/>
+<align creator="" in="b23" insign="抗议" out="a27" outsign="protest" type=""/>
+<align creator="" in="b26" insign="达尔富尔" out="a37" outsign="Darfur" type=""/>
+<align creator="" in="b33" insign="。" out="a38" outsign="." type=""/>
+<align creator="" in="b36" insign="退出" out="a40" outsign="withdrawal" type=""/>
+<align creator="" in="b37" insign="引发了" out="a41" outsign="comes" type=""/>
+<align creator="" in="b38" insign="达尔富尔" out="a51" outsign="Darfur" type=""/>
+<align creator="" in="b41" insign="再次" out="a49" outsign="again" type=""/>
+<align creator="" in="b43" insign="起来" out="a48" outsign="up" type=""/>
+<align creator="" in="b42" insign="燃烧" out="a47" outsign="flaring" type=""/>
+<align creator="" in="b40" insign="战火" out="a46" outsign="fighting" type=""/>
+<align creator="" in="b37" insign="引发了" out="a42a43a44" outsign="in the wake" type=""/>
+<align creator="" in="b39" insign="的" out="a45" outsign="of" type=""/>
+<align creator="" in="b45" insign="并" out="a52" outsign="and" type=""/>
+<align creator="" in="b46" insign="将" out="a53a54a55" outsign="is set to" type=""/>
+<align creator="" in="b47" insign="为难" out="a56" outsign="embarrass" type=""/>
+<align creator="" in="b49" insign="，" out="a58" outsign="," type=""/>
+<align creator="" in="b48" insign="中国" out="a57" outsign="China" type=""/>
+<align creator="" in="b50" insign="试图" out="a61" outsign="sought" type=""/>
+<align creator="" in="b51" insign="制止" out="a62a63" outsign="to halt" type=""/>
+<align creator="" in="b50" insign="试图" out="a59a60" outsign="which has" type=""/>
+<align creator="" in="b61" insign="影响" out="a64a66" outsign="the fallout" type=""/>
+<align creator="" in="b60" insign="负面" out="a65" outsign="negative" type=""/>
+<align creator="" in="b53" insign="苏丹" out="a73" outsign="Sudanese" type=""/>
+<align creator="" in="b54" insign="政府" out="a74" outsign="government" type=""/>
+<align creator="" in="b62" insign="。" out="a75" outsign="." type=""/>
+<align creator="" in="b63" insign="中国" out="a76" outsign="China" type=""/>
+<align creator="" in="b54" insign="政府" out="a72" outsign="the" type=""/>
+<align creator="" in="b55" insign="有" out="a68" outsign="having" type=""/>
+<align creator="" in="b57" insign="联系" out="a70" outsign="ties" type=""/>
+<align creator="" in="b58b59" insign="带来 的" out="a67" outsign="from" type=""/>
+<align creator="" in="b58" insign="带来" out="a71" outsign="to" type=""/>
+<align creator="" in="b64" insign="在" out="a82" outsign="in" type=""/>
+<align creator="" in="b65" insign="苏丹" out="a84" outsign="Sudanese" type=""/>
+<align creator="" in="b66" insign="石油" out="a85" outsign="oil" type=""/>
+<align creator="" in="b67" insign="工业" out="a83a86" outsign="the industry" type=""/>
+<align creator="" in="b71" insign="，" out="a87" outsign="," type=""/>
+<align creator="" in="b68" insign="有" out="a79" outsign="has" type=""/>
+<align creator="" in="b70" insign="投资" out="a81" outsign="investments" type=""/>
+<align creator="" in="b69" insign="大量" out="a80" outsign="extensive" type=""/>
+<align creator="" in="b74" insign="保持" out="a88" outsign="maintains" type=""/>
+<align creator="" in="b75" insign="密切" out="a89" outsign="close" type=""/>
+<align creator="" in="b76" insign="联系" out="a90" outsign="links" type=""/>
+<align creator="" in="b73" insign="政府" out="a92a93" outsign="the Government" type=""/>
+<align creator="" in="b77" insign="，" out="a94" outsign="," type=""/>
+<align creator="" in="b78" insign="其中" out="a95" outsign="which" type=""/>
+<align creator="" in="b79" insign="包括" out="a96" outsign="includes" type=""/>
+<align creator="" in="b80b81" insign="一 名" out="a97" outsign="one" type=""/>
+<align creator="" in="b82" insign="部长" out="a98" outsign="minister" type=""/>
+<align creator="" in="b90" insign="指控" out="a99" outsign="charged" type=""/>
+<align creator="" in="b91" insign="犯有" out="a100" outsign="with" type=""/>
+<align creator="" in="b94" insign="罪" out="a101" outsign="crimes" type=""/>
+<align creator="" in="b95" insign="。" out="a112" outsign="." type=""/>
+<align creator="" in="b96" insign="虽然" out="a113" outsign="Although" type=""/>
+<align creator="" in="b92" insign="反" out="a102" outsign="against" type=""/>
+<align creator="" in="b93" insign="人类" out="a103" outsign="humanity" type=""/>
+<align creator="" in="b84" insign="海牙" out="a111" outsign="Hague" type=""/>
+<align creator="" in="b84" insign="海牙" out="a110" outsign="The" type=""/>
+<align creator="" in="b83" insign="在" out="a109" outsign="in" type=""/>
+<align creator="" in="b88" insign="法院" out="a108" outsign="Court" type=""/>
+<align creator="" in="b87" insign="刑事" out="a107" outsign="Criminal" type=""/>
+<align creator="" in="b86" insign="国际" out="a106" outsign="International" type=""/>
+<align creator="" in="b88" insign="法院" out="a105" outsign="the" type=""/>
+<align creator="" in="b89" insign="被" out="a104" outsign="by" type=""/>
+<align creator="" in="b97" insign="强调" out="a114" outsign="emphasizing" type=""/>
+<align creator="" in="b97" insign="强调" out="a115" outsign="that" type=""/>
+<align creator="" in="b98" insign="喀土穆" out="a116" outsign="Khartoum" type=""/>
+<align creator="" in="b109" insign="斯皮尔伯格" out="a128" outsign="Spielberg" type=""/>
+<align creator="" in="b108" insign="，" out="a127" outsign="," type=""/>
+<align creator="" in="b104" insign="暴行" out="a126" outsign="atrocities" type=""/>
+<align creator="" in="b102b103" insign="进行 的" out="a125" outsign="ongoing" type=""/>
+<align creator="" in="b100" insign="这些" out="a124" outsign="these" type=""/>
+<align creator="" in="b101" insign="正在" out="a125" outsign="ongoing" type=""/>
+<align creator="" in="b107" insign="责任" out="a121a122" outsign="the responsibility" type=""/>
+<align creator="" in="b105" insign="的" out="a120" outsign="of" type=""/>
+<align creator="" in="b99" insign="承担" out="a117" outsign="bears" type=""/>
+<align creator="" in="b106" insign="大部分" out="a118a119" outsign="the bulk" type=""/>
+<align creator="" in="b110" insign="认为" out="a129a130" outsign="maintains that" type=""/>
+<align creator="" in="b112" insign="国际" out="a132" outsign="international" type=""/>
+<align creator="" in="b113" insign="社会" out="a131a133" outsign="the community" type=""/>
+<align creator="" in="b114" insign="，" out="a134" outsign="," type=""/>
+<align creator="" in="b117" insign="中国" out="a137" outsign="China" type=""/>
+<align creator="" in="b115" insign="特别" out="a136" outsign="particularly" type=""/>
+<align creator="" in="b118" insign="，" out="a138" outsign="," type=""/>
+<align creator="" in="b119" insign="应该" out="a139" outsign="should" type=""/>
+<align creator="" in="b120" insign="做" out="a140" outsign="do" type=""/>
+<align creator="" in="b121" insign="更多" out="a141" outsign="more" type=""/>
+<align creator="" in="b124" insign="来" out="a142" outsign="to" type=""/>
+<align creator="" in="b125" insign="终止" out="a143" outsign="end" type=""/>
+<align creator="" in="b126" insign="苦难" out="a144a145" outsign="the suffering" type=""/>
+<align creator="" in="b127" insign="。" out="a146" outsign="." type=""/>
+<align creator="" in="b29" insign="苏丹" out="a33" outsign="Sudan" type=""/>
+<align creator="" in="b13" insign="姿态" out="a8" outsign="In" type=""/>
+</DTAGalign>
