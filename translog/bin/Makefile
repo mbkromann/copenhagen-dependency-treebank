@@ -82,6 +82,11 @@ fineTreex:
         Write::Treex clobber=1 storable=0 \
         -- $(DIR)/Treex/raw/*.treex.gz
 
+treex2alignment:
+	treex \
+	Misc::Translog::Treex2Alignment \
+	-- $(DIR)/final/*.treex.gz
+
 testToTreex:
 	mkdir -p data/$1/Treex 
 	./DevelopingCountries.ToTreex.bash
