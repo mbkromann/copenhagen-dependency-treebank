@@ -50,7 +50,7 @@ my @unaligned_nodes;
 
 my $F = [split(/\,/, $opt_T)];
 
-print STDERR "Trl2Treex.pl: creating source $F->[1]\n";
+#print STDERR "Trl2Treex.pl: creating source $opt_O\n";
 ReadTranslogFile($F->[0]); 
 FakeSentBoundary();
 CreateSourceZone($F->[0]);
