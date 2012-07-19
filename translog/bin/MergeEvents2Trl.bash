@@ -16,7 +16,7 @@ do
         echo "./FixMod2Trl.pl   -T "$outp.Atag.xml" -O $outp.Event.xml"
         ./FixMod2Trl.pl -T "$outp.Atag.xml" -O  "$outp.Event.xml"
 
-        rm -f $outp.Atag.xml
+#        rm -f $outp.Atag.xml
 
         echo "";
 done    
