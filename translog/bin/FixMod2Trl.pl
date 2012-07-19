@@ -364,7 +364,7 @@ sub DeleteText {
 #  if($c ==  $TextLength-1 && $s =~ /Value="\[Delete\]"/) { printf STDERR "DeleteText: Delete skipped at end of Text\n"; return;}
 
   if($c < 0 || $c >= $TextLength) {
-    printf STDERR "DeleteText: TextLength:$TextLength ceCursor:$c\n";
+    printf STDERR "DeleteText: Time:$t TextLength:$TextLength Cursor:$c\n";
     return;
   }
 
