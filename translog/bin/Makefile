@@ -29,7 +29,17 @@ events:
 	./MergeEvents2Trl.bash SG12
 	./MergeEvents2Trl.bash TPR11
 
-
+AnnotateTrl:
+	./AnnotateTrl.bash ACS08
+	./AnnotateTrl.bash BD08
+	./AnnotateTrl.bash BML12
+	./AnnotateTrl.bash JLG10
+	./AnnotateTrl.bash KTHJ08
+	./AnnotateTrl.bash LWB09
+	./AnnotateTrl.bash MS12
+	./AnnotateTrl.bash NJ12
+	./AnnotateTrl.bash SG12
+	./AnnotateTrl.bash TPR11
 tokenTable:
 	./Trl2TokenTables.bash ACS08
 	./Trl2TokenTables.bash BD08
