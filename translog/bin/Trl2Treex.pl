@@ -247,12 +247,13 @@ sub CreateSourceZone {
   }
 
   $doc->wild->{annotation}{sourceLanguage} = $SourceLanguage;
+#ADD
+#  if(defined($syntax)) {$doc->wild->{annotation}{sourceLanguage}{syntax} = $syntax;};
+#  if(defined($tagged)) {$doc->wild->{annotation}{sourceLanguage}{tagged} = $tagged;};
+#  if(defined($sentence_seg)) {$doc->wild->{annotation}{sourceLanguage}{sentence_seg} = $sentence_seg;};
 
   my $zone_src = $bundle->create_zone($SourceLanguage, "source");
   my $root_src = $zone_src->create_atree;
-
-#    $root_src->wild->{SourceLanguage} = $SourceLanguage;
-#    $bundle->wild->{SourceLanguage} = $SourceLanguage;
 
   my $sent = 1;
   my $first = 0;
@@ -303,7 +304,12 @@ sub AppendTargetZone {
   $bundle = $first_bundle;
   my $zone_tgt = $bundle->create_zone($TargetLanguage, "$study$recording");
   my $root_tgt = $zone_tgt->create_atree;
-  $zone_tgt->{wild}{annotation}{filename} = $fn;
+#ADD
+#  if(defined($syntax)) {$doc->wild->{annotation}{"$study$recording"}{syntax} = $syntax;};
+#  if(defined($tagged)) {$doc->wild->{annotation}{"$study$recording"}{tagged} = $tagged;};
+#  if(defined($sentence_seg)) {$doc->wild->{annotation}{"$study$recording"}{sentence_seg} = $sentence_seg;};
+#  if(defined($sentence_align)) {$doc->wild->{annotation}{"$study$recording"}{sentence_align} = $sentence_align;};
+#  if(defined($word_aligned)) {$doc->wild->{annotation}{"$study$recording"}{word_aligned} = $word_aligned;};
 
 #print STDERR "XXXXXX $study$fn\n";
 
@@ -353,7 +359,7 @@ sub AppendTargetZone {
           $zone_tgt = $anode->get_bundle()->get_or_create_zone($TargetLanguage, "$study$recording");
           $zone_tgt->{wild}{annotation}{filename} = $fn;
           if($zone_tgt->has_atree) {
-            printf STDERR "WARNING: used tree $study$fn\tbundle:%s\ttoken:%s\tform:%s\n", 
+            printf STDERR "WARNING: used tree $study$recording\tbundle:%s\ttoken:%s\tform:%s\n", 
                    $bundle->id(), $tid,  $TOK->{fin}{$id}{tok};
             $root_tgt = $zone_tgt->get_atree();
           }

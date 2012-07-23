@@ -70,14 +70,8 @@ multipleTreex:
 
 fineTreex:
 	@echo ----------- Step 4: Refining the data in treex ----------
-	mkdir -p $(DIR)/final
 	treex \
 	Misc::CopenhagenDT::BuildTreesFromOffsetIndices \
-        Misc::CopenhagenDT::MoveSLTreesToSeparateBundles \
-	Misc::CopenhagenDT::MoveTLTreesToSLCounterpartByAlignment \
-	Misc::CopenhagenDT::FixLonelyNodes \
-        Misc::CopenhagenDT::DeleteFirstBundle \
-        Misc::CopenhagenDT::FlattenUnannotatedTrees \
         Util::Eval document="\$$doc->set_path(qw($(DIR)/Treex))" \
         Write::Treex clobber=1 storable=0 \
         -- $(DIR)/Treex/raw/*.treex.gz
@@ -85,7 +79,7 @@ fineTreex:
 treex2alignment:
 	treex \
 	Misc::Translog::Treex2Alignment \
-	-- $(DIR)/final/*.treex.gz
+	-- $(DIR)/Treex/*.treex.gz
 
 testToTreex:
 	mkdir -p data/$1/Treex 
