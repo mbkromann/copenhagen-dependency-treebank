@@ -5,10 +5,12 @@ Created on 04-Jul-2012
 
 Tree tagger is a POS tagger and Lemmatizer for spanish, german and portuguese
 '''
-import os
+import os.system
 import codecs
 from nltk import pos_tag
 from nltk.stem.wordnet import WordNetLemmatizer 
+
+
 
 def get_lemma_english(word,tag):
     #Obtains Base woed
@@ -43,7 +45,7 @@ def do_tagging_english(sentence):
       
 def do_tagging_treetagger(sentence,language,treetagger_path):
     word_tag_lemma=[]
-    command="echo \""+sentence+"\"|"+treetagger_path+"/cmd/tree-tagger-"+language+"-utf8 >tempfile"
+    command="echo \""+sentence+"\"|"+treetagger_path+"/script/tree-tagger-"+language+"-utf8 >tempfile"
     flag=os.system(command)
     if(flag==0):
         with codecs.open("tempfile","r" ,"utf-8") as f:
