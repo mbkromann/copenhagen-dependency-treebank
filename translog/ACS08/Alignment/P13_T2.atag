@@ -1,4 +1,154 @@
-<DTAGalign source="en" target="da" >
-    <alignFile key="a" href="P13_T2.src" sign="_input"/>
-    <alignFile key="b" href="P13_T2.tgt" sign="_input"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign>
+<alignFile href="P13_T2.src" key="a" sign="_input"/>
+<alignFile href="P13_T2.tgt" key="b" sign="_input"/>
+<align creator="" in="b14" insign="lån" out="a10" outsign="loan" type=""/>
+<align creator="" in="b15" insign="." out="a11" outsign="." type=""/>
+<align creator="" in="b13" insign="et" out="a9" outsign="a" type=""/>
+<align creator="" in="b12" insign="få" out="a8" outsign="get" type=""/>
+<align creator="" in="b10b11" insign="for at" out="a7" outsign="to" type=""/>
+<align creator="" in="b9" insign="banken" out="a5a6" outsign="a bank" type=""/>
+<align creator="" in="b8" insign="i" out="a4" outsign="to" type=""/>
+<align creator="" in="b6" insign="du" out="a2" outsign="you" type=""/>
+<align creator="" in="b7" insign="skal" out="a3" outsign="go" type=""/>
+<align creator="" in="b16" insign="Banken" out="a12a13" outsign="The bank" type=""/>
+<align creator="" in="b17" insign="låner" out="a14" outsign="lends" type=""/>
+<align creator="" in="b18" insign="dig" out="a15" outsign="you" type=""/>
+<align creator="" in="b19" insign="penge" out="a16" outsign="money" type=""/>
+<align creator="" in="b20" insign="." out="a17" outsign="." type=""/>
+<align creator="" in="b21" insign="Så" out="a18" outsign="Then" type=""/>
+<align creator="" in="b23" insign="den" out="a19" outsign="it" type=""/>
+<align creator="" in="b22" insign="pakker" out="a20" outsign="packages" type=""/>
+<align creator="" in="b24" insign="dit" out="a21" outsign="your" type=""/>
+<align creator="" in="b25" insign="lån" out="a22" outsign="loan" type=""/>
+<align creator="" in="b28" insign="en" out="a24" outsign="a" type=""/>
+<align creator="" in="b29" insign="række" out="a25" outsign="bunch" type=""/>
+<align creator="" in="b31" insign="i" out="a28" outsign="into" type=""/>
+<align creator="" in="b32" insign="en" out="a29" outsign="a" type=""/>
+<align creator="" in="b33" insign="obligation" out="a30" outsign="bond" type=""/>
+<align creator="" in="b34" insign="." out="a31" outsign="." type=""/>
+<align creator="" in="b35" insign="Investorerne" out="a32" outsign="Investors" type=""/>
+<align creator="" in="b36" insign="køber" out="a33" outsign="buy" type=""/>
+<align creator="" in="b37" insign="obligationen" out="a34a35" outsign="the bond" type=""/>
+<align creator="" in="b39" insign="fordi" out="a36" outsign="because" type=""/>
+<align creator="" in="b40" insign="de" out="a37" outsign="they" type=""/>
+<align creator="" in="b41b42" insign="kan lide" out="a38" outsign="like" type=""/>
+<align creator="" in="b43" insign="den" out="a39" outsign="the" type=""/>
+<align creator="" in="b44" insign="stabile" out="a40" outsign="steady" type=""/>
+<align creator="" in="b45" insign="strøm" out="a41" outsign="stream" type=""/>
+<align creator="" in="b46" insign="af" out="a42" outsign="of" type=""/>
+<align creator="" in="b47" insign="kontanter" out="a43" outsign="cash" type=""/>
+<align creator="" in="b49" insign="der" out="a44" outsign="that" type=""/>
+<align creator="" in="b50" insign="kommer" out="a45" outsign="comes" type=""/>
+<align creator="" in="b51" insign="fra" out="a46" outsign="from" type=""/>
+<align creator="" in="b52" insign="folk" out="a47" outsign="people" type=""/>
+<align creator="" in="b54b55" insign="som langsomt" out="a48" outsign="slowly" type=""/>
+<align creator="" in="b56" insign="tilbagebetaler" out="a49a50" outsign="paying off" type=""/>
+<align creator="" in="b57" insign="deres" out="a51" outsign="their" type=""/>
+<align creator="" in="b58" insign="gæld" out="a52" outsign="debt" type=""/>
+<align creator="" in="b59" insign="." out="a53" outsign="." type=""/>
+<align creator="" in="b60" insign="Dette" out="a54" outsign="This" type=""/>
+<align creator="" in="b64" insign="lang" out="a59" outsign="long" type=""/>
+<align creator="" in="b65" insign="tid" out="a60" outsign="while" type=""/>
+<align creator="" in="b64" insign="lang" out="a58a59" outsign="a long" type=""/>
+<align creator="" in="b63" insign="i" out="a57" outsign="for" type=""/>
+<align creator="" in="b61b62" insign="står på" out="a55a56" outsign="goes on" type=""/>
+<align creator="" in="b66" insign="." out="a61" outsign="." type=""/>
+<align creator="" in="b67" insign="Så" out="a62" outsign="Then" type=""/>
+<align creator="" in="b68" insign="en" out="a63" outsign="one" type=""/>
+<align creator="" in="b69" insign="dag" out="a64" outsign="day" type=""/>
+<align creator="" in="b71" insign="du" out="a66" outsign="you" type=""/>
+<align creator="" in="b70b72b73" insign="har brug for" out="a67" outsign="need" type=""/>
+<align creator="" in="b74b75" insign="endnu et" out="a68" outsign="another" type=""/>
+<align creator="" in="b76" insign="lån" out="a69" outsign="loan" type=""/>
+<align creator="" in="b77" insign="." out="a70" outsign="." type=""/>
+<align creator="" in="b78" insign="Men" out="a71" outsign="But" type=""/>
+<align creator="" in="b79" insign="denne" out="a72" outsign="this" type=""/>
+<align creator="" in="b80" insign="gang" out="a73" outsign="time" type=""/>
+<align creator="" in="b82" insign="der" out="a75" outsign="there" type=""/>
+<align creator="" in="b81" insign="er" out="a76" outsign="is" type=""/>
+<align creator="" in="b83b84" insign="ikke nongen" out="a77" outsign="no" type=""/>
+<align creator="" in="b85" insign="penge" out="a78" outsign="money" type=""/>
+<align creator="" in="b86" insign="at" out="a79" outsign="to" type=""/>
+<align creator="" in="b87" insign="låne" out="a80" outsign="lend" type=""/>
+<align creator="" in="b89" insign="fordi" out="a81" outsign="because" type=""/>
+<align creator="" in="b90" insign="det" out="a82" outsign="the" type=""/>
+<align creator="" in="b91" insign="globale" out="a83" outsign="global" type=""/>
+<align creator="" in="b92" insign="finansielle" out="a84" outsign="financial" type=""/>
+<align creator="" in="b93" insign="system" out="a85" outsign="system" type=""/>
+<align creator="" in="b94" insign="er" out="a86" outsign="has" type=""/>
+<align creator="" in="b95b96b97" insign="vendt på hovedet" out="a87a88a89" outsign="turned upside down" type=""/>
+<align creator="" in="b98" insign="," out="a90" outsign="," type=""/>
+<align creator="" in="b99" insign="og" out="a91" outsign="and" type=""/>
+<align creator="" in="b100" insign="markedet" out="a92a93" outsign="the market" type=""/>
+<align creator="" in="b101" insign="for" out="a94" outsign="for" type=""/>
+<align creator="" in="b102" insign="securitisation" out="a95" outsign="securitization" type=""/>
+<align creator="" in="b103" insign="-" out="a96" outsign="-" type=""/>
+<align creator="" in="b104" insign="processen" out="a97a98" outsign="the process" type=""/>
+<align creator="" in="b105b106" insign="at pakke" out="a99a100" outsign="of packaging" type=""/>
+<align creator="" in="b107" insign="lån" out="a101" outsign="loans" type=""/>
+<align creator="" in="b108" insign="i" out="a102" outsign="into" type=""/>
+<align creator="" in="b109" insign="obligationer" out="a103" outsign="bonds" type=""/>
+<align creator="" in="b110" insign="og" out="a104" outsign="and" type=""/>
+<align creator="" in="b111" insign="frigøre" out="a105a106" outsign="freeing up" type=""/>
+<align creator="" in="b112" insign="likvider" out="a107" outsign="cash" type=""/>
+<align creator="" in="b113" insign="til" out="a108" outsign="for" type=""/>
+<align creator="" in="b114" insign="yderligere" out="a109" outsign="more" type=""/>
+<align creator="" in="b115" insign="långivning" out="a110" outsign="lending" type=""/>
+<align creator="" in="b116" insign="-" out="a111" outsign="-" type=""/>
+<align creator="" in="b117" insign="er" out="a112" outsign="has" type=""/>
+<align creator="" in="b118" insign="faldet" out="a113" outsign="fallen" type=""/>
+<align creator="" in="b119b120" insign="ud over" out="a114" outsign="off" type=""/>
+<align creator="" in="b121" insign="kanten" out="a115a116" outsign="a cliff" type=""/>
+<align creator="" in="b122" insign="." out="a117" outsign="." type=""/>
+<align creator="" in="b123" insign="Vi" out="a118" outsign="We" type=""/>
+<align creator="" in="b124" insign="oplever" out="a119a121" outsign="’re suffering" type=""/>
+<align creator="" in="b125b126" insign="i øjeblikket" out="a120" outsign="now" type=""/>
+<align creator="" in="b127" insign="et" out="a122" outsign="a" type=""/>
+<align creator="" in="b128" insign="finansielt" out="a123" outsign="financial" type=""/>
+<align creator="" in="b129" insign="Tjernobyl" out="a124" outsign="Chernobyl" type=""/>
+<align creator="" in="b130" insign="," out="a125" outsign="," type=""/>
+<align creator="" in="b131" insign="og" out="a126" outsign="and" type=""/>
+<align creator="" in="b132" insign="securitisation" out="a127" outsign="securitization" type=""/>
+<align creator="" in="b133" insign="er" out="a128" outsign="is" type=""/>
+<align creator="" in="b134" insign="radioaktivt" out="a129" outsign="radioactive" type=""/>
+<align creator="" in="b135" insign="." out="a130" outsign="." type=""/>
+<align creator="" in="b136" insign="Det" out="a131" outsign="It" type=""/>
+<align creator="" in="b137b139b140" insign="gav mulighed for" out="a132" outsign="enabled" type=""/>
+<align creator="" in="b138" insign="os" out="a133" outsign="us" type=""/>
+<align creator="" in="b141" insign="at" out="a134" outsign="to" type=""/>
+<align creator="" in="b142" insign="frådse" out="a135" outsign="gorge" type=""/>
+<align creator="" in="b143" insign="med" out="a136" outsign="on" type=""/>
+<align creator="" in="b144" insign="pengene" out="a137" outsign="money" type=""/>
+<align creator="" in="b145" insign="," out="a138" outsign="," type=""/>
+<align creator="" in="b146" insign="hvilket" out="a139" outsign="which" type=""/>
+<align creator="" in="b147" insign="er" out="a140" outsign="is" type=""/>
+<align creator="" in="b148b150" insign="det der" out="a141" outsign="what" type=""/>
+<align creator="" in="b151" insign="fik" out="a142" outsign="got" type=""/>
+<align creator="" in="b152" insign="os" out="a143" outsign="us" type=""/>
+<align creator="" in="b153b154" insign="ud i" out="a144" outsign="into" type=""/>
+<align creator="" in="b155" insign="dette" out="a145" outsign="this" type=""/>
+<align creator="" in="b156" insign="problem" out="a146" outsign="mess" type=""/>
+<align creator="" in="b160" insign="." out="a147" outsign="." type=""/>
+<align creator="" in="b161" insign="Udfordringen" out="a148a149" outsign="The task" type=""/>
+<align creator="" in="b162" insign="nu" out="a150" outsign="now" type=""/>
+<align creator="" in="b163" insign="er" out="a151" outsign="is" type=""/>
+<align creator="" in="b164" insign="at" out="a152" outsign="to" type=""/>
+<align creator="" in="b165" insign="finde" out="a153" outsign="find" type=""/>
+<align creator="" in="b166" insign="den" out="a154" outsign="the" type=""/>
+<align creator="" in="b167" insign="rigtige" out="a155" outsign="proper" type=""/>
+<align creator="" in="b168" insign="rolle" out="a156" outsign="role" type=""/>
+<align creator="" in="b169" insign="for" out="a157" outsign="for" type=""/>
+<align creator="" in="b170" insign="securitisation" out="a158" outsign="securitization" type=""/>
+<align creator="" in="b172" insign="så" out="a159a160" outsign="so that" type=""/>
+<align creator="" in="b173" insign="området" out="a161" outsign="it" type=""/>
+<align creator="" in="b176b177b178" insign="endnu en gang" out="a165" outsign="again" type=""/>
+<align creator="" in="b175" insign="eksploderer" out="a164" outsign="detonate" type=""/>
+<align creator="" in="b174" insign="ikke" out="a162a163" outsign="doesn ’t" type=""/>
+<align creator="" in="b179" insign="." out="a166" outsign="." type=""/>
+<align creator="" in="b1b2b3b5" insign="Lad os sige at" out="a1" outsign="Say" type=""/>
+<align creator="" in="b27" insign="med" out="a23" outsign="with" type=""/>
+<align creator="" in="b22b26" insign="pakker sammen" out="a20" outsign="packages" type=""/>
+<align creator="" in="b29" insign="række" out="a25a26" outsign="bunch of" type=""/>
+<align creator="" in="b30" insign="andre" out="a27" outsign="others" type=""/>
 </DTAGalign>

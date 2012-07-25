@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign source="en" target="da" >
+<DTAGalign>
 <alignFile href="P05_T4.src" key="a" sign=""/>
 <alignFile href="P05_T4.tgt" key="b" sign=""/>
 <align creator="" in="b1" insign="Bank" out="a2" outsign="Bank" type=""/>
@@ -25,7 +25,6 @@
 <align creator="" in="b34" insign="den" out="a30" outsign="the" type=""/>
 <align creator="" in="b35" insign="økonomiske" out="a31" outsign="economic" type=""/>
 <align creator="" in="b36" insign="lavkonjunktur" out="a32" outsign="downturn" type=""/>
-<align creator="" in="b37" insign="udviklede" out="a33" outsign="became" type=""/>
 <align creator="" in="b40" insign="et" out="a34" outsign="a" type=""/>
 <align creator="" in="b41" insign="totalt" out="a35" outsign="full" type=""/>
 <align creator="" in="b42" insign="kollaps" out="a38" outsign="collapse" type=""/>
@@ -34,7 +33,6 @@
 <align creator="" in="b51" insign="hvide" out="a51" outsign="white" type=""/>
 <align creator="" in="b52" insign="kitler" out="a52" outsign="coats" type=""/>
 <align creator="" in="b54" insign="og" out="a53" outsign="and" type=""/>
-<align creator="" in="b59" insign="arbejdet" out="a56" outsign="work" type=""/>
 <align creator="" in="b60" insign="." out="a57" outsign="." type=""/>
 <align creator="" in="b61" insign="Først" out="a58" outsign="First" type=""/>
 <align creator="" in="b62" insign="brugte" out="a60" outsign="put" type=""/>
@@ -97,9 +95,6 @@
 <align creator="" in="b129" insign="store" out="a133" outsign="big" type=""/>
 <align creator="" in="b130" insign="doser" out="a134" outsign="doses" type=""/>
 <align creator="" in="b131" insign="." out="a135" outsign="." type=""/>
-<align creator="" in="b137" insign="," out="a137" outsign="," type=""/>
-<align creator="" in="b143" insign="en" out="a138" outsign="a" type=""/>
-<align creator="" in="b144" insign="ændring" out="a140" outsign="return" type=""/>
 <align creator="" in="b133" insign="er" out="a144" outsign="is" type=""/>
 <align creator="" in="b155" insign="finansielle" out="a149" outsign="financial" type=""/>
 <align creator="" in="b156" insign="og" out="a150" outsign="and" type=""/>
@@ -108,8 +103,6 @@
 <align creator="" in="b151" insign="de" out="a154" outsign="the" type=""/>
 <align creator="" in="b152" insign="sidste" out="a155" outsign="past" type=""/>
 <align creator="" in="b153" insign="to" out="a156" outsign="two" type=""/>
-<align creator="" in="b154" insign="års" out="a156" outsign="two" type=""/>
-<align creator="" in="b155" insign="finansielle" out="a157" outsign="years" type=""/>
 <align creator="" in="b159" insign="." out="a158" outsign="." type=""/>
 <align creator="" in="b160" insign="En" out="a159" outsign="A" type=""/>
 <align creator="" in="b161" insign="langvarig" out="a160" outsign="prolonged" type=""/>
@@ -125,14 +118,12 @@
 <align creator="" in="b23b24" insign="opført sig" out="a24a25" outsign="been acting" type=""/>
 <align creator="" in="b26b27b28b29b30" insign="som om det var det" out="a26a27" outsign="like one" type=""/>
 <align creator="" in="b31" insign="." out="a28" outsign="." type=""/>
-<align creator="" in="b38b39" insign="sig til" out="a33" outsign="became" type=""/>
 <align creator="" in="b41" insign="totalt" out="a36a37" outsign="- blown" type=""/>
 <align creator="" in="b43b44b45" insign="sidst i 2008" out="a40a41" outsign="last year" type=""/>
 <align creator="" in="b48" insign="bankens" out="a43a44a45a46" outsign="the central bank ’s" type=""/>
 <align creator="" in="b49" insign="seniorkonsulenter" out="a47a48" outsign="senior consultants" type=""/>
 <align creator="" in="b47" insign="tog" out="a49" outsign="donned" type=""/>
 <align creator="" in="b53" insign="på" out="a49" outsign="donned" type=""/>
-<align creator="" in="b55b56b57b58" insign="gik i gang med" out="a54a55" outsign="got to" type=""/>
 <align creator="" in="b63" insign="de" out="a59" outsign="they" type=""/>
 <align creator="" in="b64" insign="skalpellen" out="a61" outsign="their" type=""/>
 <align creator="" in="b68" insign="og" out="a67" outsign="slicing" type=""/>
@@ -148,7 +139,6 @@
 <align creator="" in="b109" insign="at" out="a108" outsign="by" type=""/>
 <align creator="" in="b122" insign="er" out="a129" outsign="has" type=""/>
 <align creator="" in="b126" insign="blevet" out="a130" outsign="been" type=""/>
-<align creator="" in="b140" insign="hurtigt" out="a139" outsign="swift" type=""/>
 <align creator="" in="b145" insign="til" out="a141" outsign="to" type=""/>
 <align creator="" in="b136" insign="sandsynligt" out="a146" outsign="unlikely" type=""/>
 <align creator="" in="b135" insign="ikke" out="a146" outsign="unlikely" type=""/>
@@ -156,6 +146,12 @@
 <align creator="" in="b132" insign="Det" out="a144" outsign="is" type=""/>
 <align creator="" in="b146b147b148b149" insign="det bedre for økonomien" out="a142a143" outsign="economic health" type=""/>
 <align creator="" in="b150" insign="efter" out="a147" outsign="after" type=""/>
-<align creator="" in="b154" insign="års" out="a153" outsign="of" type=""/>
 <align creator="" in="b167b168b169b170" insign="vi kan håbe på" out="a165a166a167a168" outsign="that can be expected" type=""/>
+<align creator="" in="b43b44b45" insign="sidst i 2008" out="a39a40a41" outsign="late last year" type=""/>
+<align creator="" in="b47b53" insign="tog på" out="a49" outsign="donned" type=""/>
+<align creator="" in="b154" insign="års" out="a157" outsign="years" type=""/>
+<align creator="" in="b1b2b3b4" insign="Bank of England 's" out="a1a2a3a4a5" outsign="The Bank of England ’s" type=""/>
+<align creator="" in="b37b38b39" insign="udviklede sig til" out="a33" outsign="became" type=""/>
+<align creator="" in="b55b56b57b58b59" insign="gik i gang med arbejdet" out="a54a55a56" outsign="got to work" type=""/>
+<align creator="" in="b138b139b140b141b142b143b144" insign="at vi hurtigt vil se en ændring" out="a138a139a140" outsign="a swift return" type=""/>
 </DTAGalign>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign source="en" target="da" >
+<DTAGalign>
 <alignFile href="P01_T4.src" key="a" sign="_input"/>
 <alignFile href="P01_T4.tgt" key="b" sign="_input"/>
 <align creator="" in="b1" insign="Den" out="a1" outsign="The" type=""/>
@@ -20,9 +20,7 @@
 <align creator="" in="b17" insign="seneste" out="a19" outsign="past" type=""/>
 <align creator="" in="b17" insign="seneste" out="a20" outsign="few" type=""/>
 <align creator="" in="b18" insign="måneder" out="a21" outsign="months" type=""/>
-<align creator="" in="b19" insign="har" out="a23" outsign="has" type=""/>
 <align creator="" in="b20" insign="den" out="a22" outsign="it" type=""/>
-<align creator="" in="b19" insign="har" out="a24" outsign="been" type=""/>
 <align creator="" in="b21" insign="opført" out="a25" outsign="acting" type=""/>
 <align creator="" in="b22" insign="sig" out="a25" outsign="acting" type=""/>
 <align creator="" in="b23" insign="som" out="a26" outsign="like" type=""/>
@@ -33,21 +31,17 @@
 <align creator="" in="b28" insign="økonomiske" out="a31" outsign="economic" type=""/>
 <align creator="" in="b29" insign="nedtur" out="a32" outsign="downturn" type=""/>
 <align creator="" in="b30b31" insign="nåede bunden" out="a33a34a35a36a37a38" outsign="became a full - blown collapse" type=""/>
-<align creator="" in="b32b33" insign="sidste år" out="a39a40a41" outsign="late last year" type=""/>
 <align creator="" in="b34" insign="," out="a42" outsign="," type=""/>
 <align creator="" in="b35b39" insign="tog på" out="a49" outsign="donned" type=""/>
 <align creator="" in="b36" insign="nationalbankens" out="a43a44a45a46" outsign="the central bank ’s" type=""/>
-<align creator="" in="b37" insign="konsulenter" out="a47a48" outsign="senior consultants" type=""/>
 <align creator="" in="b38" insign="lægekitlen" out="a50a51a52" outsign="their white coats" type=""/>
 <align creator="" in="b40" insign="og" out="a53" outsign="and" type=""/>
-<align creator="" in="b41b42b43b44" insign="gik i gang med" out="a54a55" outsign="got to" type=""/>
 <align creator="" in="b45" insign="arbejdet" out="a56" outsign="work" type=""/>
 <align creator="" in="b46" insign="." out="a57" outsign="." type=""/>
 <align creator="" in="b47" insign="Først" out="a58" outsign="First" type=""/>
 <align creator="" in="b49" insign="da" out="a59" outsign="they" type=""/>
 <align creator="" in="b51" insign="renten" out="a64a65" outsign="interest rates" type=""/>
 <align creator="" in="b55" insign="," out="a66" outsign="," type=""/>
-<align creator="" in="b48b52b53b54" insign="beskar med en skalpel" out="a60a61a62" outsign="put their scalpel" type=""/>
 <align creator="" in="b56" insign="fra" out="a69" outsign="from" type=""/>
 <align creator="" in="b60" insign="5" out="a70" outsign="5" type=""/>
 <align creator="" in="b61" insign="%" out="a71" outsign="%" type=""/>
@@ -75,11 +69,9 @@
 <align creator="" in="b94b95b96" insign="qua indkøb at" out="a108a109" outsign="by buying" type=""/>
 <align creator="" in="b97" insign="aktiver" out="a110" outsign="assets" type=""/>
 <align creator="" in="b98" insign="med" out="a111" outsign="with" type=""/>
-<align creator="" in="b99" insign="nytrykte" out="a112a113a114a115a116" outsign="freshly created central - bank" type=""/>
 <align creator="" in="b100" insign="penge" out="a117" outsign="money" type=""/>
 <align creator="" in="b101" insign="." out="a118" outsign="." type=""/>
 <align creator="" in="b102b103b104b105b106" insign="Som det var tilfældet med" out="a119a120" outsign="As with" type=""/>
-<align creator="" in="b107" insign="beskæringen" out="a121a124" outsign="the cuts" type=""/>
 <align creator="" in="b109" insign="renten" out="a123" outsign="rate" type=""/>
 <align creator="" in="b110" insign="," out="a125" outsign="," type=""/>
 <align creator="" in="b117" insign="i" out="a132" outsign="in" type=""/>
@@ -90,7 +82,6 @@
 <align creator="" in="b116" insign="behandling" out="a128" outsign="treatment" type=""/>
 <align creator="" in="b111b112" insign="anvendte man" out="a129a130a131" outsign="has been administered" type=""/>
 <align creator="" in="b120" insign="." out="a135" outsign="." type=""/>
-<align creator="" in="b126" insign="," out="a137" outsign="," type=""/>
 <align creator="" in="b123" insign="dog" out="a136" outsign="However" type=""/>
 <align creator="" in="b124b125" insign="ikke sandsynligt" out="a145a146" outsign="highly unlikely" type=""/>
 <align creator="" in="b122" insign="er" out="a144" outsign="is" type=""/>
@@ -103,14 +94,25 @@
 <align creator="" in="b143" insign="økonomiske" out="a151" outsign="economic" type=""/>
 <align creator="" in="b146" insign="sammentrækninger" out="a152" outsign="convulsions" type=""/>
 <align creator="" in="b147" insign="." out="a158" outsign="." type=""/>
-<align creator="" in="b142" insign="års" out="a148a153a157" outsign="the of years" type=""/>
 <align creator="" in="b139" insign="de" out="a154" outsign="the" type=""/>
 <align creator="" in="b140" insign="sidste" out="a155" outsign="past" type=""/>
 <align creator="" in="b141" insign="to" out="a156" outsign="two" type=""/>
 <align creator="" in="b148" insign="En" out="a159" outsign="A" type=""/>
 <align creator="" in="b149" insign="lang" out="a160" outsign="prolonged" type=""/>
 <align creator="" in="b150" insign="rekonvalescens" out="a161" outsign="convalescence" type=""/>
-<align creator="" in="b151" insign="er" out="a162" outsign="is" type=""/>
-<align creator="" in="b152" insign="forventelig" out="a166a167a168" outsign="can be expected" type=""/>
 <align creator="" in="b153" insign="." out="a169" outsign="." type=""/>
+<align creator="" in="b32" insign="sidste" out="a40" outsign="last" type=""/>
+<align creator="" in="b33" insign="år" out="a41" outsign="year" type=""/>
+<align creator="" in="b99" insign="nytrykte" out="a112a113" outsign="freshly created" type=""/>
+<align creator="" in="b142" insign="års" out="a153a157" outsign="of years" type=""/>
+<align creator="" in="b19" insign="har" out="a23" outsign="has" type=""/>
+<align creator="" in="b21b22" insign="opført sig" out="a24a25" outsign="been acting" type=""/>
+<align creator="" in="b37" insign="konsulenter" out="a48" outsign="consultants" type=""/>
+<align creator="" in="b41b42b43b44b45" insign="gik i gang med arbejdet" out="a54a55a56" outsign="got to work" type=""/>
+<align creator="" in="b50" insign="i" out="a63" outsign="to" type=""/>
+<align creator="" in="b48b52" insign="beskar med" out="a60" outsign="put" type=""/>
+<align creator="" in="b53b54" insign="en skalpel" out="a61a62" outsign="their scalpel" type=""/>
+<align creator="" in="b56b57b58b59" insign="fra et niveau på" out="a67a68a69" outsign="slicing them from" type=""/>
+<align creator="" in="b107b108b109" insign="beskæringen af renten" out="a121a123a124" outsign="the rate cuts" type=""/>
+<align creator="" in="b151b152" insign="er forventelig" out="a166a167a168" outsign="can be expected" type=""/>
 </DTAGalign>

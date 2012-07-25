@@ -1,211 +1,168 @@
-<DTAGalign source="en" target="da" >
-<alignFile key="a" href="P13_T1.src" />
-<alignFile key="b" href="P13_T1.tgt" />
-<align out="a1" type="" in="b1" />
-<align out="a2" type="" in="b2" />
-<align out="a3" type="" in="b2" />
-<align out="a3" type="" in="b4" />
-<align out="a4" type="" in="b3" />
-<align out="a5" type="" in="b5" />
-<align out="a6" type="" in="b6" />
-<align out="a7" type="" in="b6" />
-<align out="a7" type="" in="b7" />
-<align out="a7" type="" in="b8" />
-<align out="a8" type="" in="b9" />
-<align out="a9" type="" in="b9" />
-<align out="a9" type="" in="b10" />
-<align out="a9" type="" in="b11" />
-<align out="a10" type="" in="b11" />
-<align out="a11" type="" in="b12" />
-<align out="a12" type="" in="b13" />
-<align out="a12" type="" in="b16" />
-<align out="a13" type="" in="b14" />
-<align out="a13" type="" in="b15" />
-<align out="a14" type="" in="b14" />
-<align out="a15" type="" in="b15" />
-<align out="a18" type="" in="b17" />
-<align out="a19" type="" in="b19" />
-<align out="a20" type="" in="b20" />
-<align out="a21" type="" in="b21" />
-<align out="a22" type="" in="b23" />
-<align out="a23" type="" in="b23" />
-<align out="a24" type="" in="b22" />
-<align out="a25" type="" in="b24" />
-<align out="a25" type="" in="b25" />
-<align out="a26" type="" in="b25" />
-<align out="a27" type="" in="b26" />
-<align out="a28" type="" in="b27" />
-<align out="a29" type="" in="b27" />
-<align out="a30" type="" in="b28" />
-<align out="a31" type="" in="b29" />
-<align out="a32" type="" in="b30" />
-<align out="a33" type="" in="b31" />
-<align out="a33" type="" in="b33" />
-<align out="a33" type="" in="b34" />
-<align out="a34" type="" in="b32" />
-<align out="a35" type="" in="b33" />
-<align out="a36" type="" in="b34" />
-<align out="a37" type="" in="b35" />
-<align out="a38" type="" in="b35" />
-<align out="a39" type="" in="b36" />
-<align out="a40" type="" in="b37" />
-<align out="a41" type="" in="b38" />
-<align out="a42" type="" in="b39" />
-<align out="a43" type="" in="b40" />
-<align out="a44" type="" in="b45" />
-<align out="a44" type="" in="b46" />
-<align out="a45" type="" in="b68" />
-<align out="a46" type="" in="b48" />
-<align out="a47" type="" in="b49" />
-<align out="a48" type="" in="b44" />
-<align out="a49" type="" in="b53" />
-<align out="a50" type="" in="b54" />
-<align out="a51" type="" in="b55" />
-<align out="a52" type="" in="b55" />
-<align out="a53" type="" in="b62" />
-<align out="a54" type="" in="b63" />
-<align out="a55" type="" in="b62" />
-<align out="a56" type="" in="b63" />
-<align out="a56" type="" in="b64" />
-<align out="a57" type="" in="b65" />
-<align out="a58" type="" in="b66" />
-<align out="a63" type="" in="b59" />
-<align out="a64" type="" in="b61" />
-<align out="a65" type="" in="b72" />
-<align out="a66" type="" in="b70" />
-<align out="a67" type="" in="b73" />
-<align out="a67" type="" in="b75" />
-<align out="a68" type="" in="b74" />
-<align out="a68" type="" in="b76" />
-<align out="a69" type="" in="b77" />
-<align out="a70" type="" in="b78" />
-<align out="a71" type="" in="b79" />
-<align out="a72" type="" in="b80" />
-<align out="a73" type="" in="b81" />
-<align out="a74" type="" in="b82" />
-<align out="a75" type="" in="b83" />
-<align out="a76" type="" in="b84" />
-<align out="a77" type="" in="b84" />
-<align out="a78" type="" in="b87" />
-<align out="a79" type="" in="b88" />
-<align out="a80" type="" in="b88" />
-<align out="a81" type="" in="b88" />
-<align out="a82" type="" in="b89" />
-<align out="a83" type="" in="b89" />
-<align out="a84" type="" in="b92" />
-<align out="a85" type="" in="b93" />
-<align out="a86" type="" in="b94" />
-<align out="a87" type="" in="b94" />
-<align out="a88" type="" in="b95" />
-<align out="a89" type="" in="b96" />
-<align out="a89" type="" in="b97" />
-<align out="a90" type="" in="b97" />
-<align out="a91" type="" in="b97" />
-<align out="a92" type="" in="b98" />
-<align out="a93" type="" in="b99" />
-<align out="a94" type="" in="b100" />
-<align out="a95" type="" in="b100" />
-<align out="a96" type="" in="b99" />
-<align out="a96" type="" in="b100" />
-<align out="a97" type="" in="b101" />
-<align out="a97" type="" in="b103" />
-<align out="a99" type="" in="b104" />
-<align out="a100" type="" in="b105" />
-<align out="a101" type="" in="b106" />
-<align out="a102" type="" in="b107" />
-<align out="a103" type="" in="b107" />
-<align out="a103" type="" in="b108" />
-<align out="a103" type="" in="b109" />
-<align out="a104" type="" in="b108" />
-<align out="a105" type="" in="b109" />
-<align out="a105" type="" in="b110" />
-<align out="a106" type="" in="b113" />
-<align out="a107" type="" in="b112" />
-<align out="a108" type="" in="b113" />
-<align out="a108" type="" in="b114" />
-<align out="a109" type="" in="b114" />
-<align out="a111" type="" in="b119" />
-<align out="a112" type="" in="b116" />
-<align out="a113" type="" in="b120" />
-<align out="a113" type="" in="b121" />
-<align out="a114" type="" in="b127" />
-<align out="a115" type="" in="b128" />
-<align out="a116" type="" in="b129" />
-<align out="a117" type="" in="b131" />
-<align out="a117" type="" in="b132" />
-<align out="a118" type="" in="b132" />
-<align out="a119" type="" in="b133" />
-<align out="a120" type="" in="b135" />
-<align out="a121" type="" in="b134" />
-<align out="a121" type="" in="b135" />
-<align out="a122" type="" in="b136" />
-<align out="a123" type="" in="b138" />
-<align out="a123" type="" in="b139" />
-<align out="a124" type="" in="b139" />
-<align out="a124" type="" in="b140" />
-<align out="a125" type="" in="b140" />
-<align out="a125" type="" in="b142" />
-<align out="a126" type="" in="b141" />
-<align out="a126" type="" in="b142" />
-<align out="a127" type="" in="b143" />
-<align out="a128" type="" in="b143" />
-<align out="a128" type="" in="b144" />
-<align out="a128" type="" in="b145" />
-<align out="a128" type="" in="b146" />
-<align out="a129" type="" in="b145" />
-<align out="a130" type="" in="b144" />
-<align out="a131" type="" in="b144" />
-<align out="a131" type="" in="b147" />
-<align out="a132" type="" in="b148" />
-<align out="a133" type="" in="b148" />
-<align out="a133" type="" in="b149" />
-<align out="a134" type="" in="b149" />
-<align out="a134" type="" in="b150" />
-<align out="a135" type="" in="b150" />
-<align out="a136" type="" in="b151" />
-<align out="a137" type="" in="b152" />
-<align out="a137" type="" in="b153" />
-<align out="a138" type="" in="b154" />
-<align out="a139" type="" in="b155" />
-<align out="a139" type="" in="b156" />
-<align out="a140" type="" in="b155" />
-<align out="a140" type="" in="b157" />
-<align out="a141" type="" in="b156" />
-<align out="a142" type="" in="b158" />
-<align out="a142" type="" in="b159" />
-<align out="a142" type="" in="b160" />
-<align out="a143" type="" in="b161" />
-<align out="a144" type="" in="b162" />
-<align out="a145" type="" in="b163" />
-<align out="a147" type="" in="b163" />
-<align out="a148" type="" in="b164" />
-<align out="a149" type="" in="b165" />
-<align out="a150" type="" in="b165" />
-<align out="a151" type="" in="b166" />
-<align out="a152" type="" in="b167" />
-<align out="a153" type="" in="b167" />
-<align out="a153" type="" in="b168" />
-<align out="a154" type="" in="b170" />
-<align out="a154" type="" in="b171" />
-<align out="a155" type="" in="b171" />
-<align out="a155" type="" in="b172" />
-<align out="a156" type="" in="b171" />
-<align out="a157" type="" in="b171" />
-<align out="a157" type="" in="b177" />
-<align out="a158" type="" in="b178" />
-<align out="a159" type="" in="b180" />
-<align out="a160" type="" in="b179" />
-<align out="a161" type="" in="b175" />
-<align out="a162" type="" in="b176" />
-<align out="a163" type="" in="b184" />
-<align out="a164" type="" in="b187" />
-<align out="a166" type="" in="b191" />
-<align out="a167" type="" in="b189" />
-<align out="a168" type="" in="b190" />
-<align out="a169" type="" in="b185" />
-<align out="a171" type="" in="b192" />
-<align out="a172" type="" in="b193" />
-<align out="a173" type="" in="b193" />
-<align out="a174" type="" in="b194" />
-<align out="a175" type="" in="b195" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign>
+<alignFile href="P13_T1.src" key="a" sign=""/>
+<alignFile href="P13_T1.tgt" key="b" sign=""/>
+<align creator="" in="b1" insign="American" out="a1" outsign="American" type=""/>
+<align creator="" in="b2" insign="Express" out="a2" outsign="Express" type=""/>
+<align creator="" in="b3" insign="annoncerede" out="a4" outsign="announced" type=""/>
+<align creator="" in="b5" insign="en" out="a5" outsign="a" type=""/>
+<align creator="" in="b6" insign="runde" out="a7" outsign="round" type=""/>
+<align creator="" in="b12" insign="." out="a11" outsign="." type=""/>
+<align creator="" in="b13" insign="Annonceringen" out="a12" outsign="The" type=""/>
+<align creator="" in="b14" insign="sendte" out="a14" outsign="sent" type=""/>
+<align creator="" in="b15" insign="rystelser" out="a15" outsign="a" type=""/>
+<align creator="" in="b19" insign="markedet" out="a19" outsign="market" type=""/>
+<align creator="" in="b20" insign="for" out="a20" outsign="for" type=""/>
+<align creator="" in="b21" insign="obligationer" out="a21" outsign="bonds" type=""/>
+<align creator="" in="b23" insign="understøttet" out="a22" outsign="backed" type=""/>
+<align creator="" in="b25" insign="kreditkortgæld" out="a25" outsign="card" type=""/>
+<align creator="" in="b25" insign="kreditkortgæld" out="a26" outsign="debt" type=""/>
+<align creator="" in="b26" insign="." out="a27" outsign="." type=""/>
+<align creator="" in="b27" insign="Stigningen" out="a28" outsign="The" type=""/>
+<align creator="" in="b27" insign="Stigningen" out="a29" outsign="rise" type=""/>
+<align creator="" in="b28" insign="i" out="a30" outsign="in" type=""/>
+<align creator="" in="b29" insign="arbejdsløsheden" out="a31" outsign="unemployment" type=""/>
+<align creator="" in="b30" insign="har" out="a32" outsign="has" type=""/>
+<align creator="" in="b31" insign="overhældt" out="a33" outsign="spattered" type=""/>
+<align creator="" in="b32" insign="et" out="a34" outsign="a" type=""/>
+<align creator="" in="b33" insign="tidligere" out="a35" outsign="once" type=""/>
+<align creator="" in="b35" insign="område" out="a38" outsign="business" type=""/>
+<align creator="" in="b36" insign="med" out="a39" outsign="with" type=""/>
+<align creator="" in="b37" insign="røde" out="a40" outsign="red" type=""/>
+<align creator="" in="b38" insign="tal" out="a41" outsign="ink" type=""/>
+<align creator="" in="b39" insign="." out="a42" outsign="." type=""/>
+<align creator="" in="b40" insign="I" out="a43" outsign="As" type=""/>
+<align creator="" in="b45" insign="håbet" out="a44" outsign="hopes" type=""/>
+<align creator="" in="b49" insign="kreditkortene" out="a47" outsign="cards" type=""/>
+<align creator="" in="b54" insign="de" out="a50" outsign="the" type=""/>
+<align creator="" in="b55" insign="problemer" out="a51" outsign="pain" type=""/>
+<align creator="" in="b63" insign="svundet" out="a56" outsign="dwindled" type=""/>
+<align creator="" in="b64" insign="ind" out="a56" outsign="dwindled" type=""/>
+<align creator="" in="b65" insign="," out="a57" outsign="," type=""/>
+<align creator="" in="b72" insign="undgå" out="a65" outsign="avoiding" type=""/>
+<align creator="" in="b77" insign="." out="a69" outsign="." type=""/>
+<align creator="" in="b78" insign="I" out="a70" outsign="This" type=""/>
+<align creator="" in="b83" insign="en" out="a75" outsign="a" type=""/>
+<align creator="" in="b84" insign="lov" out="a76" outsign="bill" type=""/>
+<align creator="" in="b88" insign="indskrænker" out="a80" outsign="restrict" type=""/>
+<align creator="" in="b89" insign="kortudstedernes" out="a82" outsign="issuers’" type=""/>
+<align creator="" in="b93" insign="opkræve" out="a85" outsign="charge" type=""/>
+<align creator="" in="b94" insign="strafgebyrer" out="a86" outsign="punitive" type=""/>
+<align creator="" in="b94" insign="strafgebyrer" out="a87" outsign="fees" type=""/>
+<align creator="" in="b95" insign="og" out="a88" outsign="and" type=""/>
+<align creator="" in="b96" insign="hæve" out="a89" outsign="raise" type=""/>
+<align creator="" in="b97" insign="rentesatserne" out="a91" outsign="rates" type=""/>
+<align creator="" in="b98" insign="." out="a92" outsign="." type=""/>
+<align creator="" in="b99" insign="Branchens" out="a93" outsign="The" type=""/>
+<align creator="" in="b100" insign="påstand" out="a96" outsign="claim" type=""/>
+<align creator="" in="b101" insign="om" out="a97" outsign="that" type=""/>
+<align creator="" in="b103" insign="at" out="a97" outsign="that" type=""/>
+<align creator="" in="b104" insign="loven" out="a99" outsign="bill" type=""/>
+<align creator="" in="b105" insign="vil" out="a100" outsign="will" type=""/>
+<align creator="" in="b107" insign="adgangen" out="a103" outsign="access" type=""/>
+<align creator="" in="b108" insign="til" out="a104" outsign="to" type=""/>
+<align creator="" in="b109" insign="kredit" out="a105" outsign="credit" type=""/>
+<align creator="" in="b112" insign="en" out="a107" outsign="a" type=""/>
+<align creator="" in="b113" insign="smule" out="a108" outsign="bit" type=""/>
+<align creator="" in="b114" insign="overdrevet" out="a109" outsign="rich" type=""/>
+<align creator="" in="b119" insign="at" out="a111" outsign="its" type=""/>
+<align creator="" in="b127" insign="at" out="a114" outsign="to" type=""/>
+<align creator="" in="b128" insign="reducere" out="a115" outsign="reduce" type=""/>
+<align creator="" in="b129" insign="mængden" out="a116" outsign="its" type=""/>
+<align creator="" in="b131" insign="usikrede" out="a117" outsign="unsecured" type=""/>
+<align creator="" in="b132" insign="udlån" out="a118" outsign="lending" type=""/>
+<align creator="" in="b133" insign="." out="a119" outsign="." type=""/>
+<align creator="" in="b136" insign="forventer" out="a122" outsign="expects" type=""/>
+<align creator="" in="b139" insign="de" out="a123" outsign="the" type=""/>
+<align creator="" in="b142" insign="kortudstedere" out="a126" outsign="issuers" type=""/>
+<align creator="" in="b143" insign="vil" out="a127" outsign="to" type=""/>
+<align creator="" in="b143" insign="vil" out="a128" outsign="post" type=""/>
+<align creator="" in="b144" insign="annoncere" out="a128" outsign="post" type=""/>
+<align creator="" in="b145" insign="tab" out="a129" outsign="losses" type=""/>
+<align creator="" in="b148" insign="kreditkortområdet" out="a132" outsign="card" type=""/>
+<align creator="" in="b148" insign="kreditkortområdet" out="a133" outsign="businesses" type=""/>
+<align creator="" in="b149" insign="dette" out="a134" outsign="this" type=""/>
+<align creator="" in="b150" insign="år" out="a135" outsign="year" type=""/>
+<align creator="" in="b151" insign="og" out="a136" outsign="and" type=""/>
+<align creator="" in="b152" insign="næste" out="a137" outsign="next" type=""/>
+<align creator="" in="b153" insign="år" out="a137" outsign="next" type=""/>
+<align creator="" in="b154" insign="." out="a138" outsign="." type=""/>
+<align creator="" in="b161" insign="," out="a143" outsign="," type=""/>
+<align creator="" in="b162" insign="at" out="a144" outsign="that" type=""/>
+<align creator="" in="b163" insign="kortudstederne" out="a145" outsign="card" type=""/>
+<align creator="" in="b166" insign="." out="a151" outsign="." type=""/>
+<align creator="" in="b167" insign="Når" out="a152" outsign="When" type=""/>
+<align creator="" in="b168" insign="de" out="a153" outsign="they" type=""/>
+<align creator="" in="b172" insign="igen" out="a155" outsign="back" type=""/>
+<align creator="" in="b178" insign="," out="a158" outsign="," type=""/>
+<align creator="" in="b180" insign="de" out="a159" outsign="they" type=""/>
+<align creator="" in="b179" insign="kan" out="a160" outsign="can" type=""/>
+<align creator="" in="b193" insign="før" out="a172" outsign="-" type=""/>
+<align creator="" in="b193" insign="før" out="a173" outsign="crisis" type=""/>
+<align creator="" in="b194" insign="krisen" out="a174" outsign="levels" type=""/>
+<align creator="" in="b195" insign="." out="a175" outsign="." type=""/>
+<align creator="" in="b4" insign="endnu" out="a6" outsign="second" type=""/>
+<align creator="" in="b7" insign="med" out="a8" outsign="of" type=""/>
+<align creator="" in="b8" insign="afskedigelser" out="a9a10" outsign="job cuts" type=""/>
+<align creator="" in="b13" insign="Annonceringen" out="a12a13" outsign="The announcement" type=""/>
+<align creator="" in="b15" insign="rystelser" out="a15a16" outsign="a shiver" type=""/>
+<align creator="" in="b16b17" insign="ud gennem" out="a17" outsign="through" type=""/>
+<align creator="" in="b19" insign="markedet" out="a18a19" outsign="the market" type=""/>
+<align creator="" in="b24" insign="af" out="a23" outsign="by" type=""/>
+<align creator="" in="b25" insign="kreditkortgæld" out="a24a25a26" outsign="credit card debt" type=""/>
+<align creator="" in="b34" insign="profitabelt" out="a37" outsign="profitable" type=""/>
+<align creator="" in="b40b41b42b43b44" insign="I takt med , at" out="a43" outsign="As" type=""/>
+<align creator="" in="b46b47b48" insign="om , at" out="a45" outsign="that" type=""/>
+<align creator="" in="b49" insign="kreditkortene" out="a46a47" outsign="credit cards" type=""/>
+<align creator="" in="b50" insign="ville" out="a48" outsign="would" type=""/>
+<align creator="" in="b51b52b53" insign="slippe uden om" out="a49" outsign="avoid" type=""/>
+<align creator="" in="b59b60" insign="på boliglånsområdet" out="a53a54" outsign="in mortgages" type=""/>
+<align creator="" in="b62" insign="er" out="a55" outsign="have" type=""/>
+<align creator="" in="b66" insign="er" out="a59" outsign="has" type=""/>
+<align creator="" in="b67" insign="håbet" out="a60a61" outsign="any chance" type=""/>
+<align creator="" in="b68b69" insign="om at" out="a62" outsign="of" type=""/>
+<align creator="" in="b70" insign="branchen" out="a63a64" outsign="the industry" type=""/>
+<align creator="" in="b71b72" insign="ville undgå" out="a65" outsign="avoiding" type=""/>
+<align creator="" in="b75b76" insign="også svundet" out="a58" outsign="so" type=""/>
+<align creator="" in="b73b74" insign="politiske problemer" out="a66a67a68" outsign="a political backlash" type=""/>
+<align creator="" in="b82" insign="Kongressen" out="a72" outsign="Congress" type=""/>
+<align creator="" in="b81" insign="vedtog" out="a73a74" outsign="voted through" type=""/>
+<align creator="" in="b78b79" insign="I denne" out="a70" outsign="This" type=""/>
+<align creator="" in="b80" insign="uge" out="a71" outsign="week" type=""/>
+<align creator="" in="b86" insign="der" out="a77" outsign="that" type=""/>
+<align creator="" in="b88" insign="indskrænker" out="a78a80" outsign="would restrict" type=""/>
+<align creator="" in="b87" insign="kraftigt" out="a79" outsign="sharply" type=""/>
+<align creator="" in="b89" insign="kortudstedernes" out="a81a82" outsign="card issuers’" type=""/>
+<align creator="" in="b90b91b92" insign="muligheder for at" out="a83a84" outsign="ability to" type=""/>
+<align creator="" in="b97" insign="rentesatserne" out="a90a91" outsign="interest rates" type=""/>
+<align creator="" in="b99" insign="Branchens" out="a93a94a95" outsign="The industry ’s" type=""/>
+<align creator="" in="b104" insign="loven" out="a98a99" outsign="the bill" type=""/>
+<align creator="" in="b106" insign="eliminere" out="a101a102" outsign="choke off" type=""/>
+<align creator="" in="b111" insign="virker" out="a106" outsign="is" type=""/>
+<align creator="" in="b115b116b117" insign="i betragtning af" out="a110" outsign="given" type=""/>
+<align creator="" in="b121" insign="selv" out="a112" outsign="own" type=""/>
+<align creator="" in="b125" insign="ivrige" out="a113" outsign="rush" type=""/>
+<align creator="" in="b126b127" insign="efter at" out="a114" outsign="to" type=""/>
+<align creator="" in="b129b130" insign="mængden af" out="a116" outsign="its" type=""/>
+<align creator="" in="b134" insign="Morgan" out="a120" outsign="Morgan" type=""/>
+<align creator="" in="b135" insign="Stanley" out="a121" outsign="Stanley" type=""/>
+<align creator="" in="b136b138" insign="forventer at" out="a122" outsign="expects" type=""/>
+<align creator="" in="b140" insign="tre" out="a125" outsign="three" type=""/>
+<align creator="" in="b141" insign="største" out="a124" outsign="big" type=""/>
+<align creator="" in="b143b144" insign="vil annoncere" out="a127a128" outsign="to post" type=""/>
+<align creator="" in="b146b147" insign="inden for" out="a130" outsign="in" type=""/>
+<align creator="" in="b148" insign="kreditkortområdet" out="a131a132a133" outsign="their card businesses" type=""/>
+<align creator="" in="b156b157b158b159b160" insign="er det ikke nogen overraskelse" out="a139a140" outsign="Little wonder" type=""/>
+<align creator="" in="b155" insign="Derfor" out="a142" outsign="then" type=""/>
+<align creator="" in="b163" insign="kortudstederne" out="a145a146" outsign="card issuers" type=""/>
+<align creator="" in="b164b165" insign="var chokerede" out="a147a148a149a150" outsign="feel shell - shocked" type=""/>
+<align creator="" in="b172b173b174b175b176b177" insign="igen kan se op over kanten" out="a154a155a156a157" outsign="clamber back into profit" type=""/>
+<align creator="" in="b181" insign="forvente" out="a161" outsign="expect" type=""/>
+<align creator="" in="b182" insign="investeringsafkast" out="a162a163a164" outsign="returns on assets" type=""/>
+<align creator="" in="b193b194" insign="før krisen" out="a171a172a173a174" outsign="pre - crisis levels" type=""/>
+<align creator="" in="b184b186" insign="der er" out="a165" outsign="of" type=""/>
+<align creator="" in="b185" insign="kun" out="a166" outsign="only" type=""/>
+<align creator="" in="b189b190b191b192" insign="halvt så store som" out="a167a168a169a170" outsign="one - half of" type=""/>
+<align creator="" in="b54b55b57b58" insign="de problemer man oplever" out="a50a51a52" outsign="the pain felt" type=""/>
+<align creator="" in="b119b120b121b122b123b125b126b127" insign="at man selv har været ivrige efter at" out="a111a112a113a114" outsign="its own rush to" type=""/>
 </DTAGalign>
