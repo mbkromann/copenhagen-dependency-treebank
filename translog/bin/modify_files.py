@@ -5,14 +5,12 @@ This program modifies annotates raw XML files with POS tags, Lemma and Dependenc
 import codecs
 import re
 import sys
-import os.path
-import os.environ
+import os
 import shutil
 
 from nltk import sent_tokenize
 from xml.dom.minidom import parseString
 from xml.dom.minidom import Document
-
 
 
 
@@ -26,12 +24,12 @@ some initialization
 '''''''''''''''''''''''''''''''''''''''
 tree_tagger_path = os.environ['TAGGER_PATH']    
 original_attrib_list=[]
-word_data=[]
+token_list=[]
 tags=[]
 lemmas=[]
-mul=[]
+
 sentence_break=[]
-tree_tagger_path = os.environ["TAGGER_PATH"]
+
 
 
 '''''''''''''''''''''''''''''''''''''''
@@ -39,12 +37,13 @@ functions
 '''''''''''''''''''''''''''''''''''''''
 
 def reset_data():
-    word_data[:]=[]
+    token_list[:]=[]
+    
     tags[:]=[]
     original_attrib_list[:]=[]
     sentence_break[:]=[]
     lemmas[:]=[]
-    mul[:]=[]
+    
 
 def extract_text(fileName):
     #extracts text from XML data
@@ -55,8 +54,10 @@ def extract_text(fileName):
     dep_parser_value = ""
     
     with codecs.open(fileName,"r","utf-8") as f:
-        data = f.read()       
-        data=data.encode("utf-8")
+        data = f.read()      
+        
+        data = data.encode("utf-8","ignore")
+
         dom = parseString(data)
         text_nodes=dom.getElementsByTagName('Text')
         for text_node in text_nodes:
@@ -78,8 +79,10 @@ def extract_text(fileName):
                     attrib_list[key]=value
                 original_attrib_list.append(attrib_list)
                 wordValue= element.childNodes[0].nodeValue
+                
                 text_data+=wordValue+" "
-        text_data=sentence.encode("utf-8")
+                
+        text_data=text_data.rstrip(" ").encode("utf-8")
        
     return list([text_data,language,tag_value,segmenter_value,dep_parser_value])
 
@@ -100,19 +103,24 @@ def prepare_file_name(path):
 def tokenize_sentence(text):
     #sentence tockenizer
     return sent_tokenize(text)
-
+def tokenize_chinese_sentence(text):
+    eol_char = u'\u3002'.encode("utf-8")
+    temp_text = text.split(eol_char)
+    return_text = []
+    for text in temp_text:
+        if(text!=""):
+            text=text+eol_char
+            return_text.append(text)
+    return return_text
 def pos_tag_english(sentence):
     #pos_tagger
     data = do_tagging_english(sentence)
     for info in data:
-        word_data.append(info[0])
+        token_list.append(info[0])
         tags.append(info[1])
         lemmas.append(info[2])
-        if(len(info) == 4):
-            mul.append(info[3])
-        else:
-            mul.append('@')
-    sentence_break.append(str(len(word_data) - 1))  
+        
+    sentence_break.append(str(len(token_list) - 1))  
     
     
         
@@ -120,28 +128,22 @@ def pos_tag_german(sentence):
     #pos_tagger
     data=do_tagging_treetagger(sentence, "german", tree_tagger_path)
     for info in data:
-        word_data.append(info[0])
+        token_list.append(info[0])
         tags.append(info[1])
         lemmas.append(info[2])
-        if(len(info)==4):
-            mul.append(info[3])
-        else:
-            mul.append('@')
-    sentence_break.append(str(len(word_data)-1))  
+        
+    sentence_break.append(str(len(token_list)-1))  
     
     
 def pos_tag_spanish(sentence):
     #pos_tagger
     data=do_tagging_treetagger(sentence, "spanish", tree_tagger_path)
     for info in data:
-        word_data.append(info[0])
+        token_list.append(info[0])
         tags.append(info[1])
         lemmas.append(info[2])
-        if(len(info)==4):
-            mul.append(info[3])
-        else:
-            mul.append('@')
-    sentence_break.append(str(len(word_data)-1))
+        
+    sentence_break.append(str(len(token_list)-1))
      
     
 def pos_tag_portuguese(sentence):
@@ -149,41 +151,50 @@ def pos_tag_portuguese(sentence):
     data=do_tagging_treetagger(sentence, "portuguese", tree_tagger_path)
     
     for info in data:
-        word_data.append(info[0])
+        
+        token_list.append(info[0])
         tags.append(info[1])
         lemmas.append(info[2])
-        if(len(info)==4):
-            mul.append(info[3])
-        else:
-            mul.append('@')
-    sentence_break.append(str(len(word_data)-1))
-     
+        
+    sentence_break.append(str(len(token_list)-1))
+
+def pos_tag_chinese(sentence):
+    #pos_tagger
+    data=do_tagging_treetagger(sentence, "chinese", tree_tagger_path)
+    
+    for info in data:
+        token_list.append(info[0])
+        tags.append(info[1])
+        lemmas.append(info[2])
+        
+    sentence_break.append(str(len(token_list)-1))  
 
 
-def write_back(xmlFile,language,tagger,lemmatizer,tokenizer,dep_parser):
+def write_back(xmlFile,language,tagger,lemmatizer,segmenter,dep_parser):
     doc = Document()
     
     root = doc.createElement("Text")
     root.setAttribute("language", language)
     root.setAttribute("tagger", tagger)
     root.setAttribute("lemmatizer", lemmatizer)
-    root.setAttribute("sent_segmenter", tokenizer)
+    root.setAttribute("sent_segmenter", segmenter)
     root.setAttribute("dep_parser", dep_parser)
     
     j=0 #for sentence break
     breaker_flag=0
     if (sentence_break!=None):
-        breaker_flag=1 
-    for i in range(len(word_data)):
+        breaker_flag=1
+    
+    for i in range(len(token_list)):
         #gets the original attributes and retains it
         
         attribs=original_attrib_list[i]
                
         attribs['pos']=tags[i]
-        attribs['lemma']=lemmas[i]
+        if(language!="zh"):
+            attribs['lemma']=lemmas[i]
         
-        if(mul[i]!='@'):
-            attribs['deepToken']=lemmas[i]
+        
             
         if(breaker_flag==1):
             #Add sentence end info
@@ -196,7 +207,7 @@ def write_back(xmlFile,language,tagger,lemmatizer,tokenizer,dep_parser):
         W_node = doc.createElement("W")
         for attrib_key in attrib_keys:
             W_node.setAttribute(attrib_key, attribs[attrib_key])
-        W_node.appendChild(doc.createTextNode(word_data[i]))
+        W_node.appendChild(doc.createTextNode(token_list[i]))
         root.appendChild(W_node)
     doc.appendChild(root)
             
@@ -214,7 +225,7 @@ def write_back(xmlFile,language,tagger,lemmatizer,tokenizer,dep_parser):
 main program for english
 '''''''''''''''''''''''''''''''''''''''
 def for_english(text,outfile):
-    sys.stderr.write( "Language :: English \n")
+    
     sentences=tokenize_sentence(text)
     for sentence in sentences:
         pos_tag_english(sentence)
@@ -226,7 +237,7 @@ def for_english(text,outfile):
 '''''''''''''''''''''''''''''''''''''''
 
 def for_spanish(text,outfile):     
-    sys.stderr.write( "Language :: Spanish \n") 
+     
     sentences=tokenize_sentence(text)
     for sentence in sentences:
         pos_tag_spanish(sentence)
@@ -238,7 +249,7 @@ def for_spanish(text,outfile):
 '''''''''''''''''''''''''''''''''''''''  
 
 def for_german(text,outfile):
-    sys.stderr.write( "Language :: German \n")
+    
     sentences=tokenize_sentence(text)
     for sentence in sentences:
         
@@ -250,12 +261,23 @@ def for_german(text,outfile):
  program for Portuguese
 '''''''''''''''''''''''''''''''''''''''  
 def for_portuguese(text,outfile):
-    sys.stderr.write( "Language :: Portuguese \n")
+    
+    
     sentences=tokenize_sentence(text)
     for sentence in sentences:
         
         pos_tag_portuguese(sentence)
     write_back(outfile,"pt","tree-tagger","tree-tagger","nltk_sent_tokenizer","None")
+    reset_data()
+    
+def for_chinese(text,outfile):
+
+    sentences = tokenize_chinese_sentence(text)
+    
+    for sentence in sentences:
+        
+        pos_tag_chinese(sentence)
+        write_back(outfile,"zh","tree-tagger","tree-tagger","nltk_sent_tokenizer","None")
     reset_data()
 
 '''
@@ -263,13 +285,11 @@ Execution
 '''
 
 sys.stderr.write ("Start\n")
-if(tree_tagger_path==""):
-    sys.stderr.write("Please install tree tagger module\n")
-    exit(1)    
+ 
 '''
 Save functions inside a dictionary
 '''
-to_do = {"en":for_english,"de":for_german,"pt":for_portuguese,"es":for_spanish}
+to_do = {"en":for_english,"de":for_german,"pt":for_portuguese,"es":for_spanish,"zh":for_chinese}
 
 sys.stderr.write ("Getting pos tags and lemmas\n")
 
@@ -289,7 +309,7 @@ for i in range(1,len(files)):
         #if file is already tagged
         modify = to_do.get(language,"Not found")
         if(modify != "Not found"):
-            if(language == "de" or language == "pt" or language == "es"):
+            if(language == "de" or language == "pt" or language == "es" or language == "zh"):
                 #use tree tagger
                 if(tree_tagger_path==""):
                     sys.stderr.write("Tree tagger module path not defined for language"+language+"\n")
@@ -298,10 +318,11 @@ for i in range(1,len(files)):
                     
                 else:
                     modify(text,outpath)
-                    sys.stderr.write("FILE: "+path+" was annotated and saved.\n")
+                    sys.stderr.write("FILE("+language+"): "+path+" was annotated and saved.\n")
             else:
                 #other taggers
                 modify(text,outpath) 
+                sys.stderr.write("FILE("+language+"): "+path+" was annotated and saved.\n")
                 
         else:
             shutil.copy(path, outpath)
@@ -309,4 +330,5 @@ for i in range(1,len(files)):
     else:
         shutil.copy(path, outpath)
         sys.stderr.write("FILE: "+path+" is already annotated. Copying without making changes.\n")
+
 
