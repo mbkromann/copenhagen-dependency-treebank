@@ -112,6 +112,7 @@ def tokenize_chinese_sentence(text):
             text=text+eol_char
             return_text.append(text)
     return return_text
+
 def pos_tag_english(sentence):
     #pos_tagger
     data = do_tagging_english(sentence)
@@ -122,46 +123,8 @@ def pos_tag_english(sentence):
         
     sentence_break.append(str(len(token_list) - 1))  
     
-    
-        
-def pos_tag_german(sentence):
-    #pos_tagger
-    data=do_tagging_treetagger(sentence, "german", tree_tagger_path)
-    for info in data:
-        token_list.append(info[0])
-        tags.append(info[1])
-        lemmas.append(info[2])
-        
-    sentence_break.append(str(len(token_list)-1))  
-    
-    
-def pos_tag_spanish(sentence):
-    #pos_tagger
-    data=do_tagging_treetagger(sentence, "spanish", tree_tagger_path)
-    for info in data:
-        token_list.append(info[0])
-        tags.append(info[1])
-        lemmas.append(info[2])
-        
-    sentence_break.append(str(len(token_list)-1))
-     
-    
-def pos_tag_portuguese(sentence):
-    #pos_tagger
-    data=do_tagging_treetagger(sentence, "portuguese", tree_tagger_path)
-    
-    for info in data:
-        
-        token_list.append(info[0])
-        tags.append(info[1])
-        lemmas.append(info[2])
-        
-    sentence_break.append(str(len(token_list)-1))
-
-def pos_tag_chinese(sentence):
-    #pos_tagger
-    data=do_tagging_treetagger(sentence, "chinese", tree_tagger_path)
-    
+def pos_tag_tree_tagger(sentence,language):
+    data=do_tagging_treetagger(sentence, language, tree_tagger_path)
     for info in data:
         token_list.append(info[0])
         tags.append(info[1])
@@ -224,6 +187,7 @@ def write_back(xmlFile,language,tagger,lemmatizer,segmenter,dep_parser):
 '''''''''''''''''''''''''''''''''''''''
 main program for english
 '''''''''''''''''''''''''''''''''''''''
+
 def for_english(text,outfile):
     
     sentences=tokenize_sentence(text)
@@ -231,54 +195,17 @@ def for_english(text,outfile):
         pos_tag_english(sentence)
     write_back(outfile,"en","nltk-pos-tagger","nltk-wordnet-lemmatizer","nltk_sent_tokenizer","None")
     reset_data()
-    
-'''''''''''''''''''''''''''''''''''''''
- program for Spanish
-'''''''''''''''''''''''''''''''''''''''
 
-def for_spanish(text,outfile):     
-     
-    sentences=tokenize_sentence(text)
+def for_tree_tagger(text,outfile,language):
+    language = language.encode("utf-8") 
+    if(language=="zh"):  
+        sentences = tokenize_chinese_sentence(text)
+    else:
+        sentences = tokenize_sentence(text)
     for sentence in sentences:
-        pos_tag_spanish(sentence)
-    write_back(outfile,"es","tree-tagger","tree-tagger","nltk_sent_tokenizer","None")
-    reset_data()
-    
-'''''''''''''''''''''''''''''''''''''''
- program for German
-'''''''''''''''''''''''''''''''''''''''  
-
-def for_german(text,outfile):
-    
-    sentences=tokenize_sentence(text)
-    for sentence in sentences:
-        
-        pos_tag_german(sentence)
-    write_back(outfile,"de","tree-tagger","tree-tagger","nltk_sent_tokenizer","None")
-    reset_data()
-    
-'''''''''''''''''''''''''''''''''''''''
- program for Portuguese
-'''''''''''''''''''''''''''''''''''''''  
-def for_portuguese(text,outfile):
-    
-    
-    sentences=tokenize_sentence(text)
-    for sentence in sentences:
-        
-        pos_tag_portuguese(sentence)
-    write_back(outfile,"pt","tree-tagger","tree-tagger","nltk_sent_tokenizer","None")
-    reset_data()
-    
-def for_chinese(text,outfile):
-
-    sentences = tokenize_chinese_sentence(text)
-    
-    for sentence in sentences:
-        
-        pos_tag_chinese(sentence)
-        write_back(outfile,"zh","tree-tagger","tree-tagger","nltk_sent_tokenizer","None")
-    reset_data()
+        pos_tag_tree_tagger(sentence,language)
+        write_back(outfile,language,"tree-tagger","tree-tagger","nltk_sent_tokenizer","None")
+    reset_data() 
 
 '''
 Execution
@@ -287,9 +214,9 @@ Execution
 sys.stderr.write ("Start\n")
  
 '''
-Save functions inside a dictionary
+Save functions inside a dictionary. for different taggers
 '''
-to_do = {"en":for_english,"de":for_german,"pt":for_portuguese,"es":for_spanish,"zh":for_chinese}
+to_do = {"en":for_english,"tt":for_tree_tagger}
 
 sys.stderr.write ("Getting pos tags and lemmas\n")
 
@@ -301,32 +228,32 @@ for i in range(1,len(files)):
     
     text = info[0]
     language = info[1]
-    tagger=info[2]
+    tagged=info[2]
     
     outpath = prepare_file_name(path)
     
-    if (tagger == ""):
+    if (tagged == ""):
         #if file is already tagged
-        modify = to_do.get(language,"Not found")
-        if(modify != "Not found"):
-            if(language == "de" or language == "pt" or language == "es" or language == "zh"):
-                #use tree tagger
-                if(tree_tagger_path==""):
-                    sys.stderr.write("Tree tagger module path not defined for language"+language+"\n")
-                    sys.stderr.write("Simply Copying files\n")
-                    shutil.copy(path, outpath)
-                    
-                else:
-                    modify(text,outpath)
-                    sys.stderr.write("FILE("+language+"): "+path+" was annotated and saved.\n")
-            else:
-                #other taggers
-                modify(text,outpath) 
-                sys.stderr.write("FILE("+language+"): "+path+" was annotated and saved.\n")
+        if(language == "en"):
+            #use nltk tagger
+            for_english(text,outpath) 
+            sys.stderr.write("FILE("+language+"): "+path+" was annotated and saved.\n")
+            
+        elif(language == "de" or language == "pt" or language == "es" or language == "zh" or language =="da"):
+            #use tree tagger
+            if(tree_tagger_path==""):
+                sys.stderr.write("Tree tagger module path not defined for language"+language+"\n")
+                sys.stderr.write("Simply Copying files\n")
+                shutil.copy(path, outpath)
                 
+            else:
+                for_tree_tagger(text,outpath,language)
+                sys.stderr.write("FILE("+language+"): "+path+" was annotated and saved.\n")
         else:
+            #Other taggers
             shutil.copy(path, outpath)
-            sys.stderr.write("FILE: "+path+" contains language for which resources not available.\n")
+            sys.stderr.write("FILE: "+path+" contains language"+language+" for which resources not available.\n")
+             
     else:
         shutil.copy(path, outpath)
         sys.stderr.write("FILE: "+path+" is already annotated. Copying without making changes.\n")

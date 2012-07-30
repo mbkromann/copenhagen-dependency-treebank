@@ -9,7 +9,7 @@ import os
 import codecs
 from nltk import pos_tag
 from nltk.stem.wordnet import WordNetLemmatizer 
-
+from subprocess import Popen, PIPE
 
 
 def get_lemma_english(word,tag):
@@ -45,12 +45,14 @@ def do_tagging_english(sentence):
 def do_tagging_treetagger(sentence,language,treetagger_path):
     word_tag_lemma=[]
     #representing eaxh tokens per line
+    
     sentence=sentence.strip()
     sentence = sentence.replace(" ", "\n")
     
     #encoding  for the temp file
     encoding = "utf-8"
     command="echo \""+sentence+"\"|"+treetagger_path+"/script/tree-tagger-"+language+"-utf8 >tempfile"
+    
     status=os.system(command)
     if(status==0):
         with codecs.open("tempfile","r",encoding) as f:
