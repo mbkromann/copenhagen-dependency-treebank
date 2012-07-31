@@ -252,7 +252,7 @@ for i in range(1,len(files)):
         else:
             #Other taggers
             shutil.copy(path, outpath)
-            sys.stderr.write("FILE: "+path+" contains language"+language+" for which resources not available.\n")
+            sys.stderr.write("FILE: "+path+" contains language \""+language+"\" for which resources not available.\n")
              
     else:
         shutil.copy(path, outpath)

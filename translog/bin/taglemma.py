@@ -51,11 +51,11 @@ def do_tagging_treetagger(sentence,language,treetagger_path):
     
     #encoding  for the temp file
     encoding = "utf-8"
-    command="echo \""+sentence+"\"|"+treetagger_path+"/script/tree-tagger-"+language+"-utf8 >tempfile"
+    command="echo \""+sentence+"\"|"+treetagger_path+"/script/tree-tagger-"+language+"-utf8 >tempfile"+language+" 2>/dev/null"
     
     status=os.system(command)
     if(status==0):
-        with codecs.open("tempfile","r",encoding) as f:
+        with codecs.open("tempfile"+language,"r",encoding) as f:
             lines = (line.rstrip('\n') for line in f) 
             for line in lines:
                 
@@ -66,7 +66,7 @@ def do_tagging_treetagger(sentence,language,treetagger_path):
                 #tokenizer incompatibility
                 word_tag_lemma.append(info)
     try:     
-        os.system("rm -rf tempfile")
+        os.system("rm -rf tempfile"+language)
     except:
         print "no file created"
     return word_tag_lemma
