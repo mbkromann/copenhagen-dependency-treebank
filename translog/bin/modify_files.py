@@ -64,7 +64,8 @@ def extract_text(fileName):
             
             language=text_node.getAttribute('language')
             tag_value=text_node.getAttribute('tagger')
-            segmenter_value=text_node.getAttribute('segmenter')
+            lemma_value=text_node.getAttribute('lemmatizer')
+            seg_value=text_node.getAttribute('sent_segmenter')
             dep_parser_value=text_node.getAttribute('dep_parser')
             
             word_elements=text_node.getElementsByTagName('W')
@@ -84,7 +85,7 @@ def extract_text(fileName):
                 
         text_data=text_data.rstrip(" ").encode("utf-8")
        
-    return list([text_data,language,tag_value,segmenter_value,dep_parser_value])
+    return list([text_data,language,tag_value,lemma_value,seg_value,dep_parser_value])
 
 def reformat_text(text):
     # Separate most punctuation
@@ -138,10 +139,14 @@ def write_back(xmlFile,language,tagger,lemmatizer,segmenter,dep_parser):
     
     root = doc.createElement("Text")
     root.setAttribute("language", language)
-    root.setAttribute("tagger", tagger)
-    root.setAttribute("lemmatizer", lemmatizer)
-    root.setAttribute("sent_segmenter", segmenter)
-    root.setAttribute("dep_parser", dep_parser)
+    if tagger != "":
+        root.setAttribute("tagger", tagger)
+    if lemmatizer != "":
+        root.setAttribute("lemmatizer", lemmatizer)
+    if segmenter != "":
+        root.setAttribute("sent_segmenter", segmenter)
+    if dep_parser != "":
+        root.setAttribute("dep_parser", dep_parser)
     
     j=0 #for sentence break
     breaker_flag=0
@@ -163,7 +168,7 @@ def write_back(xmlFile,language,tagger,lemmatizer,segmenter,dep_parser):
             #Add sentence end info
             
             if(str(i)==sentence_break[j]):
-                attribs['last']="sentence"
+                attribs['boundary']="sentence"
                 j+=1
         attrib_keys = attribs.keys()
         attrib_keys.sort()
@@ -188,23 +193,25 @@ def write_back(xmlFile,language,tagger,lemmatizer,segmenter,dep_parser):
 main program for english
 '''''''''''''''''''''''''''''''''''''''
 
-def for_english(text,outfile):
+def for_english(text,outfile,language,tagger,lemmatizer,sent_tokenizer,dep_parser):
     
     sentences=tokenize_sentence(text)
     for sentence in sentences:
         pos_tag_english(sentence)
-    write_back(outfile,"en","nltk-pos-tagger","nltk-wordnet-lemmatizer","nltk_sent_tokenizer","None")
+    write_back(outfile,language,tagger,lemmatizer,sent_tokenizer,dep_parser)
     reset_data()
 
-def for_tree_tagger(text,outfile,language):
+def for_tree_tagger(text,outfile,language,tagger,lemmatizer,sent_tokenizer,dep_parser):
     language = language.encode("utf-8") 
     if(language=="zh"):  
         sentences = tokenize_chinese_sentence(text)
     else:
         sentences = tokenize_sentence(text)
+        
     for sentence in sentences:
         pos_tag_tree_tagger(sentence,language)
-        write_back(outfile,language,"tree-tagger","tree-tagger","nltk_sent_tokenizer","None")
+    
+    write_back(outfile,language,tagger,lemmatizer,sent_tokenizer,dep_parser)
     reset_data() 
 
 '''
@@ -229,14 +236,19 @@ for i in range(1,len(files)):
     text = info[0]
     language = info[1]
     tagged=info[2]
-    
+    lemmatized=info[3]
+    segmented = info[4]
+    dep_parsed =info[5] 
     outpath = prepare_file_name(path)
     
     if (tagged == ""):
         #if file is already tagged
         if(language == "en"):
             #use nltk tagger
-            for_english(text,outpath) 
+            tagged="nltk-pos-tagger"
+            lemmatized = "nltk-wordnet-lemmatizer"
+            segmented = "nltk_sent_tokenizer"           
+            for_english(text,outpath,language,tagged,lemmatized,segmented,dep_parsed) 
             sys.stderr.write("FILE("+language+"): "+path+" was annotated and saved.\n")
             
         elif(language == "de" or language == "pt" or language == "es" or language == "zh" or language =="da"):
@@ -247,7 +259,10 @@ for i in range(1,len(files)):
                 shutil.copy(path, outpath)
                 
             else:
-                for_tree_tagger(text,outpath,language)
+                tagged="tree-tagger"
+                lemmatized = "tree-tagger"
+                segmented = "nltk_sent_tokenizer" 
+                for_tree_tagger(text,outpath,language,tagged,lemmatized,segmented,dep_parsed)
                 sys.stderr.write("FILE("+language+"): "+path+" was annotated and saved.\n")
         else:
             #Other taggers

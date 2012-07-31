@@ -9,7 +9,7 @@ import os
 import codecs
 from nltk import pos_tag
 from nltk.stem.wordnet import WordNetLemmatizer 
-from subprocess import Popen, PIPE
+import sys
 
 
 def get_lemma_english(word,tag):
@@ -47,6 +47,7 @@ def do_tagging_treetagger(sentence,language,treetagger_path):
     #representing eaxh tokens per line
     
     sentence=sentence.strip()
+    sentence = sentence.replace("\"", "\\\"")
     sentence = sentence.replace(" ", "\n")
     
     #encoding  for the temp file
@@ -68,7 +69,7 @@ def do_tagging_treetagger(sentence,language,treetagger_path):
     try:     
         os.system("rm -rf tempfile"+language)
     except:
-        print "no file created"
+        sys.stderr.write("no file created")
     return word_tag_lemma
         
 
