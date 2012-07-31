@@ -131,9 +131,9 @@ sub ReadTranslog {
   while(defined($_ = <FILE>)) {
 #printf STDERR "Translog: %s\n",  $_;
 
-    if(/<SourceToken>/)     {$type = 1; }
-    elsif(/<Fixations>/)    {$type = 2; }
-    elsif(/<Modifications>/){$type = 3; }
+    if(/<SourceToken/)     {$type = 1; }
+    elsif(/<Fixations/)    {$type = 2; }
+    elsif(/<Modifications/){$type = 3; }
 	
     if($type == 1 && /<Token/) {
       if(/cur="([0-9][0-9]*)"/) {$cur =$1;}
@@ -329,11 +329,11 @@ sub PrintST {
 
 #source file (.src)
   if(!defined( $SRC )) {
-    printf STDERR "PrintST: undefined SOURCE\n";
+    print STDERR "PrintST $fn undefined SOURCE\n";
     return ;
   }
   if(!open(FILE, ">:encoding(utf8)", $fn)) {
-    printf STDERR "cannot open: $fn\n";
+    print STDERR "cannot open: $fn\n";
     return ;
   }
 

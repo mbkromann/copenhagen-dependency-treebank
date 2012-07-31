@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="kthj_text_A.src" sign="_input"/>
 <alignFile key="b" href="kthj_text_A.tgt" sign="_input"/>
 <align out="a1 a2" type="f" in="b1" creator="0" insign="Dræbersygeplejerske" outsign="Killer nurse"/>

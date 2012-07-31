@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="Miriam_tekst_a.src" sign="_input"/>
 <alignFile key="b" href="Miriam_tekst_a.tgt" sign="_input"/>
 <align out="a2" type="" in="b2" creator="0" insign="sygeplejerske" outsign="nurse"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign>
+<DTAGalign alignment="lotte" source="en" target="da">
 <alignFile href="P03_T2.src" key="a" sign="_input"/>
 <alignFile href="P03_T2.tgt" key="b" sign="_input"/>
 <align creator="" in="b1b2b3" insign="Forestil dig at" out="a1" outsign="Say" type=""/>

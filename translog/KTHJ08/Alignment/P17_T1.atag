@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="Malene_tekst_a.src" sign="_input"/>
 <alignFile key="b" href="Malene_tekst_a.tgt" sign="_input"/>
 <align out="a15" type="" in="b11 b12" creator="0" insign="i dag" outsign="today"/>

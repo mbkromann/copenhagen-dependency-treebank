@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign>
+<DTAGalign alignment="lotte" source="en" target="da">
 <alignFile href="P01_T3.src" key="a" sign=""/>
 <alignFile href="P01_T3.tgt" key="b" sign=""/>
 <align creator="" in="b2" insign="gang" out="a2" outsign="time" type=""/>

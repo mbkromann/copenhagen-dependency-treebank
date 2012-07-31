@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="Dorrit_tekst_B.src" sign="_input"/>
 <alignFile key="b" href="Dorrit_tekst_B.tgt" sign="_input"/>
 <align out="a4" type="" in="b4" creator="0" insign="stigning" outsign="increase"/>

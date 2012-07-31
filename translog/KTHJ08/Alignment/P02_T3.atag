@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="Barbara_tekst_C.src" sign="_input"/>
 <alignFile key="b" href="Barbara_tekst_C.tgt" sign="_input"/>
 <align out="a3" type="" in="b3 b4 b5" creator="0" insign="OL i Beijing" outsign="Beijing"/>

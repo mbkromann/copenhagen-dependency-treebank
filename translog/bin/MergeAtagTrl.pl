@@ -109,7 +109,7 @@ sub MSescape {
 
 sub ReadDTAG {
   my ($fn) = @_;
-  my ($x, $k, $s, $D, $n); 
+  my ($D); 
 
   if(!open(DATA, "<:encoding(utf8)", $fn)) {
     printf STDERR "cannot open: $fn\n";
@@ -118,16 +118,18 @@ sub ReadDTAG {
 
   if($Verbose) {printf STDERR "ReadDtag: %s\n", $fn;}
 
-  $n = 1;
+  my $n = 1;
+  my $H = '';
   while(defined($_ = <DATA>)) {
     if($_ =~ /^\s*$/) {next;}
     if($_ =~ /^#/) {next;}
     chomp;
 #printf STDERR "$_\n";
 
+    if(/<Text /) {$H = $_; $H =~ s/<Text//;  $H =~ s/>//;} 
     if(!/<W ([^>]*)>([^<]*)/) {next;} 
-    $x = $1;
-    $s = unescape($2);
+    my $x = $1;
+    my $s = unescape($2);
     if(/id="([^"])"/ && $1 != $n) {
       printf STDERR "Read $fn: unmatching n:$n and id:$1\n";
       $n=$1;
@@ -143,7 +145,7 @@ sub ReadDTAG {
     $n++;
   }
   close (DATA);
-  return $D;
+  return ($H,$D);
 }
 
 ############################################################
@@ -171,13 +173,14 @@ sub ReadAtag {
 
 ## read alignment file
   $n = 0;
+  my $H = '';
   while(defined($_ = <ALIGN>)) {
     if($_ =~ /^\s*$/) {next;}
     if($_ =~ /^#/) {next;}
     chomp;
 
-#printf STDERR "Alignment %s\n", $_;
 ## read aligned files
+    if(/<DTAGalign/) {$A->{H} = $_; $A->{H} =~ s/<DTAGalign//;  $A->{H} =~ s/>//;} 
     if(/<alignFile/) {
       my $path = $fn;
       if(/href="([^"]*)"/) { $fn1 = $1;}
@@ -196,8 +199,10 @@ sub ReadAtag {
       }
       else {printf STDERR "Alignment wrong %s\n", $_;}
 
-#      $A->{$lang}{'D'} =  ReadDTAG("$path/$fn1"); 
-      $A->{$lang}{'D'} =  ReadDTAG("$path"); 
+#      $A->{$lang}{'D'} =  ReadDTAG("$path"); 
+      my ($H, $D) =  ReadDTAG("$path"); 
+      $A->{$lang}{'D'} =  $D;
+      $A->{$lang}{'H'} =  $H;
   
       next;
     }
@@ -282,7 +287,7 @@ sub MergeAtag {
         }
         $A->{'n'}{$n}{$l}{'id'}{$id} = $A->{$l}{'D'}{$id}{'cur'};
       }
-      foreach my $id (sort {$a<=>$b} keys %{$A->{$l}{D}}) {
+      foreach my $id (keys %{$A->{$l}{D}}) {
         if(!defined($A->{n}{$n}{$l}{id})) { print STDERR "MergeAtag: Undefined token: $l: ID:$id\n";}
       }
     }
@@ -297,7 +302,7 @@ sub PrintTranslog{
 
   my @L = qw(Source Final);
   foreach my $l (@L) {
-    $TRANSLOG->{$m++} ="  <$l"."Token>\n";
+    $TRANSLOG->{$m++} ="  <$l"."Token$A->{$l}{H}>\n";
     foreach my $id (sort {$a<=>$b} keys %{$A->{$l}{'D'}}) {
       $A->{$l}{D}{$id}{tok} =~ s/\\([\(\)\\\/])/$1/g;
       my $tok = MSescape($A->{$l}{D}{$id}{tok});
@@ -314,7 +319,7 @@ sub PrintTranslog{
     $TRANSLOG->{$m++} ="  </$l"."Token>\n";
   }
 
-  $TRANSLOG->{$m++} ="  <Alignment>\n";
+  $TRANSLOG->{$m++} ="  <Alignment$A->{'H'}>\n";
   foreach my $n (sort {$a<=>$b} keys %{$A->{'n'}}) {
     my $S = {};
     foreach my $l (@L) {

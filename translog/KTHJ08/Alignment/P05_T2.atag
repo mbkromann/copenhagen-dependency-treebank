@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="Eiliyah_tekst_B.src" sign="_input"/>
 <alignFile key="b" href="Eiliyah_tekst_B.tgt" sign="_input"/>
 <align out="a13" type="" in="b9" creator="0" insign="hoste" outsign="cough"/>

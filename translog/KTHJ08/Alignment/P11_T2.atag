@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="kthj_text_B.src" sign="_input"/>
 <alignFile key="b" href="kthj_text_B.tgt" sign="_input"/>
 <align out="b2" type="" in="b2" creator="0" insign="hårdt" outsign="hårdt"/>

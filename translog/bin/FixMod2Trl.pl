@@ -128,14 +128,14 @@ sub ReadTranslog {
     $TRANSLOG->{$n++} = $_;
 
     if(/<Events>/) {$type =1; }
-    elsif(/<SourceTextChar>/) {$type =2; }
-    elsif(/<TranslationChar>/) {$type =3; }
-    elsif(/<TargetTextChar>/) {$type =3; }
-    elsif(/<FinalTextChar>/) {$type =4; }
-    elsif(/<FinalText>/)   {$type =5; }
-    elsif(/<Alignment>/)   {$type =6; }
-    elsif(/<SourceToken>/){$type =7; }
-    elsif(/<FinalToken>/) {$type =8; }
+    elsif(/<SourceTextChar/) {$type =2; }
+    elsif(/<TranslationChar/) {$type =3; }
+    elsif(/<TargetTextChar/) {$type =3; }
+    elsif(/<FinalTextChar/) {$type =4; }
+    elsif(/<FinalText/)   {$type =5; }
+    elsif(/<Alignment/)   {$type =6; }
+    elsif(/<SourceToken/){$type =7; }
+    elsif(/<FinalToken/) {$type =8; }
 	
 
 ## SourceText Positions

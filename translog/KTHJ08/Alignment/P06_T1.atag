@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="Ejvind-Tekst_A.src" sign="_input"/>
 <alignFile key="b" href="Ejvind-Tekst_A.tgt" sign="_input"/>
 <align out="a12" type="" in="b17 b19" creator="0" insign="idømt fængsel" outsign="imprisoned"/>

@@ -184,15 +184,15 @@ sub ReadAtag {
       if(/key="a"/) { 
         if($fn1 =~ /src$/)    { $lang='Source'; $A->{'a'}{'lang'} = 'Source'; $path .= ".src";}
         elsif($fn1 =~ /tgt$/) { $lang='Final'; $A->{'a'}{'lang'} = 'Final'; $path .= ".tgt";}
-        $A->{'b'}{'fn'} =  $fn1;
-        $A->{$lang}{'fn'} =  $fn1;
+        $A->{'b'}{'fn'} =  $path;
+        $A->{$lang}{'fn'} =  $path;
       }
 ## read reference file "b"
       elsif(/key="b"/) { 
-        $A->{'b'}{'fn'} =  $fn1;
+        $A->{'b'}{'fn'} =  $path;
         if($fn1 =~ /src$/) { $lang='Source'; $A->{'b'}{'lang'} = 'Source'; $path .= ".src";}
         elsif($fn1 =~ /tgt$/) { $lang='Final'; $A->{'b'}{'lang'} = 'Final';$path .= ".tgt";}
-        $A->{$lang}{'fn'} =  $fn1;
+        $A->{$lang}{'fn'} =  $path;
       }
       else {printf STDERR "Alignment wrong %s\n", $_;}
 
@@ -253,7 +253,7 @@ sub CompareAtag {
         foreach my $id2 (sort {$a<=>$b} keys %{$A1->{'n'}{$lang1}{$id1}{$lang2}}) {
 #print STDERR "CompareAtag5\n";
           if(!defined($A2->{'n'}{$lang1}{$id1}{$lang2}{$id2})) {
-              print STDERR "$A2->{fn} missing\t$lang1 $id1  <-> $lang2 $id2\n";
+              print STDERR "$A2->{fn}\tmissing:$lang1 $id1  <-> $lang2 $id2\n";
           }
         }
       }
@@ -265,7 +265,7 @@ sub CompareAtag {
       foreach my $lang2 (keys %{$A2->{'n'}{$lang1}{$id1}}) {
         foreach my $id2 (sort {$a<=>$b} keys %{$A2->{'n'}{$lang1}{$id1}{$lang2}}) {
           if(!defined($A1->{'n'}{$lang1}{$id1}{$lang2}{$id2})) {
-              print STDERR "$A1->{fn} missing\t$lang1 $id1  <-> $lang2 $id2\n";
+              print STDERR "$A1->{fn}\tmissing:$lang1 $id1  <-> $lang2 $id2\n";
           }
         }
       }
@@ -276,12 +276,12 @@ sub CompareAtag {
   foreach my $l (@L) {
     foreach my $id (sort {$a<=>$b} keys %{$A1->{$l}{D}}) {
       if(!defined($A2->{$l}{D}{$id})) {
-        print STDERR "CompareAtag $A2->{$l}{fn} missing id: $id\n"; 
+        print STDERR "$A2->{$l}{fn}\tmissing id:\t$id\n"; 
         next;
       }
       foreach my $attr (sort  keys %{$A1->{$l}{D}{$id}}) {
         if(!defined($A2->{$l}{D}{$id}{$attr})) {
-          print STDERR "$A2->{$l}{fn} undefined $attr\n"; 
+          print STDERR "$A2->{$l}{fn}\tundefined attribute:\t$attr\n"; 
           next;
         }
         if($A1->{$l}{D}{$id}{$attr} ne $A2->{$l}{D}{$id}{$attr}) { 
@@ -295,12 +295,12 @@ sub CompareAtag {
   foreach my $l (@L) {
     foreach my $id (sort {$a<=>$b} keys %{$A2->{$l}{D}}) {
       if(!defined($A1->{$l}{D}{$id})) {
-        print STDERR "CompareAtag $A1->{$l}{fn} missing id: $id\n";
+        print STDERR "$A1->{$l}{fn}\tmissing id:\t$id\n";
         next;
       }
       foreach my $attr (sort  keys %{$A2->{$l}{D}{$id}}) {
         if(!defined($A1->{$l}{D}{$id}{$attr})) {
-          print STDERR "$A1->{$l}{fn} undefined $attr\n";
+          print STDERR "$A1->{$l}{fn}\tundefined attribute:\t$attr\n";
           next;
         }
         if($A1->{$l}{D}{$id}{$attr} ne $A2->{$l}{D}{$id}{$attr}) {
@@ -310,6 +310,5 @@ sub CompareAtag {
       }
     }
   }
-
 }
 

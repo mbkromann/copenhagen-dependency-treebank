@@ -19,7 +19,7 @@ my $MaxFixGap = 400;
 my $MaxKeyGap = 1000;
 
 my $usage =
-  "Print Key and Mod tables from Translog on STDOUT: \n".
+  "Print Key and Mod tables from Translog .Event.xml files STDOUT for manual fixation correction\n".
   "  -T in:  Translog XML file <filename>\n".
   "Options:\n".
   "  -v verbose mode [0 ... ]\n".
@@ -116,10 +116,10 @@ sub ReadTranslog {
   while(defined($_ = <FILE>)) {
 #printf STDERR "Translog: %s\n",  $_;
 
-    if(/<SourceToken>/)     {$type = 1; }
-    elsif(/<FinalToken>/)   {$type = 2; }
-    elsif(/<Fixations>/)    {$type = 3; }
-    elsif(/<Modifications>/){$type = 4; }
+    if(/<SourceToken/)     {$type = 1; }
+    elsif(/<FinalToken/)   {$type = 2; }
+    elsif(/<Fixations/)    {$type = 3; }
+    elsif(/<Modifications/){$type = 4; }
 	
     if($type == 1 && /<Token/) {
       if(/id="([0-9][0-9]*)"/) {$id =$1;}

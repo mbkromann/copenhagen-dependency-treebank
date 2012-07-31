@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="Dorrit_tekst_A.src" sign="_input"/>
 <alignFile key="b" href="Dorrit_tekst_A.tgt" sign="_input"/>
 <align out="a5 a6" type="" in="b4" creator="0" insign="livtidsdomme" outsign="life sentences"/>

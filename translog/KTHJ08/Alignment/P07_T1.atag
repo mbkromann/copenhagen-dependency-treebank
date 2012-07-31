@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="Eva_Tekst_A.src" sign="_input"/>
 <alignFile key="b" href="Eva_Tekst_A.tgt" sign="_input"/>
 <align out="a17 a18" type="" in="b16 b17 b18 b23" creator="0" insign="at have slået ihjel" outsign="the killing"/>

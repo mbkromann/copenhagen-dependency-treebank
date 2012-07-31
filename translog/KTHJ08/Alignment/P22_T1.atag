@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="Susanne_tekst_A.src" sign="_input"/>
 <alignFile key="b" href="Susanne_tekst_A.tgt" sign="_input"/>
 <align out="b8" type="" in="b8" creator="0" insign="," outsign=","/>

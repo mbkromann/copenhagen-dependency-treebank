@@ -127,11 +127,11 @@ sub ReadTranslog {
       if(/source="([^"]*)"/) {$SourceLang = $1; }
       if(/target="([^"]*)"/) {$TargetLang = $1; }
     }
-    elsif(/<Fixations>/)    {$type = 2; }
-    elsif(/<Modifications>/){$type = 3; }
-    elsif(/<FinalToken>/)   {$type = 6; }
-    elsif(/<SourceToken>/)  {$type = 7; }
-    elsif(/<Alignment>/)    {$type = 8; }
+    elsif(/<Fixations/)    {$type = 2; }
+    elsif(/<Modifications/){$type = 3; }
+    elsif(/<FinalToken/)   {$type = 6; }
+    elsif(/<SourceToken/)  {$type = 7; }
+    elsif(/<Alignment/)    {$type = 8; }
 	
     if($type == 7 && /<Token/) {
       if(/ id="([0-9][0-9]*)"/) {$id =$1;}
@@ -180,9 +180,11 @@ sub ReadTranslog {
 #    <PU start="10685" dur="7049" pause="2719" parallel="69.1587" ins="34" del="0" src="3+4" tgt="1+3+4" str="Mordersygeplejerske&nbsp;modtager&nbsp;fire&nbsp;" />
 
 
-    if(/<\/SourceToken>/)  {$type = 0; }
-    if(/<\/Fixations>/)    {$type = 0; }
-    if(/<\/Modifications>/){$type = 0; }
+    if(/<\/SourceToken>/)  {$type = 0;}
+    if(/<\/Fixations>/)    {$type = 0;}
+    if(/<\/Modifications>/){$type = 0;}
+    if(/<\/Alignment>/)    {$type = 0;}
+    if(/<\/FinalToken>/)   {$type = 0;}
   }
   close(FILE);
 }

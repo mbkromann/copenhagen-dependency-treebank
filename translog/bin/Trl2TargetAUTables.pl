@@ -129,11 +129,11 @@ sub ReadTranslog {
       if(/source="([^"]*)"/) {$SourceLang = $1; }
       if(/target="([^"]*)"/) {$TargetLang = $1; }
     }
-    elsif(/<Fixations>/)    {$type = 2; }
-    elsif(/<Modifications>/){$type = 3; }
-    elsif(/<FinalToken>/)   {$type = 6; }
-    elsif(/<SourceToken>/)  {$type = 7; }
-    elsif(/<Alignment>/)    {$type = 8; }
+    elsif(/<Fixations/)    {$type = 2; }
+    elsif(/<Modifications/){$type = 3; }
+    elsif(/<FinalToken/)   {$type = 6; }
+    elsif(/<SourceToken/)  {$type = 7; }
+    elsif(/<Alignment/)    {$type = 8; }
 	
     if($type == 7 && /<Token/) {
       if(/ id="([0-9][0-9]*)"/) {$id =$1;}

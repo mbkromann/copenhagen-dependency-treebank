@@ -1,4 +1,4 @@
-<DTAGalign source="en" target="da" >
+<DTAGalign alignment="melanie" source="en" target="da" >
 <alignFile key="a" href="Tanja_tekst_B.src" sign="_input"/>
 <alignFile key="b" href="Tanja_tekst_B.tgt" sign="_input"/>
 <align out="a6 a7 a8" type="" in="b5" creator="0" insign="leveomkostninger" outsign="cost of living"/>

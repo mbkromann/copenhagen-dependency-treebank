@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign source="en" target="es" >
+<DTAGalign alignment="barto" source="en" target="es" >
 <alignFile href="P04_T1.src" key="a" sign="_input"/>
 <alignFile href="P04_T1.tgt" key="b" sign="_input"/>
 <align creator="" in="b1" insign="Un" out="a2" outsign="nurse" type=""/>

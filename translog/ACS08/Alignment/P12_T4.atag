@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign>
+<DTAGalign alignment="lotte" source="en" target="da">
 <alignFile href="P12_T4.src" key="a" sign=""/>
 <alignFile href="P12_T4.tgt" key="b" sign=""/>
 <align creator="" in="b3" insign="Englands" out="a4" outsign="England" type=""/>
