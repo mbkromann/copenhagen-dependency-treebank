@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Annette_tekst_A.src" sign="_input"/>
-<alignFile key="b" href="Annette_tekst_A.tgt" sign="_input"/>
+<alignFile key="a" href="P01_T1.src" sign="_input"/>
+<alignFile key="b" href="P01_T1.tgt" sign="_input"/>
 <align out="a1 a2" type="" in="b1" creator="0" insign="Mordersygeplejer" outsign="Killer nurse"/>
 <align out="a3" type="" in="b2" creator="0" insign="modtager" outsign="receives"/>
 <align out="a4" type="" in="b3" creator="0" insign="fire" outsign="four"/>

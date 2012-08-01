@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Tanja_tekst_B.src" sign="_input"/>
-<alignFile key="b" href="Tanja_tekst_B.tgt" sign="_input"/>
+<alignFile key="a" href="P23_T2.src" sign="_input"/>
+<alignFile key="b" href="P23_T2.tgt" sign="_input"/>
 <align out="a6 a7 a8" type="" in="b5" creator="0" insign="leveomkostninger" outsign="cost of living"/>
 <align out="a13 a14" type="f" in="b9" creator="0" insign="bruge" outsign="cough up"/>
 <align out="a2" type="" in="b2" creator="-1" insign="rammes" outsign="hit"/>

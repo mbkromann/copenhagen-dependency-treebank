@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Katrine_tekst_C.src" sign="_input"/>
-<alignFile key="b" href="Katrine_tekst_C.tgt" sign="_input"/>
+<alignFile key="a" href="P09_T3.src" sign="_input"/>
+<alignFile key="b" href="P09_T3.tgt" sign="_input"/>
 <align out="b4" type="" in="b4" creator="0" insign="det" outsign="det"/>
 <align out="a6" type="" in="b7 b8 b9" creator="0" insign="på grund af" outsign="over"/>
 <align out="b14" type="" in="b14" creator="0" insign="," outsign=","/>

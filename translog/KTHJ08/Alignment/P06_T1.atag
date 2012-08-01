@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Ejvind-Tekst_A.src" sign="_input"/>
-<alignFile key="b" href="Ejvind-Tekst_A.tgt" sign="_input"/>
+<alignFile key="a" href="P06_T1.src" sign="_input"/>
+<alignFile key="b" href="P06_T1.tgt" sign="_input"/>
 <align out="a12" type="" in="b17 b19" creator="0" insign="idømt fængsel" outsign="imprisoned"/>
 <align out="a15" type="" in="a15" creator="0" insign="today" outsign="today"/>
 <align out="a7 a8" type="" in="b13" creator="-1" insign="Sygeplejersken" outsign="Hospital nurse"/>

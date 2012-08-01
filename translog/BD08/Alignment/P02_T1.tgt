@@ -2,7 +2,7 @@
 <W id="1" cur="0" space="" in="20:conc" out="2:vobj">selvom</W>
 <W id="2" cur="7" space="\0020" in="1:subj" out="">udviklingslandene</W>
 <W id="3" cur="25" space="\0020" in="-2:vobj" out="-1:subj|2:preds|17:pnct">er</W>
-<W id="4" cur="28" note="word order &quot;forståeligt er&quot;" space="\0020" in="0:err" out="0:err">forståeligt</W>
+<W id="4" cur="28" note="word order forståeligt er" space="\0020" in="0:err" out="0:err">forståeligt</W>
 <W id="5" cur="40" space="\0020" in="-2:preds" out="">tilbageholdende</W>
 <W id="6" cur="56" space="\0020" in="0:err" out="0:err">til</W>
 <W id="7" cur="60" space="\0020" in="0:err" out="0:err">at</W>

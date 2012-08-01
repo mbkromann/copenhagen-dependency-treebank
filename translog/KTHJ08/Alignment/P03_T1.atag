@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Britt_tekst_A.src" sign="_input"/>
-<alignFile key="b" href="Britt_tekst_A.tgt" sign="_input"/>
+<alignFile key="a" href="P03_T1.src" sign="_input"/>
+<alignFile key="b" href="P03_T1.tgt" sign="_input"/>
 <align out="a2" type="" in="b2" creator="0" insign="sygeplejer" outsign="nurse"/>
 <align out="a7 a8" type="" in="b7" creator="0" insign="Hospitalssygeplejeren" outsign="Hospital nurse"/>
 <align out="a15" type="" in="b11" creator="0" insign="idag" outsign="today"/>

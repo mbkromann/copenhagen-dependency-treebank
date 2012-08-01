@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Eiliyah_tekst_C.src" sign="_input"/>
-<alignFile key="b" href="Eiliyah_tekst_C.tgt" sign="_input"/>
+<alignFile key="a" href="P05_T3.src" sign="_input"/>
+<alignFile key="b" href="P05_T3.tgt" sign="_input"/>
 <align out="b4" type="" in="b4" creator="0" insign="det" outsign="det"/>
 <align out="a7" type="" in="b9" creator="0" insign="Dafur" outsign="Darfur"/>
 <align out="b13" type="" in="b13" creator="0" insign="," outsign=","/>

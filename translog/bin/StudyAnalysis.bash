@@ -47,7 +47,7 @@ function MergeEvents2Trl()
     do
         root=${file%.xml}
         outp=${root/Translog-II/Events}
-        atag=${root/Translog-II/Alignment}
+        atag=${root/Translog-II/Alignment_NLP}
 
 ## If Source is older than Target do nothing
         if [ $file -ot "$outp.Event.xml" ] && 
@@ -117,30 +117,30 @@ function ToSingleTreex ()
 
 ## finalize Treex, build trees and store in data/Treex folder
     treex \
-    Misc::CopenhagenDT::BuildTreesFromOffsetIndices \
-    Util::Eval document="\$$doc->set_path(qw(data/Treex))" \
+    Misc::Translog::BuildTreesFromOffsetIndices \
+    Util::Eval document="\$doc->set_path(qw(data/Treex))" \
     Write::Treex clobber=1 storable=0 \
-    -- $new.treex.gz
+    -- data/Treex/raw/$1*.treex.gz
 }
 
-function finalizeTreex ()
-{
-
-    for file in data/Treex/raw/$1*.treex.gz
-    do
-        new=${file/raw/}
-        flag=0
-        if [ "$file" -nt "$new" ]; then flag=1; fi
-    done
-
-    if [ $flag == 1 ]; then 
-      treex \
-      Misc::CopenhagenDT::BuildTreesFromOffsetIndices \
-      Util::Eval document="\$doc->set_path(qw(data/Treex))" \
-      Write::Treex clobber=1 storable=0 \
-      -- data/Treex/raw/$1*.treex.gz
-    fi
-}
+#function finalizeTreex ()
+#{
+#
+#    for file in data/Treex/raw/$1*.treex.gz
+#    do
+#        new=${file/raw/}
+#        flag=0
+#        if [ "$file" -nt "$new" ]; then flag=1; fi
+#    done
+#
+#    if [ $flag == 1 ]; then 
+#      treex \
+#      Misc::CopenhagenDT::BuildTreesFromOffsetIndices \
+#      Util::Eval document="\$doc->set_path(qw(data/Treex))" \
+#      Write::Treex clobber=1 storable=0 \
+#      -- data/Treex/raw/$1*.treex.gz
+#    fi
+#}
 
 function AnnotateTrl ()
 {
@@ -155,41 +155,33 @@ function AnnotateTrl ()
     if [ $flag == 1 ]; then 
         rm -rf data/$1/Alignment_NLP/*
 
-        python modify_files.py data/$1/Alignment/*.src
+        python modify_files.py data/$1/Alignment/*.src 
         python modify_files.py data/$1/Alignment/*.tgt
 
         cp data/$1/Alignment/*.atag data/$1/Alignment_NLP
    fi
 }
 
+####################################
 function Treex2Atag ()
 {
-    flag=0
-    for file in data/*/Alignment-II/*atag
-    do
-        file=${file%.atag}
-        atag=${file/Alignment-II/Alignment}
-        if [ "$file" -nt "$new" ]; then flag=1; fi
-    done
 
-## create Alignment-II folder in each Study
-## to place the back-converted *.{src,tgt,atag} files
-    if [ $flag == 1 ]; then
+## Regenerate atag file
       treex \
       Misc::Translog::Treex2Alignment \
-      -- data/Treex/*.treex.gz
-    fi
+      -- data/Treex/$1*.treex.gz
 
 ## check whether old and new atag files contain same information
-    for file in data/*/Alignment-II/*atag
+    for file in data/$1/Alignment-II/*atag
     do
       file=${file%.atag}
-      atag=${file/Alignment-II/Alignment}
+      atag=${file/Alignment-II/Alignment_NLP}
 
       echo "Comparing $file $atag"
       ./CompareAtag.pl -C $file -A $atag
     done
 }
+
 
 
 
@@ -214,28 +206,46 @@ elif [ "$1" == "make" ]; then
     do 
       echo "make copy $study "
       CopyData $study;
+      echo "make annotation $study "
+      AnnotateTrl $study; 
       echo "make events $study "
       MergeEvents2Trl $study; 
       echo "make tables $study "
       Trl2TokenTables $study;
       echo "make treex $study "
       ToSingleTreex $study
-#      echo "make final $study "
-#      finalizeTreex $study;
-#        ./AnnotateTrl.bash ACS08
 
     done
     exit;
 
-## check if treex information consistent
-elif [ "$1" == "check" ]; then  
-    Treex2Atag 
-    exit;
-
-elif [ "$1" == "nltk" ]; then  
+## convert Events to treex
+elif [ "$1" == "treex" ]; then  
     if [ "$2" == "all" ]; then STUDY=$STUDY
     else STUDY=$2;
     fi
+
+    for study in $STUDY ; do ToSingleTreex $study ; done
+
+    exit;
+
+## produce Tables  
+elif [ "$1" == "tables" ]; then
+    if [ "$2" == "all" ]; then STUDY=$STUDY
+    else STUDY=$2;
+    fi
+
+    for study in $STUDY ; do Trl2TokenTables $study; done
+
+    exit;
+
+## check if treex information consistent
+elif [ "$1" == "check" ]; then  
+    if [ "$2" == "all" ]; then STUDY=$STUDY
+    else STUDY=$2;
+    fi
+
+    for study in $STUDY ; do Treex2Atag $study; done
+
     exit;
 
 else echo "Usage $0 <make | clean> <Study_name | all>"

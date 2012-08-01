@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Eva_Tekst_C.src" sign="_input"/>
-<alignFile key="b" href="Eva_Tekst_C.tgt" sign="_input"/>
+<alignFile key="a" href="P07_T3.src" sign="_input"/>
+<alignFile key="b" href="P07_T3.tgt" sign="_input"/>
 <align out="a11" type="" in="b11 b12 b13 b14" creator="0" insign="der er sikker på" outsign="sure"/>
 <align out="a2" type="" in="b2" creator="-1" insign="giver" outsign="shows"/>
 <align out="a5" type="" in="b5" creator="-1" insign="kort" outsign="card"/>

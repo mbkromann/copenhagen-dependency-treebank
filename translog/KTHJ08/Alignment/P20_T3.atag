@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Miriam_tekst_c.src" sign="_input"/>
-<alignFile key="b" href="Miriam_tekst_c.tgt" sign="_input"/>
+<alignFile key="a" href="P20_T3.src" sign="_input"/>
+<alignFile key="b" href="P20_T3.tgt" sign="_input"/>
 <align out="b4" type="" in="b4" creator="0" insign="det" outsign="det"/>
 <align out="a6" type="" in="b7 b8 b9" creator="0" insign="på grund af" outsign="over"/>
 <align out="a11" type="" in="b14 b15 b16 b17" creator="0" insign=", som med sikkerhed" outsign="sure"/>

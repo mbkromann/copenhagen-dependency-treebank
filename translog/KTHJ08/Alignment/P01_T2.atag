@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Annette_tekst_B.src" sign="_input"/>
-<alignFile key="b" href="Annette_tekst_B.tgt" sign="_input"/>
+<alignFile key="a" href="P01_T2.src" sign="_input"/>
+<alignFile key="b" href="P01_T2.tgt" sign="_input"/>
 <align out="a1" type="" in="b1" creator="0" insign="Familier" outsign="Families"/>
 <align out="a6 a7 a8" type="" in="b5" creator="0" insign="leveomkostninger" outsign="cost of living"/>
 <align out="a9" type="" in="b6" creator="0" insign="Britiske" outsign="British"/>

@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="tine_tekst_A.src" sign="_input"/>
-<alignFile key="b" href="tine_tekst_A.tgt" sign="_input"/>
+<alignFile key="a" href="P24_T1.src" sign="_input"/>
+<alignFile key="b" href="P24_T1.tgt" sign="_input"/>
 <align out="a5 a6" type="" in="b5" creator="0" insign="livstid" outsign="life sentences"/>
 <align out="a15" type="" in="b10 b11" creator="0" insign="i dag" outsign="today"/>
 <align out="a13 a14" type="" in="b12" creator="0" insign="livsvarigt" outsign="for life"/>

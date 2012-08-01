@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="ginnie_tekst_B.src" sign="_input"/>
-<alignFile key="b" href="ginnie_tekst_B.tgt" sign="_input"/>
+<alignFile key="a" href="P08_T2.src" sign="_input"/>
+<alignFile key="b" href="P08_T2.tgt" sign="_input"/>
 <align out="b6" type="" in="b6" creator="0" insign="." outsign="."/>
 <align out="a14" type="" in="b11 b12" creator="0" insign="op med" outsign="up"/>
 <align out="a17" type="" in="b14" creator="0" insign="ound" outsign="Â£"/>

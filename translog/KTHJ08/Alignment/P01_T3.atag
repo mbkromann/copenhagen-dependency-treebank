@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Annette_tekst_C.src" sign="_input"/>
-<alignFile key="b" href="Annette_tekst_C.tgt" sign="_input"/>
+<alignFile key="a" href="P01_T3.src" sign="_input"/>
+<alignFile key="b" href="P01_T3.tgt" sign="_input"/>
 <align out="a1" type="" in="b1" creator="0" insign="Spielberg" outsign="Spielberg"/>
 <align out="a2" type="" in="b2" creator="0" insign="giver" outsign="shows"/>
 <align out="a3" type="" in="b3" creator="0" insign="Beijing" outsign="Beijing"/>

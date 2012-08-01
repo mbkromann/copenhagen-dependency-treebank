@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Mai-Britt_tekst_B.src" sign="_input"/>
-<alignFile key="b" href="Mai-Britt_tekst_B.tgt" sign="_input"/>
+<alignFile key="a" href="P16_T2.src" sign="_input"/>
+<alignFile key="b" href="P16_T2.tgt" sign="_input"/>
 <align out="a3" type="" in="b3" creator="0" insign="af" outsign="with"/>
 <align out="a5" type="" in="b5" creator="0" insign="i" outsign="in"/>
 <align out="b15" type="" in="b15" creator="0" insign="(" outsign="("/>

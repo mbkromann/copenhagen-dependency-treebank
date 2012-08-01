@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="Barbara_tekst_C.src" sign="_input"/>
-<alignFile key="b" href="Barbara_tekst_C.tgt" sign="_input"/>
+<alignFile key="a" href="P02_T3.src" sign="_input"/>
+<alignFile key="b" href="P02_T3.tgt" sign="_input"/>
 <align out="a3" type="" in="b3 b4 b5" creator="0" insign="OL i Beijing" outsign="Beijing"/>
 <align out="a7" type="" in="b9" creator="0" insign="Darfur-konflikten" outsign="Darfur"/>
 <align out="a8" type="" in="b10" creator="0" insign="Med" outsign="In"/>

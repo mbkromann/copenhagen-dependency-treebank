@@ -282,7 +282,7 @@ sub MergeAtag {
 	  next;
         }
         if($A->{'n'}{$n}{$l}{'s'} ne '---' && $A->{'n'}{$n}{$l}{'s'} !~ /$A->{$l}{'D'}{$id}{'tok'}/){ 
-          print STDERR "MergeAtag token mismatch $l-$id: atag:$A->{'n'}{$n}{$l}{'s'}\t\ttoken:$A->{$l}{'D'}{$id}{'tok'}\n";
+          print STDERR "MergeAtag token mismatch $l:$id atag:$A->{'n'}{$n}{$l}{'s'}\t\ttoken:$A->{$l}{'D'}{$id}{'tok'}\n";
 #d($A->{$l}{'D'}{$id});
         }
         $A->{'n'}{$n}{$l}{'id'}{$id} = $A->{$l}{'D'}{$id}{'cur'};
@@ -307,7 +307,7 @@ sub PrintTranslog{
       $A->{$l}{D}{$id}{tok} =~ s/\\([\(\)\\\/])/$1/g;
       my $tok = MSescape($A->{$l}{D}{$id}{tok});
 
-      my $s = "    <Token id=\"$id\"";
+      my $s = "    <Token ";
       foreach my $attr (sort keys %{$A->{$l}{D}{$id}}) { 
          my $MS =  MSescape($A->{$l}{D}{$id}{$attr});
          $s .= " $attr=\"$MS\"";

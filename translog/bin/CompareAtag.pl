@@ -253,7 +253,7 @@ sub CompareAtag {
         foreach my $id2 (sort {$a<=>$b} keys %{$A1->{'n'}{$lang1}{$id1}{$lang2}}) {
 #print STDERR "CompareAtag5\n";
           if(!defined($A2->{'n'}{$lang1}{$id1}{$lang2}{$id2})) {
-              print STDERR "$A2->{fn}\tmissing:$lang1 $id1  <-> $lang2 $id2\n";
+              print STDERR "$A2->{fn}\tmissing alignment:\t$lang1 $id1  <-> $lang2 $id2\n";
           }
         }
       }
@@ -265,7 +265,7 @@ sub CompareAtag {
       foreach my $lang2 (keys %{$A2->{'n'}{$lang1}{$id1}}) {
         foreach my $id2 (sort {$a<=>$b} keys %{$A2->{'n'}{$lang1}{$id1}{$lang2}}) {
           if(!defined($A1->{'n'}{$lang1}{$id1}{$lang2}{$id2})) {
-              print STDERR "$A1->{fn}\tmissing:$lang1 $id1  <-> $lang2 $id2\n";
+              print STDERR "$A1->{fn}\tmissing alignment:\t$lang1 $id1  <-> $lang2 $id2\n";
           }
         }
       }
@@ -281,11 +281,12 @@ sub CompareAtag {
       }
       foreach my $attr (sort  keys %{$A1->{$l}{D}{$id}}) {
         if(!defined($A2->{$l}{D}{$id}{$attr})) {
-          print STDERR "$A2->{$l}{fn}\tundefined attribute:\t$attr\n"; 
+          print STDERR "$A2->{$l}{fn}\tmissing attribute:\t$attr\n"; 
           next;
         }
         if($A1->{$l}{D}{$id}{$attr} ne $A2->{$l}{D}{$id}{$attr}) { 
-          printf STDERR "$A2->{$l}{fn}\tid:$id\t$attr:%s\t%s\n", $A1->{$l}{D}{$id}{$attr}, $A2->{$l}{D}{$id}{$attr}; 
+          printf STDERR "$A1->{$l}{fn}\tid:$id\tdifferent values\t$attr:\tnew:>%s<\told:>%s<\n", $A2->{$l}{D}{$id}{$attr}, $A1->{$l}{D}{$id}{$attr};
+          $A1->{$l}{D}{$id}{$attr} = $A2->{$l}{D}{$id}{$attr} = 1;
           next;
         }
       }
@@ -300,11 +301,11 @@ sub CompareAtag {
       }
       foreach my $attr (sort  keys %{$A2->{$l}{D}{$id}}) {
         if(!defined($A1->{$l}{D}{$id}{$attr})) {
-          print STDERR "$A1->{$l}{fn}\tundefined attribute:\t$attr\n";
+          print STDERR "$A1->{$l}{fn}\tid:$id\tmissing attribute:\t$attr\n";
           next;
         }
         if($A1->{$l}{D}{$id}{$attr} ne $A2->{$l}{D}{$id}{$attr}) {
-          printf STDERR "$A1->{$l}{fn}\tid:$id\t$attr:%s\t%s\n", $A2->{$l}{D}{$id}{$attr}, $A1->{$l}{D}{$id}{$attr};
+          printf STDERR "$A1->{$l}{fn}\tid:$id\tdifferent values\t$attr:\tnew:>%s<\told:>%s<\n", $A2->{$l}{D}{$id}{$attr}, $A1->{$l}{D}{$id}{$attr};
           next;
         }
       }

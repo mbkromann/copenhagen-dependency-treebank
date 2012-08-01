@@ -1,6 +1,6 @@
 <DTAGalign alignment="melanie" source="en" target="da" >
-<alignFile key="a" href="tine_tekst_C.src" sign="_input"/>
-<alignFile key="b" href="tine_tekst_C.tgt" sign="_input"/>
+<alignFile key="a" href="P24_T3.src" sign="_input"/>
+<alignFile key="b" href="P24_T3.tgt" sign="_input"/>
 <align out="a3" type="" in="b3" creator="0" insign="Beijing" outsign="Beijing"/>
 <align out="b4" type="" in="b4" creator="0" insign="det" outsign="det"/>
 <align out="a7" type="" in="a7" creator="0" insign="Darfur" outsign="Darfur"/>

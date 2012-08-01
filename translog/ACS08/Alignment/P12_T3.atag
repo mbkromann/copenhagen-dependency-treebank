@@ -2,175 +2,175 @@
 <DTAGalign alignment="lotte" source="en" target="da">
 <alignFile href="P12_T3.src" key="a" sign=""/>
 <alignFile href="P12_T3.tgt" key="b" sign=""/>
-<align creator="" in="b1" insign="Hele" out="a1" outsign="Every" type=""/>
-<align creator="" in="b2" insign="tiden" out="a2" outsign="time" type=""/>
-<align creator="" in="b4" insign="man" out="a3" outsign="you" type=""/>
-<align creator="" in="b5" insign="ser" out="a4" outsign="look" type=""/>
-<align creator="" in="b6" insign="sig" out="a5" outsign="around" type=""/>
-<align creator="" in="b7" insign="omkring" out="a5" outsign="around" type=""/>
-<align creator="" in="b8" insign="," out="a6" outsign="," type=""/>
-<align creator="" in="b10" insign="det" out="a7" outsign="it" type=""/>
-<align creator="" in="b9" insign="ser" out="a8" outsign="seems" type=""/>
-<align creator="" in="b14" insign="selskaberne" out="a10" outsign="companies" type=""/>
-<align creator="" in="b15" insign="forsÃžger" out="a12" outsign="trying" type=""/>
-<align creator="" in="b16" insign="at" out="a13" outsign="to" type=""/>
-<align creator="" in="b17" insign="knytte" out="a14" outsign="hook" type=""/>
-<align creator="" in="b18" insign="sig" out="a14" outsign="hook" type=""/>
-<align creator="" in="b20" insign="hinanden" out="a14" outsign="hook" type=""/>
-<align creator="" in="b21" insign="." out="a16" outsign="." type=""/>
-<align creator="" in="b23" insign="foreslÃ¥ede" out="a18" outsign="proposed" type=""/>
-<align creator="" in="b24" insign="ÃŠgteskab" out="a19" outsign="marriage" type=""/>
-<align creator="" in="b26" insign="Air" out="a21" outsign="Air" type=""/>
-<align creator="" in="b27" insign="France" out="a22" outsign="France" type=""/>
-<align creator="" in="b28" insign="-" out="a23" outsign="-" type=""/>
-<align creator="" in="b29" insign="KLM" out="a24" outsign="KLM" type=""/>
-<align creator="" in="b30" insign="og" out="a25" outsign="and" type=""/>
-<align creator="" in="b31" insign="Delta" out="a26" outsign="Delta" type=""/>
-<align creator="" in="b32" insign="Air" out="a27" outsign="Air" type=""/>
-<align creator="" in="b33" insign="Lines" out="a28" outsign="Lines" type=""/>
-<align creator="" in="b34" insign="er" out="a29" outsign="is" type=""/>
-<align creator="" in="b35" insign="det" out="a30" outsign="the" type=""/>
-<align creator="" in="b36" insign="seneste" out="a31" outsign="latest" type=""/>
-<align creator="" in="b38" insign="pÃ¥" out="a34" outsign="the" type=""/>
-<align creator="" in="b40" insign="lang" out="a35" outsign="rounds" type=""/>
-<align creator="" in="b41" insign="rÃŠkke" out="a35" outsign="rounds" type=""/>
-<align creator="" in="b42" insign="fusioner" out="a35" outsign="rounds" type=""/>
-<align creator="" in="b43" insign="." out="a36" outsign="." type=""/>
-<align creator="" in="b44" insign="Men" out="a37" outsign="But" type=""/>
-<align creator="" in="b45" insign="bejlerne" out="a38" outsign="the" type=""/>
-<align creator="" in="b45" insign="bejlerne" out="a39" outsign="suitors" type=""/>
-<align creator="" in="b46" insign="skal" out="a40" outsign="must" type=""/>
-<align creator="" in="b51" insign="regelsÃŠtterne" out="a46" outsign="regulators" type=""/>
-<align creator="" in="b52" insign="," out="a47" outsign="," type=""/>
-<align creator="" in="b53" insign="som" out="a48" outsign="who" type=""/>
-<align creator="" in="b56" insign="vil" out="a51" outsign="to" type=""/>
-<align creator="" in="b57" insign="overvÃ¥ge" out="a52" outsign="supervise" type=""/>
-<align creator="" in="b58" insign="bejleriet" out="a54" outsign="courtship" type=""/>
-<align creator="" in="b59" insign="omhyggeligt" out="a55" outsign="with" type=""/>
-<align creator="" in="b59" insign="omhyggeligt" out="a56" outsign="care" type=""/>
-<align creator="" in="b63" insign="stÃžrrelse" out="a59" outsign="the" type=""/>
-<align creator="" in="b62" insign="medgiftens" out="a61" outsign="of" type=""/>
-<align creator="" in="b62" insign="medgiftens" out="a63" outsign="dowry" type=""/>
-<align creator="" in="b64" insign="." out="a64" outsign="." type=""/>
-<align creator="" in="b65" insign="Vejen" out="a65" outsign="The" type=""/>
-<align creator="" in="b65" insign="Vejen" out="a66" outsign="path" type=""/>
-<align creator="" in="b66" insign="fra" out="a67" outsign="from" type=""/>
-<align creator="" in="b67" insign="alteret" out="a68" outsign="the" type=""/>
-<align creator="" in="b67" insign="alteret" out="a69" outsign="altar" type=""/>
-<align creator="" in="b68" insign="er" out="a70" outsign="is" type=""/>
-<align creator="" in="b69" insign="bestrÃžet" out="a71" outsign="strewn" type=""/>
-<align creator="" in="b70" insign="med" out="a72" outsign="with" type=""/>
-<align creator="" in="b71" insign="selskabsskilsmisser" out="a73" outsign="failed" type=""/>
-<align creator="" in="b74" insign="." out="a76" outsign="." type=""/>
-<align creator="" in="b75" insign="Alligevel" out="a77" outsign="Still" type=""/>
-<align creator="" in="b76" insign="fortsÃŠtter" out="a79" outsign="the" type=""/>
-<align creator="" in="b77" insign="mange" out="a80" outsign="matchmaking" type=""/>
-<align creator="" in="b78" insign="stadig" out="a80" outsign="matchmaking" type=""/>
-<align creator="" in="b79" insign="med" out="a80" outsign="matchmaking" type=""/>
-<align creator="" in="b80" insign="at" out="a80" outsign="matchmaking" type=""/>
-<align creator="" in="b81" insign="optrÃŠde" out="a80" outsign="matchmaking" type=""/>
-<align creator="" in="b82" insign="som" out="a81" outsign="continues" type=""/>
-<align creator="" in="b83" insign="Kirsten" out="a81" outsign="continues" type=""/>
-<align creator="" in="b84" insign="Giftekniv" out="a82" outsign="apace" type=""/>
-<align creator="" in="b85" insign="." out="a83" outsign="." type=""/>
-<align creator="" in="b86" insign="British" out="a84" outsign="British" type=""/>
-<align creator="" in="b87" insign="Airways" out="a85" outsign="Airways" type=""/>
-<align creator="" in="b88" insign="og" out="a86" outsign="and" type=""/>
-<align creator="" in="b89" insign="det" out="a87" outsign="Spanish" type=""/>
-<align creator="" in="b90" insign="spanske" out="a87" outsign="Spanish" type=""/>
-<align creator="" in="b91" insign="luftfartsselskab" out="a88" outsign="carrier" type=""/>
-<align creator="" in="b92" insign="Iberia" out="a89" outsign="Iberia" type=""/>
-<align creator="" in="b93" insign="har" out="a90" outsign="have" type=""/>
-<align creator="" in="b94" insign="bejlet" out="a91" outsign="been" type=""/>
-<align creator="" in="b94" insign="bejlet" out="a92" outsign="wooing" type=""/>
-<align creator="" in="b95" insign="til" out="a92" outsign="wooing" type=""/>
-<align creator="" in="b96" insign="hinanden" out="a94" outsign="another" type=""/>
-<align creator="" in="b97" insign="i" out="a95" outsign="for" type=""/>
-<align creator="" in="b98" insign="det" out="a96" outsign="the" type=""/>
-<align creator="" in="b99" insign="meste" out="a97" outsign="better" type=""/>
-<align creator="" in="b99" insign="meste" out="a98" outsign="part" type=""/>
-<align creator="" in="b100" insign="af" out="a99" outsign="of" type=""/>
-<align creator="" in="b101" insign="et" out="a100" outsign="a" type=""/>
-<align creator="" in="b102" insign="Ã¥rstid" out="a101" outsign="year" type=""/>
-<align creator="" in="b103" insign="." out="a102" outsign="." type=""/>
-<align creator="" in="b104" insign="I" out="a103" outsign="In" type=""/>
-<align creator="" in="b105" insign="marts" out="a104" outsign="March" type=""/>
-<align creator="" in="b112" insign="Merck" out="a108" outsign="Merck" type=""/>
-<align creator="" in="b113" insign="og" out="a109" outsign="and" type=""/>
-<align creator="" in="b114" insign="Plough" out="a110" outsign="Plough" type=""/>
-<align creator="" in="b115" insign="-" out="a111" outsign="-" type=""/>
-<align creator="" in="b116" insign="Schering" out="a112" outsign="Schering" type=""/>
-<align creator="" in="b121" insign="fusionere" out="a117" outsign="wed" type=""/>
-<align creator="" in="b122" insign="." out="a118" outsign="." type=""/>
-<align creator="" in="b123" insign="Fiat" out="a119" outsign="Fiat" type=""/>
-<align creator="" in="b124" insign="har" out="a120" outsign="has" type=""/>
-<align creator="" in="b125" insign="ambitiÃžse" out="a121" outsign="ambitious" type=""/>
-<align creator="" in="b126" insign="planer" out="a122" outsign="plans" type=""/>
-<align creator="" in="b128" insign="at" out="a123" outsign="to" type=""/>
-<align creator="" in="b129" insign="fusionere" out="a124" outsign="merge" type=""/>
-<align creator="" in="b130" insign="med" out="a125" outsign="with" type=""/>
-<align creator="" in="b131" insign="Chrysler" out="a126" outsign="Chrysler" type=""/>
-<align creator="" in="b132" insign="og" out="a127" outsign="and" type=""/>
-<align creator="" in="b138" insign="at" out="a134" outsign="to" type=""/>
-<align creator="" in="b139" insign="starte" out="a135" outsign="spin" type=""/>
-<align creator="" in="b139" insign="starte" out="a136" outsign="off" type=""/>
-<align creator="" in="b139" insign="starte" out="a137" outsign="into" type=""/>
-<align creator="" in="b140" insign="et" out="a138" outsign="a" type=""/>
-<align creator="" in="b141" insign="nyt" out="a139" outsign="new" type=""/>
-<align creator="" in="b145" insign="." out="a142" outsign="." type=""/>
-<align creator="" in="b146" insign="Og" out="a143" outsign="And" type=""/>
-<align creator="" in="b147" insign="de" out="a144" outsign="the" type=""/>
-<align creator="" in="b158" insign="Porsches" out="a154" outsign="Porsche" type=""/>
-<align creator="" in="b159" insign="og" out="a155" outsign="and" type=""/>
-<align creator="" in="b160" insign="Volkswagens" out="a156" outsign="Volkswagen" type=""/>
-<align creator="" in="b163" insign="at" out="a157" outsign="to" type=""/>
-<align creator="" in="b164" insign="smide" out="a158" outsign="tie" type=""/>
-<align creator="" in="b167" insign="har" out="a161" outsign="have" type=""/>
-<align creator="" in="b168" insign="domineret" out="a162" outsign="been" type=""/>
-<align creator="" in="b168" insign="domineret" out="a163" outsign="dominating" type=""/>
-<align creator="" in="b169" insign="erhvervssiderne" out="a165" outsign="business" type=""/>
-<align creator="" in="b169" insign="erhvervssiderne" out="a166" outsign="pages" type=""/>
-<align creator="" in="b171" insign="mÃ¥nedsvis" out="a168" outsign="months" type=""/>
-<align creator="" in="b172" insign="." out="a169" outsign="." type=""/>
-<align creator="" in="b3b4" insign="nÃ¥r man" out="a3" outsign="you" type=""/>
-<align creator="" in="b5b6b7" insign="ser sig omkring" out="a4a5" outsign="look around" type=""/>
-<align creator="" in="b9b10b11b12b13" insign="ser det ud til at" out="a7a8a9" outsign="it seems like" type=""/>
-<align creator="" in="b15" insign="forsÃžger" out="a11a12" outsign="are trying" type=""/>
-<align creator="" in="b17b18b19b20" insign="knytte sig til hinanden" out="a14a15" outsign="hook up" type=""/>
-<align creator="" in="b22" insign="Det" out="a17" outsign="The" type=""/>
-<align creator="" in="b25" insign="mellem" out="a20" outsign="of" type=""/>
-<align creator="" in="b36b37" insign="seneste eksempel" out="a31" outsign="latest" type=""/>
-<align creator="" in="b38b39b40b41b42" insign="pÃ¥ en lang rÃŠkke fusioner" out="a32a33a34a35" outsign="to make the rounds" type=""/>
-<align creator="" in="b47" insign="fÃžrst" out="a41" outsign="first" type=""/>
-<align creator="" in="b50" insign="at" out="a45" outsign="of" type=""/>
-<align creator="" in="b48b49" insign="vÃŠre godkendt" out="a42a43a44" outsign="gain the approval" type=""/>
-<align creator="" in="b54b55b56" insign="helt sikkert vil" out="a49a50a51" outsign="are sure to" type=""/>
-<align creator="" in="b58" insign="bejleriet" out="a53a54" outsign="the courtship" type=""/>
-<align creator="" in="b60b61" insign="pga ." out="a57a58" outsign="because of" type=""/>
-<align creator="" in="b62" insign="medgiftens" out="a61a62a63" outsign="of the dowry" type=""/>
-<align creator="" in="b63" insign="stÃžrrelse" out="a59a60" outsign="the size" type=""/>
-<align creator="" in="b71" insign="selskabsskilsmisser" out="a73a74a75" outsign="failed corporate marriages" type=""/>
-<align creator="" in="b76b77b78b79b80b81b82b83b84" insign="fortsÃŠtter mange stadig med at optrÃŠde som Kirsten Giftekniv" out="a79a80a81a82" outsign="the matchmaking continues apace" type=""/>
-<align creator="" in="b94b95" insign="bejlet til" out="a91a92" outsign="been wooing" type=""/>
-<align creator="" in="b96" insign="hinanden" out="a93a94" outsign="one another" type=""/>
-<align creator="" in="b106" insign="annoncerede" out="a113" outsign="announced" type=""/>
-<align creator="" in="b107b108" insign="to giganter" out="a107" outsign="giants" type=""/>
-<align creator="" in="b109b110" insign="i medicinalindustrien" out="a106" outsign="pharmaceutical" type=""/>
-<align creator="" in="b118b119b120" insign="at de ville" out="a114a115" outsign="their intention" type=""/>
-<align creator="" in="b121" insign="fusionere" out="a116a117" outsign="to wed" type=""/>
-<align creator="" in="b127b128" insign="om at" out="a123" outsign="to" type=""/>
-<align creator="" in="b133" insign="General" out="a132" outsign="General" type=""/>
-<align creator="" in="b135" insign="europÃŠiske" out="a129" outsign="European" type=""/>
-<align creator="" in="b136" insign="virksomhed" out="a130" outsign="operations" type=""/>
-<align creator="" in="b134" insign="Motors" out="a131a133" outsign="of Motors" type=""/>
-<align creator="" in="b137b138" insign="for at" out="a134" outsign="to" type=""/>
-<align creator="" in="b142" insign="selskab" out="a141" outsign="company" type=""/>
-<align creator="" in="b143b144" insign="i automobilbranchen" out="a140" outsign="car" type=""/>
-<align creator="" in="b158" insign="Porsches" out="a153a154" outsign="of Porsche" type=""/>
-<align creator="" in="b162b163" insign="om at" out="a157" outsign="to" type=""/>
-<align creator="" in="b164b165b166" insign="smide kludene sammen" out="a158a159a160" outsign="tie the knot" type=""/>
-<align creator="" in="b169" insign="erhvervssiderne" out="a164a165a166" outsign="the business pages" type=""/>
-<align creator="" in="b170" insign="i" out="a167" outsign="for" type=""/>
-<align creator="" in="b161" insign="planer" out="a152" outsign="plans" type=""/>
-<align creator="" in="b147b148b149b150b151b152b153b154b155b156b157" insign="de planer , der har verseret frem og tilbage mht ." out="a144a145a146a147a148a149a150a151" outsign="the on - again , off - again" type=""/>
+<align creator="" in="b1" out="a1" outsign="Every" type=""/>
+<align creator="" in="b2" out="a2" outsign="time" type=""/>
+<align creator="" in="b4" out="a3" outsign="you" type=""/>
+<align creator="" in="b5" out="a4" outsign="look" type=""/>
+<align creator="" in="b6" out="a5" outsign="around" type=""/>
+<align creator="" in="b7" out="a5" outsign="around" type=""/>
+<align creator="" in="b8" out="a6" outsign="," type=""/>
+<align creator="" in="b10" out="a7" outsign="it" type=""/>
+<align creator="" in="b9" out="a8" outsign="seems" type=""/>
+<align creator="" in="b14" out="a10" outsign="companies" type=""/>
+<align creator="" in="b15" out="a12" outsign="trying" type=""/>
+<align creator="" in="b16" out="a13" outsign="to" type=""/>
+<align creator="" in="b17" out="a14" outsign="hook" type=""/>
+<align creator="" in="b18" out="a14" outsign="hook" type=""/>
+<align creator="" in="b20" out="a14" outsign="hook" type=""/>
+<align creator="" in="b21" out="a16" outsign="." type=""/>
+<align creator="" in="b23" out="a18" outsign="proposed" type=""/>
+<align creator="" in="b24" out="a19" outsign="marriage" type=""/>
+<align creator="" in="b26" out="a21" outsign="Air" type=""/>
+<align creator="" in="b27" out="a22" outsign="France" type=""/>
+<align creator="" in="b28" out="a23" outsign="-" type=""/>
+<align creator="" in="b29" out="a24" outsign="KLM" type=""/>
+<align creator="" in="b30" out="a25" outsign="and" type=""/>
+<align creator="" in="b31" out="a26" outsign="Delta" type=""/>
+<align creator="" in="b32" out="a27" outsign="Air" type=""/>
+<align creator="" in="b33" out="a28" outsign="Lines" type=""/>
+<align creator="" in="b34" out="a29" outsign="is" type=""/>
+<align creator="" in="b35" out="a30" outsign="the" type=""/>
+<align creator="" in="b36" out="a31" outsign="latest" type=""/>
+<align creator="" in="b38" out="a34" outsign="the" type=""/>
+<align creator="" in="b40" out="a35" outsign="rounds" type=""/>
+<align creator="" in="b41" out="a35" outsign="rounds" type=""/>
+<align creator="" in="b42" out="a35" outsign="rounds" type=""/>
+<align creator="" in="b43" out="a36" outsign="." type=""/>
+<align creator="" in="b44" out="a37" outsign="But" type=""/>
+<align creator="" in="b45" out="a38" outsign="the" type=""/>
+<align creator="" in="b45" out="a39" outsign="suitors" type=""/>
+<align creator="" in="b46" out="a40" outsign="must" type=""/>
+<align creator="" in="b51" out="a46" outsign="regulators" type=""/>
+<align creator="" in="b52" out="a47" outsign="," type=""/>
+<align creator="" in="b53" out="a48" outsign="who" type=""/>
+<align creator="" in="b56" out="a51" outsign="to" type=""/>
+<align creator="" in="b57" out="a52" outsign="supervise" type=""/>
+<align creator="" in="b58" out="a54" outsign="courtship" type=""/>
+<align creator="" in="b59" out="a55" outsign="with" type=""/>
+<align creator="" in="b59" out="a56" outsign="care" type=""/>
+<align creator="" in="b63" out="a59" outsign="the" type=""/>
+<align creator="" in="b62" out="a61" outsign="of" type=""/>
+<align creator="" in="b62" out="a63" outsign="dowry" type=""/>
+<align creator="" in="b64" out="a64" outsign="." type=""/>
+<align creator="" in="b65" out="a65" outsign="The" type=""/>
+<align creator="" in="b65" out="a66" outsign="path" type=""/>
+<align creator="" in="b66" out="a67" outsign="from" type=""/>
+<align creator="" in="b67" out="a68" outsign="the" type=""/>
+<align creator="" in="b67" out="a69" outsign="altar" type=""/>
+<align creator="" in="b68" out="a70" outsign="is" type=""/>
+<align creator="" in="b69" out="a71" outsign="strewn" type=""/>
+<align creator="" in="b70" out="a72" outsign="with" type=""/>
+<align creator="" in="b71" out="a73" outsign="failed" type=""/>
+<align creator="" in="b74" out="a76" outsign="." type=""/>
+<align creator="" in="b75" out="a77" outsign="Still" type=""/>
+<align creator="" in="b76" out="a79" outsign="the" type=""/>
+<align creator="" in="b77" out="a80" outsign="matchmaking" type=""/>
+<align creator="" in="b78" out="a80" outsign="matchmaking" type=""/>
+<align creator="" in="b79" out="a80" outsign="matchmaking" type=""/>
+<align creator="" in="b80" out="a80" outsign="matchmaking" type=""/>
+<align creator="" in="b81" out="a80" outsign="matchmaking" type=""/>
+<align creator="" in="b82" out="a81" outsign="continues" type=""/>
+<align creator="" in="b83" out="a81" outsign="continues" type=""/>
+<align creator="" in="b84" out="a82" outsign="apace" type=""/>
+<align creator="" in="b85" out="a83" outsign="." type=""/>
+<align creator="" in="b86" out="a84" outsign="British" type=""/>
+<align creator="" in="b87" out="a85" outsign="Airways" type=""/>
+<align creator="" in="b88" out="a86" outsign="and" type=""/>
+<align creator="" in="b89" out="a87" outsign="Spanish" type=""/>
+<align creator="" in="b90" out="a87" outsign="Spanish" type=""/>
+<align creator="" in="b91" out="a88" outsign="carrier" type=""/>
+<align creator="" in="b92" out="a89" outsign="Iberia" type=""/>
+<align creator="" in="b93" out="a90" outsign="have" type=""/>
+<align creator="" in="b94" out="a91" outsign="been" type=""/>
+<align creator="" in="b94" out="a92" outsign="wooing" type=""/>
+<align creator="" in="b95" out="a92" outsign="wooing" type=""/>
+<align creator="" in="b96" out="a94" outsign="another" type=""/>
+<align creator="" in="b97" out="a95" outsign="for" type=""/>
+<align creator="" in="b98" out="a96" outsign="the" type=""/>
+<align creator="" in="b99" out="a97" outsign="better" type=""/>
+<align creator="" in="b99" out="a98" outsign="part" type=""/>
+<align creator="" in="b100" out="a99" outsign="of" type=""/>
+<align creator="" in="b101" out="a100" outsign="a" type=""/>
+<align creator="" in="b102" out="a101" outsign="year" type=""/>
+<align creator="" in="b103" out="a102" outsign="." type=""/>
+<align creator="" in="b104" out="a103" outsign="In" type=""/>
+<align creator="" in="b105" out="a104" outsign="March" type=""/>
+<align creator="" in="b112" out="a108" outsign="Merck" type=""/>
+<align creator="" in="b113" out="a109" outsign="and" type=""/>
+<align creator="" in="b114" out="a110" outsign="Plough" type=""/>
+<align creator="" in="b115" out="a111" outsign="-" type=""/>
+<align creator="" in="b116" out="a112" outsign="Schering" type=""/>
+<align creator="" in="b121" out="a117" outsign="wed" type=""/>
+<align creator="" in="b122" out="a118" outsign="." type=""/>
+<align creator="" in="b123" out="a119" outsign="Fiat" type=""/>
+<align creator="" in="b124" out="a120" outsign="has" type=""/>
+<align creator="" in="b125" out="a121" outsign="ambitious" type=""/>
+<align creator="" in="b126" out="a122" outsign="plans" type=""/>
+<align creator="" in="b128" out="a123" outsign="to" type=""/>
+<align creator="" in="b129" out="a124" outsign="merge" type=""/>
+<align creator="" in="b130" out="a125" outsign="with" type=""/>
+<align creator="" in="b131" out="a126" outsign="Chrysler" type=""/>
+<align creator="" in="b132" out="a127" outsign="and" type=""/>
+<align creator="" in="b138" out="a134" outsign="to" type=""/>
+<align creator="" in="b139" out="a135" outsign="spin" type=""/>
+<align creator="" in="b139" out="a136" outsign="off" type=""/>
+<align creator="" in="b139" out="a137" outsign="into" type=""/>
+<align creator="" in="b140" out="a138" outsign="a" type=""/>
+<align creator="" in="b141" out="a139" outsign="new" type=""/>
+<align creator="" in="b145" out="a142" outsign="." type=""/>
+<align creator="" in="b146" out="a143" outsign="And" type=""/>
+<align creator="" in="b147" out="a144" outsign="the" type=""/>
+<align creator="" in="b158" out="a154" outsign="Porsche" type=""/>
+<align creator="" in="b159" out="a155" outsign="and" type=""/>
+<align creator="" in="b160" out="a156" outsign="Volkswagen" type=""/>
+<align creator="" in="b163" out="a157" outsign="to" type=""/>
+<align creator="" in="b164" out="a158" outsign="tie" type=""/>
+<align creator="" in="b167" out="a161" outsign="have" type=""/>
+<align creator="" in="b168" out="a162" outsign="been" type=""/>
+<align creator="" in="b168" out="a163" outsign="dominating" type=""/>
+<align creator="" in="b169" out="a165" outsign="business" type=""/>
+<align creator="" in="b169" out="a166" outsign="pages" type=""/>
+<align creator="" in="b171" out="a168" outsign="months" type=""/>
+<align creator="" in="b172" out="a169" outsign="." type=""/>
+<align creator="" in="b3b4" out="a3" outsign="you" type=""/>
+<align creator="" in="b5b6b7" out="a4a5" outsign="look around" type=""/>
+<align creator="" in="b9b10b11b12b13" out="a7a8a9" outsign="it seems like" type=""/>
+<align creator="" in="b15" out="a11a12" outsign="are trying" type=""/>
+<align creator="" in="b17b18b19b20" out="a14a15" outsign="hook up" type=""/>
+<align creator="" in="b22" out="a17" outsign="The" type=""/>
+<align creator="" in="b25" out="a20" outsign="of" type=""/>
+<align creator="" in="b36b37" out="a31" outsign="latest" type=""/>
+<align creator="" in="b38b39b40b41b42" out="a32a33a34a35" outsign="to make the rounds" type=""/>
+<align creator="" in="b47" out="a41" outsign="first" type=""/>
+<align creator="" in="b50" out="a45" outsign="of" type=""/>
+<align creator="" in="b48b49" out="a42a43a44" outsign="gain the approval" type=""/>
+<align creator="" in="b54b55b56" out="a49a50a51" outsign="are sure to" type=""/>
+<align creator="" in="b58" out="a53a54" outsign="the courtship" type=""/>
+<align creator="" in="b60b61" out="a57a58" outsign="because of" type=""/>
+<align creator="" in="b62" out="a61a62a63" outsign="of the dowry" type=""/>
+<align creator="" in="b63" out="a59a60" outsign="the size" type=""/>
+<align creator="" in="b71" out="a73a74a75" outsign="failed corporate marriages" type=""/>
+<align creator="" in="b76b77b78b79b80b81b82b83b84" out="a79a80a81a82" outsign="the matchmaking continues apace" type=""/>
+<align creator="" in="b94b95" out="a91a92" outsign="been wooing" type=""/>
+<align creator="" in="b96" out="a93a94" outsign="one another" type=""/>
+<align creator="" in="b106" out="a113" outsign="announced" type=""/>
+<align creator="" in="b107b108" out="a107" outsign="giants" type=""/>
+<align creator="" in="b109b110" out="a106" outsign="pharmaceutical" type=""/>
+<align creator="" in="b118b119b120" out="a114a115" outsign="their intention" type=""/>
+<align creator="" in="b121" out="a116a117" outsign="to wed" type=""/>
+<align creator="" in="b127b128" out="a123" outsign="to" type=""/>
+<align creator="" in="b133" out="a132" outsign="General" type=""/>
+<align creator="" in="b135" out="a129" outsign="European" type=""/>
+<align creator="" in="b136" out="a130" outsign="operations" type=""/>
+<align creator="" in="b134" out="a131a133" outsign="of Motors" type=""/>
+<align creator="" in="b137b138" out="a134" outsign="to" type=""/>
+<align creator="" in="b142" out="a141" outsign="company" type=""/>
+<align creator="" in="b143b144" out="a140" outsign="car" type=""/>
+<align creator="" in="b158" out="a153a154" outsign="of Porsche" type=""/>
+<align creator="" in="b162b163" out="a157" outsign="to" type=""/>
+<align creator="" in="b164b165b166" out="a158a159a160" outsign="tie the knot" type=""/>
+<align creator="" in="b169" out="a164a165a166" outsign="the business pages" type=""/>
+<align creator="" in="b170" out="a167" outsign="for" type=""/>
+<align creator="" in="b161" out="a152" outsign="plans" type=""/>
+<align creator="" in="b147b148b149b150b151b152b153b154b155b156b157" out="a144a145a146a147a148a149a150a151" outsign="the on - again , off - again" type=""/>
 </DTAGalign>
