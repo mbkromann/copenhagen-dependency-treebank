@@ -52,7 +52,7 @@ def do_tagging_treetagger(sentence,language,treetagger_path):
     
     #encoding  for the temp file
     encoding = "utf-8"
-    command="echo \""+sentence+"\"|"+treetagger_path+"/script/tree-tagger-"+language+"-utf8 >tempfile"+language+" 2>/dev/null"
+    command="echo \""+sentence+"\"|"+treetagger_path+"/script/tagger-"+language+"-utf8 >tempfile"+language+" 2>/dev/null"
     
     status=os.system(command)
     if(status==0):
@@ -71,8 +71,5 @@ def do_tagging_treetagger(sentence,language,treetagger_path):
     except:
         sys.stderr.write("no file created")
     return word_tag_lemma
-        
-
-
 
 

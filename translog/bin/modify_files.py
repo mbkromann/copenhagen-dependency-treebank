@@ -131,7 +131,7 @@ def pos_tag_tree_tagger(sentence,language):
         tags.append(info[1])
         lemmas.append(info[2])
         
-    sentence_break.append(str(len(token_list)-1))  
+    sentence_break.append(str(len(token_list)-1))
 
 
 def write_back(xmlFile,language,tagger,lemmatizer,segmenter,dep_parser):
@@ -251,7 +251,7 @@ for i in range(1,len(files)):
             for_english(text,outpath,language,tagged,lemmatized,segmented,dep_parsed) 
             sys.stderr.write("FILE("+language+"): "+path+" was annotated and saved.\n")
             
-        elif(language == "de" or language == "pt" or language == "es" or language == "zh" or language =="da"):
+        elif(language == "de" or language == "pt" or language == "es" or language == "zh" or language =="da" or language =="hi"):
             #use tree tagger
             if(tree_tagger_path==""):
                 sys.stderr.write("Tree tagger module path not defined for language"+language+"\n")
@@ -261,11 +261,16 @@ for i in range(1,len(files)):
             else:
                 tagged="tree-tagger"
                 lemmatized = "tree-tagger"
-                segmented = "nltk_sent_tokenizer" 
+                segmented = "nltk_sent_tokenizer"
+                if (language =="hi"):
+                    tagged="TnT-tagger"
+                    lemmatized = "Hindi-lemmatizer"
+                    segmented = "nltk_sent_tokenizer"
                 for_tree_tagger(text,outpath,language,tagged,lemmatized,segmented,dep_parsed)
                 sys.stderr.write("FILE("+language+"): "+path+" was annotated and saved.\n")
-        else:
-            #Other taggers
+       
+        else:    
+            #No taggers
             shutil.copy(path, outpath)
             sys.stderr.write("FILE: "+path+" contains language \""+language+"\" for which resources not available.\n")
              
