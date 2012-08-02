@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P11_T4_T2.src" key="a" sign=""/>
-<alignFile href="P11_T4_T2.tgt" key="b" sign=""/>
+<alignFile href="P11_T4.src" key="a" sign=""/>
+<alignFile href="P11_T4.tgt" key="b" sign=""/>
 <align creator="" in="b1" insign="诚然" out="a1" outsign="Although" type=""/>
 <align creator="" in="b3b4" insign="发展 中" out="a2" outsign="developing" type=""/>
 <align creator="" in="b5" insign="国家" out="a3" outsign="countries" type=""/>

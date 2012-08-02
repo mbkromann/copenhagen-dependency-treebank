@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P1_E6_T2.src" key="a" sign=""/>
-<alignFile href="P1_E6_T2.tgt" key="b" sign=""/>
+<alignFile href="P01_E6.src" key="a" sign=""/>
+<alignFile href="P01_E6.tgt" key="b" sign=""/>
 <align creator="" in="b1" insign="大部分" out="a2" outsign="majority" type=""/>
 <align creator="" in="b6" insign="社会" out="a7" outsign="societies" type=""/>
 <align creator="" in="b3" insign="游牧" out="a9" outsign="nomadic" type=""/>

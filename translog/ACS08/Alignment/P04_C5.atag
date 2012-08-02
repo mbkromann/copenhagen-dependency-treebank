@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign>
-<alignFile href="P04_C1.src" key="a" sign="_input"/>
-<alignFile href="P04_C1.tgt" key="b" sign="_input"/>
+<alignFile href="P04_C5.src" key="a" sign="_input"/>
+<alignFile href="P04_C5.tgt" key="b" sign="_input"/>
 <align creator="" in="b1" insign="American" out="a1" outsign="American" type=""/>
 <align creator="" in="b2" insign="Express" out="a2" outsign="Express" type=""/>
 <align creator="" in="b3" insign="recently" out="a3" outsign="recently" type=""/>

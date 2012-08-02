@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P11_T6_T2.src" key="a" sign=""/>
-<alignFile href="P11_T6_T2.tgt" key="b" sign=""/>
+<alignFile href="P11_T6.src" key="a" sign=""/>
+<alignFile href="P11_T6.tgt" key="b" sign=""/>
 <align creator="0" in="b2" insign="的" out="a3" outsign="of" type=""/>
 <align creator="" in="b1" insign="大部分" out="a1a2" outsign="The majority" type=""/>
 <align creator="" in="b4" insign="猎人" out="a4a5" outsign="hunter -" type=""/>

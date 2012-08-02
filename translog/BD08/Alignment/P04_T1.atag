@@ -1,6 +1,6 @@
 <DTAGalign source="en" target="da" >
-<alignFile key="a" href="ED12ch3A_Katrine_Wang_translating.src" sign="_input"/>
-<alignFile key="b" href="ED12ch3A_Katrine_Wang_translating.tgt" sign="_input"/>
+<alignFile key="a" href="P04_T1.src" sign="_input"/>
+<alignFile key="b" href="P04_T1.tgt" sign="_input"/>
 <align out="a1" type="" in="b1" creator="0" insign="Selvom" outsign="Although"/>
 <align out="a2 a3" type="" in="b2 b3 b4" creator="0" insign="lande under udvikling" outsign="developing countries"/>
 <align out="a5" type="" in="b5 b6" creator="0" insign="forståeligt nok" outsign="understandably"/>

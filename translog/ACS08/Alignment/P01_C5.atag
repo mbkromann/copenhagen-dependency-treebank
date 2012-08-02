@@ -1,6 +1,6 @@
 <DTAGalign alignment="one-to-one" >
-    <alignFile key="a" href="P01_C1.src" sign="_input"/>
-    <alignFile key="b" href="P01_C1.tgt" sign="_input"/>
+    <alignFile key="a" href="P01_C5.src" sign="_input"/>
+    <alignFile key="b" href="P01_C5.tgt" sign="_input"/>
     <align in="b1" out="a1" />
     <align in="b2" out="a2" />
     <align in="b3" out="a3" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P4_E6_T2.src" key="a" sign=""/>
-<alignFile href="P4_E6_T2.tgt" key="b" sign=""/>
+<alignFile href="P04_E6.src" key="a" sign=""/>
+<alignFile href="P04_E6.tgt" key="b" sign=""/>
 <align creator="0" in="b17" insign="难" out="a13" outsign="difficult" type=""/>
 <align creator="0" in="b15" insign="下" out="a17" outsign="under" type=""/>
 <align creator="0" in="b14" insign="制度" out="a21" outsign="system" type=""/>

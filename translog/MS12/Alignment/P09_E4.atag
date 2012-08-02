@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P9_E4_T2.src" key="a" sign=""/>
-<alignFile href="P9_E4_T2.tgt" key="b" sign=""/>
+<alignFile href="P09_E4.src" key="a" sign=""/>
+<alignFile href="P09_E4.tgt" key="b" sign=""/>
 <align creator="0" in="b10" insign="发展" out="a2" outsign="developing" type=""/>
 <align creator="0" in="b4" insign="更" out="a13" outsign="better" type=""/>
 <align creator="0" in="b6" insign="的" out="a15" outsign="of" type=""/>

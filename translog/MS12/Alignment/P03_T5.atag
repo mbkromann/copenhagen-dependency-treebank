@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P3_T5_T2.src" key="a" sign=""/>
-<alignFile href="P3_T5_T2.tgt" key="b" sign=""/>
+<alignFile href="P03_T5.src" key="a" sign=""/>
+<alignFile href="P03_T5.tgt" key="b" sign=""/>
 <align creator="0" in="b3" insign="一" out="a3" outsign="a" type=""/>
 <align creator="0" in="b5" insign="相对" out="a4" outsign="relatively" type=""/>
 <align creator="0" in="b8" insign="学科" out="a7" outsign="discipline" type=""/>

@@ -41,7 +41,7 @@
 <W cur="208" id="40">Sammler</W>
 <W cur="215" id="41">-</W>
 <W cur="216" id="42">Gesellschaften</W>
-<W cur="231" id="43" space="\0020">neigen</W>
+<W cur="231" id="43" space="\0022">neigen</W>
 <W cur="238" id="44" space="\0020">auch</W>
 <W cur="243" id="45" space="\0020">dazu</W>
 <W cur="247" id="46">,</W>
@@ -137,9 +137,9 @@
 <W cur="824" id="136">Gesellschaften</W>
 <W cur="839" id="137" space="\0020">nur</W>
 <W cur="843" id="138" space="\0020">selten</W>
-<W cur="850" id="139">\0022</W>
+<W cur="850" id="139">"</W>
 <W cur="851" id="140">hauptberufliche</W>
-<W cur="866" id="141">\0022</W>
+<W cur="866" id="141">"</W>
 <W cur="868" id="142" space="\0020">Anführer</W>
 <W cur="876" id="143">,</W>
 <W cur="878" id="144" space="\0020">Bürokraten</W>

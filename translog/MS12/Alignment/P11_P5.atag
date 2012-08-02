@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P11_P5_T2.src" key="a" sign=""/>
-<alignFile href="P11_P5_T2.tgt" key="b" sign=""/>
+<alignFile href="P11_P5.src" key="a" sign=""/>
+<alignFile href="P11_P5.tgt" key="b" sign=""/>
 <align creator="0" in="b3" insign="一" out="a3" outsign="a" type=""/>
 <align creator="" in="b1" insign="社会学" out="a1" outsign="Sociology" type=""/>
 <align creator="" in="b2" insign="是" out="a2" outsign="is" type=""/>

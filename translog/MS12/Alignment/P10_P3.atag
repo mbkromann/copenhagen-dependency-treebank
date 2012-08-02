@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P10_P3_T2.src" key="a" sign=""/>
-<alignFile href="P10_P3_T2.tgt" key="b" sign=""/>
+<alignFile href="P10_P3.src" key="a" sign=""/>
+<alignFile href="P10_P3.tgt" key="b" sign=""/>
 <align creator="0" in="b4" insign="在" out="a6" outsign="over" type=""/>
 <align creator="0" in="b11" insign="政府" out="a16" outsign="Government" type=""/>
 <align creator="0" in="b28" insign="对" out="a28" outsign="against" type=""/>

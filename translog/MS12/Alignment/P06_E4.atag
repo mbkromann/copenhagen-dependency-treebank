@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P6_E4_T2.src" key="a" sign=""/>
-<alignFile href="P6_E4_T2.tgt" key="b" sign=""/>
+<alignFile href="P06_E4.src" key="a" sign=""/>
+<alignFile href="P06_E4.tgt" key="b" sign=""/>
 <align creator="0" in="b1" insign="虽然" out="a1" outsign="Although" type=""/>
 <align creator="0" in="b17" insign="生活" out="a16" outsign="living" type=""/>
 <align creator="0" in="b24" insign="行动" out="a21" outsign="action" type=""/>

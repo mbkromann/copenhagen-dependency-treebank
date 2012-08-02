@@ -1,6 +1,6 @@
 <DTAGalign alignment="giza" source="en" target="da" >
-<alignFile key="a" href="ED03.src" />
-<alignFile key="b" href="ED03.tgt" />
+<alignFile key="a" href="P03_T1.src" />
+<alignFile key="b" href="P03_T1.tgt" />
 <align out="a1" type="" in="b1" />
 <align out="a2" type="" in="b2" />
 <align out="a3" type="" in="b3" />

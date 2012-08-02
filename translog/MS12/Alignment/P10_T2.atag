@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P10_T2_T2.src" key="a" sign=""/>
-<alignFile href="P10_T2_T2.tgt" key="b" sign=""/>
+<alignFile href="P10_T2.src" key="a" sign=""/>
+<alignFile href="P10_T2.tgt" key="b" sign=""/>
 <align creator="0" in="b29" insign="额外" out="a16" outsign="extra" type=""/>
 <align creator="0" in="b10" insign="食品" out="a22" outsign="food" type=""/>
 <align creator="0" in="b11" insign="和" out="a23" outsign="and" type=""/>

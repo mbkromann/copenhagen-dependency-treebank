@@ -44,29 +44,30 @@ my $bundle = $doc->create_bundle;
 my $first_bundle = $bundle;
 my @unaligned_nodes; 
 
-my $F = [split(/\,/, $opt_T)];
+my $F = [split(/[ \,\n\t]+/, $opt_T)];
 
-#print STDERR "Trl2Treex.pl: creating source $opt_O\n";
 ReadTranslogFile($F->[0]); 
 #FakeSentBoundary();
 CreateSourceZone($F->[0]);
 AppendTargetZone($F->[0]);
+#print STDERR "Trl2Treex.pl: creating source $F->[0]\n";
+
 my $LastSRC = $TOK->{src};
 
 for (my $i= 1; $i<= $#{$F}; $i++) {
   $TOK = $ALN = undef;
 
   ReadTranslogFile($F->[$i]); 
-  FakeSentBoundary();
+#  FakeSentBoundary();
   print STDERR "Trl2Treex.pl: adding target $F->[$i]\n";
   if(CheckSRCToken($LastSRC, $TOK->{src})) {
     print STDERR "ReadTranslog: TokenDiff $F->[0], $F->[$i]\n";
     next;
   }
   AppendTargetZone($F->[$i]);
+  AttachUnAlignedNodes(@unaligned_nodes);
 }
 
-AttachUnAlignedNodes(@unaligned_nodes);
 
 $doc->save("$opt_O.treex.gz");
 
@@ -147,8 +148,20 @@ sub ReadTranslogFile {
     }
     if(/<Events>/) {$type =1; }
     elsif(/<Alignment/)   {$type =6; $AlignmentHeader = $_; $AlignmentHeader =~ s/<Alignment//; $AlignmentHeader =~ s/>//;}
-    elsif(/<SourceToken/) {$type =7; $SourceTokenHeader = $_; $SourceTokenHeader =~ s/<SourceToken//;  $SourceTokenHeader =~ s/>//;}
-    elsif(/<FinalToken/)  {$type =8; $FinalTokenheader = $_; $FinalTokenheader =~ s/<FinalToken//;  $FinalTokenheader =~ s/>//;}
+    elsif(/<SourceToken/) {
+        $type =7; 
+        $SourceTokenHeader = $_; 
+        $SourceTokenHeader =~ s/<SourceToken//;  
+        $SourceTokenHeader =~ s/>//;
+        if(/language="([^"]*)"/) {$SourceLanguage =$1;}
+    }
+    elsif(/<FinalToken/)  {
+        $type =8; 
+        $FinalTokenheader = $_; 
+        $FinalTokenheader =~ s/<FinalToken//;  
+        $FinalTokenheader =~ s/>//;
+        if(/language="([^"]*)"/) {$TargetLanguage =$1;}
+    }
 	
     elsif($type == 6 && /<Align /) {
 #print STDERR "ALIGN: $_";
@@ -299,7 +312,7 @@ sub AppendTargetZone {
           $bundle = $anode->get_bundle();
           $zone_tgt = $anode->get_bundle()->get_or_create_zone($TargetLanguage, "$selector");
           if($zone_tgt->has_atree) {
-            printf STDERR "WARNING: used tree $selector\tbundle:%s\ttoken:%s\tform:%s\n", 
+            printf STDERR "WARNING: 1-to-n alignment $selector\tbundle:%s\ttoken:%s\tform:%s\n", 
                    $bundle->id(), $id,  $TOK->{fin}{$id}{tok};
             $root_tgt = $zone_tgt->get_atree();
           }
@@ -311,7 +324,7 @@ sub AppendTargetZone {
     }
     else { push(@unaligned_nodes, $node);}
       
-#printf STDERR "TGT: $TOK->{fin}{$id}{id} $id a:$sid node:%s\n", $doc->get_node_by_id("src_$sid");
+#printf STDERR "TGT: $TOK->{fin}{$id}{id} $id a:$id node:%s\n", $doc->get_node_by_id("src_$id");
 
     if(defined($TOK->{fin}{$id}{boundary}) && $TOK->{fin}{$id}{boundary} eq "sentence") { $sent ++;}
 

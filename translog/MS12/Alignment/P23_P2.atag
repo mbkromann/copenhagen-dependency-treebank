@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P23_P2_T2.src" key="a" sign=""/>
-<alignFile href="P23_P2_T2.tgt" key="b" sign=""/>
+<alignFile href="P23_P2.src" key="a" sign=""/>
+<alignFile href="P23_P2.tgt" key="b" sign=""/>
 <align creator="0" in="b9" insign="打击" out="a2" outsign="hit" type=""/>
 <align creator="0" in="b29" insign="年" out="a20" outsign="year" type=""/>
 <align creator="0" in="b11" insign="食品" out="a22" outsign="food" type=""/>

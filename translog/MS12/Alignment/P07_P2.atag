@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P7_P2_T2.src" key="a" sign=""/>
-<alignFile href="P7_P2_T2.tgt" key="b" sign=""/>
+<alignFile href="P07_P2.src" key="a" sign=""/>
+<alignFile href="P07_P2.tgt" key="b" sign=""/>
 <align creator="0" in="b5" insign="增" out="a4" outsign="increase" type=""/>
 <align creator="0" in="b3" insign="费用" out="a6" outsign="cost" type=""/>
 <align creator="0" in="b11" insign="额外" out="a16" outsign="extra" type=""/>

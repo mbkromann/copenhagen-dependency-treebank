@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P7_T3_T2.src" key="a" sign=""/>
-<alignFile href="P7_T3_T2.tgt" key="b" sign=""/>
+<alignFile href="P07_T3.src" key="a" sign=""/>
+<alignFile href="P07_T3.tgt" key="b" sign=""/>
 <align creator="0" in="b37" insign="其" out="a39" outsign="His" type=""/>
 <align creator="0" in="b42" insign="对抗" out="a46" outsign="fighting" type=""/>
 <align creator="0" in="b45" insign="又" out="a49" outsign="again" type=""/>

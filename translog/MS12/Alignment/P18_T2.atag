@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P18_T2_T2.src" key="a" sign=""/>
-<alignFile href="P18_T2_T2.tgt" key="b" sign=""/>
+<alignFile href="P18_T2.src" key="a" sign=""/>
+<alignFile href="P18_T2.tgt" key="b" sign=""/>
 <align creator="0" in="b4" insign="成本" out="a6" outsign="cost" type=""/>
 <align creator="0" in="b9" insign="年" out="a20" outsign="year" type=""/>
 <align creator="0" in="b27" insign="食物" out="a22" outsign="food" type=""/>

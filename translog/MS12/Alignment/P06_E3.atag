@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P6_E3_T2.src" key="a" sign=""/>
-<alignFile href="P6_E3_T2.tgt" key="b" sign=""/>
+<alignFile href="P06_E3.src" key="a" sign=""/>
+<alignFile href="P06_E3.tgt" key="b" sign=""/>
 <align creator="0" in="b4" insign="在" out="a6" outsign="over" type=""/>
 <align creator="0" in="b22" insign="对" out="a28" outsign="against" type=""/>
 <align creator="0" in="b18" insign="中国" out="a29" outsign="China" type=""/>

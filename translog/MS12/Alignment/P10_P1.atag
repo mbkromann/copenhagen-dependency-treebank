@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P10_P1_T2.src" key="a" sign=""/>
-<alignFile href="P10_P1_T2.tgt" key="b" sign=""/>
+<alignFile href="P10_P1.src" key="a" sign=""/>
+<alignFile href="P10_P1.tgt" key="b" sign=""/>
 <align creator="0" in="b1" insign="护士" out="a2" outsign="nurse" type=""/>
 <align creator="0" in="b9" insign="医院" out="a7" outsign="Hospital" type=""/>
 <align creator="0" in="b22" insign="今日" out="a15" outsign="today" type=""/>

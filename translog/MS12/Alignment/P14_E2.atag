@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <DTAGalign source="en" target="zh" >
-<alignFile href="P14_E2_T2.src" key="a" sign=""/>
-<alignFile href="P14_E2_T2.tgt" key="b" sign=""/>
+<alignFile href="P14_E2.src" key="a" sign=""/>
+<alignFile href="P14_E2.tgt" key="b" sign=""/>
 <align creator="0" in="b21" insign="一" out="a19" outsign="a" type=""/>
 <align creator="0" in="b22" insign="年" out="a20" outsign="year" type=""/>
 <align creator="0" in="b39" insign="在" out="a40" outsign="at" type=""/>

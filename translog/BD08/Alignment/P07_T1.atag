@@ -1,6 +1,6 @@
 <DTAGalign source="en" target="da" >
-<alignFile key="a" href="ED12ch3A_Mette_Melchior_translating.src" sign="_input"/>
-<alignFile key="b" href="ED12ch3A_Mette_Melchior_translating.tgt" sign="_input"/>
+<alignFile key="a" href="P07_T1.src" sign="_input"/>
+<alignFile key="b" href="P07_T1.tgt" sign="_input"/>
 <align out="a1" type="" in="b1" creator="0" insign="Selvom" outsign="Although"/>
 <align out="a2 a3" type="" in="b2" creator="0" insign="udviklingslandene" outsign="developing countries"/>
 <align out="a4" type="" in="b3" creator="0" insign="er" outsign="are"/>
