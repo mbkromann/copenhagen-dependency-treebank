@@ -72,6 +72,7 @@ def extract_text(fileName):
             for element in word_elements:
                 attrib_list={}
                 keys=element.attributes.keys()
+                
                 keys.sort()
                 for key in keys:
                     value=element.getAttribute(key)
@@ -199,7 +200,7 @@ def for_english(text,outfile,language,tagger,lemmatizer,sent_tokenizer,dep_parse
     for sentence in sentences:
         pos_tag_english(sentence)
     write_back(outfile,language,tagger,lemmatizer,sent_tokenizer,dep_parser)
-    reset_data()
+    
 
 def for_tree_tagger(text,outfile,language,tagger,lemmatizer,sent_tokenizer,dep_parser):
     language = language.encode("utf-8") 
@@ -212,7 +213,7 @@ def for_tree_tagger(text,outfile,language,tagger,lemmatizer,sent_tokenizer,dep_p
         pos_tag_tree_tagger(sentence,language)
     
     write_back(outfile,language,tagger,lemmatizer,sent_tokenizer,dep_parser)
-    reset_data() 
+     
 
 '''
 Execution
@@ -230,6 +231,7 @@ sys.stderr.write ("Getting pos tags and lemmas\n")
 files = sys.argv
 
 for i in range(1,len(files)):
+    reset_data()
     path = files[i]
     info=extract_text(path)
     
