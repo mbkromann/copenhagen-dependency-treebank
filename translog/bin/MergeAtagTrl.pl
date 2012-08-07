@@ -89,9 +89,23 @@ sub MSunescape {
 sub MSescape {
   my ($in) = @_;
 
-  $in =~ s/\&/&amp;/g;
+#  $in =~ s/\&/&amp;/g;
   $in =~ s/\>/&gt;/g;
   $in =~ s/\</&lt;/g;
+#  $in =~ s/\n/&#xA;/g;
+#  $in =~ s/\r/&#xD;/g;
+#  $in =~ s/\t/&#x9;/g;
+#  $in =~ s/"/&quot;/g;
+#  $in =~ s/ /&nbsp;/g;
+  return $in;
+}
+
+sub MSescapeAttr {
+  my ($in) = @_;
+
+  $in =~ s/\&/&amp;/g;
+#  $in =~ s/\>/&gt;/g;
+#  $in =~ s/\</&lt;/g;
   $in =~ s/\n/&#xA;/g;
   $in =~ s/\r/&#xD;/g;
   $in =~ s/\t/&#x9;/g;
@@ -217,7 +231,7 @@ sub ReadAtag {
       if($is eq $os) {next;}
       $is = $os = '---';
 
-      if(/last="([^"]*)"/) { $A->{'e'}{$n} = $1}
+      if(/boundary="([^"]*)"/) { $A->{'e'}{$n} = $1}
       if(/insign="([^"]*)"/) { $is=$1;}
       if(/outsign="([^"]*)"/){ $os=$1;}
 
@@ -256,7 +270,7 @@ sub ReadAtag {
 sub ReadTranslog {
   my ($fn) = @_;
 
-  open(FILE, '<:encoding(utf8)', $fn) || die ("cannot open file $fn");
+  open(FILE, '<:encoding(utf8)', $fn) || die ("cannot open for reading $fn");
   if($Verbose){printf STDERR "ReadTranslog: $fn\n";}
 
   my $n = 0;
@@ -305,13 +319,14 @@ sub PrintTranslog{
   foreach my $l (@L) {
     $TRANSLOG->{$m++} ="  <$l"."Token$A->{$l}{H}>\n";
     foreach my $id (sort {$a<=>$b} keys %{$A->{$l}{'D'}}) {
-      $A->{$l}{D}{$id}{tok} =~ s/\\([\(\)\\\/])/$1/g;
-      my $tok = MSescape($A->{$l}{D}{$id}{tok});
+#      $A->{$l}{D}{$id}{tok} =~ s/\\([\(\)\\\/])/$1/g;
+#      my $tok = MSescape($A->{$l}{D}{$id}{tok});
 
       my $s = "    <Token ";
       foreach my $attr (sort keys %{$A->{$l}{D}{$id}}) { 
-         my $MS =  MSescape($A->{$l}{D}{$id}{$attr});
+         my $MS =  MSescapeAttr($A->{$l}{D}{$id}{$attr});
          $s .= " $attr=\"$MS\"";
+#         $s .= " $attr=\"$A->{$l}{D}{$id}{$attr}\"";
       }
       $s .= " />\n";
 
@@ -326,7 +341,7 @@ sub PrintTranslog{
     foreach my $l (@L) {
       my $k=0;
       foreach my $id (sort {$a<=>$b} keys %{$A->{'n'}{$n}{$l}{'id'}}) {
-        my $s = MSescape($A->{'n'}{$n}{$l}{'s'});
+#        my $s = MSescape($A->{'n'}{$n}{$l}{'s'});
         if($l eq "Source") {$S->{$l}{$k} = "sid=\"$id\" ";}
         if($l eq "Final")  {$S->{$l}{$k} = "tid=\"$id\" ";}
 #print STDERR "XXX $S->{$l}{$k}\n";
@@ -338,7 +353,7 @@ sub PrintTranslog{
       foreach my $k (sort {$a<=>$b}keys %{$S->{'Final'}}) {
 #print STDERR "<align $S->{'Source'}{$n} $S->{'Final'}{$k} />\n";
         my $s = "    <Align $S->{'Source'}{$n} $S->{'Final'}{$k}";
-        if(defined($S->{e}{$k})) { $s .= " last=\"$S->{e}{$k}\""}
+        if(defined($S->{e}{$k})) { $s .= " boundary=\"$S->{e}{$k}\""}
         $s .= " />\n";
         $TRANSLOG->{$m++} = $s;
       }
@@ -347,7 +362,7 @@ sub PrintTranslog{
   $TRANSLOG->{$m++} ="  </Alignment>\n";
   $TRANSLOG->{$m++} ="</LogFile>\n";
 
-  open(FILE, '>:encoding(utf8)', $fn) || die ("cannot open file $fn");
+  open(FILE, '>:encoding(utf8)', $fn) || die ("cannot open for writing $fn");
 
   foreach my $k (sort {$a<=>$b} keys %{$TRANSLOG}) { print FILE "$TRANSLOG->{$k}"; }
 }

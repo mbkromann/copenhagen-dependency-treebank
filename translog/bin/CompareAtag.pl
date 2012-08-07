@@ -285,7 +285,7 @@ sub CompareAtag {
           next;
         }
         if($A1->{$l}{D}{$id}{$attr} ne $A2->{$l}{D}{$id}{$attr}) { 
-          printf STDERR "$A1->{$l}{fn}\tid:$id\tdifferent values\t$attr:\tnew:>%s<\told:>%s<\n", $A2->{$l}{D}{$id}{$attr}, $A1->{$l}{D}{$id}{$attr};
+          printf STDERR "$A1->{$l}{fn}\tid:$id\tdifferent attribute values\t$attr:\tnew:\"%s\"\told:\"%s\"\n", $A2->{$l}{D}{$id}{$attr}, $A1->{$l}{D}{$id}{$attr};
           $A1->{$l}{D}{$id}{$attr} = $A2->{$l}{D}{$id}{$attr} = 1;
           next;
         }
@@ -305,7 +305,7 @@ sub CompareAtag {
           next;
         }
         if($A1->{$l}{D}{$id}{$attr} ne $A2->{$l}{D}{$id}{$attr}) {
-          printf STDERR "$A1->{$l}{fn}\tid:$id\tdifferent values\t$attr:\tnew:>%s<\told:>%s<\n", $A2->{$l}{D}{$id}{$attr}, $A1->{$l}{D}{$id}{$attr};
+          printf STDERR "$A1->{$l}{fn}\tid:$id\tdifferent attribute values\t$attr:\tnew:\"%s\"\told:\"%s\"\n", $A2->{$l}{D}{$id}{$attr}, $A1->{$l}{D}{$id}{$attr};
           next;
         }
       }

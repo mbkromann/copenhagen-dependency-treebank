@@ -16,7 +16,7 @@
     <textdiff_flag>true</textdiff_flag>
     <fullScreen>false</fullScreen>
     <lockWindows>false</lockWindows>
-    <Languages source="en" target="en" />
+    <Languages source="en" target="en" task="copying" />
     <Plugins>
       <Key_Logger />
       <EyeSampler />

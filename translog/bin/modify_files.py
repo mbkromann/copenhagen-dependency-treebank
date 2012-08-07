@@ -120,6 +120,10 @@ def pos_tag_english(sentence):
 def pos_tag_tree_tagger(sentence,language):
     data=do_tagging_treetagger(sentence, language, tree_tagger_path)
     for info in data:
+	info[0] = info[0].replace("\"", "\\0022")
+	info[0] = info[0].replace(">",  "\\003e")
+	info[0] = info[0].replace("<",  "\\003c")
+
         token_list.append(info[0])
 	if (info[1]=="&quot;"):
 	    info[1]="\"";

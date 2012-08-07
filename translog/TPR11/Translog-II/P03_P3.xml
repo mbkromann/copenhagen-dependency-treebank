@@ -19,7 +19,7 @@
     <maxWindow>false</maxWindow>
     <fullScreen>false</fullScreen>
     <lockWindows>false</lockWindows>
-    <Languages source="en" target="de" />
+    <Languages source="en" target="de" task="post-editing" system="google" />
     <Plugins>
       <EyeSampler />
       <Key_Logger />
@@ -14442,7 +14442,7 @@ In einer Geste, dass die chinesische Regierung Rassel, zog Steven Spielberg aus 
     <Eye Time="281672" TT="281" Win="0" Xl="-1350" Yl="-1227" Xr="-1350" Yr="-1227" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />
     <Eye Time="281687" TT="281" Win="0" Xl="-1350" Yl="-1227" Xr="-1350" Yr="-1227" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />
     <Key Time="281703" Cursor="592" X="965" Y="558" Width="16" Height="34" Type="insert" Value="t" />
-    <Key Time="281703" Cursor="593" X="973" Y="558" Width="23" Height="34" Type="insert" Value="z" />
+    <Key Time="281703" Cursor="593" X="973" Y="558" Width="23" Height="34" Type="insert" Value="t" />
     <Eye Time="281719" TT="281" Win="0" Xl="-1350" Yl="-1227" Xr="-1350" Yr="-1227" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />
     <Eye Time="281734" TT="281" Win="0" Xl="-1350" Yl="-1227" Xr="-1350" Yr="-1227" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />
     <Eye Time="281750" TT="281" Win="0" Xl="-1350" Yl="-1227" Xr="-1350" Yr="-1227" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />

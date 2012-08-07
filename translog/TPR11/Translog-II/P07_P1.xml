@@ -19,7 +19,7 @@
     <maxWindow>false</maxWindow>
     <fullScreen>false</fullScreen>
     <lockWindows>false</lockWindows>
-    <Languages source="en" target="pt" />
+    <Languages source="en" target="pt" task="post-editing" system="google" />
     <Plugins>
       <EyeSampler />
       <Key_Logger />
@@ -934,7 +934,7 @@ Hospital enfermeira Colin Norris foi preso por vida de hoje pela morte de quatro
     <Eye Time="17359" TT="8644" Win="0" Xl="-1306" Yl="-1083" Xr="-1306" Yr="-1083" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />
     <Eye Time="17390" TT="8645" Win="0" Xl="-1306" Yl="-1083" Xr="-1306" Yr="-1083" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />
     <Eye Time="17406" TT="8645" Win="0" Xl="-1306" Yl="-1083" Xr="-1306" Yr="-1083" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />
-    <Key Time="17422" Cursor="59" Text="#" Type="delete" Value="[Delete]" />
+    <Key Time="17422" Cursor="60" Text="#" Type="delete" Value="[Delete]" />
     <Eye Time="17422" TT="8645" Win="2" Xl="109" Yl="469" Xr="95" Yr="437" pl="3.537" pr="3.637" Cursor="166" Xc="111" Yc="458" />
     <Eye Time="17453" TT="8645" Win="2" Xl="116" Yl="463" Xr="95" Yr="447" pl="3.536" pr="3.708" Cursor="166" Xc="111" Yc="458" />
     <Eye Time="17468" TT="8645" Win="2" Xl="105" Yl="470" Xr="97" Yr="423" pl="3.508" pr="3.688" Cursor="166" Xc="111" Yc="458" />
@@ -4955,7 +4955,7 @@ Hospital enfermeira Colin Norris foi preso por vida de hoje pela morte de quatro
     <Eye Time="95453" TT="8723" Win="0" Xl="-1306" Yl="-1083" Xr="-1306" Yr="-1083" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />
     <Eye Time="95484" TT="8723" Win="0" Xl="-1306" Yl="-1083" Xr="-1306" Yr="-1083" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />
     <Eye Time="95500" TT="8723" Win="0" Xl="-1306" Yl="-1083" Xr="1091" Yr="-763" pl="-1" pr="3.655" Cursor="0" Xc="0" Yc="0" />
-    <Key Time="95515" Cursor="70" Text="#" Type="delete" Value="[Delete]" />
+    <Key Time="95515" Cursor="71" Text="#" Type="delete" Value="[Delete]" />
     <Eye Time="95515" TT="8723" Win="0" Xl="-1306" Yl="-1083" Xr="-1306" Yr="-1083" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />
     <Eye Time="95531" TT="8723" Win="0" Xl="-1306" Yl="-1083" Xr="-1306" Yr="-1083" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />
     <Eye Time="95562" TT="8723" Win="0" Xl="-1306" Yl="-1083" Xr="-1306" Yr="-1083" pl="-1" pr="-1" Cursor="0" Xc="0" Yc="0" />

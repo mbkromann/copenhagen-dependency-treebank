@@ -50,7 +50,10 @@ if (defined($opt_f)) {$MaxFixGap = $opt_f;}
 
 ### Read and Tokenize Translog log file
 if (defined($opt_T) && defined($opt_O)) {
-  ReadTranslog($opt_T);
+  if(ReadTranslog($opt_T) == 0) {
+    print STDERR "Trl2ProgGraphTables.pl WARNING: no process data in $opt_T\n";
+    exit;
+  }
   if(!defined($FU)) { FixationUnits();}
   if(!defined($PU)) { ProductionUnits();}
   Parallel();
@@ -151,6 +154,7 @@ sub ReadTranslog {
       if(/sid="([^"]*)"/)        {$FIX->{$time}{'sid'} = $1;}
       if($FIX->{$time}{'sid'} eq '') {$FIX->{$time}{'sid'} = -1;}
       if($FIX->{$time}{'tid'} eq '') {$FIX->{$time}{'tid'} = -1;}
+      $n += 1;
 
     }
     elsif($type == 3 && /<Mod /) {
@@ -162,6 +166,7 @@ sub ReadTranslog {
       if(/sid="([^"]*)"/)        {$KEY->{$time}{'sid'} = $1;}
       if($KEY->{$time}{'sid'} eq '') {$KEY->{$time}{'sid'} = -1;}
       if($KEY->{$time}{'tid'} eq '') {$KEY->{$time}{'tid'} = -1;}
+      $n += 2;
     }
 #    <PU start="10685" dur="7049" pause="2719" parallel="69.1587" ins="34" del="0" src="3+4" tgt="1+3+4" str="Mordersygeplejerske&nbsp;modtager&nbsp;fire&nbsp;" />
 
@@ -170,6 +175,7 @@ sub ReadTranslog {
     if(/<\/Modifications>/){$type = 0; }
   }
   close(FILE);
+  return $n;
 }
 
 #################################################

@@ -1,255 +1,200 @@
-<DTAGalign alignment="giza" >
-<alignFile key="a" href="P06_T4.src" />
-<alignFile key="b" href="P06_T4.tgt" />
-<align out="a2" type="" in="b9" />
-<align out="a4" type="" in="b1" />
-<align out="a5" type="" in="b2" />
-<align out="a6" type="" in="b3" />
-<align out="a7" type="" in="b4" />
-<align out="a8" type="" in="b5" />
-<align out="a9" type="" in="b10" />
-<align out="a12" type="" in="b11" />
-<align out="a13" type="" in="b11" />
-<align out="a14" type="" in="b12" />
-<align out="a15" type="" in="b13" />
-<align out="a17" type="" in="b14" />
-<align out="a19" type="" in="b15" />
-<align out="a20" type="" in="b16" />
-<align out="a21" type="" in="b16" />
-<align out="a21" type="" in="b17" />
-<align out="a22" type="" in="b17" />
-<align out="a22" type="" in="b18" />
-<align out="a23" type="" in="b17" />
-<align out="a23" type="" in="b19" />
-<align out="a24" type="" in="b17" />
-<align out="a24" type="" in="b20" />
-<align out="a25" type="" in="b17" />
-<align out="a25" type="" in="b21" />
-<align out="a26" type="" in="b20" />
-<align out="a26" type="" in="b22" />
-<align out="a27" type="" in="b20" />
-<align out="a28" type="" in="b23" />
-<align out="a29" type="" in="b24" />
-<align out="a29" type="" in="b25" />
-<align out="a30" type="" in="b25" />
-<align out="a31" type="" in="b26" />
-<align out="a32" type="" in="b27" />
-<align out="a32" type="" in="b30" />
-<align out="a33" type="" in="b28" />
-<align out="a33" type="" in="b29" />
-<align out="a33" type="" in="b31" />
-<align out="a34" type="" in="b31" />
-<align out="a35" type="" in="b30" />
-<align out="a36" type="" in="b30" />
-<align out="a37" type="" in="b32" />
-<align out="a38" type="" in="b33" />
-<align out="a40" type="" in="b34" />
-<align out="a41" type="" in="b35" />
-<align out="a42" type="" in="b36" />
-<align out="a43" type="" in="b37" />
-<align out="a44" type="" in="b38" />
-<align out="a45" type="" in="b39" />
-<align out="a46" type="" in="b39" />
-<align out="a46" type="" in="b40" />
-<align out="a46" type="" in="b41" />
-<align out="a47" type="" in="b42" />
-<align out="a48" type="" in="b42" />
-<align out="a49" type="" in="b41" />
-<align out="a50" type="" in="b41" />
-<align out="a51" type="" in="b40" />
-<align out="a52" type="" in="b41" />
-<align out="a53" type="" in="b47" />
-<align out="a54" type="" in="b46" />
-<align out="a54" type="" in="b47" />
-<align out="a54" type="" in="b48" />
-<align out="a55" type="" in="b49" />
-<align out="a56" type="" in="b45" />
-<align out="a57" type="" in="b49" />
-<align out="a58" type="" in="b50" />
-<align out="a58" type="" in="b53" />
-<align out="a59" type="" in="b51" />
-<align out="a59" type="" in="b53" />
-<align out="a60" type="" in="b52" />
-<align out="a61" type="" in="b53" />
-<align out="a62" type="" in="b54" />
-<align out="a63" type="" in="b55" />
-<align out="a64" type="" in="b56" />
-<align out="a65" type="" in="b57" />
-<align out="a66" type="" in="b60" />
-<align out="a67" type="" in="b59" />
-<align out="a67" type="" in="b60" />
-<align out="a68" type="" in="b58" />
-<align out="a68" type="" in="b60" />
-<align out="a69" type="" in="b61" />
-<align out="a70" type="" in="b62" />
-<align out="a71" type="" in="b63" />
-<align out="a72" type="" in="b64" />
-<align out="a73" type="" in="b65" />
-<align out="a74" type="" in="b66" />
-<align out="a75" type="" in="b67" />
-<align out="a75" type="" in="b68" />
-<align out="a76" type="" in="b67" />
-<align out="a78" type="" in="b69" />
-<align out="a79" type="" in="b69" />
-<align out="a80" type="" in="b70" />
-<align out="a80" type="" in="b72" />
-<align out="a81" type="" in="b71" />
-<align out="a82" type="" in="b73" />
-<align out="a83" type="" in="b74" />
-<align out="a84" type="" in="b74" />
-<align out="a85" type="" in="b75" />
-<align out="a85" type="" in="b76" />
-<align out="a85" type="" in="b77" />
-<align out="a85" type="" in="b78" />
-<align out="a86" type="" in="b76" />
-<align out="a87" type="" in="b79" />
-<align out="a88" type="" in="b81" />
-<align out="a89" type="" in="b84" />
-<align out="a90" type="" in="b84" />
-<align out="a91" type="" in="b84" />
-<align out="a92" type="" in="b85" />
-<align out="a93" type="" in="b86" />
-<align out="a94" type="" in="b83" />
-<align out="a95" type="" in="b87" />
-<align out="a95" type="" in="b88" />
-<align out="a96" type="" in="b89" />
-<align out="a97" type="" in="b82" />
-<align out="a98" type="" in="b90" />
-<align out="a99" type="" in="b90" />
-<align out="a99" type="" in="b91" />
-<align out="a100" type="" in="b91" />
-<align out="a100" type="" in="b92" />
-<align out="a101" type="" in="b92" />
-<align out="a102" type="" in="b93" />
-<align out="a103" type="" in="b94" />
-<align out="a104" type="" in="b94" />
-<align out="a105" type="" in="b94" />
-<align out="a105" type="" in="b95" />
-<align out="a106" type="" in="b96" />
-<align out="a106" type="" in="b97" />
-<align out="a107" type="" in="b97" />
-<align out="a108" type="" in="b98" />
-<align out="a109" type="" in="b99" />
-<align out="a109" type="" in="b100" />
-<align out="a110" type="" in="b99" />
-<align out="a111" type="" in="b99" />
-<align out="a112" type="" in="b101" />
-<align out="a113" type="" in="b102" />
-<align out="a113" type="" in="b103" />
-<align out="a114" type="" in="b103" />
-<align out="a115" type="" in="b104" />
-<align out="a115" type="" in="b105" />
-<align out="a116" type="" in="b105" />
-<align out="a117" type="" in="b106" />
-<align out="a118" type="" in="b107" />
-<align out="a119" type="" in="b108" />
-<align out="a120" type="" in="b108" />
-<align out="a120" type="" in="b109" />
-<align out="a121" type="" in="b109" />
-<align out="a122" type="" in="b110" />
-<align out="a123" type="" in="b111" />
-<align out="a124" type="" in="b111" />
-<align out="a125" type="" in="b111" />
-<align out="a125" type="" in="b112" />
-<align out="a125" type="" in="b113" />
-<align out="a126" type="" in="b111" />
-<align out="a126" type="" in="b114" />
-<align out="a126" type="" in="b115" />
-<align out="a127" type="" in="b111" />
-<align out="a127" type="" in="b116" />
-<align out="a128" type="" in="b111" />
-<align out="a128" type="" in="b117" />
-<align out="a129" type="" in="b118" />
-<align out="a130" type="" in="b119" />
-<align out="a131" type="" in="b120" />
-<align out="a132" type="" in="b121" />
-<align out="a133" type="" in="b122" />
-<align out="a134" type="" in="b123" />
-<align out="a135" type="" in="b124" />
-<align out="a136" type="" in="b125" />
-<align out="a137" type="" in="b126" />
-<align out="a138" type="" in="b127" />
-<align out="a139" type="" in="b128" />
-<align out="a140" type="" in="b129" />
-<align out="a141" type="" in="b130" />
-<align out="a142" type="" in="b131" />
-<align out="a143" type="" in="b132" />
-<align out="a144" type="" in="b133" />
-<align out="a147" type="" in="b134" />
-<align out="a149" type="" in="b136" />
-<align out="a150" type="" in="b137" />
-<align out="a151" type="" in="b138" />
-<align out="a152" type="" in="b139" />
-<align out="a153" type="" in="b140" />
-<align out="a154" type="" in="b141" />
-<align out="a154" type="" in="b142" />
-<align out="a155" type="" in="b142" />
-<align out="a156" type="" in="b142" />
-<align out="a157" type="" in="b142" />
-<align out="a157" type="" in="b143" />
-<align out="a158" type="" in="b142" />
-<align out="a159" type="" in="b142" />
-<align out="a160" type="" in="b146" />
-<align out="a161" type="" in="b147" />
-<align out="a162" type="" in="b148" />
-<align out="a163" type="" in="b149" />
-<align out="a164" type="" in="b150" />
-<align out="a165" type="" in="b151" />
-<align out="a166" type="" in="b152" />
-<align out="a167" type="" in="b153" />
-<align out="a168" type="" in="b154" />
-<align out="a169" type="" in="b155" />
-<align out="a170" type="" in="b156" />
-<align out="a170" type="" in="b157" />
-<align out="a171" type="" in="b156" />
-<align out="a172" type="" in="b159" />
-<align out="a173" type="" in="b160" />
-<align out="a174" type="" in="b159" />
-<align out="a175" type="" in="b158" />
-<align out="a176" type="" in="b160" />
-<align out="a177" type="" in="b161" />
-<align out="a178" type="" in="b161" />
-<align out="a178" type="" in="b162" />
-<align out="a179" type="" in="b161" />
-<align out="a179" type="" in="b163" />
-<align out="a180" type="" in="b164" />
-<align out="a181" type="" in="b165" />
-<align out="a182" type="" in="b166" />
-<align out="a183" type="" in="b167" />
-<align out="a184" type="" in="b168" />
-<align out="a185" type="" in="b168" />
-<align out="a185" type="" in="b169" />
-<align out="a186" type="" in="b170" />
-<align out="a187" type="" in="b171" />
-<align out="a188" type="" in="b170" />
-<align out="a188" type="" in="b172" />
-<align out="a189" type="" in="b173" />
-<align out="a189" type="" in="b174" />
-<align out="a190" type="" in="b175" />
-<align out="a192" type="" in="b181" />
-<align out="a193" type="" in="b182" />
-<align out="a194" type="" in="b185" />
-<align out="a195" type="" in="b183" />
-<align out="a196" type="" in="b184" />
-<align out="a197" type="" in="b186" />
-<align out="a198" type="" in="b187" />
-<align out="a200" type="" in="b188" />
-<align out="a200" type="" in="b189" />
-<align out="a200" type="" in="b190" />
-<align out="a201" type="" in="b191" />
-<align out="a202" type="" in="b192" />
-<align out="a203" type="" in="b193" />
-<align out="a204" type="" in="b194" />
-<align out="a205" type="" in="b176" />
-<align out="a206" type="" in="b177" />
-<align out="a207" type="" in="b194" />
-<align out="a208" type="" in="b195" />
-<align out="a211" type="" in="b180" />
-<align out="a212" type="" in="b199" />
-<align out="a213" type="" in="b200" />
-<align out="a214" type="" in="b200" />
-<align out="a215" type="" in="b201" />
-<align out="a216" type="" in="b202" />
-<align out="a217" type="" in="b203" />
-<align out="a218" type="" in="b204" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign alignment="manual" source="pt"  target="en">
+<alignFile href="P06_T4.src" key="a" sign=""/>
+<alignFile href="P06_T4.tgt" key="b" sign=""/>
+<align creator="" in="b9" insign="task" out="a2" outsign="tarefa" type=""/>
+<align creator="" in="b1" insign="Identifying" out="a4" outsign="identificar" type=""/>
+<align creator="" in="b2" insign="a" out="a5" outsign="um" type=""/>
+<align creator="" in="b3" insign="good" out="a6" outsign="bom" type=""/>
+<align creator="" in="b4" insign="coffee" out="a7" outsign="café" type=""/>
+<align creator="" in="b5" insign="is" out="a8" outsign="é" type=""/>
+<align creator="" in="b10" insign="to" out="a9" outsign="para" type=""/>
+<align creator="" in="b12" insign="," out="a14" outsign="," type=""/>
+<align creator="" in="b13" insign="but" out="a15" outsign="mas" type=""/>
+<align creator="" in="b14" insign="giving" out="a17" outsign="atribuição" type=""/>
+<align creator="" in="b15" insign="an" out="a19" outsign="uma" type=""/>
+<align creator="" in="b16" insign="exact" out="a21" outsign="exata" type=""/>
+<align creator="" in="b18" insign="to" out="a22" outsign="para" type=""/>
+<align creator="" in="b19" insign="each" out="a23" outsign="cada" type=""/>
+<align creator="" in="b20" insign="sample" out="a24" outsign="amostra" type=""/>
+<align creator="" in="b21" insign="is" out="a25" outsign="é" type=""/>
+<align creator="" in="b22" insign="different" out="a26" outsign="outra" type=""/>
+<align creator="" in="b23" insign="." out="a28" outsign="." type=""/>
+<align creator="" in="b24" insign="The" out="a29" outsign="O" type=""/>
+<align creator="" in="b25" insign="taster" out="a30" outsign="degustador" type=""/>
+<align creator="" in="b26" insign="enjoys" out="a31" outsign="aprecia" type=""/>
+<align creator="" in="b29" insign="based" out="a33" outsign="base" type=""/>
+<align creator="" in="b32" insign="acquired" out="a37" outsign="adquire" type=""/>
+<align creator="" in="b33" insign="with" out="a38" outsign="com" type=""/>
+<align creator="" in="b34" insign="experience" out="a40" outsign="experiência" type=""/>
+<align creator="" in="b35" insign="." out="a41" outsign="." type=""/>
+<align creator="" in="b36" insign="However" out="a42" outsign="Contudo" type=""/>
+<align creator="" in="b37" insign="," out="a43" outsign="," type=""/>
+<align creator="" in="b38" insign="their" out="a44" outsign="seus" type=""/>
+<align creator="" in="b39" insign="verdicts" out="a45" outsign="vereditos" type=""/>
+<align creator="" in="b40" insign="are" out="a46" outsign="distam" type=""/>
+<align creator="" in="b41" insign="far" out="a46" outsign="distam" type=""/>
+<align creator="" in="b42" insign="from" out="a47" outsign="de" type=""/>
+<align creator="" in="b47" insign="it" out="a53" outsign="que" type=""/>
+<align creator="" in="b48" insign="difficult" out="a54" outsign="dificulta" type=""/>
+<align creator="" in="b49" insign="to" out="a55" outsign="que" type=""/>
+<align creator="" in="b52" insign="in" out="a60" outsign="em" type=""/>
+<align creator="" in="b53" insign="larger" out="a61" outsign="grande" type=""/>
+<align creator="" in="b54" insign="scale" out="a62" outsign="escala" type=""/>
+<align creator="" in="b55" insign="." out="a63" outsign="." type=""/>
+<align creator="" in="b56" insign="A" out="a64" outsign="Uma" type=""/>
+<align creator="" in="b57" insign="report" out="a65" outsign="notícia" type=""/>
+<align creator="" in="b60" insign="Fapesp" out="a68" outsign="Fapesp" type=""/>
+<align creator="" in="b61" insign="online" out="a69" outsign="online" type=""/>
+<align creator="" in="b62" insign="," out="a70" outsign="," type=""/>
+<align creator="" in="b63" insign="however" out="a71" outsign="todavia" type=""/>
+<align creator="" in="b64" insign="," out="a72" outsign="," type=""/>
+<align creator="" in="b65" insign="presents" out="a73" outsign="apresenta" type=""/>
+<align creator="" in="b66" insign="a" out="a74" outsign="um" type=""/>
+<align creator="" in="b68" insign="product" out="a75" outsign="produto" type=""/>
+<align creator="" in="b67" insign="promising" out="a76" outsign="promissor" type=""/>
+<align creator="" in="b69" insign="developed" out="a78" outsign="desenvolvido" type=""/>
+<align creator="" in="b72" insign="researchers" out="a80" outsign="pesquisadores" type=""/>
+<align creator="" in="b71" insign="Brazilian" out="a81" outsign="brasileiros" type=""/>
+<align creator="" in="b73" insign=":" out="a82" outsign=":" type=""/>
+<align creator="" in="b74" insign="the" out="a83" outsign="a" type=""/>
+<align creator="" in="b75" insign="\0022" out="a85" outsign="eletrônica" type=""/>
+<align creator="" in="b76" insign="electronic" out="a85" outsign="eletrônica" type=""/>
+<align creator="" in="b79" insign="," out="a87" outsign="," type=""/>
+<align creator="" in="b81" insign="device" out="a88" outsign="aparelho" type=""/>
+<align creator="" in="b85" insign="flavors" out="a92" outsign="sabores" type=""/>
+<align creator="" in="b90" insign="the" out="a99" outsign="da" type=""/>
+<align creator="" in="b92" insign="tongue" out="a100" outsign="língua" type=""/>
+<align creator="" in="b93" insign="." out="a102" outsign="." type=""/>
+<align creator="" in="b94" insign="Parts" out="a103" outsign="Partes" type=""/>
+<align creator="" in="b100" insign="are" out="a109" outsign="são" type=""/>
+<align creator="" in="b103" insign="called" out="a114" outsign="denominados" type=""/>
+<align creator="" in="b105" insign="buds" out="a115" outsign="papilas" type=""/>
+<align creator="" in="b106" insign="," out="a117" outsign="," type=""/>
+<align creator="" in="b107" insign="which" out="a118" outsign="as" type=""/>
+<align creator="" in="b109" insign="tastes" out="a121" outsign="sabores" type=""/>
+<align creator="" in="b110" insign="." out="a122" outsign="." type=""/>
+<align creator="" in="b111" insign="Scientists" out="a123" outsign="Cientistas" type=""/>
+<align creator="" in="b113" insign="Emprapa" out="a125" outsign="Embrapa" type=""/>
+<align creator="" in="b114" insign="have" out="a126" outsign="projetaram" type=""/>
+<align creator="" in="b115" insign="projected" out="a126" outsign="projetaram" type=""/>
+<align creator="" in="b116" insign="a" out="a127" outsign="um" type=""/>
+<align creator="" in="b117" insign="taste" out="a128" outsign="sensor" type=""/>
+<align creator="" in="b118" insign="sensor" out="a129" outsign="gustativo" type=""/>
+<align creator="" in="b119" insign="capable" out="a130" outsign="capaz" type=""/>
+<align creator="" in="b120" insign="of" out="a131" outsign="de" type=""/>
+<align creator="" in="b121" insign="evaluating" out="a132" outsign="avaliar" type=""/>
+<align creator="" in="b122" insign="nuances" out="a133" outsign="nuances" type=""/>
+<align creator="" in="b123" insign="of" out="a134" outsign="de" type=""/>
+<align creator="" in="b124" insign="flavor" out="a135" outsign="sabor" type=""/>
+<align creator="" in="b125" insign="and" out="a136" outsign="e" type=""/>
+<align creator="" in="b126" insign="the" out="a137" outsign="a" type=""/>
+<align creator="" in="b127" insign="presence" out="a138" outsign="presença" type=""/>
+<align creator="" in="b128" insign="of" out="a139" outsign="de" type=""/>
+<align creator="" in="b129" insign="impurities" out="a140" outsign="impurezas" type=""/>
+<align creator="" in="b130" insign="in" out="a141" outsign="em" type=""/>
+<align creator="" in="b131" insign="beverages" out="a142" outsign="bebidas" type=""/>
+<align creator="" in="b132" insign="with" out="a143" outsign="com" type=""/>
+<align creator="" in="b136" insign="the" out="a149" outsign="o" type=""/>
+<align creator="" in="b140" insign="." out="a153" outsign="." type=""/>
+<align creator="" in="b141" insign="The" out="a154" outsign="Os" type=""/>
+<align creator="" in="b142" insign="researches" out="a155" outsign="pesquisadores" type=""/>
+<align creator="" in="b143" insign="modeled" out="a157" outsign="uma" type=""/>
+<align creator="" in="b146" insign="sense" out="a160" outsign="paladar" type=""/>
+<align creator="" in="b147" insign="and" out="a161" outsign="e" type=""/>
+<align creator="" in="b148" insign="used" out="a162" outsign="utilizaram" type=""/>
+<align creator="" in="b149" insign="microelectrodes" out="a163" outsign="microeletrodos" type=""/>
+<align creator="" in="b150" insign="coated" out="a164" outsign="revestidos" type=""/>
+<align creator="" in="b151" insign="with" out="a165" outsign="com" type=""/>
+<align creator="" in="b152" insign="a" out="a166" outsign="uma" type=""/>
+<align creator="" in="b155" insign="of" out="a169" outsign="de" type=""/>
+<align creator="" in="b157" insign="polymers" out="a170" outsign="polímeros" type=""/>
+<align creator="" in="b156" insign="conductive" out="a171" outsign="condutores" type=""/>
+<align creator="" in="b159" insign="obtain" out="a174" outsign="obtenção" type=""/>
+<align creator="" in="b160" insign="a" out="a176" outsign="uma" type=""/>
+<align creator="" in="b162" insign="electric" out="a178" outsign="elétrica" type=""/>
+<align creator="" in="b161" insign="specific" out="a179" outsign="específica" type=""/>
+<align creator="" in="b164" insign="for" out="a180" outsign="para" type=""/>
+<align creator="" in="b165" insign="each" out="a181" outsign="cada" type=""/>
+<align creator="" in="b166" insign="substance" out="a182" outsign="substância" type=""/>
+<align creator="" in="b167" insign="." out="a183" outsign="." type=""/>
+<align creator="" in="b168" insign="Unlike" out="a184" outsign="Diferentemente" type=""/>
+<align creator="" in="b169" insign="the" out="a185" outsign="do" type=""/>
+<align creator="" in="b170" insign="taster" out="a186" outsign="degustador" type=""/>
+<align creator="" in="b171" insign="," out="a187" outsign="," type=""/>
+<align creator="" in="b172" insign="the" out="a188" outsign="o" type=""/>
+<align creator="" in="b173" insign="device" out="a189" outsign="dispositivo" type=""/>
+<align creator="" in="b182" insign="identifies" out="a193" outsign="identifica" type=""/>
+<align creator="" in="b185" insign="that" out="a194" outsign="que" type=""/>
+<align creator="" in="b183" insign="a" out="a195" outsign="um" type=""/>
+<align creator="" in="b184" insign="flavor" out="a196" outsign="sabor" type=""/>
+<align creator="" in="b186" insign="is" out="a197" outsign="é" type=""/>
+<align creator="" in="b187" insign="equivalent" out="a198" outsign="correspondente" type=""/>
+<align creator="" in="b189" insign="another" out="a200" outsign="outro" type=""/>
+<align creator="" in="b190" insign="one" out="a200" outsign="outro" type=""/>
+<align creator="" in="b191" insign="previously" out="a201" outsign="previamente" type=""/>
+<align creator="" in="b192" insign="recorded" out="a202" outsign="registrado" type=""/>
+<align creator="" in="b200" insign="or" out="a214" outsign="ou" type=""/>
+<align creator="" in="b201" insign="combination" out="a215" outsign="combinação" type=""/>
+<align creator="" in="b202" insign="of" out="a216" outsign="de" type=""/>
+<align creator="" in="b203" insign="flavors" out="a217" outsign="sabores" type=""/>
+<align creator="" in="b204" insign="." out="a218" outsign="." type=""/>
+<align creator="" in="b11" insign="tasters" out="a11" outsign="degustadores" type=""/>
+<align creator="" in="b7" insign="relatively" out="a12" outsign="relativamente" type=""/>
+<align creator="" in="b8" insign="simple" out="a13" outsign="simples" type=""/>
+<align creator="" in="b17" insign="grade" out="a20" outsign="nota" type=""/>
+<align creator="" in="b31" insign="skills" out="a35" outsign="habilidades" type=""/>
+<align creator="" in="b30" insign="on" out="a34" outsign="em" type=""/>
+<align creator="" in="b43" insign="precise" out="a50" outsign="precisos" type=""/>
+<align creator="" in="b44" insign="," out="a51" outsign="," type=""/>
+<align creator="" in="b45" insign="which" out="a52" outsign="fato" type=""/>
+<align creator="" in="b50" insign="evaluate" out="a57" outsign="avaliações" type=""/>
+<align creator="" in="b59" insign="on" out="a67" outsign="na" type=""/>
+<align creator="" in="b58" insign="published" out="a66" outsign="publicada" type=""/>
+<align creator="" in="b70" insign="by" out="a79" outsign="por" type=""/>
+<align creator="" in="b77" insign="tongue" out="a84" outsign="'língua" type=""/>
+<align creator="" in="b78" insign="\0022" out="a84" outsign="'língua" type=""/>
+<align creator="" in="b89" insign="than" out="a97" outsign="que" type=""/>
+<align creator="" in="b86" insign="much" out="a95" outsign="muito" type=""/>
+<align creator="" in="b87" insign="more" out="a96" outsign="maior" type=""/>
+<align creator="" in="b83" insign="can" out="a89" outsign="capaz" type=""/>
+<align creator="" in="b84" insign="evaluate" out="a91" outsign="avaliar" type=""/>
+<align creator="" in="b91" insign="human" out="a101" outsign="humana" type=""/>
+<align creator="" in="b95" insign="of" out="a104" outsign="da" type=""/>
+<align creator="" in="b99" insign="surface" out="a105" outsign="superfície" type=""/>
+<align creator="" in="b98" insign="tongue" out="a107" outsign="língua" type=""/>
+<align creator="" in="b97" insign="human" out="a108" outsign="humana" type=""/>
+<align creator="" in="b96" insign="the" out="a104" outsign="da" type=""/>
+<align creator="" in="b104" insign="taste" out="a116" outsign="gustativas" type=""/>
+<align creator="" in="b101" insign="sensory" out="a113" outsign="sensoriais" type=""/>
+<align creator="" in="b102" insign="receptors" out="a112" outsign="receptores" type=""/>
+<align creator="" in="b108" insign="identify" out="a120" outsign="identificam" type=""/>
+<align creator="" in="b107" insign="which" out="a119" outsign="quais" type=""/>
+<align creator="" in="b112" insign="from" out="a124" outsign="da" type=""/>
+<align creator="" in="b133" insign="more" out="a147" outsign="maior" type=""/>
+<align creator="" in="b134" insign="precision" out="a144" outsign="grau" type=""/>
+<align creator="" in="b134" insign="precision" out="a145" outsign="de" type=""/>
+<align creator="" in="b134" insign="precision" out="a146" outsign="sensibilidade" type=""/>
+<align creator="" in="b135" insign="than" out="a148" outsign="que" type=""/>
+<align creator="" in="b137" insign="human" out="a152" outsign="humanas" type=""/>
+<align creator="" in="b139" insign="buds" out="a151" outsign="papilas" type=""/>
+<align creator="" in="b138" insign="taste" out="a151" outsign="papilas" type=""/>
+<align creator="" in="b143" insign="modeled" out="a156" outsign="realizaram" type=""/>
+<align creator="" in="b143" insign="modeled" out="a158" outsign="modelagem" type=""/>
+<align creator="" in="b145" insign="tasting" out="a160" outsign="paladar" type=""/>
+<align creator="" in="b153" insign="thin" out="a168" outsign="fina" type=""/>
+<align creator="" in="b154" insign="layer" out="a167" outsign="camada" type=""/>
+<align creator="" in="b158" insign="to" out="a172" outsign="para" type=""/>
+<align creator="" in="b163" insign="response" out="a177" outsign="resposta" type=""/>
+<align creator="" in="b174" insign="always" out="a191" outsign="sempre" type=""/>
+<align creator="" in="b188" insign="to" out="a199" outsign="a" type=""/>
+<align creator="" in="b175" insign="provides" out="a204" outsign="fornece" type=""/>
+<align creator="" in="b176" insign="a" out="a205" outsign="um" type=""/>
+<align creator="" in="b177" insign="precise" out="a208" outsign="preciso" type=""/>
+<align creator="" in="b178" insign="numeric" out="a207" outsign="numérico" type=""/>
+<align creator="" in="b193" insign="," out="a209" outsign="," type=""/>
+<align creator="" in="b194" insign="even" out="a210" outsign="mesmo" type=""/>
+<align creator="" in="b195" insign="when" out="a211" outsign="quando" type=""/>
+<align creator="" in="b196" insign="there" out="a212" outsign="constata" type=""/>
+<align creator="" in="b197" insign="is" out="a212" outsign="constata" type=""/>
 </DTAGalign>

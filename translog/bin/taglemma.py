@@ -47,6 +47,9 @@ def do_tagging_treetagger(sentence,language,treetagger_path):
     #representing eaxh tokens per line
     
     sentence=sentence.strip()
+    sentence = sentence.replace("\\0022", "\"")
+    sentence = sentence.replace("\\003e", ">")
+    sentence = sentence.replace("\\003c", "<")
     sentence = sentence.replace("\"", "\\\"")
     sentence = sentence.replace(" ", "\n")
     

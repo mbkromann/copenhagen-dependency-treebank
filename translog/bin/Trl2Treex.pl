@@ -124,7 +124,7 @@ sub TokenAttributes {
   $attribute =~ s/\s+$//;
   $value =~ s/^\s+//;
   $value =~ s/\s+$//;
-  $TOK->{$lng}{$id}{$attribute} = escape(MSunescape($value));
+  $TOK->{$lng}{$id}{$attribute} = MSunescape($value);
   return $attribute;
 }
 

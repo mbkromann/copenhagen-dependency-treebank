@@ -49,6 +49,12 @@ function MergeEvents2Trl()
         outp=${root/Translog-II/Events}
         atag=${root/Translog-II/Alignment_NLP}
 
+#    for atag in data/$1/Alignment_NLP/*.atag
+#    do
+#        root=${atag%.atag}
+#        outp=${root/Alignment_NLP/Events}
+#        file=${root/Alignment_NLP/Translog-II}
+
 ## If Source is older than Target do nothing
         if [ $file -ot "$outp.Event.xml" ] && 
            [ "$atag.atag" -ot "$outp.Event.xml" ] && 
@@ -154,9 +160,15 @@ function Treex2Atag ()
 {
 
 ## Regenerate atag file
+      rm -r data/$1/Alignment-II
       treex \
       Misc::Translog::Treex2Alignment \
       -- data/Treex/$1*.treex.gz
+#      Misc::Translog::RemakeWildZones \
+}
+
+function CheckRound ()
+{
 
 ## check whether old and new atag files contain same information
     for file in data/$1/Alignment-II/*atag
@@ -326,10 +338,19 @@ elif [ "$1" == "check" ]; then
     else STUDY=$2;
     fi
 
-    for study in $STUDY ; do Treex2Atag $study; done
+    for study in $STUDY ; do Treex2Atag $study; CheckRound  $study; done
 
     exit;
 
+## check if treex information consistent
+elif [ "$1" == "check2" ]; then
+    if [ "$2" == "all" ]; then STUDY=$STUDY
+    else STUDY=$2;
+    fi
+
+    for study in $STUDY ; do CheckRound  $study; done
+
+    exit
 else echo "Usage $0 <make | clean> <Study_name | all>"
 fi
 

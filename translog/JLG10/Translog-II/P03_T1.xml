@@ -21,7 +21,7 @@
     <ChineseKeys>false</ChineseKeys>
     <fullScreen>false</fullScreen>
     <lockWindows>false</lockWindows>
-    <Languages source="en" target="pt" />
+    <Languages source="en" target="pt" task="translating" />
     <Plugins>
       <Key_Logger />
     </Plugins>

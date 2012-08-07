@@ -20,7 +20,7 @@
     <maxWindow>false</maxWindow>
     <fullScreen>false</fullScreen>
     <lockWindows>false</lockWindows>
-    <Languages source="en" target="da" />
+    <Languages source="en" target="da" task="translating" />
     <Plugins>
       <Key_Logger />
       <EyeSampler />

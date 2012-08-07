@@ -19,7 +19,7 @@
     <maxWindow>false</maxWindow>
     <fullScreen>false</fullScreen>
     <lockWindows>false</lockWindows>
-    <Languages source="en" target="pt" />
+    <Languages source="en" target="pt" task="post-editing" system="google" />
     <Plugins>
       <EyeSampler />
       <Key_Logger />
