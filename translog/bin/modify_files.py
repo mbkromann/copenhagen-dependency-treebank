@@ -88,14 +88,6 @@ def extract_text(fileName):
        
     return list([text_data,language,tag_value,lemma_value,seg_value,dep_parser_value])
 
-def reformat_text(text):
-    # Separate most punctuation
-    text = re.sub(r"([^\w\.\'\-\/,&])", r' \1 ', text)
-    # Fix missing Unicode support in in re.sub Python <3.0
-    text = re.sub(r"\s([\xaa-\xff])\s", r"\1" ,text)
-    # Separate commas if they're followed by space.
-    text = re.sub(r"(,\s)", r' \1', text)
-    return text
 
 def prepare_file_name(path):
     dir_file = os.path.split(path)
@@ -129,6 +121,8 @@ def pos_tag_tree_tagger(sentence,language):
     data=do_tagging_treetagger(sentence, language, tree_tagger_path)
     for info in data:
         token_list.append(info[0])
+	if (info[1]=="&quot;"):
+	    info[1]="\"";
         tags.append(info[1])
         lemmas.append(info[2])
         
@@ -186,8 +180,7 @@ def write_back(xmlFile,language,tagger,lemmatizer,segmenter,dep_parser):
         ugly_XML = doc.toprettyxml(indent=" ",encoding="utf-8")
         text_re = re.compile('>\n\s+([^<>\s].*?)\n\s+</', re.DOTALL)    
         prettyXml = text_re.sub('>\g<1></', ugly_XML)
-	prettyXml = prettyXml.replace("&amp;","&")
-	prettyXml = prettyXml.replace("&quot;","\"")
+	prettyXml = prettyXml.replace(">&quot;<",">\"<")
 
         f.write(prettyXml)
         
