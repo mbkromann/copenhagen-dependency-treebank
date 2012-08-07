@@ -181,7 +181,7 @@ def write_back(xmlFile,language,tagger,lemmatizer,segmenter,dep_parser):
         text_re = re.compile('>\n\s+([^<>\s].*?)\n\s+</', re.DOTALL)    
         prettyXml = text_re.sub('>\g<1></', ugly_XML)
 	prettyXml = prettyXml.replace(">&quot;<",">\"<")
-
+	prettyXml = prettyXml.replace("&quot;","\\0022")
         f.write(prettyXml)
         
     return True
