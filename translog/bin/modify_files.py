@@ -186,6 +186,9 @@ def write_back(xmlFile,language,tagger,lemmatizer,segmenter,dep_parser):
         ugly_XML = doc.toprettyxml(indent=" ",encoding="utf-8")
         text_re = re.compile('>\n\s+([^<>\s].*?)\n\s+</', re.DOTALL)    
         prettyXml = text_re.sub('>\g<1></', ugly_XML)
+	prettyXml = prettyXml.replace("&amp;","&")
+	prettyXml = prettyXml.replace("&quot;","\"")
+
         f.write(prettyXml)
         
     return True
