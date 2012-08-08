@@ -44,6 +44,23 @@ def reset_data():
     sentence_break[:]=[]
     lemmas[:]=[]
     
+def MSescapeText(in_tok):
+    in_tok = re.sub(">","&gt;")
+    in_tok = re.sub("<","&lt;")
+    return in_tok
+
+
+def MSescapeAttr(in_tok):
+    in_tok = re.sub("&","&amp;")
+    in_tok = re.sub(">","&gt;")
+    in_tok = re.sub("<","&lt;")
+    in_tok = re.sub(">","&gt;")
+    in_tok = re.sub("\n","&#xA;")
+    in_tok = re.sub("\r","&#xD;")
+    in_tok = re.sub("\t","&#x9;")
+    in_tok = re.sub("\"","&quot;")
+    return in_tok
+
 
 def extract_text(fileName):
     #extracts text from XML data
@@ -111,8 +128,11 @@ def pos_tag_english(sentence):
     #pos_tagger
     data = do_tagging_english(sentence)
     for info in data:
+        info[0] = MSescapeText(info[0])
         token_list.append(info[0])
+        info[1] = MSescapeAttr(info[1])
         tags.append(info[1])
+        info[2] = MSescapeAttr(info[2])
         lemmas.append(info[2])
         
     sentence_break.append(str(len(token_list) - 1))  
@@ -120,14 +140,11 @@ def pos_tag_english(sentence):
 def pos_tag_tree_tagger(sentence,language):
     data=do_tagging_treetagger(sentence, language, tree_tagger_path)
     for info in data:
-	info[0] = info[0].replace("\"", "\\0022")
-	info[0] = info[0].replace(">",  "\\003e")
-	info[0] = info[0].replace("<",  "\\003c")
-
+        info[0] = MSescapeText(info[0])
         token_list.append(info[0])
-	if (info[1]=="&quot;"):
-	    info[1]="\"";
+        info[1] = MSescapeAttr(info[1])
         tags.append(info[1])
+        info[2] = MSescapeAttr(info[2])
         lemmas.append(info[2])
         
     sentence_break.append(str(len(token_list)-1))

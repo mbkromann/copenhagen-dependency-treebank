@@ -162,9 +162,9 @@ function Treex2Atag ()
 ## Regenerate atag file
       rm -r data/$1/Alignment-II
       treex \
+      Misc::Translog::RemakeWildZones \
       Misc::Translog::Treex2Alignment \
       -- data/Treex/$1*.treex.gz
-#      Misc::Translog::RemakeWildZones \
 }
 
 function CheckRound ()
