@@ -45,9 +45,9 @@ def reset_data():
     lemmas[:]=[]
     
 def MSescapeText(in_tok):
+    in_tok = re.sub("&","&amp;",in_tok)
     in_tok = re.sub(">","&gt;",in_tok)
     in_tok = re.sub("<","&lt;",in_tok)
-    in_tok = re.sub("&","&amp;",in_tok)
     in_tok = re.sub ("&quot;","\"",in_tok)
     return in_tok
 
