@@ -47,12 +47,13 @@ def reset_data():
 def MSescapeText(in_tok):
     in_tok = re.sub(">","&gt;",in_tok)
     in_tok = re.sub("<","&lt;",in_tok)
+    in_tok = re.sub("&","&amp;",in_tok)
     in_tok = re.sub ("&quot;","\"",in_tok)
     return in_tok
 
 
 def MSescapeAttr(in_tok):
-#    in_tok = re.sub("&","&amp;",in_tok)
+    in_tok = re.sub("&","&amp;",in_tok)
     in_tok = re.sub(">","&gt;",in_tok)
     in_tok = re.sub("<","&lt;",in_tok)
     in_tok = re.sub(">","&gt;",in_tok)
@@ -134,7 +135,7 @@ def pos_tag_english(sentence):
         info[1] = MSescapeAttr(info[1])
         tags.append(info[1])
         info[2] = MSescapeAttr(info[2])
-        lemmas.append(info[2])
+        lemmas.append(info[2])  
         
     sentence_break.append(str(len(token_list) - 1))  
     
@@ -202,8 +203,15 @@ def write_back(xmlFile,language,tagger,lemmatizer,segmenter,dep_parser):
         ugly_XML = doc.toprettyxml(indent=" ",encoding="utf-8")
         text_re = re.compile('>\n\s+([^<>\s].*?)\n\s+</', re.DOTALL)    
         prettyXml = text_re.sub('>\g<1></', ugly_XML)
-	prettyXml = prettyXml.replace(">&quot;<",">\"<")
-	prettyXml = prettyXml.replace("&amp;","&")
+        
+        #for finding all the quotes inside text node and unescaping them
+        regex = re.compile(">.*[&]+.*</")
+        quotes = regex.findall(prettyXml)
+        
+        for quote in quotes:
+            prettyXml = prettyXml.replace(quote,re.sub ("&quot;","\"",quote))
+        #Again decode &amp which has already been encoded
+    	prettyXml = prettyXml.replace("&amp;","&")
         f.write(prettyXml)
         
     return True
