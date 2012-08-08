@@ -45,20 +45,20 @@ def reset_data():
     lemmas[:]=[]
     
 def MSescapeText(in_tok):
-    in_tok = re.sub(">","&gt;")
-    in_tok = re.sub("<","&lt;")
+    in_tok = re.sub(">","&gt;",in_tok)
+    in_tok = re.sub("<","&lt;",in_tok)
     return in_tok
 
 
 def MSescapeAttr(in_tok):
-    in_tok = re.sub("&","&amp;")
-    in_tok = re.sub(">","&gt;")
-    in_tok = re.sub("<","&lt;")
-    in_tok = re.sub(">","&gt;")
-    in_tok = re.sub("\n","&#xA;")
-    in_tok = re.sub("\r","&#xD;")
-    in_tok = re.sub("\t","&#x9;")
-    in_tok = re.sub("\"","&quot;")
+    in_tok = re.sub("&","&amp;",in_tok)
+    in_tok = re.sub(">","&gt;",in_tok)
+    in_tok = re.sub("<","&lt;",in_tok)
+    in_tok = re.sub(">","&gt;",in_tok)
+    in_tok = re.sub("\n","&#xA;",in_tok)
+    in_tok = re.sub("\r","&#xD;",in_tok)
+    in_tok = re.sub("\t","&#x9;",in_tok)
+    in_tok = re.sub("\"","&quot;",in_tok)
     return in_tok
 
 
