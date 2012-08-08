@@ -47,11 +47,12 @@ def reset_data():
 def MSescapeText(in_tok):
     in_tok = re.sub(">","&gt;",in_tok)
     in_tok = re.sub("<","&lt;",in_tok)
+    in_tok = re.sub ("&quot;","\"",in_tok)
     return in_tok
 
 
 def MSescapeAttr(in_tok):
-    in_tok = re.sub("&","&amp;",in_tok)
+#    in_tok = re.sub("&","&amp;",in_tok)
     in_tok = re.sub(">","&gt;",in_tok)
     in_tok = re.sub("<","&lt;",in_tok)
     in_tok = re.sub(">","&gt;",in_tok)
@@ -95,7 +96,7 @@ def extract_text(fileName):
                     value=element.getAttribute(key)
                     key=key.encode("utf-8")
                     value=value.encode("utf-8")
-                    attrib_list[key]=value
+                    attrib_list[key]=MSescapeAttr(value)
                 original_attrib_list.append(attrib_list)
                 wordValue= element.childNodes[0].nodeValue
                 
@@ -202,7 +203,7 @@ def write_back(xmlFile,language,tagger,lemmatizer,segmenter,dep_parser):
         text_re = re.compile('>\n\s+([^<>\s].*?)\n\s+</', re.DOTALL)    
         prettyXml = text_re.sub('>\g<1></', ugly_XML)
 	prettyXml = prettyXml.replace(">&quot;<",">\"<")
-	prettyXml = prettyXml.replace("&quot;","\\0022")
+	prettyXml = prettyXml.replace("&amp;","&")
         f.write(prettyXml)
         
     return True
