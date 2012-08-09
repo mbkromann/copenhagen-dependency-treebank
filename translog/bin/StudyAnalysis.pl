@@ -52,7 +52,25 @@ sub CopyData{
 	
 }
 sub MergeEvents2Trl{
-	
+    my $study = shift;
+    my $dir = "data/$study/Events";
+    my $trans_path = "data/$study/Translog-II";
+    if ( not -e $dir){
+       make_path $dir or die "Directory creation failed: $!";
+    }
+    opendir(DIR,$trans_path);
+    my @FILES= readdir(DIR);
+    foreach my $file (@FILES){
+    	if ($file=~ m/\.xml$/i){
+           my $outp ="";
+           my $atag ="";
+           if ( older_than($file,)){
+
+           }
+        }
+        
+
+    }
 }
 
 
@@ -63,7 +81,7 @@ sub MergeEvents2Trl{
 sub older_than{
 	my ($file1,$file2)=@_;
 	if (stat($file1) and stat($file2)){
-		if (stat($file1)->mtime < stat($file2)->mtime){
+		if (stat($file1)->atime < stat($file2)->atime){
 			return 1;
 		}
 	}
