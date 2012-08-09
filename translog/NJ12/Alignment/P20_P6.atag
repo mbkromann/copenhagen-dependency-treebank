@@ -1,6 +1,6 @@
 <DTAGalign source="en" target="hi" >
-<alignFile key="a" href="P20_A6.src" />
-<alignFile key="b" href="P20_A6.tgt" />
+<alignFile key="a" href="P20_P6.src" />
+<alignFile key="b" href="P20_P6.tgt" />
 <align out="a1" type="" in="b1" />
 <align out="a2" type="" in="b1" />
 <align out="a2" type="" in="b2" />

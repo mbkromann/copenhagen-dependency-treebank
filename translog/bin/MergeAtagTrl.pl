@@ -143,14 +143,14 @@ sub ReadDTAG {
     if(/<Text /) {$H = $_; $H =~ s/<Text//;  $H =~ s/>//;} 
     if(!/<W ([^>]*)>([^<]*)/) {next;} 
     my $x = $1;
-    my $s = unescape($2);
+    my $s = MSunescape($2);
 #printf STDERR "ReadDTAG: $2\t$s\t%s\n", MSescape($s);
     if(/id="([^"])"/ && $1 != $n) {
       printf STDERR "Read $fn: unmatching n:$n and id:$1\n";
       $n=$1;
     }
 
-    $s =~ s/([\(\)\\\/])/\\$1/g;
+#    $s =~ s/([\(\)\\\/])/\\$1/g;
     $D->{$n}{'tok'}=$s;
 #printf STDERR "\tvalue:$2\t";
     $x =~ s/\s*([^=]*)\s*=\s*"([^"]*)\s*"/AttrVal($D, $n, $1, $2)/eg;
@@ -171,7 +171,7 @@ sub AttrVal {
   my ($D, $n, $attr, $val) = @_;
 
 #printf STDERR "$n:$attr:$val\t";
-  $D->{$n}{$attr}=unescape($val);
+  $D->{$n}{$attr}=MSunescape($val);
 }
 
 
@@ -296,10 +296,10 @@ sub MergeAtag {
           print STDERR "MergeAtag: Undefined $l: ID:$id\n";
 	  next;
         }
-        if($A->{'n'}{$n}{$l}{'s'} ne '---' && $A->{'n'}{$n}{$l}{'s'} !~ /$A->{$l}{'D'}{$id}{'tok'}/){ 
-          print STDERR "MergeAtag token mismatch $l:$id atag:$A->{'n'}{$n}{$l}{'s'}\t\ttoken:$A->{$l}{'D'}{$id}{'tok'}\n";
+#        if($A->{'n'}{$n}{$l}{'s'} ne '---' && $A->{'n'}{$n}{$l}{'s'} !~ /$A->{$l}{'D'}{$id}{'tok'}/){ 
+#          print STDERR "MergeAtag token mismatch $l:$id atag:$A->{'n'}{$n}{$l}{'s'}\t\ttoken:$A->{$l}{'D'}{$id}{'tok'}\n";
 #d($A->{$l}{'D'}{$id});
-        }
+#        }
         $A->{'n'}{$n}{$l}{'id'}{$id} = $A->{$l}{'D'}{$id}{'cur'};
       }
       foreach my $id (keys %{$A->{$l}{D}}) {

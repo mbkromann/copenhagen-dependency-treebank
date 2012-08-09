@@ -1,5 +1,7 @@
 ### in postscript umlenken
 # postscript("FILENAME.eps", onefile=FALSE, height=3, width=12, pointsize=1)
+# ProgGraph()
+# dev.off()
 
 ReadData <- function(fn, sw = '---') {
   cat("Reading Fixation Units:", fn,".fu\n");

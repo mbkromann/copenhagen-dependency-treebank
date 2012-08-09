@@ -132,7 +132,7 @@ function FinalTreex ()
     Write::Treex clobber=1 storable=0 \
     -- data/Treex/raw/$1*.treex.gz
 
-    rm -f data/Treex/raw/$1*.treex.gz
+#    rm -f data/Treex/raw/$1*.treex.gz
 }
 
 function AnnotateTrl ()
