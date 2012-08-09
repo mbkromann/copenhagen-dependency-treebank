@@ -45,9 +45,9 @@
 <align creator="" in="b79" insign="researchers" out="a80" outsign="pesquisadores" type=""/>
 <align creator="" in="b78" insign="Brazilian" out="a81" outsign="brasileiros" type=""/>
 <align creator="" in="b80" insign=":" out="a82" outsign=":" type=""/>
-<align creator="" in="b82" insign="\0022" out="a84" outsign="'língua" type=""/>
+<align creator="" in="b82" insign="&quot;" out="a84" outsign="'língua" type=""/>
 <align creator="" in="b83" insign="electronic" out="a85" outsign="eletrônica" type=""/>
-<align creator="" in="b85" insign="\0022" out="a85" outsign="eletrônica" type=""/>
+<align creator="" in="b85" insign="&quot;" out="a85" outsign="eletrônica" type=""/>
 <align creator="" in="b86" insign="," out="a87" outsign="," type=""/>
 <align creator="" in="b88" insign="device" out="a88" outsign="aparelho" type=""/>
 <align creator="" in="b89" insign="that" out="a89" outsign="que" type=""/>

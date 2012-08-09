@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$1" == "" ] || [ "$2" == "" ]; then
-  echo "Usage $0 <command:[make|clean]> <Study_name | all>"
+  echo "Usage $0 <command> <Study_name>"
   exit
 fi
 
@@ -106,12 +106,13 @@ function ToSingleTreex ()
 {
 
 # raw conversion into Treex 
-    mkdir -p data/Treex/raw
+#    mkdir -p data/Treex/raw
+    mkdir -p data/$1/Treex/raw
     for file in data/$1/Events/*Event.xml
     do
         root=${file%.Event.xml}
         root=`expr "$root" : '.*/\(.*\)'`
-        new="data/Treex/raw/$1-$root"
+        new="data/$1/Treex/raw/$root"
 
         if [ $file -ot "$new.treex.gz" ]; then 
           continue
@@ -120,6 +121,14 @@ function ToSingleTreex ()
         echo "./Trl2Treex.pl  -T $file -O $new"
         ./Trl2Treex.pl -T "$file" -O "$new"
     done    
+
+## finalize Treex, build trees and store in data/Treex folder
+    treex \
+    Misc::Translog::BuildTreesFromOffsetIndices \
+    Util::Eval document="\$doc->set_path(qw(data/$1/Treex))" \
+    Write::Treex clobber=1 storable=0 \
+    -- data/$1/Treex/raw/*.treex.gz
+
 }
 
 function FinalTreex ()
@@ -164,7 +173,7 @@ function Treex2Atag ()
       treex \
       Misc::Translog::RemakeWildZones \
       Misc::Translog::Treex2Alignment \
-      -- data/Treex/$1*.treex.gz
+      -- data/$1/Treex/*.treex.gz
 }
 
 function CheckRound ()
@@ -281,7 +290,6 @@ elif [ "$1" == "make" ]; then
         Trl2TokenTables $study;
         echo "make treex $study "
         ToSingleTreex $study
-        FinalTreex $study
 
     done
     exit;
@@ -302,7 +310,7 @@ elif [ "$1" == "treex" ]; then
     else STUDY=$2;
     fi
 
-    for study in $STUDY ; do ToSingleTreex $study ; FinalTreex $study; done
+    for study in $STUDY ; do ToSingleTreex $study; done
 
     exit;
 
@@ -351,6 +359,10 @@ elif [ "$1" == "check2" ]; then
     for study in $STUDY ; do CheckRound  $study; done
 
     exit
-else echo "Usage $0 <make | clean> <Study_name | all>"
+
+else echo "Usage $0 command Study_name"
+    echo "command:    {clean|make|copy|treex|tables|text|check|check2} "
+    echo "Study_Name: all | $STUDY"
+    echo "if command=text Study_Name=all |  $AllTexts"
 fi
 

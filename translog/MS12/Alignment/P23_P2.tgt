@@ -4,11 +4,11 @@
 <W cur="4" id="3">不断</W>
 <W cur="6" id="4">增长</W>
 <W cur="8" id="5">,</W>
-<W cur="10" id="6" space="\0020">家庭</W>
+<W cur="10" id="6" space=" ">家庭</W>
 <W cur="12" id="7">遭受</W>
 <W cur="14" id="8">沉重</W>
 <W cur="16" id="9">打击</W>
-<W cur="19" id="10" space="\000a">由于</W>
+<W cur="19" id="10" space="&#xA;">由于</W>
 <W cur="21" id="11">食品</W>
 <W cur="23" id="12">和</W>
 <W cur="24" id="13">燃料</W>

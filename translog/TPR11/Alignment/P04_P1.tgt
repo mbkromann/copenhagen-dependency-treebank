@@ -1,153 +1,153 @@
 <Text language="de" >
 <W id="1" cur="0" x="3" y="383" w="303" h="34">Killer-Krankenschwester</W>
-<W id="2" cur="24" space="\0020" x="304" y="383" w="38" h="34">zu</W>
-<W id="3" cur="27" space="\0020" x="340" y="383" w="53" h="34">vier</W>
-<W id="4" cur="32" space="\0020" x="391" y="383" w="92" h="34">Jahren</W>
-<W id="5" cur="39" space="\0020" x="481" y="383" w="164" h="34">lebenslanger</W>
-<W id="6" cur="52" space="\0020" x="643" y="383" w="59" h="34">Haft</W>
-<W id="7" cur="57" space="\0020" x="701" y="383" w="113" h="34">verurteilt</W>
-<W id="8" cur="68" space="\000a" x="3" y="414" w="234" h="34">Krankenschwester</W>
-<W id="9" cur="85" space="\0020" x="235" y="414" w="71" h="34">Colin</W>
-<W id="10" cur="91" space="\0020" x="304" y="414" w="82" h="34">Norris</W>
-<W id="11" cur="98" space="\0020" x="384" y="414" w="83" h="34">wurde</W>
-<W id="12" cur="104" space="\0020" x="465" y="414" w="41" h="34">für</W>
-<W id="13" cur="108" space="\0020" x="504" y="414" w="53" h="34">das</W>
-<W id="14" cur="112" space="\0020" x="555" y="414" w="94" h="34">Toeten</W>
-<W id="15" cur="119" space="\0020" x="647" y="414" w="53" h="34">von</W>
-<W id="16" cur="123" space="\0020" x="698" y="414" w="53" h="34">vier</W>
-<W id="17" cur="128" space="\0020" x="749" y="414" w="83" h="34">seiner</W>
-<W id="18" cur="135" space="\0020" x="830" y="414" w="124" h="34">Patienten</W>
-<W id="19" cur="145" space="\0020" x="952" y="414" w="77" h="34">heute</W>
-<W id="20" cur="151" space="\0020" x="1027" y="414" w="38" h="34">zu</W>
-<W id="21" cur="154" space="\0020" x="3" y="445" w="164" h="34">lebenslanger</W>
-<W id="22" cur="167" space="\0020" x="165" y="445" w="59" h="34">Haft</W>
-<W id="23" cur="172" space="\0020" x="223" y="445" w="140" h="34">verurteileilt</W>
+<W id="2" cur="24" space=" " x="304" y="383" w="38" h="34">zu</W>
+<W id="3" cur="27" space=" " x="340" y="383" w="53" h="34">vier</W>
+<W id="4" cur="32" space=" " x="391" y="383" w="92" h="34">Jahren</W>
+<W id="5" cur="39" space=" " x="481" y="383" w="164" h="34">lebenslanger</W>
+<W id="6" cur="52" space=" " x="643" y="383" w="59" h="34">Haft</W>
+<W id="7" cur="57" space=" " x="701" y="383" w="113" h="34">verurteilt</W>
+<W id="8" cur="68" space="&#xA;" x="3" y="414" w="234" h="34">Krankenschwester</W>
+<W id="9" cur="85" space=" " x="235" y="414" w="71" h="34">Colin</W>
+<W id="10" cur="91" space=" " x="304" y="414" w="82" h="34">Norris</W>
+<W id="11" cur="98" space=" " x="384" y="414" w="83" h="34">wurde</W>
+<W id="12" cur="104" space=" " x="465" y="414" w="41" h="34">für</W>
+<W id="13" cur="108" space=" " x="504" y="414" w="53" h="34">das</W>
+<W id="14" cur="112" space=" " x="555" y="414" w="94" h="34">Toeten</W>
+<W id="15" cur="119" space=" " x="647" y="414" w="53" h="34">von</W>
+<W id="16" cur="123" space=" " x="698" y="414" w="53" h="34">vier</W>
+<W id="17" cur="128" space=" " x="749" y="414" w="83" h="34">seiner</W>
+<W id="18" cur="135" space=" " x="830" y="414" w="124" h="34">Patienten</W>
+<W id="19" cur="145" space=" " x="952" y="414" w="77" h="34">heute</W>
+<W id="20" cur="151" space=" " x="1027" y="414" w="38" h="34">zu</W>
+<W id="21" cur="154" space=" " x="3" y="445" w="164" h="34">lebenslanger</W>
+<W id="22" cur="167" space=" " x="165" y="445" w="59" h="34">Haft</W>
+<W id="23" cur="172" space=" " x="223" y="445" w="140" h="34">verurteileilt</W>
 <W id="24" cur="185" x="355" y="445" w="16" h="34">.</W>
-<W id="25" cur="187" space="\0020" x="370" y="445" w="53" h="34">Der</W>
-<W id="26" cur="191" space="\0020" x="421" y="445" w="129" h="34">32-jährige</W>
-<W id="27" cur="202" space="\0020" x="548" y="445" w="82" h="34">Norris</W>
-<W id="28" cur="209" space="\0020" x="628" y="445" w="53" h="34">aus</W>
-<W id="29" cur="213" space="\0020" x="679" y="445" w="115" h="34">Glasgow</W>
-<W id="30" cur="221" space="\0020" x="792" y="445" w="78" h="34">tötete</W>
-<W id="31" cur="228" space="\0020" x="868" y="445" w="45" h="34">die</W>
-<W id="32" cur="232" space="\0020" x="911" y="445" w="53" h="34">vier</W>
-<W id="33" cur="237" space="\0020" x="962" y="445" w="95" h="34">Frauen</W>
-<W id="34" cur="244" space="\0020" x="1055" y="445" w="38" h="34">im</W>
-<W id="35" cur="247" space="\0020" x="1090" y="445" w="62" h="34">Jahr</W>
-<W id="36" cur="252" space="\0020" x="3" y="476" w="69" h="34">2002</W>
+<W id="25" cur="187" space=" " x="370" y="445" w="53" h="34">Der</W>
+<W id="26" cur="191" space=" " x="421" y="445" w="129" h="34">32-jährige</W>
+<W id="27" cur="202" space=" " x="548" y="445" w="82" h="34">Norris</W>
+<W id="28" cur="209" space=" " x="628" y="445" w="53" h="34">aus</W>
+<W id="29" cur="213" space=" " x="679" y="445" w="115" h="34">Glasgow</W>
+<W id="30" cur="221" space=" " x="792" y="445" w="78" h="34">tötete</W>
+<W id="31" cur="228" space=" " x="868" y="445" w="45" h="34">die</W>
+<W id="32" cur="232" space=" " x="911" y="445" w="53" h="34">vier</W>
+<W id="33" cur="237" space=" " x="962" y="445" w="95" h="34">Frauen</W>
+<W id="34" cur="244" space=" " x="1055" y="445" w="38" h="34">im</W>
+<W id="35" cur="247" space=" " x="1090" y="445" w="62" h="34">Jahr</W>
+<W id="36" cur="252" space=" " x="3" y="476" w="69" h="34">2002</W>
 <W id="37" cur="256" x="63" y="476" w="16" h="34">,</W>
-<W id="38" cur="258" space="\0020" x="78" y="476" w="83" h="34">indem</W>
-<W id="39" cur="264" space="\0020" x="158" y="476" w="33" h="34">er</W>
-<W id="40" cur="267" space="\0020" x="189" y="476" w="75" h="34">ihnen</W>
-<W id="41" cur="273" space="\0020" x="262" y="476" w="80" h="34">große</W>
-<W id="42" cur="279" space="\0020" x="340" y="476" w="106" h="34">Mengen</W>
-<W id="43" cur="286" space="\0020" x="444" y="476" w="39" h="34">an</W>
-<W id="44" cur="289" space="\0020" x="481" y="476" w="165" h="34">Schlafmitteln</W>
-<W id="45" cur="303" space="\0020" x="644" y="476" w="54" h="34">gab</W>
+<W id="38" cur="258" space=" " x="78" y="476" w="83" h="34">indem</W>
+<W id="39" cur="264" space=" " x="158" y="476" w="33" h="34">er</W>
+<W id="40" cur="267" space=" " x="189" y="476" w="75" h="34">ihnen</W>
+<W id="41" cur="273" space=" " x="262" y="476" w="80" h="34">große</W>
+<W id="42" cur="279" space=" " x="340" y="476" w="106" h="34">Mengen</W>
+<W id="43" cur="286" space=" " x="444" y="476" w="39" h="34">an</W>
+<W id="44" cur="289" space=" " x="481" y="476" w="165" h="34">Schlafmitteln</W>
+<W id="45" cur="303" space=" " x="644" y="476" w="54" h="34">gab</W>
 <W id="46" cur="306" x="689" y="476" w="16" h="34">.</W>
-<W id="47" cur="308" space="\0020" x="704" y="476" w="106" h="34">Gestern</W>
-<W id="48" cur="316" space="\0020" x="808" y="476" w="83" h="34">wurde</W>
-<W id="49" cur="322" space="\0020" x="889" y="476" w="33" h="34">er</W>
-<W id="50" cur="325" space="\0020" x="920" y="476" w="68" h="34">nach</W>
-<W id="51" cur="330" space="\0020" x="986" y="476" w="98" h="34">langem</W>
-<W id="52" cur="337" space="\0020" x="1081" y="476" w="108" h="34">Prozess</W>
-<W id="53" cur="345" space="\0020" x="3" y="507" w="30" h="34">in</W>
-<W id="54" cur="348" space="\0020" x="31" y="507" w="53" h="34">vier</W>
-<W id="55" cur="353" space="\0020" x="82" y="507" w="98" h="34">Faellen</W>
-<W id="56" cur="361" space="\0020" x="178" y="507" w="41" h="34">für</W>
-<W id="57" cur="365" space="\0020" x="217" y="507" w="109" h="34">schuldig</W>
-<W id="58" cur="374" space="\0020" x="324" y="507" w="122" h="34">befunden</W>
+<W id="47" cur="308" space=" " x="704" y="476" w="106" h="34">Gestern</W>
+<W id="48" cur="316" space=" " x="808" y="476" w="83" h="34">wurde</W>
+<W id="49" cur="322" space=" " x="889" y="476" w="33" h="34">er</W>
+<W id="50" cur="325" space=" " x="920" y="476" w="68" h="34">nach</W>
+<W id="51" cur="330" space=" " x="986" y="476" w="98" h="34">langem</W>
+<W id="52" cur="337" space=" " x="1081" y="476" w="108" h="34">Prozess</W>
+<W id="53" cur="345" space=" " x="3" y="507" w="30" h="34">in</W>
+<W id="54" cur="348" space=" " x="31" y="507" w="53" h="34">vier</W>
+<W id="55" cur="353" space=" " x="82" y="507" w="98" h="34">Faellen</W>
+<W id="56" cur="361" space=" " x="178" y="507" w="41" h="34">für</W>
+<W id="57" cur="365" space=" " x="217" y="507" w="109" h="34">schuldig</W>
+<W id="58" cur="374" space=" " x="324" y="507" w="122" h="34">befunden</W>
 <W id="59" cur="382" x="437" y="507" w="16" h="34">.</W>
-<W id="60" cur="384" space="\0020" x="452" y="507" w="36" h="34">Er</W>
-<W id="61" cur="387" space="\0020" x="486" y="507" w="83" h="34">wurde</W>
-<W id="62" cur="393" space="\0020" x="567" y="507" w="38" h="34">zu</W>
-<W id="63" cur="396" space="\0020" x="603" y="507" w="96" h="34">viermal</W>
-<W id="64" cur="404" space="\0020" x="697" y="507" w="164" h="34">lebenslanger</W>
-<W id="65" cur="417" space="\0020" x="859" y="507" w="59" h="34">Haft</W>
-<W id="66" cur="422" space="\0020" x="917" y="507" w="113" h="34">verurteilt</W>
+<W id="60" cur="384" space=" " x="452" y="507" w="36" h="34">Er</W>
+<W id="61" cur="387" space=" " x="486" y="507" w="83" h="34">wurde</W>
+<W id="62" cur="393" space=" " x="567" y="507" w="38" h="34">zu</W>
+<W id="63" cur="396" space=" " x="603" y="507" w="96" h="34">viermal</W>
+<W id="64" cur="404" space=" " x="697" y="507" w="164" h="34">lebenslanger</W>
+<W id="65" cur="417" space=" " x="859" y="507" w="59" h="34">Haft</W>
+<W id="66" cur="422" space=" " x="917" y="507" w="113" h="34">verurteilt</W>
 <W id="67" cur="432" x="1022" y="507" w="16" h="34">,</W>
-<W id="68" cur="434" space="\0020" x="1037" y="507" w="88" h="34">einmal</W>
-<W id="69" cur="441" space="\0020" x="1123" y="507" w="41" h="34">für</W>
-<W id="70" cur="445" space="\0020" x="3" y="538" w="75" h="34">jeden</W>
-<W id="71" cur="451" space="\0020" x="76" y="538" w="48" h="34">der</W>
-<W id="72" cur="455" space="\0020" x="122" y="538" w="85" h="34">Morde</W>
+<W id="68" cur="434" space=" " x="1037" y="507" w="88" h="34">einmal</W>
+<W id="69" cur="441" space=" " x="1123" y="507" w="41" h="34">für</W>
+<W id="70" cur="445" space=" " x="3" y="538" w="75" h="34">jeden</W>
+<W id="71" cur="451" space=" " x="76" y="538" w="48" h="34">der</W>
+<W id="72" cur="455" space=" " x="122" y="538" w="85" h="34">Morde</W>
 <W id="73" cur="460" x="198" y="538" w="16" h="34">.</W>
-<W id="74" cur="462" space="\0020" x="213" y="538" w="36" h="34">Er</W>
-<W id="75" cur="465" space="\0020" x="247" y="538" w="59" h="34">wird</W>
-<W id="76" cur="470" space="\0020" x="304" y="538" w="148" h="34">mindestens</W>
-<W id="77" cur="481" space="\0020" x="450" y="538" w="39" h="34">30</W>
-<W id="78" cur="484" space="\0020" x="487" y="538" w="77" h="34">Jahre</W>
-<W id="79" cur="490" space="\0020" x="562" y="538" w="38" h="34">im</W>
-<W id="80" cur="493" space="\0020" x="597" y="538" w="148" h="34">Gefaengnis</W>
-<W id="81" cur="504" space="\0020" x="743" y="538" w="81" h="34">sitzen</W>
+<W id="74" cur="462" space=" " x="213" y="538" w="36" h="34">Er</W>
+<W id="75" cur="465" space=" " x="247" y="538" w="59" h="34">wird</W>
+<W id="76" cur="470" space=" " x="304" y="538" w="148" h="34">mindestens</W>
+<W id="77" cur="481" space=" " x="450" y="538" w="39" h="34">30</W>
+<W id="78" cur="484" space=" " x="487" y="538" w="77" h="34">Jahre</W>
+<W id="79" cur="490" space=" " x="562" y="538" w="38" h="34">im</W>
+<W id="80" cur="493" space=" " x="597" y="538" w="148" h="34">Gefaengnis</W>
+<W id="81" cur="504" space=" " x="743" y="538" w="81" h="34">sitzen</W>
 <W id="82" cur="510" x="815" y="538" w="16" h="34">.</W>
-<W id="83" cur="512" space="\0020" x="830" y="538" w="83" h="34">Police</W>
-<W id="84" cur="519" space="\0020" x="911" y="538" w="90" h="34">Officer</W>
-<W id="85" cur="527" space="\0020" x="999" y="538" w="73" h="34">Chris</W>
-<W id="86" cur="533" space="\0020" x="1070" y="538" w="84" h="34">Gregg</W>
-<W id="87" cur="539" space="\0020" x="3" y="569" w="76" h="34">sagte</W>
+<W id="83" cur="512" space=" " x="830" y="538" w="83" h="34">Police</W>
+<W id="84" cur="519" space=" " x="911" y="538" w="90" h="34">Officer</W>
+<W id="85" cur="527" space=" " x="999" y="538" w="73" h="34">Chris</W>
+<W id="86" cur="533" space=" " x="1070" y="538" w="84" h="34">Gregg</W>
+<W id="87" cur="539" space=" " x="3" y="569" w="76" h="34">sagte</W>
 <W id="88" cur="544" x="70" y="569" w="16" h="34">,</W>
-<W id="89" cur="546" space="\0020" x="85" y="569" w="67" h="34">dass</W>
-<W id="90" cur="551" space="\0020" x="150" y="569" w="82" h="34">Norris</W>
-<W id="91" cur="558" space="\0020" x="230" y="569" w="58" h="34">sich</W>
-<W id="92" cur="563" space="\0020" x="286" y="569" w="38" h="34">im</W>
-<W id="93" cur="566" space="\0020" x="321" y="569" w="169" h="34">Krankenhaus</W>
-<W id="94" cur="578" space="\0020" x="488" y="569" w="104" h="34">seltsam</W>
-<W id="95" cur="586" space="\0020" x="589" y="569" w="121" h="34">verhalten</W>
-<W id="96" cur="596" space="\0020" x="708" y="569" w="46" h="34">hat</W>
+<W id="89" cur="546" space=" " x="85" y="569" w="67" h="34">dass</W>
+<W id="90" cur="551" space=" " x="150" y="569" w="82" h="34">Norris</W>
+<W id="91" cur="558" space=" " x="230" y="569" w="58" h="34">sich</W>
+<W id="92" cur="563" space=" " x="286" y="569" w="38" h="34">im</W>
+<W id="93" cur="566" space=" " x="321" y="569" w="169" h="34">Krankenhaus</W>
+<W id="94" cur="578" space=" " x="488" y="569" w="104" h="34">seltsam</W>
+<W id="95" cur="586" space=" " x="589" y="569" w="121" h="34">verhalten</W>
+<W id="96" cur="596" space=" " x="708" y="569" w="46" h="34">hat</W>
 <W id="97" cur="599" x="746" y="569" w="16" h="34">.</W>
-<W id="98" cur="601" space="\0020" x="761" y="569" w="53" h="34">Nur</W>
-<W id="99" cur="605" space="\0020" x="812" y="569" w="53" h="34">das</W>
-<W id="100" cur="609" space="\0020" x="863" y="569" w="191" h="34">Vorhandensein</W>
-<W id="101" cur="623" space="\0020" x="1052" y="569" w="48" h="34">der</W>
-<W id="102" cur="627" space="\0020" x="3" y="600" w="108" h="34">anderen</W>
-<W id="103" cur="635" space="\0020" x="109" y="600" w="297" h="34">Krankenhausmitarbeiter</W>
-<W id="104" cur="658" space="\0020" x="404" y="600" w="83" h="34">setzte</W>
-<W id="105" cur="665" space="\0020" x="485" y="600" w="89" h="34">seinen</W>
-<W id="106" cur="672" space="\0020" x="572" y="600" w="100" h="34">Morden</W>
-<W id="107" cur="679" space="\0020" x="670" y="600" w="45" h="34">ein</W>
-<W id="108" cur="683" space="\0020" x="713" y="600" w="72" h="34">Ende</W>
+<W id="98" cur="601" space=" " x="761" y="569" w="53" h="34">Nur</W>
+<W id="99" cur="605" space=" " x="812" y="569" w="53" h="34">das</W>
+<W id="100" cur="609" space=" " x="863" y="569" w="191" h="34">Vorhandensein</W>
+<W id="101" cur="623" space=" " x="1052" y="569" w="48" h="34">der</W>
+<W id="102" cur="627" space=" " x="3" y="600" w="108" h="34">anderen</W>
+<W id="103" cur="635" space=" " x="109" y="600" w="297" h="34">Krankenhausmitarbeiter</W>
+<W id="104" cur="658" space=" " x="404" y="600" w="83" h="34">setzte</W>
+<W id="105" cur="665" space=" " x="485" y="600" w="89" h="34">seinen</W>
+<W id="106" cur="672" space=" " x="572" y="600" w="100" h="34">Morden</W>
+<W id="107" cur="679" space=" " x="670" y="600" w="45" h="34">ein</W>
+<W id="108" cur="683" space=" " x="713" y="600" w="72" h="34">Ende</W>
 <W id="109" cur="687" x="776" y="600" w="16" h="34">.</W>
-<W id="110" cur="689" space="\0020" x="791" y="600" w="50" h="34">Die</W>
-<W id="111" cur="693" space="\0020" x="839" y="600" w="89" h="34">Polizei</W>
-<W id="112" cur="701" space="\0020" x="926" y="600" w="54" h="34">gab</W>
-<W id="113" cur="705" space="\0020" x="978" y="600" w="39" h="34">an</W>
+<W id="110" cur="689" space=" " x="791" y="600" w="50" h="34">Die</W>
+<W id="111" cur="693" space=" " x="839" y="600" w="89" h="34">Polizei</W>
+<W id="112" cur="701" space=" " x="926" y="600" w="54" h="34">gab</W>
+<W id="113" cur="705" space=" " x="978" y="600" w="39" h="34">an</W>
 <W id="114" cur="707" x="1008" y="600" w="16" h="34">,</W>
-<W id="115" cur="709" space="\0020" x="1023" y="600" w="67" h="34">dass</W>
-<W id="116" cur="714" space="\0020" x="1088" y="600" w="53" h="34">das</W>
-<W id="117" cur="718" space="\0020" x="3" y="631" w="74" h="34">Motiv</W>
-<W id="118" cur="724" space="\0020" x="75" y="631" w="41" h="34">für</W>
-<W id="119" cur="728" space="\0020" x="114" y="631" w="45" h="34">die</W>
-<W id="120" cur="732" space="\0020" x="157" y="631" w="85" h="34">Morde</W>
-<W id="121" cur="738" space="\0020" x="240" y="631" w="53" h="34">war</W>
+<W id="115" cur="709" space=" " x="1023" y="600" w="67" h="34">dass</W>
+<W id="116" cur="714" space=" " x="1088" y="600" w="53" h="34">das</W>
+<W id="117" cur="718" space=" " x="3" y="631" w="74" h="34">Motiv</W>
+<W id="118" cur="724" space=" " x="75" y="631" w="41" h="34">für</W>
+<W id="119" cur="728" space=" " x="114" y="631" w="45" h="34">die</W>
+<W id="120" cur="732" space=" " x="157" y="631" w="85" h="34">Morde</W>
+<W id="121" cur="738" space=" " x="240" y="631" w="53" h="34">war</W>
 <W id="122" cur="741" x="284" y="631" w="16" h="34">,</W>
-<W id="123" cur="743" space="\0020" x="299" y="631" w="67" h="34">dass</W>
-<W id="124" cur="748" space="\0020" x="364" y="631" w="82" h="34">Norris</W>
-<W id="125" cur="755" space="\0020" x="444" y="631" w="66" h="34">nciht</W>
-<W id="126" cur="761" space="\0020" x="509" y="631" w="44" h="34">mit</W>
-<W id="127" cur="765" space="\0020" x="552" y="631" w="68" h="34">alten</W>
-<W id="128" cur="771" space="\0020" x="618" y="631" w="134" h="34">Menschen</W>
-<W id="129" cur="780" space="\0020" x="750" y="631" w="107" h="34">arbeiten</W>
-<W id="130" cur="789" space="\0020" x="855" y="631" w="98" h="34">mochte</W>
+<W id="123" cur="743" space=" " x="299" y="631" w="67" h="34">dass</W>
+<W id="124" cur="748" space=" " x="364" y="631" w="82" h="34">Norris</W>
+<W id="125" cur="755" space=" " x="444" y="631" w="66" h="34">nciht</W>
+<W id="126" cur="761" space=" " x="509" y="631" w="44" h="34">mit</W>
+<W id="127" cur="765" space=" " x="552" y="631" w="68" h="34">alten</W>
+<W id="128" cur="771" space=" " x="618" y="631" w="134" h="34">Menschen</W>
+<W id="129" cur="780" space=" " x="750" y="631" w="107" h="34">arbeiten</W>
+<W id="130" cur="789" space=" " x="855" y="631" w="98" h="34">mochte</W>
 <W id="131" cur="795" x="944" y="631" w="16" h="34">.</W>
-<W id="132" cur="797" space="\0020" x="959" y="631" w="54" h="34">Alle</W>
-<W id="133" cur="802" space="\0020" x="1011" y="631" w="74" h="34">seine</W>
-<W id="134" cur="808" space="\0020" x="1083" y="631" w="77" h="34">Opfer</W>
-<W id="135" cur="814" space="\0020" x="3" y="662" w="83" h="34">waren</W>
-<W id="136" cur="820" space="\0020" x="84" y="662" w="53" h="34">alte</W>
-<W id="137" cur="825" space="\0020" x="135" y="662" w="131" h="34">schwache</W>
-<W id="138" cur="834" space="\0020" x="264" y="662" w="95" h="34">Frauen</W>
-<W id="139" cur="841" space="\0020" x="357" y="662" w="44" h="34">mit</W>
-<W id="140" cur="845" space="\0020" x="400" y="662" w="194" h="34">Herzproblemen</W>
+<W id="132" cur="797" space=" " x="959" y="631" w="54" h="34">Alle</W>
+<W id="133" cur="802" space=" " x="1011" y="631" w="74" h="34">seine</W>
+<W id="134" cur="808" space=" " x="1083" y="631" w="77" h="34">Opfer</W>
+<W id="135" cur="814" space=" " x="3" y="662" w="83" h="34">waren</W>
+<W id="136" cur="820" space=" " x="84" y="662" w="53" h="34">alte</W>
+<W id="137" cur="825" space=" " x="135" y="662" w="131" h="34">schwache</W>
+<W id="138" cur="834" space=" " x="264" y="662" w="95" h="34">Frauen</W>
+<W id="139" cur="841" space=" " x="357" y="662" w="44" h="34">mit</W>
+<W id="140" cur="845" space=" " x="400" y="662" w="194" h="34">Herzproblemen</W>
 <W id="141" cur="858" x="585" y="662" w="16" h="34">.</W>
-<W id="142" cur="860" space="\0020" x="600" y="662" w="54" h="34">Alle</W>
-<W id="143" cur="865" space="\0020" x="652" y="662" w="53" h="34">von</W>
-<W id="144" cur="869" space="\0020" x="703" y="662" w="75" h="34">ihnen</W>
-<W id="145" cur="875" space="\0020" x="776" y="662" w="91" h="34">könnte</W>
-<W id="146" cur="882" space="\0020" x="865" y="662" w="60" h="34">eine</W>
-<W id="147" cur="887" space="\0020" x="923" y="662" w="130" h="34">Belastung</W>
-<W id="148" cur="897" space="\0020" x="1051" y="662" w="41" h="34">für</W>
-<W id="149" cur="901" space="\0020" x="1090" y="662" w="53" h="34">das</W>
-<W id="150" cur="905" space="\0020" x="3" y="693" w="273" h="34">Krankenhauspersonal</W>
-<W id="151" cur="925" space="\0020" x="274" y="693" w="98" h="34">werden</W>
+<W id="142" cur="860" space=" " x="600" y="662" w="54" h="34">Alle</W>
+<W id="143" cur="865" space=" " x="652" y="662" w="53" h="34">von</W>
+<W id="144" cur="869" space=" " x="703" y="662" w="75" h="34">ihnen</W>
+<W id="145" cur="875" space=" " x="776" y="662" w="91" h="34">könnte</W>
+<W id="146" cur="882" space=" " x="865" y="662" w="60" h="34">eine</W>
+<W id="147" cur="887" space=" " x="923" y="662" w="130" h="34">Belastung</W>
+<W id="148" cur="897" space=" " x="1051" y="662" w="41" h="34">für</W>
+<W id="149" cur="901" space=" " x="1090" y="662" w="53" h="34">das</W>
+<W id="150" cur="905" space=" " x="3" y="693" w="273" h="34">Krankenhauspersonal</W>
+<W id="151" cur="925" space=" " x="274" y="693" w="98" h="34">werden</W>
 </Text>

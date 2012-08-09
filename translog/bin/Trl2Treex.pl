@@ -65,10 +65,10 @@ for (my $i= 1; $i<= $#{$F}; $i++) {
     next;
   }
   AppendTargetZone($F->[$i]);
-  AttachUnAlignedNodes(@unaligned_nodes);
 }
 
 
+AttachUnAlignedNodes(@unaligned_nodes);
 $doc->save("$opt_O.treex.gz");
 
 exit;
@@ -147,7 +147,13 @@ sub ReadTranslogFile {
       if(/target="([^"]*)"/) {$TargetLanguage =$1;}
     }
     if(/<Events>/) {$type =1; }
-    elsif(/<Alignment/)   {$type =6; $AlignmentHeader = $_; $AlignmentHeader =~ s/<Alignment//; $AlignmentHeader =~ s/>//;}
+    elsif(/<Alignment/)   {$type =6; 
+      $AlignmentHeader = $_; 
+      $AlignmentHeader =~ s/<Alignment//; 
+      $AlignmentHeader =~ s/source="[^"]*"//; 
+      $AlignmentHeader =~ s/target="[^"]*"//; 
+      $AlignmentHeader =~ s/>//;
+    }
     elsif(/<SourceToken/) {
         $type =7; 
         $SourceTokenHeader = $_; 
@@ -292,7 +298,8 @@ sub AppendTargetZone {
 
 #print STDERR "FinalTokenheader: $FinalTokenheader\n";
   $FinalTokenheader =~ s/ ([^=]*)="([^"]*)"/HeaderAttributes($selector, $1, $2)/ego;
-  $doc->wild->{annotation}{"$selector"}{fileName}  = $fn;
+  $AlignmentHeader =~ s/ ([^=]*)="([^"]*)"/HeaderAttributes($selector, $1, $2)/ego;
+#  $doc->wild->{annotation}{"$selector"}{fileName}  = $fn;
 
   my $sent = 1;
   foreach my $id (sort {$a <=> $b} keys %{$TOK->{fin}}) {
@@ -302,6 +309,7 @@ sub AppendTargetZone {
       foreach my $sid (keys %{$ALN->{tid}{$id}{sid}}) {
 ##printf STDERR "TGT: $TOK->{fin}{$id}{id} $id a:$sid node:%s\n", $doc->get_node_by_id("src_$sid");
         $node->add_aligned_node($doc->get_node_by_id("src_$sid"), 'alignment');
+#        $node->wild->{alignment}{$sid}++;
       }
       my @anodes = $node->get_aligned_nodes_of_type("alignment");
 
@@ -310,11 +318,12 @@ sub AppendTargetZone {
 ### aligned nodes must be in same bundle printf STDERR "AAAA: %s\t%s\n", $anode->get_bundle()->id(), $bundle->id();
         if($anode->get_bundle()->id() ne $bundle->id()) {
           $bundle = $anode->get_bundle();
-          $zone_tgt = $anode->get_bundle()->get_or_create_zone($TargetLanguage, "$selector");
+          $zone_tgt = $anode->get_bundle()->get_or_create_zone($TargetLanguage, $selector);
           if($zone_tgt->has_atree) {
-            printf STDERR "WARNING: 1-to-n alignment $selector\tbundle:%s\ttoken:%s\tform:%s\n", 
+            printf STDERR "WARNING: word crossing sentence alignment ignored $selector\tbundle:%s\ttoken:%s\tform:%s\n", 
                    $bundle->id(), $id,  $TOK->{fin}{$id}{tok};
-            $root_tgt = $zone_tgt->get_atree();
+#            $root_tgt = $zone_tgt->get_atree();
+#            $node->wild->{alignmentError} ++;
           }
           else {$root_tgt = $zone_tgt->create_atree;}
           $node->set_parent($root_tgt);
@@ -348,19 +357,24 @@ sub AppendTargetZone {
 sub AttachUnAlignedNodes {
   my (@unaligned_nodes) = @_;
 
+LonelyNode:
   foreach my $node (@unaligned_nodes) {
     my $left = $node->get_left_neighbor();
-    my $right = $node->get_right_neighbor();
 
 #printf STDERR "Node0 b:%s n:%s n:%s\tf:%s\n", $node->get_bundle()->id(), $node->{wild}{id},  $node->selector, $node->form;
-
     if (!defined($left)) { next;}   ## first node in tree
-    if (defined($right) && $right->get_aligned_nodes_of_type("alignment")) {next;}
 
+    my $right = $node->get_right_neighbor();
+    while(defined($right)) {
+      if($right->get_aligned_nodes_of_type("alignment")) {next LonelyNode;}
+      $right = $right->get_right_neighbor();
+    }
+
+#printf STDERR "Node1 %s:'%s'\n", $node->id, $node->form;
     if(defined($left->wild->{boundary}) && $left->wild->{boundary} eq "sentence") {
       my $next_zone = get_next_zone($node->get_zone());
       if(!defined($next_zone)){
-        printf STDERR "Undefined Next Zone %s %s\n"; $node->get_bundle()->id(), $node->form;
+        printf STDERR "Undefined Next Zone %s %s\n", $node->get_bundle()->id(), $node->form;
         next;
       }
       my $first = $next_zone->get_atree()->get_descendants({first_only=>1});

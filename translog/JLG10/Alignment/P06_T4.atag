@@ -58,7 +58,7 @@
 <align creator="" in="b71" insign="Brazilian" out="a81" outsign="brasileiros" type=""/>
 <align creator="" in="b73" insign=":" out="a82" outsign=":" type=""/>
 <align creator="" in="b74" insign="the" out="a83" outsign="a" type=""/>
-<align creator="" in="b75" insign="\0022" out="a85" outsign="eletrônica" type=""/>
+<align creator="" in="b75" insign="&quot;" out="a85" outsign="eletrônica" type=""/>
 <align creator="" in="b76" insign="electronic" out="a85" outsign="eletrônica" type=""/>
 <align creator="" in="b79" insign="," out="a87" outsign="," type=""/>
 <align creator="" in="b81" insign="device" out="a88" outsign="aparelho" type=""/>
@@ -153,7 +153,7 @@
 <align creator="" in="b58" insign="published" out="a66" outsign="publicada" type=""/>
 <align creator="" in="b70" insign="by" out="a79" outsign="por" type=""/>
 <align creator="" in="b77" insign="tongue" out="a84" outsign="'língua" type=""/>
-<align creator="" in="b78" insign="\0022" out="a84" outsign="'língua" type=""/>
+<align creator="" in="b78" insign="&quot;" out="a84" outsign="'língua" type=""/>
 <align creator="" in="b89" insign="than" out="a97" outsign="que" type=""/>
 <align creator="" in="b86" insign="much" out="a95" outsign="muito" type=""/>
 <align creator="" in="b87" insign="more" out="a96" outsign="maior" type=""/>

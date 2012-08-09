@@ -60,7 +60,7 @@
 <align creator="" in="b87" insign=":" out="a82" outsign=":" type=""/>
 <align creator="" in="b88" insign="the" out="a83" outsign="a" type=""/>
 <align creator="" in="b90" insign="electronic" out="a85" outsign="eletrônica" type=""/>
-<align creator="" in="b92" insign="\0022" out="a85" outsign="eletrônica" type=""/>
+<align creator="" in="b92" insign="&quot;" out="a85" outsign="eletrônica" type=""/>
 <align creator="" in="b90" insign="electronic" out="a86" outsign="'" type=""/>
 <align creator="" in="b93" insign="," out="a87" outsign="," type=""/>
 <align creator="" in="b95" insign="device" out="a88" outsign="aparelho" type=""/>
@@ -186,7 +186,7 @@
 <align creator="" in="b81" insign="product" out="a75" outsign="produto" type=""/>
 <align creator="" in="b84" insign="by" out="a79" outsign="por" type=""/>
 <align creator="" in="b91" insign="tongue" out="a84" outsign="'língua" type=""/>
-<align creator="" in="b89" insign="\0022" out="a84" outsign="'língua" type=""/>
+<align creator="" in="b89" insign="&quot;" out="a84" outsign="'língua" type=""/>
 <align creator="" in="b102" insign="greater" out="a96" outsign="maior" type=""/>
 <align creator="" in="b103" insign="precision" out="a94" outsign="precisão" type=""/>
 <align creator="" in="b104" insign="than" out="a97" outsign="que" type=""/>

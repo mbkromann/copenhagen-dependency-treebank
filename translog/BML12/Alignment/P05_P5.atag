@@ -139,8 +139,8 @@
 <align creator="" in="b138" insign="latín" out="a120" outsign="Latin" type=""/>
 <align creator="" in="b140" insign="term" out="a121" outsign="term" type=""/>
 <align creator="" in="b141" insign="socius" out="a122" outsign="socius" type=""/>
-<align creator="" in="b142" insign="\0022" out="a122" outsign="socius" type=""/>
-<align creator="" in="b139" insign="\0022" out="a122" outsign="socius" type=""/>
+<align creator="" in="b142" insign="&quot;" out="a122" outsign="socius" type=""/>
+<align creator="" in="b139" insign="&quot;" out="a122" outsign="socius" type=""/>
 <align creator="" in="b143" insign="(" out="a123" outsign="(" type=""/>
 <align creator="" in="b144" insign="compañero" out="a124" outsign="companion" type=""/>
 <align creator="" in="b145" insign="," out="a125" outsign="," type=""/>

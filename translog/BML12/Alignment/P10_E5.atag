@@ -108,7 +108,7 @@
 <align creator="" in="b135" insign="y" out="a128" outsign="and" type=""/>
 <align creator="" in="b136" insign="el" out="a129" outsign="the" type=""/>
 <align creator="" in="b140" insign="logia" out="a132" outsign="logia" type=""/>
-<align creator="" in="b141" insign="\0022" out="a132" outsign="logia" type=""/>
+<align creator="" in="b141" insign="&quot;" out="a132" outsign="logia" type=""/>
 <align creator="" in="b142" insign="(" out="a133" outsign="(" type=""/>
 <align creator="" in="b143" insign="estudio" out="a134" outsign="study" type=""/>
 <align creator="" in="b144" insign="," out="a136" outsign="," type=""/>
@@ -138,9 +138,9 @@
 <align creator="" in="b109" insign="sociología" out="a105" outsign="sociology" type=""/>
 <align creator="" in="b126" insign="latino" out="a120" outsign="Latin" type=""/>
 <align creator="" in="b124" insign="del" out="a119" outsign="the" type=""/>
-<align creator="" in="b127" insign="\0022" out="a122" outsign="socius" type=""/>
-<align creator="" in="b129" insign="\0022" out="a122" outsign="socius" type=""/>
-<align creator="" in="b139" insign="\0022" out="a132" outsign="logia" type=""/>
+<align creator="" in="b127" insign="&quot;" out="a122" outsign="socius" type=""/>
+<align creator="" in="b129" insign="&quot;" out="a122" outsign="socius" type=""/>
+<align creator="" in="b139" insign="&quot;" out="a132" outsign="logia" type=""/>
 <align creator="" in="b137" insign="término" out="a131" outsign="term" type=""/>
 <align creator="" in="b138" insign="griego" out="a130" outsign="Greek" type=""/>
 </DTAGalign>
