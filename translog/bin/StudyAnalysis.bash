@@ -272,7 +272,7 @@ elif [ "$1" == "make" ]; then
     for study in $STUDY 
     do 
         echo "make copy $study "
-#        CopyData $study;
+        CopyData $study;
         echo "make annotation $study "
         AnnotateTrl $study; 
         echo "make events $study "

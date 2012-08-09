@@ -63,6 +63,8 @@ def do_tagging_treetagger(sentence,language,treetagger_path):
                 info=line.split("\t")
                 if(info[2]=="<unknown>"):
                     info[2]="_"
+                #if The quote symbol has already been encoded by the tagger
+                info[1]=info[1].replace("&quot;","\"")
                 
                 #tokenizer incompatibility
                 word_tag_lemma.append(info)
