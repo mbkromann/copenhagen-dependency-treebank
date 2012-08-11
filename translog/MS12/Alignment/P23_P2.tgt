@@ -1,156 +1,157 @@
-<Text language="zh" >
-<W cur="0" id="1">生活</W>
-<W cur="2" id="2">开支</W>
-<W cur="4" id="3">不断</W>
-<W cur="6" id="4">增长</W>
-<W cur="8" id="5">,</W>
-<W cur="10" id="6" space=" ">家庭</W>
-<W cur="12" id="7">遭受</W>
-<W cur="14" id="8">沉重</W>
-<W cur="16" id="9">打击</W>
-<W cur="19" id="10" space="&#xA;">由于</W>
-<W cur="21" id="11">食品</W>
-<W cur="23" id="12">和</W>
-<W cur="24" id="13">燃料</W>
-<W cur="26" id="14">价格</W>
-<W cur="28" id="15">在</W>
-<W cur="29" id="16">最近</W>
-<W cur="31" id="17">17</W>
-<W cur="33" id="18">年</W>
-<W cur="34" id="19">来</W>
-<W cur="35" id="20">增幅</W>
-<W cur="37" id="21">过</W>
-<W cur="38" id="22">快</W>
-<W cur="39" id="23">,</W>
-<W cur="40" id="24">英国</W>
-<W cur="42" id="25">家庭</W>
-<W cur="44" id="26">不得不</W>
-<W cur="47" id="27">承受</W>
-<W cur="49" id="28">每</W>
-<W cur="50" id="29">年</W>
-<W cur="51" id="30">高达</W>
-<W cur="53" id="31">31,300</W>
-<W cur="59" id="32">镑</W>
-<W cur="60" id="33">的</W>
-<W cur="61" id="34">额外</W>
-<W cur="63" id="35">费用</W>
-<W cur="65" id="36">.</W>
-<W cur="66" id="37">在</W>
-<W cur="67" id="38">过去</W>
-<W cur="69" id="39">的</W>
-<W cur="70" id="40">一</W>
-<W cur="71" id="41">年</W>
-<W cur="72" id="42">，</W>
-<W cur="73" id="43">超市</W>
-<W cur="75" id="44">物价</W>
-<W cur="77" id="45">在</W>
-<W cur="78" id="46">以</W>
-<W cur="79" id="47">惊人</W>
-<W cur="81" id="48">的</W>
-<W cur="82" id="49">速度</W>
-<W cur="84" id="50">攀升</W>
-<W cur="86" id="51">。</W>
-<W cur="87" id="52">分析家</W>
-<W cur="90" id="53">警告</W>
-<W cur="92" id="54">，</W>
-<W cur="93" id="55">价格</W>
-<W cur="95" id="56">还</W>
-<W cur="96" id="57">将</W>
-<W cur="97" id="58">进一步</W>
-<W cur="100" id="59">提高</W>
-<W cur="102" id="60">，</W>
-<W cur="103" id="61">英国</W>
-<W cur="105" id="62">央行</W>
-<W cur="107" id="63">很</W>
-<W cur="108" id="64">难</W>
-<W cur="109" id="65">降息</W>
-<W cur="111" id="66">，</W>
-<W cur="112" id="67">因为</W>
-<W cur="114" id="68">它</W>
-<W cur="115" id="69">得</W>
-<W cur="116" id="70">竭力</W>
-<W cur="118" id="71">遏制</W>
-<W cur="120" id="72">通货膨胀</W>
-<W cur="124" id="73">，</W>
-<W cur="125" id="74">并</W>
-<W cur="126" id="75">控制</W>
-<W cur="128" id="76">好</W>
-<W cur="129" id="77">经济</W>
-<W cur="131" id="78">格局</W>
-<W cur="133" id="79">。</W>
-<W cur="134" id="80">糟糕</W>
-<W cur="136" id="81">的</W>
-<W cur="137" id="82">是</W>
-<W cur="138" id="83">，</W>
-<W cur="139" id="84">物价</W>
-<W cur="141" id="85">的</W>
-<W cur="142" id="86">增长</W>
-<W cur="144" id="87">速度</W>
-<W cur="146" id="88">远远</W>
-<W cur="148" id="89">超出</W>
-<W cur="150" id="90">薪酬</W>
-<W cur="152" id="91">增长</W>
-<W cur="154" id="92">速度</W>
-<W cur="156" id="93">，</W>
-<W cur="157" id="94">尤其</W>
-<W cur="159" id="95">是</W>
-<W cur="160" id="96">那些</W>
-<W cur="162" id="97">护士</W>
-<W cur="164" id="98">和</W>
-<W cur="165" id="99">医护</W>
-<W cur="167" id="100">人员</W>
-<W cur="169" id="101">，</W>
-<W cur="170" id="102">他们</W>
-<W cur="172" id="103">遭受</W>
-<W cur="174" id="104">的</W>
-<W cur="175" id="105">打击</W>
-<W cur="177" id="106">更</W>
-<W cur="178" id="107">大</W>
-<W cur="179" id="108">，</W>
-<W cur="180" id="109">因为</W>
-<W cur="182" id="110">政府</W>
-<W cur="184" id="111">部门</W>
-<W cur="186" id="112">要求</W>
-<W cur="188" id="113">那些</W>
-<W cur="190" id="114">公共</W>
-<W cur="192" id="115">部门</W>
-<W cur="194" id="116">不得</W>
-<W cur="196" id="117">随便</W>
-<W cur="198" id="118">增加</W>
-<W cur="200" id="119">工资</W>
-<W cur="202" id="120">，</W>
-<W cur="203" id="121">以</W>
-<W cur="204" id="122">便于</W>
-<W cur="206" id="123">控制</W>
-<W cur="208" id="124">通货膨胀</W>
-<W cur="212" id="125">。</W>
-<W cur="213" id="126">除了</W>
-<W cur="215" id="127">燃料</W>
-<W cur="217" id="128">和</W>
-<W cur="218" id="129">食品</W>
-<W cur="220" id="130">之外</W>
-<W cur="222" id="131">，</W>
-<W cur="223" id="132">电费</W>
-<W cur="225" id="133">也</W>
-<W cur="226" id="134">一路</W>
-<W cur="228" id="135">飙升</W>
-<W cur="230" id="136">，</W>
-<W cur="231" id="137">六</W>
-<W cur="232" id="138">个</W>
-<W cur="233" id="139">最</W>
-<W cur="234" id="140">大</W>
-<W cur="235" id="141">电力</W>
-<W cur="237" id="142">供应商</W>
-<W cur="240" id="143">中</W>
-<W cur="241" id="144">，</W>
-<W cur="242" id="145">五</W>
-<W cur="243" id="146">个</W>
-<W cur="244" id="147">就</W>
-<W cur="245" id="148">让</W>
-<W cur="246" id="149">其</W>
-<W cur="247" id="150">客户</W>
-<W cur="249" id="151">的</W>
-<W cur="250" id="152">账单</W>
-<W cur="252" id="153">增加了</W>
-<W cur="255" id="154">。</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="zh" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" pos="vn">生活</W>
+ <W cur="2" id="2" pos="n">开支</W>
+ <W cur="4" id="3" pos="d">不断</W>
+ <W cur="6" id="4" pos="v">增长</W>
+ <W cur="8" id="5" pos="w">,</W>
+ <W cur="10" id="6" pos="n" space=" ">家庭</W>
+ <W cur="12" id="7" pos="v">遭受</W>
+ <W cur="14" id="8" pos="a">沉重</W>
+ <W cur="16" id="9" pos="vn">打击</W>
+ <W cur="19" id="10" pos="c" space="&#xA;">由于</W>
+ <W cur="21" id="11" pos="n">食品</W>
+ <W cur="23" id="12" pos="c">和</W>
+ <W cur="24" id="13" pos="n">燃料</W>
+ <W cur="26" id="14" pos="n">价格</W>
+ <W cur="28" id="15" pos="p">在</W>
+ <W cur="29" id="16" pos="t">最近</W>
+ <W cur="31" id="17" pos="m">17</W>
+ <W cur="33" id="18" pos="q">年</W>
+ <W cur="34" id="19" pos="f">来</W>
+ <W cur="35" id="20" pos="n">增幅</W>
+ <W cur="37" id="21" pos="u">过</W>
+ <W cur="38" id="22" pos="a">快</W>
+ <W cur="39" id="23" pos="w">,</W>
+ <W cur="40" id="24" pos="ns">英国</W>
+ <W cur="42" id="25" pos="n">家庭</W>
+ <W cur="44" id="26" pos="d">不得不</W>
+ <W cur="47" id="27" pos="v">承受</W>
+ <W cur="49" id="28" pos="r">每</W>
+ <W cur="50" id="29" pos="q">年</W>
+ <W cur="51" id="30" pos="nr">高达</W>
+ <W cur="53" id="31" pos="m">31,300</W>
+ <W cur="59" id="32" pos="q">镑</W>
+ <W cur="60" id="33" pos="u">的</W>
+ <W cur="61" id="34" pos="b">额外</W>
+ <W cur="63" id="35" pos="n">费用</W>
+ <W cur="65" id="36" pos="w">.</W>
+ <W cur="66" id="37" pos="p">在</W>
+ <W cur="67" id="38" pos="t">过去</W>
+ <W cur="69" id="39" pos="u">的</W>
+ <W cur="70" id="40" pos="m">一</W>
+ <W cur="71" id="41" pos="q">年</W>
+ <W cur="72" id="42" pos="w">，</W>
+ <W cur="73" id="43" pos="n">超市</W>
+ <W cur="75" id="44" pos="n">物价</W>
+ <W cur="77" id="45" pos="p">在</W>
+ <W cur="78" id="46" pos="p">以</W>
+ <W cur="79" id="47" pos="a">惊人</W>
+ <W cur="81" id="48" pos="u">的</W>
+ <W cur="82" id="49" pos="n">速度</W>
+ <W cur="84" id="50" pos="v">攀升</W>
+ <W boundary="sentence" cur="86" id="51" pos="ew">。</W>
+ <W cur="87" id="52" pos="n">分析家</W>
+ <W cur="90" id="53" pos="vn">警告</W>
+ <W cur="92" id="54" pos="w">，</W>
+ <W cur="93" id="55" pos="n">价格</W>
+ <W cur="95" id="56" pos="d">还</W>
+ <W cur="96" id="57" pos="d">将</W>
+ <W cur="97" id="58" pos="d">进一步</W>
+ <W cur="100" id="59" pos="v">提高</W>
+ <W cur="102" id="60" pos="w">，</W>
+ <W cur="103" id="61" pos="ns">英国</W>
+ <W cur="105" id="62" pos="j">央行</W>
+ <W cur="107" id="63" pos="d">很</W>
+ <W cur="108" id="64" pos="ad">难</W>
+ <W cur="109" id="65" pos="v">降息</W>
+ <W cur="111" id="66" pos="w">，</W>
+ <W cur="112" id="67" pos="p">因为</W>
+ <W cur="114" id="68" pos="r">它</W>
+ <W cur="115" id="69" pos="u">得</W>
+ <W cur="116" id="70" pos="d">竭力</W>
+ <W cur="118" id="71" pos="v">遏制</W>
+ <W cur="120" id="72" pos="l">通货膨胀</W>
+ <W cur="124" id="73" pos="w">，</W>
+ <W cur="125" id="74" pos="c">并</W>
+ <W cur="126" id="75" pos="v">控制</W>
+ <W cur="128" id="76" pos="a">好</W>
+ <W cur="129" id="77" pos="n">经济</W>
+ <W cur="131" id="78" pos="n">格局</W>
+ <W boundary="sentence" cur="133" id="79" pos="ew">。</W>
+ <W cur="134" id="80" pos="a">糟糕</W>
+ <W cur="136" id="81" pos="u">的</W>
+ <W cur="137" id="82" pos="v">是</W>
+ <W cur="138" id="83" pos="w">，</W>
+ <W cur="139" id="84" pos="n">物价</W>
+ <W cur="141" id="85" pos="u">的</W>
+ <W cur="142" id="86" pos="vn">增长</W>
+ <W cur="144" id="87" pos="n">速度</W>
+ <W cur="146" id="88" pos="d">远远</W>
+ <W cur="148" id="89" pos="v">超出</W>
+ <W cur="150" id="90" pos="n">薪酬</W>
+ <W cur="152" id="91" pos="v">增长</W>
+ <W cur="154" id="92" pos="n">速度</W>
+ <W cur="156" id="93" pos="w">，</W>
+ <W cur="157" id="94" pos="d">尤其</W>
+ <W cur="159" id="95" pos="v">是</W>
+ <W cur="160" id="96" pos="r">那些</W>
+ <W cur="162" id="97" pos="n">护士</W>
+ <W cur="164" id="98" pos="c">和</W>
+ <W cur="165" id="99" pos="vn">医护</W>
+ <W cur="167" id="100" pos="n">人员</W>
+ <W cur="169" id="101" pos="w">，</W>
+ <W cur="170" id="102" pos="r">他们</W>
+ <W cur="172" id="103" pos="v">遭受</W>
+ <W cur="174" id="104" pos="u">的</W>
+ <W cur="175" id="105" pos="vn">打击</W>
+ <W cur="177" id="106" pos="d">更</W>
+ <W cur="178" id="107" pos="a">大</W>
+ <W cur="179" id="108" pos="w">，</W>
+ <W cur="180" id="109" pos="p">因为</W>
+ <W cur="182" id="110" pos="n">政府</W>
+ <W cur="184" id="111" pos="n">部门</W>
+ <W cur="186" id="112" pos="v">要求</W>
+ <W cur="188" id="113" pos="r">那些</W>
+ <W cur="190" id="114" pos="b">公共</W>
+ <W cur="192" id="115" pos="n">部门</W>
+ <W cur="194" id="116" pos="v">不得</W>
+ <W cur="196" id="117" pos="ad">随便</W>
+ <W cur="198" id="118" pos="v">增加</W>
+ <W cur="200" id="119" pos="n">工资</W>
+ <W cur="202" id="120" pos="w">，</W>
+ <W cur="203" id="121" pos="p">以</W>
+ <W cur="204" id="122" pos="v">便于</W>
+ <W cur="206" id="123" pos="v">控制</W>
+ <W cur="208" id="124" pos="l">通货膨胀</W>
+ <W boundary="sentence" cur="212" id="125" pos="ew">。</W>
+ <W cur="213" id="126" pos="p">除了</W>
+ <W cur="215" id="127" pos="n">燃料</W>
+ <W cur="217" id="128" pos="c">和</W>
+ <W cur="218" id="129" pos="n">食品</W>
+ <W cur="220" id="130" pos="f">之外</W>
+ <W cur="222" id="131" pos="w">，</W>
+ <W cur="223" id="132" pos="n">电费</W>
+ <W cur="225" id="133" pos="d">也</W>
+ <W cur="226" id="134" pos="d">一路</W>
+ <W cur="228" id="135" pos="v">飙升</W>
+ <W cur="230" id="136" pos="w">，</W>
+ <W cur="231" id="137" pos="m">六</W>
+ <W cur="232" id="138" pos="q">个</W>
+ <W cur="233" id="139" pos="d">最</W>
+ <W cur="234" id="140" pos="a">大</W>
+ <W cur="235" id="141" pos="n">电力</W>
+ <W cur="237" id="142" pos="n">供应商</W>
+ <W cur="240" id="143" pos="f">中</W>
+ <W cur="241" id="144" pos="w">，</W>
+ <W cur="242" id="145" pos="m">五</W>
+ <W cur="243" id="146" pos="q">个</W>
+ <W cur="244" id="147" pos="d">就</W>
+ <W cur="245" id="148" pos="v">让</W>
+ <W cur="246" id="149" pos="r">其</W>
+ <W cur="247" id="150" pos="n">客户</W>
+ <W cur="249" id="151" pos="u">的</W>
+ <W cur="250" id="152" pos="n">账单</W>
+ <W cur="252" id="153" pos="v">增加了</W>
+ <W boundary="sentence" cur="255" id="154" pos="ew">。</W>
 </Text>

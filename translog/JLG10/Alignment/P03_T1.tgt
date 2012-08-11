@@ -1,251 +1,252 @@
-<Text language="pt" >
-<W cur="0" id="1">Amassar</W>
-<W cur="8" id="2" space=" ">uma</W>
-<W cur="12" id="3" space=" ">folha</W>
-<W cur="18" id="4" space=" ">de</W>
-<W cur="21" id="5" space=" ">papel</W>
-<W cur="27" id="6" space=" ">parece</W>
-<W cur="34" id="7" space=" ">simples</W>
-<W cur="42" id="8" space=" ">e</W>
-<W cur="44" id="9" space=" ">não</W>
-<W cur="48" id="10" space=" ">exige</W>
-<W cur="54" id="11" space=" ">muito</W>
-<W cur="60" id="12" space=" ">esforço</W>
-<W cur="67" id="13">,</W>
-<W cur="69" id="14" space=" ">mas</W>
-<W cur="73" id="15" space=" ">explicar</W>
-<W cur="82" id="16" space=" ">o</W>
-<W cur="84" id="17" space=" ">comportamento</W>
-<W cur="98" id="18" space=" ">da</W>
-<W cur="101" id="19" space=" ">bola</W>
-<W cur="106" id="20" space=" ">de</W>
-<W cur="109" id="21" space=" ">papel</W>
-<W cur="115" id="22" space=" ">amassado</W>
-<W cur="124" id="23" space=" ">é</W>
-<W cur="126" id="24" space=" ">outra</W>
-<W cur="132" id="25" space=" ">história</W>
-<W cur="140" id="26">.</W>
-<W cur="142" id="27" space=" ">Uma</W>
-<W cur="146" id="28" space=" ">bola</W>
-<W cur="151" id="29" space=" ">de</W>
-<W cur="154" id="30" space=" ">papel</W>
-<W cur="160" id="31" space=" ">amassado</W>
-<W cur="169" id="32" space=" ">possui</W>
-<W cur="176" id="33" space=" ">mais</W>
-<W cur="181" id="34" space=" ">de</W>
-<W cur="184" id="35" space=" ">75</W>
-<W cur="186" id="36">%</W>
-<W cur="188" id="37" space=" ">de</W>
-<W cur="191" id="38" space=" ">ar</W>
-<W cur="194" id="39" space=" ">em</W>
-<W cur="197" id="40" space=" ">sua</W>
-<W cur="201" id="41" space=" ">composição</W>
-<W cur="211" id="42">.</W>
-<W cur="213" id="43" space=" ">Apesar</W>
-<W cur="220" id="44" space=" ">disso</W>
-<W cur="225" id="45">,</W>
-<W cur="227" id="46" space=" ">ela</W>
-<W cur="231" id="47" space=" ">é</W>
-<W cur="233" id="48" space=" ">muito</W>
-<W cur="239" id="49" space=" ">forte</W>
-<W cur="245" id="50" space=" ">e</W>
-<W cur="247" id="51" space=" ">oferece</W>
-<W cur="255" id="52" space=" ">resistência</W>
-<W cur="267" id="53" space=" ">a</W>
-<W cur="269" id="54" space=" ">quem</W>
-<W cur="274" id="55" space=" ">tentar</W>
-<W cur="281" id="56" space=" ">amassá-la</W>
-<W cur="291" id="57" space=" ">ainda</W>
-<W cur="297" id="58" space=" ">mais</W>
-<W cur="301" id="59">;</W>
-<W cur="303" id="60" space=" ">este</W>
-<W cur="308" id="61" space=" ">comportamento</W>
-<W cur="322" id="62" space=" ">tem</W>
-<W cur="326" id="63" space=" ">sido</W>
-<W cur="331" id="64" space=" ">um</W>
-<W cur="334" id="65" space=" ">quebra-cabeça</W>
-<W cur="348" id="66" space=" ">para</W>
-<W cur="353" id="67" space=" ">os</W>
-<W cur="356" id="68" space=" ">cientistas</W>
-<W cur="366" id="69">.</W>
-<W cur="368" id="70" space=" ">Uma</W>
-<W cur="372" id="71" space=" ">pesquisa</W>
-<W cur="381" id="72" space=" ">relatada</W>
-<W cur="390" id="73" space=" ">no</W>
-<W cur="393" id="74" space=" ">periódico</W>
-<W cur="403" id="75" space=" ">Physical</W>
-<W cur="412" id="76" space=" ">Review</W>
-<W cur="419" id="77" space=" ">Letters</W>
-<W cur="426" id="78">,</W>
-<W cur="428" id="79" space=" ">entretanto</W>
-<W cur="438" id="80">,</W>
-<W cur="440" id="81" space=" ">tem</W>
-<W cur="444" id="82" space=" ">ajudado</W>
-<W cur="452" id="83" space=" ">a</W>
-<W cur="454" id="84" space=" ">elucidar</W>
-<W cur="463" id="85" space=" ">o</W>
-<W cur="465" id="86" space=" ">comportamento</W>
-<W cur="479" id="87" space=" ">de</W>
-<W cur="482" id="88" space=" ">folhas</W>
-<W cur="489" id="89" space=" ">de</W>
-<W cur="492" id="90" space=" ">papel</W>
-<W cur="498" id="91" space=" ">amassadas</W>
-<W cur="507" id="92">,</W>
-<W cur="509" id="93" space=" ">apresentando</W>
-<W cur="522" id="94" space=" ">a</W>
-<W cur="524" id="95" space=" ">relação</W>
-<W cur="532" id="96" space=" ">entre</W>
-<W cur="538" id="97" space=" ">alteração</W>
-<W cur="548" id="98" space=" ">no</W>
-<W cur="551" id="99" space=" ">tamanho</W>
-<W cur="559" id="100" space=" ">do</W>
-<W cur="562" id="101" space=" ">papel</W>
-<W cur="568" id="102" space=" ">e</W>
-<W cur="570" id="103" space=" ">a</W>
-<W cur="572" id="104" space=" ">força</W>
-<W cur="578" id="105" space=" ">a</W>
-<W cur="580" id="106" space=" ">que</W>
-<W cur="584" id="107" space=" ">o</W>
-<W cur="586" id="108" space=" ">papel</W>
-<W cur="592" id="109" space=" ">é</W>
-<W cur="594" id="110" space=" ">sujeita</W>
-<W cur="601" id="111">.</W>
-<W cur="604" id="112" space="&#xA;&#xA;">Amassar</W>
-<W cur="612" id="113" space=" ">uma</W>
-<W cur="616" id="114" space=" ">folha</W>
-<W cur="622" id="115" space=" ">fina</W>
-<W cur="627" id="116" space=" ">é</W>
-<W cur="628" id="117">,</W>
-<W cur="630" id="118" space=" ">essencialmente</W>
-<W cur="644" id="119">,</W>
-<W cur="646" id="120" space=" ">transformá-la</W>
-<W cur="660" id="121" space=" ">em</W>
-<W cur="663" id="122" space=" ">uma</W>
-<W cur="667" id="123" space=" ">massa</W>
-<W cur="673" id="124" space=" ">de</W>
-<W cur="676" id="125" space=" ">pontos</W>
-<W cur="683" id="126" space=" ">cônicos</W>
-<W cur="691" id="127" space=" ">entreligados</W>
-<W cur="704" id="128" space=" ">por</W>
-<W cur="708" id="129" space=" ">sulcos</W>
-<W cur="715" id="130" space=" ">curvados</W>
-<W cur="724" id="131" space=" ">que</W>
-<W cur="728" id="132" space=" ">armazenam</W>
-<W cur="738" id="133" space=" ">energia</W>
-<W cur="745" id="134">.</W>
-<W cur="747" id="135" space=" ">Ao</W>
-<W cur="750" id="136" space=" ">aumentar</W>
-<W cur="759" id="137" space=" ">a</W>
-<W cur="761" id="138" space=" ">compressão</W>
-<W cur="772" id="139" space=" ">do</W>
-<W cur="775" id="140" space=" ">papel</W>
-<W cur="780" id="141">,</W>
-<W cur="782" id="142" space=" ">estes</W>
-<W cur="788" id="143" space=" ">sulcos</W>
-<W cur="795" id="144" space=" ">se</W>
-<W cur="798" id="145" space=" ">quebram</W>
-<W cur="806" id="146" space=" ">e</W>
-<W cur="808" id="147" space=" ">outros</W>
-<W cur="815" id="148" space=" ">menores</W>
-<W cur="823" id="149" space=" ">se</W>
-<W cur="826" id="150" space=" ">formam</W>
-<W cur="832" id="151">,</W>
-<W cur="834" id="152" space=" ">o</W>
-<W cur="836" id="153" space=" ">que</W>
-<W cur="840" id="154" space=" ">aumenta</W>
-<W cur="848" id="155" space=" ">a</W>
-<W cur="850" id="156" space=" ">quantidade</W>
-<W cur="861" id="157" space=" ">de</W>
-<W cur="864" id="158" space=" ">energia</W>
-<W cur="872" id="159" space=" ">armazenada</W>
-<W cur="883" id="160" space=" ">na</W>
-<W cur="886" id="161" space=" ">bola</W>
-<W cur="891" id="162" space=" ">de</W>
-<W cur="894" id="163" space=" ">papel</W>
-<W cur="899" id="164">.</W>
-<W cur="901" id="165" space=" ">Cientistas</W>
-<W cur="912" id="166" space=" ">da</W>
-<W cur="915" id="167" space=" ">Universidade</W>
-<W cur="928" id="168" space=" ">de</W>
-<W cur="931" id="169" space=" ">Chicago</W>
-<W cur="939" id="170" space=" ">apresentaram</W>
-<W cur="952" id="171" space=" ">um</W>
-<W cur="955" id="172" space=" ">modelo</W>
-<W cur="962" id="173" space=" ">da</W>
-<W cur="965" id="174" space=" ">relação</W>
-<W cur="973" id="175" space=" ">entre</W>
-<W cur="979" id="176" space=" ">a</W>
-<W cur="981" id="177" space=" ">força</W>
-<W cur="987" id="178" space=" ">de</W>
-<W cur="990" id="179" space=" ">compressão</W>
-<W cur="1001" id="180" space=" ">e</W>
-<W cur="1003" id="181" space=" ">o</W>
-<W cur="1005" id="182" space=" ">tamanho</W>
-<W cur="1013" id="183" space=" ">da</W>
-<W cur="1016" id="184" space=" ">bola</W>
-<W cur="1020" id="185">.</W>
-<W cur="1022" id="186" space=" ">Os</W>
-<W cur="1025" id="187" space=" ">pesquisadores</W>
-<W cur="1039" id="188" space=" ">amassaram</W>
-<W cur="1049" id="189" space=" ">uma</W>
-<W cur="1053" id="190" space=" ">folha</W>
-<W cur="1059" id="191" space=" ">fina</W>
-<W cur="1064" id="192" space=" ">de</W>
-<W cur="1067" id="193" space=" ">poliéster</W>
-<W cur="1077" id="194">(</W>
-<W cur="1078" id="195">boPET</W>
-<W cur="1083" id="196">,</W>
-<W cur="1085" id="197" space=" ">ou</W>
-<W cur="1088" id="198" space=" ">filme</W>
-<W cur="1094" id="199" space=" ">PET</W>
-<W cur="1097" id="200">)</W>
-<W cur="1099" id="201" space=" ">e</W>
-<W cur="1100" id="202">,</W>
-<W cur="1102" id="203" space=" ">em</W>
-<W cur="1105" id="204" space=" ">seguida</W>
-<W cur="1112" id="205">,</W>
-<W cur="1114" id="206" space=" ">a</W>
-<W cur="1116" id="207" space=" ">colocaram</W>
-<W cur="1126" id="208" space=" ">dentro</W>
-<W cur="1133" id="209" space=" ">de</W>
-<W cur="1136" id="210" space=" ">um</W>
-<W cur="1139" id="211" space=" ">cilindro</W>
-<W cur="1148" id="212" space=" ">equipado</W>
-<W cur="1157" id="213" space=" ">com</W>
-<W cur="1161" id="214" space=" ">um</W>
-<W cur="1164" id="215" space=" ">pistão</W>
-<W cur="1170" id="216">,</W>
-<W cur="1172" id="217" space=" ">que</W>
-<W cur="1176" id="218" space=" ">servia</W>
-<W cur="1183" id="219" space=" ">para</W>
-<W cur="1188" id="220" space=" ">amassar</W>
-<W cur="1196" id="221" space=" ">a</W>
-<W cur="1198" id="222" space=" ">folha</W>
-<W cur="1204" id="223" space=" ">ainda</W>
-<W cur="1210" id="224" space=" ">mais</W>
-<W cur="1214" id="225">.</W>
-<W cur="1216" id="226" space=" ">Mesmo</W>
-<W cur="1222" id="227" space=" ">após</W>
-<W cur="1227" id="228" space=" ">três</W>
-<W cur="1232" id="229" space=" ">semanas</W>
-<W cur="1240" id="230" space=" ">de</W>
-<W cur="1243" id="231" space=" ">compressão</W>
-<W cur="1254" id="232" space=" ">pelo</W>
-<W cur="1259" id="233" space=" ">pistão</W>
-<W cur="1265" id="234">,</W>
-<W cur="1267" id="235" space=" ">a</W>
-<W cur="1269" id="236" space=" ">folha</W>
-<W cur="1275" id="237" space=" ">de</W>
-<W cur="1278" id="238" space=" ">poliéster</W>
-<W cur="1288" id="239" space=" ">não</W>
-<W cur="1292" id="240" space=" ">atingiu</W>
-<W cur="1300" id="241" space=" ">um</W>
-<W cur="1303" id="242" space=" ">tamanho</W>
-<W cur="1311" id="243" space=" ">final</W>
-<W cur="1316" id="244">,</W>
-<W cur="1318" id="245" space=" ">e</W>
-<W cur="1320" id="246" space=" ">continuou</W>
-<W cur="1330" id="247" space=" ">a</W>
-<W cur="1332" id="248" space=" ">diminuir</W>
-<W cur="1340" id="249">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="pt" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" lemma="amassar" pos="V">Amassar</W>
+ <W cur="8" id="2" lemma="uma" pos="DET" space=" ">uma</W>
+ <W cur="12" id="3" lemma="folha" pos="NOM" space=" ">folha</W>
+ <W cur="18" id="4" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="21" id="5" lemma="papel" pos="NOM" space=" ">papel</W>
+ <W cur="27" id="6" lemma="parecer" pos="V" space=" ">parece</W>
+ <W cur="34" id="7" lemma="simples" pos="ADJ" space=" ">simples</W>
+ <W cur="42" id="8" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="44" id="9" lemma="não" pos="ADV" space=" ">não</W>
+ <W cur="48" id="10" lemma="exigir" pos="V" space=" ">exige</W>
+ <W cur="54" id="11" lemma="muito" pos="ADV" space=" ">muito</W>
+ <W cur="60" id="12" lemma="esforço" pos="NOM" space=" ">esforço</W>
+ <W cur="67" id="13" lemma="," pos="VIRG">,</W>
+ <W cur="69" id="14" lemma="mas" pos="CONJ" space=" ">mas</W>
+ <W cur="73" id="15" lemma="explicar" pos="V" space=" ">explicar</W>
+ <W cur="82" id="16" lemma="o" pos="DET" space=" ">o</W>
+ <W cur="84" id="17" lemma="comportamento" pos="NOM" space=" ">comportamento</W>
+ <W cur="98" id="18" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="101" id="19" lemma="bola" pos="NOM" space=" ">bola</W>
+ <W cur="106" id="20" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="109" id="21" lemma="papel" pos="NOM" space=" ">papel</W>
+ <W cur="115" id="22" lemma="amassado" pos="ADJ" space=" ">amassado</W>
+ <W cur="124" id="23" lemma="ser" pos="V" space=" ">é</W>
+ <W cur="126" id="24" lemma="outro" pos="ADJ" space=" ">outra</W>
+ <W cur="132" id="25" lemma="história" pos="NOM" space=" ">história</W>
+ <W boundary="sentence" cur="140" id="26" lemma="." pos="SENT">.</W>
+ <W cur="142" id="27" lemma="uma" pos="DET" space=" ">Uma</W>
+ <W cur="146" id="28" lemma="bola" pos="NOM" space=" ">bola</W>
+ <W cur="151" id="29" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="154" id="30" lemma="papel" pos="NOM" space=" ">papel</W>
+ <W cur="160" id="31" lemma="amassado" pos="ADJ" space=" ">amassado</W>
+ <W cur="169" id="32" lemma="possuir" pos="V" space=" ">possui</W>
+ <W cur="176" id="33" lemma="mais" pos="ADV" space=" ">mais</W>
+ <W cur="181" id="34" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="184" id="35" lemma="@card@" pos="CARD" space=" ">75</W>
+ <W cur="186" id="36" lemma="_" pos="NOM">%</W>
+ <W cur="188" id="37" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="191" id="38" lemma="ar" pos="NOM" space=" ">ar</W>
+ <W cur="194" id="39" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="197" id="40" lemma="sua" pos="ADJ" space=" ">sua</W>
+ <W cur="201" id="41" lemma="composição" pos="NOM" space=" ">composição</W>
+ <W boundary="sentence" cur="211" id="42" lemma="." pos="SENT">.</W>
+ <W cur="213" id="43" lemma="apesar" pos="L" space=" ">Apesar</W>
+ <W cur="220" id="44" lemma="de" pos="PRP+P" space=" ">disso</W>
+ <W cur="225" id="45" lemma="," pos="VIRG">,</W>
+ <W cur="227" id="46" lemma="ela" pos="P" space=" ">ela</W>
+ <W cur="231" id="47" lemma="ser" pos="V" space=" ">é</W>
+ <W cur="233" id="48" lemma="muito" pos="ADV" space=" ">muito</W>
+ <W cur="239" id="49" lemma="forte" pos="ADJ" space=" ">forte</W>
+ <W cur="245" id="50" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="247" id="51" lemma="oferecer" pos="V" space=" ">oferece</W>
+ <W cur="255" id="52" lemma="resistência" pos="NOM" space=" ">resistência</W>
+ <W cur="267" id="53" lemma="a" pos="PRP" space=" ">a</W>
+ <W cur="269" id="54" lemma="quem" pos="PR" space=" ">quem</W>
+ <W cur="274" id="55" lemma="tentar" pos="V" space=" ">tentar</W>
+ <W cur="281" id="56" lemma="_" pos="V" space=" ">amassá-la</W>
+ <W cur="291" id="57" lemma="ainda" pos="ADV" space=" ">ainda</W>
+ <W cur="297" id="58" lemma="mais" pos="ADV" space=" ">mais</W>
+ <W cur="301" id="59" lemma=";" pos="SENT">;</W>
+ <W cur="303" id="60" lemma="este" pos="DET" space=" ">este</W>
+ <W cur="308" id="61" lemma="comportamento" pos="NOM" space=" ">comportamento</W>
+ <W cur="322" id="62" lemma="ter" pos="V" space=" ">tem</W>
+ <W cur="326" id="63" lemma="ser" pos="V" space=" ">sido</W>
+ <W cur="331" id="64" lemma="um" pos="DET" space=" ">um</W>
+ <W cur="334" id="65" lemma="_" pos="NOM" space=" ">quebra-cabeça</W>
+ <W cur="348" id="66" lemma="para" pos="PRP" space=" ">para</W>
+ <W cur="353" id="67" lemma="o" pos="DET" space=" ">os</W>
+ <W cur="356" id="68" lemma="cientista" pos="NOM" space=" ">cientistas</W>
+ <W boundary="sentence" cur="366" id="69" lemma="." pos="SENT">.</W>
+ <W cur="368" id="70" lemma="uma" pos="DET" space=" ">Uma</W>
+ <W cur="372" id="71" lemma="pesquisa" pos="NOM" space=" ">pesquisa</W>
+ <W cur="381" id="72" lemma="relatar" pos="V" space=" ">relatada</W>
+ <W cur="390" id="73" lemma="em" pos="PRP+DET" space=" ">no</W>
+ <W cur="393" id="74" lemma="periódico" pos="NOM" space=" ">periódico</W>
+ <W cur="403" id="75" lemma="_" pos="NOM" space=" ">Physical</W>
+ <W cur="412" id="76" lemma="_" pos="NOM" space=" ">Review</W>
+ <W cur="419" id="77" lemma="_" pos="NOM" space=" ">Letters</W>
+ <W cur="426" id="78" lemma="," pos="VIRG">,</W>
+ <W cur="428" id="79" lemma="entretanto" pos="CONJ" space=" ">entretanto</W>
+ <W cur="438" id="80" lemma="," pos="VIRG">,</W>
+ <W cur="440" id="81" lemma="ter" pos="V" space=" ">tem</W>
+ <W cur="444" id="82" lemma="ajudado" pos="ADJ" space=" ">ajudado</W>
+ <W cur="452" id="83" lemma="a" pos="PRP" space=" ">a</W>
+ <W cur="454" id="84" lemma="elucidar" pos="V" space=" ">elucidar</W>
+ <W cur="463" id="85" lemma="o" pos="DET" space=" ">o</W>
+ <W cur="465" id="86" lemma="comportamento" pos="NOM" space=" ">comportamento</W>
+ <W cur="479" id="87" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="482" id="88" lemma="folha" pos="NOM" space=" ">folhas</W>
+ <W cur="489" id="89" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="492" id="90" lemma="papel" pos="NOM" space=" ">papel</W>
+ <W cur="498" id="91" lemma="amassado" pos="ADJ" space=" ">amassadas</W>
+ <W cur="507" id="92" lemma="," pos="VIRG">,</W>
+ <W cur="509" id="93" lemma="apresentar" pos="V" space=" ">apresentando</W>
+ <W cur="522" id="94" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="524" id="95" lemma="relação" pos="NOM" space=" ">relação</W>
+ <W cur="532" id="96" lemma="entre" pos="PRP" space=" ">entre</W>
+ <W cur="538" id="97" lemma="alteração" pos="NOM" space=" ">alteração</W>
+ <W cur="548" id="98" lemma="em" pos="PRP+DET" space=" ">no</W>
+ <W cur="551" id="99" lemma="tamanho" pos="NOM" space=" ">tamanho</W>
+ <W cur="559" id="100" lemma="de" pos="PRP+DET" space=" ">do</W>
+ <W cur="562" id="101" lemma="papel" pos="NOM" space=" ">papel</W>
+ <W cur="568" id="102" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="570" id="103" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="572" id="104" lemma="força" pos="NOM" space=" ">força</W>
+ <W cur="578" id="105" lemma="a" pos="PRP" space=" ">a</W>
+ <W cur="580" id="106" lemma="que" pos="PR" space=" ">que</W>
+ <W cur="584" id="107" lemma="o" pos="DET" space=" ">o</W>
+ <W cur="586" id="108" lemma="papel" pos="NOM" space=" ">papel</W>
+ <W cur="592" id="109" lemma="ser" pos="V" space=" ">é</W>
+ <W cur="594" id="110" lemma="sujeito" pos="ADJ" space=" ">sujeita</W>
+ <W boundary="sentence" cur="601" id="111" lemma="." pos="SENT">.</W>
+ <W cur="604" id="112" lemma="amassar" pos="V" space="&#xA;&#xA;">Amassar</W>
+ <W cur="612" id="113" lemma="uma" pos="DET" space=" ">uma</W>
+ <W cur="616" id="114" lemma="folha" pos="NOM" space=" ">folha</W>
+ <W cur="622" id="115" lemma="fino" pos="ADJ" space=" ">fina</W>
+ <W cur="627" id="116" lemma="ser" pos="V" space=" ">é</W>
+ <W cur="628" id="117" lemma="," pos="VIRG">,</W>
+ <W cur="630" id="118" lemma="essencialmente" pos="ADV" space=" ">essencialmente</W>
+ <W cur="644" id="119" lemma="," pos="VIRG">,</W>
+ <W cur="646" id="120" lemma="transformar" pos="V+P" space=" ">transformá-la</W>
+ <W cur="660" id="121" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="663" id="122" lemma="uma" pos="DET" space=" ">uma</W>
+ <W cur="667" id="123" lemma="massa" pos="NOM" space=" ">massa</W>
+ <W cur="673" id="124" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="676" id="125" lemma="ponto" pos="NOM" space=" ">pontos</W>
+ <W cur="683" id="126" lemma="cônico" pos="ADJ" space=" ">cônicos</W>
+ <W cur="691" id="127" lemma="entreligar" pos="V" space=" ">entreligados</W>
+ <W cur="704" id="128" lemma="por" pos="PRP" space=" ">por</W>
+ <W cur="708" id="129" lemma="sulco" pos="NOM" space=" ">sulcos</W>
+ <W cur="715" id="130" lemma="curvado" pos="ADJ" space=" ">curvados</W>
+ <W cur="724" id="131" lemma="que" pos="PR" space=" ">que</W>
+ <W cur="728" id="132" lemma="armazenar" pos="V" space=" ">armazenam</W>
+ <W cur="738" id="133" lemma="energia" pos="NOM" space=" ">energia</W>
+ <W boundary="sentence" cur="745" id="134" lemma="." pos="SENT">.</W>
+ <W cur="747" id="135" lemma="a" pos="PRP+DET" space=" ">Ao</W>
+ <W cur="750" id="136" lemma="aumentar" pos="V" space=" ">aumentar</W>
+ <W cur="759" id="137" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="761" id="138" lemma="compressão" pos="NOM" space=" ">compressão</W>
+ <W cur="772" id="139" lemma="de" pos="PRP+DET" space=" ">do</W>
+ <W cur="775" id="140" lemma="papel" pos="NOM" space=" ">papel</W>
+ <W cur="780" id="141" lemma="," pos="VIRG">,</W>
+ <W cur="782" id="142" lemma="este" pos="DET" space=" ">estes</W>
+ <W cur="788" id="143" lemma="sulco" pos="NOM" space=" ">sulcos</W>
+ <W cur="795" id="144" lemma="se" pos="P" space=" ">se</W>
+ <W cur="798" id="145" lemma="quebrar" pos="V" space=" ">quebram</W>
+ <W cur="806" id="146" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="808" id="147" lemma="outro" pos="P" space=" ">outros</W>
+ <W cur="815" id="148" lemma="menor" pos="ADJ" space=" ">menores</W>
+ <W cur="823" id="149" lemma="se" pos="P" space=" ">se</W>
+ <W cur="826" id="150" lemma="formar" pos="V" space=" ">formam</W>
+ <W cur="832" id="151" lemma="," pos="VIRG">,</W>
+ <W cur="834" id="152" lemma="o" pos="DET" space=" ">o</W>
+ <W cur="836" id="153" lemma="que" pos="PR" space=" ">que</W>
+ <W cur="840" id="154" lemma="aumentar" pos="V" space=" ">aumenta</W>
+ <W cur="848" id="155" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="850" id="156" lemma="quantidade" pos="NOM" space=" ">quantidade</W>
+ <W cur="861" id="157" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="864" id="158" lemma="energia" pos="NOM" space=" ">energia</W>
+ <W cur="872" id="159" lemma="armazenar" pos="V" space=" ">armazenada</W>
+ <W cur="883" id="160" lemma="em" pos="PRP+DET" space=" ">na</W>
+ <W cur="886" id="161" lemma="bola" pos="NOM" space=" ">bola</W>
+ <W cur="891" id="162" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="894" id="163" lemma="papel" pos="NOM" space=" ">papel</W>
+ <W boundary="sentence" cur="899" id="164" lemma="." pos="SENT">.</W>
+ <W cur="901" id="165" lemma="cientista" pos="NOM" space=" ">Cientistas</W>
+ <W cur="912" id="166" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="915" id="167" lemma="universidade" pos="NOM" space=" ">Universidade</W>
+ <W cur="928" id="168" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="931" id="169" lemma="Chicago" pos="NOM" space=" ">Chicago</W>
+ <W cur="939" id="170" lemma="apresentar" pos="V" space=" ">apresentaram</W>
+ <W cur="952" id="171" lemma="um" pos="DET" space=" ">um</W>
+ <W cur="955" id="172" lemma="modelo" pos="NOM" space=" ">modelo</W>
+ <W cur="962" id="173" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="965" id="174" lemma="relação" pos="NOM" space=" ">relação</W>
+ <W cur="973" id="175" lemma="entre" pos="PRP" space=" ">entre</W>
+ <W cur="979" id="176" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="981" id="177" lemma="força" pos="NOM" space=" ">força</W>
+ <W cur="987" id="178" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="990" id="179" lemma="compressão" pos="NOM" space=" ">compressão</W>
+ <W cur="1001" id="180" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="1003" id="181" lemma="o" pos="DET" space=" ">o</W>
+ <W cur="1005" id="182" lemma="tamanho" pos="NOM" space=" ">tamanho</W>
+ <W cur="1013" id="183" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="1016" id="184" lemma="bola" pos="NOM" space=" ">bola</W>
+ <W boundary="sentence" cur="1020" id="185" lemma="." pos="SENT">.</W>
+ <W cur="1022" id="186" lemma="o" pos="DET" space=" ">Os</W>
+ <W cur="1025" id="187" lemma="pesquisador" pos="NOM" space=" ">pesquisadores</W>
+ <W cur="1039" id="188" lemma="amassar" pos="V" space=" ">amassaram</W>
+ <W cur="1049" id="189" lemma="uma" pos="DET" space=" ">uma</W>
+ <W cur="1053" id="190" lemma="folha" pos="NOM" space=" ">folha</W>
+ <W cur="1059" id="191" lemma="fino" pos="ADJ" space=" ">fina</W>
+ <W cur="1064" id="192" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1067" id="193" lemma="poliéster" pos="NOM" space=" ">poliéster</W>
+ <W cur="1077" id="194" lemma="(" pos="QUOTE">(</W>
+ <W cur="1078" id="195" lemma="_" pos="NOM">boPET</W>
+ <W cur="1083" id="196" lemma="," pos="VIRG">,</W>
+ <W cur="1085" id="197" lemma="ou" pos="CONJ" space=" ">ou</W>
+ <W cur="1088" id="198" lemma="filme" pos="NOM" space=" ">filme</W>
+ <W cur="1094" id="199" lemma="_" pos="NOM" space=" ">PET</W>
+ <W cur="1097" id="200" lemma=")" pos="QUOTE">)</W>
+ <W cur="1099" id="201" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="1100" id="202" lemma="," pos="VIRG">,</W>
+ <W cur="1102" id="203" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="1105" id="204" lemma="seguida" pos="NOM" space=" ">seguida</W>
+ <W cur="1112" id="205" lemma="," pos="VIRG">,</W>
+ <W cur="1114" id="206" lemma="a" pos="PRP" space=" ">a</W>
+ <W cur="1116" id="207" lemma="colocar" pos="V" space=" ">colocaram</W>
+ <W cur="1126" id="208" lemma="dentro" pos="ADV" space=" ">dentro</W>
+ <W cur="1133" id="209" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1136" id="210" lemma="um" pos="DET" space=" ">um</W>
+ <W cur="1139" id="211" lemma="cilindro" pos="NOM" space=" ">cilindro</W>
+ <W cur="1148" id="212" lemma="equipar" pos="V" space=" ">equipado</W>
+ <W cur="1157" id="213" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="1161" id="214" lemma="um" pos="DET" space=" ">um</W>
+ <W cur="1164" id="215" lemma="pistão" pos="NOM" space=" ">pistão</W>
+ <W cur="1170" id="216" lemma="," pos="VIRG">,</W>
+ <W cur="1172" id="217" lemma="que" pos="PR" space=" ">que</W>
+ <W cur="1176" id="218" lemma="servir" pos="V" space=" ">servia</W>
+ <W cur="1183" id="219" lemma="para" pos="PRP" space=" ">para</W>
+ <W cur="1188" id="220" lemma="amassar" pos="V" space=" ">amassar</W>
+ <W cur="1196" id="221" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="1198" id="222" lemma="folha" pos="NOM" space=" ">folha</W>
+ <W cur="1204" id="223" lemma="ainda" pos="ADV" space=" ">ainda</W>
+ <W cur="1210" id="224" lemma="mais" pos="ADV" space=" ">mais</W>
+ <W boundary="sentence" cur="1214" id="225" lemma="." pos="SENT">.</W>
+ <W cur="1216" id="226" lemma="mesmo" pos="ADV" space=" ">Mesmo</W>
+ <W cur="1222" id="227" lemma="após" pos="PRP" space=" ">após</W>
+ <W cur="1227" id="228" lemma="três" pos="CARD" space=" ">três</W>
+ <W cur="1232" id="229" lemma="semana" pos="NOM" space=" ">semanas</W>
+ <W cur="1240" id="230" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1243" id="231" lemma="compressão" pos="NOM" space=" ">compressão</W>
+ <W cur="1254" id="232" lemma="por" pos="PRP+DET" space=" ">pelo</W>
+ <W cur="1259" id="233" lemma="pistão" pos="NOM" space=" ">pistão</W>
+ <W cur="1265" id="234" lemma="," pos="VIRG">,</W>
+ <W cur="1267" id="235" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="1269" id="236" lemma="folha" pos="NOM" space=" ">folha</W>
+ <W cur="1275" id="237" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1278" id="238" lemma="poliéster" pos="NOM" space=" ">poliéster</W>
+ <W cur="1288" id="239" lemma="não" pos="ADV" space=" ">não</W>
+ <W cur="1292" id="240" lemma="atingir" pos="V" space=" ">atingiu</W>
+ <W cur="1300" id="241" lemma="um" pos="DET" space=" ">um</W>
+ <W cur="1303" id="242" lemma="tamanho" pos="NOM" space=" ">tamanho</W>
+ <W cur="1311" id="243" lemma="final" pos="ADJ" space=" ">final</W>
+ <W cur="1316" id="244" lemma="," pos="VIRG">,</W>
+ <W cur="1318" id="245" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="1320" id="246" lemma="continuar" pos="V" space=" ">continuou</W>
+ <W cur="1330" id="247" lemma="a" pos="PRP" space=" ">a</W>
+ <W cur="1332" id="248" lemma="diminuir" pos="V" space=" ">diminuir</W>
+ <W boundary="sentence" cur="1340" id="249" lemma="." pos="SENT">.</W>
 </Text>

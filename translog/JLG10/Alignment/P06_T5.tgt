@@ -1,323 +1,324 @@
-<Text language="en" >
-<W cur="0" id="1">Hydroxyurea</W>
-<W cur="12" id="2" space=" ">in</W>
-<W cur="15" id="3" space=" ">patients</W>
-<W cur="24" id="4" space=" ">with</W>
-<W cur="29" id="5" space=" ">falciform</W>
-<W cur="39" id="6" space=" ">syndroms</W>
-<W cur="48" id="7" space=" ">assisted</W>
-<W cur="57" id="8" space=" ">at</W>
-<W cur="60" id="9" space=" ">Hemope</W>
-<W cur="67" id="10" space=" ">Hospital</W>
-<W cur="75" id="11">,</W>
-<W cur="77" id="12" space=" ">Recife-PE</W>
-<W cur="88" id="13" space="&#xA;&#xA;">The</W>
-<W cur="92" id="14" space=" ">falciform</W>
-<W cur="102" id="15" space=" ">syndroms</W>
-<W cur="111" id="16">(</W>
-<W cur="112" id="17">FS</W>
-<W cur="114" id="18">)</W>
-<W cur="116" id="19" space=" ">comprise</W>
-<W cur="125" id="20" space=" ">a</W>
-<W cur="127" id="21" space=" ">set</W>
-<W cur="131" id="22" space=" ">of</W>
-<W cur="134" id="23" space=" ">haemoglobin</W>
-<W cur="146" id="24" space=" ">qualitative</W>
-<W cur="158" id="25" space=" ">disorders</W>
-<W cur="168" id="26" space=" ">in</W>
-<W cur="171" id="27" space=" ">which</W>
-<W cur="177" id="28" space=" ">the</W>
-<W cur="181" id="29" space=" ">S</W>
-<W cur="183" id="30" space=" ">haemoglobin</W>
-<W cur="195" id="31" space=" ">gene</W>
-<W cur="200" id="32" space=" ">is</W>
-<W cur="203" id="33" space=" ">inherited</W>
-<W cur="212" id="34">.</W>
-<W cur="214" id="35">[</W>
-<W cur="215" id="36">1</W>
-<W cur="216" id="37">]</W>
-<W cur="218" id="38" space=" ">Among</W>
-<W cur="224" id="39" space=" ">these</W>
-<W cur="229" id="40">,</W>
-<W cur="231" id="41" space=" ">the</W>
-<W cur="235" id="42" space=" ">most</W>
-<W cur="240" id="43" space=" ">frequent</W>
-<W cur="249" id="44" space=" ">one</W>
-<W cur="253" id="45" space=" ">is</W>
-<W cur="256" id="46" space=" ">the</W>
-<W cur="260" id="47" space=" ">falciform</W>
-<W cur="270" id="48" space=" ">anemia</W>
-<W cur="277" id="49">(</W>
-<W cur="278" id="50">SS</W>
-<W cur="281" id="51" space=" ">homozygosis</W>
-<W cur="292" id="52">)</W>
-<W cur="293" id="53">,</W>
-<W cur="295" id="54" space=" ">whose</W>
-<W cur="301" id="55" space=" ">patients</W>
-<W cur="310" id="56" space=" ">have</W>
-<W cur="315" id="57" space=" ">organic</W>
-<W cur="323" id="58" space=" ">damages</W>
-<W cur="331" id="59" space=" ">since</W>
-<W cur="337" id="60" space=" ">their</W>
-<W cur="343" id="61" space=" ">childhood</W>
-<W cur="352" id="62">,</W>
-<W cur="354" id="63" space=" ">resulting</W>
-<W cur="364" id="64" space=" ">from</W>
-<W cur="369" id="65" space=" ">repeated</W>
-<W cur="378" id="66" space=" ">vaso-occlusive</W>
-<W cur="393" id="67" space=" ">episodes</W>
-<W cur="401" id="68">.</W>
-<W cur="403" id="69">[</W>
-<W cur="404" id="70">2</W>
-<W cur="405" id="71">]</W>
-<W cur="407" id="72" space=" ">Several</W>
-<W cur="415" id="73" space=" ">studies</W>
-<W cur="423" id="74" space=" ">on</W>
-<W cur="426" id="75" space=" ">adults</W>
-<W cur="433" id="76" space=" ">have</W>
-<W cur="438" id="77" space=" ">shown</W>
-<W cur="444" id="78" space=" ">the</W>
-<W cur="448" id="79" space=" ">efficiency</W>
-<W cur="459" id="80" space=" ">of</W>
-<W cur="462" id="81" space=" ">the</W>
-<W cur="466" id="82" space=" ">use</W>
-<W cur="470" id="83" space=" ">of</W>
-<W cur="473" id="84" space=" ">hydroxyurea</W>
-<W cur="485" id="85">(</W>
-<W cur="486" id="86">HU</W>
-<W cur="488" id="87">)</W>
-<W cur="489" id="88">,</W>
-<W cur="491" id="89" space=" ">whose</W>
-<W cur="497" id="90" space=" ">main</W>
-<W cur="502" id="91" space=" ">effect</W>
-<W cur="509" id="92" space=" ">is</W>
-<W cur="512" id="93" space=" ">the</W>
-<W cur="516" id="94" space=" ">increase</W>
-<W cur="525" id="95" space=" ">in</W>
-<W cur="528" id="96" space=" ">fetal</W>
-<W cur="534" id="97" space=" ">hemoglobine</W>
-<W cur="546" id="98" space=" ">levels</W>
-<W cur="553" id="99">(</W>
-<W cur="554" id="100">HbF</W>
-<W cur="557" id="101">)</W>
-<W cur="559" id="102" space=" ">in</W>
-<W cur="562" id="103" space=" ">patients</W>
-<W cur="571" id="104" space=" ">with</W>
-<W cur="576" id="105" space=" ">FS</W>
-<W cur="579" id="106" space=" ">with</W>
-<W cur="584" id="107" space=" ">little</W>
-<W cur="591" id="108" space=" ">or</W>
-<W cur="594" id="109" space=" ">no</W>
-<W cur="597" id="110" space=" ">side</W>
-<W cur="602" id="111" space=" ">effect</W>
-<W cur="608" id="112">.</W>
-<W cur="610" id="113">[</W>
-<W cur="611" id="114">3</W>
-<W cur="612" id="115">,</W>
-<W cur="614" id="116" space=" ">4</W>
-<W cur="615" id="117">,</W>
-<W cur="617" id="118" space=" ">5</W>
-<W cur="618" id="119">,</W>
-<W cur="620" id="120" space=" ">6</W>
-<W cur="621" id="121">]</W>
-<W cur="623" id="122" space=" ">HU</W>
-<W cur="626" id="123" space=" ">is</W>
-<W cur="629" id="124" space=" ">a</W>
-<W cur="631" id="125" space=" ">chemical</W>
-<W cur="640" id="126" space=" ">therapeutical</W>
-<W cur="654" id="127" space=" ">agent</W>
-<W cur="660" id="128" space=" ">well</W>
-<W cur="665" id="129" space=" ">known</W>
-<W cur="671" id="130" space=" ">and</W>
-<W cur="675" id="131" space=" ">used</W>
-<W cur="680" id="132" space=" ">for</W>
-<W cur="684" id="133" space=" ">the</W>
-<W cur="688" id="134" space=" ">treatment</W>
-<W cur="698" id="135" space=" ">of</W>
-<W cur="701" id="136" space=" ">myeloproliferative</W>
-<W cur="720" id="137" space=" ">syndroms</W>
-<W cur="729" id="138" space=" ">such</W>
-<W cur="734" id="139" space=" ">as</W>
-<W cur="737" id="140" space=" ">chronical</W>
-<W cur="747" id="141" space=" ">myeloid</W>
-<W cur="755" id="142" space=" ">leukemia</W>
-<W cur="764" id="143" space=" ">and</W>
-<W cur="768" id="144" space=" ">polycythemia</W>
-<W cur="781" id="145" space=" ">vera</W>
-<W cur="785" id="146">.</W>
-<W cur="787" id="147" space=" ">Its</W>
-<W cur="791" id="148" space=" ">main</W>
-<W cur="796" id="149" space=" ">function</W>
-<W cur="805" id="150" space=" ">is</W>
-<W cur="808" id="151" space=" ">to</W>
-<W cur="811" id="152" space=" ">block</W>
-<W cur="817" id="153" space=" ">the</W>
-<W cur="821" id="154" space=" ">DNA</W>
-<W cur="825" id="155" space=" ">synthesis</W>
-<W cur="835" id="156" space=" ">by</W>
-<W cur="838" id="157" space=" ">inhibiting</W>
-<W cur="849" id="158" space=" ">the</W>
-<W cur="853" id="159" space=" ">ribonucleotide</W>
-<W cur="868" id="160" space=" ">reductase</W>
-<W cur="877" id="161">,</W>
-<W cur="879" id="162" space=" ">keeping</W>
-<W cur="887" id="163" space=" ">the</W>
-<W cur="891" id="164" space=" ">cells</W>
-<W cur="897" id="165" space=" ">in</W>
-<W cur="900" id="166" space=" ">the</W>
-<W cur="904" id="167" space=" ">S</W>
-<W cur="906" id="168" space=" ">phase</W>
-<W cur="911" id="169">.</W>
-<W cur="913" id="170">[</W>
-<W cur="914" id="171">1</W>
-<W cur="915" id="172">]</W>
-<W cur="917" id="173" space=" ">It</W>
-<W cur="920" id="174" space=" ">is</W>
-<W cur="923" id="175" space=" ">easily</W>
-<W cur="930" id="176" space=" ">used</W>
-<W cur="934" id="177">,</W>
-<W cur="936" id="178" space=" ">with</W>
-<W cur="941" id="179" space=" ">few</W>
-<W cur="945" id="180" space=" ">toxic</W>
-<W cur="951" id="181" space=" ">side</W>
-<W cur="956" id="182" space=" ">effects</W>
-<W cur="964" id="183" space=" ">and</W>
-<W cur="968" id="184" space=" ">with</W>
-<W cur="973" id="185" space=" ">an</W>
-<W cur="976" id="186" space=" ">easily</W>
-<W cur="983" id="187" space=" ">reversible</W>
-<W cur="994" id="188" space=" ">myelosupression</W>
-<W cur="1010" id="189" space=" ">effect</W>
-<W cur="1016" id="190">.</W>
-<W cur="1018" id="191" space=" ">The</W>
-<W cur="1022" id="192" space=" ">use</W>
-<W cur="1026" id="193" space=" ">of</W>
-<W cur="1029" id="194" space=" ">hydroxyurea</W>
-<W cur="1041" id="195" space=" ">in</W>
-<W cur="1044" id="196" space=" ">the</W>
-<W cur="1048" id="197" space=" ">treatment</W>
-<W cur="1058" id="198" space=" ">of</W>
-<W cur="1061" id="199" space=" ">falciform</W>
-<W cur="1071" id="200" space=" ">anemia</W>
-<W cur="1078" id="201">(</W>
-<W cur="1079" id="202">FA</W>
-<W cur="1081" id="203">)</W>
-<W cur="1083" id="204" space=" ">began</W>
-<W cur="1089" id="205" space=" ">in</W>
-<W cur="1092" id="206" space=" ">the</W>
-<W cur="1096" id="207" space=" ">1980</W>
-<W cur="1100" id="208">'s</W>
-<W cur="1102" id="209">,</W>
-<W cur="1104" id="210" space=" ">in</W>
-<W cur="1107" id="211" space=" ">adult</W>
-<W cur="1113" id="212" space=" ">patients</W>
-<W cur="1121" id="213">;</W>
-<W cur="1123" id="214" space=" ">it</W>
-<W cur="1126" id="215" space=" ">was</W>
-<W cur="1130" id="216" space=" ">later</W>
-<W cur="1136" id="217" space=" ">authorized</W>
-<W cur="1147" id="218" space=" ">to</W>
-<W cur="1150" id="219" space=" ">be</W>
-<W cur="1153" id="220" space=" ">used</W>
-<W cur="1158" id="221" space=" ">in</W>
-<W cur="1161" id="222" space=" ">children</W>
-<W cur="1169" id="223">.</W>
-<W cur="1171" id="224">[</W>
-<W cur="1172" id="225">7</W>
-<W cur="1173" id="226">]</W>
-<W cur="1175" id="227" space=" ">Along</W>
-<W cur="1181" id="228" space=" ">the</W>
-<W cur="1185" id="229" space=" ">years</W>
-<W cur="1190" id="230">,</W>
-<W cur="1192" id="231" space=" ">studies</W>
-<W cur="1200" id="232" space=" ">on</W>
-<W cur="1203" id="233" space=" ">children</W>
-<W cur="1212" id="234" space=" ">have</W>
-<W cur="1217" id="235" space=" ">shown</W>
-<W cur="1223" id="236" space=" ">the</W>
-<W cur="1227" id="237" space=" ">same</W>
-<W cur="1232" id="238" space=" ">efficiency</W>
-<W cur="1243" id="239" space=" ">of</W>
-<W cur="1246" id="240" space=" ">the</W>
-<W cur="1250" id="241" space=" ">use</W>
-<W cur="1254" id="242" space=" ">of</W>
-<W cur="1257" id="243" space=" ">HU</W>
-<W cur="1260" id="244" space=" ">with</W>
-<W cur="1265" id="245" space=" ">no</W>
-<W cur="1268" id="246" space=" ">significant</W>
-<W cur="1280" id="247" space=" ">side</W>
-<W cur="1285" id="248" space=" ">effects</W>
-<W cur="1292" id="249">.</W>
-<W cur="1294" id="250">[</W>
-<W cur="1295" id="251">2</W>
-<W cur="1296" id="252">,</W>
-<W cur="1298" id="253" space=" ">7</W>
-<W cur="1299" id="254">,</W>
-<W cur="1301" id="255" space=" ">8</W>
-<W cur="1302" id="256">,</W>
-<W cur="1304" id="257" space=" ">9</W>
-<W cur="1305" id="258">,</W>
-<W cur="1307" id="259" space=" ">10</W>
-<W cur="1309" id="260">]</W>
-<W cur="1311" id="261" space="&#xA;">Thus</W>
-<W cur="1315" id="262">,</W>
-<W cur="1317" id="263" space=" ">the</W>
-<W cur="1321" id="264" space=" ">present</W>
-<W cur="1329" id="265" space=" ">study</W>
-<W cur="1335" id="266" space=" ">has</W>
-<W cur="1339" id="267" space=" ">the</W>
-<W cur="1343" id="268" space=" ">purpose</W>
-<W cur="1351" id="269" space=" ">to</W>
-<W cur="1354" id="270" space=" ">investigate</W>
-<W cur="1365" id="271">,</W>
-<W cur="1367" id="272" space=" ">through</W>
-<W cur="1375" id="273" space=" ">a</W>
-<W cur="1377" id="274" space=" ">series</W>
-<W cur="1384" id="275" space=" ">of</W>
-<W cur="1387" id="276" space=" ">cases</W>
-<W cur="1392" id="277">,</W>
-<W cur="1394" id="278" space=" ">the</W>
-<W cur="1398" id="279" space=" ">efficiency</W>
-<W cur="1409" id="280" space=" ">of</W>
-<W cur="1412" id="281" space=" ">the</W>
-<W cur="1416" id="282" space=" ">use</W>
-<W cur="1420" id="283" space=" ">of</W>
-<W cur="1423" id="284" space=" ">HU</W>
-<W cur="1426" id="285" space=" ">and</W>
-<W cur="1430" id="286" space=" ">its</W>
-<W cur="1434" id="287" space=" ">tolerance</W>
-<W cur="1444" id="288" space=" ">by</W>
-<W cur="1447" id="289" space=" ">FS</W>
-<W cur="1450" id="290" space=" ">patients</W>
-<W cur="1459" id="291" space=" ">in</W>
-<W cur="1462" id="292" space=" ">the</W>
-<W cur="1466" id="293" space=" ">pediatric</W>
-<W cur="1476" id="294" space=" ">stage</W>
-<W cur="1482" id="295" space=" ">and</W>
-<W cur="1486" id="296" space=" ">young</W>
-<W cur="1492" id="297" space=" ">adults</W>
-<W cur="1498" id="298">,</W>
-<W cur="1500" id="299" space=" ">as</W>
-<W cur="1503" id="300" space=" ">well</W>
-<W cur="1508" id="301" space=" ">as</W>
-<W cur="1511" id="302" space=" ">to</W>
-<W cur="1514" id="303" space=" ">evaluate</W>
-<W cur="1523" id="304" space=" ">the</W>
-<W cur="1527" id="305" space=" ">variations</W>
-<W cur="1538" id="306" space=" ">in</W>
-<W cur="1541" id="307" space=" ">hematological</W>
-<W cur="1555" id="308" space=" ">parameters</W>
-<W cur="1566" id="309" space=" ">in</W>
-<W cur="1569" id="310" space=" ">both</W>
-<W cur="1574" id="311" space=" ">age</W>
-<W cur="1578" id="312" space=" ">groups</W>
-<W cur="1585" id="313" space=" ">and</W>
-<W cur="1589" id="314" space=" ">in</W>
-<W cur="1592" id="315" space=" ">HbF</W>
-<W cur="1596" id="316" space=" ">values</W>
-<W cur="1603" id="317" space=" ">in</W>
-<W cur="1606" id="318" space=" ">the</W>
-<W cur="1610" id="319" space=" ">pediatric</W>
-<W cur="1620" id="320" space=" ">group</W>
-<W cur="1625" id="321">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="en" lemmatizer="nltk-wordnet-lemmatizer" sent_segmenter="nltk_sent_tokenizer" tagger="nltk-pos-tagger">
+ <W cur="0" id="1" lemma="Hydroxyurea" pos="NNP">Hydroxyurea</W>
+ <W cur="12" id="2" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="15" id="3" lemma="patient" pos="NNS" space=" ">patients</W>
+ <W cur="24" id="4" lemma="with" pos="IN" space=" ">with</W>
+ <W cur="29" id="5" lemma="falciform" pos="NN" space=" ">falciform</W>
+ <W cur="39" id="6" lemma="syndroms" pos="NNS" space=" ">syndroms</W>
+ <W cur="48" id="7" lemma="assist" pos="VBD" space=" ">assisted</W>
+ <W cur="57" id="8" lemma="at" pos="IN" space=" ">at</W>
+ <W cur="60" id="9" lemma="Hemope" pos="NNP" space=" ">Hemope</W>
+ <W cur="67" id="10" lemma="Hospital" pos="NNP" space=" ">Hospital</W>
+ <W cur="75" id="11" lemma="," pos=",">,</W>
+ <W cur="77" id="12" lemma="Recife-PE" pos="NNP" space=" ">Recife-PE</W>
+ <W cur="88" id="13" lemma="The" pos="NNP" space="&#xA;&#xA;">The</W>
+ <W cur="92" id="14" lemma="falciform" pos="NN" space=" ">falciform</W>
+ <W cur="102" id="15" lemma="syndroms" pos="NNS" space=" ">syndroms</W>
+ <W cur="111" id="16" lemma="(" pos=":">(</W>
+ <W cur="112" id="17" lemma="FS" pos="NNP">FS</W>
+ <W cur="114" id="18" lemma=")" pos=":">)</W>
+ <W cur="116" id="19" lemma="comprise" pos="NN" space=" ">comprise</W>
+ <W cur="125" id="20" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="127" id="21" lemma="set" pos="NN" space=" ">set</W>
+ <W cur="131" id="22" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="134" id="23" lemma="haemoglobin" pos="NN" space=" ">haemoglobin</W>
+ <W cur="146" id="24" lemma="qualitative" pos="JJ" space=" ">qualitative</W>
+ <W cur="158" id="25" lemma="disorder" pos="NNS" space=" ">disorders</W>
+ <W cur="168" id="26" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="171" id="27" lemma="which" pos="WDT" space=" ">which</W>
+ <W cur="177" id="28" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="181" id="29" lemma="S" pos="NNP" space=" ">S</W>
+ <W cur="183" id="30" lemma="haemoglobin" pos="NN" space=" ">haemoglobin</W>
+ <W cur="195" id="31" lemma="gene" pos="NN" space=" ">gene</W>
+ <W cur="200" id="32" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="203" id="33" lemma="inherit" pos="VBN" space=" ">inherited</W>
+ <W boundary="sentence" cur="212" id="34" lemma="." pos=".">.</W>
+ <W cur="214" id="35" lemma="[" pos="NN">[</W>
+ <W cur="215" id="36" lemma="1" pos="CD">1</W>
+ <W cur="216" id="37" lemma="]" pos="CD">]</W>
+ <W cur="218" id="38" lemma="Among" pos="NNP" space=" ">Among</W>
+ <W cur="224" id="39" lemma="these" pos="DT" space=" ">these</W>
+ <W cur="229" id="40" lemma="," pos=",">,</W>
+ <W cur="231" id="41" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="235" id="42" lemma="most" pos="RBS" space=" ">most</W>
+ <W cur="240" id="43" lemma="frequent" pos="JJ" space=" ">frequent</W>
+ <W cur="249" id="44" lemma="one" pos="CD" space=" ">one</W>
+ <W cur="253" id="45" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="256" id="46" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="260" id="47" lemma="falciform" pos="NN" space=" ">falciform</W>
+ <W cur="270" id="48" lemma="anemia" pos="NN" space=" ">anemia</W>
+ <W cur="277" id="49" lemma="(" pos=":">(</W>
+ <W cur="278" id="50" lemma="SS" pos="NNP">SS</W>
+ <W cur="281" id="51" lemma="homozygosis" pos="NN" space=" ">homozygosis</W>
+ <W cur="292" id="52" lemma=")" pos=":">)</W>
+ <W cur="293" id="53" lemma="," pos=",">,</W>
+ <W cur="295" id="54" lemma="whose" pos="WP$" space=" ">whose</W>
+ <W cur="301" id="55" lemma="patient" pos="NNS" space=" ">patients</W>
+ <W cur="310" id="56" lemma="have" pos="VBP" space=" ">have</W>
+ <W cur="315" id="57" lemma="organic" pos="JJ" space=" ">organic</W>
+ <W cur="323" id="58" lemma="damages" pos="NNS" space=" ">damages</W>
+ <W cur="331" id="59" lemma="since" pos="IN" space=" ">since</W>
+ <W cur="337" id="60" lemma="their" pos="PRP$" space=" ">their</W>
+ <W cur="343" id="61" lemma="childhood" pos="NN" space=" ">childhood</W>
+ <W cur="352" id="62" lemma="," pos=",">,</W>
+ <W cur="354" id="63" lemma="result" pos="VBG" space=" ">resulting</W>
+ <W cur="364" id="64" lemma="from" pos="IN" space=" ">from</W>
+ <W cur="369" id="65" lemma="repeated" pos="JJ" space=" ">repeated</W>
+ <W cur="378" id="66" lemma="vaso-occlusive" pos="JJ" space=" ">vaso-occlusive</W>
+ <W cur="393" id="67" lemma="episode" pos="NNS" space=" ">episodes</W>
+ <W boundary="sentence" cur="401" id="68" lemma="." pos=".">.</W>
+ <W cur="403" id="69" lemma="[" pos="NN">[</W>
+ <W cur="404" id="70" lemma="2" pos="CD">2</W>
+ <W cur="405" id="71" lemma="]" pos="CD">]</W>
+ <W cur="407" id="72" lemma="Several" pos="NNP" space=" ">Several</W>
+ <W cur="415" id="73" lemma="study" pos="NNS" space=" ">studies</W>
+ <W cur="423" id="74" lemma="on" pos="IN" space=" ">on</W>
+ <W cur="426" id="75" lemma="adult" pos="NNS" space=" ">adults</W>
+ <W cur="433" id="76" lemma="have" pos="VBP" space=" ">have</W>
+ <W cur="438" id="77" lemma="show" pos="VBN" space=" ">shown</W>
+ <W cur="444" id="78" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="448" id="79" lemma="efficiency" pos="NN" space=" ">efficiency</W>
+ <W cur="459" id="80" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="462" id="81" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="466" id="82" lemma="use" pos="NN" space=" ">use</W>
+ <W cur="470" id="83" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="473" id="84" lemma="hydroxyurea" pos="NN" space=" ">hydroxyurea</W>
+ <W cur="485" id="85" lemma="(" pos=":">(</W>
+ <W cur="486" id="86" lemma="HU" pos="NNP">HU</W>
+ <W cur="488" id="87" lemma=")" pos=":">)</W>
+ <W cur="489" id="88" lemma="," pos=",">,</W>
+ <W cur="491" id="89" lemma="whose" pos="WP$" space=" ">whose</W>
+ <W cur="497" id="90" lemma="main" pos="JJ" space=" ">main</W>
+ <W cur="502" id="91" lemma="effect" pos="NN" space=" ">effect</W>
+ <W cur="509" id="92" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="512" id="93" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="516" id="94" lemma="increase" pos="NN" space=" ">increase</W>
+ <W cur="525" id="95" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="528" id="96" lemma="fetal" pos="JJ" space=" ">fetal</W>
+ <W cur="534" id="97" lemma="hemoglobine" pos="NN" space=" ">hemoglobine</W>
+ <W cur="546" id="98" lemma="level" pos="NNS" space=" ">levels</W>
+ <W cur="553" id="99" lemma="(" pos=":">(</W>
+ <W cur="554" id="100" lemma="HbF" pos="NNP">HbF</W>
+ <W cur="557" id="101" lemma=")" pos=":">)</W>
+ <W cur="559" id="102" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="562" id="103" lemma="patient" pos="NNS" space=" ">patients</W>
+ <W cur="571" id="104" lemma="with" pos="IN" space=" ">with</W>
+ <W cur="576" id="105" lemma="FS" pos="NNP" space=" ">FS</W>
+ <W cur="579" id="106" lemma="with" pos="IN" space=" ">with</W>
+ <W cur="584" id="107" lemma="little" pos="JJ" space=" ">little</W>
+ <W cur="591" id="108" lemma="or" pos="CC" space=" ">or</W>
+ <W cur="594" id="109" lemma="no" pos="DT" space=" ">no</W>
+ <W cur="597" id="110" lemma="side" pos="NN" space=" ">side</W>
+ <W cur="602" id="111" lemma="effect" pos="NN" space=" ">effect</W>
+ <W boundary="sentence" cur="608" id="112" lemma="." pos=".">.</W>
+ <W cur="610" id="113" lemma="[" pos="NN">[</W>
+ <W cur="611" id="114" lemma="3" pos="CD">3</W>
+ <W cur="612" id="115" lemma="," pos=",">,</W>
+ <W cur="614" id="116" lemma="4" pos="CD" space=" ">4</W>
+ <W cur="615" id="117" lemma="," pos=",">,</W>
+ <W cur="617" id="118" lemma="5" pos="CD" space=" ">5</W>
+ <W cur="618" id="119" lemma="," pos=",">,</W>
+ <W cur="620" id="120" lemma="6" pos="CD" space=" ">6</W>
+ <W cur="621" id="121" lemma="]" pos=":">]</W>
+ <W cur="623" id="122" lemma="HU" pos="NNP" space=" ">HU</W>
+ <W cur="626" id="123" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="629" id="124" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="631" id="125" lemma="chemical" pos="JJ" space=" ">chemical</W>
+ <W cur="640" id="126" lemma="therapeutical" pos="JJ" space=" ">therapeutical</W>
+ <W cur="654" id="127" lemma="agent" pos="NN" space=" ">agent</W>
+ <W cur="660" id="128" lemma="well" pos="RB" space=" ">well</W>
+ <W cur="665" id="129" lemma="know" pos="VBN" space=" ">known</W>
+ <W cur="671" id="130" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="675" id="131" lemma="use" pos="VBN" space=" ">used</W>
+ <W cur="680" id="132" lemma="for" pos="IN" space=" ">for</W>
+ <W cur="684" id="133" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="688" id="134" lemma="treatment" pos="NN" space=" ">treatment</W>
+ <W cur="698" id="135" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="701" id="136" lemma="myeloproliferative" pos="JJ" space=" ">myeloproliferative</W>
+ <W cur="720" id="137" lemma="syndroms" pos="NNS" space=" ">syndroms</W>
+ <W cur="729" id="138" lemma="such" pos="JJ" space=" ">such</W>
+ <W cur="734" id="139" lemma="as" pos="IN" space=" ">as</W>
+ <W cur="737" id="140" lemma="chronical" pos="JJ" space=" ">chronical</W>
+ <W cur="747" id="141" lemma="myeloid" pos="NN" space=" ">myeloid</W>
+ <W cur="755" id="142" lemma="leukemia" pos="NN" space=" ">leukemia</W>
+ <W cur="764" id="143" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="768" id="144" lemma="polycythemia" pos="NN" space=" ">polycythemia</W>
+ <W cur="781" id="145" lemma="vera" pos="NN" space=" ">vera</W>
+ <W boundary="sentence" cur="785" id="146" lemma="." pos=".">.</W>
+ <W cur="787" id="147" lemma="Its" pos="PRP$" space=" ">Its</W>
+ <W cur="791" id="148" lemma="main" pos="JJ" space=" ">main</W>
+ <W cur="796" id="149" lemma="function" pos="NN" space=" ">function</W>
+ <W cur="805" id="150" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="808" id="151" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="811" id="152" lemma="block" pos="VB" space=" ">block</W>
+ <W cur="817" id="153" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="821" id="154" lemma="DNA" pos="NNP" space=" ">DNA</W>
+ <W cur="825" id="155" lemma="synthesis" pos="NN" space=" ">synthesis</W>
+ <W cur="835" id="156" lemma="by" pos="IN" space=" ">by</W>
+ <W cur="838" id="157" lemma="inhibiting" pos="NN" space=" ">inhibiting</W>
+ <W cur="849" id="158" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="853" id="159" lemma="ribonucleotide" pos="NN" space=" ">ribonucleotide</W>
+ <W cur="868" id="160" lemma="reductase" pos="NN" space=" ">reductase</W>
+ <W cur="877" id="161" lemma="," pos=",">,</W>
+ <W cur="879" id="162" lemma="keep" pos="VBG" space=" ">keeping</W>
+ <W cur="887" id="163" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="891" id="164" lemma="cell" pos="NNS" space=" ">cells</W>
+ <W cur="897" id="165" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="900" id="166" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="904" id="167" lemma="S" pos="NNP" space=" ">S</W>
+ <W cur="906" id="168" lemma="phase" pos="NN" space=" ">phase</W>
+ <W boundary="sentence" cur="911" id="169" lemma="." pos=".">.</W>
+ <W cur="913" id="170" lemma="[" pos="NN">[</W>
+ <W cur="914" id="171" lemma="1" pos="CD">1</W>
+ <W cur="915" id="172" lemma="]" pos="CD">]</W>
+ <W cur="917" id="173" lemma="It" pos="PRP" space=" ">It</W>
+ <W cur="920" id="174" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="923" id="175" lemma="easily" pos="RB" space=" ">easily</W>
+ <W cur="930" id="176" lemma="use" pos="VBN" space=" ">used</W>
+ <W cur="934" id="177" lemma="," pos=",">,</W>
+ <W cur="936" id="178" lemma="with" pos="IN" space=" ">with</W>
+ <W cur="941" id="179" lemma="few" pos="JJ" space=" ">few</W>
+ <W cur="945" id="180" lemma="toxic" pos="JJ" space=" ">toxic</W>
+ <W cur="951" id="181" lemma="side" pos="NN" space=" ">side</W>
+ <W cur="956" id="182" lemma="effects" pos="NNS" space=" ">effects</W>
+ <W cur="964" id="183" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="968" id="184" lemma="with" pos="IN" space=" ">with</W>
+ <W cur="973" id="185" lemma="an" pos="DT" space=" ">an</W>
+ <W cur="976" id="186" lemma="easily" pos="RB" space=" ">easily</W>
+ <W cur="983" id="187" lemma="reversible" pos="JJ" space=" ">reversible</W>
+ <W cur="994" id="188" lemma="myelosupression" pos="NN" space=" ">myelosupression</W>
+ <W cur="1010" id="189" lemma="effect" pos="NN" space=" ">effect</W>
+ <W boundary="sentence" cur="1016" id="190" lemma="." pos=".">.</W>
+ <W cur="1018" id="191" lemma="The" pos="DT" space=" ">The</W>
+ <W cur="1022" id="192" lemma="use" pos="NN" space=" ">use</W>
+ <W cur="1026" id="193" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="1029" id="194" lemma="hydroxyurea" pos="NN" space=" ">hydroxyurea</W>
+ <W cur="1041" id="195" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="1044" id="196" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1048" id="197" lemma="treatment" pos="NN" space=" ">treatment</W>
+ <W cur="1058" id="198" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="1061" id="199" lemma="falciform" pos="NN" space=" ">falciform</W>
+ <W cur="1071" id="200" lemma="anemia" pos="NN" space=" ">anemia</W>
+ <W cur="1078" id="201" lemma="(" pos=":">(</W>
+ <W cur="1079" id="202" lemma="FA" pos="NNP">FA</W>
+ <W cur="1081" id="203" lemma=")" pos=":">)</W>
+ <W cur="1083" id="204" lemma="begin" pos="VBD" space=" ">began</W>
+ <W cur="1089" id="205" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="1092" id="206" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1096" id="207" lemma="1980" pos="CD" space=" ">1980</W>
+ <W cur="1100" id="208" lemma="'s" pos="POS">'s</W>
+ <W cur="1102" id="209" lemma="," pos=",">,</W>
+ <W cur="1104" id="210" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="1107" id="211" lemma="adult" pos="NN" space=" ">adult</W>
+ <W cur="1113" id="212" lemma="patient" pos="NNS" space=" ">patients</W>
+ <W cur="1121" id="213" lemma=";" pos=":">;</W>
+ <W cur="1123" id="214" lemma="it" pos="PRP" space=" ">it</W>
+ <W cur="1126" id="215" lemma="be" pos="VBD" space=" ">was</W>
+ <W cur="1130" id="216" lemma="later" pos="JJ" space=" ">later</W>
+ <W cur="1136" id="217" lemma="authorize" pos="VBN" space=" ">authorized</W>
+ <W cur="1147" id="218" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="1150" id="219" lemma="be" pos="VB" space=" ">be</W>
+ <W cur="1153" id="220" lemma="use" pos="VBN" space=" ">used</W>
+ <W cur="1158" id="221" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="1161" id="222" lemma="child" pos="NNS" space=" ">children</W>
+ <W boundary="sentence" cur="1169" id="223" lemma="." pos=".">.</W>
+ <W cur="1171" id="224" lemma="[" pos="NN">[</W>
+ <W cur="1172" id="225" lemma="7" pos="CD">7</W>
+ <W cur="1173" id="226" lemma="]" pos="CD">]</W>
+ <W cur="1175" id="227" lemma="Along" pos="NNP" space=" ">Along</W>
+ <W cur="1181" id="228" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1185" id="229" lemma="years" pos="NNS" space=" ">years</W>
+ <W cur="1190" id="230" lemma="," pos=",">,</W>
+ <W cur="1192" id="231" lemma="study" pos="NNS" space=" ">studies</W>
+ <W cur="1200" id="232" lemma="on" pos="IN" space=" ">on</W>
+ <W cur="1203" id="233" lemma="child" pos="NNS" space=" ">children</W>
+ <W cur="1212" id="234" lemma="have" pos="VBP" space=" ">have</W>
+ <W cur="1217" id="235" lemma="show" pos="VBN" space=" ">shown</W>
+ <W cur="1223" id="236" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1227" id="237" lemma="same" pos="JJ" space=" ">same</W>
+ <W cur="1232" id="238" lemma="efficiency" pos="NN" space=" ">efficiency</W>
+ <W cur="1243" id="239" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="1246" id="240" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1250" id="241" lemma="use" pos="NN" space=" ">use</W>
+ <W cur="1254" id="242" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="1257" id="243" lemma="HU" pos="NNP" space=" ">HU</W>
+ <W cur="1260" id="244" lemma="with" pos="IN" space=" ">with</W>
+ <W cur="1265" id="245" lemma="no" pos="DT" space=" ">no</W>
+ <W cur="1268" id="246" lemma="significant" pos="JJ" space=" ">significant</W>
+ <W cur="1280" id="247" lemma="side" pos="NN" space=" ">side</W>
+ <W cur="1285" id="248" lemma="effects" pos="NNS" space=" ">effects</W>
+ <W boundary="sentence" cur="1292" id="249" lemma="." pos=".">.</W>
+ <W cur="1294" id="250" lemma="[" pos="NN">[</W>
+ <W cur="1295" id="251" lemma="2" pos="CD">2</W>
+ <W cur="1296" id="252" lemma="," pos=",">,</W>
+ <W cur="1298" id="253" lemma="7" pos="CD" space=" ">7</W>
+ <W cur="1299" id="254" lemma="," pos=",">,</W>
+ <W cur="1301" id="255" lemma="8" pos="CD" space=" ">8</W>
+ <W cur="1302" id="256" lemma="," pos=",">,</W>
+ <W cur="1304" id="257" lemma="9" pos="CD" space=" ">9</W>
+ <W cur="1305" id="258" lemma="," pos=",">,</W>
+ <W cur="1307" id="259" lemma="10" pos="CD" space=" ">10</W>
+ <W cur="1309" id="260" lemma="]" pos=":">]</W>
+ <W cur="1311" id="261" lemma="Thus" pos="NNP" space="&#xA;">Thus</W>
+ <W cur="1315" id="262" lemma="," pos=",">,</W>
+ <W cur="1317" id="263" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1321" id="264" lemma="present" pos="NN" space=" ">present</W>
+ <W cur="1329" id="265" lemma="study" pos="NN" space=" ">study</W>
+ <W cur="1335" id="266" lemma="have" pos="VBZ" space=" ">has</W>
+ <W cur="1339" id="267" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1343" id="268" lemma="purpose" pos="NN" space=" ">purpose</W>
+ <W cur="1351" id="269" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="1354" id="270" lemma="investigate" pos="VB" space=" ">investigate</W>
+ <W cur="1365" id="271" lemma="," pos=",">,</W>
+ <W cur="1367" id="272" lemma="through" pos="IN" space=" ">through</W>
+ <W cur="1375" id="273" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="1377" id="274" lemma="series" pos="NN" space=" ">series</W>
+ <W cur="1384" id="275" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="1387" id="276" lemma="case" pos="NNS" space=" ">cases</W>
+ <W cur="1392" id="277" lemma="," pos=",">,</W>
+ <W cur="1394" id="278" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1398" id="279" lemma="efficiency" pos="NN" space=" ">efficiency</W>
+ <W cur="1409" id="280" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="1412" id="281" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1416" id="282" lemma="use" pos="NN" space=" ">use</W>
+ <W cur="1420" id="283" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="1423" id="284" lemma="HU" pos="NNP" space=" ">HU</W>
+ <W cur="1426" id="285" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="1430" id="286" lemma="its" pos="PRP$" space=" ">its</W>
+ <W cur="1434" id="287" lemma="tolerance" pos="NN" space=" ">tolerance</W>
+ <W cur="1444" id="288" lemma="by" pos="IN" space=" ">by</W>
+ <W cur="1447" id="289" lemma="FS" pos="NNP" space=" ">FS</W>
+ <W cur="1450" id="290" lemma="patient" pos="NNS" space=" ">patients</W>
+ <W cur="1459" id="291" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="1462" id="292" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1466" id="293" lemma="pediatric" pos="JJ" space=" ">pediatric</W>
+ <W cur="1476" id="294" lemma="stage" pos="NN" space=" ">stage</W>
+ <W cur="1482" id="295" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="1486" id="296" lemma="young" pos="JJ" space=" ">young</W>
+ <W cur="1492" id="297" lemma="adult" pos="NNS" space=" ">adults</W>
+ <W cur="1498" id="298" lemma="," pos=",">,</W>
+ <W cur="1500" id="299" lemma="as" pos="IN" space=" ">as</W>
+ <W cur="1503" id="300" lemma="well" pos="RB" space=" ">well</W>
+ <W cur="1508" id="301" lemma="as" pos="IN" space=" ">as</W>
+ <W cur="1511" id="302" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="1514" id="303" lemma="evaluate" pos="VB" space=" ">evaluate</W>
+ <W cur="1523" id="304" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1527" id="305" lemma="variation" pos="NNS" space=" ">variations</W>
+ <W cur="1538" id="306" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="1541" id="307" lemma="hematological" pos="JJ" space=" ">hematological</W>
+ <W cur="1555" id="308" lemma="parameter" pos="NNS" space=" ">parameters</W>
+ <W cur="1566" id="309" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="1569" id="310" lemma="both" pos="DT" space=" ">both</W>
+ <W cur="1574" id="311" lemma="age" pos="NN" space=" ">age</W>
+ <W cur="1578" id="312" lemma="group" pos="NNS" space=" ">groups</W>
+ <W cur="1585" id="313" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="1589" id="314" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="1592" id="315" lemma="HbF" pos="NNP" space=" ">HbF</W>
+ <W cur="1596" id="316" lemma="values" pos="NNS" space=" ">values</W>
+ <W cur="1603" id="317" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="1606" id="318" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="1610" id="319" lemma="pediatric" pos="JJ" space=" ">pediatric</W>
+ <W cur="1620" id="320" lemma="group" pos="NN" space=" ">group</W>
+ <W boundary="sentence" cur="1625" id="321" lemma="." pos=".">.</W>
 </Text>

@@ -1,144 +1,145 @@
-<Text language="da" >
-<W cur="0" id="1">Familier</W>
-<W cur="9" id="2" space=" ">rammes</W>
-<W cur="16" id="3" space=" ">af</W>
-<W cur="19" id="4" space=" ">øgede</W>
-<W cur="25" id="5" space=" ">leveomkostninger</W>
-<W cur="42" id="6" space="&#xA;">Britiske</W>
-<W cur="51" id="7" space=" ">familier</W>
-<W cur="60" id="8" space=" ">skal</W>
-<W cur="65" id="9" space=" ">hoste</W>
-<W cur="71" id="10" space=" ">op</W>
-<W cur="74" id="11" space=" ">med</W>
-<W cur="78" id="12" space=" ">ekstra</W>
-<W cur="85" id="13" space=" ">1.300</W>
-<W cur="91" id="14" space=" ">pund</W>
-<W cur="96" id="15" space=" ">om</W>
-<W cur="99" id="16" space=" ">året</W>
-<W cur="103" id="17">,</W>
-<W cur="105" id="18" space=" ">da</W>
-<W cur="108" id="19" space=" ">fødevare-</W>
-<W cur="118" id="20" space=" ">og</W>
-<W cur="121" id="21" space=" ">benzinpriser</W>
-<W cur="134" id="22" space=" ">stiger</W>
-<W cur="141" id="23" space=" ">med</W>
-<W cur="145" id="24" space=" ">den</W>
-<W cur="149" id="25" space=" ">største</W>
-<W cur="157" id="26" space=" ">hastighed</W>
-<W cur="167" id="27" space=" ">i</W>
-<W cur="169" id="28" space=" ">17</W>
-<W cur="172" id="29" space=" ">år</W>
-<W cur="174" id="30">.</W>
-<W cur="176" id="31" space=" ">Priserne</W>
-<W cur="185" id="32" space=" ">i</W>
-<W cur="187" id="33" space=" ">supermarkeder</W>
-<W cur="201" id="34" space=" ">er</W>
-<W cur="204" id="35" space=" ">steget</W>
-<W cur="211" id="36" space=" ">med</W>
-<W cur="215" id="37" space=" ">alarmerende</W>
-<W cur="227" id="38" space=" ">hast</W>
-<W cur="232" id="39" space=" ">over</W>
-<W cur="237" id="40" space=" ">det</W>
-<W cur="241" id="41" space=" ">sidste</W>
-<W cur="248" id="42" space=" ">år</W>
-<W cur="250" id="43">.</W>
-<W cur="252" id="44" space=" ">Analytikere</W>
-<W cur="264" id="45" space=" ">har</W>
-<W cur="268" id="46" space=" ">advaret</W>
-<W cur="276" id="47" space=" ">om</W>
-<W cur="278" id="48">,</W>
-<W cur="280" id="49" space=" ">at</W>
-<W cur="283" id="50" space=" ">priserne</W>
-<W cur="292" id="51" space=" ">vil</W>
-<W cur="296" id="52" space=" ">stige</W>
-<W cur="302" id="53" space=" ">yderligere</W>
-<W cur="312" id="54">,</W>
-<W cur="314" id="55" space=" ">hvilket</W>
-<W cur="322" id="56" space=" ">gør</W>
-<W cur="326" id="57" space=" ">det</W>
-<W cur="330" id="58" space=" ">svært</W>
-<W cur="336" id="59" space=" ">for</W>
-<W cur="340" id="60" space=" ">Bank</W>
-<W cur="345" id="61" space=" ">og</W>
-<W cur="348" id="62" space=" ">England</W>
-<W cur="356" id="63" space=" ">at</W>
-<W cur="359" id="64" space=" ">sænke</W>
-<W cur="365" id="65" space=" ">renten</W>
-<W cur="371" id="66">,</W>
-<W cur="373" id="67" space=" ">da</W>
-<W cur="376" id="68" space=" ">den</W>
-<W cur="380" id="69" space=" ">kæmper</W>
-<W cur="387" id="70" space=" ">med</W>
-<W cur="391" id="71" space=" ">at</W>
-<W cur="394" id="72" space=" ">holde</W>
-<W cur="400" id="73" space=" ">inflationen</W>
-<W cur="412" id="74" space=" ">og</W>
-<W cur="415" id="75" space=" ">økonomien</W>
-<W cur="425" id="76" space=" ">under</W>
-<W cur="431" id="77" space=" ">kontrol</W>
-<W cur="438" id="78">.</W>
-<W cur="440" id="79" space=" ">For</W>
-<W cur="444" id="80" space=" ">at</W>
-<W cur="447" id="81" space=" ">gøre</W>
-<W cur="452" id="82" space=" ">det</W>
-<W cur="456" id="83" space=" ">hele</W>
-<W cur="461" id="84" space=" ">værre</W>
-<W cur="467" id="85" space=" ">er</W>
-<W cur="470" id="86" space=" ">tårnhøje</W>
-<W cur="479" id="87" space=" ">priser</W>
-<W cur="486" id="88" space=" ">kommet</W>
-<W cur="493" id="89" space=" ">lønstigninger</W>
-<W cur="507" id="90" space=" ">i</W>
-<W cur="509" id="91" space=" ">forkøbet</W>
-<W cur="517" id="92">,</W>
-<W cur="519" id="93" space=" ">specielt</W>
-<W cur="528" id="94" space=" ">sygeplejesker</W>
-<W cur="542" id="95" space=" ">og</W>
-<W cur="545" id="96" space=" ">personale</W>
-<W cur="555" id="97" space=" ">i</W>
-<W cur="557" id="98" space=" ">sundhedsvæsnet</W>
-<W cur="572" id="99" space=" ">har</W>
-<W cur="576" id="100" space=" ">lidt</W>
-<W cur="581" id="101" space=" ">under</W>
-<W cur="587" id="102" space=" ">regeringens</W>
-<W cur="599" id="103" space=" ">fokus</W>
-<W cur="605" id="104" space=" ">på</W>
-<W cur="608" id="105" space=" ">at</W>
-<W cur="611" id="106" space=" ">de</W>
-<W cur="614" id="107" space=" ">som</W>
-<W cur="618" id="108" space=" ">arbejder</W>
-<W cur="627" id="109" space=" ">i</W>
-<W cur="629" id="110" space=" ">den</W>
-<W cur="633" id="111" space=" ">offentlige</W>
-<W cur="644" id="112" space=" ">sektor</W>
-<W cur="651" id="113" space=" ">skal</W>
-<W cur="656" id="114" space=" ">have</W>
-<W cur="661" id="115" space=" ">lønstigninger</W>
-<W cur="675" id="116" space=" ">under</W>
-<W cur="681" id="117" space=" ">inflationsniveauet</W>
-<W cur="699" id="118">.</W>
-<W cur="701" id="119" space=" ">Ud</W>
-<W cur="704" id="120" space=" ">over</W>
-<W cur="709" id="121" space=" ">brændstof</W>
-<W cur="719" id="122" space=" ">og</W>
-<W cur="722" id="123" space=" ">madvarer</W>
-<W cur="731" id="124" space=" ">er</W>
-<W cur="734" id="125" space=" ">elektricitetsregninger</W>
-<W cur="757" id="126" space=" ">også</W>
-<W cur="762" id="127" space=" ">steget</W>
-<W cur="768" id="128">.</W>
-<W cur="770" id="129" space=" ">Fem</W>
-<W cur="774" id="130" space=" ">ud</W>
-<W cur="777" id="131" space=" ">af</W>
-<W cur="780" id="132" space=" ">seks</W>
-<W cur="785" id="133" space=" ">større</W>
-<W cur="792" id="134" space=" ">leverandører</W>
-<W cur="805" id="135" space=" ">har</W>
-<W cur="809" id="136" space=" ">set</W>
-<W cur="813" id="137" space=" ">stigning</W>
-<W cur="822" id="138" space=" ">i</W>
-<W cur="824" id="139" space=" ">deres</W>
-<W cur="830" id="140" space=" ">kunders</W>
-<W cur="838" id="141" space=" ">regninger</W>
-<W cur="847" id="142">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="da" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" lemma="familie" pos="NNP">Familier</W>
+ <W cur="9" id="2" lemma="ramme" pos="VBD" space=" ">rammes</W>
+ <W cur="16" id="3" lemma="af" pos="IN" space=" ">af</W>
+ <W cur="19" id="4" lemma="øge" pos="VBD" space=" ">øgede</W>
+ <W cur="25" id="5" lemma="_" pos="NNP" space=" ">leveomkostninger</W>
+ <W cur="42" id="6" lemma="_" pos="NNP" space="&#xA;">Britiske</W>
+ <W cur="51" id="7" lemma="familie" pos="NNP" space=" ">familier</W>
+ <W cur="60" id="8" lemma="skulle" pos="VBD" space=" ">skal</W>
+ <W cur="65" id="9" lemma="_" pos="NN" space=" ">hoste</W>
+ <W cur="71" id="10" lemma="op" pos="RP" space=" ">op</W>
+ <W cur="74" id="11" lemma="med" pos="IN" space=" ">med</W>
+ <W cur="78" id="12" lemma="ekstra" pos="JJ" space=" ">ekstra</W>
+ <W cur="85" id="13" lemma="@card@" pos="CD" space=" ">1.300</W>
+ <W cur="91" id="14" lemma="pund" pos="NNP" space=" ">pund</W>
+ <W cur="96" id="15" lemma="om" pos="IN" space=" ">om</W>
+ <W cur="99" id="16" lemma="år" pos="NN" space=" ">året</W>
+ <W cur="103" id="17" lemma="," pos=",">,</W>
+ <W cur="105" id="18" lemma="da" pos="IN" space=" ">da</W>
+ <W cur="108" id="19" lemma="fødevare-" pos="FW" space=" ">fødevare-</W>
+ <W cur="118" id="20" lemma="og" pos="CC" space=" ">og</W>
+ <W cur="121" id="21" lemma="_" pos="NN" space=" ">benzinpriser</W>
+ <W cur="134" id="22" lemma="stige" pos="VBD" space=" ">stiger</W>
+ <W cur="141" id="23" lemma="med" pos="IN" space=" ">med</W>
+ <W cur="145" id="24" lemma="den" pos="DT" space=" ">den</W>
+ <W cur="149" id="25" lemma="stor" pos="JJS" space=" ">største</W>
+ <W cur="157" id="26" lemma="hastighed" pos="NN" space=" ">hastighed</W>
+ <W cur="167" id="27" lemma="i" pos="IN" space=" ">i</W>
+ <W cur="169" id="28" lemma="@card@" pos="CD" space=" ">17</W>
+ <W cur="172" id="29" lemma="år" pos="NN" space=" ">år</W>
+ <W boundary="sentence" cur="174" id="30" lemma="." pos="SENT">.</W>
+ <W cur="176" id="31" lemma="pris" pos="NNP" space=" ">Priserne</W>
+ <W cur="185" id="32" lemma="i" pos="IN" space=" ">i</W>
+ <W cur="187" id="33" lemma="supermarked" pos="NNP" space=" ">supermarkeder</W>
+ <W cur="201" id="34" lemma="være" pos="VBD" space=" ">er</W>
+ <W cur="204" id="35" lemma="stige" pos="VBN" space=" ">steget</W>
+ <W cur="211" id="36" lemma="med" pos="IN" space=" ">med</W>
+ <W cur="215" id="37" lemma="_" pos="JJ" space=" ">alarmerende</W>
+ <W cur="227" id="38" lemma="hast" pos="NN" space=" ">hast</W>
+ <W cur="232" id="39" lemma="over" pos="RP" space=" ">over</W>
+ <W cur="237" id="40" lemma="det" pos="PRP" space=" ">det</W>
+ <W cur="241" id="41" lemma="sidste" pos="JJ" space=" ">sidste</W>
+ <W cur="248" id="42" lemma="år" pos="NN" space=" ">år</W>
+ <W boundary="sentence" cur="250" id="43" lemma="." pos="SENT">.</W>
+ <W cur="252" id="44" lemma="_" pos="NNP" space=" ">Analytikere</W>
+ <W cur="264" id="45" lemma="have" pos="VBD" space=" ">har</W>
+ <W cur="268" id="46" lemma="advare" pos="VBN" space=" ">advaret</W>
+ <W cur="276" id="47" lemma="om" pos="IN" space=" ">om</W>
+ <W cur="278" id="48" lemma="," pos=",">,</W>
+ <W cur="280" id="49" lemma="at" pos="TO" space=" ">at</W>
+ <W cur="283" id="50" lemma="pris" pos="NNP" space=" ">priserne</W>
+ <W cur="292" id="51" lemma="ville" pos="VBD" space=" ">vil</W>
+ <W cur="296" id="52" lemma="stige" pos="VB" space=" ">stige</W>
+ <W cur="302" id="53" lemma="yderlig" pos="JJR" space=" ">yderligere</W>
+ <W cur="312" id="54" lemma="," pos=",">,</W>
+ <W cur="314" id="55" lemma="hvilken" pos="WDT" space=" ">hvilket</W>
+ <W cur="322" id="56" lemma="gøre" pos="VBD" space=" ">gør</W>
+ <W cur="326" id="57" lemma="det" pos="PRP" space=" ">det</W>
+ <W cur="330" id="58" lemma="svær" pos="JJ" space=" ">svært</W>
+ <W cur="336" id="59" lemma="for" pos="IN" space=" ">for</W>
+ <W cur="340" id="60" lemma="bank" pos="NN" space=" ">Bank</W>
+ <W cur="345" id="61" lemma="og" pos="CC" space=" ">og</W>
+ <W cur="348" id="62" lemma="England" pos="NNP" space=" ">England</W>
+ <W cur="356" id="63" lemma="at" pos="TO" space=" ">at</W>
+ <W cur="359" id="64" lemma="sænke" pos="VB" space=" ">sænke</W>
+ <W cur="365" id="65" lemma="rente" pos="NN" space=" ">renten</W>
+ <W cur="371" id="66" lemma="," pos=",">,</W>
+ <W cur="373" id="67" lemma="da" pos="IN" space=" ">da</W>
+ <W cur="376" id="68" lemma="den" pos="DT" space=" ">den</W>
+ <W cur="380" id="69" lemma="kæmpe" pos="VBD" space=" ">kæmper</W>
+ <W cur="387" id="70" lemma="med" pos="IN" space=" ">med</W>
+ <W cur="391" id="71" lemma="at" pos="TO" space=" ">at</W>
+ <W cur="394" id="72" lemma="holde" pos="VB" space=" ">holde</W>
+ <W cur="400" id="73" lemma="inflation" pos="NN" space=" ">inflationen</W>
+ <W cur="412" id="74" lemma="og" pos="CC" space=" ">og</W>
+ <W cur="415" id="75" lemma="økonomi" pos="NN" space=" ">økonomien</W>
+ <W cur="425" id="76" lemma="under" pos="IN" space=" ">under</W>
+ <W cur="431" id="77" lemma="kontrol" pos="NN" space=" ">kontrol</W>
+ <W boundary="sentence" cur="438" id="78" lemma="." pos="SENT">.</W>
+ <W cur="440" id="79" lemma="for" pos="IN" space=" ">For</W>
+ <W cur="444" id="80" lemma="at" pos="TO" space=" ">at</W>
+ <W cur="447" id="81" lemma="gøre" pos="VB" space=" ">gøre</W>
+ <W cur="452" id="82" lemma="det" pos="PRP" space=" ">det</W>
+ <W cur="456" id="83" lemma="hel" pos="JJ" space=" ">hele</W>
+ <W cur="461" id="84" lemma="slem" pos="JJR" space=" ">værre</W>
+ <W cur="467" id="85" lemma="være" pos="VBD" space=" ">er</W>
+ <W cur="470" id="86" lemma="_" pos="NNP" space=" ">tårnhøje</W>
+ <W cur="479" id="87" lemma="pris" pos="NNP" space=" ">priser</W>
+ <W cur="486" id="88" lemma="komme" pos="VBN" space=" ">kommet</W>
+ <W cur="493" id="89" lemma="lønstigning" pos="NNP" space=" ">lønstigninger</W>
+ <W cur="507" id="90" lemma="i" pos="IN" space=" ">i</W>
+ <W cur="509" id="91" lemma="_" pos="NN" space=" ">forkøbet</W>
+ <W cur="517" id="92" lemma="," pos=",">,</W>
+ <W cur="519" id="93" lemma="speciel" pos="JJ" space=" ">specielt</W>
+ <W cur="528" id="94" lemma="_" pos="NNP" space=" ">sygeplejesker</W>
+ <W cur="542" id="95" lemma="og" pos="CC" space=" ">og</W>
+ <W cur="545" id="96" lemma="personale" pos="NN" space=" ">personale</W>
+ <W cur="555" id="97" lemma="i" pos="IN" space=" ">i</W>
+ <W cur="557" id="98" lemma="sundhedsvæsen" pos="NN" space=" ">sundhedsvæsnet</W>
+ <W cur="572" id="99" lemma="have" pos="VBD" space=" ">har</W>
+ <W cur="576" id="100" lemma="lide" pos="VBN" space=" ">lidt</W>
+ <W cur="581" id="101" lemma="under" pos="IN" space=" ">under</W>
+ <W cur="587" id="102" lemma="regering" pos="NN" space=" ">regeringens</W>
+ <W cur="599" id="103" lemma="fokus" pos="NNS" space=" ">fokus</W>
+ <W cur="605" id="104" lemma="på" pos="IN" space=" ">på</W>
+ <W cur="608" id="105" lemma="at" pos="TO" space=" ">at</W>
+ <W cur="611" id="106" lemma="den" pos="DT" space=" ">de</W>
+ <W cur="614" id="107" lemma="som" pos="TO" space=" ">som</W>
+ <W cur="618" id="108" lemma="arbejde" pos="VBD" space=" ">arbejder</W>
+ <W cur="627" id="109" lemma="i" pos="IN" space=" ">i</W>
+ <W cur="629" id="110" lemma="den" pos="DT" space=" ">den</W>
+ <W cur="633" id="111" lemma="offentlig" pos="JJ" space=" ">offentlige</W>
+ <W cur="644" id="112" lemma="sektor" pos="NN" space=" ">sektor</W>
+ <W cur="651" id="113" lemma="skulle" pos="VBD" space=" ">skal</W>
+ <W cur="656" id="114" lemma="have" pos="VB" space=" ">have</W>
+ <W cur="661" id="115" lemma="lønstigning" pos="NNP" space=" ">lønstigninger</W>
+ <W cur="675" id="116" lemma="under" pos="IN" space=" ">under</W>
+ <W cur="681" id="117" lemma="_" pos="NN" space=" ">inflationsniveauet</W>
+ <W boundary="sentence" cur="699" id="118" lemma="." pos="SENT">.</W>
+ <W cur="701" id="119" lemma="ud" pos="RP" space=" ">Ud</W>
+ <W cur="704" id="120" lemma="over" pos="RP" space=" ">over</W>
+ <W cur="709" id="121" lemma="brændstof" pos="NN" space=" ">brændstof</W>
+ <W cur="719" id="122" lemma="og" pos="CC" space=" ">og</W>
+ <W cur="722" id="123" lemma="_" pos="NNP" space=" ">madvarer</W>
+ <W cur="731" id="124" lemma="være" pos="VBD" space=" ">er</W>
+ <W cur="734" id="125" lemma="_" pos="NNP" space=" ">elektricitetsregninger</W>
+ <W cur="757" id="126" lemma="også" pos="RP" space=" ">også</W>
+ <W cur="762" id="127" lemma="stige" pos="VBN" space=" ">steget</W>
+ <W boundary="sentence" cur="768" id="128" lemma="." pos="SENT">.</W>
+ <W cur="770" id="129" lemma="fem" pos="CD" space=" ">Fem</W>
+ <W cur="774" id="130" lemma="ud" pos="RP" space=" ">ud</W>
+ <W cur="777" id="131" lemma="af" pos="IN" space=" ">af</W>
+ <W cur="780" id="132" lemma="seks" pos="CD" space=" ">seks</W>
+ <W cur="785" id="133" lemma="stor" pos="JJR" space=" ">større</W>
+ <W cur="792" id="134" lemma="leverandør" pos="NNP" space=" ">leverandører</W>
+ <W cur="805" id="135" lemma="have" pos="VBD" space=" ">har</W>
+ <W cur="809" id="136" lemma="se" pos="VBN" space=" ">set</W>
+ <W cur="813" id="137" lemma="stigning" pos="NN" space=" ">stigning</W>
+ <W cur="822" id="138" lemma="i" pos="IN" space=" ">i</W>
+ <W cur="824" id="139" lemma="deres" pos="PRP$" space=" ">deres</W>
+ <W cur="830" id="140" lemma="_" pos="NNP" space=" ">kunders</W>
+ <W cur="838" id="141" lemma="regning" pos="NNP" space=" ">regninger</W>
+ <W boundary="sentence" cur="847" id="142" lemma="." pos="SENT">.</W>
 </Text>

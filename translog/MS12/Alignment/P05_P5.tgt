@@ -1,135 +1,136 @@
-<Text language="zh" >
-<W cur="0" id="1">社会学</W>
-<W cur="3" id="2">是</W>
-<W cur="4" id="3">一个</W>
-<W cur="6" id="4">相对</W>
-<W cur="8" id="5">较</W>
-<W cur="9" id="6">新</W>
-<W cur="10" id="7">的</W>
-<W cur="11" id="8">学科</W>
-<W cur="13" id="9">。</W>
-<W cur="14" id="10">它</W>
-<W cur="15" id="11">出现</W>
-<W cur="17" id="12">在</W>
-<W cur="18" id="13">19</W>
-<W cur="20" id="14">世纪</W>
-<W cur="22" id="15">初</W>
-<W cur="23" id="16">，</W>
-<W cur="24" id="17">以</W>
-<W cur="25" id="18">应对</W>
-<W cur="27" id="19">现代性</W>
-<W cur="30" id="20">的</W>
-<W cur="31" id="21">挑战</W>
-<W cur="33" id="22">。</W>
-<W cur="34" id="23">动力</W>
-<W cur="36" id="24">的</W>
-<W cur="37" id="25">增加</W>
-<W cur="39" id="26">和</W>
-<W cur="40" id="27">技术</W>
-<W cur="42" id="28">的</W>
-<W cur="43" id="29">进步</W>
-<W cur="45" id="30">不断</W>
-<W cur="47" id="31">使</W>
-<W cur="48" id="32">人</W>
-<W cur="49" id="33">接触</W>
-<W cur="51" id="34">到</W>
-<W cur="52" id="35">不同</W>
-<W cur="54" id="36">的</W>
-<W cur="55" id="37">文化</W>
-<W cur="57" id="38">和</W>
-<W cur="58" id="39">社会</W>
-<W cur="60" id="40">。</W>
-<W cur="61" id="41">这</W>
-<W cur="62" id="42">种</W>
-<W cur="63" id="43">接触</W>
-<W cur="65" id="44">的</W>
-<W cur="66" id="45">影响</W>
-<W cur="68" id="46">不尽</W>
-<W cur="70" id="47">相同</W>
-<W cur="72" id="48">，</W>
-<W cur="73" id="49">但</W>
-<W cur="74" id="50">对</W>
-<W cur="75" id="51">某些</W>
-<W cur="77" id="52">人</W>
-<W cur="78" id="53">来说</W>
-<W cur="80" id="54">，</W>
-<W cur="81" id="55">包括</W>
-<W cur="83" id="56">传统</W>
-<W cur="85" id="57">的</W>
-<W cur="86" id="58">规范</W>
-<W cur="88" id="59">和</W>
-<W cur="89" id="60">习俗</W>
-<W cur="91" id="61">的</W>
-<W cur="92" id="62">崩溃</W>
-<W cur="94" id="63">和</W>
-<W cur="95" id="64">保证</W>
-<W cur="97" id="65">修订</W>
-<W cur="99" id="66">后</W>
-<W cur="100" id="67">的</W>
-<W cur="101" id="68">世界</W>
-<W cur="103" id="69">是</W>
-<W cur="104" id="70">如何</W>
-<W cur="106" id="71">工作</W>
-<W cur="108" id="72">的</W>
-<W cur="109" id="73">了解</W>
-<W cur="111" id="74">。</W>
-<W cur="112" id="75">社会学家</W>
-<W cur="116" id="76">通过</W>
-<W cur="118" id="77">试图</W>
-<W cur="120" id="78">了解</W>
-<W cur="122" id="79">什么</W>
-<W cur="124" id="80">使</W>
-<W cur="125" id="81">社会</W>
-<W cur="127" id="82">团体</W>
-<W cur="129" id="83">连结</W>
-<W cur="131" id="84">在</W>
-<W cur="132" id="85">一起</W>
-<W cur="134" id="86">以及</W>
-<W cur="136" id="87">探索</W>
-<W cur="138" id="88">可能</W>
-<W cur="140" id="89">的</W>
-<W cur="141" id="90">导致</W>
-<W cur="143" id="91">社会</W>
-<W cur="145" id="92">团结</W>
-<W cur="147" id="93">的</W>
-<W cur="148" id="94">崩溃</W>
-<W cur="150" id="95">的</W>
-<W cur="151" id="96">解决</W>
-<W cur="153" id="97">方案</W>
-<W cur="155" id="98">来</W>
-<W cur="156" id="99">应对</W>
-<W cur="158" id="100">这些</W>
-<W cur="160" id="101">变化</W>
-<W cur="162" id="102">。</W>
-<W cur="163" id="103">社会学</W>
-<W cur="166" id="104">一词</W>
-<W cur="168" id="105">是</W>
-<W cur="169" id="106">在</W>
-<W cur="170" id="107">1838</W>
-<W cur="174" id="108">年</W>
-<W cur="175" id="109">由</W>
-<W cur="176" id="110">奥古</W>
-<W cur="178" id="111">借鉴</W>
-<W cur="180" id="112">拉丁</W>
-<W cur="182" id="113">词</W>
-<W cur="183" id="114">socius</W>
-<W cur="189" id="115">（</W>
-<W cur="190" id="116">伴侣</W>
-<W cur="192" id="117">，</W>
-<W cur="193" id="118">联营</W>
-<W cur="195" id="119">公司</W>
-<W cur="197" id="120">）</W>
-<W cur="198" id="121">和</W>
-<W cur="199" id="122">希腊</W>
-<W cur="201" id="123">词</W>
-<W cur="202" id="124">logia</W>
-<W cur="207" id="125">(</W>
-<W cur="208" id="126">学习</W>
-<W cur="210" id="127">,</W>
-<W cur="211" id="128">演讲</W>
-<W cur="213" id="129">)</W>
-<W cur="214" id="130">而</W>
-<W cur="215" id="131">创造</W>
-<W cur="217" id="132">的</W>
-<W cur="218" id="133">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="zh" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" pos="n">社会学</W>
+ <W cur="3" id="2" pos="v">是</W>
+ <W cur="4" id="3" pos="m">一个</W>
+ <W cur="6" id="4" pos="d">相对</W>
+ <W cur="8" id="5" pos="d">较</W>
+ <W cur="9" id="6" pos="a">新</W>
+ <W cur="10" id="7" pos="u">的</W>
+ <W cur="11" id="8" pos="n">学科</W>
+ <W boundary="sentence" cur="13" id="9" pos="ew">。</W>
+ <W cur="14" id="10" pos="r">它</W>
+ <W cur="15" id="11" pos="v">出现</W>
+ <W cur="17" id="12" pos="p">在</W>
+ <W cur="18" id="13" pos="m">19</W>
+ <W cur="20" id="14" pos="n">世纪</W>
+ <W cur="22" id="15" pos="f">初</W>
+ <W cur="23" id="16" pos="w">，</W>
+ <W cur="24" id="17" pos="p">以</W>
+ <W cur="25" id="18" pos="v">应对</W>
+ <W cur="27" id="19" pos="n">现代性</W>
+ <W cur="30" id="20" pos="u">的</W>
+ <W cur="31" id="21" pos="vn">挑战</W>
+ <W boundary="sentence" cur="33" id="22" pos="ew">。</W>
+ <W cur="34" id="23" pos="n">动力</W>
+ <W cur="36" id="24" pos="u">的</W>
+ <W cur="37" id="25" pos="vn">增加</W>
+ <W cur="39" id="26" pos="c">和</W>
+ <W cur="40" id="27" pos="n">技术</W>
+ <W cur="42" id="28" pos="u">的</W>
+ <W cur="43" id="29" pos="vn">进步</W>
+ <W cur="45" id="30" pos="d">不断</W>
+ <W cur="47" id="31" pos="v">使</W>
+ <W cur="48" id="32" pos="n">人</W>
+ <W cur="49" id="33" pos="v">接触</W>
+ <W cur="51" id="34" pos="v">到</W>
+ <W cur="52" id="35" pos="a">不同</W>
+ <W cur="54" id="36" pos="u">的</W>
+ <W cur="55" id="37" pos="n">文化</W>
+ <W cur="57" id="38" pos="c">和</W>
+ <W cur="58" id="39" pos="n">社会</W>
+ <W boundary="sentence" cur="60" id="40" pos="ew">。</W>
+ <W cur="61" id="41" pos="r">这</W>
+ <W cur="62" id="42" pos="q">种</W>
+ <W cur="63" id="43" pos="vn">接触</W>
+ <W cur="65" id="44" pos="u">的</W>
+ <W cur="66" id="45" pos="vn">影响</W>
+ <W cur="68" id="46" pos="d">不尽</W>
+ <W cur="70" id="47" pos="a">相同</W>
+ <W cur="72" id="48" pos="w">，</W>
+ <W cur="73" id="49" pos="c">但</W>
+ <W cur="74" id="50" pos="p">对</W>
+ <W cur="75" id="51" pos="r">某些</W>
+ <W cur="77" id="52" pos="n">人</W>
+ <W cur="78" id="53" pos="u">来说</W>
+ <W cur="80" id="54" pos="w">，</W>
+ <W cur="81" id="55" pos="v">包括</W>
+ <W cur="83" id="56" pos="n">传统</W>
+ <W cur="85" id="57" pos="u">的</W>
+ <W cur="86" id="58" pos="n">规范</W>
+ <W cur="88" id="59" pos="c">和</W>
+ <W cur="89" id="60" pos="n">习俗</W>
+ <W cur="91" id="61" pos="u">的</W>
+ <W cur="92" id="62" pos="v">崩溃</W>
+ <W cur="94" id="63" pos="c">和</W>
+ <W cur="95" id="64" pos="v">保证</W>
+ <W cur="97" id="65" pos="vn">修订</W>
+ <W cur="99" id="66" pos="f">后</W>
+ <W cur="100" id="67" pos="u">的</W>
+ <W cur="101" id="68" pos="n">世界</W>
+ <W cur="103" id="69" pos="v">是</W>
+ <W cur="104" id="70" pos="r">如何</W>
+ <W cur="106" id="71" pos="vn">工作</W>
+ <W cur="108" id="72" pos="u">的</W>
+ <W cur="109" id="73" pos="vn">了解</W>
+ <W boundary="sentence" cur="111" id="74" pos="ew">。</W>
+ <W cur="112" id="75" pos="n">社会学家</W>
+ <W cur="116" id="76" pos="p">通过</W>
+ <W cur="118" id="77" pos="v">试图</W>
+ <W cur="120" id="78" pos="v">了解</W>
+ <W cur="122" id="79" pos="r">什么</W>
+ <W cur="124" id="80" pos="v">使</W>
+ <W cur="125" id="81" pos="n">社会</W>
+ <W cur="127" id="82" pos="n">团体</W>
+ <W cur="129" id="83" pos="v">连结</W>
+ <W cur="131" id="84" pos="p">在</W>
+ <W cur="132" id="85" pos="s">一起</W>
+ <W cur="134" id="86" pos="c">以及</W>
+ <W cur="136" id="87" pos="v">探索</W>
+ <W cur="138" id="88" pos="v">可能</W>
+ <W cur="140" id="89" pos="u">的</W>
+ <W cur="141" id="90" pos="v">导致</W>
+ <W cur="143" id="91" pos="n">社会</W>
+ <W cur="145" id="92" pos="an">团结</W>
+ <W cur="147" id="93" pos="u">的</W>
+ <W cur="148" id="94" pos="v">崩溃</W>
+ <W cur="150" id="95" pos="u">的</W>
+ <W cur="151" id="96" pos="v">解决</W>
+ <W cur="153" id="97" pos="n">方案</W>
+ <W cur="155" id="98" pos="f">来</W>
+ <W cur="156" id="99" pos="v">应对</W>
+ <W cur="158" id="100" pos="r">这些</W>
+ <W cur="160" id="101" pos="vn">变化</W>
+ <W boundary="sentence" cur="162" id="102" pos="ew">。</W>
+ <W cur="163" id="103" pos="n">社会学</W>
+ <W cur="166" id="104" pos="n">一词</W>
+ <W cur="168" id="105" pos="v">是</W>
+ <W cur="169" id="106" pos="p">在</W>
+ <W cur="170" id="107" pos="m">1838</W>
+ <W cur="174" id="108" pos="q">年</W>
+ <W cur="175" id="109" pos="p">由</W>
+ <W cur="176" id="110" pos="nr">奥古</W>
+ <W cur="178" id="111" pos="v">借鉴</W>
+ <W cur="180" id="112" pos="nz">拉丁</W>
+ <W cur="182" id="113" pos="n">词</W>
+ <W cur="183" id="114" pos="n">socius</W>
+ <W cur="189" id="115" pos="w">（</W>
+ <W cur="190" id="116" pos="n">伴侣</W>
+ <W cur="192" id="117" pos="w">，</W>
+ <W cur="193" id="118" pos="v">联营</W>
+ <W cur="195" id="119" pos="n">公司</W>
+ <W cur="197" id="120" pos="w">）</W>
+ <W cur="198" id="121" pos="c">和</W>
+ <W cur="199" id="122" pos="ns">希腊</W>
+ <W cur="201" id="123" pos="n">词</W>
+ <W cur="202" id="124" pos="n">logia</W>
+ <W cur="207" id="125" pos="w">(</W>
+ <W cur="208" id="126" pos="v">学习</W>
+ <W cur="210" id="127" pos="w">,</W>
+ <W cur="211" id="128" pos="vn">演讲</W>
+ <W cur="213" id="129" pos="w">)</W>
+ <W cur="214" id="130" pos="c">而</W>
+ <W cur="215" id="131" pos="v">创造</W>
+ <W cur="217" id="132" pos="u">的</W>
+ <W boundary="sentence" cur="218" id="133" pos="a">.。</W>
 </Text>

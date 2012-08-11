@@ -49,12 +49,6 @@ function MergeEvents2Trl()
         outp=${root/Translog-II/Events}
         atag=${root/Translog-II/Alignment_NLP}
 
-#    for atag in data/$1/Alignment_NLP/*.atag
-#    do
-#        root=${atag%.atag}
-#        outp=${root/Alignment_NLP/Events}
-#        file=${root/Alignment_NLP/Translog-II}
-
 ## If Source is older than Target do nothing
         if [ $file -ot "$outp.Event.xml" ] && 
            [ "$atag.atag" -ot "$outp.Event.xml" ] && 
@@ -190,27 +184,6 @@ function CheckRound ()
     done
 }
 
-#Text01=`ls data/{BML12,NJ12,KTHJ08,TPR11,MS12,SG12}/Events/*1.Event.xml`
-#Text02=`ls data/{BML12,NJ12,KTHJ08,MS12,SG12}/Events/*2.Event.xml`
-#Text03=`ls data/{BML12,NJ12,KTHJ08,TPR11,MS12,SG12}/Events/*3.Event.xml`
-#Text08=`ls data/{BD08,BML12,NJ12,TPR11,MS12,SG12}/Events/*3.Event.xml`
-#Text04=`ls data/{ACS08}/Events/*1.Event.xml`
-#Text05=`ls data/{ACS08}/Events/*2.Event.xml`
-#Text06=`ls data/{ACS08}/Events/*3.Event.xml`
-#Text07=`ls data/{ACS08}/Events/*4.Event.xml`
-#Text09=`ls data/{LWB09}/Events/*1.Event.xml`
-#Text10=`ls data/{LWB09}/Events/*2.Event.xml`
-#Text11=`ls data/{LWB09}/Events/*3.Event.xml`
-#Text12=`ls data/{JLG10}/Events/*1.Event.xml`
-#Text13=`ls data/{JLG10}/Events/*2.Event.xml`
-#Text14=`ls data/{JLG10}/Events/*3.Event.xml`
-#Text15=`ls data/{JLG10}/Events/*4.Event.xml`
-#Text16=`ls data/{JLG10}/Events/*5.Event.xml`
-#Text17=`ls data/{JLG10}/Events/*6.Event.xml`
-#Text18=`ls data/{BML12,NJ12,MS12,SG12}/Events/*5.Event.xml`
-#Text19=`ls data/{BML12,NJ12,MS12,SG12}/Events/*6.Event.xml`
-#Text20=`ls data/{ACS08}/Events/*5.Event.xml`
-
 function TextMap ()
 {
 
@@ -338,6 +311,7 @@ elif [ "$1" == "text" ]; then
         FinalTreex $text
     done
 
+    rm -r data/Treex/raw
     exit;
 
 ## check if treex information consistent
@@ -358,6 +332,45 @@ elif [ "$1" == "check2" ]; then
 
     for study in $STUDY ; do CheckRound  $study; done
 
+    exit
+
+elif [ "$1" == "TPR-DB" ]; then
+    if [ "$2" == "all" ]; then STUDY=$STUDY
+    else STUDY=$2;
+    fi
+
+    cp -r data TPR-DB
+    for study in $STUDY ; do  
+      rm -r TPR-DB/$study/Alignment-II/;
+      rm -r TPR-DB/$study/Events/;
+      rm -r TPR-DB/$study/Treex/raw;
+      rm -r TPR-DB/$study/Alignment/;
+      mv  TPR-DB/$study/Alignment_NLP TPR-DB/$study/Alignment
+    done
+    rm -r TPR-DB/Treex/raw;
+
+    cp  -r ../MetaData TPR-DB
+    cp  -r ../TPR2012 TPR-DB
+
+    mkdir TPR-DB/bin
+    cp  -r \
+        StudyAnalysis.bash \
+        StudyAnalysis.pl \
+        Tokenize.pl \
+        taglemma.py \
+        modify_files.py \
+        MergeAtagTrl.pl \
+        FixMod2Trl.pl \
+        Trl2ProgGraphTables.pl  \
+        Trl2TargetTokenTables.pl  \
+        Trl2TargetAUTables.pl  \
+        Trl2Treex.pl \
+        proGra.R \
+        CompareAtag.pl \
+        ReFixate.pl \
+        TPR-DB/bin
+
+    zip -r TPR-DB.zip TPR-DB/*
     exit
 
 else echo "Usage $0 command Study_name"

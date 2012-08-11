@@ -1,114 +1,115 @@
-<Text language="de" >
-<W cur="0" id="1">Die</W>
-<W cur="4" id="2" space=" ">Mehrzahl</W>
-<W cur="13" id="3" space=" ">der</W>
-<W cur="17" id="4" space=" ">Jäger</W>
-<W cur="22" id="5">-</W>
-<W cur="23" id="6">Sammler</W>
-<W cur="30" id="7">-</W>
-<W cur="31" id="8">Kulturen</W>
-<W cur="40" id="9" space=" ">folgen</W>
-<W cur="47" id="10" space=" ">einer</W>
-<W cur="53" id="11" space=" ">nomadischen</W>
-<W cur="65" id="12" space=" ">Lebensweise</W>
-<W cur="76" id="13">.</W>
-<W cur="78" id="14" space=" ">Unter</W>
-<W cur="84" id="15" space=" ">diesen</W>
-<W cur="91" id="16" space=" ">Bedingungen</W>
-<W cur="103" id="17" space=" ">ist</W>
-<W cur="107" id="18" space=" ">es</W>
-<W cur="110" id="19" space=" ">schwierig</W>
-<W cur="119" id="20">,</W>
-<W cur="121" id="21" space=" ">sesshaft</W>
-<W cur="130" id="22" space=" ">zu</W>
-<W cur="133" id="23" space=" ">werden</W>
-<W cur="139" id="24">,</W>
-<W cur="141" id="25" space=" ">da</W>
-<W cur="144" id="26" space=" ">sich</W>
-<W cur="149" id="27" space=" ">die</W>
-<W cur="153" id="28" space=" ">natürlichen</W>
-<W cur="165" id="29" space=" ">Ressourcen</W>
-<W cur="176" id="30" space=" ">einer</W>
-<W cur="182" id="31" space=" ">bestimmten</W>
-<W cur="193" id="32" space=" ">Region</W>
-<W cur="200" id="33" space=" ">schnell</W>
-<W cur="208" id="34" space=" ">erschöpfen</W>
-<W cur="219" id="35" space=" ">können</W>
-<W cur="225" id="36">.</W>
-<W cur="227" id="37" space=" ">Aufgrund</W>
-<W cur="236" id="38" space=" ">ihrer</W>
-<W cur="242" id="39" space=" ">Wirtschaftsweise</W>
-<W cur="259" id="40" space=" ">haben</W>
-<W cur="265" id="41" space=" ">solche</W>
-<W cur="272" id="42" space=" ">Gesellschaften</W>
-<W cur="287" id="43" space=" ">tendenziell</W>
-<W cur="299" id="44" space=" ">auch</W>
-<W cur="304" id="45" space=" ">eine</W>
-<W cur="309" id="46" space=" ">sehr</W>
-<W cur="314" id="47" space=" ">geringe</W>
-<W cur="322" id="48" space=" ">Bevölkerungsdichte</W>
-<W cur="340" id="49">,</W>
-<W cur="342" id="50" space=" ">Landwirtschaft</W>
-<W cur="357" id="51" space=" ">kann</W>
-<W cur="362" id="52" space=" ">die</W>
-<W cur="366" id="53" space=" ">60</W>
-<W cur="368" id="54">-</W>
-<W cur="370" id="55" space=" ">bis</W>
-<W cur="374" id="56" space=" ">100-fache</W>
-<W cur="384" id="57" space=" ">Bevölkerungsdichte</W>
-<W cur="403" id="58" space=" ">ermöglichen</W>
-<W cur="414" id="59">.</W>
-<W cur="416" id="60" space=" ">Überdies</W>
-<W cur="425" id="61" space=" ">sind</W>
-<W cur="430" id="62" space=" ">Jäger</W>
-<W cur="435" id="63">-</W>
-<W cur="436" id="64">Sammler</W>
-<W cur="443" id="65">-</W>
-<W cur="444" id="66">Gesellschaften</W>
-<W cur="459" id="67" space=" ">tendenziell</W>
-<W cur="471" id="68" space=" ">nicht</W>
-<W cur="477" id="69" space=" ">hierarchisch</W>
-<W cur="490" id="70" space=" ">organisiert</W>
-<W cur="501" id="71">,</W>
-<W cur="503" id="72" space=" ">obwohl</W>
-<W cur="510" id="73" space=" ">es</W>
-<W cur="513" id="74" space=" ">hierbei</W>
-<W cur="521" id="75" space=" ">durchaus</W>
-<W cur="530" id="76" space=" ">Ausnahmefälle</W>
-<W cur="544" id="77" space=" ">gibt</W>
-<W cur="548" id="78">.</W>
-<W cur="550" id="79" space=" ">Aufgrund</W>
-<W cur="559" id="80" space=" ">ihrer</W>
-<W cur="565" id="81" space=" ">nomadischen</W>
-<W cur="577" id="82" space=" ">Lebensweise</W>
-<W cur="588" id="83">,</W>
-<W cur="590" id="84" space=" ">haben</W>
-<W cur="596" id="85" space=" ">sie</W>
-<W cur="600" id="86" space=" ">im</W>
-<W cur="603" id="87" space=" ">Allgemeinen</W>
-<W cur="615" id="88" space=" ">nicht</W>
-<W cur="621" id="89" space=" ">die</W>
-<W cur="625" id="90" space=" ">Möglichkeit</W>
-<W cur="636" id="91">,</W>
-<W cur="638" id="92" space=" ">Nahrungsmittelvorräte</W>
-<W cur="660" id="93" space=" ">anzulegen</W>
-<W cur="669" id="94">.</W>
-<W cur="671" id="95" space=" ">Dementsprechend</W>
-<W cur="687" id="96" space=" ">leisten</W>
-<W cur="695" id="97" space=" ">sich</W>
-<W cur="700" id="98" space=" ">solche</W>
-<W cur="707" id="99" space=" ">Gesellschaften</W>
-<W cur="722" id="100" space=" ">auch</W>
-<W cur="727" id="101" space=" ">selten</W>
-<W cur="734" id="102" space=" ">den</W>
-<W cur="738" id="103" space=" ">Luxus</W>
-<W cur="743" id="104">,</W>
-<W cur="745" id="105" space=" ">Berufspolitiker</W>
-<W cur="760" id="106">,</W>
-<W cur="762" id="107" space=" ">Bürokraten</W>
-<W cur="773" id="108" space=" ">oder</W>
-<W cur="778" id="109" space=" ">Kunsthandwerker</W>
-<W cur="794" id="110" space=" ">zu</W>
-<W cur="797" id="111" space=" ">unterhalten</W>
-<W cur="808" id="112">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="de" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" lemma="die" pos="ART">Die</W>
+ <W cur="4" id="2" lemma="Mehrzahl" pos="NN" space=" ">Mehrzahl</W>
+ <W cur="13" id="3" lemma="die" pos="ART" space=" ">der</W>
+ <W cur="17" id="4" lemma="Jäger" pos="NN" space=" ">Jäger</W>
+ <W cur="22" id="5" lemma="-" pos="$(">-</W>
+ <W cur="23" id="6" lemma="Sammler" pos="NN">Sammler</W>
+ <W cur="30" id="7" lemma="-" pos="$(">-</W>
+ <W cur="31" id="8" lemma="Kultur" pos="NN">Kulturen</W>
+ <W cur="40" id="9" lemma="folgen" pos="VVFIN" space=" ">folgen</W>
+ <W cur="47" id="10" lemma="eine" pos="ART" space=" ">einer</W>
+ <W cur="53" id="11" lemma="nomadisch" pos="ADJA" space=" ">nomadischen</W>
+ <W cur="65" id="12" lemma="Lebensweise" pos="NN" space=" ">Lebensweise</W>
+ <W boundary="sentence" cur="76" id="13" lemma="." pos="$.">.</W>
+ <W cur="78" id="14" lemma="unter" pos="APPR" space=" ">Unter</W>
+ <W cur="84" id="15" lemma="dies" pos="PDAT" space=" ">diesen</W>
+ <W cur="91" id="16" lemma="Bedingung" pos="NN" space=" ">Bedingungen</W>
+ <W cur="103" id="17" lemma="sein" pos="VAFIN" space=" ">ist</W>
+ <W cur="107" id="18" lemma="es" pos="PPER" space=" ">es</W>
+ <W cur="110" id="19" lemma="schwierig" pos="ADJD" space=" ">schwierig</W>
+ <W cur="119" id="20" lemma="," pos="$,">,</W>
+ <W cur="121" id="21" lemma="seßhaft" pos="ADJD" space=" ">sesshaft</W>
+ <W cur="130" id="22" lemma="zu" pos="PTKZU" space=" ">zu</W>
+ <W cur="133" id="23" lemma="werden" pos="VAINF" space=" ">werden</W>
+ <W cur="139" id="24" lemma="," pos="$,">,</W>
+ <W cur="141" id="25" lemma="da" pos="KOUS" space=" ">da</W>
+ <W cur="144" id="26" lemma="sich" pos="PRF" space=" ">sich</W>
+ <W cur="149" id="27" lemma="die" pos="ART" space=" ">die</W>
+ <W cur="153" id="28" lemma="natürlich" pos="ADJA" space=" ">natürlichen</W>
+ <W cur="165" id="29" lemma="Ressource" pos="NN" space=" ">Ressourcen</W>
+ <W cur="176" id="30" lemma="eine" pos="ART" space=" ">einer</W>
+ <W cur="182" id="31" lemma="bestimmt" pos="ADJA" space=" ">bestimmten</W>
+ <W cur="193" id="32" lemma="Region" pos="NN" space=" ">Region</W>
+ <W cur="200" id="33" lemma="schnell" pos="ADJD" space=" ">schnell</W>
+ <W cur="208" id="34" lemma="erschöpfen" pos="VVINF" space=" ">erschöpfen</W>
+ <W cur="219" id="35" lemma="können" pos="VMFIN" space=" ">können</W>
+ <W boundary="sentence" cur="225" id="36" lemma="." pos="$.">.</W>
+ <W cur="227" id="37" lemma="aufgrund" pos="APPR" space=" ">Aufgrund</W>
+ <W cur="236" id="38" lemma="ihr" pos="PPOSAT" space=" ">ihrer</W>
+ <W cur="242" id="39" lemma="Wirtschaftsweise" pos="NN" space=" ">Wirtschaftsweise</W>
+ <W cur="259" id="40" lemma="haben" pos="VAFIN" space=" ">haben</W>
+ <W cur="265" id="41" lemma="solch" pos="PIAT" space=" ">solche</W>
+ <W cur="272" id="42" lemma="Gesellschaft" pos="NN" space=" ">Gesellschaften</W>
+ <W cur="287" id="43" lemma="tendenziell" pos="ADJD" space=" ">tendenziell</W>
+ <W cur="299" id="44" lemma="auch" pos="ADV" space=" ">auch</W>
+ <W cur="304" id="45" lemma="eine" pos="ART" space=" ">eine</W>
+ <W cur="309" id="46" lemma="sehr" pos="ADV" space=" ">sehr</W>
+ <W cur="314" id="47" lemma="gering" pos="ADJA" space=" ">geringe</W>
+ <W cur="322" id="48" lemma="Bevölkerungsdichte" pos="NN" space=" ">Bevölkerungsdichte</W>
+ <W cur="340" id="49" lemma="," pos="$,">,</W>
+ <W cur="342" id="50" lemma="Landwirtschaft" pos="NN" space=" ">Landwirtschaft</W>
+ <W cur="357" id="51" lemma="können" pos="VMFIN" space=" ">kann</W>
+ <W cur="362" id="52" lemma="die" pos="ART" space=" ">die</W>
+ <W cur="366" id="53" lemma="60" pos="CARD" space=" ">60</W>
+ <W cur="368" id="54" lemma="-" pos="$(">-</W>
+ <W cur="370" id="55" lemma="bis" pos="APPR" space=" ">bis</W>
+ <W cur="374" id="56" lemma="_" pos="ADJA" space=" ">100-fache</W>
+ <W cur="384" id="57" lemma="Bevölkerungsdichte" pos="NN" space=" ">Bevölkerungsdichte</W>
+ <W cur="403" id="58" lemma="ermöglichen" pos="VVINF" space=" ">ermöglichen</W>
+ <W boundary="sentence" cur="414" id="59" lemma="." pos="$.">.</W>
+ <W cur="416" id="60" lemma="überdies" pos="ADV" space=" ">Überdies</W>
+ <W cur="425" id="61" lemma="sein" pos="VAFIN" space=" ">sind</W>
+ <W cur="430" id="62" lemma="Jäger" pos="NE" space=" ">Jäger</W>
+ <W cur="435" id="63" lemma="-" pos="$(">-</W>
+ <W cur="436" id="64" lemma="Sammler" pos="NN">Sammler</W>
+ <W cur="443" id="65" lemma="-" pos="$(">-</W>
+ <W cur="444" id="66" lemma="Gesellschaft" pos="NN">Gesellschaften</W>
+ <W cur="459" id="67" lemma="tendenziell" pos="ADJD" space=" ">tendenziell</W>
+ <W cur="471" id="68" lemma="nicht" pos="PTKNEG" space=" ">nicht</W>
+ <W cur="477" id="69" lemma="hierarchisch" pos="ADJD" space=" ">hierarchisch</W>
+ <W cur="490" id="70" lemma="organisieren" pos="VVPP" space=" ">organisiert</W>
+ <W cur="501" id="71" lemma="," pos="$,">,</W>
+ <W cur="503" id="72" lemma="obwohl" pos="KOUS" space=" ">obwohl</W>
+ <W cur="510" id="73" lemma="es" pos="PPER" space=" ">es</W>
+ <W cur="513" id="74" lemma="hierbei" pos="PAV" space=" ">hierbei</W>
+ <W cur="521" id="75" lemma="durchaus" pos="ADV" space=" ">durchaus</W>
+ <W cur="530" id="76" lemma="Ausnahmefall" pos="NN" space=" ">Ausnahmefälle</W>
+ <W cur="544" id="77" lemma="geben" pos="VVFIN" space=" ">gibt</W>
+ <W boundary="sentence" cur="548" id="78" lemma="." pos="$.">.</W>
+ <W cur="550" id="79" lemma="aufgrund" pos="APPR" space=" ">Aufgrund</W>
+ <W cur="559" id="80" lemma="ihr" pos="PPOSAT" space=" ">ihrer</W>
+ <W cur="565" id="81" lemma="nomadisch" pos="ADJA" space=" ">nomadischen</W>
+ <W cur="577" id="82" lemma="Lebensweise" pos="NN" space=" ">Lebensweise</W>
+ <W cur="588" id="83" lemma="," pos="$,">,</W>
+ <W cur="590" id="84" lemma="haben" pos="VAFIN" space=" ">haben</W>
+ <W cur="596" id="85" lemma="sie" pos="PPER" space=" ">sie</W>
+ <W cur="600" id="86" lemma="in" pos="APPRART" space=" ">im</W>
+ <W cur="603" id="87" lemma="Allgemeine" pos="NN" space=" ">Allgemeinen</W>
+ <W cur="615" id="88" lemma="nicht" pos="PTKNEG" space=" ">nicht</W>
+ <W cur="621" id="89" lemma="die" pos="ART" space=" ">die</W>
+ <W cur="625" id="90" lemma="Möglichkeit" pos="NN" space=" ">Möglichkeit</W>
+ <W cur="636" id="91" lemma="," pos="$,">,</W>
+ <W cur="638" id="92" lemma="Nahrungsmittelvorrat" pos="NN" space=" ">Nahrungsmittelvorräte</W>
+ <W cur="660" id="93" lemma="anlegen" pos="VVIZU" space=" ">anzulegen</W>
+ <W boundary="sentence" cur="669" id="94" lemma="." pos="$.">.</W>
+ <W cur="671" id="95" lemma="dementsprechend" pos="ADJD" space=" ">Dementsprechend</W>
+ <W cur="687" id="96" lemma="leisten" pos="VVFIN" space=" ">leisten</W>
+ <W cur="695" id="97" lemma="sich" pos="PRF" space=" ">sich</W>
+ <W cur="700" id="98" lemma="solch" pos="PIAT" space=" ">solche</W>
+ <W cur="707" id="99" lemma="Gesellschaft" pos="NN" space=" ">Gesellschaften</W>
+ <W cur="722" id="100" lemma="auch" pos="ADV" space=" ">auch</W>
+ <W cur="727" id="101" lemma="selten" pos="ADJD" space=" ">selten</W>
+ <W cur="734" id="102" lemma="die" pos="ART" space=" ">den</W>
+ <W cur="738" id="103" lemma="Luxus" pos="NN" space=" ">Luxus</W>
+ <W cur="743" id="104" lemma="," pos="$,">,</W>
+ <W cur="745" id="105" lemma="Berufspolitiker" pos="NN" space=" ">Berufspolitiker</W>
+ <W cur="760" id="106" lemma="," pos="$,">,</W>
+ <W cur="762" id="107" lemma="Bürokrat" pos="NN" space=" ">Bürokraten</W>
+ <W cur="773" id="108" lemma="oder" pos="KON" space=" ">oder</W>
+ <W cur="778" id="109" lemma="Kunsthandwerker" pos="NN" space=" ">Kunsthandwerker</W>
+ <W cur="794" id="110" lemma="zu" pos="PTKZU" space=" ">zu</W>
+ <W cur="797" id="111" lemma="unterhalten" pos="VVINF" space=" ">unterhalten</W>
+ <W boundary="sentence" cur="808" id="112" lemma="." pos="$.">.</W>
 </Text>

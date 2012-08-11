@@ -1,220 +1,221 @@
-<Text language="pt" >
-<W cur="4" id="1" space="    ">A</W>
-<W cur="6" id="2" space=" ">tarefa</W>
-<W cur="13" id="3" space=" ">de</W>
-<W cur="16" id="4" space=" ">identificar</W>
-<W cur="28" id="5" space=" ">um</W>
-<W cur="31" id="6" space=" ">bom</W>
-<W cur="35" id="7" space=" ">café</W>
-<W cur="40" id="8" space=" ">é</W>
-<W cur="42" id="9" space=" ">para</W>
-<W cur="47" id="10" space=" ">os</W>
-<W cur="50" id="11" space=" ">degustadores</W>
-<W cur="63" id="12" space=" ">relativamente</W>
-<W cur="77" id="13" space=" ">simples</W>
-<W cur="84" id="14">,</W>
-<W cur="86" id="15" space=" ">mas</W>
-<W cur="90" id="16" space=" ">a</W>
-<W cur="92" id="17" space=" ">atribuição</W>
-<W cur="103" id="18" space=" ">de</W>
-<W cur="106" id="19" space=" ">uma</W>
-<W cur="110" id="20" space=" ">nota</W>
-<W cur="115" id="21" space=" ">exata</W>
-<W cur="121" id="22" space=" ">para</W>
-<W cur="126" id="23" space=" ">cada</W>
-<W cur="131" id="24" space=" ">amostra</W>
-<W cur="139" id="25" space=" ">é</W>
-<W cur="141" id="26" space=" ">outra</W>
-<W cur="147" id="27" space=" ">história</W>
-<W cur="155" id="28">.</W>
-<W cur="157" id="29" space=" ">O</W>
-<W cur="159" id="30" space=" ">degustador</W>
-<W cur="170" id="31" space=" ">aprecia</W>
-<W cur="178" id="32" space=" ">com</W>
-<W cur="182" id="33" space=" ">base</W>
-<W cur="187" id="34" space=" ">em</W>
-<W cur="190" id="35" space=" ">habilidades</W>
-<W cur="202" id="36" space=" ">que</W>
-<W cur="206" id="37" space=" ">adquire</W>
-<W cur="214" id="38" space=" ">com</W>
-<W cur="218" id="39" space=" ">a</W>
-<W cur="220" id="40" space=" ">experiência</W>
-<W cur="231" id="41">.</W>
-<W cur="233" id="42" space=" ">Contudo</W>
-<W cur="240" id="43">,</W>
-<W cur="242" id="44" space=" ">seus</W>
-<W cur="247" id="45" space=" ">vereditos</W>
-<W cur="257" id="46" space=" ">distam</W>
-<W cur="264" id="47" space=" ">de</W>
-<W cur="267" id="48" space=" ">ser</W>
-<W cur="271" id="49" space=" ">considerados</W>
-<W cur="284" id="50" space=" ">precisos</W>
-<W cur="292" id="51">,</W>
-<W cur="294" id="52" space=" ">fato</W>
-<W cur="299" id="53" space=" ">que</W>
-<W cur="303" id="54" space=" ">dificulta</W>
-<W cur="313" id="55" space=" ">que</W>
-<W cur="317" id="56" space=" ">as</W>
-<W cur="320" id="57" space=" ">avaliações</W>
-<W cur="331" id="58" space=" ">sejam</W>
-<W cur="337" id="59" space=" ">realizadas</W>
-<W cur="348" id="60" space=" ">em</W>
-<W cur="351" id="61" space=" ">grande</W>
-<W cur="358" id="62" space=" ">escala</W>
-<W cur="364" id="63">.</W>
-<W cur="366" id="64" space=" ">Uma</W>
-<W cur="370" id="65" space=" ">notícia</W>
-<W cur="378" id="66" space=" ">publicada</W>
-<W cur="388" id="67" space=" ">na</W>
-<W cur="391" id="68" space=" ">Fapesp</W>
-<W cur="398" id="69" space=" ">online</W>
-<W cur="404" id="70">,</W>
-<W cur="406" id="71" space=" ">todavia</W>
-<W cur="413" id="72">,</W>
-<W cur="415" id="73" space=" ">apresenta</W>
-<W cur="425" id="74" space=" ">um</W>
-<W cur="428" id="75" space=" ">produto</W>
-<W cur="436" id="76" space=" ">promissor</W>
-<W cur="445" id="77">,</W>
-<W cur="447" id="78" space=" ">desenvolvido</W>
-<W cur="460" id="79" space=" ">por</W>
-<W cur="464" id="80" space=" ">pesquisadores</W>
-<W cur="478" id="81" space=" ">brasileiros</W>
-<W cur="489" id="82">:</W>
-<W cur="491" id="83" space=" ">a</W>
-<W cur="493" id="84">'língua</W>
-<W cur="501" id="85" space=" ">eletrônica</W>
-<W cur="511" id="86">'</W>
-<W cur="512" id="87">,</W>
-<W cur="514" id="88" space=" ">aparelho</W>
-<W cur="523" id="89" space=" ">capaz</W>
-<W cur="529" id="90" space=" ">de</W>
-<W cur="532" id="91" space=" ">avaliar</W>
-<W cur="540" id="92" space=" ">sabores</W>
-<W cur="548" id="93" space=" ">com</W>
-<W cur="552" id="94" space=" ">precisão</W>
-<W cur="561" id="95" space=" ">muito</W>
-<W cur="567" id="96" space=" ">maior</W>
-<W cur="573" id="97" space=" ">que</W>
-<W cur="577" id="98" space=" ">a</W>
-<W cur="579" id="99" space=" ">da</W>
-<W cur="582" id="100" space=" ">língua</W>
-<W cur="589" id="101" space=" ">humana</W>
-<W cur="595" id="102">.</W>
-<W cur="602" id="103" space="&#xA;     ">Partes</W>
-<W cur="609" id="104" space=" ">da</W>
-<W cur="612" id="105" space=" ">superfície</W>
-<W cur="623" id="106" space=" ">da</W>
-<W cur="626" id="107" space=" ">língua</W>
-<W cur="633" id="108" space=" ">humana</W>
-<W cur="640" id="109" space=" ">são</W>
-<W cur="644" id="110" space=" ">constituídas</W>
-<W cur="657" id="111" space=" ">por</W>
-<W cur="661" id="112" space=" ">receptores</W>
-<W cur="672" id="113" space=" ">sensoriais</W>
-<W cur="683" id="114" space=" ">denominados</W>
-<W cur="695" id="115" space=" ">papilas</W>
-<W cur="703" id="116" space=" ">gustativas</W>
-<W cur="713" id="117">,</W>
-<W cur="715" id="118" space=" ">as</W>
-<W cur="718" id="119" space=" ">quais</W>
-<W cur="724" id="120" space=" ">identificam</W>
-<W cur="736" id="121" space=" ">sabores</W>
-<W cur="743" id="122">.</W>
-<W cur="745" id="123" space=" ">Cientistas</W>
-<W cur="756" id="124" space=" ">da</W>
-<W cur="759" id="125" space=" ">Embrapa</W>
-<W cur="767" id="126" space=" ">projetaram</W>
-<W cur="778" id="127" space=" ">um</W>
-<W cur="781" id="128" space=" ">sensor</W>
-<W cur="788" id="129" space=" ">gustativo</W>
-<W cur="798" id="130" space=" ">capaz</W>
-<W cur="804" id="131" space=" ">de</W>
-<W cur="807" id="132" space=" ">avaliar</W>
-<W cur="815" id="133" space=" ">nuances</W>
-<W cur="823" id="134" space=" ">de</W>
-<W cur="826" id="135" space=" ">sabor</W>
-<W cur="832" id="136" space=" ">e</W>
-<W cur="834" id="137" space=" ">a</W>
-<W cur="836" id="138" space=" ">presença</W>
-<W cur="845" id="139" space=" ">de</W>
-<W cur="848" id="140" space=" ">impurezas</W>
-<W cur="858" id="141" space=" ">em</W>
-<W cur="861" id="142" space=" ">bebidas</W>
-<W cur="869" id="143" space=" ">com</W>
-<W cur="873" id="144" space=" ">grau</W>
-<W cur="878" id="145" space=" ">de</W>
-<W cur="881" id="146" space=" ">sensibilidade</W>
-<W cur="895" id="147" space=" ">maior</W>
-<W cur="901" id="148" space=" ">que</W>
-<W cur="905" id="149" space=" ">o</W>
-<W cur="907" id="150" space=" ">das</W>
-<W cur="911" id="151" space=" ">papilas</W>
-<W cur="919" id="152" space=" ">humanas</W>
-<W cur="926" id="153">.</W>
-<W cur="928" id="154" space=" ">Os</W>
-<W cur="931" id="155" space=" ">pesquisadores</W>
-<W cur="945" id="156" space=" ">realizaram</W>
-<W cur="956" id="157" space=" ">uma</W>
-<W cur="960" id="158" space=" ">modelagem</W>
-<W cur="970" id="159" space=" ">do</W>
-<W cur="973" id="160" space=" ">paladar</W>
-<W cur="981" id="161" space=" ">e</W>
-<W cur="983" id="162" space=" ">utilizaram</W>
-<W cur="994" id="163" space=" ">microeletrodos</W>
-<W cur="1009" id="164" space=" ">revestidos</W>
-<W cur="1020" id="165" space=" ">com</W>
-<W cur="1024" id="166" space=" ">uma</W>
-<W cur="1028" id="167" space=" ">camada</W>
-<W cur="1035" id="168" space=" ">fina</W>
-<W cur="1040" id="169" space=" ">de</W>
-<W cur="1043" id="170" space=" ">polímeros</W>
-<W cur="1053" id="171" space=" ">condutores</W>
-<W cur="1064" id="172" space=" ">para</W>
-<W cur="1069" id="173" space=" ">a</W>
-<W cur="1071" id="174" space=" ">obtenção</W>
-<W cur="1080" id="175" space=" ">de</W>
-<W cur="1083" id="176" space=" ">uma</W>
-<W cur="1087" id="177" space=" ">resposta</W>
-<W cur="1096" id="178" space=" ">elétrica</W>
-<W cur="1105" id="179" space=" ">específica</W>
-<W cur="1116" id="180" space=" ">para</W>
-<W cur="1121" id="181" space=" ">cada</W>
-<W cur="1126" id="182" space=" ">substância</W>
-<W cur="1136" id="183">.</W>
-<W cur="1138" id="184" space=" ">Diferentemente</W>
-<W cur="1153" id="185" space=" ">do</W>
-<W cur="1156" id="186" space=" ">degustador</W>
-<W cur="1166" id="187">,</W>
-<W cur="1168" id="188" space=" ">o</W>
-<W cur="1170" id="189" space=" ">dispositivo</W>
-<W cur="1181" id="190">,</W>
-<W cur="1183" id="191" space=" ">sempre</W>
-<W cur="1190" id="192" space=" ">que</W>
-<W cur="1194" id="193" space=" ">identifica</W>
-<W cur="1205" id="194" space=" ">que</W>
-<W cur="1209" id="195" space=" ">um</W>
-<W cur="1212" id="196" space=" ">sabor</W>
-<W cur="1218" id="197" space=" ">é</W>
-<W cur="1220" id="198" space=" ">correspondente</W>
-<W cur="1235" id="199" space=" ">a</W>
-<W cur="1237" id="200" space=" ">outro</W>
-<W cur="1243" id="201" space=" ">previamente</W>
-<W cur="1255" id="202" space=" ">registrado</W>
-<W cur="1265" id="203">,</W>
-<W cur="1268" id="204" space="  ">fornece</W>
-<W cur="1276" id="205" space=" ">um</W>
-<W cur="1279" id="206" space=" ">resultado</W>
-<W cur="1289" id="207" space=" ">numérico</W>
-<W cur="1298" id="208" space=" ">preciso</W>
-<W cur="1305" id="209">,</W>
-<W cur="1307" id="210" space=" ">mesmo</W>
-<W cur="1313" id="211" space=" ">quando</W>
-<W cur="1320" id="212" space=" ">constata</W>
-<W cur="1329" id="213" space=" ">misturas</W>
-<W cur="1338" id="214" space=" ">ou</W>
-<W cur="1341" id="215" space=" ">combinação</W>
-<W cur="1352" id="216" space=" ">de</W>
-<W cur="1355" id="217" space=" ">sabores</W>
-<W cur="1362" id="218">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="pt" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="4" id="1" lemma="a" pos="DET" space="    ">A</W>
+ <W cur="6" id="2" lemma="tarefa" pos="NOM" space=" ">tarefa</W>
+ <W cur="13" id="3" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="16" id="4" lemma="identificar" pos="V" space=" ">identificar</W>
+ <W cur="28" id="5" lemma="um" pos="DET" space=" ">um</W>
+ <W cur="31" id="6" lemma="bom" pos="ADJ" space=" ">bom</W>
+ <W cur="35" id="7" lemma="café" pos="NOM" space=" ">café</W>
+ <W cur="40" id="8" lemma="ser" pos="V" space=" ">é</W>
+ <W cur="42" id="9" lemma="para" pos="PRP" space=" ">para</W>
+ <W cur="47" id="10" lemma="o" pos="DET" space=" ">os</W>
+ <W cur="50" id="11" lemma="_" pos="NOM" space=" ">degustadores</W>
+ <W cur="63" id="12" lemma="relativamente" pos="ADV" space=" ">relativamente</W>
+ <W cur="77" id="13" lemma="simples" pos="ADJ" space=" ">simples</W>
+ <W cur="84" id="14" lemma="," pos="VIRG">,</W>
+ <W cur="86" id="15" lemma="mas" pos="CONJ" space=" ">mas</W>
+ <W cur="90" id="16" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="92" id="17" lemma="atribuição" pos="NOM" space=" ">atribuição</W>
+ <W cur="103" id="18" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="106" id="19" lemma="uma" pos="DET" space=" ">uma</W>
+ <W cur="110" id="20" lemma="nota" pos="NOM" space=" ">nota</W>
+ <W cur="115" id="21" lemma="exato" pos="ADJ" space=" ">exata</W>
+ <W cur="121" id="22" lemma="para" pos="PRP" space=" ">para</W>
+ <W cur="126" id="23" lemma="cada" pos="ADJ" space=" ">cada</W>
+ <W cur="131" id="24" lemma="amostra" pos="NOM" space=" ">amostra</W>
+ <W cur="139" id="25" lemma="ser" pos="V" space=" ">é</W>
+ <W cur="141" id="26" lemma="outro" pos="ADJ" space=" ">outra</W>
+ <W cur="147" id="27" lemma="história" pos="NOM" space=" ">história</W>
+ <W boundary="sentence" cur="155" id="28" lemma="." pos="SENT">.</W>
+ <W cur="157" id="29" lemma="o" pos="P" space=" ">O</W>
+ <W cur="159" id="30" lemma="_" pos="V" space=" ">degustador</W>
+ <W cur="170" id="31" lemma="apreciar" pos="V" space=" ">aprecia</W>
+ <W cur="178" id="32" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="182" id="33" lemma="base" pos="NOM" space=" ">base</W>
+ <W cur="187" id="34" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="190" id="35" lemma="habilidade" pos="NOM" space=" ">habilidades</W>
+ <W cur="202" id="36" lemma="que" pos="PR" space=" ">que</W>
+ <W cur="206" id="37" lemma="adquirir" pos="V" space=" ">adquire</W>
+ <W cur="214" id="38" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="218" id="39" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="220" id="40" lemma="experiência" pos="NOM" space=" ">experiência</W>
+ <W boundary="sentence" cur="231" id="41" lemma="." pos="SENT">.</W>
+ <W cur="233" id="42" lemma="contudo" pos="CONJ" space=" ">Contudo</W>
+ <W cur="240" id="43" lemma="," pos="VIRG">,</W>
+ <W cur="242" id="44" lemma="seu" pos="ADJ" space=" ">seus</W>
+ <W cur="247" id="45" lemma="_" pos="NOM" space=" ">vereditos</W>
+ <W cur="257" id="46" lemma="distar" pos="V" space=" ">distam</W>
+ <W cur="264" id="47" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="267" id="48" lemma="ser" pos="V" space=" ">ser</W>
+ <W cur="271" id="49" lemma="considerar" pos="V" space=" ">considerados</W>
+ <W cur="284" id="50" lemma="preciso" pos="ADJ" space=" ">precisos</W>
+ <W cur="292" id="51" lemma="," pos="VIRG">,</W>
+ <W cur="294" id="52" lemma="fato" pos="NOM" space=" ">fato</W>
+ <W cur="299" id="53" lemma="que" pos="PR" space=" ">que</W>
+ <W cur="303" id="54" lemma="dificultar" pos="V" space=" ">dificulta</W>
+ <W cur="313" id="55" lemma="que" pos="CONJSUB" space=" ">que</W>
+ <W cur="317" id="56" lemma="a" pos="DET" space=" ">as</W>
+ <W cur="320" id="57" lemma="avaliação" pos="NOM" space=" ">avaliações</W>
+ <W cur="331" id="58" lemma="ser" pos="V" space=" ">sejam</W>
+ <W cur="337" id="59" lemma="realizar" pos="V" space=" ">realizadas</W>
+ <W cur="348" id="60" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="351" id="61" lemma="grande" pos="ADJ" space=" ">grande</W>
+ <W cur="358" id="62" lemma="escala" pos="NOM" space=" ">escala</W>
+ <W boundary="sentence" cur="364" id="63" lemma="." pos="SENT">.</W>
+ <W cur="366" id="64" lemma="uma" pos="DET" space=" ">Uma</W>
+ <W cur="370" id="65" lemma="notícia" pos="NOM" space=" ">notícia</W>
+ <W cur="378" id="66" lemma="publicar" pos="V" space=" ">publicada</W>
+ <W cur="388" id="67" lemma="em" pos="PRP+DET" space=" ">na</W>
+ <W cur="391" id="68" lemma="_" pos="NOM" space=" ">Fapesp</W>
+ <W cur="398" id="69" lemma="on-line" pos="F" space=" ">online</W>
+ <W cur="404" id="70" lemma="," pos="VIRG">,</W>
+ <W cur="406" id="71" lemma="todavia" pos="CONJ" space=" ">todavia</W>
+ <W cur="413" id="72" lemma="," pos="VIRG">,</W>
+ <W cur="415" id="73" lemma="apresentar" pos="V" space=" ">apresenta</W>
+ <W cur="425" id="74" lemma="um" pos="DET" space=" ">um</W>
+ <W cur="428" id="75" lemma="produto" pos="NOM" space=" ">produto</W>
+ <W cur="436" id="76" lemma="promissor" pos="ADJ" space=" ">promissor</W>
+ <W cur="445" id="77" lemma="," pos="VIRG">,</W>
+ <W cur="447" id="78" lemma="desenvolver" pos="V" space=" ">desenvolvido</W>
+ <W cur="460" id="79" lemma="por" pos="PRP" space=" ">por</W>
+ <W cur="464" id="80" lemma="pesquisador" pos="NOM" space=" ">pesquisadores</W>
+ <W cur="478" id="81" lemma="brasileiro" pos="ADJ" space=" ">brasileiros</W>
+ <W cur="489" id="82" lemma=":" pos="SENT">:</W>
+ <W cur="491" id="83" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="493" id="84" lemma="_" pos="NOM">'língua</W>
+ <W cur="501" id="85" lemma="eletrônico" pos="ADJ" space=" ">eletrônica</W>
+ <W cur="511" id="86" lemma="'" pos="QUOTE">'</W>
+ <W cur="512" id="87" lemma="," pos="VIRG">,</W>
+ <W cur="514" id="88" lemma="aparelho" pos="NOM" space=" ">aparelho</W>
+ <W cur="523" id="89" lemma="capaz" pos="ADJ" space=" ">capaz</W>
+ <W cur="529" id="90" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="532" id="91" lemma="avaliar" pos="V" space=" ">avaliar</W>
+ <W cur="540" id="92" lemma="sabor" pos="NOM" space=" ">sabores</W>
+ <W cur="548" id="93" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="552" id="94" lemma="precisão" pos="NOM" space=" ">precisão</W>
+ <W cur="561" id="95" lemma="muito" pos="ADV" space=" ">muito</W>
+ <W cur="567" id="96" lemma="maior" pos="ADJ" space=" ">maior</W>
+ <W cur="573" id="97" lemma="que" pos="PR" space=" ">que</W>
+ <W cur="577" id="98" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="579" id="99" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="582" id="100" lemma="língua" pos="NOM" space=" ">língua</W>
+ <W cur="589" id="101" lemma="humano" pos="ADJ" space=" ">humana</W>
+ <W boundary="sentence" cur="595" id="102" lemma="." pos="SENT">.</W>
+ <W cur="602" id="103" lemma="parte" pos="NOM" space="&#xA;     ">Partes</W>
+ <W cur="609" id="104" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="612" id="105" lemma="superfície" pos="NOM" space=" ">superfície</W>
+ <W cur="623" id="106" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="626" id="107" lemma="língua" pos="NOM" space=" ">língua</W>
+ <W cur="633" id="108" lemma="humano" pos="ADJ" space=" ">humana</W>
+ <W cur="640" id="109" lemma="ser" pos="V" space=" ">são</W>
+ <W cur="644" id="110" lemma="constituir" pos="V" space=" ">constituídas</W>
+ <W cur="657" id="111" lemma="por" pos="PRP" space=" ">por</W>
+ <W cur="661" id="112" lemma="receptor" pos="NOM" space=" ">receptores</W>
+ <W cur="672" id="113" lemma="sensorial" pos="ADJ" space=" ">sensoriais</W>
+ <W cur="683" id="114" lemma="denominar" pos="V" space=" ">denominados</W>
+ <W cur="695" id="115" lemma="papila" pos="NOM" space=" ">papilas</W>
+ <W cur="703" id="116" lemma="gustativo" pos="ADJ" space=" ">gustativas</W>
+ <W cur="713" id="117" lemma="," pos="VIRG">,</W>
+ <W cur="715" id="118" lemma="a" pos="DET" space=" ">as</W>
+ <W cur="718" id="119" lemma="qual" pos="PR" space=" ">quais</W>
+ <W cur="724" id="120" lemma="identificar" pos="V" space=" ">identificam</W>
+ <W cur="736" id="121" lemma="sabor" pos="NOM" space=" ">sabores</W>
+ <W boundary="sentence" cur="743" id="122" lemma="." pos="SENT">.</W>
+ <W cur="745" id="123" lemma="cientista" pos="NOM" space=" ">Cientistas</W>
+ <W cur="756" id="124" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="759" id="125" lemma="_" pos="NOM" space=" ">Embrapa</W>
+ <W cur="767" id="126" lemma="projetar" pos="V" space=" ">projetaram</W>
+ <W cur="778" id="127" lemma="um" pos="DET" space=" ">um</W>
+ <W cur="781" id="128" lemma="sensor" pos="NOM" space=" ">sensor</W>
+ <W cur="788" id="129" lemma="gustativo" pos="ADJ" space=" ">gustativo</W>
+ <W cur="798" id="130" lemma="capaz" pos="ADJ" space=" ">capaz</W>
+ <W cur="804" id="131" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="807" id="132" lemma="avaliar" pos="V" space=" ">avaliar</W>
+ <W cur="815" id="133" lemma="nuançar" pos="V" space=" ">nuances</W>
+ <W cur="823" id="134" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="826" id="135" lemma="sabor" pos="NOM" space=" ">sabor</W>
+ <W cur="832" id="136" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="834" id="137" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="836" id="138" lemma="presença" pos="NOM" space=" ">presença</W>
+ <W cur="845" id="139" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="848" id="140" lemma="impureza" pos="NOM" space=" ">impurezas</W>
+ <W cur="858" id="141" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="861" id="142" lemma="bebida" pos="NOM" space=" ">bebidas</W>
+ <W cur="869" id="143" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="873" id="144" lemma="grau" pos="NOM" space=" ">grau</W>
+ <W cur="878" id="145" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="881" id="146" lemma="sensibilidade" pos="NOM" space=" ">sensibilidade</W>
+ <W cur="895" id="147" lemma="maior" pos="ADJ" space=" ">maior</W>
+ <W cur="901" id="148" lemma="que" pos="PR" space=" ">que</W>
+ <W cur="905" id="149" lemma="o" pos="DET" space=" ">o</W>
+ <W cur="907" id="150" lemma="de" pos="PRP+DET" space=" ">das</W>
+ <W cur="911" id="151" lemma="papila" pos="NOM" space=" ">papilas</W>
+ <W cur="919" id="152" lemma="humano" pos="ADJ" space=" ">humanas</W>
+ <W boundary="sentence" cur="926" id="153" lemma="." pos="SENT">.</W>
+ <W cur="928" id="154" lemma="o" pos="DET" space=" ">Os</W>
+ <W cur="931" id="155" lemma="pesquisador" pos="NOM" space=" ">pesquisadores</W>
+ <W cur="945" id="156" lemma="realizar" pos="V" space=" ">realizaram</W>
+ <W cur="956" id="157" lemma="uma" pos="DET" space=" ">uma</W>
+ <W cur="960" id="158" lemma="modelagem" pos="NOM" space=" ">modelagem</W>
+ <W cur="970" id="159" lemma="de" pos="PRP+DET" space=" ">do</W>
+ <W cur="973" id="160" lemma="paladar" pos="NOM" space=" ">paladar</W>
+ <W cur="981" id="161" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="983" id="162" lemma="utilizar" pos="V" space=" ">utilizaram</W>
+ <W cur="994" id="163" lemma="_" pos="NOM" space=" ">microeletrodos</W>
+ <W cur="1009" id="164" lemma="revestido" pos="ADJ" space=" ">revestidos</W>
+ <W cur="1020" id="165" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="1024" id="166" lemma="uma" pos="DET" space=" ">uma</W>
+ <W cur="1028" id="167" lemma="camada" pos="NOM" space=" ">camada</W>
+ <W cur="1035" id="168" lemma="fino" pos="ADJ" space=" ">fina</W>
+ <W cur="1040" id="169" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1043" id="170" lemma="polímero" pos="NOM" space=" ">polímeros</W>
+ <W cur="1053" id="171" lemma="condutor" pos="ADJ" space=" ">condutores</W>
+ <W cur="1064" id="172" lemma="para" pos="PRP" space=" ">para</W>
+ <W cur="1069" id="173" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="1071" id="174" lemma="obtenção" pos="NOM" space=" ">obtenção</W>
+ <W cur="1080" id="175" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1083" id="176" lemma="uma" pos="DET" space=" ">uma</W>
+ <W cur="1087" id="177" lemma="resposta" pos="NOM" space=" ">resposta</W>
+ <W cur="1096" id="178" lemma="elétrico" pos="ADJ" space=" ">elétrica</W>
+ <W cur="1105" id="179" lemma="específico" pos="ADJ" space=" ">específica</W>
+ <W cur="1116" id="180" lemma="para" pos="PRP" space=" ">para</W>
+ <W cur="1121" id="181" lemma="cada" pos="ADJ" space=" ">cada</W>
+ <W cur="1126" id="182" lemma="substância" pos="NOM" space=" ">substância</W>
+ <W boundary="sentence" cur="1136" id="183" lemma="." pos="SENT">.</W>
+ <W cur="1138" id="184" lemma="diferentemente" pos="ADV" space=" ">Diferentemente</W>
+ <W cur="1153" id="185" lemma="de" pos="PRP+DET" space=" ">do</W>
+ <W cur="1156" id="186" lemma="_" pos="NOM" space=" ">degustador</W>
+ <W cur="1166" id="187" lemma="," pos="VIRG">,</W>
+ <W cur="1168" id="188" lemma="o" pos="DET" space=" ">o</W>
+ <W cur="1170" id="189" lemma="dispositivo" pos="NOM" space=" ">dispositivo</W>
+ <W cur="1181" id="190" lemma="," pos="VIRG">,</W>
+ <W cur="1183" id="191" lemma="sempre" pos="ADV" space=" ">sempre</W>
+ <W cur="1190" id="192" lemma="que" pos="PR" space=" ">que</W>
+ <W cur="1194" id="193" lemma="identificar" pos="V" space=" ">identifica</W>
+ <W cur="1205" id="194" lemma="que" pos="CONJSUB" space=" ">que</W>
+ <W cur="1209" id="195" lemma="um" pos="DET" space=" ">um</W>
+ <W cur="1212" id="196" lemma="sabor" pos="NOM" space=" ">sabor</W>
+ <W cur="1218" id="197" lemma="ser" pos="V" space=" ">é</W>
+ <W cur="1220" id="198" lemma="correspondente" pos="ADJ" space=" ">correspondente</W>
+ <W cur="1235" id="199" lemma="a" pos="PRP" space=" ">a</W>
+ <W cur="1237" id="200" lemma="outro" pos="P" space=" ">outro</W>
+ <W cur="1243" id="201" lemma="previamente" pos="ADV" space=" ">previamente</W>
+ <W cur="1255" id="202" lemma="registrar" pos="V" space=" ">registrado</W>
+ <W cur="1265" id="203" lemma="," pos="VIRG">,</W>
+ <W cur="1268" id="204" lemma="fornecer" pos="V" space="  ">fornece</W>
+ <W cur="1276" id="205" lemma="um" pos="DET" space=" ">um</W>
+ <W cur="1279" id="206" lemma="resultado" pos="NOM" space=" ">resultado</W>
+ <W cur="1289" id="207" lemma="numérico" pos="ADJ" space=" ">numérico</W>
+ <W cur="1298" id="208" lemma="preciso" pos="ADJ" space=" ">preciso</W>
+ <W cur="1305" id="209" lemma="," pos="VIRG">,</W>
+ <W cur="1307" id="210" lemma="mesmo" pos="ADV" space=" ">mesmo</W>
+ <W cur="1313" id="211" lemma="quando" pos="CONJ" space=" ">quando</W>
+ <W cur="1320" id="212" lemma="constatar" pos="V" space=" ">constata</W>
+ <W cur="1329" id="213" lemma="mistura" pos="NOM" space=" ">misturas</W>
+ <W cur="1338" id="214" lemma="ou" pos="CONJ" space=" ">ou</W>
+ <W cur="1341" id="215" lemma="combinação" pos="NOM" space=" ">combinação</W>
+ <W cur="1352" id="216" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1355" id="217" lemma="sabor" pos="NOM" space=" ">sabores</W>
+ <W boundary="sentence" cur="1362" id="218" lemma="." pos="SENT">.</W>
 </Text>

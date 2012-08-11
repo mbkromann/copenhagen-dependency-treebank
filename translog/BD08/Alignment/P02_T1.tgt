@@ -1,96 +1,97 @@
-<Text language="da" dep_parser="lotte" >
-<W id="1" cur="0" space="" in="20:conc" out="2:vobj">selvom</W>
-<W id="2" cur="7" space=" " in="1:subj" out="">udviklingslandene</W>
-<W id="3" cur="25" space=" " in="-2:vobj" out="-1:subj|2:preds|17:pnct">er</W>
-<W id="4" cur="28" space=" " in="0:err" out="0:err">forståeligt</W>
-<W id="5" cur="40" space=" " in="-2:preds" out="">tilbageholdende</W>
-<W id="6" cur="56" space=" " in="0:err" out="0:err">til</W>
-<W id="7" cur="60" space=" " in="0:err" out="0:err">at</W>
-<W id="8" cur="63" space=" " in="0:err" out="0:err">...</W>
-<W id="9" cur="67" note="finite verb missing" space=" " in="0:err" out="0:err">deres</W>
-<W id="10" cur="73" note="spelling" space=" " in="0:err" out="0:err">sjanser</W>
-<W id="11" cur="81" space=" " in="0:err" out="1:nobj|0:err">for</W>
-<W id="12" cur="85" space=" " in="-1:nobj" out="">at</W>
-<W id="13" cur="88" space=" " in="0:err" out="3:loc|0:err">opnår</W>
-<W id="14" cur="94" space=" " in="1:attr" out="">højere</W>
-<W id="15" cur="101" space=" " in="0:err" out="-1:attr|0:err">levestandarter</W>
-<W id="16" cur="116" space=" " in="-3:loc" out="1:nobj">i</W>
-<W id="17" cur="118" space=" " in="-1:nobj" out="2:nobj">de</W>
-<W id="18" cur="121" space=" " in="1:attr" out="">fattige</W>
-<W id="19" cur="129" space=" " in="-2:nobj" out="-1:attr">lande</W>
-<W id="20" cur="134" in="-17:pnct" out="">,</W>
-<W id="21" cur="136" space=" " in="" out="-20:conc|1:subj|4:neg|8:pnct">behøver</W>
-<W id="22" cur="144" space=" " in="-1:subj" out="1:attr|1:{goal}">handling</W>
-<W id="23" cur="153" space=" " in="-1:attr|-1:{goal}" out="1:nobj">vedrørende</W>
-<W id="24" cur="164" space=" " in="-1:nobj" out="">klimaforandring</W>
-<W id="25" cur="180" space=" " in="-4:neg" out="">ikke</W>
-<W id="26" cur="185" space=" " in="0:err" out="0:err">...</W>
-<W id="27" cur="189" space=" " in="1:attr" out="1:err">økonomisk</W>
-<W id="28" cur="199" space=" " in="-1:err" out="-1:attr">udvikling</W>
-<W id="29" cur="208" in="-8:pnct" out="">.</W>
-<W id="30" cur="210" space=" " in="4:subj|5:[subj]" out="1:nobj|2:ref|3:relr">De</W>
-<W id="31" cur="213" space=" " in="-1:nobj" out="">inititiativer</W>
-<W id="32" cur="227" space=" " in="-2:ref|1:subj" out="">der</W>
-<W id="33" cur="231" space=" " in="-3:relr" out="-1:subj">tilbydes</W>
-<W id="34" cur="240" space=" " in="" out="-4:subj|1:vobj|13:pnct|15:conj|24:pnct">skal</W>
-<W id="35" cur="245" space=" " in="-1:vobj" out="-5:[subj]|1:dobj">motivere</W>
-<W id="36" cur="254" space=" " in="-1:dobj" out="">udviklingslandene</W>
-<W id="37" cur="272" space=" " in="0:err" out="1:vobj|0:err">at</W>
-<W id="38" cur="275" space=" " in="-1:vobj" out="1:dobj|2:attr|5:conj">tage</W>
-<W id="39" cur="280" note="" space=" " in="-1:dobj" out="">den</W>
-<W id="40" cur="284" space=" " in="-2:attr" out="">ekstra</W>
-<W id="41" cur="291" space=" " in="0:err" out="0:err">skridt</W>
-<W id="42" cur="298" space=" " in="1:coord" out="">og</W>
-<W id="43" cur="301" space=" " in="-5:conj" out="-1:coord|3:dobj">implementere</W>
-<W id="44" cur="314" space=" " in="0:err" out="0:err">i</W>
-<W id="45" cur="316" space=" " in="1:attr" out="">rene</W>
-<W id="46" cur="321" space=" " in="-3:dobj" out="-1:attr">teknologier</W>
-<W id="47" cur="332" in="-13:pnct" out="">,</W>
-<W id="48" cur="334" space=" " in="1:coord" out="">og</W>
-<W id="49" cur="337" space=" " in="-15:conj" out="-1:coord|1:add|2:vobj">kunne</W>
-<W id="50" cur="343" space=" " in="-1:add" out="">også</W>
-<W id="51" cur="348" space=" " in="-2:vobj" out="">hjælpe</W>
-<W id="52" cur="355" space=" " in="0:err" out="1:dobj|0:err">minimere</W>
-<W id="53" cur="364" space=" " in="-1:dobj" out="1:pobj|1:{arg}">emissioner</W>
-<W id="54" cur="375" space=" " in="-1:pobj|-1:{arg}" out="1:nobj">fra</W>
-<W id="55" cur="379" space=" " in="-1:nobj" out="1:pobj.dobj|1:{patient}">udrydning</W>
-<W id="56" cur="389" space=" " in="-1:pobj.dobj|-1:{patient}" out="1:nobj">af</W>
-<W id="57" cur="392" space=" " in="-1:nobj" out="">skove</W>
-<W id="58" cur="397" in="-24:pnct" out="">.</W>
-<W id="59" cur="399" space=" " in="1:{quant}|6:subj|7:[subj]" out="1:pobj">Nogle</W>
-<W id="60" cur="405" space=" " in="-1:pobj" out="-1:{quant}|1:nobj">af</W>
-<W id="61" cur="408" space=" " in="-1:nobj|3:{loc}" out="2:attr|3:possd">verdens</W>
-<W id="62" cur="416" space=" " in="1:quant" out="">mest</W>
-<W id="63" cur="421" space=" " in="-2:attr" out="-1:quant">sårbare</W>
-<W id="64" cur="429" space=" " in="-3:possd" out="-3:{loc}">lande</W>
-<W id="65" cur="435" space=" " in="" out="-6:subj|1:vobj|5:pnct|7:conj">har</W>
-<W id="66" cur="439" space=" " in="-1:vobj" out="-7:[subj]|1:quant|2:pobj">bidraget</W>
-<W id="67" cur="448" space=" " in="-1:quant" out="">mindst</W>
-<W id="68" cur="455" space=" " in="-2:pobj" out="1:nobj">til</W>
-<W id="69" cur="459" space=" " in="-1:nobj" out="">klimaforanding</W>
-<W id="70" cur="473" in="-5:pnct" out="">,</W>
-<W id="71" cur="475" space=" " in="1:coord" out="">men</W>
-<W id="72" cur="479" space=" " in="-7:conj" out="-1:coord">bærer</W>
-<W id="73" cur="485" space=" " in="0:err" out="0:err">....</W>
-<W id="74" cur="490" space=" " in="1:focal" out="">Især</W>
-<W id="75" cur="495" space=" " in="1:subj|2:[subj]" out="-1:focal">udviklingslandene</W>
-<W id="76" cur="513" space=" " in="" out="-1:subj|1:vobj|8:pnct">skal</W>
-<W id="77" cur="518" space=" " in="-1:vobj" out="-2:[subj]|1:robj">tilpasse</W>
-<W id="78" cur="527" space=" " in="-1:robj" out="1:pobj">sig</W>
-<W id="79" cur="531" space=" " in="-1:pobj" out="1:nobj">til</W>
-<W id="80" cur="535" space=" " in="-1:nobj" out="">effekterne</W>
-<W id="81" cur="546" space=" " in="0:err" out="1:nobj|0:err">som</W>
-<W id="82" cur="550" space=" " in="-1:nobj" out="">følge</W>
-<W id="83" cur="556" space=" " in="0:err" out="0:err">klimaforandring</W>
-<W id="84" cur="571" in="-8:pnct" out="">.</W>
-<W id="85" cur="573" space=" " in="3:subj" out="">Tilpasning</W>
-<W id="86" cur="584" space=" " in="1:coord" out="">og</W>
-<W id="87" cur="587" space=" " in="0:err" out="-1:coord|0:err">...</W>
-<W id="88" cur="591" space=" " in="" out="-3:subj|1:cause|6:pnct">skal</W>
-<W id="89" cur="596" space=" " in="-1:cause" out="">defor</W>
-<W id="90" cur="602" space=" " in="0:err" out="1:man|0:err">går</W>
-<W id="91" cur="606" space=" " in="-1:man" out="1:attr|1:{other}#">hånd</W>
-<W id="92" cur="611" space=" " in="-1:attr|-1:{other}#" out="1:nobj">i</W>
-<W id="93" cur="613" space=" " in="-1:nobj" out="">hånd</W>
-<W id="94" cur="617" in="-6:pnct" out="">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text dep_parser="lotte" language="da" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" in="20:conc" lemma="selvom" out="2:vobj" pos="IN" space="">selvom</W>
+ <W cur="7" id="2" in="1:subj" lemma="udviklingsland" out="" pos="NNP" space=" ">udviklingslandene</W>
+ <W cur="25" id="3" in="-2:vobj" lemma="være" out="-1:subj|2:preds|17:pnct" pos="VBD" space=" ">er</W>
+ <W cur="28" id="4" in="0:err" lemma="forståelig" out="0:err" pos="JJ" space=" ">forståeligt</W>
+ <W cur="40" id="5" in="-2:preds" lemma="tilbageholdende" out="" pos="JJ" space=" ">tilbageholdende</W>
+ <W cur="56" id="6" in="0:err" lemma="til" out="0:err" pos="IN" space=" ">til</W>
+ <W cur="60" id="7" in="0:err" lemma="at" out="0:err" pos="TO" space=" ">at</W>
+ <W cur="63" id="8" in="0:err" lemma="..." out="0:err" pos="..." space=" ">...</W>
+ <W cur="67" id="9" in="0:err" lemma="deres" note="finite verb missing" out="0:err" pos="PRP$" space=" ">deres</W>
+ <W cur="73" id="10" in="0:err" lemma="_" note="spelling" out="0:err" pos="NNP" space=" ">sjanser</W>
+ <W cur="81" id="11" in="0:err" lemma="for" out="1:nobj|0:err" pos="IN" space=" ">for</W>
+ <W cur="85" id="12" in="-1:nobj" lemma="at" out="" pos="TO" space=" ">at</W>
+ <W cur="88" id="13" in="0:err" lemma="opnå" out="3:loc|0:err" pos="VBD" space=" ">opnår</W>
+ <W cur="94" id="14" in="1:attr" lemma="høj" out="" pos="JJR" space=" ">højere</W>
+ <W cur="101" id="15" in="0:err" lemma="_" out="-1:attr|0:err" pos="NNP" space=" ">levestandarter</W>
+ <W cur="116" id="16" in="-3:loc" lemma="i" out="1:nobj" pos="IN" space=" ">i</W>
+ <W cur="118" id="17" in="-1:nobj" lemma="den" out="2:nobj" pos="DT" space=" ">de</W>
+ <W cur="121" id="18" in="1:attr" lemma="fattig" out="" pos="JJ" space=" ">fattige</W>
+ <W cur="129" id="19" in="-2:nobj" lemma="land" out="-1:attr" pos="NNP" space=" ">lande</W>
+ <W cur="134" id="20" in="-17:pnct" lemma="," out="" pos=",">,</W>
+ <W cur="136" id="21" in="" lemma="behøve" out="-20:conc|1:subj|4:neg|8:pnct" pos="VBD" space=" ">behøver</W>
+ <W cur="144" id="22" in="-1:subj" lemma="handling" out="1:attr|1:{goal}" pos="NN" space=" ">handling</W>
+ <W cur="153" id="23" in="-1:attr|-1:{goal}" lemma="vedrørende" out="1:nobj" pos="IN" space=" ">vedrørende</W>
+ <W cur="164" id="24" in="-1:nobj" lemma="_" out="" pos="NN" space=" ">klimaforandring</W>
+ <W cur="180" id="25" in="-4:neg" lemma="ikke" out="" pos="RP" space=" ">ikke</W>
+ <W cur="185" id="26" in="0:err" lemma="..." out="0:err" pos="..." space=" ">...</W>
+ <W cur="189" id="27" in="1:attr" lemma="økonomisk" out="1:err" pos="JJ" space=" ">økonomisk</W>
+ <W cur="199" id="28" in="0:err" lemma="udvikling" out="-1:attr" pos="NN" space=" ">udvikling</W>
+ <W boundary="sentence" cur="208" id="29" in="-8:pnct" lemma="." out="" pos="SENT">.</W>
+ <W cur="210" id="30" in="4:subj|5:[subj]" lemma="den" out="1:nobj|2:ref|3:relr" pos="DT" space=" ">De</W>
+ <W cur="213" id="31" in="-1:nobj" lemma="_" out="" pos="NNP" space=" ">inititiativer</W>
+ <W cur="227" id="32" in="-2:ref|1:subj" lemma="der" out="" pos="TO" space=" ">der</W>
+ <W cur="231" id="33" in="-3:relr" lemma="tilbyde" out="-1:subj" pos="VBD" space=" ">tilbydes</W>
+ <W cur="240" id="34" in="" lemma="skulle" out="-4:subj|1:vobj|13:pnct|15:conj|24:pnct" pos="VBD" space=" ">skal</W>
+ <W cur="245" id="35" in="-1:vobj" lemma="_" out="-5:[subj]|1:dobj" pos="NNP" space=" ">motivere</W>
+ <W cur="254" id="36" in="-1:dobj" lemma="udviklingsland" out="" pos="NNP" space=" ">udviklingslandene</W>
+ <W cur="272" id="37" in="0:err" lemma="at" out="1:vobj|0:err" pos="TO" space=" ">at</W>
+ <W cur="275" id="38" in="-1:vobj" lemma="tage" out="1:dobj|2:attr|5:conj" pos="VB" space=" ">tage</W>
+ <W cur="280" id="39" in="-1:dobj" lemma="den" note="" out="" pos="DT" space=" ">den</W>
+ <W cur="284" id="40" in="-2:attr" lemma="ekstra" out="" pos="JJ" space=" ">ekstra</W>
+ <W cur="291" id="41" in="0:err" lemma="skridt" out="0:err" pos="NN" space=" ">skridt</W>
+ <W cur="298" id="42" in="1:coord" lemma="og" out="" pos="CC" space=" ">og</W>
+ <W cur="301" id="43" in="-5:conj" lemma="_" out="-1:coord|3:dobj" pos="VB" space=" ">implementere</W>
+ <W cur="314" id="44" in="0:err" lemma="i" out="0:err" pos="IN" space=" ">i</W>
+ <W cur="316" id="45" in="1:attr" lemma="ren" out="" pos="JJ" space=" ">rene</W>
+ <W cur="321" id="46" in="-3:dobj" lemma="_" out="-1:attr" pos="NNP" space=" ">teknologier</W>
+ <W cur="332" id="47" in="-13:pnct" lemma="," out="" pos=",">,</W>
+ <W cur="334" id="48" in="1:coord" lemma="og" out="" pos="CC" space=" ">og</W>
+ <W cur="337" id="49" in="-15:conj" lemma="kunne" out="-1:coord|1:add|2:vobj" pos="VBD" space=" ">kunne</W>
+ <W cur="343" id="50" in="-1:add" lemma="også" out="" pos="RP" space=" ">også</W>
+ <W cur="348" id="51" in="-2:vobj" lemma="hjælpe" out="" pos="VB" space=" ">hjælpe</W>
+ <W cur="355" id="52" in="0:err" lemma="minimere" out="1:dobj|0:err" pos="VB" space=" ">minimere</W>
+ <W cur="364" id="53" in="-1:dobj" lemma="_" out="1:pobj|1:{arg}" pos="NNP" space=" ">emissioner</W>
+ <W cur="375" id="54" in="-1:pobj|-1:{arg}" lemma="fra" out="1:nobj" pos="IN" space=" ">fra</W>
+ <W cur="379" id="55" in="-1:nobj" lemma="_" out="1:pobj.dobj|1:{patient}" pos="NN" space=" ">udrydning</W>
+ <W cur="389" id="56" in="-1:pobj.dobj|-1:{patient}" lemma="af" out="1:nobj" pos="IN" space=" ">af</W>
+ <W cur="392" id="57" in="-1:nobj" lemma="skov" out="" pos="NNP" space=" ">skove</W>
+ <W boundary="sentence" cur="397" id="58" in="-24:pnct" lemma="." out="" pos="SENT">.</W>
+ <W cur="399" id="59" in="1:{quant}|6:subj|7:[subj]" lemma="nogen" out="1:pobj" pos="DT" space=" ">Nogle</W>
+ <W cur="405" id="60" in="-1:pobj" lemma="af" out="-1:{quant}|1:nobj" pos="IN" space=" ">af</W>
+ <W cur="408" id="61" in="-1:nobj|3:{loc}" lemma="verden" out="2:attr|3:possd" pos="NN" space=" ">verdens</W>
+ <W cur="416" id="62" in="1:quant" lemma="meget" out="" pos="JJS" space=" ">mest</W>
+ <W cur="421" id="63" in="-2:attr" lemma="sårbar" out="-1:quant" pos="JJ" space=" ">sårbare</W>
+ <W cur="429" id="64" in="-3:possd" lemma="land" out="-3:{loc}" pos="NNP" space=" ">lande</W>
+ <W cur="435" id="65" in="" lemma="have" out="-6:subj|1:vobj|5:pnct|7:conj" pos="VBD" space=" ">har</W>
+ <W cur="439" id="66" in="-1:vobj" lemma="bidrage" out="-7:[subj]|1:quant|2:pobj" pos="VBN" space=" ">bidraget</W>
+ <W cur="448" id="67" in="-1:quant" lemma="lille" out="" pos="JJS" space=" ">mindst</W>
+ <W cur="455" id="68" in="-2:pobj" lemma="til" out="1:nobj" pos="IN" space=" ">til</W>
+ <W cur="459" id="69" in="-1:nobj" lemma="_" out="" pos="NN" space=" ">klimaforanding</W>
+ <W cur="473" id="70" in="-5:pnct" lemma="," out="" pos=",">,</W>
+ <W cur="475" id="71" in="1:coord" lemma="men" out="" pos="CC" space=" ">men</W>
+ <W cur="479" id="72" in="-7:conj" lemma="bære" out="-1:coord" pos="VBD" space=" ">bærer</W>
+ <W cur="485" id="73" in="0:err" lemma="_" out="0:err" pos="NN" space=" ">....</W>
+ <W cur="490" id="74" in="1:focal" lemma="især" out="" pos="RP" space=" ">Især</W>
+ <W cur="495" id="75" in="1:subj|2:[subj]" lemma="udviklingsland" out="-1:focal" pos="NNP" space=" ">udviklingslandene</W>
+ <W cur="513" id="76" in="" lemma="skulle" out="-1:subj|1:vobj|8:pnct" pos="VBD" space=" ">skal</W>
+ <W cur="518" id="77" in="-1:vobj" lemma="tilpasse" out="-2:[subj]|1:robj" pos="VB" space=" ">tilpasse</W>
+ <W cur="527" id="78" in="-1:robj" lemma="sig" out="1:pobj" pos="PRP" space=" ">sig</W>
+ <W cur="531" id="79" in="-1:pobj" lemma="til" out="1:nobj" pos="IN" space=" ">til</W>
+ <W cur="535" id="80" in="-1:nobj" lemma="_" out="" pos="NNP" space=" ">effekterne</W>
+ <W cur="546" id="81" in="0:err" lemma="som" out="1:nobj|0:err" pos="TO" space=" ">som</W>
+ <W cur="550" id="82" in="-1:nobj" lemma="følge" out="" pos="VB" space=" ">følge</W>
+ <W cur="556" id="83" in="0:err" lemma="_" out="0:err" pos="NN" space=" ">klimaforandring</W>
+ <W boundary="sentence" cur="571" id="84" in="-8:pnct" lemma="." out="" pos="SENT">.</W>
+ <W cur="573" id="85" in="3:subj" lemma="tilpasning" out="" pos="NN" space=" ">Tilpasning</W>
+ <W cur="584" id="86" in="1:coord" lemma="og" out="" pos="CC" space=" ">og</W>
+ <W cur="587" id="87" in="0:err" lemma="..." out="-1:coord|0:err" pos="..." space=" ">...</W>
+ <W cur="591" id="88" in="" lemma="skulle" out="-3:subj|1:cause|6:pnct" pos="VBD" space=" ">skal</W>
+ <W cur="596" id="89" in="-1:cause" lemma="_" out="" pos="NN" space=" ">defor</W>
+ <W cur="602" id="90" in="0:err" lemma="gå" out="1:man|0:err" pos="VBD" space=" ">går</W>
+ <W cur="606" id="91" in="-1:man" lemma="hånd" out="1:attr|1:{other}#" pos="NN" space=" ">hånd</W>
+ <W cur="611" id="92" in="-1:attr|-1:{other}#" lemma="i" out="1:nobj" pos="IN" space=" ">i</W>
+ <W cur="613" id="93" in="-1:nobj" lemma="hånd" out="" pos="NN" space=" ">hånd</W>
+ <W boundary="sentence" cur="617" id="94" in="-6:pnct" lemma="." out="" pos="SENT">.</W>
 </Text>

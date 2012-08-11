@@ -1,161 +1,162 @@
-<Text language="es" >
-<W cur="0" id="1">La</W>
-<W cur="3" id="2" space=" ">mayoría</W>
-<W cur="11" id="3" space=" ">de</W>
-<W cur="14" id="4" space=" ">las</W>
-<W cur="18" id="5" space=" ">sociedades</W>
-<W cur="29" id="6" space=" ">cazadoras</W>
-<W cur="38" id="7">-</W>
-<W cur="39" id="8">recolectoras</W>
-<W cur="52" id="9" space=" ">son</W>
-<W cur="56" id="10" space=" ">nómadas</W>
-<W cur="63" id="11">.</W>
-<W cur="65" id="12" space=" ">Es</W>
-<W cur="68" id="13" space=" ">difícil</W>
-<W cur="76" id="14" space=" ">afincarse</W>
-<W cur="86" id="15" space=" ">en</W>
-<W cur="89" id="16" space=" ">un</W>
-<W cur="92" id="17" space=" ">sitio</W>
-<W cur="97" id="18">,</W>
-<W cur="99" id="19" space=" ">ya</W>
-<W cur="102" id="20" space=" ">que</W>
-<W cur="106" id="21" space=" ">el</W>
-<W cur="109" id="22" space=" ">sistema</W>
-<W cur="117" id="23" space=" ">de</W>
-<W cur="120" id="24" space=" ">subsistencia</W>
-<W cur="134" id="25" space="  ">puede</W>
-<W cur="140" id="26" space=" ">agotar</W>
-<W cur="147" id="27" space=" ">rápidamente</W>
-<W cur="159" id="28" space=" ">los</W>
-<W cur="163" id="29" space=" ">recurso</W>
-<W cur="171" id="30" space=" ">de</W>
-<W cur="174" id="31" space=" ">una</W>
-<W cur="178" id="32" space=" ">región</W>
-<W cur="184" id="33">.</W>
-<W cur="186" id="34" space=" ">Las</W>
-<W cur="190" id="35" space=" ">Sociedades</W>
-<W cur="201" id="36" space=" ">cazadoras</W>
-<W cur="210" id="37">-</W>
-<W cur="211" id="38">recolectoras</W>
-<W cur="224" id="39" space=" ">también</W>
-<W cur="232" id="40" space=" ">tienden</W>
-<W cur="240" id="41" space=" ">a</W>
-<W cur="242" id="42" space=" ">tener</W>
-<W cur="248" id="43" space=" ">densidades</W>
-<W cur="259" id="44" space=" ">de</W>
-<W cur="262" id="45" space=" ">población</W>
-<W cur="272" id="46" space=" ">muy</W>
-<W cur="276" id="47" space=" ">bajas</W>
-<W cur="281" id="48">,</W>
-<W cur="283" id="49" space=" ">como</W>
-<W cur="288" id="50" space=" ">resultado</W>
-<W cur="298" id="51" space=" ">de</W>
-<W cur="301" id="52" space=" ">su</W>
-<W cur="304" id="53" space=" ">sistema</W>
-<W cur="312" id="54" space=" ">de</W>
-<W cur="315" id="55" space=" ">subsistencia</W>
-<W cur="327" id="56">.</W>
-<W cur="329" id="57" space=" ">Los</W>
-<W cur="333" id="58" space=" ">sistemas</W>
-<W cur="342" id="59" space=" ">agrícolas</W>
-<W cur="352" id="60" space=" ">de</W>
-<W cur="355" id="61" space=" ">subsistencia</W>
-<W cur="368" id="62" space=" ">pueden</W>
-<W cur="375" id="63" space=" ">soportar</W>
-<W cur="384" id="64" space=" ">densidades</W>
-<W cur="395" id="65" space=" ">de</W>
-<W cur="398" id="66" space=" ">población</W>
-<W cur="408" id="67" space=" ">de</W>
-<W cur="411" id="68" space=" ">60</W>
-<W cur="414" id="69" space=" ">a</W>
-<W cur="416" id="70" space=" ">100</W>
-<W cur="420" id="71" space=" ">veces</W>
-<W cur="426" id="72" space=" ">mayor</W>
-<W cur="432" id="73" space=" ">que</W>
-<W cur="436" id="74" space=" ">las</W>
-<W cur="440" id="75" space=" ">de</W>
-<W cur="443" id="76" space=" ">aquellos</W>
-<W cur="452" id="77" space=" ">que</W>
-<W cur="456" id="78" space=" ">no</W>
-<W cur="459" id="79" space=" ">cultivan</W>
-<W cur="467" id="80">,</W>
-<W cur="469" id="81" space=" ">lo</W>
-<W cur="472" id="82" space=" ">que</W>
-<W cur="476" id="83" space=" ">resulta</W>
-<W cur="484" id="84" space=" ">en</W>
-<W cur="487" id="85" space=" ">las</W>
-<W cur="491" id="86" space=" ">poblaciones</W>
-<W cur="503" id="87" space=" ">más</W>
-<W cur="507" id="88" space=" ">densas</W>
-<W cur="513" id="89">.</W>
-<W cur="515" id="90" space=" ">Las</W>
-<W cur="519" id="91" space=" ">sociedades</W>
-<W cur="530" id="92" space=" ">cazadoras</W>
-<W cur="539" id="93">-</W>
-<W cur="540" id="94">recolectoras</W>
-<W cur="553" id="95" space=" ">también</W>
-<W cur="561" id="96" space=" ">tienden</W>
-<W cur="569" id="97" space=" ">a</W>
-<W cur="571" id="98" space=" ">tener</W>
-<W cur="577" id="99" space=" ">estructuras</W>
-<W cur="589" id="100" space=" ">que</W>
-<W cur="593" id="101" space=" ">no</W>
-<W cur="596" id="102" space=" ">sean</W>
-<W cur="601" id="103" space=" ">jerárquicas</W>
-<W cur="613" id="104" space=" ">sociales</W>
-<W cur="621" id="105">,</W>
-<W cur="623" id="106" space=" ">aunque</W>
-<W cur="630" id="107" space=" ">no</W>
-<W cur="633" id="108" space=" ">siempre</W>
-<W cur="641" id="109" space=" ">es</W>
-<W cur="644" id="110" space=" ">así</W>
-<W cur="647" id="111">.</W>
-<W cur="649" id="112" space=" ">Debido</W>
-<W cur="656" id="113" space=" ">a</W>
-<W cur="658" id="114" space=" ">que</W>
-<W cur="662" id="115" space=" ">los</W>
-<W cur="666" id="116" space=" ">cazadores</W>
-<W cur="675" id="117">-</W>
-<W cur="676" id="118">recolectores</W>
-<W cur="689" id="119" space=" ">tienden</W>
-<W cur="697" id="120" space=" ">a</W>
-<W cur="699" id="121" space=" ">ser</W>
-<W cur="703" id="122" space=" ">nómadas</W>
-<W cur="710" id="123">,</W>
-<W cur="712" id="124" space=" ">por</W>
-<W cur="716" id="125" space=" ">lo</W>
-<W cur="719" id="126" space=" ">general</W>
-<W cur="727" id="127" space=" ">no</W>
-<W cur="730" id="128" space=" ">tienen</W>
-<W cur="737" id="129" space=" ">la</W>
-<W cur="740" id="130" space=" ">posibilidad</W>
-<W cur="752" id="131" space=" ">de</W>
-<W cur="755" id="132" space=" ">almacenar</W>
-<W cur="765" id="133" space=" ">los</W>
-<W cur="769" id="134" space=" ">excedentes</W>
-<W cur="780" id="135" space=" ">de</W>
-<W cur="783" id="136" space=" ">alimentos</W>
-<W cur="792" id="137">.</W>
-<W cur="794" id="138" space=" ">Como</W>
-<W cur="799" id="139" space=" ">resultado</W>
-<W cur="808" id="140">,</W>
-<W cur="810" id="141" space=" ">los</W>
-<W cur="814" id="142" space=" ">líderes</W>
-<W cur="822" id="143" space=" ">permanentes</W>
-<W cur="833" id="144">,</W>
-<W cur="835" id="145" space=" ">los</W>
-<W cur="839" id="146" space=" ">burócratas</W>
-<W cur="850" id="147" space=" ">o</W>
-<W cur="852" id="148" space=" ">los</W>
-<W cur="856" id="149" space=" ">artesanos</W>
-<W cur="867" id="150" space="  ">rara</W>
-<W cur="872" id="151" space=" ">vez</W>
-<W cur="876" id="152" space=" ">son</W>
-<W cur="880" id="153" space=" ">encontrados</W>
-<W cur="892" id="154" space=" ">en</W>
-<W cur="895" id="155" space=" ">sociedades</W>
-<W cur="906" id="156" space=" ">cazadoras</W>
-<W cur="915" id="157">-</W>
-<W cur="916" id="158">recolectoras</W>
-<W cur="928" id="159">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="es" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" lemma="el" pos="ART">La</W>
+ <W cur="3" id="2" lemma="mayoría" pos="NC" space=" ">mayoría</W>
+ <W cur="11" id="3" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="14" id="4" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="18" id="5" lemma="sociedad" pos="NC" space=" ">sociedades</W>
+ <W cur="29" id="6" lemma="cazador" pos="NC" space=" ">cazadoras</W>
+ <W cur="38" id="7" lemma="-" pos="DASH">-</W>
+ <W cur="39" id="8" lemma="_" pos="NC">recolectoras</W>
+ <W cur="52" id="9" lemma="ser" pos="VSfin" space=" ">son</W>
+ <W cur="56" id="10" lemma="_" pos="ADJ" space=" ">nómadas</W>
+ <W boundary="sentence" cur="63" id="11" lemma="." pos="FS">.</W>
+ <W cur="65" id="12" lemma="ser" pos="VSfin" space=" ">Es</W>
+ <W cur="68" id="13" lemma="difícil" pos="ADJ" space=" ">difícil</W>
+ <W cur="76" id="14" lemma="_" pos="VLinf" space=" ">afincarse</W>
+ <W cur="86" id="15" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="89" id="16" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="92" id="17" lemma="sitio" pos="NC" space=" ">sitio</W>
+ <W cur="97" id="18" lemma="," pos="CM">,</W>
+ <W cur="99" id="19" lemma="ya" pos="ADV" space=" ">ya</W>
+ <W cur="102" id="20" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="106" id="21" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="109" id="22" lemma="sistema" pos="NC" space=" ">sistema</W>
+ <W cur="117" id="23" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="120" id="24" lemma="subsistencia" pos="NC" space=" ">subsistencia</W>
+ <W cur="134" id="25" lemma="poder" pos="VMfin" space="  ">puede</W>
+ <W cur="140" id="26" lemma="agotar" pos="VLinf" space=" ">agotar</W>
+ <W cur="147" id="27" lemma="rápidamente" pos="ADV" space=" ">rápidamente</W>
+ <W cur="159" id="28" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="163" id="29" lemma="recurso" pos="NC" space=" ">recurso</W>
+ <W cur="171" id="30" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="174" id="31" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="178" id="32" lemma="región" pos="NC" space=" ">región</W>
+ <W boundary="sentence" cur="184" id="33" lemma="." pos="FS">.</W>
+ <W cur="186" id="34" lemma="el" pos="ART" space=" ">Las</W>
+ <W cur="190" id="35" lemma="sociedad" pos="NC" space=" ">Sociedades</W>
+ <W cur="201" id="36" lemma="cazador" pos="ADJ" space=" ">cazadoras</W>
+ <W cur="210" id="37" lemma="-" pos="DASH">-</W>
+ <W cur="211" id="38" lemma="_" pos="ADJ">recolectoras</W>
+ <W cur="224" id="39" lemma="también" pos="ADV" space=" ">también</W>
+ <W cur="232" id="40" lemma="tender" pos="VLfin" space=" ">tienden</W>
+ <W cur="240" id="41" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="242" id="42" lemma="tener" pos="VLinf" space=" ">tener</W>
+ <W cur="248" id="43" lemma="densidad" pos="NC" space=" ">densidades</W>
+ <W cur="259" id="44" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="262" id="45" lemma="población" pos="NC" space=" ">población</W>
+ <W cur="272" id="46" lemma="muy" pos="ADV" space=" ">muy</W>
+ <W cur="276" id="47" lemma="bajo" pos="ADJ" space=" ">bajas</W>
+ <W cur="281" id="48" lemma="," pos="CM">,</W>
+ <W cur="283" id="49" lemma="como" pos="CSUBX" space=" ">como</W>
+ <W cur="288" id="50" lemma="resultado" pos="NC" space=" ">resultado</W>
+ <W cur="298" id="51" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="301" id="52" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="304" id="53" lemma="sistema" pos="NC" space=" ">sistema</W>
+ <W cur="312" id="54" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="315" id="55" lemma="subsistencia" pos="NC" space=" ">subsistencia</W>
+ <W boundary="sentence" cur="327" id="56" lemma="." pos="FS">.</W>
+ <W cur="329" id="57" lemma="el" pos="ART" space=" ">Los</W>
+ <W cur="333" id="58" lemma="sistema" pos="NC" space=" ">sistemas</W>
+ <W cur="342" id="59" lemma="agrícola" pos="ADJ" space=" ">agrícolas</W>
+ <W cur="352" id="60" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="355" id="61" lemma="subsistencia" pos="NC" space=" ">subsistencia</W>
+ <W cur="368" id="62" lemma="poder" pos="VMfin" space=" ">pueden</W>
+ <W cur="375" id="63" lemma="soportar" pos="VLinf" space=" ">soportar</W>
+ <W cur="384" id="64" lemma="densidad" pos="NC" space=" ">densidades</W>
+ <W cur="395" id="65" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="398" id="66" lemma="población" pos="NC" space=" ">población</W>
+ <W cur="408" id="67" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="411" id="68" lemma="@card@" pos="CARD" space=" ">60</W>
+ <W cur="414" id="69" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="416" id="70" lemma="@card@" pos="CARD" space=" ">100</W>
+ <W cur="420" id="71" lemma="vez" pos="NC" space=" ">veces</W>
+ <W cur="426" id="72" lemma="grande" pos="ADJ" space=" ">mayor</W>
+ <W cur="432" id="73" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="436" id="74" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="440" id="75" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="443" id="76" lemma="aquel" pos="DM" space=" ">aquellos</W>
+ <W cur="452" id="77" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="456" id="78" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="459" id="79" lemma="cultivar" pos="VLfin" space=" ">cultivan</W>
+ <W cur="467" id="80" lemma="," pos="CM">,</W>
+ <W cur="469" id="81" lemma="el" pos="ART" space=" ">lo</W>
+ <W cur="472" id="82" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="476" id="83" lemma="resultar" pos="VLfin" space=" ">resulta</W>
+ <W cur="484" id="84" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="487" id="85" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="491" id="86" lemma="población" pos="NC" space=" ">poblaciones</W>
+ <W cur="503" id="87" lemma="más" pos="ADV" space=" ">más</W>
+ <W cur="507" id="88" lemma="denso" pos="ADJ" space=" ">densas</W>
+ <W boundary="sentence" cur="513" id="89" lemma="." pos="FS">.</W>
+ <W cur="515" id="90" lemma="el" pos="ART" space=" ">Las</W>
+ <W cur="519" id="91" lemma="sociedad" pos="NC" space=" ">sociedades</W>
+ <W cur="530" id="92" lemma="cazador" pos="ADJ" space=" ">cazadoras</W>
+ <W cur="539" id="93" lemma="-" pos="DASH">-</W>
+ <W cur="540" id="94" lemma="_" pos="ADJ">recolectoras</W>
+ <W cur="553" id="95" lemma="también" pos="ADV" space=" ">también</W>
+ <W cur="561" id="96" lemma="tender" pos="VLfin" space=" ">tienden</W>
+ <W cur="569" id="97" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="571" id="98" lemma="tener" pos="VLinf" space=" ">tener</W>
+ <W cur="577" id="99" lemma="estructura" pos="NC" space=" ">estructuras</W>
+ <W cur="589" id="100" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="593" id="101" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="596" id="102" lemma="ser" pos="VSfin" space=" ">sean</W>
+ <W cur="601" id="103" lemma="_" pos="ADJ" space=" ">jerárquicas</W>
+ <W cur="613" id="104" lemma="social" pos="ADJ" space=" ">sociales</W>
+ <W cur="621" id="105" lemma="," pos="CM">,</W>
+ <W cur="623" id="106" lemma="aunque" pos="CSUBX" space=" ">aunque</W>
+ <W cur="630" id="107" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="633" id="108" lemma="siempre" pos="ADV" space=" ">siempre</W>
+ <W cur="641" id="109" lemma="ser" pos="VSfin" space=" ">es</W>
+ <W cur="644" id="110" lemma="así" pos="ADV" space=" ">así</W>
+ <W boundary="sentence" cur="647" id="111" lemma="." pos="FS">.</W>
+ <W cur="649" id="112" lemma="deber|debido" pos="VMadj" space=" ">Debido</W>
+ <W cur="656" id="113" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="658" id="114" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="662" id="115" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="666" id="116" lemma="cazador" pos="NC" space=" ">cazadores</W>
+ <W cur="675" id="117" lemma="-" pos="DASH">-</W>
+ <W cur="676" id="118" lemma="recolector" pos="NC">recolectores</W>
+ <W cur="689" id="119" lemma="tender" pos="VLfin" space=" ">tienden</W>
+ <W cur="697" id="120" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="699" id="121" lemma="ser" pos="VSinf" space=" ">ser</W>
+ <W cur="703" id="122" lemma="_" pos="ADJ" space=" ">nómadas</W>
+ <W cur="710" id="123" lemma="," pos="CM">,</W>
+ <W cur="712" id="124" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="716" id="125" lemma="el" pos="ART" space=" ">lo</W>
+ <W cur="719" id="126" lemma="general" pos="ADJ" space=" ">general</W>
+ <W cur="727" id="127" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="730" id="128" lemma="tener" pos="VLfin" space=" ">tienen</W>
+ <W cur="737" id="129" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="740" id="130" lemma="posibilidad" pos="NC" space=" ">posibilidad</W>
+ <W cur="752" id="131" lemma="de" pos="CSUBI" space=" ">de</W>
+ <W cur="755" id="132" lemma="almacenar" pos="VLinf" space=" ">almacenar</W>
+ <W cur="765" id="133" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="769" id="134" lemma="excedente" pos="NC" space=" ">excedentes</W>
+ <W cur="780" id="135" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="783" id="136" lemma="alimento" pos="NC" space=" ">alimentos</W>
+ <W boundary="sentence" cur="792" id="137" lemma="." pos="FS">.</W>
+ <W cur="794" id="138" lemma="como" pos="CSUBX" space=" ">Como</W>
+ <W cur="799" id="139" lemma="resultado" pos="NC" space=" ">resultado</W>
+ <W cur="808" id="140" lemma="," pos="CM">,</W>
+ <W cur="810" id="141" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="814" id="142" lemma="líder" pos="NC" space=" ">líderes</W>
+ <W cur="822" id="143" lemma="permanente" pos="ADJ" space=" ">permanentes</W>
+ <W cur="833" id="144" lemma="," pos="CM">,</W>
+ <W cur="835" id="145" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="839" id="146" lemma="burócrata" pos="NC" space=" ">burócratas</W>
+ <W cur="850" id="147" lemma="o" pos="CC" space=" ">o</W>
+ <W cur="852" id="148" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="856" id="149" lemma="artesano" pos="NC" space=" ">artesanos</W>
+ <W cur="867" id="150" lemma="raro" pos="ADJ" space="  ">rara</W>
+ <W cur="872" id="151" lemma="vez" pos="NC" space=" ">vez</W>
+ <W cur="876" id="152" lemma="ser" pos="VSfin" space=" ">son</W>
+ <W cur="880" id="153" lemma="encontrar" pos="VLadj" space=" ">encontrados</W>
+ <W cur="892" id="154" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="895" id="155" lemma="sociedad" pos="NC" space=" ">sociedades</W>
+ <W cur="906" id="156" lemma="cazador" pos="NC" space=" ">cazadoras</W>
+ <W cur="915" id="157" lemma="-" pos="DASH">-</W>
+ <W cur="916" id="158" lemma="_" pos="NC">recolectoras</W>
+ <W boundary="sentence" cur="928" id="159" lemma="." pos="FS">.</W>
 </Text>

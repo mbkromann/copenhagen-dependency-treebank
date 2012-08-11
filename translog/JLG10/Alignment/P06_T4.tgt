@@ -1,206 +1,207 @@
-<Text language="en" >
-<W cur="0" id="1">Identifying</W>
-<W cur="12" id="2" space=" ">a</W>
-<W cur="14" id="3" space=" ">good</W>
-<W cur="19" id="4" space=" ">coffee</W>
-<W cur="26" id="5" space=" ">is</W>
-<W cur="29" id="6" space=" ">a</W>
-<W cur="31" id="7" space=" ">relatively</W>
-<W cur="42" id="8" space=" ">simple</W>
-<W cur="49" id="9" space=" ">task</W>
-<W cur="54" id="10" space=" ">to</W>
-<W cur="57" id="11" space=" ">tasters</W>
-<W cur="64" id="12">,</W>
-<W cur="66" id="13" space=" ">but</W>
-<W cur="70" id="14" space=" ">giving</W>
-<W cur="77" id="15" space=" ">an</W>
-<W cur="80" id="16" space=" ">exact</W>
-<W cur="86" id="17" space=" ">grade</W>
-<W cur="92" id="18" space=" ">to</W>
-<W cur="95" id="19" space=" ">each</W>
-<W cur="100" id="20" space=" ">sample</W>
-<W cur="107" id="21" space=" ">is</W>
-<W cur="110" id="22" space=" ">different</W>
-<W cur="119" id="23">.</W>
-<W cur="121" id="24" space=" ">The</W>
-<W cur="125" id="25" space=" ">taster</W>
-<W cur="132" id="26" space=" ">enjoys</W>
-<W cur="139" id="27" space=" ">the</W>
-<W cur="143" id="28" space=" ">coffee</W>
-<W cur="150" id="29" space=" ">based</W>
-<W cur="156" id="30" space=" ">on</W>
-<W cur="159" id="31" space=" ">skills</W>
-<W cur="166" id="32" space=" ">acquired</W>
-<W cur="175" id="33" space=" ">with</W>
-<W cur="180" id="34" space=" ">experience</W>
-<W cur="190" id="35">.</W>
-<W cur="192" id="36" space=" ">However</W>
-<W cur="199" id="37">,</W>
-<W cur="201" id="38" space=" ">their</W>
-<W cur="207" id="39" space=" ">verdicts</W>
-<W cur="216" id="40" space=" ">are</W>
-<W cur="220" id="41" space=" ">far</W>
-<W cur="224" id="42" space=" ">from</W>
-<W cur="229" id="43" space=" ">precise</W>
-<W cur="236" id="44">,</W>
-<W cur="238" id="45" space=" ">which</W>
-<W cur="244" id="46" space=" ">makes</W>
-<W cur="250" id="47" space=" ">it</W>
-<W cur="253" id="48" space=" ">difficult</W>
-<W cur="263" id="49" space=" ">to</W>
-<W cur="266" id="50" space=" ">evaluate</W>
-<W cur="275" id="51" space=" ">coffee</W>
-<W cur="282" id="52" space=" ">in</W>
-<W cur="285" id="53" space=" ">larger</W>
-<W cur="292" id="54" space=" ">scale</W>
-<W cur="297" id="55">.</W>
-<W cur="299" id="56" space=" ">A</W>
-<W cur="301" id="57" space=" ">report</W>
-<W cur="308" id="58" space=" ">published</W>
-<W cur="318" id="59" space=" ">on</W>
-<W cur="321" id="60" space=" ">Fapesp</W>
-<W cur="328" id="61" space=" ">online</W>
-<W cur="334" id="62">,</W>
-<W cur="336" id="63" space=" ">however</W>
-<W cur="343" id="64">,</W>
-<W cur="345" id="65" space=" ">presents</W>
-<W cur="354" id="66" space=" ">a</W>
-<W cur="356" id="67" space=" ">promising</W>
-<W cur="366" id="68" space=" ">product</W>
-<W cur="374" id="69" space=" ">developed</W>
-<W cur="384" id="70" space=" ">by</W>
-<W cur="387" id="71" space=" ">Brazilian</W>
-<W cur="397" id="72" space=" ">researchers</W>
-<W cur="408" id="73">:</W>
-<W cur="410" id="74" space=" ">the</W>
-<W cur="414" id="75">"</W>
-<W cur="415" id="76">electronic</W>
-<W cur="426" id="77" space=" ">tongue</W>
-<W cur="432" id="78">"</W>
-<W cur="433" id="79">,</W>
-<W cur="435" id="80" space=" ">a</W>
-<W cur="437" id="81" space=" ">device</W>
-<W cur="444" id="82" space=" ">that</W>
-<W cur="449" id="83" space=" ">can</W>
-<W cur="453" id="84" space=" ">evaluate</W>
-<W cur="462" id="85" space=" ">flavors</W>
-<W cur="470" id="86" space=" ">much</W>
-<W cur="475" id="87" space=" ">more</W>
-<W cur="480" id="88" space=" ">precisely</W>
-<W cur="490" id="89" space=" ">than</W>
-<W cur="495" id="90" space=" ">the</W>
-<W cur="499" id="91" space=" ">human</W>
-<W cur="505" id="92" space=" ">tongue</W>
-<W cur="511" id="93">.</W>
-<W cur="513" id="94" space="&#xA;">Parts</W>
-<W cur="519" id="95" space=" ">of</W>
-<W cur="522" id="96" space=" ">the</W>
-<W cur="526" id="97" space=" ">human</W>
-<W cur="532" id="98" space=" ">tongue</W>
-<W cur="539" id="99" space=" ">surface</W>
-<W cur="547" id="100" space=" ">are</W>
-<W cur="551" id="101" space=" ">sensory</W>
-<W cur="559" id="102" space=" ">receptors</W>
-<W cur="569" id="103" space=" ">called</W>
-<W cur="576" id="104" space=" ">taste</W>
-<W cur="582" id="105" space=" ">buds</W>
-<W cur="586" id="106">,</W>
-<W cur="588" id="107" space=" ">which</W>
-<W cur="594" id="108" space=" ">identify</W>
-<W cur="603" id="109" space=" ">tastes</W>
-<W cur="609" id="110">.</W>
-<W cur="611" id="111" space=" ">Scientists</W>
-<W cur="622" id="112" space=" ">from</W>
-<W cur="627" id="113" space=" ">Emprapa</W>
-<W cur="635" id="114" space=" ">have</W>
-<W cur="640" id="115" space=" ">projected</W>
-<W cur="650" id="116" space=" ">a</W>
-<W cur="652" id="117" space=" ">taste</W>
-<W cur="658" id="118" space=" ">sensor</W>
-<W cur="665" id="119" space=" ">capable</W>
-<W cur="673" id="120" space=" ">of</W>
-<W cur="676" id="121" space=" ">evaluating</W>
-<W cur="687" id="122" space=" ">nuances</W>
-<W cur="695" id="123" space=" ">of</W>
-<W cur="698" id="124" space=" ">flavor</W>
-<W cur="705" id="125" space=" ">and</W>
-<W cur="709" id="126" space=" ">the</W>
-<W cur="713" id="127" space=" ">presence</W>
-<W cur="722" id="128" space=" ">of</W>
-<W cur="725" id="129" space=" ">impurities</W>
-<W cur="736" id="130" space=" ">in</W>
-<W cur="739" id="131" space=" ">beverages</W>
-<W cur="749" id="132" space=" ">with</W>
-<W cur="754" id="133" space=" ">more</W>
-<W cur="759" id="134" space=" ">precision</W>
-<W cur="769" id="135" space=" ">than</W>
-<W cur="774" id="136" space=" ">the</W>
-<W cur="778" id="137" space=" ">human</W>
-<W cur="784" id="138" space=" ">taste</W>
-<W cur="790" id="139" space=" ">buds</W>
-<W cur="794" id="140">.</W>
-<W cur="796" id="141" space=" ">The</W>
-<W cur="800" id="142" space=" ">researches</W>
-<W cur="811" id="143" space=" ">modeled</W>
-<W cur="819" id="144" space=" ">the</W>
-<W cur="823" id="145" space=" ">tasting</W>
-<W cur="831" id="146" space=" ">sense</W>
-<W cur="837" id="147" space=" ">and</W>
-<W cur="841" id="148" space=" ">used</W>
-<W cur="846" id="149" space=" ">microelectrodes</W>
-<W cur="862" id="150" space=" ">coated</W>
-<W cur="869" id="151" space=" ">with</W>
-<W cur="874" id="152" space=" ">a</W>
-<W cur="876" id="153" space=" ">thin</W>
-<W cur="881" id="154" space=" ">layer</W>
-<W cur="887" id="155" space=" ">of</W>
-<W cur="890" id="156" space=" ">conductive</W>
-<W cur="901" id="157" space=" ">polymers</W>
-<W cur="910" id="158" space=" ">to</W>
-<W cur="913" id="159" space=" ">obtain</W>
-<W cur="920" id="160" space=" ">a</W>
-<W cur="922" id="161" space=" ">specific</W>
-<W cur="931" id="162" space=" ">electric</W>
-<W cur="940" id="163" space=" ">response</W>
-<W cur="949" id="164" space=" ">for</W>
-<W cur="953" id="165" space=" ">each</W>
-<W cur="958" id="166" space=" ">substance</W>
-<W cur="967" id="167">.</W>
-<W cur="969" id="168" space=" ">Unlike</W>
-<W cur="976" id="169" space=" ">the</W>
-<W cur="980" id="170" space=" ">taster</W>
-<W cur="986" id="171">,</W>
-<W cur="988" id="172" space=" ">the</W>
-<W cur="992" id="173" space=" ">device</W>
-<W cur="999" id="174" space=" ">always</W>
-<W cur="1006" id="175" space=" ">provides</W>
-<W cur="1015" id="176" space=" ">a</W>
-<W cur="1017" id="177" space=" ">precise</W>
-<W cur="1025" id="178" space=" ">numeric</W>
-<W cur="1033" id="179" space=" ">result</W>
-<W cur="1040" id="180" space=" ">when</W>
-<W cur="1045" id="181" space=" ">it</W>
-<W cur="1048" id="182" space=" ">identifies</W>
-<W cur="1059" id="183" space=" ">a</W>
-<W cur="1061" id="184" space=" ">flavor</W>
-<W cur="1068" id="185" space=" ">that</W>
-<W cur="1073" id="186" space=" ">is</W>
-<W cur="1076" id="187" space=" ">equivalent</W>
-<W cur="1087" id="188" space=" ">to</W>
-<W cur="1090" id="189" space=" ">another</W>
-<W cur="1098" id="190" space=" ">one</W>
-<W cur="1102" id="191" space=" ">previously</W>
-<W cur="1113" id="192" space=" ">recorded</W>
-<W cur="1121" id="193">,</W>
-<W cur="1123" id="194" space=" ">even</W>
-<W cur="1128" id="195" space=" ">when</W>
-<W cur="1133" id="196" space=" ">there</W>
-<W cur="1139" id="197" space=" ">is</W>
-<W cur="1142" id="198" space=" ">a</W>
-<W cur="1144" id="199" space=" ">mixture</W>
-<W cur="1152" id="200" space=" ">or</W>
-<W cur="1155" id="201" space=" ">combination</W>
-<W cur="1167" id="202" space=" ">of</W>
-<W cur="1170" id="203" space=" ">flavors</W>
-<W cur="1177" id="204">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="en" lemmatizer="nltk-wordnet-lemmatizer" sent_segmenter="nltk_sent_tokenizer" tagger="nltk-pos-tagger">
+ <W cur="0" id="1" lemma="Identifying" pos="VBG">Identifying</W>
+ <W cur="12" id="2" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="14" id="3" lemma="good" pos="JJ" space=" ">good</W>
+ <W cur="19" id="4" lemma="coffee" pos="NN" space=" ">coffee</W>
+ <W cur="26" id="5" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="29" id="6" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="31" id="7" lemma="relatively" pos="RB" space=" ">relatively</W>
+ <W cur="42" id="8" lemma="simple" pos="JJ" space=" ">simple</W>
+ <W cur="49" id="9" lemma="task" pos="NN" space=" ">task</W>
+ <W cur="54" id="10" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="57" id="11" lemma="taster" pos="NNS" space=" ">tasters</W>
+ <W cur="64" id="12" lemma="," pos=",">,</W>
+ <W cur="66" id="13" lemma="but" pos="CC" space=" ">but</W>
+ <W cur="70" id="14" lemma="give" pos="VBG" space=" ">giving</W>
+ <W cur="77" id="15" lemma="an" pos="DT" space=" ">an</W>
+ <W cur="80" id="16" lemma="exact" pos="JJ" space=" ">exact</W>
+ <W cur="86" id="17" lemma="grade" pos="NN" space=" ">grade</W>
+ <W cur="92" id="18" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="95" id="19" lemma="each" pos="DT" space=" ">each</W>
+ <W cur="100" id="20" lemma="sample" pos="NN" space=" ">sample</W>
+ <W cur="107" id="21" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="110" id="22" lemma="different" pos="JJ" space=" ">different</W>
+ <W boundary="sentence" cur="119" id="23" lemma="." pos=".">.</W>
+ <W cur="121" id="24" lemma="The" pos="DT" space=" ">The</W>
+ <W cur="125" id="25" lemma="taster" pos="NN" space=" ">taster</W>
+ <W cur="132" id="26" lemma="enjoy" pos="VBZ" space=" ">enjoys</W>
+ <W cur="139" id="27" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="143" id="28" lemma="coffee" pos="NN" space=" ">coffee</W>
+ <W cur="150" id="29" lemma="base" pos="VBN" space=" ">based</W>
+ <W cur="156" id="30" lemma="on" pos="IN" space=" ">on</W>
+ <W cur="159" id="31" lemma="skill" pos="NNS" space=" ">skills</W>
+ <W cur="166" id="32" lemma="acquire" pos="VBN" space=" ">acquired</W>
+ <W cur="175" id="33" lemma="with" pos="IN" space=" ">with</W>
+ <W cur="180" id="34" lemma="experience" pos="NN" space=" ">experience</W>
+ <W boundary="sentence" cur="190" id="35" lemma="." pos=".">.</W>
+ <W cur="192" id="36" lemma="However" pos="RB" space=" ">However</W>
+ <W cur="199" id="37" lemma="," pos=",">,</W>
+ <W cur="201" id="38" lemma="their" pos="PRP$" space=" ">their</W>
+ <W cur="207" id="39" lemma="verdict" pos="NNS" space=" ">verdicts</W>
+ <W cur="216" id="40" lemma="be" pos="VBP" space=" ">are</W>
+ <W cur="220" id="41" lemma="far" pos="RB" space=" ">far</W>
+ <W cur="224" id="42" lemma="from" pos="IN" space=" ">from</W>
+ <W cur="229" id="43" lemma="precise" pos="JJ" space=" ">precise</W>
+ <W cur="236" id="44" lemma="," pos=",">,</W>
+ <W cur="238" id="45" lemma="which" pos="WDT" space=" ">which</W>
+ <W cur="244" id="46" lemma="make" pos="VBZ" space=" ">makes</W>
+ <W cur="250" id="47" lemma="it" pos="PRP" space=" ">it</W>
+ <W cur="253" id="48" lemma="difficult" pos="VBD" space=" ">difficult</W>
+ <W cur="263" id="49" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="266" id="50" lemma="evaluate" pos="VB" space=" ">evaluate</W>
+ <W cur="275" id="51" lemma="coffee" pos="NN" space=" ">coffee</W>
+ <W cur="282" id="52" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="285" id="53" lemma="larger" pos="JJR" space=" ">larger</W>
+ <W cur="292" id="54" lemma="scale" pos="NN" space=" ">scale</W>
+ <W boundary="sentence" cur="297" id="55" lemma="." pos=".">.</W>
+ <W cur="299" id="56" lemma="A" pos="DT" space=" ">A</W>
+ <W cur="301" id="57" lemma="report" pos="NN" space=" ">report</W>
+ <W cur="308" id="58" lemma="publish" pos="VBD" space=" ">published</W>
+ <W cur="318" id="59" lemma="on" pos="IN" space=" ">on</W>
+ <W cur="321" id="60" lemma="Fapesp" pos="NNP" space=" ">Fapesp</W>
+ <W cur="328" id="61" lemma="online" pos="NN" space=" ">online</W>
+ <W cur="334" id="62" lemma="," pos=",">,</W>
+ <W cur="336" id="63" lemma="however" pos="RB" space=" ">however</W>
+ <W cur="343" id="64" lemma="," pos=",">,</W>
+ <W cur="345" id="65" lemma="present" pos="NNS" space=" ">presents</W>
+ <W cur="354" id="66" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="356" id="67" lemma="promise" pos="VBG" space=" ">promising</W>
+ <W cur="366" id="68" lemma="product" pos="NN" space=" ">product</W>
+ <W cur="374" id="69" lemma="develop" pos="VBD" space=" ">developed</W>
+ <W cur="384" id="70" lemma="by" pos="IN" space=" ">by</W>
+ <W cur="387" id="71" lemma="Brazilian" pos="JJ" space=" ">Brazilian</W>
+ <W cur="397" id="72" lemma="researcher" pos="NNS" space=" ">researchers</W>
+ <W cur="408" id="73" lemma=":" pos=":">:</W>
+ <W cur="410" id="74" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="414" id="75" lemma="&quot;" pos="NN">"</W>
+ <W cur="415" id="76" lemma="electronic" pos="JJ">electronic</W>
+ <W cur="426" id="77" lemma="tongue" pos="NN" space=" ">tongue</W>
+ <W cur="432" id="78" lemma="&quot;" pos=":">"</W>
+ <W cur="433" id="79" lemma="," pos=",">,</W>
+ <W cur="435" id="80" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="437" id="81" lemma="device" pos="NN" space=" ">device</W>
+ <W cur="444" id="82" lemma="that" pos="WDT" space=" ">that</W>
+ <W cur="449" id="83" lemma="can" pos="MD" space=" ">can</W>
+ <W cur="453" id="84" lemma="evaluate" pos="VB" space=" ">evaluate</W>
+ <W cur="462" id="85" lemma="flavor" pos="NNS" space=" ">flavors</W>
+ <W cur="470" id="86" lemma="much" pos="RB" space=" ">much</W>
+ <W cur="475" id="87" lemma="more" pos="RBR" space=" ">more</W>
+ <W cur="480" id="88" lemma="precisely" pos="RB" space=" ">precisely</W>
+ <W cur="490" id="89" lemma="than" pos="IN" space=" ">than</W>
+ <W cur="495" id="90" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="499" id="91" lemma="human" pos="JJ" space=" ">human</W>
+ <W cur="505" id="92" lemma="tongue" pos="NN" space=" ">tongue</W>
+ <W boundary="sentence" cur="511" id="93" lemma="." pos=".">.</W>
+ <W cur="513" id="94" lemma="Parts" pos="NNS" space="&#xA;">Parts</W>
+ <W cur="519" id="95" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="522" id="96" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="526" id="97" lemma="human" pos="JJ" space=" ">human</W>
+ <W cur="532" id="98" lemma="tongue" pos="NN" space=" ">tongue</W>
+ <W cur="539" id="99" lemma="surface" pos="NN" space=" ">surface</W>
+ <W cur="547" id="100" lemma="be" pos="VBP" space=" ">are</W>
+ <W cur="551" id="101" lemma="sensory" pos="JJ" space=" ">sensory</W>
+ <W cur="559" id="102" lemma="receptor" pos="NNS" space=" ">receptors</W>
+ <W cur="569" id="103" lemma="call" pos="VBN" space=" ">called</W>
+ <W cur="576" id="104" lemma="taste" pos="NN" space=" ">taste</W>
+ <W cur="582" id="105" lemma="bud" pos="NNS" space=" ">buds</W>
+ <W cur="586" id="106" lemma="," pos=",">,</W>
+ <W cur="588" id="107" lemma="which" pos="WDT" space=" ">which</W>
+ <W cur="594" id="108" lemma="identify" pos="NN" space=" ">identify</W>
+ <W cur="603" id="109" lemma="taste" pos="VBZ" space=" ">tastes</W>
+ <W boundary="sentence" cur="609" id="110" lemma="." pos=".">.</W>
+ <W cur="611" id="111" lemma="Scientists" pos="NNS" space=" ">Scientists</W>
+ <W cur="622" id="112" lemma="from" pos="IN" space=" ">from</W>
+ <W cur="627" id="113" lemma="Emprapa" pos="NNP" space=" ">Emprapa</W>
+ <W cur="635" id="114" lemma="have" pos="VBP" space=" ">have</W>
+ <W cur="640" id="115" lemma="project" pos="VBN" space=" ">projected</W>
+ <W cur="650" id="116" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="652" id="117" lemma="taste" pos="NN" space=" ">taste</W>
+ <W cur="658" id="118" lemma="sensor" pos="NN" space=" ">sensor</W>
+ <W cur="665" id="119" lemma="capable" pos="JJ" space=" ">capable</W>
+ <W cur="673" id="120" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="676" id="121" lemma="evaluating" pos="NN" space=" ">evaluating</W>
+ <W cur="687" id="122" lemma="nuance" pos="NNS" space=" ">nuances</W>
+ <W cur="695" id="123" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="698" id="124" lemma="flavor" pos="NN" space=" ">flavor</W>
+ <W cur="705" id="125" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="709" id="126" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="713" id="127" lemma="presence" pos="NN" space=" ">presence</W>
+ <W cur="722" id="128" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="725" id="129" lemma="impurity" pos="NNS" space=" ">impurities</W>
+ <W cur="736" id="130" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="739" id="131" lemma="beverage" pos="NNS" space=" ">beverages</W>
+ <W cur="749" id="132" lemma="with" pos="IN" space=" ">with</W>
+ <W cur="754" id="133" lemma="more" pos="JJR" space=" ">more</W>
+ <W cur="759" id="134" lemma="precision" pos="NN" space=" ">precision</W>
+ <W cur="769" id="135" lemma="than" pos="IN" space=" ">than</W>
+ <W cur="774" id="136" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="778" id="137" lemma="human" pos="JJ" space=" ">human</W>
+ <W cur="784" id="138" lemma="taste" pos="NN" space=" ">taste</W>
+ <W cur="790" id="139" lemma="bud" pos="NNS" space=" ">buds</W>
+ <W boundary="sentence" cur="794" id="140" lemma="." pos=".">.</W>
+ <W cur="796" id="141" lemma="The" pos="DT" space=" ">The</W>
+ <W cur="800" id="142" lemma="research" pos="NNS" space=" ">researches</W>
+ <W cur="811" id="143" lemma="model" pos="VBD" space=" ">modeled</W>
+ <W cur="819" id="144" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="823" id="145" lemma="tasting" pos="NN" space=" ">tasting</W>
+ <W cur="831" id="146" lemma="sense" pos="NN" space=" ">sense</W>
+ <W cur="837" id="147" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="841" id="148" lemma="use" pos="VBD" space=" ">used</W>
+ <W cur="846" id="149" lemma="microelectrodes" pos="NNS" space=" ">microelectrodes</W>
+ <W cur="862" id="150" lemma="coat" pos="VBN" space=" ">coated</W>
+ <W cur="869" id="151" lemma="with" pos="IN" space=" ">with</W>
+ <W cur="874" id="152" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="876" id="153" lemma="thin" pos="JJ" space=" ">thin</W>
+ <W cur="881" id="154" lemma="layer" pos="NN" space=" ">layer</W>
+ <W cur="887" id="155" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="890" id="156" lemma="conductive" pos="JJ" space=" ">conductive</W>
+ <W cur="901" id="157" lemma="polymer" pos="NNS" space=" ">polymers</W>
+ <W cur="910" id="158" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="913" id="159" lemma="obtain" pos="VB" space=" ">obtain</W>
+ <W cur="920" id="160" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="922" id="161" lemma="specific" pos="JJ" space=" ">specific</W>
+ <W cur="931" id="162" lemma="electric" pos="JJ" space=" ">electric</W>
+ <W cur="940" id="163" lemma="response" pos="NN" space=" ">response</W>
+ <W cur="949" id="164" lemma="for" pos="IN" space=" ">for</W>
+ <W cur="953" id="165" lemma="each" pos="DT" space=" ">each</W>
+ <W cur="958" id="166" lemma="substance" pos="NN" space=" ">substance</W>
+ <W boundary="sentence" cur="967" id="167" lemma="." pos=".">.</W>
+ <W cur="969" id="168" lemma="Unlike" pos="IN" space=" ">Unlike</W>
+ <W cur="976" id="169" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="980" id="170" lemma="taster" pos="NN" space=" ">taster</W>
+ <W cur="986" id="171" lemma="," pos=",">,</W>
+ <W cur="988" id="172" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="992" id="173" lemma="device" pos="NN" space=" ">device</W>
+ <W cur="999" id="174" lemma="always" pos="RB" space=" ">always</W>
+ <W cur="1006" id="175" lemma="provide" pos="VBZ" space=" ">provides</W>
+ <W cur="1015" id="176" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="1017" id="177" lemma="precise" pos="NN" space=" ">precise</W>
+ <W cur="1025" id="178" lemma="numeric" pos="JJ" space=" ">numeric</W>
+ <W cur="1033" id="179" lemma="result" pos="NN" space=" ">result</W>
+ <W cur="1040" id="180" lemma="when" pos="WRB" space=" ">when</W>
+ <W cur="1045" id="181" lemma="it" pos="PRP" space=" ">it</W>
+ <W cur="1048" id="182" lemma="identify" pos="VBZ" space=" ">identifies</W>
+ <W cur="1059" id="183" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="1061" id="184" lemma="flavor" pos="NN" space=" ">flavor</W>
+ <W cur="1068" id="185" lemma="that" pos="WDT" space=" ">that</W>
+ <W cur="1073" id="186" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="1076" id="187" lemma="equivalent" pos="NN" space=" ">equivalent</W>
+ <W cur="1087" id="188" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="1090" id="189" lemma="another" pos="DT" space=" ">another</W>
+ <W cur="1098" id="190" lemma="one" pos="CD" space=" ">one</W>
+ <W cur="1102" id="191" lemma="previously" pos="RB" space=" ">previously</W>
+ <W cur="1113" id="192" lemma="record" pos="VBD" space=" ">recorded</W>
+ <W cur="1121" id="193" lemma="," pos=",">,</W>
+ <W cur="1123" id="194" lemma="even" pos="RB" space=" ">even</W>
+ <W cur="1128" id="195" lemma="when" pos="WRB" space=" ">when</W>
+ <W cur="1133" id="196" lemma="there" pos="EX" space=" ">there</W>
+ <W cur="1139" id="197" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="1142" id="198" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="1144" id="199" lemma="mixture" pos="NN" space=" ">mixture</W>
+ <W cur="1152" id="200" lemma="or" pos="CC" space=" ">or</W>
+ <W cur="1155" id="201" lemma="combination" pos="NN" space=" ">combination</W>
+ <W cur="1167" id="202" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="1170" id="203" lemma="flavor" pos="NNS" space=" ">flavors</W>
+ <W boundary="sentence" cur="1177" id="204" lemma="." pos=".">.</W>
 </Text>

@@ -1,168 +1,169 @@
-<Text language="en" >
-<W cur="0" id="1">Say</W>
-<W cur="4" id="2" space=" ">you</W>
-<W cur="8" id="3" space=" ">go</W>
-<W cur="11" id="4" space=" ">to</W>
-<W cur="14" id="5" space=" ">a</W>
-<W cur="16" id="6" space=" ">bank</W>
-<W cur="21" id="7" space=" ">to</W>
-<W cur="24" id="8" space=" ">get</W>
-<W cur="28" id="9" space=" ">a</W>
-<W cur="30" id="10" space=" ">loan</W>
-<W cur="34" id="11">.</W>
-<W cur="36" id="12" space=" ">The</W>
-<W cur="40" id="13" space=" ">bank</W>
-<W cur="45" id="14" space=" ">lends</W>
-<W cur="51" id="15" space=" ">you</W>
-<W cur="55" id="16" space=" ">money</W>
-<W cur="60" id="17">.</W>
-<W cur="62" id="18" space=" ">Then</W>
-<W cur="67" id="19" space=" ">it</W>
-<W cur="70" id="20" space=" ">packages</W>
-<W cur="79" id="21" space=" ">your</W>
-<W cur="84" id="22" space=" ">loan</W>
-<W cur="89" id="23" space=" ">with</W>
-<W cur="94" id="24" space=" ">a</W>
-<W cur="96" id="25" space=" ">bunch</W>
-<W cur="102" id="26" space=" ">of</W>
-<W cur="105" id="27" space=" ">others</W>
-<W cur="112" id="28" space=" ">into</W>
-<W cur="117" id="29" space=" ">a</W>
-<W cur="119" id="30" space=" ">bond</W>
-<W cur="123" id="31">.</W>
-<W cur="125" id="32" space=" ">Investors</W>
-<W cur="135" id="33" space=" ">buy</W>
-<W cur="139" id="34" space=" ">the</W>
-<W cur="143" id="35" space=" ">bond</W>
-<W cur="148" id="36" space=" ">because</W>
-<W cur="156" id="37" space=" ">they</W>
-<W cur="161" id="38" space=" ">like</W>
-<W cur="166" id="39" space=" ">the</W>
-<W cur="170" id="40" space=" ">steady</W>
-<W cur="177" id="41" space=" ">stream</W>
-<W cur="184" id="42" space=" ">of</W>
-<W cur="187" id="43" space=" ">cash</W>
-<W cur="192" id="44" space=" ">that</W>
-<W cur="197" id="45" space=" ">comes</W>
-<W cur="203" id="46" space=" ">from</W>
-<W cur="208" id="47" space=" ">people</W>
-<W cur="215" id="48" space=" ">slowly</W>
-<W cur="222" id="49" space=" ">paying</W>
-<W cur="229" id="50" space=" ">off</W>
-<W cur="233" id="51" space=" ">their</W>
-<W cur="239" id="52" space=" ">debt</W>
-<W cur="243" id="53">.</W>
-<W cur="245" id="54" space=" ">This</W>
-<W cur="250" id="55" space=" ">goes</W>
-<W cur="255" id="56" space=" ">on</W>
-<W cur="258" id="57" space=" ">for</W>
-<W cur="262" id="58" space=" ">a</W>
-<W cur="264" id="59" space=" ">long</W>
-<W cur="269" id="60" space=" ">while</W>
-<W cur="274" id="61">.</W>
-<W cur="276" id="62" space=" ">Then</W>
-<W cur="281" id="63" space=" ">one</W>
-<W cur="285" id="64" space=" ">day</W>
-<W cur="288" id="65">,</W>
-<W cur="290" id="66" space=" ">you</W>
-<W cur="294" id="67" space=" ">need</W>
-<W cur="299" id="68" space=" ">another</W>
-<W cur="307" id="69" space=" ">loan</W>
-<W cur="311" id="70">.</W>
-<W cur="313" id="71" space=" ">But</W>
-<W cur="317" id="72" space=" ">this</W>
-<W cur="322" id="73" space=" ">time</W>
-<W cur="326" id="74">,</W>
-<W cur="328" id="75" space=" ">there</W>
-<W cur="334" id="76" space=" ">is</W>
-<W cur="337" id="77" space=" ">no</W>
-<W cur="340" id="78" space=" ">money</W>
-<W cur="346" id="79" space=" ">to</W>
-<W cur="349" id="80" space=" ">lend</W>
-<W cur="354" id="81" space=" ">because</W>
-<W cur="362" id="82" space=" ">the</W>
-<W cur="366" id="83" space=" ">global</W>
-<W cur="373" id="84" space=" ">financial</W>
-<W cur="383" id="85" space=" ">system</W>
-<W cur="390" id="86" space=" ">has</W>
-<W cur="394" id="87" space=" ">turned</W>
-<W cur="401" id="88" space=" ">upside</W>
-<W cur="408" id="89" space=" ">down</W>
-<W cur="412" id="90">,</W>
-<W cur="414" id="91" space=" ">and</W>
-<W cur="418" id="92" space=" ">the</W>
-<W cur="422" id="93" space=" ">market</W>
-<W cur="429" id="94" space=" ">for</W>
-<W cur="433" id="95" space=" ">securitization</W>
-<W cur="448" id="96">-</W>
-<W cur="450" id="97" space=" ">the</W>
-<W cur="454" id="98" space=" ">process</W>
-<W cur="462" id="99" space=" ">of</W>
-<W cur="465" id="100" space=" ">packaging</W>
-<W cur="475" id="101" space=" ">loans</W>
-<W cur="481" id="102" space=" ">into</W>
-<W cur="486" id="103" space=" ">bonds</W>
-<W cur="492" id="104" space=" ">and</W>
-<W cur="496" id="105" space=" ">freeing</W>
-<W cur="504" id="106" space=" ">up</W>
-<W cur="507" id="107" space=" ">cash</W>
-<W cur="512" id="108" space=" ">for</W>
-<W cur="516" id="109" space=" ">more</W>
-<W cur="521" id="110" space=" ">lending</W>
-<W cur="529" id="111">-</W>
-<W cur="531" id="112" space=" ">has</W>
-<W cur="535" id="113" space=" ">fallen</W>
-<W cur="542" id="114" space=" ">off</W>
-<W cur="546" id="115" space=" ">a</W>
-<W cur="548" id="116" space=" ">cliff</W>
-<W cur="553" id="117">.</W>
-<W cur="555" id="118" space=" ">We</W>
-<W cur="557" id="119">'re</W>
-<W cur="561" id="120" space=" ">now</W>
-<W cur="565" id="121" space=" ">suffering</W>
-<W cur="575" id="122" space=" ">a</W>
-<W cur="577" id="123" space=" ">financial</W>
-<W cur="587" id="124" space=" ">Chernobyl</W>
-<W cur="596" id="125">,</W>
-<W cur="598" id="126" space=" ">and</W>
-<W cur="602" id="127" space=" ">securitization</W>
-<W cur="617" id="128" space=" ">is</W>
-<W cur="620" id="129" space=" ">radioactive</W>
-<W cur="631" id="130">.</W>
-<W cur="633" id="131" space=" ">It</W>
-<W cur="636" id="132" space=" ">enabled</W>
-<W cur="644" id="133" space=" ">us</W>
-<W cur="647" id="134" space=" ">to</W>
-<W cur="650" id="135" space=" ">gorge</W>
-<W cur="656" id="136" space=" ">on</W>
-<W cur="659" id="137" space=" ">money</W>
-<W cur="664" id="138">,</W>
-<W cur="666" id="139" space=" ">which</W>
-<W cur="672" id="140" space=" ">is</W>
-<W cur="675" id="141" space=" ">what</W>
-<W cur="680" id="142" space=" ">got</W>
-<W cur="684" id="143" space=" ">us</W>
-<W cur="687" id="144" space=" ">into</W>
-<W cur="692" id="145" space=" ">this</W>
-<W cur="697" id="146" space=" ">mess</W>
-<W cur="701" id="147">.</W>
-<W cur="703" id="148" space=" ">The</W>
-<W cur="707" id="149" space=" ">task</W>
-<W cur="712" id="150" space=" ">now</W>
-<W cur="716" id="151" space=" ">is</W>
-<W cur="719" id="152" space=" ">to</W>
-<W cur="722" id="153" space=" ">find</W>
-<W cur="727" id="154" space=" ">the</W>
-<W cur="731" id="155" space=" ">proper</W>
-<W cur="738" id="156" space=" ">role</W>
-<W cur="743" id="157" space=" ">for</W>
-<W cur="747" id="158" space=" ">securitization</W>
-<W cur="762" id="159" space=" ">so</W>
-<W cur="765" id="160" space=" ">that</W>
-<W cur="770" id="161" space=" ">it</W>
-<W cur="773" id="162" space=" ">doesn</W>
-<W cur="778" id="163">'t</W>
-<W cur="781" id="164" space=" ">detonate</W>
-<W cur="790" id="165" space=" ">again</W>
-<W cur="795" id="166">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="en" lemmatizer="nltk-wordnet-lemmatizer" sent_segmenter="nltk_sent_tokenizer" tagger="nltk-pos-tagger">
+ <W cur="0" id="1" lemma="Say" pos="NNP">Say</W>
+ <W cur="4" id="2" lemma="you" pos="PRP" space=" ">you</W>
+ <W cur="8" id="3" lemma="go" pos="VBP" space=" ">go</W>
+ <W cur="11" id="4" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="14" id="5" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="16" id="6" lemma="bank" pos="NN" space=" ">bank</W>
+ <W cur="21" id="7" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="24" id="8" lemma="get" pos="VB" space=" ">get</W>
+ <W cur="28" id="9" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="30" id="10" lemma="loan" pos="NN" space=" ">loan</W>
+ <W boundary="sentence" cur="34" id="11" lemma="." pos=".">.</W>
+ <W cur="36" id="12" lemma="The" pos="DT" space=" ">The</W>
+ <W cur="40" id="13" lemma="bank" pos="NN" space=" ">bank</W>
+ <W cur="45" id="14" lemma="lends" pos="NNS" space=" ">lends</W>
+ <W cur="51" id="15" lemma="you" pos="PRP" space=" ">you</W>
+ <W cur="55" id="16" lemma="money" pos="NN" space=" ">money</W>
+ <W boundary="sentence" cur="60" id="17" lemma="." pos=".">.</W>
+ <W cur="62" id="18" lemma="Then" pos="RB" space=" ">Then</W>
+ <W cur="67" id="19" lemma="it" pos="PRP" space=" ">it</W>
+ <W cur="70" id="20" lemma="package" pos="VBZ" space=" ">packages</W>
+ <W cur="79" id="21" lemma="your" pos="PRP$" space=" ">your</W>
+ <W cur="84" id="22" lemma="loan" pos="NN" space=" ">loan</W>
+ <W cur="89" id="23" lemma="with" pos="IN" space=" ">with</W>
+ <W cur="94" id="24" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="96" id="25" lemma="bunch" pos="NN" space=" ">bunch</W>
+ <W cur="102" id="26" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="105" id="27" lemma="others" pos="NNS" space=" ">others</W>
+ <W cur="112" id="28" lemma="into" pos="IN" space=" ">into</W>
+ <W cur="117" id="29" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="119" id="30" lemma="bond" pos="NN" space=" ">bond</W>
+ <W boundary="sentence" cur="123" id="31" lemma="." pos=".">.</W>
+ <W cur="125" id="32" lemma="Investors" pos="NNS" space=" ">Investors</W>
+ <W cur="135" id="33" lemma="buy" pos="VBP" space=" ">buy</W>
+ <W cur="139" id="34" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="143" id="35" lemma="bond" pos="NN" space=" ">bond</W>
+ <W cur="148" id="36" lemma="because" pos="IN" space=" ">because</W>
+ <W cur="156" id="37" lemma="they" pos="PRP" space=" ">they</W>
+ <W cur="161" id="38" lemma="like" pos="VBP" space=" ">like</W>
+ <W cur="166" id="39" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="170" id="40" lemma="steady" pos="JJ" space=" ">steady</W>
+ <W cur="177" id="41" lemma="stream" pos="NN" space=" ">stream</W>
+ <W cur="184" id="42" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="187" id="43" lemma="cash" pos="NN" space=" ">cash</W>
+ <W cur="192" id="44" lemma="that" pos="WDT" space=" ">that</W>
+ <W cur="197" id="45" lemma="come" pos="VBZ" space=" ">comes</W>
+ <W cur="203" id="46" lemma="from" pos="IN" space=" ">from</W>
+ <W cur="208" id="47" lemma="people" pos="NNS" space=" ">people</W>
+ <W cur="215" id="48" lemma="slowly" pos="RB" space=" ">slowly</W>
+ <W cur="222" id="49" lemma="pay" pos="VBG" space=" ">paying</W>
+ <W cur="229" id="50" lemma="off" pos="IN" space=" ">off</W>
+ <W cur="233" id="51" lemma="their" pos="PRP$" space=" ">their</W>
+ <W cur="239" id="52" lemma="debt" pos="NN" space=" ">debt</W>
+ <W boundary="sentence" cur="243" id="53" lemma="." pos=".">.</W>
+ <W cur="245" id="54" lemma="This" pos="DT" space=" ">This</W>
+ <W cur="250" id="55" lemma="go" pos="VBZ" space=" ">goes</W>
+ <W cur="255" id="56" lemma="on" pos="IN" space=" ">on</W>
+ <W cur="258" id="57" lemma="for" pos="IN" space=" ">for</W>
+ <W cur="262" id="58" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="264" id="59" lemma="long" pos="JJ" space=" ">long</W>
+ <W cur="269" id="60" lemma="while" pos="NN" space=" ">while</W>
+ <W boundary="sentence" cur="274" id="61" lemma="." pos=".">.</W>
+ <W cur="276" id="62" lemma="Then" pos="RB" space=" ">Then</W>
+ <W cur="281" id="63" lemma="one" pos="CD" space=" ">one</W>
+ <W cur="285" id="64" lemma="day" pos="NN" space=" ">day</W>
+ <W cur="288" id="65" lemma="," pos=",">,</W>
+ <W cur="290" id="66" lemma="you" pos="PRP" space=" ">you</W>
+ <W cur="294" id="67" lemma="need" pos="VBP" space=" ">need</W>
+ <W cur="299" id="68" lemma="another" pos="DT" space=" ">another</W>
+ <W cur="307" id="69" lemma="loan" pos="NN" space=" ">loan</W>
+ <W boundary="sentence" cur="311" id="70" lemma="." pos=".">.</W>
+ <W cur="313" id="71" lemma="But" pos="CC" space=" ">But</W>
+ <W cur="317" id="72" lemma="this" pos="DT" space=" ">this</W>
+ <W cur="322" id="73" lemma="time" pos="NN" space=" ">time</W>
+ <W cur="326" id="74" lemma="," pos=",">,</W>
+ <W cur="328" id="75" lemma="there" pos="EX" space=" ">there</W>
+ <W cur="334" id="76" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="337" id="77" lemma="no" pos="DT" space=" ">no</W>
+ <W cur="340" id="78" lemma="money" pos="NN" space=" ">money</W>
+ <W cur="346" id="79" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="349" id="80" lemma="lend" pos="VB" space=" ">lend</W>
+ <W cur="354" id="81" lemma="because" pos="IN" space=" ">because</W>
+ <W cur="362" id="82" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="366" id="83" lemma="global" pos="JJ" space=" ">global</W>
+ <W cur="373" id="84" lemma="financial" pos="JJ" space=" ">financial</W>
+ <W cur="383" id="85" lemma="system" pos="NN" space=" ">system</W>
+ <W cur="390" id="86" lemma="have" pos="VBZ" space=" ">has</W>
+ <W cur="394" id="87" lemma="turn" pos="VBN" space=" ">turned</W>
+ <W cur="401" id="88" lemma="upside" pos="RB" space=" ">upside</W>
+ <W cur="408" id="89" lemma="down" pos="IN" space=" ">down</W>
+ <W cur="412" id="90" lemma="," pos=",">,</W>
+ <W cur="414" id="91" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="418" id="92" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="422" id="93" lemma="market" pos="NN" space=" ">market</W>
+ <W cur="429" id="94" lemma="for" pos="IN" space=" ">for</W>
+ <W cur="433" id="95" lemma="securitization" pos="NN" space=" ">securitization</W>
+ <W cur="448" id="96" lemma="-" pos=":">-</W>
+ <W cur="450" id="97" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="454" id="98" lemma="process" pos="NN" space=" ">process</W>
+ <W cur="462" id="99" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="465" id="100" lemma="packaging" pos="NN" space=" ">packaging</W>
+ <W cur="475" id="101" lemma="loan" pos="NNS" space=" ">loans</W>
+ <W cur="481" id="102" lemma="into" pos="IN" space=" ">into</W>
+ <W cur="486" id="103" lemma="bond" pos="NNS" space=" ">bonds</W>
+ <W cur="492" id="104" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="496" id="105" lemma="free" pos="VBG" space=" ">freeing</W>
+ <W cur="504" id="106" lemma="up" pos="RP" space=" ">up</W>
+ <W cur="507" id="107" lemma="cash" pos="NN" space=" ">cash</W>
+ <W cur="512" id="108" lemma="for" pos="IN" space=" ">for</W>
+ <W cur="516" id="109" lemma="more" pos="JJR" space=" ">more</W>
+ <W cur="521" id="110" lemma="lend" pos="VBG" space=" ">lending</W>
+ <W cur="529" id="111" lemma="-" pos=":">-</W>
+ <W cur="531" id="112" lemma="have" pos="VBZ" space=" ">has</W>
+ <W cur="535" id="113" lemma="fall" pos="VBN" space=" ">fallen</W>
+ <W cur="542" id="114" lemma="off" pos="RP" space=" ">off</W>
+ <W cur="546" id="115" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="548" id="116" lemma="cliff" pos="NN" space=" ">cliff</W>
+ <W boundary="sentence" cur="553" id="117" lemma="." pos=".">.</W>
+ <W cur="555" id="118" lemma="We" pos="PRP" space=" ">We</W>
+ <W cur="557" id="119" lemma="'re" pos="VBP">'re</W>
+ <W cur="561" id="120" lemma="now" pos="RB" space=" ">now</W>
+ <W cur="565" id="121" lemma="suffer" pos="VBG" space=" ">suffering</W>
+ <W cur="575" id="122" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="577" id="123" lemma="financial" pos="JJ" space=" ">financial</W>
+ <W cur="587" id="124" lemma="Chernobyl" pos="NNP" space=" ">Chernobyl</W>
+ <W cur="596" id="125" lemma="," pos=",">,</W>
+ <W cur="598" id="126" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="602" id="127" lemma="securitization" pos="NN" space=" ">securitization</W>
+ <W cur="617" id="128" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="620" id="129" lemma="radioactive" pos="JJ" space=" ">radioactive</W>
+ <W boundary="sentence" cur="631" id="130" lemma="." pos=".">.</W>
+ <W cur="633" id="131" lemma="It" pos="PRP" space=" ">It</W>
+ <W cur="636" id="132" lemma="enable" pos="VBD" space=" ">enabled</W>
+ <W cur="644" id="133" lemma="us" pos="PRP" space=" ">us</W>
+ <W cur="647" id="134" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="650" id="135" lemma="gorge" pos="VB" space=" ">gorge</W>
+ <W cur="656" id="136" lemma="on" pos="IN" space=" ">on</W>
+ <W cur="659" id="137" lemma="money" pos="NN" space=" ">money</W>
+ <W cur="664" id="138" lemma="," pos=",">,</W>
+ <W cur="666" id="139" lemma="which" pos="WDT" space=" ">which</W>
+ <W cur="672" id="140" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="675" id="141" lemma="what" pos="WP" space=" ">what</W>
+ <W cur="680" id="142" lemma="get" pos="VBN" space=" ">got</W>
+ <W cur="684" id="143" lemma="us" pos="PRP" space=" ">us</W>
+ <W cur="687" id="144" lemma="into" pos="IN" space=" ">into</W>
+ <W cur="692" id="145" lemma="this" pos="DT" space=" ">this</W>
+ <W cur="697" id="146" lemma="mess" pos="NN" space=" ">mess</W>
+ <W boundary="sentence" cur="701" id="147" lemma="." pos=".">.</W>
+ <W cur="703" id="148" lemma="The" pos="DT" space=" ">The</W>
+ <W cur="707" id="149" lemma="task" pos="NN" space=" ">task</W>
+ <W cur="712" id="150" lemma="now" pos="RB" space=" ">now</W>
+ <W cur="716" id="151" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="719" id="152" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="722" id="153" lemma="find" pos="VB" space=" ">find</W>
+ <W cur="727" id="154" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="731" id="155" lemma="proper" pos="NN" space=" ">proper</W>
+ <W cur="738" id="156" lemma="role" pos="NN" space=" ">role</W>
+ <W cur="743" id="157" lemma="for" pos="IN" space=" ">for</W>
+ <W cur="747" id="158" lemma="securitization" pos="NN" space=" ">securitization</W>
+ <W cur="762" id="159" lemma="so" pos="RB" space=" ">so</W>
+ <W cur="765" id="160" lemma="that" pos="IN" space=" ">that</W>
+ <W cur="770" id="161" lemma="it" pos="PRP" space=" ">it</W>
+ <W cur="773" id="162" lemma="doesn" pos="VBP" space=" ">doesn</W>
+ <W cur="778" id="163" lemma="'t" pos="JJ">'t</W>
+ <W cur="781" id="164" lemma="detonate" pos="NN" space=" ">detonate</W>
+ <W cur="790" id="165" lemma="again" pos="RB" space=" ">again</W>
+ <W boundary="sentence" cur="795" id="166" lemma="." pos=".">.</W>
 </Text>

@@ -1,167 +1,168 @@
-<Text language="pt" >
-<W id="1" cur="0" x="3" y="383" w="141" h="34">Enfermeiro</W>
-<W id="2" cur="11" space=" " x="142" y="383" w="131" h="34">assassino</W>
-<W id="3" cur="21" space=" " x="271" y="383" w="92" h="34">recebe</W>
-<W id="4" cur="28" space=" " x="361" y="383" w="86" h="34">quatro</W>
-<W id="5" cur="35" space=" " x="445" y="383" w="83" h="34">penas</W>
-<W id="6" cur="41" space=" " x="526" y="383" w="39" h="34">de</W>
-<W id="7" cur="44" space=" " x="563" y="383" w="83" h="34">prisão</W>
-<W id="8" cur="51" space=" " x="644" y="383" w="116" h="34">perpétua</W>
-<W id="9" cur="60" space="&#xA;" x="3" y="427" w="31" h="34">O</W>
-<W id="10" cur="62" space=" " x="31" y="427" w="138" h="34">enfermeiro</W>
-<W id="11" cur="73" space=" " x="167" y="427" w="71" h="34">Colin</W>
-<W id="12" cur="79" space=" " x="236" y="427" w="82" h="34">Norris</W>
-<W id="13" cur="86" space=" " x="316" y="427" w="38" h="34">foi</W>
-<W id="14" cur="90" space=" " x="352" y="427" w="77" h="34">preso</W>
-<W id="15" cur="96" space=" " x="427" y="427" w="48" h="34">por</W>
-<W id="16" cur="100" space=" " x="473" y="427" w="59" h="34">vida</W>
-<W id="17" cur="105" space=" " x="530" y="427" w="60" h="34">hoje</W>
-<W id="18" cur="110" space=" " x="588" y="427" w="60" h="34">pela</W>
-<W id="19" cur="115" space=" " x="646" y="427" w="78" h="34">morte</W>
-<W id="20" cur="121" space=" " x="722" y="427" w="39" h="34">de</W>
-<W id="21" cur="124" space=" " x="759" y="427" w="86" h="34">quatro</W>
-<W id="22" cur="131" space=" " x="843" y="427" w="39" h="34">de</W>
-<W id="23" cur="134" space=" " x="880" y="427" w="67" h="34">seus</W>
-<W id="24" cur="139" space=" " x="945" y="427" w="126" h="34">pacientes</W>
-<W id="25" cur="148" x="1062" y="427" w="16" h="34">.</W>
-<W id="26" cur="150" space=" " x="1077" y="427" w="82" h="34">Norris</W>
-<W id="27" cur="156" x="1150" y="427" w="16" h="34">,</W>
-<W id="28" cur="158" space=" " x="1165" y="427" w="39" h="34">de</W>
-<W id="29" cur="161" space=" " x="3" y="458" w="39" h="34">32</W>
-<W id="30" cur="164" space=" " x="40" y="458" w="68" h="34">anos</W>
-<W id="31" cur="169" space=" " x="106" y="458" w="24" h="34">e</W>
-<W id="32" cur="171" space=" " x="128" y="458" w="39" h="34">de</W>
-<W id="33" cur="174" space=" " x="165" y="458" w="115" h="34">Glasgow</W>
-<W id="34" cur="181" x="271" y="458" w="16" h="34">,</W>
-<W id="35" cur="183" space=" " x="286" y="458" w="84" h="34">matou</W>
-<W id="36" cur="189" space=" " x="368" y="458" w="86" h="34">quatro</W>
-<W id="37" cur="196" space=" " x="452" y="458" w="120" h="34">mulheres</W>
-<W id="38" cur="205" space=" " x="570" y="458" w="47" h="34">em</W>
-<W id="39" cur="208" space=" " x="614" y="458" w="69" h="34">2002</W>
-<W id="40" cur="213" space=" " x="681" y="458" w="143" h="34">dando-lhes</W>
-<W id="41" cur="224" space=" " x="822" y="458" w="107" h="34">grandes</W>
-<W id="42" cur="232" space=" " x="927" y="458" w="157" h="34">quantidades</W>
-<W id="43" cur="244" space=" " x="1082" y="458" w="39" h="34">de</W>
-<W id="44" cur="247" space=" " x="3" y="489" w="185" h="34">medicamentos</W>
-<W id="45" cur="260" space=" " x="186" y="489" w="63" h="34">para</W>
-<W id="46" cur="265" space=" " x="247" y="489" w="85" h="34">dormir</W>
-<W id="47" cur="271" x="323" y="489" w="16" h="34">.</W>
-<W id="48" cur="273" space=" " x="338" y="489" w="91" h="34">Ontem</W>
-<W id="49" cur="278" x="419" y="489" w="16" h="34">,</W>
-<W id="50" cur="280" space=" " x="434" y="489" w="45" h="34">ele</W>
-<W id="51" cur="284" space=" " x="477" y="489" w="38" h="34">foi</W>
-<W id="52" cur="288" space=" " x="513" y="489" w="157" h="34">considerado</W>
-<W id="53" cur="300" space=" " x="668" y="489" w="104" h="34">culpado</W>
-<W id="54" cur="308" space=" " x="770" y="489" w="39" h="34">de</W>
-<W id="55" cur="311" space=" " x="807" y="489" w="86" h="34">quatro</W>
-<W id="56" cur="318" space=" " x="891" y="489" w="140" h="34">acusações</W>
-<W id="57" cur="328" space=" " x="1029" y="489" w="39" h="34">de</W>
-<W id="58" cur="331" space=" " x="3" y="520" w="154" h="34">assassinato</W>
-<W id="59" cur="343" space=" " x="155" y="520" w="68" h="34">após</W>
-<W id="60" cur="348" space=" " x="221" y="520" w="47" h="34">um</W>
-<W id="61" cur="351" space=" " x="265" y="520" w="75" h="34">longo</W>
-<W id="62" cur="357" space=" " x="338" y="520" w="141" h="34">julgamento</W>
-<W id="63" cur="367" x="470" y="520" w="16" h="34">.</W>
-<W id="64" cur="369" space=" " x="485" y="520" w="48" h="34">Ele</W>
-<W id="65" cur="373" space=" " x="531" y="520" w="107" h="34">recebeu</W>
-<W id="66" cur="381" space=" " x="636" y="520" w="86" h="34">quatro</W>
-<W id="67" cur="388" space=" " x="720" y="520" w="83" h="34">penas</W>
-<W id="68" cur="394" space=" " x="801" y="520" w="39" h="34">de</W>
-<W id="69" cur="397" space=" " x="838" y="520" w="83" h="34">prisão</W>
-<W id="70" cur="404" space=" " x="919" y="520" w="116" h="34">perpétua</W>
-<W id="71" cur="412" x="1026" y="520" w="16" h="34">,</W>
-<W id="72" cur="414" space=" " x="1041" y="520" w="61" h="34">uma</W>
-<W id="73" cur="418" space=" " x="1100" y="520" w="63" h="34">para</W>
-<W id="74" cur="423" space=" " x="3" y="551" w="68" h="34">cada</W>
-<W id="75" cur="428" space=" " x="69" y="551" w="47" h="34">um</W>
-<W id="76" cur="431" space=" " x="113" y="551" w="53" h="34">dos</W>
-<W id="77" cur="435" space=" " x="164" y="551" w="168" h="34">assassinatos</W>
-<W id="78" cur="447" x="323" y="551" w="16" h="34">.</W>
-<W id="79" cur="449" space=" " x="338" y="551" w="48" h="34">Ele</W>
-<W id="80" cur="453" space=" " x="384" y="551" w="56" h="34">terá</W>
-<W id="81" cur="458" space=" " x="438" y="551" w="39" h="34">de</W>
-<W id="82" cur="461" space=" " x="475" y="551" w="99" h="34">cumprir</W>
-<W id="83" cur="469" space=" " x="572" y="551" w="60" h="34">pelo</W>
-<W id="84" cur="474" space=" " x="630" y="551" w="90" h="34">menos</W>
-<W id="85" cur="480" space=" " x="718" y="551" w="39" h="34">30</W>
-<W id="86" cur="483" space=" " x="755" y="551" w="68" h="34">anos</W>
-<W id="87" cur="487" x="814" y="551" w="16" h="34">.</W>
-<W id="88" cur="489" space=" " x="829" y="551" w="31" h="34">O</W>
-<W id="89" cur="491" space=" " x="857" y="551" w="92" h="34">policial</W>
-<W id="90" cur="500" space=" " x="947" y="551" w="73" h="34">Chris</W>
-<W id="91" cur="506" space=" " x="1018" y="551" w="84" h="34">Gregg</W>
-<W id="92" cur="512" space=" " x="1100" y="551" w="73" h="34">disse</W>
-<W id="93" cur="518" space=" " x="3" y="582" w="54" h="34">que</W>
-<W id="94" cur="522" space=" " x="55" y="582" w="82" h="34">Norris</W>
-<W id="95" cur="529" space=" " x="135" y="582" w="68" h="34">tinha</W>
-<W id="96" cur="535" space=" " x="201" y="582" w="75" h="34">agido</W>
-<W id="97" cur="541" space=" " x="274" y="582" w="190" h="34">estranhamente</W>
-<W id="98" cur="555" space=" " x="462" y="582" w="39" h="34">ao</W>
-<W id="99" cur="558" space=" " x="499" y="582" w="72" h="34">redor</W>
-<W id="100" cur="564" space=" " x="569" y="582" w="39" h="34">do</W>
-<W id="101" cur="567" space=" " x="606" y="582" w="103" h="34">hospital</W>
-<W id="102" cur="575" x="700" y="582" w="16" h="34">.</W>
-<W id="103" cur="577" space=" " x="715" y="582" w="101" h="34">Apenas</W>
-<W id="104" cur="584" space=" " x="814" y="582" w="24" h="34">a</W>
-<W id="105" cur="586" space=" " x="836" y="582" w="152" h="34">consciência</W>
-<W id="106" cur="598" space=" " x="986" y="582" w="39" h="34">de</W>
-<W id="107" cur="601" space=" " x="1023" y="582" w="85" h="34">outros</W>
-<W id="108" cur="608" space=" " x="3" y="613" w="156" h="34">funcionários</W>
-<W id="109" cur="621" space=" " x="157" y="613" w="39" h="34">do</W>
-<W id="110" cur="624" space=" " x="194" y="613" w="103" h="34">hospital</W>
-<W id="111" cur="633" space=" " x="295" y="613" w="48" h="34">pôr</W>
-<W id="112" cur="637" space=" " x="341" y="613" w="47" h="34">um</W>
-<W id="113" cur="640" space=" " x="385" y="613" w="46" h="34">fim</W>
-<W id="114" cur="644" space=" " x="428" y="613" w="24" h="34">a</W>
-<W id="115" cur="646" space=" " x="450" y="613" w="45" h="34">ele</W>
-<W id="116" cur="650" space=" " x="493" y="613" w="24" h="34">e</W>
-<W id="117" cur="652" space=" " x="515" y="613" w="53" h="34">aos</W>
-<W id="118" cur="656" space=" " x="566" y="613" w="168" h="34">assassinatos</W>
-<W id="119" cur="668" x="725" y="613" w="16" h="34">.</W>
-<W id="120" cur="670" space=" " x="740" y="613" w="27" h="34">A</W>
-<W id="121" cur="672" space=" " x="765" y="613" w="86" h="34">polícia</W>
-<W id="122" cur="680" space=" " x="849" y="613" w="127" h="34">descobriu</W>
-<W id="123" cur="690" space=" " x="974" y="613" w="54" h="34">que</W>
-<W id="124" cur="694" space=" " x="1026" y="613" w="24" h="34">o</W>
-<W id="125" cur="696" space=" " x="1048" y="613" w="89" h="34">motivo</W>
-<W id="126" cur="703" space=" " x="1135" y="613" w="53" h="34">dos</W>
-<W id="127" cur="707" space=" " x="3" y="644" w="168" h="34">assassinatos</W>
-<W id="128" cur="720" space=" " x="169" y="644" w="48" h="34">era</W>
-<W id="129" cur="724" space=" " x="215" y="644" w="54" h="34">que</W>
-<W id="130" cur="728" space=" " x="267" y="644" w="45" h="34">ele</W>
-<W id="131" cur="732" space=" " x="310" y="644" w="54" h="34">não</W>
-<W id="132" cur="736" space=" " x="362" y="644" w="105" h="34">gostava</W>
-<W id="133" cur="744" space=" " x="465" y="644" w="39" h="34">de</W>
-<W id="134" cur="747" space=" " x="502" y="644" w="116" h="34">trabalhar</W>
-<W id="135" cur="757" space=" " x="616" y="644" w="61" h="34">com</W>
-<W id="136" cur="761" space=" " x="674" y="644" w="111" h="34">pessoas</W>
-<W id="137" cur="769" space=" " x="783" y="644" w="39" h="34">de</W>
-<W id="138" cur="772" space=" " x="820" y="644" w="75" h="34">idade</W>
-<W id="139" cur="777" x="886" y="644" w="16" h="34">.</W>
-<W id="140" cur="779" space=" " x="901" y="644" w="85" h="34">Todas</W>
-<W id="141" cur="785" space=" " x="984" y="644" w="38" h="34">as</W>
-<W id="142" cur="788" space=" " x="1020" y="644" w="67" h="34">suas</W>
-<W id="143" cur="793" space=" " x="1085" y="644" w="94" h="34">vítimas</W>
-<W id="144" cur="801" space=" " x="3" y="675" w="71" h="34">eram</W>
-<W id="145" cur="806" space=" " x="71" y="675" w="120" h="34">mulheres</W>
-<W id="146" cur="815" space=" " x="189" y="675" w="88" h="34">idosas</W>
-<W id="147" cur="822" space=" " x="275" y="675" w="61" h="34">com</W>
-<W id="148" cur="826" space=" " x="333" y="675" w="135" h="34">problemas</W>
-<W id="149" cur="836" space=" " x="466" y="675" w="39" h="34">de</W>
-<W id="150" cur="839" space=" " x="503" y="675" w="106" h="34">coração</W>
-<W id="151" cur="847" space=" " x="607" y="675" w="70" h="34">fraco</W>
-<W id="152" cur="852" x="668" y="675" w="16" h="34">.</W>
-<W id="153" cur="854" space=" " x="683" y="675" w="85" h="34">Todas</W>
-<W id="154" cur="860" space=" " x="766" y="675" w="59" h="34">elas</W>
-<W id="155" cur="865" space=" " x="823" y="675" w="122" h="34">poderiam</W>
-<W id="156" cur="874" space=" " x="942" y="675" w="47" h="34">ser</W>
-<W id="157" cur="878" space=" " x="987" y="675" w="171" h="34">consideradas</W>
-<W id="158" cur="891" space=" " x="1156" y="675" w="47" h="34">um</W>
-<W id="159" cur="894" space=" " x="3" y="706" w="71" h="34">fardo</W>
-<W id="160" cur="900" space=" " x="72" y="706" w="63" h="34">para</W>
-<W id="161" cur="905" space=" " x="133" y="706" w="24" h="34">a</W>
-<W id="162" cur="907" space=" " x="155" y="706" w="90" h="34">equipe</W>
-<W id="163" cur="914" space=" " x="243" y="706" w="39" h="34">do</W>
-<W id="164" cur="917" space=" " x="280" y="706" w="103" h="34">hospital</W>
-<W id="165" cur="925" x="374" y="706" w="16" h="34">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="pt" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" h="34" id="1" lemma="enfermeiro" pos="NOM" w="141" x="3" y="383">Enfermeiro</W>
+ <W cur="11" h="34" id="2" lemma="assassino" pos="ADJ" space=" " w="131" x="142" y="383">assassino</W>
+ <W cur="21" h="34" id="3" lemma="receber" pos="V" space=" " w="92" x="271" y="383">recebe</W>
+ <W cur="28" h="34" id="4" lemma="quatro" pos="CARD" space=" " w="86" x="361" y="383">quatro</W>
+ <W cur="35" h="34" id="5" lemma="pena" pos="NOM" space=" " w="83" x="445" y="383">penas</W>
+ <W cur="41" h="34" id="6" lemma="de" pos="PRP" space=" " w="39" x="526" y="383">de</W>
+ <W cur="44" h="34" id="7" lemma="prisão" pos="NOM" space=" " w="83" x="563" y="383">prisão</W>
+ <W cur="51" h="34" id="8" lemma="perpétuo" pos="NOM" space=" " w="116" x="644" y="383">perpétua</W>
+ <W cur="60" h="34" id="9" lemma="o" pos="NOM" space="&#xA;" w="31" x="3" y="427">O</W>
+ <W cur="62" h="34" id="10" lemma="enfermeiro" pos="NOM" space=" " w="138" x="31" y="427">enfermeiro</W>
+ <W cur="73" h="34" id="11" lemma="_" pos="NOM" space=" " w="71" x="167" y="427">Colin</W>
+ <W cur="79" h="34" id="12" lemma="_" pos="NOM" space=" " w="82" x="236" y="427">Norris</W>
+ <W cur="86" h="34" id="13" lemma="ir" pos="V" space=" " w="38" x="316" y="427">foi</W>
+ <W cur="90" h="34" id="14" lemma="prender" pos="V" space=" " w="77" x="352" y="427">preso</W>
+ <W cur="96" h="34" id="15" lemma="por" pos="PRP" space=" " w="48" x="427" y="427">por</W>
+ <W cur="100" h="34" id="16" lemma="vida" pos="NOM" space=" " w="59" x="473" y="427">vida</W>
+ <W cur="105" h="34" id="17" lemma="hoje" pos="ADV" space=" " w="60" x="530" y="427">hoje</W>
+ <W cur="110" h="34" id="18" lemma="por" pos="PRP+DET" space=" " w="60" x="588" y="427">pela</W>
+ <W cur="115" h="34" id="19" lemma="morte" pos="NOM" space=" " w="78" x="646" y="427">morte</W>
+ <W cur="121" h="34" id="20" lemma="de" pos="PRP" space=" " w="39" x="722" y="427">de</W>
+ <W cur="124" h="34" id="21" lemma="quatro" pos="CARD" space=" " w="86" x="759" y="427">quatro</W>
+ <W cur="131" h="34" id="22" lemma="de" pos="PRP" space=" " w="39" x="843" y="427">de</W>
+ <W cur="134" h="34" id="23" lemma="seu" pos="ADJ" space=" " w="67" x="880" y="427">seus</W>
+ <W cur="139" h="34" id="24" lemma="paciente" pos="NOM" space=" " w="126" x="945" y="427">pacientes</W>
+ <W boundary="sentence" cur="148" h="34" id="25" lemma="." pos="SENT" w="16" x="1062" y="427">.</W>
+ <W cur="150" h="34" id="26" lemma="_" pos="V" space=" " w="82" x="1077" y="427">Norris</W>
+ <W cur="156" h="34" id="27" lemma="," pos="VIRG" w="16" x="1150" y="427">,</W>
+ <W cur="158" h="34" id="28" lemma="de" pos="PRP" space=" " w="39" x="1165" y="427">de</W>
+ <W cur="161" h="34" id="29" lemma="@card@" pos="CARD" space=" " w="39" x="3" y="458">32</W>
+ <W cur="164" h="34" id="30" lemma="ano" pos="NOM" space=" " w="68" x="40" y="458">anos</W>
+ <W cur="169" h="34" id="31" lemma="e" pos="CONJ" space=" " w="24" x="106" y="458">e</W>
+ <W cur="171" h="34" id="32" lemma="de" pos="PRP" space=" " w="39" x="128" y="458">de</W>
+ <W cur="174" h="34" id="33" lemma="_" pos="NOM" space=" " w="115" x="165" y="458">Glasgow</W>
+ <W cur="181" h="34" id="34" lemma="," pos="VIRG" w="16" x="271" y="458">,</W>
+ <W cur="183" h="34" id="35" lemma="matar" pos="V" space=" " w="84" x="286" y="458">matou</W>
+ <W cur="189" h="34" id="36" lemma="quatro" pos="CARD" space=" " w="86" x="368" y="458">quatro</W>
+ <W cur="196" h="34" id="37" lemma="mulher" pos="NOM" space=" " w="120" x="452" y="458">mulheres</W>
+ <W cur="205" h="34" id="38" lemma="em" pos="PRP" space=" " w="47" x="570" y="458">em</W>
+ <W cur="208" h="34" id="39" lemma="@card@" pos="CARD" space=" " w="69" x="614" y="458">2002</W>
+ <W cur="213" h="34" id="40" lemma="dar" pos="V+P" space=" " w="143" x="681" y="458">dando-lhes</W>
+ <W cur="224" h="34" id="41" lemma="grande" pos="ADJ" space=" " w="107" x="822" y="458">grandes</W>
+ <W cur="232" h="34" id="42" lemma="quantidade" pos="NOM" space=" " w="157" x="927" y="458">quantidades</W>
+ <W cur="244" h="34" id="43" lemma="de" pos="PRP" space=" " w="39" x="1082" y="458">de</W>
+ <W cur="247" h="34" id="44" lemma="medicamento" pos="NOM" space=" " w="185" x="3" y="489">medicamentos</W>
+ <W cur="260" h="34" id="45" lemma="para" pos="PRP" space=" " w="63" x="186" y="489">para</W>
+ <W cur="265" h="34" id="46" lemma="dormir" pos="V" space=" " w="85" x="247" y="489">dormir</W>
+ <W boundary="sentence" cur="271" h="34" id="47" lemma="." pos="SENT" w="16" x="323" y="489">.</W>
+ <W cur="273" h="34" id="48" lemma="ontem" pos="ADV" space=" " w="91" x="338" y="489">Ontem</W>
+ <W cur="278" h="34" id="49" lemma="," pos="VIRG" w="16" x="419" y="489">,</W>
+ <W cur="280" h="34" id="50" lemma="ele" pos="P" space=" " w="45" x="434" y="489">ele</W>
+ <W cur="284" h="34" id="51" lemma="ir" pos="V" space=" " w="38" x="477" y="489">foi</W>
+ <W cur="288" h="34" id="52" lemma="considerar" pos="V" space=" " w="157" x="513" y="489">considerado</W>
+ <W cur="300" h="34" id="53" lemma="culpado" pos="ADJ" space=" " w="104" x="668" y="489">culpado</W>
+ <W cur="308" h="34" id="54" lemma="de" pos="PRP" space=" " w="39" x="770" y="489">de</W>
+ <W cur="311" h="34" id="55" lemma="quatro" pos="CARD" space=" " w="86" x="807" y="489">quatro</W>
+ <W cur="318" h="34" id="56" lemma="acusação" pos="NOM" space=" " w="140" x="891" y="489">acusações</W>
+ <W cur="328" h="34" id="57" lemma="de" pos="PRP" space=" " w="39" x="1029" y="489">de</W>
+ <W cur="331" h="34" id="58" lemma="assassinato" pos="NOM" space=" " w="154" x="3" y="520">assassinato</W>
+ <W cur="343" h="34" id="59" lemma="após" pos="PRP" space=" " w="68" x="155" y="520">após</W>
+ <W cur="348" h="34" id="60" lemma="um" pos="DET" space=" " w="47" x="221" y="520">um</W>
+ <W cur="351" h="34" id="61" lemma="longo" pos="ADJ" space=" " w="75" x="265" y="520">longo</W>
+ <W cur="357" h="34" id="62" lemma="julgamento" pos="NOM" space=" " w="141" x="338" y="520">julgamento</W>
+ <W boundary="sentence" cur="367" h="34" id="63" lemma="." pos="SENT" w="16" x="470" y="520">.</W>
+ <W cur="369" h="34" id="64" lemma="ele" pos="P" space=" " w="48" x="485" y="520">Ele</W>
+ <W cur="373" h="34" id="65" lemma="receber" pos="V" space=" " w="107" x="531" y="520">recebeu</W>
+ <W cur="381" h="34" id="66" lemma="quatro" pos="CARD" space=" " w="86" x="636" y="520">quatro</W>
+ <W cur="388" h="34" id="67" lemma="pena" pos="NOM" space=" " w="83" x="720" y="520">penas</W>
+ <W cur="394" h="34" id="68" lemma="de" pos="PRP" space=" " w="39" x="801" y="520">de</W>
+ <W cur="397" h="34" id="69" lemma="prisão" pos="NOM" space=" " w="83" x="838" y="520">prisão</W>
+ <W cur="404" h="34" id="70" lemma="perpétuo" pos="ADJ" space=" " w="116" x="919" y="520">perpétua</W>
+ <W cur="412" h="34" id="71" lemma="," pos="VIRG" w="16" x="1026" y="520">,</W>
+ <W cur="414" h="34" id="72" lemma="uma" pos="DET" space=" " w="61" x="1041" y="520">uma</W>
+ <W cur="418" h="34" id="73" lemma="para" pos="PRP" space=" " w="63" x="1100" y="520">para</W>
+ <W cur="423" h="34" id="74" lemma="cada" pos="ADJ" space=" " w="68" x="3" y="551">cada</W>
+ <W cur="428" h="34" id="75" lemma="um" pos="DET" space=" " w="47" x="69" y="551">um</W>
+ <W cur="431" h="34" id="76" lemma="de" pos="PRP+DET" space=" " w="53" x="113" y="551">dos</W>
+ <W cur="435" h="34" id="77" lemma="assassinato" pos="NOM" space=" " w="168" x="164" y="551">assassinatos</W>
+ <W boundary="sentence" cur="447" h="34" id="78" lemma="." pos="SENT" w="16" x="323" y="551">.</W>
+ <W cur="449" h="34" id="79" lemma="ele" pos="P" space=" " w="48" x="338" y="551">Ele</W>
+ <W cur="453" h="34" id="80" lemma="ter" pos="V" space=" " w="56" x="384" y="551">terá</W>
+ <W cur="458" h="34" id="81" lemma="de" pos="PRP" space=" " w="39" x="438" y="551">de</W>
+ <W cur="461" h="34" id="82" lemma="cumprir" pos="V" space=" " w="99" x="475" y="551">cumprir</W>
+ <W cur="469" h="34" id="83" lemma="por" pos="PRP+DET" space=" " w="60" x="572" y="551">pelo</W>
+ <W cur="474" h="34" id="84" lemma="menos" pos="ADV" space=" " w="90" x="630" y="551">menos</W>
+ <W cur="480" h="34" id="85" lemma="@card@" pos="CARD" space=" " w="39" x="718" y="551">30</W>
+ <W cur="483" h="34" id="86" lemma="ano" pos="NOM" space=" " w="68" x="755" y="551">anos</W>
+ <W boundary="sentence" cur="487" h="34" id="87" lemma="." pos="SENT" w="16" x="814" y="551">.</W>
+ <W cur="489" h="34" id="88" lemma="o" pos="DET" space=" " w="31" x="829" y="551">O</W>
+ <W cur="491" h="34" id="89" lemma="policial" pos="ADJ" space=" " w="92" x="857" y="551">policial</W>
+ <W cur="500" h="34" id="90" lemma="_" pos="NOM" space=" " w="73" x="947" y="551">Chris</W>
+ <W cur="506" h="34" id="91" lemma="_" pos="NOM" space=" " w="84" x="1018" y="551">Gregg</W>
+ <W cur="512" h="34" id="92" lemma="dizer" pos="V" space=" " w="73" x="1100" y="551">disse</W>
+ <W cur="518" h="34" id="93" lemma="que" pos="CONJSUB" space=" " w="54" x="3" y="582">que</W>
+ <W cur="522" h="34" id="94" lemma="_" pos="V" space=" " w="82" x="55" y="582">Norris</W>
+ <W cur="529" h="34" id="95" lemma="ter" pos="V" space=" " w="68" x="135" y="582">tinha</W>
+ <W cur="535" h="34" id="96" lemma="agir" pos="V" space=" " w="75" x="201" y="582">agido</W>
+ <W cur="541" h="34" id="97" lemma="estranhamente" pos="ADV" space=" " w="190" x="274" y="582">estranhamente</W>
+ <W cur="555" h="34" id="98" lemma="a" pos="PRP+DET" space=" " w="39" x="462" y="582">ao</W>
+ <W cur="558" h="34" id="99" lemma="redor" pos="NOM" space=" " w="72" x="499" y="582">redor</W>
+ <W cur="564" h="34" id="100" lemma="de" pos="PRP+DET" space=" " w="39" x="569" y="582">do</W>
+ <W cur="567" h="34" id="101" lemma="hospital" pos="NOM" space=" " w="103" x="606" y="582">hospital</W>
+ <W boundary="sentence" cur="575" h="34" id="102" lemma="." pos="SENT" w="16" x="700" y="582">.</W>
+ <W cur="577" h="34" id="103" lemma="apenas" pos="ADV" space=" " w="101" x="715" y="582">Apenas</W>
+ <W cur="584" h="34" id="104" lemma="a" pos="DET" space=" " w="24" x="814" y="582">a</W>
+ <W cur="586" h="34" id="105" lemma="consciência" pos="NOM" space=" " w="152" x="836" y="582">consciência</W>
+ <W cur="598" h="34" id="106" lemma="de" pos="PRP" space=" " w="39" x="986" y="582">de</W>
+ <W cur="601" h="34" id="107" lemma="outro" pos="ADJ" space=" " w="85" x="1023" y="582">outros</W>
+ <W cur="608" h="34" id="108" lemma="funcionário" pos="NOM" space=" " w="156" x="3" y="613">funcionários</W>
+ <W cur="621" h="34" id="109" lemma="de" pos="PRP+DET" space=" " w="39" x="157" y="613">do</W>
+ <W cur="624" h="34" id="110" lemma="hospital" pos="NOM" space=" " w="103" x="194" y="613">hospital</W>
+ <W cur="633" h="34" id="111" lemma="pôr" pos="V" space=" " w="48" x="295" y="613">pôr</W>
+ <W cur="637" h="34" id="112" lemma="um" pos="DET" space=" " w="47" x="341" y="613">um</W>
+ <W cur="640" h="34" id="113" lemma="fim" pos="NOM" space=" " w="46" x="385" y="613">fim</W>
+ <W cur="644" h="34" id="114" lemma="a" pos="PRP" space=" " w="24" x="428" y="613">a</W>
+ <W cur="646" h="34" id="115" lemma="ele" pos="P" space=" " w="45" x="450" y="613">ele</W>
+ <W cur="650" h="34" id="116" lemma="e" pos="CONJ" space=" " w="24" x="493" y="613">e</W>
+ <W cur="652" h="34" id="117" lemma="a" pos="PRP+DET" space=" " w="53" x="515" y="613">aos</W>
+ <W cur="656" h="34" id="118" lemma="assassinato" pos="NOM" space=" " w="168" x="566" y="613">assassinatos</W>
+ <W boundary="sentence" cur="668" h="34" id="119" lemma="." pos="SENT" w="16" x="725" y="613">.</W>
+ <W cur="670" h="34" id="120" lemma="a" pos="DET" space=" " w="27" x="740" y="613">A</W>
+ <W cur="672" h="34" id="121" lemma="polícia" pos="NOM" space=" " w="86" x="765" y="613">polícia</W>
+ <W cur="680" h="34" id="122" lemma="descobrir" pos="V" space=" " w="127" x="849" y="613">descobriu</W>
+ <W cur="690" h="34" id="123" lemma="que" pos="CONJSUB" space=" " w="54" x="974" y="613">que</W>
+ <W cur="694" h="34" id="124" lemma="o" pos="DET" space=" " w="24" x="1026" y="613">o</W>
+ <W cur="696" h="34" id="125" lemma="motivo" pos="NOM" space=" " w="89" x="1048" y="613">motivo</W>
+ <W cur="703" h="34" id="126" lemma="de" pos="PRP+DET" space=" " w="53" x="1135" y="613">dos</W>
+ <W cur="707" h="34" id="127" lemma="assassinato" pos="NOM" space=" " w="168" x="3" y="644">assassinatos</W>
+ <W cur="720" h="34" id="128" lemma="ser" pos="V" space=" " w="48" x="169" y="644">era</W>
+ <W cur="724" h="34" id="129" lemma="que" pos="CONJSUB" space=" " w="54" x="215" y="644">que</W>
+ <W cur="728" h="34" id="130" lemma="ele" pos="P" space=" " w="45" x="267" y="644">ele</W>
+ <W cur="732" h="34" id="131" lemma="não" pos="ADV" space=" " w="54" x="310" y="644">não</W>
+ <W cur="736" h="34" id="132" lemma="gostar" pos="V" space=" " w="105" x="362" y="644">gostava</W>
+ <W cur="744" h="34" id="133" lemma="de" pos="PRP" space=" " w="39" x="465" y="644">de</W>
+ <W cur="747" h="34" id="134" lemma="trabalhar" pos="V" space=" " w="116" x="502" y="644">trabalhar</W>
+ <W cur="757" h="34" id="135" lemma="com" pos="PRP" space=" " w="61" x="616" y="644">com</W>
+ <W cur="761" h="34" id="136" lemma="pessoa" pos="NOM" space=" " w="111" x="674" y="644">pessoas</W>
+ <W cur="769" h="34" id="137" lemma="de" pos="PRP" space=" " w="39" x="783" y="644">de</W>
+ <W cur="772" h="34" id="138" lemma="idade" pos="NOM" space=" " w="75" x="820" y="644">idade</W>
+ <W boundary="sentence" cur="777" h="34" id="139" lemma="." pos="SENT" w="16" x="886" y="644">.</W>
+ <W cur="779" h="34" id="140" lemma="todo" pos="ADJ" space=" " w="85" x="901" y="644">Todas</W>
+ <W cur="785" h="34" id="141" lemma="a" pos="DET" space=" " w="38" x="984" y="644">as</W>
+ <W cur="788" h="34" id="142" lemma="sua" pos="ADJ" space=" " w="67" x="1020" y="644">suas</W>
+ <W cur="793" h="34" id="143" lemma="vítima" pos="NOM" space=" " w="94" x="1085" y="644">vítimas</W>
+ <W cur="801" h="34" id="144" lemma="ser" pos="V" space=" " w="71" x="3" y="675">eram</W>
+ <W cur="806" h="34" id="145" lemma="mulher" pos="NOM" space=" " w="120" x="71" y="675">mulheres</W>
+ <W cur="815" h="34" id="146" lemma="idoso" pos="ADJ" space=" " w="88" x="189" y="675">idosas</W>
+ <W cur="822" h="34" id="147" lemma="com" pos="PRP" space=" " w="61" x="275" y="675">com</W>
+ <W cur="826" h="34" id="148" lemma="problema" pos="NOM" space=" " w="135" x="333" y="675">problemas</W>
+ <W cur="836" h="34" id="149" lemma="de" pos="PRP" space=" " w="39" x="466" y="675">de</W>
+ <W cur="839" h="34" id="150" lemma="coração" pos="NOM" space=" " w="106" x="503" y="675">coração</W>
+ <W cur="847" h="34" id="151" lemma="fraco" pos="ADJ" space=" " w="70" x="607" y="675">fraco</W>
+ <W boundary="sentence" cur="852" h="34" id="152" lemma="." pos="SENT" w="16" x="668" y="675">.</W>
+ <W cur="854" h="34" id="153" lemma="toda" pos="P" space=" " w="85" x="683" y="675">Todas</W>
+ <W cur="860" h="34" id="154" lemma="ela" pos="P" space=" " w="59" x="766" y="675">elas</W>
+ <W cur="865" h="34" id="155" lemma="poder" pos="V" space=" " w="122" x="823" y="675">poderiam</W>
+ <W cur="874" h="34" id="156" lemma="ser" pos="V" space=" " w="47" x="942" y="675">ser</W>
+ <W cur="878" h="34" id="157" lemma="considerar" pos="V" space=" " w="171" x="987" y="675">consideradas</W>
+ <W cur="891" h="34" id="158" lemma="um" pos="DET" space=" " w="47" x="1156" y="675">um</W>
+ <W cur="894" h="34" id="159" lemma="fardo" pos="NOM" space=" " w="71" x="3" y="706">fardo</W>
+ <W cur="900" h="34" id="160" lemma="para" pos="PRP" space=" " w="63" x="72" y="706">para</W>
+ <W cur="905" h="34" id="161" lemma="a" pos="DET" space=" " w="24" x="133" y="706">a</W>
+ <W cur="907" h="34" id="162" lemma="equipa" pos="NOM" space=" " w="90" x="155" y="706">equipe</W>
+ <W cur="914" h="34" id="163" lemma="de" pos="PRP+DET" space=" " w="39" x="243" y="706">do</W>
+ <W cur="917" h="34" id="164" lemma="hospital" pos="NOM" space=" " w="103" x="280" y="706">hospital</W>
+ <W boundary="sentence" cur="925" h="34" id="165" lemma="." pos="SENT" w="16" x="374" y="706">.</W>
 </Text>

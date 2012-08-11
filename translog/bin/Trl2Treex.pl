@@ -299,7 +299,7 @@ sub AppendTargetZone {
 #print STDERR "FinalTokenheader: $FinalTokenheader\n";
   $FinalTokenheader =~ s/ ([^=]*)="([^"]*)"/HeaderAttributes($selector, $1, $2)/ego;
   $AlignmentHeader =~ s/ ([^=]*)="([^"]*)"/HeaderAttributes($selector, $1, $2)/ego;
-#  $doc->wild->{annotation}{"$selector"}{fileName}  = $fn;
+  $doc->wild->{annotation}{"$selector"}{fileName}  = $fn;
 
   my $sent = 1;
   foreach my $id (sort {$a <=> $b} keys %{$TOK->{fin}}) {
@@ -365,6 +365,7 @@ LonelyNode:
     if (!defined($left)) { next;}   ## first node in tree
 
     my $right = $node->get_right_neighbor();
+## skip it a node to the right is in the same zone
     while(defined($right)) {
       if($right->get_aligned_nodes_of_type("alignment")) {next LonelyNode;}
       $right = $right->get_right_neighbor();
@@ -377,11 +378,17 @@ LonelyNode:
         printf STDERR "Undefined Next Zone %s %s\n", $node->get_bundle()->id(), $node->form;
         next;
       }
-      my $first = $next_zone->get_atree()->get_descendants({first_only=>1});
 
+      my $first = $next_zone->get_atree()->get_descendants({first_only=>1});
       $node->set_parent($first->get_root);
+      while(defined($first)) {
+#printf STDERR "Node1 compare %s/%s and %s/%s\n", $node->wild->{id}, $node->ord, $first->wild->{id}, $first->ord;
+        if($first->wild->{id} > $node->wild->{id}) {last;}
+        $first = $first->get_right_neighbor();
+      }
       $node->shift_before_node($first);
-      printf STDERR "Moving node %s:'%s' to next bundle\n", $node->id, $node->form; 
+      printf STDERR "Moving node %s:'%s' to next bundle before node %s:'%s'\n",
+              $node->wild->{id}, $node->form,  $first->wild->{id},  $first->form, ; 
     }
   }
 }

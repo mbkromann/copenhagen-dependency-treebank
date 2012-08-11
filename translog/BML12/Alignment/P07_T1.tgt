@@ -1,184 +1,185 @@
-<Text language="es" >
-<W cur="0" id="1">Enfermero</W>
-<W cur="10" id="2" space=" ">killer</W>
-<W cur="17" id="3" space=" ">condemnado</W>
-<W cur="28" id="4" space=" ">a</W>
-<W cur="30" id="5" space=" ">cuatro</W>
-<W cur="37" id="6" space=" ">cadenas</W>
-<W cur="45" id="7" space=" ">perpetuas</W>
-<W cur="55" id="8" space="&#xA;">El</W>
-<W cur="58" id="9" space=" ">enfermero</W>
-<W cur="68" id="10" space=" ">de</W>
-<W cur="71" id="11" space=" ">hospital</W>
-<W cur="80" id="12" space=" ">Colin</W>
-<W cur="86" id="13" space=" ">Norris</W>
-<W cur="93" id="14" space=" ">ha</W>
-<W cur="96" id="15" space=" ">sido</W>
-<W cur="101" id="16" space=" ">condemnado</W>
-<W cur="112" id="17" space=" ">hoy</W>
-<W cur="116" id="18" space=" ">a</W>
-<W cur="118" id="19" space=" ">cadena</W>
-<W cur="125" id="20" space=" ">perpetua</W>
-<W cur="134" id="21" space=" ">por</W>
-<W cur="138" id="22" space=" ">haber</W>
-<W cur="144" id="23" space=" ">matado</W>
-<W cur="151" id="24" space=" ">a</W>
-<W cur="153" id="25" space=" ">cuatro</W>
-<W cur="160" id="26" space=" ">de</W>
-<W cur="163" id="27" space=" ">sus</W>
-<W cur="167" id="28" space=" ">pacientes</W>
-<W cur="176" id="29">.</W>
-<W cur="178" id="30" space=" ">Norris</W>
-<W cur="184" id="31">,</W>
-<W cur="186" id="32" space=" ">de</W>
-<W cur="189" id="33" space=" ">32</W>
-<W cur="192" id="34" space=" ">años</W>
-<W cur="197" id="35" space=" ">y</W>
-<W cur="199" id="36" space=" ">residente</W>
-<W cur="209" id="37" space=" ">en</W>
-<W cur="212" id="38" space=" ">Glasgow</W>
-<W cur="220" id="39" space=" ">asesinó</W>
-<W cur="228" id="40" space=" ">a</W>
-<W cur="230" id="41" space=" ">las</W>
-<W cur="234" id="42" space=" ">cuatro</W>
-<W cur="241" id="43" space=" ">mujeres</W>
-<W cur="249" id="44" space=" ">en</W>
-<W cur="252" id="45" space=" ">2002</W>
-<W cur="257" id="46" space=" ">suministrándoles</W>
-<W cur="274" id="47" space=" ">grandes</W>
-<W cur="282" id="48" space=" ">cantidades</W>
-<W cur="293" id="49" space=" ">de</W>
-<W cur="296" id="50" space=" ">somníferos</W>
-<W cur="306" id="51">.</W>
-<W cur="308" id="52" space=" ">Ayer</W>
-<W cur="312" id="53">,</W>
-<W cur="314" id="54" space=" ">después</W>
-<W cur="322" id="55" space=" ">de</W>
-<W cur="325" id="56" space=" ">un</W>
-<W cur="328" id="57" space=" ">largo</W>
-<W cur="334" id="58" space=" ">juicio</W>
-<W cur="340" id="59">,</W>
-<W cur="342" id="60" space=" ">se</W>
-<W cur="345" id="61" space=" ">le</W>
-<W cur="348" id="62" space=" ">reconoció</W>
-<W cur="358" id="63" space=" ">culpable</W>
-<W cur="367" id="64" space=" ">de</W>
-<W cur="370" id="65" space=" ">cuatro</W>
-<W cur="377" id="66" space=" ">imputaciones</W>
-<W cur="390" id="67" space=" ">de</W>
-<W cur="393" id="68" space=" ">asesinato</W>
-<W cur="402" id="69">.</W>
-<W cur="404" id="70" space=" ">Se</W>
-<W cur="407" id="71" space=" ">le</W>
-<W cur="410" id="72" space=" ">condemnó</W>
-<W cur="419" id="73" space=" ">a</W>
-<W cur="421" id="74" space=" ">cuatro</W>
-<W cur="428" id="75" space=" ">cadenas</W>
-<W cur="436" id="76" space=" ">perpetuas</W>
-<W cur="445" id="77">,</W>
-<W cur="447" id="78" space=" ">una</W>
-<W cur="451" id="79" space=" ">por</W>
-<W cur="455" id="80" space=" ">cada</W>
-<W cur="460" id="81" space=" ">asesinato</W>
-<W cur="470" id="82" space=" ">y</W>
-<W cur="472" id="83" space=" ">deberá</W>
-<W cur="479" id="84" space=" ">permanecer</W>
-<W cur="490" id="85" space=" ">en</W>
-<W cur="493" id="86" space=" ">la</W>
-<W cur="496" id="87" space=" ">cárcel</W>
-<W cur="503" id="88" space=" ">durante</W>
-<W cur="510" id="89">,</W>
-<W cur="512" id="90" space=" ">por</W>
-<W cur="516" id="91" space=" ">lo</W>
-<W cur="519" id="92" space=" ">menos</W>
-<W cur="524" id="93">,</W>
-<W cur="526" id="94" space=" ">30</W>
-<W cur="529" id="95" space=" ">años</W>
-<W cur="533" id="96">.</W>
-<W cur="535" id="97" space=" ">El</W>
-<W cur="538" id="98" space=" ">policía</W>
-<W cur="546" id="99" space=" ">Chris</W>
-<W cur="552" id="100" space=" ">Gregg</W>
-<W cur="558" id="101" space=" ">ha</W>
-<W cur="561" id="102" space=" ">afirmado</W>
-<W cur="570" id="103" space=" ">que</W>
-<W cur="574" id="104" space=" ">Norris</W>
-<W cur="581" id="105" space=" ">se</W>
-<W cur="584" id="106" space=" ">portaba</W>
-<W cur="592" id="107" space=" ">de</W>
-<W cur="595" id="108" space=" ">forma</W>
-<W cur="601" id="109" space=" ">extraña</W>
-<W cur="609" id="110" space=" ">en</W>
-<W cur="612" id="111" space=" ">el</W>
-<W cur="615" id="112" space=" ">hospital</W>
-<W cur="623" id="113">.</W>
-<W cur="625" id="114" space=" ">Fue</W>
-<W cur="629" id="115" space=" ">sólo</W>
-<W cur="634" id="116" space=" ">gracias</W>
-<W cur="642" id="117" space=" ">al</W>
-<W cur="645" id="118" space=" ">hecho</W>
-<W cur="651" id="119" space=" ">de</W>
-<W cur="654" id="120" space=" ">que</W>
-<W cur="658" id="121" space=" ">el</W>
-<W cur="661" id="122" space=" ">personal</W>
-<W cur="670" id="123" space=" ">del</W>
-<W cur="674" id="124" space=" ">hospital</W>
-<W cur="683" id="125" space=" ">se</W>
-<W cur="686" id="126" space=" ">diera</W>
-<W cur="692" id="127" space=" ">cuenta</W>
-<W cur="699" id="128" space=" ">de</W>
-<W cur="702" id="129" space=" ">esta</W>
-<W cur="707" id="130" space=" ">conducta</W>
-<W cur="716" id="131" space=" ">que</W>
-<W cur="720" id="132" space=" ">se</W>
-<W cur="723" id="133" space=" ">le</W>
-<W cur="726" id="134" space=" ">pudo</W>
-<W cur="731" id="135" space=" ">detener</W>
-<W cur="738" id="136">.</W>
-<W cur="740" id="137" space=" ">La</W>
-<W cur="743" id="138" space=" ">policía</W>
-<W cur="751" id="139" space=" ">ha</W>
-<W cur="754" id="140" space=" ">averiguado</W>
-<W cur="765" id="141" space=" ">que</W>
-<W cur="769" id="142" space=" ">la</W>
-<W cur="772" id="143" space=" ">razón</W>
-<W cur="778" id="144" space=" ">de</W>
-<W cur="781" id="145" space=" ">los</W>
-<W cur="785" id="146" space=" ">asesinatos</W>
-<W cur="796" id="147" space=" ">era</W>
-<W cur="800" id="148" space=" ">que</W>
-<W cur="804" id="149" space=" ">a</W>
-<W cur="806" id="150" space=" ">Norris</W>
-<W cur="813" id="151" space=" ">no</W>
-<W cur="816" id="152" space=" ">le</W>
-<W cur="819" id="153" space=" ">gustaba</W>
-<W cur="827" id="154" space=" ">trabajar</W>
-<W cur="836" id="155" space=" ">con</W>
-<W cur="840" id="156" space=" ">gente</W>
-<W cur="846" id="157" space=" ">mayor</W>
-<W cur="851" id="158">.</W>
-<W cur="853" id="159" space=" ">Todas</W>
-<W cur="859" id="160" space=" ">sus</W>
-<W cur="863" id="161" space=" ">víctimas</W>
-<W cur="872" id="162" space=" ">eran</W>
-<W cur="877" id="163" space=" ">mujeres</W>
-<W cur="885" id="164" space=" ">mayores</W>
-<W cur="893" id="165" space=" ">con</W>
-<W cur="897" id="166" space=" ">problemas</W>
-<W cur="907" id="167" space=" ">cardíacos</W>
-<W cur="917" id="168" space=" ">y</W>
-<W cur="919" id="169" space=" ">todas</W>
-<W cur="925" id="170" space=" ">ellas</W>
-<W cur="931" id="171" space=" ">se</W>
-<W cur="934" id="172" space=" ">podían</W>
-<W cur="941" id="173" space=" ">considerar</W>
-<W cur="952" id="174" space=" ">como</W>
-<W cur="957" id="175" space=" ">un</W>
-<W cur="960" id="176" space=" ">cargo</W>
-<W cur="966" id="177" space=" ">para</W>
-<W cur="971" id="178" space=" ">el</W>
-<W cur="974" id="179" space=" ">personal</W>
-<W cur="983" id="180" space=" ">del</W>
-<W cur="987" id="181" space=" ">hospital</W>
-<W cur="995" id="182">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="es" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" lemma="enfermero" pos="NC">Enfermero</W>
+ <W cur="10" id="2" lemma="_" pos="NC" space=" ">killer</W>
+ <W cur="17" id="3" lemma="_" pos="VLadj" space=" ">condemnado</W>
+ <W cur="28" id="4" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="30" id="5" lemma="cuatro" pos="CARD" space=" ">cuatro</W>
+ <W cur="37" id="6" lemma="cadena" pos="NC" space=" ">cadenas</W>
+ <W cur="45" id="7" lemma="_" pos="ADJ" space=" ">perpetuas</W>
+ <W cur="55" id="8" lemma="el" pos="ART" space="&#xA;">El</W>
+ <W cur="58" id="9" lemma="enfermero" pos="NC" space=" ">enfermero</W>
+ <W cur="68" id="10" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="71" id="11" lemma="hospital" pos="NC" space=" ">hospital</W>
+ <W cur="80" id="12" lemma="Colin" pos="NP" space=" ">Colin</W>
+ <W cur="86" id="13" lemma="_" pos="NP" space=" ">Norris</W>
+ <W cur="93" id="14" lemma="haber" pos="VHfin" space=" ">ha</W>
+ <W cur="96" id="15" lemma="ser" pos="VSadj" space=" ">sido</W>
+ <W cur="101" id="16" lemma="_" pos="VLadj" space=" ">condemnado</W>
+ <W cur="112" id="17" lemma="hoy" pos="ADV" space=" ">hoy</W>
+ <W cur="116" id="18" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="118" id="19" lemma="cadena" pos="NC" space=" ">cadena</W>
+ <W cur="125" id="20" lemma="perpetuo" pos="ADJ" space=" ">perpetua</W>
+ <W cur="134" id="21" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="138" id="22" lemma="haber" pos="VHinf" space=" ">haber</W>
+ <W cur="144" id="23" lemma="matar" pos="VLadj" space=" ">matado</W>
+ <W cur="151" id="24" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="153" id="25" lemma="cuatro" pos="CARD" space=" ">cuatro</W>
+ <W cur="160" id="26" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="163" id="27" lemma="suyo" pos="PPO" space=" ">sus</W>
+ <W cur="167" id="28" lemma="paciente" pos="NC" space=" ">pacientes</W>
+ <W boundary="sentence" cur="176" id="29" lemma="." pos="FS">.</W>
+ <W cur="178" id="30" lemma="_" pos="NP" space=" ">Norris</W>
+ <W cur="184" id="31" lemma="," pos="CM">,</W>
+ <W cur="186" id="32" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="189" id="33" lemma="@card@" pos="CARD" space=" ">32</W>
+ <W cur="192" id="34" lemma="año" pos="NC" space=" ">años</W>
+ <W cur="197" id="35" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="199" id="36" lemma="residente" pos="NC" space=" ">residente</W>
+ <W cur="209" id="37" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="212" id="38" lemma="_" pos="NC" space=" ">Glasgow</W>
+ <W cur="220" id="39" lemma="asesinar" pos="VLfin" space=" ">asesinó</W>
+ <W cur="228" id="40" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="230" id="41" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="234" id="42" lemma="cuatro" pos="CARD" space=" ">cuatro</W>
+ <W cur="241" id="43" lemma="mujer" pos="NC" space=" ">mujeres</W>
+ <W cur="249" id="44" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="252" id="45" lemma="@card@" pos="CARD" space=" ">2002</W>
+ <W cur="257" id="46" lemma="_" pos="VLadj" space=" ">suministrándoles</W>
+ <W cur="274" id="47" lemma="grande" pos="ADJ" space=" ">grandes</W>
+ <W cur="282" id="48" lemma="cantidad" pos="NC" space=" ">cantidades</W>
+ <W cur="293" id="49" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="296" id="50" lemma="_" pos="NC" space=" ">somníferos</W>
+ <W boundary="sentence" cur="306" id="51" lemma="." pos="FS">.</W>
+ <W cur="308" id="52" lemma="ayer" pos="ADV" space=" ">Ayer</W>
+ <W cur="312" id="53" lemma="," pos="CM">,</W>
+ <W cur="314" id="54" lemma="después" pos="ADV" space=" ">después</W>
+ <W cur="322" id="55" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="325" id="56" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="328" id="57" lemma="largo" pos="ADJ" space=" ">largo</W>
+ <W cur="334" id="58" lemma="juicio" pos="NC" space=" ">juicio</W>
+ <W cur="340" id="59" lemma="," pos="CM">,</W>
+ <W cur="342" id="60" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="345" id="61" lemma="él" pos="PPC" space=" ">le</W>
+ <W cur="348" id="62" lemma="reconocer" pos="VLfin" space=" ">reconoció</W>
+ <W cur="358" id="63" lemma="culpable" pos="ADJ" space=" ">culpable</W>
+ <W cur="367" id="64" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="370" id="65" lemma="cuatro" pos="CARD" space=" ">cuatro</W>
+ <W cur="377" id="66" lemma="imputación" pos="NC" space=" ">imputaciones</W>
+ <W cur="390" id="67" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="393" id="68" lemma="asesinato" pos="NC" space=" ">asesinato</W>
+ <W boundary="sentence" cur="402" id="69" lemma="." pos="FS">.</W>
+ <W cur="404" id="70" lemma="se" pos="SE" space=" ">Se</W>
+ <W cur="407" id="71" lemma="él" pos="PPC" space=" ">le</W>
+ <W cur="410" id="72" lemma="_" pos="VLfin" space=" ">condemnó</W>
+ <W cur="419" id="73" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="421" id="74" lemma="cuatro" pos="CARD" space=" ">cuatro</W>
+ <W cur="428" id="75" lemma="cadena" pos="NC" space=" ">cadenas</W>
+ <W cur="436" id="76" lemma="_" pos="ADJ" space=" ">perpetuas</W>
+ <W cur="445" id="77" lemma="," pos="CM">,</W>
+ <W cur="447" id="78" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="451" id="79" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="455" id="80" lemma="cada" pos="QU" space=" ">cada</W>
+ <W cur="460" id="81" lemma="asesinato" pos="NC" space=" ">asesinato</W>
+ <W cur="470" id="82" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="472" id="83" lemma="deber" pos="VMfin" space=" ">deberá</W>
+ <W cur="479" id="84" lemma="permanecer" pos="VLinf" space=" ">permanecer</W>
+ <W cur="490" id="85" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="493" id="86" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="496" id="87" lemma="cárcel" pos="NC" space=" ">cárcel</W>
+ <W cur="503" id="88" lemma="durante" pos="PREP" space=" ">durante</W>
+ <W cur="510" id="89" lemma="," pos="CM">,</W>
+ <W cur="512" id="90" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="516" id="91" lemma="el" pos="ART" space=" ">lo</W>
+ <W cur="519" id="92" lemma="menos" pos="ADV" space=" ">menos</W>
+ <W cur="524" id="93" lemma="," pos="CM">,</W>
+ <W cur="526" id="94" lemma="@card@" pos="CARD" space=" ">30</W>
+ <W cur="529" id="95" lemma="año" pos="NC" space=" ">años</W>
+ <W boundary="sentence" cur="533" id="96" lemma="." pos="FS">.</W>
+ <W cur="535" id="97" lemma="el" pos="ART" space=" ">El</W>
+ <W cur="538" id="98" lemma="policía" pos="NC" space=" ">policía</W>
+ <W cur="546" id="99" lemma="Chris" pos="NP" space=" ">Chris</W>
+ <W cur="552" id="100" lemma="_" pos="NP" space=" ">Gregg</W>
+ <W cur="558" id="101" lemma="haber" pos="VHfin" space=" ">ha</W>
+ <W cur="561" id="102" lemma="afirmar" pos="VLadj" space=" ">afirmado</W>
+ <W cur="570" id="103" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="574" id="104" lemma="_" pos="NP" space=" ">Norris</W>
+ <W cur="581" id="105" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="584" id="106" lemma="portar" pos="VLfin" space=" ">portaba</W>
+ <W cur="592" id="107" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="595" id="108" lemma="forma" pos="NC" space=" ">forma</W>
+ <W cur="601" id="109" lemma="extrañar" pos="VLfin" space=" ">extraña</W>
+ <W cur="609" id="110" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="612" id="111" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="615" id="112" lemma="hospital" pos="NC" space=" ">hospital</W>
+ <W boundary="sentence" cur="623" id="113" lemma="." pos="FS">.</W>
+ <W cur="625" id="114" lemma="ser" pos="VSfin" space=" ">Fue</W>
+ <W cur="629" id="115" lemma="sólo" pos="ADV" space=" ">sólo</W>
+ <W cur="634" id="116" lemma="gracia" pos="NC" space=" ">gracias</W>
+ <W cur="642" id="117" lemma="al" pos="PAL" space=" ">al</W>
+ <W cur="645" id="118" lemma="hecho" pos="NC" space=" ">hecho</W>
+ <W cur="651" id="119" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="654" id="120" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="658" id="121" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="661" id="122" lemma="personal" pos="NC" space=" ">personal</W>
+ <W cur="670" id="123" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="674" id="124" lemma="hospital" pos="NC" space=" ">hospital</W>
+ <W cur="683" id="125" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="686" id="126" lemma="dar" pos="VLfin" space=" ">diera</W>
+ <W cur="692" id="127" lemma="cuenta" pos="NC" space=" ">cuenta</W>
+ <W cur="699" id="128" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="702" id="129" lemma="este" pos="DM" space=" ">esta</W>
+ <W cur="707" id="130" lemma="conducta" pos="NC" space=" ">conducta</W>
+ <W cur="716" id="131" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="720" id="132" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="723" id="133" lemma="él" pos="PPC" space=" ">le</W>
+ <W cur="726" id="134" lemma="poder" pos="VMfin" space=" ">pudo</W>
+ <W cur="731" id="135" lemma="detener" pos="VLinf" space=" ">detener</W>
+ <W boundary="sentence" cur="738" id="136" lemma="." pos="FS">.</W>
+ <W cur="740" id="137" lemma="el" pos="ART" space=" ">La</W>
+ <W cur="743" id="138" lemma="policía" pos="NC" space=" ">policía</W>
+ <W cur="751" id="139" lemma="haber" pos="VHfin" space=" ">ha</W>
+ <W cur="754" id="140" lemma="_" pos="VLadj" space=" ">averiguado</W>
+ <W cur="765" id="141" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="769" id="142" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="772" id="143" lemma="razón" pos="NC" space=" ">razón</W>
+ <W cur="778" id="144" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="781" id="145" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="785" id="146" lemma="asesinato" pos="NC" space=" ">asesinatos</W>
+ <W cur="796" id="147" lemma="ser" pos="VEfin" space=" ">era</W>
+ <W cur="800" id="148" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="804" id="149" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="806" id="150" lemma="_" pos="NC" space=" ">Norris</W>
+ <W cur="813" id="151" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="816" id="152" lemma="él" pos="PPC" space=" ">le</W>
+ <W cur="819" id="153" lemma="gustar" pos="VLfin" space=" ">gustaba</W>
+ <W cur="827" id="154" lemma="trabajar" pos="VLinf" space=" ">trabajar</W>
+ <W cur="836" id="155" lemma="con" pos="PREP" space=" ">con</W>
+ <W cur="840" id="156" lemma="gente" pos="NC" space=" ">gente</W>
+ <W cur="846" id="157" lemma="grande" pos="ADJ" space=" ">mayor</W>
+ <W boundary="sentence" cur="851" id="158" lemma="." pos="FS">.</W>
+ <W cur="853" id="159" lemma="todo" pos="QU" space=" ">Todas</W>
+ <W cur="859" id="160" lemma="suyo" pos="PPO" space=" ">sus</W>
+ <W cur="863" id="161" lemma="víctima" pos="NC" space=" ">víctimas</W>
+ <W cur="872" id="162" lemma="erar|ser" pos="VLfin" space=" ">eran</W>
+ <W cur="877" id="163" lemma="mujer" pos="NC" space=" ">mujeres</W>
+ <W cur="885" id="164" lemma="grande" pos="ADJ" space=" ">mayores</W>
+ <W cur="893" id="165" lemma="con" pos="PREP" space=" ">con</W>
+ <W cur="897" id="166" lemma="problema" pos="NC" space=" ">problemas</W>
+ <W cur="907" id="167" lemma="cardíaco" pos="ADJ" space=" ">cardíacos</W>
+ <W cur="917" id="168" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="919" id="169" lemma="todo" pos="QU" space=" ">todas</W>
+ <W cur="925" id="170" lemma="él" pos="PPX" space=" ">ellas</W>
+ <W cur="931" id="171" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="934" id="172" lemma="poder" pos="VLfin" space=" ">podían</W>
+ <W cur="941" id="173" lemma="considerar" pos="VLinf" space=" ">considerar</W>
+ <W cur="952" id="174" lemma="como" pos="CSUBX" space=" ">como</W>
+ <W cur="957" id="175" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="960" id="176" lemma="cargo" pos="NC" space=" ">cargo</W>
+ <W cur="966" id="177" lemma="para" pos="PREP" space=" ">para</W>
+ <W cur="971" id="178" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="974" id="179" lemma="personal" pos="NC" space=" ">personal</W>
+ <W cur="983" id="180" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="987" id="181" lemma="hospital" pos="NC" space=" ">hospital</W>
+ <W boundary="sentence" cur="995" id="182" lemma="." pos="FS">.</W>
 </Text>

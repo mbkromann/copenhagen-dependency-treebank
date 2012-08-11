@@ -1,151 +1,152 @@
-<Text language="zh" >
-<W cur="0" id="1">杀手</W>
-<W cur="2" id="2">护士</W>
-<W cur="4" id="3">被</W>
-<W cur="5" id="4">判处</W>
-<W cur="7" id="5">四</W>
-<W cur="8" id="6">次</W>
-<W cur="9" id="7">终身</W>
-<W cur="11" id="8">监禁</W>
-<W cur="14" id="9" space="&#xA;">医院</W>
-<W cur="16" id="10">护士</W>
-<W cur="18" id="11">科林</W>
-<W cur="20" id="12">ｷ</W>
-<W cur="21" id="13">诺里斯</W>
-<W cur="24" id="14">今天</W>
-<W cur="26" id="15">被</W>
-<W cur="27" id="16">判</W>
-<W cur="28" id="17">终身</W>
-<W cur="30" id="18">监禁</W>
-<W cur="32" id="19">,</W>
-<W cur="33" id="20">由于</W>
-<W cur="35" id="21">杀害</W>
-<W cur="37" id="22">他</W>
-<W cur="38" id="23">的</W>
-<W cur="39" id="24">四</W>
-<W cur="40" id="25">个</W>
-<W cur="41" id="26">病人</W>
-<W cur="43" id="27">。</W>
-<W cur="44" id="28">今年</W>
-<W cur="46" id="29">32</W>
-<W cur="48" id="30">岁</W>
-<W cur="49" id="31">的</W>
-<W cur="50" id="32">诺里斯</W>
-<W cur="53" id="33">来自</W>
-<W cur="55" id="34">格拉斯哥</W>
-<W cur="59" id="35">在</W>
-<W cur="60" id="36">2002</W>
-<W cur="64" id="37">年</W>
-<W cur="65" id="38">通过</W>
-<W cur="67" id="39">给</W>
-<W cur="68" id="40">他们</W>
-<W cur="70" id="41">大量</W>
-<W cur="72" id="42">的</W>
-<W cur="73" id="43">安眠药</W>
-<W cur="76" id="44">杀害</W>
-<W cur="78" id="45">四</W>
-<W cur="79" id="46">名</W>
-<W cur="80" id="47">妇女</W>
-<W cur="82" id="48">。</W>
-<W cur="83" id="49">昨天</W>
-<W cur="85" id="50">，</W>
-<W cur="86" id="51">通过</W>
-<W cur="88" id="52">长期</W>
-<W cur="90" id="53">的</W>
-<W cur="91" id="54">审判</W>
-<W cur="93" id="55">之后</W>
-<W cur="95" id="56">,</W>
-<W cur="96" id="57">他</W>
-<W cur="97" id="58">被</W>
-<W cur="98" id="59">判</W>
-<W cur="99" id="60">犯有</W>
-<W cur="101" id="61">四</W>
-<W cur="102" id="62">项</W>
-<W cur="103" id="63">谋杀</W>
-<W cur="105" id="64">罪名</W>
-<W cur="107" id="65">。</W>
-<W cur="108" id="66">给</W>
-<W cur="109" id="67">了</W>
-<W cur="110" id="68">他</W>
-<W cur="111" id="69">四</W>
-<W cur="112" id="70">个</W>
-<W cur="113" id="71">终身</W>
-<W cur="115" id="72">监禁</W>
-<W cur="117" id="73">刑罚</W>
-<W cur="119" id="74">。</W>
-<W cur="120" id="75">他</W>
-<W cur="121" id="76">将</W>
-<W cur="122" id="77">不得不</W>
-<W cur="125" id="78">坐牢</W>
-<W cur="127" id="79">至少</W>
-<W cur="129" id="80">30</W>
-<W cur="131" id="81">年</W>
-<W cur="132" id="82">。</W>
-<W cur="133" id="83">警官</W>
-<W cur="135" id="84">克里斯</W>
-<W cur="138" id="85">ｷ</W>
-<W cur="139" id="86">格雷格</W>
-<W cur="142" id="87">说</W>
-<W cur="143" id="88">，</W>
-<W cur="144" id="89">诺里斯</W>
-<W cur="147" id="90">在</W>
-<W cur="148" id="91">医院</W>
-<W cur="150" id="92">行为</W>
-<W cur="152" id="93">古怪</W>
-<W cur="154" id="94">。</W>
-<W cur="155" id="95">在</W>
-<W cur="156" id="96">医院</W>
-<W cur="158" id="97">其他</W>
-<W cur="160" id="98">工作</W>
-<W cur="162" id="99">人员</W>
-<W cur="164" id="100">的</W>
-<W cur="165" id="101">发现</W>
-<W cur="167" id="102">下</W>
-<W cur="168" id="103">制止</W>
-<W cur="170" id="104">他</W>
-<W cur="171" id="105">的</W>
-<W cur="172" id="106">杀戮</W>
-<W cur="174" id="107">。</W>
-<W cur="175" id="108">警方</W>
-<W cur="177" id="109">已</W>
-<W cur="178" id="110">了解</W>
-<W cur="180" id="111">到</W>
-<W cur="181" id="112">，</W>
-<W cur="182" id="113">他</W>
-<W cur="183" id="114">杀人</W>
-<W cur="185" id="115">的</W>
-<W cur="186" id="116">动机</W>
-<W cur="188" id="117">是</W>
-<W cur="189" id="118">，</W>
-<W cur="190" id="119">诺里斯</W>
-<W cur="193" id="120">不</W>
-<W cur="194" id="121">喜欢</W>
-<W cur="196" id="122">为</W>
-<W cur="197" id="123">老人</W>
-<W cur="199" id="124">服务</W>
-<W cur="201" id="125">。</W>
-<W cur="202" id="126">他</W>
-<W cur="203" id="127">的</W>
-<W cur="204" id="128">受害者</W>
-<W cur="207" id="129">都</W>
-<W cur="208" id="130">是</W>
-<W cur="209" id="131">老弱</W>
-<W cur="211" id="132">的</W>
-<W cur="212" id="133">有</W>
-<W cur="213" id="134">心脏</W>
-<W cur="215" id="135">问题</W>
-<W cur="217" id="136">的</W>
-<W cur="218" id="137">妇女</W>
-<W cur="220" id="138">。</W>
-<W cur="221" id="139">他们</W>
-<W cur="223" id="140">都</W>
-<W cur="224" id="141">被</W>
-<W cur="225" id="142">认为</W>
-<W cur="227" id="143">是</W>
-<W cur="228" id="144">医院</W>
-<W cur="230" id="145">工作</W>
-<W cur="232" id="146">人员</W>
-<W cur="234" id="147">的</W>
-<W cur="235" id="148">负担</W>
-<W cur="237" id="149">。</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="zh" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" pos="n">杀手</W>
+ <W cur="2" id="2" pos="n">护士</W>
+ <W cur="4" id="3" pos="p">被</W>
+ <W cur="5" id="4" pos="v">判处</W>
+ <W cur="7" id="5" pos="m">四</W>
+ <W cur="8" id="6" pos="q">次</W>
+ <W cur="9" id="7" pos="n">终身</W>
+ <W cur="11" id="8" pos="v">监禁</W>
+ <W cur="14" id="9" pos="n" space="&#xA;">医院</W>
+ <W cur="16" id="10" pos="n">护士</W>
+ <W cur="18" id="11" pos="nr">科林</W>
+ <W cur="20" id="12" pos="nr">ｷ</W>
+ <W cur="21" id="13" pos="nr">诺里斯</W>
+ <W cur="24" id="14" pos="t">今天</W>
+ <W cur="26" id="15" pos="p">被</W>
+ <W cur="27" id="16" pos="v">判</W>
+ <W cur="28" id="17" pos="n">终身</W>
+ <W cur="30" id="18" pos="v">监禁</W>
+ <W cur="32" id="19" pos="w">,</W>
+ <W cur="33" id="20" pos="c">由于</W>
+ <W cur="35" id="21" pos="v">杀害</W>
+ <W cur="37" id="22" pos="r">他</W>
+ <W cur="38" id="23" pos="u">的</W>
+ <W cur="39" id="24" pos="m">四</W>
+ <W cur="40" id="25" pos="q">个</W>
+ <W cur="41" id="26" pos="n">病人</W>
+ <W boundary="sentence" cur="43" id="27" pos="ew">。</W>
+ <W cur="44" id="28" pos="t">今年</W>
+ <W cur="46" id="29" pos="m">32</W>
+ <W cur="48" id="30" pos="q">岁</W>
+ <W cur="49" id="31" pos="u">的</W>
+ <W cur="50" id="32" pos="nr">诺里斯</W>
+ <W cur="53" id="33" pos="v">来自</W>
+ <W cur="55" id="34" pos="ns">格拉斯哥</W>
+ <W cur="59" id="35" pos="p">在</W>
+ <W cur="60" id="36" pos="m">2002</W>
+ <W cur="64" id="37" pos="q">年</W>
+ <W cur="65" id="38" pos="v">通过</W>
+ <W cur="67" id="39" pos="p">给</W>
+ <W cur="68" id="40" pos="r">他们</W>
+ <W cur="70" id="41" pos="m">大量</W>
+ <W cur="72" id="42" pos="u">的</W>
+ <W cur="73" id="43" pos="n">安眠药</W>
+ <W cur="76" id="44" pos="v">杀害</W>
+ <W cur="78" id="45" pos="m">四</W>
+ <W cur="79" id="46" pos="q">名</W>
+ <W cur="80" id="47" pos="n">妇女</W>
+ <W boundary="sentence" cur="82" id="48" pos="ew">。</W>
+ <W cur="83" id="49" pos="t">昨天</W>
+ <W cur="85" id="50" pos="w">，</W>
+ <W cur="86" id="51" pos="p">通过</W>
+ <W cur="88" id="52" pos="b">长期</W>
+ <W cur="90" id="53" pos="u">的</W>
+ <W cur="91" id="54" pos="vn">审判</W>
+ <W cur="93" id="55" pos="f">之后</W>
+ <W cur="95" id="56" pos="w">,</W>
+ <W cur="96" id="57" pos="r">他</W>
+ <W cur="97" id="58" pos="p">被</W>
+ <W cur="98" id="59" pos="v">判</W>
+ <W cur="99" id="60" pos="v">犯有</W>
+ <W cur="101" id="61" pos="m">四</W>
+ <W cur="102" id="62" pos="q">项</W>
+ <W cur="103" id="63" pos="v">谋杀</W>
+ <W cur="105" id="64" pos="n">罪名</W>
+ <W boundary="sentence" cur="107" id="65" pos="ew">。</W>
+ <W cur="108" id="66" pos="v">给</W>
+ <W cur="109" id="67" pos="u">了</W>
+ <W cur="110" id="68" pos="r">他</W>
+ <W cur="111" id="69" pos="m">四</W>
+ <W cur="112" id="70" pos="q">个</W>
+ <W cur="113" id="71" pos="n">终身</W>
+ <W cur="115" id="72" pos="v">监禁</W>
+ <W cur="117" id="73" pos="n">刑罚</W>
+ <W boundary="sentence" cur="119" id="74" pos="ew">。</W>
+ <W cur="120" id="75" pos="r">他</W>
+ <W cur="121" id="76" pos="d">将</W>
+ <W cur="122" id="77" pos="d">不得不</W>
+ <W cur="125" id="78" pos="v">坐牢</W>
+ <W cur="127" id="79" pos="d">至少</W>
+ <W cur="129" id="80" pos="m">30</W>
+ <W cur="131" id="81" pos="q">年</W>
+ <W boundary="sentence" cur="132" id="82" pos="ew">。</W>
+ <W cur="133" id="83" pos="n">警官</W>
+ <W cur="135" id="84" pos="nr">克里斯</W>
+ <W cur="138" id="85" pos="nr">ｷ</W>
+ <W cur="139" id="86" pos="nr">格雷格</W>
+ <W cur="142" id="87" pos="v">说</W>
+ <W cur="143" id="88" pos="w">，</W>
+ <W cur="144" id="89" pos="nr">诺里斯</W>
+ <W cur="147" id="90" pos="p">在</W>
+ <W cur="148" id="91" pos="n">医院</W>
+ <W cur="150" id="92" pos="n">行为</W>
+ <W cur="152" id="93" pos="a">古怪</W>
+ <W boundary="sentence" cur="154" id="94" pos="ew">。</W>
+ <W cur="155" id="95" pos="p">在</W>
+ <W cur="156" id="96" pos="n">医院</W>
+ <W cur="158" id="97" pos="r">其他</W>
+ <W cur="160" id="98" pos="vn">工作</W>
+ <W cur="162" id="99" pos="n">人员</W>
+ <W cur="164" id="100" pos="u">的</W>
+ <W cur="165" id="101" pos="v">发现</W>
+ <W cur="167" id="102" pos="f">下</W>
+ <W cur="168" id="103" pos="v">制止</W>
+ <W cur="170" id="104" pos="r">他</W>
+ <W cur="171" id="105" pos="u">的</W>
+ <W cur="172" id="106" pos="v">杀戮</W>
+ <W boundary="sentence" cur="174" id="107" pos="ew">。</W>
+ <W cur="175" id="108" pos="n">警方</W>
+ <W cur="177" id="109" pos="d">已</W>
+ <W cur="178" id="110" pos="v">了解</W>
+ <W cur="180" id="111" pos="v">到</W>
+ <W cur="181" id="112" pos="w">，</W>
+ <W cur="182" id="113" pos="r">他</W>
+ <W cur="183" id="114" pos="v">杀人</W>
+ <W cur="185" id="115" pos="u">的</W>
+ <W cur="186" id="116" pos="n">动机</W>
+ <W cur="188" id="117" pos="v">是</W>
+ <W cur="189" id="118" pos="w">，</W>
+ <W cur="190" id="119" pos="nr">诺里斯</W>
+ <W cur="193" id="120" pos="d">不</W>
+ <W cur="194" id="121" pos="v">喜欢</W>
+ <W cur="196" id="122" pos="p">为</W>
+ <W cur="197" id="123" pos="n">老人</W>
+ <W cur="199" id="124" pos="vn">服务</W>
+ <W boundary="sentence" cur="201" id="125" pos="ew">。</W>
+ <W cur="202" id="126" pos="r">他</W>
+ <W cur="203" id="127" pos="u">的</W>
+ <W cur="204" id="128" pos="n">受害者</W>
+ <W cur="207" id="129" pos="d">都</W>
+ <W cur="208" id="130" pos="v">是</W>
+ <W cur="209" id="131" pos="a">老弱</W>
+ <W cur="211" id="132" pos="u">的</W>
+ <W cur="212" id="133" pos="v">有</W>
+ <W cur="213" id="134" pos="n">心脏</W>
+ <W cur="215" id="135" pos="n">问题</W>
+ <W cur="217" id="136" pos="u">的</W>
+ <W cur="218" id="137" pos="n">妇女</W>
+ <W boundary="sentence" cur="220" id="138" pos="ew">。</W>
+ <W cur="221" id="139" pos="r">他们</W>
+ <W cur="223" id="140" pos="d">都</W>
+ <W cur="224" id="141" pos="p">被</W>
+ <W cur="225" id="142" pos="v">认为</W>
+ <W cur="227" id="143" pos="v">是</W>
+ <W cur="228" id="144" pos="n">医院</W>
+ <W cur="230" id="145" pos="vn">工作</W>
+ <W cur="232" id="146" pos="n">人员</W>
+ <W cur="234" id="147" pos="u">的</W>
+ <W cur="235" id="148" pos="n">负担</W>
+ <W boundary="sentence" cur="237" id="149" pos="ew">。</W>
 </Text>

@@ -1,112 +1,113 @@
-<Text language="en" dep_parser="lotte" >
-<W id="1" cur="0" space="" in="24:conc" out="3:vobj">Although</W>
-<W id="2" cur="9" space=" " in="1:attr#" out="">developing</W>
-<W id="3" cur="20" space=" " in="1:subj" out="-1:attr#">countries</W>
-<W id="4" cur="30" space=" " in="-3:vobj" out="-1:subj|1:eval|2:preds|16:pnct">are</W>
-<W id="5" cur="34" space=" " in="-1:eval" out="">understandably</W>
-<W id="6" cur="49" space=" " in="-2:preds" out="1:pobj">reluctant</W>
-<W id="7" cur="59" space=" " in="-1:pobj" out="1:nobj">to</W>
-<W id="8" cur="62" space=" " in="-1:nobj" out="1:dobj">compromise</W>
-<W id="9" cur="73" space=" " in="-1:dobj|1:{other}" out="1:possd">their</W>
-<W id="10" cur="79" space=" " in="-1:possd" out="1:pobj|1:{arg}|-1:{other}">chances</W>
-<W id="11" cur="87" space=" " in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
-<W id="12" cur="90" space=" " in="-1:nobj" out="2:dobj|5:goal">achieving</W>
-<W id="13" cur="100" space=" " in="1:attr" out="">better</W>
-<W id="14" cur="107" space=" " in="-2:dobj" out="-1:attr|1:pobj|1:{arg}#">standards</W>
-<W id="15" cur="117" space=" " in="-1:pobj|-1:{arg}#" out="1:nobj">of</W>
-<W id="16" cur="120" space=" " in="-1:nobj" out="">living</W>
-<W id="17" cur="127" space=" " in="-5:goal" out="1:nobj">for</W>
-<W id="18" cur="131" space=" " in="-1:nobj" out="1:nobj">the</W>
-<W id="19" cur="135" space=" " in="-1:nobj" out="">poor</W>
-<W id="20" cur="139" in="-16:pnct" out="">,</W>
-<W id="21" cur="141" space=" " in="4:subj|6:[subj]" out="1:pobj.pobj|1:{patient}">action</W>
-<W id="22" cur="148" space=" " in="-1:pobj.pobj|-1:{patient}" out="2:nobj">on</W>
-<W id="23" cur="151" space=" " in="1:nobj.subj|1:{patient}#" out="">climate</W>
-<W id="24" cur="159" space=" " in="-2:nobj" out="-1:nobj.subj|-1:{patient}#">change</W>
-<W id="25" cur="166" space=" " in="" out="-24:conc|-4:subj|1:neg|2:vobj|5:pnct">need</W>
-<W id="26" cur="171" space=" " in="-1:neg" out="">not</W>
-<W id="27" cur="175" space=" " in="-2:vobj" out="-6:[subj]|2:dobj">threaten</W>
-<W id="28" cur="184" space=" " in="1:aobj.subj|1:{patient}#" out="">economic</W>
-<W id="29" cur="193" space=" " in="-2:dobj" out="-1:aobj.subj|-1:{patient}#">development</W>
-<W id="30" cur="204" in="-5:pnct" out="">.</W>
-<W id="31" cur="206" space=" " in="1:subj|2:[subj]|20:[subj]|22:[subj]|23:[subj]" out="">Incentives</W>
-<W id="32" cur="217" space=" " in="" out="-1:subj|1:vobj|3:goal|17:pnct|19:conj|26:pnct">must</W>
-<W id="33" cur="222" space=" " in="-1:vobj" out="-2:[subj]|1:preds">be</W>
-<W id="34" cur="225" space=" " in="-1:preds" out="">offered</W>
-<W id="35" cur="233" space=" " in="-3:goal" out="1:nobj">to</W>
-<W id="36" cur="236" space=" " in="-1:nobj" out="3:pobj|2:dobj">encourage</W>
-<W id="37" cur="246" space=" " in="1:attr#" out="">developing</W>
-<W id="38" cur="257" space=" " in="-2:dobj" out="-1:attr#">countries</W>
-<W id="39" cur="267" space=" " in="-3:pobj" out="1:nobj">to</W>
-<W id="40" cur="270" space=" " in="-1:nobj" out="6:conj|1:@space">go</W>
-<W id="41" cur="273" space=" " in="-1:@space" out="1:attr|2:attr|3:nobj">the</W>
-<W id="42" cur="277" space=" " in="-1:attr" out="">extra</W>
-<W id="43" cur="283" space=" " in="-2:attr" out="">green</W>
-<W id="44" cur="289" space=" " in="-3:nobj" out="">mile</W>
-<W id="45" cur="294" space=" " in="1:coord" out="">and</W>
-<W id="46" cur="298" space=" " in="-6:conj" out="2:dobj|-1:coord">implement</W>
-<W id="47" cur="308" space=" " in="1:attr" out="">clean</W>
-<W id="48" cur="314" space=" " in="-2:dobj" out="-1:attr">technologies</W>
-<W id="49" cur="326" in="-17:pnct" out="">,</W>
-<W id="50" cur="328" space=" " in="1:coord" out="">and</W>
-<W id="51" cur="332" space=" " in="-19:conj" out="-1:coord|1:add|2:vobj|-20:[subj]">could</W>
-<W id="52" cur="338" space=" " in="-1:add" out="">also</W>
-<W id="53" cur="343" space=" " in="-2:vobj" out="-22:[subj]|1:vobj">help</W>
-<W id="54" cur="348" space=" " in="-1:vobj" out="-23:[subj]|1:dobj">minimise</W>
-<W id="55" cur="357" space=" " in="-1:dobj" out="1:attr|1:{source}">emissions</W>
-<W id="56" cur="367" space=" " in="-1:attr|-1:{source}" out="1:nobj">from</W>
-<W id="57" cur="372" space=" " in="-1:nobj" out="">deforestation</W>
-<W id="58" cur="385" in="-26:pnct" out="">.</W>
-<W id="59" cur="387" space=" " in="9:subj|1:{quant}|10:[subj]" out="1:pobj">Some</W>
-<W id="60" cur="392" space=" " in="-1:pobj" out="-1:{quant}|1:nobj">of</W>
-<W id="61" cur="395" space=" " in="-1:nobj" out="2:attr|3:nobj">the</W>
-<W id="62" cur="399" space=" " in="1:quant" out="">most</W>
-<W id="63" cur="404" space=" " in="-2:attr" out="-1:quant">vulnerable</W>
-<W id="64" cur="415" space=" " in="-3:nobj" out="1:attr|1:{loc}">countries</W>
-<W id="65" cur="425" space=" " in="-1:attr|-1:{loc}" out="1:nobj">of</W>
-<W id="66" cur="428" space=" " in="-1:nobj" out="1:nobj">the</W>
-<W id="67" cur="432" space=" " in="-1:nobj" out="">world</W>
-<W id="68" cur="438" space=" " in="" out="-9:subj|1:vobj|7:pnct|9:conj|15:pnct">have</W>
-<W id="69" cur="443" space=" " in="-1:vobj" out="-10:[subj]|1:quant|3:pobj">contributed</W>
-<W id="70" cur="455" space=" " in="-1:quant" out="1:attr">the</W>
-<W id="71" cur="459" space=" " in="-1:attr" out="">least</W>
-<W id="72" cur="465" space=" " in="-3:pobj" out="2:nobj">to</W>
-<W id="73" cur="468" space=" " in="1:nobj.subj|1:{patient}#" out="">climate</W>
-<W id="74" cur="476" space=" " in="-2:nobj" out="-1:nobj.subj|-1:{patient}#">change</W>
-<W id="75" cur="482" in="-7:pnct" out="">,</W>
-<W id="76" cur="484" space=" " in="1:coord" out="">but</W>
-<W id="77" cur="488" space=" " in="-9:conj" out="-1:coord|1:vobj">are</W>
-<W id="78" cur="492" space=" " in="-1:vobj" out="1:dobj">bearing</W>
-<W id="79" cur="500" space=" " in="-1:dobj" out="1:nobj">the</W>
-<W id="80" cur="504" space=" " in="-1:nobj" out="1:pobj|1:{arg}">brunt</W>
-<W id="81" cur="510" space=" " in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
-<W id="82" cur="513" space=" " in="-1:nobj" out="">it</W>
-<W id="83" cur="515" in="-15:pnct" out="">.</W>
-<W id="84" cur="517" space=" " in="1:attr#" out="">Developing</W>
-<W id="85" cur="528" space=" " in="5:subj" out="-1:attr#|1:pnct|2:focal">countries</W>
-<W id="86" cur="537" in="-1:pnct" out="">,</W>
-<W id="87" cur="539" space=" " in="-2:focal" out="1:nobj|2:pnct">in</W>
-<W id="88" cur="542" space=" " in="-1:nobj" out="">particular</W>
-<W id="89" cur="552" in="-2:pnct" out="">,</W>
-<W id="90" cur="554" space=" " in="" out="-5:subj|9:pnct|1:dobj">need</W>
-<W id="91" cur="559" space=" " in="-1:dobj" out="1:vobj">to</W>
-<W id="92" cur="562" space=" " in="-1:vobj" out="1:pobj">adapt</W>
-<W id="93" cur="568" space=" " in="-1:pobj" out="1:nobj">to</W>
-<W id="94" cur="571" space=" " in="-1:nobj" out="1:nobj">the</W>
-<W id="95" cur="575" space=" " in="-1:nobj" out="1:pobj|1:{cause}">effects</W>
-<W id="96" cur="583" space=" " in="-1:pobj|-1:{cause}" out="2:nobj">of</W>
-<W id="97" cur="586" space=" " in="1:nobj.subj|1:{patient}" out="">climate</W>
-<W id="98" cur="594" space=" " in="-2:nobj" out="-1:nobj.subj|-1:{patient}">change</W>
-<W id="99" cur="600" in="-9:pnct" out="">.</W>
-<W id="100" cur="602" space=" " in="3:attr|3:{goal}" out="2:conj">Adaptation</W>
-<W id="101" cur="613" space=" " in="1:coord" out="">and</W>
-<W id="102" cur="617" space=" " in="-2:conj" out="-1:coord">mitigation</W>
-<W id="103" cur="628" space=" " in="1:subj|3:[subj]" out="-3:attr|-3:{goal}">efforts</W>
-<W id="104" cur="636" space=" " in="" out="-1:subj|2:vobj|1:cause|6:pnct">must</W>
-<W id="105" cur="641" space=" " in="-1:cause" out="">therefore</W>
-<W id="106" cur="651" space=" " in="-2:vobj" out="-3:[subj]|1:man">go</W>
-<W id="107" cur="654" space=" " in="-1:man" out="1:attr|1:{other}#">hand</W>
-<W id="108" cur="659" space=" " in="-1:attr|-1:{other}#" out="1:nobj">in</W>
-<W id="109" cur="662" space=" " in="-1:nobj" out="">hand</W>
-<W id="110" cur="666" in="-6:pnct" out="">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text dep_parser="lotte" language="en" lemmatizer="nltk-wordnet-lemmatizer" sent_segmenter="nltk_sent_tokenizer" tagger="nltk-pos-tagger">
+ <W cur="0" id="1" in="24:conc" lemma="Although" out="3:vobj" pos="IN" space="">Although</W>
+ <W cur="9" id="2" in="1:attr#" lemma="develop" out="" pos="VBG" space=" ">developing</W>
+ <W cur="20" id="3" in="1:subj" lemma="country" out="-1:attr#" pos="NNS" space=" ">countries</W>
+ <W cur="30" id="4" in="-3:vobj" lemma="be" out="-1:subj|1:eval|2:preds|16:pnct" pos="VBP" space=" ">are</W>
+ <W cur="34" id="5" in="-1:eval" lemma="understandably" out="" pos="RB" space=" ">understandably</W>
+ <W cur="49" id="6" in="-2:preds" lemma="reluctant" out="1:pobj" pos="JJ" space=" ">reluctant</W>
+ <W cur="59" id="7" in="-1:pobj" lemma="to" out="1:nobj" pos="TO" space=" ">to</W>
+ <W cur="62" id="8" in="-1:nobj" lemma="compromise" out="1:dobj" pos="VB" space=" ">compromise</W>
+ <W cur="73" id="9" in="-1:dobj|1:{other}" lemma="their" out="1:possd" pos="PRP$" space=" ">their</W>
+ <W cur="79" id="10" in="-1:possd" lemma="chance" out="1:pobj|1:{arg}|-1:{other}" pos="NNS" space=" ">chances</W>
+ <W cur="87" id="11" in="-1:pobj|-1:{arg}" lemma="of" out="1:nobj" pos="IN" space=" ">of</W>
+ <W cur="90" id="12" in="-1:nobj" lemma="achieve" out="2:dobj|5:goal" pos="VBG" space=" ">achieving</W>
+ <W cur="100" id="13" in="1:attr" lemma="good" out="" pos="JJR" space=" ">better</W>
+ <W cur="107" id="14" in="-2:dobj" lemma="standard" out="-1:attr|1:pobj|1:{arg}#" pos="NNS" space=" ">standards</W>
+ <W cur="117" id="15" in="-1:pobj|-1:{arg}#" lemma="of" out="1:nobj" pos="IN" space=" ">of</W>
+ <W cur="120" id="16" in="-1:nobj" lemma="live" out="" pos="VBG" space=" ">living</W>
+ <W cur="127" id="17" in="-5:goal" lemma="for" out="1:nobj" pos="IN" space=" ">for</W>
+ <W cur="131" id="18" in="-1:nobj" lemma="the" out="1:nobj" pos="DT" space=" ">the</W>
+ <W cur="135" id="19" in="-1:nobj" lemma="poor" out="" pos="JJ" space=" ">poor</W>
+ <W cur="139" id="20" in="-16:pnct" lemma="," out="" pos=",">,</W>
+ <W cur="141" id="21" in="4:subj|6:[subj]" lemma="action" out="1:pobj.pobj|1:{patient}" pos="NN" space=" ">action</W>
+ <W cur="148" id="22" in="-1:pobj.pobj|-1:{patient}" lemma="on" out="2:nobj" pos="IN" space=" ">on</W>
+ <W cur="151" id="23" in="1:nobj.subj|1:{patient}#" lemma="climate" out="" pos="NN" space=" ">climate</W>
+ <W cur="159" id="24" in="-2:nobj" lemma="change" out="-1:nobj.subj|-1:{patient}#" pos="NN" space=" ">change</W>
+ <W cur="166" id="25" in="" lemma="need" out="-24:conc|-4:subj|1:neg|2:vobj|5:pnct" pos="VBP" space=" ">need</W>
+ <W cur="171" id="26" in="-1:neg" lemma="not" out="" pos="RB" space=" ">not</W>
+ <W cur="175" id="27" in="-2:vobj" lemma="threaten" out="-6:[subj]|2:dobj" pos="VBN" space=" ">threaten</W>
+ <W cur="184" id="28" in="1:aobj.subj|1:{patient}#" lemma="economic" out="" pos="JJ" space=" ">economic</W>
+ <W cur="193" id="29" in="-2:dobj" lemma="development" out="-1:aobj.subj|-1:{patient}#" pos="NN" space=" ">development</W>
+ <W boundary="sentence" cur="204" id="30" in="-5:pnct" lemma="." out="" pos=".">.</W>
+ <W cur="206" id="31" in="1:subj|2:[subj]|20:[subj]|22:[subj]|23:[subj]" lemma="Incentives" out="" pos="NNS" space=" ">Incentives</W>
+ <W cur="217" id="32" in="" lemma="must" out="-1:subj|1:vobj|3:goal|17:pnct|19:conj|26:pnct" pos="MD" space=" ">must</W>
+ <W cur="222" id="33" in="-1:vobj" lemma="be" out="-2:[subj]|1:preds" pos="VB" space=" ">be</W>
+ <W cur="225" id="34" in="-1:preds" lemma="offer" out="" pos="VBN" space=" ">offered</W>
+ <W cur="233" id="35" in="-3:goal" lemma="to" out="1:nobj" pos="TO" space=" ">to</W>
+ <W cur="236" id="36" in="-1:nobj" lemma="encourage" out="3:pobj|2:dobj" pos="VB" space=" ">encourage</W>
+ <W cur="246" id="37" in="1:attr#" lemma="develop" out="" pos="VBG" space=" ">developing</W>
+ <W cur="257" id="38" in="-2:dobj" lemma="country" out="-1:attr#" pos="NNS" space=" ">countries</W>
+ <W cur="267" id="39" in="-3:pobj" lemma="to" out="1:nobj" pos="TO" space=" ">to</W>
+ <W cur="270" id="40" in="-1:nobj" lemma="go" out="6:conj|1:@space" pos="VB" space=" ">go</W>
+ <W cur="273" id="41" in="-1:@space" lemma="the" out="1:attr|2:attr|3:nobj" pos="DT" space=" ">the</W>
+ <W cur="277" id="42" in="-1:attr" lemma="extra" out="" pos="JJ" space=" ">extra</W>
+ <W cur="283" id="43" in="-2:attr" lemma="green" out="" pos="JJ" space=" ">green</W>
+ <W cur="289" id="44" in="-3:nobj" lemma="mile" out="" pos="NN" space=" ">mile</W>
+ <W cur="294" id="45" in="1:coord" lemma="and" out="" pos="CC" space=" ">and</W>
+ <W cur="298" id="46" in="-6:conj" lemma="implement" out="2:dobj|-1:coord" pos="NN" space=" ">implement</W>
+ <W cur="308" id="47" in="1:attr" lemma="clean" out="" pos="NN" space=" ">clean</W>
+ <W cur="314" id="48" in="-2:dobj" lemma="technology" out="-1:attr" pos="NNS" space=" ">technologies</W>
+ <W cur="326" id="49" in="-17:pnct" lemma="," out="" pos=",">,</W>
+ <W cur="328" id="50" in="1:coord" lemma="and" out="" pos="CC" space=" ">and</W>
+ <W cur="332" id="51" in="-19:conj" lemma="could" out="-1:coord|1:add|2:vobj|-20:[subj]" pos="MD" space=" ">could</W>
+ <W cur="338" id="52" in="-1:add" lemma="also" out="" pos="RB" space=" ">also</W>
+ <W cur="343" id="53" in="-2:vobj" lemma="help" out="-22:[subj]|1:vobj" pos="VB" space=" ">help</W>
+ <W cur="348" id="54" in="-1:vobj" lemma="minimise" out="-23:[subj]|1:dobj" pos="DT" space=" ">minimise</W>
+ <W cur="357" id="55" in="-1:dobj" lemma="emission" out="1:attr|1:{source}" pos="NNS" space=" ">emissions</W>
+ <W cur="367" id="56" in="-1:attr|-1:{source}" lemma="from" out="1:nobj" pos="IN" space=" ">from</W>
+ <W cur="372" id="57" in="-1:nobj" lemma="deforestation" out="" pos="NN" space=" ">deforestation</W>
+ <W boundary="sentence" cur="385" id="58" in="-26:pnct" lemma="." out="" pos=".">.</W>
+ <W cur="387" id="59" in="9:subj|1:{quant}|10:[subj]" lemma="Some" out="1:pobj" pos="DT" space=" ">Some</W>
+ <W cur="392" id="60" in="-1:pobj" lemma="of" out="-1:{quant}|1:nobj" pos="IN" space=" ">of</W>
+ <W cur="395" id="61" in="-1:nobj" lemma="the" out="2:attr|3:nobj" pos="DT" space=" ">the</W>
+ <W cur="399" id="62" in="1:quant" lemma="most" out="" pos="RBS" space=" ">most</W>
+ <W cur="404" id="63" in="-2:attr" lemma="vulnerable" out="-1:quant" pos="JJ" space=" ">vulnerable</W>
+ <W cur="415" id="64" in="-3:nobj" lemma="country" out="1:attr|1:{loc}" pos="NNS" space=" ">countries</W>
+ <W cur="425" id="65" in="-1:attr|-1:{loc}" lemma="of" out="1:nobj" pos="IN" space=" ">of</W>
+ <W cur="428" id="66" in="-1:nobj" lemma="the" out="1:nobj" pos="DT" space=" ">the</W>
+ <W cur="432" id="67" in="-1:nobj" lemma="world" out="" pos="NN" space=" ">world</W>
+ <W cur="438" id="68" in="" lemma="have" out="-9:subj|1:vobj|7:pnct|9:conj|15:pnct" pos="VBP" space=" ">have</W>
+ <W cur="443" id="69" in="-1:vobj" lemma="contribute" out="-10:[subj]|1:quant|3:pobj" pos="VBN" space=" ">contributed</W>
+ <W cur="455" id="70" in="-1:quant" lemma="the" out="1:attr" pos="DT" space=" ">the</W>
+ <W cur="459" id="71" in="-1:attr" lemma="least" out="" pos="JJS" space=" ">least</W>
+ <W cur="465" id="72" in="-3:pobj" lemma="to" out="2:nobj" pos="TO" space=" ">to</W>
+ <W cur="468" id="73" in="1:nobj.subj|1:{patient}#" lemma="climate" out="" pos="VB" space=" ">climate</W>
+ <W cur="476" id="74" in="-2:nobj" lemma="change" out="-1:nobj.subj|-1:{patient}#" pos="NN" space=" ">change</W>
+ <W cur="482" id="75" in="-7:pnct" lemma="," out="" pos=",">,</W>
+ <W cur="484" id="76" in="1:coord" lemma="but" out="" pos="CC" space=" ">but</W>
+ <W cur="488" id="77" in="-9:conj" lemma="be" out="-1:coord|1:vobj" pos="VBP" space=" ">are</W>
+ <W cur="492" id="78" in="-1:vobj" lemma="bear" out="1:dobj" pos="VBG" space=" ">bearing</W>
+ <W cur="500" id="79" in="-1:dobj" lemma="the" out="1:nobj" pos="DT" space=" ">the</W>
+ <W cur="504" id="80" in="-1:nobj" lemma="brunt" out="1:pobj|1:{arg}" pos="NN" space=" ">brunt</W>
+ <W cur="510" id="81" in="-1:pobj|-1:{arg}" lemma="of" out="1:nobj" pos="IN" space=" ">of</W>
+ <W cur="513" id="82" in="-1:nobj" lemma="it" out="" pos="PRP" space=" ">it</W>
+ <W boundary="sentence" cur="515" id="83" in="-15:pnct" lemma="." out="" pos=".">.</W>
+ <W cur="517" id="84" in="1:attr#" lemma="Developing" out="" pos="VBG" space=" ">Developing</W>
+ <W cur="528" id="85" in="5:subj" lemma="country" out="-1:attr#|1:pnct|2:focal" pos="NNS" space=" ">countries</W>
+ <W cur="537" id="86" in="-1:pnct" lemma="," out="" pos=",">,</W>
+ <W cur="539" id="87" in="-2:focal" lemma="in" out="1:nobj|2:pnct" pos="IN" space=" ">in</W>
+ <W cur="542" id="88" in="-1:nobj" lemma="particular" out="" pos="JJ" space=" ">particular</W>
+ <W cur="552" id="89" in="-2:pnct" lemma="," out="" pos=",">,</W>
+ <W cur="554" id="90" in="" lemma="need" out="-5:subj|9:pnct|1:dobj" pos="VBP" space=" ">need</W>
+ <W cur="559" id="91" in="-1:dobj" lemma="to" out="1:vobj" pos="TO" space=" ">to</W>
+ <W cur="562" id="92" in="-1:vobj" lemma="adapt" out="1:pobj" pos="VB" space=" ">adapt</W>
+ <W cur="568" id="93" in="-1:pobj" lemma="to" out="1:nobj" pos="TO" space=" ">to</W>
+ <W cur="571" id="94" in="-1:nobj" lemma="the" out="1:nobj" pos="DT" space=" ">the</W>
+ <W cur="575" id="95" in="-1:nobj" lemma="effects" out="1:pobj|1:{cause}" pos="NNS" space=" ">effects</W>
+ <W cur="583" id="96" in="-1:pobj|-1:{cause}" lemma="of" out="2:nobj" pos="IN" space=" ">of</W>
+ <W cur="586" id="97" in="1:nobj.subj|1:{patient}" lemma="climate" out="" pos="NN" space=" ">climate</W>
+ <W cur="594" id="98" in="-2:nobj" lemma="change" out="-1:nobj.subj|-1:{patient}" pos="NN" space=" ">change</W>
+ <W boundary="sentence" cur="600" id="99" in="-9:pnct" lemma="." out="" pos=".">.</W>
+ <W cur="602" id="100" in="3:attr|3:{goal}" lemma="Adaptation" out="2:conj" pos="NN" space=" ">Adaptation</W>
+ <W cur="613" id="101" in="1:coord" lemma="and" out="" pos="CC" space=" ">and</W>
+ <W cur="617" id="102" in="-2:conj" lemma="mitigation" out="-1:coord" pos="NN" space=" ">mitigation</W>
+ <W cur="628" id="103" in="1:subj|3:[subj]" lemma="effort" out="-3:attr|-3:{goal}" pos="NNS" space=" ">efforts</W>
+ <W cur="636" id="104" in="" lemma="must" out="-1:subj|2:vobj|1:cause|6:pnct" pos="MD" space=" ">must</W>
+ <W cur="641" id="105" in="-1:cause" lemma="therefore" out="" pos="VB" space=" ">therefore</W>
+ <W cur="651" id="106" in="-2:vobj" lemma="go" out="-3:[subj]|1:man" pos="VB" space=" ">go</W>
+ <W cur="654" id="107" in="-1:man" lemma="hand" out="1:attr|1:{other}#" pos="NN" space=" ">hand</W>
+ <W cur="659" id="108" in="-1:attr|-1:{other}#" lemma="in" out="1:nobj" pos="IN" space=" ">in</W>
+ <W cur="662" id="109" in="-1:nobj" lemma="hand" out="" pos="NN" space=" ">hand</W>
+ <W boundary="sentence" cur="666" id="110" in="-6:pnct" lemma="." out="" pos=".">.</W>
 </Text>

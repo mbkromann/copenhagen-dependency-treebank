@@ -1,140 +1,141 @@
-<Text language="es" >
-<W cur="0" id="1">Es</W>
-<W cur="3" id="2" space=" ">comprensible</W>
-<W cur="16" id="3" space=" ">que</W>
-<W cur="20" id="4" space=" ">los</W>
-<W cur="24" id="5" space=" ">países</W>
-<W cur="31" id="6" space=" ">desarrolados</W>
-<W cur="44" id="7" space=" ">no</W>
-<W cur="47" id="8" space=" ">estén</W>
-<W cur="53" id="9" space=" ">particularmente</W>
-<W cur="69" id="10" space=" ">dispuestos</W>
-<W cur="80" id="11" space=" ">a</W>
-<W cur="82" id="12" space=" ">comprometer</W>
-<W cur="94" id="13" space=" ">sus</W>
-<W cur="98" id="14" space=" ">posibilidades</W>
-<W cur="112" id="15" space=" ">de</W>
-<W cur="115" id="16" space=" ">conseguir</W>
-<W cur="125" id="17" space=" ">mejores</W>
-<W cur="133" id="18" space=" ">estandares</W>
-<W cur="144" id="19" space=" ">de</W>
-<W cur="147" id="20" space=" ">nivel</W>
-<W cur="153" id="21" space=" ">de</W>
-<W cur="156" id="22" space=" ">vida</W>
-<W cur="161" id="23" space=" ">para</W>
-<W cur="166" id="24" space=" ">los</W>
-<W cur="170" id="25" space=" ">ciudadanos</W>
-<W cur="181" id="26" space=" ">con</W>
-<W cur="185" id="27" space=" ">probreza</W>
-<W cur="194" id="28" space=" ">la</W>
-<W cur="197" id="29" space=" ">acción</W>
-<W cur="204" id="30" space=" ">sobre</W>
-<W cur="210" id="31" space=" ">el</W>
-<W cur="213" id="32" space=" ">cambio</W>
-<W cur="220" id="33" space=" ">climático</W>
-<W cur="230" id="34" space=" ">no</W>
-<W cur="233" id="35" space=" ">debería</W>
-<W cur="241" id="36" space=" ">afectar</W>
-<W cur="249" id="37" space=" ">negativamente</W>
-<W cur="263" id="38" space=" ">su</W>
-<W cur="266" id="39" space=" ">desarrollo</W>
-<W cur="277" id="40" space=" ">económico</W>
-<W cur="286" id="41">.</W>
-<W cur="288" id="42" space=" ">Se</W>
-<W cur="291" id="43" space=" ">debería</W>
-<W cur="299" id="44" space=" ">ofrecer</W>
-<W cur="307" id="45" space=" ">incentivos</W>
-<W cur="318" id="46" space=" ">a</W>
-<W cur="320" id="47" space=" ">los</W>
-<W cur="324" id="48" space=" ">países</W>
-<W cur="331" id="49" space=" ">desarrollados</W>
-<W cur="345" id="50" space=" ">para</W>
-<W cur="350" id="51" space=" ">que</W>
-<W cur="354" id="52" space=" ">hagan</W>
-<W cur="360" id="53" space=" ">un</W>
-<W cur="363" id="54" space=" ">esfuerzo</W>
-<W cur="372" id="55" space=" ">extra</W>
-<W cur="378" id="56" space=" ">en</W>
-<W cur="381" id="57" space=" ">el</W>
-<W cur="384" id="58" space=" ">tramo</W>
-<W cur="390" id="59">"</W>
-<W cur="391" id="60">verde</W>
-<W cur="396" id="61">"</W>
-<W cur="398" id="62" space=" ">e</W>
-<W cur="400" id="63" space=" ">implementar</W>
-<W cur="412" id="64" space=" ">tecnologías</W>
-<W cur="424" id="65" space=" ">limpias</W>
-<W cur="431" id="66">,</W>
-<W cur="433" id="67" space=" ">y</W>
-<W cur="435" id="68" space=" ">así</W>
-<W cur="439" id="69" space=" ">ayudar</W>
-<W cur="446" id="70" space=" ">también</W>
-<W cur="454" id="71" space=" ">a</W>
-<W cur="456" id="72" space=" ">minimizar</W>
-<W cur="466" id="73" space=" ">las</W>
-<W cur="470" id="74" space=" ">emixiones</W>
-<W cur="480" id="75" space=" ">por</W>
-<W cur="484" id="76" space=" ">la</W>
-<W cur="487" id="77" space=" ">desforestación</W>
-<W cur="501" id="78">.</W>
-<W cur="503" id="79" space=" ">Algunos</W>
-<W cur="511" id="80" space=" ">de</W>
-<W cur="514" id="81" space=" ">los</W>
-<W cur="518" id="82" space=" ">países</W>
-<W cur="525" id="83" space=" ">más</W>
-<W cur="529" id="84" space=" ">vulnerables</W>
-<W cur="541" id="85" space=" ">del</W>
-<W cur="545" id="86" space=" ">mundo</W>
-<W cur="551" id="87" space=" ">son</W>
-<W cur="555" id="88" space=" ">los</W>
-<W cur="559" id="89" space=" ">que</W>
-<W cur="563" id="90" space=" ">menos</W>
-<W cur="569" id="91" space=" ">han</W>
-<W cur="573" id="92" space=" ">contribuido</W>
-<W cur="585" id="93" space=" ">al</W>
-<W cur="588" id="94" space=" ">cambio</W>
-<W cur="595" id="95" space=" ">climático</W>
-<W cur="604" id="96">,</W>
-<W cur="606" id="97" space=" ">pero</W>
-<W cur="611" id="98" space=" ">sin</W>
-<W cur="615" id="99" space=" ">embargo</W>
-<W cur="623" id="100" space=" ">son</W>
-<W cur="627" id="101" space=" ">los</W>
-<W cur="631" id="102" space=" ">que</W>
-<W cur="635" id="103" space=" ">más</W>
-<W cur="639" id="104" space=" ">padecen</W>
-<W cur="647" id="105" space=" ">sus</W>
-<W cur="651" id="106" space=" ">consecuencias</W>
-<W cur="664" id="107">.</W>
-<W cur="666" id="108" space=" ">Los</W>
-<W cur="670" id="109" space=" ">países</W>
-<W cur="677" id="110" space=" ">desarrollados</W>
-<W cur="690" id="111">,</W>
-<W cur="692" id="112" space=" ">principalmente</W>
-<W cur="706" id="113">,</W>
-<W cur="708" id="114" space=" ">son</W>
-<W cur="712" id="115" space=" ">los</W>
-<W cur="716" id="116" space=" ">que</W>
-<W cur="720" id="117" space=" ">deben</W>
-<W cur="726" id="118" space=" ">adaptarse</W>
-<W cur="736" id="119" space=" ">los</W>
-<W cur="740" id="120" space=" ">efectos</W>
-<W cur="748" id="121" space=" ">del</W>
-<W cur="752" id="122" space=" ">cambio</W>
-<W cur="759" id="123" space=" ">climático</W>
-<W cur="768" id="124">.</W>
-<W cur="770" id="125" space=" ">Los</W>
-<W cur="774" id="126" space=" ">esfuerzos</W>
-<W cur="784" id="127" space=" ">de</W>
-<W cur="787" id="128" space=" ">adaptación</W>
-<W cur="798" id="129" space=" ">y</W>
-<W cur="800" id="130" space=" ">los</W>
-<W cur="804" id="131" space=" ">de</W>
-<W cur="807" id="132" space=" ">mitigarlo</W>
-<W cur="817" id="133" space=" ">deben</W>
-<W cur="823" id="134" space=" ">ir</W>
-<W cur="826" id="135" space=" ">de</W>
-<W cur="829" id="136" space=" ">la</W>
-<W cur="832" id="137" space=" ">mano</W>
-<W cur="836" id="138">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="es" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" lemma="ser" pos="VSfin">Es</W>
+ <W cur="3" id="2" lemma="comprensible" pos="ADJ" space=" ">comprensible</W>
+ <W cur="16" id="3" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="20" id="4" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="24" id="5" lemma="país" pos="NC" space=" ">países</W>
+ <W cur="31" id="6" lemma="_" pos="VLadj" space=" ">desarrolados</W>
+ <W cur="44" id="7" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="47" id="8" lemma="estar" pos="VEfin" space=" ">estén</W>
+ <W cur="53" id="9" lemma="particularmente" pos="ADV" space=" ">particularmente</W>
+ <W cur="69" id="10" lemma="disponer" pos="VLadj" space=" ">dispuestos</W>
+ <W cur="80" id="11" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="82" id="12" lemma="comprometer" pos="VLinf" space=" ">comprometer</W>
+ <W cur="94" id="13" lemma="suyo" pos="PPO" space=" ">sus</W>
+ <W cur="98" id="14" lemma="posibilidad" pos="NC" space=" ">posibilidades</W>
+ <W cur="112" id="15" lemma="de" pos="CSUBI" space=" ">de</W>
+ <W cur="115" id="16" lemma="conseguir" pos="VLinf" space=" ">conseguir</W>
+ <W cur="125" id="17" lemma="bueno" pos="ADJ" space=" ">mejores</W>
+ <W cur="133" id="18" lemma="_" pos="NC" space=" ">estandares</W>
+ <W cur="144" id="19" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="147" id="20" lemma="nivel" pos="NC" space=" ">nivel</W>
+ <W cur="153" id="21" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="156" id="22" lemma="vida" pos="NC" space=" ">vida</W>
+ <W cur="161" id="23" lemma="para" pos="PREP" space=" ">para</W>
+ <W cur="166" id="24" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="170" id="25" lemma="ciudadano" pos="NC" space=" ">ciudadanos</W>
+ <W cur="181" id="26" lemma="con" pos="PREP" space=" ">con</W>
+ <W cur="185" id="27" lemma="_" pos="NC" space=" ">probreza</W>
+ <W cur="194" id="28" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="197" id="29" lemma="acción" pos="NC" space=" ">acción</W>
+ <W cur="204" id="30" lemma="sobre" pos="PREP" space=" ">sobre</W>
+ <W cur="210" id="31" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="213" id="32" lemma="cambio" pos="NC" space=" ">cambio</W>
+ <W cur="220" id="33" lemma="climático" pos="ADJ" space=" ">climático</W>
+ <W cur="230" id="34" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="233" id="35" lemma="deber" pos="VMfin" space=" ">debería</W>
+ <W cur="241" id="36" lemma="afectar" pos="VLinf" space=" ">afectar</W>
+ <W cur="249" id="37" lemma="negativo" pos="ADV" space=" ">negativamente</W>
+ <W cur="263" id="38" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="266" id="39" lemma="desarrollo" pos="NC" space=" ">desarrollo</W>
+ <W cur="277" id="40" lemma="económico" pos="ADJ" space=" ">económico</W>
+ <W boundary="sentence" cur="286" id="41" lemma="." pos="FS">.</W>
+ <W cur="288" id="42" lemma="se" pos="SE" space=" ">Se</W>
+ <W cur="291" id="43" lemma="deber" pos="VMfin" space=" ">debería</W>
+ <W cur="299" id="44" lemma="ofrecer" pos="VLinf" space=" ">ofrecer</W>
+ <W cur="307" id="45" lemma="incentivo" pos="NC" space=" ">incentivos</W>
+ <W cur="318" id="46" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="320" id="47" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="324" id="48" lemma="país" pos="NC" space=" ">países</W>
+ <W cur="331" id="49" lemma="desarrollar" pos="VLadj" space=" ">desarrollados</W>
+ <W cur="345" id="50" lemma="para" pos="CSUBI" space=" ">para</W>
+ <W cur="350" id="51" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="354" id="52" lemma="hacer" pos="VLfin" space=" ">hagan</W>
+ <W cur="360" id="53" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="363" id="54" lemma="esfuerzo" pos="NC" space=" ">esfuerzo</W>
+ <W cur="372" id="55" lemma="extra" pos="ADJ" space=" ">extra</W>
+ <W cur="378" id="56" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="381" id="57" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="384" id="58" lemma="tramo" pos="NC" space=" ">tramo</W>
+ <W cur="390" id="59" lemma="&quot;" pos="QT">"</W>
+ <W cur="391" id="60" lemma="verde" pos="NC">verde</W>
+ <W cur="396" id="61" lemma="&quot;" pos="QT">"</W>
+ <W cur="398" id="62" lemma="y" pos="CC" space=" ">e</W>
+ <W cur="400" id="63" lemma="implementar" pos="VLinf" space=" ">implementar</W>
+ <W cur="412" id="64" lemma="tecnología" pos="NC" space=" ">tecnologías</W>
+ <W cur="424" id="65" lemma="limpio" pos="ADJ" space=" ">limpias</W>
+ <W cur="431" id="66" lemma="," pos="CM">,</W>
+ <W cur="433" id="67" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="435" id="68" lemma="así" pos="ADV" space=" ">así</W>
+ <W cur="439" id="69" lemma="ayudar" pos="VLinf" space=" ">ayudar</W>
+ <W cur="446" id="70" lemma="también" pos="ADV" space=" ">también</W>
+ <W cur="454" id="71" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="456" id="72" lemma="minimizar" pos="VLinf" space=" ">minimizar</W>
+ <W cur="466" id="73" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="470" id="74" lemma="_" pos="NC" space=" ">emixiones</W>
+ <W cur="480" id="75" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="484" id="76" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="487" id="77" lemma="_" pos="NC" space=" ">desforestación</W>
+ <W boundary="sentence" cur="501" id="78" lemma="." pos="FS">.</W>
+ <W cur="503" id="79" lemma="alguno" pos="QU" space=" ">Algunos</W>
+ <W cur="511" id="80" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="514" id="81" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="518" id="82" lemma="país" pos="NC" space=" ">países</W>
+ <W cur="525" id="83" lemma="más" pos="ADV" space=" ">más</W>
+ <W cur="529" id="84" lemma="vulnerable" pos="ADJ" space=" ">vulnerables</W>
+ <W cur="541" id="85" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="545" id="86" lemma="mundo" pos="NC" space=" ">mundo</W>
+ <W cur="551" id="87" lemma="ser" pos="VSfin" space=" ">son</W>
+ <W cur="555" id="88" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="559" id="89" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="563" id="90" lemma="menos" pos="ADV" space=" ">menos</W>
+ <W cur="569" id="91" lemma="haber" pos="VHfin" space=" ">han</W>
+ <W cur="573" id="92" lemma="contribuir" pos="VLadj" space=" ">contribuido</W>
+ <W cur="585" id="93" lemma="al" pos="PAL" space=" ">al</W>
+ <W cur="588" id="94" lemma="cambio" pos="NC" space=" ">cambio</W>
+ <W cur="595" id="95" lemma="climático" pos="ADJ" space=" ">climático</W>
+ <W cur="604" id="96" lemma="," pos="CM">,</W>
+ <W cur="606" id="97" lemma="pero" pos="CCAD" space=" ">pero</W>
+ <W cur="611" id="98" lemma="sin" pos="PREP" space=" ">sin</W>
+ <W cur="615" id="99" lemma="embargo" pos="NC" space=" ">embargo</W>
+ <W cur="623" id="100" lemma="ser" pos="VSfin" space=" ">son</W>
+ <W cur="627" id="101" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="631" id="102" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="635" id="103" lemma="más" pos="ADV" space=" ">más</W>
+ <W cur="639" id="104" lemma="padecer" pos="VLfin" space=" ">padecen</W>
+ <W cur="647" id="105" lemma="suyo" pos="PPO" space=" ">sus</W>
+ <W cur="651" id="106" lemma="consecuencia" pos="NC" space=" ">consecuencias</W>
+ <W boundary="sentence" cur="664" id="107" lemma="." pos="FS">.</W>
+ <W cur="666" id="108" lemma="el" pos="ART" space=" ">Los</W>
+ <W cur="670" id="109" lemma="país" pos="NC" space=" ">países</W>
+ <W cur="677" id="110" lemma="desarrollar" pos="VLadj" space=" ">desarrollados</W>
+ <W cur="690" id="111" lemma="," pos="CM">,</W>
+ <W cur="692" id="112" lemma="principalmente" pos="ADV" space=" ">principalmente</W>
+ <W cur="706" id="113" lemma="," pos="CM">,</W>
+ <W cur="708" id="114" lemma="ser" pos="VSfin" space=" ">son</W>
+ <W cur="712" id="115" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="716" id="116" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="720" id="117" lemma="deber" pos="VMfin" space=" ">deben</W>
+ <W cur="726" id="118" lemma="adaptarse" pos="VCLIinf" space=" ">adaptarse</W>
+ <W cur="736" id="119" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="740" id="120" lemma="efecto" pos="NC" space=" ">efectos</W>
+ <W cur="748" id="121" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="752" id="122" lemma="cambio" pos="NC" space=" ">cambio</W>
+ <W cur="759" id="123" lemma="climático" pos="ADJ" space=" ">climático</W>
+ <W boundary="sentence" cur="768" id="124" lemma="." pos="FS">.</W>
+ <W cur="770" id="125" lemma="el" pos="ART" space=" ">Los</W>
+ <W cur="774" id="126" lemma="esfuerzo" pos="NC" space=" ">esfuerzos</W>
+ <W cur="784" id="127" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="787" id="128" lemma="adaptación" pos="NC" space=" ">adaptación</W>
+ <W cur="798" id="129" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="800" id="130" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="804" id="131" lemma="de" pos="CSUBI" space=" ">de</W>
+ <W cur="807" id="132" lemma="_" pos="VLinf" space=" ">mitigarlo</W>
+ <W cur="817" id="133" lemma="deber" pos="VMfin" space=" ">deben</W>
+ <W cur="823" id="134" lemma="ir" pos="VLinf" space=" ">ir</W>
+ <W cur="826" id="135" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="829" id="136" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="832" id="137" lemma="mano" pos="NC" space=" ">mano</W>
+ <W boundary="sentence" cur="836" id="138" lemma="." pos="FS">.</W>
 </Text>

@@ -1,336 +1,337 @@
-<Text language="pt" >
-<W cur="0" id="1">Ativação</W>
-<W cur="9" id="2" space=" ">de</W>
-<W cur="12" id="3" space=" ">Coagulação</W>
-<W cur="23" id="4" space=" ">e</W>
-<W cur="25" id="5" space=" ">Inflamação</W>
-<W cur="36" id="6" space=" ">em</W>
-<W cur="39" id="7" space=" ">Hipertensão</W>
-<W cur="51" id="8" space=" ">Pulmonar</W>
-<W cur="60" id="9" space=" ">Associada</W>
-<W cur="70" id="10" space=" ">à</W>
-<W cur="72" id="11" space=" ">Anemia</W>
-<W cur="79" id="12" space=" ">Falciforme</W>
-<W cur="91" id="13" space="&#xA;&#xA;">A</W>
-<W cur="93" id="14" space=" ">hipertensão</W>
-<W cur="105" id="15" space=" ">pulmonar</W>
-<W cur="114" id="16">(</W>
-<W cur="115" id="17">HTP</W>
-<W cur="118" id="18">)</W>
-<W cur="120" id="19" space=" ">é</W>
-<W cur="122" id="20" space=" ">uma</W>
-<W cur="126" id="21" space=" ">complicação</W>
-<W cur="138" id="22" space=" ">comum</W>
-<W cur="144" id="23" space=" ">em</W>
-<W cur="147" id="24" space=" ">pacientes</W>
-<W cur="157" id="25" space=" ">portadores</W>
-<W cur="168" id="26" space=" ">de</W>
-<W cur="171" id="27" space=" ">anemia</W>
-<W cur="178" id="28" space=" ">falciforme</W>
-<W cur="189" id="29">(</W>
-<W cur="190" id="30">AF</W>
-<W cur="192" id="31">)</W>
-<W cur="193" id="32">,</W>
-<W cur="195" id="33" space=" ">com</W>
-<W cur="199" id="34" space=" ">registros</W>
-<W cur="209" id="35" space=" ">de</W>
-<W cur="212" id="36" space=" ">prevalência</W>
-<W cur="224" id="37" space=" ">de</W>
-<W cur="227" id="38" space=" ">30</W>
-<W cur="229" id="39">%</W>
-<W cur="230" id="40">.</W>
-<W cur="232" id="41">[</W>
-<W cur="233" id="42">1-4</W>
-<W cur="236" id="43">]</W>
-<W cur="238" id="44" space=" ">Vários</W>
-<W cur="245" id="45" space=" ">estudos</W>
-<W cur="253" id="46" space=" ">demonstraram</W>
-<W cur="266" id="47" space=" ">que</W>
-<W cur="270" id="48" space=" ">a</W>
-<W cur="272" id="49" space=" ">HTP</W>
-<W cur="276" id="50" space=" ">associa-se</W>
-<W cur="287" id="51" space=" ">a</W>
-<W cur="289" id="52" space=" ">aumentos</W>
-<W cur="298" id="53" space=" ">de</W>
-<W cur="301" id="54" space=" ">mortalidade</W>
-<W cur="313" id="55" space=" ">em</W>
-<W cur="316" id="56" space=" ">pacientes</W>
-<W cur="326" id="57" space=" ">de</W>
-<W cur="329" id="58" space=" ">AF</W>
-<W cur="331" id="59">.</W>
-<W cur="333" id="60">[</W>
-<W cur="334" id="61">2</W>
-<W cur="335" id="62">,</W>
-<W cur="337" id="63" space=" ">4-7</W>
-<W cur="340" id="64">]</W>
-<W cur="342" id="65" space=" ">A</W>
-<W cur="344" id="66" space=" ">patogênese</W>
-<W cur="355" id="67" space=" ">da</W>
-<W cur="358" id="68" space=" ">HTP</W>
-<W cur="362" id="69" space=" ">na</W>
-<W cur="365" id="70" space=" ">AF</W>
-<W cur="368" id="71" space=" ">deve-se</W>
-<W cur="376" id="72" space=" ">provavelmente</W>
-<W cur="390" id="73" space=" ">a</W>
-<W cur="392" id="74" space=" ">fatores</W>
-<W cur="400" id="75" space=" ">variados</W>
-<W cur="408" id="76">.</W>
-<W cur="410" id="77" space=" ">Evidências</W>
-<W cur="421" id="78" space=" ">recentes</W>
-<W cur="430" id="79" space=" ">sugerem</W>
-<W cur="438" id="80" space=" ">que</W>
-<W cur="442" id="81" space=" ">a</W>
-<W cur="444" id="82" space=" ">hemólise</W>
-<W cur="453" id="83" space=" ">intravascular</W>
-<W cur="467" id="84" space=" ">crônica</W>
-<W cur="475" id="85" space=" ">desempenha</W>
-<W cur="486" id="86" space=" ">um</W>
-<W cur="489" id="87" space=" ">papel</W>
-<W cur="495" id="88" space=" ">central</W>
-<W cur="502" id="89">,</W>
-<W cur="504" id="90" space=" ">em</W>
-<W cur="507" id="91" space=" ">associação</W>
-<W cur="518" id="92" space=" ">com</W>
-<W cur="522" id="93" space=" ">a</W>
-<W cur="524" id="94" space=" ">limpeza</W>
-<W cur="532" id="95" space=" ">de</W>
-<W cur="535" id="96" space=" ">óxido</W>
-<W cur="541" id="97" space=" ">nítrico</W>
-<W cur="549" id="98" space=" ">por</W>
-<W cur="553" id="99" space=" ">plasma</W>
-<W cur="560" id="100" space=" ">de</W>
-<W cur="563" id="101" space=" ">hemoglobina</W>
-<W cur="575" id="102" space=" ">livre</W>
-<W cur="581" id="103" space=" ">das</W>
-<W cur="585" id="104" space=" ">células</W>
-<W cur="592" id="105">.</W>
-<W cur="594" id="106">[</W>
-<W cur="595" id="107">4,8,9</W>
-<W cur="600" id="108">]</W>
-<W cur="602" id="109" space=" ">A</W>
-<W cur="604" id="110" space=" ">arginase</W>
-<W cur="612" id="111">,</W>
-<W cur="614" id="112" space=" ">que</W>
-<W cur="618" id="113" space=" ">converte</W>
-<W cur="627" id="114" space=" ">a</W>
-<W cur="629" id="115" space=" ">L-arginina</W>
-<W cur="640" id="116">(</W>
-<W cur="641" id="117">substrato</W>
-<W cur="651" id="118" space=" ">da</W>
-<W cur="654" id="119" space=" ">síntese</W>
-<W cur="662" id="120" space=" ">de</W>
-<W cur="665" id="121" space=" ">óxido</W>
-<W cur="671" id="122" space=" ">nítrico</W>
-<W cur="678" id="123">)</W>
-<W cur="680" id="124" space=" ">em</W>
-<W cur="683" id="125" space=" ">ornitina</W>
-<W cur="691" id="126">,</W>
-<W cur="693" id="127" space=" ">também</W>
-<W cur="700" id="128" space=" ">é</W>
-<W cur="702" id="129" space=" ">liberada</W>
-<W cur="711" id="130" space=" ">após</W>
-<W cur="716" id="131" space=" ">a</W>
-<W cur="718" id="132" space=" ">hemólise</W>
-<W cur="726" id="133">.</W>
-<W cur="728" id="134">[</W>
-<W cur="729" id="135">10</W>
-<W cur="731" id="136">]</W>
-<W cur="733" id="137" space=" ">A</W>
-<W cur="735" id="138" space=" ">atividade</W>
-<W cur="745" id="139" space=" ">de</W>
-<W cur="748" id="140" space=" ">arginase</W>
-<W cur="757" id="141" space=" ">elevada</W>
-<W cur="764" id="142">,</W>
-<W cur="766" id="143" space=" ">assim</W>
-<W cur="772" id="144" space=" ">como</W>
-<W cur="777" id="145" space=" ">o</W>
-<W cur="779" id="146" space=" ">resultante</W>
-<W cur="790" id="147" space=" ">decréscimo</W>
-<W cur="801" id="148" space=" ">da</W>
-<W cur="804" id="149" space=" ">razão</W>
-<W cur="810" id="150" space=" ">arginina</W>
-<W cur="818" id="151">/</W>
-<W cur="819" id="152">ornitina</W>
-<W cur="827" id="153">,</W>
-<W cur="829" id="154" space=" ">está</W>
-<W cur="834" id="155" space=" ">associada</W>
-<W cur="844" id="156" space=" ">com</W>
-<W cur="848" id="157" space=" ">a</W>
-<W cur="850" id="158" space=" ">HTP</W>
-<W cur="854" id="159" space=" ">na</W>
-<W cur="857" id="160" space=" ">AF</W>
-<W cur="859" id="161">.</W>
-<W cur="861" id="162">[</W>
-<W cur="862" id="163">4,11</W>
-<W cur="866" id="164">]</W>
-<W cur="868" id="165" space=" ">Apesar</W>
-<W cur="875" id="166" space=" ">de</W>
-<W cur="878" id="167" space=" ">vários</W>
-<W cur="885" id="168" space=" ">estudos</W>
-<W cur="893" id="169" space=" ">não</W>
-<W cur="897" id="170" space=" ">terem</W>
-<W cur="903" id="171" space=" ">encontrado</W>
-<W cur="914" id="172" space=" ">associações</W>
-<W cur="926" id="173" space=" ">entre</W>
-<W cur="932" id="174" space=" ">a</W>
-<W cur="934" id="175" space=" ">HTP</W>
-<W cur="938" id="176" space=" ">e</W>
-<W cur="940" id="177" space=" ">históricos</W>
-<W cur="951" id="178" space=" ">de</W>
-<W cur="954" id="179" space=" ">síndrome</W>
-<W cur="963" id="180" space=" ">aguda</W>
-<W cur="969" id="181" space=" ">do</W>
-<W cur="972" id="182" space=" ">tórax</W>
-<W cur="977" id="183">,</W>
-<W cur="979" id="184">[</W>
-<W cur="980" id="185">3</W>
-<W cur="981" id="186">,</W>
-<W cur="983" id="187" space=" ">4</W>
-<W cur="984" id="188">]</W>
-<W cur="986" id="189" space=" ">ferimentos</W>
-<W cur="997" id="190" space=" ">pulmonares</W>
-<W cur="1008" id="191" space=" ">crônicos</W>
-<W cur="1017" id="192" space=" ">resultantes</W>
-<W cur="1029" id="193" space=" ">de</W>
-<W cur="1032" id="194" space=" ">episódios</W>
-<W cur="1042" id="195" space=" ">repetidos</W>
-<W cur="1052" id="196" space=" ">de</W>
-<W cur="1055" id="197" space=" ">síndrome</W>
-<W cur="1064" id="198" space=" ">aguda</W>
-<W cur="1070" id="199" space=" ">do</W>
-<W cur="1073" id="200" space=" ">tórax</W>
-<W cur="1079" id="201" space=" ">podem</W>
-<W cur="1085" id="202" space=" ">levar</W>
-<W cur="1091" id="203" space=" ">ao</W>
-<W cur="1094" id="204" space=" ">desenvolvimento</W>
-<W cur="1110" id="205" space=" ">de</W>
-<W cur="1113" id="206" space=" ">HTP</W>
-<W cur="1117" id="207" space=" ">em</W>
-<W cur="1120" id="208" space=" ">função</W>
-<W cur="1127" id="209" space=" ">de</W>
-<W cur="1130" id="210" space=" ">dano</W>
-<W cur="1135" id="211" space=" ">parenquimal</W>
-<W cur="1147" id="212" space=" ">fibrótico</W>
-<W cur="1157" id="213" space=" ">pulmonar</W>
-<W cur="1166" id="214" space=" ">crônico</W>
-<W cur="1173" id="215">,</W>
-<W cur="1175" id="216" space=" ">tônus</W>
-<W cur="1181" id="217" space=" ">vascular</W>
-<W cur="1190" id="218" space=" ">alterado</W>
-<W cur="1198" id="219">,</W>
-<W cur="1200" id="220" space=" ">proliferação</W>
-<W cur="1213" id="221" space=" ">vascular</W>
-<W cur="1221" id="222">,</W>
-<W cur="1223" id="223" space=" ">hipóxia</W>
-<W cur="1231" id="224" space=" ">e</W>
-<W cur="1233" id="225" space=" ">a</W>
-<W cur="1235" id="226" space=" ">vasculopatia</W>
-<W cur="1248" id="227" space=" ">pulmonar</W>
-<W cur="1257" id="228" space=" ">decorrente</W>
-<W cur="1267" id="229">.</W>
-<W cur="1269" id="230" space=" ">Por</W>
-<W cur="1273" id="231" space=" ">fim</W>
-<W cur="1276" id="232">,</W>
-<W cur="1278" id="233" space=" ">tromboembolismo</W>
-<W cur="1294" id="234" space=" ">pulmonar</W>
-<W cur="1303" id="235">[</W>
-<W cur="1304" id="236">12</W>
-<W cur="1306" id="237">,</W>
-<W cur="1308" id="238" space=" ">13</W>
-<W cur="1310" id="239">]</W>
-<W cur="1312" id="240" space=" ">e</W>
-<W cur="1314" id="241" space=" ">dano</W>
-<W cur="1319" id="242" space=" ">endotelial</W>
-<W cur="1330" id="243" space=" ">progressivo</W>
-<W cur="1342" id="244" space=" ">com</W>
-<W cur="1346" id="245" space=" ">hiperplasia</W>
-<W cur="1358" id="246" space=" ">intimal</W>
-<W cur="1366" id="247" space=" ">vascular</W>
-<W cur="1375" id="248" space=" ">pulmonar</W>
-<W cur="1384" id="249" space=" ">e</W>
-<W cur="1386" id="250" space=" ">trombose</W>
-<W cur="1395" id="251" space=" ">in</W>
-<W cur="1398" id="252" space=" ">situ</W>
-<W cur="1403" id="253">[</W>
-<W cur="1404" id="254">13</W>
-<W cur="1406" id="255">,</W>
-<W cur="1408" id="256" space=" ">14</W>
-<W cur="1410" id="257">]</W>
-<W cur="1412" id="258" space=" ">também</W>
-<W cur="1419" id="259" space=" ">podem</W>
-<W cur="1425" id="260" space=" ">contribuir</W>
-<W cur="1436" id="261" space=" ">para</W>
-<W cur="1441" id="262" space=" ">a</W>
-<W cur="1443" id="263" space=" ">patogênese</W>
-<W cur="1454" id="264" space=" ">da</W>
-<W cur="1457" id="265" space=" ">HTP</W>
-<W cur="1461" id="266" space=" ">na</W>
-<W cur="1464" id="267" space=" ">AF</W>
-<W cur="1466" id="268">.</W>
-<W cur="1468" id="269" space=" ">O</W>
-<W cur="1470" id="270" space=" ">objetivo</W>
-<W cur="1479" id="271" space=" ">do</W>
-<W cur="1482" id="272" space=" ">presente</W>
-<W cur="1491" id="273" space=" ">estudo</W>
-<W cur="1498" id="274" space=" ">foi</W>
-<W cur="1502" id="275" space=" ">determinar</W>
-<W cur="1513" id="276" space=" ">se</W>
-<W cur="1516" id="277" space=" ">a</W>
-<W cur="1518" id="278" space=" ">ativação</W>
-<W cur="1527" id="279" space=" ">de</W>
-<W cur="1530" id="280" space=" ">coagulação</W>
-<W cur="1541" id="281" space=" ">e</W>
-<W cur="1543" id="282" space=" ">a</W>
-<W cur="1545" id="283" space=" ">inflamação</W>
-<W cur="1556" id="284" space=" ">estão</W>
-<W cur="1562" id="285" space=" ">associadas</W>
-<W cur="1573" id="286" space=" ">com</W>
-<W cur="1577" id="287" space=" ">a</W>
-<W cur="1579" id="288" space=" ">HTP</W>
-<W cur="1583" id="289" space=" ">na</W>
-<W cur="1586" id="290" space=" ">AF</W>
-<W cur="1588" id="291">.</W>
-<W cur="1590" id="292" space=" ">Além</W>
-<W cur="1595" id="293" space=" ">disso</W>
-<W cur="1600" id="294">,</W>
-<W cur="1602" id="295" space=" ">foi</W>
-<W cur="1606" id="296" space=" ">nosso</W>
-<W cur="1612" id="297" space=" ">objetivo</W>
-<W cur="1621" id="298" space=" ">avaliar</W>
-<W cur="1629" id="299" space=" ">correlações</W>
-<W cur="1641" id="300" space=" ">entre</W>
-<W cur="1647" id="301" space=" ">medidas</W>
-<W cur="1655" id="302" space=" ">de</W>
-<W cur="1658" id="303" space=" ">ativação</W>
-<W cur="1667" id="304" space=" ">de</W>
-<W cur="1670" id="305" space=" ">coagulação</W>
-<W cur="1681" id="306" space=" ">e</W>
-<W cur="1684" id="307" space="  ">de</W>
-<W cur="1687" id="308" space=" ">inflamação</W>
-<W cur="1698" id="309" space=" ">com</W>
-<W cur="1702" id="310" space=" ">marcadores</W>
-<W cur="1713" id="311" space=" ">de</W>
-<W cur="1716" id="312" space=" ">hemólise</W>
-<W cur="1724" id="313">.</W>
-<W cur="1726" id="314" space=" ">Para</W>
-<W cur="1731" id="315" space=" ">abordar</W>
-<W cur="1739" id="316" space=" ">estas</W>
-<W cur="1745" id="317" space=" ">questões</W>
-<W cur="1753" id="318">,</W>
-<W cur="1755" id="319" space=" ">foi</W>
-<W cur="1759" id="320" space=" ">avaliada</W>
-<W cur="1768" id="321" space=" ">uma</W>
-<W cur="1772" id="322" space=" ">coorte</W>
-<W cur="1779" id="323" space=" ">de</W>
-<W cur="1782" id="324" space=" ">pacientes</W>
-<W cur="1792" id="325" space=" ">acompanhados</W>
-<W cur="1805" id="326" space=" ">em</W>
-<W cur="1808" id="327" space=" ">uma</W>
-<W cur="1812" id="328" space=" ">Clínica</W>
-<W cur="1820" id="329" space=" ">da</W>
-<W cur="1823" id="330" space=" ">Anemia</W>
-<W cur="1830" id="331" space=" ">Falciforme</W>
-<W cur="1841" id="332" space=" ">de</W>
-<W cur="1844" id="333" space=" ">adultos</W>
-<W cur="1851" id="334">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="pt" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" lemma="_" pos="V">Ativação</W>
+ <W cur="9" id="2" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="12" id="3" lemma="_" pos="NOM" space=" ">Coagulação</W>
+ <W cur="23" id="4" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="25" id="5" lemma="_" pos="NOM" space=" ">Inflamação</W>
+ <W cur="36" id="6" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="39" id="7" lemma="_" pos="NOM" space=" ">Hipertensão</W>
+ <W cur="51" id="8" lemma="_" pos="NOM" space=" ">Pulmonar</W>
+ <W cur="60" id="9" lemma="associado" pos="NOM" space=" ">Associada</W>
+ <W cur="70" id="10" lemma="a" pos="PRP+DET" space=" ">à</W>
+ <W cur="72" id="11" lemma="anemia" pos="NOM" space=" ">Anemia</W>
+ <W cur="79" id="12" lemma="_" pos="NOM" space=" ">Falciforme</W>
+ <W cur="91" id="13" lemma="a" pos="NOM" space="&#xA;&#xA;">A</W>
+ <W cur="93" id="14" lemma="hipertensão" pos="NOM" space=" ">hipertensão</W>
+ <W cur="105" id="15" lemma="pulmonar" pos="ADJ" space=" ">pulmonar</W>
+ <W cur="114" id="16" lemma="(" pos="QUOTE">(</W>
+ <W cur="115" id="17" lemma="_" pos="NOM">HTP</W>
+ <W cur="118" id="18" lemma=")" pos="QUOTE">)</W>
+ <W cur="120" id="19" lemma="ser" pos="V" space=" ">é</W>
+ <W cur="122" id="20" lemma="uma" pos="DET" space=" ">uma</W>
+ <W cur="126" id="21" lemma="complicação" pos="NOM" space=" ">complicação</W>
+ <W cur="138" id="22" lemma="comum" pos="ADJ" space=" ">comum</W>
+ <W cur="144" id="23" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="147" id="24" lemma="paciente" pos="NOM" space=" ">pacientes</W>
+ <W cur="157" id="25" lemma="portador" pos="ADJ" space=" ">portadores</W>
+ <W cur="168" id="26" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="171" id="27" lemma="anemia" pos="NOM" space=" ">anemia</W>
+ <W cur="178" id="28" lemma="falciforme" pos="ADJ" space=" ">falciforme</W>
+ <W cur="189" id="29" lemma="(" pos="QUOTE">(</W>
+ <W cur="190" id="30" lemma="_" pos="V">AF</W>
+ <W cur="192" id="31" lemma=")" pos="QUOTE">)</W>
+ <W cur="193" id="32" lemma="," pos="VIRG">,</W>
+ <W cur="195" id="33" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="199" id="34" lemma="registro" pos="NOM" space=" ">registros</W>
+ <W cur="209" id="35" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="212" id="36" lemma="prevalência" pos="NOM" space=" ">prevalência</W>
+ <W cur="224" id="37" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="227" id="38" lemma="@card@" pos="CARD" space=" ">30</W>
+ <W cur="229" id="39" lemma="_" pos="NOM">%</W>
+ <W boundary="sentence" cur="230" id="40" lemma="." pos="SENT">.</W>
+ <W cur="232" id="41" lemma="[" pos="QUOTE">[</W>
+ <W cur="233" id="42" lemma="@card@" pos="CARD">1-4</W>
+ <W cur="236" id="43" lemma="]" pos="QUOTE">]</W>
+ <W cur="238" id="44" lemma="_" pos="NOM" space=" ">Vários</W>
+ <W cur="245" id="45" lemma="estudo" pos="NOM" space=" ">estudos</W>
+ <W cur="253" id="46" lemma="demonstrar" pos="V" space=" ">demonstraram</W>
+ <W cur="266" id="47" lemma="que" pos="CONJSUB" space=" ">que</W>
+ <W cur="270" id="48" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="272" id="49" lemma="_" pos="NOM" space=" ">HTP</W>
+ <W cur="276" id="50" lemma="associar" pos="V+P" space=" ">associa-se</W>
+ <W cur="287" id="51" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="289" id="52" lemma="aumento" pos="NOM" space=" ">aumentos</W>
+ <W cur="298" id="53" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="301" id="54" lemma="mortalidade" pos="NOM" space=" ">mortalidade</W>
+ <W cur="313" id="55" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="316" id="56" lemma="paciente" pos="NOM" space=" ">pacientes</W>
+ <W cur="326" id="57" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="329" id="58" lemma="_" pos="NOM" space=" ">AF</W>
+ <W boundary="sentence" cur="331" id="59" lemma="." pos="SENT">.</W>
+ <W cur="333" id="60" lemma="[" pos="QUOTE">[</W>
+ <W cur="334" id="61" lemma="@card@" pos="CARD">2</W>
+ <W cur="335" id="62" lemma="," pos="VIRG">,</W>
+ <W cur="337" id="63" lemma="@card@" pos="CARD" space=" ">4-7</W>
+ <W cur="340" id="64" lemma="]" pos="QUOTE">]</W>
+ <W cur="342" id="65" lemma="a" pos="NOM" space=" ">A</W>
+ <W cur="344" id="66" lemma="patogênese" pos="NOM" space=" ">patogênese</W>
+ <W cur="355" id="67" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="358" id="68" lemma="_" pos="NOM" space=" ">HTP</W>
+ <W cur="362" id="69" lemma="em" pos="PRP+DET" space=" ">na</W>
+ <W cur="365" id="70" lemma="_" pos="NOM" space=" ">AF</W>
+ <W cur="368" id="71" lemma="dever" pos="V+P" space=" ">deve-se</W>
+ <W cur="376" id="72" lemma="provavelmente" pos="ADV" space=" ">provavelmente</W>
+ <W cur="390" id="73" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="392" id="74" lemma="fator" pos="NOM" space=" ">fatores</W>
+ <W cur="400" id="75" lemma="variado" pos="ADJ" space=" ">variados</W>
+ <W boundary="sentence" cur="408" id="76" lemma="." pos="SENT">.</W>
+ <W cur="410" id="77" lemma="_" pos="NOM" space=" ">Evidências</W>
+ <W cur="421" id="78" lemma="recente" pos="ADJ" space=" ">recentes</W>
+ <W cur="430" id="79" lemma="sugerir" pos="V" space=" ">sugerem</W>
+ <W cur="438" id="80" lemma="que" pos="CONJSUB" space=" ">que</W>
+ <W cur="442" id="81" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="444" id="82" lemma="hemólise" pos="NOM" space=" ">hemólise</W>
+ <W cur="453" id="83" lemma="intravascular" pos="ADJ" space=" ">intravascular</W>
+ <W cur="467" id="84" lemma="crônico" pos="ADJ" space=" ">crônica</W>
+ <W cur="475" id="85" lemma="desempenhar" pos="V" space=" ">desempenha</W>
+ <W cur="486" id="86" lemma="um" pos="DET" space=" ">um</W>
+ <W cur="489" id="87" lemma="papel" pos="NOM" space=" ">papel</W>
+ <W cur="495" id="88" lemma="central" pos="ADJ" space=" ">central</W>
+ <W cur="502" id="89" lemma="," pos="VIRG">,</W>
+ <W cur="504" id="90" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="507" id="91" lemma="associação" pos="NOM" space=" ">associação</W>
+ <W cur="518" id="92" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="522" id="93" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="524" id="94" lemma="limpeza" pos="NOM" space=" ">limpeza</W>
+ <W cur="532" id="95" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="535" id="96" lemma="óxido" pos="NOM" space=" ">óxido</W>
+ <W cur="541" id="97" lemma="nítrico" pos="ADJ" space=" ">nítrico</W>
+ <W cur="549" id="98" lemma="por" pos="PRP" space=" ">por</W>
+ <W cur="553" id="99" lemma="plasma" pos="NOM" space=" ">plasma</W>
+ <W cur="560" id="100" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="563" id="101" lemma="hemoglobina" pos="NOM" space=" ">hemoglobina</W>
+ <W cur="575" id="102" lemma="livre" pos="ADJ" space=" ">livre</W>
+ <W cur="581" id="103" lemma="de" pos="PRP+DET" space=" ">das</W>
+ <W cur="585" id="104" lemma="célula" pos="NOM" space=" ">células</W>
+ <W boundary="sentence" cur="592" id="105" lemma="." pos="SENT">.</W>
+ <W cur="594" id="106" lemma="[" pos="QUOTE">[</W>
+ <W cur="595" id="107" lemma="@card@" pos="CARD">4,8,9</W>
+ <W cur="600" id="108" lemma="]" pos="QUOTE">]</W>
+ <W cur="602" id="109" lemma="a" pos="NOM" space=" ">A</W>
+ <W cur="604" id="110" lemma="_" pos="V" space=" ">arginase</W>
+ <W cur="612" id="111" lemma="," pos="VIRG">,</W>
+ <W cur="614" id="112" lemma="que" pos="PR" space=" ">que</W>
+ <W cur="618" id="113" lemma="converter" pos="V" space=" ">converte</W>
+ <W cur="627" id="114" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="629" id="115" lemma="_" pos="NOM" space=" ">L-arginina</W>
+ <W cur="640" id="116" lemma="(" pos="QUOTE">(</W>
+ <W cur="641" id="117" lemma="substrato" pos="NOM">substrato</W>
+ <W cur="651" id="118" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="654" id="119" lemma="síntese" pos="NOM" space=" ">síntese</W>
+ <W cur="662" id="120" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="665" id="121" lemma="óxido" pos="NOM" space=" ">óxido</W>
+ <W cur="671" id="122" lemma="nítrico" pos="ADJ" space=" ">nítrico</W>
+ <W cur="678" id="123" lemma=")" pos="QUOTE">)</W>
+ <W cur="680" id="124" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="683" id="125" lemma="_" pos="NOM" space=" ">ornitina</W>
+ <W cur="691" id="126" lemma="," pos="VIRG">,</W>
+ <W cur="693" id="127" lemma="também" pos="ADV" space=" ">também</W>
+ <W cur="700" id="128" lemma="ser" pos="V" space=" ">é</W>
+ <W cur="702" id="129" lemma="liberado" pos="ADJ" space=" ">liberada</W>
+ <W cur="711" id="130" lemma="após" pos="PRP" space=" ">após</W>
+ <W cur="716" id="131" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="718" id="132" lemma="hemólise" pos="NOM" space=" ">hemólise</W>
+ <W boundary="sentence" cur="726" id="133" lemma="." pos="SENT">.</W>
+ <W cur="728" id="134" lemma="[" pos="QUOTE">[</W>
+ <W cur="729" id="135" lemma="@card@" pos="CARD">10</W>
+ <W cur="731" id="136" lemma="]" pos="QUOTE">]</W>
+ <W cur="733" id="137" lemma="a" pos="NOM" space=" ">A</W>
+ <W cur="735" id="138" lemma="atividade" pos="NOM" space=" ">atividade</W>
+ <W cur="745" id="139" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="748" id="140" lemma="_" pos="V" space=" ">arginase</W>
+ <W cur="757" id="141" lemma="elevado" pos="ADJ" space=" ">elevada</W>
+ <W cur="764" id="142" lemma="," pos="VIRG">,</W>
+ <W cur="766" id="143" lemma="assim" pos="ADV" space=" ">assim</W>
+ <W cur="772" id="144" lemma="como" pos="CONJ" space=" ">como</W>
+ <W cur="777" id="145" lemma="o" pos="DET" space=" ">o</W>
+ <W cur="779" id="146" lemma="resultante" pos="ADJ" space=" ">resultante</W>
+ <W cur="790" id="147" lemma="decréscimo" pos="NOM" space=" ">decréscimo</W>
+ <W cur="801" id="148" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="804" id="149" lemma="razão" pos="NOM" space=" ">razão</W>
+ <W cur="810" id="150" lemma="_" pos="NOM" space=" ">arginina</W>
+ <W cur="818" id="151" lemma="_" pos="NOM">/</W>
+ <W cur="819" id="152" lemma="_" pos="NOM">ornitina</W>
+ <W cur="827" id="153" lemma="," pos="VIRG">,</W>
+ <W cur="829" id="154" lemma="estar" pos="V" space=" ">está</W>
+ <W cur="834" id="155" lemma="associar" pos="V" space=" ">associada</W>
+ <W cur="844" id="156" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="848" id="157" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="850" id="158" lemma="_" pos="NOM" space=" ">HTP</W>
+ <W cur="854" id="159" lemma="em" pos="PRP+DET" space=" ">na</W>
+ <W cur="857" id="160" lemma="_" pos="NOM" space=" ">AF</W>
+ <W boundary="sentence" cur="859" id="161" lemma="." pos="SENT">.</W>
+ <W cur="861" id="162" lemma="[" pos="QUOTE">[</W>
+ <W cur="862" id="163" lemma="@card@" pos="CARD">4,11</W>
+ <W cur="866" id="164" lemma="]" pos="QUOTE">]</W>
+ <W cur="868" id="165" lemma="_" pos="NOM" space=" ">Apesar</W>
+ <W cur="875" id="166" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="878" id="167" lemma="vário" pos="ADJ" space=" ">vários</W>
+ <W cur="885" id="168" lemma="estudo" pos="NOM" space=" ">estudos</W>
+ <W cur="893" id="169" lemma="não" pos="ADV" space=" ">não</W>
+ <W cur="897" id="170" lemma="ter" pos="V" space=" ">terem</W>
+ <W cur="903" id="171" lemma="encontrar" pos="V" space=" ">encontrado</W>
+ <W cur="914" id="172" lemma="associação" pos="NOM" space=" ">associações</W>
+ <W cur="926" id="173" lemma="entre" pos="PRP" space=" ">entre</W>
+ <W cur="932" id="174" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="934" id="175" lemma="_" pos="NOM" space=" ">HTP</W>
+ <W cur="938" id="176" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="940" id="177" lemma="histórico" pos="ADJ" space=" ">históricos</W>
+ <W cur="951" id="178" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="954" id="179" lemma="síndroma" pos="NOM" space=" ">síndrome</W>
+ <W cur="963" id="180" lemma="agudo" pos="ADJ" space=" ">aguda</W>
+ <W cur="969" id="181" lemma="de" pos="PRP+DET" space=" ">do</W>
+ <W cur="972" id="182" lemma="tórax" pos="NOM" space=" ">tórax</W>
+ <W cur="977" id="183" lemma="," pos="VIRG">,</W>
+ <W cur="979" id="184" lemma="[" pos="QUOTE">[</W>
+ <W cur="980" id="185" lemma="@card@" pos="CARD">3</W>
+ <W cur="981" id="186" lemma="," pos="VIRG">,</W>
+ <W cur="983" id="187" lemma="@card@" pos="CARD" space=" ">4</W>
+ <W cur="984" id="188" lemma="]" pos="QUOTE">]</W>
+ <W cur="986" id="189" lemma="ferimento" pos="NOM" space=" ">ferimentos</W>
+ <W cur="997" id="190" lemma="pulmonar" pos="ADJ" space=" ">pulmonares</W>
+ <W cur="1008" id="191" lemma="crônico" pos="ADJ" space=" ">crônicos</W>
+ <W cur="1017" id="192" lemma="resultante" pos="NOM" space=" ">resultantes</W>
+ <W cur="1029" id="193" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1032" id="194" lemma="episódio" pos="NOM" space=" ">episódios</W>
+ <W cur="1042" id="195" lemma="repetido" pos="ADJ" space=" ">repetidos</W>
+ <W cur="1052" id="196" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1055" id="197" lemma="síndroma" pos="NOM" space=" ">síndrome</W>
+ <W cur="1064" id="198" lemma="agudo" pos="ADJ" space=" ">aguda</W>
+ <W cur="1070" id="199" lemma="de" pos="PRP+DET" space=" ">do</W>
+ <W cur="1073" id="200" lemma="tórax" pos="NOM" space=" ">tórax</W>
+ <W cur="1079" id="201" lemma="poder" pos="V" space=" ">podem</W>
+ <W cur="1085" id="202" lemma="levar" pos="V" space=" ">levar</W>
+ <W cur="1091" id="203" lemma="a" pos="PRP+DET" space=" ">ao</W>
+ <W cur="1094" id="204" lemma="desenvolvimento" pos="NOM" space=" ">desenvolvimento</W>
+ <W cur="1110" id="205" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1113" id="206" lemma="_" pos="NOM" space=" ">HTP</W>
+ <W cur="1117" id="207" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="1120" id="208" lemma="função" pos="NOM" space=" ">função</W>
+ <W cur="1127" id="209" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1130" id="210" lemma="dano" pos="NOM" space=" ">dano</W>
+ <W cur="1135" id="211" lemma="_" pos="V" space=" ">parenquimal</W>
+ <W cur="1147" id="212" lemma="_" pos="ADJ" space=" ">fibrótico</W>
+ <W cur="1157" id="213" lemma="pulmonar" pos="ADJ" space=" ">pulmonar</W>
+ <W cur="1166" id="214" lemma="crônico" pos="ADJ" space=" ">crônico</W>
+ <W cur="1173" id="215" lemma="," pos="VIRG">,</W>
+ <W cur="1175" id="216" lemma="tônus" pos="NOM" space=" ">tônus</W>
+ <W cur="1181" id="217" lemma="vascular" pos="ADJ" space=" ">vascular</W>
+ <W cur="1190" id="218" lemma="alterado" pos="ADJ" space=" ">alterado</W>
+ <W cur="1198" id="219" lemma="," pos="VIRG">,</W>
+ <W cur="1200" id="220" lemma="proliferação" pos="NOM" space=" ">proliferação</W>
+ <W cur="1213" id="221" lemma="vascular" pos="ADJ" space=" ">vascular</W>
+ <W cur="1221" id="222" lemma="," pos="VIRG">,</W>
+ <W cur="1223" id="223" lemma="_" pos="V" space=" ">hipóxia</W>
+ <W cur="1231" id="224" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="1233" id="225" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="1235" id="226" lemma="_" pos="NOM" space=" ">vasculopatia</W>
+ <W cur="1248" id="227" lemma="pulmonar" pos="ADJ" space=" ">pulmonar</W>
+ <W cur="1257" id="228" lemma="decorrente" pos="ADJ" space=" ">decorrente</W>
+ <W boundary="sentence" cur="1267" id="229" lemma="." pos="SENT">.</W>
+ <W cur="1269" id="230" lemma="por" pos="PRP" space=" ">Por</W>
+ <W cur="1273" id="231" lemma="fim" pos="NOM" space=" ">fim</W>
+ <W cur="1276" id="232" lemma="," pos="VIRG">,</W>
+ <W cur="1278" id="233" lemma="_" pos="NOM" space=" ">tromboembolismo</W>
+ <W cur="1294" id="234" lemma="pulmonar" pos="ADJ" space=" ">pulmonar</W>
+ <W cur="1303" id="235" lemma="[" pos="QUOTE">[</W>
+ <W cur="1304" id="236" lemma="@card@" pos="CARD">12</W>
+ <W cur="1306" id="237" lemma="," pos="VIRG">,</W>
+ <W cur="1308" id="238" lemma="@card@" pos="CARD" space=" ">13</W>
+ <W cur="1310" id="239" lemma="]" pos="QUOTE">]</W>
+ <W cur="1312" id="240" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="1314" id="241" lemma="dano" pos="NOM" space=" ">dano</W>
+ <W cur="1319" id="242" lemma="endotelial" pos="ADJ" space=" ">endotelial</W>
+ <W cur="1330" id="243" lemma="progressivo" pos="ADJ" space=" ">progressivo</W>
+ <W cur="1342" id="244" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="1346" id="245" lemma="hiperplasia" pos="NOM" space=" ">hiperplasia</W>
+ <W cur="1358" id="246" lemma="_" pos="V" space=" ">intimal</W>
+ <W cur="1366" id="247" lemma="vascular" pos="ADJ" space=" ">vascular</W>
+ <W cur="1375" id="248" lemma="pulmonar" pos="ADJ" space=" ">pulmonar</W>
+ <W cur="1384" id="249" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="1386" id="250" lemma="trombose" pos="NOM" space=" ">trombose</W>
+ <W cur="1395" id="251" lemma="in" pos="ADV" space=" ">in</W>
+ <W cur="1398" id="252" lemma="situ" pos="F" space=" ">situ</W>
+ <W cur="1403" id="253" lemma="[" pos="QUOTE">[</W>
+ <W cur="1404" id="254" lemma="@card@" pos="CARD">13</W>
+ <W cur="1406" id="255" lemma="," pos="VIRG">,</W>
+ <W cur="1408" id="256" lemma="@card@" pos="CARD" space=" ">14</W>
+ <W cur="1410" id="257" lemma="]" pos="QUOTE">]</W>
+ <W cur="1412" id="258" lemma="também" pos="ADV" space=" ">também</W>
+ <W cur="1419" id="259" lemma="poder" pos="V" space=" ">podem</W>
+ <W cur="1425" id="260" lemma="contribuir" pos="V" space=" ">contribuir</W>
+ <W cur="1436" id="261" lemma="para" pos="PRP" space=" ">para</W>
+ <W cur="1441" id="262" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="1443" id="263" lemma="patogênese" pos="NOM" space=" ">patogênese</W>
+ <W cur="1454" id="264" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="1457" id="265" lemma="_" pos="NOM" space=" ">HTP</W>
+ <W cur="1461" id="266" lemma="em" pos="PRP+DET" space=" ">na</W>
+ <W cur="1464" id="267" lemma="_" pos="NOM" space=" ">AF</W>
+ <W boundary="sentence" cur="1466" id="268" lemma="." pos="SENT">.</W>
+ <W cur="1468" id="269" lemma="o" pos="DET" space=" ">O</W>
+ <W cur="1470" id="270" lemma="objectivo" pos="NOM" space=" ">objetivo</W>
+ <W cur="1479" id="271" lemma="de" pos="PRP+DET" space=" ">do</W>
+ <W cur="1482" id="272" lemma="presente" pos="ADJ" space=" ">presente</W>
+ <W cur="1491" id="273" lemma="estudo" pos="NOM" space=" ">estudo</W>
+ <W cur="1498" id="274" lemma="ir" pos="V" space=" ">foi</W>
+ <W cur="1502" id="275" lemma="determinar" pos="V" space=" ">determinar</W>
+ <W cur="1513" id="276" lemma="se" pos="P" space=" ">se</W>
+ <W cur="1516" id="277" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="1518" id="278" lemma="ativação" pos="NOM" space=" ">ativação</W>
+ <W cur="1527" id="279" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1530" id="280" lemma="coagulação" pos="NOM" space=" ">coagulação</W>
+ <W cur="1541" id="281" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="1543" id="282" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="1545" id="283" lemma="inflamação" pos="NOM" space=" ">inflamação</W>
+ <W cur="1556" id="284" lemma="estar" pos="V" space=" ">estão</W>
+ <W cur="1562" id="285" lemma="associado" pos="ADJ" space=" ">associadas</W>
+ <W cur="1573" id="286" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="1577" id="287" lemma="a" pos="DET" space=" ">a</W>
+ <W cur="1579" id="288" lemma="_" pos="NOM" space=" ">HTP</W>
+ <W cur="1583" id="289" lemma="em" pos="PRP+DET" space=" ">na</W>
+ <W cur="1586" id="290" lemma="_" pos="NOM" space=" ">AF</W>
+ <W boundary="sentence" cur="1588" id="291" lemma="." pos="SENT">.</W>
+ <W cur="1590" id="292" lemma="_" pos="NOM" space=" ">Além</W>
+ <W cur="1595" id="293" lemma="de" pos="PRP+P" space=" ">disso</W>
+ <W cur="1600" id="294" lemma="," pos="VIRG">,</W>
+ <W cur="1602" id="295" lemma="ir" pos="V" space=" ">foi</W>
+ <W cur="1606" id="296" lemma="nosso" pos="ADJ" space=" ">nosso</W>
+ <W cur="1612" id="297" lemma="objectivo" pos="NOM" space=" ">objetivo</W>
+ <W cur="1621" id="298" lemma="avaliar" pos="V" space=" ">avaliar</W>
+ <W cur="1629" id="299" lemma="correlação" pos="NOM" space=" ">correlações</W>
+ <W cur="1641" id="300" lemma="entre" pos="PRP" space=" ">entre</W>
+ <W cur="1647" id="301" lemma="medida" pos="NOM" space=" ">medidas</W>
+ <W cur="1655" id="302" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1658" id="303" lemma="ativação" pos="NOM" space=" ">ativação</W>
+ <W cur="1667" id="304" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1670" id="305" lemma="coagulação" pos="NOM" space=" ">coagulação</W>
+ <W cur="1681" id="306" lemma="e" pos="CONJ" space=" ">e</W>
+ <W cur="1684" id="307" lemma="de" pos="PRP" space="  ">de</W>
+ <W cur="1687" id="308" lemma="inflamação" pos="NOM" space=" ">inflamação</W>
+ <W cur="1698" id="309" lemma="com" pos="PRP" space=" ">com</W>
+ <W cur="1702" id="310" lemma="marcador" pos="NOM" space=" ">marcadores</W>
+ <W cur="1713" id="311" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1716" id="312" lemma="hemólise" pos="NOM" space=" ">hemólise</W>
+ <W boundary="sentence" cur="1724" id="313" lemma="." pos="SENT">.</W>
+ <W cur="1726" id="314" lemma="para" pos="PRP" space=" ">Para</W>
+ <W cur="1731" id="315" lemma="abordar" pos="V" space=" ">abordar</W>
+ <W cur="1739" id="316" lemma="esta" pos="DET" space=" ">estas</W>
+ <W cur="1745" id="317" lemma="questão" pos="NOM" space=" ">questões</W>
+ <W cur="1753" id="318" lemma="," pos="VIRG">,</W>
+ <W cur="1755" id="319" lemma="ir" pos="V" space=" ">foi</W>
+ <W cur="1759" id="320" lemma="avaliar" pos="V" space=" ">avaliada</W>
+ <W cur="1768" id="321" lemma="uma" pos="DET" space=" ">uma</W>
+ <W cur="1772" id="322" lemma="coorte" pos="NOM" space=" ">coorte</W>
+ <W cur="1779" id="323" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1782" id="324" lemma="paciente" pos="NOM" space=" ">pacientes</W>
+ <W cur="1792" id="325" lemma="acompanhado" pos="ADJ" space=" ">acompanhados</W>
+ <W cur="1805" id="326" lemma="em" pos="PRP" space=" ">em</W>
+ <W cur="1808" id="327" lemma="uma" pos="DET" space=" ">uma</W>
+ <W cur="1812" id="328" lemma="_" pos="NOM" space=" ">Clínica</W>
+ <W cur="1820" id="329" lemma="de" pos="PRP+DET" space=" ">da</W>
+ <W cur="1823" id="330" lemma="anemia" pos="NOM" space=" ">Anemia</W>
+ <W cur="1830" id="331" lemma="_" pos="NOM" space=" ">Falciforme</W>
+ <W cur="1841" id="332" lemma="de" pos="PRP" space=" ">de</W>
+ <W cur="1844" id="333" lemma="adulto" pos="NOM" space=" ">adultos</W>
+ <W boundary="sentence" cur="1851" id="334" lemma="." pos="SENT">.</W>
 </Text>

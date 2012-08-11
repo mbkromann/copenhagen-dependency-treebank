@@ -1,149 +1,150 @@
-<Text language="es" >
-<W cur="0" id="1">La</W>
-<W cur="3" id="2" space=" ">sociología</W>
-<W cur="14" id="3" space=" ">es</W>
-<W cur="17" id="4" space=" ">una</W>
-<W cur="21" id="5" space=" ">disciplina</W>
-<W cur="32" id="6" space=" ">académica</W>
-<W cur="42" id="7" space=" ">relativamente</W>
-<W cur="56" id="8" space=" ">nueva</W>
-<W cur="61" id="9">.</W>
-<W cur="63" id="10" space=" ">Surgió</W>
-<W cur="70" id="11" space=" ">en</W>
-<W cur="73" id="12" space=" ">el</W>
-<W cur="76" id="13" space=" ">siglo</W>
-<W cur="82" id="14" space=" ">XIX</W>
-<W cur="86" id="15" space=" ">en</W>
-<W cur="89" id="16" space=" ">respuesta</W>
-<W cur="99" id="17" space=" ">a</W>
-<W cur="101" id="18" space=" ">los</W>
-<W cur="105" id="19" space=" ">desafíos</W>
-<W cur="114" id="20" space=" ">de</W>
-<W cur="117" id="21" space=" ">la</W>
-<W cur="120" id="22" space=" ">modernidad</W>
-<W cur="130" id="23">.</W>
-<W cur="132" id="24" space=" ">El</W>
-<W cur="135" id="25" space=" ">incremento</W>
-<W cur="146" id="26" space=" ">de</W>
-<W cur="149" id="27" space=" ">la</W>
-<W cur="152" id="28" space=" ">movilidad</W>
-<W cur="162" id="29" space=" ">y</W>
-<W cur="164" id="30" space=" ">los</W>
-<W cur="168" id="31" space=" ">avances</W>
-<W cur="176" id="32" space=" ">tecnológicos</W>
-<W cur="189" id="33" space=" ">dieron</W>
-<W cur="196" id="34" space=" ">lugar</W>
-<W cur="202" id="35" space=" ">a</W>
-<W cur="204" id="36" space=" ">una</W>
-<W cur="208" id="37" space=" ">exposición</W>
-<W cur="219" id="38" space=" ">cada</W>
-<W cur="224" id="39" space=" ">vez</W>
-<W cur="228" id="40" space=" ">mayor</W>
-<W cur="234" id="41" space=" ">de</W>
-<W cur="237" id="42" space=" ">personas</W>
-<W cur="246" id="43" space=" ">a</W>
-<W cur="248" id="44" space=" ">culturas</W>
-<W cur="257" id="45" space=" ">y</W>
-<W cur="259" id="46" space=" ">sociedades</W>
-<W cur="270" id="47" space=" ">diferentes</W>
-<W cur="280" id="48">.</W>
-<W cur="282" id="49" space=" ">El</W>
-<W cur="285" id="50" space=" ">impacto</W>
-<W cur="293" id="51" space=" ">de</W>
-<W cur="296" id="52" space=" ">esta</W>
-<W cur="301" id="53" space=" ">exposición</W>
-<W cur="312" id="54" space=" ">fue</W>
-<W cur="316" id="55" space=" ">variado</W>
-<W cur="323" id="56">,</W>
-<W cur="325" id="57" space=" ">pero</W>
-<W cur="330" id="58" space=" ">incluso</W>
-<W cur="338" id="59" space=" ">para</W>
-<W cur="343" id="60" space=" ">algunas</W>
-<W cur="351" id="61" space=" ">personas</W>
-<W cur="360" id="62" space=" ">cambió</W>
-<W cur="367" id="63" space=" ">las</W>
-<W cur="371" id="64" space=" ">normas</W>
-<W cur="378" id="65" space=" ">y</W>
-<W cur="380" id="66" space=" ">costumbres</W>
-<W cur="391" id="67" space=" ">tradicionales</W>
-<W cur="405" id="68" space=" ">justificando</W>
-<W cur="418" id="69" space=" ">una</W>
-<W cur="422" id="70" space=" ">comprensión</W>
-<W cur="434" id="71" space=" ">revisada</W>
-<W cur="443" id="72" space=" ">de</W>
-<W cur="446" id="73" space=" ">cómo</W>
-<W cur="451" id="74" space=" ">funciona</W>
-<W cur="460" id="75" space=" ">el</W>
-<W cur="463" id="76" space=" ">mundo</W>
-<W cur="468" id="77">.</W>
-<W cur="470" id="78" space=" ">Los</W>
-<W cur="474" id="79" space=" ">sociólogos</W>
-<W cur="485" id="80" space=" ">respondieron</W>
-<W cur="498" id="81" space=" ">a</W>
-<W cur="500" id="82" space=" ">estos</W>
-<W cur="506" id="83" space=" ">cambios</W>
-<W cur="514" id="84" space=" ">tratando</W>
-<W cur="523" id="85" space=" ">de</W>
-<W cur="526" id="86" space=" ">entender</W>
-<W cur="535" id="87" space=" ">lo</W>
-<W cur="538" id="88" space=" ">que</W>
-<W cur="542" id="89" space=" ">mantiene</W>
-<W cur="551" id="90" space=" ">los</W>
-<W cur="555" id="91" space=" ">diferentes</W>
-<W cur="566" id="92" space=" ">grupos</W>
-<W cur="573" id="93" space=" ">sociales</W>
-<W cur="582" id="94" space=" ">y</W>
-<W cur="584" id="95" space=" ">también</W>
-<W cur="592" id="96" space=" ">exploraron</W>
-<W cur="603" id="97" space=" ">las</W>
-<W cur="607" id="98" space=" ">posibles</W>
-<W cur="616" id="99" space=" ">razones</W>
-<W cur="624" id="100" space=" ">para</W>
-<W cur="629" id="101" space=" ">la</W>
-<W cur="632" id="102" space=" ">ruptura</W>
-<W cur="640" id="103" space=" ">de</W>
-<W cur="643" id="104" space=" ">la</W>
-<W cur="646" id="105" space=" ">solidaridad</W>
-<W cur="658" id="106" space=" ">social</W>
-<W cur="664" id="107">.</W>
-<W cur="666" id="108" space=" ">La</W>
-<W cur="669" id="109" space=" ">sociología</W>
-<W cur="680" id="110" space=" ">como</W>
-<W cur="685" id="111" space=" ">término</W>
-<W cur="693" id="112" space=" ">fue</W>
-<W cur="697" id="113" space=" ">acuñado</W>
-<W cur="705" id="114" space=" ">por</W>
-<W cur="709" id="115" space=" ">Auguste</W>
-<W cur="717" id="116" space=" ">Comte</W>
-<W cur="723" id="117">(</W>
-<W cur="724" id="118">1798</W>
-<W cur="728" id="119">-</W>
-<W cur="729" id="120">1857</W>
-<W cur="733" id="121">)</W>
-<W cur="735" id="122" space=" ">en</W>
-<W cur="738" id="123" space=" ">1838</W>
-<W cur="743" id="124" space=" ">del</W>
-<W cur="747" id="125" space=" ">término</W>
-<W cur="755" id="126" space=" ">latino</W>
-<W cur="762" id="127">"</W>
-<W cur="763" id="128">socius</W>
-<W cur="769" id="129">"</W>
-<W cur="771" id="130">(</W>
-<W cur="772" id="131">compañero</W>
-<W cur="781" id="132">,</W>
-<W cur="783" id="133" space=" ">socio</W>
-<W cur="788" id="134">)</W>
-<W cur="790" id="135" space=" ">y</W>
-<W cur="792" id="136" space=" ">el</W>
-<W cur="795" id="137" space=" ">término</W>
-<W cur="803" id="138" space=" ">griego</W>
-<W cur="810" id="139">"</W>
-<W cur="811" id="140">logia</W>
-<W cur="816" id="141">"</W>
-<W cur="818" id="142">(</W>
-<W cur="819" id="143">estudio</W>
-<W cur="826" id="144">,</W>
-<W cur="828" id="145" space=" ">discurso</W>
-<W cur="836" id="146">)</W>
-<W cur="837" id="147">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="es" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" lemma="el" pos="ART">La</W>
+ <W cur="3" id="2" lemma="_" pos="NC" space=" ">sociología</W>
+ <W cur="14" id="3" lemma="ser" pos="VSfin" space=" ">es</W>
+ <W cur="17" id="4" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="21" id="5" lemma="disciplina" pos="NC" space=" ">disciplina</W>
+ <W cur="32" id="6" lemma="académico" pos="ADJ" space=" ">académica</W>
+ <W cur="42" id="7" lemma="relativamente" pos="ADV" space=" ">relativamente</W>
+ <W cur="56" id="8" lemma="nuevo" pos="ADJ" space=" ">nueva</W>
+ <W boundary="sentence" cur="61" id="9" lemma="." pos="FS">.</W>
+ <W cur="63" id="10" lemma="surgir" pos="VLfin" space=" ">Surgió</W>
+ <W cur="70" id="11" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="73" id="12" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="76" id="13" lemma="siglo" pos="NC" space=" ">siglo</W>
+ <W cur="82" id="14" lemma="_" pos="NP" space=" ">XIX</W>
+ <W cur="86" id="15" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="89" id="16" lemma="respuesta" pos="NC" space=" ">respuesta</W>
+ <W cur="99" id="17" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="101" id="18" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="105" id="19" lemma="desafío" pos="NC" space=" ">desafíos</W>
+ <W cur="114" id="20" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="117" id="21" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="120" id="22" lemma="modernidad" pos="NC" space=" ">modernidad</W>
+ <W boundary="sentence" cur="130" id="23" lemma="." pos="FS">.</W>
+ <W cur="132" id="24" lemma="el" pos="ART" space=" ">El</W>
+ <W cur="135" id="25" lemma="incremento" pos="NC" space=" ">incremento</W>
+ <W cur="146" id="26" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="149" id="27" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="152" id="28" lemma="movilidad" pos="NC" space=" ">movilidad</W>
+ <W cur="162" id="29" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="164" id="30" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="168" id="31" lemma="avance" pos="NC" space=" ">avances</W>
+ <W cur="176" id="32" lemma="tecnológico" pos="ADJ" space=" ">tecnológicos</W>
+ <W cur="189" id="33" lemma="dar" pos="VLfin" space=" ">dieron</W>
+ <W cur="196" id="34" lemma="lugar" pos="NC" space=" ">lugar</W>
+ <W cur="202" id="35" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="204" id="36" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="208" id="37" lemma="exposición" pos="NC" space=" ">exposición</W>
+ <W cur="219" id="38" lemma="cada" pos="QU" space=" ">cada</W>
+ <W cur="224" id="39" lemma="vez" pos="NC" space=" ">vez</W>
+ <W cur="228" id="40" lemma="grande" pos="ADJ" space=" ">mayor</W>
+ <W cur="234" id="41" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="237" id="42" lemma="persona" pos="NC" space=" ">personas</W>
+ <W cur="246" id="43" lemma="a" pos="ALFS" space=" ">a</W>
+ <W cur="248" id="44" lemma="culturar" pos="VLfin" space=" ">culturas</W>
+ <W cur="257" id="45" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="259" id="46" lemma="sociedad" pos="NC" space=" ">sociedades</W>
+ <W cur="270" id="47" lemma="diferente" pos="ADJ" space=" ">diferentes</W>
+ <W boundary="sentence" cur="280" id="48" lemma="." pos="FS">.</W>
+ <W cur="282" id="49" lemma="el" pos="ART" space=" ">El</W>
+ <W cur="285" id="50" lemma="impacto" pos="NC" space=" ">impacto</W>
+ <W cur="293" id="51" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="296" id="52" lemma="este" pos="DM" space=" ">esta</W>
+ <W cur="301" id="53" lemma="exposición" pos="NC" space=" ">exposición</W>
+ <W cur="312" id="54" lemma="ser" pos="VSfin" space=" ">fue</W>
+ <W cur="316" id="55" lemma="variar" pos="VLadj" space=" ">variado</W>
+ <W cur="323" id="56" lemma="," pos="CM">,</W>
+ <W cur="325" id="57" lemma="pero" pos="CCAD" space=" ">pero</W>
+ <W cur="330" id="58" lemma="incluso" pos="ADV" space=" ">incluso</W>
+ <W cur="338" id="59" lemma="para" pos="PREP" space=" ">para</W>
+ <W cur="343" id="60" lemma="alguno" pos="QU" space=" ">algunas</W>
+ <W cur="351" id="61" lemma="persona" pos="NC" space=" ">personas</W>
+ <W cur="360" id="62" lemma="cambiar" pos="VLfin" space=" ">cambió</W>
+ <W cur="367" id="63" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="371" id="64" lemma="norma" pos="NC" space=" ">normas</W>
+ <W cur="378" id="65" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="380" id="66" lemma="costumbre" pos="NC" space=" ">costumbres</W>
+ <W cur="391" id="67" lemma="tradicional" pos="ADJ" space=" ">tradicionales</W>
+ <W cur="405" id="68" lemma="justificar" pos="VLger" space=" ">justificando</W>
+ <W cur="418" id="69" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="422" id="70" lemma="comprensión" pos="NC" space=" ">comprensión</W>
+ <W cur="434" id="71" lemma="revisar" pos="VLadj" space=" ">revisada</W>
+ <W cur="443" id="72" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="446" id="73" lemma="cómo" pos="ADV" space=" ">cómo</W>
+ <W cur="451" id="74" lemma="funcionar" pos="VLfin" space=" ">funciona</W>
+ <W cur="460" id="75" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="463" id="76" lemma="mundo" pos="NC" space=" ">mundo</W>
+ <W boundary="sentence" cur="468" id="77" lemma="." pos="FS">.</W>
+ <W cur="470" id="78" lemma="el" pos="ART" space=" ">Los</W>
+ <W cur="474" id="79" lemma="sociólogo" pos="NC" space=" ">sociólogos</W>
+ <W cur="485" id="80" lemma="responder" pos="VLfin" space=" ">respondieron</W>
+ <W cur="498" id="81" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="500" id="82" lemma="este" pos="DM" space=" ">estos</W>
+ <W cur="506" id="83" lemma="cambio" pos="NC" space=" ">cambios</W>
+ <W cur="514" id="84" lemma="tratar" pos="VLger" space=" ">tratando</W>
+ <W cur="523" id="85" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="526" id="86" lemma="entender" pos="VLinf" space=" ">entender</W>
+ <W cur="535" id="87" lemma="el" pos="ART" space=" ">lo</W>
+ <W cur="538" id="88" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="542" id="89" lemma="mantener" pos="VLfin" space=" ">mantiene</W>
+ <W cur="551" id="90" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="555" id="91" lemma="diferente" pos="ADJ" space=" ">diferentes</W>
+ <W cur="566" id="92" lemma="grupo" pos="NC" space=" ">grupos</W>
+ <W cur="573" id="93" lemma="social" pos="ADJ" space=" ">sociales</W>
+ <W cur="582" id="94" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="584" id="95" lemma="también" pos="ADV" space=" ">también</W>
+ <W cur="592" id="96" lemma="_" pos="VLfin" space=" ">exploraron</W>
+ <W cur="603" id="97" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="607" id="98" lemma="posible" pos="ADJ" space=" ">posibles</W>
+ <W cur="616" id="99" lemma="razón" pos="NC" space=" ">razones</W>
+ <W cur="624" id="100" lemma="para" pos="PREP" space=" ">para</W>
+ <W cur="629" id="101" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="632" id="102" lemma="ruptura" pos="NC" space=" ">ruptura</W>
+ <W cur="640" id="103" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="643" id="104" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="646" id="105" lemma="solidaridad" pos="NC" space=" ">solidaridad</W>
+ <W cur="658" id="106" lemma="social" pos="ADJ" space=" ">social</W>
+ <W boundary="sentence" cur="664" id="107" lemma="." pos="FS">.</W>
+ <W cur="666" id="108" lemma="el" pos="ART" space=" ">La</W>
+ <W cur="669" id="109" lemma="_" pos="NC" space=" ">sociología</W>
+ <W cur="680" id="110" lemma="como" pos="CSUBX" space=" ">como</W>
+ <W cur="685" id="111" lemma="término" pos="NC" space=" ">término</W>
+ <W cur="693" id="112" lemma="ser" pos="VSfin" space=" ">fue</W>
+ <W cur="697" id="113" lemma="_" pos="VLadj" space=" ">acuñado</W>
+ <W cur="705" id="114" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="709" id="115" lemma="_" pos="NC" space=" ">Auguste</W>
+ <W cur="717" id="116" lemma="_" pos="NP" space=" ">Comte</W>
+ <W cur="723" id="117" lemma="(" pos="LP">(</W>
+ <W cur="724" id="118" lemma="@card@" pos="CARD">1798</W>
+ <W cur="728" id="119" lemma="-" pos="DASH">-</W>
+ <W cur="729" id="120" lemma="@card@" pos="CARD">1857</W>
+ <W cur="733" id="121" lemma=")" pos="RP">)</W>
+ <W cur="735" id="122" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="738" id="123" lemma="@card@" pos="CARD" space=" ">1838</W>
+ <W cur="743" id="124" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="747" id="125" lemma="término" pos="NC" space=" ">término</W>
+ <W cur="755" id="126" lemma="latino" pos="ADJ" space=" ">latino</W>
+ <W cur="762" id="127" lemma="&quot;" pos="QT">"</W>
+ <W cur="763" id="128" lemma="_" pos="NC">socius</W>
+ <W cur="769" id="129" lemma="&quot;" pos="QT">"</W>
+ <W cur="771" id="130" lemma="(" pos="LP">(</W>
+ <W cur="772" id="131" lemma="compañero" pos="NC">compañero</W>
+ <W cur="781" id="132" lemma="," pos="CM">,</W>
+ <W cur="783" id="133" lemma="socio" pos="NC" space=" ">socio</W>
+ <W cur="788" id="134" lemma=")" pos="RP">)</W>
+ <W cur="790" id="135" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="792" id="136" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="795" id="137" lemma="término" pos="NC" space=" ">término</W>
+ <W cur="803" id="138" lemma="griego" pos="ADJ" space=" ">griego</W>
+ <W cur="810" id="139" lemma="&quot;" pos="QT">"</W>
+ <W cur="811" id="140" lemma="_" pos="NC">logia</W>
+ <W cur="816" id="141" lemma="&quot;" pos="QT">"</W>
+ <W cur="818" id="142" lemma="(" pos="LP">(</W>
+ <W cur="819" id="143" lemma="estudio" pos="NC">estudio</W>
+ <W cur="826" id="144" lemma="," pos="CM">,</W>
+ <W cur="828" id="145" lemma="discurso" pos="NC" space=" ">discurso</W>
+ <W cur="836" id="146" lemma=")" pos="RP">)</W>
+ <W boundary="sentence" cur="837" id="147" lemma="." pos="FS">.</W>
 </Text>

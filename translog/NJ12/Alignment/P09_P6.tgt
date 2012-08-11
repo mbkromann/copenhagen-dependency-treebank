@@ -1,142 +1,143 @@
-<Text language="hi" >
-<W cur="0" id="1">शिकारी</W>
-<W cur="7" id="2" space=" ">बहुल</W>
-<W cur="12" id="3" space=" ">समाजों</W>
-<W cur="19" id="4" space=" ">में</W>
-<W cur="23" id="5" space=" ">अधिकतर</W>
-<W cur="30" id="6" space=" ">खानाबदोश</W>
-<W cur="39" id="7" space=" ">हैं</W>
-<W cur="42" id="8">.</W>
-<W cur="44" id="9" space=" ">इस</W>
-<W cur="47" id="10" space=" ">तरह</W>
-<W cur="51" id="11" space=" ">की</W>
-<W cur="54" id="12" space=" ">निर्वाह</W>
-<W cur="62" id="13" space=" ">प्रणाली</W>
-<W cur="70" id="14" space=" ">के</W>
-<W cur="73" id="15" space=" ">अन्तर्गत</W>
-<W cur="82" id="16" space=" ">समायोजित</W>
-<W cur="91" id="17" space=" ">हो</W>
-<W cur="94" id="18" space=" ">पाना</W>
-<W cur="99" id="19" space=" ">मुश्किल</W>
-<W cur="107" id="20" space=" ">है</W>
-<W cur="110" id="21" space=" ">इस</W>
-<W cur="113" id="22" space=" ">तरह</W>
-<W cur="117" id="23" space=" ">से</W>
-<W cur="120" id="24" space=" ">किसी</W>
-<W cur="125" id="25" space=" ">क्षेत्र</W>
-<W cur="133" id="26" space=" ">के</W>
-<W cur="136" id="27" space=" ">संसाधन</W>
-<W cur="143" id="28" space=" ">तेजी</W>
-<W cur="148" id="29" space=" ">से</W>
-<W cur="151" id="30" space=" ">समाप्त</W>
-<W cur="158" id="31" space=" ">हो</W>
-<W cur="161" id="32" space=" ">सकते</W>
-<W cur="166" id="33" space=" ">हैं</W>
-<W cur="169" id="34">.</W>
-<W cur="171" id="35" space=" ">शिकारी</W>
-<W cur="178" id="36" space=" ">बहुल</W>
-<W cur="183" id="37" space=" ">समाज</W>
-<W cur="188" id="38" space=" ">उनके</W>
-<W cur="193" id="39" space=" ">निर्वाह</W>
-<W cur="201" id="40" space=" ">प्रणाली</W>
-<W cur="209" id="41" space=" ">के</W>
-<W cur="212" id="42" space=" ">परिणाम</W>
-<W cur="219" id="43" space=" ">स्वरूप</W>
-<W cur="226" id="44" space=" ">जनसंख्या</W>
-<W cur="235" id="45" space=" ">घनत्व</W>
-<W cur="241" id="46" space=" ">बहुत</W>
-<W cur="246" id="47" space=" ">कम</W>
-<W cur="249" id="48" space=" ">है</W>
-<W cur="251" id="49">.</W>
-<W cur="253" id="50" space=" ">कृषि</W>
-<W cur="258" id="51" space=" ">निर्वाह</W>
-<W cur="266" id="52" space=" ">प्रणाली</W>
-<W cur="273" id="53">,</W>
-<W cur="275" id="54" space=" ">अकृषित</W>
-<W cur="282" id="55" space=" ">जमीन</W>
-<W cur="287" id="56" space=" ">की</W>
-<W cur="290" id="57" space=" ">तुलना</W>
-<W cur="296" id="58" space=" ">अधिक</W>
-<W cur="301" id="59" space=" ">घनत्व</W>
-<W cur="307" id="60" space=" ">वाली</W>
-<W cur="312" id="61" space=" ">आबादी</W>
-<W cur="318" id="62" space=" ">में</W>
-<W cur="322" id="63" space=" ">60</W>
-<W cur="325" id="64" space=" ">से</W>
-<W cur="328" id="65" space=" ">100</W>
-<W cur="332" id="66" space=" ">गुना</W>
-<W cur="337" id="67" space=" ">अधिक</W>
-<W cur="342" id="68" space=" ">जनसंख्या</W>
-<W cur="351" id="69" space=" ">घनत्व</W>
-<W cur="357" id="70" space=" ">का</W>
-<W cur="360" id="71" space=" ">समर्थन</W>
-<W cur="367" id="72" space=" ">कर</W>
-<W cur="370" id="73" space=" ">सकती</W>
-<W cur="375" id="74" space=" ">है</W>
-<W cur="377" id="75">.</W>
-<W cur="379" id="76" space=" ">शिकारी</W>
-<W cur="386" id="77" space=" ">बहुल</W>
-<W cur="391" id="78" space=" ">समाज</W>
-<W cur="396" id="79" space=" ">गैर</W>
-<W cur="400" id="80" space=" ">पदानुक्रमित</W>
-<W cur="412" id="81" space=" ">सामाजिक</W>
-<W cur="420" id="82" space=" ">संरचनाएं</W>
-<W cur="429" id="83" space=" ">भी</W>
-<W cur="432" id="84" space=" ">बनाते</W>
-<W cur="438" id="85" space=" ">हैं</W>
-<W cur="441" id="86">,</W>
-<W cur="443" id="87" space=" ">हालांकि</W>
-<W cur="451" id="88" space=" ">यह</W>
-<W cur="454" id="89" space=" ">हमेशा</W>
-<W cur="460" id="90" space=" ">का</W>
-<W cur="463" id="91" space=" ">मुद्दा</W>
-<W cur="470" id="92" space=" ">नहीं</W>
-<W cur="475" id="93" space=" ">है</W>
-<W cur="477" id="94">.</W>
-<W cur="479" id="95" space=" ">क्योंकि</W>
-<W cur="487" id="96" space=" ">शिकारी</W>
-<W cur="494" id="97" space=" ">बहुल</W>
-<W cur="499" id="98" space=" ">खानाबदोश</W>
-<W cur="508" id="99" space=" ">हो</W>
-<W cur="511" id="100" space=" ">जाते</W>
-<W cur="516" id="101" space=" ">हैं</W>
-<W cur="519" id="102">,</W>
-<W cur="521" id="103" space=" ">वे</W>
-<W cur="524" id="104" space=" ">आम</W>
-<W cur="527" id="105" space=" ">तौर</W>
-<W cur="531" id="106" space=" ">पर</W>
-<W cur="534" id="107" space=" ">अधिशेष</W>
-<W cur="541" id="108" space=" ">भोजन</W>
-<W cur="546" id="109" space=" ">के</W>
-<W cur="549" id="110" space=" ">भण्डारण</W>
-<W cur="557" id="111" space=" ">की</W>
-<W cur="560" id="112" space=" ">संभावना</W>
-<W cur="568" id="113" space=" ">नहीं</W>
-<W cur="573" id="114" space=" ">रखते</W>
-<W cur="577" id="115">.</W>
-<W cur="579" id="116" space=" ">एक</W>
-<W cur="582" id="117" space=" ">परिणाम</W>
-<W cur="589" id="118" space=" ">के</W>
-<W cur="592" id="119" space=" ">रूप</W>
-<W cur="596" id="120" space=" ">में</W>
-<W cur="599" id="121">,</W>
-<W cur="601" id="122" space=" ">पूर्णकालिक</W>
-<W cur="612" id="123" space=" ">नेताओं</W>
-<W cur="618" id="124">,</W>
-<W cur="620" id="125" space=" ">नौकरशाहों</W>
-<W cur="629" id="126">,</W>
-<W cur="631" id="127" space=" ">या</W>
-<W cur="634" id="128" space=" ">कारीगरों</W>
-<W cur="643" id="129" space=" ">को</W>
-<W cur="646" id="130" space=" ">शायद</W>
-<W cur="651" id="131" space=" ">ही</W>
-<W cur="654" id="132" space=" ">कभी</W>
-<W cur="658" id="133" space=" ">शिकारी</W>
-<W cur="665" id="134" space=" ">बहुल</W>
-<W cur="670" id="135" space=" ">समाजों</W>
-<W cur="677" id="136" space=" ">द्वारा</W>
-<W cur="684" id="137" space=" ">समर्थन</W>
-<W cur="691" id="138" space=" ">मिला</W>
-<W cur="696" id="139" space=" ">हो</W>
-<W cur="698" id="140">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="hi" lemmatizer="Hindi-lemmatizer" sent_segmenter="nltk_sent_tokenizer" tagger="TnT-tagger">
+ <W cur="0" id="1" lemma="शिकारी" pos="NN">शिकारी</W>
+ <W cur="7" id="2" lemma="बहुल" pos="JJ" space=" ">बहुल</W>
+ <W cur="12" id="3" lemma="समाजों" pos="NN" space=" ">समाजों</W>
+ <W cur="19" id="4" lemma="में" pos="PSP" space=" ">में</W>
+ <W cur="23" id="5" lemma="अधिकतर" pos="JJ" space=" ">अधिकतर</W>
+ <W cur="30" id="6" lemma="खानाबदोश" pos="NN" space=" ">खानाबदोश</W>
+ <W cur="39" id="7" lemma="है" pos="VM" space=" ">हैं</W>
+ <W boundary="sentence" cur="42" id="8" lemma="" pos="SYM">.</W>
+ <W cur="44" id="9" lemma="इस" pos="DEM" space=" ">इस</W>
+ <W cur="47" id="10" lemma="तरह" pos="NN" space=" ">तरह</W>
+ <W cur="51" id="11" lemma="का" pos="PSP" space=" ">की</W>
+ <W cur="54" id="12" lemma="निर्वाह" pos="NN" space=" ">निर्वाह</W>
+ <W cur="62" id="13" lemma="प्रणाली" pos="NN" space=" ">प्रणाली</W>
+ <W cur="70" id="14" lemma="का" pos="PSP" space=" ">के</W>
+ <W cur="73" id="15" lemma="अंतर्गत" pos="PSP" space=" ">अन्तर्गत</W>
+ <W cur="82" id="16" lemma="समायोजित" pos="JJ" space=" ">समायोजित</W>
+ <W cur="91" id="17" lemma="हो" pos="VM" space=" ">हो</W>
+ <W cur="94" id="18" lemma="पा" pos="VAUX" space=" ">पाना</W>
+ <W cur="99" id="19" lemma="मुश्किल" pos="JJ" space=" ">मुश्किल</W>
+ <W cur="107" id="20" lemma="है" pos="VM" space=" ">है</W>
+ <W cur="110" id="21" lemma="इस" pos="DEM" space=" ">इस</W>
+ <W cur="113" id="22" lemma="तरह" pos="NN" space=" ">तरह</W>
+ <W cur="117" id="23" lemma="से" pos="PSP" space=" ">से</W>
+ <W cur="120" id="24" lemma="किसी" pos="PRP" space=" ">किसी</W>
+ <W cur="125" id="25" lemma="क्षेत्र" pos="NN" space=" ">क्षेत्र</W>
+ <W cur="133" id="26" lemma="का" pos="PSP" space=" ">के</W>
+ <W cur="136" id="27" lemma="संसाधन" pos="NN" space=" ">संसाधन</W>
+ <W cur="143" id="28" lemma="तेजी" pos="RB" space=" ">तेजी</W>
+ <W cur="148" id="29" lemma="से" pos="PSP" space=" ">से</W>
+ <W cur="151" id="30" lemma="समाप्त" pos="JJ" space=" ">समाप्त</W>
+ <W cur="158" id="31" lemma="हो" pos="VM" space=" ">हो</W>
+ <W cur="161" id="32" lemma="सक" pos="VAUX" space=" ">सकते</W>
+ <W cur="166" id="33" lemma="है" pos="VAUX" space=" ">हैं</W>
+ <W boundary="sentence" cur="169" id="34" lemma="" pos="SYM">.</W>
+ <W cur="171" id="35" lemma="शिकारी" pos="NN" space=" ">शिकारी</W>
+ <W cur="178" id="36" lemma="बहुल" pos="JJ" space=" ">बहुल</W>
+ <W cur="183" id="37" lemma="समाज" pos="NN" space=" ">समाज</W>
+ <W cur="188" id="38" lemma="उनके" pos="PRP" space=" ">उनके</W>
+ <W cur="193" id="39" lemma="निर्वाह" pos="NN" space=" ">निर्वाह</W>
+ <W cur="201" id="40" lemma="प्रणाली" pos="NN" space=" ">प्रणाली</W>
+ <W cur="209" id="41" lemma="का" pos="PSP" space=" ">के</W>
+ <W cur="212" id="42" lemma="परिणाम" pos="NN" space=" ">परिणाम</W>
+ <W cur="219" id="43" lemma="स्वरूप" pos="NN" space=" ">स्वरूप</W>
+ <W cur="226" id="44" lemma="जनसंख्या" pos="NN" space=" ">जनसंख्या</W>
+ <W cur="235" id="45" lemma="घनत्व" pos="NN" space=" ">घनत्व</W>
+ <W cur="241" id="46" lemma="बहुत" pos="INTF" space=" ">बहुत</W>
+ <W cur="246" id="47" lemma="कम" pos="QF" space=" ">कम</W>
+ <W cur="249" id="48" lemma="है" pos="VM" space=" ">है</W>
+ <W boundary="sentence" cur="251" id="49" lemma="" pos="SYM">.</W>
+ <W cur="253" id="50" lemma="कृषि" pos="XC" space=" ">कृषि</W>
+ <W cur="258" id="51" lemma="निर्वाह" pos="NN" space=" ">निर्वाह</W>
+ <W cur="266" id="52" lemma="प्रणाली" pos="NN" space=" ">प्रणाली</W>
+ <W cur="273" id="53" lemma="," pos="SYM">,</W>
+ <W cur="275" id="54" lemma="अकृषित" pos="JJ" space=" ">अकृषित</W>
+ <W cur="282" id="55" lemma="जमीन" pos="NN" space=" ">जमीन</W>
+ <W cur="287" id="56" lemma="का" pos="PSP" space=" ">की</W>
+ <W cur="290" id="57" lemma="तुल" pos="NN" space=" ">तुलना</W>
+ <W cur="296" id="58" lemma="अधिक" pos="QF" space=" ">अधिक</W>
+ <W cur="301" id="59" lemma="घनत्व" pos="NN" space=" ">घनत्व</W>
+ <W cur="307" id="60" lemma="वाली" pos="PSP" space=" ">वाली</W>
+ <W cur="312" id="61" lemma="आबादी" pos="NN" space=" ">आबादी</W>
+ <W cur="318" id="62" lemma="में" pos="PSP" space=" ">में</W>
+ <W cur="322" id="63" lemma="60" pos="QC" space=" ">60</W>
+ <W cur="325" id="64" lemma="से" pos="PSP" space=" ">से</W>
+ <W cur="328" id="65" lemma="100" pos="QC" space=" ">100</W>
+ <W cur="332" id="66" lemma="गुना" pos="VM" space=" ">गुना</W>
+ <W cur="337" id="67" lemma="अधिक" pos="QF" space=" ">अधिक</W>
+ <W cur="342" id="68" lemma="जनसंख्या" pos="NN" space=" ">जनसंख्या</W>
+ <W cur="351" id="69" lemma="घनत्व" pos="NN" space=" ">घनत्व</W>
+ <W cur="357" id="70" lemma="का" pos="PSP" space=" ">का</W>
+ <W cur="360" id="71" lemma="समर्थन" pos="NN" space=" ">समर्थन</W>
+ <W cur="367" id="72" lemma="कर" pos="VM" space=" ">कर</W>
+ <W cur="370" id="73" lemma="सक" pos="VAUX" space=" ">सकती</W>
+ <W cur="375" id="74" lemma="है" pos="VAUX" space=" ">है</W>
+ <W boundary="sentence" cur="377" id="75" lemma="" pos="SYM">.</W>
+ <W cur="379" id="76" lemma="शिकारी" pos="NN" space=" ">शिकारी</W>
+ <W cur="386" id="77" lemma="बहुल" pos="JJ" space=" ">बहुल</W>
+ <W cur="391" id="78" lemma="समाज" pos="NN" space=" ">समाज</W>
+ <W cur="396" id="79" lemma="गैर" pos="JJ" space=" ">गैर</W>
+ <W cur="400" id="80" lemma="पदानुक्रमित" pos="JJ" space=" ">पदानुक्रमित</W>
+ <W cur="412" id="81" lemma="सामाजिक" pos="JJ" space=" ">सामाजिक</W>
+ <W cur="420" id="82" lemma="संरचना" pos="NN" space=" ">संरचनाएं</W>
+ <W cur="429" id="83" lemma="भी" pos="RP" space=" ">भी</W>
+ <W cur="432" id="84" lemma="बना" pos="VM" space=" ">बनाते</W>
+ <W cur="438" id="85" lemma="है" pos="VAUX" space=" ">हैं</W>
+ <W cur="441" id="86" lemma="," pos="SYM">,</W>
+ <W cur="443" id="87" lemma="हालांकि" pos="CC" space=" ">हालांकि</W>
+ <W cur="451" id="88" lemma="यह" pos="DEM" space=" ">यह</W>
+ <W cur="454" id="89" lemma="हमेशा" pos="NN" space=" ">हमेशा</W>
+ <W cur="460" id="90" lemma="का" pos="PSP" space=" ">का</W>
+ <W cur="463" id="91" lemma="मुद्दा" pos="NN" space=" ">मुद्दा</W>
+ <W cur="470" id="92" lemma="नहीं" pos="NEG" space=" ">नहीं</W>
+ <W cur="475" id="93" lemma="है" pos="VM" space=" ">है</W>
+ <W boundary="sentence" cur="477" id="94" lemma="" pos="SYM">.</W>
+ <W cur="479" id="95" lemma="क्योंकि" pos="CC" space=" ">क्योंकि</W>
+ <W cur="487" id="96" lemma="शिकारी" pos="NN" space=" ">शिकारी</W>
+ <W cur="494" id="97" lemma="बहुल" pos="JJ" space=" ">बहुल</W>
+ <W cur="499" id="98" lemma="खानाबदोश" pos="NN" space=" ">खानाबदोश</W>
+ <W cur="508" id="99" lemma="हो" pos="VM" space=" ">हो</W>
+ <W cur="511" id="100" lemma="जा" pos="VAUX" space=" ">जाते</W>
+ <W cur="516" id="101" lemma="है" pos="VAUX" space=" ">हैं</W>
+ <W cur="519" id="102" lemma="," pos="SYM">,</W>
+ <W cur="521" id="103" lemma="वह" pos="PRP" space=" ">वे</W>
+ <W cur="524" id="104" lemma="आम" pos="JJ" space=" ">आम</W>
+ <W cur="527" id="105" lemma="तौर" pos="NN" space=" ">तौर</W>
+ <W cur="531" id="106" lemma="पर" pos="PSP" space=" ">पर</W>
+ <W cur="534" id="107" lemma="अधिशेष" pos="JJ" space=" ">अधिशेष</W>
+ <W cur="541" id="108" lemma="भोजन" pos="NN" space=" ">भोजन</W>
+ <W cur="546" id="109" lemma="का" pos="PSP" space=" ">के</W>
+ <W cur="549" id="110" lemma="भंडारण" pos="NN" space=" ">भण्डारण</W>
+ <W cur="557" id="111" lemma="का" pos="PSP" space=" ">की</W>
+ <W cur="560" id="112" lemma="संभावना" pos="NN" space=" ">संभावना</W>
+ <W cur="568" id="113" lemma="नहीं" pos="NEG" space=" ">नहीं</W>
+ <W cur="573" id="114" lemma="रख" pos="VM" space=" ">रखते</W>
+ <W boundary="sentence" cur="577" id="115" lemma="" pos="SYM">.</W>
+ <W cur="579" id="116" lemma="एक" pos="QC" space=" ">एक</W>
+ <W cur="582" id="117" lemma="परिणाम" pos="NN" space=" ">परिणाम</W>
+ <W cur="589" id="118" lemma="का" pos="PSP" space=" ">के</W>
+ <W cur="592" id="119" lemma="रूप" pos="NN" space=" ">रूप</W>
+ <W cur="596" id="120" lemma="में" pos="PSP" space=" ">में</W>
+ <W cur="599" id="121" lemma="," pos="SYM">,</W>
+ <W cur="601" id="122" lemma="पूर्णकालिक" pos="JJ" space=" ">पूर्णकालिक</W>
+ <W cur="612" id="123" lemma="नेता" pos="NN" space=" ">नेताओं</W>
+ <W cur="618" id="124" lemma="," pos="SYM">,</W>
+ <W cur="620" id="125" lemma="नौकरशाहों" pos="NN" space=" ">नौकरशाहों</W>
+ <W cur="629" id="126" lemma="," pos="SYM">,</W>
+ <W cur="631" id="127" lemma="या" pos="CC" space=" ">या</W>
+ <W cur="634" id="128" lemma="कारीगर" pos="NN" space=" ">कारीगरों</W>
+ <W cur="643" id="129" lemma="को" pos="PSP" space=" ">को</W>
+ <W cur="646" id="130" lemma="शायद" pos="RB" space=" ">शायद</W>
+ <W cur="651" id="131" lemma="ही" pos="RP" space=" ">ही</W>
+ <W cur="654" id="132" lemma="कभी" pos="PRP" space=" ">कभी</W>
+ <W cur="658" id="133" lemma="शिकारी" pos="NN" space=" ">शिकारी</W>
+ <W cur="665" id="134" lemma="बहुल" pos="JJ" space=" ">बहुल</W>
+ <W cur="670" id="135" lemma="समाजों" pos="NN" space=" ">समाजों</W>
+ <W cur="677" id="136" lemma="द्वारा" pos="PSP" space=" ">द्वारा</W>
+ <W cur="684" id="137" lemma="समर्थन" pos="NN" space=" ">समर्थन</W>
+ <W cur="691" id="138" lemma="मिला" pos="VM" space=" ">मिला</W>
+ <W cur="696" id="139" lemma="हो" pos="VAUX" space=" ">हो</W>
+ <W boundary="sentence" cur="698" id="140" lemma="" pos="SYM">.</W>
 </Text>

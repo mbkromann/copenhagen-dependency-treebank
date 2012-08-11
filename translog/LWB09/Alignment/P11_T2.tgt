@@ -1,175 +1,176 @@
-<Text language="en" >
-<W cur="0" id="1">A</W>
-<W cur="2" id="2" space=" ">pet</W>
-<W cur="6" id="3" space=" ">is</W>
-<W cur="9" id="4" space=" ">found</W>
-<W cur="15" id="5" space=" ">in</W>
-<W cur="18" id="6" space=" ">many</W>
-<W cur="23" id="7" space=" ">homes</W>
-<W cur="28" id="8">,</W>
-<W cur="30" id="9" space=" ">and</W>
-<W cur="34" id="10" space=" ">most</W>
-<W cur="39" id="11" space=" ">people</W>
-<W cur="46" id="12" space=" ">prefer</W>
-<W cur="53" id="13" space=" ">a</W>
-<W cur="55" id="14" space=" ">dog</W>
-<W cur="59" id="15" space=" ">or</W>
-<W cur="62" id="16" space=" ">a</W>
-<W cur="64" id="17" space=" ">cat</W>
-<W cur="67" id="18">.</W>
-<W cur="69" id="19" space=" ">So</W>
-<W cur="72" id="20" space=" ">far</W>
-<W cur="75" id="21">,</W>
-<W cur="77" id="22" space=" ">the</W>
-<W cur="81" id="23" space=" ">soft</W>
-<W cur="86" id="24" space=" ">puppy</W>
-<W cur="92" id="25">'beats</W>
-<W cur="98" id="26">'</W>
-<W cur="100" id="27" space=" ">the</W>
-<W cur="104" id="28" space=" ">cute</W>
-<W cur="109" id="29" space=" ">kitten</W>
-<W cur="116" id="30" space=" ">in</W>
-<W cur="119" id="31" space=" ">the</W>
-<W cur="123" id="32" space=" ">race</W>
-<W cur="128" id="33" space=" ">of</W>
-<W cur="131" id="34" space=" ">being</W>
-<W cur="137" id="35" space=" ">the</W>
-<W cur="141" id="36" space=" ">most</W>
-<W cur="146" id="37" space=" ">popular</W>
-<W cur="154" id="38" space=" ">pet</W>
-<W cur="158" id="39" space=" ">in</W>
-<W cur="161" id="40" space=" ">Denmark</W>
-<W cur="168" id="41">.</W>
-<W cur="170" id="42" space=" ">While</W>
-<W cur="176" id="43" space=" ">the</W>
-<W cur="180" id="44" space=" ">loyalty</W>
-<W cur="188" id="45" space=" ">of</W>
-<W cur="191" id="46" space=" ">the</W>
-<W cur="195" id="47" space=" ">dog</W>
-<W cur="199" id="48" space=" ">explains</W>
-<W cur="208" id="49" space=" ">its</W>
-<W cur="212" id="50" space=" ">popularity</W>
-<W cur="222" id="51">,</W>
-<W cur="224" id="52" space=" ">the</W>
-<W cur="228" id="53" space=" ">numerous</W>
-<W cur="237" id="54" space=" ">car</W>
-<W cur="241" id="55" space=" ">owners</W>
-<W cur="248" id="56" space=" ">love</W>
-<W cur="253" id="57" space=" ">the</W>
-<W cur="257" id="58" space=" ">cat</W>
-<W cur="260" id="59">'s</W>
-<W cur="263" id="60" space=" ">independence</W>
-<W cur="275" id="61">.</W>
-<W cur="277" id="62" space=" ">The</W>
-<W cur="281" id="63" space=" ">general</W>
-<W cur="289" id="64" space=" ">cat</W>
-<W cur="293" id="65" space=" ">owner</W>
-<W cur="299" id="66" space=" ">finds</W>
-<W cur="305" id="67" space=" ">that</W>
-<W cur="310" id="68" space=" ">a</W>
-<W cur="312" id="69" space=" ">dog</W>
-<W cur="316" id="70" space=" ">is</W>
-<W cur="319" id="71" space=" ">too</W>
-<W cur="323" id="72" space=" ">dependent</W>
-<W cur="333" id="73" space=" ">and</W>
-<W cur="337" id="74" space=" ">too</W>
-<W cur="341" id="75" space=" ">dirty</W>
-<W cur="346" id="76">,</W>
-<W cur="348" id="77" space=" ">whereas</W>
-<W cur="356" id="78" space=" ">many</W>
-<W cur="361" id="79" space=" ">dog</W>
-<W cur="365" id="80" space=" ">owners</W>
-<W cur="372" id="81" space=" ">see</W>
-<W cur="376" id="82" space=" ">cats</W>
-<W cur="381" id="83" space=" ">as</W>
-<W cur="384" id="84" space=" ">lazy</W>
-<W cur="389" id="85" space=" ">and</W>
-<W cur="393" id="86" space=" ">impersonal</W>
-<W cur="403" id="87">.</W>
-<W cur="405" id="88" space=" ">Many</W>
-<W cur="410" id="89" space=" ">pet</W>
-<W cur="414" id="90" space=" ">owners</W>
-<W cur="421" id="91" space=" ">choose</W>
-<W cur="428" id="92" space=" ">a</W>
-<W cur="430" id="93" space=" ">pet</W>
-<W cur="434" id="94" space=" ">that</W>
-<W cur="439" id="95" space=" ">reflects</W>
-<W cur="448" id="96" space=" ">their</W>
-<W cur="454" id="97" space=" ">own</W>
-<W cur="458" id="98" space=" ">personality</W>
-<W cur="469" id="99">.</W>
-<W cur="471" id="100" space=" ">When</W>
-<W cur="476" id="101" space=" ">the</W>
-<W cur="480" id="102" space=" ">big</W>
-<W cur="483" id="103">,</W>
-<W cur="485" id="104" space=" ">strong</W>
-<W cur="492" id="105" space=" ">man</W>
-<W cur="496" id="106" space=" ">buys</W>
-<W cur="501" id="107" space=" ">a</W>
-<W cur="503" id="108" space=" ">big</W>
-<W cur="506" id="109">,</W>
-<W cur="508" id="110" space=" ">strong</W>
-<W cur="515" id="111" space=" ">dog</W>
-<W cur="518" id="112">,</W>
-<W cur="520" id="113" space=" ">the</W>
-<W cur="524" id="114" space=" ">features</W>
-<W cur="533" id="115" space=" ">of</W>
-<W cur="536" id="116" space=" ">the</W>
-<W cur="540" id="117" space=" ">dog</W>
-<W cur="544" id="118" space=" ">reflect</W>
-<W cur="552" id="119" space=" ">the</W>
-<W cur="556" id="120" space=" ">dog</W>
-<W cur="560" id="121" space=" ">owner</W>
-<W cur="565" id="122">'s</W>
-<W cur="568" id="123" space=" ">ego</W>
-<W cur="571" id="124">.</W>
-<W cur="573" id="125" space=" ">In</W>
-<W cur="576" id="126" space=" ">contrast</W>
-<W cur="584" id="127">,</W>
-<W cur="586" id="128" space=" ">the</W>
-<W cur="590" id="129" space=" ">feminine</W>
-<W cur="599" id="130" space=" ">woman</W>
-<W cur="605" id="131" space=" ">often</W>
-<W cur="611" id="132" space=" ">prefers</W>
-<W cur="619" id="133" space=" ">the</W>
-<W cur="623" id="134" space=" ">pretty</W>
-<W cur="629" id="135">,</W>
-<W cur="631" id="136" space=" ">elegant</W>
-<W cur="639" id="137" space=" ">cat</W>
-<W cur="642" id="138">.</W>
-<W cur="644" id="139" space=" ">Usually</W>
-<W cur="651" id="140">,</W>
-<W cur="653" id="141" space=" ">cats</W>
-<W cur="658" id="142" space=" ">and</W>
-<W cur="662" id="143" space=" ">dogs</W>
-<W cur="667" id="144" space=" ">get</W>
-<W cur="671" id="145" space=" ">along</W>
-<W cur="677" id="146" space=" ">without</W>
-<W cur="685" id="147" space=" ">problems</W>
-<W cur="694" id="148" space=" ">if</W>
-<W cur="697" id="149" space=" ">they</W>
-<W cur="702" id="150" space=" ">are</W>
-<W cur="706" id="151" space=" ">used</W>
-<W cur="711" id="152" space=" ">to</W>
-<W cur="714" id="153" space=" ">each</W>
-<W cur="719" id="154" space=" ">other</W>
-<W cur="724" id="155">.</W>
-<W cur="726" id="156" space=" ">Often</W>
-<W cur="732" id="157" space=" ">the</W>
-<W cur="736" id="158" space=" ">dog</W>
-<W cur="740" id="159" space=" ">owers</W>
-<W cur="746" id="160" space=" ">and</W>
-<W cur="750" id="161" space=" ">the</W>
-<W cur="754" id="162" space=" ">cat</W>
-<W cur="758" id="163" space=" ">owners</W>
-<W cur="765" id="164" space=" ">fight</W>
-<W cur="771" id="165" space=" ">more</W>
-<W cur="776" id="166" space=" ">than</W>
-<W cur="781" id="167" space=" ">the</W>
-<W cur="785" id="168" space=" ">dogs</W>
-<W cur="790" id="169" space=" ">and</W>
-<W cur="794" id="170" space=" ">the</W>
-<W cur="798" id="171" space=" ">cats</W>
-<W cur="803" id="172" space=" ">themselves</W>
-<W cur="813" id="173">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="en" lemmatizer="nltk-wordnet-lemmatizer" sent_segmenter="nltk_sent_tokenizer" tagger="nltk-pos-tagger">
+ <W cur="0" id="1" lemma="A" pos="DT">A</W>
+ <W cur="2" id="2" lemma="pet" pos="NN" space=" ">pet</W>
+ <W cur="6" id="3" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="9" id="4" lemma="find" pos="VBN" space=" ">found</W>
+ <W cur="15" id="5" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="18" id="6" lemma="many" pos="JJ" space=" ">many</W>
+ <W cur="23" id="7" lemma="home" pos="NNS" space=" ">homes</W>
+ <W cur="28" id="8" lemma="," pos=",">,</W>
+ <W cur="30" id="9" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="34" id="10" lemma="most" pos="JJS" space=" ">most</W>
+ <W cur="39" id="11" lemma="people" pos="NNS" space=" ">people</W>
+ <W cur="46" id="12" lemma="prefer" pos="VBP" space=" ">prefer</W>
+ <W cur="53" id="13" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="55" id="14" lemma="dog" pos="NN" space=" ">dog</W>
+ <W cur="59" id="15" lemma="or" pos="CC" space=" ">or</W>
+ <W cur="62" id="16" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="64" id="17" lemma="cat" pos="JJ" space=" ">cat</W>
+ <W boundary="sentence" cur="67" id="18" lemma="." pos=".">.</W>
+ <W cur="69" id="19" lemma="So" pos="IN" space=" ">So</W>
+ <W cur="72" id="20" lemma="far" pos="RB" space=" ">far</W>
+ <W cur="75" id="21" lemma="," pos=",">,</W>
+ <W cur="77" id="22" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="81" id="23" lemma="soft" pos="JJ" space=" ">soft</W>
+ <W cur="86" id="24" lemma="puppy" pos="NN" space=" ">puppy</W>
+ <W cur="92" id="25" lemma="'beats" pos="NNS">'beats</W>
+ <W cur="98" id="26" lemma="'" pos="POS">'</W>
+ <W cur="100" id="27" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="104" id="28" lemma="cute" pos="NN" space=" ">cute</W>
+ <W cur="109" id="29" lemma="kitten" pos="NN" space=" ">kitten</W>
+ <W cur="116" id="30" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="119" id="31" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="123" id="32" lemma="race" pos="NN" space=" ">race</W>
+ <W cur="128" id="33" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="131" id="34" lemma="be" pos="VBG" space=" ">being</W>
+ <W cur="137" id="35" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="141" id="36" lemma="most" pos="JJS" space=" ">most</W>
+ <W cur="146" id="37" lemma="popular" pos="JJ" space=" ">popular</W>
+ <W cur="154" id="38" lemma="pet" pos="NN" space=" ">pet</W>
+ <W cur="158" id="39" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="161" id="40" lemma="Denmark" pos="NNP" space=" ">Denmark</W>
+ <W boundary="sentence" cur="168" id="41" lemma="." pos=".">.</W>
+ <W cur="170" id="42" lemma="While" pos="IN" space=" ">While</W>
+ <W cur="176" id="43" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="180" id="44" lemma="loyalty" pos="NN" space=" ">loyalty</W>
+ <W cur="188" id="45" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="191" id="46" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="195" id="47" lemma="dog" pos="NN" space=" ">dog</W>
+ <W cur="199" id="48" lemma="explain" pos="VBZ" space=" ">explains</W>
+ <W cur="208" id="49" lemma="its" pos="PRP$" space=" ">its</W>
+ <W cur="212" id="50" lemma="popularity" pos="NN" space=" ">popularity</W>
+ <W cur="222" id="51" lemma="," pos=",">,</W>
+ <W cur="224" id="52" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="228" id="53" lemma="numerous" pos="JJ" space=" ">numerous</W>
+ <W cur="237" id="54" lemma="car" pos="NN" space=" ">car</W>
+ <W cur="241" id="55" lemma="owner" pos="NNS" space=" ">owners</W>
+ <W cur="248" id="56" lemma="love" pos="VBP" space=" ">love</W>
+ <W cur="253" id="57" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="257" id="58" lemma="cat" pos="NN" space=" ">cat</W>
+ <W cur="260" id="59" lemma="'s" pos="POS">'s</W>
+ <W cur="263" id="60" lemma="independence" pos="NN" space=" ">independence</W>
+ <W boundary="sentence" cur="275" id="61" lemma="." pos=".">.</W>
+ <W cur="277" id="62" lemma="The" pos="DT" space=" ">The</W>
+ <W cur="281" id="63" lemma="general" pos="JJ" space=" ">general</W>
+ <W cur="289" id="64" lemma="cat" pos="NN" space=" ">cat</W>
+ <W cur="293" id="65" lemma="owner" pos="NN" space=" ">owner</W>
+ <W cur="299" id="66" lemma="find" pos="NNS" space=" ">finds</W>
+ <W cur="305" id="67" lemma="that" pos="WDT" space=" ">that</W>
+ <W cur="310" id="68" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="312" id="69" lemma="dog" pos="NN" space=" ">dog</W>
+ <W cur="316" id="70" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="319" id="71" lemma="too" pos="RB" space=" ">too</W>
+ <W cur="323" id="72" lemma="dependent" pos="JJ" space=" ">dependent</W>
+ <W cur="333" id="73" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="337" id="74" lemma="too" pos="RB" space=" ">too</W>
+ <W cur="341" id="75" lemma="dirty" pos="JJ" space=" ">dirty</W>
+ <W cur="346" id="76" lemma="," pos=",">,</W>
+ <W cur="348" id="77" lemma="whereas" pos="NNS" space=" ">whereas</W>
+ <W cur="356" id="78" lemma="many" pos="JJ" space=" ">many</W>
+ <W cur="361" id="79" lemma="dog" pos="NN" space=" ">dog</W>
+ <W cur="365" id="80" lemma="owner" pos="NNS" space=" ">owners</W>
+ <W cur="372" id="81" lemma="see" pos="VBP" space=" ">see</W>
+ <W cur="376" id="82" lemma="cat" pos="NNS" space=" ">cats</W>
+ <W cur="381" id="83" lemma="as" pos="IN" space=" ">as</W>
+ <W cur="384" id="84" lemma="lazy" pos="JJ" space=" ">lazy</W>
+ <W cur="389" id="85" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="393" id="86" lemma="impersonal" pos="JJ" space=" ">impersonal</W>
+ <W boundary="sentence" cur="403" id="87" lemma="." pos=".">.</W>
+ <W cur="405" id="88" lemma="Many" pos="JJ" space=" ">Many</W>
+ <W cur="410" id="89" lemma="pet" pos="NN" space=" ">pet</W>
+ <W cur="414" id="90" lemma="owner" pos="NNS" space=" ">owners</W>
+ <W cur="421" id="91" lemma="choose" pos="VBP" space=" ">choose</W>
+ <W cur="428" id="92" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="430" id="93" lemma="pet" pos="NN" space=" ">pet</W>
+ <W cur="434" id="94" lemma="that" pos="WDT" space=" ">that</W>
+ <W cur="439" id="95" lemma="reflect" pos="VBZ" space=" ">reflects</W>
+ <W cur="448" id="96" lemma="their" pos="PRP$" space=" ">their</W>
+ <W cur="454" id="97" lemma="own" pos="JJ" space=" ">own</W>
+ <W cur="458" id="98" lemma="personality" pos="NN" space=" ">personality</W>
+ <W boundary="sentence" cur="469" id="99" lemma="." pos=".">.</W>
+ <W cur="471" id="100" lemma="When" pos="WRB" space=" ">When</W>
+ <W cur="476" id="101" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="480" id="102" lemma="big" pos="JJ" space=" ">big</W>
+ <W cur="483" id="103" lemma="," pos=",">,</W>
+ <W cur="485" id="104" lemma="strong" pos="JJ" space=" ">strong</W>
+ <W cur="492" id="105" lemma="man" pos="NN" space=" ">man</W>
+ <W cur="496" id="106" lemma="buy" pos="NNS" space=" ">buys</W>
+ <W cur="501" id="107" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="503" id="108" lemma="big" pos="JJ" space=" ">big</W>
+ <W cur="506" id="109" lemma="," pos=",">,</W>
+ <W cur="508" id="110" lemma="strong" pos="JJ" space=" ">strong</W>
+ <W cur="515" id="111" lemma="dog" pos="NN" space=" ">dog</W>
+ <W cur="518" id="112" lemma="," pos=",">,</W>
+ <W cur="520" id="113" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="524" id="114" lemma="feature" pos="NNS" space=" ">features</W>
+ <W cur="533" id="115" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="536" id="116" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="540" id="117" lemma="dog" pos="NN" space=" ">dog</W>
+ <W cur="544" id="118" lemma="reflect" pos="NN" space=" ">reflect</W>
+ <W cur="552" id="119" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="556" id="120" lemma="dog" pos="NN" space=" ">dog</W>
+ <W cur="560" id="121" lemma="owner" pos="NN" space=" ">owner</W>
+ <W cur="565" id="122" lemma="'s" pos="POS">'s</W>
+ <W cur="568" id="123" lemma="ego" pos="NN" space=" ">ego</W>
+ <W boundary="sentence" cur="571" id="124" lemma="." pos=".">.</W>
+ <W cur="573" id="125" lemma="In" pos="IN" space=" ">In</W>
+ <W cur="576" id="126" lemma="contrast" pos="NN" space=" ">contrast</W>
+ <W cur="584" id="127" lemma="," pos=",">,</W>
+ <W cur="586" id="128" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="590" id="129" lemma="feminine" pos="NN" space=" ">feminine</W>
+ <W cur="599" id="130" lemma="woman" pos="NN" space=" ">woman</W>
+ <W cur="605" id="131" lemma="often" pos="RB" space=" ">often</W>
+ <W cur="611" id="132" lemma="prefers" pos="NNS" space=" ">prefers</W>
+ <W cur="619" id="133" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="623" id="134" lemma="pretty" pos="NN" space=" ">pretty</W>
+ <W cur="629" id="135" lemma="," pos=",">,</W>
+ <W cur="631" id="136" lemma="elegant" pos="JJ" space=" ">elegant</W>
+ <W cur="639" id="137" lemma="cat" pos="NN" space=" ">cat</W>
+ <W boundary="sentence" cur="642" id="138" lemma="." pos=".">.</W>
+ <W cur="644" id="139" lemma="Usually" pos="RB" space=" ">Usually</W>
+ <W cur="651" id="140" lemma="," pos=",">,</W>
+ <W cur="653" id="141" lemma="cat" pos="NNS" space=" ">cats</W>
+ <W cur="658" id="142" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="662" id="143" lemma="dog" pos="NNS" space=" ">dogs</W>
+ <W cur="667" id="144" lemma="get" pos="VBP" space=" ">get</W>
+ <W cur="671" id="145" lemma="along" pos="IN" space=" ">along</W>
+ <W cur="677" id="146" lemma="without" pos="IN" space=" ">without</W>
+ <W cur="685" id="147" lemma="problem" pos="NNS" space=" ">problems</W>
+ <W cur="694" id="148" lemma="if" pos="IN" space=" ">if</W>
+ <W cur="697" id="149" lemma="they" pos="PRP" space=" ">they</W>
+ <W cur="702" id="150" lemma="be" pos="VBP" space=" ">are</W>
+ <W cur="706" id="151" lemma="use" pos="VBN" space=" ">used</W>
+ <W cur="711" id="152" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="714" id="153" lemma="each" pos="DT" space=" ">each</W>
+ <W cur="719" id="154" lemma="other" pos="JJ" space=" ">other</W>
+ <W boundary="sentence" cur="724" id="155" lemma="." pos=".">.</W>
+ <W cur="726" id="156" lemma="Often" pos="RB" space=" ">Often</W>
+ <W cur="732" id="157" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="736" id="158" lemma="dog" pos="NN" space=" ">dog</W>
+ <W cur="740" id="159" lemma="owers" pos="NNS" space=" ">owers</W>
+ <W cur="746" id="160" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="750" id="161" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="754" id="162" lemma="cat" pos="NN" space=" ">cat</W>
+ <W cur="758" id="163" lemma="owner" pos="NNS" space=" ">owners</W>
+ <W cur="765" id="164" lemma="fight" pos="VBD" space=" ">fight</W>
+ <W cur="771" id="165" lemma="more" pos="JJR" space=" ">more</W>
+ <W cur="776" id="166" lemma="than" pos="IN" space=" ">than</W>
+ <W cur="781" id="167" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="785" id="168" lemma="dog" pos="NNS" space=" ">dogs</W>
+ <W cur="790" id="169" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="794" id="170" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="798" id="171" lemma="cat" pos="NNS" space=" ">cats</W>
+ <W cur="803" id="172" lemma="themselves" pos="PRP" space=" ">themselves</W>
+ <W boundary="sentence" cur="813" id="173" lemma="." pos=".">.</W>
 </Text>

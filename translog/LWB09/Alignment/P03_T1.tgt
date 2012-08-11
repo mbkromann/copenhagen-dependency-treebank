@@ -1,168 +1,169 @@
-<Text language="en" >
-<W cur="0" id="1">Some</W>
-<W cur="5" id="2" space=" ">people</W>
-<W cur="12" id="3" space=" ">claim</W>
-<W cur="18" id="4" space=" ">that</W>
-<W cur="23" id="5" space=" ">men</W>
-<W cur="27" id="6" space=" ">and</W>
-<W cur="31" id="7" space=" ">women</W>
-<W cur="37" id="8" space=" ">speak</W>
-<W cur="43" id="9" space=" ">different</W>
-<W cur="53" id="10" space=" ">languages</W>
-<W cur="62" id="11">.</W>
-<W cur="64" id="12" space=" ">If</W>
-<W cur="67" id="13" space=" ">a</W>
-<W cur="69" id="14" space=" ">man</W>
-<W cur="73" id="15" space=" ">who</W>
-<W cur="77" id="16" space=" ">lives</W>
-<W cur="83" id="17" space=" ">with</W>
-<W cur="88" id="18" space=" ">a</W>
-<W cur="90" id="19" space=" ">woman</W>
-<W cur="96" id="20" space=" ">says</W>
-<W cur="101" id="21" space=" ">that</W>
-<W cur="106" id="22" space=" ">he</W>
-<W cur="109" id="23" space=" ">does</W>
-<W cur="114" id="24" space=" ">not</W>
-<W cur="118" id="25" space=" ">want</W>
-<W cur="123" id="26" space=" ">to</W>
-<W cur="126" id="27" space=" ">speak</W>
-<W cur="132" id="28" space=" ">about</W>
-<W cur="138" id="29" space=" ">his</W>
-<W cur="142" id="30" space=" ">problems</W>
-<W cur="150" id="31">,</W>
-<W cur="152" id="32" space=" ">the</W>
-<W cur="156" id="33" space=" ">typical</W>
-<W cur="164" id="34" space=" ">woman</W>
-<W cur="170" id="35" space=" ">feels</W>
-<W cur="176" id="36" space=" ">that</W>
-<W cur="181" id="37" space=" ">she</W>
-<W cur="185" id="38" space=" ">is</W>
-<W cur="188" id="39" space=" ">excluded</W>
-<W cur="197" id="40" space=" ">from</W>
-<W cur="202" id="41" space=" ">his</W>
-<W cur="206" id="42" space=" ">world</W>
-<W cur="211" id="43">.</W>
-<W cur="213" id="44" space=" ">If</W>
-<W cur="216" id="45" space=" ">the</W>
-<W cur="220" id="46" space=" ">woman</W>
-<W cur="226" id="47" space=" ">tells</W>
-<W cur="232" id="48" space=" ">him</W>
-<W cur="236" id="49" space=" ">that</W>
-<W cur="241" id="50" space=" ">she</W>
-<W cur="245" id="51" space=" ">does</W>
-<W cur="250" id="52" space=" ">not</W>
-<W cur="254" id="53" space=" ">want</W>
-<W cur="259" id="54" space=" ">to</W>
-<W cur="262" id="55" space=" ">speak</W>
-<W cur="268" id="56" space=" ">about</W>
-<W cur="274" id="57" space=" ">the</W>
-<W cur="278" id="58" space=" ">problems</W>
-<W cur="286" id="59">,</W>
-<W cur="288" id="60" space=" ">most</W>
-<W cur="293" id="61" space=" ">men</W>
-<W cur="297" id="62" space=" ">think</W>
-<W cur="303" id="63" space=" ">that</W>
-<W cur="308" id="64" space=" ">she</W>
-<W cur="312" id="65" space=" ">does</W>
-<W cur="317" id="66" space=" ">not</W>
-<W cur="321" id="67" space=" ">need</W>
-<W cur="326" id="68" space=" ">to</W>
-<W cur="329" id="69" space=" ">discus</W>
-<W cur="336" id="70" space=" ">the</W>
-<W cur="340" id="71" space=" ">problems</W>
-<W cur="348" id="72">.</W>
-<W cur="350" id="73" space=" ">These</W>
-<W cur="356" id="74" space=" ">misunderstandings</W>
-<W cur="374" id="75" space=" ">give</W>
-<W cur="379" id="76" space=" ">rise</W>
-<W cur="384" id="77" space=" ">to</W>
-<W cur="387" id="78" space=" ">disagreements</W>
-<W cur="400" id="79">.</W>
-<W cur="402" id="80" space=" ">When</W>
-<W cur="407" id="81" space=" ">such</W>
-<W cur="412" id="82" space=" ">disagreements</W>
-<W cur="426" id="83" space=" ">arise</W>
-<W cur="431" id="84">,</W>
-<W cur="433" id="85" space=" ">women</W>
-<W cur="439" id="86" space=" ">and</W>
-<W cur="443" id="87" space=" ">men</W>
-<W cur="447" id="88" space=" ">also</W>
-<W cur="452" id="89" space=" ">react</W>
-<W cur="458" id="90" space=" ">in</W>
-<W cur="461" id="91" space=" ">different</W>
-<W cur="471" id="92" space=" ">ways</W>
-<W cur="475" id="93">.</W>
-<W cur="477" id="94" space=" ">New</W>
-<W cur="481" id="95" space=" ">research</W>
-<W cur="490" id="96" space=" ">shows</W>
-<W cur="496" id="97" space=" ">that</W>
-<W cur="501" id="98" space=" ">many</W>
-<W cur="506" id="99" space=" ">women</W>
-<W cur="512" id="100" space=" ">cry</W>
-<W cur="516" id="101" space=" ">when</W>
-<W cur="521" id="102" space=" ">they</W>
-<W cur="526" id="103" space=" ">get</W>
-<W cur="530" id="104" space=" ">upset</W>
-<W cur="535" id="105">.</W>
-<W cur="537" id="106" space=" ">In</W>
-<W cur="540" id="107" space=" ">these</W>
-<W cur="546" id="108" space=" ">situations</W>
-<W cur="556" id="109">,</W>
-<W cur="558" id="110" space=" ">frightened</W>
-<W cur="569" id="111" space=" ">men</W>
-<W cur="573" id="112" space=" ">choose</W>
-<W cur="580" id="113" space=" ">to</W>
-<W cur="583" id="114" space=" ">fly</W>
-<W cur="586" id="115">,</W>
-<W cur="588" id="116" space=" ">and</W>
-<W cur="592" id="117" space=" ">they</W>
-<W cur="597" id="118" space=" ">may</W>
-<W cur="601" id="119" space=" ">feel</W>
-<W cur="606" id="120" space=" ">helpless</W>
-<W cur="614" id="121">.</W>
-<W cur="616" id="122" space=" ">As</W>
-<W cur="619" id="123" space=" ">opposed</W>
-<W cur="627" id="124" space=" ">to</W>
-<W cur="630" id="125" space=" ">the</W>
-<W cur="634" id="126" space=" ">crying</W>
-<W cur="641" id="127" space=" ">woman</W>
-<W cur="646" id="128">,</W>
-<W cur="648" id="129" space=" ">the</W>
-<W cur="652" id="130" space=" ">angry</W>
-<W cur="658" id="131" space=" ">man</W>
-<W cur="662" id="132" space=" ">uses</W>
-<W cur="667" id="133" space=" ">hard</W>
-<W cur="672" id="134" space=" ">words</W>
-<W cur="677" id="135">.</W>
-<W cur="679" id="136" space=" ">In</W>
-<W cur="682" id="137" space=" ">spite</W>
-<W cur="688" id="138" space=" ">of</W>
-<W cur="691" id="139" space=" ">these</W>
-<W cur="697" id="140" space=" ">different</W>
-<W cur="707" id="141" space=" ">reactions</W>
-<W cur="716" id="142">,</W>
-<W cur="718" id="143" space=" ">most</W>
-<W cur="723" id="144" space=" ">men</W>
-<W cur="727" id="145" space=" ">and</W>
-<W cur="731" id="146" space=" ">women</W>
-<W cur="737" id="147" space=" ">are</W>
-<W cur="741" id="148" space=" ">able</W>
-<W cur="746" id="149" space=" ">to</W>
-<W cur="749" id="150" space=" ">live</W>
-<W cur="754" id="151" space=" ">peacefully</W>
-<W cur="765" id="152" space=" ">together</W>
-<W cur="773" id="153">,</W>
-<W cur="775" id="154" space=" ">and</W>
-<W cur="779" id="155" space=" ">most</W>
-<W cur="784" id="156" space=" ">of</W>
-<W cur="787" id="157" space=" ">us</W>
-<W cur="790" id="158" space=" ">probably</W>
-<W cur="799" id="159" space=" ">agree</W>
-<W cur="805" id="160" space=" ">that</W>
-<W cur="810" id="161" space=" ">we</W>
-<W cur="813" id="162" space=" ">cannot</W>
-<W cur="820" id="163" space=" ">live</W>
-<W cur="825" id="164" space=" ">without</W>
-<W cur="833" id="165" space=" ">eachother</W>
-<W cur="842" id="166">.</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="en" lemmatizer="nltk-wordnet-lemmatizer" sent_segmenter="nltk_sent_tokenizer" tagger="nltk-pos-tagger">
+ <W cur="0" id="1" lemma="Some" pos="DT">Some</W>
+ <W cur="5" id="2" lemma="people" pos="NNS" space=" ">people</W>
+ <W cur="12" id="3" lemma="claim" pos="VBP" space=" ">claim</W>
+ <W cur="18" id="4" lemma="that" pos="IN" space=" ">that</W>
+ <W cur="23" id="5" lemma="man" pos="NNS" space=" ">men</W>
+ <W cur="27" id="6" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="31" id="7" lemma="woman" pos="NNS" space=" ">women</W>
+ <W cur="37" id="8" lemma="speak" pos="VBP" space=" ">speak</W>
+ <W cur="43" id="9" lemma="different" pos="JJ" space=" ">different</W>
+ <W cur="53" id="10" lemma="language" pos="NNS" space=" ">languages</W>
+ <W boundary="sentence" cur="62" id="11" lemma="." pos=".">.</W>
+ <W cur="64" id="12" lemma="If" pos="IN" space=" ">If</W>
+ <W cur="67" id="13" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="69" id="14" lemma="man" pos="NN" space=" ">man</W>
+ <W cur="73" id="15" lemma="who" pos="WP" space=" ">who</W>
+ <W cur="77" id="16" lemma="life" pos="NNS" space=" ">lives</W>
+ <W cur="83" id="17" lemma="with" pos="IN" space=" ">with</W>
+ <W cur="88" id="18" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="90" id="19" lemma="woman" pos="NN" space=" ">woman</W>
+ <W cur="96" id="20" lemma="say" pos="VBZ" space=" ">says</W>
+ <W cur="101" id="21" lemma="that" pos="IN" space=" ">that</W>
+ <W cur="106" id="22" lemma="he" pos="PRP" space=" ">he</W>
+ <W cur="109" id="23" lemma="do" pos="VBZ" space=" ">does</W>
+ <W cur="114" id="24" lemma="not" pos="RB" space=" ">not</W>
+ <W cur="118" id="25" lemma="want" pos="VB" space=" ">want</W>
+ <W cur="123" id="26" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="126" id="27" lemma="speak" pos="VB" space=" ">speak</W>
+ <W cur="132" id="28" lemma="about" pos="IN" space=" ">about</W>
+ <W cur="138" id="29" lemma="his" pos="PRP$" space=" ">his</W>
+ <W cur="142" id="30" lemma="problem" pos="NNS" space=" ">problems</W>
+ <W cur="150" id="31" lemma="," pos=",">,</W>
+ <W cur="152" id="32" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="156" id="33" lemma="typical" pos="JJ" space=" ">typical</W>
+ <W cur="164" id="34" lemma="woman" pos="NN" space=" ">woman</W>
+ <W cur="170" id="35" lemma="feel" pos="NNS" space=" ">feels</W>
+ <W cur="176" id="36" lemma="that" pos="WDT" space=" ">that</W>
+ <W cur="181" id="37" lemma="she" pos="PRP" space=" ">she</W>
+ <W cur="185" id="38" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="188" id="39" lemma="exclude" pos="VBN" space=" ">excluded</W>
+ <W cur="197" id="40" lemma="from" pos="IN" space=" ">from</W>
+ <W cur="202" id="41" lemma="his" pos="PRP$" space=" ">his</W>
+ <W cur="206" id="42" lemma="world" pos="NN" space=" ">world</W>
+ <W boundary="sentence" cur="211" id="43" lemma="." pos=".">.</W>
+ <W cur="213" id="44" lemma="If" pos="IN" space=" ">If</W>
+ <W cur="216" id="45" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="220" id="46" lemma="woman" pos="NN" space=" ">woman</W>
+ <W cur="226" id="47" lemma="tell" pos="VBZ" space=" ">tells</W>
+ <W cur="232" id="48" lemma="him" pos="PRP" space=" ">him</W>
+ <W cur="236" id="49" lemma="that" pos="IN" space=" ">that</W>
+ <W cur="241" id="50" lemma="she" pos="PRP" space=" ">she</W>
+ <W cur="245" id="51" lemma="do" pos="VBZ" space=" ">does</W>
+ <W cur="250" id="52" lemma="not" pos="RB" space=" ">not</W>
+ <W cur="254" id="53" lemma="want" pos="VB" space=" ">want</W>
+ <W cur="259" id="54" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="262" id="55" lemma="speak" pos="VB" space=" ">speak</W>
+ <W cur="268" id="56" lemma="about" pos="IN" space=" ">about</W>
+ <W cur="274" id="57" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="278" id="58" lemma="problem" pos="NNS" space=" ">problems</W>
+ <W cur="286" id="59" lemma="," pos=",">,</W>
+ <W cur="288" id="60" lemma="most" pos="JJS" space=" ">most</W>
+ <W cur="293" id="61" lemma="man" pos="NNS" space=" ">men</W>
+ <W cur="297" id="62" lemma="think" pos="VBP" space=" ">think</W>
+ <W cur="303" id="63" lemma="that" pos="IN" space=" ">that</W>
+ <W cur="308" id="64" lemma="she" pos="PRP" space=" ">she</W>
+ <W cur="312" id="65" lemma="do" pos="VBZ" space=" ">does</W>
+ <W cur="317" id="66" lemma="not" pos="RB" space=" ">not</W>
+ <W cur="321" id="67" lemma="need" pos="VBP" space=" ">need</W>
+ <W cur="326" id="68" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="329" id="69" lemma="discus" pos="VB" space=" ">discus</W>
+ <W cur="336" id="70" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="340" id="71" lemma="problem" pos="NNS" space=" ">problems</W>
+ <W boundary="sentence" cur="348" id="72" lemma="." pos=".">.</W>
+ <W cur="350" id="73" lemma="These" pos="DT" space=" ">These</W>
+ <W cur="356" id="74" lemma="misunderstanding" pos="NNS" space=" ">misunderstandings</W>
+ <W cur="374" id="75" lemma="give" pos="VBP" space=" ">give</W>
+ <W cur="379" id="76" lemma="rise" pos="NN" space=" ">rise</W>
+ <W cur="384" id="77" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="387" id="78" lemma="disagreement" pos="NNS" space=" ">disagreements</W>
+ <W boundary="sentence" cur="400" id="79" lemma="." pos=".">.</W>
+ <W cur="402" id="80" lemma="When" pos="WRB" space=" ">When</W>
+ <W cur="407" id="81" lemma="such" pos="JJ" space=" ">such</W>
+ <W cur="412" id="82" lemma="disagreement" pos="NNS" space=" ">disagreements</W>
+ <W cur="426" id="83" lemma="arise" pos="VBP" space=" ">arise</W>
+ <W cur="431" id="84" lemma="," pos=",">,</W>
+ <W cur="433" id="85" lemma="woman" pos="NNS" space=" ">women</W>
+ <W cur="439" id="86" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="443" id="87" lemma="man" pos="NNS" space=" ">men</W>
+ <W cur="447" id="88" lemma="also" pos="RB" space=" ">also</W>
+ <W cur="452" id="89" lemma="react" pos="VBP" space=" ">react</W>
+ <W cur="458" id="90" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="461" id="91" lemma="different" pos="JJ" space=" ">different</W>
+ <W cur="471" id="92" lemma="ways" pos="NNS" space=" ">ways</W>
+ <W boundary="sentence" cur="475" id="93" lemma="." pos=".">.</W>
+ <W cur="477" id="94" lemma="New" pos="NNP" space=" ">New</W>
+ <W cur="481" id="95" lemma="research" pos="NN" space=" ">research</W>
+ <W cur="490" id="96" lemma="show" pos="VBZ" space=" ">shows</W>
+ <W cur="496" id="97" lemma="that" pos="IN" space=" ">that</W>
+ <W cur="501" id="98" lemma="many" pos="JJ" space=" ">many</W>
+ <W cur="506" id="99" lemma="woman" pos="NNS" space=" ">women</W>
+ <W cur="512" id="100" lemma="cry" pos="VBP" space=" ">cry</W>
+ <W cur="516" id="101" lemma="when" pos="WRB" space=" ">when</W>
+ <W cur="521" id="102" lemma="they" pos="PRP" space=" ">they</W>
+ <W cur="526" id="103" lemma="get" pos="VBP" space=" ">get</W>
+ <W cur="530" id="104" lemma="upset" pos="VBN" space=" ">upset</W>
+ <W boundary="sentence" cur="535" id="105" lemma="." pos=".">.</W>
+ <W cur="537" id="106" lemma="In" pos="IN" space=" ">In</W>
+ <W cur="540" id="107" lemma="these" pos="DT" space=" ">these</W>
+ <W cur="546" id="108" lemma="situation" pos="NNS" space=" ">situations</W>
+ <W cur="556" id="109" lemma="," pos=",">,</W>
+ <W cur="558" id="110" lemma="frighten" pos="VBD" space=" ">frightened</W>
+ <W cur="569" id="111" lemma="man" pos="NNS" space=" ">men</W>
+ <W cur="573" id="112" lemma="choose" pos="VBP" space=" ">choose</W>
+ <W cur="580" id="113" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="583" id="114" lemma="fly" pos="RB" space=" ">fly</W>
+ <W cur="586" id="115" lemma="," pos=",">,</W>
+ <W cur="588" id="116" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="592" id="117" lemma="they" pos="PRP" space=" ">they</W>
+ <W cur="597" id="118" lemma="may" pos="MD" space=" ">may</W>
+ <W cur="601" id="119" lemma="feel" pos="VB" space=" ">feel</W>
+ <W cur="606" id="120" lemma="helpless" pos="NN" space=" ">helpless</W>
+ <W boundary="sentence" cur="614" id="121" lemma="." pos=".">.</W>
+ <W cur="616" id="122" lemma="As" pos="IN" space=" ">As</W>
+ <W cur="619" id="123" lemma="oppose" pos="VBN" space=" ">opposed</W>
+ <W cur="627" id="124" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="630" id="125" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="634" id="126" lemma="cry" pos="NN" space=" ">crying</W>
+ <W cur="641" id="127" lemma="woman" pos="NN" space=" ">woman</W>
+ <W cur="646" id="128" lemma="," pos=",">,</W>
+ <W cur="648" id="129" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="652" id="130" lemma="angry" pos="NN" space=" ">angry</W>
+ <W cur="658" id="131" lemma="man" pos="NN" space=" ">man</W>
+ <W cur="662" id="132" lemma="use" pos="NNS" space=" ">uses</W>
+ <W cur="667" id="133" lemma="hard" pos="RB" space=" ">hard</W>
+ <W cur="672" id="134" lemma="words" pos="NNS" space=" ">words</W>
+ <W boundary="sentence" cur="677" id="135" lemma="." pos=".">.</W>
+ <W cur="679" id="136" lemma="In" pos="IN" space=" ">In</W>
+ <W cur="682" id="137" lemma="spite" pos="NN" space=" ">spite</W>
+ <W cur="688" id="138" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="691" id="139" lemma="these" pos="DT" space=" ">these</W>
+ <W cur="697" id="140" lemma="different" pos="JJ" space=" ">different</W>
+ <W cur="707" id="141" lemma="reaction" pos="NNS" space=" ">reactions</W>
+ <W cur="716" id="142" lemma="," pos=",">,</W>
+ <W cur="718" id="143" lemma="most" pos="JJS" space=" ">most</W>
+ <W cur="723" id="144" lemma="man" pos="NNS" space=" ">men</W>
+ <W cur="727" id="145" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="731" id="146" lemma="woman" pos="NNS" space=" ">women</W>
+ <W cur="737" id="147" lemma="be" pos="VBP" space=" ">are</W>
+ <W cur="741" id="148" lemma="able" pos="JJ" space=" ">able</W>
+ <W cur="746" id="149" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="749" id="150" lemma="live" pos="VB" space=" ">live</W>
+ <W cur="754" id="151" lemma="peacefully" pos="RB" space=" ">peacefully</W>
+ <W cur="765" id="152" lemma="together" pos="RB" space=" ">together</W>
+ <W cur="773" id="153" lemma="," pos=",">,</W>
+ <W cur="775" id="154" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="779" id="155" lemma="most" pos="JJS" space=" ">most</W>
+ <W cur="784" id="156" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="787" id="157" lemma="us" pos="PRP" space=" ">us</W>
+ <W cur="790" id="158" lemma="probably" pos="RB" space=" ">probably</W>
+ <W cur="799" id="159" lemma="agree" pos="VBP" space=" ">agree</W>
+ <W cur="805" id="160" lemma="that" pos="IN" space=" ">that</W>
+ <W cur="810" id="161" lemma="we" pos="PRP" space=" ">we</W>
+ <W cur="813" id="162" lemma="cannot" pos="RB" space=" ">cannot</W>
+ <W cur="820" id="163" lemma="live" pos="VBP" space=" ">live</W>
+ <W cur="825" id="164" lemma="without" pos="IN" space=" ">without</W>
+ <W cur="833" id="165" lemma="eachother" pos="NN" space=" ">eachother</W>
+ <W boundary="sentence" cur="842" id="166" lemma="." pos=".">.</W>
 </Text>

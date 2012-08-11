@@ -1,101 +1,102 @@
-<Text language="zh" >
-<W cur="0" id="1">虽然</W>
-<W cur="2" id="2">发展</W>
-<W cur="4" id="3">中</W>
-<W cur="5" id="4">国家</W>
-<W cur="7" id="5">的</W>
-<W cur="8" id="6">不愿</W>
-<W cur="10" id="7">妥协</W>
-<W cur="12" id="8">是</W>
-<W cur="13" id="9">可以</W>
-<W cur="15" id="10">理解</W>
-<W cur="17" id="11">的</W>
-<W cur="18" id="12">，</W>
-<W cur="19" id="13">为了</W>
-<W cur="21" id="14">提高</W>
-<W cur="23" id="15">穷人</W>
-<W cur="25" id="16">的</W>
-<W cur="26" id="17">生活</W>
-<W cur="28" id="18">标准</W>
-<W cur="30" id="19">,</W>
-<W cur="32" id="20" space=" ">对</W>
-<W cur="33" id="21">气候</W>
-<W cur="35" id="22">变化</W>
-<W cur="37" id="23">的</W>
-<W cur="38" id="24">行动</W>
-<W cur="40" id="25">不</W>
-<W cur="41" id="26">会</W>
-<W cur="42" id="27">威胁</W>
-<W cur="44" id="28">经济</W>
-<W cur="46" id="29">发展</W>
-<W cur="48" id="30">的</W>
-<W cur="49" id="31">机会</W>
-<W cur="51" id="32">。</W>
-<W cur="52" id="33">我们</W>
-<W cur="54" id="34">必须</W>
-<W cur="56" id="35">提供</W>
-<W cur="58" id="36">诱因</W>
-<W cur="60" id="37">，</W>
-<W cur="61" id="38">鼓励</W>
-<W cur="63" id="39">发展</W>
-<W cur="65" id="40">中</W>
-<W cur="66" id="41">国家</W>
-<W cur="68" id="42">支持</W>
-<W cur="70" id="43">绿色</W>
-<W cur="72" id="44">环保</W>
-<W cur="74" id="45">和</W>
-<W cur="75" id="46">实施</W>
-<W cur="77" id="47">清洁</W>
-<W cur="79" id="48">技术</W>
-<W cur="81" id="49">，</W>
-<W cur="82" id="50">还</W>
-<W cur="83" id="51">可以</W>
-<W cur="85" id="52">帮助</W>
-<W cur="87" id="53">其</W>
-<W cur="88" id="54">减少</W>
-<W cur="90" id="55">毁林</W>
-<W cur="92" id="56">所</W>
-<W cur="93" id="57">致</W>
-<W cur="94" id="58">的</W>
-<W cur="95" id="59">排放量</W>
-<W cur="98" id="60">。</W>
-<W cur="99" id="61">有些</W>
-<W cur="101" id="62">世界</W>
-<W cur="103" id="63">上</W>
-<W cur="104" id="64">最</W>
-<W cur="105" id="65">脆弱</W>
-<W cur="107" id="66">的</W>
-<W cur="108" id="67">国家</W>
-<W cur="110" id="68">导致</W>
-<W cur="112" id="69">了</W>
-<W cur="113" id="70">气候</W>
-<W cur="115" id="71">变化</W>
-<W cur="117" id="72">，</W>
-<W cur="118" id="73">但</W>
-<W cur="119" id="74">承载</W>
-<W cur="121" id="75">它</W>
-<W cur="122" id="76">也</W>
-<W cur="123" id="77">是</W>
-<W cur="124" id="78">首当其冲</W>
-<W cur="128" id="79">。</W>
-<W cur="129" id="80">发展</W>
-<W cur="131" id="81">中</W>
-<W cur="132" id="82">国家</W>
-<W cur="134" id="83">，</W>
-<W cur="135" id="84">尤其</W>
-<W cur="137" id="85">需要</W>
-<W cur="139" id="86">适应</W>
-<W cur="141" id="87">气候</W>
-<W cur="143" id="88">变化</W>
-<W cur="145" id="89">的</W>
-<W cur="146" id="90">影响</W>
-<W cur="148" id="91">。</W>
-<W cur="149" id="92">因此</W>
-<W cur="151" id="93">，</W>
-<W cur="152" id="94">适应</W>
-<W cur="154" id="95">和</W>
-<W cur="155" id="96">努力</W>
-<W cur="157" id="97">必须</W>
-<W cur="159" id="98">齐头并进</W>
-<W cur="163" id="99">。</W>
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="zh" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" pos="c">虽然</W>
+ <W cur="2" id="2" pos="vn">发展</W>
+ <W cur="4" id="3" pos="f">中</W>
+ <W cur="5" id="4" pos="n">国家</W>
+ <W cur="7" id="5" pos="u">的</W>
+ <W cur="8" id="6" pos="v">不愿</W>
+ <W cur="10" id="7" pos="v">妥协</W>
+ <W cur="12" id="8" pos="v">是</W>
+ <W cur="13" id="9" pos="v">可以</W>
+ <W cur="15" id="10" pos="v">理解</W>
+ <W cur="17" id="11" pos="u">的</W>
+ <W cur="18" id="12" pos="w">，</W>
+ <W cur="19" id="13" pos="p">为了</W>
+ <W cur="21" id="14" pos="v">提高</W>
+ <W cur="23" id="15" pos="n">穷人</W>
+ <W cur="25" id="16" pos="u">的</W>
+ <W cur="26" id="17" pos="vn">生活</W>
+ <W cur="28" id="18" pos="n">标准</W>
+ <W cur="30" id="19" pos="w">,</W>
+ <W cur="32" id="20" pos="p" space=" ">对</W>
+ <W cur="33" id="21" pos="n">气候</W>
+ <W cur="35" id="22" pos="vn">变化</W>
+ <W cur="37" id="23" pos="u">的</W>
+ <W cur="38" id="24" pos="vn">行动</W>
+ <W cur="40" id="25" pos="d">不</W>
+ <W cur="41" id="26" pos="v">会</W>
+ <W cur="42" id="27" pos="vn">威胁</W>
+ <W cur="44" id="28" pos="n">经济</W>
+ <W cur="46" id="29" pos="vn">发展</W>
+ <W cur="48" id="30" pos="u">的</W>
+ <W cur="49" id="31" pos="n">机会</W>
+ <W boundary="sentence" cur="51" id="32" pos="ew">。</W>
+ <W cur="52" id="33" pos="r">我们</W>
+ <W cur="54" id="34" pos="d">必须</W>
+ <W cur="56" id="35" pos="v">提供</W>
+ <W cur="58" id="36" pos="n">诱因</W>
+ <W cur="60" id="37" pos="w">，</W>
+ <W cur="61" id="38" pos="v">鼓励</W>
+ <W cur="63" id="39" pos="vn">发展</W>
+ <W cur="65" id="40" pos="f">中</W>
+ <W cur="66" id="41" pos="n">国家</W>
+ <W cur="68" id="42" pos="vn">支持</W>
+ <W cur="70" id="43" pos="n">绿色</W>
+ <W cur="72" id="44" pos="j">环保</W>
+ <W cur="74" id="45" pos="c">和</W>
+ <W cur="75" id="46" pos="v">实施</W>
+ <W cur="77" id="47" pos="a">清洁</W>
+ <W cur="79" id="48" pos="n">技术</W>
+ <W cur="81" id="49" pos="w">，</W>
+ <W cur="82" id="50" pos="d">还</W>
+ <W cur="83" id="51" pos="v">可以</W>
+ <W cur="85" id="52" pos="v">帮助</W>
+ <W cur="87" id="53" pos="r">其</W>
+ <W cur="88" id="54" pos="v">减少</W>
+ <W cur="90" id="55" pos="n">毁林</W>
+ <W cur="92" id="56" pos="u">所</W>
+ <W cur="93" id="57" pos="v">致</W>
+ <W cur="94" id="58" pos="u">的</W>
+ <W cur="95" id="59" pos="n">排放量</W>
+ <W boundary="sentence" cur="98" id="60" pos="ew">。</W>
+ <W cur="99" id="61" pos="r">有些</W>
+ <W cur="101" id="62" pos="n">世界</W>
+ <W cur="103" id="63" pos="f">上</W>
+ <W cur="104" id="64" pos="d">最</W>
+ <W cur="105" id="65" pos="a">脆弱</W>
+ <W cur="107" id="66" pos="u">的</W>
+ <W cur="108" id="67" pos="n">国家</W>
+ <W cur="110" id="68" pos="v">导致</W>
+ <W cur="112" id="69" pos="u">了</W>
+ <W cur="113" id="70" pos="n">气候</W>
+ <W cur="115" id="71" pos="vn">变化</W>
+ <W cur="117" id="72" pos="w">，</W>
+ <W cur="118" id="73" pos="c">但</W>
+ <W cur="119" id="74" pos="v">承载</W>
+ <W cur="121" id="75" pos="r">它</W>
+ <W cur="122" id="76" pos="d">也</W>
+ <W cur="123" id="77" pos="v">是</W>
+ <W cur="124" id="78" pos="i">首当其冲</W>
+ <W boundary="sentence" cur="128" id="79" pos="ew">。</W>
+ <W cur="129" id="80" pos="vn">发展</W>
+ <W cur="131" id="81" pos="f">中</W>
+ <W cur="132" id="82" pos="n">国家</W>
+ <W cur="134" id="83" pos="w">，</W>
+ <W cur="135" id="84" pos="d">尤其</W>
+ <W cur="137" id="85" pos="v">需要</W>
+ <W cur="139" id="86" pos="v">适应</W>
+ <W cur="141" id="87" pos="n">气候</W>
+ <W cur="143" id="88" pos="vn">变化</W>
+ <W cur="145" id="89" pos="u">的</W>
+ <W cur="146" id="90" pos="vn">影响</W>
+ <W boundary="sentence" cur="148" id="91" pos="ew">。</W>
+ <W cur="149" id="92" pos="c">因此</W>
+ <W cur="151" id="93" pos="w">，</W>
+ <W cur="152" id="94" pos="v">适应</W>
+ <W cur="154" id="95" pos="c">和</W>
+ <W cur="155" id="96" pos="an">努力</W>
+ <W cur="157" id="97" pos="d">必须</W>
+ <W cur="159" id="98" pos="i">齐头并进</W>
+ <W boundary="sentence" cur="163" id="99" pos="ew">。</W>
 </Text>
