@@ -5,13 +5,14 @@ use File::Copy;
 use File::Path qw(make_path remove_tree);
 use File::stat;
 
-if ($#ARGV !=1){
+
+if ($#ARGV <1){
 	print "Usage <command:[make|clean]> <Study_name | all>\n";
   	exit 1;
 	
 }
 
-my $study_name = qw(ACS08 BD08 BML12 JLG10 KTHJ08 LWB09 MS12 NJ12 SG12 TPR11);
+my @studies = qw(ACS08 BD08 BML12 JLG10 KTHJ08 LWB09 MS12 NJ12 SG12 TPR11);
 
 sub CopyData{
 	my $study_name =shift;
@@ -83,7 +84,9 @@ sub MergeEvents2Trl{
             
             print "FixMod2Trl -T $outp.Atag.xml -O $outp.Event.xml\n";
             execute("perl ./FixMod2Trl.pl -T $outp.Atag.xml -O $outp.Event.xml");
-            execute("rm -f $outp.Atag.xml");
+			$outp =~ s/\//\\/g; 
+			
+            execute("del $outp.Atag.xml /f/s/q");
             print "\n";
         }
         
@@ -135,28 +138,51 @@ sub ToSingleTreex{
     		if (older_than($temp_path,$new.".treex.gz")){
     			next;
     		}
-    		print "perl ./Trl2Treex.pl  -T $temp_path -O $new";
+    		print "perl ./Trl2Treex.pl  -T $temp_path -O $new\n";
     		execute("perl ./Trl2Treex.pl -T $temp_path -O $new");
     	}
     }
-    my $final_treex = "treex \\
-    Misc::Translog::BuildTreesFromOffsetIndices \\
-    Util::Eval document=\"\\\$doc->set_path(qw(data/$study_name/Treex))\" Write::Treex clobber=1 storable=0 \\
-    -- data/$study_name/Treex/raw/*.treex.gz";
+    closedir(DIR); 
+	my $treex_files = "";
+	$dir = "data/$study_name/Treex/raw/";
+	opendir(DIR,$dir);
+	foreach my $tree (readdir(DIR)){
+		if ($tree=~ m/\.treex\.gz$/i){
+			$treex_files = $treex_files.$dir."/$tree"." ";
+		}
+	}
+    my $final_treex = "treex ".
+    "Misc::Translog::BuildTreesFromOffsetIndices ".
+    "Util::Eval document=\"\$doc->set_path(qw(data/$study_name/Treex))\" ".
+	"Write::Treex clobber=1 storable=0 ".
+    "-- $treex_files";
     #print $final_treex;
-    execute($final_treex);
-	closedir(DIR); 
+	if ($treex_files){
+		execute($final_treex);
+	}
+	
 }
 sub FinalTreex{
-	my $study_name = shift;
-	my $final_treex = "treex \\
-    Misc::Translog::BuildTreesFromOffsetIndices \\
-    Util::Eval document=\"\\\$doc->set_path(qw(data/Treex))\" Write::Treex clobber=1 storable=0 \\
-    -- data/Treex/raw/*.treex.gz";
-	execute($final_treex);
+	my $treex_files = "";
+	my $dir = "data/Treex/raw/";
+	opendir(DIR,$dir);
+	foreach my $tree (readdir(DIR)){
+		if ($tree=~ m/\.treex\.gz$/i){
+			$treex_files = $treex_files.$dir."/$tree"." ";
+		}
+	}
+	my $final_treex = "treex ".
+    "Misc::Translog::BuildTreesFromOffsetIndices ".
+    "Util::Eval document=\"\\\$doc->set_path(qw(data/Treex))\" ".
+	"Write::Treex clobber=1 storable=0 ".
+    "-- $treex_files";
+	if ($treex_files){
+		execute($final_treex);
+	}
 }
 sub AnnotateTrl{
 	my $study_name = shift;
+	my $arg = shift;
 	my $dir = "data/$study_name/Alignment_NLP/";
 	my $align_path = "data/$study_name/Alignment/";
 	my $python_args = "";
@@ -175,12 +201,16 @@ sub AnnotateTrl{
     	if ($temp_path=~ m/(\.src|\.tgt)$/i){
     		
     		if (older_than($new_path,$temp_path)){
+			if ($arg eq "annotate"){
     			$python_args = $python_args.$temp_path." ";
-    				
+			}
+			else{
+    			copy($temp_path,$new_path) or die "Copy failed: $!";
     		}
     		
     		
-    	}
+			}
+		}
     	elsif($temp_path=~ m/\.atag$/i){
     		if (older_than($new_path,$temp_path)){
     			copy($temp_path,$new_path) or die "Copy failed: $!";
@@ -189,27 +219,36 @@ sub AnnotateTrl{
     }
     if($python_args){
     	$python_args =~ s/^\s*(.*?)\s*$/$1/;
-    	execute("python modify_files.py $python_args");
+		execute("python modify_files.py $python_args");
     }
     closedir(DIR);
 }
 
 sub Treex2Atag{
-
+	
 	my $study_name= shift;  
-      execute("rm -r data/$study_name/Alignment-II");
-      my $cmd = "treex \\
-      Misc::Translog::RemakeWildZones \\
-      Misc::Translog::Treex2Alignment \\
-      -- data/$study_name/Treex/*.treex.gz";
-      execute($cmd);
-
+	my $treex_files = "";
+	my $dir = "data/$study_name/Treex/";
+	execute("rmdir data\\$study_name\\Alignment-II /s/q");
+	opendir(DIR,$dir);
+	foreach my $tree (readdir(DIR)){
+		if ($tree=~ m/\.treex\.gz$/i){
+			$treex_files = $treex_files.$dir."/$tree"." ";
+		}
+	}
+	my $recover = "treex ".
+    "Misc::Translog::RemakeWildZones ".
+    "Misc::Translog::Treex2Alignment ".
+    "-- $treex_files";
+	if ($treex_files){
+		execute($recover);
+	}    
 }
 
 sub CheckRound{
 	my $study_name = shift; 
-	my $old_data = "data/$1/Alignment_NLP/";
-	my $new_data = "data/$1/Alignment-II/";
+	my $old_data = "data/$study_name/Alignment_NLP/";
+	my $new_data = "data/$study_name/Alignment-II/";
 	opendir(DIR,$old_data);
     my @FILES= readdir(DIR);
     foreach my $file (@FILES){
@@ -237,12 +276,12 @@ sub older_than{
 		return 1;	
 	}
 	elsif (stat($file1) and stat($file2)){
-		if (stat($file1)->mtime < stat($file2)->mtime){
-		#	print "Z";
+		if (stat($file1)->atime < stat($file2)->atime){
+			#print "Z";
 			return 1;
 		}
 		else{
-		#	print "A";
+			#print "A";
 			return 0;
 		}
 	}
@@ -251,14 +290,33 @@ sub older_than{
 	
 }
 sub execute {
-	
-	my @args = ( "bash", "-c", shift );
- 	system(@args);
-}
 
-CopyData($ARGV[1]);
-AnnotateTrl($ARGV[1]);
-MergeEvents2Trl($ARGV[1]);
-Trl2TokenTables($ARGV[1]);
-ToSingleTreex($ARGV[1]);
-Treex2Atag($ARGV[1]);
+	my $cmd = shift;
+	`$cmd`;	
+	
+}
+unless($ARGV[1] eq "all"){
+		@studies = ($ARGV[1]);
+	}
+if($ARGV[0] eq "make"){
+	foreach my $s (@studies){
+			CopyData($s);
+			if ($ARGV[2] eq "annotate"){
+				AnnotateTrl($s,$ARGV[2]);
+			}
+			else {
+				AnnotateTrl($s,"none");
+			}
+			MergeEvents2Trl($s);
+			Trl2TokenTables($s);
+			ToSingleTreex($s);
+	}
+	
+	
+}
+else{ 
+	foreach my $s (@studies){
+		Treex2Atag($ARGV[1]);
+		CheckRound($ARGV[1]);
+	}
+}
