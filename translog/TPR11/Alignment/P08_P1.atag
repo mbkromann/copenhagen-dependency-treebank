@@ -1,6 +1,6 @@
 <DTAGalign source="en" target="pt" >
-<alignFile key="a" href="PE-Eye-KillerNurse-Portuguese-Carlos-T1750.src" sign="_input"/>
-<alignFile key="b" href="PE-Eye-KillerNurse-Portuguese-Carlos-T1750.tgt" sign="_input"/>
+<alignFile key="a" href="P08_P1.src" sign="_input"/>
+<alignFile key="b" href="P08_P1.tgt" sign="_input"/>
 <align out="a7 a8" type="" in="b9 b10" creator="0" insign="O enfermeiro" outsign="Hospital nurse"/>
 <align out="a11 a12 a13 a14" type="" in="b13 b14 b15 b16 b17 b18" creator="0" insign="recebeu uma pena de prisão perpétua" outsign="was imprisoned for life"/>
 <align out="a15" type="" in="a15" creator="0" insign="today" outsign="today"/>

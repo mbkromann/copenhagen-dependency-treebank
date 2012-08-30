@@ -154,8 +154,13 @@ function AnnotateTrl ()
         python modify_files.py data/$1/Alignment/*.src 
         python modify_files.py data/$1/Alignment/*.tgt
 
-        cp data/$1/Alignment/*.atag data/$1/Alignment_NLP
-   fi
+    fi
+
+    for file in data/$1/Alignment/*.atag
+    do
+        new=${file/Alignment/Alignment_NLP}
+        if [ "$file" -nt "$new" ]; then cp $file $new ; fi
+    done
 }
 
 ####################################
@@ -303,6 +308,7 @@ elif [ "$1" == "text" ]; then
     else STUDY=$2;
     fi
 
+    mkdir -p data/Treex/raw
     for text in $STUDY ; do 
         TextStudies="";
         TextMap $text

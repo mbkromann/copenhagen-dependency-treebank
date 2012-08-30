@@ -1,4 +1,80 @@
-<DTAGalign alignment="giza" >
-<alignFile key="a" href="P03_T6.src" />
-<alignFile key="b" href="P03_T6.tgt" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign  alignment="lotte" source="en" target="de">
+<alignFile href="P03_T6.src" key="a" sign=""/>
+<alignFile href="P03_T6.tgt" key="b" sign=""/>
+<align creator="" in="b1" insign="Die" out="a1" outsign="The" type=""/>
+<align creator="" in="b2" insign="Mehrzahl" out="a2" outsign="majority" type=""/>
+<align creator="" in="b3" insign="der" out="a3" outsign="of" type=""/>
+<align creator="" in="b4" insign="Jäger" out="a4" outsign="hunter" type=""/>
+<align creator="" in="b5" insign="-" out="a5" outsign="-" type=""/>
+<align creator="" in="b6b7" insign="Sammler -" out="a6" outsign="gatherer" type=""/>
+<align creator="" in="b8" insign="Kulturen" out="a7" outsign="societies" type=""/>
+<align creator="" in="b9b10b11b12" insign="folgen einer nomadischen Lebensweise" out="a8a9" outsign="are nomadic" type=""/>
+<align creator="" in="b13" insign="." out="a10" outsign="." type=""/>
+<align creator="" in="b18" insign="es" out="a11" outsign="It" type=""/>
+<align creator="" in="b17" insign="ist" out="a12" outsign="is" type=""/>
+<align creator="" in="b19" insign="schwierig" out="a13" outsign="difficult" type=""/>
+<align creator="" in="b22" insign="zu" out="a14" outsign="to" type=""/>
+<align creator="" in="b23" insign="werden" out="a15" outsign="be" type=""/>
+<align creator="" in="b21" insign="sesshaft" out="a16" outsign="settled" type=""/>
+<align creator="" in="b14" insign="Unter" out="a17" outsign="under" type=""/>
+<align creator="" in="b15" insign="diesen" out="a18a19" outsign="such a" type=""/>
+<align creator="" in="b16" insign="Bedingungen" out="a20a21" outsign="subsistence system" type=""/>
+<align creator="" in="b25" insign="da" out="a22" outsign="as" type=""/>
+<align creator="" in="b27" insign="die" out="a23" outsign="the" type=""/>
+<align creator="" in="b29" insign="Ressourcen" out="a24" outsign="resources" type=""/>
+<align creator="" in="b30b31" insign="einer bestimmten" out="a25a26" outsign="of one" type=""/>
+<align creator="" in="b32" insign="Region" out="a27" outsign="region" type=""/>
+<align creator="" in="b33" insign="schnell" out="a29" outsign="quickly" type=""/>
+<align creator="" in="b26b34b35" insign="sich erschöpfen können" out="a30a31" outsign="become exhausted" type=""/>
+<align creator="" in="b36" insign="." out="a32" outsign="." type=""/>
+<align creator="" in="b41b42" insign="solche Gesellschaften" out="a33a34a35a36" outsign="Hunter - gatherer societies" type=""/>
+<align creator="" in="b44" insign="auch" out="a37" outsign="also" type=""/>
+<align creator="" in="b43" insign="tendenziell" out="a38a39" outsign="tend to" type=""/>
+<align creator="" in="b40" insign="haben" out="a40" outsign="have" type=""/>
+<align creator="" in="b46" insign="sehr" out="a41" outsign="very" type=""/>
+<align creator="" in="b47" insign="geringe" out="a42" outsign="low" type=""/>
+<align creator="" in="b45b48" insign="eine Bevölkerungsdichte" out="a43" outsign="population" type=""/>
+<align creator="" in="b37" insign="Aufgrund" out="a45a46a47a48" outsign="as a result of" type=""/>
+<align creator="" in="b38" insign="ihrer" out="a49" outsign="their" type=""/>
+<align creator="" in="b39" insign="Wirtschaftsweise" out="a50a51" outsign="subsistence system" type=""/>
+<align creator="" in="b50" insign="Landwirtschaft" out="a52a53a54" outsign=". Agricultural subsistence" type=""/>
+<align creator="" in="b51" insign="kann" out="a56" outsign="can" type=""/>
+<align creator="" in="b58" insign="ermöglichen" out="a57" outsign="support" type=""/>
+<align creator="" in="b57" insign="Bevölkerungsdichte" out="a58a59" outsign="population densities" type=""/>
+<align creator="" in="b53b54" insign="60 -" out="a60" outsign="60" type=""/>
+<align creator="" in="b55" insign="bis" out="a61" outsign="to" type=""/>
+<align creator="" in="b56" insign="100-fache" out="a62a63" outsign="100 times" type=""/>
+<align creator="" in="b59" insign="." out="a74" outsign="." type=""/>
+<align creator="" in="b62" insign="Jäger" out="a75" outsign="Hunter" type=""/>
+<align creator="" in="b63" insign="-" out="a76" outsign="-" type=""/>
+<align creator="" in="b64b65" insign="Sammler -" out="a77" outsign="gatherer" type=""/>
+<align creator="" in="b66" insign="Gesellschaften" out="a78" outsign="societies" type=""/>
+<align creator="" in="b67" insign="tendenziell" out="a80" outsign="tend" type=""/>
+<align creator="" in="b61" insign="sind" out="a81a82" outsign="to have" type=""/>
+<align creator="" in="b68b69b70" insign="nicht hierarchisch organisiert" out="a83a84a85a86a87" outsign="non - hierarchical social structures" type=""/>
+<align creator="" in="b71" insign="," out="a88" outsign="," type=""/>
+<align creator="" in="b72" insign="obwohl" out="a89" outsign="though" type=""/>
+<align creator="" in="b73b74b75b76b77" insign="es hierbei durchaus Ausnahmefälle gibt" out="a90a91a92a93a94" outsign="this is not always the" type=""/>
+<align creator="" in="b78" insign="." out="a96" outsign="." type=""/>
+<align creator="" in="b79" insign="Aufgrund" out="a97" outsign="Because" type=""/>
+<align creator="" in="b80b81b82" insign="ihrer nomadischen Lebensweise" out="a98a99a100a101a102a103a104" outsign="hunter - gatherers tend to be nomadic" type=""/>
+<align creator="" in="b83" insign="," out="a105" outsign="," type=""/>
+<align creator="" in="b85" insign="sie" out="a106" outsign="they" type=""/>
+<align creator="" in="b86b87" insign="im Allgemeinen" out="a107" outsign="generally" type=""/>
+<align creator="" in="b84" insign="haben" out="a108a110" outsign="do have" type=""/>
+<align creator="" in="b88" insign="nicht" out="a109" outsign="not" type=""/>
+<align creator="" in="b89" insign="die" out="a111" outsign="the" type=""/>
+<align creator="" in="b90" insign="Möglichkeit" out="a112" outsign="possibility" type=""/>
+<align creator="" in="b92" insign="Nahrungsmittelvorräte" out="a115a116" outsign="surplus food" type=""/>
+<align creator="" in="b93" insign="anzulegen" out="a113a114" outsign="to store" type=""/>
+<align creator="" in="b94" insign="." out="a117" outsign="." type=""/>
+<align creator="" in="b95" insign="Dementsprechend" out="a118a119a120" outsign="As a result" type=""/>
+<align creator="" in="b98b99" insign="solche Gesellschaften" out="a135a136a137a138" outsign="hunter - gatherer societies" type=""/>
+<align creator="" in="b105" insign="Berufspolitiker" out="a122a123a124a125" outsign="full - time leaders" type=""/>
+<align creator="" in="b106" insign="," out="a126" outsign="," type=""/>
+<align creator="" in="b107" insign="Bürokraten" out="a127" outsign="bureaucrats" type=""/>
+<align creator="" in="b108" insign="oder" out="a129" outsign="or" type=""/>
+<align creator="" in="b96b101b102b103b110b111" insign="leisten selten den Luxus zu unterhalten" out="a131a132a133a134" outsign="are rarely supported by" type=""/>
+<align creator="" in="b112" insign="." out="a139" outsign="." type=""/>
 </DTAGalign>

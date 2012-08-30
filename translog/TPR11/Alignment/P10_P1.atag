@@ -1,6 +1,6 @@
 <DTAGalign source="en" target="pt" >
-<alignFile key="a" href="PE-Eye-KillerNurse-Portuguese-Marcia-T120.src" sign="_input"/>
-<alignFile key="b" href="PE-Eye-KillerNurse-Portuguese-Marcia-T120.tgt" sign="_input"/>
+<alignFile key="a" href="P10_P1.src" sign="_input"/>
+<alignFile key="b" href="P10_P1.tgt" sign="_input"/>
 <align out="a3" type="" in="b3 b4" creator="0" insign="é condenado" outsign="receives"/>
 <align out="a4" type="" in="b5 b6" creator="0" insign="quatro vezes" outsign="four"/>
 <align out="a5 a6" type="" in="b7 b8 b9" creator="0" insign="à prisão perpétua" outsign="life sentences"/>

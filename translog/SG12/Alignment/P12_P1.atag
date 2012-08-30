@@ -1,177 +1,138 @@
-<DTAGalign alignment="giza" >
-<alignFile key="a" href="P12_P1.src" />
-<alignFile key="b" href="P12_P1.tgt" />
-<align out="a1" type="" in="b1" />
-<align out="a1" type="" in="b2" />
-<align out="a2" type="" in="b1" />
-<align out="a2" type="" in="b3" />
-<align out="a3" type="" in="b4" />
-<align out="a4" type="" in="b5" />
-<align out="a5" type="" in="b6" />
-<align out="a6" type="" in="b6" />
-<align out="a7" type="" in="b7" />
-<align out="a8" type="" in="b7" />
-<align out="a9" type="" in="b8" />
-<align out="a10" type="" in="b9" />
-<align out="a11" type="" in="b10" />
-<align out="a12" type="" in="b11" />
-<align out="a12" type="" in="b12" />
-<align out="a12" type="" in="b13" />
-<align out="a12" type="" in="b14" />
-<align out="a13" type="" in="b11" />
-<align out="a14" type="" in="b13" />
-<align out="a15" type="" in="b14" />
-<align out="a16" type="" in="b15" />
-<align out="a17" type="" in="b16" />
-<align out="a18" type="" in="b17" />
-<align out="a18" type="" in="b18" />
-<align out="a19" type="" in="b18" />
-<align out="a20" type="" in="b19" />
-<align out="a22" type="" in="b20" />
-<align out="a23" type="" in="b21" />
-<align out="a24" type="" in="b22" />
-<align out="a25" type="" in="b23" />
-<align out="a26" type="" in="b33" />
-<align out="a28" type="" in="b25" />
-<align out="a29" type="" in="b26" />
-<align out="a30" type="" in="b27" />
-<align out="a31" type="" in="b28" />
-<align out="a32" type="" in="b29" />
-<align out="a33" type="" in="b30" />
-<align out="a34" type="" in="b31" />
-<align out="a35" type="" in="b32" />
-<align out="a36" type="" in="b34" />
-<align out="a37" type="" in="b36" />
-<align out="a38" type="" in="b36" />
-<align out="a38" type="" in="b37" />
-<align out="a39" type="" in="b38" />
-<align out="a40" type="" in="b39" />
-<align out="a40" type="" in="b40" />
-<align out="a41" type="" in="b40" />
-<align out="a41" type="" in="b41" />
-<align out="a42" type="" in="b41" />
-<align out="a43" type="" in="b42" />
-<align out="a44" type="" in="b43" />
-<align out="a45" type="" in="b44" />
-<align out="a46" type="" in="b45" />
-<align out="a46" type="" in="b46" />
-<align out="a47" type="" in="b46" />
-<align out="a48" type="" in="b47" />
-<align out="a49" type="" in="b47" />
-<align out="a50" type="" in="b51" />
-<align out="a54" type="" in="b48" />
-<align out="a55" type="" in="b55" />
-<align out="a56" type="" in="b54" />
-<align out="a57" type="" in="b49" />
-<align out="a57" type="" in="b50" />
-<align out="a57" type="" in="b51" />
-<align out="a58" type="" in="b52" />
-<align out="a59" type="" in="b53" />
-<align out="a59" type="" in="b56" />
-<align out="a60" type="" in="b57" />
-<align out="a61" type="" in="b58" />
-<align out="a62" type="" in="b59" />
-<align out="a63" type="" in="b60" />
-<align out="a64" type="" in="b61" />
-<align out="a65" type="" in="b63" />
-<align out="a66" type="" in="b63" />
-<align out="a67" type="" in="b64" />
-<align out="a68" type="" in="b65" />
-<align out="a69" type="" in="b66" />
-<align out="a70" type="" in="b67" />
-<align out="a71" type="" in="b68" />
-<align out="a73" type="" in="b62" />
-<align out="a74" type="" in="b69" />
-<align out="a75" type="" in="b70" />
-<align out="a76" type="" in="b71" />
-<align out="a77" type="" in="b72" />
-<align out="a78" type="" in="b73" />
-<align out="a79" type="" in="b72" />
-<align out="a80" type="" in="b73" />
-<align out="a83" type="" in="b74" />
-<align out="a84" type="" in="b75" />
-<align out="a84" type="" in="b76" />
-<align out="a84" type="" in="b77" />
-<align out="a85" type="" in="b78" />
-<align out="a86" type="" in="b94" />
-<align out="a87" type="" in="b93" />
-<align out="a88" type="" in="b81" />
-<align out="a89" type="" in="b82" />
-<align out="a90" type="" in="b83" />
-<align out="a91" type="" in="b85" />
-<align out="a92" type="" in="b86" />
-<align out="a93" type="" in="b87" />
-<align out="a94" type="" in="b88" />
-<align out="a94" type="" in="b92" />
-<align out="a95" type="" in="b89" />
-<align out="a95" type="" in="b90" />
-<align out="a96" type="" in="b80" />
-<align out="a98" type="" in="b79" />
-<align out="a99" type="" in="b91" />
-<align out="a100" type="" in="b95" />
-<align out="a101" type="" in="b96" />
-<align out="a101" type="" in="b97" />
-<align out="a102" type="" in="b98" />
-<align out="a103" type="" in="b99" />
-<align out="a103" type="" in="b100" />
-<align out="a103" type="" in="b101" />
-<align out="a105" type="" in="b107" />
-<align out="a107" type="" in="b108" />
-<align out="a108" type="" in="b102" />
-<align out="a110" type="" in="b105" />
-<align out="a111" type="" in="b104" />
-<align out="a112" type="" in="b103" />
-<align out="a116" type="" in="b106" />
-<align out="a117" type="" in="b109" />
-<align out="a118" type="" in="b110" />
-<align out="a119" type="" in="b111" />
-<align out="a120" type="" in="b111" />
-<align out="a120" type="" in="b113" />
-<align out="a121" type="" in="b112" />
-<align out="a122" type="" in="b114" />
-<align out="a123" type="" in="b115" />
-<align out="a124" type="" in="b116" />
-<align out="a125" type="" in="b117" />
-<align out="a126" type="" in="b118" />
-<align out="a127" type="" in="b119" />
-<align out="a128" type="" in="b121" />
-<align out="a129" type="" in="b123" />
-<align out="a130" type="" in="b124" />
-<align out="a131" type="" in="b125" />
-<align out="a132" type="" in="b126" />
-<align out="a133" type="" in="b127" />
-<align out="a134" type="" in="b128" />
-<align out="a135" type="" in="b129" />
-<align out="a135" type="" in="b130" />
-<align out="a136" type="" in="b131" />
-<align out="a137" type="" in="b132" />
-<align out="a138" type="" in="b133" />
-<align out="a139" type="" in="b133" />
-<align out="a140" type="" in="b134" />
-<align out="a141" type="" in="b135" />
-<align out="a141" type="" in="b136" />
-<align out="a142" type="" in="b138" />
-<align out="a143" type="" in="b137" />
-<align out="a144" type="" in="b138" />
-<align out="a145" type="" in="b139" />
-<align out="a146" type="" in="b140" />
-<align out="a147" type="" in="b140" />
-<align out="a148" type="" in="b141" />
-<align out="a149" type="" in="b142" />
-<align out="a150" type="" in="b143" />
-<align out="a151" type="" in="b144" />
-<align out="a152" type="" in="b145" />
-<align out="a153" type="" in="b145" />
-<align out="a154" type="" in="b145" />
-<align out="a154" type="" in="b146" />
-<align out="a155" type="" in="b146" />
-<align out="a156" type="" in="b147" />
-<align out="a156" type="" in="b148" />
-<align out="a157" type="" in="b149" />
-<align out="a158" type="" in="b149" />
-<align out="a158" type="" in="b152" />
-<align out="a159" type="" in="b150" />
-<align out="a159" type="" in="b151" />
-<align out="a159" type="" in="b153" />
-<align out="a160" type="" in="b154" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign  alignment="lotte" source="en" target="de">
+<alignFile href="P12_P1.src" key="a" sign=""/>
+<alignFile href="P12_P1.tgt" key="b" sign=""/>
+<align creator="" in="b1b2" insign="Killer -" out="a1" outsign="Killer" type=""/>
+<align creator="" in="b3" insign="Krankenschwester" out="a2" outsign="nurse" type=""/>
+<align creator="" in="b4" insign="erhält" out="a3" outsign="receives" type=""/>
+<align creator="" in="b5" insign="viermal" out="a4" outsign="four" type=""/>
+<align creator="" in="b6" insign="lebenslänglich" out="a5a6" outsign="life sentences" type=""/>
+<align creator="" in="b7" insign="Krankenschwester" out="a7a8" outsign="Hospital nurse" type=""/>
+<align creator="" in="b8" insign="Colin" out="a9" outsign="Colin" type=""/>
+<align creator="" in="b9" insign="Norris" out="a10" outsign="Norris" type=""/>
+<align creator="" in="b14" insign="eingesperrt" out="a12" outsign="imprisoned" type=""/>
+<align creator="" in="b12" insign="auf" out="a13" outsign="for" type=""/>
+<align creator="" in="b13" insign="Lebenszeit" out="a14" outsign="life" type=""/>
+<align creator="" in="b10" insign="wurde" out="a11" outsign="was" type=""/>
+<align creator="" in="b11" insign="heute" out="a15" outsign="today" type=""/>
+<align creator="" in="b15" insign="für" out="a16" outsign="for" type=""/>
+<align creator="" in="b16" insign="die" out="a17" outsign="the" type=""/>
+<align creator="" in="b17" insign="Tötung" out="a18" outsign="killing" type=""/>
+<align creator="" in="b18" insign="von" out="a19" outsign="of" type=""/>
+<align creator="" in="b19" insign="vier" out="a20" outsign="four" type=""/>
+<align creator="" in="b20" insign="seiner" out="a21a22" outsign="of his" type=""/>
+<align creator="" in="b21" insign="Patienten" out="a23" outsign="patients" type=""/>
+<align creator="" in="b22" insign="." out="a24" outsign="." type=""/>
+<align creator="" in="b24" insign="32-jährige" out="a25a26a27" outsign="32 year old" type=""/>
+<align creator="" in="b23b25" insign="Der Norris" out="a28" outsign="Norris" type=""/>
+<align creator="" in="b26" insign="aus" out="a29" outsign="from" type=""/>
+<align creator="" in="b27" insign="Glasgow" out="a30" outsign="Glasgow" type=""/>
+<align creator="" in="b28" insign="tötete" out="a31" outsign="killed" type=""/>
+<align creator="" in="b29" insign="die" out="a32" outsign="the" type=""/>
+<align creator="" in="b30" insign="vier" out="a33" outsign="four" type=""/>
+<align creator="" in="b31" insign="Frauen" out="a34" outsign="women" type=""/>
+<align creator="" in="b32" insign="im" out="a35" outsign="in" type=""/>
+<align creator="" in="b33b34" insign="Jahr 2002" out="a36" outsign="2002" type=""/>
+<align creator="" in="b36" insign="indem" out="a37" outsign="by" type=""/>
+<align creator="" in="b37b43" insign="er verabreichte" out="a38" outsign="giving" type=""/>
+<align creator="" in="b38" insign="ihnen" out="a39" outsign="them" type=""/>
+<align creator="" in="b39" insign="große" out="a40" outsign="large" type=""/>
+<align creator="" in="b40" insign="Mengen" out="a41" outsign="amounts" type=""/>
+<align creator="" in="b41" insign="an" out="a42" outsign="of" type=""/>
+<align creator="" in="b42" insign="Schlaftabletten" out="a43a44" outsign="sleeping medicine" type=""/>
+<align creator="" in="b44" insign="." out="a45" outsign="." type=""/>
+<align creator="" in="b45" insign="Gestern" out="a46" outsign="Yesterday" type=""/>
+<align creator="" in="b46" insign="wurde" out="a49" outsign="was" type=""/>
+<align creator="" in="b47" insign="er" out="a48" outsign="he" type=""/>
+<align creator="" in="b57" insign="befunden" out="a50" outsign="found" type=""/>
+<align creator="" in="b55b56" insign="für schuldig" out="a51" outsign="guilty" type=""/>
+<align creator="" in="b48" insign="wegen" out="a52" outsign="of" type=""/>
+<align creator="" in="b49" insign="vierfachen" out="a53a54a55" outsign="four counts of" type=""/>
+<align creator="" in="b50" insign="Mordes" out="a56" outsign="murder" type=""/>
+<align creator="" in="b51" insign="nach" out="a57" outsign="following" type=""/>
+<align creator="" in="b52" insign="einer" out="a58" outsign="a" type=""/>
+<align creator="" in="b53" insign="langen" out="a59" outsign="long" type=""/>
+<align creator="" in="b54" insign="Verhandlung" out="a60" outsign="trial" type=""/>
+<align creator="" in="b58" insign="." out="a61" outsign="." type=""/>
+<align creator="" in="b59" insign="Er" out="a62" outsign="He" type=""/>
+<align creator="" in="b60" insign="bekam" out="a63a64" outsign="was given" type=""/>
+<align creator="" in="b63" insign="lebenslängliche" out="a66" outsign="life" type=""/>
+<align creator="" in="b62b64" insign="die Haftstrafe" out="a67" outsign="sentences" type=""/>
+<align creator="" in="b61" insign="viermal" out="a65" outsign="four" type=""/>
+<align creator="" in="b65" insign="," out="a68" outsign="," type=""/>
+<align creator="" in="b66" insign="eine" out="a69" outsign="one" type=""/>
+<align creator="" in="b67" insign="für" out="a70" outsign="for" type=""/>
+<align creator="" in="b68" insign="jeden" out="a71a72a73" outsign="each of the" type=""/>
+<align creator="" in="b69" insign="Mord" out="a74" outsign="killings" type=""/>
+<align creator="" in="b70" insign="." out="a75" outsign="." type=""/>
+<align creator="" in="b71" insign="Er" out="a76" outsign="He" type=""/>
+<align creator="" in="b72" insign="wird" out="a77" outsign="will" type=""/>
+<align creator="" in="b73" insign="mindestens" out="a81a82" outsign="at least" type=""/>
+<align creator="" in="b74" insign="30" out="a83" outsign="30" type=""/>
+<align creator="" in="b75" insign="Jahren" out="a84" outsign="years" type=""/>
+<align creator="" in="b77" insign="müssen" out="a78a79" outsign="have to" type=""/>
+<align creator="" in="b76" insign="sitzen" out="a80" outsign="serve" type=""/>
+<align creator="" in="b78" insign="." out="a85" outsign="." type=""/>
+<align creator="" in="b79b80" insign="Der Polizist" out="a86a87" outsign="Police officer" type=""/>
+<align creator="" in="b81" insign="Chris" out="a88" outsign="Chris" type=""/>
+<align creator="" in="b82" insign="Gregg" out="a89" outsign="Gregg" type=""/>
+<align creator="" in="b83" insign="sagte" out="a90" outsign="said" type=""/>
+<align creator="" in="b85" insign="dass" out="a91" outsign="that" type=""/>
+<align creator="" in="b86" insign="Norris" out="a92" outsign="Norris" type=""/>
+<align creator="" in="b90" insign="Verhalten" out="a95" outsign="acting" type=""/>
+<align creator="" in="b89" insign="seltsames" out="a96" outsign="strangely" type=""/>
+<align creator="" in="b91" insign="im" out="a97a98" outsign="around the" type=""/>
+<align creator="" in="b92" insign="Krankenhaus" out="a99" outsign="hospital" type=""/>
+<align creator="" in="b87b88b93b94" insign="durch sein aufgefallen war" out="a93a94" outsign="had been" type=""/>
+<align creator="" in="b95" insign="." out="a100" outsign="." type=""/>
+<align creator="" in="b96" insign="Nur" out="a101" outsign="Only" type=""/>
+<align creator="" in="b98" insign="die" out="a102" outsign="the" type=""/>
+<align creator="" in="b99" insign="Achtsamkeit" out="a103" outsign="awareness" type=""/>
+<align creator="" in="b100" insign="anderer" out="a104a105" outsign="of other" type=""/>
+<align creator="" in="b101" insign="Krankenhausmitarbeiter" out="a106a107" outsign="hospital staff" type=""/>
+<align creator="" in="b103" insign="dem" out="a115" outsign="the" type=""/>
+<align creator="" in="b104" insign="Morden" out="a116" outsign="killings" type=""/>
+<align creator="" in="b105" insign="ein" out="a109" outsign="a" type=""/>
+<align creator="" in="b106" insign="Ende" out="a110" outsign="stop" type=""/>
+<align creator="" in="b102b107b108" insign="konnte gesetzt werden" out="a108" outsign="put" type=""/>
+<align creator="" in="b109" insign="." out="a117" outsign="." type=""/>
+<align creator="" in="b110" insign="Die" out="a118" outsign="The" type=""/>
+<align creator="" in="b111" insign="Polizei" out="a119" outsign="police" type=""/>
+<align creator="" in="b112" insign="erfuhr" out="a120a121" outsign="have learned" type=""/>
+<align creator="" in="b114" insign="dass" out="a122" outsign="that" type=""/>
+<align creator="" in="b115" insign="das" out="a123" outsign="the" type=""/>
+<align creator="" in="b116" insign="Motiv" out="a124" outsign="motive" type=""/>
+<align creator="" in="b117" insign="für" out="a125" outsign="for" type=""/>
+<align creator="" in="b118" insign="die" out="a126" outsign="the" type=""/>
+<align creator="" in="b119" insign="Morde" out="a127" outsign="killings" type=""/>
+<align creator="" in="b120b121" insign="darin bestand" out="a128" outsign="was" type=""/>
+<align creator="" in="b123" insign="dass" out="a129" outsign="that" type=""/>
+<align creator="" in="b124" insign="Norris" out="a130" outsign="Norris" type=""/>
+<align creator="" in="b130" insign="arbeitete" out="a132" outsign="working" type=""/>
+<align creator="" in="b131" insign="." out="a136" outsign="." type=""/>
+<align creator="" in="b127" insign="mit" out="a133" outsign="with" type=""/>
+<align creator="" in="b128" insign="alten" out="a134" outsign="old" type=""/>
+<align creator="" in="b129" insign="Menschen" out="a135" outsign="people" type=""/>
+<align creator="" in="b125b126" insign="nicht gerne" out="a131" outsign="disliked" type=""/>
+<align creator="" in="b132" insign="Alle" out="a137" outsign="All" type=""/>
+<align creator="" in="b133" insign="seine" out="a138a139" outsign="of his" type=""/>
+<align creator="" in="b134" insign="Opfer" out="a140" outsign="victims" type=""/>
+<align creator="" in="b135" insign="waren" out="a141" outsign="were" type=""/>
+<align creator="" in="b136" insign="alte" out="a142" outsign="old" type=""/>
+<align creator="" in="b137" insign="schwache" out="a143" outsign="weak" type=""/>
+<align creator="" in="b138" insign="Frauen" out="a144" outsign="women" type=""/>
+<align creator="" in="b139" insign="mit" out="a145" outsign="with" type=""/>
+<align creator="" in="b140" insign="Herzproblemen" out="a146a147" outsign="heart problems" type=""/>
+<align creator="" in="b141" insign="." out="a148" outsign="." type=""/>
+<align creator="" in="b142" insign="Jede" out="a149" outsign="All" type=""/>
+<align creator="" in="b143" insign="von" out="a150" outsign="of" type=""/>
+<align creator="" in="b144" insign="ihnen" out="a151" outsign="them" type=""/>
+<align creator="" in="b146" insign="eine" out="a155" outsign="a" type=""/>
+<align creator="" in="b147" insign="Last" out="a156" outsign="burden" type=""/>
+<align creator="" in="b148" insign="für" out="a157" outsign="to" type=""/>
+<align creator="" in="b149b150" insign="das Krankenhauspersonal" out="a158a159" outsign="hospital staff" type=""/>
+<align creator="" in="b153" insign="können" out="a152" outsign="could" type=""/>
+<align creator="" in="b152" insign="sein" out="a153" outsign="be" type=""/>
+<align creator="" in="b145b151" insign="hätte gewesen" out="a154" outsign="considered" type=""/>
+<align creator="" in="b154" insign="." out="a160" outsign="." type=""/>
 </DTAGalign>

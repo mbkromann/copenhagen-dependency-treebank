@@ -1,6 +1,6 @@
 <DTAGalign source="en" target="pt" >
-<alignFile key="a" href="PE-Eye-Spielberg-Portuguese-Carlos-T1750.src" sign="_input"/>
-<alignFile key="b" href="PE-Eye-Spielberg-Portuguese-Carlos-T1750.tgt" sign="_input"/>
+<alignFile key="a" href="P08_P3.src" sign="_input"/>
+<alignFile key="b" href="P08_P3.tgt" sign="_input"/>
 <align out="a11" type="" in="b13" creator="0" insign="certamente" outsign="sure"/>
 <align out="a12 a13" type="" in="b12 b14" creator="0" insign="que sacudirá" outsign="to rattle"/>
 <align out="a2" type="" in="b2" creator="-1" insign="mostra" outsign="shows"/>

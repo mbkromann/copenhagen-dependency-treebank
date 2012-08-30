@@ -1,6 +1,6 @@
 <DTAGalign source="en" target="pt" >
-<alignFile key="a" href="PE-Eye-KillerNurse-Portuguese-Fabio-T120.src" sign="_input"/>
-<alignFile key="b" href="PE-Eye-KillerNurse-Portuguese-Fabio-T120.tgt" sign="_input"/>
+<alignFile key="a" href="P09_P1.src" sign="_input"/>
+<alignFile key="b" href="P09_P1.tgt" sign="_input"/>
 <align out="a17" type="" in="b16" creator="0" insign="a" outsign="the"/>
 <align out="a2" type="" in="b1" creator="0" insign="Enfermeiro" outsign="nurse"/>
 <align out="a1" type="" in="b2" creator="0" insign="assassino" outsign="Killer"/>

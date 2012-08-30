@@ -1,4 +1,139 @@
-<DTAGalign source="en" target="de" >
-    <alignFile key="a" href="P02_P1.src" sign="_input"/>
-    <alignFile key="b" href="P02_P1.tgt" sign="_input"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign alignment="lotte" source="en" target="de">
+<alignFile href="P02_P1.src" key="a" sign=""/>
+<alignFile href="P02_P1.tgt" key="b" sign=""/>
+<align creator="" in="b1" insign="Killer-Krankenpfleger" out="a1a2" outsign="Killer nurse" type=""/>
+<align creator="" in="b2b6" insign="zu verurteilt" out="a3" outsign="receives" type=""/>
+<align creator="" in="b3" insign="viermal" out="a4" outsign="four" type=""/>
+<align creator="" in="b4" insign="lebenslange" out="a5" outsign="life" type=""/>
+<align creator="" in="b5" insign="Haft" out="a6" outsign="sentences" type=""/>
+<align creator="" in="b7" insign="Krankenschwester" out="a7a8" outsign="Hospital nurse" type=""/>
+<align creator="" in="b8" insign="Colin" out="a9" outsign="Colin" type=""/>
+<align creator="" in="b9" insign="Norris" out="a10" outsign="Norris" type=""/>
+<align creator="" in="b10" insign="wurde" out="a11" outsign="was" type=""/>
+<align creator="" in="b13" insign="eingesperrt" out="a12" outsign="imprisoned" type=""/>
+<align creator="" in="b12" insign="lebenslang" out="a13a14" outsign="for life" type=""/>
+<align creator="" in="b11" insign="heute" out="a15" outsign="today" type=""/>
+<align creator="" in="b14" insign="für" out="a16" outsign="for" type=""/>
+<align creator="" in="b15" insign="die" out="a17" outsign="the" type=""/>
+<align creator="" in="b16" insign="Tötung" out="a18" outsign="killing" type=""/>
+<align creator="" in="b17" insign="von" out="a19" outsign="of" type=""/>
+<align creator="" in="b18" insign="vier" out="a20" outsign="four" type=""/>
+<align creator="" in="b19" insign="seiner" out="a21a22" outsign="of his" type=""/>
+<align creator="" in="b20" insign="Patienten" out="a23" outsign="patients" type=""/>
+<align creator="" in="b21" insign="." out="a24" outsign="." type=""/>
+<align creator="" in="b23" insign="32-jährige" out="a25a26a27" outsign="32 year old" type=""/>
+<align creator="" in="b22b27" insign="Der Norris" out="a28" outsign="Norris" type=""/>
+<align creator="" in="b24b26" insign="aus stammende" out="a29" outsign="from" type=""/>
+<align creator="" in="b25" insign="Glasgow" out="a30" outsign="Glasgow" type=""/>
+<align creator="" in="b28" insign="tötete" out="a31" outsign="killed" type=""/>
+<align creator="" in="b29" insign="die" out="a32" outsign="the" type=""/>
+<align creator="" in="b30" insign="vier" out="a33" outsign="four" type=""/>
+<align creator="" in="b31" insign="Frauen" out="a34" outsign="women" type=""/>
+<align creator="" in="b32" insign="im" out="a35" outsign="in" type=""/>
+<align creator="" in="b33b34" insign="Jahr 2002" out="a36" outsign="2002" type=""/>
+<align creator="" in="b36" insign="indem" out="a37" outsign="by" type=""/>
+<align creator="" in="b37b43" insign="er verabreichte" out="a38" outsign="giving" type=""/>
+<align creator="" in="b38" insign="ihnen" out="a39" outsign="them" type=""/>
+<align creator="" in="b39" insign="große" out="a40" outsign="large" type=""/>
+<align creator="" in="b40" insign="Mengen" out="a41" outsign="amounts" type=""/>
+<align creator="" in="b41" insign="an" out="a42" outsign="of" type=""/>
+<align creator="" in="b42" insign="Schlafmitteln" out="a43a44" outsign="sleeping medicine" type=""/>
+<align creator="" in="b44" insign="." out="a45" outsign="." type=""/>
+<align creator="" in="b45" insign="Gestern" out="a46" outsign="Yesterday" type=""/>
+<align creator="" in="b47" insign="er" out="a48" outsign="he" type=""/>
+<align creator="" in="b46" insign="wurde" out="a49" outsign="was" type=""/>
+<align creator="" in="b58" insign="befunden" out="a50" outsign="found" type=""/>
+<align creator="" in="b56b57" insign="für schuldig" out="a51" outsign="guilty" type=""/>
+<align creator="" in="b48" insign="nach" out="a57" outsign="following" type=""/>
+<align creator="" in="b49" insign="langem" out="a58a59" outsign="a long" type=""/>
+<align creator="" in="b50" insign="Prozess" out="a60" outsign="trial" type=""/>
+<align creator="" in="b59" insign="." out="a61" outsign="." type=""/>
+<align creator="" in="b52" insign="Mord" out="a56" outsign="murder" type=""/>
+<align creator="" in="b51" insign="des" out="a55" outsign="of" type=""/>
+<align creator="" in="b53" insign="in" out="a52" outsign="of" type=""/>
+<align creator="" in="b54" insign="vier" out="a53" outsign="four" type=""/>
+<align creator="" in="b55" insign="Fällen" out="a54" outsign="counts" type=""/>
+<align creator="" in="b60" insign="Er" out="a62" outsign="He" type=""/>
+<align creator="" in="b61" insign="wurde" out="a63" outsign="was" type=""/>
+<align creator="" in="b62b66" insign="zu verurteilt" out="a64" outsign="given" type=""/>
+<align creator="" in="b63" insign="viermal" out="a65" outsign="four" type=""/>
+<align creator="" in="b64" insign="lebenslanger" out="a66" outsign="life" type=""/>
+<align creator="" in="b65" insign="Haft" out="a67" outsign="sentences" type=""/>
+<align creator="" in="b67" insign="," out="a68" outsign="," type=""/>
+<align creator="" in="b68b69" insign="eine Verurteilung" out="a69" outsign="one" type=""/>
+<align creator="" in="b70" insign="für" out="a70" outsign="for" type=""/>
+<align creator="" in="b71" insign="jeden" out="a71" outsign="each" type=""/>
+<align creator="" in="b72" insign="der" out="a72a73" outsign="of the" type=""/>
+<align creator="" in="b73" insign="Morde" out="a74" outsign="killings" type=""/>
+<align creator="" in="b74" insign="." out="a75" outsign="." type=""/>
+<align creator="" in="b75" insign="Er" out="a76" outsign="He" type=""/>
+<align creator="" in="b76" insign="wird" out="a77" outsign="will" type=""/>
+<align creator="" in="b82" insign="müssen" out="a78a79" outsign="have to" type=""/>
+<align creator="" in="b81" insign="verbüssen" out="a80" outsign="serve" type=""/>
+<align creator="" in="b78" insign="mindestens" out="a81a82" outsign="at least" type=""/>
+<align creator="" in="b79" insign="30" out="a83" outsign="30" type=""/>
+<align creator="" in="b80" insign="Jahren" out="a84" outsign="years" type=""/>
+<align creator="" in="b83" insign="." out="a85" outsign="." type=""/>
+<align creator="" in="b84" insign="Polizist" out="a86a87" outsign="Police officer" type=""/>
+<align creator="" in="b85" insign="Chris" out="a88" outsign="Chris" type=""/>
+<align creator="" in="b86" insign="Gregg" out="a89" outsign="Gregg" type=""/>
+<align creator="" in="b87b88b89b90" insign="meinte zu dem Fall" out="a90" outsign="said" type=""/>
+<align creator="" in="b92" insign="dass" out="a91" outsign="that" type=""/>
+<align creator="" in="b93" insign="Norris" out="a92" outsign="Norris" type=""/>
+<align creator="" in="b96" insign="seltsames" out="a96" outsign="strangely" type=""/>
+<align creator="" in="b95b97" insign="sein Verhalten" out="a93a94a95" outsign="had been acting" type=""/>
+<align creator="" in="b98" insign="im" out="a97a98" outsign="around the" type=""/>
+<align creator="" in="b99" insign="Krankenhaus" out="a99" outsign="hospital" type=""/>
+<align creator="" in="b103" insign="." out="a100" outsign="." type=""/>
+<align creator="" in="b104" insign="Nur" out="a101" outsign="Only" type=""/>
+<align creator="" in="b106" insign="die" out="a102" outsign="the" type=""/>
+<align creator="" in="b107" insign="Aufmerksamkeit" out="a103" outsign="awareness" type=""/>
+<align creator="" in="b108" insign="der" out="a104" outsign="of" type=""/>
+<align creator="" in="b109" insign="anderen" out="a105" outsign="other" type=""/>
+<align creator="" in="b110" insign="Krankenhausmitarbeiter" out="a106a107" outsign="hospital staff" type=""/>
+<align creator="" in="b112b113" insign="seinem Treiben" out="a112" outsign="him" type=""/>
+<align creator="" in="b114" insign="und" out="a113" outsign="and" type=""/>
+<align creator="" in="b116" insign="dem" out="a115" outsign="the" type=""/>
+<align creator="" in="b117" insign="Morden" out="a116" outsign="killings" type=""/>
+<align creator="" in="b111b118b119b120b121" insign="konnte ein Ende gesetzt werden" out="a108a109a110a111" outsign="put a stop to" type=""/>
+<align creator="" in="b122" insign="." out="a117" outsign="." type=""/>
+<align creator="" in="b123" insign="Die" out="a118" outsign="The" type=""/>
+<align creator="" in="b124" insign="Polizei" out="a119" outsign="police" type=""/>
+<align creator="" in="b125" insign="hat" out="a120" outsign="have" type=""/>
+<align creator="" in="b126" insign="ermittelt" out="a121" outsign="learned" type=""/>
+<align creator="" in="b128" insign="dass" out="a122" outsign="that" type=""/>
+<align creator="" in="b129" insign="das" out="a123" outsign="the" type=""/>
+<align creator="" in="b130" insign="Motiv" out="a124" outsign="motive" type=""/>
+<align creator="" in="b131" insign="für" out="a125" outsign="for" type=""/>
+<align creator="" in="b132" insign="die" out="a126" outsign="the" type=""/>
+<align creator="" in="b133" insign="Morde" out="a127" outsign="killings" type=""/>
+<align creator="" in="b134" insign="war" out="a128" outsign="was" type=""/>
+<align creator="" in="b136" insign="dass" out="a129" outsign="that" type=""/>
+<align creator="" in="b137" insign="Norris" out="a130" outsign="Norris" type=""/>
+<align creator="" in="b138b143" insign="nicht wollte" out="a131" outsign="disliked" type=""/>
+<align creator="" in="b142" insign="arbeiten" out="a132" outsign="working" type=""/>
+<align creator="" in="b139" insign="mit" out="a133" outsign="with" type=""/>
+<align creator="" in="b140" insign="alten" out="a134" outsign="old" type=""/>
+<align creator="" in="b141" insign="Menschen" out="a135" outsign="people" type=""/>
+<align creator="" in="b144" insign="." out="a136" outsign="." type=""/>
+<align creator="" in="b145" insign="Alle" out="a137" outsign="All" type=""/>
+<align creator="" in="b146" insign="seine" out="a138a139" outsign="of his" type=""/>
+<align creator="" in="b147" insign="Opfer" out="a140" outsign="victims" type=""/>
+<align creator="" in="b148" insign="waren" out="a141" outsign="were" type=""/>
+<align creator="" in="b149" insign="alte" out="a142" outsign="old" type=""/>
+<align creator="" in="b151" insign="schwache" out="a143" outsign="weak" type=""/>
+<align creator="" in="b152" insign="Frauen" out="a144" outsign="women" type=""/>
+<align creator="" in="b153" insign="mit" out="a145" outsign="with" type=""/>
+<align creator="" in="b154" insign="Herzproblemen" out="a146a147" outsign="heart problems" type=""/>
+<align creator="" in="b155" insign="." out="a148" outsign="." type=""/>
+<align creator="" in="b156" insign="Alle" out="a149" outsign="All" type=""/>
+<align creator="" in="b157" insign="von" out="a150" outsign="of" type=""/>
+<align creator="" in="b158" insign="ihnen" out="a151" outsign="them" type=""/>
+<align creator="" in="b163" insign="eine" out="a155" outsign="a" type=""/>
+<align creator="" in="b164" insign="Belastung" out="a156" outsign="burden" type=""/>
+<align creator="" in="b165b166" insign="für das" out="a157" outsign="to" type=""/>
+<align creator="" in="b167" insign="Krankenhauspersonal" out="a158a159" outsign="hospital staff" type=""/>
+<align creator="" in="b159b160b161" insign="wurden vom Täter" out="a152a153" outsign="could be" type=""/>
+<align creator="" in="b162b168" insign="als betrachtet" out="a154" outsign="considered" type=""/>
 </DTAGalign>

@@ -99,6 +99,7 @@ def extract_text(fileName):
                     value=value.encode("utf-8")
                     attrib_list[key]=MSescapeAttr(value)
                 original_attrib_list.append(attrib_list)
+                # sys.stderr.write("EEEE "+element.childNodes[0].nodeValue+"\n")
                 wordValue= element.childNodes[0].nodeValue
                 
                 text_data+=wordValue+" "

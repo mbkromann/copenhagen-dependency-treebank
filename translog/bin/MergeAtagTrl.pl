@@ -145,7 +145,7 @@ sub ReadDTAG {
     my $x = $1;
     my $s = MSunescape($2);
 #printf STDERR "ReadDTAG: $2\t$s\t%s\n", MSescape($s);
-    if(/id="([^"])"/ && $1 != $n) {
+    if(/id="([^"])"/i && $1 != $n) {
       printf STDERR "Read $fn: unmatching n:$n and id:$1\n";
       $n=$1;
     }
