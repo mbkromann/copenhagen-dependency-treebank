@@ -346,8 +346,8 @@ sub ReadTranslog {
 
 
     if(/<Languages /) {
-      if( /source="([^"]*)\"/) {$SourceLanguage = $1;}
-      if( /source="([^"]*)\"/) {$TargetLanguage = $1;}
+      if( /source="([^"]*)\"/i) {$SourceLanguage = $1;}
+      if( /target="([^"]*)\"/i) {$TargetLanguage = $1;}
     }
 
     if(/<Events>/) {$type =1; }
