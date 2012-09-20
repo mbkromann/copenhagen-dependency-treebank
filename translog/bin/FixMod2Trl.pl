@@ -383,7 +383,7 @@ sub DeleteText {
 
       my $offs = SearchDelChar($TEXT, $j, $X, $i);
       for (my $k=0; $k <$offs; $k++) {unshift(@{$X}, '#')}
-      printf STDERR "WARNING Delete time:$t cur:$j inserted:$offs\tLog:$Value($#{$X})\tText:$j:$TEXT->{$j}{'c'}\t$offs\n\t"; 
+      print STDERR "WARNING Delete time:$t cur:$j inserted:$offs\tLog:$Value($#{$X})\tText:$j:$TEXT->{$j}{'c'}\t$offs\n\t"; 
       for (my $k=$j-10;$k<$j+10;$k++) { 
         if($k >= $TextLength) {last;}
         if($k == $j) {print STDERR " |";} 
@@ -393,7 +393,7 @@ sub DeleteText {
       print STDERR "\n"; 
       last;
     }
-    elsif($Verbose > 1) { print STDERR "WARNING Delete time:$t cursor:$j buff:$i:%s\n", $X->[$i];}  
+    elsif($Verbose > 1) { print STDERR "WARNING Delete time:$t cursor:$j buff:$i:$X->[$i]\n";}  
     $i++;
   }
   $l = $#{$X}+1;

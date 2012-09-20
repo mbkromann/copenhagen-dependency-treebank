@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="es" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+ <W cur="0" id="1" lemma="t" pos="ALFS">t</W>
+ <W cur="3" id="2" lemma="el" pos="ART" space="&#xA;&#xA;">El</W>
+ <W cur="6" id="3" lemma="_" pos="NC" space=" ">violador</W>
+ <W cur="15" id="4" lemma="más" pos="ADV" space=" ">más</W>
+ <W cur="19" id="5" lemma="_" pos="VLfin" space=" ">maquiavélico</W>
+ <W cur="33" id="6" lemma="_" pos="NC" space="&#xA;&#xA;">Marcel</W>
+ <W cur="40" id="7" lemma="_" pos="NC" space=" ">Lychau</W>
+ <W cur="47" id="8" lemma="_" pos="NP" space=" ">Hansen</W>
+ <W cur="54" id="9" lemma="decidir" pos="VLfin" space=" ">decidió</W>
+ <W cur="62" id="10" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="66" id="11" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="69" id="12" lemma="_" pos="NC" space=" ">semen</W>
+ <W cur="75" id="13" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="79" id="14" lemma="él" pos="PPC" space=" ">le</W>
+ <W cur="82" id="15" lemma="haber" pos="VHfin" space=" ">había</W>
+ <W cur="88" id="16" lemma="condenar" pos="VLadj" space=" ">condenado</W>
+ <W cur="98" id="17" lemma="servir" pos="VLfin" space=" ">serviría</W>
+ <W cur="107" id="18" lemma="también" pos="ADV" space=" ">también</W>
+ <W cur="115" id="19" lemma="para" pos="CSUBI" space=" ">para</W>
+ <W cur="120" id="20" lemma="_" pos="VLinf" space=" ">exculparle</W>
+ <W boundary="sentence" cur="130" id="21" lemma="." pos="FS">.</W>
+ <W cur="132" id="22" lemma="responsable" pos="ADJ" space=" ">Responsable</W>
+ <W cur="144" id="23" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="147" id="24" lemma="dos" pos="CARD" space=" ">dos</W>
+ <W cur="151" id="25" lemma="asesinato" pos="NC" space=" ">asesinatos</W>
+ <W cur="162" id="26" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="164" id="27" lemma="seis" pos="CARD" space=" ">seis</W>
+ <W cur="169" id="28" lemma="brutal" pos="ADJ" space=" ">brutales</W>
+ <W cur="178" id="29" lemma="violación" pos="NC" space=" ">violaciones</W>
+ <W cur="189" id="30" lemma="," pos="CM">,</W>
+ <W cur="191" id="31" lemma="planear" pos="VLfin" space=" ">planeó</W>
+ <W cur="198" id="32" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="202" id="33" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="205" id="34" lemma="hijo" pos="NC" space=" ">hijo</W>
+ <W cur="210" id="35" lemma="grande" pos="ADJ" space=" ">mayor</W>
+ <W cur="216" id="36" lemma="sacar" pos="VLfin" space=" ">sacara</W>
+ <W cur="223" id="37" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="227" id="38" lemma="muestra" pos="NC" space=" ">muestra</W>
+ <W cur="235" id="39" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="238" id="40" lemma="esperma" pos="NC" space=" ">esperma</W>
+ <W cur="246" id="41" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="249" id="42" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="252" id="43" lemma="cárcel" pos="NC" space=" ">cárcel</W>
+ <W cur="259" id="44" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="262" id="45" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="266" id="46" lemma="cumplir" pos="VLfin" space=" ">cumple</W>
+ <W cur="273" id="47" lemma="cadena" pos="NC" space=" ">cadena</W>
+ <W cur="280" id="48" lemma="perpetuo" pos="ADJ" space=" ">perpetua</W>
+ <W cur="289" id="49" lemma="desde" pos="PREP" space=" ">desde</W>
+ <W cur="295" id="50" lemma="enero" pos="NMON" space=" ">enero</W>
+ <W cur="301" id="51" lemma="para" pos="PREP" space=" ">para</W>
+ <W cur="306" id="52" lemma="corroborar" pos="VLinf" space=" ">corroborar</W>
+ <W cur="317" id="53" lemma="después" pos="ADV" space=" ">después</W>
+ <W cur="325" id="54" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="328" id="55" lemma="improbable" pos="ADJ" space=" ">improbable</W>
+ <W cur="339" id="56" lemma="tesis" pos="NC" space=" ">tesis</W>
+ <W cur="345" id="57" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="349" id="58" lemma="defender" pos="VLfin" space=" ">defendió</W>
+ <W cur="358" id="59" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="361" id="60" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="364" id="61" lemma="juicio" pos="NC" space=" ">juicio</W>
+ <W cur="370" id="62" lemma=":" pos="COLON">:</W>
+ <W cur="372" id="63" lemma="&quot;" pos="QT">"</W>
+ <W cur="373" id="64" lemma="ser" pos="VSfin">Soy</W>
+ <W cur="377" id="65" lemma="@card@" pos="CARD" space=" ">100</W>
+ <W cur="380" id="66" lemma="%" pos="PERCT">%</W>
+ <W cur="382" id="67" lemma="inocente" pos="ADJ" space=" ">inocente</W>
+ <W boundary="sentence" cur="390" id="68" lemma="." pos="FS">.</W>
+ <W cur="392" id="69" lemma="ahí" pos="ADV" space=" ">Ahí</W>
+ <W cur="396" id="70" lemma="fuera" pos="ADV" space=" ">fuera</W>
+ <W cur="402" id="71" lemma="haber" pos="VHfin" space=" ">hay</W>
+ <W cur="406" id="72" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="409" id="73" lemma="loco" pos="NC" space=" ">loco</W>
+ <W cur="414" id="74" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="418" id="75" lemma="tener" pos="VLfin" space=" ">tiene</W>
+ <W cur="424" id="76" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="427" id="77" lemma="mismo" pos="ADJ" space=" ">mismo</W>
+ <W cur="433" id="78" lemma="_" pos="VLadj" space=" ">ADN</W>
+ <W cur="437" id="79" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="441" id="80" lemma="yo" pos="PPX" space=" ">yo</W>
+ <W cur="443" id="81" lemma="&quot;" pos="QT">"</W>
+ <W boundary="sentence" cur="444" id="82" lemma="." pos="FS">.</W>
+ <W cur="446" id="83" lemma="_" pos="NP" space="&#xA;">Lychau</W>
+ <W cur="453" id="84" lemma="_" pos="NP" space=" ">Hansen</W>
+ <W cur="460" id="85" lemma="introducir" pos="VLfin" space=" ">introdujo</W>
+ <W cur="470" id="86" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="473" id="87" lemma="_" pos="NC" space=" ">semen</W>
+ <W cur="479" id="88" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="482" id="89" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="486" id="90" lemma="dedo" pos="NC" space=" ">dedos</W>
+ <W cur="492" id="91" lemma="_" pos="VLadj" space=" ">recortados</W>
+ <W cur="503" id="92" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="506" id="93" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="509" id="94" lemma="guante" pos="NC" space=" ">guante</W>
+ <W cur="516" id="95" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="519" id="96" lemma="goma" pos="NC" space=" ">goma</W>
+ <W cur="523" id="97" lemma="," pos="CM">,</W>
+ <W cur="525" id="98" lemma="él" pos="PPC" space=" ">los</W>
+ <W cur="529" id="99" lemma="cerrar" pos="VLfin" space=" ">cerró</W>
+ <W cur="535" id="100" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="537" id="101" lemma="él" pos="PPC" space=" ">los</W>
+ <W cur="541" id="102" lemma="hacer" pos="VLfin" space=" ">hizo</W>
+ <W cur="546" id="103" lemma="llegar" pos="VLinf" space=" ">llegar</W>
+ <W cur="553" id="104" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="555" id="105" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="558" id="106" lemma="hijo" pos="NC" space=" ">hijo</W>
+ <W cur="562" id="107" lemma=":" pos="COLON">:</W>
+ <W cur="564" id="108" lemma="&quot;" pos="QT">"</W>
+ <W cur="565" id="109" lemma="no" pos="NEG">No</W>
+ <W cur="568" id="110" lemma="deber" pos="VLfin" space=" ">debes</W>
+ <W cur="574" id="111" lemma="matar" pos="VLinf" space=" ">matar</W>
+ <W cur="580" id="112" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="582" id="113" lemma="nadie" pos="NC" space=" ">nadie</W>
+ <W cur="588" id="114" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="592" id="115" lemma="yo" pos="PPX" space=" ">mí</W>
+ <W cur="594" id="116" lemma="&quot;" pos="QT">"</W>
+ <W cur="595" id="117" lemma="," pos="CM">,</W>
+ <W cur="597" id="118" lemma="él" pos="PPC" space=" ">le</W>
+ <W cur="600" id="119" lemma="escribir" pos="VLfin" space=" ">escribió</W>
+ <W boundary="sentence" cur="608" id="120" lemma="." pos="FS">.</W>
+ <W cur="610" id="121" lemma="&quot;" pos="QT">"</W>
+ <W cur="611" id="122" lemma="como" pos="CSUBX">Como</W>
+ <W cur="616" id="123" lemma="mucho" pos="ADV" space=" ">mucho</W>
+ <W cur="622" id="124" lemma="atacar" pos="VLinf" space=" ">atacar</W>
+ <W cur="629" id="125" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="631" id="126" lemma="_" pos="NC" space=" ">alguien</W>
+ <W cur="639" id="127" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="641" id="128" lemma="dejar" pos="VLinf" space=" ">dejar</W>
+ <W cur="647" id="129" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="650" id="130" lemma="esperma" pos="NC" space=" ">esperma</W>
+ <W cur="658" id="131" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="661" id="132" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="664" id="133" lemma="cuerpo" pos="NC" space=" ">cuerpo</W>
+ <W cur="670" id="134" lemma="&quot;" pos="QT">"</W>
+ <W boundary="sentence" cur="671" id="135" lemma="." pos="FS">.</W>
+ <W cur="673" id="136" lemma="el" pos="ART" space=" ">El</W>
+ <W cur="676" id="137" lemma="plan" pos="NC" space=" ">plan</W>
+ <W cur="681" id="138" lemma="él" pos="PPC" space=" ">lo</W>
+ <W cur="684" id="139" lemma="frustrar" pos="VLfin" space=" ">frustró</W>
+ <W cur="692" id="140" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="695" id="141" lemma="novio" pos="NC" space=" ">novia</W>
+ <W cur="701" id="142" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="705" id="143" lemma="joven" pos="NC" space=" ">joven</W>
+ <W cur="710" id="144" lemma="," pos="CM">,</W>
+ <W cur="712" id="145" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="716" id="146" lemma="interceptar" pos="VLfin" space=" ">interceptó</W>
+ <W cur="727" id="147" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="731" id="148" lemma="mensaje" pos="NC" space=" ">mensajes</W>
+ <W cur="740" id="149" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="742" id="150" lemma="alertar" pos="VLfin" space=" ">alertó</W>
+ <W cur="749" id="151" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="751" id="152" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="754" id="153" lemma="policía" pos="NC" space=" ">Policía</W>
+ <W cur="762" id="154" lemma="danés" pos="ADJ" space=" ">danesa</W>
+ <W boundary="sentence" cur="768" id="155" lemma="." pos="FS">.</W>
+ <W cur="770" id="156" lemma="el" pos="ART" space=" ">El</W>
+ <W cur="773" id="157" lemma="hijo" pos="NC" space=" ">hijo</W>
+ <W cur="778" id="158" lemma="deber" pos="VLfin" space=" ">debía</W>
+ <W cur="784" id="159" lemma="agredir" pos="VLinf" space=" ">agredir</W>
+ <W cur="792" id="160" lemma="sexual" pos="ADV" space=" ">sexualmente</W>
+ <W cur="804" id="161" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="806" id="162" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="810" id="163" lemma="mujer" pos="NC" space=" ">mujer</W>
+ <W cur="816" id="164" lemma="cualquier" pos="QU" space=" ">cualquiera</W>
+ <W boundary="sentence" cur="826" id="165" lemma="." pos="FS">.</W>
+ <W cur="828" id="166" lemma="si" pos="CSUBX" space=" ">Si</W>
+ <W cur="831" id="167" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="834" id="168" lemma="encontrar" pos="VLfin" space=" ">encontraba</W>
+ <W cur="845" id="169" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="848" id="170" lemma="_" pos="NC" space=" ">ADN</W>
+ <W cur="852" id="171" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="855" id="172" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="858" id="173" lemma="padre" pos="NC" space=" ">padre</W>
+ <W cur="864" id="174" lemma="como" pos="CSUBX" space=" ">como</W>
+ <W cur="869" id="175" lemma="consecuencia" pos="NC" space=" ">consecuencia</W>
+ <W cur="882" id="176" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="885" id="177" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="889" id="178" lemma="violación" pos="NC" space=" ">violación</W>
+ <W cur="899" id="179" lemma="perpetrar" pos="VLadj" space=" ">perpetrada</W>
+ <W cur="910" id="180" lemma="mientras" pos="CSUBX" space=" ">mientras</W>
+ <W cur="919" id="181" lemma="él" pos="PPX" space=" ">él</W>
+ <W cur="922" id="182" lemma="estar" pos="VEfin" space=" ">estaba</W>
+ <W cur="929" id="183" lemma="encerrar" pos="VLadj" space=" ">encerrado</W>
+ <W cur="938" id="184" lemma="," pos="CM">,</W>
+ <W cur="940" id="185" lemma="entonces" pos="ADV" space=" ">entonces</W>
+ <W cur="949" id="186" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="952" id="187" lemma="agresor" pos="NC" space=" ">agresor</W>
+ <W cur="960" id="188" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="963" id="189" lemma="poder" pos="VLfin" space=" ">podía</W>
+ <W cur="969" id="190" lemma="ser" pos="VSinf" space=" ">ser</W>
+ <W cur="973" id="191" lemma="él" pos="PPX" space=" ">él</W>
+ <W boundary="sentence" cur="975" id="192" lemma="." pos="FS">.</W>
+ <W cur="977" id="193" lemma="el" pos="ART" space=" ">El</W>
+ <W cur="980" id="194" lemma="_" pos="NP" space=" ">ADN</W>
+ <W cur="983" id="195" lemma="," pos="CM">,</W>
+ <W cur="985" id="196" lemma="aunque" pos="CSUBX" space=" ">aunque</W>
+ <W cur="992" id="197" lemma="ser" pos="VSfin" space=" ">fuese</W>
+ <W cur="998" id="198" lemma="igual" pos="ADJ" space=" ">igual</W>
+ <W cur="1003" id="199" lemma="," pos="CM">,</W>
+ <W cur="1005" id="200" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="1008" id="201" lemma="poder" pos="VLfin" space=" ">podía</W>
+ <W cur="1014" id="202" lemma="ser" pos="VSinf" space=" ">ser</W>
+ <W cur="1018" id="203" lemma="suyo" pos="PPO" space=" ">suyo</W>
+ <W boundary="sentence" cur="1022" id="204" lemma="." pos="FS">.</W>
+ <W cur="1024" id="205" lemma="un" pos="ART" space=" ">Una</W>
+ <W cur="1028" id="206" lemma="posibilidad" pos="NC" space=" ">posibilidad</W>
+ <W cur="1040" id="207" lemma="entre" pos="PREP" space=" ">entre</W>
+ <W cur="1046" id="208" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="1049" id="209" lemma="millón" pos="NC" space=" ">millón</W>
+ <W cur="1055" id="210" lemma=":" pos="COLON">:</W>
+ <W cur="1057" id="211" lemma="improbable" pos="ADJ" space=" ">improbable</W>
+ <W cur="1068" id="212" lemma="pero" pos="CCAD" space=" ">pero</W>
+ <W cur="1073" id="213" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="1076" id="214" lemma="imposible" pos="ADJ" space=" ">imposible</W>
+ <W boundary="sentence" cur="1085" id="215" lemma="." pos="FS">.</W>
+ <W cur="1089" id="216" lemma="cuando" pos="CSUBX" space="  &#xA;">Cuando</W>
+ <W cur="1096" id="217" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="1099" id="218" lemma="_" pos="NP" space=" ">Policía</W>
+ <W cur="1107" id="219" lemma="detener" pos="VLfin" space=" ">detuvo</W>
+ <W cur="1114" id="220" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="1116" id="221" lemma="_" pos="NC" space=" ">Lychau</W>
+ <W cur="1123" id="222" lemma="_" pos="VLfin" space=" ">Hansen</W>
+ <W cur="1129" id="223" lemma="," pos="CM">,</W>
+ <W cur="1131" id="224" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="1133" id="225" lemma="final" pos="NC" space=" ">finales</W>
+ <W cur="1141" id="226" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1144" id="227" lemma="@card@" pos="CARD" space=" ">2010</W>
+ <W cur="1148" id="228" lemma="," pos="CM">,</W>
+ <W cur="1150" id="229" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="1153" id="230" lemma="entorno" pos="NC" space=" ">entorno</W>
+ <W cur="1161" id="231" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="1164" id="232" lemma="quedar" pos="VLfin" space=" ">quedó</W>
+ <W cur="1170" id="233" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1173" id="234" lemma="piedra" pos="NC" space=" ">piedra</W>
+ <W boundary="sentence" cur="1179" id="235" lemma="." pos="FS">.</W>
+ <W cur="1181" id="236" lemma="pasar" pos="VLfin" space=" ">Pasaba</W>
+ <W cur="1188" id="237" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="1192" id="238" lemma="ser" pos="VSinf" space=" ">ser</W>
+ <W cur="1196" id="239" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="1199" id="240" lemma="padre" pos="NC" space=" ">padre</W>
+ <W cur="1205" id="241" lemma="_" pos="ADJ" space=" ">modélico</W>
+ <W cur="1213" id="242" lemma="," pos="CM">,</W>
+ <W cur="1215" id="243" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="1218" id="244" lemma="vecino" pos="NC" space=" ">vecino</W>
+ <W cur="1225" id="245" lemma="ejemplar" pos="ADJ" space=" ">ejemplar</W>
+ <W cur="1234" id="246" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="1238" id="247" lemma="dedicar" pos="VLfin" space=" ">dedicaba</W>
+ <W cur="1247" id="248" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="1250" id="249" lemma="tiempo" pos="NC" space=" ">tiempo</W>
+ <W cur="1257" id="250" lemma="libre" pos="ADJ" space=" ">libre</W>
+ <W cur="1263" id="251" lemma="como" pos="CSUBX" space=" ">como</W>
+ <W cur="1268" id="252" lemma="entrenador" pos="NC" space=" ">entrenador</W>
+ <W cur="1279" id="253" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1282" id="254" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="1286" id="255" lemma="sección" pos="NC" space=" ">secciones</W>
+ <W cur="1296" id="256" lemma="inferior" pos="ADJ" space=" ">inferiores</W>
+ <W cur="1307" id="257" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1310" id="258" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="1313" id="259" lemma="club" pos="NC" space=" ">club</W>
+ <W cur="1318" id="260" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1321" id="261" lemma="futbol" pos="NC" space=" ">fútbol</W>
+ <W cur="1328" id="262" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1331" id="263" lemma="_" pos="NP" space=" ">Amager</W>
+ <W cur="1337" id="264" lemma="," pos="CM">,</W>
+ <W cur="1339" id="265" lemma="_" pos="ADJ" space=" ">populoso</W>
+ <W cur="1348" id="266" lemma="barrio" pos="NC" space=" ">barrio</W>
+ <W cur="1355" id="267" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1358" id="268" lemma="clase" pos="NC" space=" ">clase</W>
+ <W cur="1364" id="269" lemma="trabajador" pos="ADJ" space=" ">trabajadora</W>
+ <W cur="1376" id="270" lemma="situar" pos="VLadj" space=" ">situado</W>
+ <W cur="1384" id="271" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="1387" id="272" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="1391" id="273" lemma="isla" pos="NC" space=" ">isla</W>
+ <W cur="1396" id="274" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="1400" id="275" lemma="sur" pos="PE" space=" ">sur</W>
+ <W cur="1404" id="276" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1407" id="277" lemma="_" pos="NC" space=" ">Copenhague</W>
+ <W boundary="sentence" cur="1417" id="278" lemma="." pos="FS">.</W>
+ <W cur="1419" id="279" lemma="en" pos="PREP" space="&#xA;">En</W>
+ <W cur="1422" id="280" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="1425" id="281" lemma="juventud" pos="NC" space=" ">juventud</W>
+ <W cur="1434" id="282" lemma="haber" pos="VHfin" space=" ">había</W>
+ <W cur="1440" id="283" lemma="participar" pos="VLadj" space=" ">participado</W>
+ <W cur="1452" id="284" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="1455" id="285" lemma="alguno" pos="QU" space=" ">algún</W>
+ <W cur="1461" id="286" lemma="robo" pos="NC" space=" ">robo</W>
+ <W cur="1466" id="287" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="1468" id="288" lemma="fumar" pos="VLadj" space=" ">fumado</W>
+ <W cur="1475" id="289" lemma="numeroso" pos="ADJ" space=" ">numerosos</W>
+ <W cur="1485" id="290" lemma="_" pos="NC" space=" ">porros</W>
+ <W cur="1491" id="291" lemma="," pos="CM">,</W>
+ <W cur="1493" id="292" lemma="pero" pos="CCAD" space=" ">pero</W>
+ <W cur="1498" id="293" lemma="ese" pos="DM" space=" ">eso</W>
+ <W cur="1502" id="294" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="1505" id="295" lemma="ser" pos="VEfin" space=" ">era</W>
+ <W cur="1509" id="296" lemma="nada" pos="QU" space=" ">nada</W>
+ <W cur="1514" id="297" lemma="_" pos="ADJ" space=" ">inusual</W>
+ <W cur="1522" id="298" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="1525" id="299" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="1529" id="300" lemma="peor" pos="ADJ" space=" ">peores</W>
+ <W cur="1536" id="301" lemma="zona" pos="NC" space=" ">zonas</W>
+ <W cur="1542" id="302" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="1546" id="303" lemma="barrio" pos="NC" space=" ">barrio</W>
+ <W boundary="sentence" cur="1552" id="304" lemma="." pos="FS">.</W>
+ <W cur="1554" id="305" lemma="se" pos="SE" space=" ">Se</W>
+ <W cur="1557" id="306" lemma="él" pos="PPC" space=" ">le</W>
+ <W cur="1560" id="307" lemma="considerar" pos="VLfin" space=" ">consideraba</W>
+ <W cur="1572" id="308" lemma="completamente" pos="ADV" space=" ">completamente</W>
+ <W cur="1586" id="309" lemma="reformar" pos="VLadj" space=" ">reformado</W>
+ <W cur="1595" id="310" lemma=":" pos="COLON">:</W>
+ <W cur="1597" id="311" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="1600" id="312" lemma="modesto" pos="ADJ" space=" ">modesto</W>
+ <W cur="1608" id="313" lemma="pero" pos="NC" space=" ">pero</W>
+ <W cur="1613" id="314" lemma="honrado" pos="ADJ" space=" ">honrado</W>
+ <W cur="1621" id="315" lemma="emplear" pos="VLadj" space=" ">empleado</W>
+ <W cur="1630" id="316" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="1633" id="317" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="1637" id="318" lemma="empresa" pos="NC" space=" ">empresa</W>
+ <W cur="1645" id="319" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1648" id="320" lemma="limpieza" pos="NC" space=" ">limpieza</W>
+ <W cur="1656" id="321" lemma="," pos="CM">,</W>
+ <W cur="1658" id="322" lemma="dedicar" pos="VLadj" space=" ">dedicado</W>
+ <W cur="1667" id="323" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="1670" id="324" lemma="cuerpo" pos="NC" space=" ">cuerpo</W>
+ <W cur="1677" id="325" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="1679" id="326" lemma="alma" pos="NC" space=" ">alma</W>
+ <W cur="1684" id="327" lemma="al" pos="PAL" space=" ">al</W>
+ <W cur="1687" id="328" lemma="futbol" pos="NC" space=" ">fútbol</W>
+ <W cur="1694" id="329" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="1696" id="330" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="1698" id="331" lemma="sacar" pos="VLinf" space=" ">sacar</W>
+ <W cur="1704" id="332" lemma="adelante" pos="ADV" space=" ">adelante</W>
+ <W cur="1713" id="333" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="1715" id="334" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="1718" id="335" lemma="familia" pos="NC" space=" ">familia</W>
+ <W boundary="sentence" cur="1725" id="336" lemma="." pos="FS">.</W>
+ <W cur="1727" id="337" lemma="el" pos="ART" space="&#xA;">La</W>
+ <W cur="1730" id="338" lemma="último" pos="ADJ" space=" ">última</W>
+ <W cur="1737" id="339" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1740" id="340" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="1744" id="341" lemma="violación" pos="NC" space=" ">violaciones</W>
+ <W cur="1756" id="342" lemma="resultar" pos="VLfin" space=" ">resultó</W>
+ <W cur="1764" id="343" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="1767" id="344" lemma="_" pos="NC" space=" ">perdición</W>
+ <W boundary="sentence" cur="1776" id="345" lemma="." pos="FS">.</W>
+ <W cur="1778" id="346" lemma="en" pos="PREP" space=" ">En</W>
+ <W cur="1781" id="347" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="1784" id="348" lemma="madrugada" pos="NC" space=" ">madrugada</W>
+ <W cur="1794" id="349" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="1798" id="350" lemma="@card@" pos="CODE" space=" ">25</W>
+ <W cur="1801" id="351" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1804" id="352" lemma="septiembre" pos="NC" space=" ">septiembre</W>
+ <W cur="1815" id="353" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1818" id="354" lemma="@card@" pos="CARD" space=" ">2010</W>
+ <W cur="1822" id="355" lemma="," pos="CM">,</W>
+ <W cur="1824" id="356" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="1827" id="357" lemma="padre" pos="NC" space=" ">padre</W>
+ <W cur="1833" id="358" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1836" id="359" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="1840" id="360" lemma="chico" pos="NC" space=" ">chica</W>
+ <W cur="1846" id="361" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1849" id="362" lemma="@card@" pos="CARD" space=" ">17</W>
+ <W cur="1852" id="363" lemma="año" pos="NC" space=" ">años</W>
+ <W cur="1857" id="364" lemma="recibir" pos="VLfin" space=" ">recibió</W>
+ <W cur="1865" id="365" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="1869" id="366" lemma="angustioso" pos="ADJ" space=" ">angustiosa</W>
+ <W cur="1880" id="367" lemma="llamada" pos="NC" space=" ">llamada</W>
+ <W cur="1888" id="368" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1891" id="369" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="1894" id="370" lemma="hijo" pos="NC" space=" ">hija</W>
+ <W cur="1898" id="371" lemma=":" pos="COLON">:</W>
+ <W cur="1900" id="372" lemma="&quot;" pos="QT">"</W>
+ <W boundary="sentence" cur="1901" id="373" lemma="!" pos="FS">!</W>
+ <W cur="1902" id="374" lemma="no" pos="NEG">No</W>
+ <W cur="1905" id="375" lemma="querer" pos="VLfin" space=" ">quiero</W>
+ <W cur="1912" id="376" lemma="morir" pos="VLinf" space=" ">morir</W>
+ <W cur="1917" id="377" lemma="," pos="CM">,</W>
+ <W cur="1919" id="378" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="1922" id="379" lemma="querer" pos="VLfin" space=" ">quiero</W>
+ <W cur="1929" id="380" lemma="morir" pos="VLinf" space=" ">morir</W>
+ <W boundary="sentence" cur="1934" id="381" lemma="!" pos="FS">!</W>
+ <W cur="1935" id="382" lemma="&quot;" pos="QT">"</W>
+ <W cur="1936" id="383" lemma="," pos="CM">,</W>
+ <W cur="1938" id="384" lemma="ser" pos="VSfin" space=" ">fue</W>
+ <W cur="1942" id="385" lemma="todo" pos="QU" space=" ">todo</W>
+ <W cur="1947" id="386" lemma="el" pos="ART" space=" ">lo</W>
+ <W cur="1950" id="387" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="1954" id="388" lemma="poder" pos="VMfin" space=" ">pudo</W>
+ <W cur="1959" id="389" lemma="gritar" pos="VLinf" space=" ">gritar</W>
+ <W cur="1966" id="390" lemma="antes" pos="ADV" space=" ">antes</W>
+ <W cur="1972" id="391" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="1975" id="392" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="1979" id="393" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="1982" id="394" lemma="comunicación" pos="NC" space=" ">comunicación</W>
+ <W cur="1995" id="395" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="1998" id="396" lemma="_" pos="VLfin" space=" ">cortase</W>
+ <W boundary="sentence" cur="2005" id="397" lemma="." pos="FS">.</W>
+ <W cur="2007" id="398" lemma="el" pos="ART" space=" ">La</W>
+ <W cur="2010" id="399" lemma="_" pos="NP" space=" ">Policía</W>
+ <W cur="2018" id="400" lemma="encontrar" pos="VLfin" space=" ">encontró</W>
+ <W cur="2027" id="401" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="2030" id="402" lemma="_" pos="NC" space=" ">condón</W>
+ <W cur="2037" id="403" lemma="usar" pos="VLadj" space=" ">usado</W>
+ <W cur="2043" id="404" lemma="cerca" pos="ADV" space=" ">cerca</W>
+ <W cur="2049" id="405" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="2053" id="406" lemma="lugar" pos="NC" space=" ">lugar</W>
+ <W cur="2059" id="407" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="2063" id="408" lemma="crimen" pos="NC" space=" ">crimen</W>
+ <W cur="2070" id="409" lemma="con" pos="PREP" space=" ">con</W>
+ <W cur="2074" id="410" lemma="resto" pos="NC" space=" ">restos</W>
+ <W cur="2081" id="411" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="2085" id="412" lemma="_" pos="NC" space=" ">ADN</W>
+ <W cur="2089" id="413" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="2092" id="414" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="2095" id="415" lemma="chico" pos="NC" space=" ">chica</W>
+ <W boundary="sentence" cur="2100" id="416" lemma="." pos="FS">.</W>
+ <W cur="2102" id="417" lemma="el" pos="ART" space="&#xA;">El</W>
+ <W cur="2105" id="418" lemma="análisis" pos="NC" space=" ">análisis</W>
+ <W cur="2114" id="419" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="2118" id="420" lemma="esperma" pos="NC" space=" ">esperma</W>
+ <W cur="2126" id="421" lemma="arrojar" pos="VLfin" space=" ">arrojó</W>
+ <W cur="2133" id="422" lemma="resultado" pos="NC" space=" ">resultados</W>
+ <W cur="2144" id="423" lemma="espectacular" pos="ADJ" space=" ">espectaculares</W>
+ <W cur="2158" id="424" lemma=":" pos="COLON">:</W>
+ <W cur="2160" id="425" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="2163" id="426" lemma="_" pos="NP" space=" ">ADN</W>
+ <W cur="2167" id="427" lemma="coincidir" pos="VLfin" space=" ">coincidía</W>
+ <W cur="2177" id="428" lemma="con" pos="PREP" space=" ">con</W>
+ <W cur="2181" id="429" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="2184" id="430" lemma="hallar" pos="VLadj" space=" ">hallado</W>
+ <W cur="2192" id="431" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="2195" id="432" lemma="dos" pos="CARD" space=" ">dos</W>
+ <W cur="2199" id="433" lemma="asesinato" pos="NC" space=" ">asesinatos</W>
+ <W cur="2210" id="434" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="2213" id="435" lemma="mujer" pos="NC" space=" ">mujeres</W>
+ <W cur="2221" id="436" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="2224" id="437" lemma="@card@" pos="CARD" space=" ">1987</W>
+ <W cur="2229" id="438" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="2231" id="439" lemma="@card@" pos="CARD" space=" ">1990</W>
+ <W cur="2235" id="440" lemma="," pos="CM">,</W>
+ <W cur="2237" id="441" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="2239" id="442" lemma="con" pos="PREP" space=" ">con</W>
+ <W cur="2243" id="443" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="2247" id="444" lemma="serie" pos="NC" space=" ">serie</W>
+ <W cur="2253" id="445" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="2256" id="446" lemma="violación" pos="NC" space=" ">violaciones</W>
+ <W cur="2268" id="447" lemma="cometer" pos="VLadj" space=" ">cometidas</W>
+ <W cur="2278" id="448" lemma="entre" pos="PREP" space=" ">entre</W>
+ <W cur="2284" id="449" lemma="@card@" pos="CARD" space=" ">1995</W>
+ <W cur="2289" id="450" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="2291" id="451" lemma="@card@" pos="CARD" space=" ">2007</W>
+ <W boundary="sentence" cur="2295" id="452" lemma="." pos="FS">.</W>
+ <W cur="2297" id="453" lemma="un" pos="ART" space=" ">Una</W>
+ <W cur="2301" id="454" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="2304" id="455" lemma="él" pos="PPX" space=" ">ellas</W>
+ <W cur="2309" id="456" lemma="," pos="CM">,</W>
+ <W cur="2311" id="457" lemma="múltiple" pos="QU" space=" ">múltiple</W>
+ <W cur="2319" id="458" lemma="," pos="CM">,</W>
+ <W cur="2321" id="459" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="2324" id="460" lemma="él" pos="PPC" space=" ">le</W>
+ <W cur="2327" id="461" lemma="haber" pos="VHfin" space=" ">había</W>
+ <W cur="2333" id="462" lemma="atragantar" pos="VLadj" space=" ">atragantado</W>
+ <W cur="2345" id="463" lemma="especialmente" pos="ADV" space=" ">especialmente</W>
+ <W cur="2359" id="464" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="2361" id="465" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="2364" id="466" lemma="policía" pos="NC" space=" ">Policía</W>
+ <W cur="2371" id="467" lemma="," pos="CM">,</W>
+ <W cur="2373" id="468" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="2377" id="469" lemma="el" pos="ART" space=" ">lo</W>
+ <W cur="2380" id="470" lemma="escabroso" pos="ADJ" space=" ">escabroso</W>
+ <W cur="2390" id="471" lemma="del" pos="PDEL" space=" ">del</W>
+ <W cur="2394" id="472" lemma="caso" pos="NC" space=" ">caso</W>
+ <W cur="2399" id="473" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="2401" id="474" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="2405" id="475" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="2408" id="476" lemma="incapacidad" pos="NC" space=" ">incapacidad</W>
+ <W cur="2420" id="477" lemma="para" pos="CSUBI" space=" ">para</W>
+ <W cur="2425" id="478" lemma="resolver" pos="VLinf" space=" ">resolverlo</W>
+ <W boundary="sentence" cur="2435" id="479" lemma="." pos="FS">.</W>
+ <W cur="2437" id="480" lemma="en" pos="PREP" space="&#xA;">En</W>
+ <W cur="2440" id="481" lemma="octubre" pos="NMON" space=" ">octubre</W>
+ <W cur="2448" id="482" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="2451" id="483" lemma="@card@" pos="CARD" space=" ">1995</W>
+ <W cur="2455" id="484" lemma="," pos="CM">,</W>
+ <W cur="2457" id="485" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="2460" id="486" lemma="hombre" pos="NC" space=" ">hombre</W>
+ <W cur="2467" id="487" lemma="penetrar" pos="VLfin" space=" ">penetró</W>
+ <W cur="2475" id="488" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="2478" id="489" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="2482" id="490" lemma="casa" pos="NC" space=" ">casa</W>
+ <W cur="2487" id="491" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="2490" id="492" lemma="_" pos="NP" space=" ">Ingolfs</W>
+ <W cur="2498" id="493" lemma="_" pos="NP" space=" ">Allé</W>
+ <W cur="2502" id="494" lemma="," pos="CM">,</W>
+ <W cur="2504" id="495" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="2507" id="496" lemma="_" pos="NP" space=" ">Amager</W>
+ <W cur="2513" id="497" lemma="," pos="CM">,</W>
+ <W cur="2515" id="498" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="2517" id="499" lemma="violar" pos="VLfin" space=" ">violó</W>
+ <W cur="2523" id="500" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="2527" id="501" lemma="turno" pos="NC" space=" ">turno</W>
+ <W cur="2533" id="502" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="2535" id="503" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="2539" id="504" lemma="cuatro" pos="CARD" space=" ">cuatro</W>
+ <W cur="2546" id="505" lemma="joven" pos="NC" space=" ">jóvenes</W>
+ <W cur="2554" id="506" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="2558" id="507" lemma="dormir" pos="VLfin" space=" ">dormían</W>
+ <W cur="2566" id="508" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="2569" id="509" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="2572" id="510" lemma="interior" pos="NC" space=" ">interior</W>
+ <W cur="2581" id="511" lemma="tras" pos="PREP" space=" ">tras</W>
+ <W cur="2586" id="512" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="2590" id="513" lemma="noche" pos="NC" space=" ">noche</W>
+ <W cur="2596" id="514" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="2599" id="515" lemma="fiesta" pos="NC" space=" ">fiesta</W>
+ <W cur="2605" id="516" lemma=":" pos="COLON">:</W>
+ <W cur="2607" id="517" lemma="un" pos="ART" space=" ">una</W>
+ <W cur="2611" id="518" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="2614" id="519" lemma="@card@" pos="CARD" space=" ">23</W>
+ <W cur="2617" id="520" lemma="año" pos="NC" space=" ">años</W>
+ <W cur="2621" id="521" lemma="," pos="CM">,</W>
+ <W cur="2623" id="522" lemma="otro" pos="QU" space=" ">otra</W>
+ <W cur="2628" id="523" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="2631" id="524" lemma="@card@" pos="CARD" space=" ">15</W>
+ <W cur="2634" id="525" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="2636" id="526" lemma="dos" pos="CARD" space=" ">dos</W>
+ <W cur="2640" id="527" lemma="gemelo" pos="NC" space=" ">gemelas</W>
+ <W cur="2648" id="528" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="2651" id="529" lemma="@card@" pos="CARD" space=" ">14</W>
+ <W boundary="sentence" cur="2653" id="530" lemma="." pos="FS">.</W>
+ <W cur="2655" id="531" lemma="el" pos="ART" space=" ">Los</W>
+ <W cur="2659" id="532" lemma="abuso" pos="NC" space=" ">abusos</W>
+ <W cur="2665" id="533" lemma="," pos="CM">,</W>
+ <W cur="2667" id="534" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="2671" id="535" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="2674" id="536" lemma="prolongar" pos="VLfin" space=" ">prolongaron</W>
+ <W cur="2686" id="537" lemma="durante" pos="PREP" space=" ">durante</W>
+ <W cur="2694" id="538" lemma="hora" pos="NC" space=" ">horas</W>
+ <W cur="2699" id="539" lemma="," pos="CM">,</W>
+ <W cur="2701" id="540" lemma="ser" pos="VSfin" space=" ">fueron</W>
+ <W cur="2708" id="541" lemma="extraordinario" pos="ADV" space=" ">extraordinariamente</W>
+ <W cur="2729" id="542" lemma="_" pos="ADJ" space="  ">escabrosos</W>
+ <W boundary="sentence" cur="2739" id="543" lemma="." pos="FS">.</W>
+ <W cur="2741" id="544" lemma="_" pos="VLadj" space=" ">Amenazándolas</W>
+ <W cur="2755" id="545" lemma="con" pos="PREP" space=" ">con</W>
+ <W cur="2759" id="546" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="2762" id="547" lemma="cuchillo" pos="NC" space=" ">cuchillo</W>
+ <W cur="2771" id="548" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="2774" id="549" lemma="_" pos="NC" space=" ">cocia</W>
+ <W cur="2779" id="550" lemma="," pos="CM">,</W>
+ <W cur="2781" id="551" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="2784" id="552" lemma="agresor" pos="NC" space=" ">agresor</W>
+ <W cur="2792" id="553" lemma="dar" pos="VLfin" space=" ">dio</W>
+ <W cur="2796" id="554" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="2798" id="555" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="2802" id="556" lemma="chico" pos="NC" space=" ">chicas</W>
+ <W cur="2809" id="557" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="2811" id="558" lemma="elegir" pos="VLinf" space=" ">elegir</W>
+ <W cur="2818" id="559" lemma="entre" pos="PREP" space=" ">entre</W>
+ <W cur="2824" id="560" lemma="coito" pos="NC" space=" ">coito</W>
+ <W cur="2830" id="561" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="2832" id="562" lemma="sexo" pos="NC" space=" ">sexo</W>
+ <W cur="2837" id="563" lemma="oral" pos="ADJ" space=" ">oral</W>
+ <W cur="2841" id="564" lemma="," pos="CM">,</W>
+ <W cur="2843" id="565" lemma="y" pos="CC" space=" ">e</W>
+ <W cur="2845" id="566" lemma="hacer" pos="VLfin" space=" ">hizo</W>
+ <W cur="2850" id="567" lemma="comentario" pos="NC" space=" ">comentarios</W>
+ <W cur="2862" id="568" lemma="como" pos="CSUBX" space=" ">como</W>
+ <W cur="2867" id="569" lemma="&quot;" pos="QT">"</W>
+ <W cur="2868" id="570" lemma="se" pos="SE">se</W>
+ <W cur="2871" id="571" lemma="nota" pos="NC" space=" ">nota</W>
+ <W cur="2876" id="572" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="2880" id="573" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="2883" id="574" lemma="él" pos="PPC" space=" ">lo</W>
+ <W cur="2886" id="575" lemma="haber" pos="VHfin" space=" ">has</W>
+ <W cur="2890" id="576" lemma="hacer" pos="VLadj" space=" ">hecho</W>
+ <W cur="2896" id="577" lemma="nunca" pos="ADV" space=" ">nunca</W>
+ <W cur="2901" id="578" lemma="&quot;" pos="QT">"</W>
+ <W cur="2903" id="579" lemma="o" pos="ALFS" space=" ">o</W>
+ <W cur="2905" id="580" lemma="&quot;" pos="QT">"</W>
+ <W cur="2906" id="581" lemma="ser" pos="VSfin">eres</W>
+ <W cur="2911" id="582" lemma="bueno" pos="ADJ" space=" ">mejor</W>
+ <W cur="2917" id="583" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="2921" id="584" lemma="tú" pos="PPX" space=" ">tu</W>
+ <W cur="2924" id="585" lemma="hermano" pos="NC" space=" ">hermana</W>
+ <W cur="2931" id="586" lemma="&quot;" pos="QT">"</W>
+ <W boundary="sentence" cur="2932" id="587" lemma="." pos="FS">.</W>
+ <W cur="2934" id="588" lemma="cuando" pos="CSUBX" space=" ">Cuando</W>
+ <W cur="2941" id="589" lemma="acabar" pos="VLfin" space=" ">acabó</W>
+ <W cur="2946" id="590" lemma="," pos="CM">,</W>
+ <W cur="2948" id="591" lemma="él" pos="PPC" space=" ">las</W>
+ <W cur="2952" id="592" lemma="obligar" pos="VLfin" space=" ">obligó</W>
+ <W cur="2959" id="593" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="2961" id="594" lemma="duchar" pos="VLinf" space=" ">ducharse</W>
+ <W cur="2970" id="595" lemma="_" pos="ADV" space=" ">concienzudamente</W>
+ <W cur="2987" id="596" lemma="para" pos="CSUBI" space=" ">para</W>
+ <W cur="2992" id="597" lemma="borrar" pos="VLinf" space=" ">borrar</W>
+ <W cur="2999" id="598" lemma="-" pos="DASH">-</W>
+ <W cur="3000" id="599" lemma="sin" pos="PREP">sin</W>
+ <W cur="3004" id="600" lemma="éxito" pos="NC" space=" ">éxito</W>
+ <W cur="3009" id="601" lemma="-" pos="DASH">-</W>
+ <W cur="3011" id="602" lemma="cualquier" pos="QU" space=" ">cualquier</W>
+ <W cur="3021" id="603" lemma="rastro" pos="NC" space=" ">rastro</W>
+ <W boundary="sentence" cur="3027" id="604" lemma="." pos="FS">.</W>
+ <W cur="3029" id="605" lemma="cuando" pos="CSUBX" space="&#xA;">Cuando</W>
+ <W cur="3036" id="606" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="3039" id="607" lemma="prensa" pos="NC" space=" ">prensa</W>
+ <W cur="3046" id="608" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="3049" id="609" lemma="ser" pos="VSfin" space=" ">es</W>
+ <W cur="3052" id="610" lemma="enterar" pos="VLfin" space=" ">enteró</W>
+ <W cur="3059" id="611" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3062" id="612" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="3066" id="613" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="3069" id="614" lemma="solo" pos="ADJ" space=" ">solo</W>
+ <W cur="3074" id="615" lemma="hombre" pos="NC" space=" ">hombre</W>
+ <W cur="3081" id="616" lemma="estar" pos="VEfin" space=" ">estaba</W>
+ <W cur="3088" id="617" lemma="detrás" pos="ADV" space=" ">detrás</W>
+ <W cur="3095" id="618" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3098" id="619" lemma="todo" pos="QU" space=" ">todos</W>
+ <W cur="3104" id="620" lemma="aquel" pos="DM" space=" ">aquellos</W>
+ <W cur="3113" id="621" lemma="crimen" pos="NC" space=" ">crímenes</W>
+ <W cur="3122" id="622" lemma="no" pos="NEG" space=" ">no</W>
+ <W cur="3125" id="623" lemma="tardar" pos="VLfin" space=" ">tardó</W>
+ <W cur="3131" id="624" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="3134" id="625" lemma="_" pos="VLinf" space=" ">bautizarlo</W>
+ <W cur="3145" id="626" lemma="como" pos="CSUBX" space=" ">como</W>
+ <W cur="3150" id="627" lemma="_" pos="VLfin" space=" ">Amagermanden</W>
+ <W cur="3162" id="628" lemma="," pos="CM">,</W>
+ <W cur="3164" id="629" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="3167" id="630" lemma="hombre" pos="NC" space=" ">hombre</W>
+ <W cur="3174" id="631" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3177" id="632" lemma="_" pos="NP" space=" ">Amager</W>
+ <W boundary="sentence" cur="3183" id="633" lemma="." pos="FS">.</W>
+ <W cur="3185" id="634" lemma="el" pos="ART" space=" ">La</W>
+ <W cur="3188" id="635" lemma="_" pos="NP" space=" ">Policía</W>
+ <W cur="3196" id="636" lemma="tomar" pos="VLfin" space=" ">tomó</W>
+ <W cur="3201" id="637" lemma="nuevo" pos="ADJ" space=" ">nuevas</W>
+ <W cur="3208" id="638" lemma="prueba" pos="NC" space=" ">pruebas</W>
+ <W cur="3216" id="639" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3219" id="640" lemma="_" pos="ADV" space=" ">ADN</W>
+ <W cur="3223" id="641" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="3225" id="642" lemma="@card@" pos="CARD" space=" ">149</W>
+ <W cur="3229" id="643" lemma="varón" pos="NC" space=" ">varones</W>
+ <W cur="3237" id="644" lemma="relacionar" pos="VLadj" space=" ">relacionados</W>
+ <W cur="3250" id="645" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3253" id="646" lemma="cualquier" pos="QU" space=" ">cualquier</W>
+ <W cur="3263" id="647" lemma="forma" pos="NC" space=" ">forma</W>
+ <W cur="3269" id="648" lemma="posible" pos="ADJ" space=" ">posible</W>
+ <W cur="3277" id="649" lemma="con" pos="PREP" space=" ">con</W>
+ <W cur="3281" id="650" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="3285" id="651" lemma="delito" pos="NC" space=" ">delitos</W>
+ <W boundary="sentence" cur="3292" id="652" lemma="." pos="FS">.</W>
+ <W cur="3294" id="653" lemma="en" pos="PE" space=" ">En</W>
+ <W cur="3297" id="654" lemma="@card@" pos="CODE" space=" ">1987</W>
+ <W cur="3301" id="655" lemma="," pos="CM">,</W>
+ <W cur="3303" id="656" lemma="Edith" pos="NP" space=" ">Edith</W>
+ <W cur="3309" id="657" lemma="_" pos="NP" space=" ">Louise</W>
+ <W cur="3316" id="658" lemma="_" pos="NP" space=" ">Andrup</W>
+ <W cur="3322" id="659" lemma="," pos="CM">,</W>
+ <W cur="3324" id="660" lemma="viudo" pos="ADJ" space=" ">viuda</W>
+ <W cur="3330" id="661" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3333" id="662" lemma="@card@" pos="CARD" space=" ">73</W>
+ <W cur="3336" id="663" lemma="año" pos="NC" space=" ">años</W>
+ <W cur="3340" id="664" lemma="," pos="CM">,</W>
+ <W cur="3342" id="665" lemma="ser" pos="VSfin" space=" ">fue</W>
+ <W cur="3346" id="666" lemma="_" pos="VLadj" space=" ">estrangulada</W>
+ <W cur="3359" id="667" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="3363" id="668" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="3366" id="669" lemma="ladrón" pos="NC" space=" ">ladrón</W>
+ <W cur="3373" id="670" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="3376" id="671" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="3379" id="672" lemma="apartamento" pos="NC" space=" ">apartamento</W>
+ <W cur="3391" id="673" lemma="al" pos="PAL" space=" ">al</W>
+ <W cur="3394" id="674" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="3398" id="675" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="3401" id="676" lemma="haber" pos="VHfin" space=" ">había</W>
+ <W cur="3407" id="677" lemma="mudar" pos="VLadj" space=" ">mudado</W>
+ <W cur="3414" id="678" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="3417" id="679" lemma="mes" pos="NC" space=" ">mes</W>
+ <W cur="3421" id="680" lemma="antes" pos="ADV" space=" ">antes</W>
+ <W boundary="sentence" cur="3426" id="681" lemma="." pos="FS">.</W>
+ <W boundary="sentence" cur="3428" id="682" lemma="?" pos="FS">?</W>
+ <W cur="3429" id="683" lemma="encargar" pos="VLadj">Encargados</W>
+ <W cur="3440" id="684" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3443" id="685" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="3446" id="686" lemma="mudanza" pos="NC" space=" ">mudanza</W>
+ <W boundary="sentence" cur="3453" id="687" lemma="?" pos="FS">?</W>
+ <W cur="3455" id="688" lemma="_" pos="NP" space=" ">Lychau</W>
+ <W cur="3462" id="689" lemma="_" pos="NP" space=" ">Hansen</W>
+ <W cur="3469" id="690" lemma="y" pos="CC" space=" ">y</W>
+ <W cur="3471" id="691" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="3474" id="692" lemma="hermano" pos="NC" space=" ">hermano</W>
+ <W boundary="sentence" cur="3481" id="693" lemma="." pos="FS">.</W>
+ <W cur="3483" id="694" lemma="a" pos="PREP" space=" ">A</W>
+ <W cur="3485" id="695" lemma="_" pos="NC" space=" ">priori</W>
+ <W cur="3491" id="696" lemma="," pos="CM">,</W>
+ <W cur="3493" id="697" lemma="nada" pos="QU" space=" ">nada</W>
+ <W cur="3498" id="698" lemma="sospechoso" pos="NC" space=" ">sospechoso</W>
+ <W boundary="sentence" cur="3508" id="699" lemma="." pos="FS">.</W>
+ <W cur="3510" id="700" lemma="hasta" pos="PREP" space=" ">Hasta</W>
+ <W cur="3516" id="701" lemma="que" pos="CQUE" space=" ">que</W>
+ <W cur="3520" id="702" lemma="se" pos="SE" space=" ">se</W>
+ <W cur="3523" id="703" lemma="examinar" pos="VLfin" space=" ">examinó</W>
+ <W cur="3531" id="704" lemma="el" pos="ART" space=" ">el</W>
+ <W cur="3534" id="705" lemma="_" pos="NP" space=" ">ADN</W>
+ <W cur="3539" id="706" lemma="y" pos="CC" space="  ">y</W>
+ <W cur="3541" id="707" lemma="saltar" pos="VLfin" space=" ">saltaron</W>
+ <W cur="3550" id="708" lemma="todo" pos="QU" space=" ">todas</W>
+ <W cur="3556" id="709" lemma="el" pos="ART" space=" ">las</W>
+ <W cur="3560" id="710" lemma="alarma" pos="NC" space=" ">alarmas</W>
+ <W boundary="sentence" cur="3567" id="711" lemma="." pos="FS">.</W>
+ <W cur="3569" id="712" lemma="el" pos="ART" space="&#xA;">La</W>
+ <W cur="3572" id="713" lemma="fallir" pos="VLadj" space=" ">fallida</W>
+ <W cur="3580" id="714" lemma="tentativa" pos="NC" space=" ">tentativa</W>
+ <W cur="3590" id="715" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3593" id="716" lemma="probar" pos="VLinf" space=" ">probar</W>
+ <W cur="3600" id="717" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="3603" id="718" lemma="inocencia" pos="NC" space=" ">inocencia</W>
+ <W cur="3613" id="719" lemma="con" pos="PREP" space=" ">con</W>
+ <W cur="3617" id="720" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="3620" id="721" lemma="propio" pos="ADJ" space=" ">propio</W>
+ <W cur="3627" id="722" lemma="_" pos="NC" space=" ">semen</W>
+ <W cur="3632" id="723" lemma="," pos="CM">,</W>
+ <W cur="3634" id="724" lemma="ejemplo" pos="NC" space=" ">ejemplo</W>
+ <W cur="3642" id="725" lemma="según" pos="PREP" space=" ">según</W>
+ <W cur="3648" id="726" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="3652" id="727" lemma="psiquiatra" pos="NC" space=" ">psiquiatras</W>
+ <W cur="3664" id="728" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3667" id="729" lemma="el" pos="ART" space=" ">los</W>
+ <W cur="3671" id="730" lemma="rasgo" pos="NC" space=" ">rasgos</W>
+ <W cur="3678" id="731" lemma="_" pos="NC" space=" ">psicóticos</W>
+ <W cur="3689" id="732" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3692" id="733" lemma="_" pos="NC" space=" ">Lychau</W>
+ <W cur="3699" id="734" lemma="_" pos="ADJ" space=" ">Hansen</W>
+ <W cur="3705" id="735" lemma="," pos="CM">,</W>
+ <W cur="3707" id="736" lemma="incapaz" pos="ADJ" space=" ">incapaz</W>
+ <W cur="3715" id="737" lemma="de" pos="CSUBI" space=" ">de</W>
+ <W cur="3718" id="738" lemma="sentir" pos="VLinf" space=" ">sentir</W>
+ <W cur="3725" id="739" lemma="ni" pos="CCNEG" space=" ">ni</W>
+ <W cur="3728" id="740" lemma="_" pos="VLfin" space=" ">arrepentimiento</W>
+ <W cur="3743" id="741" lemma="," pos="CM">,</W>
+ <W cur="3745" id="742" lemma="ni" pos="CCNEG" space=" ">ni</W>
+ <W cur="3748" id="743" lemma="_" pos="VLfin" space=" ">empatía</W>
+ <W cur="3756" id="744" lemma="por" pos="PREP" space=" ">por</W>
+ <W cur="3760" id="745" lemma="suyo" pos="PPO" space=" ">sus</W>
+ <W cur="3764" id="746" lemma="víctima" pos="NC" space=" ">víctimas</W>
+ <W cur="3772" id="747" lemma="," pos="CM">,</W>
+ <W cur="3774" id="748" lemma="acabar" pos="VLfin" space=" ">acaba</W>
+ <W cur="3780" id="749" lemma="de" pos="CSUBI" space=" ">de</W>
+ <W cur="3783" id="750" lemma="abrir" pos="VLinf" space=" ">abrir</W>
+ <W cur="3789" id="751" lemma="un" pos="ART" space=" ">un</W>
+ <W cur="3792" id="752" lemma="nuevo" pos="ADJ" space=" ">nuevo</W>
+ <W cur="3798" id="753" lemma="proceso" pos="NC" space=" ">proceso</W>
+ <W cur="3806" id="754" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="3809" id="755" lemma="suyo" pos="PPO" space=" ">su</W>
+ <W cur="3812" id="756" lemma="contra" pos="PREP" space=" ">contra</W>
+ <W boundary="sentence" cur="3818" id="757" lemma="." pos="FS">.</W>
+ <W cur="3820" id="758" lemma="no" pos="NEG" space=" ">No</W>
+ <W cur="3823" id="759" lemma="alterar" pos="VLfin" space=" ">alterará</W>
+ <W cur="3832" id="760" lemma="el" pos="ART" space=" ">la</W>
+ <W cur="3835" id="761" lemma="condena" pos="NC" space=" ">condena</W>
+ <W cur="3843" id="762" lemma="a" pos="PREP" space=" ">a</W>
+ <W cur="3845" id="763" lemma="cadena" pos="NC" space=" ">cadena</W>
+ <W cur="3852" id="764" lemma="perpetuo" pos="ADJ" space=" ">perpetua</W>
+ <W cur="3860" id="765" lemma="," pos="CM">,</W>
+ <W cur="3862" id="766" lemma="pero" pos="CCAD" space=" ">pero</W>
+ <W cur="3867" id="767" lemma="él" pos="PPX" space=" ">sí</W>
+ <W cur="3870" id="768" lemma="poder" pos="VMfin" space=" ">puede</W>
+ <W cur="3876" id="769" lemma="comprometer" pos="VLinf" space=" ">comprometer</W>
+ <W cur="3888" id="770" lemma="grave" pos="ADV" space=" ">gravemente</W>
+ <W cur="3899" id="771" lemma="cualquier" pos="QU" space=" ">cualquier</W>
+ <W cur="3909" id="772" lemma="posibilidad" pos="NC" space=" ">posibilidad</W>
+ <W cur="3921" id="773" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3924" id="774" lemma="libertad" pos="NC" space=" ">libertad</W>
+ <W cur="3933" id="775" lemma="condicional" pos="ADJ" space=" ">condicional</W>
+ <W cur="3944" id="776" lemma="," pos="CM">,</W>
+ <W cur="3946" id="777" lemma="en" pos="PREP" space=" ">en</W>
+ <W cur="3949" id="778" lemma="_" pos="NC" space=" ">teoria</W>
+ <W cur="3956" id="779" lemma="posible" pos="ADJ" space=" ">posible</W>
+ <W cur="3964" id="780" lemma="tras" pos="PREP" space=" ">tras</W>
+ <W cur="3969" id="781" lemma="@card@" pos="CARD" space=" ">15</W>
+ <W cur="3972" id="782" lemma="año" pos="NC" space=" ">años</W>
+ <W cur="3977" id="783" lemma="de" pos="PREP" space=" ">de</W>
+ <W cur="3980" id="784" lemma="cárcel" pos="NC" space=" ">cárcel</W>
+ <W boundary="sentence" cur="3986" id="785" lemma="." pos="FS">.</W>
+ <W cur="3992" id="786" lemma="_" pos="NP" space="&#xA;&#xA;&#xA; &#xA;">r”orir”</W>
+ <W boundary="sentence" cur="4000" id="787" lemma="." pos="FS">.</W>
+</Text>

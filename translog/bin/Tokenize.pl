@@ -99,6 +99,20 @@ sub MSunescape {
   return $in;
 }
 
+sub MSescapeAttr {
+  my ($in) = @_;
+
+  $in =~ s/\&/&amp;/g;
+#  $in =~ s/\>/&gt;/g;
+#  $in =~ s/\</&lt;/g;
+  $in =~ s/\n/&#xA;/g;
+  $in =~ s/\r/&#xD;/g;
+  $in =~ s/\t/&#x9;/g;
+  $in =~ s/"/&quot;/g;
+#  $in =~ s/ /&nbsp;/g;
+  return $in;
+}
+
 ## escape for R tables
 sub Rescape {
   my ($in) = @_;
@@ -414,8 +428,8 @@ sub  WriteTranslog{
     }
     if(!defined($SRC->{$cur}{'space'})) { $space = '';}
     else {$space = $SRC->{$cur}{space};}
-    $space = escape($space);
-    $SRC->{$cur}{tok} = escape($SRC->{$cur}{tok});
+    $space = MSescapeAttr($space);
+    $SRC->{$cur}{tok} = MSescapeAttr($SRC->{$cur}{tok});
 
     $K->{$n++} = "    <Token id=\"$SRC->{$cur}{wnr}\" cur=\"$cur\" space=\"$space\" tok=\"$SRC->{$cur}{tok}\" />\n";
   }
@@ -432,8 +446,8 @@ sub  WriteTranslog{
     }
     if(!defined($TGT->{$cur}{'space'})) { $space = '';}
     else {$space = $TGT->{$cur}{space};}
-    $space = escape($space);
-    $TGT->{$cur}{tok} = escape($TGT->{$cur}{tok});
+    $space = MSescapeAttr($space);
+    $TGT->{$cur}{tok} = MSescapeAttr($TGT->{$cur}{tok});
 
     $K->{$n++} = "    <Token id=\"$TGT->{$cur}{wnr}\" cur=\"$cur\" space=\"$space\" tok=\"$TGT->{$cur}{tok}\" />\n";
   }
@@ -472,10 +486,10 @@ sub PrintTag {
 
       #if(defined($Tag->{$f}{'space'}) && $Tag->{$f}{'space'} ne "") {$s .= " space=\"$Tag->{$f}{'space'}\"";}
     if(defined($Tag->{$f}{'space'}) && $Tag->{$f}{'space'} ne "") {
-       my $e = escape($Tag->{$f}{'space'});
+       my $e = MSescapeAttr($Tag->{$f}{'space'});
        $s .= " space=\"$e\"";
     }
-    printf FILE "<W %s>%s</W>\n", $s, escape($Tag->{$f}{'tok'});
+    printf FILE "<W %s>%s</W>\n", $s, MSescapeAttr($Tag->{$f}{'tok'});
   }
   printf FILE "</Text>\n";
   close (FILE);
