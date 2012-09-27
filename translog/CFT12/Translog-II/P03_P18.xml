@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ATTENTION:
+This file is an export from the CASMACAT Workbench (version fieldtrial1) and will NOT run in Translog-II.
+-->
+<LogFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VersionString>CASMACAT fieldtrial1</VersionString>
+  <Subject>translator3</Subject>
+  <StartTime>2012-07-06 18:05:10</StartTime>
+  <EndTime>2012-07-06 18:15:31</EndTime>
+  <DocumentId>535</DocumentId>
+  <AssignmentId>922</AssignmentId>
+  <TranslationSessionId>521</TranslationSessionId>
+  <Project>
+    <FileName>latimes-2010-12-02-86334</FileName>
+    <ShowTimer>false</ShowTimer>
+    <Languages Source="en" Target="es"/>
+    <Interface>
+      <Standard>
+        <Settings>
+          <SourceText>
+            <Seg Id="s907773">Remaining stolen show dogs found in Compton</Seg>
+            <Seg Id="s907774">The remaining two of four show dogs stolen from outside a Bellflower motel have been found, Los Angeles County Sheriff's officials said Thursday.</Seg>
+            <Seg Id="s907775">The four show dogs - two Akitas and two Pembroke Welsh corgis - vanished Tuesday when someone stole the 2006 Chevrolet Express van they had spent the night in outside a Bellflower Motel 6, authorities said.</Seg>
+            <Seg Id="s907776">Two of the canines were recovered Wednesday afternoon, and the remaining two were found late Wednesday evening, said to Steve Whitmore, a spokesman for the Los Angeles County Sheriff's Department.</Seg>
+            <Seg Id="s907777">The good news is that the dogs are fine," said Whitmore.</Seg>
+            <Seg Id="s907778">They are in good condition."</Seg>
+            <Seg Id="s907779">They have been returned to their rightful owners."</Seg>
+            <Seg Id="s907780">Whitmore declined to say precisely where the dogs were found, in what neighborhood, and the circumstances surrounding their discovery.</Seg>
+            <Seg Id="s907781">There is an investigation going on."</Seg>
+            <Seg Id="s907782">We don't want to say," Whitmore said.</Seg>
+            <Seg Id="s907783">We are following leads."</Seg>
+            <Seg Id="s907784">The dogs owners, Kristina Rickard and David Peek, could not be reached for comment Thursday.</Seg>
+            <Seg Id="s907785">They were reunited with their two Akitas at a county-run animal shelter in Downey on Wednesday afternoon.</Seg>
+            <Seg Id="s907786">Sheriff's deputies found the van and the two dogs separately in Compton.</Seg>
+            <Seg Id="s907787">The Akitas - Trace, a 3-year-old male, and Didi, a 10-month-old female - were unharmed, authorities said.</Seg>
+            <Seg Id="s907788">But Bunny and Peter, the corgis Rickard and Peek planned to show at area competitions this week on behalf of the dogs' Japanese owners, remained missing until their discovering late Wednesday.</Seg>
+            <Seg Id="s907789">Peek and Rickard, who live in Redding, are in town for the AKC/Eukanuba National Championship in Long Beach this weekend, where they planned to show Trace.</Seg>
+            <Seg Id="s907790">The other dogs were expected to compete in other competitions scheduled in the days before the AKC/Eukanuba show, Peek told The Times on Wednesday.</Seg>
+            <Seg Id="s907791">Southern California is one stop on the couple's nearly month-long tour of dog shows.</Seg>
+            <Seg Id="s907792">On Monday night, Peek and Rickard checked into the motel.</Seg>
+            <Seg Id="s907793">They often stay in motels and park their van right outside their room window.</Seg>
+            <Seg Id="s907794">They brought three other dogs - a Boxer puppy, a Parson Russell terrier and a Brittany - which stayed with them in the motel room.</Seg>
+            <Seg Id="s907795">But they left the thick-furred Akitas and corgis in the van where it would be cooler.</Seg>
+            <Seg Id="s907796">They opened the windows a bit, so the dogs could get fresh air.</Seg>
+            <Seg Id="s907797">Peek and Rickard reported the van stolen at 6 a.m. Tuesday.</Seg>
+            <Seg Id="s907798">Peek had said they would offer a reward to anyone who could lead them to the corgis, which are implanted with microchips to identify them.</Seg>
+            <Seg Id="s907799">It was unclear Thursday whether an award would be given.</Seg>
+          </SourceText>
+          <TargetText>
+            <Seg Id="t1346816">Roban restantes muestran perros encontraron en Compton</Seg>
+            <Seg Id="t1346817">Los restantes dos de cuatro muestran perros robados desde afuera de un motel Bellflower se han encontrado, Los Angeles County Sheriff funcionarios dijeron el jueves.</Seg>
+            <Seg Id="t1346818">Los cuatro muestran perros - dos Akitas y dos galeses Pembroke corgis - desapareció el martes cuando alguien robó el 2006 Chevrolet Express Van habían pasado la noche fuera un Bellflower Motel 6, dijeron las autoridades.</Seg>
+            <Seg Id="t1346792">Dos de los perros fueron recuperados el miércoles por la tarde, y los dos restantes fueron hallados el miércoles pasado por la noche, dijo a Steve Whitmore, portavoz del Departamento del Sheriff del Condado de Los Angeles.</Seg>
+            <Seg Id="t1346793">"La buena noticia es que los perros son buenas", dijo Whitmore.</Seg>
+            <Seg Id="t1346794">"Están en buen estado".</Seg>
+            <Seg Id="t1346795">"Han sido devueltos a sus legítimos propietarios".</Seg>
+            <Seg Id="t1346796">Whitmore se negó a decir precisamente cuando los perros fueron encontrados, en qué barrio, y las circunstancias de su descubrimiento.</Seg>
+            <Seg Id="t1346797">"Hay una investigación en curso".</Seg>
+            <Seg Id="t1346798">"No queremos decir", dijo Whitmore.</Seg>
+            <Seg Id="t1346799">"Estamos siguiendo pistas".</Seg>
+            <Seg Id="t1346800">Los propietarios de perros, Kristina Rickard y David PEEK, no puede ser alcanzado para comentar el jueves.</Seg>
+            <Seg Id="t1346801">Se reunieron con sus dos Akitas en un refugio de animales en el condado de Downey el miércoles por la tarde.</Seg>
+            <Seg Id="t1346802">Los diputados del Sheriff encontró la camioneta y los dos perros por separado en Compton.</Seg>
+            <Seg Id="t1346803">El Akitas - localizar, un varón de 3 años de edad, y Didi, una niña de 10 meses de edad, mujeres resultaron ilesos, dijeron las autoridades.</Seg>
+            <Seg Id="t1346804">Pero Bunny y Peter, los corgis Rickard y PEEK tenía previsto mostrar en competiciones de la zona esta semana en nombre de los propietarios de perros "japonés, seguían desaparecidos hasta el miércoles pasado por su descubrimiento.</Seg>
+            <Seg Id="t1346805">PEEK y Rickard, que viven en S. Redding, están en la ciudad para la AKC / Eukanuba Campeonato Nacional este fin de semana en Long Beach, donde habían previsto mostrar localizar.</Seg>
+            <Seg Id="t1346806">Los otros perros se espera competir en otras competiciones previstas en los días antes de la AKC / Eukanuba muestran, PEEK dijo a The Times el miércoles.</Seg>
+            <Seg Id="t1346807">El sur de California es una parada en la pareja de casi un mes de largo recorrido de perro muestra.</Seg>
+            <Seg Id="t1346808">El lunes por la noche, PEEK y Rickard verificado en el motel.</Seg>
+            <Seg Id="t1346809">Suelen quedarse en moteles y aparcar sus van derecho fuera de su oficina ventana.</Seg>
+            <Seg Id="t1346810">Se señalaron otros tres perros - un perrito Boxer, Parson Russell terrier y Bretaña, que permaneció con ellos en el motel.</Seg>
+            <Seg Id="t1346811">Pero dejaron la espesa-furred Akitas y corgis en la camioneta donde sería más fresco.</Seg>
+            <Seg Id="t1346812">Se abrió las ventanas un poco, de modo que los perros pueden respirar aire fresco.</Seg>
+            <Seg Id="t1346813">PEEK y Rickard informó de la camioneta robada a las 6 de la mañana martes.</Seg>
+            <Seg Id="t1346814">PEEK dijo que ofrecería una recompensa a quien podría conducir a los corgis, que son implantados con microchips para identificarlos.</Seg>
+            <Seg Id="t1346815">No está claro si el jueves un premio sería dado.</Seg>
+          </TargetText>
+        </Settings>
+      </Standard>
+    </Interface>
+  </Project>
+  <Events>
+    <System Time="0" Value="START" StartTid="1346792" SessionStartTime="2012-07-06 18:05:10" SessionEndTime="2012-07-06 18:13:40" TranslationWindowWidth="1638" TranslationWindowHeight="834"/>
+    <Key Time="39449" Cursor="0" Type="insert" Value="S" SegId="t1346816"/>
+    <Key Time="39677" Cursor="1" Type="insert" Value="e" SegId="t1346816"/>
+    <Key Time="39982" Cursor="2" Type="insert" Value=" " SegId="t1346816"/>
+    <Key Time="40301" Cursor="3" Type="insert" Value="h" SegId="t1346816"/>
+    <Key Time="40444" Cursor="4" Type="insert" Value="a" SegId="t1346816"/>
+    <Key Time="40588" Cursor="5" Type="insert" Value="n" SegId="t1346816"/>
+    <Key Time="40798" Cursor="6" Type="insert" Value=" " SegId="t1346816"/>
+    <Key Time="40973" Cursor="7" Type="insert" Value="e" SegId="t1346816"/>
+    <Key Time="41072" Cursor="8" Type="insert" Value="n" SegId="t1346816"/>
+    <Key Time="41285" Cursor="9" Type="insert" Value="c" SegId="t1346816"/>
+    <Key Time="41468" Cursor="10" Type="insert" Value="o" SegId="t1346816"/>
+    <Key Time="41780" Cursor="11" Type="insert" Value="n" SegId="t1346816"/>
+    <Key Time="41965" Cursor="12" Type="insert" Value="t" SegId="t1346816"/>
+    <Key Time="42157" Cursor="13" Type="insert" Value="r" SegId="t1346816"/>
+    <Key Time="42461" Cursor="14" Type="insert" Value="a" SegId="t1346816"/>
+    <Key Time="42749" Cursor="15" Type="insert" Value="d" SegId="t1346816"/>
+    <Key Time="42867" Cursor="16" Type="insert" Value="o" SegId="t1346816"/>
+    <Key Time="43110" Cursor="17" Type="insert" Value=" " SegId="t1346816"/>
+    <Key Time="43236" Cursor="18" Type="insert" Value="e" SegId="t1346816"/>
+    <Key Time="43373" Cursor="19" Type="insert" Value="n" SegId="t1346816"/>
+    <Key Time="43597" Cursor="20" Type="insert" Value=" " SegId="t1346816"/>
+    <Key Time="45061" Cursor="21" Type="insert" Value="C" SegId="t1346816"/>
+    <Key Time="45524" Cursor="22" Type="insert" Value="o" SegId="t1346816"/>
+    <Key Time="45780" Cursor="23" Type="insert" Value="m" SegId="t1346816"/>
+    <Key Time="46053" Cursor="24" Type="insert" Value="p" SegId="t1346816"/>
+    <Key Time="46428" Cursor="25" Type="insert" Value="t" SegId="t1346816"/>
+    <Key Time="46572" Cursor="26" Type="insert" Value="o" SegId="t1346816"/>
+    <Key Time="46892" Cursor="27" Type="insert" Value="n" SegId="t1346816"/>
+    <Key Time="47149" Cursor="28" Type="insert" Value=" " SegId="t1346816"/>
+    <Key Time="47660" Cursor="29" Type="insert" Value="l" SegId="t1346816"/>
+    <Key Time="47892" Cursor="30" Type="insert" Value="o" SegId="t1346816"/>
+    <Key Time="48052" Cursor="31" Type="insert" Value="s" SegId="t1346816"/>
+    <Key Time="48396" Cursor="32" Type="insert" Value=" " SegId="t1346816"/>
+    <Key Time="56381" Cursor="33" Text="R" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="56631" Cursor="33" Text="o" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="56854" Cursor="33" Text="b" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="57039" Cursor="33" Text="a" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="57230" Cursor="32" Text=" n" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="57414" Cursor="32" Text=" " Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="57606" Cursor="33" Text="r" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="57798" Cursor="33" Text="e" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="57974" Cursor="33" Text="s" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="58190" Cursor="33" Text="t" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="58399" Cursor="33" Text="a" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="58574" Cursor="33" Text="n" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="58814" Cursor="33" Text="t" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="59038" Cursor="33" Text="e" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="59285" Cursor="32" Text=" s" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="59573" Cursor="32" Text=" " Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="60097" Cursor="33" Text="m" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="60382" Cursor="33" Text="u" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="60806" Cursor="33" Text="e" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="61230" Cursor="33" Text="s" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="61558" Cursor="33" Text="t" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="61838" Cursor="33" Text="r" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="62078" Cursor="33" Text="a" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="62301" Cursor="32" Text=" n" Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="62581" Cursor="32" Text=" " Type="delete" Value="[Delete]" SegId="t1346816"/>
+    <Key Time="65540" Cursor="40" Type="insert" Value="d" SegId="t1346816"/>
+    <Key Time="65756" Cursor="42" Type="insert" Value="e" SegId="t1346816"/>
+    <Key Time="65940" Cursor="42" Type="insert" Value=" " SegId="t1346816"/>
+    <Key Time="66708" Cursor="44" Type="insert" Value="e" SegId="t1346816"/>
+    <Key Time="67308" Cursor="44" Type="insert" Value="x" SegId="t1346816"/>
+    <Key Time="67444" Cursor="45" Type="insert" Value="p" SegId="t1346816"/>
+    <Key Time="67660" Cursor="46" Type="insert" Value="o" SegId="t1346816"/>
+    <Key Time="67796" Cursor="47" Type="insert" Value="s" SegId="t1346816"/>
+    <Key Time="67948" Cursor="48" Type="insert" Value="i" SegId="t1346816"/>
+    <Key Time="68172" Cursor="49" Type="insert" Value="c" SegId="t1346816"/>
+    <Key Time="68277" Cursor="50" Type="insert" Value="i" SegId="t1346816"/>
+    <Key Time="69188" Cursor="51" Type="insert" Value="ó" SegId="t1346816"/>
+    <Key Time="69492" Cursor="52" Type="insert" Value="n" SegId="t1346816"/>
+    <Key Time="69756" Cursor="53" Type="insert" Value=" " SegId="t1346816"/>
+    <MouseUp Time="76768" Cursor="33" Text="" SegId="t1346816"/>
+    <Key Time="80716" Cursor="33" Type="insert" Value="o" SegId="t1346816"/>
+    <Key Time="80820" Cursor="34" Type="insert" Value="t" SegId="t1346816"/>
+    <Key Time="81030" Cursor="35" Type="insert" Value="r" SegId="t1346816"/>
+    <Key Time="81119" Cursor="36" Type="insert" Value="o" SegId="t1346816"/>
+    <Key Time="81420" Cursor="37" Type="insert" Value="s" SegId="t1346816"/>
+    <Key Time="81596" Cursor="38" Type="insert" Value=" " SegId="t1346816"/>
+    <MouseUp Time="84847" Cursor="60" Text="" SegId="t1346816"/>
+    <Key Time="85756" Cursor="60" Type="insert" Value="r" SegId="t1346816"/>
+    <Key Time="85900" Cursor="61" Type="insert" Value="o" SegId="t1346816"/>
+    <Key Time="86236" Cursor="62" Type="insert" Value="b" SegId="t1346816"/>
+    <Key Time="86356" Cursor="63" Type="insert" Value="a" SegId="t1346816"/>
+    <Key Time="86620" Cursor="64" Type="insert" Value="d" SegId="t1346816"/>
+    <Key Time="86844" Cursor="65" Type="insert" Value="o" SegId="t1346816"/>
+    <Key Time="86940" Cursor="66" Type="insert" Value="s" SegId="t1346816"/>
+    <Key Time="90748" Cursor="67" Text="encontraron en Compton" Type="delete" Value="[Back]" SegId="t1346816"/>
+    <Key Time="108029" Cursor="4" Text="r" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="108261" Cursor="4" Text="e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="108453" Cursor="4" Text="s" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="108662" Cursor="4" Text="t" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="108862" Cursor="4" Text="a" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="109053" Cursor="4" Text="n" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="109245" Cursor="4" Text="t" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="109430" Cursor="4" Text="e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="109678" Cursor="3" Text=" s" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="111036" Cursor="3" Text=" " Type="insert" Value=" o" SegId="t1346817"/>
+    <Key Time="111163" Cursor="5" Type="insert" Value="t" SegId="t1346817"/>
+    <Key Time="111388" Cursor="6" Type="insert" Value="r" SegId="t1346817"/>
+    <Key Time="111507" Cursor="7" Type="insert" Value="o" SegId="t1346817"/>
+    <Key Time="113756" Cursor="8" Type="insert" Value="s" SegId="t1346817"/>
+    <Key Time="122339" Cursor="17" Type="insert" Value="l" SegId="t1346817"/>
+    <Key Time="122571" Cursor="18" Type="insert" Value="o" SegId="t1346817"/>
+    <Key Time="122747" Cursor="19" Type="insert" Value="s" SegId="t1346817"/>
+    <Key Time="122960" Cursor="20" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="125477" Cursor="28" Text="m" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="125701" Cursor="28" Text="u" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="125893" Cursor="28" Text="e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="126086" Cursor="28" Text="s" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="126269" Cursor="28" Text="t" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="126461" Cursor="28" Text="r" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="126654" Cursor="28" Text="a" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="126844" Cursor="27" Text=" n" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="127412" Cursor="27" Text=" " Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="129636" Cursor="35" Type="insert" Value="d" SegId="t1346817"/>
+    <Key Time="129843" Cursor="36" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="129987" Cursor="37" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="130083" Cursor="38" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="130347" Cursor="39" Type="insert" Value="x" SegId="t1346817"/>
+    <Key Time="130540" Cursor="40" Type="insert" Value="p" SegId="t1346817"/>
+    <Key Time="130755" Cursor="41" Type="insert" Value="o" SegId="t1346817"/>
+    <Key Time="130923" Cursor="42" Type="insert" Value="s" SegId="t1346817"/>
+    <Key Time="131052" Cursor="43" Type="insert" Value="i" SegId="t1346817"/>
+    <Key Time="131243" Cursor="44" Type="insert" Value="c" SegId="t1346817"/>
+    <Key Time="131347" Cursor="45" Type="insert" Value="i" SegId="t1346817"/>
+    <Key Time="132212" Cursor="46" Type="insert" Value="ó" SegId="t1346817"/>
+    <Key Time="132491" Cursor="47" Type="insert" Value="n" SegId="t1346817"/>
+    <Key Time="132771" Cursor="48" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="143878" Cursor="57" Text="d" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="144133" Cursor="57" Text="e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="144382" Cursor="57" Text="s" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="144621" Cursor="57" Text="d" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="144932" Cursor="56" Text=" e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="145452" Cursor="56" Text=" " Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="148805" Cursor="57" Text="a" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="149101" Cursor="57" Text="f" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="149381" Cursor="57" Text="u" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="149934" Cursor="57" Text="e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="150205" Cursor="57" Text="r" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="150461" Cursor="56" Text=" a" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="150812" Cursor="56" Text=" " Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="151173" Cursor="57" Text="d" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="151668" Cursor="56" Text=" e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="153228" Cursor="56" Text=" " Type="insert" Value=" e" SegId="t1346817"/>
+    <Key Time="153317" Cursor="58" Type="insert" Value="n" SegId="t1346817"/>
+    <Key Time="153515" Cursor="59" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="153651" Cursor="59" Text=" " Type="insert" Value=" e" SegId="t1346817"/>
+    <Key Time="153779" Cursor="61" Type="insert" Value="l" SegId="t1346817"/>
+    <Key Time="154011" Cursor="62" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="154110" Cursor="62" Text=" " Type="insert" Value=" e" SegId="t1346817"/>
+    <Key Time="154355" Cursor="64" Type="insert" Value="x" SegId="t1346817"/>
+    <Key Time="154483" Cursor="65" Type="insert" Value="t" SegId="t1346817"/>
+    <Key Time="154635" Cursor="66" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="154843" Cursor="67" Type="insert" Value="r" SegId="t1346817"/>
+    <Key Time="154987" Cursor="68" Type="insert" Value="i" SegId="t1346817"/>
+    <Key Time="155187" Cursor="69" Type="insert" Value="o" SegId="t1346817"/>
+    <Key Time="155269" Cursor="70" Type="insert" Value="r" SegId="t1346817"/>
+    <Key Time="155451" Cursor="71" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="155604" Cursor="71" Text=" " Type="insert" Value=" d" SegId="t1346817"/>
+    <Key Time="155819" Cursor="73" Type="insert" Value="e" SegId="t1346817"/>
+    <MouseUp Time="166622" Cursor="1" Text="" SegId="t1346817"/>
+    <Key Time="167211" Cursor="0" Text="L" Type="delete" Value="[Back]" SegId="t1346817"/>
+    <Key Time="167803" Cursor="0" Type="insert" Value="S" SegId="t1346817"/>
+    <Key Time="168155" Cursor="1" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="168243" Cursor="2" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="168555" Cursor="3" Type="insert" Value="h" SegId="t1346817"/>
+    <Key Time="168674" Cursor="4" Type="insert" Value="a" SegId="t1346817"/>
+    <Key Time="168811" Cursor="5" Type="insert" Value="n" SegId="t1346817"/>
+    <Key Time="169019" Cursor="6" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="169299" Cursor="7" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="169427" Cursor="8" Type="insert" Value="n" SegId="t1346817"/>
+    <Key Time="169611" Cursor="9" Type="insert" Value="c" SegId="t1346817"/>
+    <Key Time="169779" Cursor="11" Type="insert" Value="o" SegId="t1346817"/>
+    <Key Time="170059" Cursor="11" Type="insert" Value="n" SegId="t1346817"/>
+    <Key Time="170211" Cursor="12" Type="insert" Value="t" SegId="t1346817"/>
+    <Key Time="170419" Cursor="13" Type="insert" Value="r" SegId="t1346817"/>
+    <Key Time="170699" Cursor="14" Type="insert" Value="a" SegId="t1346817"/>
+    <Key Time="170979" Cursor="15" Type="insert" Value="d" SegId="t1346817"/>
+    <Key Time="171067" Cursor="17" Type="insert" Value="o" SegId="t1346817"/>
+    <Key Time="171387" Cursor="17" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="172827" Cursor="18" Type="insert" Value="l" SegId="t1346817"/>
+    <MouseUp Time="181022" Cursor="112" Text="" SegId="t1346817"/>
+    <Key Time="181619" Cursor="112" Text=" " Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="181851" Cursor="112" Text="s" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="182068" Cursor="112" Text="e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="182266" Cursor="112" Text=" " Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="182459" Cursor="112" Text="h" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="182651" Cursor="112" Text="a" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="182859" Cursor="112" Text="n" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="183043" Cursor="112" Text=" " Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="183235" Cursor="112" Text="e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="183435" Cursor="112" Text="n" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="183643" Cursor="112" Text="c" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="183859" Cursor="112" Text="o" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="184083" Cursor="112" Text="n" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="184475" Cursor="112" Text="t" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="184683" Cursor="112" Text="r" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="185059" Cursor="112" Text="a" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="185283" Cursor="112" Text="d" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="185499" Cursor="112" Text="o" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <MouseUp Time="189517" Cursor="114" Text="" SegId="t1346817"/>
+    <Key Time="200354" Cursor="114" Type="insert" Value="h" SegId="t1346817"/>
+    <Key Time="200474" Cursor="115" Type="insert" Value="a" SegId="t1346817"/>
+    <Key Time="200643" Cursor="116" Type="insert" Value="n" SegId="t1346817"/>
+    <Key Time="200867" Cursor="117" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="201003" Cursor="118" Type="insert" Value="d" SegId="t1346817"/>
+    <Key Time="201234" Cursor="119" Type="insert" Value="i" SegId="t1346817"/>
+    <Key Time="201619" Cursor="120" Type="insert" Value="c" SegId="t1346817"/>
+    <Key Time="202467" Cursor="121" Type="insert" Value="h" SegId="t1346817"/>
+    <Key Time="202811" Cursor="122" Type="insert" Value="o" SegId="t1346817"/>
+    <Key Time="203090" Cursor="123" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="203242" Cursor="124" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="203523" Cursor="125" Type="insert" Value="l" SegId="t1346817"/>
+    <Key Time="204314" Cursor="126" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="205763" Cursor="127" Type="insert" Value="j" SegId="t1346817"/>
+    <Key Time="206010" Cursor="128" Type="insert" Value="u" SegId="t1346817"/>
+    <Key Time="206146" Cursor="129" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="206370" Cursor="130" Type="insert" Value="v" SegId="t1346817"/>
+    <Key Time="206490" Cursor="131" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="206906" Cursor="132" Type="insert" Value="s" SegId="t1346817"/>
+    <Key Time="207394" Cursor="133" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="208388" Cursor="134" Text="L" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="208620" Cursor="134" Text="o" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="208819" Cursor="133" Text=" s" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="209012" Cursor="133" Text=" " Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="209221" Cursor="134" Text="A" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="209620" Cursor="134" Text="n" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="210396" Cursor="134" Text="g" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="210620" Cursor="134" Text="e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="210820" Cursor="134" Text="l" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="211013" Cursor="134" Text="e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="211187" Cursor="133" Text=" s" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="211380" Cursor="133" Text=" " Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="211548" Cursor="134" Text="C" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="211748" Cursor="134" Text="o" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="211932" Cursor="134" Text="u" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="212124" Cursor="134" Text="n" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="212309" Cursor="134" Text="t" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="212491" Cursor="133" Text=" y" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="212675" Cursor="133" Text=" " Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="212861" Cursor="134" Text="S" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="213061" Cursor="134" Text="h" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="213252" Cursor="134" Text="e" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="213780" Cursor="134" Text="r" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="214012" Cursor="134" Text="i" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="214244" Cursor="135" Text="f" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="214475" Cursor="133" Text=" f" Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="214868" Cursor="133" Text=" " Type="delete" Value="[Delete]" SegId="t1346817"/>
+    <Key Time="218850" Cursor="148" Type="insert" Value="d" SegId="t1346817"/>
+    <Key Time="219051" Cursor="148" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="219210" Cursor="149" Type="insert" Value="l" SegId="t1346817"/>
+    <Key Time="219506" Cursor="150" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="219874" Cursor="151" Type="insert" Value="S" SegId="t1346817"/>
+    <Key Time="220370" Cursor="152" Type="insert" Value="h" SegId="t1346817"/>
+    <Key Time="220530" Cursor="153" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="220754" Cursor="154" Type="insert" Value="r" SegId="t1346817"/>
+    <Key Time="220978" Cursor="155" Type="insert" Value="i" SegId="t1346817"/>
+    <Key Time="221290" Cursor="156" Type="insert" Value="f" SegId="t1346817"/>
+    <Key Time="221482" Cursor="157" Type="insert" Value="f" SegId="t1346817"/>
+    <Key Time="225222" Cursor="157" Text="f" Type="delete" Value="[Back]" SegId="t1346817"/>
+    <Key Time="225458" Cursor="156" Text="f" Type="delete" Value="[Back]" SegId="t1346817"/>
+    <Key Time="225666" Cursor="155" Text="i" Type="delete" Value="[Back]" SegId="t1346817"/>
+    <Key Time="225874" Cursor="154" Text="r" Type="delete" Value="[Back]" SegId="t1346817"/>
+    <Key Time="226058" Cursor="153" Text="e" Type="delete" Value="[Back]" SegId="t1346817"/>
+    <Key Time="226274" Cursor="152" Text="h" Type="delete" Value="[Back]" SegId="t1346817"/>
+    <Key Time="226485" Cursor="151" Text="S" Type="delete" Value="[Back]" SegId="t1346817"/>
+    <Key Time="235890" Cursor="151" Type="insert" Value="L" SegId="t1346817"/>
+    <Key Time="236106" Cursor="152" Type="insert" Value="o" SegId="t1346817"/>
+    <Key Time="236545" Cursor="153" Type="insert" Value="s" SegId="t1346817"/>
+    <Key Time="236714" Cursor="154" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="237130" Cursor="155" Type="insert" Value="A" SegId="t1346817"/>
+    <Key Time="237674" Cursor="156" Type="insert" Value="n" SegId="t1346817"/>
+    <Key Time="237954" Cursor="157" Type="insert" Value="g" SegId="t1346817"/>
+    <Key Time="238090" Cursor="158" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="238490" Cursor="159" Type="insert" Value="le" SegId="t1346817"/>
+    <Key Time="238754" Cursor="161" Type="insert" Value="s" SegId="t1346817"/>
+    <Key Time="238930" Cursor="162" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="239410" Cursor="163" Type="insert" Value="S" SegId="t1346817"/>
+    <Key Time="241164" Cursor="163" Text="S" Type="delete" Value="[Back]" SegId="t1346817"/>
+    <Key Time="242522" Cursor="163" Type="insert" Value="C" SegId="t1346817"/>
+    <Key Time="242866" Cursor="164" Type="insert" Value="o" SegId="t1346817"/>
+    <Key Time="243130" Cursor="165" Type="insert" Value="u" SegId="t1346817"/>
+    <Key Time="243362" Cursor="166" Type="insert" Value="n" SegId="t1346817"/>
+    <Key Time="243473" Cursor="167" Type="insert" Value="t" SegId="t1346817"/>
+    <Key Time="243690" Cursor="168" Type="insert" Value="y" SegId="t1346817"/>
+    <Key Time="243946" Cursor="169" Type="insert" Value=" " SegId="t1346817"/>
+    <Key Time="244258" Cursor="170" Type="insert" Value="S" SegId="t1346817"/>
+    <Key Time="244770" Cursor="171" Type="insert" Value="h" SegId="t1346817"/>
+    <Key Time="244890" Cursor="172" Type="insert" Value="e" SegId="t1346817"/>
+    <Key Time="245138" Cursor="173" Type="insert" Value="r" SegId="t1346817"/>
+    <Key Time="245370" Cursor="174" Type="insert" Value="i" SegId="t1346817"/>
+    <Key Time="245690" Cursor="175" Type="insert" Value="f" SegId="t1346817"/>
+    <Key Time="245906" Cursor="176" Type="insert" Value="f" SegId="t1346817"/>
+    <Key Time="250466" Cursor="177" Text="dijeron el jueves" Type="delete" Value="[Back]" SegId="t1346817"/>
+    <Key Time="261996" Cursor="11" Text="m" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="262228" Cursor="11" Text="u" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="262411" Cursor="11" Text="e" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="262596" Cursor="11" Text="s" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="262788" Cursor="11" Text="t" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="263164" Cursor="11" Text="r" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="263372" Cursor="11" Text="a" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="263587" Cursor="10" Text=" n" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="263827" Cursor="10" Text=" " Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="266218" Cursor="17" Type="insert" Value=" " SegId="t1346818"/>
+    <Key Time="266395" Cursor="17" Text=" " Type="insert" Value=" d" SegId="t1346818"/>
+    <Key Time="266610" Cursor="19" Type="insert" Value="e" SegId="t1346818"/>
+    <Key Time="266721" Cursor="20" Type="insert" Value=" " SegId="t1346818"/>
+    <Key Time="266842" Cursor="20" Text=" " Type="insert" Value=" e" SegId="t1346818"/>
+    <Key Time="267090" Cursor="22" Type="insert" Value="x" SegId="t1346818"/>
+    <Key Time="267209" Cursor="23" Type="insert" Value="p" SegId="t1346818"/>
+    <Key Time="267433" Cursor="24" Type="insert" Value="o" SegId="t1346818"/>
+    <Key Time="267569" Cursor="25" Type="insert" Value="s" SegId="t1346818"/>
+    <Key Time="267690" Cursor="26" Type="insert" Value="i" SegId="t1346818"/>
+    <Key Time="267873" Cursor="27" Type="insert" Value="c" SegId="t1346818"/>
+    <Key Time="268009" Cursor="28" Type="insert" Value="i" SegId="t1346818"/>
+    <Key Time="268826" Cursor="29" Type="insert" Value="ó" SegId="t1346818"/>
+    <Key Time="269089" Cursor="30" Type="insert" Value="n" SegId="t1346818"/>
+    <Key Time="269442" Cursor="31" Type="insert" Value=" " SegId="t1346818"/>
+    <Key Time="271442" Cursor="31" Text=" " Type="delete" Value="[Back]" SegId="t1346818"/>
+    <Key Time="273241" Cursor="31" Type="insert" Value=":" SegId="t1346818"/>
+    <Key Time="274530" Cursor="32" Text=" " Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="275242" Cursor="32" Text="-" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="285403" Cursor="50" Text="g" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="285651" Cursor="50" Text="a" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="285867" Cursor="50" Text="l" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="286068" Cursor="50" Text="e" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="286267" Cursor="50" Text="s" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="286484" Cursor="50" Text="e" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="286690" Cursor="49" Text=" s" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="286995" Cursor="49" Text=" " Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="291401" Cursor="59" Type="insert" Value="W" SegId="t1346818"/>
+    <Key Time="292049" Cursor="60" Type="insert" Value="e" SegId="t1346818"/>
+    <Key Time="292370" Cursor="61" Type="insert" Value="l" SegId="t1346818"/>
+    <Key Time="292641" Cursor="62" Type="insert" Value="s" SegId="t1346818"/>
+    <Key Time="293009" Cursor="63" Type="insert" Value="h" SegId="t1346818"/>
+    <Key Time="424443" Cursor="64" Type="insert" Value=" " SegId="t1346818"/>
+    <Key Time="430875" Cursor="71" Text=" -" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="431113" Cursor="71" Text=" " Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="437271" Cursor="71" Type="insert" Value="," SegId="t1346818"/>
+    <Key Time="441345" Cursor="83" Text="ó" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="441735" Cursor="83" Type="insert" Value="d" SegId="t1346818"/>
+    <Key Time="441951" Cursor="84" Type="insert" Value="o" SegId="t1346818"/>
+    <Key Time="442119" Cursor="85" Type="insert" Value="s" SegId="t1346818"/>
+    <Key Time="455639" Cursor="118" Text="l" Type="delete" Value="[Back]" SegId="t1346818"/>
+    <Key Time="455872" Cursor="116" Text=" e" Type="delete" Value="[Back]" SegId="t1346818"/>
+    <Key Time="460503" Cursor="116" Text=" " Type="insert" Value=" e" SegId="t1346818"/>
+    <Key Time="460735" Cursor="118" Type="insert" Value="l" SegId="t1346818"/>
+    <Key Time="474865" Cursor="170" Text="f" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="475129" Cursor="170" Text="u" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="475360" Cursor="170" Text="e" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="475600" Cursor="170" Text="r" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="476000" Cursor="169" Text=" a" Type="delete" Value="[Delete]" SegId="t1346818"/>
+    <Key Time="476911" Cursor="169" Text=" " Type="insert" Value=" e" SegId="t1346818"/>
+    <Key Time="477071" Cursor="171" Type="insert" Value="n" SegId="t1346818"/>
+    <Key Time="477295" Cursor="172" Type="insert" Value=" " SegId="t1346818"/>
+    <Key Time="477440" Cursor="172" Text=" " Type="insert" Value=" e" SegId="t1346818"/>
+    <Key Time="477550" Cursor="174" Type="insert" Value="l" SegId="t1346818"/>
+    <Key Time="477791" Cursor="175" Type="insert" Value=" " SegId="t1346818"/>
+    <Key Time="477951" Cursor="175" Text=" " Type="insert" Value=" e" SegId="t1346818"/>
+    <Key Time="478223" Cursor="177" Type="insert" Value="x" SegId="t1346818"/>
+    <Key Time="478414" Cursor="178" Type="insert" Value="t" SegId="t1346818"/>
+    <Key Time="478511" Cursor="179" Type="insert" Value="e" SegId="t1346818"/>
+    <Key Time="478719" Cursor="180" Type="insert" Value="r" SegId="t1346818"/>
+    <Key Time="478838" Cursor="181" Type="insert" Value="i" SegId="t1346818"/>
+    <Key Time="479014" Cursor="182" Type="insert" Value="o" SegId="t1346818"/>
+    <Key Time="479151" Cursor="183" Type="insert" Value="r" SegId="t1346818"/>
+    <Key Time="479326" Cursor="184" Type="insert" Value=" " SegId="t1346818"/>
+    <Key Time="479503" Cursor="184" Text=" " Type="insert" Value=" d" SegId="t1346818"/>
+    <Key Time="479719" Cursor="186" Type="insert" Value="e" SegId="t1346818"/>
+    <Key Time="487046" Cursor="146" Type="insert" Value="," SegId="t1346818"/>
+    <MouseUp Time="507834" Cursor="197" Text="" SegId="t1346818"/>
+    <System Time="510000" Value="STOP"/>
+    <System Time="510000" Value="START" StartTid="1346818" SessionStartTime="2012-07-06 18:14:04" SessionEndTime="2012-07-06 18:15:31" TranslationWindowWidth="1638" TranslationWindowHeight="834"/>
+    <MouseUp Time="510735" Cursor="16" Text="" SegId="t1346816"/>
+    <MouseUp Time="516759" Cursor="67" Text="" SegId="t1346816"/>
+    <MouseUp Time="545885" Cursor="178" Text="" SegId="t1346817"/>
+    <Key Time="558442" Cursor="71" Text="," Type="delete" Value="[Back]" SegId="t1346818"/>
+    <Key Time="569458" Cursor="117" Text="l" Type="delete" Value="[Back]" SegId="t1346818"/>
+    <Key Time="569683" Cursor="115" Text=" e" Type="delete" Value="[Back]" SegId="t1346818"/>
+    <Key Time="570235" Cursor="115" Text=" " Type="insert" Value=" l" SegId="t1346818"/>
+    <Key Time="570442" Cursor="117" Type="insert" Value="a" SegId="t1346818"/>
+    <Key Time="570658" Cursor="118" Type="insert" Value=" " SegId="t1346818"/>
+    <Key Time="571003" Cursor="118" Text=" " Type="insert" Value=" f" SegId="t1346818"/>
+    <Key Time="571290" Cursor="120" Type="insert" Value="u" SegId="t1346818"/>
+    <Key Time="571389" Cursor="121" Type="insert" Value="r" SegId="t1346818"/>
+    <Key Time="571786" Cursor="122" Type="insert" Value="g" SegId="t1346818"/>
+    <Key Time="572034" Cursor="123" Type="insert" Value="o" SegId="t1346818"/>
+    <Key Time="572338" Cursor="124" Type="insert" Value="n" SegId="t1346818"/>
+    <Key Time="572490" Cursor="125" Type="insert" Value="e" SegId="t1346818"/>
+    <Key Time="572714" Cursor="126" Type="insert" Value="t" SegId="t1346818"/>
+    <Key Time="572890" Cursor="127" Type="insert" Value="a" SegId="t1346818"/>
+    <MouseUp Time="595516" Cursor="211" Text="" SegId="t1346818"/>
+    <System Time="87000" Value="STOP"/>
+  </Events>
+  <FinalText>
+    <Seg Id="t1346816">Se han encontrado en Compton los otros perros de exposición robados</Seg>
+    <Seg Id="t1346817">Se han encontrado los otros dos de los cuatro perros de exposición robados en el exterior de un motel Bellflower, han dicho el jueves funcionarios del Los Angeles County Sheriff.</Seg>
+    <Seg Id="t1346818">Los cuatro perros de exposición: dos Akitas y dos Pembroke Welsh corgis desaparecidos el martes cuando alguien robó la furgoneta 2006 Chevrolet Express Van, habían pasado la noche en el exterior de un Bellflower Motel 6, dijeron las autoridades.</Seg>
+    <Seg Id="t1346792">Dos de los perros fueron recuperados el miércoles por la tarde, y los dos restantes fueron hallados el miércoles pasado por la noche, dijo a Steve Whitmore, portavoz del Departamento del Sheriff del Condado de Los Angeles.</Seg>
+    <Seg Id="t1346793">"La buena noticia es que los perros son buenas", dijo Whitmore.</Seg>
+    <Seg Id="t1346794">"Están en buen estado".</Seg>
+    <Seg Id="t1346795">"Han sido devueltos a sus legítimos propietarios".</Seg>
+    <Seg Id="t1346796">Whitmore se negó a decir precisamente cuando los perros fueron encontrados, en qué barrio, y las circunstancias de su descubrimiento.</Seg>
+    <Seg Id="t1346797">"Hay una investigación en curso".</Seg>
+    <Seg Id="t1346798">"No queremos decir", dijo Whitmore.</Seg>
+    <Seg Id="t1346799">"Estamos siguiendo pistas".</Seg>
+    <Seg Id="t1346800">Los propietarios de perros, Kristina Rickard y David PEEK, no puede ser alcanzado para comentar el jueves.</Seg>
+    <Seg Id="t1346801">Se reunieron con sus dos Akitas en un refugio de animales en el condado de Downey el miércoles por la tarde.</Seg>
+    <Seg Id="t1346802">Los diputados del Sheriff encontró la camioneta y los dos perros por separado en Compton.</Seg>
+    <Seg Id="t1346803">El Akitas - localizar, un varón de 3 años de edad, y Didi, una niña de 10 meses de edad, mujeres resultaron ilesos, dijeron las autoridades.</Seg>
+    <Seg Id="t1346804">Pero Bunny y Peter, los corgis Rickard y PEEK tenía previsto mostrar en competiciones de la zona esta semana en nombre de los propietarios de perros "japonés, seguían desaparecidos hasta el miércoles pasado por su descubrimiento.</Seg>
+    <Seg Id="t1346805">PEEK y Rickard, que viven en S. Redding, están en la ciudad para la AKC / Eukanuba Campeonato Nacional este fin de semana en Long Beach, donde habían previsto mostrar localizar.</Seg>
+    <Seg Id="t1346806">Los otros perros se espera competir en otras competiciones previstas en los días antes de la AKC / Eukanuba muestran, PEEK dijo a The Times el miércoles.</Seg>
+    <Seg Id="t1346807">El sur de California es una parada en la pareja de casi un mes de largo recorrido de perro muestra.</Seg>
+    <Seg Id="t1346808">El lunes por la noche, PEEK y Rickard verificado en el motel.</Seg>
+    <Seg Id="t1346809">Suelen quedarse en moteles y aparcar sus van derecho fuera de su oficina ventana.</Seg>
+    <Seg Id="t1346810">Se señalaron otros tres perros - un perrito Boxer, Parson Russell terrier y Bretaña, que permaneció con ellos en el motel.</Seg>
+    <Seg Id="t1346811">Pero dejaron la espesa-furred Akitas y corgis en la camioneta donde sería más fresco.</Seg>
+    <Seg Id="t1346812">Se abrió las ventanas un poco, de modo que los perros pueden respirar aire fresco.</Seg>
+    <Seg Id="t1346813">PEEK y Rickard informó de la camioneta robada a las 6 de la mañana martes.</Seg>
+    <Seg Id="t1346814">PEEK dijo que ofrecería una recompensa a quien podría conducir a los corgis, que son implantados con microchips para identificarlos.</Seg>
+    <Seg Id="t1346815">No está claro si el jueves un premio sería dado.</Seg>
+  </FinalText>
+</LogFile>

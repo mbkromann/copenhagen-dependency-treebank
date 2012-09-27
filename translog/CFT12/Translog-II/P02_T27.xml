@@ -1,0 +1,2168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ATTENTION:
+This file is an export from the CASMACAT Workbench (version fieldtrial1) and will NOT run in Translog-II.
+-->
+<LogFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VersionString>CASMACAT fieldtrial1</VersionString>
+  <Subject>translator2</Subject>
+  <StartTime>2012-07-08 16:08:41</StartTime>
+  <EndTime>2012-07-08 19:45:06</EndTime>
+  <DocumentId>542</DocumentId>
+  <AssignmentId>914</AssignmentId>
+  <TranslationSessionId>571</TranslationSessionId>
+  <Project>
+    <FileName>nytimes-2010-12-02-231152.fromScratch</FileName>
+    <ShowTimer>false</ShowTimer>
+    <Languages Source="en" Target="es"/>
+    <Interface>
+      <Standard>
+        <Settings>
+          <SourceText>
+            <Seg Id="s908013">Bringing a Softer Side to Policing in China</Seg>
+            <Seg Id="s908014">Like an urban drill sergeant, Tang Shenbin paced on a city square, sternly inspecting his nervous charges, issuing sotto voce commands with military authority.</Seg>
+            <Seg Id="s908015">He wanted the female members of chengguan - China's burly enforcers of urban order, feared and despised for their capricious crackdowns and penchant for violence - to convey a certain impression to a clutch of onlookers.</Seg>
+            <Seg Id="s908016">Stand straight!"</Seg>
+            <Seg Id="s908017">Look sharp!"</Seg>
+            <Seg Id="s908018">Show them, he whispered, "what pretty girls are like!"</Seg>
+            <Seg Id="s908019">Four barely-past-teenage girls in white gloves and identical olive jackets and pants snapped to attention.</Seg>
+            <Seg Id="s908020">Four pairs of black pumps lined up ruler-straight.</Seg>
+            <Seg Id="s908021">Four prim hats perched perfectly atop hair bound in blue and white striped bows.</Seg>
+            <Seg Id="s908022">Personally, I think they are average-looking," Mr. Tang said, dismissively.</Seg>
+            <Seg Id="s908023">Models are pretty."</Seg>
+            <Seg Id="s908024">More than one government has tried to brush up the image of China's urban inspectors.</Seg>
+            <Seg Id="s908025">One city mandated that all new recruits have a college degree.</Seg>
+            <Seg Id="s908026">Guangdong Province changed the gray-green uniforms to a supposedly more inviting blue.</Seg>
+            <Seg Id="s908027">Wuhan, in central China, substituted stare-downs for strong-arming: in 2009, one report stated, 50 officers encircled a wayward snack cart, glowering steadily for a half hour until the peddler packed up and left.</Seg>
+            <Seg Id="s908028">Xindu, an urban district of 680,000 in Chengdu, has chosen major image surgery.</Seg>
+            <Seg Id="s908029">Since 2003, the district has supplemented its urban street police with 13 women, specifically chosen for their looks, shapeliness and youth.</Seg>
+            <Seg Id="s908030">The idea is to give the rough-hewn police a softer, feminine side.</Seg>
+            <Seg Id="s908031">Unfortunately, even Scarlett Johansson might struggle to raise China's subterranean regard for these city squads.</Seg>
+            <Seg Id="s908032">And for good reason, critics would argue.</Seg>
+            <Seg Id="s908033">Unlike the police, these officers are authorized only to enforce city ordinances by imposing fines and other administrative penalties.</Seg>
+            <Seg Id="s908034">But the Chinese news media routinely portray a different reality.</Seg>
+            <Seg Id="s908035">In January 2008, Hubei Province inspectors beat a bystander to death after he used his cellphone to film them breaking up a protest against a waste dump.</Seg>
+            <Seg Id="s908036">Last year, a training manual for Beijing inspectors, pilfered and posted online, described how to effectively thrash offenders without drawing blood.</Seg>
+            <Seg Id="s908037">This year, a Shanghai watermelon peddler was left brain-damaged after a scuffle with five officers.</Seg>
+            <Seg Id="s908038">One violence-soaked video game, available for download online, features Chinese-trained inspectors who assault street vendors.</Seg>
+            <Seg Id="s908039">Chengguan has scarred the government," China Daily, a national publication, lamented last year after yet another controversy over tactics.</Seg>
+            <Seg Id="s908040">The paper demanded a "truly thorough clean-up."</Seg>
+            <Seg Id="s908041">Skeptics say the approach here falls far short of that.</Seg>
+            <Seg Id="s908042">After the district advertised for eight new female recruits in October, an editorial in The Beijing Evening News questioned whether the women had actual duties or were simply scenic diversions.</Seg>
+            <Seg Id="s908043">The answer appears to be a little of both.</Seg>
+            <Seg Id="s908044">The district's advertisement called for female applicants 18 to 22 years old, with a good figure and "the five facial features in proper order."</Seg>
+            <Seg Id="s908045">They should be above-average height - taller than 1.6 meters or 5 feet, 2 ½ inches.</Seg>
+            <Seg Id="s908046">Retirement at age 26 is mandatory.</Seg>
+            <Seg Id="s908047">Officials said the job was physically too arduous for women over 25.</Seg>
+            <Seg Id="s908048">Their image is the important thing," one unnamed district official told Rednet.com, a quasi-governmental Web site.</Seg>
+            <Seg Id="s908049">First, the candidates' external qualities will determine if they make the cut, such as height, weight, facial features, etc."</Seg>
+            <Seg Id="s908050">Next comes temperament and "inner qualities."</Seg>
+            <Seg Id="s908051">Female chengguan are like flower vases, he said, adding, "Besides being vases, they will have other responsibilities."</Seg>
+            <Seg Id="s908052">Zheng Lihua, the deputy director of the district's city management bureau, is not eager to endorse that description.</Seg>
+            <Seg Id="s908053">But he noted that height requirements were standard in many Chinese job advertisements for both sexes.</Seg>
+            <Seg Id="s908054">So is the demand for orderly facial features.</Seg>
+            <Seg Id="s908055">Whether that means good-looking is a matter of debate among Chinese.</Seg>
+            <Seg Id="s908056">Certainly, the disabled or disfigured need not apply.</Seg>
+            <Seg Id="s908057">We can't let a lame person or a hunchback come to serve here," Mr. Zheng said.</Seg>
+            <Seg Id="s908058">His image would not be good."</Seg>
+            <Seg Id="s908059">Liu Yi, who patrols the Baoguang Square near a monastery, is 22, apple-cheeked with a finely curved mouth.</Seg>
+            <Seg Id="s908060">She does not consider the stress on her appearance to be sexist, she said.</Seg>
+            <Seg Id="s908061">Do you think I look sexy in this uniform?" she asked with a wry look.</Seg>
+            <Seg Id="s908062">Said her dimpled co-worker, 21-year-old Xu Yang, "Our job is to present the city's image."</Seg>
+            <Seg Id="s908063">They do not object to their limited tenure either, they said, because they harbor career ambitions greater than simply shooing vendors into the alleyways where they are supposed to confine their business.</Seg>
+            <Seg Id="s908064">Every morning, the squad faces off against a dozen or so peddlers who dart around on foot or bicycle, trying to sell as many buns or bowls of tofu as possible before they are run off.</Seg>
+            <Seg Id="s908065">Master Wang, you have to leave."</Seg>
+            <Seg Id="s908066">We have told you many times!" said Ms. Xu as one vendor fled on foot, temporarily deserting his bicycle-drawn cart of noodle-fixings.</Seg>
+            <Seg Id="s908067">The officers describe their duties as more monotonous than strenuous.</Seg>
+            <Seg Id="s908068">It is pretty much the same every day," said Huang Jing, 20, who studies marketing in her off hours.</Seg>
+            <Seg Id="s908069">Very routine."</Seg>
+            <Seg Id="s908070">One reason is that female officers lack the power of their male counterparts to confiscate vendors' goods.</Seg>
+            <Seg Id="s908071">They can only threaten to report violators to their male supervisors.</Seg>
+            <Seg Id="s908072">That tends to shield them from the sudden public displays of animosity against officialdom that are common throughout China.</Seg>
+            <Seg Id="s908073">This year hundreds of citizens in Kunming, the Yunnan provincial capital, rioted after false rumors spread that chengguan officers had killed a vendor.</Seg>
+            <Seg Id="s908074">More than a dozen police or chengguan officers were injured in the nighttime episode; 14 government vehicles were overturned or set on fire.</Seg>
+            <Seg Id="s908075">Xindu has so far escaped such violence.</Seg>
+            <Seg Id="s908076">But calm is hardly guaranteed.</Seg>
+            <Seg Id="s908077">Just two blocks from placid Baoguang Square, where the female officers patrolled that morning, more than 50 people gathered on a street corner.</Seg>
+            <Seg Id="s908078">Officers had confiscated a motorcycle that was being repaired on the sidewalk instead of inside a shop, as regulations require.</Seg>
+            <Seg Id="s908079">The bike's owner was crying foul.</Seg>
+            <Seg Id="s908080">A 15-minute standoff ensued before the officers, grim-faced, elbowed their way to their vehicles and sped off with the motorcycle and its owner.</Seg>
+            <Seg Id="s908081">Li Xuedong, 40, a coordinator attached to the male squad, remained behind, his white badge flipped over to conceal his name.</Seg>
+            <Seg Id="s908082">Like the female officers, the coordinators - men age 40 or over - play a purely supportive role.</Seg>
+            <Seg Id="s908083">Unlike them, they are not schooled in maintaining a polished image.</Seg>
+            <Seg Id="s908084">Sometimes we fight verbally."</Seg>
+            <Seg Id="s908085">Sometimes we fight physically," Mr. Li said matter-of-factly.</Seg>
+            <Seg Id="s908086">Most of the time it is the public who starts it."</Seg>
+          </SourceText>
+          <TargetText>
+            <Seg Id="t1346541"></Seg>
+            <Seg Id="t1346542"></Seg>
+            <Seg Id="t1346543"></Seg>
+            <Seg Id="t1346544"></Seg>
+            <Seg Id="t1346545"></Seg>
+            <Seg Id="t1346546"></Seg>
+            <Seg Id="t1346547"></Seg>
+            <Seg Id="t1346548"></Seg>
+            <Seg Id="t1346549"></Seg>
+            <Seg Id="t1346550"></Seg>
+            <Seg Id="t1346551"></Seg>
+            <Seg Id="t1346552"></Seg>
+            <Seg Id="t1346553"></Seg>
+            <Seg Id="t1346554"></Seg>
+            <Seg Id="t1346555"></Seg>
+            <Seg Id="t1346556"></Seg>
+            <Seg Id="t1346557"></Seg>
+            <Seg Id="t1346558"></Seg>
+            <Seg Id="t1346559"></Seg>
+            <Seg Id="t1346486"></Seg>
+            <Seg Id="t1346487"></Seg>
+            <Seg Id="t1346488"></Seg>
+            <Seg Id="t1346489"></Seg>
+            <Seg Id="t1346490"></Seg>
+            <Seg Id="t1346491"></Seg>
+            <Seg Id="t1346492"></Seg>
+            <Seg Id="t1346493"></Seg>
+            <Seg Id="t1346494"></Seg>
+            <Seg Id="t1346495"></Seg>
+            <Seg Id="t1346496"></Seg>
+            <Seg Id="t1346497"></Seg>
+            <Seg Id="t1346498"></Seg>
+            <Seg Id="t1346499"></Seg>
+            <Seg Id="t1346500"></Seg>
+            <Seg Id="t1346501"></Seg>
+            <Seg Id="t1346502"></Seg>
+            <Seg Id="t1346503"></Seg>
+            <Seg Id="t1346504"></Seg>
+            <Seg Id="t1346505"></Seg>
+            <Seg Id="t1346506"></Seg>
+            <Seg Id="t1346507"></Seg>
+            <Seg Id="t1346508"></Seg>
+            <Seg Id="t1346509"></Seg>
+            <Seg Id="t1346510"></Seg>
+            <Seg Id="t1346511"></Seg>
+            <Seg Id="t1346512"></Seg>
+            <Seg Id="t1346513"></Seg>
+            <Seg Id="t1346514"></Seg>
+            <Seg Id="t1346515"></Seg>
+            <Seg Id="t1346516"></Seg>
+            <Seg Id="t1346517"></Seg>
+            <Seg Id="t1346518"></Seg>
+            <Seg Id="t1346519"></Seg>
+            <Seg Id="t1346520"></Seg>
+            <Seg Id="t1346521"></Seg>
+            <Seg Id="t1346522"></Seg>
+            <Seg Id="t1346523"></Seg>
+            <Seg Id="t1346524"></Seg>
+            <Seg Id="t1346525"></Seg>
+            <Seg Id="t1346526"></Seg>
+            <Seg Id="t1346527"></Seg>
+            <Seg Id="t1346528"></Seg>
+            <Seg Id="t1346529"></Seg>
+            <Seg Id="t1346530"></Seg>
+            <Seg Id="t1346531"></Seg>
+            <Seg Id="t1346532"></Seg>
+            <Seg Id="t1346533"></Seg>
+            <Seg Id="t1346534"></Seg>
+            <Seg Id="t1346535"></Seg>
+            <Seg Id="t1346536"></Seg>
+            <Seg Id="t1346537"></Seg>
+            <Seg Id="t1346538"></Seg>
+            <Seg Id="t1346539"></Seg>
+            <Seg Id="t1346540"></Seg>
+          </TargetText>
+        </Settings>
+      </Standard>
+    </Interface>
+  </Project>
+  <Events>
+    <System Time="0" Value="START" StartTid="1346486" SessionStartTime="2012-07-08 16:08:41" SessionEndTime="2012-07-08 16:20:08" TranslationWindowWidth="1019" TranslationWindowHeight="566"/>
+    <Key Time="49402" Cursor="0" Type="insert" Value="po" SegId="t1346541"/>
+    <Key Time="49736" Cursor="2" Type="insert" Value="r" SegId="t1346541"/>
+    <Key Time="49968" Cursor="3" Type="insert" Value="t" SegId="t1346541"/>
+    <Key Time="50307" Cursor="4" Type="insert" Value="án" SegId="t1346541"/>
+    <Key Time="51033" Cursor="5" Text="n" Type="delete" Value="[Back]" SegId="t1346541"/>
+    <Key Time="51169" Cursor="4" Text="á" Type="delete" Value="[Back]" SegId="t1346541"/>
+    <Key Time="51288" Cursor="3" Text="t" Type="delete" Value="[Back]" SegId="t1346541"/>
+    <Key Time="51417" Cursor="2" Text="r" Type="delete" Value="[Back]" SegId="t1346541"/>
+    <Key Time="51528" Cursor="1" Text="o" Type="delete" Value="[Back]" SegId="t1346541"/>
+    <Key Time="51921" Cursor="0" Text="p" Type="delete" Value="[Back]" SegId="t1346541"/>
+    <Key Time="53776" Cursor="0" Type="insert" Value="A" SegId="t1346541"/>
+    <Key Time="56256" Cursor="1" Type="insert" Value="p" SegId="t1346541"/>
+    <Key Time="56648" Cursor="2" Type="insert" Value="o" SegId="t1346541"/>
+    <Key Time="56888" Cursor="3" Type="insert" Value="r" SegId="t1346541"/>
+    <Key Time="57241" Cursor="4" Type="insert" Value="ta" SegId="t1346541"/>
+    <Key Time="57985" Cursor="6" Type="insert" Value="r" SegId="t1346541"/>
+    <Key Time="58273" Cursor="7" Type="insert" Value="le" SegId="t1346541"/>
+    <Key Time="58377" Cursor="9" Type="insert" Value=" " SegId="t1346541"/>
+    <Key Time="58632" Cursor="10" Type="insert" Value="u" SegId="t1346541"/>
+    <Key Time="58873" Cursor="11" Type="insert" Value="n" SegId="t1346541"/>
+    <Key Time="59048" Cursor="12" Type="insert" Value="a" SegId="t1346541"/>
+    <Key Time="59529" Cursor="13" Type="insert" Value=" " SegId="t1346541"/>
+    <Key Time="59752" Cursor="14" Type="insert" Value="c" SegId="t1346541"/>
+    <Key Time="59880" Cursor="15" Type="insert" Value="a" SegId="t1346541"/>
+    <Key Time="60112" Cursor="16" Type="insert" Value="ra" SegId="t1346541"/>
+    <Key Time="60217" Cursor="18" Type="insert" Value=" " SegId="t1346541"/>
+    <Key Time="60640" Cursor="19" Type="insert" Value="m" SegId="t1346541"/>
+    <Key Time="60960" Cursor="20" Type="insert" Value="á" SegId="t1346541"/>
+    <Key Time="61040" Cursor="21" Type="insert" Value="s" SegId="t1346541"/>
+    <Key Time="61161" Cursor="22" Type="insert" Value=" " SegId="t1346541"/>
+    <Key Time="61385" Cursor="23" Type="insert" Value="d" SegId="t1346541"/>
+    <Key Time="61585" Cursor="24" Type="insert" Value="e" SegId="t1346541"/>
+    <Key Time="61896" Cursor="25" Type="insert" Value="li" SegId="t1346541"/>
+    <Key Time="62384" Cursor="27" Type="insert" Value="ca" SegId="t1346541"/>
+    <Key Time="62736" Cursor="29" Type="insert" Value="da" SegId="t1346541"/>
+    <Key Time="63016" Cursor="31" Type="insert" Value=" " SegId="t1346541"/>
+    <Key Time="63312" Cursor="32" Type="insert" Value="a " SegId="t1346541"/>
+    <Key Time="63760" Cursor="34" Type="insert" Value="la" SegId="t1346541"/>
+    <Key Time="63857" Cursor="36" Type="insert" Value=" " SegId="t1346541"/>
+    <Key Time="69608" Cursor="37" Type="insert" Value="a" SegId="t1346541"/>
+    <Key Time="69816" Cursor="38" Type="insert" Value="c" SegId="t1346541"/>
+    <Key Time="70448" Cursor="39" Type="insert" Value="t" SegId="t1346541"/>
+    <Key Time="70560" Cursor="40" Type="insert" Value="u" SegId="t1346541"/>
+    <Key Time="70768" Cursor="41" Type="insert" Value="c" SegId="t1346541"/>
+    <Key Time="71544" Cursor="42" Type="insert" Value="i" SegId="t1346541"/>
+    <Key Time="72000" Cursor="43" Type="insert" Value="ón" SegId="t1346541"/>
+    <Key Time="72249" Cursor="45" Type="insert" Value=" p" SegId="t1346541"/>
+    <Key Time="72368" Cursor="47" Type="insert" Value="o" SegId="t1346541"/>
+    <Key Time="72704" Cursor="48" Type="insert" Value="li" SegId="t1346541"/>
+    <Key Time="72952" Cursor="50" Type="insert" Value="ci" SegId="t1346541"/>
+    <Key Time="73065" Cursor="52" Type="insert" Value="a" SegId="t1346541"/>
+    <Key Time="73553" Cursor="53" Type="insert" Value="l" SegId="t1346541"/>
+    <Key Time="73728" Cursor="54" Type="insert" Value=" " SegId="t1346541"/>
+    <Key Time="74041" Cursor="55" Type="insert" Value="en" SegId="t1346541"/>
+    <Key Time="74152" Cursor="57" Type="insert" Value=" " SegId="t1346541"/>
+    <Key Time="75160" Cursor="58" Type="insert" Value="C" SegId="t1346541"/>
+    <Key Time="75352" Cursor="59" Type="insert" Value="H" SegId="t1346541"/>
+    <Key Time="75465" Cursor="60" Type="insert" Value="i" SegId="t1346541"/>
+    <Key Time="75673" Cursor="61" Type="insert" Value="n" SegId="t1346541"/>
+    <Key Time="75784" Cursor="62" Type="insert" Value="a" SegId="t1346541"/>
+    <Key Time="76064" Cursor="63" Type="insert" Value="." SegId="t1346541"/>
+    <Key Time="76592" Cursor="63" Text="." Type="delete" Value="[Back]" SegId="t1346541"/>
+    <Key Time="76752" Cursor="62" Text="a" Type="delete" Value="[Back]" SegId="t1346541"/>
+    <Key Time="76888" Cursor="61" Text="n" Type="delete" Value="[Back]" SegId="t1346541"/>
+    <Key Time="77200" Cursor="60" Text="i" Type="delete" Value="[Back]" SegId="t1346541"/>
+    <Key Time="77664" Cursor="59" Text="H" Type="delete" Value="[Back]" SegId="t1346541"/>
+    <Key Time="78544" Cursor="59" Type="insert" Value="hi" SegId="t1346541"/>
+    <Key Time="78744" Cursor="61" Type="insert" Value="n" SegId="t1346541"/>
+    <Key Time="78864" Cursor="62" Type="insert" Value="a" SegId="t1346541"/>
+    <Key Time="85320" Cursor="0" Type="insert" Value="A" SegId="t1346542"/>
+    <Key Time="85440" Cursor="1" Type="insert" Value="l" SegId="t1346542"/>
+    <Key Time="85713" Cursor="2" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="85928" Cursor="3" Type="insert" Value="i" SegId="t1346542"/>
+    <Key Time="86280" Cursor="4" Type="insert" Value="gu" SegId="t1346542"/>
+    <Key Time="86512" Cursor="6" Type="insert" Value="al" SegId="t1346542"/>
+    <Key Time="86712" Cursor="8" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="87144" Cursor="9" Type="insert" Value="qu" SegId="t1346542"/>
+    <Key Time="87289" Cursor="11" Type="insert" Value="e " SegId="t1346542"/>
+    <Key Time="87480" Cursor="13" Type="insert" Value="u" SegId="t1346542"/>
+    <Key Time="87688" Cursor="14" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="87840" Cursor="15" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="90040" Cursor="16" Type="insert" Value="sa" SegId="t1346542"/>
+    <Key Time="92128" Cursor="18" Type="insert" Value="r" SegId="t1346542"/>
+    <Key Time="92656" Cursor="19" Type="insert" Value="g" SegId="t1346542"/>
+    <Key Time="92920" Cursor="20" Type="insert" Value="en" SegId="t1346542"/>
+    <Key Time="93056" Cursor="22" Type="insert" Value="t" SegId="t1346542"/>
+    <Key Time="93264" Cursor="23" Type="insert" Value="o" SegId="t1346542"/>
+    <Key Time="93416" Cursor="24" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="93560" Cursor="25" Type="insert" Value="d" SegId="t1346542"/>
+    <Key Time="93824" Cursor="26" Type="insert" Value="e " SegId="t1346542"/>
+    <Key Time="94104" Cursor="28" Type="insert" Value="i" SegId="t1346542"/>
+    <Key Time="94312" Cursor="29" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="94952" Cursor="30" Type="insert" Value="t" SegId="t1346542"/>
+    <Key Time="95257" Cursor="31" Type="insert" Value="ra" SegId="t1346542"/>
+    <Key Time="96376" Cursor="33" Type="insert" Value="c" SegId="t1346542"/>
+    <Key Time="96640" Cursor="34" Type="insert" Value="cu" SegId="t1346542"/>
+    <Key Time="97241" Cursor="36" Type="insert" Value="ón" SegId="t1346542"/>
+    <Key Time="98425" Cursor="29" Text="ntraccuón" Type="delete" Value="[Back]" SegId="t1346542"/>
+    <Key Time="100938" Cursor="28" Text="i" Type="delete" Value="[Back]" SegId="t1346542"/>
+    <Key Time="101120" Cursor="27" Text=" " Type="delete" Value="[Back]" SegId="t1346542"/>
+    <Key Time="101280" Cursor="26" Text="e" Type="delete" Value="[Back]" SegId="t1346542"/>
+    <Key Time="101465" Cursor="25" Text="d" Type="delete" Value="[Back]" SegId="t1346542"/>
+    <Key Time="101632" Cursor="24" Text=" " Type="delete" Value="[Back]" SegId="t1346542"/>
+    <Key Time="102184" Cursor="24" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="102977" Cursor="25" Type="insert" Value="d" SegId="t1346542"/>
+    <Key Time="103320" Cursor="26" Type="insert" Value="e " SegId="t1346542"/>
+    <Key Time="103424" Cursor="28" Type="insert" Value="i" SegId="t1346542"/>
+    <Key Time="103672" Cursor="29" Type="insert" Value="ns" SegId="t1346542"/>
+    <Key Time="103905" Cursor="31" Type="insert" Value="t" SegId="t1346542"/>
+    <Key Time="104080" Cursor="32" Type="insert" Value="r" SegId="t1346542"/>
+    <Key Time="104211" Cursor="33" Type="insert" Value="u" SegId="t1346542"/>
+    <Key Time="104416" Cursor="34" Type="insert" Value="c" SegId="t1346542"/>
+    <Key Time="104544" Cursor="35" Type="insert" Value="c" SegId="t1346542"/>
+    <Key Time="104712" Cursor="36" Type="insert" Value="i" SegId="t1346542"/>
+    <Key Time="104960" Cursor="37" Type="insert" Value="ó" SegId="t1346542"/>
+    <Key Time="105080" Cursor="38" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="105224" Cursor="39" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="105432" Cursor="40" Type="insert" Value="u" SegId="t1346542"/>
+    <Key Time="105665" Cursor="41" Type="insert" Value="r" SegId="t1346542"/>
+    <Key Time="106424" Cursor="42" Type="insert" Value="ba" SegId="t1346542"/>
+    <Key Time="106552" Cursor="44" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="106673" Cursor="45" Type="insert" Value="o" SegId="t1346542"/>
+    <Key Time="107088" Cursor="46" Type="insert" Value=", " SegId="t1346542"/>
+    <Key Time="108232" Cursor="48" Type="insert" Value="ca" SegId="t1346542"/>
+    <Key Time="109232" Cursor="49" Text="a" Type="delete" Value="[Back]" SegId="t1346542"/>
+    <Key Time="110273" Cursor="48" Text="c" Type="delete" Value="[Back]" SegId="t1346542"/>
+    <MouseUp Time="114152" Cursor="30" Text="############" SegId="s908014"/>
+    <Key Time="114936" Cursor="30" Text="############" Type="edit" Value="[Ctrl+C]" SegId="s908014"/>
+    <MouseUp Time="115807" Cursor="49" Text="" SegId="t1346542"/>
+    <Key Time="116035" Cursor="48" Text="" Paste="Tang Shenbin" Type="edit" Value="[Ctrl+V]" SegId="t1346542"/>
+    <Key Time="117425" Cursor="60" Type="insert" Value=", " SegId="t1346542"/>
+    <Key Time="117624" Cursor="62" Type="insert" Value="a" SegId="t1346542"/>
+    <Key Time="118056" Cursor="63" Type="insert" Value="va" SegId="t1346542"/>
+    <Key Time="118161" Cursor="65" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="118577" Cursor="66" Type="insert" Value="z" SegId="t1346542"/>
+    <Key Time="118777" Cursor="67" Type="insert" Value="a" SegId="t1346542"/>
+    <Key Time="119032" Cursor="68" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="119326" Cursor="69" Type="insert" Value="po" SegId="t1346542"/>
+    <Key Time="119416" Cursor="71" Type="insert" Value="r" SegId="t1346542"/>
+    <Key Time="119504" Cursor="72" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="119672" Cursor="73" Type="insert" Value="u" SegId="t1346542"/>
+    <Key Time="120000" Cursor="74" Type="insert" Value="na" SegId="t1346542"/>
+    <Key Time="120144" Cursor="76" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="121000" Cursor="77" Type="insert" Value="p" SegId="t1346542"/>
+    <Key Time="121344" Cursor="78" Type="insert" Value="la" SegId="t1346542"/>
+    <Key Time="121576" Cursor="80" Type="insert" Value="z" SegId="t1346542"/>
+    <Key Time="121888" Cursor="81" Type="insert" Value="a " SegId="t1346542"/>
+    <Key Time="121977" Cursor="83" Type="insert" Value="d" SegId="t1346542"/>
+    <Key Time="122201" Cursor="84" Type="insert" Value="e " SegId="t1346542"/>
+    <Key Time="122248" Cursor="86" Type="insert" Value="l" SegId="t1346542"/>
+    <Key Time="122352" Cursor="87" Type="insert" Value="a" SegId="t1346542"/>
+    <Key Time="122424" Cursor="88" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="122680" Cursor="89" Type="insert" Value="ci" SegId="t1346542"/>
+    <Key Time="122912" Cursor="91" Type="insert" Value="ud" SegId="t1346542"/>
+    <Key Time="122976" Cursor="93" Type="insert" Value="a" SegId="t1346542"/>
+    <Key Time="123096" Cursor="94" Type="insert" Value="d" SegId="t1346542"/>
+    <Key Time="123216" Cursor="95" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="123473" Cursor="96" Type="insert" Value="i" SegId="t1346542"/>
+    <Key Time="124384" Cursor="97" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="124624" Cursor="98" Type="insert" Value="s" SegId="t1346542"/>
+    <Key Time="124800" Cursor="99" Type="insert" Value="p" SegId="t1346542"/>
+    <Key Time="124936" Cursor="100" Type="insert" Value="e" SegId="t1346542"/>
+    <Key Time="125144" Cursor="101" Type="insert" Value="c" SegId="t1346542"/>
+    <Key Time="125408" Cursor="102" Type="insert" Value="ci" SegId="t1346542"/>
+    <Key Time="125568" Cursor="104" Type="insert" Value="o" SegId="t1346542"/>
+    <Key Time="125784" Cursor="105" Type="insert" Value="na" SegId="t1346542"/>
+    <Key Time="125968" Cursor="107" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="126392" Cursor="108" Type="insert" Value="do" SegId="t1346542"/>
+    <Key Time="126577" Cursor="110" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="127384" Cursor="111" Type="insert" Value="co" SegId="t1346542"/>
+    <Key Time="127496" Cursor="113" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="127600" Cursor="114" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="128328" Cursor="115" Type="insert" Value="se" SegId="t1346542"/>
+    <Key Time="128752" Cursor="117" Type="insert" Value="f" SegId="t1346542"/>
+    <Key Time="129161" Cursor="117" Text="f" Type="delete" Value="[Back]" SegId="t1346542"/>
+    <Key Time="129416" Cursor="117" Type="insert" Value="v" SegId="t1346542"/>
+    <Key Time="129664" Cursor="118" Type="insert" Value="er" SegId="t1346542"/>
+    <Key Time="129840" Cursor="120" Type="insert" Value="id" SegId="t1346542"/>
+    <Key Time="129913" Cursor="122" Type="insert" Value="a" SegId="t1346542"/>
+    <Key Time="130032" Cursor="123" Type="insert" Value="d" SegId="t1346542"/>
+    <Key Time="130224" Cursor="124" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="130856" Cursor="125" Type="insert" Value="a " SegId="t1346542"/>
+    <Key Time="131512" Cursor="127" Type="insert" Value="s" SegId="t1346542"/>
+    <Key Time="131800" Cursor="128" Type="insert" Value="us" SegId="t1346542"/>
+    <Key Time="131896" Cursor="130" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="132337" Cursor="131" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="132472" Cursor="132" Type="insert" Value="e" SegId="t1346542"/>
+    <Key Time="132624" Cursor="133" Type="insert" Value="r" SegId="t1346542"/>
+    <Key Time="133073" Cursor="134" Type="insert" Value="vi" SegId="t1346542"/>
+    <Key Time="133240" Cursor="136" Type="insert" Value="s" SegId="t1346542"/>
+    <Key Time="133480" Cursor="137" Type="insert" Value="os" SegId="t1346542"/>
+    <Key Time="133816" Cursor="139" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="134065" Cursor="140" Type="insert" Value="su" SegId="t1346542"/>
+    <Key Time="135016" Cursor="142" Type="insert" Value="b" SegId="t1346542"/>
+    <Key Time="135190" Cursor="143" Type="insert" Value="o" SegId="t1346542"/>
+    <Key Time="135385" Cursor="144" Type="insert" Value="r" SegId="t1346542"/>
+    <Key Time="135584" Cursor="145" Type="insert" Value="d" SegId="t1346542"/>
+    <Key Time="135704" Cursor="146" Type="insert" Value="i" SegId="t1346542"/>
+    <Key Time="135976" Cursor="147" Type="insert" Value="na" SegId="t1346542"/>
+    <Key Time="136152" Cursor="149" Type="insert" Value="d" SegId="t1346542"/>
+    <Key Time="136304" Cursor="150" Type="insert" Value="os" SegId="t1346542"/>
+    <Key Time="136824" Cursor="152" Type="insert" Value=", " SegId="t1346542"/>
+    <Key Time="138168" Cursor="154" Type="insert" Value="da" SegId="t1346542"/>
+    <Key Time="138272" Cursor="156" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="138497" Cursor="157" Type="insert" Value="do" SegId="t1346542"/>
+    <Key Time="138624" Cursor="159" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="139816" Cursor="160" Type="insert" Value="ór" SegId="t1346542"/>
+    <Key Time="140024" Cursor="162" Type="insert" Value="d" SegId="t1346542"/>
+    <Key Time="140160" Cursor="163" Type="insert" Value="e" SegId="t1346542"/>
+    <Key Time="140248" Cursor="164" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="140952" Cursor="165" Type="insert" Value="es" SegId="t1346542"/>
+    <Key Time="141081" Cursor="167" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="141825" Cursor="168" Type="insert" Value="s" SegId="t1346542"/>
+    <Key Time="142001" Cursor="169" Type="insert" Value="o" SegId="t1346542"/>
+    <Key Time="142289" Cursor="170" Type="insert" Value="t" SegId="t1346542"/>
+    <Key Time="142425" Cursor="171" Type="insert" Value="t" SegId="t1346542"/>
+    <Key Time="142576" Cursor="172" Type="insert" Value="o" SegId="t1346542"/>
+    <Key Time="142936" Cursor="173" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="143273" Cursor="174" Type="insert" Value="v" SegId="t1346542"/>
+    <Key Time="143384" Cursor="175" Type="insert" Value="o" SegId="t1346542"/>
+    <Key Time="143497" Cursor="176" Type="insert" Value="c" SegId="t1346542"/>
+    <Key Time="143681" Cursor="177" Type="insert" Value="e" SegId="t1346542"/>
+    <Key Time="144640" Cursor="178" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="144928" Cursor="179" Type="insert" Value="co" SegId="t1346542"/>
+    <Key Time="145049" Cursor="181" Type="insert" Value="n" SegId="t1346542"/>
+    <Key Time="145193" Cursor="182" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="145408" Cursor="183" Type="insert" Value="a" SegId="t1346542"/>
+    <Key Time="145552" Cursor="184" Type="insert" Value="u" SegId="t1346542"/>
+    <Key Time="145769" Cursor="185" Type="insert" Value="t" SegId="t1346542"/>
+    <Key Time="145912" Cursor="186" Type="insert" Value="o" SegId="t1346542"/>
+    <Key Time="146289" Cursor="187" Type="insert" Value="ri" SegId="t1346542"/>
+    <Key Time="146512" Cursor="189" Type="insert" Value="d" SegId="t1346542"/>
+    <Key Time="146736" Cursor="190" Type="insert" Value="ad" SegId="t1346542"/>
+    <Key Time="146841" Cursor="192" Type="insert" Value=" " SegId="t1346542"/>
+    <Key Time="147032" Cursor="193" Type="insert" Value="m" SegId="t1346542"/>
+    <Key Time="147536" Cursor="194" Type="insert" Value="i" SegId="t1346542"/>
+    <Key Time="147793" Cursor="195" Type="insert" Value="li" SegId="t1346542"/>
+    <Key Time="148144" Cursor="197" Type="insert" Value="t" SegId="t1346542"/>
+    <Key Time="148400" Cursor="198" Type="insert" Value="ar" SegId="t1346542"/>
+    <Key Time="149560" Cursor="200" Type="insert" Value="." SegId="t1346542"/>
+    <Key Time="153432" Cursor="0" Type="insert" Value="Q" SegId="t1346543"/>
+    <Key Time="153641" Cursor="1" Type="insert" Value="u" SegId="t1346543"/>
+    <Key Time="153729" Cursor="2" Type="insert" Value="i" SegId="t1346543"/>
+    <Key Time="153864" Cursor="3" Type="insert" Value="e" SegId="t1346543"/>
+    <Key Time="154136" Cursor="4" Type="insert" Value="re" SegId="t1346543"/>
+    <Key Time="154537" Cursor="6" Type="insert" Value=" q" SegId="t1346543"/>
+    <Key Time="154664" Cursor="8" Type="insert" Value="ue" SegId="t1346543"/>
+    <Key Time="154728" Cursor="10" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="154864" Cursor="11" Type="insert" Value="l" SegId="t1346543"/>
+    <Key Time="155104" Cursor="12" Type="insert" Value="os" SegId="t1346543"/>
+    <Key Time="155168" Cursor="14" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="155520" Cursor="15" Type="insert" Value="m" SegId="t1346543"/>
+    <Key Time="155736" Cursor="16" Type="insert" Value="i" SegId="t1346543"/>
+    <Key Time="155849" Cursor="17" Type="insert" Value="e" SegId="t1346543"/>
+    <Key Time="155985" Cursor="18" Type="insert" Value="m" SegId="t1346543"/>
+    <Key Time="156192" Cursor="19" Type="insert" Value="b" SegId="t1346543"/>
+    <Key Time="156552" Cursor="20" Type="insert" Value="re" SegId="t1346543"/>
+    <Key Time="157097" Cursor="21" Text="e" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="157432" Cursor="21" Type="insert" Value="os" SegId="t1346543"/>
+    <Key Time="157521" Cursor="23" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="157770" Cursor="24" Type="insert" Value="d" SegId="t1346543"/>
+    <Key Time="158136" Cursor="25" Type="insert" Value="e " SegId="t1346543"/>
+    <Key Time="158873" Cursor="26" Text=" " Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="159032" Cursor="25" Text="e" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="159441" Cursor="24" Text="d" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="159721" Cursor="24" Type="insert" Value="f" SegId="t1346543"/>
+    <Key Time="160232" Cursor="25" Type="insert" Value="e" SegId="t1346543"/>
+    <Key Time="160401" Cursor="26" Type="insert" Value="m" SegId="t1346543"/>
+    <Key Time="160528" Cursor="27" Type="insert" Value="e" SegId="t1346543"/>
+    <Key Time="160856" Cursor="28" Type="insert" Value="n" SegId="t1346543"/>
+    <Key Time="161376" Cursor="29" Type="insert" Value="i" SegId="t1346543"/>
+    <Key Time="162136" Cursor="30" Type="insert" Value="no" SegId="t1346543"/>
+    <Key Time="162393" Cursor="32" Type="insert" Value="s " SegId="t1346543"/>
+    <Key Time="162465" Cursor="34" Type="insert" Value="d" SegId="t1346543"/>
+    <Key Time="162737" Cursor="35" Type="insert" Value="e " SegId="t1346543"/>
+    <Key Time="165104" Cursor="37" Type="insert" Value="la" SegId="t1346543"/>
+    <Key Time="165936" Cursor="39" Type="insert" Value=" " SegId="t1346543"/>
+    <MouseUp Time="167711" Cursor="37" Text="" SegId="s908015"/>
+    <MouseUp Time="167792" Cursor="37" Text="" SegId="s908015"/>
+    <MouseUp Time="169248" Cursor="165" Text="" SegId="t1346542"/>
+    <MouseUp Time="169836" Cursor="39" Text="" SegId="s908015"/>
+    <MouseUp Time="170008" Cursor="32" Text="##########" SegId="s908015"/>
+    <Key Time="170985" Cursor="32" Text="##########" Type="edit" Value="[Ctrl+C]" SegId="s908015"/>
+    <MouseUp Time="171296" Cursor="41" Text="" SegId="t1346543"/>
+    <Key Time="171563" Cursor="40" Text="" Paste="chengguan " Type="edit" Value="[Ctrl+V]" SegId="t1346543"/>
+    <Key Time="173250" Cursor="48" Text="n" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="173690" Cursor="48" Type="insert" Value=", " SegId="t1346543"/>
+    <Key Time="176337" Cursor="49" Text=" " Type="insert" Value=" l" SegId="t1346543"/>
+    <Key Time="176673" Cursor="51" Type="insert" Value="os" SegId="t1346543"/>
+    <Key Time="176785" Cursor="53" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="177128" Cursor="53" Text=" " Type="insert" Value=" fo" SegId="t1346543"/>
+    <Key Time="177368" Cursor="56" Type="insert" Value="rm" SegId="t1346543"/>
+    <Key Time="177656" Cursor="58" Type="insert" Value="ni" SegId="t1346543"/>
+    <Key Time="178424" Cursor="59" Text="i" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="178568" Cursor="58" Text="n" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="178672" Cursor="57" Text="m" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="179201" Cursor="57" Type="insert" Value="ni" SegId="t1346543"/>
+    <Key Time="179544" Cursor="59" Type="insert" Value="do" SegId="t1346543"/>
+    <Key Time="179728" Cursor="61" Type="insert" Value="s " SegId="t1346543"/>
+    <Key Time="179945" Cursor="62" Text=" " Type="insert" Value=" c" SegId="t1346543"/>
+    <Key Time="180295" Cursor="62" Text=" c" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="181361" Cursor="62" Text=" " Type="insert" Value=" g" SegId="t1346543"/>
+    <Key Time="181492" Cursor="64" Type="insert" Value="u" SegId="t1346543"/>
+    <Key Time="181848" Cursor="65" Type="insert" Value="ar" SegId="t1346543"/>
+    <Key Time="182160" Cursor="67" Type="insert" Value="i" SegId="t1346543"/>
+    <Key Time="182297" Cursor="68" Type="insert" Value="a" SegId="t1346543"/>
+    <Key Time="182617" Cursor="69" Type="insert" Value="ne" SegId="t1346543"/>
+    <Key Time="182726" Cursor="71" Type="insert" Value="s" SegId="t1346543"/>
+    <Key Time="182800" Cursor="72" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="182929" Cursor="72" Text=" " Type="insert" Value=" d" SegId="t1346543"/>
+    <Key Time="183160" Cursor="74" Type="insert" Value="e " SegId="t1346543"/>
+    <Key Time="183257" Cursor="75" Text=" " Type="insert" Value=" l" SegId="t1346543"/>
+    <Key Time="183361" Cursor="77" Type="insert" Value="a" SegId="t1346543"/>
+    <Key Time="183417" Cursor="78" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="183913" Cursor="78" Text=" " Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="184111" Cursor="77" Text="a" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="185936" Cursor="69" Text="nes de l" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="186440" Cursor="68" Text="a" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="186632" Cursor="67" Text="i" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="187129" Cursor="67" Type="insert" Value="di" SegId="t1346543"/>
+    <Key Time="187264" Cursor="69" Type="insert" Value="a" SegId="t1346543"/>
+    <Key Time="187412" Cursor="70" Type="insert" Value="n" SegId="t1346543"/>
+    <Key Time="187648" Cursor="71" Type="insert" Value="es" SegId="t1346543"/>
+    <Key Time="187736" Cursor="73" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="187873" Cursor="73" Text=" " Type="insert" Value=" d" SegId="t1346543"/>
+    <Key Time="188121" Cursor="75" Type="insert" Value="el" SegId="t1346543"/>
+    <Key Time="188248" Cursor="77" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="188456" Cursor="77" Text=" " Type="insert" Value=" or" SegId="t1346543"/>
+    <Key Time="188689" Cursor="80" Type="insert" Value="d" SegId="t1346543"/>
+    <Key Time="188872" Cursor="81" Type="insert" Value="e" SegId="t1346543"/>
+    <Key Time="188978" Cursor="82" Type="insert" Value="n" SegId="t1346543"/>
+    <Key Time="189088" Cursor="83" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="189528" Cursor="83" Text=" " Type="insert" Value=" u" SegId="t1346543"/>
+    <Key Time="189785" Cursor="85" Type="insert" Value="r" SegId="t1346543"/>
+    <Key Time="190216" Cursor="86" Type="insert" Value="ba" SegId="t1346543"/>
+    <Key Time="190360" Cursor="88" Type="insert" Value="n" SegId="t1346543"/>
+    <Key Time="190481" Cursor="89" Type="insert" Value="o" SegId="t1346543"/>
+    <Key Time="191752" Cursor="90" Type="insert" Value=", " SegId="t1346543"/>
+    <Key Time="192329" Cursor="91" Text=" " Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="192544" Cursor="90" Text="," Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="192928" Cursor="90" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="193209" Cursor="90" Type="insert" Value=" en" SegId="t1346543"/>
+    <Key Time="193785" Cursor="93" Text=" " Type="insert" Value=" C" SegId="t1346543"/>
+    <Key Time="193928" Cursor="95" Type="insert" Value="h" SegId="t1346543"/>
+    <Key Time="194032" Cursor="96" Type="insert" Value="i" SegId="t1346543"/>
+    <Key Time="194232" Cursor="97" Type="insert" Value="n" SegId="t1346543"/>
+    <Key Time="194528" Cursor="98" Type="insert" Value="a" SegId="t1346543"/>
+    <Key Time="194880" Cursor="99" Type="insert" Value=", " SegId="t1346543"/>
+    <Key Time="195344" Cursor="100" Text=" " Type="insert" Value=" te" SegId="t1346543"/>
+    <Key Time="195408" Cursor="103" Type="insert" Value="m" SegId="t1346543"/>
+    <Key Time="195633" Cursor="104" Type="insert" Value="i" SegId="t1346543"/>
+    <Key Time="195841" Cursor="105" Type="insert" Value="d" SegId="t1346543"/>
+    <Key Time="195977" Cursor="106" Type="insert" Value="o" SegId="t1346543"/>
+    <Key Time="196240" Cursor="107" Type="insert" Value="s " SegId="t1346543"/>
+    <Key Time="196400" Cursor="108" Text=" " Type="insert" Value=" p" SegId="t1346543"/>
+    <Key Time="196528" Cursor="110" Type="insert" Value="o" SegId="t1346543"/>
+    <Key Time="196816" Cursor="111" Type="insert" Value="r " SegId="t1346543"/>
+    <Key Time="197257" Cursor="112" Text=" " Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="197430" Cursor="111" Text="r" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="197505" Cursor="110" Text="o" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="197705" Cursor="108" Text=" p" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="198113" Cursor="108" Text=" " Type="insert" Value=" y" SegId="t1346543"/>
+    <Key Time="198264" Cursor="110" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="198824" Cursor="110" Text=" " Type="insert" Value=" d" SegId="t1346543"/>
+    <Key Time="199001" Cursor="112" Type="insert" Value="e" SegId="t1346543"/>
+    <Key Time="199336" Cursor="113" Type="insert" Value="s" SegId="t1346543"/>
+    <Key Time="199528" Cursor="114" Type="insert" Value="p" SegId="t1346543"/>
+    <Key Time="199776" Cursor="115" Type="insert" Value="re" SegId="t1346543"/>
+    <Key Time="200080" Cursor="117" Type="insert" Value="c" SegId="t1346543"/>
+    <Key Time="200243" Cursor="118" Type="insert" Value="ia" SegId="t1346543"/>
+    <Key Time="200416" Cursor="120" Type="insert" Value="d" SegId="t1346543"/>
+    <Key Time="200563" Cursor="121" Type="insert" Value="o" SegId="t1346543"/>
+    <Key Time="200760" Cursor="122" Type="insert" Value="s " SegId="t1346543"/>
+    <Key Time="201120" Cursor="123" Text=" " Type="insert" Value=" po" SegId="t1346543"/>
+    <Key Time="201272" Cursor="126" Type="insert" Value="r" SegId="t1346543"/>
+    <Key Time="201368" Cursor="127" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="201600" Cursor="127" Text=" " Type="insert" Value=" s" SegId="t1346543"/>
+    <Key Time="201712" Cursor="129" Type="insert" Value="u" SegId="t1346543"/>
+    <Key Time="201936" Cursor="130" Type="insert" Value="s " SegId="t1346543"/>
+    <Key Time="202201" Cursor="131" Text=" " Type="insert" Value=" c" SegId="t1346543"/>
+    <Key Time="202433" Cursor="133" Type="insert" Value="a" SegId="t1346543"/>
+    <Key Time="202792" Cursor="134" Type="insert" Value="p" SegId="t1346543"/>
+    <Key Time="203056" Cursor="135" Type="insert" Value="ri" SegId="t1346543"/>
+    <Key Time="203240" Cursor="137" Type="insert" Value="c" SegId="t1346543"/>
+    <Key Time="203488" Cursor="138" Type="insert" Value="ho" SegId="t1346543"/>
+    <Key Time="203616" Cursor="140" Type="insert" Value="s" SegId="t1346543"/>
+    <Key Time="203968" Cursor="141" Type="insert" Value="as" SegId="t1346543"/>
+    <Key Time="204169" Cursor="143" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="204784" Cursor="143" Text=" " Type="insert" Value=" me" SegId="t1346543"/>
+    <Key Time="204984" Cursor="146" Type="insert" Value="d" SegId="t1346543"/>
+    <Key Time="205088" Cursor="147" Type="insert" Value="i" SegId="t1346543"/>
+    <Key Time="205208" Cursor="148" Type="insert" Value="d" SegId="t1346543"/>
+    <Key Time="205320" Cursor="149" Type="insert" Value="a" SegId="t1346543"/>
+    <Key Time="205448" Cursor="150" Type="insert" Value="s" SegId="t1346543"/>
+    <Key Time="205665" Cursor="151" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="205993" Cursor="151" Text=" " Type="insert" Value=" e" SegId="t1346543"/>
+    <Key Time="206808" Cursor="153" Type="insert" Value="n" SegId="t1346543"/>
+    <Key Time="207120" Cursor="154" Type="insert" Value="é" SegId="t1346543"/>
+    <Key Time="207216" Cursor="155" Type="insert" Value="r" SegId="t1346543"/>
+    <Key Time="207616" Cursor="156" Type="insert" Value="gi" SegId="t1346543"/>
+    <Key Time="207824" Cursor="158" Type="insert" Value="c" SegId="t1346543"/>
+    <Key Time="208089" Cursor="159" Type="insert" Value="as" SegId="t1346543"/>
+    <Key Time="208241" Cursor="161" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="209330" Cursor="161" Text=" " Type="insert" Value=" y" SegId="t1346543"/>
+    <Key Time="209689" Cursor="163" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="210320" Cursor="163" Text=" " Type="insert" Value=" po" SegId="t1346543"/>
+    <Key Time="210401" Cursor="166" Type="insert" Value="r" SegId="t1346543"/>
+    <Key Time="210544" Cursor="167" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="210648" Cursor="167" Text=" " Type="insert" Value=" s" SegId="t1346543"/>
+    <Key Time="210688" Cursor="169" Type="insert" Value="u" SegId="t1346543"/>
+    <Key Time="210777" Cursor="170" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="211497" Cursor="170" Text=" " Type="insert" Value=" g" SegId="t1346543"/>
+    <Key Time="211736" Cursor="172" Type="insert" Value="us" SegId="t1346543"/>
+    <Key Time="211985" Cursor="174" Type="insert" Value="to" SegId="t1346543"/>
+    <Key Time="212080" Cursor="176" Type="insert" Value="s" SegId="t1346543"/>
+    <Key Time="212161" Cursor="177" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="212280" Cursor="177" Text=" " Type="insert" Value=" p" SegId="t1346543"/>
+    <Key Time="212360" Cursor="179" Type="insert" Value="o" SegId="t1346543"/>
+    <Key Time="212419" Cursor="180" Type="insert" Value="r" SegId="t1346543"/>
+    <Key Time="212536" Cursor="181" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="212640" Cursor="181" Text=" " Type="insert" Value=" l" SegId="t1346543"/>
+    <Key Time="212745" Cursor="183" Type="insert" Value="a" SegId="t1346543"/>
+    <Key Time="212816" Cursor="184" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="213344" Cursor="184" Text=" " Type="insert" Value=" vi" SegId="t1346543"/>
+    <Key Time="213456" Cursor="187" Type="insert" Value="o" SegId="t1346543"/>
+    <Key Time="213857" Cursor="188" Type="insert" Value="l" SegId="t1346543"/>
+    <Key Time="214048" Cursor="189" Type="insert" Value="en" SegId="t1346543"/>
+    <Key Time="214344" Cursor="191" Type="insert" Value="ci" SegId="t1346543"/>
+    <Key Time="214449" Cursor="193" Type="insert" Value="a" SegId="t1346543"/>
+    <Key Time="215376" Cursor="194" Type="insert" Value=", " SegId="t1346543"/>
+    <Key Time="215640" Cursor="195" Text=" " Type="insert" Value=" l" SegId="t1346543"/>
+    <Key Time="215689" Cursor="197" Type="insert" Value="e" SegId="t1346543"/>
+    <Key Time="216529" Cursor="198" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="216858" Cursor="198" Text=" " Type="insert" Value=" t" SegId="t1346543"/>
+    <Key Time="217152" Cursor="200" Type="insert" Value="ra" SegId="t1346543"/>
+    <Key Time="217248" Cursor="202" Type="insert" Value="n" SegId="t1346543"/>
+    <Key Time="217408" Cursor="203" Type="insert" Value="s" SegId="t1346543"/>
+    <Key Time="217720" Cursor="204" Type="insert" Value="m" SegId="t1346543"/>
+    <Key Time="217912" Cursor="205" Type="insert" Value="i" SegId="t1346543"/>
+    <Key Time="218297" Cursor="206" Type="insert" Value="ta" SegId="t1346543"/>
+    <Key Time="218402" Cursor="208" Type="insert" Value="n" SegId="t1346543"/>
+    <Key Time="218585" Cursor="209" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="219217" Cursor="209" Text=" " Type="insert" Value=" u" SegId="t1346543"/>
+    <Key Time="219496" Cursor="211" Type="insert" Value="na" SegId="t1346543"/>
+    <Key Time="219593" Cursor="213" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="219864" Cursor="213" Text=" " Type="insert" Value=" c" SegId="t1346543"/>
+    <Key Time="219986" Cursor="215" Type="insert" Value="i" SegId="t1346543"/>
+    <Key Time="220209" Cursor="216" Type="insert" Value="er" SegId="t1346543"/>
+    <Key Time="220480" Cursor="218" Type="insert" Value="ta" SegId="t1346543"/>
+    <Key Time="220632" Cursor="220" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="221964" Cursor="206" Text="tan una cierta " Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="222160" Cursor="205" Text="i" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="222320" Cursor="204" Text="m" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="222424" Cursor="203" Text="s" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="222609" Cursor="202" Text="n" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="222744" Cursor="201" Text="a" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="222872" Cursor="200" Text="r" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="223184" Cursor="200" Type="insert" Value="ca" SegId="t1346543"/>
+    <Key Time="223448" Cursor="201" Text="a" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="223608" Cursor="200" Text="c" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="223952" Cursor="198" Text=" t" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="224152" Cursor="198" Text=" " Type="insert" Value=" ca" SegId="t1346543"/>
+    <Key Time="224536" Cursor="201" Type="insert" Value="u" SegId="t1346543"/>
+    <Key Time="224921" Cursor="202" Type="insert" Value="se" SegId="t1346543"/>
+    <Key Time="224960" Cursor="204" Type="insert" Value="n" SegId="t1346543"/>
+    <Key Time="225265" Cursor="206" Type="insert" Value="u " SegId="t1346543"/>
+    <Key Time="225464" Cursor="207" Type="insert" Value="na" SegId="t1346543"/>
+    <Key Time="225616" Cursor="209" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="226096" Cursor="209" Text=" " Type="insert" Value=" ci" SegId="t1346543"/>
+    <Key Time="226328" Cursor="212" Type="insert" Value="er" SegId="t1346543"/>
+    <Key Time="226593" Cursor="214" Type="insert" Value="ta" SegId="t1346543"/>
+    <Key Time="226664" Cursor="216" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="226793" Cursor="216" Text=" " Type="insert" Value=" i" SegId="t1346543"/>
+    <Key Time="227001" Cursor="218" Type="insert" Value="m" SegId="t1346543"/>
+    <Key Time="227289" Cursor="219" Type="insert" Value="pre" SegId="t1346543"/>
+    <Key Time="227448" Cursor="222" Type="insert" Value="s" SegId="t1346543"/>
+    <Key Time="227552" Cursor="223" Type="insert" Value="i" SegId="t1346543"/>
+    <Key Time="227809" Cursor="224" Type="insert" Value="ó" SegId="t1346543"/>
+    <Key Time="227912" Cursor="225" Type="insert" Value="n" SegId="t1346543"/>
+    <Key Time="228080" Cursor="226" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="228265" Cursor="226" Text=" " Type="insert" Value=" a" SegId="t1346543"/>
+    <Key Time="229352" Cursor="228" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="229602" Cursor="228" Text=" " Type="insert" Value=" u" SegId="t1346543"/>
+    <Key Time="229824" Cursor="230" Type="insert" Value="n" SegId="t1346543"/>
+    <Key Time="230008" Cursor="231" Type="insert" Value=" " SegId="t1346543"/>
+    <Key Time="230281" Cursor="231" Text=" " Type="insert" Value=" p" SegId="t1346543"/>
+    <Key Time="230489" Cursor="233" Type="insert" Value="u" SegId="t1346543"/>
+    <Key Time="230744" Cursor="234" Type="insert" Value="c" SegId="t1346543"/>
+    <Key Time="231800" Cursor="234" Text="c" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="232186" Cursor="234" Type="insert" Value="ña" SegId="t1346543"/>
+    <Key Time="232481" Cursor="236" Type="insert" Value="do" SegId="t1346543"/>
+    <Key Time="232906" Cursor="239" Type="insert" Value="d " SegId="t1346543"/>
+    <Key Time="233072" Cursor="240" Type="insert" Value="e" SegId="t1346543"/>
+    <Key Time="233289" Cursor="242" Type="insert" Value="e " SegId="t1346543"/>
+    <Key Time="233633" Cursor="243" Type="insert" Value="x" SegId="t1346543"/>
+    <Key Time="233784" Cursor="244" Type="insert" Value="p" SegId="t1346543"/>
+    <Key Time="233968" Cursor="245" Type="insert" Value="e" SegId="t1346543"/>
+    <Key Time="234185" Cursor="246" Type="insert" Value="c" SegId="t1346543"/>
+    <Key Time="234496" Cursor="247" Type="insert" Value="ta" SegId="t1346543"/>
+    <Key Time="234808" Cursor="249" Type="insert" Value="d" SegId="t1346543"/>
+    <Key Time="234936" Cursor="250" Type="insert" Value="o" SegId="t1346543"/>
+    <Key Time="235432" Cursor="251" Type="insert" Value="re" SegId="t1346543"/>
+    <Key Time="235537" Cursor="253" Type="insert" Value="s" SegId="t1346543"/>
+    <Key Time="235776" Cursor="254" Type="insert" Value="." SegId="t1346543"/>
+    <Key Time="242754" Cursor="0" Type="insert" Value="¡" SegId="t1346544"/>
+    <Key Time="243137" Cursor="1" Type="insert" Value="F" SegId="t1346544"/>
+    <Key Time="243392" Cursor="2" Type="insert" Value="u" SegId="t1346544"/>
+    <Key Time="243777" Cursor="2" Text="u" Type="delete" Value="[Back]" SegId="t1346544"/>
+    <Key Time="244072" Cursor="2" Type="insert" Value="ie" SegId="t1346544"/>
+    <Key Time="244137" Cursor="4" Type="insert" Value="r" SegId="t1346544"/>
+    <Key Time="244232" Cursor="5" Type="insert" Value="m" SegId="t1346544"/>
+    <Key Time="244440" Cursor="6" Type="insert" Value="es" SegId="t1346544"/>
+    <Key Time="245225" Cursor="8" Type="insert" Value="!" SegId="t1346544"/>
+    <MouseUp Time="248104" Cursor="5" Text="" SegId="t1346544"/>
+    <Key Time="250504" Cursor="3" Text="e" Type="delete" Value="[Back]" SegId="t1346544"/>
+    <Key Time="259849" Cursor="0" Type="insert" Value="¿" SegId="t1346545"/>
+    <Key Time="261080" Cursor="1" Type="insert" Value="D" SegId="t1346545"/>
+    <Key Time="261369" Cursor="2" Type="insert" Value="e " SegId="t1346545"/>
+    <Key Time="261553" Cursor="4" Type="insert" Value="p" SegId="t1346545"/>
+    <Key Time="261768" Cursor="5" Type="insert" Value="ri" SegId="t1346545"/>
+    <Key Time="262032" Cursor="7" Type="insert" Value="sa" SegId="t1346545"/>
+    <Key Time="263408" Cursor="9" Type="insert" Value="!" SegId="t1346545"/>
+    <Key Time="263856" Cursor="10" Type="insert" Value="&quot;" SegId="t1346545"/>
+    <MouseUp Time="265888" Cursor="2" Text="" SegId="t1346545"/>
+    <MouseUp Time="266432" Cursor="1" Text="" SegId="t1346545"/>
+    <Key Time="267176" Cursor="0" Text="¿" Type="delete" Value="[Back]" SegId="t1346545"/>
+    <Key Time="267376" Cursor="0" Type="insert" Value="¡" SegId="t1346545"/>
+    <MouseUp Time="268880" Cursor="12" Text="" SegId="t1346545"/>
+    <MouseUp Time="272655" Cursor="0" Text="" SegId="t1346546"/>
+    <MouseUp Time="274983" Cursor="0" Text="" SegId="t1346546"/>
+    <Key Time="277544" Cursor="0" Type="insert" Value="E" SegId="t1346546"/>
+    <Key Time="277680" Cursor="1" Type="insert" Value="n" SegId="t1346546"/>
+    <Key Time="277905" Cursor="2" Type="insert" Value="se" SegId="t1346546"/>
+    <Key Time="278288" Cursor="4" Type="insert" Value="ña" SegId="t1346546"/>
+    <Key Time="278768" Cursor="6" Type="insert" Value="d" SegId="t1346546"/>
+    <Key Time="279201" Cursor="7" Type="insert" Value="le" SegId="t1346546"/>
+    <Key Time="279304" Cursor="9" Type="insert" Value="s" SegId="t1346546"/>
+    <Key Time="280409" Cursor="10" Type="insert" Value=", " SegId="t1346546"/>
+    <Key Time="281113" Cursor="12" Type="insert" Value="s" SegId="t1346546"/>
+    <Key Time="281216" Cursor="13" Type="insert" Value="u" SegId="t1346546"/>
+    <Key Time="281328" Cursor="14" Type="insert" Value="s" SegId="t1346546"/>
+    <Key Time="281530" Cursor="15" Type="insert" Value="u" SegId="t1346546"/>
+    <Key Time="282056" Cursor="16" Type="insert" Value="r" SegId="t1346546"/>
+    <Key Time="282344" Cursor="17" Type="insert" Value="ra" SegId="t1346546"/>
+    <Key Time="282664" Cursor="19" Type="insert" Value=", " SegId="t1346546"/>
+    <Key Time="282912" Cursor="21" Type="insert" Value="c" SegId="t1346546"/>
+    <Key Time="283145" Cursor="22" Type="insert" Value="ó" SegId="t1346546"/>
+    <Key Time="283448" Cursor="23" Type="insert" Value="mo" SegId="t1346546"/>
+    <Key Time="283624" Cursor="25" Type="insert" Value=" " SegId="t1346546"/>
+    <Key Time="283840" Cursor="26" Type="insert" Value="so" SegId="t1346546"/>
+    <Key Time="284000" Cursor="28" Type="insert" Value="n" SegId="t1346546"/>
+    <Key Time="284553" Cursor="29" Type="insert" Value=" l" SegId="t1346546"/>
+    <Key Time="284785" Cursor="31" Type="insert" Value="o" SegId="t1346546"/>
+    <Key Time="285368" Cursor="31" Text="o" Type="delete" Value="[Back]" SegId="t1346546"/>
+    <Key Time="285472" Cursor="32" Type="insert" Value="s" SegId="t1346546"/>
+    <Key Time="285544" Cursor="33" Type="insert" Value=" " SegId="t1346546"/>
+    <Key Time="285760" Cursor="34" Type="insert" Value="c" SegId="t1346546"/>
+    <Key Time="285960" Cursor="35" Type="insert" Value="hi" SegId="t1346546"/>
+    <Key Time="286048" Cursor="37" Type="insert" Value="c" SegId="t1346546"/>
+    <Key Time="286153" Cursor="38" Type="insert" Value="a" SegId="t1346546"/>
+    <Key Time="286264" Cursor="39" Type="insert" Value="s" SegId="t1346546"/>
+    <Key Time="286360" Cursor="40" Type="insert" Value=" " SegId="t1346546"/>
+    <Key Time="286713" Cursor="41" Type="insert" Value="b" SegId="t1346546"/>
+    <Key Time="286872" Cursor="42" Type="insert" Value="o" SegId="t1346546"/>
+    <Key Time="287136" Cursor="43" Type="insert" Value="ni" SegId="t1346546"/>
+    <Key Time="287681" Cursor="45" Type="insert" Value="ta" SegId="t1346546"/>
+    <Key Time="288841" Cursor="47" Type="insert" Value="s" SegId="t1346546"/>
+    <MouseUp Time="292249" Cursor="0" Text="" SegId="t1346546"/>
+    <MouseUp Time="297255" Cursor="49" Text="" SegId="t1346546"/>
+    <Key Time="298146" Cursor="48" Type="insert" Value="." SegId="t1346546"/>
+    <Key Time="300056" Cursor="49" Type="insert" Value="&quot;" SegId="t1346546"/>
+    <MouseUp Time="309208" Cursor="0" Text="" SegId="t1346547"/>
+    <Key Time="310016" Cursor="0" Type="insert" Value="C" SegId="t1346547"/>
+    <Key Time="310129" Cursor="1" Type="insert" Value="u" SegId="t1346547"/>
+    <Key Time="310353" Cursor="2" Type="insert" Value="a" SegId="t1346547"/>
+    <Key Time="310601" Cursor="3" Type="insert" Value="tr" SegId="t1346547"/>
+    <Key Time="310712" Cursor="5" Type="insert" Value="o" SegId="t1346547"/>
+    <Key Time="310842" Cursor="6" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="311008" Cursor="7" Type="insert" Value="a" SegId="t1346547"/>
+    <Key Time="311618" Cursor="7" Text="a" Type="delete" Value="[Back]" SegId="t1346547"/>
+    <Key Time="311776" Cursor="7" Type="insert" Value="c" SegId="t1346547"/>
+    <Key Time="312104" Cursor="8" Type="insert" Value="hi" SegId="t1346547"/>
+    <Key Time="312481" Cursor="10" Type="insert" Value="c" SegId="t1346547"/>
+    <Key Time="312640" Cursor="11" Type="insert" Value="a" SegId="t1346547"/>
+    <Key Time="312900" Cursor="12" Type="insert" Value="s" SegId="t1346547"/>
+    <Key Time="317489" Cursor="13" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="318257" Cursor="14" Type="insert" Value="que" SegId="t1346547"/>
+    <Key Time="318377" Cursor="17" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="318697" Cursor="18" Type="insert" Value="a" SegId="t1346547"/>
+    <Key Time="318825" Cursor="19" Type="insert" Value="p" SegId="t1346547"/>
+    <Key Time="319416" Cursor="20" Type="insert" Value="e" SegId="t1346547"/>
+    <Key Time="319600" Cursor="21" Type="insert" Value="n" SegId="t1346547"/>
+    <Key Time="319744" Cursor="22" Type="insert" Value="a" SegId="t1346547"/>
+    <Key Time="320193" Cursor="23" Type="insert" Value="s " SegId="t1346547"/>
+    <Key Time="320320" Cursor="25" Type="insert" Value="h" SegId="t1346547"/>
+    <Key Time="320424" Cursor="26" Type="insert" Value="a" SegId="t1346547"/>
+    <Key Time="320907" Cursor="27" Type="insert" Value="n" SegId="t1346547"/>
+    <Key Time="321043" Cursor="28" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="321320" Cursor="29" Type="insert" Value="su" SegId="t1346547"/>
+    <Key Time="321584" Cursor="31" Type="insert" Value="p" SegId="t1346547"/>
+    <Key Time="321794" Cursor="32" Type="insert" Value="er" SegId="t1346547"/>
+    <Key Time="321913" Cursor="34" Type="insert" Value="a" SegId="t1346547"/>
+    <Key Time="322312" Cursor="35" Type="insert" Value="do" SegId="t1346547"/>
+    <Key Time="322440" Cursor="37" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="322640" Cursor="38" Type="insert" Value="la" SegId="t1346547"/>
+    <Key Time="322712" Cursor="40" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="322952" Cursor="41" Type="insert" Value="a" SegId="t1346547"/>
+    <Key Time="323104" Cursor="42" Type="insert" Value="d" SegId="t1346547"/>
+    <Key Time="323251" Cursor="43" Type="insert" Value="o" SegId="t1346547"/>
+    <Key Time="323440" Cursor="44" Type="insert" Value="l" SegId="t1346547"/>
+    <Key Time="323640" Cursor="45" Type="insert" Value="es" SegId="t1346547"/>
+    <Key Time="324401" Cursor="47" Type="insert" Value="c" SegId="t1346547"/>
+    <Key Time="324744" Cursor="48" Type="insert" Value="en" SegId="t1346547"/>
+    <Key Time="324928" Cursor="50" Type="insert" Value="c" SegId="t1346547"/>
+    <Key Time="325048" Cursor="51" Type="insert" Value="i" SegId="t1346547"/>
+    <Key Time="325280" Cursor="52" Type="insert" Value="a" SegId="t1346547"/>
+    <Key Time="325880" Cursor="53" Type="insert" Value=", " SegId="t1346547"/>
+    <Key Time="326120" Cursor="55" Type="insert" Value="c" SegId="t1346547"/>
+    <Key Time="326203" Cursor="56" Type="insert" Value="o" SegId="t1346547"/>
+    <Key Time="326385" Cursor="57" Type="insert" Value="n" SegId="t1346547"/>
+    <Key Time="326608" Cursor="58" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="326976" Cursor="59" Type="insert" Value="gu" SegId="t1346547"/>
+    <Key Time="327200" Cursor="61" Type="insert" Value="an" SegId="t1346547"/>
+    <Key Time="327393" Cursor="63" Type="insert" Value="te" SegId="t1346547"/>
+    <Key Time="327480" Cursor="65" Type="insert" Value="s" SegId="t1346547"/>
+    <Key Time="327544" Cursor="66" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="328048" Cursor="67" Type="insert" Value="bl" SegId="t1346547"/>
+    <Key Time="328304" Cursor="69" Type="insert" Value="an" SegId="t1346547"/>
+    <Key Time="329080" Cursor="71" Type="insert" Value="c" SegId="t1346547"/>
+    <Key Time="329232" Cursor="72" Type="insert" Value="o" SegId="t1346547"/>
+    <Key Time="329480" Cursor="73" Type="insert" Value="s " SegId="t1346547"/>
+    <Key Time="329680" Cursor="75" Type="insert" Value="y" SegId="t1346547"/>
+    <Key Time="329832" Cursor="76" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="330048" Cursor="77" Type="insert" Value="c" SegId="t1346547"/>
+    <Key Time="330800" Cursor="78" Type="insert" Value="ha" SegId="t1346547"/>
+    <Key Time="331032" Cursor="80" Type="insert" Value="uq" SegId="t1346547"/>
+    <Key Time="331224" Cursor="82" Type="insert" Value="e" SegId="t1346547"/>
+    <Key Time="331536" Cursor="83" Type="insert" Value="ta" SegId="t1346547"/>
+    <Key Time="331656" Cursor="85" Type="insert" Value="s" SegId="t1346547"/>
+    <Key Time="331768" Cursor="86" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="332352" Cursor="87" Type="insert" Value="y " SegId="t1346547"/>
+    <Key Time="332456" Cursor="89" Type="insert" Value="p" SegId="t1346547"/>
+    <Key Time="332762" Cursor="90" Type="insert" Value="an" SegId="t1346547"/>
+    <Key Time="332928" Cursor="92" Type="insert" Value="t" SegId="t1346547"/>
+    <Key Time="333160" Cursor="93" Type="insert" Value="a" SegId="t1346547"/>
+    <Key Time="333512" Cursor="94" Type="insert" Value="l" SegId="t1346547"/>
+    <Key Time="333712" Cursor="95" Type="insert" Value="o" SegId="t1346547"/>
+    <Key Time="333960" Cursor="96" Type="insert" Value="re" SegId="t1346547"/>
+    <Key Time="334072" Cursor="98" Type="insert" Value="s" SegId="t1346547"/>
+    <Key Time="334264" Cursor="99" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="334753" Cursor="99" Text=" " Type="delete" Value="[Back]" SegId="t1346547"/>
+    <Key Time="334888" Cursor="98" Text="s" Type="delete" Value="[Back]" SegId="t1346547"/>
+    <Key Time="335024" Cursor="97" Text="e" Type="delete" Value="[Back]" SegId="t1346547"/>
+    <Key Time="335152" Cursor="96" Text="r" Type="delete" Value="[Back]" SegId="t1346547"/>
+    <Key Time="335544" Cursor="96" Type="insert" Value="ne" SegId="t1346547"/>
+    <Key Time="335617" Cursor="98" Type="insert" Value="s" SegId="t1346547"/>
+    <Key Time="335688" Cursor="99" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="335952" Cursor="100" Type="insert" Value="co" SegId="t1346547"/>
+    <Key Time="336144" Cursor="102" Type="insert" Value="l" SegId="t1346547"/>
+    <Key Time="336281" Cursor="103" Type="insert" Value="o" SegId="t1346547"/>
+    <Key Time="336400" Cursor="104" Type="insert" Value="r" SegId="t1346547"/>
+    <Key Time="336624" Cursor="105" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="337128" Cursor="106" Type="insert" Value="v" SegId="t1346547"/>
+    <Key Time="337408" Cursor="107" Type="insert" Value="er" SegId="t1346547"/>
+    <Key Time="337608" Cursor="109" Type="insert" Value="d" SegId="t1346547"/>
+    <Key Time="337856" Cursor="110" Type="insert" Value="e " SegId="t1346547"/>
+    <Key Time="338016" Cursor="112" Type="insert" Value="o" SegId="t1346547"/>
+    <Key Time="338313" Cursor="113" Type="insert" Value="li" SegId="t1346547"/>
+    <Key Time="338712" Cursor="115" Type="insert" Value="va" SegId="t1346547"/>
+    <Key Time="338840" Cursor="117" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="339064" Cursor="118" Type="insert" Value="i" SegId="t1346547"/>
+    <Key Time="339224" Cursor="119" Type="insert" Value="d" SegId="t1346547"/>
+    <Key Time="339448" Cursor="120" Type="insert" Value="e" SegId="t1346547"/>
+    <Key Time="339680" Cursor="121" Type="insert" Value="n" SegId="t1346547"/>
+    <Key Time="340408" Cursor="121" Text="n" Type="delete" Value="[Back]" SegId="t1346547"/>
+    <Key Time="340560" Cursor="120" Text="e" Type="delete" Value="[Back]" SegId="t1346547"/>
+    <Key Time="341057" Cursor="120" Type="insert" Value="e" SegId="t1346547"/>
+    <Key Time="341360" Cursor="121" Type="insert" Value="n" SegId="t1346547"/>
+    <Key Time="342248" Cursor="121" Text="n" Type="delete" Value="[Back]" SegId="t1346547"/>
+    <Key Time="342376" Cursor="120" Text="e" Type="delete" Value="[Back]" SegId="t1346547"/>
+    <Key Time="344081" Cursor="120" Type="insert" Value="én" SegId="t1346547"/>
+    <Key Time="344425" Cursor="122" Type="insert" Value="ti" SegId="t1346547"/>
+    <Key Time="344696" Cursor="124" Type="insert" Value="co" SegId="t1346547"/>
+    <Key Time="345072" Cursor="126" Type="insert" Value="s" SegId="t1346547"/>
+    <Key Time="347032" Cursor="127" Type="insert" Value=", " SegId="t1346547"/>
+    <Key Time="347552" Cursor="129" Type="insert" Value="se" SegId="t1346547"/>
+    <Key Time="347648" Cursor="131" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="347896" Cursor="132" Type="insert" Value="c" SegId="t1346547"/>
+    <Key Time="348032" Cursor="133" Type="insert" Value="u" SegId="t1346547"/>
+    <Key Time="348528" Cursor="134" Type="insert" Value="a" SegId="t1346547"/>
+    <Key Time="348801" Cursor="135" Type="insert" Value="d" SegId="t1346547"/>
+    <Key Time="349073" Cursor="136" Type="insert" Value="ra" SegId="t1346547"/>
+    <Key Time="349768" Cursor="138" Type="insert" Value="ro" SegId="t1346547"/>
+    <Key Time="349904" Cursor="140" Type="insert" Value="n" SegId="t1346547"/>
+    <Key Time="350241" Cursor="141" Type="insert" Value="." SegId="t1346547"/>
+    <Key Time="353728" Cursor="0" Type="insert" Value="C" SegId="t1346548"/>
+    <Key Time="353856" Cursor="1" Type="insert" Value="u" SegId="t1346548"/>
+    <Key Time="353984" Cursor="2" Type="insert" Value="a" SegId="t1346548"/>
+    <Key Time="354272" Cursor="3" Type="insert" Value="tr" SegId="t1346548"/>
+    <Key Time="354361" Cursor="5" Type="insert" Value="o" SegId="t1346548"/>
+    <Key Time="354560" Cursor="6" Type="insert" Value=" p" SegId="t1346548"/>
+    <Key Time="354648" Cursor="8" Type="insert" Value="a" SegId="t1346548"/>
+    <Key Time="354768" Cursor="9" Type="insert" Value="r" SegId="t1346548"/>
+    <Key Time="354880" Cursor="10" Type="insert" Value="e" SegId="t1346548"/>
+    <Key Time="355265" Cursor="11" Type="insert" Value="c" SegId="t1346548"/>
+    <Key Time="355776" Cursor="11" Text="c" Type="delete" Value="[Back]" SegId="t1346548"/>
+    <Key Time="356537" Cursor="11" Type="insert" Value="s " SegId="t1346548"/>
+    <Key Time="356648" Cursor="13" Type="insert" Value="d" SegId="t1346548"/>
+    <Key Time="356888" Cursor="14" Type="insert" Value="e " SegId="t1346548"/>
+    <Key Time="357137" Cursor="16" Type="insert" Value="z" SegId="t1346548"/>
+    <Key Time="357328" Cursor="17" Type="insert" Value="a" SegId="t1346548"/>
+    <Key Time="357496" Cursor="18" Type="insert" Value="p" SegId="t1346548"/>
+    <Key Time="357594" Cursor="19" Type="insert" Value="a" SegId="t1346548"/>
+    <Key Time="357840" Cursor="20" Type="insert" Value="t" SegId="t1346548"/>
+    <Key Time="357960" Cursor="21" Type="insert" Value="o" SegId="t1346548"/>
+    <Key Time="358088" Cursor="22" Type="insert" Value="s" SegId="t1346548"/>
+    <Key Time="359104" Cursor="23" Type="insert" Value=" " SegId="t1346548"/>
+    <Key Time="359337" Cursor="24" Type="insert" Value="n" SegId="t1346548"/>
+    <Key Time="359443" Cursor="25" Type="insert" Value="e" SegId="t1346548"/>
+    <Key Time="359737" Cursor="26" Type="insert" Value="g" SegId="t1346548"/>
+    <Key Time="360017" Cursor="27" Type="insert" Value="ro" SegId="t1346548"/>
+    <Key Time="360112" Cursor="29" Type="insert" Value="s" SegId="t1346548"/>
+    <Key Time="360184" Cursor="30" Type="insert" Value=" " SegId="t1346548"/>
+    <Key Time="360480" Cursor="31" Type="insert" Value="al" SegId="t1346548"/>
+    <Key Time="360594" Cursor="33" Type="insert" Value="i" SegId="t1346548"/>
+    <Key Time="360840" Cursor="34" Type="insert" Value="n" SegId="t1346548"/>
+    <Key Time="360945" Cursor="35" Type="insert" Value="e" SegId="t1346548"/>
+    <Key Time="361184" Cursor="36" Type="insert" Value="a" SegId="t1346548"/>
+    <Key Time="361464" Cursor="37" Type="insert" Value="d" SegId="t1346548"/>
+    <Key Time="361648" Cursor="38" Type="insert" Value="os" SegId="t1346548"/>
+    <Key Time="361841" Cursor="40" Type="insert" Value=" " SegId="t1346548"/>
+    <Key Time="362608" Cursor="41" Type="insert" Value="co" SegId="t1346548"/>
+    <Key Time="362752" Cursor="43" Type="insert" Value="n" SegId="t1346548"/>
+    <Key Time="362896" Cursor="44" Type="insert" Value=" " SegId="t1346548"/>
+    <Key Time="363248" Cursor="45" Type="insert" Value="t" SegId="t1346548"/>
+    <Key Time="363384" Cursor="46" Type="insert" Value="i" SegId="t1346548"/>
+    <Key Time="363698" Cursor="47" Type="insert" Value="ra" SegId="t1346548"/>
+    <Key Time="363800" Cursor="49" Type="insert" Value="l" SegId="t1346548"/>
+    <Key Time="363897" Cursor="50" Type="insert" Value="i" SegId="t1346548"/>
+    <Key Time="364376" Cursor="50" Text="i" Type="delete" Value="[Back]" SegId="t1346548"/>
+    <Key Time="364833" Cursor="50" Type="insert" Value="í" SegId="t1346548"/>
+    <Key Time="365018" Cursor="51" Type="insert" Value="e" SegId="t1346548"/>
+    <Key Time="366209" Cursor="51" Text="e" Type="delete" Value="[Back]" SegId="t1346548"/>
+    <Key Time="366464" Cursor="51" Type="insert" Value="n" SegId="t1346548"/>
+    <Key Time="367048" Cursor="52" Type="insert" Value="as" SegId="t1346548"/>
+    <Key Time="367480" Cursor="53" Text="s" Type="delete" Value="[Back]" SegId="t1346548"/>
+    <Key Time="367632" Cursor="52" Text="a" Type="delete" Value="[Back]" SegId="t1346548"/>
+    <Key Time="367736" Cursor="52" Type="insert" Value="e" SegId="t1346548"/>
+    <Key Time="368505" Cursor="53" Type="insert" Value="as" SegId="t1346548"/>
+    <Key Time="368680" Cursor="55" Type="insert" Value="." SegId="t1346548"/>
+    <MouseUp Time="374663" Cursor="0" Text="" SegId="t1346549"/>
+    <Key Time="375792" Cursor="0" Type="insert" Value="C" SegId="t1346549"/>
+    <Key Time="375913" Cursor="1" Type="insert" Value="u" SegId="t1346549"/>
+    <Key Time="376057" Cursor="2" Type="insert" Value="a" SegId="t1346549"/>
+    <Key Time="376347" Cursor="3" Type="insert" Value="tr" SegId="t1346549"/>
+    <Key Time="376568" Cursor="5" Type="insert" Value="o" SegId="t1346549"/>
+    <Key Time="376810" Cursor="6" Type="insert" Value=" " SegId="t1346549"/>
+    <MouseUp Time="398352" Cursor="8" Text="" SegId="t1346549"/>
+    <Key Time="399368" Cursor="7" Type="insert" Value="so" SegId="t1346549"/>
+    <Key Time="399560" Cursor="9" Type="insert" Value="m" SegId="t1346549"/>
+    <Key Time="399736" Cursor="10" Type="insert" Value="b" SegId="t1346549"/>
+    <Key Time="400080" Cursor="11" Type="insert" Value="re" SegId="t1346549"/>
+    <Key Time="400384" Cursor="13" Type="insert" Value="r" SegId="t1346549"/>
+    <Key Time="400513" Cursor="14" Type="insert" Value="o" SegId="t1346549"/>
+    <Key Time="400712" Cursor="15" Type="insert" Value="s" SegId="t1346549"/>
+    <Key Time="400992" Cursor="16" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="401357" Cursor="17" Type="insert" Value="p" SegId="t1346549"/>
+    <Key Time="401612" Cursor="18" Type="insert" Value="ri" SegId="t1346549"/>
+    <Key Time="402072" Cursor="20" Type="insert" Value="m" SegId="t1346549"/>
+    <Key Time="402320" Cursor="21" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="402715" Cursor="22" Type="insert" Value="co" SegId="t1346549"/>
+    <Key Time="402945" Cursor="24" Type="insert" Value="l" SegId="t1346549"/>
+    <Key Time="403112" Cursor="25" Type="insert" Value="o" SegId="t1346549"/>
+    <Key Time="403424" Cursor="26" Type="insert" Value="ca" SegId="t1346549"/>
+    <Key Time="403744" Cursor="28" Type="insert" Value="do" SegId="t1346549"/>
+    <Key Time="403840" Cursor="30" Type="insert" Value="s" SegId="t1346549"/>
+    <Key Time="403961" Cursor="31" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="407736" Cursor="31" Text=" " Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="407928" Cursor="30" Text="s" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="408073" Cursor="29" Text="o" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="408224" Cursor="28" Text="d" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="408361" Cursor="27" Text="a" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="408504" Cursor="26" Text="c" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="408617" Cursor="25" Text="o" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="408768" Cursor="24" Text="l" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="408864" Cursor="23" Text="o" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="409257" Cursor="22" Text="c" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="409528" Cursor="22" Type="insert" Value="p" SegId="t1346549"/>
+    <Key Time="409857" Cursor="23" Type="insert" Value="er" SegId="t1346549"/>
+    <Key Time="410176" Cursor="25" Type="insert" Value="fe" SegId="t1346549"/>
+    <Key Time="410406" Cursor="27" Type="insert" Value="c" SegId="t1346549"/>
+    <Key Time="410698" Cursor="28" Type="insert" Value="ta" SegId="t1346549"/>
+    <Key Time="411020" Cursor="30" Type="insert" Value="m" SegId="t1346549"/>
+    <Key Time="411025" Cursor="31" Type="insert" Value="e" SegId="t1346549"/>
+    <Key Time="411128" Cursor="32" Type="insert" Value="nt" SegId="t1346549"/>
+    <Key Time="411208" Cursor="34" Type="insert" Value="e" SegId="t1346549"/>
+    <Key Time="411328" Cursor="35" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="412489" Cursor="36" Type="insert" Value="co" SegId="t1346549"/>
+    <Key Time="412976" Cursor="38" Type="insert" Value="l" SegId="t1346549"/>
+    <Key Time="413160" Cursor="39" Type="insert" Value="o" SegId="t1346549"/>
+    <Key Time="413745" Cursor="40" Type="insert" Value="c" SegId="t1346549"/>
+    <Key Time="413889" Cursor="41" Type="insert" Value="a" SegId="t1346549"/>
+    <Key Time="414201" Cursor="42" Type="insert" Value="do" SegId="t1346549"/>
+    <Key Time="414272" Cursor="44" Type="insert" Value="s" SegId="t1346549"/>
+    <Key Time="414361" Cursor="45" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="414857" Cursor="46" Type="insert" Value="so" SegId="t1346549"/>
+    <Key Time="415080" Cursor="48" Type="insert" Value="b" SegId="t1346549"/>
+    <Key Time="415409" Cursor="49" Type="insert" Value="re" SegId="t1346549"/>
+    <Key Time="415489" Cursor="51" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="415747" Cursor="52" Type="insert" Value="el " SegId="t1346549"/>
+    <Key Time="415936" Cursor="55" Type="insert" Value="p" SegId="t1346549"/>
+    <Key Time="416176" Cursor="56" Type="insert" Value="er" SegId="t1346549"/>
+    <Key Time="416300" Cursor="58" Type="insert" Value="o" SegId="t1346549"/>
+    <Key Time="416464" Cursor="59" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="417144" Cursor="60" Type="insert" Value="r" SegId="t1346549"/>
+    <Key Time="417240" Cursor="61" Type="insert" Value="e" SegId="t1346549"/>
+    <Key Time="417506" Cursor="62" Type="insert" Value="co" SegId="t1346549"/>
+    <Key Time="418256" Cursor="64" Type="insert" Value="g" SegId="t1346549"/>
+    <Key Time="418689" Cursor="65" Type="insert" Value="i" SegId="t1346549"/>
+    <Key Time="418952" Cursor="66" Type="insert" Value="d" SegId="t1346549"/>
+    <Key Time="419136" Cursor="67" Type="insert" Value="o" SegId="t1346549"/>
+    <Key Time="419328" Cursor="68" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="419536" Cursor="69" Type="insert" Value="oc" SegId="t1346549"/>
+    <Key Time="419672" Cursor="71" Type="insert" Value="n" SegId="t1346549"/>
+    <Key Time="419752" Cursor="72" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="420425" Cursor="73" Type="insert" Value="l" SegId="t1346549"/>
+    <Key Time="420778" Cursor="73" Text="l" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="420921" Cursor="72" Text=" " Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="421049" Cursor="71" Text="n" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="421176" Cursor="70" Text="c" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="421642" Cursor="69" Text="o" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="421904" Cursor="69" Type="insert" Value="co" SegId="t1346549"/>
+    <Key Time="422057" Cursor="71" Type="insert" Value="n" SegId="t1346549"/>
+    <Key Time="422184" Cursor="72" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="422432" Cursor="73" Type="insert" Value="la" SegId="t1346549"/>
+    <Key Time="422810" Cursor="75" Type="insert" Value="zo" SegId="t1346549"/>
+    <Key Time="424104" Cursor="77" Type="insert" Value="s " SegId="t1346549"/>
+    <Key Time="424248" Cursor="79" Type="insert" Value="d" SegId="t1346549"/>
+    <Key Time="424504" Cursor="80" Type="insert" Value="e " SegId="t1346549"/>
+    <Key Time="424801" Cursor="82" Type="insert" Value="ra" SegId="t1346549"/>
+    <Key Time="425096" Cursor="84" Type="insert" Value="y" SegId="t1346549"/>
+    <Key Time="425400" Cursor="85" Type="insert" Value="as" SegId="t1346549"/>
+    <Key Time="425593" Cursor="87" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="425905" Cursor="88" Type="insert" Value="a" SegId="t1346549"/>
+    <Key Time="426593" Cursor="89" Type="insert" Value="zu" SegId="t1346549"/>
+    <Key Time="426680" Cursor="91" Type="insert" Value="l" SegId="t1346549"/>
+    <Key Time="427112" Cursor="92" Type="insert" Value="es" SegId="t1346549"/>
+    <Key Time="427224" Cursor="94" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="427417" Cursor="95" Type="insert" Value="y" SegId="t1346549"/>
+    <Key Time="427600" Cursor="96" Type="insert" Value=" " SegId="t1346549"/>
+    <Key Time="427928" Cursor="97" Type="insert" Value="bl" SegId="t1346549"/>
+    <Key Time="428104" Cursor="99" Type="insert" Value="an" SegId="t1346549"/>
+    <Key Time="428528" Cursor="101" Type="insert" Value="c" SegId="t1346549"/>
+    <Key Time="428752" Cursor="102" Type="insert" Value="as" SegId="t1346549"/>
+    <Key Time="429064" Cursor="104" Type="insert" Value="." SegId="t1346549"/>
+    <Key Time="434728" Cursor="0" Type="insert" Value="P" SegId="t1346550"/>
+    <Key Time="435040" Cursor="1" Type="insert" Value="er" SegId="t1346550"/>
+    <Key Time="439929" Cursor="3" Type="insert" Value="s" SegId="t1346550"/>
+    <Key Time="440056" Cursor="4" Type="insert" Value="o" SegId="t1346550"/>
+    <Key Time="440705" Cursor="5" Type="insert" Value="na" SegId="t1346550"/>
+    <Key Time="440856" Cursor="7" Type="insert" Value="l" SegId="t1346550"/>
+    <Key Time="441192" Cursor="8" Type="insert" Value="me" SegId="t1346550"/>
+    <Key Time="441331" Cursor="10" Type="insert" Value="nt" SegId="t1346550"/>
+    <Key Time="441465" Cursor="12" Type="insert" Value="e" SegId="t1346550"/>
+    <Key Time="441753" Cursor="13" Type="insert" Value=", " SegId="t1346550"/>
+    <Key Time="442440" Cursor="15" Type="insert" Value="c" SegId="t1346550"/>
+    <Key Time="442840" Cursor="16" Type="insert" Value="re" SegId="t1346550"/>
+    <Key Time="443496" Cursor="18" Type="insert" Value="o" SegId="t1346550"/>
+    <Key Time="443673" Cursor="19" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="443984" Cursor="20" Type="insert" Value="que" SegId="t1346550"/>
+    <Key Time="444080" Cursor="23" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="447168" Cursor="24" Type="insert" Value="s" SegId="t1346550"/>
+    <Key Time="447336" Cursor="25" Type="insert" Value="u" SegId="t1346550"/>
+    <Key Time="447448" Cursor="26" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="447816" Cursor="27" Type="insert" Value="a" SegId="t1346550"/>
+    <Key Time="448145" Cursor="28" Type="insert" Value="sp" SegId="t1346550"/>
+    <Key Time="448296" Cursor="30" Type="insert" Value="e" SegId="t1346550"/>
+    <Key Time="448520" Cursor="31" Type="insert" Value="c" SegId="t1346550"/>
+    <Key Time="448848" Cursor="32" Type="insert" Value="to" SegId="t1346550"/>
+    <Key Time="449040" Cursor="34" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="449369" Cursor="35" Type="insert" Value="e" SegId="t1346550"/>
+    <Key Time="450289" Cursor="36" Type="insert" Value="s" SegId="t1346550"/>
+    <Key Time="450648" Cursor="37" Type="insert" Value="t" SegId="t1346550"/>
+    <Key Time="450881" Cursor="38" Type="insert" Value="á" SegId="t1346550"/>
+    <Key Time="450936" Cursor="39" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="451066" Cursor="40" Type="insert" Value="n" SegId="t1346550"/>
+    <Key Time="451096" Cursor="41" Type="insert" Value="e" SegId="t1346550"/>
+    <Key Time="451193" Cursor="42" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="451408" Cursor="43" Type="insert" Value="la" SegId="t1346550"/>
+    <Key Time="451457" Cursor="45" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="451945" Cursor="45" Text=" " Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="452096" Cursor="44" Text="a" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="452241" Cursor="43" Text="l" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="452360" Cursor="42" Text=" " Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="452488" Cursor="41" Text="e" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="452633" Cursor="40" Text="n" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="452848" Cursor="40" Type="insert" Value="e" SegId="t1346550"/>
+    <Key Time="452953" Cursor="41" Type="insert" Value="n" SegId="t1346550"/>
+    <Key Time="453146" Cursor="42" Type="insert" Value=" l" SegId="t1346550"/>
+    <Key Time="453209" Cursor="44" Type="insert" Value="a" SegId="t1346550"/>
+    <Key Time="453305" Cursor="45" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="453514" Cursor="46" Type="insert" Value="me" SegId="t1346550"/>
+    <Key Time="453754" Cursor="48" Type="insert" Value="di" SegId="t1346550"/>
+    <Key Time="454018" Cursor="50" Type="insert" Value="a" SegId="t1346550"/>
+    <Key Time="456379" Cursor="51" Type="insert" Value="&quot;" SegId="t1346550"/>
+    <Key Time="456754" Cursor="52" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="457211" Cursor="53" Type="insert" Value="di" SegId="t1346550"/>
+    <Key Time="457482" Cursor="55" Type="insert" Value="jo" SegId="t1346550"/>
+    <Key Time="457705" Cursor="57" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="459017" Cursor="58" Type="insert" Value="T" SegId="t1346550"/>
+    <Key Time="459241" Cursor="59" Type="insert" Value="na" SegId="t1346550"/>
+    <Key Time="459442" Cursor="61" Type="insert" Value="g" SegId="t1346550"/>
+    <Key Time="459586" Cursor="62" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="461330" Cursor="63" Type="insert" Value="d" SegId="t1346550"/>
+    <Key Time="462201" Cursor="64" Type="insert" Value="es" SegId="t1346550"/>
+    <Key Time="462369" Cursor="66" Type="insert" Value="p" SegId="t1346550"/>
+    <Key Time="462521" Cursor="67" Type="insert" Value="e" SegId="t1346550"/>
+    <Key Time="462937" Cursor="67" Text="e" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="463353" Cursor="66" Text="p" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="463482" Cursor="65" Text="s" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="463602" Cursor="64" Text="e" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="463722" Cursor="63" Text="d" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="463858" Cursor="62" Text=" " Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="463994" Cursor="61" Text="g" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="464129" Cursor="60" Text="a" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="464563" Cursor="59" Text="n" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="465011" Cursor="59" Type="insert" Value="an" SegId="t1346550"/>
+    <Key Time="465161" Cursor="61" Type="insert" Value="d" SegId="t1346550"/>
+    <Key Time="465594" Cursor="61" Text="d" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="465970" Cursor="62" Type="insert" Value=" " SegId="t1346550"/>
+    <Key Time="466106" Cursor="63" Type="insert" Value="d" SegId="t1346550"/>
+    <Key Time="466354" Cursor="64" Type="insert" Value="es" SegId="t1346550"/>
+    <Key Time="466618" Cursor="66" Type="insert" Value="pe" SegId="t1346550"/>
+    <Key Time="466842" Cursor="68" Type="insert" Value="c" SegId="t1346550"/>
+    <Key Time="467138" Cursor="69" Type="insert" Value="ti" SegId="t1346550"/>
+    <Key Time="467466" Cursor="71" Type="insert" Value="va" SegId="t1346550"/>
+    <Key Time="467769" Cursor="73" Type="insert" Value="me" SegId="t1346550"/>
+    <Key Time="467889" Cursor="75" Type="insert" Value="n" SegId="t1346550"/>
+    <Key Time="468001" Cursor="76" Type="insert" Value="e" SegId="t1346550"/>
+    <Key Time="468266" Cursor="77" Type="insert" Value="." SegId="t1346550"/>
+    <Key Time="468786" Cursor="77" Text="." Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="468938" Cursor="76" Text="e" Type="delete" Value="[Back]" SegId="t1346550"/>
+    <Key Time="469426" Cursor="76" Type="insert" Value="te" SegId="t1346550"/>
+    <Key Time="469625" Cursor="78" Type="insert" Value="." SegId="t1346550"/>
+    <Key Time="520242" Cursor="0" Type="insert" Value="L" SegId="t1346551"/>
+    <Key Time="520699" Cursor="1" Type="insert" Value="as" SegId="t1346551"/>
+    <Key Time="520907" Cursor="3" Type="insert" Value=" " SegId="t1346551"/>
+    <Key Time="521162" Cursor="4" Type="insert" Value="mo" SegId="t1346551"/>
+    <Key Time="521329" Cursor="6" Type="insert" Value="d" SegId="t1346551"/>
+    <Key Time="521473" Cursor="7" Type="insert" Value="e" SegId="t1346551"/>
+    <Key Time="521802" Cursor="8" Type="insert" Value="l" SegId="t1346551"/>
+    <Key Time="522506" Cursor="9" Type="insert" Value="o" SegId="t1346551"/>
+    <Key Time="522867" Cursor="10" Type="insert" Value="s" SegId="t1346551"/>
+    <Key Time="523093" Cursor="11" Type="insert" Value=" " SegId="t1346551"/>
+    <Key Time="523370" Cursor="12" Type="insert" Value="so" SegId="t1346551"/>
+    <Key Time="523514" Cursor="14" Type="insert" Value="n" SegId="t1346551"/>
+    <Key Time="523681" Cursor="15" Type="insert" Value=" " SegId="t1346551"/>
+    <Key Time="524722" Cursor="16" Type="insert" Value="bo" SegId="t1346551"/>
+    <Key Time="524986" Cursor="18" Type="insert" Value="ni" SegId="t1346551"/>
+    <Key Time="525321" Cursor="20" Type="insert" Value="ta" SegId="t1346551"/>
+    <Key Time="525441" Cursor="22" Type="insert" Value="s" SegId="t1346551"/>
+    <Key Time="527137" Cursor="23" Type="insert" Value="&quot;" SegId="t1346551"/>
+    <Key Time="527514" Cursor="24" Type="insert" Value="." SegId="t1346551"/>
+    <Key Time="566979" Cursor="0" Type="insert" Value="M" SegId="t1346552"/>
+    <Key Time="567459" Cursor="1" Type="insert" Value="á" SegId="t1346552"/>
+    <Key Time="567642" Cursor="2" Type="insert" Value="s " SegId="t1346552"/>
+    <Key Time="567707" Cursor="4" Type="insert" Value="d" SegId="t1346552"/>
+    <Key Time="567972" Cursor="5" Type="insert" Value="e " SegId="t1346552"/>
+    <Key Time="568092" Cursor="7" Type="insert" Value="u" SegId="t1346552"/>
+    <Key Time="568403" Cursor="8" Type="insert" Value="n " SegId="t1346552"/>
+    <Key Time="568642" Cursor="10" Type="insert" Value="g" SegId="t1346552"/>
+    <Key Time="569213" Cursor="11" Type="insert" Value="o" SegId="t1346552"/>
+    <Key Time="569913" Cursor="12" Type="insert" Value="bi" SegId="t1346552"/>
+    <Key Time="570113" Cursor="14" Type="insert" Value="er" SegId="t1346552"/>
+    <Key Time="570220" Cursor="16" Type="insert" Value="n" SegId="t1346552"/>
+    <Key Time="570289" Cursor="17" Type="insert" Value="o" SegId="t1346552"/>
+    <Key Time="570442" Cursor="18" Type="insert" Value=" " SegId="t1346552"/>
+    <Key Time="571993" Cursor="19" Type="insert" Value="ha" SegId="t1346552"/>
+    <Key Time="572089" Cursor="21" Type="insert" Value=" " SegId="t1346552"/>
+    <Key Time="572290" Cursor="22" Type="insert" Value="i" SegId="t1346552"/>
+    <Key Time="572545" Cursor="23" Type="insert" Value="nt" SegId="t1346552"/>
+    <Key Time="572602" Cursor="25" Type="insert" Value="e" SegId="t1346552"/>
+    <Key Time="572690" Cursor="26" Type="insert" Value="n" SegId="t1346552"/>
+    <Key Time="572785" Cursor="27" Type="insert" Value="t" SegId="t1346552"/>
+    <Key Time="572906" Cursor="28" Type="insert" Value="a" SegId="t1346552"/>
+    <Key Time="573202" Cursor="29" Type="insert" Value="do" SegId="t1346552"/>
+    <Key Time="574209" Cursor="31" Type="insert" Value=" " SegId="t1346552"/>
+    <Key Time="574929" Cursor="32" Type="insert" Value="p" SegId="t1346552"/>
+    <Key Time="575113" Cursor="33" Type="insert" Value="u" SegId="t1346552"/>
+    <Key Time="575498" Cursor="34" Type="insert" Value="li" SegId="t1346552"/>
+    <Key Time="575745" Cursor="36" Type="insert" Value="r" SegId="t1346552"/>
+    <Key Time="575930" Cursor="37" Type="insert" Value=" " SegId="t1346552"/>
+    <Key Time="576218" Cursor="38" Type="insert" Value="la" SegId="t1346552"/>
+    <Key Time="576322" Cursor="40" Type="insert" Value=" " SegId="t1346552"/>
+    <Key Time="576809" Cursor="41" Type="insert" Value="i" SegId="t1346552"/>
+    <Key Time="577131" Cursor="42" Type="insert" Value="ma" SegId="t1346552"/>
+    <Key Time="577482" Cursor="44" Type="insert" Value="ge" SegId="t1346552"/>
+    <Key Time="577602" Cursor="46" Type="insert" Value="n" SegId="t1346552"/>
+    <Key Time="577746" Cursor="47" Type="insert" Value=" " SegId="t1346552"/>
+    <Key Time="578337" Cursor="48" Type="insert" Value="d" SegId="t1346552"/>
+    <Key Time="578594" Cursor="49" Type="insert" Value="e " SegId="t1346552"/>
+    <Key Time="578738" Cursor="51" Type="insert" Value="l" SegId="t1346552"/>
+    <Key Time="579009" Cursor="52" Type="insert" Value="so" SegId="t1346552"/>
+    <Key Time="579082" Cursor="54" Type="insert" Value=" " SegId="t1346552"/>
+    <Key Time="579674" Cursor="55" Type="insert" Value="i" SegId="t1346552"/>
+    <Key Time="580363" Cursor="55" Text="i" Type="delete" Value="[Back]" SegId="t1346552"/>
+    <Key Time="580513" Cursor="54" Text=" " Type="delete" Value="[Back]" SegId="t1346552"/>
+    <Key Time="580642" Cursor="53" Text="o" Type="delete" Value="[Back]" SegId="t1346552"/>
+    <Key Time="580865" Cursor="52" Text="s" Type="delete" Value="[Back]" SegId="t1346552"/>
+    <Key Time="581402" Cursor="52" Type="insert" Value="s " SegId="t1346552"/>
+    <Key Time="581666" Cursor="53" Text=" " Type="delete" Value="[Back]" SegId="t1346552"/>
+    <Key Time="581802" Cursor="52" Text="s" Type="delete" Value="[Back]" SegId="t1346552"/>
+    <Key Time="582033" Cursor="52" Type="insert" Value="o" SegId="t1346552"/>
+    <Key Time="582345" Cursor="53" Type="insert" Value="s " SegId="t1346552"/>
+    <Key Time="582644" Cursor="55" Type="insert" Value="i" SegId="t1346552"/>
+    <Key Time="582953" Cursor="56" Type="insert" Value="n" SegId="t1346552"/>
+    <Key Time="583106" Cursor="57" Type="insert" Value="s" SegId="t1346552"/>
+    <Key Time="583218" Cursor="58" Type="insert" Value="p" SegId="t1346552"/>
+    <Key Time="583394" Cursor="59" Type="insert" Value="e" SegId="t1346552"/>
+    <Key Time="583611" Cursor="60" Type="insert" Value="c" SegId="t1346552"/>
+    <Key Time="583905" Cursor="61" Type="insert" Value="to" SegId="t1346552"/>
+    <Key Time="584113" Cursor="63" Type="insert" Value="re" SegId="t1346552"/>
+    <Key Time="584202" Cursor="65" Type="insert" Value="s" SegId="t1346552"/>
+    <Key Time="584265" Cursor="66" Type="insert" Value=" " SegId="t1346552"/>
+    <Key Time="584929" Cursor="67" Type="insert" Value="u" SegId="t1346552"/>
+    <Key Time="585050" Cursor="68" Type="insert" Value="r" SegId="t1346552"/>
+    <Key Time="585377" Cursor="69" Type="insert" Value="ba" SegId="t1346552"/>
+    <Key Time="585475" Cursor="71" Type="insert" Value="n" SegId="t1346552"/>
+    <Key Time="585561" Cursor="72" Type="insert" Value="o" SegId="t1346552"/>
+    <Key Time="585673" Cursor="73" Type="insert" Value="s" SegId="t1346552"/>
+    <Key Time="585842" Cursor="74" Type="insert" Value=" " SegId="t1346552"/>
+    <Key Time="586338" Cursor="75" Type="insert" Value="d" SegId="t1346552"/>
+    <Key Time="586602" Cursor="76" Type="insert" Value="e " SegId="t1346552"/>
+    <Key Time="587225" Cursor="78" Type="insert" Value="C" SegId="t1346552"/>
+    <Key Time="587346" Cursor="79" Type="insert" Value="h" SegId="t1346552"/>
+    <Key Time="587418" Cursor="80" Type="insert" Value="i" SegId="t1346552"/>
+    <Key Time="587618" Cursor="81" Type="insert" Value="n" SegId="t1346552"/>
+    <Key Time="587713" Cursor="82" Type="insert" Value="a" SegId="t1346552"/>
+    <Key Time="588602" Cursor="83" Type="insert" Value="." SegId="t1346552"/>
+    <Key Time="593363" Cursor="0" Type="insert" Value="U" SegId="t1346553"/>
+    <Key Time="593594" Cursor="1" Type="insert" Value="n" SegId="t1346553"/>
+    <Key Time="593907" Cursor="2" Type="insert" Value="a " SegId="t1346553"/>
+    <Key Time="594137" Cursor="4" Type="insert" Value="c" SegId="t1346553"/>
+    <Key Time="594386" Cursor="5" Type="insert" Value="iu" SegId="t1346553"/>
+    <Key Time="594538" Cursor="7" Type="insert" Value="da" SegId="t1346553"/>
+    <Key Time="594675" Cursor="9" Type="insert" Value="d" SegId="t1346553"/>
+    <Key Time="595243" Cursor="10" Type="insert" Value=" " SegId="t1346553"/>
+    <Key Time="595379" Cursor="11" Type="insert" Value="o" SegId="t1346553"/>
+    <Key Time="595538" Cursor="12" Type="insert" Value="r" SegId="t1346553"/>
+    <Key Time="595761" Cursor="13" Type="insert" Value="d" SegId="t1346553"/>
+    <Key Time="595921" Cursor="14" Type="insert" Value="e" SegId="t1346553"/>
+    <Key Time="596067" Cursor="15" Type="insert" Value="n" SegId="t1346553"/>
+    <Key Time="596418" Cursor="16" Type="insert" Value="ó" SegId="t1346553"/>
+    <Key Time="596553" Cursor="17" Type="insert" Value=" " SegId="t1346553"/>
+    <Key Time="596706" Cursor="18" Type="insert" Value="q" SegId="t1346553"/>
+    <Key Time="596809" Cursor="19" Type="insert" Value="ue" SegId="t1346553"/>
+    <Key Time="596889" Cursor="21" Type="insert" Value=" " SegId="t1346553"/>
+    <Key Time="597097" Cursor="22" Type="insert" Value="t" SegId="t1346553"/>
+    <Key Time="597210" Cursor="23" Type="insert" Value="o" SegId="t1346553"/>
+    <Key Time="597354" Cursor="24" Type="insert" Value="d" SegId="t1346553"/>
+    <Key Time="597537" Cursor="25" Type="insert" Value="os" SegId="t1346553"/>
+    <Key Time="597668" Cursor="27" Type="insert" Value=" " SegId="t1346553"/>
+    <Key Time="597794" Cursor="28" Type="insert" Value="l" SegId="t1346553"/>
+    <Key Time="598082" Cursor="29" Type="insert" Value="os" SegId="t1346553"/>
+    <Key Time="598162" Cursor="31" Type="insert" Value=" " SegId="t1346553"/>
+    <Key Time="598329" Cursor="32" Type="insert" Value="n" SegId="t1346553"/>
+    <Key Time="598571" Cursor="33" Type="insert" Value="ue" SegId="t1346553"/>
+    <Key Time="598825" Cursor="35" Type="insert" Value="v" SegId="t1346553"/>
+    <Key Time="599082" Cursor="36" Type="insert" Value="os" SegId="t1346553"/>
+    <Key Time="599153" Cursor="38" Type="insert" Value=" " SegId="t1346553"/>
+    <Key Time="599786" Cursor="39" Type="insert" Value="re" SegId="t1346553"/>
+    <Key Time="600258" Cursor="41" Type="insert" Value="cl" SegId="t1346553"/>
+    <Key Time="600409" Cursor="43" Type="insert" Value="u" SegId="t1346553"/>
+    <Key Time="601210" Cursor="44" Type="insert" Value="t" SegId="t1346553"/>
+    <Key Time="601409" Cursor="45" Type="insert" Value="as" SegId="t1346553"/>
+    <Key Time="601577" Cursor="47" Type="insert" Value=" " SegId="t1346553"/>
+    <Key Time="602721" Cursor="48" Type="insert" Value="t" SegId="t1346553"/>
+    <Key Time="602865" Cursor="49" Type="insert" Value="u" SegId="t1346553"/>
+    <Key Time="603314" Cursor="50" Type="insert" Value="vi" SegId="t1346553"/>
+    <Key Time="603428" Cursor="52" Type="insert" Value="e" SegId="t1346553"/>
+    <Key Time="603723" Cursor="53" Type="insert" Value="se" SegId="t1346553"/>
+    <Key Time="603842" Cursor="55" Type="insert" Value="n" SegId="t1346553"/>
+    <Key Time="604115" Cursor="56" Type="insert" Value=" u" SegId="t1346553"/>
+    <Key Time="604354" Cursor="58" Type="insert" Value="n" SegId="t1346553"/>
+    <Key Time="604466" Cursor="59" Type="insert" Value=" " SegId="t1346553"/>
+    <Key Time="604962" Cursor="60" Type="insert" Value="t" SegId="t1346553"/>
+    <Key Time="605315" Cursor="61" Type="insert" Value="í" SegId="t1346553"/>
+    <Key Time="605666" Cursor="62" Type="insert" Value="tul" SegId="t1346553"/>
+    <Key Time="605865" Cursor="65" Type="insert" Value="o" SegId="t1346553"/>
+    <Key Time="606121" Cursor="66" Type="insert" Value=" u" SegId="t1346553"/>
+    <Key Time="606394" Cursor="68" Type="insert" Value="ni" SegId="t1346553"/>
+    <Key Time="606650" Cursor="70" Type="insert" Value="v" SegId="t1346553"/>
+    <Key Time="606913" Cursor="71" Type="insert" Value="er" SegId="t1346553"/>
+    <Key Time="607610" Cursor="73" Type="insert" Value="si" SegId="t1346553"/>
+    <Key Time="607754" Cursor="75" Type="insert" Value="t" SegId="t1346553"/>
+    <Key Time="607970" Cursor="76" Type="insert" Value="ar" SegId="t1346553"/>
+    <Key Time="608049" Cursor="78" Type="insert" Value="i" SegId="t1346553"/>
+    <Key Time="608137" Cursor="79" Type="insert" Value="o" SegId="t1346553"/>
+    <Key Time="608738" Cursor="80" Type="insert" Value="." SegId="t1346553"/>
+    <System Time="687000" Value="STOP"/>
+    <System Time="687000" Value="START" StartTid="1346553" SessionStartTime="2012-07-08 16:20:08" SessionEndTime="2012-07-08 16:28:53" TranslationWindowWidth="783" TranslationWindowHeight="824"/>
+    <MouseUp Time="687595" Cursor="43" Text="" SegId="t1346541"/>
+    <Key Time="703893" Cursor="0" Type="insert" Value="E" SegId="t1346554"/>
+    <Key Time="704715" Cursor="1" Type="insert" Value="l" SegId="t1346554"/>
+    <Key Time="705805" Cursor="1" Text="l" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="705980" Cursor="0" Text="E" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="706957" Cursor="0" Type="insert" Value="L" SegId="t1346554"/>
+    <Key Time="707396" Cursor="1" Type="insert" Value="a " SegId="t1346554"/>
+    <Key Time="707508" Cursor="3" Type="insert" Value="p" SegId="t1346554"/>
+    <Key Time="707739" Cursor="4" Type="insert" Value="ro" SegId="t1346554"/>
+    <Key Time="708509" Cursor="6" Type="insert" Value="v" SegId="t1346554"/>
+    <Key Time="708878" Cursor="7" Type="insert" Value="i" SegId="t1346554"/>
+    <Key Time="709061" Cursor="8" Type="insert" Value="n" SegId="t1346554"/>
+    <Key Time="709341" Cursor="9" Type="insert" Value="ci" SegId="t1346554"/>
+    <Key Time="709628" Cursor="11" Type="insert" Value="a " SegId="t1346554"/>
+    <Key Time="709765" Cursor="13" Type="insert" Value="d" SegId="t1346554"/>
+    <Key Time="710004" Cursor="14" Type="insert" Value="e " SegId="t1346554"/>
+    <Key Time="710776" Cursor="16" Text="" Paste="Guangdong " Type="edit" Value="[Ctrl+V]" SegId="t1346554"/>
+    <Key Time="710878" Cursor="26" Text="" Paste="Guangdong " Type="edit" Value="[Ctrl+V]" SegId="t1346554"/>
+    <Key Time="711510" Cursor="34" Text="g" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="711708" Cursor="33" Text="n" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="712488" Cursor="27" Text="uangdo" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="712876" Cursor="25" Text=" G" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="714860" Cursor="25" Text=" " Type="insert" Value=" ca" SegId="t1346554"/>
+    <Key Time="714940" Cursor="28" Type="insert" Value="m" SegId="t1346554"/>
+    <Key Time="715172" Cursor="29" Type="insert" Value="bi" SegId="t1346554"/>
+    <Key Time="715452" Cursor="31" Type="insert" Value="ó" SegId="t1346554"/>
+    <Key Time="715611" Cursor="32" Type="insert" Value=" " SegId="t1346554"/>
+    <Key Time="715748" Cursor="32" Text=" " Type="insert" Value=" l" SegId="t1346554"/>
+    <Key Time="715989" Cursor="34" Type="insert" Value="os" SegId="t1346554"/>
+    <Key Time="716091" Cursor="36" Type="insert" Value=" " SegId="t1346554"/>
+    <Key Time="716661" Cursor="36" Text=" " Type="insert" Value=" u" SegId="t1346554"/>
+    <Key Time="716988" Cursor="38" Type="insert" Value="ni" SegId="t1346554"/>
+    <Key Time="717627" Cursor="40" Type="insert" Value="f" SegId="t1346554"/>
+    <Key Time="717711" Cursor="41" Type="insert" Value="o" SegId="t1346554"/>
+    <Key Time="717827" Cursor="42" Type="insert" Value="r" SegId="t1346554"/>
+    <Key Time="717948" Cursor="43" Type="insert" Value="m" SegId="t1346554"/>
+    <Key Time="718084" Cursor="44" Type="insert" Value="e" SegId="t1346554"/>
+    <Key Time="719316" Cursor="45" Type="insert" Value="s " SegId="t1346554"/>
+    <Key Time="719460" Cursor="46" Text=" " Type="insert" Value=" d" SegId="t1346554"/>
+    <Key Time="719707" Cursor="48" Type="insert" Value="e " SegId="t1346554"/>
+    <Key Time="719931" Cursor="49" Text=" " Type="insert" Value=" co" SegId="t1346554"/>
+    <Key Time="720748" Cursor="52" Type="insert" Value="l" SegId="t1346554"/>
+    <Key Time="720932" Cursor="53" Type="insert" Value="o" SegId="t1346554"/>
+    <Key Time="722988" Cursor="54" Type="insert" Value="r " SegId="t1346554"/>
+    <Key Time="724164" Cursor="55" Text=" " Type="insert" Value=" g" SegId="t1346554"/>
+    <Key Time="724444" Cursor="57" Type="insert" Value="r" SegId="t1346554"/>
+    <Key Time="724667" Cursor="58" Type="insert" Value="is" SegId="t1346554"/>
+    <Key Time="724787" Cursor="60" Type="insert" Value=" " SegId="t1346554"/>
+    <Key Time="725157" Cursor="60" Text=" " Type="insert" Value=" v" SegId="t1346554"/>
+    <Key Time="725372" Cursor="62" Type="insert" Value="er" SegId="t1346554"/>
+    <Key Time="725836" Cursor="64" Type="insert" Value="do" SegId="t1346554"/>
+    <Key Time="725974" Cursor="66" Type="insert" Value="s" SegId="t1346554"/>
+    <Key Time="726108" Cursor="67" Type="insert" Value="o" SegId="t1346554"/>
+    <Key Time="734300" Cursor="68" Type="insert" Value=" " SegId="t1346554"/>
+    <Key Time="753524" Cursor="68" Text=" " Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="753684" Cursor="67" Text="o" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="753820" Cursor="66" Text="s" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="753956" Cursor="65" Text="o" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="754100" Cursor="64" Text="d" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="754252" Cursor="63" Text="r" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="754396" Cursor="62" Text="e" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="754548" Cursor="60" Text=" v" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="754676" Cursor="60" Text=" " Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="754860" Cursor="59" Text="s" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="755028" Cursor="58" Text="i" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="755291" Cursor="57" Text="r" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="755972" Cursor="55" Text=" g" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="771148" Cursor="55" Text=" " Type="insert" Value=" v" SegId="t1346554"/>
+    <Key Time="771395" Cursor="57" Type="insert" Value="er" SegId="t1346554"/>
+    <Key Time="771611" Cursor="59" Type="insert" Value="d" SegId="t1346554"/>
+    <Key Time="771788" Cursor="60" Type="insert" Value="e" SegId="t1346554"/>
+    <Key Time="772867" Cursor="61" Type="insert" Value=" " SegId="t1346554"/>
+    <Key Time="773780" Cursor="61" Text=" " Type="insert" Value=" g" SegId="t1346554"/>
+    <Key Time="773916" Cursor="63" Type="insert" Value="i" SegId="t1346554"/>
+    <Key Time="774324" Cursor="63" Text="i" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="774388" Cursor="63" Type="insert" Value="r" SegId="t1346554"/>
+    <Key Time="774532" Cursor="64" Type="insert" Value="i" SegId="t1346554"/>
+    <Key Time="774883" Cursor="65" Type="insert" Value="s" SegId="t1346554"/>
+    <Key Time="775164" Cursor="66" Type="insert" Value="á" SegId="t1346554"/>
+    <Key Time="775444" Cursor="67" Type="insert" Value="c" SegId="t1346554"/>
+    <Key Time="775660" Cursor="68" Type="insert" Value="e" SegId="t1346554"/>
+    <Key Time="775891" Cursor="69" Type="insert" Value="o" SegId="t1346554"/>
+    <Key Time="778617" Cursor="59" Text="de grisáceo" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="778768" Cursor="58" Text="r" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="778947" Cursor="57" Text="e" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="779084" Cursor="55" Text=" v" Type="delete" Value="[Back]" SegId="t1346554"/>
+    <Key Time="779988" Cursor="55" Text=" " Type="insert" Value=" g" SegId="t1346554"/>
+    <Key Time="780263" Cursor="57" Type="insert" Value="ri" SegId="t1346554"/>
+    <Key Time="780459" Cursor="59" Type="insert" Value="s " SegId="t1346554"/>
+    <Key Time="780772" Cursor="60" Text=" " Type="insert" Value=" v" SegId="t1346554"/>
+    <Key Time="781036" Cursor="62" Type="insert" Value="er" SegId="t1346554"/>
+    <Key Time="781276" Cursor="64" Type="insert" Value="do" SegId="t1346554"/>
+    <Key Time="781435" Cursor="66" Type="insert" Value="s" SegId="t1346554"/>
+    <Key Time="781539" Cursor="67" Type="insert" Value="o" SegId="t1346554"/>
+    <Key Time="783244" Cursor="68" Type="insert" Value=" " SegId="t1346554"/>
+    <Key Time="783484" Cursor="68" Text=" " Type="insert" Value=" p" SegId="t1346554"/>
+    <Key Time="783731" Cursor="70" Type="insert" Value="or" SegId="t1346554"/>
+    <Key Time="783811" Cursor="72" Type="insert" Value=" " SegId="t1346554"/>
+    <Key Time="784980" Cursor="72" Text=" " Type="insert" Value=" o" SegId="t1346554"/>
+    <Key Time="785212" Cursor="74" Type="insert" Value="tr" SegId="t1346554"/>
+    <Key Time="785227" Cursor="76" Type="insert" Value="o" SegId="t1346554"/>
+    <Key Time="785468" Cursor="77" Type="insert" Value="s " SegId="t1346554"/>
+    <Key Time="785676" Cursor="78" Text=" " Type="insert" Value=" d" SegId="t1346554"/>
+    <Key Time="785923" Cursor="80" Type="insert" Value="e " SegId="t1346554"/>
+    <Key Time="786020" Cursor="81" Text=" " Type="insert" Value=" u" SegId="t1346554"/>
+    <Key Time="786220" Cursor="83" Type="insert" Value="n" SegId="t1346554"/>
+    <Key Time="786691" Cursor="84" Type="insert" Value=" " SegId="t1346554"/>
+    <Key Time="787132" Cursor="84" Text=" " Type="insert" Value=" a" SegId="t1346554"/>
+    <Key Time="787468" Cursor="86" Type="insert" Value="zu" SegId="t1346554"/>
+    <Key Time="787564" Cursor="88" Type="insert" Value="l" SegId="t1346554"/>
+    <Key Time="787779" Cursor="89" Type="insert" Value=" " SegId="t1346554"/>
+    <Key Time="787988" Cursor="89" Text=" " Type="insert" Value=" su" SegId="t1346554"/>
+    <Key Time="788164" Cursor="92" Type="insert" Value="p" SegId="t1346554"/>
+    <Key Time="788420" Cursor="93" Type="insert" Value="ue" SegId="t1346554"/>
+    <Key Time="788524" Cursor="95" Type="insert" Value="s" SegId="t1346554"/>
+    <Key Time="788652" Cursor="96" Type="insert" Value="t" SegId="t1346554"/>
+    <Key Time="788788" Cursor="97" Type="insert" Value="a" SegId="t1346554"/>
+    <Key Time="789356" Cursor="98" Type="insert" Value="me" SegId="t1346554"/>
+    <Key Time="789412" Cursor="100" Type="insert" Value="n" SegId="t1346554"/>
+    <Key Time="789468" Cursor="101" Type="insert" Value="t" SegId="t1346554"/>
+    <Key Time="789588" Cursor="102" Type="insert" Value="e" SegId="t1346554"/>
+    <Key Time="789699" Cursor="103" Type="insert" Value=" " SegId="t1346554"/>
+    <Key Time="790132" Cursor="103" Text=" " Type="insert" Value=" m" SegId="t1346554"/>
+    <Key Time="790429" Cursor="105" Type="insert" Value="á" SegId="t1346554"/>
+    <Key Time="790564" Cursor="106" Type="insert" Value="s" SegId="t1346554"/>
+    <Key Time="790732" Cursor="107" Type="insert" Value=" " SegId="t1346554"/>
+    <Key Time="791140" Cursor="107" Text=" " Type="insert" Value=" a" SegId="t1346554"/>
+    <Key Time="791348" Cursor="109" Type="insert" Value="t" SegId="t1346554"/>
+    <Key Time="791628" Cursor="110" Type="insert" Value="ra" SegId="t1346554"/>
+    <Key Time="791819" Cursor="112" Type="insert" Value="c" SegId="t1346554"/>
+    <Key Time="792092" Cursor="113" Type="insert" Value="ti" SegId="t1346554"/>
+    <Key Time="792333" Cursor="115" Type="insert" Value="vo" SegId="t1346554"/>
+    <Key Time="792757" Cursor="117" Type="insert" Value="." SegId="t1346554"/>
+    <MouseUp Time="796867" Cursor="0" Text="" SegId="t1346555"/>
+    <Key Time="799851" Cursor="0" Type="insert" Value="W" SegId="t1346555"/>
+    <Key Time="800132" Cursor="1" Type="insert" Value="u" SegId="t1346555"/>
+    <Key Time="800372" Cursor="2" Type="insert" Value="h" SegId="t1346555"/>
+    <Key Time="800547" Cursor="3" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="800684" Cursor="4" Type="insert" Value="n" SegId="t1346555"/>
+    <Key Time="801052" Cursor="5" Type="insert" Value=", " SegId="t1346555"/>
+    <Key Time="801500" Cursor="7" Type="insert" Value="en" SegId="t1346555"/>
+    <Key Time="801635" Cursor="9" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="802331" Cursor="10" Type="insert" Value="C" SegId="t1346555"/>
+    <Key Time="802931" Cursor="11" Type="insert" Value="hi" SegId="t1346555"/>
+    <Key Time="803155" Cursor="13" Type="insert" Value="na" SegId="t1346555"/>
+    <Key Time="803243" Cursor="15" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="803508" Cursor="16" Type="insert" Value="c" SegId="t1346555"/>
+    <Key Time="803739" Cursor="17" Type="insert" Value="en" SegId="t1346555"/>
+    <Key Time="803883" Cursor="19" Type="insert" Value="t" SegId="t1346555"/>
+    <Key Time="804213" Cursor="20" Type="insert" Value="ra" SegId="t1346555"/>
+    <Key Time="804268" Cursor="22" Type="insert" Value="l" SegId="t1346555"/>
+    <Key Time="805004" Cursor="23" Type="insert" Value=", " SegId="t1346555"/>
+    <Key Time="814454" Cursor="25" Type="insert" Value="s" SegId="t1346555"/>
+    <Key Time="814684" Cursor="26" Type="insert" Value="u" SegId="t1346555"/>
+    <Key Time="814804" Cursor="27" Type="insert" Value="s" SegId="t1346555"/>
+    <Key Time="815107" Cursor="28" Type="insert" Value="ti" SegId="t1346555"/>
+    <Key Time="815547" Cursor="30" Type="insert" Value="tu" SegId="t1346555"/>
+    <Key Time="815812" Cursor="32" Type="insert" Value="y" SegId="t1346555"/>
+    <Key Time="816156" Cursor="33" Type="insert" Value="ó" SegId="t1346555"/>
+    <Key Time="816299" Cursor="34" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="816524" Cursor="35" Type="insert" Value="en" SegId="t1346555"/>
+    <Key Time="816684" Cursor="37" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="817675" Cursor="38" Type="insert" Value="2" SegId="t1346555"/>
+    <Key Time="817915" Cursor="39" Type="insert" Value="0" SegId="t1346555"/>
+    <Key Time="818100" Cursor="40" Type="insert" Value="0" SegId="t1346555"/>
+    <Key Time="818308" Cursor="41" Type="insert" Value="9" SegId="t1346555"/>
+    <Key Time="821412" Cursor="41" Text="9" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="821612" Cursor="40" Text="0" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="821892" Cursor="39" Text="0" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="822055" Cursor="38" Text="2" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="824035" Cursor="38" Type="insert" Value="l" SegId="t1346555"/>
+    <Key Time="824347" Cursor="39" Type="insert" Value="as" SegId="t1346555"/>
+    <Key Time="824508" Cursor="41" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="824676" Cursor="42" Type="insert" Value="m" SegId="t1346555"/>
+    <Key Time="824891" Cursor="43" Type="insert" Value="i" SegId="t1346555"/>
+    <Key Time="825131" Cursor="44" Type="insert" Value="ra" SegId="t1346555"/>
+    <Key Time="825348" Cursor="46" Type="insert" Value="d" SegId="t1346555"/>
+    <Key Time="825596" Cursor="47" Type="insert" Value="as" SegId="t1346555"/>
+    <Key Time="825891" Cursor="49" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="826099" Cursor="50" Type="insert" Value="d" SegId="t1346555"/>
+    <Key Time="826316" Cursor="51" Type="insert" Value="e" SegId="t1346555"/>
+    <Key Time="826612" Cursor="52" Type="insert" Value="sa" SegId="t1346555"/>
+    <Key Time="827060" Cursor="54" Type="insert" Value="fi" SegId="t1346555"/>
+    <Key Time="827299" Cursor="56" Type="insert" Value="an" SegId="t1346555"/>
+    <Key Time="827748" Cursor="58" Type="insert" Value="te" SegId="t1346555"/>
+    <Key Time="827868" Cursor="60" Type="insert" Value="s" SegId="t1346555"/>
+    <Key Time="828164" Cursor="61" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="828516" Cursor="62" Type="insert" Value="po" SegId="t1346555"/>
+    <Key Time="828667" Cursor="64" Type="insert" Value="r" SegId="t1346555"/>
+    <Key Time="828748" Cursor="65" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="831500" Cursor="66" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="831686" Cursor="67" Type="insert" Value="r" SegId="t1346555"/>
+    <Key Time="831996" Cursor="68" Type="insert" Value="ma" SegId="t1346555"/>
+    <Key Time="832268" Cursor="70" Type="insert" Value="m" SegId="t1346555"/>
+    <Key Time="832499" Cursor="71" Type="insert" Value="en" SegId="t1346555"/>
+    <Key Time="832603" Cursor="73" Type="insert" Value="t" SegId="t1346555"/>
+    <Key Time="832755" Cursor="74" Type="insert" Value="o" SegId="t1346555"/>
+    <Key Time="832956" Cursor="75" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="833212" Cursor="76" Type="insert" Value="p" SegId="t1346555"/>
+    <Key Time="833395" Cursor="77" Type="insert" Value="e" SegId="t1346555"/>
+    <Key Time="833644" Cursor="78" Type="insert" Value="sa" SegId="t1346555"/>
+    <Key Time="833995" Cursor="80" Type="insert" Value="do" SegId="t1346555"/>
+    <Key Time="835468" Cursor="82" Type="insert" Value=":" SegId="t1346555"/>
+    <Key Time="835892" Cursor="83" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="840028" Cursor="84" Type="insert" Value="en" SegId="t1346555"/>
+    <Key Time="840164" Cursor="86" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="841451" Cursor="87" Type="insert" Value="2" SegId="t1346555"/>
+    <Key Time="841683" Cursor="88" Type="insert" Value="0" SegId="t1346555"/>
+    <Key Time="841843" Cursor="89" Type="insert" Value="0" SegId="t1346555"/>
+    <Key Time="842012" Cursor="90" Type="insert" Value="9" SegId="t1346555"/>
+    <Key Time="847372" Cursor="91" Type="insert" Value=", " SegId="t1346555"/>
+    <Key Time="847683" Cursor="93" Type="insert" Value="u" SegId="t1346555"/>
+    <Key Time="847916" Cursor="94" Type="insert" Value="n" SegId="t1346555"/>
+    <Key Time="848107" Cursor="95" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="848452" Cursor="96" Type="insert" Value="i" SegId="t1346555"/>
+    <Key Time="849068" Cursor="97" Type="insert" Value="n" SegId="t1346555"/>
+    <Key Time="849252" Cursor="98" Type="insert" Value="f" SegId="t1346555"/>
+    <Key Time="849351" Cursor="99" Type="insert" Value="o" SegId="t1346555"/>
+    <Key Time="850117" Cursor="100" Type="insert" Value="rm" SegId="t1346555"/>
+    <Key Time="850524" Cursor="102" Type="insert" Value="é " SegId="t1346555"/>
+    <Key Time="854500" Cursor="104" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="854797" Cursor="105" Type="insert" Value="f" SegId="t1346555"/>
+    <Key Time="855083" Cursor="106" Type="insert" Value="r" SegId="t1346555"/>
+    <Key Time="855851" Cursor="106" Text="r" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="856300" Cursor="106" Type="insert" Value="i" SegId="t1346555"/>
+    <Key Time="856540" Cursor="107" Type="insert" Value="rm" SegId="t1346555"/>
+    <Key Time="856684" Cursor="109" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="857172" Cursor="110" Type="insert" Value="ba" SegId="t1346555"/>
+    <Key Time="857276" Cursor="112" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="857740" Cursor="113" Type="insert" Value="que" SegId="t1346555"/>
+    <Key Time="857828" Cursor="116" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="859003" Cursor="117" Type="insert" Value="5" SegId="t1346555"/>
+    <Key Time="859195" Cursor="118" Type="insert" Value="0" SegId="t1346555"/>
+    <Key Time="859372" Cursor="119" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="859540" Cursor="120" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="859891" Cursor="121" Type="insert" Value="ge" SegId="t1346555"/>
+    <Key Time="859925" Cursor="123" Type="insert" Value="n" SegId="t1346555"/>
+    <Key Time="860052" Cursor="124" Type="insert" Value="t" SegId="t1346555"/>
+    <Key Time="860155" Cursor="125" Type="insert" Value="e" SegId="t1346555"/>
+    <Key Time="860260" Cursor="126" Type="insert" Value="s" SegId="t1346555"/>
+    <Key Time="860532" Cursor="127" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="861292" Cursor="128" Type="insert" Value="r" SegId="t1346555"/>
+    <Key Time="861564" Cursor="129" Type="insert" Value="o" SegId="t1346555"/>
+    <Key Time="861900" Cursor="130" Type="insert" Value="d" SegId="t1346555"/>
+    <Key Time="862165" Cursor="131" Type="insert" Value="er" SegId="t1346555"/>
+    <Key Time="862356" Cursor="133" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="863044" Cursor="134" Type="insert" Value="r" SegId="t1346555"/>
+    <Key Time="863723" Cursor="135" Type="insert" Value="on" SegId="t1346555"/>
+    <Key Time="863996" Cursor="137" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="864147" Cursor="138" Type="insert" Value="u" SegId="t1346555"/>
+    <Key Time="864420" Cursor="139" Type="insert" Value="n" SegId="t1346555"/>
+    <Key Time="864556" Cursor="140" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="865261" Cursor="140" Text=" " Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="865373" Cursor="139" Text="n" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="865557" Cursor="138" Text="u" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="865724" Cursor="137" Text=" " Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="865891" Cursor="136" Text="n" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="866035" Cursor="135" Text="o" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="866188" Cursor="134" Text="r" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="866283" Cursor="133" Text="a" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="866780" Cursor="132" Text="r" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="867180" Cursor="132" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="867611" Cursor="133" Type="insert" Value="ro" SegId="t1346555"/>
+    <Key Time="867763" Cursor="135" Type="insert" Value="n" SegId="t1346555"/>
+    <Key Time="867884" Cursor="136" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="868028" Cursor="137" Type="insert" Value="u" SegId="t1346555"/>
+    <Key Time="868307" Cursor="138" Type="insert" Value="n " SegId="t1346555"/>
+    <Key Time="868468" Cursor="140" Type="insert" Value="c" SegId="t1346555"/>
+    <Key Time="868747" Cursor="141" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="868939" Cursor="142" Type="insert" Value="r" SegId="t1346555"/>
+    <Key Time="869131" Cursor="143" Type="insert" Value="r" SegId="t1346555"/>
+    <Key Time="869332" Cursor="144" Type="insert" Value="i" SegId="t1346555"/>
+    <Key Time="869876" Cursor="145" Type="insert" Value="to" SegId="t1346555"/>
+    <Key Time="870044" Cursor="147" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="870820" Cursor="148" Type="insert" Value="d" SegId="t1346555"/>
+    <Key Time="871156" Cursor="149" Type="insert" Value="e " SegId="t1346555"/>
+    <Key Time="871365" Cursor="151" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="872100" Cursor="152" Type="insert" Value="p" SegId="t1346555"/>
+    <Key Time="872316" Cursor="153" Type="insert" Value="e" SegId="t1346555"/>
+    <Key Time="872660" Cursor="154" Type="insert" Value="ri" SegId="t1346555"/>
+    <Key Time="872861" Cursor="156" Type="insert" Value="t" SegId="t1346555"/>
+    <Key Time="872988" Cursor="157" Type="insert" Value="i" SegId="t1346555"/>
+    <Key Time="873195" Cursor="158" Type="insert" Value="v" SegId="t1346555"/>
+    <Key Time="873277" Cursor="159" Type="insert" Value="o" SegId="t1346555"/>
+    <Key Time="873403" Cursor="160" Type="insert" Value="s" SegId="t1346555"/>
+    <Key Time="876547" Cursor="161" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="877372" Cursor="162" Type="insert" Value="d" SegId="t1346555"/>
+    <Key Time="877739" Cursor="163" Type="insert" Value="ís" SegId="t1346555"/>
+    <Key Time="878068" Cursor="165" Type="insert" Value="co" SegId="t1346555"/>
+    <Key Time="878252" Cursor="167" Type="insert" Value="l" SegId="t1346555"/>
+    <Key Time="878420" Cursor="168" Type="insert" Value="o" SegId="t1346555"/>
+    <Key Time="879028" Cursor="169" Type="insert" Value=", " SegId="t1346555"/>
+    <Key Time="879580" Cursor="171" Type="insert" Value="f" SegId="t1346555"/>
+    <Key Time="882413" Cursor="171" Text="f" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="892851" Cursor="171" Type="insert" Value="m" SegId="t1346555"/>
+    <Key Time="893216" Cursor="172" Type="insert" Value="i" SegId="t1346555"/>
+    <Key Time="893540" Cursor="173" Type="insert" Value="ra" SegId="t1346555"/>
+    <Key Time="893628" Cursor="175" Type="insert" Value="n" SegId="t1346555"/>
+    <Key Time="893900" Cursor="176" Type="insert" Value="do" SegId="t1346555"/>
+    <Key Time="894051" Cursor="178" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="894316" Cursor="179" Type="insert" Value="co" SegId="t1346555"/>
+    <Key Time="894428" Cursor="181" Type="insert" Value="n" SegId="t1346555"/>
+    <Key Time="894532" Cursor="182" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="894707" Cursor="183" Type="insert" Value="el" SegId="t1346555"/>
+    <Key Time="894806" Cursor="185" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="895060" Cursor="186" Type="insert" Value="c" SegId="t1346555"/>
+    <Key Time="895211" Cursor="187" Type="insert" Value="e" SegId="t1346555"/>
+    <Key Time="895331" Cursor="188" Type="insert" Value="ñ" SegId="t1346555"/>
+    <Key Time="895523" Cursor="189" Type="insert" Value="ñ" SegId="t1346555"/>
+    <Key Time="895900" Cursor="189" Text="ñ" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="896131" Cursor="189" Type="insert" Value="o" SegId="t1346555"/>
+    <Key Time="896316" Cursor="190" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="896884" Cursor="191" Type="insert" Value="f" SegId="t1346555"/>
+    <Key Time="897172" Cursor="192" Type="insert" Value="ru" SegId="t1346555"/>
+    <Key Time="897381" Cursor="194" Type="insert" Value="n" SegId="t1346555"/>
+    <Key Time="897555" Cursor="195" Type="insert" Value="ci" SegId="t1346555"/>
+    <Key Time="898108" Cursor="197" Type="insert" Value="do" SegId="t1346555"/>
+    <Key Time="898267" Cursor="199" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="898461" Cursor="200" Type="insert" Value="d" SegId="t1346555"/>
+    <Key Time="898597" Cursor="201" Type="insert" Value="u" SegId="t1346555"/>
+    <Key Time="898876" Cursor="202" Type="insert" Value="ra" SegId="t1346555"/>
+    <Key Time="898988" Cursor="204" Type="insert" Value="n" SegId="t1346555"/>
+    <Key Time="899188" Cursor="205" Type="insert" Value="te" SegId="t1346555"/>
+    <Key Time="901789" Cursor="207" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="902187" Cursor="208" Type="insert" Value="me" SegId="t1346555"/>
+    <Key Time="902436" Cursor="210" Type="insert" Value="di" SegId="t1346555"/>
+    <Key Time="902555" Cursor="212" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="902678" Cursor="213" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="903124" Cursor="214" Type="insert" Value="hor" SegId="t1346555"/>
+    <Key Time="903220" Cursor="217" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="903483" Cursor="218" Type="insert" Value=", " SegId="t1346555"/>
+    <Key Time="904027" Cursor="220" Type="insert" Value="ha" SegId="t1346555"/>
+    <Key Time="904099" Cursor="222" Type="insert" Value="s" SegId="t1346555"/>
+    <Key Time="904388" Cursor="223" Type="insert" Value="ta" SegId="t1346555"/>
+    <Key Time="904492" Cursor="225" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="904765" Cursor="226" Type="insert" Value="que" SegId="t1346555"/>
+    <Key Time="904891" Cursor="229" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="905116" Cursor="230" Type="insert" Value="el" SegId="t1346555"/>
+    <Key Time="905195" Cursor="232" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="905836" Cursor="233" Type="insert" Value="v" SegId="t1346555"/>
+    <Key Time="906036" Cursor="234" Type="insert" Value="e" SegId="t1346555"/>
+    <Key Time="906164" Cursor="235" Type="insert" Value="n" SegId="t1346555"/>
+    <Key Time="906293" Cursor="236" Type="insert" Value="d" SegId="t1346555"/>
+    <Key Time="906451" Cursor="237" Type="insert" Value="e" SegId="t1346555"/>
+    <Key Time="906988" Cursor="237" Text="e" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="908004" Cursor="237" Type="insert" Value="e" SegId="t1346555"/>
+    <Key Time="908291" Cursor="238" Type="insert" Value="d" SegId="t1346555"/>
+    <Key Time="908483" Cursor="239" Type="insert" Value="or" SegId="t1346555"/>
+    <Key Time="908621" Cursor="241" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="908956" Cursor="242" Type="insert" Value="a" SegId="t1346555"/>
+    <Key Time="909123" Cursor="243" Type="insert" Value="m" SegId="t1346555"/>
+    <Key Time="909413" Cursor="244" Type="insert" Value="bi" SegId="t1346555"/>
+    <Key Time="909908" Cursor="245" Text="i" Type="delete" Value="[Back]" SegId="t1346555"/>
+    <Key Time="910124" Cursor="245" Type="insert" Value="u" SegId="t1346555"/>
+    <Key Time="910316" Cursor="246" Type="insert" Value="l" SegId="t1346555"/>
+    <Key Time="910501" Cursor="247" Type="insert" Value="an" SegId="t1346555"/>
+    <Key Time="910612" Cursor="249" Type="insert" Value="t" SegId="t1346555"/>
+    <Key Time="910707" Cursor="250" Type="insert" Value="e" SegId="t1346555"/>
+    <Key Time="911186" Cursor="251" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="911412" Cursor="252" Type="insert" Value="re" SegId="t1346555"/>
+    <Key Time="911771" Cursor="254" Type="insert" Value="co" SegId="t1346555"/>
+    <Key Time="912052" Cursor="256" Type="insert" Value="gi" SegId="t1346555"/>
+    <Key Time="912443" Cursor="258" Type="insert" Value="ó " SegId="t1346555"/>
+    <Key Time="912788" Cursor="260" Type="insert" Value="y " SegId="t1346555"/>
+    <Key Time="912883" Cursor="262" Type="insert" Value="s" SegId="t1346555"/>
+    <Key Time="913020" Cursor="263" Type="insert" Value="e" SegId="t1346555"/>
+    <Key Time="913108" Cursor="264" Type="insert" Value=" " SegId="t1346555"/>
+    <Key Time="913421" Cursor="265" Type="insert" Value="f" SegId="t1346555"/>
+    <Key Time="913588" Cursor="266" Type="insert" Value="u" SegId="t1346555"/>
+    <Key Time="913796" Cursor="267" Type="insert" Value="e" SegId="t1346555"/>
+    <Key Time="913956" Cursor="268" Type="insert" Value="." SegId="t1346555"/>
+    <Key Time="922932" Cursor="0" Type="insert" Value="X" SegId="t1346556"/>
+    <Key Time="923181" Cursor="1" Type="insert" Value="i" SegId="t1346556"/>
+    <Key Time="923372" Cursor="2" Type="insert" Value="n" SegId="t1346556"/>
+    <Key Time="923547" Cursor="3" Type="insert" Value="d" SegId="t1346556"/>
+    <Key Time="923755" Cursor="4" Type="insert" Value="u" SegId="t1346556"/>
+    <Key Time="924271" Cursor="5" Type="insert" Value=", " SegId="t1346556"/>
+    <Key Time="925476" Cursor="7" Type="insert" Value="u" SegId="t1346556"/>
+    <Key Time="925683" Cursor="8" Type="insert" Value="n" SegId="t1346556"/>
+    <Key Time="925860" Cursor="9" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="926020" Cursor="10" Type="insert" Value="d" SegId="t1346556"/>
+    <Key Time="926235" Cursor="11" Type="insert" Value="is" SegId="t1346556"/>
+    <Key Time="926477" Cursor="13" Type="insert" Value="tr" SegId="t1346556"/>
+    <Key Time="926581" Cursor="15" Type="insert" Value="i" SegId="t1346556"/>
+    <Key Time="927020" Cursor="16" Type="insert" Value="to" SegId="t1346556"/>
+    <Key Time="928981" Cursor="18" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="929316" Cursor="19" Type="insert" Value="u" SegId="t1346556"/>
+    <Key Time="929500" Cursor="20" Type="insert" Value="r" SegId="t1346556"/>
+    <Key Time="930151" Cursor="21" Type="insert" Value="ba" SegId="t1346556"/>
+    <Key Time="930188" Cursor="23" Type="insert" Value="n" SegId="t1346556"/>
+    <Key Time="930300" Cursor="24" Type="insert" Value="o" SegId="t1346556"/>
+    <Key Time="930460" Cursor="25" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="930820" Cursor="26" Type="insert" Value="co" SegId="t1346556"/>
+    <Key Time="931004" Cursor="28" Type="insert" Value="n" SegId="t1346556"/>
+    <Key Time="931260" Cursor="29" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="934540" Cursor="30" Type="insert" Value="6" SegId="t1346556"/>
+    <Key Time="935124" Cursor="31" Type="insert" Value="80" SegId="t1346556"/>
+    <Key Time="935635" Cursor="33" Type="insert" Value="." SegId="t1346556"/>
+    <Key Time="935891" Cursor="34" Type="insert" Value="0" SegId="t1346556"/>
+    <Key Time="936084" Cursor="35" Type="insert" Value="0" SegId="t1346556"/>
+    <Key Time="936669" Cursor="36" Type="insert" Value="0" SegId="t1346556"/>
+    <Key Time="936855" Cursor="37" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="937572" Cursor="38" Type="insert" Value="h" SegId="t1346556"/>
+    <Key Time="937843" Cursor="39" Type="insert" Value="a" SegId="t1346556"/>
+    <Key Time="938100" Cursor="40" Type="insert" Value="b" SegId="t1346556"/>
+    <Key Time="938195" Cursor="41" Type="insert" Value="i" SegId="t1346556"/>
+    <Key Time="938451" Cursor="42" Type="insert" Value="ta" SegId="t1346556"/>
+    <Key Time="938539" Cursor="44" Type="insert" Value="n" SegId="t1346556"/>
+    <Key Time="938652" Cursor="45" Type="insert" Value="t" SegId="t1346556"/>
+    <Key Time="938747" Cursor="46" Type="insert" Value="e" SegId="t1346556"/>
+    <Key Time="938820" Cursor="47" Type="insert" Value="s" SegId="t1346556"/>
+    <Key Time="943012" Cursor="48" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="943331" Cursor="49" Type="insert" Value="en " SegId="t1346556"/>
+    <Key Time="944283" Cursor="52" Type="insert" Value="C" SegId="t1346556"/>
+    <Key Time="944443" Cursor="53" Type="insert" Value="h" SegId="t1346556"/>
+    <Key Time="944716" Cursor="54" Type="insert" Value="en" SegId="t1346556"/>
+    <Key Time="944892" Cursor="56" Type="insert" Value="g" SegId="t1346556"/>
+    <Key Time="945420" Cursor="57" Type="insert" Value="d" SegId="t1346556"/>
+    <Key Time="945683" Cursor="58" Type="insert" Value="u" SegId="t1346556"/>
+    <Key Time="946668" Cursor="59" Type="insert" Value=", " SegId="t1346556"/>
+    <Key Time="947213" Cursor="61" Type="insert" Value="h" SegId="t1346556"/>
+    <Key Time="947451" Cursor="62" Type="insert" Value="a " SegId="t1346556"/>
+    <Key Time="947780" Cursor="64" Type="insert" Value="o" SegId="t1346556"/>
+    <Key Time="948004" Cursor="65" Type="insert" Value="p" SegId="t1346556"/>
+    <Key Time="948349" Cursor="66" Type="insert" Value="ta" SegId="t1346556"/>
+    <Key Time="948716" Cursor="68" Type="insert" Value="do" SegId="t1346556"/>
+    <Key Time="948883" Cursor="70" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="949180" Cursor="71" Type="insert" Value="po" SegId="t1346556"/>
+    <Key Time="949507" Cursor="73" Type="insert" Value="r " SegId="t1346556"/>
+    <Key Time="950355" Cursor="75" Type="insert" Value="la" SegId="t1346556"/>
+    <Key Time="950436" Cursor="77" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="950932" Cursor="78" Type="insert" Value="c" SegId="t1346556"/>
+    <Key Time="951116" Cursor="79" Type="insert" Value="i" SegId="t1346556"/>
+    <Key Time="951324" Cursor="80" Type="insert" Value="r" SegId="t1346556"/>
+    <Key Time="951651" Cursor="81" Type="insert" Value="u" SegId="t1346556"/>
+    <Key Time="951852" Cursor="82" Type="insert" Value="g" SegId="t1346556"/>
+    <Key Time="952388" Cursor="83" Type="insert" Value="í" SegId="t1346556"/>
+    <Key Time="952532" Cursor="84" Type="insert" Value="a" SegId="t1346556"/>
+    <Key Time="952636" Cursor="85" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="953636" Cursor="86" Type="insert" Value="es" SegId="t1346556"/>
+    <Key Time="953821" Cursor="88" Type="insert" Value="t" SegId="t1346556"/>
+    <Key Time="954036" Cursor="89" Type="insert" Value="é" SegId="t1346556"/>
+    <Key Time="954356" Cursor="90" Type="insert" Value="ti" SegId="t1346556"/>
+    <Key Time="954755" Cursor="92" Type="insert" Value="ca" SegId="t1346556"/>
+    <Key Time="954955" Cursor="94" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="955244" Cursor="95" Type="insert" Value="pa" SegId="t1346556"/>
+    <Key Time="955355" Cursor="97" Type="insert" Value="r" SegId="t1346556"/>
+    <Key Time="955548" Cursor="98" Type="insert" Value="a " SegId="t1346556"/>
+    <Key Time="956331" Cursor="100" Type="insert" Value="ca" SegId="t1346556"/>
+    <Key Time="956581" Cursor="102" Type="insert" Value="m" SegId="t1346556"/>
+    <Key Time="956747" Cursor="103" Type="insert" Value="b" SegId="t1346556"/>
+    <Key Time="956939" Cursor="104" Type="insert" Value="ia" SegId="t1346556"/>
+    <Key Time="957068" Cursor="106" Type="insert" Value="r" SegId="t1346556"/>
+    <Key Time="957148" Cursor="107" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="957286" Cursor="108" Type="insert" Value="s" SegId="t1346556"/>
+    <Key Time="957428" Cursor="109" Type="insert" Value="u" SegId="t1346556"/>
+    <Key Time="957531" Cursor="110" Type="insert" Value=" " SegId="t1346556"/>
+    <Key Time="957843" Cursor="111" Type="insert" Value="i" SegId="t1346556"/>
+    <Key Time="958060" Cursor="112" Type="insert" Value="m" SegId="t1346556"/>
+    <Key Time="958195" Cursor="113" Type="insert" Value="a" SegId="t1346556"/>
+    <Key Time="958476" Cursor="114" Type="insert" Value="ge" SegId="t1346556"/>
+    <Key Time="958540" Cursor="116" Type="insert" Value="n" SegId="t1346556"/>
+    <Key Time="959323" Cursor="117" Type="insert" Value="." SegId="t1346556"/>
+    <Key Time="985828" Cursor="0" Type="insert" Value="D" SegId="t1346557"/>
+    <Key Time="986228" Cursor="1" Type="insert" Value="es" SegId="t1346557"/>
+    <Key Time="986348" Cursor="3" Type="insert" Value="d" SegId="t1346557"/>
+    <Key Time="986596" Cursor="4" Type="insert" Value="e " SegId="t1346557"/>
+    <Key Time="987468" Cursor="6" Type="insert" Value="2" SegId="t1346557"/>
+    <Key Time="987812" Cursor="7" Type="insert" Value="0" SegId="t1346557"/>
+    <Key Time="988069" Cursor="8" Type="insert" Value="03" SegId="t1346557"/>
+    <Key Time="989324" Cursor="10" Type="insert" Value=", " SegId="t1346557"/>
+    <Key Time="990683" Cursor="12" Type="insert" Value="e" SegId="t1346557"/>
+    <Key Time="990808" Cursor="13" Type="insert" Value="l" SegId="t1346557"/>
+    <Key Time="990907" Cursor="14" Type="insert" Value=" " SegId="t1346557"/>
+    <Key Time="991140" Cursor="15" Type="insert" Value="di" SegId="t1346557"/>
+    <Key Time="991220" Cursor="17" Type="insert" Value="s" SegId="t1346557"/>
+    <Key Time="991547" Cursor="18" Type="insert" Value="tr" SegId="t1346557"/>
+    <Key Time="991651" Cursor="20" Type="insert" Value="i" SegId="t1346557"/>
+    <Key Time="992892" Cursor="21" Type="insert" Value="t" SegId="t1346557"/>
+    <Key Time="993035" Cursor="22" Type="insert" Value="o" SegId="t1346557"/>
+    <Key Time="993244" Cursor="23" Type="insert" Value=" " SegId="t1346557"/>
+    <Key Time="993596" Cursor="24" Type="insert" Value="h" SegId="t1346557"/>
+    <Key Time="994339" Cursor="25" Type="insert" Value="a " SegId="t1346557"/>
+    <Key Time="994691" Cursor="27" Type="insert" Value="co" SegId="t1346557"/>
+    <Key Time="994860" Cursor="29" Type="insert" Value="m" SegId="t1346557"/>
+    <Key Time="995061" Cursor="30" Type="insert" Value="p" SegId="t1346557"/>
+    <Key Time="995260" Cursor="31" Type="insert" Value="el" SegId="t1346557"/>
+    <Key Time="995540" Cursor="33" Type="insert" Value="ta" SegId="t1346557"/>
+    <Key Time="995731" Cursor="35" Type="insert" Value="d" SegId="t1346557"/>
+    <Key Time="995854" Cursor="36" Type="insert" Value="o" SegId="t1346557"/>
+    <Key Time="995958" Cursor="37" Type="insert" Value=" " SegId="t1346557"/>
+    <Key Time="996732" Cursor="38" Type="insert" Value="s" SegId="t1346557"/>
+    <Key Time="997924" Cursor="39" Type="insert" Value="u" SegId="t1346557"/>
+    <Key Time="998275" Cursor="40" Type="insert" Value=" " SegId="t1346557"/>
+    <Key Time="998491" Cursor="41" Type="insert" Value="po" SegId="t1346557"/>
+    <Key Time="998875" Cursor="43" Type="insert" Value="li" SegId="t1346557"/>
+    <Key Time="1006173" Cursor="45" Type="insert" Value="c" SegId="t1346557"/>
+    <Key Time="1006420" Cursor="46" Type="insert" Value="í" SegId="t1346557"/>
+    <Key Time="1006523" Cursor="47" Type="insert" Value="a" SegId="t1346557"/>
+    <Key Time="1006589" Cursor="48" Type="insert" Value=" " SegId="t1346557"/>
+    <Key Time="1007123" Cursor="49" Type="insert" Value="u" SegId="t1346557"/>
+    <Key Time="1007236" Cursor="50" Type="insert" Value="r" SegId="t1346557"/>
+    <Key Time="1007620" Cursor="51" Type="insert" Value="ba" SegId="t1346557"/>
+    <Key Time="1007716" Cursor="53" Type="insert" Value="n" SegId="t1346557"/>
+    <Key Time="1007988" Cursor="54" Type="insert" Value="a" SegId="t1346557"/>
+    <Key Time="1008195" Cursor="55" Type="insert" Value=" " SegId="t1346557"/>
+    <Key Time="1008892" Cursor="56" Type="insert" Value="co" SegId="t1346557"/>
+    <Key Time="1009189" Cursor="58" Type="insert" Value="n " SegId="t1346557"/>
+    <Key Time="1009804" Cursor="60" Type="insert" Value="1" SegId="t1346557"/>
+    <Key Time="1010214" Cursor="61" Type="insert" Value="3 " SegId="t1346557"/>
+    <Key Time="1010467" Cursor="63" Type="insert" Value="m" SegId="t1346557"/>
+    <Key Time="1010676" Cursor="64" Type="insert" Value="u" SegId="t1346557"/>
+    <Key Time="1010939" Cursor="65" Type="insert" Value="je" SegId="t1346557"/>
+    <Key Time="1011180" Cursor="67" Type="insert" Value="re" SegId="t1346557"/>
+    <Key Time="1011268" Cursor="69" Type="insert" Value="s" SegId="t1346557"/>
+    <Key Time="1011827" Cursor="70" Type="insert" Value=", " SegId="t1346557"/>
+    <Key Time="1013196" Cursor="72" Type="insert" Value="es" SegId="t1346557"/>
+    <Key Time="1013516" Cursor="74" Type="insert" Value="c" SegId="t1346557"/>
+    <Key Time="1013683" Cursor="75" Type="insert" Value="i" SegId="t1346557"/>
+    <Key Time="1014515" Cursor="75" Text="i" Type="delete" Value="[Back]" SegId="t1346557"/>
+    <Key Time="1014668" Cursor="74" Text="c" Type="delete" Value="[Back]" SegId="t1346557"/>
+    <Key Time="1014924" Cursor="74" Type="insert" Value="p" SegId="t1346557"/>
+    <Key Time="1015059" Cursor="75" Type="insert" Value="e" SegId="t1346557"/>
+    <Key Time="1015388" Cursor="76" Type="insert" Value="ci" SegId="t1346557"/>
+    <Key Time="1015579" Cursor="78" Type="insert" Value="al" SegId="t1346557"/>
+    <Key Time="1015860" Cursor="80" Type="insert" Value="m" SegId="t1346557"/>
+    <Key Time="1016075" Cursor="81" Type="insert" Value="en" SegId="t1346557"/>
+    <Key Time="1016259" Cursor="83" Type="insert" Value="te" SegId="t1346557"/>
+    <Key Time="1016372" Cursor="85" Type="insert" Value=" " SegId="t1346557"/>
+    <Key Time="1016572" Cursor="86" Type="insert" Value="e" SegId="t1346557"/>
+    <Key Time="1016844" Cursor="87" Type="insert" Value="le" SegId="t1346557"/>
+    <Key Time="1017308" Cursor="89" Type="insert" Value="gi" SegId="t1346557"/>
+    <Key Time="1017603" Cursor="91" Type="insert" Value="da" SegId="t1346557"/>
+    <Key Time="1019204" Cursor="93" Type="insert" Value="s " SegId="t1346557"/>
+    <Key Time="1019500" Cursor="95" Type="insert" Value="po" SegId="t1346557"/>
+    <Key Time="1019684" Cursor="97" Type="insert" Value="r" SegId="t1346557"/>
+    <Key Time="1019803" Cursor="98" Type="insert" Value=" " SegId="t1346557"/>
+    <Key Time="1020068" Cursor="99" Type="insert" Value="su" SegId="t1346557"/>
+    <Key Time="1020203" Cursor="101" Type="insert" Value=" " SegId="t1346557"/>
+    <Key Time="1020820" Cursor="102" Type="insert" Value="b" SegId="t1346557"/>
+    <Key Time="1020996" Cursor="103" Type="insert" Value="e" SegId="t1346557"/>
+    <Key Time="1021227" Cursor="104" Type="insert" Value="le" SegId="t1346557"/>
+    <Key Time="1021747" Cursor="106" Type="insert" Value="z" SegId="t1346557"/>
+    <Key Time="1021931" Cursor="107" Type="insert" Value="a" SegId="t1346557"/>
+    <Key Time="1022307" Cursor="108" Type="insert" Value=", " SegId="t1346557"/>
+    <Key Time="1022564" Cursor="110" Type="insert" Value="es" SegId="t1346557"/>
+    <Key Time="1023092" Cursor="112" Type="insert" Value="b" SegId="t1346557"/>
+    <Key Time="1023292" Cursor="113" Type="insert" Value="e" SegId="t1346557"/>
+    <Key Time="1023508" Cursor="114" Type="insert" Value="l" SegId="t1346557"/>
+    <Key Time="1023651" Cursor="115" Type="insert" Value="t" SegId="t1346557"/>
+    <Key Time="1023828" Cursor="116" Type="insert" Value="e" SegId="t1346557"/>
+    <Key Time="1024252" Cursor="117" Type="insert" Value="z " SegId="t1346557"/>
+    <Key Time="1024836" Cursor="119" Type="insert" Value="y" SegId="t1346557"/>
+    <Key Time="1024948" Cursor="120" Type="insert" Value=" " SegId="t1346557"/>
+    <Key Time="1025156" Cursor="121" Type="insert" Value="j" SegId="t1346557"/>
+    <Key Time="1025316" Cursor="122" Type="insert" Value="u" SegId="t1346557"/>
+    <Key Time="1025516" Cursor="123" Type="insert" Value="v" SegId="t1346557"/>
+    <Key Time="1025715" Cursor="124" Type="insert" Value="en" SegId="t1346557"/>
+    <Key Time="1025907" Cursor="126" Type="insert" Value="t" SegId="t1346557"/>
+    <Key Time="1026068" Cursor="127" Type="insert" Value="u" SegId="t1346557"/>
+    <Key Time="1027372" Cursor="128" Type="insert" Value="d" SegId="t1346557"/>
+    <Key Time="1027565" Cursor="129" Type="insert" Value="-" SegId="t1346557"/>
+    <Key Time="1028660" Cursor="129" Text="-" Type="delete" Value="[Back]" SegId="t1346557"/>
+    <Key Time="1029452" Cursor="129" Type="insert" Value="." SegId="t1346557"/>
+    <MouseUp Time="1033949" Cursor="93" Text="" SegId="t1346556"/>
+    <MouseUp Time="1034123" Cursor="86" Text="#########" SegId="t1346556"/>
+    <Key Time="1034916" Cursor="86" Text="estética " Type="insert" Value="ma" SegId="t1346556"/>
+    <Key Time="1035228" Cursor="88" Type="insert" Value="yo" SegId="t1346556"/>
+    <Key Time="1035292" Cursor="90" Type="insert" Value="r" SegId="t1346556"/>
+    <Key Time="1036197" Cursor="91" Type="insert" Value=" " SegId="t1346556"/>
+    <MouseUp Time="1054658" Cursor="0" Text="" SegId="t1346558"/>
+    <Key Time="1055565" Cursor="0" Type="insert" Value="L" SegId="t1346558"/>
+    <Key Time="1055940" Cursor="1" Type="insert" Value="a " SegId="t1346558"/>
+    <Key Time="1056204" Cursor="3" Type="insert" Value="id" SegId="t1346558"/>
+    <Key Time="1056507" Cursor="5" Type="insert" Value="ea" SegId="t1346558"/>
+    <Key Time="1056612" Cursor="7" Type="insert" Value=" " SegId="t1346558"/>
+    <Key Time="1056988" Cursor="8" Type="insert" Value="es" SegId="t1346558"/>
+    <Key Time="1057068" Cursor="10" Type="insert" Value=" " SegId="t1346558"/>
+    <Key Time="1057755" Cursor="11" Type="insert" Value="da" SegId="t1346558"/>
+    <Key Time="1058147" Cursor="13" Type="insert" Value="r " SegId="t1346558"/>
+    <Key Time="1058659" Cursor="15" Type="insert" Value="a " SegId="t1346558"/>
+    <Key Time="1058732" Cursor="17" Type="insert" Value="l" SegId="t1346558"/>
+    <Key Time="1058875" Cursor="18" Type="insert" Value="a" SegId="t1346558"/>
+    <Key Time="1058979" Cursor="19" Type="insert" Value=" " SegId="t1346558"/>
+    <Key Time="1059780" Cursor="20" Type="insert" Value="t" SegId="t1346558"/>
+    <Key Time="1059964" Cursor="21" Type="insert" Value="o" SegId="t1346558"/>
+    <Key Time="1060212" Cursor="22" Type="insert" Value="s" SegId="t1346558"/>
+    <Key Time="1060540" Cursor="23" Type="insert" Value="ca" SegId="t1346558"/>
+    <Key Time="1060676" Cursor="25" Type="insert" Value=" " SegId="t1346558"/>
+    <Key Time="1060979" Cursor="26" Type="insert" Value="po" SegId="t1346558"/>
+    <Key Time="1061476" Cursor="28" Type="insert" Value="li" SegId="t1346558"/>
+    <Key Time="1061683" Cursor="30" Type="insert" Value="c" SegId="t1346558"/>
+    <Key Time="1061924" Cursor="31" Type="insert" Value="í" SegId="t1346558"/>
+    <Key Time="1062004" Cursor="32" Type="insert" Value="a" SegId="t1346558"/>
+    <Key Time="1062083" Cursor="33" Type="insert" Value=" " SegId="t1346558"/>
+    <Key Time="1062388" Cursor="34" Type="insert" Value="u" SegId="t1346558"/>
+    <Key Time="1062580" Cursor="35" Type="insert" Value="n" SegId="t1346558"/>
+    <Key Time="1062747" Cursor="36" Type="insert" Value=" " SegId="t1346558"/>
+    <Key Time="1065660" Cursor="36" Text=" " Type="delete" Value="[Back]" SegId="t1346558"/>
+    <Key Time="1065851" Cursor="36" Type="insert" Value="a " SegId="t1346558"/>
+    <Key Time="1066531" Cursor="38" Type="insert" Value="i" SegId="t1346558"/>
+    <Key Time="1066748" Cursor="39" Type="insert" Value="m" SegId="t1346558"/>
+    <Key Time="1067196" Cursor="39" Text="m" Type="delete" Value="[Back]" SegId="t1346558"/>
+    <Key Time="1067340" Cursor="38" Text="i" Type="delete" Value="[Back]" SegId="t1346558"/>
+    <Key Time="1067611" Cursor="38" Type="insert" Value="ca" SegId="t1346558"/>
+    <Key Time="1067907" Cursor="40" Type="insert" Value="ra" SegId="t1346558"/>
+    <Key Time="1067988" Cursor="42" Type="insert" Value=" " SegId="t1346558"/>
+    <Key Time="1068178" Cursor="43" Type="insert" Value="m" SegId="t1346558"/>
+    <Key Time="1068412" Cursor="44" Type="insert" Value="á" SegId="t1346558"/>
+    <Key Time="1068500" Cursor="45" Type="insert" Value="s" SegId="t1346558"/>
+    <Key Time="1068590" Cursor="46" Type="insert" Value=" " SegId="t1346558"/>
+    <Key Time="1068884" Cursor="47" Type="insert" Value="s" SegId="t1346558"/>
+    <Key Time="1069036" Cursor="48" Type="insert" Value="u" SegId="t1346558"/>
+    <Key Time="1069188" Cursor="49" Type="insert" Value="a" SegId="t1346558"/>
+    <Key Time="1069588" Cursor="50" Type="insert" Value="v" SegId="t1346558"/>
+    <Key Time="1069819" Cursor="51" Type="insert" Value="e" SegId="t1346558"/>
+    <Key Time="1070051" Cursor="52" Type="insert" Value=" " SegId="t1346558"/>
+    <Key Time="1071388" Cursor="53" Type="insert" Value="y" SegId="t1346558"/>
+    <Key Time="1071531" Cursor="54" Type="insert" Value=" " SegId="t1346558"/>
+    <Key Time="1071796" Cursor="55" Type="insert" Value="f" SegId="t1346558"/>
+    <Key Time="1072163" Cursor="56" Type="insert" Value="e" SegId="t1346558"/>
+    <Key Time="1072316" Cursor="57" Type="insert" Value="m" SegId="t1346558"/>
+    <Key Time="1072483" Cursor="58" Type="insert" Value="e" SegId="t1346558"/>
+    <Key Time="1073155" Cursor="59" Type="insert" Value="ni" SegId="t1346558"/>
+    <Key Time="1074179" Cursor="61" Type="insert" Value="na" SegId="t1346558"/>
+    <Key Time="1076611" Cursor="63" Type="insert" Value="." SegId="t1346558"/>
+    <Key Time="1087035" Cursor="0" Type="insert" Value="Y" SegId="t1346559"/>
+    <Key Time="1087412" Cursor="1" Type="insert" Value=" p" SegId="t1346559"/>
+    <Key Time="1087515" Cursor="3" Type="insert" Value="o" SegId="t1346559"/>
+    <Key Time="1087635" Cursor="4" Type="insert" Value="r" SegId="t1346559"/>
+    <Key Time="1087756" Cursor="5" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1087979" Cursor="6" Type="insert" Value="u" SegId="t1346559"/>
+    <Key Time="1088227" Cursor="7" Type="insert" Value="na" SegId="t1346559"/>
+    <Key Time="1088308" Cursor="9" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1089051" Cursor="10" Type="insert" Value="b" SegId="t1346559"/>
+    <Key Time="1089164" Cursor="11" Type="insert" Value="u" SegId="t1346559"/>
+    <Key Time="1089365" Cursor="12" Type="insert" Value="en" SegId="t1346559"/>
+    <Key Time="1089469" Cursor="14" Type="insert" Value="a" SegId="t1346559"/>
+    <Key Time="1089547" Cursor="15" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1090396" Cursor="16" Type="insert" Value="ra" SegId="t1346559"/>
+    <Key Time="1091428" Cursor="18" Type="insert" Value="z" SegId="t1346559"/>
+    <Key Time="1091788" Cursor="19" Type="insert" Value="ó" SegId="t1346559"/>
+    <Key Time="1092028" Cursor="20" Type="insert" Value="n" SegId="t1346559"/>
+    <Key Time="1093021" Cursor="21" Type="insert" Value=", " SegId="t1346559"/>
+    <Key Time="1096123" Cursor="22" Text=" " Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1097453" Cursor="0" Text="Y por una buena razón," Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1103524" Cursor="0" Type="insert" Value="PO" SegId="t1346559"/>
+    <Key Time="1103860" Cursor="2" Type="insert" Value="r " SegId="t1346559"/>
+    <Key Time="1104268" Cursor="4" Type="insert" Value="d" SegId="t1346559"/>
+    <Key Time="1104671" Cursor="4" Text="d" Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1104820" Cursor="3" Text=" " Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1104940" Cursor="2" Text="r" Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1105043" Cursor="1" Text="O" Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1105348" Cursor="0" Text="P" Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1106044" Cursor="0" Type="insert" Value="P" SegId="t1346559"/>
+    <Key Time="1106244" Cursor="1" Type="insert" Value="o" SegId="t1346559"/>
+    <Key Time="1106500" Cursor="2" Type="insert" Value="r " SegId="t1346559"/>
+    <Key Time="1106731" Cursor="4" Type="insert" Value="d" SegId="t1346559"/>
+    <Key Time="1106988" Cursor="5" Type="insert" Value="es" SegId="t1346559"/>
+    <Key Time="1107523" Cursor="7" Type="insert" Value="g" SegId="t1346559"/>
+    <Key Time="1107828" Cursor="8" Type="insert" Value="ra" SegId="t1346559"/>
+    <Key Time="1108092" Cursor="10" Type="insert" Value="c" SegId="t1346559"/>
+    <Key Time="1108213" Cursor="11" Type="insert" Value="i" SegId="t1346559"/>
+    <Key Time="1108315" Cursor="12" Type="insert" Value="a" SegId="t1346559"/>
+    <Key Time="1108995" Cursor="13" Type="insert" Value=", " SegId="t1346559"/>
+    <Key Time="1110140" Cursor="15" Type="insert" Value="i" SegId="t1346559"/>
+    <Key Time="1110389" Cursor="16" Type="insert" Value="n" SegId="t1346559"/>
+    <Key Time="1110955" Cursor="17" Type="insert" Value="cl" SegId="t1346559"/>
+    <Key Time="1111244" Cursor="19" Type="insert" Value="us" SegId="t1346559"/>
+    <Key Time="1111340" Cursor="21" Type="insert" Value="o" SegId="t1346559"/>
+    <Key Time="1111500" Cursor="22" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1112308" Cursor="23" Type="insert" Value="S" SegId="t1346559"/>
+    <Key Time="1115867" Cursor="24" Type="insert" Value="c" SegId="t1346559"/>
+    <Key Time="1116108" Cursor="25" Type="insert" Value="ar" SegId="t1346559"/>
+    <Key Time="1116436" Cursor="27" Type="insert" Value="le" SegId="t1346559"/>
+    <Key Time="1116595" Cursor="29" Type="insert" Value="t" SegId="t1346559"/>
+    <Key Time="1116772" Cursor="30" Type="insert" Value="t" SegId="t1346559"/>
+    <Key Time="1116947" Cursor="31" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1117372" Cursor="32" Type="insert" Value="J" SegId="t1346559"/>
+    <Key Time="1117492" Cursor="33" Type="insert" Value="o" SegId="t1346559"/>
+    <Key Time="1119508" Cursor="34" Type="insert" Value="h" SegId="t1346559"/>
+    <Key Time="1119651" Cursor="35" Type="insert" Value="a" SegId="t1346559"/>
+    <Key Time="1119819" Cursor="36" Type="insert" Value="n" SegId="t1346559"/>
+    <Key Time="1120108" Cursor="37" Type="insert" Value="s" SegId="t1346559"/>
+    <Key Time="1120380" Cursor="38" Type="insert" Value="so" SegId="t1346559"/>
+    <Key Time="1120525" Cursor="40" Type="insert" Value="n" SegId="t1346559"/>
+    <Key Time="1120724" Cursor="41" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1121004" Cursor="42" Type="insert" Value="te" SegId="t1346559"/>
+    <Key Time="1121620" Cursor="44" Type="insert" Value="n" SegId="t1346559"/>
+    <Key Time="1121803" Cursor="45" Type="insert" Value="d" SegId="t1346559"/>
+    <Key Time="1122035" Cursor="46" Type="insert" Value="r" SegId="t1346559"/>
+    <Key Time="1122284" Cursor="47" Type="insert" Value="í" SegId="t1346559"/>
+    <Key Time="1122364" Cursor="48" Type="insert" Value="a" SegId="t1346559"/>
+    <Key Time="1122435" Cursor="49" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1122660" Cursor="50" Type="insert" Value="d" SegId="t1346559"/>
+    <Key Time="1122772" Cursor="51" Type="insert" Value="i" SegId="t1346559"/>
+    <Key Time="1123052" Cursor="52" Type="insert" Value="fi" SegId="t1346559"/>
+    <Key Time="1123413" Cursor="54" Type="insert" Value="cu" SegId="t1346559"/>
+    <Key Time="1123540" Cursor="56" Type="insert" Value="l" SegId="t1346559"/>
+    <Key Time="1123955" Cursor="57" Type="insert" Value="ta" SegId="t1346559"/>
+    <Key Time="1124131" Cursor="59" Type="insert" Value="d" SegId="t1346559"/>
+    <Key Time="1124956" Cursor="60" Type="insert" Value="es" SegId="t1346559"/>
+    <Key Time="1125008" Cursor="62" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1125932" Cursor="63" Type="insert" Value="pa" SegId="t1346559"/>
+    <Key Time="1126211" Cursor="65" Type="insert" Value="ra " SegId="t1346559"/>
+    <Key Time="1126516" Cursor="68" Type="insert" Value="me" SegId="t1346559"/>
+    <Key Time="1126788" Cursor="70" Type="insert" Value="jo" SegId="t1346559"/>
+    <Key Time="1126867" Cursor="72" Type="insert" Value="r" SegId="t1346559"/>
+    <Key Time="1127180" Cursor="73" Type="insert" Value="ar" SegId="t1346559"/>
+    <Key Time="1127292" Cursor="75" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1127412" Cursor="76" Type="insert" Value="l" SegId="t1346559"/>
+    <Key Time="1127492" Cursor="77" Type="insert" Value="a" SegId="t1346559"/>
+    <Key Time="1127558" Cursor="78" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1127876" Cursor="79" Type="insert" Value="o" SegId="t1346559"/>
+    <Key Time="1128084" Cursor="80" Type="insert" Value="p" SegId="t1346559"/>
+    <Key Time="1128236" Cursor="81" Type="insert" Value="i" SegId="t1346559"/>
+    <Key Time="1128540" Cursor="82" Type="insert" Value="ni" SegId="t1346559"/>
+    <Key Time="1128748" Cursor="84" Type="insert" Value="ó" SegId="t1346559"/>
+    <Key Time="1128900" Cursor="85" Type="insert" Value="n" SegId="t1346559"/>
+    <Key Time="1129748" Cursor="86" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1130564" Cursor="87" Type="insert" Value="s" SegId="t1346559"/>
+    <Key Time="1130756" Cursor="88" Type="insert" Value="u" SegId="t1346559"/>
+    <Key Time="1131293" Cursor="89" Type="insert" Value="v" SegId="t1346559"/>
+    <Key Time="1131724" Cursor="89" Text="v" Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1132043" Cursor="90" Type="insert" Value="t" SegId="t1346559"/>
+    <Key Time="1132268" Cursor="91" Type="insert" Value="er" SegId="t1346559"/>
+    <Key Time="1132443" Cursor="93" Type="insert" Value="r" SegId="t1346559"/>
+    <Key Time="1132716" Cursor="94" Type="insert" Value="á" SegId="t1346559"/>
+    <Key Time="1132901" Cursor="95" Type="insert" Value="n" SegId="t1346559"/>
+    <Key Time="1133092" Cursor="96" Type="insert" Value="e" SegId="t1346559"/>
+    <Key Time="1133396" Cursor="97" Type="insert" Value="a" SegId="t1346559"/>
+    <Key Time="1133988" Cursor="98" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1134483" Cursor="99" Type="insert" Value="que" SegId="t1346559"/>
+    <Key Time="1134564" Cursor="102" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1136572" Cursor="103" Type="insert" Value="CH" SegId="t1346559"/>
+    <Key Time="1136691" Cursor="105" Type="insert" Value="i" SegId="t1346559"/>
+    <Key Time="1137236" Cursor="106" Type="insert" Value="na" SegId="t1346559"/>
+    <Key Time="1137348" Cursor="108" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1137947" Cursor="108" Text=" " Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1138108" Cursor="107" Text="a" Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1138228" Cursor="106" Text="n" Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1138356" Cursor="105" Text="i" Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1138755" Cursor="104" Text="H" Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1139131" Cursor="104" Type="insert" Value="hi" SegId="t1346559"/>
+    <Key Time="1139436" Cursor="106" Type="insert" Value="na" SegId="t1346559"/>
+    <Key Time="1139500" Cursor="108" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1139828" Cursor="109" Type="insert" Value="tie" SegId="t1346559"/>
+    <Key Time="1139931" Cursor="112" Type="insert" Value="n" SegId="t1346559"/>
+    <Key Time="1140123" Cursor="113" Type="insert" Value="e " SegId="t1346559"/>
+    <Key Time="1140404" Cursor="115" Type="insert" Value="d" SegId="t1346559"/>
+    <Key Time="1140659" Cursor="116" Type="insert" Value="e " SegId="t1346559"/>
+    <Key Time="1144027" Cursor="118" Type="insert" Value="es" SegId="t1346559"/>
+    <Key Time="1144267" Cursor="120" Type="insert" Value="t" SegId="t1346559"/>
+    <Key Time="1144523" Cursor="121" Type="insert" Value="o" SegId="t1346559"/>
+    <Key Time="1144691" Cursor="122" Type="insert" Value="s " SegId="t1346559"/>
+    <Key Time="1145043" Cursor="124" Type="insert" Value="es" SegId="t1346559"/>
+    <Key Time="1145275" Cursor="126" Type="insert" Value="c" SegId="t1346559"/>
+    <Key Time="1145382" Cursor="127" Type="insert" Value="u" SegId="t1346559"/>
+    <Key Time="1145820" Cursor="128" Type="insert" Value="d" SegId="t1346559"/>
+    <Key Time="1146068" Cursor="129" Type="insert" Value="r" SegId="t1346559"/>
+    <Key Time="1146251" Cursor="130" Type="insert" Value="o" SegId="t1346559"/>
+    <Key Time="1146876" Cursor="131" Type="insert" Value="ne" SegId="t1346559"/>
+    <Key Time="1146940" Cursor="133" Type="insert" Value="s" SegId="t1346559"/>
+    <Key Time="1147108" Cursor="134" Type="insert" Value=" " SegId="t1346559"/>
+    <Key Time="1148948" Cursor="135" Type="insert" Value="u" SegId="t1346559"/>
+    <Key Time="1149468" Cursor="136" Type="insert" Value="r" SegId="t1346559"/>
+    <Key Time="1149811" Cursor="137" Type="insert" Value="a" SegId="t1346559"/>
+    <Key Time="1150323" Cursor="137" Text="a" Type="delete" Value="[Back]" SegId="t1346559"/>
+    <Key Time="1150396" Cursor="138" Type="insert" Value="a" SegId="t1346559"/>
+    <Key Time="1150683" Cursor="139" Type="insert" Value="no" SegId="t1346559"/>
+    <Key Time="1151027" Cursor="141" Type="insert" Value="s" SegId="t1346559"/>
+    <Key Time="1151547" Cursor="142" Type="insert" Value="." SegId="t1346559"/>
+    <MouseUp Time="1188019" Cursor="128" Text="" SegId="t1346559"/>
+    <Key Time="1188989" Cursor="128" Type="insert" Value="a" SegId="t1346559"/>
+    <MouseUp Time="1208971" Cursor="129" Text="" SegId="t1346559"/>
+    <System Time="525000" Value="STOP"/>
+    <System Time="1212000" Value="START" StartTid="1346559" SessionStartTime="2012-07-08 16:29:04" SessionEndTime="2012-07-08 16:29:21" TranslationWindowWidth="1878" TranslationWindowHeight="905"/>
+    <MouseUp Time="1220902" Cursor="41" Text="" SegId="t1346541"/>
+    <Key Time="1221069" Cursor="41" Type="insert" Value="a" SegId="t1346541"/>
+    <MouseUp Time="1226766" Cursor="42" Text="" SegId="t1346541"/>
+    <System Time="17000" Value="STOP"/>
+    <System Time="1229000" Value="START" StartTid="1346559" SessionStartTime="2012-07-08 19:42:37" SessionEndTime="2012-07-08 19:45:06" TranslationWindowWidth="1878" TranslationWindowHeight="905"/>
+    <MouseUp Time="1229701" Cursor="5" Text="" SegId="t1346541"/>
+    <MouseUp Time="1235652" Cursor="65" Text="" SegId="t1346541"/>
+    <MouseUp Time="1248019" Cursor="137" Text="" SegId="t1346542"/>
+    <Key Time="1249367" Cursor="136" Type="insert" Value="o" SegId="t1346542"/>
+    <MouseUp Time="1262483" Cursor="177" Text="" SegId="t1346543"/>
+    <Key Time="1263092" Cursor="176" Text="s" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <MouseUp Time="1268155" Cursor="243" Text="" SegId="t1346543"/>
+    <Key Time="1268814" Cursor="242" Text="x" Type="delete" Value="[Back]" SegId="t1346543"/>
+    <Key Time="1269043" Cursor="242" Type="insert" Value="s" SegId="t1346543"/>
+    <MouseUp Time="1284708" Cursor="81" Text="" SegId="t1346547"/>
+    <Key Time="1285339" Cursor="80" Text="u" Type="delete" Value="[Back]" SegId="t1346547"/>
+    <Key Time="1286140" Cursor="81" Type="insert" Value="u" SegId="t1346547"/>
+    <MouseUp Time="1288924" Cursor="100" Text="" SegId="t1346547"/>
+    <Key Time="1289094" Cursor="99" Type="insert" Value=" " SegId="t1346547"/>
+    <Key Time="1289923" Cursor="99" Text=" " Type="delete" Value="[Back]" SegId="t1346547"/>
+    <Key Time="1290216" Cursor="100" Type="insert" Value="d" SegId="t1346547"/>
+    <Key Time="1290373" Cursor="101" Type="insert" Value="e" SegId="t1346547"/>
+    <Key Time="1290523" Cursor="102" Type="insert" Value=" " SegId="t1346547"/>
+    <MouseUp Time="1302772" Cursor="58" Text="" SegId="t1346549"/>
+    <Key Time="1303459" Cursor="57" Text="r" Type="delete" Value="[Back]" SegId="t1346549"/>
+    <Key Time="1303797" Cursor="57" Type="insert" Value="l" SegId="t1346549"/>
+    <MouseUp Time="1336748" Cursor="35" Text="" SegId="t1346555"/>
+    <MouseUp Time="1336932" Cursor="35" Text="###" SegId="t1346555"/>
+    <Key Time="1337429" Cursor="35" Text="en " Type="delete" Value="[Delete]" SegId="t1346555"/>
+    <MouseUp Time="1357267" Cursor="31" Text="" SegId="t1346557"/>
+    <Key Time="1357926" Cursor="31" Text="e" Type="delete" Value="[Delete]" SegId="t1346557"/>
+    <Key Time="1358420" Cursor="32" Type="insert" Value="e" SegId="t1346557"/>
+    <MouseUp Time="1377255" Cursor="0" Text="" SegId="t1346559"/>
+    <System Time="149000" Value="STOP"/>
+  </Events>
+  <FinalText>
+    <Seg Id="t1346541">Aportarle una cara más delicada a la actuación policial en China</Seg>
+    <Seg Id="t1346542">Al igual que un sargento de instrucción urbano, Tang Shenbin, avanza por una plaza de la ciudad inspeccionando con severidad a sus nerviosos subordinados, dando órdenes sotto voce con autoridad militar.</Seg>
+    <Seg Id="t1346543">Quiere que los miembros femeninos de la chenggua, los fornidos guardianes del orden urbano en China, temidos y despreciados por sus caprichosas medidas enérgicas y por su gusto por la violencia, le causen una cierta impresión a un puñado de espectadores. </Seg>
+    <Seg Id="t1346544">¡Firmes!</Seg>
+    <Seg Id="t1346545">¡De prisa!"</Seg>
+    <Seg Id="t1346546">Enseñadles, susurra, cómo son las chicas bonitas."</Seg>
+    <Seg Id="t1346547">Cuatro chicas que apenas han superado la adolescencia, con guantes blancos y chaquetas y pantalones de color verde oliva idénticos, se cuadraron.</Seg>
+    <Seg Id="t1346548">Cuatro pares de zapatos negros alineados con tiralíneas.</Seg>
+    <Seg Id="t1346549">Cuatro sombreros prim perfectamente colocados sobre el pelo recogido con lazos de rayas azules y blancas.</Seg>
+    <Seg Id="t1346550">Personalmente, creo que su aspecto está en la media" dijo Tang despectivamente.</Seg>
+    <Seg Id="t1346551">Las modelos son bonitas".</Seg>
+    <Seg Id="t1346552">Más de un gobierno ha intentado pulir la imagen de los inspectores urbanos de China.</Seg>
+    <Seg Id="t1346553">Una ciudad ordenó que todos los nuevos reclutas tuviesen un título universitario.</Seg>
+    <Seg Id="t1346554">La provincia de Guangdong cambió los uniformes de color gris verdoso por otros de un azul supuestamente más atractivo. </Seg>
+    <Seg Id="t1346555">Wuhan, en China central, sustituyó las miradas desafiantes por armamento pesado: en 2009, un informé afirmaba que 50 agentes rodearon un carrito de aperitivos díscolo, mirando con el ceño fruncido durante media hora, hasta que el vendedor ambulante recogió y se fue.</Seg>
+    <Seg Id="t1346556">Xindu, un distrito urbano con 680.000 habitantes en Chengdu, ha optado por la cirugía mayor para cambiar su imagen.</Seg>
+    <Seg Id="t1346557">Desde 2003, el distrito ha completado su policía urbana con 13 mujeres, especialmente elegidas por su beleza, esbeltez y juventud.</Seg>
+    <Seg Id="t1346558">La idea es dar a la tosca policía una cara más suave y femenina.</Seg>
+    <Seg Id="t1346559">Por desgracia, incluso Scarlett Johansson tendría dificultades para mejorar la opinión subterránea que China tiene de estos escuadrones urbanos.</Seg>
+    <Seg Id="t1346486"></Seg>
+    <Seg Id="t1346487"></Seg>
+    <Seg Id="t1346488"></Seg>
+    <Seg Id="t1346489"></Seg>
+    <Seg Id="t1346490"></Seg>
+    <Seg Id="t1346491"></Seg>
+    <Seg Id="t1346492"></Seg>
+    <Seg Id="t1346493"></Seg>
+    <Seg Id="t1346494"></Seg>
+    <Seg Id="t1346495"></Seg>
+    <Seg Id="t1346496"></Seg>
+    <Seg Id="t1346497"></Seg>
+    <Seg Id="t1346498"></Seg>
+    <Seg Id="t1346499"></Seg>
+    <Seg Id="t1346500"></Seg>
+    <Seg Id="t1346501"></Seg>
+    <Seg Id="t1346502"></Seg>
+    <Seg Id="t1346503"></Seg>
+    <Seg Id="t1346504"></Seg>
+    <Seg Id="t1346505"></Seg>
+    <Seg Id="t1346506"></Seg>
+    <Seg Id="t1346507"></Seg>
+    <Seg Id="t1346508"></Seg>
+    <Seg Id="t1346509"></Seg>
+    <Seg Id="t1346510"></Seg>
+    <Seg Id="t1346511"></Seg>
+    <Seg Id="t1346512"></Seg>
+    <Seg Id="t1346513"></Seg>
+    <Seg Id="t1346514"></Seg>
+    <Seg Id="t1346515"></Seg>
+    <Seg Id="t1346516"></Seg>
+    <Seg Id="t1346517"></Seg>
+    <Seg Id="t1346518"></Seg>
+    <Seg Id="t1346519"></Seg>
+    <Seg Id="t1346520"></Seg>
+    <Seg Id="t1346521"></Seg>
+    <Seg Id="t1346522"></Seg>
+    <Seg Id="t1346523"></Seg>
+    <Seg Id="t1346524"></Seg>
+    <Seg Id="t1346525"></Seg>
+    <Seg Id="t1346526"></Seg>
+    <Seg Id="t1346527"></Seg>
+    <Seg Id="t1346528"></Seg>
+    <Seg Id="t1346529"></Seg>
+    <Seg Id="t1346530"></Seg>
+    <Seg Id="t1346531"></Seg>
+    <Seg Id="t1346532"></Seg>
+    <Seg Id="t1346533"></Seg>
+    <Seg Id="t1346534"></Seg>
+    <Seg Id="t1346535"></Seg>
+    <Seg Id="t1346536"></Seg>
+    <Seg Id="t1346537"></Seg>
+    <Seg Id="t1346538"></Seg>
+    <Seg Id="t1346539"></Seg>
+    <Seg Id="t1346540"></Seg>
+  </FinalText>
+</LogFile>
