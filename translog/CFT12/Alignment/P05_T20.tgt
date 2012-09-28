@@ -15,7 +15,7 @@
 <W cur="78" id="14" segId="t1259053" space=" ">a</W>
 <W cur="80" id="15" segId="t1259053" space=" ">Steve</W>
 <W cur="86" id="16" segId="t1259053" space=" ">Jobs</W>
-<W cur="1000" id="17" segId="t1259054" space=" ">Tras</W>
+<W cur="1000" id="17" segId="t1259054">Tras</W>
 <W cur="1005" id="18" segId="t1259054" space=" ">la</W>
 <W cur="1008" id="19" segId="t1259054" space=" ">muerte</W>
 <W cur="1015" id="20" segId="t1259054" space=" ">de</W>
@@ -101,7 +101,7 @@
 <W cur="2320" id="100" segId="t1259055" space=" ">las</W>
 <W cur="2324" id="101" segId="t1259055" space=" ">empresas</W>
 <W cur="2332" id="102" segId="t1259055">.</W>
-<W cur="3000" id="103" segId="t1259056" space=" ">Fue</W>
+<W cur="3000" id="103" segId="t1259056">Fue</W>
 <W cur="3003" id="104" segId="t1259056">,</W>
 <W cur="3005" id="105" segId="t1259056" space=" ">sin</W>
 <W cur="3009" id="106" segId="t1259056" space=" ">lugar</W>
@@ -182,7 +182,7 @@
 <W cur="3407" id="181" segId="t1259056" space=" ">producto</W>
 <W cur="3415" id="182" segId="t1259056">.</W>
 <W cur="3416" id="183" segId="t1259056">"</W>
-<W cur="4000" id="184" segId="t1259057" space=" ">En</W>
+<W cur="4000" id="184" segId="t1259057">En</W>
 <W cur="4003" id="185" segId="t1259057" space=" ">1995</W>
 <W cur="4007" id="186" segId="t1259057">,</W>
 <W cur="4009" id="187" segId="t1259057" space=" ">Bob</W>
@@ -229,7 +229,7 @@
 <W cur="4224" id="228" segId="t1259057">;</W>
 <W cur="4225" id="229" segId="t1259057">nbsp</W>
 <W cur="4229" id="230" segId="t1259057">;</W>
-<W cur="5000" id="231" segId="t1259058" space=" ">En</W>
+<W cur="5000" id="231" segId="t1259058">En</W>
 <W cur="5003" id="232" segId="t1259058" space=" ">aquel</W>
 <W cur="5009" id="233" segId="t1259058" space=" ">entonces</W>
 <W cur="5017" id="234" segId="t1259058">,</W>
@@ -612,1251 +612,1253 @@
 <W cur="19058" id="611" segId="t1259072" space=" ">preguntaba</W>
 <W cur="19068" id="612" segId="t1259072">,</W>
 <W cur="19070" id="613" segId="t1259072">"</W>
-<W cur="19071" id="614" segId="t1259072">¿Por</W>
-<W cur="19076" id="615" segId="t1259072" space=" ">qué</W>
-<W cur="19080" id="616" segId="t1259072" space=" ">hacen</W>
-<W cur="19086" id="617" segId="t1259072" space=" ">las</W>
-<W cur="19090" id="618" segId="t1259072" space=" ">cosas</W>
-<W cur="19095" id="619" segId="t1259072">?</W>
-<W cur="19096" id="620" segId="t1259072">"</W>
-<W cur="19098" id="621" segId="t1259072" space=" ">y</W>
-<W cur="19100" id="622" segId="t1259072" space=" ">la</W>
-<W cur="19103" id="623" segId="t1259072" space=" ">respuesta</W>
-<W cur="19113" id="624" segId="t1259072" space=" ">que</W>
-<W cur="19117" id="625" segId="t1259072" space=" ">invariablemente</W>
-<W cur="19133" id="626" segId="t1259072" space=" ">recibía</W>
-<W cur="19141" id="627" segId="t1259072" space=" ">era</W>
-<W cur="19144" id="628" segId="t1259072">,</W>
-<W cur="19146" id="629" segId="t1259072">"</W>
-<W cur="19147" id="630" segId="t1259072">Porque</W>
-<W cur="19154" id="631" segId="t1259072" space=" ">siempre</W>
-<W cur="19162" id="632" segId="t1259072" space=" ">se</W>
-<W cur="19165" id="633" segId="t1259072" space=" ">han</W>
-<W cur="19169" id="634" segId="t1259072" space=" ">hecho</W>
-<W cur="19175" id="635" segId="t1259072" space=" ">así</W>
-<W cur="19178" id="636" segId="t1259072">.</W>
-<W cur="19179" id="637" segId="t1259072">"</W>
-<W cur="20000" id="638" segId="t1259073">Nadie</W>
-<W cur="20006" id="639" segId="t1259073" space=" ">sabe</W>
-<W cur="20011" id="640" segId="t1259073" space=" ">por</W>
-<W cur="20015" id="641" segId="t1259073" space=" ">qué</W>
-<W cur="20019" id="642" segId="t1259073" space=" ">hacen</W>
-<W cur="20025" id="643" segId="t1259073" space=" ">lo</W>
-<W cur="20028" id="644" segId="t1259073" space=" ">que</W>
-<W cur="20032" id="645" segId="t1259073" space=" ">hacen</W>
-<W cur="20037" id="646" segId="t1259073">,</W>
-<W cur="20039" id="647" segId="t1259073" space=" ">nadie</W>
-<W cur="20045" id="648" segId="t1259073" space=" ">piensa</W>
-<W cur="20052" id="649" segId="t1259073" space=" ">demasiado</W>
-<W cur="20062" id="650" segId="t1259073" space=" ">en</W>
-<W cur="20065" id="651" segId="t1259073" space=" ">las</W>
-<W cur="20069" id="652" segId="t1259073" space=" ">cosas</W>
-<W cur="20075" id="653" segId="t1259073" space=" ">que</W>
-<W cur="20079" id="654" segId="t1259073" space=" ">se</W>
-<W cur="20082" id="655" segId="t1259073" space=" ">hacen</W>
-<W cur="20088" id="656" segId="t1259073" space=" ">en</W>
-<W cur="20091" id="657" segId="t1259073" space=" ">las</W>
-<W cur="20095" id="658" segId="t1259073" space=" ">empresas</W>
-<W cur="20103" id="659" segId="t1259073">.</W>
-<W cur="21000" id="660" segId="t1259074">Eso</W>
-<W cur="21004" id="661" segId="t1259074" space=" ">es</W>
-<W cur="21007" id="662" segId="t1259074" space=" ">lo</W>
-<W cur="21010" id="663" segId="t1259074" space=" ">que</W>
-<W cur="21014" id="664" segId="t1259074" space=" ">descubrí</W>
-<W cur="21022" id="665" segId="t1259074">.</W>
-<W cur="22000" id="666" segId="t1259075">Jobs</W>
-<W cur="22005" id="667" segId="t1259075" space=" ">pasa</W>
-<W cur="22010" id="668" segId="t1259075" space=" ">a</W>
-<W cur="22012" id="669" segId="t1259075" space=" ">explicar</W>
-<W cur="22021" id="670" segId="t1259075" space=" ">luego</W>
-<W cur="22027" id="671" segId="t1259075" space=" ">sus</W>
-<W cur="22031" id="672" segId="t1259075" space=" ">esfuerzos</W>
-<W cur="22041" id="673" segId="t1259075" space=" ">por</W>
-<W cur="22045" id="674" segId="t1259075" space=" ">simplificar</W>
-<W cur="22057" id="675" segId="t1259075" space=" ">la</W>
-<W cur="22060" id="676" segId="t1259075" space=" ">contabilidad</W>
-<W cur="22073" id="677" segId="t1259075" space=" ">en</W>
-<W cur="22076" id="678" segId="t1259075" space=" ">Apple</W>
-<W cur="22081" id="679" segId="t1259075">.</W>
-<W cur="23000" id="680" segId="t1259076">Frustrado</W>
-<W cur="23010" id="681" segId="t1259076" space=" ">por</W>
-<W cur="23014" id="682" segId="t1259076" space=" ">la</W>
-<W cur="23017" id="683" segId="t1259076" space=" ">forma</W>
-<W cur="23023" id="684" segId="t1259076" space=" ">de</W>
-<W cur="23026" id="685" segId="t1259076" space=" ">registrar</W>
-<W cur="23036" id="686" segId="t1259076" space=" ">los</W>
-<W cur="23040" id="687" segId="t1259076" space=" ">costes</W>
-<W cur="23047" id="688" segId="t1259076">-</W>
-<W cur="23049" id="689" segId="t1259076" space=" ">a</W>
-<W cur="23051" id="690" segId="t1259076" space=" ">menudo</W>
-<W cur="23058" id="691" segId="t1259076" space=" ">se</W>
-<W cur="23061" id="692" segId="t1259076" space=" ">empezaba</W>
-<W cur="23070" id="693" segId="t1259076" space=" ">con</W>
-<W cur="23074" id="694" segId="t1259076" space=" ">un</W>
-<W cur="23077" id="695" segId="t1259076">"</W>
-<W cur="23078" id="696" segId="t1259076">coste</W>
-<W cur="23084" id="697" segId="t1259076" space=" ">normalizado</W>
-<W cur="23095" id="698" segId="t1259076">"</W>
-<W cur="23097" id="699" segId="t1259076" space=" ">basado</W>
-<W cur="23104" id="700" segId="t1259076" space=" ">en</W>
-<W cur="23107" id="701" segId="t1259076" space=" ">un</W>
-<W cur="23110" id="702" segId="t1259076" space=" ">supuesto</W>
-<W cur="23119" id="703" segId="t1259076" space=" ">a</W>
-<W cur="23121" id="704" segId="t1259076" space=" ">ciegas</W>
-<W cur="23127" id="705" segId="t1259076">,</W>
-<W cur="23129" id="706" segId="t1259076" space=" ">que</W>
-<W cur="23133" id="707" segId="t1259076" space=" ">posteriormente</W>
-<W cur="23148" id="708" segId="t1259076" space=" ">se</W>
-<W cur="23151" id="709" segId="t1259076" space=" ">ajustaba</W>
-<W cur="23160" id="710" segId="t1259076" space=" ">con</W>
-<W cur="23164" id="711" segId="t1259076" space=" ">una</W>
-<W cur="23168" id="712" segId="t1259076">"</W>
-<W cur="23169" id="713" segId="t1259076">varianza</W>
-<W cur="23177" id="714" segId="t1259076">"</W>
-<W cur="23179" id="715" segId="t1259076">-</W>
-<W cur="23180" id="716" segId="t1259076">,</W>
-<W cur="23182" id="717" segId="t1259076" space=" ">Jobs</W>
-<W cur="23187" id="718" segId="t1259076" space=" ">desarrolló</W>
-<W cur="23198" id="719" segId="t1259076" space=" ">un</W>
-<W cur="23201" id="720" segId="t1259076" space=" ">proceso</W>
-<W cur="23209" id="721" segId="t1259076" space=" ">automatizado</W>
-<W cur="23222" id="722" segId="t1259076" space=" ">que</W>
-<W cur="23226" id="723" segId="t1259076" space=" ">le</W>
-<W cur="23229" id="724" segId="t1259076" space=" ">permitía</W>
-<W cur="23238" id="725" segId="t1259076" space=" ">calcular</W>
-<W cur="23247" id="726" segId="t1259076" space=" ">los</W>
-<W cur="23251" id="727" segId="t1259076" space=" ">costes</W>
-<W cur="23258" id="728" segId="t1259076" space=" ">empresariales</W>
-<W cur="23272" id="729" segId="t1259076" space=" ">al</W>
-<W cur="23275" id="730" segId="t1259076" space=" ">segundo</W>
-<W cur="23282" id="731" segId="t1259076">.</W>
-<W cur="24000" id="732" segId="t1259077">Sobre</W>
-<W cur="24006" id="733" segId="t1259077" space=" ">una</W>
-<W cur="24010" id="734" segId="t1259077" space=" ">broma</W>
-<W cur="24016" id="735" segId="t1259077" space=" ">al</W>
-<W cur="24019" id="736" segId="t1259077" space=" ">Papa</W>
-<W cur="24023" id="737" segId="t1259077">:</W>
-<W cur="25000" id="738" segId="t1259078">Jobs</W>
-<W cur="25005" id="739" segId="t1259078" space=" ">recuerda</W>
-<W cur="25014" id="740" segId="t1259078" space=" ">la</W>
-<W cur="25017" id="741" segId="t1259078">"</W>
-<W cur="25018" id="742" segId="t1259078">Caja</W>
-<W cur="25023" id="743" segId="t1259078" space=" ">azul</W>
-<W cur="25027" id="744" segId="t1259078">"</W>
-<W cur="25029" id="745" segId="t1259078" space=" ">que</W>
-<W cur="25033" id="746" segId="t1259078" space=" ">construyó</W>
-<W cur="25043" id="747" segId="t1259078" space=" ">junto</W>
-<W cur="25049" id="748" segId="t1259078" space=" ">con</W>
-<W cur="25053" id="749" segId="t1259078" space=" ">Steve</W>
-<W cur="25059" id="750" segId="t1259078" space=" ">Wozniak</W>
-<W cur="25066" id="751" segId="t1259078">,</W>
-<W cur="25068" id="752" segId="t1259078" space=" ">un</W>
-<W cur="25071" id="753" segId="t1259078" space=" ">dispositivo</W>
-<W cur="25083" id="754" segId="t1259078" space=" ">que</W>
-<W cur="25087" id="755" segId="t1259078" space=" ">permitía</W>
-<W cur="25096" id="756" segId="t1259078" space=" ">a</W>
-<W cur="25098" id="757" segId="t1259078" space=" ">las</W>
-<W cur="25102" id="758" segId="t1259078" space=" ">personas</W>
-<W cur="25111" id="759" segId="t1259078" space=" ">burlar</W>
-<W cur="25118" id="760" segId="t1259078" space=" ">eficazmente</W>
-<W cur="25130" id="761" segId="t1259078" space=" ">a</W>
-<W cur="25132" id="762" segId="t1259078" space=" ">las</W>
-<W cur="25136" id="763" segId="t1259078" space=" ">compañías</W>
-<W cur="25146" id="764" segId="t1259078" space=" ">teléfonicas</W>
-<W cur="25158" id="765" segId="t1259078" space=" ">y</W>
-<W cur="25160" id="766" segId="t1259078" space=" ">realizar</W>
-<W cur="25169" id="767" segId="t1259078" space=" ">conferencias</W>
-<W cur="25182" id="768" segId="t1259078" space=" ">de</W>
-<W cur="25185" id="769" segId="t1259078" space=" ">larga</W>
-<W cur="25191" id="770" segId="t1259078" space=" ">distancia</W>
-<W cur="25201" id="771" segId="t1259078" space=" ">de</W>
-<W cur="25204" id="772" segId="t1259078" space=" ">forma</W>
-<W cur="25210" id="773" segId="t1259078" space=" ">gratuita</W>
-<W cur="25218" id="774" segId="t1259078">.</W>
-<W cur="26000" id="775" segId="t1259079" space=" ">Antes</W>
-<W cur="26006" id="776" segId="t1259079" space=" ">de</W>
-<W cur="26009" id="777" segId="t1259079" space=" ">eso</W>
-<W cur="26012" id="778" segId="t1259079">,</W>
-<W cur="26014" id="779" segId="t1259079" space=" ">se</W>
-<W cur="26017" id="780" segId="t1259079" space=" ">había</W>
-<W cur="26023" id="781" segId="t1259079" space=" ">escrito</W>
-<W cur="26031" id="782" segId="t1259079" space=" ">mucho</W>
-<W cur="26037" id="783" segId="t1259079" space=" ">sobre</W>
-<W cur="26043" id="784" segId="t1259079" space=" ">ese</W>
-<W cur="26047" id="785" segId="t1259079" space=" ">aparato</W>
-<W cur="26054" id="786" segId="t1259079">,</W>
-<W cur="26056" id="787" segId="t1259079" space=" ">pero</W>
-<W cur="26061" id="788" segId="t1259079" space=" ">la</W>
-<W cur="26064" id="789" segId="t1259079" space=" ">euforia</W>
-<W cur="26072" id="790" segId="t1259079" space=" ">que</W>
-<W cur="26076" id="791" segId="t1259079" space=" ">muestra</W>
-<W cur="26084" id="792" segId="t1259079" space=" ">Jobs</W>
-<W cur="26089" id="793" segId="t1259079" space=" ">aquí</W>
-<W cur="26094" id="794" segId="t1259079" space=" ">cuando</W>
-<W cur="26101" id="795" segId="t1259079" space=" ">describe</W>
-<W cur="26110" id="796" segId="t1259079" space=" ">la</W>
-<W cur="26113" id="797" segId="t1259079" space=" ">Caja</W>
-<W cur="26118" id="798" segId="t1259079" space=" ">azul</W>
-<W cur="26123" id="799" segId="t1259079" space=" ">como</W>
-<W cur="26128" id="800" segId="t1259079" space=" ">una</W>
-<W cur="26132" id="801" segId="t1259079" space=" ">demostración</W>
-<W cur="26145" id="802" segId="t1259079" space=" ">de</W>
-<W cur="26148" id="803" segId="t1259079" space=" ">poder</W>
-<W cur="26154" id="804" segId="t1259079" space=" ">es</W>
-<W cur="26157" id="805" segId="t1259079" space=" ">contagiosa</W>
-<W cur="26167" id="806" segId="t1259079">.</W>
-<W cur="27000" id="807" segId="t1259080" space=" ">Explica</W>
-<W cur="27008" id="808" segId="t1259080" space=" ">cómo</W>
-<W cur="27013" id="809" segId="t1259080" space=" ">él</W>
-<W cur="27016" id="810" segId="t1259080" space=" ">y</W>
-<W cur="27018" id="811" segId="t1259080" space=" ">Wozniak</W>
-<W cur="27026" id="812" segId="t1259080" space=" ">probaron</W>
-<W cur="27035" id="813" segId="t1259080" space=" ">la</W>
-<W cur="27038" id="814" segId="t1259080" space=" ">caja</W>
-<W cur="27043" id="815" segId="t1259080" space=" ">usando</W>
-<W cur="27050" id="816" segId="t1259080" space=" ">un</W>
-<W cur="27053" id="817" segId="t1259080" space=" ">teléfono</W>
-<W cur="27062" id="818" segId="t1259080" space=" ">de</W>
-<W cur="27065" id="819" segId="t1259080" space=" ">pago</W>
-<W cur="27069" id="820" segId="t1259080">,</W>
-<W cur="27071" id="821" segId="t1259080" space=" ">realizando</W>
-<W cur="27082" id="822" segId="t1259080" space=" ">una</W>
-<W cur="27086" id="823" segId="t1259080" space=" ">llamada</W>
-<W cur="27094" id="824" segId="t1259080" space=" ">y</W>
-<W cur="27096" id="825" segId="t1259080" space=" ">conectándose</W>
-<W cur="27109" id="826" segId="t1259080" space=" ">luego</W>
-<W cur="27115" id="827" segId="t1259080" space=" ">de</W>
-<W cur="27118" id="828" segId="t1259080" space=" ">una</W>
-<W cur="27122" id="829" segId="t1259080" space=" ">red</W>
-<W cur="27126" id="830" segId="t1259080" space=" ">de</W>
-<W cur="27129" id="831" segId="t1259080" space=" ">AT</W>
-<W cur="27131" id="832" segId="t1259080">&amp;</W>
-<W cur="27132" id="833" segId="t1259080">amp</W>
-<W cur="27135" id="834" segId="t1259080">;</W>
-<W cur="27136" id="835" segId="t1259080">amp</W>
-<W cur="27139" id="836" segId="t1259080">;</W>
-<W cur="27140" id="837" segId="t1259080">T</W>
-<W cur="27142" id="838" segId="t1259080" space=" ">a</W>
-<W cur="27144" id="839" segId="t1259080" space=" ">otra</W>
-<W cur="27148" id="840" segId="t1259080">,</W>
-<W cur="27150" id="841" segId="t1259080" space=" ">estableciendo</W>
-<W cur="27164" id="842" segId="t1259080" space=" ">bucles</W>
-<W cur="27171" id="843" segId="t1259080" space=" ">con</W>
-<W cur="27175" id="844" segId="t1259080" space=" ">el</W>
-<W cur="27178" id="845" segId="t1259080" space=" ">mayor</W>
-<W cur="27184" id="846" segId="t1259080" space=" ">número</W>
-<W cur="27191" id="847" segId="t1259080" space=" ">posible</W>
-<W cur="27199" id="848" segId="t1259080" space=" ">de</W>
-<W cur="27202" id="849" segId="t1259080" space=" ">satélites</W>
-<W cur="27211" id="850" segId="t1259080">.</W>
-<W cur="28000" id="851" segId="t1259081">"</W>
-<W cur="28001" id="852" segId="t1259081">Estábamos</W>
-<W cur="28011" id="853" segId="t1259081" space=" ">coordinando</W>
-<W cur="28023" id="854" segId="t1259081" space=" ">los</W>
-<W cur="28027" id="855" segId="t1259081" space=" ">servicios</W>
-<W cur="28037" id="856" segId="t1259081" space=" ">en</W>
-<W cur="28040" id="857" segId="t1259081" space=" ">todo</W>
-<W cur="28045" id="858" segId="t1259081" space=" ">el</W>
-<W cur="28048" id="859" segId="t1259081" space=" ">mundo</W>
-<W cur="28054" id="860" segId="t1259081" space=" ">una</W>
-<W cur="28058" id="861" segId="t1259081" space=" ">media</W>
-<W cur="28064" id="862" segId="t1259081" space=" ">docena</W>
-<W cur="28071" id="863" segId="t1259081" space=" ">de</W>
-<W cur="28074" id="864" segId="t1259081" space=" ">veces</W>
-<W cur="28080" id="865" segId="t1259081" space=" ">y</W>
-<W cur="28082" id="866" segId="t1259081" space=" ">resulta</W>
-<W cur="28090" id="867" segId="t1259081" space=" ">que</W>
-<W cur="28094" id="868" segId="t1259081" space=" ">podías</W>
-<W cur="28101" id="869" segId="t1259081" space=" ">gritar</W>
-<W cur="28108" id="870" segId="t1259081" space=" ">a</W>
-<W cur="28110" id="871" segId="t1259081" space=" ">través</W>
-<W cur="28117" id="872" segId="t1259081" space=" ">del</W>
-<W cur="28121" id="873" segId="t1259081" space=" ">teléfono</W>
-<W cur="28130" id="874" segId="t1259081" space=" ">de</W>
-<W cur="28133" id="875" segId="t1259081" space=" ">pago</W>
-<W cur="28138" id="876" segId="t1259081" space=" ">y</W>
-<W cur="28140" id="877" segId="t1259081" space=" ">te</W>
-<W cur="28143" id="878" segId="t1259081" space=" ">llegaba</W>
-<W cur="28151" id="879" segId="t1259081" space=" ">un</W>
-<W cur="28154" id="880" segId="t1259081" space=" ">minuto</W>
-<W cur="28161" id="881" segId="t1259081" space=" ">después</W>
-<W cur="28169" id="882" segId="t1259081" space=" ">a</W>
-<W cur="28171" id="883" segId="t1259081" space=" ">través</W>
-<W cur="28178" id="884" segId="t1259081" space=" ">del</W>
-<W cur="28182" id="885" segId="t1259081" space=" ">teléfono</W>
-<W cur="28191" id="886" segId="t1259081" space=" ">de</W>
-<W cur="28194" id="887" segId="t1259081" space=" ">pago</W>
-<W cur="28199" id="888" segId="t1259081" space=" ">de</W>
-<W cur="28202" id="889" segId="t1259081" space=" ">la</W>
-<W cur="28205" id="890" segId="t1259081" space=" ">puerta</W>
-<W cur="28212" id="891" segId="t1259081" space=" ">vecina</W>
-<W cur="28218" id="892" segId="t1259081">,</W>
-<W cur="28219" id="893" segId="t1259081">"</W>
-<W cur="28221" id="894" segId="t1259081" space=" ">dice</W>
-<W cur="28226" id="895" segId="t1259081" space=" ">Jobs</W>
-<W cur="28231" id="896" segId="t1259081" space=" ">riendo</W>
-<W cur="28237" id="897" segId="t1259081">.</W>
-<W cur="29000" id="898" segId="t1259082">"</W>
-<W cur="29001" id="899" segId="t1259082">Éramos</W>
-<W cur="29008" id="900" segId="t1259082" space=" ">jóvenes</W>
-<W cur="29016" id="901" segId="t1259082" space=" ">y</W>
-<W cur="29018" id="902" segId="t1259082" space=" ">lo</W>
-<W cur="29021" id="903" segId="t1259082" space=" ">que</W>
-<W cur="29025" id="904" segId="t1259082" space=" ">aprendimos</W>
-<W cur="29036" id="905" segId="t1259082" space=" ">fue</W>
-<W cur="29040" id="906" segId="t1259082" space=" ">que</W>
-<W cur="29044" id="907" segId="t1259082" space=" ">podíamos</W>
-<W cur="29053" id="908" segId="t1259082" space=" ">construir</W>
-<W cur="29063" id="909" segId="t1259082" space=" ">algo</W>
-<W cur="29068" id="910" segId="t1259082" space=" ">por</W>
-<W cur="29072" id="911" segId="t1259082" space=" ">nosotros</W>
-<W cur="29081" id="912" segId="t1259082" space=" ">mismos</W>
-<W cur="29088" id="913" segId="t1259082" space=" ">capaz</W>
-<W cur="29094" id="914" segId="t1259082" space=" ">de</W>
-<W cur="29097" id="915" segId="t1259082" space=" ">controlar</W>
-<W cur="29107" id="916" segId="t1259082" space=" ">infraestructuras</W>
-<W cur="29124" id="917" segId="t1259082" space=" ">que</W>
-<W cur="29128" id="918" segId="t1259082" space=" ">costaban</W>
-<W cur="29137" id="919" segId="t1259082" space=" ">miles</W>
-<W cur="29143" id="920" segId="t1259082" space=" ">de</W>
-<W cur="29146" id="921" segId="t1259082" space=" ">millones</W>
-<W cur="29155" id="922" segId="t1259082" space=" ">de</W>
-<W cur="29158" id="923" segId="t1259082" space=" ">dólares</W>
-<W cur="29166" id="924" segId="t1259082" space=" ">en</W>
-<W cur="29169" id="925" segId="t1259082" space=" ">todo</W>
-<W cur="29174" id="926" segId="t1259082" space=" ">el</W>
-<W cur="29177" id="927" segId="t1259082" space=" ">mundo</W>
-<W cur="29182" id="928" segId="t1259082">.</W>
-<W cur="29183" id="929" segId="t1259082">"</W>
-<W cur="30000" id="930" segId="t1259083">Ninguno</W>
-<W cur="30008" id="931" segId="t1259083" space=" ">de</W>
-<W cur="30011" id="932" segId="t1259083" space=" ">nosotros</W>
-<W cur="30020" id="933" segId="t1259083" space=" ">dos</W>
-<W cur="30024" id="934" segId="t1259083" space=" ">sabíamos</W>
-<W cur="30033" id="935" segId="t1259083" space=" ">mucho</W>
-<W cur="30038" id="936" segId="t1259083">,</W>
-<W cur="30040" id="937" segId="t1259083" space=" ">pero</W>
-<W cur="30045" id="938" segId="t1259083" space=" ">pudimos</W>
-<W cur="30053" id="939" segId="t1259083" space=" ">construir</W>
-<W cur="30063" id="940" segId="t1259083" space=" ">un</W>
-<W cur="30066" id="941" segId="t1259083" space=" ">pequeño</W>
-<W cur="30074" id="942" segId="t1259083" space=" ">aparato</W>
-<W cur="30082" id="943" segId="t1259083" space=" ">capaz</W>
-<W cur="30088" id="944" segId="t1259083" space=" ">de</W>
-<W cur="30091" id="945" segId="t1259083" space=" ">controlar</W>
-<W cur="30101" id="946" segId="t1259083" space=" ">una</W>
-<W cur="30105" id="947" segId="t1259083" space=" ">cosa</W>
-<W cur="30110" id="948" segId="t1259083" space=" ">gigante</W>
-<W cur="30118" id="949" segId="t1259083">-</W>
-<W cur="30120" id="950" segId="t1259083" space=" ">fue</W>
-<W cur="30124" id="951" segId="t1259083" space=" ">una</W>
-<W cur="30128" id="952" segId="t1259083" space=" ">lección</W>
-<W cur="30136" id="953" segId="t1259083" space=" ">increíble</W>
-<W cur="30145" id="954" segId="t1259083">,</W>
-<W cur="30147" id="955" segId="t1259083" space=" ">y</W>
-<W cur="30149" id="956" segId="t1259083" space=" ">no</W>
-<W cur="30152" id="957" segId="t1259083" space=" ">creo</W>
-<W cur="30157" id="958" segId="t1259083" space=" ">que</W>
-<W cur="30161" id="959" segId="t1259083" space=" ">hubiera</W>
-<W cur="30169" id="960" segId="t1259083" space=" ">existido</W>
-<W cur="30178" id="961" segId="t1259083" space=" ">Apple</W>
-<W cur="30184" id="962" segId="t1259083" space=" ">sin</W>
-<W cur="30188" id="963" segId="t1259083" space=" ">ella</W>
-<W cur="30192" id="964" segId="t1259083">.</W>
-<W cur="31000" id="965" segId="t1259084">Jobs</W>
-<W cur="31005" id="966" segId="t1259084" space=" ">continúa</W>
-<W cur="31014" id="967" segId="t1259084" space=" ">recordando</W>
-<W cur="31025" id="968" segId="t1259084" space=" ">una</W>
-<W cur="31029" id="969" segId="t1259084" space=" ">gloriosa</W>
-<W cur="31038" id="970" segId="t1259084" space=" ">broma</W>
-<W cur="31044" id="971" segId="t1259084" space=" ">que</W>
-<W cur="31048" id="972" segId="t1259084" space=" ">él</W>
-<W cur="31051" id="973" segId="t1259084" space=" ">y</W>
-<W cur="31053" id="974" segId="t1259084" space=" ">Wozniak</W>
-<W cur="31061" id="975" segId="t1259084" space=" ">estuvieron</W>
-<W cur="31072" id="976" segId="t1259084" space=" ">a</W>
-<W cur="31074" id="977" segId="t1259084" space=" ">punto</W>
-<W cur="31080" id="978" segId="t1259084" space=" ">de</W>
-<W cur="31083" id="979" segId="t1259084" space=" ">gastar</W>
-<W cur="31090" id="980" segId="t1259084" space=" ">y</W>
-<W cur="31092" id="981" segId="t1259084" space=" ">que</W>
-<W cur="31096" id="982" segId="t1259084" space=" ">consistió</W>
-<W cur="31106" id="983" segId="t1259084" space=" ">en</W>
-<W cur="31109" id="984" segId="t1259084" space=" ">llamar</W>
-<W cur="31116" id="985" segId="t1259084" space=" ">al</W>
-<W cur="31119" id="986" segId="t1259084" space=" ">Vaticano</W>
-<W cur="31128" id="987" segId="t1259084" space=" ">a</W>
-<W cur="31130" id="988" segId="t1259084" space=" ">través</W>
-<W cur="31137" id="989" segId="t1259084" space=" ">de</W>
-<W cur="31140" id="990" segId="t1259084" space=" ">la</W>
-<W cur="31143" id="991" segId="t1259084" space=" ">Caja</W>
-<W cur="31148" id="992" segId="t1259084" space=" ">azul</W>
-<W cur="31153" id="993" segId="t1259084" space=" ">en</W>
-<W cur="31156" id="994" segId="t1259084" space=" ">mitad</W>
-<W cur="31162" id="995" segId="t1259084" space=" ">de</W>
-<W cur="31165" id="996" segId="t1259084" space=" ">la</W>
-<W cur="31168" id="997" segId="t1259084" space=" ">noche</W>
-<W cur="31174" id="998" segId="t1259084" space=" ">y</W>
-<W cur="31176" id="999" segId="t1259084" space=" ">decir</W>
-<W cur="31182" id="1000" segId="t1259084" space=" ">que</W>
-<W cur="31186" id="1001" segId="t1259084" space=" ">querían</W>
-<W cur="31194" id="1002" segId="t1259084" space=" ">hablar</W>
-<W cur="31201" id="1003" segId="t1259084" space=" ">con</W>
-<W cur="31205" id="1004" segId="t1259084" space=" ">el</W>
-<W cur="31208" id="1005" segId="t1259084" space=" ">Papa</W>
-<W cur="31212" id="1006" segId="t1259084">,</W>
-<W cur="31214" id="1007" segId="t1259084" space=" ">imitando</W>
-<W cur="31223" id="1008" segId="t1259084" space=" ">lo</W>
-<W cur="31226" id="1009" segId="t1259084" space=" ">mejor</W>
-<W cur="31232" id="1010" segId="t1259084" space=" ">posible</W>
-<W cur="31240" id="1011" segId="t1259084" space=" ">la</W>
-<W cur="31243" id="1012" segId="t1259084" space=" ">voz</W>
-<W cur="31247" id="1013" segId="t1259084" space=" ">de</W>
-<W cur="31250" id="1014" segId="t1259084" space=" ">Henry</W>
-<W cur="31256" id="1015" segId="t1259084" space=" ">Kissinger</W>
-<W cur="31265" id="1016" segId="t1259084">.</W>
-<W cur="32000" id="1017" segId="t1259085" space=" ">Cuando</W>
-<W cur="32007" id="1018" segId="t1259085" space=" ">varios</W>
-<W cur="32014" id="1019" segId="t1259085" space=" ">miembros</W>
-<W cur="32023" id="1020" segId="t1259085" space=" ">de</W>
-<W cur="32026" id="1021" segId="t1259085" space=" ">la</W>
-<W cur="32029" id="1022" segId="t1259085" space=" ">jerarquía</W>
-<W cur="32039" id="1023" segId="t1259085" space=" ">católica</W>
-<W cur="32048" id="1024" segId="t1259085" space=" ">se</W>
-<W cur="32051" id="1025" segId="t1259085" space=" ">reunieron</W>
-<W cur="32061" id="1026" segId="t1259085" space=" ">en</W>
-<W cur="32064" id="1027" segId="t1259085" space=" ">mitad</W>
-<W cur="32070" id="1028" segId="t1259085" space=" ">de</W>
-<W cur="32073" id="1029" segId="t1259085" space=" ">la</W>
-<W cur="32076" id="1030" segId="t1259085" space=" ">noche</W>
-<W cur="32082" id="1031" segId="t1259085" space=" ">para</W>
-<W cur="32087" id="1032" segId="t1259085" space=" ">hablar</W>
-<W cur="32094" id="1033" segId="t1259085" space=" ">con</W>
-<W cur="32098" id="1034" segId="t1259085" space=" ">el</W>
-<W cur="32101" id="1035" segId="t1259085" space=" ">diplomático</W>
-<W cur="32113" id="1036" segId="t1259085" space=" ">estadounidense</W>
-<W cur="32127" id="1037" segId="t1259085">,</W>
-<W cur="32129" id="1038" segId="t1259085" space=" ">los</W>
-<W cur="32133" id="1039" segId="t1259085" space=" ">dos</W>
-<W cur="32137" id="1040" segId="t1259085" space=" ">estallaron</W>
-<W cur="32148" id="1041" segId="t1259085" space=" ">en</W>
-<W cur="32151" id="1042" segId="t1259085" space=" ">risas</W>
-<W cur="32157" id="1043" segId="t1259085" space=" ">justo</W>
-<W cur="32163" id="1044" segId="t1259085" space=" ">antes</W>
-<W cur="32169" id="1045" segId="t1259085" space=" ">de</W>
-<W cur="32172" id="1046" segId="t1259085" space=" ">que</W>
-<W cur="32176" id="1047" segId="t1259085" space=" ">fueran</W>
-<W cur="32183" id="1048" segId="t1259085" space=" ">a</W>
-<W cur="32185" id="1049" segId="t1259085" space=" ">despertar</W>
-<W cur="32195" id="1050" segId="t1259085" space=" ">al</W>
-<W cur="32198" id="1051" segId="t1259085" space=" ">propio</W>
-<W cur="32205" id="1052" segId="t1259085" space=" ">Papa</W>
-<W cur="32210" id="1053" segId="t1259085" space=" ">para</W>
-<W cur="32215" id="1054" segId="t1259085" space=" ">que</W>
-<W cur="32219" id="1055" segId="t1259085" space=" ">se</W>
-<W cur="32222" id="1056" segId="t1259085" space=" ">pusiera</W>
-<W cur="32230" id="1057" segId="t1259085" space=" ">al</W>
-<W cur="32233" id="1058" segId="t1259085" space=" ">teléfono</W>
-<W cur="32241" id="1059" segId="t1259085">.</W>
-<W cur="33000" id="1060" segId="t1259086">Sobre</W>
-<W cur="33006" id="1061" segId="t1259086" space=" ">su</W>
-<W cur="33009" id="1062" segId="t1259086" space=" ">enamoramiento</W>
-<W cur="33023" id="1063" segId="t1259086" space=" ">de</W>
-<W cur="33026" id="1064" segId="t1259086" space=" ">la</W>
-<W cur="33029" id="1065" segId="t1259086" space=" ">tecnología</W>
-<W cur="33040" id="1066" segId="t1259086">(</W>
-<W cur="33041" id="1067" segId="t1259086">y</W>
-<W cur="33043" id="1068" segId="t1259086" space=" ">su</W>
-<W cur="33046" id="1069" segId="t1259086" space=" ">llamada</W>
-<W cur="33054" id="1070" segId="t1259086" space=" ">directa</W>
-<W cur="33062" id="1071" segId="t1259086" space=" ">a</W>
-<W cur="33064" id="1072" segId="t1259086" space=" ">Bill</W>
-<W cur="33069" id="1073" segId="t1259086" space=" ">Hewlett</W>
-<W cur="33076" id="1074" segId="t1259086">)</W>
-<W cur="33077" id="1075" segId="t1259086">:</W>
-<W cur="34000" id="1076" segId="t1259087">A</W>
-<W cur="34002" id="1077" segId="t1259087" space=" ">los</W>
-<W cur="34006" id="1078" segId="t1259087" space=" ">12</W>
-<W cur="34009" id="1079" segId="t1259087" space=" ">años</W>
-<W cur="34014" id="1080" segId="t1259087" space=" ">de</W>
-<W cur="34017" id="1081" segId="t1259087" space=" ">edad</W>
-<W cur="34021" id="1082" segId="t1259087">,</W>
-<W cur="34023" id="1083" segId="t1259087" space=" ">cuando</W>
-<W cur="34030" id="1084" segId="t1259087" space=" ">trataba</W>
-<W cur="34038" id="1085" segId="t1259087" space=" ">de</W>
-<W cur="34041" id="1086" segId="t1259087" space=" ">encontrar</W>
-<W cur="34051" id="1087" segId="t1259087" space=" ">piezas</W>
-<W cur="34058" id="1088" segId="t1259087" space=" ">de</W>
-<W cur="34061" id="1089" segId="t1259087" space=" ">recambio</W>
-<W cur="34070" id="1090" segId="t1259087" space=" ">para</W>
-<W cur="34075" id="1091" segId="t1259087" space=" ">construir</W>
-<W cur="34085" id="1092" segId="t1259087" space=" ">un</W>
-<W cur="34088" id="1093" segId="t1259087" space=" ">contador</W>
-<W cur="34097" id="1094" segId="t1259087" space=" ">de</W>
-<W cur="34100" id="1095" segId="t1259087" space=" ">frecuencias</W>
-<W cur="34111" id="1096" segId="t1259087">,</W>
-<W cur="34113" id="1097" segId="t1259087" space=" ">localizó</W>
-<W cur="34122" id="1098" segId="t1259087" space=" ">a</W>
-<W cur="34124" id="1099" segId="t1259087" space=" ">Bill</W>
-<W cur="34129" id="1100" segId="t1259087" space=" ">Hewlett</W>
-<W cur="34137" id="1101" segId="t1259087" space=" ">en</W>
-<W cur="34140" id="1102" segId="t1259087" space=" ">la</W>
-<W cur="34143" id="1103" segId="t1259087" space=" ">guía</W>
-<W cur="34148" id="1104" segId="t1259087" space=" ">telefónica</W>
-<W cur="34159" id="1105" segId="t1259087" space=" ">y</W>
-<W cur="34161" id="1106" segId="t1259087" space=" ">le</W>
-<W cur="34164" id="1107" segId="t1259087" space=" ">llamó</W>
-<W cur="34170" id="1108" segId="t1259087" space=" ">por</W>
-<W cur="34174" id="1109" segId="t1259087" space=" ">teléfono</W>
-<W cur="34182" id="1110" segId="t1259087">.</W>
-<W cur="35000" id="1111" segId="t1259088">Después</W>
-<W cur="35008" id="1112" segId="t1259088" space=" ">de</W>
-<W cur="35011" id="1113" segId="t1259088" space=" ">no</W>
-<W cur="35014" id="1114" segId="t1259088" space=" ">más</W>
-<W cur="35018" id="1115" segId="t1259088" space=" ">de</W>
-<W cur="35021" id="1116" segId="t1259088" space=" ">20</W>
-<W cur="35024" id="1117" segId="t1259088" space=" ">minutos</W>
-<W cur="35032" id="1118" segId="t1259088" space=" ">de</W>
-<W cur="35035" id="1119" segId="t1259088" space=" ">conversación</W>
-<W cur="35048" id="1120" segId="t1259088" space=" ">telefónica</W>
-<W cur="35058" id="1121" segId="t1259088">,</W>
-<W cur="35060" id="1122" segId="t1259088" space=" ">Jobs</W>
-<W cur="35065" id="1123" segId="t1259088" space=" ">había</W>
-<W cur="35071" id="1124" segId="t1259088" space=" ">conseguido</W>
-<W cur="35082" id="1125" segId="t1259088" space=" ">un</W>
-<W cur="35085" id="1126" segId="t1259088" space=" ">trabajo</W>
-<W cur="35093" id="1127" segId="t1259088" space=" ">a</W>
-<W cur="35095" id="1128" segId="t1259088" space=" ">tiempo</W>
-<W cur="35102" id="1129" segId="t1259088" space=" ">parcial</W>
-<W cur="35110" id="1130" segId="t1259088" space=" ">para</W>
-<W cur="35115" id="1131" segId="t1259088" space=" ">el</W>
-<W cur="35118" id="1132" segId="t1259088" space=" ">verano</W>
-<W cur="35125" id="1133" segId="t1259088" space=" ">en</W>
-<W cur="35128" id="1134" segId="t1259088" space=" ">Hewlett</W>
-<W cur="35135" id="1135" segId="t1259088">-</W>
-<W cur="35136" id="1136" segId="t1259088">Packard</W>
-<W cur="35143" id="1137" segId="t1259088">.</W>
-<W cur="36000" id="1138" segId="t1259089">"</W>
-<W cur="36001" id="1139" segId="t1259089">Esa</W>
-<W cur="36005" id="1140" segId="t1259089" space=" ">experiencia</W>
-<W cur="36017" id="1141" segId="t1259089" space=" ">tuvo</W>
-<W cur="36022" id="1142" segId="t1259089" space=" ">una</W>
-<W cur="36026" id="1143" segId="t1259089" space=" ">gran</W>
-<W cur="36031" id="1144" segId="t1259089" space=" ">influencia</W>
-<W cur="36042" id="1145" segId="t1259089" space=" ">en</W>
-<W cur="36045" id="1146" segId="t1259089" space=" ">mí</W>
-<W cur="36047" id="1147" segId="t1259089">,</W>
-<W cur="36049" id="1148" segId="t1259089" space=" ">era</W>
-<W cur="36053" id="1149" segId="t1259089" space=" ">la</W>
-<W cur="36056" id="1150" segId="t1259089" space=" ">única</W>
-<W cur="36062" id="1151" segId="t1259089" space=" ">empresa</W>
-<W cur="36070" id="1152" segId="t1259089" space=" ">que</W>
-<W cur="36074" id="1153" segId="t1259089" space=" ">había</W>
-<W cur="36080" id="1154" segId="t1259089" space=" ">visto</W>
-<W cur="36086" id="1155" segId="t1259089" space=" ">a</W>
-<W cur="36088" id="1156" segId="t1259089" space=" ">esa</W>
-<W cur="36092" id="1157" segId="t1259089" space=" ">edad</W>
-<W cur="36097" id="1158" segId="t1259089" space=" ">y</W>
-<W cur="36099" id="1159" segId="t1259089" space=" ">formó</W>
-<W cur="36105" id="1160" segId="t1259089" space=" ">mi</W>
-<W cur="36108" id="1161" segId="t1259089" space=" ">opinión</W>
-<W cur="36116" id="1162" segId="t1259089" space=" ">sobre</W>
-<W cur="36122" id="1163" segId="t1259089" space=" ">lo</W>
-<W cur="36125" id="1164" segId="t1259089" space=" ">que</W>
-<W cur="36129" id="1165" segId="t1259089" space=" ">era</W>
-<W cur="36133" id="1166" segId="t1259089" space=" ">una</W>
-<W cur="36137" id="1167" segId="t1259089" space=" ">compañía</W>
-<W cur="36146" id="1168" segId="t1259089" space=" ">y</W>
-<W cur="36148" id="1169" segId="t1259089" space=" ">lo</W>
-<W cur="36151" id="1170" segId="t1259089" space=" ">bien</W>
-<W cur="36156" id="1171" segId="t1259089" space=" ">que</W>
-<W cur="36160" id="1172" segId="t1259089" space=" ">trataba</W>
-<W cur="36168" id="1173" segId="t1259089" space=" ">a</W>
-<W cur="36170" id="1174" segId="t1259089" space=" ">sus</W>
-<W cur="36174" id="1175" segId="t1259089" space=" ">empleados</W>
-<W cur="36183" id="1176" segId="t1259089">.</W>
-<W cur="36184" id="1177" segId="t1259089">"</W>
-<W cur="37000" id="1178" segId="t1259090">Jobs</W>
-<W cur="37005" id="1179" segId="t1259090" space=" ">fue</W>
-<W cur="37008" id="1180" segId="t1259090">,</W>
-<W cur="37010" id="1181" segId="t1259090" space=" ">posteriormente</W>
-<W cur="37024" id="1182" segId="t1259090">,</W>
-<W cur="37026" id="1183" segId="t1259090" space=" ">uno</W>
-<W cur="37030" id="1184" segId="t1259090" space=" ">de</W>
-<W cur="37033" id="1185" segId="t1259090" space=" ">los</W>
-<W cur="37037" id="1186" segId="t1259090" space=" ">empleados</W>
-<W cur="37047" id="1187" segId="t1259090" space=" ">de</W>
-<W cur="37050" id="1188" segId="t1259090" space=" ">HP</W>
-<W cur="37053" id="1189" segId="t1259090" space=" ">que</W>
-<W cur="37057" id="1190" segId="t1259090" space=" ">visitaron</W>
-<W cur="37067" id="1191" segId="t1259090" space=" ">los</W>
-<W cur="37071" id="1192" segId="t1259090" space=" ">laboratorios</W>
-<W cur="37084" id="1193" segId="t1259090" space=" ">de</W>
-<W cur="37087" id="1194" segId="t1259090" space=" ">investigación</W>
-<W cur="37101" id="1195" segId="t1259090" space=" ">de</W>
-<W cur="37104" id="1196" segId="t1259090" space=" ">la</W>
-<W cur="37107" id="1197" segId="t1259090" space=" ">empresa</W>
-<W cur="37115" id="1198" segId="t1259090" space=" ">en</W>
-<W cur="37118" id="1199" segId="t1259090" space=" ">Palo</W>
-<W cur="37123" id="1200" segId="t1259090" space=" ">Alto</W>
-<W cur="37127" id="1201" segId="t1259090">,</W>
-<W cur="37129" id="1202" segId="t1259090" space=" ">donde</W>
-<W cur="37135" id="1203" segId="t1259090" space=" ">vio</W>
-<W cur="37139" id="1204" segId="t1259090">"</W>
-<W cur="37140" id="1205" segId="t1259090">el</W>
-<W cur="37143" id="1206" segId="t1259090" space=" ">primer</W>
-<W cur="37150" id="1207" segId="t1259090" space=" ">ordenador</W>
-<W cur="37160" id="1208" segId="t1259090" space=" ">de</W>
-<W cur="37163" id="1209" segId="t1259090" space=" ">sobremesa</W>
-<W cur="37173" id="1210" segId="t1259090" space=" ">que</W>
-<W cur="37177" id="1211" segId="t1259090" space=" ">se</W>
-<W cur="37180" id="1212" segId="t1259090" space=" ">fabricó</W>
-<W cur="37188" id="1213" segId="t1259090" space=" ">en</W>
-<W cur="37191" id="1214" segId="t1259090" space=" ">el</W>
-<W cur="37194" id="1215" segId="t1259090" space=" ">mundo</W>
-<W cur="37199" id="1216" segId="t1259090">"</W>
-<W cur="37200" id="1217" segId="t1259090">.</W>
-<W cur="38000" id="1218" segId="t1259091">Era</W>
-<W cur="38004" id="1219" segId="t1259091" space=" ">tan</W>
-<W cur="38008" id="1220" segId="t1259091" space=" ">grande</W>
-<W cur="38015" id="1221" segId="t1259091" space=" ">como</W>
-<W cur="38020" id="1222" segId="t1259091" space=" ">una</W>
-<W cur="38024" id="1223" segId="t1259091" space=" ">maleta</W>
-<W cur="38030" id="1224" segId="t1259091">,</W>
-<W cur="38032" id="1225" segId="t1259091" space=" ">tenía</W>
-<W cur="38038" id="1226" segId="t1259091" space=" ">una</W>
-<W cur="38042" id="1227" segId="t1259091" space=" ">pequeña</W>
-<W cur="38050" id="1228" segId="t1259091" space=" ">pantalla</W>
-<W cur="38059" id="1229" segId="t1259091" space=" ">con</W>
-<W cur="38063" id="1230" segId="t1259091" space=" ">tubo</W>
-<W cur="38068" id="1231" segId="t1259091" space=" ">de</W>
-<W cur="38071" id="1232" segId="t1259091" space=" ">rayos</W>
-<W cur="38077" id="1233" segId="t1259091" space=" ">catódicos</W>
-<W cur="38086" id="1234" segId="t1259091">,</W>
-<W cur="38088" id="1235" segId="t1259091" space=" ">y</W>
-<W cur="38090" id="1236" segId="t1259091" space=" ">me</W>
-<W cur="38093" id="1237" segId="t1259091" space=" ">enamoré</W>
-<W cur="38101" id="1238" segId="t1259091" space=" ">de</W>
-<W cur="38104" id="1239" segId="t1259091" space=" ">ella</W>
-<W cur="38108" id="1240" segId="t1259091">.</W>
-<W cur="39000" id="1241" segId="t1259092">Acudía</W>
-<W cur="39007" id="1242" segId="t1259092" space=" ">a</W>
-<W cur="39009" id="1243" segId="t1259092" space=" ">HP</W>
-<W cur="39012" id="1244" segId="t1259092" space=" ">como</W>
-<W cur="39017" id="1245" segId="t1259092" space=" ">un</W>
-<W cur="39020" id="1246" segId="t1259092" space=" ">adolescente</W>
-<W cur="39031" id="1247" segId="t1259092">,</W>
-<W cur="39033" id="1248" segId="t1259092" space=" ">rondaba</W>
-<W cur="39041" id="1249" segId="t1259092" space=" ">a</W>
-<W cur="39043" id="1250" segId="t1259092" space=" ">esa</W>
-<W cur="39047" id="1251" segId="t1259092" space=" ">máquina</W>
-<W cur="39055" id="1252" segId="t1259092" space=" ">y</W>
-<W cur="39057" id="1253" segId="t1259092" space=" ">escribía</W>
-<W cur="39066" id="1254" segId="t1259092" space=" ">programas</W>
-<W cur="39076" id="1255" segId="t1259092" space=" ">para</W>
-<W cur="39081" id="1256" segId="t1259092" space=" ">ella</W>
-<W cur="39085" id="1257" segId="t1259092">.</W>
-<W cur="40000" id="1258" segId="t1259093">Sobre</W>
-<W cur="40006" id="1259" segId="t1259093" space=" ">la</W>
-<W cur="40009" id="1260" segId="t1259093" space=" ">improvisación</W>
-<W cur="40023" id="1261" segId="t1259093" space=" ">de</W>
-<W cur="40026" id="1262" segId="t1259093" space=" ">la</W>
-<W cur="40029" id="1263" segId="t1259093" space=" ">innovación</W>
-<W cur="40039" id="1264" segId="t1259093">:</W>
-<W cur="41000" id="1265" segId="t1259094">En</W>
-<W cur="41003" id="1266" segId="t1259094" space=" ">varios</W>
-<W cur="41010" id="1267" segId="t1259094" space=" ">momentos</W>
-<W cur="41019" id="1268" segId="t1259094" space=" ">durante</W>
-<W cur="41027" id="1269" segId="t1259094" space=" ">la</W>
-<W cur="41030" id="1270" segId="t1259094" space=" ">entrevista</W>
-<W cur="41040" id="1271" segId="t1259094">,</W>
-<W cur="41042" id="1272" segId="t1259094" space=" ">Jobs</W>
-<W cur="41047" id="1273" segId="t1259094" space=" ">habla</W>
-<W cur="41053" id="1274" segId="t1259094" space=" ">sobre</W>
-<W cur="41059" id="1275" segId="t1259094" space=" ">como</W>
-<W cur="41064" id="1276" segId="t1259094" space=" ">se</W>
-<W cur="41067" id="1277" segId="t1259094" space=" ">inventan</W>
-<W cur="41076" id="1278" segId="t1259094" space=" ">nuevos</W>
-<W cur="41083" id="1279" segId="t1259094" space=" ">productos</W>
-<W cur="41093" id="1280" segId="t1259094" space=" ">sobre</W>
-<W cur="41099" id="1281" segId="t1259094" space=" ">la</W>
-<W cur="41102" id="1282" segId="t1259094" space=" ">marcha</W>
-<W cur="41108" id="1283" segId="t1259094">.</W>
-<W cur="42000" id="1284" segId="t1259095">Al</W>
-<W cur="42003" id="1285" segId="t1259095" space=" ">comienzo</W>
-<W cur="42012" id="1286" segId="t1259095" space=" ">de</W>
-<W cur="42015" id="1287" segId="t1259095" space=" ">su</W>
-<W cur="42018" id="1288" segId="t1259095" space=" ">carrera</W>
-<W cur="42026" id="1289" segId="t1259095" space=" ">profesional</W>
-<W cur="42037" id="1290" segId="t1259095">,</W>
-<W cur="42039" id="1291" segId="t1259095" space=" ">cuando</W>
-<W cur="42046" id="1292" segId="t1259095" space=" ">trabajaba</W>
-<W cur="42056" id="1293" segId="t1259095" space=" ">en</W>
-<W cur="42059" id="1294" segId="t1259095" space=" ">la</W>
-<W cur="42062" id="1295" segId="t1259095" space=" ">venta</W>
-<W cur="42068" id="1296" segId="t1259095" space=" ">de</W>
-<W cur="42071" id="1297" segId="t1259095" space=" ">una</W>
-<W cur="42075" id="1298" segId="t1259095" space=" ">serie</W>
-<W cur="42081" id="1299" segId="t1259095" space=" ">de</W>
-<W cur="42084" id="1300" segId="t1259095" space=" ">circuitos</W>
-<W cur="42094" id="1301" segId="t1259095" space=" ">impresos</W>
-<W cur="42102" id="1302" segId="t1259095">,</W>
-<W cur="42104" id="1303" segId="t1259095" space=" ">un</W>
-<W cur="42107" id="1304" segId="t1259095" space=" ">cliente</W>
-<W cur="42115" id="1305" segId="t1259095" space=" ">le</W>
-<W cur="42118" id="1306" segId="t1259095" space=" ">pidió</W>
-<W cur="42124" id="1307" segId="t1259095" space=" ">que</W>
-<W cur="42128" id="1308" segId="t1259095" space=" ">le</W>
-<W cur="42131" id="1309" segId="t1259095" space=" ">ensamblara</W>
-<W cur="42142" id="1310" segId="t1259095" space=" ">un</W>
-<W cur="42145" id="1311" segId="t1259095" space=" ">ordenador</W>
-<W cur="42155" id="1312" segId="t1259095" space=" ">completo</W>
-<W cur="42163" id="1313" segId="t1259095">.</W>
-<W cur="43000" id="1314" segId="t1259096">Trabajando</W>
-<W cur="43011" id="1315" segId="t1259096" space=" ">con</W>
-<W cur="43015" id="1316" segId="t1259096" space=" ">un</W>
-<W cur="43018" id="1317" segId="t1259096" space=" ">plazo</W>
-<W cur="43024" id="1318" segId="t1259096" space=" ">máximo</W>
-<W cur="43031" id="1319" segId="t1259096" space=" ">de</W>
-<W cur="43034" id="1320" segId="t1259096" space=" ">apenas</W>
-<W cur="43041" id="1321" segId="t1259096" space=" ">30</W>
-<W cur="43044" id="1322" segId="t1259096" space=" ">días</W>
-<W cur="43048" id="1323" segId="t1259096">,</W>
-<W cur="43050" id="1324" segId="t1259096" space=" ">tuvo</W>
-<W cur="43055" id="1325" segId="t1259096" space=" ">que</W>
-<W cur="43059" id="1326" segId="t1259096" space=" ">arreglárselas</W>
-<W cur="43073" id="1327" segId="t1259096" space=" ">para</W>
-<W cur="43078" id="1328" segId="t1259096" space=" ">realizar</W>
-<W cur="43087" id="1329" segId="t1259096" space=" ">el</W>
-<W cur="43090" id="1330" segId="t1259096" space=" ">montaje</W>
-<W cur="43098" id="1331" segId="t1259096" space=" ">y</W>
-<W cur="43100" id="1332" segId="t1259096" space=" ">la</W>
-<W cur="43103" id="1333" segId="t1259096" space=" ">entrega</W>
-<W cur="43111" id="1334" segId="t1259096" space=" ">de</W>
-<W cur="43114" id="1335" segId="t1259096" space=" ">las</W>
-<W cur="43118" id="1336" segId="t1259096" space=" ">unidades</W>
-<W cur="43127" id="1337" segId="t1259096" space=" ">terminadas</W>
-<W cur="43137" id="1338" segId="t1259096">.</W>
-<W cur="44000" id="1339" segId="t1259097" space=" ">Más</W>
-<W cur="44004" id="1340" segId="t1259097" space=" ">adelante</W>
-<W cur="44012" id="1341" segId="t1259097">,</W>
-<W cur="44014" id="1342" segId="t1259097" space=" ">cuando</W>
-<W cur="44021" id="1343" segId="t1259097" space=" ">ya</W>
-<W cur="44024" id="1344" segId="t1259097" space=" ">estaba</W>
-<W cur="44031" id="1345" segId="t1259097" space=" ">en</W>
-<W cur="44034" id="1346" segId="t1259097" space=" ">Apple</W>
-<W cur="44039" id="1347" segId="t1259097">,</W>
-<W cur="44041" id="1348" segId="t1259097" space=" ">recuerda</W>
-<W cur="44050" id="1349" segId="t1259097" space=" ">las</W>
-<W cur="44054" id="1350" segId="t1259097" space=" ">luchas</W>
-<W cur="44061" id="1351" segId="t1259097" space=" ">que</W>
-<W cur="44065" id="1352" segId="t1259097" space=" ">tuvo</W>
-<W cur="44070" id="1353" segId="t1259097" space=" ">que</W>
-<W cur="44074" id="1354" segId="t1259097" space=" ">librar</W>
-<W cur="44081" id="1355" segId="t1259097" space=" ">para</W>
-<W cur="44086" id="1356" segId="t1259097" space=" ">desarrollar</W>
-<W cur="44098" id="1357" segId="t1259097" space=" ">un</W>
-<W cur="44101" id="1358" segId="t1259097" space=" ">ratón</W>
-<W cur="44107" id="1359" segId="t1259097" space=" ">de</W>
-<W cur="44110" id="1360" segId="t1259097" space=" ">ordenador</W>
-<W cur="44119" id="1361" segId="t1259097">:</W>
-<W cur="45000" id="1362" segId="t1259098">"</W>
-<W cur="45001" id="1363" segId="t1259098">Recuerdo</W>
-<W cur="45010" id="1364" segId="t1259098" space=" ">que</W>
-<W cur="45014" id="1365" segId="t1259098" space=" ">teníamos</W>
-<W cur="45023" id="1366" segId="t1259098" space=" ">discusiones</W>
-<W cur="45035" id="1367" segId="t1259098" space=" ">tremendas</W>
-<W cur="45044" id="1368" segId="t1259098">...</W>
-<W cur="45048" id="1369" segId="t1259098" space=" ">me</W>
-<W cur="45051" id="1370" segId="t1259098" space=" ">gritaban</W>
-<W cur="45060" id="1371" segId="t1259098" space=" ">que</W>
-<W cur="45064" id="1372" segId="t1259098" space=" ">tardarían</W>
-<W cur="45074" id="1373" segId="t1259098" space=" ">cinco</W>
-<W cur="45080" id="1374" segId="t1259098" space=" ">años</W>
-<W cur="45085" id="1375" segId="t1259098">[</W>
-<W cur="45086" id="1376" segId="t1259098">en</W>
-<W cur="45089" id="1377" segId="t1259098" space=" ">construir</W>
-<W cur="45099" id="1378" segId="t1259098" space=" ">un</W>
-<W cur="45102" id="1379" segId="t1259098" space=" ">ratón</W>
-<W cur="45108" id="1380" segId="t1259098" space=" ">que</W>
-<W cur="45112" id="1381" segId="t1259098" space=" ">costaría</W>
-<W cur="45121" id="1382" segId="t1259098" space=" ">300</W>
-<W cur="45125" id="1383" segId="t1259098" space=" ">dólares</W>
-<W cur="45132" id="1384" segId="t1259098">]</W>
-<W cur="45133" id="1385" segId="t1259098">,</W>
-<W cur="45135" id="1386" segId="t1259098" space=" ">así</W>
-<W cur="45139" id="1387" segId="t1259098" space=" ">que</W>
-<W cur="45143" id="1388" segId="t1259098" space=" ">terminé</W>
-<W cur="45151" id="1389" segId="t1259098" space=" ">cansándome</W>
-<W cur="45161" id="1390" segId="t1259098">,</W>
-<W cur="45163" id="1391" segId="t1259098" space=" ">salí</W>
-<W cur="45168" id="1392" segId="t1259098" space=" ">fuera</W>
-<W cur="45174" id="1393" segId="t1259098" space=" ">y</W>
-<W cur="45176" id="1394" segId="t1259098" space=" ">encontré</W>
-<W cur="45185" id="1395" segId="t1259098" space=" ">a</W>
-<W cur="45187" id="1396" segId="t1259098" space=" ">un</W>
-<W cur="45190" id="1397" segId="t1259098" space=" ">diseñador</W>
-<W cur="45199" id="1398" segId="t1259098">.</W>
-<W cur="45200" id="1399" segId="t1259098">"</W>
-<W cur="46000" id="1400" segId="t1259099">Noventa</W>
-<W cur="46008" id="1401" segId="t1259099" space=" ">días</W>
-<W cur="46013" id="1402" segId="t1259099" space=" ">después</W>
-<W cur="46020" id="1403" segId="t1259099">,</W>
-<W cur="46022" id="1404" segId="t1259099" space=" ">teníamos</W>
-<W cur="46031" id="1405" segId="t1259099" space=" ">un</W>
-<W cur="46034" id="1406" segId="t1259099" space=" ">ratón</W>
-<W cur="46040" id="1407" segId="t1259099" space=" ">que</W>
-<W cur="46044" id="1408" segId="t1259099" space=" ">podíamos</W>
-<W cur="46053" id="1409" segId="t1259099" space=" ">fabricar</W>
-<W cur="46062" id="1410" segId="t1259099" space=" ">por</W>
-<W cur="46066" id="1411" segId="t1259099" space=" ">15</W>
-<W cur="46069" id="1412" segId="t1259099" space=" ">dólares</W>
-<W cur="46077" id="1413" segId="t1259099" space=" ">y</W>
-<W cur="46079" id="1414" segId="t1259099" space=" ">que</W>
-<W cur="46083" id="1415" segId="t1259099" space=" ">funcionaba</W>
-<W cur="46094" id="1416" segId="t1259099" space=" ">con</W>
-<W cur="46098" id="1417" segId="t1259099" space=" ">una</W>
-<W cur="46102" id="1418" segId="t1259099" space=" ">precisión</W>
-<W cur="46112" id="1419" segId="t1259099" space=" ">increíble</W>
-<W cur="46121" id="1420" segId="t1259099">.</W>
-<W cur="47000" id="1421" segId="t1259100" space=" ">Sobre</W>
-<W cur="47006" id="1422" segId="t1259100" space=" ">las</W>
-<W cur="47010" id="1423" segId="t1259100" space=" ">grandes</W>
-<W cur="47018" id="1424" segId="t1259100" space=" ">empresas</W>
-<W cur="47027" id="1425" segId="t1259100" space=" ">que</W>
-<W cur="47031" id="1426" segId="t1259100" space=" ">pierden</W>
-<W cur="47039" id="1427" segId="t1259100" space=" ">fuelle</W>
-<W cur="47045" id="1428" segId="t1259100">:</W>
-<W cur="48000" id="1429" segId="t1259101">Mucho</W>
-<W cur="48006" id="1430" segId="t1259101" space=" ">antes</W>
-<W cur="48012" id="1431" segId="t1259101" space=" ">de</W>
-<W cur="48015" id="1432" segId="t1259101" space=" ">que</W>
-<W cur="48019" id="1433" segId="t1259101" space=" ">dirigiera</W>
-<W cur="48029" id="1434" segId="t1259101" space=" ">la</W>
-<W cur="48032" id="1435" segId="t1259101" space=" ">recuperación</W>
-<W cur="48045" id="1436" segId="t1259101" space=" ">de</W>
-<W cur="48048" id="1437" segId="t1259101" space=" ">Apple</W>
-<W cur="48053" id="1438" segId="t1259101">,</W>
-<W cur="48055" id="1439" segId="t1259101" space=" ">Jobs</W>
-<W cur="48060" id="1440" segId="t1259101" space=" ">imaginó</W>
-<W cur="48068" id="1441" segId="t1259101" space=" ">proféticamente</W>
-<W cur="48083" id="1442" segId="t1259101" space=" ">los</W>
-<W cur="48087" id="1443" segId="t1259101" space=" ">motivos</W>
-<W cur="48095" id="1444" segId="t1259101" space=" ">por</W>
-<W cur="48099" id="1445" segId="t1259101" space=" ">los</W>
-<W cur="48103" id="1446" segId="t1259101" space=" ">que</W>
-<W cur="48107" id="1447" segId="t1259101" space=" ">tantos</W>
-<W cur="48114" id="1448" segId="t1259101" space=" ">líderes</W>
-<W cur="48122" id="1449" segId="t1259101" space=" ">del</W>
-<W cur="48126" id="1450" segId="t1259101" space=" ">sector</W>
-<W cur="48133" id="1451" segId="t1259101" space=" ">fracasarían</W>
-<W cur="48145" id="1452" segId="t1259101" space=" ">en</W>
-<W cur="48148" id="1453" segId="t1259101" space=" ">su</W>
-<W cur="48151" id="1454" segId="t1259101" space=" ">visión</W>
-<W cur="48158" id="1455" segId="t1259101" space=" ">y</W>
-<W cur="48160" id="1456" segId="t1259101" space=" ">perderían</W>
-<W cur="48170" id="1457" segId="t1259101" space=" ">control</W>
-<W cur="48178" id="1458" segId="t1259101" space=" ">de</W>
-<W cur="48181" id="1459" segId="t1259101" space=" ">su</W>
-<W cur="48184" id="1460" segId="t1259101" space=" ">cuota</W>
-<W cur="48190" id="1461" segId="t1259101" space=" ">de</W>
-<W cur="48193" id="1462" segId="t1259101" space=" ">mercado</W>
-<W cur="48200" id="1463" segId="t1259101">.</W>
-<W cur="49000" id="1464" segId="t1259102">"</W>
-<W cur="49001" id="1465" segId="t1259102">Pongamos</W>
-<W cur="49010" id="1466" segId="t1259102" space=" ">que</W>
-<W cur="49014" id="1467" segId="t1259102" space=" ">trabajas</W>
-<W cur="49023" id="1468" segId="t1259102" space=" ">en</W>
-<W cur="49026" id="1469" segId="t1259102" space=" ">IBM</W>
-<W cur="49030" id="1470" segId="t1259102" space=" ">o</W>
-<W cur="49032" id="1471" segId="t1259102" space=" ">Xerox</W>
-<W cur="49038" id="1472" segId="t1259102" space=" ">y</W>
-<W cur="49040" id="1473" segId="t1259102" space=" ">que</W>
-<W cur="49044" id="1474" segId="t1259102" space=" ">consigues</W>
-<W cur="49054" id="1475" segId="t1259102" space=" ">fabricar</W>
-<W cur="49063" id="1476" segId="t1259102" space=" ">una</W>
-<W cur="49067" id="1477" segId="t1259102" space=" ">fotocopiadora</W>
-<W cur="49081" id="1478" segId="t1259102" space=" ">o</W>
-<W cur="49083" id="1479" segId="t1259102" space=" ">una</W>
-<W cur="49087" id="1480" segId="t1259102" space=" ">impresora</W>
-<W cur="49097" id="1481" segId="t1259102" space=" ">mejor</W>
-<W cur="49102" id="1482" segId="t1259102">,</W>
-<W cur="49104" id="1483" segId="t1259102" space=" ">¿y</W>
-<W cur="49107" id="1484" segId="t1259102" space=" ">qué</W>
-<W cur="49110" id="1485" segId="t1259102">?</W>
-<W cur="49111" id="1486" segId="t1259102">"</W>
-<W cur="50000" id="1487" segId="t1259103">Ya</W>
-<W cur="50003" id="1488" segId="t1259103" space=" ">tienes</W>
-<W cur="50010" id="1489" segId="t1259103" space=" ">el</W>
-<W cur="50013" id="1490" segId="t1259103" space=" ">monopolio</W>
-<W cur="50023" id="1491" segId="t1259103" space=" ">de</W>
-<W cur="50026" id="1492" segId="t1259103" space=" ">la</W>
-<W cur="50029" id="1493" segId="t1259103" space=" ">cuota</W>
-<W cur="50035" id="1494" segId="t1259103" space=" ">de</W>
-<W cur="50038" id="1495" segId="t1259103" space=" ">mercado</W>
-<W cur="50045" id="1496" segId="t1259103">,</W>
-<W cur="50047" id="1497" segId="t1259103" space=" ">así</W>
-<W cur="50051" id="1498" segId="t1259103" space=" ">que</W>
-<W cur="50055" id="1499" segId="t1259103" space=" ">la</W>
-<W cur="50058" id="1500" segId="t1259103" space=" ">empresa</W>
-<W cur="50066" id="1501" segId="t1259103" space=" ">no</W>
-<W cur="50069" id="1502" segId="t1259103" space=" ">va</W>
-<W cur="50072" id="1503" segId="t1259103" space=" ">a</W>
-<W cur="50074" id="1504" segId="t1259103" space=" ">tener</W>
-<W cur="50080" id="1505" segId="t1259103" space=" ">más</W>
-<W cur="50084" id="1506" segId="t1259103" space=" ">éxito</W>
-<W cur="50090" id="1507" segId="t1259103" space=" ">por</W>
-<W cur="50094" id="1508" segId="t1259103" space=" ">eso</W>
-<W cur="50097" id="1509" segId="t1259103">.</W>
-<W cur="51000" id="1510" segId="t1259104">Los</W>
-<W cur="51004" id="1511" segId="t1259104" space=" ">profesionales</W>
-<W cur="51018" id="1512" segId="t1259104" space=" ">de</W>
-<W cur="51021" id="1513" segId="t1259104" space=" ">ventas</W>
-<W cur="51028" id="1514" segId="t1259104" space=" ">y</W>
-<W cur="51030" id="1515" segId="t1259104" space=" ">marketing</W>
-<W cur="51040" id="1516" segId="t1259104" space=" ">sí</W>
-<W cur="51043" id="1517" segId="t1259104" space=" ">que</W>
-<W cur="51047" id="1518" segId="t1259104" space=" ">pueden</W>
-<W cur="51054" id="1519" segId="t1259104" space=" ">hacer</W>
-<W cur="51060" id="1520" segId="t1259104" space=" ">que</W>
-<W cur="51064" id="1521" segId="t1259104" space=" ">tenga</W>
-<W cur="51070" id="1522" segId="t1259104" space=" ">más</W>
-<W cur="51074" id="1523" segId="t1259104" space=" ">éxito</W>
-<W cur="51079" id="1524" segId="t1259104">,</W>
-<W cur="51081" id="1525" segId="t1259104" space=" ">así</W>
-<W cur="51085" id="1526" segId="t1259104" space=" ">que</W>
-<W cur="51089" id="1527" segId="t1259104" space=" ">son</W>
-<W cur="51093" id="1528" segId="t1259104" space=" ">ellos</W>
-<W cur="51099" id="1529" segId="t1259104">[</W>
-<W cur="51100" id="1530" segId="t1259104">ese</W>
-<W cur="51104" id="1531" segId="t1259104" space=" ">perfil</W>
-<W cur="51111" id="1532" segId="t1259104" space=" ">de</W>
-<W cur="51114" id="1533" segId="t1259104" space=" ">personas</W>
-<W cur="51122" id="1534" segId="t1259104">]</W>
-<W cur="51124" id="1535" segId="t1259104" space=" ">los</W>
-<W cur="51128" id="1536" segId="t1259104" space=" ">que</W>
-<W cur="51132" id="1537" segId="t1259104" space=" ">terminan</W>
-<W cur="51141" id="1538" segId="t1259104" space=" ">dirigiendo</W>
-<W cur="51152" id="1539" segId="t1259104" space=" ">las</W>
-<W cur="51156" id="1540" segId="t1259104" space=" ">empresas</W>
-<W cur="51165" id="1541" segId="t1259104" space=" ">y</W>
-<W cur="51167" id="1542" segId="t1259104" space=" ">decidiendo</W>
-<W cur="51178" id="1543" segId="t1259104" space=" ">los</W>
-<W cur="51182" id="1544" segId="t1259104" space=" ">productos</W>
-<W cur="51192" id="1545" segId="t1259104" space=" ">por</W>
-<W cur="51196" id="1546" segId="t1259104" space=" ">lo</W>
-<W cur="51199" id="1547" segId="t1259104" space=" ">que</W>
-<W cur="51203" id="1548" segId="t1259104" space=" ">apostarán</W>
-<W cur="51212" id="1549" segId="t1259104">.</W>
-<W cur="52000" id="1550" segId="t1259105" space=" ">El</W>
-<W cur="52003" id="1551" segId="t1259105" space=" ">genio</W>
-<W cur="52009" id="1552" segId="t1259105" space=" ">en</W>
-<W cur="52012" id="1553" segId="t1259105" space=" ">desarrollo</W>
-<W cur="52023" id="1554" segId="t1259105" space=" ">de</W>
-<W cur="52026" id="1555" segId="t1259105" space=" ">productos</W>
-<W cur="52036" id="1556" segId="t1259105" space=" ">que</W>
-<W cur="52040" id="1557" segId="t1259105" space=" ">ha</W>
-<W cur="52043" id="1558" segId="t1259105" space=" ">conseguido</W>
-<W cur="52054" id="1559" segId="t1259105" space=" ">esa</W>
-<W cur="52058" id="1560" segId="t1259105" space=" ">posición</W>
-<W cur="52067" id="1561" segId="t1259105" space=" ">monopolista</W>
-<W cur="52079" id="1562" segId="t1259105" space=" ">es</W>
-<W cur="52082" id="1563" segId="t1259105" space=" ">desbancado</W>
-<W cur="52093" id="1564" segId="t1259105" space=" ">por</W>
-<W cur="52097" id="1565" segId="t1259105" space=" ">personas</W>
-<W cur="52106" id="1566" segId="t1259105" space=" ">que</W>
-<W cur="52110" id="1567" segId="t1259105" space=" ">no</W>
-<W cur="52113" id="1568" segId="t1259105" space=" ">tienen</W>
-<W cur="52120" id="1569" segId="t1259105" space=" ">ninguna</W>
-<W cur="52128" id="1570" segId="t1259105" space=" ">concepción</W>
-<W cur="52139" id="1571" segId="t1259105" space=" ">de</W>
-<W cur="52142" id="1572" segId="t1259105" space=" ">lo</W>
-<W cur="52145" id="1573" segId="t1259105" space=" ">que</W>
-<W cur="52149" id="1574" segId="t1259105" space=" ">son</W>
-<W cur="52153" id="1575" segId="t1259105" space=" ">productos</W>
-<W cur="52163" id="1576" segId="t1259105" space=" ">buenos</W>
-<W cur="52170" id="1577" segId="t1259105" space=" ">frente</W>
-<W cur="52177" id="1578" segId="t1259105" space=" ">a</W>
-<W cur="52179" id="1579" segId="t1259105" space=" ">productos</W>
-<W cur="52189" id="1580" segId="t1259105" space=" ">malos</W>
-<W cur="52195" id="1581" segId="t1259105">-</W>
-<W cur="52197" id="1582" segId="t1259105" space=" ">los</W>
-<W cur="52201" id="1583" segId="t1259105" space=" ">artesanos</W>
-<W cur="52211" id="1584" segId="t1259105" space=" ">necesarios</W>
-<W cur="52221" id="1585" segId="t1259105">.</W>
-<W cur="53000" id="1586" segId="t1259106">Eso</W>
-<W cur="53004" id="1587" segId="t1259106" space=" ">es</W>
-<W cur="53007" id="1588" segId="t1259106" space=" ">lo</W>
-<W cur="53010" id="1589" segId="t1259106" space=" ">que</W>
-<W cur="53014" id="1590" segId="t1259106" space=" ">sucedió</W>
-<W cur="53022" id="1591" segId="t1259106" space=" ">en</W>
-<W cur="53025" id="1592" segId="t1259106" space=" ">Xerox</W>
-<W cur="53030" id="1593" segId="t1259106">...</W>
-<W cur="54000" id="1594" segId="t1259107">Xerox</W>
-<W cur="54006" id="1595" segId="t1259107" space=" ">podría</W>
-<W cur="54013" id="1596" segId="t1259107" space=" ">haberse</W>
-<W cur="54021" id="1597" segId="t1259107" space=" ">hecho</W>
-<W cur="54027" id="1598" segId="t1259107" space=" ">con</W>
-<W cur="54031" id="1599" segId="t1259107" space=" ">todo</W>
-<W cur="54036" id="1600" segId="t1259107" space=" ">el</W>
-<W cur="54039" id="1601" segId="t1259107" space=" ">sector</W>
-<W cur="54046" id="1602" segId="t1259107" space=" ">informático</W>
-<W cur="54057" id="1603" segId="t1259107">.</W>
-<W cur="55000" id="1604" segId="t1259108">Podría</W>
-<W cur="55007" id="1605" segId="t1259108" space=" ">haber</W>
-<W cur="55013" id="1606" segId="t1259108" space=" ">tenido</W>
-<W cur="55020" id="1607" segId="t1259108" space=" ">un</W>
-<W cur="55023" id="1608" segId="t1259108" space=" ">tamaño</W>
-<W cur="55030" id="1609" segId="t1259108" space=" ">diez</W>
-<W cur="55035" id="1610" segId="t1259108" space=" ">veces</W>
-<W cur="55041" id="1611" segId="t1259108" space=" ">mayor</W>
-<W cur="55046" id="1612" segId="t1259108">,</W>
-<W cur="55048" id="1613" segId="t1259108" space=" ">podría</W>
-<W cur="55055" id="1614" segId="t1259108" space=" ">haber</W>
-<W cur="55061" id="1615" segId="t1259108" space=" ">sido</W>
-<W cur="55066" id="1616" segId="t1259108" space=" ">el</W>
-<W cur="55069" id="1617" segId="t1259108" space=" ">Microsoft</W>
-<W cur="55079" id="1618" segId="t1259108" space=" ">de</W>
-<W cur="55082" id="1619" segId="t1259108" space=" ">los</W>
-<W cur="55086" id="1620" segId="t1259108" space=" ">años</W>
-<W cur="55091" id="1621" segId="t1259108" space=" ">noventa</W>
-<W cur="55098" id="1622" segId="t1259108">...</W>
-<W cur="56000" id="1623" segId="t1259109">Le</W>
-<W cur="56003" id="1624" segId="t1259109" space=" ">arrebataron</W>
-<W cur="56015" id="1625" segId="t1259109" space=" ">la</W>
-<W cur="56018" id="1626" segId="t1259109" space=" ">derrota</W>
-<W cur="56026" id="1627" segId="t1259109" space=" ">a</W>
-<W cur="56028" id="1628" segId="t1259109" space=" ">la</W>
-<W cur="56031" id="1629" segId="t1259109" space=" ">victoria</W>
-<W cur="56039" id="1630" segId="t1259109">.</W>
-<W cur="57000" id="1631" segId="t1259110">Sobre</W>
-<W cur="57006" id="1632" segId="t1259110" space=" ">la</W>
-<W cur="57009" id="1633" segId="t1259110" space=" ">innovación</W>
-<W cur="57020" id="1634" segId="t1259110" space=" ">como</W>
-<W cur="57025" id="1635" segId="t1259110" space=" ">una</W>
-<W cur="57029" id="1636" segId="t1259110" space=" ">forma</W>
-<W cur="57035" id="1637" segId="t1259110" space=" ">de</W>
-<W cur="57038" id="1638" segId="t1259110" space=" ">arte</W>
-<W cur="57042" id="1639" segId="t1259110">:</W>
-<W cur="58000" id="1640" segId="t1259111">"</W>
-<W cur="58001" id="1641" segId="t1259111">Hay</W>
-<W cur="58005" id="1642" segId="t1259111" space=" ">que</W>
-<W cur="58009" id="1643" segId="t1259111" space=" ">hacer</W>
-<W cur="58015" id="1644" segId="t1259111" space=" ">mucho</W>
-<W cur="58021" id="1645" segId="t1259111" space=" ">trabajo</W>
-<W cur="58029" id="1646" segId="t1259111" space=" ">de</W>
-<W cur="58032" id="1647" segId="t1259111" space=" ">artesanía</W>
-<W cur="58042" id="1648" segId="t1259111" space=" ">para</W>
-<W cur="58047" id="1649" segId="t1259111" space=" ">pasar</W>
-<W cur="58053" id="1650" segId="t1259111" space=" ">de</W>
-<W cur="58056" id="1651" segId="t1259111" space=" ">una</W>
-<W cur="58060" id="1652" segId="t1259111" space=" ">gran</W>
-<W cur="58065" id="1653" segId="t1259111" space=" ">idea</W>
-<W cur="58070" id="1654" segId="t1259111" space=" ">a</W>
-<W cur="58072" id="1655" segId="t1259111" space=" ">un</W>
-<W cur="58074" id="1656" segId="t1259111">&amp;</W>
-<W cur="58075" id="1657" segId="t1259111">amp</W>
-<W cur="58078" id="1658" segId="t1259111">;</W>
-<W cur="58079" id="1659" segId="t1259111">nbsp</W>
-<W cur="58083" id="1660" segId="t1259111">;</W>
-<W cur="58085" id="1661" segId="t1259111" space=" ">gran</W>
-<W cur="58090" id="1662" segId="t1259111" space=" ">producto</W>
-<W cur="58098" id="1663" segId="t1259111">...</W>
-<W cur="58101" id="1664" segId="t1259111">a</W>
-<W cur="58103" id="1665" segId="t1259111" space=" ">medida</W>
-<W cur="58110" id="1666" segId="t1259111" space=" ">que</W>
-<W cur="58114" id="1667" segId="t1259111" space=" ">se</W>
-<W cur="58117" id="1668" segId="t1259111" space=" ">desarrolla</W>
-<W cur="58128" id="1669" segId="t1259111" space=" ">esa</W>
-<W cur="58132" id="1670" segId="t1259111" space=" ">gran</W>
-<W cur="58137" id="1671" segId="t1259111" space=" ">idea</W>
-<W cur="58141" id="1672" segId="t1259111">,</W>
-<W cur="58143" id="1673" segId="t1259111" space=" ">va</W>
-<W cur="58146" id="1674" segId="t1259111" space=" ">cambiando</W>
-<W cur="58156" id="1675" segId="t1259111" space=" ">y</W>
-<W cur="58158" id="1676" segId="t1259111" space=" ">creciendo</W>
-<W cur="58167" id="1677" segId="t1259111">.</W>
-<W cur="58168" id="1678" segId="t1259111">"</W>
-<W cur="59000" id="1679" segId="t1259112">Se</W>
-<W cur="59003" id="1680" segId="t1259112" space=" ">aprende</W>
-<W cur="59011" id="1681" segId="t1259112" space=" ">mucho</W>
-<W cur="59017" id="1682" segId="t1259112" space=" ">sobre</W>
-<W cur="59023" id="1683" segId="t1259112" space=" ">los</W>
-<W cur="59027" id="1684" segId="t1259112" space=" ">ligeros</W>
-<W cur="59035" id="1685" segId="t1259112" space=" ">matices</W>
-<W cur="59043" id="1686" segId="t1259112" space=" ">que</W>
-<W cur="59047" id="1687" segId="t1259112" space=" ">se</W>
-<W cur="59050" id="1688" segId="t1259112" space=" ">esconden</W>
-<W cur="59059" id="1689" segId="t1259112" space=" ">en</W>
-<W cur="59062" id="1690" segId="t1259112" space=" ">ella</W>
-<W cur="59066" id="1691" segId="t1259112">.</W>
-<W cur="60000" id="1692" segId="t1259113">Tienes</W>
-<W cur="60007" id="1693" segId="t1259113" space=" ">que</W>
-<W cur="60011" id="1694" segId="t1259113" space=" ">hacer</W>
-<W cur="60017" id="1695" segId="t1259113" space=" ">algunas</W>
-<W cur="60025" id="1696" segId="t1259113" space=" ">concesiones</W>
-<W cur="60037" id="1697" segId="t1259113">-</W>
-<W cur="60039" id="1698" segId="t1259113" space=" ">hay</W>
-<W cur="60043" id="1699" segId="t1259113" space=" ">cosas</W>
-<W cur="60049" id="1700" segId="t1259113" space=" ">que</W>
-<W cur="60053" id="1701" segId="t1259113" space=" ">no</W>
-<W cur="60056" id="1702" segId="t1259113" space=" ">puedes</W>
-<W cur="60063" id="1703" segId="t1259113" space=" ">obligar</W>
-<W cur="60071" id="1704" segId="t1259113" space=" ">a</W>
-<W cur="60073" id="1705" segId="t1259113" space=" ">hacer</W>
-<W cur="60079" id="1706" segId="t1259113" space=" ">a</W>
-<W cur="60081" id="1707" segId="t1259113" space=" ">los</W>
-<W cur="60085" id="1708" segId="t1259113" space=" ">electrones</W>
-<W cur="60095" id="1709" segId="t1259113">,</W>
-<W cur="60097" id="1710" segId="t1259113" space=" ">al</W>
-<W cur="60100" id="1711" segId="t1259113" space=" ">cristal</W>
-<W cur="60107" id="1712" segId="t1259113">,</W>
-<W cur="60109" id="1713" segId="t1259113" space=" ">a</W>
-<W cur="60111" id="1714" segId="t1259113" space=" ">los</W>
-<W cur="60115" id="1715" segId="t1259113" space=" ">robots</W>
-<W cur="60121" id="1716" segId="t1259113">,</W>
-<W cur="60123" id="1717" segId="t1259113" space=" ">a</W>
-<W cur="60125" id="1718" segId="t1259113" space=" ">las</W>
-<W cur="60129" id="1719" segId="t1259113" space=" ">fábricas</W>
-<W cur="60137" id="1720" segId="t1259113">.</W>
-<W cur="61000" id="1721" segId="t1259114">Tienes</W>
-<W cur="61007" id="1722" segId="t1259114" space=" ">que</W>
-<W cur="61011" id="1723" segId="t1259114" space=" ">guardar</W>
-<W cur="61019" id="1724" segId="t1259114" space=" ">5.000</W>
-<W cur="61025" id="1725" segId="t1259114" space=" ">piezas</W>
-<W cur="61032" id="1726" segId="t1259114" space=" ">en</W>
-<W cur="61035" id="1727" segId="t1259114" space=" ">el</W>
-<W cur="61038" id="1728" segId="t1259114" space=" ">cerebro</W>
-<W cur="61046" id="1729" segId="t1259114">-</W>
-<W cur="61048" id="1730" segId="t1259114" space=" ">esos</W>
-<W cur="61053" id="1731" segId="t1259114" space=" ">conceptos</W>
-<W cur="61063" id="1732" segId="t1259114">-</W>
-<W cur="61065" id="1733" segId="t1259114" space=" ">para</W>
-<W cur="61070" id="1734" segId="t1259114" space=" ">luego</W>
-<W cur="61076" id="1735" segId="t1259114" space=" ">hacer</W>
-<W cur="61082" id="1736" segId="t1259114" space=" ">que</W>
-<W cur="61086" id="1737" segId="t1259114" space=" ">encajen</W>
-<W cur="61094" id="1738" segId="t1259114" space=" ">todas</W>
-<W cur="61100" id="1739" segId="t1259114" space=" ">ellas</W>
-<W cur="61105" id="1740" segId="t1259114">...</W>
-<W cur="62000" id="1741" segId="t1259115">Al</W>
-<W cur="62003" id="1742" segId="t1259115" space=" ">final</W>
-<W cur="62009" id="1743" segId="t1259115" space=" ">se</W>
-<W cur="62012" id="1744" segId="t1259115" space=" ">trata</W>
-<W cur="62018" id="1745" segId="t1259115" space=" ">de</W>
-<W cur="62021" id="1746" segId="t1259115" space=" ">una</W>
-<W cur="62025" id="1747" segId="t1259115" space=" ">cuestión</W>
-<W cur="62034" id="1748" segId="t1259115" space=" ">de</W>
-<W cur="62037" id="1749" segId="t1259115" space=" ">gustos</W>
-<W cur="62044" id="1750" segId="t1259115">-</W>
-<W cur="62046" id="1751" segId="t1259115" space=" ">consiste</W>
-<W cur="62055" id="1752" segId="t1259115" space=" ">en</W>
-<W cur="62058" id="1753" segId="t1259115" space=" ">tratar</W>
-<W cur="62065" id="1754" segId="t1259115" space=" ">de</W>
-<W cur="62068" id="1755" segId="t1259115" space=" ">exponerse</W>
-<W cur="62078" id="1756" segId="t1259115" space=" ">uno</W>
-<W cur="62082" id="1757" segId="t1259115" space=" ">mismo</W>
-<W cur="62088" id="1758" segId="t1259115" space=" ">a</W>
-<W cur="62090" id="1759" segId="t1259115" space=" ">las</W>
-<W cur="62094" id="1760" segId="t1259115" space=" ">mejores</W>
-<W cur="62102" id="1761" segId="t1259115" space=" ">cosas</W>
-<W cur="62108" id="1762" segId="t1259115" space=" ">que</W>
-<W cur="62112" id="1763" segId="t1259115" space=" ">se</W>
-<W cur="62115" id="1764" segId="t1259115" space=" ">ha</W>
-<W cur="62118" id="1765" segId="t1259115" space=" ">hecho</W>
-<W cur="62124" id="1766" segId="t1259115" space=" ">la</W>
-<W cur="62127" id="1767" segId="t1259115" space=" ">Humanidad</W>
-<W cur="62136" id="1768" segId="t1259115">,</W>
-<W cur="62138" id="1769" segId="t1259115" space=" ">para</W>
-<W cur="62143" id="1770" segId="t1259115" space=" ">luego</W>
-<W cur="62149" id="1771" segId="t1259115" space=" ">tratar</W>
-<W cur="62156" id="1772" segId="t1259115" space=" ">de</W>
-<W cur="62159" id="1773" segId="t1259115" space=" ">incorporarlas</W>
-<W cur="62173" id="1774" segId="t1259115" space=" ">a</W>
-<W cur="62175" id="1775" segId="t1259115" space=" ">lo</W>
-<W cur="62178" id="1776" segId="t1259115" space=" ">que</W>
-<W cur="62182" id="1777" segId="t1259115" space=" ">uno</W>
-<W cur="62186" id="1778" segId="t1259115" space=" ">esté</W>
-<W cur="62191" id="1779" segId="t1259115" space=" ">haciendo</W>
-<W cur="62199" id="1780" segId="t1259115">.</W>
-<W cur="63000" id="1781" segId="t1259116">Picasso</W>
-<W cur="63008" id="1782" segId="t1259116" space=" ">dijo</W>
-<W cur="63013" id="1783" segId="t1259116" space=" ">una</W>
-<W cur="63017" id="1784" segId="t1259116" space=" ">vez</W>
-<W cur="63021" id="1785" segId="t1259116" space=" ">que</W>
-<W cur="63025" id="1786" segId="t1259116" space=" ">los</W>
-<W cur="63029" id="1787" segId="t1259116" space=" ">buenos</W>
-<W cur="63036" id="1788" segId="t1259116" space=" ">artistas</W>
-<W cur="63045" id="1789" segId="t1259116" space=" ">copian</W>
-<W cur="63051" id="1790" segId="t1259116">,</W>
-<W cur="63053" id="1791" segId="t1259116" space=" ">los</W>
-<W cur="63057" id="1792" segId="t1259116" space=" ">grandes</W>
-<W cur="63065" id="1793" segId="t1259116" space=" ">artistas</W>
-<W cur="63074" id="1794" segId="t1259116" space=" ">roban</W>
-<W cur="63079" id="1795" segId="t1259116">.</W>
-<W cur="64000" id="1796" segId="t1259117">Siempre</W>
-<W cur="64008" id="1797" segId="t1259117" space=" ">nos</W>
-<W cur="64012" id="1798" segId="t1259117" space=" ">avergonzamos</W>
-<W cur="64025" id="1799" segId="t1259117" space=" ">de</W>
-<W cur="64028" id="1800" segId="t1259117" space=" ">robar</W>
-<W cur="64034" id="1801" segId="t1259117" space=" ">las</W>
-<W cur="64038" id="1802" segId="t1259117" space=" ">grandes</W>
-<W cur="64046" id="1803" segId="t1259117" space=" ">ideas</W>
-<W cur="64051" id="1804" segId="t1259117">.</W>
-<W cur="65000" id="1805" segId="t1259118">Eso</W>
-<W cur="65004" id="1806" segId="t1259118" space=" ">es</W>
-<W cur="65007" id="1807" segId="t1259118" space=" ">en</W>
-<W cur="65010" id="1808" segId="t1259118" space=" ">parte</W>
-<W cur="65016" id="1809" segId="t1259118" space=" ">lo</W>
-<W cur="65019" id="1810" segId="t1259118" space=" ">que</W>
-<W cur="65023" id="1811" segId="t1259118" space=" ">hizo</W>
-<W cur="65028" id="1812" segId="t1259118" space=" ">grande</W>
-<W cur="65035" id="1813" segId="t1259118" space=" ">a</W>
-<W cur="65037" id="1814" segId="t1259118" space=" ">Macintosh</W>
-<W cur="65046" id="1815" segId="t1259118">,</W>
-<W cur="65048" id="1816" segId="t1259118" space=" ">que</W>
-<W cur="65052" id="1817" segId="t1259118" space=" ">las</W>
-<W cur="65056" id="1818" segId="t1259118" space=" ">personas</W>
-<W cur="65065" id="1819" segId="t1259118" space=" ">que</W>
-<W cur="65069" id="1820" segId="t1259118" space=" ">trabajaron</W>
-<W cur="65080" id="1821" segId="t1259118" space=" ">en</W>
-<W cur="65083" id="1822" segId="t1259118" space=" ">él</W>
-<W cur="65086" id="1823" segId="t1259118" space=" ">fueron</W>
-<W cur="65093" id="1824" segId="t1259118" space=" ">médicos</W>
-<W cur="65100" id="1825" segId="t1259118">,</W>
-<W cur="65102" id="1826" segId="t1259118" space=" ">poetas</W>
-<W cur="65108" id="1827" segId="t1259118">,</W>
-<W cur="65110" id="1828" segId="t1259118" space=" ">artistas</W>
-<W cur="65118" id="1829" segId="t1259118">,</W>
-<W cur="65120" id="1830" segId="t1259118" space=" ">zoólogos</W>
-<W cur="65128" id="1831" segId="t1259118">,</W>
-<W cur="65130" id="1832" segId="t1259118" space=" ">historiadores</W>
-<W cur="65144" id="1833" segId="t1259118" space=" ">que</W>
-<W cur="65148" id="1834" segId="t1259118" space=" ">luego</W>
-<W cur="65154" id="1835" segId="t1259118" space=" ">resultaron</W>
-<W cur="65165" id="1836" segId="t1259118" space=" ">ser</W>
-<W cur="65169" id="1837" segId="t1259118" space=" ">los</W>
-<W cur="65173" id="1838" segId="t1259118" space=" ">mejores</W>
-<W cur="65181" id="1839" segId="t1259118" space=" ">científicos</W>
-<W cur="65193" id="1840" segId="t1259118" space=" ">informáticos</W>
-<W cur="65206" id="1841" segId="t1259118" space=" ">del</W>
-<W cur="65210" id="1842" segId="t1259118" space=" ">mundo</W>
-<W cur="65215" id="1843" segId="t1259118">.</W>
-<W cur="66000" id="1844" segId="t1259119" space=" ">Si</W>
-<W cur="66003" id="1845" segId="t1259119" space=" ">no</W>
-<W cur="66006" id="1846" segId="t1259119" space=" ">se</W>
-<W cur="66009" id="1847" segId="t1259119" space=" ">hubieran</W>
-<W cur="66018" id="1848" segId="t1259119" space=" ">dedicado</W>
-<W cur="66027" id="1849" segId="t1259119" space=" ">a</W>
-<W cur="66029" id="1850" segId="t1259119" space=" ">la</W>
-<W cur="66032" id="1851" segId="t1259119" space=" ">informática</W>
-<W cur="66043" id="1852" segId="t1259119">,</W>
-<W cur="66045" id="1853" segId="t1259119" space=" ">estarían</W>
-<W cur="66054" id="1854" segId="t1259119" space=" ">haciendo</W>
-<W cur="66063" id="1855" segId="t1259119" space=" ">cosas</W>
-<W cur="66069" id="1856" segId="t1259119" space=" ">sorprendentes</W>
-<W cur="66083" id="1857" segId="t1259119" space=" ">en</W>
-<W cur="66086" id="1858" segId="t1259119" space=" ">otros</W>
-<W cur="66092" id="1859" segId="t1259119" space=" ">campos</W>
-<W cur="66098" id="1860" segId="t1259119">.</W>
+<W cur="19071" id="614" segId="t1259072">¿</W>
+<W cur="19072" id="615" segId="t1259072">Por</W>
+<W cur="19076" id="616" segId="t1259072" space=" ">qué</W>
+<W cur="19080" id="617" segId="t1259072" space=" ">hacen</W>
+<W cur="19086" id="618" segId="t1259072" space=" ">las</W>
+<W cur="19090" id="619" segId="t1259072" space=" ">cosas</W>
+<W cur="19095" id="620" segId="t1259072">?</W>
+<W cur="19096" id="621" segId="t1259072">"</W>
+<W cur="19098" id="622" segId="t1259072" space=" ">y</W>
+<W cur="19100" id="623" segId="t1259072" space=" ">la</W>
+<W cur="19103" id="624" segId="t1259072" space=" ">respuesta</W>
+<W cur="19113" id="625" segId="t1259072" space=" ">que</W>
+<W cur="19117" id="626" segId="t1259072" space=" ">invariablemente</W>
+<W cur="19133" id="627" segId="t1259072" space=" ">recibía</W>
+<W cur="19141" id="628" segId="t1259072" space=" ">era</W>
+<W cur="19144" id="629" segId="t1259072">,</W>
+<W cur="19146" id="630" segId="t1259072">"</W>
+<W cur="19147" id="631" segId="t1259072">Porque</W>
+<W cur="19154" id="632" segId="t1259072" space=" ">siempre</W>
+<W cur="19162" id="633" segId="t1259072" space=" ">se</W>
+<W cur="19165" id="634" segId="t1259072" space=" ">han</W>
+<W cur="19169" id="635" segId="t1259072" space=" ">hecho</W>
+<W cur="19175" id="636" segId="t1259072" space=" ">así</W>
+<W cur="19178" id="637" segId="t1259072">.</W>
+<W cur="19179" id="638" segId="t1259072">"</W>
+<W cur="20000" id="639" segId="t1259073">Nadie</W>
+<W cur="20006" id="640" segId="t1259073" space=" ">sabe</W>
+<W cur="20011" id="641" segId="t1259073" space=" ">por</W>
+<W cur="20015" id="642" segId="t1259073" space=" ">qué</W>
+<W cur="20019" id="643" segId="t1259073" space=" ">hacen</W>
+<W cur="20025" id="644" segId="t1259073" space=" ">lo</W>
+<W cur="20028" id="645" segId="t1259073" space=" ">que</W>
+<W cur="20032" id="646" segId="t1259073" space=" ">hacen</W>
+<W cur="20037" id="647" segId="t1259073">,</W>
+<W cur="20039" id="648" segId="t1259073" space=" ">nadie</W>
+<W cur="20045" id="649" segId="t1259073" space=" ">piensa</W>
+<W cur="20052" id="650" segId="t1259073" space=" ">demasiado</W>
+<W cur="20062" id="651" segId="t1259073" space=" ">en</W>
+<W cur="20065" id="652" segId="t1259073" space=" ">las</W>
+<W cur="20069" id="653" segId="t1259073" space=" ">cosas</W>
+<W cur="20075" id="654" segId="t1259073" space=" ">que</W>
+<W cur="20079" id="655" segId="t1259073" space=" ">se</W>
+<W cur="20082" id="656" segId="t1259073" space=" ">hacen</W>
+<W cur="20088" id="657" segId="t1259073" space=" ">en</W>
+<W cur="20091" id="658" segId="t1259073" space=" ">las</W>
+<W cur="20095" id="659" segId="t1259073" space=" ">empresas</W>
+<W cur="20103" id="660" segId="t1259073">.</W>
+<W cur="21000" id="661" segId="t1259074">Eso</W>
+<W cur="21004" id="662" segId="t1259074" space=" ">es</W>
+<W cur="21007" id="663" segId="t1259074" space=" ">lo</W>
+<W cur="21010" id="664" segId="t1259074" space=" ">que</W>
+<W cur="21014" id="665" segId="t1259074" space=" ">descubrí</W>
+<W cur="21022" id="666" segId="t1259074">.</W>
+<W cur="22000" id="667" segId="t1259075">Jobs</W>
+<W cur="22005" id="668" segId="t1259075" space=" ">pasa</W>
+<W cur="22010" id="669" segId="t1259075" space=" ">a</W>
+<W cur="22012" id="670" segId="t1259075" space=" ">explicar</W>
+<W cur="22021" id="671" segId="t1259075" space=" ">luego</W>
+<W cur="22027" id="672" segId="t1259075" space=" ">sus</W>
+<W cur="22031" id="673" segId="t1259075" space=" ">esfuerzos</W>
+<W cur="22041" id="674" segId="t1259075" space=" ">por</W>
+<W cur="22045" id="675" segId="t1259075" space=" ">simplificar</W>
+<W cur="22057" id="676" segId="t1259075" space=" ">la</W>
+<W cur="22060" id="677" segId="t1259075" space=" ">contabilidad</W>
+<W cur="22073" id="678" segId="t1259075" space=" ">en</W>
+<W cur="22076" id="679" segId="t1259075" space=" ">Apple</W>
+<W cur="22081" id="680" segId="t1259075">.</W>
+<W cur="23000" id="681" segId="t1259076">Frustrado</W>
+<W cur="23010" id="682" segId="t1259076" space=" ">por</W>
+<W cur="23014" id="683" segId="t1259076" space=" ">la</W>
+<W cur="23017" id="684" segId="t1259076" space=" ">forma</W>
+<W cur="23023" id="685" segId="t1259076" space=" ">de</W>
+<W cur="23026" id="686" segId="t1259076" space=" ">registrar</W>
+<W cur="23036" id="687" segId="t1259076" space=" ">los</W>
+<W cur="23040" id="688" segId="t1259076" space=" ">costes</W>
+<W cur="23047" id="689" segId="t1259076">-</W>
+<W cur="23049" id="690" segId="t1259076" space=" ">a</W>
+<W cur="23051" id="691" segId="t1259076" space=" ">menudo</W>
+<W cur="23058" id="692" segId="t1259076" space=" ">se</W>
+<W cur="23061" id="693" segId="t1259076" space=" ">empezaba</W>
+<W cur="23070" id="694" segId="t1259076" space=" ">con</W>
+<W cur="23074" id="695" segId="t1259076" space=" ">un</W>
+<W cur="23077" id="696" segId="t1259076">"</W>
+<W cur="23078" id="697" segId="t1259076">coste</W>
+<W cur="23084" id="698" segId="t1259076" space=" ">normalizado</W>
+<W cur="23095" id="699" segId="t1259076">"</W>
+<W cur="23097" id="700" segId="t1259076" space=" ">basado</W>
+<W cur="23104" id="701" segId="t1259076" space=" ">en</W>
+<W cur="23107" id="702" segId="t1259076" space=" ">un</W>
+<W cur="23110" id="703" segId="t1259076" space=" ">supuesto</W>
+<W cur="23119" id="704" segId="t1259076" space=" ">a</W>
+<W cur="23121" id="705" segId="t1259076" space=" ">ciegas</W>
+<W cur="23127" id="706" segId="t1259076">,</W>
+<W cur="23129" id="707" segId="t1259076" space=" ">que</W>
+<W cur="23133" id="708" segId="t1259076" space=" ">posteriormente</W>
+<W cur="23148" id="709" segId="t1259076" space=" ">se</W>
+<W cur="23151" id="710" segId="t1259076" space=" ">ajustaba</W>
+<W cur="23160" id="711" segId="t1259076" space=" ">con</W>
+<W cur="23164" id="712" segId="t1259076" space=" ">una</W>
+<W cur="23168" id="713" segId="t1259076">"</W>
+<W cur="23169" id="714" segId="t1259076">varianza</W>
+<W cur="23177" id="715" segId="t1259076">"</W>
+<W cur="23179" id="716" segId="t1259076">-</W>
+<W cur="23180" id="717" segId="t1259076">,</W>
+<W cur="23182" id="718" segId="t1259076" space=" ">Jobs</W>
+<W cur="23187" id="719" segId="t1259076" space=" ">desarrolló</W>
+<W cur="23198" id="720" segId="t1259076" space=" ">un</W>
+<W cur="23201" id="721" segId="t1259076" space=" ">proceso</W>
+<W cur="23209" id="722" segId="t1259076" space=" ">automatizado</W>
+<W cur="23222" id="723" segId="t1259076" space=" ">que</W>
+<W cur="23226" id="724" segId="t1259076" space=" ">le</W>
+<W cur="23229" id="725" segId="t1259076" space=" ">permitía</W>
+<W cur="23238" id="726" segId="t1259076" space=" ">calcular</W>
+<W cur="23247" id="727" segId="t1259076" space=" ">los</W>
+<W cur="23251" id="728" segId="t1259076" space=" ">costes</W>
+<W cur="23258" id="729" segId="t1259076" space=" ">empresariales</W>
+<W cur="23272" id="730" segId="t1259076" space=" ">al</W>
+<W cur="23275" id="731" segId="t1259076" space=" ">segundo</W>
+<W cur="23282" id="732" segId="t1259076">.</W>
+<W cur="24000" id="733" segId="t1259077">Sobre</W>
+<W cur="24006" id="734" segId="t1259077" space=" ">una</W>
+<W cur="24010" id="735" segId="t1259077" space=" ">broma</W>
+<W cur="24016" id="736" segId="t1259077" space=" ">al</W>
+<W cur="24019" id="737" segId="t1259077" space=" ">Papa</W>
+<W cur="24023" id="738" segId="t1259077">:</W>
+<W cur="25000" id="739" segId="t1259078">Jobs</W>
+<W cur="25005" id="740" segId="t1259078" space=" ">recuerda</W>
+<W cur="25014" id="741" segId="t1259078" space=" ">la</W>
+<W cur="25017" id="742" segId="t1259078">"</W>
+<W cur="25018" id="743" segId="t1259078">Caja</W>
+<W cur="25023" id="744" segId="t1259078" space=" ">azul</W>
+<W cur="25027" id="745" segId="t1259078">"</W>
+<W cur="25029" id="746" segId="t1259078" space=" ">que</W>
+<W cur="25033" id="747" segId="t1259078" space=" ">construyó</W>
+<W cur="25043" id="748" segId="t1259078" space=" ">junto</W>
+<W cur="25049" id="749" segId="t1259078" space=" ">con</W>
+<W cur="25053" id="750" segId="t1259078" space=" ">Steve</W>
+<W cur="25059" id="751" segId="t1259078" space=" ">Wozniak</W>
+<W cur="25066" id="752" segId="t1259078">,</W>
+<W cur="25068" id="753" segId="t1259078" space=" ">un</W>
+<W cur="25071" id="754" segId="t1259078" space=" ">dispositivo</W>
+<W cur="25083" id="755" segId="t1259078" space=" ">que</W>
+<W cur="25087" id="756" segId="t1259078" space=" ">permitía</W>
+<W cur="25096" id="757" segId="t1259078" space=" ">a</W>
+<W cur="25098" id="758" segId="t1259078" space=" ">las</W>
+<W cur="25102" id="759" segId="t1259078" space=" ">personas</W>
+<W cur="25111" id="760" segId="t1259078" space=" ">burlar</W>
+<W cur="25118" id="761" segId="t1259078" space=" ">eficazmente</W>
+<W cur="25130" id="762" segId="t1259078" space=" ">a</W>
+<W cur="25132" id="763" segId="t1259078" space=" ">las</W>
+<W cur="25136" id="764" segId="t1259078" space=" ">compañías</W>
+<W cur="25146" id="765" segId="t1259078" space=" ">teléfonicas</W>
+<W cur="25158" id="766" segId="t1259078" space=" ">y</W>
+<W cur="25160" id="767" segId="t1259078" space=" ">realizar</W>
+<W cur="25169" id="768" segId="t1259078" space=" ">conferencias</W>
+<W cur="25182" id="769" segId="t1259078" space=" ">de</W>
+<W cur="25185" id="770" segId="t1259078" space=" ">larga</W>
+<W cur="25191" id="771" segId="t1259078" space=" ">distancia</W>
+<W cur="25201" id="772" segId="t1259078" space=" ">de</W>
+<W cur="25204" id="773" segId="t1259078" space=" ">forma</W>
+<W cur="25210" id="774" segId="t1259078" space=" ">gratuita</W>
+<W cur="25218" id="775" segId="t1259078">.</W>
+<W cur="26000" id="776" segId="t1259079">Antes</W>
+<W cur="26006" id="777" segId="t1259079" space=" ">de</W>
+<W cur="26009" id="778" segId="t1259079" space=" ">eso</W>
+<W cur="26012" id="779" segId="t1259079">,</W>
+<W cur="26014" id="780" segId="t1259079" space=" ">se</W>
+<W cur="26017" id="781" segId="t1259079" space=" ">había</W>
+<W cur="26023" id="782" segId="t1259079" space=" ">escrito</W>
+<W cur="26031" id="783" segId="t1259079" space=" ">mucho</W>
+<W cur="26037" id="784" segId="t1259079" space=" ">sobre</W>
+<W cur="26043" id="785" segId="t1259079" space=" ">ese</W>
+<W cur="26047" id="786" segId="t1259079" space=" ">aparato</W>
+<W cur="26054" id="787" segId="t1259079">,</W>
+<W cur="26056" id="788" segId="t1259079" space=" ">pero</W>
+<W cur="26061" id="789" segId="t1259079" space=" ">la</W>
+<W cur="26064" id="790" segId="t1259079" space=" ">euforia</W>
+<W cur="26072" id="791" segId="t1259079" space=" ">que</W>
+<W cur="26076" id="792" segId="t1259079" space=" ">muestra</W>
+<W cur="26084" id="793" segId="t1259079" space=" ">Jobs</W>
+<W cur="26089" id="794" segId="t1259079" space=" ">aquí</W>
+<W cur="26094" id="795" segId="t1259079" space=" ">cuando</W>
+<W cur="26101" id="796" segId="t1259079" space=" ">describe</W>
+<W cur="26110" id="797" segId="t1259079" space=" ">la</W>
+<W cur="26113" id="798" segId="t1259079" space=" ">Caja</W>
+<W cur="26118" id="799" segId="t1259079" space=" ">azul</W>
+<W cur="26123" id="800" segId="t1259079" space=" ">como</W>
+<W cur="26128" id="801" segId="t1259079" space=" ">una</W>
+<W cur="26132" id="802" segId="t1259079" space=" ">demostración</W>
+<W cur="26145" id="803" segId="t1259079" space=" ">de</W>
+<W cur="26148" id="804" segId="t1259079" space=" ">poder</W>
+<W cur="26154" id="805" segId="t1259079" space=" ">es</W>
+<W cur="26157" id="806" segId="t1259079" space=" ">contagiosa</W>
+<W cur="26167" id="807" segId="t1259079">.</W>
+<W cur="27000" id="808" segId="t1259080">Explica</W>
+<W cur="27008" id="809" segId="t1259080" space=" ">cómo</W>
+<W cur="27013" id="810" segId="t1259080" space=" ">él</W>
+<W cur="27016" id="811" segId="t1259080" space=" ">y</W>
+<W cur="27018" id="812" segId="t1259080" space=" ">Wozniak</W>
+<W cur="27026" id="813" segId="t1259080" space=" ">probaron</W>
+<W cur="27035" id="814" segId="t1259080" space=" ">la</W>
+<W cur="27038" id="815" segId="t1259080" space=" ">caja</W>
+<W cur="27043" id="816" segId="t1259080" space=" ">usando</W>
+<W cur="27050" id="817" segId="t1259080" space=" ">un</W>
+<W cur="27053" id="818" segId="t1259080" space=" ">teléfono</W>
+<W cur="27062" id="819" segId="t1259080" space=" ">de</W>
+<W cur="27065" id="820" segId="t1259080" space=" ">pago</W>
+<W cur="27069" id="821" segId="t1259080">,</W>
+<W cur="27071" id="822" segId="t1259080" space=" ">realizando</W>
+<W cur="27082" id="823" segId="t1259080" space=" ">una</W>
+<W cur="27086" id="824" segId="t1259080" space=" ">llamada</W>
+<W cur="27094" id="825" segId="t1259080" space=" ">y</W>
+<W cur="27096" id="826" segId="t1259080" space=" ">conectándose</W>
+<W cur="27109" id="827" segId="t1259080" space=" ">luego</W>
+<W cur="27115" id="828" segId="t1259080" space=" ">de</W>
+<W cur="27118" id="829" segId="t1259080" space=" ">una</W>
+<W cur="27122" id="830" segId="t1259080" space=" ">red</W>
+<W cur="27126" id="831" segId="t1259080" space=" ">de</W>
+<W cur="27129" id="832" segId="t1259080" space=" ">AT</W>
+<W cur="27131" id="833" segId="t1259080">&amp;</W>
+<W cur="27132" id="834" segId="t1259080">amp</W>
+<W cur="27135" id="835" segId="t1259080">;</W>
+<W cur="27136" id="836" segId="t1259080">amp</W>
+<W cur="27139" id="837" segId="t1259080">;</W>
+<W cur="27140" id="838" segId="t1259080">T</W>
+<W cur="27142" id="839" segId="t1259080" space=" ">a</W>
+<W cur="27144" id="840" segId="t1259080" space=" ">otra</W>
+<W cur="27148" id="841" segId="t1259080">,</W>
+<W cur="27150" id="842" segId="t1259080" space=" ">estableciendo</W>
+<W cur="27164" id="843" segId="t1259080" space=" ">bucles</W>
+<W cur="27171" id="844" segId="t1259080" space=" ">con</W>
+<W cur="27175" id="845" segId="t1259080" space=" ">el</W>
+<W cur="27178" id="846" segId="t1259080" space=" ">mayor</W>
+<W cur="27184" id="847" segId="t1259080" space=" ">número</W>
+<W cur="27191" id="848" segId="t1259080" space=" ">posible</W>
+<W cur="27199" id="849" segId="t1259080" space=" ">de</W>
+<W cur="27202" id="850" segId="t1259080" space=" ">satélites</W>
+<W cur="27211" id="851" segId="t1259080">.</W>
+<W cur="28000" id="852" segId="t1259081">"</W>
+<W cur="28001" id="853" segId="t1259081">Estábamos</W>
+<W cur="28011" id="854" segId="t1259081" space=" ">coordinando</W>
+<W cur="28023" id="855" segId="t1259081" space=" ">los</W>
+<W cur="28027" id="856" segId="t1259081" space=" ">servicios</W>
+<W cur="28037" id="857" segId="t1259081" space=" ">en</W>
+<W cur="28040" id="858" segId="t1259081" space=" ">todo</W>
+<W cur="28045" id="859" segId="t1259081" space=" ">el</W>
+<W cur="28048" id="860" segId="t1259081" space=" ">mundo</W>
+<W cur="28054" id="861" segId="t1259081" space=" ">una</W>
+<W cur="28058" id="862" segId="t1259081" space=" ">media</W>
+<W cur="28064" id="863" segId="t1259081" space=" ">docena</W>
+<W cur="28071" id="864" segId="t1259081" space=" ">de</W>
+<W cur="28074" id="865" segId="t1259081" space=" ">veces</W>
+<W cur="28080" id="866" segId="t1259081" space=" ">y</W>
+<W cur="28082" id="867" segId="t1259081" space=" ">resulta</W>
+<W cur="28090" id="868" segId="t1259081" space=" ">que</W>
+<W cur="28094" id="869" segId="t1259081" space=" ">podías</W>
+<W cur="28101" id="870" segId="t1259081" space=" ">gritar</W>
+<W cur="28108" id="871" segId="t1259081" space=" ">a</W>
+<W cur="28110" id="872" segId="t1259081" space=" ">través</W>
+<W cur="28117" id="873" segId="t1259081" space=" ">del</W>
+<W cur="28121" id="874" segId="t1259081" space=" ">teléfono</W>
+<W cur="28130" id="875" segId="t1259081" space=" ">de</W>
+<W cur="28133" id="876" segId="t1259081" space=" ">pago</W>
+<W cur="28138" id="877" segId="t1259081" space=" ">y</W>
+<W cur="28140" id="878" segId="t1259081" space=" ">te</W>
+<W cur="28143" id="879" segId="t1259081" space=" ">llegaba</W>
+<W cur="28151" id="880" segId="t1259081" space=" ">un</W>
+<W cur="28154" id="881" segId="t1259081" space=" ">minuto</W>
+<W cur="28161" id="882" segId="t1259081" space=" ">después</W>
+<W cur="28169" id="883" segId="t1259081" space=" ">a</W>
+<W cur="28171" id="884" segId="t1259081" space=" ">través</W>
+<W cur="28178" id="885" segId="t1259081" space=" ">del</W>
+<W cur="28182" id="886" segId="t1259081" space=" ">teléfono</W>
+<W cur="28191" id="887" segId="t1259081" space=" ">de</W>
+<W cur="28194" id="888" segId="t1259081" space=" ">pago</W>
+<W cur="28199" id="889" segId="t1259081" space=" ">de</W>
+<W cur="28202" id="890" segId="t1259081" space=" ">la</W>
+<W cur="28205" id="891" segId="t1259081" space=" ">puerta</W>
+<W cur="28212" id="892" segId="t1259081" space=" ">vecina</W>
+<W cur="28218" id="893" segId="t1259081">,</W>
+<W cur="28219" id="894" segId="t1259081">"</W>
+<W cur="28221" id="895" segId="t1259081" space=" ">dice</W>
+<W cur="28226" id="896" segId="t1259081" space=" ">Jobs</W>
+<W cur="28231" id="897" segId="t1259081" space=" ">riendo</W>
+<W cur="28237" id="898" segId="t1259081">.</W>
+<W cur="29000" id="899" segId="t1259082">"</W>
+<W cur="29001" id="900" segId="t1259082">Éramos</W>
+<W cur="29008" id="901" segId="t1259082" space=" ">jóvenes</W>
+<W cur="29016" id="902" segId="t1259082" space=" ">y</W>
+<W cur="29018" id="903" segId="t1259082" space=" ">lo</W>
+<W cur="29021" id="904" segId="t1259082" space=" ">que</W>
+<W cur="29025" id="905" segId="t1259082" space=" ">aprendimos</W>
+<W cur="29036" id="906" segId="t1259082" space=" ">fue</W>
+<W cur="29040" id="907" segId="t1259082" space=" ">que</W>
+<W cur="29044" id="908" segId="t1259082" space=" ">podíamos</W>
+<W cur="29053" id="909" segId="t1259082" space=" ">construir</W>
+<W cur="29063" id="910" segId="t1259082" space=" ">algo</W>
+<W cur="29068" id="911" segId="t1259082" space=" ">por</W>
+<W cur="29072" id="912" segId="t1259082" space=" ">nosotros</W>
+<W cur="29081" id="913" segId="t1259082" space=" ">mismos</W>
+<W cur="29088" id="914" segId="t1259082" space=" ">capaz</W>
+<W cur="29094" id="915" segId="t1259082" space=" ">de</W>
+<W cur="29097" id="916" segId="t1259082" space=" ">controlar</W>
+<W cur="29107" id="917" segId="t1259082" space=" ">infraestructuras</W>
+<W cur="29124" id="918" segId="t1259082" space=" ">que</W>
+<W cur="29128" id="919" segId="t1259082" space=" ">costaban</W>
+<W cur="29137" id="920" segId="t1259082" space=" ">miles</W>
+<W cur="29143" id="921" segId="t1259082" space=" ">de</W>
+<W cur="29146" id="922" segId="t1259082" space=" ">millones</W>
+<W cur="29155" id="923" segId="t1259082" space=" ">de</W>
+<W cur="29158" id="924" segId="t1259082" space=" ">dólares</W>
+<W cur="29166" id="925" segId="t1259082" space=" ">en</W>
+<W cur="29169" id="926" segId="t1259082" space=" ">todo</W>
+<W cur="29174" id="927" segId="t1259082" space=" ">el</W>
+<W cur="29177" id="928" segId="t1259082" space=" ">mundo</W>
+<W cur="29182" id="929" segId="t1259082">.</W>
+<W cur="29183" id="930" segId="t1259082">"</W>
+<W cur="30000" id="931" segId="t1259083">Ninguno</W>
+<W cur="30008" id="932" segId="t1259083" space=" ">de</W>
+<W cur="30011" id="933" segId="t1259083" space=" ">nosotros</W>
+<W cur="30020" id="934" segId="t1259083" space=" ">dos</W>
+<W cur="30024" id="935" segId="t1259083" space=" ">sabíamos</W>
+<W cur="30033" id="936" segId="t1259083" space=" ">mucho</W>
+<W cur="30038" id="937" segId="t1259083">,</W>
+<W cur="30040" id="938" segId="t1259083" space=" ">pero</W>
+<W cur="30045" id="939" segId="t1259083" space=" ">pudimos</W>
+<W cur="30053" id="940" segId="t1259083" space=" ">construir</W>
+<W cur="30063" id="941" segId="t1259083" space=" ">un</W>
+<W cur="30066" id="942" segId="t1259083" space=" ">pequeño</W>
+<W cur="30074" id="943" segId="t1259083" space=" ">aparato</W>
+<W cur="30082" id="944" segId="t1259083" space=" ">capaz</W>
+<W cur="30088" id="945" segId="t1259083" space=" ">de</W>
+<W cur="30091" id="946" segId="t1259083" space=" ">controlar</W>
+<W cur="30101" id="947" segId="t1259083" space=" ">una</W>
+<W cur="30105" id="948" segId="t1259083" space=" ">cosa</W>
+<W cur="30110" id="949" segId="t1259083" space=" ">gigante</W>
+<W cur="30118" id="950" segId="t1259083">-</W>
+<W cur="30120" id="951" segId="t1259083" space=" ">fue</W>
+<W cur="30124" id="952" segId="t1259083" space=" ">una</W>
+<W cur="30128" id="953" segId="t1259083" space=" ">lección</W>
+<W cur="30136" id="954" segId="t1259083" space=" ">increíble</W>
+<W cur="30145" id="955" segId="t1259083">,</W>
+<W cur="30147" id="956" segId="t1259083" space=" ">y</W>
+<W cur="30149" id="957" segId="t1259083" space=" ">no</W>
+<W cur="30152" id="958" segId="t1259083" space=" ">creo</W>
+<W cur="30157" id="959" segId="t1259083" space=" ">que</W>
+<W cur="30161" id="960" segId="t1259083" space=" ">hubiera</W>
+<W cur="30169" id="961" segId="t1259083" space=" ">existido</W>
+<W cur="30178" id="962" segId="t1259083" space=" ">Apple</W>
+<W cur="30184" id="963" segId="t1259083" space=" ">sin</W>
+<W cur="30188" id="964" segId="t1259083" space=" ">ella</W>
+<W cur="30192" id="965" segId="t1259083">.</W>
+<W cur="31000" id="966" segId="t1259084">Jobs</W>
+<W cur="31005" id="967" segId="t1259084" space=" ">continúa</W>
+<W cur="31014" id="968" segId="t1259084" space=" ">recordando</W>
+<W cur="31025" id="969" segId="t1259084" space=" ">una</W>
+<W cur="31029" id="970" segId="t1259084" space=" ">gloriosa</W>
+<W cur="31038" id="971" segId="t1259084" space=" ">broma</W>
+<W cur="31044" id="972" segId="t1259084" space=" ">que</W>
+<W cur="31048" id="973" segId="t1259084" space=" ">él</W>
+<W cur="31051" id="974" segId="t1259084" space=" ">y</W>
+<W cur="31053" id="975" segId="t1259084" space=" ">Wozniak</W>
+<W cur="31061" id="976" segId="t1259084" space=" ">estuvieron</W>
+<W cur="31072" id="977" segId="t1259084" space=" ">a</W>
+<W cur="31074" id="978" segId="t1259084" space=" ">punto</W>
+<W cur="31080" id="979" segId="t1259084" space=" ">de</W>
+<W cur="31083" id="980" segId="t1259084" space=" ">gastar</W>
+<W cur="31090" id="981" segId="t1259084" space=" ">y</W>
+<W cur="31092" id="982" segId="t1259084" space=" ">que</W>
+<W cur="31096" id="983" segId="t1259084" space=" ">consistió</W>
+<W cur="31106" id="984" segId="t1259084" space=" ">en</W>
+<W cur="31109" id="985" segId="t1259084" space=" ">llamar</W>
+<W cur="31116" id="986" segId="t1259084" space=" ">al</W>
+<W cur="31119" id="987" segId="t1259084" space=" ">Vaticano</W>
+<W cur="31128" id="988" segId="t1259084" space=" ">a</W>
+<W cur="31130" id="989" segId="t1259084" space=" ">través</W>
+<W cur="31137" id="990" segId="t1259084" space=" ">de</W>
+<W cur="31140" id="991" segId="t1259084" space=" ">la</W>
+<W cur="31143" id="992" segId="t1259084" space=" ">Caja</W>
+<W cur="31148" id="993" segId="t1259084" space=" ">azul</W>
+<W cur="31153" id="994" segId="t1259084" space=" ">en</W>
+<W cur="31156" id="995" segId="t1259084" space=" ">mitad</W>
+<W cur="31162" id="996" segId="t1259084" space=" ">de</W>
+<W cur="31165" id="997" segId="t1259084" space=" ">la</W>
+<W cur="31168" id="998" segId="t1259084" space=" ">noche</W>
+<W cur="31174" id="999" segId="t1259084" space=" ">y</W>
+<W cur="31176" id="1000" segId="t1259084" space=" ">decir</W>
+<W cur="31182" id="1001" segId="t1259084" space=" ">que</W>
+<W cur="31186" id="1002" segId="t1259084" space=" ">querían</W>
+<W cur="31194" id="1003" segId="t1259084" space=" ">hablar</W>
+<W cur="31201" id="1004" segId="t1259084" space=" ">con</W>
+<W cur="31205" id="1005" segId="t1259084" space=" ">el</W>
+<W cur="31208" id="1006" segId="t1259084" space=" ">Papa</W>
+<W cur="31212" id="1007" segId="t1259084">,</W>
+<W cur="31214" id="1008" segId="t1259084" space=" ">imitando</W>
+<W cur="31223" id="1009" segId="t1259084" space=" ">lo</W>
+<W cur="31226" id="1010" segId="t1259084" space=" ">mejor</W>
+<W cur="31232" id="1011" segId="t1259084" space=" ">posible</W>
+<W cur="31240" id="1012" segId="t1259084" space=" ">la</W>
+<W cur="31243" id="1013" segId="t1259084" space=" ">voz</W>
+<W cur="31247" id="1014" segId="t1259084" space=" ">de</W>
+<W cur="31250" id="1015" segId="t1259084" space=" ">Henry</W>
+<W cur="31256" id="1016" segId="t1259084" space=" ">Kissinger</W>
+<W cur="31265" id="1017" segId="t1259084">.</W>
+<W cur="32000" id="1018" segId="t1259085">Cuando</W>
+<W cur="32007" id="1019" segId="t1259085" space=" ">varios</W>
+<W cur="32014" id="1020" segId="t1259085" space=" ">miembros</W>
+<W cur="32023" id="1021" segId="t1259085" space=" ">de</W>
+<W cur="32026" id="1022" segId="t1259085" space=" ">la</W>
+<W cur="32029" id="1023" segId="t1259085" space=" ">jerarquía</W>
+<W cur="32039" id="1024" segId="t1259085" space=" ">católica</W>
+<W cur="32048" id="1025" segId="t1259085" space=" ">se</W>
+<W cur="32051" id="1026" segId="t1259085" space=" ">reunieron</W>
+<W cur="32061" id="1027" segId="t1259085" space=" ">en</W>
+<W cur="32064" id="1028" segId="t1259085" space=" ">mitad</W>
+<W cur="32070" id="1029" segId="t1259085" space=" ">de</W>
+<W cur="32073" id="1030" segId="t1259085" space=" ">la</W>
+<W cur="32076" id="1031" segId="t1259085" space=" ">noche</W>
+<W cur="32082" id="1032" segId="t1259085" space=" ">para</W>
+<W cur="32087" id="1033" segId="t1259085" space=" ">hablar</W>
+<W cur="32094" id="1034" segId="t1259085" space=" ">con</W>
+<W cur="32098" id="1035" segId="t1259085" space=" ">el</W>
+<W cur="32101" id="1036" segId="t1259085" space=" ">diplomático</W>
+<W cur="32113" id="1037" segId="t1259085" space=" ">estadounidense</W>
+<W cur="32127" id="1038" segId="t1259085">,</W>
+<W cur="32129" id="1039" segId="t1259085" space=" ">los</W>
+<W cur="32133" id="1040" segId="t1259085" space=" ">dos</W>
+<W cur="32137" id="1041" segId="t1259085" space=" ">estallaron</W>
+<W cur="32148" id="1042" segId="t1259085" space=" ">en</W>
+<W cur="32151" id="1043" segId="t1259085" space=" ">risas</W>
+<W cur="32157" id="1044" segId="t1259085" space=" ">justo</W>
+<W cur="32163" id="1045" segId="t1259085" space=" ">antes</W>
+<W cur="32169" id="1046" segId="t1259085" space=" ">de</W>
+<W cur="32172" id="1047" segId="t1259085" space=" ">que</W>
+<W cur="32176" id="1048" segId="t1259085" space=" ">fueran</W>
+<W cur="32183" id="1049" segId="t1259085" space=" ">a</W>
+<W cur="32185" id="1050" segId="t1259085" space=" ">despertar</W>
+<W cur="32195" id="1051" segId="t1259085" space=" ">al</W>
+<W cur="32198" id="1052" segId="t1259085" space=" ">propio</W>
+<W cur="32205" id="1053" segId="t1259085" space=" ">Papa</W>
+<W cur="32210" id="1054" segId="t1259085" space=" ">para</W>
+<W cur="32215" id="1055" segId="t1259085" space=" ">que</W>
+<W cur="32219" id="1056" segId="t1259085" space=" ">se</W>
+<W cur="32222" id="1057" segId="t1259085" space=" ">pusiera</W>
+<W cur="32230" id="1058" segId="t1259085" space=" ">al</W>
+<W cur="32233" id="1059" segId="t1259085" space=" ">teléfono</W>
+<W cur="32241" id="1060" segId="t1259085">.</W>
+<W cur="33000" id="1061" segId="t1259086">Sobre</W>
+<W cur="33006" id="1062" segId="t1259086" space=" ">su</W>
+<W cur="33009" id="1063" segId="t1259086" space=" ">enamoramiento</W>
+<W cur="33023" id="1064" segId="t1259086" space=" ">de</W>
+<W cur="33026" id="1065" segId="t1259086" space=" ">la</W>
+<W cur="33029" id="1066" segId="t1259086" space=" ">tecnología</W>
+<W cur="33040" id="1067" segId="t1259086">(</W>
+<W cur="33041" id="1068" segId="t1259086">y</W>
+<W cur="33043" id="1069" segId="t1259086" space=" ">su</W>
+<W cur="33046" id="1070" segId="t1259086" space=" ">llamada</W>
+<W cur="33054" id="1071" segId="t1259086" space=" ">directa</W>
+<W cur="33062" id="1072" segId="t1259086" space=" ">a</W>
+<W cur="33064" id="1073" segId="t1259086" space=" ">Bill</W>
+<W cur="33069" id="1074" segId="t1259086" space=" ">Hewlett</W>
+<W cur="33076" id="1075" segId="t1259086">)</W>
+<W cur="33077" id="1076" segId="t1259086">:</W>
+<W cur="34000" id="1077" segId="t1259087">A</W>
+<W cur="34002" id="1078" segId="t1259087" space=" ">los</W>
+<W cur="34006" id="1079" segId="t1259087" space=" ">12</W>
+<W cur="34009" id="1080" segId="t1259087" space=" ">años</W>
+<W cur="34014" id="1081" segId="t1259087" space=" ">de</W>
+<W cur="34017" id="1082" segId="t1259087" space=" ">edad</W>
+<W cur="34021" id="1083" segId="t1259087">,</W>
+<W cur="34023" id="1084" segId="t1259087" space=" ">cuando</W>
+<W cur="34030" id="1085" segId="t1259087" space=" ">trataba</W>
+<W cur="34038" id="1086" segId="t1259087" space=" ">de</W>
+<W cur="34041" id="1087" segId="t1259087" space=" ">encontrar</W>
+<W cur="34051" id="1088" segId="t1259087" space=" ">piezas</W>
+<W cur="34058" id="1089" segId="t1259087" space=" ">de</W>
+<W cur="34061" id="1090" segId="t1259087" space=" ">recambio</W>
+<W cur="34070" id="1091" segId="t1259087" space=" ">para</W>
+<W cur="34075" id="1092" segId="t1259087" space=" ">construir</W>
+<W cur="34085" id="1093" segId="t1259087" space=" ">un</W>
+<W cur="34088" id="1094" segId="t1259087" space=" ">contador</W>
+<W cur="34097" id="1095" segId="t1259087" space=" ">de</W>
+<W cur="34100" id="1096" segId="t1259087" space=" ">frecuencias</W>
+<W cur="34111" id="1097" segId="t1259087">,</W>
+<W cur="34113" id="1098" segId="t1259087" space=" ">localizó</W>
+<W cur="34122" id="1099" segId="t1259087" space=" ">a</W>
+<W cur="34124" id="1100" segId="t1259087" space=" ">Bill</W>
+<W cur="34129" id="1101" segId="t1259087" space=" ">Hewlett</W>
+<W cur="34137" id="1102" segId="t1259087" space=" ">en</W>
+<W cur="34140" id="1103" segId="t1259087" space=" ">la</W>
+<W cur="34143" id="1104" segId="t1259087" space=" ">guía</W>
+<W cur="34148" id="1105" segId="t1259087" space=" ">telefónica</W>
+<W cur="34159" id="1106" segId="t1259087" space=" ">y</W>
+<W cur="34161" id="1107" segId="t1259087" space=" ">le</W>
+<W cur="34164" id="1108" segId="t1259087" space=" ">llamó</W>
+<W cur="34170" id="1109" segId="t1259087" space=" ">por</W>
+<W cur="34174" id="1110" segId="t1259087" space=" ">teléfono</W>
+<W cur="34182" id="1111" segId="t1259087">.</W>
+<W cur="35000" id="1112" segId="t1259088">Después</W>
+<W cur="35008" id="1113" segId="t1259088" space=" ">de</W>
+<W cur="35011" id="1114" segId="t1259088" space=" ">no</W>
+<W cur="35014" id="1115" segId="t1259088" space=" ">más</W>
+<W cur="35018" id="1116" segId="t1259088" space=" ">de</W>
+<W cur="35021" id="1117" segId="t1259088" space=" ">20</W>
+<W cur="35024" id="1118" segId="t1259088" space=" ">minutos</W>
+<W cur="35032" id="1119" segId="t1259088" space=" ">de</W>
+<W cur="35035" id="1120" segId="t1259088" space=" ">conversación</W>
+<W cur="35048" id="1121" segId="t1259088" space=" ">telefónica</W>
+<W cur="35058" id="1122" segId="t1259088">,</W>
+<W cur="35060" id="1123" segId="t1259088" space=" ">Jobs</W>
+<W cur="35065" id="1124" segId="t1259088" space=" ">había</W>
+<W cur="35071" id="1125" segId="t1259088" space=" ">conseguido</W>
+<W cur="35082" id="1126" segId="t1259088" space=" ">un</W>
+<W cur="35085" id="1127" segId="t1259088" space=" ">trabajo</W>
+<W cur="35093" id="1128" segId="t1259088" space=" ">a</W>
+<W cur="35095" id="1129" segId="t1259088" space=" ">tiempo</W>
+<W cur="35102" id="1130" segId="t1259088" space=" ">parcial</W>
+<W cur="35110" id="1131" segId="t1259088" space=" ">para</W>
+<W cur="35115" id="1132" segId="t1259088" space=" ">el</W>
+<W cur="35118" id="1133" segId="t1259088" space=" ">verano</W>
+<W cur="35125" id="1134" segId="t1259088" space=" ">en</W>
+<W cur="35128" id="1135" segId="t1259088" space=" ">Hewlett</W>
+<W cur="35135" id="1136" segId="t1259088">-</W>
+<W cur="35136" id="1137" segId="t1259088">Packard</W>
+<W cur="35143" id="1138" segId="t1259088">.</W>
+<W cur="36000" id="1139" segId="t1259089">"</W>
+<W cur="36001" id="1140" segId="t1259089">Esa</W>
+<W cur="36005" id="1141" segId="t1259089" space=" ">experiencia</W>
+<W cur="36017" id="1142" segId="t1259089" space=" ">tuvo</W>
+<W cur="36022" id="1143" segId="t1259089" space=" ">una</W>
+<W cur="36026" id="1144" segId="t1259089" space=" ">gran</W>
+<W cur="36031" id="1145" segId="t1259089" space=" ">influencia</W>
+<W cur="36042" id="1146" segId="t1259089" space=" ">en</W>
+<W cur="36045" id="1147" segId="t1259089" space=" ">mí</W>
+<W cur="36047" id="1148" segId="t1259089">,</W>
+<W cur="36049" id="1149" segId="t1259089" space=" ">era</W>
+<W cur="36053" id="1150" segId="t1259089" space=" ">la</W>
+<W cur="36056" id="1151" segId="t1259089" space=" ">única</W>
+<W cur="36062" id="1152" segId="t1259089" space=" ">empresa</W>
+<W cur="36070" id="1153" segId="t1259089" space=" ">que</W>
+<W cur="36074" id="1154" segId="t1259089" space=" ">había</W>
+<W cur="36080" id="1155" segId="t1259089" space=" ">visto</W>
+<W cur="36086" id="1156" segId="t1259089" space=" ">a</W>
+<W cur="36088" id="1157" segId="t1259089" space=" ">esa</W>
+<W cur="36092" id="1158" segId="t1259089" space=" ">edad</W>
+<W cur="36097" id="1159" segId="t1259089" space=" ">y</W>
+<W cur="36099" id="1160" segId="t1259089" space=" ">formó</W>
+<W cur="36105" id="1161" segId="t1259089" space=" ">mi</W>
+<W cur="36108" id="1162" segId="t1259089" space=" ">opinión</W>
+<W cur="36116" id="1163" segId="t1259089" space=" ">sobre</W>
+<W cur="36122" id="1164" segId="t1259089" space=" ">lo</W>
+<W cur="36125" id="1165" segId="t1259089" space=" ">que</W>
+<W cur="36129" id="1166" segId="t1259089" space=" ">era</W>
+<W cur="36133" id="1167" segId="t1259089" space=" ">una</W>
+<W cur="36137" id="1168" segId="t1259089" space=" ">compañía</W>
+<W cur="36146" id="1169" segId="t1259089" space=" ">y</W>
+<W cur="36148" id="1170" segId="t1259089" space=" ">lo</W>
+<W cur="36151" id="1171" segId="t1259089" space=" ">bien</W>
+<W cur="36156" id="1172" segId="t1259089" space=" ">que</W>
+<W cur="36160" id="1173" segId="t1259089" space=" ">trataba</W>
+<W cur="36168" id="1174" segId="t1259089" space=" ">a</W>
+<W cur="36170" id="1175" segId="t1259089" space=" ">sus</W>
+<W cur="36174" id="1176" segId="t1259089" space=" ">empleados</W>
+<W cur="36183" id="1177" segId="t1259089">.</W>
+<W cur="36184" id="1178" segId="t1259089">"</W>
+<W cur="37000" id="1179" segId="t1259090">Jobs</W>
+<W cur="37005" id="1180" segId="t1259090" space=" ">fue</W>
+<W cur="37008" id="1181" segId="t1259090">,</W>
+<W cur="37010" id="1182" segId="t1259090" space=" ">posteriormente</W>
+<W cur="37024" id="1183" segId="t1259090">,</W>
+<W cur="37026" id="1184" segId="t1259090" space=" ">uno</W>
+<W cur="37030" id="1185" segId="t1259090" space=" ">de</W>
+<W cur="37033" id="1186" segId="t1259090" space=" ">los</W>
+<W cur="37037" id="1187" segId="t1259090" space=" ">empleados</W>
+<W cur="37047" id="1188" segId="t1259090" space=" ">de</W>
+<W cur="37050" id="1189" segId="t1259090" space=" ">HP</W>
+<W cur="37053" id="1190" segId="t1259090" space=" ">que</W>
+<W cur="37057" id="1191" segId="t1259090" space=" ">visitaron</W>
+<W cur="37067" id="1192" segId="t1259090" space=" ">los</W>
+<W cur="37071" id="1193" segId="t1259090" space=" ">laboratorios</W>
+<W cur="37084" id="1194" segId="t1259090" space=" ">de</W>
+<W cur="37087" id="1195" segId="t1259090" space=" ">investigación</W>
+<W cur="37101" id="1196" segId="t1259090" space=" ">de</W>
+<W cur="37104" id="1197" segId="t1259090" space=" ">la</W>
+<W cur="37107" id="1198" segId="t1259090" space=" ">empresa</W>
+<W cur="37115" id="1199" segId="t1259090" space=" ">en</W>
+<W cur="37118" id="1200" segId="t1259090" space=" ">Palo</W>
+<W cur="37123" id="1201" segId="t1259090" space=" ">Alto</W>
+<W cur="37127" id="1202" segId="t1259090">,</W>
+<W cur="37129" id="1203" segId="t1259090" space=" ">donde</W>
+<W cur="37135" id="1204" segId="t1259090" space=" ">vio</W>
+<W cur="37139" id="1205" segId="t1259090">"</W>
+<W cur="37140" id="1206" segId="t1259090">el</W>
+<W cur="37143" id="1207" segId="t1259090" space=" ">primer</W>
+<W cur="37150" id="1208" segId="t1259090" space=" ">ordenador</W>
+<W cur="37160" id="1209" segId="t1259090" space=" ">de</W>
+<W cur="37163" id="1210" segId="t1259090" space=" ">sobremesa</W>
+<W cur="37173" id="1211" segId="t1259090" space=" ">que</W>
+<W cur="37177" id="1212" segId="t1259090" space=" ">se</W>
+<W cur="37180" id="1213" segId="t1259090" space=" ">fabricó</W>
+<W cur="37188" id="1214" segId="t1259090" space=" ">en</W>
+<W cur="37191" id="1215" segId="t1259090" space=" ">el</W>
+<W cur="37194" id="1216" segId="t1259090" space=" ">mundo</W>
+<W cur="37199" id="1217" segId="t1259090">"</W>
+<W cur="37200" id="1218" segId="t1259090">.</W>
+<W cur="38000" id="1219" segId="t1259091">Era</W>
+<W cur="38004" id="1220" segId="t1259091" space=" ">tan</W>
+<W cur="38008" id="1221" segId="t1259091" space=" ">grande</W>
+<W cur="38015" id="1222" segId="t1259091" space=" ">como</W>
+<W cur="38020" id="1223" segId="t1259091" space=" ">una</W>
+<W cur="38024" id="1224" segId="t1259091" space=" ">maleta</W>
+<W cur="38030" id="1225" segId="t1259091">,</W>
+<W cur="38032" id="1226" segId="t1259091" space=" ">tenía</W>
+<W cur="38038" id="1227" segId="t1259091" space=" ">una</W>
+<W cur="38042" id="1228" segId="t1259091" space=" ">pequeña</W>
+<W cur="38050" id="1229" segId="t1259091" space=" ">pantalla</W>
+<W cur="38059" id="1230" segId="t1259091" space=" ">con</W>
+<W cur="38063" id="1231" segId="t1259091" space=" ">tubo</W>
+<W cur="38068" id="1232" segId="t1259091" space=" ">de</W>
+<W cur="38071" id="1233" segId="t1259091" space=" ">rayos</W>
+<W cur="38077" id="1234" segId="t1259091" space=" ">catódicos</W>
+<W cur="38086" id="1235" segId="t1259091">,</W>
+<W cur="38088" id="1236" segId="t1259091" space=" ">y</W>
+<W cur="38090" id="1237" segId="t1259091" space=" ">me</W>
+<W cur="38093" id="1238" segId="t1259091" space=" ">enamoré</W>
+<W cur="38101" id="1239" segId="t1259091" space=" ">de</W>
+<W cur="38104" id="1240" segId="t1259091" space=" ">ella</W>
+<W cur="38108" id="1241" segId="t1259091">.</W>
+<W cur="39000" id="1242" segId="t1259092">Acudía</W>
+<W cur="39007" id="1243" segId="t1259092" space=" ">a</W>
+<W cur="39009" id="1244" segId="t1259092" space=" ">HP</W>
+<W cur="39012" id="1245" segId="t1259092" space=" ">como</W>
+<W cur="39017" id="1246" segId="t1259092" space=" ">un</W>
+<W cur="39020" id="1247" segId="t1259092" space=" ">adolescente</W>
+<W cur="39031" id="1248" segId="t1259092">,</W>
+<W cur="39033" id="1249" segId="t1259092" space=" ">rondaba</W>
+<W cur="39041" id="1250" segId="t1259092" space=" ">a</W>
+<W cur="39043" id="1251" segId="t1259092" space=" ">esa</W>
+<W cur="39047" id="1252" segId="t1259092" space=" ">máquina</W>
+<W cur="39055" id="1253" segId="t1259092" space=" ">y</W>
+<W cur="39057" id="1254" segId="t1259092" space=" ">escribía</W>
+<W cur="39066" id="1255" segId="t1259092" space=" ">programas</W>
+<W cur="39076" id="1256" segId="t1259092" space=" ">para</W>
+<W cur="39081" id="1257" segId="t1259092" space=" ">ella</W>
+<W cur="39085" id="1258" segId="t1259092">.</W>
+<W cur="40000" id="1259" segId="t1259093">Sobre</W>
+<W cur="40006" id="1260" segId="t1259093" space=" ">la</W>
+<W cur="40009" id="1261" segId="t1259093" space=" ">improvisación</W>
+<W cur="40023" id="1262" segId="t1259093" space=" ">de</W>
+<W cur="40026" id="1263" segId="t1259093" space=" ">la</W>
+<W cur="40029" id="1264" segId="t1259093" space=" ">innovación</W>
+<W cur="40039" id="1265" segId="t1259093">:</W>
+<W cur="41000" id="1266" segId="t1259094">En</W>
+<W cur="41003" id="1267" segId="t1259094" space=" ">varios</W>
+<W cur="41010" id="1268" segId="t1259094" space=" ">momentos</W>
+<W cur="41019" id="1269" segId="t1259094" space=" ">durante</W>
+<W cur="41027" id="1270" segId="t1259094" space=" ">la</W>
+<W cur="41030" id="1271" segId="t1259094" space=" ">entrevista</W>
+<W cur="41040" id="1272" segId="t1259094">,</W>
+<W cur="41042" id="1273" segId="t1259094" space=" ">Jobs</W>
+<W cur="41047" id="1274" segId="t1259094" space=" ">habla</W>
+<W cur="41053" id="1275" segId="t1259094" space=" ">sobre</W>
+<W cur="41059" id="1276" segId="t1259094" space=" ">como</W>
+<W cur="41064" id="1277" segId="t1259094" space=" ">se</W>
+<W cur="41067" id="1278" segId="t1259094" space=" ">inventan</W>
+<W cur="41076" id="1279" segId="t1259094" space=" ">nuevos</W>
+<W cur="41083" id="1280" segId="t1259094" space=" ">productos</W>
+<W cur="41093" id="1281" segId="t1259094" space=" ">sobre</W>
+<W cur="41099" id="1282" segId="t1259094" space=" ">la</W>
+<W cur="41102" id="1283" segId="t1259094" space=" ">marcha</W>
+<W cur="41108" id="1284" segId="t1259094">.</W>
+<W cur="42000" id="1285" segId="t1259095">Al</W>
+<W cur="42003" id="1286" segId="t1259095" space=" ">comienzo</W>
+<W cur="42012" id="1287" segId="t1259095" space=" ">de</W>
+<W cur="42015" id="1288" segId="t1259095" space=" ">su</W>
+<W cur="42018" id="1289" segId="t1259095" space=" ">carrera</W>
+<W cur="42026" id="1290" segId="t1259095" space=" ">profesional</W>
+<W cur="42037" id="1291" segId="t1259095">,</W>
+<W cur="42039" id="1292" segId="t1259095" space=" ">cuando</W>
+<W cur="42046" id="1293" segId="t1259095" space=" ">trabajaba</W>
+<W cur="42056" id="1294" segId="t1259095" space=" ">en</W>
+<W cur="42059" id="1295" segId="t1259095" space=" ">la</W>
+<W cur="42062" id="1296" segId="t1259095" space=" ">venta</W>
+<W cur="42068" id="1297" segId="t1259095" space=" ">de</W>
+<W cur="42071" id="1298" segId="t1259095" space=" ">una</W>
+<W cur="42075" id="1299" segId="t1259095" space=" ">serie</W>
+<W cur="42081" id="1300" segId="t1259095" space=" ">de</W>
+<W cur="42084" id="1301" segId="t1259095" space=" ">circuitos</W>
+<W cur="42094" id="1302" segId="t1259095" space=" ">impresos</W>
+<W cur="42102" id="1303" segId="t1259095">,</W>
+<W cur="42104" id="1304" segId="t1259095" space=" ">un</W>
+<W cur="42107" id="1305" segId="t1259095" space=" ">cliente</W>
+<W cur="42115" id="1306" segId="t1259095" space=" ">le</W>
+<W cur="42118" id="1307" segId="t1259095" space=" ">pidió</W>
+<W cur="42124" id="1308" segId="t1259095" space=" ">que</W>
+<W cur="42128" id="1309" segId="t1259095" space=" ">le</W>
+<W cur="42131" id="1310" segId="t1259095" space=" ">ensamblara</W>
+<W cur="42142" id="1311" segId="t1259095" space=" ">un</W>
+<W cur="42145" id="1312" segId="t1259095" space=" ">ordenador</W>
+<W cur="42155" id="1313" segId="t1259095" space=" ">completo</W>
+<W cur="42163" id="1314" segId="t1259095">.</W>
+<W cur="43000" id="1315" segId="t1259096">Trabajando</W>
+<W cur="43011" id="1316" segId="t1259096" space=" ">con</W>
+<W cur="43015" id="1317" segId="t1259096" space=" ">un</W>
+<W cur="43018" id="1318" segId="t1259096" space=" ">plazo</W>
+<W cur="43024" id="1319" segId="t1259096" space=" ">máximo</W>
+<W cur="43031" id="1320" segId="t1259096" space=" ">de</W>
+<W cur="43034" id="1321" segId="t1259096" space=" ">apenas</W>
+<W cur="43041" id="1322" segId="t1259096" space=" ">30</W>
+<W cur="43044" id="1323" segId="t1259096" space=" ">días</W>
+<W cur="43048" id="1324" segId="t1259096">,</W>
+<W cur="43050" id="1325" segId="t1259096" space=" ">tuvo</W>
+<W cur="43055" id="1326" segId="t1259096" space=" ">que</W>
+<W cur="43059" id="1327" segId="t1259096" space=" ">arreglárselas</W>
+<W cur="43073" id="1328" segId="t1259096" space=" ">para</W>
+<W cur="43078" id="1329" segId="t1259096" space=" ">realizar</W>
+<W cur="43087" id="1330" segId="t1259096" space=" ">el</W>
+<W cur="43090" id="1331" segId="t1259096" space=" ">montaje</W>
+<W cur="43098" id="1332" segId="t1259096" space=" ">y</W>
+<W cur="43100" id="1333" segId="t1259096" space=" ">la</W>
+<W cur="43103" id="1334" segId="t1259096" space=" ">entrega</W>
+<W cur="43111" id="1335" segId="t1259096" space=" ">de</W>
+<W cur="43114" id="1336" segId="t1259096" space=" ">las</W>
+<W cur="43118" id="1337" segId="t1259096" space=" ">unidades</W>
+<W cur="43127" id="1338" segId="t1259096" space=" ">terminadas</W>
+<W cur="43137" id="1339" segId="t1259096">.</W>
+<W cur="44000" id="1340" segId="t1259097">Más</W>
+<W cur="44004" id="1341" segId="t1259097" space=" ">adelante</W>
+<W cur="44012" id="1342" segId="t1259097">,</W>
+<W cur="44014" id="1343" segId="t1259097" space=" ">cuando</W>
+<W cur="44021" id="1344" segId="t1259097" space=" ">ya</W>
+<W cur="44024" id="1345" segId="t1259097" space=" ">estaba</W>
+<W cur="44031" id="1346" segId="t1259097" space=" ">en</W>
+<W cur="44034" id="1347" segId="t1259097" space=" ">Apple</W>
+<W cur="44039" id="1348" segId="t1259097">,</W>
+<W cur="44041" id="1349" segId="t1259097" space=" ">recuerda</W>
+<W cur="44050" id="1350" segId="t1259097" space=" ">las</W>
+<W cur="44054" id="1351" segId="t1259097" space=" ">luchas</W>
+<W cur="44061" id="1352" segId="t1259097" space=" ">que</W>
+<W cur="44065" id="1353" segId="t1259097" space=" ">tuvo</W>
+<W cur="44070" id="1354" segId="t1259097" space=" ">que</W>
+<W cur="44074" id="1355" segId="t1259097" space=" ">librar</W>
+<W cur="44081" id="1356" segId="t1259097" space=" ">para</W>
+<W cur="44086" id="1357" segId="t1259097" space=" ">desarrollar</W>
+<W cur="44098" id="1358" segId="t1259097" space=" ">un</W>
+<W cur="44101" id="1359" segId="t1259097" space=" ">ratón</W>
+<W cur="44107" id="1360" segId="t1259097" space=" ">de</W>
+<W cur="44110" id="1361" segId="t1259097" space=" ">ordenador</W>
+<W cur="44119" id="1362" segId="t1259097">:</W>
+<W cur="45000" id="1363" segId="t1259098">"</W>
+<W cur="45001" id="1364" segId="t1259098">Recuerdo</W>
+<W cur="45010" id="1365" segId="t1259098" space=" ">que</W>
+<W cur="45014" id="1366" segId="t1259098" space=" ">teníamos</W>
+<W cur="45023" id="1367" segId="t1259098" space=" ">discusiones</W>
+<W cur="45035" id="1368" segId="t1259098" space=" ">tremendas</W>
+<W cur="45044" id="1369" segId="t1259098">...</W>
+<W cur="45048" id="1370" segId="t1259098" space=" ">me</W>
+<W cur="45051" id="1371" segId="t1259098" space=" ">gritaban</W>
+<W cur="45060" id="1372" segId="t1259098" space=" ">que</W>
+<W cur="45064" id="1373" segId="t1259098" space=" ">tardarían</W>
+<W cur="45074" id="1374" segId="t1259098" space=" ">cinco</W>
+<W cur="45080" id="1375" segId="t1259098" space=" ">años</W>
+<W cur="45085" id="1376" segId="t1259098">[</W>
+<W cur="45086" id="1377" segId="t1259098">en</W>
+<W cur="45089" id="1378" segId="t1259098" space=" ">construir</W>
+<W cur="45099" id="1379" segId="t1259098" space=" ">un</W>
+<W cur="45102" id="1380" segId="t1259098" space=" ">ratón</W>
+<W cur="45108" id="1381" segId="t1259098" space=" ">que</W>
+<W cur="45112" id="1382" segId="t1259098" space=" ">costaría</W>
+<W cur="45121" id="1383" segId="t1259098" space=" ">300</W>
+<W cur="45125" id="1384" segId="t1259098" space=" ">dólares</W>
+<W cur="45132" id="1385" segId="t1259098">]</W>
+<W cur="45133" id="1386" segId="t1259098">,</W>
+<W cur="45135" id="1387" segId="t1259098" space=" ">así</W>
+<W cur="45139" id="1388" segId="t1259098" space=" ">que</W>
+<W cur="45143" id="1389" segId="t1259098" space=" ">terminé</W>
+<W cur="45151" id="1390" segId="t1259098" space=" ">cansándome</W>
+<W cur="45161" id="1391" segId="t1259098">,</W>
+<W cur="45163" id="1392" segId="t1259098" space=" ">salí</W>
+<W cur="45168" id="1393" segId="t1259098" space=" ">fuera</W>
+<W cur="45174" id="1394" segId="t1259098" space=" ">y</W>
+<W cur="45176" id="1395" segId="t1259098" space=" ">encontré</W>
+<W cur="45185" id="1396" segId="t1259098" space=" ">a</W>
+<W cur="45187" id="1397" segId="t1259098" space=" ">un</W>
+<W cur="45190" id="1398" segId="t1259098" space=" ">diseñador</W>
+<W cur="45199" id="1399" segId="t1259098">.</W>
+<W cur="45200" id="1400" segId="t1259098">"</W>
+<W cur="46000" id="1401" segId="t1259099">Noventa</W>
+<W cur="46008" id="1402" segId="t1259099" space=" ">días</W>
+<W cur="46013" id="1403" segId="t1259099" space=" ">después</W>
+<W cur="46020" id="1404" segId="t1259099">,</W>
+<W cur="46022" id="1405" segId="t1259099" space=" ">teníamos</W>
+<W cur="46031" id="1406" segId="t1259099" space=" ">un</W>
+<W cur="46034" id="1407" segId="t1259099" space=" ">ratón</W>
+<W cur="46040" id="1408" segId="t1259099" space=" ">que</W>
+<W cur="46044" id="1409" segId="t1259099" space=" ">podíamos</W>
+<W cur="46053" id="1410" segId="t1259099" space=" ">fabricar</W>
+<W cur="46062" id="1411" segId="t1259099" space=" ">por</W>
+<W cur="46066" id="1412" segId="t1259099" space=" ">15</W>
+<W cur="46069" id="1413" segId="t1259099" space=" ">dólares</W>
+<W cur="46077" id="1414" segId="t1259099" space=" ">y</W>
+<W cur="46079" id="1415" segId="t1259099" space=" ">que</W>
+<W cur="46083" id="1416" segId="t1259099" space=" ">funcionaba</W>
+<W cur="46094" id="1417" segId="t1259099" space=" ">con</W>
+<W cur="46098" id="1418" segId="t1259099" space=" ">una</W>
+<W cur="46102" id="1419" segId="t1259099" space=" ">precisión</W>
+<W cur="46112" id="1420" segId="t1259099" space=" ">increíble</W>
+<W cur="46121" id="1421" segId="t1259099">.</W>
+<W cur="47000" id="1422" segId="t1259100">Sobre</W>
+<W cur="47006" id="1423" segId="t1259100" space=" ">las</W>
+<W cur="47010" id="1424" segId="t1259100" space=" ">grandes</W>
+<W cur="47018" id="1425" segId="t1259100" space=" ">empresas</W>
+<W cur="47027" id="1426" segId="t1259100" space=" ">que</W>
+<W cur="47031" id="1427" segId="t1259100" space=" ">pierden</W>
+<W cur="47039" id="1428" segId="t1259100" space=" ">fuelle</W>
+<W cur="47045" id="1429" segId="t1259100">:</W>
+<W cur="48000" id="1430" segId="t1259101">Mucho</W>
+<W cur="48006" id="1431" segId="t1259101" space=" ">antes</W>
+<W cur="48012" id="1432" segId="t1259101" space=" ">de</W>
+<W cur="48015" id="1433" segId="t1259101" space=" ">que</W>
+<W cur="48019" id="1434" segId="t1259101" space=" ">dirigiera</W>
+<W cur="48029" id="1435" segId="t1259101" space=" ">la</W>
+<W cur="48032" id="1436" segId="t1259101" space=" ">recuperación</W>
+<W cur="48045" id="1437" segId="t1259101" space=" ">de</W>
+<W cur="48048" id="1438" segId="t1259101" space=" ">Apple</W>
+<W cur="48053" id="1439" segId="t1259101">,</W>
+<W cur="48055" id="1440" segId="t1259101" space=" ">Jobs</W>
+<W cur="48060" id="1441" segId="t1259101" space=" ">imaginó</W>
+<W cur="48068" id="1442" segId="t1259101" space=" ">proféticamente</W>
+<W cur="48083" id="1443" segId="t1259101" space=" ">los</W>
+<W cur="48087" id="1444" segId="t1259101" space=" ">motivos</W>
+<W cur="48095" id="1445" segId="t1259101" space=" ">por</W>
+<W cur="48099" id="1446" segId="t1259101" space=" ">los</W>
+<W cur="48103" id="1447" segId="t1259101" space=" ">que</W>
+<W cur="48107" id="1448" segId="t1259101" space=" ">tantos</W>
+<W cur="48114" id="1449" segId="t1259101" space=" ">líderes</W>
+<W cur="48122" id="1450" segId="t1259101" space=" ">del</W>
+<W cur="48126" id="1451" segId="t1259101" space=" ">sector</W>
+<W cur="48133" id="1452" segId="t1259101" space=" ">fracasarían</W>
+<W cur="48145" id="1453" segId="t1259101" space=" ">en</W>
+<W cur="48148" id="1454" segId="t1259101" space=" ">su</W>
+<W cur="48151" id="1455" segId="t1259101" space=" ">visión</W>
+<W cur="48158" id="1456" segId="t1259101" space=" ">y</W>
+<W cur="48160" id="1457" segId="t1259101" space=" ">perderían</W>
+<W cur="48170" id="1458" segId="t1259101" space=" ">control</W>
+<W cur="48178" id="1459" segId="t1259101" space=" ">de</W>
+<W cur="48181" id="1460" segId="t1259101" space=" ">su</W>
+<W cur="48184" id="1461" segId="t1259101" space=" ">cuota</W>
+<W cur="48190" id="1462" segId="t1259101" space=" ">de</W>
+<W cur="48193" id="1463" segId="t1259101" space=" ">mercado</W>
+<W cur="48200" id="1464" segId="t1259101">.</W>
+<W cur="49000" id="1465" segId="t1259102">"</W>
+<W cur="49001" id="1466" segId="t1259102">Pongamos</W>
+<W cur="49010" id="1467" segId="t1259102" space=" ">que</W>
+<W cur="49014" id="1468" segId="t1259102" space=" ">trabajas</W>
+<W cur="49023" id="1469" segId="t1259102" space=" ">en</W>
+<W cur="49026" id="1470" segId="t1259102" space=" ">IBM</W>
+<W cur="49030" id="1471" segId="t1259102" space=" ">o</W>
+<W cur="49032" id="1472" segId="t1259102" space=" ">Xerox</W>
+<W cur="49038" id="1473" segId="t1259102" space=" ">y</W>
+<W cur="49040" id="1474" segId="t1259102" space=" ">que</W>
+<W cur="49044" id="1475" segId="t1259102" space=" ">consigues</W>
+<W cur="49054" id="1476" segId="t1259102" space=" ">fabricar</W>
+<W cur="49063" id="1477" segId="t1259102" space=" ">una</W>
+<W cur="49067" id="1478" segId="t1259102" space=" ">fotocopiadora</W>
+<W cur="49081" id="1479" segId="t1259102" space=" ">o</W>
+<W cur="49083" id="1480" segId="t1259102" space=" ">una</W>
+<W cur="49087" id="1481" segId="t1259102" space=" ">impresora</W>
+<W cur="49097" id="1482" segId="t1259102" space=" ">mejor</W>
+<W cur="49102" id="1483" segId="t1259102">,</W>
+<W cur="49104" id="1484" segId="t1259102">¿</W>
+<W cur="49105" id="1485" segId="t1259102">y</W>
+<W cur="49107" id="1486" segId="t1259102" space=" ">qué</W>
+<W cur="49110" id="1487" segId="t1259102">?</W>
+<W cur="49111" id="1488" segId="t1259102">"</W>
+<W cur="50000" id="1489" segId="t1259103">Ya</W>
+<W cur="50003" id="1490" segId="t1259103" space=" ">tienes</W>
+<W cur="50010" id="1491" segId="t1259103" space=" ">el</W>
+<W cur="50013" id="1492" segId="t1259103" space=" ">monopolio</W>
+<W cur="50023" id="1493" segId="t1259103" space=" ">de</W>
+<W cur="50026" id="1494" segId="t1259103" space=" ">la</W>
+<W cur="50029" id="1495" segId="t1259103" space=" ">cuota</W>
+<W cur="50035" id="1496" segId="t1259103" space=" ">de</W>
+<W cur="50038" id="1497" segId="t1259103" space=" ">mercado</W>
+<W cur="50045" id="1498" segId="t1259103">,</W>
+<W cur="50047" id="1499" segId="t1259103" space=" ">así</W>
+<W cur="50051" id="1500" segId="t1259103" space=" ">que</W>
+<W cur="50055" id="1501" segId="t1259103" space=" ">la</W>
+<W cur="50058" id="1502" segId="t1259103" space=" ">empresa</W>
+<W cur="50066" id="1503" segId="t1259103" space=" ">no</W>
+<W cur="50069" id="1504" segId="t1259103" space=" ">va</W>
+<W cur="50072" id="1505" segId="t1259103" space=" ">a</W>
+<W cur="50074" id="1506" segId="t1259103" space=" ">tener</W>
+<W cur="50080" id="1507" segId="t1259103" space=" ">más</W>
+<W cur="50084" id="1508" segId="t1259103" space=" ">éxito</W>
+<W cur="50090" id="1509" segId="t1259103" space=" ">por</W>
+<W cur="50094" id="1510" segId="t1259103" space=" ">eso</W>
+<W cur="50097" id="1511" segId="t1259103">.</W>
+<W cur="51000" id="1512" segId="t1259104">Los</W>
+<W cur="51004" id="1513" segId="t1259104" space=" ">profesionales</W>
+<W cur="51018" id="1514" segId="t1259104" space=" ">de</W>
+<W cur="51021" id="1515" segId="t1259104" space=" ">ventas</W>
+<W cur="51028" id="1516" segId="t1259104" space=" ">y</W>
+<W cur="51030" id="1517" segId="t1259104" space=" ">marketing</W>
+<W cur="51040" id="1518" segId="t1259104" space=" ">sí</W>
+<W cur="51043" id="1519" segId="t1259104" space=" ">que</W>
+<W cur="51047" id="1520" segId="t1259104" space=" ">pueden</W>
+<W cur="51054" id="1521" segId="t1259104" space=" ">hacer</W>
+<W cur="51060" id="1522" segId="t1259104" space=" ">que</W>
+<W cur="51064" id="1523" segId="t1259104" space=" ">tenga</W>
+<W cur="51070" id="1524" segId="t1259104" space=" ">más</W>
+<W cur="51074" id="1525" segId="t1259104" space=" ">éxito</W>
+<W cur="51079" id="1526" segId="t1259104">,</W>
+<W cur="51081" id="1527" segId="t1259104" space=" ">así</W>
+<W cur="51085" id="1528" segId="t1259104" space=" ">que</W>
+<W cur="51089" id="1529" segId="t1259104" space=" ">son</W>
+<W cur="51093" id="1530" segId="t1259104" space=" ">ellos</W>
+<W cur="51099" id="1531" segId="t1259104">[</W>
+<W cur="51100" id="1532" segId="t1259104">ese</W>
+<W cur="51104" id="1533" segId="t1259104" space=" ">perfil</W>
+<W cur="51111" id="1534" segId="t1259104" space=" ">de</W>
+<W cur="51114" id="1535" segId="t1259104" space=" ">personas</W>
+<W cur="51122" id="1536" segId="t1259104">]</W>
+<W cur="51124" id="1537" segId="t1259104" space=" ">los</W>
+<W cur="51128" id="1538" segId="t1259104" space=" ">que</W>
+<W cur="51132" id="1539" segId="t1259104" space=" ">terminan</W>
+<W cur="51141" id="1540" segId="t1259104" space=" ">dirigiendo</W>
+<W cur="51152" id="1541" segId="t1259104" space=" ">las</W>
+<W cur="51156" id="1542" segId="t1259104" space=" ">empresas</W>
+<W cur="51165" id="1543" segId="t1259104" space=" ">y</W>
+<W cur="51167" id="1544" segId="t1259104" space=" ">decidiendo</W>
+<W cur="51178" id="1545" segId="t1259104" space=" ">los</W>
+<W cur="51182" id="1546" segId="t1259104" space=" ">productos</W>
+<W cur="51192" id="1547" segId="t1259104" space=" ">por</W>
+<W cur="51196" id="1548" segId="t1259104" space=" ">lo</W>
+<W cur="51199" id="1549" segId="t1259104" space=" ">que</W>
+<W cur="51203" id="1550" segId="t1259104" space=" ">apostarán</W>
+<W cur="51212" id="1551" segId="t1259104">.</W>
+<W cur="52000" id="1552" segId="t1259105">El</W>
+<W cur="52003" id="1553" segId="t1259105" space=" ">genio</W>
+<W cur="52009" id="1554" segId="t1259105" space=" ">en</W>
+<W cur="52012" id="1555" segId="t1259105" space=" ">desarrollo</W>
+<W cur="52023" id="1556" segId="t1259105" space=" ">de</W>
+<W cur="52026" id="1557" segId="t1259105" space=" ">productos</W>
+<W cur="52036" id="1558" segId="t1259105" space=" ">que</W>
+<W cur="52040" id="1559" segId="t1259105" space=" ">ha</W>
+<W cur="52043" id="1560" segId="t1259105" space=" ">conseguido</W>
+<W cur="52054" id="1561" segId="t1259105" space=" ">esa</W>
+<W cur="52058" id="1562" segId="t1259105" space=" ">posición</W>
+<W cur="52067" id="1563" segId="t1259105" space=" ">monopolista</W>
+<W cur="52079" id="1564" segId="t1259105" space=" ">es</W>
+<W cur="52082" id="1565" segId="t1259105" space=" ">desbancado</W>
+<W cur="52093" id="1566" segId="t1259105" space=" ">por</W>
+<W cur="52097" id="1567" segId="t1259105" space=" ">personas</W>
+<W cur="52106" id="1568" segId="t1259105" space=" ">que</W>
+<W cur="52110" id="1569" segId="t1259105" space=" ">no</W>
+<W cur="52113" id="1570" segId="t1259105" space=" ">tienen</W>
+<W cur="52120" id="1571" segId="t1259105" space=" ">ninguna</W>
+<W cur="52128" id="1572" segId="t1259105" space=" ">concepción</W>
+<W cur="52139" id="1573" segId="t1259105" space=" ">de</W>
+<W cur="52142" id="1574" segId="t1259105" space=" ">lo</W>
+<W cur="52145" id="1575" segId="t1259105" space=" ">que</W>
+<W cur="52149" id="1576" segId="t1259105" space=" ">son</W>
+<W cur="52153" id="1577" segId="t1259105" space=" ">productos</W>
+<W cur="52163" id="1578" segId="t1259105" space=" ">buenos</W>
+<W cur="52170" id="1579" segId="t1259105" space=" ">frente</W>
+<W cur="52177" id="1580" segId="t1259105" space=" ">a</W>
+<W cur="52179" id="1581" segId="t1259105" space=" ">productos</W>
+<W cur="52189" id="1582" segId="t1259105" space=" ">malos</W>
+<W cur="52195" id="1583" segId="t1259105">-</W>
+<W cur="52197" id="1584" segId="t1259105" space=" ">los</W>
+<W cur="52201" id="1585" segId="t1259105" space=" ">artesanos</W>
+<W cur="52211" id="1586" segId="t1259105" space=" ">necesarios</W>
+<W cur="52221" id="1587" segId="t1259105">.</W>
+<W cur="53000" id="1588" segId="t1259106">Eso</W>
+<W cur="53004" id="1589" segId="t1259106" space=" ">es</W>
+<W cur="53007" id="1590" segId="t1259106" space=" ">lo</W>
+<W cur="53010" id="1591" segId="t1259106" space=" ">que</W>
+<W cur="53014" id="1592" segId="t1259106" space=" ">sucedió</W>
+<W cur="53022" id="1593" segId="t1259106" space=" ">en</W>
+<W cur="53025" id="1594" segId="t1259106" space=" ">Xerox</W>
+<W cur="53030" id="1595" segId="t1259106">...</W>
+<W cur="54000" id="1596" segId="t1259107">Xerox</W>
+<W cur="54006" id="1597" segId="t1259107" space=" ">podría</W>
+<W cur="54013" id="1598" segId="t1259107" space=" ">haberse</W>
+<W cur="54021" id="1599" segId="t1259107" space=" ">hecho</W>
+<W cur="54027" id="1600" segId="t1259107" space=" ">con</W>
+<W cur="54031" id="1601" segId="t1259107" space=" ">todo</W>
+<W cur="54036" id="1602" segId="t1259107" space=" ">el</W>
+<W cur="54039" id="1603" segId="t1259107" space=" ">sector</W>
+<W cur="54046" id="1604" segId="t1259107" space=" ">informático</W>
+<W cur="54057" id="1605" segId="t1259107">.</W>
+<W cur="55000" id="1606" segId="t1259108">Podría</W>
+<W cur="55007" id="1607" segId="t1259108" space=" ">haber</W>
+<W cur="55013" id="1608" segId="t1259108" space=" ">tenido</W>
+<W cur="55020" id="1609" segId="t1259108" space=" ">un</W>
+<W cur="55023" id="1610" segId="t1259108" space=" ">tamaño</W>
+<W cur="55030" id="1611" segId="t1259108" space=" ">diez</W>
+<W cur="55035" id="1612" segId="t1259108" space=" ">veces</W>
+<W cur="55041" id="1613" segId="t1259108" space=" ">mayor</W>
+<W cur="55046" id="1614" segId="t1259108">,</W>
+<W cur="55048" id="1615" segId="t1259108" space=" ">podría</W>
+<W cur="55055" id="1616" segId="t1259108" space=" ">haber</W>
+<W cur="55061" id="1617" segId="t1259108" space=" ">sido</W>
+<W cur="55066" id="1618" segId="t1259108" space=" ">el</W>
+<W cur="55069" id="1619" segId="t1259108" space=" ">Microsoft</W>
+<W cur="55079" id="1620" segId="t1259108" space=" ">de</W>
+<W cur="55082" id="1621" segId="t1259108" space=" ">los</W>
+<W cur="55086" id="1622" segId="t1259108" space=" ">años</W>
+<W cur="55091" id="1623" segId="t1259108" space=" ">noventa</W>
+<W cur="55098" id="1624" segId="t1259108">...</W>
+<W cur="56000" id="1625" segId="t1259109">Le</W>
+<W cur="56003" id="1626" segId="t1259109" space=" ">arrebataron</W>
+<W cur="56015" id="1627" segId="t1259109" space=" ">la</W>
+<W cur="56018" id="1628" segId="t1259109" space=" ">derrota</W>
+<W cur="56026" id="1629" segId="t1259109" space=" ">a</W>
+<W cur="56028" id="1630" segId="t1259109" space=" ">la</W>
+<W cur="56031" id="1631" segId="t1259109" space=" ">victoria</W>
+<W cur="56039" id="1632" segId="t1259109">.</W>
+<W cur="57000" id="1633" segId="t1259110">Sobre</W>
+<W cur="57006" id="1634" segId="t1259110" space=" ">la</W>
+<W cur="57009" id="1635" segId="t1259110" space=" ">innovación</W>
+<W cur="57020" id="1636" segId="t1259110" space=" ">como</W>
+<W cur="57025" id="1637" segId="t1259110" space=" ">una</W>
+<W cur="57029" id="1638" segId="t1259110" space=" ">forma</W>
+<W cur="57035" id="1639" segId="t1259110" space=" ">de</W>
+<W cur="57038" id="1640" segId="t1259110" space=" ">arte</W>
+<W cur="57042" id="1641" segId="t1259110">:</W>
+<W cur="58000" id="1642" segId="t1259111">"</W>
+<W cur="58001" id="1643" segId="t1259111">Hay</W>
+<W cur="58005" id="1644" segId="t1259111" space=" ">que</W>
+<W cur="58009" id="1645" segId="t1259111" space=" ">hacer</W>
+<W cur="58015" id="1646" segId="t1259111" space=" ">mucho</W>
+<W cur="58021" id="1647" segId="t1259111" space=" ">trabajo</W>
+<W cur="58029" id="1648" segId="t1259111" space=" ">de</W>
+<W cur="58032" id="1649" segId="t1259111" space=" ">artesanía</W>
+<W cur="58042" id="1650" segId="t1259111" space=" ">para</W>
+<W cur="58047" id="1651" segId="t1259111" space=" ">pasar</W>
+<W cur="58053" id="1652" segId="t1259111" space=" ">de</W>
+<W cur="58056" id="1653" segId="t1259111" space=" ">una</W>
+<W cur="58060" id="1654" segId="t1259111" space=" ">gran</W>
+<W cur="58065" id="1655" segId="t1259111" space=" ">idea</W>
+<W cur="58070" id="1656" segId="t1259111" space=" ">a</W>
+<W cur="58072" id="1657" segId="t1259111" space=" ">un</W>
+<W cur="58074" id="1658" segId="t1259111">&amp;</W>
+<W cur="58075" id="1659" segId="t1259111">amp</W>
+<W cur="58078" id="1660" segId="t1259111">;</W>
+<W cur="58079" id="1661" segId="t1259111">nbsp</W>
+<W cur="58083" id="1662" segId="t1259111">;</W>
+<W cur="58085" id="1663" segId="t1259111" space=" ">gran</W>
+<W cur="58090" id="1664" segId="t1259111" space=" ">producto</W>
+<W cur="58098" id="1665" segId="t1259111">...</W>
+<W cur="58101" id="1666" segId="t1259111">a</W>
+<W cur="58103" id="1667" segId="t1259111" space=" ">medida</W>
+<W cur="58110" id="1668" segId="t1259111" space=" ">que</W>
+<W cur="58114" id="1669" segId="t1259111" space=" ">se</W>
+<W cur="58117" id="1670" segId="t1259111" space=" ">desarrolla</W>
+<W cur="58128" id="1671" segId="t1259111" space=" ">esa</W>
+<W cur="58132" id="1672" segId="t1259111" space=" ">gran</W>
+<W cur="58137" id="1673" segId="t1259111" space=" ">idea</W>
+<W cur="58141" id="1674" segId="t1259111">,</W>
+<W cur="58143" id="1675" segId="t1259111" space=" ">va</W>
+<W cur="58146" id="1676" segId="t1259111" space=" ">cambiando</W>
+<W cur="58156" id="1677" segId="t1259111" space=" ">y</W>
+<W cur="58158" id="1678" segId="t1259111" space=" ">creciendo</W>
+<W cur="58167" id="1679" segId="t1259111">.</W>
+<W cur="58168" id="1680" segId="t1259111">"</W>
+<W cur="59000" id="1681" segId="t1259112">Se</W>
+<W cur="59003" id="1682" segId="t1259112" space=" ">aprende</W>
+<W cur="59011" id="1683" segId="t1259112" space=" ">mucho</W>
+<W cur="59017" id="1684" segId="t1259112" space=" ">sobre</W>
+<W cur="59023" id="1685" segId="t1259112" space=" ">los</W>
+<W cur="59027" id="1686" segId="t1259112" space=" ">ligeros</W>
+<W cur="59035" id="1687" segId="t1259112" space=" ">matices</W>
+<W cur="59043" id="1688" segId="t1259112" space=" ">que</W>
+<W cur="59047" id="1689" segId="t1259112" space=" ">se</W>
+<W cur="59050" id="1690" segId="t1259112" space=" ">esconden</W>
+<W cur="59059" id="1691" segId="t1259112" space=" ">en</W>
+<W cur="59062" id="1692" segId="t1259112" space=" ">ella</W>
+<W cur="59066" id="1693" segId="t1259112">.</W>
+<W cur="60000" id="1694" segId="t1259113">Tienes</W>
+<W cur="60007" id="1695" segId="t1259113" space=" ">que</W>
+<W cur="60011" id="1696" segId="t1259113" space=" ">hacer</W>
+<W cur="60017" id="1697" segId="t1259113" space=" ">algunas</W>
+<W cur="60025" id="1698" segId="t1259113" space=" ">concesiones</W>
+<W cur="60037" id="1699" segId="t1259113">-</W>
+<W cur="60039" id="1700" segId="t1259113" space=" ">hay</W>
+<W cur="60043" id="1701" segId="t1259113" space=" ">cosas</W>
+<W cur="60049" id="1702" segId="t1259113" space=" ">que</W>
+<W cur="60053" id="1703" segId="t1259113" space=" ">no</W>
+<W cur="60056" id="1704" segId="t1259113" space=" ">puedes</W>
+<W cur="60063" id="1705" segId="t1259113" space=" ">obligar</W>
+<W cur="60071" id="1706" segId="t1259113" space=" ">a</W>
+<W cur="60073" id="1707" segId="t1259113" space=" ">hacer</W>
+<W cur="60079" id="1708" segId="t1259113" space=" ">a</W>
+<W cur="60081" id="1709" segId="t1259113" space=" ">los</W>
+<W cur="60085" id="1710" segId="t1259113" space=" ">electrones</W>
+<W cur="60095" id="1711" segId="t1259113">,</W>
+<W cur="60097" id="1712" segId="t1259113" space=" ">al</W>
+<W cur="60100" id="1713" segId="t1259113" space=" ">cristal</W>
+<W cur="60107" id="1714" segId="t1259113">,</W>
+<W cur="60109" id="1715" segId="t1259113" space=" ">a</W>
+<W cur="60111" id="1716" segId="t1259113" space=" ">los</W>
+<W cur="60115" id="1717" segId="t1259113" space=" ">robots</W>
+<W cur="60121" id="1718" segId="t1259113">,</W>
+<W cur="60123" id="1719" segId="t1259113" space=" ">a</W>
+<W cur="60125" id="1720" segId="t1259113" space=" ">las</W>
+<W cur="60129" id="1721" segId="t1259113" space=" ">fábricas</W>
+<W cur="60137" id="1722" segId="t1259113">.</W>
+<W cur="61000" id="1723" segId="t1259114">Tienes</W>
+<W cur="61007" id="1724" segId="t1259114" space=" ">que</W>
+<W cur="61011" id="1725" segId="t1259114" space=" ">guardar</W>
+<W cur="61019" id="1726" segId="t1259114" space=" ">5.000</W>
+<W cur="61025" id="1727" segId="t1259114" space=" ">piezas</W>
+<W cur="61032" id="1728" segId="t1259114" space=" ">en</W>
+<W cur="61035" id="1729" segId="t1259114" space=" ">el</W>
+<W cur="61038" id="1730" segId="t1259114" space=" ">cerebro</W>
+<W cur="61046" id="1731" segId="t1259114">-</W>
+<W cur="61048" id="1732" segId="t1259114" space=" ">esos</W>
+<W cur="61053" id="1733" segId="t1259114" space=" ">conceptos</W>
+<W cur="61063" id="1734" segId="t1259114">-</W>
+<W cur="61065" id="1735" segId="t1259114" space=" ">para</W>
+<W cur="61070" id="1736" segId="t1259114" space=" ">luego</W>
+<W cur="61076" id="1737" segId="t1259114" space=" ">hacer</W>
+<W cur="61082" id="1738" segId="t1259114" space=" ">que</W>
+<W cur="61086" id="1739" segId="t1259114" space=" ">encajen</W>
+<W cur="61094" id="1740" segId="t1259114" space=" ">todas</W>
+<W cur="61100" id="1741" segId="t1259114" space=" ">ellas</W>
+<W cur="61105" id="1742" segId="t1259114">...</W>
+<W cur="62000" id="1743" segId="t1259115">Al</W>
+<W cur="62003" id="1744" segId="t1259115" space=" ">final</W>
+<W cur="62009" id="1745" segId="t1259115" space=" ">se</W>
+<W cur="62012" id="1746" segId="t1259115" space=" ">trata</W>
+<W cur="62018" id="1747" segId="t1259115" space=" ">de</W>
+<W cur="62021" id="1748" segId="t1259115" space=" ">una</W>
+<W cur="62025" id="1749" segId="t1259115" space=" ">cuestión</W>
+<W cur="62034" id="1750" segId="t1259115" space=" ">de</W>
+<W cur="62037" id="1751" segId="t1259115" space=" ">gustos</W>
+<W cur="62044" id="1752" segId="t1259115">-</W>
+<W cur="62046" id="1753" segId="t1259115" space=" ">consiste</W>
+<W cur="62055" id="1754" segId="t1259115" space=" ">en</W>
+<W cur="62058" id="1755" segId="t1259115" space=" ">tratar</W>
+<W cur="62065" id="1756" segId="t1259115" space=" ">de</W>
+<W cur="62068" id="1757" segId="t1259115" space=" ">exponerse</W>
+<W cur="62078" id="1758" segId="t1259115" space=" ">uno</W>
+<W cur="62082" id="1759" segId="t1259115" space=" ">mismo</W>
+<W cur="62088" id="1760" segId="t1259115" space=" ">a</W>
+<W cur="62090" id="1761" segId="t1259115" space=" ">las</W>
+<W cur="62094" id="1762" segId="t1259115" space=" ">mejores</W>
+<W cur="62102" id="1763" segId="t1259115" space=" ">cosas</W>
+<W cur="62108" id="1764" segId="t1259115" space=" ">que</W>
+<W cur="62112" id="1765" segId="t1259115" space=" ">se</W>
+<W cur="62115" id="1766" segId="t1259115" space=" ">ha</W>
+<W cur="62118" id="1767" segId="t1259115" space=" ">hecho</W>
+<W cur="62124" id="1768" segId="t1259115" space=" ">la</W>
+<W cur="62127" id="1769" segId="t1259115" space=" ">Humanidad</W>
+<W cur="62136" id="1770" segId="t1259115">,</W>
+<W cur="62138" id="1771" segId="t1259115" space=" ">para</W>
+<W cur="62143" id="1772" segId="t1259115" space=" ">luego</W>
+<W cur="62149" id="1773" segId="t1259115" space=" ">tratar</W>
+<W cur="62156" id="1774" segId="t1259115" space=" ">de</W>
+<W cur="62159" id="1775" segId="t1259115" space=" ">incorporarlas</W>
+<W cur="62173" id="1776" segId="t1259115" space=" ">a</W>
+<W cur="62175" id="1777" segId="t1259115" space=" ">lo</W>
+<W cur="62178" id="1778" segId="t1259115" space=" ">que</W>
+<W cur="62182" id="1779" segId="t1259115" space=" ">uno</W>
+<W cur="62186" id="1780" segId="t1259115" space=" ">esté</W>
+<W cur="62191" id="1781" segId="t1259115" space=" ">haciendo</W>
+<W cur="62199" id="1782" segId="t1259115">.</W>
+<W cur="63000" id="1783" segId="t1259116">Picasso</W>
+<W cur="63008" id="1784" segId="t1259116" space=" ">dijo</W>
+<W cur="63013" id="1785" segId="t1259116" space=" ">una</W>
+<W cur="63017" id="1786" segId="t1259116" space=" ">vez</W>
+<W cur="63021" id="1787" segId="t1259116" space=" ">que</W>
+<W cur="63025" id="1788" segId="t1259116" space=" ">los</W>
+<W cur="63029" id="1789" segId="t1259116" space=" ">buenos</W>
+<W cur="63036" id="1790" segId="t1259116" space=" ">artistas</W>
+<W cur="63045" id="1791" segId="t1259116" space=" ">copian</W>
+<W cur="63051" id="1792" segId="t1259116">,</W>
+<W cur="63053" id="1793" segId="t1259116" space=" ">los</W>
+<W cur="63057" id="1794" segId="t1259116" space=" ">grandes</W>
+<W cur="63065" id="1795" segId="t1259116" space=" ">artistas</W>
+<W cur="63074" id="1796" segId="t1259116" space=" ">roban</W>
+<W cur="63079" id="1797" segId="t1259116">.</W>
+<W cur="64000" id="1798" segId="t1259117">Siempre</W>
+<W cur="64008" id="1799" segId="t1259117" space=" ">nos</W>
+<W cur="64012" id="1800" segId="t1259117" space=" ">avergonzamos</W>
+<W cur="64025" id="1801" segId="t1259117" space=" ">de</W>
+<W cur="64028" id="1802" segId="t1259117" space=" ">robar</W>
+<W cur="64034" id="1803" segId="t1259117" space=" ">las</W>
+<W cur="64038" id="1804" segId="t1259117" space=" ">grandes</W>
+<W cur="64046" id="1805" segId="t1259117" space=" ">ideas</W>
+<W cur="64051" id="1806" segId="t1259117">.</W>
+<W cur="65000" id="1807" segId="t1259118">Eso</W>
+<W cur="65004" id="1808" segId="t1259118" space=" ">es</W>
+<W cur="65007" id="1809" segId="t1259118" space=" ">en</W>
+<W cur="65010" id="1810" segId="t1259118" space=" ">parte</W>
+<W cur="65016" id="1811" segId="t1259118" space=" ">lo</W>
+<W cur="65019" id="1812" segId="t1259118" space=" ">que</W>
+<W cur="65023" id="1813" segId="t1259118" space=" ">hizo</W>
+<W cur="65028" id="1814" segId="t1259118" space=" ">grande</W>
+<W cur="65035" id="1815" segId="t1259118" space=" ">a</W>
+<W cur="65037" id="1816" segId="t1259118" space=" ">Macintosh</W>
+<W cur="65046" id="1817" segId="t1259118">,</W>
+<W cur="65048" id="1818" segId="t1259118" space=" ">que</W>
+<W cur="65052" id="1819" segId="t1259118" space=" ">las</W>
+<W cur="65056" id="1820" segId="t1259118" space=" ">personas</W>
+<W cur="65065" id="1821" segId="t1259118" space=" ">que</W>
+<W cur="65069" id="1822" segId="t1259118" space=" ">trabajaron</W>
+<W cur="65080" id="1823" segId="t1259118" space=" ">en</W>
+<W cur="65083" id="1824" segId="t1259118" space=" ">él</W>
+<W cur="65086" id="1825" segId="t1259118" space=" ">fueron</W>
+<W cur="65093" id="1826" segId="t1259118" space=" ">médicos</W>
+<W cur="65100" id="1827" segId="t1259118">,</W>
+<W cur="65102" id="1828" segId="t1259118" space=" ">poetas</W>
+<W cur="65108" id="1829" segId="t1259118">,</W>
+<W cur="65110" id="1830" segId="t1259118" space=" ">artistas</W>
+<W cur="65118" id="1831" segId="t1259118">,</W>
+<W cur="65120" id="1832" segId="t1259118" space=" ">zoólogos</W>
+<W cur="65128" id="1833" segId="t1259118">,</W>
+<W cur="65130" id="1834" segId="t1259118" space=" ">historiadores</W>
+<W cur="65144" id="1835" segId="t1259118" space=" ">que</W>
+<W cur="65148" id="1836" segId="t1259118" space=" ">luego</W>
+<W cur="65154" id="1837" segId="t1259118" space=" ">resultaron</W>
+<W cur="65165" id="1838" segId="t1259118" space=" ">ser</W>
+<W cur="65169" id="1839" segId="t1259118" space=" ">los</W>
+<W cur="65173" id="1840" segId="t1259118" space=" ">mejores</W>
+<W cur="65181" id="1841" segId="t1259118" space=" ">científicos</W>
+<W cur="65193" id="1842" segId="t1259118" space=" ">informáticos</W>
+<W cur="65206" id="1843" segId="t1259118" space=" ">del</W>
+<W cur="65210" id="1844" segId="t1259118" space=" ">mundo</W>
+<W cur="65215" id="1845" segId="t1259118">.</W>
+<W cur="66000" id="1846" segId="t1259119">Si</W>
+<W cur="66003" id="1847" segId="t1259119" space=" ">no</W>
+<W cur="66006" id="1848" segId="t1259119" space=" ">se</W>
+<W cur="66009" id="1849" segId="t1259119" space=" ">hubieran</W>
+<W cur="66018" id="1850" segId="t1259119" space=" ">dedicado</W>
+<W cur="66027" id="1851" segId="t1259119" space=" ">a</W>
+<W cur="66029" id="1852" segId="t1259119" space=" ">la</W>
+<W cur="66032" id="1853" segId="t1259119" space=" ">informática</W>
+<W cur="66043" id="1854" segId="t1259119">,</W>
+<W cur="66045" id="1855" segId="t1259119" space=" ">estarían</W>
+<W cur="66054" id="1856" segId="t1259119" space=" ">haciendo</W>
+<W cur="66063" id="1857" segId="t1259119" space=" ">cosas</W>
+<W cur="66069" id="1858" segId="t1259119" space=" ">sorprendentes</W>
+<W cur="66083" id="1859" segId="t1259119" space=" ">en</W>
+<W cur="66086" id="1860" segId="t1259119" space=" ">otros</W>
+<W cur="66092" id="1861" segId="t1259119" space=" ">campos</W>
+<W cur="66098" id="1862" segId="t1259119">.</W>
 </Text>
