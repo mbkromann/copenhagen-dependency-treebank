@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$1" == "" ] || [ "$2" == "" ] || [$3 == "" ]; then
+if [ "$1" == "" ] || [ "$2" == "" ] || [ "$3" == "" ]; then
   echo "$0 Path source target "
   exit
 fi

@@ -30,7 +30,6 @@ InsertLangPair($opt_T, $opt_s, $opt_t);
 
 exit;
 
-
 sub InsertLangPair {
   my ($fn, $s, $t) = @_;
 
@@ -41,6 +40,7 @@ sub InsertLangPair {
 
   printf STDERR "Reading: $fn\n";
 
+  my $languageExists = 0;
 ## read alignment file
   while(defined($_ = <F>)) {
 
@@ -48,9 +48,10 @@ sub InsertLangPair {
       chomp;
       if(not /source=\"$s\"/) { print STDERR "Warning  switching $_\tto\tsource=\"$s\" \n"; }
       if(not /target=\"$t\"/) { print STDERR "Warning  switching $_\tto\ttarget=\"$t\" \n"; }
-      next;
+      $languageExists = 1;
+      #next;
     } 
-    if(/<Plugins/) { print STDOUT "    <Languages source=\"$s\" target=\"$t\" />\n";}
+    if(!$languageExists && /<Plugins/) { print STDOUT "    <Languages source=\"$s\" target=\"$t\" />\n";}
     print STDOUT $_;
   }
   close(F);

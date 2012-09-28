@@ -3,17 +3,19 @@
 use strict;
 use Getopt::Long;
 use Encode;
+use FindBin qw($Bin);
 
 binmode(STDERR, ":utf8");
 binmode(STDOUT, ":utf8");
 
 my $directory;
-my $useAdditionalData;
+my $srcLang;
+my $trgLang;
 my $keepPipe;
 my $help;
 
-my $hunalign = "/srv/tools/hunalign-1.1/src/hunalign/hunalign -utf -realign -text";
-#my $hunalign = "/srv/tools/hunalign-1.1/src/hunalign/hunalign -utf -text";
+#my $hunalign = "/srv/tools/hunalign-1.1/src/hunalign/hunalign -utf -realign -text";
+my $hunalign = "/srv/tools/hunalign-1.1/src/hunalign/hunalign -utf -text";
 # dictionary format: one entry per line, possibly multi word entries, "src-entry @ trg-entry"
 my $hunalignDictionary = "/srv/tools/hunalign-1.1/data/null.dic";
 my $moses = "/srv/tools/moses/scripts/training/train-factored-phrase-model.perl --alignment grow-diag-final-and --parallel --last-step 3";
@@ -22,7 +24,8 @@ if (
     ! &GetOptions(
          'd=s' => \$directory,
          'dict=s' => \$hunalignDictionary,
-         'add!' => \$useAdditionalData,
+         's=s' => \$srcLang,
+         't=s' => \$trgLang,
          'keepPipe!' => \$keepPipe,
          'h!' => \$help)
     ||
@@ -31,22 +34,14 @@ if (
     print "\nusage: $0 
        -d    <path-to-directory> (required) - directory containing files to be aligned
        -dict <dictionary> - possible hunalign dictionary to be used in sentence alignment
-       -add  include additional data (sentence aligned files called additional.{SourceTok,FinalTok} in directory)
+       -s    <language> - source language
+       -t    <language> - target language
        -h    help\n\n";
     exit(1);
 }
 
 die "directory does not exist: $directory" unless -d $directory;
 die "hunalign dictionary does not exist: $hunalignDictionary" unless -e $hunalignDictionary;
-
-if($useAdditionalData){
-    die "additional data switched on, but additional.{SourceTok,FinalTok} files do not exist in directory or empty" unless -s "$directory/additional.SourceTok" && -s "$directory/additional.FinalTok";
-    my $wcSrc = `wc -l $directory/additional.SourceTok`;
-    my $wcTrg = `wc -l $directory/additional.FinalTok`;
-    $wcSrc =~ s/^\s*(\d+).+\s*/$1/; 
-    $wcTrg =~ s/^\s*(\d+).+\s*/$1/; 
-    die "additional data not sentence aligned!!! Not same number of lines in files." if $wcSrc != $wcTrg;
-}
 
 $directory =~ s/\/$//;
 
@@ -155,8 +150,9 @@ sub sentenceAlign(){
 
 	close(A);
 
-	print S $str1;
-	print T $str2;
+	# align on lower case
+	print S lc($str1);
+	print T lc($str2);
 	print R $alignStr;
 	
     }
@@ -164,12 +160,26 @@ sub sentenceAlign(){
     close(T);
     close(R);
 
-    # append additional data to sentence aligned files
-    if($useAdditionalData){
-	system("cat $directory/additional.SourceTok >> $srcSentAlignFile");
-	system("cat $directory/additional.FinalTok >> $trgSentAlignFile");
+    # append additional data to sentence aligned files if they exist
+    if(defined $srcLang && defined $trgLang){
+	my $additionalDataDir = "$Bin/additional-parallel-data/$srcLang-$trgLang";
+	unless(-d $additionalDataDir){
+	    $additionalDataDir = "$Bin/additional-parallel-data/$trgLang-$srcLang";
+	}
+	if(-d $additionalDataDir){
+	    die "additional data directory found ($additionalDataDir) but it does not contain expected files $srcLang or $trgLang or they are empty" unless -s "$additionalDataDir/$srcLang" && -s "$additionalDataDir/$trgLang";
+	    my $wcSrc = `wc -l $additionalDataDir/$srcLang`;
+	    my $wcTrg = `wc -l $additionalDataDir/$trgLang`;
+	    $wcSrc =~ s/^\s*(\d+).+\s*/$1/; 
+	    $wcTrg =~ s/^\s*(\d+).+\s*/$1/; 
+	    die "additional data not sentence aligned!!! Not same number of lines in files." if $wcSrc != $wcTrg;
+	    system("cat $additionalDataDir/$srcLang >> $srcSentAlignFile");
+	    system("cat $additionalDataDir/$trgLang >> $trgSentAlignFile");
+	}
+	else{
+	    print STDERR "No additional parallel data was found for languages $srcLang and $trgLang";
+	}
     }
-
 }
 
 sub checkPair(){

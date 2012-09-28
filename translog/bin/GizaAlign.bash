@@ -29,7 +29,7 @@ do
 
 done
 
-./GizaAlign.pl -d data/Giza  
+./GizaAlign.pl -d data/Giza -s $1 -t $2
 
 cat data/Giza/$1-$2.sent | ./Giza2Atag.pl 
 
