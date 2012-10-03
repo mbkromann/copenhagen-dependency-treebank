@@ -5,8 +5,9 @@ if [ "$1" == "" ] || [ "$2" == "" ]; then
   exit
 fi
 
-STUDY="ACS08 BD08 BML12 JLG10 KTHJ08 LWB09 MS12 NJ12 SG12 TPR11"
+STUDY="ACS08 BD08 CFT12 HF12 BML12 JLG10 KTHJ08 LWB09 MS12 NJ12 RH12 SG12 TPR11"
 
+CASMACAT=1
 
 ## copy translog and Alignment data from TPR-DB to data subfolder
 function CopyData()
@@ -58,11 +59,16 @@ function MergeEvents2Trl()
           continue
         fi
 
-        echo "MergeAtag2Trl -T $file -A $atag -O $outp.Atag.xml"
+        echo "MergeAtagTrl.pl -T $file -A $atag -O $outp.Atag.xml"
         ./MergeAtagTrl.pl -T $file -A $atag -O "$outp.Atag.xml"
 
-        echo "FixMod2Trl   -T "$outp.Atag.xml" -O $outp.Event.xml"
-        ./FixMod2Trl.pl -T "$outp.Atag.xml" -O  "$outp.Event.xml"
+        if [ $CASMACAT == 0 ] ; then
+           echo "FixMod2Trl.pl   -T "$outp.Atag.xml" -O $outp.Event.xml"
+           ./FixMod2Trl.pl -T "$outp.Atag.xml" -O  "$outp.Event.xml";
+        else
+           echo "FixMod2Trl2.pl  -T "$outp.Atag.xml" -O $outp.Event.xml"
+           ./FixMod2Trl2.pl -T "$outp.Atag.xml" -O  "$outp.Event.xml";
+        fi
 
         rm -f $outp.Atag.xml
 
@@ -82,14 +88,14 @@ function Trl2TokenTables ()
         tabs=${root/Events/Tables}
 
         if [ $file -ot "$tabs.st" ]; then 
-#          echo "skipped $file"
+          echo "skipped $file"
           continue
         fi
 
         echo "Token Tables -T $file -O $tabs.{st,tt,fd,kd,pu,fu,au}"
         ./Trl2ProgGraphTables.pl -T $file -O $tabs
-        ./Trl2TargetTokenTables.pl -T $file > $tabs.tt
-        ./Trl2TargetAUTables.pl -T $file > $tabs.au
+#        ./Trl2TargetTokenTables.pl -T $file > $tabs.tt
+#        ./Trl2TargetAUTables.pl -T $file > $tabs.au
 
     done    
 }
@@ -238,6 +244,7 @@ function TextMap ()
 
 AllTexts="Text01 Text02 Text03 Text08 Text04 Text05 Text06 Text07 Text09 Text10 Text11 Text12 Text13 Text14 Text15 Text16 Text17 Text18 Text19 Text20"
 
+if [ "$3" == "casmacat" ]; then CASMACAT=1; fi
 
 ## clean workspace (data folder)
 if [ "$1" == "clean" ]; then
@@ -272,7 +279,7 @@ elif [ "$1" == "make" ]; then
     done
     exit;
 
-## convert Events to treex
+## copy data into workoíng space 
 elif [ "$1" == "copy" ]; then  
     if [ "$2" == "all" ]; then STUDY=$STUDY
     else STUDY=$2;
@@ -291,6 +298,17 @@ elif [ "$1" == "treex" ]; then
     for study in $STUDY ; do ToSingleTreex $study; done
 
     exit;
+
+## make Event files
+elif [ "$1" == "event" ]; then
+    if [ "$2" == "all" ]; then STUDY=$STUDY
+    else STUDY=$2;
+    fi
+
+    for study in $STUDY ; do MergeEvents2Trl $study; done
+
+    exit;
+
 
 ## produce Tables  
 elif [ "$1" == "tables" ]; then

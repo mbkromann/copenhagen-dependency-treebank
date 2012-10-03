@@ -37,10 +37,22 @@ getopts ('T:O:p:k:v:h');
 die $usage if defined($opt_h);
 
 my $SRC = undef;
+my $TGT = undef;
 my $KEY = undef;
 my $FIX = undef;
+my $ALN = undef;
 my $FU = undef;
 my $PU = undef;
+my $AU = undef;
+my $SourceLang = '';
+my $TargetLang = '';
+my $Text = '';
+my $Task = '';
+my $Part = '';
+my $SessionDuration = 0;
+my $DraftingStart = 0;
+my $DraftingEnd = 0;
+
 my $Verbose = 0;
         
 if (defined($opt_v)) {$Verbose = $opt_v;}
@@ -54,15 +66,43 @@ if (defined($opt_T) && defined($opt_O)) {
     print STDERR "Trl2ProgGraphTables.pl WARNING: no process data in $opt_T\n";
     exit;
   }
+
+  if($SourceLang eq '' || $TargetLang eq '') { 
+    print STDERR "ERROR $opt_T no language specified\n";
+    exit;
+  }
+
+  my ($study,$rec) = $opt_T =~ /.*\/([^\/]*)\/Events\/([^.]*)\.Event.xml/;
+#print STDERR "XXX $study $rec\n";
+ 
+  ($Part, $Task, $Text) = $rec =~/([^_]*)_([A-Z]*)([0-9]*)/;
+  $Text = $study."-".$Text;
+  $Part = $study."-".$Part;
+  SessionInfo();
+
+  if(defined($ALN)) { 
+    MakeAlignUnits();
+    AlignmentUnits('au');
+    CrossingAlignmentUnits();
+  }
   if(!defined($FU)) { FixationUnits();}
   if(!defined($PU)) { ProductionUnits();}
-  Parallel();
+  TargetTokenUnits();
+  CrossingTargetToken();
+
+  MakeSourceUnits();
+  AlignmentUnits('st');
+
+  CrossingSourceToken();
+  ParallelActivity();
 
   PrintFU("$opt_O.fu");
   PrintPU("$opt_O.pu");
   PrintFD("$opt_O.fd");
   PrintKD("$opt_O.kd");
   PrintST("$opt_O.st");
+  PrintAU("$opt_O.au");
+  PrintTT("$opt_O.tt");
   exit;
 }
 
@@ -107,11 +147,6 @@ sub Rescape {
   my ($in) = @_;
 
   $in =~ s/([ \t\n\r\f\#])/_/g;
-# Hack  R does not understand unicode: all -> .
-#  $in =~ s/([^a-zA-Z0-9 '"_.;:|!@#$%^&*()+=\\|}{\[\]-])/./g;
-#  $in =~ s/(.)/ToUniCode($1)/ego;
-
-#  $in =~ s/([^\p{IsAlnum} '"_.;:|!@#$%^&*()+=\\|}{\[\]-])/./g;
   $in =~ s/(['"])/\\$1/g;
   return $in;
 }
@@ -123,26 +158,41 @@ sub Rescape {
 ## SourceText Positions
 sub ReadTranslog {
   my ($fn) = @_;
-  my ($type, $time, $cur);
+  my ($type, $time, $id);
 
   my $n = 0;
 
-#  open(FILE, $fn) || die ("cannot open file $fn");
   open(FILE, '<:encoding(utf8)', $fn) || die ("cannot open file $fn");
 
   $type = 0;
   while(defined($_ = <FILE>)) {
 #printf STDERR "Translog: %s\n",  $_;
 
-    if(/<SourceToken/)     {$type = 1; }
+    if(/<System / && /Value="STOP"/) {
+      if(/Time="([^"]*)"/) {$SessionDuration = $1; }
+    }
+    if(/<Language/i) {
+      if(/source="([^"]*)"/i) {$SourceLang = $1; }
+      if(/target="([^"]*)"/i) {$TargetLang = $1; }
+    }
+
+    elsif(/<SourceToken/)  {$type = 1; }
     elsif(/<Fixations/)    {$type = 2; }
     elsif(/<Modifications/){$type = 3; }
+    elsif(/<Alignment/)    {$type = 4; }
+    elsif(/<FinalToken/)   {$type = 6; }
 	
     if($type == 1 && /<Token/) {
-      if(/cur="([0-9][0-9]*)"/) {$cur =$1;}
-      if(/tok="([^"]*)"/)   {$SRC->{$cur}{tok} = Rescape(MSunescape($1));}
-      if(/space="([^"]*)"/) {$SRC->{$cur}{space} = Rescape(MSunescape($1));}
-      if(/ id="([^"]*)"/)    {$SRC->{$cur}{id} = $1;}
+      if(/ id="([^"]*)"/)   {$id = $1;}
+      if(/cur="([^"]*)"/)   {$SRC->{$id}{cur} = $id;}
+      if(/tok="([^"]*)"/)   {$SRC->{$id}{tok} = Rescape(MSunescape($1));}
+      if(/space="([^"]*)"/) {$SRC->{$id}{space} = Rescape(MSunescape($1));}
+    }
+    if($type == 6 && /<Token/) {
+      if(/ id="([0-9][0-9]*)"/) {$id =$1;}
+      if(/tok="([^"]*)"/)   {$TGT->{$id}{tok} = Rescape(MSunescape($1));}
+      if(/space="([^"]*)"/) {$TGT->{$id}{space} = Rescape(MSunescape($1));}
+      if(/cur="([^"]*)"/)    {$TGT->{$id}{cur} = $1;}
     }
     elsif($type == 2 && /<Fix /) {
 #printf STDERR "Translog: %s",  $_;
@@ -160,7 +210,7 @@ sub ReadTranslog {
     elsif($type == 3 && /<Mod /) {
       if(/time="([0-9][0-9]*)"/) {$time =$1;}
       if(/cur="([0-9][0-9]*)"/)  {$KEY->{$time}{'cur'} = $1;}
-      if(/chr="([^"]*)"/)        {$KEY->{$time}{'char'} = Rescape(Rescape(MSunescape($1)));}
+      if(/chr="([^"]*)"/)        {$KEY->{$time}{'char'} = Rescape(MSunescape($1));}
       if(/type="([^"]*)"/)       {$KEY->{$time}{'type'} = $1;}
       if(/tid="([^"]*)"/)        {$KEY->{$time}{'tid'} = $1;}
       if(/sid="([^"]*)"/)        {$KEY->{$time}{'sid'} = $1;}
@@ -168,7 +218,14 @@ sub ReadTranslog {
       if($KEY->{$time}{'tid'} eq '') {$KEY->{$time}{'tid'} = -1;}
       $n += 2;
     }
-#    <PU start="10685" dur="7049" pause="2719" parallel="69.1587" ins="34" del="0" src="3+4" tgt="1+3+4" str="Mordersygeplejerske&nbsp;modtager&nbsp;fire&nbsp;" />
+
+    if($type == 4 && /<Align /) {
+      my $tid;
+      if(/sid="([^"]*)"/) {$id =$1;}
+      if(/tid="([^"]*)"/) {$tid=$1;}
+      $ALN->{sid}{$id}{id}{$tid} = 1;
+      $ALN->{tid}{$tid}{id}{$id} = 1;
+    }
 
     if(/<\/SourceToken>/)  {$type = 0; }
     if(/<\/Fixations>/)    {$type = 0; }
@@ -178,6 +235,23 @@ sub ReadTranslog {
   return $n;
 }
 
+
+#################################################
+# Orientation, Drafting Revision
+#################################################
+
+sub SessionInfo {
+
+  my $tid = 0;
+  foreach my $t (sort  {$a <=> $b} keys %{$KEY}) {
+    if($DraftingStart <= 0) {$DraftingStart = $t;}
+    if($KEY->{$t}{'tid'} > $tid) {$tid=$KEY->{$t}{'tid'}; $DraftingEnd = $t;}
+#printf STDERR "AAA1: %s %s %s\n", $SessionDuration, $DraftingStart, $DraftingEnd;
+} }
+
+
+#################################################
+# UNITS 
 #################################################
 ##### FIXATION UNITS 
 
@@ -226,7 +300,7 @@ sub ProductionUnits {
   my $end = 0;
   my $win = 0;
   my $type = 'ins';
-  my ($str, $ins, $del, $SRC, $TGT);
+  my ($str, $ins, $del, $SRCbuf, $TGTbuf);
 
   foreach my $t (sort  {$a <=> $b} keys %{$KEY}) {
 
@@ -237,9 +311,9 @@ sub ProductionUnits {
       my $src = "";
       my $tgt = "";
       my $n =0;
-      foreach my $s (sort  {$a <=> $b} keys %{$SRC}) { if($n++>0) {$src .= "+";} $src .= "$s"; }
+      foreach my $s (sort  {$a <=> $b} keys %{$SRCbuf}) { if($n++>0) {$src .= "+";} $src .= "$s"; }
       $n =0;
-      foreach my $s (sort  {$a <=> $b} keys %{$TGT}) { if($n++>0) {$tgt .= "+";} $tgt .= "$s"; }
+      foreach my $s (sort  {$a <=> $b} keys %{$TGTbuf}) { if($n++>0) {$tgt .= "+";} $tgt .= "$s"; }
       $PU->{$start}{str} =$str;
       $PU->{$start}{pause} =$t - $end;
       $PU->{$start}{dur} =$end - $start;
@@ -249,15 +323,15 @@ sub ProductionUnits {
       $PU->{$start}{sid} =$src;
       $start = 0;
     }
-    if($start == 0) {$start=$t; $ins=0; $del=0; $str = '';  $SRC={}; $TGT={};}
+    if($start == 0) {$start=$t; $ins=0; $del=0; $str = '';  $SRCbuf={}; $TGTbuf={};}
 
     if($KEY->{$t}{type} eq 'ins') {$ins ++;}
     if($KEY->{$t}{type} eq 'del') {$del ++;}
     if($type ne $KEY->{$t}{type} && $KEY->{$t}{type} eq 'del') {  $str .= '[';}
     $str .= $KEY->{$t}{char};
 
-    if(defined($KEY->{$t}{'tid'})) { foreach my $i (split(/\+/, $KEY->{$t}{'tid'})) {$TGT->{$i}++; } }
-    if(defined($KEY->{$t}{'sid'})) { foreach my $i (split(/\+/, $KEY->{$t}{'sid'})) {$SRC->{$i}++; } }
+    if(defined($KEY->{$t}{'tid'})) { foreach my $i (split(/\+/, $KEY->{$t}{'tid'})) {$TGTbuf->{$i}++; } }
+    if(defined($KEY->{$t}{'sid'})) { foreach my $i (split(/\+/, $KEY->{$t}{'sid'})) {$SRCbuf->{$i}++; } }
     $type = $KEY->{$t}{type};
     $end = $t;
   }
@@ -265,9 +339,9 @@ sub ProductionUnits {
   my $src = "";
   my $tgt = "";
   my $n =0;
-  foreach my $s (sort  {$a <=> $b} keys %{$SRC}) { if($n++>0) {$src .= "+";} $src .= "$s"; }
+  foreach my $s (sort  {$a <=> $b} keys %{$SRCbuf}) { if($n++>0) {$src .= "+";} $src .= "$s"; }
   $n =0;
-  foreach my $s (sort  {$a <=> $b} keys %{$TGT}) { if($n++>0) {$tgt .= "+";} $tgt .= "$s"; }
+  foreach my $s (sort  {$a <=> $b} keys %{$TGTbuf}) { if($n++>0) {$tgt .= "+";} $tgt .= "$s"; }
   $PU->{$start}{str} =$str;
   $PU->{$start}{pause} = 0;
   $PU->{$start}{dur} =$end - $start;
@@ -277,81 +351,446 @@ sub ProductionUnits {
   $PU->{$start}{del} =$del;
 }
 
-sub Parallel {
+
+### Mapping von TargetToken ID nach AU ID
+my  $Tid2AU = {};
+my  $Tid2Sid = {};
+
+sub MakeAlignUnits {
+
+  if(!defined($ALN)) { return 0;}
+
+  my $au = 0;
+  foreach my $tid (sort  {$a <=> $b} keys %{$ALN->{tid}}) {
+    if(defined($ALN->{tid}{$tid}{visited})) {next;}
+    $ALN->{tid}{$tid}{visited}=$au;
+
+    foreach my $sid (sort {$a <=> $b} keys %{$ALN->{tid}{$tid}{id}}) {
+      if(defined($SRC->{$sid}{visited})) {next;}
+      $SRC->{$sid}{visited} = $au;
+
+      if(defined($AU->{$au}{ss}) && $AU->{$au}{ss} ne '') {$AU->{$au}{ss} .= '_';}
+      $AU->{$au}{ss} .= $SRC->{$sid}{tok};
+      $AU->{$au}{sid}{$sid} ++;
+
+      foreach my $tid2 (sort {$a <=> $b} keys %{$ALN->{sid}{$sid}{id}}) {
+        if(defined($TGT->{$tid2}{visited})) {next;}
+        $TGT->{$tid2}{visited} = $au;
+
+        if(defined($AU->{$au}{ts}) && $AU->{$au}{ts} ne '') {$AU->{$au}{ts} .= '_';}
+#print STDERR "TTTT: $tid2 $au\n";
+
+        $AU->{$au}{ts} .= $TGT->{$tid2}{tok};
+        $AU->{$au}{tid}{$tid2} ++;
+      }
+    }
+    $au +=100;
+  }
+
+## unaligned TGT Token
+  $au = 0;
+  foreach my $tid (sort  {$a <=> $b} keys %{$TGT}) {
+#print STDERR "TTTT: $tid $au\n";
+#d($TGT->{$tid});
+    if(defined($TGT->{$tid}{visited})) { $au = $TGT->{$tid}{visited}; }
+    else {
+      while(defined($AU->{$au})) { $au++;}
+  #print STDERR "WARNING: too many AU gaps $au\n"; next;}
+      $AU->{$au}{ts} = $TGT->{$tid}{tok};
+      $AU->{$au}{ss} = "---";
+      $AU->{$au}{tid}{$tid} =1;
+      $AU->{$au}{sid}{-1} = 1;
+    }
+    $Tid2AU->{$tid} = $au;
+  }
+
+  return 1;
+}
+
+sub MakeSourceUnits {
+
+  if(!defined($ALN)) { return 0;}
+
+  foreach my $sid (sort  {$a <=> $b} keys %{$SRC}) {
+    if(defined($ALN->{sid}{$sid})) {
+      my $str = '';
+      foreach my $tid (sort  {$a <=> $b} keys %{$ALN->{sid}{$sid}{id}}) {
+
+        $SRC->{$sid}{tid}{$tid} ++;
+        $Tid2Sid->{$tid} = $sid;
+        if($str ne '') {$str .= '_';}
+        $str .= $TGT->{$tid}{tok};
+      }
+      $SRC->{$sid}{ttok} = $str;
+    }
+  }
+}
+
+sub UnitFeatures {
+  my ($U, $start, $end, $last, $ins, $del, $len, $str) = @_;
+
+  if(!defined($U->{time1}) || $U->{time1} == 0) {
+    $U->{time1} = $start;
+    $U->{dur1} = $end - $start;
+    $U->{pause1} = $start - $last;
+    $U->{unit1} = $str;
+    $U->{time2} = 0;
+  }
+  elsif(!defined($U->{time2}) || $U->{time2} == 0) {
+    $U->{time2} = $start;
+    $U->{dur2} = $end - $start;
+    $U->{pause2} = $start - $last;
+    $U->{unit2} = $str;
+  }
+  push(@{$U->{start}}, $start);
+  push(@{$U->{end}}, $end);
+  push(@{$U->{last}}, $last);
+  push(@{$U->{unit}}, $str);
+
+  $U->{dur} += $end - $start;
+  $U->{pause} += $start - $last;
+  $U->{ins} += $ins;
+  $U->{del} += $del;
+  $U->{len} += $len;
+  $U->{str} .= $str;
+}
+
+sub AlignmentUnits {
+  my ($U) = @_;
+
+  my ($ins, $del, $len, $start, $end, $last, $u, $last_u) = 0;
+  $ins=$del=$len=$start=$end=$last=$u=$last_u = 0;
+  my $str = '';
+  my $type = 'ins';
+
+  foreach my $t (sort  {$a <=> $b} keys %{$KEY}) {
+#d($KEY->{$t});
+    my $tid = $KEY->{$t}{tid};
+    if($U eq 'au') {$u=$Tid2AU->{$tid};}
+    elsif(defined($Tid2Sid->{$tid})) {$u=$Tid2Sid->{$tid};}
+    else {$u = undef;}
+
+# printf STDERR "AlignmentUnits Tok:$tid\t$TGT->{$tid}{tok}\t$u:$AU->{$u}{ts}\tkey:$KEY->{$t}{char}\t$start\n";
+# if($u == 400) {printf STDERR "AlignmentUnits $u $AU->{$u}{ts} $start\n";}
+
+    if(!defined($u) || !defined($last_u) ||  ($start > 0 && $u != $last_u)) {
+#printf STDERR "AAAAA2 $start \n";
+
+      if($type eq 'del') {$str .= ']';}
+
+      if(defined($last_u)) {
+        if($U eq 'au') {UnitFeatures($AU->{$last_u}, $start, $end, $last, $ins, $del, $len, $str);}
+        else { UnitFeatures($SRC->{$last_u}, $start, $end, $last, $ins, $del, $len, $str);}
+      }
+
+      $ins=0; $del=0; $len=0;
+      $last = $end;
+      $start = $t;
+      $str = '';
+      $type='ins';
+    }
+
+    if($KEY->{$t}{type} eq 'ins') {
+      if($type ne 'ins') {$str .= ']';}
+      $ins++;
+    }
+    else {
+      if($type ne 'del') {$str .= '[';}
+      $del++;
+    }
+    $str .= $KEY->{$t}{char};
+    $len++;
+
+    if($start == 0) { $start = $t; }
+    $end = $t;
+    $last_u = $u;
+    $type =$KEY->{$t}{type};
+  }
+  if($type eq 'del') {$str .= ']';}
+
+  if(defined($last_u)) {
+    if($U eq 'au') {UnitFeatures($AU->{$last_u}, $start, $end, $last, $ins, $del, $len, $str);}
+    else { UnitFeatures($SRC->{$last_u}, $start, $end, $last, $ins, $del, $len, $str);}
+  }
+}
+
+#################################################
+
+sub TargetTokenUnits {
+
+  my ($ins, $del, $len, $start, $end, $last, $id) = 0;
+  $ins=$del=$len=$start=$end=$last=$id = 0;
+  my $str = '';
+  my $type = 'ins';
+
+  foreach my $t (sort  {$a <=> $b} keys %{$KEY}) {
+#printf STDERR "AAAAA\n";
+#d($KEY->{$t});
+
+    if($start > 0 && $KEY->{$t}{tid} != $id) {
+      if($type eq 'del') {$str .= ']';}
+      UnitFeatures($TGT->{$id}, $start, $end, $last, $ins, $del, $len, $str);
+
+      $ins=0; $del=0; $len=0;
+      $last = $end;
+      $start = $t;
+      $str = '';
+      $type='ins';
+    }
+
+    if($KEY->{$t}{type} eq 'ins') {
+      if($type ne 'ins') {$str .= ']';}
+      $ins++;
+    }
+    else {
+      if($type ne 'del') {$str .= '[';}
+      $del++;
+    }
+    $str .= $KEY->{$t}{char};
+    $len++;
+
+    if($start == 0) { $start = $t; }
+    $end = $t;
+    $id = $KEY->{$t}{tid};
+    $type =$KEY->{$t}{type};
+  }
+  if($type eq 'del') {$str .= ']';}
+  UnitFeatures($TGT->{$id}, $start, $end, $last, $ins, $del, $len, $str);
+}
+
+
+##################################################
+#  Crossing Reading/writing activity
+##################################################
+
+sub CrossingSourceToken {
+
+  if(!defined($ALN)) {return;}
+
+  my $lastTid = -1;
+  my $lastSid = 0;
+  my $tid = 0;
+  foreach my $sid (sort {$a<=>$b} keys %{$SRC}) {
+#    $sid=$lastSid;
+    if($lastSid == -1) {
+      if(defined($ALN->{sid}{$sid})) {
+        foreach my $id (keys %{$ALN->{sid}{$sid}{id}}) {
+          if(abs($id-$lastTid) > abs($tid-$lastTid)) { $tid = $id;}
+#          printf STDERR "AAA1: tid:$tid id:$id sid:$sid\n";
+      } }
+      $SRC->{$sid}{cross} = $tid - $lastTid;
+#      printf STDERR "CrossingTargetToken: lastTid:$tid lastSid:$lastSid\tdiff:%s\n", $sid-$lastSid;
+    }
+
+    else {
+      if(defined($ALN->{sid}{$sid})) {
+        foreach my $id (keys %{$ALN->{sid}{$sid}{id}}) {
+          if(abs($id-$lastTid) > abs($tid-$lastTid)) { $tid = $id;}
+#          printf STDERR "AAA2: tid:$tid id:$id sid:$sid\n";
+      } }
+#      else { printf STDERR "NOO2 tid:$tid\n";}
+      $SRC->{$sid}{cross} = $tid - $lastTid;
+#      printf STDERR "CrossingTargetToken: lastTid:$tid lastSid:$lastSid\tdiff:%s\n", $sid-$lastSid;
+    }
+
+    $lastSid = $sid;
+    $lastTid = $tid;
+
+  }
+}
+
+sub CrossingTargetToken {
+
+  if(!defined($ALN)) {return;}
+
+  my $lastTid = -1;
+  my $lastSid = 0;
+  my $sid = 0;
+  foreach my $tid (sort {$a<=>$b} keys %{$TGT}) {
+#    $sid=$lastSid;
+    if($lastTid == -1) {
+      if(defined($ALN->{tid}{$tid})) {
+        foreach my $id (keys %{$ALN->{tid}{$tid}{id}}) {
+          if(abs($id-$lastSid) > abs($sid-$lastSid)) { $sid = $id;}
+#          printf STDERR "AAA1: tid:$tid id:$id sid:$sid\n";
+      } } 
+      $TGT->{$tid}{cross} = $sid - $lastSid;
+#      printf STDERR "CrossingTargetToken: lastTid:$tid lastSid:$lastSid\tdiff:%s\n", $sid-$lastSid;
+    }
+
+    else {
+      if(defined($ALN->{tid}{$tid})) {
+        foreach my $id (keys %{$ALN->{tid}{$tid}{id}}) {
+          if(abs($id-$lastSid) > abs($sid-$lastSid)) { $sid = $id;}
+#          printf STDERR "AAA2: tid:$tid id:$id sid:$sid\n";
+      } } 
+#      else { printf STDERR "NOO2 tid:$tid\n";}
+      $TGT->{$tid}{cross} = $sid - $lastSid;
+#      printf STDERR "CrossingTargetToken: lastTid:$tid lastSid:$lastSid\tdiff:%s\n", $sid-$lastSid;
+    }
+
+    $lastTid = $tid;
+    $lastSid = $sid;
+
+  }
+}
+
+sub CrossingAlignmentUnits {
+
+  if(!defined($ALN)) {return;}
+
+  my $lastTid = -1;
+  my $lastSid = 0;
+  my ($smin, $smax, $tmin, $tmax);
+  foreach my $au (sort {$a<=>$b} keys %{$AU}) {
+    $smin=$tmin=10000;
+    $smax=$tmax=0;
+    if($lastTid == -1) {
+      foreach my $tid (sort {$a<=>$b} keys %{$AU->{$au}{tid}}) {
+        if($tmax < $tid) { $tmax = $tid;}
+        if($tmin > $tid) { $tmin = $tid;}
+        if(defined($ALN->{tid}{$tid})) {
+          foreach my $id (keys %{$ALN->{tid}{$tid}{id}}) {
+            if($smax < $id) { $smax = $id;}
+            if($smin > $id) { $smin = $id;}
+#            if(abs($id-$lastSid) > abs($sid-$lastSid)) { $sid = $id;}
+#            printf STDERR "AAA1: tid:$tid\tsmin:$smin, smax:$smax, tmin:$tmin tmax:$tmax\n";
+        } } 
+        else { 
+          $smax=$lastSid; $smax=$smin-1;$tmax=$tmin-1;
+#          printf STDERR "NOO2 tid:$tid\n";
+        }
+      }
+      $AU->{$au}{cross} = "$smax-$lastSid.$smax-$smin+1.$tmax-$tmin+1";
+#      printf STDERR "CrossingAU: au:$au lastSid:$lastSid sid:%s.%s.%s\n", $smax-$lastSid, $smax-$smin+1,$tmax-$tmin+1;
+    }
+
+    else {
+      foreach my $tid (sort {$a<=>$b} keys %{$AU->{$au}{tid}}) {
+        if(defined($ALN->{tid}{$tid})) {
+        if($tmax < $tid) { $tmax = $tid;}
+        if($tmin > $tid) { $tmin = $tid;}
+          foreach my $id (keys %{$ALN->{tid}{$tid}{id}}) {
+            if($smax < $id) { $smax = $id;}
+            if($smin > $id) { $smin = $id;}
+#            if(abs($id-$lastSid) > abs($sid-$lastSid)) { $sid = $id;}
+#            printf STDERR "AAA1: tid:$tid\tsmin:$smin, smax:$smax, tmin:$tmin tmax:$tmax\n";
+        } }
+        else { 
+          $smax=$lastSid; $smax=$smin-1;$tmax=$tmin-1;
+#          printf STDERR "NOO2 tid:$tid\n";
+        }
+      }
+      $AU->{$au}{cross} = "$smax-$lastSid.$smax-$smin+1.$tmax-$tmin+1";
+#      printf STDERR "CrossingAU: au:$au tmax:$tmax lastSid:$lastSid sid:%s.%s.%s\n", $smax-$lastSid, $smax-$smin+1,$tmax-$tmin+1;
+    }
+
+    $lastTid = $tmax;
+    $lastSid = $smax;
+
+  }
+}
+
+##################################################
+#  Parallel Reading/writing activity
+##################################################
+
+## amount of overlap between $start - $dur and intervals in $U
+sub Overlap {
+  my ($start, $dur, $U) = @_;
   my $m = 0;
 
-  foreach my $fu (sort {$a<=>$b} keys %{$FU}) {
-    my $common = 0;
-    foreach my $pu (sort {$a<=>$b} keys %{$PU}) {
-      if($pu+$PU->{$pu}{dur} < $fu) {next;}
-      if($pu > $fu+$FU->{$fu}{dur}) {last;}
-
-# printf STDERR "FU:%s--%s\tPU:%s--%s\t%s\n", $fu, $fu+$FU->{$fu}{dur}, $pu, $pu+$PU->{$pu}{dur}, $common;
-      ## FU inside PU
-      if($pu <= $fu && $pu+$PU->{$pu}{dur} >= $fu+$FU->{$fu}{dur}) {$common += $FU->{$fu}{dur};}
-      ## PU overlap start of FU
-      elsif($pu <= $fu && $pu+$PU->{$pu}{dur} < $fu+$FU->{$fu}{dur}) {$common += $pu+$PU->{$pu}{dur}-$fu;}
-      ## PU overlap end of FU
-      elsif($pu > $fu && $pu+$PU->{$pu}{dur} >= $fu+$FU->{$fu}{dur}) {$common += $fu+$FU->{$fu}{dur} - $pu;}
-      ## PU inside FU
-      elsif($pu > $fu && $pu+$PU->{$pu}{dur} < $fu+$FU->{$fu}{dur}) {$common += $PU->{$pu}{dur};}
-      else { print STDERR "Parallel: Error2\n";}
-    }
-
-    if($common == 0) { $FU->{$fu}{par} = 0;}
-    else {$FU->{$fu}{par} = sprintf("%4.2f", 100*$common/$FU->{$fu}{dur}); }
-# printf STDERR "\tcommon: %s\n", $FU->{$fu}{par};
+  if($dur == 0) {
+#    printf STDERR "WARNING Overlap: start:$start dur:$dur\n";
+    return 0;
   }
 
-  foreach my $pu (sort {$a<=>$b} keys %{$PU}) {
-    my $common = 0;
-    foreach my $fu (sort {$a<=>$b} keys %{$FU}) {
-      if($fu+$FU->{$fu}{dur} < $pu) {next;}
-      if($fu > $pu+$PU->{$pu}{dur}) {last;}
+  my $common = 0;
+  foreach my $u (sort {$a<=>$b} keys %{$U}) {
+    if($u+$U->{$u}{dur} < $start) {next;}
+    if($u > $start+$dur) {last;}
 
-# printf STDERR "FU:%s--%s\tPU:%s--%s\t%s\n", $fu, $fu+$FU->{$fu}{dur}, $pu, $pu+$PU->{$pu}{dur}, $common;
-      ## FU inside PU
-      if($fu <= $pu && $fu+$FU->{$fu}{dur} >= $pu+$PU->{$pu}{dur}) {$common += $PU->{$pu}{dur};}
-      ## PU overlap start of FU
-      elsif($fu <= $pu && $fu+$FU->{$fu}{dur} < $pu+$PU->{$pu}{dur}) {$common += $fu+$FU->{$fu}{dur}-$pu;}
-      ## PU overlap end of FU
-      elsif($fu > $pu && $fu+$FU->{$fu}{dur} >= $pu+$PU->{$pu}{dur}) {$common += $pu+$PU->{$pu}{dur} - $fu;}
-      ## PU inside FU
-      elsif($fu > $pu && $fu+$FU->{$fu}{dur} < $pu+$PU->{$pu}{dur}) {$common += $FU->{$fu}{dur};}
-      else { print STDERR "Parallel: Error3\n";}
-    }
-    if($common == 0) { $PU->{$pu}{par} = 0;}
-    else {$PU->{$pu}{par} = sprintf("%4.2f", 100*$common/$PU->{$pu}{dur});}
-
-# printf STDERR "\tcommon: %s\n", $PU->{$pu}{par};
+# printf STDERR "U:%s--%s\tPU:%s--%s\t%s\n", $u, $u+$U->{$u}{dur}, $start, $start+$dur, $common;
+    ## U inside PU
+    if($u <= $start && $u+$U->{$u}{dur} >= $start+$dur) {$common += $dur;}
+    ## PU overlap start of U
+    elsif($u <= $start && $u+$U->{$u}{dur} < $start+$dur) {$common += $u+$U->{$u}{dur}-$start;}
+    ## PU overlap end of U
+    elsif($u > $start && $u+$U->{$u}{dur} >= $start+$dur) {$common += $start+$dur - $u;}
+    ## PU inside U
+    elsif($u > $start && $u+$U->{$u}{dur} < $start+$dur) {$common += $U->{$u}{dur};}
+    else { print STDERR "Overlap: Error3\n";}
   }
+
+#printf STDERR "Overlap: start:$start\t dur:$dur   \t over:$common \tinters:%4.4f\n", 100*$common/$dur;
+  return 100*$common/$dur;
+}
+
+
+sub ParallelActivity {
+  my $m = 0;
+
+  foreach my $u (sort {$a<=>$b} keys %{$PU}) {
+    $PU->{$u}{par} = sprintf("%4.2f",Overlap($u, $PU->{$u}{dur}, $FU));
+  }
+  foreach my $u (sort {$a<=>$b} keys %{$FU}) {
+    $FU->{$u}{par} = sprintf("%4.2f",Overlap($u, $FU->{$u}{dur}, $PU));
+  }
+
+  foreach my $u (sort {$a<=>$b} keys %{$AU}) {
+    $AU->{$u}{par1} = 0;
+    $AU->{$u}{par2} = 0;
+    for(my $i=0; $i<=$#{$AU->{$u}{start}}; $i++) {
+      my $start = $AU->{$u}{start}[$i];
+      my $dur   = $AU->{$u}{end}[$i] - $AU->{$u}{start}[$i];
+      my $ov=Overlap($start, $dur, $FU);
+      push(@{$AU->{$u}{par}}, $ov);
+      if($i==0) {$AU->{$u}{par1} =sprintf("%4.2f", $ov);}
+      if($i==1) {$AU->{$u}{par2} =sprintf("%4.2f", $ov);}
+#printf STDERR "ParallelActivity au:$u i:$i ov:$ov start:$start dur:$dur\n";
+#if($AU->{$u}{par2} eq "75.88") {
+#printf STDERR "ParallelActivity xxxx\n";
+#d($AU->{$u}{start});
+#}
+    }
+  }
+
+  foreach my $u (sort {$a<=>$b} keys %{$TGT}) {
+#printf STDERR "ParallelActivity TT\n";
+#d($TGT->{$u}{start});
+    $TGT->{$u}{par1} = 0;
+    $TGT->{$u}{par2} = 0;
+    for(my $i=0; $i<=$#{$TGT->{$u}{start}}; $i++) {
+      my $start = $TGT->{$u}{start}[$i];
+      my $dur   = $TGT->{$u}{end}[$i] - $TGT->{$u}{start}[$i];
+      my $ov=Overlap($start, $dur, $FU);
+      push(@{$TGT->{$u}{par}}, $ov);
+      if($i==0) {$TGT->{$u}{par1} = sprintf("%4.2f", $ov);}
+      if($i==1) {$TGT->{$u}{par2} = sprintf("%4.2f", $ov);}
+    }
+  } 
+
+  foreach my $u (sort {$a<=>$b} keys %{$SRC}) {
+#printf STDERR "ParallelActivity TT\n";
+#d($TGT->{$u}{start});
+    $SRC->{$u}{par1} = 0;
+    $SRC->{$u}{par2} = 0;
+    for(my $i=0; $i<=$#{$SRC->{$u}{start}}; $i++) {
+      my $start = $SRC->{$u}{start}[$i];
+      my $dur   = $SRC->{$u}{end}[$i] - $SRC->{$u}{start}[$i];
+      my $ov=Overlap($start, $dur, $FU);
+      push(@{$SRC->{$u}{par}}, $ov);
+      if($i==0) {$SRC->{$u}{par1} = sprintf("%4.2f", $ov);}
+      if($i==1) {$SRC->{$u}{par2} = sprintf("%4.2f", $ov);}
+    }
+  }
+
+
 }
 
 ################################################################
-## Print table with (wnr, token) 
-sub PrintST {
-  my ($fn) = @_;
-  my ($f, $s);
-
-#source file (.src)
-  if(!defined( $SRC )) {
-    print STDERR "PrintST $fn undefined SOURCE\n";
-    return ;
-  }
-  if(!open(FILE, ">:encoding(utf8)", $fn)) {
-    print STDERR "cannot open: $fn\n";
-    return ;
-  }
-
-  printf FILE "STid\tSToken\n";
-  foreach $f (sort {$a <=> $b} keys %{$SRC}) {
-    if(!defined($SRC->{$f}{'tok'})) { next;}
-
-    printf FILE "%d\t%s\n", $SRC->{$f}{'id'}, $SRC->{$f}{'tok'};
-  }
-  close (FILE);
-}
-
+# PRINTING
+################################################################
 
 sub PrintKD {
   my ($fn) = @_;
@@ -389,7 +828,7 @@ sub PrintFD {
   }
 
   my $n = 0;
-  printf FILE "FIXid\tTime\tWindow\tDuration\tChar\tSTid\tTTid\n";
+  printf FILE "FIXid\tTime\tWin\tDur\tChar\tSTid\tTTid\n";
 #  printf STDERR "n\ttime\twin\tdur\tcur\tid\tsid\n";
 
   foreach my $t (sort  {$a <=> $b} keys %{$FIX}) {
@@ -416,12 +855,12 @@ sub PrintFU {
   }
 
   my $n = 0;
-  printf FILE "FUid\tStart\tDuration\tWindow\tPause\tParallel\tPath\n";
+  printf FILE "FUid\tTime\tWin\tDur\tPause\tParal\tPath\n";
 
   foreach my $t (sort  {$a <=> $b} keys %{$FU}) {
 #print STDERR "$n\t$t\t$FU->{$t}{'dur'}\t$FU->{$t}{'win'}\t$FU->{$t}{'pause'}\t$FU->{$t}{'par'}\t$FU->{$t}{'id'}\n";
 #d($FU->{$t});
-    print FILE "$n\t$t\t$FU->{$t}{'dur'}\t$FU->{$t}{'win'}\t$FU->{$t}{'pause'}\t$FU->{$t}{'par'}\t$FU->{$t}{'path'}\n";
+    print FILE "$n\t$t\t$FU->{$t}{'win'}\t$FU->{$t}{'dur'}\t$FU->{$t}{'pause'}\t$FU->{$t}{'par'}\t$FU->{$t}{'path'}\n";
     $n++;
   }
   close (FILE);
@@ -440,12 +879,218 @@ sub PrintPU {
   }
 
   my $n = 0;
-  printf FILE "PUid\tStart\tDuration\tPause\tParallel\tInsertion\tDeletion\tSTid\tTTid\tTyped\n";
+  printf FILE "PUid\tTime\tDur\tPause\tParal\tIns\tDel\tSTid\tTTid\tTyped\n";
 
   foreach my $t (sort  {$a <=> $b} keys %{$PU}) {
     print FILE "$n\t$t\t$PU->{$t}{'dur'}\t$PU->{$t}{'pause'}\t$PU->{$t}{'par'}\t$PU->{$t}{'ins'}\t$PU->{$t}{'del'}\t$PU->{$t}{'sid'}\t$PU->{$t}{'tid'}\t$PU->{$t}{'str'}\n";
     $n++;
   }
   close (FILE);
+}
+
+sub PrintAU {
+  my ($fn) = @_;
+  my $n = 1;
+
+  if(!open(FILE, ">:encoding(utf8)", $fn)) {
+    printf STDERR "cannot open: $fn\n";
+    return ;
+  }
+
+  printf FILE "AUid\tAUtarget\tAUsource\tSL\tTL\tPerson\tText\tTask\tSession\tDraft\tRevise\tUnit1\tTime1\tDur1\tPause1\tParal1\tUnit2\tTime2\tDur2\tPause2\tParal2\tLen\tIns\tDel\tDur\tTyped\n";
+
+  foreach my $au (sort {$a <=> $b} keys %{$AU}) {
+
+#print STDERR "TTTT\n";
+#d($AU->{$f});
+
+#    if(!defined($AU->{$f}{'ts'})) { next;}
+
+    if(!defined($AU->{$au}{ss}) || $AU->{$au}{ss} eq '') { $AU->{$au}{ss} = '---';}
+    if(!defined($AU->{$au}{ts}) || $AU->{$au}{ts} eq '') { $AU->{$au}{ts} = '---';}
+    if(!defined($AU->{$au}{str}) || $AU->{$au}{str} eq '') {$AU->{$au}{str} = '---';}
+    if(!defined($AU->{$au}{len})) {$AU->{$au}{len} = 0;}
+    if(!defined($AU->{$au}{ins})) {$AU->{$au}{ins} = 0;}
+    if(!defined($AU->{$au}{del})) {$AU->{$au}{del} = 0;}
+    if(!defined($AU->{$au}{dur})) {$AU->{$au}{dur} = 0;}
+    if(!defined($AU->{$au}{unit1}) || $AU->{$au}{unit1} eq '') {$AU->{$au}{unit1} = '---';}
+    if(!defined($AU->{$au}{time1})) {$AU->{$au}{time1} = 0;}
+    if(!defined($AU->{$au}{dur1})) {$AU->{$au}{dur1} = 0;}
+    if(!defined($AU->{$au}{pause1})){$AU->{$au}{pause1} = 0;}
+    if(!defined($AU->{$au}{dur2})) {$AU->{$au}{dur2} = 0;}
+    if(!defined($AU->{$au}{time2})) {$AU->{$au}{time2} = 0;}
+    if(!defined($AU->{$au}{pause2})) {$AU->{$au}{pause2} = 0;}
+    if(!defined($AU->{$au}{unit2}) || $AU->{$au}{unit2} eq '') {$AU->{$au}{unit2} = '---';}
+
+    printf FILE "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n",
+      $n++,
+      $AU->{$au}{ts},
+      $AU->{$au}{ss},
+      $SourceLang,
+      $TargetLang,
+      $Part,
+      $Text,
+      $Task,
+      $SessionDuration,
+      $DraftingStart,
+      $DraftingEnd,
+      $AU->{$au}{unit1},
+      $AU->{$au}{time1},
+      $AU->{$au}{dur1},
+      $AU->{$au}{pause1},
+      $AU->{$au}{par1},
+      $AU->{$au}{unit2},
+      $AU->{$au}{time2},
+      $AU->{$au}{dur2},
+      $AU->{$au}{pause2},
+      $AU->{$au}{par2},
+      $AU->{$au}{len},
+      $AU->{$au}{ins},
+      $AU->{$au}{del},
+      $AU->{$au}{dur},
+      $AU->{$au}{str};
+#d($AU->{$au}{start});
+  }
+  close(FILE);
+}
+
+sub PrintTT {
+  my ($fn) = @_;
+
+  if(!defined( $TGT )) {
+    printf STDERR "PrintTT: undefined TGT\n";
+    return ;
+  }
+
+  if(!open(FILE, ">:encoding(utf8)", $fn)) {
+    printf STDERR "cannot open: $fn\n";
+    return ;
+  }
+
+  printf FILE "TTid\tTToken\tSToken\tSL\tTL\tPerson\tText\tTask\tUnit1\tTime1\tDur1\tPause1\tParal1\tUnit2\tTime2\tDur2\tPause2\tParal2\tLen\tIns\tDel\tDur\tTyped\n";
+
+  foreach my $tid (sort {$a <=> $b} keys %{$TGT}) {
+
+#    if(!defined($TGT->{$tid}{'tok'})) { next;}
+
+    if(!defined($TGT->{$tid}{tok}))    {$TGT->{$tid}{tok} = '---';}
+    if(!defined($TGT->{$tid}{len}))    {$TGT->{$tid}{len} = 0;}
+    if(!defined($TGT->{$tid}{ins}))    {$TGT->{$tid}{ins} = 0;}
+    if(!defined($TGT->{$tid}{del}))    {$TGT->{$tid}{del} = 0;}
+    if(!defined($TGT->{$tid}{dur}))    {$TGT->{$tid}{dur} = 0;}
+    if(!defined($TGT->{$tid}{unit1}))  {$TGT->{$tid}{unit1} = '---';}
+    if(!defined($TGT->{$tid}{unit2}))  {$TGT->{$tid}{unit2} = '---';}
+    if(!defined($TGT->{$tid}{time1}))  {$TGT->{$tid}{time1} = 0;}
+    if(!defined($TGT->{$tid}{time2}))  {$TGT->{$tid}{time2} = 0;}
+    if(!defined($TGT->{$tid}{dur1}))   {$TGT->{$tid}{dur1} = 0;}
+    if(!defined($TGT->{$tid}{dur2}))   {$TGT->{$tid}{dur2} = 0;}
+    if(!defined($TGT->{$tid}{pause1})) {$TGT->{$tid}{pause1} = 0;}
+    if(!defined($TGT->{$tid}{pause2})) {$TGT->{$tid}{pause2} = 0;}
+    if(!defined($TGT->{$tid}{par1}))   {$TGT->{$tid}{par1} = 0;}
+    if(!defined($TGT->{$tid}{par2}))   {$TGT->{$tid}{par2} = 0;}
+    if(!defined($TGT->{$tid}{str}))    {$TGT->{$tid}{str} = "---";}
+
+    my $sstr = '';
+    if(defined($ALN) && defined($ALN->{tid}{$tid})) {
+      foreach my $sid (sort {$a <=> $b} keys %{$ALN->{tid}{$tid}{id}}) {
+        if($sstr ne '') {$sstr .= '_';}
+        $sstr .= $SRC->{$sid}{tok};
+      }
+    }
+    else {$sstr = '---';}
+
+
+    printf FILE "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n",
+      $tid,
+      $TGT->{$tid}{tok},
+      $sstr,
+      $SourceLang,
+      $TargetLang,
+      $Part,
+      $Text,
+      $Task,
+      $TGT->{$tid}{unit1},
+      $TGT->{$tid}{time1},
+      $TGT->{$tid}{dur1},
+      $TGT->{$tid}{pause1},
+      $TGT->{$tid}{par1},
+      $TGT->{$tid}{unit2},
+      $TGT->{$tid}{time2},
+      $TGT->{$tid}{dur2},
+      $TGT->{$tid}{pause2},
+      $TGT->{$tid}{par2},
+      $TGT->{$tid}{len},
+      $TGT->{$tid}{ins},
+      $TGT->{$tid}{del},
+      $TGT->{$tid}{dur},
+      $TGT->{$tid}{str};
+  }
+  close(FILE);
+}
+
+
+sub PrintST {
+  my ($fn) = @_;
+
+  if(!defined( $SRC )) {
+    printf STDERR "PrintST: undefined SRC\n";
+    return ;
+  }
+
+  if(!open(FILE, ">:encoding(utf8)", $fn)) {
+    printf STDERR "cannot open: $fn\n";
+    return ;
+  }
+
+  printf FILE "STid\tSToken\tTToken\tSL\tTL\tPerson\tText\tTask\tUnit1\tTime1\tDur1\tPause1\tParal1\tUnit2\tTime2\tDur2\tPause2\tParal2\tLen\tIns\tDel\tDur\tTyped\n";
+
+  foreach my $sid (sort {$a <=> $b} keys %{$SRC}) {
+
+#    if(!defined($SRC->{$sid}{'tok'})) { next;}
+
+    if(!defined($SRC->{$sid}{tok}))    {$SRC->{$sid}{tok} = '---';}
+    if(!defined($SRC->{$sid}{ttok}))   {$SRC->{$sid}{ttok} = '---';}
+    if(!defined($SRC->{$sid}{len}))    {$SRC->{$sid}{len} = 0;}
+    if(!defined($SRC->{$sid}{ins}))    {$SRC->{$sid}{ins} = 0;}
+    if(!defined($SRC->{$sid}{del}))    {$SRC->{$sid}{del} = 0;}
+    if(!defined($SRC->{$sid}{dur}))    {$SRC->{$sid}{dur} = 0;}
+    if(!defined($SRC->{$sid}{unit1}))  {$SRC->{$sid}{unit1} = '---';}
+    if(!defined($SRC->{$sid}{unit2}))  {$SRC->{$sid}{unit2} = '---';}
+    if(!defined($SRC->{$sid}{time1}))  {$SRC->{$sid}{time1} = 0;}
+    if(!defined($SRC->{$sid}{time2}))  {$SRC->{$sid}{time2} = 0;}
+    if(!defined($SRC->{$sid}{dur1}))   {$SRC->{$sid}{dur1} = 0;}
+    if(!defined($SRC->{$sid}{dur2}))   {$SRC->{$sid}{dur2} = 0;}
+    if(!defined($SRC->{$sid}{pause1})) {$SRC->{$sid}{pause1} = 0;}
+    if(!defined($SRC->{$sid}{pause2})) {$SRC->{$sid}{pause2} = 0;}
+    if(!defined($SRC->{$sid}{par1}))   {$SRC->{$sid}{par1} = 0;}
+    if(!defined($SRC->{$sid}{par2}))   {$SRC->{$sid}{par2} = 0;}
+    if(!defined($SRC->{$sid}{str}))    {$SRC->{$sid}{str} = "---";}
+
+    printf FILE "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n",
+      $sid,
+      $SRC->{$sid}{tok},
+      $SRC->{$sid}{ttok},
+      $SourceLang,
+      $TargetLang,
+      $Part,
+      $Text,
+      $Task,
+      $SRC->{$sid}{unit1},
+      $SRC->{$sid}{time1},
+      $SRC->{$sid}{dur1},
+      $SRC->{$sid}{pause1},
+      $SRC->{$sid}{par1},
+      $SRC->{$sid}{unit2},
+      $SRC->{$sid}{time2},
+      $SRC->{$sid}{dur2},
+      $SRC->{$sid}{pause2},
+      $SRC->{$sid}{par2},
+      $SRC->{$sid}{len},
+      $SRC->{$sid}{ins},
+      $SRC->{$sid}{del},
+      $SRC->{$sid}{dur},
+      $SRC->{$sid}{str};
+  }
+  close(FILE);
 }
 

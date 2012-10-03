@@ -110,7 +110,7 @@ sub MSescapeAttr {
   $in =~ s/\r/&#xD;/g;
   $in =~ s/\t/&#x9;/g;
   $in =~ s/"/&quot;/g;
-  $in =~ s/ /&nbsp;/g;
+#  $in =~ s/ /&nbsp;/g;
   return $in;
 }
 
@@ -236,7 +236,10 @@ sub ReadAtag {
       if(/outsign="([^"]*)"/){ $os=$1;}
 
       if(/in="([^"]*)"/) { 
-        $K = [split(/\s+/, $1)];
+        my $jdtag =  $1;
+        $jdtag =~ s/([ab][0-9]*)/$1 /g;
+#printf STDERR "IN:  $jdtag\n";
+        $K = [split(/\s+/, $jdtag)];
         for($i=0; $i <=$#{$K}; $i++) {
           if($K->[$i] =~ /([ab])(\d+)/) { 
             $A->{'n'}{$n}{$A->{$1}{'lang'}}{'id'}{$2} ++;
@@ -246,7 +249,9 @@ sub ReadAtag {
         }
       }
       if(/out="([^"]*)"/) { 
-        $K = [split(/\s+/, $1)];
+        my $jdtag =  $1;
+        $jdtag =~ s/([ab][0-9]*)/$1 /g;
+        $K = [split(/\s+/, $jdtag)];
         for($i=0; $i <=$#{$K}; $i++) {
           if($K->[$i] =~ /([ab])(\d+)/) { 
             $A->{'n'}{$n}{$A->{$1}{'lang'}}{'id'}{$2} ++;

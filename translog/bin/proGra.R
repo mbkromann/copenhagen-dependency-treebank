@@ -45,6 +45,11 @@ ProgGraph <- function(X1=0, X2=0, Y1=0, Y2=0, fix=1, pu=0, fu=0, CK=0) {
     pu=0;
   }
 
+  if(length(Keys$KEYid) == 0) {
+    cat("No Key data: cannot plot Graph \n");
+    return;
+  }
+
 ## CK: only classified keystrokes
 
   if(X1 > X2) { cat( "X1 must be smaller than or equal to X2\n"); return; }
@@ -61,8 +66,8 @@ ProgGraph <- function(X1=0, X2=0, Y1=0, Y2=0, fix=1, pu=0, fu=0, CK=0) {
   } } }
   if(X1 == X2){
     for (i in 1:length(Keys$KEYid)) {
-#cat( "KEY", i, length(Keys$KEYid), "\n");
-      if(Keys$STid[i] < Y1 || Keys$STid[i] > Y2 ) {next;}
+#cat( "KEY", i, length(Keys$KEYid), "X1:", X1, "X2:", X2, "\n");
+      if(Keys$STid[i] > 0 && (Keys$STid[i] < Y1 || Keys$STid[i] > Y2 )) {next;}
       if(X2 == X1){ X1 <- Keys$Time[i];X2 <- Keys$Time[i]+1; next;}
       if(X1 > Keys$Time[i]) {X1 <- Keys$Time[i];}
       if(X2 < Keys$Time[i]) {X2 <- Keys$Time[i];}
