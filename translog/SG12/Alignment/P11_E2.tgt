@@ -1,159 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Text language="de" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
- <W cur="0" id="1" lemma="Anstieg" pos="NN">Anstieg</W>
- <W cur="8" id="2" lemma="die" pos="ART" space=" ">der</W>
- <W cur="12" id="3" lemma="Lebenshaltungskosten" pos="NN" space=" ">Lebenshaltungskosten</W>
- <W cur="33" id="4" lemma="treffen" pos="VVFIN" space=" ">trifft</W>
- <W cur="40" id="5" lemma="Familie" pos="NN" space=" ">Familien</W>
- <W cur="49" id="6" lemma="britisch" pos="ADJA" space="&#xA;">Britische</W>
- <W cur="59" id="7" lemma="Familie" pos="NN" space=" ">Familien</W>
- <W cur="68" id="8" lemma="müssen" pos="VMFIN" space=" ">müssen</W>
- <W cur="75" id="9" lemma="bluten" pos="VVINF" space=" ">bluten</W>
- <W cur="82" id="10" lemma="und" pos="KON" space=" ">und</W>
- <W cur="86" id="11" lemma="zusätzlich" pos="ADJD" space=" ">zusätzlich</W>
- <W cur="97" id="12" lemma="£" pos="NN">£</W>
- <W cur="99" id="13" lemma="@card@" pos="CARD" space=" ">31.300</W>
- <W cur="106" id="14" lemma="pro" pos="APPR" space=" ">pro</W>
- <W cur="110" id="15" lemma="Jahr" pos="NN" space=" ">Jahr</W>
- <W cur="115" id="16" lemma="bezahlen" pos="VVINF" space=" ">bezahlen</W>
- <W cur="123" id="17" lemma="," pos="$,">,</W>
- <W cur="125" id="18" lemma="da" pos="KOUS" space=" ">da</W>
- <W cur="128" id="19" lemma="Lebensmittel" pos="NN" space=" ">Lebensmittel</W>
- <W cur="140" id="20" lemma="-" pos="$(">-</W>
- <W cur="142" id="21" lemma="und" pos="KON" space=" ">und</W>
- <W cur="146" id="22" lemma="Treibstoffpreis" pos="NN" space=" ">Treibstoffpreise</W>
- <W cur="163" id="23" lemma="die" pos="ART" space=" ">den</W>
- <W cur="167" id="24" lemma="schnell" pos="ADJA" space=" ">schnellsten</W>
- <W cur="179" id="25" lemma="Anstieg" pos="NN" space=" ">Anstieg</W>
- <W cur="187" id="26" lemma="seit" pos="APPR" space=" ">seit</W>
- <W cur="192" id="27" lemma="17" pos="CARD" space=" ">17</W>
- <W cur="195" id="28" lemma="Jahr" pos="NN" space=" ">Jahren</W>
- <W cur="202" id="29" lemma="erfahren" pos="VVPP" space=" ">erfahren</W>
- <W cur="211" id="30" lemma="haben" pos="VAFIN" space=" ">haben</W>
- <W boundary="sentence" cur="216" id="31" lemma="." pos="$.">.</W>
- <W cur="218" id="32" lemma="die" pos="ART" space=" ">Die</W>
- <W cur="222" id="33" lemma="Preis" pos="NN" space=" ">Preise</W>
- <W cur="229" id="34" lemma="in" pos="APPR" space=" ">in</W>
- <W cur="232" id="35" lemma="die" pos="ART" space=" ">den</W>
- <W cur="236" id="36" lemma="Supermarkt" pos="NN" space=" ">Supermärkten</W>
- <W cur="249" id="37" lemma="sein" pos="VAFIN" space=" ">sind</W>
- <W cur="254" id="38" lemma="in" pos="APPRART" space=" ">im</W>
- <W cur="257" id="39" lemma="vergangen" pos="ADJA" space=" ">vergangenen</W>
- <W cur="269" id="40" lemma="Jahr" pos="NN" space=" ">Jahr</W>
- <W cur="274" id="41" lemma="mit" pos="APPR" space=" ">mit</W>
- <W cur="278" id="42" lemma="eine" pos="ART" space=" ">einer</W>
- <W cur="284" id="43" lemma="alarmierend" pos="ADJA" space=" ">alarmierenden</W>
- <W cur="298" id="44" lemma="Rate" pos="NN" space=" ">Rate</W>
- <W cur="303" id="45" lemma="steigen" pos="VVPP" space=" ">gestiegen</W>
- <W boundary="sentence" cur="312" id="46" lemma="." pos="$.">.</W>
- <W cur="314" id="47" lemma="Analyst" pos="NN" space=" ">Analysten</W>
- <W cur="324" id="48" lemma="warnen" pos="VVFIN" space=" ">warnen</W>
- <W cur="330" id="49" lemma="," pos="$,">,</W>
- <W cur="332" id="50" lemma="dass" pos="KOUS" space=" ">dass</W>
- <W cur="337" id="51" lemma="die" pos="ART" space=" ">die</W>
- <W cur="341" id="52" lemma="Preis" pos="NN" space=" ">Preise</W>
- <W cur="348" id="53" lemma="noch" pos="ADV" space=" ">noch</W>
- <W cur="353" id="54" lemma="weiter" pos="ADV" space=" ">weiter</W>
- <W cur="360" id="55" lemma="steigen" pos="VVINF" space=" ">steigen</W>
- <W cur="368" id="56" lemma="werden" pos="VAFIN" space=" ">werden</W>
- <W cur="374" id="57" lemma="," pos="$,">,</W>
- <W cur="376" id="58" lemma="so" pos="ADV" space=" ">so</W>
- <W cur="379" id="59" lemma="dass" pos="KOUS" space=" ">dass</W>
- <W cur="384" id="60" lemma="es" pos="PPER" space=" ">es</W>
- <W cur="387" id="61" lemma="für" pos="APPR" space=" ">für</W>
- <W cur="391" id="62" lemma="die" pos="ART" space=" ">die</W>
- <W cur="395" id="63" lemma="Bank" pos="NN" space=" ">Bank</W>
- <W cur="400" id="64" lemma="of" pos="FM" space=" ">of</W>
- <W cur="403" id="65" lemma="England" pos="NE" space=" ">England</W>
- <W cur="411" id="66" lemma="schwer" pos="ADJD" space=" ">schwer</W>
- <W cur="418" id="67" lemma="werden" pos="VAFIN" space=" ">wird</W>
- <W cur="422" id="68" lemma="," pos="$,">,</W>
- <W cur="424" id="69" lemma="in" pos="APPR" space=" ">in</W>
- <W cur="427" id="70" lemma="ihr" pos="PPOSAT" space=" ">ihrem</W>
- <W cur="433" id="71" lemma="Kampf" pos="NN" space=" ">Kampf</W>
- <W cur="439" id="72" lemma="darum" pos="PAV" space=" ">darum</W>
- <W cur="445" id="73" lemma="die" pos="ART" space=" ">die</W>
- <W cur="449" id="74" lemma="Inflation" pos="NN" space=" ">Inflation</W>
- <W cur="459" id="75" lemma="und" pos="KON" space=" ">und</W>
- <W cur="463" id="76" lemma="die" pos="ART" space=" ">die</W>
- <W cur="467" id="77" lemma="Wirtschaft" pos="NN" space=" ">Wirtschaft</W>
- <W cur="478" id="78" lemma="unter" pos="APPR" space=" ">unter</W>
- <W cur="484" id="79" lemma="Kontrolle" pos="NN" space=" ">Kontrolle</W>
- <W cur="494" id="80" lemma="zu" pos="PTKZU" space=" ">zu</W>
- <W cur="497" id="81" lemma="halten" pos="VVINF" space=" ">halten</W>
- <W cur="503" id="82" lemma="," pos="$,">,</W>
- <W cur="505" id="83" lemma="die" pos="ART" space=" ">die</W>
- <W cur="509" id="84" lemma="Zins" pos="NN" space=" ">Zinsen</W>
- <W cur="516" id="85" lemma="zu" pos="PTKZU" space=" ">zu</W>
- <W cur="519" id="86" lemma="senken" pos="VVINF" space=" ">senken</W>
- <W boundary="sentence" cur="525" id="87" lemma="." pos="$.">.</W>
- <W cur="527" id="88" lemma="erschwerend" pos="ADJD" space=" ">Erschwerend</W>
- <W cur="539" id="89" lemma="kommen" pos="VVFIN" space=" ">kommt</W>
- <W cur="545" id="90" lemma="hinzu" pos="PTKVZ" space=" ">hinzu</W>
- <W cur="550" id="91" lemma="," pos="$,">,</W>
- <W cur="552" id="92" lemma="dass" pos="KOUS" space=" ">dass</W>
- <W cur="557" id="93" lemma="die" pos="ART" space=" ">die</W>
- <W cur="561" id="94" lemma="eskalierend" pos="ADJA" space=" ">eskalierende</W>
- <W cur="574" id="95" lemma="Preis" pos="NN" space=" ">Preise</W>
- <W cur="581" id="96" lemma="rasend" pos="ADJD" space=" ">rasend</W>
- <W cur="588" id="97" lemma="schnell" pos="ADJD" space=" ">schnell</W>
- <W cur="596" id="98" lemma="von" pos="APPR" space=" ">von</W>
- <W cur="600" id="99" lemma="Lohnerhöhung" pos="NN" space=" ">Lohnerhöhungen</W>
- <W cur="614" id="100" lemma="," pos="$,">,</W>
- <W cur="616" id="101" lemma="vor" pos="APPR" space=" ">vor</W>
- <W cur="620" id="102" lemma="alle" pos="PIS" space=" ">allem</W>
- <W cur="626" id="103" lemma="von" pos="APPR" space=" ">von</W>
- <W cur="630" id="104" lemma="Krankenschwester" pos="NN" space=" ">Krankenschwestern</W>
- <W cur="648" id="105" lemma="und" pos="KON" space=" ">und</W>
- <W cur="652" id="106" lemma="andere" pos="PIS" space=" ">anderem</W>
- <W cur="660" id="107" lemma="medizinisch" pos="ADJA" space=" ">medizinischen</W>
- <W cur="674" id="108" lemma="Fachpersonal" pos="NN" space=" ">Fachpersonal</W>
- <W cur="687" id="109" lemma="folgen" pos="VVPP" space=" ">gefolgt</W>
- <W cur="695" id="110" lemma="werden" pos="VAFIN" space=" ">wurden</W>
- <W boundary="sentence" cur="701" id="111" lemma="." pos="$.">.</W>
- <W cur="703" id="112" lemma="die" pos="ART" space=" ">Die</W>
- <W cur="707" id="113" lemma="Regierung" pos="NN" space=" ">Regierung</W>
- <W cur="717" id="114" lemma="beharren" pos="VVFIN" space=" ">beharrt</W>
- <W cur="725" id="115" lemma="darauf" pos="PAV" space=" ">darauf</W>
- <W cur="731" id="116" lemma="," pos="$,">,</W>
- <W cur="733" id="117" lemma="dass" pos="KOUS" space=" ">dass</W>
- <W cur="738" id="118" lemma="die" pos="ART" space=" ">die</W>
- <W cur="742" id="119" lemma="Inflation" pos="NN" space=" ">Inflation</W>
- <W cur="752" id="120" lemma="unter" pos="APPR" space=" ">unter</W>
- <W cur="758" id="121" lemma="die" pos="ART" space=" ">den</W>
- <W cur="762" id="122" lemma="Gehaltserhöhung" pos="NN" space=" ">Gehaltserhöhungen</W>
- <W cur="779" id="123" lemma="," pos="$,">,</W>
- <W cur="781" id="124" lemma="besonders" pos="ADV" space=" ">besonders</W>
- <W cur="791" id="125" lemma="in" pos="APPRART" space=" ">im</W>
- <W cur="794" id="126" lemma="öffentlich" pos="ADJA" space=" ">öffentlichen</W>
- <W cur="807" id="127" lemma="Sektor" pos="NN" space=" ">Sektor</W>
- <W cur="813" id="128" lemma="," pos="$,">,</W>
- <W cur="815" id="129" lemma="leiden" pos="VVPP" space=" ">gelitten</W>
- <W cur="824" id="130" lemma="haben" pos="VAFIN" space=" ">hat</W>
- <W boundary="sentence" cur="827" id="131" lemma="." pos="$.">.</W>
- <W cur="829" id="132" lemma="neben" pos="APPR" space=" ">Neben</W>
- <W cur="835" id="133" lemma="Treibstoff" pos="NN" space=" ">Treibstoff</W>
- <W cur="846" id="134" lemma="und" pos="KON" space=" ">und</W>
- <W cur="850" id="135" lemma="Lebensmittel" pos="NN" space=" ">Lebensmittel</W>
- <W cur="862" id="136" lemma="," pos="$,">,</W>
- <W cur="864" id="137" lemma="sein" pos="VAFIN" space=" ">sind</W>
- <W cur="869" id="138" lemma="die" pos="ART" space=" ">die</W>
- <W cur="873" id="139" lemma="Preis" pos="NN" space=" ">Preise</W>
- <W cur="880" id="140" lemma="für" pos="APPR" space=" ">für</W>
- <W cur="884" id="141" lemma="Strom" pos="NN" space=" ">Strom</W>
- <W cur="890" id="142" lemma="ebenfalls" pos="ADV" space=" ">ebenfalls</W>
- <W cur="900" id="143" lemma="auf" pos="APPR" space=" ">auf</W>
- <W cur="904" id="144" lemma="die" pos="ART" space=" ">dem</W>
- <W cur="908" id="145" lemma="Höhenflug" pos="NN" space=" ">Höhenflug</W>
- <W boundary="sentence" cur="917" id="146" lemma="." pos="$.">.</W>
- <W cur="919" id="147" lemma="fünf" pos="CARD" space=" ">Fünf</W>
- <W cur="924" id="148" lemma="die" pos="ART" space=" ">der</W>
- <W cur="928" id="149" lemma="sechs" pos="CARD" space=" ">sechs</W>
- <W cur="934" id="150" lemma="groß" pos="ADJA" space=" ">größten</W>
- <W cur="942" id="151" lemma="Lieferant" pos="NN" space=" ">Lieferanten</W>
- <W cur="954" id="152" lemma="haben" pos="VAFIN" space=" ">haben</W>
- <W cur="960" id="153" lemma="ihr" pos="PPOSAT" space=" ">ihre</W>
- <W cur="965" id="154" lemma="Preis" pos="NN" space=" ">Preise</W>
- <W cur="972" id="155" lemma="erhöhen" pos="VVPP" space=" ">erhöht</W>
- <W boundary="sentence" cur="978" id="156" lemma="." pos="$.">.</W>
+<Text language="de" >
+<W cur="0" id="1">Anstieg</W>
+<W cur="8" id="2" space=" ">der</W>
+<W cur="12" id="3" space=" ">Lebenshaltungskosten</W>
+<W cur="33" id="4" space=" ">trifft</W>
+<W cur="40" id="5" space=" ">Familien</W>
+<W cur="49" id="6" space="&#xA;">Britische</W>
+<W cur="59" id="7" space=" ">Familien</W>
+<W cur="68" id="8" space=" ">müssen</W>
+<W cur="75" id="9" space=" ">bluten</W>
+<W cur="82" id="10" space=" ">und</W>
+<W cur="86" id="11" space=" ">zusätzlich</W>
+<W cur="97" id="12">£</W>
+<W cur="99" id="13" space=" ">31.300</W>
+<W cur="106" id="14" space=" ">pro</W>
+<W cur="110" id="15" space=" ">Jahr</W>
+<W cur="115" id="16" space=" ">bezahlen</W>
+<W cur="123" id="17">,</W>
+<W cur="125" id="18" space=" ">da</W>
+<W cur="128" id="19" space=" ">Lebensmittel</W>
+<W cur="140" id="20">-</W>
+<W cur="142" id="21" space=" ">und</W>
+<W cur="146" id="22" space=" ">Treibstoffpreise</W>
+<W cur="163" id="23" space=" ">den</W>
+<W cur="167" id="24" space=" ">schnellsten</W>
+<W cur="179" id="25" space=" ">Anstieg</W>
+<W cur="187" id="26" space=" ">seit</W>
+<W cur="192" id="27" space=" ">17</W>
+<W cur="195" id="28" space=" ">Jahren</W>
+<W cur="202" id="29" space=" ">erfahren</W>
+<W cur="211" id="30" space=" ">haben</W>
+<W cur="216" id="31">.</W>
+<W cur="218" id="32" space=" ">Die</W>
+<W cur="222" id="33" space=" ">Preise</W>
+<W cur="229" id="34" space=" ">in</W>
+<W cur="232" id="35" space=" ">den</W>
+<W cur="236" id="36" space=" ">Supermärkten</W>
+<W cur="249" id="37" space=" ">sind</W>
+<W cur="254" id="38" space=" ">im</W>
+<W cur="257" id="39" space=" ">vergangenen</W>
+<W cur="269" id="40" space=" ">Jahr</W>
+<W cur="274" id="41" space=" ">mit</W>
+<W cur="278" id="42" space=" ">einer</W>
+<W cur="284" id="43" space=" ">alarmierenden</W>
+<W cur="298" id="44" space=" ">Rate</W>
+<W cur="303" id="45" space=" ">gestiegen</W>
+<W cur="312" id="46">.</W>
+<W cur="314" id="47" space=" ">Analysten</W>
+<W cur="324" id="48" space=" ">warnen</W>
+<W cur="330" id="49">,</W>
+<W cur="332" id="50" space=" ">dass</W>
+<W cur="337" id="51" space=" ">die</W>
+<W cur="341" id="52" space=" ">Preise</W>
+<W cur="348" id="53" space=" ">noch</W>
+<W cur="353" id="54" space=" ">weiter</W>
+<W cur="360" id="55" space=" ">steigen</W>
+<W cur="368" id="56" space=" ">werden</W>
+<W cur="374" id="57">,</W>
+<W cur="376" id="58" space=" ">so</W>
+<W cur="379" id="59" space=" ">dass</W>
+<W cur="384" id="60" space=" ">es</W>
+<W cur="387" id="61" space=" ">für</W>
+<W cur="391" id="62" space=" ">die</W>
+<W cur="395" id="63" space=" ">Bank</W>
+<W cur="400" id="64" space=" ">of</W>
+<W cur="403" id="65" space=" ">England</W>
+<W cur="411" id="66" space=" ">schwer</W>
+<W cur="418" id="67" space=" ">wird</W>
+<W cur="422" id="68">,</W>
+<W cur="424" id="69" space=" ">in</W>
+<W cur="427" id="70" space=" ">ihrem</W>
+<W cur="433" id="71" space=" ">Kampf</W>
+<W cur="439" id="72" space=" ">darum</W>
+<W cur="445" id="73" space=" ">die</W>
+<W cur="449" id="74" space=" ">Inflation</W>
+<W cur="459" id="75" space=" ">und</W>
+<W cur="463" id="76" space=" ">die</W>
+<W cur="467" id="77" space=" ">Wirtschaft</W>
+<W cur="478" id="78" space=" ">unter</W>
+<W cur="484" id="79" space=" ">Kontrolle</W>
+<W cur="494" id="80" space=" ">zu</W>
+<W cur="497" id="81" space=" ">halten</W>
+<W cur="503" id="82">,</W>
+<W cur="505" id="83" space=" ">die</W>
+<W cur="509" id="84" space=" ">Zinsen</W>
+<W cur="516" id="85" space=" ">zu</W>
+<W cur="519" id="86" space=" ">senken</W>
+<W cur="525" id="87">.</W>
+<W cur="527" id="88" space=" ">Erschwerend</W>
+<W cur="539" id="89" space=" ">kommt</W>
+<W cur="545" id="90" space=" ">hinzu</W>
+<W cur="550" id="91">,</W>
+<W cur="552" id="92" space=" ">dass</W>
+<W cur="557" id="93" space=" ">die</W>
+<W cur="561" id="94" space=" ">eskalierende</W>
+<W cur="574" id="95" space=" ">Preise</W>
+<W cur="581" id="96" space=" ">rasend</W>
+<W cur="588" id="97" space=" ">schnell</W>
+<W cur="596" id="98" space=" ">von</W>
+<W cur="600" id="99" space=" ">Lohnerhöhungen</W>
+<W cur="614" id="100">,</W>
+<W cur="616" id="101" space=" ">vor</W>
+<W cur="620" id="102" space=" ">allem</W>
+<W cur="626" id="103" space=" ">von</W>
+<W cur="630" id="104" space=" ">Krankenschwestern</W>
+<W cur="648" id="105" space=" ">und</W>
+<W cur="652" id="106" space=" ">anderem</W>
+<W cur="660" id="107" space=" ">medizinischen</W>
+<W cur="674" id="108" space=" ">Fachpersonal</W>
+<W cur="687" id="109" space=" ">gefolgt</W>
+<W cur="695" id="110" space=" ">wurden</W>
+<W cur="701" id="111">.</W>
+<W cur="703" id="112" space=" ">Die</W>
+<W cur="707" id="113" space=" ">Regierung</W>
+<W cur="717" id="114" space=" ">beharrt</W>
+<W cur="725" id="115" space=" ">darauf</W>
+<W cur="731" id="116">,</W>
+<W cur="733" id="117" space=" ">dass</W>
+<W cur="738" id="118" space=" ">die</W>
+<W cur="742" id="119" space=" ">Inflation</W>
+<W cur="752" id="120" space=" ">unter</W>
+<W cur="758" id="121" space=" ">den</W>
+<W cur="762" id="122" space=" ">Gehaltserhöhungen</W>
+<W cur="779" id="123">,</W>
+<W cur="781" id="124" space=" ">besonders</W>
+<W cur="791" id="125" space=" ">im</W>
+<W cur="794" id="126" space=" ">öffentlichen</W>
+<W cur="807" id="127" space=" ">Sektor</W>
+<W cur="813" id="128">,</W>
+<W cur="815" id="129" space=" ">gelitten</W>
+<W cur="824" id="130" space=" ">hat</W>
+<W cur="827" id="131">.</W>
+<W cur="829" id="132" space=" ">Neben</W>
+<W cur="835" id="133" space=" ">Treibstoff</W>
+<W cur="846" id="134" space=" ">und</W>
+<W cur="850" id="135" space=" ">Lebensmittel</W>
+<W cur="862" id="136">,</W>
+<W cur="864" id="137" space=" ">sind</W>
+<W cur="869" id="138" space=" ">die</W>
+<W cur="873" id="139" space=" ">Preise</W>
+<W cur="880" id="140" space=" ">für</W>
+<W cur="884" id="141" space=" ">Strom</W>
+<W cur="890" id="142" space=" ">ebenfalls</W>
+<W cur="900" id="143" space=" ">auf</W>
+<W cur="904" id="144" space=" ">dem</W>
+<W cur="908" id="145" space=" ">Höhenflug</W>
+<W cur="917" id="146">.</W>
+<W cur="919" id="147" space=" ">Fünf</W>
+<W cur="924" id="148" space=" ">der</W>
+<W cur="928" id="149" space=" ">sechs</W>
+<W cur="934" id="150" space=" ">größten</W>
+<W cur="942" id="151" space=" ">Lieferanten</W>
+<W cur="954" id="152" space=" ">haben</W>
+<W cur="960" id="153" space=" ">ihre</W>
+<W cur="965" id="154" space=" ">Preise</W>
+<W cur="972" id="155" space=" ">erhöht</W>
+<W cur="978" id="156">.</W>
 </Text>

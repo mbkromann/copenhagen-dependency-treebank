@@ -1,152 +1,151 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Text language="de" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
- <W cur="0" id="1" lemma="Spielberg" pos="NE">Spielberg</W>
- <W cur="10" id="2" lemma="zeigen" pos="VVFIN" space=" ">zeigt</W>
- <W cur="16" id="3" lemma="Peking" pos="NE" space=" ">Peking</W>
- <W cur="23" id="4" lemma="die" pos="ART" space=" ">die</W>
- <W cur="27" id="5" lemma="rot" pos="ADJA" space=" ">rote</W>
- <W cur="32" id="6" lemma="Karte" pos="NN" space=" ">Karte</W>
- <W cur="38" id="7" lemma="für" pos="APPR" space=" ">für</W>
- <W cur="42" id="8" lemma="_" pos="NN" space=" ">Darfur</W>
- <W cur="49" id="9" lemma="in" pos="APPR" space="&#xA;">In</W>
- <W cur="52" id="10" lemma="eine" pos="ART" space=" ">einer</W>
- <W cur="58" id="11" lemma="vielbeachtet" pos="ADJA" space=" ">vielbeachteten</W>
- <W cur="73" id="12" lemma="Geste" pos="NN" space=" ">Geste</W>
- <W cur="79" id="13" lemma="reisen" pos="VVFIN" space=" ">reiste</W>
- <W cur="86" id="14" lemma="Steven" pos="NE" space=" ">Steven</W>
- <W cur="93" id="15" lemma="Spielberg" pos="NE" space=" ">Spielberg</W>
- <W cur="103" id="16" lemma="von" pos="APPR" space=" ">von</W>
- <W cur="107" id="17" lemma="die" pos="ART" space=" ">den</W>
- <W cur="111" id="18" lemma="olympisch" pos="ADJA" space=" ">Olympischen</W>
- <W cur="123" id="19" lemma="Spiel|Spielen" pos="NN" space=" ">Spielen</W>
- <W cur="131" id="20" lemma="in" pos="APPR" space=" ">in</W>
- <W cur="134" id="21" lemma="Peking" pos="NE" space=" ">Peking</W>
- <W cur="141" id="22" lemma="ab" pos="PTKVZ" space=" ">ab</W>
- <W cur="143" id="23" lemma="," pos="$,">,</W>
- <W cur="145" id="24" lemma="um" pos="KOUI" space=" ">um</W>
- <W cur="148" id="25" lemma="gegen" pos="APPR" space=" ">gegen</W>
- <W cur="154" id="26" lemma="China" pos="NE" space=" ">Chinas</W>
- <W cur="161" id="27" lemma="Unterstützung" pos="NN" space=" ">Unterstützung</W>
- <W cur="175" id="28" lemma="für" pos="APPR" space=" ">für</W>
- <W cur="179" id="29" lemma="Sudan" pos="NE" space=" ">Sudans</W>
- <W cur="186" id="30" lemma="Politik" pos="NN" space=" ">Politik</W>
- <W cur="194" id="31" lemma="in" pos="APPR" space=" ">in</W>
- <W cur="197" id="32" lemma="_" pos="NN" space=" ">Darfur</W>
- <W cur="204" id="33" lemma="zu" pos="PTKZU" space=" ">zu</W>
- <W cur="207" id="34" lemma="protestieren" pos="VVINF" space=" ">protestieren</W>
- <W boundary="sentence" cur="219" id="35" lemma="." pos="$.">.</W>
- <W cur="221" id="36" lemma="sein" pos="PPOSAT" space=" ">Seine</W>
- <W cur="227" id="37" lemma="Aktion" pos="NN" space=" ">Aktion</W>
- <W cur="234" id="38" lemma="kommen" pos="VVFIN" space=" ">kommt</W>
- <W cur="240" id="39" lemma="in" pos="APPRART" space=" ">im</W>
- <W cur="243" id="40" lemma="Zug" pos="NN" space=" ">Zuge</W>
- <W cur="248" id="41" lemma="die" pos="ART" space=" ">des</W>
- <W cur="252" id="42" lemma="Kampf" pos="NN" space=" ">Kampfes</W>
- <W cur="260" id="43" lemma="gegen" pos="APPR" space=" ">gegen</W>
- <W cur="266" id="44" lemma="eine" pos="ART" space=" ">ein</W>
- <W cur="270" id="45" lemma="erneut" pos="ADJA" space=" ">erneutes</W>
- <W cur="279" id="46" lemma="Aufflammen" pos="NN" space=" ">Aufflammen</W>
- <W cur="290" id="47" lemma="die" pos="ART" space=" ">der</W>
- <W cur="294" id="48" lemma="Krise" pos="NN" space=" ">Krise</W>
- <W cur="300" id="49" lemma="in" pos="APPR" space=" ">in</W>
- <W cur="303" id="50" lemma="_" pos="NN" space=" ">Darfur</W>
- <W cur="310" id="51" lemma="und" pos="KON" space=" ">und</W>
- <W cur="314" id="52" lemma="sollen" pos="VMFIN" space=" ">soll</W>
- <W cur="319" id="53" lemma="China" pos="NE" space=" ">China</W>
- <W cur="325" id="54" lemma="in" pos="APPR" space=" ">in</W>
- <W cur="328" id="55" lemma="Verlegenheit" pos="NN" space=" ">Verlegenheit</W>
- <W cur="341" id="56" lemma="bringen" pos="VVINF" space=" ">bringen</W>
- <W cur="348" id="57" lemma="," pos="$,">,</W>
- <W cur="350" id="58" lemma="die" pos="PDS" space=" ">das</W>
- <W cur="354" id="59" lemma="versuchen" pos="VVFIN" space=" ">versucht</W>
- <W cur="362" id="60" lemma="," pos="$,">,</W>
- <W cur="364" id="61" lemma="die" pos="ART" space=" ">die</W>
- <W cur="368" id="62" lemma="negativ" pos="ADJA" space=" ">negativen</W>
- <W cur="378" id="63" lemma="Auswirkung" pos="NN" space=" ">Auswirkungen</W>
- <W cur="391" id="64" lemma="mit" pos="APPR" space=" ">mit</W>
- <W cur="395" id="65" lemma="eng" pos="ADJA" space=" ">engen</W>
- <W cur="401" id="66" lemma="Beziehung" pos="NN" space=" ">Beziehungen</W>
- <W cur="413" id="67" lemma="zu" pos="APPR" space=" ">zu</W>
- <W cur="416" id="68" lemma="die" pos="ART" space=" ">der</W>
- <W cur="420" id="69" lemma="_" pos="ADJA" space=" ">sudanesischen</W>
- <W cur="434" id="70" lemma="Regierung" pos="NN" space=" ">Regierung</W>
- <W cur="444" id="71" lemma="zu" pos="PTKZU" space=" ">zu</W>
- <W cur="447" id="72" lemma="stoppen" pos="VVINF" space=" ">stoppen</W>
- <W boundary="sentence" cur="454" id="73" lemma="." pos="$.">.</W>
- <W cur="456" id="74" lemma="China" pos="NE" space=" ">China</W>
- <W cur="461" id="75" lemma="," pos="$,">,</W>
- <W cur="463" id="76" lemma="die" pos="ART" space=" ">das</W>
- <W cur="467" id="77" lemma="umfangreich" pos="ADJA" space=" ">umfangreiche</W>
- <W cur="480" id="78" lemma="Investition" pos="NN" space=" ">Investitionen</W>
- <W cur="494" id="79" lemma="in" pos="APPR" space=" ">in</W>
- <W cur="497" id="80" lemma="die" pos="ART" space=" ">die</W>
- <W cur="501" id="81" lemma="_" pos="ADJA" space=" ">sudanesische</W>
- <W cur="514" id="82" lemma="Ölindustrie" pos="NN" space=" ">Ölindustrie</W>
- <W cur="526" id="83" lemma="tätigen" pos="VVPP" space=" ">getätigt</W>
- <W cur="535" id="84" lemma="haben" pos="VAFIN" space=" ">hat</W>
- <W cur="538" id="85" lemma="," pos="$,">,</W>
- <W cur="540" id="86" lemma="unterhalten" pos="VVFIN" space=" ">unterhält</W>
- <W cur="550" id="87" lemma="eng" pos="ADJA" space=" ">enge</W>
- <W cur="555" id="88" lemma="Beziehung" pos="NN" space=" ">Beziehungen</W>
- <W cur="567" id="89" lemma="mit" pos="APPR" space=" ">mit</W>
- <W cur="571" id="90" lemma="die" pos="ART" space=" ">der</W>
- <W cur="575" id="91" lemma="Regierung" pos="NN" space=" ">Regierung</W>
- <W cur="584" id="92" lemma="," pos="$,">,</W>
- <W cur="586" id="93" lemma="von" pos="APPR" space=" ">von</W>
- <W cur="590" id="94" lemma="die" pos="PRELS" space=" ">der</W>
- <W cur="594" id="95" lemma="eine" pos="ART" space=" ">ein</W>
- <W cur="598" id="96" lemma="Minister" pos="NN" space=" ">Minister</W>
- <W cur="607" id="97" lemma="wegen" pos="APPR" space=" ">wegen</W>
- <W cur="613" id="98" lemma="Verbrechen" pos="NN" space=" ">Verbrechen</W>
- <W cur="624" id="99" lemma="gegen" pos="APPR" space=" ">gegen</W>
- <W cur="630" id="100" lemma="die" pos="ART" space=" ">die</W>
- <W cur="634" id="101" lemma="Menschlichkeit" pos="NN" space=" ">Menschlichkeit</W>
- <W cur="649" id="102" lemma="vor" pos="APPR" space=" ">vor</W>
- <W cur="653" id="103" lemma="die" pos="ART" space=" ">den</W>
- <W cur="657" id="104" lemma="international" pos="ADJA" space=" ">Internationalen</W>
- <W cur="673" id="105" lemma="Strafgerichtshof" pos="NN" space=" ">Strafgerichtshof</W>
- <W cur="690" id="106" lemma="in" pos="APPR" space=" ">in</W>
- <W cur="693" id="107" lemma="die" pos="ART" space=" ">Den</W>
- <W cur="697" id="108" lemma="Haag" pos="NE" space=" ">Haag</W>
- <W cur="702" id="109" lemma="laden" pos="VVPP" space=" ">geladen</W>
- <W cur="710" id="110" lemma="sein" pos="VAFIN" space=" ">ist</W>
- <W boundary="sentence" cur="713" id="111" lemma="." pos="$.">.</W>
- <W cur="715" id="112" lemma="obwohl" pos="KOUS" space=" ">Obwohl</W>
- <W cur="722" id="113" lemma="betont" pos="ADJD" space=" ">betont</W>
- <W cur="729" id="114" lemma="werden" pos="VAFIN" space=" ">wird</W>
- <W cur="733" id="115" lemma="," pos="$,">,</W>
- <W cur="735" id="116" lemma="dass" pos="KOUS" space=" ">dass</W>
- <W cur="740" id="117" lemma="_" pos="NN" space=" ">Khartum</W>
- <W cur="748" id="118" lemma="die" pos="ART" space=" ">den</W>
- <W cur="752" id="119" lemma="Hauptteil" pos="NN" space=" ">Hauptteil</W>
- <W cur="762" id="120" lemma="die" pos="ART" space=" ">der</W>
- <W cur="766" id="121" lemma="Verantwortung" pos="NN" space=" ">Verantwortung</W>
- <W cur="780" id="122" lemma="für" pos="APPR" space=" ">für</W>
- <W cur="784" id="123" lemma="die" pos="ART" space=" ">die</W>
- <W cur="788" id="124" lemma="andauernd" pos="ADJA" space=" ">andauernden</W>
- <W cur="800" id="125" lemma="_" pos="NN" space=" ">Gräueltaten</W>
- <W cur="812" id="126" lemma="tragen" pos="VVFIN" space=" ">trägt</W>
- <W cur="817" id="127" lemma="," pos="$,">,</W>
- <W cur="819" id="128" lemma="beharren" pos="VVFIN" space=" ">beharrt</W>
- <W cur="827" id="129" lemma="Spielberg" pos="NE" space=" ">Spielberg</W>
- <W cur="837" id="130" lemma="darauf" pos="PAV" space=" ">darauf</W>
- <W cur="843" id="131" lemma="," pos="$,">,</W>
- <W cur="845" id="132" lemma="dass" pos="KOUS" space=" ">dass</W>
- <W cur="850" id="133" lemma="die" pos="ART" space=" ">die</W>
- <W cur="854" id="134" lemma="international" pos="ADJA" space=" ">internationale</W>
- <W cur="869" id="135" lemma="Gemeinschaft" pos="NN" space=" ">Gemeinschaft</W>
- <W cur="881" id="136" lemma="," pos="$,">,</W>
- <W cur="883" id="137" lemma="insbesondere" pos="ADV" space=" ">insbesondere</W>
- <W cur="896" id="138" lemma="China" pos="NE" space=" ">China</W>
- <W cur="901" id="139" lemma="," pos="$,">,</W>
- <W cur="903" id="140" lemma="mehr" pos="ADV" space=" ">mehr</W>
- <W cur="908" id="141" lemma="tun" pos="VVINF" space=" ">tun</W>
- <W cur="912" id="142" lemma="sollen" pos="VMFIN" space=" ">sollte</W>
- <W cur="918" id="143" lemma="," pos="$,">,</W>
- <W cur="920" id="144" lemma="um" pos="KOUI" space=" ">um</W>
- <W cur="923" id="145" lemma="die" pos="ART" space=" ">das</W>
- <W cur="927" id="146" lemma="Leiden" pos="NN" space=" ">Leiden</W>
- <W cur="934" id="147" lemma="zu" pos="PTKZU" space=" ">zu</W>
- <W cur="937" id="148" lemma="beenden" pos="VVINF" space=" ">beenden</W>
- <W boundary="sentence" cur="944" id="149" lemma="." pos="$.">.</W>
+<Text language="de" >
+<W cur="0" id="1">Spielberg</W>
+<W cur="10" id="2" space=" ">zeigt</W>
+<W cur="16" id="3" space=" ">Peking</W>
+<W cur="23" id="4" space=" ">die</W>
+<W cur="27" id="5" space=" ">rote</W>
+<W cur="32" id="6" space=" ">Karte</W>
+<W cur="38" id="7" space=" ">für</W>
+<W cur="42" id="8" space=" ">Darfur</W>
+<W cur="49" id="9" space="&#xA;">In</W>
+<W cur="52" id="10" space=" ">einer</W>
+<W cur="58" id="11" space=" ">vielbeachteten</W>
+<W cur="73" id="12" space=" ">Geste</W>
+<W cur="79" id="13" space=" ">reiste</W>
+<W cur="86" id="14" space=" ">Steven</W>
+<W cur="93" id="15" space=" ">Spielberg</W>
+<W cur="103" id="16" space=" ">von</W>
+<W cur="107" id="17" space=" ">den</W>
+<W cur="111" id="18" space=" ">Olympischen</W>
+<W cur="123" id="19" space=" ">Spielen</W>
+<W cur="131" id="20" space=" ">in</W>
+<W cur="134" id="21" space=" ">Peking</W>
+<W cur="141" id="22" space=" ">ab</W>
+<W cur="143" id="23">,</W>
+<W cur="145" id="24" space=" ">um</W>
+<W cur="148" id="25" space=" ">gegen</W>
+<W cur="154" id="26" space=" ">Chinas</W>
+<W cur="161" id="27" space=" ">Unterstützung</W>
+<W cur="175" id="28" space=" ">für</W>
+<W cur="179" id="29" space=" ">Sudans</W>
+<W cur="186" id="30" space=" ">Politik</W>
+<W cur="194" id="31" space=" ">in</W>
+<W cur="197" id="32" space=" ">Darfur</W>
+<W cur="204" id="33" space=" ">zu</W>
+<W cur="207" id="34" space=" ">protestieren</W>
+<W cur="219" id="35">.</W>
+<W cur="221" id="36" space=" ">Seine</W>
+<W cur="227" id="37" space=" ">Aktion</W>
+<W cur="234" id="38" space=" ">kommt</W>
+<W cur="240" id="39" space=" ">im</W>
+<W cur="243" id="40" space=" ">Zuge</W>
+<W cur="248" id="41" space=" ">des</W>
+<W cur="252" id="42" space=" ">Kampfes</W>
+<W cur="260" id="43" space=" ">gegen</W>
+<W cur="266" id="44" space=" ">ein</W>
+<W cur="270" id="45" space=" ">erneutes</W>
+<W cur="279" id="46" space=" ">Aufflammen</W>
+<W cur="290" id="47" space=" ">der</W>
+<W cur="294" id="48" space=" ">Krise</W>
+<W cur="300" id="49" space=" ">in</W>
+<W cur="303" id="50" space=" ">Darfur</W>
+<W cur="310" id="51" space=" ">und</W>
+<W cur="314" id="52" space=" ">soll</W>
+<W cur="319" id="53" space=" ">China</W>
+<W cur="325" id="54" space=" ">in</W>
+<W cur="328" id="55" space=" ">Verlegenheit</W>
+<W cur="341" id="56" space=" ">bringen</W>
+<W cur="348" id="57">,</W>
+<W cur="350" id="58" space=" ">das</W>
+<W cur="354" id="59" space=" ">versucht</W>
+<W cur="362" id="60">,</W>
+<W cur="364" id="61" space=" ">die</W>
+<W cur="368" id="62" space=" ">negativen</W>
+<W cur="378" id="63" space=" ">Auswirkungen</W>
+<W cur="391" id="64" space=" ">mit</W>
+<W cur="395" id="65" space=" ">engen</W>
+<W cur="401" id="66" space=" ">Beziehungen</W>
+<W cur="413" id="67" space=" ">zu</W>
+<W cur="416" id="68" space=" ">der</W>
+<W cur="420" id="69" space=" ">sudanesischen</W>
+<W cur="434" id="70" space=" ">Regierung</W>
+<W cur="444" id="71" space=" ">zu</W>
+<W cur="447" id="72" space=" ">stoppen</W>
+<W cur="454" id="73">.</W>
+<W cur="456" id="74" space=" ">China</W>
+<W cur="461" id="75">,</W>
+<W cur="463" id="76" space=" ">das</W>
+<W cur="467" id="77" space=" ">umfangreiche</W>
+<W cur="480" id="78" space=" ">Investitionen</W>
+<W cur="494" id="79" space=" ">in</W>
+<W cur="497" id="80" space=" ">die</W>
+<W cur="501" id="81" space=" ">sudanesische</W>
+<W cur="514" id="82" space=" ">Ölindustrie</W>
+<W cur="526" id="83" space=" ">getätigt</W>
+<W cur="535" id="84" space=" ">hat</W>
+<W cur="538" id="85">,</W>
+<W cur="540" id="86" space=" ">unterhält</W>
+<W cur="550" id="87" space=" ">enge</W>
+<W cur="555" id="88" space=" ">Beziehungen</W>
+<W cur="567" id="89" space=" ">mit</W>
+<W cur="571" id="90" space=" ">der</W>
+<W cur="575" id="91" space=" ">Regierung</W>
+<W cur="584" id="92">,</W>
+<W cur="586" id="93" space=" ">von</W>
+<W cur="590" id="94" space=" ">der</W>
+<W cur="594" id="95" space=" ">ein</W>
+<W cur="598" id="96" space=" ">Minister</W>
+<W cur="607" id="97" space=" ">wegen</W>
+<W cur="613" id="98" space=" ">Verbrechen</W>
+<W cur="624" id="99" space=" ">gegen</W>
+<W cur="630" id="100" space=" ">die</W>
+<W cur="634" id="101" space=" ">Menschlichkeit</W>
+<W cur="649" id="102" space=" ">vor</W>
+<W cur="653" id="103" space=" ">den</W>
+<W cur="657" id="104" space=" ">Internationalen</W>
+<W cur="673" id="105" space=" ">Strafgerichtshof</W>
+<W cur="690" id="106" space=" ">in</W>
+<W cur="693" id="107" space=" ">Den</W>
+<W cur="697" id="108" space=" ">Haag</W>
+<W cur="702" id="109" space=" ">geladen</W>
+<W cur="710" id="110" space=" ">ist</W>
+<W cur="713" id="111">.</W>
+<W cur="715" id="112" space=" ">Obwohl</W>
+<W cur="722" id="113" space=" ">betont</W>
+<W cur="729" id="114" space=" ">wird</W>
+<W cur="733" id="115">,</W>
+<W cur="735" id="116" space=" ">dass</W>
+<W cur="740" id="117" space=" ">Khartum</W>
+<W cur="748" id="118" space=" ">den</W>
+<W cur="752" id="119" space=" ">Hauptteil</W>
+<W cur="762" id="120" space=" ">der</W>
+<W cur="766" id="121" space=" ">Verantwortung</W>
+<W cur="780" id="122" space=" ">für</W>
+<W cur="784" id="123" space=" ">die</W>
+<W cur="788" id="124" space=" ">andauernden</W>
+<W cur="800" id="125" space=" ">Gräueltaten</W>
+<W cur="812" id="126" space=" ">trägt</W>
+<W cur="817" id="127">,</W>
+<W cur="819" id="128" space=" ">beharrt</W>
+<W cur="827" id="129" space=" ">Spielberg</W>
+<W cur="837" id="130" space=" ">darauf</W>
+<W cur="843" id="131">,</W>
+<W cur="845" id="132" space=" ">dass</W>
+<W cur="850" id="133" space=" ">die</W>
+<W cur="854" id="134" space=" ">internationale</W>
+<W cur="869" id="135" space=" ">Gemeinschaft</W>
+<W cur="881" id="136">,</W>
+<W cur="883" id="137" space=" ">insbesondere</W>
+<W cur="896" id="138" space=" ">China</W>
+<W cur="901" id="139">,</W>
+<W cur="903" id="140" space=" ">mehr</W>
+<W cur="908" id="141" space=" ">tun</W>
+<W cur="912" id="142" space=" ">sollte</W>
+<W cur="918" id="143">,</W>
+<W cur="920" id="144" space=" ">um</W>
+<W cur="923" id="145" space=" ">das</W>
+<W cur="927" id="146" space=" ">Leiden</W>
+<W cur="934" id="147" space=" ">zu</W>
+<W cur="937" id="148" space=" ">beenden</W>
+<W cur="944" id="149">.</W>
 </Text>

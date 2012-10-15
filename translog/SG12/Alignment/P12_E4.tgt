@@ -1,112 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Text language="de" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
- <W cur="0" id="1" lemma="Entwicklungsland" pos="NN">Entwicklungsländer</W>
- <W cur="19" id="2" lemma="sein" pos="VAFIN" space=" ">sind</W>
- <W cur="24" id="3" lemma="verständlicherweise" pos="ADV" space=" ">verständlicherweise</W>
- <W cur="44" id="4" lemma="zurückhaltend" pos="ADJD" space=" ">zurückhaltend</W>
- <W cur="57" id="5" lemma="," pos="$,">,</W>
- <W cur="59" id="6" lemma="die" pos="ART" space=" ">die</W>
- <W cur="63" id="7" lemma="wirtschaftlich" pos="ADJA" space=" ">wirtschaftliche</W>
- <W cur="79" id="8" lemma="Entwicklung" pos="NN" space=" ">Entwicklung</W>
- <W cur="91" id="9" lemma="durch" pos="APPR" space=" ">durch</W>
- <W cur="97" id="10" lemma="Maßnahme" pos="NN" space=" ">Maßnahmen</W>
- <W cur="107" id="11" lemma="gegen" pos="APPR" space=" ">gegen</W>
- <W cur="113" id="12" lemma="die" pos="ART" space=" ">den</W>
- <W cur="117" id="13" lemma="Klimawandel" pos="NN" space=" ">Klimawandel</W>
- <W cur="128" id="14" lemma="," pos="$,">,</W>
- <W cur="130" id="15" lemma="und" pos="KON" space=" ">und</W>
- <W cur="134" id="16" lemma="damit" pos="KOUS" space=" ">damit</W>
- <W cur="140" id="17" lemma="ihr" pos="PPOSAT" space=" ">ihre</W>
- <W cur="145" id="18" lemma="Chance" pos="NN" space=" ">Chancen</W>
- <W cur="153" id="19" lemma="auf" pos="APPR" space=" ">auf</W>
- <W cur="157" id="20" lemma="die" pos="ART" space=" ">die</W>
- <W cur="161" id="21" lemma="Verbesserung" pos="NN" space=" ">Verbesserung</W>
- <W cur="174" id="22" lemma="die" pos="ART" space=" ">des</W>
- <W cur="178" id="23" lemma="Lebensstandard" pos="NN" space=" ">Lebensstandards</W>
- <W cur="194" id="24" lemma="für" pos="APPR" space=" ">für</W>
- <W cur="198" id="25" lemma="die" pos="ART" space=" ">die</W>
- <W cur="202" id="26" lemma="Arm|Arme" pos="NN" space=" ">Armen</W>
- <W cur="208" id="27" lemma="zu" pos="PTKZU" space=" ">zu</W>
- <W cur="211" id="28" lemma="gefährden" pos="VVINF" space=" ">gefährden</W>
- <W boundary="sentence" cur="220" id="29" lemma="." pos="$.">.</W>
- <W cur="222" id="30" lemma="es" pos="PPER" space=" ">Es</W>
- <W cur="225" id="31" lemma="werden" pos="VAFIN" space=" ">werden</W>
- <W cur="232" id="32" lemma="daher" pos="PAV" space=" ">daher</W>
- <W cur="238" id="33" lemma="Anreiz" pos="NN" space=" ">Anreize</W>
- <W cur="246" id="34" lemma="anbieten" pos="VVPP" space=" ">angeboten</W>
- <W cur="255" id="35" lemma="," pos="$,">,</W>
- <W cur="257" id="36" lemma="Entwicklungsland" pos="NN" space=" ">Entwicklungsländer</W>
- <W cur="276" id="37" lemma="zu" pos="PTKZU" space=" ">zu</W>
- <W cur="279" id="38" lemma="fördern" pos="VVINF" space=" ">fördern</W>
- <W cur="286" id="39" lemma="," pos="$,">,</W>
- <W cur="288" id="40" lemma="um" pos="KOUI" space=" ">um</W>
- <W cur="291" id="41" lemma="sie" pos="PPER" space=" ">ihnen</W>
- <W cur="297" id="42" lemma="zusätzlich" pos="ADJD" space=" ">zusätzlich</W>
- <W cur="308" id="43" lemma="grün" pos="ADJA" space=" ">grüne</W>
- <W cur="314" id="44" lemma="Standard" pos="NN" space=" ">Standards</W>
- <W cur="324" id="45" lemma="zu" pos="PTKZU" space=" ">zu</W>
- <W cur="327" id="46" lemma="ermöglichen" pos="VVINF" space=" ">ermöglichen</W>
- <W cur="339" id="47" lemma="und" pos="KON" space=" ">und</W>
- <W cur="343" id="48" lemma="sauber" pos="ADJA" space=" ">saubere</W>
- <W cur="351" id="49" lemma="Technologie" pos="NN" space=" ">Technologien</W>
- <W cur="364" id="50" lemma="zu" pos="PTKZU" space=" ">zu</W>
- <W cur="367" id="51" lemma="implementieren" pos="VVINF" space=" ">implementieren</W>
- <W cur="381" id="52" lemma="," pos="$,">,</W>
- <W cur="383" id="53" lemma="was" pos="PRELS" space=" ">was</W>
- <W cur="387" id="54" lemma="auch" pos="ADV" space=" ">auch</W>
- <W cur="392" id="55" lemma="zu" pos="APPRART" space=" ">zur</W>
- <W cur="396" id="56" lemma="Minimierung" pos="NN" space=" ">Minimierung</W>
- <W cur="408" id="57" lemma="von" pos="APPR" space=" ">von</W>
- <W cur="412" id="58" lemma="Emission" pos="NN" space=" ">Emissionen</W>
- <W cur="423" id="59" lemma="aus" pos="APPR" space=" ">aus</W>
- <W cur="427" id="60" lemma="Entwaldung" pos="NN" space=" ">Entwaldung</W>
- <W cur="438" id="61" lemma="führen" pos="VVINF" space=" ">führen</W>
- <W cur="445" id="62" lemma="können" pos="VMFIN" space=" ">könnte</W>
- <W boundary="sentence" cur="451" id="63" lemma="." pos="$.">.</W>
- <W cur="453" id="64" lemma="einige" pos="PIS" space=" ">Einige</W>
- <W cur="460" id="65" lemma="die" pos="ART" space=" ">der</W>
- <W cur="464" id="66" lemma="an" pos="APPRART" space=" ">am</W>
- <W cur="467" id="67" lemma="meiste" pos="PIS" space=" ">meisten</W>
- <W cur="475" id="68" lemma="gefährdet" pos="ADJA" space=" ">gefährdeten</W>
- <W cur="487" id="69" lemma="Land" pos="NN" space=" ">Ländern</W>
- <W cur="495" id="70" lemma="die" pos="ART" space=" ">der</W>
- <W cur="499" id="71" lemma="Welt" pos="NN" space=" ">Welt</W>
- <W cur="503" id="72" lemma="," pos="$,">,</W>
- <W cur="505" id="73" lemma="die" pos="PRELS" space=" ">die</W>
- <W cur="509" id="74" lemma="an" pos="APPRART" space=" ">am</W>
- <W cur="512" id="75" lemma="wenigst" pos="PIS" space=" ">wenigsten</W>
- <W cur="522" id="76" lemma="zu" pos="APPRART" space=" ">zum</W>
- <W cur="526" id="77" lemma="Klimawandel" pos="NN" space=" ">Klimawandel</W>
- <W cur="538" id="78" lemma="beitragen" pos="VVPP" space=" ">beigetragen</W>
- <W cur="550" id="79" lemma="haben" pos="VAFIN" space=" ">haben</W>
- <W cur="555" id="80" lemma="," pos="$,">,</W>
- <W cur="557" id="81" lemma="spüren" pos="VVFIN" space=" ">spüren</W>
- <W cur="564" id="82" lemma="aber" pos="ADV" space=" ">aber</W>
- <W cur="569" id="83" lemma="die" pos="ART" space=" ">die</W>
- <W cur="573" id="84" lemma="Hauptlast" pos="NN" space=" ">Hauptlast</W>
- <W cur="583" id="85" lemma="davon" pos="PTKVZ" space=" ">davon</W>
- <W boundary="sentence" cur="588" id="86" lemma="." pos="$.">.</W>
- <W cur="590" id="87" lemma="insbesondere" pos="ADV" space=" ">Insbesondere</W>
- <W cur="603" id="88" lemma="Entwicklungsland" pos="NN" space=" ">Entwicklungsländer</W>
- <W cur="622" id="89" lemma="müssen" pos="VMFIN" space=" ">müssen</W>
- <W cur="629" id="90" lemma="sich" pos="PRF" space=" ">sich</W>
- <W cur="634" id="91" lemma="an" pos="APPR" space=" ">an</W>
- <W cur="637" id="92" lemma="die" pos="ART" space=" ">die</W>
- <W cur="641" id="93" lemma="Auswirkung" pos="NN" space=" ">Auswirkungen</W>
- <W cur="654" id="94" lemma="die" pos="ART" space=" ">des</W>
- <W cur="658" id="95" lemma="Klimawandel" pos="NN" space=" ">Klimawandels</W>
- <W cur="671" id="96" lemma="anpassen" pos="VVINF" space=" ">anpassen</W>
- <W boundary="sentence" cur="679" id="97" lemma="." pos="$.">.</W>
- <W cur="681" id="98" lemma="Bemühung" pos="NN" space=" ">Bemühungen</W>
- <W cur="692" id="99" lemma="um" pos="APPR" space=" ">um</W>
- <W cur="695" id="100" lemma="Anpassung" pos="NN" space=" ">Anpassung</W>
- <W cur="705" id="101" lemma="und" pos="KON" space=" ">und</W>
- <W cur="709" id="102" lemma="Klimaschutz" pos="NN" space=" ">Klimaschutz</W>
- <W cur="721" id="103" lemma="müssen" pos="VMFIN" space=" ">müssen</W>
- <W cur="728" id="104" lemma="daher" pos="PAV" space=" ">daher</W>
- <W cur="734" id="105" lemma="Hand" pos="NN" space=" ">Hand</W>
- <W cur="739" id="106" lemma="in" pos="APPR" space=" ">in</W>
- <W cur="742" id="107" lemma="Hand" pos="NN" space=" ">Hand</W>
- <W cur="747" id="108" lemma="gehen" pos="VVINF" space=" ">gehen</W>
- <W boundary="sentence" cur="752" id="109" lemma="." pos="$.">.</W>
+<Text language="de" >
+<W cur="0" id="1">Entwicklungsländer</W>
+<W cur="19" id="2" space=" ">sind</W>
+<W cur="24" id="3" space=" ">verständlicherweise</W>
+<W cur="44" id="4" space=" ">zurückhaltend</W>
+<W cur="57" id="5">,</W>
+<W cur="59" id="6" space=" ">die</W>
+<W cur="63" id="7" space=" ">wirtschaftliche</W>
+<W cur="79" id="8" space=" ">Entwicklung</W>
+<W cur="91" id="9" space=" ">durch</W>
+<W cur="97" id="10" space=" ">Maßnahmen</W>
+<W cur="107" id="11" space=" ">gegen</W>
+<W cur="113" id="12" space=" ">den</W>
+<W cur="117" id="13" space=" ">Klimawandel</W>
+<W cur="128" id="14">,</W>
+<W cur="130" id="15" space=" ">und</W>
+<W cur="134" id="16" space=" ">damit</W>
+<W cur="140" id="17" space=" ">ihre</W>
+<W cur="145" id="18" space=" ">Chancen</W>
+<W cur="153" id="19" space=" ">auf</W>
+<W cur="157" id="20" space=" ">die</W>
+<W cur="161" id="21" space=" ">Verbesserung</W>
+<W cur="174" id="22" space=" ">des</W>
+<W cur="178" id="23" space=" ">Lebensstandards</W>
+<W cur="194" id="24" space=" ">für</W>
+<W cur="198" id="25" space=" ">die</W>
+<W cur="202" id="26" space=" ">Armen</W>
+<W cur="208" id="27" space=" ">zu</W>
+<W cur="211" id="28" space=" ">gefährden</W>
+<W cur="220" id="29">.</W>
+<W cur="222" id="30" space=" ">Es</W>
+<W cur="225" id="31" space=" ">werden</W>
+<W cur="232" id="32" space=" ">daher</W>
+<W cur="238" id="33" space=" ">Anreize</W>
+<W cur="246" id="34" space=" ">angeboten</W>
+<W cur="255" id="35">,</W>
+<W cur="257" id="36" space=" ">Entwicklungsländer</W>
+<W cur="276" id="37" space=" ">zu</W>
+<W cur="279" id="38" space=" ">fördern</W>
+<W cur="286" id="39">,</W>
+<W cur="288" id="40" space=" ">um</W>
+<W cur="291" id="41" space=" ">ihnen</W>
+<W cur="297" id="42" space=" ">zusätzlich</W>
+<W cur="308" id="43" space=" ">grüne</W>
+<W cur="314" id="44" space=" ">Standards</W>
+<W cur="324" id="45" space=" ">zu</W>
+<W cur="327" id="46" space=" ">ermöglichen</W>
+<W cur="339" id="47" space=" ">und</W>
+<W cur="343" id="48" space=" ">saubere</W>
+<W cur="351" id="49" space=" ">Technologien</W>
+<W cur="364" id="50" space=" ">zu</W>
+<W cur="367" id="51" space=" ">implementieren</W>
+<W cur="381" id="52">,</W>
+<W cur="383" id="53" space=" ">was</W>
+<W cur="387" id="54" space=" ">auch</W>
+<W cur="392" id="55" space=" ">zur</W>
+<W cur="396" id="56" space=" ">Minimierung</W>
+<W cur="408" id="57" space=" ">von</W>
+<W cur="412" id="58" space=" ">Emissionen</W>
+<W cur="423" id="59" space=" ">aus</W>
+<W cur="427" id="60" space=" ">Entwaldung</W>
+<W cur="438" id="61" space=" ">führen</W>
+<W cur="445" id="62" space=" ">könnte</W>
+<W cur="451" id="63">.</W>
+<W cur="453" id="64" space=" ">Einige</W>
+<W cur="460" id="65" space=" ">der</W>
+<W cur="464" id="66" space=" ">am</W>
+<W cur="467" id="67" space=" ">meisten</W>
+<W cur="475" id="68" space=" ">gefährdeten</W>
+<W cur="487" id="69" space=" ">Ländern</W>
+<W cur="495" id="70" space=" ">der</W>
+<W cur="499" id="71" space=" ">Welt</W>
+<W cur="503" id="72">,</W>
+<W cur="505" id="73" space=" ">die</W>
+<W cur="509" id="74" space=" ">am</W>
+<W cur="512" id="75" space=" ">wenigsten</W>
+<W cur="522" id="76" space=" ">zum</W>
+<W cur="526" id="77" space=" ">Klimawandel</W>
+<W cur="538" id="78" space=" ">beigetragen</W>
+<W cur="550" id="79" space=" ">haben</W>
+<W cur="555" id="80">,</W>
+<W cur="557" id="81" space=" ">spüren</W>
+<W cur="564" id="82" space=" ">aber</W>
+<W cur="569" id="83" space=" ">die</W>
+<W cur="573" id="84" space=" ">Hauptlast</W>
+<W cur="583" id="85" space=" ">davon</W>
+<W cur="588" id="86">.</W>
+<W cur="590" id="87" space=" ">Insbesondere</W>
+<W cur="603" id="88" space=" ">Entwicklungsländer</W>
+<W cur="622" id="89" space=" ">müssen</W>
+<W cur="629" id="90" space=" ">sich</W>
+<W cur="634" id="91" space=" ">an</W>
+<W cur="637" id="92" space=" ">die</W>
+<W cur="641" id="93" space=" ">Auswirkungen</W>
+<W cur="654" id="94" space=" ">des</W>
+<W cur="658" id="95" space=" ">Klimawandels</W>
+<W cur="671" id="96" space=" ">anpassen</W>
+<W cur="679" id="97">.</W>
+<W cur="681" id="98" space=" ">Bemühungen</W>
+<W cur="692" id="99" space=" ">um</W>
+<W cur="695" id="100" space=" ">Anpassung</W>
+<W cur="705" id="101" space=" ">und</W>
+<W cur="709" id="102" space=" ">Klimaschutz</W>
+<W cur="721" id="103" space=" ">müssen</W>
+<W cur="728" id="104" space=" ">daher</W>
+<W cur="734" id="105" space=" ">Hand</W>
+<W cur="739" id="106" space=" ">in</W>
+<W cur="742" id="107" space=" ">Hand</W>
+<W cur="747" id="108" space=" ">gehen</W>
+<W cur="752" id="109">.</W>
 </Text>

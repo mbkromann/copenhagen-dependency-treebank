@@ -1,150 +1,149 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Text language="de" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
- <W cur="0" id="1" lemma="die" pos="ART">Die</W>
- <W cur="4" id="2" lemma="Soziologie" pos="NN" space=" ">Soziologie</W>
- <W cur="15" id="3" lemma="sein" pos="VAFIN" space=" ">ist</W>
- <W cur="19" id="4" lemma="eine" pos="ART" space=" ">eine</W>
- <W cur="24" id="5" lemma="relativ" pos="ADJD" space=" ">relativ</W>
- <W cur="32" id="6" lemma="neu" pos="ADJA" space=" ">neue</W>
- <W cur="37" id="7" lemma="wissenschaftlich" pos="ADJA" space=" ">wissenschaftliche</W>
- <W cur="55" id="8" lemma="Disziplin" pos="NN" space=" ">Disziplin</W>
- <W boundary="sentence" cur="64" id="9" lemma="." pos="$.">.</W>
- <W cur="66" id="10" lemma="Sie|sie" pos="PPER" space=" ">Sie</W>
- <W cur="70" id="11" lemma="werden" pos="VAFIN" space=" ">wurde</W>
- <W cur="76" id="12" lemma="in" pos="APPRART" space=" ">im</W>
- <W cur="79" id="13" lemma="früh" pos="ADJA" space=" ">frühen</W>
- <W cur="86" id="14" lemma="19" pos="CARD" space=" ">19</W>
- <W boundary="sentence" cur="88" id="15" lemma="." pos="$.">.</W>
- <W cur="90" id="16" lemma="Jahrhundert" pos="NN" space=" ">Jahrhundert</W>
- <W cur="102" id="17" lemma="als" pos="KOKOM" space=" ">als</W>
- <W cur="106" id="18" lemma="Reaktion" pos="NN" space=" ">Reaktion</W>
- <W cur="115" id="19" lemma="auf" pos="APPR" space=" ">auf</W>
- <W cur="119" id="20" lemma="die" pos="ART" space=" ">die</W>
- <W cur="123" id="21" lemma="Herausforderung" pos="NN" space=" ">Herausforderungen</W>
- <W cur="141" id="22" lemma="die" pos="ART" space=" ">der</W>
- <W cur="145" id="23" lemma="Moderne" pos="NN" space=" ">Moderne</W>
- <W cur="153" id="24" lemma="in" pos="APPRART" space=" ">ins</W>
- <W cur="157" id="25" lemma="Leben" pos="NN" space=" ">Leben</W>
- <W cur="163" id="26" lemma="rufen" pos="VVPP" space=" ">gerufen</W>
- <W boundary="sentence" cur="170" id="27" lemma="." pos="$.">.</W>
- <W cur="172" id="28" lemma="zunehmend" pos="ADJA" space=" ">Zunehmende</W>
- <W cur="183" id="29" lemma="Mobilität" pos="NN" space=" ">Mobilität</W>
- <W cur="193" id="30" lemma="und" pos="KON" space=" ">und</W>
- <W cur="197" id="31" lemma="die" pos="ART" space=" ">der</W>
- <W cur="201" id="32" lemma="technologisch" pos="ADJA" space=" ">technologische</W>
- <W cur="216" id="33" lemma="Fortschritt" pos="NN" space=" ">Fortschritt</W>
- <W cur="228" id="34" lemma="führen" pos="VVFIN" space=" ">führten</W>
- <W cur="236" id="35" lemma="zu" pos="APPR" space=" ">zu</W>
- <W cur="239" id="36" lemma="zunehmend" pos="ADJA" space=" ">zunehmenden</W>
- <W cur="251" id="37" lemma="Kontakt" pos="NN" space=" ">Kontakt</W>
- <W cur="259" id="38" lemma="mit" pos="APPR" space=" ">mit</W>
- <W cur="263" id="39" lemma="Kultur" pos="NN" space=" ">Kulturen</W>
- <W cur="272" id="40" lemma="und" pos="KON" space=" ">und</W>
- <W cur="276" id="41" lemma="Gesellschaft" pos="NN" space=" ">Gesellschaften</W>
- <W cur="290" id="42" lemma="," pos="$,">,</W>
- <W cur="292" id="43" lemma="die" pos="PRELS" space=" ">die</W>
- <W cur="296" id="44" lemma="sich" pos="PRF" space=" ">sich</W>
- <W cur="301" id="45" lemma="von" pos="APPR" space=" ">von</W>
- <W cur="305" id="46" lemma="die" pos="ART" space=" ">der</W>
- <W cur="309" id="47" lemma="eigen" pos="ADJA" space=" ">eigenen</W>
- <W cur="317" id="48" lemma="unterscheiden" pos="VVPP" space=" ">unterschieden</W>
- <W boundary="sentence" cur="330" id="49" lemma="." pos="$.">.</W>
- <W cur="332" id="50" lemma="die" pos="ART" space=" ">Die</W>
- <W cur="336" id="51" lemma="Auswirkung" pos="NN" space=" ">Auswirkungen</W>
- <W cur="349" id="52" lemma="dies" pos="PDAT" space=" ">dieses</W>
- <W cur="356" id="53" lemma="Kontakt" pos="NN" space=" ">Kontakts</W>
- <W cur="365" id="54" lemma="sein" pos="VAFIN" space=" ">waren</W>
- <W cur="371" id="55" lemma="unterschiedlich" pos="ADJD" space=" ">unterschiedlich</W>
- <W cur="386" id="56" lemma="," pos="$,">,</W>
- <W cur="388" id="57" lemma="aber" pos="ADV" space=" ">aber</W>
- <W cur="393" id="58" lemma="für" pos="APPR" space=" ">für</W>
- <W cur="397" id="59" lemma="einig" pos="PIAT" space=" ">einige</W>
- <W cur="404" id="60" lemma="Mensch" pos="NN" space=" ">Menschen</W>
- <W cur="413" id="61" lemma="bedeuten" pos="VVFIN" space=" ">bedeutete</W>
- <W cur="423" id="62" lemma="er" pos="PPER" space=" ">er</W>
- <W cur="426" id="63" lemma="auch" pos="ADV" space=" ">auch</W>
- <W cur="431" id="64" lemma="die" pos="ART" space=" ">die</W>
- <W cur="435" id="65" lemma="Auflösung" pos="NN" space=" ">Auflösung</W>
- <W cur="445" id="66" lemma="von" pos="APPR" space=" ">von</W>
- <W cur="449" id="67" lemma="traditionell" pos="ADJA" space=" ">traditionellen</W>
- <W cur="464" id="68" lemma="Norm" pos="NN" space=" ">Normen</W>
- <W cur="471" id="69" lemma="und" pos="KON" space=" ">und</W>
- <W cur="475" id="70" lemma="Gebrauch" pos="NN" space=" ">Gebräuchen</W>
- <W cur="486" id="71" lemma="und" pos="KON" space=" ">und</W>
- <W cur="490" id="72" lemma="rechtfertigen" pos="VVFIN" space=" ">rechtfertigte</W>
- <W cur="504" id="73" lemma="eine" pos="ART" space=" ">ein</W>
- <W cur="508" id="74" lemma="neu" pos="ADJA" space=" ">neues</W>
- <W cur="514" id="75" lemma="Verständnis" pos="NN" space=" ">Verständnis</W>
- <W cur="526" id="76" lemma="davon" pos="PAV" space=" ">davon</W>
- <W cur="531" id="77" lemma="," pos="$,">,</W>
- <W cur="533" id="78" lemma="wie" pos="KOUS" space=" ">wie</W>
- <W cur="537" id="79" lemma="die" pos="ART" space=" ">die</W>
- <W cur="541" id="80" lemma="Welt" pos="NN" space=" ">Welt</W>
- <W cur="546" id="81" lemma="funktionieren" pos="VVFIN" space=" ">funktioniert</W>
- <W boundary="sentence" cur="558" id="82" lemma="." pos="$.">.</W>
- <W cur="560" id="83" lemma="Soziologe" pos="NN" space=" ">Soziologen</W>
- <W cur="571" id="84" lemma="reagieren" pos="VVFIN" space=" ">reagierten</W>
- <W cur="582" id="85" lemma="auf" pos="APPR" space=" ">auf</W>
- <W cur="586" id="86" lemma="dies" pos="PDAT" space=" ">diese</W>
- <W cur="592" id="87" lemma="Veränderung" pos="NN" space=" ">Veränderungen</W>
- <W cur="605" id="88" lemma="," pos="$,">,</W>
- <W cur="607" id="89" lemma="indem" pos="KOUS" space=" ">indem</W>
- <W cur="613" id="90" lemma="Sie|sie" pos="PPER" space=" ">Sie</W>
- <W cur="617" id="91" lemma="versuchen" pos="VVFIN" space=" ">versuchten</W>
- <W cur="627" id="92" lemma="," pos="$,">,</W>
- <W cur="629" id="93" lemma="zu" pos="PTKZU" space=" ">zu</W>
- <W cur="632" id="94" lemma="verstehen" pos="VVINF" space=" ">verstehen</W>
- <W cur="641" id="95" lemma="," pos="$,">,</W>
- <W cur="643" id="96" lemma="was" pos="PRELS" space=" ">was</W>
- <W cur="647" id="97" lemma="sozial" pos="ADJA" space=" ">soziale</W>
- <W cur="655" id="98" lemma="Gruppe" pos="NN" space=" ">Gruppen</W>
- <W cur="663" id="99" lemma="zusammenhalten" pos="VVFIN" space=" ">zusammenhält</W>
- <W cur="676" id="100" lemma="und" pos="KON" space=" ">und</W>
- <W cur="680" id="101" lemma="auch" pos="ADV" space=" ">auch</W>
- <W cur="685" id="102" lemma="möglich" pos="ADJA" space=" ">mögliche</W>
- <W cur="694" id="103" lemma="Lösung" pos="NN" space=" ">Lösungen</W>
- <W cur="703" id="104" lemma="für" pos="APPR" space=" ">für</W>
- <W cur="707" id="105" lemma="die" pos="ART" space=" ">den</W>
- <W cur="711" id="106" lemma="Rückgang" pos="NN" space=" ">Rückgang</W>
- <W cur="720" id="107" lemma="sozial" pos="ADJA" space=" ">sozialer</W>
- <W cur="729" id="108" lemma="Solidarität" pos="NN" space=" ">Solidarität</W>
- <W cur="741" id="109" lemma="erforschen" pos="VVFIN" space=" ">erforschten</W>
- <W boundary="sentence" cur="752" id="110" lemma="." pos="$.">.</W>
- <W cur="754" id="111" lemma="die" pos="ART" space=" ">Der</W>
- <W cur="758" id="112" lemma="Begriff" pos="NN" space=" ">Begriff</W>
- <W cur="766" id="113" lemma="Soziologie" pos="NN" space=" ">Soziologie</W>
- <W cur="777" id="114" lemma="werden" pos="VAFIN" space=" ">wurde</W>
- <W cur="783" id="115" lemma="von" pos="APPR" space=" ">von</W>
- <W cur="787" id="116" lemma="Auguste" pos="NE" space=" ">Auguste</W>
- <W cur="795" id="117" lemma="_" pos="NN" space=" ">Comte</W>
- <W cur="801" id="118" lemma="(" pos="$(">(</W>
- <W cur="802" id="119" lemma="@card@" pos="CARD">1798</W>
- <W cur="806" id="120" lemma="-" pos="$(">-</W>
- <W cur="807" id="121" lemma="@card@" pos="CARD">1857</W>
- <W cur="811" id="122" lemma=")" pos="$(">)</W>
- <W cur="813" id="123" lemma="in" pos="APPRART" space=" ">im</W>
- <W cur="816" id="124" lemma="Jahr" pos="NN" space=" ">Jahre</W>
- <W cur="822" id="125" lemma="@card@" pos="CARD" space=" ">1838</W>
- <W cur="827" id="126" lemma="von" pos="APPR" space=" ">von</W>
- <W cur="831" id="127" lemma="die" pos="ART" space=" ">dem</W>
- <W cur="835" id="128" lemma="lateinisch" pos="ADJA" space=" ">lateinischen</W>
- <W cur="848" id="129" lemma="Begriff" pos="NN" space=" ">Begriff</W>
- <W cur="856" id="130" lemma="_" pos="NE" space=" ">socius</W>
- <W cur="863" id="131" lemma="(" pos="$(">(</W>
- <W cur="864" id="132" lemma="Begleiter" pos="NN">Begleiter</W>
- <W cur="873" id="133" lemma="," pos="$,">,</W>
- <W cur="875" id="134" lemma="Partner" pos="NN" space=" ">Partner</W>
- <W cur="882" id="135" lemma=")" pos="$(">)</W>
- <W cur="884" id="136" lemma="und" pos="KON" space=" ">und</W>
- <W cur="888" id="137" lemma="die" pos="ART" space=" ">dem</W>
- <W cur="892" id="138" lemma="griechisch" pos="ADJA" space=" ">griechischen</W>
- <W cur="905" id="139" lemma="Begriff" pos="NN" space=" ">Begriff</W>
- <W cur="913" id="140" lemma="_" pos="NE" space=" ">logia</W>
- <W cur="919" id="141" lemma="(" pos="$(">(</W>
- <W cur="920" id="142" lemma="Lehre" pos="NN">Lehre</W>
- <W cur="925" id="143" lemma="," pos="$,">,</W>
- <W cur="927" id="144" lemma="Rede" pos="NN" space=" ">Rede</W>
- <W cur="931" id="145" lemma=")" pos="$(">)</W>
- <W cur="933" id="146" lemma="prägen" pos="VVPP" space=" ">geprägt</W>
- <W boundary="sentence" cur="940" id="147" lemma="." pos="$.">.</W>
+<Text language="de" >
+<W cur="0" id="1">Die</W>
+<W cur="4" id="2" space=" ">Soziologie</W>
+<W cur="15" id="3" space=" ">ist</W>
+<W cur="19" id="4" space=" ">eine</W>
+<W cur="24" id="5" space=" ">relativ</W>
+<W cur="32" id="6" space=" ">neue</W>
+<W cur="37" id="7" space=" ">wissenschaftliche</W>
+<W cur="55" id="8" space=" ">Disziplin</W>
+<W cur="64" id="9">.</W>
+<W cur="66" id="10" space=" ">Sie</W>
+<W cur="70" id="11" space=" ">wurde</W>
+<W cur="76" id="12" space=" ">im</W>
+<W cur="79" id="13" space=" ">frühen</W>
+<W cur="86" id="14" space=" ">19</W>
+<W cur="88" id="15">.</W>
+<W cur="90" id="16" space=" ">Jahrhundert</W>
+<W cur="102" id="17" space=" ">als</W>
+<W cur="106" id="18" space=" ">Reaktion</W>
+<W cur="115" id="19" space=" ">auf</W>
+<W cur="119" id="20" space=" ">die</W>
+<W cur="123" id="21" space=" ">Herausforderungen</W>
+<W cur="141" id="22" space=" ">der</W>
+<W cur="145" id="23" space=" ">Moderne</W>
+<W cur="153" id="24" space=" ">ins</W>
+<W cur="157" id="25" space=" ">Leben</W>
+<W cur="163" id="26" space=" ">gerufen</W>
+<W cur="170" id="27">.</W>
+<W cur="172" id="28" space=" ">Zunehmende</W>
+<W cur="183" id="29" space=" ">Mobilität</W>
+<W cur="193" id="30" space=" ">und</W>
+<W cur="197" id="31" space=" ">der</W>
+<W cur="201" id="32" space=" ">technologische</W>
+<W cur="216" id="33" space=" ">Fortschritt</W>
+<W cur="228" id="34" space=" ">führten</W>
+<W cur="236" id="35" space=" ">zu</W>
+<W cur="239" id="36" space=" ">zunehmenden</W>
+<W cur="251" id="37" space=" ">Kontakt</W>
+<W cur="259" id="38" space=" ">mit</W>
+<W cur="263" id="39" space=" ">Kulturen</W>
+<W cur="272" id="40" space=" ">und</W>
+<W cur="276" id="41" space=" ">Gesellschaften</W>
+<W cur="290" id="42">,</W>
+<W cur="292" id="43" space=" ">die</W>
+<W cur="296" id="44" space=" ">sich</W>
+<W cur="301" id="45" space=" ">von</W>
+<W cur="305" id="46" space=" ">der</W>
+<W cur="309" id="47" space=" ">eigenen</W>
+<W cur="317" id="48" space=" ">unterschieden</W>
+<W cur="330" id="49">.</W>
+<W cur="332" id="50" space=" ">Die</W>
+<W cur="336" id="51" space=" ">Auswirkungen</W>
+<W cur="349" id="52" space=" ">dieses</W>
+<W cur="356" id="53" space=" ">Kontakts</W>
+<W cur="365" id="54" space=" ">waren</W>
+<W cur="371" id="55" space=" ">unterschiedlich</W>
+<W cur="386" id="56">,</W>
+<W cur="388" id="57" space=" ">aber</W>
+<W cur="393" id="58" space=" ">für</W>
+<W cur="397" id="59" space=" ">einige</W>
+<W cur="404" id="60" space=" ">Menschen</W>
+<W cur="413" id="61" space=" ">bedeutete</W>
+<W cur="423" id="62" space=" ">er</W>
+<W cur="426" id="63" space=" ">auch</W>
+<W cur="431" id="64" space=" ">die</W>
+<W cur="435" id="65" space=" ">Auflösung</W>
+<W cur="445" id="66" space=" ">von</W>
+<W cur="449" id="67" space=" ">traditionellen</W>
+<W cur="464" id="68" space=" ">Normen</W>
+<W cur="471" id="69" space=" ">und</W>
+<W cur="475" id="70" space=" ">Gebräuchen</W>
+<W cur="486" id="71" space=" ">und</W>
+<W cur="490" id="72" space=" ">rechtfertigte</W>
+<W cur="504" id="73" space=" ">ein</W>
+<W cur="508" id="74" space=" ">neues</W>
+<W cur="514" id="75" space=" ">Verständnis</W>
+<W cur="526" id="76" space=" ">davon</W>
+<W cur="531" id="77">,</W>
+<W cur="533" id="78" space=" ">wie</W>
+<W cur="537" id="79" space=" ">die</W>
+<W cur="541" id="80" space=" ">Welt</W>
+<W cur="546" id="81" space=" ">funktioniert</W>
+<W cur="558" id="82">.</W>
+<W cur="560" id="83" space=" ">Soziologen</W>
+<W cur="571" id="84" space=" ">reagierten</W>
+<W cur="582" id="85" space=" ">auf</W>
+<W cur="586" id="86" space=" ">diese</W>
+<W cur="592" id="87" space=" ">Veränderungen</W>
+<W cur="605" id="88">,</W>
+<W cur="607" id="89" space=" ">indem</W>
+<W cur="613" id="90" space=" ">Sie</W>
+<W cur="617" id="91" space=" ">versuchten</W>
+<W cur="627" id="92">,</W>
+<W cur="629" id="93" space=" ">zu</W>
+<W cur="632" id="94" space=" ">verstehen</W>
+<W cur="641" id="95">,</W>
+<W cur="643" id="96" space=" ">was</W>
+<W cur="647" id="97" space=" ">soziale</W>
+<W cur="655" id="98" space=" ">Gruppen</W>
+<W cur="663" id="99" space=" ">zusammenhält</W>
+<W cur="676" id="100" space=" ">und</W>
+<W cur="680" id="101" space=" ">auch</W>
+<W cur="685" id="102" space=" ">mögliche</W>
+<W cur="694" id="103" space=" ">Lösungen</W>
+<W cur="703" id="104" space=" ">für</W>
+<W cur="707" id="105" space=" ">den</W>
+<W cur="711" id="106" space=" ">Rückgang</W>
+<W cur="720" id="107" space=" ">sozialer</W>
+<W cur="729" id="108" space=" ">Solidarität</W>
+<W cur="741" id="109" space=" ">erforschten</W>
+<W cur="752" id="110">.</W>
+<W cur="754" id="111" space=" ">Der</W>
+<W cur="758" id="112" space=" ">Begriff</W>
+<W cur="766" id="113" space=" ">Soziologie</W>
+<W cur="777" id="114" space=" ">wurde</W>
+<W cur="783" id="115" space=" ">von</W>
+<W cur="787" id="116" space=" ">Auguste</W>
+<W cur="795" id="117" space=" ">Comte</W>
+<W cur="801" id="118">(</W>
+<W cur="802" id="119">1798</W>
+<W cur="806" id="120">-</W>
+<W cur="807" id="121">1857</W>
+<W cur="811" id="122">)</W>
+<W cur="813" id="123" space=" ">im</W>
+<W cur="816" id="124" space=" ">Jahre</W>
+<W cur="822" id="125" space=" ">1838</W>
+<W cur="827" id="126" space=" ">von</W>
+<W cur="831" id="127" space=" ">dem</W>
+<W cur="835" id="128" space=" ">lateinischen</W>
+<W cur="848" id="129" space=" ">Begriff</W>
+<W cur="856" id="130" space=" ">socius</W>
+<W cur="863" id="131">(</W>
+<W cur="864" id="132">Begleiter</W>
+<W cur="873" id="133">,</W>
+<W cur="875" id="134" space=" ">Partner</W>
+<W cur="882" id="135">)</W>
+<W cur="884" id="136" space=" ">und</W>
+<W cur="888" id="137" space=" ">dem</W>
+<W cur="892" id="138" space=" ">griechischen</W>
+<W cur="905" id="139" space=" ">Begriff</W>
+<W cur="913" id="140" space=" ">logia</W>
+<W cur="919" id="141">(</W>
+<W cur="920" id="142">Lehre</W>
+<W cur="925" id="143">,</W>
+<W cur="927" id="144" space=" ">Rede</W>
+<W cur="931" id="145">)</W>
+<W cur="933" id="146" space=" ">geprägt</W>
+<W cur="940" id="147">.</W>
 </Text>
