@@ -92,8 +92,8 @@ ProgGraph <- function(X1=0, X2=0, Y1=0, Y2=0, fix=1, pu=0, fu=0, CK=0) {
   ft  <-  c();
   fc  <-  c();
   if(fix) {
-    for (i in 1:length(Fixes$Window)) {
-      if(Fixes$Window[i] == "1") {ft[i] <- 4; fc[i] = 4;}
+    for (i in 1:length(Fixes$Win)) {
+      if(Fixes$Win[i] == "1") {ft[i] <- 4; fc[i] = 4;}
       else {ft[i] <- 3; fc[i] = 3;}
     }
   }

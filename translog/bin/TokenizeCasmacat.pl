@@ -338,6 +338,9 @@ sub ReadTranslog {
   my $type = 0;
   my $T;
   my $seg = 0;
+  # segments may span several lines, so we store parts in inSegment
+  my $inSegment = "";
+  my $segmentID = 0;
   while(defined($_ = <FILE>)) {
 #printf STDERR "Translog: %s\n",  $_;
 
@@ -351,13 +354,24 @@ sub ReadTranslog {
     elsif(/<TargetText[ >]/) {$type =2; $seg=0;}
     elsif(/<FinalText[ >]/)  {$type =3; $seg=0;}
 	
-    if(($type == 1 || $type == 2 || $type == 3)  && /<seg/i) {
-      my ($text) = $_ =~ />([^<]*)</;
-      my ($id) = $_ =~ /id="([^"]*)/i;
+    if(($type == 1 || $type == 2 || $type == 3)  && (/<seg/i || length $inSegment > 0)) {
+	if(/id="([^"]*)/i){
+	    $segmentID = $1;
+	}
+	# save segment if it ends in this line
+	if( /([^>]*)<\/seg/i){
+	    $inSegment .= $1;
+	    $inSegment =~ s/\s*\n\s*/ /g;
+	    $T->{$seg}{$type}{text} = $inSegment;
+	    $T->{$seg}{$type}{id} = $segmentID;
+	    $inSegment = "";
+	    $seg ++;
+	}
+	# otherwise store string after possible start tag
+	elsif(/([^>]+)$/){
+	    $inSegment .= $1;
+	}
 #print STDERR "Source: $seg\t$id\t$text\n";
-      $T->{$seg}{$type}{text} = $text;
-      $T->{$seg}{$type}{id} = $id;
-      $seg ++;
     }
 
     if(/<\/SourceText/) {$type =0; }

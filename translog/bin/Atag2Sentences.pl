@@ -239,6 +239,7 @@ sub ReadAtag {
 sub PrintTokens{
   my ($fn, $A) = @_;
   my $lineBreak=1;
+  my $seg=0;
 
   my @L = qw(Source Final);
   foreach my $l (@L) {
@@ -246,11 +247,14 @@ sub PrintTokens{
     foreach my $id (sort {$a<=>$b} keys %{$A->{$l}{'D'}}) {
       $A->{$l}{D}{$id}{tok} =~ s/\\([\(\)\\\/])/$1/g;
       my $tok = $A->{$l}{D}{$id}{tok};
-
-      if(defined($A->{$l}{D}{$id}{space}) && $A->{$l}{D}{$id}{space} =~ /[\n\r]/ && $lineBreak==0)  {print FILE "\n";}
+##print STDERR "XXXX\t $A->{$l}{D}{$id}{segId})\n";
+      if(defined($A->{$l}{D}{$id}{segId})){ 
+        if($seg ne $A->{$l}{D}{$id}{segId}) { print FILE "\n"; $seg = $A->{$l}{D}{$id}{segId}}
+      }
+      elsif(defined($A->{$l}{D}{$id}{space}) && $A->{$l}{D}{$id}{space} =~ /[\n\r]/ && $lineBreak==0)  {print FILE "\n";}
       printf FILE "%s ", lc($tok);
 
-      if($tok =~ /[\x{0964}.?!|]$/) { print FILE "\n"; $lineBreak = 1;}
+      if(!defined($A->{$l}{D}{$id}{segId}) && $tok =~ /[\x{0964}.?!|]$/) { print FILE "\n"; $lineBreak = 1;}
       else {$lineBreak = 0;}
     }
     close (FILE);

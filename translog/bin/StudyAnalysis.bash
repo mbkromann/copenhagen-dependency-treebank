@@ -7,7 +7,7 @@ fi
 
 STUDY="ACS08 BD08 CFT12 HF12 BML12 JLG10 KTHJ08 LWB09 MS12 NJ12 RH12 SG12 TPR11"
 
-CASMACAT=1
+CASMACAT=0
 
 ## copy translog and Alignment data from TPR-DB to data subfolder
 function CopyData()
