@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="en" lemmatizer="nltk-wordnet-lemmatizer" sent_segmenter="nltk_sent_tokenizer" tagger="nltk-pos-tagger">
+ <W cur="0" id="1" lemma="The" pos="DT">The</W>
+ <W cur="4" id="2" lemma="majority" pos="NN" space=" ">majority</W>
+ <W cur="13" id="3" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="16" id="4" lemma="hunter" pos="NN" space=" ">hunter</W>
+ <W cur="22" id="5" lemma="-" pos=":">-</W>
+ <W cur="23" id="6" lemma="gatherer" pos="NN">gatherer</W>
+ <W cur="32" id="7" lemma="society" pos="NNS" space=" ">societies</W>
+ <W cur="42" id="8" lemma="be" pos="VBP" space=" ">are</W>
+ <W cur="46" id="9" lemma="nomadic" pos="JJ" space=" ">nomadic</W>
+ <W boundary="sentence" cur="53" id="10" lemma="." pos=".">.</W>
+ <W cur="55" id="11" lemma="It" pos="PRP" space=" ">It</W>
+ <W cur="58" id="12" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="61" id="13" lemma="difficult" pos="JJ" space=" ">difficult</W>
+ <W cur="71" id="14" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="74" id="15" lemma="be" pos="VB" space=" ">be</W>
+ <W cur="77" id="16" lemma="settle" pos="VBN" space=" ">settled</W>
+ <W cur="85" id="17" lemma="under" pos="IN" space=" ">under</W>
+ <W cur="91" id="18" lemma="such" pos="JJ" space=" ">such</W>
+ <W cur="96" id="19" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="98" id="20" lemma="subsistence" pos="NN" space=" ">subsistence</W>
+ <W cur="110" id="21" lemma="system" pos="NN" space=" ">system</W>
+ <W cur="117" id="22" lemma="as" pos="IN" space=" ">as</W>
+ <W cur="120" id="23" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="124" id="24" lemma="resource" pos="NNS" space=" ">resources</W>
+ <W cur="134" id="25" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="137" id="26" lemma="one" pos="CD" space=" ">one</W>
+ <W cur="141" id="27" lemma="region" pos="NN" space=" ">region</W>
+ <W cur="148" id="28" lemma="can" pos="MD" space=" ">can</W>
+ <W cur="152" id="29" lemma="quickly" pos="RB" space=" ">quickly</W>
+ <W cur="160" id="30" lemma="become" pos="VB" space=" ">become</W>
+ <W cur="167" id="31" lemma="exhaust" pos="VBN" space=" ">exhausted</W>
+ <W boundary="sentence" cur="176" id="32" lemma="." pos=".">.</W>
+ <W cur="178" id="33" lemma="Hunter" pos="NNP" space=" ">Hunter</W>
+ <W cur="184" id="34" lemma="-" pos=":">-</W>
+ <W cur="185" id="35" lemma="gatherer" pos="NN">gatherer</W>
+ <W cur="194" id="36" lemma="society" pos="NNS" space=" ">societies</W>
+ <W cur="204" id="37" lemma="also" pos="RB" space=" ">also</W>
+ <W cur="209" id="38" lemma="tend" pos="VBP" space=" ">tend</W>
+ <W cur="214" id="39" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="217" id="40" lemma="have" pos="VB" space=" ">have</W>
+ <W cur="222" id="41" lemma="very" pos="RB" space=" ">very</W>
+ <W cur="227" id="42" lemma="low" pos="JJ" space=" ">low</W>
+ <W cur="231" id="43" lemma="population" pos="NN" space=" ">population</W>
+ <W cur="242" id="44" lemma="density" pos="NNS" space=" ">densities</W>
+ <W cur="252" id="45" lemma="as" pos="IN" space=" ">as</W>
+ <W cur="255" id="46" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="257" id="47" lemma="result" pos="NN" space=" ">result</W>
+ <W cur="264" id="48" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="267" id="49" lemma="their" pos="PRP$" space=" ">their</W>
+ <W cur="273" id="50" lemma="subsistence" pos="NN" space=" ">subsistence</W>
+ <W cur="285" id="51" lemma="system" pos="NN" space=" ">system</W>
+ <W boundary="sentence" cur="291" id="52" lemma="." pos=".">.</W>
+ <W cur="293" id="53" lemma="Agricultural" pos="NNP" space=" ">Agricultural</W>
+ <W cur="306" id="54" lemma="subsistence" pos="NN" space=" ">subsistence</W>
+ <W cur="318" id="55" lemma="system" pos="NNS" space=" ">systems</W>
+ <W cur="326" id="56" lemma="can" pos="MD" space=" ">can</W>
+ <W cur="330" id="57" lemma="support" pos="VB" space=" ">support</W>
+ <W cur="338" id="58" lemma="population" pos="NN" space=" ">population</W>
+ <W cur="349" id="59" lemma="density" pos="NNS" space=" ">densities</W>
+ <W cur="359" id="60" lemma="60" pos="CD" space=" ">60</W>
+ <W cur="362" id="61" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="365" id="62" lemma="100" pos="CD" space=" ">100</W>
+ <W cur="369" id="63" lemma="times" pos="NNS" space=" ">times</W>
+ <W cur="375" id="64" lemma="greater" pos="JJR" space=" ">greater</W>
+ <W cur="383" id="65" lemma="than" pos="IN" space=" ">than</W>
+ <W cur="388" id="66" lemma="land" pos="NN" space=" ">land</W>
+ <W cur="393" id="67" lemma="leave" pos="VBD" space=" ">left</W>
+ <W cur="398" id="68" lemma="uncultivated" pos="VBN" space=" ">uncultivated</W>
+ <W cur="410" id="69" lemma="," pos=",">,</W>
+ <W cur="412" id="70" lemma="result" pos="VBG" space=" ">resulting</W>
+ <W cur="422" id="71" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="425" id="72" lemma="denser" pos="NN" space=" ">denser</W>
+ <W cur="432" id="73" lemma="population" pos="NNS" space=" ">populations</W>
+ <W boundary="sentence" cur="443" id="74" lemma="." pos=".">.</W>
+ <W cur="445" id="75" lemma="Hunter" pos="NNP" space=" ">Hunter</W>
+ <W cur="451" id="76" lemma="-" pos=":">-</W>
+ <W cur="452" id="77" lemma="gatherer" pos="NN">gatherer</W>
+ <W cur="461" id="78" lemma="society" pos="NNS" space=" ">societies</W>
+ <W cur="471" id="79" lemma="also" pos="RB" space=" ">also</W>
+ <W cur="476" id="80" lemma="tend" pos="VBP" space=" ">tend</W>
+ <W cur="481" id="81" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="484" id="82" lemma="have" pos="VB" space=" ">have</W>
+ <W cur="489" id="83" lemma="non" pos="NN" space=" ">non</W>
+ <W cur="492" id="84" lemma="-" pos=":">-</W>
+ <W cur="493" id="85" lemma="hierarchical" pos="JJ">hierarchical</W>
+ <W cur="506" id="86" lemma="social" pos="JJ" space=" ">social</W>
+ <W cur="513" id="87" lemma="structure" pos="NNS" space=" ">structures</W>
+ <W cur="523" id="88" lemma="," pos=",">,</W>
+ <W cur="525" id="89" lemma="though" pos="IN" space=" ">though</W>
+ <W cur="532" id="90" lemma="this" pos="DT" space=" ">this</W>
+ <W cur="537" id="91" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="540" id="92" lemma="not" pos="RB" space=" ">not</W>
+ <W cur="544" id="93" lemma="always" pos="RB" space=" ">always</W>
+ <W cur="551" id="94" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="555" id="95" lemma="case" pos="NN" space=" ">case</W>
+ <W boundary="sentence" cur="559" id="96" lemma="." pos=".">.</W>
+ <W cur="561" id="97" lemma="Because" pos="IN" space=" ">Because</W>
+ <W cur="569" id="98" lemma="hunter" pos="JJR" space=" ">hunter</W>
+ <W cur="575" id="99" lemma="-" pos=":">-</W>
+ <W cur="576" id="100" lemma="gatherer" pos="NNS">gatherers</W>
+ <W cur="586" id="101" lemma="tend" pos="VBP" space=" ">tend</W>
+ <W cur="591" id="102" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="594" id="103" lemma="be" pos="VB" space=" ">be</W>
+ <W cur="597" id="104" lemma="nomadic" pos="JJ" space=" ">nomadic</W>
+ <W cur="604" id="105" lemma="," pos=",">,</W>
+ <W cur="606" id="106" lemma="they" pos="PRP" space=" ">they</W>
+ <W cur="611" id="107" lemma="generally" pos="RB" space=" ">generally</W>
+ <W cur="621" id="108" lemma="do" pos="VBP" space=" ">do</W>
+ <W cur="624" id="109" lemma="not" pos="RB" space=" ">not</W>
+ <W cur="628" id="110" lemma="have" pos="VB" space=" ">have</W>
+ <W cur="633" id="111" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="637" id="112" lemma="possibility" pos="NN" space=" ">possibility</W>
+ <W cur="649" id="113" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="652" id="114" lemma="store" pos="VB" space=" ">store</W>
+ <W cur="658" id="115" lemma="surplus" pos="NN" space=" ">surplus</W>
+ <W cur="666" id="116" lemma="food" pos="NN" space=" ">food</W>
+ <W boundary="sentence" cur="670" id="117" lemma="." pos=".">.</W>
+ <W cur="672" id="118" lemma="As" pos="IN" space=" ">As</W>
+ <W cur="675" id="119" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="677" id="120" lemma="result" pos="NN" space=" ">result</W>
+ <W cur="683" id="121" lemma="," pos=",">,</W>
+ <W cur="685" id="122" lemma="full" pos="JJ" space=" ">full</W>
+ <W cur="689" id="123" lemma="-" pos=":">-</W>
+ <W cur="690" id="124" lemma="time" pos="NN">time</W>
+ <W cur="695" id="125" lemma="leaders" pos="NNS" space=" ">leaders</W>
+ <W cur="702" id="126" lemma="," pos=",">,</W>
+ <W cur="704" id="127" lemma="bureaucrat" pos="NNS" space=" ">bureaucrats</W>
+ <W cur="715" id="128" lemma="," pos=",">,</W>
+ <W cur="717" id="129" lemma="or" pos="CC" space=" ">or</W>
+ <W cur="720" id="130" lemma="artisan" pos="NNS" space=" ">artisans</W>
+ <W cur="729" id="131" lemma="be" pos="VBP" space=" ">are</W>
+ <W cur="733" id="132" lemma="rarely" pos="RB" space=" ">rarely</W>
+ <W cur="740" id="133" lemma="support" pos="VBN" space=" ">supported</W>
+ <W cur="750" id="134" lemma="by" pos="IN" space=" ">by</W>
+ <W cur="753" id="135" lemma="hunter" pos="NN" space=" ">hunter</W>
+ <W cur="759" id="136" lemma="-" pos=":">-</W>
+ <W cur="760" id="137" lemma="gatherer" pos="NN">gatherer</W>
+ <W cur="769" id="138" lemma="society" pos="NNS" space=" ">societies</W>
+ <W boundary="sentence" cur="778" id="139" lemma="." pos=".">.</W>
+</Text>

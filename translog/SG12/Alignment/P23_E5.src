@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Text language="en" lemmatizer="nltk-wordnet-lemmatizer" sent_segmenter="nltk_sent_tokenizer" tagger="nltk-pos-tagger">
+ <W cur="0" id="1" lemma="Sociology" pos="NNP">Sociology</W>
+ <W cur="10" id="2" lemma="be" pos="VBZ" space=" ">is</W>
+ <W cur="13" id="3" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="15" id="4" lemma="relatively" pos="RB" space=" ">relatively</W>
+ <W cur="26" id="5" lemma="new" pos="JJ" space=" ">new</W>
+ <W cur="30" id="6" lemma="academic" pos="JJ" space=" ">academic</W>
+ <W cur="39" id="7" lemma="discipline" pos="NN" space=" ">discipline</W>
+ <W boundary="sentence" cur="49" id="8" lemma="." pos=".">.</W>
+ <W cur="51" id="9" lemma="It" pos="PRP" space=" ">It</W>
+ <W cur="54" id="10" lemma="emerge" pos="VBD" space=" ">emerged</W>
+ <W cur="62" id="11" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="65" id="12" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="69" id="13" lemma="early" pos="JJ" space=" ">early</W>
+ <W cur="75" id="14" lemma="19" pos="CD" space=" ">19</W>
+ <W cur="77" id="15" lemma="th" pos="NN">th</W>
+ <W cur="80" id="16" lemma="century" pos="NN" space=" ">century</W>
+ <W cur="88" id="17" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="91" id="18" lemma="response" pos="NN" space=" ">response</W>
+ <W cur="100" id="19" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="103" id="20" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="107" id="21" lemma="challenge" pos="NNS" space=" ">challenges</W>
+ <W cur="118" id="22" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="121" id="23" lemma="modernity" pos="NN" space=" ">modernity</W>
+ <W boundary="sentence" cur="130" id="24" lemma="." pos=".">.</W>
+ <W cur="132" id="25" lemma="Increasing" pos="VBG" space=" ">Increasing</W>
+ <W cur="143" id="26" lemma="mobility" pos="NN" space=" ">mobility</W>
+ <W cur="152" id="27" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="156" id="28" lemma="technological" pos="JJ" space=" ">technological</W>
+ <W cur="170" id="29" lemma="advance" pos="NNS" space=" ">advances</W>
+ <W cur="179" id="30" lemma="result" pos="VBN" space=" ">resulted</W>
+ <W cur="188" id="31" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="191" id="32" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="195" id="33" lemma="increase" pos="VBG" space=" ">increasing</W>
+ <W cur="206" id="34" lemma="exposure" pos="NN" space=" ">exposure</W>
+ <W cur="215" id="35" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="218" id="36" lemma="people" pos="NNS" space=" ">people</W>
+ <W cur="225" id="37" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="228" id="38" lemma="culture" pos="NNS" space=" ">cultures</W>
+ <W cur="237" id="39" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="241" id="40" lemma="society" pos="NNS" space=" ">societies</W>
+ <W cur="251" id="41" lemma="different" pos="JJ" space=" ">different</W>
+ <W cur="261" id="42" lemma="from" pos="IN" space=" ">from</W>
+ <W cur="266" id="43" lemma="their" pos="PRP$" space=" ">their</W>
+ <W cur="272" id="44" lemma="own" pos="JJ" space=" ">own</W>
+ <W boundary="sentence" cur="275" id="45" lemma="." pos=".">.</W>
+ <W cur="277" id="46" lemma="The" pos="DT" space=" ">The</W>
+ <W cur="281" id="47" lemma="impact" pos="NN" space=" ">impact</W>
+ <W cur="288" id="48" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="291" id="49" lemma="this" pos="DT" space=" ">this</W>
+ <W cur="296" id="50" lemma="exposure" pos="NN" space=" ">exposure</W>
+ <W cur="305" id="51" lemma="be" pos="VBD" space=" ">was</W>
+ <W cur="309" id="52" lemma="vary" pos="VBN" space=" ">varied</W>
+ <W cur="315" id="53" lemma="," pos=",">,</W>
+ <W cur="317" id="54" lemma="but" pos="CC" space=" ">but</W>
+ <W cur="321" id="55" lemma="for" pos="IN" space=" ">for</W>
+ <W cur="325" id="56" lemma="some" pos="DT" space=" ">some</W>
+ <W cur="330" id="57" lemma="people" pos="NNS" space=" ">people</W>
+ <W cur="337" id="58" lemma="include" pos="VBD" space=" ">included</W>
+ <W cur="346" id="59" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="350" id="60" lemma="breakdown" pos="NN" space=" ">breakdown</W>
+ <W cur="360" id="61" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="363" id="62" lemma="traditional" pos="JJ" space=" ">traditional</W>
+ <W cur="375" id="63" lemma="norm" pos="NNS" space=" ">norms</W>
+ <W cur="381" id="64" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="385" id="65" lemma="customs" pos="NNS" space=" ">customs</W>
+ <W cur="393" id="66" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="397" id="67" lemma="warrant" pos="VBD" space=" ">warranted</W>
+ <W cur="407" id="68" lemma="a" pos="DT" space=" ">a</W>
+ <W cur="409" id="69" lemma="revise" pos="VBN" space=" ">revised</W>
+ <W cur="417" id="70" lemma="understanding" pos="NN" space=" ">understanding</W>
+ <W cur="431" id="71" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="434" id="72" lemma="how" pos="WRB" space=" ">how</W>
+ <W cur="438" id="73" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="442" id="74" lemma="world" pos="NN" space=" ">world</W>
+ <W cur="448" id="75" lemma="work" pos="VBZ" space=" ">works</W>
+ <W boundary="sentence" cur="453" id="76" lemma="." pos=".">.</W>
+ <W cur="455" id="77" lemma="Sociologists" pos="NNS" space=" ">Sociologists</W>
+ <W cur="468" id="78" lemma="respond" pos="VBD" space=" ">responded</W>
+ <W cur="478" id="79" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="481" id="80" lemma="these" pos="DT" space=" ">these</W>
+ <W cur="487" id="81" lemma="change" pos="NNS" space=" ">changes</W>
+ <W cur="495" id="82" lemma="by" pos="IN" space=" ">by</W>
+ <W cur="498" id="83" lemma="try" pos="VBG" space=" ">trying</W>
+ <W cur="505" id="84" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="508" id="85" lemma="understand" pos="VB" space=" ">understand</W>
+ <W cur="519" id="86" lemma="what" pos="WP" space=" ">what</W>
+ <W cur="524" id="87" lemma="hold" pos="NNS" space=" ">holds</W>
+ <W cur="530" id="88" lemma="social" pos="JJ" space=" ">social</W>
+ <W cur="537" id="89" lemma="group" pos="NNS" space=" ">groups</W>
+ <W cur="544" id="90" lemma="together" pos="RB" space=" ">together</W>
+ <W cur="553" id="91" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="557" id="92" lemma="also" pos="RB" space=" ">also</W>
+ <W cur="562" id="93" lemma="explore" pos="VBG" space=" ">exploring</W>
+ <W cur="572" id="94" lemma="possible" pos="JJ" space=" ">possible</W>
+ <W cur="581" id="95" lemma="solution" pos="NNS" space=" ">solutions</W>
+ <W cur="591" id="96" lemma="to" pos="TO" space=" ">to</W>
+ <W cur="594" id="97" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="598" id="98" lemma="breakdown" pos="NN" space=" ">breakdown</W>
+ <W cur="608" id="99" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="611" id="100" lemma="social" pos="JJ" space=" ">social</W>
+ <W cur="618" id="101" lemma="solidarity" pos="NN" space=" ">solidarity</W>
+ <W boundary="sentence" cur="628" id="102" lemma="." pos=".">.</W>
+ <W cur="630" id="103" lemma="The" pos="DT" space=" ">The</W>
+ <W cur="634" id="104" lemma="term" pos="NN" space=" ">term</W>
+ <W cur="639" id="105" lemma="sociology" pos="NN" space=" ">sociology</W>
+ <W cur="649" id="106" lemma="be" pos="VBD" space=" ">was</W>
+ <W cur="653" id="107" lemma="coin" pos="VBN" space=" ">coined</W>
+ <W cur="660" id="108" lemma="by" pos="IN" space=" ">by</W>
+ <W cur="663" id="109" lemma="Auguste" pos="NNP" space=" ">Auguste</W>
+ <W cur="671" id="110" lemma="Comte" pos="NNP" space=" ">Comte</W>
+ <W cur="677" id="111" lemma="(" pos="NNP">(</W>
+ <W cur="678" id="112" lemma="1798" pos="CD">1798</W>
+ <W cur="682" id="113" lemma="-" pos=":">-</W>
+ <W cur="683" id="114" lemma="1857" pos="CD">1857</W>
+ <W cur="687" id="115" lemma=")" pos="CD">)</W>
+ <W cur="689" id="116" lemma="in" pos="IN" space=" ">in</W>
+ <W cur="692" id="117" lemma="1838" pos="CD" space=" ">1838</W>
+ <W cur="697" id="118" lemma="from" pos="IN" space=" ">from</W>
+ <W cur="702" id="119" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="706" id="120" lemma="Latin" pos="NNP" space=" ">Latin</W>
+ <W cur="712" id="121" lemma="term" pos="NN" space=" ">term</W>
+ <W cur="717" id="122" lemma="socius" pos="VBZ" space=" ">socius</W>
+ <W cur="724" id="123" lemma="(" pos=":">(</W>
+ <W cur="725" id="124" lemma="companion" pos="NN">companion</W>
+ <W cur="734" id="125" lemma="," pos=",">,</W>
+ <W cur="736" id="126" lemma="associate" pos="NN" space=" ">associate</W>
+ <W cur="745" id="127" lemma=")" pos=":">)</W>
+ <W cur="747" id="128" lemma="and" pos="CC" space=" ">and</W>
+ <W cur="751" id="129" lemma="the" pos="DT" space=" ">the</W>
+ <W cur="755" id="130" lemma="Greek" pos="NNP" space=" ">Greek</W>
+ <W cur="761" id="131" lemma="term" pos="NN" space=" ">term</W>
+ <W cur="766" id="132" lemma="logion" pos="NN" space=" ">logia</W>
+ <W cur="772" id="133" lemma="(" pos=":">(</W>
+ <W cur="773" id="134" lemma="study" pos="NN">study</W>
+ <W cur="779" id="135" lemma="of" pos="IN" space=" ">of</W>
+ <W cur="781" id="136" lemma="," pos=",">,</W>
+ <W cur="783" id="137" lemma="speech" pos="NN" space=" ">speech</W>
+ <W cur="789" id="138" lemma=")" pos=":">)</W>
+ <W boundary="sentence" cur="790" id="139" lemma="." pos=".">.</W>
+</Text>
