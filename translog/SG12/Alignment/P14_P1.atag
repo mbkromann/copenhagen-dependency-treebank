@@ -2,9 +2,10 @@
 <alignFile key="a" href="P14_P1.src" />
 <alignFile key="b" href="P14_P1.tgt" />
 <align out="a1" type="" in="b1" />
-<align out="a2" type="" in="b2" />
+<align out="a1" type="" in="b2" />
 <align out="a2" type="" in="b3" />
 <align out="a3" type="" in="b3" />
+<align out="a3" type="" in="b4" />
 <align out="a4" type="" in="b5" />
 <align out="a5" type="" in="b6" />
 <align out="a6" type="" in="b7" />
@@ -84,8 +85,8 @@
 <align out="a74" type="" in="b74" />
 <align out="a75" type="" in="b76" />
 <align out="a76" type="" in="b77" />
-<align out="a77" type="" in="b78" />
 <align out="a78" type="" in="b78" />
+<align out="a79" type="" in="b78" />
 <align out="a80" type="" in="b83" />
 <align out="a80" type="" in="b84" />
 <align out="a81" type="" in="b79" />
@@ -117,8 +118,9 @@
 <align out="a106" type="" in="b107" />
 <align out="a107" type="" in="b106" />
 <align out="a108" type="" in="b106" />
-<align out="a109" type="" in="b112" />
-<align out="a110" type="" in="b113" />
+<align out="a109" type="" in="b106" />
+<align out="a110" type="" in="b106" />
+<align out="a111" type="" in="b106" />
 <align out="a112" type="" in="b108" />
 <align out="a113" type="" in="b109" />
 <align out="a115" type="" in="b110" />

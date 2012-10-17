@@ -2,7 +2,7 @@
 <alignFile key="a" href="P09_T1.src" />
 <alignFile key="b" href="P09_T1.tgt" />
 <align out="a1" type="" in="b1" />
-<align out="a2" type="" in="b2" />
+<align out="a1" type="" in="b2" />
 <align out="a2" type="" in="b3" />
 <align out="a3" type="" in="b3" />
 <align out="a3" type="" in="b4" />
@@ -23,7 +23,6 @@
 <align out="a20" type="" in="b26" />
 <align out="a22" type="" in="b27" />
 <align out="a23" type="" in="b27" />
-<align out="a23" type="" in="b28" />
 <align out="a24" type="" in="b30" />
 <align out="a25" type="" in="b31" />
 <align out="a25" type="" in="b32" />
@@ -43,6 +42,7 @@
 <align out="a38" type="" in="b42" />
 <align out="a39" type="" in="b45" />
 <align out="a41" type="" in="b47" />
+<align out="a42" type="" in="b46" />
 <align out="a43" type="" in="b48" />
 <align out="a43" type="" in="b49" />
 <align out="a44" type="" in="b49" />
@@ -101,7 +101,9 @@
 <align out="a92" type="" in="b93" />
 <align out="a93" type="" in="b94" />
 <align out="a96" type="" in="b95" />
+<align out="a97" type="" in="b96" />
 <align out="a97" type="" in="b98" />
+<align out="a98" type="" in="b97" />
 <align out="a98" type="" in="b99" />
 <align out="a99" type="" in="b100" />
 <align out="a100" type="" in="b103" />

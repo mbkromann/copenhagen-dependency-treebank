@@ -1,16 +1,17 @@
 <DTAGalign alignment="giza" >
 <alignFile key="a" href="P08_E2.src" />
 <alignFile key="b" href="P08_E2.tgt" />
-<align out="a6" type="" in="b1" />
-<align out="a10" type="" in="b5" />
+<align out="a1" type="" in="b5" />
+<align out="a4" type="" in="b17" />
 <align out="a12" type="" in="b6" />
 <align out="a18" type="" in="b7" />
+<align out="a21" type="" in="b1" />
 <align out="a22" type="" in="b2" />
 <align out="a23" type="" in="b3" />
 <align out="a24" type="" in="b4" />
 <align out="a25" type="" in="b8" />
 <align out="a25" type="" in="b9" />
-<align out="a26" type="" in="b17" />
+<align out="a26" type="" in="b9" />
 <align out="a27" type="" in="b10" />
 <align out="a28" type="" in="b11" />
 <align out="a29" type="" in="b12" />
@@ -54,10 +55,11 @@
 <align out="a65" type="" in="b49" />
 <align out="a66" type="" in="b50" />
 <align out="a67" type="" in="b53" />
-<align out="a68" type="" in="b54" />
+<align out="a69" type="" in="b52" />
+<align out="a70" type="" in="b51" />
+<align out="a70" type="" in="b52" />
 <align out="a71" type="" in="b56" />
-<align out="a72" type="" in="b51" />
-<align out="a73" type="" in="b52" />
+<align out="a73" type="" in="b54" />
 <align out="a74" type="" in="b64" />
 <align out="a75" type="" in="b65" />
 <align out="a76" type="" in="b57" />
@@ -94,7 +96,8 @@
 <align out="a108" type="" in="b114" />
 <align out="a110" type="" in="b92" />
 <align out="a111" type="" in="b93" />
-<align out="a114" type="" in="b97" />
+<align out="a113" type="" in="b97" />
+<align out="a114" type="" in="b103" />
 <align out="a115" type="" in="b99" />
 <align out="a116" type="" in="b100" />
 <align out="a117" type="" in="b100" />
@@ -131,6 +134,6 @@
 <align out="a149" type="" in="b133" />
 <align out="a150" type="" in="b136" />
 <align out="a151" type="" in="b134" />
-<align out="a152" type="" in="b135" />
+<align out="a154" type="" in="b135" />
 <align out="a155" type="" in="b137" />
 </DTAGalign>

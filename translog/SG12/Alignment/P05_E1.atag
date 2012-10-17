@@ -2,7 +2,7 @@
 <alignFile key="a" href="P05_E1.src" />
 <alignFile key="b" href="P05_E1.tgt" />
 <align out="a1" type="" in="b1" />
-<align out="a2" type="" in="b2" />
+<align out="a1" type="" in="b2" />
 <align out="a2" type="" in="b3" />
 <align out="a3" type="" in="b3" />
 <align out="a3" type="" in="b4" />
@@ -102,7 +102,8 @@
 <align out="a91" type="" in="b91" />
 <align out="a91" type="" in="b92" />
 <align out="a92" type="" in="b93" />
-<align out="a96" type="" in="b94" />
+<align out="a95" type="" in="b94" />
+<align out="a96" type="" in="b97" />
 <align out="a97" type="" in="b95" />
 <align out="a98" type="" in="b98" />
 <align out="a99" type="" in="b99" />
@@ -115,7 +116,7 @@
 <align out="a106" type="" in="b108" />
 <align out="a106" type="" in="b109" />
 <align out="a107" type="" in="b108" />
-<align out="a108" type="" in="b108" />
+<align out="a108" type="" in="b114" />
 <align out="a109" type="" in="b112" />
 <align out="a110" type="" in="b113" />
 <align out="a111" type="" in="b108" />
@@ -168,9 +169,9 @@
 <align out="a155" type="" in="b154" />
 <align out="a156" type="" in="b155" />
 <align out="a157" type="" in="b156" />
+<align out="a158" type="" in="b157" />
 <align out="a158" type="" in="b158" />
 <align out="a158" type="" in="b159" />
-<align out="a159" type="" in="b157" />
 <align out="a159" type="" in="b158" />
 <align out="a160" type="" in="b161" />
 </DTAGalign>

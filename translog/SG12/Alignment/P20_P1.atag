@@ -2,8 +2,8 @@
 <alignFile key="a" href="P20_P1.src" />
 <alignFile key="b" href="P20_P1.tgt" />
 <align out="a1" type="" in="b1" />
+<align out="a1" type="" in="b2" />
 <align out="a2" type="" in="b1" />
-<align out="a2" type="" in="b2" />
 <align out="a2" type="" in="b3" />
 <align out="a3" type="" in="b1" />
 <align out="a3" type="" in="b4" />
@@ -115,8 +115,9 @@
 <align out="a106" type="" in="b106" />
 <align out="a107" type="" in="b105" />
 <align out="a108" type="" in="b105" />
-<align out="a109" type="" in="b111" />
-<align out="a110" type="" in="b112" />
+<align out="a109" type="" in="b105" />
+<align out="a110" type="" in="b105" />
+<align out="a111" type="" in="b105" />
 <align out="a112" type="" in="b107" />
 <align out="a113" type="" in="b108" />
 <align out="a115" type="" in="b109" />
