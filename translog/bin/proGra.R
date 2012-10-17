@@ -116,15 +116,15 @@ ProgGraph <- function(X1=0, X2=0, Y1=0, Y2=0, fix=1, pu=0, fu=0, CK=0) {
   if(pu) { 
     PUx  <-  c(); 
     PUy  <-  c(); 
-    for (i in 1:length(PU$Start)) { 
-      if(PU$Start[i] > X2) {break;}
-      if(PU$Start[i]+PU$Duration[i] < X1) {next}
+    for (i in 1:length(PU$Time)) { 
+      if(PU$Time[i] > X2) {break;}
+      if(PU$Time[i]+PU$Dur[i] < X1) {next}
   ## update X2 for last FU overlapping PU
-      if(PU$Start[i]+PU$Duration[i] > X2) {X2 = PU$Start[i]+PU$Duration[i];}
-      PUx=append(PUx,PU$Start[i]-100); 
-      PUx=append(PUx,PU$Start[i]-100); 
-      PUx=append(PUx,PU$Start[i]+PU$Duration[i]+100); 
-      PUx=append(PUx,PU$Start[i]+PU$Duration[i]+100)
+      if(PU$Time[i]+PU$Dur[i] > X2) {X2 = PU$Time[i]+PU$Dur[i];}
+      PUx=append(PUx,PU$Time[i]-100); 
+      PUx=append(PUx,PU$Time[i]-100); 
+      PUx=append(PUx,PU$Time[i]+PU$Dur[i]+100); 
+      PUx=append(PUx,PU$Time[i]+PU$Dur[i]+100)
       PUx=append(PUx,NA);
 
 #      max <- 0;
@@ -161,13 +161,13 @@ ProgGraph <- function(X1=0, X2=0, Y1=0, Y2=0, fix=1, pu=0, fu=0, CK=0) {
     FUw <- c(); 
     col <- 5; 
     j <- 1;
-    for (i in 1:length(FU$Start)) {
-      if(FU$Start[i] > X2) {break;}
-      if(FU$Start[i]+FU$Duration[i] < X1) {next}
-      FUx=append(FUx,FU$Start[i]-100); 
-      FUx=append(FUx,FU$Start[i]-100); 
-      FUx=append(FUx,FU$Start[i]+FU$Duration[i]+100); 
-      FUx=append(FUx,FU$Start[i]+FU$Duration[i]+100)
+    for (i in 1:length(FU$Time)) {
+      if(FU$Time[i] > X2) {break;}
+      if(FU$Time[i]+FU$Dur[i] < X1) {next}
+      FUx=append(FUx,FU$Time[i]-100); 
+      FUx=append(FUx,FU$Time[i]-100); 
+      FUx=append(FUx,FU$Time[i]+FU$Dur[i]+100); 
+      FUx=append(FUx,FU$Time[i]+FU$Dur[i]+100)
       FUx=append(FUx,NA);
 
 #      max <- 0;
@@ -192,7 +192,7 @@ ProgGraph <- function(X1=0, X2=0, Y1=0, Y2=0, fix=1, pu=0, fu=0, CK=0) {
       FUy = append(FUy, NA);
 #cat( "AA2 min:", min, "max:", max, "\n");
       
-      if(FU$Window[i] == 1) {FUw[j] <- -45; FUc[j] <- 3;}
+      if(FU$Win[i] == 1) {FUw[j] <- -45; FUc[j] <- 3;}
       else {FUw[j] <- 45; FUc[j] <- 3;}
       j <- j+1;
     }
