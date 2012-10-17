@@ -1045,9 +1045,6 @@ sub PrintAU {
 
   foreach my $au (sort {$a <=> $b} keys %{$AU}) {
 
-#print STDERR "TTTT\n";
-#d($AU->{$f});
-
 #    if(!defined($AU->{$f}{'ts'})) { next;}
 
     if(!defined($AU->{$au}{stok}) || $AU->{$au}{stok} eq '') { $AU->{$au}{stok} = '---';}
@@ -1065,14 +1062,17 @@ sub PrintAU {
     if(!defined($AU->{$au}{time1})) {$AU->{$au}{time1} = 0;}
     if(!defined($AU->{$au}{dur1})) {$AU->{$au}{dur1} = 0;}
     if(!defined($AU->{$au}{par1_1})) {$AU->{$au}{par1_1} = 0;}
-    if(!defined($AU->{$au}{par1_2})) {$AU->{$au}{par2_2} = 0;}
+    if(!defined($AU->{$au}{par1_2})) {$AU->{$au}{par1_2} = 0;}
     if(!defined($AU->{$au}{pause1})){$AU->{$au}{pause1} = 0;}
     if(!defined($AU->{$au}{dur2})) {$AU->{$au}{dur2} = 0;}
     if(!defined($AU->{$au}{par2_1})) {$AU->{$au}{par2_1} = 0;}
-    if(!defined($AU->{$au}{par2_2})) {$AU->{$au}{par2_1} = 0;}
+    if(!defined($AU->{$au}{par2_2})) {$AU->{$au}{par2_2} = 0;}
     if(!defined($AU->{$au}{time2})) {$AU->{$au}{time2} = 0;}
     if(!defined($AU->{$au}{pause2})) {$AU->{$au}{pause2} = 0;}
     if(!defined($AU->{$au}{unit2}) || $AU->{$au}{unit2} eq '') {$AU->{$au}{unit2} = '---';}
+
+#print STDERR "TTTT $au\n";
+#d($AU->{$au});
 
     printf FILE "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n",
       $n++,
