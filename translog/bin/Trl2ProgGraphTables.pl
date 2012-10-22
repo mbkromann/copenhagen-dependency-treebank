@@ -1214,7 +1214,7 @@ sub PrintST {
     return ;
   }
 
-  printf FILE "STid\tSToken\tTToken\tSL\tTL\tStudy\tPerson\tText\tTask\tEdit1\tTime1\tDur1\tPause1\tParal1\tEdit2\tTime2\tDur2\tPause2\tParal2\tIns\tDel\tDur\tCross\tGazeS\tGazeT\tInEff\tEdit\n";
+  printf FILE "STid\tSToken\tTToken\tSL\tTL\tStudy\tPerson\tText\tTask\tEdit1\tTime1\tDur1\tPause1\tParalS1\tParalT1\tEdit2\tTime2\tDur2\tPause2\tParalS2\tParalT2\tIns\tDel\tDur\tCross\tGazeS\tGazeT\tInEff\tEdit\n";
 
   foreach my $sid (sort {$a <=> $b} keys %{$SRC}) {
 
