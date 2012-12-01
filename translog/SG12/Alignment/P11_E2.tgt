@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Text language="de" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+<Text language="de" >
  <W cur="0" id="1" lemma="Anstieg" pos="NN">Anstieg</W>
  <W cur="8" id="2" lemma="die" pos="ART" space=" ">der</W>
  <W cur="12" id="3" lemma="Lebenshaltungskosten" pos="NN" space=" ">Lebenshaltungskosten</W>

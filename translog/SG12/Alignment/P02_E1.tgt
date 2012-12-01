@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Text language="de" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+<Text language="de" >
  <W cur="0" id="1" lemma="Killer" pos="NN">Killer</W>
  <W cur="6" id="2" lemma="-" pos="$(">-</W>
  <W cur="7" id="3" lemma="Krankenpfleger" pos="NN">Krankenpfleger</W>

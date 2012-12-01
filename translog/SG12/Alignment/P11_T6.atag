@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign  alignment="lotte" source="en" target="de">
+<DTAGalign alignment="Jean" source="en" target="de" >
 <alignFile href="P11_T6.src" key="a" sign=""/>
 <alignFile href="P11_T6.tgt" key="b" sign=""/>
 <align creator="" in="b1" insign="Ein" out="a1" outsign="The" type=""/>
-<align creator="" in="b2" insign="Großteil" out="a2" outsign="majority" type=""/>
+<align creator="" in="b2" insign="GroÃteil" out="a2" outsign="majority" type=""/>
 <align creator="" in="b3" insign="der" out="a3" outsign="of" type=""/>
-<align creator="" in="b4" insign="Jäger" out="a4" outsign="hunter" type=""/>
+<align creator="" in="b4" insign="JÃ€ger" out="a4" outsign="hunter" type=""/>
 <align creator="" in="b5b6" insign="- und" out="a5" outsign="-" type=""/>
 <align creator="" in="b7" insign="Sammlergesellschaften" out="a6a7" outsign="gatherer societies" type=""/>
 <align creator="" in="b8" insign="leben" out="a8" outsign="are" type=""/>
 <align creator="" in="b9" insign="nomadisch" out="a9" outsign="nomadic" type=""/>
 <align creator="" in="b10" insign="." out="a10" outsign="." type=""/>
-<align creator="" in="b11" insign="Es" out="a12" outsign="is" type=""/>
-<align creator="" in="b12" insign="ist" out="a11" outsign="It" type=""/>
 <align creator="" in="b13" insign="schwierig" out="a13" outsign="difficult" type=""/>
 <align creator="" in="b19" insign="zu" out="a14" outsign="to" type=""/>
 <align creator="" in="b20" insign="werden" out="a15" outsign="be" type=""/>
@@ -28,39 +26,39 @@
 <align creator="" in="b26" insign="Region" out="a27" outsign="region" type=""/>
 <align creator="" in="b27" insign="schnell" out="a29" outsign="quickly" type=""/>
 <align creator="" in="b29" insign="sein" out="a30" outsign="become" type=""/>
-<align creator="" in="b30" insign="können" out="a28" outsign="can" type=""/>
-<align creator="" in="b28" insign="erschöpft" out="a31" outsign="exhausted" type=""/>
+<align creator="" in="b30" insign="kÃ¶nnen" out="a28" outsign="can" type=""/>
+<align creator="" in="b28" insign="erschÃ¶pft" out="a31" outsign="exhausted" type=""/>
 <align creator="" in="b31" insign="." out="a32" outsign="." type=""/>
 <align creator="" in="b32" insign="Wegen" out="a45a46a47" outsign="as a result" type=""/>
 <align creator="" in="b33" insign="ihres" out="a49" outsign="their" type=""/>
 <align creator="" in="b34" insign="Lebenserhaltungssystems" out="a50a51" outsign="subsistence system" type=""/>
-<align creator="" in="b36" insign="Jäger" out="a33" outsign="Hunter" type=""/>
+<align creator="" in="b36" insign="JÃ€ger" out="a33" outsign="Hunter" type=""/>
 <align creator="" in="b37b38" insign="- und" out="a34" outsign="-" type=""/>
 <align creator="" in="b39" insign="Sammlergesellschaften" out="a35a36" outsign="gatherer societies" type=""/>
 <align creator="" in="b40" insign="auch" out="a37" outsign="also" type=""/>
 <align creator="" in="b42" insign="sehr" out="a41" outsign="very" type=""/>
 <align creator="" in="b43" insign="niedrigen" out="a42" outsign="low" type=""/>
-<align creator="" in="b44" insign="Bevölkerungszahlen" out="a43a44" outsign="population densities" type=""/>
+<align creator="" in="b44" insign="BevÃ¶lkerungszahlen" out="a43a44" outsign="population densities" type=""/>
 <align creator="" in="b35b41" insign="neigen zu" out="a38a39a40" outsign="tend to have" type=""/>
 <align creator="" in="b45" insign="." out="a52" outsign="." type=""/>
 <align creator="" in="b46" insign="Landwirtschaftliche" out="a53" outsign="Agricultural" type=""/>
 <align creator="" in="b47" insign="Lebenserhaltungssyteme" out="a54a55" outsign="subsistence systems" type=""/>
-<align creator="" in="b48" insign="können" out="a56" outsign="can" type=""/>
+<align creator="" in="b48" insign="kÃ¶nnen" out="a56" outsign="can" type=""/>
 <align creator="" in="b50" insign="60" out="a60" outsign="60" type=""/>
 <align creator="" in="b51" insign="bis" out="a61" outsign="to" type=""/>
 <align creator="" in="b52" insign="100" out="a62" outsign="100" type=""/>
 <align creator="" in="b53" insign="mal" out="a63" outsign="times" type=""/>
-<align creator="" in="b54" insign="größere" out="a64" outsign="greater" type=""/>
-<align creator="" in="b55" insign="Bevölkerungsdichte" out="a58a59" outsign="population densities" type=""/>
-<align creator="" in="b56" insign="unterstützen" out="a57" outsign="support" type=""/>
+<align creator="" in="b54" insign="grÃ¶Ãere" out="a64" outsign="greater" type=""/>
+<align creator="" in="b55" insign="BevÃ¶lkerungsdichte" out="a58a59" outsign="population densities" type=""/>
+<align creator="" in="b56" insign="unterstÃŒtzen" out="a57" outsign="support" type=""/>
 <align creator="" in="b57" insign="als" out="a65" outsign="than" type=""/>
 <align creator="" in="b60" insign="Land" out="a66" outsign="land" type=""/>
 <align creator="" in="b58b59" insign="brach liegendes" out="a67a68" outsign="left uncultivated" type=""/>
-<align creator="" in="b62b63b67" insign="was zu führt" out="a70a71" outsign="resulting in" type=""/>
-<align creator="" in="b65" insign="höheren" out="a72" outsign="denser" type=""/>
-<align creator="" in="b64b66" insign="einer Bevölkerungsdichte" out="a73" outsign="populations" type=""/>
+<align creator="" in="b62b63b67" insign="was zu fÃŒhrt" out="a70a71" outsign="resulting in" type=""/>
+<align creator="" in="b65" insign="hÃ¶heren" out="a72" outsign="denser" type=""/>
+<align creator="" in="b64b66" insign="einer BevÃ¶lkerungsdichte" out="a73" outsign="populations" type=""/>
 <align creator="" in="b68" insign="." out="a74" outsign="." type=""/>
-<align creator="" in="b69" insign="Jäger" out="a75" outsign="Hunter" type=""/>
+<align creator="" in="b69" insign="JÃ€ger" out="a75" outsign="Hunter" type=""/>
 <align creator="" in="b70b71" insign="- und" out="a76" outsign="-" type=""/>
 <align creator="" in="b72" insign="Sammlergesellschaften" out="a77a78" outsign="gatherer societies" type=""/>
 <align creator="" in="b74" insign="oft" out="a80a81" outsign="tend to" type=""/>
@@ -73,27 +71,35 @@
 <align creator="" in="b84" insign="Sozialstrukturen" out="a86a87" outsign="social structures" type=""/>
 <align creator="" in="b85" insign="." out="a96" outsign="." type=""/>
 <align creator="" in="b86" insign="Wegen" out="a97" outsign="Because" type=""/>
-<align creator="" in="b87b88b89" insign="ihres nomadischen Lebensstils" out="a98a99a100a101a102a103a104" outsign="hunter - gatherers tend to be nomadic" type=""/>
 <align creator="" in="b90" insign="," out="a105" outsign="," type=""/>
 <align creator="" in="b92" insign="sie" out="a106" outsign="they" type=""/>
 <align creator="" in="b93b94" insign="im Allgemeinen" out="a107" outsign="generally" type=""/>
-<align creator="" in="b96" insign="überschüssige" out="a115" outsign="surplus" type=""/>
+<align creator="" in="b96" insign="ÃŒberschÃŒssige" out="a115" outsign="surplus" type=""/>
 <align creator="" in="b97" insign="Nahrung" out="a116" outsign="food" type=""/>
 <align creator="" in="b98" insign="lagern" out="a114" outsign="store" type=""/>
 <align creator="" in="b95" insign="keine" out="a109" outsign="not" type=""/>
-<align creator="" in="b91" insign="können" out="a110a111a112a113" outsign="have the possibility to" type=""/>
+<align creator="" in="b91" insign="kÃ¶nnen" out="a110a111a112a113" outsign="have the possibility to" type=""/>
 <align creator="" in="b99" insign="." out="a117" outsign="." type=""/>
-<align creator="" in="b113" insign="nur" out="a122a123a124" outsign="full - time" type=""/>
-<align creator="" in="b114" insign="Anführer" out="a125" outsign="leaders" type=""/>
+<align creator="" in="b114" insign="AnfÃŒhrer" out="a125" outsign="leaders" type=""/>
 <align creator="" in="b115" insign="," out="a126" outsign="," type=""/>
-<align creator="" in="b116" insign="Bürokraten" out="a127" outsign="bureaucrats" type=""/>
+<align creator="" in="b116" insign="BÃŒrokraten" out="a127" outsign="bureaucrats" type=""/>
 <align creator="" in="b117" insign="oder" out="a129" outsign="or" type=""/>
 <align creator="" in="b118" insign="Kunsthandwerker" out="a130" outsign="artisans" type=""/>
 <align creator="" in="b100" insign="Deshalb" out="a118a119a120" outsign="As a result" type=""/>
 <align creator="" in="b103" insign="in" out="a134" outsign="by" type=""/>
-<align creator="" in="b104" insign="Jäger" out="a135" outsign="hunter" type=""/>
+<align creator="" in="b104" insign="JÃ€ger" out="a135" outsign="hunter" type=""/>
 <align creator="" in="b105b106" insign="- und" out="a136" outsign="-" type=""/>
 <align creator="" in="b107" insign="Sammlergesellschaften" out="a137a138" outsign="gatherer societies" type=""/>
 <align creator="" in="b120" insign="." out="a139" outsign="." type=""/>
 <align creator="" in="b101b102b108b109b110b112b119" insign="gibt es meistens keine Personen die sind" out="a131a132a133" outsign="are rarely supported" type=""/>
+<align creator="" in="b11" insign="Es" out="a11" outsign="It" type=""/>
+<align creator="" in="b12" insign="ist" out="a12" outsign="is" type=""/>
+<align creator="" in="b21" insign="," out="a22" outsign="as" type=""/>
+<align creator="" in="b32" insign="Wegen" out="a48" outsign="of" type=""/>
+<align creator="" in="b61" insign="," out="a69" outsign="," type=""/>
+<align creator="" in="b87" insign="ihres" out="a98a99a100" outsign="hunter - gatherers" type=""/>
+<align creator="" in="b88" insign="nomadischen" out="a104" outsign="nomadic" type=""/>
+<align creator="" in="b89" insign="Lebensstils" out="a101a102a103" outsign="tend to be" type=""/>
+<align creator="" in="b91" insign="kÃ¶nnen" out="a108" outsign="do" type=""/>
+<align creator="" in="b114" insign="AnfÃŒhrer" out="a122a123a124" outsign="full - time" type=""/>
 </DTAGalign>

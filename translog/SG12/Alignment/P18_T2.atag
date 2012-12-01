@@ -1,4 +1,143 @@
-<DTAGalign>
-    <alignFile key="a" href="P18_T2.src" sign="_input"/>
-    <alignFile key="b" href="P18_T2.tgt" sign="_input"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DTAGalign alignment="Jean" source="en" target="de" >
+<alignFile href="P18_T2.src" key="a" sign="_input"/>
+<alignFile href="P18_T2.tgt" key="b" sign="_input"/>
+<align creator="" in="b1" insign="Familien" out="a1" outsign="Families" type=""/>
+<align creator="" in="b5" insign="steigende" out="a4" outsign="increase" type=""/>
+<align creator="" in="b5" insign="steigende" out="a5" outsign="in" type=""/>
+<align creator="" in="b6" insign="Unterhaltskosten" out="a6a7a8" outsign="cost of living" type=""/>
+<align creator="" in="b7" insign="Britische" out="a9" outsign="British" type=""/>
+<align creator="" in="b8" insign="Familien" out="a10" outsign="families" type=""/>
+<align creator="" in="b4" insign="ÃŒber" out="a3" outsign="with" type=""/>
+<align creator="" in="b2b3" insign="sind bestÃŒrzt" out="a2" outsign="hit" type=""/>
+<align creator="" in="b9" insign="mÃŒssen" out="a11a12" outsign="have to" type=""/>
+<align creator="" in="b13" insign="31,300" out="a18" outsign="31,300" type=""/>
+<align creator="" in="b12" insign="Â£" out="a17" outsign="Â£" type=""/>
+<align creator="" in="b14" insign="mehr" out="a15a16" outsign="an extra" type=""/>
+<align creator="" in="b17" insign="," out="a21" outsign="as" type=""/>
+<align creator="" in="b21b22" insign="fÃŒr Nahrung" out="a22" outsign="food" type=""/>
+<align creator="" in="b24" insign="Benzin" out="a24" outsign="fuel" type=""/>
+<align creator="" in="b23" insign="und" out="a23" outsign="and" type=""/>
+<align creator="" in="b20" insign="Preise" out="a25" outsign="prices" type=""/>
+<align creator="" in="b19" insign="die" out="a25" outsign="prices" type=""/>
+<align creator="" in="b18" insign="da" out="a21" outsign="as" type=""/>
+<align creator="" in="b28" insign="ansteigen" out="a26" outsign="soar" type=""/>
+<align creator="" in="b25" insign="um" out="a27" outsign="at" type=""/>
+<align creator="" in="b36" insign="17" out="a32" outsign="17" type=""/>
+<align creator="" in="b37" insign="Jahren" out="a33" outsign="years" type=""/>
+<align creator="" in="b41" insign="." out="a34" outsign="." type=""/>
+<align creator="" in="b42" insign="Supermarktpreise" out="a35a36a37" outsign="Prices in supermarkets" type=""/>
+<align creator="" in="b33b34" insign="in den" out="a31" outsign="in" type=""/>
+<align creator="" in="b45" insign="letzten" out="a46" outsign="past" type=""/>
+<align creator="" in="b46" insign="Jahr" out="a47" outsign="year" type=""/>
+<align creator="" in="b44" insign="im" out="a44a45" outsign="over the" type=""/>
+<align creator="" in="b43" insign="sind" out="a38" outsign="have" type=""/>
+<align creator="" in="b48" insign="gestiegen" out="a39" outsign="climbed" type=""/>
+<align creator="" in="b47" insign="alamierend" out="a40a41a42a43" outsign="at an alarming rate" type=""/>
+<align creator="" in="b49" insign="." out="a48" outsign="." type=""/>
+<align creator="" in="b50" insign="Analysen" out="a49" outsign="Analysts" type=""/>
+<align creator="" in="b51" insign="haben" out="a50" outsign="have" type=""/>
+<align creator="" in="b53b54" insign=", dass" out="a52" outsign="that" type=""/>
+<align creator="" in="b55b56" insign="die Preise" out="a53" outsign="prices" type=""/>
+<align creator="" in="b59" insign="werden" out="a54" outsign="will" type=""/>
+<align creator="" in="b58" insign="steigen" out="a55" outsign="increase" type=""/>
+<align creator="" in="b57" insign="weiter" out="a56" outsign="further" type=""/>
+<align creator="" in="b57" insign="weiter" out="a57" outsign="still" type=""/>
+<align creator="" in="b60" insign="," out="a58" outsign="," type=""/>
+<align creator="" in="b74" insign="senken" out="a68" outsign="cut" type=""/>
+<align creator="" in="b73" insign="zu" out="a67" outsign="to" type=""/>
+<align creator="" in="b67" insign="England" out="a66" outsign="England" type=""/>
+<align creator="" in="b66" insign="of" out="a65" outsign="of" type=""/>
+<align creator="" in="b65" insign="Bank" out="a64" outsign="Bank" type=""/>
+<align creator="" in="b63" insign="fÃŒr" out="a62" outsign="for" type=""/>
+<align creator="" in="b64" insign="die" out="a63" outsign="the" type=""/>
+<align creator="" in="b62" insign="es" out="a60" outsign="it" type=""/>
+<align creator="" in="b68" insign="schwer" out="a61" outsign="hard" type=""/>
+<align creator="" in="b61b69b70" insign="wodurch werden dÃŒrfte" out="a59" outsign="making" type=""/>
+<align creator="" in="b72" insign="Zinsen" out="a69" outsign="interest" type=""/>
+<align creator="" in="b72" insign="Zinsen" out="a70" outsign="rates" type=""/>
+<align creator="" in="b78b79b80" insign="sich abmÃŒhen muss" out="a73" outsign="struggles" type=""/>
+<align creator="" in="b76" insign="da" out="a71" outsign="as" type=""/>
+<align creator="" in="b77" insign="sie" out="a72" outsign="it" type=""/>
+<align creator="" in="b87" insign="zu" out="a74" outsign="to" type=""/>
+<align creator="" in="b88" insign="kontrollieren" out="a75a80a81" outsign="keep under control" type=""/>
+<align creator="" in="b83" insign="Inflation" out="a76" outsign="inflation" type=""/>
+<align creator="" in="b82" insign="die" out="a76" outsign="inflation" type=""/>
+<align creator="" in="b84" insign="und" out="a77" outsign="and" type=""/>
+<align creator="" in="b89" insign="." out="a82" outsign="." type=""/>
+<align creator="" in="b95" insign="schlimm" out="a86" outsign="worse" type=""/>
+<align creator="" in="b93" insign="es" out="a85" outsign="matters" type=""/>
+<align creator="" in="b98" insign="," out="a87" outsign="," type=""/>
+<align creator="" in="b102" insign="erhÃ¶hten" out="a88" outsign="escalating" type=""/>
+<align creator="" in="b103" insign="Preisen" out="a89" outsign="prices" type=""/>
+<align creator="" in="b101" insign="den" out="a89" outsign="prices" type=""/>
+<align creator="" in="b105" insign="LohnerhÃ¶hungen" out="a94a95" outsign="salary increases" type=""/>
+<align creator="" in="b116" insign="Gesundheitsbranche" out="a103" outsign="healthcare" type=""/>
+<align creator="" in="b110" insign="Krankenschwestern" out="a100" outsign="nurses" type=""/>
+<align creator="" in="b107b108" insign="vor allem" out="a97" outsign="especially" type=""/>
+<align creator="" in="b111" insign="und" out="a101" outsign="and" type=""/>
+<align creator="" in="b112" insign="anderen" out="a102" outsign="other" type=""/>
+<align creator="" in="b113" insign="Angestellten" out="a104" outsign="professionals" type=""/>
+<align creator="" in="b114b115" insign="in der" out="a103" outsign="healthcare" type=""/>
+<align creator="" in="b90b91b92b93b94b95b96b97" insign="Und als ob es nicht schlimm genug wÃ€re" out="a83a84a85a86" outsign="To make matters worse" type=""/>
+<align creator="" in="b119" insign="." out="a105" outsign="," type=""/>
+<align creator="" in="b120b121" insign="Diese Menschen" out="a106" outsign="who" type=""/>
+<align creator="" in="b122" insign="hatten" out="a107" outsign="have" type=""/>
+<align creator="" in="b143b144" insign="zu leiden" out="a108" outsign="suffered" type=""/>
+<align creator="" in="b124" insign="unter" out="a109" outsign="from" type=""/>
+<align creator="" in="b126" insign="Beharren" out="a113" outsign="insistence" type=""/>
+<align creator="" in="b127" insign="der" out="a112" outsign="'s" type=""/>
+<align creator="" in="b125" insign="dem" out="a110" outsign="the" type=""/>
+<align creator="" in="b129b130" insign=", dass" out="a114" outsign="that" type=""/>
+<align creator="" in="b133" insign="des" out="a116a117" outsign="in the" type=""/>
+<align creator="" in="b134" insign="Ã¶ffentlichen" out="a118" outsign="public" type=""/>
+<align creator="" in="b135" insign="Sektors" out="a119" outsign="sector" type=""/>
+<align creator="" in="b145" insign="." out="a128" outsign="." type=""/>
+<align creator="" in="b146" insign="Neben" out="a129a130" outsign="In addition" type=""/>
+<align creator="" in="b147" insign="den" out="a131" outsign="to" type=""/>
+<align creator="" in="b151" insign="Benzin" out="a132" outsign="fuel" type=""/>
+<align creator="" in="b153" insign="Nahrung" out="a134" outsign="food" type=""/>
+<align creator="" in="b152" insign="und" out="a133" outsign="and" type=""/>
+<align creator="" in="b154" insign="," out="a135" outsign="," type=""/>
+<align creator="" in="b157b158" insign="die ElektrizitÃ€t" out="a136" outsign="electricity" type=""/>
+<align creator="" in="b140" insign="bekommen" out="a122" outsign="receive" type=""/>
+<align creator="" in="b137" insign="untersurchschnittlich" out="a123a124a125" outsign="below - inflation" type=""/>
+<align creator="" in="b141" insign="sollten" out="a120a121" outsign="have to" type=""/>
+<align creator="" in="b139" insign="LÃ¶hne" out="a126" outsign="salary" type=""/>
+<align creator="" in="b138" insign="hÃ¶here" out="a127" outsign="increases" type=""/>
+<align creator="" in="b149" insign="Kosten" out="a137" outsign="bills" type=""/>
+<align creator="" in="b156" insign="auch" out="a139" outsign="also" type=""/>
+<align creator="" in="b159b160" insign="teurer geworden" out="a140" outsign="soaring" type=""/>
+<align creator="" in="b155" insign="ist" out="a138" outsign="are" type=""/>
+<align creator="" in="b161" insign="." out="a141" outsign="." type=""/>
+<align creator="" in="b162" insign="FÃŒnf" out="a142" outsign="Five" type=""/>
+<align creator="" in="b163" insign="der" out="a143a144" outsign="out of" type=""/>
+<align creator="" in="b163" insign="der" out="a145" outsign="the" type=""/>
+<align creator="" in="b164" insign="sechs" out="a146" outsign="six" type=""/>
+<align creator="" in="b165" insign="grÃ¶Ãten" out="a147" outsign="largest" type=""/>
+<align creator="" in="b166" insign="Anbieter" out="a148" outsign="suppliers" type=""/>
+<align creator="" in="b167" insign="haben" out="a149" outsign="have" type=""/>
+<align creator="" in="b170" insign="erhÃ¶ht" out="a150" outsign="increased" type=""/>
+<align creator="" in="b171" insign="." out="a155" outsign="." type=""/>
+<align creator="" in="b168" insign="ihre" out="a151" outsign="their" type=""/>
+<align creator="" in="b5" insign="steigende" out="a4a5" outsign="increase in" type=""/>
+<align creator="" in="b11b16" insign="mit rechnen" out="a13a14" outsign="cough up" type=""/>
+<align creator="" in="b10" insign="jÃ€hrlich" out="a19a20" outsign="a year" type=""/>
+<align creator="" in="b14b15" insign="mehr Ausgaben" out="a15a16" outsign="an extra" type=""/>
+<align creator="" in="b17b18" insign=", da" out="a21" outsign="as" type=""/>
+<align creator="" in="b19b20" insign="die Preise" out="a25" outsign="prices" type=""/>
+<align creator="" in="b26b27" insign="weit mehr" out="a29a30" outsign="fastest rate" type=""/>
+<align creator="" in="b57" insign="weiter" out="a56a57" outsign="further still" type=""/>
+<align creator="" in="b71b73" insign=", zu" out="a67" outsign="to" type=""/>
+<align creator="" in="b72" insign="Zinsen" out="a69a70" outsign="interest rates" type=""/>
+<align creator="" in="b82b83" insign="die Inflation" out="a76" outsign="inflation" type=""/>
+<align creator="" in="b85" insign="die" out="a78" outsign="the" type=""/>
+<align creator="" in="b86" insign="Wirtschaft" out="a79" outsign="economy" type=""/>
+<align creator="" in="b101b103" insign="den Preisen" out="a89" outsign="prices" type=""/>
+<align creator="" in="b128" insign="Regierung" out="a111" outsign="government" type=""/>
+<align creator="" in="b163" insign="der" out="a143a144a145" outsign="out of the" type=""/>
+<align creator="" in="b19b20b21b22b23b24" insign="die Preise fÃŒr Nahrung und Benzin" out="a22a23a24a25" outsign="food and fuel prices" type=""/>
+<align creator="" in="b109" insign="von" out="a99" outsign="of" type=""/>
+<align creator="" in="b149b150" insign="Kosten fÃŒr" out="a137" outsign="bills" type=""/>
+<align creator="" in="b169" insign="Kosten" out="a154" outsign="bills" type=""/>
 </DTAGalign>

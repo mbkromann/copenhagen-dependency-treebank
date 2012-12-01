@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign  alignment="lotte" source="en" target="de">
+<DTAGalign alignment="Jean" source="en" target="de" >
 <alignFile href="P11_P3.src" key="a" sign=""/>
 <alignFile href="P11_P3.tgt" key="b" sign=""/>
 <align creator="" in="b1" insign="Spielberg" out="a1" outsign="Spielberg" type=""/>
@@ -13,7 +13,7 @@
 <align creator="" in="b10" insign="einer" out="a9" outsign="a" type=""/>
 <align creator="" in="b11" insign="Geste" out="a10" outsign="gesture" type=""/>
 <align creator="" in="b13b18" insign="die soll" out="a11a12" outsign="sure to" type=""/>
-<align creator="" in="b17" insign="erschüttern" out="a13" outsign="rattle" type=""/>
+<align creator="" in="b17" insign="erschÃŒttern" out="a13" outsign="rattle" type=""/>
 <align creator="" in="b14" insign="die" out="a14" outsign="the" type=""/>
 <align creator="" in="b15" insign="chinesische" out="a15" outsign="Chinese" type=""/>
 <align creator="" in="b16" insign="Regierung" out="a16" outsign="Government" type=""/>
@@ -24,12 +24,11 @@
 <align creator="" in="b25" insign="den" out="a23" outsign="the" type=""/>
 <align creator="" in="b28b29" insign="in Peking" out="a24" outsign="Beijing" type=""/>
 <align creator="" in="b26b27" insign="Olympischen Spielen" out="a25" outsign="Olympics" type=""/>
-<align creator="" in="b20b23b30" insign="zog sich zurück" out="a20a21" outsign="pulled out" type=""/>
+<align creator="" in="b20b23b30" insign="zog sich zurÃŒck" out="a20a21" outsign="pulled out" type=""/>
 <align creator="" in="b32" insign="um" out="a26" outsign="to" type=""/>
-<align creator="" in="b42b43" insign="zu protestieren" out="a27" outsign="protest" type=""/>
 <align creator="" in="b33" insign="gegen" out="a28" outsign="against" type=""/>
 <align creator="" in="b34" insign="Chinas" out="a29a30" outsign="China 's" type=""/>
-<align creator="" in="b35" insign="Unterstützung" out="a31" outsign="backing" type=""/>
+<align creator="" in="b35" insign="UnterstÃŒtzung" out="a31" outsign="backing" type=""/>
 <align creator="" in="b36" insign="der" out="a32" outsign="for" type=""/>
 <align creator="" in="b37b38" insign="Dafur -" out="a36a37" outsign="in Darfur" type=""/>
 <align creator="" in="b39" insign="Politik" out="a35" outsign="policy" type=""/>
@@ -37,7 +36,7 @@
 <align creator="" in="b41" insign="Sudans" out="a33" outsign="Sudan" type=""/>
 <align creator="" in="b44" insign="." out="a38" outsign="." type=""/>
 <align creator="" in="b45" insign="Sein" out="a39" outsign="His" type=""/>
-<align creator="" in="b46" insign="Rückzug" out="a40" outsign="withdrawal" type=""/>
+<align creator="" in="b46" insign="RÃŒckzug" out="a40" outsign="withdrawal" type=""/>
 <align creator="" in="b47" insign="kommt" out="a41" outsign="comes" type=""/>
 <align creator="" in="b48b49b50" insign="als Folge auf" out="a42a43a44a45" outsign="in the wake of" type=""/>
 <align creator="" in="b56" insign="in" out="a50" outsign="in" type=""/>
@@ -66,16 +65,16 @@
 <align creator="" in="b88" insign="in" out="a82" outsign="in" type=""/>
 <align creator="" in="b89" insign="die" out="a83" outsign="the" type=""/>
 <align creator="" in="b90" insign="sudanesischen" out="a84" outsign="Sudanese" type=""/>
-<align creator="" in="b91" insign="Ölindustrie" out="a85a86" outsign="oil industry" type=""/>
-<align creator="" in="b92b93" insign="getätigt hat" out="a79" outsign="has" type=""/>
+<align creator="" in="b91" insign="Ãlindustrie" out="a85a86" outsign="oil industry" type=""/>
+<align creator="" in="b92b93" insign="getÃ€tigt hat" out="a79" outsign="has" type=""/>
 <align creator="" in="b94" insign="," out="a87" outsign="," type=""/>
-<align creator="" in="b95" insign="unterhält" out="a88" outsign="maintains" type=""/>
+<align creator="" in="b95" insign="unterhÃ€lt" out="a88" outsign="maintains" type=""/>
 <align creator="" in="b96" insign="enge" out="a89" outsign="close" type=""/>
 <align creator="" in="b97" insign="Beziehungen" out="a90" outsign="links" type=""/>
 <align creator="" in="b98" insign="mit" out="a91" outsign="with" type=""/>
 <align creator="" in="b99" insign="der" out="a92" outsign="the" type=""/>
 <align creator="" in="b100" insign="Regierung" out="a93" outsign="Government" type=""/>
-<align creator="" in="b103" insign="schließt" out="a96" outsign="includes" type=""/>
+<align creator="" in="b103" insign="schlieÃt" out="a96" outsign="includes" type=""/>
 <align creator="" in="b104" insign="einen" out="a97" outsign="one" type=""/>
 <align creator="" in="b105" insign="Minister" out="a98" outsign="minister" type=""/>
 <align creator="" in="b102b106" insign="Dies ein" out="a95" outsign="which" type=""/>
@@ -85,7 +84,7 @@
 <align creator="" in="b112" insign="in" out="a109" outsign="in" type=""/>
 <align creator="" in="b113" insign="Den" out="a110" outsign="The" type=""/>
 <align creator="" in="b114" insign="Haag" out="a111" outsign="Hague" type=""/>
-<align creator="" in="b115" insign="für" out="a100" outsign="with" type=""/>
+<align creator="" in="b115" insign="fÃŒr" out="a100" outsign="with" type=""/>
 <align creator="" in="b116" insign="Verbrechen" out="a101" outsign="crimes" type=""/>
 <align creator="" in="b117b118" insign="gegen die" out="a102" outsign="against" type=""/>
 <align creator="" in="b119" insign="Menschlichkeit" out="a103" outsign="humanity" type=""/>
@@ -96,14 +95,14 @@
 <align creator="" in="b127" insign="dass" out="a115" outsign="that" type=""/>
 <align creator="" in="b128" insign="Khartum" out="a116" outsign="Khartoum" type=""/>
 <align creator="" in="b129" insign="den" out="a118" outsign="the" type=""/>
-<align creator="" in="b130" insign="Großteil" out="a119" outsign="bulk" type=""/>
+<align creator="" in="b130" insign="GroÃteil" out="a119" outsign="bulk" type=""/>
 <align creator="" in="b131" insign="der" out="a120a121" outsign="of the" type=""/>
 <align creator="" in="b132" insign="Verantwortung" out="a122" outsign="responsibility" type=""/>
-<align creator="" in="b133" insign="für" out="a123" outsign="for" type=""/>
+<align creator="" in="b133" insign="fÃŒr" out="a123" outsign="for" type=""/>
 <align creator="" in="b134" insign="die" out="a124" outsign="these" type=""/>
 <align creator="" in="b135" insign="andauernde" out="a125" outsign="ongoing" type=""/>
 <align creator="" in="b136" insign="Gewalt" out="a126" outsign="atrocities" type=""/>
-<align creator="" in="b137" insign="trägt" out="a117" outsign="bears" type=""/>
+<align creator="" in="b137" insign="trÃ€gt" out="a117" outsign="bears" type=""/>
 <align creator="" in="b138" insign="," out="a127" outsign="," type=""/>
 <align creator="" in="b140" insign="Spielberg" out="a128" outsign="Spielberg" type=""/>
 <align creator="" in="b139b141b142b143" insign="steht auf dem Standpunkt" out="a129" outsign="maintains" type=""/>
@@ -123,4 +122,7 @@
 <align creator="" in="b158" insign="das" out="a144" outsign="the" type=""/>
 <align creator="" in="b159" insign="Leiden" out="a145" outsign="suffering" type=""/>
 <align creator="" in="b162" insign="." out="a146" outsign="." type=""/>
+<align creator="" in="b31" insign="," out="a26" outsign="to" type=""/>
+<align creator="" in="b43" insign="protestieren" out="a27" outsign="protest" type=""/>
+<align creator="" in="b42" insign="zu" out="a26" outsign="to" type=""/>
 </DTAGalign>

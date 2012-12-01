@@ -1,45 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign  alignment="lotte" source="en" target="de">
+<DTAGalign alignment="Jean" source="en" target="de" >
 <alignFile href="P10_T4.src" key="a" sign=""/>
 <alignFile href="P10_T4.tgt" key="b" sign=""/>
 <align creator="" in="b1b2" insign="Auch wenn" out="a1" outsign="Although" type=""/>
-<align creator="" in="b3b4" insign="die Entwicklungsländer" out="a2a3" outsign="developing countries" type=""/>
-<align creator="" in="b5" insign="verständlicherweise" out="a5" outsign="understandably" type=""/>
+<align creator="" in="b3b4" insign="die EntwicklungslÃ€nder" out="a2a3" outsign="developing countries" type=""/>
+<align creator="" in="b5" insign="verstÃ€ndlicherweise" out="a5" outsign="understandably" type=""/>
 <align creator="" in="b14" insign="bessere" out="a13" outsign="better" type=""/>
 <align creator="" in="b15" insign="Lebensstandards" out="a14a15a16" outsign="standards of living" type=""/>
-<align creator="" in="b16" insign="für" out="a17" outsign="for" type=""/>
+<align creator="" in="b16" insign="fÃŒr" out="a17" outsign="for" type=""/>
 <align creator="" in="b17" insign="die" out="a18" outsign="the" type=""/>
 <align creator="" in="b18" insign="Armen" out="a19" outsign="poor" type=""/>
 <align creator="" in="b19b20" insign="zu erreichen" out="a12" outsign="achieving" type=""/>
-<align creator="" in="b12" insign="Möglichkeiten" out="a10a11" outsign="chances of" type=""/>
-<align creator="" in="b10" insign="bei" out="a9" outsign="their" type=""/>
-<align creator="" in="b6b7b23" insign="nur ungern möchten" out="a4a6a7" outsign="are reluctant to" type=""/>
+<align creator="" in="b12" insign="MÃ¶glichkeiten" out="a10a11" outsign="chances of" type=""/>
 <align creator="" in="b8b9b22" insign="einen Kompromiss eingehen" out="a8" outsign="compromise" type=""/>
 <align creator="" in="b24" insign="," out="a20" outsign="," type=""/>
-<align creator="" in="b27" insign="Maßnahmen" out="a21" outsign="action" type=""/>
+<align creator="" in="b27" insign="MaÃnahmen" out="a21" outsign="action" type=""/>
 <align creator="" in="b28" insign="gegen" out="a22" outsign="on" type=""/>
 <align creator="" in="b30" insign="Klimawandel" out="a23a24" outsign="climate change" type=""/>
 <align creator="" in="b31" insign="nicht" out="a26" outsign="not" type=""/>
 <align creator="" in="b33" insign="wirtschaftliche" out="a28" outsign="economic" type=""/>
 <align creator="" in="b32b34" insign="die Entwicklung" out="a29" outsign="development" type=""/>
-<align creator="" in="b25" insign="dürfen" out="a25" outsign="need" type=""/>
+<align creator="" in="b25" insign="dÃŒrfen" out="a25" outsign="need" type=""/>
 <align creator="" in="b26" insign="die" out="a21" outsign="action" type=""/>
-<align creator="" in="b35" insign="beeinträchtigen" out="a27" outsign="threaten" type=""/>
+<align creator="" in="b35" insign="beeintrÃ€chtigen" out="a27" outsign="threaten" type=""/>
 <align creator="" in="b36" insign="." out="a30" outsign="." type=""/>
 <align creator="" in="b39" insign="Anreize" out="a31" outsign="Incentives" type=""/>
-<align creator="" in="b37b38" insign="Es müssen" out="a32" outsign="must" type=""/>
 <align creator="" in="b41" insign="werden" out="a33" outsign="be" type=""/>
 <align creator="" in="b40" insign="geschaffen" out="a34" outsign="offered" type=""/>
-<align creator="" in="b44b45" insign="die Entwicklungsländer" out="a37a38" outsign="developing countries" type=""/>
-<align creator="" in="b43b47" insign="die veranlassen" out="a35a36" outsign="to encourage" type=""/>
-<align creator="" in="b49b50b51" insign="Grün zu sehen" out="a39a40a41a42a43a44" outsign="to go the extra green mile" type=""/>
+<align creator="" in="b44b45" insign="die EntwicklungslÃ€nder" out="a37a38" outsign="developing countries" type=""/>
+<align creator="" in="b49b50b51" insign="GrÃŒn zu sehen" out="a39a40a41a42a43a44" outsign="to go the extra green mile" type=""/>
 <align creator="" in="b52" insign="und" out="a45" outsign="and" type=""/>
 <align creator="" in="b53" insign="saubere" out="a47" outsign="clean" type=""/>
 <align creator="" in="b55" insign="einzusetzen" out="a46" outsign="implement" type=""/>
 <align creator="" in="b54" insign="Technologien" out="a48" outsign="technologies" type=""/>
 <align creator="" in="b56" insign="," out="a49" outsign="," type=""/>
 <align creator="" in="b57" insign="und" out="a50" outsign="and" type=""/>
-<align creator="" in="b58b62" insign="die können" out="a51" outsign="could" type=""/>
 <align creator="" in="b59" insign="ebenfalls" out="a52" outsign="also" type=""/>
 <align creator="" in="b61" insign="helfen" out="a53" outsign="help" type=""/>
 <align creator="" in="b69b70" insign="zu reduzieren" out="a54" outsign="minimise" type=""/>
@@ -47,8 +42,8 @@
 <align creator="" in="b71" insign="." out="a58" outsign="." type=""/>
 <align creator="" in="b72" insign="Einige" out="a59" outsign="Some" type=""/>
 <align creator="" in="b73" insign="der" out="a60a61" outsign="of the" type=""/>
-<align creator="" in="b74" insign="schwächsten" out="a62a63" outsign="most vulnerable" type=""/>
-<align creator="" in="b75" insign="Länder" out="a64" outsign="countries" type=""/>
+<align creator="" in="b74" insign="schwÃ€chsten" out="a62a63" outsign="most vulnerable" type=""/>
+<align creator="" in="b75" insign="LÃ€nder" out="a64" outsign="countries" type=""/>
 <align creator="" in="b76" insign="der" out="a65a66" outsign="of the" type=""/>
 <align creator="" in="b77" insign="Welt" out="a67" outsign="world" type=""/>
 <align creator="" in="b78" insign="haben" out="a68" outsign="have" type=""/>
@@ -60,17 +55,17 @@
 <align creator="" in="b64b65b67" insign="aus der hervorgehende" out="a56" outsign="from" type=""/>
 <align creator="" in="b66" insign="Entwaldung" out="a57" outsign="deforestation" type=""/>
 <align creator="" in="b87" insign="jedoch" out="a76" outsign="but" type=""/>
-<align creator="" in="b84b85b86b88b89b90b91" insign="bekommen ihn nun am stärksten zu spüren" out="a77a78a79a80a81a82" outsign="are bearing the brunt of it" type=""/>
+<align creator="" in="b84b85b86b88b89b90b91" insign="bekommen ihn nun am stÃ€rksten zu spÃŒren" out="a77a78a79a80a81a82" outsign="are bearing the brunt of it" type=""/>
 <align creator="" in="b92" insign="." out="a83" outsign="." type=""/>
 <align creator="" in="b93" insign="Besonders" out="a87a88" outsign="in particular" type=""/>
-<align creator="" in="b94" insign="Entwicklungsländer" out="a84a85" outsign="Developing countries" type=""/>
+<align creator="" in="b94" insign="EntwicklungslÃ€nder" out="a84a85" outsign="Developing countries" type=""/>
 <align creator="" in="b98" insign="die" out="a94" outsign="the" type=""/>
 <align creator="" in="b99" insign="Folgen" out="a95" outsign="effects" type=""/>
 <align creator="" in="b100" insign="des" out="a96" outsign="of" type=""/>
 <align creator="" in="b101" insign="Klimawandels" out="a97a98" outsign="climate change" type=""/>
 <align creator="" in="b97" insign="an" out="a93" outsign="to" type=""/>
 <align creator="" in="b96b102" insign="sich anpassen" out="a92" outsign="adapt" type=""/>
-<align creator="" in="b95" insign="müssen" out="a90a91" outsign="need to" type=""/>
+<align creator="" in="b95" insign="mÃŒssen" out="a90a91" outsign="need to" type=""/>
 <align creator="" in="b103" insign="." out="a99" outsign="." type=""/>
 <align creator="" in="b104" insign="Daher" out="a105" outsign="therefore" type=""/>
 <align creator="" in="b109" insign="Anpassung" out="a100" outsign="Adaptation" type=""/>
@@ -78,4 +73,12 @@
 <align creator="" in="b105b106b107b108b112" insign="ist ein Zusammenspiel von notwendig" out="a104a106a107a108a109" outsign="must go hand in hand" type=""/>
 <align creator="" in="b111" insign="Schutz" out="a102a103" outsign="mitigation efforts" type=""/>
 <align creator="" in="b113" insign="." out="a110" outsign="." type=""/>
+<align creator="" in="b11" insign="ihren" out="a9" outsign="their" type=""/>
+<align creator="" in="b23" insign="mÃ¶chten" out="a4" outsign="are" type=""/>
+<align creator="" in="b6b7" insign="nur ungern" out="a6a7" outsign="reluctant to" type=""/>
+<align creator="" in="b29" insign="den" out="a23a24" outsign="climate change" type=""/>
+<align creator="" in="b38" insign="mÃŒssen" out="a32" outsign="must" type=""/>
+<align creator="" in="b47" insign="veranlassen" out="a36" outsign="encourage" type=""/>
+<align creator="" in="b46" insign="dazu" out="a35" outsign="to" type=""/>
+<align creator="" in="b62" insign="kÃ¶nnen" out="a51" outsign="could" type=""/>
 </DTAGalign>

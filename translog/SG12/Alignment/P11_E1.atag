@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign  alignment="lotte" source="en" target="de">
+<DTAGalign alignment="Jean" source="en" target="de" >
 <alignFile href="P11_E1.src" key="a" sign=""/>
 <alignFile href="P11_E1.tgt" key="b" sign=""/>
 <align creator="" in="b1b2" insign="Killer -" out="a1" outsign="Killer" type=""/>
@@ -13,21 +13,19 @@
 <align creator="" in="b12" insign="Norris" out="a10" outsign="Norris" type=""/>
 <align creator="" in="b13" insign="wurde" out="a11" outsign="was" type=""/>
 <align creator="" in="b14" insign="heute" out="a15" outsign="today" type=""/>
-<align creator="" in="b15" insign="für" out="a16" outsign="for" type=""/>
+<align creator="" in="b15" insign="fÃŒr" out="a16" outsign="for" type=""/>
 <align creator="" in="b16" insign="den" out="a17" outsign="the" type=""/>
 <align creator="" in="b17" insign="Mord" out="a18" outsign="killing" type=""/>
 <align creator="" in="b18" insign="an" out="a19" outsign="of" type=""/>
 <align creator="" in="b19" insign="vier" out="a20" outsign="four" type=""/>
 <align creator="" in="b20" insign="seiner" out="a21a22" outsign="of his" type=""/>
 <align creator="" in="b21" insign="Patientinnen" out="a23" outsign="patients" type=""/>
-<align creator="" in="b23" insign="lebenslanger" out="a13a14" outsign="for life" type=""/>
-<align creator="" in="b22b24b25" insign="zu Haft verurteilt" out="a12" outsign="imprisoned" type=""/>
 <align creator="" in="b26" insign="." out="a24" outsign="." type=""/>
-<align creator="" in="b28" insign="32-jährige" out="a25a26a27" outsign="32 year old" type=""/>
+<align creator="" in="b28" insign="32-jÃ€hrige" out="a25a26a27" outsign="32 year old" type=""/>
 <align creator="" in="b27b29" insign="Der Norris" out="a28" outsign="Norris" type=""/>
 <align creator="" in="b30" insign="aus" out="a29" outsign="from" type=""/>
 <align creator="" in="b31" insign="Glasgow" out="a30" outsign="Glasgow" type=""/>
-<align creator="" in="b32" insign="tötete" out="a31" outsign="killed" type=""/>
+<align creator="" in="b32" insign="tÃ¶tete" out="a31" outsign="killed" type=""/>
 <align creator="" in="b33" insign="die" out="a32" outsign="the" type=""/>
 <align creator="" in="b34" insign="vier" out="a33" outsign="four" type=""/>
 <align creator="" in="b35" insign="Frauen" out="a34" outsign="women" type=""/>
@@ -35,11 +33,10 @@
 <align creator="" in="b37b38" insign="Jahr 2002" out="a36" outsign="2002" type=""/>
 <align creator="" in="b40" insign="indem" out="a37" outsign="by" type=""/>
 <align creator="" in="b42" insign="ihnen" out="a39" outsign="them" type=""/>
-<align creator="" in="b43" insign="große" out="a40" outsign="large" type=""/>
+<align creator="" in="b43" insign="groÃe" out="a40" outsign="large" type=""/>
 <align creator="" in="b44" insign="Mengen" out="a41" outsign="amounts" type=""/>
 <align creator="" in="b45" insign="an" out="a42" outsign="of" type=""/>
 <align creator="" in="b46" insign="Schlaftabletten" out="a43a44" outsign="sleeping medicine" type=""/>
-<align creator="" in="b41b47" insign="er verabreichte" out="a38" outsign="giving" type=""/>
 <align creator="" in="b48" insign="." out="a45" outsign="." type=""/>
 <align creator="" in="b49" insign="Gestern" out="a46" outsign="Yesterday" type=""/>
 <align creator="" in="b50" insign="wurde" out="a49" outsign="was" type=""/>
@@ -50,10 +47,10 @@
 <align creator="" in="b55" insign="Verhandlung" out="a60" outsign="trial" type=""/>
 <align creator="" in="b56" insign="in" out="a52" outsign="of" type=""/>
 <align creator="" in="b58" insign="vier" out="a53" outsign="four" type=""/>
-<align creator="" in="b59" insign="Fällen" out="a54" outsign="counts" type=""/>
+<align creator="" in="b59" insign="FÃ€llen" out="a54" outsign="counts" type=""/>
 <align creator="" in="b60" insign="des" out="a55" outsign="of" type=""/>
 <align creator="" in="b61" insign="Mordes" out="a56" outsign="murder" type=""/>
-<align creator="" in="b62b63" insign="für schuldig" out="a51" outsign="guilty" type=""/>
+<align creator="" in="b62b63" insign="fÃŒr schuldig" out="a51" outsign="guilty" type=""/>
 <align creator="" in="b64" insign="befunden" out="a50" outsign="found" type=""/>
 <align creator="" in="b65" insign="." out="a61" outsign="." type=""/>
 <align creator="" in="b66" insign="Er" out="a62" outsign="He" type=""/>
@@ -64,7 +61,7 @@
 <align creator="" in="b72" insign="Haft" out="a67" outsign="sentences" type=""/>
 <align creator="" in="b75" insign="einmal" out="a69" outsign="one" type=""/>
 <align creator="" in="b74" insign="," out="a68" outsign="," type=""/>
-<align creator="" in="b76" insign="für" out="a70" outsign="for" type=""/>
+<align creator="" in="b76" insign="fÃŒr" out="a70" outsign="for" type=""/>
 <align creator="" in="b77" insign="jeden" out="a71" outsign="each" type=""/>
 <align creator="" in="b78" insign="der" out="a72a73" outsign="of the" type=""/>
 <align creator="" in="b79" insign="Morde" out="a74" outsign="killings" type=""/>
@@ -90,7 +87,7 @@
 <align creator="" in="b103" insign="Nur" out="a101" outsign="Only" type=""/>
 <align creator="" in="b104" insign="das" out="a102" outsign="the" type=""/>
 <align creator="" in="b105" insign="Bewusstsein" out="a103" outsign="awareness" type=""/>
-<align creator="" in="b106" insign="für" out="a104" outsign="of" type=""/>
+<align creator="" in="b106" insign="fÃŒr" out="a104" outsign="of" type=""/>
 <align creator="" in="b107" insign="andere" out="a105" outsign="other" type=""/>
 <align creator="" in="b108" insign="Krankenhausmitarbeiter" out="a106a107" outsign="hospital staff" type=""/>
 <align creator="" in="b112" insign="den" out="a115" outsign="the" type=""/>
@@ -102,7 +99,7 @@
 <align creator="" in="b119" insign="Polizei" out="a119" outsign="police" type=""/>
 <align creator="" in="b123" insign="das" out="a123" outsign="the" type=""/>
 <align creator="" in="b124" insign="Motiv" out="a124" outsign="motive" type=""/>
-<align creator="" in="b125" insign="für" out="a125" outsign="for" type=""/>
+<align creator="" in="b125" insign="fÃŒr" out="a125" outsign="for" type=""/>
 <align creator="" in="b126" insign="die" out="a126" outsign="the" type=""/>
 <align creator="" in="b127" insign="Morde" out="a127" outsign="killings" type=""/>
 <align creator="" in="b129" insign="dass" out="a129" outsign="that" type=""/>
@@ -126,11 +123,18 @@
 <align creator="" in="b148" insign="." out="a148" outsign="." type=""/>
 <align creator="" in="b150" insign="alle" out="a149a150" outsign="All of" type=""/>
 <align creator="" in="b149" insign="Sie" out="a151" outsign="them" type=""/>
-<align creator="" in="b159" insign="können" out="a152" outsign="could" type=""/>
+<align creator="" in="b159" insign="kÃ¶nnen" out="a152" outsign="could" type=""/>
 <align creator="" in="b158" insign="werden" out="a153" outsign="be" type=""/>
 <align creator="" in="b153" insign="einer" out="a155" outsign="a" type=""/>
 <align creator="" in="b154" insign="Last" out="a156" outsign="burden" type=""/>
-<align creator="" in="b155" insign="für" out="a157" outsign="to" type=""/>
+<align creator="" in="b155" insign="fÃŒr" out="a157" outsign="to" type=""/>
 <align creator="" in="b156b157" insign="das Krankenhauspersonal" out="a158a159" outsign="hospital staff" type=""/>
 <align creator="" in="b160" insign="." out="a160" outsign="." type=""/>
+<align creator="" in="b24b25" insign="Haft verurteilt" out="a12" outsign="imprisoned" type=""/>
+<align creator="" in="b23" insign="lebenslanger" out="a14" outsign="life" type=""/>
+<align creator="" in="b22" insign="zu" out="a13" outsign="for" type=""/>
+<align creator="" in="b39" insign="," out="a37" outsign="by" type=""/>
+<align creator="" in="b47" insign="verabreichte" out="a38" outsign="giving" type=""/>
+<align creator="" in="b93" insign="," out="a91" outsign="that" type=""/>
+<align creator="" in="b128" insign="," out="a129" outsign="that" type=""/>
 </DTAGalign>

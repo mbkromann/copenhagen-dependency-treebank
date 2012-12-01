@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Text language="en" lemmatizer="nltk-wordnet-lemmatizer" sent_segmenter="nltk_sent_tokenizer" tagger="nltk-pos-tagger">
+<Text language="en" >
  <W cur="0" id="1" lemma="Killer" pos="NNP">Killer</W>
  <W cur="7" id="2" lemma="nurse" pos="VBP" space=" ">nurse</W>
  <W cur="13" id="3" lemma="receives" pos="NNS" space=" ">receives</W>

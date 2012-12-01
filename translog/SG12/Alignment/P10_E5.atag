@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign  alignment="lotte" source="en" target="de">
+<DTAGalign alignment="Jean" source="en" target="de" >
 <alignFile href="P10_E5.src" key="a" sign="_input"/>
 <alignFile href="P10_E5.tgt" key="b" sign="_input"/>
 <align creator="" in="b1b2" insign="Die Soziologie" out="a1" outsign="Sociology" type=""/>
@@ -13,7 +13,7 @@
 <align creator="" in="b10" insign="Sie" out="a9" outsign="It" type=""/>
 <align creator="" in="b11b12" insign="zeigte sich" out="a10" outsign="emerged" type=""/>
 <align creator="" in="b13" insign="im" out="a11a12" outsign="in the" type=""/>
-<align creator="" in="b14" insign="frühen" out="a13" outsign="early" type=""/>
+<align creator="" in="b14" insign="frÃŒhen" out="a13" outsign="early" type=""/>
 <align creator="" in="b15" insign="19" out="a14" outsign="19" type=""/>
 <align creator="" in="b16" insign="." out="a15" outsign="th" type=""/>
 <align creator="" in="b17" insign="Jahrhundert" out="a16" outsign="century" type=""/>
@@ -26,16 +26,15 @@
 <align creator="" in="b24" insign="Moderne" out="a23" outsign="modernity" type=""/>
 <align creator="" in="b25" insign="." out="a24" outsign="." type=""/>
 <align creator="" in="b26" insign="Zunehmende" out="a25" outsign="Increasing" type=""/>
-<align creator="" in="b27" insign="Mobilität" out="a26" outsign="mobility" type=""/>
+<align creator="" in="b27" insign="MobilitÃ€t" out="a26" outsign="mobility" type=""/>
 <align creator="" in="b28" insign="und" out="a27" outsign="and" type=""/>
 <align creator="" in="b30" insign="technologische" out="a28" outsign="technological" type=""/>
 <align creator="" in="b29b31" insign="der Fortschritt" out="a29" outsign="advances" type=""/>
-<align creator="" in="b32" insign="führte" out="a30" outsign="resulted" type=""/>
+<align creator="" in="b32" insign="fÃŒhrte" out="a30" outsign="resulted" type=""/>
 <align creator="" in="b33" insign="zu" out="a31" outsign="in" type=""/>
 <align creator="" in="b34" insign="der" out="a32" outsign="the" type=""/>
 <align creator="" in="b35" insign="zunehmenden" out="a33" outsign="increasing" type=""/>
 <align creator="" in="b36" insign="Belastung" out="a34" outsign="exposure" type=""/>
-<align creator="" in="b37" insign="von" out="a35" outsign="of" type=""/>
 <align creator="" in="b38" insign="Personen" out="a36" outsign="people" type=""/>
 <align creator="" in="b39" insign="durch" out="a37" outsign="to" type=""/>
 <align creator="" in="b40" insign="Kulturen" out="a38" outsign="cultures" type=""/>
@@ -54,22 +53,21 @@
 <align creator="" in="b56" insign="unterschiedlich" out="a52" outsign="varied" type=""/>
 <align creator="" in="b57" insign="," out="a53" outsign="," type=""/>
 <align creator="" in="b58" insign="aber" out="a54" outsign="but" type=""/>
-<align creator="" in="b59" insign="für" out="a55" outsign="for" type=""/>
+<align creator="" in="b59" insign="fÃŒr" out="a55" outsign="for" type=""/>
 <align creator="" in="b60" insign="einige" out="a56" outsign="some" type=""/>
 <align creator="" in="b61" insign="Menschen" out="a57" outsign="people" type=""/>
-<align creator="" in="b62b63" insign="bedeuteten sie" out="a58" outsign="included" type=""/>
 <align creator="" in="b64" insign="die" out="a59" outsign="the" type=""/>
 <align creator="" in="b65" insign="Entfernung" out="a60" outsign="breakdown" type=""/>
 <align creator="" in="b66" insign="von" out="a61" outsign="of" type=""/>
 <align creator="" in="b67" insign="traditionellen" out="a62" outsign="traditional" type=""/>
 <align creator="" in="b68" insign="Normen" out="a63" outsign="norms" type=""/>
 <align creator="" in="b69" insign="und" out="a64" outsign="and" type=""/>
-<align creator="" in="b70" insign="Gebräuchen" out="a65" outsign="customs" type=""/>
+<align creator="" in="b70" insign="GebrÃ€uchen" out="a65" outsign="customs" type=""/>
 <align creator="" in="b71" insign="und" out="a66" outsign="and" type=""/>
-<align creator="" in="b72b73" insign="führten zu" out="a67" outsign="warranted" type=""/>
+<align creator="" in="b72b73" insign="fÃŒhrten zu" out="a67" outsign="warranted" type=""/>
 <align creator="" in="b74" insign="einem" out="a68" outsign="a" type=""/>
 <align creator="" in="b75" insign="neuen" out="a69" outsign="revised" type=""/>
-<align creator="" in="b76" insign="Verständnis" out="a70" outsign="understanding" type=""/>
+<align creator="" in="b76" insign="VerstÃ€ndnis" out="a70" outsign="understanding" type=""/>
 <align creator="" in="b77" insign="davon" out="a71" outsign="of" type=""/>
 <align creator="" in="b79" insign="wie" out="a72" outsign="how" type=""/>
 <align creator="" in="b80" insign="die" out="a73" outsign="the" type=""/>
@@ -80,26 +78,25 @@
 <align creator="" in="b85" insign="reagierten" out="a78" outsign="responded" type=""/>
 <align creator="" in="b86" insign="auf" out="a79" outsign="to" type=""/>
 <align creator="" in="b87" insign="diese" out="a80" outsign="these" type=""/>
-<align creator="" in="b88" insign="Veränderungen" out="a81" outsign="changes" type=""/>
+<align creator="" in="b88" insign="VerÃ€nderungen" out="a81" outsign="changes" type=""/>
 <align creator="" in="b90" insign="indem" out="a82" outsign="by" type=""/>
-<align creator="" in="b91b92" insign="Sie versuchen" out="a83" outsign="trying" type=""/>
 <align creator="" in="b93" insign="zu" out="a84" outsign="to" type=""/>
 <align creator="" in="b94" insign="verstehen" out="a85" outsign="understand" type=""/>
 <align creator="" in="b96" insign="was" out="a86" outsign="what" type=""/>
-<align creator="" in="b99" insign="zusammenhält" out="a87a90" outsign="holds together" type=""/>
+<align creator="" in="b99" insign="zusammenhÃ€lt" out="a87a90" outsign="holds together" type=""/>
 <align creator="" in="b97" insign="soziale" out="a88" outsign="social" type=""/>
 <align creator="" in="b98" insign="Gruppen" out="a89" outsign="groups" type=""/>
 <align creator="" in="b101" insign="und" out="a91" outsign="and" type=""/>
 <align creator="" in="b103" insign="auch" out="a92" outsign="also" type=""/>
 <align creator="" in="b102" insign="erkunden" out="a93" outsign="exploring" type=""/>
-<align creator="" in="b104" insign="mögliche" out="a94" outsign="possible" type=""/>
-<align creator="" in="b105" insign="Lösungen" out="a95" outsign="solutions" type=""/>
-<align creator="" in="b106" insign="für" out="a96" outsign="to" type=""/>
+<align creator="" in="b104" insign="mÃ¶gliche" out="a94" outsign="possible" type=""/>
+<align creator="" in="b105" insign="LÃ¶sungen" out="a95" outsign="solutions" type=""/>
+<align creator="" in="b106" insign="fÃŒr" out="a96" outsign="to" type=""/>
 <align creator="" in="b107" insign="den" out="a97" outsign="the" type=""/>
 <align creator="" in="b108" insign="Nachlass" out="a98" outsign="breakdown" type=""/>
 <align creator="" in="b109" insign="der" out="a99" outsign="of" type=""/>
 <align creator="" in="b110" insign="sozialen" out="a100" outsign="social" type=""/>
-<align creator="" in="b111" insign="Solidarität" out="a101" outsign="solidarity" type=""/>
+<align creator="" in="b111" insign="SolidaritÃ€t" out="a101" outsign="solidarity" type=""/>
 <align creator="" in="b112" insign="." out="a102" outsign="." type=""/>
 <align creator="" in="b113" insign="Der" out="a103" outsign="The" type=""/>
 <align creator="" in="b114" insign="Begriff" out="a104" outsign="term" type=""/>
@@ -123,7 +120,7 @@
 <align creator="" in="b133" insign="(" out="a123" outsign="(" type=""/>
 <align creator="" in="b134" insign="Begleiter" out="a124" outsign="companion" type=""/>
 <align creator="" in="b135" insign="," out="a125" outsign="," type=""/>
-<align creator="" in="b136" insign="Gefährte" out="a126" outsign="associate" type=""/>
+<align creator="" in="b136" insign="GefÃ€hrte" out="a126" outsign="associate" type=""/>
 <align creator="" in="b137" insign=")" out="a127" outsign=")" type=""/>
 <align creator="" in="b138" insign="und" out="a128" outsign="and" type=""/>
 <align creator="" in="b139" insign="dem" out="a129" outsign="the" type=""/>
@@ -132,8 +129,13 @@
 <align creator="" in="b142" insign="logos" out="a132" outsign="logia" type=""/>
 <align creator="" in="b143" insign="(" out="a133" outsign="(" type=""/>
 <align creator="" in="b146" insign="Sprache" out="a137" outsign="speech" type=""/>
-<align creator="" in="b144" insign="Untersuchung" out="a134a135" outsign="study of" type=""/>
 <align creator="" in="b147" insign=")" out="a138" outsign=")" type=""/>
 <align creator="" in="b149" insign="." out="a139" outsign="." type=""/>
-<align creator="" in="b148" insign="geprägt" out="a107" outsign="coined" type=""/>
+<align creator="" in="b148" insign="geprÃ€gt" out="a107" outsign="coined" type=""/>
+<align creator="" in="b37" insign="von" out="a35" outsign="of" type=""/>
+<align creator="" in="b62" insign="bedeuteten" out="a58" outsign="included" type=""/>
+<align creator="" in="b91" insign="Sie" out="a83" outsign="trying" type=""/>
+<align creator="" in="b95" insign="," out="a86" outsign="what" type=""/>
+<align creator="" in="b144" insign="Untersuchung" out="a134" outsign="study" type=""/>
+<align creator="" in="b145" insign="der" out="a135" outsign="of" type=""/>
 </DTAGalign>

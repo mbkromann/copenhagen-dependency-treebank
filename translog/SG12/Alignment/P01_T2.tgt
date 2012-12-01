@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Text language="de" lemmatizer="tree-tagger" sent_segmenter="nltk_sent_tokenizer" tagger="tree-tagger">
+<Text language="de" >
  <W cur="0" id="1" lemma="Familie" pos="NN">Familien</W>
  <W cur="9" id="2" lemma="stark" pos="ADJD" space=" ">stark</W>
  <W cur="15" id="3" lemma="von" pos="APPR" space=" ">von</W>

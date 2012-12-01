@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DTAGalign  alignment="lotte" source="en" target="de">
+<DTAGalign alignment="Jean" source="en" target="de" >
 <alignFile href="P12_E3.src" key="a" sign=""/>
 <alignFile href="P12_E3.tgt" key="b" sign=""/>
 <align creator="" in="b1" insign="Spielberg" out="a1" outsign="Spielberg" type=""/>
 <align creator="" in="b2" insign="zeigt" out="a2" outsign="shows" type=""/>
 <align creator="" in="b3" insign="Peking" out="a3" outsign="Beijing" type=""/>
 <align creator="" in="b5" insign="Rote" out="a4" outsign="red" type=""/>
-<align creator="" in="b3b6" insign="Peking Karte" out="a5" outsign="card" type=""/>
-<align creator="" in="b7" insign="für" out="a6" outsign="over" type=""/>
+<align creator="" in="b7" insign="fÃŒr" out="a6" outsign="over" type=""/>
 <align creator="" in="b8" insign="Darfur" out="a7" outsign="Darfur" type=""/>
 <align creator="" in="b9" insign="In" out="a8" outsign="In" type=""/>
 <align creator="" in="b10" insign="einer" out="a9" outsign="a" type=""/>
@@ -24,8 +23,8 @@
 <align creator="" in="b31" insign="um" out="a26" outsign="to" type=""/>
 <align creator="" in="b32" insign="gegen" out="a28" outsign="against" type=""/>
 <align creator="" in="b33" insign="Chinas" out="a29a30" outsign="China 's" type=""/>
-<align creator="" in="b34" insign="Unterstützung" out="a31" outsign="backing" type=""/>
-<align creator="" in="b35" insign="für" out="a32" outsign="for" type=""/>
+<align creator="" in="b34" insign="UnterstÃŒtzung" out="a31" outsign="backing" type=""/>
+<align creator="" in="b35" insign="fÃŒr" out="a32" outsign="for" type=""/>
 <align creator="" in="b37" insign="Sudan" out="a33" outsign="Sudan" type=""/>
 <align creator="" in="b38" insign="-" out="a34" outsign="'s" type=""/>
 <align creator="" in="b36b39" insign="die Politik" out="a35" outsign="policy" type=""/>
@@ -34,7 +33,6 @@
 <align creator="" in="b42" insign="zu" out="a26" outsign="to" type=""/>
 <align creator="" in="b43" insign="protestieren" out="a27" outsign="protest" type=""/>
 <align creator="" in="b44" insign="." out="a38" outsign="." type=""/>
-<align creator="" in="b21b27b28b29" insign="während die Rote Karte" out="a20a21a22" outsign="pulled out of" type=""/>
 <align creator="" in="b22" insign="der" out="a23" outsign="the" type=""/>
 <align creator="" in="b45" insign="Sein" out="a39" outsign="His" type=""/>
 <align creator="" in="b46" insign="Auftritt" out="a40" outsign="withdrawal" type=""/>
@@ -68,14 +66,14 @@
 <align creator="" in="b88" insign="," out="a77" outsign="," type=""/>
 <align creator="" in="b89" insign="das" out="a78" outsign="which" type=""/>
 <align creator="" in="b90" insign="umfangreiche" out="a80" outsign="extensive" type=""/>
-<align creator="" in="b96b97" insign="getätigt hat" out="a79" outsign="has" type=""/>
+<align creator="" in="b96b97" insign="getÃ€tigt hat" out="a79" outsign="has" type=""/>
 <align creator="" in="b91" insign="Investitionen" out="a81" outsign="investments" type=""/>
 <align creator="" in="b92" insign="in" out="a82" outsign="in" type=""/>
 <align creator="" in="b93" insign="die" out="a83" outsign="the" type=""/>
 <align creator="" in="b94" insign="sudanesischen" out="a84" outsign="Sudanese" type=""/>
-<align creator="" in="b95" insign="Ölindustrie" out="a85a86" outsign="oil industry" type=""/>
+<align creator="" in="b95" insign="Ãlindustrie" out="a85a86" outsign="oil industry" type=""/>
 <align creator="" in="b98" insign="," out="a87" outsign="," type=""/>
-<align creator="" in="b99" insign="unterhält" out="a88" outsign="maintains" type=""/>
+<align creator="" in="b99" insign="unterhÃ€lt" out="a88" outsign="maintains" type=""/>
 <align creator="" in="b100" insign="enge" out="a89" outsign="close" type=""/>
 <align creator="" in="b101" insign="Beziehungen" out="a90" outsign="links" type=""/>
 <align creator="" in="b102" insign="mit" out="a91" outsign="with" type=""/>
@@ -106,11 +104,11 @@
 <align creator="" in="b131" insign="den" out="a118" outsign="the" type=""/>
 <align creator="" in="b133" insign="der" out="a120a121" outsign="of the" type=""/>
 <align creator="" in="b134" insign="Verantwortung" out="a122" outsign="responsibility" type=""/>
-<align creator="" in="b135" insign="für" out="a123" outsign="for" type=""/>
+<align creator="" in="b135" insign="fÃŒr" out="a123" outsign="for" type=""/>
 <align creator="" in="b136" insign="diese" out="a124" outsign="these" type=""/>
 <align creator="" in="b137" insign="andauernden" out="a125" outsign="ongoing" type=""/>
-<align creator="" in="b138" insign="Gräueltaten" out="a126" outsign="atrocities" type=""/>
-<align creator="" in="b139" insign="trägt" out="a117" outsign="bears" type=""/>
+<align creator="" in="b138" insign="GrÃ€ueltaten" out="a126" outsign="atrocities" type=""/>
+<align creator="" in="b139" insign="trÃ€gt" out="a117" outsign="bears" type=""/>
 <align creator="" in="b140" insign="," out="a127" outsign="," type=""/>
 <align creator="" in="b142" insign="Spielberg" out="a128" outsign="Spielberg" type=""/>
 <align creator="" in="b141" insign="findet" out="a129" outsign="maintains" type=""/>
@@ -119,7 +117,6 @@
 <align creator="" in="b146" insign="internationale" out="a132" outsign="international" type=""/>
 <align creator="" in="b147" insign="Gemeinschaft" out="a133" outsign="community" type=""/>
 <align creator="" in="b148" insign="," out="a134" outsign="," type=""/>
-<align creator="" in="b149" insign="insbesondere" out="a135a136" outsign="and particularly" type=""/>
 <align creator="" in="b150" insign="China" out="a137" outsign="China" type=""/>
 <align creator="" in="b151" insign="," out="a138" outsign="," type=""/>
 <align creator="" in="b152" insign="mehr" out="a141" outsign="more" type=""/>
@@ -130,4 +127,17 @@
 <align creator="" in="b157" insign="das" out="a144" outsign="the" type=""/>
 <align creator="" in="b158" insign="Leiden" out="a145" outsign="suffering" type=""/>
 <align creator="" in="b161" insign="." out="a146" outsign="." type=""/>
+<align creator="" in="b6" insign="Karte" out="a5" outsign="card" type=""/>
+<align creator="" in="b4" insign="die" out="a5" outsign="card" type=""/>
+<align creator="" in="b18b27b28b29" insign="zog die Rote Karte" out="a20a21" outsign="pulled out" type=""/>
+<align creator="" in="b21" insign="wÃ€hrend" out="a22" outsign="of" type=""/>
+<align creator="" in="b30" insign="," out="a26" outsign="to" type=""/>
+<align creator="" in="b37" insign="Sudan" out="a34" outsign="'s" type=""/>
+<align creator="" in="b47" insign="steht" out="a41" outsign="comes" type=""/>
+<align creator="" in="b53" insign="gegen" out="a46" outsign="fighting" type=""/>
+<align creator="" in="b54" insign="ein" out="a47a48" outsign="flaring up" type=""/>
+<align creator="" in="b128" insign="," out="a115" outsign="that" type=""/>
+<align creator="" in="b143" insign="," out="a130" outsign="that" type=""/>
+<align creator="" in="b149" insign="insbesondere" out="a136" outsign="particularly" type=""/>
+<align creator="" in="b155" insign="," out="a142" outsign="to" type=""/>
 </DTAGalign>
