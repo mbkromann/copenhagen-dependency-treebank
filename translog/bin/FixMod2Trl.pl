@@ -93,7 +93,7 @@ sub MSescape {
   $in =~ s/\r/&#xD;/g;
   $in =~ s/\t/&#x9;/g;
   $in =~ s/"/&quot;/g;
-  $in =~ s/ /&nbsp;/g;
+#  $in =~ s/ /&nbsp;/g;
   return $in;
 }
 
@@ -151,10 +151,10 @@ sub ReadTranslog {
     elsif($type == 3 && /<CharPos/) {
       if(/Cursor="([0-9][0-9]*)"/) {$cur =$1;}
       if(/Value="([^"]*)"/)        {$TEXT->{$cur}{'c'} = $CHR->{tra}{$cur}{'c'} = MSunescape($1);}
-      if(/X="([-0-9][0-9]*)"/)      {$CHR->{tra}{$cur}{'x'} = $1;}
-      if(/Y="([-0-9][0-9]*)"/)      {$CHR->{tra}{$cur}{'y'} = $1;}
-      if(/Width="([0-9][0-9]*)"/)  {$CHR->{tra}{$cur}{'w'} = $1;}
-      if(/Height="([0-9][0-9]*)"/) {$CHR->{tra}{$cur}{'h'} = $1;}
+      if(/X="([-0-9][0-9]*)"/)      {$TEXT->{$cur}{'x'} = $CHR->{tra}{$cur}{'x'} = $1;}
+      if(/Y="([-0-9][0-9]*)"/)      {$TEXT->{$cur}{'y'} = $CHR->{tra}{$cur}{'y'} = $1;}
+      if(/Width="([0-9][0-9]*)"/)  {$TEXT->{$cur}{'w'} = $CHR->{tra}{$cur}{'w'} = $1;}
+      if(/Height="([0-9][0-9]*)"/) {$TEXT->{$cur}{'h'} = $CHR->{tra}{$cur}{'h'} = $1;}
       $TextLength++;
     }
 ## FinalText Positions
@@ -310,7 +310,7 @@ sub KeyLogAnalyse {
 
 sub InsertText {
   my ($Value) = @_;
-  my ($j, $c, $l, $t);
+  my ($j, $c, $l, $t, $x, $y, $w, $h);
 
   my $s = $_;
   my $X=[split(//, $Value)];
@@ -319,6 +319,12 @@ sub InsertText {
   else { printf STDERR "InsertText1: No Cursor in $s\n";}
   if($s =~ /Time="([0-9][0-9]*)"/)   {$t = int($1);}
   else { printf STDERR "InsertText1: No Time in $s\n";}
+
+  $x=$y=$w=$h=0;
+  if($s =~ /X="([0-9][0-9]*)"/)   {$x = int($1);}
+  if($s =~ /Y="([0-9][0-9]*)"/)   {$y = int($1);}
+  if($s =~ /Width="([0-9][0-9]*)"/)   {$w = int($1);}
+  if($s =~ /Height="([0-9][0-9]*)"/)   {$h = int($1);}
 
   if($t <= $lastKeyTime) { $t = $lastKeyTime+1; }
 
@@ -329,9 +335,13 @@ sub InsertText {
 #  insert contents of $X in text 
   for($j=0; $j <= $#{$X}; $j++) { 
 #    print STDERR "         ins   time:$t Log:$Value($#{$X})\tLog:$j:$X->[$j]\n"; 
-    $TEXT->{$c+$j}{'c'} = $X->[$j]; 
     $KEY->{$t}{'t'} = "ins";
-    $KEY->{$t}{'k'} = $X->[$j];
+    $TEXT->{$c+$j}{'c'} = $KEY->{$t}{'k'} = $X->[$j]; 
+	$TEXT->{$c+$j}{'x'} = $KEY->{$t}{'x'} = $x ;
+	$TEXT->{$c+$j}{'y'} = $KEY->{$t}{'y'} = $y;
+    $TEXT->{$c+$j}{'w'} = $KEY->{$t}{'w'} = $w;
+	$TEXT->{$c+$j}{'h'} = $KEY->{$t}{'h'} = $h;
+	
     if(/Cursor="([0-9][0-9]*)"/) {$KEY->{$t}{'c'} = $c+$j;}
 #print STDERR "InsertText1: $t\tv:$Value\tchar:$X->[$j]\n";
     $t++;
@@ -411,6 +421,10 @@ sub DeleteText {
     if($c+$j > $TextLength) {last;}
     $KEY->{$t}{'t'} = "del";
     $KEY->{$t}{'k'} = $X->[$j];
+	$KEY->{$t}{'x'} = $TEXT->{$c+$j}{'x'};
+	$KEY->{$t}{'y'} = $TEXT->{$c+$j}{'y'};
+    $KEY->{$t}{'w'} = $TEXT->{$c+$j}{'w'};
+	$KEY->{$t}{'h'} = $TEXT->{$c+$j}{'h'};
     if(/Cursor="([0-9][0-9]*)"/) {$KEY->{$t}{'c'} = $c + $j;}
     $t++;
   }
@@ -896,8 +910,10 @@ sub FixModTable {
      }
    } 
    else {next;}
+#print STDERR "KEYS:\n";
+#d($FIX->{$t});
 
-    $TRANSLOG->{$m++} = "    <Fix time=\"$t\" win=\"$FIX->{$t}{w}\" cur=\"$FIX->{$t}{c}\" dur=\"$FIX->{$t}{d}\" sid=\"$FIX->{$t}{sid}\" tid=\"$FIX->{$t}{tid}\" />\n";
+    $TRANSLOG->{$m++} = "    <Fix time=\"$t\" win=\"$FIX->{$t}{w}\" cur=\"$FIX->{$t}{c}\" dur=\"$FIX->{$t}{d}\" X=\"$FIX->{$t}{x}\" Y=\"$FIX->{$t}{y}\" sid=\"$FIX->{$t}{sid}\" tid=\"$FIX->{$t}{tid}\" />\n";
   }
   $TRANSLOG->{$m++} ="  </Fixations>\n";
 
@@ -919,7 +935,16 @@ sub FixModTable {
       }
     }
     my $chr = MSescape($KEY->{$t}{k});
-    $TRANSLOG->{$m++} = "    <Mod time=\"$t\" type=\"$KEY->{$t}{t}\" cur=\"$KEY->{$t}{c}\" chr=\"$chr\" sid=\"$s\" tid=\"$KEY->{$t}{id}\" />\n";
+    if (!defined($KEY->{$t}{x})) {
+#print STDERR "KEYS:\n";
+#d($KEY->{$t});
+      $KEY->{$t}{x} = $KEY->{$t}{y} = $KEY->{$t}{w} = $KEY->{$t}{h} = 0;
+    }
+	
+    my $x = int($KEY->{$t}{x} + ($KEY->{$t}{w} / 2));
+    my $y = int($KEY->{$t}{y} + ($KEY->{$t}{h} / 2));
+	
+    $TRANSLOG->{$m++} = "    <Mod time=\"$t\" type=\"$KEY->{$t}{t}\" cur=\"$KEY->{$t}{c}\" chr=\"$chr\" X=\"$x\" Y=\"$y\" sid=\"$s\" tid=\"$KEY->{$t}{id}\" />\n";
   }
   $TRANSLOG->{$m++} ="  </Modifications>\n";
   $TRANSLOG->{$m++} ="<\/LogFile>\n";
