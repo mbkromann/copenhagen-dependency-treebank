@@ -1,0 +1,581 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html> 
+<head>
+	<title>Nordic Treebank Network: Treebank Tools</title>
+	<link rel="self" href="http://www.id.cbs.dk/~mtk/ntn/tools.html" id="Tools" title="Tools">
+	<link rel="sibling" href="formats.html" id="Formats" title="Representation Formats">
+	<link rel="sibling" href="tiger-xml.html" id="TIGER-XML" title="TIGER-XML">
+<meta name="robot" content="index"></head>
+
+<body  background="background.gif" text="#000000" link="#0000ff" vlink="#444444">
+
+<h1 align="center">Nordic Treebank Network:<br>
+	Treebank tools</h1>
+
+
+<a name="Purpose"></a>
+<h2>Purpose</h2>
+
+	<p>The purpose of this page is to document the tools 
+	used in the treebank projects of the Nordic Treebank Network for
+	creating, using and evaluating treebanks. </p>
+
+<a name="Tools"></a>
+<h2>Tools</h2>
+
+	<a name="list"></a>
+	<p>The table below lists the tools submitted by members of the Nordic
+	Trebank Network. Each tool is classified with one or more
+	letters, depending on the supported uses of the program:</p>
+	<ul>
+		<li> <b>Aa = alignment</b>: The program can be used for
+			aligning parallel treebanks automatically.
+			<ul>
+				<li> A = word alignment
+				<li> a = sentence alignment only
+			</ul>
+
+		<li> <b>C = corpora</b>: The program can be used for collecting
+			corpora in the form of text, speech, or video.
+
+		<li> <b>Ee = editing</b>: The program can be used for editing
+			treebanks manually.
+			<ul>
+				<li> E = editing of syntax graphs and semantics
+				<li> e = editing of word annotations only
+			</ul>
+
+		<li> <b>Ll = learning</b>: The program can learn grammars
+		automatically from a treebank or a corpus.
+			<ul>
+				<li> L = learning grammars used for syntactic and/or 
+					semantic analysis
+				<li> l = learning grammars used for tagging only
+			</ul>
+
+		<li> <b>Mm&mu; = multi-language parallel treebanks</b>:
+			The program can be used to visualize and manually edit
+			aligned parallel treebanks.
+			<ul>
+				<li> M = word-aligned parallel treebanks
+				<li> m = sentence-aligned parallel treebanks
+				<li> &mu; = aligned parallel corpora only
+			</ul>
+
+		<li> <b>Pp</b>: The program can be used to parse or tag corpora.
+			<ul>
+				<li> P = syntactic and/or semantic parsing
+				<li> p = morphological tagging only
+			</ul>
+
+		<li> <b>Q</b>: The program can be used for quantitative
+			analysis of corpora.
+	
+		<li> <b>Ss</b>: The program can be used to search a treebank.
+			<ul>
+				<li> S = the query language can deal with syntax graphs
+				<li> s = the query language deals with word sequences only
+			</ul>
+
+		<li> <b>T</b>: The program can be used to manipulate
+			sound files and transscriptions.
+			
+		<li> <b>V</b>: The program can be used to visualize treebanks.
+
+		<li> <b>X</b>: The program can be used to convert between
+			different treebank formats. 
+	</ul>
+
+	<table border="1" rules="all">
+	<tr align="left">
+		<th>Tool</th>
+		<th>Category</th>
+		<th>Features</th>
+		<th>Linguistic representation</th>
+		<th>Import/export formats</th>
+		<th>Platform</th>
+		<th>License</th>
+		<th>Supported languages</th>
+		<th>Supported linguistic theories</th>
+		<th>Treebank projects using tool</th>
+	</tr>
+
+	<tr align="left" valign="top">
+
+<!-- Annotation visualization: Magnus Gunnarsson
+	<mgunnar@ling.gu.se> -->
+
+	<tr align="left" valign="top">
+		<td><a href="http://www.ling.gu.se/projekt/tal/index.cgi?PAGE=4"
+			target="_parent">Annotation Visualization</a></td>
+		<td>V</td>
+		<td>A tool for visualizing transcriptions and Tractor codings
+			in FrameMaker.</td>
+		<td>transcriptions, single speaker/multiple
+			speakers, entire discourse</td>
+		<td>Imports Göteborg Transcription Standard (GTS) and Tractor.</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+
+<!-- Corpus Browser: Magnus Gunnarsson
+	<mgunnar@ling.gu.se> -->
+
+	<tr align="left" valign="top">
+		<td><a href="http://www.ling.gu.se/projekt/tal/index.cgi?PAGE=4"
+			target="_parent">Corpus Browser</a></td>
+		<td>s</td>
+		<td>A web-based tool for searching GTS transcriptions.</td>
+		<td>transcriptions, single speaker/multiple
+			speakers, entire discourse</td>
+		<td>Imports Göteborg Transcription Standard (GTS).</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+
+
+
+<!-- Dangram: Eckhard Bick <lineb@mail.hum.au.dk> -->
+
+		<td>
+			<a
+			href="http://sandbox.visl.sdu.dk/visl/da/parsing/automatic/complex.php">Dangram</a>
+		</td><td>
+			P
+		<td>CG/PSG parser for Danish text. Unrestricted input.
+			Produces syntax trees from running text. Form &amp;
+			function annotation. Other annotation, e.g. case roles,
+			NER etc.  optionally passed on from the CG-level.
+		</td><td>
+			Constituent trees with nodes labelled for form (PoS,
+			"category") and syntactic function ("edge labels").
+			Handles discontinuity, raising, underspecified stacking,
+			some focus constructions, provisional and formal
+			subjects.
+		</td><td>
+			Import: live text. Export: TIGER-xml (with filter).
+		</td><td>
+			Linux
+		</td><td>
+			Internet based tool (free). Licensing possible (not free).
+		</td><td>
+			Danish.
+		</td><td>
+			Constraint Grammar, Phrase Structure Grammar, Field analysis
+		</td><td>
+			<a
+			href="http://corp.hum.sdu.dk/arboretum.html">Arboretum</a>
+			(Danish constituent and dependency treebank), <a
+			href="http://beta.visl.sdu.dk">VISL teaching
+			treebanks</a>
+		</td>
+	</tr>
+
+<!-- DTAG: Matthias T. Kromann <mtk@id.cbs.dk> -->
+
+		<td>
+			<a href="http://www.id.cbs.dk/~mtk/dtag"
+			target="_parent">DTAG</a>
+		</td><td>
+			ESV
+		</td><td>
+			DTAG allows the user to display, edit, search, and compare
+			dependency-annotated texts within a treebank.
+		</td><td>
+			General graph structures with potential cyclicity and
+			discontinuity. Nodes have an arbitrary number of
+			attribute-value pairs, edges have a single label. Suitable
+			for text and transscribed multi-speaker dialogue. No sound
+			capabilities. 
+		</td><td>
+			<a
+			href="http://www.id.cbs.dk/~mtk/treebank/theory.html">DTAG
+			XML format</a>
+		</td><td>
+			Perl/Linux, not tested on other systems
+		</td><td>
+			Open Source
+		</td><td>
+			All
+		</td><td>
+			Dependency-based theories
+			such as <a href="http://www.id.cbs.dk/~mtk/dg"
+			target="_parent">Discontinuous Grammar</a>,  
+			<a href="http://www.phon.ucl.ac.uk/home/dick/enc-gen.htm"
+				target="_parent">Word Grammar</a>, and
+			<a href="http://www.ling.helsinki.fi/~tapanain/cg/"
+			target="_parent">Constraint Grammar</a>
+		</td><td>
+			<a href="http://www.id.cbs.dk/~mtk/treebank"
+				target="_parent">Danish Dependency Treebank</a>
+		</td>
+	</tr>
+
+<!-- MTTextEditor: Magnus Gunnarsson <mgunnar@ling.gu.se> -->
+
+	<tr align="left" valign="top">
+		<td><a href="http://www.ling.gu.se/projekt/tal/index.cgi?PAGE=4"
+			target="_parent">MTTextEditor</a></td>
+		<td>C</td>
+		<td>A tool for checking GTS transcriptions.</td>
+		<td>transcriptions, single speaker/multiple
+			speakers, entire discourse</td>
+		<td>Imports Göteborg Transcription Standard (GTS).</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+
+
+<!-- Multitool: Magnus Gunnarsson <mgunnar@ling.gu.se> -->
+
+	<tr align="left" valign="top">
+		<td><a href="http://www.ling.gu.se/projekt/tal/index.cgi?PAGE=4"
+			target="_parent">Multitool</a></td>
+		<td>ET</td>
+		<td>A multimodal corpus presentation tool.  Audio/video
+			presentation with simultaneous scrolling in a
+			partiture-formatted transcription.</td>
+		<td>Text/sound/transcriptions, single speaker/multiple
+			speakers, entire discourse.</td>
+		<td>Imports Göteborg Transcription Standard (GTS) and Tractor.
+			Exports GTS.</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+
+
+<!-- NORGRAM: Koenrad de Smedt <desmedt@uib.no> -->
+
+    <tr align="left" valign="top">
+		<td><a href="http://ling.uib.no/~victoria/norgram">NORGRAM</a></td>
+		<td>P</td>
+		<td>NORGRAM consists of a large coverage Norwegian grammar.</td>
+		<td>LFG, producing c-structures, f-structures, s-structures
+			and MRS-structures.</td>
+		<td>prolog</td>
+		<td>XLE (Xerox Linguistic Environment)</td>
+		<td>academic</td>
+		<td>Norwegian</td>
+		<td>LFG</td>
+		<td>TREPIL (from 2004)</td>
+	</tr>
+
+<!-- Slanttree: Eckhard Bick <lineb@mail.hum.au.dk> -->
+
+    <tr align="left" valign="top">
+		<td>
+			<a
+			href="http://beta.visl.sdu.dk/visl/Slanttree-doc.html">Slanttree
+			treebank-viewer</a>
+		</td>
+		<td>V</td>
+		<td>
+			Java programme that allows to graphically inspect,
+			fold/unfold, and otherwise manipulate syntactic trees.
+			Interactive tree-building and -labelling. Various
+			complexity and visualisation filters (symbols,
+			abbreviations, colours ...).
+		</td><td>
+			Constituent trees with nodes labelled for form and
+			function. Handles discontinuity, underspecified stacking,
+			local and global ambiguity.
+		</td><td> 
+			Import: VISL-source format or live text.
+		</td><td> 
+			Linux or Windows
+		</td><td> 
+			Internet based tool. Future licensing is planned.
+		</td><td>
+			All. For live text: en, da, po, fr, es, de. For teaching:
+			22 languages.
+		</td><td>
+			Phrase Structure Grammar, enriched with function and form
+			labels, as well as head/dependent marking.
+		</td><td>
+			<a
+			href="http://corp.hum.sdu.dk/arboretum.html">Arboretum</a>
+			(Danish constituent and dependency treebank), <a
+			href="http://corp.hum.sdu.dk/arboratoire.html">Arboratoire</a>
+			(French treebank), <a href="http://beta.visl.sdu.dk">VISL
+			teaching treebanks</a> (22 languages), <a
+			href="http://corp.hum.sdu.dk/floresta.html">Floresta
+			Sintá(c)tica</a> (Portuguese Treebank), <a
+			href="http://corp.hum.sdu.dk/arborest.html">Arborest</a>
+			(Estonian treebank, pilot study only)
+		</td></tr>
+
+<!-- TBEdit: Joakim Nivre <nivre@msi.vxu.se> -->
+
+	<tr align="left" valign="top">
+		<td><a
+		href="http://www.msi.vxu.se/~nivre/research/maltDT.html#tbedit">TBEdit</a></td>
+		<td>EV</td>
+		<td>TBEdit is a tool for displaying and editing dependency
+			treebanks encoded in <a
+			href="http://www.msi.vxu.se/~nivre/research/maltDT.html">MALT
+			XML</a>.  It supports editing of dependency arcs and
+			labels with a graphical user interface.
+		</td>
+		<td>Dependency structure with labeled edges. General graphs
+			are supported, but the tool gives a warning message if a
+			graph is not a rooted tree.</td>
+		<td><a href="http://www.msi.vxu.se/~nivre/research/maltDT.html">MALT
+			XML</a>
+		</td>
+		<td>Platform independent (Java).</td>
+		<td>Free.</td>
+		<td>All.</td>
+		<td>None.</td>
+		<td><a
+			href="http://www.msi.vxu.se/~nivre/research/sdg.html">Stochastic
+			Dependency Grammars for Natural Language Parsing</a>
+		</td>
+	</tr>	
+
+<!-- Tractor: Magnus Gunnarsson <mgunnar@ling.gu.se> -->
+
+	<tr align="left" valign="top">
+		<td><a href="http://www.ling.gu.se/projekt/tal/index.cgi?PAGE=4"
+			target="_parent">Tractor</a></td>
+		<td>ET</td>
+		<td>A transcription coding tool that includes simple corpus
+			presentation using standard and/or partiture format.</td>
+		<td>text/sound/transcriptions, single speaker/multiple
+			speakers, entire discourse</td>
+		<td>Imports Göteborg Transcription Standard (GTS).</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+
+
+<!-- TraSA: Magnus Gunnarsson <mgunnar@ling.gu.se> -->
+
+	<tr align="left" valign="top">
+		<td><a href="http://www.ling.gu.se/projekt/tal/index.cgi?PAGE=4"
+			target="_parent">TraSA</a></td>
+		<td>Q</td>
+		<td>A statistics tool for measuring transcriptions.</td>
+		<td>transcriptions, single speaker/multiple
+			speakers, entire discourse</td>
+		<td>Imports Göteborg Transcription Standard (GTS). Outputs
+			text files.</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+
+<!-- vislpsg: Eckhard Bick <lineb@mail.hum.au.dk> -->
+
+	<tr align="left" valign="top">
+		<td>
+			<a
+			href="http://visl.sdu.dk/treebanks.html#Transformation_tools">VISL 
+				transformation tools</a>
+		</td>
+		<td>X</td>
+		<td>Filters VISL-format treebanks into other formats, eg,
+			TIGER-xml as used in
+			the TIGERSearch tool.
+		</td><td>
+			Hybrid Constituent/Dependency format
+		</td><td>
+			Import: VISL. Output: TIGER-xml
+		</td><td>
+			Perl (Linux or Windows)
+		</td><td>
+			Open Source planned
+		</td><td>
+			All
+		</td><td>
+			As Import/Export
+		</td><td>
+			<a
+			href="http://corp.hum.sdu.dk/arboretum.html">Arboretum</a>
+			(Danish constituent and dependency treebank), <a
+			href="http://corp.hum.sdu.dk/arboratoire.html">Arboratoire</a>
+			(French treebank)<br>
+		</td></tr>
+	</td></tr>
+
+<!-- vislcg: Eckhard Bick <lineb@mail.hum.au.dk> -->
+
+	<tr align="left" valign="top">
+		<td><a href="http://beta.visl.sdu.dk/visl/vislcg-doc.html">vislcg rule compiler</a></td>
+		<td>P</td>
+		<td>
+			Compiles Constraint Grammer rules, that parse running text
+			into a treebank-precursor format. Typically used to
+			produce word based PoS and syntactic annotation, flat
+			dependency, case roles, named entity recognition etc.
+			Allows sets as targets, as well as correction rules.
+		</td><td>
+			Constraint Grammar. No restrictions on linguistic
+			representation other than it has to be expressed in a
+			word/token based fashion.
+		</td><td>
+			Import: (a) cg2 type rule file, (b) Running text,
+			xml-lines allowed.
+		</td><td>
+			Linux or Windows
+		</td><td>
+			Open Source
+		</td><td>
+			All
+		</td><td>
+			Methodologically speaking, Constraint Grammar, with
+			add-ons Constituent Grammar and Dependency Grammar.
+		</td><td>
+			<a
+			href="http://corp.hum.sdu.dk/arboretum.html">Arboretum</a>
+			(Danish constituent and dependency treebank), <a
+			href="http://corp.hum.sdu.dk/arboratoire.html">Arboratoire</a>
+			(French treebank), <a href="http://beta.visl.sdu.dk">VISL
+			teaching treebanks</a> (cross language), <a
+			href="http://acdc.linguateca.pt/treebank/">Floresta
+			Sintá(c)tica</a> (Portuguese Treebank)<br>
+		</td></tr>
+
+<!-- vislpsg: Eckhard Bick <lineb@mail.hum.au.dk> -->
+
+	<tr align="left" valign="top">
+		<td>
+			<a
+			href="http://beta.visl.sdu.dk/visl/visl2tiger-doc">vislpsg
+			rule compiler</a>
+		</td>
+		<td>P</td>
+		<td>
+			Compiles phrase structure rules into grammars that parse
+			Constraint Grammar output into treebanks. Allows syntactic
+			functions (i.e. subject, free adverbial, ...) as
+			terminals, rather than words.
+		</td><td>
+			Constraint Grammar or other word based annotation as
+			input, Constituent Grammar as output, but has also been
+			used, e.g. for Diederichsen Field analysis. Handles
+			discontinuity.  Usually used for sentences rather than
+			discourse.
+		</td><td>
+			Input format: Constraint Grammar or other word based
+			annotation. Output format: VISL treebank format, TIGER-xml
+			(with filter)
+		</td><td>
+			Perl (Linux or Windows)
+		</td><td>
+			Open Source 
+		</td><td>
+			All
+		</td><td>
+			Constraint Grammar input, Constituent Grammar output
+		</td><td>
+			<a
+			href="http://corp.hum.sdu.dk/arboretum.html">Arboretum</a>
+			(Danish constituent and dependency treebank), <a
+			href="http://corp.hum.sdu.dk/arboratoire.html">Arboratoire</a>
+			(French treebank), <a
+			href="http://corp.hum.sdu.dk/arborest.html">Arborest</a>
+			(Estonian treebank, pilot study only)
+		</td></tr>
+	</td></tr>
+
+	<tr><td>
+		<a href="http://beta.visl.sdu.dk/visl/da/parsing/automatic/dependency.php">VISL Dependency Parser</a>
+	</td><td>
+		P (V)
+	</td><td>
+		Constructs dependency-like representations from VISL
+		CG analyses by specifying the Constraint Grammar left-or-right
+		dependencies to pointers to the exact head.
+	</td><td>
+		Simple dependency relations
+	</td><td>
+		Input format: Ordinary text sent
+		through the VISL CG. Output format: a) VISL treebank
+		format, b) CG-style
+		word-by-word tagging with word-index and relative and absolute
+		dependencies c) Matthias Kromann's DTAG graphs, d) ASCII
+		dependency trees
+	</td><td>
+		Linux or Windows, runs over internet or locally
+	</td><td>
+		 Open Source
+	</td><td>
+		Danish (may be extendible)
+	</td><td>
+		Constraint Grammar, dependency grammar
+	</td><td>
+		<a href="http://corp.hum.sdu.dk/arboretum.html">Arboretum</a>
+		(Danish constituent and dependency treebank), search for
+		indentifiers starting with 'dep'
+	</td></tr>
+</table>
+
+<a name="Submission"></a>
+<h2>Submission guidelines</h2>
+
+	<p>To have a new tool added to the list, please submit the
+	following information to Matthias T. Kromann (<a
+	href="mailto:mtk@id.cbs.dk">mtk@id.cbs.dk</a>). The deadline is
+	November 30, 2003.</p>
+	<ul>
+		<li> <b>Tool</b>: The name of the tool and a link to a web
+			page describing the tool.
+		<li> <b>Category</b>: A list of all the categories that the
+			tool belongs to (see <a href="#categories">list</a> above; 
+			if you feel an important category is missing, please send
+			me your proposal for a new category).
+		<li> <b>Features</b> (at most 500 characters): A short
+			description of the tasks that can be performed by the
+			tool.
+		<li> <b>Linguistic representation</b> (at most 500 characters): 
+			A description of the linguistic representations that are
+			supported by the tool. If relevant, please indicate
+			whether the representation supports:
+			<ul>
+				<li> phrase-structure/dependency-structure
+				<li> node attributes/feature structures/edge labels
+				<li> text/sound/transcriptions
+				<li> single speaker/multiple speakers
+				<li> trees/general graphs
+				<li> cyclicity/acyclicity
+				<li> continuity/discontinuity
+				<li> sentence-based/entire discourse
+			</ul>
+		<li> <b>Import/export formats</b>: A list of all the file
+			formats (with links to detailed descriptions) which the
+			tool can use for import/export.
+		<li> <b>Platform</b>: Special requirements with respect to 
+			operating system and installed software. 
+		<li> <b>License</b>: How the program is licensed (eg, "free",
+			"commercial", "open source", "web application")
+		<li> <b>Supported languages</b>: A list of all supported
+			languages ("All" if the tool is language-independent).
+		<li> <b>Supported linguistic theories</b>: A list with names
+			of the most important linguistic theories (with links to
+			more documentation) that are supported by the tool.  
+		<li> <b>Treebank projects using tool</b>: A list with names of
+			treebank projects using the tool (with links to each
+			project).
+	</ul>
+	The information should be submitted as text, optionally
+	including hand-written HTML markup, as below:
+	<ul>
+		<li> <b>bold:</b> &lt;b&gt;<b>...text...</b>&lt;/b&gt;
+		<li> <b>italic:</b> &lt;b&gt;<i>...text...</i>&lt;/i&gt;
+		<li> <b>link:</b> &lt;a
+		href="...url..."&gt;<a href="">...text...</a>&lt;/a&gt;
+	</ul>
+
+<hr><small><a href="http://www.isv.cbs.dk/~mbk/ntn/tools.html" target="_parent">http://www.isv.cbs.dk/~mbk/ntn/tools.html</a> last updated by <a href="mailto:mbk.isv@cbs.dk">Matthias Buch-Kromann</a> at 2008-01-14 14:26</small></body>
+</html>

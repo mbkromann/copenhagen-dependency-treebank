@@ -1,0 +1,1 @@
+layout -vars cat|/stream:.*/|pos|morph|lemma|_position

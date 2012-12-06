@@ -1,0 +1,3 @@
+layout -vars /stream:.*/|cat|msd|_position
+layout -var msd //
+

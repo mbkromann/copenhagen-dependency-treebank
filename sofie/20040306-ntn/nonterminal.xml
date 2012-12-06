@@ -1,0 +1,76 @@
+
+<corpus id="coref">
+  <head>
+    <meta>
+      <name>coref</name>
+      <date>Fri Mar  5 18:17:02 MET 2004</date>
+      <author></author>
+      <description></description>
+      <format></format>
+      <history></history>
+    </meta>
+    <annotation>
+      <feature name="word" domain="FREC" />
+      <feature name="msd" domain="FREC">
+        <value name="--"></value>
+      </feature>
+      <feature name="lexeme" domain="FREC">
+        <value name="--"></value>
+      </feature>
+      <feature name="gloss" domain="FREC">
+        <value name="--"></value>
+      </feature>
+      <edgelabel>
+        <value name="--"></value>
+        <value name="dobj"></value>
+        <value name="nobj"></value>
+        <value name="pnct"></value>
+        <value name="pred"></value>
+        <value name="subj"></value>
+      </edgelabel>
+      <secedgelabel>
+        <value name="ref"></value>
+      </secedgelabel>
+    </annotation>
+  </head>
+  <body>
+    <s id="s1">
+      <graph root="p1_1">
+        <nonterminals>
+          <nt id="p1_0" word="This" lexeme="--" msd="--" gloss="--">
+            <edge idref="w1_0" label="--" />
+            <secedge idref="p1_5" label="ref" />
+          </nt>
+          <nt id="p1_1" word="is" lexeme="--" msd="--" gloss="--">
+            <edge idref="p1_0" label="subj" />
+            <edge idref="p1_2" label="pred" />
+            <edge idref="p1_4" label="pnct" />
+          </nt>
+          <nt id="p1_2" word="an" lexeme="--" msd="--" gloss="--">
+            <edge idref="p1_3" label="nobj" />
+          </nt>
+          <nt id="p1_3" word="example" lexeme="--" msd="--" gloss="--">
+          </nt>
+          <nt id="p1_4" word="." lexeme="--" msd="--" gloss="--">
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s2">
+      <graph root="p2_6">
+        <nonterminals>
+          <nt id="p2_5" word="It" lexeme="--" msd="--" gloss="--">
+          </nt>
+          <nt id="p2_6" word="demonstrates" lexeme="--" msd="--" gloss="--">
+            <edge idref="p2_5" label="subj" />
+            <edge idref="p2_7" label="dobj" />
+          </nt>
+          <nt id="p2_7" word="coreferentiality" lexeme="--" msd="--" gloss="--">
+          </nt>
+          <nt id="p2_8" word="." lexeme="--" msd="--" gloss="--">
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+  </body>
+</corpus>

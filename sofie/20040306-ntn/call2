@@ -1,0 +1,100 @@
+From mtk@id.cbs.dk Tue Mar  2 15:00:02 2004
+Date: Tue, 2 Mar 2004 15:00:02 +0100
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: nordic-treebank@ilf.uio.no
+Subject: Program for the "Tools and resources" session
+Message-ID: <20040302140002.GA3573@mtkromann.id.cbs.dk>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+User-Agent: Mutt/1.4i
+Status: RO
+Content-Length: 4190
+Lines: 84
+
+Dear NTN members,
+
+I have enclosed the program for the presentations in the Tools and
+Resources session of the Lovik meeting:
+
+    09.00-09.30 Eckhard Bick: TIGERizing Arboretum - feeding VISL to
+                the beast.
+    09.30-10.00 Joakim Nivre: Converting MALT XML to TIGER XML.
+    10.00-10.30 Matthias Trautner Kromann: Converting the Danish
+                Dependency Treebank to TIGER XML.
+
+    10.30-11.00 Coffee break.
+
+    11.00-11.30 Martin Volk: The ANNOTATE tree editor. 
+    11.30-12.30 GENERAL DISCUSSION: Beyond syntactic treebanks: How to
+                create and encode treebanks that include discourse,
+                dialogue, and spoken language phenomena. 
+
+Each presentation is expected to take at most 30 minutes, including 20
+minutes for presentation and 10 minutes for discussion. 
+
+So far, most of the work within the NTN has focused on syntax
+treebanks for written text. However, many NTN members plan to extend
+their treebanks to the domains of discourse, dialogue, and spoken
+language (we will refer to these jointly as "discourse phenomena").
+The same trend can be observed internationally in many projects --
+prominent examples include the on-going work on the Penn Discourse
+Treebank (http://www.cis.upenn.edu/~pdtb), Daniel Marcu's RST treebank
+for English (http://www.isi.edu/~marcu/discourse), and the
+COCONUT/DAMSL projects for dialogue annotation
+(http://www.pitt.edu/~pjordan/papers/coconut-manual.ps). 
+
+Since there seems to be great interest in discourse phenomena within
+the network, but few concrete proposals for how to proceed, we have 
+reserved the remaining one hour in the "Tools and resources" session
+for a general discussion with particular emphasis on how to create
+and represent treebanks that combine syntactic annotations with
+annotations for discourse, dialogue, and spoken language.
+Participants in the Lovik meeting are therefore encouraged to think
+about the following topics:
+
+    * COMPETENCES WITHIN THE NETWORK AND POTENTIAL COLLABORATION: What
+      competences do we have within the network for discourse
+      phenomena, and how can we share these competences?  What plans
+      exist within the network for creating treebanks for discourse
+      phenomena? What is the potential for collaboration? 
+
+    * SPOKEN LANGUAGE AND MULTIMODAL DATA: How do we best represent
+      non-textual corpora, including corpora consisting of sound and
+      video, along with transcriptions and different levels of
+      annotation? Can we agree on a common representation format? 
+
+    * COMMON TOOLS AND REPRESENTATION FORMATS: Are there any
+      limitations in TIGER XML and TIGERSearch -- our agreed common
+      representation format and search tool for syntactic treebanks --
+      that make them unsuited for treebanks that deal with discourse
+      phenomena? What are the problems and the possible solutions?
+      Should we stick with TIGER XML as it is, try to fix it, or adopt
+      an alternative common representation format for discourse
+      treebanks in the longer term (say, based on XCES or ATLAS)? 
+
+    * THEORIES AND ANNOTATION SCHEMES: What are the internationally
+      leading theories for discourse phenomena that could be used to
+      create discourse treebanks? How do we plan to use a discourse
+      treebank, and what are the important phenomena to encode, given
+      these purposes? What is the potential for collaboration? Can we
+      develop a joint set of annotation guidelines, possibly based on
+      the guidelines of a state-of-the-art discourse project?
+      
+We encourage all network members to think about these issues within
+the context of their own projects, and to participate in the
+discussion. Members of the network who have particular experience with
+discourse, dialogue, or spoken language are particularly encouraged to
+prepare small 5 or 10 minute opinions that can form a good starting
+point for the discussion. 
+
+Regards,
+Matthias
+
+-- 
+Matthias Trautner Kromann    Dept of Computational Linguistics
+Email: mtk@id.cbs.dk         Copenhagen Business School
+Web: www.id.cbs.dk/~mtk      Bernhard Bangs Allé 17B
+Phone: (+45) 3815 3166       DK-2000 Frederiksberg C, DENMARK
+

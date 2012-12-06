@@ -1,0 +1,103 @@
+
+TOOLS AND RESOURCES:
+
+9:10	Eckhard:
+
+		very few problems:
+		but some disadvantages:
+			strict consistency checks: 
+			no command-line: TIGER cannot be used on internet
+			alternative search tool: tgrep2 for Penn treebank format
+			visl2penn: conversion to tgrep2 compiler
+		Martin: use XML parser for consistency checking
+
+9:32	Joakim:
+
+			encoding dependency/constituency
+			annoyance: problem with drawing PSG dependency graphs
+
+		Martin: search -- any problems? JN: not looked into it.
+
+
+9:50	Jens:
+
+			different corpora
+
+			spoken language treebank:
+				* basic unit: utterance rather than turn
+			problems:
+				+crossing branches
+				?short utterances
+				+own communication management
+				?interactive dependency
+				multimodality
+				context dependency
+			relation between utterances:
+				1. coreference
+				2. phrase-structure, sentential functions, dependence,
+					predication across utterances
+				3. Pragmatic functional dependence
+					question-answer
+					statement-feedback
+
+		Koenrad:
+			carefully consider what is possible: concentrate on syntax
+			syntactic phenomena in speech
+				repairs
+				nu skal den nye bilen 
+				jeg jobbede de første tre år jeg jobbede hos centra
+
+
+
+
+
+10:10	Questions
+10:15	Matthias:
+
+11:05	Martin:
+			Annotate: 
+
+11:25	Sofia:
+			* doesn't believe in strict distinction between speech and
+			  written language
+			* doesn't believe in just annotating syntactic structure;
+			  should annotate discourse information
+
+			* Discourse information - what is it?
+				a) referential connections: anaphora (all kinds)
+				b) connective bindings: discourse relations (eg, RST)
+
+			* Discourse treebanks (DRT Marcu, Penn Discourse Treebanks)
+
+				
+Matthias:
+	* why bring up discourse in NTN? 
+		- need for discourse relations: MT, coherent generation
+		- people are starting to work on it
+		- convergence: interface between syntax and discourse
+		- proactive role
+
+	* NTN: standard for encoding discourse
+	
+General discussion:
+
+		- Jens: Is TIGER XML a good common discourse format?
+		- Jens: Work on 1-2 constructions in spoken language?
+		- Joakim: Include discussion of semantic treebanks. 
+		
+
+	Joakim:
+		
+		
+	Speakers: 
+		Matthias
+
+
+
+
+
+
+
+9:57	
+		
+

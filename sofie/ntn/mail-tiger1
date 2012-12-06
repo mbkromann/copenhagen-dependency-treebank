@@ -1,0 +1,167 @@
+From holger.voormann@ims.uni-stuttgart.de Wed Mar 10 18:45:15 2004
+Received: from localhost (localhost [127.0.0.1])
+	by grid.id.cbs.dk (8.12.7/8.12.7/SuSE Linux 0.6) with ESMTP id i2AHj8ON002801
+	for <mtkromann@localhost>; Wed, 10 Mar 2004 18:45:14 +0100
+Received: from 127.0.0.1 [127.0.0.1]
+	by localhost with POP3 (fetchmail-6.2.1)
+	for mtkromann@localhost (single-drop); Wed, 10 Mar 2004 18:45:14 +0100 (MET)
+Received: from proxy2 ([192.168.70.3])
+ by ha-mail.cbs.dk (iPlanet Messaging Server 5.2 HotFix 1.02 (built Sep 16
+ 2002)) with ESMTP id <0HUD001N9D21W2@ha-mail.cbs.dk> for mtk.id@ims-ms-daemon;
+ Wed, 10 Mar 2004 17:42:01 +0100 (MET)
+Received: from relay3-cph.comendo.dk (relay3.comendo.dk [195.245.210.92])
+ by proxy2.cbs.dk
+ (iPlanet Messaging Server 5.2 HotFix 1.02 (built Sep 16 2002)) with ESMTP id
+ <0HUD002GGD21B3@proxy2.cbs.dk> for mtk.id@cbs.dk (ORCPT mtk.id@cbs.dk); Wed,
+ 10 Mar 2004 17:42:01 +0100 (MET)
+Received: from localhost (Not Verified[192.168.50.12])
+ by relay3-cph.comendo.dk with {MailFence} (v{4.0}) (COMSND)
+	id <BM002dcbf2>; Wed, 10 Mar 2004 17:42:00 +0100
+Received: from mailhub.id.cbs.dk (Not Verified[130.226.47.91])
+ by virus1-cph.comendo.dk with {MAilFence} (v{4.0}) (COMVRS)
+	id <BA00972a4d>; Wed, 10 Mar 2004 17:41:59 +0100
+Received: from mail.id.cbs.dk ([172.16.14.53] ident=mail)
+	by mailhub.id.cbs.dk with esmtp	(Cipher TLSv1:AES256-SHA:256)
+ (Exim 3.36 #1 (Debian))	id 1B16mI-0000vi-00	for <mtk.id@cbs.dk>; Wed,
+ 10 Mar 2004 17:41:54 +0100
+Received: from mail by mail.id.cbs.dk with spam-scanned (Exim 3.36 #1 (Debian))
+	id 1B16m5-00009I-00	for <mtk@id.cbs.dk>; Wed, 10 Mar 2004 17:41:53 +0100
+Received: from mailhub.id.cbs.dk ([130.226.47.91] ident=mail)
+	by mail.id.cbs.dk with esmtp	(Cipher TLSv1:AES256-SHA:256)
+ (Exim 3.36 #1 (Debian))	id 1B16m5-000090-00	for <mtk@id.cbs.dk>; Wed,
+ 10 Mar 2004 17:41:41 +0100
+Received: from adler.ims.uni-stuttgart.de ([141.58.127.8])
+	by mailhub.id.cbs.dk with esmtp	(Cipher TLSv1:AES256-SHA:256)
+ (Exim 3.36 #1 (Debian))	id 1B16lx-0000vQ-00	for <mtk@id.cbs.dk>; Wed,
+ 10 Mar 2004 17:41:33 +0100
+Received: from IMS.Uni-Stuttgart.de (steinroetel [141.58.127.33])
+	by adler.ims.uni-stuttgart.de (8.12.11/8.12.11/IMS-Server-3.5)
+ with ESMTP id i2AGfNlF006875; Wed, 10 Mar 2004 17:41:25 +0100 (MET)
+Date: Wed, 10 Mar 2004 17:44:28 +0100
+From: Holger Voormann <holger.voormann@ims.uni-stuttgart.de>
+Subject: Re: Extensions to TIGER-XML and the TIGER tools
+In-reply-to: <20040310095206.GA23691@mtkromann.\X@\X@>
+X-Scanner: exiscan *1B16lx-0000vQ-00*QIxZVm4C2Jw*
+To: Matthias Trautner Kromann <mtk@id.cbs.dk>
+Cc: tigersearch@ims.uni-stuttgart.de
+Message-id: <404F45EC.9090709@IMS.Uni-Stuttgart.de>
+MIME-version: 1.0
+Content-type: text/plain; charset=us-ascii; format=flowed
+Content-transfer-encoding: 7bit
+X-Accept-Language: de-de, de
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.4)
+ Gecko/20030619 Netscape/7.1 (ax)
+X-Amavis-Alert: BAD HEADER Non-encoded 8-bit data (char DC hex) in message
+ header 'References' References:
+ <20040310095206.GA23691@mtkromann.\334X\025@\334X\025@>\n ^
+X-Spam-Status: No, hits=-4.8 tagged_above=-900.0 required=6.5 tests=BAYES_00,
+ HTML_MESSAGE
+X-Spam-Level: 
+References: <20040310095206.GA23691@mtkromann.\X@\X@>
+Original-recipient: rfc822;mtk.id@cbs.dk
+X-Text-Classification: ok
+X-POPFile-Link: <http://127.0.0.1:8080/jump_to_message?view=popfile7913=4.msg>
+Status: RO
+Content-Length: 3565
+Lines: 99
+
+
+Dear Matthias,
+
+nice to hear TIGERSearch and TIGER-XML is being used.
+
+Yes, we have plans to make TIGERSearch available under an open source 
+license,
+likely in summer. In consideration of the fact at the moment no developer is
+exclusively working on TIGERSearch, we are occupied by fixing bugs 
+(check out
+the newest version 2.1.1 ;-).
+
+One comment about your plans for extending TIGERSearch: it will be very 
+difficult
+to make edges across <s> segments queryable.
+
+Regards,
+
+Holger Voormann.
+
+
+Matthias Trautner Kromann schrieb:
+
+>Dear TIGER developers,
+>
+>I am writing to you on behalf of the Nordic Treebank Network. In the
+>network, we have adopted TIGER-XML as our common treebank
+>representation format and produced tools for converting our various
+>treebanks into TIGER-XML (including treebanks for Danish, Estonian,
+>Finnish, German, Norwegian, and Swedish). 
+>
+>We are very happy with TIGER-XML and the TIGER tools -- we think they
+>are great work. However, since they do not address all the needs
+>within the network, we have begun discussing how to extend TIGER-XML
+>and the TIGER tools in various ways, and how to standardize our
+>use of the existing TIGER-XML DTD. 
+>
+>The changes and conventions that we have discussed concern:
+>
+>	Conventions for using the existing TIGER-XML DTD:
+>		* standardized encoding of dependency graphs
+>		* standardized encoding of links to external text, sound or
+>		  video files
+>		* standardized encoding of speaker identity and time span
+>		* standardized encoding of functor-argument structure
+>
+>	Extensions to the existing TIGER-XML DTD:
+>		* encoding generalized segmentation (eg, overlapping or
+>		  discontinuous segments used for encoding utterances
+>		  and turns in spoken language)
+>		* encoding parallel alignment in parallel treebanks
+>
+>	Extensions to the existing TIGER tools:
+>		* visualizing secondary edges between non-terminals across <s>
+>		  segments (in order to encode discourse treebanks)
+>		* visualizing generalized segmentation
+>		* command-line search in order to use TIGERSearch for web
+>		  interfaces
+>
+>The problems and the proposals I have received so far from the
+>network are described in more detail on the web page
+>http://www.id.cbs.dk/~mtk/ntn/tiger-xml.html. 
+>
+>I am writing to you both because you might view our proposals as
+>valuable feedback, and also because we would very much like to
+>coordinate our proposals with you before we proceed. Perhaps you even
+>have some good ideas for solving some of the problems that we are
+>looking at. 
+>
+>I would therefore like to ask you the following questions: (1) Have
+>you thought about some of the problems we are considering, and if so,
+>what kind of solution do you recommend? (2) Are you interested in
+>feedback from us with respect to future changes to TIGER-XML and the
+>TIGER tools? (3) Are you still actively developing the TIGER tools,
+>and do you plan to make extensions to the tools in the future that may
+>address our needs? (4) If not, some of our network members have
+>expressed interest in trying to extend the TIGER tools themselves.
+>Would you consider opening up the development of the TIGER tools to
+>outside groups by making the tools available under an open source
+>license (which might allow you to share the cost of maintaining the
+>TIGER tools with other groups)? 
+>
+>Regards,
+>Matthias
+>
+>  
+>
+
+-- 
+
+Holger Voormann
+
+Universitaet Stuttgart
+Institut fuer maschinelle Sprachverarbeitung (IMS)
+Azenbergstrasse 12,  D-70174 Stuttgart
+
+Tel.:    +49 711  121 1388
+E-Mail:  holger.voormann@ims.uni-stuttgart.de
+
+

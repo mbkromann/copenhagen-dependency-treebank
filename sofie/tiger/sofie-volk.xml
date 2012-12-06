@@ -1,0 +1,3037 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<corpus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="C:\programs\TIGER_Search\schema\TigerXML.xsd"
+        id="Sofies_Welt_DE">
+
+<head>
+
+  <meta>
+  <name>Sofies_Welt_DE</name>
+  <author>Martin Volk</author>
+  <date>February 2004</date>
+  <description>First 50 sentences of the German version of "Sophie's World"; Part of the Nordic parallel treebank initiative</description>
+    <format>Negra Format, Version 3</format>
+    </meta>
+
+  <annotation>
+
+    <feature name="word" domain="T" />
+
+    <feature name="pos" domain="T">
+      <value name="$(">Sonstige Satzzeichen; satzintern</value>
+      <value name="$,">Komma</value>
+      <value name="$.">Satzbeendende Interpunktion</value>
+      <value name="--">&lt;Nicht zugeordnet&gt;</value>
+      <value name="ADJA">Attributives Adjektiv</value>
+      <value name="ADJD">Adverbiales oder pr&#x00e4;dikatives Adjektiv</value>
+      <value name="ADV">Adverb</value>
+      <value name="APPO">Postposition</value>
+      <value name="APPR">Pr&#x00e4;position; Zirkumposition links</value>
+      <value name="APPRART">Pr&#x00e4;position mit Artikel</value>
+      <value name="APZR">Zirkumposition rechts</value>
+      <value name="ART">Bestimmter oder unbestimmter Artikel</value>
+      <value name="CARD">Kardinalzahl</value>
+      <value name="FM">Fremdsprachliches Material</value>
+      <value name="ITJ">Interjektion</value>
+      <value name="KOKOM">Vergleichspartikel, ohne Satz</value>
+      <value name="KON">Nebenordnende Konjunktion</value>
+      <value name="KOUI">Unterordnende Konjunktion mit zu und Infinitiv</value>
+      <value name="KOUS">Unterordnende Konjunktion mit Satz</value>
+      <value name="NE">Eigennamen</value>
+      <value name="NN">Normales Nomen</value>
+      <value name="NNE">Kombination aus Nomen und Eigenname</value>
+      <value name="PDAT">Attribuierendes Demonstrativpronomen</value>
+      <value name="PDS">Substituierendes Demonstrativpronomen</value>
+      <value name="PIAT">Attribuierendes Indefinitpronomen</value>
+      <value name="PIDAT">Attribuierendes Indefinitpronomen mit Determiner</value>
+      <value name="PIS">Substituierendes Indefinitpronomen</value>
+      <value name="PPER">Irreflexives Personalpronomen</value>
+      <value name="PPOSAT">Attribuierendes Possessivpronomen</value>
+      <value name="PPOSS">Substituierendes Possessivpronomen</value>
+      <value name="PRELAT">Attribuierendes Relativpronomen</value>
+      <value name="PRELS">Substituierendes Relativpronomen</value>
+      <value name="PRF">Reflexives Personalpronomen</value>
+      <value name="PROAV">Pronominaladverb</value>
+      <value name="PTKA">Partikel bei Adjektiv oder Adverb</value>
+      <value name="PTKANT">Antwortpartikel</value>
+      <value name="PTKNEG">Negationspartikel</value>
+      <value name="PTKVZ">Abgetrennter Verbzusatz</value>
+      <value name="PTKZU">zu vor Infinitiv</value>
+      <value name="PWAT">Attribuierendes Interrogativpronomen</value>
+      <value name="PWAV">Adverbiales Interrogativ- oder Relativpronomen</value>
+      <value name="PWS">Substituierendes Interrogativpronomen</value>
+      <value name="TRUNC">Kompositions-Erstglied</value>
+      <value name="UNKNOWN">Unbekanntes Tag aus Einlesen aus Korpusdatei</value>
+      <value name="VAFIN">Finites Verb, aux</value>
+      <value name="VAIMP">Imperativ, aux</value>
+      <value name="VAINF">Infinitiv, aux</value>
+      <value name="VAPP">Partizip Perfekt, aux</value>
+      <value name="VMFIN">Finites Verb, modal</value>
+      <value name="VMINF">Infinitiv, modal</value>
+      <value name="VMPP">Partizip Perfekt, modal</value>
+      <value name="VVFIN">Finites Verb, voll</value>
+      <value name="VVIMP">Imperativ, voll</value>
+      <value name="VVINF">Infinitiv, voll</value>
+      <value name="VVIZU">Infinitiv mit zu, voll</value>
+      <value name="VVPP">Partizip Perfekt, voll</value>
+      <value name="XY">Nichtwort, Sonderzeichen</value>
+    </feature>
+
+    <feature name="morph" domain="T">
+      <value name="*"/>
+      <value name="*.*.*"/>
+      <value name="*.*.*.*.*"/>
+      <value name="*.*.Akk.Pl.St"/>
+      <value name="*.*.Akk.Pl.Sw"/>
+      <value name="*.*.Dat.Pl.St"/>
+      <value name="*.*.Dat.Pl.Sw"/>
+      <value name="*.*.Gen.Pl.St"/>
+      <value name="*.*.Gen.Pl.Sw"/>
+      <value name="*.*.Nom.Pl.St"/>
+      <value name="*.*.Nom.Pl.Sw"/>
+      <value name="*.Akk.Pl"/>
+      <value name="*.Akk.Pl.*"/>
+      <value name="*.Akk.Pl.St"/>
+      <value name="*.Akk.Pl.Sw"/>
+      <value name="*.Akk.Sg"/>
+      <value name="*.Akk.Sg.St"/>
+      <value name="*.Dat.Pl"/>
+      <value name="*.Dat.Pl.*"/>
+      <value name="*.Dat.Pl.St"/>
+      <value name="*.Dat.Pl.Sw"/>
+      <value name="*.Dat.Sg"/>
+      <value name="*.Fem.Akk.Sg.Mix"/>
+      <value name="*.Fem.Akk.Sg.St"/>
+      <value name="*.Fem.Akk.Sg.Sw"/>
+      <value name="*.Fem.Dat.Sg.Mix"/>
+      <value name="*.Fem.Dat.Sg.St"/>
+      <value name="*.Fem.Dat.Sg.Sw"/>
+      <value name="*.Fem.Gen.Sg.Sw"/>
+      <value name="*.Fem.Nom.Sg.St"/>
+      <value name="*.Fem.Nom.Sg.Sw"/>
+      <value name="*.Gen.Pl"/>
+      <value name="*.Gen.Pl.*"/>
+      <value name="*.Gen.Pl.St"/>
+      <value name="*.Gen.Pl.Sw"/>
+      <value name="*.Gen.Sg"/>
+      <value name="*.Masc.Akk.Sg.Mix"/>
+      <value name="*.Masc.Akk.Sg.Sw"/>
+      <value name="*.Masc.Dat.Sg.Mix"/>
+      <value name="*.Masc.Dat.Sg.Sw"/>
+      <value name="*.Masc.Gen.Sg.Mix"/>
+      <value name="*.Masc.Gen.Sg.Sw"/>
+      <value name="*.Masc.Nom.Sg.Mix"/>
+      <value name="*.Masc.Nom.Sg.St"/>
+      <value name="*.Masc.Nom.Sg.Sw"/>
+      <value name="*.Neut.Akk.Sg.Sw"/>
+      <value name="*.Neut.Dat.Sg.Mix"/>
+      <value name="*.Neut.Dat.Sg.Sw"/>
+      <value name="*.Neut.Gen.Sg.Sw"/>
+      <value name="*.Neut.Nom.Sg.Mix"/>
+      <value name="*.Neut.Nom.Sg.St"/>
+      <value name="*.Neut.Nom.Sg.Sw"/>
+      <value name="*.Nom.Pl"/>
+      <value name="*.Nom.Pl.*"/>
+      <value name="*.Nom.Pl.Mix"/>
+      <value name="*.Nom.Pl.St"/>
+      <value name="*.Nom.Pl.Sw"/>
+      <value name="*.Nom.Sg"/>
+      <value name="--">not bound</value>
+      <value name="1.Akk.Pl"/>
+      <value name="1.Akk.Sg"/>
+      <value name="1.Dat.Pl"/>
+      <value name="1.Dat.Sg"/>
+      <value name="1.Pl.*.Akk"/>
+      <value name="1.Pl.*.Dat"/>
+      <value name="1.Pl.*.Nom"/>
+      <value name="1.Pl.Past.Ind"/>
+      <value name="1.Pl.Past.Konj"/>
+      <value name="1.Pl.Pres.Ind"/>
+      <value name="1.Sg.*.Akk"/>
+      <value name="1.Sg.*.Dat"/>
+      <value name="1.Sg.*.Nom"/>
+      <value name="1.Sg.Past.Ind"/>
+      <value name="1.Sg.Past.Konj"/>
+      <value name="1.Sg.Pres.Ind"/>
+      <value name="1.Sg.Pres.Konj"/>
+      <value name="2.Akk.Sg"/>
+      <value name="2.Dat.Sg"/>
+      <value name="2.Pl.*.Nom"/>
+      <value name="2.Pl.Pres.Ind"/>
+      <value name="2.Sg.*.Akk"/>
+      <value name="2.Sg.*.Dat"/>
+      <value name="2.Sg.*.Nom"/>
+      <value name="2.Sg.Past.Ind"/>
+      <value name="2.Sg.Pres.Ind"/>
+      <value name="2.Sg.Pres.Konj"/>
+      <value name="3.Akk.Pl"/>
+      <value name="3.Akk.Sg"/>
+      <value name="3.Dat.Pl"/>
+      <value name="3.Dat.Sg"/>
+      <value name="3.Pl.*.Akk"/>
+      <value name="3.Pl.*.Dat"/>
+      <value name="3.Pl.*.Nom"/>
+      <value name="3.Pl.Past.Ind"/>
+      <value name="3.Pl.Past.Konj"/>
+      <value name="3.Pl.Pres.Ind"/>
+      <value name="3.Pl.Pres.Konj"/>
+      <value name="3.Sg.Fem.Akk"/>
+      <value name="3.Sg.Fem.Dat"/>
+      <value name="3.Sg.Fem.Nom"/>
+      <value name="3.Sg.Masc.Akk"/>
+      <value name="3.Sg.Masc.Dat"/>
+      <value name="3.Sg.Masc.Nom"/>
+      <value name="3.Sg.Neut.Akk"/>
+      <value name="3.Sg.Neut.Nom"/>
+      <value name="3.Sg.Past.Ind"/>
+      <value name="3.Sg.Past.Konj"/>
+      <value name="3.Sg.Pres.Ind"/>
+      <value name="3.Sg.Pres.Konj"/>
+      <value name="Akk"/>
+      <value name="Akk.Neut"/>
+      <value name="Akk/Nom">Akkusativ oder Nominativ</value>
+      <value name="Comp"/>
+      <value name="Comp.*.Akk.Pl.Mix"/>
+      <value name="Comp.*.Akk.Pl.St"/>
+      <value name="Comp.*.Dat.Pl.St"/>
+      <value name="Comp.*.Dat.Pl.Sw"/>
+      <value name="Comp.*.Gen.Pl.St"/>
+      <value name="Comp.*.Nom.Pl.St"/>
+      <value name="Comp.*.Nom.Pl.Sw"/>
+      <value name="Comp.Fem.Akk.Sg.Mix"/>
+      <value name="Comp.Fem.Akk.Sg.St"/>
+      <value name="Comp.Fem.Akk.Sg.Sw"/>
+      <value name="Comp.Fem.Dat.Sg.Mix"/>
+      <value name="Comp.Fem.Dat.Sg.St"/>
+      <value name="Comp.Fem.Dat.Sg.Sw"/>
+      <value name="Comp.Fem.Gen.Sg.Mix"/>
+      <value name="Comp.Fem.Gen.Sg.Sw"/>
+      <value name="Comp.Fem.Nom.Sg.Mix"/>
+      <value name="Comp.Fem.Nom.Sg.Sw"/>
+      <value name="Comp.Masc.Akk.Sg.Mix"/>
+      <value name="Comp.Masc.Akk.Sg.St"/>
+      <value name="Comp.Masc.Akk.Sg.Sw"/>
+      <value name="Comp.Masc.Dat.Sg.Mix"/>
+      <value name="Comp.Masc.Dat.Sg.St"/>
+      <value name="Comp.Masc.Dat.Sg.Sw"/>
+      <value name="Comp.Masc.Nom.Sg.Mix"/>
+      <value name="Comp.Masc.Nom.Sg.St"/>
+      <value name="Comp.Masc.Nom.Sg.Sw"/>
+      <value name="Comp.Neut.Akk.Sg.Mix"/>
+      <value name="Comp.Neut.Akk.Sg.St"/>
+      <value name="Comp.Neut.Akk.Sg.Sw"/>
+      <value name="Comp.Neut.Dat.Sg.Mix"/>
+      <value name="Comp.Neut.Dat.Sg.St"/>
+      <value name="Comp.Neut.Nom.Sg.Mix"/>
+      <value name="Comp.Neut.Nom.Sg.Sw"/>
+      <value name="Dat"/>
+      <value name="Dat.Fem"/>
+      <value name="Dat.Masc"/>
+      <value name="Dat.Neut"/>
+      <value name="Dat/Akk">Dativ order Akkusativ</value>
+      <value name="Dat/Akk/Nom">Dativ oder Akkusativ oder Nominativ</value>
+      <value name="Dat/Gen">Dativ oder Genitiv</value>
+      <value name="Def.*.Akk.Pl"/>
+      <value name="Def.*.Dat.Pl"/>
+      <value name="Def.*.Gen.Pl"/>
+      <value name="Def.*.Nom.Pl"/>
+      <value name="Def.Fem.Akk.Sg"/>
+      <value name="Def.Fem.Dat.Sg"/>
+      <value name="Def.Fem.Gen.Sg"/>
+      <value name="Def.Fem.Nom.Sg"/>
+      <value name="Def.Masc.Akk.Sg"/>
+      <value name="Def.Masc.Dat.Sg"/>
+      <value name="Def.Masc.Gen.Sg"/>
+      <value name="Def.Masc.Nom.Sg"/>
+      <value name="Def.Neut.Akk.Sg"/>
+      <value name="Def.Neut.Dat.Sg"/>
+      <value name="Def.Neut.Gen.Sg"/>
+      <value name="Def.Neut.Nom.Sg"/>
+      <value name="Fem.Akk.Pl.*"/>
+      <value name="Fem.Akk.Sg"/>
+      <value name="Fem.Akk.Sg.*"/>
+      <value name="Fem.Akk.Sg.St"/>
+      <value name="Fem.Dat.Pl"/>
+      <value name="Fem.Dat.Pl.*"/>
+      <value name="Fem.Dat.Sg"/>
+      <value name="Fem.Dat.Sg.*"/>
+      <value name="Fem.Dat.Sg.Mix"/>
+      <value name="Fem.Dat.Sg.Sw"/>
+      <value name="Fem.Gen.Pl.*"/>
+      <value name="Fem.Gen.Sg"/>
+      <value name="Fem.Gen.Sg.*"/>
+      <value name="Fem.Gen.Sg.Mix"/>
+      <value name="Fem.Nom.Pl.*"/>
+      <value name="Fem.Nom.Sg"/>
+      <value name="Fem.Nom.Sg.*"/>
+      <value name="Fem.Nom.Sg.St"/>
+      <value name="Fem.Nom.Sg.Sw"/>
+      <value name="Gen"/>
+      <value name="Indef.Fem.Akk.Sg"/>
+      <value name="Indef.Fem.Dat.Sg"/>
+      <value name="Indef.Fem.Gen.Sg"/>
+      <value name="Indef.Fem.Nom.Sg"/>
+      <value name="Indef.Masc.Akk.Sg"/>
+      <value name="Indef.Masc.Dat.Sg"/>
+      <value name="Indef.Masc.Gen.Sg"/>
+      <value name="Indef.Masc.Nom.Sg"/>
+      <value name="Indef.Neut.Akk.Sg"/>
+      <value name="Indef.Neut.Dat.Sg"/>
+      <value name="Indef.Neut.Gen.Sg"/>
+      <value name="Indef.Neut.Nom.Sg"/>
+      <value name="Masc.Akk.Pl"/>
+      <value name="Masc.Akk.Pl.*"/>
+      <value name="Masc.Akk.Pl.St"/>
+      <value name="Masc.Akk.Sg"/>
+      <value name="Masc.Akk.Sg.*"/>
+      <value name="Masc.Akk.Sg.Mix"/>
+      <value name="Masc.Akk.Sg.Sw"/>
+      <value name="Masc.Dat.Pl"/>
+      <value name="Masc.Dat.Pl.*"/>
+      <value name="Masc.Dat.Pl.St"/>
+      <value name="Masc.Dat.Sg"/>
+      <value name="Masc.Dat.Sg.*"/>
+      <value name="Masc.Dat.Sg.Sw"/>
+      <value name="Masc.Gen.Pl"/>
+      <value name="Masc.Gen.Pl.*"/>
+      <value name="Masc.Gen.Sg"/>
+      <value name="Masc.Gen.Sg.*"/>
+      <value name="Masc.Gen.Sg.Mix"/>
+      <value name="Masc.Gen.Sg.Sw"/>
+      <value name="Masc.Nom.Pl.*"/>
+      <value name="Masc.Nom.Sg"/>
+      <value name="Masc.Nom.Sg.*"/>
+      <value name="Masc.Nom.Sg.Mix"/>
+      <value name="Masc.Nom.Sg.St"/>
+      <value name="Masc.Nom.Sg.Sw"/>
+      <value name="Neut.Akk.Pl.*"/>
+      <value name="Neut.Akk.Sg"/>
+      <value name="Neut.Akk.Sg.*"/>
+      <value name="Neut.Akk.Sg.St"/>
+      <value name="Neut.Akk.Sg.Sw"/>
+      <value name="Neut.Dat.Pl.*"/>
+      <value name="Neut.Dat.Sg"/>
+      <value name="Neut.Dat.Sg.*"/>
+      <value name="Neut.Dat.Sg.St"/>
+      <value name="Neut.Dat.Sg.Sw"/>
+      <value name="Neut.Gen.Pl.*"/>
+      <value name="Neut.Gen.Sg"/>
+      <value name="Neut.Gen.Sg.*"/>
+      <value name="Neut.Gen.Sg.Mix"/>
+      <value name="Neut.Gen.Sg.Sw"/>
+      <value name="Neut.Nom.Pl.*"/>
+      <value name="Neut.Nom.Sg"/>
+      <value name="Neut.Nom.Sg.*"/>
+      <value name="Neut.Nom.Sg.St"/>
+      <value name="Neut.Nom.Sg.Sw"/>
+      <value name="Nom">Nominativ</value>
+      <value name="Pl"/>
+      <value name="Pos"/>
+      <value name="Pos.*.*.*.*"/>
+      <value name="Pos.*.Akk.Pl.Mix"/>
+      <value name="Pos.*.Akk.Pl.St"/>
+      <value name="Pos.*.Akk.Pl.Sw"/>
+      <value name="Pos.*.Dat.Pl.Mix"/>
+      <value name="Pos.*.Dat.Pl.St"/>
+      <value name="Pos.*.Dat.Pl.Sw"/>
+      <value name="Pos.*.Gen.Pl.Mix"/>
+      <value name="Pos.*.Gen.Pl.St"/>
+      <value name="Pos.*.Gen.Pl.Sw"/>
+      <value name="Pos.*.Nom.Pl.Mix"/>
+      <value name="Pos.*.Nom.Pl.St"/>
+      <value name="Pos.*.Nom.Pl.Sw"/>
+      <value name="Pos.Fem.Akk.Sg.Mix"/>
+      <value name="Pos.Fem.Akk.Sg.St"/>
+      <value name="Pos.Fem.Akk.Sg.Sw"/>
+      <value name="Pos.Fem.Dat.Sg.Mix"/>
+      <value name="Pos.Fem.Dat.Sg.St"/>
+      <value name="Pos.Fem.Dat.Sg.Sw"/>
+      <value name="Pos.Fem.Gen.Sg.Mix"/>
+      <value name="Pos.Fem.Gen.Sg.St"/>
+      <value name="Pos.Fem.Gen.Sg.Sw"/>
+      <value name="Pos.Fem.Nom.Sg.Mix"/>
+      <value name="Pos.Fem.Nom.Sg.St"/>
+      <value name="Pos.Fem.Nom.Sg.Sw"/>
+      <value name="Pos.Masc.Akk.Sg.Mix"/>
+      <value name="Pos.Masc.Akk.Sg.St"/>
+      <value name="Pos.Masc.Akk.Sg.Sw"/>
+      <value name="Pos.Masc.Dat.Sg.Mix"/>
+      <value name="Pos.Masc.Dat.Sg.St"/>
+      <value name="Pos.Masc.Dat.Sg.Sw"/>
+      <value name="Pos.Masc.Gen.Sg.Mix"/>
+      <value name="Pos.Masc.Gen.Sg.St"/>
+      <value name="Pos.Masc.Gen.Sg.Sw"/>
+      <value name="Pos.Masc.Nom.Sg.Mix"/>
+      <value name="Pos.Masc.Nom.Sg.St"/>
+      <value name="Pos.Masc.Nom.Sg.Sw"/>
+      <value name="Pos.Neut.Akk.Sg.Mix"/>
+      <value name="Pos.Neut.Akk.Sg.St"/>
+      <value name="Pos.Neut.Akk.Sg.Sw"/>
+      <value name="Pos.Neut.Dat.Sg.Mix"/>
+      <value name="Pos.Neut.Dat.Sg.St"/>
+      <value name="Pos.Neut.Dat.Sg.Sw"/>
+      <value name="Pos.Neut.Gen.Sg.Mix"/>
+      <value name="Pos.Neut.Gen.Sg.St"/>
+      <value name="Pos.Neut.Gen.Sg.Sw"/>
+      <value name="Pos.Neut.Nom.Sg.Mix"/>
+      <value name="Pos.Neut.Nom.Sg.St"/>
+      <value name="Pos.Neut.Nom.Sg.Sw"/>
+      <value name="Sg"/>
+      <value name="Sup"/>
+      <value name="Sup.*.Akk.Pl.St"/>
+      <value name="Sup.*.Akk.Pl.Sw"/>
+      <value name="Sup.*.Dat.Pl.St"/>
+      <value name="Sup.*.Dat.Pl.Sw"/>
+      <value name="Sup.*.Gen.Pl.Sw"/>
+      <value name="Sup.*.Nom.Pl.Mix"/>
+      <value name="Sup.*.Nom.Pl.Sw"/>
+      <value name="Sup.Fem.Akk.Sg.St"/>
+      <value name="Sup.Fem.Akk.Sg.Sw"/>
+      <value name="Sup.Fem.Dat.Sg.Mix"/>
+      <value name="Sup.Fem.Dat.Sg.St"/>
+      <value name="Sup.Fem.Dat.Sg.Sw"/>
+      <value name="Sup.Fem.Gen.Sg.St"/>
+      <value name="Sup.Fem.Gen.Sg.Sw"/>
+      <value name="Sup.Fem.Nom.Sg.Mix"/>
+      <value name="Sup.Fem.Nom.Sg.St"/>
+      <value name="Sup.Fem.Nom.Sg.Sw"/>
+      <value name="Sup.Masc.Akk.Sg.St"/>
+      <value name="Sup.Masc.Akk.Sg.Sw"/>
+      <value name="Sup.Masc.Dat.Sg.Mix"/>
+      <value name="Sup.Masc.Dat.Sg.Sw"/>
+      <value name="Sup.Masc.Gen.Sg.Sw"/>
+      <value name="Sup.Masc.Nom.Sg.Mix"/>
+      <value name="Sup.Masc.Nom.Sg.St"/>
+      <value name="Sup.Masc.Nom.Sg.Sw"/>
+      <value name="Sup.Neut.Akk.Sg.Mix"/>
+      <value name="Sup.Neut.Akk.Sg.Sw"/>
+      <value name="Sup.Neut.Dat.Sg.Sw"/>
+      <value name="Sup.Neut.Gen.Sg.St"/>
+      <value name="Sup.Neut.Nom.Sg.St"/>
+      <value name="Sup.Neut.Nom.Sg.Sw"/>
+      <value name="UNKNOWN">unknown tag</value>
+    </feature>
+
+    <feature name="cat" domain="NT">
+      <value name="--">&lt;not bound&gt;</value>
+      <value name="AA">superlative phrase with &quot;am&quot;</value>
+      <value name="AP">adjektive phrase</value>
+      <value name="AVP">adverbial phrase</value>
+      <value name="CAC">coordinated adposition</value>
+      <value name="CAP">coordinated adjektive phrase</value>
+      <value name="CAVP">coordinated adverbial phrase</value>
+      <value name="CCP">coordinated complementiser</value>
+      <value name="CH">chunk</value>
+      <value name="CNP">coordinated noun phrase</value>
+      <value name="CO">coordination</value>
+      <value name="CPP">coordinated adpositional phrase</value>
+      <value name="CS">coordinated sentence</value>
+      <value name="CVP">coordinated verb phrase (non-finite)</value>
+      <value name="CVZ">coordinated zu-marked infinitive</value>
+      <value name="DL">discourse level constituent</value>
+      <value name="ISU">idiosyncratis unit</value>
+      <value name="MPN">multi-word proper noun</value>
+      <value name="MTA">multi-token adjective</value>
+      <value name="NM">multi-token number</value>
+      <value name="NP">noun phrase</value>
+      <value name="PP">adpositional phrase</value>
+      <value name="QL">quasi-languag</value>
+      <value name="S">sentence</value>
+      <value name="VP">verb phrase (non-finite)</value>
+      <value name="VZ">zu-marked infinitive</value>
+    </feature>
+
+    <edgelabel>
+      <value name="--">--</value>
+      <value name="AC">adpositional case marker</value>
+      <value name="ADC">adjective component</value>
+      <value name="AG">genitive attribute</value>
+      <value name="AMS">measure argument of adj</value>
+      <value name="APP">apposition</value>
+      <value name="AVC">adverbial phrase component</value>
+      <value name="CC">comparative complement</value>
+      <value name="CD">coordinating conjunction</value>
+      <value name="CJ">conjunct</value>
+      <value name="CM">comparative concjunction</value>
+      <value name="CP">complementizer</value>
+      <value name="DA">dative</value>
+      <value name="DH">discourse-level head</value>
+      <value name="DM">discourse marker</value>
+      <value name="EP">expletives es</value>
+      <value name="GL">prenominal genitive</value>
+      <value name="GR">postnominal genitive</value>
+      <value name="HD">head</value>
+      <value name="JU">junctor</value>
+      <value name="MC">comitative</value>
+      <value name="MI">instrumental</value>
+      <value name="ML">locative</value>
+      <value name="MNR">postnominal modifier</value>
+      <value name="MO">modifier</value>
+      <value name="MR">rhetorical modifier</value>
+      <value name="MW">way (directional modifier)</value>
+      <value name="NG">negation</value>
+      <value name="NK">noun kernel modifier</value>
+      <value name="NMC">numerical component</value>
+      <value name="OA">accusative object</value>
+      <value name="OA2">second accusative object</value>
+      <value name="OC">clausal object</value>
+      <value name="OG">genitive object</value>
+      <value name="PD">predicate</value>
+      <value name="PG">pseudo-genitive</value>
+      <value name="PH">placeholder</value>
+      <value name="PM">morphological particle</value>
+      <value name="PNC">proper noun component</value>
+      <value name="RC">relative clause</value>
+      <value name="RE">repeated element</value>
+      <value name="RS">reported speech</value>
+      <value name="SB">subject</value>
+      <value name="SBP">passivised subject (PP)</value>
+      <value name="SP">subject or predicate</value>
+      <value name="SVP">separable verb prefix</value>
+      <value name="UC">(idiosyncratic) unit component</value>
+      <value name="VO">vocative</value>
+    </edgelabel>
+
+    <secedgelabel>
+      <value name="--">--</value>
+      <value name="AC">adpositional case marker</value>
+      <value name="ADC">adjective component</value>
+      <value name="AG">genitive attribute</value>
+      <value name="AMS">measure argument of adj</value>
+      <value name="APP">apposition</value>
+      <value name="AVC">adverbial phrase component</value>
+      <value name="CC">comparative complement</value>
+      <value name="CD">coordinating conjunction</value>
+      <value name="CJ">conjunct</value>
+      <value name="CM">comparative concjunction</value>
+      <value name="CP">complementizer</value>
+      <value name="DA">dative</value>
+      <value name="DH">discourse-level head</value>
+      <value name="DM">discourse marker</value>
+      <value name="EP">expletives es</value>
+      <value name="GL">prenominal genitive</value>
+      <value name="GR">postnominal genitive</value>
+      <value name="HD">head</value>
+      <value name="JU">junctor</value>
+      <value name="MC">comitative</value>
+      <value name="MI">instrumental</value>
+      <value name="ML">locative</value>
+      <value name="MNR">postnominal modifier</value>
+      <value name="MO">modifier</value>
+      <value name="MR">rhetorical modifier</value>
+      <value name="MW">way (directional modifier)</value>
+      <value name="NG">negation</value>
+      <value name="NK">noun kernel modifier</value>
+      <value name="NMC">numerical component</value>
+      <value name="OA">accusative object</value>
+      <value name="OA2">second accusative object</value>
+      <value name="OC">clausal object</value>
+      <value name="OG">genitive object</value>
+      <value name="PD">predicate</value>
+      <value name="PG">pseudo-genitive</value>
+      <value name="PH">placeholder</value>
+      <value name="PM">morphological particle</value>
+      <value name="PNC">proper noun component</value>
+      <value name="RC">relative clause</value>
+      <value name="RE">repeated element</value>
+      <value name="RS">reported speech</value>
+      <value name="SB">subject</value>
+      <value name="SBP">passivised subject (PP)</value>
+      <value name="SP">subject or predicate</value>
+      <value name="SVP">separable verb prefix</value>
+      <value name="UC">(idiosyncratic) unit component</value>
+      <value name="VO">vocative</value>
+    </secedgelabel>
+
+  </annotation>
+
+</head>
+
+<body>
+
+<s id="s1">
+<graph root="s1_500">
+<terminals>
+ <t id="s1_1" word="Der" pos="ART" morph="--" />
+ <t id="s1_2" word="Garten" pos="NN" morph="--" />
+ <t id="s1_3" word="Eden" pos="NE" morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s1_500" cat="NP">
+  <edge label="NK" idref="s1_1" />
+  <edge label="NK" idref="s1_2" />
+  <edge label="NK" idref="s1_3" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s2">
+<graph root="s2_506">
+<terminals>
+ <t id="s2_1" word="..." pos="$(" morph="--" />
+ <t id="s2_2" word="schlie&#x00df;lich" pos="ADV" morph="--" />
+ <t id="s2_3" word="und" pos="KON" morph="--" />
+ <t id="s2_4" word="endlich" pos="ADV" morph="--" />
+ <t id="s2_5" word="mu&#x00df;te" pos="VMFIN" morph="--" />
+ <t id="s2_6" word="doch" pos="ADV" morph="--" />
+ <t id="s2_7" word="irgendwann" pos="ADV" morph="--" />
+ <t id="s2_8" word="irgend" pos="ADV" morph="--" />
+ <t id="s2_9" word="etwas" pos="PIS" morph="--" />
+ <t id="s2_10" word="aus" pos="APPR" morph="--" />
+ <t id="s2_11" word="null" pos="CARD" morph="--" />
+ <t id="s2_12" word="und" pos="KON" morph="--" />
+ <t id="s2_13" word="nichts" pos="PIS" morph="--" />
+ <t id="s2_14" word="entstanden" pos="VVPP" morph="--" />
+ <t id="s2_15" word="sein" pos="VAINF" morph="--" />
+ <t id="s2_16" word="..." pos="$(" morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s2_500" cat="CAVP">
+  <edge label="CJ" idref="s2_2" />
+  <edge label="CD" idref="s2_3" />
+  <edge label="CJ" idref="s2_4" />
+ </nt>
+ <nt id="s2_501" cat="NP">
+  <edge label="MO" idref="s2_8" />
+  <edge label="NK" idref="s2_9" />
+ </nt>
+ <nt id="s2_502" cat="CNP">
+  <edge label="CJ" idref="s2_11" />
+  <edge label="CD" idref="s2_12" />
+  <edge label="CJ" idref="s2_13" />
+ </nt>
+ <nt id="s2_503" cat="PP">
+  <edge label="AC" idref="s2_10" />
+  <edge label="NK" idref="s2_502" />
+ </nt>
+ <nt id="s2_504" cat="VP">
+  <edge label="HD" idref="s2_14" />
+  <edge label="MO" idref="s2_503" />
+ </nt>
+ <nt id="s2_505" cat="VP">
+  <edge label="HD" idref="s2_15" />
+  <edge label="OC" idref="s2_504" />
+ </nt>
+ <nt id="s2_506" cat="S">
+  <edge label="HD" idref="s2_5" />
+  <edge label="MO" idref="s2_6" />
+  <edge label="MO" idref="s2_7" />
+  <edge label="MO" idref="s2_500" />
+  <edge label="SB" idref="s2_501" />
+  <edge label="OC" idref="s2_505" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s3">
+<graph root="s3_503">
+<terminals>
+ <t id="s3_1" word="Sofie" pos="NE" morph="--" />
+ <t id="s3_2" word="Amundsen" pos="NE" morph="--" />
+ <t id="s3_3" word="war" pos="VAFIN" morph="--" />
+ <t id="s3_4" word="auf" pos="APPR" morph="--" />
+ <t id="s3_5" word="dem" pos="ART" morph="--" />
+ <t id="s3_6" word="Heimweg" pos="NN" morph="--" />
+ <t id="s3_7" word="von" pos="APPR" morph="--" />
+ <t id="s3_8" word="der" pos="ART" morph="--" />
+ <t id="s3_9" word="Schule" pos="NN" morph="--" />
+ <t id="s3_10" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s3_500" cat="MPN">
+  <edge label="PNC" idref="s3_1" />
+  <edge label="PNC" idref="s3_2" />
+ </nt>
+ <nt id="s3_501" cat="PP">
+  <edge label="AC" idref="s3_7" />
+  <edge label="NK" idref="s3_8" />
+  <edge label="NK" idref="s3_9" />
+ </nt>
+ <nt id="s3_502" cat="PP">
+  <edge label="AC" idref="s3_4" />
+  <edge label="NK" idref="s3_5" />
+  <edge label="NK" idref="s3_6" />
+  <edge label="MNR" idref="s3_501" />
+ </nt>
+ <nt id="s3_503" cat="S">
+  <edge label="HD" idref="s3_3" />
+  <edge label="SB" idref="s3_500" />
+  <edge label="MO" idref="s3_502" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s4">
+<graph root="s4_503">
+<terminals>
+ <t id="s4_1" word="Das" pos="ART" morph="--" />
+ <t id="s4_2" word="erste" pos="ADJA" morph="--" />
+ <t id="s4_3" word="St&#x00fc;ck" pos="NN" morph="--" />
+ <t id="s4_4" word="war" pos="VAFIN" morph="--" />
+ <t id="s4_5" word="sie" pos="PPER" morph="--" />
+ <t id="s4_6" word="mit" pos="APPR" morph="--" />
+ <t id="s4_7" word="Jorunn" pos="NE" morph="--" />
+ <t id="s4_8" word="zusammen" pos="ADV" morph="--" />
+ <t id="s4_9" word="gegangen" pos="VVPP" morph="--" />
+ <t id="s4_10" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s4_500" cat="NP">
+  <edge label="NK" idref="s4_1" />
+  <edge label="NK" idref="s4_2" />
+  <edge label="NK" idref="s4_3" />
+ </nt>
+ <nt id="s4_501" cat="PP">
+  <edge label="AC" idref="s4_6" />
+  <edge label="NK" idref="s4_7" />
+ </nt>
+ <nt id="s4_502" cat="VP">
+  <edge label="MO" idref="s4_8" />
+  <edge label="HD" idref="s4_9" />
+  <edge label="MO" idref="s4_501" />
+ </nt>
+ <nt id="s4_503" cat="S">
+  <edge label="HD" idref="s4_4" />
+  <edge label="SB" idref="s4_5" />
+  <edge label="MO" idref="s4_500" />
+  <edge label="OC" idref="s4_502" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s5">
+<graph root="s5_502">
+<terminals>
+ <t id="s5_1" word="Sie" pos="PPER" morph="--" />
+ <t id="s5_2" word="hatten" pos="VAFIN" morph="--" />
+ <t id="s5_3" word="sich" pos="PRF" morph="--" />
+ <t id="s5_4" word="&#x00fc;ber" pos="APPR" morph="--" />
+ <t id="s5_5" word="Roboter" pos="NN" morph="--" />
+ <t id="s5_6" word="unterhalten" pos="VVPP" morph="--" />
+ <t id="s5_7" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s5_500" cat="PP">
+  <edge label="AC" idref="s5_4" />
+  <edge label="NK" idref="s5_5" />
+ </nt>
+ <nt id="s5_501" cat="VP">
+  <edge label="OA" idref="s5_3" />
+  <edge label="HD" idref="s5_6" />
+  <edge label="MO" idref="s5_500" />
+ </nt>
+ <nt id="s5_502" cat="S">
+  <edge label="SB" idref="s5_1" />
+  <edge label="HD" idref="s5_2" />
+  <edge label="OC" idref="s5_501" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s6">
+<graph root="s6_502">
+<terminals>
+ <t id="s6_1" word="Jorunn" pos="NE" morph="--" />
+ <t id="s6_2" word="hielt" pos="VVFIN" morph="--" />
+ <t id="s6_3" word="das" pos="ART" morph="--" />
+ <t id="s6_4" word="menschliche" pos="ADJA" morph="--" />
+ <t id="s6_5" word="Gehirn" pos="NN" morph="--" />
+ <t id="s6_6" word="f&#x00fc;r" pos="APPR" morph="--" />
+ <t id="s6_7" word="einen" pos="ART" morph="--" />
+ <t id="s6_8" word="komplizierten" pos="ADJA" morph="--" />
+ <t id="s6_9" word="Computer" pos="NN" morph="--" />
+ <t id="s6_10" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s6_500" cat="NP">
+  <edge label="NK" idref="s6_3" />
+  <edge label="NK" idref="s6_4" />
+  <edge label="NK" idref="s6_5" />
+ </nt>
+ <nt id="s6_501" cat="PP">
+  <edge label="AC" idref="s6_6" />
+  <edge label="NK" idref="s6_7" />
+  <edge label="NK" idref="s6_8" />
+  <edge label="NK" idref="s6_9" />
+ </nt>
+ <nt id="s6_502" cat="S">
+  <edge label="SB" idref="s6_1" />
+  <edge label="HD" idref="s6_2" />
+  <edge label="OA" idref="s6_500" />
+  <edge label="MO" idref="s6_501" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s7">
+<graph root="s7_503">
+<terminals>
+ <t id="s7_1" word="Sofie" pos="NE" morph="--" />
+ <t id="s7_2" word="war" pos="VAFIN" morph="--" />
+ <t id="s7_3" word="sich" pos="PRF" morph="--" />
+ <t id="s7_4" word="nicht" pos="PTKNEG" morph="--" />
+ <t id="s7_5" word="so" pos="ADV" morph="--" />
+ <t id="s7_6" word="sicher" pos="ADJD" morph="--" />
+ <t id="s7_7" word="," pos="$," morph="--" />
+ <t id="s7_8" word="ob" pos="KOUS" morph="--" />
+ <t id="s7_9" word="sie" pos="PPER" morph="--" />
+ <t id="s7_10" word="da" pos="ADV" morph="--" />
+ <t id="s7_11" word="zustimmte" pos="VVFIN" morph="--" />
+ <t id="s7_12" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s7_500" cat="AVP">
+  <edge label="MO" idref="s7_4" />
+  <edge label="HD" idref="s7_5" />
+ </nt>
+ <nt id="s7_501" cat="S">
+  <edge label="CP" idref="s7_8" />
+  <edge label="SB" idref="s7_9" />
+  <edge label="MO" idref="s7_10" />
+  <edge label="HD" idref="s7_11" />
+ </nt>
+ <nt id="s7_502" cat="AP">
+  <edge label="HD" idref="s7_6" />
+  <edge label="MO" idref="s7_500" />
+  <edge label="OC" idref="s7_501" />
+ </nt>
+ <nt id="s7_503" cat="S">
+  <edge label="SB" idref="s7_1" />
+  <edge label="HD" idref="s7_2" />
+  <edge label="OA" idref="s7_3" />
+  <edge label="PD" idref="s7_502" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s8">
+<graph root="s8_504">
+<terminals>
+ <t id="s8_1" word="Ein" pos="ART" morph="--" />
+ <t id="s8_2" word="Mensch" pos="NN" morph="--" />
+ <t id="s8_3" word="mu&#x00df;te" pos="VMFIN" morph="--" />
+ <t id="s8_4" word="doch" pos="ADV" morph="--" />
+ <t id="s8_5" word="mehr" pos="PIS" morph="--" />
+ <t id="s8_6" word="sein" pos="VAINF" morph="--" />
+ <t id="s8_7" word="als" pos="KOKOM" morph="--" />
+ <t id="s8_8" word="eine" pos="ART" morph="--" />
+ <t id="s8_9" word="Maschine" pos="NN" morph="--" />
+ <t id="s8_10" word="?" pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s8_500" cat="NP">
+  <edge label="NK" idref="s8_1" />
+  <edge label="NK" idref="s8_2" />
+ </nt>
+ <nt id="s8_501" cat="NP">
+  <edge label="CM" idref="s8_7" />
+  <edge label="NK" idref="s8_8" />
+  <edge label="NK" idref="s8_9" />
+ </nt>
+ <nt id="s8_502" cat="AP">
+  <edge label="HD" idref="s8_5" />
+  <edge label="CC" idref="s8_501" />
+ </nt>
+ <nt id="s8_503" cat="VP">
+  <edge label="MO" idref="s8_4" />
+  <edge label="HD" idref="s8_6" />
+  <edge label="PD" idref="s8_502" />
+ </nt>
+ <nt id="s8_504" cat="S">
+  <edge label="HD" idref="s8_3" />
+  <edge label="SB" idref="s8_500" />
+  <edge label="OC" idref="s8_503" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s9">
+<graph root="s9_502">
+<terminals>
+ <t id="s9_1" word="Beim" pos="APPRART" morph="--" />
+ <t id="s9_2" word="Supermarkt" pos="NN" morph="--" />
+ <t id="s9_3" word="hatten" pos="VAFIN" morph="--" />
+ <t id="s9_4" word="sie" pos="PPER" morph="--" />
+ <t id="s9_5" word="sich" pos="PRF" morph="--" />
+ <t id="s9_6" word="getrennt" pos="VVPP" morph="--" />
+ <t id="s9_7" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s9_500" cat="PP">
+  <edge label="AC" idref="s9_1" />
+  <edge label="NK" idref="s9_2" />
+ </nt>
+ <nt id="s9_501" cat="VP">
+  <edge label="OA" idref="s9_5" />
+  <edge label="HD" idref="s9_6" />
+ </nt>
+ <nt id="s9_502" cat="S">
+  <edge label="HD" idref="s9_3" />
+  <edge label="SB" idref="s9_4" />
+  <edge label="MO" idref="s9_500" />
+  <edge label="OC" idref="s9_501" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s10">
+<graph root="s10_510">
+<terminals>
+ <t id="s10_1" word="Sofie" pos="NE" morph="--" />
+ <t id="s10_2" word="wohnte" pos="VVFIN" morph="--" />
+ <t id="s10_3" word="am" pos="APPRART" morph="--" />
+ <t id="s10_4" word="Ende" pos="NN" morph="--" />
+ <t id="s10_5" word="eines" pos="ART" morph="--" />
+ <t id="s10_6" word="ausgedehnten" pos="ADJA" morph="--" />
+ <t id="s10_7" word="Viertels" pos="NN" morph="--" />
+ <t id="s10_8" word="mit" pos="APPR" morph="--" />
+ <t id="s10_9" word="Einfamilienh&#x00e4;usern" pos="NN" morph="--" />
+ <t id="s10_10" word="und" pos="KON" morph="--" />
+ <t id="s10_11" word="hatte" pos="VAFIN" morph="--" />
+ <t id="s10_12" word="einen" pos="ART" morph="--" />
+ <t id="s10_13" word="fast" pos="ADV" morph="--" />
+ <t id="s10_14" word="doppelt" pos="ADJD" morph="--" />
+ <t id="s10_15" word="so" pos="ADV" morph="--" />
+ <t id="s10_16" word="langen" pos="ADJA" morph="--" />
+ <t id="s10_17" word="Schulweg" pos="NN" morph="--" />
+ <t id="s10_18" word="wie" pos="KOKOM" morph="--" />
+ <t id="s10_19" word="Jorunn" pos="NE" morph="--" />
+ <t id="s10_20" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s10_500" cat="PP">
+  <edge label="AC" idref="s10_8" />
+  <edge label="NK" idref="s10_9" />
+ </nt>
+ <nt id="s10_501" cat="AP">
+  <edge label="MO" idref="s10_13" />
+  <edge label="HD" idref="s10_14" />
+ </nt>
+ <nt id="s10_502" cat="NP">
+  <edge label="CM" idref="s10_18" />
+  <edge label="NK" idref="s10_19" />
+ </nt>
+ <nt id="s10_503" cat="NP">
+  <edge label="NK" idref="s10_5" />
+  <edge label="NK" idref="s10_6" />
+  <edge label="NK" idref="s10_7" />
+  <edge label="MNR" idref="s10_500" />
+ </nt>
+ <nt id="s10_504" cat="AVP">
+  <edge label="HD" idref="s10_15" />
+  <edge label="MO" idref="s10_501" />
+ </nt>
+ <nt id="s10_505" cat="PP">
+  <edge label="AC" idref="s10_3" />
+  <edge label="NK" idref="s10_4" />
+  <edge label="AG" idref="s10_503" />
+ </nt>
+ <nt id="s10_506" cat="AP">
+  <edge label="HD" idref="s10_16" />
+  <edge label="MO" idref="s10_504" />
+ </nt>
+ <nt id="s10_507" cat="S">
+  <edge label="SB" idref="s10_1" />
+  <edge label="HD" idref="s10_2" />
+  <edge label="MO" idref="s10_505" />
+ </nt>
+ <nt id="s10_508" cat="NP">
+  <edge label="NK" idref="s10_12" />
+  <edge label="NK" idref="s10_17" />
+  <edge label="MNR" idref="s10_502" />
+  <edge label="NK" idref="s10_506" />
+ </nt>
+ <nt id="s10_509" cat="S">
+  <edge label="HD" idref="s10_11" />
+  <edge label="OA" idref="s10_508" />
+ </nt>
+ <nt id="s10_510" cat="CS">
+  <edge label="CD" idref="s10_10" />
+  <edge label="CJ" idref="s10_507" />
+  <edge label="CJ" idref="s10_509" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s11">
+<graph root="s11_511">
+<terminals>
+ <t id="s11_1" word="Ihr" pos="PPOSAT" morph="--" />
+ <t id="s11_2" word="Haus" pos="NN" morph="--" />
+ <t id="s11_3" word="schien" pos="VVFIN" morph="--" />
+ <t id="s11_4" word="am" pos="APPRART" morph="--" />
+ <t id="s11_5" word="Ende" pos="NN" morph="--" />
+ <t id="s11_6" word="der" pos="ART" morph="--" />
+ <t id="s11_7" word="Welt" pos="NN" morph="--" />
+ <t id="s11_8" word="zu" pos="PTKZU" morph="--" />
+ <t id="s11_9" word="liegen" pos="VVINF" morph="--" />
+ <t id="s11_10" word="," pos="$," morph="--" />
+ <t id="s11_11" word="denn" pos="KON" morph="--" />
+ <t id="s11_12" word="hinter" pos="APPR" morph="--" />
+ <t id="s11_13" word="ihrem" pos="PPOSAT" morph="--" />
+ <t id="s11_14" word="Garten" pos="NN" morph="--" />
+ <t id="s11_15" word="gab" pos="VVFIN" morph="--" />
+ <t id="s11_16" word="es" pos="PPER" morph="--" />
+ <t id="s11_17" word="keine" pos="PIAT" morph="--" />
+ <t id="s11_18" word="weiteren" pos="ADJA" morph="--" />
+ <t id="s11_19" word="H&#x00e4;user" pos="NN" morph="--" />
+ <t id="s11_20" word="mehr" pos="ADV" morph="--" />
+ <t id="s11_21" word="," pos="$," morph="--" />
+ <t id="s11_22" word="nur" pos="ADV" morph="--" />
+ <t id="s11_23" word="noch" pos="ADV" morph="--" />
+ <t id="s11_24" word="Wald" pos="NN" morph="--" />
+ <t id="s11_25" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s11_500" cat="NP">
+  <edge label="NK" idref="s11_1" />
+  <edge label="NK" idref="s11_2" />
+ </nt>
+ <nt id="s11_501" cat="NP">
+  <edge label="NK" idref="s11_6" />
+  <edge label="NK" idref="s11_7" />
+ </nt>
+ <nt id="s11_502" cat="VZ">
+  <edge label="PM" idref="s11_8" />
+  <edge label="HD" idref="s11_9" />
+ </nt>
+ <nt id="s11_503" cat="PP">
+  <edge label="AC" idref="s11_12" />
+  <edge label="NK" idref="s11_13" />
+  <edge label="NK" idref="s11_14" />
+ </nt>
+ <nt id="s11_504" cat="NP">
+  <edge label="NK" idref="s11_17" />
+  <edge label="NK" idref="s11_18" />
+  <edge label="NK" idref="s11_19" />
+  <edge label="MO" idref="s11_20" />
+ </nt>
+ <nt id="s11_505" cat="AVP">
+  <edge label="HD" idref="s11_22" />
+  <edge label="MO" idref="s11_23" />
+ </nt>
+ <nt id="s11_506" cat="PP">
+  <edge label="AC" idref="s11_4" />
+  <edge label="NK" idref="s11_5" />
+  <edge label="AG" idref="s11_501" />
+ </nt>
+ <nt id="s11_507" cat="NP">
+  <edge label="NK" idref="s11_24" />
+  <edge label="MO" idref="s11_505" />
+ </nt>
+ <nt id="s11_508" cat="VP">
+  <edge label="HD" idref="s11_502" />
+  <edge label="MO" idref="s11_506" />
+ </nt>
+ <nt id="s11_509" cat="CNP">
+  <edge label="CJ" idref="s11_504" />
+  <edge label="CJ" idref="s11_507" />
+ </nt>
+ <nt id="s11_510" cat="S">
+  <edge label="JU" idref="s11_11" />
+  <edge label="HD" idref="s11_15" />
+  <edge label="SB" idref="s11_16" />
+  <edge label="MO" idref="s11_503" />
+  <edge label="OA" idref="s11_509" />
+ </nt>
+ <nt id="s11_511" cat="S">
+  <edge label="HD" idref="s11_3" />
+  <edge label="SB" idref="s11_500" />
+  <edge label="OC" idref="s11_508" />
+  <edge label="MO" idref="s11_510" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s12">
+<graph root="s12_501">
+<terminals>
+ <t id="s12_1" word="Jetzt" pos="ADV" morph="--" />
+ <t id="s12_2" word="bog" pos="VVFIN" morph="--" />
+ <t id="s12_3" word="sie" pos="PPER" morph="--" />
+ <t id="s12_4" word="in" pos="APPR" morph="--" />
+ <t id="s12_5" word="den" pos="ART" morph="--" />
+ <t id="s12_6" word="Kl&#x00f8;verveien" pos="NE" morph="--" />
+ <t id="s12_7" word="ein" pos="PTKVZ" morph="--" />
+ <t id="s12_8" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s12_500" cat="PP">
+  <edge label="AC" idref="s12_4" />
+  <edge label="NK" idref="s12_5" />
+  <edge label="NK" idref="s12_6" />
+ </nt>
+ <nt id="s12_501" cat="S">
+  <edge label="MO" idref="s12_1" />
+  <edge label="HD" idref="s12_2" />
+  <edge label="SB" idref="s12_3" />
+  <edge label="SVP" idref="s12_7" />
+  <edge label="MO" idref="s12_500" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s13">
+<graph root="s13_504">
+<terminals>
+ <t id="s13_1" word="Ganz" pos="ADV" morph="--" />
+ <t id="s13_2" word="am" pos="APPRART" morph="--" />
+ <t id="s13_3" word="Ende" pos="NN" morph="--" />
+ <t id="s13_4" word="machte" pos="VVFIN" morph="--" />
+ <t id="s13_5" word="der" pos="PDS" morph="--" />
+ <t id="s13_6" word="eine" pos="ART" morph="--" />
+ <t id="s13_7" word="scharfe" pos="ADJA" morph="--" />
+ <t id="s13_8" word="Kurve" pos="NN" morph="--" />
+ <t id="s13_9" word="," pos="$," morph="--" />
+ <t id="s13_10" word="die" pos="PRELS" morph="--" />
+ <t id="s13_11" word="&quot;" pos="$(" morph="--" />
+ <t id="s13_12" word="Kapit&#x00e4;nskurve" pos="NN" morph="--" />
+ <t id="s13_13" word="&quot;" pos="$(" morph="--" />
+ <t id="s13_14" word="genannt" pos="VVPP" morph="--" />
+ <t id="s13_15" word="wurde" pos="VAFIN" morph="--" />
+ <t id="s13_16" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s13_500" cat="PP">
+  <edge label="MO" idref="s13_1" />
+  <edge label="AC" idref="s13_2" />
+  <edge label="NK" idref="s13_3" />
+ </nt>
+ <nt id="s13_501" cat="VP">
+  <edge label="PD" idref="s13_12" />
+  <edge label="HD" idref="s13_14" />
+ </nt>
+ <nt id="s13_502" cat="S">
+  <edge label="SB" idref="s13_10" />
+  <edge label="HD" idref="s13_15" />
+  <edge label="OC" idref="s13_501" />
+ </nt>
+ <nt id="s13_503" cat="NP">
+  <edge label="NK" idref="s13_6" />
+  <edge label="NK" idref="s13_7" />
+  <edge label="NK" idref="s13_8" />
+  <edge label="RC" idref="s13_502" />
+ </nt>
+ <nt id="s13_504" cat="S">
+  <edge label="HD" idref="s13_4" />
+  <edge label="SB" idref="s13_5" />
+  <edge label="MO" idref="s13_500" />
+  <edge label="OA" idref="s13_503" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s14">
+<graph root="s14_505">
+<terminals>
+ <t id="s14_1" word="Menschen" pos="NN" morph="--" />
+ <t id="s14_2" word="waren" pos="VAFIN" morph="--" />
+ <t id="s14_3" word="hier" pos="ADV" morph="--" />
+ <t id="s14_4" word="fast" pos="ADV" morph="--" />
+ <t id="s14_5" word="nur" pos="ADV" morph="--" />
+ <t id="s14_6" word="samstags" pos="ADV" morph="--" />
+ <t id="s14_7" word="und" pos="KON" morph="--" />
+ <t id="s14_8" word="sonntags" pos="ADV" morph="--" />
+ <t id="s14_9" word="zu" pos="PTKZU" morph="--" />
+ <t id="s14_10" word="sehen" pos="VVINF" morph="--" />
+ <t id="s14_11" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s14_500" cat="AVP">
+  <edge label="MO" idref="s14_4" />
+  <edge label="HD" idref="s14_5" />
+ </nt>
+ <nt id="s14_501" cat="CAVP">
+  <edge label="CJ" idref="s14_6" />
+  <edge label="CD" idref="s14_7" />
+  <edge label="CJ" idref="s14_8" />
+ </nt>
+ <nt id="s14_502" cat="VZ">
+  <edge label="PM" idref="s14_9" />
+  <edge label="HD" idref="s14_10" />
+ </nt>
+ <nt id="s14_503" cat="AVP">
+  <edge label="MO" idref="s14_500" />
+  <edge label="HD" idref="s14_501" />
+ </nt>
+ <nt id="s14_504" cat="VP">
+  <edge label="MO" idref="s14_3" />
+  <edge label="HD" idref="s14_502" />
+  <edge label="MO" idref="s14_503" />
+ </nt>
+ <nt id="s14_505" cat="S">
+  <edge label="SB" idref="s14_1" />
+  <edge label="HD" idref="s14_2" />
+  <edge label="OC" idref="s14_504" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s15">
+<graph root="s15_503">
+<terminals>
+ <t id="s15_1" word="Es" pos="PPER" morph="--" />
+ <t id="s15_2" word="war" pos="VAFIN" morph="--" />
+ <t id="s15_3" word="einer" pos="PIS" morph="--" />
+ <t id="s15_4" word="der" pos="ART" morph="--" />
+ <t id="s15_5" word="ersten" pos="ADJA" morph="--" />
+ <t id="s15_6" word="Tage" pos="NN" morph="--" />
+ <t id="s15_7" word="im" pos="APPRART" morph="--" />
+ <t id="s15_8" word="Mai" pos="NN" morph="--" />
+ <t id="s15_9" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s15_500" cat="PP">
+  <edge label="AC" idref="s15_7" />
+  <edge label="NK" idref="s15_8" />
+ </nt>
+ <nt id="s15_501" cat="NP">
+  <edge label="NK" idref="s15_4" />
+  <edge label="NK" idref="s15_5" />
+  <edge label="NK" idref="s15_6" />
+  <edge label="MNR" idref="s15_500" />
+ </nt>
+ <nt id="s15_502" cat="NP">
+  <edge label="NK" idref="s15_3" />
+  <edge label="AG" idref="s15_501" />
+ </nt>
+ <nt id="s15_503" cat="S">
+  <edge label="SB" idref="s15_1" />
+  <edge label="HD" idref="s15_2" />
+  <edge label="PD" idref="s15_502" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s16">
+<graph root="s16_504">
+<terminals>
+ <t id="s16_1" word="In" pos="APPR" morph="--" />
+ <t id="s16_2" word="einigen" pos="PIAT" morph="--" />
+ <t id="s16_3" word="G&#x00e4;rten" pos="NN" morph="--" />
+ <t id="s16_4" word="bl&#x00fc;hten" pos="VVFIN" morph="--" />
+ <t id="s16_5" word="unter" pos="APPR" morph="--" />
+ <t id="s16_6" word="den" pos="ART" morph="--" />
+ <t id="s16_7" word="Obstb&#x00e4;umen" pos="NN" morph="--" />
+ <t id="s16_8" word="dichte" pos="ADJA" morph="--" />
+ <t id="s16_9" word="Kr&#x00e4;nze" pos="NN" morph="--" />
+ <t id="s16_10" word="von" pos="APPR" morph="--" />
+ <t id="s16_11" word="Osterglocken" pos="NN" morph="--" />
+ <t id="s16_12" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s16_500" cat="PP">
+  <edge label="AC" idref="s16_1" />
+  <edge label="NK" idref="s16_2" />
+  <edge label="NK" idref="s16_3" />
+ </nt>
+ <nt id="s16_501" cat="PP">
+  <edge label="AC" idref="s16_5" />
+  <edge label="NK" idref="s16_6" />
+  <edge label="NK" idref="s16_7" />
+ </nt>
+ <nt id="s16_502" cat="PP">
+  <edge label="AC" idref="s16_10" />
+  <edge label="NK" idref="s16_11" />
+ </nt>
+ <nt id="s16_503" cat="NP">
+  <edge label="NK" idref="s16_8" />
+  <edge label="NK" idref="s16_9" />
+  <edge label="MNR" idref="s16_502" />
+ </nt>
+ <nt id="s16_504" cat="S">
+  <edge label="HD" idref="s16_4" />
+  <edge label="MO" idref="s16_500" />
+  <edge label="MO" idref="s16_501" />
+  <edge label="SB" idref="s16_503" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s17">
+<graph root="s17_503">
+<terminals>
+ <t id="s17_1" word="Die" pos="ART" morph="--" />
+ <t id="s17_2" word="Birken" pos="NN" morph="--" />
+ <t id="s17_3" word="hatten" pos="VAFIN" morph="--" />
+ <t id="s17_4" word="d&#x00fc;nne" pos="ADJA" morph="--" />
+ <t id="s17_5" word="Umh&#x00e4;nge" pos="NN" morph="--" />
+ <t id="s17_6" word="aus" pos="APPR" morph="--" />
+ <t id="s17_7" word="gr&#x00fc;nem" pos="ADJA" morph="--" />
+ <t id="s17_8" word="Flor" pos="NN" morph="--" />
+ <t id="s17_9" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s17_500" cat="NP">
+  <edge label="NK" idref="s17_1" />
+  <edge label="NK" idref="s17_2" />
+ </nt>
+ <nt id="s17_501" cat="PP">
+  <edge label="AC" idref="s17_6" />
+  <edge label="NK" idref="s17_7" />
+  <edge label="NK" idref="s17_8" />
+ </nt>
+ <nt id="s17_502" cat="NP">
+  <edge label="NK" idref="s17_4" />
+  <edge label="NK" idref="s17_5" />
+  <edge label="MNR" idref="s17_501" />
+ </nt>
+ <nt id="s17_503" cat="S">
+  <edge label="HD" idref="s17_3" />
+  <edge label="SB" idref="s17_500" />
+  <edge label="OA" idref="s17_502" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s18">
+<graph root="s18_505">
+<terminals>
+ <t id="s18_1" word="War" pos="VAFIN" morph="--" />
+ <t id="s18_2" word="es" pos="PPER" morph="--" />
+ <t id="s18_3" word="nicht" pos="PTKNEG" morph="--" />
+ <t id="s18_4" word="seltsam" pos="ADJD" morph="--" />
+ <t id="s18_5" word="," pos="$," morph="--" />
+ <t id="s18_6" word="wie" pos="KOKOM" morph="--" />
+ <t id="s18_7" word="zu" pos="APPR" morph="--" />
+ <t id="s18_8" word="dieser" pos="PDAT" morph="--" />
+ <t id="s18_9" word="Jahreszeit" pos="NN" morph="--" />
+ <t id="s18_10" word="alles" pos="PIS" morph="--" />
+ <t id="s18_11" word="anfing" pos="VVFIN" morph="--" />
+ <t id="s18_12" word="zu" pos="PTKZU" morph="--" />
+ <t id="s18_13" word="wachsen" pos="VVINF" morph="--" />
+ <t id="s18_14" word="und" pos="KON" morph="--" />
+ <t id="s18_15" word="zu" pos="PTKZU" morph="--" />
+ <t id="s18_16" word="gedeihen" pos="VVINF" morph="--" />
+ <t id="s18_17" word="?" pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s18_500" cat="PP">
+  <edge label="AC" idref="s18_7" />
+  <edge label="NK" idref="s18_8" />
+  <edge label="NK" idref="s18_9" />
+ </nt>
+ <nt id="s18_501" cat="VZ">
+  <edge label="PM" idref="s18_12" />
+  <edge label="HD" idref="s18_13" />
+ </nt>
+ <nt id="s18_502" cat="VZ">
+  <edge label="PM" idref="s18_15" />
+  <edge label="HD" idref="s18_16" />
+ </nt>
+ <nt id="s18_503" cat="CVZ">
+  <edge label="CD" idref="s18_14" />
+  <edge label="CJ" idref="s18_501" />
+  <edge label="CJ" idref="s18_502" />
+ </nt>
+ <nt id="s18_504" cat="S">
+  <edge label="CM" idref="s18_6" />
+  <edge label="SB" idref="s18_10" />
+  <edge label="HD" idref="s18_11" />
+  <edge label="MO" idref="s18_500" />
+  <edge label="OC" idref="s18_503" />
+ </nt>
+ <nt id="s18_505" cat="S">
+  <edge label="HD" idref="s18_1" />
+  <edge label="SB" idref="s18_2" />
+  <edge label="NG" idref="s18_3" />
+  <edge label="PD" idref="s18_4" />
+  <edge label="MO" idref="s18_504" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s19">
+<graph root="s19_512">
+<terminals>
+ <t id="s19_1" word="Woran" pos="PWAV" morph="--" />
+ <t id="s19_2" word="lag" pos="VVFIN" morph="--" />
+ <t id="s19_3" word="es" pos="PPER" morph="--" />
+ <t id="s19_4" word="," pos="$," morph="--" />
+ <t id="s19_5" word="da&#x00df;" pos="KOUS" morph="--" />
+ <t id="s19_6" word="Kilo" pos="NN" morph="--" />
+ <t id="s19_7" word="um" pos="APPR" morph="--" />
+ <t id="s19_8" word="Kilo" pos="NN" morph="--" />
+ <t id="s19_9" word="des" pos="ART" morph="--" />
+ <t id="s19_10" word="gr&#x00fc;nen" pos="ADJA" morph="--" />
+ <t id="s19_11" word="Pflanzenstoffes" pos="NN" morph="--" />
+ <t id="s19_12" word="aus" pos="APPR" morph="--" />
+ <t id="s19_13" word="der" pos="ART" morph="--" />
+ <t id="s19_14" word="leblosen" pos="ADJA" morph="--" />
+ <t id="s19_15" word="Erde" pos="NN" morph="--" />
+ <t id="s19_16" word="quellen" pos="VVINF" morph="--" />
+ <t id="s19_17" word="konnte" pos="VMFIN" morph="--" />
+ <t id="s19_18" word="," pos="$," morph="--" />
+ <t id="s19_19" word="sowie" pos="KON" morph="--" />
+ <t id="s19_20" word="das" pos="ART" morph="--" />
+ <t id="s19_21" word="Wetter" pos="NN" morph="--" />
+ <t id="s19_22" word="warm" pos="ADJD" morph="--" />
+ <t id="s19_23" word="wurde" pos="VAFIN" morph="--" />
+ <t id="s19_24" word="und" pos="KON" morph="--" />
+ <t id="s19_25" word="die" pos="ART" morph="--" />
+ <t id="s19_26" word="letzten" pos="ADJA" morph="--" />
+ <t id="s19_27" word="Schneereste" pos="NN" morph="--" />
+ <t id="s19_28" word="verschwunden" pos="VVPP" morph="--" />
+ <t id="s19_29" word="waren" pos="VAFIN" morph="--" />
+ <t id="s19_30" word="?" pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s19_500" cat="PP">
+  <edge label="AC" idref="s19_7" />
+  <edge label="NK" idref="s19_8" />
+ </nt>
+ <nt id="s19_501" cat="NP">
+  <edge label="NK" idref="s19_9" />
+  <edge label="NK" idref="s19_10" />
+  <edge label="NK" idref="s19_11" />
+ </nt>
+ <nt id="s19_502" cat="PP">
+  <edge label="AC" idref="s19_12" />
+  <edge label="NK" idref="s19_13" />
+  <edge label="NK" idref="s19_14" />
+  <edge label="NK" idref="s19_15" />
+ </nt>
+ <nt id="s19_503" cat="NP">
+  <edge label="NK" idref="s19_20" />
+  <edge label="NK" idref="s19_21" />
+ </nt>
+ <nt id="s19_504" cat="NP">
+  <edge label="NK" idref="s19_25" />
+  <edge label="NK" idref="s19_26" />
+  <edge label="NK" idref="s19_27" />
+ </nt>
+ <nt id="s19_505" cat="NP">
+  <edge label="NK" idref="s19_6" />
+  <edge label="MNR" idref="s19_500" />
+  <edge label="AG" idref="s19_501" />
+ </nt>
+ <nt id="s19_506" cat="VP">
+  <edge label="HD" idref="s19_16" />
+  <edge label="MO" idref="s19_502" />
+ </nt>
+ <nt id="s19_507" cat="S">
+  <edge label="PD" idref="s19_22" />
+  <edge label="HD" idref="s19_23" />
+  <edge label="SB" idref="s19_503" />
+ </nt>
+ <nt id="s19_508" cat="S">
+  <edge label="OC" idref="s19_28" />
+  <edge label="HD" idref="s19_29" />
+  <edge label="SB" idref="s19_504" />
+ </nt>
+ <nt id="s19_509" cat="CS">
+  <edge label="CD" idref="s19_24" />
+  <edge label="CJ" idref="s19_507" />
+  <edge label="CJ" idref="s19_508" />
+ </nt>
+ <nt id="s19_510" cat="S">
+  <edge label="CD" idref="s19_19" />
+  <edge label="MO" idref="s19_509" />
+ </nt>
+ <nt id="s19_511" cat="S">
+  <edge label="CP" idref="s19_5" />
+  <edge label="HD" idref="s19_17" />
+  <edge label="SB" idref="s19_505" />
+  <edge label="OC" idref="s19_506" />
+  <edge label="MO" idref="s19_510" />
+ </nt>
+ <nt id="s19_512" cat="S">
+  <edge label="MO" idref="s19_1" />
+  <edge label="HD" idref="s19_2" />
+  <edge label="SB" idref="s19_3" />
+  <edge label="OC" idref="s19_511" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s20">
+<graph root="s20_503">
+<terminals>
+ <t id="s20_1" word="Sofie" pos="NE" morph="--" />
+ <t id="s20_2" word="schaute" pos="VVFIN" morph="--" />
+ <t id="s20_3" word="in" pos="APPR" morph="--" />
+ <t id="s20_4" word="den" pos="ART" morph="--" />
+ <t id="s20_5" word="Briefkasten" pos="NN" morph="--" />
+ <t id="s20_6" word="," pos="$," morph="--" />
+ <t id="s20_7" word="ehe" pos="KOUS" morph="--" />
+ <t id="s20_8" word="sie" pos="PPER" morph="--" />
+ <t id="s20_9" word="das" pos="ART" morph="--" />
+ <t id="s20_10" word="Gartentor" pos="NN" morph="--" />
+ <t id="s20_11" word="&#x00f6;ffnete" pos="VVFIN" morph="--" />
+ <t id="s20_12" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s20_500" cat="PP">
+  <edge label="AC" idref="s20_3" />
+  <edge label="NK" idref="s20_4" />
+  <edge label="NK" idref="s20_5" />
+ </nt>
+ <nt id="s20_501" cat="NP">
+  <edge label="NK" idref="s20_9" />
+  <edge label="NK" idref="s20_10" />
+ </nt>
+ <nt id="s20_502" cat="S">
+  <edge label="CP" idref="s20_7" />
+  <edge label="SB" idref="s20_8" />
+  <edge label="HD" idref="s20_11" />
+  <edge label="OA" idref="s20_501" />
+ </nt>
+ <nt id="s20_503" cat="S">
+  <edge label="SB" idref="s20_1" />
+  <edge label="HD" idref="s20_2" />
+  <edge label="MO" idref="s20_500" />
+  <edge label="MO" idref="s20_502" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s21">
+<graph root="s21_505">
+<terminals>
+ <t id="s21_1" word="In" pos="APPR" morph="--" />
+ <t id="s21_2" word="der" pos="ART" morph="--" />
+ <t id="s21_3" word="Regel" pos="NN" morph="--" />
+ <t id="s21_4" word="gab" pos="VVFIN" morph="--" />
+ <t id="s21_5" word="es" pos="PPER" morph="--" />
+ <t id="s21_6" word="darin" pos="PROAV" morph="--" />
+ <t id="s21_7" word="viel" pos="PIAT" morph="--" />
+ <t id="s21_8" word="Reklamekram" pos="NN" morph="--" />
+ <t id="s21_9" word="und" pos="KON" morph="--" />
+ <t id="s21_10" word="einige" pos="PIAT" morph="--" />
+ <t id="s21_11" word="gro&#x00df;e" pos="ADJA" morph="--" />
+ <t id="s21_12" word="Briefumschl&#x00e4;ge" pos="NN" morph="--" />
+ <t id="s21_13" word="f&#x00fc;r" pos="APPR" morph="--" />
+ <t id="s21_14" word="ihre" pos="PPOSAT" morph="--" />
+ <t id="s21_15" word="Mutter" pos="NN" morph="--" />
+ <t id="s21_16" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s21_500" cat="PP">
+  <edge label="AC" idref="s21_1" />
+  <edge label="NK" idref="s21_2" />
+  <edge label="NK" idref="s21_3" />
+ </nt>
+ <nt id="s21_501" cat="NP">
+  <edge label="NK" idref="s21_7" />
+  <edge label="NK" idref="s21_8" />
+ </nt>
+ <nt id="s21_502" cat="PP">
+  <edge label="AC" idref="s21_13" />
+  <edge label="NK" idref="s21_14" />
+  <edge label="NK" idref="s21_15" />
+ </nt>
+ <nt id="s21_503" cat="NP">
+  <edge label="NK" idref="s21_10" />
+  <edge label="NK" idref="s21_11" />
+  <edge label="NK" idref="s21_12" />
+  <edge label="MNR" idref="s21_502" />
+ </nt>
+ <nt id="s21_504" cat="CNP">
+  <edge label="CD" idref="s21_9" />
+  <edge label="CJ" idref="s21_501" />
+  <edge label="CJ" idref="s21_503" />
+ </nt>
+ <nt id="s21_505" cat="S">
+  <edge label="HD" idref="s21_4" />
+  <edge label="SB" idref="s21_5" />
+  <edge label="MO" idref="s21_6" />
+  <edge label="MO" idref="s21_500" />
+  <edge label="OA" idref="s21_504" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s22">
+<graph root="s22_507">
+<terminals>
+ <t id="s22_1" word="Sofie" pos="NE" morph="--" />
+ <t id="s22_2" word="legte" pos="VVFIN" morph="--" />
+ <t id="s22_3" word="dann" pos="ADV" morph="--" />
+ <t id="s22_4" word="immer" pos="ADV" morph="--" />
+ <t id="s22_5" word="einen" pos="ART" morph="--" />
+ <t id="s22_6" word="dicken" pos="ADJA" morph="--" />
+ <t id="s22_7" word="Stapel" pos="NN" morph="--" />
+ <t id="s22_8" word="Post" pos="NN" morph="--" />
+ <t id="s22_9" word="auf" pos="APPR" morph="--" />
+ <t id="s22_10" word="den" pos="ART" morph="--" />
+ <t id="s22_11" word="K&#x00fc;chentisch" pos="NN" morph="--" />
+ <t id="s22_12" word="," pos="$," morph="--" />
+ <t id="s22_13" word="ehe" pos="KOUS" morph="--" />
+ <t id="s22_14" word="sie" pos="PPER" morph="--" />
+ <t id="s22_15" word="auf" pos="APPR" morph="--" />
+ <t id="s22_16" word="ihr" pos="PPOSAT" morph="--" />
+ <t id="s22_17" word="Zimmer" pos="NN" morph="--" />
+ <t id="s22_18" word="ging" pos="VVFIN" morph="--" />
+ <t id="s22_19" word="," pos="$," morph="--" />
+ <t id="s22_20" word="um" pos="KOUI" morph="--" />
+ <t id="s22_21" word="ihre" pos="PPOSAT" morph="--" />
+ <t id="s22_22" word="Aufgaben" pos="NN" morph="--" />
+ <t id="s22_23" word="zu" pos="PTKZU" morph="--" />
+ <t id="s22_24" word="machen" pos="VVINF" morph="--" />
+ <t id="s22_25" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s22_500" cat="NP">
+  <edge label="NK" idref="s22_5" />
+  <edge label="NK" idref="s22_6" />
+  <edge label="NK" idref="s22_7" />
+  <edge label="NK" idref="s22_8" />
+ </nt>
+ <nt id="s22_501" cat="PP">
+  <edge label="AC" idref="s22_9" />
+  <edge label="NK" idref="s22_10" />
+  <edge label="NK" idref="s22_11" />
+ </nt>
+ <nt id="s22_502" cat="PP">
+  <edge label="AC" idref="s22_15" />
+  <edge label="NK" idref="s22_16" />
+  <edge label="NK" idref="s22_17" />
+ </nt>
+ <nt id="s22_503" cat="NP">
+  <edge label="NK" idref="s22_21" />
+  <edge label="NK" idref="s22_22" />
+ </nt>
+ <nt id="s22_504" cat="VZ">
+  <edge label="PM" idref="s22_23" />
+  <edge label="HD" idref="s22_24" />
+ </nt>
+ <nt id="s22_505" cat="VP">
+  <edge label="CP" idref="s22_20" />
+  <edge label="OA" idref="s22_503" />
+  <edge label="HD" idref="s22_504" />
+ </nt>
+ <nt id="s22_506" cat="S">
+  <edge label="CP" idref="s22_13" />
+  <edge label="SB" idref="s22_14" />
+  <edge label="HD" idref="s22_18" />
+  <edge label="MO" idref="s22_502" />
+  <edge label="OC" idref="s22_505" />
+ </nt>
+ <nt id="s22_507" cat="S">
+  <edge label="SB" idref="s22_1" />
+  <edge label="HD" idref="s22_2" />
+  <edge label="MO" idref="s22_3" />
+  <edge label="MO" idref="s22_4" />
+  <edge label="OA" idref="s22_500" />
+  <edge label="MO" idref="s22_501" />
+  <edge label="MO" idref="s22_506" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s23">
+<graph root="s23_504">
+<terminals>
+ <t id="s23_1" word="An" pos="APPR" morph="--" />
+ <t id="s23_2" word="ihren" pos="PPOSAT" morph="--" />
+ <t id="s23_3" word="Vater" pos="NN" morph="--" />
+ <t id="s23_4" word="kamen" pos="VVFIN" morph="--" />
+ <t id="s23_5" word="nur" pos="ADV" morph="--" />
+ <t id="s23_6" word="manchmal" pos="ADV" morph="--" />
+ <t id="s23_7" word="Kontoausz&#x00fc;ge" pos="NN" morph="--" />
+ <t id="s23_8" word="," pos="$," morph="--" />
+ <t id="s23_9" word="aber" pos="KON" morph="--" />
+ <t id="s23_10" word="er" pos="PPER" morph="--" />
+ <t id="s23_11" word="war" pos="VAFIN" morph="--" />
+ <t id="s23_12" word="schlie&#x00df;lich" pos="ADV" morph="--" />
+ <t id="s23_13" word="auch" pos="ADV" morph="--" />
+ <t id="s23_14" word="kein" pos="PIAT" morph="--" />
+ <t id="s23_15" word="normaler" pos="ADJA" morph="--" />
+ <t id="s23_16" word="Vater" pos="NN" morph="--" />
+ <t id="s23_17" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s23_500" cat="PP">
+  <edge label="AC" idref="s23_1" />
+  <edge label="NK" idref="s23_2" />
+  <edge label="NK" idref="s23_3" />
+ </nt>
+ <nt id="s23_501" cat="AVP">
+  <edge label="MO" idref="s23_5" />
+  <edge label="HD" idref="s23_6" />
+ </nt>
+ <nt id="s23_502" cat="NP">
+  <edge label="NK" idref="s23_14" />
+  <edge label="NK" idref="s23_15" />
+  <edge label="NK" idref="s23_16" />
+ </nt>
+ <nt id="s23_503" cat="S">
+  <edge label="CP" idref="s23_9" />
+  <edge label="SB" idref="s23_10" />
+  <edge label="HD" idref="s23_11" />
+  <edge label="MO" idref="s23_12" />
+  <edge label="MO" idref="s23_13" />
+  <edge label="PD" idref="s23_502" />
+ </nt>
+ <nt id="s23_504" cat="S">
+  <edge label="HD" idref="s23_4" />
+  <edge label="SB" idref="s23_7" />
+  <edge label="MO" idref="s23_500" />
+  <edge label="MO" idref="s23_501" />
+  <edge label="MO" idref="s23_503" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s24">
+<graph root="s24_506">
+<terminals>
+ <t id="s24_1" word="Sofies" pos="NE" morph="--" />
+ <t id="s24_2" word="Vater" pos="NN" morph="--" />
+ <t id="s24_3" word="war" pos="VAFIN" morph="--" />
+ <t id="s24_4" word="Kapit&#x00e4;n" pos="NN" morph="--" />
+ <t id="s24_5" word="auf" pos="APPR" morph="--" />
+ <t id="s24_6" word="einem" pos="ART" morph="--" />
+ <t id="s24_7" word="&#x00d6;ltanker" pos="NN" morph="--" />
+ <t id="s24_8" word="und" pos="KON" morph="--" />
+ <t id="s24_9" word="fast" pos="ADV" morph="--" />
+ <t id="s24_10" word="das" pos="ART" morph="--" />
+ <t id="s24_11" word="ganze" pos="ADJA" morph="--" />
+ <t id="s24_12" word="Jahr" pos="NN" morph="--" />
+ <t id="s24_13" word="unterwegs" pos="ADV" morph="--" />
+ <t id="s24_14" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s24_500" cat="NP">
+  <edge label="AG" idref="s24_1" />
+  <edge label="NK" idref="s24_2" />
+ </nt>
+ <nt id="s24_501" cat="PP">
+  <edge label="AC" idref="s24_5" />
+  <edge label="NK" idref="s24_6" />
+  <edge label="NK" idref="s24_7" />
+ </nt>
+ <nt id="s24_502" cat="NP">
+  <edge label="MO" idref="s24_9" />
+  <edge label="NK" idref="s24_10" />
+  <edge label="NK" idref="s24_11" />
+  <edge label="NK" idref="s24_12" />
+ </nt>
+ <nt id="s24_503" cat="NP">
+  <edge label="NK" idref="s24_4" />
+  <edge label="MNR" idref="s24_501" />
+ </nt>
+ <nt id="s24_504" cat="S">
+  <edge label="MO" idref="s24_13" />
+  <edge label="MO" idref="s24_502" />
+ </nt>
+ <nt id="s24_505" cat="S">
+  <edge label="HD" idref="s24_3" />
+  <edge label="SB" idref="s24_500" />
+  <edge label="PD" idref="s24_503" />
+ </nt>
+ <nt id="s24_506" cat="CS">
+  <edge label="CD" idref="s24_8" />
+  <edge label="CJ" idref="s24_504" />
+  <edge label="CJ" idref="s24_505" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s25">
+<graph root="s25_511">
+<terminals>
+ <t id="s25_1" word="Wenn" pos="KOUS" morph="--" />
+ <t id="s25_2" word="er" pos="PPER" morph="--" />
+ <t id="s25_3" word="dann" pos="ADV" morph="--" />
+ <t id="s25_4" word="f&#x00fc;r" pos="APPR" morph="--" />
+ <t id="s25_5" word="einige" pos="PIAT" morph="--" />
+ <t id="s25_6" word="Wochen" pos="NN" morph="--" />
+ <t id="s25_7" word="nach" pos="APPR" morph="--" />
+ <t id="s25_8" word="Hause" pos="NN" morph="--" />
+ <t id="s25_9" word="kam" pos="VVFIN" morph="--" />
+ <t id="s25_10" word="," pos="$," morph="--" />
+ <t id="s25_11" word="latschte" pos="VVFIN" morph="--" />
+ <t id="s25_12" word="er" pos="PPER" morph="--" />
+ <t id="s25_13" word="nur" pos="ADV" morph="--" />
+ <t id="s25_14" word="in" pos="APPR" morph="--" />
+ <t id="s25_15" word="Pantoffeln" pos="NN" morph="--" />
+ <t id="s25_16" word="im" pos="APPRART" morph="--" />
+ <t id="s25_17" word="Haus" pos="NN" morph="--" />
+ <t id="s25_18" word="herum" pos="PTKVZ" morph="--" />
+ <t id="s25_19" word="und" pos="KON" morph="--" />
+ <t id="s25_20" word="k&#x00fc;mmerte" pos="VVFIN" morph="--" />
+ <t id="s25_21" word="sich" pos="PRF" morph="--" />
+ <t id="s25_22" word="r&#x00fc;hrend" pos="ADJD" morph="--" />
+ <t id="s25_23" word="um" pos="APPR" morph="--" />
+ <t id="s25_24" word="Sofie" pos="NE" morph="--" />
+ <t id="s25_25" word="und" pos="KON" morph="--" />
+ <t id="s25_26" word="ihre" pos="PPOSAT" morph="--" />
+ <t id="s25_27" word="Mutter" pos="NN" morph="--" />
+ <t id="s25_28" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s25_500" cat="PP">
+  <edge label="AC" idref="s25_4" />
+  <edge label="NK" idref="s25_5" />
+  <edge label="NK" idref="s25_6" />
+ </nt>
+ <nt id="s25_501" cat="PP">
+  <edge label="AC" idref="s25_7" />
+  <edge label="NK" idref="s25_8" />
+ </nt>
+ <nt id="s25_502" cat="PP">
+  <edge label="AC" idref="s25_14" />
+  <edge label="NK" idref="s25_15" />
+ </nt>
+ <nt id="s25_503" cat="PP">
+  <edge label="AC" idref="s25_16" />
+  <edge label="NK" idref="s25_17" />
+ </nt>
+ <nt id="s25_504" cat="NP">
+  <edge label="NK" idref="s25_26" />
+  <edge label="NK" idref="s25_27" />
+ </nt>
+ <nt id="s25_505" cat="S">
+  <edge label="CP" idref="s25_1" />
+  <edge label="SB" idref="s25_2" />
+  <edge label="MO" idref="s25_3" />
+  <edge label="HD" idref="s25_9" />
+  <edge label="MO" idref="s25_500" />
+  <edge label="MO" idref="s25_501" />
+ </nt>
+ <nt id="s25_506" cat="S">
+  <edge label="HD" idref="s25_11" />
+  <edge label="SB" idref="s25_12" />
+  <edge label="MO" idref="s25_13" />
+  <edge label="SVP" idref="s25_18" />
+  <edge label="MO" idref="s25_502" />
+  <edge label="MO" idref="s25_503" />
+ </nt>
+ <nt id="s25_507" cat="CNP">
+  <edge label="CJ" idref="s25_24" />
+  <edge label="CD" idref="s25_25" />
+  <edge label="CJ" idref="s25_504" />
+ </nt>
+ <nt id="s25_508" cat="PP">
+  <edge label="AC" idref="s25_23" />
+  <edge label="NK" idref="s25_507" />
+ </nt>
+ <nt id="s25_509" cat="S">
+  <edge label="HD" idref="s25_20" />
+  <edge label="OA" idref="s25_21" />
+  <edge label="MO" idref="s25_22" />
+  <edge label="MO" idref="s25_508" />
+ </nt>
+ <nt id="s25_510" cat="CS">
+  <edge label="CD" idref="s25_19" />
+  <edge label="CJ" idref="s25_506" />
+  <edge label="CJ" idref="s25_509" />
+ </nt>
+ <nt id="s25_511" cat="S">
+  <edge label="MO" idref="s25_505" />
+  <edge label="HD" idref="s25_510" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s26">
+<graph root="s26_504">
+<terminals>
+ <t id="s26_1" word="Aber" pos="KON" morph="--" />
+ <t id="s26_2" word="wenn" pos="KOUS" morph="--" />
+ <t id="s26_3" word="er" pos="PPER" morph="--" />
+ <t id="s26_4" word="auf" pos="APPR" morph="--" />
+ <t id="s26_5" word="Reisen" pos="NN" morph="--" />
+ <t id="s26_6" word="war" pos="VAFIN" morph="--" />
+ <t id="s26_7" word="," pos="$," morph="--" />
+ <t id="s26_8" word="konnte" pos="VMFIN" morph="--" />
+ <t id="s26_9" word="er" pos="PPER" morph="--" />
+ <t id="s26_10" word="ziemlich" pos="ADV" morph="--" />
+ <t id="s26_11" word="fern" pos="ADJD" morph="--" />
+ <t id="s26_12" word="wirken" pos="VVINF" morph="--" />
+ <t id="s26_13" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s26_500" cat="PP">
+  <edge label="AC" idref="s26_4" />
+  <edge label="NK" idref="s26_5" />
+ </nt>
+ <nt id="s26_501" cat="AP">
+  <edge label="MO" idref="s26_10" />
+  <edge label="HD" idref="s26_11" />
+ </nt>
+ <nt id="s26_502" cat="S">
+  <edge label="JU" idref="s26_1" />
+  <edge label="CP" idref="s26_2" />
+  <edge label="SB" idref="s26_3" />
+  <edge label="HD" idref="s26_6" />
+  <edge label="MO" idref="s26_500" />
+ </nt>
+ <nt id="s26_503" cat="VP">
+  <edge label="HD" idref="s26_12" />
+  <edge label="MO" idref="s26_501" />
+ </nt>
+ <nt id="s26_504" cat="S">
+  <edge label="HD" idref="s26_8" />
+  <edge label="SB" idref="s26_9" />
+  <edge label="MO" idref="s26_502" />
+  <edge label="OC" idref="s26_503" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s27">
+<graph root="s27_506">
+<terminals>
+ <t id="s27_1" word="Heute" pos="ADV" morph="--" />
+ <t id="s27_2" word="lag" pos="VVFIN" morph="--" />
+ <t id="s27_3" word="in" pos="APPR" morph="--" />
+ <t id="s27_4" word="dem" pos="ART" morph="--" />
+ <t id="s27_5" word="gro&#x00df;en" pos="ADJA" morph="--" />
+ <t id="s27_6" word="gr&#x00fc;nen" pos="ADJA" morph="--" />
+ <t id="s27_7" word="Briefkasten" pos="NN" morph="--" />
+ <t id="s27_8" word="nur" pos="ADV" morph="--" />
+ <t id="s27_9" word="ein" pos="ART" morph="--" />
+ <t id="s27_10" word="kleiner" pos="ADJA" morph="--" />
+ <t id="s27_11" word="Brief" pos="NN" morph="--" />
+ <t id="s27_12" word="-" pos="$(" morph="--" />
+ <t id="s27_13" word="und" pos="KON" morph="--" />
+ <t id="s27_14" word="der" pos="PDS" morph="--" />
+ <t id="s27_15" word="war" pos="VAFIN" morph="--" />
+ <t id="s27_16" word="f&#x00fc;r" pos="APPR" morph="--" />
+ <t id="s27_17" word="Sofie" pos="NE" morph="--" />
+ <t id="s27_18" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s27_500" cat="CAP">
+  <edge label="CJ" idref="s27_5" />
+  <edge label="CJ" idref="s27_6" />
+ </nt>
+ <nt id="s27_501" cat="NP">
+  <edge label="MO" idref="s27_8" />
+  <edge label="NK" idref="s27_9" />
+  <edge label="NK" idref="s27_10" />
+  <edge label="NK" idref="s27_11" />
+ </nt>
+ <nt id="s27_502" cat="PP">
+  <edge label="AC" idref="s27_16" />
+  <edge label="NK" idref="s27_17" />
+ </nt>
+ <nt id="s27_503" cat="PP">
+  <edge label="AC" idref="s27_3" />
+  <edge label="NK" idref="s27_4" />
+  <edge label="NK" idref="s27_7" />
+  <edge label="NK" idref="s27_500" />
+ </nt>
+ <nt id="s27_504" cat="S">
+  <edge label="SB" idref="s27_14" />
+  <edge label="HD" idref="s27_15" />
+  <edge label="MO" idref="s27_502" />
+ </nt>
+ <nt id="s27_505" cat="S">
+  <edge label="MO" idref="s27_1" />
+  <edge label="HD" idref="s27_2" />
+  <edge label="SB" idref="s27_501" />
+  <edge label="MO" idref="s27_503" />
+ </nt>
+ <nt id="s27_506" cat="CS">
+  <edge label="CD" idref="s27_13" />
+  <edge label="CJ" idref="s27_504" />
+  <edge label="CJ" idref="s27_505" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s28">
+<graph root="s28_502">
+<terminals>
+ <t id="s28_1" word="&quot;" pos="$(" morph="--" />
+ <t id="s28_2" word="Sofie" pos="NE" morph="--" />
+ <t id="s28_3" word="Amundsen" pos="NE" morph="--" />
+ <t id="s28_4" word="&quot;" pos="$(" morph="--" />
+ <t id="s28_5" word="," pos="$," morph="--" />
+ <t id="s28_6" word="stand" pos="VVFIN" morph="--" />
+ <t id="s28_7" word="auf" pos="APPR" morph="--" />
+ <t id="s28_8" word="dem" pos="ART" morph="--" />
+ <t id="s28_9" word="kleinen" pos="ADJA" morph="--" />
+ <t id="s28_10" word="Briefumschlag" pos="NN" morph="--" />
+ <t id="s28_11" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s28_500" cat="MPN">
+  <edge label="PNC" idref="s28_2" />
+  <edge label="PNC" idref="s28_3" />
+ </nt>
+ <nt id="s28_501" cat="PP">
+  <edge label="AC" idref="s28_7" />
+  <edge label="NK" idref="s28_8" />
+  <edge label="NK" idref="s28_9" />
+  <edge label="NK" idref="s28_10" />
+ </nt>
+ <nt id="s28_502" cat="S">
+  <edge label="HD" idref="s28_6" />
+  <edge label="SB" idref="s28_500" />
+  <edge label="MO" idref="s28_501" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s29">
+<graph root="s29_500">
+<terminals>
+ <t id="s29_1" word="&quot;" pos="$(" morph="--" />
+ <t id="s29_2" word="Kl&#x00f8;verveien" pos="NE" morph="--" />
+ <t id="s29_3" word="3" pos="CARD" morph="--" />
+ <t id="s29_4" word="&quot;" pos="$(" morph="--" />
+ <t id="s29_5" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s29_500" cat="MPN">
+  <edge label="PNC" idref="s29_2" />
+  <edge label="PNC" idref="s29_3" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s30">
+<graph root="s30_501">
+<terminals>
+ <t id="s30_1" word="Das" pos="PDS" morph="--" />
+ <t id="s30_2" word="war" pos="VAFIN" morph="--" />
+ <t id="s30_3" word="alles" pos="PIS" morph="--" />
+ <t id="s30_4" word="," pos="$," morph="--" />
+ <t id="s30_5" word="kein" pos="PIAT" morph="--" />
+ <t id="s30_6" word="Absender" pos="NN" morph="--" />
+ <t id="s30_7" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s30_500" cat="NP">
+  <edge label="NK" idref="s30_5" />
+  <edge label="NK" idref="s30_6" />
+ </nt>
+ <nt id="s30_501" cat="S">
+  <edge label="SB" idref="s30_1" />
+  <edge label="HD" idref="s30_2" />
+  <edge label="PD" idref="s30_3" />
+  <edge label="MO" idref="s30_500" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s31">
+<graph root="s31_503">
+<terminals>
+ <t id="s31_1" word="Der" pos="ART" morph="--" />
+ <t id="s31_2" word="Brief" pos="NN" morph="--" />
+ <t id="s31_3" word="hatte" pos="VAFIN" morph="--" />
+ <t id="s31_4" word="nicht" pos="PTKNEG" morph="--" />
+ <t id="s31_5" word="einmal" pos="ADV" morph="--" />
+ <t id="s31_6" word="eine" pos="ART" morph="--" />
+ <t id="s31_7" word="Briefmarke" pos="NN" morph="--" />
+ <t id="s31_8" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s31_500" cat="NP">
+  <edge label="NK" idref="s31_1" />
+  <edge label="NK" idref="s31_2" />
+ </nt>
+ <nt id="s31_501" cat="AVP">
+  <edge label="NG" idref="s31_4" />
+  <edge label="HD" idref="s31_5" />
+ </nt>
+ <nt id="s31_502" cat="NP">
+  <edge label="NK" idref="s31_6" />
+  <edge label="NK" idref="s31_7" />
+  <edge label="MO" idref="s31_501" />
+ </nt>
+ <nt id="s31_503" cat="S">
+  <edge label="HD" idref="s31_3" />
+  <edge label="SB" idref="s31_500" />
+  <edge label="OA" idref="s31_502" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s32">
+<graph root="s32_505">
+<terminals>
+ <t id="s32_1" word="Sowie" pos="KON" morph="--" />
+ <t id="s32_2" word="Sofie" pos="NE" morph="--" />
+ <t id="s32_3" word="das" pos="ART" morph="--" />
+ <t id="s32_4" word="Tor" pos="NN" morph="--" />
+ <t id="s32_5" word="hinter" pos="APPR" morph="--" />
+ <t id="s32_6" word="sich" pos="PRF" morph="--" />
+ <t id="s32_7" word="geschlossen" pos="VVPP" morph="--" />
+ <t id="s32_8" word="hatte" pos="VAFIN" morph="--" />
+ <t id="s32_9" word="," pos="$," morph="--" />
+ <t id="s32_10" word="&#x00f6;ffnete" pos="VVFIN" morph="--" />
+ <t id="s32_11" word="sie" pos="PPER" morph="--" />
+ <t id="s32_12" word="den" pos="ART" morph="--" />
+ <t id="s32_13" word="Briefumschlag" pos="NN" morph="--" />
+ <t id="s32_14" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s32_500" cat="NP">
+  <edge label="NK" idref="s32_3" />
+  <edge label="NK" idref="s32_4" />
+ </nt>
+ <nt id="s32_501" cat="PP">
+  <edge label="AC" idref="s32_5" />
+  <edge label="NK" idref="s32_6" />
+ </nt>
+ <nt id="s32_502" cat="NP">
+  <edge label="NK" idref="s32_12" />
+  <edge label="NK" idref="s32_13" />
+ </nt>
+ <nt id="s32_503" cat="VP">
+  <edge label="HD" idref="s32_7" />
+  <edge label="OA" idref="s32_500" />
+  <edge label="MO" idref="s32_501" />
+ </nt>
+ <nt id="s32_504" cat="S">
+  <edge label="CP" idref="s32_1" />
+  <edge label="SB" idref="s32_2" />
+  <edge label="HD" idref="s32_8" />
+  <edge label="OC" idref="s32_503" />
+ </nt>
+ <nt id="s32_505" cat="S">
+  <edge label="HD" idref="s32_10" />
+  <edge label="SB" idref="s32_11" />
+  <edge label="OA" idref="s32_502" />
+  <edge label="MO" idref="s32_504" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s33">
+<graph root="s33_504">
+<terminals>
+ <t id="s33_1" word="Darin" pos="PROAV" morph="--" />
+ <t id="s33_2" word="fand" pos="VVFIN" morph="--" />
+ <t id="s33_3" word="sie" pos="PPER" morph="--" />
+ <t id="s33_4" word="nur" pos="ADV" morph="--" />
+ <t id="s33_5" word="einen" pos="ART" morph="--" />
+ <t id="s33_6" word="ziemlich" pos="ADV" morph="--" />
+ <t id="s33_7" word="kleinen" pos="ADJA" morph="--" />
+ <t id="s33_8" word="Zettel" pos="NN" morph="--" />
+ <t id="s33_9" word="," pos="$," morph="--" />
+ <t id="s33_10" word="nicht" pos="PTKNEG" morph="--" />
+ <t id="s33_11" word="gr&#x00f6;&#x00df;er" pos="ADJD" morph="--" />
+ <t id="s33_12" word="als" pos="KOKOM" morph="--" />
+ <t id="s33_13" word="der" pos="ART" morph="--" />
+ <t id="s33_14" word="dazugeh&#x00f6;rende" pos="ADJA" morph="--" />
+ <t id="s33_15" word="Umschlag" pos="NN" morph="--" />
+ <t id="s33_16" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s33_500" cat="AP">
+  <edge label="MO" idref="s33_6" />
+  <edge label="HD" idref="s33_7" />
+ </nt>
+ <nt id="s33_501" cat="NP">
+  <edge label="CM" idref="s33_12" />
+  <edge label="NK" idref="s33_13" />
+  <edge label="NK" idref="s33_14" />
+  <edge label="NK" idref="s33_15" />
+ </nt>
+ <nt id="s33_502" cat="AP">
+  <edge label="NG" idref="s33_10" />
+  <edge label="HD" idref="s33_11" />
+  <edge label="CC" idref="s33_501" />
+ </nt>
+ <nt id="s33_503" cat="NP">
+  <edge label="NK" idref="s33_5" />
+  <edge label="NK" idref="s33_8" />
+  <edge label="NK" idref="s33_500" />
+  <edge label="MNR" idref="s33_502" />
+ </nt>
+ <nt id="s33_504" cat="S">
+  <edge label="MO" idref="s33_1" />
+  <edge label="HD" idref="s33_2" />
+  <edge label="SB" idref="s33_3" />
+  <edge label="MO" idref="s33_4" />
+  <edge label="OA" idref="s33_503" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s34">
+<graph root="s34_502">
+<terminals>
+ <t id="s34_1" word="Auf" pos="APPR" morph="--" />
+ <t id="s34_2" word="dem" pos="ART" morph="--" />
+ <t id="s34_3" word="Zettel" pos="NN" morph="--" />
+ <t id="s34_4" word="stand" pos="VVFIN" morph="--" />
+ <t id="s34_5" word=":" pos="$." morph="--" />
+ <t id="s34_6" word="Wer" pos="PWS" morph="--" />
+ <t id="s34_7" word="bist" pos="VAFIN" morph="--" />
+ <t id="s34_8" word="Du" pos="PPER" morph="--" />
+ <t id="s34_9" word="?" pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s34_500" cat="PP">
+  <edge label="AC" idref="s34_1" />
+  <edge label="NK" idref="s34_2" />
+  <edge label="NK" idref="s34_3" />
+ </nt>
+ <nt id="s34_501" cat="S">
+  <edge label="SP" idref="s34_6" />
+  <edge label="HD" idref="s34_7" />
+  <edge label="SP" idref="s34_8" />
+ </nt>
+ <nt id="s34_502" cat="S">
+  <edge label="HD" idref="s34_4" />
+  <edge label="MO" idref="s34_500" />
+  <edge label="SB" idref="s34_501" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s35">
+<graph root="s35_500">
+<terminals>
+ <t id="s35_1" word="Mehr" pos="ADV" morph="--" />
+ <t id="s35_2" word="nicht" pos="PTKNEG" morph="--" />
+ <t id="s35_3" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s35_500" cat="AVP">
+  <edge label="HD" idref="s35_1" />
+  <edge label="MO" idref="s35_2" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s36">
+<graph root="s36_509">
+<terminals>
+ <t id="s36_1" word="Der" pos="ART" morph="--" />
+ <t id="s36_2" word="Zettel" pos="NN" morph="--" />
+ <t id="s36_3" word="enthielt" pos="VVFIN" morph="--" />
+ <t id="s36_4" word="keinen" pos="PIAT" morph="--" />
+ <t id="s36_5" word="Gru&#x00df;" pos="NN" morph="--" />
+ <t id="s36_6" word="und" pos="KON" morph="--" />
+ <t id="s36_7" word="keinen" pos="PIAT" morph="--" />
+ <t id="s36_8" word="Absender" pos="NN" morph="--" />
+ <t id="s36_9" word="," pos="$," morph="--" />
+ <t id="s36_10" word="nur" pos="ADV" morph="--" />
+ <t id="s36_11" word="diese" pos="PDAT" morph="--" />
+ <t id="s36_12" word="drei" pos="CARD" morph="--" />
+ <t id="s36_13" word="handgeschriebenen" pos="ADJA" morph="--" />
+ <t id="s36_14" word="W&#x00f6;rter" pos="NN" morph="--" />
+ <t id="s36_15" word="," pos="$," morph="--" />
+ <t id="s36_16" word="auf" pos="APPR" morph="--" />
+ <t id="s36_17" word="die" pos="PRELS" morph="--" />
+ <t id="s36_18" word="ein" pos="ART" morph="--" />
+ <t id="s36_19" word="gro&#x00df;es" pos="ADJA" morph="--" />
+ <t id="s36_20" word="Fragezeichen" pos="NN" morph="--" />
+ <t id="s36_21" word="folgte" pos="VVFIN" morph="--" />
+ <t id="s36_22" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s36_500" cat="NP">
+  <edge label="NK" idref="s36_1" />
+  <edge label="NK" idref="s36_2" />
+ </nt>
+ <nt id="s36_501" cat="NP">
+  <edge label="NK" idref="s36_4" />
+  <edge label="NK" idref="s36_5" />
+ </nt>
+ <nt id="s36_502" cat="NP">
+  <edge label="NK" idref="s36_7" />
+  <edge label="NK" idref="s36_8" />
+ </nt>
+ <nt id="s36_503" cat="CAP">
+  <edge label="CJ" idref="s36_12" />
+  <edge label="CJ" idref="s36_13" />
+ </nt>
+ <nt id="s36_504" cat="PP">
+  <edge label="AC" idref="s36_16" />
+  <edge label="NK" idref="s36_17" />
+ </nt>
+ <nt id="s36_505" cat="NP">
+  <edge label="NK" idref="s36_18" />
+  <edge label="NK" idref="s36_19" />
+  <edge label="NK" idref="s36_20" />
+ </nt>
+ <nt id="s36_506" cat="S">
+  <edge label="HD" idref="s36_21" />
+  <edge label="MO" idref="s36_504" />
+  <edge label="SB" idref="s36_505" />
+ </nt>
+ <nt id="s36_507" cat="NP">
+  <edge label="MO" idref="s36_10" />
+  <edge label="NK" idref="s36_11" />
+  <edge label="NK" idref="s36_14" />
+  <edge label="NK" idref="s36_503" />
+  <edge label="RC" idref="s36_506" />
+ </nt>
+ <nt id="s36_508" cat="CNP">
+  <edge label="CD" idref="s36_6" />
+  <edge label="CJ" idref="s36_501" />
+  <edge label="CJ" idref="s36_502" />
+  <edge label="CJ" idref="s36_507" />
+ </nt>
+ <nt id="s36_509" cat="S">
+  <edge label="HD" idref="s36_3" />
+  <edge label="SB" idref="s36_500" />
+  <edge label="OA" idref="s36_508" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s37">
+<graph root="s37_502">
+<terminals>
+ <t id="s37_1" word="Sie" pos="PPER" morph="--" />
+ <t id="s37_2" word="sah" pos="VVFIN" morph="--" />
+ <t id="s37_3" word="noch" pos="ADV" morph="--" />
+ <t id="s37_4" word="einmal" pos="ADV" morph="--" />
+ <t id="s37_5" word="den" pos="ART" morph="--" />
+ <t id="s37_6" word="Briefumschlag" pos="NN" morph="--" />
+ <t id="s37_7" word="an" pos="PTKVZ" morph="--" />
+ <t id="s37_8" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s37_500" cat="AVP">
+  <edge label="MO" idref="s37_3" />
+  <edge label="HD" idref="s37_4" />
+ </nt>
+ <nt id="s37_501" cat="NP">
+  <edge label="NK" idref="s37_5" />
+  <edge label="NK" idref="s37_6" />
+ </nt>
+ <nt id="s37_502" cat="S">
+  <edge label="SB" idref="s37_1" />
+  <edge label="HD" idref="s37_2" />
+  <edge label="SVP" idref="s37_7" />
+  <edge label="MO" idref="s37_500" />
+  <edge label="OA" idref="s37_501" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s38">
+<graph root="s38_502">
+<terminals>
+ <t id="s38_1" word="Doch" pos="KON" morph="--" />
+ <t id="s38_2" word="-" pos="$(" morph="--" />
+ <t id="s38_3" word="der" pos="ART" morph="--" />
+ <t id="s38_4" word="Brief" pos="NN" morph="--" />
+ <t id="s38_5" word="war" pos="VAFIN" morph="--" />
+ <t id="s38_6" word="wirklich" pos="ADJD" morph="--" />
+ <t id="s38_7" word="f&#x00fc;r" pos="APPR" morph="--" />
+ <t id="s38_8" word="sie" pos="PPER" morph="--" />
+ <t id="s38_9" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s38_500" cat="NP">
+  <edge label="NK" idref="s38_3" />
+  <edge label="NK" idref="s38_4" />
+ </nt>
+ <nt id="s38_501" cat="PP">
+  <edge label="AC" idref="s38_7" />
+  <edge label="NK" idref="s38_8" />
+ </nt>
+ <nt id="s38_502" cat="S">
+  <edge label="JU" idref="s38_1" />
+  <edge label="HD" idref="s38_5" />
+  <edge label="MO" idref="s38_6" />
+  <edge label="SB" idref="s38_500" />
+  <edge label="MO" idref="s38_501" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s39">
+<graph root="s39_502">
+<terminals>
+ <t id="s39_1" word="Aber" pos="KON" morph="--" />
+ <t id="s39_2" word="wer" pos="PWS" morph="--" />
+ <t id="s39_3" word="hatte" pos="VAFIN" morph="--" />
+ <t id="s39_4" word="ihn" pos="PPER" morph="--" />
+ <t id="s39_5" word="in" pos="APPR" morph="--" />
+ <t id="s39_6" word="den" pos="ART" morph="--" />
+ <t id="s39_7" word="Briefkasten" pos="NN" morph="--" />
+ <t id="s39_8" word="gesteckt" pos="VVPP" morph="--" />
+ <t id="s39_9" word="?" pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s39_500" cat="PP">
+  <edge label="AC" idref="s39_5" />
+  <edge label="NK" idref="s39_6" />
+  <edge label="NK" idref="s39_7" />
+ </nt>
+ <nt id="s39_501" cat="VP">
+  <edge label="OA" idref="s39_4" />
+  <edge label="HD" idref="s39_8" />
+  <edge label="MO" idref="s39_500" />
+ </nt>
+ <nt id="s39_502" cat="S">
+  <edge label="JU" idref="s39_1" />
+  <edge label="SB" idref="s39_2" />
+  <edge label="HD" idref="s39_3" />
+  <edge label="OC" idref="s39_501" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s40">
+<graph root="s40_502">
+<terminals>
+ <t id="s40_1" word="Sofie" pos="NE" morph="--" />
+ <t id="s40_2" word="schlo&#x00df;" pos="VVFIN" morph="--" />
+ <t id="s40_3" word="rasch" pos="ADJD" morph="--" />
+ <t id="s40_4" word="die" pos="ART" morph="--" />
+ <t id="s40_5" word="T&#x00fc;r" pos="NN" morph="--" />
+ <t id="s40_6" word="des" pos="ART" morph="--" />
+ <t id="s40_7" word="roten" pos="ADJA" morph="--" />
+ <t id="s40_8" word="Hauses" pos="NN" morph="--" />
+ <t id="s40_9" word="auf" pos="PTKVZ" morph="--" />
+ <t id="s40_10" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s40_500" cat="NP">
+  <edge label="NK" idref="s40_6" />
+  <edge label="NK" idref="s40_7" />
+  <edge label="NK" idref="s40_8" />
+ </nt>
+ <nt id="s40_501" cat="NP">
+  <edge label="NK" idref="s40_4" />
+  <edge label="NK" idref="s40_5" />
+  <edge label="AG" idref="s40_500" />
+ </nt>
+ <nt id="s40_502" cat="S">
+  <edge label="SB" idref="s40_1" />
+  <edge label="HD" idref="s40_2" />
+  <edge label="MO" idref="s40_3" />
+  <edge label="SVP" idref="s40_9" />
+  <edge label="OA" idref="s40_501" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s41">
+<graph root="s41_513">
+<terminals>
+ <t id="s41_1" word="Wie" pos="PWAV" morph="--" />
+ <t id="s41_2" word="&#x00fc;blich" pos="ADJD" morph="--" />
+ <t id="s41_3" word="konnte" pos="VMFIN" morph="--" />
+ <t id="s41_4" word="die" pos="ART" morph="--" />
+ <t id="s41_5" word="Katze" pos="NN" morph="--" />
+ <t id="s41_6" word="Sherekan" pos="NE" morph="--" />
+ <t id="s41_7" word="sich" pos="PRF" morph="--" />
+ <t id="s41_8" word="aus" pos="APPR" morph="--" />
+ <t id="s41_9" word="den" pos="ART" morph="--" />
+ <t id="s41_10" word="B&#x00fc;schen" pos="NN" morph="--" />
+ <t id="s41_11" word="schleichen" pos="VVINF" morph="--" />
+ <t id="s41_12" word="," pos="$," morph="--" />
+ <t id="s41_13" word="auf" pos="APPR" morph="--" />
+ <t id="s41_14" word="den" pos="ART" morph="--" />
+ <t id="s41_15" word="Treppenabsatz" pos="NN" morph="--" />
+ <t id="s41_16" word="springen" pos="VVINF" morph="--" />
+ <t id="s41_17" word="und" pos="KON" morph="--" />
+ <t id="s41_18" word="ins" pos="APPRART" morph="--" />
+ <t id="s41_19" word="Haus" pos="NN" morph="--" />
+ <t id="s41_20" word="schl&#x00fc;pfen" pos="VVINF" morph="--" />
+ <t id="s41_21" word="," pos="$," morph="--" />
+ <t id="s41_22" word="ehe" pos="KOUS" morph="--" />
+ <t id="s41_23" word="Sofie" pos="NE" morph="--" />
+ <t id="s41_24" word="die" pos="ART" morph="--" />
+ <t id="s41_25" word="T&#x00fc;r" pos="NN" morph="--" />
+ <t id="s41_26" word="hinter" pos="APPR" morph="--" />
+ <t id="s41_27" word="sich" pos="PRF" morph="--" />
+ <t id="s41_28" word="zugemacht" pos="VVPP" morph="--" />
+ <t id="s41_29" word="hatte" pos="VAFIN" morph="--" />
+ <t id="s41_30" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s41_500" cat="AP">
+  <edge label="MO" idref="s41_1" />
+  <edge label="HD" idref="s41_2" />
+ </nt>
+ <nt id="s41_501" cat="NP">
+  <edge label="NK" idref="s41_4" />
+  <edge label="NK" idref="s41_5" />
+  <edge label="NK" idref="s41_6" />
+ </nt>
+ <nt id="s41_502" cat="PP">
+  <edge label="AC" idref="s41_8" />
+  <edge label="NK" idref="s41_9" />
+  <edge label="NK" idref="s41_10" />
+ </nt>
+ <nt id="s41_503" cat="PP">
+  <edge label="AC" idref="s41_13" />
+  <edge label="NK" idref="s41_14" />
+  <edge label="NK" idref="s41_15" />
+ </nt>
+ <nt id="s41_504" cat="PP">
+  <edge label="AC" idref="s41_18" />
+  <edge label="NK" idref="s41_19" />
+ </nt>
+ <nt id="s41_505" cat="NP">
+  <edge label="NK" idref="s41_24" />
+  <edge label="NK" idref="s41_25" />
+ </nt>
+ <nt id="s41_506" cat="PP">
+  <edge label="AC" idref="s41_26" />
+  <edge label="NK" idref="s41_27" />
+ </nt>
+ <nt id="s41_507" cat="VP">
+  <edge label="OA" idref="s41_7" />
+  <edge label="HD" idref="s41_11" />
+  <edge label="MO" idref="s41_502" />
+ </nt>
+ <nt id="s41_508" cat="VP">
+  <edge label="HD" idref="s41_16" />
+  <edge label="MO" idref="s41_503" />
+ </nt>
+ <nt id="s41_509" cat="VP">
+  <edge label="HD" idref="s41_20" />
+  <edge label="MO" idref="s41_504" />
+ </nt>
+ <nt id="s41_510" cat="VP">
+  <edge label="HD" idref="s41_28" />
+  <edge label="OA" idref="s41_505" />
+  <edge label="MO" idref="s41_506" />
+ </nt>
+ <nt id="s41_511" cat="CVP">
+  <edge label="CD" idref="s41_17" />
+  <edge label="CJ" idref="s41_507" />
+  <edge label="CJ" idref="s41_508" />
+  <edge label="CJ" idref="s41_509" />
+ </nt>
+ <nt id="s41_512" cat="S">
+  <edge label="CP" idref="s41_22" />
+  <edge label="SB" idref="s41_23" />
+  <edge label="HD" idref="s41_29" />
+  <edge label="OC" idref="s41_510" />
+ </nt>
+ <nt id="s41_513" cat="S">
+  <edge label="HD" idref="s41_3" />
+  <edge label="MO" idref="s41_500" />
+  <edge label="SB" idref="s41_501" />
+  <edge label="OC" idref="s41_511" />
+  <edge label="MO" idref="s41_512" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s42">
+<graph root="s42_1">
+<terminals>
+ <t id="s42_1" word="&quot;" pos="$(" morph="--" />
+ <t id="s42_2" word="," pos="$," morph="--" />
+ <t id="s42_3" word="Miez" pos="ITJ" morph="--" />
+ <t id="s42_4" word="," pos="$," morph="--" />
+ <t id="s42_5" word="Miez" pos="ITJ" morph="--" />
+ <t id="s42_6" word="," pos="$," morph="--" />
+ <t id="s42_7" word="Miez" pos="ITJ" morph="--" />
+ <t id="s42_8" word="!" pos="$." morph="--" />
+ <t id="s42_9" word="&quot;" pos="$(" morph="--" />
+</terminals>
+<nonterminals>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s43">
+<graph root="s43_505">
+<terminals>
+ <t id="s43_1" word="Wenn" pos="KOUS" morph="--" />
+ <t id="s43_2" word="Sofies" pos="NE" morph="--" />
+ <t id="s43_3" word="Mutter" pos="NN" morph="--" />
+ <t id="s43_4" word="aus" pos="APPR" morph="--" />
+ <t id="s43_5" word="irgendeinem" pos="PIAT" morph="--" />
+ <t id="s43_6" word="Grund" pos="NN" morph="--" />
+ <t id="s43_7" word="sauer" pos="ADJD" morph="--" />
+ <t id="s43_8" word="war" pos="VAFIN" morph="--" />
+ <t id="s43_9" word="," pos="$," morph="--" />
+ <t id="s43_10" word="bezeichnete" pos="VVFIN" morph="--" />
+ <t id="s43_11" word="sie" pos="PPER" morph="--" />
+ <t id="s43_12" word="ihr" pos="PPOSAT" morph="--" />
+ <t id="s43_13" word="Haus" pos="NN" morph="--" />
+ <t id="s43_14" word="manchmal" pos="ADV" morph="--" />
+ <t id="s43_15" word="als" pos="APPR" morph="--" />
+ <t id="s43_16" word="Menagerie" pos="NN" morph="--" />
+ <t id="s43_17" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s43_500" cat="NP">
+  <edge label="AG" idref="s43_2" />
+  <edge label="NK" idref="s43_3" />
+ </nt>
+ <nt id="s43_501" cat="PP">
+  <edge label="AC" idref="s43_4" />
+  <edge label="NK" idref="s43_5" />
+  <edge label="NK" idref="s43_6" />
+ </nt>
+ <nt id="s43_502" cat="NP">
+  <edge label="NK" idref="s43_12" />
+  <edge label="NK" idref="s43_13" />
+ </nt>
+ <nt id="s43_503" cat="PP">
+  <edge label="AC" idref="s43_15" />
+  <edge label="NK" idref="s43_16" />
+ </nt>
+ <nt id="s43_504" cat="S">
+  <edge label="CP" idref="s43_1" />
+  <edge label="PD" idref="s43_7" />
+  <edge label="HD" idref="s43_8" />
+  <edge label="SB" idref="s43_500" />
+  <edge label="MO" idref="s43_501" />
+ </nt>
+ <nt id="s43_505" cat="S">
+  <edge label="HD" idref="s43_10" />
+  <edge label="SB" idref="s43_11" />
+  <edge label="MO" idref="s43_14" />
+  <edge label="OA" idref="s43_502" />
+  <edge label="MO" idref="s43_503" />
+  <edge label="MO" idref="s43_504" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s44">
+<graph root="s44_507">
+<terminals>
+ <t id="s44_1" word="Eine" pos="ART" morph="--" />
+ <t id="s44_2" word="Menagerie" pos="NN" morph="--" />
+ <t id="s44_3" word="war" pos="VAFIN" morph="--" />
+ <t id="s44_4" word="eine" pos="ART" morph="--" />
+ <t id="s44_5" word="Sammlung" pos="NN" morph="--" />
+ <t id="s44_6" word="verschiedener" pos="ADJA" morph="--" />
+ <t id="s44_7" word="Tiere" pos="NN" morph="--" />
+ <t id="s44_8" word="," pos="$," morph="--" />
+ <t id="s44_9" word="und" pos="KON" morph="--" />
+ <t id="s44_10" word="wirklich" pos="ADJD" morph="--" />
+ <t id="s44_11" word="-" pos="$(" morph="--" />
+ <t id="s44_12" word="Sofie" pos="NE" morph="--" />
+ <t id="s44_13" word="war" pos="VAFIN" morph="--" />
+ <t id="s44_14" word="mit" pos="APPR" morph="--" />
+ <t id="s44_15" word="ihrer" pos="PPOSAT" morph="--" />
+ <t id="s44_16" word="eigenen" pos="ADJA" morph="--" />
+ <t id="s44_17" word="Sammlung" pos="NN" morph="--" />
+ <t id="s44_18" word="recht" pos="ADV" morph="--" />
+ <t id="s44_19" word="zufrieden" pos="ADJD" morph="--" />
+ <t id="s44_20" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s44_500" cat="NP">
+  <edge label="NK" idref="s44_1" />
+  <edge label="NK" idref="s44_2" />
+ </nt>
+ <nt id="s44_501" cat="NP">
+  <edge label="NK" idref="s44_6" />
+  <edge label="NK" idref="s44_7" />
+ </nt>
+ <nt id="s44_502" cat="PP">
+  <edge label="AC" idref="s44_14" />
+  <edge label="NK" idref="s44_15" />
+  <edge label="NK" idref="s44_16" />
+  <edge label="NK" idref="s44_17" />
+ </nt>
+ <nt id="s44_503" cat="NP">
+  <edge label="NK" idref="s44_4" />
+  <edge label="NK" idref="s44_5" />
+  <edge label="AG" idref="s44_501" />
+ </nt>
+ <nt id="s44_504" cat="AP">
+  <edge label="MO" idref="s44_18" />
+  <edge label="HD" idref="s44_19" />
+  <edge label="MO" idref="s44_502" />
+ </nt>
+ <nt id="s44_505" cat="S">
+  <edge label="HD" idref="s44_3" />
+  <edge label="SB" idref="s44_500" />
+  <edge label="PD" idref="s44_503" />
+ </nt>
+ <nt id="s44_506" cat="S">
+  <edge label="MO" idref="s44_10" />
+  <edge label="SB" idref="s44_12" />
+  <edge label="HD" idref="s44_13" />
+  <edge label="PD" idref="s44_504" />
+ </nt>
+ <nt id="s44_507" cat="CS">
+  <edge label="CD" idref="s44_9" />
+  <edge label="CJ" idref="s44_505" />
+  <edge label="CJ" idref="s44_506" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s45">
+<graph root="s45_505">
+<terminals>
+ <t id="s45_1" word="Zuerst" pos="ADV" morph="--" />
+ <t id="s45_2" word="hatte" pos="VAFIN" morph="--" />
+ <t id="s45_3" word="sie" pos="PPER" morph="--" />
+ <t id="s45_4" word="ein" pos="ART" morph="--" />
+ <t id="s45_5" word="Glas" pos="NN" morph="--" />
+ <t id="s45_6" word="mit" pos="APPR" morph="--" />
+ <t id="s45_7" word="den" pos="ART" morph="--" />
+ <t id="s45_8" word="Goldfischen" pos="NN" morph="--" />
+ <t id="s45_9" word="Goldl&#x00f6;ckchen" pos="NE" morph="--" />
+ <t id="s45_10" word="," pos="$," morph="--" />
+ <t id="s45_11" word="Rotk&#x00e4;ppchen" pos="NE" morph="--" />
+ <t id="s45_12" word="und" pos="KON" morph="--" />
+ <t id="s45_13" word="Schwarzer" pos="ADJA" morph="--" />
+ <t id="s45_14" word="Peter" pos="NE" morph="--" />
+ <t id="s45_15" word="bekommen" pos="VVINF" morph="--" />
+ <t id="s45_16" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s45_500" cat="MPN">
+  <edge label="PNC" idref="s45_13" />
+  <edge label="PNC" idref="s45_14" />
+ </nt>
+ <nt id="s45_501" cat="CNP">
+  <edge label="CJ" idref="s45_9" />
+  <edge label="CJ" idref="s45_11" />
+  <edge label="CD" idref="s45_12" />
+  <edge label="CJ" idref="s45_500" />
+ </nt>
+ <nt id="s45_502" cat="PP">
+  <edge label="AC" idref="s45_6" />
+  <edge label="NK" idref="s45_7" />
+  <edge label="NK" idref="s45_8" />
+  <edge label="NK" idref="s45_501" />
+ </nt>
+ <nt id="s45_503" cat="NP">
+  <edge label="NK" idref="s45_4" />
+  <edge label="NK" idref="s45_5" />
+  <edge label="MNR" idref="s45_502" />
+ </nt>
+ <nt id="s45_504" cat="VP">
+  <edge label="HD" idref="s45_15" />
+  <edge label="OA" idref="s45_503" />
+ </nt>
+ <nt id="s45_505" cat="S">
+  <edge label="MO" idref="s45_1" />
+  <edge label="HD" idref="s45_2" />
+  <edge label="SB" idref="s45_3" />
+  <edge label="OC" idref="s45_504" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s46">
+<graph root="s46_506">
+<terminals>
+ <t id="s46_1" word="Dann" pos="ADV" morph="--" />
+ <t id="s46_2" word="kamen" pos="VVFIN" morph="--" />
+ <t id="s46_3" word="die" pos="ART" morph="--" />
+ <t id="s46_4" word="Wellensittiche" pos="NN" morph="--" />
+ <t id="s46_5" word="Tom" pos="NE" morph="--" />
+ <t id="s46_6" word="und" pos="KON" morph="--" />
+ <t id="s46_7" word="Jerry" pos="NE" morph="--" />
+ <t id="s46_8" word="," pos="$," morph="--" />
+ <t id="s46_9" word="die" pos="ART" morph="--" />
+ <t id="s46_10" word="Schildkr&#x00f6;te" pos="NN" morph="--" />
+ <t id="s46_11" word="Govinda" pos="NE" morph="--" />
+ <t id="s46_12" word="und" pos="KON" morph="--" />
+ <t id="s46_13" word="schlie&#x00df;lich" pos="ADV" morph="--" />
+ <t id="s46_14" word="noch" pos="ADV" morph="--" />
+ <t id="s46_15" word="die" pos="ART" morph="--" />
+ <t id="s46_16" word="gelbbraune" pos="ADJA" morph="--" />
+ <t id="s46_17" word="Tigerkatze" pos="NN" morph="--" />
+ <t id="s46_18" word="Sherekan" pos="NE" morph="--" />
+ <t id="s46_19" word="dazu" pos="PTKVZ" morph="--" />
+ <t id="s46_20" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s46_500" cat="CNP">
+  <edge label="CJ" idref="s46_5" />
+  <edge label="CD" idref="s46_6" />
+  <edge label="CJ" idref="s46_7" />
+ </nt>
+ <nt id="s46_501" cat="NP">
+  <edge label="NK" idref="s46_9" />
+  <edge label="NK" idref="s46_10" />
+  <edge label="NK" idref="s46_11" />
+ </nt>
+ <nt id="s46_502" cat="AVP">
+  <edge label="MO" idref="s46_13" />
+  <edge label="HD" idref="s46_14" />
+ </nt>
+ <nt id="s46_503" cat="NP">
+  <edge label="NK" idref="s46_3" />
+  <edge label="NK" idref="s46_4" />
+  <edge label="NK" idref="s46_500" />
+ </nt>
+ <nt id="s46_504" cat="NP">
+  <edge label="NK" idref="s46_15" />
+  <edge label="NK" idref="s46_16" />
+  <edge label="NK" idref="s46_17" />
+  <edge label="NK" idref="s46_18" />
+  <edge label="MO" idref="s46_502" />
+ </nt>
+ <nt id="s46_505" cat="CNP">
+  <edge label="CD" idref="s46_12" />
+  <edge label="CJ" idref="s46_501" />
+  <edge label="CJ" idref="s46_503" />
+  <edge label="CJ" idref="s46_504" />
+ </nt>
+ <nt id="s46_506" cat="S">
+  <edge label="MO" idref="s46_1" />
+  <edge label="HD" idref="s46_2" />
+  <edge label="SVP" idref="s46_19" />
+  <edge label="SB" idref="s46_505" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s47">
+<graph root="s47_509">
+<terminals>
+ <t id="s47_1" word="Alle" pos="PIDAT" morph="--" />
+ <t id="s47_2" word="Tiere" pos="NN" morph="--" />
+ <t id="s47_3" word="sollten" pos="VMFIN" morph="--" />
+ <t id="s47_4" word="eine" pos="ART" morph="--" />
+ <t id="s47_5" word="Art" pos="NN" morph="--" />
+ <t id="s47_6" word="Entsch&#x00e4;digung" pos="NN" morph="--" />
+ <t id="s47_7" word="sein" pos="VAINF" morph="--" />
+ <t id="s47_8" word="," pos="$," morph="--" />
+ <t id="s47_9" word="weil" pos="KOUS" morph="--" />
+ <t id="s47_10" word="ihre" pos="PPOSAT" morph="--" />
+ <t id="s47_11" word="Mutter" pos="NN" morph="--" />
+ <t id="s47_12" word="sp&#x00e4;t" pos="ADJD" morph="--" />
+ <t id="s47_13" word="Feierabend" pos="NN" morph="--" />
+ <t id="s47_14" word="hatte" pos="VAFIN" morph="--" />
+ <t id="s47_15" word="und" pos="KON" morph="--" />
+ <t id="s47_16" word="ihr" pos="PPOSAT" morph="--" />
+ <t id="s47_17" word="Vater" pos="NN" morph="--" />
+ <t id="s47_18" word="soviel" pos="ADV" morph="--" />
+ <t id="s47_19" word="in" pos="APPR" morph="--" />
+ <t id="s47_20" word="der" pos="ART" morph="--" />
+ <t id="s47_21" word="Welt" pos="NN" morph="--" />
+ <t id="s47_22" word="herumfuhr" pos="VVFIN" morph="--" />
+ <t id="s47_23" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s47_500" cat="NP">
+  <edge label="NK" idref="s47_1" />
+  <edge label="NK" idref="s47_2" />
+ </nt>
+ <nt id="s47_501" cat="NP">
+  <edge label="NK" idref="s47_4" />
+  <edge label="MO" idref="s47_5" />
+  <edge label="NK" idref="s47_6" />
+ </nt>
+ <nt id="s47_502" cat="NP">
+  <edge label="NK" idref="s47_10" />
+  <edge label="NK" idref="s47_11" />
+ </nt>
+ <nt id="s47_503" cat="NP">
+  <edge label="NK" idref="s47_16" />
+  <edge label="NK" idref="s47_17" />
+ </nt>
+ <nt id="s47_504" cat="PP">
+  <edge label="AC" idref="s47_19" />
+  <edge label="NK" idref="s47_20" />
+  <edge label="NK" idref="s47_21" />
+ </nt>
+ <nt id="s47_505" cat="S">
+  <edge label="MO" idref="s47_12" />
+  <edge label="OA" idref="s47_13" />
+  <edge label="HD" idref="s47_14" />
+  <edge label="SB" idref="s47_502" />
+ </nt>
+ <nt id="s47_506" cat="S">
+  <edge label="MO" idref="s47_18" />
+  <edge label="HD" idref="s47_22" />
+  <edge label="SB" idref="s47_503" />
+  <edge label="MO" idref="s47_504" />
+ </nt>
+ <nt id="s47_507" cat="CS">
+  <edge label="CP" idref="s47_9" />
+  <edge label="CD" idref="s47_15" />
+  <edge label="CJ" idref="s47_505" />
+  <edge label="CJ" idref="s47_506" />
+ </nt>
+ <nt id="s47_508" cat="VP">
+  <edge label="HD" idref="s47_7" />
+  <edge label="PD" idref="s47_501" />
+  <edge label="MO" idref="s47_507" />
+ </nt>
+ <nt id="s47_509" cat="S">
+  <edge label="HD" idref="s47_3" />
+  <edge label="SB" idref="s47_500" />
+  <edge label="OC" idref="s47_508" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s48">
+<graph root="s48_506">
+<terminals>
+ <t id="s48_1" word="Sofie" pos="NE" morph="--" />
+ <t id="s48_2" word="warf" pos="VVFIN" morph="--" />
+ <t id="s48_3" word="die" pos="ART" morph="--" />
+ <t id="s48_4" word="Schultasche" pos="NN" morph="--" />
+ <t id="s48_5" word="in" pos="APPR" morph="--" />
+ <t id="s48_6" word="die" pos="ART" morph="--" />
+ <t id="s48_7" word="Ecke" pos="NN" morph="--" />
+ <t id="s48_8" word="und" pos="KON" morph="--" />
+ <t id="s48_9" word="stellte" pos="VVFIN" morph="--" />
+ <t id="s48_10" word="Sherekan" pos="NE" morph="--" />
+ <t id="s48_11" word="eine" pos="ART" morph="--" />
+ <t id="s48_12" word="Schale" pos="NN" morph="--" />
+ <t id="s48_13" word="mit" pos="APPR" morph="--" />
+ <t id="s48_14" word="Katzenfutter" pos="NN" morph="--" />
+ <t id="s48_15" word="hin" pos="PTKVZ" morph="--" />
+ <t id="s48_16" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s48_500" cat="NP">
+  <edge label="NK" idref="s48_3" />
+  <edge label="NK" idref="s48_4" />
+ </nt>
+ <nt id="s48_501" cat="PP">
+  <edge label="AC" idref="s48_5" />
+  <edge label="NK" idref="s48_6" />
+  <edge label="NK" idref="s48_7" />
+ </nt>
+ <nt id="s48_502" cat="PP">
+  <edge label="AC" idref="s48_13" />
+  <edge label="NK" idref="s48_14" />
+ </nt>
+ <nt id="s48_503" cat="S">
+  <edge label="SB" idref="s48_1" />
+  <edge label="HD" idref="s48_2" />
+  <edge label="OA" idref="s48_500" />
+  <edge label="MO" idref="s48_501" />
+ </nt>
+ <nt id="s48_504" cat="NP">
+  <edge label="NK" idref="s48_11" />
+  <edge label="NK" idref="s48_12" />
+  <edge label="MNR" idref="s48_502" />
+ </nt>
+ <nt id="s48_505" cat="S">
+  <edge label="HD" idref="s48_9" />
+  <edge label="DA" idref="s48_10" />
+  <edge label="SVP" idref="s48_15" />
+  <edge label="OA" idref="s48_504" />
+ </nt>
+ <nt id="s48_506" cat="CS">
+  <edge label="CD" idref="s48_8" />
+  <edge label="CJ" idref="s48_503" />
+  <edge label="CJ" idref="s48_505" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s49">
+<graph root="s49_504">
+<terminals>
+ <t id="s49_1" word="Dann" pos="ADV" morph="--" />
+ <t id="s49_2" word="lie&#x00df;" pos="VVFIN" morph="--" />
+ <t id="s49_3" word="sie" pos="PPER" morph="--" />
+ <t id="s49_4" word="sich" pos="PRF" morph="--" />
+ <t id="s49_5" word="mit" pos="APPR" morph="--" />
+ <t id="s49_6" word="dem" pos="ART" morph="--" />
+ <t id="s49_7" word="geheimnisvollen" pos="ADJA" morph="--" />
+ <t id="s49_8" word="Brief" pos="NN" morph="--" />
+ <t id="s49_9" word="in" pos="APPR" morph="--" />
+ <t id="s49_10" word="der" pos="ART" morph="--" />
+ <t id="s49_11" word="Hand" pos="NN" morph="--" />
+ <t id="s49_12" word="auf" pos="APPR" morph="--" />
+ <t id="s49_13" word="einen" pos="ART" morph="--" />
+ <t id="s49_14" word="K&#x00fc;chenhocker" pos="NN" morph="--" />
+ <t id="s49_15" word="fallen" pos="VVINF" morph="--" />
+ <t id="s49_16" word="." pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s49_500" cat="PP">
+  <edge label="AC" idref="s49_9" />
+  <edge label="NK" idref="s49_10" />
+  <edge label="NK" idref="s49_11" />
+ </nt>
+ <nt id="s49_501" cat="PP">
+  <edge label="AC" idref="s49_12" />
+  <edge label="NK" idref="s49_13" />
+  <edge label="NK" idref="s49_14" />
+ </nt>
+ <nt id="s49_502" cat="PP">
+  <edge label="AC" idref="s49_5" />
+  <edge label="NK" idref="s49_6" />
+  <edge label="NK" idref="s49_7" />
+  <edge label="NK" idref="s49_8" />
+  <edge label="MNR" idref="s49_500" />
+ </nt>
+ <nt id="s49_503" cat="VP">
+  <edge label="OA" idref="s49_4" />
+  <edge label="HD" idref="s49_15" />
+  <edge label="MO" idref="s49_501" />
+  <edge label="MO" idref="s49_502" />
+ </nt>
+ <nt id="s49_504" cat="S">
+  <edge label="MO" idref="s49_1" />
+  <edge label="HD" idref="s49_2" />
+  <edge label="SB" idref="s49_3" />
+  <edge label="OC" idref="s49_503" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s50">
+<graph root="s50_500">
+<terminals>
+ <t id="s50_1" word="Wer" pos="PWS" morph="--" />
+ <t id="s50_2" word="bist" pos="VAFIN" morph="--" />
+ <t id="s50_3" word="Du" pos="PPER" morph="--" />
+ <t id="s50_4" word="?" pos="$." morph="--" />
+</terminals>
+<nonterminals>
+ <nt id="s50_500" cat="S">
+  <edge label="SP" idref="s50_1" />
+  <edge label="HD" idref="s50_2" />
+  <edge label="SP" idref="s50_3" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+</body>
+
+</corpus>

@@ -1,0 +1,3281 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<corpus id="Swedish50">
+   <head>
+      <meta>
+         <name>test</name>
+      </meta>
+      <annotation>
+         <feature domain="T" name="word"></feature>
+         <feature domain="T" name="pos">
+            <value name="nn.utr.sin.ind.nom"></value>
+            <value name="pp"></value>
+            <value name="nn.neu.plu.ind.nom"></value>
+            <value name="pm.nom"></value>
+            <value name="pm.gen"></value>
+            <value name="mad"></value>
+            <value name="nn.utr.sin.def.nom"></value>
+            <value name="nn.neu.plu.def.nom"></value>
+            <value name="kn"></value>
+            <value name="vb.prs.akt.aux"></value>
+            <value name="ab"></value>
+            <value name="jj.pos.neu.sin.ind.nom"></value>
+            <value name="jj.pos.utr/neu.sin.def.nom"></value>
+            <value name="nn.neu.sin.def.nom"></value>
+            <value name="vb.prs.akt.mod"></value>
+            <value name="vb.inf.akt"></value>
+            <value name="dt.utr.sin.ind"></value>
+            <value name="nn.utr.plu.def.nom"></value>
+            <value name="nn.neu.sin.def.nom.set"></value>
+            <value name="mid"></value>
+            <value name="pn.utr.sin.ind.sub/obj"></value>
+            <value name="dt.utr/neu.plu.def"></value>
+            <value name="jj.pos.utr/neu.plu.ind/def.nom"></value>
+            <value name="dt.neu.sin.def"></value>
+            <value name="vb.prs.akt.kop"></value>
+            <value name="jj.pos.utr.sin.ind.nom"></value>
+            <value name="ha"></value>
+            <value name="pn.utr.sin.def.sub"></value>
+            <value name="vb.prs.akt"></value>
+            <value name="nn.utr.plu.ind.nom"></value>
+            <value name="nn.neu.sin.ind.nom"></value>
+            <value name="ab.kom"></value>
+            <value name="vb.sup.sfo"></value>
+            <value name="ab.pos"></value>
+            <value name="pn.neu.sin.def.sub/obj"></value>
+            <value name="vb.inf.akt.mod"></value>
+            <value name="pn.utr.sin.def.obj"></value>
+            <value name="sn"></value>
+            <value name="nn.utr.sin.ind.nom.set"></value>
+            <value name="hp.neu.sin.ind"></value>
+            <value name="hp.-.-.-"></value>
+            <value name="pn.utr/neu.plu.def.sub"></value>
+            <value name="pc.prs.utr/neu.sin/plu.ind/def.nom"></value>
+            <value name="uo"></value>
+            <value name="dt.utr.sin.def"></value>
+            <value name="pl"></value>
+            <value name="pad"></value>
+            <value name="nn.neu.sin.def.gen"></value>
+            <value name="vb.sup.akt"></value>
+            <value name="vb.prt.sfo"></value>
+            <value name="jj.suv.utr/neu.sin/plu.def.nom"></value>
+            <value name="ie"></value>
+            <value name="vb.prt.akt"></value>
+            <value name="jj.kom.utr/neu.sin/plu.ind/def.nom"></value>
+            <value name="ps.utr/neu.plu.def"></value>
+            <value name="vb.prs.sfo"></value>
+            <value name="ab.suv"></value>
+            <value name="vb.inf.sfo"></value>
+            <value name="pn.utr.sin.ind.sub"></value>
+            <value name="dt.neu.sin.ind"></value>
+            <value name="nn.utr.sin.ind.nom.dat"></value>
+            <value name="nn.-.-.-.-"></value>
+            <value name="rg.nom"></value>
+            <value name="vb.prt.akt.aux"></value>
+            <value name="ro.nom"></value>
+            <value name="vb.prt.akt.kop"></value>
+            <value name="nn.utr.sin.def.gen"></value>
+            <value name="pn.utr.plu.def.sub"></value>
+            <value name="nn.utr.plu.def.gen"></value>
+            <value name="jj.pos.utr/neu.sin/plu.ind/def.nom"></value>
+            <value name="ps.utr.sin.def"></value>
+            <value name="pn.utr.sin.def.sub/obj"></value>
+            <value name="vb.prt.akt.mod"></value>
+            <value name="vb.inf.akt.aux"></value>
+            <value name="dt.utr/neu.plu.ind/def"></value>
+            <value name="nn.utr.sin.def.nom.set"></value>
+            <value name="jj.pos.mas.sin.def.nom"></value>
+            <value name="pn.utr/neu.sin/plu.def.obj"></value>
+            <value name="vb.imp"></value>
+            <value name="vb.inf.akt.kop"></value>
+            <value name="dt.utr/neu.sin.ind"></value>
+            <value name="pn.neu.sin.ind.sub/obj"></value>
+            <value name="nn.utr.plu.ind.gen"></value>
+            <value name="rg.sin.nom"></value>
+            <value name="nn.utr.sin.def.nom.dat"></value>
+            <value name="dt.utr/neu.sin/plu.ind"></value>
+            <value name="nn.neu.-.-.sms"></value>
+            <value name="ps.neu.sin.def"></value>
+            <value name="vb.sup.akt.kop"></value>
+            <value name="vb.sup.akt.mod"></value>
+            <value name="pn.utr/neu.plu.def.obj"></value>
+            <value name="nn.neu.sin.ind.nom.set"></value>
+            <value name="pn.utr/neu.plu.ind.sub/obj"></value>
+            <value name="rg.utr.sin.ind.nom"></value>
+            <value name="pc.gen"></value>
+            <value name="jj.pos.utr.sin.ind/def.nom"></value>
+            <value name="ps.utr/neu.sin/plu.def"></value>
+            <value name="jj.pos.utr/neu.plu.ind.nom"></value>
+            <value name="dt.utr/neu.plu.ind"></value>
+            <value name="pn.mas.sin.def.sub/obj"></value>
+            <value name="vb.kon.prt"></value>
+            <value name="nn.utr.sin.ind.gen"></value>
+            <value name="nn.neu.plu.ind.gen"></value>
+            <value name="pn.utr.plu.def.obj"></value>
+            <value name="hp.utr/neu.plu.ind"></value>
+            <value name="jj.suv.utr/neu.plu.def.nom"></value>
+            <value name="nn.neu.plu.def.gen"></value>
+            <value name="nn"></value>
+            <value name="nn.utr.-.-.sms"></value>
+            <value name="pn.utr/neu.plu.def.sub/obj"></value>
+            <value name="rg.neu.sin.ind.nom"></value>
+            <value name="jj.gen"></value>
+            <value name="rg.gen"></value>
+            <value name="nn.neu.sin.ind.gen"></value>
+            <value name="in"></value>
+            <value name="vb.prs.sfo.kop"></value>
+            <value name="hd.utr/neu.plu.ind"></value>
+            <value name="hd.utr.sin.ind"></value>
+            <value name="dt.neu.sin.ind/def"></value>
+            <value name="hs.def"></value>
+            <value name="hp.utr.sin.ind"></value>
+            <value name="jj.suv.utr/neu.sin/plu.ind.nom"></value>
+            <value name="dt.utr.sin.ind/def"></value>
+            <value name="ro.mas.sin.ind/def.gen"></value>
+            <value name="nn.utr.-.-.-"></value>
+            <value name="vb.kon.prs.akt"></value>
+            <value name="jj.pos.neu.sin.ind/def.nom"></value>
+            <value name="pm.sms"></value>
+            <value name="ro.mas.sin.ind/def.nom"></value>
+            <value name="vb.prt.sfo.kop"></value>
+            <value name="jj.suv.mas.sin.def.nom"></value>
+            <value name="jj.pos.utr.-.-.sms"></value>
+            <value name="ab.sms"></value>
+            <value name="hd.neu.sin.ind"></value>
+            <value name="rg.sms"></value>
+            <value name="dt.mas.sin.ind/def"></value>
+            <value name="ro.sin.nom"></value>
+            <value name="dt.utr/neu.sin.def"></value>
+            <value name="jj.pos.utr/neu.-.-.sms"></value>
+            <value name="vb"></value>
+            <value name="vb.sms"></value>
+            <value name="vb.imp.akt.mod"></value>
+            <value name="jj.kom.sms"></value>
+            <value name="nn.neu.-.-.-"></value>
+            <value name="nn.-.-.-.sms"></value>
+            <value name="vb.imp.akt.kop"></value>
+            <value name="ro.sms"></value>
+            <value name="ro.gen"></value>
+            <value name="hp.neu.sin.ind.sms"></value>
+            <value name="vb.imp.akt.aux"></value>
+         </feature>
+         <feature domain="NT" name="cat">
+	    <value name="root"></value>
+            <value name="nn.utr.sin.ind.nom"></value>
+            <value name="pp"></value>
+            <value name="nn.neu.plu.ind.nom"></value>
+            <value name="pm.nom"></value>
+            <value name="pm.gen"></value>
+            <value name="mad"></value>
+            <value name="nn.utr.sin.def.nom"></value>
+            <value name="nn.neu.plu.def.nom"></value>
+            <value name="kn"></value>
+            <value name="vb.prs.akt.aux"></value>
+            <value name="ab"></value>
+            <value name="jj.pos.neu.sin.ind.nom"></value>
+            <value name="jj.pos.utr/neu.sin.def.nom"></value>
+            <value name="nn.neu.sin.def.nom"></value>
+            <value name="vb.prs.akt.mod"></value>
+            <value name="vb.inf.akt"></value>
+            <value name="dt.utr.sin.ind"></value>
+            <value name="nn.utr.plu.def.nom"></value>
+            <value name="nn.neu.sin.def.nom.set"></value>
+            <value name="mid"></value>
+            <value name="pn.utr.sin.ind.sub/obj"></value>
+            <value name="dt.utr/neu.plu.def"></value>
+            <value name="jj.pos.utr/neu.plu.ind/def.nom"></value>
+            <value name="dt.neu.sin.def"></value>
+            <value name="vb.prs.akt.kop"></value>
+            <value name="jj.pos.utr.sin.ind.nom"></value>
+            <value name="ha"></value>
+            <value name="pn.utr.sin.def.sub"></value>
+            <value name="vb.prs.akt"></value>
+            <value name="nn.utr.plu.ind.nom"></value>
+            <value name="nn.neu.sin.ind.nom"></value>
+            <value name="ab.kom"></value>
+            <value name="vb.sup.sfo"></value>
+            <value name="ab.pos"></value>
+            <value name="pn.neu.sin.def.sub/obj"></value>
+            <value name="vb.inf.akt.mod"></value>
+            <value name="pn.utr.sin.def.obj"></value>
+            <value name="sn"></value>
+            <value name="nn.utr.sin.ind.nom.set"></value>
+            <value name="hp.neu.sin.ind"></value>
+            <value name="hp.-.-.-"></value>
+            <value name="pn.utr/neu.plu.def.sub"></value>
+            <value name="pc.prs.utr/neu.sin/plu.ind/def.nom"></value>
+            <value name="uo"></value>
+            <value name="dt.utr.sin.def"></value>
+            <value name="pl"></value>
+            <value name="pad"></value>
+            <value name="nn.neu.sin.def.gen"></value>
+            <value name="vb.sup.akt"></value>
+            <value name="vb.prt.sfo"></value>
+            <value name="jj.suv.utr/neu.sin/plu.def.nom"></value>
+            <value name="ie"></value>
+            <value name="vb.prt.akt"></value>
+            <value name="jj.kom.utr/neu.sin/plu.ind/def.nom"></value>
+            <value name="ps.utr/neu.plu.def"></value>
+            <value name="vb.prs.sfo"></value>
+            <value name="ab.suv"></value>
+            <value name="vb.inf.sfo"></value>
+            <value name="pn.utr.sin.ind.sub"></value>
+            <value name="dt.neu.sin.ind"></value>
+            <value name="nn.utr.sin.ind.nom.dat"></value>
+            <value name="nn.-.-.-.-"></value>
+            <value name="rg.nom"></value>
+            <value name="vb.prt.akt.aux"></value>
+            <value name="ro.nom"></value>
+            <value name="vb.prt.akt.kop"></value>
+            <value name="nn.utr.sin.def.gen"></value>
+            <value name="pn.utr.plu.def.sub"></value>
+            <value name="nn.utr.plu.def.gen"></value>
+            <value name="jj.pos.utr/neu.sin/plu.ind/def.nom"></value>
+            <value name="ps.utr.sin.def"></value>
+            <value name="pn.utr.sin.def.sub/obj"></value>
+            <value name="vb.prt.akt.mod"></value>
+            <value name="vb.inf.akt.aux"></value>
+            <value name="dt.utr/neu.plu.ind/def"></value>
+            <value name="nn.utr.sin.def.nom.set"></value>
+            <value name="jj.pos.mas.sin.def.nom"></value>
+            <value name="pn.utr/neu.sin/plu.def.obj"></value>
+            <value name="vb.imp"></value>
+            <value name="vb.inf.akt.kop"></value>
+            <value name="dt.utr/neu.sin.ind"></value>
+            <value name="pn.neu.sin.ind.sub/obj"></value>
+            <value name="nn.utr.plu.ind.gen"></value>
+            <value name="rg.sin.nom"></value>
+            <value name="nn.utr.sin.def.nom.dat"></value>
+            <value name="dt.utr/neu.sin/plu.ind"></value>
+            <value name="nn.neu.-.-.sms"></value>
+            <value name="ps.neu.sin.def"></value>
+            <value name="vb.sup.akt.kop"></value>
+            <value name="vb.sup.akt.mod"></value>
+            <value name="pn.utr/neu.plu.def.obj"></value>
+            <value name="nn.neu.sin.ind.nom.set"></value>
+            <value name="pn.utr/neu.plu.ind.sub/obj"></value>
+            <value name="rg.utr.sin.ind.nom"></value>
+            <value name="pc.gen"></value>
+            <value name="jj.pos.utr.sin.ind/def.nom"></value>
+            <value name="ps.utr/neu.sin/plu.def"></value>
+            <value name="jj.pos.utr/neu.plu.ind.nom"></value>
+            <value name="dt.utr/neu.plu.ind"></value>
+            <value name="pn.mas.sin.def.sub/obj"></value>
+            <value name="vb.kon.prt"></value>
+            <value name="nn.utr.sin.ind.gen"></value>
+            <value name="nn.neu.plu.ind.gen"></value>
+            <value name="pn.utr.plu.def.obj"></value>
+            <value name="hp.utr/neu.plu.ind"></value>
+            <value name="jj.suv.utr/neu.plu.def.nom"></value>
+            <value name="nn.neu.plu.def.gen"></value>
+            <value name="nn"></value>
+            <value name="nn.utr.-.-.sms"></value>
+            <value name="pn.utr/neu.plu.def.sub/obj"></value>
+            <value name="rg.neu.sin.ind.nom"></value>
+            <value name="jj.gen"></value>
+            <value name="rg.gen"></value>
+            <value name="nn.neu.sin.ind.gen"></value>
+            <value name="in"></value>
+            <value name="vb.prs.sfo.kop"></value>
+            <value name="hd.utr/neu.plu.ind"></value>
+            <value name="hd.utr.sin.ind"></value>
+            <value name="dt.neu.sin.ind/def"></value>
+            <value name="hs.def"></value>
+            <value name="hp.utr.sin.ind"></value>
+            <value name="jj.suv.utr/neu.sin/plu.ind.nom"></value>
+            <value name="dt.utr.sin.ind/def"></value>
+            <value name="ro.mas.sin.ind/def.gen"></value>
+            <value name="nn.utr.-.-.-"></value>
+            <value name="vb.kon.prs.akt"></value>
+            <value name="jj.pos.neu.sin.ind/def.nom"></value>
+            <value name="pm.sms"></value>
+            <value name="ro.mas.sin.ind/def.nom"></value>
+            <value name="vb.prt.sfo.kop"></value>
+            <value name="jj.suv.mas.sin.def.nom"></value>
+            <value name="jj.pos.utr.-.-.sms"></value>
+            <value name="ab.sms"></value>
+            <value name="hd.neu.sin.ind"></value>
+            <value name="rg.sms"></value>
+            <value name="dt.mas.sin.ind/def"></value>
+            <value name="ro.sin.nom"></value>
+            <value name="dt.utr/neu.sin.def"></value>
+            <value name="jj.pos.utr/neu.-.-.sms"></value>
+            <value name="vb"></value>
+            <value name="vb.sms"></value>
+            <value name="vb.imp.akt.mod"></value>
+            <value name="jj.kom.sms"></value>
+            <value name="nn.neu.-.-.-"></value>
+            <value name="nn.-.-.-.sms"></value>
+            <value name="vb.imp.akt.kop"></value>
+            <value name="ro.sms"></value>
+            <value name="ro.gen"></value>
+            <value name="hp.neu.sin.ind.sms"></value>
+            <value name="vb.imp.akt.aux"></value>
+         </feature>
+         <edgelabel>
+            <value name="HD"></value>
+            <value name="ROOT"></value>
+            <value name="ADV"></value>
+            <value name="APP"></value>
+            <value name="ATT"></value>
+            <value name="CC"></value>
+            <value name="DET"></value>
+            <value name="ID"></value>
+            <value name="IM"></value>
+            <value name="INF"></value>
+            <value name="IP"></value>
+            <value name="OBJ"></value>
+            <value name="PR"></value>
+            <value name="PRD"></value>
+            <value name="SUB"></value>
+            <value name="UK"></value>
+            <value name="VC"></value>
+            <value name="XX"></value>
+         </edgelabel>
+      </annotation>
+   </head>
+   <body>
+      <s id="s1">
+         <graph root="s1_500">
+            <terminals>
+               <t id="s1_1" pos="pm.gen" word="EDENS"></t>
+               <t id="s1_2" pos="nn.utr.sin.ind.nom" word="LUSTGÅRD"></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.ind.nom" id="s1_502">
+                  <edge idref="s1_2" label="HD"></edge>
+                  <edge idref="s1_1" label="DET"></edge>
+               </nt>
+               <nt cat="root" id="s1_500">
+                  <edge idref="s1_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s2">
+         <graph root="s2_500">
+            <terminals>
+               <t id="s2_1" pos="mid" word="..."></t>
+               <t id="s2_2" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s2_3" pos="nn.utr.sin.ind.nom" word="gång"></t>
+               <t id="s2_4" pos="pp" word="i"></t>
+               <t id="s2_5" pos="nn.utr.sin.def.nom" word="tiden"></t>
+               <t id="s2_6" pos="vb.prs.akt.mod" word="måste"></t>
+               <t id="s2_7" pos="ab" word="ändå"></t>
+               <t id="s2_8" pos="pn.neu.sin.ind.sub/obj" word="allting"></t>
+               <t id="s2_9" pos="vb.inf.akt.aux" word="ha"></t>
+               <t id="s2_10" pos="vb.sup.akt.kop" word="blivit"></t>
+               <t id="s2_11" pos="pl" word="till"></t>
+               <t id="s2_12" pos="pp" word="av"></t>
+               <t id="s2_13" pos="rg.nom" word="noll"></t>
+               <t id="s2_14" pos="kn" word="och"></t>
+               <t id="s2_15" pos="pn.neu.sin.ind.sub/obj" word="ingenting"></t>
+               <t id="s2_16" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s2_504">
+                  <edge idref="s2_4" label="HD"></edge>
+                  <edge idref="s2_5" label="PR"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s2_503">
+                  <edge idref="s2_3" label="HD"></edge>
+                  <edge idref="s2_2" label="DET"></edge>
+                  <edge idref="s2_504" label="ATT"></edge>
+               </nt>
+               <nt cat="kn" id="s2_514">
+                  <edge idref="s2_14" label="HD"></edge>
+                  <edge idref="s2_15" label="CC"></edge>
+               </nt>
+               <nt cat="rg.nom" id="s2_513">
+                  <edge idref="s2_13" label="HD"></edge>
+                  <edge idref="s2_514" label="CC"></edge>
+               </nt>
+               <nt cat="pp" id="s2_512">
+                  <edge idref="s2_12" label="HD"></edge>
+                  <edge idref="s2_513" label="PR"></edge>
+               </nt>
+               <nt cat="vb.sup.akt.kop" id="s2_510">
+                  <edge idref="s2_10" label="HD"></edge>
+                  <edge idref="s2_11" label="ADV"></edge>
+                  <edge idref="s2_512" label="ADV"></edge>
+                  <edge idref="s2_16" label="IP"></edge>
+               </nt>
+               <nt cat="vb.inf.akt.aux" id="s2_509">
+                  <edge idref="s2_9" label="HD"></edge>
+                  <edge idref="s2_510" label="VC"></edge>
+               </nt>
+               <nt cat="vb.prs.akt.mod" id="s2_506">
+                  <edge idref="s2_6" label="HD"></edge>
+                  <edge idref="s2_1" label="IP"></edge>
+                  <edge idref="s2_503" label="ADV"></edge>
+                  <edge idref="s2_7" label="ADV"></edge>
+                  <edge idref="s2_8" label="SUB"></edge>
+                  <edge idref="s2_509" label="VC"></edge>
+               </nt>
+               <nt cat="root" id="s2_500">
+                  <edge idref="s2_506" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s3">
+         <graph root="s3_500">
+            <terminals>
+               <t id="s3_1" pos="pm.nom" word="Sofie"></t>
+               <t id="s3_2" pos="pm.nom" word="Amundsen"></t>
+               <t id="s3_3" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s3_4" pos="pp" word="på"></t>
+               <t id="s3_5" pos="nn.utr.sin.ind.nom" word="väg"></t>
+               <t id="s3_6" pos="ab" word="hem"></t>
+               <t id="s3_7" pos="pp" word="från"></t>
+               <t id="s3_8" pos="nn.utr.sin.def.nom" word="skolan"></t>
+               <t id="s3_9" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pm.nom" id="s3_501">
+                  <edge idref="s3_1" label="HD"></edge>
+                  <edge idref="s3_2" label="ID"></edge>
+               </nt>
+               <nt cat="pp" id="s3_504">
+                  <edge idref="s3_4" label="HD"></edge>
+                  <edge idref="s3_5" label="PR"></edge>
+               </nt>
+               <nt cat="pp" id="s3_507">
+                  <edge idref="s3_7" label="HD"></edge>
+                  <edge idref="s3_8" label="PR"></edge>
+               </nt>
+               <nt cat="ab" id="s3_506">
+                  <edge idref="s3_6" label="HD"></edge>
+                  <edge idref="s3_507" label="ADV"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s3_503">
+                  <edge idref="s3_3" label="HD"></edge>
+                  <edge idref="s3_501" label="SUB"></edge>
+                  <edge idref="s3_504" label="PRD"></edge>
+                  <edge idref="s3_506" label="ADV"></edge>
+                  <edge idref="s3_9" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s3_500">
+                  <edge idref="s3_503" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s4">
+         <graph root="s4_500">
+            <terminals>
+               <t id="s4_1" pos="dt.utr.sin.def" word="Den"></t>
+               <t id="s4_2" pos="ro.nom" word="första"></t>
+               <t id="s4_3" pos="nn.utr.sin.def.nom" word="biten"></t>
+               <t id="s4_4" pos="vb.prt.akt.aux" word="hade"></t>
+               <t id="s4_5" pos="pn.utr.sin.def.sub" word="hon"></t>
+               <t id="s4_6" pos="vb.sup.akt" word="haft"></t>
+               <t id="s4_7" pos="nn.neu.sin.ind.nom" word="sällskap"></t>
+               <t id="s4_8" pos="pp" word="med"></t>
+               <t id="s4_9" pos="nn.utr.sin.ind.nom" word="Jorunn"></t>
+               <t id="s4_10" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.def.nom" id="s4_503">
+                  <edge idref="s4_3" label="HD"></edge>
+                  <edge idref="s4_1" label="DET"></edge>
+                  <edge idref="s4_2" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s4_508">
+                  <edge idref="s4_8" label="HD"></edge>
+                  <edge idref="s4_9" label="PR"></edge>
+               </nt>
+               <nt cat="vb.sup.akt" id="s4_506">
+                  <edge idref="s4_6" label="HD"></edge>
+                  <edge idref="s4_7" label="OBJ"></edge>
+                  <edge idref="s4_508" label="ADV"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.aux" id="s4_504">
+                  <edge idref="s4_4" label="HD"></edge>
+                  <edge idref="s4_503" label="ADV"></edge>
+                  <edge idref="s4_5" label="SUB"></edge>
+                  <edge idref="s4_506" label="VC"></edge>
+                  <edge idref="s4_10" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s4_500">
+                  <edge idref="s4_504" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s5">
+         <graph root="s5_500">
+            <terminals>
+               <t id="s5_1" pos="pn.utr/neu.plu.def.sub" word="De"></t>
+               <t id="s5_2" pos="vb.prt.akt.aux" word="hade"></t>
+               <t id="s5_3" pos="vb.sup.akt" word="pratat"></t>
+               <t id="s5_4" pos="pp" word="om"></t>
+               <t id="s5_5" pos="nn.utr.plu.ind.nom" word="robotar"></t>
+               <t id="s5_6" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s5_504">
+                  <edge idref="s5_4" label="HD"></edge>
+                  <edge idref="s5_5" label="PR"></edge>
+               </nt>
+               <nt cat="vb.sup.akt" id="s5_503">
+                  <edge idref="s5_3" label="HD"></edge>
+                  <edge idref="s5_504" label="ADV"></edge>
+                  <edge idref="s5_6" label="IP"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.aux" id="s5_502">
+                  <edge idref="s5_2" label="HD"></edge>
+                  <edge idref="s5_1" label="SUB"></edge>
+                  <edge idref="s5_503" label="VC"></edge>
+               </nt>
+               <nt cat="root" id="s5_500">
+                  <edge idref="s5_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s6">
+         <graph root="s6_500">
+            <terminals>
+               <t id="s6_1" pos="nn.utr.sin.ind.nom" word="Jorunn"></t>
+               <t id="s6_2" pos="vb.prt.akt.aux" word="hade"></t>
+               <t id="s6_3" pos="vb.sup.akt" word="tyckt"></t>
+               <t id="s6_4" pos="sn" word="att"></t>
+               <t id="s6_5" pos="dt.utr.sin.def" word="den"></t>
+               <t id="s6_6" pos="jj.pos.utr/neu.sin.def.nom" word="mänskliga"></t>
+               <t id="s6_7" pos="nn.utr.sin.def.nom" word="hjärnan"></t>
+               <t id="s6_8" pos="vb.prt.akt" word="påminde"></t>
+               <t id="s6_9" pos="pp" word="om"></t>
+               <t id="s6_10" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s6_11" pos="jj.pos.utr.sin.ind.nom" word="komplicerad"></t>
+               <t id="s6_12" pos="nn.utr.sin.ind.nom" word="dator"></t>
+               <t id="s6_13" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.def.nom" id="s6_507">
+                  <edge idref="s6_7" label="HD"></edge>
+                  <edge idref="s6_5" label="DET"></edge>
+                  <edge idref="s6_6" label="ATT"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s6_512">
+                  <edge idref="s6_12" label="HD"></edge>
+                  <edge idref="s6_10" label="DET"></edge>
+                  <edge idref="s6_11" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s6_509">
+                  <edge idref="s6_9" label="HD"></edge>
+                  <edge idref="s6_512" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s6_508">
+                  <edge idref="s6_8" label="HD"></edge>
+                  <edge idref="s6_507" label="SUB"></edge>
+                  <edge idref="s6_509" label="ADV"></edge>
+               </nt>
+               <nt cat="sn" id="s6_504">
+                  <edge idref="s6_4" label="HD"></edge>
+                  <edge idref="s6_508" label="UK"></edge>
+               </nt>
+               <nt cat="vb.sup.akt" id="s6_503">
+                  <edge idref="s6_3" label="HD"></edge>
+                  <edge idref="s6_504" label="OBJ"></edge>
+                  <edge idref="s6_13" label="IP"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.aux" id="s6_502">
+                  <edge idref="s6_2" label="HD"></edge>
+                  <edge idref="s6_1" label="SUB"></edge>
+                  <edge idref="s6_503" label="VC"></edge>
+               </nt>
+               <nt cat="root" id="s6_500">
+                  <edge idref="s6_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s7">
+         <graph root="s7_500">
+            <terminals>
+               <t id="s7_1" pos="pm.nom" word="Sofie"></t>
+               <t id="s7_2" pos="vb.prt.akt" word="visste"></t>
+               <t id="s7_3" pos="ab" word="inte"></t>
+               <t id="s7_4" pos="ab" word="riktigt"></t>
+               <t id="s7_5" pos="sn" word="om"></t>
+               <t id="s7_6" pos="pn.utr.sin.def.sub" word="hon"></t>
+               <t id="s7_7" pos="vb.prt.akt" word="höll"></t>
+               <t id="s7_8" pos="pp" word="med"></t>
+               <t id="s7_9" pos="pn.utr.sin.def.obj" word="henne"></t>
+               <t id="s7_10" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="vb.prt.akt" id="s7_507">
+                  <edge idref="s7_7" label="HD"></edge>
+                  <edge idref="s7_6" label="SUB"></edge>
+                  <edge idref="s7_8" label="ADV"></edge>
+                  <edge idref="s7_9" label="OBJ"></edge>
+               </nt>
+               <nt cat="sn" id="s7_505">
+                  <edge idref="s7_5" label="HD"></edge>
+                  <edge idref="s7_507" label="UK"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s7_502">
+                  <edge idref="s7_2" label="HD"></edge>
+                  <edge idref="s7_1" label="SUB"></edge>
+                  <edge idref="s7_3" label="ADV"></edge>
+                  <edge idref="s7_4" label="ADV"></edge>
+                  <edge idref="s7_505" label="OBJ"></edge>
+                  <edge idref="s7_10" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s7_500">
+                  <edge idref="s7_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s8">
+         <graph root="s8_500">
+            <terminals>
+               <t id="s8_1" pos="dt.utr.sin.ind" word="En"></t>
+               <t id="s8_2" pos="nn.utr.sin.ind.nom" word="människa"></t>
+               <t id="s8_3" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s8_4" pos="ab" word="väl"></t>
+               <t id="s8_5" pos="ab" word="ändå"></t>
+               <t id="s8_6" pos="pn.neu.sin.ind.sub/obj" word="någonting"></t>
+               <t id="s8_7" pos="ab.kom" word="mer"></t>
+               <t id="s8_8" pos="kn" word="än"></t>
+               <t id="s8_9" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s8_10" pos="nn.utr.sin.ind.nom" word="maskin"></t>
+               <t id="s8_11" pos="mad" word="?"></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.ind.nom" id="s8_502">
+                  <edge idref="s8_2" label="HD"></edge>
+                  <edge idref="s8_1" label="DET"></edge>
+               </nt>
+               <nt cat="ab.kom" id="s8_507">
+                  <edge idref="s8_7" label="HD"></edge>
+                  <edge idref="s8_6" label="DET"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s8_510">
+                  <edge idref="s8_10" label="HD"></edge>
+                  <edge idref="s8_9" label="DET"></edge>
+               </nt>
+               <nt cat="kn" id="s8_508">
+                  <edge idref="s8_8" label="HD"></edge>
+                  <edge idref="s8_510" label="UK"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s8_503">
+                  <edge idref="s8_3" label="HD"></edge>
+                  <edge idref="s8_502" label="SUB"></edge>
+                  <edge idref="s8_4" label="ADV"></edge>
+                  <edge idref="s8_5" label="ADV"></edge>
+                  <edge idref="s8_507" label="PRD"></edge>
+                  <edge idref="s8_508" label="ADV"></edge>
+                  <edge idref="s8_11" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s8_500">
+                  <edge idref="s8_503" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s9">
+         <graph root="s9_500">
+            <terminals>
+               <t id="s9_1" pos="pp" word="Vid"></t>
+               <t id="s9_2" pos="nn.neu.sin.def.nom" word="storköpet"></t>
+               <t id="s9_3" pos="vb.prt.akt.aux" word="hade"></t>
+               <t id="s9_4" pos="pn.utr/neu.plu.def.sub" word="de"></t>
+               <t id="s9_5" pos="vb.sup.sfo" word="skiljts"></t>
+               <t id="s9_6" pos="pl" word="åt"></t>
+               <t id="s9_7" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s9_501">
+                  <edge idref="s9_1" label="HD"></edge>
+                  <edge idref="s9_2" label="PR"></edge>
+               </nt>
+               <nt cat="vb.sup.sfo" id="s9_505">
+                  <edge idref="s9_5" label="HD"></edge>
+                  <edge idref="s9_6" label="ADV"></edge>
+                  <edge idref="s9_7" label="IP"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.aux" id="s9_503">
+                  <edge idref="s9_3" label="HD"></edge>
+                  <edge idref="s9_501" label="ADV"></edge>
+                  <edge idref="s9_4" label="SUB"></edge>
+                  <edge idref="s9_505" label="VC"></edge>
+               </nt>
+               <nt cat="root" id="s9_500">
+                  <edge idref="s9_503" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s10">
+         <graph root="s10_500">
+            <terminals>
+               <t id="s10_1" pos="pm.nom" word="Sofie"></t>
+               <t id="s10_2" pos="mid" word=","></t>
+               <t id="s10_3" pos="hp.-.-.-" word="som"></t>
+               <t id="s10_4" pos="vb.prt.akt" word="bodde"></t>
+               <t id="s10_5" pos="pp" word="i"></t>
+               <t id="s10_6" pos="nn.utr.sin.def.nom" word="utkanten"></t>
+               <t id="s10_7" pos="pp" word="av"></t>
+               <t id="s10_8" pos="dt.neu.sin.ind" word="ett"></t>
+               <t id="s10_9" pos="jj.pos.neu.sin.ind.nom" word="stort"></t>
+               <t id="s10_10" pos="nn.neu.sin.ind.nom" word="villaområde"></t>
+               <t id="s10_11" pos="mid" word=","></t>
+               <t id="s10_12" pos="vb.prt.akt.aux" word="hade"></t>
+               <t id="s10_13" pos="ab" word="nästan"></t>
+               <t id="s10_14" pos="ab.pos" word="dubbelt"></t>
+               <t id="s10_15" pos="ab" word="så"></t>
+               <t id="s10_16" pos="ab.pos" word="långt"></t>
+               <t id="s10_17" pos="pp" word="till"></t>
+               <t id="s10_18" pos="nn.utr.sin.def.nom" word="skolan"></t>
+               <t id="s10_19" pos="kn" word="som"></t>
+               <t id="s10_20" pos="nn.utr.sin.ind.nom" word="Jorunn"></t>
+               <t id="s10_21" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.neu.sin.ind.nom" id="s10_510">
+                  <edge idref="s10_10" label="HD"></edge>
+                  <edge idref="s10_8" label="DET"></edge>
+                  <edge idref="s10_9" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s10_507">
+                  <edge idref="s10_7" label="HD"></edge>
+                  <edge idref="s10_510" label="PR"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.def.nom" id="s10_506">
+                  <edge idref="s10_6" label="HD"></edge>
+                  <edge idref="s10_507" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s10_505">
+                  <edge idref="s10_5" label="HD"></edge>
+                  <edge idref="s10_506" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s10_504">
+                  <edge idref="s10_4" label="HD"></edge>
+                  <edge idref="s10_3" label="SUB"></edge>
+                  <edge idref="s10_505" label="ADV"></edge>
+               </nt>
+               <nt cat="pm.nom" id="s10_501">
+                  <edge idref="s10_1" label="HD"></edge>
+                  <edge idref="s10_2" label="IP"></edge>
+                  <edge idref="s10_504" label="ATT"></edge>
+                  <edge idref="s10_11" label="IP"></edge>
+               </nt>
+               <nt cat="ab" id="s10_515">
+                  <edge idref="s10_15" label="HD"></edge>
+                  <edge idref="s10_14" label="ADV"></edge>
+               </nt>
+               <nt cat="ab.pos" id="s10_516">
+                  <edge idref="s10_16" label="HD"></edge>
+                  <edge idref="s10_515" label="ADV"></edge>
+               </nt>
+               <nt cat="pp" id="s10_517">
+                  <edge idref="s10_17" label="HD"></edge>
+                  <edge idref="s10_18" label="PR"></edge>
+               </nt>
+               <nt cat="kn" id="s10_519">
+                  <edge idref="s10_19" label="HD"></edge>
+                  <edge idref="s10_20" label="UK"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.aux" id="s10_512">
+                  <edge idref="s10_12" label="HD"></edge>
+                  <edge idref="s10_501" label="SUB"></edge>
+                  <edge idref="s10_13" label="ADV"></edge>
+                  <edge idref="s10_516" label="ADV"></edge>
+                  <edge idref="s10_517" label="ADV"></edge>
+                  <edge idref="s10_519" label="ADV"></edge>
+                  <edge idref="s10_21" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s10_500">
+                  <edge idref="s10_512" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s11">
+         <graph root="s11_500">
+            <terminals>
+               <t id="s11_1" pos="pn.neu.sin.def.sub/obj" word="Det"></t>
+               <t id="s11_2" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s11_3" pos="ab" word="nästan"></t>
+               <t id="s11_4" pos="kn" word="som"></t>
+               <t id="s11_5" pos="pp" word="om"></t>
+               <t id="s11_6" pos="nn.neu.sin.def.nom" word="huset"></t>
+               <t id="s11_7" pos="vb.prt.akt" word="låg"></t>
+               <t id="s11_8" pos="pp" word="vid"></t>
+               <t id="s11_9" pos="nn.utr.sin.def.gen" word="världens"></t>
+               <t id="s11_10" pos="nn.utr.sin.ind.nom" word="ände"></t>
+               <t id="s11_11" pos="mid" word=","></t>
+               <t id="s11_12" pos="ab" word="för"></t>
+               <t id="s11_13" pos="pp" word="bortom"></t>
+               <t id="s11_14" pos="ps.utr/neu.sin/plu.def" word="deras"></t>
+               <t id="s11_15" pos="pm.nom" word="trädgard"></t>
+               <t id="s11_16" pos="vb.prt.sfo" word="fanns"></t>
+               <t id="s11_17" pos="dt.utr/neu.plu.ind" word="inga"></t>
+               <t id="s11_18" pos="jj.pos.utr/neu.plu.ind.nom" word="fler"></t>
+               <t id="s11_19" pos="nn.neu.plu.ind.nom" word="hus"></t>
+               <t id="s11_20" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.ind.nom" id="s11_510">
+                  <edge idref="s11_10" label="HD"></edge>
+                  <edge idref="s11_9" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s11_508">
+                  <edge idref="s11_8" label="HD"></edge>
+                  <edge idref="s11_510" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s11_507">
+                  <edge idref="s11_7" label="HD"></edge>
+                  <edge idref="s11_6" label="SUB"></edge>
+                  <edge idref="s11_508" label="ADV"></edge>
+               </nt>
+               <nt cat="pp" id="s11_505">
+                  <edge idref="s11_5" label="HD"></edge>
+                  <edge idref="s11_507" label="UK"></edge>
+               </nt>
+               <nt cat="kn" id="s11_504">
+                  <edge idref="s11_4" label="HD"></edge>
+                  <edge idref="s11_505" label="UK"></edge>
+               </nt>
+               <nt cat="pm.nom" id="s11_515">
+                  <edge idref="s11_15" label="HD"></edge>
+                  <edge idref="s11_14" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s11_513">
+                  <edge idref="s11_13" label="HD"></edge>
+                  <edge idref="s11_515" label="PR"></edge>
+               </nt>
+               <nt cat="nn.neu.plu.ind.nom" id="s11_519">
+                  <edge idref="s11_19" label="HD"></edge>
+                  <edge idref="s11_17" label="DET"></edge>
+                  <edge idref="s11_18" label="DET"></edge>
+               </nt>
+               <nt cat="vb.prt.sfo" id="s11_516">
+                  <edge idref="s11_16" label="HD"></edge>
+                  <edge idref="s11_513" label="ADV"></edge>
+                  <edge idref="s11_519" label="SUB"></edge>
+                  <edge idref="s11_20" label="IP"></edge>
+               </nt>
+               <nt cat="ab" id="s11_512">
+                  <edge idref="s11_12" label="HD"></edge>
+                  <edge idref="s11_516" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s11_502">
+                  <edge idref="s11_2" label="HD"></edge>
+                  <edge idref="s11_1" label="SUB"></edge>
+                  <edge idref="s11_3" label="ADV"></edge>
+                  <edge idref="s11_504" label="PRD"></edge>
+                  <edge idref="s11_11" label="IP"></edge>
+                  <edge idref="s11_512" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s11_500">
+                  <edge idref="s11_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s12">
+         <graph root="s12_500">
+            <terminals>
+               <t id="s12_1" pos="ab" word="Där"></t>
+               <t id="s12_2" pos="vb.prt.akt.mod" word="började"></t>
+               <t id="s12_3" pos="jj.pos.utr/neu.sin.def.nom" word="djupa"></t>
+               <t id="s12_4" pos="nn.utr.sin.def.nom" word="skogen"></t>
+               <t id="s12_5" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.def.nom" id="s12_504">
+                  <edge idref="s12_4" label="HD"></edge>
+                  <edge idref="s12_3" label="ATT"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s12_502">
+                  <edge idref="s12_2" label="HD"></edge>
+                  <edge idref="s12_1" label="ADV"></edge>
+                  <edge idref="s12_504" label="OBJ"></edge>
+                  <edge idref="s12_5" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s12_500">
+                  <edge idref="s12_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s13">
+         <graph root="s13_500">
+            <terminals>
+               <t id="s13_1" pos="ab" word="Nu"></t>
+               <t id="s13_2" pos="vb.prt.akt" word="svängde"></t>
+               <t id="s13_3" pos="pn.utr.sin.def.sub" word="hon"></t>
+               <t id="s13_4" pos="pl" word="in"></t>
+               <t id="s13_5" pos="pp" word="på"></t>
+               <t id="s13_6" pos="nn.utr.sin.def.nom" word="Klövervägen"></t>
+               <t id="s13_7" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s13_505">
+                  <edge idref="s13_5" label="HD"></edge>
+                  <edge idref="s13_6" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s13_502">
+                  <edge idref="s13_2" label="HD"></edge>
+                  <edge idref="s13_1" label="ADV"></edge>
+                  <edge idref="s13_3" label="SUB"></edge>
+                  <edge idref="s13_4" label="ADV"></edge>
+                  <edge idref="s13_505" label="ADV"></edge>
+                  <edge idref="s13_7" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s13_500">
+                  <edge idref="s13_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s14">
+         <graph root="s14_500">
+            <terminals>
+               <t id="s14_1" pos="ab" word="Alldeles"></t>
+               <t id="s14_2" pos="pp" word="i"></t>
+               <t id="s14_3" pos="nn.neu.sin.def.nom" word="slutet"></t>
+               <t id="s14_4" pos="vb.prt.akt" word="gjorde"></t>
+               <t id="s14_5" pos="nn.utr.sin.def.nom" word="vägen"></t>
+               <t id="s14_6" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s14_7" pos="jj.pos.utr.sin.ind.nom" word="tvär"></t>
+               <t id="s14_8" pos="nn.utr.sin.ind.nom" word="sväng"></t>
+               <t id="s14_9" pos="hp.-.-.-" word="som"></t>
+               <t id="s14_10" pos="vb.prt.akt.mod" word="brukade"></t>
+               <t id="s14_11" pos="vb.inf.sfo" word="kallas"></t>
+               <t id="s14_12" pos="pp" word="för"></t>
+               <t id="s14_13" pos="pad" word="&quot;"></t>
+               <t id="s14_14" pos="nn.utr.sin.def.nom" word="Kaptenssvängen"></t>
+               <t id="s14_15" pos="pad" word="&quot;"></t>
+               <t id="s14_16" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s14_502">
+                  <edge idref="s14_2" label="HD"></edge>
+                  <edge idref="s14_1" label="ADV"></edge>
+                  <edge idref="s14_3" label="PR"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.def.nom" id="s14_514">
+                  <edge idref="s14_14" label="HD"></edge>
+                  <edge idref="s14_13" label="IP"></edge>
+                  <edge idref="s14_15" label="IP"></edge>
+               </nt>
+               <nt cat="pp" id="s14_512">
+                  <edge idref="s14_12" label="HD"></edge>
+                  <edge idref="s14_514" label="PR"></edge>
+               </nt>
+               <nt cat="vb.inf.sfo" id="s14_511">
+                  <edge idref="s14_11" label="HD"></edge>
+                  <edge idref="s14_512" label="ADV"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s14_510">
+                  <edge idref="s14_10" label="HD"></edge>
+                  <edge idref="s14_9" label="SUB"></edge>
+                  <edge idref="s14_511" label="VC"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s14_508">
+                  <edge idref="s14_8" label="HD"></edge>
+                  <edge idref="s14_6" label="DET"></edge>
+                  <edge idref="s14_7" label="ATT"></edge>
+                  <edge idref="s14_510" label="ATT"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s14_504">
+                  <edge idref="s14_4" label="HD"></edge>
+                  <edge idref="s14_502" label="ADV"></edge>
+                  <edge idref="s14_5" label="SUB"></edge>
+                  <edge idref="s14_508" label="OBJ"></edge>
+                  <edge idref="s14_16" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s14_500">
+                  <edge idref="s14_504" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s15">
+         <graph root="s15_500">
+            <terminals>
+               <t id="s15_1" pos="pn.neu.sin.def.sub/obj" word="Det"></t>
+               <t id="s15_2" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s15_3" pos="ab" word="nästan"></t>
+               <t id="s15_4" pos="ab" word="bara"></t>
+               <t id="s15_5" pos="pp" word="på"></t>
+               <t id="s15_6" pos="nn.utr.plu.ind.nom" word="lördagar"></t>
+               <t id="s15_7" pos="kn" word="och"></t>
+               <t id="s15_8" pos="nn.utr.plu.ind.nom" word="söndagar"></t>
+               <t id="s15_9" pos="kn" word="som"></t>
+               <t id="s15_10" pos="nn.neu.plu.ind.nom" word="folk"></t>
+               <t id="s15_11" pos="vb.prt.akt" word="promenerade"></t>
+               <t id="s15_12" pos="ab" word="ända"></t>
+               <t id="s15_13" pos="ab" word="dit"></t>
+               <t id="s15_14" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="kn" id="s15_507">
+                  <edge idref="s15_7" label="HD"></edge>
+                  <edge idref="s15_8" label="CC"></edge>
+               </nt>
+               <nt cat="nn.utr.plu.ind.nom" id="s15_506">
+                  <edge idref="s15_6" label="HD"></edge>
+                  <edge idref="s15_507" label="CC"></edge>
+               </nt>
+               <nt cat="pp" id="s15_505">
+                  <edge idref="s15_5" label="HD"></edge>
+                  <edge idref="s15_506" label="PR"></edge>
+               </nt>
+               <nt cat="ab" id="s15_513">
+                  <edge idref="s15_13" label="HD"></edge>
+                  <edge idref="s15_12" label="ADV"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s15_511">
+                  <edge idref="s15_11" label="HD"></edge>
+                  <edge idref="s15_9" label="ADV"></edge>
+                  <edge idref="s15_10" label="SUB"></edge>
+                  <edge idref="s15_513" label="ADV"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s15_502">
+                  <edge idref="s15_2" label="HD"></edge>
+                  <edge idref="s15_1" label="SUB"></edge>
+                  <edge idref="s15_3" label="ADV"></edge>
+                  <edge idref="s15_4" label="ADV"></edge>
+                  <edge idref="s15_505" label="PRD"></edge>
+                  <edge idref="s15_511" label="APP"></edge>
+                  <edge idref="s15_14" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s15_500">
+                  <edge idref="s15_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s16">
+         <graph root="s16_500">
+            <terminals>
+               <t id="s16_1" pos="pn.neu.sin.def.sub/obj" word="Det"></t>
+               <t id="s16_2" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s16_3" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s16_4" pos="pp" word="av"></t>
+               <t id="s16_5" pos="dt.utr/neu.plu.def" word="de"></t>
+               <t id="s16_6" pos="ro.nom" word="första"></t>
+               <t id="s16_7" pos="nn.utr.plu.def.nom" word="dagarna"></t>
+               <t id="s16_8" pos="pp" word="i"></t>
+               <t id="s16_9" pos="nn.utr.sin.ind.nom.dat" word="maj"></t>
+               <t id="s16_10" pos="mid" word=","></t>
+               <t id="s16_11" pos="kn" word="och"></t>
+               <t id="s16_12" pos="pp" word="under"></t>
+               <t id="s16_13" pos="nn.neu.plu.ind.nom" word="fruktträden"></t>
+               <t id="s16_14" pos="pp" word="i"></t>
+               <t id="s16_15" pos="pn.utr/neu.plu.ind.sub/obj" word="några"></t>
+               <t id="s16_16" pos="pp" word="av"></t>
+               <t id="s16_17" pos="nn.utr.plu.def.nom" word="trädgårdarna"></t>
+               <t id="s16_18" pos="vb.prt.akt.aux" word="hade"></t>
+               <t id="s16_19" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s16_20" pos="vb.sup.akt" word="kommit"></t>
+               <t id="s16_21" pos="pl" word="upp"></t>
+               <t id="s16_22" pos="nn.utr.plu.ind.nom" word="massor"></t>
+               <t id="s16_23" pos="pp" word="av"></t>
+               <t id="s16_24" pos="nn.utr.plu.ind.nom" word="påskliljor"></t>
+               <t id="s16_25" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s16_508">
+                  <edge idref="s16_8" label="HD"></edge>
+                  <edge idref="s16_9" label="PR"></edge>
+               </nt>
+               <nt cat="nn.utr.plu.def.nom" id="s16_507">
+                  <edge idref="s16_7" label="HD"></edge>
+                  <edge idref="s16_5" label="DET"></edge>
+                  <edge idref="s16_6" label="DET"></edge>
+                  <edge idref="s16_508" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s16_504">
+                  <edge idref="s16_4" label="HD"></edge>
+                  <edge idref="s16_507" label="PR"></edge>
+               </nt>
+               <nt cat="dt.utr.sin.ind" id="s16_503">
+                  <edge idref="s16_3" label="HD"></edge>
+                  <edge idref="s16_504" label="PR"></edge>
+               </nt>
+               <nt cat="pp" id="s16_516">
+                  <edge idref="s16_16" label="HD"></edge>
+                  <edge idref="s16_17" label="PR"></edge>
+               </nt>
+               <nt cat="pn.utr/neu.plu.ind.sub/obj" id="s16_515">
+                  <edge idref="s16_15" label="HD"></edge>
+                  <edge idref="s16_516" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s16_514">
+                  <edge idref="s16_14" label="HD"></edge>
+                  <edge idref="s16_515" label="PR"></edge>
+               </nt>
+               <nt cat="nn.neu.plu.ind.nom" id="s16_513">
+                  <edge idref="s16_13" label="HD"></edge>
+                  <edge idref="s16_514" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s16_512">
+                  <edge idref="s16_12" label="HD"></edge>
+                  <edge idref="s16_513" label="PR"></edge>
+               </nt>
+               <nt cat="pp" id="s16_523">
+                  <edge idref="s16_23" label="HD"></edge>
+                  <edge idref="s16_24" label="PR"></edge>
+               </nt>
+               <nt cat="nn.utr.plu.ind.nom" id="s16_522">
+                  <edge idref="s16_22" label="HD"></edge>
+                  <edge idref="s16_523" label="ATT"></edge>
+               </nt>
+               <nt cat="vb.sup.akt" id="s16_520">
+                  <edge idref="s16_20" label="HD"></edge>
+                  <edge idref="s16_21" label="ADV"></edge>
+                  <edge idref="s16_522" label="SUB"></edge>
+                  <edge idref="s16_25" label="IP"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.aux" id="s16_518">
+                  <edge idref="s16_18" label="HD"></edge>
+                  <edge idref="s16_512" label="ADV"></edge>
+                  <edge idref="s16_19" label="SUB"></edge>
+                  <edge idref="s16_520" label="VC"></edge>
+               </nt>
+               <nt cat="kn" id="s16_511">
+                  <edge idref="s16_11" label="HD"></edge>
+                  <edge idref="s16_518" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s16_502">
+                  <edge idref="s16_2" label="HD"></edge>
+                  <edge idref="s16_1" label="SUB"></edge>
+                  <edge idref="s16_503" label="PRD"></edge>
+                  <edge idref="s16_10" label="IP"></edge>
+                  <edge idref="s16_511" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s16_500">
+                  <edge idref="s16_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s17">
+         <graph root="s17_500">
+            <terminals>
+               <t id="s17_1" pos="nn.utr.plu.def.nom" word="Björkarna"></t>
+               <t id="s17_2" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s17_3" pos="jj.pos.utr/neu.plu.ind/def.nom" word="klädda"></t>
+               <t id="s17_4" pos="pp" word="i"></t>
+               <t id="s17_5" pos="jj.pos.utr/neu.plu.ind/def.nom" word="skira"></t>
+               <t id="s17_6" pos="jj.pos.utr/neu.plu.ind/def.nom" word="gröna"></t>
+               <t id="s17_7" pos="nn.utr.plu.ind.nom" word="florslöjor"></t>
+               <t id="s17_8" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.plu.ind.nom" id="s17_507">
+                  <edge idref="s17_7" label="HD"></edge>
+                  <edge idref="s17_5" label="ATT"></edge>
+                  <edge idref="s17_6" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s17_504">
+                  <edge idref="s17_4" label="HD"></edge>
+                  <edge idref="s17_507" label="PR"></edge>
+               </nt>
+               <nt cat="jj.pos.utr/neu.plu.ind/def.nom" id="s17_503">
+                  <edge idref="s17_3" label="HD"></edge>
+                  <edge idref="s17_504" label="ADV"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s17_502">
+                  <edge idref="s17_2" label="HD"></edge>
+                  <edge idref="s17_1" label="SUB"></edge>
+                  <edge idref="s17_503" label="PRD"></edge>
+                  <edge idref="s17_8" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s17_500">
+                  <edge idref="s17_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s18">
+         <graph root="s18_500">
+            <terminals>
+               <t id="s18_1" pos="ha" word="Hur"></t>
+               <t id="s18_2" pos="vb.prt.akt.mod" word="kunde"></t>
+               <t id="s18_3" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s18_4" pos="vb.inf.akt" word="komma"></t>
+               <t id="s18_5" pos="pn.utr/neu.sin/plu.def.obj" word="sig"></t>
+               <t id="s18_6" pos="sn" word="att"></t>
+               <t id="s18_7" pos="pn.neu.sin.ind.sub/obj" word="allting"></t>
+               <t id="s18_8" pos="vb.prt.akt.mod" word="började"></t>
+               <t id="s18_9" pos="vb.inf.akt" word="växa"></t>
+               <t id="s18_10" pos="kn" word="och"></t>
+               <t id="s18_11" pos="vb.inf.akt" word="gro"></t>
+               <t id="s18_12" pos="pp" word="vid"></t>
+               <t id="s18_13" pos="dt.utr.sin.def" word="den"></t>
+               <t id="s18_14" pos="ab" word="här"></t>
+               <t id="s18_15" pos="nn.utr.sin.def.nom" word="tiden"></t>
+               <t id="s18_16" pos="pp" word="på"></t>
+               <t id="s18_17" pos="nn.neu.sin.def.nom" word="året"></t>
+               <t id="s18_18" pos="mad" word="?"></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="dt.utr.sin.def" id="s18_513">
+                  <edge idref="s18_13" label="HD"></edge>
+                  <edge idref="s18_14" label="ID"></edge>
+               </nt>
+               <nt cat="pp" id="s18_516">
+                  <edge idref="s18_16" label="HD"></edge>
+                  <edge idref="s18_17" label="PR"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.def.nom" id="s18_515">
+                  <edge idref="s18_15" label="HD"></edge>
+                  <edge idref="s18_513" label="DET"></edge>
+                  <edge idref="s18_516" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s18_512">
+                  <edge idref="s18_12" label="HD"></edge>
+                  <edge idref="s18_515" label="PR"></edge>
+               </nt>
+               <nt cat="vb.inf.akt" id="s18_511">
+                  <edge idref="s18_11" label="HD"></edge>
+                  <edge idref="s18_512" label="ADV"></edge>
+               </nt>
+               <nt cat="kn" id="s18_510">
+                  <edge idref="s18_10" label="HD"></edge>
+                  <edge idref="s18_511" label="CC"></edge>
+               </nt>
+               <nt cat="vb.inf.akt" id="s18_509">
+                  <edge idref="s18_9" label="HD"></edge>
+                  <edge idref="s18_510" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s18_508">
+                  <edge idref="s18_8" label="HD"></edge>
+                  <edge idref="s18_7" label="SUB"></edge>
+                  <edge idref="s18_509" label="VC"></edge>
+               </nt>
+               <nt cat="sn" id="s18_506">
+                  <edge idref="s18_6" label="HD"></edge>
+                  <edge idref="s18_508" label="UK"></edge>
+               </nt>
+               <nt cat="vb.inf.akt" id="s18_504">
+                  <edge idref="s18_4" label="HD"></edge>
+                  <edge idref="s18_5" label="OBJ"></edge>
+                  <edge idref="s18_506" label="SUB"></edge>
+                  <edge idref="s18_18" label="IP"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s18_502">
+                  <edge idref="s18_2" label="HD"></edge>
+                  <edge idref="s18_1" label="ADV"></edge>
+                  <edge idref="s18_3" label="SUB"></edge>
+                  <edge idref="s18_504" label="VC"></edge>
+               </nt>
+               <nt cat="root" id="s18_500">
+                  <edge idref="s18_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s19">
+         <graph root="s19_500">
+            <terminals>
+               <t id="s19_1" pos="hp.neu.sin.ind" word="Vad"></t>
+               <t id="s19_2" pos="vb.prt.akt.mod" word="kunde"></t>
+               <t id="s19_3" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s19_4" pos="vb.inf.akt.kop" word="vara"></t>
+               <t id="s19_5" pos="hp.-.-.-" word="som"></t>
+               <t id="s19_6" pos="vb.prt.akt.mod" word="fick"></t>
+               <t id="s19_7" pos="nn.neu.plu.ind.nom" word="kilo"></t>
+               <t id="s19_8" pos="pp" word="på"></t>
+               <t id="s19_9" pos="nn.neu.plu.ind.nom" word="kilo"></t>
+               <t id="s19_10" pos="pp" word="med"></t>
+               <t id="s19_11" pos="nn.utr.sin.ind.nom" word="grönska"></t>
+               <t id="s19_12" pos="ie" word="att"></t>
+               <t id="s19_13" pos="vb.inf.akt" word="välla"></t>
+               <t id="s19_14" pos="pl" word="upp"></t>
+               <t id="s19_15" pos="pp" word="ur"></t>
+               <t id="s19_16" pos="pn.utr.sin.def.sub/obj" word="den"></t>
+               <t id="s19_17" pos="vb.inf.akt" word="livlösa"></t>
+               <t id="s19_18" pos="nn.utr.sin.def.nom" word="jorden"></t>
+               <t id="s19_19" pos="ab" word="så"></t>
+               <t id="s19_20" pos="ab.pos" word="fort"></t>
+               <t id="s19_21" pos="nn.utr.sin.def.nom" word="snön"></t>
+               <t id="s19_22" pos="vb.prt.akt" word="försvann"></t>
+               <t id="s19_23" pos="kn" word="och"></t>
+               <t id="s19_24" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s19_25" pos="vb.prt.akt.kop" word="blev"></t>
+               <t id="s19_26" pos="ab.pos" word="lite"></t>
+               <t id="s19_27" pos="jj.kom.utr/neu.sin/plu.ind/def.nom" word="varmare"></t>
+               <t id="s19_28" pos="pp" word="i"></t>
+               <t id="s19_29" pos="nn.utr.sin.def.nom" word="luften"></t>
+               <t id="s19_30" pos="mad" word="?"></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s19_510">
+                  <edge idref="s19_10" label="HD"></edge>
+                  <edge idref="s19_11" label="PR"></edge>
+               </nt>
+               <nt cat="nn.neu.plu.ind.nom" id="s19_509">
+                  <edge idref="s19_9" label="HD"></edge>
+                  <edge idref="s19_510" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s19_508">
+                  <edge idref="s19_8" label="HD"></edge>
+                  <edge idref="s19_509" label="PR"></edge>
+               </nt>
+               <nt cat="nn.neu.plu.ind.nom" id="s19_507">
+                  <edge idref="s19_7" label="HD"></edge>
+                  <edge idref="s19_508" label="ATT"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.def.nom" id="s19_518">
+                  <edge idref="s19_18" label="HD"></edge>
+                  <edge idref="s19_16" label="DET"></edge>
+                  <edge idref="s19_17" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s19_515">
+                  <edge idref="s19_15" label="HD"></edge>
+                  <edge idref="s19_518" label="PR"></edge>
+               </nt>
+               <nt cat="vb.inf.akt" id="s19_513">
+                  <edge idref="s19_13" label="HD"></edge>
+                  <edge idref="s19_14" label="ADV"></edge>
+                  <edge idref="s19_515" label="ADV"></edge>
+               </nt>
+               <nt cat="ie" id="s19_512">
+                  <edge idref="s19_12" label="HD"></edge>
+                  <edge idref="s19_513" label="IM"></edge>
+               </nt>
+               <nt cat="jj.kom.utr/neu.sin/plu.ind/def.nom" id="s19_527">
+                  <edge idref="s19_27" label="HD"></edge>
+                  <edge idref="s19_26" label="ADV"></edge>
+               </nt>
+               <nt cat="pp" id="s19_528">
+                  <edge idref="s19_28" label="HD"></edge>
+                  <edge idref="s19_29" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s19_525">
+                  <edge idref="s19_25" label="HD"></edge>
+                  <edge idref="s19_24" label="SUB"></edge>
+                  <edge idref="s19_527" label="PRD"></edge>
+                  <edge idref="s19_528" label="ADV"></edge>
+               </nt>
+               <nt cat="kn" id="s19_523">
+                  <edge idref="s19_23" label="HD"></edge>
+                  <edge idref="s19_525" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s19_522">
+                  <edge idref="s19_22" label="HD"></edge>
+                  <edge idref="s19_21" label="SUB"></edge>
+                  <edge idref="s19_523" label="CC"></edge>
+               </nt>
+               <nt cat="ab.pos" id="s19_520">
+                  <edge idref="s19_20" label="HD"></edge>
+                  <edge idref="s19_522" label="UK"></edge>
+               </nt>
+               <nt cat="ab" id="s19_519">
+                  <edge idref="s19_19" label="HD"></edge>
+                  <edge idref="s19_520" label="ID"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s19_506">
+                  <edge idref="s19_6" label="HD"></edge>
+                  <edge idref="s19_5" label="SUB"></edge>
+                  <edge idref="s19_507" label="OBJ"></edge>
+                  <edge idref="s19_512" label="INF"></edge>
+                  <edge idref="s19_519" label="ADV"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s19_502">
+                  <edge idref="s19_2" label="HD"></edge>
+                  <edge idref="s19_1" label="PRD"></edge>
+                  <edge idref="s19_3" label="SUB"></edge>
+                  <edge idref="s19_4" label="VC"></edge>
+                  <edge idref="s19_506" label="APP"></edge>
+                  <edge idref="s19_30" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s19_500">
+                  <edge idref="s19_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s20">
+         <graph root="s20_500">
+            <terminals>
+               <t id="s20_1" pos="pm.nom" word="Sofie"></t>
+               <t id="s20_2" pos="vb.prt.akt" word="öppnade"></t>
+               <t id="s20_3" pos="nn.utr.sin.def.nom" word="grinden"></t>
+               <t id="s20_4" pos="kn" word="och"></t>
+               <t id="s20_5" pos="vb.prt.akt" word="tittade"></t>
+               <t id="s20_6" pos="pp" word="i"></t>
+               <t id="s20_7" pos="nn.utr.sin.def.nom" word="brevlådan"></t>
+               <t id="s20_8" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s20_506">
+                  <edge idref="s20_6" label="HD"></edge>
+                  <edge idref="s20_7" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s20_505">
+                  <edge idref="s20_5" label="HD"></edge>
+                  <edge idref="s20_506" label="ADV"></edge>
+                  <edge idref="s20_8" label="IP"></edge>
+               </nt>
+               <nt cat="kn" id="s20_504">
+                  <edge idref="s20_4" label="HD"></edge>
+                  <edge idref="s20_505" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s20_502">
+                  <edge idref="s20_2" label="HD"></edge>
+                  <edge idref="s20_1" label="SUB"></edge>
+                  <edge idref="s20_3" label="OBJ"></edge>
+                  <edge idref="s20_504" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s20_500">
+                  <edge idref="s20_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s21">
+         <graph root="s21_500">
+            <terminals>
+               <t id="s21_1" pos="ab" word="Där"></t>
+               <t id="s21_2" pos="vb.prt.akt.mod" word="brukade"></t>
+               <t id="s21_3" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s21_4" pos="ab" word="alltid"></t>
+               <t id="s21_5" pos="vb.inf.akt" word="ligga"></t>
+               <t id="s21_6" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s21_7" pos="nn.utr.sin.ind.nom.set" word="massa"></t>
+               <t id="s21_8" pos="nn.utr.plu.ind.nom" word="reklambroschyrer"></t>
+               <t id="s21_9" pos="kn" word="och"></t>
+               <t id="s21_10" pos="jj.pos.utr/neu.plu.ind/def.nom" word="stora"></t>
+               <t id="s21_11" pos="nn.neu.plu.ind.nom" word="kuvert"></t>
+               <t id="s21_12" pos="pp" word="till"></t>
+               <t id="s21_13" pos="nn.utr.sin.def.nom" word="modern"></t>
+               <t id="s21_14" pos="mid" word=","></t>
+               <t id="s21_15" pos="hp.-.-.-" word="som"></t>
+               <t id="s21_16" pos="pn.utr.sin.def.sub" word="hon"></t>
+               <t id="s21_17" pos="vb.prt.akt" word="lade"></t>
+               <t id="s21_18" pos="pp" word="i"></t>
+               <t id="s21_19" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s21_20" pos="jj.pos.utr.sin.ind.nom" word="stor"></t>
+               <t id="s21_21" pos="jj.pos.utr.sin.ind.nom" word="hög"></t>
+               <t id="s21_22" pos="pp" word="på"></t>
+               <t id="s21_23" pos="nn.neu.sin.def.nom" word="köksbordet"></t>
+               <t id="s21_24" pos="sn" word="innan"></t>
+               <t id="s21_25" pos="pn.utr.sin.def.sub" word="hon"></t>
+               <t id="s21_26" pos="vb.prt.akt" word="gick"></t>
+               <t id="s21_27" pos="pl" word="upp"></t>
+               <t id="s21_28" pos="pp" word="till"></t>
+               <t id="s21_29" pos="ps.neu.sin.def" word="sitt"></t>
+               <t id="s21_30" pos="jj.pos.neu.sin.ind/def.nom" word="eget"></t>
+               <t id="s21_31" pos="nn.neu.sin.ind.nom" word="rum"></t>
+               <t id="s21_32" pos="kn" word="och"></t>
+               <t id="s21_33" pos="vb.prt.akt.mod" word="började"></t>
+               <t id="s21_34" pos="pp" word="med"></t>
+               <t id="s21_35" pos="nn.utr.plu.def.nom" word="läxorna"></t>
+               <t id="s21_36" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.ind.nom.set" id="s21_507">
+                  <edge idref="s21_7" label="HD"></edge>
+                  <edge idref="s21_6" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s21_522">
+                  <edge idref="s21_22" label="HD"></edge>
+                  <edge idref="s21_23" label="PR"></edge>
+               </nt>
+               <nt cat="jj.pos.utr.sin.ind.nom" id="s21_521">
+                  <edge idref="s21_21" label="HD"></edge>
+                  <edge idref="s21_19" label="DET"></edge>
+                  <edge idref="s21_20" label="ATT"></edge>
+                  <edge idref="s21_522" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s21_518">
+                  <edge idref="s21_18" label="HD"></edge>
+                  <edge idref="s21_521" label="PR"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.ind.nom" id="s21_531">
+                  <edge idref="s21_31" label="HD"></edge>
+                  <edge idref="s21_29" label="DET"></edge>
+                  <edge idref="s21_30" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s21_528">
+                  <edge idref="s21_28" label="HD"></edge>
+                  <edge idref="s21_531" label="PR"></edge>
+               </nt>
+               <nt cat="pp" id="s21_534">
+                  <edge idref="s21_34" label="HD"></edge>
+                  <edge idref="s21_35" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s21_533">
+                  <edge idref="s21_33" label="HD"></edge>
+                  <edge idref="s21_534" label="ADV"></edge>
+               </nt>
+               <nt cat="kn" id="s21_532">
+                  <edge idref="s21_32" label="HD"></edge>
+                  <edge idref="s21_533" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s21_526">
+                  <edge idref="s21_26" label="HD"></edge>
+                  <edge idref="s21_25" label="SUB"></edge>
+                  <edge idref="s21_27" label="ADV"></edge>
+                  <edge idref="s21_528" label="ADV"></edge>
+                  <edge idref="s21_532" label="CC"></edge>
+               </nt>
+               <nt cat="sn" id="s21_524">
+                  <edge idref="s21_24" label="HD"></edge>
+                  <edge idref="s21_526" label="UK"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s21_517">
+                  <edge idref="s21_17" label="HD"></edge>
+                  <edge idref="s21_15" label="OBJ"></edge>
+                  <edge idref="s21_16" label="SUB"></edge>
+                  <edge idref="s21_518" label="ADV"></edge>
+                  <edge idref="s21_524" label="ADV"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.def.nom" id="s21_513">
+                  <edge idref="s21_13" label="HD"></edge>
+                  <edge idref="s21_14" label="IP"></edge>
+                  <edge idref="s21_517" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s21_512">
+                  <edge idref="s21_12" label="HD"></edge>
+                  <edge idref="s21_513" label="PR"></edge>
+               </nt>
+               <nt cat="nn.neu.plu.ind.nom" id="s21_511">
+                  <edge idref="s21_11" label="HD"></edge>
+                  <edge idref="s21_10" label="ATT"></edge>
+                  <edge idref="s21_512" label="ATT"></edge>
+               </nt>
+               <nt cat="kn" id="s21_509">
+                  <edge idref="s21_9" label="HD"></edge>
+                  <edge idref="s21_511" label="CC"></edge>
+               </nt>
+               <nt cat="nn.utr.plu.ind.nom" id="s21_508">
+                  <edge idref="s21_8" label="HD"></edge>
+                  <edge idref="s21_507" label="DET"></edge>
+                  <edge idref="s21_509" label="CC"></edge>
+               </nt>
+               <nt cat="vb.inf.akt" id="s21_505">
+                  <edge idref="s21_5" label="HD"></edge>
+                  <edge idref="s21_508" label="SUB"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s21_502">
+                  <edge idref="s21_2" label="HD"></edge>
+                  <edge idref="s21_1" label="ADV"></edge>
+                  <edge idref="s21_3" label="SUB"></edge>
+                  <edge idref="s21_4" label="ADV"></edge>
+                  <edge idref="s21_505" label="VC"></edge>
+                  <edge idref="s21_36" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s21_500">
+                  <edge idref="s21_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s22">
+         <graph root="s22_500">
+            <terminals>
+               <t id="s22_1" pos="pp" word="Till"></t>
+               <t id="s22_2" pos="pm.gen" word="Sofies"></t>
+               <t id="s22_3" pos="nn.utr.sin.ind.nom" word="pappa"></t>
+               <t id="s22_4" pos="vb.prt.akt" word="kom"></t>
+               <t id="s22_5" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s22_6" pos="ab" word="bara"></t>
+               <t id="s22_7" pos="dt.utr/neu.plu.ind" word="några"></t>
+               <t id="s22_8" pos="nn.neu.plu.ind.nom" word="brev"></t>
+               <t id="s22_9" pos="pp" word="från"></t>
+               <t id="s22_10" pos="nn.utr.sin.def.nom" word="banken"></t>
+               <t id="s22_11" pos="ab" word="då"></t>
+               <t id="s22_12" pos="kn" word="och"></t>
+               <t id="s22_13" pos="ab" word="då"></t>
+               <t id="s22_14" pos="mid" word=","></t>
+               <t id="s22_15" pos="kn" word="men"></t>
+               <t id="s22_16" pos="pn.utr.sin.def.sub" word="han"></t>
+               <t id="s22_17" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s22_18" pos="ab" word="ju"></t>
+               <t id="s22_19" pos="ab" word="heller"></t>
+               <t id="s22_20" pos="ab" word="inte"></t>
+               <t id="s22_21" pos="kn" word="som"></t>
+               <t id="s22_22" pos="jj.pos.utr/neu.plu.ind/def.nom" word="andra"></t>
+               <t id="s22_23" pos="nn.utr.plu.ind.nom" word="pappor"></t>
+               <t id="s22_24" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.ind.nom" id="s22_503">
+                  <edge idref="s22_3" label="HD"></edge>
+                  <edge idref="s22_2" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s22_501">
+                  <edge idref="s22_1" label="HD"></edge>
+                  <edge idref="s22_503" label="PR"></edge>
+               </nt>
+               <nt cat="nn.neu.plu.ind.nom" id="s22_508">
+                  <edge idref="s22_8" label="HD"></edge>
+                  <edge idref="s22_7" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s22_509">
+                  <edge idref="s22_9" label="HD"></edge>
+                  <edge idref="s22_10" label="PR"></edge>
+               </nt>
+               <nt cat="kn" id="s22_512">
+                  <edge idref="s22_12" label="HD"></edge>
+                  <edge idref="s22_13" label="ID"></edge>
+               </nt>
+               <nt cat="ab" id="s22_511">
+                  <edge idref="s22_11" label="HD"></edge>
+                  <edge idref="s22_512" label="ID"></edge>
+               </nt>
+               <nt cat="nn.utr.plu.ind.nom" id="s22_523">
+                  <edge idref="s22_23" label="HD"></edge>
+                  <edge idref="s22_22" label="DET"></edge>
+               </nt>
+               <nt cat="kn" id="s22_521">
+                  <edge idref="s22_21" label="HD"></edge>
+                  <edge idref="s22_523" label="UK"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s22_517">
+                  <edge idref="s22_17" label="HD"></edge>
+                  <edge idref="s22_16" label="SUB"></edge>
+                  <edge idref="s22_18" label="ADV"></edge>
+                  <edge idref="s22_19" label="ADV"></edge>
+                  <edge idref="s22_20" label="ADV"></edge>
+                  <edge idref="s22_521" label="PRD"></edge>
+                  <edge idref="s22_24" label="IP"></edge>
+               </nt>
+               <nt cat="kn" id="s22_515">
+                  <edge idref="s22_15" label="HD"></edge>
+                  <edge idref="s22_517" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s22_504">
+                  <edge idref="s22_4" label="HD"></edge>
+                  <edge idref="s22_501" label="ADV"></edge>
+                  <edge idref="s22_5" label="SUB"></edge>
+                  <edge idref="s22_6" label="ADV"></edge>
+                  <edge idref="s22_508" label="SUB"></edge>
+                  <edge idref="s22_509" label="ADV"></edge>
+                  <edge idref="s22_511" label="ADV"></edge>
+                  <edge idref="s22_14" label="IP"></edge>
+                  <edge idref="s22_515" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s22_500">
+                  <edge idref="s22_504" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s23">
+         <graph root="s23_500">
+            <terminals>
+               <t id="s23_1" pos="pn.utr.sin.def.sub" word="Han"></t>
+               <t id="s23_2" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s23_3" pos="nn.utr.sin.ind.nom" word="kapten"></t>
+               <t id="s23_4" pos="pp" word="på"></t>
+               <t id="s23_5" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s23_6" pos="jj.pos.utr.sin.ind.nom" word="stor"></t>
+               <t id="s23_7" pos="nn.utr.sin.ind.nom" word="oljetanker"></t>
+               <t id="s23_8" pos="mid" word=","></t>
+               <t id="s23_9" pos="kn" word="och"></t>
+               <t id="s23_10" pos="pn.utr.sin.def.sub" word="han"></t>
+               <t id="s23_11" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s23_12" pos="ab" word="nästan"></t>
+               <t id="s23_13" pos="ab" word="aldrig"></t>
+               <t id="s23_14" pos="ab" word="hemma"></t>
+               <t id="s23_15" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.ind.nom" id="s23_507">
+                  <edge idref="s23_7" label="HD"></edge>
+                  <edge idref="s23_5" label="DET"></edge>
+                  <edge idref="s23_6" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s23_504">
+                  <edge idref="s23_4" label="HD"></edge>
+                  <edge idref="s23_507" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s23_511">
+                  <edge idref="s23_11" label="HD"></edge>
+                  <edge idref="s23_10" label="SUB"></edge>
+                  <edge idref="s23_12" label="ADV"></edge>
+                  <edge idref="s23_13" label="ADV"></edge>
+                  <edge idref="s23_14" label="ADV"></edge>
+                  <edge idref="s23_15" label="IP"></edge>
+               </nt>
+               <nt cat="kn" id="s23_509">
+                  <edge idref="s23_9" label="HD"></edge>
+                  <edge idref="s23_511" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s23_502">
+                  <edge idref="s23_2" label="HD"></edge>
+                  <edge idref="s23_1" label="SUB"></edge>
+                  <edge idref="s23_3" label="PRD"></edge>
+                  <edge idref="s23_504" label="ADV"></edge>
+                  <edge idref="s23_8" label="IP"></edge>
+                  <edge idref="s23_509" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s23_500">
+                  <edge idref="s23_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s24">
+         <graph root="s24_500">
+            <terminals>
+               <t id="s24_1" pos="ha" word="När"></t>
+               <t id="s24_2" pos="pn.utr.sin.def.sub" word="han"></t>
+               <t id="s24_3" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s24_4" pos="ab" word="hemma"></t>
+               <t id="s24_5" pos="dt.utr/neu.plu.ind" word="några"></t>
+               <t id="s24_6" pos="nn.utr.plu.ind.nom" word="veckor"></t>
+               <t id="s24_7" pos="pp" word="i"></t>
+               <t id="s24_8" pos="nn.neu.sin.def.nom" word="taget"></t>
+               <t id="s24_9" pos="mid" word=","></t>
+               <t id="s24_10" pos="vb.prt.akt" word="tassade"></t>
+               <t id="s24_11" pos="pn.utr.sin.def.sub" word="han"></t>
+               <t id="s24_12" pos="ab" word="omkring"></t>
+               <t id="s24_13" pos="pp" word="i"></t>
+               <t id="s24_14" pos="nn.neu.sin.def.nom" word="huset"></t>
+               <t id="s24_15" pos="kn" word="och"></t>
+               <t id="s24_16" pos="vb.prt.akt" word="såg"></t>
+               <t id="s24_17" pos="pp" word="till"></t>
+               <t id="s24_18" pos="sn" word="att"></t>
+               <t id="s24_19" pos="pm.nom" word="Sofie"></t>
+               <t id="s24_20" pos="kn" word="och"></t>
+               <t id="s24_21" pos="ps.utr/neu.sin/plu.def" word="hennes"></t>
+               <t id="s24_22" pos="nn.utr.sin.ind.nom" word="mamma"></t>
+               <t id="s24_23" pos="vb.prt.akt.aux" word="hade"></t>
+               <t id="s24_24" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s24_25" pos="ab.pos" word="bra"></t>
+               <t id="s24_26" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s24_507">
+                  <edge idref="s24_7" label="HD"></edge>
+                  <edge idref="s24_8" label="ID"></edge>
+               </nt>
+               <nt cat="nn.utr.plu.ind.nom" id="s24_506">
+                  <edge idref="s24_6" label="HD"></edge>
+                  <edge idref="s24_5" label="DET"></edge>
+                  <edge idref="s24_507" label="ATT"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s24_503">
+                  <edge idref="s24_3" label="HD"></edge>
+                  <edge idref="s24_2" label="SUB"></edge>
+                  <edge idref="s24_4" label="PRD"></edge>
+                  <edge idref="s24_506" label="ADV"></edge>
+               </nt>
+               <nt cat="ha" id="s24_501">
+                  <edge idref="s24_1" label="HD"></edge>
+                  <edge idref="s24_503" label="UK"></edge>
+               </nt>
+               <nt cat="pp" id="s24_513">
+                  <edge idref="s24_13" label="HD"></edge>
+                  <edge idref="s24_14" label="ID"></edge>
+               </nt>
+               <nt cat="ab" id="s24_512">
+                  <edge idref="s24_12" label="HD"></edge>
+                  <edge idref="s24_513" label="ADV"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s24_522">
+                  <edge idref="s24_22" label="HD"></edge>
+                  <edge idref="s24_21" label="DET"></edge>
+               </nt>
+               <nt cat="kn" id="s24_520">
+                  <edge idref="s24_20" label="HD"></edge>
+                  <edge idref="s24_522" label="CC"></edge>
+               </nt>
+               <nt cat="pm.nom" id="s24_519">
+                  <edge idref="s24_19" label="HD"></edge>
+                  <edge idref="s24_520" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.aux" id="s24_523">
+                  <edge idref="s24_23" label="HD"></edge>
+                  <edge idref="s24_519" label="SUB"></edge>
+                  <edge idref="s24_24" label="OBJ"></edge>
+                  <edge idref="s24_25" label="PRD"></edge>
+               </nt>
+               <nt cat="sn" id="s24_518">
+                  <edge idref="s24_18" label="HD"></edge>
+                  <edge idref="s24_523" label="UK"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s24_516">
+                  <edge idref="s24_16" label="HD"></edge>
+                  <edge idref="s24_17" label="ADV"></edge>
+                  <edge idref="s24_518" label="OBJ"></edge>
+                  <edge idref="s24_26" label="IP"></edge>
+               </nt>
+               <nt cat="kn" id="s24_515">
+                  <edge idref="s24_15" label="HD"></edge>
+                  <edge idref="s24_516" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s24_510">
+                  <edge idref="s24_10" label="HD"></edge>
+                  <edge idref="s24_501" label="ADV"></edge>
+                  <edge idref="s24_9" label="IP"></edge>
+                  <edge idref="s24_11" label="SUB"></edge>
+                  <edge idref="s24_512" label="ADV"></edge>
+                  <edge idref="s24_515" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s24_500">
+                  <edge idref="s24_510" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s25">
+         <graph root="s25_500">
+            <terminals>
+               <t id="s25_1" pos="kn" word="Men"></t>
+               <t id="s25_2" pos="ha" word="när"></t>
+               <t id="s25_3" pos="pn.utr.sin.def.sub" word="han"></t>
+               <t id="s25_4" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s25_5" pos="pp" word="på"></t>
+               <t id="s25_6" pos="nn.utr.sin.def.nom" word="sjön"></t>
+               <t id="s25_7" pos="mid" word=","></t>
+               <t id="s25_8" pos="vb.prt.sfo" word="kändes"></t>
+               <t id="s25_9" pos="pn.utr.sin.def.sub" word="han"></t>
+               <t id="s25_10" pos="ab" word="ganska"></t>
+               <t id="s25_11" pos="jj.pos.utr.sin.ind.nom" word="avlägsen"></t>
+               <t id="s25_12" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s25_505">
+                  <edge idref="s25_5" label="HD"></edge>
+                  <edge idref="s25_6" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s25_504">
+                  <edge idref="s25_4" label="HD"></edge>
+                  <edge idref="s25_3" label="SUB"></edge>
+                  <edge idref="s25_505" label="PRD"></edge>
+               </nt>
+               <nt cat="ha" id="s25_502">
+                  <edge idref="s25_2" label="HD"></edge>
+                  <edge idref="s25_504" label="UK"></edge>
+               </nt>
+               <nt cat="jj.pos.utr.sin.ind.nom" id="s25_511">
+                  <edge idref="s25_11" label="HD"></edge>
+                  <edge idref="s25_10" label="ADV"></edge>
+               </nt>
+               <nt cat="vb.prt.sfo" id="s25_508">
+                  <edge idref="s25_8" label="HD"></edge>
+                  <edge idref="s25_502" label="ADV"></edge>
+                  <edge idref="s25_7" label="IP"></edge>
+                  <edge idref="s25_9" label="SUB"></edge>
+                  <edge idref="s25_511" label="PRD"></edge>
+                  <edge idref="s25_12" label="IP"></edge>
+               </nt>
+               <nt cat="kn" id="s25_501">
+                  <edge idref="s25_1" label="HD"></edge>
+                  <edge idref="s25_508" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s25_500">
+                  <edge idref="s25_501" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s26">
+         <graph root="s26_500">
+            <terminals>
+               <t id="s26_1" pos="pp" word="I"></t>
+               <t id="s26_2" pos="nn.utr.sin.ind.nom" word="dag"></t>
+               <t id="s26_3" pos="vb.prt.akt" word="låg"></t>
+               <t id="s26_4" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s26_5" pos="ab" word="bara"></t>
+               <t id="s26_6" pos="dt.neu.sin.ind" word="ett"></t>
+               <t id="s26_7" pos="jj.pos.neu.sin.ind.nom" word="litet"></t>
+               <t id="s26_8" pos="nn.neu.sin.ind.nom" word="brev"></t>
+               <t id="s26_9" pos="pp" word="i"></t>
+               <t id="s26_10" pos="nn.utr.sin.def.nom" word="brevlådan"></t>
+               <t id="s26_11" pos="mid" word="--"></t>
+               <t id="s26_12" pos="kn" word="och"></t>
+               <t id="s26_13" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s26_14" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s26_15" pos="pp" word="till"></t>
+               <t id="s26_16" pos="pm.nom" word="Sofie"></t>
+               <t id="s26_17" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s26_501">
+                  <edge idref="s26_1" label="HD"></edge>
+                  <edge idref="s26_2" label="ID"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.ind.nom" id="s26_508">
+                  <edge idref="s26_8" label="HD"></edge>
+                  <edge idref="s26_6" label="DET"></edge>
+                  <edge idref="s26_7" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s26_509">
+                  <edge idref="s26_9" label="HD"></edge>
+                  <edge idref="s26_10" label="PR"></edge>
+               </nt>
+               <nt cat="pp" id="s26_515">
+                  <edge idref="s26_15" label="HD"></edge>
+                  <edge idref="s26_16" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s26_514">
+                  <edge idref="s26_14" label="HD"></edge>
+                  <edge idref="s26_13" label="SUB"></edge>
+                  <edge idref="s26_515" label="PRD"></edge>
+                  <edge idref="s26_17" label="IP"></edge>
+               </nt>
+               <nt cat="kn" id="s26_512">
+                  <edge idref="s26_12" label="HD"></edge>
+                  <edge idref="s26_514" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s26_503">
+                  <edge idref="s26_3" label="HD"></edge>
+                  <edge idref="s26_501" label="ADV"></edge>
+                  <edge idref="s26_4" label="SUB"></edge>
+                  <edge idref="s26_5" label="ADV"></edge>
+                  <edge idref="s26_508" label="SUB"></edge>
+                  <edge idref="s26_509" label="ADV"></edge>
+                  <edge idref="s26_11" label="IP"></edge>
+                  <edge idref="s26_512" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s26_500">
+                  <edge idref="s26_503" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s27">
+         <graph root="s27_500">
+            <terminals>
+               <t id="s27_1" pos="pad" word="&quot;"></t>
+               <t id="s27_2" pos="pm.nom" word="Sofie"></t>
+               <t id="s27_3" pos="pm.nom" word="Amundsen"></t>
+               <t id="s27_4" pos="pad" word="&quot;"></t>
+               <t id="s27_5" pos="vb.prt.akt" word="stod"></t>
+               <t id="s27_6" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s27_7" pos="pp" word="på"></t>
+               <t id="s27_8" pos="dt.neu.sin.def" word="det"></t>
+               <t id="s27_9" pos="jj.pos.utr/neu.sin.def.nom" word="lilla"></t>
+               <t id="s27_10" pos="nn.neu.sin.def.nom" word="kuvertet"></t>
+               <t id="s27_11" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pm.nom" id="s27_503">
+                  <edge idref="s27_3" label="HD"></edge>
+                  <edge idref="s27_4" label="IP"></edge>
+               </nt>
+               <nt cat="pm.nom" id="s27_502">
+                  <edge idref="s27_2" label="HD"></edge>
+                  <edge idref="s27_1" label="IP"></edge>
+                  <edge idref="s27_503" label="ID"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.def.nom" id="s27_510">
+                  <edge idref="s27_10" label="HD"></edge>
+                  <edge idref="s27_8" label="DET"></edge>
+                  <edge idref="s27_9" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s27_507">
+                  <edge idref="s27_7" label="HD"></edge>
+                  <edge idref="s27_510" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s27_505">
+                  <edge idref="s27_5" label="HD"></edge>
+                  <edge idref="s27_502" label="SUB"></edge>
+                  <edge idref="s27_6" label="SUB"></edge>
+                  <edge idref="s27_507" label="ADV"></edge>
+                  <edge idref="s27_11" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s27_500">
+                  <edge idref="s27_505" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s28">
+         <graph root="s28_500">
+            <terminals>
+               <t id="s28_1" pos="pad" word="&quot;"></t>
+               <t id="s28_2" pos="pm.nom" word="Klövervägen"></t>
+               <t id="s28_3" pos="rg.nom" word="3"></t>
+               <t id="s28_4" pos="pad" word="&quot;"></t>
+               <t id="s28_5" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pm.nom" id="s28_502">
+                  <edge idref="s28_2" label="HD"></edge>
+                  <edge idref="s28_1" label="IP"></edge>
+                  <edge idref="s28_3" label="ATT"></edge>
+                  <edge idref="s28_4" label="IP"></edge>
+                  <edge idref="s28_5" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s28_500">
+                  <edge idref="s28_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s29">
+         <graph root="s29_500">
+            <terminals>
+               <t id="s29_1" pos="pn.neu.sin.def.sub/obj" word="Det"></t>
+               <t id="s29_2" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s29_3" pos="pn.neu.sin.ind.sub/obj" word="allt"></t>
+               <t id="s29_4" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="vb.prt.akt.kop" id="s29_502">
+                  <edge idref="s29_2" label="HD"></edge>
+                  <edge idref="s29_1" label="SUB"></edge>
+                  <edge idref="s29_3" label="PRD"></edge>
+                  <edge idref="s29_4" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s29_500">
+                  <edge idref="s29_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s30">
+         <graph root="s30_500">
+            <terminals>
+               <t id="s30_1" pos="pn.neu.sin.def.sub/obj" word="Det"></t>
+               <t id="s30_2" pos="vb.prt.akt" word="stod"></t>
+               <t id="s30_3" pos="ab" word="inte"></t>
+               <t id="s30_4" pos="hp.utr.sin.ind" word="vem"></t>
+               <t id="s30_5" pos="nn.utr.sin.def.nom" word="avsändaren"></t>
+               <t id="s30_6" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s30_7" pos="mid" word=","></t>
+               <t id="s30_8" pos="kn" word="och"></t>
+               <t id="s30_9" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s30_10" pos="vb.prt.sfo" word="fanns"></t>
+               <t id="s30_11" pos="ab" word="inte"></t>
+               <t id="s30_12" pos="ab" word="ens"></t>
+               <t id="s30_13" pos="dt.neu.sin.ind" word="något"></t>
+               <t id="s30_14" pos="nn.neu.sin.ind.nom" word="frimärke"></t>
+               <t id="s30_15" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="vb.prt.akt.kop" id="s30_506">
+                  <edge idref="s30_6" label="HD"></edge>
+                  <edge idref="s30_4" label="PRD"></edge>
+                  <edge idref="s30_5" label="SUB"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.ind.nom" id="s30_514">
+                  <edge idref="s30_14" label="HD"></edge>
+                  <edge idref="s30_13" label="DET"></edge>
+               </nt>
+               <nt cat="vb.prt.sfo" id="s30_510">
+                  <edge idref="s30_10" label="HD"></edge>
+                  <edge idref="s30_9" label="SUB"></edge>
+                  <edge idref="s30_11" label="ADV"></edge>
+                  <edge idref="s30_12" label="ADV"></edge>
+                  <edge idref="s30_514" label="SUB"></edge>
+                  <edge idref="s30_15" label="IP"></edge>
+               </nt>
+               <nt cat="kn" id="s30_508">
+                  <edge idref="s30_8" label="HD"></edge>
+                  <edge idref="s30_510" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s30_502">
+                  <edge idref="s30_2" label="HD"></edge>
+                  <edge idref="s30_1" label="SUB"></edge>
+                  <edge idref="s30_3" label="ADV"></edge>
+                  <edge idref="s30_506" label="SUB"></edge>
+                  <edge idref="s30_7" label="IP"></edge>
+                  <edge idref="s30_508" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s30_500">
+                  <edge idref="s30_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s31">
+         <graph root="s31_500">
+            <terminals>
+               <t id="s31_1" pos="pm.nom" word="Sofie"></t>
+               <t id="s31_2" pos="vb.prt.akt" word="stängde"></t>
+               <t id="s31_3" pos="nn.utr.sin.def.nom" word="grinden"></t>
+               <t id="s31_4" pos="kn" word="och"></t>
+               <t id="s31_5" pos="vb.prt.akt" word="öppnade"></t>
+               <t id="s31_6" pos="nn.neu.sin.def.nom" word="brevet"></t>
+               <t id="s31_7" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="vb.prt.akt" id="s31_505">
+                  <edge idref="s31_5" label="HD"></edge>
+                  <edge idref="s31_6" label="OBJ"></edge>
+                  <edge idref="s31_7" label="IP"></edge>
+               </nt>
+               <nt cat="kn" id="s31_504">
+                  <edge idref="s31_4" label="HD"></edge>
+                  <edge idref="s31_505" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s31_502">
+                  <edge idref="s31_2" label="HD"></edge>
+                  <edge idref="s31_1" label="SUB"></edge>
+                  <edge idref="s31_3" label="OBJ"></edge>
+                  <edge idref="s31_504" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s31_500">
+                  <edge idref="s31_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s32">
+         <graph root="s32_500">
+            <terminals>
+               <t id="s32_1" pos="ab" word="Inuti"></t>
+               <t id="s32_2" pos="vb.prt.akt" word="låg"></t>
+               <t id="s32_3" pos="ab" word="bara"></t>
+               <t id="s32_4" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s32_5" pos="nn.utr.sin.ind.nom" word="papperslapp"></t>
+               <t id="s32_6" pos="mid" word=","></t>
+               <t id="s32_7" pos="hp.-.-.-" word="som"></t>
+               <t id="s32_8" pos="ab" word="inte"></t>
+               <t id="s32_9" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s32_10" pos="jj.kom.utr/neu.sin/plu.ind/def.nom" word="större"></t>
+               <t id="s32_11" pos="kn" word="än"></t>
+               <t id="s32_12" pos="nn.neu.sin.def.nom" word="kuvertet"></t>
+               <t id="s32_13" pos="pn.utr.sin.def.sub/obj" word="den"></t>
+               <t id="s32_14" pos="vb.prt.akt" word="låg"></t>
+               <t id="s32_15" pos="pp" word="i"></t>
+               <t id="s32_16" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="vb.prt.akt" id="s32_514">
+                  <edge idref="s32_14" label="HD"></edge>
+                  <edge idref="s32_13" label="SUB"></edge>
+                  <edge idref="s32_15" label="ADV"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.def.nom" id="s32_512">
+                  <edge idref="s32_12" label="HD"></edge>
+                  <edge idref="s32_514" label="ATT"></edge>
+               </nt>
+               <nt cat="kn" id="s32_511">
+                  <edge idref="s32_11" label="HD"></edge>
+                  <edge idref="s32_512" label="UK"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s32_509">
+                  <edge idref="s32_9" label="HD"></edge>
+                  <edge idref="s32_7" label="SUB"></edge>
+                  <edge idref="s32_8" label="ADV"></edge>
+                  <edge idref="s32_10" label="PRD"></edge>
+                  <edge idref="s32_511" label="ADV"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s32_505">
+                  <edge idref="s32_5" label="HD"></edge>
+                  <edge idref="s32_4" label="DET"></edge>
+                  <edge idref="s32_6" label="IP"></edge>
+                  <edge idref="s32_509" label="ATT"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s32_502">
+                  <edge idref="s32_2" label="HD"></edge>
+                  <edge idref="s32_1" label="ADV"></edge>
+                  <edge idref="s32_3" label="ADV"></edge>
+                  <edge idref="s32_505" label="SUB"></edge>
+                  <edge idref="s32_16" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s32_500">
+                  <edge idref="s32_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s33">
+         <graph root="s33_500">
+            <terminals>
+               <t id="s33_1" pos="pp" word="På"></t>
+               <t id="s33_2" pos="nn.utr.sin.def.nom" word="lappen"></t>
+               <t id="s33_3" pos="vb.prt.akt" word="stod"></t>
+               <t id="s33_4" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s33_5" pos="mad" word=":"></t>
+               <t id="s33_6" pos="pad" word="&quot;"></t>
+               <t id="s33_7" pos="hp.utr.sin.ind" word="Vem"></t>
+               <t id="s33_8" pos="vb.prs.akt.kop" word="är"></t>
+               <t id="s33_9" pos="pn.utr.sin.def.sub" word="du"></t>
+               <t id="s33_10" pos="mad" word="?"></t>
+               <t id="s33_11" pos="pad" word="&quot;"></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s33_501">
+                  <edge idref="s33_1" label="HD"></edge>
+                  <edge idref="s33_2" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prs.akt.kop" id="s33_508">
+                  <edge idref="s33_8" label="HD"></edge>
+                  <edge idref="s33_6" label="IP"></edge>
+                  <edge idref="s33_7" label="PRD"></edge>
+                  <edge idref="s33_9" label="SUB"></edge>
+                  <edge idref="s33_10" label="IP"></edge>
+                  <edge idref="s33_11" label="IP"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s33_503">
+                  <edge idref="s33_3" label="HD"></edge>
+                  <edge idref="s33_501" label="ADV"></edge>
+                  <edge idref="s33_4" label="SUB"></edge>
+                  <edge idref="s33_5" label="IP"></edge>
+                  <edge idref="s33_508" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s33_500">
+                  <edge idref="s33_503" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s34">
+         <graph root="s34_500">
+            <terminals>
+               <t id="s34_1" pos="pn.neu.sin.def.sub/obj" word="Det"></t>
+               <t id="s34_2" pos="vb.prt.akt" word="stod"></t>
+               <t id="s34_3" pos="pn.neu.sin.ind.sub/obj" word="ingenting"></t>
+               <t id="s34_4" pos="ab.kom" word="mer"></t>
+               <t id="s34_5" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="ab.kom" id="s34_504">
+                  <edge idref="s34_4" label="HD"></edge>
+                  <edge idref="s34_3" label="DET"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s34_502">
+                  <edge idref="s34_2" label="HD"></edge>
+                  <edge idref="s34_1" label="SUB"></edge>
+                  <edge idref="s34_504" label="SUB"></edge>
+                  <edge idref="s34_5" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s34_500">
+                  <edge idref="s34_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s35">
+         <graph root="s35_500">
+            <terminals>
+               <t id="s35_1" pos="ab" word="Där"></t>
+               <t id="s35_2" pos="vb.prt.sfo" word="fanns"></t>
+               <t id="s35_3" pos="ab" word="inte"></t>
+               <t id="s35_4" pos="dt.utr.sin.ind" word="någon"></t>
+               <t id="s35_5" pos="nn.utr.sin.ind.nom" word="hälsning"></t>
+               <t id="s35_6" pos="kn" word="och"></t>
+               <t id="s35_7" pos="ab" word="inte"></t>
+               <t id="s35_8" pos="dt.utr.sin.ind" word="någon"></t>
+               <t id="s35_9" pos="nn.utr.sin.ind.nom" word="avsändare"></t>
+               <t id="s35_10" pos="mid" word=","></t>
+               <t id="s35_11" pos="pn.neu.sin.ind.sub/obj" word="ingenting"></t>
+               <t id="s35_12" pos="pn.neu.sin.ind.sub/obj" word="annat"></t>
+               <t id="s35_13" pos="kn" word="än"></t>
+               <t id="s35_14" pos="dt.utr/neu.plu.def" word="de"></t>
+               <t id="s35_15" pos="rg.nom" word="tre"></t>
+               <t id="s35_16" pos="nn.neu.plu.def.nom" word="orden"></t>
+               <t id="s35_17" pos="mid" word=","></t>
+               <t id="s35_18" pos="hp.-.-.-" word="som"></t>
+               <t id="s35_19" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s35_20" pos="jj.pos.utr/neu.plu.ind/def.nom" word="skrivna"></t>
+               <t id="s35_21" pos="pp" word="för"></t>
+               <t id="s35_22" pos="nn.utr.sin.ind.nom" word="hand"></t>
+               <t id="s35_23" pos="kn" word="och"></t>
+               <t id="s35_24" pos="vb.prt.akt.aux" word="hade"></t>
+               <t id="s35_25" pos="dt.neu.sin.ind" word="ett"></t>
+               <t id="s35_26" pos="jj.pos.neu.sin.ind.nom" word="stort"></t>
+               <t id="s35_27" pos="nn.neu.sin.ind.nom" word="frågetecken"></t>
+               <t id="s35_28" pos="pp" word="efter"></t>
+               <t id="s35_29" pos="pn.utr/neu.sin/plu.def.obj" word="sig"></t>
+               <t id="s35_30" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.ind.nom" id="s35_505">
+                  <edge idref="s35_5" label="HD"></edge>
+                  <edge idref="s35_4" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s35_521">
+                  <edge idref="s35_21" label="HD"></edge>
+                  <edge idref="s35_22" label="ID"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.ind.nom" id="s35_527">
+                  <edge idref="s35_27" label="HD"></edge>
+                  <edge idref="s35_25" label="DET"></edge>
+                  <edge idref="s35_26" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s35_528">
+                  <edge idref="s35_28" label="HD"></edge>
+                  <edge idref="s35_29" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.aux" id="s35_524">
+                  <edge idref="s35_24" label="HD"></edge>
+                  <edge idref="s35_527" label="OBJ"></edge>
+                  <edge idref="s35_528" label="ADV"></edge>
+                  <edge idref="s35_30" label="IP"></edge>
+               </nt>
+               <nt cat="kn" id="s35_523">
+                  <edge idref="s35_23" label="HD"></edge>
+                  <edge idref="s35_524" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s35_519">
+                  <edge idref="s35_19" label="HD"></edge>
+                  <edge idref="s35_18" label="SUB"></edge>
+                  <edge idref="s35_20" label="PRD"></edge>
+                  <edge idref="s35_521" label="ADV"></edge>
+                  <edge idref="s35_523" label="CC"></edge>
+               </nt>
+               <nt cat="nn.neu.plu.def.nom" id="s35_516">
+                  <edge idref="s35_16" label="HD"></edge>
+                  <edge idref="s35_14" label="DET"></edge>
+                  <edge idref="s35_15" label="DET"></edge>
+                  <edge idref="s35_17" label="IP"></edge>
+                  <edge idref="s35_519" label="ATT"></edge>
+               </nt>
+               <nt cat="kn" id="s35_513">
+                  <edge idref="s35_13" label="HD"></edge>
+                  <edge idref="s35_516" label="UK"></edge>
+               </nt>
+               <nt cat="pn.neu.sin.ind.sub/obj" id="s35_512">
+                  <edge idref="s35_12" label="HD"></edge>
+                  <edge idref="s35_11" label="DET"></edge>
+                  <edge idref="s35_513" label="ADV"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s35_509">
+                  <edge idref="s35_9" label="HD"></edge>
+                  <edge idref="s35_7" label="ADV"></edge>
+                  <edge idref="s35_8" label="DET"></edge>
+                  <edge idref="s35_10" label="IP"></edge>
+                  <edge idref="s35_512" label="CC"></edge>
+               </nt>
+               <nt cat="kn" id="s35_506">
+                  <edge idref="s35_6" label="HD"></edge>
+                  <edge idref="s35_509" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.sfo" id="s35_502">
+                  <edge idref="s35_2" label="HD"></edge>
+                  <edge idref="s35_1" label="ADV"></edge>
+                  <edge idref="s35_3" label="ADV"></edge>
+                  <edge idref="s35_505" label="SUB"></edge>
+                  <edge idref="s35_506" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s35_500">
+                  <edge idref="s35_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s36">
+         <graph root="s36_500">
+            <terminals>
+               <t id="s36_1" pos="pn.utr.sin.def.sub" word="Hon"></t>
+               <t id="s36_2" pos="vb.prt.akt" word="tittade"></t>
+               <t id="s36_3" pos="pp" word="på"></t>
+               <t id="s36_4" pos="nn.neu.sin.def.nom" word="kuvertet"></t>
+               <t id="s36_5" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s36_6" pos="nn.utr.sin.ind.nom" word="gång"></t>
+               <t id="s36_7" pos="pp" word="till"></t>
+               <t id="s36_8" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s36_503">
+                  <edge idref="s36_3" label="HD"></edge>
+                  <edge idref="s36_4" label="PR"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s36_506">
+                  <edge idref="s36_6" label="HD"></edge>
+                  <edge idref="s36_5" label="DET"></edge>
+                  <edge idref="s36_7" label="ATT"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s36_502">
+                  <edge idref="s36_2" label="HD"></edge>
+                  <edge idref="s36_1" label="SUB"></edge>
+                  <edge idref="s36_503" label="ADV"></edge>
+                  <edge idref="s36_506" label="ADV"></edge>
+                  <edge idref="s36_8" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s36_500">
+                  <edge idref="s36_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s37">
+         <graph root="s37_500">
+            <terminals>
+               <t id="s37_1" pos="in" word="Jodå"></t>
+               <t id="s37_2" pos="mid" word="--"></t>
+               <t id="s37_3" pos="nn.neu.sin.def.nom" word="brevet"></t>
+               <t id="s37_4" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s37_5" pos="pp" word="till"></t>
+               <t id="s37_6" pos="pn.utr.sin.def.obj" word="henne"></t>
+               <t id="s37_7" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s37_505">
+                  <edge idref="s37_5" label="HD"></edge>
+                  <edge idref="s37_6" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s37_504">
+                  <edge idref="s37_4" label="HD"></edge>
+                  <edge idref="s37_1" label="ADV"></edge>
+                  <edge idref="s37_2" label="IP"></edge>
+                  <edge idref="s37_3" label="SUB"></edge>
+                  <edge idref="s37_505" label="ADV"></edge>
+                  <edge idref="s37_7" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s37_500">
+                  <edge idref="s37_504" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s38">
+         <graph root="s38_500">
+            <terminals>
+               <t id="s38_1" pos="hp.utr.sin.ind" word="Vem"></t>
+               <t id="s38_2" pos="vb.prt.akt.mod" word="kunde"></t>
+               <t id="s38_3" pos="vb.inf.akt.aux" word="ha"></t>
+               <t id="s38_4" pos="vb.sup.akt" word="lagt"></t>
+               <t id="s38_5" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s38_6" pos="pp" word="i"></t>
+               <t id="s38_7" pos="ps.utr/neu.sin/plu.def" word="deras"></t>
+               <t id="s38_8" pos="nn.utr.sin.ind.nom" word="brevlåda"></t>
+               <t id="s38_9" pos="mad" word="?"></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.ind.nom" id="s38_508">
+                  <edge idref="s38_8" label="HD"></edge>
+                  <edge idref="s38_7" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s38_506">
+                  <edge idref="s38_6" label="HD"></edge>
+                  <edge idref="s38_508" label="PR"></edge>
+               </nt>
+               <nt cat="vb.sup.akt" id="s38_504">
+                  <edge idref="s38_4" label="HD"></edge>
+                  <edge idref="s38_5" label="OBJ"></edge>
+                  <edge idref="s38_506" label="ADV"></edge>
+                  <edge idref="s38_9" label="IP"></edge>
+               </nt>
+               <nt cat="vb.inf.akt.aux" id="s38_503">
+                  <edge idref="s38_3" label="HD"></edge>
+                  <edge idref="s38_504" label="VC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s38_502">
+                  <edge idref="s38_2" label="HD"></edge>
+                  <edge idref="s38_1" label="SUB"></edge>
+                  <edge idref="s38_503" label="VC"></edge>
+               </nt>
+               <nt cat="root" id="s38_500">
+                  <edge idref="s38_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s39">
+         <graph root="s39_500">
+            <terminals>
+               <t id="s39_1" pos="pm.nom" word="Sofie"></t>
+               <t id="s39_2" pos="vb.prt.akt" word="låste"></t>
+               <t id="s39_3" pos="ab.pos" word="snabbt"></t>
+               <t id="s39_4" pos="pl" word="upp"></t>
+               <t id="s39_5" pos="nn.utr.sin.def.nom" word="dörren"></t>
+               <t id="s39_6" pos="pp" word="till"></t>
+               <t id="s39_7" pos="dt.neu.sin.def" word="det"></t>
+               <t id="s39_8" pos="jj.pos.utr/neu.sin.def.nom" word="röda"></t>
+               <t id="s39_9" pos="nn.neu.sin.def.nom" word="huset"></t>
+               <t id="s39_10" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.neu.sin.def.nom" id="s39_509">
+                  <edge idref="s39_9" label="HD"></edge>
+                  <edge idref="s39_7" label="DET"></edge>
+                  <edge idref="s39_8" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s39_506">
+                  <edge idref="s39_6" label="HD"></edge>
+                  <edge idref="s39_509" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s39_502">
+                  <edge idref="s39_2" label="HD"></edge>
+                  <edge idref="s39_1" label="SUB"></edge>
+                  <edge idref="s39_3" label="ADV"></edge>
+                  <edge idref="s39_4" label="ADV"></edge>
+                  <edge idref="s39_5" label="OBJ"></edge>
+                  <edge idref="s39_506" label="ADV"></edge>
+                  <edge idref="s39_10" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s39_500">
+                  <edge idref="s39_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s40">
+         <graph root="s40_500">
+            <terminals>
+               <t id="s40_1" pos="kn" word="Som"></t>
+               <t id="s40_2" pos="ab.pos" word="vanligt"></t>
+               <t id="s40_3" pos="vb.prt.sfo" word="lyckades"></t>
+               <t id="s40_4" pos="nn.utr.sin.def.nom" word="katten"></t>
+               <t id="s40_5" pos="uo" word="Shere"></t>
+               <t id="s40_6" pos="pn.utr.sin.def.sub" word="Khan"></t>
+               <t id="s40_7" pos="vb.inf.akt" word="smyga"></t>
+               <t id="s40_8" pos="pn.utr/neu.sin/plu.def.obj" word="sig"></t>
+               <t id="s40_9" pos="pl" word="fram"></t>
+               <t id="s40_10" pos="pp" word="mellan"></t>
+               <t id="s40_11" pos="nn.utr.plu.def.nom" word="buskarna"></t>
+               <t id="s40_12" pos="mid" word=","></t>
+               <t id="s40_13" pos="vb.inf.akt" word="hoppa"></t>
+               <t id="s40_14" pos="pl" word="upp"></t>
+               <t id="s40_15" pos="pp" word="på"></t>
+               <t id="s40_16" pos="nn.utr.sin.def.nom" word="trappan"></t>
+               <t id="s40_17" pos="kn" word="och"></t>
+               <t id="s40_18" pos="vb.inf.akt" word="smita"></t>
+               <t id="s40_19" pos="pl" word="in"></t>
+               <t id="s40_20" pos="pp" word="genom"></t>
+               <t id="s40_21" pos="nn.utr.sin.def.nom" word="dörren"></t>
+               <t id="s40_22" pos="mid" word=","></t>
+               <t id="s40_23" pos="sn" word="innan"></t>
+               <t id="s40_24" pos="pn.utr.sin.def.sub" word="hon"></t>
+               <t id="s40_25" pos="vb.prt.akt.mod" word="hann"></t>
+               <t id="s40_26" pos="vb.inf.akt" word="stänga"></t>
+               <t id="s40_27" pos="pn.utr.sin.def.sub/obj" word="den"></t>
+               <t id="s40_28" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="kn" id="s40_501">
+                  <edge idref="s40_1" label="HD"></edge>
+                  <edge idref="s40_2" label="UK"></edge>
+               </nt>
+               <nt cat="uo" id="s40_505">
+                  <edge idref="s40_5" label="HD"></edge>
+                  <edge idref="s40_4" label="DET"></edge>
+                  <edge idref="s40_6" label="ID"></edge>
+               </nt>
+               <nt cat="pp" id="s40_510">
+                  <edge idref="s40_10" label="HD"></edge>
+                  <edge idref="s40_11" label="PR"></edge>
+               </nt>
+               <nt cat="vb.inf.akt" id="s40_507">
+                  <edge idref="s40_7" label="HD"></edge>
+                  <edge idref="s40_8" label="OBJ"></edge>
+                  <edge idref="s40_9" label="ADV"></edge>
+                  <edge idref="s40_510" label="ADV"></edge>
+               </nt>
+               <nt cat="pp" id="s40_515">
+                  <edge idref="s40_15" label="HD"></edge>
+                  <edge idref="s40_16" label="PR"></edge>
+               </nt>
+               <nt cat="pp" id="s40_520">
+                  <edge idref="s40_20" label="HD"></edge>
+                  <edge idref="s40_21" label="PR"></edge>
+               </nt>
+               <nt cat="vb.inf.akt" id="s40_526">
+                  <edge idref="s40_26" label="HD"></edge>
+                  <edge idref="s40_27" label="OBJ"></edge>
+                  <edge idref="s40_28" label="IP"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s40_525">
+                  <edge idref="s40_25" label="HD"></edge>
+                  <edge idref="s40_24" label="SUB"></edge>
+                  <edge idref="s40_526" label="VC"></edge>
+               </nt>
+               <nt cat="sn" id="s40_523">
+                  <edge idref="s40_23" label="HD"></edge>
+                  <edge idref="s40_525" label="UK"></edge>
+               </nt>
+               <nt cat="vb.inf.akt" id="s40_518">
+                  <edge idref="s40_18" label="HD"></edge>
+                  <edge idref="s40_19" label="ADV"></edge>
+                  <edge idref="s40_520" label="ADV"></edge>
+                  <edge idref="s40_22" label="IP"></edge>
+                  <edge idref="s40_523" label="ADV"></edge>
+               </nt>
+               <nt cat="kn" id="s40_517">
+                  <edge idref="s40_17" label="HD"></edge>
+                  <edge idref="s40_518" label="CC"></edge>
+               </nt>
+               <nt cat="vb.inf.akt" id="s40_513">
+                  <edge idref="s40_13" label="HD"></edge>
+                  <edge idref="s40_14" label="ADV"></edge>
+                  <edge idref="s40_515" label="ADV"></edge>
+                  <edge idref="s40_517" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.sfo" id="s40_503">
+                  <edge idref="s40_3" label="HD"></edge>
+                  <edge idref="s40_501" label="ADV"></edge>
+                  <edge idref="s40_505" label="SUB"></edge>
+                  <edge idref="s40_507" label="OBJ"></edge>
+                  <edge idref="s40_12" label="IP"></edge>
+                  <edge idref="s40_513" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s40_500">
+                  <edge idref="s40_503" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s41">
+         <graph root="s41_500">
+            <terminals>
+               <t id="s41_1" pos="pad" word="&quot;"></t>
+               <t id="s41_2" pos="pm.nom" word="Kiss"></t>
+               <t id="s41_3" pos="mid" word=","></t>
+               <t id="s41_4" pos="pm.nom" word="kiss"></t>
+               <t id="s41_5" pos="mid" word=","></t>
+               <t id="s41_6" pos="pm.nom" word="kiss"></t>
+               <t id="s41_7" pos="mad" word="!"></t>
+               <t id="s41_8" pos="pad" word="&quot;"></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="mid" id="s41_505">
+                  <edge idref="s41_5" label="HD"></edge>
+                  <edge idref="s41_6" label="CC"></edge>
+               </nt>
+               <nt cat="pm.nom" id="s41_504">
+                  <edge idref="s41_4" label="HD"></edge>
+                  <edge idref="s41_505" label="CC"></edge>
+               </nt>
+               <nt cat="mid" id="s41_503">
+                  <edge idref="s41_3" label="HD"></edge>
+                  <edge idref="s41_504" label="CC"></edge>
+               </nt>
+               <nt cat="pm.nom" id="s41_502">
+                  <edge idref="s41_2" label="HD"></edge>
+                  <edge idref="s41_1" label="IP"></edge>
+                  <edge idref="s41_503" label="CC"></edge>
+                  <edge idref="s41_7" label="IP"></edge>
+                  <edge idref="s41_8" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s41_500">
+                  <edge idref="s41_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s42">
+         <graph root="s42_500">
+            <terminals>
+               <t id="s42_1" pos="ha" word="När"></t>
+               <t id="s42_2" pos="pm.gen" word="Sofies"></t>
+               <t id="s42_3" pos="nn.utr.sin.ind.nom" word="mamma"></t>
+               <t id="s42_4" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s42_5" pos="pp" word="på"></t>
+               <t id="s42_6" pos="jj.pos.neu.sin.ind.nom" word="dåligt"></t>
+               <t id="s42_7" pos="nn.neu.sin.ind.nom" word="humör"></t>
+               <t id="s42_8" pos="mid" word=","></t>
+               <t id="s42_9" pos="vb.prt.akt.mod" word="brukade"></t>
+               <t id="s42_10" pos="pn.utr.sin.def.sub" word="hon"></t>
+               <t id="s42_11" pos="vb.inf.akt" word="säga"></t>
+               <t id="s42_12" pos="sn" word="att"></t>
+               <t id="s42_13" pos="ps.utr/neu.sin/plu.def" word="deras"></t>
+               <t id="s42_14" pos="nn.neu.sin.ind.nom" word="hus"></t>
+               <t id="s42_15" pos="vb.prt.akt" word="påminde"></t>
+               <t id="s42_16" pos="pp" word="om"></t>
+               <t id="s42_17" pos="dt.neu.sin.ind" word="ett"></t>
+               <t id="s42_18" pos="nn.neu.sin.ind.nom" word="menageri"></t>
+               <t id="s42_19" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.ind.nom" id="s42_503">
+                  <edge idref="s42_3" label="HD"></edge>
+                  <edge idref="s42_2" label="DET"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.ind.nom" id="s42_507">
+                  <edge idref="s42_7" label="HD"></edge>
+                  <edge idref="s42_6" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s42_505">
+                  <edge idref="s42_5" label="HD"></edge>
+                  <edge idref="s42_507" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s42_504">
+                  <edge idref="s42_4" label="HD"></edge>
+                  <edge idref="s42_503" label="SUB"></edge>
+                  <edge idref="s42_505" label="PRD"></edge>
+               </nt>
+               <nt cat="ha" id="s42_501">
+                  <edge idref="s42_1" label="HD"></edge>
+                  <edge idref="s42_504" label="UK"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.ind.nom" id="s42_514">
+                  <edge idref="s42_14" label="HD"></edge>
+                  <edge idref="s42_13" label="DET"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.ind.nom" id="s42_518">
+                  <edge idref="s42_18" label="HD"></edge>
+                  <edge idref="s42_17" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s42_516">
+                  <edge idref="s42_16" label="HD"></edge>
+                  <edge idref="s42_518" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s42_515">
+                  <edge idref="s42_15" label="HD"></edge>
+                  <edge idref="s42_514" label="SUB"></edge>
+                  <edge idref="s42_516" label="ADV"></edge>
+               </nt>
+               <nt cat="sn" id="s42_512">
+                  <edge idref="s42_12" label="HD"></edge>
+                  <edge idref="s42_515" label="UK"></edge>
+               </nt>
+               <nt cat="vb.inf.akt" id="s42_511">
+                  <edge idref="s42_11" label="HD"></edge>
+                  <edge idref="s42_512" label="OBJ"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s42_509">
+                  <edge idref="s42_9" label="HD"></edge>
+                  <edge idref="s42_501" label="ADV"></edge>
+                  <edge idref="s42_8" label="IP"></edge>
+                  <edge idref="s42_10" label="SUB"></edge>
+                  <edge idref="s42_511" label="VC"></edge>
+                  <edge idref="s42_19" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s42_500">
+                  <edge idref="s42_509" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s43">
+         <graph root="s43_500">
+            <terminals>
+               <t id="s43_1" pos="dt.neu.sin.ind" word="Ett"></t>
+               <t id="s43_2" pos="nn.neu.sin.ind.nom" word="menageri"></t>
+               <t id="s43_3" pos="vb.prs.akt.kop" word="är"></t>
+               <t id="s43_4" pos="dt.neu.sin.ind" word="ett"></t>
+               <t id="s43_5" pos="nn.neu.sin.ind.nom" word="ställe"></t>
+               <t id="s43_6" pos="ha" word="där"></t>
+               <t id="s43_7" pos="pn.utr.sin.ind.sub" word="man"></t>
+               <t id="s43_8" pos="vb.prs.akt" word="samlar"></t>
+               <t id="s43_9" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s43_10" pos="nn.utr.sin.ind.nom.set" word="massa"></t>
+               <t id="s43_11" pos="jj.pos.utr/neu.plu.ind/def.nom" word="olika"></t>
+               <t id="s43_12" pos="nn.neu.plu.ind.nom" word="djur"></t>
+               <t id="s43_13" pos="mid" word=","></t>
+               <t id="s43_14" pos="kn" word="och"></t>
+               <t id="s43_15" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s43_16" pos="vb.prt.akt.mod" word="kunde"></t>
+               <t id="s43_17" pos="ab.pos" word="faktiskt"></t>
+               <t id="s43_18" pos="vb.inf.akt" word="stämma"></t>
+               <t id="s43_19" pos="mad" word="--"></t>
+               <t id="s43_20" pos="pm.nom" word="Sofie"></t>
+               <t id="s43_21" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s43_22" pos="ab.pos" word="mycket"></t>
+               <t id="s43_23" pos="jj.pos.utr.sin.ind.nom" word="belåten"></t>
+               <t id="s43_24" pos="pp" word="med"></t>
+               <t id="s43_25" pos="ps.utr.sin.def" word="sin"></t>
+               <t id="s43_26" pos="nn.utr.sin.ind.nom.set" word="samling"></t>
+               <t id="s43_27" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.neu.sin.ind.nom" id="s43_502">
+                  <edge idref="s43_2" label="HD"></edge>
+                  <edge idref="s43_1" label="DET"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom.set" id="s43_510">
+                  <edge idref="s43_10" label="HD"></edge>
+                  <edge idref="s43_9" label="DET"></edge>
+               </nt>
+               <nt cat="nn.neu.plu.ind.nom" id="s43_512">
+                  <edge idref="s43_12" label="HD"></edge>
+                  <edge idref="s43_510" label="DET"></edge>
+                  <edge idref="s43_11" label="ATT"></edge>
+               </nt>
+               <nt cat="vb.prs.akt" id="s43_508">
+                  <edge idref="s43_8" label="HD"></edge>
+                  <edge idref="s43_6" label="ADV"></edge>
+                  <edge idref="s43_7" label="SUB"></edge>
+                  <edge idref="s43_512" label="OBJ"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.ind.nom" id="s43_505">
+                  <edge idref="s43_5" label="HD"></edge>
+                  <edge idref="s43_4" label="DET"></edge>
+                  <edge idref="s43_508" label="ATT"></edge>
+               </nt>
+               <nt cat="jj.pos.utr.sin.ind.nom" id="s43_523">
+                  <edge idref="s43_23" label="HD"></edge>
+                  <edge idref="s43_22" label="ADV"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom.set" id="s43_526">
+                  <edge idref="s43_26" label="HD"></edge>
+                  <edge idref="s43_25" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s43_524">
+                  <edge idref="s43_24" label="HD"></edge>
+                  <edge idref="s43_526" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s43_521">
+                  <edge idref="s43_21" label="HD"></edge>
+                  <edge idref="s43_20" label="SUB"></edge>
+                  <edge idref="s43_523" label="PRD"></edge>
+                  <edge idref="s43_524" label="ADV"></edge>
+                  <edge idref="s43_27" label="IP"></edge>
+               </nt>
+               <nt cat="vb.inf.akt" id="s43_518">
+                  <edge idref="s43_18" label="HD"></edge>
+                  <edge idref="s43_19" label="IP"></edge>
+                  <edge idref="s43_521" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s43_516">
+                  <edge idref="s43_16" label="HD"></edge>
+                  <edge idref="s43_15" label="SUB"></edge>
+                  <edge idref="s43_17" label="ADV"></edge>
+                  <edge idref="s43_518" label="VC"></edge>
+               </nt>
+               <nt cat="kn" id="s43_514">
+                  <edge idref="s43_14" label="HD"></edge>
+                  <edge idref="s43_516" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prs.akt.kop" id="s43_503">
+                  <edge idref="s43_3" label="HD"></edge>
+                  <edge idref="s43_502" label="SUB"></edge>
+                  <edge idref="s43_505" label="PRD"></edge>
+                  <edge idref="s43_13" label="IP"></edge>
+                  <edge idref="s43_514" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s43_500">
+                  <edge idref="s43_503" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s44">
+         <graph root="s44_500">
+            <terminals>
+               <t id="s44_1" pos="ab" word="Först"></t>
+               <t id="s44_2" pos="vb.prt.akt.aux" word="hade"></t>
+               <t id="s44_3" pos="pn.utr.sin.def.sub" word="hon"></t>
+               <t id="s44_4" pos="vb.sup.akt.mod" word="fått"></t>
+               <t id="s44_5" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s44_6" pos="nn.utr.sin.ind.nom" word="skål"></t>
+               <t id="s44_7" pos="pp" word="med"></t>
+               <t id="s44_8" pos="rg.nom" word="tre"></t>
+               <t id="s44_9" pos="nn.utr.plu.ind.nom" word="guldfiskar"></t>
+               <t id="s44_10" pos="hp.-.-.-" word="som"></t>
+               <t id="s44_11" pos="vb.prt.akt.kop" word="hette"></t>
+               <t id="s44_12" pos="nn.neu.sin.ind.nom" word="Gulltopp"></t>
+               <t id="s44_13" pos="mid" word=","></t>
+               <t id="s44_14" pos="pm.nom" word="Rödluvan"></t>
+               <t id="s44_15" pos="kn" word="och"></t>
+               <t id="s44_16" pos="jj.pos.mas.sin.def.nom" word="Svarte"></t>
+               <t id="s44_17" pos="pm.nom" word="Petter"></t>
+               <t id="s44_18" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="jj.pos.mas.sin.def.nom" id="s44_516">
+                  <edge idref="s44_16" label="HD"></edge>
+                  <edge idref="s44_17" label="ID"></edge>
+               </nt>
+               <nt cat="kn" id="s44_515">
+                  <edge idref="s44_15" label="HD"></edge>
+                  <edge idref="s44_516" label="CC"></edge>
+               </nt>
+               <nt cat="pm.nom" id="s44_514">
+                  <edge idref="s44_14" label="HD"></edge>
+                  <edge idref="s44_515" label="CC"></edge>
+               </nt>
+               <nt cat="mid" id="s44_513">
+                  <edge idref="s44_13" label="HD"></edge>
+                  <edge idref="s44_514" label="CC"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.ind.nom" id="s44_512">
+                  <edge idref="s44_12" label="HD"></edge>
+                  <edge idref="s44_513" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s44_511">
+                  <edge idref="s44_11" label="HD"></edge>
+                  <edge idref="s44_10" label="SUB"></edge>
+                  <edge idref="s44_512" label="PRD"></edge>
+               </nt>
+               <nt cat="nn.utr.plu.ind.nom" id="s44_509">
+                  <edge idref="s44_9" label="HD"></edge>
+                  <edge idref="s44_8" label="DET"></edge>
+                  <edge idref="s44_511" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s44_507">
+                  <edge idref="s44_7" label="HD"></edge>
+                  <edge idref="s44_509" label="PR"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s44_506">
+                  <edge idref="s44_6" label="HD"></edge>
+                  <edge idref="s44_5" label="DET"></edge>
+                  <edge idref="s44_507" label="ATT"></edge>
+               </nt>
+               <nt cat="vb.sup.akt.mod" id="s44_504">
+                  <edge idref="s44_4" label="HD"></edge>
+                  <edge idref="s44_506" label="OBJ"></edge>
+                  <edge idref="s44_18" label="IP"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.aux" id="s44_502">
+                  <edge idref="s44_2" label="HD"></edge>
+                  <edge idref="s44_1" label="ADV"></edge>
+                  <edge idref="s44_3" label="SUB"></edge>
+                  <edge idref="s44_504" label="VC"></edge>
+               </nt>
+               <nt cat="root" id="s44_500">
+                  <edge idref="s44_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s45">
+         <graph root="s45_500">
+            <terminals>
+               <t id="s45_1" pos="ab" word="Sedan"></t>
+               <t id="s45_2" pos="vb.prt.akt.mod" word="fick"></t>
+               <t id="s45_3" pos="pn.utr.sin.def.sub" word="hon"></t>
+               <t id="s45_4" pos="nn.utr.plu.def.nom" word="undulaterna"></t>
+               <t id="s45_5" pos="pm.nom" word="Gnuttan"></t>
+               <t id="s45_6" pos="kn" word="och"></t>
+               <t id="s45_7" pos="pm.nom" word="Smulan"></t>
+               <t id="s45_8" pos="mid" word=","></t>
+               <t id="s45_9" pos="nn.utr.sin.def.nom" word="sköldpaddan"></t>
+               <t id="s45_10" pos="nn.utr.sin.ind.nom" word="Govinda"></t>
+               <t id="s45_11" pos="kn" word="och"></t>
+               <t id="s45_12" pos="pp" word="till"></t>
+               <t id="s45_13" pos="ab.suv" word="sist"></t>
+               <t id="s45_14" pos="dt.utr.sin.def" word="den"></t>
+               <t id="s45_15" pos="jj.pos.utr/neu.sin.def.nom" word="gulbruna"></t>
+               <t id="s45_16" pos="nn.utr.sin.def.nom" word="tigerkatten"></t>
+               <t id="s45_17" pos="uo" word="Shere"></t>
+               <t id="s45_18" pos="pn.utr.sin.def.sub" word="Khan"></t>
+               <t id="s45_19" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pp" id="s45_512">
+                  <edge idref="s45_12" label="HD"></edge>
+                  <edge idref="s45_13" label="ID"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.def.nom" id="s45_516">
+                  <edge idref="s45_16" label="HD"></edge>
+                  <edge idref="s45_14" label="DET"></edge>
+                  <edge idref="s45_15" label="ATT"></edge>
+               </nt>
+               <nt cat="uo" id="s45_517">
+                  <edge idref="s45_17" label="HD"></edge>
+                  <edge idref="s45_512" label="ADV"></edge>
+                  <edge idref="s45_516" label="DET"></edge>
+                  <edge idref="s45_18" label="ID"></edge>
+               </nt>
+               <nt cat="kn" id="s45_511">
+                  <edge idref="s45_11" label="HD"></edge>
+                  <edge idref="s45_517" label="CC"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s45_510">
+                  <edge idref="s45_10" label="HD"></edge>
+                  <edge idref="s45_9" label="DET"></edge>
+                  <edge idref="s45_511" label="CC"></edge>
+               </nt>
+               <nt cat="mid" id="s45_508">
+                  <edge idref="s45_8" label="HD"></edge>
+                  <edge idref="s45_510" label="CC"></edge>
+               </nt>
+               <nt cat="pm.nom" id="s45_507">
+                  <edge idref="s45_7" label="HD"></edge>
+                  <edge idref="s45_508" label="CC"></edge>
+               </nt>
+               <nt cat="kn" id="s45_506">
+                  <edge idref="s45_6" label="HD"></edge>
+                  <edge idref="s45_507" label="CC"></edge>
+               </nt>
+               <nt cat="pm.nom" id="s45_505">
+                  <edge idref="s45_5" label="HD"></edge>
+                  <edge idref="s45_4" label="DET"></edge>
+                  <edge idref="s45_506" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.mod" id="s45_502">
+                  <edge idref="s45_2" label="HD"></edge>
+                  <edge idref="s45_1" label="ADV"></edge>
+                  <edge idref="s45_3" label="SUB"></edge>
+                  <edge idref="s45_505" label="OBJ"></edge>
+                  <edge idref="s45_19" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s45_500">
+                  <edge idref="s45_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s46">
+         <graph root="s46_500">
+            <terminals>
+               <t id="s46_1" pos="pn.utr.sin.def.sub" word="Hon"></t>
+               <t id="s46_2" pos="vb.prt.akt.aux" word="hade"></t>
+               <t id="s46_3" pos="vb.sup.akt.mod" word="fått"></t>
+               <t id="s46_4" pos="nn.neu.plu.def.nom" word="djuren"></t>
+               <t id="s46_5" pos="kn" word="som"></t>
+               <t id="s46_6" pos="dt.neu.sin.ind" word="ett"></t>
+               <t id="s46_7" pos="nn.neu.sin.ind.gen" word="slags"></t>
+               <t id="s46_8" pos="nn.utr.sin.ind.nom" word="ersättning"></t>
+               <t id="s46_9" pos="pp" word="för"></t>
+               <t id="s46_10" pos="sn" word="att"></t>
+               <t id="s46_11" pos="nn.utr.sin.def.nom" word="modern"></t>
+               <t id="s46_12" pos="vb.prt.akt" word="arbetade"></t>
+               <t id="s46_13" pos="ab" word="så"></t>
+               <t id="s46_14" pos="ab.pos" word="länge"></t>
+               <t id="s46_15" pos="pp" word="på"></t>
+               <t id="s46_16" pos="nn.utr.plu.def.nom" word="kvällarna"></t>
+               <t id="s46_17" pos="kn" word="och"></t>
+               <t id="s46_18" pos="pp" word="för"></t>
+               <t id="s46_19" pos="sn" word="att"></t>
+               <t id="s46_20" pos="nn.utr.sin.def.nom" word="fadern"></t>
+               <t id="s46_21" pos="pp" word="för"></t>
+               <t id="s46_22" pos="dt.neu.sin.def" word="det"></t>
+               <t id="s46_23" pos="jj.suv.utr/neu.sin/plu.def.nom" word="mesta"></t>
+               <t id="s46_24" pos="vb.prt.akt.kop" word="var"></t>
+               <t id="s46_25" pos="ab" word="ute"></t>
+               <t id="s46_26" pos="pp" word="på"></t>
+               <t id="s46_27" pos="nn.neu.plu.def.nom" word="världshaven"></t>
+               <t id="s46_28" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.neu.sin.ind.gen" id="s46_507">
+                  <edge idref="s46_7" label="HD"></edge>
+                  <edge idref="s46_6" label="DET"></edge>
+               </nt>
+               <nt cat="ab" id="s46_513">
+                  <edge idref="s46_13" label="HD"></edge>
+                  <edge idref="s46_14" label="ID"></edge>
+               </nt>
+               <nt cat="pp" id="s46_515">
+                  <edge idref="s46_15" label="HD"></edge>
+                  <edge idref="s46_16" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s46_512">
+                  <edge idref="s46_12" label="HD"></edge>
+                  <edge idref="s46_11" label="SUB"></edge>
+                  <edge idref="s46_513" label="ADV"></edge>
+                  <edge idref="s46_515" label="ADV"></edge>
+               </nt>
+               <nt cat="sn" id="s46_510">
+                  <edge idref="s46_10" label="HD"></edge>
+                  <edge idref="s46_512" label="UK"></edge>
+               </nt>
+               <nt cat="jj.suv.utr/neu.sin/plu.def.nom" id="s46_523">
+                  <edge idref="s46_23" label="HD"></edge>
+                  <edge idref="s46_22" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s46_521">
+                  <edge idref="s46_21" label="HD"></edge>
+                  <edge idref="s46_523" label="PR"></edge>
+               </nt>
+               <nt cat="pp" id="s46_526">
+                  <edge idref="s46_26" label="HD"></edge>
+                  <edge idref="s46_27" label="PR"></edge>
+               </nt>
+               <nt cat="ab" id="s46_525">
+                  <edge idref="s46_25" label="HD"></edge>
+                  <edge idref="s46_526" label="ADV"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.kop" id="s46_524">
+                  <edge idref="s46_24" label="HD"></edge>
+                  <edge idref="s46_20" label="SUB"></edge>
+                  <edge idref="s46_521" label="ADV"></edge>
+                  <edge idref="s46_525" label="PRD"></edge>
+               </nt>
+               <nt cat="sn" id="s46_519">
+                  <edge idref="s46_19" label="HD"></edge>
+                  <edge idref="s46_524" label="UK"></edge>
+               </nt>
+               <nt cat="pp" id="s46_518">
+                  <edge idref="s46_18" label="HD"></edge>
+                  <edge idref="s46_519" label="PR"></edge>
+               </nt>
+               <nt cat="kn" id="s46_517">
+                  <edge idref="s46_17" label="HD"></edge>
+                  <edge idref="s46_518" label="CC"></edge>
+               </nt>
+               <nt cat="pp" id="s46_509">
+                  <edge idref="s46_9" label="HD"></edge>
+                  <edge idref="s46_510" label="PR"></edge>
+                  <edge idref="s46_517" label="CC"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s46_508">
+                  <edge idref="s46_8" label="HD"></edge>
+                  <edge idref="s46_507" label="DET"></edge>
+                  <edge idref="s46_509" label="ATT"></edge>
+               </nt>
+               <nt cat="kn" id="s46_505">
+                  <edge idref="s46_5" label="HD"></edge>
+                  <edge idref="s46_508" label="UK"></edge>
+               </nt>
+               <nt cat="vb.sup.akt.mod" id="s46_503">
+                  <edge idref="s46_3" label="HD"></edge>
+                  <edge idref="s46_4" label="OBJ"></edge>
+                  <edge idref="s46_505" label="ADV"></edge>
+                  <edge idref="s46_28" label="IP"></edge>
+               </nt>
+               <nt cat="vb.prt.akt.aux" id="s46_502">
+                  <edge idref="s46_2" label="HD"></edge>
+                  <edge idref="s46_1" label="SUB"></edge>
+                  <edge idref="s46_503" label="VC"></edge>
+               </nt>
+               <nt cat="root" id="s46_500">
+                  <edge idref="s46_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s47">
+         <graph root="s47_500">
+            <terminals>
+               <t id="s47_1" pos="pm.nom" word="Sofie"></t>
+               <t id="s47_2" pos="vb.prt.akt" word="kastade"></t>
+               <t id="s47_3" pos="pl" word="ifrån"></t>
+               <t id="s47_4" pos="pn.utr/neu.sin/plu.def.obj" word="sig"></t>
+               <t id="s47_5" pos="nn.utr.sin.def.nom" word="skolväskan"></t>
+               <t id="s47_6" pos="kn" word="och"></t>
+               <t id="s47_7" pos="vb.prt.akt" word="satte"></t>
+               <t id="s47_8" pos="pl" word="fram"></t>
+               <t id="s47_9" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s47_10" pos="nn.utr.sin.ind.nom" word="skål"></t>
+               <t id="s47_11" pos="nn.utr.sin.ind.nom" word="kattmat"></t>
+               <t id="s47_12" pos="pp" word="åt"></t>
+               <t id="s47_13" pos="pm.nom" word="Shere"></t>
+               <t id="s47_14" pos="pn.utr.sin.def.sub" word="Khan"></t>
+               <t id="s47_15" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="pl" id="s47_503">
+                  <edge idref="s47_3" label="HD"></edge>
+                  <edge idref="s47_4" label="PR"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s47_510">
+                  <edge idref="s47_10" label="HD"></edge>
+                  <edge idref="s47_9" label="DET"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.ind.nom" id="s47_511">
+                  <edge idref="s47_11" label="HD"></edge>
+                  <edge idref="s47_510" label="DET"></edge>
+               </nt>
+               <nt cat="pm.nom" id="s47_513">
+                  <edge idref="s47_13" label="HD"></edge>
+                  <edge idref="s47_14" label="ID"></edge>
+               </nt>
+               <nt cat="pp" id="s47_512">
+                  <edge idref="s47_12" label="HD"></edge>
+                  <edge idref="s47_513" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s47_507">
+                  <edge idref="s47_7" label="HD"></edge>
+                  <edge idref="s47_8" label="ADV"></edge>
+                  <edge idref="s47_511" label="OBJ"></edge>
+                  <edge idref="s47_512" label="ADV"></edge>
+                  <edge idref="s47_15" label="IP"></edge>
+               </nt>
+               <nt cat="kn" id="s47_506">
+                  <edge idref="s47_6" label="HD"></edge>
+                  <edge idref="s47_507" label="CC"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s47_502">
+                  <edge idref="s47_2" label="HD"></edge>
+                  <edge idref="s47_1" label="SUB"></edge>
+                  <edge idref="s47_503" label="ADV"></edge>
+                  <edge idref="s47_5" label="OBJ"></edge>
+                  <edge idref="s47_506" label="CC"></edge>
+               </nt>
+               <nt cat="root" id="s47_500">
+                  <edge idref="s47_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s48">
+         <graph root="s48_500">
+            <terminals>
+               <t id="s48_1" pos="ab" word="Sedan"></t>
+               <t id="s48_2" pos="vb.prt.akt" word="sjönk"></t>
+               <t id="s48_3" pos="pn.utr.sin.def.sub" word="hon"></t>
+               <t id="s48_4" pos="pl" word="ner"></t>
+               <t id="s48_5" pos="pp" word="på"></t>
+               <t id="s48_6" pos="dt.utr.sin.ind" word="en"></t>
+               <t id="s48_7" pos="nn.utr.sin.ind.nom" word="pall"></t>
+               <t id="s48_8" pos="pp" word="med"></t>
+               <t id="s48_9" pos="dt.neu.sin.def" word="det"></t>
+               <t id="s48_10" pos="jj.pos.utr/neu.sin.def.nom" word="mystiska"></t>
+               <t id="s48_11" pos="nn.neu.sin.def.nom" word="brevet"></t>
+               <t id="s48_12" pos="pp" word="i"></t>
+               <t id="s48_13" pos="jj.pos.utr/neu.sin/plu.ind/def.nom" word="ena"></t>
+               <t id="s48_14" pos="nn.utr.sin.def.nom" word="handen"></t>
+               <t id="s48_15" pos="mad" word="."></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="nn.utr.sin.ind.nom" id="s48_507">
+                  <edge idref="s48_7" label="HD"></edge>
+                  <edge idref="s48_6" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s48_505">
+                  <edge idref="s48_5" label="HD"></edge>
+                  <edge idref="s48_507" label="PR"></edge>
+               </nt>
+               <nt cat="nn.neu.sin.def.nom" id="s48_511">
+                  <edge idref="s48_11" label="HD"></edge>
+                  <edge idref="s48_9" label="DET"></edge>
+                  <edge idref="s48_10" label="ATT"></edge>
+               </nt>
+               <nt cat="pp" id="s48_508">
+                  <edge idref="s48_8" label="HD"></edge>
+                  <edge idref="s48_511" label="PR"></edge>
+               </nt>
+               <nt cat="nn.utr.sin.def.nom" id="s48_514">
+                  <edge idref="s48_14" label="HD"></edge>
+                  <edge idref="s48_13" label="DET"></edge>
+               </nt>
+               <nt cat="pp" id="s48_512">
+                  <edge idref="s48_12" label="HD"></edge>
+                  <edge idref="s48_514" label="PR"></edge>
+               </nt>
+               <nt cat="vb.prt.akt" id="s48_502">
+                  <edge idref="s48_2" label="HD"></edge>
+                  <edge idref="s48_1" label="ADV"></edge>
+                  <edge idref="s48_3" label="SUB"></edge>
+                  <edge idref="s48_4" label="ADV"></edge>
+                  <edge idref="s48_505" label="ADV"></edge>
+                  <edge idref="s48_508" label="ADV"></edge>
+                  <edge idref="s48_512" label="ADV"></edge>
+                  <edge idref="s48_15" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s48_500">
+                  <edge idref="s48_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s49">
+         <graph root="s49_500">
+            <terminals>
+               <t id="s49_1" pos="hp.utr.sin.ind" word="Vem"></t>
+               <t id="s49_2" pos="vb.prs.akt.kop" word="är"></t>
+               <t id="s49_3" pos="pn.utr.sin.def.sub" word="du"></t>
+               <t id="s49_4" pos="mad" word="?"></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="vb.prs.akt.kop" id="s49_502">
+                  <edge idref="s49_2" label="HD"></edge>
+                  <edge idref="s49_1" label="PRD"></edge>
+                  <edge idref="s49_3" label="SUB"></edge>
+                  <edge idref="s49_4" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s49_500">
+                  <edge idref="s49_502" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+      <s id="s50">
+         <graph root="s50_500">
+            <terminals>
+               <t id="s50_1" pos="vb.prt.akt" word="Visste"></t>
+               <t id="s50_2" pos="pn.utr.sin.def.sub" word="hon"></t>
+               <t id="s50_3" pos="ab" word="egentligen"></t>
+               <t id="s50_4" pos="pn.neu.sin.def.sub/obj" word="det"></t>
+               <t id="s50_5" pos="mad" word="?"></t>
+            </terminals>
+            <nonterminals>
+               <nt cat="vb.prt.akt" id="s50_501">
+                  <edge idref="s50_1" label="HD"></edge>
+                  <edge idref="s50_2" label="SUB"></edge>
+                  <edge idref="s50_3" label="ADV"></edge>
+                  <edge idref="s50_4" label="OBJ"></edge>
+                  <edge idref="s50_5" label="IP"></edge>
+               </nt>
+               <nt cat="root" id="s50_500">
+                  <edge idref="s50_501" label="HD"></edge>
+               </nt>
+            </nonterminals>
+         </graph>
+      </s>
+   </body>
+</corpus>

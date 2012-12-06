@@ -1,0 +1,326 @@
+\documentclass[a4paper,landscape]{slides}
+
+\usepackage[dvips]{color}
+\usepackage{times,mathptm,isolatin1,graphicx,amsmath}
+\usepackage{amscd,verbatim}
+\usepackage[danish,english]{babel}
+
+\long\def\handout#1{}
+\long\def\slides#1{#1}
+
+\newcounter{sentence}
+\def\sent{(\refstepcounter{sentence}\arabic{sentence})\ \ }
+\setlength{\textwidth}{20cm}
+\def\TITLE#1{\textbf{\colorbox{blue}{\textcolor{white}{\large #1}}}}
+\def\title#1{\textbf{\colorbox{blue}{\textcolor{white}{#1}}}}
+\def\strong#1{\textbf{\textcolor{red}{#1}}}
+\def\high#1{\textbf{\textcolor{blue}{#1}}}
+\def\into{\longrightarrow}
+\def\implies{\rightarrow}
+\def\slidegraphics#1{\includegraphics[scale=1.8]{#1}}
+\def\slidegraphicsx#1#2{\includegraphics[#1]{#2}}
+\def\invert#1{\textbf{\colorbox{cyan}{#1}}}
+\def\flash#1{\textbf{\colorbox{yellow}{#1}}}
+\newenvironment{itemlist}
+    {\begin{list}{$\bullet$}{\setlength{\itemsep}{0mm}%
+		\setlength{\parsep}{0mm}{}}}
+	{\end{list}}
+\newenvironment{zlide}
+	{\begin{slide}\setlength{\parskip}{4mm}}{\vfill\end{slide}}
+
+\begin{document}
+\def\map#1#2#3{#1$\begin{CD} @>{\text{\small #2}}>> \end{CD}$#3}
+\def\imap#1#2#3{#1$\begin{CD} @<{\text{\small #2}}<< \end{CD}$#3}
+\def\vcenterbox#1{$\begin{array}[c]{l}\text{#1}\end{array}$}
+
+
+\newcounter{mypart}
+\newcounter{myslide}
+
+\def\sor{\texttt{|}}
+
+\def\derive#1#2#3{
+	\begin{CD}
+		\begin{array}[c]{l}#1\end{array}
+		@>{\text{#2}}>> 
+		\begin{array}[c]{l}#3\end{array}
+	\end{CD}}
+
+\def\ul#1{\underline{\smash{#1}}}
+    \newcommand{\typ}[1]{\emph{#1}}
+    \newcommand{\var}[1]{\emph{#1}}
+    \newcommand{\val}[1]{\emph{#1}}
+    \newcommand{\abs}[1]{\ensuremath{|#1|}}
+    \newcommand{\ab}[1]{\ensuremath{|\text{#1}|}}
+
+    \newcommand{\isaop}{\text{isa}}
+    \newcommand{\thisop}{\text{this}}
+    \newcommand{\depop}{\text{dep}}
+    \newcommand{\repairop}{\text{repair}}
+    \newcommand{\landop}{\text{land}}
+    \newcommand{\lexop}{\text{lex}}
+    \newcommand{\leftop}{\text{left}}
+    \newcommand{\rightop}{\text{right}}
+    \newcommand{\islandop}{\text{island}}
+    \newcommand{\andop}{\text{and}}
+    \newcommand{\orop}{\text{or}}
+    \newcommand{\notop}{\text{not}}
+    \newcommand{\semop}{\text{sem}}
+    \newcommand{\govop}{\text{gov}}
+    \newcommand{\distop}{\text{dist}}
+    \newcommand{\lsiteop}{\text{lsite}}
+    \newcommand{\boldf}[1]{\textbf{$\mathbf{#1}$}}
+    \newcommand{\defeq}{:=}
+    \newcommand{\code}[1]{{\textsf{\small#1}}}
+    \newcommand{\ptitle}[1]{\multicolumn{2}{|c|}{\textbf{#1}}}
+    \newcommand{\sel}[1]{\textbf{#1}}
+    \newcommand{\lex}[1]{lex(#1)}
+    \newcommand{\landed}[2]{land(#1$^{\text{#2}}$)}
+    \newcommand{\dep}[3]{dep(#1$^{\text{#2}}_{\text{#3}}$)}
+        \def\repairl#1#2#3{repair1(#1$^{\text{#2}}_{\text{#3}}$)}
+            \def\repair#1#2#3#4#5#6{repair2(#1$^{\text{#2}}_{\text{#3}}$,#4$^{\text{#5}}_{\text{#6}}$)}
+                \def\repairx#1#2#3#4#5#6#7#8#9{repair3(#1$^{\text{#2}}_{\text{#3}}$,#4$^{\text{#5}}_{\text{#6}}$,#7$^{\text{#8}}_{\text{#9}}$)}
+
+
+\def\code#1{\texttt{#1}}
+\def\derive#1#2#3{
+    \begin{CD}
+        \begin{array}[c]{l}#1\end{array}
+        @>{\text{#2}}>> 
+        \begin{array}[c]{l}#3\end{array}
+    \end{CD}}
+
+\begin{zlide}
+	\title{NTN Tools and Resources session. Lovik, March 6, 2004}
+
+	\begin{tabular}{p{20mm}p{210mm}}
+		 & \strong{Experiences with TIGER XML} \\ 
+		09:00	& \high{Eckhard Bick}: TIGERizing Arboretum --- feeding VISL
+				to the beast. \\
+		09:25 & \high{Joakim Nivre}: Converting MALT XML to TIGER XML. \\
+		09:50	 	& \high{Jens Allwood}: Opinion on spoken language +
+			Göteborg tools and resources.  \\
+		10:15 & \high{Matthias T. Kromann}: Converting DDT to TIGER
+XML.\\ \hline
+
+		10.30 & Coffee break. \\ \hline
+
+		 & \strong{From syntax to discourse, dialogue, and
+			speech} \\
+		11:00 & \high{Martin Volk}: The ANNOTATE tree editor. \\
+		11:25 & \high{Sofia Gustafson-Capkova}: Opinion on discourse
+			treebanks.\\ \hline
+		11:40 & \strong{General discussion.}\\ \hline
+		12:30 & Lunch.
+	\end{tabular}
+\end{zlide}
+
+\begin{zlide}
+	\begin{center}
+		{\large\bfseries\color{blue}Converting the Danish Dependency
+		Treebank \\ to TIGER XML}
+        \bigskip
+
+		Matthias Trautner Kromann 
+
+        Lovik meeting of the Nordic Treebank Network \break
+		March 6, 2004
+	
+		\includegraphics[scale=0.5]{figs/cmol-logo.eps}
+
+		Center for Computational Modelling of Language\break
+        Department of Computational Linguistics \break
+		Copenhagen Business School\break
+        http://www.id.cbs.dk/$\sim$mtk\medskip
+    \end{center}
+\end{zlide}
+
+\begin{zlide}
+	\title{1. Conversion of DDT to TIGER XML}
+
+	The conversion was done by implementing a \high{TIGER XML export
+	filter} in the annotation program DTAG, so that any treebank
+	stored in native DTAG format can be exported to TIGER XML.
+
+	The export filter took approximately \high{8 hours to program}.
+	The time-consuming bits were: 
+	\begin{itemlist}
+		\item \strong{XML header}: making an inventory of all
+			edge types and feature values in the text (for features
+			with less than 500 values).
+		\item \strong{sentence segmentation}: segmenting the text into
+			sentence-sized graphs. 
+		\item \strong{primary and secondary edges}: distinguishing
+			between primary and secondary edges
+	\end{itemlist}
+\end{zlide}
+
+
+\begin{zlide}
+	\title{2. Conversion rules}
+	
+	\begin{itemlist}
+		\item \high{phrase-structure graphs}: words in DTAG are
+			converted into two TIGER nodes: a terminal and a
+			non-terminal node, linked with a ``\texttt{--}'' primary
+			edge.
+
+		\item \high{features}: any variable-value pair associated with
+			a word in the DTAG format is output as a feature of the
+			corresponding terminal and non-terminal node in TIGER XML;
+			words are stored in non-terminal feature ``word''.
+
+		\item \high{sentence segmentation}: the text is segmented into
+			maximal, connected primary trees, and these are output as
+			sentences/graphs in TIGER XML.
+
+		\item \high{primary/secondary edge distinction}: DTAG allows
+			the user to control whether edges are printed on top of
+			the words, or below them; during export, edges below the
+			words are analyzed as secondary, all other edges are
+			analyzed as primary.
+	\end{itemlist}
+\end{zlide}
+
+\begin{zlide}
+	\title{3. Example of graph translated from DTAG to TIGER XML}
+
+	\[
+		\slidegraphics{figs/coref.eps}
+	\]
+	\[
+		\slidegraphicsx{width=160mm,height=55mm}{figs/coref-tiger.eps}
+	\]
+\end{zlide}
+
+\begin{zlide}
+	\title{4. Conversion successes, failures, and potential problems}
+
+	\begin{itemlist}
+		\item \high{Secondary edges}: Coreference and filler edges 
+			are preserved in translation. 
+		\item \high{Cross-sentential edges}: Edges between different
+			sentences are lost in translation.
+		\item \high{Dependency representation}: Dependency graphs
+			cannot be represented as words connected with edges, they
+			must be represented as \strong{discontinuous
+			phrase-structure graphs}, thereby doubling the number of
+			nodes and edges in the graph.
+		\item \high{Well-formedness in TIGER}: The exported TIGER XML
+			file is not guaranteed to contain only well-formed TIGER
+			graphs (but the Danish Dependency Treebank led to few
+			errors).
+	\end{itemlist}
+\end{zlide}
+
+\begin{zlide}
+	\title{5. Comparison between DTAG format and TIGER XML}
+
+	\nopagebreak
+	\begin{tabular}{p{50mm}|p{80mm}|p{80mm}}
+		& \textbf{TIGER XML} & \textbf{DTAG} \\ \hline
+
+		\high{segmentation} &
+			sentences with words &
+			texts with words \\ \hline
+
+		\high{edges crossing sentences} &
+			ill-formed/ignored &
+			unproblematic \\ \hline
+
+		\high{node types} &
+			terminal/non-ter\-mi\-nal: non-terminals must
+			do\-mi\-na\-te
+			some terminal &
+			no distinction \\ \hline
+
+		\high{edge types} &
+			primary/secondary & 
+			no distinction \\ \hline
+
+		\high{graph types} & 
+			primary edges must form a tree; 
+			secondary edges unrestricted  & 
+			unrestricted: general digraphs \\  \hline
+
+		\high{XML scheme} & 
+			restricted: document must follow strict DTD & 
+			unrestricted: recognize $\langle$W$\rangle$
+			tags, treat everything else as comments \\ \hline
+
+		\high{XML compliant} &
+			yes &
+			optional \\ \hline
+	\end{tabular}
+
+\end{zlide}
+
+
+
+\begin{zlide}
+	\title{6. Strengths and weaknesses of TIGER XML}
+	
+	Strengths:
+	\begin{itemlist}
+		\item \high{simplicity}: format is simple and easy to
+			implement.
+		\item \high{phrase/dependency support}: works with
+			both phrase-structure and dependency.
+		\item \high{discontinuity}: can handle discontinuities.
+		\item \high{secondary edges}: supports secondary dependencies. 
+	\end{itemlist}
+	Weaknesses:
+	\begin{itemlist}
+		\item \high{sentence-based}: no support for edges between
+			sentences, hence no support for discourse annotation.
+		\item \high{text-based}: no support for linking nodes
+			to external sound/video segments.
+		\item \high{visualization}: not geared towards text-sized segments. 
+	\end{itemlist}
+\end{zlide}
+
+\begin{zlide}
+	\title{7. Proposed work-arounds and adaptations of TIGER XML}
+
+	\begin{itemlist}
+		\item \high{cross-sentential links}: encode cross-sentential
+			links with secondary edges, ignoring warnings from
+			TIGERRegistry; ask TIGER team to implement cross-sentential
+			links.
+		\item \high{dependency graphs}: facilitate exchange of
+			dependency treebanks by standardizing the way 
+			dependency graphs are represented (eg, use the edge label
+			"\texttt{--}", "HD", or "HEAD" to indicate the head word in the
+			phrase).
+		\item \high{separate source and annotation}: allow separation
+			of source (text/sound/video) and annotation by
+			introducing additional "segment" attribute that indicates
+			(discontinuous) segment in source file; standardize
+			features, eg: \texttt{<}t
+			word="This" speaker="A" source="/opt/ddt/talk12.mp3"
+			segment="13-35,77-92"\texttt{>}. 
+	\end{itemlist}
+\end{zlide}
+
+\begin{zlide}
+	\title{8. Proposed tasks in "Tools and Resources"}
+
+	\begin{itemlist}
+		\item Standardize \strong{representation of cross-sentential
+			links with secondary edges}.
+		\item Standardize \strong{dependency representation}
+			in TIGER XML.
+		\item Standardize \strong{speech-related features in TIGER XML}: 
+			\begin{itemlist}
+				\item \high{source}: source file for text/sound/video 
+				\item \high{segment}: list of segments within the
+					source file covered by the annotation.
+				\item \high{speaker}: speaker associated with
+					segment.
+			\end{itemlist}
+	\end{itemlist}
+\end{zlide}
+
+
+
+\end{document}

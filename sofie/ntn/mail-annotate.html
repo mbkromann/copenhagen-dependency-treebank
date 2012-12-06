@@ -1,0 +1,147 @@
+<html>
+<body>
+
+<pre>
+Date: Tue, 9 Mar 2004 17:27:42 +0100
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: gj@coli.uni-sb.de
+Subject: The "Annotate" tool
+
+Dear Geert-Jan Kruijff,
+
+I hope everything is going well. I am writing on behalf of the Nordic
+Treebank Network (NTN), which has adapted TIGER-XML as its common
+treebank representation format. Many network members are using the
+"Annotate" tool to produce their treebanks. However, "Annotate" only
+supports annotation of sentence-sized units, whereas a number of
+people in the NTN are interested in also annotating discourse-sized
+units that may span entire texts. 
+
+We would therefore like to ask you whether Annotate is still being
+actively developed, and if so, who we should contact if we want to
+suggest changes to the program. If you will release Annotate under an
+open-source license, some of our members have even expressed interest
+in participating in the further development of Annotate -- something
+which might relieve you of some of the maintenance costs for Annotate. 
+
+Regards,
+Matthias
+</pre>
+
+<hr>
+
+<pre>
+Date: Tue, 09 Mar 2004 16:44:40 +0100
+From: Geert-Jan Kruijff <gj@coli.uni-sb.de>
+Subject: Re: The "Annotate" tool
+To: Matthias Trautner Kromann <mtk@id.cbs.dk>
+
+Hallo Matthias!
+
+> I hope everything is going well.
+
+Thanks for asking :-) Busy as usual, as usual.
+
+> I am writing on behalf of the Nordic
+> Treebank Network (NTN), which has adapted TIGER-XML as its common
+> treebank representation format. Many network members are using the
+> "Annotate" tool to produce their treebanks. However, "Annotate" only
+> supports annotation of sentence-sized units,
+
+... correct ...
+
+> whereas a number of people in the NTN are interested in also 
+> annotating discourse-sized
+> units that may span entire texts.
+
+... which is interesting!
+
+See also below.
+
+> We would therefore like to ask you whether Annotate is still being
+> actively developed,
+
+Well, no and yes.
+
+No: We no longer do any active development on the Tcl/Tk-based version 
+of Annotate. It requires libraries that are no longer broadly 
+supported, which has led to problems installing Annotate.
+
+But ...
+
+Yes: We are developing a new version of Annotate, programmed solely in 
+Java. The new Annotate is based on a plug-and-play architecture (using 
+RMI), enabling a user to plug in his/her own components and specifying 
+a personalized workflow that defines the information flow between 
+different (available) components.
+
+> and if so, who we should contact if we want to
+> suggest changes to the program. If you will release Annotate under an
+> open-source license, some of our members have even expressed interest
+> in participating in the further development of Annotate -- something
+> which might relieve you of some of the maintenance costs for Annotate.
+
+Well. Students of mine are working on the new Java-based Annotate; I 
+hope that we'll have a beta-version by May, but it remains to be seen 
+whether that's overly optimistic or not. The beta-version should 
+include:
+
+* the GUI with complete edit-facilities as familiar from the old 
+Annotate;
+* wrappers for the components that came with the old Annotate (TnT for 
+PoS-tagging, Cascaded MMs for partial parsing)
+* a GUI for the workflow manager that let's you specify the information 
+flow between different components
+* a DB-XML-based setup for creating and maintaining treebanks, as one 
+possibility; if you want to use MySQL, that's of course fine -- we'd 
+like to offer a completely platform-independent solution.
+
+Most of this should come as an Open Source API (perhaps aside from some 
+of the Java code we got from TigerSearch). That should enable others to 
+extend the API, correct it, etc :-)
+
+With this plug-and-play setup, you should be able to plug in your own 
+tools for discourse annotation, of course.
+
+Having said that, we HAVE been doing discourse-level annotation as 
+well, but approached it the way that we use a whole suite of tools 
+rather than just one complex one. As long as the tools create XML 
+annotation, and we have a way to relate these annotations in a 
+stand-off encoding way, we can still obtain an integrated picture. In 
+this way we've been annotation TIGER and the WSJ with linguistic 
+information related to information structure: prosody (using EMU), 
+syntactic phenomena (TIGER/XML Spy), discourse-level phenomena (EML 
+Heidelberg's MMAX). Some papers are coming out now at a workshop at 
+HLT-NAACL, and at LREC.
+
+Hope this helps,
+Cheers,
+
+GJ
+</pre>
+
+<hr>
+
+<pre>
+Date: Wed, 10 Mar 2004 09:31:52 +0100
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: Geert-Jan Kruijff <gj@coli.uni-sb.de>
+Subject: Re: The "Annotate" tool
+
+Dear Geert-Jan,
+
+Thanks for your very detailed reply -- I will pass it on to the
+network. Your new version of Annotate certainly sounds very
+interesting, I am sure it will address the concerns of our members.
+We will be looking forward to the Java version in May (or whenever). 
+We will also look into your proposed method of doing discourse
+annotation -- it may well satisfy our needs. Thanks again for all your
+help -- I really appreciate it.
+
+Regards,
+Matthias
+</pre>
+
+
+</body></html>
+

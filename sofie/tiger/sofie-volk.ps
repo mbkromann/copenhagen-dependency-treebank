@@ -1,0 +1,1938 @@
+%! (c) 2002 Matthias T. Kromann <mtk@id.cbs.dk>
+
+%% This PostScript library is distributed under the GNU public  
+%% license for libraries, as part of the DGgraph package.
+%% Please see: http://www.id.cbs.dk/~mtk/DGgraph for source code,
+%% documentation and license.
+
+%% 1. DGgraph Prologue
+
+100 dict begin /llx 20 def /lly 20 def /urx 500 def /ury 820 def /LW 1
+def /X 2 def /Y 0 def /dO 5 def /dA 10 def /dAW 2.5 def /dAH 6 def
+/dAD 2 def /dT 15 def /dB 18 def /dT0 3 def /dB0 8 def /dW 8 def /dH
+10 def /dL 20 def /strings 1 def /framegray 1 def /bggray 1 def
+/smallfont 7 def /textfont 10 def /nextw 0 def /nexte 0 def LW
+setlinewidth /xdef {exch def} def /max {dup 3 -1 roll dup 3 -1 roll lt
+{pop} {exch pop} ifelse} def /min {dup 3 -1 roll dup 3 -1 roll gt
+{pop} {exch pop} ifelse} def /ISOfont {findfont dup length dict begin
+{1 index /FID ne {def} {pop pop} ifelse} forall /Encoding
+ISOLatin1Encoding def currentdict end definefont pop} def /Times-Roman
+/Times-Roman-Latin1 ISOfont /Times-Bold /Times-Bold-Latin1 ISOfont
+/Times-Italic /Times-Italic-Latin1 ISOfont /Times-BoldItalic
+/Time-BoldItalic-Latin1 ISOfont /Times [(ptm) /Times-Roman-ISOLatin1
+/Times-Bold-ISOLatin1 /Times-Italic-ISOLatin1
+/Times-BoldItalic-ISOLatin1] def /setfontfamily {/fontfamily xdef} def
+/setfontsize {/fontsize xdef} def /setfontstyle {/fontstyle xdef} def
+/font 7 string def /fontext 4 string def /setupfont {font 0 fontfamily
+0 get putinterval font 3 fontstyle 1 add 1000 mul fontsize cvi add
+fontext cvs putinterval currentdict font cvn known not {currentdict
+font cvn fontfamily fontstyle 1 add get findfont fontsize scalefont
+put} if font cvn cvx exec setfont} def Times setfontfamily 10
+setfontsize 0 setfontstyle setupfont /qsort {1 index length 0 exch
+qsortx pop} def /qsortx {2 copy 2 sub gt {pop pop} {findpivot dup -1
+eq {pop pop pop} {4 index exch get 3 1 roll 2 copy 7 2 roll 1 sub
+{exch {dup 5 index exch get 3 index 5 index exec -1 eq {1 add} {exit}
+ifelse} loop exch {dup 5 index exch get 3 index 5 index exec -1 gt {1
+sub} {exit} ifelse} loop 2 copy gt {exit} if 2 copy 6 index 3 1 roll
+switch} loop 3 -1 roll pop pop 5 -1 roll exch dup 6 1 roll qsortx 4 2
+roll qsortx} ifelse} ifelse} def /findpivot {2 copy add 1 sub 2 idiv 4
+index 1 index get 1 index 1 1 index 5 index add 6 index sub 1 sub {dup
+4 index ge {4 index add 3 index sub} if dup 7 index exch get 2 index 7
+index exec dup 0 ne {1 eq {3 -1 roll pop -1 3 1 roll exit} {pop -1 3 1
+roll exch exit} ifelse} {pop pop} ifelse} for 2 index -1 eq {3 1 roll
+pop pop} {pop pop -1} ifelse} def /switch {2 index 2 index get 3 index
+2 index get 4 index exch 6 1 roll 3 1 roll put 3 -1 roll put} def
+/intcmp {2 copy lt {pop pop -1} {eq {0} {1} ifelse} ifelse} def
+/format {pop gsave /oldfontstyle fontstyle def /oldfontsize fontsize
+def /oldfontfamily fontfamily def exch dup 0 ge 1 index formats length
+le and {dup 0 eq {pop} {formats exch 1 sub get exec} ifelse} {pop}
+ifelse exec grestore fontstyle oldfontstyle ne fontsize oldfontsize ne
+or fontfamily oldfontfamily ne or {oldfontfamily setfontfamily
+oldfontsize setfontsize oldfontstyle setfontstyle setupfont} if} def
+/arrow {dA mul 2 index add 4 copy exch 2 copy 5 index 5 1 roll 5 index
+8 -2 roll moveto curveto stroke 2 index gt {-1} {1} ifelse dAH mul 3 1
+roll exch moveto dAW 0 rmoveto dAW -2 mul 0 rlineto dAW exch rlineto
+closepath fill pop} def /word {strings 2 mul 1 add array strings -1 1
+{2 index type /integertype eq {4 2 roll} {3 -1 roll 0} ifelse 3 index
+3 index 2 mul 3 -1 roll put 2 index 2 index 2 mul 1 sub 3 -1 roll put
+pop} for 0 1 1 strings {2 index exch 2 mul 1 sub get stringwidth pop
+max} for X exch X add dW add /X xdef 1 index 0 3 -1 roll put
+currentdict /words known {words nextw 3 -1 roll put} if /nextw nextw 1
+add def} def /newedge {dup type /stringtype eq {0 0} {1 index type
+/stringtype eq {dup} if} ifelse 5 2 roll 3 1 roll 2 copy gt {exch neg}
+if 3 -1 roll 0 1 7 -2 roll 7 array astore} def /edget {newedge
+currentdict /edges known {edges nexte 3 -1 roll put} if /nexte nexte 1
+add def} def /edgeb {newedge dup 4 -1 put currentdict /edges known
+{edges nexte 3 -1 roll put} if /nexte nexte 1 add def} def /xcenter
+{dup words exch get 0 get exch 1 add dup words length eq {pop X}
+{words exch get 0 get} ifelse dW sub add 2 div} def /edge_heights {[
+exch 0 0 0 edge_heights0 {pop} repeat pop pop pop pop} def
+/edge_heights0 {{edge_heights1 {true} {edge_heights2} ifelse {true}
+{edge_heights3} ifelse {true} {edge_heights4} ifelse not {exit} if}
+loop} def /edge_heights1 {dup 2 lt {false} {4 index length 3 eq {true}
+{4 index 3 get -1 eq} ifelse} ifelse {5 -1 roll dup 1 get exch 2 get 6
+index dup dup 2 get 4 -1 roll max 2 exch put 1 3 -1 roll put 1 sub
+true} {false} ifelse} def /edge_heights2 {dup 0 gt {4 index length 3
+gt {4 index 3 get -1 ne {4 index dup dup 1 get exch 3 get edges exch
+get 1 get abs eq {dup dup 2 get 1 add 2 exch dup 4 1 roll put 1 index
+3 get edges exch get 3 3 -1 roll 7 index exec put mark exch dup aload
+pop counttomark 4 sub -1 roll pop -1 counttomark -1 roll astore pop
+pop true} {pop false} ifelse} {false} ifelse} {false} ifelse} {false}
+ifelse} def /edge_heights3 {dup 1 gt {5 index 5 index dup 1 get exch 2
+get 3 -1 roll 1 get 2 index ne {7 index dup 1 5 -1 roll put dup 2 get
+3 -1 roll max 2 exch put 5 -1 roll 1 index 4 add 1 roll 1 sub
+edge_heights0 1 add dup 4 add -1 roll 5 1 roll true} {pop pop false}
+ifelse} {false} ifelse} def /edge_heights4 {counttomark 1 index 4 add
+eq {2 index words length lt {mark 3 index dup 1 add 0 7 index 6 index
+{dup edges length ge {exch pop exit} if dup edges exch get dup 0 get 6
+index eq {4 get 2 index exec 0 gt{dup 6 1 roll} if 1 add} {pop exch
+pop exit} ifelse} loop counttomark 1 add 1 roll counttomark 3 roll ] 6
+1 roll 3 1 roll 1 add exch pop 3 -1 roll 1 add 3 1 roll true} {false}
+ifelse} {false} ifelse} def /edge_displace {-1 -1 0 0 0 {2 index words
+length ge {pop pop pop pop pop exit} if 5 -2 roll pop pop -1 -1 5 2
+roll 1 index edges 0 3 -1 roll update_super dup maxedges 1 3 -1 roll
+update_super exch edges 0 3 -1 roll displace exch maxedges 1 3 -1 roll
+displace 3 -1 roll 1 add 3 1 roll} loop} def /displace {{dup 3 index
+length ge {3 1 roll pop pop exit} if 2 index 1 index get dup 3 index
+get abs 6 index gt {pop 3 1 roll pop pop exit} if dup ioword 7 index
+eq {1 index 3 get 0 gt {8 index} {7 index} ifelse dup -1 eq {pop pop 4
+0 put} {7 index -1 2 index 2 index gt {neg exch 3 1 roll} if 4 1 roll
+2 index gt 3 1 roll gt and not {neg} if 4 exch put} ifelse} {pop pop}
+ifelse 1 add} loop} def /update_super {{dup 3 index length ge {pop pop
+pop exit} if 2 index 1 index get dup 3 index get 7 index gt {pop pop
+pop pop exit} if dup ioword exch 8 index eq {exch 3 get 0 gt {9 -1
+roll pop 8 1 roll} {8 -1 roll pop 7 1 roll} ifelse} {pop pop} ifelse 1
+add} loop} def /ioword {dup 0 get exch 1 get dup 0 lt {abs exch} {abs}
+ifelse} def /split_lines {split_words split_edges split_pages} def
+/split_words {/lines [ urx llx sub 0 0 1 {1 index words length ge {pop
+pop pop pop exit} if [2 index 0 5 index 0 0 0 0] 5 1 roll {dup xpos dW
+2 div sub dup 4 index sub 5 index gt 2 index words length ge or {exch
+4 2 roll pop pop dup 1 add exit} if pop 1 add} loop} loop [words
+length edges length X 0 0 0 0] ] def} def /split_edges {0 [] 0 1 lines
+length 2 sub {dup 1 add lines exch get 0 get exch lines exch get 0 0 2
+index [ 8 2 roll 4 index {dup edges exch get 1 get abs 5 index ge {dup
+8 1 roll} if edges exch get 3 get dup 4 -1 roll min 3 1 roll max}
+forall {5 index edges length ge {exit} if 5 index edges exch get 0 get
+4 index ge {exit} if 5 index edges exch get dup 1 get abs 5 index ge
+{6 index 7 1 roll} if 3 get dup 4 -1 roll min 3 1 roll max 6 -1 roll 1
+add 6 1 roll} loop 2 index 4 3 -1 roll put 1 index 5 3 -1 roll abs put
+3 1 roll pop pop 1 2 index put counttomark 1 add 1 roll ] 2 index 6 2
+index put 3 -1 roll 1 3 index put} for pop pop} def /split_pages {ury
+lly sub 0 0 1 lines length 2 sub {lines exch get dup line_height 3
+index 3 index 2 index add lt {3 -1 roll pop 0 3 1 roll} if exch 3 3
+index put add dL add} for pop pop} def /line_height {dup 4 get exch 5
+get add dA mul strings dH mul add dB add dT add} def /xpos {dup words
+length ge {pop X} {words exch get 0 get} ifelse} def /print_word {1
+index 4 index 4 get dA mul sub dT sub 1 index xcenter 4 index add exch
+3 -1 roll words exch get 1 1 strings {3 -1 roll dH sub 3 1 roll 2 copy
+2 mul get 3 1 roll 1 index exch 2 mul 1 sub get dup stringwidth pop 2
+div neg 5 index add 4 index moveto 3 -1 roll {show} 0 format} for pop
+pop pop} def /print_edge {edges exch get 1 index 4 index 4 get dA mul
+sub 1 index 3 get 0 ge {dup dT sub dT0 add} {dT sub strings dH mul sub
+dB sub dup dB0 add} ifelse 2 index ioword xcenter 6 index add exch
+xcenter 6 index add dup 4 -1 roll moveto 3 index 2 get dup stringwidth
+pop -2 div 0 rmoveto 4 index 5 get {show} 1 format exch 3 index 4 get
+dO mul add 3 1 roll 3 index 3 get 4 index 6 get {arrow} 2 format pop}
+def /sort_edges {edges {2 copy 0 get exch 0 get exch intcmp dup 0 ne
+{3 1 roll pop pop} {pop 1 get abs exch 1 get abs exch intcmp} ifelse}
+qsort pop /maxedges edges edges length array copy def maxedges {2 copy
+1 get abs exch 1 get abs exch intcmp dup 0 ne {3 1 roll pop pop} {pop
+0 get exch 0 get exch intcmp} ifelse} qsort pop} def /layout_arcs
+{sort_edges {} edge_heights {neg} edge_heights 0 1 edges length 1 sub
+{edges exch get 4 0 put} for edge_displace split_lines} def
+/print_line {dup lines exch get dup line_height 1 index 2 get dup 4
+index 1 add lines exch get 2 get exch sub 3 1 roll llx exch sub 3
+index 3 get ury exch sub gsave newpath llx 1 index moveto 3 index 0
+rlineto 0 3 index neg rlineto 3 index neg 0 rlineto closepath gsave
+bggray setgray fill grestore clip gsave framegray setgray stroke
+grestore newpath 4 2 roll pop pop textfont setfontsize setupfont 2
+index 0 get 1 5 index 1 add lines exch get 0 get 1 sub {print_word}
+for smallfont setfontsize setupfont 3 index 0 eq {[]} {3 index 1 sub
+lines exch get 6 get} ifelse {print_edge} forall 3 index 0 eq {0} {3
+index 1 sub lines exch get 1 get} ifelse 1 4 index 1 get 1 sub
+{print_edge} for grestore pop pop pop pop} def /print_lines {0 1 lines
+length 2 sub {dup print_line 1 add lines exch get 3 get 0 eq
+{showpage} if} for} def /draw {layout_arcs print_lines} def /setup
+{array /edges exch def array /words exch def /nextw 0 def /nexte 0 def
+/strings exch def} def 
+
+
+%% 2. Dependency graph specification
+
+% Graph setup
+4 954 811 setup
+
+/formats [
+] def
+
+% Words and edges
+(NP) () () (1) word
+() (Der) (ART) (2) word
+1 0 (NK) edget
+() (Garten) (NN) (3) word
+2 0 (NK) edget
+() (Eden) (NE) (4) word
+3 0 (NK) edget
+() (...) ($\() (7) word
+(S) () () (8) word
+(CAVP) () () (9) word
+6 5 (MO) edget
+() (schließlich) (ADV) (10) word
+7 6 (CJ) edget
+() (und) (KON) (11) word
+8 6 (CD) edget
+() (endlich) (ADV) (12) word
+9 6 (CJ) edget
+() (mußte) (VMFIN) (13) word
+10 5 (HD) edget
+() (doch) (ADV) (14) word
+11 5 (MO) edget
+() (irgendwann) (ADV) (15) word
+12 5 (MO) edget
+(NP) () () (16) word
+13 5 (SB) edget
+() (irgend) (ADV) (17) word
+14 13 (MO) edget
+() (etwas) (PIS) (18) word
+15 13 (NK) edget
+(VP) () () (19) word
+16 5 (OC) edget
+(VP) () () (20) word
+17 16 (OC) edget
+(PP) () () (21) word
+18 17 (MO) edget
+() (aus) (APPR) (22) word
+19 18 (AC) edget
+(CNP) () () (23) word
+20 18 (NK) edget
+() (null) (CARD) (24) word
+21 20 (CJ) edget
+() (und) (KON) (25) word
+22 20 (CD) edget
+() (nichts) (PIS) (26) word
+23 20 (CJ) edget
+() (entstanden) (VVPP) (27) word
+24 17 (HD) edget
+() (sein) (VAINF) (28) word
+25 16 (HD) edget
+() (...) ($\() (29) word
+(S) () () (32) word
+(MPN) () () (33) word
+28 27 (SB) edget
+() (Sofie) (NE) (34) word
+29 28 (PNC) edget
+() (Amundsen) (NE) (35) word
+30 28 (PNC) edget
+() (war) (VAFIN) (36) word
+31 27 (HD) edget
+(PP) () () (37) word
+32 27 (MO) edget
+() (auf) (APPR) (38) word
+33 32 (AC) edget
+() (dem) (ART) (39) word
+34 32 (NK) edget
+() (Heimweg) (NN) (40) word
+35 32 (NK) edget
+(PP) () () (41) word
+36 32 (MNR) edget
+() (von) (APPR) (42) word
+37 36 (AC) edget
+() (der) (ART) (43) word
+38 36 (NK) edget
+() (Schule) (NN) (44) word
+39 36 (NK) edget
+() (.) ($.) (45) word
+(S) () () (48) word
+(NP) () () (49) word
+42 41 (MO) edget
+() (Das) (ART) (50) word
+43 42 (NK) edget
+() (erste) (ADJA) (51) word
+44 42 (NK) edget
+() (Stück) (NN) (52) word
+45 42 (NK) edget
+() (war) (VAFIN) (53) word
+46 41 (HD) edget
+() (sie) (PPER) (54) word
+47 41 (SB) edget
+(VP) () () (55) word
+48 41 (OC) edget
+(PP) () () (56) word
+49 48 (MO) edget
+() (mit) (APPR) (57) word
+50 49 (AC) edget
+() (Jorunn) (NE) (58) word
+51 49 (NK) edget
+() (zusammen) (ADV) (59) word
+52 48 (MO) edget
+() (gegangen) (VVPP) (60) word
+53 48 (HD) edget
+() (.) ($.) (61) word
+(S) () () (64) word
+() (Sie) (PPER) (65) word
+56 55 (SB) edget
+() (hatten) (VAFIN) (66) word
+57 55 (HD) edget
+(VP) () () (67) word
+58 55 (OC) edget
+() (sich) (PRF) (68) word
+59 58 (OA) edget
+(PP) () () (69) word
+60 58 (MO) edget
+() (über) (APPR) (70) word
+61 60 (AC) edget
+() (Roboter) (NN) (71) word
+62 60 (NK) edget
+() (unterhalten) (VVPP) (72) word
+63 58 (HD) edget
+() (.) ($.) (73) word
+(S) () () (76) word
+() (Jorunn) (NE) (77) word
+66 65 (SB) edget
+() (hielt) (VVFIN) (78) word
+67 65 (HD) edget
+(NP) () () (79) word
+68 65 (OA) edget
+() (das) (ART) (80) word
+69 68 (NK) edget
+() (menschliche) (ADJA) (81) word
+70 68 (NK) edget
+() (Gehirn) (NN) (82) word
+71 68 (NK) edget
+(PP) () () (83) word
+72 65 (MO) edget
+() (für) (APPR) (84) word
+73 72 (AC) edget
+() (einen) (ART) (85) word
+74 72 (NK) edget
+() (komplizierten) (ADJA) (86) word
+75 72 (NK) edget
+() (Computer) (NN) (87) word
+76 72 (NK) edget
+() (.) ($.) (88) word
+(S) () () (91) word
+() (Sofie) (NE) (92) word
+79 78 (SB) edget
+() (war) (VAFIN) (93) word
+80 78 (HD) edget
+() (sich) (PRF) (94) word
+81 78 (OA) edget
+(AP) () () (95) word
+82 78 (PD) edget
+(AVP) () () (96) word
+83 82 (MO) edget
+() (nicht) (PTKNEG) (97) word
+84 83 (MO) edget
+() (so) (ADV) (98) word
+85 83 (HD) edget
+() (sicher) (ADJD) (99) word
+86 82 (HD) edget
+() (,) ($,) (100) word
+(S) () () (101) word
+88 82 (OC) edget
+() (ob) (KOUS) (102) word
+89 88 (CP) edget
+() (sie) (PPER) (103) word
+90 88 (SB) edget
+() (da) (ADV) (104) word
+91 88 (MO) edget
+() (zustimmte) (VVFIN) (105) word
+92 88 (HD) edget
+() (.) ($.) (106) word
+(S) () () (109) word
+(NP) () () (110) word
+95 94 (SB) edget
+() (Ein) (ART) (111) word
+96 95 (NK) edget
+() (Mensch) (NN) (112) word
+97 95 (NK) edget
+() (mußte) (VMFIN) (113) word
+98 94 (HD) edget
+(VP) () () (114) word
+99 94 (OC) edget
+() (doch) (ADV) (115) word
+100 99 (MO) edget
+(AP) () () (116) word
+101 99 (PD) edget
+() (mehr) (PIS) (117) word
+102 101 (HD) edget
+() (sein) (VAINF) (118) word
+103 99 (HD) edget
+(NP) () () (119) word
+104 101 (CC) edget
+() (als) (KOKOM) (120) word
+105 104 (CM) edget
+() (eine) (ART) (121) word
+106 104 (NK) edget
+() (Maschine) (NN) (122) word
+107 104 (NK) edget
+() (?) ($.) (123) word
+(S) () () (126) word
+(PP) () () (127) word
+110 109 (MO) edget
+() (Beim) (APPRART) (128) word
+111 110 (AC) edget
+() (Supermarkt) (NN) (129) word
+112 110 (NK) edget
+() (hatten) (VAFIN) (130) word
+113 109 (HD) edget
+() (sie) (PPER) (131) word
+114 109 (SB) edget
+(VP) () () (132) word
+115 109 (OC) edget
+() (sich) (PRF) (133) word
+116 115 (OA) edget
+() (getrennt) (VVPP) (134) word
+117 115 (HD) edget
+() (.) ($.) (135) word
+(CS) () () (138) word
+(S) () () (139) word
+120 119 (CJ) edget
+() (Sofie) (NE) (140) word
+121 120 (SB) edget
+() (wohnte) (VVFIN) (141) word
+122 120 (HD) edget
+(PP) () () (142) word
+123 120 (MO) edget
+() (am) (APPRART) (143) word
+124 123 (AC) edget
+() (Ende) (NN) (144) word
+125 123 (NK) edget
+(NP) () () (145) word
+126 123 (AG) edget
+() (eines) (ART) (146) word
+127 126 (NK) edget
+() (ausgedehnten) (ADJA) (147) word
+128 126 (NK) edget
+() (Viertels) (NN) (148) word
+129 126 (NK) edget
+(PP) () () (149) word
+130 126 (MNR) edget
+() (mit) (APPR) (150) word
+131 130 (AC) edget
+() (Einfamilienhäusern) (NN) (151) word
+132 130 (NK) edget
+() (und) (KON) (152) word
+133 119 (CD) edget
+(S) () () (153) word
+134 119 (CJ) edget
+() (hatte) (VAFIN) (154) word
+135 134 (HD) edget
+(NP) () () (155) word
+136 134 (OA) edget
+() (einen) (ART) (156) word
+137 136 (NK) edget
+(AP) () () (157) word
+138 136 (NK) edget
+(AVP) () () (158) word
+139 138 (MO) edget
+(AP) () () (159) word
+140 139 (MO) edget
+() (fast) (ADV) (160) word
+141 140 (MO) edget
+() (doppelt) (ADJD) (161) word
+142 140 (HD) edget
+() (so) (ADV) (162) word
+143 139 (HD) edget
+() (langen) (ADJA) (163) word
+144 138 (HD) edget
+() (Schulweg) (NN) (164) word
+145 136 (NK) edget
+(NP) () () (165) word
+146 136 (MNR) edget
+() (wie) (KOKOM) (166) word
+147 146 (CM) edget
+() (Jorunn) (NE) (167) word
+148 146 (NK) edget
+() (.) ($.) (168) word
+(S) () () (171) word
+(NP) () () (172) word
+151 150 (SB) edget
+() (Ihr) (PPOSAT) (173) word
+152 151 (NK) edget
+() (Haus) (NN) (174) word
+153 151 (NK) edget
+() (schien) (VVFIN) (175) word
+154 150 (HD) edget
+(VP) () () (176) word
+155 150 (OC) edget
+(PP) () () (177) word
+156 155 (MO) edget
+() (am) (APPRART) (178) word
+157 156 (AC) edget
+() (Ende) (NN) (179) word
+158 156 (NK) edget
+(NP) () () (180) word
+159 156 (AG) edget
+() (der) (ART) (181) word
+160 159 (NK) edget
+() (Welt) (NN) (182) word
+161 159 (NK) edget
+(VZ) () () (183) word
+162 155 (HD) edget
+() (zu) (PTKZU) (184) word
+163 162 (PM) edget
+() (liegen) (VVINF) (185) word
+164 162 (HD) edget
+() (,) ($,) (186) word
+(S) () () (187) word
+166 150 (MO) edget
+() (denn) (KON) (188) word
+167 166 (JU) edget
+(PP) () () (189) word
+168 166 (MO) edget
+() (hinter) (APPR) (190) word
+169 168 (AC) edget
+() (ihrem) (PPOSAT) (191) word
+170 168 (NK) edget
+() (Garten) (NN) (192) word
+171 168 (NK) edget
+() (gab) (VVFIN) (193) word
+172 166 (HD) edget
+() (es) (PPER) (194) word
+173 166 (SB) edget
+(CNP) () () (195) word
+174 166 (OA) edget
+(NP) () () (196) word
+175 174 (CJ) edget
+() (keine) (PIAT) (197) word
+176 175 (NK) edget
+() (weiteren) (ADJA) (198) word
+177 175 (NK) edget
+() (Häuser) (NN) (199) word
+178 175 (NK) edget
+() (mehr) (ADV) (200) word
+179 175 (MO) edget
+() (,) ($,) (201) word
+(NP) () () (202) word
+181 174 (CJ) edget
+(AVP) () () (203) word
+182 181 (MO) edget
+() (nur) (ADV) (204) word
+183 182 (HD) edget
+() (noch) (ADV) (205) word
+184 182 (MO) edget
+() (Wald) (NN) (206) word
+185 181 (NK) edget
+() (.) ($.) (207) word
+(S) () () (210) word
+() (Jetzt) (ADV) (211) word
+188 187 (MO) edget
+() (bog) (VVFIN) (212) word
+189 187 (HD) edget
+() (sie) (PPER) (213) word
+190 187 (SB) edget
+(PP) () () (214) word
+191 187 (MO) edget
+() (in) (APPR) (215) word
+192 191 (AC) edget
+() (den) (ART) (216) word
+193 191 (NK) edget
+() (Kløverveien) (NE) (217) word
+194 191 (NK) edget
+() (ein) (PTKVZ) (218) word
+195 187 (SVP) edget
+() (.) ($.) (219) word
+(S) () () (222) word
+(PP) () () (223) word
+198 197 (MO) edget
+() (Ganz) (ADV) (224) word
+199 198 (MO) edget
+() (am) (APPRART) (225) word
+200 198 (AC) edget
+() (Ende) (NN) (226) word
+201 198 (NK) edget
+() (machte) (VVFIN) (227) word
+202 197 (HD) edget
+() (der) (PDS) (228) word
+203 197 (SB) edget
+(NP) () () (229) word
+204 197 (OA) edget
+() (eine) (ART) (230) word
+205 204 (NK) edget
+() (scharfe) (ADJA) (231) word
+206 204 (NK) edget
+() (Kurve) (NN) (232) word
+207 204 (NK) edget
+() (,) ($,) (233) word
+(S) () () (234) word
+209 204 (RC) edget
+() (die) (PRELS) (235) word
+210 209 (SB) edget
+() (") ($\() (236) word
+(VP) () () (237) word
+212 209 (OC) edget
+() (Kapitänskurve) (NN) (238) word
+213 212 (PD) edget
+() (") ($\() (239) word
+() (genannt) (VVPP) (240) word
+215 212 (HD) edget
+() (wurde) (VAFIN) (241) word
+216 209 (HD) edget
+() (.) ($.) (242) word
+(S) () () (245) word
+() (Menschen) (NN) (246) word
+219 218 (SB) edget
+() (waren) (VAFIN) (247) word
+220 218 (HD) edget
+(VP) () () (248) word
+221 218 (OC) edget
+() (hier) (ADV) (249) word
+222 221 (MO) edget
+(AVP) () () (250) word
+223 221 (MO) edget
+(AVP) () () (251) word
+224 223 (MO) edget
+() (fast) (ADV) (252) word
+225 224 (MO) edget
+() (nur) (ADV) (253) word
+226 224 (HD) edget
+(CAVP) () () (254) word
+227 223 (HD) edget
+() (samstags) (ADV) (255) word
+228 227 (CJ) edget
+() (und) (KON) (256) word
+229 227 (CD) edget
+() (sonntags) (ADV) (257) word
+230 227 (CJ) edget
+(VZ) () () (258) word
+231 221 (HD) edget
+() (zu) (PTKZU) (259) word
+232 231 (PM) edget
+() (sehen) (VVINF) (260) word
+233 231 (HD) edget
+() (.) ($.) (261) word
+(S) () () (264) word
+() (Es) (PPER) (265) word
+236 235 (SB) edget
+() (war) (VAFIN) (266) word
+237 235 (HD) edget
+(NP) () () (267) word
+238 235 (PD) edget
+() (einer) (PIS) (268) word
+239 238 (NK) edget
+(NP) () () (269) word
+240 238 (AG) edget
+() (der) (ART) (270) word
+241 240 (NK) edget
+() (ersten) (ADJA) (271) word
+242 240 (NK) edget
+() (Tage) (NN) (272) word
+243 240 (NK) edget
+(PP) () () (273) word
+244 240 (MNR) edget
+() (im) (APPRART) (274) word
+245 244 (AC) edget
+() (Mai) (NN) (275) word
+246 244 (NK) edget
+() (.) ($.) (276) word
+(S) () () (279) word
+(PP) () () (280) word
+249 248 (MO) edget
+() (In) (APPR) (281) word
+250 249 (AC) edget
+() (einigen) (PIAT) (282) word
+251 249 (NK) edget
+() (Gärten) (NN) (283) word
+252 249 (NK) edget
+() (blühten) (VVFIN) (284) word
+253 248 (HD) edget
+(PP) () () (285) word
+254 248 (MO) edget
+() (unter) (APPR) (286) word
+255 254 (AC) edget
+() (den) (ART) (287) word
+256 254 (NK) edget
+() (Obstbäumen) (NN) (288) word
+257 254 (NK) edget
+(NP) () () (289) word
+258 248 (SB) edget
+() (dichte) (ADJA) (290) word
+259 258 (NK) edget
+() (Kränze) (NN) (291) word
+260 258 (NK) edget
+(PP) () () (292) word
+261 258 (MNR) edget
+() (von) (APPR) (293) word
+262 261 (AC) edget
+() (Osterglocken) (NN) (294) word
+263 261 (NK) edget
+() (.) ($.) (295) word
+(S) () () (298) word
+(NP) () () (299) word
+266 265 (SB) edget
+() (Die) (ART) (300) word
+267 266 (NK) edget
+() (Birken) (NN) (301) word
+268 266 (NK) edget
+() (hatten) (VAFIN) (302) word
+269 265 (HD) edget
+(NP) () () (303) word
+270 265 (OA) edget
+() (dünne) (ADJA) (304) word
+271 270 (NK) edget
+() (Umhänge) (NN) (305) word
+272 270 (NK) edget
+(PP) () () (306) word
+273 270 (MNR) edget
+() (aus) (APPR) (307) word
+274 273 (AC) edget
+() (grünem) (ADJA) (308) word
+275 273 (NK) edget
+() (Flor) (NN) (309) word
+276 273 (NK) edget
+() (.) ($.) (310) word
+(S) () () (313) word
+() (War) (VAFIN) (314) word
+279 278 (HD) edget
+() (es) (PPER) (315) word
+280 278 (SB) edget
+() (nicht) (PTKNEG) (316) word
+281 278 (NG) edget
+() (seltsam) (ADJD) (317) word
+282 278 (PD) edget
+() (,) ($,) (318) word
+(S) () () (319) word
+284 278 (MO) edget
+() (wie) (KOKOM) (320) word
+285 284 (CM) edget
+(PP) () () (321) word
+286 284 (MO) edget
+() (zu) (APPR) (322) word
+287 286 (AC) edget
+() (dieser) (PDAT) (323) word
+288 286 (NK) edget
+() (Jahreszeit) (NN) (324) word
+289 286 (NK) edget
+() (alles) (PIS) (325) word
+290 284 (SB) edget
+() (anfing) (VVFIN) (326) word
+291 284 (HD) edget
+(CVZ) () () (327) word
+292 284 (OC) edget
+(VZ) () () (328) word
+293 292 (CJ) edget
+() (zu) (PTKZU) (329) word
+294 293 (PM) edget
+() (wachsen) (VVINF) (330) word
+295 293 (HD) edget
+() (und) (KON) (331) word
+296 292 (CD) edget
+(VZ) () () (332) word
+297 292 (CJ) edget
+() (zu) (PTKZU) (333) word
+298 297 (PM) edget
+() (gedeihen) (VVINF) (334) word
+299 297 (HD) edget
+() (?) ($.) (335) word
+(S) () () (338) word
+() (Woran) (PWAV) (339) word
+302 301 (MO) edget
+() (lag) (VVFIN) (340) word
+303 301 (HD) edget
+() (es) (PPER) (341) word
+304 301 (SB) edget
+() (,) ($,) (342) word
+(S) () () (343) word
+306 301 (OC) edget
+() (daß) (KOUS) (344) word
+307 306 (CP) edget
+(NP) () () (345) word
+308 306 (SB) edget
+() (Kilo) (NN) (346) word
+309 308 (NK) edget
+(PP) () () (347) word
+310 308 (MNR) edget
+() (um) (APPR) (348) word
+311 310 (AC) edget
+() (Kilo) (NN) (349) word
+312 310 (NK) edget
+(NP) () () (350) word
+313 308 (AG) edget
+() (des) (ART) (351) word
+314 313 (NK) edget
+() (grünen) (ADJA) (352) word
+315 313 (NK) edget
+() (Pflanzenstoffes) (NN) (353) word
+316 313 (NK) edget
+(VP) () () (354) word
+317 306 (OC) edget
+(PP) () () (355) word
+318 317 (MO) edget
+() (aus) (APPR) (356) word
+319 318 (AC) edget
+() (der) (ART) (357) word
+320 318 (NK) edget
+() (leblosen) (ADJA) (358) word
+321 318 (NK) edget
+() (Erde) (NN) (359) word
+322 318 (NK) edget
+() (quellen) (VVINF) (360) word
+323 317 (HD) edget
+() (konnte) (VMFIN) (361) word
+324 306 (HD) edget
+() (,) ($,) (362) word
+(S) () () (363) word
+326 306 (MO) edget
+() (sowie) (KON) (364) word
+327 326 (CD) edget
+(CS) () () (365) word
+328 326 (MO) edget
+(S) () () (366) word
+329 328 (CJ) edget
+(NP) () () (367) word
+330 329 (SB) edget
+() (das) (ART) (368) word
+331 330 (NK) edget
+() (Wetter) (NN) (369) word
+332 330 (NK) edget
+() (warm) (ADJD) (370) word
+333 329 (PD) edget
+() (wurde) (VAFIN) (371) word
+334 329 (HD) edget
+() (und) (KON) (372) word
+335 328 (CD) edget
+(S) () () (373) word
+336 328 (CJ) edget
+(NP) () () (374) word
+337 336 (SB) edget
+() (die) (ART) (375) word
+338 337 (NK) edget
+() (letzten) (ADJA) (376) word
+339 337 (NK) edget
+() (Schneereste) (NN) (377) word
+340 337 (NK) edget
+() (verschwunden) (VVPP) (378) word
+341 336 (OC) edget
+() (waren) (VAFIN) (379) word
+342 336 (HD) edget
+() (?) ($.) (380) word
+(S) () () (383) word
+() (Sofie) (NE) (384) word
+345 344 (SB) edget
+() (schaute) (VVFIN) (385) word
+346 344 (HD) edget
+(PP) () () (386) word
+347 344 (MO) edget
+() (in) (APPR) (387) word
+348 347 (AC) edget
+() (den) (ART) (388) word
+349 347 (NK) edget
+() (Briefkasten) (NN) (389) word
+350 347 (NK) edget
+() (,) ($,) (390) word
+(S) () () (391) word
+352 344 (MO) edget
+() (ehe) (KOUS) (392) word
+353 352 (CP) edget
+() (sie) (PPER) (393) word
+354 352 (SB) edget
+(NP) () () (394) word
+355 352 (OA) edget
+() (das) (ART) (395) word
+356 355 (NK) edget
+() (Gartentor) (NN) (396) word
+357 355 (NK) edget
+() (öffnete) (VVFIN) (397) word
+358 352 (HD) edget
+() (.) ($.) (398) word
+(S) () () (401) word
+(PP) () () (402) word
+361 360 (MO) edget
+() (In) (APPR) (403) word
+362 361 (AC) edget
+() (der) (ART) (404) word
+363 361 (NK) edget
+() (Regel) (NN) (405) word
+364 361 (NK) edget
+() (gab) (VVFIN) (406) word
+365 360 (HD) edget
+() (es) (PPER) (407) word
+366 360 (SB) edget
+() (darin) (PROAV) (408) word
+367 360 (MO) edget
+(CNP) () () (409) word
+368 360 (OA) edget
+(NP) () () (410) word
+369 368 (CJ) edget
+() (viel) (PIAT) (411) word
+370 369 (NK) edget
+() (Reklamekram) (NN) (412) word
+371 369 (NK) edget
+() (und) (KON) (413) word
+372 368 (CD) edget
+(NP) () () (414) word
+373 368 (CJ) edget
+() (einige) (PIAT) (415) word
+374 373 (NK) edget
+() (große) (ADJA) (416) word
+375 373 (NK) edget
+() (Briefumschläge) (NN) (417) word
+376 373 (NK) edget
+(PP) () () (418) word
+377 373 (MNR) edget
+() (für) (APPR) (419) word
+378 377 (AC) edget
+() (ihre) (PPOSAT) (420) word
+379 377 (NK) edget
+() (Mutter) (NN) (421) word
+380 377 (NK) edget
+() (.) ($.) (422) word
+(S) () () (425) word
+() (Sofie) (NE) (426) word
+383 382 (SB) edget
+() (legte) (VVFIN) (427) word
+384 382 (HD) edget
+() (dann) (ADV) (428) word
+385 382 (MO) edget
+() (immer) (ADV) (429) word
+386 382 (MO) edget
+(NP) () () (430) word
+387 382 (OA) edget
+() (einen) (ART) (431) word
+388 387 (NK) edget
+() (dicken) (ADJA) (432) word
+389 387 (NK) edget
+() (Stapel) (NN) (433) word
+390 387 (NK) edget
+() (Post) (NN) (434) word
+391 387 (NK) edget
+(PP) () () (435) word
+392 382 (MO) edget
+() (auf) (APPR) (436) word
+393 392 (AC) edget
+() (den) (ART) (437) word
+394 392 (NK) edget
+() (Küchentisch) (NN) (438) word
+395 392 (NK) edget
+() (,) ($,) (439) word
+(S) () () (440) word
+397 382 (MO) edget
+() (ehe) (KOUS) (441) word
+398 397 (CP) edget
+() (sie) (PPER) (442) word
+399 397 (SB) edget
+(PP) () () (443) word
+400 397 (MO) edget
+() (auf) (APPR) (444) word
+401 400 (AC) edget
+() (ihr) (PPOSAT) (445) word
+402 400 (NK) edget
+() (Zimmer) (NN) (446) word
+403 400 (NK) edget
+() (ging) (VVFIN) (447) word
+404 397 (HD) edget
+() (,) ($,) (448) word
+(VP) () () (449) word
+406 397 (OC) edget
+() (um) (KOUI) (450) word
+407 406 (CP) edget
+(NP) () () (451) word
+408 406 (OA) edget
+() (ihre) (PPOSAT) (452) word
+409 408 (NK) edget
+() (Aufgaben) (NN) (453) word
+410 408 (NK) edget
+(VZ) () () (454) word
+411 406 (HD) edget
+() (zu) (PTKZU) (455) word
+412 411 (PM) edget
+() (machen) (VVINF) (456) word
+413 411 (HD) edget
+() (.) ($.) (457) word
+(S) () () (460) word
+(PP) () () (461) word
+416 415 (MO) edget
+() (An) (APPR) (462) word
+417 416 (AC) edget
+() (ihren) (PPOSAT) (463) word
+418 416 (NK) edget
+() (Vater) (NN) (464) word
+419 416 (NK) edget
+() (kamen) (VVFIN) (465) word
+420 415 (HD) edget
+(AVP) () () (466) word
+421 415 (MO) edget
+() (nur) (ADV) (467) word
+422 421 (MO) edget
+() (manchmal) (ADV) (468) word
+423 421 (HD) edget
+() (Kontoauszüge) (NN) (469) word
+424 415 (SB) edget
+() (,) ($,) (470) word
+(S) () () (471) word
+426 415 (MO) edget
+() (aber) (KON) (472) word
+427 426 (CP) edget
+() (er) (PPER) (473) word
+428 426 (SB) edget
+() (war) (VAFIN) (474) word
+429 426 (HD) edget
+() (schließlich) (ADV) (475) word
+430 426 (MO) edget
+() (auch) (ADV) (476) word
+431 426 (MO) edget
+(NP) () () (477) word
+432 426 (PD) edget
+() (kein) (PIAT) (478) word
+433 432 (NK) edget
+() (normaler) (ADJA) (479) word
+434 432 (NK) edget
+() (Vater) (NN) (480) word
+435 432 (NK) edget
+() (.) ($.) (481) word
+(CS) () () (484) word
+(S) () () (485) word
+438 437 (CJ) edget
+(NP) () () (486) word
+439 438 (SB) edget
+() (Sofies) (NE) (487) word
+440 439 (AG) edget
+() (Vater) (NN) (488) word
+441 439 (NK) edget
+() (war) (VAFIN) (489) word
+442 438 (HD) edget
+(NP) () () (490) word
+443 438 (PD) edget
+() (Kapitän) (NN) (491) word
+444 443 (NK) edget
+(PP) () () (492) word
+445 443 (MNR) edget
+() (auf) (APPR) (493) word
+446 445 (AC) edget
+() (einem) (ART) (494) word
+447 445 (NK) edget
+() (Öltanker) (NN) (495) word
+448 445 (NK) edget
+() (und) (KON) (496) word
+449 437 (CD) edget
+(S) () () (497) word
+450 437 (CJ) edget
+(NP) () () (498) word
+451 450 (MO) edget
+() (fast) (ADV) (499) word
+452 451 (MO) edget
+() (das) (ART) (500) word
+453 451 (NK) edget
+() (ganze) (ADJA) (501) word
+454 451 (NK) edget
+() (Jahr) (NN) (502) word
+455 451 (NK) edget
+() (unterwegs) (ADV) (503) word
+456 450 (MO) edget
+() (.) ($.) (504) word
+(S) () () (507) word
+(S) () () (508) word
+459 458 (MO) edget
+() (Wenn) (KOUS) (509) word
+460 459 (CP) edget
+() (er) (PPER) (510) word
+461 459 (SB) edget
+() (dann) (ADV) (511) word
+462 459 (MO) edget
+(PP) () () (512) word
+463 459 (MO) edget
+() (für) (APPR) (513) word
+464 463 (AC) edget
+() (einige) (PIAT) (514) word
+465 463 (NK) edget
+() (Wochen) (NN) (515) word
+466 463 (NK) edget
+(PP) () () (516) word
+467 459 (MO) edget
+() (nach) (APPR) (517) word
+468 467 (AC) edget
+() (Hause) (NN) (518) word
+469 467 (NK) edget
+() (kam) (VVFIN) (519) word
+470 459 (HD) edget
+() (,) ($,) (520) word
+(CS) () () (521) word
+472 458 (HD) edget
+(S) () () (522) word
+473 472 (CJ) edget
+() (latschte) (VVFIN) (523) word
+474 473 (HD) edget
+() (er) (PPER) (524) word
+475 473 (SB) edget
+() (nur) (ADV) (525) word
+476 473 (MO) edget
+(PP) () () (526) word
+477 473 (MO) edget
+() (in) (APPR) (527) word
+478 477 (AC) edget
+() (Pantoffeln) (NN) (528) word
+479 477 (NK) edget
+(PP) () () (529) word
+480 473 (MO) edget
+() (im) (APPRART) (530) word
+481 480 (AC) edget
+() (Haus) (NN) (531) word
+482 480 (NK) edget
+() (herum) (PTKVZ) (532) word
+483 473 (SVP) edget
+() (und) (KON) (533) word
+484 472 (CD) edget
+(S) () () (534) word
+485 472 (CJ) edget
+() (kümmerte) (VVFIN) (535) word
+486 485 (HD) edget
+() (sich) (PRF) (536) word
+487 485 (OA) edget
+() (rührend) (ADJD) (537) word
+488 485 (MO) edget
+(PP) () () (538) word
+489 485 (MO) edget
+() (um) (APPR) (539) word
+490 489 (AC) edget
+(CNP) () () (540) word
+491 489 (NK) edget
+() (Sofie) (NE) (541) word
+492 491 (CJ) edget
+() (und) (KON) (542) word
+493 491 (CD) edget
+(NP) () () (543) word
+494 491 (CJ) edget
+() (ihre) (PPOSAT) (544) word
+495 494 (NK) edget
+() (Mutter) (NN) (545) word
+496 494 (NK) edget
+() (.) ($.) (546) word
+(S) () () (549) word
+(S) () () (550) word
+499 498 (MO) edget
+() (Aber) (KON) (551) word
+500 499 (JU) edget
+() (wenn) (KOUS) (552) word
+501 499 (CP) edget
+() (er) (PPER) (553) word
+502 499 (SB) edget
+(PP) () () (554) word
+503 499 (MO) edget
+() (auf) (APPR) (555) word
+504 503 (AC) edget
+() (Reisen) (NN) (556) word
+505 503 (NK) edget
+() (war) (VAFIN) (557) word
+506 499 (HD) edget
+() (,) ($,) (558) word
+() (konnte) (VMFIN) (559) word
+508 498 (HD) edget
+() (er) (PPER) (560) word
+509 498 (SB) edget
+(VP) () () (561) word
+510 498 (OC) edget
+(AP) () () (562) word
+511 510 (MO) edget
+() (ziemlich) (ADV) (563) word
+512 511 (MO) edget
+() (fern) (ADJD) (564) word
+513 511 (HD) edget
+() (wirken) (VVINF) (565) word
+514 510 (HD) edget
+() (.) ($.) (566) word
+(CS) () () (569) word
+(S) () () (570) word
+517 516 (CJ) edget
+() (Heute) (ADV) (571) word
+518 517 (MO) edget
+() (lag) (VVFIN) (572) word
+519 517 (HD) edget
+(PP) () () (573) word
+520 517 (MO) edget
+() (in) (APPR) (574) word
+521 520 (AC) edget
+() (dem) (ART) (575) word
+522 520 (NK) edget
+(CAP) () () (576) word
+523 520 (NK) edget
+() (großen) (ADJA) (577) word
+524 523 (CJ) edget
+() (grünen) (ADJA) (578) word
+525 523 (CJ) edget
+() (Briefkasten) (NN) (579) word
+526 520 (NK) edget
+(NP) () () (580) word
+527 517 (SB) edget
+() (nur) (ADV) (581) word
+528 527 (MO) edget
+() (ein) (ART) (582) word
+529 527 (NK) edget
+() (kleiner) (ADJA) (583) word
+530 527 (NK) edget
+() (Brief) (NN) (584) word
+531 527 (NK) edget
+() (-) ($\() (585) word
+() (und) (KON) (586) word
+533 516 (CD) edget
+(S) () () (587) word
+534 516 (CJ) edget
+() (der) (PDS) (588) word
+535 534 (SB) edget
+() (war) (VAFIN) (589) word
+536 534 (HD) edget
+(PP) () () (590) word
+537 534 (MO) edget
+() (für) (APPR) (591) word
+538 537 (AC) edget
+() (Sofie) (NE) (592) word
+539 537 (NK) edget
+() (.) ($.) (593) word
+() (") ($\() (596) word
+(S) () () (597) word
+(MPN) () () (598) word
+543 542 (SB) edget
+() (Sofie) (NE) (599) word
+544 543 (PNC) edget
+() (Amundsen) (NE) (600) word
+545 543 (PNC) edget
+() (") ($\() (601) word
+() (,) ($,) (602) word
+() (stand) (VVFIN) (603) word
+548 542 (HD) edget
+(PP) () () (604) word
+549 542 (MO) edget
+() (auf) (APPR) (605) word
+550 549 (AC) edget
+() (dem) (ART) (606) word
+551 549 (NK) edget
+() (kleinen) (ADJA) (607) word
+552 549 (NK) edget
+() (Briefumschlag) (NN) (608) word
+553 549 (NK) edget
+() (.) ($.) (609) word
+() (") ($\() (612) word
+(MPN) () () (613) word
+() (Kløverveien) (NE) (614) word
+557 556 (PNC) edget
+() (3) (CARD) (615) word
+558 556 (PNC) edget
+() (") ($\() (616) word
+() (.) ($.) (617) word
+(S) () () (620) word
+() (Das) (PDS) (621) word
+562 561 (SB) edget
+() (war) (VAFIN) (622) word
+563 561 (HD) edget
+() (alles) (PIS) (623) word
+564 561 (PD) edget
+() (,) ($,) (624) word
+(NP) () () (625) word
+566 561 (MO) edget
+() (kein) (PIAT) (626) word
+567 566 (NK) edget
+() (Absender) (NN) (627) word
+568 566 (NK) edget
+() (.) ($.) (628) word
+(S) () () (631) word
+(NP) () () (632) word
+571 570 (SB) edget
+() (Der) (ART) (633) word
+572 571 (NK) edget
+() (Brief) (NN) (634) word
+573 571 (NK) edget
+() (hatte) (VAFIN) (635) word
+574 570 (HD) edget
+(NP) () () (636) word
+575 570 (OA) edget
+(AVP) () () (637) word
+576 575 (MO) edget
+() (nicht) (PTKNEG) (638) word
+577 576 (NG) edget
+() (einmal) (ADV) (639) word
+578 576 (HD) edget
+() (eine) (ART) (640) word
+579 575 (NK) edget
+() (Briefmarke) (NN) (641) word
+580 575 (NK) edget
+() (.) ($.) (642) word
+(S) () () (645) word
+(S) () () (646) word
+583 582 (MO) edget
+() (Sowie) (KON) (647) word
+584 583 (CP) edget
+() (Sofie) (NE) (648) word
+585 583 (SB) edget
+(VP) () () (649) word
+586 583 (OC) edget
+(NP) () () (650) word
+587 586 (OA) edget
+() (das) (ART) (651) word
+588 587 (NK) edget
+() (Tor) (NN) (652) word
+589 587 (NK) edget
+(PP) () () (653) word
+590 586 (MO) edget
+() (hinter) (APPR) (654) word
+591 590 (AC) edget
+() (sich) (PRF) (655) word
+592 590 (NK) edget
+() (geschlossen) (VVPP) (656) word
+593 586 (HD) edget
+() (hatte) (VAFIN) (657) word
+594 583 (HD) edget
+() (,) ($,) (658) word
+() (öffnete) (VVFIN) (659) word
+596 582 (HD) edget
+() (sie) (PPER) (660) word
+597 582 (SB) edget
+(NP) () () (661) word
+598 582 (OA) edget
+() (den) (ART) (662) word
+599 598 (NK) edget
+() (Briefumschlag) (NN) (663) word
+600 598 (NK) edget
+() (.) ($.) (664) word
+(S) () () (667) word
+() (Darin) (PROAV) (668) word
+603 602 (MO) edget
+() (fand) (VVFIN) (669) word
+604 602 (HD) edget
+() (sie) (PPER) (670) word
+605 602 (SB) edget
+() (nur) (ADV) (671) word
+606 602 (MO) edget
+(NP) () () (672) word
+607 602 (OA) edget
+() (einen) (ART) (673) word
+608 607 (NK) edget
+(AP) () () (674) word
+609 607 (NK) edget
+() (ziemlich) (ADV) (675) word
+610 609 (MO) edget
+() (kleinen) (ADJA) (676) word
+611 609 (HD) edget
+() (Zettel) (NN) (677) word
+612 607 (NK) edget
+() (,) ($,) (678) word
+(AP) () () (679) word
+614 607 (MNR) edget
+() (nicht) (PTKNEG) (680) word
+615 614 (NG) edget
+() (größer) (ADJD) (681) word
+616 614 (HD) edget
+(NP) () () (682) word
+617 614 (CC) edget
+() (als) (KOKOM) (683) word
+618 617 (CM) edget
+() (der) (ART) (684) word
+619 617 (NK) edget
+() (dazugehörende) (ADJA) (685) word
+620 617 (NK) edget
+() (Umschlag) (NN) (686) word
+621 617 (NK) edget
+() (.) ($.) (687) word
+(S) () () (690) word
+(PP) () () (691) word
+624 623 (MO) edget
+() (Auf) (APPR) (692) word
+625 624 (AC) edget
+() (dem) (ART) (693) word
+626 624 (NK) edget
+() (Zettel) (NN) (694) word
+627 624 (NK) edget
+() (stand) (VVFIN) (695) word
+628 623 (HD) edget
+() (:) ($.) (696) word
+(S) () () (697) word
+630 623 (SB) edget
+() (Wer) (PWS) (698) word
+631 630 (SP) edget
+() (bist) (VAFIN) (699) word
+632 630 (HD) edget
+() (Du) (PPER) (700) word
+633 630 (SP) edget
+() (?) ($.) (701) word
+(AVP) () () (704) word
+() (Mehr) (ADV) (705) word
+636 635 (HD) edget
+() (nicht) (PTKNEG) (706) word
+637 635 (MO) edget
+() (.) ($.) (707) word
+(S) () () (710) word
+(NP) () () (711) word
+640 639 (SB) edget
+() (Der) (ART) (712) word
+641 640 (NK) edget
+() (Zettel) (NN) (713) word
+642 640 (NK) edget
+() (enthielt) (VVFIN) (714) word
+643 639 (HD) edget
+(CNP) () () (715) word
+644 639 (OA) edget
+(NP) () () (716) word
+645 644 (CJ) edget
+() (keinen) (PIAT) (717) word
+646 645 (NK) edget
+() (Gruß) (NN) (718) word
+647 645 (NK) edget
+() (und) (KON) (719) word
+648 644 (CD) edget
+(NP) () () (720) word
+649 644 (CJ) edget
+() (keinen) (PIAT) (721) word
+650 649 (NK) edget
+() (Absender) (NN) (722) word
+651 649 (NK) edget
+() (,) ($,) (723) word
+(NP) () () (724) word
+653 644 (CJ) edget
+() (nur) (ADV) (725) word
+654 653 (MO) edget
+() (diese) (PDAT) (726) word
+655 653 (NK) edget
+(CAP) () () (727) word
+656 653 (NK) edget
+() (drei) (CARD) (728) word
+657 656 (CJ) edget
+() (handgeschriebenen) (ADJA) (729) word
+658 656 (CJ) edget
+() (Wörter) (NN) (730) word
+659 653 (NK) edget
+() (,) ($,) (731) word
+(S) () () (732) word
+661 653 (RC) edget
+(PP) () () (733) word
+662 661 (MO) edget
+() (auf) (APPR) (734) word
+663 662 (AC) edget
+() (die) (PRELS) (735) word
+664 662 (NK) edget
+(NP) () () (736) word
+665 661 (SB) edget
+() (ein) (ART) (737) word
+666 665 (NK) edget
+() (großes) (ADJA) (738) word
+667 665 (NK) edget
+() (Fragezeichen) (NN) (739) word
+668 665 (NK) edget
+() (folgte) (VVFIN) (740) word
+669 661 (HD) edget
+() (.) ($.) (741) word
+(S) () () (744) word
+() (Sie) (PPER) (745) word
+672 671 (SB) edget
+() (sah) (VVFIN) (746) word
+673 671 (HD) edget
+(AVP) () () (747) word
+674 671 (MO) edget
+() (noch) (ADV) (748) word
+675 674 (MO) edget
+() (einmal) (ADV) (749) word
+676 674 (HD) edget
+(NP) () () (750) word
+677 671 (OA) edget
+() (den) (ART) (751) word
+678 677 (NK) edget
+() (Briefumschlag) (NN) (752) word
+679 677 (NK) edget
+() (an) (PTKVZ) (753) word
+680 671 (SVP) edget
+() (.) ($.) (754) word
+(S) () () (757) word
+() (Doch) (KON) (758) word
+683 682 (JU) edget
+() (-) ($\() (759) word
+(NP) () () (760) word
+685 682 (SB) edget
+() (der) (ART) (761) word
+686 685 (NK) edget
+() (Brief) (NN) (762) word
+687 685 (NK) edget
+() (war) (VAFIN) (763) word
+688 682 (HD) edget
+() (wirklich) (ADJD) (764) word
+689 682 (MO) edget
+(PP) () () (765) word
+690 682 (MO) edget
+() (für) (APPR) (766) word
+691 690 (AC) edget
+() (sie) (PPER) (767) word
+692 690 (NK) edget
+() (.) ($.) (768) word
+(S) () () (771) word
+() (Aber) (KON) (772) word
+695 694 (JU) edget
+() (wer) (PWS) (773) word
+696 694 (SB) edget
+() (hatte) (VAFIN) (774) word
+697 694 (HD) edget
+(VP) () () (775) word
+698 694 (OC) edget
+() (ihn) (PPER) (776) word
+699 698 (OA) edget
+(PP) () () (777) word
+700 698 (MO) edget
+() (in) (APPR) (778) word
+701 700 (AC) edget
+() (den) (ART) (779) word
+702 700 (NK) edget
+() (Briefkasten) (NN) (780) word
+703 700 (NK) edget
+() (gesteckt) (VVPP) (781) word
+704 698 (HD) edget
+() (?) ($.) (782) word
+(S) () () (785) word
+() (Sofie) (NE) (786) word
+707 706 (SB) edget
+() (schloß) (VVFIN) (787) word
+708 706 (HD) edget
+() (rasch) (ADJD) (788) word
+709 706 (MO) edget
+(NP) () () (789) word
+710 706 (OA) edget
+() (die) (ART) (790) word
+711 710 (NK) edget
+() (Tür) (NN) (791) word
+712 710 (NK) edget
+(NP) () () (792) word
+713 710 (AG) edget
+() (des) (ART) (793) word
+714 713 (NK) edget
+() (roten) (ADJA) (794) word
+715 713 (NK) edget
+() (Hauses) (NN) (795) word
+716 713 (NK) edget
+() (auf) (PTKVZ) (796) word
+717 706 (SVP) edget
+() (.) ($.) (797) word
+(S) () () (800) word
+(AP) () () (801) word
+720 719 (MO) edget
+() (Wie) (PWAV) (802) word
+721 720 (MO) edget
+() (üblich) (ADJD) (803) word
+722 720 (HD) edget
+() (konnte) (VMFIN) (804) word
+723 719 (HD) edget
+(NP) () () (805) word
+724 719 (SB) edget
+() (die) (ART) (806) word
+725 724 (NK) edget
+() (Katze) (NN) (807) word
+726 724 (NK) edget
+() (Sherekan) (NE) (808) word
+727 724 (NK) edget
+(CVP) () () (809) word
+728 719 (OC) edget
+(VP) () () (810) word
+729 728 (CJ) edget
+() (sich) (PRF) (811) word
+730 729 (OA) edget
+(PP) () () (812) word
+731 729 (MO) edget
+() (aus) (APPR) (813) word
+732 731 (AC) edget
+() (den) (ART) (814) word
+733 731 (NK) edget
+() (Büschen) (NN) (815) word
+734 731 (NK) edget
+() (schleichen) (VVINF) (816) word
+735 729 (HD) edget
+() (,) ($,) (817) word
+(VP) () () (818) word
+737 728 (CJ) edget
+(PP) () () (819) word
+738 737 (MO) edget
+() (auf) (APPR) (820) word
+739 738 (AC) edget
+() (den) (ART) (821) word
+740 738 (NK) edget
+() (Treppenabsatz) (NN) (822) word
+741 738 (NK) edget
+() (springen) (VVINF) (823) word
+742 737 (HD) edget
+() (und) (KON) (824) word
+743 728 (CD) edget
+(VP) () () (825) word
+744 728 (CJ) edget
+(PP) () () (826) word
+745 744 (MO) edget
+() (ins) (APPRART) (827) word
+746 745 (AC) edget
+() (Haus) (NN) (828) word
+747 745 (NK) edget
+() (schlüpfen) (VVINF) (829) word
+748 744 (HD) edget
+() (,) ($,) (830) word
+(S) () () (831) word
+750 719 (MO) edget
+() (ehe) (KOUS) (832) word
+751 750 (CP) edget
+() (Sofie) (NE) (833) word
+752 750 (SB) edget
+(VP) () () (834) word
+753 750 (OC) edget
+(NP) () () (835) word
+754 753 (OA) edget
+() (die) (ART) (836) word
+755 754 (NK) edget
+() (Tür) (NN) (837) word
+756 754 (NK) edget
+(PP) () () (838) word
+757 753 (MO) edget
+() (hinter) (APPR) (839) word
+758 757 (AC) edget
+() (sich) (PRF) (840) word
+759 757 (NK) edget
+() (zugemacht) (VVPP) (841) word
+760 753 (HD) edget
+() (hatte) (VAFIN) (842) word
+761 750 (HD) edget
+() (.) ($.) (843) word
+() (") ($\() (846) word
+() (,) ($,) (847) word
+() (Miez) (ITJ) (848) word
+() (,) ($,) (849) word
+() (Miez) (ITJ) (850) word
+() (,) ($,) (851) word
+() (Miez) (ITJ) (852) word
+() (!) ($.) (853) word
+() (") ($\() (854) word
+(S) () () (857) word
+(S) () () (858) word
+773 772 (MO) edget
+() (Wenn) (KOUS) (859) word
+774 773 (CP) edget
+(NP) () () (860) word
+775 773 (SB) edget
+() (Sofies) (NE) (861) word
+776 775 (AG) edget
+() (Mutter) (NN) (862) word
+777 775 (NK) edget
+(PP) () () (863) word
+778 773 (MO) edget
+() (aus) (APPR) (864) word
+779 778 (AC) edget
+() (irgendeinem) (PIAT) (865) word
+780 778 (NK) edget
+() (Grund) (NN) (866) word
+781 778 (NK) edget
+() (sauer) (ADJD) (867) word
+782 773 (PD) edget
+() (war) (VAFIN) (868) word
+783 773 (HD) edget
+() (,) ($,) (869) word
+() (bezeichnete) (VVFIN) (870) word
+785 772 (HD) edget
+() (sie) (PPER) (871) word
+786 772 (SB) edget
+(NP) () () (872) word
+787 772 (OA) edget
+() (ihr) (PPOSAT) (873) word
+788 787 (NK) edget
+() (Haus) (NN) (874) word
+789 787 (NK) edget
+() (manchmal) (ADV) (875) word
+790 772 (MO) edget
+(PP) () () (876) word
+791 772 (MO) edget
+() (als) (APPR) (877) word
+792 791 (AC) edget
+() (Menagerie) (NN) (878) word
+793 791 (NK) edget
+() (.) ($.) (879) word
+(CS) () () (882) word
+(S) () () (883) word
+796 795 (CJ) edget
+(NP) () () (884) word
+797 796 (SB) edget
+() (Eine) (ART) (885) word
+798 797 (NK) edget
+() (Menagerie) (NN) (886) word
+799 797 (NK) edget
+() (war) (VAFIN) (887) word
+800 796 (HD) edget
+(NP) () () (888) word
+801 796 (PD) edget
+() (eine) (ART) (889) word
+802 801 (NK) edget
+() (Sammlung) (NN) (890) word
+803 801 (NK) edget
+(NP) () () (891) word
+804 801 (AG) edget
+() (verschiedener) (ADJA) (892) word
+805 804 (NK) edget
+() (Tiere) (NN) (893) word
+806 804 (NK) edget
+() (,) ($,) (894) word
+() (und) (KON) (895) word
+808 795 (CD) edget
+(S) () () (896) word
+809 795 (CJ) edget
+() (wirklich) (ADJD) (897) word
+810 809 (MO) edget
+() (-) ($\() (898) word
+() (Sofie) (NE) (899) word
+812 809 (SB) edget
+() (war) (VAFIN) (900) word
+813 809 (HD) edget
+(AP) () () (901) word
+814 809 (PD) edget
+(PP) () () (902) word
+815 814 (MO) edget
+() (mit) (APPR) (903) word
+816 815 (AC) edget
+() (ihrer) (PPOSAT) (904) word
+817 815 (NK) edget
+() (eigenen) (ADJA) (905) word
+818 815 (NK) edget
+() (Sammlung) (NN) (906) word
+819 815 (NK) edget
+() (recht) (ADV) (907) word
+820 814 (MO) edget
+() (zufrieden) (ADJD) (908) word
+821 814 (HD) edget
+() (.) ($.) (909) word
+(S) () () (912) word
+() (Zuerst) (ADV) (913) word
+824 823 (MO) edget
+() (hatte) (VAFIN) (914) word
+825 823 (HD) edget
+() (sie) (PPER) (915) word
+826 823 (SB) edget
+(VP) () () (916) word
+827 823 (OC) edget
+(NP) () () (917) word
+828 827 (OA) edget
+() (ein) (ART) (918) word
+829 828 (NK) edget
+() (Glas) (NN) (919) word
+830 828 (NK) edget
+(PP) () () (920) word
+831 828 (MNR) edget
+() (mit) (APPR) (921) word
+832 831 (AC) edget
+() (den) (ART) (922) word
+833 831 (NK) edget
+() (Goldfischen) (NN) (923) word
+834 831 (NK) edget
+(CNP) () () (924) word
+835 831 (NK) edget
+() (Goldlöckchen) (NE) (925) word
+836 835 (CJ) edget
+() (,) ($,) (926) word
+() (Rotkäppchen) (NE) (927) word
+838 835 (CJ) edget
+() (und) (KON) (928) word
+839 835 (CD) edget
+(MPN) () () (929) word
+840 835 (CJ) edget
+() (Schwarzer) (ADJA) (930) word
+841 840 (PNC) edget
+() (Peter) (NE) (931) word
+842 840 (PNC) edget
+() (bekommen) (VVINF) (932) word
+843 827 (HD) edget
+() (.) ($.) (933) word
+(S) () () (936) word
+() (Dann) (ADV) (937) word
+846 845 (MO) edget
+() (kamen) (VVFIN) (938) word
+847 845 (HD) edget
+(CNP) () () (939) word
+848 845 (SB) edget
+(NP) () () (940) word
+849 848 (CJ) edget
+() (die) (ART) (941) word
+850 849 (NK) edget
+() (Wellensittiche) (NN) (942) word
+851 849 (NK) edget
+(CNP) () () (943) word
+852 849 (NK) edget
+() (Tom) (NE) (944) word
+853 852 (CJ) edget
+() (und) (KON) (945) word
+854 852 (CD) edget
+() (Jerry) (NE) (946) word
+855 852 (CJ) edget
+() (,) ($,) (947) word
+(NP) () () (948) word
+857 848 (CJ) edget
+() (die) (ART) (949) word
+858 857 (NK) edget
+() (Schildkröte) (NN) (950) word
+859 857 (NK) edget
+() (Govinda) (NE) (951) word
+860 857 (NK) edget
+() (und) (KON) (952) word
+861 848 (CD) edget
+(NP) () () (953) word
+862 848 (CJ) edget
+(AVP) () () (954) word
+863 862 (MO) edget
+() (schließlich) (ADV) (955) word
+864 863 (MO) edget
+() (noch) (ADV) (956) word
+865 863 (HD) edget
+() (die) (ART) (957) word
+866 862 (NK) edget
+() (gelbbraune) (ADJA) (958) word
+867 862 (NK) edget
+() (Tigerkatze) (NN) (959) word
+868 862 (NK) edget
+() (Sherekan) (NE) (960) word
+869 862 (NK) edget
+() (dazu) (PTKVZ) (961) word
+870 845 (SVP) edget
+() (.) ($.) (962) word
+(S) () () (965) word
+(NP) () () (966) word
+873 872 (SB) edget
+() (Alle) (PIDAT) (967) word
+874 873 (NK) edget
+() (Tiere) (NN) (968) word
+875 873 (NK) edget
+() (sollten) (VMFIN) (969) word
+876 872 (HD) edget
+(VP) () () (970) word
+877 872 (OC) edget
+(NP) () () (971) word
+878 877 (PD) edget
+() (eine) (ART) (972) word
+879 878 (NK) edget
+() (Art) (NN) (973) word
+880 878 (MO) edget
+() (Entschädigung) (NN) (974) word
+881 878 (NK) edget
+() (sein) (VAINF) (975) word
+882 877 (HD) edget
+() (,) ($,) (976) word
+(CS) () () (977) word
+884 877 (MO) edget
+() (weil) (KOUS) (978) word
+885 884 (CP) edget
+(S) () () (979) word
+886 884 (CJ) edget
+(NP) () () (980) word
+887 886 (SB) edget
+() (ihre) (PPOSAT) (981) word
+888 887 (NK) edget
+() (Mutter) (NN) (982) word
+889 887 (NK) edget
+() (spät) (ADJD) (983) word
+890 886 (MO) edget
+() (Feierabend) (NN) (984) word
+891 886 (OA) edget
+() (hatte) (VAFIN) (985) word
+892 886 (HD) edget
+() (und) (KON) (986) word
+893 884 (CD) edget
+(S) () () (987) word
+894 884 (CJ) edget
+(NP) () () (988) word
+895 894 (SB) edget
+() (ihr) (PPOSAT) (989) word
+896 895 (NK) edget
+() (Vater) (NN) (990) word
+897 895 (NK) edget
+() (soviel) (ADV) (991) word
+898 894 (MO) edget
+(PP) () () (992) word
+899 894 (MO) edget
+() (in) (APPR) (993) word
+900 899 (AC) edget
+() (der) (ART) (994) word
+901 899 (NK) edget
+() (Welt) (NN) (995) word
+902 899 (NK) edget
+() (herumfuhr) (VVFIN) (996) word
+903 894 (HD) edget
+() (.) ($.) (997) word
+(CS) () () (1000) word
+(S) () () (1001) word
+906 905 (CJ) edget
+() (Sofie) (NE) (1002) word
+907 906 (SB) edget
+() (warf) (VVFIN) (1003) word
+908 906 (HD) edget
+(NP) () () (1004) word
+909 906 (OA) edget
+() (die) (ART) (1005) word
+910 909 (NK) edget
+() (Schultasche) (NN) (1006) word
+911 909 (NK) edget
+(PP) () () (1007) word
+912 906 (MO) edget
+() (in) (APPR) (1008) word
+913 912 (AC) edget
+() (die) (ART) (1009) word
+914 912 (NK) edget
+() (Ecke) (NN) (1010) word
+915 912 (NK) edget
+() (und) (KON) (1011) word
+916 905 (CD) edget
+(S) () () (1012) word
+917 905 (CJ) edget
+() (stellte) (VVFIN) (1013) word
+918 917 (HD) edget
+() (Sherekan) (NE) (1014) word
+919 917 (DA) edget
+(NP) () () (1015) word
+920 917 (OA) edget
+() (eine) (ART) (1016) word
+921 920 (NK) edget
+() (Schale) (NN) (1017) word
+922 920 (NK) edget
+(PP) () () (1018) word
+923 920 (MNR) edget
+() (mit) (APPR) (1019) word
+924 923 (AC) edget
+() (Katzenfutter) (NN) (1020) word
+925 923 (NK) edget
+() (hin) (PTKVZ) (1021) word
+926 917 (SVP) edget
+() (.) ($.) (1022) word
+(S) () () (1025) word
+() (Dann) (ADV) (1026) word
+929 928 (MO) edget
+() (ließ) (VVFIN) (1027) word
+930 928 (HD) edget
+() (sie) (PPER) (1028) word
+931 928 (SB) edget
+(VP) () () (1029) word
+932 928 (OC) edget
+() (sich) (PRF) (1030) word
+933 932 (OA) edget
+(PP) () () (1031) word
+934 932 (MO) edget
+() (mit) (APPR) (1032) word
+935 934 (AC) edget
+() (dem) (ART) (1033) word
+936 934 (NK) edget
+() (geheimnisvollen) (ADJA) (1034) word
+937 934 (NK) edget
+() (Brief) (NN) (1035) word
+938 934 (NK) edget
+(PP) () () (1036) word
+939 934 (MNR) edget
+() (in) (APPR) (1037) word
+940 939 (AC) edget
+() (der) (ART) (1038) word
+941 939 (NK) edget
+() (Hand) (NN) (1039) word
+942 939 (NK) edget
+(PP) () () (1040) word
+943 932 (MO) edget
+() (auf) (APPR) (1041) word
+944 943 (AC) edget
+() (einen) (ART) (1042) word
+945 943 (NK) edget
+() (Küchenhocker) (NN) (1043) word
+946 943 (NK) edget
+() (fallen) (VVINF) (1044) word
+947 932 (HD) edget
+() (.) ($.) (1045) word
+(S) () () (1048) word
+() (Wer) (PWS) (1049) word
+950 949 (SP) edget
+() (bist) (VAFIN) (1050) word
+951 949 (HD) edget
+() (Du) (PPER) (1051) word
+952 949 (SP) edget
+() (?) ($.) (1052) word
+
+%% 3. DGgraph trailer
+
+draw end 
+

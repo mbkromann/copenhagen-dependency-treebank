@@ -1,0 +1,260 @@
+\documentclass[a4paper,landscape]{slides}
+
+\usepackage[dvips]{color}
+\usepackage{times,mathptm,isolatin1,graphicx,amsmath}
+\usepackage{amscd,verbatim}
+\usepackage[danish,english]{babel}
+
+\long\def\handout#1{}
+\long\def\slides#1{#1}
+
+\newcounter{sentence}
+\def\sent{(\refstepcounter{sentence}\arabic{sentence})\ \ }
+\setlength{\textwidth}{20cm}
+\def\TITLE#1{\textbf{\colorbox{blue}{\textcolor{white}{\large #1}}}}
+\def\title#1{\textbf{\colorbox{blue}{\textcolor{white}{#1}}}}
+\def\strong#1{\textbf{\textcolor{red}{#1}}}
+\def\high#1{\textbf{\textcolor{blue}{#1}}}
+\def\into{\longrightarrow}
+\def\implies{\rightarrow}
+\def\slidegraphics#1{\includegraphics[scale=1.8]{#1}}
+\def\slidegraphicsx#1#2{\includegraphics[#1]{#2}}
+\def\invert#1{\textbf{\colorbox{cyan}{#1}}}
+\def\flash#1{\textbf{\colorbox{yellow}{#1}}}
+\newenvironment{itemlist}
+    {\begin{list}{$\bullet$}{\setlength{\itemsep}{0mm}%
+		\setlength{\parsep}{0mm}{}}}
+	{\end{list}}
+\newenvironment{zlide}
+	{\begin{slide}\setlength{\parskip}{4mm}}{\vfill\end{slide}}
+
+\begin{document}
+\def\map#1#2#3{#1$\begin{CD} @>{\text{\small #2}}>> \end{CD}$#3}
+\def\imap#1#2#3{#1$\begin{CD} @<{\text{\small #2}}<< \end{CD}$#3}
+\def\vcenterbox#1{$\begin{array}[c]{l}\text{#1}\end{array}$}
+
+
+\newcounter{mypart}
+\newcounter{myslide}
+
+\def\sor{\texttt{|}}
+
+\def\derive#1#2#3{
+	\begin{CD}
+		\begin{array}[c]{l}#1\end{array}
+		@>{\text{#2}}>> 
+		\begin{array}[c]{l}#3\end{array}
+	\end{CD}}
+
+\def\ul#1{\underline{\smash{#1}}}
+    \newcommand{\typ}[1]{\emph{#1}}
+    \newcommand{\var}[1]{\emph{#1}}
+    \newcommand{\val}[1]{\emph{#1}}
+    \newcommand{\abs}[1]{\ensuremath{|#1|}}
+    \newcommand{\ab}[1]{\ensuremath{|\text{#1}|}}
+
+    \newcommand{\isaop}{\text{isa}}
+    \newcommand{\thisop}{\text{this}}
+    \newcommand{\depop}{\text{dep}}
+    \newcommand{\repairop}{\text{repair}}
+    \newcommand{\landop}{\text{land}}
+    \newcommand{\lexop}{\text{lex}}
+    \newcommand{\leftop}{\text{left}}
+    \newcommand{\rightop}{\text{right}}
+    \newcommand{\islandop}{\text{island}}
+    \newcommand{\andop}{\text{and}}
+    \newcommand{\orop}{\text{or}}
+    \newcommand{\notop}{\text{not}}
+    \newcommand{\semop}{\text{sem}}
+    \newcommand{\govop}{\text{gov}}
+    \newcommand{\distop}{\text{dist}}
+    \newcommand{\lsiteop}{\text{lsite}}
+    \newcommand{\boldf}[1]{\textbf{$\mathbf{#1}$}}
+    \newcommand{\defeq}{:=}
+    \newcommand{\code}[1]{{\textsf{\small#1}}}
+    \newcommand{\ptitle}[1]{\multicolumn{2}{|c|}{\textbf{#1}}}
+    \newcommand{\sel}[1]{\textbf{#1}}
+    \newcommand{\lex}[1]{lex(#1)}
+    \newcommand{\landed}[2]{land(#1$^{\text{#2}}$)}
+    \newcommand{\dep}[3]{dep(#1$^{\text{#2}}_{\text{#3}}$)}
+        \def\repairl#1#2#3{repair1(#1$^{\text{#2}}_{\text{#3}}$)}
+            \def\repair#1#2#3#4#5#6{repair2(#1$^{\text{#2}}_{\text{#3}}$,#4$^{\text{#5}}_{\text{#6}}$)}
+                \def\repairx#1#2#3#4#5#6#7#8#9{repair3(#1$^{\text{#2}}_{\text{#3}}$,#4$^{\text{#5}}_{\text{#6}}$,#7$^{\text{#8}}_{\text{#9}}$)}
+
+
+\def\code#1{\texttt{#1}}
+\def\derive#1#2#3{
+    \begin{CD}
+        \begin{array}[c]{l}#1\end{array}
+        @>{\text{#2}}>> 
+        \begin{array}[c]{l}#3\end{array}
+    \end{CD}}
+
+\begin{zlide}
+	\begin{center}
+		{\large\bfseries\color{blue}The DDT annotations \\ 
+		in the 
+			parallel Sofie treebank}
+        \bigskip
+
+		Matthias Trautner Kromann 
+
+        Lovik meeting of the Nordic Treebank Network \break
+		March 6, 2004
+	
+		\includegraphics[scale=0.5]{figs/cmol-logo.eps}
+
+		Center for Computational Modelling of Language\break
+        Department of Computational Linguistics \break
+		Copenhagen Business School\break
+        http://www.id.cbs.dk/$\sim$mtk\medskip
+    \end{center}
+\end{zlide}
+
+\begin{zlide}
+	\title{1. Construction of DDT annotated Danish part of Sofie
+	treebank}
+
+	The DDT-annotated part of the parallel Sofie treebank consists of
+	\high{100 sentences} annotated according to the \high{DDT
+	annotation scheme} (http://www.id.cbs.dk/$\sim$mtk/treebank). 
+
+	The treebank has been constructed by \high{manual annotation}, at
+	a \high{rate of 1.000--1.500 words per working day}. The
+	PAROLE tag (the ``msd'' feature) was created with a \high{primitive
+	tagger and manual post-editing} (I could have used a Brill tagger
+	for this task, but I didn't have it on my computer, so I did the
+	annotation with a simple program instead).
+\end{zlide}
+
+\begin{zlide}
+	\title{2. Choice of category and edge labels in DDT}
+
+	\begin{itemlist}
+		\item \high{linguistic theory}: dependency-based
+		\item \high{category labels}: encode word class and
+			morphological features (number, case, gender, verbal
+			inflection, etc.), according to the standards from the EU
+			funded PAROLE project.
+		\item \high{edge labels}: complement and adjunct labels
+			are DDT-specific, but most labels are also found under
+			different names in other treebank projects. 
+	\end{itemlist}
+	I don't know whether it is possible to \strong{standardize category and
+	edge labels}, but it might be worth a try.
+\end{zlide}
+
+\begin{zlide}
+	\title{3. Comparing DDT analyses with other analyses in the
+		Sofie treebank}
+	\nopagebreak
+	{\small
+	\begin{tabular}{p{50mm}|p{38mm}|p{38mm}|p{38mm}|p{38mm}}
+			& \textbf{Bick} & \textbf{Kromann} & \textbf{Nivre} &
+			\textbf{Volk} \\ \hline
+		\textbf{framework} &
+			phrase &
+			dependency &
+			dependency &
+			phrase \\ \hline
+		\textbf{discont.} &
+			yes &
+			yes &
+			no &
+			yes \\ \hline
+		\textbf{fillers/coreference} &
+			no &
+			yes &
+			no &
+			no \\ \hline
+		\textbf{NP/DP anal.} 
+			& NP
+			& DP
+			& NP
+			& parataxis \\ \hline
+		\textbf{VP compounds} &
+			verb cluster &
+			nested comps & 
+			nested comps &
+			nested comps \\ \hline
+		\textbf{coordination} & 
+			parataxis &
+			modify 1st &
+			modify 1st &
+			parataxis \\ \hline
+		\textbf{punctuation} &
+			no &
+			yes &
+			yes &
+			no \\ \hline
+		\textbf{apposition head} &
+			1st N &
+			1st N &
+			2nd N &
+			parataxis \\ \hline
+		\textbf{it-cleft: it ... \emph{that}} &
+			formal/real subject &
+			it-complement &
+			it-apposition &
+			direct object \\ \hline
+
+		\textbf{comp/adj: opstå \emph{af ...}} &
+			sentential adjunct &
+			complement & 
+			adjunct & 
+			adjunct \\ \hline
+		\textbf{discont. AP: så lang en vej \emph{som}} &
+			så-adjunct &
+			så-adjunct &
+			V-adjunct &
+			N-adjunct \\ \hline
+		\textbf{wh-clause: VP1 \emph{wh} VP2} &
+			adjunct within VP2 &
+			wh+VP2 head, VP2 filler&
+			adjunct within VP2 &
+			adjunct within VP2 \\ \hline
+	\end{tabular}}
+\end{zlide}
+
+\begin{zlide}
+	\title{4. Strengths, weaknesses, threats and opportunities}
+
+	Weaknesses and threats:
+	\begin{itemlist}
+		\item \strong{Important differences} in syntactic analysis.
+		\item A \strong{common analysis scheme} is unrealistic. 
+		\item \strong{Translation between frameworks} is likely
+			to be difficult. 
+	\end{itemlist}
+	Strengths and opportunities:
+	\begin{itemlist}
+		\item TIGER XML has made it easier to \strong{compare analyses
+			and exchange ideas}.
+		\item \strong{Common edge and
+			category labels} is worth a try: similar
+			labels should get a standardized name, remaining labels 
+			should be added as theory-specific.
+		\item \strong{Standardized extensions of TIGER
+			XML} for spoken language, dialogue, and discourse are
+			worth a try.
+	\end{itemlist}
+\end{zlide}
+
+\begin{zlide}
+	\title{5. Proposed tasks in "Parallel treebanks"}
+
+	\begin{itemlist}
+		\item Compare and document existing \high{category
+			and edge labels}.
+		\item Create an inclusive set of \high{common
+			category labels}. 
+		\item Create an inclusive set of \high{common edge
+			labels}. 
+	\end{itemlist}
+	The following task is delegated to "Tools and Resources":
+	\begin{itemlist}
+		\item Standardize \high{extensions to TIGER XML} for spoken
+			language, dialogue, and discourse.
+	\end{itemlist}
+\end{zlide}
+\end{document}

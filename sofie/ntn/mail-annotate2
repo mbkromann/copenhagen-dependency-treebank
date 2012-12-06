@@ -1,0 +1,154 @@
+From gj@coli.uni-sb.de Tue Mar  9 22:43:06 2004
+Received: from localhost (localhost [127.0.0.1])
+	by grid.id.cbs.dk (8.12.7/8.12.7/SuSE Linux 0.6) with ESMTP id i29Lh66B024208
+	for <mtkromann@localhost>; Tue, 9 Mar 2004 22:43:06 +0100
+Received: from 127.0.0.1 [127.0.0.1]
+	by localhost with POP3 (fetchmail-6.2.1)
+	for mtkromann@localhost (single-drop); Tue, 09 Mar 2004 22:43:06 +0100 (MET)
+Received: from proxy2 ([192.168.70.3])
+ by ha-mail.cbs.dk (iPlanet Messaging Server 5.2 HotFix 1.02 (built Sep 16
+ 2002)) with ESMTP id <0HUB0010NFSGW2@ha-mail.cbs.dk> for mtk.id@ims-ms-daemon;
+ Tue, 09 Mar 2004 16:45:53 +0100 (MET)
+Received: from relay3-cph.comendo.dk (relay3.comendo.dk [195.245.210.92])
+ by proxy2.cbs.dk
+ (iPlanet Messaging Server 5.2 HotFix 1.02 (built Sep 16 2002)) with ESMTP id
+ <0HUB0018GFSG1Y@proxy2.cbs.dk> for mtk.id@cbs.dk (ORCPT mtk.id@cbs.dk); Tue,
+ 09 Mar 2004 16:45:52 +0100 (MET)
+Received: from localhost (Not Verified[192.168.50.17])
+ by relay3-cph.comendo.dk with {MailFence} (v{4.0}) (COMSND)
+	id <BM002bb26e>; Tue, 09 Mar 2004 16:45:50 +0100
+Received: from mailhub.id.cbs.dk (Not Verified[130.226.47.91])
+ by virus2-cph.comendo.dk with {MAilFence} (v{4.0}) (COMVRS)
+	id <BB0091e56c>; Tue, 09 Mar 2004 16:45:49 +0100
+Received: from mail.id.cbs.dk ([172.16.14.53] ident=mail)
+	by mailhub.id.cbs.dk with esmtp	(Cipher TLSv1:AES256-SHA:256)
+ (Exim 3.36 #1 (Debian))	id 1B0jQN-0000Hd-00	for <mtk.id@cbs.dk>; Tue,
+ 09 Mar 2004 16:45:43 +0100
+Received: from mail by mail.id.cbs.dk with spam-scanned (Exim 3.36 #1 (Debian))
+	id 1B0jQ9-0004yk-00	for <mtk@id.cbs.dk>; Tue, 09 Mar 2004 16:45:43 +0100
+Received: from mailhub.id.cbs.dk ([130.226.47.91] ident=mail)
+	by mail.id.cbs.dk with esmtp	(Cipher TLSv1:AES256-SHA:256)
+ (Exim 3.36 #1 (Debian))	id 1B0jQ9-0004yV-00	for <mtk@id.cbs.dk>; Tue,
+ 09 Mar 2004 16:45:29 +0100
+Received: from indyio.rz.uni-saarland.de ([134.96.7.3])
+	by mailhub.id.cbs.dk with esmtp (Exim 3.36 #1 (Debian))
+	id 1B0jQ0-0000HL-00	for <mtk@id.cbs.dk>; Tue, 09 Mar 2004 16:45:20 +0100
+Received: from top.coli.uni-sb.de (top.coli.uni-sb.de [134.96.68.10])
+	by indyio.rz.uni-saarland.de (SGI-8.12.5/8.12.10)
+ with ESMTP id i29FimXE17927892	for <mtk@id.cbs.dk>; Tue,
+ 09 Mar 2004 16:44:48 +0100 (CET)
+Received: from [134.96.104.84] (rotor.at.coli.uni-sb.de [134.96.104.84])
+	by top.coli.uni-sb.de (8.9.3p3/8.9.0) with ESMTP id QAA03625; Tue,
+ 09 Mar 2004 16:44:47 +0100 (MET)
+Date: Tue, 09 Mar 2004 16:44:40 +0100
+From: Geert-Jan Kruijff <gj@coli.uni-sb.de>
+Subject: Re: The "Annotate" tool
+In-reply-to: =?ISO-8859-1?Q?<20040309162742.GA23742@mtkromann.=DCX=15@=DCX=15?=
+ =?ISO-8859-1?Q?@>?=
+X-Scanner: exiscan *1B0jQ0-0000HL-00*CdZgFnMxENE*
+To: Matthias Trautner Kromann <mtk@id.cbs.dk>
+Cc: Geert-Jan Kruijff <gj@coli.uni-sb.de>
+Message-id: <AD4AE240-71E0-11D8-B118-000A9566B09C@coli.uni-sb.de>
+MIME-version: 1.0 (Apple Message framework v612)
+X-Mailer: Apple Mail (2.612)
+Content-type: text/plain; charset=US-ASCII; format=flowed
+Content-transfer-encoding: 7bit
+X-AntiVirus: checked by AntiVir Milter 1.0.6; AVE 6.24.0.6; VDF 6.24.0.46
+X-Spam-Status: No, hits=-4.9 tagged_above=-900.0 required=6.5 tests=BAYES_00
+X-Spam-Level: 
+References: =?ISO-8859-1?Q?<20040309162742.GA23742@mtkromann.=DCX=15@=DCX=15?=
+ =?ISO-8859-1?Q?@>?=
+Original-recipient: rfc822;mtk.id@cbs.dk
+X-Text-Classification: ok
+X-POPFile-Link: <http://127.0.0.1:8080/jump_to_message?view=popfile7873=1.msg>
+Status: RO
+X-Status: A
+Content-Length: 3241
+Lines: 85
+
+Hallo Matthias!
+
+> I hope everything is going well.
+
+Thanks for asking :-) Busy as usual, as usual.
+
+> I am writing on behalf of the Nordic
+> Treebank Network (NTN), which has adapted TIGER-XML as its common
+> treebank representation format. Many network members are using the
+> "Annotate" tool to produce their treebanks. However, "Annotate" only
+> supports annotation of sentence-sized units,
+
+... correct ...
+
+> whereas a number of people in the NTN are interested in also 
+> annotating discourse-sized
+> units that may span entire texts.
+
+... which is interesting!
+
+See also below.
+
+> We would therefore like to ask you whether Annotate is still being
+> actively developed,
+
+Well, no and yes.
+
+No: We no longer do any active development on the Tcl/Tk-based version 
+of Annotate. It requires libraries that are no longer broadly 
+supported, which has led to problems installing Annotate.
+
+But ...
+
+Yes: We are developing a new version of Annotate, programmed solely in 
+Java. The new Annotate is based on a plug-and-play architecture (using 
+RMI), enabling a user to plug in his/her own components and specifying 
+a personalized workflow that defines the information flow between 
+different (available) components.
+
+> and if so, who we should contact if we want to
+> suggest changes to the program. If you will release Annotate under an
+> open-source license, some of our members have even expressed interest
+> in participating in the further development of Annotate -- something
+> which might relieve you of some of the maintenance costs for Annotate.
+
+Well. Students of mine are working on the new Java-based Annotate; I 
+hope that we'll have a beta-version by May, but it remains to be seen 
+whether that's overly optimistic or not. The beta-version should 
+include:
+
+* the GUI with complete edit-facilities as familiar from the old 
+Annotate;
+* wrappers for the components that came with the old Annotate (TnT for 
+PoS-tagging, Cascaded MMs for partial parsing)
+* a GUI for the workflow manager that let's you specify the information 
+flow between different components
+* a DB-XML-based setup for creating and maintaining treebanks, as one 
+possibility; if you want to use MySQL, that's of course fine -- we'd 
+like to offer a completely platform-independent solution.
+
+Most of this should come as an Open Source API (perhaps aside from some 
+of the Java code we got from TigerSearch). That should enable others to 
+extend the API, correct it, etc :-)
+
+With this plug-and-play setup, you should be able to plug in your own 
+tools for discourse annotation, of course.
+
+Having said that, we HAVE been doing discourse-level annotation as 
+well, but approached it the way that we use a whole suite of tools 
+rather than just one complex one. As long as the tools create XML 
+annotation, and we have a way to relate these annotations in a 
+stand-off encoding way, we can still obtain an integrated picture. In 
+this way we've been annotation TIGER and the WSJ with linguistic 
+information related to information structure: prosody (using EMU), 
+syntactic phenomena (TIGER/XML Spy), discourse-level phenomena (EML 
+Heidelberg's MMAX). Some papers are coming out now at a workshop at 
+HLT-NAACL, and at LREC.
+
+Hope this helps,
+Cheers,
+
+GJ
+
+
+
+

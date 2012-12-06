@@ -1,0 +1,344 @@
+<html><head>
+	<title>Nordic Treebank Network: TIGER-XML Proposals</title>
+	<link rel="sibling" href="tools.html" id="Tools" title="Tools">
+	<link rel="sibling" href="formats.html" id="Formats" title="Representation formats">
+	<link rel="self" href="http://www.id.cbs.dk/~mtk/ntn/tiger-xml.html" id="TIGER-XML" title="TIGER-XML">
+</head>
+<body>
+
+<h1 align="center">Nordic Treebank Network TIGER-XML</h1>
+
+<h3 align="center">Proposals for extensions and
+	conventions in TIGER-XML<br>
+	within the Nordic Treebank Network<br><br>
+	March 23, 2005</h3>
+
+<a name="1._Conventions"></a>
+<h2>1. Conventions in TIGER-XML</h2>
+
+	Proposals for conventions that govern the use of the existing
+	TIGER-XML DTD. 
+
+<blockquote>
+
+<a name="__1.1_Encoding"></a>
+<h3>1.1. Character encoding</h3>
+
+	<p>Decide on a way of specifying the character encoding of the
+	document (eg, iso-8859-1, utf-8, utf-16), so that XML parsers 
+	know the correct character encoding when parsing the document
+	(some XML parsers will die unexpectedly if the character encoding
+	is not provided in the document).</p> 
+	
+	<blockquote><i>
+		<p><b>NTN recommendation 1.1:</b>
+		Always include XML tag like &lt;?xml version="1.0"
+		encoding="iso-8859-1" standalone="yes"?&gt; in XML
+		header, specifying the character encoding used in the document
+		(iso-8859-1, utf8, etc.).</p>
+	</i></blockquote>
+
+<a name="__1.2_Intersegmental_links"></a>
+<h3>1.2. Intersegmental links</h3>
+
+   Decide on representation of intersegmental links (eg, links from an
+   anaphor to an antecedent in an earlier sentence) in TIGER XML.
+	<blockquote><i>
+		<p><b>NTN recommendation 1.2:</b> Use secondary
+		edges (but not primary edges) to refer to nodes outside the
+		current &lt;s&gt; and &lt;graph&gt; tag. This solution
+		respects the current TIGER-XML DTD. TIGERRegistry
+		will currently ignore the edges and issue a warning, but 
+		it will parse all other edges correctly. We must then 
+		improve the TIGER tools so that they support these edges, and/or 
+		create other tools that support them.</p>
+	</i></blockquote>
+
+<a name="__1.3_Glosses"></a>
+<h3>1.3. Glosses</h3>
+
+    Decide on a standard feature for encoding English glosses of the
+	words in a treebank.
+	<blockquote><i>
+		<p><b>NTN recommendation 1.3:</b> Use the feature
+		"gloss" to encode an English gloss in a &lt;t&gt; (terminal
+		node) or &lt;nt&gt; (non-terminal node) tag. In non-terminal
+		nodes, "gloss" is interpreted as a gloss of all terminals
+		dominated by the node within the primary edge structure. 
+	</i></blockquote>
+
+<a name="__1.4_Dependency_graphs"></a>
+<h3>1.4. Dependency graphs</h3>
+
+	Decide on a standard way of representing dependency treebanks in
+	TIGER XML so that dependency treebanks can be recreated from TIGER
+	XML.
+	<blockquote><i>
+		<p><b>NTN recommendation 1.4.</b>: Encode all nodes in the
+		dependency graph as two nodes in the TIGER graph: a terminal
+		&lt;t&gt; and a non-terminal &lt;nt&gt; node, containing
+		exactly the same feature and feature values and connected by a
+		"--" primary edge. All edges in the dependency graph are
+		represented as primary/secondary edges between the
+		corresponding non-terminal nodes. Terminal nodes are not
+		allowed to have any other edges than the "--" edge to their
+		non-terminal parent node.</p>
+		
+		<p>When translating a TIGER graph back into a dependency
+		graph, the terminal node and its corresponding non-terminal
+		node should be merged back into one. If feature values in the
+		two nodes conflict, terminal values should be preferred over
+		non-terminal values.</p>
+	</i></blockquote>
+
+<a name="__1.5_Sources"></a>
+<h3>1.5. External sources (text, speech, video)</h3>
+	
+	<p>Decide on a standard for associating a segment or a terminal or
+	non-terminal node with an external source file, a time span, a
+	byte span, and a speaker identifier.</p>
+
+	<blockquote><em>
+		<p><b>1.5a. Proposal by M.T. Kromann:</b> The following
+		features can be used both in terminal &lt;t&gt; and
+		non-terminal &lt;nt&gt; nodes:</p>
+		<ul>
+			<li> <b>speaker</b>: speaker identifier, encoded as an
+				arbitrary string. 
+			<li> <b>source</b>: external source URI, encoded either
+				as an URL (eg, "http:..." or "file:...") or as a
+				private URN (eg, "urn:private:..."). The dots "..."
+				represent any string. Note: while "urn:..." follows
+				the URI standard, "urn:private:..." does not since
+				"private" isn't a registered URN.  However, no
+				registered URN seems to fit.
+			<li> <b>timespan</b>: time span, encoded as a real-valued
+				segment, measured in seconds
+				from the beginning of the external source. In text files, this
+				feature can be used to encode the linear span of a
+				text item, measured in terms of any abstract notion of
+				time.
+			<li> <b>bytespan</b>: byte span, encoded as an
+				integer-valued segment, measured in bytes from the
+				beginning of the external source. 
+		</ul>
+		A segment is encoded as a semicolon-separated list of intervals of
+		the form "<i>first</i>-<i>last</i>". The notation
+		"<i>number</i>" is used as a short-hand for an interval with
+		identical first and last positions. For example, the
+		string "1-3;59;89-91" represents an integer-valued segment, and
+		"5.7-5.9;6.1-6.9" represents a real-valued segment.
+	</em></blockquote>
+
+<a name="__1.6_Semantics"></a>
+<h3>1.6. Semantics (functor-argument structure)</h3>
+
+	Decide on a standard way of representing functor-argument
+	structure in TIGER XML.
+	<blockquote><i>
+		<p><b>NTN recommendation 1.6.</b> We recommend using one of
+		two alternatives for the encoding of functor-argument
+		structure:</p>
+
+  		<ol>
+			<li> If the functor of each argument can be identified
+			uniquely from the syntactic structure alone (e.g. by being
+			identical to the syntactic head in a dependency
+			structure), argument roles should be encoded as attributes
+			of the argument nodes.
+
+			<li> If the functor of each argument cannot be identified
+			uniquely from the syntactic structure alone (e.g. if one
+			and the same node can be an argument of more than one
+			functor), then functor-argument relations should be
+			encoded using secondary edges from functors to arguments,
+     		with argument roles as attributes of the secondary edges.
+		</ol>
+
+	  <p>Regardless of which alternative is chosen, we recommend that
+	  all role labels begin with the symbol `@' (which is often used
+	  for functional application in computational semantics) to
+	  distinguish them from other types of attributes.</p>
+	</i></blockquote>
+
+</blockquote>
+
+<a name="2._Extensions"></a>
+<h2>2. Extensions to TIGER-XML</h2>
+
+	Proposals for changes to the TIGER-XML DTD. 
+	
+<blockquote>
+
+<a name="__2.1_Segments"></a>
+<h3>2.1. Segments</h3>
+
+	Decide on extension to TIGER XML for representing other kinds of
+	segments than "s", including overlapping or discontinuous segments
+	(eg, utterances, turns).
+
+	<blockquote><i>
+		<p><b>2.1a. Proposal by M.T. Kromann:</b> Use a 
+		&lt;span id="..." next="..."&gt;...&lt;/span&gt; tag to indicate 
+		a sequence of terminals. The &lt;span&gt; tag must occur
+		within the &lt;terminals&gt; tag. To represent discontinuous
+		spans that span several graphs, one can optionally use the
+		"next" feature to encode the id of a following non-adjacent
+		span that should be considered part of the current span. 
+		To associate feature-value pairs with the span, the final span
+		in a sequence is allowed to have an arbitrary number of
+		associated feature-value pairs. In this representation, it is
+		not possible to connect spans by means of edges.</p>
+		
+		<p>The TIGER tools currently ignore the proposed extra tags in
+		the XML file, so the &lt;span&gt; tag will not cause the
+		current TIGER tools to fail. We must then improve the TIGER
+		tools so that they support these tags, and/or create other
+		tools that support them.</p>
+	</i></blockquote>
+
+<a name="__2.2_Alignment"></a>
+<h3>2.2. Parallel alignment</h3>
+
+	Decide on a standard method for representing parallel aligned
+	treebanks in TIGER-XML.
+
+	<blockquote><i>
+		<p><b>2.2a. Proposal by Martin Volk and Yvonne Samuelsson:</b>
+
+		Use the liu-align.dtd from Linköping University. The
+		alignment file consists of: 
+		<ul>
+			<li> <b>&lt;align&gt;</b><br> = declares the source and target file
+			<li> <b>&lt;linkList&gt;</b><br> = groups the list of links
+			<li> <b>&lt;sentLink&gt;</b><br> = groups the links per translation
+				unit pair (usually sentence pair, but sometimes 1-n or
+				n-1 alignments) with the attribute 'xtargets'
+				specifying the numbers of the sentences involved.
+			<li> <b>&lt;phraseLink&gt;</b><br> = the individual links with the
+				attribute 'xtargets' specifying alignments from
+				'sentence number _ phrase number' in  language 1 to
+				'sentence number _ phrase number' in  language 2.
+		</ul>
+		Here is an <a href="align-xml.xml">example alignment</a>.
+		The one thing that we do not like about our approach is the
+		fact that if a sentence's annotation is modified, then the
+		node numbers might change and there is no easy way to see what
+		has changed. So if there is another solution that solves this
+		problem, we will be very interested.</p></p>
+
+		<li><b>2.2b. Proposal by M.T. Kromann:</b> Like Martin and
+		Yvonne, I am not completely happy with my proposal, which is
+		mostly stated here for the comparison. The following tags are
+		used:
+		<ul>
+			<li> <b>&lt;DTAGalign&gt;</b><br>= specify alignment.
+			<li> <b>&lt;alignFile key="a" href="file:../ddt-done/0001.tag"
+			sign="_input"/&gt;</b><br>= specify alignment file for a given
+			key, and the attribute used as signature (see below).
+
+			<li> <b>&lt;align out="a43 a44 a47" type="fix" in="b0 b2" creator="-1"
+			outsign="vil ikke have" insign="won't have"/&gt;</b><br>
+			= specify alignment edge
+			connecting nodes in the two graphs, with the given input
+			and output signature and creator
+		</ul>
+		The alignment may contain an arbitrary number of aligned
+		texts (not just two). The creator is an integer representing a
+		user id where -100 is interpreted as an unconfirmed
+		automatically created edge, and -n with n&lt;100 is
+		interpreted as an automatic edge that has been confirmed n
+		times. The problem with additions/deletions in the aligned
+		graphs (and hence changed id's) reported by Martin and Yvonne
+		is solved by specifying a signature for the outgoing and
+		incoming nodes on the edge, ie, the values of a certain
+		attribute -- which should be sufficient to create an automatic
+		realignment after most additions/deletions.  Here is <a
+		href="example.atag">an example alignment</a>. 
+
+
+	</i></blockquote>
+</blockquote>
+
+<a name="3._TIGER_tool_extensions"></a>
+<h2>3. Extensions to TIGER tools</h2>
+
+	Matthias has contacted the TIGER and ANNOTATE developers. 
+	Their responses are listed below.
+	<ul>
+		<li> <a href="mail-tiger.html">Correspondence with Holger
+			Voormann on TIGER tools</a>
+		<li> <a href="mail-annotate.html">Correspondence with 
+			Geert-Jan Kruijff on ANNOTATE tool</a>
+	</ul>
+
+	
+<blockquote>
+<a name="__3.1_Segmentation"></a>
+<h3>3.1. General segmentation</h3>
+
+	Proposal for adapting TIGER-XML to handle the intersegmental links
+	described in 1.3.
+
+	<blockquote><i>
+		<p><b>No proposals yet</b></p>
+	</i></blockquote>
+
+<a name="__3.2_Inter-segmental_links"></a>
+<h3>3.1. Inter-segmental links</h3>
+	
+	Decide on a method for encoding inter-segmental links. 
+	<blockquote><i>
+		<p><b>No proposals yet</b></p>
+	</i></blockquote>
+
+<a name="__3.3_Command-line"></a>
+<h3>3.3. Command-line search</h3>
+
+	<blockquote><i>
+		<p><b>No proposals yet</b></p>
+	</i></blockquote>
+
+<a name="__3.4_Visualization"></a>
+<h3>3.4. Graph visualization</h3>
+	
+	Visualization methods suitable for dependency graphs (standard
+	layout without terminal nodes, arc-graph layout). 
+
+	<blockquote><i>
+		<p><b>No proposals yet</b></p>
+	</i></blockquote>
+
+</blockquote>
+
+<a name="4._Import"></a>
+<h2>4. Import tools for TIGER-XML</h2>
+
+	The following tools understand and manipulate TIGER-XML.
+<blockquote>
+	<ul>
+		<li> TIGER tools: TIGERSearch, TIGERRegistry
+		<li> <a href="http://www.id.cbs.dk/~mtk/dtag">DTAG</a>: 
+			can be used to edit treebanks, and save and load them in
+			TIGER-XML.
+	</ul>
+</blockquote>
+
+<a name="5._Conversion"></a>
+<h2>5. Conversion tools for TIGER-XML</h2>
+
+	The following tools can be used to convert a treebank format
+	into TIGER XML. 
+
+<blockquote>
+	<ul>
+		<li> TIGERRegistry: recognizes many different treebank formats
+			and converts them into TIGER XML.
+		<li> <a href="http://www.id.cbs.dk/~mtk/dtag">DTAG</a>: 
+			can convert between TIGER-XML and the DTAG format used
+			in the treebank tool used in the Danish Dependency Treebank.
+	</ul>
+</blockquote>
+
+
+</body></html>

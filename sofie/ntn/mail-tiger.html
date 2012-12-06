@@ -1,0 +1,161 @@
+<html><body>
+
+<pre>
+Date: Wed, 10 Mar 2004 10:52:06 +0100
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: tigersearch@ims.uni-stuttgart.de
+Subject: Extensions to TIGER-XML and the TIGER tools
+
+Dear TIGER developers,
+
+I am writing to you on behalf of the Nordic Treebank Network. In the
+network, we have adopted TIGER-XML as our common treebank
+representation format and produced tools for converting our various
+treebanks into TIGER-XML (including treebanks for Danish, Estonian,
+Finnish, German, Norwegian, and Swedish). 
+
+We are very happy with TIGER-XML and the TIGER tools -- we think they
+are great work. However, since they do not address all the needs
+within the network, we have begun discussing how to extend TIGER-XML
+and the TIGER tools in various ways, and how to standardize our
+use of the existing TIGER-XML DTD. 
+
+The changes and conventions that we have discussed concern:
+
+	Conventions for using the existing TIGER-XML DTD:
+		* standardized encoding of dependency graphs
+		* standardized encoding of links to external text, sound or
+		  video files
+		* standardized encoding of speaker identity and time span
+		* standardized encoding of functor-argument structure
+
+	Extensions to the existing TIGER-XML DTD:
+		* encoding generalized segmentation (eg, overlapping or
+		  discontinuous segments used for encoding utterances
+		  and turns in spoken language)
+		* encoding parallel alignment in parallel treebanks
+
+	Extensions to the existing TIGER tools:
+		* visualizing secondary edges between non-terminals across &lt;s>
+		  segments (in order to encode discourse treebanks)
+		* visualizing generalized segmentation
+		* command-line search in order to use TIGERSearch for web
+		  interfaces
+
+The problems and the proposals I have received so far from the
+network are described in more detail on the web page
+http://www.id.cbs.dk/~mtk/ntn/tiger-xml.html. 
+
+I am writing to you both because you might view our proposals as
+valuable feedback, and also because we would very much like to
+coordinate our proposals with you before we proceed. Perhaps you even
+have some good ideas for solving some of the problems that we are
+looking at. 
+
+I would therefore like to ask you the following questions: (1) Have
+you thought about some of the problems we are considering, and if so,
+what kind of solution do you recommend? (2) Are you interested in
+feedback from us with respect to future changes to TIGER-XML and the
+TIGER tools? (3) Are you still actively developing the TIGER tools,
+and do you plan to make extensions to the tools in the future that may
+address our needs? (4) If not, some of our network members have
+expressed interest in trying to extend the TIGER tools themselves.
+Would you consider opening up the development of the TIGER tools to
+outside groups by making the tools available under an open source
+license (which might allow you to share the cost of maintaining the
+TIGER tools with other groups)? 
+
+Regards,
+Matthias
+</pre>
+
+<hr>
+
+<pre>
+Date: Wed, 10 Mar 2004 17:44:28 +0100
+From: Holger Voormann <holger.voormann@ims.uni-stuttgart.de>
+Subject: Re: Extensions to TIGER-XML and the TIGER tools
+To: Matthias Trautner Kromann <mtk@id.cbs.dk>
+
+Dear Matthias,
+
+nice to hear TIGERSearch and TIGER-XML is being used.
+
+Yes, we have plans to make TIGERSearch available under an open source
+license, likely in summer. In consideration of the fact at the moment
+no developer is exclusively working on TIGERSearch, we are occupied by
+fixing bugs (check out the newest version 2.1.1 ;-).
+
+One comment about your plans for extending TIGERSearch: it will be
+very difficult to make edges across &lt;s> segments queryable.
+
+Regards,
+Holger Voormann.
+</pre>
+
+<hr>
+
+<pre>
+Date: Wed, 10 Mar 2004 19:38:07 +0100
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: Holger Voormann <holger.voormann@ims.uni-stuttgart.de>
+Subject: Re: Extensions to TIGER-XML and the TIGER tools
+
+Dear Holger,
+
+Thanks for your prompt reply. We will look out for the open-source
+release of TIGERSearch. 
+
+> One comment about your plans for extending TIGERSearch: it will be very 
+> difficult to make edges across &lt;s> segments queryable.
+
+Why is that? Without knowing the detailed architecture of
+TIGERSearch's query processor, I am a little bit surprised about this.
+Is there no way to fix it? 
+
+Regards,
+Matthias 
+</pre>
+
+<hr>
+
+<pre>
+Date: Wed, 10 Mar 2004 19:03:02 +0100
+From: Holger Voormann <holger.voormann@ims.uni-stuttgart.de>
+Subject: Re: Extensions to TIGER-XML and the TIGER tools
+To: Matthias Trautner Kromann <mtk@id.cbs.dk>
+
+>Why is that? Without knowing the detailed architecture of
+>TIGERSearch's query processor, I am a little bit surprised about this.
+>Is there no way to fix it? 
+
+Secondary edges may not raise conflicts, because the query processor must
+follow only one edge to a node outside the segment. But if you want to
+add normal edges, you will run out of the scope of TIGERSearch, i.e.
+intersecting hierarchies can not be queried by TIGERSearch.
+
+Regards, Holger.
+</pre>
+
+<hr>
+
+<pre>
+Date: Tue, 16 Mar 2004 12:09:24 +0100
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: Holger Voormann <holger.voormann@ims.uni-stuttgart.de>
+Subject: Re: Extensions to TIGER-XML and the TIGER tools
+
+> Secondary edges may not raise conflicts, because the query processor must
+> follow only one edge to a node outside the segment. But if you want to
+> add normal edges, you will run out of the scope of TIGERSearch, i.e.
+> intersecting hierarchies can not be queried by TIGERSearch.
+
+Ok. Thanks.
+
+Regards,
+Matthias
+</pre>
+
+</body></html>
+
+

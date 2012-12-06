@@ -1,0 +1,38 @@
+From mtk@id.cbs.dk Wed Mar 10 19:38:07 2004
+Date: Wed, 10 Mar 2004 19:38:07 +0100
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: Holger Voormann <holger.voormann@ims.uni-stuttgart.de>
+Subject: Re: Extensions to TIGER-XML and the TIGER tools
+Message-ID: <20040310183807.GA5701@mtkromann.id.cbs.dk>
+References: <404F45EC.9090709@IMS.Uni-Stuttgart.de>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <404F45EC.9090709@IMS.Uni-Stuttgart.de>
+User-Agent: Mutt/1.4i
+Status: RO
+Content-Length: 656
+Lines: 20
+
+Dear Holger,
+
+Thanks for your prompt reply. We will look out for the open-source
+release of TIGERSearch. 
+
+> One comment about your plans for extending TIGERSearch: it will be very 
+> difficult to make edges across <s> segments queryable.
+
+Why is that? Without knowing the detailed architecture of
+TIGERSearch's query processor, I am a little bit surprised about this.
+Is there no way to fix it? 
+
+Regards,
+Matthias 
+
+-- 
+Matthias Trautner Kromann    Dept of Computational Linguistics
+Email: mtk@id.cbs.dk         Copenhagen Business School
+Web: www.id.cbs.dk/~mtk      Bernhard Bangs Allé 17B
+Phone: (+45) 3815 3166       DK-2000 Frederiksberg C, DENMARK
+

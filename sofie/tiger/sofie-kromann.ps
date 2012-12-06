@@ -1,0 +1,3121 @@
+%! (c) 2002 Matthias T. Kromann <mtk@id.cbs.dk>
+
+%% This PostScript library is distributed under the GNU public  
+%% license for libraries, as part of the DGgraph package.
+%% Please see: http://www.id.cbs.dk/~mtk/DGgraph for source code,
+%% documentation and license.
+
+%% 1. DGgraph Prologue
+
+100 dict begin /llx 20 def /lly 20 def /urx 500 def /ury 820 def /LW 1
+def /X 2 def /Y 0 def /dO 5 def /dA 10 def /dAW 2.5 def /dAH 6 def
+/dAD 2 def /dT 15 def /dB 18 def /dT0 3 def /dB0 8 def /dW 8 def /dH
+10 def /dL 20 def /strings 1 def /framegray 1 def /bggray 1 def
+/smallfont 7 def /textfont 10 def /nextw 0 def /nexte 0 def LW
+setlinewidth /xdef {exch def} def /max {dup 3 -1 roll dup 3 -1 roll lt
+{pop} {exch pop} ifelse} def /min {dup 3 -1 roll dup 3 -1 roll gt
+{pop} {exch pop} ifelse} def /ISOfont {findfont dup length dict begin
+{1 index /FID ne {def} {pop pop} ifelse} forall /Encoding
+ISOLatin1Encoding def currentdict end definefont pop} def /Times-Roman
+/Times-Roman-Latin1 ISOfont /Times-Bold /Times-Bold-Latin1 ISOfont
+/Times-Italic /Times-Italic-Latin1 ISOfont /Times-BoldItalic
+/Time-BoldItalic-Latin1 ISOfont /Times [(ptm) /Times-Roman-ISOLatin1
+/Times-Bold-ISOLatin1 /Times-Italic-ISOLatin1
+/Times-BoldItalic-ISOLatin1] def /setfontfamily {/fontfamily xdef} def
+/setfontsize {/fontsize xdef} def /setfontstyle {/fontstyle xdef} def
+/font 7 string def /fontext 4 string def /setupfont {font 0 fontfamily
+0 get putinterval font 3 fontstyle 1 add 1000 mul fontsize cvi add
+fontext cvs putinterval currentdict font cvn known not {currentdict
+font cvn fontfamily fontstyle 1 add get findfont fontsize scalefont
+put} if font cvn cvx exec setfont} def Times setfontfamily 10
+setfontsize 0 setfontstyle setupfont /qsort {1 index length 0 exch
+qsortx pop} def /qsortx {2 copy 2 sub gt {pop pop} {findpivot dup -1
+eq {pop pop pop} {4 index exch get 3 1 roll 2 copy 7 2 roll 1 sub
+{exch {dup 5 index exch get 3 index 5 index exec -1 eq {1 add} {exit}
+ifelse} loop exch {dup 5 index exch get 3 index 5 index exec -1 gt {1
+sub} {exit} ifelse} loop 2 copy gt {exit} if 2 copy 6 index 3 1 roll
+switch} loop 3 -1 roll pop pop 5 -1 roll exch dup 6 1 roll qsortx 4 2
+roll qsortx} ifelse} ifelse} def /findpivot {2 copy add 1 sub 2 idiv 4
+index 1 index get 1 index 1 1 index 5 index add 6 index sub 1 sub {dup
+4 index ge {4 index add 3 index sub} if dup 7 index exch get 2 index 7
+index exec dup 0 ne {1 eq {3 -1 roll pop -1 3 1 roll exit} {pop -1 3 1
+roll exch exit} ifelse} {pop pop} ifelse} for 2 index -1 eq {3 1 roll
+pop pop} {pop pop -1} ifelse} def /switch {2 index 2 index get 3 index
+2 index get 4 index exch 6 1 roll 3 1 roll put 3 -1 roll put} def
+/intcmp {2 copy lt {pop pop -1} {eq {0} {1} ifelse} ifelse} def
+/format {pop gsave /oldfontstyle fontstyle def /oldfontsize fontsize
+def /oldfontfamily fontfamily def exch dup 0 ge 1 index formats length
+le and {dup 0 eq {pop} {formats exch 1 sub get exec} ifelse} {pop}
+ifelse exec grestore fontstyle oldfontstyle ne fontsize oldfontsize ne
+or fontfamily oldfontfamily ne or {oldfontfamily setfontfamily
+oldfontsize setfontsize oldfontstyle setfontstyle setupfont} if} def
+/arrow {dA mul 2 index add 4 copy exch 2 copy 5 index 5 1 roll 5 index
+8 -2 roll moveto curveto stroke 2 index gt {-1} {1} ifelse dAH mul 3 1
+roll exch moveto dAW 0 rmoveto dAW -2 mul 0 rlineto dAW exch rlineto
+closepath fill pop} def /word {strings 2 mul 1 add array strings -1 1
+{2 index type /integertype eq {4 2 roll} {3 -1 roll 0} ifelse 3 index
+3 index 2 mul 3 -1 roll put 2 index 2 index 2 mul 1 sub 3 -1 roll put
+pop} for 0 1 1 strings {2 index exch 2 mul 1 sub get stringwidth pop
+max} for X exch X add dW add /X xdef 1 index 0 3 -1 roll put
+currentdict /words known {words nextw 3 -1 roll put} if /nextw nextw 1
+add def} def /newedge {dup type /stringtype eq {0 0} {1 index type
+/stringtype eq {dup} if} ifelse 5 2 roll 3 1 roll 2 copy gt {exch neg}
+if 3 -1 roll 0 1 7 -2 roll 7 array astore} def /edget {newedge
+currentdict /edges known {edges nexte 3 -1 roll put} if /nexte nexte 1
+add def} def /edgeb {newedge dup 4 -1 put currentdict /edges known
+{edges nexte 3 -1 roll put} if /nexte nexte 1 add def} def /xcenter
+{dup words exch get 0 get exch 1 add dup words length eq {pop X}
+{words exch get 0 get} ifelse dW sub add 2 div} def /edge_heights {[
+exch 0 0 0 edge_heights0 {pop} repeat pop pop pop pop} def
+/edge_heights0 {{edge_heights1 {true} {edge_heights2} ifelse {true}
+{edge_heights3} ifelse {true} {edge_heights4} ifelse not {exit} if}
+loop} def /edge_heights1 {dup 2 lt {false} {4 index length 3 eq {true}
+{4 index 3 get -1 eq} ifelse} ifelse {5 -1 roll dup 1 get exch 2 get 6
+index dup dup 2 get 4 -1 roll max 2 exch put 1 3 -1 roll put 1 sub
+true} {false} ifelse} def /edge_heights2 {dup 0 gt {4 index length 3
+gt {4 index 3 get -1 ne {4 index dup dup 1 get exch 3 get edges exch
+get 1 get abs eq {dup dup 2 get 1 add 2 exch dup 4 1 roll put 1 index
+3 get edges exch get 3 3 -1 roll 7 index exec put mark exch dup aload
+pop counttomark 4 sub -1 roll pop -1 counttomark -1 roll astore pop
+pop true} {pop false} ifelse} {false} ifelse} {false} ifelse} {false}
+ifelse} def /edge_heights3 {dup 1 gt {5 index 5 index dup 1 get exch 2
+get 3 -1 roll 1 get 2 index ne {7 index dup 1 5 -1 roll put dup 2 get
+3 -1 roll max 2 exch put 5 -1 roll 1 index 4 add 1 roll 1 sub
+edge_heights0 1 add dup 4 add -1 roll 5 1 roll true} {pop pop false}
+ifelse} {false} ifelse} def /edge_heights4 {counttomark 1 index 4 add
+eq {2 index words length lt {mark 3 index dup 1 add 0 7 index 6 index
+{dup edges length ge {exch pop exit} if dup edges exch get dup 0 get 6
+index eq {4 get 2 index exec 0 gt{dup 6 1 roll} if 1 add} {pop exch
+pop exit} ifelse} loop counttomark 1 add 1 roll counttomark 3 roll ] 6
+1 roll 3 1 roll 1 add exch pop 3 -1 roll 1 add 3 1 roll true} {false}
+ifelse} {false} ifelse} def /edge_displace {-1 -1 0 0 0 {2 index words
+length ge {pop pop pop pop pop exit} if 5 -2 roll pop pop -1 -1 5 2
+roll 1 index edges 0 3 -1 roll update_super dup maxedges 1 3 -1 roll
+update_super exch edges 0 3 -1 roll displace exch maxedges 1 3 -1 roll
+displace 3 -1 roll 1 add 3 1 roll} loop} def /displace {{dup 3 index
+length ge {3 1 roll pop pop exit} if 2 index 1 index get dup 3 index
+get abs 6 index gt {pop 3 1 roll pop pop exit} if dup ioword 7 index
+eq {1 index 3 get 0 gt {8 index} {7 index} ifelse dup -1 eq {pop pop 4
+0 put} {7 index -1 2 index 2 index gt {neg exch 3 1 roll} if 4 1 roll
+2 index gt 3 1 roll gt and not {neg} if 4 exch put} ifelse} {pop pop}
+ifelse 1 add} loop} def /update_super {{dup 3 index length ge {pop pop
+pop exit} if 2 index 1 index get dup 3 index get 7 index gt {pop pop
+pop pop exit} if dup ioword exch 8 index eq {exch 3 get 0 gt {9 -1
+roll pop 8 1 roll} {8 -1 roll pop 7 1 roll} ifelse} {pop pop} ifelse 1
+add} loop} def /ioword {dup 0 get exch 1 get dup 0 lt {abs exch} {abs}
+ifelse} def /split_lines {split_words split_edges split_pages} def
+/split_words {/lines [ urx llx sub 0 0 1 {1 index words length ge {pop
+pop pop pop exit} if [2 index 0 5 index 0 0 0 0] 5 1 roll {dup xpos dW
+2 div sub dup 4 index sub 5 index gt 2 index words length ge or {exch
+4 2 roll pop pop dup 1 add exit} if pop 1 add} loop} loop [words
+length edges length X 0 0 0 0] ] def} def /split_edges {0 [] 0 1 lines
+length 2 sub {dup 1 add lines exch get 0 get exch lines exch get 0 0 2
+index [ 8 2 roll 4 index {dup edges exch get 1 get abs 5 index ge {dup
+8 1 roll} if edges exch get 3 get dup 4 -1 roll min 3 1 roll max}
+forall {5 index edges length ge {exit} if 5 index edges exch get 0 get
+4 index ge {exit} if 5 index edges exch get dup 1 get abs 5 index ge
+{6 index 7 1 roll} if 3 get dup 4 -1 roll min 3 1 roll max 6 -1 roll 1
+add 6 1 roll} loop 2 index 4 3 -1 roll put 1 index 5 3 -1 roll abs put
+3 1 roll pop pop 1 2 index put counttomark 1 add 1 roll ] 2 index 6 2
+index put 3 -1 roll 1 3 index put} for pop pop} def /split_pages {ury
+lly sub 0 0 1 lines length 2 sub {lines exch get dup line_height 3
+index 3 index 2 index add lt {3 -1 roll pop 0 3 1 roll} if exch 3 3
+index put add dL add} for pop pop} def /line_height {dup 4 get exch 5
+get add dA mul strings dH mul add dB add dT add} def /xpos {dup words
+length ge {pop X} {words exch get 0 get} ifelse} def /print_word {1
+index 4 index 4 get dA mul sub dT sub 1 index xcenter 4 index add exch
+3 -1 roll words exch get 1 1 strings {3 -1 roll dH sub 3 1 roll 2 copy
+2 mul get 3 1 roll 1 index exch 2 mul 1 sub get dup stringwidth pop 2
+div neg 5 index add 4 index moveto 3 -1 roll {show} 0 format} for pop
+pop pop} def /print_edge {edges exch get 1 index 4 index 4 get dA mul
+sub 1 index 3 get 0 ge {dup dT sub dT0 add} {dT sub strings dH mul sub
+dB sub dup dB0 add} ifelse 2 index ioword xcenter 6 index add exch
+xcenter 6 index add dup 4 -1 roll moveto 3 index 2 get dup stringwidth
+pop -2 div 0 rmoveto 4 index 5 get {show} 1 format exch 3 index 4 get
+dO mul add 3 1 roll 3 index 3 get 4 index 6 get {arrow} 2 format pop}
+def /sort_edges {edges {2 copy 0 get exch 0 get exch intcmp dup 0 ne
+{3 1 roll pop pop} {pop 1 get abs exch 1 get abs exch intcmp} ifelse}
+qsort pop /maxedges edges edges length array copy def maxedges {2 copy
+1 get abs exch 1 get abs exch intcmp dup 0 ne {3 1 roll pop pop} {pop
+0 get exch 0 get exch intcmp} ifelse} qsort pop} def /layout_arcs
+{sort_edges {} edge_heights {neg} edge_heights 0 1 edges length 1 sub
+{edges exch get 4 0 put} for edge_displace split_lines} def
+/print_line {dup lines exch get dup line_height 1 index 2 get dup 4
+index 1 add lines exch get 2 get exch sub 3 1 roll llx exch sub 3
+index 3 get ury exch sub gsave newpath llx 1 index moveto 3 index 0
+rlineto 0 3 index neg rlineto 3 index neg 0 rlineto closepath gsave
+bggray setgray fill grestore clip gsave framegray setgray stroke
+grestore newpath 4 2 roll pop pop textfont setfontsize setupfont 2
+index 0 get 1 5 index 1 add lines exch get 0 get 1 sub {print_word}
+for smallfont setfontsize setupfont 3 index 0 eq {[]} {3 index 1 sub
+lines exch get 6 get} ifelse {print_edge} forall 3 index 0 eq {0} {3
+index 1 sub lines exch get 1 get} ifelse 1 4 index 1 get 1 sub
+{print_edge} for grestore pop pop pop pop} def /print_lines {0 1 lines
+length 2 sub {dup print_line 1 add lines exch get 3 get 0 eq
+{showpage} if} for} def /draw {layout_arcs print_lines} def /setup
+{array /edges exch def array /words exch def /nextw 0 def /nexte 0 def
+/strings exch def} def 
+
+
+%% 2. Dependency graph specification
+
+% Graph setup
+4 1484 1464 setup
+
+/formats [
+] def
+
+% Words and edges
+(EDENS) (NC) (NCCSG==D) (1) word
+(HAVE) (NC) (NCCSU==I) (2) word
+1 0 (possd) edget
+(...) (XP) (XP) (5) word
+2 7 (pnct) edget
+(til) (SP) (SP) (6) word
+3 7 (mod) edget
+(syvende) (AO) (AO---U=--) (7) word
+4 3 (aobj) edget
+(og) (CC) (CC) (8) word
+5 4 (coord) edget
+(sidst) (RG) (RGU) (9) word
+6 5 (conj) edget
+(måtte) (VA) (VADA=----A-) (10) word
+(et) (PI) (PI-NSU--U) (11) word
+8 7 (subj) edget
+8 12 ([subj]) edgeb
+8 13 ([subj]) edgeb
+(eller) (CC) (CC) (12) word
+9 8 (coord) edget
+(andet) (PI) (PI-NSU--U) (13) word
+10 9 (conj) edget
+(engang) (RG) (RGU) (14) word
+11 7 (mod) edget
+(være) (VA) (VAF-=----A-) (15) word
+12 7 (vobj) edget
+(opstået) (VA) (VAPA=S[CN]I[ARU]-U) (16) word
+13 12 (vobj) edget
+(af) (SP) (SP) (17) word
+14 13 (pobj) edget
+(nul) (NC) (NCNSU==I) (18) word
+15 14 (nobj) edget
+(og) (CC) (CC) (19) word
+16 15 (coord) edget
+(niks) (NC) (NCNSU==I) (20) word
+17 16 (conj) edget
+(...) (XP) (XP) (21) word
+18 7 (pnct) edget
+(Sofie) (NP) (NP--U==-) (24) word
+19 20 (namef) edget
+(Amundsen) (NP) (NP--U==-) (25) word
+20 21 (subj) edget
+(var) (VA) (VADA=----A-) (26) word
+(på) (SP) (SP) (27) word
+22 21 (pred) edget
+(vej) (NC) (NCCSU==I) (28) word
+23 22 (nobj) edget
+(hjem) (RG) (RGU) (29) word
+24 23 (lobj) edget
+(fra) (SP) (SP) (30) word
+25 22 (mod) edget
+(skole) (NC) (NCCSU==I) (31) word
+26 25 (nobj) edget
+(.) (XP) (XP) (32) word
+27 21 (pnct) edget
+(Det) (PD) (PD-NSU--U) (35) word
+28 31 (mod) edget
+(første) (AN) (ANP[CN][SP]U=[DI]U) (36) word
+29 28 (mod) edget
+(stykke) (NC) (NCNSU==I) (37) word
+30 28 (nobj) edget
+(fulgtes) (VA) (VADA=----P-) (38) word
+(hun) (PP) (PP3CSN-NU) (39) word
+32 31 (subj) edget
+(med) (SP) (SP) (40) word
+33 31 (pobj) edget
+(Jorunn) (NP) (NP--U==-) (41) word
+34 33 (nobj) edget
+(.) (XP) (XP) (42) word
+35 31 (pnct) edget
+(De) (PP) (PP3[CN]PN-NU) (45) word
+36 37 (subj) edget
+36 38 ([subj]) edgeb
+(havde) (VA) (VADA=----A-) (46) word
+(talt) (VA) (VAPA=S[CN]I[ARU]-U) (47) word
+38 37 (vobj) edget
+(om) (SP) (SP) (48) word
+39 38 (pobj) edget
+(robotter) (NC) (NCCPU==I) (49) word
+40 39 (nobj) edget
+(.) (XP) (XP) (50) word
+41 37 (pnct) edget
+(Jorunn) (NP) (NP--U==-) (53) word
+42 43 (subj) edget
+42 44 ([subj]) edgeb
+(havde) (VA) (VADA=----A-) (54) word
+(ment) (VA) (VAPA=S[CN]I[ARU]-U) (55) word
+44 43 (vobj) edget
+(,) (XP) (XP) (56) word
+45 44 (pnct) edget
+(at) (CS) (CS) (57) word
+46 44 (dobj) edget
+(menneskets) (NC) (NCNSG==D) (58) word
+47 49 (subj) edget
+(hjerne) (NC) (NCCSU==I) (59) word
+48 47 (possd) edget
+(var) (VA) (VADA=----A-) (60) word
+49 46 (vobj) edget
+(som) (U=) (U=) (61) word
+50 49 (pred) edget
+(en) (PI) (PI-CSU--U) (62) word
+51 50 (nobj) edget
+(kompliceret) (AN) (ANP[CN]SU=IU) (63) word
+52 51 (mod) edget
+(computer) (NC) (NCCSU==I) (64) word
+53 51 (nobj) edget
+(.) (XP) (XP) (65) word
+54 43 (pnct) edget
+(Sofie) (NP) (NP--U==-) (68) word
+55 56 (subj) edget
+(var) (VA) (VADA=----A-) (69) word
+(ikke) (RG) (RGU) (70) word
+57 56 (mod) edget
+(helt) (AN) (ANP---=-R) (71) word
+58 59 (mod) edget
+(sikker) (AN) (ANPCSU=IU) (72) word
+59 56 (pred) edget
+(på) (SP) (SP) (73) word
+60 59 (pobj) edget
+(,) (XP) (XP) (74) word
+61 60 (pnct) edget
+(om) (CS) (CS) (75) word
+62 60 (nobj) edget
+(hun) (PP) (PP3CSN-NU) (76) word
+63 64 (subj) edget
+(var) (VA) (VADA=----A-) (77) word
+64 62 (vobj) edget
+(enig) (AN) (ANPCSU=IU) (78) word
+65 64 (pred) edget
+(.) (XP) (XP) (79) word
+66 56 (pnct) edget
+(Et) (PI) (PI-NSU--U) (82) word
+67 69 (subj) edget
+67 71 ([subj]) edgeb
+(menneske) (NC) (NCNSU==I) (83) word
+68 67 (nobj) edget
+(måtte) (VA) (VADA=----A-) (84) word
+(da) (RG) (RGU) (85) word
+70 69 (mod) edget
+(være) (VA) (VAF-=----A-) (86) word
+71 69 (vobj) edget
+(mere) (AN) (ANC[CN]SU=IU) (87) word
+72 71 (pred) edget
+(end) (RG) (RGU) (88) word
+73 72 (pobj) edget
+(en) (PI) (PI-CSU--U) (89) word
+74 73 (nobj) edget
+(maskine) (NC) (NCCSU==I) (90) word
+75 74 (nobj) edget
+(?) (XP) (XP) (91) word
+76 69 (pnct) edget
+(Ved) (SP) (SP) (94) word
+77 81 (mod) edget
+(det) (PD) (PD-NSU--U) (95) word
+78 77 (nobj) edget
+(store) (AN) (ANP[CN]SU=DU) (96) word
+79 78 (mod) edget
+(indkøbscenter) (NC) (NCNSU==I) (97) word
+80 78 (nobj) edget
+(var) (VA) (VADA=----A-) (98) word
+(de) (PP) (PP3[CN]PN-NU) (99) word
+82 81 (subj) edget
+82 83 ([subj]) edgeb
+(gået) (VA) (VAPA=S[CN]I[ARU]-U) (100) word
+83 81 (vobj) edget
+(hver) (PI) (PI-CSU--U) (101) word
+84 85 (avobj) edget
+(til) (SP) (SP) (102) word
+85 83 (lobj) edget
+(sit) (PO) (PO3NSUSYU) (103) word
+86 85 (nobj) edget
+(.) (XP) (XP) (104) word
+87 81 (pnct) edget
+(Sofie) (NP) (NP--U==-) (107) word
+88 89 (subj) edget
+88 97 ([subj]) edgeb
+(boede) (VA) (VADA=----A-) (108) word
+(for) (SP) (SP) (109) word
+90 89 (lobj) edget
+(enden) (NC) (NCCSU==D) (110) word
+91 90 (nobj) edget
+(af) (SP) (SP) (111) word
+92 91 (pobj) edget
+(et) (PI) (PI-NSU--U) (112) word
+93 92 (nobj) edget
+(vidtstrakt) (AN) (ANP[CN]SU=IU) (113) word
+94 93 (mod) edget
+(parcelhuskvarter) (NC) (NCNSU==I) (114) word
+95 93 (nobj) edget
+(og) (CC) (CC) (115) word
+96 89 (coord) edget
+(havde) (VA) (VADA=----A-) (116) word
+97 96 (conj) edget
+(næsten) (RG) (RGU) (117) word
+98 99 (mod) edget
+(dobbelt) (AN) (ANP---=-R) (118) word
+99 100 (mod) edget
+(så) (RG) (RGU) (119) word
+100 101 (mod) edget
+(lang) (AN) (ANPCSU=IU) (120) word
+101 102 (mod) edget
+(skolevej) (NC) (NCCSU==I) (121) word
+102 97 (dobj) edget
+(som) (U=) (U=) (122) word
+103 100 (pobj) edget
+(Jorunn) (NP) (NP--U==-) (123) word
+104 103 (nobj) edget
+(.) (XP) (XP) (124) word
+105 89 (pnct) edget
+(Det) (PP) (PP3NSU-NU) (127) word
+106 107 (subj) edget
+(var) (VA) (VADA=----A-) (128) word
+(som) (U=) (U=) (129) word
+108 107 (pred) edget
+(om) (CS) (CS) (130) word
+109 108 (nobj) edget
+(huset) (NC) (NCNSU==D) (131) word
+110 111 (subj) edget
+(lå) (VA) (VADA=----A-) (132) word
+111 109 (vobj) edget
+(ved) (SP) (SP) (133) word
+112 111 (mod) edget
+(verdens) (NC) (NCCSG==I) (134) word
+113 112 (nobj) edget
+(ende) (NC) (NCCSU==I) (135) word
+114 113 (possd) edget
+(,) (XP) (XP) (136) word
+115 107 (pnct) edget
+(for) (CC) (CC) (137) word
+116 107 (mod) edget
+(bag) (SP) (SP) (138) word
+117 121 (mod) edget
+(ved) (SP) (SP) (139) word
+118 117 (pobj) edget
+(hendes) (PO) (PO3[CN][SP]USNU) (140) word
+119 118 (nobj) edget
+(have) (NC) (NCCSU==I) (141) word
+120 119 (possd) edget
+(var) (VA) (VADA=----A-) (142) word
+121 116 (vobj) edget
+(der) (U=) (U=) (143) word
+122 121 (expl) edget
+(ingen) (PI) (PI-CSU--U) (144) word
+123 121 (dobj) edget
+(andre) (PI) (PI-[CN]PU--U) (145) word
+124 123 (nobj) edget
+(huse) (NC) (NCNPU==I) (146) word
+125 124 (nobj) edget
+(.) (XP) (XP) (147) word
+126 107 (pnct) edget
+(Her) (RG) (RGU) (150) word
+127 128 (mod) edget
+(begyndte) (VA) (VADA=----A-) (151) word
+(den) (PD) (PD-CSU--U) (152) word
+129 128 (subj) edget
+(dybe) (AN) (ANP[CN]SU=DU) (153) word
+130 129 (mod) edget
+(skov) (NC) (NCCSU==I) (154) word
+131 129 (nobj) edget
+(.) (XP) (XP) (155) word
+132 128 (pnct) edget
+(Nu) (RG) (RGU) (158) word
+133 134 (mod) edget
+(drejede) (VA) (VADA=----A-) (159) word
+(hun) (PP) (PP3CSN-NU) (160) word
+135 134 (subj) edget
+(ind) (RG) (RGU) (161) word
+136 134 (lobj) edget
+(på) (SP) (SP) (162) word
+137 136 (mod) edget
+(Kløvervejen) (NP) (NP--U==-) (163) word
+138 137 (nobj) edget
+(.) (XP) (XP) (164) word
+139 134 (pnct) edget
+(Helt) (AN) (ANP---=-R) (167) word
+140 141 (mod) edget
+(inderst) (AN) (ANP---=-R) (168) word
+141 142 (mod) edget
+(slog) (VA) (VADA=----A-) (169) word
+(vejen) (NC) (NCCSU==D) (170) word
+143 142 (subj) edget
+(et) (PI) (PI-NSU--U) (171) word
+144 142 (dobj) edget
+(brat) (AN) (ANP---=-R) (172) word
+145 144 (mod) edget
+(sving) (NC) (NCNSU==I) (173) word
+146 144 (nobj) edget
+(,) (XP) (XP) (174) word
+147 144 (pnct) edget
+(der) (U=) (U=) (175) word
+148 144 (ref) edgeb
+148 150 (subj) edget
+(gerne) (RG) (RGU) (176) word
+149 150 (mod) edget
+(kaldtes) (VA) (VADA=----P-) (177) word
+150 144 (rel) edget
+(») (XP) (XP) (178) word
+151 152 (pnct) edget
+(Kaptajnsvinget) (NP) (NP--U==-) (179) word
+152 150 (qobj) edget
+(«) (XP) (XP) (180) word
+153 152 (pnct) edget
+(.) (XP) (XP) (181) word
+154 142 (pnct) edget
+(Det) (PP) (PP3NSU-NU) (184) word
+155 156 (subj) edget
+(var) (VA) (VADA=----A-) (185) word
+(næsten) (RG) (RGU) (186) word
+157 158 (mod) edget
+(kun) (RG) (RGU) (187) word
+158 156 (mod) edget
+(om) (SP) (SP) (188) word
+159 156 (pred) edget
+(lørdagen) (NC) (NCCSU==D) (189) word
+160 159 (nobj) edget
+(og) (CC) (CC) (190) word
+161 160 (coord) edget
+(søndagen) (NC) (NCCSU==D) (191) word
+162 161 (conj) edget
+(,) (XP) (XP) (192) word
+163 156 (pnct) edget
+(at) (CS) (CS) (193) word
+164 155 (nobj) edget
+(der) (U=) (U=) (194) word
+165 166 (expl) edget
+(kom) (VA) (VADA=----A-) (195) word
+166 164 (vobj) edget
+(andre) (PI) (PI-[CN]PU--U) (196) word
+167 166 (dobj) edget
+(mennesker) (NC) (NCNPU==I) (197) word
+168 167 (nobj) edget
+(her) (RG) (RGU) (198) word
+169 166 (mod) edget
+(.) (XP) (XP) (199) word
+170 166 (pnct) edget
+(Det) (PP) (PP3NSU-NU) (202) word
+171 172 (subj) edget
+(var) (VA) (VADA=----A-) (203) word
+(en) (PI) (PI-CSU--U) (204) word
+173 172 (pred) edget
+(af) (SP) (SP) (205) word
+174 173 (pobj) edget
+(de) (PD) (PD-[CN]PU--U) (206) word
+175 174 (nobj) edget
+(første) (AN) (ANP[CN][SP]U=[DI]U) (207) word
+176 175 (mod) edget
+(dage) (NC) (NCCPU==I) (208) word
+177 175 (nobj) edget
+(i) (SP) (SP) (209) word
+178 175 (mod) edget
+(maj) (NC) (NCCSU==I) (210) word
+179 178 (nobj) edget
+(.) (XP) (XP) (211) word
+180 172 (pnct) edget
+(I) (SP) (SP) (214) word
+181 185 (mod) edget
+(nogle) (PI) (PI-[CN]PU--U) (215) word
+182 181 (nobj) edget
+(af) (SP) (SP) (216) word
+183 182 (pobj) edget
+(haverne) (NC) (NCCPU==D) (217) word
+184 183 (nobj) edget
+(stod) (VA) (VADA=----A-) (218) word
+(der) (U=) (U=) (219) word
+186 185 (expl) edget
+(tætte) (AN) (ANP[CN]PU=[DI]U) (220) word
+187 188 (mod) edget
+(kranse) (NC) (NCCPU==I) (221) word
+188 185 (dobj) edget
+(af) (SP) (SP) (222) word
+189 188 (pobj) edget
+(påskeliljer) (NC) (NCCPU==I) (223) word
+190 189 (nobj) edget
+(under) (SP) (SP) (224) word
+191 185 (mod) edget
+(frugttræerne) (NC) (NCNPU==D) (225) word
+192 191 (nobj) edget
+(.) (XP) (XP) (226) word
+193 185 (pnct) edget
+(Birkene) (NC) (NCCPU==D) (229) word
+194 195 (subj) edget
+(stod) (VA) (VADA=----A-) (230) word
+(allerede) (RG) (RGU) (231) word
+196 195 (mod) edget
+(med) (SP) (SP) (232) word
+197 195 (mod) edget
+(spæde) (AN) (ANP[CN]SU=DU) (233) word
+198 200 (mod) edget
+(grønne) (AN) (ANP[CN]PU=[DI]U) (234) word
+199 200 (mod) edget
+(blade) (NC) (NCNPU==I) (235) word
+200 197 (nobj) edget
+(.) (XP) (XP) (236) word
+201 195 (pnct) edget
+(Var) (VA) (VADA=----A-) (239) word
+(det) (PP) (PP3NSU-NU) (240) word
+203 202 (subj) edget
+(ikke) (RG) (RGU) (241) word
+204 202 (mod) edget
+(mærkeligt) (AN) (ANP---=-R) (242) word
+205 202 (pred) edget
+(,) (XP) (XP) (243) word
+206 202 (pnct) edget
+(hvordan) (RG) (RGU) (244) word
+207 203 (nobj) edget
+207 210 ([mod]) edgeb
+(alt) (RG) (RGU) (245) word
+208 210 (subj) edget
+208 212 ([subj]) edgeb
+(bare) (RG) (RGU) (246) word
+209 210 (mod) edget
+(begyndte) (VA) (VADA=----A-) (247) word
+210 207 (rel) edget
+(at) (U=) (U=) (248) word
+211 210 (dobj) edget
+(gro) (VA) (VAF-=----A-) (249) word
+212 211 (vobj) edget
+(på) (SP) (SP) (250) word
+213 210 (mod) edget
+(denne) (PD) (PD-CSU--U) (251) word
+214 213 (nobj) edget
+(årstid) (NC) (NCNSU==I) (252) word
+215 214 (nobj) edget
+(?) (XP) (XP) (253) word
+216 202 (pnct) edget
+(Hvad) (PT) (PT-[CN]SU--U) (256) word
+217 218 (pred) edget
+(var) (VA) (VADA=----A-) (257) word
+(det) (PP) (PP3NSU-NU) (258) word
+219 218 (subj) edget
+(der) (U=) (U=) (259) word
+220 219 (ref) edgeb
+220 221 (subj) edget
+(gjorde) (VA) (VADA=----A-) (260) word
+221 219 (rel) edget
+(,) (XP) (XP) (261) word
+222 221 (pnct) edget
+(at) (CS) (CS) (262) word
+223 221 (dobj) edget
+(kilo) (NC) (NCNSU==I) (263) word
+224 231 (subj) edget
+224 232 ([subj]) edgeb
+(efter) (SP) (SP) (264) word
+225 224 (mod) edget
+(kilo) (NC) (NCNSU==I) (265) word
+226 225 (nobj) edget
+(af) (SP) (SP) (266) word
+227 224 (mod) edget
+(det) (PD) (PD-NSU--U) (267) word
+228 227 (nobj) edget
+(grønne) (AN) (ANP[CN]SU=DU) (268) word
+229 228 (mod) edget
+(plantestof) (NC) (NCNSU==I) (269) word
+230 228 (nobj) edget
+(kunne) (VA) (VADA=----A-) (270) word
+231 223 (vobj) edget
+(vælte) (VA) (VAF-=----A-) (271) word
+232 231 (vobj) edget
+(frem) (RG) (RGU) (272) word
+233 232 (lobj) edget
+(fra) (SP) (SP) (273) word
+234 233 (mod) edget
+(den) (PD) (PD-CSU--U) (274) word
+235 234 (nobj) edget
+(livløse) (AN) (ANP[CN]SU=DU) (275) word
+236 235 (mod) edget
+(jord) (NC) (NCCSU==I) (276) word
+237 235 (nobj) edget
+(,) (XP) (XP) (277) word
+238 231 (pnct) edget
+(lige) (RG) (RGU) (278) word
+239 240 (mod) edget
+(så) (RG) (RGU) (279) word
+240 241 (mod) edget
+(snart) (RG) (RGU) (280) word
+241 231 (mod) edget
+241 243 ([mod]) edgeb
+(det) (PP) (PP3NSU-NU) (281) word
+242 243 (subj) edget
+(blev) (VA) (VADA=----A-) (282) word
+243 241 (rel) edget
+(varmt) (AN) (ANPNSU=IU) (283) word
+244 243 (pred) edget
+(nok) (RG) (RGU) (284) word
+245 244 (mod) edget
+(i) (SP) (SP) (285) word
+246 244 (mod) edget
+(vejret) (NC) (NCNSU==D) (286) word
+247 246 (nobj) edget
+(og) (CC) (CC) (287) word
+248 243 (coord) edget
+(de) (PD) (PD-[CN]PU--U) (288) word
+249 254 (subj) edget
+(sidste) (AN) (ANP[CN][SP]U=[DI]U) (289) word
+250 249 (mod) edget
+(rester) (NC) (NCCPU==I) (290) word
+251 249 (nobj) edget
+(af) (SP) (SP) (291) word
+252 251 (pobj) edget
+(sne) (NC) (NCCSU==I) (292) word
+253 252 (nobj) edget
+(var) (VA) (VADA=----A-) (293) word
+254 248 (conj) edget
+(væk) (RG) (RGU) (294) word
+255 254 (pred) edget
+(?) (XP) (XP) (295) word
+256 218 (pnct) edget
+(Sofie) (NP) (NP--U==-) (298) word
+257 258 (subj) edget
+(kikkede) (VA) (VADA=----A-) (299) word
+(i) (SP) (SP) (300) word
+259 258 (lobj) edget
+(postkassen) (NC) (NCCSU==D) (301) word
+260 259 (nobj) edget
+(,) (XP) (XP) (302) word
+261 258 (pnct) edget
+(da) (CS) (CS) (303) word
+262 258 (mod) edget
+(hun) (PP) (PP3CSN-NU) (304) word
+263 264 (subj) edget
+(åbnede) (VA) (VADA=----A-) (305) word
+264 262 (vobj) edget
+(lågen) (NC) (NCCSU==D) (306) word
+265 264 (dobj) edget
+(ind) (RG) (RGU) (307) word
+266 265 (mod) edget
+(til) (SP) (SP) (308) word
+267 266 (mod) edget
+(sin) (PO) (PO3CSUSYU) (309) word
+268 267 (nobj) edget
+(egen) (AN) (ANPCSU=[DI]U) (310) word
+269 268 (mod) edget
+(have) (NC) (NCCSU==I) (311) word
+270 268 (possd) edget
+(.) (XP) (XP) (312) word
+271 258 (pnct) edget
+(Som) (U=) (U=) (315) word
+272 274 (mod) edget
+(regel) (NC) (NCCSU==I) (316) word
+273 272 (nobj) edget
+(var) (VA) (VADA=----A-) (317) word
+(der) (U=) (U=) (318) word
+275 274 (expl) edget
+(en) (PI) (PI-CSU--U) (319) word
+276 274 (dobj) edget
+(masse) (NC) (NCCSU==I) (320) word
+277 276 (nobj) edget
+(reklamer) (NC) (NCCPU==I) (321) word
+278 277 (nobj) edget
+(plus) (RG) (RGU) (322) word
+279 276 (coord) edget
+(nogle) (PI) (PI-[CN]PU--U) (323) word
+280 279 (conj) edget
+(store) (AN) (ANP[CN]PU=[DI]U) (324) word
+281 280 (mod) edget
+(konvolutter) (NC) (NCCPU==I) (325) word
+282 280 (nobj) edget
+(til) (SP) (SP) (326) word
+283 274 (mod) edget
+(moren) (NC) (NCCSU==D) (327) word
+284 283 (nobj) edget
+(.) (XP) (XP) (328) word
+285 274 (pnct) edget
+(Hun) (PP) (PP3CSN-NU) (331) word
+286 287 (subj) edget
+286 289 ([subj]) edgeb
+(plejede) (VA) (VADA=----A-) (332) word
+(at) (U=) (U=) (333) word
+288 287 (dobj) edget
+(lægge) (VA) (VAF-=----A-) (334) word
+289 288 (vobj) edget
+(en) (PI) (PI-CSU--U) (335) word
+290 289 (dobj) edget
+(tyk) (AN) (ANPCSU=IU) (336) word
+291 290 (mod) edget
+(stak) (NC) (NCCSU==I) (337) word
+292 290 (nobj) edget
+(på) (SP) (SP) (338) word
+293 289 (lobj) edget
+(køkkenbordet) (NC) (NCNSU==D) (339) word
+294 293 (nobj) edget
+(,) (XP) (XP) (340) word
+295 289 (pnct) edget
+(inden) (CS) (CS) (341) word
+296 289 (mod) edget
+(hun) (PP) (PP3CSN-NU) (342) word
+297 298 (subj) edget
+297 304 ([subj]) edgeb
+(gik) (VA) (VADA=----A-) (343) word
+298 296 (vobj) edget
+(op) (RG) (RGU) (344) word
+299 298 (lobj) edget
+(på) (SP) (SP) (345) word
+300 299 (mod) edget
+(sit) (PO) (PO3NSUSYU) (346) word
+301 300 (nobj) edget
+(værelse) (NC) (NCNSU==I) (347) word
+302 301 (possd) edget
+(og) (CC) (CC) (348) word
+303 298 (coord) edget
+(begyndte) (VA) (VADA=----A-) (349) word
+304 303 (conj) edget
+(på) (SP) (SP) (350) word
+305 304 (pobj) edget
+(sine) (PO) (PO3[CN]PUSYU) (351) word
+306 305 (nobj) edget
+(lektier) (NC) (NCCPU==I) (352) word
+307 306 (possd) edget
+(.) (XP) (XP) (353) word
+308 287 (pnct) edget
+(Til) (SP) (SP) (356) word
+309 311 (mod) edget
+(faren) (NC) (NCCSU==D) (357) word
+310 309 (nobj) edget
+(kom) (VA) (VADA=----A-) (358) word
+(der) (U=) (U=) (359) word
+312 311 (expl) edget
+(kun) (RG) (RGU) (360) word
+313 311 (mod) edget
+(nogle) (PI) (PI-[CN]PU--U) (361) word
+314 311 (dobj) edget
+(bankbreve) (NC) (NCNPU==I) (362) word
+315 314 (nobj) edget
+(en) (PI) (PI-CSU--U) (363) word
+316 311 (mod) edget
+(gang) (NC) (NCCSU==I) (364) word
+317 316 (nobj) edget
+(imellem) (RG) (RGU) (365) word
+318 317 (mod) edget
+(,) (XP) (XP) (366) word
+319 311 (pnct) edget
+(men) (CC) (CC) (367) word
+320 311 (coord) edget
+(nu) (RG) (RGU) (368) word
+321 322 (mod) edget
+(var) (VA) (VADA=----A-) (369) word
+322 320 (conj) edget
+(han) (PP) (PP3CSN-NU) (370) word
+323 322 (subj) edget
+(heller) (RG) (RGU) (371) word
+324 325 (mod) edget
+(ikke) (RG) (RGU) (372) word
+325 322 (mod) edget
+(nogen) (PI) (PI-CSU--U) (373) word
+326 322 (pred) edget
+(helt) (AN) (ANP---=-R) (374) word
+327 328 (mod) edget
+(almindelig) (AN) (ANPCSU=IU) (375) word
+328 326 (mod) edget
+(far) (NC) (NCCSU==I) (376) word
+329 326 (nobj) edget
+(.) (XP) (XP) (377) word
+330 311 (pnct) edget
+(Sofies) (NP) (NP--G==-) (380) word
+331 333 (subj) edget
+331 340 ([subj]) edgeb
+331 341 ([subj]) edgeb
+(far) (NC) (NCCSU==I) (381) word
+332 331 (possd) edget
+(var) (VA) (VADA=----A-) (382) word
+(kaptajn) (NC) (NCCSU==I) (383) word
+334 333 (pred) edget
+(på) (SP) (SP) (384) word
+335 334 (pobj) edget
+(en) (PI) (PI-CSU--U) (385) word
+336 335 (nobj) edget
+(stor) (AN) (ANPCSU=IU) (386) word
+337 336 (mod) edget
+(tankbåd) (NC) (NCCSU==I) (387) word
+338 336 (nobj) edget
+(og) (CC) (CC) (388) word
+339 333 (coord) edget
+(var) (VA) (VADA=----A-) (389) word
+340 339 (conj) edget
+(bortrejst) (VA) (VAPA=S[CN]I[ARU]-U) (390) word
+341 340 (vobj) edget
+(det) (PD) (PD-NSU--U) (391) word
+342 340 (mod) edget
+(meste) (AN) (ANS[CN]SU=DU) (392) word
+343 342 (nobj) edget
+(af) (SP) (SP) (393) word
+344 343 (pobj) edget
+(året) (NC) (NCNSU==D) (394) word
+345 344 (nobj) edget
+(.) (XP) (XP) (395) word
+346 333 (pnct) edget
+(Når) (CS) (CS) (398) word
+347 356 (mod) edget
+(han) (PP) (PP3CSN-NU) (399) word
+348 349 (subj) edget
+(var) (VA) (VADA=----A-) (400) word
+349 347 (vobj) edget
+(hjemme) (RG) (RGU) (401) word
+350 349 (pred) edget
+(nogle) (PI) (PI-[CN]PU--U) (402) word
+351 349 (mod) edget
+(uger) (NC) (NCCPU==I) (403) word
+352 351 (nobj) edget
+(ad) (SP) (SP) (404) word
+353 351 (mod) edget
+(gangen) (NC) (NCCSU==D) (405) word
+354 353 (nobj) edget
+(,) (XP) (XP) (406) word
+355 349 (pnct) edget
+(tøflede) (VA) (VADA=----A-) (407) word
+(han) (PP) (PP3CSN-NU) (408) word
+357 356 (subj) edget
+357 362 ([subj]) edgeb
+(omkring) (RG) (RGU) (409) word
+358 356 (lobj) edget
+(i) (SP) (SP) (410) word
+359 358 (mod) edget
+(huset) (NC) (NCNSU==D) (411) word
+360 359 (nobj) edget
+(og) (CC) (CC) (412) word
+361 356 (coord) edget
+(hyggede) (VA) (VADA=----A-) (413) word
+362 361 (conj) edget
+(om) (SP) (SP) (414) word
+363 362 (pobj) edget
+(Sofie) (NP) (NP--U==-) (415) word
+364 363 (nobj) edget
+(og) (CC) (CC) (416) word
+365 364 (coord) edget
+(moren) (NC) (NCCSU==D) (417) word
+366 365 (conj) edget
+(.) (XP) (XP) (418) word
+367 356 (pnct) edget
+(Men) (CC) (CC) (421) word
+(når) (CS) (CS) (422) word
+369 376 (mod) edget
+(han) (PP) (PP3CSN-NU) (423) word
+370 371 (subj) edget
+(var) (VA) (VADA=----A-) (424) word
+371 369 (vobj) edget
+(ude) (RG) (RGU) (425) word
+372 371 (pred) edget
+(at) (U=) (U=) (426) word
+373 372 (nobj) edget
+(sejle) (VA) (VAF-=----A-) (427) word
+374 373 (vobj) edget
+(,) (XP) (XP) (428) word
+375 371 (pnct) edget
+(kunne) (VA) (VADA=----A-) (429) word
+376 368 (conj) edget
+(han) (PP) (PP3CSN-NU) (430) word
+377 376 (subj) edget
+377 379 ([subj]) edgeb
+(godt) (AN) (ANP---=-R) (431) word
+378 376 (mod) edget
+(forekomme) (VA) (VAF-=----A-) (432) word
+379 376 (vobj) edget
+(temmelig) (RG) (RGU) (433) word
+380 381 (mod) edget
+(fjern) (AN) (ANPCSU=IU) (434) word
+381 379 (pred) edget
+(.) (XP) (XP) (435) word
+382 376 (pnct) edget
+(I) (SP) (SP) (438) word
+383 385 (mod) edget
+(dag) (NC) (NCCSU==I) (439) word
+384 383 (nobj) edget
+(var) (VA) (VADA=----A-) (440) word
+(der) (U=) (U=) (441) word
+386 385 (expl) edget
+(kun) (RG) (RGU) (442) word
+387 385 (mod) edget
+(et) (PI) (PI-NSU--U) (443) word
+388 385 (dobj) edget
+(lille) (AN) (ANP[CN]SU=[DI]U) (444) word
+389 388 (mod) edget
+(brev) (NC) (NCNSU==I) (445) word
+390 388 (nobj) edget
+(i) (SP) (SP) (446) word
+391 385 (mod) edget
+(postkassen) (NC) (NCCSU==D) (447) word
+392 391 (nobj) edget
+(-) (XP) (XP) (448) word
+393 385 (pnct) edget
+(og) (CC) (CC) (449) word
+394 385 (coord) edget
+(det) (PP) (PP3NSU-NU) (450) word
+395 396 (subj) edget
+(var) (VA) (VADA=----A-) (451) word
+396 394 (conj) edget
+(til) (SP) (SP) (452) word
+397 396 (pred) edget
+(Sofie) (NP) (NP--U==-) (453) word
+398 397 (nobj) edget
+(.) (XP) (XP) (454) word
+399 385 (pnct) edget
+(») (XP) (XP) (457) word
+400 402 (pnct) edget
+(Sofie) (NP) (NP--U==-) (458) word
+401 402 (namef) edget
+(Amundsen) (NP) (NP--U==-) (459) word
+402 404 (dobj) edget
+(«) (XP) (XP) (460) word
+403 402 (pnct) edget
+(stod) (VA) (VADA=----A-) (461) word
+(der) (U=) (U=) (462) word
+405 404 (expl) edget
+(på) (SP) (SP) (463) word
+406 404 (mod) edget
+(den) (PD) (PD-CSU--U) (464) word
+407 406 (nobj) edget
+(lille) (AN) (ANP[CN]SU=[DI]U) (465) word
+408 407 (mod) edget
+(konvolut) (NC) (NCCSU==D) (466) word
+409 407 (nobj) edget
+(.) (XP) (XP) (467) word
+410 404 (pnct) edget
+(») (XP) (XP) (470) word
+411 412 (pnct) edget
+(Kløvervejen) (NP) (NP--U==-) (471) word
+(3) (AC) (AC---U=--) (472) word
+413 412 (name) edget
+(«) (XP) (XP) (473) word
+414 412 (pnct) edget
+(.) (XP) (XP) (474) word
+415 412 (pnct) edget
+(Det) (PP) (PP3NSU-NU) (477) word
+416 417 (subj) edget
+(var) (VA) (VADA=----A-) (478) word
+(alt) (RG) (RGU) (479) word
+418 417 (pred) edget
+(,) (XP) (XP) (480) word
+419 417 (pnct) edget
+(der) (U=) (U=) (481) word
+420 421 (expl) edget
+(stod) (VA) (VADA=----A-) (482) word
+421 417 (conj) edget
+(ikke) (RG) (RGU) (483) word
+422 421 (mod) edget
+(hvem) (PT) (PT-C[SP]U--U) (484) word
+423 421 (dobj) edget
+423 426 ([nobj]) edgeb
+(brevet) (NC) (NCNSU==D) (485) word
+424 425 (subj) edget
+(var) (VA) (VADA=----A-) (486) word
+425 423 (rel) edget
+(fra) (SP) (SP) (487) word
+426 425 (pred) edget
+(.) (XP) (XP) (488) word
+427 417 (pnct) edget
+(Der) (U=) (U=) (491) word
+428 429 (expl) edget
+(var) (VA) (VADA=----A-) (492) word
+(ikke) (RG) (RGU) (493) word
+430 431 (mod) edget
+(engang) (RG) (RGU) (494) word
+431 429 (mod) edget
+(noget) (PI) (PI-NSU--U) (495) word
+432 429 (dobj) edget
+(frimærke) (NC) (NCNSU==I) (496) word
+433 432 (nobj) edget
+(på) (RG) (RGU) (497) word
+434 432 (mod) edget
+(.) (XP) (XP) (498) word
+435 429 (pnct) edget
+(Så) (CS) (CS) (501) word
+436 437 (mod) edget
+(snart) (RG) (RGU) (502) word
+437 439 ([mod]) edgeb
+437 445 (mod) edget
+(Sofie) (NP) (NP--U==-) (503) word
+438 439 (subj) edget
+438 440 ([subj]) edgeb
+(havde) (VA) (VADA=----A-) (504) word
+439 437 (rel) edget
+(lukket) (VA) (VAPA=S[CN]I[ARU]-U) (505) word
+440 439 (vobj) edget
+(lågen) (NC) (NCCSU==D) (506) word
+441 440 (dobj) edget
+(bag) (SP) (SP) (507) word
+442 441 (mod) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (508) word
+443 442 (nobj) edget
+(,) (XP) (XP) (509) word
+444 439 (pnct) edget
+(åbnede) (VA) (VADA=----A-) (510) word
+(hun) (PP) (PP3CSN-NU) (511) word
+446 445 (subj) edget
+(konvolutten) (NC) (NCCSU==D) (512) word
+447 445 (dobj) edget
+(.) (XP) (XP) (513) word
+448 445 (pnct) edget
+(Det) (PD) (PD-NSU--U) (516) word
+449 453 ([dobj]) edgeb
+449 455 (subj) edget
+(eneste) (AN) (ANP[CN][SP]U=[DI]U) (517) word
+450 449 (mod) edget
+(,) (XP) (XP) (518) word
+451 449 (pnct) edget
+(hun) (PP) (PP3CSN-NU) (519) word
+452 453 (subj) edget
+(fandt) (VA) (VADA=----A-) (520) word
+453 449 (rel) edget
+(,) (XP) (XP) (521) word
+454 453 (pnct) edget
+(var) (VA) (VADA=----A-) (522) word
+(en) (PI) (PI-CSU--U) (523) word
+456 455 (pred) edget
+(ganske) (RG) (RGU) (524) word
+457 458 (mod) edget
+(lille) (AN) (ANP[CN]SU=[DI]U) (525) word
+458 456 (mod) edget
+(seddel) (NC) (NCCSU==I) (526) word
+459 456 (nobj) edget
+(,) (XP) (XP) (527) word
+460 456 (pnct) edget
+(ikke) (RG) (RGU) (528) word
+461 462 (mod) edget
+(større) (AN) (ANC[CN][SP]U=[DI]U) (529) word
+462 458 (appa) edget
+(end) (RG) (RGU) (530) word
+463 462 (pobj) edget
+(konvolutten) (NC) (NCCSU==D) (531) word
+464 463 (nobj) edget
+464 467 ([nobj]) edgeb
+(den) (PP) (PP3CSU-NU) (532) word
+465 466 (subj) edget
+(lå) (VA) (VADA=----A-) (533) word
+466 464 (rel) edget
+(i) (SP) (SP) (534) word
+467 466 (lobj) edget
+(.) (XP) (XP) (535) word
+468 455 (pnct) edget
+(På) (SP) (SP) (538) word
+469 471 (mod) edget
+(seddelen) (NC) (NCCSU==D) (539) word
+470 469 (nobj) edget
+(stod) (VA) (VADA=----A-) (540) word
+(der) (U=) (U=) (541) word
+472 471 (expl) edget
+(:) (XP) (XP) (542) word
+473 471 (pnct) edget
+(Hvem) (PT) (PT-C[SP]U--U) (543) word
+474 475 (pred) edget
+(er) (VA) (VADR=----A-) (544) word
+475 471 (qobj) edget
+(du) (PP) (PP2CSN-NU) (545) word
+476 475 (subj) edget
+(?) (XP) (XP) (546) word
+477 475 (pnct) edget
+(Der) (U=) (U=) (549) word
+478 479 (expl) edget
+(stod) (VA) (VADA=----A-) (550) word
+(ikke) (RG) (RGU) (551) word
+480 479 (mod) edget
+(mere) (AN) (ANC[CN]SU=IU) (552) word
+481 479 (dobj) edget
+(.) (XP) (XP) (553) word
+482 479 (pnct) edget
+(Den) (PD) (PD-CSU--U) (556) word
+483 487 (subj) edget
+(lille) (AN) (ANP[CN]SU=[DI]U) (557) word
+484 483 (mod) edget
+(lap) (NC) (NCCSU==I) (558) word
+485 483 (nobj) edget
+(papir) (NC) (NCNSU==I) (559) word
+486 485 (nobj) edget
+(havde) (--) (--) (560) word
+(ingen) (PI) (PI-CSU--U) (561) word
+488 487 (dobj) edget
+(hilsen) (NC) (NCCSU==I) (562) word
+489 488 (nobj) edget
+(eller) (CC) (CC) (563) word
+490 489 (coord) edget
+(afsender) (NC) (NCCSU==I) (564) word
+491 490 (conj) edget
+(,) (XP) (XP) (565) word
+492 487 (pnct) edget
+(kun) (--) (--) (566) word
+493 487 (<mod>) edget
+(de) (--) (--) (567) word
+494 487 (<dobj>) edget
+(tre) (AC) (AC---U=--) (568) word
+495 494 (nobj) edget
+(ord) (NC) (NCNPU==I) (569) word
+496 495 (nobj) edget
+(,) (XP) (XP) (570) word
+497 494 (pnct) edget
+(der) (U=) (U=) (571) word
+498 494 (ref) edgeb
+498 499 (subj) edget
+498 500 ([subj]) edgeb
+(var) (VA) (VADA=----A-) (572) word
+499 494 (rel) edget
+(skrevet) (VA) (VAPA=S[CN]I[ARU]-U) (573) word
+500 499 (vobj) edget
+(i) (SP) (SP) (574) word
+501 500 (mod) edget
+(hånden) (NC) (NCCSU==D) (575) word
+502 501 (nobj) edget
+(med) (SP) (SP) (576) word
+503 500 (mod) edget
+(et) (PI) (PI-NSU--U) (577) word
+504 503 (nobj) edget
+(stort) (AN) (ANPNSU=IU) (578) word
+505 504 (mod) edget
+(spørgsmålstegn) (NC) (NCNSU==I) (579) word
+506 504 (nobj) edget
+(bagefter) (RG) (RGU) (580) word
+507 503 (pred) edget
+(.) (XP) (XP) (581) word
+508 487 (pnct) edget
+(Hun) (PP) (PP3CSN-NU) (584) word
+509 510 (subj) edget
+(så) (VA) (VADA=----A-) (585) word
+(igen) (RG) (RGU) (586) word
+511 510 (mod) edget
+(på) (SP) (SP) (587) word
+512 510 (pobj) edget
+(konvolutten) (NC) (NCCSU==D) (588) word
+513 512 (nobj) edget
+(.) (XP) (XP) (589) word
+514 510 (pnct) edget
+(Jo) (I=) (I=) (592) word
+(-) (XP) (XP) (593) word
+516 515 (pnct) edget
+(brevet) (NC) (NCNSU==D) (594) word
+517 518 (subj) edget
+(var) (VA) (VADA=----A-) (595) word
+518 515 (conj) edget
+(til) (SP) (SP) (596) word
+519 518 (pred) edget
+(hende) (PP) (PP3CSU-NU) (597) word
+520 519 (nobj) edget
+(.) (XP) (XP) (598) word
+521 515 (pnct) edget
+(Men) (CC) (CC) (601) word
+(hvem) (PT) (PT-C[SP]U--U) (602) word
+523 524 (subj) edget
+523 525 ([subj]) edgeb
+(havde) (VA) (VADA=----A-) (603) word
+524 522 (conj) edget
+(lagt) (VA) (VAPA=S[CN]I[ARU]-U) (604) word
+525 524 (vobj) edget
+(det) (PD) (PD-NSU--U) (605) word
+526 525 (dobj) edget
+(i) (SP) (SP) (606) word
+527 525 (lobj) edget
+(postkassen) (NC) (NCCSU==D) (607) word
+528 527 (nobj) edget
+(?) (XP) (XP) (608) word
+529 524 (pnct) edget
+(Sofie) (NP) (NP--U==-) (611) word
+530 531 (subj) edget
+530 534 ([subj]) edgeb
+(skyndte) (VA) (VADA=----A-) (612) word
+(sig) (PP) (PP3[CN][SP]U-YU) (613) word
+532 531 (iobj) edget
+(at) (U=) (U=) (614) word
+533 531 (dobj) edget
+(låse) (VA) (VAF-=----A-) (615) word
+534 533 (vobj) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (616) word
+535 534 (iobj) edget
+(ind) (RG) (RGU) (617) word
+536 534 (mod) edget
+(i) (SP) (SP) (618) word
+537 536 (mod) edget
+(det) (PD) (PD-NSU--U) (619) word
+538 537 (nobj) edget
+(røde) (AN) (ANP[CN]SU=DU) (620) word
+539 538 (mod) edget
+(hus) (NC) (NCNSU==I) (621) word
+540 538 (nobj) edget
+(.) (XP) (XP) (622) word
+541 531 (pnct) edget
+(Som) (U=) (U=) (625) word
+542 544 (mod) edget
+(sædvanlig) (AN) (ANPCSU=IU) (626) word
+543 542 (avobj) edget
+(nåede) (VA) (VADA=----A-) (627) word
+(katten) (NC) (NCCSU==D) (628) word
+545 544 (subj) edget
+545 548 ([subj]) edgeb
+545 554 ([subj]) edgeb
+545 559 ([subj]) edgeb
+(Sherekan) (NP) (NP--U==-) (629) word
+546 545 (appr) edget
+(at) (U=) (U=) (630) word
+547 544 (dobj) edget
+(snige) (VA) (VAF-=----A-) (631) word
+548 547 (vobj) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (632) word
+549 548 (iobj) edget
+(frem) (RG) (RGU) (633) word
+550 548 (lobj) edget
+(mellem) (SP) (SP) (634) word
+551 550 (mod) edget
+(buskene) (NC) (NCCPU==D) (635) word
+552 551 (nobj) edget
+(,) (XP) (XP) (636) word
+553 548 (pnct) edget
+(springe) (VA) (VAF-=----A-) (637) word
+554 548 (conj) edget
+(op) (RG) (RGU) (638) word
+555 554 (lobj) edget
+(på) (SP) (SP) (639) word
+556 555 (mod) edget
+(trappeafsatsen) (NC) (NCCSU==D) (640) word
+557 556 (nobj) edget
+(og) (CC) (CC) (641) word
+558 548 (coord) edget
+(smutte) (VA) (VAF-=----A-) (642) word
+559 558 (conj) edget
+(ind) (RG) (RGU) (643) word
+560 559 (lobj) edget
+(gennem) (SP) (SP) (644) word
+561 560 (mod) edget
+(døren) (NC) (NCCSU==D) (645) word
+562 561 (nobj) edget
+(,) (XP) (XP) (646) word
+563 544 (pnct) edget
+(inden) (CS) (CS) (647) word
+564 544 (mod) edget
+(hun) (PP) (PP3CSN-NU) (648) word
+565 566 (subj) edget
+565 567 ([subj]) edgeb
+(havde) (VA) (VADA=----A-) (649) word
+566 564 (vobj) edget
+(lukket) (VA) (VAPA=S[CN]I[ARU]-U) (650) word
+567 566 (vobj) edget
+(den) (PP) (PP3CSU-NU) (651) word
+568 567 (dobj) edget
+(bag) (SP) (SP) (652) word
+569 567 (mod) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (653) word
+570 569 (nobj) edget
+(.) (XP) (XP) (654) word
+571 544 (pnct) edget
+(-) (XP) (XP) (657) word
+572 573 (pnct) edget
+(Mis) (NC) (NCCSU==I) (658) word
+(,) (XP) (XP) (659) word
+574 573 (pnct) edget
+(mis) (NC) (NCCSU==I) (660) word
+575 573 (conj) edget
+(,) (XP) (XP) (661) word
+576 573 (pnct) edget
+(mis) (NC) (NCCSU==I) (662) word
+577 573 (conj) edget
+(!) (XP) (XP) (663) word
+578 573 (pnct) edget
+(Når) (CS) (CS) (666) word
+579 589 (mod) edget
+(Sofies) (NP) (NP--G==-) (667) word
+580 582 (subj) edget
+(mor) (NC) (NCCSU==I) (668) word
+581 580 (possd) edget
+(var) (VA) (VADA=----A-) (669) word
+582 579 (vobj) edget
+(sur) (AN) (ANPCSU=IU) (670) word
+583 582 (pred) edget
+(over) (SP) (SP) (671) word
+584 583 (pobj) edget
+(et) (PI) (PI-NSU--U) (672) word
+585 584 (nobj) edget
+(eller) (CC) (CC) (673) word
+586 585 (coord) edget
+(andet) (PI) (PI-NSU--U) (674) word
+587 586 (conj) edget
+(,) (XP) (XP) (675) word
+588 582 (pnct) edget
+(skete) (VA) (VADA=----A-) (676) word
+(det) (PP) (PP3NSU-NU) (677) word
+590 589 (subj) edget
+(at) (CS) (CS) (678) word
+591 590 (nobj) edget
+(hun) (PP) (PP3CSN-NU) (679) word
+592 593 (subj) edget
+(kaldte) (VA) (VADA=----A-) (680) word
+593 591 (vobj) edget
+(deres) (PO) (PO3[CN][SP]UPNU) (681) word
+594 593 (dobj) edget
+(hus) (NC) (NCNSU==I) (682) word
+595 594 (possd) edget
+(for) (SP) (SP) (683) word
+596 593 (pobj) edget
+(et) (PI) (PI-NSU--U) (684) word
+597 596 (nobj) edget
+(værre) (AN) (ANC[CN][SP]U=[DI]U) (685) word
+598 597 (mod) edget
+(menageri) (NC) (NCNSU==I) (686) word
+599 597 (nobj) edget
+(.) (XP) (XP) (687) word
+600 589 (pnct) edget
+(Et) (PI) (PI-NSU--U) (690) word
+601 603 (subj) edget
+(menageri) (NC) (NCNSU==I) (691) word
+602 601 (nobj) edget
+(er) (VA) (VADR=----A-) (692) word
+(ganske) (RG) (RGU) (693) word
+604 605 (mod) edget
+(vist) (RG) (RGU) (694) word
+605 603 (mod) edget
+(en) (PI) (PI-CSU--U) (695) word
+606 603 (pred) edget
+(samling) (NC) (NCCSU==I) (696) word
+607 606 (nobj) edget
+(dyr) (NC) (NCNPU==I) (697) word
+608 607 (nobj) edget
+(,) (XP) (XP) (698) word
+609 606 (pnct) edget
+(der) (U=) (U=) (699) word
+610 606 (ref) edgeb
+610 611 (subj) edget
+610 612 ([subj]) edgeb
+(bliver) (VA) (VADR=----A-) (700) word
+611 606 (rel) edget
+(ført) (VA) (VAPA=S[CN]I[ARU]-U) (701) word
+612 611 (vobj) edget
+(fra) (SP) (SP) (702) word
+613 612 (lobj) edget
+(sted) (NC) (NCNSU==I) (703) word
+614 613 (nobj) edget
+(til) (SP) (SP) (704) word
+615 613 (mod) edget
+(sted) (NC) (NCNSU==I) (705) word
+616 615 (nobj) edget
+(for) (SP) (SP) (706) word
+617 611 (mod) edget
+(at) (U=) (U=) (707) word
+618 617 (nobj) edget
+(blive) (VA) (VAF-=----A-) (708) word
+619 618 (vobj) edget
+(vist) (VA) (VAPA=S[CN]I[ARU]-U) (709) word
+620 619 (vobj) edget
+(frem) (RG) (RGU) (710) word
+621 620 (part) edget
+(,) (XP) (XP) (711) word
+622 603 (pnct) edget
+(men) (CC) (CC) (712) word
+623 603 (coord) edget
+(Sofie) (NP) (NP--U==-) (713) word
+624 625 (subj) edget
+(havde) (VA) (VADA=----A-) (714) word
+625 623 (conj) edget
+(da) (RG) (RGU) (715) word
+626 625 (mod) edget
+(i) (SP) (SP) (716) word
+627 625 (mod) edget
+(hvert) (PI) (PI-NSU--U) (717) word
+628 629 (mod) edget
+(fald) (NC) (NCNSU==I) (718) word
+629 627 (nobj) edget
+(en) (PI) (PI-CSU--U) (719) word
+630 625 (dobj) edget
+(samling) (NC) (NCCSU==I) (720) word
+631 630 (nobj) edget
+(dyr) (NC) (NCNPU==I) (721) word
+632 631 (nobj) edget
+(,) (XP) (XP) (722) word
+633 625 (pnct) edget
+(og) (CC) (CC) (723) word
+634 625 (coord) edget
+(det) (PP) (PP3NSU-NU) (724) word
+635 641 (nobj) edget
+(var) (VA) (VADA=----A-) (725) word
+636 634 (conj) edget
+(hun) (PP) (PP3CSN-NU) (726) word
+637 636 (subj) edget
+(ganske) (RG) (RGU) (727) word
+638 639 (mod) edget
+(godt) (AN) (ANP---=-R) (728) word
+(tilfreds) (AN) (ANPCSU=IU) (729) word
+640 636 (pred) edget
+640 639 (mod) edget
+(med) (SP) (SP) (730) word
+641 640 (pobj) edget
+(.) (XP) (XP) (731) word
+642 603 (pnct) edget
+(Først) (RG) (RGU) (734) word
+643 644 (mod) edget
+(havde) (VA) (VADA=----A-) (735) word
+(hun) (PP) (PP3CSN-NU) (736) word
+645 644 (subj) edget
+645 646 ([subj]) edgeb
+(fået) (VA) (VAPA=S[CN]I[ARU]-U) (737) word
+646 644 (vobj) edget
+(guldfiskene) (NC) (NCCPU==D) (738) word
+647 646 (dobj) edget
+(Guldtop) (NP) (NP--U==-) (739) word
+648 647 (appr) edget
+(,) (XP) (XP) (740) word
+649 648 (pnct) edget
+(Rødhætte) (NP) (NP--U==-) (741) word
+650 648 (conj) edget
+(og) (CC) (CC) (742) word
+651 648 (coord) edget
+(Sorteper) (NP) (NP--U==-) (743) word
+652 651 (conj) edget
+(.) (XP) (XP) (744) word
+653 644 (pnct) edget
+(Så) (RG) (RGU) (747) word
+654 655 (mod) edget
+(fik) (VA) (VADA=----A-) (748) word
+(hun) (PP) (PP3CSN-NU) (749) word
+656 655 (subj) edget
+(undulaterne) (NC) (NCCPU==D) (750) word
+657 655 (dobj) edget
+(Smit) (NP) (NP--U==-) (751) word
+658 657 (appr) edget
+(og) (CC) (CC) (752) word
+659 658 (coord) edget
+(Smule) (NP) (NP--U==-) (753) word
+660 659 (conj) edget
+(,) (XP) (XP) (754) word
+661 657 (pnct) edget
+(skildpadden) (NC) (NCCSU==D) (755) word
+662 657 (conj) edget
+(Govinda) (NP) (NP--U==-) (756) word
+663 662 (appr) edget
+(og) (CC) (CC) (757) word
+664 657 (coord) edget
+(til) (SP) (SP) (758) word
+665 664 (mod) edget
+(sidst) (RG) (RGU) (759) word
+666 665 (avobj) edget
+(den) (PD) (PD-CSU--U) (760) word
+667 664 (conj) edget
+(gulbrune) (AN) (ANP[CN]SU=DU) (761) word
+668 667 (mod) edget
+(tigerkat) (NC) (NCCSU==I) (762) word
+669 667 (nobj) edget
+(Sherekan) (NP) (NP--U==-) (763) word
+670 667 (appr) edget
+(.) (XP) (XP) (764) word
+671 655 (pnct) edget
+(Alle) (AN) (ANP[CN]PU=[DI]U) (767) word
+672 677 (dobj) edget
+(disse) (PD) (PD-[CN]PU--U) (768) word
+673 672 (nobj) edget
+(dyr) (NC) (NCNPU==I) (769) word
+674 673 (nobj) edget
+(havde) (VA) (VADA=----A-) (770) word
+(hun) (PP) (PP3CSN-NU) (771) word
+676 675 (subj) edget
+676 677 ([subj]) edgeb
+(fået) (VA) (VAPA=S[CN]I[ARU]-U) (772) word
+677 675 (vobj) edget
+(som) (U=) (U=) (773) word
+678 677 (mod) edget
+(en) (PI) (PI-CSU--U) (774) word
+679 678 (nobj) edget
+(slags) (NC) (NCCSU==I) (775) word
+680 679 (nobj) edget
+(erstatning) (NC) (NCCSU==I) (776) word
+681 680 (nobj) edget
+(for) (SP) (SP) (777) word
+682 681 (pobj) edget
+(at) (U=) (U=) (778) word
+683 682 (nobj) edget
+(moren) (NC) (NCCSU==D) (779) word
+684 685 (subj) edget
+(kom) (VA) (VADA=----A-) (780) word
+685 683 (vobj) edget
+(sent) (AN) (ANP---=-R) (781) word
+686 687 (mod) edget
+(hjem) (RG) (RGU) (782) word
+687 685 (lobj) edget
+(fra) (SP) (SP) (783) word
+688 687 (mod) edget
+(arbejdet) (NC) (NCNSU==D) (784) word
+689 688 (nobj) edget
+(og) (CC) (CC) (785) word
+690 685 (coord) edget
+(far) (NC) (NCCSU==I) (786) word
+691 692 (subj) edget
+691 699 ([subj]) edgeb
+(var) (VA) (VADA=----A-) (787) word
+692 690 (conj) edget
+(så) (RG) (RGU) (788) word
+693 694 (mod) edget
+(meget) (AN) (ANP---=-R) (789) word
+694 692 (mod) edget
+(ude) (RG) (RGU) (790) word
+695 692 (pred) edget
+(i) (SP) (SP) (791) word
+696 695 (mod) edget
+(verden) (NC) (NCCSU==I) (792) word
+697 696 (nobj) edget
+(og) (CC) (CC) (793) word
+698 692 (coord) edget
+(sejlede) (VA) (VADA=----A-) (794) word
+699 698 (conj) edget
+(.) (XP) (XP) (795) word
+700 675 (pnct) edget
+(Sofie) (NP) (NP--U==-) (798) word
+701 702 (subj) edget
+701 707 ([subj]) edgeb
+(smed) (VA) (VADA=----A-) (799) word
+(skoletasken) (NC) (NCCSU==D) (800) word
+703 702 (dobj) edget
+(fra) (SP) (SP) (801) word
+704 702 (lobj) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (802) word
+705 704 (nobj) edget
+(og) (CC) (CC) (803) word
+706 702 (coord) edget
+(stillede) (VA) (VADA=----A-) (804) word
+707 706 (conj) edget
+(en) (PI) (PI-CSU--U) (805) word
+708 707 (dobj) edget
+(skål) (NC) (NCCSU==I) (806) word
+709 708 (nobj) edget
+(med) (SP) (SP) (807) word
+710 709 (pobj) edget
+(kattemad) (NC) (NCCSU==I) (808) word
+711 710 (nobj) edget
+(frem) (RG) (RGU) (809) word
+712 707 (lobj) edget
+(til) (SP) (SP) (810) word
+713 712 (mod) edget
+(Sherekan) (NP) (NP--U==-) (811) word
+714 713 (nobj) edget
+(.) (XP) (XP) (812) word
+715 702 (pnct) edget
+(Så) (RG) (RGU) (815) word
+716 717 (mod) edget
+(sank) (VA) (VADA=----A-) (816) word
+(hun) (PP) (PP3CSN-NU) (817) word
+718 717 (subj) edget
+(ned) (RG) (RGU) (818) word
+719 717 (lobj) edget
+(på) (SP) (SP) (819) word
+720 719 (mod) edget
+(en) (PI) (PI-CSU--U) (820) word
+721 720 (nobj) edget
+(taburet) (NC) (NCCSU==I) (821) word
+722 721 (nobj) edget
+(med) (SP) (SP) (822) word
+723 717 (mod) edget
+(det) (PD) (PD-NSU--U) (823) word
+724 723 (nobj) edget
+(mystiske) (AN) (ANP[CN]SU=DU) (824) word
+725 724 (mod) edget
+(brev) (NC) (NCNSU==I) (825) word
+726 724 (nobj) edget
+(i) (SP) (SP) (826) word
+727 723 (pred) edget
+(hånden) (NC) (NCCSU==D) (827) word
+728 727 (nobj) edget
+(.) (XP) (XP) (828) word
+729 717 (pnct) edget
+(Hvem) (PT) (PT-C[SP]U--U) (831) word
+730 731 (pred) edget
+(er) (VA) (VADR=----A-) (832) word
+(du) (PP) (PP2CSN-NU) (833) word
+732 731 (subj) edget
+(?) (XP) (XP) (834) word
+733 731 (pnct) edget
+(Det) (PP) (PP3NSU-NU) (837) word
+734 735 (dobj) edget
+(vidste) (VA) (VADA=----A-) (838) word
+(hun) (PP) (PP3CSN-NU) (839) word
+736 735 (subj) edget
+(skam) (RG) (RGU) (840) word
+737 735 (mod) edget
+(ikke) (RG) (RGU) (841) word
+738 735 (mod) edget
+(.) (XP) (XP) (842) word
+739 735 (pnct) edget
+(Hun) (PP) (PP3CSN-NU) (845) word
+740 741 (subj) edget
+(var) (VA) (VADA=----A-) (846) word
+(naturligvis) (RG) (RGU) (847) word
+742 741 (mod) edget
+(Sofie) (NP) (NP--U==-) (848) word
+743 744 (namef) edget
+(Amundsen) (NP) (NP--U==-) (849) word
+744 741 (pred) edget
+(,) (XP) (XP) (850) word
+745 741 (pnct) edget
+(men) (CC) (CC) (851) word
+746 741 (coord) edget
+(hvem) (PT) (PT-C[SP]U--U) (852) word
+747 748 (pred) edget
+(var) (VA) (VADA=----A-) (853) word
+748 746 (conj) edget
+(det) (PP) (PP3NSU-NU) (854) word
+749 748 (subj) edget
+(?) (XP) (XP) (855) word
+750 748 (pnct) edget
+(Det) (PP) (PP3NSU-NU) (858) word
+751 758 (nobj) edget
+(havde) (VA) (VADA=----A-) (859) word
+(hun) (PP) (PP3CSN-NU) (860) word
+753 752 (subj) edget
+753 756 ([subj]) edgeb
+(ikke) (RG) (RGU) (861) word
+754 755 (mod) edget
+(rigtigt) (AN) (ANP---=-R) (862) word
+755 752 (mod) edget
+(fundet) (VA) (VAPA=S[CN]I[ARU]-U) (863) word
+756 752 (vobj) edget
+(ud) (RG) (RGU) (864) word
+757 756 (avobj) edget
+(af) (SP) (SP) (865) word
+758 757 (pobj) edget
+(-) (XP) (XP) (866) word
+759 752 (pnct) edget
+(endnu) (RG) (RGU) (867) word
+760 752 (mod) edget
+(.) (XP) (XP) (868) word
+761 752 (pnct) edget
+(Hvad) (PT) (PT-[CN]SU--U) (871) word
+(nu) (RG) (RGU) (872) word
+763 762 (avobj) edget
+(hvis) (CS) (CS) (873) word
+764 762 (mod) edget
+(hun) (PP) (PP3CSN-NU) (874) word
+765 766 (subj) edget
+765 767 ([subj]) edgeb
+(havde) (VA) (VADA=----A-) (875) word
+766 764 (vobj) edget
+(heddet) (VA) (VAPA=S[CN]I[ARU]-U) (876) word
+767 766 (vobj) edget
+(noget) (PI) (PI-NSU--U) (877) word
+768 767 (dobj) edget
+(ganske) (RG) (RGU) (878) word
+769 770 (mod) edget
+(andet) (PI) (PI-NSU--U) (879) word
+770 768 (nobj) edget
+(?) (XP) (XP) (880) word
+771 762 (pnct) edget
+(Anne) (NP) (NP--U==-) (883) word
+772 773 (namef) edget
+(Knudsen) (--) (--) (884) word
+(for) (--) (--) (885) word
+774 773 (<mod>) edget
+(eksempel) (NC) (NCNSU==I) (886) word
+775 774 (nobj) edget
+(.) (XP) (XP) (887) word
+776 773 (pnct) edget
+(Ville) (VA) (VADA=----A-) (890) word
+(hun) (PP) (PP3CSN-NU) (891) word
+778 777 (subj) edget
+778 780 ([subj]) edgeb
+778 781 ([subj]) edgeb
+(så) (RG) (RGU) (892) word
+779 777 (mod) edget
+(have) (VA) (VAF-=----A-) (893) word
+780 777 (vobj) edget
+(været) (VA) (VAPA=S[CN]I[ARU]-U) (894) word
+781 780 (vobj) edget
+(en) (PI) (PI-CSU--U) (895) word
+782 781 (pred) edget
+(anden) (PI) (PI-CSU--U) (896) word
+783 782 (nobj) edget
+(?) (XP) (XP) (897) word
+784 777 (pnct) edget
+(Pludselig) (RG) (RGU) (900) word
+785 786 (mod) edget
+(kom) (VA) (VADA=----A-) (901) word
+(hun) (PP) (PP3CSN-NU) (902) word
+787 786 (subj) edget
+(i) (SP) (SP) (903) word
+788 786 (pobj) edget
+(tanke) (NC) (NCCSU==I) (904) word
+789 788 (nobj) edget
+(om) (SP) (SP) (905) word
+790 789 (pobj) edget
+(,) (XP) (XP) (906) word
+791 790 (pnct) edget
+(at) (CS) (CS) (907) word
+792 790 (nobj) edget
+(hendes) (PO) (PO3[CN][SP]USNU) (908) word
+793 795 (subj) edget
+793 796 ([subj]) edgeb
+(far) (NC) (NCCSU==I) (909) word
+794 793 (possd) edget
+(havde) (VA) (VADA=----A-) (910) word
+795 792 (vobj) edget
+(villet) (VA) (VAPA=S[CN]I[ARU]-U) (911) word
+796 795 (vobj) edget
+(,) (XP) (XP) (912) word
+797 796 (pnct) edget
+(at) (CS) (CS) (913) word
+798 796 (dobj) edget
+(hun) (PP) (PP3CSN-NU) (914) word
+799 800 (subj) edget
+799 801 ([subj]) edgeb
+(skulle) (VA) (VADA=----A-) (915) word
+800 798 (vobj) edget
+(hedde) (VA) (VAF-=----A-) (916) word
+801 800 (vobj) edget
+(Synnøve) (NP) (NP--U==-) (917) word
+802 801 (dobj) edget
+(.) (XP) (XP) (918) word
+803 786 (pnct) edget
+(Sofie) (NP) (NP--U==-) (921) word
+804 805 (subj) edget
+(forsøgte) (VA) (VADA=----A-) (922) word
+(at) (U=) (U=) (923) word
+806 805 (dobj) edget
+(forestille) (VA) (VAF-=----A-) (924) word
+807 806 (vobj) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (925) word
+808 807 (iobj) edget
+(,) (XP) (XP) (926) word
+809 807 (pnct) edget
+(at) (CS) (CS) (927) word
+810 807 (dobj) edget
+(hun) (PP) (PP3CSN-NU) (928) word
+811 812 (subj) edget
+811 816 ([subj]) edgeb
+(rakte) (VA) (VADA=----A-) (929) word
+812 810 (vobj) edget
+(hånden) (NC) (NCCSU==D) (930) word
+813 812 (dobj) edget
+(frem) (RG) (RGU) (931) word
+814 812 (lobj) edget
+(og) (CC) (CC) (932) word
+815 812 (coord) edget
+(præsenterede) (VA) (VADA=----A-) (933) word
+816 815 (conj) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (934) word
+817 816 (iobj) edget
+(som) (U=) (U=) (935) word
+818 816 (pobj) edget
+(Synnøve) (NP) (NP--U==-) (936) word
+819 820 (namef) edget
+(Amundsen) (NP) (NP--U==-) (937) word
+820 818 (nobj) edget
+(,) (XP) (XP) (938) word
+821 805 (pnct) edget
+(men) (CC) (CC) (939) word
+822 805 (coord) edget
+(nej) (I=) (I=) (940) word
+823 822 (conj) edget
+(,) (XP) (XP) (941) word
+824 823 (pnct) edget
+(den) (PP) (PP3CSU-NU) (942) word
+825 826 (subj) edget
+(gik) (VA) (VADA=----A-) (943) word
+826 823 (conj) edget
+(altså) (RG) (RGU) (944) word
+827 826 (mod) edget
+(ikke) (RG) (RGU) (945) word
+828 826 (mod) edget
+(.) (XP) (XP) (946) word
+829 805 (pnct) edget
+(Det) (PP) (PP3NSU-NU) (949) word
+830 831 (subj) edget
+(var) (VA) (VADA=----A-) (950) word
+(hele) (AN) (ANP[CN]SU=DU) (951) word
+832 831 (mod) edget
+(tiden) (NC) (NCCSU==D) (952) word
+833 832 (nobj) edget
+(en) (PI) (PI-CSU--U) (953) word
+834 831 (pred) edget
+(ganske) (RG) (RGU) (954) word
+835 836 (mod) edget
+(anden) (PI) (PI-CSU--U) (955) word
+836 834 (nobj) edget
+(pige) (NC) (NCCSU==I) (956) word
+837 836 (nobj) edget
+(,) (XP) (XP) (957) word
+838 831 (pnct) edget
+(der) (U=) (U=) (958) word
+839 830 (ref) edgeb
+839 840 (subj) edget
+(præsenterede) (VA) (VADA=----A-) (959) word
+840 830 (rel) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (960) word
+841 840 (iobj) edget
+(.) (XP) (XP) (961) word
+842 831 (pnct) edget
+(Så) (RG) (RGU) (964) word
+843 844 (mod) edget
+(røg) (VA) (VADA=----A-) (965) word
+(hun) (PP) (PP3CSN-NU) (966) word
+845 844 (subj) edget
+(ud) (RG) (RGU) (967) word
+846 844 (lobj) edget
+(på) (SP) (SP) (968) word
+847 846 (mod) edget
+(gulvet) (NC) (NCNSU==D) (969) word
+848 847 (nobj) edget
+(og) (CC) (CC) (970) word
+849 846 (coord) edget
+(videre) (RG) (RGU) (971) word
+850 851 (mod) edget
+(ind) (RG) (RGU) (972) word
+851 849 (conj) edget
+(i) (SP) (SP) (973) word
+852 851 (mod) edget
+(badeværelset) (NC) (NCNSU==D) (974) word
+853 852 (nobj) edget
+(med) (SP) (SP) (975) word
+854 844 (mod) edget
+(det) (PD) (PD-NSU--U) (976) word
+855 854 (nobj) edget
+(underlige) (AN) (ANP[CN]SU=DU) (977) word
+856 855 (mod) edget
+(brev) (NC) (NCNSU==I) (978) word
+857 855 (nobj) edget
+(i) (SP) (SP) (979) word
+858 854 (pred) edget
+(hånden) (NC) (NCCSU==D) (980) word
+859 858 (nobj) edget
+(.) (XP) (XP) (981) word
+860 844 (pnct) edget
+(Hun) (PP) (PP3CSN-NU) (984) word
+861 862 (subj) edget
+861 867 ([subj]) edgeb
+(stillede) (VA) (VADA=----A-) (985) word
+(sig) (PP) (PP3[CN][SP]U-YU) (986) word
+863 862 (dobj) edget
+(foran) (SP) (SP) (987) word
+864 862 (lobj) edget
+(spejlet) (NC) (NCNSU==D) (988) word
+865 864 (nobj) edget
+(og) (CC) (CC) (989) word
+866 862 (coord) edget
+(stirrede) (VA) (VADA=----A-) (990) word
+867 866 (conj) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (991) word
+868 867 (dobj) edget
+(selv) (RG) (RGU) (992) word
+869 868 (mod) edget
+(ind) (RG) (RGU) (993) word
+870 867 (lobj) edget
+(i) (SP) (SP) (994) word
+871 870 (mod) edget
+(øjnene) (NC) (NCNPU==D) (995) word
+872 871 (nobj) edget
+(.) (XP) (XP) (996) word
+873 862 (pnct) edget
+(-) (XP) (XP) (999) word
+874 876 (pnct) edget
+(Jeg) (PP) (PP1CSN-NU) (1000) word
+875 876 (subj) edget
+(er) (VA) (VADR=----A-) (1001) word
+876 880 (qobj) edget
+(Sofie) (NP) (NP--U==-) (1002) word
+877 878 (namef) edget
+(Amundsen) (NP) (NP--U==-) (1003) word
+878 876 (pred) edget
+(,) (XP) (XP) (1004) word
+879 875 (pnct) edget
+(sagde) (VA) (VADA=----A-) (1005) word
+(hun) (PP) (PP3CSN-NU) (1006) word
+881 880 (subj) edget
+(.) (XP) (XP) (1007) word
+882 880 (pnct) edget
+(Pigen) (NC) (NCCSU==D) (1010) word
+883 886 (subj) edget
+(i) (SP) (SP) (1011) word
+884 883 (mod) edget
+(spejlet) (NC) (NCNSU==D) (1012) word
+885 884 (nobj) edget
+(svarede) (VA) (VADA=----A-) (1013) word
+(ikke) (RG) (RGU) (1014) word
+887 886 (mod) edget
+(med) (SP) (SP) (1015) word
+888 886 (pobj) edget
+(så) (RG) (RGU) (1016) word
+889 890 (mod) edget
+(meget) (AN) (ANP[CN]SU=IU) (1017) word
+890 888 (nobj) edget
+(som) (U=) (U=) (1018) word
+891 889 (pobj) edget
+(en) (PI) (PI-CSU--U) (1019) word
+892 891 (nobj) edget
+(lille) (AN) (ANP[CN]SU=[DI]U) (1020) word
+893 892 (mod) edget
+(grimasse) (NC) (NCCSU==I) (1021) word
+894 892 (nobj) edget
+(.) (XP) (XP) (1022) word
+895 886 (pnct) edget
+(Lige) (RG) (RGU) (1025) word
+896 897 (mod) edget
+(meget) (AN) (ANP---=-R) (1026) word
+897 902 (mod) edget
+(hvad) (PT) (PT-[CN]SU--U) (1027) word
+898 897 (nobj) edget
+898 900 ([dobj]) edgeb
+(Sofie) (NP) (NP--U==-) (1028) word
+899 900 (subj) edget
+(gjorde) (VA) (VADA=----A-) (1029) word
+900 898 (rel) edget
+(,) (XP) (XP) (1030) word
+901 900 (pnct) edget
+(gentog) (VA) (VADA=----A-) (1031) word
+(hun) (PP) (PP3CSN-NU) (1032) word
+903 902 (subj) edget
+(nøjagtig) (AN) (ANP---=-R) (1033) word
+904 905 (mod) edget
+(det) (PD) (PD-NSU--U) (1034) word
+905 902 (dobj) edget
+(samme) (AN) (ANP[CN][SP]U=[DI]U) (1035) word
+906 905 (nobj) edget
+(.) (XP) (XP) (1036) word
+907 902 (pnct) edget
+(Sofie) (NP) (NP--U==-) (1039) word
+908 909 (subj) edget
+(forsøgte) (VA) (VADA=----A-) (1040) word
+(at) (U=) (U=) (1041) word
+910 909 (dobj) edget
+(komme) (VA) (VAF-=----A-) (1042) word
+911 910 (vobj) edget
+(spejlbilledet) (NC) (NCNSU==D) (1043) word
+912 911 (dobj) edget
+(i) (SP) (SP) (1044) word
+913 911 (pobj) edget
+(forkøbet) (NC) (NCNSU==D) (1045) word
+914 913 (nobj) edget
+(med) (SP) (SP) (1046) word
+915 909 (mod) edget
+(en) (PI) (PI-CSU--U) (1047) word
+916 915 (nobj) edget
+(lynsnar) (AN) (ANPCSU=IU) (1048) word
+917 916 (mod) edget
+(bevægelse) (NC) (NCCSU==I) (1049) word
+918 916 (nobj) edget
+(,) (XP) (XP) (1050) word
+919 909 (pnct) edget
+(men) (CC) (CC) (1051) word
+920 909 (coord) edget
+(den) (PD) (PD-CSU--U) (1052) word
+921 923 (subj) edget
+(anden) (PI) (PI-CSU--U) (1053) word
+922 921 (mod) edget
+(var) (VA) (VADA=----A-) (1054) word
+923 920 (conj) edget
+(lige) (RG) (RGU) (1055) word
+924 925 (mod) edget
+(så) (RG) (RGU) (1056) word
+925 926 (mod) edget
+(hurtig) (AN) (ANPCSU=IU) (1057) word
+926 923 (pred) edget
+(.) (XP) (XP) (1058) word
+927 909 (pnct) edget
+(-) (XP) (XP) (1061) word
+928 930 (pnct) edget
+(Hvem) (PT) (PT-C[SP]U--U) (1062) word
+929 930 (pred) edget
+(er) (VA) (VADR=----A-) (1063) word
+930 933 (qobj) edget
+(du) (PP) (PP2CSN-NU) (1064) word
+931 930 (subj) edget
+(?) (XP) (XP) (1065) word
+932 930 (pnct) edget
+(spurgte) (VA) (VADA=----A-) (1066) word
+(hun) (PP) (PP3CSN-NU) (1067) word
+934 933 (subj) edget
+(.) (XP) (XP) (1068) word
+935 933 (pnct) edget
+(Hun) (PP) (PP3CSN-NU) (1071) word
+936 937 (subj) edget
+(fik) (VA) (VADA=----A-) (1072) word
+(heller) (RG) (RGU) (1073) word
+938 939 (mod) edget
+(ikke) (RG) (RGU) (1074) word
+939 937 (mod) edget
+(denne) (PD) (PD-CSU--U) (1075) word
+940 937 (mod) edget
+(gang) (NC) (NCCSU==I) (1076) word
+941 940 (nobj) edget
+(noget) (PI) (PI-NSU--U) (1077) word
+942 937 (dobj) edget
+(svar) (NC) (NCNSU==I) (1078) word
+943 942 (nobj) edget
+(,) (XP) (XP) (1079) word
+944 937 (pnct) edget
+(men) (CC) (CC) (1080) word
+945 937 (coord) edget
+(et) (PI) (PI-NSU--U) (1081) word
+946 948 (mod) edget
+(øjeblik) (NC) (NCNSU==I) (1082) word
+947 946 (nobj) edget
+(kom) (VA) (VADA=----A-) (1083) word
+948 945 (conj) edget
+(hun) (PP) (PP3CSN-NU) (1084) word
+949 948 (subj) edget
+(i) (SP) (SP) (1085) word
+950 948 (lobj) edget
+(vildrede) (NC) (NC[CN][SP]U==[DI]) (1086) word
+951 950 (nobj) edget
+(med) (SP) (SP) (1087) word
+952 951 (pobj) edget
+(,) (XP) (XP) (1088) word
+953 952 (pnct) edget
+(om) (CS) (CS) (1089) word
+954 952 (nobj) edget
+(det) (PP) (PP3NSU-NU) (1090) word
+955 956 (subj) edget
+(var) (VA) (VADA=----A-) (1091) word
+956 954 (vobj) edget
+(hende) (PP) (PP3CSU-NU) (1092) word
+957 956 (pred) edget
+(selv) (RG) (RGU) (1093) word
+958 957 (mod) edget
+(eller) (CC) (CC) (1094) word
+959 957 (coord) edget
+(spejlbilledet) (NC) (NCNSU==D) (1095) word
+960 959 (conj) edget
+(,) (XP) (XP) (1096) word
+961 956 (pnct) edget
+(der) (U=) (U=) (1097) word
+962 955 (ref) edgeb
+962 963 (subj) edget
+962 964 ([subj]) edgeb
+(havde) (VA) (VADA=----A-) (1098) word
+963 955 (rel) edget
+(stillet) (VA) (VAPA=S[CN]I[ARU]-U) (1099) word
+964 963 (vobj) edget
+(spørgsmålet) (NC) (NCNSU==D) (1100) word
+965 964 (dobj) edget
+(.) (XP) (XP) (1101) word
+966 937 (pnct) edget
+(Sofie) (NP) (NP--U==-) (1104) word
+967 968 (subj) edget
+967 976 ([subj]) edgeb
+(trykkede) (VA) (VADA=----A-) (1105) word
+(sin) (PO) (PO3CSUSYU) (1106) word
+969 968 (dobj) edget
+(pegefinger) (NC) (NCCSU==I) (1107) word
+970 969 (nobj) edget
+(mod) (SP) (SP) (1108) word
+971 968 (lobj) edget
+(næsen) (NC) (NCCSU==D) (1109) word
+972 971 (nobj) edget
+(i) (SP) (SP) (1110) word
+973 972 (mod) edget
+(spejlet) (NC) (NCNSU==D) (1111) word
+974 973 (nobj) edget
+(og) (CC) (CC) (1112) word
+975 968 (coord) edget
+(sagde) (VA) (VADA=----A-) (1113) word
+976 975 (conj) edget
+(:) (XP) (XP) (1114) word
+977 976 (pnct) edget
+(-) (XP) (XP) (1115) word
+978 980 (pnct) edget
+(Du) (PP) (PP2CSN-NU) (1116) word
+979 980 (subj) edget
+(er) (VA) (VADR=----A-) (1117) word
+980 976 (qobj) edget
+(mig) (PP) (PP1CSU-[YN]U) (1118) word
+981 980 (pred) edget
+(.) (XP) (XP) (1119) word
+982 968 (pnct) edget
+(-) (XP) (XP) (1122) word
+983 985 (pnct) edget
+(Du) (PP) (PP2CSN-NU) (1123) word
+984 985 (subj) edget
+(er) (VA) (VADR=----A-) (1124) word
+(mig) (PP) (PP1CSU-[YN]U) (1125) word
+986 985 (pred) edget
+(.) (XP) (XP) (1126) word
+987 985 (pnct) edget
+(Da) (CS) (CS) (1129) word
+988 995 (mod) edget
+(hun) (PP) (PP3CSN-NU) (1130) word
+989 991 (subj) edget
+(ikke) (RG) (RGU) (1131) word
+990 991 (mod) edget
+(fik) (VA) (VADA=----A-) (1132) word
+991 988 (vobj) edget
+(noget) (PI) (PI-NSU--U) (1133) word
+992 991 (dobj) edget
+(svar) (NC) (NCNSU==I) (1134) word
+993 992 (nobj) edget
+(,) (XP) (XP) (1135) word
+994 991 (pnct) edget
+(vendte) (VA) (VADA=----A-) (1136) word
+(hun) (PP) (PP3CSN-NU) (1137) word
+996 995 (subj) edget
+996 1001 ([subj]) edgeb
+(sætningen) (NC) (NCCSU==D) (1138) word
+997 995 (dobj) edget
+(på) (SP) (SP) (1139) word
+998 995 (lobj) edget
+(hovedet) (NC) (NCNSU==D) (1140) word
+999 998 (nobj) edget
+(og) (CC) (CC) (1141) word
+1000 995 (coord) edget
+(sagde) (VA) (VADA=----A-) (1142) word
+1001 1000 (conj) edget
+(:) (XP) (XP) (1143) word
+1002 1001 (pnct) edget
+(-) (XP) (XP) (1144) word
+1003 1005 (pnct) edget
+(Jeg) (PP) (PP1CSN-NU) (1145) word
+1004 1005 (subj) edget
+(er) (VA) (VADR=----A-) (1146) word
+1005 1001 (qobj) edget
+(dig) (PP) (PP2CSU-[YN]U) (1147) word
+1006 1005 (pred) edget
+(.) (XP) (XP) (1148) word
+1007 995 (pnct) edget
+(-) (XP) (XP) (1151) word
+1008 1010 (pnct) edget
+(Jeg) (PP) (PP1CSN-NU) (1152) word
+1009 1010 (subj) edget
+(er) (VA) (VADR=----A-) (1153) word
+(dig) (PP) (PP2CSU-[YN]U) (1154) word
+1011 1010 (pred) edget
+(.) (XP) (XP) (1155) word
+1012 1010 (pnct) edget
+(Sofie) (NP) (NP--U==-) (1158) word
+1013 1014 (namef) edget
+(Amundsen) (NP) (NP--U==-) (1159) word
+1014 1015 (subj) edget
+1014 1018 ([subj]) edgeb
+(havde) (VA) (VADA=----A-) (1160) word
+(ikke) (RG) (RGU) (1161) word
+1016 1017 (mod) edget
+(altid) (RG) (RGU) (1162) word
+1017 1015 (mod) edget
+(været) (VA) (VAPA=S[CN]I[ARU]-U) (1163) word
+1018 1015 (vobj) edget
+(så) (RG) (RGU) (1164) word
+1019 1020 (mod) edget
+(tilfreds) (AN) (ANPCSU=IU) (1165) word
+1020 1018 (pred) edget
+(med) (SP) (SP) (1166) word
+1021 1020 (pobj) edget
+(,) (XP) (XP) (1167) word
+1022 1021 (pnct) edget
+(hvordan) (RG) (RGU) (1168) word
+1023 1021 (nobj) edget
+1023 1025 ([aobj]) edgeb
+(hun) (PP) (PP3CSN-NU) (1169) word
+1024 1025 (subj) edget
+(så) (VA) (VADA=----A-) (1170) word
+1025 1023 (rel) edget
+(ud) (RG) (RGU) (1171) word
+1026 1025 (part) edget
+(.) (XP) (XP) (1172) word
+1027 1015 (pnct) edget
+(Hun) (PP) (PP3CSN-NU) (1175) word
+1028 1029 (subj) edget
+(fik) (VA) (VADA=----A-) (1176) word
+(ofte) (RG) (RGP) (1177) word
+1030 1029 (mod) edget
+(at) (U=) (U=) (1178) word
+1031 1029 (dobj) edget
+(vide) (VA) (VAF-=----A-) (1179) word
+1032 1031 (vobj) edget
+(,) (XP) (XP) (1180) word
+1033 1032 (pnct) edget
+(at) (CS) (CS) (1181) word
+1034 1032 (dobj) edget
+(hun) (PP) (PP3CSN-NU) (1182) word
+1035 1036 (subj) edget
+(havde) (VA) (VADA=----A-) (1183) word
+1036 1034 (vobj) edget
+(smukke) (AN) (ANP[CN]PU=[DI]U) (1184) word
+1037 1039 (mod) edget
+(mandelformede) (VA) (VADA=----A-) (1185) word
+1038 1039 (mod) edget
+(øjne) (NC) (NCNPU==I) (1186) word
+1039 1036 (dobj) edget
+(,) (XP) (XP) (1187) word
+1040 1029 (pnct) edget
+(men) (CC) (CC) (1188) word
+1041 1029 (coord) edget
+(det) (PP) (PP3NSU-NU) (1189) word
+1042 1043 (subj) edget
+(var) (VA) (VADA=----A-) (1190) word
+1043 1041 (conj) edget
+(sikkert) (AN) (ANP---=-R) (1191) word
+1044 1043 (mod) edget
+(noget) (PI) (PI-NSU--U) (1192) word
+1045 1043 (pred) edget
+1045 1047 ([dobj]) edgeb
+(de) (PP) (PP3[CN]PN-NU) (1193) word
+1046 1047 (subj) edget
+(sagde) (VA) (VADA=----A-) (1194) word
+1047 1045 (rel) edget
+(,) (XP) (XP) (1195) word
+1048 1047 (pnct) edget
+(fordi) (CS) (CS) (1196) word
+1049 1047 (mod) edget
+(næsen) (NC) (NCCSU==D) (1197) word
+1050 1051 (subj) edget
+(var) (VA) (VADA=----A-) (1198) word
+1051 1049 (vobj) edget
+(for) (RG) (RGU) (1199) word
+1052 1053 (mod) edget
+(lille) (AN) (ANP[CN]SU=[DI]U) (1200) word
+1053 1051 (pred) edget
+(og) (--) (--) (1201) word
+1054 1051 (coord) edget
+(munden) (--) (--) (1202) word
+1055 1054 (<subj>) edget
+(lidt) (AN) (ANP---=-R) (1203) word
+1056 1057 (mod) edget
+(for) (RG) (RGU) (1204) word
+1057 1058 (mod) edget
+(stor) (--) (--) (1205) word
+1058 1054 (<pred>) edget
+(.) (XP) (XP) (1206) word
+1059 1029 (pnct) edget
+(Ørerne) (NC) (NCNPU==D) (1209) word
+1060 1061 (subj) edget
+(sad) (VA) (VADA=----A-) (1210) word
+(desuden) (RG) (RGU) (1211) word
+1062 1061 (mod) edget
+(alt) (RG) (RGU) (1212) word
+1063 1064 (mod) edget
+(for) (RG) (RGU) (1213) word
+1064 1065 (mod) edget
+(tæt) (AN) (ANP---=-R) (1214) word
+1065 1061 (aobj) edget
+(ved) (SP) (SP) (1215) word
+1066 1065 (pobj) edget
+(øjnene) (NC) (NCNPU==D) (1216) word
+1067 1066 (nobj) edget
+(.) (XP) (XP) (1217) word
+1068 1061 (pnct) edget
+(Allerværst) (AN) (ANA---=-R) (1220) word
+1069 1070 (pred) edget
+(var) (VA) (VADA=----A-) (1221) word
+(dog) (RG) (RGU) (1222) word
+1071 1070 (mod) edget
+(det) (PD) (PD-NSU--U) (1223) word
+1072 1070 (subj) edget
+(glatte) (AN) (ANP[CN]SU=DU) (1224) word
+1073 1072 (mod) edget
+(hår) (NC) (NCNSU==I) (1225) word
+1074 1072 (nobj) edget
+(som) (U=) (U=) (1226) word
+1075 1072 (ref) edgeb
+1075 1076 (subj) edget
+(var) (VA) (VADA=----A-) (1227) word
+1076 1072 (rel) edget
+(helt) (AN) (ANP---=-R) (1228) word
+1077 1078 (mod) edget
+(umuligt) (AN) (ANPNSU=IU) (1229) word
+1078 1076 (pred) edget
+(at) (U=) (U=) (1230) word
+1079 1078 (mod) edget
+(sætte) (VA) (VAF-=----A-) (1231) word
+1080 1079 (vobj) edget
+(.) (XP) (XP) (1232) word
+1081 1070 (pnct) edget
+(Det) (PP) (PP3NSU-NU) (1235) word
+1082 1083 (subj) edget
+(skete) (VA) (VADA=----A-) (1236) word
+(at) (CS) (CS) (1237) word
+1084 1082 (nobj) edget
+(faren) (NC) (NCCSU==D) (1238) word
+1085 1086 (subj) edget
+1085 1091 ([subj]) edgeb
+(strøg) (VA) (VADA=----A-) (1239) word
+1086 1084 (vobj) edget
+(hende) (PP) (PP3CSU-NU) (1240) word
+1087 1086 (dobj) edget
+(over) (SP) (SP) (1241) word
+1088 1086 (lobj) edget
+(håret) (NC) (NCNSU==D) (1242) word
+1089 1088 (nobj) edget
+(og) (CC) (CC) (1243) word
+1090 1086 (coord) edget
+(kaldte) (VA) (VADA=----A-) (1244) word
+1091 1090 (conj) edget
+(hende) (PP) (PP3CSU-NU) (1245) word
+1092 1091 (iobj) edget
+(») (XP) (XP) (1246) word
+1093 1094 (pnct) edget
+(pigen) (NC) (NCCSU==D) (1247) word
+1094 1091 (pred) edget
+(med) (SP) (SP) (1248) word
+1095 1094 (mod) edget
+(hørhåret) (NC) (NCNSU==D) (1249) word
+1096 1095 (nobj) edget
+(«) (XP) (XP) (1250) word
+1097 1094 (pnct) edget
+(efter) (SP) (SP) (1251) word
+1098 1091 (mod) edget
+(et) (PI) (PI-NSU--U) (1252) word
+1099 1098 (nobj) edget
+(musikstykke) (NC) (NCNSU==I) (1253) word
+1100 1099 (nobj) edget
+(af) (SP) (SP) (1254) word
+1101 1100 (pobj) edget
+(Claude) (NP) (NP--U==-) (1255) word
+1102 1103 (namef) edget
+(Debussy) (NP) (NP--U==-) (1256) word
+1103 1101 (nobj) edget
+(.) (XP) (XP) (1257) word
+1104 1083 (pnct) edget
+(Det) (PP) (PP3NSU-NU) (1260) word
+1105 1109 (dobj) edget
+(kunne) (VA) (VADA=----A-) (1261) word
+(han) (PP) (PP3CSN-NU) (1262) word
+1107 1106 (subj) edget
+1107 1109 ([subj]) edgeb
+(sagtens) (RG) (RGU) (1263) word
+1108 1106 (mod) edget
+(sige) (VA) (VAF-=----A-) (1264) word
+1109 1106 (vobj) edget
+(,) (XP) (XP) (1265) word
+1110 1106 (pnct) edget
+(han) (PP) (PP3CSN-NU) (1266) word
+1111 1112 (subj) edget
+1111 1115 ([subj]) edgeb
+1111 1116 ([subj]) edgeb
+1111 1121 ([subj]) edgeb
+(slap) (VA) (VADA=----A-) (1267) word
+1112 1106 (conj) edget
+(for) (SP) (SP) (1268) word
+1113 1112 (pobj) edget
+(at) (U=) (U=) (1269) word
+1114 1113 (nobj) edget
+(være) (VA) (VAF-=----A-) (1270) word
+1115 1114 (vobj) edget
+(dømt) (VA) (VAPA=S[CN]I[ARU]-U) (1271) word
+1116 1115 (vobj) edget
+(til) (SP) (SP) (1272) word
+1117 1116 (pobj) edget
+(livet) (NC) (NCNSU==D) (1273) word
+1118 1119 (nobj) edget
+(igennem) (RG) (RGU) (1274) word
+1119 1120 (mod) edget
+(at) (U=) (U=) (1275) word
+1120 1117 (nobj) edget
+(have) (VA) (VAF-=----A-) (1276) word
+1121 1120 (vobj) edget
+(det) (PD) (PD-NSU--U) (1277) word
+1122 1121 (dobj) edget
+(der) (RG) (RGU) (1278) word
+1123 1122 (mod) edget
+(sorte) (AN) (ANP[CN]SU=DU) (1279) word
+1124 1122 (mod) edget
+(hår) (NC) (NCNSU==I) (1280) word
+1125 1122 (nobj) edget
+(hængende) (VA) (VAPR=[SP][CN][DI][ARU]-U) (1281) word
+1126 1121 (pred) edget
+(lige) (RG) (RGU) (1282) word
+1127 1128 (mod) edget
+(ned) (RG) (RGU) (1283) word
+1128 1126 (lobj) edget
+(.) (XP) (XP) (1284) word
+1129 1106 (pnct) edget
+(Hverken) (RG) (RGU) (1287) word
+1130 1132 (mod) edget
+(skum) (NC) (NCNSU==I) (1288) word
+1131 1134 (subj) edget
+(eller) (CC) (CC) (1289) word
+1132 1131 (coord) edget
+(gelé) (NC) (NCCSU==I) (1290) word
+1133 1132 (conj) edget
+(bed) (VA) (VADA=----A-) (1291) word
+(på) (SP) (SP) (1292) word
+1135 1134 (lobj) edget
+(Sofies) (NP) (NP--G==-) (1293) word
+1136 1135 (nobj) edget
+(hår) (NC) (NCNSU==I) (1294) word
+1137 1136 (possd) edget
+(.) (XP) (XP) (1295) word
+1138 1134 (pnct) edget
+(Nogle) (PI) (PI-[CN]PU--U) (1298) word
+1139 1141 (mod) edget
+(gange) (NC) (NCCPU==I) (1299) word
+1140 1139 (nobj) edget
+(syntes) (VE) (VEDA=----A-) (1300) word
+(hun) (PP) (PP3CSN-NU) (1301) word
+1142 1141 (subj) edget
+(,) (XP) (XP) (1302) word
+1143 1141 (pnct) edget
+(hendes) (PO) (PO3[CN][SP]USNU) (1303) word
+1144 1146 (subj) edget
+(udseende) (NC) (NCNSU==I) (1304) word
+1145 1144 (possd) edget
+(var) (VA) (VADA=----A-) (1305) word
+1146 1141 (vobj) edget
+(så) (RG) (RGU) (1306) word
+1147 1148 (mod) edget
+(mærkeligt) (AN) (ANPNSU=IU) (1307) word
+1148 1146 (pred) edget
+(,) (XP) (XP) (1308) word
+1149 1148 (pnct) edget
+(at) (CS) (CS) (1309) word
+1150 1147 (nobj) edget
+(hun) (PP) (PP3CSN-NU) (1310) word
+1151 1152 (subj) edget
+1151 1153 ([subj]) edgeb
+1151 1154 ([subj]) edgeb
+1151 1157 ([subj]) edgeb
+1151 1158 ([subj]) edgeb
+(kunne) (VA) (VADA=----A-) (1311) word
+1152 1150 (vobj) edget
+(blive) (VA) (VAF-=----A-) (1312) word
+1153 1152 (vobj) edget
+(taget) (VA) (VAPA=S[CN]I[ARU]-U) (1313) word
+1154 1153 (vobj) edget
+(for) (SP) (SP) (1314) word
+1155 1154 (pobj) edget
+(at) (U=) (U=) (1315) word
+1156 1155 (nobj) edget
+(være) (VA) (VAF-=----A-) (1316) word
+1157 1156 (vobj) edget
+(vanskabt) (VA) (VAPA=S[CN]I[ARU]-U) (1317) word
+1158 1157 (vobj) edget
+(.) (XP) (XP) (1318) word
+1159 1141 (pnct) edget
+(Hendes) (PO) (PO3[CN][SP]USNU) (1321) word
+1160 1162 (subj) edget
+1160 1166 ([subj]) edgeb
+(mor) (NC) (NCCSU==I) (1322) word
+1161 1160 (possd) edget
+(havde) (VA) (VADA=----A-) (1323) word
+(i) (SP) (SP) (1324) word
+1163 1162 (mod) edget
+(hvert) (PI) (PI-NSU--U) (1325) word
+1164 1163 (nobj) edget
+(fald) (NC) (NCNSU==I) (1326) word
+1165 1164 (nobj) edget
+(talt) (VA) (VAPA=S[CN]I[ARU]-U) (1327) word
+1166 1162 (vobj) edget
+(om) (SP) (SP) (1328) word
+1167 1166 (pobj) edget
+(en) (PI) (PI-CSU--U) (1329) word
+1168 1167 (nobj) edget
+(vanskelig) (AN) (ANPCSU=IU) (1330) word
+1169 1168 (mod) edget
+(fødsel) (NC) (NCCSU==I) (1331) word
+1170 1168 (nobj) edget
+(.) (XP) (XP) (1332) word
+1171 1162 (pnct) edget
+(Men) (CC) (CC) (1335) word
+(var) (VA) (VADA=----A-) (1336) word
+1173 1172 (conj) edget
+(det) (PP) (PP3NSU-NU) (1337) word
+1174 1173 (subj) edget
+(virkelig) (RG) (RGU) (1338) word
+1175 1173 (mod) edget
+(fødselen) (NC) (NCCSU==D) (1339) word
+1176 1173 (pred) edget
+(,) (XP) (XP) (1340) word
+1177 1173 (pnct) edget
+(der) (U=) (U=) (1341) word
+1178 1174 (ref) edgeb
+1178 1179 (subj) edget
+(bestemte) (VA) (VADA=----A-) (1342) word
+1179 1174 (rel) edget
+(hvordan) (RG) (RGU) (1343) word
+1180 1179 (dobj) edget
+1180 1185 ([aobj]) edgeb
+(man) (PI) (PI-C[SP]N--U) (1344) word
+1181 1182 (subj) edget
+1181 1185 ([subj]) edgeb
+(kom) (VA) (VADA=----A-) (1345) word
+1182 1180 (rel) edget
+(til) (SP) (SP) (1346) word
+1183 1182 (pobj) edget
+(at) (U=) (U=) (1347) word
+1184 1183 (nobj) edget
+(se) (VA) (VAF-=----A-) (1348) word
+1185 1184 (vobj) edget
+(ud) (RG) (RGU) (1349) word
+1186 1185 (part) edget
+(?) (XP) (XP) (1350) word
+1187 1173 (pnct) edget
+(Var) (VA) (VADA=----A-) (1353) word
+(det) (PP) (PP3NSU-NU) (1354) word
+1189 1188 (subj) edget
+(ikke) (RG) (RGU) (1355) word
+1190 1188 (mod) edget
+(pudsigt) (AN) (ANP---=-R) (1356) word
+1191 1188 (pred) edget
+(at) (CS) (CS) (1357) word
+1192 1189 (nobj) edget
+(hun) (PP) (PP3CSN-NU) (1358) word
+1193 1195 (subj) edget
+(ikke) (RG) (RGU) (1359) word
+1194 1195 (mod) edget
+(vidste) (VA) (VADA=----A-) (1360) word
+1195 1192 (vobj) edget
+(hvem) (PT) (PT-C[SP]U--U) (1361) word
+1196 1195 (dobj) edget
+1196 1198 ([pred]) edgeb
+(hun) (PP) (PP3CSN-NU) (1362) word
+1197 1198 (subj) edget
+(var) (VA) (VADA=----A-) (1363) word
+1198 1196 (rel) edget
+(?) (XP) (XP) (1364) word
+1199 1188 (pnct) edget
+(Var) (VA) (VADA=----A-) (1367) word
+(det) (PP) (PP3NSU-NU) (1368) word
+1201 1200 (subj) edget
+(ikke) (RG) (RGU) (1369) word
+1202 1201 (mod) edget
+(også) (RG) (RGU) (1370) word
+1203 1201 (mod) edget
+(urimeligt) (AN) (ANPNSU=IU) (1371) word
+1204 1200 (pred) edget
+(,) (XP) (XP) (1372) word
+1205 1200 (pnct) edget
+(at) (CS) (CS) (1373) word
+1206 1201 (nobj) edget
+(hun) (PP) (PP3CSN-NU) (1374) word
+1207 1209 (subj) edget
+1207 1210 ([subj]) edgeb
+(ikke) (RG) (RGU) (1375) word
+1208 1209 (mod) edget
+(kunne) (VA) (VADA=----A-) (1376) word
+1209 1206 (vobj) edget
+(bestemme) (VA) (VAF-=----A-) (1377) word
+1210 1209 (vobj) edget
+(sit) (PO) (PO3NSUSYU) (1378) word
+1211 1210 (dobj) edget
+(eget) (AN) (ANPNSU=[DI]U) (1379) word
+1212 1211 (mod) edget
+(udseende) (NC) (NCNSU==I) (1380) word
+1213 1211 (nobj) edget
+(?) (XP) (XP) (1381) word
+1214 1200 (pnct) edget
+(Det) (PP) (PP3NSU-NU) (1384) word
+1215 1216 (subj) edget
+1215 1218 ([subj]) edgeb
+(var) (VA) (VADA=----A-) (1385) word
+(bare) (RG) (RGU) (1386) word
+1217 1216 (mod) edget
+(kommet) (VA) (VAPA=S[CN]I[ARU]-U) (1387) word
+1218 1216 (vobj) edget
+(tilfældigt) (AN) (ANP---=-R) (1388) word
+1219 1220 (mod) edget
+(drattende) (VA) (VAPR=[SP][CN][DI][ARU]-U) (1389) word
+1220 1218 (pred) edget
+(.) (XP) (XP) (1390) word
+1221 1216 (pnct) edget
+(Hun) (PP) (PP3CSN-NU) (1393) word
+1222 1223 (subj) edget
+1222 1226 ([subj]) edgeb
+(kunne) (VA) (VADA=----A-) (1394) word
+(måske) (RG) (RGU) (1395) word
+1224 1223 (mod) edget
+(selv) (RG) (RGU) (1396) word
+1225 1223 (mod) edget
+(vælge) (VA) (VAF-=----A-) (1397) word
+1226 1223 (vobj) edget
+(sine) (PO) (PO3[CN]PUSYU) (1398) word
+1227 1226 (dobj) edget
+(venner) (NC) (NCCPU==I) (1399) word
+1228 1227 (possd) edget
+(,) (XP) (XP) (1400) word
+1229 1223 (pnct) edget
+(men) (CC) (CC) (1401) word
+1230 1223 (coord) edget
+(hun) (PP) (PP3CSN-NU) (1402) word
+1231 1232 (subj) edget
+1231 1234 ([subj]) edgeb
+(havde) (VA) (VADA=----A-) (1403) word
+1232 1230 (conj) edget
+(ikke) (RG) (RGU) (1404) word
+1233 1232 (mod) edget
+(valgt) (VA) (VAPA=S[CN]I[ARU]-U) (1405) word
+1234 1232 (vobj) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (1406) word
+1235 1234 (dobj) edget
+(selv) (RG) (RGU) (1407) word
+1236 1235 (mod) edget
+(.) (XP) (XP) (1408) word
+1237 1223 (pnct) edget
+(Hun) (PP) (PP3CSN-NU) (1411) word
+1238 1239 (subj) edget
+1238 1242 ([subj]) edgeb
+1238 1244 ([subj]) edgeb
+(havde) (VA) (VADA=----A-) (1412) word
+(ikke) (RG) (RGU) (1413) word
+1240 1239 (mod) edget
+(engang) (RG) (RGU) (1414) word
+1241 1240 (mod) edget
+(valgt) (VA) (VAPA=S[CN]I[ARU]-U) (1415) word
+1242 1239 (vobj) edget
+(at) (U=) (U=) (1416) word
+1243 1242 (dobj) edget
+(være) (VA) (VAF-=----A-) (1417) word
+1244 1243 (vobj) edget
+(menneske) (NC) (NCNSU==I) (1418) word
+1245 1244 (pred) edget
+(.) (XP) (XP) (1419) word
+1246 1239 (pnct) edget
+(Hvad) (PT) (PT-[CN]SU--U) (1422) word
+1247 1248 (pred) edget
+(var) (VA) (VADA=----A-) (1423) word
+(et) (PI) (PI-NSU--U) (1424) word
+1249 1248 (subj) edget
+(menneske) (NC) (NCNSU==I) (1425) word
+1250 1249 (nobj) edget
+(?) (XP) (XP) (1426) word
+1251 1248 (pnct) edget
+(Sofie) (NP) (NP--U==-) (1429) word
+1252 1253 (subj) edget
+(så) (VA) (VADA=----A-) (1430) word
+(atter) (RG) (RGU) (1431) word
+1254 1253 (mod) edget
+(op) (RG) (RGU) (1432) word
+1255 1253 (lobj) edget
+(på) (SP) (SP) (1433) word
+1256 1255 (mod) edget
+(pigen) (NC) (NCCSU==D) (1434) word
+1257 1256 (nobj) edget
+(i) (SP) (SP) (1435) word
+1258 1257 (mod) edget
+(spejlet) (NC) (NCNSU==D) (1436) word
+1259 1258 (nobj) edget
+(.) (XP) (XP) (1437) word
+1260 1253 (pnct) edget
+(-) (XP) (XP) (1440) word
+1261 1263 (pnct) edget
+(Jeg) (PP) (PP1CSN-NU) (1441) word
+1262 1263 (subj) edget
+(tror) (VA) (VADR=----A-) (1442) word
+1263 1272 (qobj) edget
+(jeg) (PP) (PP1CSN-NU) (1443) word
+1264 1265 (subj) edget
+1264 1268 ([subj]) edgeb
+(går) (VA) (VADR=----A-) (1444) word
+1265 1263 (vobj) edget
+(op) (RG) (RGU) (1445) word
+1266 1265 (lobj) edget
+(og) (CC) (CC) (1446) word
+1267 1265 (coord) edget
+(laver) (VA) (VADR=----A-) (1447) word
+1268 1267 (conj) edget
+(mine) (PO) (PO1[CN]PUSNU) (1448) word
+1269 1268 (dobj) edget
+(biologilektier) (NC) (NCCPU==I) (1449) word
+1270 1269 (nobj) edget
+(,) (XP) (XP) (1450) word
+1271 1263 (pnct) edget
+(sagde) (VA) (VADA=----A-) (1451) word
+(hun) (PP) (PP3CSN-NU) (1452) word
+1273 1272 (subj) edget
+(for) (SP) (SP) (1453) word
+1274 1272 (mod) edget
+(ligesom) (RG) (RGU) (1454) word
+1275 1274 (nobj) edget
+(at) (U=) (U=) (1455) word
+1276 1275 (nobj) edget
+(undskylde) (VA) (VAF-=----A-) (1456) word
+1277 1276 (vobj) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (1457) word
+1278 1277 (dobj) edget
+(.) (XP) (XP) (1458) word
+1279 1272 (pnct) edget
+(I) (SP) (SP) (1461) word
+1280 1283 (mod) edget
+(næste) (AN) (ANP[CN][SP]U=[DI]U) (1462) word
+1281 1282 (mod) edget
+(øjeblik) (NC) (NCNSU==I) (1463) word
+1282 1280 (nobj) edget
+(var) (VA) (VADA=----A-) (1464) word
+(hun) (PP) (PP3CSN-NU) (1465) word
+1284 1283 (subj) edget
+(ude) (RG) (RGU) (1466) word
+1285 1283 (pred) edget
+(i) (SP) (SP) (1467) word
+1286 1285 (mod) edget
+(gangen) (NC) (NCCSU==D) (1468) word
+1287 1286 (nobj) edget
+(.) (XP) (XP) (1469) word
+1288 1283 (pnct) edget
+(Nej) (I=) (I=) (1472) word
+1289 1298 (qobj) edget
+(,) (XP) (XP) (1473) word
+1290 1289 (pnct) edget
+(jeg) (PP) (PP1CSN-NU) (1474) word
+1291 1292 (subj) edget
+(vil) (VA) (VADR=----A-) (1475) word
+1292 1289 (conj) edget
+(hellere) (RG) (RGU) (1476) word
+1293 1292 (mod) edget
+(ud) (RG) (RGU) (1477) word
+1294 1292 (lobj) edget
+(i) (SP) (SP) (1478) word
+1295 1294 (mod) edget
+(haven) (NC) (NCCSU==D) (1479) word
+1296 1295 (nobj) edget
+(,) (XP) (XP) (1480) word
+1297 1289 (pnct) edget
+(tænkte) (VA) (VADA=----A-) (1481) word
+(hun) (PP) (PP3CSN-NU) (1482) word
+1299 1298 (subj) edget
+(så) (RG) (RGU) (1483) word
+1300 1298 (mod) edget
+(.) (XP) (XP) (1484) word
+1301 1298 (pnct) edget
+(-) (XP) (XP) (1487) word
+1302 1303 (pnct) edget
+(Mis) (NC) (NCCSU==I) (1488) word
+(,) (XP) (XP) (1489) word
+1304 1303 (pnct) edget
+(mis) (NC) (NCCSU==I) (1490) word
+1305 1303 (conj) edget
+(,) (XP) (XP) (1491) word
+1306 1303 (pnct) edget
+(mis) (NC) (NCCSU==I) (1492) word
+1307 1303 (conj) edget
+(,) (XP) (XP) (1493) word
+1308 1303 (pnct) edget
+(mis) (NC) (NCCSU==I) (1494) word
+1309 1303 (conj) edget
+(!) (XP) (XP) (1495) word
+1310 1303 (pnct) edget
+(Sofie) (NP) (NP--U==-) (1498) word
+1311 1312 (subj) edget
+1311 1318 ([subj]) edgeb
+(jagede) (VA) (VADA=----A-) (1499) word
+(katten) (NC) (NCCSU==D) (1500) word
+1313 1312 (dobj) edget
+(ud) (RG) (RGU) (1501) word
+1314 1312 (lobj) edget
+(på) (SP) (SP) (1502) word
+1315 1314 (mod) edget
+(trappen) (NC) (NCCSU==D) (1503) word
+1316 1315 (nobj) edget
+(og) (CC) (CC) (1504) word
+1317 1312 (coord) edget
+(lukkede) (VA) (VADA=----A-) (1505) word
+1318 1317 (conj) edget
+(døren) (NC) (NCCSU==D) (1506) word
+1319 1318 (dobj) edget
+(efter) (SP) (SP) (1507) word
+1320 1318 (mod) edget
+(sig) (PP) (PP3[CN][SP]U-YU) (1508) word
+1321 1320 (nobj) edget
+(.) (XP) (XP) (1509) word
+1322 1312 (pnct) edget
+(Da) (CS) (CS) (1512) word
+1323 1336 (mod) edget
+(hun) (PP) (PP3CSN-NU) (1513) word
+1324 1325 (subj) edget
+(stod) (VA) (VADA=----A-) (1514) word
+1325 1323 (vobj) edget
+(ude) (RG) (RGU) (1515) word
+1326 1325 (lobj) edget
+(på) (SP) (SP) (1516) word
+1327 1326 (mod) edget
+(grusgangen) (NC) (NCCSU==D) (1517) word
+1328 1327 (nobj) edget
+(med) (SP) (SP) (1518) word
+1329 1325 (mod) edget
+(det) (PD) (PD-NSU--U) (1519) word
+1330 1329 (nobj) edget
+(mystiske) (AN) (ANP[CN]SU=DU) (1520) word
+1331 1330 (mod) edget
+(brev) (NC) (NCNSU==I) (1521) word
+1332 1330 (nobj) edget
+(i) (SP) (SP) (1522) word
+1333 1329 (pred) edget
+(hånden) (NC) (NCCSU==D) (1523) word
+1334 1333 (nobj) edget
+(,) (XP) (XP) (1524) word
+1335 1325 (pnct) edget
+(fik) (VA) (VADA=----A-) (1525) word
+(hun) (PP) (PP3CSN-NU) (1526) word
+1337 1336 (subj) edget
+(med) (SP) (SP) (1527) word
+1338 1336 (mod) edget
+(ét) (PI) (PI-NSU--U) (1528) word
+1339 1338 (nobj) edget
+(en) (PI) (PI-CSU--U) (1529) word
+1340 1336 (dobj) edget
+(underlig) (AN) (ANPCSU=IU) (1530) word
+1341 1340 (mod) edget
+(fornemmelse) (NC) (NCCSU==I) (1531) word
+1342 1340 (nobj) edget
+(.) (XP) (XP) (1532) word
+1343 1336 (pnct) edget
+(Hun) (PP) (PP3CSN-NU) (1535) word
+1344 1345 (subj) edget
+(følte) (VA) (VADA=----A-) (1536) word
+(det) (PP) (PP3NSU-NU) (1537) word
+1346 1345 (dobj) edget
+(omtrent) (RG) (RGU) (1538) word
+1347 1345 (mod) edget
+(,) (XP) (XP) (1539) word
+1348 1345 (pnct) edget
+(som) (U=) (U=) (1540) word
+1349 1345 (mod) edget
+(om) (CS) (CS) (1541) word
+1350 1349 (nobj) edget
+(hun) (PP) (PP3CSN-NU) (1542) word
+1351 1352 (subj) edget
+(var) (VA) (VADA=----A-) (1543) word
+1352 1350 (vobj) edget
+(en) (PI) (PI-CSU--U) (1544) word
+1353 1352 (pred) edget
+(dukke) (NC) (NCCSU==I) (1545) word
+1354 1353 (nobj) edget
+(,) (XP) (XP) (1546) word
+1355 1353 (pnct) edget
+(der) (U=) (U=) (1547) word
+1356 1353 (ref) edgeb
+1356 1360 (subj) edget
+1356 1361 ([subj]) edgeb
+(med) (SP) (SP) (1548) word
+1357 1360 (mod) edget
+(et) (PI) (PI-NSU--U) (1549) word
+1358 1357 (nobj) edget
+(trylleslag) (NC) (NCNSU==I) (1550) word
+1359 1358 (nobj) edget
+(var) (VA) (VADA=----A-) (1551) word
+1360 1353 (rel) edget
+(blevet) (VA) (VAPA=S[CN]I[ARU]-U) (1552) word
+1361 1360 (vobj) edget
+(levende) (AN) (ANP[CN][SP]U=[DI]U) (1553) word
+1362 1361 (pred) edget
+(.) (XP) (XP) (1554) word
+1363 1345 (pnct) edget
+(Var) (VA) (VADA=----A-) (1557) word
+(det) (PP) (PP3NSU-NU) (1558) word
+1365 1364 (subj) edget
+(ikke) (RG) (RGU) (1559) word
+1366 1364 (mod) edget
+(mærkeligt) (AN) (ANPNSU=IU) (1560) word
+1367 1364 (pred) edget
+(,) (XP) (XP) (1561) word
+1368 1364 (pnct) edget
+(at) (CS) (CS) (1562) word
+1369 1365 (nobj) edget
+(hun) (PP) (PP3CSN-NU) (1563) word
+1370 1371 (subj) edget
+(var) (VA) (VADA=----A-) (1564) word
+1371 1369 (vobj) edget
+(i) (SP) (SP) (1565) word
+1372 1371 (pred) edget
+(verden) (NC) (NCCSU==I) (1566) word
+1373 1372 (nobj) edget
+(lige) (RG) (RGU) (1567) word
+1374 1375 (mod) edget
+(her) (RG) (RGU) (1568) word
+1375 1371 (mod) edget
+(og) (CC) (CC) (1569) word
+1376 1375 (coord) edget
+(nu) (RG) (RGU) (1570) word
+1377 1376 (conj) edget
+(,) (XP) (XP) (1571) word
+1378 1369 (pnct) edget
+(at) (CS) (CS) (1572) word
+1379 1369 (conj) edget
+(hun) (PP) (PP3CSN-NU) (1573) word
+1380 1381 (subj) edget
+1380 1382 ([subj]) edgeb
+(kunne) (VA) (VADA=----A-) (1574) word
+1381 1379 (vobj) edget
+(liste) (VA) (VAF-=----A-) (1575) word
+1382 1381 (vobj) edget
+(omkring) (RG) (RGU) (1576) word
+1383 1382 (mod) edget
+(i) (SP) (SP) (1577) word
+1384 1383 (mod) edget
+(sådan) (RG) (RGU) (1578) word
+1385 1384 (nobj) edget
+(et) (PI) (PI-NSU--U) (1579) word
+1386 1385 (nobj) edget
+(forunderligt) (AN) (ANPNSU=IU) (1580) word
+1387 1386 (mod) edget
+(eventyr) (NC) (NCNSU==I) (1581) word
+1388 1386 (nobj) edget
+(?) (XP) (XP) (1582) word
+1389 1364 (pnct) edget
+(Sherekan) (NP) (NP--U==-) (1585) word
+1390 1391 (subj) edget
+1390 1396 ([subj]) edgeb
+(sprang) (VA) (VADA=----A-) (1586) word
+(let) (AN) (ANP---=-R) (1587) word
+1392 1391 (mod) edget
+(over) (SP) (SP) (1588) word
+1393 1391 (mod) edget
+(gruset) (NC) (NCNSU==D) (1589) word
+1394 1393 (nobj) edget
+(og) (CC) (CC) (1590) word
+1395 1391 (coord) edget
+(smuttede) (VA) (VADA=----A-) (1591) word
+1396 1395 (conj) edget
+(ind) (RG) (RGU) (1592) word
+1397 1396 (mod) edget
+(mellem) (SP) (SP) (1593) word
+1398 1397 (mod) edget
+(nogle) (PI) (PI-[CN]PU--U) (1594) word
+1399 1398 (nobj) edget
+(tætte) (AN) (ANP[CN]PU=[DI]U) (1595) word
+1400 1399 (mod) edget
+(ribsbuske) (NC) (NCCPU==I) (1596) word
+1401 1399 (nobj) edget
+(.) (XP) (XP) (1597) word
+1402 1391 (pnct) edget
+(En) (--) (--) (1600) word
+(levende) (AN) (ANP[CN][SP]U=[DI]U) (1601) word
+1404 1403 (mod) edget
+(kat) (NC) (NCCSU==I) (1602) word
+1405 1403 (nobj) edget
+(,) (XP) (XP) (1603) word
+1406 1403 (pnct) edget
+(lyslevende) (--) (--) (1604) word
+1407 1403 (<pred>) edget
+(fra) (--) (--) (1605) word
+1408 1403 (<mod>) edget
+(de) (PD) (PD-[CN]PU--U) (1606) word
+1409 1408 (nobj) edget
+(hvide) (AN) (ANP[CN]PU=[DI]U) (1607) word
+1410 1409 (mod) edget
+(knurhår) (NC) (NCNSU==I) (1608) word
+1411 1409 (nobj) edget
+(til) (SP) (SP) (1609) word
+1412 1408 (mod) edget
+(den) (PD) (PD-CSU--U) (1610) word
+1413 1412 (nobj) edget
+(daskende) (VA) (VAPR=[SP][CN][DI][ARU]-U) (1611) word
+1414 1413 (mod) edget
+(hale) (NC) (NCCSU==I) (1612) word
+1415 1413 (nobj) edget
+(helt) (AN) (ANP---=-R) (1613) word
+1416 1417 (mod) edget
+(bagest) (AN) (ANS---=-R) (1614) word
+1417 1413 (mod) edget
+(på) (SP) (SP) (1615) word
+1418 1417 (mod) edget
+(den) (PD) (PD-CSU--U) (1616) word
+1419 1418 (nobj) edget
+(glatte) (AN) (ANP[CN]SU=DU) (1617) word
+1420 1419 (mod) edget
+(krop) (NC) (NCCSU==I) (1618) word
+1421 1419 (nobj) edget
+(.) (XP) (XP) (1619) word
+1422 1403 (pnct) edget
+(Den) (PP) (PP3CSU-NU) (1622) word
+1423 1424 (subj) edget
+(var) (VA) (VADA=----A-) (1623) word
+(også) (RG) (RGU) (1624) word
+1425 1424 (mod) edget
+(i) (SP) (SP) (1625) word
+1426 1424 (pred) edget
+(haven) (NC) (NCCSU==D) (1626) word
+1427 1426 (nobj) edget
+(,) (XP) (XP) (1627) word
+1428 1424 (pnct) edget
+(men) (CC) (CC) (1628) word
+1429 1424 (coord) edget
+(den) (PP) (PP3CSU-NU) (1629) word
+1430 1431 (subj) edget
+(var) (VA) (VADA=----A-) (1630) word
+1431 1429 (conj) edget
+(næppe) (RG) (RGU) (1631) word
+1432 1431 (mod) edget
+(klar) (AN) (ANPCSU=IU) (1632) word
+1433 1431 (pred) edget
+(over) (SP) (SP) (1633) word
+1434 1433 (pobj) edget
+(det) (PP) (PP3NSU-NU) (1634) word
+1435 1434 (nobj) edget
+(på) (SP) (SP) (1635) word
+1436 1431 (mod) edget
+(samme) (AN) (ANP[CN][SP]U=[DI]U) (1636) word
+1437 1436 (nobj) edget
+(måde) (NC) (NCCSU==I) (1637) word
+1438 1437 (nobj) edget
+(som) (U=) (U=) (1638) word
+1439 1437 (pobj) edget
+(Sofie) (NP) (NP--U==-) (1639) word
+1440 1439 (nobj) edget
+(.) (XP) (XP) (1640) word
+1441 1424 (pnct) edget
+(Efterhånden) (RG) (RGU) (1643) word
+1442 1452 (mod) edget
+(som) (U=) (U=) (1644) word
+1443 1442 (pobj) edget
+(Sofie) (NP) (NP--U==-) (1645) word
+1444 1445 (subj) edget
+(tænkte) (VA) (VADA=----A-) (1646) word
+1445 1443 (vobj) edget
+(over) (SP) (SP) (1647) word
+1446 1445 (pobj) edget
+(at) (CS) (CS) (1648) word
+1447 1446 (nobj) edget
+(hun) (PP) (PP3CSN-NU) (1649) word
+1448 1449 (subj) edget
+(var) (VA) (VADA=----A-) (1650) word
+1449 1447 (vobj) edget
+(til) (RG) (RGU) (1651) word
+1450 1449 (pred) edget
+(,) (XP) (XP) (1652) word
+1451 1445 (pnct) edget
+(kom) (VA) (VADA=----A-) (1653) word
+(hun) (PP) (PP3CSN-NU) (1654) word
+1453 1452 (subj) edget
+(også) (RG) (RGU) (1655) word
+1454 1452 (mod) edget
+(i) (SP) (SP) (1656) word
+1455 1452 (lobj) edget
+(tanke) (NC) (NCCSU==I) (1657) word
+1456 1455 (nobj) edget
+(om) (SP) (SP) (1658) word
+1457 1456 (pobj) edget
+(,) (XP) (XP) (1659) word
+1458 1457 (pnct) edget
+(at) (CS) (CS) (1660) word
+1459 1457 (nobj) edget
+(hun) (PP) (PP3CSN-NU) (1661) word
+1460 1462 (subj) edget
+1460 1463 ([subj]) edgeb
+(ikke) (RG) (RGU) (1662) word
+1461 1462 (mod) edget
+(skulle) (VA) (VADA=----A-) (1663) word
+1462 1459 (vobj) edget
+(være) (VA) (VAF-=----A-) (1664) word
+1463 1462 (vobj) edget
+(her) (RG) (RGU) (1665) word
+1464 1463 (pred) edget
+(altid) (RG) (RGU) (1666) word
+1465 1463 (mod) edget
+(.) (XP) (XP) (1667) word
+1466 1452 (pnct) edget
+(-) (XP) (XP) (1670) word
+1467 1469 (pnct) edget
+(Jeg) (PP) (PP1CSN-NU) (1671) word
+1468 1469 (subj) edget
+(er) (VA) (VADR=----A-) (1672) word
+1469 1474 (qobj) edget
+(i) (SP) (SP) (1673) word
+1470 1469 (pred) edget
+(verden) (NC) (NCCSU==I) (1674) word
+1471 1470 (nobj) edget
+(nu) (RG) (RGU) (1675) word
+1472 1469 (mod) edget
+(,) (XP) (XP) (1676) word
+1473 1469 (pnct) edget
+(tænkte) (VA) (VADA=----A-) (1677) word
+(hun) (PP) (PP3CSN-NU) (1678) word
+1475 1474 (subj) edget
+(.) (XP) (XP) (1679) word
+1476 1474 (pnct) edget
+(Men) (CC) (CC) (1682) word
+(en) (PI) (PI-CSU--U) (1683) word
+1478 1480 (mod) edget
+(dag) (NC) (NCCSU==I) (1684) word
+1479 1478 (nobj) edget
+(er) (VA) (VADR=----A-) (1685) word
+1480 1477 (conj) edget
+(jeg) (PP) (PP1CSN-NU) (1686) word
+1481 1480 (subj) edget
+(væk) (RG) (RGU) (1687) word
+1482 1480 (pred) edget
+(.) (XP) (XP) (1688) word
+1483 1477 (pnct) edget
+
+%% 3. DGgraph trailer
+
+draw end 
+

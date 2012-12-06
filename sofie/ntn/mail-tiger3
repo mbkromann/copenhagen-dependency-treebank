@@ -1,0 +1,90 @@
+From holger.voormann@ims.uni-stuttgart.de Wed Mar 10 20:23:37 2004
+Received: from localhost (localhost [127.0.0.1])
+	by grid.id.cbs.dk (8.12.7/8.12.7/SuSE Linux 0.6) with ESMTP id i2AJNZjG006407
+	for <mtkromann@localhost>; Wed, 10 Mar 2004 20:23:36 +0100
+Received: from 127.0.0.1 [127.0.0.1]
+	by localhost with POP3 (fetchmail-6.2.1)
+	for mtkromann@localhost (single-drop); Wed, 10 Mar 2004 20:23:36 +0100 (MET)
+Received: from proxy2 ([192.168.70.3])
+ by ha-mail.cbs.dk (iPlanet Messaging Server 5.2 HotFix 1.02 (built Sep 16
+ 2002)) with ESMTP id <0HUD001VIGOMW2@ha-mail.cbs.dk> for mtk.id@ims-ms-daemon;
+ Wed, 10 Mar 2004 19:00:22 +0100 (MET)
+Received: from relay4-cph.comendo.dk (relay4-cph.comendo.dk [195.245.210.90])
+ by proxy2.cbs.dk
+ (iPlanet Messaging Server 5.2 HotFix 1.02 (built Sep 16 2002)) with ESMTP id
+ <0HUD002LDGOMGD@proxy2.cbs.dk> for mtk.id@cbs.dk (ORCPT mtk.id@cbs.dk); Wed,
+ 10 Mar 2004 19:00:22 +0100 (MET)
+Received: from localhost (Not Verified[192.168.50.12])
+ by relay4-cph.comendo.dk with {MailFence} (v{4.0}) (COMSND)
+	id <BN002dbad9>; Wed, 10 Mar 2004 19:00:21 +0100
+Received: from mailhub.id.cbs.dk (Not Verified[130.226.47.91])
+ by virus3-cph.comendo.dk with {MAilFence} (v{4.0}) (COMVRS)
+	id <BC00007d2f>; Wed, 10 Mar 2004 19:00:21 +0100
+Received: from mail.id.cbs.dk ([172.16.14.53] ident=mail)
+	by mailhub.id.cbs.dk with esmtp	(Cipher TLSv1:AES256-SHA:256)
+ (Exim 3.36 #1 (Debian))	id 1B1806-0000xv-00	for <mtk.id@cbs.dk>; Wed,
+ 10 Mar 2004 19:00:14 +0100
+Received: from mail by mail.id.cbs.dk with spam-scanned (Exim 3.36 #1 (Debian))
+	id 1B1800-0000LW-00	for <mtk@id.cbs.dk>; Wed, 10 Mar 2004 19:00:14 +0100
+Received: from mailhub.id.cbs.dk ([130.226.47.91] ident=mail)
+	by mail.id.cbs.dk with esmtp	(Cipher TLSv1:AES256-SHA:256)
+ (Exim 3.36 #1 (Debian))	id 1B17zz-0000LH-00	for <mtk@id.cbs.dk>; Wed,
+ 10 Mar 2004 19:00:07 +0100
+Received: from adler.ims.uni-stuttgart.de ([141.58.127.8])
+	by mailhub.id.cbs.dk with esmtp	(Cipher TLSv1:AES256-SHA:256)
+ (Exim 3.36 #1 (Debian))	id 1B17zr-0000xd-00	for <mtk@id.cbs.dk>; Wed,
+ 10 Mar 2004 19:00:00 +0100
+Received: from IMS.Uni-Stuttgart.de (steinroetel [141.58.127.33])
+	by adler.ims.uni-stuttgart.de (8.12.11/8.12.11/IMS-Server-3.5)
+ with ESMTP id i2AHxvRi010229; Wed, 10 Mar 2004 18:59:57 +0100 (MET)
+Date: Wed, 10 Mar 2004 19:03:02 +0100
+From: Holger Voormann <holger.voormann@ims.uni-stuttgart.de>
+Subject: Re: Extensions to TIGER-XML and the TIGER tools
+In-reply-to: <20040310183807.GA5701@mtkromann.id.cbs.dk>
+X-Scanner: exiscan *1B17zr-0000xd-00*l0zWr4CueYQ*
+To: Matthias Trautner Kromann <mtk@id.cbs.dk>
+Cc: tigersearch@ims.uni-stuttgart.de
+Message-id: <404F5856.9070804@IMS.Uni-Stuttgart.de>
+MIME-version: 1.0
+Content-type: text/plain; charset=us-ascii; format=flowed
+Content-transfer-encoding: 7bit
+X-Accept-Language: de-de, de
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.4)
+ Gecko/20030619 Netscape/7.1 (ax)
+X-Spam-Status: No, hits=-4.8 tagged_above=-900.0 required=6.5 tests=BAYES_00,
+ HTML_MESSAGE
+X-Spam-Level: 
+References: <404F45EC.9090709@IMS.Uni-Stuttgart.de>
+ <20040310183807.GA5701@mtkromann.id.cbs.dk>
+Original-recipient: rfc822;mtk.id@cbs.dk
+X-Text-Classification: ok
+X-POPFile-Link: <http://127.0.0.1:8080/jump_to_message?view=popfile7933=1.msg>
+Status: RO
+X-Status: A
+Content-Length: 643
+Lines: 23
+
+
+
+Matthias Trautner Kromann schrieb:
+
+>>One comment about your plans for extending TIGERSearch: it will be very 
+>>difficult to make edges across <s> segments queryable.
+>>    
+>>
+>
+>Why is that? Without knowing the detailed architecture of
+>TIGERSearch's query processor, I am a little bit surprised about this.
+>Is there no way to fix it? 
+>  
+>
+
+Secondary edges may not raise conflicts, because the query processor must
+follow only one edge to a node outside the segment. But if you want to
+add normal edges, you will run out of the scope of TIGERSearch, i.e.
+intersecting hierarchies can not be queried by TIGERSearch.
+
+Regards, Holger.
+
+
+

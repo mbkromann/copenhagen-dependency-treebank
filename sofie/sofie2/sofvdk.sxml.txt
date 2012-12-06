@@ -1,0 +1,765 @@
+<chapter=1>
+<page=11>
+<s id="danish.1" corresp="norwegian.1"><h>EDENS HAVE</h></s>
+<p>
+<s id="danish.2" corresp="norwegian.2"><h><it>... til syvende og sidst måtte et eller andet engang være opstået af nul og niks ... </it></h></s>
+<p>
+<s id="danish.3" corresp="norwegian.3">Sofie Amundsen var på vej hjem fra skole.</s>
+<s id="danish.4" corresp="norwegian.4">Det første stykke fulgtes hun med Jorunn.</s>
+<s id="danish.5" corresp="norwegian.5">De havde talt om robotter.</s>
+<s id="danish.6" corresp="norwegian.6">Jorunn havde ment, at menneskets hjerne var som en kompliceret computer.</s>
+<s id="danish.7" corresp="norwegian.7">Sofie var ikke helt sikker på, om hun var enig.</s>
+<s id="danish.8" corresp="norwegian.8">Et menneske måtte da være mere end en maskine?</s>
+<nl>
+<s id="danish.9" corresp="norwegian.9">Ved det store indkøbscenter var de gået hver til sit.</s>
+<s id="danish.10" corresp="norwegian.10">Sofie boede for enden af et vidtstrakt parcelhuskvarter og havde næsten dobbelt så lang skolevej som Jorunn.</s>
+<s id="danish.11" corresp="norwegian.11">Det var som om huset lå ved verdens ende, for bag ved hendes have var der ingen andre huse.</s>
+<s id="danish.12" corresp="norwegian.12">Her begyndte den dybe skov.</s>
+<nl>
+<s id="danish.13" corresp="norwegian.13">Nu drejede hun ind på Kløvervejen.</s>
+<s id="danish.14" corresp="norwegian.14">Helt inderst slog vejen et brat sving, der gerne kaldtes »Kaptajnsvinget«.</s>
+<s id="danish.15" corresp="norwegian.15">Det var næsten kun om lørdagen og søndagen, at der kom andre mennesker her.</s>
+<nl>
+<s id="danish.16" corresp="norwegian.16">Det var en af de første dage i maj.</s>
+<s id="danish.17" corresp="norwegian.17">I nogle af haverne stod der tætte kranse af påskeliljer under frugttræerne.</s>
+<s id="danish.18" corresp="norwegian.18">Birkene stod allerede med spæde grønne blade.</s>
+<nl>
+<s id="danish.19" corresp="norwegian.19">Var det ikke mærkeligt, hvordan alt bare begyndte at gro på denne årstid?</s>
+<s id="danish.20" corresp="norwegian.20">Hvad var det der gjorde, at kilo efter kilo af det grønne plantestof kunne vælte frem fra den livløse jord, lige så snart det blev varmt nok i vejret og de sidste rester af sne var væk?</s>
+<nl>
+<s id="danish.21" corresp="norwegian.21">Sofie kikkede i postkassen, da hun åbnede lågen ind til sin egen have.</s>
+<s id="danish.22" corresp="norwegian.22">Som regel var der en masse reklamer plus nogle store konvolutter til moren.</s>
+<s id="danish.23" corresp="norwegian.23">Hun plejede at lægge en tyk stak på køkkenbordet, inden hun gik op på sit værelse og begyndte på sine lektier.</s>
+<nl>
+<s id="danish.24" corresp="norwegian.24">Til faren kom der kun nogle bankbreve en gang imellem, men nu var han heller ikke nogen helt almindelig far.</s>
+<s id="danish.25" corresp="norwegian.25">Sofies far var kaptajn på en stor tankbåd og var bortrejst det meste af året.</s>
+<page=12>
+<s id="danish.26" corresp="norwegian.26">Når han var hjemme nogle uger ad gangen, tøflede han omkring i huset og hyggede om Sofie og moren.</s>
+<s id="danish.27" corresp="norwegian.27">Men når han var ude at sejle, kunne han godt forekomme temmelig fjern.</s>
+<nl>
+<s id="danish.28" corresp="norwegian.28">I dag var der kun et lille brev i postkassen - og det var til Sofie.</s>
+<nl>
+<s id="danish.29" corresp="norwegian.29">»Sofie Amundsen« stod der på den lille konvolut.</s>
+<s id="danish.30" corresp="norwegian.30">»Kløvervejen 3«.</s>
+<s id="danish.31" corresp="norwegian.31">Det var alt, der stod ikke hvem brevet var fra.</s>
+<s id="danish.32" corresp="norwegian.32">Der var ikke engang noget frimærke på.</s>
+<nl>
+<s id="danish.33" corresp="norwegian.33">Så snart Sofie havde lukket lågen bag sig, åbnede hun konvolutten.</s>
+<s id="danish.34" corresp="norwegian.34">Det eneste, hun fandt, var en ganske lille seddel, ikke større end konvolutten den lå i.</s>
+<s id="danish.35" corresp="norwegian.35">På seddelen stod der: <it>Hvem er du?</it></s>
+<nl>
+<s id="danish.36" corresp="norwegian.36">Der stod ikke mere.</s>
+<s id="danish.37" corresp="norwegian.37">Den lille lap papir havde ingen hilsen eller afsender, kun de tre ord, der var skrevet i hånden med et stort spørgsmålstegn bagefter.</s>
+<nl>
+<s id="danish.38" corresp="norwegian.38">Hun så igen på konvolutten.</s>
+<s id="danish.39" corresp="norwegian.39">Jo - brevet var til hende.</s>
+<s id="danish.40" corresp="norwegian.40">Men hvem havde lagt det i postkassen?</s>
+<nl>
+<s id="danish.41" corresp="norwegian.41">Sofie skyndte sig at låse sig ind i det røde hus.</s>
+<s id="danish.42" corresp="norwegian.42">Som sædvanlig nåede katten Sherekan at snige sig frem mellem buskene, springe op på trappeafsatsen og smutte ind gennem døren, inden hun havde lukket den bag sig.</s>
+<nl>
+<s id="danish.43" corresp="norwegian.43">- Mis, mis, mis!</s>
+<p>
+<s id="danish.44" corresp="norwegian.44">Når Sofies mor var sur over et eller andet, skete det at hun kaldte deres hus for et værre menageri.</s>
+<s id="danish.45" corresp="norwegian.45">Et menageri er ganske vist en samling dyr, der bliver ført fra sted til sted for at blive vist frem, men Sofie havde da i hvert fald en samling dyr, og det var hun ganske godt tilfreds med.</s>
+<s id="danish.46" corresp="norwegian.46">Først havde hun fået guldfiskene Guldtop, Rødhætte og Sorteper.</s>
+<s id="danish.47" corresp="norwegian.47">Så fik hun undulaterne Smit og Smule, skildpadden Govinda og til sidst den gulbrune tigerkat Sherekan.</s>
+<s id="danish.48" corresp="norwegian.48">Alle disse dyr havde hun fået som en slags erstatning for at moren kom sent hjem fra arbejdet og far var så meget ude i verden og sejlede.</s>
+<nl>
+<s id="danish.49" corresp="norwegian.49">Sofie smed skoletasken fra sig og stillede en skål med kattemad frem til Sherekan.</s>
+<s id="danish.50" corresp="norwegian.50">Så sank hun ned på en taburet med det mystiske brev i hånden.</s>
+<nl>
+<s id="danish.51" corresp="norwegian.51"><it>Hvem er du?</it></s>
+<nl>
+<s id="danish.52" corresp="norwegian.52">Det vidste hun skam ikke.</s>
+<s id="danish.53" corresp="norwegian.53">Hun var naturligvis Sofie Amundsen, men hvem var det?</s>
+<s id="danish.54" corresp="norwegian.54">Det havde hun ikke rigtigt fundet ud af - endnu.</s>
+<nl>
+<s id="danish.55" corresp="norwegian.55">Hvad nu hvis hun havde heddet noget ganske andet?</s>
+<s id="danish.56" corresp="norwegian.56">Anne Knudsen for eksempel.</s>
+<s id="danish.57" corresp="norwegian.57">Ville hun så have <it>været</it> en anden?</s>
+<nl>
+<s id="danish.58" corresp="norwegian.58">Pludselig kom hun i tanke om, at hendes far havde villet, at hun skulle hedde Synnøve.</s>
+<s id="danish.59" corresp="norwegian.59">Sofie forsøgte at forestille sig, at hun rakte hånden frem og præsenterede sig som Synnøve Amundsen, men nej, den gik altså ikke.</s>
+<s id="danish.60" corresp="norwegian.60">Det var hele tiden en ganske anden pige, der præsenterede sig.</s>
+<nl>
+<s id="danish.61" corresp="norwegian.61">Så røg hun ud på gulvet og videre ind i badeværelset med det underlige brev i hånden.</s>
+<s id="danish.62" corresp="norwegian.62">Hun stillede sig foran spejlet og stirrede sig selv ind i øjnene.</s>
+<nl>
+<s id="danish.63" corresp="norwegian.63">- Jeg er Sofie Amundsen, sagde hun.</s>
+<nl>
+<s id="danish.64" corresp="norwegian.64">Pigen i spejlet svarede ikke med så meget som en lille grimasse.</s>
+<s id="danish.65" corresp="norwegian.65">Lige meget hvad Sofie gjorde, gentog hun nøjagtig det samme.</s>
+<s id="danish.66" corresp="norwegian.66">Sofie forsøgte at komme spejlbilledet i forkøbet med en lynsnar bevægelse, men den anden var lige så hurtig.</s>
+<nl>
+<s id="danish.67" corresp="norwegian.67">- Hvem er du? spurgte hun.</s>
+<nl>
+<s id="danish.68" corresp="norwegian.68">Hun fik heller ikke denne gang noget svar, men et øjeblik kom hun i vildrede med, om det var hende selv eller spejlbilledet, der havde stillet spørgsmålet.</s>
+<nl>
+<s id="danish.69" corresp="norwegian.69">Sofie trykkede sin pegefinger mod næsen i spejlet og sagde:</s>
+<nl>
+<s id="danish.70" corresp="norwegian.70">- Du er mig.</s>
+<nl>
+<s id="danish.71" corresp="norwegian.71">Da hun ikke fik noget svar, vendte hun sætningen på hovedet og sagde:</s>
+<nl>
+<s id="danish.72" corresp="norwegian.72">- Jeg er dig.</s>
+<nl>
+<s id="danish.73" corresp="norwegian.73">Sofie Amundsen havde ikke altid været så tilfreds med, hvordan hun så ud.</s>
+<s id="danish.74" corresp="norwegian.74">Hun fik ofte at vide, at hun havde smukke mandelformede øjne, men det var sikkert noget de sagde, fordi næsen var for lille og munden lidt for stor.</s>
+<s id="danish.75" corresp="norwegian.75">Ørerne sad desuden alt for tæt ved øjnene.</s>
+<s id="danish.76" corresp="norwegian.76">Allerværst var dog det glatte hår som var helt umuligt at sætte.</s>
+<s id="danish.77" corresp="norwegian.77">Det skete at faren strøg hende over håret og kaldte hende »pigen med hørhåret« efter et musikstykke af Claude Debussy.</s>
+<s id="danish.78" corresp="norwegian.78">Det kunne han sagtens sige, han slap for at være dømt til livet igennem at have det der sorte hår hængende lige ned.</s>
+<s id="danish.79" corresp="norwegian.79">Hverken skum eller gelé bed på Sofies hår.</s>
+<nl>
+<s id="danish.80" corresp="norwegian.80">Nogle gange syntes hun, hendes udseende var så mærkeligt, at hun kunne blive taget for at være vanskabt.</s>
+<s id="danish.81" corresp="norwegian.81">Hendes mor havde i hvert fald talt om en vanskelig fødsel.</s>
+<s id="danish.82" corresp="norwegian.82">Men var det virkelig fødselen, der bestemte hvordan man kom til at se ud?</s>
+<nl>
+<s id="danish.83" corresp="norwegian.83">Var det ikke pudsigt at hun ikke vidste hvem hun var?</s>
+<s id="danish.84" corresp="norwegian.84">Var det ikke også urimeligt, at hun ikke kunne bestemme sit eget udseende?</s>
+<s id="danish.85" corresp="norwegian.85">Det var bare kommet tilfældigt drattende.</s>
+<s id="danish.86" corresp="norwegian.86">Hun kunne måske selv vælge sine venner, men hun havde ikke valgt sig selv.</s>
+<s id="danish.87" corresp="norwegian.87">Hun havde ikke engang valgt at være menneske.</s>
+<nl>
+<s id="danish.88" corresp="norwegian.88">Hvad var et menneske?</s>
+<nl>
+<s id="danish.89" corresp="norwegian.89">Sofie så atter op på pigen i spejlet.</s>
+<nl>
+<s id="danish.90" corresp="norwegian.90">- Jeg tror jeg går op og laver mine biologilektier, sagde hun for ligesom at undskylde sig.</s>
+<s id="danish.91" corresp="norwegian.91">I næste øjeblik var hun ude i gangen.</s>
+<nl>
+<s id="danish.92" corresp="norwegian.92">Nej, jeg vil hellere ud i haven, tænkte hun så.</s>
+<nl>
+<s id="danish.93" corresp="norwegian.93">- Mis, mis, mis, mis!</s>
+<nl>
+<s id="danish.94" corresp="norwegian.94">Sofie jagede katten ud på trappen og lukkede døren efter sig.</s>
+<p>
+<s id="danish.95" corresp="norwegian.95">Da hun stod ude på grusgangen med det mystiske brev i hånden, fik hun med ét en underlig fornemmelse.</s>
+<s id="danish.96" corresp="norwegian.96">Hun følte det omtrent, som om hun var en dukke, der med et trylleslag var blevet levende.</s>
+<nl>
+<s id="danish.97" corresp="norwegian.97">Var det ikke mærkeligt, at hun var i verden lige her og nu, at hun kunne liste omkring i sådan et forunderligt eventyr?</s>
+<nl>
+<s id="danish.98" corresp="norwegian.98">Sherekan sprang let over gruset og smuttede ind mellem nogle tætte ribsbuske.</s>
+<s id="danish.99" corresp="norwegian.99">En levende kat, lyslevende fra de hvide knurhår til den daskende hale helt bagest på den glatte krop.</s>
+<s id="danish.100" corresp="norwegian.100">Den var også i haven, men den var næppe klar over det på samme måde som Sofie.</s>
+<nl>
+<s id="danish.101" corresp="norwegian.101">Efterhånden som Sofie tænkte over at hun var til, kom hun også i tanke om, at hun ikke skulle være her altid.</s>
+<nl>
+<s id="danish.102" corresp="norwegian.102">- Jeg er i verden nu, tænkte hun.</s>
+<s id="danish.103" corresp="norwegian.103">Men en dag er jeg væk.</s>
+<nl>
+<s id="danish.104" corresp="norwegian.104">Var der et liv efter døden?</s>
+<s id="danish.105" corresp="norwegian.105">Det spørgsmål var katten nok også helt uvidende om.</s>
+<nl>
+<s id="danish.106" corresp="norwegian.106">Det var ikke så længe siden Sofies farmor døde.</s>
+<s id="danish.107" corresp="norwegian.107">Næsten hver dag i mere end et halvt år havde hun tænkt på, hvor meget hun savnede hende.</s>
+<s id="danish.108" corresp="norwegian.108">Var det ikke uretfærdigt, at livet engang holdt op?</s>
+<nl>
+<s id="danish.109" corresp="norwegian.109">Sofie blev stående på grusgangen og funderede.</s>
+<s id="danish.110" corresp="norwegian.110">Hun anstrengte sig af alle kræfter for at tænke på, at hun levede, for på den måde at glemme at hun ikke skulle være her altid.</s>
+<s id="danish.111" corresp="norwegian.111">Men det var helt umuligt.</s>
+<s id="danish.112" corresp="norwegian.112">Så snart hun koncentrerede sig om at hun eksisterede, smuttede en tanke om livets afslutning med.</s>
+<s id="danish.113" corresp="norwegian.113">Og sådan gik det også, når hun tænkte i den omvendte rækkefølge:</s>
+<s id="danish.114" corresp="norwegian.113">Først når hun fik en stærk fornemmelse af, at hun en dag ville være borte, gik det rigtigt op for hende, hvor uendelig værdifuldt livet er.</s>
+<s id="danish.115" corresp="norwegian.114">Det var lige som forsiden og bagsiden af en mønt, som man hele tiden vendte om.</s>
+<s id="danish.116" corresp="norwegian.115">Jo større og tydeligere den ene side af mønten var, desto større og tydeligere blev den anden side.</s>
+<s id="danish.117" corresp="norwegian.116">Liv og død var som to sider af samme sag.</s>
+<nl>
+<s id="danish.118" corresp="norwegian.117">Man kan ikke opleve at man lever, uden også at opleve at man skal dø, tænkte hun.</s>
+<s id="danish.119" corresp="norwegian.118">Men det er lige så umuligt at tænke over at man skal dø, uden samtidig at tænke på hvor fantastisk mærkeligt det er at leve.</s>
+<nl>
+<s id="danish.120" corresp="norwegian.119">Sofie kom i tanke om at farmor havde sagt noget lignende, den dag lægen havde meddelt hende at hun var syg.</s>
+<s id="danish.121" corresp="norwegian.120">»Først nu forstår jeg hvor rigt livet er,« havde hun sagt.</s>
+<nl>
+<s id="danish.122" corresp="norwegian.121">Var det ikke trist at de fleste var nødt til at blive syge, inden de forstod hvor godt det er at leve?</s>
+<s id="danish.123" corresp="norwegian.122">Eller i hvert fald måtte modtage et mystisk brev i postkassen!</s>
+<nl>
+<s id="danish.124" corresp="norwegian.123">Måske skulle hun se efter, om der lå noget mere?</s>
+<s id="danish.125" corresp="norwegian.124">Sofie løb hen til lågen for at se i den grønne postkasse.</s>
+<s id="danish.126" corresp="norwegian.125">Det gibbede i hende, da hun opdagede en konvolut, helt magen til den første.</s>
+<s id="danish.127" corresp="norwegian.126">Hun havde da forsikret sig om at postkassen var tom, da hun hentede den første konvolut?</s>
+<nl>
+<s id="danish.128" corresp="norwegian.127">Også på denne konvolut stod hendes navn.</s>
+<s id="danish.129" corresp="norwegian.128">Hun rev den op og fiskede en hvid seddel frem.</s>
+<nl>
+<s id="danish.130" corresp="norwegian.129"><it>Hvor kommer verden fra?</it> stod der.</s>
+<nl>
+<s id="danish.131" corresp="norwegian.130">Det ved jeg ikke, tænkte Sofie.</s>
+<s id="danish.132" corresp="norwegian.131">Det er der da ingen der <it>ved</it>?</s>
+<s id="danish.133" corresp="norwegian.132">Og dog - Sofie syntes nu alligevel, det var et berettiget spørgsmål.</s>
+<s id="danish.134" corresp="norwegian.133">For første gang i sit liv tænkte hun, at man næsten ikke kunne leve i en verden uden i det mindste at <it>spørge</it> om hvor den verden kom fra.</s>
+<nl>
+<s id="danish.135" corresp="norwegian.134">De mystiske breve havde gjort hende så ør i hovedet, at hun bestemte sig for at sætte sig ned i Hulen.</s>
+<nl>
+<s id="danish.136" corresp="norwegian.135">Hulen var Sofies superhemmelige gemmested.</s>
+<page=16>
+<s id="danish.137" corresp="norwegian.136">Her gik hun kun hen, når hun var enormt vred, enormt ked af det eller enormt glad.</s>
+<s id="danish.138" corresp="norwegian.137">I dag var hun bare forvirret.</s>
+<p>
+<s id="danish.139" corresp="norwegian.138">Det røde hus lå i en stor have.</s>
+<s id="danish.140" corresp="norwegian.139">Her var mange blomsterbede, bærbuske, forskellige frugttræer, en stor græsplæne med hængesofa og til og med et lille lysthus som farfar havde bygget til farmor, da hun mistede sit første barn kun nogle uger efter fødselen.</s>
+<s id="danish.141" corresp="norwegian.140">Det stakkels pigebarn hed Marie.</s>
+<s id="danish.142" corresp="norwegian.141">På gravstenen stod der: »Lille Marie til os kom, hun hilste blot og vendte om«.</s>
+<nl>
+<s id="danish.143" corresp="norwegian.142">Nede i det ene hjørne af haven, bag ved alle hindbærhuskene, var der et tæt krat hvor der hverken voksede blomster eller bær.</s>
+<s id="danish.144" corresp="norwegian.143">Egentlig var det en gammel hæk, der dannede grænse ind mod den store skov, men da ingen havde passet den i de sidste tyve år, var den vokset til et uigennemtrængeligt krat.</s>
+<s id="danish.145" corresp="norwegian.144">Farmor havde fortalt at hækken havde gjort det lidt sværere for rævene at gå på hønsejagt under krigen, da der gik høns frit omkring i haven.</s>
+<nl>
+<s id="danish.146" corresp="norwegian.145">For alle andre end Sofie var den gamle hæk lige så unyttig som kaninburene længere oppe i haven.</s>
+<s id="danish.147" corresp="norwegian.146">Men det var kun fordi de ikke kendte Sofies hemmelighed.</s>
+<nl>
+<s id="danish.148" corresp="norwegian.147">Så længe Sofie kunne huske tilbage, havde hun kendt til en smal åbning i hækken.</s>
+<s id="danish.149" corresp="norwegian.148">Når hun krøb igennem den, kom hun ind til et stort hulrum mellem buskene.</s>
+<s id="danish.150" corresp="norwegian.149">Det var som en lille hytte.</s>
+<s id="danish.151" corresp="norwegian.150">Hun kunne være helt sikker på, at ingen ville finde hende der.</s>
+<nl>
+<s id="danish.152" corresp="norwegian.151">Med de to konvolutter i hånden løb Sofie gennem haven, lagde sig på alle fire og ålede sig gennem hækken.</s>
+<s id="danish.153" corresp="norwegian.152">Hulen var så stor at hun kunne stå oprejst, men der var siddeplads på nogle tykke rødder.</s>
+<s id="danish.154" corresp="norwegian.153">Herfra kunne hun kikke ud gennem de små bitte huller mellem kviste og blade.</s>
+<s id="danish.155" corresp="norwegian.154">Selv om intet hul var større end en femkrone, havde hun et godt udsyn over hele haven.</s>
+<s id="danish.156" corresp="norwegian.155">Da hun var lille, havde hun nydt at følge med i, hvordan moren og faren gik rundt mellem træerne og ledte efter hende.</s>
+<nl>
+<s id="danish.157" corresp="norwegian.156">Sofie havde altid syntes, at haven var som en verden for sig.</s>
+<s id="danish.158" corresp="norwegian.157">Hver gang hun hørte om Edens Have i skabelsesberetningen, havde hun ligesom siddet herinde i Hulen og set ud over sit eget lille paradis.</s>
+<nl>
+<s id="danish.159" corresp="norwegian.158">»Hvor kommer verden fra?«</s>
+<nl>
+<s id="danish.160" corresp="norwegian.159">Nej, hun vidste det ikke.</s>
+<s id="danish.161" corresp="norwegian.160">Sofie var klar over at Jorden kun var en lille planet i det vældige verdensrum.</s>
+<s id="danish.162" corresp="norwegian.161">Men hvor kom selve verdensrummet fra?</s>
+<nl>
+<s id="danish.163" corresp="norwegian.162">Det kunne selvfølgelig tænkes, at verdensrummet havde været der altid, og så var det heller ikke nødvendigt at finde noget svar på hvor det kom fra.</s>
+<s id="danish.164" corresp="norwegian.163">Men <it>kunne</it> noget være der altid?</s>
+<s id="danish.165" corresp="norwegian.164">Der var noget inde i hende selv, der protesterede mod det.</s>
+<s id="danish.166" corresp="norwegian.165">Alt som er, må vel have haft en begyndelse?</s>
+<s id="danish.167" corresp="norwegian.166">Altså måtte verdensrummet en eller anden gang være blevet til af noget andet.</s>
+<nl>
+<s id="danish.168" corresp="norwegian.167">Men hvis verdensrummet pludselig var blevet til af noget andet, da måtte dette andet også engang være blevet til af noget andet.</s>
+<s id="danish.169" corresp="norwegian.168">Det gik op for Sofie, at hun blot havde udsat hele problemet.</s>
+<s id="danish.170" corresp="norwegian.169">Til syvende og sidst måtte et eller andet engang være blevet til af nul og niks.</s>
+<s id="danish.171" corresp="norwegian.170">Men var det muligt?</s>
+<s id="danish.172" corresp="norwegian.171">Var det ikke lige så umuligt at forestille sig som at verden altid havde eksisteret?</s>
+<nl>
+<s id="danish.173" corresp="norwegian.172">l skolen lærte de at Gud havde skabt verden, og nu forsøgte Sofie at slå sig til tåls med at det trods alt var den bedste løsning på hele problemet.</s>
+<s id="danish.174" corresp="norwegian.173">Men så begyndte tankerne igen.</s>
+<s id="danish.175" corresp="norwegian.174">Hun kunne godt gå med til at Gud havde skabt verdensrummet, men hvad med Gud selv?</s>
+<s id="danish.176" corresp="norwegian.175">Havde han da skabt sig selv af nul og niks?</s>
+<s id="danish.177" corresp="norwegian.176">Atter var der noget inden i hende der protesterede.</s>
+<s id="danish.178" corresp="norwegian.177">Selvom Gud sikkert kunne skabe både det ene og det andet, ville han næppe kunne magte at skabe sig selv, <it>inden</it> han havde noget »sig selv« at skabe med.</s>
+<s id="danish.179" corresp="norwegian.178">Så var der kun én mulighed tilbage: Gud havde eksisteret til alle tider.</s>
+<s id="danish.180" corresp="norwegian.179">Men den mulighed havde hun jo allerede forkastet!</s>
+<s id="danish.181" corresp="norwegian.180">Alt som er, må have haft en begyndelse.</s>
+<nl>
+<s id="danish.182" corresp="norwegian.181">- Pokkers osse!</s>
+<nl>
+<s id="danish.183" corresp="norwegian.182">Hun åbnede de to konvolutter igen.</s>
+<nl>
+<s id="danish.184" corresp="norwegian.183"><it>»Hvem er du?«</it></s>
+<nl>
+<s id="danish.185" corresp="norwegian.184"><it>»Hvor kommer verden fra?«</it></s>
+<nl>
+<s id="danish.186" corresp="norwegian.185">Sikke nogle tarvelige spørgsmål!</s>
+<s id="danish.187" corresp="norwegian.186">Og hvor kom de to breve fra?</s>
+<s id="danish.188" corresp="norwegian.187">Det var næsten lige så mystisk.</s>
+<nl>
+<s id="danish.189" corresp="norwegian.188">Hvem havde revet Sofie ud af hverdagen og med ét stillet hende over for universets store gåder?</s>
+<p>
+<s id="danish.190" corresp="norwegian.189">For tredje gang gik Sofie ud til postkassen.</s>
+<nl>
+<s id="danish.191" corresp="norwegian.190">Først nu havde postbudet været der med dagens post.</s>
+<s id="danish.192" corresp="norwegian.191">Sofie fiskede en fed stak reklamer, aviser og et par breve til moren op.</s>
+<page=18>
+<s id="danish.193" corresp="norwegian.192">Der lå også et postkort - med billede af en af Sydens strande.</s>
+<s id="danish.194" corresp="norwegian.193">Hun vendte kortet om.</s>
+<s id="danish.195" corresp="norwegian.194">Det havde norske frimærker og var stemplet »FN-bataljonen«.</s>
+<s id="danish.196" corresp="norwegian.195">Kunne det være fra far?</s>
+<s id="danish.197" corresp="norwegian.196">Men var han ikke et helt andet sted?</s>
+<s id="danish.198" corresp="norwegian.197">Det var heller ikke hans håndskrift.</s>
+<nl>
+<s id="danish.199" corresp="norwegian.198">Sofie følte sin puls slå lidt hurtigere da hun læste hvem kortet var adresseret til.</s>
+<s id="danish.200" corresp="norwegian.199">»Hilde Møller Knag, c/o Sofie Amundsen, Kløvervejen 3 ...«</s>
+<s id="danish.201" corresp="norwegian.200">Resten af adressen passede.</s>
+<s id="danish.202" corresp="norwegian.201">På kortet stod der:</s>
+<it>
+<s id="danish.203" corresp="norwegian.202">Kære Hilde.</s>
+<s id="danish.204" corresp="norwegian.203">Mange gange til lykke med 15-årsdagen.</s>
+<s id="danish.205" corresp="norwegian.204">Som du forstår, vil jeg give dig en gave du kan vokse på.</s>
+<s id="danish.206" corresp="norwegian.205">Tilgiv mig at jeg sender kortet til Sofie.</s>
+<s id="danish.207" corresp="norwegian.206">Det var nemmest på den måde.</s>
+<s id="danish.208" corresp="norwegian.207">Kærlig hilsen far.</s>
+</it>
+<p>
+<s id="danish.209" corresp="norwegian.208">Sofie løb tilbage til huset og ind i køkkenet.</s>
+<s id="danish.210" corresp="norwegian.209">Hendes sind var i oprør.</s>
+<nl>
+<s id="danish.211" corresp="norwegian.210">Hvem var denne »Hilde« som fyldte 15 år blot en god måneds tid inden hendes egen 15-årsdag?</s>
+<nl>
+<s id="danish.212" corresp="norwegian.211">Sofie hentede telefonbogen ude i gangen.</s>
+<s id="danish.213" corresp="norwegian.212">Der var mange der hed Møller, nogle hed også Knag.</s>
+<s id="danish.214" corresp="norwegian.213">Men ingen i hele den tykke bog hed Møller Knag.</s>
+<nl>
+<s id="danish.215" corresp="norwegian.214">Hun undersøgte det mystiske kort nok en gang.</s>
+<s id="danish.216" corresp="norwegian.215">Jo - det var ægte nok, med både frimærke og stempel.</s>
+<nl>
+<s id="danish.217" corresp="norwegian.216">Hvorfor ville en far sende et fødselsdagskort til Sofies adresse, når det helt åbenbart skulle et andet sted hen?</s>
+<s id="danish.218" corresp="norwegian.217">Hvilken far ville snyde sin egen datter for et fødselsdagskort ved bevidst at sende det på afveje?</s>
+<s id="danish.219" corresp="norwegian.218">Hvordan kunne det være »nemmest på den måde«?</s>
+<s id="danish.220" corresp="norwegian.219">Og frem for alt: Hvordan skulle hun finde Hilde?</s>
+<nl>
+<s id="danish.221" corresp="norwegian.220">Sofie havde fået nok et problem at gruble over.</s>
+<s id="danish.222" corresp="norwegian.221">Hun forsøgte at ordne sine tanker igen:</s>
+<nl>
+<s id="danish.223" corresp="norwegian.222">I løbet af et par eftermiddagstimer var hun blevet stillet over for tre gåder.</s>
+<s id="danish.224" corresp="norwegian.223">Den ene gåde var, hvem der havde lagt de to hvide konvolutter i hendes postkasse.</s>
+<s id="danish.225" corresp="norwegian.224">Den anden var de svære spørgsmål disse breve stillede.</s>
+<s id="danish.226" corresp="norwegian.225">Den tredje gåde var hvem Hilde Møller Knag var, og hvorfor Sofie modtog et fødselsdagskort til denne fremmede pige.</s>
+<nl>
+<s id="danish.227" corresp="norwegian.226">Hun følte sig sikker på at alle de tre gåder på en eller anden måde måtte hænge sammen, for indtil denne dag havde hun levet et ganske almindeligt liv.</s>
+<chapter=2>
+<page=19>
+<s id="danish.228" corresp="norwegian.227"><h>DEN HØJE HAT</h></s>
+<p>
+<s id="danish.229" corresp="norwegian.228"><h><it>... det eneste vi behøver for at blive gode filosoffer, er evnen til at undre os ...</it></h></s>
+<p>
+<s id="danish.230" corresp="norwegian.229">Sofie tog det for givet at den, der havde skrevet de anonyme breve, ville kontakte hende igen.</s>
+<s id="danish.231" corresp="norwegian.230">Indtil videre besluttede hun sig for ikke at fortælle noget om brevene til andre.</s>
+<nl>
+<s id="danish.232" corresp="norwegian.231">I skolen var det svært at koncentrere sig om hvad lærerne sagde.</s>
+<s id="danish.233" corresp="norwegian.232">Sofie syntes at de kun snakkede om uvæsentlige ting.</s>
+<s id="danish.234" corresp="norwegian.233">Hvorfor kunne de ikke hellere snakke om hvad et menneske er - eller om hvad verden er og hvordan den er blevet til?</s>
+<nl>
+<s id="danish.235" corresp="norwegian.234">Hun fik en følelse som hun aldrig før havde haft:</s>
+<s id="danish.236" corresp="norwegian.234">Både i skolen og alle andre steder var folk optaget af mere eller mindre tilfældige ting.</s>
+<s id="danish.237" corresp="norwegian.235">Men der eksisterede nogle store vanskelige spørgsmål, der var vigtigere at hitte ud af end de almindelige skolefag.</s>
+<nl>
+<s id="danish.238" corresp="norwegian.236">Var der nogen der kendte svarene på disse spørgsmål?</s>
+<s id="danish.239" corresp="norwegian.237">Sofie syntes i hvert fald at det var vigtigere at tænke over dem end at terpe stærke verber.</s>
+<nl>
+<s id="danish.240" corresp="norwegian.238">Da det ringede ud efter sidste time, var hun så hurtigt ude, at Jorunn måtte løbe for at indhente hende.</s>
+<nl>
+<s id="danish.241" corresp="norwegian.239">Lidt efter sagde Jorunn:</s>
+<nl>
+<s id="danish.242" corresp="norwegian.240">- Skal vi spille kort i aften?</s>
+<nl>
+<s id="danish.243" corresp="norwegian.241">Sofie trak på skuldrene.</s>
+<nl>
+<s id="danish.244" corresp="norwegian.242">- Jeg tror ikke jeg er så interesseret i kortspil mere.</s>
+<nl>
+<s id="danish.245" corresp="norwegian.243">Jorunn så himmelfalden ud.</s>
+<s id="danish.246" corresp="norwegian.244">- Nå, ikke?</s>
+<s id="danish.247" corresp="norwegian.245">Skal vi så spille badminton?</s>
+<nl>
+<s id="danish.248" corresp="norwegian.246">Sofie stirrede ned i asfalten og så op på veninden.</s>
+<nl>
+<s id="danish.249" corresp="norwegian.247">- Jeg tror heller ikke jeg er så interesseret i badminton.</s>
+<nl>
+<s id="danish.250" corresp="norwegian.248">-Nå, ikke?</s>
+<nl>
+<s id="danish.251" corresp="norwegian.249">Sofie mærkede en snert af bitterhed i Jorunns stemme.</s>
+<nl>
+<s id="danish.252" corresp="norwegian.250">- Du har måske lyst til at fortælle mig hvad der pludselig er blevet vigtigt?</s>
+<page=20>
+<nl>
+<s id="danish.253" corresp="norwegian.251">Sofie rystede knap nok på hovedet.</s>
+<nl>
+<s id="danish.254" corresp="norwegian.252">- Det ... det er en hemmelighed.</s>
+<nl>
+<s id="danish.255" corresp="norwegian.253.254">- Æv! Du er sikkert hare blevet forelsket!</s>
+<nl>
+<s id="danish.256" corresp="norwegian.255">Pigerne gik videre uden at sige noget i lang tid.</s>
+<s id="danish.257" corresp="norwegian.256">Da de kom til fodboldbanen, sagde Jorunn:</s>
+<nl>
+<s id="danish.258" corresp="norwegian.257">- Jeg går over banen.</s>
+<nl>
+<s id="danish.259" corresp="norwegian.258">»Over banen«.</s>
+<s id="danish.260" corresp="norwegian.259">Det var den hurtigste vej hjem til Jorunn, men den vej gik hun kun når hun skulle skynde sig, fordi de havde gæster eller hun havde en tid hos tandlægen.</s>
+<nl>
+<s id="danish.261" corresp="norwegian.260">Sofie var ked af at have såret hende.</s>
+<s id="danish.262" corresp="norwegian.261">Men hvad skulle hun have svaret?</s>
+<s id="danish.263" corresp="norwegian.262">At hun lige pludselig var blevet så optaget af hvem hun var og hvor verden kommer fra, at hun ikke havde tid til at spille badminton?</s>
+<s id="danish.264" corresp="norwegian.263">Ville veninden have forstået det?</s>
+<nl>
+<s id="danish.265" corresp="norwegian.264">Hvorfor skulle det være så svært at være optaget af de allervigtigste og på en måde mest almindelige af alle spørgsmål?</s>
+<nl>
+<s id="danish.266" corresp="norwegian.265">Hun mærkede hjertet slå hurtigere, mens hun åbnede postkassen.</s>
+<s id="danish.267" corresp="norwegian.266">I første omgang fandt hun kun et bankbrev og nogle store gule konvolutter til moren.</s>
+<s id="danish.268" corresp="norwegian.267">Øv, Sofie havde sådan håbet på et nyt brev fra den ukendte afsender.</s>
+<nl>
+<s id="danish.269" corresp="norwegian.268">Idet hun lukkede lågen efter sig, opdagede hun sit eget navn på en af de store konvolutter.</s>
+<s id="danish.270" corresp="norwegian.269.270">På bagsiden stod der: <it>Filosofikursus. Skal behandles med stor forsigtighed.</it></s>
+<nl>
+<s id="danish.271" corresp="norwegian.271">Sofie løb hen ad grusgangen og stillede skoletasken fra sig på trappen.</s>
+<s id="danish.272" corresp="norwegian.272">Hun stak de andre breve ind under måtten, løb ud i haven bag ved huset og søgte tilflugt i Hulen.</s>
+<s id="danish.273" corresp="norwegian.273">Det store brev måtte åbnes der.</s>
+<nl>
+<s id="danish.274" corresp="norwegian.274">Sherekan kom løbende efter hende, men det måtte hun finde sig i.</s>
+<s id="danish.275" corresp="norwegian.275">Sofie var ret sikker på at katten ikke ville sladre.</s>
+<nl>
+<s id="danish.276" corresp="norwegian.276">I konvolutten lå der tre store maskinskrevne ark hæftet sammen med en clips.</s>
+<s id="danish.277" corresp="norwegian.277">Sofie begyndte at læse.</s>
+<p>
+<s id="danish.278" corresp="norwegian.278"><h>Hvad er filosofi?</h></s>
+<p>
+<s id="danish.279" corresp="norwegian.279">Kære Sofie.</s>
+<nl>
+<s id="danish.280" corresp="norwegian.280">Mange mennesker har forskellige hobbies.</s>
+<s id="danish.281" corresp="norwegian.281">Nogle samler på gamle mønter, nogle er optaget af håndarbejde, andre bruger det meste af fritiden på en bestemt idræt.</s>
+<nl>
+<s id="danish.282" corresp="norwegian.282">Mange kan også lide at læse.</s>
+<s id="danish.283" corresp="norwegian.283">Men der er stor forskel på hvad vi læser.</s>
+<s id="danish.284" corresp="norwegian.284">Nogle læser kun aviser og tegneserier, nogle kan lide romaner, mens andre foretrækker bøger om forskellige emner som astronomi, dyreliv eller tekniske opfindelser.</s>
+<nl>
+<s id="danish.285" corresp="norwegian.285">Hvis jeg er optaget af heste og smykkestene, kan jeg ikke forlange at alle andre skal være lige så optaget af det.</s>
+<s id="danish.286" corresp="norwegian.286">Hvis jeg spændt følger med i alle TV's sportsudsendelser, må jeg tåle at andre synes sport er kedeligt.</s>
+<nl>
+<s id="danish.287" corresp="norwegian.287">Er der alligevel noget der burde interessere alle?</s>
+<s id="danish.288" corresp="norwegian.288">Findes der noget som angår alle mennesker uanset hvem de er eller hvor i verden de bor?</s>
+<s id="danish.289" corresp="norwegian.289">Ja, kære Sofie, der findes nogle spørgsmål som burde optage alle mennesker.</s>
+<s id="danish.290" corresp="norwegian.290">Det er den slags spørgsmål som dette kursus handler om.</s>
+<nl>
+<s id="danish.291" corresp="norwegian.291">Hvad er vigtigst i livet?</s>
+<s id="danish.292" corresp="norwegian.292">Hvis vi spørger en der lever på sultegrænsen, er svaret mad.</s>
+<s id="danish.293" corresp="norwegian.293">Hvis vi stiller det samme spørgsmål til en der fryser, er svaret varme.</s>
+<s id="danish.294" corresp="norwegian.294">Og hvis vi spørger et menneske, som føler sig ensom og alene, så vil svaret nok være fælleskab med andre mennesker.</s>
+<nl>
+<s id="danish.295" corresp="norwegian.295">Men når den slags behov er dækket - er der så stadig noget som alle mennesker har behov for?</s>
+<s id="danish.296" corresp="norwegian.296">Det mener filosofferne.</s>
+<s id="danish.297" corresp="norwegian.297">De mener at mennesket ikke kan leve af brød alene.</s>
+<s id="danish.298" corresp="norwegian.298">Alle mennesker har brug for mad.</s>
+<s id="danish.299" corresp="norwegian.299">Alle har også behov for kærlighed og omsorg.</s>
+<s id="danish.300" corresp="norwegian.300.301">Men der er stadig noget - ud over dette - som alle mennesker har behov for: at finde et svar på hvem vi er og hvorfor vi lever.</s>
+<nl>
+<s id="danish.301" corresp="norwegian.302">Det at interessere sig for hvorfor vi lever, er altså ikke en lige så »tilfældig« interesse som det at samle på frimærker.</s>
+<s id="danish.302" corresp="norwegian.303">Den der interesserer sig for den slags spørgsmål, er optaget af noget som mennesker har diskuteret lige så længe som vi har levet på denne planet.</s>
+<s id="danish.303" corresp="norwegian.304">Hvordan verdensrummet, jordkloden og livet her er blevet til, er et større og vigtigere spørgsmål end hvem der vandt flest guldmedaljer ved den sidste olympiade.</s>
+<p>
+<s id="danish.304" corresp="norwegian.305">Den bedste måde at nærme sig filosofien på, er at stille nogle filosofiske spørgsmål:</s>
+<page=22>
+<s id="danish.305" corresp="norwegian.306">Hvordan er verden skabt?</s>
+<s id="danish.306" corresp="norwegian.307">Findes der en vilje eller mening bag det der sker?</s>
+<s id="danish.307" corresp="norwegian.308">Er der et liv efter døden?</s>
+<s id="danish.308" corresp="norwegian.309">Hvordan skal vi i det hele taget finde ud af den slags spørgsmål?</s>
+<s id="danish.309" corresp="norwegian.310">Og fremfor alt: Hvordan bør vi leve?</s>
+<nl>
+<s id="danish.310" corresp="norwegian.311">Spørgsmål som disse har været stillet af mennesker til alle tider.</s>
+<s id="danish.311" corresp="norwegian.312">Vi kender ikke nogen kultur som ikke har været optaget af hvem mennesket er og hvor verden kommer fra.</s>
+<nl>
+<s id="danish.312" corresp="norwegian.313">I grunden er der ikke så mange forskellige filosofiske spørgsmål vi kan stille.</s>
+<s id="danish.313" corresp="norwegian.314">Vi har allerede stillet nogle af de vigtigste.</s>
+<s id="danish.314" corresp="norwegian.315">Men historien viser os mange forskellige <it>svar</it> på hvert eneste spørgsmål.</s>
+<nl>
+<s id="danish.315" corresp="norwegian.316">Det er altså nemmere at stille de filosofiske spørgsmål end det er at svare på dem.</s>
+<nl>
+<s id="danish.316" corresp="norwegian.317">Også i dag må den enkelte finde frem til sine egne svar på de samme spørgsmål.</s>
+<s id="danish.317" corresp="norwegian.318">Det nytter ikke at slå op i et leksikon for at finde ud af om der findes en Gud eller om der er noget liv efter døden.</s>
+<s id="danish.318" corresp="norwegian.319">Et leksikon giver os heller ikke noget svar på hvordan vi bør leve.</s>
+<s id="danish.319" corresp="norwegian.320">At læse hvad andre mennesker har tænkt, kan alligevel være til hjælp når vi skal udforme vort eget syn på livet.</s>
+<nl>
+<s id="danish.320" corresp="norwegian.321">Filosoffernes jagt på sandheden kan måske sammenlignes med en detektiv-historie.</s>
+<s id="danish.321" corresp="norwegian.322">Nogle tror at Andersen er morderen, andre at det er Nielsen eller Jensen.</s>
+<s id="danish.322" corresp="norwegian.323">Når det drejer sig om en virkelig kriminalgåde, kan det ske at politiet pludselig en dag er i stand til at løse den.</s>
+<s id="danish.323" corresp="norwegian.324">Naturligvis kan det også tænkes, at de aldrig er i stand til det.</s>
+<s id="danish.324" corresp="norwegian.325">Men mysteriet <it>har</it> alligevel en løsning.</s>
+<nl>
+<s id="danish.325" corresp="norwegian.326">Selv om det er vanskeligt at svare på et spørgsmål, kan spørgsmålet godt have et - og kun ét - rigtigt svar.</s>
+<s id="danish.326" corresp="norwegian.327">Enten <it>er</it> der en slags tilværelse efter døden - eller også er der ikke.</s>
+<nl>
+<s id="danish.327" corresp="norwegian.328">Mange gamle gåder er efterhånden blevet løst af videnskaben.</s>
+<s id="danish.328" corresp="norwegian.329">Engang var det en stor gåde hvordan der så ud på månens bagside.</s>
+<s id="danish.329" corresp="norwegian.330">Den slags var ikke noget man kunne diskutere sig frem til, her var svaret overladt til den enkeltes fantasi.</s>
+<s id="danish.330" corresp="norwegian.331">Men i dag ved vi nøjagtig hvordan månens bagside ser ud.</s>
+<s id="danish.331" corresp="norwegian.332">Man kan ikke længere »tro« at der bor en mand i månen eller at månen er en ost.</s>
+<nl>
+<s id="danish.332" corresp="norwegian.333">En af de gamle græske filosoffer som levede for mere end to tusinde år siden, mente at filosofien opstod på grund af menneskets undren.</s>
+<s id="danish.333" corresp="norwegian.334">Mennesket synes det er så mærkeligt at være til, at de filosofiske spørgsmål opstår ganske af sig selv, mente han.</s>
+<nl>
+<s id="danish.334" corresp="norwegian.335">Det er som når vi ser på en tryllekunst:</s>
+<s id="danish.335" corresp="norwegian.335">Vi kan ikke begribe hvordan det går til.</s>
+<s id="danish.336" corresp="norwegian.336">Så det er det, vi spørger om: Hvordan kan tryllekunstneren forvandle et par hvide silketørklæder til en levende kanin?</s>
+<nl>
+<s id="danish.337" corresp="norwegian.337">Mange mennesker oplever, at verden er lige så ufattelig som når en tryllekunstner pludselig trækker en kanin op af en høj hat, der for et øjeblik siden var fuldstændig tom.</s>
+<nl>
+<s id="danish.338" corresp="norwegian.338">Når det gælder kaninen, ved vi at tryllekunstneren må have fuppet os.</s>
+<s id="danish.339" corresp="norwegian.339">Men vi vil gerne afsløre, hvordan han kan gøre det.</s>
+<s id="danish.340" corresp="norwegian.340">Når vi taler om verden, er det lidt anderledes.</s>
+<s id="danish.341" corresp="norwegian.341">Vi ved at verden ikke er fup og bedrag, for vi går omkring på jorden og er selv en del af den.</s>
+<s id="danish.342" corresp="norwegian.342">I grunden er det os der er den hvide kanin, der bliver trukket op af den høje hat.</s>
+<s id="danish.343" corresp="norwegian.343">Forskellen på os og den hvide kanin er blot den, at kaninen ikke har nogen oplevelse af at deltage i en tryllekunst.</s>
+<s id="danish.344" corresp="norwegian.344">Så er det anderledes med os.</s>
+<s id="danish.345" corresp="norwegian.345">Vi synes at vi er med i noget gådefuldt og vil gerne afsløre hvordan det hele hænger sammen.</s>
+<nl>
+<s id="danish.346" corresp="norwegian.346.347">PS. Når det gælder den hvide kanin, er det måske bedre at sammenligne den med hele universet.</s>
+<s id="danish.347" corresp="norwegian.348">Vi som bor her, er nogle små bitte kryb der lever dybt nede i kaninens pels.</s>
+<s id="danish.348" corresp="norwegian.349">Men filosofferne forsøger at klatre op på et af de tynde pelshår, så de kan stirre den store tryllekunstner lige ind i øjnene.</s>
+<nl>
+<s id="danish.349" corresp="norwegian.350">Er du med, Sofie?</s>
+<s id="danish.350" corresp="norwegian.351">Fortsættelse følger.</s>
+<p>
+<s id="danish.351" corresp="norwegian.352">Sofie var helt mat.</s>
+<s id="danish.352" corresp="norwegian.353">Om hun var med?</s>
+<s id="danish.353" corresp="norwegian.354">Hun kunne ikke engang huske om hun havde nået at trække vejret under læsningen.</s>
+<s id="danish.354" corresp="norwegian.355">Hvem var kommet med brevet?</s>
+<s id="danish.355" corresp="norwegian.356">Hvem?</s>
+<s id="danish.356" corresp="norwegian.356">Hvem?</s>
+<nl>
+<s id="danish.357" corresp="norwegian.357">Det kunne umuligt være den samme som havde sendt et fødselsdagskort til Hilde Møller Knag, for kortet havde haft både frimærke og stempel.</s>
+<s id="danish.358" corresp="norwegian.358">Den gule konvolut var lagt direkte i deres postkasse ligesom de to hvide konvolutter.</s>
+<nl>
+<s id="danish.359" corresp="norwegian.359">Sofie så på uret.</s>
+<s id="danish.360" corresp="norwegian.360">Den var kvart i tre.</s>
+<s id="danish.361" corresp="norwegian.361">Så var der næsten to timer til moren kom hjem fra arbejde.</s>
+<page=24>
+<s id="danish.362" corresp="norwegian.362">Sofie krøb atter ud i haven og løb over til postkassen.</s>
+<s id="danish.363" corresp="norwegian.363">Måske lå der mere i den?</s>
+<nl>
+<s id="danish.364" corresp="norwegian.364">Hun fandt en ny gul konvolut med sit navn udenpå.</s>
+<s id="danish.365" corresp="norwegian.365">Nu kikkede hun sig omkring til alle sider, men så ingen.</s>
+<s id="danish.366" corresp="norwegian.366">Sofie løb over mod skovbrynet og spejdede ind over stien.</s>
+<nl>
+<s id="danish.367" corresp="norwegian.367">Ikke en levende sjæl.</s>
+<nl>
+<s id="danish.368" corresp="norwegian.368">Med ét syntes hun at hun kunne høre nogle kviste knække langt inde i skoven.</s>
+<s id="danish.369" corresp="norwegian.369">Hun var ikke helt sikker, men det ville også være nytteløst at optage jagten på en der af alle kræfter forsøgte at komme væk.</s>
+<nl>
+<s id="danish.370" corresp="norwegian.370">Sofie låste sig ind i huset og lagde skoletasken og morens post fra sig.</s>
+<s id="danish.371" corresp="norwegian.371">Hun løb op på sit værelse, hentede den store kagedåse med alle de fine sten, hældte stenene ud på gulvet og lagde begge de store konvolutter i dåsen.</s>
+<s id="danish.372" corresp="norwegian.372">Så løb hun ud i haven igen med kagedåsen i armene.</s>
+<s id="danish.373" corresp="norwegian.373">Inden hun gik, stillede hun kattemad frem til Sherekan.</s>
+<nl>
+<s id="danish.374" corresp="norwegian.374">- Mis, mis, mis!</s>
+<nl>
+<s id="danish.375" corresp="norwegian.375">Da hun var tilbage i Hulen, åbnede hun konvolutten og trak flere nye maskinskrevne ark frem.</s>
+<s id="danish.376" corresp="norwegian.376">Hun begyndte at læse.</s>
+<p>
+<s id="danish.377" corresp="norwegian.377"><h>Et forunderligt væsen</h></s>
+<p>
+<s id="danish.378" corresp="norwegian.378">Så er vi her igen!</s>
+<s id="danish.379" corresp="norwegian.379">Som du forstår, vil det lille filosofikursus komme i passende portioner.</s>
+<s id="danish.380" corresp="norwegian.380">Her følger nogle indledende bemærkninger:</s>
+<nl>
+<s id="danish.381" corresp="norwegian.381">Sagde jeg at det eneste vi behøver for at blive gode filosoffer, er en evne til at undre os?</s>
+<s id="danish.382" corresp="norwegian.382">Hvis ikke, siger jeg det nu:</s>
+<s id="danish.383" corresp="norwegian.382">DET ENESTE VI BEHØVER FOR AT BLIVE GODE FILOSOFFER, ER EVNEN TIl AT UNDRE OS.</s>
+<nl>
+<s id="danish.384" corresp="norwegian.383">Alle små børn har den evne.</s>
+<s id="danish.385" corresp="norwegian.384">Det manglede også bare.</s>
+<s id="danish.386" corresp="norwegian.385">Efter ganske få måneder smutter de ud til en funklende ny virkelighed.</s>
+<s id="danish.387" corresp="norwegian.386">Men efterhånden som de vokser op, synes evnen til at blive forundret at aftage.</s>
+<s id="danish.388" corresp="norwegian.387">Hvordan kan det være?</s>
+<s id="danish.389" corresp="norwegian.388">Har Sofie Amundsen noget svar på det?</s>
+<nl>
+<s id="danish.390" corresp="norwegian.389">Altså: Hvis et spædbarn havde kunnet tale, ville det sikkert sige noget om hvilken forunderlig verden det er kommet til.</s>
+<s id="danish.391" corresp="norwegian.390">For selv om barnet ikke kan tale, ser vi hvordan det peger omkring sig og griber nysgerrigt ud efter tingene i rummet.</s>
+<nl>
+<s id="danish.392" corresp="norwegian.391">Efterhånden som de første ord kommer, stopper barnet og råber »vov-vov« hver eneste gang det ser en hund.</s>
+<s id="danish.393" corresp="norwegian.392.393">Det hopper op og ned i klapvognen og vifter med armene: »Vov-vov! Vov-vov!«</s>
+<s id="danish.394" corresp="norwegian.394">Vi som har nogle år på bagen, føler os måske lidt udmattet af barnets iver.</s>
+<s id="danish.395" corresp="norwegian.395">»Jo, jo, det er en vov-vov,« siger vi, lidt blaseret, »men nu må du sidde stille i vognen.«</s>
+<s id="danish.396" corresp="norwegian.396">Vi er knap så begejstrede.</s>
+<s id="danish.397" corresp="norwegian.397">Vi har set hunde før.</s>
+<nl>
+<s id="danish.398" corresp="norwegian.398">Måske gentages det ellevilde optrin nogle hundrede gange inden barnet er i stand til at passere en hund uden at miste besindelsen.</s>
+<s id="danish.399" corresp="norwegian.399">Eller en elefant, eller en flodhest.</s>
+<s id="danish.400" corresp="norwegian.400">Men længe inden barnet lærer at tale rent - og længe inden det lærer at tænke filosofisk - er verden blevet en vane.</s>
+<nl>
+<s id="danish.401" corresp="norwegian.401">Trist, hvis du vil høre min mening.</s>
+<nl>
+<s id="danish.402" corresp="norwegian.402">Mit anliggende er at du ikke må være blandt dem der tager verden for givet, kæreSofie.</s>
+<s id="danish.403" corresp="norwegian.403">For en sikkerheds skyld skal vi derfor gøre et par tankeeksperimenter, inden vi begynder på selve filosofikurset.</s>
+<nl>
+<s id="danish.404" corresp="norwegian.404">Forestil dig at du en dag er en tur i skoven.</s>
+<s id="danish.405" corresp="norwegian.405">Pludselig får du øje på et lille rumskib på stien foran dig.</s>
+<s id="danish.406" corresp="norwegian.406">Ud af rumskibet klatrer en lille Mars-beboer, som bliver stående på stien og stirrer op på dig ...</s>
+<nl>
+<s id="danish.407" corresp="norwegian.407">Hvad vil du så tænke?</s>
+<s id="danish.408" corresp="norwegian.408">Nå, det kan også være lige meget.</s>
+<s id="danish.409" corresp="norwegian.409">Men har det nogensinde slået dig, at du selv er sådan en Mars-beboer?</s>
+<nl>
+<s id="danish.410" corresp="norwegian.410">Nu er det jo ikke særlig sandsynligt at du nogensinde vil komme til at falde over en skabning fra en anden planet.</s>
+<s id="danish.411" corresp="norwegian.411">Vi ved ikke engang om der findes liv på andre planeter.</s>
+<s id="danish.412" corresp="norwegian.412">Men måske snubler du en dag over dig selv.</s>
+<s id="danish.413" corresp="norwegian.413">Måske stopper du pludselig en dag op og oplever dig selv på en helt ny måde.</s>
+<s id="danish.414" corresp="norwegian.414">Måske sker det netop på en tur i skoven.</s>
+<nl>
+<s id="danish.415" corresp="norwegian.415">- Jeg er et forunderligt væsen, tænker du.</s>
+<s id="danish.416" corresp="norwegian.416">- Jeg er et mystisk dyr ...</s>
+<nl>
+<s id="danish.417" corresp="norwegian.417">Det er som om du vågner efter en årelang tornerosesøvn.</s>
+<s id="danish.418" corresp="norwegian.418">Hvem er jeg? spørger du.</s>
+<s id="danish.419" corresp="norwegian.419">Du ved at du kravler omkring på en klode i universet.</s>
+<page=26>
+<s id="danish.420" corresp="norwegian.420">Men hvad er universet?</s>
+<nl>
+<s id="danish.421" corresp="norwegian.421">Hvis du opdager dig selv på den måde, har du opdaget noget som er lige så mystisk som den Mars-beboer, vi begyndte med.</s>
+<s id="danish.422" corresp="norwegian.422">Du har ikke alene set et væsen fra verdensrummet.</s>
+<s id="danish.423" corresp="norwegian.423">Du fornemmer indefra at du selv er sådan et forunderligt væsen.</s>
+<nl>
+<s id="danish.424" corresp="norwegian.424">Er du med, Sofie?</s>
+<s id="danish.425" corresp="norwegian.425">Vi laver endnu en tankeeksperiment:</s>
+<nl>
+<s id="danish.426" corresp="norwegian.426">En morgen sidder mor og far og lille Thomas på 2-3 år i køkkenet og spiser morgenmad.</s>
+<s id="danish.427" corresp="norwegian.427">Mor rejser sig og vender sig mod køkkenbordet, og nu - ja, nu begynder far med ét at svæve oppe under loftet, mens Thomas sidder og ser på.</s>
+<nl>
+<s id="danish.428" corresp="norwegian.428">Hvad tror du Thomas vil sige?</s>
+<s id="danish.429" corresp="norwegian.429">Han peger måske op på sin far og siger: - Far flyver!</s>
+<nl>
+<s id="danish.430" corresp="norwegian.430">Ganske vist vil Thomas være forundret, men det er han jo både tit og ofte.</s>
+<s id="danish.431" corresp="norwegian.431">Far gør alligevel så meget mærkeligt at det her med en lille flyvetur hen over morgenbordet ikke ændrer noget særligt i hans øjne.</s>
+<s id="danish.432" corresp="norwegian.432">Hver dag barberer far sig med en sjov maskine, nogle gange klatrer han op på taget og drejer på TV-antennen - eller også stikker han hovedet ned i en bilmotor og kommer op igen sort som en neger.</s>
+<nl>
+<s id="danish.433" corresp="norwegian.433">Så er det mors tur.</s>
+<s id="danish.434" corresp="norwegian.434">Hun har hørt hvad Thomas sagde og vender sig resolut om.</s>
+<s id="danish.435" corresp="norwegian.435">Hvordan tror du hun vil reagere på synet af far fritsvævende over morgenbordet?</s>
+<nl>
+<s id="danish.436" corresp="norwegian.436">Hun taber straks syltetøjsglasset på gulvet og hyler af lutter forskrækkelse.</s>
+<s id="danish.437" corresp="norwegian.437">Måske får hun brug for lægebehandling efter at far er kommet pænt ned på sin stol igen.</s>
+<s id="danish.438" corresp="norwegian.438">(Han burde forlængst have lært at sidde pænt ved bordet!)</s>
+<nl>
+<s id="danish.439" corresp="norwegian.439">Hvorfor tror du Thomas og mor reagerer så forskelligt?</s>
+<nl>
+<s id="danish.440" corresp="norwegian.440">Det har med <it>vane</it> at gøre.</s>
+<s id="danish.441" corresp="norwegian.441">(Notér dig det!)</s>
+<s id="danish.442" corresp="norwegian.442">Mor har lært at mennesker ikke kan flyve.</s>
+<s id="danish.443" corresp="norwegian.443">Det har Thomas ikke.</s>
+<s id="danish.444" corresp="norwegian.444">Han er fortsat usikker på hvad der lader sig gøre og hvad der ikke lader sig gøre i denne verden.</s>
+<nl>
+<s id="danish.445" corresp="norwegian.445">Men hvad så med verden selv, Sofie?</s>
+<s id="danish.446" corresp="norwegian.446">Synes du den lader sig gøre?</s>
+<s id="danish.447" corresp="norwegian.447">Også den er jo frit svævende!</s>
+<nl>
+<s id="danish.448" corresp="norwegian.448">Det triste er at det ikke alene er tyngdeloven vi vænner os til under opvæksten.</s>
+<s id="danish.449" corresp="norwegian.449">Vi vænner os i en ruf til verden som sådan.</s>
+<nl>
+<s id="danish.450" corresp="norwegian.450">Det ser ud til at vi i løbet af opvæksten mister evnen til at forundres over verden.</s>
+<s id="danish.451" corresp="norwegian.451">Men så mister vi noget væsentligt - noget filosofferne forsøger at vække til live igen.</s>
+<s id="danish.452" corresp="norwegian.452">For et sted inden i os er der noget der siger at livet er en stor gåde.</s>
+<s id="danish.453" corresp="norwegian.453">Det var noget vi engang oplevede at det var, længe inden vi lærte at tænke det.</s>
+<p>
+<s id="danish.454" corresp="norwegian.454">Jeg præciserer:</s>
+<s id="danish.455" corresp="norwegian.454">Selv om de filosofiske spørgsmål angår alle mennesker, bliver vi ikke alle sammen til filosoffer.</s>
+<s id="danish.456" corresp="norwegian.455">Af forskellige grunde bliver de fleste så indfanget af hverdagen, at deres forundring over livet bliver skubbet helt i baggrunden.</s>
+<s id="danish.457" corresp="norwegian.456">(De kryber dybt ned i kaninpelsen, lægger sig godt til rette og bliver dernede resten af livet.)</s>
+<nl>
+<s id="danish.458" corresp="norwegian.457">For børnene er verden - og alt som findes her - noget <it>nyt</it>, noget der vækker forbavselse.</s>
+<s id="danish.459" corresp="norwegian.458">Sådan er det ikke for alle voksne.</s>
+<s id="danish.460" corresp="norwegian.459">De fleste voksne oplever verden som noget ganske almindeligt.</s>
+<nl>
+<s id="danish.461" corresp="norwegian.460">Her er filosofferne en hæderlig undtagelse.</s>
+<s id="danish.462" corresp="norwegian.461">En filosof har aldrig helt vænnet sig til verden.</s>
+<s id="danish.463" corresp="norwegian.462">For ham eller hende er verden fortsat noget urimeligt - ja, noget gådefuldt og mystisk.</s>
+<s id="danish.464" corresp="norwegian.463">Filosoffer og små børn har altså en vigtig egenskab til fælles.</s>
+<s id="danish.465" corresp="norwegian.464">Du kan godt sige at en filosof hele livet forbliver lige så tyndhudet som et lille barn.</s>
+<nl>
+<s id="danish.466" corresp="norwegian.465">Så nu må du vælge, Sofie.</s>
+<s id="danish.467" corresp="norwegian.466">Er du et barn som endnu ikke har nået at blive blaseret?</s>
+<s id="danish.468" corresp="norwegian.467">Eller er du en filosof som kan sværge på at du aldrig vil blive det?</s>
+<nl>
+<s id="danish.469" corresp="norwegian.468">Hvis du kun ryster på hovedet, og hverken genkender dig selv som barn eller filosof, er det fordi du også er blevet så vant til verden at den ikke længere forbavser dig.</s>
+<s id="danish.470" corresp="norwegian.469">I så fald er der fare på færde.</s>
+<s id="danish.471" corresp="norwegian.470">Og det er derfor du modtager dette filosofikursus, altså for en sikkerheds skyld.</s>
+<s id="danish.472" corresp="norwegian.471">Jeg vil ikke have at lige netop du skal være blandt de sløve og ligeglade.</s>
+<s id="danish.473" corresp="norwegian.472">Jeg vil have du skal leve et vågent liv.</s>
+<nl>
+<s id="danish.474" corresp="norwegian.473">Du får hele dette kursus gratis.</s>
+<s id="danish.475" corresp="norwegian.474">Derfor får du heller ikke nogen penge retur hvis du ikke gennemfører det.</s>
+<s id="danish.476" corresp="norwegian.475">Hvis du ønsker at afbryde kurset, er det helt op til dig.</s>
+<s id="danish.477" corresp="norwegian.476">I så fald må du lægge en besked til mig i postkassen.</s>
+<s id="danish.478" corresp="norwegian.477">En levende frø kunne være meget passende.</s>
+<s id="danish.479" corresp="norwegian.478">Det skal i hvert fald helst være noget grønt; hvis ikke bliver postbudet måske skrækslagen.</s>
+<page=28>
+<nl>
+<s id="danish.480" corresp="norwegian.479">Kort opsummering:</s>
+<s id="danish.481" corresp="norwegian.479">En hvid kanin trækkes op af en tom høj bat.</s>
+<s id="danish.482" corresp="norwegian.480">Eftersom det drejer sig om en meget stor kanin, varer dette trick i mange milliarder af år.</s>
+<s id="danish.483" corresp="norwegian.481">Yderst ude på de tynde hår bliver alle menneskebørn født.</s>
+<s id="danish.484" corresp="norwegian.482">Derfor er de i stand til at undre sig over denne umulige tryllekunst.</s>
+<s id="danish.485" corresp="norwegian.483">Men efterhånden som de bliver ældre, kryber de stadig dybere ned i kaninens pels.</s>
+<s id="danish.486" corresp="norwegian.484">Og der forbliver de.</s>
+<s id="danish.487" corresp="norwegian.485">Nu har de det så behageligt, at de aldrig vover at kravle op på de tynde yderhår i pelsen igen.</s>
+<s id="danish.488" corresp="norwegian.486">Kun filosofferne lægger ud på den farefulde færd til sprogets og tilværelsens ydergrænser.</s>
+<s id="danish.489" corresp="norwegian.487">Nogle af dem falder af, men andre klamrer sig fast til kaninpelsens hår og råber ned til alle de mennesker der sidder dybt nede i den bløde kaninpels og mæsker sig med god mad og drikke.</s>
+<nl>
+<s id="danish.490" corresp="norwegian.488">- Mine damer og herrer, siger de.</s>
+<s id="danish.491" corresp="norwegian.489">- Vi svæver i det tomme rum!</s>
+<nl>
+<s id="danish.492" corresp="norwegian.490">Men ingen af menneskene nede i pelsen bryder sig om det filosofferne råber.</s>
+<nl>
+<s id="danish.493" corresp="norwegian.491">- Føj, sikke nogle fredsforstyrrere, siger de.</s>
+<nl>
+<s id="danish.494" corresp="norwegian.492">Og så fortsætter de snakken fra før:</s>
+<s id="danish.495" corresp="norwegian.492">Vil du sende mig smørret?</s>
+<s id="danish.496" corresp="norwegian.493">Hvor højt står bankaktierne i dag?</s>
+<s id="danish.497" corresp="norwegian.494">Hvor meget koster tomaterne?</s>
+<s id="danish.498" corresp="norwegian.495">Har du hørt at lady Di skal have barn igen?</s>
+<p>
+<s id="danish.499" corresp="norwegian.496">Da Sofies mor kom hjem senere på eftermiddagen, var Sofie nærmest i choktilstand.</s>
+<s id="danish.500" corresp="norwegian.497">Kagedåsen med brevene fra den mystiske filosof lå trygt forvaret i Hulen.</s>
+<s id="danish.501" corresp="norwegian.498">Sofie havde forsøgt at læse lektier, men hun blev bare siddende og funderede over det, hun havde læst.</s>
+<nl>
+<s id="danish.502" corresp="norwegian.499">Hvor var der meget hun ikke havde tænkt på før!</s>
+<s id="danish.503" corresp="norwegian.500">Hun var ikke længere noget barn - men hun var heller ikke rigtig voksen.</s>
+<s id="danish.504" corresp="norwegian.501">Sofie forstod at hun allerede var begyndt at krybe ned i kaninens tætte pels, lige netop den kanin, der blev trukket op af universets høje sorte hat.</s>
+<s id="danish.505" corresp="norwegian.502">Men så havde filosoffen stoppet hende.</s>
+<s id="danish.506" corresp="norwegian.503">Han - eller var det en hun? - havde grebet hende i nakken og trukket hende op igen på det pelshår, hvor hun havde leget som barn.</s>
+<s id="danish.507" corresp="norwegian.504">Og derude, på det yderste tynde hår, havde hun atter set verden som om det var allerførste gang.</s>
+<nl>
+<s id="danish.508" corresp="norwegian.505">Filosoffen havde reddet hende.</s>
+<s id="danish.509" corresp="norwegian.506">Ingen tvivl om det.</s>
+<s id="danish.510" corresp="norwegian.507">Den ukendte brevskriver havde reddet hende fra hverdagslivets ligegyldighed.</s>
+<nl>
+<s id="danish.511" corresp="norwegian.508">Da moren kom hjem ved fem-tiden, trak Sofie hende ind i stuen og puffede hende ned i en stol.</s>
+<nl>
+<s id="danish.512" corresp="norwegian.509">- Mor - synes du ikke det er mærkeligt at leve? begyndte hun.</s>
+<nl>
+<s id="danish.513" corresp="norwegian.510">Moren blev så forfjamsket at hun ikke vidste hvad hun skulle svare.</s>
+<s id="danish.514" corresp="norwegian.511">Som regel sad Sofie og læste lektier, når hun kom hjem.</s>
+<nl>
+<s id="danish.515" corresp="norwegian.512">- Tja, sagde hun så.</s>
+<s id="danish.516" corresp="norwegian.513">- En gang imellem.</s>
+<nl>
+<s id="danish.517" corresp="norwegian.514">-En gang imellem?</s>
+<s id="danish.518" corresp="norwegian.515">Jeg mener - synes du ikke det er mærkeligt at der i det hele taget <it>findes</it> en verden?</s>
+<nl>
+<s id="danish.519" corresp="norwegian.516">- Nej, Sofie, sådan må du da ikke snakke!</s>
+<nl>
+<s id="danish.520" corresp="norwegian.517">- Hvorfor ikke?</s>
+<s id="danish.521" corresp="norwegian.518">Du synes måske at verden er helt normal?</s>
+<nl>
+<s id="danish.522" corresp="norwegian.519">- Ja, men det er den da.</s>
+<s id="danish.523" corresp="norwegian.520">Stort set.</s>
+<nl>
+<s id="danish.524" corresp="norwegian.521">Sofie forstod at filosoffen havde ret.</s>
+<s id="danish.525" corresp="norwegian.522">De voksne tog verden for givet.</s>
+<s id="danish.526" corresp="norwegian.523">De havde én gang for alle lullet sig ind i hverdagslivets tornerosesøvn.</s>
+<nl>
+<s id="danish.527" corresp="norwegian.525">- Det er bare dig, der er blevet så vant til verden at den ikke længere forbavser dig, sagde hun.</s>
+<nl>
+<s id="danish.528" corresp="norwegian.526">- Hvad <it>er</it> det du siger?</s>
+<nl>
+<s id="danish.529" corresp="norwegian.527">- Jeg siger at du er blevet alt for blaseret.</s>
+<s id="danish.530" corresp="norwegian.528">Torskedum med andre ord.</s>
+<nl>
+<s id="danish.531" corresp="norwegian.529">- Nej, sådan må du ikke snakke til mig, Sofie.</s>
+<nl>
+<s id="danish.532" corresp="norwegian.530">- Så vil jeg sige det på en anden måde.</s>
+<s id="danish.533" corresp="norwegian.531">Du har fundet dig godt til rette dybt nede i pelsen på den hvide kanin, der lige i dette øjeblik bliver trukket op af universets høje hat.</s>
+<s id="danish.534" corresp="norwegian.532">Og nu skal du snart sætte kartoflerne over.</s>
+<s id="danish.535" corresp="norwegian.533">Så skal du læse avisen, og efter en halv times hvil skal du se TV-avisen.</s>
+<nl>
+<s id="danish.536" corresp="norwegian.534">Der gled et bekymret udtryk over morens ansigt.</s>
+<s id="danish.537" corresp="norwegian.535">Hun gik ganske rigtigt ud i køkkenet og satte kartoflerne over.</s>
+<s id="danish.538" corresp="norwegian.536">Lidt senere var hun atter tilbage i stuen, og nu var det hende der puffede Sofie ned i en stol.</s>
+<nl>
+<s id="danish.539" corresp="norwegian.537">- Der er noget jeg må tale med dig om, begyndte hun.</s>
+<s id="danish.540" corresp="norwegian.538">Sofie kunne høre på stemmen at det var noget alvorligt.</s>
+<nl>
+<s id="danish.541" corresp="norwegian.539">- Du er vel ikke blevet rodet ind i noget med stoffer, min ven?</s>
+<nl>
+<s id="danish.542" corresp="norwegian.540">Sofie begyndte umiddelbart at grine, men hun forstod godt hvorfor det blev bragt på bane lige nu.</s>
+<nl>
+<s id="danish.543" corresp="norwegian.541">- Er du rigtig klog? sagde hun.</s>
+<s id="danish.544" corresp="norwegian.542">- Så bliver man jo bare <it>endnu</it> mere sløv!</s>
+<page=30>
+<nl>
+<s id="danish.545" corresp="norwegian.543">Mere blev der ikke sagt hverken om narkotika eller hvide kaniner den eftermiddag.</s>

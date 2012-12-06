@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE align SYSTEM "align.dtd">
+<align fromDoc="De.xml" toDoc="Sv.xml" version="1.0">
+    <linkList>
+        <sentLink xtargets="1 ; 1">
+            <phraseLink xtargets="1_500 ; 1_501"/>
+            <phraseLink xtargets="1_501 ; 1_500"/>   
+        </sentLink>
+        <sentLink xtargets="2 ; 2">
+            <phraseLink xtargets="2_511 ; 2_502"/>
+            <phraseLink xtargets="2_510 ; 2_509"/>
+            <phraseLink xtargets="2_503 ; 2_503"/>
+            <phraseLink xtargets="2_502 ; 2_501"/>
+            <phraseLink xtargets="2_505 ; 2_505"/>
+            <phraseLink xtargets="2_506 ; 2_506"/>
+            <phraseLink xtargets="2_504 ; 2_504"/>
+            <phraseLink xtargets="2_509 ; 2_508"/>
+        </sentLink>
+        <sentLink xtargets="3 ; 3">
+            <phraseLink xtargets="3_500 ; 3_500"/>
+            <phraseLink xtargets="3_506 ; 3_506"/>
+            <phraseLink xtargets="3_503 ; 3_503"/>
+            <phraseLink xtargets="3_502 ; 3_502"/>
+            <phraseLink xtargets="3_505 ; 3_505"/>
+            <phraseLink xtargets="3_501 ; 3_501"/>
+            <phraseLink xtargets="3_504 ; 3_504"/>
+        </sentLink>
+        <sentLink xtargets="4 ; 4">
+            <phraseLink xtargets="4_500 ; 4_500"/>
+            <phraseLink xtargets="4_504 ; 4_505"/>
+            <phraseLink xtargets="4_507 ; 4_507"/>
+            <phraseLink xtargets="4_501 ; 4_501"/>
+            <phraseLink xtargets="4_505 ; 4_506"/>
+            <phraseLink xtargets="4_503 ; 4_504"/>
+            <phraseLink xtargets="4_502 ; 4_503"/>
+        </sentLink>
+        <sentLink xtargets="5 ; 5">
+            <phraseLink xtargets="5_505 ; 5_504"/>
+            <phraseLink xtargets="5_502 ; 5_502"/>
+            <phraseLink xtargets="5_501 ; 5_501"/>
+            <phraseLink xtargets="5_500 ; 5_500"/>
+            <phraseLink xtargets="5_503 ; 5_503"/>
+        </sentLink>
+        <sentLink xtargets="6 ; 6">
+            <phraseLink xtargets="6_506 ; 6_508"/>
+            <phraseLink xtargets="6_502 ; 6_504"/>
+            <phraseLink xtargets="6_503 ; 6_505"/>
+            <phraseLink xtargets="6_500 ; 6_500"/>
+            <phraseLink xtargets="6_504 ; 6_506"/>
+            <phraseLink xtargets="6_505 ; 6_507"/>
+            <phraseLink xtargets="6_501 ; 6_501"/>
+        </sentLink>
+        <sentLink xtargets="7 ; 7">
+            <phraseLink xtargets="7_506 ; 7_505"/>
+            <phraseLink xtargets="7_503 ; 7_502"/>
+            <phraseLink xtargets="7_501 ; 7_501"/>
+            <phraseLink xtargets="7_504 ; 7_503"/>
+            <phraseLink xtargets="7_500 ; 7_500"/>
+        </sentLink>
+        <sentLink xtargets="8 ; 8">
+            <phraseLink xtargets="8_500 ; 8_500"/>
+            <phraseLink xtargets="8_505 ; 8_504"/>
+            <phraseLink xtargets="8_501 ; 8_501"/>
+            <phraseLink xtargets="8_502 ; 8_502"/>
+            <phraseLink xtargets="8_504 ; 8_503"/>
+        </sentLink>
+        <sentLink xtargets="9 ; 9">
+            <phraseLink xtargets="9_500 ; 9_500"/>
+            <phraseLink xtargets="9_503 ; 9_503"/>
+            <phraseLink xtargets="9_502 ; 9_502"/>
+            <phraseLink xtargets="9_505 ; 9_504"/>
+            <phraseLink xtargets="9_501 ; 9_501"/>
+        </sentLink>
+        <sentLink xtargets="10 ; 10">
+            <phraseLink xtargets="10_514 ; 10_507"/>
+            <phraseLink xtargets="10_507 ; 10_506"/>
+            <phraseLink xtargets="10_505 ; 10_504"/>
+            <phraseLink xtargets="10_513 ; 10_512"/>
+            <phraseLink xtargets="10_503 ; 10_510"/>
+            <phraseLink xtargets="10_512 ; 10_509"/>
+            <phraseLink xtargets="10_510 ; 10_508"/>
+            <phraseLink xtargets="10_502 ; 10_503"/>
+            <phraseLink xtargets="10_501 ; 10_501"/>
+            <phraseLink xtargets="10_508 ; 10_505"/>
+        </sentLink>
+        <sentLink xtargets="11 ; 11-12">
+            <phraseLink xtargets="11_511 ; 11_505"/>
+            <phraseLink xtargets="11_500 ; 11_510"/>
+            <phraseLink xtargets="11_506 ; 11_500"/>
+            <phraseLink xtargets="11_514 ; 11_507"/>
+            <phraseLink xtargets="11_501 ; 11_506"/>
+            <phraseLink xtargets="11_510 ; 11_504"/>
+            <phraseLink xtargets="11_503 ; 11_501"/>
+            <phraseLink xtargets="11_512 ; 11_508"/>
+            <phraseLink xtargets="11_508 ; 11_503"/>
+            <phraseLink xtargets="11_504 ; 11_502"/>
+            <phraseLink xtargets="11_513 ; 11_509"/>
+            <phraseLink xtargets="11_507 ; 12_500"/>
+        </sentLink>
+        <sentLink xtargets="12 ; 13">
+            <phraseLink xtargets="12_500 ; 13_500"/>
+        </sentLink>
+    </linkList>
+</align>

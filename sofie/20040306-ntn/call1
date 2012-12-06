@@ -1,0 +1,263 @@
+From nordic-treebank-owner@ilf.uio.no Thu Feb 19 16:41:04 2004
+Received: from localhost (localhost [127.0.0.1])
+	by grid.id.cbs.dk (8.12.7/8.12.7/SuSE Linux 0.6) with ESMTP id i1JFeq72021835
+	for <mtkromann@localhost>; Thu, 19 Feb 2004 16:40:56 +0100
+Received: from 127.0.0.1 [127.0.0.1]
+	by localhost with POP3 (fetchmail-6.2.1)
+	for mtkromann@localhost (single-drop); Thu, 19 Feb 2004 16:40:56 +0100 (MET)
+Received: from proxy2 ([192.168.70.3])
+ by ha-mail.cbs.dk (iPlanet Messaging Server 5.2 HotFix 1.02 (built Sep 16
+ 2002)) with ESMTP id <0HTC001WC5W2W2@ha-mail.cbs.dk> for mtk.id@ims-ms-daemon;
+ Thu, 19 Feb 2004 15:36:06 +0100 (MET)
+Received: from relay4-cph.comendo.dk (relay4-cph.comendo.dk [195.245.210.90])
+ by proxy2.cbs.dk
+ (iPlanet Messaging Server 5.2 HotFix 1.02 (built Sep 16 2002)) with ESMTP id
+ <0HTC00KOU5W1GM@proxy2.cbs.dk> for mtk.id@cbs.dk (ORCPT mtk.id@cbs.dk); Thu,
+ 19 Feb 2004 15:36:02 +0100 (MET)
+Received: from virus1-cph.comendo.dk (Not Verified[192.168.50.20])
+ by relay4-cph.comendo.dk with {MailFence} (v{4.0}) (COMSND)
+	id <BN0008b6db>; Thu, 19 Feb 2004 15:36:01 +0100
+Received: from mailhub.id.cbs.dk (Not Verified[130.226.47.91])
+ by virus1-cph.comendo.dk with {MAilFence} (v{4.0}) (COMVRS)
+	id <BA0057a95d>; Thu, 19 Feb 2004 15:36:00 +0100
+Received: from mail.id.cbs.dk ([172.16.14.53] ident=mail)
+	by mailhub.id.cbs.dk with esmtp	(Cipher TLSv1:AES256-SHA:256)
+ (Exim 3.36 #1 (Debian))	id 1AtpHO-000123-00	for <mtk.id@cbs.dk>; Thu,
+ 19 Feb 2004 15:35:54 +0100
+Received: from mail by mail.id.cbs.dk with spam-scanned (Exim 3.36 #1 (Debian))
+	id 1AtpHO-0006Cv-00	for <mtk@id.cbs.dk>; Thu, 19 Feb 2004 15:35:54 +0100
+Received: from mailhub.id.cbs.dk ([130.226.47.91] ident=mail)
+	by mail.id.cbs.dk with esmtp	(Cipher TLSv1:AES256-SHA:256)
+ (Exim 3.36 #1 (Debian))	id 1AtpHN-0006Ch-00	for <mtk@id.cbs.dk>; Thu,
+ 19 Feb 2004 15:35:53 +0100
+Received: from pat.uio.no ([129.240.130.16] ident=7411)
+	by mailhub.id.cbs.dk with esmtp (Exim 3.36 #1 (Debian))
+	id 1AtpHD-00011m-00	for <mtk@id.cbs.dk>; Thu, 19 Feb 2004 15:35:43 +0100
+Received: from mail-mx3.uio.no ([129.240.10.44])
+	by pat.uio.no with esmtp (Exim 4.20)	id 1AtpH8-0005Pn-VE; Thu,
+ 19 Feb 2004 15:35:38 +0100
+Received: from lister.uio.no ([129.240.12.12])	by mail-mx3.uio.no with esmtp
+ (Exim 4.14)	id 1AtpH2-0001ec-3h; Thu, 19 Feb 2004 15:35:32 +0100
+Date: Thu, 19 Feb 2004 15:35:32 +0100
+From: nordic-treebank-owner@ilf.uio.no
+Subject: Nordic-treebank digest, Vol 1 #53 - 3 msgs
+Sender: nordic-treebank-owner@ilf.uio.no
+X-Scanner: exiscan *1AtpHD-00011m-00*ZkuPypUH1vY*
+To: nordic-treebank@ilf.uio.no
+Errors-to: nordic-treebank-owner@ilf.uio.no
+Reply-to: nordic-treebank@ilf.uio.no
+Message-id: <E1AtpH2-0001ec-3h@mail-mx3.uio.no>
+MIME-version: 1.0
+X-Mailer: Mailman v1.2 (experimental)
+Content-type: text/plain
+Precedence: bulk
+X-BeenThere: nordic-treebank@ilf.uio.no
+X-MailScanner-Information: This message has been scanned for viruses/spam.
+ Contact postmaster@uio.no if you have questions about this scanning
+X-UiO-MailScanner: No virus found
+X-UiO-Spam-info: not spam, SpamAssassin (score=0.643, required 12,
+	HTML_60_70 0.10, HTML_MESSAGE 0.00, HTML_TAG_BALANCE_BODY 0.26,
+	NO_REAL_NAME 0.28)
+X-Mailman-Version: 1.2 (experimental)
+List-Id: Nordic Treebank Network <nordic-treebank.ilf.uio.no>
+Original-recipient: rfc822;mtk.id@cbs.dk
+X-Text-Classification: ok
+X-POPFile-Link: <http://127.0.0.1:8080/jump_to_message?view=popfile6886=3.msg>
+Status: RO
+Content-Length: 6977
+Lines: 193
+
+Send Nordic-treebank mailing list submissions to
+	nordic-treebank@ilf.uio.no
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	http://ilf-lists.uio.no/mailman/listinfo/nordic-treebank@ilf.uio.no
+or, via email, send a message with subject or body 'help' to
+	nordic-treebank-request@ilf.uio.no
+
+You can reach the person managing the list at
+	nordic-treebank-owner@ilf.uio.no
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of Nordic-treebank digest..."
+
+
+Today's Topics:
+
+  1. Call for presentations in the "Tools and Resources" session (Matthias Trautner Kromann)
+  2. Call for presentations in the "Parallel treebanks" session (Janne Bondi Johannessen)
+  3. Dependency annotation of Danish Sofie corpus (Matthias Trautner Kromann)
+
+--__--__--
+
+Message: 1
+Date: Thu, 19 Feb 2004 13:59:36 +0100
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: nordic-treebank@ilf.uio.no
+Subject: [NTN]Call for presentations in the "Tools and Resources" session
+
+Dear NTN members,
+
+The "Tools and resources" session on March 6 is devoted to the
+presentation of completed work with TIGER-XML or other possible
+candidates for a common representation format. We therefore ask you
+to register a presentation at the "Tools and resources" session if you
+have:
+
+	(a) posted a treebank in TIGER-XML format to the nordic-treebank
+	mailing list and/or to Lars Nygaard's web interface to the Sofie
+	corpus; or
+=09
+	(b) created a tool that can be used to process arbitrary treebanks
+	in TIGER-XML format, such as Lars Nygaard's web interface (the
+	tool must be completed work); or=20
+
+	(c) posted a treebank to the nordic-treebank mailing list in a
+	well-documented format other than TIGER-XML, provided the format
+	is of general interest and can be argued to solve inherent
+	problems in TIGER-XML.
+
+The presentations will be approximately 20-30 minutes (including time
+for discussion), depending on the number of speakers. In your
+presentation, we suggest that you focus on:
+
+	* Experiences with conversion to TIGER-XML: What changes in
+	  linguistic representations were necessary in order to make your
+	  treebank encodable in TIGER-XML?=20
+	 =20
+	* Proposals for changes to TIGER-XML: Did you discover any
+	  undesirable limitations in TIGER-XML or the TIGER tools? Do you
+	  have concrete proposals for extending TIGER-XML or the
+	  associated tools so that the problems can be solved?
+	  Do you think the "Tools and resources" working group should=20
+	  provide feedback and recommendations to the TIGER team about
+	  desirable extensions of the TIGER tools?=20
+
+	* Tools for using treebanks encoded in TIGER-XML: Describe any
+	  tools you have created in order to use arbitrary treebanks
+	  created in TIGER-XML, or describe innovative uses of existing
+	  tools.=20
+
+	* Experiences with other formats: Do you have concrete experiences=20
+	  with other commonly known and well-documented representation
+	  formats that are better suited in the long-term for representing
+	  all the kinds of treebanks envisaged within the NTN (including
+	  treebanks for spoken language, discourse, and semantics)?
+
+In order to register, please send an email to Matthias Trautner
+Kromann <mtk@id.cbs.dk> with the title of the talk. Registration
+deadline: Friday, February 27.
+
+Regards,
+Matthias Trautner Kromann
+
+--=20
+Matthias Trautner Kromann    Dept of Computational Linguistics
+Email: mtk@id.cbs.dk         Copenhagen Business School
+Web: www.id.cbs.dk/~mtk      Bernhard Bangs All=E9 17B
+Phone: (+45) 3815 3166       DK-2000 Frederiksberg C, DENMARK
+
+
+--__--__--
+
+Message: 2
+Date: Thu, 19 Feb 2004 15:07:52 +0100
+To: nordic-treebank@ilf.uio.no
+From: Janne Bondi Johannessen <j.b.johannessen@ilf.uio.no>
+Subject: [NTN]Call for presentations in the "Parallel treebanks" session
+
+Dear NTN members,
+
+The "Parallel treebanks" session on March 6 is devoted to the
+presentation of completed work with treebanks. We therefore ask you
+to register a presentation at the "Parallel treebanks" session if you
+have:
+
+	posted a treebank in to the nordic-treebank
+	mailing list and/or to Lars Nygaard's web interface to the Sofie
+	corpus
+
+
+The presentations will be approximately 15-30 minutes (including time
+for discussion), depending on the number of speakers. In your
+presentation, we suggest that you focus on and/or think about
+
+1) Your particular choice of linguistic terminology
+2) where to find this terminology
+3) what kind of linguistic tools have been used (tagger, parser, 
+parse selection, manual?)
+4) interesting linguistc examples (PPs, PP attachment, clefts etc.)
+5) using each other's analysis for the other languages
+6) whether to choose the same terminology
+7) parallel spoken language treebank?
+
+The first three points are clearly something that the participants 
+who have provided a treebank ought to say something about. The rest 
+of the points are discussion points where everybody should feel free 
+to say something and take part in a discussion.
+
+In order to register your talk, please send an email to Janne Bondi 
+Johannessen <jannebj@ilf.uio.no> with the title of the talk. 
+Registration
+deadline: Friday, February 27.
+
+Looking forwrd to hearing from you!
+Janne.
+
+
+--__--__--
+
+Message: 3
+Date: Thu, 19 Feb 2004 16:28:56 +0100
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: nordic-treebank@ilf.uio.no
+Subject: [NTN]Dependency annotation of Danish Sofie corpus
+
+
+--yrj/dFKFPuw6o+aM
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Dear NTN members,
+
+I have annotated the first 103 sentences in the Danish Sofie corpus,
+using the dependency annotation scheme used in the Danish Dependency
+Treebank, and converted it to TIGER XML. I have attached the following
+two files:
+
+	sofie-ddt-1.0.xml: annotations in TIGER XML format
+	sofie-ddt-1.0.tag: annotations in original DTAG format
+		(http://www.id.cbs.dk/~mtk/dtag)
+
+The dependency graphs have been encoded as phrase structure graphs in
+TIGER XML, ie, word nodes in the dependency graph have been expanded
+into two nodes: a terminal node and a non-terminal node, both having
+the same features. By playing around with the display options in
+TIGERSearch, you can select which one of the following three features
+you want the phrasal nodes to display:
+
+	word =3D the word (default)
+	cat =3D the abbreviated morpho-syntactic PAROLE description of the
+		head word in the phrase
+	msd =3D the full morpho-syntactic PAROLE description of the
+		head word in the phrase
+
+Regards,
+Matthias
+
+--=20
+Matthias Trautner Kromann    Dept of Computational Linguistics
+Email: mtk@id.cbs.dk         Copenhagen Business School
+Web: www.id.cbs.dk/~mtk      Bernhard Bangs All=E9 17B
+Phone: (+45) 3815 3166       DK-2000 Frederiksberg C, DENMARK
+
+_______________________________________________
+Nordic-treebank mailing list
+Nordic-treebank@ilf.uio.no
+http://ilf-lists.uio.no/mailman/listinfo/nordic-treebank@ilf.uio.no
+
+
+End of Nordic-treebank Digest
+
+

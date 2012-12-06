@@ -1,0 +1,41 @@
+From mtk@id.cbs.dk Tue Mar  9 17:27:42 2004
+Date: Tue, 9 Mar 2004 17:27:42 +0100
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: gj@coli.uni-sb.de
+Subject: The "Annotate" tool
+Message-ID: <20040309162742.GA23742@mtkromann.ÜX@ÜX@>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+User-Agent: Mutt/1.4i
+Status: RO
+Content-Length: 1139
+Lines: 25
+
+Dear Geert-Jan Kruijff,
+
+I hope everything is going well. I am writing on behalf of the Nordic
+Treebank Network (NTN), which has adapted TIGER-XML as its common
+treebank representation format. Many network members are using the
+"Annotate" tool to produce their treebanks. However, "Annotate" only
+supports annotation of sentence-sized units, whereas a number of
+people in the NTN are interested in also annotating discourse-sized
+units that may span entire texts. 
+
+We would therefore like to ask you whether Annotate is still being
+actively developed, and if so, who we should contact if we want to
+suggest changes to the program. If you will release Annotate under an
+open-source license, some of our members have even expressed interest
+in participating in the further development of Annotate -- something
+which might relieve you of some of the maintenance costs for Annotate. 
+
+Regards,
+Matthias
+
+-- 
+Matthias Trautner Kromann    Dept of Computational Linguistics
+Email: mtk@id.cbs.dk         Copenhagen Business School
+Web: www.id.cbs.dk/~mtk      Bernhard Bangs Allé 17B
+Phone: (+45) 3815 3166       DK-2000 Frederiksberg C, DENMARK
+

@@ -1,0 +1,36 @@
+
+- Define tasks to be performed before the next meeting
+- Appoint a working group leader who will:
+	* make a short oral report at the meeting (5 minutes)
+	* make a short written report for the minutes
+	* coordinate the work up to and including the next meeting
+
+
+Spoken language and discourse (Jens Allwood)
+	* spoken language transcriptions to be annotated
+	* convert transcriptions to TIGER XML, and make a list of complaints
+	* work on spoken language parsing
+	* RST annotation
+
+Annotation categories (Eckhard Bick)
+	* standardization of edge labels and node labels; edge labels are
+	  most important, word classes least important. 
+	* Eckhard proposed VISL-standard
+	* propose other systems (over by June 1)
+	* implementing common set on Sofie (by September 1)
+	* postpone structural differences to later
+
+TIGER XML (Matthias Kromann)
+	* addition: contact TIGER team: command-line interface on internet
+
+Parallel Sofie treebank (Martin Volk)
+	* Exploit possibilities of what can be done with paralllel
+	  treebanks.
+	* Connection with PARGRAM
+	* Enlarge to 200 sentences (chapter 1).
+	* Provide alignment for first 50 sentences, based on Norwegian
+	  original.
+
+
+
+

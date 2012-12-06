@@ -1,0 +1,97 @@
+
+<corpus id="coref">
+  <head>
+    <meta>
+      <name>coref</name>
+      <date>Fri Mar  5 22:40:54 MET 2004</date>
+      <author></author>
+      <description></description>
+      <format></format>
+      <history></history>
+    </meta>
+    <annotation>
+      <feature name="word" domain="FREC" />
+      <edgelabel>
+        <value name="--"></value>
+        <value name="dobj"></value>
+        <value name="nobj"></value>
+        <value name="pnct"></value>
+        <value name="pred"></value>
+        <value name="subj"></value>
+        <value name="vobj"></value>
+      </edgelabel>
+      <secedgelabel>
+        <value name="[subj]"></value>
+        <value name="ref"></value>
+      </secedgelabel>
+    </annotation>
+  </head>
+  <body>
+    <s id="s1">
+      <graph root="p1_1">
+        <terminals>
+          <t id="w1_0" word="This" />
+          <t id="w1_1" word="will" />
+          <t id="w1_2" word="be" />
+          <t id="w1_3" word="an" />
+          <t id="w1_4" word="example" />
+          <t id="w1_5" word="." />
+        </terminals>
+        <nonterminals>
+          <nt id="p1_0" word="This">
+            <edge idref="w1_0" label="--" />
+            <secedge idref="p1_6" label="ref" />
+          </nt>
+          <nt id="p1_1" word="will">
+            <edge idref="w1_1" label="--" />
+            <edge idref="p1_0" label="subj" />
+            <edge idref="p1_2" label="vobj" />
+          </nt>
+          <nt id="p1_2" word="be">
+            <edge idref="w1_2" label="--" />
+            <secedge idref="p1_0" label="[subj]" />
+            <edge idref="p1_3" label="pred" />
+            <edge idref="p1_5" label="pnct" />
+          </nt>
+          <nt id="p1_3" word="an">
+            <edge idref="w1_3" label="--" />
+            <edge idref="p1_4" label="nobj" />
+          </nt>
+          <nt id="p1_4" word="example">
+            <edge idref="w1_4" label="--" />
+          </nt>
+          <nt id="p1_5" word=".">
+            <edge idref="w1_5" label="--" />
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s2">
+      <graph root="p2_7">
+        <terminals>
+          <t id="w2_6" word="It" />
+          <t id="w2_7" word="demonstrates" />
+          <t id="w2_8" word="coreferentiality" />
+          <t id="w2_9" word="." />
+        </terminals>
+        <nonterminals>
+          <nt id="p2_6" word="It">
+            <edge idref="w2_6" label="--" />
+          </nt>
+          <nt id="p2_7" word="demonstrates">
+            <edge idref="w2_7" label="--" />
+            <edge idref="p2_6" label="subj" />
+            <edge idref="p2_8" label="dobj" />
+            <edge idref="p2_9" label="pnct" />
+          </nt>
+          <nt id="p2_8" word="coreferentiality">
+            <edge idref="w2_8" label="--" />
+          </nt>
+          <nt id="p2_9" word=".">
+            <edge idref="w2_9" label="--" />
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+  </body>
+</corpus>

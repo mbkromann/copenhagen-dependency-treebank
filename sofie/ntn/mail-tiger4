@@ -1,0 +1,33 @@
+From mtk@id.cbs.dk Tue Mar 16 12:09:24 2004
+Date: Tue, 16 Mar 2004 12:09:24 +0100
+From: Matthias Trautner Kromann <mtk@id.cbs.dk>
+To: Holger Voormann <holger.voormann@ims.uni-stuttgart.de>
+Subject: Re: Extensions to TIGER-XML and the TIGER tools
+Message-ID: <20040316110924.GA13606@mtkromann.id.cbs.dk>
+References: <404F45EC.9090709@IMS.Uni-Stuttgart.de> <20040310183807.GA5701@mtkromann.id.cbs.dk> <404F5856.9070804@IMS.Uni-Stuttgart.de>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <404F5856.9070804@IMS.Uni-Stuttgart.de>
+User-Agent: Mutt/1.4i
+Status: RO
+Content-Length: 553
+Lines: 15
+
+> Secondary edges may not raise conflicts, because the query processor must
+> follow only one edge to a node outside the segment. But if you want to
+> add normal edges, you will run out of the scope of TIGERSearch, i.e.
+> intersecting hierarchies can not be queried by TIGERSearch.
+
+Ok. Thanks.
+
+Regards,
+Matthias
+
+-- 
+Matthias Trautner Kromann    Dept of Computational Linguistics
+Email: mtk@id.cbs.dk         Copenhagen Business School
+Web: www.id.cbs.dk/~mtk      Bernhard Bangs Allé 17B
+Phone: (+45) 3815 3166       DK-2000 Frederiksberg C, DENMARK
+

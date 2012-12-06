@@ -1,0 +1,1543 @@
+%! (c) 2002 Matthias T. Kromann <mtk@id.cbs.dk>
+
+%% This PostScript library is distributed under the GNU public  
+%% license for libraries, as part of the DGgraph package.
+%% Please see: http://www.id.cbs.dk/~mtk/DGgraph for source code,
+%% documentation and license.
+
+%% 1. DGgraph Prologue
+
+100 dict begin /llx 20 def /lly 20 def /urx 500 def /ury 820 def /LW 1
+def /X 2 def /Y 0 def /dO 5 def /dA 10 def /dAW 2.5 def /dAH 6 def
+/dAD 2 def /dT 15 def /dB 18 def /dT0 3 def /dB0 8 def /dW 8 def /dH
+10 def /dL 20 def /strings 1 def /framegray 1 def /bggray 1 def
+/smallfont 7 def /textfont 10 def /nextw 0 def /nexte 0 def LW
+setlinewidth /xdef {exch def} def /max {dup 3 -1 roll dup 3 -1 roll lt
+{pop} {exch pop} ifelse} def /min {dup 3 -1 roll dup 3 -1 roll gt
+{pop} {exch pop} ifelse} def /ISOfont {findfont dup length dict begin
+{1 index /FID ne {def} {pop pop} ifelse} forall /Encoding
+ISOLatin1Encoding def currentdict end definefont pop} def /Times-Roman
+/Times-Roman-Latin1 ISOfont /Times-Bold /Times-Bold-Latin1 ISOfont
+/Times-Italic /Times-Italic-Latin1 ISOfont /Times-BoldItalic
+/Time-BoldItalic-Latin1 ISOfont /Times [(ptm) /Times-Roman-ISOLatin1
+/Times-Bold-ISOLatin1 /Times-Italic-ISOLatin1
+/Times-BoldItalic-ISOLatin1] def /setfontfamily {/fontfamily xdef} def
+/setfontsize {/fontsize xdef} def /setfontstyle {/fontstyle xdef} def
+/font 7 string def /fontext 4 string def /setupfont {font 0 fontfamily
+0 get putinterval font 3 fontstyle 1 add 1000 mul fontsize cvi add
+fontext cvs putinterval currentdict font cvn known not {currentdict
+font cvn fontfamily fontstyle 1 add get findfont fontsize scalefont
+put} if font cvn cvx exec setfont} def Times setfontfamily 10
+setfontsize 0 setfontstyle setupfont /qsort {1 index length 0 exch
+qsortx pop} def /qsortx {2 copy 2 sub gt {pop pop} {findpivot dup -1
+eq {pop pop pop} {4 index exch get 3 1 roll 2 copy 7 2 roll 1 sub
+{exch {dup 5 index exch get 3 index 5 index exec -1 eq {1 add} {exit}
+ifelse} loop exch {dup 5 index exch get 3 index 5 index exec -1 gt {1
+sub} {exit} ifelse} loop 2 copy gt {exit} if 2 copy 6 index 3 1 roll
+switch} loop 3 -1 roll pop pop 5 -1 roll exch dup 6 1 roll qsortx 4 2
+roll qsortx} ifelse} ifelse} def /findpivot {2 copy add 1 sub 2 idiv 4
+index 1 index get 1 index 1 1 index 5 index add 6 index sub 1 sub {dup
+4 index ge {4 index add 3 index sub} if dup 7 index exch get 2 index 7
+index exec dup 0 ne {1 eq {3 -1 roll pop -1 3 1 roll exit} {pop -1 3 1
+roll exch exit} ifelse} {pop pop} ifelse} for 2 index -1 eq {3 1 roll
+pop pop} {pop pop -1} ifelse} def /switch {2 index 2 index get 3 index
+2 index get 4 index exch 6 1 roll 3 1 roll put 3 -1 roll put} def
+/intcmp {2 copy lt {pop pop -1} {eq {0} {1} ifelse} ifelse} def
+/format {pop gsave /oldfontstyle fontstyle def /oldfontsize fontsize
+def /oldfontfamily fontfamily def exch dup 0 ge 1 index formats length
+le and {dup 0 eq {pop} {formats exch 1 sub get exec} ifelse} {pop}
+ifelse exec grestore fontstyle oldfontstyle ne fontsize oldfontsize ne
+or fontfamily oldfontfamily ne or {oldfontfamily setfontfamily
+oldfontsize setfontsize oldfontstyle setfontstyle setupfont} if} def
+/arrow {dA mul 2 index add 4 copy exch 2 copy 5 index 5 1 roll 5 index
+8 -2 roll moveto curveto stroke 2 index gt {-1} {1} ifelse dAH mul 3 1
+roll exch moveto dAW 0 rmoveto dAW -2 mul 0 rlineto dAW exch rlineto
+closepath fill pop} def /word {strings 2 mul 1 add array strings -1 1
+{2 index type /integertype eq {4 2 roll} {3 -1 roll 0} ifelse 3 index
+3 index 2 mul 3 -1 roll put 2 index 2 index 2 mul 1 sub 3 -1 roll put
+pop} for 0 1 1 strings {2 index exch 2 mul 1 sub get stringwidth pop
+max} for X exch X add dW add /X xdef 1 index 0 3 -1 roll put
+currentdict /words known {words nextw 3 -1 roll put} if /nextw nextw 1
+add def} def /newedge {dup type /stringtype eq {0 0} {1 index type
+/stringtype eq {dup} if} ifelse 5 2 roll 3 1 roll 2 copy gt {exch neg}
+if 3 -1 roll 0 1 7 -2 roll 7 array astore} def /edget {newedge
+currentdict /edges known {edges nexte 3 -1 roll put} if /nexte nexte 1
+add def} def /edgeb {newedge dup 4 -1 put currentdict /edges known
+{edges nexte 3 -1 roll put} if /nexte nexte 1 add def} def /xcenter
+{dup words exch get 0 get exch 1 add dup words length eq {pop X}
+{words exch get 0 get} ifelse dW sub add 2 div} def /edge_heights {[
+exch 0 0 0 edge_heights0 {pop} repeat pop pop pop pop} def
+/edge_heights0 {{edge_heights1 {true} {edge_heights2} ifelse {true}
+{edge_heights3} ifelse {true} {edge_heights4} ifelse not {exit} if}
+loop} def /edge_heights1 {dup 2 lt {false} {4 index length 3 eq {true}
+{4 index 3 get -1 eq} ifelse} ifelse {5 -1 roll dup 1 get exch 2 get 6
+index dup dup 2 get 4 -1 roll max 2 exch put 1 3 -1 roll put 1 sub
+true} {false} ifelse} def /edge_heights2 {dup 0 gt {4 index length 3
+gt {4 index 3 get -1 ne {4 index dup dup 1 get exch 3 get edges exch
+get 1 get abs eq {dup dup 2 get 1 add 2 exch dup 4 1 roll put 1 index
+3 get edges exch get 3 3 -1 roll 7 index exec put mark exch dup aload
+pop counttomark 4 sub -1 roll pop -1 counttomark -1 roll astore pop
+pop true} {pop false} ifelse} {false} ifelse} {false} ifelse} {false}
+ifelse} def /edge_heights3 {dup 1 gt {5 index 5 index dup 1 get exch 2
+get 3 -1 roll 1 get 2 index ne {7 index dup 1 5 -1 roll put dup 2 get
+3 -1 roll max 2 exch put 5 -1 roll 1 index 4 add 1 roll 1 sub
+edge_heights0 1 add dup 4 add -1 roll 5 1 roll true} {pop pop false}
+ifelse} {false} ifelse} def /edge_heights4 {counttomark 1 index 4 add
+eq {2 index words length lt {mark 3 index dup 1 add 0 7 index 6 index
+{dup edges length ge {exch pop exit} if dup edges exch get dup 0 get 6
+index eq {4 get 2 index exec 0 gt{dup 6 1 roll} if 1 add} {pop exch
+pop exit} ifelse} loop counttomark 1 add 1 roll counttomark 3 roll ] 6
+1 roll 3 1 roll 1 add exch pop 3 -1 roll 1 add 3 1 roll true} {false}
+ifelse} {false} ifelse} def /edge_displace {-1 -1 0 0 0 {2 index words
+length ge {pop pop pop pop pop exit} if 5 -2 roll pop pop -1 -1 5 2
+roll 1 index edges 0 3 -1 roll update_super dup maxedges 1 3 -1 roll
+update_super exch edges 0 3 -1 roll displace exch maxedges 1 3 -1 roll
+displace 3 -1 roll 1 add 3 1 roll} loop} def /displace {{dup 3 index
+length ge {3 1 roll pop pop exit} if 2 index 1 index get dup 3 index
+get abs 6 index gt {pop 3 1 roll pop pop exit} if dup ioword 7 index
+eq {1 index 3 get 0 gt {8 index} {7 index} ifelse dup -1 eq {pop pop 4
+0 put} {7 index -1 2 index 2 index gt {neg exch 3 1 roll} if 4 1 roll
+2 index gt 3 1 roll gt and not {neg} if 4 exch put} ifelse} {pop pop}
+ifelse 1 add} loop} def /update_super {{dup 3 index length ge {pop pop
+pop exit} if 2 index 1 index get dup 3 index get 7 index gt {pop pop
+pop pop exit} if dup ioword exch 8 index eq {exch 3 get 0 gt {9 -1
+roll pop 8 1 roll} {8 -1 roll pop 7 1 roll} ifelse} {pop pop} ifelse 1
+add} loop} def /ioword {dup 0 get exch 1 get dup 0 lt {abs exch} {abs}
+ifelse} def /split_lines {split_words split_edges split_pages} def
+/split_words {/lines [ urx llx sub 0 0 1 {1 index words length ge {pop
+pop pop pop exit} if [2 index 0 5 index 0 0 0 0] 5 1 roll {dup xpos dW
+2 div sub dup 4 index sub 5 index gt 2 index words length ge or {exch
+4 2 roll pop pop dup 1 add exit} if pop 1 add} loop} loop [words
+length edges length X 0 0 0 0] ] def} def /split_edges {0 [] 0 1 lines
+length 2 sub {dup 1 add lines exch get 0 get exch lines exch get 0 0 2
+index [ 8 2 roll 4 index {dup edges exch get 1 get abs 5 index ge {dup
+8 1 roll} if edges exch get 3 get dup 4 -1 roll min 3 1 roll max}
+forall {5 index edges length ge {exit} if 5 index edges exch get 0 get
+4 index ge {exit} if 5 index edges exch get dup 1 get abs 5 index ge
+{6 index 7 1 roll} if 3 get dup 4 -1 roll min 3 1 roll max 6 -1 roll 1
+add 6 1 roll} loop 2 index 4 3 -1 roll put 1 index 5 3 -1 roll abs put
+3 1 roll pop pop 1 2 index put counttomark 1 add 1 roll ] 2 index 6 2
+index put 3 -1 roll 1 3 index put} for pop pop} def /split_pages {ury
+lly sub 0 0 1 lines length 2 sub {lines exch get dup line_height 3
+index 3 index 2 index add lt {3 -1 roll pop 0 3 1 roll} if exch 3 3
+index put add dL add} for pop pop} def /line_height {dup 4 get exch 5
+get add dA mul strings dH mul add dB add dT add} def /xpos {dup words
+length ge {pop X} {words exch get 0 get} ifelse} def /print_word {1
+index 4 index 4 get dA mul sub dT sub 1 index xcenter 4 index add exch
+3 -1 roll words exch get 1 1 strings {3 -1 roll dH sub 3 1 roll 2 copy
+2 mul get 3 1 roll 1 index exch 2 mul 1 sub get dup stringwidth pop 2
+div neg 5 index add 4 index moveto 3 -1 roll {show} 0 format} for pop
+pop pop} def /print_edge {edges exch get 1 index 4 index 4 get dA mul
+sub 1 index 3 get 0 ge {dup dT sub dT0 add} {dT sub strings dH mul sub
+dB sub dup dB0 add} ifelse 2 index ioword xcenter 6 index add exch
+xcenter 6 index add dup 4 -1 roll moveto 3 index 2 get dup stringwidth
+pop -2 div 0 rmoveto 4 index 5 get {show} 1 format exch 3 index 4 get
+dO mul add 3 1 roll 3 index 3 get 4 index 6 get {arrow} 2 format pop}
+def /sort_edges {edges {2 copy 0 get exch 0 get exch intcmp dup 0 ne
+{3 1 roll pop pop} {pop 1 get abs exch 1 get abs exch intcmp} ifelse}
+qsort pop /maxedges edges edges length array copy def maxedges {2 copy
+1 get abs exch 1 get abs exch intcmp dup 0 ne {3 1 roll pop pop} {pop
+0 get exch 0 get exch intcmp} ifelse} qsort pop} def /layout_arcs
+{sort_edges {} edge_heights {neg} edge_heights 0 1 edges length 1 sub
+{edges exch get 4 0 put} for edge_displace split_lines} def
+/print_line {dup lines exch get dup line_height 1 index 2 get dup 4
+index 1 add lines exch get 2 get exch sub 3 1 roll llx exch sub 3
+index 3 get ury exch sub gsave newpath llx 1 index moveto 3 index 0
+rlineto 0 3 index neg rlineto 3 index neg 0 rlineto closepath gsave
+bggray setgray fill grestore clip gsave framegray setgray stroke
+grestore newpath 4 2 roll pop pop textfont setfontsize setupfont 2
+index 0 get 1 5 index 1 add lines exch get 0 get 1 sub {print_word}
+for smallfont setfontsize setupfont 3 index 0 eq {[]} {3 index 1 sub
+lines exch get 6 get} ifelse {print_edge} forall 3 index 0 eq {0} {3
+index 1 sub lines exch get 1 get} ifelse 1 4 index 1 get 1 sub
+{print_edge} for grestore pop pop pop pop} def /print_lines {0 1 lines
+length 2 sub {dup print_line 1 add lines exch get 3 get 0 eq
+{showpage} if} for} def /draw {layout_arcs print_lines} def /setup
+{array /edges exch def array /words exch def /nextw 0 def /nexte 0 def
+/strings exch def} def 
+
+
+%% 2. Dependency graph specification
+
+% Graph setup
+3 710 660 setup
+
+/formats [
+] def
+
+% Words and edges
+(EDENS) (pm.gen) (1) word
+0 1 (DET) edget
+(LUSTGÅRD) (nn.utr.sin.ind.nom) (2) word
+(...) (mid) (5) word
+2 7 (IP) edget
+(en) (dt.utr.sin.ind) (6) word
+3 4 (DET) edget
+(gång) (nn.utr.sin.ind.nom) (7) word
+4 7 (ADV) edget
+(i) (pp) (8) word
+5 4 (ATT) edget
+(tiden) (nn.utr.sin.def.nom) (9) word
+6 5 (PR) edget
+(måste) (vb.prs.akt.mod) (10) word
+(ändå) (ab) (11) word
+8 7 (ADV) edget
+(allting) (pn.neu.sin.ind.sub/obj) (12) word
+9 7 (SUB) edget
+(ha) (vb.inf.akt.aux) (13) word
+10 7 (VC) edget
+(blivit) (vb.sup.akt.kop) (14) word
+11 10 (VC) edget
+(till) (pl) (15) word
+12 11 (ADV) edget
+(av) (pp) (16) word
+13 11 (ADV) edget
+(noll) (rg.nom) (17) word
+14 13 (PR) edget
+(och) (kn) (18) word
+15 14 (CC) edget
+(ingenting) (pn.neu.sin.ind.sub/obj) (19) word
+16 15 (CC) edget
+(.) (mad) (20) word
+17 11 (IP) edget
+(Sofie) (pm.nom) (23) word
+18 20 (SUB) edget
+(Amundsen) (pm.nom) (24) word
+19 18 (ID) edget
+(var) (vb.prt.akt.kop) (25) word
+(på) (pp) (26) word
+21 20 (PRD) edget
+(väg) (nn.utr.sin.ind.nom) (27) word
+22 21 (PR) edget
+(hem) (ab) (28) word
+23 20 (ADV) edget
+(från) (pp) (29) word
+24 23 (ADV) edget
+(skolan) (nn.utr.sin.def.nom) (30) word
+25 24 (PR) edget
+(.) (mad) (31) word
+26 20 (IP) edget
+(Den) (dt.utr.sin.def) (34) word
+27 29 (DET) edget
+(första) (ro.nom) (35) word
+28 29 (DET) edget
+(biten) (nn.utr.sin.def.nom) (36) word
+29 30 (ADV) edget
+(hade) (vb.prt.akt.aux) (37) word
+(hon) (pn.utr.sin.def.sub) (38) word
+31 30 (SUB) edget
+(haft) (vb.sup.akt) (39) word
+32 30 (VC) edget
+(sällskap) (nn.neu.sin.ind.nom) (40) word
+33 32 (OBJ) edget
+(med) (pp) (41) word
+34 32 (ADV) edget
+(Jorunn) (nn.utr.sin.ind.nom) (42) word
+35 34 (PR) edget
+(.) (mad) (43) word
+36 30 (IP) edget
+(De) (pn.utr/neu.plu.def.sub) (46) word
+37 38 (SUB) edget
+(hade) (vb.prt.akt.aux) (47) word
+(pratat) (vb.sup.akt) (48) word
+39 38 (VC) edget
+(om) (pp) (49) word
+40 39 (ADV) edget
+(robotar) (nn.utr.plu.ind.nom) (50) word
+41 40 (PR) edget
+(.) (mad) (51) word
+42 39 (IP) edget
+(Jorunn) (nn.utr.sin.ind.nom) (54) word
+43 44 (SUB) edget
+(hade) (vb.prt.akt.aux) (55) word
+(tyckt) (vb.sup.akt) (56) word
+45 44 (VC) edget
+(att) (sn) (57) word
+46 45 (OBJ) edget
+(den) (dt.utr.sin.def) (58) word
+47 49 (DET) edget
+(mänskliga) (jj.pos.utr/neu.sin.def.nom) (59) word
+48 49 (ATT) edget
+(hjärnan) (nn.utr.sin.def.nom) (60) word
+49 50 (SUB) edget
+(påminde) (vb.prt.akt) (61) word
+50 46 (UK) edget
+(om) (pp) (62) word
+51 50 (ADV) edget
+(en) (dt.utr.sin.ind) (63) word
+52 54 (DET) edget
+(komplicerad) (jj.pos.utr.sin.ind.nom) (64) word
+53 54 (ATT) edget
+(dator) (nn.utr.sin.ind.nom) (65) word
+54 51 (PR) edget
+(.) (mad) (66) word
+55 45 (IP) edget
+(Sofie) (pm.nom) (69) word
+56 57 (SUB) edget
+(visste) (vb.prt.akt) (70) word
+(inte) (ab) (71) word
+58 57 (ADV) edget
+(riktigt) (ab) (72) word
+59 57 (ADV) edget
+(om) (sn) (73) word
+60 57 (OBJ) edget
+(hon) (pn.utr.sin.def.sub) (74) word
+61 62 (SUB) edget
+(höll) (vb.prt.akt) (75) word
+62 60 (UK) edget
+(med) (pp) (76) word
+63 62 (ADV) edget
+(henne) (pn.utr.sin.def.obj) (77) word
+64 62 (OBJ) edget
+(.) (mad) (78) word
+65 57 (IP) edget
+(En) (dt.utr.sin.ind) (81) word
+66 67 (DET) edget
+(människa) (nn.utr.sin.ind.nom) (82) word
+67 68 (SUB) edget
+(var) (vb.prt.akt.kop) (83) word
+(väl) (ab) (84) word
+69 68 (ADV) edget
+(ändå) (ab) (85) word
+70 68 (ADV) edget
+(någonting) (pn.neu.sin.ind.sub/obj) (86) word
+71 72 (DET) edget
+(mer) (ab.kom) (87) word
+72 68 (PRD) edget
+(än) (kn) (88) word
+73 68 (ADV) edget
+(en) (dt.utr.sin.ind) (89) word
+74 75 (DET) edget
+(maskin) (nn.utr.sin.ind.nom) (90) word
+75 73 (UK) edget
+(?) (mad) (91) word
+76 68 (IP) edget
+(Vid) (pp) (94) word
+77 79 (ADV) edget
+(storköpet) (nn.neu.sin.def.nom) (95) word
+78 77 (PR) edget
+(hade) (vb.prt.akt.aux) (96) word
+(de) (pn.utr/neu.plu.def.sub) (97) word
+80 79 (SUB) edget
+(skiljts) (vb.sup.sfo) (98) word
+81 79 (VC) edget
+(åt) (pl) (99) word
+82 81 (ADV) edget
+(.) (mad) (100) word
+83 81 (IP) edget
+(Sofie) (pm.nom) (103) word
+84 95 (SUB) edget
+(,) (mid) (104) word
+85 84 (IP) edget
+(som) (hp.-.-.-) (105) word
+86 87 (SUB) edget
+(bodde) (vb.prt.akt) (106) word
+87 84 (ATT) edget
+(i) (pp) (107) word
+88 87 (ADV) edget
+(utkanten) (nn.utr.sin.def.nom) (108) word
+89 88 (PR) edget
+(av) (pp) (109) word
+90 89 (ATT) edget
+(ett) (dt.neu.sin.ind) (110) word
+91 93 (DET) edget
+(stort) (jj.pos.neu.sin.ind.nom) (111) word
+92 93 (ATT) edget
+(villaområde) (nn.neu.sin.ind.nom) (112) word
+93 90 (PR) edget
+(,) (mid) (113) word
+94 84 (IP) edget
+(hade) (vb.prt.akt.aux) (114) word
+(nästan) (ab) (115) word
+96 95 (ADV) edget
+(dubbelt) (ab.pos) (116) word
+97 98 (ADV) edget
+(så) (ab) (117) word
+98 99 (ADV) edget
+(långt) (ab.pos) (118) word
+99 95 (ADV) edget
+(till) (pp) (119) word
+100 95 (ADV) edget
+(skolan) (nn.utr.sin.def.nom) (120) word
+101 100 (PR) edget
+(som) (kn) (121) word
+102 95 (ADV) edget
+(Jorunn) (nn.utr.sin.ind.nom) (122) word
+103 102 (UK) edget
+(.) (mad) (123) word
+104 95 (IP) edget
+(Det) (pn.neu.sin.def.sub/obj) (126) word
+105 106 (SUB) edget
+(var) (vb.prt.akt.kop) (127) word
+(nästan) (ab) (128) word
+107 106 (ADV) edget
+(som) (kn) (129) word
+108 106 (PRD) edget
+(om) (pp) (130) word
+109 108 (UK) edget
+(huset) (nn.neu.sin.def.nom) (131) word
+110 111 (SUB) edget
+(låg) (vb.prt.akt) (132) word
+111 109 (UK) edget
+(vid) (pp) (133) word
+112 111 (ADV) edget
+(världens) (nn.utr.sin.def.gen) (134) word
+113 114 (DET) edget
+(ände) (nn.utr.sin.ind.nom) (135) word
+114 112 (PR) edget
+(,) (mid) (136) word
+115 106 (IP) edget
+(för) (ab) (137) word
+116 106 (CC) edget
+(bortom) (pp) (138) word
+117 120 (ADV) edget
+(deras) (ps.utr/neu.sin/plu.def) (139) word
+118 119 (DET) edget
+(trädgard) (pm.nom) (140) word
+119 117 (PR) edget
+(fanns) (vb.prt.sfo) (141) word
+120 116 (CC) edget
+(inga) (dt.utr/neu.plu.ind) (142) word
+121 123 (DET) edget
+(fler) (jj.pos.utr/neu.plu.ind.nom) (143) word
+122 123 (DET) edget
+(hus) (nn.neu.plu.ind.nom) (144) word
+123 120 (SUB) edget
+(.) (mad) (145) word
+124 120 (IP) edget
+(Där) (ab) (148) word
+125 126 (ADV) edget
+(började) (vb.prt.akt.mod) (149) word
+(djupa) (jj.pos.utr/neu.sin.def.nom) (150) word
+127 128 (ATT) edget
+(skogen) (nn.utr.sin.def.nom) (151) word
+128 126 (OBJ) edget
+(.) (mad) (152) word
+129 126 (IP) edget
+(Nu) (ab) (155) word
+130 131 (ADV) edget
+(svängde) (vb.prt.akt) (156) word
+(hon) (pn.utr.sin.def.sub) (157) word
+132 131 (SUB) edget
+(in) (pl) (158) word
+133 131 (ADV) edget
+(på) (pp) (159) word
+134 131 (ADV) edget
+(Klövervägen) (nn.utr.sin.def.nom) (160) word
+135 134 (PR) edget
+(.) (mad) (161) word
+136 131 (IP) edget
+(Alldeles) (ab) (164) word
+137 138 (ADV) edget
+(i) (pp) (165) word
+138 140 (ADV) edget
+(slutet) (nn.neu.sin.def.nom) (166) word
+139 138 (PR) edget
+(gjorde) (vb.prt.akt) (167) word
+(vägen) (nn.utr.sin.def.nom) (168) word
+141 140 (SUB) edget
+(en) (dt.utr.sin.ind) (169) word
+142 144 (DET) edget
+(tvär) (jj.pos.utr.sin.ind.nom) (170) word
+143 144 (ATT) edget
+(sväng) (nn.utr.sin.ind.nom) (171) word
+144 140 (OBJ) edget
+(som) (hp.-.-.-) (172) word
+145 146 (SUB) edget
+(brukade) (vb.prt.akt.mod) (173) word
+146 144 (ATT) edget
+(kallas) (vb.inf.sfo) (174) word
+147 146 (VC) edget
+(för) (pp) (175) word
+148 147 (ADV) edget
+(") (pad) (176) word
+149 150 (IP) edget
+(Kaptenssvängen) (nn.utr.sin.def.nom) (177) word
+150 148 (PR) edget
+(") (pad) (178) word
+151 150 (IP) edget
+(.) (mad) (179) word
+152 140 (IP) edget
+(Det) (pn.neu.sin.def.sub/obj) (182) word
+153 154 (SUB) edget
+(var) (vb.prt.akt.kop) (183) word
+(nästan) (ab) (184) word
+155 154 (ADV) edget
+(bara) (ab) (185) word
+156 154 (ADV) edget
+(på) (pp) (186) word
+157 154 (PRD) edget
+(lördagar) (nn.utr.plu.ind.nom) (187) word
+158 157 (PR) edget
+(och) (kn) (188) word
+159 158 (CC) edget
+(söndagar) (nn.utr.plu.ind.nom) (189) word
+160 159 (CC) edget
+(som) (kn) (190) word
+161 163 (ADV) edget
+(folk) (nn.neu.plu.ind.nom) (191) word
+162 163 (SUB) edget
+(promenerade) (vb.prt.akt) (192) word
+163 154 (APP) edget
+(ända) (ab) (193) word
+164 165 (ADV) edget
+(dit) (ab) (194) word
+165 163 (ADV) edget
+(.) (mad) (195) word
+166 154 (IP) edget
+(Det) (pn.neu.sin.def.sub/obj) (198) word
+167 168 (SUB) edget
+(var) (vb.prt.akt.kop) (199) word
+(en) (dt.utr.sin.ind) (200) word
+169 168 (PRD) edget
+(av) (pp) (201) word
+170 169 (PR) edget
+(de) (dt.utr/neu.plu.def) (202) word
+171 173 (DET) edget
+(första) (ro.nom) (203) word
+172 173 (DET) edget
+(dagarna) (nn.utr.plu.def.nom) (204) word
+173 170 (PR) edget
+(i) (pp) (205) word
+174 173 (ATT) edget
+(maj) (nn.utr.sin.ind.nom.dat) (206) word
+175 174 (PR) edget
+(,) (mid) (207) word
+176 168 (IP) edget
+(och) (kn) (208) word
+177 168 (CC) edget
+(under) (pp) (209) word
+178 184 (ADV) edget
+(fruktträden) (nn.neu.plu.ind.nom) (210) word
+179 178 (PR) edget
+(i) (pp) (211) word
+180 179 (ATT) edget
+(några) (pn.utr/neu.plu.ind.sub/obj) (212) word
+181 180 (PR) edget
+(av) (pp) (213) word
+182 181 (ATT) edget
+(trädgårdarna) (nn.utr.plu.def.nom) (214) word
+183 182 (PR) edget
+(hade) (vb.prt.akt.aux) (215) word
+184 177 (CC) edget
+(det) (pn.neu.sin.def.sub/obj) (216) word
+185 184 (SUB) edget
+(kommit) (vb.sup.akt) (217) word
+186 184 (VC) edget
+(upp) (pl) (218) word
+187 186 (ADV) edget
+(massor) (nn.utr.plu.ind.nom) (219) word
+188 186 (SUB) edget
+(av) (pp) (220) word
+189 188 (ATT) edget
+(påskliljor) (nn.utr.plu.ind.nom) (221) word
+190 189 (PR) edget
+(.) (mad) (222) word
+191 186 (IP) edget
+(Björkarna) (nn.utr.plu.def.nom) (225) word
+192 193 (SUB) edget
+(var) (vb.prt.akt.kop) (226) word
+(klädda) (jj.pos.utr/neu.plu.ind/def.nom) (227) word
+194 193 (PRD) edget
+(i) (pp) (228) word
+195 194 (ADV) edget
+(skira) (jj.pos.utr/neu.plu.ind/def.nom) (229) word
+196 198 (ATT) edget
+(gröna) (jj.pos.utr/neu.plu.ind/def.nom) (230) word
+197 198 (ATT) edget
+(florslöjor) (nn.utr.plu.ind.nom) (231) word
+198 195 (PR) edget
+(.) (mad) (232) word
+199 193 (IP) edget
+(Hur) (ha) (235) word
+200 201 (ADV) edget
+(kunde) (vb.prt.akt.mod) (236) word
+(det) (pn.neu.sin.def.sub/obj) (237) word
+202 201 (SUB) edget
+(komma) (vb.inf.akt) (238) word
+203 201 (VC) edget
+(sig) (pn.utr/neu.sin/plu.def.obj) (239) word
+204 203 (OBJ) edget
+(att) (sn) (240) word
+205 203 (SUB) edget
+(allting) (pn.neu.sin.ind.sub/obj) (241) word
+206 207 (SUB) edget
+(började) (vb.prt.akt.mod) (242) word
+207 205 (UK) edget
+(växa) (vb.inf.akt) (243) word
+208 207 (VC) edget
+(och) (kn) (244) word
+209 208 (CC) edget
+(gro) (vb.inf.akt) (245) word
+210 209 (CC) edget
+(vid) (pp) (246) word
+211 210 (ADV) edget
+(den) (dt.utr.sin.def) (247) word
+212 214 (DET) edget
+(här) (ab) (248) word
+213 212 (ID) edget
+(tiden) (nn.utr.sin.def.nom) (249) word
+214 211 (PR) edget
+(på) (pp) (250) word
+215 214 (ATT) edget
+(året) (nn.neu.sin.def.nom) (251) word
+216 215 (PR) edget
+(?) (mad) (252) word
+217 203 (IP) edget
+(Vad) (hp.neu.sin.ind) (255) word
+218 219 (PRD) edget
+(kunde) (vb.prt.akt.mod) (256) word
+(det) (pn.neu.sin.def.sub/obj) (257) word
+220 219 (SUB) edget
+(vara) (vb.inf.akt.kop) (258) word
+221 219 (VC) edget
+(som) (hp.-.-.-) (259) word
+222 223 (SUB) edget
+(fick) (vb.prt.akt.mod) (260) word
+223 219 (APP) edget
+(kilo) (nn.neu.plu.ind.nom) (261) word
+224 223 (OBJ) edget
+(på) (pp) (262) word
+225 224 (ATT) edget
+(kilo) (nn.neu.plu.ind.nom) (263) word
+226 225 (PR) edget
+(med) (pp) (264) word
+227 226 (ATT) edget
+(grönska) (nn.utr.sin.ind.nom) (265) word
+228 227 (PR) edget
+(att) (ie) (266) word
+229 223 (INF) edget
+(välla) (vb.inf.akt) (267) word
+230 229 (IM) edget
+(upp) (pl) (268) word
+231 230 (ADV) edget
+(ur) (pp) (269) word
+232 230 (ADV) edget
+(den) (pn.utr.sin.def.sub/obj) (270) word
+233 235 (DET) edget
+(livlösa) (vb.inf.akt) (271) word
+234 235 (ATT) edget
+(jorden) (nn.utr.sin.def.nom) (272) word
+235 232 (PR) edget
+(så) (ab) (273) word
+236 223 (ADV) edget
+(fort) (ab.pos) (274) word
+237 236 (ID) edget
+(snön) (nn.utr.sin.def.nom) (275) word
+238 239 (SUB) edget
+(försvann) (vb.prt.akt) (276) word
+239 237 (UK) edget
+(och) (kn) (277) word
+240 239 (CC) edget
+(det) (pn.neu.sin.def.sub/obj) (278) word
+241 242 (SUB) edget
+(blev) (vb.prt.akt.kop) (279) word
+242 240 (CC) edget
+(lite) (ab.pos) (280) word
+243 244 (ADV) edget
+(varmare) (jj.kom.utr/neu.sin/plu.ind/def.nom) (281) word
+244 242 (PRD) edget
+(i) (pp) (282) word
+245 242 (ADV) edget
+(luften) (nn.utr.sin.def.nom) (283) word
+246 245 (PR) edget
+(?) (mad) (284) word
+247 219 (IP) edget
+(Sofie) (pm.nom) (287) word
+248 249 (SUB) edget
+(öppnade) (vb.prt.akt) (288) word
+(grinden) (nn.utr.sin.def.nom) (289) word
+250 249 (OBJ) edget
+(och) (kn) (290) word
+251 249 (CC) edget
+(tittade) (vb.prt.akt) (291) word
+252 251 (CC) edget
+(i) (pp) (292) word
+253 252 (ADV) edget
+(brevlådan) (nn.utr.sin.def.nom) (293) word
+254 253 (PR) edget
+(.) (mad) (294) word
+255 252 (IP) edget
+(Där) (ab) (297) word
+256 257 (ADV) edget
+(brukade) (vb.prt.akt.mod) (298) word
+(det) (pn.neu.sin.def.sub/obj) (299) word
+258 257 (SUB) edget
+(alltid) (ab) (300) word
+259 257 (ADV) edget
+(ligga) (vb.inf.akt) (301) word
+260 257 (VC) edget
+(en) (dt.utr.sin.ind) (302) word
+261 262 (DET) edget
+(massa) (nn.utr.sin.ind.nom.set) (303) word
+262 263 (DET) edget
+(reklambroschyrer) (nn.utr.plu.ind.nom) (304) word
+263 260 (SUB) edget
+(och) (kn) (305) word
+264 263 (CC) edget
+(stora) (jj.pos.utr/neu.plu.ind/def.nom) (306) word
+265 266 (ATT) edget
+(kuvert) (nn.neu.plu.ind.nom) (307) word
+266 264 (CC) edget
+(till) (pp) (308) word
+267 266 (ATT) edget
+(modern) (nn.utr.sin.def.nom) (309) word
+268 267 (PR) edget
+(,) (mid) (310) word
+269 268 (IP) edget
+(som) (hp.-.-.-) (311) word
+270 272 (OBJ) edget
+(hon) (pn.utr.sin.def.sub) (312) word
+271 272 (SUB) edget
+(lade) (vb.prt.akt) (313) word
+272 268 (ATT) edget
+(i) (pp) (314) word
+273 272 (ADV) edget
+(en) (dt.utr.sin.ind) (315) word
+274 276 (DET) edget
+(stor) (jj.pos.utr.sin.ind.nom) (316) word
+275 276 (ATT) edget
+(hög) (jj.pos.utr.sin.ind.nom) (317) word
+276 273 (PR) edget
+(på) (pp) (318) word
+277 276 (ATT) edget
+(köksbordet) (nn.neu.sin.def.nom) (319) word
+278 277 (PR) edget
+(innan) (sn) (320) word
+279 272 (ADV) edget
+(hon) (pn.utr.sin.def.sub) (321) word
+280 281 (SUB) edget
+(gick) (vb.prt.akt) (322) word
+281 279 (UK) edget
+(upp) (pl) (323) word
+282 281 (ADV) edget
+(till) (pp) (324) word
+283 281 (ADV) edget
+(sitt) (ps.neu.sin.def) (325) word
+284 286 (DET) edget
+(eget) (jj.pos.neu.sin.ind/def.nom) (326) word
+285 286 (DET) edget
+(rum) (nn.neu.sin.ind.nom) (327) word
+286 283 (PR) edget
+(och) (kn) (328) word
+287 281 (CC) edget
+(började) (vb.prt.akt.mod) (329) word
+288 287 (CC) edget
+(med) (pp) (330) word
+289 288 (ADV) edget
+(läxorna) (nn.utr.plu.def.nom) (331) word
+290 289 (PR) edget
+(.) (mad) (332) word
+291 257 (IP) edget
+(Till) (pp) (335) word
+292 295 (ADV) edget
+(Sofies) (pm.gen) (336) word
+293 294 (DET) edget
+(pappa) (nn.utr.sin.ind.nom) (337) word
+294 292 (PR) edget
+(kom) (vb.prt.akt) (338) word
+(det) (pn.neu.sin.def.sub/obj) (339) word
+296 295 (SUB) edget
+(bara) (ab) (340) word
+297 295 (ADV) edget
+(några) (dt.utr/neu.plu.ind) (341) word
+298 299 (DET) edget
+(brev) (nn.neu.plu.ind.nom) (342) word
+299 295 (SUB) edget
+(från) (pp) (343) word
+300 295 (ADV) edget
+(banken) (nn.utr.sin.def.nom) (344) word
+301 300 (PR) edget
+(då) (ab) (345) word
+302 295 (ADV) edget
+(och) (kn) (346) word
+303 302 (ID) edget
+(då) (ab) (347) word
+304 303 (ID) edget
+(,) (mid) (348) word
+305 295 (IP) edget
+(men) (kn) (349) word
+306 295 (CC) edget
+(han) (pn.utr.sin.def.sub) (350) word
+307 308 (SUB) edget
+(var) (vb.prt.akt.kop) (351) word
+308 306 (CC) edget
+(ju) (ab) (352) word
+309 308 (ADV) edget
+(heller) (ab) (353) word
+310 308 (ADV) edget
+(inte) (ab) (354) word
+311 308 (ADV) edget
+(som) (kn) (355) word
+312 308 (PRD) edget
+(andra) (jj.pos.utr/neu.plu.ind/def.nom) (356) word
+313 314 (DET) edget
+(pappor) (nn.utr.plu.ind.nom) (357) word
+314 312 (UK) edget
+(.) (mad) (358) word
+315 308 (IP) edget
+(Han) (pn.utr.sin.def.sub) (361) word
+316 317 (SUB) edget
+(var) (vb.prt.akt.kop) (362) word
+(kapten) (nn.utr.sin.ind.nom) (363) word
+318 317 (PRD) edget
+(på) (pp) (364) word
+319 317 (ADV) edget
+(en) (dt.utr.sin.ind) (365) word
+320 322 (DET) edget
+(stor) (jj.pos.utr.sin.ind.nom) (366) word
+321 322 (ATT) edget
+(oljetanker) (nn.utr.sin.ind.nom) (367) word
+322 319 (PR) edget
+(,) (mid) (368) word
+323 317 (IP) edget
+(och) (kn) (369) word
+324 317 (CC) edget
+(han) (pn.utr.sin.def.sub) (370) word
+325 326 (SUB) edget
+(var) (vb.prt.akt.kop) (371) word
+326 324 (CC) edget
+(nästan) (ab) (372) word
+327 326 (ADV) edget
+(aldrig) (ab) (373) word
+328 326 (ADV) edget
+(hemma) (ab) (374) word
+329 326 (ADV) edget
+(.) (mad) (375) word
+330 326 (IP) edget
+(När) (ha) (378) word
+331 340 (ADV) edget
+(han) (pn.utr.sin.def.sub) (379) word
+332 333 (SUB) edget
+(var) (vb.prt.akt.kop) (380) word
+333 331 (UK) edget
+(hemma) (ab) (381) word
+334 333 (PRD) edget
+(några) (dt.utr/neu.plu.ind) (382) word
+335 336 (DET) edget
+(veckor) (nn.utr.plu.ind.nom) (383) word
+336 333 (ADV) edget
+(i) (pp) (384) word
+337 336 (ATT) edget
+(taget) (nn.neu.sin.def.nom) (385) word
+338 337 (ID) edget
+(,) (mid) (386) word
+339 340 (IP) edget
+(tassade) (vb.prt.akt) (387) word
+(han) (pn.utr.sin.def.sub) (388) word
+341 340 (SUB) edget
+(omkring) (ab) (389) word
+342 340 (ADV) edget
+(i) (pp) (390) word
+343 342 (ADV) edget
+(huset) (nn.neu.sin.def.nom) (391) word
+344 343 (ID) edget
+(och) (kn) (392) word
+345 340 (CC) edget
+(såg) (vb.prt.akt) (393) word
+346 345 (CC) edget
+(till) (pp) (394) word
+347 346 (ADV) edget
+(att) (sn) (395) word
+348 346 (OBJ) edget
+(Sofie) (pm.nom) (396) word
+349 353 (SUB) edget
+(och) (kn) (397) word
+350 349 (CC) edget
+(hennes) (ps.utr/neu.sin/plu.def) (398) word
+351 352 (DET) edget
+(mamma) (nn.utr.sin.ind.nom) (399) word
+352 350 (CC) edget
+(hade) (vb.prt.akt.aux) (400) word
+353 348 (UK) edget
+(det) (pn.neu.sin.def.sub/obj) (401) word
+354 353 (OBJ) edget
+(bra) (ab.pos) (402) word
+355 353 (PRD) edget
+(.) (mad) (403) word
+356 346 (IP) edget
+(Men) (kn) (406) word
+(när) (ha) (407) word
+358 364 (ADV) edget
+(han) (pn.utr.sin.def.sub) (408) word
+359 360 (SUB) edget
+(var) (vb.prt.akt.kop) (409) word
+360 358 (UK) edget
+(på) (pp) (410) word
+361 360 (PRD) edget
+(sjön) (nn.utr.sin.def.nom) (411) word
+362 361 (PR) edget
+(,) (mid) (412) word
+363 364 (IP) edget
+(kändes) (vb.prt.sfo) (413) word
+364 357 (CC) edget
+(han) (pn.utr.sin.def.sub) (414) word
+365 364 (SUB) edget
+(ganska) (ab) (415) word
+366 367 (ADV) edget
+(avlägsen) (jj.pos.utr.sin.ind.nom) (416) word
+367 364 (PRD) edget
+(.) (mad) (417) word
+368 364 (IP) edget
+(I) (pp) (420) word
+369 371 (ADV) edget
+(dag) (nn.utr.sin.ind.nom) (421) word
+370 369 (ID) edget
+(låg) (vb.prt.akt) (422) word
+(det) (pn.neu.sin.def.sub/obj) (423) word
+372 371 (SUB) edget
+(bara) (ab) (424) word
+373 371 (ADV) edget
+(ett) (dt.neu.sin.ind) (425) word
+374 376 (DET) edget
+(litet) (jj.pos.neu.sin.ind.nom) (426) word
+375 376 (ATT) edget
+(brev) (nn.neu.sin.ind.nom) (427) word
+376 371 (SUB) edget
+(i) (pp) (428) word
+377 371 (ADV) edget
+(brevlådan) (nn.utr.sin.def.nom) (429) word
+378 377 (PR) edget
+(--) (mid) (430) word
+379 371 (IP) edget
+(och) (kn) (431) word
+380 371 (CC) edget
+(det) (pn.neu.sin.def.sub/obj) (432) word
+381 382 (SUB) edget
+(var) (vb.prt.akt.kop) (433) word
+382 380 (CC) edget
+(till) (pp) (434) word
+383 382 (PRD) edget
+(Sofie) (pm.nom) (435) word
+384 383 (PR) edget
+(.) (mad) (436) word
+385 382 (IP) edget
+(") (pad) (439) word
+386 387 (IP) edget
+(Sofie) (pm.nom) (440) word
+387 390 (SUB) edget
+(Amundsen) (pm.nom) (441) word
+388 387 (ID) edget
+(") (pad) (442) word
+389 388 (IP) edget
+(stod) (vb.prt.akt) (443) word
+(det) (pn.neu.sin.def.sub/obj) (444) word
+391 390 (SUB) edget
+(på) (pp) (445) word
+392 390 (ADV) edget
+(det) (dt.neu.sin.def) (446) word
+393 395 (DET) edget
+(lilla) (jj.pos.utr/neu.sin.def.nom) (447) word
+394 395 (ATT) edget
+(kuvertet) (nn.neu.sin.def.nom) (448) word
+395 392 (PR) edget
+(.) (mad) (449) word
+396 390 (IP) edget
+(") (pad) (452) word
+397 398 (IP) edget
+(Klövervägen) (pm.nom) (453) word
+(3) (rg.nom) (454) word
+399 398 (ATT) edget
+(") (pad) (455) word
+400 398 (IP) edget
+(.) (mad) (456) word
+401 398 (IP) edget
+(Det) (pn.neu.sin.def.sub/obj) (459) word
+402 403 (SUB) edget
+(var) (vb.prt.akt.kop) (460) word
+(allt) (pn.neu.sin.ind.sub/obj) (461) word
+404 403 (PRD) edget
+(.) (mad) (462) word
+405 403 (IP) edget
+(Det) (pn.neu.sin.def.sub/obj) (465) word
+406 407 (SUB) edget
+(stod) (vb.prt.akt) (466) word
+(inte) (ab) (467) word
+408 407 (ADV) edget
+(vem) (hp.utr.sin.ind) (468) word
+409 411 (PRD) edget
+(avsändaren) (nn.utr.sin.def.nom) (469) word
+410 411 (SUB) edget
+(var) (vb.prt.akt.kop) (470) word
+411 407 (SUB) edget
+(,) (mid) (471) word
+412 407 (IP) edget
+(och) (kn) (472) word
+413 407 (CC) edget
+(det) (pn.neu.sin.def.sub/obj) (473) word
+414 415 (SUB) edget
+(fanns) (vb.prt.sfo) (474) word
+415 413 (CC) edget
+(inte) (ab) (475) word
+416 415 (ADV) edget
+(ens) (ab) (476) word
+417 415 (ADV) edget
+(något) (dt.neu.sin.ind) (477) word
+418 419 (DET) edget
+(frimärke) (nn.neu.sin.ind.nom) (478) word
+419 415 (SUB) edget
+(.) (mad) (479) word
+420 415 (IP) edget
+(Sofie) (pm.nom) (482) word
+421 422 (SUB) edget
+(stängde) (vb.prt.akt) (483) word
+(grinden) (nn.utr.sin.def.nom) (484) word
+423 422 (OBJ) edget
+(och) (kn) (485) word
+424 422 (CC) edget
+(öppnade) (vb.prt.akt) (486) word
+425 424 (CC) edget
+(brevet) (nn.neu.sin.def.nom) (487) word
+426 425 (OBJ) edget
+(.) (mad) (488) word
+427 425 (IP) edget
+(Inuti) (ab) (491) word
+428 429 (ADV) edget
+(låg) (vb.prt.akt) (492) word
+(bara) (ab) (493) word
+430 429 (ADV) edget
+(en) (dt.utr.sin.ind) (494) word
+431 432 (DET) edget
+(papperslapp) (nn.utr.sin.ind.nom) (495) word
+432 429 (SUB) edget
+(,) (mid) (496) word
+433 432 (IP) edget
+(som) (hp.-.-.-) (497) word
+434 436 (SUB) edget
+(inte) (ab) (498) word
+435 436 (ADV) edget
+(var) (vb.prt.akt.kop) (499) word
+436 432 (ATT) edget
+(större) (jj.kom.utr/neu.sin/plu.ind/def.nom) (500) word
+437 436 (PRD) edget
+(än) (kn) (501) word
+438 436 (ADV) edget
+(kuvertet) (nn.neu.sin.def.nom) (502) word
+439 438 (UK) edget
+(den) (pn.utr.sin.def.sub/obj) (503) word
+440 441 (SUB) edget
+(låg) (vb.prt.akt) (504) word
+441 439 (ATT) edget
+(i) (pp) (505) word
+442 441 (ADV) edget
+(.) (mad) (506) word
+443 429 (IP) edget
+(På) (pp) (509) word
+444 446 (ADV) edget
+(lappen) (nn.utr.sin.def.nom) (510) word
+445 444 (PR) edget
+(stod) (vb.prt.akt) (511) word
+(det) (pn.neu.sin.def.sub/obj) (512) word
+447 446 (SUB) edget
+(:) (mad) (513) word
+448 446 (IP) edget
+(") (pad) (514) word
+449 451 (IP) edget
+(Vem) (hp.utr.sin.ind) (515) word
+450 451 (PRD) edget
+(är) (vb.prs.akt.kop) (516) word
+451 446 (CC) edget
+(du) (pn.utr.sin.def.sub) (517) word
+452 451 (SUB) edget
+(?) (mad) (518) word
+453 451 (IP) edget
+(") (pad) (519) word
+454 451 (IP) edget
+(Det) (pn.neu.sin.def.sub/obj) (522) word
+455 456 (SUB) edget
+(stod) (vb.prt.akt) (523) word
+(ingenting) (pn.neu.sin.ind.sub/obj) (524) word
+457 458 (DET) edget
+(mer) (ab.kom) (525) word
+458 456 (SUB) edget
+(.) (mad) (526) word
+459 456 (IP) edget
+(Där) (ab) (529) word
+460 461 (ADV) edget
+(fanns) (vb.prt.sfo) (530) word
+(inte) (ab) (531) word
+462 461 (ADV) edget
+(någon) (dt.utr.sin.ind) (532) word
+463 464 (DET) edget
+(hälsning) (nn.utr.sin.ind.nom) (533) word
+464 461 (SUB) edget
+(och) (kn) (534) word
+465 461 (CC) edget
+(inte) (ab) (535) word
+466 468 (ADV) edget
+(någon) (dt.utr.sin.ind) (536) word
+467 468 (DET) edget
+(avsändare) (nn.utr.sin.ind.nom) (537) word
+468 465 (CC) edget
+(,) (mid) (538) word
+469 468 (IP) edget
+(ingenting) (pn.neu.sin.ind.sub/obj) (539) word
+470 471 (DET) edget
+(annat) (pn.neu.sin.ind.sub/obj) (540) word
+471 468 (CC) edget
+(än) (kn) (541) word
+472 471 (ADV) edget
+(de) (dt.utr/neu.plu.def) (542) word
+473 475 (DET) edget
+(tre) (rg.nom) (543) word
+474 475 (DET) edget
+(orden) (nn.neu.plu.def.nom) (544) word
+475 472 (UK) edget
+(,) (mid) (545) word
+476 475 (IP) edget
+(som) (hp.-.-.-) (546) word
+477 478 (SUB) edget
+(var) (vb.prt.akt.kop) (547) word
+478 475 (ATT) edget
+(skrivna) (jj.pos.utr/neu.plu.ind/def.nom) (548) word
+479 478 (PRD) edget
+(för) (pp) (549) word
+480 478 (ADV) edget
+(hand) (nn.utr.sin.ind.nom) (550) word
+481 480 (ID) edget
+(och) (kn) (551) word
+482 478 (CC) edget
+(hade) (vb.prt.akt.aux) (552) word
+483 482 (CC) edget
+(ett) (dt.neu.sin.ind) (553) word
+484 486 (DET) edget
+(stort) (jj.pos.neu.sin.ind.nom) (554) word
+485 486 (ATT) edget
+(frågetecken) (nn.neu.sin.ind.nom) (555) word
+486 483 (OBJ) edget
+(efter) (pp) (556) word
+487 483 (ADV) edget
+(sig) (pn.utr/neu.sin/plu.def.obj) (557) word
+488 487 (PR) edget
+(.) (mad) (558) word
+489 483 (IP) edget
+(Hon) (pn.utr.sin.def.sub) (561) word
+490 491 (SUB) edget
+(tittade) (vb.prt.akt) (562) word
+(på) (pp) (563) word
+492 491 (ADV) edget
+(kuvertet) (nn.neu.sin.def.nom) (564) word
+493 492 (PR) edget
+(en) (dt.utr.sin.ind) (565) word
+494 495 (DET) edget
+(gång) (nn.utr.sin.ind.nom) (566) word
+495 491 (ADV) edget
+(till) (pp) (567) word
+496 495 (ATT) edget
+(.) (mad) (568) word
+497 491 (IP) edget
+(Jodå) (in) (571) word
+498 501 (ADV) edget
+(--) (mid) (572) word
+499 501 (IP) edget
+(brevet) (nn.neu.sin.def.nom) (573) word
+500 501 (SUB) edget
+(var) (vb.prt.akt.kop) (574) word
+(till) (pp) (575) word
+502 501 (ADV) edget
+(henne) (pn.utr.sin.def.obj) (576) word
+503 502 (PR) edget
+(.) (mad) (577) word
+504 501 (IP) edget
+(Vem) (hp.utr.sin.ind) (580) word
+505 506 (SUB) edget
+(kunde) (vb.prt.akt.mod) (581) word
+(ha) (vb.inf.akt.aux) (582) word
+507 506 (VC) edget
+(lagt) (vb.sup.akt) (583) word
+508 507 (VC) edget
+(det) (pn.neu.sin.def.sub/obj) (584) word
+509 508 (OBJ) edget
+(i) (pp) (585) word
+510 508 (ADV) edget
+(deras) (ps.utr/neu.sin/plu.def) (586) word
+511 512 (DET) edget
+(brevlåda) (nn.utr.sin.ind.nom) (587) word
+512 510 (PR) edget
+(?) (mad) (588) word
+513 508 (IP) edget
+(Sofie) (pm.nom) (591) word
+514 515 (SUB) edget
+(låste) (vb.prt.akt) (592) word
+(snabbt) (ab.pos) (593) word
+516 515 (ADV) edget
+(upp) (pl) (594) word
+517 515 (ADV) edget
+(dörren) (nn.utr.sin.def.nom) (595) word
+518 515 (OBJ) edget
+(till) (pp) (596) word
+519 515 (ADV) edget
+(det) (dt.neu.sin.def) (597) word
+520 522 (DET) edget
+(röda) (jj.pos.utr/neu.sin.def.nom) (598) word
+521 522 (ATT) edget
+(huset) (nn.neu.sin.def.nom) (599) word
+522 519 (PR) edget
+(.) (mad) (600) word
+523 515 (IP) edget
+(Som) (kn) (603) word
+524 526 (ADV) edget
+(vanligt) (ab.pos) (604) word
+525 524 (UK) edget
+(lyckades) (vb.prt.sfo) (605) word
+(katten) (nn.utr.sin.def.nom) (606) word
+527 528 (DET) edget
+(Shere) (uo) (607) word
+528 526 (SUB) edget
+(Khan) (pn.utr.sin.def.sub) (608) word
+529 528 (ID) edget
+(smyga) (vb.inf.akt) (609) word
+530 526 (OBJ) edget
+(sig) (pn.utr/neu.sin/plu.def.obj) (610) word
+531 530 (OBJ) edget
+(fram) (pl) (611) word
+532 530 (ADV) edget
+(mellan) (pp) (612) word
+533 530 (ADV) edget
+(buskarna) (nn.utr.plu.def.nom) (613) word
+534 533 (PR) edget
+(,) (mid) (614) word
+535 526 (IP) edget
+(hoppa) (vb.inf.akt) (615) word
+536 526 (CC) edget
+(upp) (pl) (616) word
+537 536 (ADV) edget
+(på) (pp) (617) word
+538 536 (ADV) edget
+(trappan) (nn.utr.sin.def.nom) (618) word
+539 538 (PR) edget
+(och) (kn) (619) word
+540 536 (CC) edget
+(smita) (vb.inf.akt) (620) word
+541 540 (CC) edget
+(in) (pl) (621) word
+542 541 (ADV) edget
+(genom) (pp) (622) word
+543 541 (ADV) edget
+(dörren) (nn.utr.sin.def.nom) (623) word
+544 543 (PR) edget
+(,) (mid) (624) word
+545 541 (IP) edget
+(innan) (sn) (625) word
+546 541 (ADV) edget
+(hon) (pn.utr.sin.def.sub) (626) word
+547 548 (SUB) edget
+(hann) (vb.prt.akt.mod) (627) word
+548 546 (UK) edget
+(stänga) (vb.inf.akt) (628) word
+549 548 (VC) edget
+(den) (pn.utr.sin.def.sub/obj) (629) word
+550 549 (OBJ) edget
+(.) (mad) (630) word
+551 549 (IP) edget
+(") (pad) (633) word
+552 553 (IP) edget
+(Kiss) (pm.nom) (634) word
+(,) (mid) (635) word
+554 553 (CC) edget
+(kiss) (pm.nom) (636) word
+555 554 (CC) edget
+(,) (mid) (637) word
+556 555 (CC) edget
+(kiss) (pm.nom) (638) word
+557 556 (CC) edget
+(!) (mad) (639) word
+558 553 (IP) edget
+(") (pad) (640) word
+559 553 (IP) edget
+(När) (ha) (643) word
+560 568 (ADV) edget
+(Sofies) (pm.gen) (644) word
+561 562 (DET) edget
+(mamma) (nn.utr.sin.ind.nom) (645) word
+562 563 (SUB) edget
+(var) (vb.prt.akt.kop) (646) word
+563 560 (UK) edget
+(på) (pp) (647) word
+564 563 (PRD) edget
+(dåligt) (jj.pos.neu.sin.ind.nom) (648) word
+565 566 (ATT) edget
+(humör) (nn.neu.sin.ind.nom) (649) word
+566 564 (PR) edget
+(,) (mid) (650) word
+567 568 (IP) edget
+(brukade) (vb.prt.akt.mod) (651) word
+(hon) (pn.utr.sin.def.sub) (652) word
+569 568 (SUB) edget
+(säga) (vb.inf.akt) (653) word
+570 568 (VC) edget
+(att) (sn) (654) word
+571 570 (OBJ) edget
+(deras) (ps.utr/neu.sin/plu.def) (655) word
+572 573 (DET) edget
+(hus) (nn.neu.sin.ind.nom) (656) word
+573 574 (SUB) edget
+(påminde) (vb.prt.akt) (657) word
+574 571 (UK) edget
+(om) (pp) (658) word
+575 574 (ADV) edget
+(ett) (dt.neu.sin.ind) (659) word
+576 577 (DET) edget
+(menageri) (nn.neu.sin.ind.nom) (660) word
+577 575 (PR) edget
+(.) (mad) (661) word
+578 568 (IP) edget
+(Ett) (dt.neu.sin.ind) (664) word
+579 580 (DET) edget
+(menageri) (nn.neu.sin.ind.nom) (665) word
+580 581 (SUB) edget
+(är) (vb.prs.akt.kop) (666) word
+(ett) (dt.neu.sin.ind) (667) word
+582 583 (DET) edget
+(ställe) (nn.neu.sin.ind.nom) (668) word
+583 581 (PRD) edget
+(där) (ha) (669) word
+584 586 (ADV) edget
+(man) (pn.utr.sin.ind.sub) (670) word
+585 586 (SUB) edget
+(samlar) (vb.prs.akt) (671) word
+586 583 (ATT) edget
+(en) (dt.utr.sin.ind) (672) word
+587 588 (DET) edget
+(massa) (nn.utr.sin.ind.nom.set) (673) word
+588 590 (DET) edget
+(olika) (jj.pos.utr/neu.plu.ind/def.nom) (674) word
+589 590 (ATT) edget
+(djur) (nn.neu.plu.ind.nom) (675) word
+590 586 (OBJ) edget
+(,) (mid) (676) word
+591 581 (IP) edget
+(och) (kn) (677) word
+592 581 (CC) edget
+(det) (pn.neu.sin.def.sub/obj) (678) word
+593 594 (SUB) edget
+(kunde) (vb.prt.akt.mod) (679) word
+594 592 (CC) edget
+(faktiskt) (ab.pos) (680) word
+595 594 (ADV) edget
+(stämma) (vb.inf.akt) (681) word
+596 594 (VC) edget
+(--) (mad) (682) word
+597 596 (IP) edget
+(Sofie) (pm.nom) (683) word
+598 599 (SUB) edget
+(var) (vb.prt.akt.kop) (684) word
+599 596 (CC) edget
+(mycket) (ab.pos) (685) word
+600 601 (ADV) edget
+(belåten) (jj.pos.utr.sin.ind.nom) (686) word
+601 599 (PRD) edget
+(med) (pp) (687) word
+602 599 (ADV) edget
+(sin) (ps.utr.sin.def) (688) word
+603 604 (DET) edget
+(samling) (nn.utr.sin.ind.nom.set) (689) word
+604 602 (PR) edget
+(.) (mad) (690) word
+605 599 (IP) edget
+(Först) (ab) (693) word
+606 607 (ADV) edget
+(hade) (vb.prt.akt.aux) (694) word
+(hon) (pn.utr.sin.def.sub) (695) word
+608 607 (SUB) edget
+(fått) (vb.sup.akt.mod) (696) word
+609 607 (VC) edget
+(en) (dt.utr.sin.ind) (697) word
+610 611 (DET) edget
+(skål) (nn.utr.sin.ind.nom) (698) word
+611 609 (OBJ) edget
+(med) (pp) (699) word
+612 611 (ATT) edget
+(tre) (rg.nom) (700) word
+613 614 (DET) edget
+(guldfiskar) (nn.utr.plu.ind.nom) (701) word
+614 612 (PR) edget
+(som) (hp.-.-.-) (702) word
+615 616 (SUB) edget
+(hette) (vb.prt.akt.kop) (703) word
+616 614 (ATT) edget
+(Gulltopp) (nn.neu.sin.ind.nom) (704) word
+617 616 (PRD) edget
+(,) (mid) (705) word
+618 617 (CC) edget
+(Rödluvan) (pm.nom) (706) word
+619 618 (CC) edget
+(och) (kn) (707) word
+620 619 (CC) edget
+(Svarte) (jj.pos.mas.sin.def.nom) (708) word
+621 620 (CC) edget
+(Petter) (pm.nom) (709) word
+622 621 (ID) edget
+(.) (mad) (710) word
+623 609 (IP) edget
+(Sedan) (ab) (713) word
+624 625 (ADV) edget
+(fick) (vb.prt.akt.mod) (714) word
+(hon) (pn.utr.sin.def.sub) (715) word
+626 625 (SUB) edget
+(undulaterna) (nn.utr.plu.def.nom) (716) word
+627 628 (DET) edget
+(Gnuttan) (pm.nom) (717) word
+628 625 (OBJ) edget
+(och) (kn) (718) word
+629 628 (CC) edget
+(Smulan) (pm.nom) (719) word
+630 629 (CC) edget
+(,) (mid) (720) word
+631 630 (CC) edget
+(sköldpaddan) (nn.utr.sin.def.nom) (721) word
+632 633 (DET) edget
+(Govinda) (nn.utr.sin.ind.nom) (722) word
+633 631 (CC) edget
+(och) (kn) (723) word
+634 633 (CC) edget
+(till) (pp) (724) word
+635 640 (ADV) edget
+(sist) (ab.suv) (725) word
+636 635 (ID) edget
+(den) (dt.utr.sin.def) (726) word
+637 639 (DET) edget
+(gulbruna) (jj.pos.utr/neu.sin.def.nom) (727) word
+638 639 (ATT) edget
+(tigerkatten) (nn.utr.sin.def.nom) (728) word
+639 640 (DET) edget
+(Shere) (uo) (729) word
+640 634 (CC) edget
+(Khan) (pn.utr.sin.def.sub) (730) word
+641 640 (ID) edget
+(.) (mad) (731) word
+642 625 (IP) edget
+(Hon) (pn.utr.sin.def.sub) (734) word
+643 644 (SUB) edget
+(hade) (vb.prt.akt.aux) (735) word
+(fått) (vb.sup.akt.mod) (736) word
+645 644 (VC) edget
+(djuren) (nn.neu.plu.def.nom) (737) word
+646 645 (OBJ) edget
+(som) (kn) (738) word
+647 645 (ADV) edget
+(ett) (dt.neu.sin.ind) (739) word
+648 649 (DET) edget
+(slags) (nn.neu.sin.ind.gen) (740) word
+649 650 (DET) edget
+(ersättning) (nn.utr.sin.ind.nom) (741) word
+650 647 (UK) edget
+(för) (pp) (742) word
+651 650 (ATT) edget
+(att) (sn) (743) word
+652 651 (PR) edget
+(modern) (nn.utr.sin.def.nom) (744) word
+653 654 (SUB) edget
+(arbetade) (vb.prt.akt) (745) word
+654 652 (UK) edget
+(så) (ab) (746) word
+655 654 (ADV) edget
+(länge) (ab.pos) (747) word
+656 655 (ID) edget
+(på) (pp) (748) word
+657 654 (ADV) edget
+(kvällarna) (nn.utr.plu.def.nom) (749) word
+658 657 (PR) edget
+(och) (kn) (750) word
+659 651 (CC) edget
+(för) (pp) (751) word
+660 659 (CC) edget
+(att) (sn) (752) word
+661 660 (PR) edget
+(fadern) (nn.utr.sin.def.nom) (753) word
+662 666 (SUB) edget
+(för) (pp) (754) word
+663 666 (ADV) edget
+(det) (dt.neu.sin.def) (755) word
+664 665 (DET) edget
+(mesta) (jj.suv.utr/neu.sin/plu.def.nom) (756) word
+665 663 (PR) edget
+(var) (vb.prt.akt.kop) (757) word
+666 661 (UK) edget
+(ute) (ab) (758) word
+667 666 (PRD) edget
+(på) (pp) (759) word
+668 667 (ADV) edget
+(världshaven) (nn.neu.plu.def.nom) (760) word
+669 668 (PR) edget
+(.) (mad) (761) word
+670 645 (IP) edget
+(Sofie) (pm.nom) (764) word
+671 672 (SUB) edget
+(kastade) (vb.prt.akt) (765) word
+(ifrån) (pl) (766) word
+673 672 (ADV) edget
+(sig) (pn.utr/neu.sin/plu.def.obj) (767) word
+674 673 (PR) edget
+(skolväskan) (nn.utr.sin.def.nom) (768) word
+675 672 (OBJ) edget
+(och) (kn) (769) word
+676 672 (CC) edget
+(satte) (vb.prt.akt) (770) word
+677 676 (CC) edget
+(fram) (pl) (771) word
+678 677 (ADV) edget
+(en) (dt.utr.sin.ind) (772) word
+679 680 (DET) edget
+(skål) (nn.utr.sin.ind.nom) (773) word
+680 681 (DET) edget
+(kattmat) (nn.utr.sin.ind.nom) (774) word
+681 677 (OBJ) edget
+(åt) (pp) (775) word
+682 677 (ADV) edget
+(Shere) (pm.nom) (776) word
+683 682 (PR) edget
+(Khan) (pn.utr.sin.def.sub) (777) word
+684 683 (ID) edget
+(.) (mad) (778) word
+685 677 (IP) edget
+(Sedan) (ab) (781) word
+686 687 (ADV) edget
+(sjönk) (vb.prt.akt) (782) word
+(hon) (pn.utr.sin.def.sub) (783) word
+688 687 (SUB) edget
+(ner) (pl) (784) word
+689 687 (ADV) edget
+(på) (pp) (785) word
+690 687 (ADV) edget
+(en) (dt.utr.sin.ind) (786) word
+691 692 (DET) edget
+(pall) (nn.utr.sin.ind.nom) (787) word
+692 690 (PR) edget
+(med) (pp) (788) word
+693 687 (ADV) edget
+(det) (dt.neu.sin.def) (789) word
+694 696 (DET) edget
+(mystiska) (jj.pos.utr/neu.sin.def.nom) (790) word
+695 696 (ATT) edget
+(brevet) (nn.neu.sin.def.nom) (791) word
+696 693 (PR) edget
+(i) (pp) (792) word
+697 687 (ADV) edget
+(ena) (jj.pos.utr/neu.sin/plu.ind/def.nom) (793) word
+698 699 (DET) edget
+(handen) (nn.utr.sin.def.nom) (794) word
+699 697 (PR) edget
+(.) (mad) (795) word
+700 687 (IP) edget
+(Vem) (hp.utr.sin.ind) (798) word
+701 702 (PRD) edget
+(är) (vb.prs.akt.kop) (799) word
+(du) (pn.utr.sin.def.sub) (800) word
+703 702 (SUB) edget
+(?) (mad) (801) word
+704 702 (IP) edget
+(Visste) (vb.prt.akt) (804) word
+(hon) (pn.utr.sin.def.sub) (805) word
+706 705 (SUB) edget
+(egentligen) (ab) (806) word
+707 705 (ADV) edget
+(det) (pn.neu.sin.def.sub/obj) (807) word
+708 705 (OBJ) edget
+(?) (mad) (808) word
+709 705 (IP) edget
+
+%% 3. DGgraph trailer
+
+draw end 
+

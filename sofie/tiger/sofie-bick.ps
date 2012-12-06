@@ -1,0 +1,3976 @@
+%! (c) 2002 Matthias T. Kromann <mtk@id.cbs.dk>
+
+%% This PostScript library is distributed under the GNU public  
+%% license for libraries, as part of the DGgraph package.
+%% Please see: http://www.id.cbs.dk/~mtk/DGgraph for source code,
+%% documentation and license.
+
+%% 1. DGgraph Prologue
+
+100 dict begin /llx 20 def /lly 20 def /urx 500 def /ury 820 def /LW 1
+def /X 2 def /Y 0 def /dO 5 def /dA 10 def /dAW 2.5 def /dAH 6 def
+/dAD 2 def /dT 15 def /dB 18 def /dT0 3 def /dB0 8 def /dW 8 def /dH
+10 def /dL 20 def /strings 1 def /framegray 1 def /bggray 1 def
+/smallfont 7 def /textfont 10 def /nextw 0 def /nexte 0 def LW
+setlinewidth /xdef {exch def} def /max {dup 3 -1 roll dup 3 -1 roll lt
+{pop} {exch pop} ifelse} def /min {dup 3 -1 roll dup 3 -1 roll gt
+{pop} {exch pop} ifelse} def /ISOfont {findfont dup length dict begin
+{1 index /FID ne {def} {pop pop} ifelse} forall /Encoding
+ISOLatin1Encoding def currentdict end definefont pop} def /Times-Roman
+/Times-Roman-Latin1 ISOfont /Times-Bold /Times-Bold-Latin1 ISOfont
+/Times-Italic /Times-Italic-Latin1 ISOfont /Times-BoldItalic
+/Time-BoldItalic-Latin1 ISOfont /Times [(ptm) /Times-Roman-ISOLatin1
+/Times-Bold-ISOLatin1 /Times-Italic-ISOLatin1
+/Times-BoldItalic-ISOLatin1] def /setfontfamily {/fontfamily xdef} def
+/setfontsize {/fontsize xdef} def /setfontstyle {/fontstyle xdef} def
+/font 7 string def /fontext 4 string def /setupfont {font 0 fontfamily
+0 get putinterval font 3 fontstyle 1 add 1000 mul fontsize cvi add
+fontext cvs putinterval currentdict font cvn known not {currentdict
+font cvn fontfamily fontstyle 1 add get findfont fontsize scalefont
+put} if font cvn cvx exec setfont} def Times setfontfamily 10
+setfontsize 0 setfontstyle setupfont /qsort {1 index length 0 exch
+qsortx pop} def /qsortx {2 copy 2 sub gt {pop pop} {findpivot dup -1
+eq {pop pop pop} {4 index exch get 3 1 roll 2 copy 7 2 roll 1 sub
+{exch {dup 5 index exch get 3 index 5 index exec -1 eq {1 add} {exit}
+ifelse} loop exch {dup 5 index exch get 3 index 5 index exec -1 gt {1
+sub} {exit} ifelse} loop 2 copy gt {exit} if 2 copy 6 index 3 1 roll
+switch} loop 3 -1 roll pop pop 5 -1 roll exch dup 6 1 roll qsortx 4 2
+roll qsortx} ifelse} ifelse} def /findpivot {2 copy add 1 sub 2 idiv 4
+index 1 index get 1 index 1 1 index 5 index add 6 index sub 1 sub {dup
+4 index ge {4 index add 3 index sub} if dup 7 index exch get 2 index 7
+index exec dup 0 ne {1 eq {3 -1 roll pop -1 3 1 roll exit} {pop -1 3 1
+roll exch exit} ifelse} {pop pop} ifelse} for 2 index -1 eq {3 1 roll
+pop pop} {pop pop -1} ifelse} def /switch {2 index 2 index get 3 index
+2 index get 4 index exch 6 1 roll 3 1 roll put 3 -1 roll put} def
+/intcmp {2 copy lt {pop pop -1} {eq {0} {1} ifelse} ifelse} def
+/format {pop gsave /oldfontstyle fontstyle def /oldfontsize fontsize
+def /oldfontfamily fontfamily def exch dup 0 ge 1 index formats length
+le and {dup 0 eq {pop} {formats exch 1 sub get exec} ifelse} {pop}
+ifelse exec grestore fontstyle oldfontstyle ne fontsize oldfontsize ne
+or fontfamily oldfontfamily ne or {oldfontfamily setfontfamily
+oldfontsize setfontsize oldfontstyle setfontstyle setupfont} if} def
+/arrow {dA mul 2 index add 4 copy exch 2 copy 5 index 5 1 roll 5 index
+8 -2 roll moveto curveto stroke 2 index gt {-1} {1} ifelse dAH mul 3 1
+roll exch moveto dAW 0 rmoveto dAW -2 mul 0 rlineto dAW exch rlineto
+closepath fill pop} def /word {strings 2 mul 1 add array strings -1 1
+{2 index type /integertype eq {4 2 roll} {3 -1 roll 0} ifelse 3 index
+3 index 2 mul 3 -1 roll put 2 index 2 index 2 mul 1 sub 3 -1 roll put
+pop} for 0 1 1 strings {2 index exch 2 mul 1 sub get stringwidth pop
+max} for X exch X add dW add /X xdef 1 index 0 3 -1 roll put
+currentdict /words known {words nextw 3 -1 roll put} if /nextw nextw 1
+add def} def /newedge {dup type /stringtype eq {0 0} {1 index type
+/stringtype eq {dup} if} ifelse 5 2 roll 3 1 roll 2 copy gt {exch neg}
+if 3 -1 roll 0 1 7 -2 roll 7 array astore} def /edget {newedge
+currentdict /edges known {edges nexte 3 -1 roll put} if /nexte nexte 1
+add def} def /edgeb {newedge dup 4 -1 put currentdict /edges known
+{edges nexte 3 -1 roll put} if /nexte nexte 1 add def} def /xcenter
+{dup words exch get 0 get exch 1 add dup words length eq {pop X}
+{words exch get 0 get} ifelse dW sub add 2 div} def /edge_heights {[
+exch 0 0 0 edge_heights0 {pop} repeat pop pop pop pop} def
+/edge_heights0 {{edge_heights1 {true} {edge_heights2} ifelse {true}
+{edge_heights3} ifelse {true} {edge_heights4} ifelse not {exit} if}
+loop} def /edge_heights1 {dup 2 lt {false} {4 index length 3 eq {true}
+{4 index 3 get -1 eq} ifelse} ifelse {5 -1 roll dup 1 get exch 2 get 6
+index dup dup 2 get 4 -1 roll max 2 exch put 1 3 -1 roll put 1 sub
+true} {false} ifelse} def /edge_heights2 {dup 0 gt {4 index length 3
+gt {4 index 3 get -1 ne {4 index dup dup 1 get exch 3 get edges exch
+get 1 get abs eq {dup dup 2 get 1 add 2 exch dup 4 1 roll put 1 index
+3 get edges exch get 3 3 -1 roll 7 index exec put mark exch dup aload
+pop counttomark 4 sub -1 roll pop -1 counttomark -1 roll astore pop
+pop true} {pop false} ifelse} {false} ifelse} {false} ifelse} {false}
+ifelse} def /edge_heights3 {dup 1 gt {5 index 5 index dup 1 get exch 2
+get 3 -1 roll 1 get 2 index ne {7 index dup 1 5 -1 roll put dup 2 get
+3 -1 roll max 2 exch put 5 -1 roll 1 index 4 add 1 roll 1 sub
+edge_heights0 1 add dup 4 add -1 roll 5 1 roll true} {pop pop false}
+ifelse} {false} ifelse} def /edge_heights4 {counttomark 1 index 4 add
+eq {2 index words length lt {mark 3 index dup 1 add 0 7 index 6 index
+{dup edges length ge {exch pop exit} if dup edges exch get dup 0 get 6
+index eq {4 get 2 index exec 0 gt{dup 6 1 roll} if 1 add} {pop exch
+pop exit} ifelse} loop counttomark 1 add 1 roll counttomark 3 roll ] 6
+1 roll 3 1 roll 1 add exch pop 3 -1 roll 1 add 3 1 roll true} {false}
+ifelse} {false} ifelse} def /edge_displace {-1 -1 0 0 0 {2 index words
+length ge {pop pop pop pop pop exit} if 5 -2 roll pop pop -1 -1 5 2
+roll 1 index edges 0 3 -1 roll update_super dup maxedges 1 3 -1 roll
+update_super exch edges 0 3 -1 roll displace exch maxedges 1 3 -1 roll
+displace 3 -1 roll 1 add 3 1 roll} loop} def /displace {{dup 3 index
+length ge {3 1 roll pop pop exit} if 2 index 1 index get dup 3 index
+get abs 6 index gt {pop 3 1 roll pop pop exit} if dup ioword 7 index
+eq {1 index 3 get 0 gt {8 index} {7 index} ifelse dup -1 eq {pop pop 4
+0 put} {7 index -1 2 index 2 index gt {neg exch 3 1 roll} if 4 1 roll
+2 index gt 3 1 roll gt and not {neg} if 4 exch put} ifelse} {pop pop}
+ifelse 1 add} loop} def /update_super {{dup 3 index length ge {pop pop
+pop exit} if 2 index 1 index get dup 3 index get 7 index gt {pop pop
+pop pop exit} if dup ioword exch 8 index eq {exch 3 get 0 gt {9 -1
+roll pop 8 1 roll} {8 -1 roll pop 7 1 roll} ifelse} {pop pop} ifelse 1
+add} loop} def /ioword {dup 0 get exch 1 get dup 0 lt {abs exch} {abs}
+ifelse} def /split_lines {split_words split_edges split_pages} def
+/split_words {/lines [ urx llx sub 0 0 1 {1 index words length ge {pop
+pop pop pop exit} if [2 index 0 5 index 0 0 0 0] 5 1 roll {dup xpos dW
+2 div sub dup 4 index sub 5 index gt 2 index words length ge or {exch
+4 2 roll pop pop dup 1 add exit} if pop 1 add} loop} loop [words
+length edges length X 0 0 0 0] ] def} def /split_edges {0 [] 0 1 lines
+length 2 sub {dup 1 add lines exch get 0 get exch lines exch get 0 0 2
+index [ 8 2 roll 4 index {dup edges exch get 1 get abs 5 index ge {dup
+8 1 roll} if edges exch get 3 get dup 4 -1 roll min 3 1 roll max}
+forall {5 index edges length ge {exit} if 5 index edges exch get 0 get
+4 index ge {exit} if 5 index edges exch get dup 1 get abs 5 index ge
+{6 index 7 1 roll} if 3 get dup 4 -1 roll min 3 1 roll max 6 -1 roll 1
+add 6 1 roll} loop 2 index 4 3 -1 roll put 1 index 5 3 -1 roll abs put
+3 1 roll pop pop 1 2 index put counttomark 1 add 1 roll ] 2 index 6 2
+index put 3 -1 roll 1 3 index put} for pop pop} def /split_pages {ury
+lly sub 0 0 1 lines length 2 sub {lines exch get dup line_height 3
+index 3 index 2 index add lt {3 -1 roll pop 0 3 1 roll} if exch 3 3
+index put add dL add} for pop pop} def /line_height {dup 4 get exch 5
+get add dA mul strings dH mul add dB add dT add} def /xpos {dup words
+length ge {pop X} {words exch get 0 get} ifelse} def /print_word {1
+index 4 index 4 get dA mul sub dT sub 1 index xcenter 4 index add exch
+3 -1 roll words exch get 1 1 strings {3 -1 roll dH sub 3 1 roll 2 copy
+2 mul get 3 1 roll 1 index exch 2 mul 1 sub get dup stringwidth pop 2
+div neg 5 index add 4 index moveto 3 -1 roll {show} 0 format} for pop
+pop pop} def /print_edge {edges exch get 1 index 4 index 4 get dA mul
+sub 1 index 3 get 0 ge {dup dT sub dT0 add} {dT sub strings dH mul sub
+dB sub dup dB0 add} ifelse 2 index ioword xcenter 6 index add exch
+xcenter 6 index add dup 4 -1 roll moveto 3 index 2 get dup stringwidth
+pop -2 div 0 rmoveto 4 index 5 get {show} 1 format exch 3 index 4 get
+dO mul add 3 1 roll 3 index 3 get 4 index 6 get {arrow} 2 format pop}
+def /sort_edges {edges {2 copy 0 get exch 0 get exch intcmp dup 0 ne
+{3 1 roll pop pop} {pop 1 get abs exch 1 get abs exch intcmp} ifelse}
+qsort pop /maxedges edges edges length array copy def maxedges {2 copy
+1 get abs exch 1 get abs exch intcmp dup 0 ne {3 1 roll pop pop} {pop
+0 get exch 0 get exch intcmp} ifelse} qsort pop} def /layout_arcs
+{sort_edges {} edge_heights {neg} edge_heights 0 1 edges length 1 sub
+{edges exch get 4 0 put} for edge_displace split_lines} def
+/print_line {dup lines exch get dup line_height 1 index 2 get dup 4
+index 1 add lines exch get 2 get exch sub 3 1 roll llx exch sub 3
+index 3 get ury exch sub gsave newpath llx 1 index moveto 3 index 0
+rlineto 0 3 index neg rlineto 3 index neg 0 rlineto closepath gsave
+bggray setgray fill grestore clip gsave framegray setgray stroke
+grestore newpath 4 2 roll pop pop textfont setfontsize setupfont 2
+index 0 get 1 5 index 1 add lines exch get 0 get 1 sub {print_word}
+for smallfont setfontsize setupfont 3 index 0 eq {[]} {3 index 1 sub
+lines exch get 6 get} ifelse {print_edge} forall 3 index 0 eq {0} {3
+index 1 sub lines exch get 1 get} ifelse 1 4 index 1 get 1 sub
+{print_edge} for grestore pop pop pop pop} def /print_lines {0 1 lines
+length 2 sub {dup print_line 1 add lines exch get 3 get 0 eq
+{showpage} if} for} def /draw {layout_arcs print_lines} def /setup
+{array /edges exch def array /words exch def /nextw 0 def /nexte 0 def
+/strings exch def} def 
+
+
+%% 2. Dependency graph specification
+
+% Graph setup
+6 1958 1845 setup
+
+/formats [
+] def
+
+% Words and edges
+(s) () () () () (1) word
+(fcl) () () () () (2) word
+1 0 (STA) edget
+(par) () () () () (3) word
+2 1 (fA) edget
+(pp) () () () () (4) word
+3 2 (CJT) edget
+() (til) (prp) (--) (til) (5) word
+4 3 (H) edget
+() (syvende) (num) (--) (syvende) (6) word
+5 3 (DP) edget
+() (og) (conj-c) (--) (og) (7) word
+6 2 (CO) edget
+() (sidst) (adv) (--) (sidst) (8) word
+7 2 (CJT) edget
+(vp) () () () () (9) word
+8 1 (P) edget
+() (måtte) (v-fin) (IMPF AKT) (måtte) (10) word
+9 8 (Vaux) edget
+() (et_eller_andet) (pron-indef) (NEU S NOM) (en_eller_anden) (11) word
+10 1 (S) edget
+() (engang) (adv) (--) (engang) (12) word
+11 1 (fA) edget
+() (være) (v-inf) (AKT) (være) (13) word
+12 8 (Vaux) edget
+() (opstået) (v-pcp2) (AKT) (opstå) (14) word
+13 8 (Vm) edget
+(pp) () () () () (15) word
+14 1 (fA) edget
+() (af) (prp) (--) (af) (16) word
+15 14 (H) edget
+() (nul_og_niks) (pron-indef) (NEU S) (nul_og_niks) (17) word
+16 14 (DP) edget
+(s) () () () () (20) word
+(fcl) () () () () (21) word
+18 17 (STA) edget
+() (Sofie_Amundsen) (prop) (NOM) (Sofie_Amundsen) (22) word
+19 18 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (23) word
+20 18 (P) edget
+(pp) () () () () (24) word
+21 18 (As) edget
+() (på) (prp) (--) (på) (25) word
+22 21 (H) edget
+(np) () () () () (26) word
+23 21 (DP) edget
+() (vej) (n) (UTR S IDF NOM) (vej) (27) word
+24 23 (H) edget
+() (hjem) (adv) (DIR) (hjem) (28) word
+25 23 (DN) edget
+(pp) () () () () (29) word
+26 18 (fA) edget
+() (fra) (prp) (--) (fra) (30) word
+27 26 (H) edget
+() (skole) (n) (UTR S IDF NOM) (skole) (31) word
+28 26 (DP) edget
+(s) () () () () (34) word
+(fcl) () () () () (35) word
+30 29 (STA) edget
+(np) () () () () (36) word
+31 30 (fA) edget
+() (Det) (art) (NEU S DEF) (den) (37) word
+32 31 (DN) edget
+() (første) (num) (nN) (første) (38) word
+33 31 (DN) edget
+() (stykke) (n) (NEU S IDF NOM) (stykke) (39) word
+34 31 (H) edget
+() (fulgtes) (v-fin) (IMPF PAS) (følge) (40) word
+35 30 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (41) word
+36 30 (S) edget
+(pp) () () () () (42) word
+37 30 (Op) edget
+() (med) (prp) (--) (med) (43) word
+38 37 (H) edget
+() (Jorunn) (prop) (NOM) (Jorunn) (44) word
+39 37 (DP) edget
+(s) () () () () (47) word
+(fcl) () () () () (48) word
+41 40 (STA) edget
+() (De) (pron-pers) (nG 3P NOM) (de) (49) word
+42 41 (S) edget
+(vp) () () () () (50) word
+43 41 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (51) word
+44 43 (Vaux) edget
+() (talt) (v-pcp2) (AKT) (tale) (52) word
+45 43 (Vm) edget
+(pp) () () () () (53) word
+46 41 (Op) edget
+() (om) (prp) (--) (om) (54) word
+47 46 (H) edget
+() (robotter) (n) (UTR P IDF NOM) (robot) (55) word
+48 46 (DP) edget
+(s) () () () () (58) word
+(fcl) () () () () (59) word
+50 49 (STA) edget
+() (Jorunn) (prop) (NOM) (Jorunn) (60) word
+51 50 (S) edget
+(vp) () () () () (61) word
+52 50 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (62) word
+53 52 (Vaux) edget
+() (ment) (v-pcp2) (AKT) (mene) (63) word
+54 52 (Vm) edget
+(fcl) () () () () (64) word
+55 50 (Od) edget
+() (at) (conj-s) (--) (at) (65) word
+56 55 (SUB) edget
+(np) () () () () (66) word
+57 55 (S) edget
+() (menneskets) (n) (NEU S DEF GEN) (menneske) (67) word
+58 57 (DN) edget
+() (hjerne) (n) (UTR S IDF NOM) (hjerne) (68) word
+59 57 (H) edget
+() (var) (v-fin) (IMPF AKT) (være) (69) word
+60 55 (P) edget
+(pp) () () () () (70) word
+61 55 (Cs) edget
+() (som) (prp) (--) (som) (71) word
+62 61 (H) edget
+(np) () () () () (72) word
+63 61 (DP) edget
+() (en) (art) (UTR S IDF) (en) (73) word
+64 63 (DN) edget
+() (kompliceret) (adj) (nG S IDF NOM) (kompliceret) (74) word
+65 63 (DN) edget
+() (computer) (n) (UTR S IDF NOM) (computer) (75) word
+66 63 (H) edget
+(s) () () () () (78) word
+(fcl) () () () () (79) word
+68 67 (STA) edget
+() (Sofie) (prop) (NOM) (Sofie) (80) word
+69 68 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (81) word
+70 68 (P) edget
+() (ikke) (adv) (--) (ikke) (82) word
+71 68 (fA) edget
+(adjp) () () () () (83) word
+72 68 (Cs) edget
+() (helt) (adv) (--) (hel) (84) word
+73 72 (DA) edget
+() (sikker) (adj) (UTR S IDF NOM) (sikker) (85) word
+74 72 (H) edget
+(pp) () () () () (86) word
+75 72 (DA) edget
+() (på) (prp) (--) (på) (87) word
+76 75 (H) edget
+(fcl) () () () () (88) word
+77 75 (DP) edget
+() (om) (conj-s) (--) (om) (89) word
+78 77 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (90) word
+79 77 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (91) word
+80 77 (P) edget
+() (enig) (adj) (UTR S IDF NOM) (enig) (92) word
+81 77 (Cs) edget
+(s) () () () () (95) word
+(fcl) () () () () (96) word
+83 82 (QUE) edget
+(np) () () () () (97) word
+84 83 (S) edget
+() (Et) (art) (NEU S IDF) (en) (98) word
+85 84 (DN) edget
+() (menneske) (n) (NEU S IDF NOM) (menneske) (99) word
+86 84 (H) edget
+(vp) () () () () (100) word
+87 83 (P) edget
+() (måtte) (v-fin) (IMPF AKT) (måtte) (101) word
+88 87 (Vaux) edget
+() (da) (adv) (--) (da) (102) word
+89 83 (fA) edget
+() (være) (v-inf) (AKT) (være) (103) word
+90 87 (Vm) edget
+(adjp) () () () () (104) word
+91 83 (Cs) edget
+() (mere) (pron-indef) (nG S) (meget) (105) word
+92 91 (H) edget
+(pp) () () () () (106) word
+93 91 (DAcom) edget
+() (end) (prp) (--) (end) (107) word
+94 93 (H) edget
+(np) () () () () (108) word
+95 93 (DP) edget
+() (en) (art) (UTR S IDF) (en) (109) word
+96 95 (DN) edget
+() (maskine) (n) (UTR S IDF NOM) (maskine) (110) word
+97 95 (H) edget
+(s) () () () () (113) word
+(fcl) () () () () (114) word
+99 98 (STA) edget
+(pp) () () () () (115) word
+100 99 (fA) edget
+() (Ved) (prp) (--) (ved) (116) word
+101 100 (H) edget
+(np) () () () () (117) word
+102 100 (DP) edget
+() (det) (art) (NEU S DEF) (den) (118) word
+103 102 (DN) edget
+() (store) (adj) (nG S DEF NOM) (stor) (119) word
+104 102 (DN) edget
+() (indkøbscenter) (n) (NEU S IDF NOM) (indkøbscenter) (120) word
+105 102 (H) edget
+(vp) () () () () (121) word
+106 99 (P) edget
+() (var) (v-fin) (IMPF AKT) (være) (122) word
+107 106 (Vaux) edget
+() (de) (pron-pers) (nG 3P NOM) (de) (123) word
+108 99 (S) edget
+() (gået) (v-pcp2) (AKT) (gå) (124) word
+109 106 (Vm) edget
+() (hver) (pron-indef) (UTR S NOM) (hver) (125) word
+110 99 (fC) edget
+(pp) () () () () (126) word
+111 99 (As) edget
+() (til) (prp) (--) (til) (127) word
+112 111 (H) edget
+() (sit) (pron-poss) (NEU S) (sin) (128) word
+113 111 (DP) edget
+(s) () () () () (131) word
+(fcl) () () () () (132) word
+115 114 (STA) edget
+() (Sofie) (prop) (NOM) (Sofie) (133) word
+116 115 (S) edget
+(par) () () () () (134) word
+117 115 (X) edget
+(x) () () () () (135) word
+118 117 (CJT) edget
+() (boede) (v-fin) (IMPF AKT) (bo) (136) word
+119 118 (P) edget
+(pp) () () () () (137) word
+120 118 (fA) edget
+() (for) (prp) (--) (for) (138) word
+121 120 (H) edget
+(np) () () () () (139) word
+122 120 (DP) edget
+() (enden) (n) (UTR S DEF NOM) (ende) (140) word
+123 122 (H) edget
+(pp) () () () () (141) word
+124 122 (DN) edget
+() (af) (prp) (--) (af) (142) word
+125 124 (H) edget
+(np) () () () () (143) word
+126 124 (DP) edget
+() (et) (art) (NEU S IDF) (en) (144) word
+127 126 (DN) edget
+() (vidtstrakt) (adj) (nG S IDF NOM) (vidtstrakt) (145) word
+128 126 (DN) edget
+() (parcelhuskvarter) (n) (NEU S IDF NOM) (parcelhus+kvarter) (146) word
+129 126 (H) edget
+() (og) (conj-c) (--) (og) (147) word
+130 117 (CO) edget
+(x) () () () () (148) word
+131 117 (CJT) edget
+() (havde) (v-fin) (IMPF AKT) (have) (149) word
+132 131 (P) edget
+(np) () () () () (150) word
+133 131 (Od) edget
+() (næsten) (adv) (--) (næsten) (151) word
+134 133 (DN) edget
+(np) () () () () (152) word
+135 133 (H) edget
+(adjp) () () () () (153) word
+136 135 (DN) edget
+(advp) () () () () (154) word
+137 136 (DA) edget
+() (dobbelt) (adv) (--) (dobbelt) (155) word
+138 137 (DA) edget
+() (så) (adv) (--) (så) (156) word
+139 137 (H) edget
+() (lang) (adj) (UTR S IDF NOM) (lang) (157) word
+140 136 (H) edget
+() (skolevej) (n) (UTR S IDF NOM) (skolevej) (158) word
+141 135 (H) edget
+(pp) () () () () (159) word
+142 136 (DAcom) edget
+() (som) (prp) (--) (som) (160) word
+143 142 (H) edget
+() (Jorunn) (prop) (NOM) (Jorunn) (161) word
+144 142 (DP) edget
+(s) () () () () (164) word
+(par) () () () () (165) word
+146 145 (STA) edget
+(fcl) () () () () (166) word
+147 146 (CJT) edget
+() (Det) (pron-pers) (NEU 3S NOM) (den) (167) word
+148 147 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (168) word
+149 147 (P) edget
+(fcl) () () () () (169) word
+150 147 (As) edget
+() (som_om) (conj-s) (--) (som_om) (170) word
+151 150 (SUB) edget
+() (huset) (n) (NEU S DEF NOM) (hus) (171) word
+152 150 (S) edget
+() (lå) (v-fin) (IMPF AKT) (ligge) (172) word
+153 150 (P) edget
+(pp) () () () () (173) word
+154 150 (As) edget
+() (ved) (prp) (--) (ved) (174) word
+155 154 (H) edget
+(np) () () () () (175) word
+156 154 (DP) edget
+() (verdens) (n) (UTR S IDF GEN) (verden) (176) word
+157 156 (DN) edget
+() (ende) (n) (UTR S IDF NOM) (ende) (177) word
+158 156 (H) edget
+(fcl) () () () () (178) word
+159 146 (CJT) edget
+() (for) (conj-c) (--) (for) (179) word
+160 159 (CO) edget
+(pp) () () () () (180) word
+161 159 (fA) edget
+() (bag_ved) (prp) (--) (bag_ved) (181) word
+162 161 (H) edget
+(np) () () () () (182) word
+163 161 (DP) edget
+() (hendes) (pron-poss) (UTR 3S GEN) (hun) (183) word
+164 163 (DN) edget
+() (have) (n) (UTR S IDF NOM) (have) (184) word
+165 163 (H) edget
+() (var) (v-fin) (IMPF AKT) (være) (185) word
+166 159 (P) edget
+() (der) (adv) (--) (der) (186) word
+167 159 (Sf) edget
+(np) () () () () (187) word
+168 159 (S) edget
+() (ingen) (pron-indef) (nG P NOM) (ingen) (188) word
+169 168 (DN) edget
+() (andre) (pron-indef) (nG P NOM) (anden) (189) word
+170 168 (DN) edget
+() (huse) (n) (NEU P IDF NOM) (hus) (190) word
+171 168 (H) edget
+(s) () () () () (193) word
+(fcl) () () () () (194) word
+173 172 (STA) edget
+() (Her) (adv) (--) (her) (195) word
+174 173 (Sf) edget
+() (begyndte) (v-fin) (IMPF AKT) (begynde) (196) word
+175 173 (P) edget
+(np) () () () () (197) word
+176 173 (S) edget
+() (den) (art) (UTR S DEF) (den) (198) word
+177 176 (DN) edget
+() (dybe) (adj) (nG S DEF NOM) (dyb) (199) word
+178 176 (DN) edget
+() (skov) (n) (UTR S IDF NOM) (skov) (200) word
+179 176 (H) edget
+(s) () () () () (203) word
+(fcl) () () () () (204) word
+181 180 (STA) edget
+() (Nu) (adv) (--) (nu) (205) word
+182 181 (fA) edget
+() (drejede) (v-fin) (IMPF AKT) (dreje) (206) word
+183 181 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (207) word
+184 181 (S) edget
+() (ind) (adv) (--) (ind) (208) word
+185 181 (Vpart) edget
+(pp) () () () () (209) word
+186 181 (fA) edget
+() (på) (prp) (--) (på) (210) word
+187 186 (H) edget
+() (Kløvervejen) (n) (UTR S DEF NOM) (kløver+vej) (211) word
+188 186 (DP) edget
+(s) () () () () (214) word
+(fcl) () () () () (215) word
+190 189 (STA) edget
+(advp) () () () () (216) word
+191 190 (fA) edget
+() (Helt) (adv) (--) (hel) (217) word
+192 191 (DA) edget
+() (inderst) (adv) (--) (inderst) (218) word
+193 191 (H) edget
+() (slog) (v-fin) (IMPF AKT) (slå) (219) word
+194 190 (P) edget
+() (vejen) (n) (UTR S DEF NOM) (vej) (220) word
+195 190 (S) edget
+(np) () () () () (221) word
+196 190 (Od) edget
+() (et) (art) (NEU S IDF) (en) (222) word
+197 196 (DN) edget
+() (brat) (adj) (nG S IDF NOM) (brat) (223) word
+198 196 (DN) edget
+() (sving) (n) (NEU S IDF NOM) (sving) (224) word
+199 196 (H) edget
+(fcl) () () () () (225) word
+200 196 (DN) edget
+() (der) (pron-rel) (nG nN NOM) (der) (226) word
+201 200 (S) edget
+() (gerne) (adv) (--) (gerne) (227) word
+202 200 (fA) edget
+() (kaldtes) (v-fin) (IMPF PAS) (kalde) (228) word
+203 200 (P) edget
+() (Kaptajnsvinget) (prop) (NOM) (Kaptajnsvinget) (229) word
+204 200 (Cs) edget
+(s) () () () () (232) word
+(fcl) () () () () (233) word
+206 205 (STA) edget
+() (Det) (pron-pers) (NEU 3S NOM) (den) (234) word
+207 206 (Sf) edget
+() (var) (v-fin) (IMPF AKT) (være) (235) word
+208 206 (P) edget
+() (næsten) (adv) (--) (næsten) (236) word
+209 206 (fA) edget
+(pp) () () () () (237) word
+210 206 (fA) edget
+() (kun) (adv) (--) (kun) (238) word
+211 210 (Dfoc) edget
+() (om) (prp) (--) (om) (239) word
+212 210 (H) edget
+(par) () () () () (240) word
+213 210 (DP) edget
+() (lørdagen) (n) (UTR S DEF NOM) (lørdag) (241) word
+214 213 (CJT) edget
+() (og) (conj-c) (--) (og) (242) word
+215 213 (CO) edget
+() (søndagen) (n) (UTR S DEF NOM) (søndag) (243) word
+216 213 (CJT) edget
+(fcl) () () () () (244) word
+217 206 (S) edget
+() (at) (conj-s) (--) (at) (245) word
+218 217 (SUB) edget
+() (der) (adv) (--) (der) (246) word
+219 217 (Sf) edget
+() (kom) (v-fin) (IMPF AKT) (komme) (247) word
+220 217 (P) edget
+(np) () () () () (248) word
+221 217 (S) edget
+() (andre) (pron-indef) (nG P NOM) (anden) (249) word
+222 221 (DN) edget
+() (mennesker) (n) (NEU P IDF NOM) (menneske) (250) word
+223 221 (H) edget
+() (her) (adv) (--) (her) (251) word
+224 217 (As) edget
+(s) () () () () (254) word
+(fcl) () () () () (255) word
+226 225 (STA) edget
+() (Det) (pron-pers) (NEU 3S NOM) (den) (256) word
+227 226 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (257) word
+228 226 (P) edget
+(np) () () () () (258) word
+229 226 (Cs) edget
+() (en) (num) (UTR S) (en) (259) word
+230 229 (H) edget
+(pp) () () () () (260) word
+231 229 (DN) edget
+() (af) (prp) (--) (af) (261) word
+232 231 (H) edget
+(np) () () () () (262) word
+233 231 (DP) edget
+() (de) (art) (nG P DEF) (den) (263) word
+234 233 (DN) edget
+() (første) (num) (nN) (første) (264) word
+235 233 (DN) edget
+() (dage) (n) (UTR P IDF NOM) (dag) (265) word
+236 233 (H) edget
+(pp) () () () () (266) word
+237 233 (DN) edget
+() (i) (prp) (--) (i) (267) word
+238 237 (H) edget
+() (maj) (n) (UTR S IDF NOM) (maj) (268) word
+239 237 (DP) edget
+(s) () () () () (271) word
+(fcl) () () () () (272) word
+241 240 (STA) edget
+(pp) () () () () (273) word
+242 241 (fA) edget
+() (I) (prp) (--) (i) (274) word
+243 242 (H) edget
+(np) () () () () (275) word
+244 242 (DP) edget
+() (nogle) (pron-indef) (nG P NOM) (nogen) (276) word
+245 244 (H) edget
+(pp) () () () () (277) word
+246 244 (DN) edget
+() (af) (prp) (--) (af) (278) word
+247 246 (H) edget
+() (haverne) (n) (UTR P DEF NOM) (have) (279) word
+248 246 (DP) edget
+() (stod) (v-fin) (IMPF AKT) (stå) (280) word
+249 241 (P) edget
+() (der) (adv) (--) (der) (281) word
+250 241 (Sf) edget
+(np) () () () () (282) word
+251 241 (S) edget
+() (tætte) (adj) (nG P nD NOM) (tæt) (283) word
+252 251 (DN) edget
+() (kranse) (n) (UTR P IDF NOM) (krans) (284) word
+253 251 (H) edget
+(pp) () () () () (285) word
+254 251 (DN) edget
+() (af) (prp) (--) (af) (286) word
+255 254 (H) edget
+() (påskeliljer) (n) (UTR P IDF NOM) (påskelilje) (287) word
+256 254 (DP) edget
+(pp) () () () () (288) word
+257 241 (fA) edget
+() (under) (prp) (--) (under) (289) word
+258 257 (H) edget
+() (frugttræerne) (n) (NEU P DEF NOM) (frugttræ) (290) word
+259 257 (DP) edget
+(s) () () () () (293) word
+(fcl) () () () () (294) word
+261 260 (STA) edget
+() (Birkene) (n) (UTR P DEF NOM) (birk) (295) word
+262 261 (S) edget
+() (stod) (v-fin) (IMPF AKT) (stå) (296) word
+263 261 (P) edget
+() (allerede) (adv) (--) (allerede) (297) word
+264 261 (fA) edget
+(pp) () () () () (298) word
+265 261 (fA) edget
+() (med) (prp) (--) (med) (299) word
+266 265 (H) edget
+(np) () () () () (300) word
+267 265 (DP) edget
+() (spæde) (adj) (nG P nD NOM) (spæd) (301) word
+268 267 (DN) edget
+() (grønne) (adj) (nG P nD NOM) (grøn) (302) word
+269 267 (DN) edget
+() (blade) (n) (NEU P IDF NOM) (blad) (303) word
+270 267 (H) edget
+(s) () () () () (306) word
+(fcl) () () () () (307) word
+272 271 (QUE) edget
+() (Var) (v-fin) (IMPF AKT) (være) (308) word
+273 272 (P) edget
+() (det) (pron-pers) (NEU 3S NOM) (den) (309) word
+274 272 (Sf) edget
+() (ikke) (adv) (--) (ikke) (310) word
+275 272 (fA) edget
+() (mærkeligt) (adj) (NEU S IDF NOM) (mærkelig) (311) word
+276 272 (Cs) edget
+(fcl) () () () () (312) word
+277 272 (S) edget
+() (hvordan) (adv) (--) (hvordan) (313) word
+278 277 (fA) edget
+() (alt) (pron-indef) (NEU S) (alt) (314) word
+279 277 (S) edget
+() (bare) (adv) (--) (bare) (315) word
+280 277 (fA) edget
+() (begyndte) (v-fin) (IMPF AKT) (begynde) (316) word
+281 277 (P) edget
+(icl) () () () () (317) word
+282 277 (Od) edget
+(vp) () () () () (318) word
+283 282 (P) edget
+() (at) (infm) (--) (at) (319) word
+284 283 (INFM) edget
+() (gro) (v-inf) (AKT) (gro) (320) word
+285 283 (Vm) edget
+(pp) () () () () (321) word
+286 282 (fA) edget
+() (på) (prp) (--) (på) (322) word
+287 286 (H) edget
+(np) () () () () (323) word
+288 286 (DP) edget
+() (denne) (pron-dem) (UTR S NOM) (denne) (324) word
+289 288 (DN) edget
+() (årstid) (n) (UTR S IDF NOM) (årstid) (325) word
+290 288 (H) edget
+(s) () () () () (328) word
+(fcl) () () () () (329) word
+292 291 (QUE) edget
+() (Hvad) (pron-int) (NEU S) (hvad) (330) word
+293 292 (Cs) edget
+() (var) (v-fin) (IMPF AKT) (være) (331) word
+294 292 (P) edget
+() (det) (pron-pers) (NEU S NOM) (det) (332) word
+295 292 (Sf) edget
+(fcl) () () () () (333) word
+296 292 (S) edget
+() (der) (pron-rel) (nG nN) (der) (334) word
+297 296 (S) edget
+() (gjorde) (v-fin) (IMPF AKT) (gøre) (335) word
+298 296 (P) edget
+(fcl) () () () () (336) word
+299 296 (fA) edget
+() (at) (conj-s) (--) (at) (337) word
+300 299 (SUB) edget
+(np) () () () () (338) word
+301 299 (S) edget
+() (kilo) (n) (NEU S IDF NOM) (kilo) (339) word
+302 301 (H) edget
+(pp) () () () () (340) word
+303 301 (DN) edget
+() (efter) (prp) (--) (efter) (341) word
+304 303 (H) edget
+() (kilo) (n) (NEU S IDF NOM) (kilo) (342) word
+305 303 (DP) edget
+(pp) () () () () (343) word
+306 301 (DN) edget
+() (af) (prp) (--) (af) (344) word
+307 306 (H) edget
+(np) () () () () (345) word
+308 306 (DP) edget
+() (det) (art) (NEU S DEF) (den) (346) word
+309 308 (DN) edget
+() (grønne) (adj) (nG S DEF NOM) (grøn) (347) word
+310 308 (DN) edget
+() (plantestof) (n) (NEU S IDF NOM) (plantestof) (348) word
+311 308 (H) edget
+(vp) () () () () (349) word
+312 299 (P) edget
+() (kunne) (v-fin) (IMPF AKT) (kunne) (350) word
+313 312 (Vaux) edget
+() (vælte) (v-inf) (AKT) (vælte) (351) word
+314 312 (Vm) edget
+() (frem) (adv) (DIR) (frem) (352) word
+315 299 (Vpart) edget
+(pp) () () () () (353) word
+316 299 (fA) edget
+() (fra) (prp) (--) (fra) (354) word
+317 316 (H) edget
+(np) () () () () (355) word
+318 316 (DP) edget
+() (den) (art) (UTR S DEF) (den) (356) word
+319 318 (DN) edget
+() (livløse) (adj) (nG S DEF NOM) (livløs) (357) word
+320 318 (DN) edget
+() (jord) (n) (UTR S IDF NOM) (jord-1) (358) word
+321 318 (H) edget
+(fcl) () () () () (359) word
+322 299 (fA) edget
+() (lige_så_snart) (conj-s) (--) (lige_så_snart) (360) word
+323 322 (SUB) edget
+(par) () () () () (361) word
+324 322 (X) edget
+(fcl) () () () () (362) word
+325 324 (CJT) edget
+() (det) (pron-pers) (NEU 3S NOM) (den) (363) word
+326 325 (Ss) edget
+() (blev) (v-fin) (IMPF AKT) (blive) (364) word
+327 325 (P) edget
+(adjp) () () () () (365) word
+328 325 (Cs) edget
+() (varmt) (adj) (NEU S IDF NOM) (varm) (366) word
+329 328 (H) edget
+() (nok) (adv) (--) (nok) (367) word
+330 328 (DA) edget
+() (i_vejret) (adv) (--) (i_vejret) (368) word
+331 325 (fA) edget
+() (og) (conj-c) (--) (og) (369) word
+332 324 (CO) edget
+(fcl) () () () () (370) word
+333 324 (CJT) edget
+(np) () () () () (371) word
+334 333 (S) edget
+() (de) (art) (nG P DEF) (den) (372) word
+335 334 (DN) edget
+() (sidste) (adj) (nG nN nD NOM) (sidste) (373) word
+336 334 (DN) edget
+() (rester) (n) (UTR P IDF NOM) (rest) (374) word
+337 334 (H) edget
+(pp) () () () () (375) word
+338 334 (DN) edget
+() (af) (prp) (--) (af) (376) word
+339 338 (H) edget
+() (sne) (n) (UTR S IDF NOM) (sne) (377) word
+340 338 (DP) edget
+() (var) (v-fin) (IMPF AKT) (være) (378) word
+341 333 (P) edget
+() (væk) (adv) (--) (væk) (379) word
+342 333 (As) edget
+(s) () () () () (382) word
+(fcl) () () () () (383) word
+344 343 (STA) edget
+() (Sofie) (prop) (NOM) (Sofie) (384) word
+345 344 (S) edget
+() (kikkede) (v-fin) (IMPF AKT) (kikke) (385) word
+346 344 (P) edget
+(pp) () () () () (386) word
+347 344 (fA) edget
+() (i) (prp) (--) (i) (387) word
+348 347 (H) edget
+() (postkassen) (n) (UTR S DEF NOM) (postkasse) (388) word
+349 347 (DP) edget
+(fcl) () () () () (389) word
+350 344 (fA) edget
+() (da) (conj-s) (--) (da) (390) word
+351 350 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (391) word
+352 350 (S) edget
+() (åbnede) (v-fin) (IMPF AKT) (åbne) (392) word
+353 350 (P) edget
+() (lågen) (n) (UTR S DEF NOM) (låge) (393) word
+354 350 (Od) edget
+(pp) () () () () (394) word
+355 350 (fA) edget
+() (ind_til) (prp) (--) (ind_til) (395) word
+356 355 (H) edget
+(np) () () () () (396) word
+357 355 (DP) edget
+() (sin) (pron-poss) (UTR S) (sin) (397) word
+358 357 (DN) edget
+() (egen) (pron-indef) (UTR S NOM) (egen) (398) word
+359 357 (DN) edget
+() (have) (n) (UTR S IDF NOM) (have) (399) word
+360 357 (H) edget
+(s) () () () () (402) word
+(fcl) () () () () (403) word
+362 361 (STA) edget
+() (Som_regel) (adv) (--) (som_regel) (404) word
+363 362 (fA) edget
+() (var) (v-fin) (IMPF AKT) (være) (405) word
+364 362 (P) edget
+() (der) (adv) (--) (der) (406) word
+365 362 (Sf) edget
+(np) () () () () (407) word
+366 362 (S) edget
+() (en) (art) (UTR S IDF) (en) (408) word
+367 366 (DN) edget
+() (masse) (n) (UTR S IDF NOM) (masse) (409) word
+368 366 (H) edget
+() (reklamer) (n) (UTR P IDF NOM) (reklame) (410) word
+369 366 (DN) edget
+(pp) () () () () (411) word
+370 366 (DN) edget
+() (plus) (prp) (--) (plus) (412) word
+371 370 (H) edget
+(np) () () () () (413) word
+372 370 (DP) edget
+() (nogle) (pron-indef) (nG P NOM) (nogen) (414) word
+373 372 (DN) edget
+() (store) (adj) (nG P nD NOM) (stor) (415) word
+374 372 (DN) edget
+() (konvolutter) (n) (UTR P IDF NOM) (konvolut) (416) word
+375 372 (H) edget
+(pp) () () () () (417) word
+376 362 (fA) edget
+() (til) (prp) (--) (til) (418) word
+377 376 (H) edget
+() (moren) (n) (UTR S DEF NOM) (mor) (419) word
+378 376 (DP) edget
+(s) () () () () (422) word
+(fcl) () () () () (423) word
+380 379 (STA) edget
+() (Hun) (pron-pers) (UTR 3S NOM) (hun) (424) word
+381 380 (S) edget
+() (plejede) (v-fin) (IMPF AKT) (pleje) (425) word
+382 380 (P) edget
+(icl) () () () () (426) word
+383 380 (Od) edget
+(vp) () () () () (427) word
+384 383 (P) edget
+() (at) (infm) (--) (at) (428) word
+385 384 (INFM) edget
+() (lægge) (v-inf) (AKT) (lægge) (429) word
+386 384 (Vm) edget
+(np) () () () () (430) word
+387 383 (Od) edget
+() (en) (art) (UTR S IDF) (en) (431) word
+388 387 (DN) edget
+() (tyk) (adj) (UTR S IDF NOM) (tyk) (432) word
+389 387 (DN) edget
+() (stak) (n) (UTR S IDF NOM) (stak) (433) word
+390 387 (H) edget
+(pp) () () () () (434) word
+391 383 (Ao) edget
+() (på) (prp) (--) (på) (435) word
+392 391 (H) edget
+() (køkkenbordet) (n) (NEU S DEF NOM) (køkkenbord) (436) word
+393 391 (DP) edget
+(fcl) () () () () (437) word
+394 383 (fA) edget
+() (inden) (conj-s) (--) (inden) (438) word
+395 394 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (439) word
+396 394 (S) edget
+(par) () () () () (440) word
+397 394 (X) edget
+(x) () () () () (441) word
+398 397 (CJT) edget
+() (gik) (v-fin) (IMPF AKT) (gå) (442) word
+399 398 (P) edget
+(advp) () () () () (443) word
+400 398 (As) edget
+() (op) (adv) (DIR) (op) (444) word
+401 400 (H) edget
+(pp) () () () () (445) word
+402 400 (DA) edget
+() (på) (prp) (--) (på) (446) word
+403 402 (H) edget
+(np) () () () () (447) word
+404 402 (DP) edget
+() (sit) (pron-poss) (NEU S) (sin) (448) word
+405 404 (DN) edget
+() (værelse) (n) (NEU S IDF NOM) (værelse) (449) word
+406 404 (H) edget
+() (og) (conj-c) (--) (og) (450) word
+407 397 (CO) edget
+(x) () () () () (451) word
+408 397 (CJT) edget
+() (begyndte) (v-fin) (IMPF AKT) (begynde) (452) word
+409 408 (P) edget
+(pp) () () () () (453) word
+410 408 (Op) edget
+() (på) (prp) (--) (på) (454) word
+411 410 (H) edget
+(np) () () () () (455) word
+412 410 (DP) edget
+() (sine) (pron-poss) (nG P) (sin) (456) word
+413 412 (DN) edget
+() (lektier) (n) (UTR P IDF NOM) (lektie) (457) word
+414 412 (H) edget
+(s) () () () () (460) word
+(par) () () () () (461) word
+416 415 (STA) edget
+(fcl) () () () () (462) word
+417 416 (CJT) edget
+(pp) () () () () (463) word
+418 417 (fA) edget
+() (Til) (prp) (--) (til) (464) word
+419 418 (H) edget
+() (faren) (n) (UTR S DEF NOM) (far) (465) word
+420 418 (DP) edget
+() (kom) (v-fin) (IMPF AKT) (komme) (466) word
+421 417 (P) edget
+() (der) (adv) (--) (der) (467) word
+422 417 (Sf) edget
+(np) () () () () (468) word
+423 417 (S) edget
+() (kun) (adv) (--) (kun) (469) word
+424 423 (Dfoc) edget
+(np) () () () () (470) word
+425 423 (H) edget
+() (nogle) (pron-indef) (nG P NOM) (nogen) (471) word
+426 425 (DN) edget
+() (bankbreve) (n) (NEU P IDF NOM) (bank+brev) (472) word
+427 425 (H) edget
+() (en_gang_imellem) (adv) (--) (en_gang_imellem) (473) word
+428 417 (fA) edget
+() (men) (conj-c) (--) (men) (474) word
+429 416 (CO) edget
+(fcl) () () () () (475) word
+430 416 (CJT) edget
+() (nu) (adv) (--) (nu) (476) word
+431 430 (fA) edget
+() (var) (v-fin) (IMPF AKT) (være) (477) word
+432 430 (P) edget
+() (han) (pron-pers) (UTR 3S NOM) (han) (478) word
+433 430 (S) edget
+() (heller_ikke) (adv) (--) (heller_ikke) (479) word
+434 430 (fA) edget
+(np) () () () () (480) word
+435 430 (Cs) edget
+() (nogen) (pron-indef) (UTR S NOM) (nogen) (481) word
+436 435 (DN) edget
+(adjp) () () () () (482) word
+437 435 (DN) edget
+() (helt) (adv) (--) (hel) (483) word
+438 437 (DA) edget
+() (almindelig) (adj) (UTR S IDF NOM) (almindelig) (484) word
+439 437 (H) edget
+() (far) (n) (UTR S IDF NOM) (far) (485) word
+440 435 (H) edget
+(s) () () () () (488) word
+(fcl) () () () () (489) word
+442 441 (STA) edget
+(np) () () () () (490) word
+443 442 (S) edget
+() (Sofies) (prop) (GEN) (Sofie) (491) word
+444 443 (DN) edget
+() (far) (n) (UTR S IDF NOM) (far) (492) word
+445 443 (H) edget
+(par) () () () () (493) word
+446 442 (X) edget
+(x) () () () () (494) word
+447 446 (CJT) edget
+() (var) (v-fin) (IMPF AKT) (være) (495) word
+448 447 (P) edget
+(np) () () () () (496) word
+449 447 (Cs) edget
+() (kaptajn) (n) (UTR S IDF NOM) (kaptajn) (497) word
+450 449 (H) edget
+(pp) () () () () (498) word
+451 449 (DN) edget
+() (på) (prp) (--) (på) (499) word
+452 451 (H) edget
+(np) () () () () (500) word
+453 451 (DP) edget
+() (en) (art) (UTR S IDF) (en) (501) word
+454 453 (DN) edget
+() (stor) (adj) (UTR S IDF NOM) (stor) (502) word
+455 453 (DN) edget
+() (tankbåd) (n) (UTR S IDF NOM) (tankbåd) (503) word
+456 453 (H) edget
+() (og) (conj-c) (--) (og) (504) word
+457 446 (CO) edget
+(x) () () () () (505) word
+458 446 (CJT) edget
+() (var) (v-fin) (IMPF AKT) (være) (506) word
+459 458 (P) edget
+() (bortrejst) (adj) (nG S IDF NOM) (bortrejst) (507) word
+460 458 (Cs) edget
+(np) () () () () (508) word
+461 458 (fA) edget
+() (det) (art) (NEU S DEF) (den) (509) word
+462 461 (DN) edget
+() (meste) (pron-indef) (NEU S DEF) (meget) (510) word
+463 461 (H) edget
+(pp) () () () () (511) word
+464 461 (DN) edget
+() (af) (prp) (--) (af) (512) word
+465 464 (H) edget
+() (året) (n) (NEU S DEF NOM) (år) (513) word
+466 464 (DP) edget
+(s) () () () () (516) word
+(par) () () () () (517) word
+468 467 (STA) edget
+(fcl) () () () () (518) word
+469 468 (fA) edget
+() (Når) (conj-s) (--) (når) (519) word
+470 469 (SUB) edget
+() (han) (pron-pers) (UTR 3S NOM) (han) (520) word
+471 469 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (521) word
+472 469 (P) edget
+() (hjemme) (adv) (LOC) (hjemme) (522) word
+473 469 (As) edget
+(np) () () () () (523) word
+474 469 (fA) edget
+() (nogle) (pron-indef) (nG P NOM) (nogen) (524) word
+475 474 (DN) edget
+() (uger) (n) (UTR P IDF NOM) (uge) (525) word
+476 474 (H) edget
+(pp) () () () () (526) word
+477 469 (fA) edget
+() (ad) (prp) (--) (ad) (527) word
+478 477 (H) edget
+() (gangen) (n) (UTR S DEF NOM) (gang) (528) word
+479 477 (DP) edget
+(par) () () () () (529) word
+480 468 (X) edget
+(fcl) () () () () (530) word
+481 480 (CJT) edget
+() (tøflede) (v-fin) (IMPF AKT) (tøfle) (531) word
+482 481 (P) edget
+() (han) (pron-pers) (UTR 3S NOM) (han) (532) word
+483 481 (S) edget
+() (omkring) (adv) (--) (omkring) (533) word
+484 481 (Vpart) edget
+(pp) () () () () (534) word
+485 481 (fA) edget
+() (i) (prp) (--) (i) (535) word
+486 485 (H) edget
+() (huset) (n) (NEU S DEF NOM) (hus) (536) word
+487 485 (DP) edget
+() (og) (conj-c) (--) (og) (537) word
+488 480 (CO) edget
+(x) () () () () (538) word
+489 480 (CJT) edget
+() (hyggede) (v-fin) (IMPF AKT) (hygge) (539) word
+490 489 (P) edget
+(pp) () () () () (540) word
+491 489 (Op) edget
+() (om) (prp) (--) (om) (541) word
+492 491 (H) edget
+(par) () () () () (542) word
+493 491 (DP) edget
+() (Sofie) (prop) (NOM) (Sofie) (543) word
+494 493 (CJT) edget
+() (og) (conj-c) (--) (og) (544) word
+495 493 (CO) edget
+() (moren) (n) (UTR S DEF NOM) (mor) (545) word
+496 493 (CJT) edget
+(s) () () () () (548) word
+(fcl) () () () () (549) word
+498 497 (STA) edget
+(fcl) () () () () (550) word
+499 498 (fA) edget
+() (Men) (conj-c) (--) (men) (551) word
+500 499 (CO) edget
+() (når) (conj-s) (--) (når) (552) word
+501 499 (SUB) edget
+() (han) (pron-pers) (UTR 3S NOM) (han) (553) word
+502 499 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (554) word
+503 499 (P) edget
+() (ude) (adv) (LOC) (ude) (555) word
+504 499 (As) edget
+(vp) () () () () (556) word
+505 499 (fA) edget
+() (at) (infm) (--) (at) (557) word
+506 505 (INFM) edget
+() (sejle) (v-inf) (AKT) (sejle) (558) word
+507 505 (Vm) edget
+(vp) () () () () (559) word
+508 498 (P) edget
+() (kunne) (v-fin) (IMPF AKT) (kunne) (560) word
+509 508 (Vaux) edget
+() (han) (pron-pers) (UTR 3S NOM) (han) (561) word
+510 498 (S) edget
+() (godt) (adv) (--) (god) (562) word
+511 498 (fA) edget
+() (forekomme) (v-inf) (AKT) (forekomme) (563) word
+512 508 (Vm) edget
+(adjp) () () () () (564) word
+513 498 (Cs) edget
+() (temmelig) (adv) (--) (temmelig) (565) word
+514 513 (DA) edget
+() (fjern) (adj) (UTR S IDF NOM) (fjern) (566) word
+515 513 (H) edget
+(s) () () () () (569) word
+(par) () () () () (570) word
+517 516 (STA) edget
+(fcl) () () () () (571) word
+518 517 (CJT) edget
+() (I_dag) (adv) (--) (i_dag) (572) word
+519 518 (fA) edget
+() (var) (v-fin) (IMPF AKT) (være) (573) word
+520 518 (P) edget
+() (der) (adv) (--) (der) (574) word
+521 518 (Sf) edget
+(np) () () () () (575) word
+522 518 (S) edget
+(adjp) () () () () (576) word
+523 522 (DN) edget
+() (kun) (adv) (--) (kun) (577) word
+524 523 (Dfoc) edget
+() (et) (num) (NEU S) (en) (578) word
+525 523 (H) edget
+() (lille) (adj) (nG S nD NOM) (lille) (579) word
+526 522 (DN) edget
+() (brev) (n) (NEU S IDF NOM) (brev) (580) word
+527 522 (H) edget
+(pp) () () () () (581) word
+528 518 (As) edget
+() (i) (prp) (--) (i) (582) word
+529 528 (H) edget
+() (postkassen) (n) (UTR S DEF NOM) (postkasse) (583) word
+530 528 (DP) edget
+() (og) (conj-c) (--) (og) (584) word
+531 517 (CO) edget
+(fcl) () () () () (585) word
+532 517 (CJT) edget
+() (det) (pron-pers) (NEU 3S NOM) (den) (586) word
+533 532 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (587) word
+534 532 (P) edget
+(pp) () () () () (588) word
+535 532 (As) edget
+() (til) (prp) (--) (til) (589) word
+536 535 (H) edget
+() (Sofie) (prop) (NOM) (Sofie) (590) word
+537 535 (DP) edget
+(s) () () () () (593) word
+(fcl) () () () () (594) word
+539 538 (STA) edget
+() (Sofie_Amundsen) (prop) (NOM) (Sofie_Amundsen) (595) word
+540 539 (S) edget
+() (stod) (v-fin) (IMPF AKT) (stå) (596) word
+541 539 (P) edget
+() (der) (adv) (--) (der) (597) word
+542 539 (Sf) edget
+(pp) () () () () (598) word
+543 539 (fA) edget
+() (på) (prp) (--) (på) (599) word
+544 543 (H) edget
+(np) () () () () (600) word
+545 543 (DP) edget
+() (den) (art) (UTR S DEF) (den) (601) word
+546 545 (DN) edget
+() (lille) (adj) (nG S nD NOM) (lille) (602) word
+547 545 (DN) edget
+() (konvolut) (n) (UTR S IDF NOM) (konvolut) (603) word
+548 545 (H) edget
+(s) () () () () (606) word
+(np) () () () () (607) word
+550 549 (UTT) edget
+() (Kløvervejen) (n) (UTR S DEF NOM) (kløver+vej) (608) word
+551 550 (H) edget
+() (3) (num) (--) (3) (609) word
+552 550 (DN) edget
+(s) () () () () (612) word
+(par) () () () () (613) word
+554 553 (STA) edget
+(fcl) () () () () (614) word
+555 554 (CJT) edget
+() (Det) (pron-pers) (NEU 3S NOM) (den) (615) word
+556 555 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (616) word
+557 555 (P) edget
+() (alt) (pron-indef) (NEU S) (alt) (617) word
+558 555 (Cs) edget
+(fcl) () () () () (618) word
+559 554 (CJT) edget
+() (der) (adv) (--) (der) (619) word
+560 559 (Sf) edget
+() (stod) (v-fin) (IMPF AKT) (stå) (620) word
+561 559 (P) edget
+() (ikke) (adv) (--) (ikke) (621) word
+562 559 (fA) edget
+(fcl) () () () () (622) word
+563 559 (S) edget
+(pp) () () () () (623) word
+564 563 (As) edget
+() (hvem) (pron-int) (UTR S) (hvem) (624) word
+565 564 (DP) edget
+() (brevet) (n) (NEU S DEF NOM) (brev) (625) word
+566 563 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (626) word
+567 563 (P) edget
+() (fra) (prp) (--) (fra) (627) word
+568 564 (H) edget
+(s) () () () () (630) word
+(fcl) () () () () (631) word
+570 569 (STA) edget
+() (Der) (adv) (--) (der) (632) word
+571 570 (Sf) edget
+() (var) (v-fin) (IMPF AKT) (være) (633) word
+572 570 (P) edget
+(np) () () () () (634) word
+573 570 (S) edget
+() (ikke_engang) (adv) (--) (ikke_engang) (635) word
+574 573 (Dfoc) edget
+(np) () () () () (636) word
+575 573 (H) edget
+() (noget) (pron-indef) (NEU S NOM) (nogen) (637) word
+576 575 (DN) edget
+() (frimærke) (n) (NEU S IDF NOM) (frimærke) (638) word
+577 575 (H) edget
+() (på) (prp) (--) (på) (639) word
+578 570 (As) edget
+(s) () () () () (642) word
+(fcl) () () () () (643) word
+580 579 (STA) edget
+(fcl) () () () () (644) word
+581 580 (fA) edget
+() (Så_snart) (conj-s) (--) (så_snart) (645) word
+582 581 (SUB) edget
+() (Sofie) (prop) (NOM) (Sofie) (646) word
+583 581 (S) edget
+(vp) () () () () (647) word
+584 581 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (648) word
+585 584 (Vaux) edget
+() (lukket) (v-pcp2) (AKT) (lukke) (649) word
+586 584 (Vm) edget
+() (lågen) (n) (UTR S DEF NOM) (låge) (650) word
+587 581 (Od) edget
+(pp) () () () () (651) word
+588 581 (fA) edget
+() (bag) (prp) (--) (bag) (652) word
+589 588 (H) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (653) word
+590 588 (DP) edget
+() (åbnede) (v-fin) (IMPF AKT) (åbne) (654) word
+591 580 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (655) word
+592 580 (S) edget
+() (konvolutten) (n) (UTR S DEF NOM) (konvolut) (656) word
+593 580 (Od) edget
+(s) () () () () (659) word
+(fcl) () () () () (660) word
+595 594 (STA) edget
+(np) () () () () (661) word
+596 595 (S) edget
+() (Det) (art) (NEU S DEF) (den) (662) word
+597 596 (DN) edget
+() (eneste) (adj) (nG nN nD NOM) (eneste) (663) word
+598 596 (H) edget
+(fcl) () () () () (664) word
+599 596 (DN) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (665) word
+600 599 (S) edget
+() (fandt) (v-fin) (IMPF AKT) (finde) (666) word
+601 599 (P) edget
+() (var) (v-fin) (IMPF AKT) (være) (667) word
+602 595 (P) edget
+(np) () () () () (668) word
+603 595 (Cs) edget
+() (en) (art) (UTR S IDF) (en) (669) word
+604 603 (DN) edget
+(adjp) () () () () (670) word
+605 603 (DN) edget
+() (ganske) (adv) (--) (ganske) (671) word
+606 605 (DA) edget
+() (lille) (adj) (nG S nD NOM) (lille) (672) word
+607 605 (H) edget
+() (seddel) (n) (UTR S IDF NOM) (seddel) (673) word
+608 603 (H) edget
+(adjp) () () () () (674) word
+609 603 (DNc) edget
+() (ikke) (adv) (--) (ikke) (675) word
+610 609 (Dfoc) edget
+() (større) (adj) (COM nG nN nD NOM) (stor) (676) word
+611 609 (H) edget
+(pp) () () () () (677) word
+612 609 (DAcom) edget
+() (end) (prp) (--) (end) (678) word
+613 612 (H) edget
+(np) () () () () (679) word
+614 612 (DP) edget
+() (konvolutten) (n) (UTR S DEF NOM) (konvolut) (680) word
+615 614 (H) edget
+(fcl) () () () () (681) word
+616 614 (DN) edget
+() (den) (pron-pers) (UTR 3S NOM) (den) (682) word
+617 616 (S) edget
+() (lå) (v-fin) (IMPF AKT) (ligge) (683) word
+618 616 (P) edget
+() (i) (prp) (--) (i) (684) word
+619 616 (As) edget
+(s) () () () () (687) word
+(fcl) () () () () (688) word
+621 620 (STA) edget
+(pp) () () () () (689) word
+622 621 (fA) edget
+() (På) (prp) (--) (på) (690) word
+623 622 (H) edget
+() (seddelen) (n) (UTR S DEF NOM) (seddel) (691) word
+624 622 (DP) edget
+() (stod) (v-fin) (IMPF AKT) (stå) (692) word
+625 621 (P) edget
+() (der) (adv) (--) (der) (693) word
+626 621 (Sf) edget
+(fcl) () () () () (694) word
+627 621 (S) edget
+() (Hvem) (pron-int) (UTR S) (hvem) (695) word
+628 627 (Cs) edget
+() (er) (v-fin) (PR AKT) (være) (696) word
+629 627 (P) edget
+() (du) (pron-pers) (--) (du) (697) word
+630 627 (S) edget
+(s) () () () () (700) word
+(fcl) () () () () (701) word
+632 631 (STA) edget
+() (Der) (adv) (--) (der) (702) word
+633 632 (Sf) edget
+() (stod) (v-fin) (IMPF AKT) (stå) (703) word
+634 632 (P) edget
+() (ikke) (adv) (--) (ikke) (704) word
+635 632 (fA) edget
+() (mere) (pron-indef) (NEU S) (meget) (705) word
+636 632 (S) edget
+(s) () () () () (708) word
+(fcl) () () () () (709) word
+638 637 (STA) edget
+(np) () () () () (710) word
+639 638 (S) edget
+() (Den) (art) (UTR S DEF) (den) (711) word
+640 639 (DN) edget
+() (lille) (adj) (nG S nD NOM) (lille) (712) word
+641 639 (DN) edget
+() (lap) (n) (UTR S IDF NOM) (lap) (713) word
+642 639 (H) edget
+() (papir) (n) (NEU S IDF NOM) (papir) (714) word
+643 639 (DN) edget
+() (havde) (v-fin) (IMPF AKT) (have) (715) word
+644 638 (P) edget
+(np) () () () () (716) word
+645 638 (Od) edget
+(np) () () () () (717) word
+646 645 (CJT) edget
+() (ingen) (pron-indef) (UTR S NOM) (ingen) (718) word
+647 646 (DN) edget
+(par) () () () () (719) word
+648 646 (H) edget
+() (hilsen) (n) (UTR S IDF NOM) (hilsen) (720) word
+649 648 (CJT) edget
+() (eller) (conj-c) (--) (eller) (721) word
+650 648 (CO) edget
+() (afsender) (n) (UTR S IDF NOM) (afsender) (722) word
+651 648 (CJT) edget
+(np) () () () () (723) word
+652 645 (CJT) edget
+() (kun) (adv) (--) (kun) (724) word
+653 652 (Dfoc) edget
+(np) () () () () (725) word
+654 652 (H) edget
+() (de) (art) (nG P DEF) (den) (726) word
+655 654 (DN) edget
+() (tre) (num) (--) (tre) (727) word
+656 654 (DN) edget
+() (ord) (n) (NEU P IDF NOM) (ord) (728) word
+657 654 (H) edget
+(fcl) () () () () (729) word
+658 654 (DN) edget
+() (der) (pron-rel) (nG nN NOM) (der) (730) word
+659 658 (S) edget
+(vp) () () () () (731) word
+660 658 (P) edget
+() (var) (v-fin) (IMPF AKT) (være) (732) word
+661 660 (Vaux) edget
+() (skrevet) (v-pcp2) (PAS) (skrive) (733) word
+662 660 (Vm) edget
+(pp) () () () () (734) word
+663 658 (fA) edget
+() (i) (prp) (--) (i) (735) word
+664 663 (H) edget
+() (hånden) (n) (UTR S DEF NOM) (hånd) (736) word
+665 663 (DP) edget
+(pp) () () () () (737) word
+666 658 (fA) edget
+() (med) (prp) (--) (med) (738) word
+667 666 (H) edget
+(np) () () () () (739) word
+668 666 (DP) edget
+() (et) (art) (NEU S IDF) (en) (740) word
+669 668 (DN) edget
+() (stort) (adj) (NEU S IDF NOM) (stor) (741) word
+670 668 (DN) edget
+() (spørgsmålstegn) (n) (NEU S IDF NOM) (spørgsmålstegn) (742) word
+671 668 (H) edget
+() (bagefter) (adv) (--) (bagefter) (743) word
+672 668 (DNc) edget
+(s) () () () () (746) word
+(fcl) () () () () (747) word
+674 673 (STA) edget
+() (Hun) (pron-pers) (UTR 3S NOM) (hun) (748) word
+675 674 (S) edget
+() (så) (v-fin) (IMPF AKT) (se) (749) word
+676 674 (P) edget
+() (igen) (adv) (--) (igen) (750) word
+677 674 (fA) edget
+(pp) () () () () (751) word
+678 674 (Op) edget
+() (på) (prp) (--) (på) (752) word
+679 678 (H) edget
+() (konvolutten) (n) (UTR S DEF NOM) (konvolut) (753) word
+680 678 (DP) edget
+(s) () () () () (756) word
+(par) () () () () (757) word
+682 681 (UTT) edget
+() (Jo) (adv) (--) (jo) (758) word
+683 682 (fA) edget
+() (-) (pu) (--) (--) (759) word
+(fcl) () () () () (760) word
+685 682 (STA) edget
+() (brevet) (n) (NEU S DEF NOM) (brev) (761) word
+686 685 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (762) word
+687 685 (P) edget
+(pp) () () () () (763) word
+688 685 (As) edget
+() (til) (prp) (--) (til) (764) word
+689 688 (H) edget
+() (hende) (pron-pers) (UTR 3S ACC) (hun) (765) word
+690 688 (DP) edget
+(s) () () () () (768) word
+(fcl) () () () () (769) word
+692 691 (QUE) edget
+() (Men) (conj-c) (--) (men) (770) word
+693 692 (CO) edget
+() (hvem) (pron-int) (UTR S) (hvem) (771) word
+694 692 (S) edget
+(vp) () () () () (772) word
+695 692 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (773) word
+696 695 (Vaux) edget
+() (lagt) (v-pcp2) (AKT) (lægge) (774) word
+697 695 (Vm) edget
+() (det) (pron-pers) (NEU 3S ACC) (den) (775) word
+698 692 (Od) edget
+(pp) () () () () (776) word
+699 692 (Ao) edget
+() (i) (prp) (--) (i) (777) word
+700 699 (H) edget
+() (postkassen) (n) (UTR S DEF NOM) (postkasse) (778) word
+701 699 (DP) edget
+(s) () () () () (781) word
+(fcl) () () () () (782) word
+703 702 (STA) edget
+() (Sofie) (prop) (NOM) (Sofie) (783) word
+704 703 (S) edget
+() (skyndte) (v-fin) (IMPF AKT) (skynde) (784) word
+705 703 (P) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (785) word
+706 703 (Od) edget
+(icl) () () () () (786) word
+707 703 (fA) edget
+(vp) () () () () (787) word
+708 707 (P) edget
+() (at) (infm) (--) (at) (788) word
+709 708 (INFM) edget
+() (låse) (v-inf) (AKT) (låse) (789) word
+710 708 (Vm) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (790) word
+711 707 (Od) edget
+(pp) () () () () (791) word
+712 707 (Ao) edget
+() (ind_i) (prp) (--) (ind_i) (792) word
+713 712 (H) edget
+(np) () () () () (793) word
+714 712 (DP) edget
+() (det) (art) (NEU S DEF) (den) (794) word
+715 714 (DN) edget
+() (røde) (adj) (nG S DEF NOM) (rød) (795) word
+716 714 (DN) edget
+() (hus) (n) (NEU S IDF NOM) (hus) (796) word
+717 714 (H) edget
+(s) () () () () (799) word
+(fcl) () () () () (800) word
+719 718 (STA) edget
+(pp) () () () () (801) word
+720 719 (fA) edget
+() (Som) (prp) (--) (som) (802) word
+721 720 (H) edget
+() (sædvanlig) (adj) (UTR S IDF NOM) (sædvanlig) (803) word
+722 720 (DP) edget
+() (nåede) (v-fin) (IMPF AKT) (nå) (804) word
+723 719 (P) edget
+(np) () () () () (805) word
+724 719 (S) edget
+() (katten) (n) (UTR S DEF NOM) (kat) (806) word
+725 724 (H) edget
+() (Sherekan) (prop) (NOM) (Sherekan) (807) word
+726 724 (DN) edget
+(par) () () () () (808) word
+727 719 (Od) edget
+(icl) () () () () (809) word
+728 727 (CJT) edget
+(vp) () () () () (810) word
+729 728 (P) edget
+() (at) (infm) (--) (at) (811) word
+730 729 (INFM) edget
+() (snige) (v-inf) (AKT) (snige) (812) word
+731 729 (Vm) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (813) word
+732 728 (Od) edget
+() (frem) (adv) (--) (frem) (814) word
+733 728 (Vpart) edget
+(pp) () () () () (815) word
+734 728 (fA) edget
+() (mellem) (prp) (--) (mellem) (816) word
+735 734 (H) edget
+() (buskene) (n) (UTR P DEF NOM) (busk) (817) word
+736 734 (DP) edget
+() (,) (pu) (--) (--) (818) word
+(par) () () () () (819) word
+738 727 (CJT) edget
+(icl) () () () () (820) word
+739 738 (CJT) edget
+() (springe) (v-inf) (AKT) (springe) (821) word
+740 739 (P) edget
+(advp) () () () () (822) word
+741 739 (As) edget
+() (op) (adv) (DIR) (op) (823) word
+742 741 (H) edget
+(pp) () () () () (824) word
+743 741 (DA) edget
+() (på) (prp) (--) (på) (825) word
+744 743 (H) edget
+() (trappeafsatsen) (n) (UTR S DEF NOM) (trappeafsats) (826) word
+745 743 (DP) edget
+() (og) (conj-c) (--) (og) (827) word
+746 738 (CO) edget
+(icl) () () () () (828) word
+747 738 (CJT) edget
+() (smutte) (v-inf) (AKT) (smutte) (829) word
+748 747 (P) edget
+(advp) () () () () (830) word
+749 747 (As) edget
+() (ind) (adv) (--) (ind) (831) word
+750 749 (H) edget
+(pp) () () () () (832) word
+751 749 (DA) edget
+() (gennem) (prp) (--) (gennem) (833) word
+752 751 (H) edget
+() (døren) (n) (UTR S DEF NOM) (dør) (834) word
+753 751 (DP) edget
+(fcl) () () () () (835) word
+754 747 (fA) edget
+() (inden) (conj-s) (--) (inden) (836) word
+755 754 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (837) word
+756 754 (S) edget
+(vp) () () () () (838) word
+757 754 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (839) word
+758 757 (Vaux) edget
+() (lukket) (v-pcp2) (AKT) (lukke) (840) word
+759 757 (Vm) edget
+() (den) (pron-pers) (UTR 3S ACC) (den) (841) word
+760 754 (Od) edget
+(pp) () () () () (842) word
+761 754 (fA) edget
+() (bag) (prp) (--) (bag) (843) word
+762 761 (H) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (844) word
+763 761 (DP) edget
+(s) () () () () (847) word
+(par) () () () () (848) word
+765 764 (EXC) edget
+() (Mis) (intj) (--) (mis) (849) word
+766 765 (CJT) edget
+() (,) (pu) (--) (--) (850) word
+() (mis) (intj) (--) (mis) (851) word
+768 765 (CJT) edget
+() (,) (pu) (--) (--) (852) word
+() (mis) (intj) (--) (mis) (853) word
+770 765 (CJT) edget
+(s) () () () () (856) word
+(fcl) () () () () (857) word
+772 771 (STA) edget
+(fcl) () () () () (858) word
+773 772 (fA) edget
+() (Når) (conj-s) (--) (når) (859) word
+774 773 (SUB) edget
+(np) () () () () (860) word
+775 773 (S) edget
+() (Sofies) (prop) (GEN) (Sofie) (861) word
+776 775 (DN) edget
+() (mor) (n) (UTR S IDF NOM) (mor) (862) word
+777 775 (H) edget
+() (var) (v-fin) (IMPF AKT) (være) (863) word
+778 773 (P) edget
+(adjp) () () () () (864) word
+779 773 (Cs) edget
+() (sur) (adj) (UTR S IDF NOM) (sur) (865) word
+780 779 (H) edget
+(pp) () () () () (866) word
+781 779 (DA) edget
+() (over) (prp) (--) (over) (867) word
+782 781 (H) edget
+() (et_eller_andet) (pron-indef) (NEU S NOM) (en_eller_anden) (868) word
+783 781 (DP) edget
+() (skete) (v-fin) (IMPF AKT) (ske) (869) word
+784 772 (P) edget
+() (det) (pron-pers) (NEU 3S NOM) (den) (870) word
+785 772 (Sf) edget
+(fcl) () () () () (871) word
+786 772 (S) edget
+() (at) (conj-s) (--) (at) (872) word
+787 786 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (873) word
+788 786 (S) edget
+() (kaldte) (v-fin) (IMPF AKT) (kalde) (874) word
+789 786 (P) edget
+(np) () () () () (875) word
+790 786 (Od) edget
+() (deres) (pron-poss) (--) (de) (876) word
+791 790 (DN) edget
+() (hus) (n) (NEU S IDF NOM) (hus) (877) word
+792 790 (H) edget
+(pp) () () () () (878) word
+793 786 (Co) edget
+() (for) (prp) (--) (for) (879) word
+794 793 (H) edget
+(np) () () () () (880) word
+795 793 (DP) edget
+() (et) (art) (NEU S IDF) (en) (881) word
+796 795 (DN) edget
+() (værre) (adj) (COM nG nN nD NOM) (dårlig) (882) word
+797 795 (DN) edget
+() (menageri) (n) (NEU S IDF NOM) (menageri) (883) word
+798 795 (H) edget
+(s) () () () () (886) word
+(par) () () () () (887) word
+800 799 (STA) edget
+(fcl) () () () () (888) word
+801 800 (CJT) edget
+(np) () () () () (889) word
+802 801 (S) edget
+() (Et) (art) (NEU S IDF) (en) (890) word
+803 802 (DN) edget
+() (menageri) (n) (NEU S IDF NOM) (menageri) (891) word
+804 802 (H) edget
+() (er) (v-fin) (PR AKT) (være) (892) word
+805 801 (P) edget
+() (ganske_vist) (adv) (--) (ganske_vist) (893) word
+806 801 (fA) edget
+(np) () () () () (894) word
+807 801 (Cs) edget
+() (en) (art) (UTR S IDF) (en) (895) word
+808 807 (DN) edget
+() (samling) (n) (UTR S IDF NOM) (samling) (896) word
+809 807 (H) edget
+(np) () () () () (897) word
+810 807 (DN) edget
+() (dyr) (n) (NEU P IDF NOM) (dyr) (898) word
+811 810 (H) edget
+(fcl) () () () () (899) word
+812 810 (DN) edget
+() (der) (pron-rel) (nG nN NOM) (der) (900) word
+813 812 (S) edget
+(vp) () () () () (901) word
+814 812 (P) edget
+() (bliver) (v-fin) (PR AKT) (blive) (902) word
+815 814 (Vaux) edget
+() (ført) (v-pcp2) (PAS) (føre) (903) word
+816 814 (Vm) edget
+(pp) () () () () (904) word
+817 812 (As) edget
+() (fra) (prp) (--) (fra) (905) word
+818 817 (H) edget
+() (sted) (n) (NEU S IDF NOM) (sted) (906) word
+819 817 (DP) edget
+(pp) () () () () (907) word
+820 812 (fA) edget
+() (til) (prp) (--) (til) (908) word
+821 820 (H) edget
+() (sted) (n) (NEU S IDF NOM) (sted) (909) word
+822 820 (DP) edget
+(pp) () () () () (910) word
+823 812 (fA) edget
+() (for) (prp) (--) (for) (911) word
+824 823 (H) edget
+(icl) () () () () (912) word
+825 823 (DP) edget
+(vp) () () () () (913) word
+826 825 (P) edget
+() (at) (infm) (--) (at) (914) word
+827 826 (INFM) edget
+() (blive) (v-inf) (AKT) (blive) (915) word
+828 826 (Vaux) edget
+() (vist) (v-pcp2) (PAS) (vise) (916) word
+829 826 (Vm) edget
+() (frem) (adv) (DIR) (frem) (917) word
+830 825 (Vpart) edget
+() (men) (conj-c) (--) (men) (918) word
+831 800 (CO) edget
+(par) () () () () (919) word
+832 800 (CJT) edget
+(fcl) () () () () (920) word
+833 832 (CJT) edget
+() (Sofie) (prop) (NOM) (Sofie) (921) word
+834 833 (S) edget
+() (havde) (v-fin) (IMPF AKT) (have) (922) word
+835 833 (P) edget
+() (da) (adv) (--) (da) (923) word
+836 833 (fA) edget
+(np) () () () () (924) word
+837 833 (Od) edget
+() (i_hvert_fald) (adv) (--) (i_hvert_fald) (925) word
+838 837 (DN) edget
+(np) () () () () (926) word
+839 837 (H) edget
+() (en) (art) (UTR S IDF) (en) (927) word
+840 839 (DN) edget
+() (samling) (n) (UTR S IDF NOM) (samling) (928) word
+841 839 (H) edget
+() (dyr) (n) (NEU P IDF NOM) (dyr) (929) word
+842 839 (DN) edget
+() (og) (conj-c) (--) (og) (930) word
+843 832 (CO) edget
+(fcl) () () () () (931) word
+844 832 (CJT) edget
+(adjp) () () () () (932) word
+845 844 (Cs) edget
+(pp) () () () () (933) word
+846 845 (DA) edget
+() (det) (pron-pers) (NEU 3S ACC) (den) (934) word
+847 846 (DP) edget
+() (var) (v-fin) (IMPF AKT) (være) (935) word
+848 844 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (936) word
+849 844 (S) edget
+(advp) () () () () (937) word
+850 844 (fA) edget
+() (ganske) (adv) (--) (ganske) (938) word
+851 850 (DA) edget
+() (godt) (adv) (--) (god) (939) word
+852 850 (H) edget
+() (tilfreds) (adj) (nG S IDF NOM) (tilfreds) (940) word
+853 845 (H) edget
+() (med) (prp) (--) (med) (941) word
+854 846 (H) edget
+(s) () () () () (944) word
+(fcl) () () () () (945) word
+856 855 (STA) edget
+() (Først) (adv) (--) (først) (946) word
+857 856 (fA) edget
+(vp) () () () () (947) word
+858 856 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (948) word
+859 858 (Vaux) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (949) word
+860 856 (S) edget
+() (fået) (v-pcp2) (AKT) (få) (950) word
+861 858 (Vm) edget
+(np) () () () () (951) word
+862 856 (Od) edget
+() (guldfiskene) (n) (UTR P DEF NOM) (guldfisk) (952) word
+863 862 (H) edget
+(par) () () () () (953) word
+864 862 (DN) edget
+() (Guldtop) (prop) (NOM) (Guldtop) (954) word
+865 864 (CJT) edget
+() (Rødhætte) (prop) (NOM) (Rødhætte) (955) word
+866 864 (CJT) edget
+() (og) (conj-c) (--) (og) (956) word
+867 864 (CO) edget
+() (Sorteper) (prop) (NOM) (sorteper) (957) word
+868 864 (CJT) edget
+(s) () () () () (960) word
+(fcl) () () () () (961) word
+870 869 (STA) edget
+() (Så) (adv) (--) (så) (962) word
+871 870 (fA) edget
+() (fik) (v-fin) (IMPF AKT) (få) (963) word
+872 870 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (964) word
+873 870 (S) edget
+(par) () () () () (965) word
+874 870 (Od) edget
+(np) () () () () (966) word
+875 874 (CJT) edget
+() (undulaterne) (n) (UTR P DEF NOM) (undulat) (967) word
+876 875 (H) edget
+(par) () () () () (968) word
+877 875 (DN) edget
+() (Smit) (prop) (NOM) (Smit) (969) word
+878 877 (CJT) edget
+() (og) (conj-c) (--) (og) (970) word
+879 877 (CO) edget
+() (Smule) (prop) (NOM) (Smule) (971) word
+880 877 (CJT) edget
+(np) () () () () (972) word
+881 874 (CJT) edget
+() (skildpadden) (n) (UTR S DEF NOM) (skildpadde) (973) word
+882 881 (H) edget
+() (Govinda) (prop) (NOM) (Govinda) (974) word
+883 881 (DN) edget
+() (og) (conj-c) (--) (og) (975) word
+884 874 (CO) edget
+() (til_sidst) (adv) (--) (til_sidst) (976) word
+885 874 (FOC) edget
+(np) () () () () (977) word
+886 874 (CJT) edget
+() (den) (art) (UTR S DEF) (den) (978) word
+887 886 (DN) edget
+() (gulbrune) (adj) (nG S DEF NOM) (gulbrun) (979) word
+888 886 (DN) edget
+() (tigerkat) (n) (UTR S IDF NOM) (tiger+kat) (980) word
+889 886 (H) edget
+() (Sherekan) (prop) (NOM) (Sherekan) (981) word
+890 886 (DN) edget
+(s) () () () () (984) word
+(fcl) () () () () (985) word
+892 891 (STA) edget
+(np) () () () () (986) word
+893 892 (Od) edget
+() (Alle) (pron-indef) (nG P NOM) (al) (987) word
+894 893 (DN) edget
+() (disse) (pron-dem) (nG P NOM) (denne) (988) word
+895 893 (DN) edget
+() (dyr) (n) (NEU P IDF NOM) (dyr) (989) word
+896 893 (H) edget
+(vp) () () () () (990) word
+897 892 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (991) word
+898 897 (Vaux) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (992) word
+899 892 (S) edget
+() (fået) (v-pcp2) (AKT) (få) (993) word
+900 897 (Vm) edget
+(pp) () () () () (994) word
+901 892 (fA) edget
+() (som) (prp) (--) (som) (995) word
+902 901 (H) edget
+(np) () () () () (996) word
+903 901 (DP) edget
+() (en) (art) (UTR S IDF) (en) (997) word
+904 903 (DN) edget
+() (slags) (n) (UTR S IDF NOM) (slags) (998) word
+905 903 (H) edget
+(np) () () () () (999) word
+906 903 (DN) edget
+() (erstatning) (n) (UTR S IDF NOM) (erstatning) (1000) word
+907 906 (H) edget
+(pp) () () () () (1001) word
+908 906 (DN) edget
+() (for) (prp) (--) (for) (1002) word
+909 908 (H) edget
+(par) () () () () (1003) word
+910 908 (DP) edget
+(fcl) () () () () (1004) word
+911 910 (CJT) edget
+() (at) (conj-s) (--) (at) (1005) word
+912 911 (SUB) edget
+() (moren) (n) (UTR S DEF NOM) (mor) (1006) word
+913 911 (S) edget
+() (kom) (v-fin) (IMPF AKT) (komme) (1007) word
+914 911 (P) edget
+() (sent) (adv) (--) (sen) (1008) word
+915 911 (fA) edget
+(advp) () () () () (1009) word
+916 911 (As) edget
+() (hjem) (adv) (DIR) (hjem) (1010) word
+917 916 (H) edget
+(pp) () () () () (1011) word
+918 916 (DA) edget
+() (fra) (prp) (--) (fra) (1012) word
+919 918 (H) edget
+() (arbejdet) (n) (NEU S DEF NOM) (arbejde) (1013) word
+920 918 (DP) edget
+() (og) (conj-c) (--) (og) (1014) word
+921 910 (CO) edget
+(fcl) () () () () (1015) word
+922 910 (CJT) edget
+() (far) (n) (UTR S IDF NOM) (far) (1016) word
+923 922 (S) edget
+(par) () () () () (1017) word
+924 922 (X) edget
+(x) () () () () (1018) word
+925 924 (CJT) edget
+() (var) (v-fin) (IMPF AKT) (være) (1019) word
+926 925 (P) edget
+() (så_meget) (adv) (--) (så_meget) (1020) word
+927 925 (fA) edget
+(advp) () () () () (1021) word
+928 925 (As) edget
+() (ude) (adv) (LOC) (ude) (1022) word
+929 928 (H) edget
+(pp) () () () () (1023) word
+930 928 (DA) edget
+() (i) (prp) (--) (i) (1024) word
+931 930 (H) edget
+() (verden) (n) (UTR S IDF NOM) (verden) (1025) word
+932 930 (DP) edget
+() (og) (conj-c) (--) (og) (1026) word
+933 924 (CO) edget
+() (sejlede) (v-fin) (IMPF AKT) (sejle) (1027) word
+934 924 (CJT) edget
+(s) () () () () (1030) word
+(fcl) () () () () (1031) word
+936 935 (STA) edget
+() (Sofie) (prop) (NOM) (Sofie) (1032) word
+937 936 (S) edget
+(par) () () () () (1033) word
+938 936 (X) edget
+(x) () () () () (1034) word
+939 938 (CJT) edget
+() (smed) (v-fin) (IMPF AKT) (smide) (1035) word
+940 939 (P) edget
+() (skoletasken) (n) (UTR S DEF NOM) (skoletaske) (1036) word
+941 939 (Od) edget
+(pp) () () () () (1037) word
+942 939 (Ao) edget
+() (fra) (prp) (--) (fra) (1038) word
+943 942 (H) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (1039) word
+944 942 (DP) edget
+() (og) (conj-c) (--) (og) (1040) word
+945 938 (CO) edget
+(x) () () () () (1041) word
+946 938 (CJT) edget
+() (stillede) (v-fin) (IMPF AKT) (stille) (1042) word
+947 946 (P) edget
+(np) () () () () (1043) word
+948 946 (Od) edget
+() (en) (art) (UTR S IDF) (en) (1044) word
+949 948 (DN) edget
+() (skål) (n) (UTR S IDF NOM) (skål) (1045) word
+950 948 (H) edget
+(pp) () () () () (1046) word
+951 948 (DN) edget
+() (med) (prp) (--) (med) (1047) word
+952 951 (H) edget
+() (kattemad) (n) (UTR S IDF NOM) (kattemad) (1048) word
+953 951 (DP) edget
+() (frem) (adv) (--) (frem) (1049) word
+954 946 (Vpart) edget
+(pp) () () () () (1050) word
+955 946 (fA) edget
+() (til) (prp) (--) (til) (1051) word
+956 955 (H) edget
+() (Sherekan) (prop) (NOM) (Sherekan) (1052) word
+957 955 (DP) edget
+(s) () () () () (1055) word
+(fcl) () () () () (1056) word
+959 958 (QUE) edget
+() (Så) (conj-c) (--) (så) (1057) word
+960 959 (CO) edget
+() (sank) (v-fin) (IMPF AKT) (synke-1) (1058) word
+961 959 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1059) word
+962 959 (S) edget
+() (ned) (adv) (DIR) (ned) (1060) word
+963 959 (Vpart) edget
+(pp) () () () () (1061) word
+964 959 (fA) edget
+() (på) (prp) (--) (på) (1062) word
+965 964 (H) edget
+(np) () () () () (1063) word
+966 964 (DP) edget
+() (en) (art) (UTR S IDF) (en) (1064) word
+967 966 (DN) edget
+() (taburet) (n) (UTR S IDF NOM) (taburet) (1065) word
+968 966 (H) edget
+(pp) () () () () (1066) word
+969 959 (fA) edget
+() (med) (prp) (--) (med) (1067) word
+970 969 (H) edget
+(np) () () () () (1068) word
+971 969 (DP) edget
+() (det) (art) (NEU S DEF) (den) (1069) word
+972 971 (DN) edget
+() (mystiske) (adj) (nG S DEF NOM) (mystisk) (1070) word
+973 971 (DN) edget
+() (brev) (n) (NEU S IDF NOM) (brev) (1071) word
+974 971 (H) edget
+(pp) () () () () (1072) word
+975 971 (DNc) edget
+() (i) (prp) (--) (i) (1073) word
+976 975 (H) edget
+() (hånden) (n) (UTR S DEF NOM) (hånd) (1074) word
+977 975 (DP) edget
+(s) () () () () (1077) word
+(fcl) () () () () (1078) word
+979 978 (QUE) edget
+() (Hvem) (pron-int) (UTR S) (hvem) (1079) word
+980 979 (Cs) edget
+() (er) (v-fin) (PR AKT) (være) (1080) word
+981 979 (P) edget
+() (du) (pron-pers) (--) (du) (1081) word
+982 979 (S) edget
+(s) () () () () (1084) word
+(fcl) () () () () (1085) word
+984 983 (STA) edget
+() (Det) (pron-pers) (NEU 3S ACC) (den) (1086) word
+985 984 (Od) edget
+() (vidste) (v-fin) (IMPF AKT) (vide) (1087) word
+986 984 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1088) word
+987 984 (S) edget
+() (skam) (adv) (--) (skam) (1089) word
+988 984 (fA) edget
+() (ikke) (adv) (--) (ikke) (1090) word
+989 984 (fA) edget
+(s) () () () () (1093) word
+(par) () () () () (1094) word
+991 990 (QUE) edget
+(fcl) () () () () (1095) word
+992 991 (CJT) edget
+() (Hun) (pron-pers) (UTR 3S NOM) (hun) (1096) word
+993 992 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (1097) word
+994 992 (P) edget
+() (naturligvis) (adv) (--) (naturligvis) (1098) word
+995 992 (fA) edget
+() (Sofie_Amundsen) (prop) (NOM) (Sofie_Amundsen) (1099) word
+996 992 (Cs) edget
+() (men) (conj-c) (--) (men) (1100) word
+997 991 (CO) edget
+(fcl) () () () () (1101) word
+998 991 (CJT) edget
+() (hvem) (pron-int) (UTR S) (hvem) (1102) word
+999 998 (Cs) edget
+() (var) (v-fin) (IMPF AKT) (være) (1103) word
+1000 998 (P) edget
+() (det) (pron-pers) (NEU 3S NOM) (den) (1104) word
+1001 998 (S) edget
+(s) () () () () (1107) word
+(fcl) () () () () (1108) word
+1003 1002 (STA) edget
+(pp) () () () () (1109) word
+1004 1003 (Op) edget
+() (Det) (pron-pers) (NEU 3S ACC) (den) (1110) word
+1005 1004 (DP) edget
+(vp) () () () () (1111) word
+1006 1003 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (1112) word
+1007 1006 (Vaux) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1113) word
+1008 1003 (S) edget
+(advp) () () () () (1114) word
+1009 1003 (fA) edget
+() (ikke) (adv) (--) (ikke) (1115) word
+1010 1009 (Dfoc) edget
+() (rigtigt) (adv) (--) (rigtig) (1116) word
+1011 1009 (H) edget
+() (fundet) (v-pcp2) (AKT) (finde) (1117) word
+1012 1006 (Vm) edget
+() (ud_af) (prp) (--) (ud_af) (1118) word
+1013 1004 (H) edget
+() (endnu) (adv) (--) (endnu) (1119) word
+1014 1003 (fA) edget
+(s) () () () () (1122) word
+(acl) () () () () (1123) word
+1016 1015 (fA) edget
+() (Hvad) (pron-int) (NEU S) (hvad) (1124) word
+1017 1016 (S) edget
+() (nu) (adv) (--) (nu) (1125) word
+1018 1016 (fA) edget
+(fcl) () () () () (1126) word
+1019 1016 (fA) edget
+() (hvis) (conj-s) (--) (hvis) (1127) word
+1020 1019 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1128) word
+1021 1019 (S) edget
+(vp) () () () () (1129) word
+1022 1019 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (1130) word
+1023 1022 (Vaux) edget
+() (heddet) (v-pcp2) (AKT) (hedde) (1131) word
+1024 1022 (Vm) edget
+(np) () () () () (1132) word
+1025 1019 (Cs) edget
+() (noget) (pron-indef) (NEU S) (noget) (1133) word
+1026 1025 (H) edget
+(adjp) () () () () (1134) word
+1027 1025 (DN) edget
+() (ganske) (adv) (--) (ganske) (1135) word
+1028 1027 (DA) edget
+() (andet) (pron-indef) (NEU S NOM) (anden) (1136) word
+1029 1027 (H) edget
+(s) () () () () (1139) word
+(acl) () () () () (1140) word
+1031 1030 (UTT) edget
+() (Anne_Knudsen) (prop) (NOM) (Anne_Knudsen) (1141) word
+1032 1031 (X) edget
+() (for_eksempel) (adv) (--) (for_eksempel) (1142) word
+1033 1031 (fA) edget
+(s) () () () () (1145) word
+(fcl) () () () () (1146) word
+1035 1034 (QUE) edget
+(vp) () () () () (1147) word
+1036 1035 (P) edget
+() (Ville) (v-fin) (IMPF AKT) (ville) (1148) word
+1037 1036 (Vaux) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1149) word
+1038 1035 (S) edget
+() (så) (adv) (--) (så) (1150) word
+1039 1035 (fA) edget
+() (have) (v-inf) (AKT) (have) (1151) word
+1040 1036 (Vaux) edget
+() (været) (v-pcp2) (AKT) (være) (1152) word
+1041 1036 (Vm) edget
+(np) () () () () (1153) word
+1042 1035 (Cs) edget
+() (en) (art) (UTR S IDF) (en) (1154) word
+1043 1042 (DN) edget
+() (anden) (pron-indef) (UTR S NOM) (anden) (1155) word
+1044 1042 (H) edget
+(s) () () () () (1158) word
+(fcl) () () () () (1159) word
+1046 1045 (STA) edget
+() (Pludselig) (adv) (--) (pludselig) (1160) word
+1047 1046 (fA) edget
+() (kom) (v-fin) (IMPF AKT) (komme) (1161) word
+1048 1046 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1162) word
+1049 1046 (S) edget
+(pp) () () () () (1163) word
+1050 1046 (As) edget
+() (i) (prp) (--) (i) (1164) word
+1051 1050 (H) edget
+(np) () () () () (1165) word
+1052 1050 (DP) edget
+() (tanke) (n) (UTR S IDF NOM) (tanke) (1166) word
+1053 1052 (H) edget
+(pp) () () () () (1167) word
+1054 1052 (DN) edget
+() (om) (prp) (--) (om) (1168) word
+1055 1054 (H) edget
+(fcl) () () () () (1169) word
+1056 1054 (DP) edget
+() (at) (conj-s) (--) (at) (1170) word
+1057 1056 (SUB) edget
+(np) () () () () (1171) word
+1058 1056 (S) edget
+() (hendes) (pron-poss) (UTR 3S GEN) (hun) (1172) word
+1059 1058 (DN) edget
+() (far) (n) (UTR S IDF NOM) (far) (1173) word
+1060 1058 (H) edget
+(vp) () () () () (1174) word
+1061 1056 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (1175) word
+1062 1061 (Vaux) edget
+() (villet) (v-pcp2) (AKT) (ville) (1176) word
+1063 1061 (Vm) edget
+(fcl) () () () () (1177) word
+1064 1056 (Od) edget
+() (at) (conj-s) (--) (at) (1178) word
+1065 1064 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1179) word
+1066 1064 (S) edget
+(vp) () () () () (1180) word
+1067 1064 (P) edget
+() (skulle) (v-fin) (IMPF AKT) (skulle) (1181) word
+1068 1067 (Vaux) edget
+() (hedde) (v-inf) (AKT) (hedde) (1182) word
+1069 1067 (Vm) edget
+() (Synnøve) (prop) (NOM) (Synnøve) (1183) word
+1070 1064 (Cs) edget
+(s) () () () () (1186) word
+(par) () () () () (1187) word
+1072 1071 (STA) edget
+(fcl) () () () () (1188) word
+1073 1072 (CJT) edget
+() (Sofie) (prop) (NOM) (Sofie) (1189) word
+1074 1073 (S) edget
+() (forsøgte) (v-fin) (IMPF AKT) (forsøge) (1190) word
+1075 1073 (P) edget
+(icl) () () () () (1191) word
+1076 1073 (Od) edget
+(vp) () () () () (1192) word
+1077 1076 (P) edget
+() (at) (infm) (--) (at) (1193) word
+1078 1077 (INFM) edget
+() (forestille) (v-inf) (AKT) (forestille) (1194) word
+1079 1077 (Vm) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (1195) word
+1080 1076 (Oi) edget
+(fcl) () () () () (1196) word
+1081 1076 (Od) edget
+() (at) (conj-s) (--) (at) (1197) word
+1082 1081 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1198) word
+1083 1081 (S) edget
+(par) () () () () (1199) word
+1084 1081 (X) edget
+(x) () () () () (1200) word
+1085 1084 (CJT) edget
+() (rakte) (v-fin) (IMPF AKT) (række) (1201) word
+1086 1085 (P) edget
+() (hånden) (n) (UTR S DEF NOM) (hånd) (1202) word
+1087 1085 (Od) edget
+() (frem) (adv) (DIR) (frem) (1203) word
+1088 1085 (Vpart) edget
+() (og) (conj-c) (--) (og) (1204) word
+1089 1084 (CO) edget
+(x) () () () () (1205) word
+1090 1084 (CJT) edget
+() (præsenterede) (v-fin) (IMPF AKT) (præsentere) (1206) word
+1091 1090 (P) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (1207) word
+1092 1090 (Od) edget
+(pp) () () () () (1208) word
+1093 1090 (fA) edget
+() (som) (prp) (--) (som) (1209) word
+1094 1093 (H) edget
+() (Synnøve_Amundsen) (prop) (NOM) (Synnøve_Amundsen) (1210) word
+1095 1093 (DP) edget
+() (men) (conj-c) (--) (men) (1211) word
+1096 1072 (CO) edget
+() (nej) (intj) (--) (nej) (1212) word
+1097 1072 (FOC) edget
+(fcl) () () () () (1213) word
+1098 1072 (CJT) edget
+() (den) (pron-pers) (UTR 3S NOM) (den) (1214) word
+1099 1098 (S) edget
+() (gik) (v-fin) (IMPF AKT) (gå) (1215) word
+1100 1098 (P) edget
+() (altså) (adv) (--) (altså) (1216) word
+1101 1098 (fA) edget
+() (ikke) (adv) (--) (ikke) (1217) word
+1102 1098 (fA) edget
+(s) () () () () (1220) word
+(fcl) () () () () (1221) word
+1104 1103 (STA) edget
+() (Det) (pron-pers) (NEU 3S NOM) (den) (1222) word
+1105 1104 (Sf) edget
+() (var) (v-fin) (IMPF AKT) (være) (1223) word
+1106 1104 (P) edget
+() (hele_tiden) (adv) (--) (hele_tiden) (1224) word
+1107 1104 (fA) edget
+(np) () () () () (1225) word
+1108 1104 (Cs) edget
+() (en) (art) (UTR S IDF) (en) (1226) word
+1109 1108 (DN) edget
+(adjp) () () () () (1227) word
+1110 1108 (DN) edget
+() (ganske) (adv) (--) (ganske) (1228) word
+1111 1110 (DA) edget
+() (anden) (pron-indef) (UTR S NOM) (anden) (1229) word
+1112 1110 (H) edget
+() (pige) (n) (UTR S IDF NOM) (pige) (1230) word
+1113 1108 (H) edget
+(fcl) () () () () (1231) word
+1114 1104 (S) edget
+() (der) (pron-rel) (nG nN NOM) (der) (1232) word
+1115 1114 (S) edget
+() (præsenterede) (v-fin) (IMPF AKT) (præsentere) (1233) word
+1116 1114 (P) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (1234) word
+1117 1114 (Od) edget
+(s) () () () () (1237) word
+(fcl) () () () () (1238) word
+1119 1118 (QUE) edget
+() (Så) (conj-c) (--) (så) (1239) word
+1120 1119 (CO) edget
+() (røg) (v-fin) (IMPF AKT) (ryge-2) (1240) word
+1121 1119 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1241) word
+1122 1119 (S) edget
+(par) () () () () (1242) word
+1123 1119 (As) edget
+(advp) () () () () (1243) word
+1124 1123 (CJT) edget
+() (ud) (adv) (DIR) (ud) (1244) word
+1125 1124 (H) edget
+(pp) () () () () (1245) word
+1126 1124 (DA) edget
+() (på) (prp) (--) (på) (1246) word
+1127 1126 (H) edget
+() (gulvet) (n) (NEU S DEF NOM) (gulv) (1247) word
+1128 1126 (DP) edget
+() (og) (conj-c) (--) (og) (1248) word
+1129 1123 (CO) edget
+() (videre) (adv) (COM) (videre) (1249) word
+1130 1123 (FOC) edget
+(advp) () () () () (1250) word
+1131 1123 (CJT) edget
+() (ind) (adv) (--) (ind) (1251) word
+1132 1131 (H) edget
+(pp) () () () () (1252) word
+1133 1131 (DA) edget
+() (i) (prp) (--) (i) (1253) word
+1134 1133 (H) edget
+(np) () () () () (1254) word
+1135 1133 (DP) edget
+() (badeværelset) (n) (NEU S DEF NOM) (badeværelse) (1255) word
+1136 1135 (H) edget
+(pp) () () () () (1256) word
+1137 1135 (DN) edget
+() (med) (prp) (--) (med) (1257) word
+1138 1137 (H) edget
+(np) () () () () (1258) word
+1139 1137 (DP) edget
+() (det) (art) (NEU S DEF) (den) (1259) word
+1140 1139 (DN) edget
+() (underlige) (adj) (nG S DEF NOM) (underlig) (1260) word
+1141 1139 (DN) edget
+() (brev) (n) (NEU S IDF NOM) (brev) (1261) word
+1142 1139 (H) edget
+(pp) () () () () (1262) word
+1143 1139 (DNc) edget
+() (i) (prp) (--) (i) (1263) word
+1144 1143 (H) edget
+() (hånden) (n) (UTR S DEF NOM) (hånd) (1264) word
+1145 1143 (DP) edget
+(s) () () () () (1267) word
+(fcl) () () () () (1268) word
+1147 1146 (STA) edget
+() (Hun) (pron-pers) (UTR 3S NOM) (hun) (1269) word
+1148 1147 (S) edget
+(par) () () () () (1270) word
+1149 1147 (X) edget
+(x) () () () () (1271) word
+1150 1149 (CJT) edget
+() (stillede) (v-fin) (IMPF AKT) (stille) (1272) word
+1151 1150 (P) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (1273) word
+1152 1150 (Od) edget
+(pp) () () () () (1274) word
+1153 1150 (Ao) edget
+() (foran) (prp) (--) (foran) (1275) word
+1154 1153 (H) edget
+() (spejlet) (n) (NEU S DEF NOM) (spejl) (1276) word
+1155 1153 (DP) edget
+() (og) (conj-c) (--) (og) (1277) word
+1156 1149 (CO) edget
+(x) () () () () (1278) word
+1157 1149 (CJT) edget
+() (stirrede) (v-fin) (IMPF AKT) (stirre) (1279) word
+1158 1157 (P) edget
+(np) () () () () (1280) word
+1159 1157 (Od) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (1281) word
+1160 1159 (H) edget
+() (selv) (pron-indef) (nG nN) (selv) (1282) word
+1161 1159 (DN) edget
+(pp) () () () () (1283) word
+1162 1157 (fA) edget
+() (ind_i) (prp) (--) (ind_i) (1284) word
+1163 1162 (H) edget
+() (øjnene) (n) (NEU P DEF NOM) (øje) (1285) word
+1164 1162 (DP) edget
+(s) () () () () (1288) word
+(fcl) () () () () (1289) word
+1166 1165 (STA) edget
+(fcl) () () () () (1290) word
+1167 1166 (Od) edget
+() (Jeg) (pron-pers) (--) (jeg) (1291) word
+1168 1167 (S) edget
+() (er) (v-fin) (PR AKT) (være) (1292) word
+1169 1167 (P) edget
+() (Sofie_Amundsen) (prop) (NOM) (Sofie_Amundsen) (1293) word
+1170 1167 (Cs) edget
+() (sagde) (v-fin) (IMPF AKT) (sige) (1294) word
+1171 1166 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1295) word
+1172 1166 (S) edget
+(s) () () () () (1298) word
+(fcl) () () () () (1299) word
+1174 1173 (STA) edget
+(np) () () () () (1300) word
+1175 1174 (S) edget
+() (Pigen) (n) (UTR S DEF NOM) (pige) (1301) word
+1176 1175 (H) edget
+(pp) () () () () (1302) word
+1177 1175 (DN) edget
+() (i) (prp) (--) (i) (1303) word
+1178 1177 (H) edget
+() (spejlet) (n) (NEU S DEF NOM) (spejl) (1304) word
+1179 1177 (DP) edget
+() (svarede) (v-fin) (IMPF AKT) (svare) (1305) word
+1180 1174 (P) edget
+() (ikke) (adv) (--) (ikke) (1306) word
+1181 1174 (fA) edget
+(pp) () () () () (1307) word
+1182 1174 (fA) edget
+() (med) (prp) (--) (med) (1308) word
+1183 1182 (H) edget
+(np) () () () () (1309) word
+1184 1182 (DP) edget
+() (så_meget_som) (adv) (--) (så_meget_som) (1310) word
+1185 1184 (Dfoc) edget
+(np) () () () () (1311) word
+1186 1184 (H) edget
+() (en) (art) (UTR S IDF) (en) (1312) word
+1187 1186 (DN) edget
+() (lille) (adj) (nG S nD NOM) (lille) (1313) word
+1188 1186 (DN) edget
+() (grimasse) (n) (UTR S IDF NOM) (grimasse) (1314) word
+1189 1186 (H) edget
+(s) () () () () (1317) word
+(fcl) () () () () (1318) word
+1191 1190 (STA) edget
+(fcl) () () () () (1319) word
+1192 1191 (fA) edget
+(np) () () () () (1320) word
+1193 1192 (Od) edget
+() (Lige_meget) (adv) (--) (lige_meget) (1321) word
+1194 1193 (DN) edget
+() (hvad) (pron-int) (NEU S) (hvad) (1322) word
+1195 1193 (H) edget
+() (Sofie) (prop) (NOM) (Sofie) (1323) word
+1196 1192 (S) edget
+() (gjorde) (v-fin) (IMPF AKT) (gøre) (1324) word
+1197 1192 (P) edget
+() (gentog) (v-fin) (IMPF AKT) (gentage) (1325) word
+1198 1191 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1326) word
+1199 1191 (S) edget
+() (nøjagtig) (adv) (--) (nøjagtig) (1327) word
+1200 1191 (fA) edget
+(np) () () () () (1328) word
+1201 1191 (Od) edget
+() (det) (art) (NEU S DEF) (den) (1329) word
+1202 1201 (DN) edget
+() (samme) (pron-indef) (nG nN NOM) (samme) (1330) word
+1203 1201 (H) edget
+(s) () () () () (1333) word
+(par) () () () () (1334) word
+1205 1204 (STA) edget
+(fcl) () () () () (1335) word
+1206 1205 (CJT) edget
+() (Sofie) (prop) (NOM) (Sofie) (1336) word
+1207 1206 (S) edget
+() (forsøgte) (v-fin) (IMPF AKT) (forsøge) (1337) word
+1208 1206 (P) edget
+(icl) () () () () (1338) word
+1209 1206 (Od) edget
+(vp) () () () () (1339) word
+1210 1209 (P) edget
+() (at) (infm) (--) (at) (1340) word
+1211 1210 (INFM) edget
+() (komme) (v-inf) (AKT) (komme) (1341) word
+1212 1210 (Vm) edget
+() (spejlbilledet) (n) (NEU S DEF NOM) (spejlbillede) (1342) word
+1213 1209 (Od) edget
+() (i_forkøbet) (adv) (--) (i_forkøbet) (1343) word
+1214 1209 (Vpart) edget
+(pp) () () () () (1344) word
+1215 1209 (fA) edget
+() (med) (prp) (--) (med) (1345) word
+1216 1215 (H) edget
+(np) () () () () (1346) word
+1217 1215 (DP) edget
+() (en) (art) (UTR S IDF) (en) (1347) word
+1218 1217 (DN) edget
+() (lynsnar) (adj) (UTR S IDF NOM) (lynsnar) (1348) word
+1219 1217 (DN) edget
+() (bevægelse) (n) (UTR S IDF NOM) (bevægelse) (1349) word
+1220 1217 (H) edget
+() (men) (conj-c) (--) (men) (1350) word
+1221 1205 (CO) edget
+(fcl) () () () () (1351) word
+1222 1205 (CJT) edget
+(np) () () () () (1352) word
+1223 1222 (S) edget
+() (den) (art) (UTR S DEF) (den) (1353) word
+1224 1223 (DN) edget
+() (anden) (pron-indef) (UTR S NOM) (anden) (1354) word
+1225 1223 (H) edget
+() (var) (v-fin) (IMPF AKT) (være) (1355) word
+1226 1222 (P) edget
+(adjp) () () () () (1356) word
+1227 1222 (Cs) edget
+() (lige_så) (adv) (--) (lige_så) (1357) word
+1228 1227 (DA) edget
+() (hurtig) (adj) (UTR S IDF NOM) (hurtig) (1358) word
+1229 1227 (H) edget
+(s) () () () () (1361) word
+(fcl) () () () () (1362) word
+1231 1230 (STA) edget
+(fcl) () () () () (1363) word
+1232 1231 (Od) edget
+() (Hvem) (pron-int) (UTR S) (hvem) (1364) word
+1233 1232 (Cs) edget
+() (er) (v-fin) (PR AKT) (være) (1365) word
+1234 1232 (P) edget
+() (du) (pron-pers) (--) (du) (1366) word
+1235 1232 (S) edget
+() (spurgte) (v-fin) (IMPF AKT) (spørge) (1367) word
+1236 1231 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1368) word
+1237 1231 (S) edget
+(s) () () () () (1371) word
+(par) () () () () (1372) word
+1239 1238 (STA) edget
+(fcl) () () () () (1373) word
+1240 1239 (CJT) edget
+() (Hun) (pron-pers) (UTR 3S NOM) (hun) (1374) word
+1241 1240 (S) edget
+() (fik) (v-fin) (IMPF AKT) (få) (1375) word
+1242 1240 (P) edget
+(np) () () () () (1376) word
+1243 1240 (fA) edget
+() (heller_ikke) (adv) (--) (heller_ikke) (1377) word
+1244 1243 (Dfoc) edget
+(np) () () () () (1378) word
+1245 1243 (H) edget
+() (denne) (pron-dem) (UTR S NOM) (denne) (1379) word
+1246 1245 (DN) edget
+() (gang) (n) (UTR S IDF NOM) (gang) (1380) word
+1247 1245 (H) edget
+(np) () () () () (1381) word
+1248 1240 (Od) edget
+() (noget) (pron-indef) (NEU S NOM) (nogen) (1382) word
+1249 1248 (DN) edget
+() (svar) (n) (NEU S IDF NOM) (svar) (1383) word
+1250 1248 (H) edget
+() (men) (conj-c) (--) (men) (1384) word
+1251 1239 (CO) edget
+(fcl) () () () () (1385) word
+1252 1239 (CJT) edget
+(np) () () () () (1386) word
+1253 1252 (fA) edget
+() (et) (art) (NEU S IDF) (en) (1387) word
+1254 1253 (DN) edget
+() (øjeblik) (n) (NEU S IDF NOM) (øjeblik) (1388) word
+1255 1253 (H) edget
+() (kom) (v-fin) (IMPF AKT) (komme) (1389) word
+1256 1252 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1390) word
+1257 1252 (S) edget
+(pp) () () () () (1391) word
+1258 1252 (As) edget
+() (i) (prp) (--) (i) (1392) word
+1259 1258 (H) edget
+() (vildrede) (n) (UTR S IDF NOM) (vildrede) (1393) word
+1260 1258 (DP) edget
+(pp) () () () () (1394) word
+1261 1252 (fA) edget
+() (med) (prp) (--) (med) (1395) word
+1262 1261 (H) edget
+(fcl) () () () () (1396) word
+1263 1261 (DP) edget
+() (om) (conj-s) (--) (om) (1397) word
+1264 1263 (SUB) edget
+() (det) (pron-pers) (NEU 3S NOM) (den) (1398) word
+1265 1263 (Sf) edget
+() (var) (v-fin) (IMPF AKT) (være) (1399) word
+1266 1263 (P) edget
+(par) () () () () (1400) word
+1267 1263 (Cs) edget
+(np) () () () () (1401) word
+1268 1267 (CJT) edget
+() (hende) (pron-pers) (UTR 3S ACC) (hun) (1402) word
+1269 1268 (H) edget
+() (selv) (pron-indef) (nG nN) (selv) (1403) word
+1270 1268 (DN) edget
+() (eller) (conj-c) (--) (eller) (1404) word
+1271 1267 (CO) edget
+() (spejlbilledet) (n) (NEU S DEF NOM) (spejlbillede) (1405) word
+1272 1267 (CJT) edget
+(fcl) () () () () (1406) word
+1273 1263 (S) edget
+() (der) (pron-rel) (nG nN NOM) (der) (1407) word
+1274 1273 (S) edget
+(vp) () () () () (1408) word
+1275 1273 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (1409) word
+1276 1275 (Vaux) edget
+() (stillet) (v-pcp2) (AKT) (stille) (1410) word
+1277 1275 (Vm) edget
+() (spørgsmålet) (n) (NEU S DEF NOM) (spørgsmål) (1411) word
+1278 1273 (Od) edget
+(s) () () () () (1414) word
+(fcl) () () () () (1415) word
+1280 1279 (STA) edget
+() (Sofie) (prop) (NOM) (Sofie) (1416) word
+1281 1280 (S) edget
+(par) () () () () (1417) word
+1282 1280 (X) edget
+(x) () () () () (1418) word
+1283 1282 (CJT) edget
+() (trykkede) (v-fin) (IMPF AKT) (trykke) (1419) word
+1284 1283 (P) edget
+(np) () () () () (1420) word
+1285 1283 (Od) edget
+() (sin) (pron-poss) (UTR S) (sin) (1421) word
+1286 1285 (DN) edget
+() (pegefinger) (n) (UTR S IDF NOM) (pegefinger) (1422) word
+1287 1285 (H) edget
+(pp) () () () () (1423) word
+1288 1283 (fA) edget
+() (mod) (prp) (--) (mod) (1424) word
+1289 1288 (H) edget
+() (næsen) (n) (UTR S DEF NOM) (næse) (1425) word
+1290 1288 (DP) edget
+(pp) () () () () (1426) word
+1291 1283 (fA) edget
+() (i) (prp) (--) (i) (1427) word
+1292 1291 (H) edget
+() (spejlet) (n) (NEU S DEF NOM) (spejl) (1428) word
+1293 1291 (DP) edget
+() (og) (conj-c) (--) (og) (1429) word
+1294 1282 (CO) edget
+() (sagde) (v-fin) (IMPF AKT) (sige) (1430) word
+1295 1282 (CJT) edget
+(s) () () () () (1433) word
+(fcl) () () () () (1434) word
+1297 1296 (STA) edget
+() (Du) (pron-pers) (--) (du) (1435) word
+1298 1297 (S) edget
+() (er) (v-fin) (PR AKT) (være) (1436) word
+1299 1297 (P) edget
+() (mig) (pron-pers) (--) (jeg) (1437) word
+1300 1297 (Cs) edget
+(s) () () () () (1440) word
+(par) () () () () (1441) word
+1302 1301 (STA) edget
+(fcl) () () () () (1442) word
+1303 1302 (CJT) edget
+(fcl) () () () () (1443) word
+1304 1303 (fA) edget
+() (Da) (conj-s) (--) (da) (1444) word
+1305 1304 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1445) word
+1306 1304 (S) edget
+() (ikke) (adv) (--) (ikke) (1446) word
+1307 1304 (fA) edget
+() (fik) (v-fin) (IMPF AKT) (få) (1447) word
+1308 1304 (P) edget
+(np) () () () () (1448) word
+1309 1304 (Od) edget
+() (noget) (pron-indef) (NEU S NOM) (nogen) (1449) word
+1310 1309 (DN) edget
+() (svar) (n) (NEU S IDF NOM) (svar) (1450) word
+1311 1309 (H) edget
+() (vendte) (v-fin) (IMPF AKT) (vende-1) (1451) word
+1312 1303 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1452) word
+1313 1303 (S) edget
+() (sætningen) (n) (UTR S DEF NOM) (sætning) (1453) word
+1314 1303 (Od) edget
+(pp) () () () () (1454) word
+1315 1303 (Ao) edget
+() (på) (prp) (--) (på) (1455) word
+1316 1315 (H) edget
+() (hovedet) (n) (NEU S DEF NOM) (hoved) (1456) word
+1317 1315 (DP) edget
+() (og) (conj-c) (--) (og) (1457) word
+1318 1302 (CO) edget
+() (sagde) (v-fin) (IMPF AKT) (sige) (1458) word
+1319 1302 (CJT) edget
+() (:) (pu) (--) (--) (1459) word
+(s) () () () () (1462) word
+(fcl) () () () () (1463) word
+1322 1321 (STA) edget
+() (Jeg) (pron-pers) (--) (jeg) (1464) word
+1323 1322 (S) edget
+() (er) (v-fin) (PR AKT) (være) (1465) word
+1324 1322 (P) edget
+() (dig) (pron-pers) (--) (du) (1466) word
+1325 1322 (Cs) edget
+(s) () () () () (1469) word
+(fcl) () () () () (1470) word
+1327 1326 (STA) edget
+() (Sofie_Amundsen) (prop) (NOM) (Sofie_Amundsen) (1471) word
+1328 1327 (S) edget
+(vp) () () () () (1472) word
+1329 1327 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (1473) word
+1330 1329 (Vaux) edget
+() (ikke) (adv) (--) (ikke) (1474) word
+1331 1327 (fA) edget
+() (altid) (adv) (--) (altid) (1475) word
+1332 1327 (fA) edget
+() (været) (v-pcp2) (AKT) (være) (1476) word
+1333 1329 (Vm) edget
+(adjp) () () () () (1477) word
+1334 1327 (Cs) edget
+() (så) (adv) (--) (så) (1478) word
+1335 1334 (DA) edget
+() (tilfreds) (adj) (nG S IDF NOM) (tilfreds) (1479) word
+1336 1334 (H) edget
+(pp) () () () () (1480) word
+1337 1334 (DA) edget
+() (med) (prp) (--) (med) (1481) word
+1338 1337 (H) edget
+(fcl) () () () () (1482) word
+1339 1337 (DP) edget
+() (hvordan) (adv) (--) (hvordan) (1483) word
+1340 1339 (fA) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1484) word
+1341 1339 (S) edget
+() (så) (v-fin) (IMPF AKT) (se) (1485) word
+1342 1339 (P) edget
+() (ud) (adv) (DIR) (ud) (1486) word
+1343 1339 (Vpart) edget
+(s) () () () () (1489) word
+(par) () () () () (1490) word
+1345 1344 (STA) edget
+(fcl) () () () () (1491) word
+1346 1345 (CJT) edget
+() (Hun) (pron-pers) (UTR 3S NOM) (hun) (1492) word
+1347 1346 (S) edget
+() (fik) (v-fin) (IMPF AKT) (få) (1493) word
+1348 1346 (P) edget
+() (ofte) (adv) (--) (ofte) (1494) word
+1349 1346 (fA) edget
+(vp) () () () () (1495) word
+1350 1346 (Ao) edget
+() (at) (infm) (--) (at) (1496) word
+1351 1350 (INFM) edget
+() (vide) (v-inf) (AKT) (vide) (1497) word
+1352 1350 (Vm) edget
+(fcl) () () () () (1498) word
+1353 1346 (Od) edget
+() (at) (conj-s) (--) (at) (1499) word
+1354 1353 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1500) word
+1355 1353 (S) edget
+() (havde) (v-fin) (IMPF AKT) (have) (1501) word
+1356 1353 (P) edget
+(np) () () () () (1502) word
+1357 1353 (Od) edget
+() (smukke) (adj) (nG P IDF NOM) (smuk) (1503) word
+1358 1357 (DN) edget
+() (mandelformede) (adj) (nG P nD NOM) (mandelformet) (1504) word
+1359 1357 (DN) edget
+() (øjne) (n) (P IDF NOM) (øje) (1505) word
+1360 1357 (H) edget
+() (men) (conj-c) (--) (men) (1506) word
+1361 1345 (CO) edget
+(fcl) () () () () (1507) word
+1362 1345 (CJT) edget
+() (det) (pron-pers) (NEU 3S NOM) (den) (1508) word
+1363 1362 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (1509) word
+1364 1362 (P) edget
+() (sikkert) (adv) (--) (sikkert) (1510) word
+1365 1362 (fA) edget
+(np) () () () () (1511) word
+1366 1362 (Cs) edget
+() (noget) (pron-indef) (NEU S) (noget) (1512) word
+1367 1366 (H) edget
+(fcl) () () () () (1513) word
+1368 1366 (DN) edget
+() (de) (pron-pers) (nG 3P NOM) (de) (1514) word
+1369 1368 (S) edget
+() (sagde) (v-fin) (IMPF AKT) (sige) (1515) word
+1370 1368 (P) edget
+(par) () () () () (1516) word
+1371 1368 (fA) edget
+(fcl) () () () () (1517) word
+1372 1371 (CJT) edget
+() (fordi) (conj-s) (--) (fordi) (1518) word
+1373 1372 (SUB) edget
+() (næsen) (n) (UTR S DEF NOM) (næse) (1519) word
+1374 1372 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (1520) word
+1375 1372 (P) edget
+(adjp) () () () () (1521) word
+1376 1372 (Cs) edget
+() (for) (adv) (--) (for) (1522) word
+1377 1376 (DA) edget
+() (lille) (adj) (nG S nD NOM) (lille) (1523) word
+1378 1376 (H) edget
+() (og) (conj-c) (--) (og) (1524) word
+1379 1371 (CO) edget
+(acl) () () () () (1525) word
+1380 1371 (CJT) edget
+() (munden) (n) (UTR S DEF NOM) (mund) (1526) word
+1381 1380 (S) edget
+(adjp) () () () () (1527) word
+1382 1380 (Cs) edget
+(advp) () () () () (1528) word
+1383 1382 (DA) edget
+() (lidt) (adv) (--) (lidt) (1529) word
+1384 1383 (DA) edget
+() (for) (adv) (--) (for) (1530) word
+1385 1383 (H) edget
+() (stor) (adj) (UTR S IDF NOM) (stor) (1531) word
+1386 1382 (H) edget
+(s) () () () () (1534) word
+(fcl) () () () () (1535) word
+1388 1387 (STA) edget
+() (Ørerne) (n) (NEU P DEF NOM) (øre-2) (1536) word
+1389 1388 (S) edget
+() (sad) (v-fin) (IMPF AKT) (sidde) (1537) word
+1390 1388 (P) edget
+() (desuden) (adv) (--) (desuden) (1538) word
+1391 1388 (fA) edget
+(pp) () () () () (1539) word
+1392 1388 (As) edget
+() (alt_for) (adv) (--) (alt_for) (1540) word
+1393 1392 (DP) edget
+() (tæt_ved) (prp) (--) (tæt_ved) (1541) word
+1394 1392 (H) edget
+() (øjnene) (n) (NEU P DEF NOM) (øje) (1542) word
+1395 1392 (DP) edget
+(s) () () () () (1545) word
+(fcl) () () () () (1546) word
+1397 1396 (STA) edget
+() (Allerværst) (adj) (nG S IDF NOM) (allerværst) (1547) word
+1398 1397 (Cs) edget
+() (var) (v-fin) (IMPF AKT) (være) (1548) word
+1399 1397 (P) edget
+() (dog) (adv) (--) (dog) (1549) word
+1400 1397 (fA) edget
+(np) () () () () (1550) word
+1401 1397 (S) edget
+() (det) (art) (NEU S DEF) (den) (1551) word
+1402 1401 (DN) edget
+() (glatte) (adj) (nG S DEF NOM) (glat) (1552) word
+1403 1401 (DN) edget
+() (hår) (n) (NEU S IDF NOM) (hår) (1553) word
+1404 1401 (H) edget
+(fcl) () () () () (1554) word
+1405 1401 (DN) edget
+() (som) (pron-rel) (nG nN) (som) (1555) word
+1406 1405 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (1556) word
+1407 1405 (P) edget
+(adjp) () () () () (1557) word
+1408 1405 (Cs) edget
+() (helt) (adv) (--) (hel) (1558) word
+1409 1408 (DA) edget
+() (umuligt) (adj) (NEU S IDF NOM) (umulig) (1559) word
+1410 1408 (H) edget
+(vp) () () () () (1560) word
+1411 1408 (DA) edget
+() (at) (infm) (--) (at) (1561) word
+1412 1411 (INFM) edget
+() (sætte) (v-inf) (AKT) (sætte) (1562) word
+1413 1411 (Vm) edget
+(s) () () () () (1565) word
+(fcl) () () () () (1566) word
+1415 1414 (STA) edget
+() (Det) (pron-pers) (NEU 3S NOM) (den) (1567) word
+1416 1415 (Sf) edget
+() (skete) (v-fin) (IMPF AKT) (ske) (1568) word
+1417 1415 (P) edget
+(fcl) () () () () (1569) word
+1418 1415 (S) edget
+() (at) (conj-s) (--) (at) (1570) word
+1419 1418 (SUB) edget
+() (faren) (n) (UTR S DEF NOM) (far) (1571) word
+1420 1418 (S) edget
+(par) () () () () (1572) word
+1421 1418 (X) edget
+(x) () () () () (1573) word
+1422 1421 (CJT) edget
+() (strøg) (v-fin) (IMPF AKT) (stryge) (1574) word
+1423 1422 (P) edget
+() (hende) (pron-pers) (UTR 3S ACC) (hun) (1575) word
+1424 1422 (Od) edget
+(pp) () () () () (1576) word
+1425 1422 (Ao) edget
+() (over) (prp) (--) (over) (1577) word
+1426 1425 (H) edget
+() (håret) (n) (NEU S DEF NOM) (hår) (1578) word
+1427 1425 (DP) edget
+() (og) (conj-c) (--) (og) (1579) word
+1428 1421 (CO) edget
+(x) () () () () (1580) word
+1429 1421 (CJT) edget
+() (kaldte) (v-fin) (IMPF AKT) (kalde) (1581) word
+1430 1429 (P) edget
+() (hende) (pron-pers) (UTR 3S ACC) (hun) (1582) word
+1431 1429 (Od) edget
+(np) () () () () (1583) word
+1432 1429 (Co) edget
+() (pigen) (n) (UTR S DEF NOM) (pige) (1584) word
+1433 1432 (H) edget
+(pp) () () () () (1585) word
+1434 1432 (DN) edget
+() (med) (prp) (--) (med) (1586) word
+1435 1434 (H) edget
+() (hørhåret) (adj) (nG S IDF NOM) (hør+håret) (1587) word
+1436 1434 (DP) edget
+(pp) () () () () (1588) word
+1437 1429 (fA) edget
+() (efter) (prp) (--) (efter) (1589) word
+1438 1437 (H) edget
+(np) () () () () (1590) word
+1439 1437 (DP) edget
+() (et) (art) (NEU S IDF) (en) (1591) word
+1440 1439 (DN) edget
+() (musikstykke) (n) (NEU S IDF NOM) (musikstykke) (1592) word
+1441 1439 (H) edget
+(pp) () () () () (1593) word
+1442 1439 (DN) edget
+() (af) (prp) (--) (af) (1594) word
+1443 1442 (H) edget
+() (Claude_Debussy) (prop) (NOM) (Claude_Debussy) (1595) word
+1444 1442 (DP) edget
+(s) () () () () (1598) word
+(par) () () () () (1599) word
+1446 1445 (STA) edget
+(fcl) () () () () (1600) word
+1447 1446 (CJT) edget
+() (Det) (pron-pers) (NEU 3S ACC) (den) (1601) word
+1448 1447 (Od) edget
+(vp) () () () () (1602) word
+1449 1447 (P) edget
+() (kunne) (v-fin) (IMPF AKT) (kunne) (1603) word
+1450 1449 (Vaux) edget
+() (han) (pron-pers) (UTR 3S NOM) (han) (1604) word
+1451 1447 (S) edget
+() (sagtens) (adv) (--) (sagtens) (1605) word
+1452 1447 (fA) edget
+() (sige) (v-inf) (AKT) (sige) (1606) word
+1453 1449 (Vm) edget
+(fcl) () () () () (1607) word
+1454 1446 (CJT) edget
+() (han) (pron-pers) (UTR 3S NOM) (han) (1608) word
+1455 1454 (S) edget
+() (slap) (v-fin) (IMPF AKT) (slippe-1) (1609) word
+1456 1454 (P) edget
+(pp) () () () () (1610) word
+1457 1454 (Op) edget
+() (for) (prp) (--) (for) (1611) word
+1458 1457 (H) edget
+(icl) () () () () (1612) word
+1459 1457 (DP) edget
+(vp) () () () () (1613) word
+1460 1459 (P) edget
+() (at) (infm) (--) (at) (1614) word
+1461 1460 (INFM) edget
+() (være) (v-inf) (AKT) (være) (1615) word
+1462 1460 (Vm) edget
+(adjp) () () () () (1616) word
+1463 1459 (Cs) edget
+() (dømt) (v-pcp2) (STA S IDF NOM) (dømme) (1617) word
+1464 1463 (H) edget
+(pp) () () () () (1618) word
+1465 1463 (DA) edget
+() (til) (prp) (--) (til) (1619) word
+1466 1465 (H) edget
+(icl) () () () () (1620) word
+1467 1465 (DP) edget
+() (livet_igennem) (adv) (--) (livet_igennem) (1621) word
+1468 1467 (fA) edget
+(vp) () () () () (1622) word
+1469 1467 (P) edget
+() (at) (infm) (--) (at) (1623) word
+1470 1469 (INFM) edget
+() (have) (v-inf) (AKT) (have) (1624) word
+1471 1469 (Vm) edget
+(np) () () () () (1625) word
+1472 1467 (Od) edget
+() (det_der) (pron-dem) (NEU S) (det_der) (1626) word
+1473 1472 (DN) edget
+() (sorte) (adj) (nG S DEF NOM) (sort) (1627) word
+1474 1472 (DN) edget
+() (hår) (n) (NEU S IDF NOM) (hår) (1628) word
+1475 1472 (H) edget
+() (hængende) (v-pcp1) (NOM) (hænge) (1629) word
+1476 1467 (Co) edget
+(advp) () () () () (1630) word
+1477 1459 (Vpart) edget
+() (lige) (adv) (--) (lige) (1631) word
+1478 1477 (DA) edget
+() (ned) (adv) (DIR) (ned) (1632) word
+1479 1477 (H) edget
+(s) () () () () (1635) word
+(fcl) () () () () (1636) word
+1481 1480 (STA) edget
+(par) () () () () (1637) word
+1482 1481 (S) edget
+() (Hverken) (adv) (--) (hverken) (1638) word
+1483 1482 (FOC) edget
+() (skum) (n) (NEU S IDF NOM) (skum) (1639) word
+1484 1482 (CJT) edget
+() (eller) (conj-c) (--) (eller) (1640) word
+1485 1482 (CO) edget
+() (gelé) (n) (UTR S IDF NOM) (gelé) (1641) word
+1486 1482 (CJT) edget
+() (bed) (v-fin) (IMPF AKT) (bide) (1642) word
+1487 1481 (P) edget
+(pp) () () () () (1643) word
+1488 1481 (Op) edget
+() (på) (prp) (--) (på) (1644) word
+1489 1488 (H) edget
+(np) () () () () (1645) word
+1490 1488 (DP) edget
+() (Sofies) (prop) (GEN) (Sofie) (1646) word
+1491 1490 (DN) edget
+() (hår) (n) (NEU S IDF NOM) (hår) (1647) word
+1492 1490 (H) edget
+(s) () () () () (1650) word
+(fcl) () () () () (1651) word
+1494 1493 (STA) edget
+(np) () () () () (1652) word
+1495 1494 (fA) edget
+() (Nogle) (pron-indef) (nG P NOM) (nogen) (1653) word
+1496 1495 (DN) edget
+() (gange) (n) (UTR P IDF NOM) (gang) (1654) word
+1497 1495 (H) edget
+() (syntes) (v-fin) (IMPF AKT) (synes) (1655) word
+1498 1494 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1656) word
+1499 1494 (S) edget
+(fcl) () () () () (1657) word
+1500 1494 (Od) edget
+(np) () () () () (1658) word
+1501 1500 (S) edget
+() (hendes) (pron-poss) (UTR 3S GEN) (hun) (1659) word
+1502 1501 (DN) edget
+() (udseende) (v-pcp1) (NOM) (udse) (1660) word
+1503 1501 (H) edget
+() (var) (v-fin) (IMPF AKT) (være) (1661) word
+1504 1500 (P) edget
+(adjp) () () () () (1662) word
+1505 1500 (Cs) edget
+() (så) (adv) (--) (så) (1663) word
+1506 1505 (DA) edget
+() (mærkeligt) (adj) (NEU S IDF NOM) (mærkelig) (1664) word
+1507 1505 (H) edget
+(fcl) () () () () (1665) word
+1508 1505 (DAcom) edget
+() (at) (conj-s) (--) (at) (1666) word
+1509 1508 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1667) word
+1510 1508 (S) edget
+(vp) () () () () (1668) word
+1511 1508 (P) edget
+() (kunne) (v-fin) (IMPF AKT) (kunne) (1669) word
+1512 1511 (Vaux) edget
+() (blive) (v-inf) (AKT) (blive) (1670) word
+1513 1511 (Vaux) edget
+() (taget) (v-pcp2) (PAS) (tage) (1671) word
+1514 1511 (Vm) edget
+(pp) () () () () (1672) word
+1515 1508 (Op) edget
+() (for) (prp) (--) (for) (1673) word
+1516 1515 (H) edget
+(icl) () () () () (1674) word
+1517 1515 (DP) edget
+(vp) () () () () (1675) word
+1518 1517 (P) edget
+() (at) (infm) (--) (at) (1676) word
+1519 1518 (INFM) edget
+() (være) (v-inf) (AKT) (være) (1677) word
+1520 1518 (Vm) edget
+() (vanskabt) (adj) (nG S IDF NOM) (vanskabt) (1678) word
+1521 1517 (Cs) edget
+(s) () () () () (1681) word
+(fcl) () () () () (1682) word
+1523 1522 (STA) edget
+(np) () () () () (1683) word
+1524 1523 (S) edget
+() (Hendes) (pron-poss) (UTR 3S GEN) (hun) (1684) word
+1525 1524 (DN) edget
+() (mor) (n) (UTR S IDF NOM) (mor) (1685) word
+1526 1524 (H) edget
+(vp) () () () () (1686) word
+1527 1523 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (1687) word
+1528 1527 (Vaux) edget
+() (i_hvert_fald) (adv) (--) (i_hvert_fald) (1688) word
+1529 1523 (fA) edget
+() (talt) (v-pcp2) (AKT) (tale) (1689) word
+1530 1527 (Vm) edget
+(pp) () () () () (1690) word
+1531 1523 (Op) edget
+() (om) (prp) (--) (om) (1691) word
+1532 1531 (H) edget
+(np) () () () () (1692) word
+1533 1531 (DP) edget
+() (en) (art) (UTR S IDF) (en) (1693) word
+1534 1533 (DN) edget
+() (vanskelig) (adj) (UTR S IDF NOM) (vanskelig) (1694) word
+1535 1533 (DN) edget
+() (fødsel) (n) (UTR S IDF NOM) (fødsel) (1695) word
+1536 1533 (H) edget
+(s) () () () () (1698) word
+(fcl) () () () () (1699) word
+1538 1537 (QUE) edget
+() (Men) (conj-c) (--) (men) (1700) word
+1539 1538 (CO) edget
+() (var) (v-fin) (IMPF AKT) (være) (1701) word
+1540 1538 (P) edget
+() (det) (pron-pers) (NEU 3S NOM) (den) (1702) word
+1541 1538 (Sf) edget
+(np) () () () () (1703) word
+1542 1538 (Cs) edget
+() (virkelig) (adj) (UTR S IDF NOM) (virkelig) (1704) word
+1543 1542 (DN) edget
+() (fødselen) (n) (UTR S DEF NOM) (fødsel) (1705) word
+1544 1542 (H) edget
+(fcl) () () () () (1706) word
+1545 1538 (S) edget
+() (der) (pron-rel) (nG nN NOM) (der) (1707) word
+1546 1545 (S) edget
+() (bestemte) (v-fin) (IMPF AKT) (bestemme) (1708) word
+1547 1545 (P) edget
+(fcl) () () () () (1709) word
+1548 1545 (Od) edget
+() (hvordan) (adv) (--) (hvordan) (1710) word
+1549 1548 (fA) edget
+() (man) (pron-pers) (--) (man) (1711) word
+1550 1548 (S) edget
+() (kom) (v-fin) (IMPF AKT) (komme) (1712) word
+1551 1548 (P) edget
+(pp) () () () () (1713) word
+1552 1548 (As) edget
+() (til) (prp) (--) (til) (1714) word
+1553 1552 (H) edget
+(icl) () () () () (1715) word
+1554 1552 (DP) edget
+(vp) () () () () (1716) word
+1555 1554 (P) edget
+() (at) (infm) (--) (at) (1717) word
+1556 1555 (INFM) edget
+() (se) (v-inf) (AKT) (se) (1718) word
+1557 1555 (Vm) edget
+() (ud) (adv) (DIR) (ud) (1719) word
+1558 1554 (Vpart) edget
+(s) () () () () (1722) word
+(fcl) () () () () (1723) word
+1560 1559 (QUE) edget
+() (Var) (v-fin) (IMPF AKT) (være) (1724) word
+1561 1560 (P) edget
+() (det) (pron-pers) (NEU 3S NOM) (den) (1725) word
+1562 1560 (Sf) edget
+() (ikke) (adv) (--) (ikke) (1726) word
+1563 1560 (fA) edget
+() (pudsigt) (adj) (NEU S IDF NOM) (pudsig) (1727) word
+1564 1560 (Cs) edget
+(fcl) () () () () (1728) word
+1565 1560 (S) edget
+() (at) (conj-s) (--) (at) (1729) word
+1566 1565 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1730) word
+1567 1565 (S) edget
+() (ikke) (adv) (--) (ikke) (1731) word
+1568 1565 (fA) edget
+() (vidste) (v-fin) (IMPF AKT) (vide) (1732) word
+1569 1565 (P) edget
+(fcl) () () () () (1733) word
+1570 1565 (Od) edget
+() (hvem) (pron-int) (UTR S) (hvem) (1734) word
+1571 1570 (Cs) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1735) word
+1572 1570 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (1736) word
+1573 1570 (P) edget
+(s) () () () () (1739) word
+(fcl) () () () () (1740) word
+1575 1574 (QUE) edget
+() (Var) (v-fin) (IMPF AKT) (være) (1741) word
+1576 1575 (P) edget
+() (det) (pron-pers) (NEU 3S NOM) (den) (1742) word
+1577 1575 (Sf) edget
+() (ikke) (adv) (--) (ikke) (1743) word
+1578 1575 (fA) edget
+(adjp) () () () () (1744) word
+1579 1575 (Cs) edget
+() (også) (adv) (--) (også) (1745) word
+1580 1579 (Dfoc) edget
+() (urimeligt) (adj) (NEU S IDF NOM) (urimelig) (1746) word
+1581 1579 (H) edget
+(fcl) () () () () (1747) word
+1582 1575 (S) edget
+() (at) (conj-s) (--) (at) (1748) word
+1583 1582 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1749) word
+1584 1582 (S) edget
+() (ikke) (adv) (--) (ikke) (1750) word
+1585 1582 (fA) edget
+(vp) () () () () (1751) word
+1586 1582 (P) edget
+() (kunne) (v-fin) (IMPF AKT) (kunne) (1752) word
+1587 1586 (Vaux) edget
+() (bestemme) (v-inf) (AKT) (bestemme) (1753) word
+1588 1586 (Vm) edget
+(np) () () () () (1754) word
+1589 1582 (Od) edget
+() (sit) (pron-poss) (NEU S) (sin) (1755) word
+1590 1589 (DN) edget
+() (eget) (pron-indef) (NEU S NOM) (egen) (1756) word
+1591 1589 (DN) edget
+() (udseende) (n) (NEU S IDF NOM) (udseende) (1757) word
+1592 1589 (H) edget
+(s) () () () () (1760) word
+(fcl) () () () () (1761) word
+1594 1593 (STA) edget
+() (Det) (pron-pers) (NEU 3S NOM) (den) (1762) word
+1595 1594 (S) edget
+(vp) () () () () (1763) word
+1596 1594 (P) edget
+() (var) (v-fin) (IMPF AKT) (være) (1764) word
+1597 1596 (Vaux) edget
+() (bare) (adv) (--) (bare) (1765) word
+1598 1594 (fA) edget
+() (kommet) (v-pcp2) (AKT) (komme) (1766) word
+1599 1596 (Vm) edget
+(advp) () () () () (1767) word
+1600 1594 (fC) edget
+() (tilfældigt) (adv) (--) (tilfældig) (1768) word
+1601 1600 (DA) edget
+() (drattende) (v-pcp1) (NOM) (dratte) (1769) word
+1602 1600 (H) edget
+(s) () () () () (1772) word
+(par) () () () () (1773) word
+1604 1603 (STA) edget
+(fcl) () () () () (1774) word
+1605 1604 (CJT) edget
+() (Hun) (pron-pers) (UTR 3S NOM) (hun) (1775) word
+1606 1605 (S) edget
+(vp) () () () () (1776) word
+1607 1605 (P) edget
+() (kunne) (v-fin) (IMPF AKT) (kunne) (1777) word
+1608 1607 (Vaux) edget
+() (måske) (adv) (--) (måske) (1778) word
+1609 1605 (fA) edget
+() (selv) (pron-indef) (nG nN) (selv) (1779) word
+1610 1605 (fC) edget
+() (vælge) (v-inf) (AKT) (vælge) (1780) word
+1611 1607 (Vm) edget
+(np) () () () () (1781) word
+1612 1605 (Od) edget
+() (sine) (pron-poss) (nG P) (sin) (1782) word
+1613 1612 (DN) edget
+() (venner) (n) (UTR P IDF NOM) (ven) (1783) word
+1614 1612 (H) edget
+() (men) (conj-c) (--) (men) (1784) word
+1615 1604 (CO) edget
+(fcl) () () () () (1785) word
+1616 1604 (CJT) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1786) word
+1617 1616 (S) edget
+(vp) () () () () (1787) word
+1618 1616 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (1788) word
+1619 1618 (Vaux) edget
+() (ikke) (adv) (--) (ikke) (1789) word
+1620 1616 (fA) edget
+() (valgt) (v-pcp2) (AKT) (vælge) (1790) word
+1621 1618 (Vm) edget
+(np) () () () () (1791) word
+1622 1616 (Od) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (1792) word
+1623 1622 (H) edget
+() (selv) (pron-indef) (nG nN) (selv) (1793) word
+1624 1622 (DN) edget
+(s) () () () () (1796) word
+(fcl) () () () () (1797) word
+1626 1625 (STA) edget
+() (Hun) (pron-pers) (UTR 3S NOM) (hun) (1798) word
+1627 1626 (S) edget
+(vp) () () () () (1799) word
+1628 1626 (P) edget
+() (havde) (v-fin) (IMPF AKT) (have) (1800) word
+1629 1628 (Vaux) edget
+() (ikke_engang) (adv) (--) (ikke_engang) (1801) word
+1630 1626 (fA) edget
+() (valgt) (v-pcp2) (AKT) (vælge) (1802) word
+1631 1628 (Vm) edget
+(icl) () () () () (1803) word
+1632 1626 (Od) edget
+(vp) () () () () (1804) word
+1633 1632 (P) edget
+() (at) (infm) (--) (at) (1805) word
+1634 1633 (INFM) edget
+() (være) (v-inf) (AKT) (være) (1806) word
+1635 1633 (Vm) edget
+() (menneske) (n) (NEU S IDF NOM) (menneske) (1807) word
+1636 1632 (Cs) edget
+(s) () () () () (1810) word
+(fcl) () () () () (1811) word
+1638 1637 (QUE) edget
+() (Hvad) (pron-int) (NEU S) (hvad) (1812) word
+1639 1638 (Cs) edget
+() (var) (v-fin) (IMPF AKT) (være) (1813) word
+1640 1638 (P) edget
+(np) () () () () (1814) word
+1641 1638 (S) edget
+() (et) (art) (NEU S IDF) (en) (1815) word
+1642 1641 (DN) edget
+() (menneske) (n) (NEU S IDF NOM) (menneske) (1816) word
+1643 1641 (H) edget
+(s) () () () () (1819) word
+(fcl) () () () () (1820) word
+1645 1644 (STA) edget
+() (Sofie) (prop) (NOM) (Sofie) (1821) word
+1646 1645 (S) edget
+() (så) (v-fin) (IMPF AKT) (se) (1822) word
+1647 1645 (P) edget
+() (atter) (adv) (--) (atter) (1823) word
+1648 1645 (fA) edget
+() (op) (adv) (DIR) (op) (1824) word
+1649 1645 (Vpart) edget
+(pp) () () () () (1825) word
+1650 1645 (fA) edget
+() (på) (prp) (--) (på) (1826) word
+1651 1650 (H) edget
+() (pigen) (n) (UTR S DEF NOM) (pige) (1827) word
+1652 1650 (DP) edget
+(pp) () () () () (1828) word
+1653 1645 (fA) edget
+() (i) (prp) (--) (i) (1829) word
+1654 1653 (H) edget
+() (spejlet) (n) (NEU S DEF NOM) (spejl) (1830) word
+1655 1653 (DP) edget
+(s) () () () () (1833) word
+(fcl) () () () () (1834) word
+1657 1656 (STA) edget
+(fcl) () () () () (1835) word
+1658 1657 (Od) edget
+() (Jeg) (pron-pers) (--) (jeg) (1836) word
+1659 1658 (S) edget
+() (tror) (v-fin) (PR AKT) (tro) (1837) word
+1660 1658 (P) edget
+(fcl) () () () () (1838) word
+1661 1658 (Od) edget
+() (jeg) (pron-pers) (--) (jeg) (1839) word
+1662 1661 (S) edget
+(par) () () () () (1840) word
+1663 1661 (X) edget
+(x) () () () () (1841) word
+1664 1663 (CJT) edget
+() (går) (v-fin) (PR AKT) (gå) (1842) word
+1665 1664 (P) edget
+() (op) (adv) (DIR) (op) (1843) word
+1666 1664 (Vpart) edget
+() (og) (conj-c) (--) (og) (1844) word
+1667 1663 (CO) edget
+(x) () () () () (1845) word
+1668 1663 (CJT) edget
+() (laver) (v-fin) (PR AKT) (lave) (1846) word
+1669 1668 (P) edget
+(np) () () () () (1847) word
+1670 1668 (Od) edget
+() (mine) (pron-poss) (nG P) (jeg) (1848) word
+1671 1670 (DN) edget
+() (biologilektier) (n) (UTR P IDF NOM) (biologi+lektie) (1849) word
+1672 1670 (H) edget
+() (sagde) (v-fin) (IMPF AKT) (sige) (1850) word
+1673 1657 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1851) word
+1674 1657 (S) edget
+(pp) () () () () (1852) word
+1675 1657 (fA) edget
+() (for) (prp) (--) (for) (1853) word
+1676 1675 (H) edget
+(icl) () () () () (1854) word
+1677 1675 (DP) edget
+() (ligesom) (prp) (--) (ligesom) (1855) word
+1678 1677 (fA) edget
+(vp) () () () () (1856) word
+1679 1677 (P) edget
+() (at) (infm) (--) (at) (1857) word
+1680 1679 (INFM) edget
+() (undskylde) (v-inf) (AKT) (undskylde) (1858) word
+1681 1679 (Vm) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (1859) word
+1682 1677 (Od) edget
+(s) () () () () (1862) word
+(fcl) () () () () (1863) word
+1684 1683 (STA) edget
+(pp) () () () () (1864) word
+1685 1684 (fA) edget
+() (I) (prp) (--) (i) (1865) word
+1686 1685 (H) edget
+(np) () () () () (1866) word
+1687 1685 (DP) edget
+() (næste) (adj) (nG nN nD NOM) (næste) (1867) word
+1688 1687 (DN) edget
+() (øjeblik) (n) (NEU S IDF NOM) (øjeblik) (1868) word
+1689 1687 (H) edget
+() (var) (v-fin) (IMPF AKT) (være) (1869) word
+1690 1684 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1870) word
+1691 1684 (S) edget
+(advp) () () () () (1871) word
+1692 1684 (As) edget
+() (ude) (adv) (LOC) (ude) (1872) word
+1693 1692 (H) edget
+(pp) () () () () (1873) word
+1694 1692 (DA) edget
+() (i) (prp) (--) (i) (1874) word
+1695 1694 (H) edget
+() (gangen) (n) (UTR S DEF NOM) (gang) (1875) word
+1696 1694 (DP) edget
+(s) () () () () (1878) word
+(par) () () () () (1879) word
+1698 1697 (UTT) edget
+() (Nej) (intj) (--) (nej) (1880) word
+1699 1698 (fA) edget
+() (,) (pu) (--) (--) (1881) word
+(fcl) () () () () (1882) word
+1701 1698 (STA) edget
+(fcl) () () () () (1883) word
+1702 1701 (Od) edget
+() (jeg) (pron-pers) (--) (jeg) (1884) word
+1703 1702 (S) edget
+() (vil) (v-fin) (PR AKT) (ville) (1885) word
+1704 1702 (P) edget
+() (hellere) (adv) (--) (hellere) (1886) word
+1705 1702 (fA) edget
+(advp) () () () () (1887) word
+1706 1702 (As) edget
+() (ud) (adv) (DIR) (ud) (1888) word
+1707 1706 (H) edget
+(pp) () () () () (1889) word
+1708 1706 (DA) edget
+() (i) (prp) (--) (i) (1890) word
+1709 1708 (H) edget
+() (haven) (n) (UTR S DEF NOM) (have) (1891) word
+1710 1708 (DP) edget
+() (tænkte) (v-fin) (IMPF AKT) (tænke) (1892) word
+1711 1701 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1893) word
+1712 1701 (S) edget
+() (så) (adv) (--) (så) (1894) word
+1713 1701 (fA) edget
+(s) () () () () (1897) word
+(par) () () () () (1898) word
+1715 1714 (EXC) edget
+() (Mis) (intj) (--) (mis) (1899) word
+1716 1715 (CJT) edget
+() (,) (pu) (--) (--) (1900) word
+() (mis) (intj) (--) (mis) (1901) word
+1718 1715 (CJT) edget
+() (,) (pu) (--) (--) (1902) word
+() (mis) (intj) (--) (mis) (1903) word
+1720 1715 (CJT) edget
+(s) () () () () (1906) word
+(fcl) () () () () (1907) word
+1722 1721 (STA) edget
+() (Sofie) (prop) (NOM) (Sofie) (1908) word
+1723 1722 (S) edget
+(par) () () () () (1909) word
+1724 1722 (X) edget
+(x) () () () () (1910) word
+1725 1724 (CJT) edget
+() (jagede) (v-fin) (IMPF AKT) (jage) (1911) word
+1726 1725 (P) edget
+() (katten) (n) (UTR S DEF NOM) (kat) (1912) word
+1727 1725 (Od) edget
+(advp) () () () () (1913) word
+1728 1725 (Ao) edget
+() (ud) (adv) (DIR) (ud) (1914) word
+1729 1728 (H) edget
+(pp) () () () () (1915) word
+1730 1728 (DA) edget
+() (på) (prp) (--) (på) (1916) word
+1731 1730 (H) edget
+() (trappen) (n) (UTR S DEF NOM) (trappe) (1917) word
+1732 1730 (DP) edget
+() (og) (conj-c) (--) (og) (1918) word
+1733 1724 (CO) edget
+(x) () () () () (1919) word
+1734 1724 (CJT) edget
+() (lukkede) (v-fin) (IMPF AKT) (lukke) (1920) word
+1735 1734 (P) edget
+() (døren) (n) (UTR S DEF NOM) (dør) (1921) word
+1736 1734 (Od) edget
+(pp) () () () () (1922) word
+1737 1734 (fA) edget
+() (efter) (prp) (--) (efter) (1923) word
+1738 1737 (H) edget
+() (sig) (pron-pers) (nG 3S/P ACC) (sig) (1924) word
+1739 1737 (DP) edget
+(s) () () () () (1927) word
+(fcl) () () () () (1928) word
+1741 1740 (STA) edget
+(fcl) () () () () (1929) word
+1742 1741 (fA) edget
+() (Da) (conj-s) (--) (da) (1930) word
+1743 1742 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1931) word
+1744 1742 (S) edget
+() (stod) (v-fin) (IMPF AKT) (stå) (1932) word
+1745 1742 (P) edget
+(advp) () () () () (1933) word
+1746 1742 (As) edget
+() (ude) (adv) (LOC) (ude) (1934) word
+1747 1746 (H) edget
+(pp) () () () () (1935) word
+1748 1746 (DA) edget
+() (på) (prp) (--) (på) (1936) word
+1749 1748 (H) edget
+() (grusgangen) (n) (UTR S DEF NOM) (gru+gang) (1937) word
+1750 1748 (DP) edget
+(pp) () () () () (1938) word
+1751 1742 (fA) edget
+() (med) (prp) (--) (med) (1939) word
+1752 1751 (H) edget
+(np) () () () () (1940) word
+1753 1751 (DP) edget
+() (det) (art) (NEU S DEF) (den) (1941) word
+1754 1753 (DN) edget
+() (mystiske) (adj) (nG S DEF NOM) (mystisk) (1942) word
+1755 1753 (DN) edget
+() (brev) (n) (NEU S IDF NOM) (brev) (1943) word
+1756 1753 (H) edget
+(pp) () () () () (1944) word
+1757 1753 (DNc) edget
+() (i) (prp) (--) (i) (1945) word
+1758 1757 (H) edget
+() (hånden) (n) (UTR S DEF NOM) (hånd) (1946) word
+1759 1757 (DP) edget
+() (fik) (v-fin) (IMPF AKT) (få) (1947) word
+1760 1741 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1948) word
+1761 1741 (S) edget
+(pp) () () () () (1949) word
+1762 1741 (fA) edget
+() (med) (prp) (--) (med) (1950) word
+1763 1762 (H) edget
+() (ét) (num) (NEU S) (én) (1951) word
+1764 1762 (DP) edget
+(np) () () () () (1952) word
+1765 1741 (Od) edget
+() (en) (art) (UTR S IDF) (en) (1953) word
+1766 1765 (DN) edget
+() (underlig) (adj) (UTR S IDF NOM) (underlig) (1954) word
+1767 1765 (DN) edget
+() (fornemmelse) (n) (UTR S IDF NOM) (fornemmelse) (1955) word
+1768 1765 (H) edget
+(s) () () () () (1958) word
+(fcl) () () () () (1959) word
+1770 1769 (STA) edget
+() (Hun) (pron-pers) (UTR 3S NOM) (hun) (1960) word
+1771 1770 (S) edget
+() (følte) (v-fin) (IMPF AKT) (føle) (1961) word
+1772 1770 (P) edget
+() (det) (pron-pers) (NEU 3S ACC) (den) (1962) word
+1773 1770 (Od) edget
+() (omtrent) (adv) (--) (omtrent) (1963) word
+1774 1770 (fA) edget
+(fcl) () () () () (1964) word
+1775 1770 (fA) edget
+() (som_om) (conj-s) (--) (som_om) (1965) word
+1776 1775 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1966) word
+1777 1775 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (1967) word
+1778 1775 (P) edget
+(np) () () () () (1968) word
+1779 1775 (Cs) edget
+() (en) (art) (UTR S IDF) (en) (1969) word
+1780 1779 (DN) edget
+() (dukke) (n) (UTR S IDF NOM) (dukke) (1970) word
+1781 1779 (H) edget
+(fcl) () () () () (1971) word
+1782 1779 (DN) edget
+() (der) (pron-rel) (nG nN NOM) (der) (1972) word
+1783 1782 (S) edget
+(pp) () () () () (1973) word
+1784 1782 (fA) edget
+() (med) (prp) (--) (med) (1974) word
+1785 1784 (H) edget
+(np) () () () () (1975) word
+1786 1784 (DP) edget
+() (et) (art) (NEU S IDF) (en) (1976) word
+1787 1786 (DN) edget
+() (trylleslag) (n) (NEU S IDF NOM) (trylleslag) (1977) word
+1788 1786 (H) edget
+(vp) () () () () (1978) word
+1789 1782 (P) edget
+() (var) (v-fin) (IMPF AKT) (være) (1979) word
+1790 1789 (Vaux) edget
+() (blevet) (v-pcp2) (AKT) (blive) (1980) word
+1791 1789 (Vm) edget
+() (levende) (adj) (nG nN nD NOM) (levende) (1981) word
+1792 1782 (Cs) edget
+(s) () () () () (1984) word
+(x) () () () () (1985) word
+1794 1793 (UTT) edget
+(fcl) () () () () (1986) word
+1795 1794 (QUE) edget
+() (Var) (v-fin) (IMPF AKT) (være) (1987) word
+1796 1795 (P) edget
+() (det) (pron-pers) (NEU 3S NOM) (den) (1988) word
+1797 1795 (Sf) edget
+() (ikke) (adv) (--) (ikke) (1989) word
+1798 1795 (fA) edget
+() (mærkeligt) (adj) (NEU S IDF NOM) (mærkelig) (1990) word
+1799 1795 (Cs) edget
+(par) () () () () (1991) word
+1800 1795 (S) edget
+(fcl) () () () () (1992) word
+1801 1800 (CJT) edget
+() (at) (conj-s) (--) (at) (1993) word
+1802 1801 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (1994) word
+1803 1801 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (1995) word
+1804 1801 (P) edget
+(pp) () () () () (1996) word
+1805 1801 (As) edget
+() (i) (prp) (--) (i) (1997) word
+1806 1805 (H) edget
+() (verden) (n) (UTR S IDF NOM) (verden) (1998) word
+1807 1805 (DP) edget
+(advp) () () () () (1999) word
+1808 1801 (fA) edget
+() (lige) (adv) (--) (lige) (2000) word
+1809 1808 (DA) edget
+(par) () () () () (2001) word
+1810 1808 (H) edget
+() (her) (adv) (--) (her) (2002) word
+1811 1810 (CJT) edget
+() (og) (conj-c) (--) (og) (2003) word
+1812 1810 (CO) edget
+() (nu) (adv) (--) (nu) (2004) word
+1813 1810 (CJT) edget
+() (,) (pu) (--) (--) (2005) word
+(fcl) () () () () (2006) word
+1815 1800 (CJT) edget
+() (at) (conj-s) (--) (at) (2007) word
+1816 1815 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (2008) word
+1817 1815 (S) edget
+(vp) () () () () (2009) word
+1818 1815 (P) edget
+() (kunne) (v-fin) (IMPF AKT) (kunne) (2010) word
+1819 1818 (Vaux) edget
+() (liste) (v-inf) (AKT) (liste-2) (2011) word
+1820 1818 (Vm) edget
+() (omkring) (adv) (--) (omkring) (2012) word
+1821 1815 (Vpart) edget
+(pp) () () () () (2013) word
+1822 1815 (fA) edget
+() (i) (prp) (--) (i) (2014) word
+1823 1822 (H) edget
+(np) () () () () (2015) word
+1824 1822 (DP) edget
+() (sådan) (adv) (--) (sådan) (2016) word
+1825 1824 (DN) edget
+(np) () () () () (2017) word
+1826 1824 (H) edget
+() (et) (art) (NEU S IDF) (en) (2018) word
+1827 1826 (DN) edget
+() (forunderligt) (adj) (NEU S IDF NOM) (forunderlig) (2019) word
+1828 1826 (DN) edget
+() (eventyr) (n) (NEU S IDF NOM) (eventyr) (2020) word
+1829 1826 (H) edget
+() (?) (pu) (--) (--) (2021) word
+() (¶) (pu) (--) (--) (2022) word
+(s) () () () () (2025) word
+(fcl) () () () () (2026) word
+1833 1832 (STA) edget
+() (Sherekan) (prop) (NOM) (Sherekan) (2027) word
+1834 1833 (S) edget
+(par) () () () () (2028) word
+1835 1833 (X) edget
+(x) () () () () (2029) word
+1836 1835 (CJT) edget
+() (sprang) (v-fin) (IMPF AKT) (springe) (2030) word
+1837 1836 (P) edget
+() (let) (adv) (--) (let) (2031) word
+1838 1836 (fA) edget
+(pp) () () () () (2032) word
+1839 1836 (As) edget
+() (over) (prp) (--) (over) (2033) word
+1840 1839 (H) edget
+() (gruset) (n) (NEU S DEF NOM) (grus) (2034) word
+1841 1839 (DP) edget
+() (og) (conj-c) (--) (og) (2035) word
+1842 1835 (CO) edget
+(x) () () () () (2036) word
+1843 1835 (CJT) edget
+() (smuttede) (v-fin) (IMPF AKT) (smutte) (2037) word
+1844 1843 (P) edget
+() (ind) (adv) (--) (ind) (2038) word
+1845 1843 (As) edget
+(pp) () () () () (2039) word
+1846 1843 (fA) edget
+() (mellem) (prp) (--) (mellem) (2040) word
+1847 1846 (H) edget
+(np) () () () () (2041) word
+1848 1846 (DP) edget
+() (nogle) (pron-indef) (nG P NOM) (nogen) (2042) word
+1849 1848 (DN) edget
+() (tætte) (adj) (nG P nD NOM) (tæt) (2043) word
+1850 1848 (DN) edget
+() (ribsbuske) (n) (UTR P IDF NOM) (ribsbusk) (2044) word
+1851 1848 (H) edget
+(s) () () () () (2047) word
+(np) () () () () (2048) word
+1853 1852 (UTT) edget
+() (En) (art) (UTR S IDF) (en) (2049) word
+1854 1853 (DN) edget
+() (levende) (adj) (nG nN nD NOM) (levende) (2050) word
+1855 1853 (DN) edget
+() (kat) (n) (UTR S IDF NOM) (kat) (2051) word
+1856 1853 (H) edget
+(adjp) () () () () (2052) word
+1857 1853 (DNc) edget
+() (lyslevende) (adj) (nG nN IDF NOM) (lyslevende) (2053) word
+1858 1857 (H) edget
+(pp) () () () () (2054) word
+1859 1857 (DA) edget
+() (fra) (prp) (--) (fra) (2055) word
+1860 1859 (H) edget
+(np) () () () () (2056) word
+1861 1859 (DP) edget
+() (de) (art) (nG P DEF) (den) (2057) word
+1862 1861 (DN) edget
+() (hvide) (adj) (nG P nD NOM) (hvid) (2058) word
+1863 1861 (DN) edget
+() (knurhår) (n) (NEU P IDF NOM) (knurhår) (2059) word
+1864 1861 (H) edget
+(pp) () () () () (2060) word
+1865 1857 (DA) edget
+() (til) (prp) (--) (til) (2061) word
+1866 1865 (H) edget
+(np) () () () () (2062) word
+1867 1865 (DP) edget
+() (den) (art) (UTR S DEF) (den) (2063) word
+1868 1867 (DN) edget
+() (daskende) (v-pcp1) (NOM) (daske) (2064) word
+1869 1867 (DN) edget
+() (hale) (n) (UTR S IDF NOM) (hale) (2065) word
+1870 1867 (H) edget
+(advp) () () () () (2066) word
+1871 1867 (DN) edget
+() (helt) (adv) (--) (hel) (2067) word
+1872 1871 (DA) edget
+() (bagest) (adv) (--) (bagest) (2068) word
+1873 1871 (H) edget
+(pp) () () () () (2069) word
+1874 1871 (DA) edget
+() (på) (prp) (--) (på) (2070) word
+1875 1874 (H) edget
+(np) () () () () (2071) word
+1876 1874 (DP) edget
+() (den) (art) (UTR S DEF) (den) (2072) word
+1877 1876 (DN) edget
+() (glatte) (adj) (nG S DEF NOM) (glat) (2073) word
+1878 1876 (DN) edget
+() (krop) (n) (UTR S IDF NOM) (krop) (2074) word
+1879 1876 (H) edget
+(s) () () () () (2077) word
+(par) () () () () (2078) word
+1881 1880 (STA) edget
+(fcl) () () () () (2079) word
+1882 1881 (CJT) edget
+() (Den) (pron-pers) (UTR 3S NOM) (den) (2080) word
+1883 1882 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (2081) word
+1884 1882 (P) edget
+() (også) (adv) (--) (også) (2082) word
+1885 1882 (fA) edget
+(pp) () () () () (2083) word
+1886 1882 (As) edget
+() (i) (prp) (--) (i) (2084) word
+1887 1886 (H) edget
+() (haven) (n) (UTR S DEF NOM) (have) (2085) word
+1888 1886 (DP) edget
+() (men) (conj-c) (--) (men) (2086) word
+1889 1881 (CO) edget
+(fcl) () () () () (2087) word
+1890 1881 (CJT) edget
+() (den) (pron-pers) (UTR 3S NOM) (den) (2088) word
+1891 1890 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (2089) word
+1892 1890 (P) edget
+() (næppe) (adv) (--) (næppe) (2090) word
+1893 1890 (fA) edget
+(adjp) () () () () (2091) word
+1894 1890 (Cs) edget
+() (klar) (adj) (UTR S IDF NOM) (klar) (2092) word
+1895 1894 (H) edget
+(pp) () () () () (2093) word
+1896 1894 (DA) edget
+() (over) (prp) (--) (over) (2094) word
+1897 1896 (H) edget
+() (det) (pron-pers) (NEU 3S ACC) (den) (2095) word
+1898 1896 (DP) edget
+(pp) () () () () (2096) word
+1899 1890 (fA) edget
+() (på) (prp) (--) (på) (2097) word
+1900 1899 (H) edget
+(np) () () () () (2098) word
+1901 1899 (DP) edget
+() (samme) (pron-indef) (nG nN NOM) (samme) (2099) word
+1902 1901 (DN) edget
+() (måde) (n) (UTR S IDF NOM) (måde) (2100) word
+1903 1901 (H) edget
+(pp) () () () () (2101) word
+1904 1901 (DAcom) edget
+() (som) (prp) (--) (som) (2102) word
+1905 1904 (H) edget
+() (Sofie) (prop) (NOM) (Sofie) (2103) word
+1906 1904 (DP) edget
+(s) () () () () (2106) word
+(fcl) () () () () (2107) word
+1908 1907 (STA) edget
+(fcl) () () () () (2108) word
+1909 1908 (fA) edget
+() (Efterhånden_som) (conj-s) (--) (efterhånden_som) (2109) word
+1910 1909 (SUB) edget
+() (Sofie) (prop) (NOM) (Sofie) (2110) word
+1911 1909 (S) edget
+() (tænkte) (v-fin) (IMPF AKT) (tænke) (2111) word
+1912 1909 (P) edget
+(pp) () () () () (2112) word
+1913 1909 (Op) edget
+() (over) (prp) (--) (over) (2113) word
+1914 1913 (H) edget
+(fcl) () () () () (2114) word
+1915 1913 (DP) edget
+() (at) (conj-s) (--) (at) (2115) word
+1916 1915 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (2116) word
+1917 1915 (S) edget
+() (var) (v-fin) (IMPF AKT) (være) (2117) word
+1918 1915 (P) edget
+() (til) (adv) (--) (til) (2118) word
+1919 1915 (Vpart) edget
+() (kom) (v-fin) (IMPF AKT) (komme) (2119) word
+1920 1908 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (2120) word
+1921 1908 (S) edget
+(pp) () () () () (2121) word
+1922 1908 (As) edget
+() (også) (adv) (--) (også) (2122) word
+1923 1922 (Dfoc) edget
+() (i) (prp) (--) (i) (2123) word
+1924 1922 (H) edget
+(np) () () () () (2124) word
+1925 1922 (DP) edget
+() (tanke) (n) (UTR S IDF NOM) (tanke) (2125) word
+1926 1925 (H) edget
+(pp) () () () () (2126) word
+1927 1925 (DN) edget
+() (om) (prp) (--) (om) (2127) word
+1928 1927 (H) edget
+(fcl) () () () () (2128) word
+1929 1927 (DP) edget
+() (at) (conj-s) (--) (at) (2129) word
+1930 1929 (SUB) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (2130) word
+1931 1929 (S) edget
+() (ikke) (adv) (--) (ikke) (2131) word
+1932 1929 (fA) edget
+(vp) () () () () (2132) word
+1933 1929 (P) edget
+() (skulle) (v-fin) (IMPF AKT) (skulle) (2133) word
+1934 1933 (Vaux) edget
+() (være) (v-inf) (AKT) (være) (2134) word
+1935 1933 (Vm) edget
+() (her) (adv) (--) (her) (2135) word
+1936 1929 (As) edget
+() (altid) (adv) (--) (altid) (2136) word
+1937 1929 (fA) edget
+(s) () () () () (2139) word
+(fcl) () () () () (2140) word
+1939 1938 (STA) edget
+(fcl) () () () () (2141) word
+1940 1939 (Od) edget
+() (Jeg) (pron-pers) (--) (jeg) (2142) word
+1941 1940 (S) edget
+() (er) (v-fin) (PR AKT) (være) (2143) word
+1942 1940 (P) edget
+(pp) () () () () (2144) word
+1943 1940 (As) edget
+() (i) (prp) (--) (i) (2145) word
+1944 1943 (H) edget
+() (verden) (n) (UTR S IDF NOM) (verden) (2146) word
+1945 1943 (DP) edget
+() (nu) (adv) (--) (nu) (2147) word
+1946 1940 (fA) edget
+() (tænkte) (v-fin) (IMPF AKT) (tænke) (2148) word
+1947 1939 (P) edget
+() (hun) (pron-pers) (UTR 3S NOM) (hun) (2149) word
+1948 1939 (S) edget
+(s) () () () () (2152) word
+(fcl) () () () () (2153) word
+1950 1949 (STA) edget
+() (Men) (conj-c) (--) (men) (2154) word
+1951 1950 (CO) edget
+(np) () () () () (2155) word
+1952 1950 (fA) edget
+() (en) (art) (UTR S IDF) (en) (2156) word
+1953 1952 (DN) edget
+() (dag) (n) (UTR S IDF NOM) (dag) (2157) word
+1954 1952 (H) edget
+() (er) (v-fin) (PR AKT) (være) (2158) word
+1955 1950 (P) edget
+() (jeg) (pron-pers) (--) (jeg) (2159) word
+1956 1950 (S) edget
+() (væk) (adv) (--) (væk) (2160) word
+1957 1950 (As) edget
+
+%% 3. DGgraph trailer
+
+draw end 
+

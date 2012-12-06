@@ -1,0 +1,1743 @@
+<s id="sofie-da0">
+<W _input="EDENS" in="" out="1:possd">EDENS</W>
+<W _input="HAVE" in="-1:possd" out="">HAVE</W>
+</s>
+<p>
+<it>
+<s id="sofie-da1">
+<W _input="..." in="5:pnct" out="">...</W>
+<W _input="til" in="4:mod" out="1:aobj">til</W>
+<W _input="syvende" in="-1:aobj" out="1:coord">syvende</W>
+<W _input="og" in="-1:coord" out="1:conj">og</W>
+<W _input="sidst" in="-1:conj" out="">sidst</W>
+<W _input="måtte" in="" out="-4:mod|-5:pnct|1:subj|4:mod|5:vobj|11:pnct">måtte</W>
+<W _input="et" in="-1:subj|4:[subj]|5:[subj]" out="1:coord">et</W>
+<W _input="eller" in="-1:coord" out="1:conj">eller</W>
+<W _input="andet" in="-1:conj" out="">andet</W>
+<W _input="engang" in="-4:mod" out="">engang</W>
+<W _input="være" in="-5:vobj" out="-4:[subj]|1:vobj">være</W>
+<W _input="opstået" in="-1:vobj" out="-5:[subj]|1:pobj">opstået</W>
+<W _input="af" in="-1:pobj" out="1:nobj">af</W>
+<W _input="nul" in="-1:nobj" out="1:coord">nul</W>
+<W _input="og" in="-1:coord" out="1:conj">og</W>
+<W _input="niks" in="-1:conj" out="">niks</W>
+<W _input="..." in="-11:pnct" out="">...</W>
+</s>
+</it>
+<p>
+<s id="sofie-da2">
+<W _input="Sofie" in="1:namef" out="">Sofie</W>
+<W _input="Amundsen" in="1:subj" out="-1:namef">Amundsen</W>
+<W _input="var" in="" out="-1:subj|1:pred|6:pnct">var</W>
+<W _input="på" in="-1:pred" out="1:nobj|3:mod">på</W>
+<W _input="vej" in="-1:nobj" out="1:lobj">vej</W>
+<W _input="hjem" in="-1:lobj" out="">hjem</W>
+<W _input="fra" in="-3:mod" out="1:nobj">fra</W>
+<W _input="skole" in="-1:nobj" out="">skole</W>
+<W _input="." in="-6:pnct" out="">.</W>
+</s>
+<s id="sofie-da3">
+<W _input="Det" in="3:mod" out="1:mod|2:nobj">Det</W>
+<W _input="første" in="-1:mod" out="">første</W>
+<W _input="stykke" in="-2:nobj" out="">stykke</W>
+<W _input="fulgtes" in="" out="-3:mod|1:subj|2:pobj|4:pnct">fulgtes</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="med" in="-2:pobj" out="1:nobj">med</W>
+<W _input="Jorunn" in="-1:nobj" out="">Jorunn</W>
+<W _input="." in="-4:pnct" out="">.</W>
+</s>
+<s id="sofie-da4">
+<W _input="De" in="1:subj|2:[subj]" out="">De</W>
+<W _input="havde" in="" out="-1:subj|1:vobj|4:pnct">havde</W>
+<W _input="talt" in="-1:vobj" out="-2:[subj]|1:pobj">talt</W>
+<W _input="om" in="-1:pobj" out="1:nobj">om</W>
+<W _input="robotter" in="-1:nobj" out="">robotter</W>
+<W _input="." in="-4:pnct" out="">.</W>
+</s>
+<s id="sofie-da5">
+<W _input="Jorunn" in="1:subj|2:[subj]" out="">Jorunn</W>
+<W _input="havde" in="" out="-1:subj|1:vobj|11:pnct">havde</W>
+<W _input="ment" in="-1:vobj" out="-2:[subj]|1:pnct|2:dobj">ment</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="at" in="-2:dobj" out="3:vobj">at</W>
+<W _input="menneskets" in="2:subj" out="1:possd">menneskets</W>
+<W _input="hjerne" in="-1:possd" out="">hjerne</W>
+<W _input="var" in="-3:vobj" out="-2:subj|1:pred">var</W>
+<W _input="som" in="-1:pred" out="1:nobj">som</W>
+<W _input="en" in="-1:nobj" out="1:mod|2:nobj">en</W>
+<W _input="kompliceret" in="-1:mod" out="">kompliceret</W>
+<W _input="computer" in="-2:nobj" out="">computer</W>
+<W _input="." in="-11:pnct" out="">.</W>
+</s>
+<s id="sofie-da6">
+<W _input="Sofie" in="1:subj" out="">Sofie</W>
+<W _input="var" in="" out="-1:subj|1:mod|3:pred|10:pnct">var</W>
+<W _input="ikke" in="-1:mod" out="">ikke</W>
+<W _input="helt" in="1:mod" out="">helt</W>
+<W _input="sikker" in="-3:pred" out="-1:mod|1:pobj">sikker</W>
+<W _input="på" in="-1:pobj" out="1:pnct|2:nobj">på</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="om" in="-2:nobj" out="2:vobj">om</W>
+<W _input="hun" in="1:subj" out="">hun</W>
+<W _input="var" in="-2:vobj" out="-1:subj|1:pred">var</W>
+<W _input="enig" in="-1:pred" out="">enig</W>
+<W _input="." in="-10:pnct" out="">.</W>
+</s>
+<s id="sofie-da7">
+<W _input="Et" in="2:subj|4:[subj]" out="1:nobj">Et</W>
+<W _input="menneske" in="-1:nobj" out="">menneske</W>
+<W _input="måtte" in="" out="-2:subj|1:mod|2:vobj|7:pnct">måtte</W>
+<W _input="da" in="-1:mod" out="">da</W>
+<W _input="være" in="-2:vobj" out="-4:[subj]|1:pred">være</W>
+<W _input="mere" in="-1:pred" out="1:pobj">mere</W>
+<W _input="end" in="-1:pobj" out="1:nobj">end</W>
+<W _input="en" in="-1:nobj" out="1:nobj">en</W>
+<W _input="maskine" in="-1:nobj" out="">maskine</W>
+<W _input="?" in="-7:pnct" out="">?</W>
+</s>
+<nl>
+<s id="sofie-da8">
+<W _input="Ved" in="4:mod" out="1:nobj">Ved</W>
+<W _input="det" in="-1:nobj" out="1:mod|2:nobj">det</W>
+<W _input="store" in="-1:mod" out="">store</W>
+<W _input="indkøbscenter" in="-2:nobj" out="">indkøbscenter</W>
+<W _input="var" in="" out="-4:mod|1:subj|2:vobj|6:pnct">var</W>
+<W _input="de" in="-1:subj|1:[subj]" out="">de</W>
+<W _input="gået" in="-2:vobj" out="-1:[subj]|2:lobj">gået</W>
+<W _input="hver" in="1:avobj" out="">hver</W>
+<W _input="til" in="-2:lobj" out="-1:avobj|1:nobj">til</W>
+<W _input="sit" in="-1:nobj" out="">sit</W>
+<W _input="." in="-6:pnct" out="">.</W>
+</s>
+<s id="sofie-da9">
+<W _input="Sofie" in="1:subj|9:[subj]" out="">Sofie</W>
+<W _input="boede" in="" out="-1:subj|1:lobj|7:coord|16:pnct">boede</W>
+<W _input="for" in="-1:lobj" out="1:nobj">for</W>
+<W _input="enden" in="-1:nobj" out="1:pobj">enden</W>
+<W _input="af" in="-1:pobj" out="1:nobj">af</W>
+<W _input="et" in="-1:nobj" out="1:mod|2:nobj">et</W>
+<W _input="vidtstrakt" in="-1:mod" out="">vidtstrakt</W>
+<W _input="parcelhuskvarter" in="-2:nobj" out="">parcelhuskvarter</W>
+<W _input="og" in="-7:coord" out="1:conj">og</W>
+<W _input="havde" in="-1:conj" out="-9:[subj]|5:dobj">havde</W>
+<W _input="næsten" in="1:mod" out="">næsten</W>
+<W _input="dobbelt" in="1:mod" out="-1:mod">dobbelt</W>
+<W _input="så" in="1:mod" out="-1:mod|3:pobj">så</W>
+<W _input="lang" in="1:mod" out="-1:mod">lang</W>
+<W _input="skolevej" in="-5:dobj" out="-1:mod">skolevej</W>
+<W _input="som" in="-3:pobj" out="1:nobj">som</W>
+<W _input="Jorunn" in="-1:nobj" out="">Jorunn</W>
+<W _input="." in="-16:pnct" out="">.</W>
+</s>
+<s id="sofie-da10">
+<W _input="Det" in="1:subj" out="">Det</W>
+<W _input="var" in="" out="-1:subj|1:pred|8:pnct|9:mod|19:pnct">var</W>
+<W _input="som" in="-1:pred" out="1:nobj">som</W>
+<W _input="om" in="-1:nobj" out="2:vobj">om</W>
+<W _input="huset" in="1:subj" out="">huset</W>
+<W _input="lå" in="-2:vobj" out="-1:subj|1:mod">lå</W>
+<W _input="ved" in="-1:mod" out="1:nobj">ved</W>
+<W _input="verdens" in="-1:nobj" out="1:possd">verdens</W>
+<W _input="ende" in="-1:possd" out="">ende</W>
+<W _input="," in="-8:pnct" out="">,</W>
+<W _input="for" in="-9:mod" out="5:vobj">for</W>
+<W _input="bag" in="4:mod" out="1:pobj">bag</W>
+<W _input="ved" in="-1:pobj" out="1:nobj">ved</W>
+<W _input="hendes" in="-1:nobj" out="1:possd">hendes</W>
+<W _input="have" in="-1:possd" out="">have</W>
+<W _input="var" in="-5:vobj" out="-4:mod|1:expl|2:dobj">var</W>
+<W _input="der" in="-1:expl" out="">der</W>
+<W _input="ingen" in="-2:dobj" out="1:nobj">ingen</W>
+<W _input="andre" in="-1:nobj" out="1:nobj">andre</W>
+<W _input="huse" in="-1:nobj" out="">huse</W>
+<W _input="." in="-19:pnct" out="">.</W>
+</s>
+<s id="sofie-da11">
+<W _input="Her" in="1:mod" out="">Her</W>
+<W _input="begyndte" in="" out="-1:mod|1:subj|4:pnct">begyndte</W>
+<W _input="den" in="-1:subj" out="1:mod|2:nobj">den</W>
+<W _input="dybe" in="-1:mod" out="">dybe</W>
+<W _input="skov" in="-2:nobj" out="">skov</W>
+<W _input="." in="-4:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da12">
+<W _input="Nu" in="1:mod" out="">Nu</W>
+<W _input="drejede" in="" out="-1:mod|1:subj|2:lobj|5:pnct">drejede</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="ind" in="-2:lobj" out="1:mod">ind</W>
+<W _input="på" in="-1:mod" out="1:nobj">på</W>
+<W _input="Kløvervejen" in="-1:nobj" out="">Kløvervejen</W>
+<W _input="." in="-5:pnct" out="">.</W>
+</s>
+<s id="sofie-da13">
+<W _input="Helt" in="1:mod" out="">Helt</W>
+<W _input="inderst" in="1:mod" out="-1:mod">inderst</W>
+<W _input="slog" in="" out="-1:mod|1:subj|2:dobj|12:pnct">slog</W>
+<W _input="vejen" in="-1:subj" out="">vejen</W>
+<W _input="et" in="-2:dobj" out="1:mod|2:nobj|3:pnct|6:rel|4:ref">et</W>
+<W _input="brat" in="-1:mod" out="">brat</W>
+<W _input="sving" in="-2:nobj" out="">sving</W>
+<W _input="," in="-3:pnct" out="">,</W>
+<W _input="der" in="2:subj|-4:ref" out="">der</W>
+<W _input="gerne" in="1:mod" out="">gerne</W>
+<W _input="kaldtes" in="-6:rel" out="-1:mod|-2:subj|2:qobj">kaldtes</W>
+<W _input="»" in="1:pnct" out="">»</W>
+<W _input="Kaptajnsvinget" in="-2:qobj" out="-1:pnct|1:pnct">Kaptajnsvinget</W>
+<W _input="«" in="-1:pnct" out="">«</W>
+<W _input="." in="-12:pnct" out="">.</W>
+</s>
+<s id="sofie-da14">
+<W _input="Det" in="1:subj" out="9:nobj">Det</W>
+<W _input="var" in="" out="-1:subj|3:pred|2:mod|7:pnct">var</W>
+<W _input="næsten" in="1:mod" out="">næsten</W>
+<W _input="kun" in="-2:mod" out="-1:mod">kun</W>
+<W _input="om" in="-3:pred" out="1:nobj">om</W>
+<W _input="lørdagen" in="-1:nobj" out="1:coord">lørdagen</W>
+<W _input="og" in="-1:coord" out="1:conj">og</W>
+<W _input="søndagen" in="-1:conj" out="">søndagen</W>
+<W _input="," in="-7:pnct" out="">,</W>
+<W _input="at" in="-9:nobj" out="2:vobj">at</W>
+<W _input="der" in="1:expl" out="">der</W>
+<W _input="kom" in="-2:vobj" out="-1:expl|1:dobj|3:mod|4:pnct">kom</W>
+<W _input="andre" in="-1:dobj" out="1:nobj">andre</W>
+<W _input="mennesker" in="-1:nobj" out="">mennesker</W>
+<W _input="her" in="-3:mod" out="">her</W>
+<W _input="." in="-4:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da15">
+<W _input="Det" in="1:subj" out="">Det</W>
+<W _input="var" in="" out="-1:subj|1:pred|8:pnct">var</W>
+<W _input="en" in="-1:pred" out="1:pobj">en</W>
+<W _input="af" in="-1:pobj" out="1:nobj">af</W>
+<W _input="de" in="-1:nobj" out="1:mod|2:nobj|3:mod">de</W>
+<W _input="første" in="-1:mod" out="">første</W>
+<W _input="dage" in="-2:nobj" out="">dage</W>
+<W _input="i" in="-3:mod" out="1:nobj">i</W>
+<W _input="maj" in="-1:nobj" out="">maj</W>
+<W _input="." in="-8:pnct" out="">.</W>
+</s>
+<s id="sofie-da16">
+<W _input="I" in="4:mod" out="1:nobj">I</W>
+<W _input="nogle" in="-1:nobj" out="1:pobj">nogle</W>
+<W _input="af" in="-1:pobj" out="1:nobj">af</W>
+<W _input="haverne" in="-1:nobj" out="">haverne</W>
+<W _input="stod" in="" out="-4:mod|1:expl|3:dobj|6:mod|8:pnct">stod</W>
+<W _input="der" in="-1:expl" out="">der</W>
+<W _input="tætte" in="1:mod" out="">tætte</W>
+<W _input="kranse" in="-3:dobj" out="-1:mod|1:pobj">kranse</W>
+<W _input="af" in="-1:pobj" out="1:nobj">af</W>
+<W _input="påskeliljer" in="-1:nobj" out="">påskeliljer</W>
+<W _input="under" in="-6:mod" out="1:nobj">under</W>
+<W _input="frugttræerne" in="-1:nobj" out="">frugttræerne</W>
+<W _input="." in="-8:pnct" out="">.</W>
+</s>
+<s id="sofie-da17">
+<W _input="Birkene" in="1:subj" out="">Birkene</W>
+<W _input="stod" in="" out="-1:subj|1:mod|2:mod|6:pnct">stod</W>
+<W _input="allerede" in="-1:mod" out="">allerede</W>
+<W _input="med" in="-2:mod" out="3:nobj">med</W>
+<W _input="spæde" in="2:mod" out="">spæde</W>
+<W _input="grønne" in="1:mod" out="">grønne</W>
+<W _input="blade" in="-3:nobj" out="-2:mod|-1:mod">blade</W>
+<W _input="." in="-6:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da18">
+<W _input="Var" in="" out="1:subj|2:mod|3:pred|4:pnct|14:pnct">Var</W>
+<W _input="det" in="-1:subj" out="4:nobj">det</W>
+<W _input="ikke" in="-2:mod" out="">ikke</W>
+<W _input="mærkeligt" in="-3:pred" out="">mærkeligt</W>
+<W _input="," in="-4:pnct" out="">,</W>
+<W _input="hvordan" in="-4:nobj|3:[mod]" out="3:rel">hvordan</W>
+<W _input="alt" in="2:subj|4:[subj]" out="">alt</W>
+<W _input="bare" in="1:mod" out="">bare</W>
+<W _input="begyndte" in="-3:rel" out="-2:subj|-1:mod|1:dobj|-3:[mod]|3:mod">begyndte</W>
+<W _input="at" in="-1:dobj" out="1:vobj">at</W>
+<W _input="gro" in="-1:vobj" out="-4:[subj]">gro</W>
+<W _input="på" in="-3:mod" out="1:nobj">på</W>
+<W _input="denne" in="-1:nobj" out="1:nobj">denne</W>
+<W _input="årstid" in="-1:nobj" out="">årstid</W>
+<W _input="?" in="-14:pnct" out="">?</W>
+</s>
+<s id="sofie-da19">
+<W _input="Hvad" in="1:pred" out="">Hvad</W>
+<W _input="var" in="" out="-1:pred|1:subj|38:pnct">var</W>
+<W _input="det" in="-1:subj" out="1:ref|2:rel">det</W>
+<W _input="der" in="1:subj|-1:ref" out="">der</W>
+<W _input="gjorde" in="-2:rel" out="-1:subj|2:dobj|1:pnct">gjorde</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="at" in="-2:dobj" out="8:vobj">at</W>
+<W _input="kilo" in="7:subj|8:[subj]" out="1:mod|3:mod">kilo</W>
+<W _input="efter" in="-1:mod" out="1:nobj">efter</W>
+<W _input="kilo" in="-1:nobj" out="">kilo</W>
+<W _input="af" in="-3:mod" out="1:nobj">af</W>
+<W _input="det" in="-1:nobj" out="1:mod|2:nobj">det</W>
+<W _input="grønne" in="-1:mod" out="">grønne</W>
+<W _input="plantestof" in="-2:nobj" out="">plantestof</W>
+<W _input="kunne" in="-8:vobj" out="-7:subj|1:vobj|10:mod|7:pnct">kunne</W>
+<W _input="vælte" in="-1:vobj" out="-8:[subj]|1:lobj">vælte</W>
+<W _input="frem" in="-1:lobj" out="1:mod">frem</W>
+<W _input="fra" in="-1:mod" out="1:nobj">fra</W>
+<W _input="den" in="-1:nobj" out="1:mod|2:nobj">den</W>
+<W _input="livløse" in="-1:mod" out="">livløse</W>
+<W _input="jord" in="-2:nobj" out="">jord</W>
+<W _input="," in="-7:pnct" out="">,</W>
+<W _input="lige" in="1:mod" out="">lige</W>
+<W _input="så" in="1:mod" out="-1:mod">så</W>
+<W _input="snart" in="2:[mod]|-10:mod" out="-1:mod|2:rel">snart</W>
+<W _input="det" in="1:subj" out="">det</W>
+<W _input="blev" in="-2:rel" out="-1:subj|1:pred|-2:[mod]|5:coord">blev</W>
+<W _input="varmt" in="-1:pred" out="1:mod|2:mod">varmt</W>
+<W _input="nok" in="-1:mod" out="">nok</W>
+<W _input="i" in="-2:mod" out="1:nobj">i</W>
+<W _input="vejret" in="-1:nobj" out="">vejret</W>
+<W _input="og" in="-5:coord" out="6:conj">og</W>
+<W _input="de" in="5:subj" out="1:mod|2:nobj">de</W>
+<W _input="sidste" in="-1:mod" out="">sidste</W>
+<W _input="rester" in="-2:nobj" out="1:pobj">rester</W>
+<W _input="af" in="-1:pobj" out="1:nobj">af</W>
+<W _input="sne" in="-1:nobj" out="">sne</W>
+<W _input="var" in="-6:conj" out="-5:subj|1:pred">var</W>
+<W _input="væk" in="-1:pred" out="">væk</W>
+<W _input="?" in="-38:pnct" out="">?</W>
+</s>
+<nl>
+<s id="sofie-da20">
+<W _input="Sofie" in="1:subj" out="">Sofie</W>
+<W _input="kikkede" in="" out="-1:subj|1:lobj|3:pnct|4:mod|13:pnct">kikkede</W>
+<W _input="i" in="-1:lobj" out="1:nobj">i</W>
+<W _input="postkassen" in="-1:nobj" out="">postkassen</W>
+<W _input="," in="-3:pnct" out="">,</W>
+<W _input="da" in="-4:mod" out="2:vobj">da</W>
+<W _input="hun" in="1:subj" out="">hun</W>
+<W _input="åbnede" in="-2:vobj" out="-1:subj|1:dobj">åbnede</W>
+<W _input="lågen" in="-1:dobj" out="1:mod">lågen</W>
+<W _input="ind" in="-1:mod" out="1:mod">ind</W>
+<W _input="til" in="-1:mod" out="1:nobj">til</W>
+<W _input="sin" in="-1:nobj" out="1:mod|2:possd">sin</W>
+<W _input="egen" in="-1:mod" out="">egen</W>
+<W _input="have" in="-2:possd" out="">have</W>
+<W _input="." in="-13:pnct" out="">.</W>
+</s>
+<s id="sofie-da21">
+<W _input="Som" in="2:mod" out="1:nobj">Som</W>
+<W _input="regel" in="-1:nobj" out="">regel</W>
+<W _input="var" in="" out="-2:mod|1:expl|2:dobj|9:mod|11:pnct">var</W>
+<W _input="der" in="-1:expl" out="">der</W>
+<W _input="en" in="-2:dobj" out="1:nobj|3:coord">en</W>
+<W _input="masse" in="-1:nobj" out="1:nobj">masse</W>
+<W _input="reklamer" in="-1:nobj" out="">reklamer</W>
+<W _input="plus" in="-3:coord" out="1:conj">plus</W>
+<W _input="nogle" in="-1:conj" out="1:mod|2:nobj">nogle</W>
+<W _input="store" in="-1:mod" out="">store</W>
+<W _input="konvolutter" in="-2:nobj" out="">konvolutter</W>
+<W _input="til" in="-9:mod" out="1:nobj">til</W>
+<W _input="moren" in="-1:nobj" out="">moren</W>
+<W _input="." in="-11:pnct" out="">.</W>
+</s>
+<s id="sofie-da22">
+<W _input="Hun" in="1:subj|3:[subj]" out="">Hun</W>
+<W _input="plejede" in="" out="-1:subj|1:dobj|21:pnct">plejede</W>
+<W _input="at" in="-1:dobj" out="1:vobj">at</W>
+<W _input="lægge" in="-1:vobj" out="1:dobj|-3:[subj]|4:lobj|6:pnct|7:mod">lægge</W>
+<W _input="en" in="-1:dobj" out="1:mod|2:nobj">en</W>
+<W _input="tyk" in="-1:mod" out="">tyk</W>
+<W _input="stak" in="-2:nobj" out="">stak</W>
+<W _input="på" in="-4:lobj" out="1:nobj">på</W>
+<W _input="køkkenbordet" in="-1:nobj" out="">køkkenbordet</W>
+<W _input="," in="-6:pnct" out="">,</W>
+<W _input="inden" in="-7:mod" out="2:vobj">inden</W>
+<W _input="hun" in="1:subj|7:[subj]" out="">hun</W>
+<W _input="gik" in="-2:vobj" out="-1:subj|1:lobj|5:coord">gik</W>
+<W _input="op" in="-1:lobj" out="1:mod">op</W>
+<W _input="på" in="-1:mod" out="1:nobj">på</W>
+<W _input="sit" in="-1:nobj" out="1:possd">sit</W>
+<W _input="værelse" in="-1:possd" out="">værelse</W>
+<W _input="og" in="-5:coord" out="1:conj">og</W>
+<W _input="begyndte" in="-1:conj" out="-7:[subj]|1:pobj">begyndte</W>
+<W _input="på" in="-1:pobj" out="1:nobj">på</W>
+<W _input="sine" in="-1:nobj" out="1:possd">sine</W>
+<W _input="lektier" in="-1:possd" out="">lektier</W>
+<W _input="." in="-21:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da23">
+<W _input="Til" in="2:mod" out="1:nobj">Til</W>
+<W _input="faren" in="-1:nobj" out="">faren</W>
+<W _input="kom" in="" out="-2:mod|1:expl|2:mod|3:dobj|5:mod|9:coord|8:pnct|19:pnct">kom</W>
+<W _input="der" in="-1:expl" out="">der</W>
+<W _input="kun" in="-2:mod" out="">kun</W>
+<W _input="nogle" in="-3:dobj" out="1:nobj">nogle</W>
+<W _input="bankbreve" in="-1:nobj" out="">bankbreve</W>
+<W _input="en" in="-5:mod" out="1:nobj">en</W>
+<W _input="gang" in="-1:nobj" out="1:mod">gang</W>
+<W _input="imellem" in="-1:mod" out="">imellem</W>
+<W _input="," in="-8:pnct" out="">,</W>
+<W _input="men" in="-9:coord" out="2:conj">men</W>
+<W _input="nu" in="1:mod" out="">nu</W>
+<W _input="var" in="-2:conj" out="-1:mod|1:subj|3:mod|4:pred">var</W>
+<W _input="han" in="-1:subj" out="">han</W>
+<W _input="heller" in="1:mod" out="">heller</W>
+<W _input="ikke" in="-3:mod" out="-1:mod">ikke</W>
+<W _input="nogen" in="-4:pred" out="2:mod|3:nobj">nogen</W>
+<W _input="helt" in="1:mod" out="">helt</W>
+<W _input="almindelig" in="-2:mod" out="-1:mod">almindelig</W>
+<W _input="far" in="-3:nobj" out="">far</W>
+<W _input="." in="-19:pnct" out="">.</W>
+</s>
+<s id="sofie-da24">
+<W _input="Sofies" in="2:subj|9:[subj]|10:[subj]" out="1:possd">Sofies</W>
+<W _input="far" in="-1:possd" out="">far</W>
+<W _input="var" in="" out="-2:subj|1:pred|6:coord|13:pnct">var</W>
+<W _input="kaptajn" in="-1:pred" out="1:pobj">kaptajn</W>
+<W _input="på" in="-1:pobj" out="1:nobj">på</W>
+<W _input="en" in="-1:nobj" out="1:mod|2:nobj">en</W>
+<W _input="stor" in="-1:mod" out="">stor</W>
+<W _input="tankbåd" in="-2:nobj" out="">tankbåd</W>
+<W _input="og" in="-6:coord" out="1:conj">og</W>
+<W _input="var" in="-1:conj" out="-9:[subj]|1:vobj|2:mod">var</W>
+<W _input="bortrejst" in="-1:vobj" out="-10:[subj]">bortrejst</W>
+<W _input="det" in="-2:mod" out="1:nobj">det</W>
+<W _input="meste" in="-1:nobj" out="1:pobj">meste</W>
+<W _input="af" in="-1:pobj" out="1:nobj">af</W>
+<W _input="året" in="-1:nobj" out="">året</W>
+<W _input="." in="-13:pnct" out="">.</W>
+</s>
+<s id="sofie-da25">
+<W _input="Når" in="9:mod" out="2:vobj">Når</W>
+<W _input="han" in="1:subj" out="">han</W>
+<W _input="var" in="-2:vobj" out="-1:subj|1:pred|2:mod|6:pnct">var</W>
+<W _input="hjemme" in="-1:pred" out="">hjemme</W>
+<W _input="nogle" in="-2:mod" out="1:nobj|2:mod">nogle</W>
+<W _input="uger" in="-1:nobj" out="">uger</W>
+<W _input="ad" in="-2:mod" out="1:nobj">ad</W>
+<W _input="gangen" in="-1:nobj" out="">gangen</W>
+<W _input="," in="-6:pnct" out="">,</W>
+<W _input="tøflede" in="" out="-9:mod|1:subj|2:lobj|5:coord|11:pnct">tøflede</W>
+<W _input="han" in="-1:subj|5:[subj]" out="">han</W>
+<W _input="omkring" in="-2:lobj" out="1:mod">omkring</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="huset" in="-1:nobj" out="">huset</W>
+<W _input="og" in="-5:coord" out="1:conj">og</W>
+<W _input="hyggede" in="-1:conj" out="-5:[subj]|1:pobj">hyggede</W>
+<W _input="om" in="-1:pobj" out="1:nobj">om</W>
+<W _input="Sofie" in="-1:nobj" out="1:coord">Sofie</W>
+<W _input="og" in="-1:coord" out="1:conj">og</W>
+<W _input="moren" in="-1:conj" out="">moren</W>
+<W _input="." in="-11:pnct" out="">.</W>
+</s>
+<s id="sofie-da26">
+<W _input="Men" in="" out="8:conj">Men</W>
+<W _input="når" in="7:mod" out="2:vobj">når</W>
+<W _input="han" in="1:subj" out="">han</W>
+<W _input="var" in="-2:vobj" out="-1:subj|1:pred|4:pnct">var</W>
+<W _input="ude" in="-1:pred" out="1:nobj">ude</W>
+<W _input="at" in="-1:nobj" out="1:vobj">at</W>
+<W _input="sejle" in="-1:vobj" out="">sejle</W>
+<W _input="," in="-4:pnct" out="">,</W>
+<W _input="kunne" in="-8:conj" out="-7:mod|1:subj|2:mod|3:vobj|6:pnct">kunne</W>
+<W _input="han" in="-1:subj|2:[subj]" out="">han</W>
+<W _input="godt" in="-2:mod" out="">godt</W>
+<W _input="forekomme" in="-3:vobj" out="-2:[subj]|2:pred">forekomme</W>
+<W _input="temmelig" in="1:mod" out="">temmelig</W>
+<W _input="fjern" in="-2:pred" out="-1:mod">fjern</W>
+<W _input="." in="-6:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da27">
+<W _input="I" in="2:mod" out="1:nobj">I</W>
+<W _input="dag" in="-1:nobj" out="">dag</W>
+<W _input="var" in="" out="-2:mod|1:expl|2:mod|3:dobj|6:mod|9:coord|8:pnct|14:pnct">var</W>
+<W _input="der" in="-1:expl" out="">der</W>
+<W _input="kun" in="-2:mod" out="">kun</W>
+<W _input="et" in="-3:dobj" out="1:mod|2:nobj">et</W>
+<W _input="lille" in="-1:mod" out="">lille</W>
+<W _input="brev" in="-2:nobj" out="">brev</W>
+<W _input="i" in="-6:mod" out="1:nobj">i</W>
+<W _input="postkassen" in="-1:nobj" out="">postkassen</W>
+<W _input="-" in="-8:pnct" out="">-</W>
+<W _input="og" in="-9:coord" out="2:conj">og</W>
+<W _input="det" in="1:subj" out="">det</W>
+<W _input="var" in="-2:conj" out="-1:subj|1:pred">var</W>
+<W _input="til" in="-1:pred" out="1:nobj">til</W>
+<W _input="Sofie" in="-1:nobj" out="">Sofie</W>
+<W _input="." in="-14:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da28">
+<W _input="»" in="2:pnct" out="">»</W>
+<W _input="Sofie" in="1:namef" out="">Sofie</W>
+<W _input="Amundsen" in="2:dobj" out="-1:namef|-2:pnct|1:pnct">Amundsen</W>
+<W _input="«" in="-1:pnct" out="">«</W>
+<W _input="stod" in="" out="-2:dobj|1:expl|2:mod|6:pnct">stod</W>
+<W _input="der" in="-1:expl" out="">der</W>
+<W _input="på" in="-2:mod" out="1:nobj">på</W>
+<W _input="den" in="-1:nobj" out="1:mod|2:nobj">den</W>
+<W _input="lille" in="-1:mod" out="">lille</W>
+<W _input="konvolut" in="-2:nobj" out="">konvolut</W>
+<W _input="." in="-6:pnct" out="">.</W>
+</s>
+<s id="sofie-da29">
+<W _input="»" in="1:pnct" out="">»</W>
+<W _input="Kløvervejen" in="" out="-1:pnct|1:name|2:pnct|3:pnct">Kløvervejen</W>
+<W _input="3" in="-1:name" out="">3</W>
+<W _input="«" in="-2:pnct" out="">«</W>
+<W _input="." in="-3:pnct" out="">.</W>
+</s>
+<s id="sofie-da30">
+<W _input="Det" in="1:subj" out="">Det</W>
+<W _input="var" in="" out="-1:subj|1:pred|4:conj|2:pnct|10:pnct">var</W>
+<W _input="alt" in="-1:pred" out="">alt</W>
+<W _input="," in="-2:pnct" out="">,</W>
+<W _input="der" in="1:expl" out="">der</W>
+<W _input="stod" in="-4:conj" out="-1:expl|1:mod|2:dobj">stod</W>
+<W _input="ikke" in="-1:mod" out="">ikke</W>
+<W _input="hvem" in="-2:dobj|3:[nobj]" out="2:rel">hvem</W>
+<W _input="brevet" in="1:subj" out="">brevet</W>
+<W _input="var" in="-2:rel" out="-1:subj|1:pred">var</W>
+<W _input="fra" in="-1:pred" out="-3:[nobj]">fra</W>
+<W _input="." in="-10:pnct" out="">.</W>
+</s>
+<s id="sofie-da31">
+<W _input="Der" in="1:expl" out="">Der</W>
+<W _input="var" in="" out="-1:expl|2:mod|3:dobj|6:pnct">var</W>
+<W _input="ikke" in="1:mod" out="">ikke</W>
+<W _input="engang" in="-2:mod" out="-1:mod">engang</W>
+<W _input="noget" in="-3:dobj" out="1:nobj|2:mod">noget</W>
+<W _input="frimærke" in="-1:nobj" out="">frimærke</W>
+<W _input="på" in="-2:mod" out="">på</W>
+<W _input="." in="-6:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da32">
+<W _input="Så" in="1:mod" out="">Så</W>
+<W _input="snart" in="2:[mod]|8:mod" out="-1:mod|2:rel">snart</W>
+<W _input="Sofie" in="1:subj|2:[subj]" out="">Sofie</W>
+<W _input="havde" in="-2:rel" out="-1:subj|1:vobj|-2:[mod]|5:pnct">havde</W>
+<W _input="lukket" in="-1:vobj" out="1:dobj|-2:[subj]">lukket</W>
+<W _input="lågen" in="-1:dobj" out="1:mod">lågen</W>
+<W _input="bag" in="-1:mod" out="1:nobj">bag</W>
+<W _input="sig" in="-1:nobj" out="">sig</W>
+<W _input="," in="-5:pnct" out="">,</W>
+<W _input="åbnede" in="" out="-8:mod|1:subj|2:dobj|3:pnct">åbnede</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="konvolutten" in="-2:dobj" out="">konvolutten</W>
+<W _input="." in="-3:pnct" out="">.</W>
+</s>
+<s id="sofie-da33">
+<W _input="Det" in="4:[dobj]|6:subj" out="1:mod|2:pnct|4:rel">Det</W>
+<W _input="eneste" in="-1:mod" out="">eneste</W>
+<W _input="," in="-2:pnct" out="">,</W>
+<W _input="hun" in="1:subj" out="">hun</W>
+<W _input="fandt" in="-4:rel" out="-1:subj|-4:[dobj]|1:pnct">fandt</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="var" in="" out="-6:subj|1:pred|13:pnct">var</W>
+<W _input="en" in="-1:pred" out="2:mod|3:nobj|4:pnct">en</W>
+<W _input="ganske" in="1:mod" out="">ganske</W>
+<W _input="lille" in="-2:mod" out="-1:mod|4:appa">lille</W>
+<W _input="seddel" in="-3:nobj" out="">seddel</W>
+<W _input="," in="-4:pnct" out="">,</W>
+<W _input="ikke" in="1:mod" out="">ikke</W>
+<W _input="større" in="-4:appa" out="-1:mod|1:pobj">større</W>
+<W _input="end" in="-1:pobj" out="1:nobj">end</W>
+<W _input="konvolutten" in="-1:nobj|3:[nobj]" out="2:rel">konvolutten</W>
+<W _input="den" in="1:subj" out="">den</W>
+<W _input="lå" in="-2:rel" out="-1:subj|1:lobj">lå</W>
+<W _input="i" in="-1:lobj" out="-3:[nobj]">i</W>
+<W _input="." in="-13:pnct" out="">.</W>
+</s>
+<s id="sofie-da34">
+<W _input="På" in="2:mod" out="1:nobj">På</W>
+<W _input="seddelen" in="-1:nobj" out="">seddelen</W>
+<W _input="stod" in="" out="-2:mod|1:expl|2:pnct|5:qobj">stod</W>
+<W _input="der" in="-1:expl" out="">der</W>
+<W _input=":" in="-2:pnct" out="">:</W>
+<it>
+<W _input="Hvem" in="1:pred" out="">Hvem</W>
+<W _input="er" in="-5:qobj" out="1:subj|-1:pred|2:pnct">er</W>
+<W _input="du" in="-1:subj" out="">du</W>
+<W _input="?" in="-2:pnct" out="">?</W>
+</it>
+</s>
+<nl>
+<s id="sofie-da35">
+<W _input="Der" in="1:expl" out="">Der</W>
+<W _input="stod" in="" out="-1:expl|1:mod|2:dobj|3:pnct">stod</W>
+<W _input="ikke" in="-1:mod" out="">ikke</W>
+<W _input="mere" in="-2:dobj" out="">mere</W>
+<W _input="." in="-3:pnct" out="">.</W>
+</s>
+<s id="sofie-da36">
+<W _input="Den" in="4:subj" out="1:mod|2:nobj">Den</W>
+<W _input="lille" in="-1:mod" out="">lille</W>
+<W _input="lap" in="-2:nobj" out="1:nobj">lap</W>
+<W _input="papir" in="-1:nobj" out="">papir</W>
+<W _input="havde" in="" out="-4:subj|1:dobj|5:pnct|6:<mod>|7:<dobj>|21:pnct">havde</W>
+<W _input="ingen" in="-1:dobj" out="1:nobj">ingen</W>
+<W _input="hilsen" in="-1:nobj" out="1:coord">hilsen</W>
+<W _input="eller" in="-1:coord" out="1:conj">eller</W>
+<W _input="afsender" in="-1:conj" out="">afsender</W>
+<W _input="," in="-5:pnct" out="">,</W>
+<W _input="kun" in="-6:<mod>" out="">kun</W>
+<W _input="de" in="-7:<dobj>" out="1:nobj|3:pnct|4:ref|5:rel">de</W>
+<W _input="tre" in="-1:nobj" out="1:nobj">tre</W>
+<W _input="ord" in="-1:nobj" out="">ord</W>
+<W _input="," in="-3:pnct" out="">,</W>
+<W _input="der" in="-4:ref|1:subj|2:[subj]" out="">der</W>
+<W _input="var" in="-5:rel" out="-1:subj|1:vobj">var</W>
+<W _input="skrevet" in="-1:vobj" out="-2:[subj]|1:mod|3:mod">skrevet</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="hånden" in="-1:nobj" out="">hånden</W>
+<W _input="med" in="-3:mod" out="1:nobj|4:pred">med</W>
+<W _input="et" in="-1:nobj" out="1:mod|2:nobj">et</W>
+<W _input="stort" in="-1:mod" out="">stort</W>
+<W _input="spørgsmålstegn" in="-2:nobj" out="">spørgsmålstegn</W>
+<W _input="bagefter" in="-4:pred" out="">bagefter</W>
+<W _input="." in="-21:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da37">
+<W _input="Hun" in="1:subj" out="">Hun</W>
+<W _input="så" in="" out="-1:subj|1:mod|2:pobj|4:pnct">så</W>
+<W _input="igen" in="-1:mod" out="">igen</W>
+<W _input="på" in="-2:pobj" out="1:nobj">på</W>
+<W _input="konvolutten" in="-1:nobj" out="">konvolutten</W>
+<W _input="." in="-4:pnct" out="">.</W>
+</s>
+<s id="sofie-da38">
+<W _input="Jo" in="" out="6:pnct|3:conj|1:pnct">Jo</W>
+<W _input="-" in="-1:pnct" out="">-</W>
+<W _input="brevet" in="1:subj" out="">brevet</W>
+<W _input="var" in="-3:conj" out="-1:subj|1:pred">var</W>
+<W _input="til" in="-1:pred" out="1:nobj">til</W>
+<W _input="hende" in="-1:nobj" out="">hende</W>
+<W _input="." in="-6:pnct" out="">.</W>
+</s>
+<s id="sofie-da39">
+<W _input="Men" in="" out="2:conj">Men</W>
+<W _input="hvem" in="1:subj|2:[subj]" out="">hvem</W>
+<W _input="havde" in="-2:conj" out="-1:subj|1:vobj|5:pnct">havde</W>
+<W _input="lagt" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj">lagt</W>
+<W _input="det" in="-1:dobj" out="">det</W>
+<W _input="i" in="-2:lobj" out="1:nobj">i</W>
+<W _input="postkassen" in="-1:nobj" out="">postkassen</W>
+<W _input="?" in="-5:pnct" out="">?</W>
+</s>
+<nl>
+<s id="sofie-da40">
+<W _input="Sofie" in="1:subj|4:[subj]" out="">Sofie</W>
+<W _input="skyndte" in="" out="-1:subj|1:iobj|2:dobj|10:pnct">skyndte</W>
+<W _input="sig" in="-1:iobj" out="">sig</W>
+<W _input="at" in="-2:dobj" out="1:vobj">at</W>
+<W _input="låse" in="-1:vobj" out="1:iobj|2:mod|-4:[subj]">låse</W>
+<W _input="sig" in="-1:iobj" out="">sig</W>
+<W _input="ind" in="-2:mod" out="1:mod">ind</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="det" in="-1:nobj" out="1:mod|2:nobj">det</W>
+<W _input="røde" in="-1:mod" out="">røde</W>
+<W _input="hus" in="-2:nobj" out="">hus</W>
+<W _input="." in="-10:pnct" out="">.</W>
+</s>
+<s id="sofie-da41">
+<W _input="Som" in="2:mod" out="1:avobj">Som</W>
+<W _input="sædvanlig" in="-1:avobj" out="">sædvanlig</W>
+<W _input="nåede" in="" out="-2:mod|1:subj|3:dobj|19:pnct|20:mod|27:pnct">nåede</W>
+<W _input="katten" in="-1:subj|3:[subj]|9:[subj]|14:[subj]" out="1:appr">katten</W>
+<W _input="Sherekan" in="-1:appr" out="">Sherekan</W>
+<W _input="at" in="-3:dobj" out="1:vobj">at</W>
+<W _input="snige" in="-1:vobj" out="-3:[subj]|1:iobj|2:lobj|6:conj|5:pnct|10:coord">snige</W>
+<W _input="sig" in="-1:iobj" out="">sig</W>
+<W _input="frem" in="-2:lobj" out="1:mod">frem</W>
+<W _input="mellem" in="-1:mod" out="1:nobj">mellem</W>
+<W _input="buskene" in="-1:nobj" out="">buskene</W>
+<W _input="," in="-5:pnct" out="">,</W>
+<W _input="springe" in="-6:conj" out="-9:[subj]|1:lobj">springe</W>
+<W _input="op" in="-1:lobj" out="1:mod">op</W>
+<W _input="på" in="-1:mod" out="1:nobj">på</W>
+<W _input="trappeafsatsen" in="-1:nobj" out="">trappeafsatsen</W>
+<W _input="og" in="-10:coord" out="1:conj">og</W>
+<W _input="smutte" in="-1:conj" out="-14:[subj]|1:lobj">smutte</W>
+<W _input="ind" in="-1:lobj" out="1:mod">ind</W>
+<W _input="gennem" in="-1:mod" out="1:nobj">gennem</W>
+<W _input="døren" in="-1:nobj" out="">døren</W>
+<W _input="," in="-19:pnct" out="">,</W>
+<W _input="inden" in="-20:mod" out="2:vobj">inden</W>
+<W _input="hun" in="1:subj|2:[subj]" out="">hun</W>
+<W _input="havde" in="-2:vobj" out="-1:subj|1:vobj">havde</W>
+<W _input="lukket" in="-1:vobj" out="-2:[subj]|1:dobj|2:mod">lukket</W>
+<W _input="den" in="-1:dobj" out="">den</W>
+<W _input="bag" in="-2:mod" out="1:nobj">bag</W>
+<W _input="sig" in="-1:nobj" out="">sig</W>
+<W _input="." in="-27:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da42">
+<W _input="-" in="1:pnct" out="">-</W>
+<W _input="Mis" in="" out="1:pnct|2:conj|4:conj|3:pnct|-1:pnct|5:pnct">Mis</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="mis" in="-2:conj" out="">mis</W>
+<W _input="," in="-3:pnct" out="">,</W>
+<W _input="mis" in="-4:conj" out="">mis</W>
+<W _input="!" in="-5:pnct" out="">!</W>
+</s>
+<p>
+<s id="sofie-da43">
+<W _input="Når" in="10:mod" out="3:vobj">Når</W>
+<W _input="Sofies" in="2:subj" out="1:possd">Sofies</W>
+<W _input="mor" in="-1:possd" out="">mor</W>
+<W _input="var" in="-3:vobj" out="-2:subj|1:pred|6:pnct">var</W>
+<W _input="sur" in="-1:pred" out="1:pobj">sur</W>
+<W _input="over" in="-1:pobj" out="1:nobj">over</W>
+<W _input="et" in="-1:nobj" out="1:coord">et</W>
+<W _input="eller" in="-1:coord" out="1:conj">eller</W>
+<W _input="andet" in="-1:conj" out="">andet</W>
+<W _input="," in="-6:pnct" out="">,</W>
+<W _input="skete" in="" out="-10:mod|1:subj|11:pnct">skete</W>
+<W _input="det" in="-1:subj" out="1:nobj">det</W>
+<W _input="at" in="-1:nobj" out="2:vobj">at</W>
+<W _input="hun" in="1:subj" out="">hun</W>
+<W _input="kaldte" in="-2:vobj" out="-1:subj|1:dobj|3:pobj">kaldte</W>
+<W _input="deres" in="-1:dobj" out="1:possd">deres</W>
+<W _input="hus" in="-1:possd" out="">hus</W>
+<W _input="for" in="-3:pobj" out="1:nobj">for</W>
+<W _input="et" in="-1:nobj" out="1:mod|2:nobj">et</W>
+<W _input="værre" in="-1:mod" out="">værre</W>
+<W _input="menageri" in="-2:nobj" out="">menageri</W>
+<W _input="." in="-11:pnct" out="">.</W>
+</s>
+<s id="sofie-da44">
+<W _input="Et" in="2:subj" out="1:nobj">Et</W>
+<W _input="menageri" in="-1:nobj" out="">menageri</W>
+<W _input="er" in="" out="-2:subj|2:mod|3:pred|19:pnct|20:coord|39:pnct">er</W>
+<W _input="ganske" in="1:mod" out="">ganske</W>
+<W _input="vist" in="-2:mod" out="-1:mod">vist</W>
+<W _input="en" in="-3:pred" out="1:nobj|4:ref|3:pnct|5:rel">en</W>
+<W _input="samling" in="-1:nobj" out="1:nobj">samling</W>
+<W _input="dyr" in="-1:nobj" out="">dyr</W>
+<W _input="," in="-3:pnct" out="">,</W>
+<W _input="der" in="-4:ref|1:subj|2:[subj]" out="">der</W>
+<W _input="bliver" in="-5:rel" out="-1:subj|1:vobj|6:mod">bliver</W>
+<W _input="ført" in="-1:vobj" out="-2:[subj]|1:lobj">ført</W>
+<W _input="fra" in="-1:lobj" out="1:nobj|2:mod">fra</W>
+<W _input="sted" in="-1:nobj" out="">sted</W>
+<W _input="til" in="-2:mod" out="1:nobj">til</W>
+<W _input="sted" in="-1:nobj" out="">sted</W>
+<W _input="for" in="-6:mod" out="1:nobj">for</W>
+<W _input="at" in="-1:nobj" out="1:vobj">at</W>
+<W _input="blive" in="-1:vobj" out="1:vobj">blive</W>
+<W _input="vist" in="-1:vobj" out="1:part">vist</W>
+<W _input="frem" in="-1:part" out="">frem</W>
+<W _input="," in="-19:pnct" out="">,</W>
+<W _input="men" in="-20:coord" out="2:conj">men</W>
+<W _input="Sofie" in="1:subj" out="">Sofie</W>
+<W _input="havde" in="-2:conj" out="-1:subj|1:mod|2:mod|5:dobj|8:pnct|9:coord">havde</W>
+<W _input="da" in="-1:mod" out="">da</W>
+<W _input="i" in="-2:mod" out="2:nobj">i</W>
+<W _input="hvert" in="1:mod" out="">hvert</W>
+<W _input="fald" in="-2:nobj" out="-1:mod">fald</W>
+<W _input="en" in="-5:dobj" out="1:nobj">en</W>
+<W _input="samling" in="-1:nobj" out="1:nobj">samling</W>
+<W _input="dyr" in="-1:nobj" out="">dyr</W>
+<W _input="," in="-8:pnct" out="">,</W>
+<W _input="og" in="-9:coord" out="2:conj">og</W>
+<W _input="det" in="6:nobj" out="">det</W>
+<W _input="var" in="-2:conj" out="1:subj|3:mod|4:pred">var</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="ganske" in="1:mod" out="">ganske</W>
+<W _input="godt" in="-3:mod" out="-1:mod">godt</W>
+<W _input="tilfreds" in="-4:pred" out="1:pobj">tilfreds</W>
+<W _input="med" in="-1:pobj" out="-6:nobj">med</W>
+<W _input="." in="-39:pnct" out="">.</W>
+</s>
+<s id="sofie-da45">
+<W _input="Først" in="1:mod" out="">Først</W>
+<W _input="havde" in="" out="-1:mod|1:subj|2:vobj|9:pnct">havde</W>
+<W _input="hun" in="-1:subj|1:[subj]" out="">hun</W>
+<W _input="fået" in="-2:vobj" out="-1:[subj]|1:dobj">fået</W>
+<W _input="guldfiskene" in="-1:dobj" out="1:appr">guldfiskene</W>
+<W _input="Guldtop" in="-1:appr" out="2:conj|1:pnct|3:coord">Guldtop</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="Rødhætte" in="-2:conj" out="">Rødhætte</W>
+<W _input="og" in="-3:coord" out="1:conj">og</W>
+<W _input="Sorteper" in="-1:conj" out="">Sorteper</W>
+<W _input="." in="-9:pnct" out="">.</W>
+</s>
+<s id="sofie-da46">
+<W _input="Så" in="1:mod" out="">Så</W>
+<W _input="fik" in="" out="-1:mod|1:subj|2:dobj|16:pnct">fik</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="undulaterne" in="-2:dobj" out="1:appr|4:pnct|5:conj|7:coord">undulaterne</W>
+<W _input="Smit" in="-1:appr" out="1:coord">Smit</W>
+<W _input="og" in="-1:coord" out="1:conj">og</W>
+<W _input="Smule" in="-1:conj" out="">Smule</W>
+<W _input="," in="-4:pnct" out="">,</W>
+<W _input="skildpadden" in="-5:conj" out="1:appr">skildpadden</W>
+<W _input="Govinda" in="-1:appr" out="">Govinda</W>
+<W _input="og" in="-7:coord" out="1:mod|3:conj">og</W>
+<W _input="til" in="-1:mod" out="1:avobj">til</W>
+<W _input="sidst" in="-1:avobj" out="">sidst</W>
+<W _input="den" in="-3:conj" out="1:mod|2:nobj|3:appr">den</W>
+<W _input="gulbrune" in="-1:mod" out="">gulbrune</W>
+<W _input="tigerkat" in="-2:nobj" out="">tigerkat</W>
+<W _input="Sherekan" in="-3:appr" out="">Sherekan</W>
+<W _input="." in="-16:pnct" out="">.</W>
+</s>
+<s id="sofie-da47">
+<W _input="Alle" in="5:dobj" out="1:nobj">Alle</W>
+<W _input="disse" in="-1:nobj" out="1:nobj">disse</W>
+<W _input="dyr" in="-1:nobj" out="">dyr</W>
+<W _input="havde" in="" out="1:subj|2:vobj|25:pnct">havde</W>
+<W _input="hun" in="-1:subj|1:[subj]" out="">hun</W>
+<W _input="fået" in="-2:vobj" out="-5:dobj|-1:[subj]|1:mod">fået</W>
+<W _input="som" in="-1:mod" out="1:nobj">som</W>
+<W _input="en" in="-1:nobj" out="1:nobj">en</W>
+<W _input="slags" in="-1:nobj" out="1:nobj">slags</W>
+<W _input="erstatning" in="-1:nobj" out="1:pobj">erstatning</W>
+<W _input="for" in="-1:pobj" out="1:nobj">for</W>
+<W _input="at" in="-1:nobj" out="2:vobj">at</W>
+<W _input="moren" in="1:subj" out="">moren</W>
+<W _input="kom" in="-2:vobj" out="-1:subj|2:lobj|5:coord">kom</W>
+<W _input="sent" in="1:mod" out="">sent</W>
+<W _input="hjem" in="-2:lobj" out="-1:mod|1:mod">hjem</W>
+<W _input="fra" in="-1:mod" out="1:nobj">fra</W>
+<W _input="arbejdet" in="-1:nobj" out="">arbejdet</W>
+<W _input="og" in="-5:coord" out="2:conj">og</W>
+<W _input="far" in="1:subj|8:[subj]" out="">far</W>
+<W _input="var" in="-2:conj" out="-1:subj|2:mod|3:pred|6:coord">var</W>
+<W _input="så" in="1:mod" out="">så</W>
+<W _input="meget" in="-2:mod" out="-1:mod">meget</W>
+<W _input="ude" in="-3:pred" out="1:mod">ude</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="verden" in="-1:nobj" out="">verden</W>
+<W _input="og" in="-6:coord" out="1:conj">og</W>
+<W _input="sejlede" in="-1:conj" out="-8:[subj]">sejlede</W>
+<W _input="." in="-25:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da48">
+<W _input="Sofie" in="1:subj|6:[subj]" out="">Sofie</W>
+<W _input="smed" in="" out="-1:subj|1:dobj|2:lobj|4:coord|13:pnct">smed</W>
+<W _input="skoletasken" in="-1:dobj" out="">skoletasken</W>
+<W _input="fra" in="-2:lobj" out="1:nobj">fra</W>
+<W _input="sig" in="-1:nobj" out="">sig</W>
+<W _input="og" in="-4:coord" out="1:conj">og</W>
+<W _input="stillede" in="-1:conj" out="-6:[subj]|1:dobj|5:lobj">stillede</W>
+<W _input="en" in="-1:dobj" out="1:nobj">en</W>
+<W _input="skål" in="-1:nobj" out="1:pobj">skål</W>
+<W _input="med" in="-1:pobj" out="1:nobj">med</W>
+<W _input="kattemad" in="-1:nobj" out="">kattemad</W>
+<W _input="frem" in="-5:lobj" out="1:mod">frem</W>
+<W _input="til" in="-1:mod" out="1:nobj">til</W>
+<W _input="Sherekan" in="-1:nobj" out="">Sherekan</W>
+<W _input="." in="-13:pnct" out="">.</W>
+</s>
+<s id="sofie-da49">
+<W _input="Så" in="1:mod" out="">Så</W>
+<W _input="sank" in="" out="-1:mod|1:subj|2:lobj|6:mod|12:pnct">sank</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="ned" in="-2:lobj" out="1:mod">ned</W>
+<W _input="på" in="-1:mod" out="1:nobj">på</W>
+<W _input="en" in="-1:nobj" out="1:nobj">en</W>
+<W _input="taburet" in="-1:nobj" out="">taburet</W>
+<W _input="med" in="-6:mod" out="1:nobj|4:pred">med</W>
+<W _input="det" in="-1:nobj" out="1:mod|2:nobj">det</W>
+<W _input="mystiske" in="-1:mod" out="">mystiske</W>
+<W _input="brev" in="-2:nobj" out="">brev</W>
+<W _input="i" in="-4:pred" out="1:nobj">i</W>
+<W _input="hånden" in="-1:nobj" out="">hånden</W>
+<W _input="." in="-12:pnct" out="">.</W>
+</s>
+<nl>
+<it>
+<s id="sofie-da50">
+<W _input="Hvem" in="1:pred" out="">Hvem</W>
+<W _input="er" in="" out="-1:pred|1:subj|2:pnct">er</W>
+<W _input="du" in="-1:subj" out="">du</W>
+<W _input="?" in="-2:pnct" out="">?</W>
+</s>
+</it>
+<nl>
+<s id="sofie-da51">
+<W _input="Det" in="1:dobj" out="">Det</W>
+<W _input="vidste" in="" out="-1:dobj|1:subj|2:mod|3:mod|4:pnct">vidste</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="skam" in="-2:mod" out="">skam</W>
+<W _input="ikke" in="-3:mod" out="">ikke</W>
+<W _input="." in="-4:pnct" out="">.</W>
+</s>
+<s id="sofie-da52">
+<W _input="Hun" in="1:subj" out="">Hun</W>
+<W _input="var" in="" out="-1:subj|1:mod|3:pred|4:pnct|5:coord">var</W>
+<W _input="naturligvis" in="-1:mod" out="">naturligvis</W>
+<W _input="Sofie" in="1:namef" out="">Sofie</W>
+<W _input="Amundsen" in="-3:pred" out="-1:namef">Amundsen</W>
+<W _input="," in="-4:pnct" out="">,</W>
+<W _input="men" in="-5:coord" out="2:conj">men</W>
+<W _input="hvem" in="1:pred" out="">hvem</W>
+<W _input="var" in="-2:conj" out="-1:pred|1:subj|2:pnct">var</W>
+<W _input="det" in="-1:subj" out="">det</W>
+<W _input="?" in="-2:pnct" out="">?</W>
+</s>
+<s id="sofie-da53">
+<W _input="Det" in="7:nobj" out="">Det</W>
+<W _input="havde" in="" out="1:subj|3:mod|4:vobj|8:mod|7:pnct|9:pnct">havde</W>
+<W _input="hun" in="-1:subj|3:[subj]" out="">hun</W>
+<W _input="ikke" in="1:mod" out="">ikke</W>
+<W _input="rigtigt" in="-3:mod" out="-1:mod">rigtigt</W>
+<W _input="fundet" in="-4:vobj" out="-3:[subj]|1:avobj">fundet</W>
+<W _input="ud" in="-1:avobj" out="1:pobj">ud</W>
+<W _input="af" in="-1:pobj" out="-7:nobj">af</W>
+<W _input="-" in="-7:pnct" out="">-</W>
+<W _input="endnu" in="-8:mod" out="">endnu</W>
+<W _input="." in="-9:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da54">
+<W _input="Hvad" in="" out="1:avobj|2:mod|9:pnct">Hvad</W>
+<W _input="nu" in="-1:avobj" out="">nu</W>
+<W _input="hvis" in="-2:mod" out="2:vobj">hvis</W>
+<W _input="hun" in="1:subj|2:[subj]" out="">hun</W>
+<W _input="havde" in="-2:vobj" out="-1:subj|1:vobj">havde</W>
+<W _input="heddet" in="-1:vobj" out="1:dobj|-2:[subj]">heddet</W>
+<W _input="noget" in="-1:dobj" out="2:nobj">noget</W>
+<W _input="ganske" in="1:mod" out="">ganske</W>
+<W _input="andet" in="-2:nobj" out="-1:mod">andet</W>
+<W _input="?" in="-9:pnct" out="">?</W>
+</s>
+<s id="sofie-da55">
+<W _input="Anne" in="1:namef" out="">Anne</W>
+<W _input="Knudsen" in="" out="-1:namef|1:<mod>|3:pnct">Knudsen</W>
+<W _input="for" in="-1:<mod>" out="1:nobj">for</W>
+<W _input="eksempel" in="-1:nobj" out="">eksempel</W>
+<W _input="." in="-3:pnct" out="">.</W>
+</s>
+<s id="sofie-da56">
+<W _input="Ville" in="" out="1:subj|2:mod|3:vobj|7:pnct">Ville</W>
+<W _input="hun" in="-1:subj|2:[subj]|3:[subj]" out="">hun</W>
+<W _input="så" in="-2:mod" out="">så</W>
+<W _input="have" in="-3:vobj" out="-2:[subj]|1:vobj">have</W>
+<W _input="været" in="-1:vobj" out="-3:[subj]|1:pred">været</W>
+<W _input="en" in="-1:pred" out="1:nobj">en</W>
+<W _input="anden" in="-1:nobj" out="">anden</W>
+<W _input="?" in="-7:pnct" out="">?</W>
+</s>
+<nl>
+<s id="sofie-da57">
+<W _input="Pludselig" in="1:mod" out="">Pludselig</W>
+<W _input="kom" in="" out="1:subj|2:pobj|-1:mod|17:pnct">kom</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="i" in="-2:pobj" out="1:nobj">i</W>
+<W _input="tanke" in="-1:nobj" out="1:pobj">tanke</W>
+<W _input="om" in="-1:pobj" out="2:nobj|1:pnct">om</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="at" in="-2:nobj" out="3:vobj">at</W>
+<W _input="hendes" in="2:subj|3:[subj]" out="1:possd">hendes</W>
+<W _input="far" in="-1:possd" out="">far</W>
+<W _input="havde" in="-3:vobj" out="-2:subj|1:vobj">havde</W>
+<W _input="villet" in="-1:vobj" out="-3:[subj]|2:dobj|1:pnct">villet</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="at" in="-2:dobj" out="2:vobj">at</W>
+<W _input="hun" in="1:subj|2:[subj]" out="">hun</W>
+<W _input="skulle" in="-2:vobj" out="-1:subj|1:vobj">skulle</W>
+<W _input="hedde" in="-1:vobj" out="-2:[subj]|1:dobj">hedde</W>
+<W _input="Synnøve" in="-1:dobj" out="">Synnøve</W>
+<W _input="." in="-17:pnct" out="">.</W>
+</s>
+<s id="sofie-da58">
+<W _input="Sofie" in="1:subj" out="">Sofie</W>
+<W _input="forsøgte" in="" out="-1:subj|1:dobj|16:pnct|17:coord|24:pnct">forsøgte</W>
+<W _input="at" in="-1:dobj" out="1:vobj">at</W>
+<W _input="forestille" in="-1:vobj" out="1:iobj|3:dobj|2:pnct">forestille</W>
+<W _input="sig" in="-1:iobj" out="">sig</W>
+<W _input="," in="-2:pnct" out="">,</W>
+<W _input="at" in="-3:dobj" out="2:vobj">at</W>
+<W _input="hun" in="1:subj|5:[subj]" out="">hun</W>
+<W _input="rakte" in="-2:vobj" out="-1:subj|1:dobj|2:lobj|3:coord">rakte</W>
+<W _input="hånden" in="-1:dobj" out="">hånden</W>
+<W _input="frem" in="-2:lobj" out="">frem</W>
+<W _input="og" in="-3:coord" out="1:conj">og</W>
+<W _input="præsenterede" in="-1:conj" out="-5:[subj]|1:iobj|2:pobj">præsenterede</W>
+<W _input="sig" in="-1:iobj" out="">sig</W>
+<W _input="som" in="-2:pobj" out="2:nobj">som</W>
+<W _input="Synnøve" in="1:namef" out="">Synnøve</W>
+<W _input="Amundsen" in="-2:nobj" out="-1:namef">Amundsen</W>
+<W _input="," in="-16:pnct" out="">,</W>
+<W _input="men" in="-17:coord" out="1:conj">men</W>
+<W _input="nej" in="-1:conj" out="1:pnct|3:conj">nej</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="den" in="1:subj" out="">den</W>
+<W _input="gik" in="-3:conj" out="-1:subj|1:mod|2:mod">gik</W>
+<W _input="altså" in="-1:mod" out="">altså</W>
+<W _input="ikke" in="-2:mod" out="">ikke</W>
+<W _input="." in="-24:pnct" out="">.</W>
+</s>
+<s id="sofie-da59">
+<W _input="Det" in="1:subj" out="9:ref|10:rel">Det</W>
+<W _input="var" in="" out="-1:subj|3:pred|1:mod|7:pnct|11:pnct">var</W>
+<W _input="hele" in="-1:mod" out="1:nobj">hele</W>
+<W _input="tiden" in="-1:nobj" out="">tiden</W>
+<W _input="en" in="-3:pred" out="2:nobj">en</W>
+<W _input="ganske" in="1:mod" out="">ganske</W>
+<W _input="anden" in="-2:nobj" out="-1:mod|1:nobj">anden</W>
+<W _input="pige" in="-1:nobj" out="">pige</W>
+<W _input="," in="-7:pnct" out="">,</W>
+<W _input="der" in="1:subj|-9:ref" out="">der</W>
+<W _input="præsenterede" in="-10:rel" out="-1:subj|1:iobj">præsenterede</W>
+<W _input="sig" in="-1:iobj" out="">sig</W>
+<W _input="." in="-11:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da60">
+<W _input="Så" in="1:mod" out="">Så</W>
+<W _input="røg" in="" out="-1:mod|1:subj|2:lobj|10:mod|16:pnct">røg</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="ud" in="-2:lobj" out="1:mod|3:coord">ud</W>
+<W _input="på" in="-1:mod" out="1:nobj">på</W>
+<W _input="gulvet" in="-1:nobj" out="">gulvet</W>
+<W _input="og" in="-3:coord" out="2:conj">og</W>
+<W _input="videre" in="1:mod" out="">videre</W>
+<W _input="ind" in="-2:conj" out="-1:mod|1:mod">ind</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="badeværelset" in="-1:nobj" out="">badeværelset</W>
+<W _input="med" in="-10:mod" out="1:nobj|4:pred">med</W>
+<W _input="det" in="-1:nobj" out="1:mod|2:nobj">det</W>
+<W _input="underlige" in="-1:mod" out="">underlige</W>
+<W _input="brev" in="-2:nobj" out="">brev</W>
+<W _input="i" in="-4:pred" out="1:nobj">i</W>
+<W _input="hånden" in="-1:nobj" out="">hånden</W>
+<W _input="." in="-16:pnct" out="">.</W>
+</s>
+<s id="sofie-da61">
+<W _input="Hun" in="1:subj|6:[subj]" out="">Hun</W>
+<W _input="stillede" in="" out="-1:subj|1:dobj|2:lobj|4:coord|11:pnct">stillede</W>
+<W _input="sig" in="-1:dobj" out="">sig</W>
+<W _input="foran" in="-2:lobj" out="1:nobj">foran</W>
+<W _input="spejlet" in="-1:nobj" out="">spejlet</W>
+<W _input="og" in="-4:coord" out="1:conj">og</W>
+<W _input="stirrede" in="-1:conj" out="-6:[subj]|1:dobj|3:lobj">stirrede</W>
+<W _input="sig" in="-1:dobj" out="1:mod">sig</W>
+<W _input="selv" in="-1:mod" out="">selv</W>
+<W _input="ind" in="-3:lobj" out="1:mod">ind</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="øjnene" in="-1:nobj" out="">øjnene</W>
+<W _input="." in="-11:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da62">
+<W _input="-" in="2:pnct" out="">-</W>
+<W _input="Jeg" in="1:subj" out="4:pnct">Jeg</W>
+<W _input="er" in="4:qobj" out="-2:pnct|-1:subj|2:pred">er</W>
+<W _input="Sofie" in="1:namef" out="">Sofie</W>
+<W _input="Amundsen" in="-2:pred" out="-1:namef">Amundsen</W>
+<W _input="," in="-4:pnct" out="">,</W>
+<W _input="sagde" in="" out="1:subj|-4:qobj|2:pnct">sagde</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="." in="-2:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da63">
+<W _input="Pigen" in="3:subj" out="1:mod">Pigen</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="spejlet" in="-1:nobj" out="">spejlet</W>
+<W _input="svarede" in="" out="-3:subj|1:mod|2:pobj|9:pnct">svarede</W>
+<W _input="ikke" in="-1:mod" out="">ikke</W>
+<W _input="med" in="-2:pobj" out="2:nobj">med</W>
+<W _input="så" in="1:mod" out="2:pobj">så</W>
+<W _input="meget" in="-2:nobj" out="-1:mod">meget</W>
+<W _input="som" in="-2:pobj" out="1:nobj">som</W>
+<W _input="en" in="-1:nobj" out="1:mod|2:nobj">en</W>
+<W _input="lille" in="-1:mod" out="">lille</W>
+<W _input="grimasse" in="-2:nobj" out="">grimasse</W>
+<W _input="." in="-9:pnct" out="">.</W>
+</s>
+<s id="sofie-da64">
+<W _input="Lige" in="1:mod" out="">Lige</W>
+<W _input="meget" in="5:mod" out="-1:mod|1:nobj">meget</W>
+<W _input="hvad" in="2:[dobj]|-1:nobj" out="2:rel">hvad</W>
+<W _input="Sofie" in="1:subj" out="">Sofie</W>
+<W _input="gjorde" in="-2:rel" out="-1:subj|-2:[dobj]|1:pnct">gjorde</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="gentog" in="" out="1:subj|3:dobj|5:pnct|-5:mod">gentog</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="nøjagtig" in="1:mod" out="">nøjagtig</W>
+<W _input="det" in="-3:dobj" out="-1:mod|1:nobj">det</W>
+<W _input="samme" in="-1:nobj" out="">samme</W>
+<W _input="." in="-5:pnct" out="">.</W>
+</s>
+<s id="sofie-da65">
+<W _input="Sofie" in="1:subj" out="">Sofie</W>
+<W _input="forsøgte" in="" out="-1:subj|1:dobj|6:mod|10:pnct|11:coord|18:pnct">forsøgte</W>
+<W _input="at" in="-1:dobj" out="1:vobj">at</W>
+<W _input="komme" in="-1:vobj" out="1:dobj|2:pobj">komme</W>
+<W _input="spejlbilledet" in="-1:dobj" out="">spejlbilledet</W>
+<W _input="i" in="-2:pobj" out="1:nobj">i</W>
+<W _input="forkøbet" in="-1:nobj" out="">forkøbet</W>
+<W _input="med" in="-6:mod" out="1:nobj">med</W>
+<W _input="en" in="-1:nobj" out="1:mod|2:nobj">en</W>
+<W _input="lynsnar" in="-1:mod" out="">lynsnar</W>
+<W _input="bevægelse" in="-2:nobj" out="">bevægelse</W>
+<W _input="," in="-10:pnct" out="">,</W>
+<W _input="men" in="-11:coord" out="3:conj">men</W>
+<W _input="den" in="2:subj" out="1:mod">den</W>
+<W _input="anden" in="-1:mod" out="">anden</W>
+<W _input="var" in="-3:conj" out="-2:subj|3:pred">var</W>
+<W _input="lige" in="1:mod" out="">lige</W>
+<W _input="så" in="1:mod" out="-1:mod">så</W>
+<W _input="hurtig" in="-3:pred" out="-1:mod">hurtig</W>
+<W _input="." in="-18:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da66">
+<W _input="-" in="2:pnct" out="">-</W>
+<W _input="Hvem" in="1:pred" out="">Hvem</W>
+<W _input="er" in="3:qobj" out="-2:pnct|1:subj|-1:pred|2:pnct">er</W>
+<W _input="du" in="-1:subj" out="">du</W>
+<W _input="?" in="-2:pnct" out="">?</W>
+<W _input="spurgte" in="" out="-3:qobj|1:subj|2:pnct">spurgte</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="." in="-2:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da67">
+<W _input="Hun" in="1:subj" out="">Hun</W>
+<W _input="fik" in="" out="-1:subj|2:mod|3:mod|5:dobj|7:pnct|8:coord|29:pnct">fik</W>
+<W _input="heller" in="1:mod" out="">heller</W>
+<W _input="ikke" in="-2:mod" out="-1:mod">ikke</W>
+<W _input="denne" in="-3:mod" out="1:nobj">denne</W>
+<W _input="gang" in="-1:nobj" out="">gang</W>
+<W _input="noget" in="-5:dobj" out="1:nobj">noget</W>
+<W _input="svar" in="-1:nobj" out="">svar</W>
+<W _input="," in="-7:pnct" out="">,</W>
+<W _input="men" in="-8:coord" out="3:conj">men</W>
+<W _input="et" in="2:mod" out="1:nobj">et</W>
+<W _input="øjeblik" in="-1:nobj" out="">øjeblik</W>
+<W _input="kom" in="-3:conj" out="-2:mod|1:subj|2:lobj">kom</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="i" in="-2:lobj" out="1:nobj">i</W>
+<W _input="vildrede" in="-1:nobj" out="1:pobj">vildrede</W>
+<W _input="med" in="-1:pobj" out="2:nobj|1:pnct">med</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="om" in="-2:nobj" out="2:vobj">om</W>
+<W _input="det" in="1:subj" out="7:ref|8:rel">det</W>
+<W _input="var" in="-2:vobj" out="-1:subj|1:pred|5:pnct">var</W>
+<W _input="hende" in="-1:pred" out="1:mod|2:coord">hende</W>
+<W _input="selv" in="-1:mod" out="">selv</W>
+<W _input="eller" in="-2:coord" out="1:conj">eller</W>
+<W _input="spejlbilledet" in="-1:conj" out="">spejlbilledet</W>
+<W _input="," in="-5:pnct" out="">,</W>
+<W _input="der" in="1:subj|2:[subj]|-7:ref" out="">der</W>
+<W _input="havde" in="-8:rel" out="-1:subj|1:vobj">havde</W>
+<W _input="stillet" in="-1:vobj" out="-2:[subj]|1:dobj">stillet</W>
+<W _input="spørgsmålet" in="-1:dobj" out="">spørgsmålet</W>
+<W _input="." in="-29:pnct" out="">.</W>
+</s>
+<s id="sofie-da68">
+<W _input="Sofie" in="1:subj|9:[subj]" out="">Sofie</W>
+<W _input="trykkede" in="" out="-1:subj|1:dobj|3:lobj|7:coord|17:pnct">trykkede</W>
+<W _input="sin" in="-1:dobj" out="1:nobj">sin</W>
+<W _input="pegefinger" in="-1:nobj" out="">pegefinger</W>
+<W _input="mod" in="-3:lobj" out="1:nobj">mod</W>
+<W _input="næsen" in="-1:nobj" out="1:mod">næsen</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="spejlet" in="-1:nobj" out="">spejlet</W>
+<W _input="og" in="-7:coord" out="1:conj">og</W>
+<W _input="sagde" in="-1:conj" out="-9:[subj]|1:pnct|7:qobj">sagde</W>
+<W _input=":" in="-1:pnct" out="">:</W>
+<!-- </s> -->
+<nl>
+<!-- <s id="sofie-da69"> -->
+<W _input="-" in="2:pnct" out="">-</W>
+<W _input="Du" in="1:subj" out="">Du</W>
+<W _input="er" in="-7:qobj" out="-1:subj|1:pred|-2:pnct">er</W>
+<W _input="mig" in="-1:pred" out="">mig</W>
+<W _input="." in="-17:pnct" out="">.</W>
+</s>
+<s id="sofie-da69">
+<W _input="-" in="2:pnct" out="">-</W>
+<W _input="Du" in="1:subj" out="">Du</W>
+<W _input="er" in="" out="-1:subj|1:pred|-2:pnct|2:pnct">er</W>
+<W _input="mig" in="-1:pred" out="">mig</W>
+<W _input="." in="-2:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da70">
+<W _input="Da" in="7:mod" out="3:vobj">Da</W>
+<W _input="hun" in="2:subj" out="">hun</W>
+<W _input="ikke" in="1:mod" out="">ikke</W>
+<W _input="fik" in="-3:vobj" out="-2:subj|-1:mod|1:dobj|3:pnct">fik</W>
+<W _input="noget" in="-1:dobj" out="1:nobj">noget</W>
+<W _input="svar" in="-1:nobj" out="">svar</W>
+<W _input="," in="-3:pnct" out="">,</W>
+<W _input="vendte" in="" out="-7:mod|1:subj|2:dobj|3:lobj|5:coord|15:pnct">vendte</W>
+<W _input="hun" in="-1:subj|5:[subj]" out="">hun</W>
+<W _input="sætningen" in="-2:dobj" out="">sætningen</W>
+<W _input="på" in="-3:lobj" out="1:nobj">på</W>
+<W _input="hovedet" in="-1:nobj" out="">hovedet</W>
+<W _input="og" in="-5:coord" out="1:conj">og</W>
+<W _input="sagde" in="-1:conj" out="-5:[subj]|1:pnct|7:qobj">sagde</W>
+<W _input=":" in="-1:pnct" out="">:</W>
+<!-- </s> -->
+<nl>
+<!-- <s id="sofie-da71"> -->
+<W _input="-" in="2:pnct" out="">-</W>
+<W _input="Jeg" in="1:subj" out="">Jeg</W>
+<W _input="er" in="-7:qobj" out="-2:pnct|-1:subj|1:pred">er</W>
+<W _input="dig" in="-1:pred" out="">dig</W>
+<W _input="." in="-15:pnct" out="">.</W>
+</s>
+<s id="sofie-da71">
+<W _input="-" in="2:pnct" out="">-</W>
+<W _input="Jeg" in="1:subj" out="">Jeg</W>
+<W _input="er" in="" out="-2:pnct|-1:subj|1:pred|2:pnct">er</W>
+<W _input="dig" in="-1:pred" out="">dig</W>
+<W _input="." in="-2:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da72">
+<W _input="Sofie" in="1:namef" out="">Sofie</W>
+<W _input="Amundsen" in="1:subj|4:[subj]" out="-1:namef">Amundsen</W>
+<W _input="havde" in="" out="-1:subj|2:mod|3:vobj|12:pnct">havde</W>
+<W _input="ikke" in="1:mod" out="">ikke</W>
+<W _input="altid" in="-2:mod" out="-1:mod">altid</W>
+<W _input="været" in="-3:vobj" out="-4:[subj]|2:pred">været</W>
+<W _input="så" in="1:mod" out="">så</W>
+<W _input="tilfreds" in="-2:pred" out="-1:mod|1:pobj">tilfreds</W>
+<W _input="med" in="-1:pobj" out="1:pnct|2:nobj">med</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="hvordan" in="-2:nobj|2:[aobj]" out="2:rel">hvordan</W>
+<W _input="hun" in="1:subj" out="">hun</W>
+<W _input="så" in="-2:rel" out="-1:subj|1:part|-2:[aobj]">så</W>
+<W _input="ud" in="-1:part" out="">ud</W>
+<W _input="." in="-12:pnct" out="">.</W>
+</s>
+<s id="sofie-da73">
+<W _input="Hun" in="1:subj" out="">Hun</W>
+<W _input="fik" in="" out="-1:subj|1:mod|2:dobj|11:pnct|12:coord|30:pnct">fik</W>
+<W _input="ofte" in="-1:mod" out="">ofte</W>
+<W _input="at" in="-2:dobj" out="1:vobj">at</W>
+<W _input="vide" in="-1:vobj" out="2:dobj|1:pnct">vide</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="at" in="-2:dobj" out="2:vobj">at</W>
+<W _input="hun" in="1:subj" out="">hun</W>
+<W _input="havde" in="-2:vobj" out="-1:subj|3:dobj">havde</W>
+<W _input="smukke" in="2:mod" out="">smukke</W>
+<W _input="mandelformede" in="1:mod" out="">mandelformede</W>
+<W _input="øjne" in="-3:dobj" out="-2:mod|-1:mod">øjne</W>
+<W _input="," in="-11:pnct" out="">,</W>
+<W _input="men" in="-12:coord" out="2:conj">men</W>
+<W _input="det" in="1:subj" out="">det</W>
+<W _input="var" in="-2:conj" out="-1:subj|1:mod|2:pred">var</W>
+<W _input="sikkert" in="-1:mod" out="">sikkert</W>
+<W _input="noget" in="-2:pred|2:[dobj]" out="2:rel">noget</W>
+<W _input="de" in="1:subj" out="">de</W>
+<W _input="sagde" in="-2:rel" out="-1:subj|-2:[dobj]|1:pnct|2:mod">sagde</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="fordi" in="-2:mod" out="2:vobj">fordi</W>
+<W _input="næsen" in="1:subj" out="">næsen</W>
+<W _input="var" in="-2:vobj" out="-1:subj|2:pred|3:coord">var</W>
+<W _input="for" in="1:mod" out="">for</W>
+<W _input="lille" in="-2:pred" out="-1:mod">lille</W>
+<W _input="og" in="-3:coord" out="1:<subj>|4:<pred>">og</W>
+<W _input="munden" in="-1:<subj>" out="">munden</W>
+<W _input="lidt" in="1:mod" out="">lidt</W>
+<W _input="for" in="1:mod" out="-1:mod">for</W>
+<W _input="stor" in="-4:<pred>" out="-1:mod">stor</W>
+<W _input="." in="-30:pnct" out="">.</W>
+</s>
+<s id="sofie-da74">
+<W _input="Ørerne" in="1:subj" out="">Ørerne</W>
+<W _input="sad" in="" out="-1:subj|1:mod|5:lobj|7:pnct">sad</W>
+<W _input="desuden" in="-1:mod" out="">desuden</W>
+<W _input="alt" in="1:mod" out="">alt</W>
+<W _input="for" in="1:mod" out="-1:mod">for</W>
+<W _input="tæt" in="1:mod" out="-1:mod">tæt</W>
+<W _input="ved" in="-5:lobj" out="-1:mod|1:nobj">ved</W>
+<W _input="øjnene" in="-1:nobj" out="">øjnene</W>
+<W _input="." in="-7:pnct" out="">.</W>
+</s>
+<s id="sofie-da75">
+<W _input="Allerværst" in="1:pred" out="">Allerværst</W>
+<W _input="var" in="" out="-1:pred|1:mod|2:subj|11:pnct">var</W>
+<W _input="dog" in="-1:mod" out="">dog</W>
+<W _input="det" in="-2:subj" out="1:mod|2:nobj|3:ref|4:rel">det</W>
+<W _input="glatte" in="-1:mod" out="">glatte</W>
+<W _input="hår" in="-2:nobj" out="">hår</W>
+<W _input="som" in="-3:ref|1:subj" out="">som</W>
+<W _input="var" in="-4:rel" out="-1:subj|2:pred">var</W>
+<W _input="helt" in="1:mod" out="">helt</W>
+<W _input="umuligt" in="-2:pred" out="-1:mod|1:mod">umuligt</W>
+<W _input="at" in="-1:mod" out="1:vobj">at</W>
+<W _input="sætte" in="-1:vobj" out="">sætte</W>
+<W _input="." in="-11:pnct" out="">.</W>
+</s>
+<s id="sofie-da76">
+<W _input="Det" in="1:subj" out="2:nobj">Det</W>
+<W _input="skete" in="" out="-1:subj|21:pnct">skete</W>
+<W _input="at" in="-2:nobj" out="2:vobj">at</W>
+<W _input="faren" in="1:subj|6:[subj]" out="">faren</W>
+<W _input="strøg" in="-2:vobj" out="-1:subj|1:dobj|2:lobj|4:coord">strøg</W>
+<W _input="hende" in="-1:dobj" out="">hende</W>
+<W _input="over" in="-2:lobj" out="1:nobj">over</W>
+<W _input="håret" in="-1:nobj" out="">håret</W>
+<W _input="og" in="-4:coord" out="1:conj">og</W>
+<W _input="kaldte" in="-1:conj" out="-6:[subj]|1:iobj|7:mod|3:pred">kaldte</W>
+<W _input="hende" in="-1:iobj" out="">hende</W>
+<W _input="»" in="1:pnct" out="">»</W>
+<W _input="pigen" in="-3:pred" out="1:mod|-1:pnct|3:pnct">pigen</W>
+<W _input="med" in="-1:mod" out="1:nobj">med</W>
+<W _input="hørhåret" in="-1:nobj" out="">hørhåret</W>
+<W _input="«" in="-3:pnct" out="">«</W>
+<W _input="efter" in="-7:mod" out="1:nobj">efter</W>
+<W _input="et" in="-1:nobj" out="1:nobj">et</W>
+<W _input="musikstykke" in="-1:nobj" out="1:pobj">musikstykke</W>
+<W _input="af" in="-1:pobj" out="2:nobj">af</W>
+<W _input="Claude" in="1:namef" out="">Claude</W>
+<W _input="Debussy" in="-2:nobj" out="-1:namef">Debussy</W>
+<W _input="." in="-21:pnct" out="">.</W>
+</s>
+<s id="sofie-da77">
+<W _input="Det" in="4:dobj" out="">Det</W>
+<W _input="kunne" in="" out="1:subj|2:mod|3:vobj|4:pnct|6:conj|23:pnct">kunne</W>
+<W _input="han" in="-1:subj|2:[subj]" out="">han</W>
+<W _input="sagtens" in="-2:mod" out="">sagtens</W>
+<W _input="sige" in="-3:vobj" out="-4:dobj|-2:[subj]">sige</W>
+<W _input="," in="-4:pnct" out="">,</W>
+<W _input="han" in="1:subj|4:[subj]|5:[subj]|10:[subj]" out="">han</W>
+<W _input="slap" in="-6:conj" out="-1:subj|1:pobj">slap</W>
+<W _input="for" in="-1:pobj" out="1:nobj">for</W>
+<W _input="at" in="-1:nobj" out="1:vobj">at</W>
+<W _input="være" in="-1:vobj" out="1:vobj|-4:[subj]">være</W>
+<W _input="dømt" in="-1:vobj" out="1:pobj|-5:[subj]">dømt</W>
+<W _input="til" in="-1:pobj" out="3:nobj">til</W>
+<W _input="livet" in="1:nobj" out="">livet</W>
+<W _input="igennem" in="1:mod" out="-1:nobj">igennem</W>
+<W _input="at" in="-3:nobj" out="-1:mod|1:vobj">at</W>
+<W _input="have" in="-1:vobj" out="-10:[subj]|1:dobj|5:pred">have</W>
+<W _input="det" in="-1:dobj" out="1:mod|2:mod|3:nobj">det</W>
+<W _input="der" in="-1:mod" out="">der</W>
+<W _input="sorte" in="-2:mod" out="">sorte</W>
+<W _input="hår" in="-3:nobj" out="">hår</W>
+<W _input="hængende" in="-5:pred" out="2:lobj">hængende</W>
+<W _input="lige" in="1:mod" out="">lige</W>
+<W _input="ned" in="-2:lobj" out="-1:mod">ned</W>
+<W _input="." in="-23:pnct" out="">.</W>
+</s>
+<s id="sofie-da78">
+<W _input="Hverken" in="2:mod" out="">Hverken</W>
+<W _input="skum" in="3:subj" out="1:coord">skum</W>
+<W _input="eller" in="-1:coord" out="-2:mod|1:conj">eller</W>
+<W _input="gelé" in="-1:conj" out="">gelé</W>
+<W _input="bed" in="" out="-3:subj|1:lobj|4:pnct">bed</W>
+<W _input="på" in="-1:lobj" out="1:nobj">på</W>
+<W _input="Sofies" in="-1:nobj" out="1:possd">Sofies</W>
+<W _input="hår" in="-1:possd" out="">hår</W>
+<W _input="." in="-4:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da79">
+<W _input="Nogle" in="2:mod" out="1:nobj">Nogle</W>
+<W _input="gange" in="-1:nobj" out="">gange</W>
+<W _input="syntes" in="" out="-2:mod|1:subj|5:vobj|2:pnct|18:pnct">syntes</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="," in="-2:pnct" out="">,</W>
+<W _input="hendes" in="2:subj" out="1:possd">hendes</W>
+<W _input="udseende" in="-1:possd" out="">udseende</W>
+<W _input="var" in="-5:vobj" out="-2:subj|2:pred">var</W>
+<W _input="så" in="1:mod" out="3:nobj">så</W>
+<W _input="mærkeligt" in="-2:pred" out="-1:mod|1:pnct">mærkeligt</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="at" in="-3:nobj" out="2:vobj">at</W>
+<W _input="hun" in="1:subj|2:[subj]|3:[subj]|6:[subj]|7:[subj]" out="">hun</W>
+<W _input="kunne" in="-2:vobj" out="-1:subj|1:vobj">kunne</W>
+<W _input="blive" in="-1:vobj" out="1:vobj|-2:[subj]">blive</W>
+<W _input="taget" in="-1:vobj" out="-3:[subj]|1:pobj">taget</W>
+<W _input="for" in="-1:pobj" out="1:nobj">for</W>
+<W _input="at" in="-1:nobj" out="1:vobj">at</W>
+<W _input="være" in="-1:vobj" out="-6:[subj]|1:vobj">være</W>
+<W _input="vanskabt" in="-1:vobj" out="-7:[subj]">vanskabt</W>
+<W _input="." in="-18:pnct" out="">.</W>
+</s>
+<s id="sofie-da80">
+<W _input="Hendes" in="2:subj|6:[subj]" out="1:possd">Hendes</W>
+<W _input="mor" in="-1:possd" out="">mor</W>
+<W _input="havde" in="" out="-2:subj|1:mod|4:vobj|9:pnct">havde</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="hvert" in="-1:nobj" out="1:nobj">hvert</W>
+<W _input="fald" in="-1:nobj" out="">fald</W>
+<W _input="talt" in="-4:vobj" out="-6:[subj]|1:pobj">talt</W>
+<W _input="om" in="-1:pobj" out="1:nobj">om</W>
+<W _input="en" in="-1:nobj" out="1:mod|2:nobj">en</W>
+<W _input="vanskelig" in="-1:mod" out="">vanskelig</W>
+<W _input="fødsel" in="-2:nobj" out="">fødsel</W>
+<W _input="." in="-9:pnct" out="">.</W>
+</s>
+<s id="sofie-da81">
+<W _input="Men" in="" out="1:conj">Men</W>
+<W _input="var" in="-1:conj" out="1:subj|2:mod|3:pred|4:pnct|14:pnct">var</W>
+<W _input="det" in="-1:subj" out="4:ref|5:rel">det</W>
+<W _input="virkelig" in="-2:mod" out="">virkelig</W>
+<W _input="fødselen" in="-3:pred" out="">fødselen</W>
+<W _input="," in="-4:pnct" out="">,</W>
+<W _input="der" in="-4:ref|1:subj" out="">der</W>
+<W _input="bestemte" in="-5:rel" out="-1:subj|1:dobj">bestemte</W>
+<W _input="hvordan" in="-1:dobj|5:[aobj]" out="2:rel">hvordan</W>
+<W _input="man" in="1:subj|4:[subj]" out="">man</W>
+<W _input="kom" in="-2:rel" out="-1:subj|1:pobj">kom</W>
+<W _input="til" in="-1:pobj" out="1:nobj">til</W>
+<W _input="at" in="-1:nobj" out="1:vobj">at</W>
+<W _input="se" in="-1:vobj" out="-5:[aobj]|-4:[subj]|1:part">se</W>
+<W _input="ud" in="-1:part" out="">ud</W>
+<W _input="?" in="-14:pnct" out="">?</W>
+</s>
+<nl>
+<s id="sofie-da82">
+<W _input="Var" in="" out="1:subj|2:mod|3:pred|11:pnct">Var</W>
+<W _input="det" in="-1:subj" out="3:nobj">det</W>
+<W _input="ikke" in="-2:mod" out="">ikke</W>
+<W _input="pudsigt" in="-3:pred" out="">pudsigt</W>
+<W _input="at" in="-3:nobj" out="3:vobj">at</W>
+<W _input="hun" in="2:subj" out="">hun</W>
+<W _input="ikke" in="1:mod" out="">ikke</W>
+<W _input="vidste" in="-3:vobj" out="-2:subj|-1:mod|1:dobj">vidste</W>
+<W _input="hvem" in="-1:dobj|2:[pred]" out="2:rel">hvem</W>
+<W _input="hun" in="1:subj" out="">hun</W>
+<W _input="var" in="-2:rel" out="-1:subj|-2:[pred]">var</W>
+<W _input="?" in="-11:pnct" out="">?</W>
+</s>
+<s id="sofie-da83">
+<W _input="Var" in="" out="1:subj|4:pred|14:pnct|5:pnct">Var</W>
+<W _input="det" in="-1:subj" out="5:nobj|1:mod|2:mod">det</W>
+<W _input="ikke" in="-1:mod" out="">ikke</W>
+<W _input="også" in="-2:mod" out="">også</W>
+<W _input="urimeligt" in="-4:pred" out="">urimeligt</W>
+<W _input="," in="-5:pnct" out="">,</W>
+<W _input="at" in="-5:nobj" out="3:vobj">at</W>
+<W _input="hun" in="2:subj|3:[subj]" out="">hun</W>
+<W _input="ikke" in="1:mod" out="">ikke</W>
+<W _input="kunne" in="-3:vobj" out="-2:subj|-1:mod|1:vobj">kunne</W>
+<W _input="bestemme" in="-1:vobj" out="-3:[subj]|1:dobj">bestemme</W>
+<W _input="sit" in="-1:dobj" out="1:mod|2:nobj">sit</W>
+<W _input="eget" in="-1:mod" out="">eget</W>
+<W _input="udseende" in="-2:nobj" out="">udseende</W>
+<W _input="?" in="-14:pnct" out="">?</W>
+</s>
+<s id="sofie-da84">
+<W _input="Det" in="1:subj|3:[subj]" out="">Det</W>
+<W _input="var" in="" out="-1:subj|1:mod|2:vobj|5:pnct">var</W>
+<W _input="bare" in="-1:mod" out="">bare</W>
+<W _input="kommet" in="-2:vobj" out="-3:[subj]|2:pred">kommet</W>
+<W _input="tilfældigt" in="1:mod" out="">tilfældigt</W>
+<W _input="drattende" in="-2:pred" out="-1:mod">drattende</W>
+<W _input="." in="-5:pnct" out="">.</W>
+</s>
+<s id="sofie-da85">
+<W _input="Hun" in="1:subj|4:[subj]" out="">Hun</W>
+<W _input="kunne" in="" out="-1:subj|1:mod|2:mod|3:vobj|6:pnct|7:coord|14:pnct">kunne</W>
+<W _input="måske" in="-1:mod" out="">måske</W>
+<W _input="selv" in="-2:mod" out="">selv</W>
+<W _input="vælge" in="-3:vobj" out="-4:[subj]|1:dobj">vælge</W>
+<W _input="sine" in="-1:dobj" out="1:possd">sine</W>
+<W _input="venner" in="-1:possd" out="">venner</W>
+<W _input="," in="-6:pnct" out="">,</W>
+<W _input="men" in="-7:coord" out="2:conj">men</W>
+<W _input="hun" in="1:subj|3:[subj]" out="">hun</W>
+<W _input="havde" in="-2:conj" out="-1:subj|1:mod|2:vobj">havde</W>
+<W _input="ikke" in="-1:mod" out="">ikke</W>
+<W _input="valgt" in="-2:vobj" out="1:dobj|-3:[subj]">valgt</W>
+<W _input="sig" in="-1:dobj" out="1:mod">sig</W>
+<W _input="selv" in="-1:mod" out="">selv</W>
+<W _input="." in="-14:pnct" out="">.</W>
+</s>
+<s id="sofie-da86">
+<W _input="Hun" in="1:subj|4:[subj]|6:[subj]" out="">Hun</W>
+<W _input="havde" in="" out="-1:subj|3:vobj|1:mod|7:pnct">havde</W>
+<W _input="ikke" in="-1:mod" out="1:mod">ikke</W>
+<W _input="engang" in="-1:mod" out="">engang</W>
+<W _input="valgt" in="-3:vobj" out="-4:[subj]|1:dobj">valgt</W>
+<W _input="at" in="-1:dobj" out="1:vobj">at</W>
+<W _input="være" in="-1:vobj" out="1:pred|-6:[subj]">være</W>
+<W _input="menneske" in="-1:pred" out="">menneske</W>
+<W _input="." in="-7:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da87">
+<W _input="Hvad" in="1:pred" out="">Hvad</W>
+<W _input="var" in="" out="-1:pred|1:subj|3:pnct">var</W>
+<W _input="et" in="-1:subj" out="1:nobj">et</W>
+<W _input="menneske" in="-1:nobj" out="">menneske</W>
+<W _input="?" in="-3:pnct" out="">?</W>
+</s>
+<nl>
+<s id="sofie-da88">
+<W _input="Sofie" in="1:subj" out="">Sofie</W>
+<W _input="så" in="" out="-1:subj|1:mod|2:lobj|7:pnct">så</W>
+<W _input="atter" in="-1:mod" out="">atter</W>
+<W _input="op" in="-2:lobj" out="1:mod">op</W>
+<W _input="på" in="-1:mod" out="1:nobj">på</W>
+<W _input="pigen" in="-1:nobj" out="1:mod">pigen</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="spejlet" in="-1:nobj" out="">spejlet</W>
+<W _input="." in="-7:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da89">
+<W _input="-" in="2:pnct" out="">-</W>
+<W _input="Jeg" in="1:subj" out="">Jeg</W>
+<W _input="tror" in="9:qobj" out="-2:pnct|-1:subj|2:vobj|8:pnct">tror</W>
+<W _input="jeg" in="1:subj|4:[subj]" out="">jeg</W>
+<W _input="går" in="-2:vobj" out="-1:subj|1:lobj|2:coord">går</W>
+<W _input="op" in="-1:lobj" out="">op</W>
+<W _input="og" in="-2:coord" out="1:conj">og</W>
+<W _input="laver" in="-1:conj" out="-4:[subj]|1:dobj">laver</W>
+<W _input="mine" in="-1:dobj" out="1:nobj">mine</W>
+<W _input="biologilektier" in="-1:nobj" out="">biologilektier</W>
+<W _input="," in="-8:pnct" out="">,</W>
+<W _input="sagde" in="" out="-9:qobj|1:subj|2:mod|7:pnct">sagde</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="for" in="-2:mod" out="1:nobj">for</W>
+<W _input="ligesom" in="-1:nobj" out="1:nobj">ligesom</W>
+<W _input="at" in="-1:nobj" out="1:vobj">at</W>
+<W _input="undskylde" in="-1:vobj" out="1:dobj">undskylde</W>
+<W _input="sig" in="-1:dobj" out="">sig</W>
+<W _input="." in="-7:pnct" out="">.</W>
+</s>
+<s id="sofie-da90">
+<W _input="I" in="3:mod" out="2:nobj">I</W>
+<W _input="næste" in="1:mod" out="">næste</W>
+<W _input="øjeblik" in="-2:nobj" out="-1:mod">øjeblik</W>
+<W _input="var" in="" out="-3:mod|1:subj|2:pred|5:pnct">var</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="ude" in="-2:pred" out="1:mod">ude</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="gangen" in="-1:nobj" out="">gangen</W>
+<W _input="." in="-5:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da91">
+<W _input="Nej" in="9:qobj" out="1:pnct|3:conj|8:pnct">Nej</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="jeg" in="1:subj" out="">jeg</W>
+<W _input="vil" in="-3:conj" out="-1:subj|1:mod|2:lobj">vil</W>
+<W _input="hellere" in="-1:mod" out="">hellere</W>
+<W _input="ud" in="-2:lobj" out="1:mod">ud</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="haven" in="-1:nobj" out="">haven</W>
+<W _input="," in="-8:pnct" out="">,</W>
+<W _input="tænkte" in="" out="-9:qobj|1:subj|2:mod|3:pnct">tænkte</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="så" in="-2:mod" out="">så</W>
+<W _input="." in="-3:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da92">
+<W _input="-" in="1:pnct" out="">-</W>
+<W _input="Mis" in="" out="-1:pnct|1:pnct|2:conj|4:conj|6:conj|7:pnct|3:pnct|5:pnct">Mis</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="mis" in="-2:conj" out="">mis</W>
+<W _input="," in="-3:pnct" out="">,</W>
+<W _input="mis" in="-4:conj" out="">mis</W>
+<W _input="," in="-5:pnct" out="">,</W>
+<W _input="mis" in="-6:conj" out="">mis</W>
+<W _input="!" in="-7:pnct" out="">!</W>
+</s>
+<nl>
+<s id="sofie-da93">
+<W _input="Sofie" in="1:subj|7:[subj]" out="">Sofie</W>
+<W _input="jagede" in="" out="-1:subj|1:dobj|2:lobj|5:coord|10:pnct">jagede</W>
+<W _input="katten" in="-1:dobj" out="">katten</W>
+<W _input="ud" in="-2:lobj" out="1:mod">ud</W>
+<W _input="på" in="-1:mod" out="1:nobj">på</W>
+<W _input="trappen" in="-1:nobj" out="">trappen</W>
+<W _input="og" in="-5:coord" out="1:conj">og</W>
+<W _input="lukkede" in="-1:conj" out="-7:[subj]|1:dobj|2:mod">lukkede</W>
+<W _input="døren" in="-1:dobj" out="">døren</W>
+<W _input="efter" in="-2:mod" out="1:nobj">efter</W>
+<W _input="sig" in="-1:nobj" out="">sig</W>
+<W _input="." in="-10:pnct" out="">.</W>
+</s>
+<p>
+<s id="sofie-da94">
+<W _input="Da" in="13:mod" out="2:vobj">Da</W>
+<W _input="hun" in="1:subj" out="">hun</W>
+<W _input="stod" in="-2:vobj" out="-1:subj|1:lobj|4:mod|10:pnct">stod</W>
+<W _input="ude" in="-1:lobj" out="1:mod">ude</W>
+<W _input="på" in="-1:mod" out="1:nobj">på</W>
+<W _input="grusgangen" in="-1:nobj" out="">grusgangen</W>
+<W _input="med" in="-4:mod" out="1:nobj|4:pred">med</W>
+<W _input="det" in="-1:nobj" out="1:mod|2:nobj">det</W>
+<W _input="mystiske" in="-1:mod" out="">mystiske</W>
+<W _input="brev" in="-2:nobj" out="">brev</W>
+<W _input="i" in="-4:pred" out="1:nobj">i</W>
+<W _input="hånden" in="-1:nobj" out="">hånden</W>
+<W _input="," in="-10:pnct" out="">,</W>
+<W _input="fik" in="" out="-13:mod|1:subj|2:mod|4:dobj|7:pnct">fik</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="med" in="-2:mod" out="1:nobj">med</W>
+<W _input="ét" in="-1:nobj" out="">ét</W>
+<W _input="en" in="-4:dobj" out="1:mod|2:nobj">en</W>
+<W _input="underlig" in="-1:mod" out="">underlig</W>
+<W _input="fornemmelse" in="-2:nobj" out="">fornemmelse</W>
+<W _input="." in="-7:pnct" out="">.</W>
+</s>
+<s id="sofie-da95">
+<W _input="Hun" in="1:subj" out="">Hun</W>
+<W _input="følte" in="" out="-1:subj|1:dobj|2:mod|3:pnct|4:mod|18:pnct">følte</W>
+<W _input="det" in="-1:dobj" out="">det</W>
+<W _input="omtrent" in="-2:mod" out="">omtrent</W>
+<W _input="," in="-3:pnct" out="">,</W>
+<W _input="som" in="-4:mod" out="1:nobj">som</W>
+<W _input="om" in="-1:nobj" out="2:vobj">om</W>
+<W _input="hun" in="1:subj" out="">hun</W>
+<W _input="var" in="-2:vobj" out="-1:subj|1:pred">var</W>
+<W _input="en" in="-1:pred" out="1:nobj|2:pnct|3:ref|7:rel">en</W>
+<W _input="dukke" in="-1:nobj" out="">dukke</W>
+<W _input="," in="-2:pnct" out="">,</W>
+<W _input="der" in="-3:ref|4:subj|5:[subj]" out="">der</W>
+<W _input="med" in="3:mod" out="1:nobj">med</W>
+<W _input="et" in="-1:nobj" out="1:nobj">et</W>
+<W _input="trylleslag" in="-1:nobj" out="">trylleslag</W>
+<W _input="var" in="-7:rel" out="-4:subj|-3:mod|1:vobj">var</W>
+<W _input="blevet" in="-1:vobj" out="-5:[subj]|1:pred">blevet</W>
+<W _input="levende" in="-1:pred" out="">levende</W>
+<W _input="." in="-18:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da96">
+<W _input="Var" in="" out="1:subj|2:mod|3:pred|4:pnct|25:pnct">Var</W>
+<W _input="det" in="-1:subj" out="4:nobj">det</W>
+<W _input="ikke" in="-2:mod" out="">ikke</W>
+<W _input="mærkeligt" in="-3:pred" out="">mærkeligt</W>
+<W _input="," in="-4:pnct" out="">,</W>
+<W _input="at" in="-4:nobj" out="2:vobj|9:pnct|10:conj">at</W>
+<W _input="hun" in="1:subj" out="">hun</W>
+<W _input="var" in="-2:vobj" out="-1:subj|1:pred|4:mod">var</W>
+<W _input="i" in="-1:pred" out="1:nobj">i</W>
+<W _input="verden" in="-1:nobj" out="">verden</W>
+<W _input="lige" in="1:mod" out="">lige</W>
+<W _input="her" in="-4:mod" out="-1:mod|1:coord">her</W>
+<W _input="og" in="-1:coord" out="1:conj">og</W>
+<W _input="nu" in="-1:conj" out="">nu</W>
+<W _input="," in="-9:pnct" out="">,</W>
+<W _input="at" in="-10:conj" out="2:vobj">at</W>
+<W _input="hun" in="1:subj|2:[subj]" out="">hun</W>
+<W _input="kunne" in="-2:vobj" out="-1:subj|1:vobj">kunne</W>
+<W _input="liste" in="-1:vobj" out="-2:[subj]|1:mod">liste</W>
+<W _input="omkring" in="-1:mod" out="1:mod">omkring</W>
+<W _input="i" in="-1:mod" out="1:nobj">i</W>
+<W _input="sådan" in="-1:nobj" out="1:nobj">sådan</W>
+<W _input="et" in="-1:nobj" out="1:mod|2:nobj">et</W>
+<W _input="forunderligt" in="-1:mod" out="">forunderligt</W>
+<W _input="eventyr" in="-2:nobj" out="">eventyr</W>
+<W _input="?" in="-25:pnct" out="">?</W>
+</s>
+<nl>
+<s id="sofie-da97">
+<W _input="Sherekan" in="1:subj|6:[subj]" out="">Sherekan</W>
+<W _input="sprang" in="" out="-1:subj|1:mod|4:coord|2:mod|11:pnct">sprang</W>
+<W _input="let" in="-1:mod" out="">let</W>
+<W _input="over" in="-2:mod" out="1:nobj">over</W>
+<W _input="gruset" in="-1:nobj" out="">gruset</W>
+<W _input="og" in="-4:coord" out="1:conj">og</W>
+<W _input="smuttede" in="-1:conj" out="-6:[subj]|1:mod">smuttede</W>
+<W _input="ind" in="-1:mod" out="1:mod">ind</W>
+<W _input="mellem" in="-1:mod" out="1:nobj">mellem</W>
+<W _input="nogle" in="-1:nobj" out="1:mod|2:nobj">nogle</W>
+<W _input="tætte" in="-1:mod" out="">tætte</W>
+<W _input="ribsbuske" in="-2:nobj" out="">ribsbuske</W>
+<W _input="." in="-11:pnct" out="">.</W>
+</s>
+<s id="sofie-da98">
+<W _input="En" in="" out="1:mod|2:nobj|3:pnct|4:<pred>|5:<mod>|19:pnct">En</W>
+<W _input="levende" in="-1:mod" out="">levende</W>
+<W _input="kat" in="-2:nobj" out="">kat</W>
+<W _input="," in="-3:pnct" out="">,</W>
+<W _input="lyslevende" in="-4:<pred>" out="">lyslevende</W>
+<W _input="fra" in="-5:<mod>" out="1:nobj|4:mod">fra</W>
+<W _input="de" in="-1:nobj" out="1:mod|2:nobj">de</W>
+<W _input="hvide" in="-1:mod" out="">hvide</W>
+<W _input="knurhår" in="-2:nobj" out="">knurhår</W>
+<W _input="til" in="-4:mod" out="1:nobj">til</W>
+<W _input="den" in="-1:nobj" out="1:mod|2:nobj|4:mod">den</W>
+<W _input="daskende" in="-1:mod" out="">daskende</W>
+<W _input="hale" in="-2:nobj" out="">hale</W>
+<W _input="helt" in="1:mod" out="">helt</W>
+<W _input="bagest" in="-4:mod" out="-1:mod|1:mod">bagest</W>
+<W _input="på" in="-1:mod" out="1:nobj">på</W>
+<W _input="den" in="-1:nobj" out="1:mod|2:nobj">den</W>
+<W _input="glatte" in="-1:mod" out="">glatte</W>
+<W _input="krop" in="-2:nobj" out="">krop</W>
+<W _input="." in="-19:pnct" out="">.</W>
+</s>
+<s id="sofie-da99">
+<W _input="Den" in="1:subj" out="">Den</W>
+<W _input="var" in="" out="-1:subj|1:mod|2:pred|4:pnct|5:coord|17:pnct">var</W>
+<W _input="også" in="-1:mod" out="">også</W>
+<W _input="i" in="-2:pred" out="1:nobj">i</W>
+<W _input="haven" in="-1:nobj" out="">haven</W>
+<W _input="," in="-4:pnct" out="">,</W>
+<W _input="men" in="-5:coord" out="2:conj">men</W>
+<W _input="den" in="1:subj" out="">den</W>
+<W _input="var" in="-2:conj" out="-1:subj|1:mod|2:pred|5:mod">var</W>
+<W _input="næppe" in="-1:mod" out="">næppe</W>
+<W _input="klar" in="-2:pred" out="1:pobj">klar</W>
+<W _input="over" in="-1:pobj" out="1:nobj">over</W>
+<W _input="det" in="-1:nobj" out="">det</W>
+<W _input="på" in="-5:mod" out="1:nobj">på</W>
+<W _input="samme" in="-1:nobj" out="2:pobj|1:nobj">samme</W>
+<W _input="måde" in="-1:nobj" out="">måde</W>
+<W _input="som" in="-2:pobj" out="1:nobj">som</W>
+<W _input="Sofie" in="-1:nobj" out="">Sofie</W>
+<W _input="." in="-17:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da100">
+<W _input="Efterhånden" in="10:mod" out="1:pobj">Efterhånden</W>
+<W _input="som" in="-1:pobj" out="2:vobj">som</W>
+<W _input="Sofie" in="1:subj" out="">Sofie</W>
+<W _input="tænkte" in="-2:vobj" out="-1:subj|1:pobj|6:pnct">tænkte</W>
+<W _input="over" in="-1:pobj" out="1:nobj">over</W>
+<W _input="at" in="-1:nobj" out="2:vobj">at</W>
+<W _input="hun" in="1:subj" out="">hun</W>
+<W _input="var" in="-2:vobj" out="-1:subj|1:pred">var</W>
+<W _input="til" in="-1:pred" out="">til</W>
+<W _input="," in="-6:pnct" out="">,</W>
+<W _input="kom" in="" out="-10:mod|1:subj|2:mod|3:lobj|14:pnct">kom</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="også" in="-2:mod" out="">også</W>
+<W _input="i" in="-3:lobj" out="1:nobj">i</W>
+<W _input="tanke" in="-1:nobj" out="1:pobj">tanke</W>
+<W _input="om" in="-1:pobj" out="1:pnct|2:nobj">om</W>
+<W _input="," in="-1:pnct" out="">,</W>
+<W _input="at" in="-2:nobj" out="3:vobj">at</W>
+<W _input="hun" in="2:subj|3:[subj]" out="">hun</W>
+<W _input="ikke" in="1:mod" out="">ikke</W>
+<W _input="skulle" in="-3:vobj" out="-2:subj|-1:mod|1:vobj">skulle</W>
+<W _input="være" in="-1:vobj" out="-3:[subj]|1:pred|2:mod">være</W>
+<W _input="her" in="-1:pred" out="">her</W>
+<W _input="altid" in="-2:mod" out="">altid</W>
+<W _input="." in="-14:pnct" out="">.</W>
+</s>
+<nl>
+<s id="sofie-da101">
+<W _input="-" in="2:pnct" out="">-</W>
+<W _input="Jeg" in="1:subj" out="">Jeg</W>
+<W _input="er" in="5:qobj" out="-1:subj|1:pred|-2:pnct|3:mod|4:pnct">er</W>
+<W _input="i" in="-1:pred" out="1:nobj">i</W>
+<W _input="verden" in="-1:nobj" out="">verden</W>
+<W _input="nu" in="-3:mod" out="">nu</W>
+<W _input="," in="-4:pnct" out="">,</W>
+<W _input="tænkte" in="" out="-5:qobj|1:subj|2:pnct">tænkte</W>
+<W _input="hun" in="-1:subj" out="">hun</W>
+<W _input="." in="-2:pnct" out="">.</W>
+</s>
+<s id="sofie-da102">
+<W _input="Men" in="" out="3:conj|6:pnct">Men</W>
+<W _input="en" in="2:mod" out="1:nobj">en</W>
+<W _input="dag" in="-1:nobj" out="">dag</W>
+<W _input="er" in="-3:conj" out="-2:mod|1:subj|2:pred">er</W>
+<W _input="jeg" in="-1:subj" out="">jeg</W>
+<W _input="væk" in="-2:pred" out="">væk</W>
+<W _input="." in="-6:pnct" out="">.</W>
+</s>

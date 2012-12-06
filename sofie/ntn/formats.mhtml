@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html> 
+<head>
+	<title>Nordic Treebank Network: Treebank Tools</title>
+	<link rel="sibling" href="tools.html" id="Tools" title="Tools">
+	<link rel="self" href="http://www.id.cbs.dk/~mtk/ntn/formats.html" id="Formats" title="Representation Format">
+    <link rel="sibling" href="tiger-xml.html" id="TIGER-XML" title="TIGER-XML">
+</head>
+
+<body>
+
+<h1 align="center">Nordic Treebank Network.<br>
+	Representation formats</h1>
+
+
+<a name="Purpose"></a>
+<h2>Purpose</h2>
+
+	<p>The purpose of this page is to document the representation
+	formats used in the treebank projects of the Nordic Treebank
+	Network, and to propose candidates for common representation
+	formats, so that data can be imported/exported by the different
+	tools used in the NTN.</p>
+
+<a name="Formats"></a>
+<h2>Proposed Common Representation Formats</h2>
+
+<table align="center" border="1" rules="all">
+	<tr align="left">
+		<th>Format</th>
+		<th>Encoding scheme</th>
+		<th>Description</th>
+		<th>Supported corpus types</th>
+		<th>Supported theories</th>
+		<th>Supported linguistic representations</th>
+		<th>Provided tools</th>
+		<th>Treebank projects using format</th>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://www.nist.gov/speech/atlas/"
+				target="_parent">ATLAS</a>
+		</td>
+		<td>XML</td>
+		<td>ATLAS is a joint initiative of <a
+			href="http://www.nist.gov/" target="_parent">NIST</a>, <a
+			href="http://www.mitre.org/" target="_parent">MITRE</a>
+			and the <a href="http://www.ldc.upenn.edu/"
+			target="_parent">LDC</a> to build a general purpose
+			annotation architecture and a data interchange format.
+			The starting point is the <a
+			href="http://www.ldc.upenn.edu/sb/home/publications.html#specom00"
+			target="_parent">annotation graph</a> model, with some
+			significant generalizations.  An <a
+			href="http://www.ldc.upenn.edu/sb/home/publications.html#lrec00-atlas"
+			target="_parent">LREC paper</a> describes the model.
+		</td>
+		<td>Generic: text, speech, dialogue, video, etc.</td>
+		<td>Generic</td>
+		<td>Directed graphs connecting annotations associated with
+			regions in an input (including higher-dimensional input
+			such as video, conversation, multi-modal input, etc.). 
+			The regions are specified by means of so-called anchors.</td>
+		<td><a href="http://www.nist.gov/speech/atlas/jatlas/"
+			target="_parent">jATLAS</a> (Java library)
+		</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://www.ims.uni-stuttgart.de/projekte/TIGER/TIGERSearch/doc/html/TigerXML.html" target="_parent">TIGER XML</a>
+		</td>
+		<td>XML</td>
+		<td>TIGER XML is used for encoding sentences (or other
+			linguistically meaningful segments) which have been
+			annotated with directed acyclic graphs. This means that a
+			wide range of linguistic descriptions like syntax trees,
+			functional structures, dependency-style structures,
+			predicate-argument structures can be accommodated.
+			A node in a TIGERSearch graph structure may be labelled with
+			a feature record. A feature record is a restricted form of a
+			feature-value structure or attribute-value structures as
+			known from unification-based grammar formalisms. TIGER XML 
+			is described in the following <a
+			href="http://www.ims.uni-stuttgart.de/projekte/corplex/paper/lezius/lrec2000.pdf">paper</a>.
+			</td>
+		<td>Text</td>
+		<td>Generic</td>
+		<td>Directed acyclic graphs with a single root node. Nodes may
+			have an associated feature record.</td>
+		<td><p><a href="http://www.ims.uni-stuttgart.de/projekte/TIGER/TIGERSearch" target="_parent">TIGERSearch</a></p>
+			<a
+			href="http://www.ims.uni-stuttgart.de/projekte/TIGER/TIGERSearch/doc/html/TIGERRegistry_Indexing_Filters.html"
+			target="_parent">Conversion filters</a>
+
+		</td>
+		<td><a href="http://www.ims.uni-stuttgart.de/projekte/TIGER/"
+			target="_parent">TIGER/Negra corpus</a>		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://www.cs.vassar.edu/XCES/"
+				target="_parent">XCES</a>
+		</td>
+		<td>XML</td>
+		<td>The Corpus Encoding Standard (CES) is a part of the EAGLES
+			Guidelines developed for language engineering research and
+			applications. CES is an SGML-based, TEI-conformant
+			specification of a minimal encoding level that corpora must
+			achieve to be considered standardized in terms of descriptive
+			representation (marking of structural and typographic
+			information) as well as general architecture (so as to be
+			maximally suited for use in a text database). It also provides
+			encoding specifications for linguistic annotation, together
+			with a data architecture for linguistic corpora. A section of
+			CES on speech annotation (part 6) is under construction.
+			Projects using CES are listed here. An XML version of CES
+			called XCES is under development.</td>
+		<td>Generic: text, speech, dialogue, video, etc.</td>
+		<td>Generic</td>
+		<td>Directed graphs connecting nodes with associated feature
+			records.</td>
+		<td></td>
+	</tr>
+</table>
+
+<a name="Literature"></a>
+<h2>Literature</h2>
+
+	<ul>
+		<li> Steven Bird and Mark Liberman, <a
+			href="http://www.ldc.upenn.edu/annotation/"
+			target="_parent">Linguistic Annotation</a>, homepage,
+			Linguistic Data Consortium, University of Pennsylvania.
+
+		<li> <a href="http://mate.nis.sdu.dk/about/D1.1/"
+			target="_parent">MATE Deliverable D1.1. Supported Coding Schemes</a>
+	</ul>	
+
+</body>
+</html>

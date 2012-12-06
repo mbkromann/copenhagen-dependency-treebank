@@ -1,0 +1,393 @@
+This is TeX, Version 3.14159 (Web2C 7.4.5) (format=latex 2003.9.22)  6 MAR 2004 10:05
+**tools.slides
+(./tools.slides.tex
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/slides.cls
+Document Class: slides 1997/08/15 v2.3z Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/slides.def
+File: slides.def 1997/08/15 v2.3z SLiTeX definitions
+ hacks, slides,
+\c@page=\count79
+ picture, mods,
+\@smashboxa=\box26
+\@smashboxb=\box27
+\@smashboxc=\box28
+
+output, init) (/usr/share/texmf/tex/latex/base/sfonts.def
+File: sfonts.def 1998/06/12 v2.2e Standard LaTeX slide font definitions
+
+(/usr/share/texmf/tex/latex/base/ot1lcmss.fd
+File: ot1lcmss.fd 1998/06/12 v2.2e Standard LaTeX slide font definitions
+))
+\c@minutes=\count80
+\c@seconds=\count81
+\c@mv@invisible=\count82
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lcmss/m/n on input line 364.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lcmm/m/it on input line 367.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lcmsy/m/n on input line 369.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lcmex/m/n on input line 371.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `invisible'
+(Font)                  OT1/cmr/m/n --> OT1/lcmss/m/In on input line 374.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `invisible'
+(Font)                  OML/cmm/m/it --> OML/lcmm/m/Iit on input line 376.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `invisible'
+(Font)                  OMS/cmsy/m/n --> OMS/lcmsy/m/In on input line 378.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `invisibl
+e'
+(Font)                  OMX/cmex/m/n --> OMX/lcmex/m/In on input line 380.
+)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/usr/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2001/08/31 v1.1 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 125.
+
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+(/usr/share/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf/tex/latex/psnfss/times.sty
+Package: times 2002/09/08 PSNFSS-v9.0a (SPQR) 
+)
+(/usr/share/texmf/tex/latex/psnfss/mathptm.sty
+Package: mathptm 2002/09/08 PSNFSS-v9.0a Times w/ Math (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lcmss/m/n --> OT1/ptmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `invisible'
+(Font)                  OT1/lcmss/m/In --> OT1/ptmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/lcmm/m/it --> OML/ptmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `invisible'
+(Font)                  OML/lcmm/m/Iit --> OML/ptmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lcmsy/m/n --> OMS/pzccm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `invisible'
+(Font)                  OMS/lcmsy/m/In --> OMS/pzccm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lcmex/m/n --> OMX/psycm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `invisibl
+e'
+(Font)                  OMX/lcmex/m/In --> OMX/psycm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `invisible'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `invisible'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+)
+(/usr/share/texmf/tex/latex/misc/isolatin1.sty
+ISO-latin-1 input coding, version 1.0pf of 30-Mar-1995.)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2001/08/31 v1.1 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+)
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen104
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count83
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count84
+\leftroot@=\count85
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count86
+\DOTSCASE@=\count87
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count88
+\c@MaxMatrixCols=\count89
+\dotsspace@=\muskip10
+\c@parentequation=\count90
+\dspbrk@lvl=\count91
+\tag@help=\toks16
+\row@=\count92
+\column@=\count93
+\maxfields@=\count94
+\andhelp@=\toks17
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks18
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf/tex/latex/amsmath/amscd.sty
+Package: amscd 1999/11/29 v2.0
+\athelp@=\toks20
+\minaw@=\dimen113
+\bigaw@=\dimen114
+\minCDarrowwidth=\dimen115
+)
+(/usr/share/texmf/tex/latex/tools/verbatim.sty
+Package: verbatim 2001/03/12 v1.5p LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read1
+)
+(/usr/share/texmf/tex/generic/babel/babel.sty
+Package: babel 2001/03/01 v3.7h The Babel package
+
+(/usr/share/texmf/tex/generic/babel/danish.ldf
+Language: danish 2001/01/30 v1.3n Danish support from the babel system
+
+(/usr/share/texmf/tex/generic/babel/babel.def
+File: babel.def 2001/03/01 v3.7h Babel common definitions
+\babel@savecnt=\count95
+\U@D=\dimen116
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Danish'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@danish = a dialect from \language0
+Package babel Info: Making " an active character on input line 62.
+) (/usr/share/texmf/tex/generic/babel/english.ldf
+Language: english 2001/04/15 v3.3l English support from the babel system
+\l@canadian = a dialect from \language\l@english 
+))
+\c@sentence=\count96
+ (./tools.slides.aux)
+\openout1 = `tools.slides.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/lcmss/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 31.
+
+(/usr/share/texmf/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+\c@mypart=\count97
+\c@myslide=\count98
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <19.907> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 94.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 96
+.
+
+(/usr/share/texmf/tex/latex/psnfss/ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 96
+.
+
+(/usr/share/texmf/tex/latex/psnfss/omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 96
+.
+
+(/usr/share/texmf/tex/latex/psnfss/omspzccm.fd
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 96
+.
+
+(/usr/share/texmf/tex/latex/psnfss/omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 96.
+
+(/usr/share/texmf/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <19.907> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16.59> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13.82> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+
+Overfull \hbox (125.35826pt too wide) in paragraph at lines 96--116
+[][] 
+ []
+
+[1
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <23.89> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 120.
+File: figs/cmol-logo.eps Graphic file (type eps)
+ <figs/cmol-logo.eps> [2] [3]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 165.
+
+ (/usr/share/texmf/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (1.31079pt too wide) in paragraph at lines 177--182
+[][]\OT1/phv/b/n/19.907 primary/secondary edge dis-tinc-tion[]\OT1/phv/m/n/19.9
+07 : DTAG al-lows the user
+ []
+
+[4]
+File: figs/coref.eps Graphic file (type eps)
+ <figs/coref.eps>
+File: figs/coref-tiger.eps Graphic file (type eps)
+ <figs/coref-tiger.eps> [5]
+Overfull \hbox (4.39745pt too wide) in paragraph at lines 202--204
+[][]\OT1/phv/b/n/19.907 Cross-sentential edges[]\OT1/phv/m/n/19.907 : Edges be-
+tween dif-fer-ent sen-tences
+ []
+
+
+Overfull \hbox (4.39731pt too wide) in paragraph at lines 204--209
+\OT1/phv/m/n/19.907 thereby dou-bling the num-ber of nodes and edges in the gra
+ph. 
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[][]\OT1/phv/b/n/19.907 edges cross-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
+[]\OT1/phv/m/n/19.907 terminal/non-ter-mi-nal:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
+[]\OT1/phv/m/n/19.907 restricted: doc-u-ment
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 248--249
+[]\OT1/phv/m/n/19.907 unrestricted: rec-og-nize
+ []
+
+
+Overfull \hbox (88.45274pt too wide) in paragraph at lines 220--255
+[][] 
+ []
+
+
+Overfull \vbox (51.3714pt too high) has occurred while \output is active []
+
+
+[7]
+Overfull \hbox (30.03738pt too wide) in paragraph at lines 267--269
+[][]\OT1/phv/b/n/19.907 phrase/dependency sup-port[]\OT1/phv/m/n/19.907 : works
+ with both phrase-structure
+ []
+
+
+Overfull \hbox (26.71281pt too wide) in paragraph at lines 276--278
+[][]\OT1/phv/b/n/19.907 text-based[]\OT1/phv/m/n/19.907 : no sup-port for link-
+ing nodes to ex-ter-nal sound/video
+ []
+
+[8]
+Overfull \hbox (8.21988pt too wide) in paragraph at lines 290--295
+[][]\OT1/phv/b/n/19.907 dependency graphs[]\OT1/phv/m/n/19.907 : fa-cil-i-tate 
+ex-change of de-pen-dency tree-
+ []
+
+
+Overfull \hbox (4.01987pt too wide) in paragraph at lines 295--302
+[][]\OT1/phv/b/n/19.907 separate source and an-no-ta-tion[]\OT1/phv/m/n/19.907 
+: al-low sep-a-ra-tion of source
+ []
+
+
+Overfull \hbox (30.18127pt too wide) in paragraph at lines 295--302
+\OT1/phv/m/n/19.907 source file; stan-dard-ize fea-tures, eg: \OT1/pcr/m/n/19.9
+07 <\OT1/phv/m/n/19.907 t word="This" speaker="A"
+ []
+
+[9] [10] (./tools.slides.aux) ) 
+Here is how much of TeX's memory you used:
+ 2064 strings out of 95847
+ 25726 string characters out of 1195962
+ 77022 words of memory out of 1000001
+ 4965 multiletter control sequences out of 10000+50000
+ 15070 words of font info for 39 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 27i,9n,24p,231b,321s stack positions out of 1500i,500n,5000p,200000b,5000s
+
+Output written on tools.slides.dvi (10 pages, 14700 bytes).

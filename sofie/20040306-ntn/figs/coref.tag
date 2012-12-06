@@ -1,0 +1,10 @@
+<W in="1:subj|2:[subj]" out="6:ref">This</W>
+<W in="" out="-1:subj|1:vobj">will</W>
+<W in="-1:vobj" out="1:pred|3:pnct|-2:[subj]">be</W>
+<W in="-1:pred" out="1:nobj">an</W>
+<W in="-1:nobj" out="">example</W>
+<W in="-3:pnct" out="">.</W>
+<W in="-6:ref|1:subj" out="">It</W>
+<W in="" out="-1:subj|1:dobj|2:pnct">demonstrates</W>
+<W in="-1:dobj" out="">coreferentiality</W>
+<W in="-2:pnct" out="">.</W>
