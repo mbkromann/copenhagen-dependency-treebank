@@ -23,7 +23,9 @@ function CopyData()
         mkdir -p data/$1/Translog-II
         echo "cp  $file $new"
         cp -r  $file $new
+		chmod +rw $new
     done
+	
 
     for file in ../$1/Alignment/*.{src,tgt,atag}
     do
@@ -35,6 +37,7 @@ function CopyData()
         echo "cp  $file $new"
         mkdir -p data/$1/Alignment
         cp -r  $file $new
+		chmod +rw $new
     done
 
 }
@@ -59,18 +62,18 @@ function MergeEvents2Trl()
           continue
         fi
 
-        echo "MergeAtagTrl.pl -T $file -A $atag -O $outp.Atag.xml"
-        ./MergeAtagTrl.pl -T $file -A $atag -O "$outp.Atag.xml"
+        echo "MergeAtagTrl.pl -T $file -A $atag -O $outp.atag.xml"
+        ./MergeAtagTrl.pl -T $file -A $atag -O "$outp.atag.xml"
 
         if [ $CASMACAT == 0 ] ; then
-           echo "FixMod2Trl.pl   -T "$outp.Atag.xml" -O $outp.Event.xml"
-           ./FixMod2Trl.pl -T "$outp.Atag.xml" -O  "$outp.Event.xml";
+           echo "FixMod2Trl.pl   -T "$outp.atag.xml" -O $outp.Event.xml"
+           ./FixMod2Trl.pl -T "$outp.atag.xml" -O  "$outp.Event.xml";
         else
-           echo "FixMod2Trl2.pl  -T "$outp.Atag.xml" -O $outp.Event.xml"
-           ./FixMod2Trl2.pl -T "$outp.Atag.xml" -O  "$outp.Event.xml";
+           echo "FixMod2Trl2.pl  -T "$outp.atag.xml" -O $outp.Event.xml"
+           ./FixMod2Trl2.pl -T "$outp.atag.xml" -O  "$outp.Event.xml";
         fi
 
-        rm -f $outp.Atag.xml
+        rm -f $outp.atag.xml
 
         echo "";
     done
@@ -92,7 +95,8 @@ function Trl2TokenTables ()
           continue
         fi
 
-        echo "Token Tables -T $file -O $tabs.{st,tt,fd,kd,pu,fu,au}"
+        echo "Trl2ProgGraphTables -T $file -O $tabs.{st,tt,fd,kd,pu,fu,au}"
+#        ./Trl2ProgGraphTablesKF.pl -T $file -O $tabs
         ./Trl2ProgGraphTables.pl -T $file -O $tabs
 #        ./Trl2TargetTokenTables.pl -T $file > $tabs.tt
 #        ./Trl2TargetAUTables.pl -T $file > $tabs.au
@@ -300,7 +304,7 @@ elif [ "$1" == "treex" ]; then
     exit;
 
 ## make Event files
-elif [ "$1" == "event" ]; then
+elif [ "$1" == "events" ]; then
     if [ "$2" == "all" ]; then STUDY=$STUDY
     else STUDY=$2;
     fi

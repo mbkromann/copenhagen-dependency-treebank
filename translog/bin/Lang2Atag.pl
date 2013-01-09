@@ -15,14 +15,15 @@ my $usage =
   "  -A   file root {src.tgt.atag}\n".
   "  -s   source language \n".
   "  -t   target language \n".
+  "  -x   aligner (person) \n".
   "  -f   tag 1:src,2:tgt,3:atag \n".
   "  -h   this help \n".
   "\n";
 
-use vars qw ($opt_s $opt_t $opt_f $opt_A $opt_v $opt_h);
+use vars qw ($opt_s $opt_t $opt_f $opt_x $opt_A $opt_v $opt_h);
 
 use Getopt::Std;
-getopts ('s:t:f:A:hv:');
+getopts ('x:s:t:f:A:hv:');
 
 die $usage if defined($opt_h);
 
@@ -31,7 +32,7 @@ die $usage if (!defined($opt_f) || !defined($opt_A) || !defined($opt_s) || !defi
 
 if($opt_f == 1) {LangInsertToken("$opt_A.src", $opt_s);}
 if($opt_f == 2) {LangInsertToken("$opt_A.tgt", $opt_t); }
-if($opt_f == 3) {LangInsertAtag("$opt_A.atag", $opt_s, $opt_t);}
+if($opt_f == 3) {LangInsertAtag("$opt_A.atag", $opt_s, $opt_t, $opt_x);}
 
 exit;
 
@@ -60,7 +61,7 @@ sub LangInsertToken {
 
 
 sub LangInsertAtag {
-  my ($fn, $s, $t) = @_;
+  my ($fn, $s, $t, $x) = @_;
 
   printf STDERR "Reading: $fn\n";
 
@@ -71,11 +72,15 @@ sub LangInsertAtag {
 
   while(defined($_ = <F>)) {
     
-    if(/<DTAGalign/) {
+    if(/<DTAGalign/ && /alignment=/) {
+      if(/alignment=/) { print STDERR "already aligned $fn\n"; }
+	  print STDOUT $_;
+	}
+	elsif(/<DTAGalign/) {
       chomp;
       if(/source=/ &&  !/source=\"$s\"/) { print STDERR "Warning  switching $_\tto\tsource=\"$s\" \n"; }
       if(/target=/ &&  !/target=\"$t\"/) { print STDERR "Warning  switching $_\tto\ttarget=\"$t\" \n"; }
-      print STDOUT "<DTAGalign source=\"$s\" target=\"$t\" \>\n";
+      print STDOUT "<DTAGalign alignment=\"$x\" source=\"$s\" target=\"$t\" \>\n";
     }
     else{ print STDOUT $_;}
   }
