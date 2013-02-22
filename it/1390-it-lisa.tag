@@ -152,9 +152,9 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="1:nobj">di</W>
 <W lemma="tutto" msd="PI" tag="PRO&3a;indef" in="-1:nobj" out="">tutto</W>
 <W lemma="per" msd="SP" tag="PRE" in="-3:goal" out="1:vobj">per</W>
-<W compound="�sostener�li" lemma="sostenere" msd="VAF" tag="VER&3a;infi" in="-1:vobj|0:²dobj¹|-25:²coref" out="-5:[subj]|2:conj|0:²dobj¹|2:²coref²">sostenerli</W>
+<W compound="sostenerli" lemma="sostenere" msd="VAF" tag="VER&3a;infi" in="-1:vobj|0:²dobj¹|-25:²coref" out="-5:[subj]|2:conj|0:²dobj¹|2:²coref²">sostenerli</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
-<W compound="�allenar�li" lemma="allenare" msd="VAF" tag="VER&3a;infi" in="-2:conj|0:²dobj¹|-2:²coref²" out="-1:coord|-7:[subj]|0:²dobj¹|5:coref²">allenarli</W>
+<W compound="allenarli" lemma="allenare" msd="VAF" tag="VER&3a;infi" in="-2:conj|0:²dobj¹|-2:²coref²" out="-1:coord|-7:[subj]|0:²dobj¹|5:coref²">allenarli</W>
 <W lemma="di" msd="SP" tag="PRE" in="-7:cons" out="1:nobj">di</W>
 <W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">modo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="9:vobj">che</W>
