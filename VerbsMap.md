@@ -1,0 +1,14 @@
+## Verbs Map ##
+
+| Dependent | Complement roles | Adjunct roles |
+|:----------|:-----------------|:--------------|
+| noun      | subject ([subj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_subj))[[BR](BR.md)] direct object ([dobj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_dobj))[[BR](BR.md)] indirect object ([iobj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_iobj))[[BR](BR.md)] predicative ([pred](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_predN)) | external topic ([xtop](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_xtop))[[BR](BR.md)] vocative ([voc](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_voc))[[BR](BR.md)] parenthetical apposition ([appa](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/nounsT.html#_appaV)) |
+| verb      | verbal object ([vobj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_Vvobj))[[BR](BR.md)] predicative ([pred](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_predV))[[BR](BR.md)] quotation object ([qobj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_)) | verbal relative ([rel](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_relV))[[BR](BR.md)] subject-oriented modifier (mods)[[BR](BR.md)] object-oriented modifier (modo)[[BR](BR.md)] modifier (mod) |
+| adjective | predicative ([pred](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_predA))[[BR](BR.md)] adjectival object ([aobj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_aobj))[[BR](BR.md)] particle ([part](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_)) | modifier (mod) |
+| preposition | locational-directional object ([lobj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_lobj))[[BR](BR.md)] prepositional object ([pobj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_Vpobj))[[BR](BR.md)] predicative ([pred](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_predV)) | modifier (mod) |
+| adverbial | locational-directional object ([lobj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_))[[BR](BR.md)] temporal-durational object ([tobj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_))[[BR](BR.md)] adverbial object ([avobj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_))[[BR](BR.md)] predicative ([pred](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/#_predV)) | modifier (mod) |
+| other     |                  | coordinator ([coord](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/miscT.html#_coord))[[BR](BR.md)] conjunct ([conj](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/miscT.html#_conj))[[BR](BR.md)] punctuation ([pnct](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/miscT.html#_pnct)) |
+
+
+#### See also ####
+

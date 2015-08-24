@@ -1,0 +1,35 @@
+## Dependencies ##
+
+Deep syntactic relations are called ''dependencies''. The head of the dependency (the ''governor'') determines the syntactic and semantic type of the combined phrase, whereas the subordinate word (the ''dependent'') may have a completely different syntactic and semantic type. The dependency must be licensed in the lexical entry of either the governor or the dependent. If the dependency is lexically licensed by the governor, then the dependent is called a ''complement''; if the dependency is lexically licensed by the dependent, then the dependent is called an ''adjunct''. Semantically, adjuncts act as functors to their governors, whereas complements act as arguments to their governors. This gives the following schematic translation from ''dependency trees'' (or ''deep trees'') to ''functor-argument trees'' (note that the translation is one-many, since the modifiers could have been applied in the opposite order):
+
+![http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/dep-arg-trees.png](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/dep-arg-trees.png)
+
+There is no clear-cut distinction between complements and adjuncts (cf. Helbig &amp; Schenkel 1971; Helbig 1992). Prototypical complements include subjects, direct objects and indirect objects (and other case-marked dependents), and prototypical adjuncts include time and place adverbials. Optionality is sometimes mentioned as a criterion to distinguish between complements and adjuncts, because adjuncts tend to be optional (ie, they can be deleted without leaving the phrase ungrammatical), whereas complements tend to be obligatory (ie, they cannot be deleted). But there are borderline cases where this rule of thumb does not apply. For example, within an appropriate context, most complements are optional (eg, objects can be omitted if they can be inferred from the context, and in telegraphic sentences, even the subject can be omitted).
+
+Our view is that complements and adjuncts represent different mechanisms for encoding a linguistic construction in the grammar, but with different consequences for the size of the grammar. The grammar-writer (and the human brain during language acquisition) have the objective of making the grammar as economical as possible by choosing the mechanism that will minimize: (1) the total size of the grammar (measured by the number of times a rule is stated and the size of each rule); and (2) the total number of complement or adjunct rules associated with each word. Having a large grammar carries a large memory cost, and having too many rules associated with one word carries a large processing cost. In most cases, one of the two mechanisms is much more economical than the other, but in borderline cases, the difference in economy is so small that the adjunct and complement mechanisms are equally acceptable. The main prototypical characteristics of complements and adjuncts are summarized below:
+
+|  | Adjunct mechanism | Complement mechanism |
+|:-|:------------------|:---------------------|
+| Optionality | Adjuncts tend to be optional. | Complements tend to be obligatory. |
+| Uniqueness | A governor can have several adjuncts of the same type. | A governor can have one complement of each type only (with a proper definition of "type": a verb may have more than one prepositional object ("pobj"), as long as the prepositions are different). |
+| Selection | The possible governors are characterized by having a large easily definable syntactic and/or semantic class. | The possible complements are characterized by having a large easily definable syntactic and/or semantic class. |
+| Semantics | The adjunct has a natural rule for computing the interpretation of the combined phrase, given the semantic representation of the governor as its argument. | The governor has a natural rule for computing the interpretation of the combined phrase, given the semantic representation of the complements as its argument. |
+
+**Example 1.** To illustrate these ideas, we will analyze the sentence "Peter will paint the wall today" within a dependency framework. This means that we have to hypothesize complement and adjunct rules for all the words involved, and test whether these rules generate all grammatical sentences in English (and only those sentences). The first step is to look for the grammatical category of each phrase: ie, "Peter" and "wall" are nouns, "the" is a pronoun (or determiner, if you like), "will" and "paint" are verbs, and "today" is an adverb. The second step is to look for minimal construction schemata, like: "X paints Y", "X will Y", "the X", etc. These often correspond to complement schemata, so it would be natural to hypothesize the following complement structures:
+
+  * **Peter:** no complements
+  * **X will Y:** X=subject noun (the agent), Y=verbal complement (what the agent will do)
+  * **X paints Y:** X=subject noun (the agent who paints), Y=direct object noun (what is painted)
+  * **the X:** X=noun complement
+  * **wall:** no complements
+  * **today:** no complements
+
+From these lexical rules, we can deduce that the only possibility is that "will" must be the governor of the whole sentence, with "paint" as its verbal complement and "Peter" as its subject complement (note that "Peter" agrees with "will", but not with "paint": "Peter paints/**paint the wall"); that "Peter" must be the subject of "paint" as well (so "Peter" is the complement of two verbs, but without subject agreement with the second verb "paint"), and that "the wall" is the direct object of "paint"; and, finally, that "wall" is the noun complement of "the". The only remaining word is "today". It does not seem to be a complement of "paint" or "will", since it can occur with any verb (and indeed most nouns as well); nor can it be the head of the whole sentence, because it does not have the same syntactic or semantic type as the whole sentence (for example, you can say: "I wonder whether X" where X can be "Peter will paint the wall today", "Peter will", "Peter paints the wall", but you cannot say "**I wonder whether today"). Thus, the only remaining possibility is to analyze "today" as an adjunct of "paint" (or perhaps "will"). This gives the following dependency graph:
+
+![http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/graph1.png](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/graph1.png)
+
+Note that in most cases, other analyses are possible as well. For example, many linguists analyze "the man" as a phrase headed by "man" rather than "the" (we will argue against this analysis later). The choice between the different analyses is a question about hypothesizing an underlying grammar for each of the analyses, and choosing the analysis whose corresponding grammar leads to the most precise predictions of what is correct English -- ie, the analysis that seems most capable of generating all sentences deemed grammatical by native speakers, and excluding all sentences deemed ungrammatical by native speakers).
+
+
+#### See also ####
+
