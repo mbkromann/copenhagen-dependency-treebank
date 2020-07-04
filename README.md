@@ -12,7 +12,7 @@ The treebanks are released to the computational linguistics / natural language p
 
 The Copenhagen Dependency Treebanks have been converted to other formats. Most notably: 
 
-  * [The Universal Dependencies Danish DDT](https://universaldependencies.org/treebanks/da_ddt/index.html) [GitHub](https://github.com/UniversalDependencies/UD_Danish-DDT): the original Danish Dependency Treebank has been 
+  * [The Universal Dependencies Danish DDT](https://universaldependencies.org/treebanks/da_ddt/index.html) ([GitHub](https://github.com/UniversalDependencies/UD_Danish-DDT)): the original Danish Dependency Treebank has been 
     mapped to Universal Dependency annotations, which seek to provide a standardized annotation of morphology and syntax across many different languages. 
   * [CDT2012 TreeX mapping](https://github.com/mbkromann/copenhagen-dependency-treebank/raw/master/CDT2012/treex/conversion_from_tag/slides.pdf): Zdenek Zabokrtsky has cleaned up the parallel CDT treebanks and mapped them into [TreeX](http://ufal.mff.cuni.cz/treex) format. His converted files are located in the CDT2012 folder. 
   * [SpaCy pre-trained models for Danish](https://explosion.ai/blog/spacy-v2-3): pretrained parsing models based on the Universal Dependencies Danish DDT. 
