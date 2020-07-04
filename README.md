@@ -10,15 +10,15 @@ The treebanks are released to the computational linguistics / natural language p
 
 ## Quick links ##
 
-  * [Overview](CDT.md): description of the treebanks, download, and publications.
-  * [DTAG installation](http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAGINSTALL): how to install DTAG on your Linux/UNIX machine
-  * [Download](http://code.google.com/p/copenhagen-dependency-treebank/source/checkout): download via subversion
-  * [Manual](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/manual/cdt-manual.pdf): annotation manual with relations, agreement scores and status (auto-generated from [spreadsheet](http://spreadsheets.google.com/ccc?key=0ArjTKYTQS1lWcnNUWGJrX3lZTkxDc3QxYmlqWlRXQ1E&hl=en))
-  * [Examples](http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/docs/cdt-examples.zip): a zip file with examples of annotated texts in PDF and .tag/.atag format.
+  * [Overview](CDT): description of the treebanks, download, and publications.
+  * [DTAG installation](DTAGINSTALL): how to install DTAG on your Linux/UNIX machine
+  * [Download](https://github.com/mbkromann/copenhagen-dependency-treebank/source/checkout): download via subversion
+  * [Manual](https://github.com/mbkromann/copenhagen-dependency-treebank/blob/master/manual/cdt-manual.pdf): annotation manual with relations, agreement scores and status (auto-generated from [spreadsheet](http://spreadsheets.google.com/ccc?key=0ArjTKYTQS1lWcnNUWGJrX3lZTkxDc3QxYmlqWlRXQ1E&hl=en))
+  * [Examples](https://github.com/mbkromann/copenhagen-dependency-treebank/blob/master/docs/cdt-examples.zip): a zip file with examples of annotated texts in PDF and .tag/.atag format.
   * [Treebank map](http://treebank.dk/map): an out-of-date navigable treebank map with lots of examples of relations in all five languages
-  * [DTAG HOWTO](DTAGHOWTO.md): description of the commands in the DTAG tool
-  * [CDT HOWTO](CDTHOWTO.md): description of how to perform common tasks in the CDT project (project-internal)
+  * [DTAG HOWTO](DTAGHOWTO): description of the commands in the DTAG tool
+  * [CDT HOWTO](CDTHOWTO): description of how to perform common tasks in the CDT project (project-internal)
 
 ## Example ##
 
-<img src='http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/figs/iorn-0531.kort.en.png' title='Syntax-discourse annotation from the English CDT treebank' width='800'>
+<img src='https://github.com/mbkromann/copenhagen-dependency-treebank/blob/master/figs/iorn-0531.kort.en.png' title='Syntax-discourse annotation from the English CDT treebank' width='800'>
