@@ -36,4 +36,6 @@ I still think the CDT treebanks are more correct and principled from a linguisti
 
 ## Example ##
 
+The example below shows a small text excerpt from the Copenhagen Dependency Treebank for English annotated with intra-sentence dependencies, discourse dependencies, secondary dependencies (filler-gap constructions), and coreference annotation. 
+
 <img src='https://github.com/mbkromann/copenhagen-dependency-treebank/blob/master/figs/iorn-0531.kort.en.png' title='Syntax-discourse annotation from the English CDT treebank' width='800'>
