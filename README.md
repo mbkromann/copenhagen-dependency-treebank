@@ -22,15 +22,15 @@ Universal Dependencies are a standard resource supported by a host of tools, inc
 
 However, the Universal Dependencies anotations differ significantly from the original Danish annotation in that the Copenhagen Dependency Treebanks systematically treat function words like determiners, auxiliaries, modals, and prepositions as heads, whereas Universal Grammar systematically uses content words as heads and function words as modifiers. 
 
-I still think the CDT treebanks are more correct and principled from a linguistic viewpoint, grounded as they are in the dependency theory [Discontinuous Grammar](https://github.com/mbkromann/copenhagen-dependency-treebank/blob/master/docs/2006-buch-kromann-disssertation.pdf). So take a closer look at the treebanks and Discontinous Grammar if you are more interested in linguistics than in parsing, or you want to explore some of the many features of the DDT annotation that are not preserved in the UD-DDT, such as secondary dependencies, discourse annotation, and coreference annotation (be warned that these annotations are still in a somewhat rudimentary state, since I left the field of computational linguistics before their completion). 
+I still think the CDT treebanks are more correct and principled from a linguistic viewpoint, grounded as they are in the dependency theory [Discontinuous Grammar](https://github.com/mbkromann/copenhagen-dependency-treebank/raw/master/docs/2006-buch-kromann-disssertation.pdf). So take a closer look at the treebanks and Discontinous Grammar if you are more interested in linguistics than in parsing, or you want to explore some of the many features of the DDT annotation that are not preserved in the UD-DDT, such as secondary dependencies, discourse annotation, and coreference annotation (be warned that these annotations are still in a somewhat rudimentary state, since I left the field of computational linguistics before their completion). 
 
 ## Quick links ##
 
   * [Overview](https://github.com/mbkromann/copenhagen-dependency-treebank/wiki/CDT): description of the treebanks, download, and publications.
   * [DTAG installation](https://github.com/mbkromann/copenhagen-dependency-treebank/wiki/DTAGINSTALL): how to install DTAG on your Linux/UNIX machine
   * [Download](https://github.com/mbkromann/copenhagen-dependency-treebank/source/checkout): download via subversion
-  * [Manual](https://github.com/mbkromann/copenhagen-dependency-treebank/blob/master/manual/cdt-manual.pdf): annotation manual with relations, agreement scores and status (auto-generated from [spreadsheet](http://spreadsheets.google.com/ccc?key=0ArjTKYTQS1lWcnNUWGJrX3lZTkxDc3QxYmlqWlRXQ1E&hl=en))
-  * [Examples](https://github.com/mbkromann/copenhagen-dependency-treebank/blob/master/docs/cdt-examples.zip): a zip file with examples of annotated texts in PDF and .tag/.atag format.
+  * [Manual](https://github.com/mbkromann/copenhagen-dependency-treebank/raw/master/manual/cdt-manual.pdf): annotation manual with relations, agreement scores and status (auto-generated from [spreadsheet](http://spreadsheets.google.com/ccc?key=0ArjTKYTQS1lWcnNUWGJrX3lZTkxDc3QxYmlqWlRXQ1E&hl=en))
+  * [Examples](https://github.com/mbkromann/copenhagen-dependency-treebank/raw/master/docs/cdt-examples.zip): a zip file with examples of annotated texts in PDF and .tag/.atag format.
   * [DTAG HOWTO](https://github.com/mbkromann/copenhagen-dependency-treebank/wiki/DTAGHOWTO): description of the commands in the DTAG tool
   * [CDT HOWTO](https://github.com/mbkromann/copenhagen-dependency-treebank/wiki/CDTHOWTO): description of how to perform common tasks in the CDT project (project-internal)
 
