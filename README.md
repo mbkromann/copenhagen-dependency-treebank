@@ -36,6 +36,6 @@ I still think the CDT treebanks are more correct and principled from a linguisti
 
 ## Example ##
 
-The example below shows a small text excerpt from the Copenhagen Dependency Treebank for English annotated with intra-sentence dependencies, discourse dependencies, secondary dependencies (filler-gap constructions), and coreference annotation. In Discontinuous Grammar, the underlying dependency theory, discourse structures are assumed to form one big dependency tree with primary dependencies, supplemented with additional linguistic relations that encode other phenomena (such as coreference). 
+The example below shows a small text excerpt from the Copenhagen Dependency Treebank for English annotated with intra-sentence dependencies, discourse dependencies, secondary dependencies (filler-gap constructions), and coreference annotation. In Discontinuous Grammar, the underlying dependency theory, discourse structures are assumed to form one big dependency tree with primary dependencies, supplemented with additional linguistic relations that encode other phenomena (such as coreference).  The primary dependency tree may be discontinuous (non-projective), but there is an underlying continuous (projective) surface tree which controls word order and can be deduced from the dependency tree. 
 
 <img src='https://github.com/mbkromann/copenhagen-dependency-treebank/blob/master/figs/iorn-0531.kort.en.png' title='Syntax-discourse annotation from the English CDT treebank' width='800'>
