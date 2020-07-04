@@ -1,4 +1,4 @@
-The purpose of this project is to create linguistically annotated text collections (treebanks) on the basis of the dependency-based grammar formalism Discontinuous Grammar. The treebanks created in the project can be used to train natural language parsers, syntax-based machine translation systems, and other statistically based natural language applications.
+The Copenhagen Dependency Treebanks are a set of linguistically annotated text collections (treebanks) on the basis of the dependency-based grammar formalism Discontinuous Grammar. The treebanks created in the project can be used to train natural language parsers, syntax-based machine translation systems, and other statistically based natural language applications.
 
 The project hosts the following treebanks:
 
@@ -6,7 +6,7 @@ The project hosts the following treebanks:
   * the 95,000 word **Copenhagen Danish-English Dependency Treebank**;
   * work-in-progress with respect to **Copenhagen Dependency Treebanks** for Danish, English, German, Italian, and Spanish.
 
-The treebanks are released to the computational linguistics / natural language processing community under an open-source license (LGPL). For more information about the project, please visit our [CDT](CDT.md) page.
+The treebanks are released to the computational linguistics / natural language processing community under various open-source licenses: the Gnu Lesser Public License for Libraries, the MIT License, and the Creative Commons License (whatever suits your needs best). For more information about the project, please visit our [CDT](CDT.md) page.
 
 ## Quick links ##
 
